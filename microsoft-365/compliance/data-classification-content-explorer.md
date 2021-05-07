@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O explorador de conteúdo permite que se veja nativamente os itens rotulados.
-ms.openlocfilehash: 19ad68d3c32046754e366919e8c4e66336945624
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: b39dd09012e7cde6c19ea88a0915154da84c712a
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080720"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114211"
 ---
 # <a name="get-started-with-content-explorer"></a>Introdução ao gerenciador de conteúdo
 
@@ -82,7 +82,7 @@ O Explorador de conteúdo mostra uma imagem instantânea atual dos itens que tê
 
 ### <a name="sensitive-information-types"></a>Tipos de informações confidenciais
 
-Uma **política DLP** ajuda a proteger informações confidenciais, que são definidas como um [tipo de informações confidenciais](data-loss-prevention-policies.md). O Microsoft 365 inclui [definições para vários tipos de informações confidenciais comuns](sensitive-information-type-entity-definitions.md) de diferentes regiões, prontas para você usar. Por exemplo, um número de cartão de crédito, números de contas bancárias, números de identificação nacional e números de serviço do Windows Live ID.
+Uma **política DLP** ajuda a proteger informações confidenciais, que são definidas como um [tipo de informações confidenciais](dlp-learn-about-dlp.md). O Microsoft 365 inclui [definições para vários tipos de informações confidenciais comuns](sensitive-information-type-entity-definitions.md) de diferentes regiões, prontas para você usar. Por exemplo, um número de cartão de crédito, números de contas bancárias, números de identificação nacional e números de serviço do Windows Live ID.
 
 > [!NOTE]
 > O Gerenciador de conteúdo atualmente não examina os tipos de informações confidenciais no Exchange Online.
@@ -145,4 +145,4 @@ Você pode pesquisar em:
 - [Saiba mais sobre rótulos de confidencialidade](sensitivity-labels.md)
 - [Saiba mais sobre as políticas de retenção e rótulos de retenção](retention.md)
 - [Tipo de entidade de informações confidenciais definitions.md](sensitive-information-type-entity-definitions.md)
-- [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)
+- [Saiba mais sobre prevenção contra perda de dados](dlp-learn-about-dlp.md)

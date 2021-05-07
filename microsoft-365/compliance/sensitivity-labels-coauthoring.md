@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: Ative uma configuração que permite a coautoria e o Salvamento Automático em aplicativos da área de trabalho para documentos rotulados e criptografados no SharePoint e no OneDrive.
-ms.openlocfilehash: 34c674dc5fb9be9cb5572ce1f14e11a0f8ab14ae
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: a35e9fe818d697667ecf002a232d84f90cf53a61
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034220"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764360"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>Ativar a coautoria para arquivos criptografados com rótulos de confidencialidade
 
@@ -60,7 +60,7 @@ Você pode ler mais sobre essa alteração de metadados nos seguintes recursos:
 
 - Open Specifications: [2.6.3 LabelInfo versus Propriedades personalizadas do documento](/openspecs/office_file_formats/ms-offcrypto/13939de6-c833-44ab-b213-e0088bf02341)
 
-Por causa dessas mudanças, não habilite essa configuração se você tiver aplicativos, serviços, scripts ou ferramentas em sua organização que leem ou gravem metadados de rotulagem no local antigo. Se você fizer isso, aqui estão alguns exemplos de consequências:
+Por causa dessas mudanças, não habilite essa configuração se você tiver algum aplicativo, serviço, script ou ferramenta em sua organização que lê ou grava metadados de rotulagem no local antigo. Se você fizer isso, aqui estão alguns exemplos de consequências:
 
 - Um documento rotulado parece não estar rotulado para os usuários
 
@@ -104,7 +104,7 @@ Tenha certeza de que entende os seguintes pré-requisitos antes de ativar esse r
     - **Aplicativos e serviços que usam o SDK da Proteção de Informações da Microsoft:** 
         - Versão mínima de 1.7 
 
-Os serviços do Microsoft 365 suportam automaticamente os novos metadados de rotulagem quando você ativa esse recurso. Por exemplo:
+Os serviços do Microsoft 365 oferecem suporte automaticamente aos novos metadados de confidencialidade quando você ativa esse recurso. Por exemplo:
 
 - [Políticas de rotulagem automática](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)
 - [Políticas DLP que usam rótulos de confidencialidade como condições](dlp-sensitivity-label-as-condition.md)
@@ -140,7 +140,7 @@ Esta versão prévia da coautoria para arquivos criptografados com rótulos de c
 ## <a name="how-to-enable-co-authoring-for-files-with-sensitivity-labels"></a>Como ativar a coautoria para arquivos com rótulos de confidencialidade
 
 > [!CAUTION]
-> Ativar essa configuração é uma ação unidirecional. Enquanto o recurso estiver em versão preliminar, teste-o somente em um ambiente de não produção e apenas depois que você ler e compreender as alterações de metadados, pré-requisitos, limitações e quaisquer problemas conhecidos documentados nesta página.
+> Ativar essa configuração é uma ação unidirecional. Enquanto o recurso estiver em versão preliminar, teste-o apenas em um ambiente de não produção e somente depois de ler e compreender as alterações de metadados, pré-requisitos, limitações e quaisquer problemas conhecidos documentados nesta página.
 
 Durante a versão preliminar, você deve usar uma URL específica para acessar essa configuração no Centro de conformidade do Microsoft 365.
 
@@ -179,6 +179,6 @@ Se um engenheiro de suporte desabilitar essa configuração no seu locatário:
 
 - O novo formato e local de metadados dos documentos do Office que foram usados enquanto a configuração estava habilitada não serão copiados para o formato e o local originais. Como resultado, essas informações de rotulagem para arquivos não criptografados do Word, do Excel e do PowerPoint serão perdidas.
 
-- A coautoria e o Salvar Automático não funcionam mais no seu locatário.
+- A coautoria e o salvamento automático não funcionam mais em seu locatário para documentos rotulados e criptografados.
 
 - Os rótulos de confidencialidade permanecem habilitados para arquivos do Office no OneDrive e no SharePoint.

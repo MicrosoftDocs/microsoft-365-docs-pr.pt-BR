@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba como configurar as configurações de proxy e conexão com a Internet do dispositivo para ponto de extremidade DLP.
-ms.openlocfilehash: 4d1aa3b75ec0a0720f3d92c847bf7c6cde6d966f
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 5da9161f2f59ef8a40ca8a7d302dc7de578dba39
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199270"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114119"
 ---
 # <a name="configure-device-proxy-and-internet-connection-settings-for-endpoint-dlp"></a>Configurar as configurações de proxy e conexão com a Internet do dispositivo para ponto de extremidade DLP
 
@@ -142,7 +142,7 @@ Tópicos relacionados •   Dispositivos Windows 10 integrados •   Solucionar 
 
 - [Saiba mais sobre a Prevenção contra perda de dados do ponto de extremidade](endpoint-dlp-learn-about.md)
 - [Usando a prevenção contra perda de dados do ponto de extremidade](endpoint-dlp-using.md)
-- [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)
+- [Saiba mais sobre prevenção contra perda de dados](dlp-learn-about-dlp.md)
 - [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
 - [Começar a usar o Explorador de atividades](data-classification-activity-explorer.md)
 - [Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/)

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba como configurar as políticas de prevenção contra perda de dados (DLP) para usar os locais de prevenção contra perda de dados do Ponto de extremidade (EPDLP) do Microsoft 365.
-ms.openlocfilehash: 91e8a25c2a15e82cd7f286d1110b1c87bedf31d5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1b918346467f9878582dfb301f48e530bfb400f8
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926429"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114089"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>Usando a prevenção contra perda de dados do Endpoint
 
@@ -122,7 +122,8 @@ Para ajudar você a se familiarizar com os recursos d Endpoint DLP e como eles s
 
 > [!IMPORTANT]
 > Esses cenários do Endpoint DLP não são os procedimentos oficiais para criar e ajustar as políticas DLP. Confira os tópicos a seguir quando você precisar trabalhar com políticas de DLP em situações gerais:
->- [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)
+
+>- [Saiba mais sobre prevenção contra perda de dados](dlp-learn-about-dlp.md)
 >- [Introdução à política DLP padrão](get-started-with-the-default-dlp-policy.md)
 >- [Criar uma política DLP a partir de um modelo](create-a-dlp-policy-from-a-template.md)
 >- [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
@@ -216,7 +217,7 @@ Esses cenários exigem que você já tenha dispositivos integrados e relatados n
 
 - [Saiba mais sobre a Prevenção contra perda de dados do ponto de extremidade](endpoint-dlp-learn-about.md)
 - [Introdução à Prevenção contra perda de dados do ponto de extremidade](endpoint-dlp-getting-started.md)
-- [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)
+- [Saiba mais sobre prevenção contra perda de dados](dlp-learn-about-dlp.md)
 - [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
 - [Começar a usar o Explorador de atividades](data-classification-activity-explorer.md)
 - [Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/)

@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Saiba mais sobre opções de conformidade Microsoft 365 grupos, Teams e SharePoint colaboração.
-ms.openlocfilehash: 92b668c5cbf5d105ccd1373a6ef8550400e4539f
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: a9a94f0c1886ac5b60292f5f4d4b9b9d6d84380c
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114023"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52241671"
 ---
 # <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Opções de conformidade para Microsoft 365 grupos, Teams e SharePoint colaboração
 
@@ -38,11 +38,13 @@ A tabela a seguir fornece uma referência rápida para os controles de conformid
 ||Classificar automaticamente conteúdos confidenciais|[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](../compliance/apply-sensitivity-label-automatically.md)|
 ||Criptografar conteúdos confidenciais|[Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia](../compliance/encryption-sensitivity-labels.md)|
 |Proteção de informações|||
-||Impedir a perda de informações confidenciais|[Saiba mais sobre prevenção contra perda de dados](../compliance/dlp-learn-about-dlp.md)|
+||Impedir a perda de informações confidenciais|[Saiba mais sobre a prevenção contra perda de dados](../compliance/dlp-learn-about-dlp.md)|
 ||Proteja informações confidenciais no chat.|[Prevenção contra perda de dados e Microsoft Teams](../compliance/dlp-microsoft-teams.md)|
 ||Definir as informações confidenciais da sua organização|[Tipos personalizados de informações confidenciais](../compliance/sensitive-information-type-learn-about.md)|
 |Segmentação de usuário|||
 ||Restringir a comunicação entre segmentos de usuário|[Barreiras de informações](../compliance/information-barriers.md)|
+|Residência de dados|||
+||Armazenar dados em localizações geográficas específicas|[Microsoft 365 Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo)|
 
 ## <a name="information-retention"></a>Retenção de informações
 
@@ -93,7 +95,7 @@ Recursos adicionais:
 
 As políticas de DLP podem impedir o compartilhamento acidental de informações confidenciais entre SharePoint, Exchange e Teams. Você pode criar políticas que especifiquem ações a tomar (como bloquear o acesso) com base em um conjunto de regras.
 
-- [Saiba mais sobre prevenção contra perda de dados](../compliance/dlp-learn-about-dlp.md)
+- [Saiba mais sobre a prevenção contra perda de dados](../compliance/dlp-learn-about-dlp.md)
 
 A DLP no Teams pode ajudar a proteger informações confidenciais Teams mensagens de chat e canal excluindo mensagens que contêm informações confidenciais.
 
@@ -112,6 +114,14 @@ Com barreiras de informações, você pode segmentar seus dados e usuários para
 - [Barreiras de informação no Microsoft Teams](/microsoftteams/information-barriers-in-teams)
 
 - [Usar barreiras de informações com SharePoint](/sharepoint/information-barriers)
+
+## <a name="data-residency"></a>Residência de dados
+
+Com Microsoft 365 multigeogeo, você pode provisionar e armazenar dados em repouso nas localizações geográficas escolhidas para atender aos requisitos de residência de dados. Em um ambiente Multi-Geo, seu locatário Microsoft 365 consiste em um local central (onde sua assinatura Microsoft 365 foi originalmente provisionada) e um ou mais locais de satélite onde você pode armazenar dados.
+
+- [Microsoft 365 Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo)
+
+- [Plano do Microsoft 365 Multi-Geo](/microsoft-365/enterprise/plan-for-multi-geo)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

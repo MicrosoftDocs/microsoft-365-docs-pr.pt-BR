@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Criar tipos personalizados de informações confidenciais com classificação baseada em Correspondência Exata de Dados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9288a7bc1bf93f1fa7ac329305bdc45c3cb1528c
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: a6e4429718de05362bd6bd3336c9d19ceeec64b9
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408640"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52113993"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match
 
@@ -48,7 +48,7 @@ Mas e se você quiser um tipo de informação confidencial personalizado (SIT) q
 
 ![Classificação baseada em EDM](../media/EDMClassification.png)
 
-A classificação baseada no EDM permite criar tipos personalizados de informações confidenciais que fazem referência a valores exatos em um banco de dados de informações confidenciais. O banco de dados pode ser atualizado diariamente e pode conter até 100 milhões de linhas de dados. Assim como funcionários, pacientes ou clientes vêm e vão e os registros são alterados, os tipos personalizados de informações confidenciais permanecem atualizados e aplicáveis. Você também pode usar a classificação baseada em EDM com políticas, como [políticas de prevenção contra perda de dados](data-loss-prevention-policies.md) (DLP) ou [políticas de arquivo do Microsoft Cloud App Security](/cloud-app-security/data-protection-policies).
+A classificação baseada no EDM permite criar tipos personalizados de informações confidenciais que fazem referência a valores exatos em um banco de dados de informações confidenciais. O banco de dados pode ser atualizado diariamente e pode conter até 100 milhões de linhas de dados. Assim como funcionários, pacientes ou clientes vêm e vão e os registros são alterados, os tipos personalizados de informações confidenciais permanecem atualizados e aplicáveis. Você também pode usar a classificação baseada em EDM com políticas, como [políticas de prevenção contra perda de dados](dlp-learn-about-dlp.md) ou [políticas de arquivo do Microsoft Cloud App Security](/cloud-app-security/data-protection-policies).
 
 > [!NOTE]
 > A Proteção de Informações do Microsoft 365 oferece suporte, em visualização, a idiomas de conjunto de caracteres de byte duplo para:
@@ -167,7 +167,7 @@ Quando você inclui o campo * **ignoreDelimiters** _ com caracteres suportados, 
 - \~
 - \; 
 
-- O sinalizador `ignoredDelimiters` não tem suporte para:
+O sinalizador `ignoredDelimiters` não tem suporte para:
 - caracteres de 0 a 9
 - A-Z
 - a-z
@@ -301,6 +301,8 @@ Nesse exemplo, observe que:
 
 > [!NOTE]
 > Pode levar de 10 a 60 minutos para atualizar o EDMSchema com as adições. A atualização deve ser concluída antes que você execute as etapas que usam as adições.
+ 
+Após ter importado seu pacote de regras com seu tipo de informação sensível EDM e ter importado sua tabela de dados sensíveis, você pode testar seu tipo recém-criado usando a função **Teste** no assistente de EDM no centro de conformidade. Veja [Use o Esquema Exato de Combinação de Dados e o Assistente de Tipo de Informação Sensível](sit-edm-wizard.md) para instruções sobre o uso desta funcionalidade.
 
 #### <a name="editing-the-schema-for-edm-based-classification"></a>Editando o esquema para classificação baseada em EDM
 
@@ -369,7 +371,7 @@ O hash e o carregamento podem ser feitos usando um computador, ou você pode sep
 
 Se você quiser usar o hash e carregá-los de um computador, será preciso fazer isso em um computador que possa se conectar diretamente ao seu locatário do Microsoft 365. Isso exige que os arquivos de dados confidenciais de texto sem formatação estejam no computador para hash.
 
-Se você não quiser expor o seu arquivo de dados confidenciais de texto não criptografado, poderá hashá-lo em um computador em um local seguro e, em seguida, copiar o arquivo de hash e o arquivo salt para um computador que possa conectar-se diretamente ao locatário do Microsoft 365 para carregamento. Neste cenário, você precisará do EDMUploadAgent em ambos os computadores.
+Se você não quiser expor seu arquivo de dados sensíveis ao texto claro, você pode fazer hash em um computador em um local seguro e depois copiar o arquivo hash e o arquivo sal para um computador que possa se conectar diretamente ao seu locatário do Microsoft 365 para upload. Neste cenário, você precisará do EDMUploadAgent em ambos os computadores.
 
 > [!IMPORTANT]
 > Caso tenha usado o Assistente de Correspondência Exata de Dados e assistente de tipo de informação confidencial para criar seus arquivos de esquema e padrão, você ***deve*** baixar o esquema.
@@ -427,7 +429,7 @@ Esse computador deve ter acesso direto ao seu locatário do Microsoft 365.
    > Você pode carregar dados com o EDMUploadAgent para qualquer armazenamento de dados apenas duas vezes por dia.
 
    > [!TIP]
-   > Para obter uma lista com os parâmetros de comando com suporte, execute o agente sem argumentos. Por exemplo, ‘EdmUploadAgent.exe’.
+   > Para obter uma lista com os parâmetros de comando com suporte, execute o agente sem argumentos. Por exemplo 'EdmUploadAgent.exe'.
 
 2. Para autorizar o Agente de Carregamento EDM, abra o prompt de comando (como um administrador), mude para o diretório **C:\EDM\Data** e execute o seguinte comando:
 
@@ -655,7 +657,7 @@ Os tipos de informações confidenciais do EDM para os cenários a seguir estão
 
 - [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
 - [Aprenda sobre os tipos de informações confidenciais](sensitive-information-type-learn-about.md)
-- [Visão geral das políticas DLP](data-loss-prevention-policies.md)
+- [Saiba mais sobre prevenção contra perda de dados](dlp-learn-about-dlp.md)
 - [Microsoft Cloud App Security](/cloud-app-security)
 - [New-DlpEdmSchema](/powershell/module/exchange/new-dlpedmschema)
 - [Modificar o esquema de Correspondência de Dados Exato para usar a correspondência configurável](sit-modify-edm-schema-configurable-match.md)

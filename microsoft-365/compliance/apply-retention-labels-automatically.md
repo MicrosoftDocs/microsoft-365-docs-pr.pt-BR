@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Criar rótulos de retenção e políticas de rotulação automáticas, para que você possa aplicar automaticamente os rótulos para reter o que precisa e excluir o que não
-ms.openlocfilehash: 6b7e8f91706a9d12135069f0a6753c76eaff1fb4
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 12e909964422d0c15312c1794ce3d9aacc2a1da8
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920014"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107633"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Aplicar automaticamente um rótulo de retenção para reter ou excluir conteúdo
 
@@ -44,7 +44,7 @@ Os rótulos de retenção de aplicação automática são excelentes porque:
 Você pode aplicar rótulos de retenção ao conteúdo automaticamente quando esse conteúdo contiver informações confidenciais, palavras-chave, propriedades pesquisáveis ou uma correspondência para [classificadores treináveis](classifier-get-started-with.md).
 
 > [!TIP]
-> Agora, no modo de visualização, use as propriedades pesquisáveis para identificar [gravações das reuniões do Teams](#microsoft-teams-meeting-recordings).
+> Lançado recentemente, use propriedades pesquisáveis para identificar [As gravações das reuniões das equipes](#microsoft-teams-meeting-recordings).
 
 Os processos para aplicar automaticamente um rótulo de retenção com base nessas condições:
 
@@ -134,11 +134,11 @@ Você pode aplicar os rótulos de retenção automaticamente ao conteúdo quando
 
 Ao criar políticas de rótulo de retenção de aplicação automática para informações confidenciais, você vê a mesma lista de modelos de política de quando cria uma política de prevenção contra perda de dados (DLP). Cada modelo de política é pré-configurado para procurar tipos específicos de informações confidenciais. Por exemplo, o modelo mostrado aqui procura por U.S. ITIN, SSN e números de passaporte da categoria **Privacidade** e **modelo de Dados de Informações de Identificação do Usuário Final (PII) dos EUA**:
 
-![Modelos de política com tipos de informações confidenciais](../media/dafd87d4-c7bb-439a-ac7b-193c018f98a5.png)
+![Modelos de política com tipos de informações confidenciais](../media/sensitive-info-configuration.png)
 
-Para obter mais informações sobre os tipos de informações confidenciais, confira [Definições da entidade de tipo de informações confidenciais](sensitive-information-type-entity-definitions.md).
+Para obter mais informações sobre os tipos de informações confidenciais, confira [Definições da entidade de tipo de informações confidenciais](sensitive-information-type-entity-definitions.md). Atualmente, [correspondências exatas de dados](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md) e [impressão digital do documento](document-fingerprinting.md) não são suportadas neste cenário.
 
-Após selecionar um modelo de política, você pode adicionar ou remover quaisquer tipos de informações confidenciais e pode alterar a contagem de instâncias e a precisão da correspondência. Na captura de tela de exemplo mostrada a seguir, um rótulo de retenção será automaticamente aplicado apenas quando:
+Depois de selecionar um modelo de política, você poderá adicionar ou remover qualquer tipo de informação confidencial e poderá alterar a contagem de instâncias e a precisão de correspondência. Na captura de tela do exemplo mostrado a seguir, um rótulo de retenção será aplicado automaticamente apenas quando:
   
 - O tipo de informações confidenciais detectadas tiver uma precisão de correspondência (ou um nível de confiança) de pelo menos 75. Muitos tipos de informações confidenciais são definidos com vários padrões, em que um padrão com maior precisão de correspondência requer mais evidências para ser encontrado (como palavras-chave, datas ou endereços), enquanto um padrão com precisão de correspondência inferior requer menos evidências. Quanto menor for a precisão de correspondência **min**, mais fácil será que o conteúdo corresponda à condição.
 
@@ -228,7 +228,7 @@ Observe que este exemplo final usa a melhor prática de sempre incluir operadore
 ##### <a name="microsoft-teams-meeting-recordings"></a>Gravações de reunião do Microsoft Teams
 
 > [!NOTE]
-> A capacidade de reter e excluir gravações de reunião do Teams está em versão prévia e não funciona antes de as gravações serem salvas no Microsoft OneDrive ou no Microsoft Office SharePoint Online. Para saber mais, confira[Usar o OneDrive for Business e o SharePoint Online ou Stream para gravações de reunião](/MicrosoftTeams/tmr-meeting-recording-change).
+> A capacidade de reter e excluir gravações de reuniões do Teams não funcionará antes que as gravações sejam salvas no OneDrive ou no SharePoint. Para saber mais, confira[Usar o OneDrive for Business e o SharePoint Online ou Stream para gravações de reunião](/MicrosoftTeams/tmr-meeting-recording-change).
 
 Para identificar as gravações de reunião do Microsoft Teams que estão armazenadas nas contas do OneDrive do usuário ou no SharePoint, especifique o seguinte para o **Editor de consulta palavra-chave**:
 
@@ -236,7 +236,7 @@ Para identificar as gravações de reunião do Microsoft Teams que estão armaze
 ProgID:Media AND ProgID:Meeting
 ```
 
-Na maioria das vezes, as gravações de reuniões são salvas no Microsoft OneDrive. Mas para reuniões de canal, eles são salvos no Microsoft Office SharePoint Online.
+Na maioria das vezes, as gravações de reuniões são salvas no OneDrive. Mas para reuniões de canal, elas são salvas no SharePoint.
 
 
 #### <a name="auto-apply-labels-to-content-by-using-trainable-classifiers"></a>Aplicar rótulos automaticamente ao conteúdo usando classificadores treináveis
@@ -285,7 +285,7 @@ Algumas configurações não podem ser alteradas depois que o rótulo ou políti
 
 ### <a name="deleting-retention-labels"></a>Excluindo rótulos de retenção
 
-Você pode excluir rótulos de retenção que não estão incluídos atualmente em nenhuma política de rótulo de retenção, que não estão configurados para retenção baseada em eventos, ou marcar itens como registros regulatórios. A capacidade de excluir rótulos de retenção que marcam itens como registros está sendo implementada na versão prévia.
+Você pode excluir rótulos de retenção que não estão incluídos atualmente em nenhuma política de rótulo de retenção, que não estão configurados para retenção baseada em eventos, ou marcar itens como registros regulatórios.
 
 Quanto aos rótulos de retenção que podem ser excluídos, se eles foram aplicados a itens, a exclusão falhará e você verá um link para o explorador de conteúdos para identificar os itens rotulados.
 

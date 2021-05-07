@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informações para administradores de TI para gerenciar rótulos de confidencialidade em aplicativos do Office para área de trabalho, dispositivos móveis e Web.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3aa5c8065b882dff670d6b829141955bf615d933
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 55c22c9901f163fdf64e6148d5b2c19e51136bc1
+ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599836"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "52086798"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Gerenciar rótulos de confidencialidade em aplicativos do Office
 
@@ -65,7 +65,7 @@ Os números listados são as versão mínima do aplicativo do Office necessária
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [Sim – aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Permitir que usuários atribuam permissões: <br /> – Solicitar aos usuários](encryption-sensitivity-labels.md#let-users-assign-permissions)                     |2004+ | 16.35+   | Em revisão   | Em revisão         | Em revisão                                                        |
 |[Atividade do usuário relacionada a rótulos de auditoria](data-classification-activity-explorer.md)                      | 2011+ | 16.43+ | 2.46+ | Em implantação: 16.0.13628+ | Sim <sup>\*</sup>                                                        |
-|[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+             | Em implantação: 16.45+         | Visualização: [Canal Beta](https://office.com/insider) | Em implantação: 16.0.13628+ | Em revisão                                            
+|[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+             | Em implantação: 16.45+         | Em implantação: 2.47+ | Em implantação: 16.0.13628+ | Em implantação                                            
 |[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009+                                  | Em implantação: 16.44+ | Em revisão | Em revisão | [Sim – aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Suporte a coautoria e salvamento automático](sensitivity-labels-coauthoring.md) de documentos rotulados e criptografados | Visualização: [Canal Atual (Visualização)](https://office.com/insider) | Visualização: [Canal Beta](https://office.com/insider) | Em revisão | Em revisão | [Sim – aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |
@@ -85,20 +85,19 @@ Os números listados são as versão mínima do aplicativo do Office necessária
 |[Exigir uma justificativa para alterar um rótulo](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Sim               |
 |[Fornecer um link de ajuda para uma página de ajuda personalizada](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Sim               |
 |[Marcar o conteúdo](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Sim               |
-|[Marcações dinâmicas com variáveis](#dynamic-markings-with-variables) <sup>1</sup>                                              | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Sim               |
+|[Marcações dinâmicas com variáveis](#dynamic-markings-with-variables)                                              | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Sim               |
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Sim               |
 |[Permitir que usuários atribuam permissões: <br /> – Não Encaminhar](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Sim               |
-|[Permitir que usuários atribuam permissões: <br /> – Criptografar Somente](encryption-sensitivity-labels.md#let-users-assign-permissions)  |2011+ | Em revisão | Em revisão  | Em revisão | Em implantação |
-|[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | Em implantação: 2101+                        | 16.43+ <sup>2</sup>                    | Em revisão            | Em revisão                | Sim                |
+|[Permitir que usuários atribuam permissões: <br /> – Criptografar Somente](encryption-sensitivity-labels.md#let-users-assign-permissions)  |2011+ | 16.48+ | 4.2112.0+  | 4.2112.0+ | Sim |
+|[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+                        | 16.43+ <sup>\*</sup>                    | Em implantação: 4.2111+            | Em implantação: 4.2111+                | Sim                |
 |[Atividade do usuário relacionada a rótulos de auditoria](data-classification-activity-explorer.md) | 2011+ | Em revisão | Em revisão           | Em revisão               | Em revisão |
-|[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009+                      | 16.44+ <sup>2</sup>                    | Em revisão           | Em revisão               | Sim |
+|[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009+                      | 16.44+ <sup>\*</sup>                    | Em revisão           | Em revisão               | Sim |
+|[Configurações diferentes para rótulo padrão e rotulagem obrigatória](#outlook-specific-options-for-default-label-and-mandatory-labeling)                    | Implantação na versão prévia: [Canal beta](https://office.com/insider)                      | 16.43.1108+                   | 4.2111+           | 4.2111+               | Sim |
 |
 
 **Notas de rodapé:**
 
-<sup>1</sup>Atualmente, são suportadas apenas as variáveis [Item.Label e If.App](#dynamic-markings-with-variables)
-<br />
-<sup>2</sup> Requer o [novo Outlook para Mac](https://support.microsoft.com/office/the-new-outlook-for-mac-6283be54-e74d-434e-babb-b70cefc77439)
+<sup>\*</sup> Requer o [novo Outlook para Mac](https://support.microsoft.com/office/the-new-outlook-for-mac-6283be54-e74d-434e-babb-b70cefc77439)
 
 
 ## <a name="office-built-in-labeling-client-and-other-labeling-solutions"></a>Cliente de rotulagem interna do Office e outras soluções de rotulagem
@@ -106,8 +105,7 @@ Os números listados são as versão mínima do aplicativo do Office necessária
 O cliente de rotulagem interna do Office baixa os rótulos de confidencialidade e as configurações da política de rótulo de confidencialidade dos seguintes centros de administração:
 
 - Centro de conformidade do Microsoft 365
-- Centro de segurança do Microsoft 365
-- Centro de Segurança e Conformidade do Office 365
+- Centro de Segurança e Conformidade do Office 365 (portal de administração mais antigo)
 
 Para usar o cliente de rotulagem interna do Office, você deve ter uma ou mais [políticas de rótulo publicadas](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) para os usuários de um dos centros de administração listados, e uma [versão com suporte do Office](#support-for-sensitivity-label-capabilities-in-apps).
 
@@ -134,6 +132,7 @@ Para Microsoft Word 2016, Excel 2016, PowerPoint 2016 e Outlook 2016, especifiqu
 |PowerPoint     |   `MSIP.PowerPointAddin`      |
 |Outlook | `MSIP.OutlookAddin` |
 | | | 
+
 
 Implemente este cenário usando a Política de Grupo ou usando o [Serviço de política de nuvem do Office](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service).
 
@@ -167,17 +166,19 @@ Os rótulos de confidencialidade configurados para aplicar criptografia removem 
 - Para um documento:  **Arquivo** > **Informações** > **Proteger Documento** > **Restringir Acesso**
 - para um email: Na guia **Opções** > **Criptografar** 
   
-Quando os usuários inicialmente rotulam um documento ou email, eles sempre poderão sobrepor suas configurações de rótulos com suas próprias configurações de criptografia. Por exemplo:
+Quando os usuários inicialmente rotulam um documento ou email, eles podem substituir as definições de configuração de rótulo por suas próprias configurações de criptografia. Por exemplo:
 
 - Um usuário aplica o rótulo **Confidencial \ Todos os Funcionários** a um documento e esse rótulo é configurado para aplicar configurações de criptografia para todos os usuários da organização. Em seguida, o usuário define manualmente as configurações do IRM para restringir o acesso a um usuário de fora da organização. O resultado final é um documento rotulado como **Confidencial \ Todos os Funcionários** e criptografado, mas os usuários de sua organização não conseguem abri-lo como esperado.
 
-- Um usuário aplica o rótulo **Confidencial \ Somente Destinatários** a um email, e esse email está configurado para aplicar a configuração de criptografia de **Não Encaminhar**. Em seguida, o usuário define manualmente as configurações do IRM para que o email seja irrestrito. O resultado final é que o email poderá ser encaminhado pelos destinatários, apesar de ter o rótulo **Confidencial \ Somente Destinatários**.
+- Um usuário aplica o rótulo **Confidencial \ Somente Destinatários** a um email, e esse email está configurado para aplicar a configuração de criptografia de **Não Encaminhar**. No aplicativo do Outlook, esse usuário define manualmente as configurações do IRM para que o email seja irrestrito. O resultado final é que o email poderá ser encaminhado pelos destinatários, apesar de ter o rótulo **Confidencial \ Somente Destinatários**.
+    
+    Como exceção, para o Outlook na Web, as opções do menu **Criptografar** não estão disponíveis para um usuário selecionar quando o rótulo atualmente selecionado aplica a criptografia.
 
 - Um usuário aplica o rótulo **Geral** a um documento, e esse rótulo não está configurado para aplicar criptografia. Em seguida, o usuário define manualmente as configurações do IRM para restringir o acesso ao documento. O resultado final é um documento rotulado como **Geral**, mas que também aplica criptografia para que alguns usuários não possam abri-lo como esperado.
 
 Se o documento ou email já estiver identificado, um usuário poderá fazer qualquer uma dessas ações se o conteúdo ainda não estiver criptografado, ou se eles tiverem o [direito de uso](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) Exportar ou Controle Total. 
 
-Para uma experiência de rótulos mais consistente com relatórios significativos, forneça rótulos apropriados e diretrizes para que os usuários apliquem somente rótulos para proteger documentos. Por exemplo:
+Para uma experiência de rótulos mais consistente com relatórios significativos, forneça diretrizes e rótulos apropriados para que os usuários apliquem somente rótulos para proteger documentos. Por exemplo:
 
 - Para casos de exceções em que os usuários devem atribuir suas próprias permissões, forneça rótulos que [permitam aos usuários atribuir suas próprias permissões](encryption-sensitivity-labels.md#let-users-assign-permissions). 
 
@@ -193,7 +194,7 @@ Para uma experiência de rótulos mais consistente com relatórios significativo
 
 Os usuários podem aplicar apenas um rótulo por vez para cada documento ou email.
 
-Quando você rotula uma mensagem de email que tem anexos, os anexos herdam o rótulo somente se o rótulo aplicado à mensagem de email aplicar criptografia, e se o anexo for um documento do Office ainda não criptografado. Como o rótulo herdado aplica a criptografia, o anexo se torna recentemente criptografado.
+Quando você rotula uma mensagem de email com anexos, os anexos herdam o rótulo apenas se o rótulo aplicado à mensagem aplicar criptografia e o anexo for um documento do Office que ainda não está criptografado. Como o rótulo herdado aplica criptografia, o anexo torna-se criptografado novamente.
 
 Um anexo não herda os rótulos da mensagem de email quando o rótulo aplicado à mensagem de email não aplica criptografia, ou quando o anexo já está criptografado.
 
@@ -221,7 +222,7 @@ Ao rotular um documento ou um email, o rótulo é armazenado como metadados que 
 
 Isso significa que, se você compartilhar documentos com outra organização que usa nomes de rótulos diferentes, cada organização poderá aplicar e ver seu próprio rótulo aplicado ao documento. No entanto, os seguintes elementos de um rótulo aplicado ficarão visíveis para os usuários de fora da organização:
 
-- Marcações de conteúdo. Quando um rótulo aplica um cabeçalho, rodapé ou marca d'água, eles são adicionados diretamente ao conteúdo e ficam visíveis até que alguém os modifique ou exclua.
+- Marcações de conteúdo. Quando um rótulo aplica um cabeçalho, rodapé ou marca d'água, eles são adicionados diretamente ao conteúdo e ficam visíveis até que alguém os modifique ou os exclua.
 
 - O nome e a descrição do modelo de proteção subjacente de um rótulo que aplicou a criptografia. Essa informação é exibida em uma barra de mensagens na parte superior do documento, fornecendo informações sobre quem está autorizado a abrir o documento e seus direitos de uso do documento.
 
@@ -276,7 +277,7 @@ Os aplicativos Office aplicam marcação e criptografia de conteúdo com um rót
 
 As soluções que aplicam rótulos de confidencialidade a arquivos fora dos aplicativos do Office fazem isso através da aplicação de metadados de rotulagem ao arquivo. Nesse cenário, a marcação de conteúdo da configuração do rótulo não é inserida no arquivo, mas a criptografia é aplicada. 
 
-Quando esses arquivos são abertos em um aplicativo da área de trabalho do Office, as marcações de conteúdo são automaticamente aplicadas pelo cliente de rotulagem unificada da Proteção de Informações do Azure. As marcações de conteúdo não são aplicadas automaticamente ao usar a rotulagem interna para aplicativos Web, móveis ou de área de trabalho.
+Quando esses arquivos são abertos em um aplicativo da área de trabalho do Office, as marcações de conteúdo são automaticamente aplicadas pelo cliente de rotulagem unificada da Proteção de Informações do Azure quando o arquivo é salvo pela primeira vez. As marcações de conteúdo não são aplicadas automaticamente ao usar a rotulagem interna para aplicativos Web, móveis ou de área de trabalho.
 
 Os cenários que incluem a aplicação de um rótulo de confidencialidade fora dos aplicativos do Office incluem:
 
@@ -295,18 +296,18 @@ Ao usar aplicativos do Office nesses cenários, um usuário com rotulagem intern
 > [!IMPORTANT]
 > Atualmente, nem todos os aplicativos, em todas as plataformas, dão suporte a marcações dinâmicas de conteúdo que você pode especificar para cabeçalhos, rodapés e marcas d'água. Para aplicativos que não possuem suporte a esse recurso, aplicam-se as marcações como o texto original especificado na configuração de rótulo, em vez de resolver as variáveis.
 > 
-> O cliente de rotulagem unificada da Proteção de Informações do Azure oferece suporte a marcações dinâmicas e todas as variáveis listadas. Para a rotulagem integrada ao Office, consulte as tabelas na seção de [recursos](#support-for-sensitivity-label-capabilities-in-apps) desta página para versões mínimas e, em seguida, a tabela a seguir para identificar as variáveis com suporte.
+> O cliente de rotulagem unificada da Proteção de Informações do Azure dá suporte a marcações dinâmicas. Sobre a rotulagem interna do Office, confira as tabelas na seção [recursos](#support-for-sensitivity-label-capabilities-in-apps) desta página para as versões mínimas suportadas.
 
 Ao configurar um rótulo de confidencialidade para marcações de conteúdo, você pode usar as seguintes variáveis na cadeia de texto do seu título, rodapé ou marca d'água:
 
 | Variável | Descrição | Exemplo quando um rótulo é aplicado |
 | -------- | ----------- | ------- |
-| `${Item.Label}` | Nome de exibição de rótulo do rótulo aplicado <br /><br> Rotulagem integrada: compatível com Word, Excel, PowerPoint e Outlook | **Geral**|
-| `${Item.Name}` | Nome do arquivo ou assunto do email do conteúdo que está sendo rotulado <br /><br> Rotulagem integrada: compatível com Word, Excel e PowerPoint | **Sales.docx** |
-| `${Item.Location}` | O caminho e o nome do arquivo do documento que está sendo rotulado, ou o assunto do email de um email que está sendo rotulado <br /><br> Rotulagem integrada: compatível com Word, Excel e PowerPoint | **\\\Sales\2020\Q3\Report.docx**|
-| `${User.Name}` | Nome de exibição do usuário que está aplicando o rótulo <br /><br> Rotulagem integrada: compatível com Word, Excel e PowerPoint | **Ricardo Cavalcanti** |
-| `${User.PrincipalName}` | UPN (nome principal do usuário) do Azure AD do usuário que aplica o rótulo <br /><br> Rotulagem integrada: compatível com Word, Excel e PowerPoint  | **rcavalcanti\@contoso.com** |
-| `${Event.DateTime}` | Data e hora em que o conteúdo é rotulado, no fuso horário local do usuário que aplica o rótulo <br /><br> Rotulagem integrada: compatível com Word, Excel e PowerPoint  | **10/8/2020 13:30** |
+| `${Item.Label}` | Nome de exibição de rótulo do rótulo aplicado | **Geral**|
+| `${Item.Name}` | Nome do arquivo ou assunto do email do conteúdo que está sendo rotulado | **Sales.docx** |
+| `${Item.Location}` | O caminho e o nome do arquivo do documento que está sendo rotulado, ou o assunto do email de um email que está sendo rotulado | **\\\Sales\2020\Q3\Report.docx**|
+| `${User.Name}` | Nome de exibição do usuário que está aplicando o rótulo | **Ricardo Cavalcanti** |
+| `${User.PrincipalName}` | UPN (nome principal do usuário) do Azure AD do usuário que aplica o rótulo | **rcavalcanti\@contoso.com** |
+| `${Event.DateTime}` | Data e hora em que o conteúdo é rotulado, no fuso horário local do usuário que aplica o rótulo | **10/8/2020 13:30** |
 
 > [!NOTE]
 > A sintaxe dessas variáveis diferencia maiúsculas de minúsculas.
@@ -321,7 +322,7 @@ Use a seguinte sintaxe:
 ${If.App.<application type>}<your visual markings text> ${If.End}
 ```
 
-Assim como ocorre com as outras marcações visuais dinâmicas, a sintaxe diferencia maiúsculas de minúsculas.
+Tal como acontece com as outras marcações visuais dinâmicas, a sintaxe diferencia maiúsculas de minúsculas, o que inclui as abreviações para cada tipo de aplicativo (WEPO).
 
 Exemplos:
 
@@ -346,11 +347,12 @@ Exemplos:
 ## <a name="require-users-to-apply-a-label-to-their-email-and-documents"></a>Exigir que os usuários apliquem um rótulo a seus emails e documentos
 
 > [!IMPORTANT]
-> Também conhecido como rotulagem obrigatória, nem todos os aplicativos, em todas as plataformas, dão suporte à política de **Exigir que os usuários apliquem um rótulo a seus emails e documentos**.
 > 
-> O [cliente de rotulagem unificada da Proteção de Informações do Azure](/azure/information-protection/rms-client/install-unifiedlabelingclient-app) dá suporte para rotulagem obrigatória e rotulagem interna aos aplicativos Office, confira as tabelas na seção [recursos](#support-for-sensitivity-label-capabilities-in-apps) desta página.
+> O [cliente de rotulagem unificada da Proteção de Informações do Azure](/azure/information-protection/rms-client/install-unifiedlabelingclient-app) oferece suporte a essa configuração, também conhecida como rotulagem obrigatória. Sobre a rotulagem interna dos aplicativos do Office, confira as tabelas na seção [recursos](#support-for-sensitivity-label-capabilities-in-apps) desta página para conhecer as versões mínimas.
+>
+> Para usar rotulagem obrigatória nos documentos, mas não nos emails, confira as instruções na próxima seção que explica como configurar opções específicas do Outlook.
 
-Quando essa configuração de política estiver selecionada, os usuários atribuídos à política deverão selecionar e aplicar um rótulo de confidencialidade nos seguintes cenários:
+Quando a configuração de política **Exigir que os usuários apliquem um rótulo a seus emails e documentos** é selecionada, os usuários atribuídos à política devem selecionar e aplicar um rótulo de confidencialidade nos seguintes cenários:
 
 - Para o cliente de rotulagem unificada da Proteção de Informações do Azure:
     - Para documentos (Word, Excel, PowerPoint): quando um documento sem rótulo for salvo ou os usuários fecharem o documento.
@@ -373,8 +375,61 @@ Para obter diretrizes sobre quando usar essa configuração, confira as informa�
 >
 > O rótulo padrão sempre tem prioridade sobre a rotulagem obrigatória. No entanto, para documentos, o cliente de rotulagem unificada da Proteção de Informações do Azure aplica o rótulo padrão a todos os documentos não rotulados, enquanto que a rotulagem interna aplica o rótulo padrão aos novos documentos e não aos existentes que não estejam rotulados. Essa diferença de comportamento significa que ao usar a rotulagem obrigatória com a configuração padrão de rotulagem, os usuários serão solicitados a aplicar um rótulo de confidencialidade com mais frequência ao usar a rotulagem interna do que quando se usa o cliente de rotulagem unificada da Proteção de Informações do Azure.
 
+## <a name="outlook-specific-options-for-default-label-and-mandatory-labeling"></a>Opções específicas do Outlook para rótulo padrão e rotulagem obrigatória
+
+Para rotulagem interna, identifique as versões mínimas do Outlook que oferecem suporte a esses recursos usando a [tabela de recursos do Outlook](#sensitivity-label-capabilities-in-outlook) nesta página e a linha **Configurações diferentes para rótulo padrão e rotulagem obrigatória**.
+
+Por padrão, quando você seleciona as configurações de política de rótulo **Aplicar este rótulo por padrão a documentos e emails** e **Requer que os usuários apliquem um rótulo a seus emails ou documentos**, sua escolha de configuração se aplica tanto aos emails quanto aos documentos.
+
+Para aplicar configurações diferentes aos emails, use as configurações avançadas do PowerShell:
+
+- **OutlookDefaultLabel**: use essa configuração se quiser que o Outlook aplique um rótulo padrão diferente ou nenhum rótulo.
+
+- **DisableMandatoryInOutlook**: use essa configuração se quiser que o Outlook seja isento de solicitar que os usuários selecionem um rótulo para mensagens de email não rotuladas.
+
+Para saber mais sobre como definir essas configurações usando o PowerShell, confira a próxima seção.
+
+### <a name="powershell-advanced-settings-outlookdefaultlabel-and-disablemandatoryinoutlook"></a>Configurações avançadas do PowerShell OutlookDefaultLabel e DisableMandatoryInOutlook
+
+Essas configurações são compatíveis com o uso do PowerShell com o parâmetro *AdvancedSettings* e os cmdlets [Set-LabelPolicy](/powershell/module/exchange/set-labelpolicy) e [New-LabelPolicy](/powershell/module/exchange/new-labelpolicy) do [PowerShell do Centro de Conformidade e Segurança](/powershell/exchange/scc-powershell). Anteriormente compatíveis apenas com o cliente de rotulagem unificada da Proteção de Informações do Azure, essas duas configurações avançadas agora têm suporte para rotulagem interna.
+
+Exemplos do PowerShell, em que a política de rótulo é denominada **Global**:
+
+- Para isentar o Outlook de um rótulo padrão:
+    
+    ````powershell
+    Set-LabelPolicy -Identity Global -AdvancedSettings @{OutlookDefaultLabel="None"}
+    ````
+
+- Para isentar o Outlook da rotulagem obrigatória:
+    
+    ````powershell
+    Set-LabelPolicy -Identity Global -AdvancedSettings @{DisableMandatoryInOutlook="True"}
+    ````
+
+Atualmente, OutlookDefaultLabel e DisableMandatoryInOutlook são as únicas configurações avançadas do PowerShell com suporte para rotulagem interna e para o cliente de Proteção de Informações do Azure.
+
+As outras configurações avançadas do PowerShell permanecem com suporte apenas para o cliente de Proteção de Informações do Azure. Para obter mais informações sobre como usar configurações avançadas para o cliente de Proteção de Informações do Azure, confira o [Guia do administrador: configurações personalizadas para o cliente de rotulagem unificada da Proteção de Informações do Azure](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#configuring-advanced-settings-for-the-client-via-powershell).
+
+#### <a name="powershell-tips-for-specifying-the-advanced-settings"></a>Dicas do PowerShell para especificar as configurações avançadas
+
+Para especificar um rótulo padrão diferente para o Outlook, você deve especificar o GUID do rótulo. Para encontrar esse valor, você poderá usar o seguinte comando:
+
+````powershell
+Get-Label | Format-Table -Property DisplayName, Name, Guid
+````
+
+Para remover qualquer uma dessas configurações avançadas de uma política de rótulos, use a mesma sintaxe de parâmetro AdvancedSettings, mas especifique um valor de cadeia de caracteres nulo. Por exemplo:
+
+````powershell
+Set-LabelPolicy -Identity Global -AdvancedSettings @{OutlookDefaultLabel=""}
+````
+
+
 ## <a name="end-user-documentation"></a>Documentação do usuário final
 
-- [Aplicar rótulos de confidencialidade aos seus documentos e email no Office](https://support.microsoft.com/pt-BR/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
+- [Aplicar rótulos de confidencialidade aos seus arquivos e email no Office](https://support.microsoft.com/pt-BR/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
+    - [Problemas conhecidos em rótulos de confidencialidade no Office](https://support.microsoft.com/pt-BR/office/known-issues-with-sensitivity-labels-in-office-b169d687-2bbd-4e21-a440-7da1b2743edc)
 
-- [Problemas conhecidos ao aplicar rótulos de confidencialidade aos arquivos do Office](https://support.microsoft.com/pt-BR/office/known-issues-with-sensitivity-labels-in-office-b169d687-2bbd-4e21-a440-7da1b2743edc)
+- [Aplicar ou recomendar rótulos de confidencialidade automaticamente aos seus arquivos e emails no Office](https://support.office.com/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)
+    - [Problemas conhecidos com a aplicação ou recomendação de rótulos de confidencialidade automática](https://support.office.com/article/known-issues-with-automatically-applying-or-recommending-sensitivity-labels-451698ae-311b-4d28-83aa-a839a66f6efc)

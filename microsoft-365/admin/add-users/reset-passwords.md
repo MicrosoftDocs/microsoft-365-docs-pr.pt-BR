@@ -26,17 +26,17 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
-description: Saiba como redefinir a senha para um usuário no Microsoft 365 para empresas.
-ms.openlocfilehash: 24fc6581837f71659a2ecc0359c6967e3969d868
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+description: Saiba como redefinir a senha para um usuário Microsoft 365 assinatura para empresas.
+ms.openlocfilehash: fa368c7f44d4df847cf007568853c11970e7adc1
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023972"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52241695"
 ---
 # <a name="reset-passwords"></a>Redefinir senha
 
-Este artigo explica como redefinir senhas para si mesmo e para seus usuários quando você tem uma assinatura do Microsoft 365 para empresas.
+Este artigo explica como redefinir senhas para você e para seus usuários quando você tiver uma assinatura Microsoft 365 para empresas.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -54,23 +54,7 @@ Se você achou este vídeo útil, consulte as [séries completas de treinamento 
   
 ## <a name="steps-reset-a-business-password-for-a-user"></a>Etapas: Redefinir uma senha comercial para um usuário
 
-::: moniker range="o365-worldwide"
-
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
-
-::: moniker-end
 
 2. Na página **Usuários ativos,** selecione o usuário e selecione **Redefinir senha**.
 
@@ -84,7 +68,7 @@ Se você achou este vídeo útil, consulte as [séries completas de treinamento 
 
 ## <a name="reset-my-admin-password"></a>Redefinir minha senha de administrador
 
-Use estas etapas se você esqueceu sua senha, mas poderá entrar no Microsoft 365 porque, por exemplo, sua senha é salva no navegador:
+Use estas etapas se você esqueceu sua senha, mas pode entrar no Microsoft 365 porque, por exemplo, sua senha é salva no navegador:
 
 1. Selecione seu nome (ícone) no canto superior direito > Informações Pessoais da **Minha**  >  **Conta.**
 
@@ -132,7 +116,7 @@ Para obter informações de visão geral, [consulte Manage Microsoft 365 with Po
 
 Confira esta excelente postagem no blog por Vasil Michev, MVP da Microsoft: [Force a alteração de senha para todos os usuários no Office 365](https://go.microsoft.com/fwlink/?linkid=853693).
   
-## <a name="i-dont-have-a-microsoft-365-for-business-subscription"></a>Não tenho uma assinatura do Microsoft 365 para empresas
+## <a name="i-dont-have-a-microsoft-365-for-business-subscription"></a>Não tenho uma assinatura de Microsoft 365 para empresas
 
 Experimente os procedimentos deste artigo: [Eu esqueci o nome de usuário ou a senha da conta que uso com o Office.](https://support.microsoft.com/office/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp)
   

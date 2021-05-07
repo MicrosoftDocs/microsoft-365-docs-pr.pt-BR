@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente um rótulo a arquivos e emails, ou você pode solicitar aos usuários que selecionem o rótulo que você recomenda.
-ms.openlocfilehash: d645d185524d111af4eafed4b5fba06483525a85
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 23320d962b52e1a443d459cb6b57d444fca91592
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920071"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939305"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -52,14 +52,14 @@ Há dois métodos diferentes para aplicar automaticamente um rótulo de confiden
 
 - **Rotulagem do lado do serviço quando o conteúdo já foi salvo (no SharePoint ou no OneDrive) ou enviado por email (processado pelo Exchange Online)**: Use uma política de rotulação automática. 
     
-    Esse método pode ser chamado de rotulagem automática de dados em repouso (em documentos no SharePoint e OneDrive) e dados em trânsito (em email enviado ou recebido pelo Exchange). No caso do Exchange, ele não inclui emails em repouso (caixas de correio).
+    Esse método pode ser chamado de rotulagem automática de dados inativos (em documentos no SharePoint e OneDrive) e dados em trânsito (em email enviado ou recebido pelo Exchange). Para o Exchange, ele não inclui emails inativos (caixas de correio).
     
     Como essa rotulagem é aplicada por serviços e não por aplicativos, você não precisa se preocupar com os aplicativos que os usuários têm e qual versão. Como resultado, esse recurso está imediatamente disponível em toda a organização e apropriado para rotular em escala. As políticas de rotulagem automática não oferecem suporte à rotulagem recomendada porque o usuário não interage com o processo de rotulagem. Em vez disso, o administrador executa as políticas no modo de simulação para ajudar a garantir a rotulagem correta do conteúdo antes de aplicar o rótulo.
     
     Para obter instruções de configuração, confira [Como configurar as políticas de rotulagem automática para o SharePoint, OneDrive e Exchange](#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) nesta página.
     
     Específico para rotulagem automática para o SharePoint e OneDrive:
-    - Os arquivos do Office para Word, PowerPoint e Excel são suportados. Há suporte para o formato Open XML (como .docx e .xlsx), mas não para o formato Microsoft Office 97-2003 (como .doc e .xls).
+    - Há suporte para arquivos do Office para Word, PowerPoint e Excel. Há suporte para o formato Open XML (como .docx e .xlsx), mas não para o formato Microsoft Office 97-2003 (como .doc e .xls).
         - Esses arquivos podem ser rotulados automaticamente em repouso, antes ou depois da criação das políticas de rotulagem automática. Note que os arquivos não podem ser rotulados automaticamente se fizerem parte de uma sessão aberta (o arquivo está aberto).
     - Máximo de 25.000 arquivos rotulados automaticamente no seu locatário por dia.
     - Máximo de 10 políticas de rotulagem automática por locatário, cada uma visando até 10 sites (SharePoint ou OneDrive).
@@ -71,7 +71,9 @@ Há dois métodos diferentes para aplicar automaticamente um rótulo de confiden
         - Para esses arquivos do Office, há suporte para o formato Open XML (como .docx e .xlsx), mas não para o formato Microsoft Office 97-2003 (como .doc e .xls).
     - Se você possui regras de fluxo de correio do Exchange ou políticas de prevenção contra perda de dados (DLP) que aplicam a criptografia de IRM: Quando o conteúdo é identificado por essas regras ou políticas e por uma política de rotulagem automática, o rótulo é aplicado. Se esse rótulo aplicar a criptografia, as configurações de IRM das regras de fluxo de email do Exchange ou políticas DLP serão ignoradas. No entanto, se esse rótulo não aplicar criptografia, as configurações de IRM das regras de fluxo de email ou políticas DLP serão aplicadas além do rótulo.
     - Um email com criptografia de IRM sem rótulo será substituído por um rótulo com todas as configurações de criptografia quando houver uma correspondência usando rotulagem automática.
-    - Os emails de entrada são rotulados quando houver uma correspondência com as condições de rotulagem automática. No entanto, se o rótulo estiver configurado para criptografia, essa criptografia não será aplicada.
+    - Os emails de entrada são rotulados quando houver uma correspondência com as condições de rotulagem automática:
+        - Se o rótulo estiver configurado para [criptografia](encryption-sensitivity-labels.md), essa criptografia não será aplicada.
+        - Se o rótulo estiver configurado para aplicar [marcações dinâmicas](sensitivity-labels-office-apps.md#dynamic-markings-with-variables), saiba que isso pode resultar no nome de pessoas fora da sua organização.
     - Quando o rótulo aplica criptografia, o [emissor do Gerenciamento de direitos e proprietário do Gerenciamento de direitos](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) é a pessoa que envia o e-mail.
     
 
@@ -168,17 +170,17 @@ Se preferir, você pode recomendar aos usuários que apliquem o rótulo. Com ess
 
 ![Opção para recomendar um rótulo de confidencialidade a usuários](../media/Sensitivity-labels-Recommended-label-option.png)
 
-Veja o exemplo de um aviso do cliente de rotulagem unificada da Proteção de Informações do Azure quando você configura uma condição para aplicar um rótulo como uma ação recomendada, com uma dica de política personalizada. Você pode escolher o texto exibido na dica de política.
+Veja o exemplo de um aviso do cliente de rotulagem unificada da Proteção de Informações do Azure quando você configura uma condição para aplicar um rótulo como uma ação recomendada, com uma dica de política personalizada. Você poderá escolher o texto que será exibido na dica de política.
 
 ![Aviso para aplicar um rótulo recomendado](../media/Sensitivity-label-Prompt-for-required-label.png)
 
 ### <a name="when-automatic-or-recommended-labels-are-applied"></a>Quando rótulos automáticos ou recomendados são aplicados
 
-A implementação de rotulagem automática e recomendada nos aplicativos do Office depende se você estiver usando a rotulagem interna do Office ou o cliente de rotulagem unificada da Proteção de Informações do Azure. Em ambos os casos, porém:
+A implementação de rotulagem automática e recomendada nos aplicativos do Office depende se você estiver usando a rotulagem interna do Office ou o cliente de rotulagem unificada da Proteção de Informações do Azure. Nos dois casos, no entanto:
 
-- Você não pode usar a rotulagem automática para documentos e e-mails rotulados anteriormente manualmente ou rotulados automaticamente com uma confidencialidade mais alta. Lembre-se de que você só pode aplicar um único rótulo de confidencialidade a um documento ou e-mail (além de um único rótulo de retenção).
+- Não é possível usar a rotulagem automática para documentos e emails que tenham sido rotulados manualmente ou que tenham sido rotulados automaticamente com uma confidencialidade mais alta. Um documento ou email pode ter apenas um rótulo de confidencialidade e um rótulo de retenção aplicados a ele.
 
-- Não é possível usar a rotulagem recomendada nos documentos ou emails que foram rotulados anteriormente com uma confidencialidade mais alta. Quando o conteúdo já estiver rotulado com uma confidencialidade mais alta, o usuário não verá o aviso com a recomendação e a dica de política.
+- Não é possível usar a rotulagem recomendada para documentos que tenham sido rotulados com uma confidencialidade mais alta. Nesse caso, se o conteúdo já foi rotulado com uma confidencialidade mais alta, o usuário não verá o aviso com a recomendação e a dica de política.
 
 Específico para rotulagem interna:
 
@@ -204,7 +206,7 @@ Certifique-se de que você está ciente dos pré-requisitos antes de configurar 
 
 - Modo de simulação:
     - A auditoria do Microsoft 365 deve ser ativada. Se você precisar ativar a auditoria ou não tiver certeza se a auditoria já está ativada, confira [Ativar ou desativar a pesquisa de log de auditoria](turn-audit-log-search-on-or-off.md).
-    - Para exibir o conteúdo do arquivo no modo de exibição de código-fonte, você deve ter a função **Visualizador de Conteúdo do Explorador de Conteúdo**. Por padrão, os administradores globais não possuem essa função. Caso não tenha essa permissão, você não verá o painel de visualização ao selecionar um item da guia **Itens Correspondentes**.
+    - Para exibir o conteúdo de arquivo ou email na visualização de origem, você deve ter a função **Visualizador de Conteúdo do Explorador de Conteúdo**. Por padrão, os administradores globais não possuem essa função. Caso não tenha essa permissão, você não verá o painel de visualização ao selecionar um item da guia **Itens Correspondentes**.
 
 - Para rotular arquivos automaticamente no Microsoft Office SharePoint Online e no Microsoft OneDrive:
     - Você deve [habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive ](sensitivity-labels-sharepoint-onedrive-files.md).

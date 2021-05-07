@@ -1,5 +1,5 @@
 ---
-title: Começar a usar a classificação de dados
+title: Saiba mais sobre a classificação de dados
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -18,14 +18,14 @@ search.appverid:
 - MOE150
 - MET150
 description: O painel de classificação de dados permite visualizar a quantidade de dados confidenciais encontrados e classificados em sua organização.
-ms.openlocfilehash: 8f3bb2da1e7011fef334ec345a02d7facedc25fc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2867e545221061f5f99bf7ff669f9655b3777ba8
+ms.sourcegitcommit: 1c53f114a810e7aaa2dc876b84d66348492ea36c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922675"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899381"
 ---
-# <a name="know-your-data---data-classification-overview"></a>Conheça seus dados - visão geral da classificação de dados
+# <a name="learn-about-data-classification"></a>Saiba mais sobre a classificação de dados
 
 Como administrador de conformidade ou administrador do Microsoft 365, você pode avaliar e marcar o conteúdo da sua organização para controlar o seu destino, protegê-lo independentemente de onde ele estiver e garantir que ele seja preservado e excluído de acordo com as necessidades da sua organização. Isso é feito através da aplicação de [rótulos de confidencialidade](sensitivity-labels.md), [rótoulos de retenção](retention.md#retention-labels) classificação de tipos de informações confidenciais. Há várias maneiras de fazer a descoberta, a avaliação e a marcação, mas o resultado final é que você pode acabar tendo um número muito grande de documentos e emails marcados e classificados com um ou ambos os rótulos. Depois de criar seus rótulos de retenção e rótulos de confidencialidade, você vai querer saber como eles estão sendo usados em seu locatário e o que está sendo feito com esses itens. A página classificação de dados dá visibilidade ao corpo do conteúdo, especificamente:
 
@@ -36,8 +36,12 @@ Como administrador de conformidade ou administrador do Microsoft 365, você pode
 - os locais onde estão os seus dados confidenciais e retidos
 
 Você também gerencia esses recursos na página de classificação de dados:
+
 - [classificadores treináveis](classifier-learn-about.md)
-- [tipos de informações confidenciais](./sensitive-information-type-entity-definitions.md)
+- [tipos de informações confidenciais](sensitive-information-type-learn-about.md)
+- [dados exatos correspondem](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
+- [Explorador de conteúdos](data-classification-content-explorer.md)
+- [Explorador de atividade ](data-classification-activity-explorer.md)
 
 Você pode encontrar a classificação de dados no **Centro de conformidade do Microsoft 365** ou no **Centro de segurança do Microsoft 365** > **Classificação**  >  **Classificação de Dados**.
 
@@ -96,7 +100,7 @@ O cartão de identificação de confidencialidade mostra o número de itens (ema
 ![Captura da tela do espaço reservado que mostra a análise de conteúdo por classificação de rótulo de confidencialidade](../media/data-classification-top-sensitivity-labels-applied.png)
 
 > [!NOTE]
-> Se você ainda não criou ou publicou qualquer rótulo de confidencialidade ou se nenhum conteúdo tiver um rótulo de confidencialidade aplicado, esse cartão exibirá a mensagem "nenhum rótulo de confidencialidade detectado". Para começar a usar os rótulos de confidencialidade, confira:
+> Se você ainda não criou ou publicou qualquer rótulo de confidencialidade ou se nenhum conteúdo tiver um rótulo de confidencialidade aplicado, esse cartão exibirá a mensagem "nenhum rótulo de confidencialidade detectado". Para começar com os rótulos de confidencialidade, veja:
 >- [Introdução aos rótulos de confidencialidade](get-started-with-sensitivity-labels.md) ou para AIP [Configurar a política de proteção de informações do Azure](/azure/information-protection/configure-policy)
 
 ## <a name="top-retention-labels-applied-to-content"></a>Principais rótulos de retenção aplicados ao conteúdo
@@ -113,10 +117,10 @@ O cartão dos principais rótulos de retenção aplicados mostra quantos itens t
 
 ## <a name="top-activities-detected"></a>Atividades detectadas mais comuns
 
-Este cartão fornece um resumo rápido das ações mais comuns que os usuários realizam com os itens rotulados como confidenciais. Você pode usar o [Explorador de atividades](data-classification-activity-explorer.md) para detalhar as oito diferentes atividades que o Microsoft 365 acompanha no conteúdo rotulado e o conteúdo localizado em pontos de extremidade do Windows 10.
+Este cartão fornece um resumo rápido das ações mais comuns que os usuários realizam com os itens rotulados como confidenciais. Você pode usar o [Explorador de atividades](data-classification-activity-explorer.md) para detalhar as diferentes atividades que o Microsoft 365 acompanha no conteúdo rotulado e o conteúdo localizado em pontos de extremidade do Windows 10.
 
 > [!NOTE]
-> Se esse cartão exibir a mensagem "Nenhuma atividade detectada", isso significa que não há nenhuma atividade nos arquivos ou que a auditoria de usuário e administradores não foi ativada. Para ativar os logs de auditoria, confira:
+> Se esse cartão exibir a mensagem "Nenhuma atividade detectada", isso significa que não há nenhuma atividade nos arquivos ou que a auditoria de usuário e administradores não foi ativada. Para ativar o logs da auditoria, veja:
 >- [Pesquisar o log de auditoria no centro de conformidade e Segurança](search-the-audit-log-in-security-and-compliance.md) 
 
 ## <a name="sensitivity-and-retention-labeled-data-by-location"></a>Dados com rótulos de confidencialidade e retenção por local
@@ -124,7 +128,7 @@ Este cartão fornece um resumo rápido das ações mais comuns que os usuários 
 O objetivo do relatório de classificação de dados é fornecer visibilidade sobre o número de itens que têm o rótulo, bem como a sua localização. Esses cartões permitem saber quantos itens rotulados estão no Exchange, no SharePoint, OneDrive, etc.
 
 > [!NOTE]
-> Se este cartão exibir a mensagem "Nenhum local detectado", isso significa que você não criou ou publicou qualquer rótulo de confidencialidade ou que nenhum conteúdo teve qualquer rótulo de retenção aplicado.   Para começar a usar os rótulos de confidencialidade, confira:
+> Se este cartão exibir a mensagem "Nenhum local detectado", isso significa que você não criou ou publicou qualquer rótulo de confidencialidade ou que nenhum conteúdo teve qualquer rótulo de retenção aplicado. Para começar com os rótulos de confidencialidade, veja:
 >- [Rótulos de confidencialidade ](sensitivity-labels.md)
 
 ## <a name="see-also"></a>Confira também
@@ -133,5 +137,6 @@ O objetivo do relatório de classificação de dados é fornecer visibilidade so
 - [Exibir conteúdo rotulado](data-classification-content-explorer.md)
 - [Saiba mais sobre rótulos de confidencialidade](sensitivity-labels.md)
 - [Saiba mais sobre as políticas de retenção e os rótulos de retenção](retention.md)
+- [Aprenda sobre os tipos de informações confidenciais](sensitive-information-type-learn-about.md)
 - [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
 - [Saiba mais sobre classificadores treináveis (visualização)](classifier-learn-about.md)

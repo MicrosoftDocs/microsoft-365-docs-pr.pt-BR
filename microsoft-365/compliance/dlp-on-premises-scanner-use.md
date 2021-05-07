@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Aprenda a usar o verificador local de prevenção contra perda de dados do  Microsoft 365 para examinar dados inativos e implementar ações de proteção para compartilhamentos de arquivos locais e pastas e bibliotecas de documentos locais do SharePoint.
-ms.openlocfilehash: c46b67ca392732616329bad138166c892cd06640
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0abe36af5588c1828da106779a144b6e7f37d6a8
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917817"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114149"
 ---
 # <a name="use-the-microsoft-365-data-loss-prevention-on-premises-scanner-preview"></a>Use o verificador local de prevenção contra perda de dados do Microsoft 365 (pré-visualização)
 
@@ -32,7 +32,7 @@ Para ajudar a se familiarizar com os recursos locais do DLP e como eles aparecem
 
 > [!IMPORTANT]
 > Esses cenários locais de DLP não são os procedimentos oficiais para criar e ajustar políticas DLP. Confira os tópicos a seguir quando você precisar trabalhar com políticas de DLP em situações gerais:
->- [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)
+>- [Saiba mais sobre prevenção contra perda de dados](dlp-learn-about-dlp.md)
 >- [Introdução à política DLP padrão](get-started-with-the-default-dlp-policy.md)
 >- [Criar uma política DLP a partir de um modelo](create-a-dlp-policy-from-a-template.md)
 >- [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
@@ -80,6 +80,6 @@ Se você deseja impor regras DLP nos arquivos verificados, a imposição deve se
 
 - [Saiba mais sobre o verificador local DLP (visualização)](dlp-on-premises-scanner-learn.md)
 - [Começar com a verificação DLP local (visualização)](dlp-on-premises-scanner-get-started.md)
-- [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)
+- [Saiba mais sobre prevenção contra perda de dados](dlp-learn-about-dlp.md)
 - [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
 - [Começar a usar o Explorador de atividades](data-classification-activity-explorer.md)

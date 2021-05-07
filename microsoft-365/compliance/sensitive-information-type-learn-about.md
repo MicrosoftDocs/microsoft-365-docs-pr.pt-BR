@@ -16,16 +16,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: ''
-ms.openlocfilehash: 12a4e8873cb7212bfa7dde12bba9e98528cd859a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 01dd5feab17c68eed1da9d66c4310c50e90032c6
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919667"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114221"
 ---
 # <a name="learn-about-sensitive-information-types"></a>Aprenda sobre os tipos de informações confidenciais
 
-Identificar e classificar itens confidenciais que estão sob o controle de suas organizações é a primeira etapa da disciplina [proteção de informações.](./information-protection.md)  O Microsoft 365 fornece três maneiras de identificar itens para que possam ser classificados:
+Identificar e classificar itens confidenciais que estão sob o controle de suas organizações é a primeira etapa da disciplina [proteção de informações.](./information-protection.md)  Microsoft 365 fornece três maneiras de identificar itens para que possam ser classificados:
 
 - manualmente pelos usuários
 - reconhecimento de padrão automatizado, como tipos de informações confidenciais
@@ -35,9 +35,10 @@ Os tipos de informações confidenciais são classificadores baseados em padrão
 
 ## <a name="sensitive-information-types-are-used-in"></a>Tipos de informações confidenciais são usados em
 
-- [Políticas de prevenção contra perda de dados](data-loss-prevention-policies.md) 
+- [Políticas de prevenção contra perda de dados](dlp-learn-about-dlp.md) 
 - [Rótulos de confidencialidade](sensitivity-labels.md)
 - [Rótulos de retenção](retention.md)
+- [Gerenciamento de risco interno](insider-risk-management.md)
 - [Conformidade em comunicações](communication-compliance.md)
 - [Políticas de rotulagem automática](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps)
 
@@ -103,7 +104,7 @@ Uma política de DLP tem confiança média de que detectou esse tipo de informa�
 #### <a name="keyword_argentina_national_id"></a>Keyword_argentina_national_id
 
 - Número de Identidade Nacional da Argentina 
-- Identity 
+- Identidade 
 - Identificação do Cartão de Identidade Nacional 
 - DNI 
 - Registro Nacional de Pessoas da NIC 
@@ -143,7 +144,7 @@ Para criar tipos de informações confidenciais personalizadas no Centro de Conf
 
 
 > [!NOTE]
-> Níveis de confiança aprimorados estão disponíveis para uso imediato em Prevenção contra Perda de Dados para serviços do Microsoft 365, Proteção de Informações da Microsoft para serviços do Microsoft 365, Conformidade de Comunicação, Governança de Informações e Gerenciamento de Registros.
+> Níveis de confiança aprimorados estão disponíveis para uso imediato na Prevenção contra Perda de Dados para serviços Microsoft 365, Proteção de Informações da Microsoft para serviços Microsoft 365, Conformidade de Comunicação, Governança de Informações e Gerenciamento de Registros.
 
 > A Proteção de Informações do Microsoft 365 agora oferece suporte a idiomas de conjunto de caracteres de byte duplo de visualização:
 > - Chinês (simplificado)

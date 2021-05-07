@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Prepare-se e implante a Extensão de Conformidade da Microsoft.
-ms.openlocfilehash: c6f56c65de6428374d912545db38337d34720c94
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 6ae44a86d415161cd3d7adf40671f02d93fb83c6
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838344"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52113859"
 ---
 # <a name="get-started-with-microsoft-compliance-extension-preview"></a>Começar a usar a Extensão de Conformidade da Microsoft (prévia)
 
@@ -35,7 +35,7 @@ Use estes procedimentos para implementar a Extensão de Conformidade da Microsof
 Para usar a Extensão de Conformidade da Microsoft, o dispositivo deve estar integrado no ponto de extremidade da DLP. Para usar a extensão de conformidade da Microsoft, o dispositivo deve estar integrado no ponto de extremidade da DLP.
 
 - [Saiba mais sobre a Extensão de Conformidade da Microsoft](dlp-chrome-learn-about.md)
-- [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)
+- [Saiba mais sobre prevenção contra perda de dados](dlp-learn-about-dlp.md)
 - [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
 - [Criar uma política DLP a partir de um modelo](create-a-dlp-policy-from-a-template.md)
 - [Saiba mais sobre a prevenção contra Perda de Dados de Ponto de Extremidade](endpoint-dlp-learn-about.md)
@@ -76,7 +76,7 @@ Os dados do Ponto de extremidade DLP podem ser exibidos no [Explorador de ativid
 
 ### <a name="overall-installation-workflow"></a>Fluxo de trabalho geral de instalação
 
-Implantar a Extensão de Conformidade da Microsoft é um processo de várias fases. Você pode escolher instalar em uma máquina por vez ou usar o Microsoft Endpoint Manager ou a Política de Grupo para implantações em toda a organização.
+A implantação da Extensão de Conformidade da Microsoft é um processo de várias fases. Você pode optar por instalar em uma máquina por vez ou usar o Microsoft Endpoint Manager ou a Política de Grupo para implantações em toda a organização.
 
 1. [Prepare seus dispositivos](#prepare-your-devices).
 2. [Configuração Básica de Selfhost de Máquina Única](#basic-setup-single-machine-selfhost)
@@ -274,7 +274,7 @@ Agora que você tem dispositivos integrados e pode exibir os dados de atividade 
 
 - [Saiba mais sobre a Prevenção contra perda de dados do ponto de extremidade](endpoint-dlp-learn-about.md)
 - [Usando a prevenção contra perda de dados do ponto de extremidade](endpoint-dlp-using.md)
-- [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)
+- [Saiba mais sobre prevenção contra perda de dados](dlp-learn-about-dlp.md)
 - [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
 - [Começar a usar o Explorador de atividades](data-classification-activity-explorer.md)
 - [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/)

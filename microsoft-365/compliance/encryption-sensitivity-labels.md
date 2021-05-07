@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Configure rótulos de confidencialidade para criptografia que protege seus dados restringindo o acesso e o uso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f670a3cdefb7b6cd78d24a17fc2e6276274efff3
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 6163e48e3e80b76506d970b77d6cd66f7a050d51
+ms.sourcegitcommit: 8c89bc1d106b4716b07a1977d57e4d9ef98aecb3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222414"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "52079254"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia
 
@@ -45,7 +45,7 @@ Por fim, como administrador, quando você configura um rótulo de confidencialid
 - **Atribuir permissões agora**, para que assim você possa determinar exatamente quais usuários podem obter quais permissões de conteúdo com esse rótulo.
 - **Permitir que os usuários atribuam permissões** quando aplicam o rótulo ao conteúdo. Dessa forma, você pode conceder a pessoas em sua organização uma certa flexibilidade que elas possam precisar para colaborar e realizar o trabalho.
 
-As configurações de criptografia estão disponíveis quando você [cria um rótulo de confidencialidade](create-sensitivity-labels.md) no Centro de conformidade do Microsoft 365, Centro de segurança do Microsoft 365 ou Centro de Conformidade e segurança.
+As configurações de criptografia estão disponíveis quando você [cria um rótulo de confidencialidade](create-sensitivity-labels.md) no Centro de conformidade do Microsoft 365. Você também pode usar o portal mais antigo, o Centro de Segurança e Conformidade.
 
 ## <a name="understand-how-the-encryption-works"></a>Entenda como funciona a criptografia
 
@@ -135,11 +135,11 @@ Configurações de controle de acesso para conteúdo criptografado:
 
 ### <a name="rights-management-use-license-for-offline-access"></a>Licença de uso de Gerenciamento de Direitos para acesso offline
 
-Quando um usuário abre um documento ou email protegido pela criptografia do serviço Microsoft Azure AD Rights Management, uma licença de uso do Microsoft Azure AD Rights Management para esse conteúdo é concedida ao usuário. A licença de uso é um certificado que contém os direitos de uso do usuário para o documento ou o email e a chave de criptografia usada para criptografar o conteúdo. A licença de uso também contém uma data de vencimento, caso tenha sido definida e por quanto tempo a licença de uso é válida.
+Quando um usuário abre um documento ou e-mail que foi protegido por criptografia do serviço Azure Rights Management, uma licença de uso do Azure Rights Management para esse conteúdo é concedida ao usuário. Esta licença de uso é um certificado que contém os direitos de uso do usuário para o documento ou e-mail, e a chave de criptografia que foi utilizada para criptografar o conteúdo. A licença de uso também contém uma data de expiração se esta tiver sido definida, e por quanto tempo a licença de uso é válida.
 
 Se nenhuma data de vencimento tiver sido definida, o período de validade da licença de uso padrão para um locatário é de 30 dias. Pela duração da licença de uso, o usuário não precisa ser autenticado ou autorizado novamente para o conteúdo. Esse processo permite que o usuário continue a abrir o documento ou email protegido sem uma conexão de Internet. Quando expirar o período de validade da licença de uso, na próxima vez em que o usuário acessar o documento ou email protegido, ele precisará ser autenticado e autorizado novamente.
 
-Além da nova autenticação, as configurações de criptografia e a associação do grupo de usuários são reavaliados. Isso significa que os usuários podem experimentar diferentes resultados de acesso no mesmo documento ou email se houver alterações nas configurações de criptografia ou na associação de grupo em relação à última vez em que acessaram o conteúdo.
+Além da re-autenticação, são reavaliadas as configurações de criptografia e a filiação a grupos de usuários. Isto significa que os usuários podem experimentar diferentes resultados de acesso para o mesmo documento ou e-mail se houver mudanças nas configurações de criptografia ou filiação em grupo desde a última vez que acessaram o conteúdo.
 
 Para saber como alterar a configuração padrão de 30 dias, confira [Licença de uso de Gerenciamento de Direitos](/azure/information-protection/configure-usage-rights#rights-management-use-license)..
 
@@ -206,7 +206,7 @@ Para fazer isso, adicione usuários ou grupos, atribua-lhes permissões e salve 
 
 #### <a name="rights-management-issuer-user-applying-the-sensitivity-label-always-has-full-control"></a>O emissor do Gerenciamento de Direitos (usuário que aplica o rótulo de confidencialidade) sempre tem o Controle Total
 
-A criptografia de um rótulo de confidencialidade usa o serviço do Azure Rights Management da Proteção de Informações do Azure. Quando um usuário aplica um rótulo de confidencialidade para proteger um documento ou email usando criptografia, esse usuário se torna o emissor do Gerenciamento de Direitos daquele conteúdo.
+A criptografia para um rótulo de sensibilidade utiliza o serviço de Microsoft Azure AD Rights Management da Proteção de Informações do Microsoft Azure. Quando um usuário aplica uma etiqueta de sensibilidade para proteger um documento ou e-mail utilizando a criptografia, esse usuário se torna o emissor do Gerenciamento de Direitos para esse conteúdo.
 
 O emissor do Gerenciamento de Direitos sempre recebe as permissões de Controle Total para o documento ou email, e também:
 
@@ -228,7 +228,7 @@ Para obter mais informações, pré-requisitos e instruções de configuração,
 ## <a name="let-users-assign-permissions"></a>Permitir que usuários atribuam permissões
 
 > [!IMPORTANT]
-> Nem todos os clientes de rotulagem têm suporte para todas as opções que permitem aos usuários atribuir suas próprias permissões. Use esta seção para saber mais.
+> Nem todos os clientes de etiquetagem suportam todas as opções que permitem aos usuários atribuir suas próprias permissões. Use esta seção para saber mais.
 
 Você pode usar as seguintes opções para permitir que os usuários atribuam permissões quando aplicam manualmente um rótulo de sensibilidade ao conteúdo:
 
@@ -236,7 +236,7 @@ Você pode usar as seguintes opções para permitir que os usuários atribuam pe
     
     A opção Não Encaminhar é compatível com todos os clientes de email que têm suporte para os rótulos de confidencialidade. No entanto, a aplicação da opção **Criptografar Somente** com um rótulo de confidencialidade é um lançamento recente que tem suporte apenas por rotulagem integrada, e não pelo cliente de rotulagem unificada da Proteção de Informações do Azure. O rotulo não ficará visível para os clientes de email que não têm suporte para esse recurso.
     
-    Para verificar quais aplicativos do Outlook que usam o suporte de rotulagem integrada aplicando a opção Criptografar Somente com um rótulo de confidencialidade, use a [tabela de recursos para o Outlook](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-outlook) e a linha **Permitir que usuários atribuam permissões: – Criptografar Somente**.
+    Para verificar as versões mínimas dos aplicativos Outlook que usam etiquetagem integrada para suportar a aplicação da opção Encrypt-Only com uma etiqueta de sensibilidade, use a [tabela de capacidades para Outlook](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-outlook) e a linha **Deixe os usuários atribuírem permissões: - Encript-Only**.
 
 - No Word, no PowerPoint e no Excel, um usuário deve selecionar suas próprias permissões para usuários, grupos ou organizações específicos.
 
@@ -265,7 +265,7 @@ No Outlook, quando um usuário aplica um rótulo de confidencialidade que permit
 
 ![Rótulo de confidencialidade aplicado a uma mensagem no Outlook](../media/sensitivity-label-outlook-protection-applied.png)
 
-Quando uma dessas opções for aplicada a um email, o email será criptografado e os destinatários deverão ser autenticados. Em seguida, os destinatários automaticamente terão direitos de uso restritos:
+Quando uma dessas opções é aplicada a um e-mail, o e-mail é criptografado e os destinatários devem ser autenticados. Então, os destinatários têm automaticamente direitos de uso restritos:
 
 - **Não Encaminhar**: os destinatários não podem encaminhar o email, imprimi-lo ou copiá-lo. Por exemplo, no cliente do Outlook, o botão Encaminhar não está disponível, as opções do menu Salvar Como e Imprimir não estão disponíveis, e você não pode adicionar ou alterar destinatários nas caixas Para, CC ou Cco.
     
@@ -406,7 +406,7 @@ Criptografar seus documentos e emails mais confidenciais ajuda a garantir que so
 
 - Se um rótulo que aplica criptografia for adicionado usando um aplicativo do Office quando o documento for [retirado no Microsoft Office SharePoint Online](https://support.microsoft.com/office/check-out-check-in-or-discard-changes-to-files-in-a-library-7e2c12a9-a874-4393-9511-1378a700f6de) e o usuário descartar o check-out, o documento permanecerá rotulado e criptografado.
 
-- As seguintes ações para arquivos criptografados não são compatíveis com os aplicativos do Office (Windows, Mac, Android e iOS) e os usuários veem uma mensagem de erro informando que algo deu errado. No entanto, as funcionalidades do SharePoint podem ser usadas como alternativa:
+- As seguintes ações para arquivos criptografados não são compatíveis com os aplicativos do Office (Windows, Mac, Android e iOS) e os usuários veem uma mensagem de erro informando que algo deu errado. Entretanto, a funcionalidade Microsoft Office SharePoint Online pode ser usada como uma alternativa:
 
   - Visualize, restaure e salve cópias de versões anteriores. Como alternativa, os usuários poderão realizar essas ações usando o Office na Web quando você [habilitar e configurar o controle de versão para uma lista ou biblioteca](https://support.office.com/article/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
   - Alterar o nome ou local dos arquivos. Como alternativa, os usuários podem [renomear um arquivos, pasta ou link em uma biblioteca de documentos](https://support.microsoft.com/office/rename-a-file-folder-or-link-in-a-document-library-bc493c1a-921f-4bc1-a7f6-985ce11bb185) no SharePoint.
@@ -424,7 +424,7 @@ Antes de usar a criptografia, talvez seja necessário realizar algumas tarefas d
 
 - Configurar o Exchange para a Proteção de Informações do Azure
     
-    O Exchange não precisa ser configurado para a Proteção de Informações do Azure antes que os usuários possam aplicar rótulos no Outlook para criptografar seus emails. No entanto, até que o Exchange esteja configurado para a Proteção de Informações do Azure, você não obtém a funcionalidade completa do uso da proteção do Gerenciamento de Direitos do Azure com o Exchange.
+    O intercâmbio não precisa ser configurado para a Proteção de Informações Azure antes que os usuários possam aplicar etiquetas no Outlook para criptografar seus e-mails. Entretanto, até que o Exchange seja configurado para a Proteção de Informações do Microsoft Azure, você não terá a funcionalidade completa de usar a proteção Microsoft Azure AD Rights Management com Exchange.
     
     Por exemplo, os usuários não podem exibir emails criptografados em telefones celulares ou com o Outlook na Web, emails criptografados não podem ser indexados para pesquisa e você não pode configurar o DLP do Exchange Online para proteção do Gerenciamento de Direitos. 
     

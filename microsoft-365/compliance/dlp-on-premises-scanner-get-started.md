@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Configurar o scanner local de prevenção contra perda de dados do Microsoft 365
-ms.openlocfilehash: 7e190a1d6e902af3406f7e8f317efe80e825e7f2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 242956a3c6469756481fb823340e715a210562af
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917827"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114169"
 ---
 # <a name="get-started-with-the-data-loss-prevention-on-premises-scanner-preview"></a>Obter o scanner local de prevenção contra perda de dados (visualização)
 
@@ -55,7 +55,7 @@ Os dados do scanner DLP local podem ser visualizados no [Explorador de atividade
 
 ### <a name="dlp-on-premises-scanner-prerequisites"></a>Pré-requisitos do scanner DLP local
 
-- O scanner de Proteção de Informações do Azure (AIP) implementa a correspondência e a aplicação de políticas de DLP. O scanner é instalado como parte do cliente AIP, portanto, sua instalação deve atender a todos os pré-requisitos para AIP, o cliente AIP e o scanner de etiquetagem unificado AIP.
+- O scanner de Proteção de Informações do Azure (AIP) implementa a correspondência de políticas DLP e a aplicação de políticas. O scanner é instalado como parte do cliente AIP, portanto sua instalação deve atender a todos os pré-requisitos para AIP, o cliente AIP e o scanner de rotulagem unificado AIP.
 - Implantar o cliente e scanner AIP. Para mais informações [Instalar o cliente de rotulagem unificada AIP](/azure/information-protection/rms-client/install-unifiedlabelingclient-app) e [], consulte [Configurando e instalando o scanner de rotulagem unificada da Proteção de Informações do Azure](/azure/information-protection/deploy-aip-scanner-configure-install).
 - Deve haver pelo menos um rótulo e uma política publicados no locatário, mesmo se todas as suas regras de detecção forem baseadas apenas em tipos de informações confidenciais.
 
@@ -66,7 +66,7 @@ Os dados do scanner DLP local podem ser visualizados no [Explorador de atividade
     1. Configuração dos trabalhos de descoberta de rede é uma etapa opcional. Você pode ignorá-lo e definir repositórios específicos a serem verificados em seu trabalho de exame de conteúdo.
     2. Você deve criar um trabalho de exame de conteúdo e especificar os repositórios que hospedam arquivos que precisam ser avaliados pelo mecanismo DLP.
     3. Habilitar as regras de DLP no trabalho de exame de conteúdo criado e defina a opção **Aplicar** como **Desligado**, a menos que você queira prosseguir diretamente para o estágio de aplicação de DLP.
-3. Verificar se o trabalho de exame de conteúdo está atribuído ao cluster correto. Se você ainda não criou um trabalho de exame de conteúdo, crie um novo e atribua-o ao cluster que contém os nós do scanner que executam a versão de visualização pública.
+3. Verificar se o trabalho de exame de conteúdo foi atribuído ao cluster correto. Se você ainda não criou um trabalho de exame de conteúdo, crie um novo e atribua-o ao cluster que contém os nós de scanner que executam a versão de visualização pública.
 
 4. Conecte-se à extensão [Proteção de Informações do Azure no portal do Azure](https://portal.azure.com/#blade/Microsoft_Azure_InformationProtection/DataClassGroupEditBlade/scannerProfilesBlade) e adicione seus repositórios ao trabalho de exame de conteúdo que executará a verificação.
 
@@ -127,7 +127,7 @@ Agora que implantou uma política de teste para locais DLP locais e pode visuali
 
 - [Saiba mais sobre o scanner local DLP (visualização)](dlp-on-premises-scanner-learn.md)
 - [Use o scanner local DLP (visualização)](dlp-on-premises-scanner-use.md)
-- [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)
+- [Saiba mais sobre prevenção contra perda de dados](dlp-learn-about-dlp.md)
 - [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
 - [Começar a usar o Explorador de atividades](data-classification-activity-explorer.md)
 - [Assinatura do Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)

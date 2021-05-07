@@ -19,16 +19,16 @@ ms.collection:
 search.appverid:
 - MET150
 description: A Extensão de Conformidade da Microsoft estende o monitoramento e controle de atividades de arquivo e ações de proteção para o navegador Google Chrome
-ms.openlocfilehash: 38609b6920478085a28c7ec510bc5c9c4229543d
-ms.sourcegitcommit: 450661071e44854f0a0a92af648f76d907767b71
+ms.openlocfilehash: c8a5795b3be8b393fd3a934504449bf6db0c2f01
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50826219"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52113377"
 ---
 # <a name="learn-about-the-microsoft-compliance-extension-preview"></a>Saiba mais sobre a Extensão de Conformidade da Microsoft (prévia)
 
-[A Prevenção contra Perda de Dados de Ponto de Extremidade (ponto de extremidade DLP)](endpoint-dlp-learn-about.md) estende os recursos de monitoramento de atividade e proteção da [prevenção contra perda de dados (DLP) do Microsoft 365](data-loss-prevention-policies.md) para itens confidenciais que estão em dispositivos Windows 10. Depois que os dispositivos estiverem integrados às soluções de conformidade do Microsoft 365, as informações sobre o que os usuários estão fazendo com itens confidenciais serão visíveis no [explorador de atividades](data-classification-activity-explorer.md) e você poderá aplicar ações de proteção a esses itens por meio das [políticas DLP](create-test-tune-dlp-policy.md).
+[A Prevenção contra Perda de Dados de Ponto de Extremidade (ponto de extremidade DLP)](endpoint-dlp-learn-about.md) estende os recursos de monitoramento de atividade e proteção da [prevenção contra perda de dados (DLP) do Microsoft 365](dlp-learn-about-dlp.md) para itens confidenciais que estão em dispositivos Windows 10. Depois que os dispositivos estiverem integrados às soluções de conformidade do Microsoft 365, as informações sobre o que os usuários estão fazendo com itens confidenciais serão visíveis no [explorador de atividades](data-classification-activity-explorer.md) e você poderá aplicar ações de proteção a esses itens por meio das [políticas DLP](create-test-tune-dlp-policy.md).
 
 Depois que a Extensão de Conformidade da Microsoft é instalada em um dispositivo Windows 10, as organizações podem monitorar quando um usuário tenta acessar ou fazer upload de um item confidencial para um serviço em nuvem usando o Google Chrome e aplicar ações de proteção via DLP.  
 
@@ -60,7 +60,7 @@ Confira [Primeiros passos com a Extensão de Conformidade da Microsoft](dlp-chro
 - [Saiba mais sobre a prevenção contra Perda de Dados de Ponto de Extremidade do Microsoft 365](endpoint-dlp-learn-about.md)
 - [Introdução à prevenção contra perda de dados do Ponto de extremidade da Microsoft](endpoint-dlp-getting-started.md)
 - [Usar a prevenção contra perda de dados do Ponto de extremidade da Microsoft](endpoint-dlp-using.md)
-- [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)
+- [Saiba mais sobre prevenção contra perda de dados](dlp-learn-about-dlp.md)
 - [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
 - [Começar a usar o Explorador de atividades](data-classification-activity-explorer.md)
 - [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/)

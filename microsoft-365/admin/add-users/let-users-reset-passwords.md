@@ -25,20 +25,20 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Saiba como você pode redefinir suas senhas usando a ferramenta de redefinição de senha de autoatendados.
-ms.openlocfilehash: 0842430eda8c96647dd12d0da6d0c9e0481346dc
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: d24e826287f69f867fdaf9a5c8b424dbad4e0ebb
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023756"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52241827"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Permitir que os usuários redefinam as próprias senhas
 
-Como administrador do Microsoft 365, você [](https://go.microsoft.com/fwlink/p/?LinkId=522677) pode permitir que as pessoas usem a ferramenta de redefinição de senha de autoatendados para que você não tenha que redefinir senhas para elas. Menos trabalho para você!
+Como administrador Microsoft 365, você pode permitir que [](https://go.microsoft.com/fwlink/p/?LinkId=522677) as pessoas usem a ferramenta de redefinição de senha de autoatendados para que você não tenha que redefinir senhas para elas. Menos trabalho para você!
   
 ## <a name="before-you-begin"></a>Antes de começar
   
-- Você tem redefinição de senha  de autoatendados para usuários de nuvem gratuitamente com qualquer plano pago do Microsoft 365 business, education ou nonprofit. Ele não funciona com a avaliação do Microsoft 365.
+- Você recebe a redefinição de  senha de autoatendente para usuários de nuvem gratuitamente com qualquer plano pago Microsoft 365 negócios, educação ou sem fins lucrativos. Ele não funciona com Microsoft 365 avaliação.
 
 - Ela usa o Azure. Você obterá automaticamente esse recurso no Azure **gratuitamente** quando realizar essas etapas. Não haverá custos para habilitar a redefinição de senha de autoatendimento se você não usar outros recursos do Azure.
 
@@ -57,24 +57,8 @@ Se você achou este vídeo útil, consulte as [séries completas de treinamento 
 ## <a name="steps-let-people-reset-their-own-passwords"></a>Etapas: Permitir que as pessoas redefinir suas próprias senhas
 
 Estas etapas habilitam a redefinição de senhas de autoatendimento para todas as pessoas da empresa.
-  
-::: moniker range="o365-worldwide"
 
-1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">de administração,</a>vá para a página **Configurações** > **da Organização.**
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">de administração,</a>vá para a página **Configurações** \> **Privacidade &amp; de** segurança.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">de administração</a>, vá para a página **Configurações** \> **Configurações** \> **Privacidade &amp; de** segurança.
-
-::: moniker-end
+1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">de administração,</a>vá para a página de configurações **Configurações**  >  **Org.**
 
 2. Na parte superior da página **Configurações da Organização,** selecione a guia **Segurança & Privacidade.**
   

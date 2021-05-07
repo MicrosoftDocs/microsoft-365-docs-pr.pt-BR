@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para implantar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: d685b050d32ea7bf482a39ad8d72abe3ee74567d
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 08ecf97e3cb45896390c3dac9074c54a2b0bbe96
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499681"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994768"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -56,7 +56,7 @@ Para visualizar as opções de licenciamento dos seus usuários para se benefici
 
 ## <a name="permissions-required-to-create-and-manage-sensitivity-labels"></a>Permissões necessárias para criar e gerenciar rótulos dec confidencialidade
 
-Os membros da sua equipe de conformidade que forem criar rótulos de confidencialidade precisam de permissões no Centro de conformidade do Microsoft 365, Centro de segurança do Microsoft 365 ou Centro de Conformidade e Segurança. 
+Os membros da sua equipe de conformidade que criarão rótulos de confidencialidade precisam de permissões para o Centro de conformidade do Microsoft 365 ou para o antigo Centro de Conformidade e Segurança. 
 
 Por padrão, os administradores globais de locatários têm acesso a esses centros de administração e podem conceder acesso a agentes de conformidade e a outras pessoas, sem fornecer a eles todas as permissões de um administrador de locatários. Para esse acesso delegado de administrador limitado, adicione usuários ao grupo de funções **Administrador de Dados de Conformidade**, **Administrador de Conformidade** ou **Administrador de Segurança**. 
 

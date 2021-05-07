@@ -1,17 +1,17 @@
 ---
-title: Visão geral da prevenção contra perda de dados
+title: Referência de Prevenção contra Perda de Dados
 f1.keywords:
 - CSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 07/12/2019
+ms.date: ''
 audience: ITPro
 ms.topic: conceptual
 f1_keywords:
 - ms.o365.cc.DLPLandingPage
 ms.service: O365-seccomp
-localization_priority: Priority
+localization_priority: low
 ms.collection:
 - M365-security-compliance
 - SPO_Content
@@ -21,59 +21,68 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: Aprenda a identificar, monitorar e proteger automaticamente as informações confidenciais da sua organização no Office 365.
-ms.openlocfilehash: 737e556972ca8ab0f82e1c4fe9e8602f09e91fc8
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
-ms.translationtype: HT
+description: material de referência de prevenção contra perda de dados
+ms.openlocfilehash: a94dde0bba3fdfc869746f51687ed7709a96639a
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445425"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114397"
 ---
-# <a name="overview-of-data-loss-prevention"></a>Visão geral da prevenção contra perda de dados
+# <a name="data-loss-prevention-reference"></a>Referência de prevenção contra perda de dados
+ 
+> [!IMPORTANT]
+> Este é o tópico de referência não é mais o principal recurso para Microsoft 365 de prevenção contra perda de dados (DLP). O conjunto de conteúdo DLP está sendo atualizado e reestruturado. Os tópicos abordados neste artigo mudarão para artigos novos e atualizados. Para obter mais informações sobre DLP, consulte [Learn about data loss prevention](dlp-learn-about-dlp.md).
+
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
 <!-- move this note to a more appropriate place, no topic should start with a note -->
 > [!NOTE]
 > Os recursos de prevenção contra perda de dados foram recentemente adicionados às mensagens de chat e de canal do Microsoft Teams para usuários licenciados para a Conformidade Avançada do Office 365, disponível como uma opção independente e está incluso na Conformidade do Office 365 E5 e no Microsoft 365 E5. Para saber mais sobre os requisitos de licenciamento, confira [Diretrizes do Licenciamento de Serviços no Nível de Locatário do Microsoft 365](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance).
 
-Para estar em conformidade com padrões de negócios e regulamentações do setor, as organizações precisam proteger as informações confidenciais e evitar sua divulgação acidental. Informação confidencial inclui dados financeiros ou informações de identificação pessoal (PII), como números de cartão de crédito, números de CPF ou registros de saúde. Com uma política DLP no Centro de Conformidade &amp; Segurança do Office 365, você pode identificar, monitorar e proteger automaticamente as informações confidenciais no Office 365.
+
+
+<!-- MOVED TO LEARN ABOUT To comply with business standards and industry regulations, organizations must protect sensitive information and prevent its inadvertent disclosure. Sensitive information can include financial data or personally identifiable information (PII) such as credit card numbers, social security numbers, or health records. With a data loss prevention (DLP) policy in the Office 365 Security &amp; Compliance Center, you can identify, monitor, and automatically protect sensitive information across Office 365.
   
-Com uma política de DLP, você pode:
+With a DLP policy, you can:
   
-- **Identificar informações confidenciais em vários locais, como no Exchange Online, SharePoint Online, OneDrive for Business e Microsoft Teams.**
+- **Identify sensitive information across many locations, such as Exchange Online, SharePoint Online, OneDrive for Business, and Microsoft Teams.**
     
-    Por exemplo, você pode identificar qualquer documento com um número de cartão de crédito armazenado em qualquer site do OneDrive for Business ou você pode pesquisar apenas os sites do OneDrive de pessoas específicas.
+    For example, you can identify any document containing a credit card number that's stored in any OneDrive for Business site, or you can monitor just the OneDrive sites of specific people.
     
-- **Impedir o compartilhamento acidental de informações confidenciais**. 
+- **Prevent the accidental sharing of sensitive information**. 
     
-    Por exemplo, você pode identificar qualquer documento ou email com um registro de saúde compartilhado com pessoas de fora da sua organização e, em seguida, bloquear automaticamente o acesso a esse documento ou bloquear o envio do email.
+    For example, you can identify any document or email containing a health record that's shared with people outside your organization, and then automatically block access to that document or block the email from being sent.
     
-- **Monitorar e proteger informações confidenciais nas versões da área de trabalho do Excel, PowerPoint e Word.**
+- **Monitor and protect sensitive information in the desktop versions of Excel, PowerPoint, and Word.**
     
-    Assim como no Exchange Online, no SharePoint Online e no OneDrive for Business, esses programas da área de trabalho do Office incluem os mesmos recursos para identificar informações confidenciais e aplicar políticas de DLP. A DLP oferece monitoramento contínuo, quando as pessoas compartilham conteúdo nestes programas do Office.
+    Just like in Exchange Online, SharePoint Online, and OneDrive for Business, these Office desktop programs include the same capabilities to identify sensitive information and apply DLP policies. DLP provides continuous monitoring when people share content in these Office programs.
     
-- **Ajude os usuários a manter a conformidade sem interromper o fluxo de trabalho.**
+- **Help users learn how to stay compliant without interrupting their workflow.**
     
-    Você pode instruir os usuários sobre políticas de DLP e ajudá-los a permanecer em conformidade sem bloquear seu trabalho. Por exemplo, se um usuário tentar compartilhar um documento que contém informações confidenciais, uma política de DLP pode enviar uma notificação por email e mostrar uma dica de política no contexto da biblioteca de documentos que permite substituir a política se ele tivere uma justificativa de negócios. As mesmas dicas de política também aparecem no Outlook na Web, no Outlook, no Excel, no PowerPoint e no Word.
+    You can educate your users about DLP policies and help them remain compliant without blocking their work. For example, if a user tries to share a document containing sensitive information, a DLP policy can both send them an email notification and show them a policy tip in the context of the document library that allows them to override the policy if they have a business justification. The same policy tips also appear in Outlook on the web, Outlook, Excel, PowerPoint, and Word.
     
-- **Exibir alertas e relatórios de DLP mostrando o conteúdo que corresponde às políticas de DLP da organização**
+- **View DLP alerts and reports showing content that matches your organization’s DLP policies.**
     
-    Para exibir alertas e metadados relacionados às políticas DLP, você pode usar o [Painel de Gerenciamento de Alertas DLP](dlp-configure-view-alerts-policies.md). Também pode ser exibido os relatórios de correspondência de política para avaliar como a organização está cumprindo uma política DLP. Se uma política de DLP permite que os usuários substituam uma dica de política e relatem um falso positivo, também pode ser exibido o que os usuários relataram
-    
+    To view alerts and metadata related to your DLP policies you can use the [DLP Alerts Management Dashboard](dlp-configure-view-alerts-policies.md). You can also view policy match reports to assess how your organization is complying with a DLP policy. If a DLP policy allows users to override a policy tip and report a false positive, you can also view what users have reported
+
+-->    
+## <a name="create-and-manage-dlp-policies"></a>Criar e gerenciar políticas DLP
+
 Você cria e gerencia políticas DLP na página Prevenção Contra Perda de Dados no Centro de conformidade do Microsoft 365.
   
 ![Página de Prevenção contra Perda de Dados no Centro de Conformidade &amp; Segurança do Office 365](../media/943fd01c-d7aa-43a9-846d-0561321a405e.png)
   
-## <a name="what-a-dlp-policy-contains"></a>O que uma política de DLP contém
+<!-- MOVED TO LEARN ABOUT ## What a DLP policy contains
 
-Uma política de DLP contém algumas informações básicas:
+A DLP policy contains a few basic things:
   
-- Onde proteger o conteúdo: **Locais** como os sites do Exchange Online, SharePoint Online e OneDrive for Business, bem como mensagens no chat e de canais do Microsoft Teams. 
+- Where to protect the content: **locations** such as Exchange Online, SharePoint Online, and OneDrive for Business sites, as well as Microsoft Teams chat and channel messages. 
     
-- Quando e como proteger o conteúdo aplicando **regras** compostas por: 
+- When and how to protect the content by enforcing **rules** comprised of: 
     
-  - **Condições** com as quais o conteúdo deve corresponder antes que a regra seja aplicada. Por exemplo, a regra deve ser configurada para procurar apenas conteúdo com números de previdência social compartilhados com pessoas de fora da sua organização. 
+  - **Conditions** the content must match before the rule is enforced. For example, a rule might be configured to look only for content containing Social Security numbers that's been shared with people outside your organization. 
     
-  - **Ações** que a regra deve executar automaticamente quando o conteúdo correspondente às condições for encontrado. Por exemplo, uma regra pode ser configurada para bloquear o acesso a um documento e enviar uma notificação por email ao usuário e ao responsável pela conformidade. 
+  - **Actions** that you want the rule to take automatically when content matching the conditions is found. For example, a rule might be configured to block access to a document and send both the user and compliance officer an email notification. -->
     
 Você pode usar uma regra para atender a um requisito específico de proteção e depois usar uma política DLP para agrupar requisitos de proteção comuns, como todas as regras necessárias para manter a conformidade com uma regulamentação específica.
   
@@ -81,20 +90,20 @@ Por exemplo, você pode ter uma política DLP que ajuda a detectar a presença d
   
 ![O diagrama mostra que a política de DLP contém locais e regras](../media/c006860c-2d00-42cb-aaa4-5b5638d139f7.png)
   
-### <a name="locations"></a>Locais
+<!-- MOVED TO LEARN ABOUT ### Locations
 
-As políticas de DLP são aplicadas a itens confidenciais em locais do Microsoft 365 e podem ter um escopo adicional conforme detalhado nesta tabela.
+DLP policies are applied to sensitive items across Microsoft 365 locations and can be further scoped as detailed in this table.
 
 
-|Local | Incluir/excluir por|
+|Location | Include/exclude by|
 |---------|---------|
-|Email do Exchange| grupos de distribuição|
-|Sites do Microsoft Office SharePoint Online |sites |
-|Contas do OneDrive |contas |
-|Bater papo e canal de mensagens do Teams |contas |
-|Dispositivos Windows 10 |usuário ou grupo |
-|Microsoft Cloud App Security |instância |
-
+|Exchange email| distribution groups|
+|SharePoint sites |sites |
+|OneDrive accounts |accounts |
+|Teams chat and channel messages |accounts |
+|Windows 10 devices |user or group |
+|Microsoft Cloud App Security |instance |
+ -->
 
 Se você optar por incluir grupos de distribuição específicos no Exchange, a política DLP será delimitada somente aos membros desse grupo. Da mesma maneira, a exclusão de um grupo de distribuição excluirá todos os membros desse grupo de distribuição da avaliação de políticas. Você pode optar por criar uma política para os membros das listas de distribuição, grupos de distribuição dinâmicas e grupos de segurança. Uma política DLP pode conter, no máximo, 50 inclusões e exclusões.
 
@@ -496,8 +505,7 @@ Após a sincronização da política com os locais corretos, ela começa avaliar
 
 Em todos os seus sites do SharePoint Online e sites do OneDrive for Business, os documentos estão em constante mudança — eles estão continuamente sendo criados, editados, compartilhados, movidos e assim por diante. Isso significa que os documentos podem conflitar ou ficar em conformidade com uma política de DLP a qualquer momento. Por exemplo, uma pessoa pode carregar um documento que não contém nenhuma informação confidencial para seus sites de equipe, mas, posteriormente, outra pessoa pode editar o mesmo documento e adicionar informações confidenciais a ele.
   
-Por esse motivo, as políticas de DLP verificam documentos em busca de correspondências de política com frequência em segundo plano. Você pode considerar isso uma avaliação assíncrona da política.
-<!-- what is the frequency? looks like it is tied to the search crawl schedule -->
+Por esse motivo, as políticas de DLP verificam documentos em busca de correspondências de política com frequência em segundo plano. Você pode considerar isso uma avaliação assíncrona da política.<!-- what is the frequency? looks like it is tied to the search crawl schedule -->
   
 #### <a name="how-it-works"></a>Como funciona
  
@@ -510,7 +518,7 @@ Por esse motivo, as políticas de DLP verificam documentos em busca de correspon
 A DLP avalia qualquer conteúdo que pode ser indexado. Para saber mais sobre os tipos de arquivo que são rastreados por padrão, confira [Extensões de nomes de arquivos rastreados e tipos de arquivos padrão analisados no SharePoint Server](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types).
 
 > [!NOTE]
-> O compartilhamento externo de novos arquivos no SharePoint pode ser bloqueado por padrão até que pelo menos uma política DLP verifique o novo item. Confira [Marcar novos arquivos como confidenciais por padrão](/sharepoint/sensitive-by-default) para obter informações detalhadas. 
+> Para evitar que os documentos sejam compartilhados antes que as políticas DLP tivessem a oportunidade de analisá-los, o compartilhamento de novos arquivos no SharePoint pode ser bloqueado até que seu conteúdo seja indexado. Confira [Marcar novos arquivos como confidenciais por padrão](/sharepoint/sensitive-by-default) para obter informações detalhadas. 
   
 ### <a name="policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web"></a>Avaliação de políticas no Exchange Online, Outlook e Outlook na Web
 

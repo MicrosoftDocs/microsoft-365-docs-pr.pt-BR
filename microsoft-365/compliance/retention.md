@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 42fe70d1360f45deb6f98f41c0ffec97de7e00a9
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 2c63f668cd4ccbad55a883aaf2b245c4936e25eb
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498345"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860950"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
-> Se você estiver vendo mensagens sobre políticas de retenção em seus aplicativos, entre em contato com o departamento de TI para obter informações sobre como elas foram configuradas para você. Se essas mensagens forem sobre o chat do Teams ou mensagens de canal, confira [Mensagens do Teams sobre políticas de retenção](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b).
+> Se estiver vendo mensagens sobre políticas de retenção em seus aplicativos, entre em contato com seu departamento de TI para obter informações sobre como elas foram configuradas para você. Se essas mensagens forem sobre o chat do Teams ou mensagens de canal, confira [Mensagens do Teams sobre políticas de retenção](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b).
 >
 > As informações desta página são para administradores de TI que podem criar políticas de retenção e rótulos de retenção por motivos de conformidade.
 
@@ -263,7 +263,7 @@ Use a tabela a seguir para ajudá-lo a identificar se deseja usar uma política 
 |Auditoria de atividades administrativas| Sim | Sim|
 |Identifique os itens sujeitos à retenção: <br /> - Pesquisa de Conteúdo <br /> - Página de classificação de dados, explorador de conteúdo, explorador de atividades | <br /> Não <br /> Não | <br /> Sim <br /> Sim|
 
-Observe que você pode usar as políticas de retenção e os rótulos de retenção como métodos de retenção complementares. Por exemplo:
+Observe que você pode usar políticas de retenção e rótulos de retenção como métodos de retenção complementares. Por exemplo:
 
 1. Você cria e configura uma política de retenção que exclui automaticamente o conteúdo cinco anos após a última modificação, e aplica a política a todas as contas do OneDrive.
 

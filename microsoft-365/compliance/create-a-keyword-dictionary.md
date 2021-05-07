@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Aprenda as etapas básicas para criar um dicionário de palavras-chave no Centro de Segurança e Conformidade do Office 365.
-ms.openlocfilehash: b70deed531204f2ffe85253bd9ae2073dad291ec
-ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
+ms.openlocfilehash: 94bacc2a2fe91fdc35aad753cc2e7db80a374e29
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51632187"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876072"
 ---
 # <a name="create-a-keyword-dictionary"></a>Criar um dicionário de palavras-chave
 
@@ -31,7 +31,7 @@ A DLP (prevenção contra perda de dados) pode identificar, monitorar e proteger
 
 ## <a name="keyword-dictionary-limits"></a>Limites do dicionário de palavras-chave
 
-Há um limite de 50 tipos de informações confidenciais baseadas em dicionário de palavras-chave que podem ser criados por locatário. Para descobrir quantos dicionários de palavras-chave você tem em seu locatário, você pode executar este script do PowerShell em seu locatário.
+Há um limite de 50 tipos de informações confidenciais baseadas em dicionário de palavras-chave que podem ser criados por locatário. Para descobrir quantos dicionários de palavras-chave você tem em seu inquilino, conecte-se usando os procedimentos do [Connect to the Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) para conectar-se ao seu inquilino e executar este script PowerShell.
 
 ```powershell
 $rawFile = $env:TEMP + "\rule.xml"
@@ -71,7 +71,7 @@ Remove-Item $rawFile
 
 ## <a name="basic-steps-to-creating-a-keyword-dictionary"></a>Etapas básicas para criar um dicionário de palavra-chave
 
-As palavras-chave para o seu dicionário podem vir de uma variedade de fontes, mais comumente de um arquivo (como uma lista .csv ou .txt), importada no serviço ou pelo cmdlet do PowerShell de uma lista que você insere diretamente no cmdlet do PowerShell ou de um dicionário existente. Quando você cria um dicionário de palavras-chave, siga as mesmas etapas principais:
+As palavras-chave para o seu dicionário podem vir de várias fontes, mais comumente de um arquivo (como uma lista .csv ou .txt), importada no serviço ou pelo cmdlet do PowerShell de uma lista que você insere diretamente no cmdlet do PowerShell ou de um dicionário existente. Quando você cria um dicionário de palavras-chave, siga as mesmas etapas principais:
   
 1. Use o **Centro de Conformidade e Segurança** ([https://protection.office.com](https://protection.office.com)) ou conecte-se ao **Centro &amp; de Conformidade e Segurança do PowerShell**.
     
@@ -109,7 +109,7 @@ Use as etapas a seguir para criar e importar palavras-chave para um dicionário 
     
 ## <a name="create-a-keyword-dictionary-from-a-file-using-powershell"></a>Criar um dicionário de palavras-chave de um arquivo usando o Power Shell
 
-Frequentemente, quando você precisa criar um dicionário grande, é para usar palavras-chave de um arquivo ou lista exportada de alguma outra fonte. Nesse caso, você criará um dicionário de palavras-chave contendo uma lista de linguagem imprópria para exibir em email externo. Primeiro você deve [conectar-se ao Centro &amp; de Conformidade e Segurança do PowerShell](/powershell/exchange/connect-to-scc-powershell).
+Frequentemente, quando você precisa criar um dicionário grande, é para usar palavras-chave de um arquivo ou lista exportada de alguma outra fonte. Nesse caso, você criará um dicionário de palavras-chave contendo uma lista de linguagem imprópria para exibir em email externo. Primeiro você deve [Conectar-se ao Centro &amp; de Conformidade e Segurança do PowerShell](/powershell/exchange/connect-to-scc-powershell).
   
 1. Copie as palavras-chave para um arquivo de texto e verifique se cada palavra-chave está em uma linha separada.
     
@@ -147,7 +147,7 @@ Antes de modificar o dicionário, você precisa transformar a cadeia de caracter
 $terms = $dict.KeywordDictionary.split(',').trim()
 ```
 
-Agora, você removerá alguns termos do dicionário. Como o dicionário de exemplo tem apenas alguns as palavras-chave, você poderá ignorar facilmente para exportar o dicionário e editá-lo no Bloco de Notas, mas os dicionários geralmente contêm uma grande quantidade de texto, então você vai aprender primeiro assim para editá-los facilmente no PowerShell.
+Agora, você removerá alguns termos do dicionário. Como o dicionário de exemplo tem algumas palavras-chave, você poderá ignorar facilmente para exportar o dicionário e editá-lo no Bloco de Notas, mas os dicionários geralmente contêm uma grande quantidade de texto, então você vai aprender primeiro assim para editá-los facilmente no PowerShell.
   
 Na última etapa, você salvou as palavras-chave em uma matriz. Há várias maneiras de [remover itens de uma matriz](/previous-versions/windows/it-pro/windows-powershell-1.0/ee692802(v=technet.10)), mas como uma abordagem simples, você criará uma matriz de termos que deseja remover do dicionário e, em seguida, copia apenas os termos de dicionário para que ele não esteja na lista de termos para remover.
   
@@ -212,13 +212,13 @@ Save the dictionary locally by running the following:
 Set-Content $updatedTerms -Path "C:\myPath\terms.txt"
 ```
 
-Agora basta abrir o arquivo, adicionar os termos adicionais e salvar a codificação Unicode (UTF-16). Agora você carregará os termos atualizados e atualizará o dicionário no local.
+Agora abra o arquivo, acrescente seus outros termos e salve com codificação Unicode (UTF-16). Agora, você carregará os termos atualizados e atualizará o dicionário no lugar.
   
 ```powershell
 PS> Set-DlpKeywordDictionary -Identity "Diseases" -FileData (Get-Content -Path "C:myPath\terms.txt" -Encoding Byte -ReadCount 0)
 ```
 
-Agora, o dicionário foi atualizado no local. Observe que o campo `Identity` leva o nome do dicionário. Se você também quiser alterar o nome do dicionário usando o cmdlet `set-`, basta adicionar o parâmetro `-Name` para o que está acima com o novo nome do dicionário. 
+Agora o dicionário foi atualizado. O campo `Identity` leva o nome do dicionário. Se você também quiser mudar o nome de seu dicionário usando o cmdlet `set-`, basta adicionar o parâmetro `-Name` ao que está acima com seu novo nome de dicionário. 
   
 ## <a name="using-keyword-dictionaries-in-custom-sensitive-information-types-and-dlp-policies"></a>Usar dicionários de palavras-chave em tipos de informação confidencial personalizados e as políticas DLP
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: As políticas de retenção de log de auditoria fazem parte dos novos recursos Avançados de Auditoria no Microsoft 365. Uma política de retenção de log de auditoria permite especificar por quanto tempo reter os logs de auditoria em sua organização.
-ms.openlocfilehash: 53449b6b83373eb2f749a4547845866dbea4a2af
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2ac95d9bb9c13b6bf0c0e31d17b4fb46c30c492a
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922847"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687354"
 ---
 # <a name="manage-audit-log-retention-policies"></a>Gerenciar políticas de retenção de log de auditoria
 
@@ -36,7 +36,7 @@ Você pode criar e gerenciar políticas de retenção de log de auditoria no Cen
 
 ## <a name="default-audit-log-retention-policy"></a>Política de retenção de log de auditoria padrão
 
-A Auditoria Avançada no Microsoft 365 fornece uma política de retenção de log de auditoria padrão para todas as organizações. Essa política mantém todos os registros de auditoria do Exchange, do SharePoint e do Azure Active Directory por um ano. Essa política padrão mantém registros de auditoria que contêm o valor do **AzureActiveDirectory**, **Exchange** ou **SharePoint** para a propriedade **Carga de trabalho** (que é o serviço em que a atividade ocorreu). A política padrão não pode ser modificada. Confira a seção [Mais informações](#more-information) neste artigo para obter uma lista de tipos de registro para cada carga de trabalho inclusa na política padrão.
+A Auditoria Avançada no Microsoft 365 fornece uma política de retenção de log de auditoria padrão para todas as organizações. Essa política mantém todos os registros de auditoria do Exchange Online, do OneDrive for Business e do Azure Active Directory por um ano. Essa política padrão mantém registros de auditoria que contêm o valor do **Exchange**, **SharePoint**, **OneDrive**, **AzureActiveDirectory** para a propriedade **Carga de trabalho** (que é o serviço em que a atividade ocorreu). A política padrão não pode ser modificada. Confira a seção [Mais informações](#more-information) neste artigo para obter uma lista de tipos de registro para cada carga de trabalho inclusa na política padrão.
 
 > [!NOTE]
 > A política de retenção do log de auditoria padrão aplica-se somente a registros de auditoria para atividades executadas por usuários que receberam uma licença do Office 365 ou Microsoft 365 E5 ou têm uma licença complementar do Microsoft 365 E5 Compliance ou E5 Descoberta Eletrônica e licença complementar de Auditoria. Se você tiver usuários não E5 ou usuários convidados em sua organização, seus registros de auditoria correspondentes serão retidos por 90 dias.
@@ -167,9 +167,9 @@ Use o cmdlet [Remove-UnifiedAuditLogRetentionPolicy](/powershell/module/exchange
 
 ## <a name="more-information"></a>Mais Informações
 
-Conforme declarado anteriormente, os registros de auditoria para operações no Microsoft Azure Active Directory, Exchange e Microsoft Office SharePoint Online são retidos por um ano por padrão. A seguinte tabela lista todos os tipos de registro (para cada um desses serviços) incluídos na política de retenção de log de auditoria padrão. Isso significa que os logs de auditoria para qualquer operação com esse tipo de registro são mantidos por um ano, a menos que uma política de retenção de log de auditoria personalizada tenha precedência sobre um tipo específico de registro, uma operação ou usuário. O valor de enumeração (que é exibido como o valor da propriedade RecordType em um registro de auditoria) para cada tipo de registro é mostrado entre parênteses.
+Conforme declarado anteriormente, os registros de auditoria para operações no Azure Active Directory, Exchange Online, SharePoint Online e OneDrive for Business são retidos por um ano por padrão. A seguinte tabela lista todos os tipos de registro (para cada um desses serviços) incluídos na política de retenção de log de auditoria padrão. Isso significa que os logs de auditoria para qualquer operação com esse tipo de registro são mantidos por um ano, a menos que uma política de retenção de log de auditoria personalizada tenha precedência sobre um tipo específico de registro, uma operação ou usuário. O valor de enumeração (que é exibido como o valor da propriedade RecordType em um registro de auditoria) para cada tipo de registro é mostrado entre parênteses.
 
-|AzureActiveDirectory |Exchange  |SharePoint|
+|AzureActiveDirectory |Exchange  |SharePoint ou OneDrive|
 |:---------|:---------|:---------|
 |AzureActiveDirectory (8)|ExchangeAdmin (1)|ComplianceDLPSharePoint (11)|
 |AzureActiveDirectoryAccountLogon (9)|ExchangeItem (2)|ComplianceDLPSharePointClassification (33)|

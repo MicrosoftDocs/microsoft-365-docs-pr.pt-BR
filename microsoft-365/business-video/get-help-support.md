@@ -20,7 +20,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como obter ajuda ou suporte do administrador no Microsoft 365 Business Premium.
+description: Saiba como obter ajuda ou suporte administrativo no Microsoft 365 Business Premium.
 ms.openlocfilehash: 016e31ea12f1efeb50597cdb34391d324dc0f58d
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -32,41 +32,41 @@ ms.locfileid: "51580589"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOgo?autoplay=false]
 
-Precisa falar com alguém imediatamente? Administradores, prepare os detalhes da sua conta ao chamar o Suporte.
+Precisa falar com alguém imediatamente? Administradores, tenham em mãos os detalhes da sua conta ao telefonarem para o Suporte.
 
-Não é um administrador? Experimente [o suporte da Microsoft](https://go.microsoft.com/fwlink/?linkid=860695) para usuários finais de home e business.
+Não é um administrador? Experimente o [suporte da Microsoft](https://go.microsoft.com/fwlink/?linkid=860695) para usuários finais domésticos e corporativos.
 
-- **Nos Estados Unidos, chame 1 800 865 9408**.
-- **Na Austrália, chame 1 800 197 503**.
-- **No Canadá, chame 1 800 865 9408**.
-- **No Reino Unido, chame 0800 032 6417**.
+- **Nos Estados Unidos, ligue para 1 800 865 9408**.
+- **Na Austrália, ligue para 1 800 197 503**.
+- **No Canadá, ligue para 1 800 865 9408**.
+- **No Reino Unido, ligue para 0800 032 6417**.
 
-O suporte à cobrança é fornecido em inglês das 9:00 às 17:00 (9:00 às 18:00 na Austrália), de segunda a sexta-feira.
-O suporte técnico é fornecido em inglês 24 horas por dia, 7 dias por semana.
+O suporte de cobrança é fornecido em Inglês das 9h às 17h (9h às 18h na Austrália), de segunda a sexta-feira.
+O suporte técnico é fornecido em Inglês 24 horas por dia, 7 dias por semana.
 
-Para encontrar o número de telefone de suporte do Microsoft 365 ou Microsoft 365 Business Premium para seu país ou região, consulte [Contact support for business products](https://support.microsoft.com/office/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+Para encontrar o número do telefone de suporte do Microsoft 365 ou Microsoft 365 Business Premium no seu país ou região, consulte [Contatar o suporte para produtos empresariais](https://support.microsoft.com/office/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 ## <a name="try-it"></a>Experimente!
 
-No Microsoft 365 Business Premium, há várias maneiras de obter ajuda ou assistência. Você pode encontrar ajuda no centro de administração da Microsoft, em uma Loja da Microsoft ou em um provedor de soluções da Microsoft.
+No Microsoft 365 Business Premium, existem várias maneiras de receber ajuda ou assistência. Você pode encontrar ajuda no Centro de administração da Microsoft, na Microsoft Store ou em um provedor de soluções da Microsoft.
 
-### <a name="get-help-in-the-admin-center"></a>Obter ajuda no centro de administração
+### <a name="get-help-in-the-admin-center"></a>Obter ajuda no Centro de administração
 
-1. Entre [no](https://office.com) office.com com suas credenciais de trabalho e selecione Admin.
+1. Entre no [office.com](https://office.com) com suas credenciais de trabalho e selecione Administrador.
 1. Na parte inferior da página, escolha **Precisa de ajuda?** para abrir o assistente de suporte.
-1. Digite sua pergunta e selecione o **ícone Enviar mensagem.**
-1. Revise os resultados e escolha a opção que deseja.
-1. Se precisar de mais ajuda, escolha o **ícone Contato.**
-1. Na página **Suporte de** contato, insira informações sobre sua pergunta e insira suas informações de contato. Escolha como você deseja ser contatado e, em seguida, selecione **Contact me**.
+1. Digite sua pergunta e selecione o ícone **Enviar mensagem**.
+1. Analise os resultados e escolha a opção desejada.
+1. Se precisar de mais ajuda, escolha o ícone **Contato**.
+1. Na página **Contatar o suporte**, insira informações sobre sua pergunta e, em seguida, insira suas informações de contato. Escolha como você deseja ser contatado e, em seguida, marque **Entre em contato comigo**.
 
-    Sua solicitação de serviço foi enviada. Você verá um resumo de sua solicitação na página **Solicitação de** Serviço.
+    Sua solicitação de serviço foi enviada. Você receberá um resumo da solicitação na página **Solicitação de serviço**.
 
 ### <a name="work-with-a-solution-provider"></a>Trabalhar com um provedor de soluções
 
-1. Se você tiver um projeto ou problema maior e quiser falar com um consultor, considere um provedor de soluções da Microsoft.
-1. Para localizar um provedor de soluções, pesquise "Provedores de soluções da Microsoft" em seu navegador.
-1. Selecione a **página Provedor de Soluções** da Microsoft.
-1. Insira sua localização, o tamanho da sua organização e o tipo de suporte que você está procurando. Selecione **Ir**.
-1. Na página **Encontrar um provedor de soluções da Microsoft,** selecione o provedor de soluções que você deseja na lista.
+1. Se você tem um projeto ou problema maior e gostaria de falar com um consultor, considere um provedor de soluções da Microsoft.
+1. Para localizar um provedor de soluções, pesquise "provedores de soluções da Microsoft" no seu navegador.
+1. Selecione a página de **Provedores de Soluções da Microsoft**.
+1. Insira seu local, o tamanho da sua organização e o tipo de suporte que está procurando. Selecione **Ir**.
+1. Na página **Localizar um provedor de soluções da Microsoft**, selecione na lista o provedor de soluções que você deseja.
 
-    O provedor de serviços escolhido entrará em contato com você.
+    O provedor de serviços que você escolher entrará em contato com você.

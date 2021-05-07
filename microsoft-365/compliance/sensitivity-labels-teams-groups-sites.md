@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint, Microsoft Teams e grupos do Microsoft 365.
-ms.openlocfilehash: 501df9b167e917d79957d8b156597af67e6240af
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4914a5911ffb493eded46631d7682c1e48cf1426
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919577"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860870"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint
 
@@ -51,7 +51,7 @@ Antes de habilitar rótulos de confidencialidade para recipientes e configurar r
 
 ![Um rótulo de confidencialidade exibido no aplicativo Word para área de trabalho](../media/sensitivity-label-word.png)
 
-Depois de habilitar e configurar os rótulos de confidencialidade para os contêineres, os usuários também podem ver e aplicar rótulos de confidencialidade ao Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint. Por exemplo, quando você cria um novo site de equipe no SharePoint:
+Depois de habilitar e configurar os rótulos de confidencialidade dos contêineres, os usuários também poderão ver e aplicar rótulos de confidencialidade ao Microsoft Teams, Grupos do Microsoft 365 e sites do SharePoint. Po exemplo, quando você cria um novo site de equipe a partir do SharePoint:
 
 ![Um rótulo de confidencialidade ao criar um site de equipe do SharePoint](../media/sensitivity-labels-new-team-site.png)
 
@@ -144,13 +144,13 @@ Como prática recomendada, não altere as configurações de site e grupo de um 
 
 Além disso, se suas alterações incluírem a configuração de **Acesso de usuários externos**:
 
-- A nova configuração aplica-se a novos usuários, mas não a usuários existentes. Por exemplo, se essa configuração tiver sido selecionada anteriormente e, como resultado, os usuários convidados acessarem o site. esses usuários convidados ainda poderão acessar o site depois que essa configuração for limpa na configuração do rótulo.
+- A nova configuração se aplica a novos usuários, mas não aos usuários existentes. Por exemplo, se essa configuração foi selecionada anteriormente e, como resultado, os usuários convidados acessaram o site, esses usuários convidados ainda poderão acessar o site depois que essa configuração for desmarcada na configuração do rótulo.
 
 - As configurações de privacidade para as propriedades do grupo hiddenMembership e roleEnabled não são atualizadas.
 
 ### <a name="deleting-published-labels-that-are-configured-for-sites-and-groups"></a>Excluindo rótulos publicados que estão configurados para sites e grupos
 
-Se você excluir um rótulo de confidencialidade com as configurações de site e grupo ativadas e esse rótulo estiver incluído em uma ou mais políticas de rótulo, essas ações poderão resultar em falhas na criação de todas as equipes, grupos e sites. Para evitar essa situação, use as instruções a seguir:
+Se você excluir um rótulo de confidencialidade que tem as configurações de site e grupo habilitadas e esse rótulo estiver incluído em uma ou mais políticas de rótulo, essa ação poderá resultar em falhas na criação de novas equipes, grupos e sites. Para evitar essa situação, use as seguintes orientações:
 
 1. Remova o rótulo de confidencialidade de todas as políticas de rótulo que incluam o rótulo.
 
@@ -233,7 +233,7 @@ Verifique se você tem a versão 16.0.19418.12000 ou posterior do Shell de geren
    $Id = [GUID]("e48058ea-98e8-4940-8db0-ba1310fd955e")
    ```
 
-4. Criar uma nova variável que identifique vários sites com uma cadeia de caracteres de identificação em comum na URL. Por exemplo:
+4. Crie uma nova variável que identifique vários sites que possuem uma cadeia de caracteres de identificação em comum com a URL. Por exemplo:
 
    ```powershell
    $sites = Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like 'documents"
@@ -245,7 +245,7 @@ Verifique se você tem a versão 16.0.19418.12000 ou posterior do Shell de geren
    $sites | ForEach-Object {Set-SPOTenant $_.url -SensitivityLabel $Id}
    ```
 
-Para aplicar diferentes rótulos a diferentes sites, repita o seguinte comando para cada site: `Set-SPOSite -Identity <URL> -SensitivityLabel "<labelguid>"`
+Esta série de comandos permite rotular vários sites em seu locatário com o mesmo rótulo de confidencialidade, é por isso que você usa o cmdlet Set-SPOTenant, em vez do cmdlet Set-SPOSite que é usado para configuração por site. No entanto, use o cmdlet Set-SPOSite quando precisar aplicar um rótulo diferente a sites específicos, repetindo o seguinte comando para cada um desses sites: `Set-SPOSite -Identity <URL> -SensitivityLabel "<labelguid>"`
 
 ## <a name="view-and-manage-sensitivity-labels-in-the-sharepoint-admin-center"></a>Exibir e gerenciar rótulos de confidencialidade no Centro de Administração do SharePoint Online
 
@@ -317,7 +317,7 @@ Para converter suas classificações antigas em rótulos de confidencialidade, s
 
 Depois:
 
-1. Use o PowerShell para aplicar os rótulos de confidencialidade a grupos existentes do Microsoft 365 e sites do SharePoint usando o mapeamento de nomes. Confira a seção a seguir para obter instruções.
+1. Use o PowerShell para aplicar rótulos de confidencialidade a Grupos do Microsoft 365 e sites do SharePoint existentes usando o mapeamento de nomes. Confira a próxima seção para obter instruções.
 
 2. Remova as classificações antigas dos grupos e sites existentes.
 

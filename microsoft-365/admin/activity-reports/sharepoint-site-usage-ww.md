@@ -1,5 +1,5 @@
 ---
-title: Relatórios do Microsoft 365 no centro de administração - Uso do site do SharePoint
+title: Microsoft 365 Relatórios no centro de administração - SharePoint uso do site
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -14,40 +14,39 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 ms.custom: AdminSurgePortfolio
-ROBOTS: NOINDEX, NOFOLLOW
 search.appverid:
 - BCS160
 - MST160
 - MET150
 - MOE150
-description: Obter o relatório de uso do site do SharePoint para saber quantos arquivos os usuários armazenam em sites do SharePoint, quantos são usados ativamente e o armazenamento total consumido.
-ms.openlocfilehash: cfae7e1fc02d769328af46f75fdafc143467630b
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Obter o SharePoint de uso do site para saber quantos arquivos os usuários armazenam em sites SharePoint, quantos são usados ativamente e o armazenamento total consumido.
+ms.openlocfilehash: 62bf01c867b7e9217d25e655af6633a72773caa1
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579501"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52241863"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---sharepoint-site-usage"></a>Relatórios do Microsoft 365 no centro de administração - Uso do site do SharePoint
+# <a name="microsoft-365-reports-in-the-admin-center---sharepoint-site-usage"></a>Microsoft 365 Relatórios no centro de administração - SharePoint uso do site
 
-Como administrador do Microsoft 365, o **painel** Relatórios mostra a visão geral da atividade em vários produtos em sua organização. Ele permite um detalhamento para que você possa obter informações mais granulares sobre as atividades específicas a cada produto. Por exemplo, você pode ter uma visão de alto nível do valor que está recebendo do SharePoint em termos do número total de arquivos armazenados pelos usuários nos sites do SharePoint, quantos arquivos estão sendo usados ativamente e o armazenamento consumido em todos esses sites. Em seguida, você pode analisar o relatório de uso do site do SharePoint para entender as tendências e os detalhes de acordo com o nível do site para todos os sites. 
+Como administrador Microsoft 365, o painel **Relatórios** mostra a visão geral da atividade em vários produtos em sua organização. Ele permite um detalhamento para que você possa obter informações mais granulares sobre as atividades específicas a cada produto. Por exemplo, você pode ter uma visão de alto nível do valor que está recebendo do SharePoint em termos do número total de arquivos armazenados pelos usuários nos sites do SharePoint, quantos arquivos estão sendo usados ativamente e o armazenamento consumido em todos esses sites. Em seguida, você pode analisar o relatório de uso do site do SharePoint para entender as tendências e os detalhes de acordo com o nível do site para todos os sites. 
   
 > [!NOTE]
-> Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou um administrador do Exchange, SharePoint, Teams Service, Teams Communications ou Skype for Business para ver relatórios.
-Os Relatórios do Microsoft 365 no centro de administração não são suportados para locatários GCC High e DoD.
+> Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou um Exchange, SharePoint, serviço Teams, comunicações Teams ou Skype for Business para ver relatórios.
+Microsoft 365 Relatórios no centro de administração não são suportados para GCC locatários High e DoD.
  
 ## <a name="how-to-get-to-the-sharepoint-site-usage-report"></a>Como acessar o relatório de uso de site do SharePoint
 
 1. No centro de administração do, vá para a página **Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>. 
-2. Na página inicial do painel, clique no botão **Exibir mais** no cartão do SharePoint.
+2. Na página inicial do painel, clique no botão **Exibir mais** no cartão SharePoint.
   
-## <a name="interpret-the-sharepoint-site-usage-report"></a>Interpretar o relatório de uso do site do SharePoint
+## <a name="interpret-the-sharepoint-site-usage-report"></a>Interpretar o relatório SharePoint de uso do site
 
-Você pode exibir o uso do site no relatório do SharePoint escolhendo a **guia Uso do** site.<br/>![Relatórios do Microsoft 365 - Relatório de uso do site do Microsoft SharePoint.](../../media/d1cb6200-e81c-460b-9d05-53f4bd7cf5ee.png)
+Você pode exibir o uso do site no relatório de SharePoint escolhendo a **guia Uso do** site.<br/>![Microsoft 365 relatórios - Relatório de uso SharePoint site da Microsoft.](../../media/d1cb6200-e81c-460b-9d05-53f4bd7cf5ee.png)
 
-Selecione **Escolher colunas** para adicionar ou remover colunas do relatório.  <br/> ![Relatório de uso do site do SharePoint - escolha colunas](../../media/71ac3195-c494-40c1-9346-a858125ef6df.png)
+Selecione **Escolher colunas** para adicionar ou remover colunas do relatório.  <br/> ![SharePoint relatório de uso do site - escolha colunas](../../media/71ac3195-c494-40c1-9346-a858125ef6df.png)
 
-Você também pode exportar os dados do relatório para um arquivo .csv do Excel selecionando o link **Exportar.** Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados. 
+Você também pode exportar os dados do relatório para um arquivo Excel .csv selecionando o link **Exportar.** Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados. 
   
 |Item|Descrição|
 |:-----|:-----|

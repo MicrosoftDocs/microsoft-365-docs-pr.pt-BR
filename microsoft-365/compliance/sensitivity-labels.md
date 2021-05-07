@@ -22,12 +22,12 @@ description: Use rótulos de confidencialidade da MIP (Proteção de Informaçõ
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 467960f2faf6c6262083ff238ee3b085e0e99129
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 1e21da114154a5258f81a48e39d46ae875ee3930
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499673"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51892924"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -71,7 +71,7 @@ Você pode usar rótulos de confidencialidade para:
 
 - **Classificar conteúdo sem usar nenhuma configuração de proteção.** Você também pode simplesmente atribuir um rótulo como resultado da classificação do conteúdo. Isso oferece aos usuários um mapeamento visual da classificação para os nomes de rótulos da sua organização e pode usar os rótulos para gerar relatórios de uso e ver os dados de atividades do seu conteúdo confidencial. Com base nessas informações, você pode optar por aplicar as configurações de proteção mais tarde.
 
-Em todos esses casos, os rótulos de confidencialidade no Microsoft 365 podem ajudá-o a executar as ações diretamente no conteúdo certo. Com os rótulos de confidencialidade, você pode classificar dados em toda a organização e impor configurações de proteção com base nessa classificação.
+Em todos esses casos, os rótulos de confidencialidade do Microsoft 365 podem ajudar você a adotar as ações certas no conteúdo certo. Com os rótulos de confidencialidade, você pode classificar dados em toda a organização e impor configurações de proteção com base nessa classificação.
 
 Para saber mais sobre esses e outros cenários compatíveis com rótulos de confidencialidade, confira [Cenários comuns de rótulos de confidencialidade](get-started-with-sensitivity-labels.md#common-scenarios-for-sensitivity-labels). Novos recursos estão sendo desenvolvidos o tempo todo que oferecem suporte a rótulos de confidencialidade, então você também pode achar útil conferir o [Roteiro da Microsoft 365](https://aka.ms/MIPC/Roadmap).
 
@@ -94,7 +94,7 @@ Cada item que oferece suporte a rótulos de confidencialidade pode ter um único
 
 ## <a name="what-sensitivity-labels-can-do"></a>O que rótulos de confidencialidade podem fazer
 
-Depois que um rótulo de confidencialidade é aplicado a um email ou documento, todas as definições de proteção definidas para esse rótulo são aplicadas no conteúdo. Você pode configurar um rótulo de confidencialidade para:
+Depois que um rótulo de confidencialidade é aplicado a um email ou documento, as configurações de proteção desse rótulo são aplicadas no conteúdo. Você pode configurar uma etiqueta de sensibilidade para:
 
 - **Criptografe** emails e documentos para impedir que pessoas não autorizadas acessem esses dados. Além disso, você pode escolher quais ações determinados usuários ou grupos têm permissões para executar e por quanto tempo. Por exemplo, você pode optar por permitir que todos os usuários na sua organização modifiquem um documento, enquanto um grupo específico de outra organização só poderá visualizá-lo. Como alternativa, em vez de atribuir permissões definidas pelo administrador, você pode permitir que os usuários atribuam permissões ao conteúdo quando eles aplicam o rótulo. 
     
@@ -154,7 +154,7 @@ Embora a ordem dos sub-rótulos seja usada com [rotulagem automática](apply-sen
 
 ### <a name="sublabels-grouping-labels"></a>Sub-rótulos (agrupamento de rótulos)
 
-Com os sub-rótulos, você pode agrupar um ou mais rótulos abaixo de um rótulo pai que o usuário verá em um aplicativo do Office. Por exemplo, em Confidencial, sua organização pode usar várias etiquetas diferentes para tipos específicos dessa classificação. Nesse exemplo, o rótulo pai confidencial é simplesmente um rótulo de texto sem as configurações de proteção, e por ser um subrótulo, não pode ser aplicado ao conteúdo. Em vez disso, os usuários deverão escolher Confidencial para visualizar os sub-rótulos e, em seguida, eles podem escolher um sub-rótulo para aplicar o conteúdo.
+Com sub-rótulos, você pode agrupar uma ou mais etiquetas abaixo de uma etiqueta pai que um usuário vê em um aplicativo do Office. Por exemplo, sob Confidencialidade, sua organização pode usar vários rótulos diferentes para tipos específicos dessa classificação. Neste exemplo, a etiqueta pai Confidencial é simplesmente uma etiqueta de texto sem configurações de proteção e, por ter sub-rótulos, ela não pode ser aplicada ao conteúdo. Em vez disso, os usuários devem escolher Confidencial para visualizar os sub-rótulos, e então podem escolher um sub-rótulo para aplicar ao conteúdo.
 
 Os sub-rótulos são simplesmente uma maneira de apresentar as etiquetas aos usuários em grupos lógicos. Os subrótulos não herdam nenhuma configuração do rótulo pai. Quando você publica um sub-rótulo para um usuário, esse usuário pode aplicá-lo ao conteúdo, mas não pode aplicar apenas o rótulo pai.
 
@@ -190,7 +190,7 @@ Ao configurar uma política de rótulo, você pode:
 
 - **Exigir que os usuários apliquem um rótulo** com uma opção para email e documentos e outra para contêineres. Também conhecido como rotulagem obrigatória, estas opções garantem que uma etiqueta deve ser aplicada antes que os usuários possam salvar documentos, enviar emails e criar novos grupos ou sites.
     
-    Para documentos e emails, um rótulo pode ser atribuído manualmente pelo usuário, automaticamente como resultado de uma condição que você configurar, ou ser atribuído por padrão (a opção de rótulo padrão descrita anteriormente). Um exemplo de aviso mostrado no Outlook quando um usuário é obrigado a atribuir um rótulo:
+    Para documentos e emails, um rótulo pode ser atribuído manualmente pelo usuário, automaticamente como resultado de uma condição que você configura, ou ser atribuído por padrão (a opção de rótulo padrão previamente descrita). Um prompt de exemplo mostrado no Outlook quando um usuário é obrigado a atribuir uma etiqueta:
 
     ![Aviso no Outlook pedindo ao usuário para aplicar o rótulo necessário](../media/sensitivity-labels-mandatory-prompt-aipv2-outlook.PNG)
     
@@ -201,7 +201,7 @@ Ao configurar uma política de rótulo, você pode:
     
     Considere usar essa opção para ajudar a aumentar a cobertura de rótulos. No entanto, sem treinamento do usuário, essas configurações podem resultar em rotulagem imprecisa. Além disso, a menos que você também defina um rótulo padrão correspondente, o rótulo obrigatório pode frustrar seus usuários com as solicitações frequentes.
 
-- **Fornecer um link de ajuda para uma página de ajuda personalizada** Se os usuários não tiverem certeza do significado dos rótulos de sensibilidade ou de como devem ser usados, você pode fornecer um URL Saiba mais que aparece na parte inferior do menu do **Rótulo de sensibilidade** nos aplicativos do Office:
+- **Forneça um link de ajuda para uma página de ajuda personalizada.** Se seus usuários não tiverem certeza do significado de suas etiquetas de sensibilidade ou de como elas devem ser usadas, você pode fornecer uma URL Learn More que aparece na parte inferior do menu de **Etiquetas de sensibilidade** nos aplicativos do Office:
 
     ![Link do Saiba mais no botão Confidencialidade na faixa de opções](../media/Sensitivity-label-learn-more.png)
 
@@ -219,9 +219,9 @@ Uma política de rótulo consiste em:
 - Os usuários e grupos que serão atribuídos à política com rótulos.
 - O escopo da política e configurações de política para esse escopo (como rótulo padrão para arquivos e emails).
 
-Você pode incluir um usuário em várias políticas de rótulos e esse usuário verá todas os rótulos de confidencialidade dessas políticas. Entretanto, um usuário só obtém as configurações de política da política de rótulo com a prioridade mais alta.
+Você pode incluir um usuário em várias políticas de rótulos e esse usuário verá todas os rótulos de confidencialidade dessas políticas. Se houver um conflito em configurações de múltiplas políticas, aplica-se a configuração da política com a maior prioridade. Em outras palavras, a prioridade mais alta ganha para cada cenário.
 
-Se você não estiver vendo o rótulo ou configuração de política de rótulo que você espera para um usuário ou grupo, verifique a ordem das políticas de rótulo de confidencialidade. Para reordenar as políticas de rótulo, selecione uma política de rótulo de sensibilidade > escolha as reticências à direita > **Mover para baixo** ou **Mover para cima**.
+Se você não estiver vendo o comportamento do rótulo ou da política de rótulo que você espera para um usuário ou grupo, verifique a ordem das políticas de rótulo de sensibilidade. Para reordenar as políticas de rótulo, selecione uma política de rótulo de sensibilidade > escolha as reticências à direita > **Mover para baixo** ou **Mover para cima**.
 
 ![Opções de movimentação na página de políticas de rótulos de confidencialidade](../media/sensitivity-label-policy-priority.png)
 

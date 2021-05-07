@@ -1,7 +1,7 @@
 ---
 title: Listar dispositivos expostos de uma atividade de correção
 description: Retorna informações sobre dispositivos expostos para a tarefa de correção especificada.
-keywords: apis, correção, api de correção, obter, tarefas de correção,
+keywords: apis, correção, api de correção, tarefas de correção, dispositivos expostos de correção
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 097d8d784ca7c02fce1fc0e9fc51bdc272951f4a
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 92b5a93e86a20f36469d2b5cb606a8ddc2e97077
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52061103"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52241707"
 ---
 # <a name="list-exposed-devices-of-one-remediation-activity"></a>Listar dispositivos expostos de uma atividade de correção
 
@@ -49,7 +49,16 @@ Retorna informações sobre dispositivos expostos para a tarefa de correção es
 
 **URL:** GET: /api/remediationTasks/ \{ id \} /machineReferences
 
-**Detalhes das** propriedades
+## <a name="permissions"></a>Permissões
+
+Uma das seguintes permissões é necessária para chamar essa API. Para saber mais, incluindo como escolher permissões, consulte [Use Microsoft Defender for Endpoint APIs para obter detalhes.](apis-intro.md)
+
+Tipo de permissão | Permissão | Nome de exibição de permissão
+:---|:---|:---
+Aplicativo | RemediationTask.Read.All | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
+Delegada (conta corporativa ou de estudante) | RemediationTask.Read.Read | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
+
+## <a name="properties-details"></a>Detalhes das propriedades
 
 Propriedade (id) | Tipo de dados | Descrição | Exemplo
 :---|:---|:---|:---
@@ -60,13 +69,13 @@ rbacGroupName | Cadeia de caracteres | Nome do grupo de dispositivos ao que esse
 
 ## <a name="example"></a>Exemplo
 
-**Exemplo de** solicitação
+### <a name="request-example"></a>Exemplo de solicitação
 
 ```http
 GET https://api-luna.securitycenter.windows.com/api/remediationtasks/03942ef5-aecb-4c6e-b555-d6a97013844c/machinereferences
 ```
 
-**Exemplo de** resposta
+### <a name="response-example"></a>Exemplo de resposta
 
 ```json
 {
@@ -108,10 +117,10 @@ GET https://api-luna.securitycenter.windows.com/api/remediationtasks/03942ef5-ae
 
 - [Métodos e propriedades de correção](get-remediation-methods-properties.md)
 
-- [Obter uma atividade de correção por Id](get-remediation-one-activity.md)
+- [Obter uma atividade de correção por ID](get-remediation-one-activity.md)
 
 - [Listar todas as atividades de correção](get-remediation-all-activities.md)
 
-- [Gerenciamento de vulnerabilidades baseadas em & risco](next-gen-threat-and-vuln-mgt.md)
+- [Ameaças baseadas em risco & Gerenciamento de Vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
 
 - [Vulnerabilidades em sua organização](tvm-weaknesses.md)

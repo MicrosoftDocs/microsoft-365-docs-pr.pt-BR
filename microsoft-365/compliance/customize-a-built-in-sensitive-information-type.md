@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Aprenda a criar um tipo de informação sensível personalizado que permitirá que você use regras que atendam às necessidades da sua organização.
-ms.openlocfilehash: 79d79a220e0cd8de0755f6cdac99cf7cceb2997f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7b24313c54fdf49876c58d1809cbb29159f4508f
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922655"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114255"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>Personalizar um tipo de informação confidencial interno
 
@@ -232,7 +232,7 @@ Estas são as definições dos termos encontrados durante este procedimento.
 |Funções|As referências `Func_credit_card` do arquivo XML são uma função no código compilado. Funções são usadas para executar expressões regulares complexas e confirmam se as somas de verificação correspondem às nossas regras internas. Como isso ocorre no código, algumas das variáveis não aparecem no arquivo XML.|
 |IdMatch|Esse é o identificador que padrão deverá corresponder — por exemplo, um número de cartão de crédito.|
 |Lista de palavras-chave|O arquivo XML também faz referência a `keyword_cc_verification` e a `keyword_cc_name`, que são listas de palavras-chave, nas quais procuramos por correspondência em `patternsProximity` com a entidade. Atualmente elas não são exibidas no XML.|
-|Padrão|O padrão contém a lista daquilo que o tipo de informações confidenciais está procurando. Isso inclui palavras-chave, regexes e funções internas, que executam tarefas como verificar somas de verificação. Tipos de informações confidenciais podem ter vários padrões com confianças exclusivas. Isso é útil quando você cria um tipo de informações confidenciais que retorna uma alta confiança se a evidência comprobatórias for encontrada e uma menor confiança se pouca ou nenhuma evidência comprobatórias for encontrada.|
+|Padrão|O padrão contém a lista daquilo que o tipo de informações confidenciais está procurando. Isso inclui palavras-chave, expressões regulares e funções internas, que realizam tarefas como verificar somas de verificação. Os tipos de informações sensíveis podem ter vários padrões com confianças exclusivas. Isto é útil quando se cria um tipo de informação confidencial que retorna uma alta confiança se forem encontradas evidências comprobatórias, e uma confiança menor se forem encontradas poucas ou nenhuma evidência comprobatória.|
 |confidenceLevel padrão|Esse é o nível de confiança que o mecanismo de DLP encontrou na correspondência. Esse nível de confiança está associado a uma correspondência para o padrão se os requisitos do padrão são atendidos. Essa é a medida de confiança que deve ser considerada ao usar as regras de fluxo de emails (também conhecidas como regras de transporte) do Exchange.|
 |patternsProximity|Quando encontramos algo que parece um padrão de número de cartão de crédito, o `patternsProximity` é a proximidade em torno desse número, onde procuraremos evidências corroborativas.|
 |recommendedConfidence|Esse é o nível de confiança recomendável para esta regra. A confiança recomendada se aplica às entidades e afinidades. Para entidades, esse número nunca é avaliado em relação ao `confidenceLevel` do padrão. É simplesmente uma sugestão para ajudá-lo a escolher um nível de confiança, caso deseje usar um. Com afinidades, o `confidenceLevel` do padrão deve ser maior do que o número de `recommendedConfidence` para uma ação de regra de fluxo de emails ser chamada. A `recommendedConfidence` é o nível de confiança padrão usado em regras de fluxo de emails que chamam uma ação. Se quiser, é possível alterar manualmente a regra de fluxo de emails que será chamada com base no nível de confiança do padrão.  |
@@ -240,7 +240,5 @@ Estas são as definições dos termos encontrados durante este procedimento.
 ## <a name="for-more-information"></a>Para obter mais informações
 
 - [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
-    
 - [Criar um tipo de informação confidencial personalizado](create-a-custom-sensitive-information-type.md)
-    
-- [Visão geral das políticas de prevenção contra perda de dados](data-loss-prevention-policies.md)
+- [Saiba mais sobre prevenção contra perda de dados](dlp-learn-about-dlp.md)

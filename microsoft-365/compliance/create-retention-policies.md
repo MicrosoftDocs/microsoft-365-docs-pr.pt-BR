@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use uma política de retenção para manter o controle eficiente do conteúdo que os usuários geram com email, documentos e conversas. Mantenha o que você deseja e descarte o que não.
-ms.openlocfilehash: 63670b157a66bad963f02355cbed2bdd95690081
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2b2ce9670e9f297c89ed70e1b37c17aa59b80844
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908285"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687267"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -83,6 +83,15 @@ Quando você tem mais de uma política de retenção, e quando você também usa
 5. Conclua o assistente para salvar suas configurações.
 
 Para mais informações sobre as políticas de retenção para o Teams, confira [Políticas de retenção no Microsoft Teams](/microsoftteams/retention-policies) da documentação do Teams.
+
+#### <a name="known-configuration-issues"></a>Problemas de configuração conhecidos
+
+- Embora você possa selecionar a opção para iniciar o período de retenção quando os itens foram modificados pela última vez, o valor de **Quando os itens foram criados** é sempre usado. Para mensagens que são editadas, uma cópia da mensagem original é salva com seu carimbo de tempo original para identificar quando esta mensagem pré-editada foi criada, e a mensagem pós-editada tem um carimbo de tempo mais recente.
+
+- Ao selecionar **Escolher equipes** para a linha de localização **mensagens de canal do Teams**, você pode ver outros grupos do Microsoft 365 que não são equipes. Não selecione esses grupos.
+
+- Ao **Escolher usuários para o local Chats do Teams**, você poderá ver convidados e usuários sem caixa de correio. As políticas de retenção não são projetadas para esses usuários, portanto, não os selecione.
+
 
 #### <a name="additional-retention-policy-needed-to-support-teams"></a>Adicionais políticas de retenção necessárias para oferecer suporte ao Teams
 
@@ -194,9 +203,16 @@ Para verificar a sintaxe do seu locatário e identificar URLs dos usuários, con
 
 ### <a name="configuration-information-for-microsoft-365-groups"></a>Informações de configuração do Grupos do Microsoft 365
 
-Para reter ou deletar o conteúdo de um grupo do Microsoft 365 (antigo Grupo Office 365), use o local **Grupos do Microsoft 365**. Mesmo que um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclua todo o local **E-mail do Exchange** não incluirá conteúdo nas caixas de correio de grupo do Microsoft 365. Além disso, embora o local **E-mail do Exchange** permita inicialmente especificar uma caixa de correio de grupo a ser incluída ou excluída, ao tentar salvar a política de retenção, você recebe um erro indicando que "RemoteGroupMailbox" não é uma seleção válida para o local do Exchange.
+Para reter ou deletar o conteúdo de um grupo do Microsoft 365 (antigo Grupo Office 365), use o local **Grupos do Microsoft 365**. Mesmo que um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclua todo o local **E-mail do Exchange** não incluirá conteúdo nas caixas de correio de grupo do Microsoft 365. Embora o local do **E-mail Exchange** permita inicialmente especificar uma caixa postal de grupo a ser incluída ou excluída, quando você tentar salvar a política de retenção, você verá um erro que "RemoteGroupMailbox" não é uma seleção válida para a localização do Exchange.
 
-Uma política de retenção aplicada a um grupo do Microsoft 365 inclui a caixa de correio e o site de equipe do SharePoint. Os arquivos armazenados no site de equipes do SharePoint são cobertos por este local, mas não os chats do Teams ou as mensagens do canal do Teams que têm seus próprios locais de política de retenção.
+Por padrão, uma política de retenção aplicada a um grupo Microsoft 365 inclui a caixa postal do grupo e o site das equipes SharePoint. Os arquivos armazenados no site de equipes do SharePoint são cobertos por este local, mas não os chats do Teams ou as mensagens do canal do Teams que têm seus próprios locais de política de retenção.
+
+Para alterar o padrão porque você quer que a política de retenção seja aplicada apenas às caixas de correio Microsoft 365, ou apenas aos sites das equipes SharePoint conectadas, use o parâmetro [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy) PowerShell cmdlet com o parâmetro *Applications* com um dos seguintes valores:
+
+- `Group:Exchange` apenas para as caixas de correio Microsoft 365 que estão conectadas ao grupo.
+- `Group:SharePoint` apenas para os sites SharePoint que estão conectados ao grupo.
+
+Para retornar ao valor padrão tanto da caixa postal como do site SharePoint para os grupos Microsoft 365 selecionados, especifique `Group:Exchange,SharePoint`.
 
 ### <a name="configuration-information-for-skype-for-business"></a>Informações de configuração do Skype for Business
 
@@ -234,9 +250,9 @@ Para o início do período de retenção, você pode escolher quando o conteúdo
 
 Exemplos:
 
-- SharePoint: se você quiser preservar os itens em um conjunto de sites por sete anos depois que esse conteúdo foi modificado, e um documento nesse conjunto de sites não tiver sido modificado em seis anos, o documento será retido somente por mais um ano caso não seja modificado. Se o documento for editado novamente, a idade do documento será calculada a partir da última data de modificação, e ele ficará retido por mais sete anos.
+- SharePoint: se você quiser reter itens em um conjunto de sites por sete anos após esse conteúdo ser modificado pela última vez, e se um documento nesse conjunto de sites não tiver sido modificado em seis anos, o documento será retido somente por mais um ano, caso não seja modificado. Se o documento for editado novamente, a idade do documento será calculada a partir da data da última modificação, e ele será retido por mais sete anos.
 
-- Exchange: se você deseja reter os itens em uma caixa de correio por sete anos, e uma mensagem foi enviada há seis anos, esta será retida por apenas um ano. Para os itens do Exchange, a idade é baseada na data de recebimento do email de entrada ou na data de envio do email de saída. O processo de reter os itens com base em quando ele foi modificado pela última vez é aplicável apenas ao conteúdo de sites do OneDrive e do SharePoint.
+- Exchange: se você deseja reter os itens em uma caixa de correio por sete anos, e uma mensagem tiver sido enviada há seis anos, a mensagem será retida por apenas um ano. Para os itens do Exchange, a idade se baseia na data de recebimento do email de entrada ou na data de envio do email de saída. A retenção dos itens com base em quando ele foi modificado pela última vez aplica-se apenas ao conteúdo de site do OneDrive e do SharePoint.
 
 No final do período de retenção, você pode escolher se deseja que o conteúdo seja excluído permanentemente:
 
@@ -248,7 +264,7 @@ Uma política de retenção pode reter e excluir os itens ou excluir os itens an
 
 Em ambos os casos, se sua política de retenção excluir os itens, será importante entender que o período de tempo especificado para uma política de retenção é calculado pelo tempo em que o item foi criado ou modificado, e não a partir do momento em que a política foi atribuída.
 
-Portanto, antes de adicionar uma política de retenção pela primeira vez, e especialmente quando essa política exclui itens, considere primeiro considerar a idade dos conteúdos e de que modo a política poderá afetá-los. Você também poderá informar os seus usuários sobre a nova política antes de atribuí-la, para que eles tenham tempo para avaliar o possível impacto.
+Portanto, antes de atribuir uma política pela primeira vez, e especialmente quando essa política exclui os itens excluídos, primeiro considere a idade dos conteúdos existentes e como a política poderá afetar esse conteúdo. Você também poderá comunicar a nova política aos seus usuários antes de atribuí-la, para que eles tenham tempo para avaliar o possível impacto.
 
 ### <a name="a-policy-that-applies-to-entire-locations"></a>Uma política aplicável a locais inteiros
 
@@ -256,7 +272,7 @@ Ao escolher locais, com exceção do Skype for Business, a configuração padrã
 
 Quando uma política de retenção se aplica a qualquer combinação de locais inteiros, não há limite para o número de destinatários, sites, contas, grupos, etc., que a política pode incluir.
 
-Por exemplo, se uma política incluir todos os emails do Exchange e sites do SharePoint, todos os sites e destinatários serão incluídos, independentemente da quantidade. Além disso, no caso do Exchange, todas as caixas de correio criadas após a aplicação da política herdam a política automaticamente.
+Por exemplo, se uma política incluir todos os emails do Exchange e todos os sites do SharePoint, todos os sites e destinatários serão incluídos, não importa quantos. E para o Exchange, todas as caixas de correio criadas após a aplicação da política herdam a política automaticamente.
 
 ### <a name="a-policy-with-specific-inclusions-or-exclusions"></a>Uma política com inclusões ou exclusões específicas
 

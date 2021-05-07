@@ -16,19 +16,19 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 'Um requisito para todas as soluções de proteção de informações da Microsoft: criar, configurar e publicar rótulos de confidencialidade para classificar e proteger os documentos e emails da sua organização.'
-ms.openlocfilehash: 34cbea7199ed50de8e65a48f8087e6475fb41a50
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: 'Um requisito para todas as soluções de Proteção de Informações da Microsoft: Criar, configurar e publicar rótulos de confidencialidade para classificar e proteger os dados da sua organização.'
+ms.openlocfilehash: c34025d2b68eb0ee179c98ce9c97a59193f782e3
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926639"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994948"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Criar e configurar rótulos de confidencialidade e suas políticas
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
-Todas as soluções de proteção de informações da Microsoft (às vezes abreviadas para MIP) são implementadas usando [rótulos de sensibilidade](sensitivity-labels.md). Para criar e publicar seus rótulos de confidencialidade, vá para o centro de administração de rótulo, como o [centro de conformidade do Microsoft 365](https://compliance.microsoft.com/). Você também pode usar o centro de segurança do Microsoft 365 ou o Centro de Conformidade e Segurança.
+Todas as soluções de proteção de informações da Microsoft (às vezes abreviadas para MIP) são implementadas usando [rótulos de sensibilidade](sensitivity-labels.md). Para criar e publicar esses rótulos, vá para o [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com/). Você também pode usar o portal mais antigo, o Centro de Segurança e Conformidade do Office 365.
 
 Primeiro, crie e configure os rótulos de confidencialidade que você deseja disponibilizar nos aplicativos e outros serviços. Por exemplo, os rótulos que você deseja que os usuários vejam e se apliquem a partir dos aplicativos do Office. 
 
@@ -46,9 +46,6 @@ O administrador global da sua organização tem permissões completas para criar
         - **Proteção de Informações** > **de soluções**
         
         Se você não vir essa opção imediatamente, selecione primeiro **Mostrar tudo**. 
-    
-    - Centro de segurança do Microsoft 365: 
-        - **Rótulos de confidencialidade** > **de Classificação**
     
     - Centro de Conformidade e Segurança:
         - **Rótulos de confidencialidade** > **de Classificação**
@@ -144,9 +141,6 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
         
         Se você não vir essa opção imediatamente, selecione primeiro **Mostrar tudo**. 
     
-    - Centro de segurança do Microsoft 365: 
-        - **Rótulos de confidencialidade** > **de Classificação**
-    
     - Centro de Conformidade e Segurança:
         - **Rótulos de confidencialidade** > **de Classificação**
 
@@ -192,7 +186,7 @@ Quando você usa rótulos integrados para aplicativos do Office no Windows, macO
 
 As configurações adicionais de políticas de rótulo estão disponíveis com o cmdlet [Set-LabelPolicy](/powershell/module/exchange/set-labelpolicy) do [Centro de Conformidade e Segurança do PowerShell](/powershell/exchange/scc-powershell).
 
-Somente para o cliente com rótulo unificado de Proteção de Informações do Microsoft Azure, você pode especificar [configurações avançadas](/azure/information-protection/rms-client/clientv2-admin-guide-customizations) que incluem a configuração de um rótulo padrão diferente para o Outlook, e implementar mensagens pop-up no Outlook que avisam, justificam ou bloqueiam os emails a serem enviados. Para obter a lista completa, confira [Configurações avançadas disponíveis para políticas de rótulos](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies) da guia de administração deste cliente.
+O cliente de rotulagem unificada de Proteção de Informações do Azure suporta muitas [configurações avançadas](/azure/information-protection/rms-client/clientv2-admin-guide-customizations) que incluem migração de outras soluções de rotulagem, e mensagens pop-up no Outlook que alertam, justificam, ou bloqueiam o envio de emails. Para obter a lista completa, confira [Configurações avançadas disponíveis para políticas de rótulos](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies) da guia de administração deste cliente.
 
 ## <a name="use-powershell-for-sensitivity-labels-and-their-policies"></a>Usar o PowerShell para rótulos de confidencialidade e suas políticas
 
@@ -225,7 +219,7 @@ Em comparação, ao excluir um rótulo:
 
 - Para o Office na Web: os usuários não verão o nome do rótulo na barra de status ou na coluna **Confidencialidade**. As informações do rótulo nos metadados permanecem somente se o ele não tiver aplicado criptografia. Se uma criptografia foi aplicada pelo rótulo e você habilitou [rótulos de confidencialidade para o SharePoint e o Onedrive](sensitivity-labels-sharepoint-onedrive-files.md), as informações do rótulo nos metadados serão removidas e a criptografia será removida. 
 
-Quando você remove um rótulo de confidencialidade de uma política de rótulo ou exclui um rótulo de confidencialidade, essas alterações podem levar até uma hora para serem replicadas para todos os usuários e serviços.
+Quando você remove um rótulo de confidencialidade de uma política de rótulo ou exclui um rótulo de confidencialidade, essas alterações podem levar até 24 horas para serem replicadas para todos os usuários e serviços.
 
 ## <a name="next-steps"></a>Próximas etapas
 

@@ -18,17 +18,17 @@ ms.collection:
 - m365initiative-compliance
 search.appverid:
 - MET150
-description: A verificação local de prevenção contra perda de dados do Microsoft 365 estende o monitoramento de atividades de arquivos e ações de proteção para esses arquivos para compartilhamentos local de arquivos e pastas e bibliotecas de documentos do SharePoint. Os arquivos são verificados e protegidos pelo verificador de Proteção de Informações do Microsoft Azure (AIP)
-ms.openlocfilehash: fa1c14520c8ad0afa4856fdd8a1c59a0f71f400d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: O verificação local de prevenção contra perda de dados do Microsoft 365 estende o monitoramento de atividades de arquivo e ações de proteção para esses arquivos para compartilhamentos locais de arquivos, pastas e bibliotecas de documentos do SharePoint. Os arquivos são verificados e protegidos pelo verificador de Proteção de Informações do Azure (AIP)
+ms.openlocfilehash: f0a34a13630e42c5dd29734ad708b3c11bb1d587
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917807"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114159"
 ---
 # <a name="learn-about-the-microsoft-365-data-loss-prevention-on-premises-scanner-preview"></a>Saiba mais sobre a verificação local de prevenção contra perda de dados do Microsoft 365 (visualização)
 
-A verificação local de prevenção contra perda de dados da Microsoft faz parte do conjunto de recursos de prevenção contra perda de dados (DLP) do Microsoft 365 que você pode usar para descobrir e proteger itens confidenciais em todos os serviços do Microsoft 365. Para obter mais informações sobre todas as ofertas de DLP da Microsoft, confira [Visão geral de prevenção contra perda de dados](data-loss-prevention-policies.md).
+A verificação local de prevenção contra perda de dados da Microsoft faz parte do conjunto de recursos de prevenção contra perda de dados (DLP) do Microsoft 365 que você pode usar para descobrir e proteger itens confidenciais em todos os serviços do Microsoft 365. Para obter mais informações sobre todas as ofertas de DLP da Microsoft, consulte [Saiba mais sobre prevenção contra perda de dados](dlp-learn-about-dlp.md).
 
 A **verificação local DLP** rastreia os dados em repouso no local em compartilhamentos de arquivos, bibliotecas de documentos e pastas de documentos para itens confidenciais do Microsoft Office SharePoint Online que, se vazados, representariam um risco para sua organização ou representariam um risco de violação da política de conformidade. Isso dá a você a visibilidade e o controle necessários para garantir que itens confidenciais sejam usados e protegidos corretamente, e para ajudar a evitar comportamentos de risco que possam comprometê-los. O verificação DLP local detecta informações confidenciais usando os tipos [interno](sensitive-information-type-entity-definitions.md) ou [informações confidenciais personalizadas](create-a-custom-sensitive-information-type.md), [rótulos de confidencialidade](sensitivity-labels.md) ou propriedades de arquivo. As informações sobre o que os usuários estão fazendo com itens confidenciais se tornam visíveis no [explorador de atividades](data-classification-activity-explorer.md) e você pode impor ações de proteção para estes itens por meio de [políticas DLP](create-test-tune-dlp-policy.md).
 
@@ -89,6 +89,6 @@ Agora que você aprendeu sobre a verificação DLP local, seus próximos passos 
 
 - [Começando com a verificação local de prevenção contra perda de dados da Microsoft](dlp-on-premises-scanner-get-started.md)
 - [Usar a verificação local de prevenção contra perda de dados da Microsoft](dlp-on-premises-scanner-use.md)
-- [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)
+- [Saiba mais sobre prevenção contra perda de dados](dlp-learn-about-dlp.md)
 - [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
 - [Começar a usar o Explorador de atividades](data-classification-activity-explorer.md)

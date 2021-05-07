@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Aprenda sobre os novos recursos de criptografia das mensagens do Office 365 que permitem a comunicação protegida por e-mail com pessoas dentro e fora da organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1519748c4bd535e0a3ea1cc3ee653e2c81e807bd
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: cf37826c3e1e349947ab83fe211f9406a765e5ea
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919387"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876300"
 ---
 # <a name="set-up-new-message-encryption-capabilities"></a>Configurar recursos de criptografia de nova mensagem
 
@@ -44,7 +44,7 @@ O Azure RMS também é ativado automaticamente para a maioria dos planos qualifi
 
 Para saber mais, veja:
 
-- [Quais assinaturas eu preciso para usar os novos recursos do OME? ](ome-faq.md#what-subscriptions-do-i-need-to-use-the-new-ome-capabilities) para verificar se o seu plano de assinatura inclui a proteção de informações do Azure (que inclui a funcionalidade do Azure RMS).
+- [Quais assinaturas eu preciso para usar os novos recursos do OME? ](ome-faq.yml#what-subscriptions-do-i-need-to-use-the-new-ome-capabilities-) para verificar se o seu plano de assinatura inclui a proteção de informações do Azure (que inclui a funcionalidade do Azure RMS).
 - [Proteção de Informações do Azure](https://azure.microsoft.com/services/information-protection/) para saber mais sobre como adquirir uma assinatura qualificada.  
 
 ### <a name="manually-activating-azure-rights-management"></a>Ativar manualmente o Gerenciamento de Direitos do Azure
@@ -112,7 +112,7 @@ Você pode verificar se o locatário do Microsoft 365 está configurado corretam
 
 ## <a name="next-steps-define-mail-flow-rules-to-use-new-ome-capabilities"></a>Próximas etapas: definir regras de fluxo de emails para usar novos recursos do OME
 
-Se houver regras de fluxo de email configuradas anteriormente para criptografar emails na sua organização, você precisará atualizar as regras existentes para usar os novos recursos do OME. Para novas implantações, você precisa criar novas regras de fluxo de emails.
+Se houver regras de fluxo de email configuradas anteriormente para criptografar email em sua organização, você precisará atualizar as regras existentes para usar os novos recursos OME. Para novas implantações, você precisa criar novas regras de fluxo de email.
 
 >[!IMPORTANT]
 >Se você não atualizar as regras de fluxo de email existentes, os usuários continuarão a receber emails criptografados que usam o formato de anexo HTML anterior, em vez da nova experiência contínua do OME.
