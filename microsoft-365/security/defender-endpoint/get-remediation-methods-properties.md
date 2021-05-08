@@ -1,7 +1,7 @@
 ---
-title: Métodos e propriedades de atividade de correção
-description: A resposta à API contém & de gerenciamento de vulnerabilidades criadas em seu locatário. Você pode solicitar todas as atividades de correção, apenas uma atividade de correção ou informações sobre dispositivos expostos para uma tarefa de correção selecionada.
-keywords: apis, correção, api de correção, obter, tarefas de correção,
+title: Propriedades e métodos de atividade de correção
+description: A resposta à API contém atividades de & Gerenciamento de Vulnerabilidades de correção criadas em seu locatário. Você pode solicitar todas as atividades de correção, apenas uma atividade de correção ou informações sobre dispositivos expostos para uma tarefa de correção selecionada.
+keywords: apis, correção, api de correção, obter, tarefas de correção, métodos de correção, propriedades de correção,
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,14 +15,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f720d638ec469523a1d567dee9c01fa0974b0090
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 4c0ecd89c45ec2c91dc37f0c9cd0bfb868c0474e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52061092"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245535"
 ---
-# <a name="remediation-activity-methods-and-properties"></a>Métodos e propriedades de atividade de correção
+# <a name="remediation-activity-methods-and-properties"></a>Propriedades e métodos de atividade de correção
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -39,7 +39,7 @@ ms.locfileid: "52061092"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-A resposta à API contém [& atividades](next-gen-threat-and-vuln-mgt.md)de correção de gerenciamento de vulnerabilidades criadas em   seu locatário.  
+A resposta à API contém [atividades de & Gerenciamento de Vulnerabilidades](next-gen-threat-and-vuln-mgt.md)de correção de ameaças que foram   criadas em seu locatário.  
 
 ## <a name="methods"></a>Métodos
 
@@ -47,7 +47,7 @@ Método | Tipo de dados | Descrição
 :---|:---|:---
 [Listar todas as atividades de correção](get-remediation-all-activities.md) | Coleção Investigation | Retorna informações sobre todas as atividades de correção.
 [Listar dispositivos expostos de uma atividade de correção](get-remediation-exposed-devices-activities.md) | Entidade de investigação | Retorna informações sobre dispositivos expostos para a atividade de correção especificada.
-[Obter uma atividade de correção por Id](get-remediation-one-activity.md) | Entidade de investigação | Retorna informações para a atividade de correção especificada.
+[Obter uma atividade de correção por ID](get-remediation-one-activity.md) | Entidade de investigação | Retorna informações para a atividade de correção especificada.
 
 Saiba mais sobre [atividades de correção.](tvm-remediation.md)
 
@@ -86,12 +86,12 @@ vendorId | Cadeia de caracteres | Nome do fornecedor relacionado
 
 ## <a name="see-also"></a>Confira também
 
-- [Obter uma atividade de correção por Id](get-remediation-one-activity.md)
+- [Obter uma atividade de correção por ID](get-remediation-one-activity.md)
 
 - [Listar todas as atividades de correção](get-remediation-all-activities.md)
 
 - [Listar dispositivos expostos de uma atividade de correção](get-remediation-exposed-devices-activities.md)
 
-- [Gerenciamento de vulnerabilidades baseadas em & risco](next-gen-threat-and-vuln-mgt.md)
+- [Ameaças baseadas em risco & Gerenciamento de Vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
 
 - [Vulnerabilidades em sua organização](tvm-weaknesses.md)

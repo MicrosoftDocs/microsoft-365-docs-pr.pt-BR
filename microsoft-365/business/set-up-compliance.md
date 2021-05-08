@@ -1,5 +1,5 @@
 ---
-title: Aumentar a proteção contra ameaças para o Microsoft 365 Business Premium
+title: Aumentar a proteção contra ameaças para Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -22,16 +22,16 @@ search.appverid:
 - BCS160
 - MET150
 description: Configurar recursos de conformidade para evitar perda de dados e ajudar a manter as informações confidenciais de seus clientes e seus clientes seguros.
-ms.openlocfilehash: c0accc37d3dcda9ba75813f01a98a3233c5a8369
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 945f8a283b90b89da2fbe67a073e0807b80d198f
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579945"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245075"
 ---
 # <a name="set-up-compliance-features"></a>Configure os recursos de conformidade
 
-O Microsoft 365 Business Premium vem com recursos para proteger seus dados e dispositivos e ajudá-lo a manter suas informações confidenciais e de seus clientes seguros.
+Seu Microsoft 365 Business Premium vem com recursos para proteger seus dados e dispositivos e ajudá-lo a manter suas informações confidenciais e de seus clientes seguros.
 
 ## <a name="set-up-dlp-features"></a>Configurar recursos DLP
 
@@ -49,7 +49,7 @@ Para colocar uma caixa de correio em espera de litígio, no Centro de administra
     
 1. Na nav esquerda, vá para **Usuários** \> **Usuários ativos**.
     
-2. Selecione um usuário cuja caixa de correio você deseja colocar em espera de litígio. No painel do usuário, expanda **Configurações de email** e, ao lado de **Mais** configurações, escolha Editar propriedades **do Exchange**.
+2. Selecione um usuário cuja caixa de correio você deseja colocar em espera de litígio. No painel do usuário, expanda **Configurações de** email e, ao lado de **Mais** configurações, escolha Editar Exchange **propriedades**.
     
 3. Na página de caixa de correio do usuário, escolha ** recursos de caixa de correio ** na nav esquerda e escolha o link **Habilitar** em **responsabilidade de litígio.**
     
@@ -61,7 +61,7 @@ Para colocar uma caixa de correio em espera de litígio, no Centro de administra
 
 Os rótulos de sensibilidade vêm com o Plano 1 da Proteção de Informações do Azure (AIP) e ajudam você a classificar e, opcionalmente, proteger seus documentos e emails aplicando rótulos. Os rótulos podem ser aplicados automaticamente por administradores que definem regras e condições, manualmente pelos usuários ou usando uma combinação em que os usuários receberão recomendações.
 
-Para configurar rótulos de sensibilidade, veja o vídeo [criar e gerenciar rótulos de sensibilidade.](https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9)
+Para configurar rótulos de sensibilidade, veja o vídeo [criar e gerenciar rótulos de sensibilidade.](../business-video/create-sensitivity-labels.md)
 
 
 

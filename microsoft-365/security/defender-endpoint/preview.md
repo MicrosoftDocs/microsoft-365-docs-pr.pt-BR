@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 817ed5e33505f691b11970e3da4c956afa7dc76c
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: ea37ad4302eedf7d43e3ad03e94357a146c2216c
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861054"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245571"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>Recursos de visualização do Microsoft Defender para Ponto de Extremidade
 
@@ -44,7 +44,7 @@ O serviço Defender para Ponto de Extremidade está constantemente sendo atualiz
 Saiba mais sobre os novos recursos na versão de visualização do Defender para Ponto de Extremidade e entre os primeiros a experimentar os recursos futuros, ligando a experiência de visualização.
 
 >[!TIP]
->Receba notificado quando esta página for atualizada copiando e colar a seguinte URL no leitor de feed: `https://docs.microsoft.com/api/search/rss?search=%22Microsoft+Defender+ATP+preview+features%22&locale=en-us`
+>Receba notificado quando esta página for atualizada copiando e colar a seguinte URL no leitor de feed: `https://docs.microsoft.com/api/search/rss?search=%22In+the+navigation+pane%2C+select+Settings+%3E+Advanced+features+%3E+Preview+features.%22&locale=en-us&facet=`
 
 Para obter mais informações sobre novos recursos que geralmente estão disponíveis, consulte [Novidades no Defender para Ponto de Extremidade](whats-new-in-microsoft-defender-atp.md).
 
@@ -54,7 +54,7 @@ Você terá acesso aos recursos futuros que você pode fornecer comentários par
 
 Ative a configuração de experiência de visualização para ser uma das primeiras pessoas a experimentar os recursos futuros.
 
-1. No painel de navegação, selecione **Configurações**  >  **Recursos avançados**  >  **Visualização de recursos**.
+1. No painel de navegação, **selecione** Configurações  >  **recursos avançados**  >  **De visualização.**
 
 2. Alterne a configuração **entre On** e **Off** e selecione **Salvar preferências**.
 

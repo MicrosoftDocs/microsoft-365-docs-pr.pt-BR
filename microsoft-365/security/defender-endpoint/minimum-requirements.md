@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 330406b3540becafb0ffac8cbbc36437a2e57f60
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 12ed9b8648630428c6da347252d077521d859482
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688832"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245703"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>Requisitos mínimos para o Microsoft Defender para Ponto de Extremidade
 
@@ -45,9 +45,9 @@ O Microsoft Defender para Ponto de Extremidade requer uma das seguintes ofertas 
 
 - Windows 10 Enterprise E5
 - Windows 10 Education A5
-- Microsoft 365 E5 (M365 E5) que inclui o Windows 10 Enterprise E5
+- Microsoft 365 E5 (M365 E5) que inclui Windows 10 Enterprise E5
 - Microsoft 365 A5 (M365 A5)
-- Segurança do Microsoft 365 E5
+- Microsoft 365 E5 Security
 - Segurança 365 A5 da Microsoft
 - Microsoft Defender para Ponto de Extremidade
 
@@ -67,13 +67,13 @@ O Microsoft Defender para Ponto de Extremidade para servidores requer uma das se
 > * Microsoft Defender para Ponto de Extremidade
 > * Windows E5/A5
 > * Microsoft 365 E5/A5
-> * Segurança do Microsoft 365 E5/A5
+> * Microsoft 365 E5/Segurança do A5
 
 Para obter informações detalhadas sobre licenciamento, consulte o [site Termos](https://www.microsoft.com/licensing/terms/) do Produto e trabalhe com sua equipe de conta para saber mais sobre os termos e condições.
 
-Para obter mais informações sobre a matriz de recursos em edições do Windows 10, consulte [Comparar edições do Windows 10.](https://www.microsoft.com/windowsforbusiness/compare)
+Para obter mais informações sobre a matriz de recursos em Windows 10 edições, consulte [Compare Windows 10 edições](https://www.microsoft.com/windowsforbusiness/compare).
 
-Para uma tabela de comparação detalhada da comparação de edição comercial do Windows 10, consulte a [comparação PDF](https://wfbdevicemanagementprod.blob.core.windows.net/windowsforbusiness/Windows10_CommercialEdition_Comparison.pdf).
+Para uma tabela de comparação detalhada de Windows 10 de edição comercial, consulte a [comparação PDF](https://wfbdevicemanagementprod.blob.core.windows.net/windowsforbusiness/Windows10_CommercialEdition_Comparison.pdf).
 
 ## <a name="browser-requirements"></a>Requisitos de navegador
 O acesso ao Defender para Ponto de Extremidade é feito por meio de um navegador, suportando os seguintes navegadores:
@@ -87,21 +87,21 @@ O acesso ao Defender para Ponto de Extremidade é feito por meio de um navegador
 
 ## <a name="hardware-and-software-requirements"></a>Requisitos de hardware e software
 
-### <a name="supported-windows-versions"></a>Versões com suporte do Windows
-- Windows 7 SP1 Enterprise ([Requer ESU para suporte](https://docs.microsoft.com/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq).)
+### <a name="supported-windows-versions"></a>Versões Windows com suporte
+- Windows 7 sp1 Enterprise ([Requer ESU para suporte](https://docs.microsoft.com/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq).)
 - Windows 7 SP1 Pro ([Requer ESU para suporte](https://docs.microsoft.com/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq).)
 - Windows 8.1 Enterprise
 - Windows 8.1 Pro
 - Windows 10 Enterprise
-- [Windows 10 Enterprise LTSC](https://docs.microsoft.com/windows/whats-new/ltsc/)
+- [Windows 10 Enterprise LTSC 2016 (ou posterior)](/windows/whats-new/ltsc/)
 - Windows 10 Education
 - Windows 10 Pro
 - Windows 10 Pro Education
-- Windows Server
+- Windows servidor
   - Windows Server 2008 R2 SP1
   - Windows Server 2012 R2
   - Windows Server 2016
-  - Windows Server, versão 1803 ou posterior
+  - Windows Servidor, versão 1803 ou posterior
   - Windows Server 2019
 - Área de Trabalho Virtual do Windows
 
@@ -110,11 +110,11 @@ Os dispositivos em sua rede devem estar executando uma dessas edições.
 Os requisitos de hardware para o Defender para Ponto de Extremidade em dispositivos são os mesmos para as edições com suporte.
 
 > [!NOTE]
-> Não há suporte para computadores que executam versões móveis do Windows (como Windows CE e Windows 10 Mobile).
+> Máquinas que executam versões móveis Windows (como Windows CE e Windows 10 Mobile) não têm suporte.
 >
-> Máquinas virtuais que executam o Windows 10 Enterprise 2016 LTSB podem encontrar problemas de desempenho se executados em plataformas de virtualização que não são da Microsoft.
+> Máquinas virtuais que executam Windows 10 Enterprise 2016 LTSB podem encontrar problemas de desempenho se executados em plataformas de virtualização que não são da Microsoft.
 >
-> Para ambientes virtuais, recomendamos usar o Windows 10 Enterprise LTSC 2019 ou posterior.
+> Para ambientes virtuais, recomendamos o uso Windows 10 Enterprise LTSC 2019 ou posterior.
 
 
 ### <a name="other-supported-operating-systems"></a>Outros sistemas operacionais com suporte
@@ -144,7 +144,7 @@ Ao executar o assistente de integração pela primeira vez, você deve escolher 
 Certifique-se de que o serviço de dados de diagnóstico está habilitado em todos os dispositivos da sua organização.
 Por padrão, esse serviço está habilitado. É uma boa prática verificar para garantir que você obterá dados do sensor deles.
 
-Use a linha de comando para verificar o tipo de inicialização do serviço de dados de diagnóstico **do Windows 10:**
+**Use a linha de comando para verificar o tipo Windows 10 de inicialização** do serviço de dados de diagnóstico:
 
 1. Abra um prompt de linha de comando elevada no dispositivo:
 
@@ -166,7 +166,7 @@ Use a linha de comando para verificar o tipo de inicialização do serviço de d
 Você precisará definir o serviço para iniciar automaticamente se o START_TYPE **não** estiver definido como **AUTO_START**.
 
 
-**Use a linha de comando para definir o serviço de dados de diagnóstico do Windows 10 para iniciar automaticamente:**
+**Use a linha de comando para definir o serviço Windows 10 de dados de diagnóstico para iniciar automaticamente:**
 
 1.  Abra um prompt de linha de comando elevada no ponto de extremidade:
 
@@ -197,25 +197,25 @@ Para obter mais informações sobre configurações de proxy adicionais, consult
 Antes de você entrar em dispositivos, o serviço de dados de diagnóstico deve estar habilitado. O serviço é habilitado por padrão no Windows 10.
 
 
-## <a name="microsoft-defender-antivirus-configuration-requirement"></a>Requisito de configuração do Microsoft Defender Antivírus
-O agente Defender para Ponto de Extremidade depende da capacidade do Microsoft Defender Antivírus de examinar arquivos e fornecer informações sobre eles.
+## <a name="microsoft-defender-antivirus-configuration-requirement"></a>Microsoft Defender Antivírus requisito de configuração
+O agente Defender para Ponto de Extremidade depende da capacidade de Microsoft Defender Antivírus examinar arquivos e fornecer informações sobre eles.
 
-Configure atualizações de inteligência de segurança no Defender para dispositivos de ponto de extremidade, independentemente de o Microsoft Defender Antivírus ser o antimalware ativo ou não. Para obter mais informações, consulte [Manage Microsoft Defender Antivírus updates and apply baselines](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus).
+Configure atualizações de inteligência de segurança no Defender para dispositivos de ponto de extremidade, Microsoft Defender Antivírus o antimalware ativo ou não. Para obter mais informações, consulte [Manage Microsoft Defender Antivírus updates and apply baselines](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus).
 
-Quando o Microsoft Defender Antivírus não é o antimalware ativo em sua organização e você usa o serviço Defender para Ponto de Extremidade, o Microsoft Defender Antivírus entra no modo passivo.
+Quando Microsoft Defender Antivírus não é o antimalware ativo em sua organização e você usa o serviço Defender para Ponto de Extremidade, o Microsoft Defender Antivírus entra no modo passivo.
 
-Se sua organização tiver desligado o Microsoft Defender Antivírus por meio de política de grupo ou outros métodos, os dispositivos que estão integrados devem ser excluídos dessa política de grupo.
+Se a sua organização tiver desligado Microsoft Defender Antivírus por meio de política de grupo ou outros métodos, os dispositivos que estão integrados devem ser excluídos dessa política de grupo.
 
-Se você estiver integrando servidores e o Microsoft Defender Antivírus não for o antimalware ativo em seus servidores, o Microsoft Defender Antivírus precisará ser configurado para entrar no modo passivo ou desinstalado. A configuração depende da versão do servidor. Para obter mais informações, consulte [compatibilidade do Microsoft Defender Antivírus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus-compatibility.md).
+Se você estiver integrando servidores e Microsoft Defender Antivírus não for o antimalware ativo em seus servidores, o Microsoft Defender Antivírus precisará ser configurado para entrar no modo passivo ou desinstalado. A configuração depende da versão do servidor. Para obter mais informações, [consulte Microsoft Defender Antivírus compatibilidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus-compatibility.md).
 
 > [!NOTE]
-> Sua política de grupo regular não se aplica à Proteção contra Adulteração, e as alterações nas configurações do Microsoft Defender Antivírus serão ignoradas quando a Proteção contra Adulteração estiver em uso.
+> Sua política de grupo regular não se aplica à Proteção contra Adulteração, e as alterações nas configurações Microsoft Defender Antivírus serão ignoradas quando a Proteção contra Adulteração estiver em uso.
 
 
-## <a name="microsoft-defender-antivirus-early-launch-antimalware-elam-driver-is-enabled"></a>O driver antimalware de início antecipado do Microsoft Defender Antivírus (ELAM) está habilitado
-Se você estiver executando o Microsoft Defender Antivírus como o produto antimalware principal em seus dispositivos, o agente Defender for Endpoint será aderido com êxito.
+## <a name="microsoft-defender-antivirus-early-launch-antimalware-elam-driver-is-enabled"></a>Microsoft Defender Antivírus Driver antimalware de início antecipado (ELAM) está habilitado
+Se você estiver executando Microsoft Defender Antivírus como o produto antimalware principal em seus dispositivos, o agente Defender para Ponto de Extremidade será aderido com êxito.
 
-Se você estiver executando um cliente antimalware de terceiros e usar soluções de Gerenciamento de Dispositivo Móvel ou Microsoft Endpoint Manager (filial atual), você precisará garantir que o driver ELAM do Microsoft Defender Antivírus esteja habilitado. Para obter mais informações, consulte [Ensure that Microsoft Defender Antivírus is not disabled by policy](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy).
+Se você estiver executando um cliente antimalware de terceiros e usar soluções de Gerenciamento de Dispositivo Móvel ou Microsoft Endpoint Manager (filial atual), você precisará garantir que o driver Microsoft Defender Antivírus ELAM esteja habilitado. Para obter mais informações, [consulte Ensure that Microsoft Defender Antivírus is not disabled by policy](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy).
 
 
 ## <a name="related-topics"></a>Tópicos relacionados

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: c9526363b0430514455db1fbdf12cfb7a18229f1
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d7563a8299bbe7d543b065bb25eeb3bc90a854b9
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932984"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245595"
 ---
 # <a name="advanced-hunting-quotas-and-usage-parameters"></a>Cotas de busca avançadas e parâmetros de uso
 
@@ -35,7 +35,7 @@ ms.locfileid: "51932984"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-Para manter o serviço performant e responsivo, a busca avançada define várias cotas e parâmetros de uso (também conhecidos como "limites de serviço"). Essas cotas e parâmetros se aplicam às consultas executados manualmente e por regras [de detecção personalizadas.](custom-detection-rules.md) Os clientes que executarem várias consultas regularmente devem controlar o consumo e aplicar práticas recomendadas de otimização [para](advanced-hunting-best-practices.md) minimizar interrupções.
+Para manter o serviço performant e responsivo, a busca avançada define várias cotas e parâmetros de uso (também conhecidos como "limites de serviço"). Essas cotas e parâmetros se aplicam separadamente às consultas executados manualmente e às consultas que são executados usando regras [de detecção personalizadas.](custom-detection-rules.md) Os clientes que executarem várias consultas regularmente devem estar atentos a esses limites e aplicar práticas recomendadas de otimização [para](advanced-hunting-best-practices.md) minimizar interrupções.
 
 Consulte a tabela a seguir para entender cotas e parâmetros de uso existentes.
 
@@ -44,7 +44,7 @@ Consulte a tabela a seguir para entender cotas e parâmetros de uso existentes.
 | Intervalo de dados | 30 dias | Cada consulta | Cada consulta pode procurar dados de até os últimos 30 dias. |
 | Conjunto de resultados | 10.000 linhas | Cada consulta | Cada consulta pode retornar até 10.000 registros. |
 | Timeout | 10 minutos | Cada consulta | Cada consulta pode ser executado por até 10 minutos. Se ele não for concluído em 10 minutos, o serviço exibirá um erro.
-| Recursos da CPU | Com base no tamanho do locatário | - Na hora e, em seguida, a cada 15 minutos<br>- Diariamente à meia-noite | O serviço impõe a cota diária e de 15 minutos separadamente. Para cada cota, o [portal exibe](advanced-hunting-errors.md) um erro sempre que uma consulta é executado e o locatário consumiu mais de 10% dos recursos alocados. As consultas serão bloqueadas se o locatário tiver atingido 100% até após o próximo ciclo diário ou de 15 minutos. |
+| Recursos da CPU | Com base no tamanho do locatário | A cada 15 minutos | O [portal exibe um erro sempre](advanced-hunting-errors.md) que uma consulta é executado e o locatário consumiu mais de 10% dos recursos alocados. As consultas serão bloqueadas se o locatário tiver atingido 100% até após o próximo ciclo de 15 minutos. |
 
 >[!NOTE] 
 >Um conjunto separado de cotas e parâmetros se aplicam a consultas de busca avançadas realizadas por meio da API. [Ler sobre APIs de busca avançada](./api-advanced-hunting.md)

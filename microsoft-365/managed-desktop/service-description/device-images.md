@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 9a263cbc6bdd0d521e835f086967a6f7236c6948
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 00943eb85abbfd2d237ae5544eb69d3ec4d9f875
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166291"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245499"
 ---
 # <a name="device-images"></a>Imagens do dispositivo
 
@@ -25,13 +25,13 @@ ms.locfileid: "51166291"
 Se você solicitar [novos dispositivos](#new-devices) ou [reutilizar](#existing-devices) os existentes, você tem várias opções para garantir que a imagem no dispositivo atenda aos nossos [requisitos de dispositivo.](device-requirements.md#check-hardware-requirements)
 
 ## <a name="new-devices"></a>Novos dispositivos
-Ao solicitar um novo dispositivo de um fabricante [aprovado,](device-requirements.md#minimum-requirements)siga estas etapas para garantir que eles shipem dispositivos com a configuração de software e imagem da Área de Trabalho Gerenciada da Microsoft correta.
+Ao solicitar um novo dispositivo de um fabricante [aprovado,](device-requirements.md#minimum-requirements)siga estas etapas para garantir que eles navegam dispositivos com a configuração correta Área de Trabalho Gerenciada da Microsoft imagem e software.
 
 ### <a name="dell"></a>Dell
-Trabalhe diretamente com o representante de vendas da Dell, que garantirá que a imagem aprovada pela Área de Trabalho Gerenciada da Microsoft seja aplicada a dispositivos para seu pedido. Para obter mais perguntas sobre dispositivos Dell, a imagem e o processo de ordenação, entre em contato MMD_at_dell@dell.com.
+Trabalhe diretamente com o representante de vendas da Dell, que garantirá que a imagem aprovada pelo Área de Trabalho Gerenciada da Microsoft seja aplicada a dispositivos para seu pedido. Para obter mais perguntas sobre dispositivos Dell, a imagem e o processo de ordenação, entre em contato MMD_at_dell@dell.com.
 
 ### <a name="hp"></a>HP 
-Ao solicitar novos dispositivos da HP, certifique-se de usar o SKU específico listado na seção Requisitos adicionais para cada modelo, conforme mostrado em [Dispositivos de programa](device-list.md#hp).
+Ao solicitar novos dispositivos da HP, certifique-se de usar o SKU específico listado na seção Requisitos adicionais para cada modelo encontrado no site de dispositivos comerciais [do Shop Windows 10 Pro](https://www.microsoft.com/windowsforbusiness/view-all-devices) (filtre o modo de exibição para mostrar Área de Trabalho Gerenciada da Microsoft dispositivos).
 
 Se você estiver ordenando um dispositivo da HP [](customizing.md) que foi aprovado como uma exceção, mas não está listado no momento na página Lista de Dispositivos, solicite que o SKU seja usado para seu modelo. Trabalharemos com a HP para obter essas informações usando sua solicitação de exceção. Você também pode contatar a HP diretamente para obter qualquer dúvida sobre dispositivos e instruções de ordenação de dispositivos usando estes endereços:
  
@@ -41,9 +41,9 @@ Se você estiver ordenando um dispositivo da HP [](customizing.md) que foi aprov
 - Global: mmd@hp.com
 
 ### <a name="lenovo"></a>Lenovo
-Ao solicitar dispositivos da Lenovo para uso na Área de Trabalho Gerenciada da Microsoft, você precisará indicar um número de parte específico incluído como parte da ordem. Entre em contato com o representante de vendas da Lenovo ou o Parceiro de Canal da Lenovo e peça que eles criem um "*modelo* de oferta especial " com um sistema que atenda aos nossos [requisitos de dispositivo.](device-requirements.md#minimum-requirements) Para incluir uma imagem pré-carregada compatível com a Área de Trabalho Gerenciada da Microsoft, peça ao representante de vendas para fazer referência a " número da parte de bloco de construção do sistema *SBB0Q94938 – Habilitar MMD*".
+Ao solicitar dispositivos da Lenovo para uso no Área de Trabalho Gerenciada da Microsoft, você precisará indicar um número de parte específico incluído como parte da ordem. Entre em contato com o representante de vendas da Lenovo ou o Parceiro de Canal da Lenovo e peça que eles criem um "*modelo* de oferta especial " com um sistema que atenda aos nossos [requisitos de dispositivo.](device-requirements.md#minimum-requirements) Para incluir uma imagem pré-carregada compatível com Área de Trabalho Gerenciada da Microsoft, peça ao representante de vendas para fazer referência a " número da parte de bloco de construção do sistema *SBB0Q94938 – Habilitar MMD*".
 
-No momento, os seguintes produtos estão habilitados para suporte à Área de Trabalho Gerenciada da Microsoft:
+No momento, os seguintes produtos estão habilitados para Área de Trabalho Gerenciada da Microsoft suporte:
 
 - L13 Gen 1
 - L13 Yoga Gen 1
@@ -60,7 +60,7 @@ No momento, os seguintes produtos estão habilitados para suporte à Área de Tr
 
 
 ### <a name="microsoft"></a>Microsoft
-Todos os dispositivos Microsoft que atendem aos requisitos do dispositivo vêm com uma imagem que funciona com a Área de Trabalho Gerenciada da Microsoft. Nenhuma outra etapa é necessária.
+Todos os dispositivos Microsoft que atendem aos requisitos do dispositivo vêm com uma imagem que funciona com Área de Trabalho Gerenciada da Microsoft. Nenhuma outra etapa é necessária.
 
 Para obter a imagem mais recente disponível na fábrica em um dispositivo Microsoft, trabalhe com seu especialista do Surface para usar o processo surface "Pegged PO".
 
@@ -68,7 +68,7 @@ Para obter a imagem mais recente disponível na fábrica em um dispositivo Micro
 
 Você pode reutilizar dispositivos existentes desde que eles atendem aos requisitos de [dispositivo](device-requirements.md#minimum-requirements) e aos [requisitos de software.](device-requirements.md#installed-software) Siga as etapas relevantes para o fabricante.
 
-Você pode reimager dispositivos com uma imagem do fabricante ou usando a "imagem universal" da Área de Trabalho Gerenciada da Microsoft. Para obter uma imagem apropriada do fabricante, você pode solicitar pelo menos [um](#new-devices) novo dispositivo do modelo que está reutilizável. Em seguida, você pode obter a imagem desse dispositivo e aplicá-la a outros dispositivos do mesmo modelo exato.
+Você pode reimager dispositivos com uma imagem do fabricante ou usando a Área de Trabalho Gerenciada da Microsoft "imagem universal". Para obter uma imagem apropriada do fabricante, você pode solicitar pelo menos [um](#new-devices) novo dispositivo do modelo que está reutilizável. Em seguida, você pode obter a imagem desse dispositivo e aplicá-la a outros dispositivos do mesmo modelo exato.
 
 > [!NOTE]
 > Você é responsável por criar, testar e implantar imagens. Também recomendamos usar imagens apropriadas fornecidas pelo fabricante sempre que possível, em vez de imagens personalizadas, incluindo a "imagem universal".
@@ -95,17 +95,17 @@ Essas etapas removerão todos os dados no dispositivo, portanto, antes de começ
 
 Os dispositivos Microsoft Surface incluem imagens de "recuperação de bare [metal"](https://support.microsoft.com/en-us/surfacerecoveryimage) específicas para cada modelo. Você pode usar essas imagens para reaginar dispositivos.
 
-Essas imagens usam o Ambiente de Recuperação do Windows (WinRE) e esse é um processo manual (não automatizado). Siga as etapas em [Criar e usar uma unidade de recuperação USB para Surface](https://support.microsoft.com/surface/creating-and-using-a-usb-recovery-drive-for-surface-677852e2-ed34-45cb-40ef-398fc7d62c07).
+Essas imagens usam o Windows De recuperação (WinRE) e este é um processo manual (não automatizado). Siga as etapas em [Criar e usar uma unidade de recuperação USB para Surface](https://support.microsoft.com/surface/creating-and-using-a-usb-recovery-drive-for-surface-677852e2-ed34-45cb-40ef-398fc7d62c07).
 
 
 ### <a name="universal-image"></a>Imagem universal
-A Área de Trabalho Gerenciada da Microsoft criou uma imagem que contém o Windows 10 Pro e o Microsoft 365 Apps para Empresas que você pode usar com a Área de Trabalho Gerenciada da Microsoft. No entanto, é melhor usar imagens apropriadas à Área de Trabalho Gerenciada da Microsoft fornecidas pelo fabricante sempre que possível, mesmo que isso signifique uma versão mais antiga do Windows que, em seguida, precisa ser atualizada quando o usuário entrar. Usar a imagem Universal da Área de Trabalho Gerenciada da Microsoft deve ser uma opção final.
+Área de Trabalho Gerenciada da Microsoft criou uma imagem que contém Windows 10 Pro e Microsoft 365 Apps para Enterprise que você pode usar com Área de Trabalho Gerenciada da Microsoft. No entanto, é melhor usar imagens apropriadas para Área de Trabalho Gerenciada da Microsoft fornecidas pelo fabricante sempre que possível, mesmo que isso signifique uma versão Windows mais antiga que, em seguida, precisa ser atualizada quando o usuário entrar. Usar a Área de Trabalho Gerenciada da Microsoft imagem Universal deve ser uma opção final.
 
-- Atualizamos a imagem com as atualizações de qualidade mensal mais recentes do Windows a cada 30 a 60 dias e atualizações do Microsoft 365 Apps for Enterprise pelo menos duas vezes por ano.
-- A imagem contém um pacote de provisionamento de recuperação para garantir que o Microsoft 365 Apps for Enterprise seja restaurado seguindo os cenários de recuperação do Windows.
+- Atualizamos a imagem com as atualizações Windows de qualidade mensal mais recentes a cada 30 a 60 dias e Microsoft 365 Apps para atualizações Enterprise pelo menos duas vezes por ano.
+- A imagem contém um pacote de provisionamento de recuperação para garantir que Microsoft 365 Apps para Enterprise seja restaurado após Windows cenários de recuperação.
 - Você pode implantar a imagem com unidades USB. Ele contém um processo que pode ser roteado para inserir drivers (descritos na documentação incluída na imagem).
 - Você pode modificar os scripts e pastas incluídos para uso com outras personalizações, como adicionar atualizações cumulativas específicas, código de cópia de arquivo ou executar outras verificações.
-- Drivers e atualizações de qualidade são adicionados ao Windows durante a implantação da unidade USB.
+- Drivers e atualizações de qualidade são adicionados Windows durante a implantação da unidade USB.
 
 > [!NOTE]
 > É sua responsabilidade adicionar todos os drivers necessários, executar todos os testes e garantir que não haja problemas com a imagem final implantada. Fornecemos a Imagem Universal "como está" mas fornecerá orientações técnicas e responderá perguntas. Contate MMDImage@microsoft.com.

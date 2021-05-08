@@ -1,5 +1,5 @@
 ---
-title: Encontrar respostas e ajuda
+title: Encontrar documentos e treinamento
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,33 +20,28 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como encontrar ajuda de administrador para o Microsoft 365 Business Premium.
-ms.openlocfilehash: 6d16f3ece9782a33c3377e4a6bc2a93b29d54c1a
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Saiba como encontrar ajuda de administrador para Microsoft 365 Business Premium.
+ms.openlocfilehash: 18a50c34f87fa47fe5777e87f8dafa62fb0ac04b
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578898"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245223"
 ---
-# <a name="find-answers-and-help-for-admins"></a>Encontre respostas e ajuda para administradores
+# <a name="find-docs-and-training"></a>Encontrar documentos e treinamento
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FGn5?autoplay=false]
+Se você tiver uma pergunta ou precisar de ajuda com Microsoft 365 Business Premium, você tem várias opções para obter ajuda.
 
-Se você tiver uma pergunta ou precisar de ajuda com o Microsoft 365 Business Premium, você tem várias opções para obter ajuda.
+## <a name="browse-all-small-business-training"></a>Procurar todos os treinamentos de pequenas empresas
 
-## <a name="try-it"></a>Experimente!
+Para links para todo o suporte de treinamento, você precisará usar o Microsoft 365 com sua pequena empresa, consulte [Microsoft 365 treinamento de pequenas empresas.](index.yml) 
 
-1. Entre no [office.com](https://office.com) com suas credenciais de trabalho e selecione **Admin**.
-1. Na home page do Centro de administração, escolha **Treinamento para administradores** para ver as opções de treinamento disponíveis para você.
-1. Escolha **Proprietários de negócios e administradores para** treinamento de pequeno a médio porte.
-1. Escolha **Profissionais de TI corporativos** para empresas maiores ou mais complexas.
-1. Retorne ao centro de administração e, desta vez, escolha **Diretrizes** de configuração personalizadas para ver vários guias que o orientam em tarefas de configuração específicas.
-1. Volte para a home page do Centro de administração e escolha **Treinamento** para que os usuários recebam ajuda com aplicativos específicos e saiba como aproveitar ao máximo os recursos que você usa todos os dias.
-1. Retorne ao centro de administração e escolha **Precisa de ajuda** para abrir o Assistente de Suporte. Digite sua pergunta ou o tópico com o qual você deseja ajuda e selecione **Enviar**. Escolha o link no centro de administração ou ao artigo que responde à sua pergunta.
-1. Se você não estiver encontrando uma resposta para sua pergunta, você sempre poderá contatar o suporte, e um técnico de suporte responderá a você em breve.
+## <a name="search-for-microsoft-365-admin-center-docs-and-resources"></a>Pesquise Microsoft 365 documentos e recursos do centro de administração
 
-Você também pode usar os seguintes recursos para obter ajuda com seu problema:
+Para pesquisar tarefas e ajuda relacionadas ao administrador, como redefinir senhas e atribuir assinaturas da Microsoft, consulte [Microsoft 365 ajuda do centro de administração.](../admin/index.yml)
 
-- [aka.ms/learn365admin](../admin/index.yml), para pesquisar todas as tarefas e ajuda relacionadas ao administrador, como redefinir senhas e atribuir assinaturas da Microsoft.
-- [answers.microsoft.com](https://answers.microsoft.com), para procurar respostas, iniciar uma discussão e fazer perguntas de outros usuários.
-- [techcommunity.microsoft.com](https://techcommunity.microsoft.com), para ingressar em uma comunidade de especialistas e encontrar as práticas recomendadas com o Microsoft 365 para sua empresa.
+## <a name="join-the-community"></a>Ingressar na comunidade
+
+Inicie uma conversa, siga as discussões e compartilhe seu conhecimento com outros Microsoft 365 usuários de pequenas empresas in joining the [Microsoft Small Business Community](https://smallbusiness.microsoft.com/).
+
+Se você tiver perguntas específicas sobre outros produtos e serviços, poste perguntas e siga discussões relevantes em Pergunte ao [Microsoft Community](https://answers.microsoft.com).

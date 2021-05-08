@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: c549d5d2a7c30892a9272b4ac3e03cb8979bc1a5
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 2dee1193e9f852e66df324927bf38d37d736d251
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764982"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245943"
 ---
 # <a name="device-discovery-overview"></a>Visão geral sobre descoberta de dispositivo
 
@@ -96,10 +96,11 @@ Os dispositivos que foram descobertos, mas ainda não foram integrados e protegi
 
 ![Imagem do painel de inventário de dispositivos](images/2b62255cd3a9dd42f3219e437b956fb9.png)
 
-
+> [!TIP]
+> Você sempre pode aplicar filtros para excluir dispositivos não gerenciamento da lista de inventário de dispositivos. Você também pode usar a coluna de status de integração em consultas de API para filtrar dispositivos não-gerenciamento. 
 
 ## <a name="vulnerability-assessment-on-discovered-devices"></a>Avaliação de vulnerabilidade em dispositivos descobertos
-As vulnerabilidades e os riscos em seus dispositivos, bem como em outros dispositivos nãomanageados descobertos na rede, fazem parte dos fluxos de TVM atuais em "Recomendações de segurança" e representados em páginas de entidade no portal. Procure por recomendações de segurança relacionadas a "SSH" para encontrar vulnerabilidades SSH relacionadas a dispositivos gerenciados e não gerenciados. 
+Vulnerabilidades e riscos em seus dispositivos, bem como outros dispositivos não-manageados descobertos na rede fazem parte dos fluxos de TVM atuais em "Segurança Recomendações" e representados em páginas de entidade no portal. Procure por recomendações de segurança relacionadas a "SSH" para encontrar vulnerabilidades SSH relacionadas a dispositivos gerenciados e não gerenciados. 
 
 ![Imagem do painel de recomendações de segurança](images/1156c82ffadd356ce329d1cf551e806c.png)  
 
@@ -131,8 +132,8 @@ DeviceNetworkEvents
 ```
 
 
-## <a name="changed-behaviour"></a>Comportamento alterado
-A seção a seguir lista as alterações que você observará no Microsoft Defender para Ponto de Extremidade e/ou Centro de Segurança do Microsoft 365 quando esse recurso estiver habilitado. 
+## <a name="changed-behavior"></a>Comportamento alterado
+A seção a seguir lista as alterações que você observará no Microsoft Defender para Ponto de Extremidade e/ou Microsoft 365 Centro de Segurança quando esse recurso estiver habilitado. 
  
 1.  Os dispositivos que não estão internados no Microsoft Defender para o Ponto de Extremidade devem aparecer no inventário de dispositivos, busca avançada e consultas de API. Isso pode aumentar significativamente o tamanho dos resultados da consulta. 
     1. As tabelas "DeviceInfo" e "DeviceNetworkInfo" na Busca Avançada agora manterão o dispositivo descoberto. Você pode filtrar esses dispositivos usando o atributo "OnboardingStatus".

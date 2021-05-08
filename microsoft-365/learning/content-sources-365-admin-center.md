@@ -16,12 +16,12 @@ ms.collection:
 localization_priority: None
 description: Saiba como configurar fontes de conteúdo de aprendizagem para o Microsoft Viva Learning (Visualização) no Microsoft 365 de administração.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a1bbe65db9dee028f57849de8a5538c996c3e2a4
-ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
+ms.openlocfilehash: b2e6ab6306db9a5ac9d91226431e5876cc244499
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52100834"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245415"
 ---
 # <a name="configure-learning-content-sources-for-microsoft-viva-learning-preview-in-the-microsoft-365-admin-center"></a>Configurar fontes de conteúdo de aprendizagem para o Microsoft Viva Learning (Visualização) no Microsoft 365 de administração
 
@@ -35,7 +35,7 @@ O administrador seleciona quais outras fontes de conteúdo de aprendizagem (por 
 > [!NOTE]
 >  Os usuários se insinam em aprendizados que não são da Microsoft e do LinkedIn Pro em um navegador ou visualizador incorporado. Esse aprendizado configurado está sujeito à licença, privacidade e termos de serviço separados entre sua organização e terceiros, e não aos termos do Viva Learning (Visualização). Antes de selecionar esse tipo de aprendizado, verifique se você tem um contrato para sua organização e usuários.
 
-## <a name="assign-the-knowledge-admin-role-optional"></a>Atribuir a função de administrador de conhecimento [Opcional]
+## <a name="assign-the-knowledge-admin-role-optional"></a>Atribuir a função de administrador de conhecimento (Opcional)
 
 Você deve ser um Microsoft 365 global para executar essas tarefas.
 
@@ -78,11 +78,11 @@ Para definir configurações para aprender fontes de conteúdo no Viva Learning,
 
 1.  Na navegação à esquerda do centro de administração Microsoft 365, acesse **Configurações**  >  **Org.**
 
-2.  Na página **Configurações da** Organização, na guia **Serviços,** selecione **Aplicativo de aprendizagem (Visualização)**.
+2.  Na página **Configurações da** Organização, na guia **Serviços,** selecione **Viva Learning (Visualização)**.
 
      ![Configurações página no centro de administração Microsoft 365 mostrando o aplicativo De aprendizagem listado.](../media/learning/learning-sharepoint-configure1.png)
 
-3.  No painel **Aplicativo de Aprendizagem (Visualização),** selecione as fontes de conteúdo de aprendizagem que você deseja configurar para a organização e selecione **Salvar**.
+3.  No painel **Viva Aprendizagem (Visualização),** selecione as fontes de conteúdo de aprendizagem que você deseja configurar para a organização e selecione **Salvar**.
 
      ![Painel de aprendizagem no Microsoft 365 de administração mostrando opções de fontes de conteúdo.](../media/learning/learning-sharepoint-configure2.png)
 

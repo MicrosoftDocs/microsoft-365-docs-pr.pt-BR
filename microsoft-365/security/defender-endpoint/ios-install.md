@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 62eefbd17b826aa2cfb541c04ba206d0f58f9bbf
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: a3711018034bcabdde10c21b3c968c3e813d0565
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935048"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245247"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-ios"></a>Implantar o Microsoft Defender para Ponto de Extremidade no iOS
 
@@ -35,7 +35,7 @@ ms.locfileid: "51935048"
 
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-Este tópico descreve a implantação do Defender para Ponto de Extremidade no iOS em dispositivos inscritos no Portal da Empresa do Intune. Para obter mais informações sobre o registro de dispositivo do Intune, consulte [Registrar dispositivos iOS/iPadOS no Intune](https://docs.microsoft.com/mem/intune/enrollment/ios-enroll).
+Este tópico descreve a implantação do Defender para Ponto de Extremidade no iOS em Portal da Empresa do Intune dispositivos inscritos. Para obter mais informações sobre o registro de dispositivo do Intune, consulte [Registrar dispositivos iOS/iPadOS no Intune](https://docs.microsoft.com/mem/intune/enrollment/ios-enroll).
 
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -48,14 +48,14 @@ Este tópico descreve a implantação do Defender para Ponto de Extremidade no i
 
 ## <a name="deployment-steps"></a>Etapas de implantação
 
-Implante o Defender para Ponto de Extremidade no iOS por meio do Portal da Empresa do Intune.
+Implante o Defender para Ponto de Extremidade no iOS por meio Portal da Empresa do Intune.
 
 ### <a name="add-ios-store-app"></a>Adicionar aplicativo da loja do iOS
 
 1. No Centro de administração do Gerenciador de Pontos de Extremidade [da Microsoft,](https://go.microsoft.com/fwlink/?linkid=2109431)vá para **Aplicativos**  ->  **iOS/iPadOS** Adicionar aplicativo da loja  ->    ->  **do iOS** e clique em **Selecionar**.
 
     > [!div class="mx-imgBorder"]
-    > ![Imagem do Centro de Administração do Microsoft Endpoint Manager1](images/ios-deploy-1.png)
+    > ![Imagem do Microsoft Endpoint Manager Admin Center1](images/ios-deploy-1.png)
 
 1. Na página Adicionar aplicativo, clique em **Pesquisar na Loja de Aplicativos** e digite o Ponto de Extremidade do Microsoft **Defender** na barra de pesquisa. Na seção resultados da pesquisa, clique em Ponto de *Extremidade do Microsoft Defender* e clique em **Selecionar**.
 
@@ -67,14 +67,39 @@ Implante o Defender para Ponto de Extremidade no iOS por meio do Portal da Empre
     > O grupo de usuários selecionado deve consistir em usuários inscritos do Intune.
 
     > [!div class="mx-imgBorder"]
-    > ![Imagem do Centro de Administração do Microsoft Endpoint Manager2](images/ios-deploy-2.png)
+    > ![Imagem do Microsoft Endpoint Manager Admin Center2](images/ios-deploy-2.png)
 
 1. Na seção *Revisar + Criar,* verifique se todas as informações inseridas estão corretas e selecione **Criar**. Em alguns instantes, o aplicativo Defender para Ponto de Extremidade deve ser criado com êxito, e uma notificação deve aparecer no canto superior direito da página.
 
 1. Na página informações do aplicativo exibida, na seção **Monitor,** selecione **Status** de instalação do dispositivo para verificar se a instalação do dispositivo foi concluída com êxito.
 
     > [!div class="mx-imgBorder"]
-    > ![Imagem do Centro de Administração do Microsoft Endpoint Manager3](images/ios-deploy-3.png)
+    > ![Imagem do Microsoft Endpoint Manager Admin Center3](images/ios-deploy-3.png)
+
+## <a name="auto-onboarding-of-vpn-profile-simplified-onboarding"></a>Integração automática do perfil VPN (Integração Simplificada)
+
+> [!NOTE]
+> A integração automática do perfil VPN está atualmente em visualização e as etapas mencionadas nesta seção podem ser substancialmente modificadas antes de serem lançadas comercialmente.
+
+Os administradores podem configurar automaticamente a configuração do perfil vpn. Isso configurará automaticamente o perfil VPN do Defender para Ponto de Extremidade sem que o usuário faça isso durante a integração. Observe que a VPN é usada para fornecer o recurso de Proteção da Web. Esta não é uma VPN regular e é uma VPN local/auto-loop que não faz o tráfego fora do dispositivo.
+
+1. No Centro de administração do Gerenciador de Pontos de Extremidade [da Microsoft,](https://go.microsoft.com/fwlink/?linkid=2109431)vá para **Perfis** de Configuração de Dispositivos Criar aplicativo da loja  ->    ->    ->  **do iOS** e clique em **Selecionar**.
+1. Escolha **Plataforma como** **iOS/iPadOS** e **Tipo de perfil** como **VPN**. Clique em **Criar**.
+1. Digite um nome para o perfil e clique em **Próximo**.
+1. Selecione **VPN personalizada** para Tipo de Conexão e, na seção VPN **Base,** insira o seguinte:
+    - Nome da conexão = Microsoft Defender para Ponto de Extremidade
+    - Endereço do servidor VPN = 127.0.0.1
+    - Método Auth = "Nome de usuário e senha"
+    - Túnel Dividido = Desabilitar
+    - Identificador vpn = com.microsoft.scmx
+    - Nos pares de valores-chave, insira a **chave AutoOnboard** e despeça o valor como **True**.
+    - Tipo de VPN automática = VPN sob demanda
+    - Clique **em Adicionar** regras sob **demanda** e selecione Quero fazer o seguinte = Estabelecer **VPN**, quero restringir a = Todos os **domínios**.
+
+    ![Uma captura de tela da configuração de perfil vpn](images/ios-deploy-8.png)
+
+1. Clique em Próximo e atribua o perfil a usuários direcionados.
+1. Na seção *Revisar + Criar,* verifique se todas as informações inseridas estão corretas e selecione **Criar**.
 
 ## <a name="complete-onboarding-and-check-status"></a>Concluir a integração e verificar o status
 
@@ -84,7 +109,7 @@ Implante o Defender para Ponto de Extremidade no iOS por meio do Portal da Empre
 
 2. Toque no ícone do aplicativo Defender para Ponto de Extremidade e siga as instruções na tela para concluir as etapas de integração. Os detalhes incluem a aceitação do usuário final das permissões do iOS exigidas pelo Defender para Ponto de Extremidade no iOS.
 
-3. Após a integração bem-sucedida, o dispositivo começará a aparecer na lista Dispositivos no Centro de Segurança do Microsoft Defender.
+3. Após a integração bem-sucedida, o dispositivo começará a aparecer na lista Dispositivos Central de Segurança do Microsoft Defender.
 
     > [!div class="mx-imgBorder"]
     > ![Uma captura de tela de um telefone celular Descrição gerada automaticamente](images/e07f270419f7b1e5ee6744f8b38ddeaf.png)
@@ -100,18 +125,18 @@ O Intune permite configurar o aplicativo Defender para iOS por meio de uma polí
    > [!NOTE]
    > Esta política de configuração de aplicativo para dispositivos supervisionados é aplicável apenas a dispositivos gerenciados e deve ser direcionada para todos os dispositivos iOS gerenciados como uma prática prática prática.
 
-1. Entre no Centro de administração do [Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) e acesse Políticas de configuração do Aplicativo de   >  **Aplicativos**  >  **Adicionar**. Clique em **Dispositivos gerenciados**.
+1. Entre no centro de administração [Microsoft Endpoint Manager e](https://go.microsoft.com/fwlink/?linkid=2109431) vá para Políticas de configuração do Aplicativo de   >  **Aplicativos**  >  **Adicionar**. Clique em **Dispositivos gerenciados**.
 
     > [!div class="mx-imgBorder"]
-    > ![Imagem do Centro de Administração do Microsoft Endpoint Manager4](images/ios-deploy-4.png)
+    > ![Imagem do Microsoft Endpoint Manager Admin Center4](images/ios-deploy-4.png)
 
 1. Na página *Criar política de configuração de aplicativo,* forneça as seguintes informações:
     - Nome da política
     - Plataforma: Selecione iOS/iPadOS
-    - Aplicativo direcionado: Selecione **o Microsoft Defender ATP** na lista
+    - Aplicativo direcionado: selecione **Microsoft Defender ATP** na lista
 
     > [!div class="mx-imgBorder"]
-    > ![Imagem do Centro de Administração do Microsoft Endpoint Manager5](images/ios-deploy-5.png)
+    > ![Imagem do Microsoft Endpoint Manager Admin Center5](images/ios-deploy-5.png)
 
 1. Na próxima tela, selecione **Usar designer de configuração** como o formato. Especifique a seguinte propriedade:
     - Chave de Configuração: supervisionada
@@ -119,7 +144,7 @@ O Intune permite configurar o aplicativo Defender para iOS por meio de uma polí
     - Valor da configuração: {{issupervised}}
     
     > [!div class="mx-imgBorder"]
-    > ![Imagem do Centro de Administração do Microsoft Endpoint Manager6](images/ios-deploy-6.png)
+    > ![Imagem do Microsoft Endpoint Manager Admin Center6](images/ios-deploy-6.png)
 
 1. Clique **em Próximo** para abrir a página Marcas de **escopo.** As marcas de escopo são opcionais. Clique em **Avançar** para continuar.
 
@@ -136,7 +161,7 @@ O Intune permite configurar o aplicativo Defender para iOS por meio de uma polí
     - Navegar até **dispositivos**  ->  **iOS/iPadOS** Perfis de  ->  **configuração**  ->  **Criar Perfil**
 
     > [!div class="mx-imgBorder"]
-    > ![Imagem do Centro de Administração do Microsoft Endpoint Manager7](images/ios-deploy-7.png)
+    > ![Imagem do Microsoft Endpoint Manager Admin Center7](images/ios-deploy-7.png)
 
     - Forneça um nome do perfil. Quando solicitado a importar um arquivo de perfil de configuração, selecione o que foi baixado acima.
     - Na seção **Atribuição,** selecione o grupo de dispositivos ao qual você deseja aplicar esse perfil. Como prática prática, isso deve ser aplicado a todos os dispositivos iOS gerenciados. Clique em **Avançar**.

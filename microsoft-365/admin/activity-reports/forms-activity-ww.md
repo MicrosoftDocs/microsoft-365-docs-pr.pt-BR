@@ -1,5 +1,5 @@
 ---
-title: Relatórios do Microsoft 365 no centro de administração - Atividade de formulários
+title: Microsoft 365 Relatórios no centro de administração - Atividade de formulários
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -14,28 +14,27 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 ms.custom: AdminSurgePortfolio
-ROBOTS: NOINDEX, NOFOLLOW
 search.appverid:
 - BCS160
 - MST160
 - MET150
 - MOE150
-description: Saiba como obter um relatório de atividades do Microsoft Forms usando o painel relatórios do Microsoft 365 no centro de administração do Microsoft 365.
-ms.openlocfilehash: f4cd021003ad9d9bca4f986a33f49e62e2df1889
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Saiba como obter um relatório de atividades do Microsoft Forms usando o painel Microsoft 365 Relatórios no centro Microsoft 365 administrador.
+ms.openlocfilehash: 977ee360d91df0b15e25e86d052d852f9acafe6c
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579681"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52242319"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Relatórios do Microsoft 365 no centro de administração - Atividade de formulários
+# <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Microsoft 365 Relatórios no centro de administração - Atividade de formulários
 
-O painel Relatórios  do Microsoft 365 mostra a visão geral da atividade em todos os produtos em sua organização. Ele permite a você detalhar até relatórios de um produto específico para que você tenha informações mais precisas sobre as atividades em cada produto. Confira o tópico [Visão geral de relatórios](activity-reports.md).
+O painel Microsoft 365 **relatórios** mostra a visão geral da atividade em todos os produtos em sua organização. Ele permite a você detalhar até relatórios de um produto específico para que você tenha informações mais precisas sobre as atividades em cada produto. Confira o tópico [Visão geral de relatórios](activity-reports.md).
   
 Por exemplo, você pode entender a atividade de cada usuário licenciado para usar o Microsoft Forms analisando sua interação com formulários. Ele também ajuda você a entender o nível de colaboração que está acontecendo, observando o número de formulários criados e formulários aos quais o usuário respondeu.
   
 > [!NOTE]
-> Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou um administrador do Exchange, SharePoint, Teams Service, Teams Communications ou Skype for Business para ver relatórios.  
+> Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou um Exchange, SharePoint, serviço Teams, comunicações Teams ou Skype for Business para ver relatórios.  
  
 ## <a name="how-to-get-to-the-forms-activity-report"></a>Como chegar ao relatório de atividades do Forms
 
@@ -44,11 +43,11 @@ Por exemplo, você pode entender a atividade de cada usuário licenciado para us
   
 ## <a name="interpret-the-forms-activity-report"></a>Interpretar o relatório de atividades do Forms
 
-Você pode exibir as atividades no relatório Formulários escolhendo a **guia Atividade.**<br/>![Relatórios do Microsoft 365 - Relatório de atividades do Microsoft Forms.](../../media/275fb0a1-b9d9-4233-8aaf-e7df73cc705f.png)
+Você pode exibir as atividades no relatório Formulários escolhendo a **guia Atividade.**<br/>![Microsoft 365 relatórios - Relatório de atividades do Microsoft Forms.](../../media/275fb0a1-b9d9-4233-8aaf-e7df73cc705f.png)
 
 Selecione **Escolher colunas** para adicionar ou remover colunas do relatório.  <br/> ![Relatório de atividades de formulários - escolha colunas](../../media/0c9b0b69-5dc7-43ea-8e2c-54407b6ce2ab.png)
 
-Você também pode exportar os dados do relatório para um arquivo .csv do Excel selecionando o link **Exportar.** Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados. 
+Você também pode exportar os dados do relatório para um arquivo Excel .csv selecionando o link **Exportar.** Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados. 
   
 |Item|Descrição|
 |:-----|:-----|

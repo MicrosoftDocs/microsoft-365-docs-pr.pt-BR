@@ -1,6 +1,6 @@
 ---
 title: Registre novos dispositivos por conta própria
-description: Registre os dispositivos por conta própria para que eles possam ser gerenciados pela Área de Trabalho Gerenciada da Microsoft
+description: Registre os dispositivos por você mesmo para que eles possam ser gerenciados por Área de Trabalho Gerenciada da Microsoft
 ms.service: m365-md
 author: jaimeo
 f1.keywords:
@@ -11,19 +11,21 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: b2976fc643eb433039d9595bc8e9632fd8cb60ea
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 850d7e6692d3ccbfda6e15c8d5ca95301bd4d094
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893468"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245607"
 ---
 # <a name="register-new-devices-yourself"></a>Registre novos dispositivos por conta própria
 
-A Área de Trabalho Gerenciada da Microsoft pode trabalhar com dispositivos novos ou você pode reutilizar dispositivos que você já tenha (o que exigirá que você os reimage). Você pode registrar dispositivos com a Área de Trabalho Gerenciada da Microsoft no portal do Microsoft Endpoint Manager.
+Área de Trabalho Gerenciada da Microsoft pode trabalhar com dispositivos novos ou você pode reutilizar dispositivos que você já tenha (o que exigirá que você os reimage). Você pode registrar dispositivos com Área de Trabalho Gerenciada da Microsoft no portal Microsoft Endpoint Manager portal.
 
 > [!NOTE]
 > Trabalhando com um parceiro para obter dispositivos? Se sim, você não precisa se preocupar em obter os hashes de hardware; Eles cuidarão disso para você. Certifique-se de que seu parceiro estabeleça uma relação com você no [Partner Center](https://partner.microsoft.com/dashboard). Seu parceiro pode saber mais na ajuda [do Partner Center.](/partner-center/request-a-relationship-with-a-customer) Depois que essa relação for estabelecida, seu parceiro simplesmente registrará dispositivos em seu nome – nenhuma ação mais necessária de você. Se você quiser ver os detalhes ou seu parceiro tiver dúvidas, consulte [Etapas para parceiros registrar dispositivos](register-devices-partner.md). Depois que os dispositivos são registrados, você pode continuar verificando [a imagem](#check-the-image) e [entregando os dispositivos](#deliver-the-device) para seus usuários.
+
+
 
 ## <a name="prepare-to-register-brand-new-devices"></a>Preparar para registrar dispositivos novos
 
@@ -32,21 +34,21 @@ Depois de ter os novos dispositivos em mãos, você seguirá estas etapas:
 
 1. [Obtenha o hash de hardware para cada dispositivo.](#obtain-the-hardware-hash)
 2. [Mesclar os dados de hash](#merge-hash-data)
-3. [Registre os dispositivos na Área de Trabalho Gerenciada da Microsoft.](#register-devices-by-using-the-admin-portal)
+3. [Registre os dispositivos em Área de Trabalho Gerenciada da Microsoft](#register-devices-by-using-the-admin-portal).
 4. [Verifique se a imagem está correta.](#check-the-image)
 5. [Entregar o dispositivo](#deliver-the-device)
 
 ### <a name="obtain-the-hardware-hash"></a>Obter o hash de hardware
 
-A Área de Trabalho Gerenciada da Microsoft identifica cada dispositivo exclusivamente fazendo referência ao hash de hardware. Você tem três opções para obter essas informações:
+Área de Trabalho Gerenciada da Microsoft identifica cada dispositivo exclusivamente fazendo referência ao hash de hardware. Você tem três opções para obter essas informações:
 
 - Peça ao fornecedor OEM para o arquivo de registro do AutoPilot, que incluirá os hashes de hardware.
 - Execute um [Windows PowerShell script em](#powershell-script-method) cada dispositivo e colete os resultados em um arquivo.
-- Inicie cada dispositivo, mas não conclua a experiência de instalação do Windows e colete [os hashes em uma unidade flash removível.](#flash-drive-method)
+- Inicie cada dispositivo, mas não conclua a experiência de instalação Windows e colete os hashes em uma [unidade flash removível.](#flash-drive-method)
 
 #### <a name="powershell-script-method"></a>Método de script do PowerShell
 
-Você pode usar o [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) do PowerShell no site da Galeria do PowerShell. Para obter mais informações sobre a identificação do dispositivo e o hash de hardware, consulte [Adicionando dispositivos ao Windows Autopilot](/mem/autopilot/add-devices#device-identification).
+Você pode usar o [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) do PowerShell no site da Galeria do PowerShell. Para obter mais informações sobre a identificação do dispositivo e o hash de hardware, consulte [Adding devices to Windows Autopilot](/mem/autopilot/add-devices#device-identification).
 
 1.  Abra um prompt do PowerShell com direitos administrativos.
 2.  Executar `Install-Script -Name Get-WindowsAutoPilotInfo`
@@ -79,7 +81,7 @@ Você precisará ter os dados nos arquivos CSV combinados em um único arquivo p
 
 ### <a name="register-devices-by-using-the-admin-portal"></a>Registrar dispositivos usando o Portal de Administração
 
-No [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), selecione **Dispositivos** no painel de navegação esquerdo. Procure a seção Área de Trabalho Gerenciada da Microsoft do menu e selecione **Dispositivos**. No espaço de trabalho Dispositivos de Área de Trabalho Gerenciados da Microsoft, Selecione **+ Registrar dispositivos**, que abre um fly-in para registrar novos dispositivos.
+Em [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), selecione **Dispositivos** no painel de navegação esquerdo. Procure a seção Área de Trabalho Gerenciada da Microsoft do menu e selecione **Dispositivos**. No espaço de trabalho Área de Trabalho Gerenciada da Microsoft Dispositivos, Selecione **+ Registrar dispositivos**, que abre um fly-in para registrar novos dispositivos.
 
 <!-- [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
 
@@ -94,7 +96,7 @@ Siga estas etapas:
 3. Selecione **Registrar dispositivos**. O sistema adicionará os dispositivos à sua lista de dispositivos em **Dispositivos**, marcados como **Registro Pendente**. O registro normalmente leva menos de 10 minutos e, quando bem-sucedido, o dispositivo será mostrar como **Pronto** para o usuário, o que significa que ele está pronto e aguardando que um usuário comece a usar.
 
 > [!NOTE]
-> Se você alterar manualmente a associação de grupo do Azure Active Directory (AAD) de um dispositivo, ele será automaticamente reatribuido ao grupo para seu perfil de dispositivo e removido de todos os grupos conflitantes.
+> Se você alterar manualmente a associação de grupo Azure Active Directory (AAD) de um dispositivo, ela será automaticamente reatribuida ao grupo para seu perfil de dispositivo e removida de todos os grupos conflitantes.
 
 Você pode monitorar o andamento do registro do dispositivo na página principal. Os estados possíveis relatados incluem:
 
@@ -102,7 +104,7 @@ Você pode monitorar o andamento do registro do dispositivo na página principal
 |---------------|-------------|
 | Registro Pendente | O registro ainda não foi feito. Volte mais tarde. |
 | Falha no registro | O registro não pôde ser concluído. Consulte [Troubleshooting device registration para](#troubleshooting-device-registration) obter mais informações. |
-| Pronto para usuário | O registro foi bem-sucedido e o dispositivo agora está pronto para ser entregue ao usuário. A Área de Trabalho Gerenciada da Microsoft os orientará durante a configuração da primeira vez, portanto, não há necessidade de você fazer outras preparações. |
+| Pronto para usuário | O registro foi bem-sucedido e o dispositivo agora está pronto para ser entregue ao usuário. Área de Trabalho Gerenciada da Microsoft os guiará durante a configuração da primeira vez, portanto, não há necessidade de você fazer outras preparações. |
 | Ativo | O dispositivo foi entregue ao usuário e ele se registrou com seu locatário. Esse estado também indica que eles estão usando regularmente o dispositivo. |
 | Inativo | O dispositivo foi entregue ao usuário e ele se registrou com seu locatário. No entanto, eles não usaram o dispositivo recentemente (nos últimos 7 dias).  | 
 
@@ -118,18 +120,18 @@ Você pode monitorar o andamento do registro do dispositivo na página principal
 
 ### <a name="check-the-image"></a>Verificar a imagem
 
-Se o dispositivo tiver vindo de um fornecedor parceiro da Área de Trabalho Gerenciada da Microsoft, a imagem deverá estar correta.
+Se o dispositivo tiver vindo de um fornecedor Área de Trabalho Gerenciada da Microsoft parceiro, a imagem deverá estar correta.
 
 Você também pode aplicar a imagem por conta própria, se preferir. Para começar, entre em contato com o representante da Microsoft com o que você está trabalhando e eles fornecerão o local e as etapas para aplicar a imagem.
 
 ### <a name="autopilot-group-tag"></a>Marca de grupo do piloto automático
 
 Quando você usa o portal administrador para registrar dispositivos, atribuímos automaticamente a marca de grupo **Microsoft365Managed_Autopilot** Autopilot.
-O serviço monitora todos os dispositivos da Área de Trabalho Gerenciada da Microsoft diariamente e atribui a marca de grupo a qualquer um que ainda não o tenha.
+O serviço monitora todos os Área de Trabalho Gerenciada da Microsoft diariamente e atribui a marca de grupo a qualquer um que ainda não a tenha.
 
 ### <a name="deliver-the-device"></a>Entregar o dispositivo
 
 > [!IMPORTANT]
 > Antes de entregar o dispositivo ao usuário, certifique-se de ter obtido e aplicado as [licenças apropriadas](../get-ready/prerequisites.md) para esse usuário.
 
-Se todas as licenças são aplicadas, você pode preparar seus usuários para usar dispositivos [e,](get-started-devices.md)em seguida, o usuário pode iniciar o dispositivo e prosseguir com a experiência de configuração do Windows.
+Se todas as licenças são aplicadas, você pode preparar seus usuários para usar dispositivos [e,](get-started-devices.md)em seguida, o usuário pode iniciar o dispositivo e prosseguir com a experiência de instalação Windows configuração.

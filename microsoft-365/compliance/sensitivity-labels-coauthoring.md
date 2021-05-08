@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: Ative uma configuração que permite a coautoria e o Salvamento Automático em aplicativos da área de trabalho para documentos rotulados e criptografados no SharePoint e no OneDrive.
-ms.openlocfilehash: a35e9fe818d697667ecf002a232d84f90cf53a61
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 990ab13508565fb910abe0d5e759a93e54766915
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764360"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245715"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>Ativar a coautoria para arquivos criptografados com rótulos de confidencialidade
 
@@ -134,6 +134,8 @@ Esta versão prévia da coautoria para arquivos criptografados com rótulos de c
 - Os usuários não poderão aplicar rótulos no Office para a Web para arquivos do Word, Excel e PowerPoint maiores que 300 MB. Para esses arquivos, você pode usar os aplicativos da área de trabalho do Office para aplicar um rótulo, mas deve ser a única pessoa que está com o arquivo aberto.
 
 - Quando você usa [políticas DLP que usam rótulos de confidencialidade como condições](dlp-sensitivity-label-as-condition.md), não há suporte para anexos não criptografados para emails.
+
+- Alguns documentos são incompatíveis com os rótulos de confidencialidade devido a recursos, como [proteção por senha](https://support.microsoft.com/office/require-a-password-to-open-or-modify-a-workbook-10579f0e-b2d9-4c05-b9f8-4109a6bce643), [pastas de trabalho compartilhadas](https://support.microsoft.com/office/about-the-shared-workbook-feature-49b833c0-873b-48d8-8bf2-c1c59a628534)ou conteúdo que inclua os controles ActiveX. Outros motivos estão documentados em [Resolução de problemas de coautoria no Office](https://support.microsoft.com/office/troubleshoot-co-authoring-in-office-bd481512-3f3a-4b6d-b7eb-ebf9d3626ae7). Para esses documentos, você verá uma mensagem **ERROOCORREU UM AO CARREGAR**, e deverá selecionar a opção **Descartar Alterações**. Até que essa questão seja abordada, não rotule esses documentos que são identificados com a mensagem de erro.
 
 - Não há suporte para aplicativos do Office para iOS e Android.
 

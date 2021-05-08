@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: b3fef3479fa2d36806e6657b31f5152c54b9251f
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 1c61e69b5c8d414ab229fa8bf64eb657a6e40304
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764994"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245955"
 ---
 # <a name="device-discovery-frequently-asked-questions"></a>Descoberta de dispositivo perguntas frequentes
 
@@ -51,11 +51,15 @@ Você tem a opção de desativar a descoberta de dispositivo por meio da [págin
 ## <a name="can-i-control-which-devices-perform-standard-discovery"></a>Posso controlar quais dispositivos executam a descoberta padrão?
  Você pode personalizar a lista de dispositivos usados para executar a descoberta padrão. Você pode habilitar a descoberta padrão em todos os dispositivos conectados que também suportam esse recurso (atualmente apenas dispositivos Windows 10) ou selecionar um subconjunto ou subconjunto de seus dispositivos especificando suas marcas de dispositivo. Nesse caso, todos os outros dispositivos serão configurados para executar somente a descoberta básica. A configuração está disponível na página configurações de descoberta de dispositivo.
 
+## <a name="can-i-exclude-unmanaged-devices-from-the-device-inventory-list"></a>Posso excluir dispositivos não gerenciamento da lista de inventário de dispositivos?
+Sim, você pode aplicar filtros que excluam dispositivos não gerenciamento da lista de inventário de dispositivos. Você também pode usar a coluna de status de integração em consultas de API para filtrar dispositivos não-gerenciamento. 
+
+
 ## <a name="which-onboarded-devices-can-perform-discovery"></a>Quais dispositivos conectados podem realizar a descoberta?
- Dispositivos conectados em execução no Windows 10 versão 1809 ou posterior podem executar a descoberta.
+ Dispositivos conectados em execução Windows 10 versão 1809 ou posterior podem executar a descoberta.
 
 ## <a name="what-happens-if-my-onboarded-devices-is-connected-to-my-home-network-or-to-public-access-point"></a>O que acontece se meus dispositivos conectados estão conectados à minha rede principal ou ao ponto de acesso público?
- O mecanismo de descoberta diferencia os eventos de rede recebidos na rede corporativa e fora da rede corporativa. Ao correlacionar identificadores de rede em todos os clientes do locatário, os eventos são diferenciados entre os que foram recebidos de redes privadas e redes corporativas. Os dispositivos de rede privada não serão listados no inventário e não serão sondados ativamente.
+ O mecanismo de descoberta diferencia os eventos de rede recebidos na rede corporativa e fora da rede corporativa. Ao correlacionar identificadores de rede em todos os clientes do locatário, os eventos são diferenciados entre os que foram recebidos de redes privadas e redes corporativas. Por exemplo, se a maioria dos dispositivos no relatório de rede informar que eles estão conectados ao mesmo nome de rede, com o mesmo gateway padrão e endereço de servidor DHCP, pode-se assumir que essa rede provavelmente é uma rede corporativa. Os dispositivos de rede privada não serão listados no inventário e não serão sondados ativamente.
 
 ## <a name="what-protocols-are-you-capturing-and-analyzing"></a>Quais protocolos você está capturando e analisando?
  Por padrão, todos os dispositivos conectados em execução no Windows 10 versão 1809 ou posterior estão capturando e analisando os seguintes protocolos: ARP, CDP, DHCP, DHCPv6, IP (headers), LLDP, LLMNR, mDNS, MNDP, NBNS, SSDP, TCP (headers), UDP (headers), WSD

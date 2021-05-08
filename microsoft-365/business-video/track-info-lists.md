@@ -16,12 +16,12 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 description: Saiba mais sobre listas da Microsoft. Com As Listas da Microsoft, você pode acompanhar detalhes do cliente, como tipo de cliente, atendimento de pedido e andamento do pedido.
-ms.openlocfilehash: 79094c6b039e62ba88720424985814354bd299b4
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: bbe88fb5a241c5991c7f7532f3ea70930e550ab5
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509417"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245187"
 ---
 # <a name="use-microsoft-lists-to-track-business-info"></a>Usar Listas da Microsoft para controlar informações comerciais
 
@@ -29,7 +29,7 @@ ms.locfileid: "50509417"
 
 ## <a name="try-it"></a>Experimente
 
-Controlar informações e organizar o trabalho com listas da Microsoft. Crie uma lista do zero, do Excel, de uma lista existente ou de um modelo. Você pode começar a usar o Microsoft 365, o Microsoft Teams ou o SharePoint.
+Controlar informações e organizar o trabalho com listas da Microsoft. Crie uma lista do zero, Excel, de uma lista existente ou de um modelo. Você pode começar a Microsoft 365, Microsoft Teams ou SharePoint.
 
 ### <a name="add-an-item-to-the-list"></a>Adicionar um item à lista
 
@@ -72,6 +72,6 @@ Você pode acompanhar o progresso instantaneamente:
 
 - Clique duas vezes em um item para abri-lo e atualize o progresso da ordem.
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
 [Criar uma lista a partir do aplicativo Lists](https://support.microsoft.com/office/create-a-list-from-the-lists-app-b5e0b7f8-136f-425f-a108-699586f8e8bd)

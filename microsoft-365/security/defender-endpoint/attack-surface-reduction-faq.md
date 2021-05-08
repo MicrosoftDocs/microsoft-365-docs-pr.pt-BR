@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: cf41dda4ff61137d6b60b2fc735227f15418477e
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 3ca429ca1fea125450fdbb8d1f3a0e3a745513d8
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935588"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245691"
 ---
 # <a name="attack-surface-reduction-frequently-asked-questions-faq"></a>Redução de superfície de ataque perguntas frequentes (perguntas frequentes)
 
@@ -32,19 +32,19 @@ ms.locfileid: "51935588"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-## <a name="is-attack-surface-reduction-asr-part-of-windows"></a>A redução de superfície de ataque (ASR) faz parte do Windows?
+## <a name="is-attack-surface-reduction-asr-part-of-windows"></a>A redução de superfície de ataque (ASR) faz parte Windows?
 
-O ASR era originalmente um recurso do pacote de recursos do exploit guard introduzido como uma atualização importante para o Microsoft Defender Antivírus, no Windows 10, versão 1709. O Microsoft Defender Antivírus é o componente antimalware nativo do Windows. No entanto, o conjunto de recursos ASR completo só está disponível com uma licença corporativa do Windows. Observe também que as exclusões de regra ASR são gerenciadas separadamente das exclusões do Microsoft Defender Antivírus.
+O ASR era originalmente um recurso do pacote de recursos do exploit guard introduzido como uma grande atualização para Microsoft Defender Antivírus, Windows 10 versão 1709. Microsoft Defender Antivírus é o componente antimalware nativo do Windows. No entanto, o conjunto de recursos ASR completo só está disponível com uma Windows corporativa. Observe também que as exclusões de regra ASR são gerenciadas separadamente Microsoft Defender Antivírus exclusões.
 
 ## <a name="do-i-need-to-have-an-enterprise-license-to-run-asr-rules"></a>Preciso ter uma licença corporativa para executar regras ASR?
 
-O conjunto completo de regras e recursos ASR só será suportado se você tiver uma licença corporativa para o Windows 10. Um número limitado de regras pode funcionar sem uma licença corporativa. Se você tiver o Microsoft 365 Business, de definir o Microsoft Defender Antivírus como sua solução de segurança principal e habilitar as regras por meio do PowerShell. O uso do ASR sem uma licença corporativa não tem suporte oficial e você não poderá usar os recursos completos do ASR.
+O conjunto completo de regras e recursos ASR só é suportado se você tiver uma licença corporativa para Windows 10. Um número limitado de regras pode funcionar sem uma licença corporativa. Se você tiver Microsoft 365 Business, desem conjunto Microsoft Defender Antivírus como sua solução de segurança principal e habilita as regras por meio do PowerShell. O uso do ASR sem uma licença corporativa não tem suporte oficial e você não poderá usar os recursos completos do ASR.
 
-Para saber mais sobre o licenciamento do Windows, consulte [Licenciamento do Windows 10](https://www.microsoft.com/licensing/product-licensing/windows10?activetab=windows10-pivot:primaryr5) e obter o guia de Licenciamento por [Volume do Windows 10](https://download.microsoft.com/download/2/D/1/2D14FE17-66C2-4D4C-AF73-E122930B60F6/Windows-10-Volume-Licensing-Guide.pdf).
+Para saber mais sobre Windows licenciamento, consulte [Windows 10 Licenciamento](https://www.microsoft.com/licensing/product-licensing/windows10?activetab=windows10-pivot:primaryr5) e obter o [guia licenciamento por volume para Windows 10](https://download.microsoft.com/download/2/D/1/2D14FE17-66C2-4D4C-AF73-E122930B60F6/Windows-10-Volume-Licensing-Guide.pdf).
 
 ## <a name="is-asr-supported-if-i-have-an-e3-license"></a>O ASR tem suporte se eu tiver uma licença E3?
 
-Sim. O ASR tem suporte para Windows Enterprise E3 e superior. 
+Sim. O ASR é suportado para Windows Enterprise E3 e acima. 
 
 ## <a name="which-features-are-supported-with-an-e5-license"></a>Quais recursos são suportados com uma licença E5?
 
@@ -64,8 +64,8 @@ As duas regras específicas a seguir não suportam exclusões:
 
 |Nome da regra|GUID|Exclusões & de pastas de arquivo|
 |:--|:--|:--|
-|Bloquear JavaScript ou VBScript de iniciar conteúdo executável baixado|D3E037E1-3EB8-44C8-A917-57927947596D|Sem suporte|
-|Bloquear a persistência por meio da assinatura de evento WMI|e6db77e5-3df2-4cf1-b95a-636979351e5b|Sem suporte|
+|Bloquear JavaScript ou VBScript de iniciar conteúdo executável baixado|D3E037E1-3EB8-44C8-A917-57927947596D|Incompatível|
+|Bloquear a persistência por meio da assinatura de evento WMI|e6db77e5-3df2-4cf1-b95a-636979351e5b|Incompatível|
 
 As exclusões de regras ASR suportam curingas, caminhos e variáveis ambientais. Para obter mais informações sobre como usar caracteres curinga em regras ASR, consulte [configure and validate exclusions based on file extension and folder location](/windows/security/threat-protection/microsoft-defender-antivirus/configure-extension-file-exclusions-microsoft-defender-antivirus).
 
@@ -74,17 +74,15 @@ Esteja ciente dos itens a seguir sobre exclusões de regras ASR (incluindo curin
 - As exclusões de regras ASR são independentes das exclusões do Defender AV
 - Caracteres curinga não podem ser usados para definir uma letra de unidade
 - Se você quiser excluir mais de uma pasta, em um caminho, use várias instâncias de \ para indicar várias pastas \* aninhadas (por exemplo, c:\Folder \* \* \Test)
-- O Microsoft Endpoint Configuration Manager *não dá* suporte a curingas (* ou ?)
-- Se você quiser excluir um arquivo que contenha caracteres aleatórios (geração de arquivos automatizados), você pode usar o símbolo '?' (por exemplo, C:\Folder\fileversion?. docx)
+- Microsoft Endpoint Configuration Manager não *suporta* caracteres curinga (* ou ?)
+- Se você quiser excluir um arquivo que contém caracteres aleatórios (geração de arquivos automatizados), você pode usar o símbolo '?' (por exemplo, C:\Folder\fileversion?.docx)
 - As exclusões de ASR na Política de Grupo não suportam aspas (o mecanismo tratará, na verdade, caminho longo, espaços etc., para que não haja necessidade de usar aspas)
 - As regras ASR são executados em conta NT AUTHORITY\SYSTEM, portanto, as variáveis ambientais são limitadas às variáveis do computador.
-
-
 
 ## <a name="how-do-i-know-what-i-need-to-exclude"></a>Como faço para saber o que preciso excluir?
 Regras ASR diferentes terão fluxos de proteção diferentes. Pense sempre em qual regra ASR você está configurando protege e como o fluxo de execução real se destaca.
 
-Exemplo: Bloquear o roubo de credenciais do **subsistema** da autoridade de segurança local do Windows A leitura diretamente do processo LSASS (Local Security Authority Subsystem) pode ser um risco de segurança, pois pode expor credenciais corporativas.
+Exemplo **Windows:** Bloquear o roubo de credenciais do subsistema de autoridade de segurança local A leitura diretamente do processo LSASS (Local Security Authority Subsystem) pode ser um risco de segurança, pois pode expor credenciais corporativas.
 
 Essa regra impede que os processos nãotrudos tenham acesso direto à memória LSASS. Sempre que um processo tentar usar a função OpenProcess() para acessar o LSASS, com um direito de acesso de PROCESS_VM_READ, a regra bloqueará especificamente esse direito de acesso.
 
@@ -96,24 +94,24 @@ Ao ver o exemplo acima, se você realmente tivesse que criar uma exceção para 
 
 ## <a name="what-are-the-rules-microsoft-recommends-enabling"></a>Quais são as regras que a Microsoft recomenda ativar?
 
-Recomendamos habilenciar todas as regras possíveis. No entanto, há alguns casos em que você não deve habilitar uma regra. Por exemplo, não recomendamos a habilitação da regra bloquear criações de processo originadas dos comandos PSExec e WMI, se você estiver usando o Microsoft Endpoint Configuration Manager (ou, System Center Configuration Manager - SCCM) para gerenciar seus pontos de extremidade.
+Recomendamos habilenciar todas as regras possíveis. No entanto, há alguns casos em que você não deve habilitar uma regra. Por exemplo, não recomendamos a habilitação da regra de comandos Bloquear criações de processo provenientes de comandos PSExec e WMI, se você estiver usando o Microsoft Endpoint Configuration Manager (ou, System Center Configuration Manager - SCCM) para gerenciar seus pontos de extremidade.
 
 É altamente recomendável que você leia cada informação específica de regra e/ou avisos, que estão disponíveis em nossa [documentação pública.](/microsoft-365/security/defender-endpoint/attack-surface-reduction.md)
 abrangendo vários pilares de proteção, como Office, Credenciais, Scripts, Email, etc. Todas as regras ASR, exceto a persistência de bloqueio por meio da assinatura de evento WMI, são suportadas no Windows 1709 e posterior:
 
 * [Bloquear conteúdo executável do cliente de email e do webmail](attack-surface-reduction.md#block-executable-content-from-email-client-and-webmail)
-* [Bloquear todos os aplicativos do Office da criação de processos filho](attack-surface-reduction.md#block-all-office-applications-from-creating-child-processes)
-* [Impedir aplicativos do Office de criar conteúdo executável](attack-surface-reduction.md#block-office-applications-from-creating-executable-content)
-* [Impedir que aplicativos do Office injetem código em outros processos](attack-surface-reduction.md#block-office-applications-from-injecting-code-into-other-processes)
+* [Bloquear todos os Office aplicativos da criação de processos filho](attack-surface-reduction.md#block-all-office-applications-from-creating-child-processes)
+* [Impedir Office aplicativos de criação de conteúdo executável](attack-surface-reduction.md#block-office-applications-from-creating-executable-content)
+* [Impedir Office aplicativos de injetar código em outros processos](attack-surface-reduction.md#block-office-applications-from-injecting-code-into-other-processes)
 * [Bloquear JavaScript ou VBScript de iniciar conteúdo executável baixado](attack-surface-reduction.md#block-javascript-or-vbscript-from-launching-downloaded-executable-content)
 * [Bloquear a execução de scripts potencialmente ofuscados](attack-surface-reduction.md#block-execution-of-potentially-obfuscated-scripts)
-* [Bloquear chamadas de API Win32 da macro do Office](attack-surface-reduction.md#block-win32-api-calls-from-office-macros)
+* [Bloquear chamadas de API Win32 de Office macro](attack-surface-reduction.md#block-win32-api-calls-from-office-macros)
 * [Usar proteção avançada contra ransomware](attack-surface-reduction.md#use-advanced-protection-against-ransomware)
-* [Bloquear o roubo de credenciais do subsistema de](attack-surface-reduction.md#block-credential-stealing-from-the-windows-local-security-authority-subsystem) autoridade de segurança local do Windows (lsass.exe)
+* [Bloquear o roubo de credenciais do subsistema Windows autoridade de segurança local](attack-surface-reduction.md#block-credential-stealing-from-the-windows-local-security-authority-subsystem) (lsass.exe)
 * [Bloquear criações de processo provenientes de comandos PSExec e WMI](attack-surface-reduction.md#block-process-creations-originating-from-psexec-and-wmi-commands)
 * [Bloquear processos não assinados e não assinados que são executados a partir do USB](attack-surface-reduction.md#block-untrusted-and-unsigned-processes-that-run-from-usb)
 * [Impedir a execução de arquivos executáveis, a menos que eles atendem a uma prevalência, idade ou critérios de lista confiáveis](attack-surface-reduction.md#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion)
-* [Bloquear aplicativos de comunicação do Office da criação de processos filho](attack-surface-reduction.md#block-office-communication-application-from-creating-child-processes)
+* [Bloquear Office de comunicação da criação de processos filho](attack-surface-reduction.md#block-office-communication-application-from-creating-child-processes)
 * [Impedir o Adobe Reader de criar processos filho](attack-surface-reduction.md#block-adobe-reader-from-creating-child-processes)
 * [Bloquear a persistência por meio da assinatura de evento WMI](attack-surface-reduction.md#block-persistence-through-wmi-event-subscription)
 
@@ -145,7 +143,7 @@ Depende da regra. A maioria das regras asR abrange o comportamento de Microsoft 
 
 ## <a name="does-asr-support-third-party-security-solutions"></a>O ASR oferece suporte a soluções de segurança de terceiros?
 
-O ASR usa o Microsoft Defender Antivírus para bloquear aplicativos. Não é possível configurar o ASR para usar outra solução de segurança para bloqueio no momento.
+ASR usa Microsoft Defender Antivírus para bloquear aplicativos. Não é possível configurar o ASR para usar outra solução de segurança para bloqueio no momento.
 
 ## <a name="i-have-an-e5-license-and-enabled-some-asr-rules-in-conjunction-with-defender-for-endpoint-is-it-possible-for-an-asr-event-to-not-show-up-at-all-in-defender-for-endpoints-event-timeline"></a>Tenho uma licença E5 e habilitadas algumas regras ASR em conjunto com o Defender para Ponto de Extremidade. É possível um evento ASR não aparecer na linha do tempo do evento do Defender for Endpoint?
 
@@ -153,9 +151,9 @@ Sempre que uma notificação é disparada localmente por uma regra ASR, um relat
 
 ## <a name="i-applied-a-rule-using-gpo-now-when-i-try-to-check-the-indexing-options-for-the-rule-in-microsoft-outlook-i-get-a-message-stating-access-denied"></a>Apliquei uma regra usando GPO. Agora, quando tento verificar as opções de indexação da regra no Microsoft Outlook, eu receber uma mensagem informando: "Acesso negado".
 
-Tente abrir as opções de indexação diretamente do Windows 10.
+Tente abrir as opções de indexação diretamente Windows 10.
 
-1. Selecione o **ícone Pesquisar** na barra de tarefas do Windows.
+1. Selecione o **ícone Pesquisar** na barra de Windows de tarefas.
 
 1. Insira **opções de indexação** na caixa de pesquisa.
 
@@ -169,13 +167,13 @@ Essa regra se baseia em cada aplicativo com uma reputação conhecida, medida po
 
 Normalmente, a proteção na nuvem pode determinar que uma nova versão de um aplicativo é semelhante o suficiente às versões anteriores que não precisam ser reavaliadas com comprimento. No entanto, pode levar algum tempo para o aplicativo criar reputação depois de alternar versões, especialmente após uma atualização importante. Enquanto isso, você pode adicionar o aplicativo à lista de exclusões, para impedir que essa regra bloquee aplicativos importantes. Se você estiver atualizando com frequência e trabalhando com novas versões de aplicativos, pode optar por executar essa regra no modo de auditoria.
 
-## <a name="i-recently-enabled-the-asr-rule-block-credential-stealing-from-the-windows-local-security-authority-subsystem-lsassexe-and-i-am-getting-a-large-number-of-notifications-what-is-going-on"></a>Habilitada recentemente a regra ASR, Bloquei o roubo de credenciais do subsistema de autoridade de segurança *local do Windows (lsass.exe)* e estou recebendo um grande número de notificações. O que está acontecendo?
+## <a name="i-recently-enabled-the-asr-rule-block-credential-stealing-from-the-windows-local-security-authority-subsystem-lsassexe-and-i-am-getting-a-large-number-of-notifications-what-is-going-on"></a>Habilitada recentemente a regra ASR Windows, bloquei o roubo de credenciais do subsistema de autoridade de segurança *local (lsass.exe)* e estou recebendo um grande número de notificações. O que está acontecendo?
 
-Uma notificação gerada por essa regra não indica necessariamente atividade mal-intencionada; no entanto, essa regra ainda é útil para bloquear atividades mal-intencionadas, já que o malware geralmente lsass.exe para obter acesso ilícito a contas. O lsass.exe armazena credenciais de usuário na memória depois que um usuário faz logove. O Windows usa essas credenciais para validar usuários e aplicar políticas de segurança locais.
+Uma notificação gerada por essa regra não indica necessariamente atividade mal-intencionada; no entanto, essa regra ainda é útil para bloquear atividades mal-intencionadas, já que o malware geralmente lsass.exe para obter acesso ilícito a contas. O lsass.exe armazena credenciais de usuário na memória depois que um usuário faz logove. Windows usa essas credenciais para validar usuários e aplicar políticas de segurança locais.
 
 Como muitos processos legítimos ao longo de um dia típico estarão chamando no lsass.exe para credenciais, essa regra pode ser especialmente barulhento. Se um aplicativo legítimo conhecido faz com que essa regra gere um número excessivo de notificações, você pode adicioná-la à lista de exclusão. A maioria das outras regras ASR gerará um número relativamente menor de notificações, em comparação com essa, já que chamar o lsass.exe é típico do funcionamento normal de muitos aplicativos.
 
-## <a name="is-it-a-good-idea-to-enable-the-rule-block-credential-stealing-from-the-windows-local-security-authority-subsystem-lsassexe-alongside-lsa-protection"></a>É uma boa ideia habilitar a regra, bloquear o roubo de credenciais do subsistema de autoridade de segurança *local do Windows (lsass.exe)*, juntamente com a proteção LSA?
+## <a name="is-it-a-good-idea-to-enable-the-rule-block-credential-stealing-from-the-windows-local-security-authority-subsystem-lsassexe-alongside-lsa-protection"></a>É uma boa ideia habilitar a regra, bloquear o roubo de credenciais do subsistema Windows autoridade de segurança *local (lsass.exe),* juntamente com a proteção LSA?
 
 Habilitar essa regra não fornecerá proteção adicional se você também tiver a [proteção LSA](https://docs.microsoft.com/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection#BKMK_HowToConfigure) habilitada. Tanto a regra quanto a proteção LSA funcionam da mesma maneira, portanto, ter ambos em execução ao mesmo tempo seria redundante. No entanto, às vezes, talvez você não consiga habilitar a proteção LSA. Nesses casos, você pode habilitar essa regra para fornecer proteção equivalente contra malwares destinados lsass.exe.
 
@@ -186,3 +184,5 @@ Habilitar essa regra não fornecerá proteção adicional se você também tiver
 * [Personalizar regras da redução da superfície de ataque](customize-attack-surface-reduction.md)
 * [Habilitar regras da redução da superfície de ataque](enable-attack-surface-reduction.md)
 * [Compatibilidade do Microsoft Defender com outro antivírus/antimalware](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
+
+

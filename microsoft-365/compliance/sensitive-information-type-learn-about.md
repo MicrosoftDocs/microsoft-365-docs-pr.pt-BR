@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: ''
-ms.openlocfilehash: 01dd5feab17c68eed1da9d66c4310c50e90032c6
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 7d23230ebe4321f355128d1f3268e967a35a0a89
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114221"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245643"
 ---
 # <a name="learn-about-sensitive-information-types"></a>Aprenda sobre os tipos de informações confidenciais
 
@@ -36,9 +36,9 @@ Os tipos de informações confidenciais são classificadores baseados em padrão
 ## <a name="sensitive-information-types-are-used-in"></a>Tipos de informações confidenciais são usados em
 
 - [Políticas de prevenção contra perda de dados](dlp-learn-about-dlp.md) 
-- [Rótulos de confidencialidade](sensitivity-labels.md)
+- [Rótulos de confidencialidade ](sensitivity-labels.md)
 - [Rótulos de retenção](retention.md)
-- [Gerenciamento de risco interno](insider-risk-management.md)
+- [Gerenciamento de riscos insider](insider-risk-management.md)
 - [Conformidade em comunicações](communication-compliance.md)
 - [Políticas de rotulagem automática](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps)
 
@@ -158,5 +158,7 @@ Para criar tipos de informações confidenciais personalizadas no Centro de Conf
 - [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
 - [Criar um tipo de informação confidencial personalizado](create-a-custom-sensitive-information-type.md)
 - [Criar um tipo personalizado de informações confidenciais no PowerShell](create-a-custom-sensitive-information-type-in-scc-powershell.md)
+
+Para saber como usar tipos de informações confidenciais para estar em conformidade com os regulamentos de privacidade de dados, consulte [Deploy information protection for data privacy regulations with Microsoft 365](../solutions/information-protection-deploy.md) (aka.ms/m365dataprivacy).
 
 <!-- fwlink for this topic https://go.microsoft.com/fwlink/?linkid=2135644-->

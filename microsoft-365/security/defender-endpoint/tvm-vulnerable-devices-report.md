@@ -1,5 +1,5 @@
 ---
-title: Relatório de dispositivos vulneráveis - gerenciamento de ameaças e vulnerabilidades
+title: Relatório de dispositivos vulneráveis - Gerenciamento de Ameaças e Vulnerabilidades
 description: Um relatório mostrando tendências de dispositivos vulneráveis e estatísticas atuais. O objetivo é que você entenda o hálito e o escopo da exposição do dispositivo.
 keywords: Microsoft Defender para dispositivos vulneráveis do Endpoint-tvm, Microsoft Defender para Ponto de Extremidade, tvm, reduzir a exposição de vulnerabilidades & ameaças, reduzir a ameaça e a vulnerabilidade, monitorar a configuração de segurança
 search.product: eADQiWindows 10XVcnh
@@ -18,35 +18,35 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4b2b581d570bd0924970a845c66a599495ff9829
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 355561936642b1fa38228bfa07ad59269c48d817
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933704"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245475"
 ---
-# <a name="vulnerable-devices-report---threat-and-vulnerability-management"></a>Relatório de dispositivos vulneráveis - gerenciamento de ameaças e vulnerabilidades
+# <a name="vulnerable-devices-report---threat-and-vulnerability-management"></a>Relatório de dispositivos vulneráveis - Gerenciamento de Ameaças e Vulnerabilidades
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Ameaça e Gerenciamento de Vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
-O relatório mostra gráficos e gráficos de barras com tendências de dispositivos vulneráveis e estatísticas atuais. O objetivo é que você entenda o hálito e o escopo da exposição do dispositivo. 
+O relatório mostra gráficos e gráficos de barras com tendências de dispositivos vulneráveis e estatísticas atuais. O objetivo é que você entenda o hálito e o escopo da exposição do dispositivo.
 
-Acesse o relatório no Centro de Segurança do Microsoft Defender acessando **Relatórios > dispositivos vulneráveis**
+Acesse o relatório na Central de Segurança do Microsoft Defender acessando **Relatórios > dispositivos vulneráveis**
 
 Há duas colunas:
 
 - Tendências (com o tempo). Pode mostrar os últimos 30 dias, 3 meses, 6 meses ou um intervalo de datas personalizado.
 - Hoje (informações atuais)
 
-**Filtro**: Você pode filtrar os dados por níveis de gravidade de vulnerabilidade, disponibilidade de exploração, idade da vulnerabilidade, plataforma do sistema operacional, versão do Windows 10 ou grupo de dispositivos.
+**Filtro**: Você pode filtrar os dados por níveis de gravidade de vulnerabilidade, disponibilidade de exploração, idade da vulnerabilidade, plataforma do sistema operacional, Windows 10 versão ou grupo de dispositivos.
 
 **Detalhar**: se houver uma visão que você deseja explorar mais, selecione o gráfico de barras relevante para exibir uma lista filtrada de dispositivos na página Inventário de dispositivos. A partir daí, você pode exportar a lista.
 
@@ -74,13 +74,13 @@ O número de dispositivos em cada sistema operacional que são expostos devido a
 
 ![Um gráfico de dispositivos vulneráveis atuais pela plataforma do sistema operacional e um gráfico mostrando dispositivos vulneráveis por plataformas do sistema operacional ao longo do tempo.](images/tvm-report-os.png)
 
-## <a name="vulnerable-devices-by-windows-10-version-graphs"></a>Dispositivos vulneráveis por gráficos de versão do Windows 10
+## <a name="vulnerable-devices-by-windows-10-version-graphs"></a>Dispositivos vulneráveis Windows 10 gráficos de versão
 
-O número de dispositivos em cada versão do Windows 10 que são expostos devido a aplicativos ou sistema operacional vulneráveis.
+O número de dispositivos em cada Windows 10 que são expostos devido a aplicativos ou sistema operacional vulneráveis.
 
-![Um gráfico de dispositivos vulneráveis atuais pela versão do Windows 10 e um gráfico mostrando dispositivos vulneráveis pela versão do Windows 10 ao longo do tempo.](images/tvm-report-version.png)
+![Um gráfico de dispositivos vulneráveis Windows 10 versão atual e um gráfico mostrando dispositivos vulneráveis por Windows 10 versão ao longo do tempo.](images/tvm-report-version.png)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Visão geral do gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Visão geral Gerenciamento de Vulnerabilidades ameaça](next-gen-threat-and-vuln-mgt.md)
 - [Recomendações de segurança](tvm-security-recommendation.md)

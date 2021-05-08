@@ -19,12 +19,12 @@ description: Os administradores podem aprender sobre os relatórios de fluxo de 
 ms.custom: ''
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 13871908c3b09660906b9233d23495830cf31ba9
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 38beac44af191a027db722ade25ca7fd0e505d9b
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203143"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245667"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>Exibir relatórios de fluxo de emails no painel Relatórios no Centro de Conformidade & Segurança
 
@@ -35,7 +35,7 @@ ms.locfileid: "51203143"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Além dos relatórios de fluxo de emails [](mail-flow-insights-v2.md) que estão disponíveis no painel fluxo de email no Centro de Conformidade e segurança, uma variedade de relatórios de fluxo de emails adicionais estão disponíveis no painel Relatórios para ajudá-lo & a monitorar sua organização do Microsoft 365.
+Além dos relatórios de fluxo de emails [](mail-flow-insights-v2.md) que estão disponíveis no painel de fluxo de email no Centro de Conformidade e segurança, uma variedade de relatórios de fluxo de emails adicionais estão disponíveis no painel Relatórios para ajudá-lo a monitorar sua organização Microsoft 365. &
 
 Se você tiver as [permissões](#what-permissions-are-needed-to-view-these-reports)necessárias, poderá exibir esses relatórios no Centro de Conformidade e Segurança [&](https://protection.office.com) indo para **Painel de** \> **Relatórios.** Para ir diretamente para o painel Relatórios, abra <https://protection.office.com/insightdashboard> .
 
@@ -95,29 +95,29 @@ Se você clicar **em Filtros** em um exibição de tabela de detalhes, poderá e
 
 Para voltar à exibição de relatório, clique em **Exibir relatório**.
 
-## <a name="exchange-transport-rule-report"></a>Relatório de regra de transporte do Exchange
+## <a name="exchange-transport-rule-report"></a>Exchange relatório de regra de transporte
 
-O **relatório de regra de transporte** do Exchange mostra o efeito das regras de fluxo de emails (também conhecidas como regras de transporte) em mensagens de entrada e saída em sua organização.
+O **Exchange** de regra de transporte mostra o efeito das regras de fluxo de emails (também conhecidas como regras de transporte) em mensagens de entrada e saída em sua organização.
 
-Para exibir o relatório, abra o [Centro](https://protection.office.com)de  Conformidade & segurança, vá para Painel de Relatórios \>  e selecione Regra de Transporte **do Exchange.** Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ETRRuleReport> .
+Para exibir o relatório, abra o [Centro](https://protection.office.com)de  Conformidade & Segurança, vá para Painel de Relatórios e \>  selecione Exchange Regra **de Transporte.** Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ETRRuleReport> .
 
-![Widget de regra de transporte do Exchange no painel Relatórios](../../media/transport-rule-report-widget.png)
+![Exchange de regra de transporte no painel Relatórios](../../media/transport-rule-report-widget.png)
 
-### <a name="report-view-for-the-exchange-transport-rule-report"></a>Exibição de relatório para o relatório de regra de transporte do Exchange
+### <a name="report-view-for-the-exchange-transport-rule-report"></a>Exibição de relatório para o relatório Exchange regra de transporte
 
 Os gráficos a seguir estão disponíveis no relatório:
 
-- **Exibir dados por: Regras de transporte do** \> Exchange **Break down by: Direction**: This chart shows the number of **Inbound** and **Outbound** messages that were affected by transport rules.
+- **Exibir dados por: Exchange de transporte** \> **Break down by: Direction**: This chart shows the number of **Inbound** and **Outbound** messages that were affected by transport rules.
 
-- **Exibir dados por: Regras de transporte do** \> Exchange **Break down by: Severity**: This chart shows the number of **High severity** and **Medium severity**, and **Low severity** messages. Você definirá o nível de gravidade como uma ação na regra (**Audite essa** regra com nível de gravidade ou _SetAuditSeverity_). Para obter mais informações, consulte [Ações de regra de fluxo de email no Exchange Online](//Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
+- **Exibir dados por: Exchange de transporte** \> **Break down by: Severity**: This chart shows the number of **High severity** and **Medium severity**, and **Low severity** messages. Você definirá o nível de gravidade como uma ação na regra (**Audite essa** regra com nível de gravidade ou _SetAuditSeverity_). Para obter mais informações, consulte [Ações de regra de fluxo de email em Exchange Online](//Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
-- **Exibir dados por: regras de transporte do Exchange** \> DLP **Break down by: Direction**: This chart shows the number of **Inbound** and **Outbound** messages that were affected by data loss prevention (DLP) transport rules. Você pode refinar ainda mais o gráfico selecionando as seguintes opções:
+- **Exibir dados por: DLP Exchange de transporte** \> **Break down by: Direction**: This chart shows the number of **Inbound** and **Outbound** messages that were affected by data loss prevention (DLP) transport rules. Você pode refinar ainda mais o gráfico selecionando as seguintes opções:
 
   - **Mostrar dados para: Todas as regras de transporte de DLP**
   - **Mostrar dados para: usuários comprometidos**
   - **Mostrar dados para: Baixo volume de conteúdo detectado na Lei Patriot Dos EUA**
 
-- **Exibir dados por: regras de transporte do Exchange** \> DLP **Break down by: Direction**: This view shows the number of **High severity** and **Medium severity**, and **Low severity** messages that were affected by DLP transport rules. Você pode refinar ainda mais o gráfico selecionando as seguintes opções:
+- **Exibir dados por: DLP Exchange de transporte** \> **Break down by: Direction**: This view shows the number of **High severity** and **Medium severity**, and **Low severity** messages that were affected by DLP transport rules. Você pode refinar ainda mais o gráfico selecionando as seguintes opções:
 
   - **Mostrar dados para: Todas as regras de transporte de DLP**
   - **Mostrar dados para: usuários comprometidos**
@@ -129,13 +129,13 @@ Se você clicar **em Filtros** em um exibição de relatório, poderá modificar
 - Valores de direção
 - Valores de severidade
 
-![Exibição de relatório no relatório de regra de transporte do Exchange](../../media/transport-rule-report-report-view.png)
+![Exibir relatório no relatório Exchange regra de transporte](../../media/transport-rule-report-report-view.png)
 
-### <a name="details-table-view-for-the-exchange-transport-rule-report"></a>Exibição de tabela de detalhes para o relatório de regra de transporte do Exchange
+### <a name="details-table-view-for-the-exchange-transport-rule-report"></a>Exibição de tabela de detalhes para o relatório Exchange regra de transporte
 
 Se você clicar **em Exibir tabela de** detalhes, as informações mostradas dependerão do gráfico que você estava olhando:
 
-- **Exibir dados por: Regras de Transporte do Exchange**:
+- **Exibir dados por: Exchange Regras de Transporte**:
 
   - **Date**
   - **Regra de transporte**
@@ -145,10 +145,10 @@ Se você clicar **em Exibir tabela de** detalhes, as informações mostradas dep
   - **Gravidade**
   - **Direção**
 
-- **Exibir dados por: regras de transporte do Exchange DLP:**
+- **Exibir dados por: DLP Exchange de transporte**:
 
   - **Date**
-  - **Política de DLP**
+  - **Política DLP**
   - **Regra de transporte**
   - **Assunto**
   - **Endereço do remetente**.
@@ -166,7 +166,7 @@ Para voltar à exibição de relatório, clique em **Exibir relatório**.
 
 ## <a name="forwarding-report"></a>Relatório de encaminhamento
 
-O **relatório de encaminhamento** mostra as mensagens encaminhadas automaticamente para domínios externos de caixas de correio do Exchange Online. As mensagens encaminhadas podem representar um risco de segurança ou conformidade e podem indicar uma conta comprometida.
+O **relatório de encaminhamento** mostra as mensagens encaminhadas automaticamente da sua organização para domínios externos Exchange Online caixas de correio. As mensagens encaminhadas podem representar um risco de segurança ou conformidade e podem indicar uma conta comprometida.
 
 Para exibir o relatório, abra o [Centro](https://protection.office.com)de  Conformidade & Segurança, vá para Painel de \>  Relatórios e selecione Relatório **de Encaminhamento.** Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=MailFlowForwarding> .
 
@@ -214,7 +214,7 @@ Para voltar à exibição de relatórios, clique em **Exibir relatório**.
 
 ## <a name="mailflow-status-report"></a>Relatório de status de fluxo de emails
 
-O **relatório de status de fluxo** de emails é semelhante ao relatório de [email](#sent-and-received-email-report)Enviado e recebido, com informações adicionais sobre emails permitidos ou bloqueados na borda. Este é o único relatório que contém informações de proteção de borda e mostra a quantos emails são bloqueados antes de serem permitidos no serviço para avaliação pela Proteção do Exchange Online (EOP). É importante entender que, se uma mensagem for enviada a cinco destinatários, a contaremos como cinco mensagens diferentes e não uma mensagem.
+O **relatório de status de fluxo** de emails é semelhante ao relatório de [email](#sent-and-received-email-report)Enviado e recebido, com informações adicionais sobre emails permitidos ou bloqueados na borda. Este é o único relatório que contém informações de proteção de borda e mostra a quantos emails são bloqueados antes de serem permitidos no serviço para avaliação por Proteção do Exchange Online (EOP). É importante entender que, se uma mensagem for enviada a cinco destinatários, a contaremos como cinco mensagens diferentes e não uma mensagem.
 Para exibir o relatório, abra o [Centro](https://protection.office.com)de  Conformidade & segurança, vá para Painel de Relatórios e \>  selecione Relatório de status de fluxo **de emails.** Para ir diretamente para o relatório de **status de fluxo de email**, abra <https://protection.office.com/mailflowStatusReport> .
 
 ![Widget de relatório de status de fluxo de emails no painel Relatórios](../../media/mail-flow-status-report-widget.png)
@@ -264,9 +264,9 @@ Se você clicar **em Escolher uma categoria para obter** mais detalhes, você po
 
 Para a exibição de detalhes, você só pode exportar dados por um dia. Portanto, se você quiser exportar dados por 7 dias, precisará fazer 7 ações de exportação diferentes.
 
-Cada arquivo .csv exportado é limitado a 150.000 linhas. Se os dados desse dia contiver mais de 150.000 linhas, vários arquivos .csv serão criados.
+Cada arquivo .csv é limitado a 150.000 linhas. Se os dados desse dia contiver mais de 150.000 linhas, vários arquivos .csv serão criados.
 
-![Type view in the Mailflow status report ](../../media/mail-flow-status-report-type-view.png)
+![Type view in the Mailflow status report](../../media/mail-flow-status-report-type-view.png)
 
 ### <a name="direction-view-for-the-mailflow-status-report"></a>Exibição de direção para o relatório de status de fluxo de emails
 
@@ -284,9 +284,9 @@ A **opção Escolher uma categoria para obter** mais detalhes sobre as seleçõe
 
 Para a exibição de detalhes, você só pode exportar dados por um dia. Portanto, se você quiser exportar dados por 7 dias, precisará fazer 7 ações de exportação diferentes.
 
-Cada arquivo .csv exportado é limitado a 150.000 linhas. Se os dados desse dia contiver mais de 150.000 linhas, vários arquivos .csv serão criados.
+Cada arquivo .csv é limitado a 150.000 linhas. Se os dados desse dia contiver mais de 150.000 linhas, vários arquivos .csv serão criados.
 
-![Exibição de direção no relatório de status de fluxo de emails ](../../media/mail-flow-status-report-direction-view.png)
+![Exibição de direção no relatório de status de fluxo de emails](../../media/mail-flow-status-report-direction-view.png)
 
 ### <a name="funnel-view-for-the-mailflow-status-report"></a>Exibição de funil para o relatório de status de fluxo de emails
 
@@ -319,7 +319,7 @@ Este gráfico mostra a contagem de emails organizada por:
 
 <sup>1</sup> Defender para Office 365 somente
 
-Para exibir o email filtrado pelo EOP ou pelo Defender para Office 365 separadamente, clique no valor na legenda do gráfico.
+Para exibir o email filtrado por EOP ou Defender Office 365 separadamente, clique no valor na legenda do gráfico.
 
 A tabela de dados contém as seguintes informações, mostradas na ordem de data decrescente:
 
@@ -339,8 +339,8 @@ A tabela de dados contém as seguintes informações, mostradas na ordem de data
   - **Representação do** usuário : Mensagens filtradas devido a uma tentativa de representar um usuário (remetente de mensagem) definido nas configurações de proteção de representação de uma política anti-phishing.
   - **Representação de domínio**: Mensagens filtradas devido a uma tentativa de representar um domínio definido nas configurações de proteção de representação de uma política anti-phishing.
 - **Detonação de arquivo e URL (Defender para Office 365)**:
-  - **Detonação de** arquivo : mensagens filtradas por uma política de Anexos Seguros.
-  - **Detonação de URL**: Mensagem filtrada por uma política de Links Seguros.
+  - **Detonação de** arquivo : Mensagens filtradas por uma política Cofre Anexos.
+  - **Detonação de URL**: Mensagem filtrada por uma política Cofre Links.
 - **Proteção pós-entrega e ZAP (ATP) ou ZAP (EOP)**: ZAP indica limpeza automática de zero hora.
 
 Se você selecionar uma linha na tabela de dados, uma nova divisão das contagens de email será mostrada no sobrevoo.
@@ -354,9 +354,9 @@ Depois de clicar **em Exportar** **em Opções,** selecione um dos seguintes val
 
 Em **Data**, escolha um intervalo e clique em **Aplicar**. Os dados dos filtros atuais serão exportados para um arquivo .csv.
 
-Cada arquivo .csv exportado é limitado a 150.000 linhas. Se os dados contiver mais de 150.000 linhas, vários arquivos .csv serão criados.
+Cada arquivo .csv é limitado a 150.000 linhas. Se os dados contiver mais de 150.000 linhas, vários arquivos .csv serão criados.
 
- ![Exibição de funil no relatório de status de fluxo de emails ](../../media/mail-flow-status-report-funnel-view.png)
+ ![Exibição de funil no relatório de status de fluxo de emails](../../media/mail-flow-status-report-funnel-view.png)
 
 ### <a name="tech-view-for-the-mailflow-status-report"></a>Exibição técnica do relatório de status mailflow
 
@@ -380,13 +380,13 @@ Este gráfico mostra mensagens organizadas nas seguintes categorias:
 
 - **Total de emails**
 - **Permitir borda** e **Borda filtrada**
-- **Não malware,** **detecção de anexos seguros,** <sup>\*</sup> detecção de mecanismo **anti-malware** e **mensagens de regra**
+- **Não malware,** **Cofre de anexos,** <sup>\*</sup> detecção de mecanismo **anti-malware** e **mensagens de regra**
 - **Não phish**, **falha de DMARC,** detecção de **representação,** detecção **de spoof** e **detecção de phishing**
 - **Nenhuma detecção com detonação de URL** e detecção **de detonação de URL**<sup>\*</sup>
 - **Não spam** e  **spam**
-- **Email não mal-intencionado,** **detecção de Links Seguros** e <sup>\*</sup> **ZAP**
+- **Email não mal-intencionado,** **Cofre de links** e <sup>\*</sup> **ZAP**
 
-<sup>\*</sup> Defender para Office 365
+<sup>\*</sup>Defender para Office 365
 
 Ao passar o mouse sobre uma categoria no gráfico, você pode ver o número de mensagens nessa categoria.
 
@@ -395,14 +395,14 @@ A tabela de dados contém as seguintes informações, mostradas na ordem de data
 - **Date**
 - **Total de emails**
 - **Borda filtrada**
-- **Mecanismo anti-malware, Anexos Seguros, regra filtrada**:
+- **Mecanismo anti-malware, Cofre anexos, regra filtrada**:
   - **Regra filtrada**: Mensagens filtradas devido a regras de fluxo de emails (também conhecidas como regras de transporte).
 - **DMARC, representação, spoof, phish filtered**:
   - **DMARC**: Mensagens filtradas devido à falha da mensagem em sua verificação de autenticação DMARC.
 - **Detecção de detonação de URL**
 - **Anti-spam filtrado**
 - **ZAP removido**
-- **Detecção por Links Seguros**
+- **Detecção por Cofre Links**
 
 Se você selecionar uma linha na tabela de dados, uma nova divisão das contagens de email será mostrada no sobrevoo.
 
@@ -415,9 +415,9 @@ Ao clicar em **Exportar**, em **Opções,** você pode selecionar um dos seguint
 
 Em **Data**, escolha um intervalo e clique em **Aplicar**. Os dados dos filtros atuais serão exportados para um arquivo .csv.
 
-Cada arquivo .csv exportado é limitado a 150.000 linhas. Se os dados contiver mais de 150.000 linhas, vários arquivos .csv serão criados.
+Cada arquivo .csv é limitado a 150.000 linhas. Se os dados contiver mais de 150.000 linhas, vários arquivos .csv serão criados.
 
- ![Exibição técnica no relatório de status do fluxo de mensagens ](../../media/mail-flow-status-report-Tech-view.png)
+ ![Exibição técnica no relatório de status do fluxo de mensagens](../../media/mail-flow-status-report-Tech-view.png)
 
 ## <a name="sent-and-received-email-report"></a>Relatório de email enviado e recebido
 

@@ -1,6 +1,6 @@
 ---
 title: Modelos de arquitetura de nuvem da Microsoft - planejamento de recursos corporativos
-description: Esses cartazes de arquitetura de nuvem da Microsoft dão informações sobre serviços de nuvem da Microsoft, como o Azure e o Office 365.
+description: Esses cartazes de arquitetura de nuvem da Microsoft dão informações sobre serviços de nuvem da Microsoft, como o Azure e Office 365.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -13,16 +13,16 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: 61d7f3d805bf43fca21dd125e37b179e6284efc9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: dc9881bf869ce013a2ff913baa97f9b7d3de9bcc
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904691"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245811"
 ---
 # <a name="microsoft-cloud-for-enterprise-architects-illustrations"></a>Microsoft cloud para ilustrações de arquitetos de empresas
 
-Esses cartazes de arquitetura de nuvem dão informações sobre serviços de nuvem da Microsoft, incluindo o Microsoft 365, o Azure Active Directory (Azure AD), o Microsoft Intune, o Microsoft Dynamics 365 e soluções híbridas no local e na nuvem. 
+Esses cartazes de arquitetura de nuvem dão informações sobre serviços de nuvem da Microsoft, incluindo Microsoft 365, Azure Active Directory (Azure AD), Microsoft Intune, Microsoft Dynamics 365 e soluções híbridas no local e na nuvem. 
 
 Os tomadores de decisão e arquitetos de TI podem usar esses recursos para determinar as soluções ideais para suas cargas de trabalho e para tomar decisões sobre os principais componentes de infraestrutura, como rede, identidade e segurança.
 
@@ -75,10 +75,9 @@ What IT architects need to know about security in Microsoft cloud services and p
   
 |**Item**|**Description**|
 |:-----|:-----|
-|[![Poster for Microsoft cloud security model](../media/solutions-architecture-center/msft-cloud-security-model-thumb.png)          ](https://www.microsoft.com/download/details.aspx?id=48121) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=842070)  \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=842071)  \| [More languages](https://www.microsoft.com/download/details.aspx?id=48121) <br/>Updated December 2018 | This model contains: <ul><li>Microsoft's role in providing secure services and platforms</li><li>Customer responsibilities to mitigate security risks</li><li>Top security certifications </li><li>Security offerings provided by Microsoft consulting services </ul><br/>|
+|[![Poster for Microsoft cloud security model](../media/solutions-architecture-center/msft-cloud-security-model-thumb.png)](https://www.microsoft.com/download/details.aspx?id=48121) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=842070)  \| <br/>Updated April 2021 | This model contains: <ul><li>Microsoft and customer security responsibilities</li><li>Identity and device access</li><li>Threat protection</li><li>Information protection </ul><br/>|
 
 --> 
-
 
 <a name="attacks"></a>
 ### Ataques comuns e recursos da Microsoft que protegem sua organização Saiba mais sobre os ataques cibernéticos mais comuns e como a Microsoft pode ajudar sua organização em cada estágio de um ataque. 

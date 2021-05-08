@@ -1,6 +1,6 @@
 ---
 title: Microsoft Secure Score
-description: Descreve a Pontuação Segura da Microsoft no centro de segurança do Microsoft 365, como melhorar sua postura de segurança e o que os administradores de segurança podem esperar.
+description: Descreve a Pontuação Segura da Microsoft no centro de segurança Microsoft 365, como melhorar sua postura de segurança e o que os administradores de segurança podem esperar.
 keywords: microsoft secure score, secure score, office 365 secure score, microsoft security score, microsoft 365 security center, improvement actions
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -21,20 +21,20 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 19b83fe7dd733bb8a0668039d4df2b692a398ad4
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 4a2c220cab15751671b9b38c3bb2fda3db12c9e1
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570458"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245367"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-O Microsoft Secure Score é uma medição da postura de segurança de uma organização, com um número maior indicando mais ações de melhoria adotadas. Ele pode ser encontrado no centro de segurança do https://security.microsoft.com/securescore [Microsoft 365.](overview-security-center.md)
+O Microsoft Secure Score é uma medição da postura de segurança de uma organização, com um número maior indicando mais ações de melhoria adotadas. Ele pode ser encontrado no https://security.microsoft.com/securescore centro de Microsoft 365 [segurança](overview-security-center.md).
 
-Seguir as recomendações do Secure Score pode proteger sua organização contra ameaças. Em um painel centralizado no centro de segurança do Microsoft 365, as organizações podem monitorar e trabalhar na segurança de suas identidades, aplicativos e dispositivos do Microsoft 365.
+Seguir as recomendações do Secure Score pode proteger sua organização contra ameaças. Em um painel centralizado no centro de segurança Microsoft 365, as organizações podem monitorar e trabalhar na segurança de suas identidades, aplicativos e dispositivos Microsoft 365 segurança.
 
 O Secure Core ajuda as organizações a:  
 
@@ -44,7 +44,7 @@ O Secure Core ajuda as organizações a:
 
 As organizações têm acesso a visualizações robustas de métricas e tendências, integração com outros produtos da Microsoft, comparação de pontuação com organizações semelhantes e muito mais. A pontuação também pode refletir quando soluções de terceiros abordaram ações recomendadas.
 
-![Homepage de Pontuação Segura](../../media/secure-score/secure-score-homepage-new.png)
+![Homepage de Pontuação Segura](../../media/secure-score/secure-score-home-page.png)
 
 ## <a name="how-it-works"></a>Como funciona
 
@@ -77,18 +77,18 @@ Por exemplo, uma ação de melhoria afirma que você tem 10 pontos protegendo to
 
 Atualmente, há recomendações para os seguintes produtos:
 
-- Microsoft 365 (incluindo o Exchange Online)
+- Microsoft 365 (incluindo Exchange Online)
 - Azure Active Directory
 - Microsoft Defender para Ponto de Extremidade
 - Microsoft Defender para Identidade?
 - Segurança no Aplicativo na Nuvem
 - Microsoft Teams
 
-As recomendações para outros produtos de segurança estão chegando em breve. As recomendações não abrangem todas as superfícies de ataque associadas a cada produto, mas são uma boa linha de base. Você também pode marcar as ações de melhoria como cobertas por terceiros ou mitigação alternativa.
+Recomendações outros produtos de segurança chegarão em breve. As recomendações não abrangem todas as superfícies de ataque associadas a cada produto, mas são uma boa linha de base. Você também pode marcar as ações de melhoria como cobertas por terceiros ou mitigação alternativa.
 
 ### <a name="security-defaults"></a>Padrões de segurança
 
-O Microsoft Secure Score atualizou as ações de melhoria para dar suporte aos padrões de segurança no [Azure Active Directory](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults), o que facilita a proteção da sua organização com configurações de segurança pré-configuradas para ataques comuns.
+O Microsoft Secure Score atualizou as ações de melhoria para dar suporte aos padrões de segurança [no Azure Active Directory](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults), o que facilita a proteção da sua organização com configurações de segurança pré-configuradas para ataques comuns.
 
 Se você ativar os padrões de segurança, você receberá pontos completos pelas seguintes ações de melhoria:
 
@@ -101,7 +101,7 @@ Se você ativar os padrões de segurança, você receberá pontos completos pela
 
 ## <a name="required-permissions"></a>Permissões obrigatórias
 
-Para ter permissão para acessar a Pontuação Segura da Microsoft, você deve ter uma das seguintes funções no Azure Active Directory.
+Para ter permissão para acessar a Pontuação Segura da Microsoft, você deve ter uma das seguintes funções em Azure Active Directory.
 
 ### <a name="read-and-write-roles"></a>Funções de leitura e gravação
 

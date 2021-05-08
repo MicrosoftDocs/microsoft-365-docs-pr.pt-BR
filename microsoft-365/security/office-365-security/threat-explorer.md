@@ -19,12 +19,12 @@ description: Use as detecções do Explorer e em tempo real no Centro de Conform
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c6bea6cb60579263515d21e159c4032fe4281cad
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 810b5c99aa239f295fd930c1d13a6a817012b18b
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52024176"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245559"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Explorador de Ameaças e Detecções em tempo real
 
@@ -32,13 +32,13 @@ ms.locfileid: "52024176"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Se a sua organização tiver o [Microsoft Defender para Office 365](defender-for-office-365.md)e você tiver as permissões necessárias, você terá detecções do **Explorer** ou em tempo **real** (anteriormente relatórios em tempo *real* [—](#new-features-in-threat-explorer-and-real-time-detections)consulte novidades !). [](#required-licenses-and-permissions) No Centro de Conformidade & segurança, vá para **Gerenciamento de** ameaças e escolha **Explorer** _ou_ **Detecções em tempo real.**
+Se a sua organização tiver o [Microsoft Defender](defender-for-office-365.md)para Office 365 , e você tiver as permissões [necessárias,](#required-licenses-and-permissions)você terá detecções do **Explorer** ou em tempo **real** (anteriormente relatórios em tempo *real* [—](#new-features-in-threat-explorer-and-real-time-detections)consulte novidades !). No Centro de Conformidade & segurança, vá para **Gerenciamento de** ameaças e escolha **Explorer** _ou_ **Detecções em tempo real.**
 
 <br>
 
 ****
 
-|Com o Microsoft Defender para Office 365 Plano 2, você verá:|Com o Microsoft Defender para Office 365 Plano 1, você vê:|
+|Com o Microsoft Defender para Office 365 Plano 2, você verá:|Com o Microsoft Defender para Office 365 Plano 1, consulte:|
 |---|---|
 |![Explorador de ameaças](../../media/threatmgmt-explorer.png)|![Detecções em tempo real](../../media/threatmgmt-realtimedetections.png)|
 |
@@ -49,9 +49,9 @@ As detecções do Explorer ou em tempo real ajudam sua equipe de operações de 
 
 Com este relatório, você pode:
 
-- [Consulte malware detectado pelos recursos de segurança do Microsoft 365](#see-malware-detected-in-email-by-technology)
+- [Consulte malware detectado pelos recursos Microsoft 365 segurança](#see-malware-detected-in-email-by-technology)
 - [Exibir URL de phishing e clicar em dados de veredito](#view-phishing-url-and-click-verdict-data)
-- [Inicie um processo automatizado de investigação e resposta a](#start-automated-investigation-and-response) partir de uma exibição no Explorer (Somente o Defender para o Plano 2 do Office 365)
+- [Inicie um processo automatizado de investigação e resposta a](#start-automated-investigation-and-response) partir de uma exibição no Explorer (Defender para Office 365 Plano 2 somente)
 - [Investigar emails mal-intencionados e muito mais](#more-ways-to-use-explorer-and-real-time-detections)
 
 ## <a name="improvements-to-threat-hunting-experience"></a>Melhorias na Experiência de Busca de Ameaças
@@ -71,7 +71,7 @@ A ID do alerta está disponível na URL quando você está exibindo um alerta in
 
 ### <a name="extending-the-explorer-and-real-time-detections-data-retention-and-search-limit-for-trial-tenants-from-7-to-30-days-preview"></a>Estendendo a retenção de dados do Explorer (e detecções em tempo real) e o limite de pesquisa para locatários de avaliação de 7 a 30 dias (Visualização)
 
-Como parte dessa alteração, você poderá pesquisar e filtrar dados de email por 30 dias (um aumento dos 7 dias anteriores) no Explorador de Ameaças/Detecções em tempo real para locatários de avaliação do Defender para Office P1 e P2.
+Como parte dessa alteração, você poderá pesquisar e filtrar dados de email por 30 dias (um aumento dos últimos 7 dias) no Explorador de Ameaças/Detecções em tempo real para os locatários de avaliação do Defender para Office P1 e P2.
 Isso não afeta locatários de produção para clientes P1 e P2/E5, que já têm os recursos de pesquisa e retenção de dados de 30 dias.
 
 ### <a name="updated-limits-for-export-of-records-for-threat-explorer-preview"></a>Limites atualizados para Exportação de registros para o Explorador de Ameaças (Visualização)
@@ -81,7 +81,7 @@ Como parte dessa atualização, o número de linhas para registros de email que 
 ### <a name="tags-in-threat-explorer"></a>Marcas no Explorador de Ameaças
 
 > [!NOTE]
-> O recurso de marcas de usuário está em *Visualização*, não está disponível para todos e está sujeito a alterações. Para obter informações sobre o cronograma de lançamento, confira o roteiro do Microsoft 365.
+> O recurso de marcas de usuário está em *Visualização*, não está disponível para todos e está sujeito a alterações. Para obter informações sobre o cronograma de lançamento, confira o Microsoft 365 de lançamento.
 
 As marcas de usuário identificam grupos específicos de usuários no Microsoft Defender para Office 365. Para obter mais informações sobre marcas, incluindo licenciamento e configuração, consulte [Marcas de usuário](user-tags.md).
 
@@ -179,23 +179,20 @@ No momento, vamos superfícier o local de entrega na grade de email e no sobrevo
 *Ações adicionais* foram aplicadas após a entrega do email. Eles podem incluir *ZAP*, *correção manual* (ação tomada por um Administrador, como exclusão *suave),* entrega dinâmica e *reprocessado* (para um email que foi detectado retroativamente como bom).
 
 > [!NOTE]
->
-> - Como parte das alterações pendentes, o valor "Removido por ZAP" atualmente é removido no filtro Ação de Entrega. Você terá uma maneira de pesquisar todos os emails com a tentativa ZAP por meio **de ações adicionais.**
->
-> - Haverá novos campos e valores para tecnologias **de** detecção e **ações adicionais** (especialmente para cenários ZAP). Você precisará avaliar suas consultas salvas existentes e consultas controladas para garantir que elas funcionem com os novos valores.
+> Como parte das alterações pendentes, o valor "Removido por ZAP" atualmente é removido no filtro Ação de Entrega. Você terá uma maneira de pesquisar todos os emails com a tentativa ZAP por meio **de ações adicionais.**
 
 > [!div class="mx-imgBorder"]
 > ![Ações adicionais no Explorer](../../media/Additional_Actions.png)
 
 ### <a name="system-overrides"></a>Substituições do sistema
 
-*As substituições do* sistema permitem que você faça exceções ao local de entrega pretendido de uma mensagem. Você substitui o local de entrega fornecido pelo sistema, com base nas ameaças e outras detecções identificadas pela pilha de filtragem. As substituições do sistema podem ser definidas por meio de uma política de locatário ou de usuário para entregar a mensagem conforme sugerido pela política. As substituições podem identificar a entrega não intencional de mensagens mal-intencionadas devido a lacunas de configurações, como uma política de Remetente Seguro amplamente ampla definida por um usuário. Esses valores de substituição podem ser:
+*As substituições do* sistema permitem que você faça exceções ao local de entrega pretendido de uma mensagem. Você substitui o local de entrega fornecido pelo sistema, com base nas ameaças e outras detecções identificadas pela pilha de filtragem. As substituições do sistema podem ser definidas por meio de uma política de locatário ou de usuário para entregar a mensagem conforme sugerido pela política. As substituições podem identificar a entrega não intencional de mensagens mal-intencionadas devido a lacunas de configurações, como uma política de Cofre Sender muito ampla definida por um usuário. Esses valores de substituição podem ser:
 
 - Permitido pela política de usuário: um usuário cria políticas no nível da caixa de correio para permitir domínios ou destinatários.
 
 - Bloqueado pela política de usuário: um usuário cria políticas no nível da caixa de email para bloquear domínios ou senders.
 
-- Permitido pela política organizacional: as equipes de segurança da organização configuram políticas ou regras de fluxo de emails do Exchange (também conhecidas como regras de transporte) para permitir que os envios e domínios para usuários em sua organização. Isso pode ser para um conjunto de usuários ou toda a organização.
+- Permitido pela política organizacional: as equipes de segurança da organização configuram políticas ou Exchange de fluxo de emails (também conhecidas como regras de transporte) para permitir que os envios e domínios para usuários em sua organização. Isso pode ser para um conjunto de usuários ou toda a organização.
 
 - Bloqueado pela política de organização: as equipes de segurança da organização configuram políticas ou regras de fluxo de emails para bloquear os envios, domínios, idiomas de mensagens ou IPs de origem para usuários em sua organização. Isso pode ser aplicado a um conjunto de usuários ou a toda a organização.
 
@@ -285,9 +282,9 @@ Você poderá exportar a lista de usuários direcionados, até um limite de 3.00
 > [!div class="mx-imgBorder"]
 > ![Principais usuários direcionados](../../media/Top_Targeted_Users.png)
 
-### <a name="exchange-transport-rules"></a>Regras de transporte do Exchange
+### <a name="exchange-transport-rules"></a>Exchange de transporte
 
-Como parte do enriquecimento de dados, você poderá ver todas as diferentes regras de transporte do Exchange (ETR) que foram aplicadas a uma mensagem. Essas informações estarão disponíveis na exibição grade Email. Para exibi-lo, selecione **Opções de** coluna na grade **e,** em seguida, Adicionar Regra de Transporte do Exchange nas opções de coluna. Ele também estará visível no **sobremenu de** Detalhes no email.
+Como parte do enriquecimento de dados, você poderá ver todas as diferentes regras de transporte Exchange (ETR) que foram aplicadas a uma mensagem. Essas informações estarão disponíveis na exibição grade Email. Para exibi-lo, selecione **Opções de** coluna na grade e **adicione Exchange Regra** de Transporte nas opções de coluna. Ele também estará visível no **sobremenu de** Detalhes no email.
 
 Você poderá ver o GUID e o nome das regras de transporte que foram aplicadas à mensagem. Você poderá pesquisar as mensagens usando o nome da regra de transporte. Esta é uma pesquisa "Contém", o que significa que você também pode fazer pesquisas parciais.
 
@@ -304,11 +301,11 @@ Você poderá ver o GUID e o nome das regras de transporte que foram aplicadas �
 > Na grade de email, sobremenos e CSV exportados, os ETRs são apresentados com um Nome/GUID, conforme mostrado abaixo.
 >
 > > [!div class="mx-imgBorder"]
-> > ![Regras de Transporte do Exchange](../../media/ETR_Details.png)
+> > ![Exchange Regras de Transporte](../../media/ETR_Details.png)
 
 ### <a name="inbound-connectors"></a>Conectores de entrada
 
-Conectores são uma coleção de instruções que personalizam como seu email flui de e para sua organização do Microsoft 365 ou Office 365. Eles permitem que você aplique quaisquer restrições ou controles de segurança. No Explorador de Ameaças, agora você pode exibir os conectores relacionados a um email e pesquisar emails usando nomes de conectores.
+Conectores são uma coleção de instruções que personalizam como seu email flui de e para sua Microsoft 365 ou Office 365 organização. Eles permitem que você aplique quaisquer restrições ou controles de segurança. No Explorador de Ameaças, agora você pode exibir os conectores relacionados a um email e pesquisar emails usando nomes de conectores.
 
 A pesquisa por conectores é "contém" na natureza, o que significa que pesquisas parciais de palavra-chave também devem funcionar. Na exibição de grade principal, no sobremenu de Detalhes e no CSV Exportado, os conectores são mostrados no formato Nome/GUID, conforme mostrado aqui:
 
@@ -375,7 +372,7 @@ Como isso é feito? O status de entrega agora está dividido em duas colunas:
 
 |Entregue|Junked|Blocked|Substituído|
 |---|---|---|---|
-|O email foi entregue na caixa de entrada ou pasta de um usuário e o usuário pode acessá-lo.|O email foi enviado para a pasta Lixo Eletrônico ou Excluído do usuário e o usuário pode acessá-lo.|Emails que estão em quarentena, que falharam ou foram descartados. Esses emails são inacessíveis para o usuário.|O email tinha anexos mal-intencionados substituídos por arquivos .txt que afirmam que o anexo era mal-intencionado.|
+|O email foi entregue na caixa de entrada ou pasta de um usuário e o usuário pode acessá-lo.|O email foi enviado para a pasta Lixo Eletrônico ou Excluído do usuário e o usuário pode acessá-lo.|Emails que estão em quarentena, que falharam ou foram descartados. Esses emails são inacessíveis para o usuário.|O email tinha anexos mal-intencionados substituídos .txt arquivos que afirmam que o anexo era mal-intencionado.|
 |
 
 Veja o que o usuário pode ou não ver:
@@ -404,15 +401,15 @@ Veja o que o usuário pode ou não ver:
 
 A **linha do tempo de** Email é um novo recurso do Explorer que melhora a experiência de busca para administradores. Isso reduz o tempo gasto verificando locais diferentes para tentar entender o evento. Quando vários eventos ocorrem ao mesmo tempo em que um email chega, esses eventos são exibidos em um modo de exibição de linha do tempo. Alguns eventos que ocorrem com seu email após a entrega são capturados na **coluna Ação** especial. Os administradores podem combinar informações da linha do tempo com a ação especial realizada na entrega de email para obter informações sobre como suas políticas funcionam, onde o email foi finalmente roteado e, em alguns casos, qual foi a avaliação final.
 
-Para obter mais informações, consulte Investigar e correção de emails mal-intencionados que [foram entregues no Office 365](investigate-malicious-email-that-was-delivered.md).
+Para obter mais informações, [consulte Investigar e correção de emails](investigate-malicious-email-that-was-delivered.md)mal-intencionados que foram entregues Office 365 .
 
 ### <a name="export-url-click-data"></a>Exportar dados de clique de URL
 
-Agora você pode exportar relatórios para cliques de URL para o Microsoft Excel para exibir sua **ID** de mensagem de rede e clicar em **veredito**, o que ajuda a explicar de onde o tráfego de clique de URL se originou. Veja como funciona: no Gerenciamento de Ameaças na barra de início rápido do Office 365, siga esta cadeia:
+Agora você pode exportar relatórios para cliques de URL para Microsoft Excel para exibir a **ID** da mensagem de rede e clicar em **veredito**, o que ajuda a explicar de onde o tráfego de clique de URL se originou. Veja como funciona: no Gerenciamento de Ameaças na barra Office 365 de início rápido, siga esta cadeia:
 
 **Explorer** \> **Exibir Phish** \> **Cliques** \> **Principais URLs** ou **URL Principais Cliques** \> selecione qualquer registro para abrir o flyout da URL.
 
-Quando você selecionar uma URL na lista, você verá um novo botão **Exportar** no painel de sobressalto. Use este botão para mover dados para uma planilha do Excel para facilitar o relatório.
+Quando você selecionar uma URL na lista, você verá um novo botão **Exportar** no painel de sobressalto. Use este botão para mover dados para uma planilha Excel para facilitar o relatório.
 
 Siga este caminho para chegar ao mesmo local no relatório de detecções em tempo real:
 
@@ -426,7 +423,7 @@ Siga este caminho para chegar ao mesmo local no relatório de detecções em tem
 
 ## <a name="see-malware-detected-in-email-by-technology"></a>Ver malware detectado no email por tecnologia
 
-Suponha que você queira ver malware detectado em emails organizados pela tecnologia microsoft 365. Para fazer isso, use a [exibição Email > Malware](threat-explorer-views.md#email--malware) do Explorer (ou detecções em tempo real).
+Suponha que você queira ver malware detectado em emails organizados por Microsoft 365 tecnologia. Para fazer isso, use a [exibição Email > Malware](threat-explorer-views.md#email--malware) do Explorer (ou detecções em tempo real).
 
 1. No Centro de Conformidade & segurança ( ), escolha Explorador de gerenciamento de ameaças <https://protection.office.com>  \>  (ou **detecções em tempo real).** (Este exemplo usa o Explorer.)
 
@@ -451,7 +448,7 @@ O relatório é atualizado para mostrar os resultados que o malware detectou no 
 
 ## <a name="view-phishing-url-and-click-verdict-data"></a>Exibir URL de phishing e clicar em dados de veredito
 
-Suponha que você queira ver tentativas de phishing por meio de URLs por email, incluindo uma lista de URLs que foram permitidas, bloqueadas e anuladas. Para identificar URLs que foram clicadas, links [seguros](safe-links.md) devem ser configurados. Certifique-se de configurar políticas de [Links Seguros](set-up-safe-links-policies.md) para proteção de tempo de clique e registro em log de vereditos de clique por Links Seguros.
+Suponha que você queira ver tentativas de phishing por meio de URLs por email, incluindo uma lista de URLs que foram permitidas, bloqueadas e anuladas. Para identificar URLs que foram clicadas, Cofre [links](safe-links.md) devem ser configurados. Certifique-se de configurar as políticas [Cofre Links](set-up-safe-links-policies.md) para proteção de tempo de clique e registro em log de vereditos de clique por Cofre Links.
 
 Para revisar URLs de phishing em mensagens e cliques em URLs em mensagens de phishing, use a exibição [   >  **phishing**](threat-explorer-views.md#email--phish) de email do Explorer ou detecções em tempo real.
 
@@ -473,7 +470,7 @@ Para revisar URLs de phishing em mensagens e cliques em URLs em mensagens de phi
 
    - **As URLs principais** são as URLs nas mensagens que você filtreu para baixo e a ação de entrega de email conta para cada URL. Na exibição de email phishing, essa lista normalmente contém URLs legítimas. Os invasores incluem uma mistura de URLs boas e ruins em suas mensagens para tentar fazê-las entregues, mas fazem com que os links mal-intencionados pareçam mais interessantes. A tabela de URLs é classificação pela contagem total de emails, mas essa coluna está oculta para simplificar o exibição.
 
-   - **Os principais cliques** são as URLs envolvidas em Links Seguros que foram clicadas, classificação por contagem total de cliques. Esta coluna também não é exibida, para simplificar o exibição. Contagens totais por coluna indicam a contagem de vereditos de links seguros para cada URL clicada. Na exibição de email phishing, geralmente são URLs suspeitas ou mal-intencionadas. Mas a exibição pode incluir URLs que não são ameaças, mas estão em mensagens de phishing. Os cliques de URL em links não mapeados não aparecem aqui.
+   - **Os cliques principais** são os Cofre URLs empacotadas por links que foram clicadas, classificação por contagem total de cliques. Esta coluna também não é exibida, para simplificar o exibição. Contagens totais por coluna indicam Cofre links clicam em contagem de vereditos para cada URL clicada. Na exibição de email phishing, geralmente são URLs suspeitas ou mal-intencionadas. Mas a exibição pode incluir URLs que não são ameaças, mas estão em mensagens de phishing. Os cliques de URL em links não mapeados não aparecem aqui.
 
    As duas tabelas de URL mostram URLs principais em mensagens de email de phishing por ação de entrega e local. As tabelas mostram cliques de URL que foram bloqueados ou visitados apesar de um aviso, para que você possa ver quais possíveis links inválidos foram apresentados aos usuários e que o usuário clicou. A partir daqui, você pode realizar uma análise mais detalhada. Por exemplo, abaixo do gráfico, você pode ver as PRINCIPAIS URLs em mensagens de email que foram bloqueadas no ambiente da sua organização.
 
@@ -516,12 +513,12 @@ Suponha que você queira ver mensagens de email que os usuários em sua organiza
    > [!div class="mx-imgBorder"]
    > ![Phishing relatado pelo usuário](../../media/EmailUserReportedReportType.png)
 
-O relatório é atualizado para mostrar dados sobre mensagens de email relatadas por pessoas em sua organização como uma tentativa de phishing. Você pode usar essas informações para realizar análises adicionais e, se necessário, ajustar suas políticas [anti-phishing no Microsoft Defender para Office 365](configure-atp-anti-phishing-policies.md).
+O relatório é atualizado para mostrar dados sobre mensagens de email relatadas por pessoas em sua organização como uma tentativa de phishing. Você pode usar essas informações para conduzir análises adicionais e, se necessário, ajustar suas políticas [anti-phishing](configure-atp-anti-phishing-policies.md)no Microsoft Defender para Office 365 .
 
 ## <a name="start-automated-investigation-and-response"></a>Iniciar investigação e resposta automatizadas
 
 > [!NOTE]
-> Recursos automatizados de investigação e resposta estão disponíveis no *Microsoft Defender para Office 365 Plano 2* e Office *365 E5*.
+> Recursos automatizados de investigação e resposta estão disponíveis no Microsoft Defender para Office 365 *Plano 2* e *Office 365 E5*.
 
 [A investigação e a resposta automatizadas](automated-investigation-response-office.md) podem economizar tempo e esforço gastos da equipe de operações de segurança investigando e atenuando ataques cibernéticos. Além de configurar alertas que podem disparar uma playbook de segurança, você pode iniciar um processo automatizado de investigação e resposta a partir de uma exibição no Explorer. Para obter detalhes, consulte [Example: A security administrator triggers an investigation from Explorer](automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer).
 
@@ -537,10 +534,10 @@ Além dos cenários descritos neste artigo, você tem muito mais opções de rel
 
 ## <a name="required-licenses-and-permissions"></a>Licenças e permissões necessárias
 
-Você deve ter [o Microsoft Defender para Office 365](defender-for-office-365.md) para usar detecções do Explorer ou em tempo real.
+Você deve ter [o Microsoft Defender para Office 365](defender-for-office-365.md) usar detecções do Explorer ou em tempo real.
 
 - O Explorer está incluído no Defender para Office 365 Plano 2.
-- O relatório de detecções em tempo real está incluído no Defender for Office 365 Plano 1.
+- O relatório de detecções em tempo real está incluído no Defender para Office 365 Plano 1.
 - Planeje atribuir licenças para todos os usuários que devem ser protegidos pelo Defender para Office 365. As detecções do Explorer e em tempo real mostram dados de detecção para usuários licenciados.
 
 Para exibir e usar detecções do Explorer ou em tempo real, você deve ter permissões apropriadas, como as concedidas a um administrador de segurança ou leitor de segurança.
@@ -548,10 +545,10 @@ Para exibir e usar detecções do Explorer ou em tempo real, você deve ter perm
 - Para o Centro de Conformidade & segurança, você deve ter uma das seguintes funções atribuídas:
 
   - Gerenciamento de Organização
-  - Administrador de Segurança (isso pode ser atribuído no centro de administração do Azure Active Directory ( <https://aad.portal.azure.com> )
+  - Administrador de Segurança (isso pode ser atribuído no Azure Active Directory de administração ( <https://aad.portal.azure.com> )
   - Leitor de segurança
 
-- Para o Exchange Online, você deve ter uma das seguintes funções atribuídas no Centro de administração do Exchange ( <https://admin.protection.outlook.com/ecp/> ) ou [no PowerShell do Exchange Online](/powershell/exchange/exchange-online-powershell):
+- Para Exchange Online, você deve ter uma das seguintes funções atribuídas no centro de administração do Exchange ( ) ou <https://admin.protection.outlook.com/ecp/> [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell):
 
   - Gerenciamento de Organização
   - Gerenciamento de Organização Somente Exibição
@@ -565,7 +562,7 @@ Para saber mais sobre funções e permissões, consulte os seguintes recursos:
 
 ## <a name="differences-between-threat-explorer-and-real-time-detections"></a>Diferenças entre o Explorador de Ameaças e detecções em tempo real
 
-- O *relatório de detecções* em tempo real está disponível no Defender for Office 365 Plano 1. *O Explorador* de Ameaças está disponível no Defender para Office 365 Plano 2.
+- O *relatório de detecções* em tempo real está disponível no Defender para Office 365 Plano 1. *O Explorador* de Ameaças está disponível no Defender para Office 365 Plano 2.
 - O relatório de detecções em tempo real permite que você veja detecções em tempo real. O Explorador de Ameaças também faz isso, mas também fornece detalhes adicionais para um determinado ataque.
 - Uma *exibição todos os* emails está disponível no Explorador de Ameaças, mas não no relatório de detecções em tempo real.
 - Mais recursos de filtragem e ações disponíveis estão incluídos no Explorador de Ameaças. Para obter mais informações, consulte [Microsoft Defender for Office 365 Service Description: Feature availability across Defender for Office 365 plans](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).

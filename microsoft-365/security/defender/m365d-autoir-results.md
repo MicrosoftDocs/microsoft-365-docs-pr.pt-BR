@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: ca023ea49a8d92123467be640a097a72233d3198
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: b26574c85e498209f8d0233495d3fe0e44733909
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51592115"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245871"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Detalhes e resultados de uma investigação automatizada
 
@@ -35,16 +35,16 @@ ms.locfileid: "51592115"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-Com o Microsoft 365 [](m365d-autoir.md) Defender, quando uma investigação automatizada é executado, detalhes sobre essa investigação ficam disponíveis durante e após o processo de investigação automatizado. Se você tiver as [permissões necessárias](m365d-action-center.md#required-permissions-for-action-center-tasks), poderá exibir esses detalhes na exibição de detalhes da investigação. A exibição de detalhes da investigação fornece o status atualizado e a capacidade de aprovar as ações pendentes. 
+Com Microsoft 365 Defender, quando [](m365d-autoir.md) uma investigação automatizada é executado, detalhes sobre essa investigação ficam disponíveis durante e após o processo de investigação automatizado. Se você tiver as [permissões necessárias](m365d-action-center.md#required-permissions-for-action-center-tasks), poderá exibir esses detalhes na exibição de detalhes da investigação. A exibição de detalhes da investigação fornece o status atualizado e a capacidade de aprovar as ações pendentes. 
 
 ![Detalhes da investigação](../../media/mtp-air-investdetails.png)
 
 ## <a name="new-unified-investigation-page"></a>(NEW!) Página de investigação unificada
 
-A página de investigação foi atualizada recentemente para incluir informações em seus dispositivos, email e conteúdo de colaboração. A nova página de investigação unificada define um idioma comum e fornece uma experiência unificada para investigações automáticas no [Microsoft Defender para Ponto](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) de Extremidade e no Microsoft Defender para Office [365](../office-365-security/defender-for-office-365.md). Para acessar a página de investigação unificada, selecione o link na faixa amarela que você verá em:
-- Qualquer página de investigação no Centro de Conformidade e Segurança & do Office 365 ( [https://protection.office.com](https://protection.office.com) )
-- Qualquer página de investigação no Centro de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) )
-- Qualquer incidente ou experiência do Centro de Ações no centro de segurança do Microsoft 365 aprimorado ( [https://security.microsoft.com](https://security.microsoft.com) )
+A página de investigação foi atualizada recentemente para incluir informações em seus dispositivos, email e conteúdo de colaboração. A nova página de investigação unificada define um idioma comum e fornece uma experiência unificada para investigações automáticas no [Microsoft Defender para Ponto](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) de Extremidade e no Microsoft [Defender](../office-365-security/defender-for-office-365.md)para Office 365 . Para acessar a página de investigação unificada, selecione o link na faixa amarela que você verá em:
+- Qualquer página de investigação no Office 365 Segurança & Centro de Conformidade ( [https://protection.office.com](https://protection.office.com) )
+- Qualquer página de investigação no Central de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) )
+- Qualquer incidente ou experiência do Centro de Ações no centro de Microsoft 365 segurança aprimorado ( [https://security.microsoft.com](https://security.microsoft.com) )
 
 ## <a name="open-the-investigation-details-view"></a>Abrir a exibição de detalhes da investigação
 
@@ -96,12 +96,12 @@ Use o modo de exibição de detalhes da investigação para ver as atividades an
 Na exibição de detalhes da investigação, você pode ver as informações nas guias **Gráfico de Investigação**, **Alertas**, **Dispositivos**, **Identidades**, **Principais descobertas**, **Entidades**,**Log** e **Ações pendentes**, descritas na tabela a seguir.
 
 > [!NOTE]
-> As guias específicas que você vê em uma página de detalhes da investigação dependem do que sua assinatura inclui. Por exemplo, se sua assinatura não incluir o Microsoft Defender para o Plano 2 do Office 365, você não verá uma guia **Caixas de** Correio.
+> As guias específicas que você vê em uma página de detalhes da investigação dependem do que sua assinatura inclui. Por exemplo, se sua assinatura não incluir o Microsoft Defender para Office 365 Plano 2, você não verá uma guia **Caixas de** Correio.
 
 | Guia | Descrição |
 |:--------|:--------|
 | **Gráficos de investigação**   | Oferece uma representação visual da investigação. Descreve entidades e lista as ameaças encontradas, juntamente com os alertas, e se as ações estão aguardando aprovação.<br/>Você pode selecionar um item no gráfico para exibir mais detalhes. Por exemplo, selecionar **o ícone**  Evidência o leva à guia Evidências, onde você pode ver entidades detectadas e seus vereditos. |
-| **Alertas**    | Lista os alertas associados à investigação. Os alertas podem vir de recursos de proteção contra ameaças no dispositivo de um usuário, em aplicativos do Office, segurança de aplicativos na nuvem e outros recursos do Microsoft 365 Defender.|
+| **Alertas**    | Lista os alertas associados à investigação. Os alertas podem vir de recursos de proteção contra ameaças no dispositivo de um usuário, em Office aplicativos, Cloud App Security e outros recursos Microsoft 365 Defender.|
 | **Dispositivos** | Lista os dispositivos incluídos na investigação juntamente com seu nível de correção. (Os níveis de correção correspondem [ao nível de automação para grupos de dispositivos](m365d-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups).) |
 | **Caixas de correio** |Lista caixas de correio que são impactadas por ameaças detectadas.  |
 | **Usuários**  | Lista contas de usuário que são impactadas por ameaças detectadas. |

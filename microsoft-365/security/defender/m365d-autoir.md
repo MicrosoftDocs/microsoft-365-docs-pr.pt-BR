@@ -1,6 +1,6 @@
 ---
 title: Investigação e resposta automatizadas no Microsoft 365 Defender
-description: Obter uma visão geral dos recursos automatizados de investigação e resposta, também chamados de auto-recuperação, no Microsoft 365 Defender
+description: Obter uma visão geral dos recursos automatizados de investigação e resposta, também chamados de auto-recuperação, Microsoft 365 Defender
 keywords: automated, investigation, alert, trigger, action, remediation, self-healing
 search.appverid: met150
 ms.prod: m365-security
@@ -9,8 +9,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: be0423b0af8251347420d9e970dcfe10db0bb72b
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: 356d843420856c8e7ec4f00ff0f6f0781cfed6b5
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51591918"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245451"
 ---
 # <a name="automated-investigation-and-response-in-microsoft-365-defender"></a>Investigação e resposta automatizadas no Microsoft 365 Defender
 
@@ -35,7 +35,7 @@ ms.locfileid: "51591918"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-Se sua organização estiver usando [o Microsoft 365 Defender](microsoft-365-defender.md), sua equipe de operações de segurança receberá um alerta sempre que um artefato mal-intencionado ou suspeito for detectado. Devido ao fluxo aparentemente interminável de ameaças que chegam, as equipes de segurança geralmente enfrentam desafios para lidar com o alto volume de alertas. Felizmente, o Microsoft 365 Defender inclui recursos automatizados de investigação e correção (AIR) que podem ajudar sua equipe de operações de segurança a lidar com ameaças de forma mais eficiente e eficaz.
+Se sua organização estiver usando [Microsoft 365 Defender](microsoft-365-defender.md), sua equipe de operações de segurança receberá um alerta sempre que um artefato mal-intencionado ou suspeito for detectado. Devido ao fluxo aparentemente interminável de ameaças que chegam, as equipes de segurança geralmente enfrentam desafios para lidar com o alto volume de alertas. Felizmente, Microsoft 365 o Defender inclui recursos automatizados de investigação e correção (AIR) que podem ajudar sua equipe de operações de segurança a lidar com ameaças de forma mais eficiente e eficaz.
 
 Este artigo fornece uma visão geral do AIR e inclui links para as próximas etapas e recursos adicionais.
 
@@ -44,20 +44,20 @@ Este artigo fornece uma visão geral do AIR e inclui links para as próximas eta
 
 ## <a name="how-automated-investigation-and-self-healing-works"></a>Como funciona a investigação automatizada e a auto-recuperação
 
-À medida que os alertas de segurança são disparados, a equipe de operações de segurança deve procurar esses alertas e tomar medidas para proteger sua organização. Priorizar e investigar alertas pode consumir muito tempo, especialmente quando novos alertas continuam chegando enquanto uma investigação está em andamento. As equipes de operações de segurança podem se sentir sobrecarregadas pelo simples volume de ameaças que devem ser monitoradas e protegidas. Recursos automatizados de investigação e resposta, com auto-recuperação, no Microsoft 365 Defender podem ajudar.
+À medida que os alertas de segurança são disparados, a equipe de operações de segurança deve procurar esses alertas e tomar medidas para proteger sua organização. Priorizar e investigar alertas pode consumir muito tempo, especialmente quando novos alertas continuam chegando enquanto uma investigação está em andamento. As equipes de operações de segurança podem se sentir sobrecarregadas pelo simples volume de ameaças que devem ser monitoradas e protegidas. Recursos automatizados de investigação e resposta, com auto-recuperação, Microsoft 365 o Defender pode ajudar.
 
 Assista ao vídeo a seguir para ver como funciona a auto-recuperação: <p>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4BzwB]
 
-No Microsoft 365 Defender, a investigação e a resposta automatizadas com recursos de auto-recuperação funcionam em seus dispositivos, email & conteúdo e identidades.
+No Microsoft 365 Defender, a investigação e a resposta automatizadas com recursos de auto-recuperação funcionam em seus dispositivos, emails & conteúdo e identidades.
  
 > [!TIP]
 > Este artigo descreve como funciona a investigação e a resposta automatizadas. Para configurar esses recursos, consulte [Configure automated investigation and response capabilities in Microsoft 365 Defender](m365d-configure-auto-investigation-response.md).
 
 ## <a name="your-own-virtual-analyst"></a>Seu próprio analista virtual
 
-Imagine ter um analista virtual em sua equipe de operações de segurança de Camada 1 ou Camada 2. O analista virtual imita as etapas ideais que as operações de segurança poderiam executar para investigar e corrigir ameaças. O assistente virtual pode funcionar 24 horas e assumir uma carga significativa de investigações e correções de ameaças. Esse assistente virtual pode reduzir significativamente o tempo de resposta, liberando sua equipe de operações de segurança para outros projetos estratégicos importantes. Se esse cenário parece com a ficção científica, não é! Esse analista virtual faz parte do pacote do Microsoft 365 Defender e seu nome é investigação e resposta *automatizadas.*
+Imagine ter um analista virtual em sua equipe de operações de segurança de Camada 1 ou Camada 2. O analista virtual imita as etapas ideais que as operações de segurança poderiam executar para investigar e corrigir ameaças. O assistente virtual pode funcionar 24 horas e assumir uma carga significativa de investigações e correções de ameaças. Esse assistente virtual pode reduzir significativamente o tempo de resposta, liberando sua equipe de operações de segurança para outros projetos estratégicos importantes. Se esse cenário parece com a ficção científica, não é! Esse analista virtual faz parte do seu pacote Microsoft 365 Defender, e seu nome é investigação e resposta *automatizadas.*
 
 Os recursos automatizados de investigação e resposta permitem que sua equipe de operações de segurança aumente drasticamente a capacidade da sua organização de lidar com alertas e incidentes de segurança. Com a investigação e a resposta automatizadas, você pode reduzir o custo de lidar com atividades de investigação e correção e tirar o máximo do pacote de proteção contra ameaças. Os recursos automatizados de investigação e resposta ajudam sua equipe de operações de segurança:
 

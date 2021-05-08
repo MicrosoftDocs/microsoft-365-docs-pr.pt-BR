@@ -9,8 +9,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 41d8b91cbc905da982f8a344392398635f8d3632
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: 31162944f4728f2c84efbe2cd5eafbd0c70e00f6
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51591847"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245847"
 ---
 # <a name="remediation-actions-in-microsoft-365-defender"></a>Ações de correção no Microsoft 365 Defender
 
@@ -46,7 +46,7 @@ Durante e após uma investigação automatizada no Microsoft 365 Defender, as a�
 > - [Como as ameaças são remediadas em dispositivos](../defender-endpoint/automated-investigations.md)
 > - [Ações de ameaças e correção no email & conteúdo de colaboração](../office-365-security/air-remediation-actions.md#threats-and-remediation-actions)
 
-A tabela a seguir resume as ações de correção com suporte no Microsoft 365 Defender: 
+A tabela a seguir resume as ações de correção atualmente suportadas no Microsoft 365 Defender: 
 
 |Ações de correção de dispositivo (ponto de extremidade)  |Ações de correção de email  |
 |:---------|:---------|
