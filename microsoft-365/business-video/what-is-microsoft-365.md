@@ -20,12 +20,12 @@ search.appverid:
 description: Saiba mais sobre os recursos do Microsoft 365 Business Premium.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: f4c41e86f3a98c2af076a58e311aa14be79704e9
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 336d206b3853baa2bdde5d925113dc0887919da7
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580325"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245175"
 ---
 # <a name="microsoft-365-business-premium"></a>Microsoft 365 Business Premium
 
@@ -45,5 +45,7 @@ Quando você se inscreve no Microsoft 365 Business Premium, obtém todas as mesm
 | Proteja seus dados comerciais | Seus dados pessoais são protegidos em dispositivos pessoais com acesso por PIN e cópia restrita e salvamento. Você também pode adicionar proteção de informações para garantir que apenas pessoas autorizadas possam acessar informações confidenciais. |
 | Proteja seus dispositivos | Você pode proteger seus arquivos de trabalho em dispositivos restringindo o acesso móvel, como copiar e colar. Você também pode limpar seletivamente os dados corporativos dos dispositivos móveis registrados, caso eles sejam perdidos ou roubados. |
 | Recursos de segurança adicionais | Recursos avançados do Microsoft 365 Business Premium estão disponíveis para ajudá-lo a proteger sua empresa contra ameaças cibernéticas e proteger informações confidenciais. Os recursos incluem proteção avançada contra ameaças do Office 365, políticas de prevenção de perda de dados (DLP), arquivamento do Exchange Online, Proteção de Informações do Microsoft Azure e Intune. |
+
+Se você tem o Microsoft Business Premium, a maneira mais rápida para configurar a segurança e iniciar a colaborar com segurança é seguir as orientações nesta biblioteca:[Microsoft 365 para pequenas empresas e campanhas](../campaigns/index.md). Essa diretriz foi criada em parceria com a equipe do Microsoft Defendering Democracy para proteger todos os clientes de pequenas empresas contra ameaças cibernéticas iniciadas por hackers sofisticados. 
 
 Para mais detalhes, confira [Conteúdo do Microsoft 365 Business](../business/index.yml).

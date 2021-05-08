@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Microsoft Teams.
-ms.openlocfilehash: b7bc84307f0db580995e039618cb01d25d6ecd66
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: db167894f32bcc1e30054b9cc4738af300b6d704
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932854"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280794"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Saiba mais sobre retenção para o Microsoft Teams
 
@@ -163,13 +163,13 @@ No 1º dia, um usuário cria uma mensagem de chat ou canal.
 
 Resultado de retenção de exemplo se o usuário não editar ou excluir a mensagem:
 
-- 5º dia (normalmente de 1 a 7 dias após o início do período de retenção no 3º dia):
+- 5º dia (normalmente de 1 a 7 dias após o início do período de retenção no 2º dia):
     - A mensagem é movida para a pasta SubstrateHolds e permanece lá por pelo menos 1 dia, onde ainda pode ser pesquisada com as ferramentas de Descoberta Eletrônica.
 
 - 9º dia (normalmente de 1 a 7 dias após o período mínimo de 1 dia na pasta SubstrateHolds):
     - A mensagem é excluída permanentemente e não será retornada com pesquisas de Descoberta Eletrônica.
 
-Como o exemplo mostra, embora seja possível configurar uma política de retenção para excluir mensagem após somente um dia, o serviço passa por vários processos para garantir uma exclusão compatível. Como resultado, uma ação de exclusão após 1 dia pode levar 18 dias antes que a mensagem seja excluída permanentemente para não ser retornada em pesquisas de Descoberta Eletrônica.
+Como o exemplo mostra, embora seja possível configurar uma política de retenção para excluir mensagem após somente um dia, o serviço passa por vários processos para garantir uma exclusão compatível. Como resultado, uma ação de exclusão após 1 dia pode levar 16 dias antes que a mensagem seja excluída permanentemente para não ser retornada em pesquisas de Descoberta Eletrônica.
 
 ## <a name="skype-for-business-and-teams-interop-chats"></a>Chats de Interoperabilidade entre Skype for Business e Teams
 
@@ -197,7 +197,7 @@ Se o usuário tiver armazenado os arquivos no Teams, consulte a [seção equival
 
 ## <a name="limitations"></a>Limitações
 
-Estamos trabalhando continuamente para otimizar a funcionalidade de retenção no Teams. Enquanto isso, esteja ciente da seguinte limitação ao usar as políticas de retenção para mensagens de canal e chats do Teams:
+Estamos continuamente trabalhando para otimizar a funcionalidade de retenção no Teams. Enquanto isso, esteja ciente da seguinte limitação ao usar políticas de retenção para mensagens e chats de canal do Teams:
 
 - **Problema de exibição incorreto no Outlook**. Se você criar políticas de retenção para os locais do Skype ou Teams, uma dessas políticas será exibida como a política de pasta padrão quando um usuário exibir as propriedades de uma pasta de caixa de correio no cliente da área de trabalho do Outlook. Esse é um problema de exibição incorreta no Outlook e [um problema conhecido](https://support.microsoft.com/help/4491013/outlook-client-displays-teams-or-skype-for-business-retention-policies). Em vez disso, você deve ver a política de retenção de caixa de correio aplicada à pasta. A política de retenção do Skype ou Teams não é aplicada à caixa de correio do usuário.
 

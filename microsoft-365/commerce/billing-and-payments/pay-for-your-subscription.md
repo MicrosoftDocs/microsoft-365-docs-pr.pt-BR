@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,21 +13,21 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-search.appverid:
-- MET150
-ms.assetid: 734f4aab-df2d-4e9b-8cb1-691910bde216
+search.appverid: MET150
 description: Saiba quais opções de pagamento estão disponíveis para pagar pela assinatura do Microsoft 365 para empresas.
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
-- commerce
-ms.openlocfilehash: 65454dcc71645b370d2ebfc875474151c0954a3c
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+- commerce_billing
+- PPM_jmueller
+ms.date: 05/04/2021
+ms.openlocfilehash: 85fdcc0aca52b91ed34b1729f6eea805cce37ade
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244999"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280578"
 ---
 # <a name="how-to-pay-for-your-subscription"></a>Como pagar por sua assinatura
 
@@ -89,6 +90,7 @@ Se você não adicionou a forma de pagamento usada para pagar a assinatura, voc�
  **Selecione o país ou a região de fatura no menu suspenso abaixo.**
 
 > [!div class="op_single_selector"]
+>
 > - **Escolha seu país ou região**
 > - [Afeganistão](../pay/afghanistan.md)
 > - [Albânia](../pay/albania.md)
@@ -254,7 +256,7 @@ Você só poderá alterar a forma de pagamento por fatura se a sua assinatura cu
 
 Não é possível alterar automaticamente de pagamento por fatura para um método de pagamento diferente. Em vez disso, você precisa [comprar uma assinatura diferente](../try-or-buy-microsoft-365.md#buy-a-different-subscription) paga com um cartão de crédito ou débito ou conta bancária, [mover todos os usuários para a nova assinatura](../subscriptions/move-users-different-subscription.md) e, em seguida, [cancelar a assinatura antiga](../subscriptions/cancel-your-subscription.md).
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
 [Gerenciar métodos de pagamento](manage-payment-methods.md) (artigo)\
 [Ver sua conta ou fatura](view-your-bill-or-invoice.md) (artigo)\

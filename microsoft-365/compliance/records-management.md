@@ -21,18 +21,18 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Com o gerenciamento de registros no Microsoft 365, você pode aplicar seus agendamentos de retenção em um plano de arquivo que gerencia a retenção, a declaração e a disposição dos registros.
-ms.openlocfilehash: ac8e9bf2ac9ac47518788cd19a197818c13078a1
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 853303dcaffcbacfcf805b8617b836254cf31ad8
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051683"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245427"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Saiba mais sobre gerenciamento de registros no Microsoft 365
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
-Organizações de todos os tipos exigem uma solução de gerenciamento de registros para gerenciar registros reguladores, jurídicos e corporativos em seus dados corporativos. O gerenciamento de registros no Microsoft 365 ajuda a sua organização a gerenciar suas obrigações legais, oferecer a capacidade de demonstrar a conformidade com as regulamentações e aumentar a eficiência com o descarte regular de itens que não precisam mais ser mantidos, não são mais importantes ou obrigatórios para fins comerciais.
+Organizações de todos os tipos exigem uma solução de gerenciamento de registros para gerenciar registros regulatórios, jurídicos e comerciais em seus dados corporativos O gerenciamento de registros no Microsoft 365 ajuda a sua organização a gerenciar suas obrigações legais, oferecer a capacidade de demonstrar a conformidade com as regulamentações e aumentar a eficiência com o descarte regular de itens que não precisam mais ser mantidos, não são mais importantes ou obrigatórios para fins comerciais.
 
 Use os seguintes recursos para dar suporte à sua solução de gerenciamento de registros no Microsoft 365:
 
@@ -48,7 +48,7 @@ Use os seguintes recursos para dar suporte à sua solução de gerenciamento de 
 
 - **Exportar informações sobre todos os itens descartados** com a [opção exportar](disposition.md#filter-and-export-the-views).
 
-- **Defina permissões** específicas para as funções do Gerenciador de registros em [sua organização para que](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md)ele tenha o acesso certo.
+- **Defina permissões** específicas para as funções do Gerenciador de registros em [sua organização para que](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)ele tenha o acesso certo.
 
 Usando esses recursos, você pode incorporar os cronogramas e os requisitos de retenção da sua organização em uma solução de gerenciamento de registros que gerencie a retenção, a declaração de registros e o descarte, para dar suporte a todo o ciclo de vida do seu conteúdo.
 
@@ -111,6 +111,4 @@ Quando você aplica um rótulo de retenção a um item de lista que tem um anexo
 
 ## <a name="configuration-guidance"></a>Instruções de configuração
 
-Confira [introdução ao gerenciamento de registros](get-started-with-records-management.md).
-
-Para marcar o conteúdo como registro, confira [Declarar registros usando rótulos de retenção](declare-records.md).
+Confira [introdução ao gerenciamento de registros](get-started-with-records-management.md). Este artigo tem informações sobre assinaturas, permissões e links para orientações de configuração de ponta a ponta para cenários de gerenciamento de registros.

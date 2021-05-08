@@ -1,12 +1,12 @@
 ---
 title: IDs de evento do Microsoft Defender AV e códigos de erro
-description: Procure as causas e soluções para IDs e erros de eventos do Microsoft Defender Antivírus
+description: Procure as causas e soluções para Microsoft Defender Antivírus IDs e erros de evento
 keywords: event, error code, siem, logging, troubleshooting, wef, windows event forwarding
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -14,12 +14,13 @@ ms.date: 09/11/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: f7e8d6428360e5fe45a377f3ed6611a76f0a7911
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: cd222760f3a5cc005c679bf28365237cc70e8950
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765810"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275343"
 ---
 # <a name="review-event-logs-and-error-codes-to-troubleshoot-issues-with-microsoft-defender-antivirus"></a>Revise logs de eventos e códigos de erro para solucionar problemas com o Microsoft Defender Antivírus
 
@@ -30,34 +31,34 @@ ms.locfileid: "51765810"
 
 - [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
 
-Se você encontrar um problema com o Microsoft Defender Antivírus, poderá pesquisar as tabelas neste tópico para encontrar um problema correspondente e uma solução potencial.
+Se você encontrar um problema com Microsoft Defender Antivírus, poderá pesquisar as tabelas neste tópico para encontrar um problema correspondente e uma solução em potencial.
 
 A lista de tabelas:
 
-- [IDs](#windows-defender-av-ids) de eventos do Microsoft Defender Antivírus (elas se aplicam ao Windows 10 e ao Windows Server 2016)
-- [Códigos de erro do cliente do Microsoft Defender Antivírus](#error-codes)
-- [Códigos de erro do cliente interno do Microsoft Defender Antivírus (usados pela Microsoft durante o desenvolvimento e teste)](#internal-error-codes)
+- [Microsoft Defender Antivírus IDs de evento](#windows-defender-av-ids) (elas se aplicam a Windows 10 e Windows Server 2016)
+- [Microsoft Defender Antivírus de erro do cliente](#error-codes)
+- [Códigos de Microsoft Defender Antivírus de erro do cliente internos (usados pela Microsoft durante o desenvolvimento e teste)](#internal-error-codes)
 
 > [!TIP]
 > Você também pode visitar o site de demonstração do Microsoft Defender para Ponto de Extremidade [no demo.wd.microsoft.com](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) para confirmar que os seguintes recursos estão funcionando:
 > 
-> - Proteção entregue na nuvem
+> - Proteção fornecida na nuvem
 > - Aprendizado rápido (incluindo Bloquear à primeira vista)
 > - Bloqueio de aplicativo potencialmente indesejado
 
 <a id="windows-defender-av-ids"></a>
-## <a name="microsoft-defender-antivirus-event-ids"></a>IDs de eventos do Microsoft Defender Antivírus
+## <a name="microsoft-defender-antivirus-event-ids"></a>Microsoft Defender Antivírus IDs de evento
 
-O Microsoft Defender Antivírus registra IDs de eventos no log de eventos do Windows.
+Microsoft Defender Antivírus registra IDs de evento no log Windows evento.
 
-Você pode exibir diretamente o log de eventos ou se tiver uma ferramenta siem (gerenciamento de eventos) e informações de segurança de terceiros, também poderá consumir [as IDs](troubleshoot-microsoft-defender-antivirus.md#windows-defender-av-ids) de eventos do cliente do Microsoft Defender Antivírus para analisar eventos e erros específicos dos pontos de extremidade.
+Você pode exibir diretamente o log de eventos ou se tiver uma ferramenta siem (gerenciamento de eventos) e informações de segurança de terceiros Microsoft Defender Antivírus, também poderá consumir as [IDs](troubleshoot-microsoft-defender-antivirus.md#windows-defender-av-ids) de evento do cliente para analisar eventos e erros específicos dos pontos de extremidade.
 
-A tabela nesta seção lista as principais IDs de evento do Microsoft Defender Antivírus e, quando possível, fornece soluções sugeridas para corrigir ou resolver o erro. 
+A tabela nesta seção lista as IDs Microsoft Defender Antivírus eventos principais e, quando possível, fornece soluções sugeridas para corrigir ou resolver o erro. 
 
-## <a name="to-view-a-microsoft-defender-antivirus-event"></a>Para exibir um evento do Microsoft Defender Antivírus
+## <a name="to-view-a-microsoft-defender-antivirus-event"></a>Para exibir um Microsoft Defender Antivírus evento
 
 1.  Abra **o Visualizador de Eventos**.
-2.  Na árvore de console, expanda **Logs de Aplicativos** e Serviços , em seguida, **Microsoft**, e **Windows**, em seguida, **Windows Defender**.
+2.  Na árvore de console, expanda **Logs de** Aplicativos e Serviços , em seguida, **Microsoft**, **Windows**, em seguida, **Windows Defender**.
 3.  Clique duas vezes em **Operacional**.
 4.  No painel de detalhes, veja a lista de eventos individuais para encontrar seu evento.
 5.  Clique no evento para ver detalhes específicos sobre um evento no painel inferior, nas guias **Geral** **e Detalhes.**
@@ -386,7 +387,7 @@ Para obter mais informações, confira o seguinte:
 <li>Usuário: iniciado pelo usuário</li>
 <li>Sistema: iniciado pelo sistema</li>
 <li>Em tempo real: componente em tempo real iniciado</li>
-<li>IOAV: Downloads do IE e Anexos do Outlook Express iniciados</li>
+<li>IOAV: IE Downloads e Outlook Express Attachments iniciados</li>
 <li>NIS: Sistema de inspeção de rede</li>
 <li>IEPROTECT: IE - IExtensionValidation; isso protege contra controles de página da Web mal-intencionados</li>
 <li>Antimalware de início antecipado (ELAM). Isso inclui malware detectado pela sequência de inicialização</li>
@@ -394,10 +395,10 @@ Para obter mais informações, confira o seguinte:
 </ul>Interface de verificação antimalware (AMSI). Usado principalmente para proteger scripts (PS, VBS), embora também possa ser invocado por terceiros.
 Status do </dt> 
 <dt>UAC: Usuário &lt; de &gt; Status:</dt>Domínio
-<dt> &lt; &gt; \& lt; Nome &gt; </dt>do Processo de Usuário: Processo na versão de assinatura
+<dt> &lt; &gt; \& lt; Nome &gt; </dt>do Processo de Usuário: Processo na Versão de Assinatura
 <dt> &lt; &gt; PID:</dt>Versão
-<dt> &lt; &gt; do</dt>mecanismo de
-<dt>definição: versão do Mecanismo &lt; antimalware &gt; </dt>
+<dt> &lt; &gt; do</dt>mecanismo de definição: Antimalware Engine
+<dt> &lt; versão &gt; </dt>
 </dl>
 </td>
 </tr>
@@ -424,7 +425,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus tomou medidas para proteger esse computador contra malware ou outros softwares potencialmente indesejados. Para obter mais informações, confira o seguinte:
+Microsoft Defender Antivírus tomou medidas para proteger esse computador contra malware ou outros softwares potencialmente indesejados. Para obter mais informações, confira o seguinte:
 <dl>
 <dt>Usuário: &lt; Domínio &gt; \& lt; Nome &gt; </dt>do usuário: ID
 <dt> &lt; do &gt; nome</dt>da ameaça: Gravidade da
@@ -447,9 +448,9 @@ O Microsoft Defender Antivírus tomou medidas para proteger esse computador cont
 <li>Bloquear: o recurso foi impedido de executar</li>
 </ul>
 </dt>
-<dt>Status: &lt; Versão &gt; da</dt>
-<dt>Assinatura de Status: Versão &lt; &gt; do</dt>mecanismo de
-<dt> &lt; &gt; definição: versão do Mecanismo antimalware</dt>
+<dt>Status: &lt; Versão &gt; de</dt>
+<dt>Assinatura de Status: Versão &lt; do &gt; </dt>mecanismo de
+<dt>definição: &lt; Antimalware Engine versão &gt; </dt>
 </dl>
 </td>
 </tr>
@@ -476,7 +477,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus encontrou um erro ao tomar medidas em malware ou em outro software potencialmente indesejado. Para obter mais informações, confira o seguinte:
+Microsoft Defender Antivírus encontrou um erro ao tomar medidas sobre malware ou outro software potencialmente indesejado. Para obter mais informações, confira o seguinte:
 <dl>
 <dt>Usuário: &lt; Domínio &gt; \& lt; Nome &gt; </dt>do usuário: ID
 <dt> &lt; do &gt; nome</dt>da ameaça: Gravidade da
@@ -502,9 +503,9 @@ O Microsoft Defender Antivírus encontrou um erro ao tomar medidas em malware ou
 </dt>
 <dt>Código de Erro: &lt; Código de erro &gt; Código de resultado associado ao status da ameaça. Valores HRESULT padrão. </dt> 
 <dt>Descrição do erro: &lt; Descrição &gt; do erro Descrição do erro.</dt> 
-<dt>Status: &lt; Versão &gt; da</dt>
-<dt>Assinatura de Status: Versão &lt; &gt; do</dt>mecanismo de
-<dt> &lt; &gt; definição: versão do Mecanismo antimalware</dt>
+<dt>Status: &lt; Versão &gt; de</dt>
+<dt>Assinatura de Status: Versão &lt; do &gt; </dt>mecanismo de
+<dt>definição: &lt; Antimalware Engine versão &gt; </dt>
 </dl>
 </td>
 </tr>
@@ -531,7 +532,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus restaurou um item da quarentena. Para obter mais informações, confira o seguinte:
+Microsoft Defender Antivírus restaurou um item da quarentena. Para obter mais informações, confira o seguinte:
 <dl>
 <dt>Nome: &lt; ID &gt; do</dt>nome da ameaça: Gravidade da
 <dt> &lt; &gt; ID</dt>da 
@@ -545,8 +546,8 @@ O Microsoft Defender Antivírus restaurou um item da quarentena. Para obter mais
 <dt>Categoria: &lt; Descrição &gt; da categoria , por exemplo, qualquer tipo de ameaça ou malware.</dt> 
 <dt>Caminho: &lt; Usuário &gt; do caminho do</dt>
 <dt>arquivo: Domínio &lt; &gt; \& lt; Versão &gt; da</dt>
-<dt>Assinatura do Usuário: Versão &lt; &gt; do</dt>mecanismo de
-<dt>definição: &lt; versão do Mecanismo &gt; antimalware</dt>
+<dt>assinatura do usuário: Versão &lt; do &gt; </dt>mecanismo de
+<dt>definição: &lt; Antimalware Engine versão &gt; </dt>
 </dl>
 </td>
 </tr>
@@ -573,7 +574,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus encontrou um erro ao tentar restaurar um item da quarentena. Para obter mais informações, confira o seguinte:
+Microsoft Defender Antivírus encontrou um erro ao tentar restaurar um item da quarentena. Para obter mais informações, confira o seguinte:
 <dl>
 <dt>Nome: &lt; ID &gt; do</dt>nome da ameaça: Gravidade da
 <dt> &lt; &gt; ID</dt>da 
@@ -590,7 +591,7 @@ O Microsoft Defender Antivírus encontrou um erro ao tentar restaurar um item da
 <dt>de Erro do Usuário: Código de erro &lt; Código de resultado associado ao status da &gt; ameaça. Valores HRESULT padrão. </dt> 
 <dt>Descrição do erro: &lt; Descrição &gt; do erro Descrição do erro.</dt> 
 <dt>Versão de assinatura: &lt; Versão &gt; de definição</dt>
-<dt>Versão do mecanismo: &lt; versão do Mecanismo &gt; antimalware</dt>
+<dt>Versão do mecanismo: &lt; Antimalware Engine versão &gt; </dt>
 </dl>
 </td>
 </tr>
@@ -617,7 +618,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus excluiu um item da quarentena.<br/>Para obter mais informações, confira o seguinte:
+Microsoft Defender Antivírus excluiu um item da quarentena.<br/>Para obter mais informações, confira o seguinte:
 <dl>
 <dt>Nome: &lt; ID &gt; do</dt>nome da ameaça: Gravidade da
 <dt> &lt; &gt; ID</dt>da 
@@ -631,8 +632,8 @@ O Microsoft Defender Antivírus excluiu um item da quarentena.<br/>Para obter ma
 <dt>Categoria: &lt; Descrição &gt; da categoria , por exemplo, qualquer tipo de ameaça ou malware.</dt> 
 <dt>Caminho: &lt; Usuário &gt; do caminho do</dt>
 <dt>arquivo: Domínio &lt; &gt; \& lt; Versão &gt; da</dt>
-<dt>Assinatura do Usuário: Versão &lt; &gt; do</dt>mecanismo de
-<dt>definição: &lt; versão do Mecanismo &gt; antimalware</dt>
+<dt>assinatura do usuário: Versão &lt; do &gt; </dt>mecanismo de
+<dt>definição: &lt; Antimalware Engine versão &gt; </dt>
 </dl>
 </td>
 </tr>
@@ -659,7 +660,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus encontrou um erro ao tentar excluir um item da quarentena.
+Microsoft Defender Antivírus encontrou um erro ao tentar excluir um item da quarentena.
 Para obter mais informações, confira o seguinte:
 <dl>
 <dt>Nome: &lt; ID &gt; do</dt>nome da ameaça: Gravidade da
@@ -677,7 +678,7 @@ Para obter mais informações, confira o seguinte:
 <dt>de Erro do Usuário: Código de erro &lt; Código de resultado associado ao status da &gt; ameaça. Valores HRESULT padrão. </dt> 
 <dt>Descrição do erro: &lt; Descrição &gt; do erro Descrição do erro.</dt> 
 <dt>Versão de assinatura: &lt; Versão &gt; de definição</dt>
-<dt>Versão do mecanismo: &lt; versão do Mecanismo &gt; antimalware</dt>
+<dt>Versão do mecanismo: &lt; Antimalware Engine versão &gt; </dt>
 </dl>
 </td>
 </tr>
@@ -704,7 +705,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus removeu o histórico de malware e outros softwares potencialmente indesejados.
+Microsoft Defender Antivírus o histórico de malware e outros softwares potencialmente indesejados.
 <dl>
 <dt>Hora: a hora em que o evento ocorreu, por exemplo, quando o histórico é limpo. Esse parâmetro não é usado em eventos de ameaça para que não haja confusão em relação ao tempo de correção ou ao tempo de infecção. Para eles, especificamente os chamamos como Tempo de Ação ou Hora de Detecção.</dt> 
 <dt>Usuário: &lt; Domínio &gt; \& lt; Usuário &gt; </dt>
@@ -734,7 +735,7 @@ A plataforma antimalware não pôde excluir o histórico de malware e outros sof
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus encontrou um erro ao tentar remover o histórico de malware e outros softwares potencialmente indesejados.
+Microsoft Defender Antivírus encontrou um erro ao tentar remover o histórico de malware e outros softwares potencialmente indesejados.
 <dl>
 <dt>Hora: a hora em que o evento ocorreu, por exemplo, quando o histórico é limpo. Esse parâmetro não é usado em eventos de ameaça para que não haja confusão em relação ao tempo de correção ou ao tempo de infecção. Para eles, especificamente os chamamos como Tempo de Ação ou Hora de Detecção.</dt> 
 <dt>Usuário: &lt; Domínio &gt; \& lt; Código &gt; </dt>
@@ -766,7 +767,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus detectou um comportamento suspeito.<br/>Para obter mais informações, confira o seguinte:
+Microsoft Defender Antivírus detectou um comportamento suspeito.<br/>Para obter mais informações, confira o seguinte:
 <dl>
 <dt>Nome: &lt; ID &gt; do</dt>nome da ameaça: Gravidade da
 <dt> &lt; &gt; ID</dt>da 
@@ -800,7 +801,7 @@ O Microsoft Defender Antivírus detectou um comportamento suspeito.<br/>Para obt
 <li>Usuário: iniciado pelo usuário</li>
 <li>Sistema: iniciado pelo sistema</li>
 <li>Em tempo real: componente em tempo real iniciado</li>
-<li>IOAV: Downloads do IE e Anexos do Outlook Express iniciados</li>
+<li>IOAV: IE Downloads e Outlook Express Attachments iniciados</li>
 <li>NIS: Sistema de inspeção de rede</li>
 <li>IEPROTECT: IE - IExtensionValidation; isso protege contra controles de página da Web mal-intencionados</li>
 <li>Antimalware de início antecipado (ELAM). Isso inclui malware detectado pela sequência de inicialização</li>
@@ -812,9 +813,9 @@ Status do </dt>
 <dt> &lt; &gt; PID:</dt>
 <dt>gravidade correspondente à enumeração.</dt> 
 <dt>Versão de assinatura: &lt; Versão &gt; de</dt>
-<dt>definição Versão do mecanismo: versão do Mecanismo &lt; &gt; antimalware</dt>
-<dt>Fidelity Rótulo:</dt>Nome do arquivo de destino: Nome do
-<dt> &lt; &gt; arquivo.</dt>
+<dt>definição Versão do mecanismo: &lt; Antimalware Engine &gt; versão</dt>
+<dt>Fidelity Label:</dt>
+<dt>Target File Name: File name of the &lt; &gt; file.</dt>
 </dl>
 </td>
 </tr>
@@ -841,7 +842,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus detectou malware ou outro software potencialmente indesejado.<br/>Para obter mais informações, confira o seguinte:
+Microsoft Defender Antivírus detectou malware ou outro software potencialmente indesejado.<br/>Para obter mais informações, confira o seguinte:
 <dl>
 <dt>Nome: &lt; ID &gt; do</dt>nome da ameaça: Gravidade da
 <dt> &lt; &gt; ID</dt>da 
@@ -875,17 +876,17 @@ O Microsoft Defender Antivírus detectou malware ou outro software potencialment
 <li>Usuário: iniciado pelo usuário</li>
 <li>Sistema: iniciado pelo sistema</li>
 <li>Em tempo real: componente em tempo real iniciado</li>
-<li>IOAV: Downloads do IE e Anexos do Outlook Express iniciados</li>
+<li>IOAV: IE Downloads e Outlook Express Attachments iniciados</li>
 <li>NIS: Sistema de inspeção de rede</li>
 <li>IEPROTECT: IE - IExtensionValidation; isso protege contra controles de página da Web mal-intencionados</li>
 <li>Antimalware de início antecipado (ELAM). Isso inclui malware detectado pela sequência de inicialização</li>
 <li>Atestado remoto</li>
 </ul>Interface de verificação antimalware (AMSI). Usado principalmente para proteger scripts (PS, VBS), embora também possa ser invocado por terceiros.
 Usuário </dt> 
-<dt>UAC: &lt; Domínio &gt; \& lt; Nome &gt; </dt>do Processo de Usuário: Processo na versão de assinatura
+<dt>UAC: &lt; Domínio &gt; \& lt; Nome &gt; </dt>do Processo de Usuário: Processo na Versão de Assinatura
 <dt> &lt; &gt; PID:</dt>Versão
-<dt> &lt; &gt; do</dt>mecanismo de
-<dt>definição: versão do Mecanismo &lt; antimalware &gt; </dt>
+<dt> &lt; &gt; do</dt>mecanismo de definição: Antimalware Engine
+<dt> &lt; versão &gt; </dt>
 </dl>
 </td>
 </tr>
@@ -894,7 +895,7 @@ Usuário </dt>
 Ação do usuário:
 </td>
 <td >
-Nenhuma ação é necessária. O Microsoft Defender Antivírus pode suspender e tomar medidas de rotina sobre essa ameaça. Se você quiser remover a ameaça manualmente, na interface do Microsoft Defender Antivírus, clique em <b>Limpar Computador</b>.
+Nenhuma ação é necessária. Microsoft Defender Antivírus pode suspender e tomar medidas de rotina sobre essa ameaça. Se você quiser remover a ameaça manualmente, na interface Microsoft Defender Antivírus, clique em <b>Limpar Computador</b>.
 </td>
 </tr>
 <tr>
@@ -920,7 +921,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus tomou medidas para proteger esse computador contra malware ou outros softwares potencialmente indesejados.<br/>Para obter mais informações, confira o seguinte:
+Microsoft Defender Antivírus tomou medidas para proteger esse computador contra malware ou outros softwares potencialmente indesejados.<br/>Para obter mais informações, confira o seguinte:
 <dl>
 <dt>Nome: &lt; ID &gt; do</dt>nome da ameaça: Gravidade da
 <dt> &lt; &gt; ID</dt>da 
@@ -954,7 +955,7 @@ O Microsoft Defender Antivírus tomou medidas para proteger esse computador cont
 <li>Usuário: iniciado pelo usuário</li>
 <li>Sistema: iniciado pelo sistema</li>
 <li>Em tempo real: componente em tempo real iniciado</li>
-<li>IOAV: Downloads do IE e Anexos do Outlook Express iniciados</li>
+<li>IOAV: IE Downloads e Outlook Express Attachments iniciados</li>
 <li>NIS: Sistema de inspeção de rede</li>
 <li>IEPROTECT: IE - IExtensionValidation; isso protege contra controles de página da Web mal-intencionados</li>
 <li>Antimalware de início antecipado (ELAM). Isso inclui malware detectado pela sequência de inicialização</li>
@@ -976,15 +977,15 @@ Usuário </dt>
 <dt>Status da Ação: &lt; Descrição de &gt; ações adicionais</dt>
 <dt>Código de erro: &lt; Código de erro Código de resultado associado ao status da &gt; ameaça. Valores HRESULT padrão.</dt> 
 <dt>Descrição do erro: &lt; Descrição do &gt; erro Descrição do erro.</dt> 
-<dt>Versão de assinatura: &lt; &gt;</dt>Versão do mecanismo de definição: versão do Mecanismo
-<dt> &lt; &gt; antimalware</dt> OBSERVAÇÃO: sempre que o Microsoft Defender Antivírus, o Microsoft Security Essentials, a Ferramenta de Remoção de Software Mal-Intencionado ou a Proteção do Ponto de Extremidade do System Center detectarem um malware, ele restaurará as seguintes configurações e serviços do sistema que o malware pode ter alterado:<ul>
-<li>Configuração padrão do Internet Explorer ou do Microsoft Edge</li>
+<dt>Versão de assinatura: &lt; &gt;</dt>Versão do mecanismo de
+<dt>definição: Antimalware Engine &lt; versão &gt; </dt> OBSERVAÇÃO: sempre que Microsoft Defender Antivírus, Microsoft Security Essentials, Ferramenta de Remoção de Software Mal-Intencionado ou System Center Endpoint Protection detecta um malware, ele restaurará as seguintes configurações e serviços do sistema que o malware pode ter alterado:<ul>
+<li>Configuração padrão do Internet Explorer ou Microsoft Edge</li>
 <li>Configurações do Controle de Acesso para Usuário</li>
 <li>Configurações do Chrome</li>
 <li>Dados de controle de inicialização</li>
 <li>Configurações do Registro do Gerenciador de Tarefas e regedit</li>
-<li>Windows Update, Serviço de Transferência Inteligente em Segundo Plano e Serviço de Chamada de Procedimento Remoto</li>
-<li>Arquivos do Sistema Operacional Windows</li></ul>
+<li>Windows Serviço de Atualização, Transferência Inteligente em Segundo Plano e Serviço de Chamada de Procedimento Remoto</li>
+<li>Windows Arquivos do sistema operacional</li></ul>
 O contexto acima se aplica às seguintes versões de cliente e servidor:
 <table>
 <tr>
@@ -996,7 +997,7 @@ O contexto acima se aplica às seguintes versões de cliente e servidor:
 Sistema Operacional Cliente
 </td>
 <td>
-Windows Vista (Service Pack 1 ou Service Pack 2), Windows 7 e posterior
+Windows Vista (Service Pack 1 ou Service Pack 2), Windows 7 e posteriores
 </td>
 </tr>
 <tr>
@@ -1016,7 +1017,7 @@ Windows Server 2008, Windows Server 2008 R2, Windows Server 2012 e Windows Serve
 Ação do usuário:
 </td>
 <td >
-Nenhuma ação é necessária. O Microsoft Defender Antivírus foi removido ou colocado em quarentena como ameaça. 
+Nenhuma ação é necessária. Microsoft Defender Antivírus uma ameaça removida ou em quarentena. 
 </td>
 </tr>
 <tr>
@@ -1042,7 +1043,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus encontrou um erro não crítico ao tomar medidas sobre malware ou outro software potencialmente indesejado.<br/>Para obter mais informações, confira o seguinte:
+Microsoft Defender Antivírus encontrou um erro não crítico ao tomar medidas sobre malware ou outro software potencialmente indesejado.<br/>Para obter mais informações, confira o seguinte:
 <dl>
 <dt>Nome: &lt; ID &gt; do</dt>nome da ameaça: Gravidade da
 <dt> &lt; &gt; ID</dt>da 
@@ -1076,7 +1077,7 @@ O Microsoft Defender Antivírus encontrou um erro não crítico ao tomar medidas
 <li>Usuário: iniciado pelo usuário</li>
 <li>Sistema: iniciado pelo sistema</li>
 <li>Em tempo real: componente em tempo real iniciado</li>
-<li>IOAV: Downloads do IE e Anexos do Outlook Express iniciados</li>
+<li>IOAV: IE Downloads e Outlook Express Attachments iniciados</li>
 <li>NIS: Sistema de inspeção de rede</li>
 <li>IEPROTECT: IE - IExtensionValidation; isso protege contra controles de página da Web mal-intencionados</li>
 <li>Antimalware de início antecipado (ELAM). Isso inclui malware detectado pela sequência de inicialização</li>
@@ -1099,7 +1100,7 @@ Usuário </dt>
 <dt>Código de erro: &lt; Código de erro Código de resultado associado ao status da &gt; ameaça. Valores HRESULT padrão.</dt> 
 <dt>Descrição do erro: &lt; Descrição do &gt; erro Descrição do erro.</dt> 
 <dt>Versão de assinatura: &lt; Versão &gt; de definição</dt>
-<dt>Versão do mecanismo: &lt; versão do Mecanismo &gt; antimalware</dt>
+<dt>Versão do mecanismo: &lt; Antimalware Engine versão &gt; </dt>
 </dl>
 </td>
 </tr>
@@ -1108,7 +1109,7 @@ Usuário </dt>
 Ação do usuário:
 </td>
 <td >
-Nenhuma ação é necessária. O Microsoft Defender Antivírus falhou ao concluir uma tarefa relacionada à correção de malware. Isso não é uma falha crítica.
+Nenhuma ação é necessária. Microsoft Defender Antivírus falha ao concluir uma tarefa relacionada à correção de malware. Isso não é uma falha crítica.
 </td>
 </tr>
 <tr>
@@ -1134,7 +1135,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus encontrou um erro crítico ao tomar medidas em malware ou em outro software potencialmente indesejado.<br/>Para obter mais informações, confira o seguinte:
+Microsoft Defender Antivírus encontrou um erro crítico ao tomar medidas sobre malware ou outro software potencialmente indesejado.<br/>Para obter mais informações, confira o seguinte:
 <dl>
 <dt>Nome: &lt; ID &gt; do</dt>nome da ameaça: Gravidade da
 <dt> &lt; &gt; ID</dt>da 
@@ -1168,7 +1169,7 @@ O Microsoft Defender Antivírus encontrou um erro crítico ao tomar medidas em m
 <li>Usuário: iniciado pelo usuário</li>
 <li>Sistema: iniciado pelo sistema</li>
 <li>Em tempo real: componente em tempo real iniciado</li>
-<li>IOAV: Downloads do IE e Anexos do Outlook Express iniciados</li>
+<li>IOAV: IE Downloads e Outlook Express Attachments iniciados</li>
 <li>NIS: Sistema de inspeção de rede</li>
 <li>IEPROTECT: IE - IExtensionValidation; isso protege contra controles de página da Web mal-intencionados</li>
 <li>Antimalware de início antecipado (ELAM). Isso inclui malware detectado pela sequência de inicialização</li>
@@ -1191,7 +1192,7 @@ Usuário </dt>
 <dt>Código de erro: &lt; Código de erro Código de resultado associado ao status da &gt; ameaça. Valores HRESULT padrão.</dt> 
 <dt>Descrição do erro: &lt; Descrição do &gt; erro Descrição do erro.</dt> 
 <dt>Versão de assinatura: &lt; Versão &gt; de definição</dt>
-<dt>Versão do mecanismo: &lt; versão do Mecanismo &gt; antimalware</dt>
+<dt>Versão do mecanismo: &lt; Antimalware Engine versão &gt; </dt>
 </dl>
 </td>
 </tr>
@@ -1200,10 +1201,10 @@ Usuário </dt>
 Ação do usuário:
 </td>
 <td >
-O cliente do Microsoft Defender Antivírus encontrou esse erro devido a problemas críticos. O ponto de extremidade pode não estar protegido. Revise a descrição do erro e siga as etapas <b>de ação do usuário</b> relevantes abaixo.
+O Microsoft Defender Antivírus cliente encontrou esse erro devido a problemas críticos. O ponto de extremidade pode não estar protegido. Revise a descrição do erro e siga as etapas <b>de ação do usuário</b> relevantes abaixo.
 <table>
 <tr>
-<th>Action</th>
+<th>Ação</th>
 <th>Ação do usuário</th>
 </tr>
 <tr>
@@ -1263,7 +1264,7 @@ Nome simbólico:
 Mensagem:
 </td>
 <td >
-<b>O Microsoft Defender Antivírus deduziu os hashes de um recurso de ameaça.</b>
+<b>Microsoft Defender Antivírus os hashes de um recurso de ameaça.</b>
 </td>
 </tr>
 <tr>
@@ -1271,7 +1272,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O cliente do Microsoft Defender Antivírus está em funcionamento em um estado saudável.
+Microsoft Defender Antivírus cliente está funcionando em um estado saudável.
 <dl>
 <dt>Versão da plataforma atual: &lt; Versão atual &gt; da plataforma</dt>
 <dt>Caminho do Recurso de &lt; &gt; Ameaças:</dt>
@@ -1309,11 +1310,11 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O cliente do Microsoft Defender Antivírus está em funcionamento em um estado saudável.
+Microsoft Defender Antivírus cliente está funcionando em um estado saudável.
 <dl>
 <dt>Versão da plataforma: &lt; Versão de &gt; assinatura da plataforma atual:</dt>
-<dt>Versão &lt; &gt; do</dt>
-<dt>mecanismo de &lt; &gt; definição: versão do Mecanismo antimalware</dt>
+<dt>Versão &lt; do &gt; </dt>
+<dt>mecanismo de definição: &lt; Antimalware Engine &gt; versão</dt>
 </dl>
 </td>
 </tr>
@@ -1322,7 +1323,7 @@ O cliente do Microsoft Defender Antivírus está em funcionamento em um estado s
 Ação do usuário:
 </td>
 <td >
-Nenhuma ação é necessária. O cliente do Microsoft Defender Antivírus está em um estado saudável. Esse evento é relatado a cada hora.
+Nenhuma ação é necessária. O Microsoft Defender Antivírus cliente está em um estado saudável. Esse evento é relatado a cada hora.
 </td>
 </tr>
 
@@ -1341,7 +1342,7 @@ Nome simbólico:
 Mensagem:
 </td>
 <td >
-<b>Relatório de saúde do cliente de Proteção de Ponto de Extremidade (hora em UTC) </b>
+<b>Endpoint Protection relatório de saúde do cliente (hora em UTC)</b>
 </td>
 </tr>
 <tr>
@@ -1351,20 +1352,20 @@ Descrição:
 <td >
 Relatório de saúde do cliente antivírus.
 <dl>
-<dt>Versão da plataforma: &lt; &gt;</dt>Versão do mecanismo da plataforma atual: Versão do mecanismo de
-<dt> &lt; &gt; antimalware</dt>Versão do mecanismo de inspeção em tempo real da rede: Versão do mecanismo de inspeção em tempo
-<dt> &lt; &gt; real</dt>de rede Versão de assinatura antivírus
+<dt>Versão da plataforma: &lt; &gt;</dt>Versão do mecanismo da plataforma
+<dt>atual: versão &lt; &gt; </dt>do mecanismo de inspeção em tempo real de rede da Antimalware Engine versão: Versão do mecanismo de inspeção em tempo
+<dt> &lt; real &gt; </dt>de rede Versão de assinatura antivírus
 <dt> &lt; &gt; Versão</dt>de assinatura
-<dt> &lt; antispyware &gt; Versão da</dt>assinatura do Mecanismo de Rede Versão da inspeção em tempo real: Estado da versão RTP da assinatura de Inspeção em Tempo
-<dt> &lt; &gt; Real</dt>da Rede: Estado do OA de proteção em tempo
-<dt>real &lt; &gt; (habilitado</dt>ou desabilitado) estado do OA: Estado do IOAV no estado do
-<dt>Acesso &lt; &gt; (Habilitado</dt>ou Desabilitado) estado IOAV: I Estado BM de Downloads e Anexos do
-<dt>Outlook Express &lt; &gt; (Habilitado</dt>ou Desabilitado): Estado de monitoramento de comportamento (habilitado ou
-<dt> &lt; &gt; desabilitado)</dt>Idade da assinatura do antivírus: idade da assinatura do antivírus
+<dt>antispyware Versão da assinatura do &lt; Antispyware &gt; </dt>Versão da assinatura de Inspeção real de
+<dt>Rede: Estado da versão RTP da assinatura de Inspeção em Tempo &lt; Real &gt; </dt>da Rede: Estado do OA de proteção em tempo real
+<dt> &lt; &gt; (habilitado</dt>ou desabilitado) estado do OA: Estado do IOAV no acesso
+<dt> &lt; &gt; (habilitado</dt>ou desabilitado) estado do IOAV: IE Download Estado BM
+<dt>dos &lt; Anexos Expressos &gt; e</dt>do
+<dt>Outlook: Estado BM: Estado do Monitoramento de Comportamento (Habilitado ou &lt; Desabilitado) &gt; </dt>Idade da assinatura do antivírus: Idade da assinatura do antivírus
 <dt> &lt; &gt; (em dias)</dt>Idade da assinatura do Antispyware: idade da assinatura do
 <dt> &lt; Antispyware &gt; (em dias)</dt>Idade da última verificação rápida: Idade da última verificação rápida
-<dt> &lt; &gt; (em dias)</dt>Idade da última verificação completa( em
-<dt> &lt; &gt; dias)</dt>Tempo de criação da assinatura do Antivírus:
+<dt> &lt; &gt; (em dias)</dt>Última idade de verificação completa: Última idade de verificação completa
+<dt> &lt; &gt; (em dias)</dt>Tempo de criação da assinatura do Antivírus:
 <dt>? &lt; Tempo de &gt; criação de assinatura antivírus</dt>Hora de criação da assinatura do
 <dt>Antispyware: ? &lt; Tempo de criação de &gt; assinatura antispyware</dt>Última hora de início
 <dt>da verificação rápida: ? &lt; Última hora de &gt; início da verificação rápida</dt>Última hora de término da verificação
@@ -1424,7 +1425,7 @@ A versão de assinatura do antivírus foi atualizada.
 Ação do usuário:
 </td>
 <td >
-Nenhuma ação é necessária. O cliente do Microsoft Defender Antivírus está em um estado saudável. Esse evento é relatado quando as assinaturas são atualizadas com êxito.
+Nenhuma ação é necessária. O Microsoft Defender Antivírus cliente está em um estado saudável. Esse evento é relatado quando as assinaturas são atualizadas com êxito.
 </td>
 </tr>
 <tr>
@@ -1450,7 +1451,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus encontrou um erro ao tentar atualizar assinaturas.
+Microsoft Defender Antivírus encontrou um erro ao tentar atualizar assinaturas.
 <dl>
 <dt>Nova versão de inteligência de segurança: &lt; Novo número &gt; de versão</dt>
 <dt>Versão anterior de inteligência de segurança: Versão &lt; &gt; anterior</dt>Fonte de 
@@ -1469,8 +1470,8 @@ O Microsoft Defender Antivírus encontrou um erro ao tentar atualizar assinatura
 <li>Baixar</li>
 <li>Instalar</li>
 </ul>
-</dt>Caminho de origem: Nome do compartilhamento de arquivos para a Convenção De Nomenização Universal (UNC), nome do servidor para o 
-<dt>WSUS (Windows Server Update Services)/Microsoft Update/ADL.</dt> 
+</dt>Caminho de origem: Nome do compartilhamento de arquivos para 
+<dt>Unc (Convenção de Nomenização Universal), nome do servidor para Windows Server Update Services (WSUS)/Microsoft Update/ADL.</dt> 
 <dt> Tipo de assinatura: &lt; Tipo de assinatura , por &gt; exemplo: <ul>
 <li>Antivírus</li>
 <li>Antispyware</li>
@@ -1525,7 +1526,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-A versão do mecanismo do Microsoft Defender Antivírus foi atualizada.
+Microsoft Defender Antivírus versão do mecanismo foi atualizada.
 <dl>
 <dt>Versão atual do mecanismo: &lt; Versão do &gt; mecanismo atual</dt>
 <dt>Versão anterior do mecanismo: &lt; &gt; versão anterior</dt>Tipo de mecanismo: Tipo de mecanismo , mecanismo
@@ -1539,7 +1540,7 @@ A versão do mecanismo do Microsoft Defender Antivírus foi atualizada.
 Ação do usuário:
 </td>
 <td >
-Nenhuma ação é necessária. O cliente do Microsoft Defender Antivírus está em um estado saudável. Esse evento é relatado quando o mecanismo antimalware é atualizado com êxito.
+Nenhuma ação é necessária. O Microsoft Defender Antivírus cliente está em um estado saudável. Esse evento é relatado quando o mecanismo antimalware é atualizado com êxito.
 </td>
 </tr>
 <tr>
@@ -1565,7 +1566,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus encontrou um erro ao tentar atualizar o mecanismo.
+Microsoft Defender Antivírus encontrou um erro ao tentar atualizar o mecanismo.
 <dl>
 <dt>Nova versão do mecanismo:</dt>
 <dt>Versão anterior do mecanismo: &lt; &gt; versão anterior</dt>Tipo de mecanismo: Tipo de mecanismo , mecanismo
@@ -1581,7 +1582,7 @@ O Microsoft Defender Antivírus encontrou um erro ao tentar atualizar o mecanism
 Ação do usuário:
 </td>
 <td >
-A atualização do cliente do Microsoft Defender Antivírus falhou. Esse evento ocorre quando o cliente não consegue se atualizar. Esse evento geralmente ocorre devido a uma interrupção na conectividade de rede durante uma atualização.
+A Microsoft Defender Antivírus do cliente falhou. Esse evento ocorre quando o cliente não consegue se atualizar. Esse evento geralmente ocorre devido a uma interrupção na conectividade de rede durante uma atualização.
 Para solucionar problemas deste evento:
 <ol>
 <li><a href="manage-updates-baselines-microsoft-defender-antivirus.md" data-raw-source="[Update definitions](manage-updates-baselines-microsoft-defender-antivirus.md)">Atualize definições</a> e force uma nova varredura diretamente no ponto de extremidade.</li>
@@ -1613,7 +1614,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus encontrou um erro ao tentar carregar assinaturas e tentará reverter para um conjunto conhecido de assinaturas.
+Microsoft Defender Antivírus encontrou um erro ao tentar carregar assinaturas e tentará reverter para um conjunto conhecido de assinaturas.
 <dl>
 <dt>Assinaturas Tentadas: Código</dt>
 <dt>de Erro: Código de erro Código de &lt; resultado associado ao status da &gt; ameaça. Valores HRESULT padrão.</dt> 
@@ -1628,11 +1629,11 @@ O Microsoft Defender Antivírus encontrou um erro ao tentar carregar assinaturas
 Ação do usuário:
 </td>
 <td >
-O cliente do Microsoft Defender Antivírus tentou baixar e instalar o arquivo de definições mais recentes e falhou. Esse erro pode ocorrer quando o cliente encontrar um erro ao tentar carregar as definições ou se o arquivo estiver corrompido. O Microsoft Defender Antivírus tentará reverter para um conjunto conhecido de definições.
+O Microsoft Defender Antivírus cliente tentou baixar e instalar o arquivo de definições mais recentes e falhou. Esse erro pode ocorrer quando o cliente encontrar um erro ao tentar carregar as definições ou se o arquivo estiver corrompido. Microsoft Defender Antivírus tentará reverter para um conjunto conhecido de definições.
 Para solucionar problemas deste evento:
 <ol>
 <li>Reinicie o computador e tente novamente.</li>
-<li>Baixe as definições mais recentes do <a href="https://aka.ms/wdsi">site do Microsoft Security Intelligence.</a>
+<li>Baixe as definições mais recentes do <a href="https://aka.ms/wdsi">Inteligência de Segurança da Microsoft site</a>.
 Observação: o tamanho do arquivo de definições baixado do site pode exceder 60 MB e não deve ser usado como uma solução de longo prazo para atualizar definições.
 </li>
 <li>Entre em contato com o <a href="https://go.microsoft.com/fwlink/?LinkId=215491">Suporte Técnico da Microsoft</a>.
@@ -1663,7 +1664,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus não pôde carregar o mecanismo antimalware porque a versão atual da plataforma não é suportada. O Microsoft Defender Antivírus será revertido para o último mecanismo conhecido e uma atualização de plataforma será tentada.
+Microsoft Defender Antivírus não foi possível carregar o mecanismo antimalware porque a versão atual da plataforma não é suportada. Microsoft Defender Antivírus será revertida para o último mecanismo conhecido e uma atualização de plataforma será tentada.
 <dl>
 <dt>Versão da plataforma atual: &lt; versão da plataforma atual&gt;</dt>
 </dl>
@@ -1692,7 +1693,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus encontrou um erro ao tentar atualizar a plataforma.
+Microsoft Defender Antivírus encontrou um erro ao tentar atualizar a plataforma.
 <dl>
 <dt>Versão da plataforma atual: &lt; Versão atual &gt; da plataforma</dt>
 <dt>Código de Erro: Código de erro &lt; Código de resultado associado ao status da &gt; ameaça. Valores HRESULT padrão.</dt> 
@@ -1723,7 +1724,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus em breve exigirá uma versão mais recente da plataforma para dar suporte a versões futuras do mecanismo antimalware. Baixe a plataforma mais recente do Microsoft Defender Antivírus para manter o melhor nível de proteção disponível.
+Microsoft Defender Antivírus em breve exigirá uma versão mais recente da plataforma para dar suporte a versões futuras do mecanismo antimalware. Baixe a plataforma Microsoft Defender Antivírus mais recente para manter o melhor nível de proteção disponível.
 <dl>
 <dt>Versão da plataforma atual: &lt; versão da plataforma atual&gt;</dt>
 </dl>
@@ -1752,7 +1753,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus <i>usou o Serviço</i> de Assinatura Dinâmica para recuperar assinaturas adicionais para ajudar a proteger seu computador.
+Microsoft Defender Antivírus o <i>Serviço de Assinatura Dinâmica</i> para recuperar assinaturas adicionais para ajudar a proteger seu computador.
 <dl>
 <dt>Versão de assinatura atual: &lt; Versão de &gt; assinatura atual</dt> 
 <dt> Tipo de assinatura: Tipo de assinatura , &lt; por &gt; exemplo: <ul>
@@ -1808,7 +1809,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus <i>usou o Serviço de Assinatura Dinâmica</i> para descartar assinaturas obsoletas.
+Microsoft Defender Antivírus o <i>Serviço de Assinatura Dinâmica</i> para descartar assinaturas obsoletas.
 <dl>
 <dt>Versão de assinatura atual: &lt; Versão de &gt; assinatura atual</dt> 
 <dt> Tipo de assinatura: Tipo de assinatura , &lt; por &gt; exemplo: <ul>
@@ -1847,7 +1848,7 @@ O Microsoft Defender Antivírus <i>usou o Serviço de Assinatura Dinâmica</i> p
 Ação do usuário:
 </td>
 <td >
-Nenhuma ação é necessária. O cliente do Microsoft Defender Antivírus está em um estado saudável. Esse evento é relatado quando o Serviço de Assinatura Dinâmica exclui com êxito definições dinâmicas desatentadas.
+Nenhuma ação é necessária. O Microsoft Defender Antivírus cliente está em um estado saudável. Esse evento é relatado quando o Serviço de Assinatura Dinâmica exclui com êxito definições dinâmicas desatentadas.
 </td>
 </tr>
 <tr>
@@ -1873,7 +1874,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus encontrou um erro ao tentar usar o <i>Serviço de Assinatura Dinâmica.</i>
+Microsoft Defender Antivírus encontrou um erro ao tentar usar o <i>Serviço de Assinatura Dinâmica</i>.
 <dl>
 <dt>Versão de assinatura atual: &lt; Versão de &gt; assinatura atual</dt> 
 <dt> Tipo de assinatura: Tipo de assinatura , &lt; por &gt; exemplo: <ul>
@@ -1939,7 +1940,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus descartou todas as <i>assinaturas do Serviço</i> de Assinatura Dinâmica.
+Microsoft Defender Antivírus todas as assinaturas <i>do Serviço</i> de Assinatura Dinâmica.
 <dl>
 <dt>Versão de assinatura atual: &lt; Versão de assinatura atual&gt;</dt>
 </dl>
@@ -1968,7 +1969,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus baixou um arquivo limpo.
+Microsoft Defender Antivírus baixou um arquivo limpo.
 <dl>
 <dt>Nomedo arquivo: &lt; Nome do &gt; arquivo Nome do arquivo.</dt> 
 <dt>Versão de assinatura atual: &lt; Versão atual &gt; do</dt>
@@ -1999,7 +2000,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus encontrou um erro ao tentar baixar um arquivo limpo.
+Microsoft Defender Antivírus encontrou um erro ao tentar baixar um arquivo limpo.
 <dl>
 <dt>Nomedo arquivo: &lt; Nome do &gt; arquivo Nome do arquivo.</dt> 
 <dt>Versão de assinatura atual: &lt; Versão atual &gt; do</dt>
@@ -2015,7 +2016,7 @@ Ação do usuário:
 </td>
 <td >
 Verifique suas configurações de conectividade com a Internet.
-O cliente do Microsoft Defender Antivírus encontrou um erro ao usar o Serviço de Assinatura Dinâmica para baixar as definições mais recentes para uma ameaça específica. Esse erro provavelmente é causado por um problema de conectividade de rede. 
+O Microsoft Defender Antivírus cliente encontrou um erro ao usar o Serviço de Assinatura Dinâmica para baixar as definições mais recentes para uma ameaça específica. Esse erro provavelmente é causado por um problema de conectividade de rede. 
 </td>
 </tr>
 <tr>
@@ -2041,7 +2042,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus baixou e configurou o antivírus offline para ser executado na próxima reinicialização.
+Microsoft Defender Antivírus baixado e configurado antivírus offline para ser executado na próxima reinicialização.
 </td>
 </tr>
 <tr>
@@ -2067,7 +2068,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus encontrou um erro ao tentar baixar e configurar antivírus offline.
+Microsoft Defender Antivírus encontrou um erro ao tentar baixar e configurar antivírus offline.
 <dl>
 <dt>Código de Erro: &lt; Código de erro &gt; Código de resultado associado ao status da ameaça. Valores HRESULT padrão.</dt> 
 <dt>Descrição do erro: &lt; Descrição do &gt; erro Descrição do erro.</dt>
@@ -2097,7 +2098,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O suporte para seu sistema operacional expirará em breve. Executar o Microsoft Defender Antivírus em um sistema operacional sem suporte não é uma solução adequada para proteger contra ameaças.
+O suporte para seu sistema operacional expirará em breve. Executar Microsoft Defender Antivírus em um sistema operacional sem suporte não é uma solução adequada para proteger contra ameaças.
 </td>
 </tr>
 <tr>
@@ -2123,7 +2124,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O suporte para seu sistema operacional expirou. Executar o Microsoft Defender Antivírus em um sistema operacional sem suporte não é uma solução adequada para proteger contra ameaças.
+O suporte para seu sistema operacional expirou. Executar Microsoft Defender Antivírus em um sistema operacional sem suporte não é uma solução adequada para proteger contra ameaças.
 </td>
 </tr>
 <tr>
@@ -2149,7 +2150,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O suporte para seu sistema operacional expirou. O Microsoft Defender Antivírus não tem mais suporte em seu sistema operacional, parou de funcionar e não está protegendo contra ameaças de malware.
+O suporte para seu sistema operacional expirou. Microsoft Defender Antivírus não é mais suportado em seu sistema operacional, parou de funcionar e não está protegendo contra ameaças de malware.
 </td>
 </tr>
 <tr>
@@ -2175,7 +2176,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O recurso Real-Time Proteção do Microsoft Defender Antivírus encontrou um erro e falhou.
+Microsoft Defender Antivírus Real-Time proteção encontrou um erro e falhou.
 <dl>
 <dt>Recurso: &lt; Recurso , por &gt; exemplo:
 <ul>
@@ -2187,7 +2188,7 @@ O recurso Real-Time Proteção do Microsoft Defender Antivírus encontrou um err
 </dt>
 <dt>Código de Erro: &lt; Código de erro &gt; Código de resultado associado ao status da ameaça. Valores HRESULT padrão.</dt> 
 <dt>Descrição do erro: &lt; Descrição do &gt; erro Descrição do erro.</dt> 
-<dt>Motivo: o motivo pelo qual a proteção em tempo real do Microsoft Defender Antivírus reiniciou um recurso.</dt>
+<dt>Motivo: o motivo Microsoft Defender Antivírus proteção em tempo real reiniciou um recurso.</dt>
 </dl>
 </td>
 </tr>
@@ -2197,7 +2198,7 @@ Ação do usuário:
 </td>
 <td >
 Você deve reiniciar o sistema e executar uma verificação completa porque&#39;é possível que o sistema não estivesse protegido por algum tempo.
-O cliente do Microsoft Defender Antivírus&#39;recurso de proteção em tempo real encontrou um erro porque um dos serviços falhou ao iniciar. Se for seguida por uma ID de evento 3007, a falha foi temporária e o cliente antimalware foi recuperado da falha. 
+O Microsoft Defender Antivírus cliente&#39;o recurso de proteção em tempo real encontrou um erro porque um dos serviços falhou ao iniciar. Se for seguida por uma ID de evento 3007, a falha foi temporária e o cliente antimalware foi recuperado da falha. 
 </td>
 </tr>
 <tr>
@@ -2223,17 +2224,17 @@ Mensagem:
 Descrição:
 </td>
 <td >
-A Proteção em Tempo Real do Microsoft Defender Antivírus reinicie um recurso. É recomendável executar uma verificação completa do sistema para detectar todos os itens que podem ter sido faltados enquanto esse agente estava inotivo.
+Microsoft Defender Antivírus A Proteção em tempo real reinicie um recurso. É recomendável executar uma verificação completa do sistema para detectar todos os itens que podem ter sido faltados enquanto esse agente estava inotivo.
 <dl>
 <dt>Recurso: &lt; Recurso , por &gt; exemplo:
 <ul>
 <li>No Access</li>
-<li>Downloads do IE e anexos do Outlook Express</li>
+<li>Downloads e anexos do IE Outlook Express</li>
 <li>Monitoramento de comportamento</li>
 <li>Sistema de Inspeção de Rede</li>
 </ul>
 </dt>
-<dt>Motivo: o motivo pelo qual a proteção em tempo real do Microsoft Defender Antivírus reiniciou um recurso.</dt>
+<dt>Motivo: o motivo pelo qual Microsoft Defender Antivírus proteção em tempo real reiniciou um recurso.</dt>
 </dl>
 </td>
 </tr>
@@ -2268,7 +2269,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-A verificação de proteção em tempo real do Microsoft Defender Antivírus para malware e outros softwares potencialmente indesejados foi habilitada.
+Microsoft Defender Antivírus verificação de proteção em tempo real para malware e outros softwares potencialmente indesejados foram habilitados.
 </td>
 </tr>
 <tr>
@@ -2294,7 +2295,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-A verificação de proteção em tempo real do Microsoft Defender Antivírus para malware e outros softwares potencialmente indesejados foi desabilitada. 
+Microsoft Defender Antivírus verificação de proteção em tempo real para malware e outros softwares potencialmente indesejados foram desabilitados. 
 </td>
 </tr>
 <tr>
@@ -2320,12 +2321,12 @@ Mensagem:
 Descrição:
 </td>
 <td >
-A configuração do recurso de proteção em tempo real do Microsoft Defender Antivírus foi alterada.
+Microsoft Defender Antivírus configuração de recurso de proteção em tempo real foi alterada.
 <dl>
 <dt>Recurso: &lt; Recurso , por &gt; exemplo:
 <ul>
 <li>No Access</li>
-<li>Downloads do IE e anexos do Outlook Express</li>
+<li>Downloads e anexos do IE Outlook Express</li>
 <li>Monitoramento de comportamento</li>
 <li>Sistema de Inspeção de Rede</li>
 </ul>
@@ -2357,7 +2358,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-A configuração do Microsoft Defender Antivírus foi alterada. Se esse for um evento inesperado, você deve revisar as configurações, pois isso pode ser o resultado de malware.
+Microsoft Defender Antivírus configuração foi alterada. Se esse for um evento inesperado, você deve revisar as configurações, pois isso pode ser o resultado de malware.
 <dl>
 <dt>Valor antigo: &lt; Número de valor antigo &gt; Valor de configuração do antivírus antigo.</dt> 
 <dt>Novo valor: &lt; Novo número de valor &gt; Novo valor de configuração do antivírus.</dt>
@@ -2387,7 +2388,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O mecanismo do Microsoft Defender Antivírus foi encerrado devido a um erro inesperado.
+Microsoft Defender Antivírus mecanismo foi encerrado devido a um erro inesperado.
 <dl>
 <dt>Tipo de falha: &lt; Tipo de &gt; falha , por exemplo: Crash ou Hang</dt>Exception
 <dt>Code: Código de &lt; &gt; erro</dt>
@@ -2416,7 +2417,7 @@ Para solucionar problemas deste evento:<ol>
 Ação do usuário:
 </td>
 <td >
-O mecanismo de cliente do Microsoft Defender Antivírus parou devido a um erro inesperado.
+O Microsoft Defender Antivírus do cliente foi interrompido devido a um erro inesperado.
 Para solucionar problemas deste evento:
 <ol>
 <li>Execute a verificação novamente.</li>
@@ -2449,7 +2450,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-A verificação do Microsoft Defender Antivírus para malware e outros softwares potencialmente indesejados foi habilitada.
+Microsoft Defender Antivírus verificação de malware e outros softwares potencialmente indesejados foram habilitados.
 </td>
 </tr>
 <tr>
@@ -2475,7 +2476,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-A verificação do Microsoft Defender Antivírus para malware e outros softwares potencialmente indesejados está desabilitada.
+Microsoft Defender Antivírus verificação de malware e outros softwares potencialmente indesejados está desabilitado.
 </td>
 </tr>
 <tr>
@@ -2501,7 +2502,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-A verificação de vírus do Microsoft Defender Antivírus foi habilitada. 
+Microsoft Defender Antivírus verificação de vírus foi habilitada. 
 </td>
 </tr>
 <tr>
@@ -2527,7 +2528,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-A verificação de vírus do Microsoft Defender Antivírus está desabilitada. 
+Microsoft Defender Antivírus verificação de vírus está desabilitada. 
 </td>
 </tr>
 <tr>
@@ -2553,10 +2554,10 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O Microsoft Defender Antivírus entrou em um período de carência e expirará em breve. Após a expiração, este programa desabilitará a proteção contra vírus, spyware e outros softwares potencialmente indesejados.
+Microsoft Defender Antivírus entrou em um período de carência e expirará em breve. Após a expiração, este programa desabilitará a proteção contra vírus, spyware e outros softwares potencialmente indesejados.
 <dl>
-<dt>Motivo da expiração: o motivo pelo qual o Microsoft Defender Antivírus expirará.</dt> 
-<dt>Data de expiração: a data em que o Microsoft Defender Antivírus expirará.</dt>
+<dt>Motivo da expiração: o motivo Microsoft Defender Antivírus expirará.</dt> 
+<dt>Data de expiração: a data Microsoft Defender Antivírus expirará.</dt>
 </dl>
 </td>
 </tr>
@@ -2583,7 +2584,7 @@ Mensagem:
 Descrição:
 </td>
 <td >
-O período de carência do Microsoft Defender Antivírus expirou. A proteção contra vírus, spyware e outros softwares potencialmente indesejados está desabilitada.
+Microsoft Defender Antivírus período de carência expirou. A proteção contra vírus, spyware e outros softwares potencialmente indesejados está desabilitada.
 <dl>
 <dt>Motivo da expiração:</dt>
 <dt>Data de expiração: Código </dt>de erro: Código de erro Código de resultado associado ao status da 
@@ -2595,11 +2596,11 @@ O período de carência do Microsoft Defender Antivírus expirou. A proteção c
 </table>
 
 <a id="error-codes"></a>
-## Códigos de erro do cliente do Microsoft Defender Antivírus Se o Microsoft Defender Antivírus tiver algum problema, ele geralmente lhe dará um código de erro para ajudá-lo a solucionar o problema. Na maioria das vezes, um erro significa que houve um problema ao instalar uma atualização.
-Esta seção fornece as seguintes informações sobre erros de cliente do Microsoft Defender Antivírus.
+##Microsoft Defender Antivírus de erro do cliente Se Microsoft Defender Antivírus tiver problemas, ele geralmente lhe dará um código de erro para ajudá-lo a solucionar o problema. Na maioria das vezes, um erro significa que houve um problema ao instalar uma atualização.
+Esta seção fornece as informações a seguir sobre Microsoft Defender Antivírus erros do cliente.
 -   O código de -   erro O motivo possível para o erro Conselhos sobre o que fazer -   agora
 
-Use as informações nessas tabelas para ajudar a solucionar problemas de códigos de erro do Microsoft Defender Antivírus.
+Use as informações nessas tabelas para ajudar a solucionar problemas Microsoft Defender Antivírus códigos de erro.
 
 
 <table> 
@@ -2642,9 +2643,9 @@ Esse erro indica que pode haver um problema com seu produto de segurança.
 </tr><tr><td>Resolução</td><td>
 <ol>
 <li>Atualize as definições. Qualquer um deles:<ol>
-<li>Clique no <b>botão Atualizar definições</b> na guia <b>Atualizar</b> no Microsoft Defender Antivírus. <img src="images/defender-updatedefs2.png" alt="Update definitions in Microsoft Defender Antivirus"/>Ou
+<li>Clique no <b>botão Atualizar definições</b> na guia <b>Atualizar</b> em Microsoft Defender Antivírus. <img src="images/defender-updatedefs2.png" alt="Update definitions in Microsoft Defender Antivirus"/>Ou
 </li>
-<li>Baixe as definições mais recentes do <a href="https://aka.ms/wdsi">site do Microsoft Security Intelligence.</a>
+<li>Baixe as definições mais recentes do <a href="https://aka.ms/wdsi">Inteligência de Segurança da Microsoft site</a>.
 Observação: o tamanho do arquivo de definições baixado do site pode exceder 60 MB e não deve ser usado como uma solução de longo prazo para atualizar definições.
 </li>
 </ol>
@@ -2671,7 +2672,7 @@ Esse erro indica que pode haver um erro de configuração do mecanismo; normalme
 <td><b>ERR_MP_QUARANTINE_FAILED </b>
 </td></tr><tr><td>Possível motivo</td>
 <td>
-Esse erro indica que o Microsoft Defender Antivírus falhou ao colocar em quarentena uma ameaça. 
+Esse erro indica que Microsoft Defender Antivírus falhou ao colocar em quarentena uma ameaça. 
 </td>
 </tr>
 <tr>
@@ -2696,7 +2697,7 @@ Esse erro indica que a ameaça pode não estar mais presente na mídia, ou o mal
 </tr><tr><td>Resolução
 </td>
 <td>
-Execute o <a href="https://www.microsoft.com/security/scanner/default.aspx">Scanner de Segurança</a> da Microsoft e atualize seu software de segurança e tente novamente. 
+Execute o <a href="https://www.microsoft.com/security/scanner/default.aspx">Verificador de Segurança da Microsoft</a> atualize seu software de segurança e tente novamente. 
 </td>
 </tr>
 <tr>
@@ -2733,7 +2734,7 @@ Siga as etapas de correção manuais descritas na <a href="https://www.microsoft
 <td>
 Esse erro indica que a remoção dentro do tipo contêiner pode não ser suportada. 
 </td></tr><tr><td>Resolução</td><td>
-O Microsoft Defender Antivírus não é capaz de remediar ameaças detectadas dentro do arquivo morto. Considere remover manualmente os recursos detectados. 
+Microsoft Defender Antivírus é capaz de remediar ameaças detectadas dentro do arquivo morto. Considere remover manualmente os recursos detectados. 
 </td>
 </tr>
 <tr>
@@ -2769,7 +2770,7 @@ Execute uma verificação completa do sistema.
 <td>
 Esse erro indica que uma verificação offline é necessária. 
 </td></tr><tr><td>Resolução</td><td>
-Execute o Microsoft Defender Antivírus offline. Você pode ler sobre como fazer isso no artigo <a href="https://windows.microsoft.com/windows/what-is-windows-defender-offline">offline do Microsoft Defender Antivírus.</a>
+Execute o Microsoft Defender Antivírus offline. Você pode ler sobre como fazer isso no <a href="https://windows.microsoft.com/windows/what-is-windows-defender-offline">artigo Microsoft Defender Antivírus offline.</a>
 </td>
 </tr>
 <tr>
@@ -2779,13 +2780,13 @@ Execute o Microsoft Defender Antivírus offline. Você pode ler sobre como fazer
 <td><b>ERROR_MP_PLATFORM_OUTDATED<br/></b>
 </td></tr><tr><td>Possível motivo</td>
 <td>
-Esse erro indica que o Microsoft Defender Antivírus não dá suporte à versão atual da plataforma e exige uma nova versão da plataforma. 
+Esse erro indica que Microsoft Defender Antivírus não dá suporte à versão atual da plataforma e exige uma nova versão da plataforma. 
 </td></tr><tr><td>Resolução</td><td>
-Você só pode usar o Microsoft Defender Antivírus no Windows 10. Para Windows 8, Windows 7 e Windows Vista, você pode usar o <a href="https://www.microsoft.com/server-cloud/system-center/endpoint-protection-2012.aspx">System Center Endpoint Protection</a>.<br/></td>
+Você só pode usar Microsoft Defender Antivírus em Windows 10. Para Windows 8, Windows 7 e Windows Vista, você pode usar <a href="https://www.microsoft.com/server-cloud/system-center/endpoint-protection-2012.aspx">System Center Endpoint Protection</a>.<br/></td>
 </tr>
 </table>
 
-<a id="internal-error-codes"></a> Os códigos de erro a seguir são usados durante testes internos do Microsoft Defender Antivírus.
+<a id="internal-error-codes"></a>Os códigos de erro a seguir são usados durante testes internos de Microsoft Defender Antivírus.
 
 Se você vir esses erros, [](manage-updates-baselines-microsoft-defender-antivirus.md) poderá tentar atualizar definições e forçar uma nova varredura diretamente no ponto de extremidade.
 
@@ -3114,5 +3115,5 @@ Este é um erro interno. Ele pode ter disparado quando uma verificação não é
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Relatório sobre a proteção do Microsoft Defender Antivírus](report-monitor-microsoft-defender-antivirus.md)
+- [Relatório sobre Microsoft Defender Antivírus proteção](report-monitor-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)

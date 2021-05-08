@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -14,12 +14,13 @@ ms.date: 12/28/2020
 ms.reviewer: jesquive
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: fed66586dc0607989e407ecd790d2af8c40e2939
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 4ecd14e055646804d81e22da7c192988cf1e6f6f
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765726"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275247"
 ---
 # <a name="deployment-guide-for-microsoft-defender-antivirus-in-a-virtual-desktop-infrastructure-vdi-environment"></a>Guia de implantação do Microsoft Defender Antivírus em um ambiente virtual de área de trabalho (VDI)
 
@@ -112,7 +113,7 @@ Normalmente, os pacotes de inteligência de segurança são publicados uma vez a
 
 2. Insira o nome como **desempacotar inteligência de segurança.** Vá para a **guia Gatilho.** Selecione **Novo...** > **Diariamente** e selecione **OK**.
 
-3. Vá para a **guia Ações.** Selecione **Novo...** Insira **o PowerShell** no **campo Programa/Script.** Insira `-ExecutionPolicy Bypass c:\wdav-update\vdmdlunpack.ps1` no campo Adicionar **argumentos.** Clique em **OK**.
+3. Vá para a **guia Ações.** Selecione **Novo...** Insira **o PowerShell** no **campo Programa/Script.** Insira `-ExecutionPolicy Bypass c:\wdav-update\vdmdlunpack.ps1` no campo Adicionar **argumentos.** Selecione **OK**.
 
 4. Você pode optar por configurar configurações adicionais, se desejar.
 
@@ -158,7 +159,7 @@ Você pode especificar o tipo de verificação que deve ser executada durante um
 
 3. De definir a política **como Habilitado** e, em Seguida, em **Opções,** selecione  **Verificação rápida**.
 
-4. Clique em **OK**. 
+4. Selecione **OK**. 
 
 5. Implante seu objeto de Política de Grupo como você costuma fazer.
 
@@ -177,9 +178,9 @@ Você pode especificar o tipo de verificação que deve ser executada durante um
 A supressão de notificações impede que as notificações do Microsoft Defender Antivírus sejam aparecendo no Centro de Ações no Windows 10 quando as verificações são feitas ou ações de correção são tomadas. No entanto, sua equipe de operações de segurança verá os resultados da verificação no Centro de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ).
 
 > [!TIP]
-> Para abrir o Centro de Ações no Windows 10, dê uma das seguintes etapas:
+> Para abrir o Centro de Ações Windows 10, dê uma das seguintes etapas:
 > - Na extremidade direita da barra de tarefas, selecione o ícone centro de ações.
-> - Pressione o botão tecla de logotipo do Windows + A.
+> - Pressione o botão Windows tecla de logotipo + A.
 > - Em um dispositivo touchscreen, passe o dedo da borda direita da tela.
 
 ## <a name="disable-scans-after-an-update"></a>Desabilitar verificações após uma atualização
@@ -189,13 +190,13 @@ Desabilitar uma verificação após uma atualização impedirá que uma verifica
 > [!IMPORTANT]
 > Executar verificações após uma atualização ajudará a garantir que suas VMs sejam protegidas com as atualizações mais recentes de Inteligência de Segurança. Desabilitar essa opção reduzirá o nível de proteção de suas VMs e só deve ser usado ao criar ou implantar a imagem base pela primeira vez.
 
-1. No Editor de Política de Grupo, acesse **Componentes do Windows** Atualizações de Inteligência de Segurança do  >  **Microsoft Defender**  >  **Antivírus.**
+1. No Editor de Política de Grupo, acesse Windows **componentes**  >  **Microsoft Defender Antivírus**  >  **Atualizações de Inteligência de Segurança.**
 
 2. Selecione **Ativar a verificação após a atualização de inteligência de** segurança e edite a configuração de política.
 
 3. De definir a política como **Desabilitada**.
 
-4. Clique em **OK**.
+4. Selecione **OK**.
 
 5. Implante seu objeto de Política de Grupo como você costuma fazer.
 
@@ -203,13 +204,13 @@ Essa política impede que uma verificação seja executado imediatamente após u
 
 ## <a name="scan-vms-that-have-been-offline"></a>Examinar VMs que tenham sido offline
 
-1. No Editor de Política de Grupo, acesse **Componentes do Windows**  >  **Microsoft Defender**  >  **Antivírus Scan**.
+1. No Editor de Política de Grupo, vá para Windows **componentes**  >  **Microsoft Defender Antivírus**  >  **Scan**.
 
 2. Selecione **Ativar a verificação rápida de catch-up** e edite a configuração de política.
 
 3. De definir a política como **Enabled**.
 
-4. Clique em **OK**.
+4. Selecione **OK**.
 
 5. Implante seu Objeto de Política de Grupo como normalmente faz.
 
@@ -217,7 +218,7 @@ Essa política força uma verificação se a VM tiver perdido duas ou mais verif
 
 ## <a name="enable-headless-ui-mode"></a>Habilitar o modo de interface do usuário sem cabeça
 
-1. No Editor de Política de Grupo, acesse **Componentes do Windows**  >  **Microsoft Defender**  >  **Antivírus Interface do Cliente**.
+1. No Editor de Política de Grupo, vá para Windows **componentes**  >  **Microsoft Defender Antivírus**  >  **Interface do Cliente.**
 
 2. Selecione **Habilitar o modo de interface do usuário sem** cabeça e edite a política.
 
@@ -227,16 +228,16 @@ Essa política força uma verificação se a VM tiver perdido duas ou mais verif
 
 5. Implante seu Objeto de Política de Grupo como normalmente faz.
  
-Essa política oculta toda a interface do usuário do Microsoft Defender Antivírus dos usuários finais em sua organização.
+Essa política oculta toda a interface do Microsoft Defender Antivírus de usuários finais em sua organização.
 
 ## <a name="exclusions"></a>Exclusões
 
 As exclusões podem ser adicionadas, removidas ou personalizadas para atender às suas necessidades.
 
-Para obter mais informações, [consulte Configure Microsoft Defender Antivírus exclusions on Windows Server](configure-exclusions-microsoft-defender-antivirus.md).
+Para obter mais informações, consulte [Configure Microsoft Defender Antivírus exclusões no Windows Server](configure-exclusions-microsoft-defender-antivirus.md).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [Blog da Comunidade Técnica: Configurando o Microsoft Defender Antivírus para máquinas VDI não persistentes](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/configuring-microsoft-defender-antivirus-for-non-persistent-vdi/ba-p/1489633)
+- [Blog Community de tecnologia: configurando Microsoft Defender Antivírus para máquinas VDI não persistentes](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/configuring-microsoft-defender-antivirus-for-non-persistent-vdi/ba-p/1489633)
 - [Fóruns do TechNet em Serviços de Área de Trabalho Remota e VDI](https://social.technet.microsoft.com/Forums/windowsserver/en-US/home?forum=winserverTS)
 - [Script signatureDownloadCustomTask PowerShell](https://www.powershellgallery.com/packages/SignatureDownloadCustomTask/1.4)

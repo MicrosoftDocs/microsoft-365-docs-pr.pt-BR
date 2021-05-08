@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,19 +13,20 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-search.appverid:
-- MET150
+search.appverid: MET150
 description: Saiba quais opções de pagamento estão disponíveis para pagar sua assinatura com um perfil de cobrança.
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-- commerce
-ms.openlocfilehash: be89c2d355202dd8ca8698ac735cbb384bb8ef06
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+- commerce_billing
+- PPM_jmueller
+ms.date: 04/02/2021
+ms.openlocfilehash: 00c1fdca0f1ba227dcd10dffb7c46b03618593e7
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579765"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280854"
 ---
 # <a name="how-to-pay-for-your-subscription-with-a-billing-profile"></a>Como pagar sua assinatura com um perfil de cobrança
 
@@ -62,6 +64,7 @@ Se seu perfil de cobrança tiver o suporte de uma fatura, você recebe um email 
  **Selecione o país ou a região de fatura no menu suspenso abaixo.**
 
 > [!div class="op_single_selector"]
+>
 > - **Escolha seu país ou região**
 > - [Afeganistão](../pay/afghanistan.md)
 > - [Albânia](../pay/albania.md)
@@ -217,7 +220,7 @@ Se seu perfil de cobrança tiver o suporte de uma fatura, você recebe um email 
 
 ## <a name="can-i-pay-my-invoice-online"></a>Posso pagar minha fatura online?
 
-Se a cobrança recorrente estiver desligada para seu perfil de cobrança, você poderá usar um cartão de crédito para pagar sua fatura online. Para fazer um pagamento, use o **botão Pagar agora** em sua fatura no Centro de administração do Microsoft 365. Para encontrar sua fatura, consulte [Exibir sua fatura ou fatura](view-your-bill-or-invoice.md).
+Se a cobrança recorrente estiver desligada para seu perfil de cobrança, você poderá usar um cartão de crédito para pagar sua fatura online. Para fazer um pagamento, use o botão **Pagar agora** em sua fatura no Microsoft 365 de administração. Para encontrar sua fatura, consulte [Exibir sua fatura ou fatura](view-your-bill-or-invoice.md).
 
 ## <a name="can-i-change-from-my-current-payment-method-to-paying-by-invoice"></a>Posso mudar do meu método de pagamento atual para o pagamento por fatura?
 

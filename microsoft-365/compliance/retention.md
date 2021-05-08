@@ -19,19 +19,21 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 2c63f668cd4ccbad55a883aaf2b245c4936e25eb
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 89a3544c390fdeceea3741a950aad8fe29da25c4
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860950"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245583"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
-> Se estiver vendo mensagens sobre políticas de retenção em seus aplicativos, entre em contato com seu departamento de TI para obter informações sobre como elas foram configuradas para você. Se essas mensagens forem sobre o chat do Teams ou mensagens de canal, confira [Mensagens do Teams sobre políticas de retenção](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b).
+> Se estiver vendo mensagens sobre políticas de retenção no Teams ou tiver dúvidas sobre os rótulos de retenção de seus aplicativos, entre em contato com seu departamento de TI para obter informações sobre como elas foram configuradas para você. Enquanto isso, você poderá encontrar os seguintes artigos úteis:
+> -  [Mensagens do Teams sobre políticas de retenção](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)
+> - [Aplicar rótulos de retenção a arquivos no SharePoint ou no OneDrive](https://support.microsoft.com/office/apply-retention-labels-to-files-in-sharepoint-or-onedrive-11a6835b-ec9f-40db-8aca-6f5ef18132df)
 >
 > As informações desta página são para administradores de TI que podem criar políticas de retenção e rótulos de retenção por motivos de conformidade.
 
@@ -470,8 +472,4 @@ Se você configurou sites do SharePoint para políticas de tipo de conteúdo ou 
 
 ## <a name="configuration-guidance"></a>Instruções de configuração
 
-Se você estiver pronto para criar políticas de retenção, consulte [Criar e configurar as políticas de retenção](create-retention-policies.md).
-
-Para criar e aplicar rótulos de retenção:
-- [Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)
-- [Aplicar um rótulo de retenção automaticamente ao conteúdo](apply-retention-labels-automatically.md)
+Consulte [Introdução às políticas de retenção e rótulos de retenção](get-started-with-retention.md). Este artigo tem informações sobre assinaturas, permissões e links para orientações de configuração de ponta a ponta para cenários de retenção.

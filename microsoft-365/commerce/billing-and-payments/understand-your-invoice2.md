@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,25 +13,21 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
-- commerce
 ms.custom:
 - TopSMBIssues
 - okr_smb
 - AdminSurgePortfolio
-search.appverid:
-- BCS160
-- MET150
-- MOE150
-- BEA160
-ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
+- commerce_billing
+- PPM_jmueller
+search.appverid: MET150
 description: Saiba como interpretar as cobranças, as faturas e as informações de pagamento na fatura do Microsoft 365 para Empresas e como alterar o número da ordem de compra.
-ms.openlocfilehash: b89ca38bf5d7b1d82982668dcd98e9979f1657be
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.date: 05/04/2021
+ms.openlocfilehash: 9eb9d063b3634269600d5f6566e9e5f373ab08c2
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245011"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280480"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Compreenda sua conta ou fatura para o Microsoft 365 para Empresas
 
@@ -96,7 +93,7 @@ A tabela a seguir descreve os campos exibidos na fatura. Alguns campos listados 
 |Endereço de Uso do Serviço|O endereço no qual o serviço está sendo usado normalmente é o mesmo endereço descrito no campo Vendido para. Para atualizar o Endereço de Uso do Serviço, confira o artigo [Alterar seu endereço de cobrança](change-your-billing-addresses.md).|
 |Vendido Para|O nome e o endereço de sua empresa. Para atualizar essa informação, confira o artigo [Alterar o endereço, o email de contato técnico e outras informações da organização](../../admin/manage/change-address-contact-and-more.md).  |
 |Subtotal|Cada assinatura descrita na fatura tem uma linha de Subtotal distinta para todas as colunas de Encargos, Descontos, Créditos, Subtotal, Impostos e Total.|
-|Imposto|A página 1 mostra o total de impostos da fatura. A página 2 mostra a taxa de imposto aplicada e o valor total de impostos de cada item da linha. Caso sua empresa traga a isenção de impostos na fatura, [fale com o suporte](../../admin/contact-support-for-business-products.md).  |
+|Imposto|A página 1 mostra o total de impostos da fatura. A página 2 mostra a taxa de imposto aplicada e o valor total de impostos de cada item da linha. Caso sua empresa traga a isenção de impostos na fatura, [fale com o suporte](../../business-video/get-help-support.md).  |
 |Total|O valor devido para o Período de Cobrança da fatura.|
 
 ## <a name="change-your-purchase-order-number"></a>Mudar o número da OC
@@ -109,6 +106,7 @@ Se paga por fatura, você pode adicionar ou alterar o número da OC (ordem de co
 ::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
@@ -120,16 +118,16 @@ Se paga por fatura, você pode adicionar ou alterar o número da OC (ordem de co
 ::: moniker range="o365-21vianet"
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Seus produtos</a>.
+
 ::: moniker-end
 
 1. Na guia **Produtos**, encontre a assinatura que quer alterar.
 
-1. Na página detalhes da assinatura, na seção **Configurações** de assinatura e pagamento, selecione **Editar fatura**. 
+1. Na página detalhes da assinatura, na seção **Configurações** de assinatura e pagamento, selecione **Editar fatura**.
 
 1. Na parte inferior do **painel Editar detalhes para pagar** pelo painel de voz, insira seu número de PO e selecione **Salvar**.
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Pague sua assinatura do Microsoft 365 para Empresas](pay-for-your-subscription.md)
-
-[Opções de pagamento do Minecraft: Education Edition](/education/windows/school-get-minecraft)
+[Pagar por sua assinatura Microsoft 365 para empresas](pay-for-your-subscription.md) (artigo)\
+[Minecraft: Education Edition, opções de pagamento](/education/windows/school-get-minecraft) (artigo) \

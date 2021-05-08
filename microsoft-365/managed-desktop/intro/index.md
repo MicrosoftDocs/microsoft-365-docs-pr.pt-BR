@@ -10,12 +10,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 73ce64bd83b475cc7cc0f78b6ac4a06683264144
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 36745a0aafb70e7921c19db7c28984dcca1e2a63
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445549"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245523"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de trabalho gerenciada da Microsoft?
 
@@ -57,7 +57,7 @@ Os administradores de TI se beneficiam dos seguintes recursos:
 ## <a name="device-management"></a>Gerenciamento de dispositivo
 A Área de Trabalho Gerenciada da Microsoft assume o trabalho de gerenciar dispositivos registrados e o software da Microsoft que eles usam.
 
-- **Hardware:** Ao invés de seu departamento de TI ter que pesquisar e testar dispositivos (e seus drivers), dispositivos específicos são cuidadosamente testados pela Área de Trabalho Gerenciada da Microsoft, o que resulta em uma [lista de dispositivos](../service-description/device-list.md) organizada que atende aos requisitos de desempenho de nível empresarial e tem a garantia de que eles funcionem com o serviço. Você pode obter os dispositivos por conta própria (ou trabalhar com um parceiro) ou reutilizar dispositivos já existentes, desde que eles estejam na lista aprovada. O registro de dispositivos é fácil e rápido e, antes que eles sejam implantados, você também pode [personalizar](../working-with-managed-desktop/config-setting-overview.md) determinados aspectos da experiência de dispositivos para os usuários.
+- **Hardware:** Em vez de seu departamento de TI ter que pesquisar e descobrir se um dispositivo é compatível com o serviço, fornecemos requisitos específicos de hardware e software, ferramentas e processos para simplificar a seleção para que você possa escolher dispositivos com confiança. Você pode encontrar dispositivos recomendados filtrando a Área de Trabalho Gerenciada da Microsoft no site [Compre dispositivos Windows 10 Pro business](https://www.microsoft.com/windowsforbusiness/view-all-devices). Você pode obter os dispositivos por conta própria (ou trabalhar com um parceiro) ou reutilizar dispositivos já existentes, desde que eles estejam na lista aprovada. O registro de dispositivos é fácil e rápido e, antes que eles sejam implantados, você também pode [personalizar](../working-with-managed-desktop/config-setting-overview.md) determinados aspectos da experiência de dispositivos para os usuários.
 
 - **Atualizações:** A Área de Trabalho Gerenciada da Microsoft configura e gerencia todos os aspectos de [grupos de implantação](../service-description/updates.md) para as atualizações de recursos e qualidade do Windows 10, drivers, firmware, definições de antivírus e atualizações do Microsoft 365 Apps para Grandes Empresas. Isso inclui os testes abrangentes e a verificação de todas as atualizações, o que garante que os dispositivos registrados estejam sempre atualizados e minimize as interrupções, liberando o seu departamento de TI por toda a tarefa.
 
@@ -66,7 +66,7 @@ A Área de Trabalho Gerenciada da Microsoft assume o trabalho de gerenciar dispo
 
 ## <a name="device-monitoring"></a>Monitoramento de dispositivo
 
-Ajudamos a manter a segurança dos seus dispositivos com um centro de operações de segurança dedicado que monitora seus dispositivos e usa dados das ameaças únicas que a Microsoft analisa mensalmente. Esses recursos de segurança são integrados, em vez de adicionados mais tarde.
+Ajudamos a manter a segurança dos seus dispositivos com um centro de operações de segurança dedicado que monitora seus dispositivos e usa dados das ameaças únicas que a Microsoft analisa mensalmente. Esses recursos de segurança são integrados em vez de adicionados posteriormente.
 
 Além disso, monitoramos a integridade do dispositivo e fornecemos percepções sobre o desempenho do dispositivo. Saiba mais em [Operação e monitoramento da Área de Trabalho Gerenciada da Microsoft](../service-description/operations-and-monitoring.md).
 

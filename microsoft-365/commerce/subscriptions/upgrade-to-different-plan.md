@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,20 +13,20 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_NonTOC
-- commerce
 ms.custom:
 - SaRA
 - AdminSurgePortfolio
-search.appverid:
-- MET150
+- commerce_subscriptions
+- PPM_jmueller
+search.appverid: MET150
 description: Saiba como atualizar para um plano diferente.
-ms.openlocfilehash: c8d71e6ab79bfea35334f2c034dbc13f60397227
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.date: 04/21/2021
+ms.openlocfilehash: d9adf8bb18279d5057278a7c55cd751838325bc2
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939167"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280434"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Atualizar para um plano diferente
 
@@ -36,20 +37,13 @@ Quando sua empresa muda ou você precisa de mais recursos, você pode atualizar 
 Quando você usa **a** guia Atualização, você é conduzido pelo processo de compra de um novo plano. Todos os usuários são atribuídos automaticamente a licenças no novo plano e seu plano antigo é cancelado para você.
 
 1. No Centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">seus</a> produtos.
-
 2. Selecione a assinatura que você deseja atualizar.
-
 3. Na página detalhes da assinatura, selecione **Atualizar**.
-
 4. Encontre o plano ao qual você deseja atualizar e selecione o **botão Atualizar.**
-
 5. Insira o número de licenças de que você precisa, escolha se deve pagar por mês ou por todo o ano e selecione **Ir para check-out**.
-
     > [!NOTE]
     > Certifique-se de comprar licenças suficientes para abranger todos os usuários.
-
 6. Na próxima página, verifique o **endereço Vendido para,** o **Cobrado para** informações e Itens **nesta ordem**. Você pode alterar o método de pagamento padrão nesta etapa. Se precisar fazer alterações, selecione **Alterar** ao lado da seção aplicável.
-
 7. Quando terminar, selecione **Colocar ordem**.
 
 Quando você terminar o check-out, pode levar alguns minutos para finalizar a atualização. Você pode começar a usar sua nova assinatura imediatamente. Selecione **Verificar o status da atualização** para verificar o andamento da atualização. Você será notificado quando a atualização for concluída. A notificação é exibida na página **Seus** produtos, ao lado da nova assinatura.
@@ -62,7 +56,7 @@ Se a **guia** Atualização estiver vazia, você verá uma explicação do motiv
 
 Quando você usa a guia **Atualização,** os planos para os quais você pode atualizar são exibidos com base nos serviços em seu plano atual. Você só pode usar a guia **Atualização** para mover para um plano que tenha os mesmos serviços relacionados a dados ou para uma versão mais alta. Isso garante que os usuários não percam dados relacionados a esses serviços durante a alteração.
 
-Se você quiser mudar para um plano com menos serviços, poderá alterar os planos [manualmente](change-plans-manually.md)ou chamar [suporte para](../../admin/contact-support-for-business-products.md) ajuda.
+Se você quiser mudar para um plano com menos serviços, poderá alterar os planos [manualmente](change-plans-manually.md)ou chamar [suporte para](../../business-video/get-help-support.md) ajuda.
 
 ## <a name="i-only-want-to-upgrade-some-of-my-users-how-do-i-do-that"></a>Só quero atualizar alguns dos meus usuários. Como faço isso?
 
@@ -80,43 +74,43 @@ Se você não vir nenhum plano na guia **Atualização,** isso significa que seu
 
 ### <a name="why-are-there-no-plans-listed-to-upgrade"></a>Por que não há planos listados para atualização?
 
-#### <a name="you-cant-upgrade-subscriptions-now-because-you-have-more-users-than-licenses"></a>Não é possível atualizar assinaturas agora porque você tem mais usuários do que licenças.
+#### <a name="you-cant-upgrade-subscriptions-now-because-you-have-more-users-than-licenses"></a>Não é possível atualizar assinaturas agora porque você tem mais usuários do que licenças
 
-Para atualizar os planos automaticamente, todos os usuários precisam receber licenças válidas. Se você tiver atribuído mais licenças do que comprou, verá um alerta na página <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a> informando que há um conflito de licenças que precisa ser resolvido. [Saiba como resolver conflitos de licença](../../commerce/licenses/buy-licenses.md). Depois de resolver quaisquer conflitos de licenciamento, você deverá ver os planos listados **na** guia Atualização. Caso não seja, você pode [alterar os planos manualmente](change-plans-manually.md)ou [chamar o suporte](../../admin/contact-support-for-business-products.md).
+Para atualizar os planos automaticamente, todos os usuários precisam receber licenças válidas. Se você tiver atribuído mais licenças do que comprou, verá um alerta na página <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a> informando que há um conflito de licenças que precisa ser resolvido. [Saiba como resolver conflitos de licença](../../commerce/licenses/buy-licenses.md). Depois de resolver quaisquer conflitos de licenciamento, você deverá ver os planos listados **na** guia Atualização. Caso não seja, você pode [alterar os planos manualmente](change-plans-manually.md)ou [chamar o suporte](../../business-video/get-help-support.md).
 
-#### <a name="you-cant-upgrade-subscriptions-right-now-because-this-subscription-isnt-fully-set-up-or-the-service-isnt-available"></a>Você não pode atualizar assinaturas agora porque essa assinatura não está totalmente configurada ou o serviço não está disponível.
+#### <a name="you-cant-upgrade-subscriptions-right-now-because-this-subscription-isnt-fully-set-up-or-the-service-isnt-available"></a>Você não pode atualizar assinaturas agora porque essa assinatura não está totalmente configurada ou o serviço não está disponível
 
 Por exemplo, se um dos serviços tiver um incidente, você não poderá atualizar até que todos os serviços sejam saudáveis. Para ver se há problemas de provisionamento ou de saúde do serviço, no centro de administração, acesse a página **de** saúde \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">do Serviço de</a> Saúde.
 
-Se você acha que um serviço não está totalmente provisionado ou que está com um problema de integridade, aguarde algumas horas para que o serviço fique disponível e tente novamente. Se você ainda tiver um problema, chame [o suporte](../../admin/contact-support-for-business-products.md).
+Se você acha que um serviço não está totalmente provisionado ou que está com um problema de integridade, aguarde algumas horas para que o serviço fique disponível e tente novamente. Se você ainda tiver um problema, chame [o suporte](../../business-video/get-help-support.md).
 
-#### <a name="you-cant-upgrade-plans-because-another-plan-is-in-the-process-of-being-upgraded-or-is-pending-a-credit-check"></a>Não é possível atualizar planos porque outro plano está em processo de atualização ou está aguardando uma verificação de crédito.
+#### <a name="you-cant-upgrade-plans-because-another-plan-is-in-the-process-of-being-upgraded-or-is-pending-a-credit-check"></a>Você não pode atualizar os planos porque outro plano está em processo de atualização ou está aguardando uma verificação de crédito
 
 Aguarde até que a verificação de crédito tenha sido concluída antes de atualizar os planos. As verificações de crédito podem levar até dois dias úteis.
 
-#### <a name="currently-this-subscription-is-not-eligible-to-upgrade"></a>Atualmente, essa assinatura não está qualificada para atualização.
+#### <a name="currently-this-subscription-is-not-eligible-to-upgrade"></a>Atualmente, essa assinatura não está qualificada para atualização
 
-Você pode [alterar os planos manualmente ou](change-plans-manually.md) chamar o [suporte](../../admin/contact-support-for-business-products.md).
+Você pode [alterar os planos manualmente ou](change-plans-manually.md) chamar o [suporte](../../business-video/get-help-support.md).
 
-#### <a name="i-see-a-different-message-than-whats-listed-here"></a>Eu vejo uma mensagem diferente da listada aqui.
+#### <a name="i-see-a-different-message-than-whats-listed-here"></a>Eu vejo uma mensagem diferente do que está listado aqui
 
-Você pode [alterar os planos manualmente ou](change-plans-manually.md) chamar o [suporte](../../admin/contact-support-for-business-products.md).
+Você pode [alterar os planos manualmente ou](change-plans-manually.md) chamar o [suporte](../../business-video/get-help-support.md).
 
 ### <a name="additional-reasons-you-cant-upgrade"></a>Motivos adicionais que não podem ser atualizados
 
 #### <a name="you-have-two-or-more-plans-for-the-same-product"></a>Você tem dois ou mais planos para o mesmo produto
 
-Você só poderá usar a guia **Atualização** se todos os usuários assinarem o mesmo plano. Por exemplo, se você tiver dois planos do Microsoft 365 Business Standard, não poderá atualizar automaticamente um deles para outro plano.
+Você só poderá usar a guia **Atualização** se todos os usuários assinarem o mesmo plano. Por exemplo, se você tiver dois planos Microsoft 365 Business Standard, não poderá atualizar automaticamente um deles para outro plano.
 
 #### <a name="you-have-a-prepaid-plan"></a>Você tem um plano pré-pago
 
 Se você pagou pela sua assinatura com antecedência, talvez seja possível alterar [os planos manualmente](change-plans-manually.md). No entanto, você não receberá um crédito pelo tempo nãousado restante em sua assinatura atual se você atualizar os planos antes que o plano atual expire.
 
-Você também pode [chamar suporte](../../admin/contact-support-for-business-products.md) para ajuda.
+Você também pode [chamar suporte](../../business-video/get-help-support.md) para ajuda.
 
 #### <a name="you-have-a-government-or-non-profit-plan"></a>Você tem um plano para instituições sem fins lucrativos ou governamentais
 
-Se você tiver um plano governamental ou sem fins lucrativos, poderá [alterar os planos manualmente](change-plans-manually.md) ou chamar [suporte para](../../admin/contact-support-for-business-products.md) ajuda.
+Se você tiver um plano governamental ou sem fins lucrativos, poderá [alterar os planos manualmente](change-plans-manually.md) ou chamar [suporte para](../../business-video/get-help-support.md) ajuda.
 
 #### <a name="the-subscription-that-you-want-to-upgrade-from-has-a-temporary-issue"></a>A assinatura que você deseja atualizar tem um problema temporário
 
@@ -124,9 +118,9 @@ Você pode não ver nenhum plano na guia **Atualização** porque o serviço est
 
 #### <a name="the-plan-that-you-want-to-upgrade-to-isnt-a-supported-option"></a>O plano para o qual você deseja atualizar não é uma opção suportada
 
-Quando você atualiza planos, os planos que estão disponíveis para você atualizar são exibidos com base nos serviços em seu plano atual. Você só pode atualizar para um plano que tenha os mesmos serviços relacionados a dados, como o Exchange Online ou o SharePoint Online, ou para uma versão mais alta deles. Isso garante que os usuários não \' percam dados relacionados a esses serviços durante a atualização.
+Quando você atualiza planos, os planos que estão disponíveis para você atualizar são exibidos com base nos serviços em seu plano atual. Você só pode atualizar para um plano que tenha os mesmos serviços relacionados a dados, como Exchange Online ou SharePoint Online, ou para uma versão mais alta deles. Isso garante que os usuários não \' percam dados relacionados a esses serviços durante a atualização.
 
-Se seu plano não estiver qualificado para atualizar os planos automaticamente, você poderá alterar [os planos manualmente](change-plans-manually.md), em vez disso. Você também pode [chamar suporte](../../admin/contact-support-for-business-products.md) para ajuda.
+Se seu plano não estiver qualificado para atualizar os planos automaticamente, você poderá alterar [os planos manualmente](change-plans-manually.md), em vez disso. Você também pode [chamar suporte](../../business-video/get-help-support.md) para ajuda.
 
 #### <a name="your-subscription-has-an-add-on"></a>Sua assinatura tem um complemento
 
@@ -142,19 +136,19 @@ Quando você atualiza os planos automaticamente  usando o botão **Mudar** plano
 
 ### <a name="access-to-services"></a>Acesso aos serviços
 
- **Os administradores** não poderão usar o centro de administração enquanto o plano estiver sendo atualizado. Isso pode levar até uma hora.
+**Os administradores** não poderão usar o centro de administração enquanto o plano estiver sendo atualizado. Isso pode levar até uma hora.
   
- Os **Usuários** não perceberão qualquer interrupção do serviço. Eles continuarão a ter o serviço existente até que a atualização seja completada.
+Os **Usuários** não perceberão qualquer interrupção do serviço. Eles continuarão a ter o serviço existente até que a atualização seja completada.
   
 ### <a name="users-and-licenses"></a>Usuários e licenças
 
 Os usuários com assinaturas antigas serão movidos automaticamente para as novas assinaturas.
   
-Se sua assinatura antiga incluir vários serviços e se você tiver alterado qual desses serviços seus usuários serão atribuídos, talvez você queira tomar nota disso antes de atualizar os planos para que possa recriar essas alterações posteriormente. Todos os usuários terão acesso a todos os serviços da nova assinatura. Por exemplo, se você comprou anteriormente o Microsoft 365 Business Premium para todos os 100 de seus usuários, mas não atribuiu o serviço do SharePoint Online de 50 deles, essa alteração não será mantida após a atualização dos planos.
+Se sua assinatura antiga incluir vários serviços e se você tiver alterado qual desses serviços seus usuários serão atribuídos, talvez você queira tomar nota disso antes de atualizar os planos para que possa recriar essas alterações posteriormente. Todos os usuários terão acesso a todos os serviços da nova assinatura. Por exemplo, se você comprou o Microsoft 365 Business Premium para todos os 100 usuários, mas não foi atribuído o serviço SharePoint Online de 50 deles, essa alteração não será mantida após a atualização dos planos.
   
 Se você tiver mais de uma assinatura antes de atualizar planos e tiver licenças atribuídas aos usuários para mais de uma assinatura, esse padrão de atribuição será mantido o máximo possível na nova assinatura.
   
-Todos os dados do usuário serão mantidos durante a atualização, incluindo caixas de correio do Exchange e documentos do SharePoint Online, listas e outras informações.
+Todos os dados do usuário serão mantidos durante a atualização, incluindo Exchange caixas de correio e SharePoint documentos online, listas e outras informações.
   
 ### <a name="billing"></a>Cobrança
 
@@ -167,10 +161,9 @@ No dia em que a atualização do plano for concluída, a cobrança em sua assina
 
 ## <a name="call-support-to-help-you-upgrade-plans"></a>Suporte a chamada para ajudá-lo a atualizar planos
 
-[Chamar o suporte da Microsoft](../../admin/contact-support-for-business-products.md)
+[Chamar o suporte da Microsoft](../../business-video/get-help-support.md)
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Alterar planos manualmente](change-plans-manually.md)
-
-[Fazer o back up de dados antes de alternar o Microsoft 365 para planos de negócios](back-up-data-before-switching-plans.md)
+[Alterar planos manualmente](change-plans-manually.md) (artigo)\
+[Fazer o back up de dados antes de alternar Microsoft 365 para planos de negócios](back-up-data-before-switching-plans.md) (artigo)

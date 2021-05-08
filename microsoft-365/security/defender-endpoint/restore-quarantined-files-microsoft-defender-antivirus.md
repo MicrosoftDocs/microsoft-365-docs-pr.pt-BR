@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,13 @@ ms.date: 05/20/2020
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 3de9ddfc0cab12d2eea717c5d6b01e5b70b21213
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: e0253c4ac7d92c91e3fda45681568d721645f2b0
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765786"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275379"
 ---
 # <a name="restore-quarantined-files-in-microsoft-defender-av"></a>Restaurar arquivos em quarentena no Microsoft Defender AV
 
@@ -31,9 +32,9 @@ ms.locfileid: "51765786"
 
 - [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
 
-Se o Microsoft Defender Antivírus estiver configurado para detectar e remediar ameaças em seu dispositivo, o Microsoft Defender Antivírus colocará em quarentena arquivos suspeitos. Se você tiver certeza de que um arquivo em quarentena não é uma ameaça, poderá restaurá-lo.
+Se Microsoft Defender Antivírus estiver configurado para detectar e remediar ameaças em seu dispositivo, Microsoft Defender Antivírus em quarentena arquivos suspeitos. Se você tiver certeza de que um arquivo em quarentena não é uma ameaça, poderá restaurá-lo.
 
-1. Abra **o Windows Security**.
+1. Abra **Segurança do Windows**.
 2. Selecione **Proteção contra & vírus e** clique em Histórico de **proteção.**
 3. Na lista de todos os itens recentes, filtre em **Itens em Quarentena.**
 4. Selecione um item que você deseja manter e tome uma ação, como restaurar.
@@ -47,4 +48,4 @@ Se o Microsoft Defender Antivírus estiver configurado para detectar e remediar 
 - [Revisar resultados da verificação](review-scan-results-microsoft-defender-antivirus.md)
 - [Configurar e validar exclusões com base no nome do arquivo, extensão e local da pasta](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 - [Configurar e validar exclusões para arquivos abertos por processos](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
-- [Configurar exclusões do Microsoft Defender Antivírus no Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)
+- [Configurar Microsoft Defender Antivírus exclusões no Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)

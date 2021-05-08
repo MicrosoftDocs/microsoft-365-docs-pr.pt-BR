@@ -1,25 +1,26 @@
 ---
-title: Configurar o período de tempo de bloqueio de nuvem do Microsoft Defender Antivírus
-description: Você pode configurar por quanto tempo o Microsoft Defender Antivírus impedirá a execução de um arquivo enquanto aguarda uma determinação na nuvem.
-keywords: Microsoft Defender Antivírus, antimalware, segurança, defender, nuvem, tempo decoro, bloqueio, ponto, segundos
+title: Configurar o período Microsoft Defender Antivírus tempo de bloqueio de nuvem
+description: Você pode configurar por quanto Microsoft Defender Antivírus impedirá que um arquivo seja executado enquanto aguarda uma determinação na nuvem.
+keywords: Microsoft Defender Antivírus, antimalware, segurança, defensor, nuvem, tempo decoro, bloqueio, ponto, segundos
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 372d679f45d6f87392b612f757e6bdf1c6c6b9ad
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 02b8ee1c73116718d771847a43d6334e0723bd5c
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765798"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275297"
 ---
 # <a name="configure-the-cloud-block-timeout-period"></a>Configurar o período de tempo limite de bloqueio da nuvem
 
@@ -30,9 +31,9 @@ ms.locfileid: "51765798"
 
 - [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
 
-Quando o Microsoft Defender Antivírus encontra um arquivo suspeito, ele pode impedir que o arquivo seja executado enquanto ele consulta o serviço de nuvem [do Microsoft Defender Antivírus.](cloud-protection-microsoft-defender-antivirus.md)
+Quando Microsoft Defender Antivírus um arquivo suspeito, ele pode impedir que o arquivo seja executado enquanto ele consulta o serviço Microsoft Defender Antivírus [nuvem](cloud-protection-microsoft-defender-antivirus.md).
 
-O período padrão em que o arquivo será [bloqueado](configure-block-at-first-sight-microsoft-defender-antivirus.md) é de 10 segundos. Você pode especificar um período adicional de tempo para aguardar antes que o arquivo possa ser executado. Isso pode ajudar a garantir que haja tempo suficiente para receber uma determinação adequada do serviço de nuvem do Microsoft Defender Antivírus.
+O período padrão em que o arquivo será [bloqueado](configure-block-at-first-sight-microsoft-defender-antivirus.md) é de 10 segundos. Você pode especificar um período adicional de tempo para aguardar antes que o arquivo possa ser executado. Isso pode ajudar a garantir que haja tempo suficiente para receber uma determinação adequada do serviço Microsoft Defender Antivírus nuvem.
 
 ## <a name="prerequisites-to-use-the-extended-cloud-block-timeout"></a>Pré-requisitos para usar o tempo de tempo de bloqueio estendido na nuvem
 
@@ -46,7 +47,7 @@ Você pode usar a Política de Grupo para especificar um tempo de tempo estendid
 
 2. No Editor **de Gerenciamento de Política de Grupo,** acesse **Configuração do** computador e clique em Modelos **administrativos.**
 
-3. Expanda a árvore para **componentes do Windows > o Microsoft Defender Antivírus > MpEngine**
+3. Expanda a árvore para **Windows componentes > Microsoft Defender Antivírus > MpEngine**
 
 4. Clique duas vezes em **Configurar verificação de nuvem estendida** e certifique-se de que a opção está habilitada. Especifique o tempo adicional para impedir que o arquivo seja executado enquanto aguarda uma determinação na nuvem. Você pode especificar o tempo adicional, em segundos, de 1 segundo a 50 segundos. Este tempo será adicionado aos 10 segundos padrão.
 
