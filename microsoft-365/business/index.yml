@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: Recursos do Microsoft 365 Business Premium
-summary: O Microsoft 365 Business Premium (antigo Microsoft 365 Business) é um serviço de assinatura abrangente para empresas com menos de 300 funcionários. Ele integra seus serviços e aplicativos de produtividade do Office, bem como as ferramentas de colaboração, como o Microsoft Teams com recursos avançados de segurança e gerenciamento de dispositivos.
+summary: 'O Microsoft 365 Business Premium (antigo Microsoft 365 Business) é um serviço de assinatura abrangente para empresas com menos de 300 funcionários. Ele integra seus serviços e aplicativos de produtividade do Office, bem como as ferramentas de colaboração, como o Microsoft Teams com recursos avançados de segurança e gerenciamento de dispositivos.'
 brand: m365
 metadata:
   title: Recursos do Microsoft 365 Business Premium
@@ -12,203 +12,197 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: d53a1a75439fc1922f4b3facebb483298cfe9919
-  ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
-  ms.translationtype: HT
-  ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/25/2021
-  ms.locfileid: "51198108"
 productDirectory:
   title: Trabalho remoto seguro com o Microsoft 365 Business Premium
   items:
-  - title: Ler
-    imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
-    summary: Melhores maneiras de habilitar o trabalho remoto seguro com o Microsoft 365 Business Premium.
-    url: https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/using-microsoft-365-business-to-secure-your-remote-workforce/ba-p/1298623
-  - title: Obtenha o kit de parceria gratuito
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
-    summary: Orientação prática e acesso aos recursos de mercado para parceiros para proteção do trabalho remoto.
-    url: https://aka.ms/SMBSecurityKit
-  - title: Quais são as novidades?
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
-    summary: O gerenciamento de antivírus e a impressão universal agora estão disponíveis no Microsoft 365 Business Premium.
-    url: https://aka.ms/M365BPQ1Update
-  - title: Junte-se à série de webinários de parceiros
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
-    summary: Acelere o crescimento dos negócios por meio de serviços gerenciados com o Microsoft 365 Business Premium.
-    url: https://aka.ms/acceleratewithm365bp
+    - title: Ler
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/sign-up-blue.svg'
+      summary: Melhores maneiras de habilitar o trabalho remoto seguro com o Microsoft 365 Business Premium.
+      url: 'https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/using-microsoft-365-business-to-secure-your-remote-workforce/ba-p/1298623'
+    - title: Obtenha o kit de parceria gratuito
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg'
+      summary: Orientação prática e acesso aos recursos de mercado para parceiros para proteção do trabalho remoto.
+      url: 'https://aka.ms/SMBSecurityKit'
+    - title: Quais são as novidades?
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
+      summary: O gerenciamento de antivírus e a impressão universal agora estão disponíveis no Microsoft 365 Business Premium.
+      url: 'https://aka.ms/M365BPQ1Update'
+    - title: Junte-se à série de webinários de parceiros
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg'
+      summary: Acelere o crescimento dos negócios por meio de serviços gerenciados com o Microsoft 365 Business Premium.
+      url: 'https://aka.ms/acceleratewithm365bp'
 conceptualContent:
   items:
-  - title: O que é o Microsoft 365 Business Premium?
-    links:
-    - url: microsoft-365-business-overview.md
-      itemType: overview
-      text: Visão geral
-    - url: https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
-      itemType: video
-      text: Treinamento do Microsoft 365 Business Premium
-    - url: /office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb
-      itemType: overview
-      text: Comparar planos
-    - url: /office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description
-      itemType: reference
-      text: Descrição de serviço
-    - url: support/microsoft-365-business-faqs.yml
-      itemType: reference
-      text: Perguntas frequentes
-  - title: Configurar o Microsoft 365 Business Premium
-    links:
-    - url: set-up.md
-      itemType: how-to-guide
-      text: 1. Executar o assistente de configuração
-    - url: secure-win-10-pcs.md
-      itemType: how-to-guide
-      text: 2. Proteja seus PCs
-    - url: /MicrosoftTeams/get-started-with-teams-quick-start
-      itemType: video
-      text: 3. Configurar o Teams
-    - url: https://support.microsoft.com/office/4d2a1b69-6d8c-45d1-88e0-6676a8efa5f1
-      itemType: get-started
-      text: 4. Instalar o Office
-  - title: Recursos para parceiros (somente em inglês)
-    links:
-    - url: https://www.microsoft.com/microsoft-365/partners/business
-      itemType: overview
-      text: Página de parceiro
-    - url: https://assetsprod.microsoft.com/mpn/smb-advanced-security-customer-pitch-deck.pptx
-      itemType: download
-      text: Apresentação de proposta (foco no cliente)
-    - url: https://assetsprod.microsoft.com/mpn/smb-advanced-security-opportunity-deck.pptx
-      itemType: download
-      text: Apresentação de proposta (foco no parceiro)
-    - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-smb-technical-fundamentals-content-content-used-for-delivery
-      itemType: download
-      text: Fundamentos técnicos
-    - url: https://aka.ms/SMBSecurityKit
-      itemType: download
-      text: Kit de Trabalho Remoto Seguro
-    - url: https://cct.transform.microsoft.com/
-      itemType: deploy
-      text: Ferramenta de Consulta do Cliente
-    - url: https://vc.transform.microsoft.com/
-      itemType: learn
-      text: Calculadora de Notas
-  - title: Gerenciamento de usuários
-    links:
-    - url: ../admin/add-users/add-users.md
-      itemType: how-to-guide
-      text: Adicionar um usuário
-    - url: /office365/admin/add-users/remove-former-employee
-      itemType: how-to-guide
-      text: Remover um usuário
-    - url: /office365/admin/add-users/reset-passwords
-      itemType: how-to-guide
-      text: Redefinir a senha de alguém
-    footerLink:
-      url: /office365/admin/admin-home
-      text: Ver mais
-  - title: Gerenciar ameaças
-    links:
-    - url: ../security/office-365-security/defender-for-office-365.md
-      itemType: overview
-      text: Proteção Avançada contra Ameaças
-    - url: ../admin/security-and-compliance/set-up-multi-factor-authentication.md
-      itemType: how-to-guide
-      text: Configure o MFA
-    - url: ./increase-threat-protection.md#protect-against-ransomware
-      itemType: how-to-guide
-      text: Proteção contra ransomware
-    - url: /azure/active-directory/conditional-access/overview
-      itemType: overview
-      text: Acesso Condicional
-    footerLink:
-      url: /office365/admin/admin-home
-      text: Ver mais
-  - title: Gerenciar dados
-    links:
-    - url: ../compliance/data-loss-prevention-policies.md
-      itemType: overview
-      text: Prevenção contra Perda de Dados
-    - url: https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980
-      itemType: how-to-guide
-      text: Enviar e-mail criptografado
-    - url: ./set-up-compliance.md#set-up-email-retention-with-exchange-online-archiving
-      itemType: how-to-guide
-      text: Configurar a retenção de e-mail
-    - url: https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9
-      itemType: video
-      text: Criar e usar rótulos de confidencialidade
-    footerLink:
-      url: ../compliance/index.yml
-      text: Ver mais
-  - title: Gerenciar dispositivos
-    links:
-    - url: view-policies-and-devices.md
-      itemType: how-to-guide
-      text: PC e dispositivos móveis
-    - url: remove-company-data.md
-      itemType: how-to-guide
-      text: Remova dados da empresa
-    - url: reset-devices-to-factory-settings.md
-      itemType: how-to-guide
-      text: Apagar e redefinir
-    - url: /intune/index
-      itemType: overview
-      text: Intune
-    - url: manage-windows-devices.md
-      itemType: how-to-guide
-      text: Configurar o Ingresso no Azure AD híbrido
-    - url: access-resources.md
-      itemType: how-to-guide
-      text: Configurar o Ingresso no Azure AD
-    - url: /windows/deployment/windows-autopilot/windows-autopilot
-      text: Windows Autopilot
-      itemType: overview
-    footerLink:
-      url: manage-windows-devices.md
-      text: Ver mais
-  - title: Monitorar a segurança
-    links:
-    - url: ../security/defender/microsoft-secure-score.md
-      itemType: how-to-guide
-      text: Classificação de segurança
-    - url: /intune/apps/app-protection-policies-monitor
-      itemType: overview
-      text: Relatório de políticas de proteção de aplicativo do Intune
-    - url: ../enterprise/view-service-health.md
-      itemType: how-to-guide
-      text: Alertas de monitoramento de integridade
-    footerLink:
-      url: ../security/index.yml
-      text: Ver mais
-  - title: Comunidade e suporte
-    links:
-    - url: https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog
-      itemType: whats-new
-      text: Announcements
-    - url: https://support.microsoft.com/office/7f681212-c649-4a3e-a43b-32b1d1e58988
-      itemType: video
-      text: Obtenha ajuda
-    - url: https://techcommunity.microsoft.com/t5/Microsoft-365-Business/bd-p/Microsoft365business
-      itemType: overview
-      text: Enviar comentários
-    - url: https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB
-      itemType: overview
-      text: Comunidade de empresas de pequeno e médio porte
-  - title: Como...
-    links:
-    - url: sign-up.md
-      itemType: get-started
-      text: Acessar o Microsoft 365 Business Premium
-    - url: migrate-to-microsoft-365-business.md
-      itemType: how-to-guide
-      text: Migrar do Microsoft 365 Business Standard
-    - url: migrate-from-e3.md
-      itemType: how-to-guide
-      text: Migre do Office 365 E3
-    - url: migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md
-      itemType: how-to-guide
-      text: Migrar para o Microsoft 365 Enterprise E3
-    footerLink:
-      url: microsoft-365-business-overview.md
-      text: Ver mais
+    - title: O que é o Microsoft 365 Business Premium?
+      links:
+        - url: microsoft-365-business-overview.md
+          itemType: overview
+          text: Visão geral
+        - url: ../business-video/index.yml
+          itemType: video
+          text: Treinamento do Microsoft 365 Business Premium
+        - url: /office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb
+          itemType: overview
+          text: Comparar planos
+        - url: /office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description
+          itemType: reference
+          text: Descrição de serviço
+        - url: support/microsoft-365-business-faqs.yml
+          itemType: reference
+          text: Perguntas frequentes
+    - title: Configurar o Microsoft 365 Business Premium
+      links:
+        - url: set-up.md
+          itemType: how-to-guide
+          text: 1. Executar o assistente de configuração
+        - url: secure-win-10-pcs.md
+          itemType: how-to-guide
+          text: 2. Proteja seus PCs
+        - url: /MicrosoftTeams/get-started-with-teams-quick-start
+          itemType: video
+          text: 3. Configurar o Teams
+        - url: ../business-video/install-office.md
+          itemType: get-started
+          text: 4. Instalar o Office
+    - title: Recursos para parceiros (somente em inglês)
+      links:
+        - url: 'https://www.microsoft.com/microsoft-365/partners/business'
+          itemType: overview
+          text: Página de parceiro
+        - url: 'https://assetsprod.microsoft.com/mpn/smb-advanced-security-customer-pitch-deck.pptx'
+          itemType: download
+          text: Apresentação de proposta (foco no cliente)
+        - url: 'https://assetsprod.microsoft.com/mpn/smb-advanced-security-opportunity-deck.pptx'
+          itemType: download
+          text: Apresentação de proposta (foco no parceiro)
+        - url: 'https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-smb-technical-fundamentals-content-content-used-for-delivery'
+          itemType: download
+          text: Fundamentos técnicos
+        - url: 'https://aka.ms/SMBSecurityKit'
+          itemType: download
+          text: Kit de Trabalho Remoto Seguro
+        - url: 'https://cct.transform.microsoft.com/'
+          itemType: deploy
+          text: Ferramenta de Consulta do Cliente
+        - url: 'https://vc.transform.microsoft.com/'
+          itemType: learn
+          text: Calculadora de Notas
+    - title: Gerenciamento de usuários
+      links:
+        - url: ../admin/add-users/add-users.md
+          itemType: how-to-guide
+          text: Adicionar um usuário
+        - url: /office365/admin/add-users/remove-former-employee
+          itemType: how-to-guide
+          text: Remover um usuário
+        - url: /office365/admin/add-users/reset-passwords
+          itemType: how-to-guide
+          text: Redefinir a senha de alguém
+      footerLink:
+        url: /office365/admin/admin-home
+        text: Ver mais
+    - title: Gerenciar ameaças
+      links:
+        - url: ../security/office-365-security/defender-for-office-365.md
+          itemType: overview
+          text: Proteção Avançada contra Ameaças
+        - url: ../admin/security-and-compliance/set-up-multi-factor-authentication.md
+          itemType: how-to-guide
+          text: Configure o MFA
+        - url: ./increase-threat-protection.md#protect-against-ransomware
+          itemType: how-to-guide
+          text: Proteção contra ransomware
+        - url: /azure/active-directory/conditional-access/overview
+          itemType: overview
+          text: Acesso Condicional
+      footerLink:
+        url: /office365/admin/admin-home
+        text: Ver mais
+    - title: Gerenciar dados
+      links:
+        - url: ../compliance/data-loss-prevention-policies.md
+          itemType: overview
+          text: Prevenção contra Perda de Dados
+        - url: 'https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980'
+          itemType: how-to-guide
+          text: Enviar e-mail criptografado
+        - url: ./set-up-compliance.md#set-up-email-retention-with-exchange-online-archiving
+          itemType: how-to-guide
+          text: Configurar a retenção de e-mail
+        - url: ../business-video/create-sensitivity-labels.md
+          itemType: video
+          text: Criar e usar rótulos de confidencialidade
+      footerLink:
+        url: ../compliance/index.yml
+        text: Ver mais
+    - title: Gerenciar dispositivos
+      links:
+        - url: view-policies-and-devices.md
+          itemType: how-to-guide
+          text: PC e dispositivos móveis
+        - url: remove-company-data.md
+          itemType: how-to-guide
+          text: Remova dados da empresa
+        - url: reset-devices-to-factory-settings.md
+          itemType: how-to-guide
+          text: Apagar e redefinir
+        - url: /intune/index
+          itemType: overview
+          text: Intune
+        - url: manage-windows-devices.md
+          itemType: how-to-guide
+          text: Configurar o Ingresso no Azure AD híbrido
+        - url: access-resources.md
+          itemType: how-to-guide
+          text: Configurar o Ingresso no Azure AD
+        - url: /windows/deployment/windows-autopilot/windows-autopilot
+          text: Windows Autopilot
+          itemType: overview
+      footerLink:
+        url: manage-windows-devices.md
+        text: Ver mais
+    - title: Monitorar a segurança
+      links:
+        - url: ../security/defender/microsoft-secure-score.md
+          itemType: how-to-guide
+          text: Classificação de segurança
+        - url: /intune/apps/app-protection-policies-monitor
+          itemType: overview
+          text: Relatório de políticas de proteção de aplicativo do Intune
+        - url: ../enterprise/view-service-health.md
+          itemType: how-to-guide
+          text: Alertas de monitoramento de integridade
+      footerLink:
+        url: ../security/index.yml
+        text: Ver mais
+    - title: Comunidade e suporte
+      links:
+        - url: 'https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog'
+          itemType: whats-new
+          text: Announcements
+        - url: 'https://support.microsoft.com/office/7f681212-c649-4a3e-a43b-32b1d1e58988'
+          itemType: video
+          text: Obtenha ajuda
+        - url: 'https://techcommunity.microsoft.com/t5/Microsoft-365-Business/bd-p/Microsoft365business'
+          itemType: overview
+          text: Enviar comentários
+        - url: 'https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB'
+          itemType: overview
+          text: Comunidade de empresas de pequeno e médio porte
+    - title: Como...
+      links:
+        - url: sign-up.md
+          itemType: get-started
+          text: Acessar o Microsoft 365 Business Premium
+        - url: migrate-to-microsoft-365-business.md
+          itemType: how-to-guide
+          text: Migrar do Microsoft 365 Business Standard
+        - url: migrate-from-e3.md
+          itemType: how-to-guide
+          text: Migre do Office 365 E3
+        - url: migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md
+          itemType: how-to-guide
+          text: Migrar para o Microsoft 365 Enterprise E3
+      footerLink:
+        url: microsoft-365-business-overview.md
+        text: Ver mais

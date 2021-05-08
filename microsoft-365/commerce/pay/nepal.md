@@ -8,26 +8,26 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1c60505284e8343ce525f12f85ed3fc66946cccc
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: bc48c53d6f293dc5d25eb8d509beb45811d58b46
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50543047"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52273207"
 ---
-# <a name="payment-information-for-nepal"></a><span data-ttu-id="04595-103">Informações de pagamento para o Nepal</span><span class="sxs-lookup"><span data-stu-id="04595-103">Payment information for Nepal</span></span>
+# <a name="payment-information-for-nepal"></a><span data-ttu-id="33d2e-103">Informações de pagamento para o Nepal</span><span class="sxs-lookup"><span data-stu-id="33d2e-103">Payment information for Nepal</span></span>
 
-<span data-ttu-id="04595-104">[Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="04595-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="33d2e-104">[Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="33d2e-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="04595-105">Por favor, pague somente em USD e faça referência aos números da fatura em sua remessa de pagamento.</span><span class="sxs-lookup"><span data-stu-id="04595-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="33d2e-105">Por favor, pague somente em USD e faça referência aos números da fatura em sua remessa de pagamento.</span><span class="sxs-lookup"><span data-stu-id="33d2e-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="04595-106">Transferência Eletrônica de Fundos</span><span class="sxs-lookup"><span data-stu-id="04595-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="33d2e-106">Transferência Eletrônica de Fundos</span><span class="sxs-lookup"><span data-stu-id="33d2e-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="04595-107">**Banco:** Citibank, Cingapura</span><span class="sxs-lookup"><span data-stu-id="04595-107">**Bank:** Citibank, Singapore</span></span>  
-<span data-ttu-id="04595-108">**Código SWIFT:** CITISGSG</span><span class="sxs-lookup"><span data-stu-id="04595-108">**SWIFT Code:** CITISGSG</span></span>  
-<span data-ttu-id="04595-109">**Número da conta:** 0-817543-138</span><span class="sxs-lookup"><span data-stu-id="04595-109">**Account Number:** 0-817543-138</span></span>  
-<span data-ttu-id="04595-110">**Nome da conta:** MICROSOFT REGIONAL SALES CORP</span><span class="sxs-lookup"><span data-stu-id="04595-110">**Account Name:** MICROSOFT REGIONAL SALES CORP</span></span>  
+<span data-ttu-id="33d2e-107">**Banco:** Citibank, Cingapura</span><span class="sxs-lookup"><span data-stu-id="33d2e-107">**Bank:** Citibank, Singapore</span></span>  
+<span data-ttu-id="33d2e-108">**Código SWIFT:** CITISGSG</span><span class="sxs-lookup"><span data-stu-id="33d2e-108">**SWIFT Code:** CITISGSG</span></span>  
+<span data-ttu-id="33d2e-109">**Número da conta:** 0-817543-138</span><span class="sxs-lookup"><span data-stu-id="33d2e-109">**Account Number:** 0-817543-138</span></span>  
+<span data-ttu-id="33d2e-110">**Nome da conta:** MICROSOFT REGIONAL SALES CORP</span><span class="sxs-lookup"><span data-stu-id="33d2e-110">**Account Name:** MICROSOFT REGIONAL SALES CORP</span></span>  
