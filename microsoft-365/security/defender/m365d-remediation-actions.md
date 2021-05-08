@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 31162944f4728f2c84efbe2cd5eafbd0c70e00f6
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 80546d44bc1ba222c736b397a272f9f1f1a01d4a
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245847"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52269463"
 ---
 # <a name="remediation-actions-in-microsoft-365-defender"></a>Ações de correção no Microsoft 365 Defender
 
@@ -36,8 +36,6 @@ ms.locfileid: "52245847"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-## <a name="remediation-actions"></a>Ações de correção
-
 Durante e após uma investigação automatizada no Microsoft 365 Defender, as ações de correção são identificadas para itens mal-intencionados ou suspeitos. Alguns tipos de ações de correção são tomadas em dispositivos, também chamados de pontos de extremidade. Outras ações de correção são tomadas no conteúdo de email. Investigações automatizadas concluídas após ações de correção são tomadas, aprovadas ou rejeitadas.
 
 > [!IMPORTANT]
@@ -46,7 +44,7 @@ Durante e após uma investigação automatizada no Microsoft 365 Defender, as a�
 > - [Como as ameaças são remediadas em dispositivos](../defender-endpoint/automated-investigations.md)
 > - [Ações de ameaças e correção no email & conteúdo de colaboração](../office-365-security/air-remediation-actions.md#threats-and-remediation-actions)
 
-A tabela a seguir resume as ações de correção atualmente suportadas no Microsoft 365 Defender: 
+A tabela a seguir resume as ações de correção atualmente suportadas no Microsoft 365 Defender. 
 
 |Ações de correção de dispositivo (ponto de extremidade)  |Ações de correção de email  |
 |:---------|:---------|
@@ -60,7 +58,7 @@ Quando uma investigação automatizada é concluída, um veredito é atingido pa
 
 A tabela a seguir lista os possíveis verditos e resultados:
 
-| Verdito    | Área    | Resultados|
+| Verdito    | Entidades afetadas    | Resultados|
 |------|------|------|
 | Mal-intencionado    | Dispositivos (pontos de extremidade)    | As ações de correção são tomadas [](m365d-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups) automaticamente (supondo que os grupos de dispositivos da sua organização sejam definidos como **Full - correção de ameaças automaticamente**)|
 | Mal-intencionado    | Conteúdo do email (URLs ou anexos) | As ações de correção recomendadas estão aguardando aprovação|
@@ -70,17 +68,17 @@ A tabela a seguir lista os possíveis verditos e resultados:
 
 ## <a name="remediation-actions-that-are-taken-manually"></a>Ações de correção realizadas manualmente
 
-Além das ações de correção que seguem investigações automatizadas, sua equipe de operações de segurança pode realizar determinadas ações de correção manualmente. Elas incluem as seguintes ações:
+Além das ações de correção que seguem investigações automatizadas, sua equipe de operações de segurança pode realizar determinadas ações de correção manualmente. Elas incluem o seguinte:
 
-- Ação de dispositivo manual, como isolamento de dispositivo ou quarentena de arquivo.
-- Ação de email manual, como a exclusão suave de mensagens de email. 
-- [Ação de busca](../defender-endpoint/advanced-hunting-overview.md) avançada em dispositivos ou emails.
-- [Ação](../office-365-security/threat-explorer.md) do Explorer no conteúdo de email, como a movimentação de emails para lixo eletrônico, a exclusão de emails ou a exclusão de emails.
-- Ação [de resposta ao vivo](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) manual, como excluir um arquivo, interromper um processo e remover uma tarefa agendada.
-- Ação de resposta ao vivo com [APIs](../defender-endpoint/management-apis.md#microsoft-defender-for-endpoint-apis)do Microsoft Defender para Ponto de Extremidade , como isolar um dispositivo, executar uma verificação antivírus e obter informações sobre um arquivo. 
+- Ação manual do dispositivo, como isolamento de dispositivo ou quarentena de arquivo
+- Ação de email manual, como a exclusão suave de mensagens de email 
+- [Ação de busca](../defender-endpoint/advanced-hunting-overview.md) avançada em dispositivos ou email
+- [Ação](../office-365-security/threat-explorer.md) do Explorer no conteúdo de email, como a movimentação de emails para lixo eletrônico, a exclusão de emails ou a exclusão direta de emails
+- Ação [de resposta ao vivo](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) manual, como excluir um arquivo, interromper um processo e remover uma tarefa agendada
+- Ação de resposta ao vivo com [o Microsoft Defender para APIs](../defender-endpoint/management-apis.md#microsoft-defender-for-endpoint-apis)de ponto de extremidade , como isolar um dispositivo, executar uma verificação antivírus e obter informações sobre um arquivo
 
 ## <a name="next-steps"></a>Próximas etapas
 
 - [Visite a Central de Ações](m365d-action-center.md)
-- [Exibir e gerenciar ações de correção]( m365d-autoir-actions.md)
-- [Manipular falsos positivos/negativos em recursos automatizados de investigação e resposta](m365d-autoir-report-false-positives-negatives.md)
+- [Exibir e gerenciar ações de correção](m365d-autoir-actions.md)
+- [Resolver falsos positivos ou falsos negativos](m365d-autoir-report-false-positives-negatives.md)

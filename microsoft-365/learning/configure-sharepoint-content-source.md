@@ -16,12 +16,12 @@ ms.collection:
 localization_priority: None
 description: Saiba como configurar o SharePoint como uma fonte de conteúdo de aprendizagem para o Microsoft Viva Learning (Visualização).
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: da75ec0573519ed73507994afeac995c0461de0c
-ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
+ms.openlocfilehash: fc702f57b75b78ab523226ba7d8a8eb6505f2975
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52100831"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244112"
 ---
 # <a name="coming-soon-configure-sharepoint-as-a-learning-content-source-for-microsoft-viva-learning-preview"></a>Em breve: Configure SharePoint como uma fonte de conteúdo de aprendizagem para o Microsoft Viva Learning (Visualização)
 
@@ -40,11 +40,11 @@ O Viva Learning (Visualização) dá suporte aos seguintes tipos de documento:
 - Áudio (.m4a)
 - Vídeo (.mov, .mp4, .avi)
 
-Para obter mais informações, consulte a [documentação SharePoint Online](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498). 
+Para obter mais informações, [consulte SharePoint limites](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498). 
 
 ## <a name="permissions"></a>Permissões
 
-As URLs da pasta da biblioteca de documentos podem ser coletadas de qualquer SharePoint site na organização. O Viva Learning (Visualização) segue todas as permissões de conteúdo existentes. Portanto, somente o conteúdo para o qual um usuário tem permissão para acessar é pesquisável e visável no Viva Learning (Visualização). Qualquer conteúdo dentro dessas pastas será pesquisável, mas somente o conteúdo para o qual o funcionário individual tem permissões pode ser usado.
+As URLs da pasta da biblioteca de documentos podem ser coletadas de qualquer SharePoint site na organização. O Viva Learning (Visualização) segue todas as permissões de conteúdo existentes. Portanto, somente o conteúdo para o qual um usuário tem permissão para acessar é pesquisável e visível no Viva Learning (Visualização). Qualquer conteúdo dentro dessas pastas será pesquisável, mas somente o conteúdo para o qual o funcionário individual tem permissões pode ser usado.
 
 A exclusão de conteúdo do repositório da sua organização não é suportada no momento.
 
@@ -70,11 +70,11 @@ Para configurar SharePoint como fontes de conteúdo de aprendizagem no Viva Lear
 
 1.  Na navegação à esquerda do centro de administração Microsoft 365, acesse **Configurações**  >  **Org.**
  
-2.  Na página **Configurações da** Organização, na guia **Serviços,** selecione **Aplicativo de aprendizagem (Visualização)**.
+2.  Na página **Configurações da** Organização, na guia **Serviços,** selecione **Viva Learning (Visualização)**.
 
      ![Configurações página no centro de administração Microsoft 365 mostrando o Viva Learning listado.](../media/learning/learning-sharepoint-configure1.png)
 
-3.  No painel Aplicativo de Aprendizagem **(Visualização),** em SharePoint, fornece a URL do site para o site SharePoint onde você deseja que o Viva Learning crie um repositório centralizado.
+3.  No painel **Viva Learning (Visualização),** em SharePoint, fornece a URL do site para o site SharePoint onde você deseja que o Viva Learning (Visualização) crie um repositório centralizado.
 
      ![Painel de aprendizagem no Microsoft 365 de administração mostrando SharePoint selecionado.](../media/learning/learning-sharepoint-configure2.png)
 

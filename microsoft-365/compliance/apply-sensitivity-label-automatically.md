@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente um rótulo a arquivos e emails, ou você pode solicitar aos usuários que selecionem o rótulo que você recomenda.
-ms.openlocfilehash: 23320d962b52e1a443d459cb6b57d444fca91592
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 477f176d523fbb458ae266cad98b07a63a10050c
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939305"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52259338"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -67,8 +67,9 @@ Há dois métodos diferentes para aplicar automaticamente um rótulo de confiden
     - Quando o rótulo aplica criptografia, o [emissor de Gerenciamento de Direitos e proprietário de Gerenciamento de Direitos](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) é a conta que modificou o arquivo pela última vez.
 
     Específico para rotulagem automática do Exchange:
-    - Diferentemente da rotulagem manual ou rotulagem automática com aplicativos do Office, os anexos do Office (arquivos do Word, Excel e PowerPoint) e os PDFs também são verificados quanto às condições especificadas na política de rotulagem automática. Quando há uma correspondência, o email é rotulado, mas não o anexo.
-        - Para esses arquivos do Office, há suporte para o formato Open XML (como .docx e .xlsx), mas não para o formato Microsoft Office 97-2003 (como .doc e .xls).
+    - Ao contrário da rotulagem manual ou rotulagem automática com aplicativos Office, os anexos em PDF assim como os anexos Office (arquivos Word, Excel e PowerPoint) também são verificados quanto às condições que você especifica em sua política de rotulagem automática. Quando há uma correspondência, o email é rotulado, mas não o anexo.
+        - Para arquivos PDF, se o rótulo aplica criptografia, estes arquivos são criptografados quando seu locatário é [habilitado para anexos PDF](ome-faq.yml#are-pdf-file-attachments-supported-).
+        - Para estes arquivos Office, o formato Open XML é suportado (como .docx e .xlsx) mas não o formato Microsoft Office 97-2003 (como .doc e .xls). Se o rótulo aplica criptografia, estes arquivos são criptografados.
     - Se você possui regras de fluxo de correio do Exchange ou políticas de prevenção contra perda de dados (DLP) que aplicam a criptografia de IRM: Quando o conteúdo é identificado por essas regras ou políticas e por uma política de rotulagem automática, o rótulo é aplicado. Se esse rótulo aplicar a criptografia, as configurações de IRM das regras de fluxo de email do Exchange ou políticas DLP serão ignoradas. No entanto, se esse rótulo não aplicar criptografia, as configurações de IRM das regras de fluxo de email ou políticas DLP serão aplicadas além do rótulo.
     - Um email com criptografia de IRM sem rótulo será substituído por um rótulo com todas as configurações de criptografia quando houver uma correspondência usando rotulagem automática.
     - Os emails de entrada são rotulados quando houver uma correspondência com as condições de rotulagem automática:

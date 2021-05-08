@@ -11,17 +11,17 @@ localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.reviewer: tewchen, pahuijbr, shwjha
+ms.reviewer: tewchen, pahuijbr
 ms.topic: article
 manager: dansimp
 ms.technology: mde
-ms.date: 05/05/2021
-ms.openlocfilehash: 99ed714939161347dea71f1cbd53a56c628ce0a1
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.date: 05/06/2021
+ms.openlocfilehash: e3ec35e777469fec3cda762f7e670490c0963f8d
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246484"
+ms.locfileid: "52259686"
 ---
 # <a name="microsoft-defender-antivirus-compatibility"></a>Microsoft Defender Antivírus compatibilidade
 
@@ -31,9 +31,15 @@ ms.locfileid: "52246484"
 
 - [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
 
-## <a name="overview"></a>Visão Geral
+## <a name="summary"></a>Resumo
 
-Microsoft Defender Antivírus é automaticamente habilitado e instalado em pontos de extremidade e dispositivos que estão executando Windows 10. Mas o que acontece quando outra solução antivírus/antimalware (não Microsoft) é usada? Depende se você está usando o Microsoft Defender para Ponto de Extremidade [juntamente](microsoft-defender-endpoint.md) com sua proteção antivírus.
+Microsoft Defender Antivírus é automaticamente habilitado e instalado em pontos de extremidade e dispositivos que estão executando Windows 10. Mas o que acontece quando outra solução antivírus/antimalware (não Microsoft) é usada? Depende se você está usando o Microsoft Defender para Ponto de Extremidade [juntamente](microsoft-defender-endpoint.md) com sua proteção antivírus. Este artigo descreve o que acontece com soluções antivírus/antimalware quando os pontos de extremidade são integrados ao Microsoft Defender para Ponto de Extremidade.
+
+## <a name="why-defender-for-endpoint-matters"></a>Por que o Defender para Ponto de Extremidade importa
+
+Considere a integração de seus pontos de extremidade com o Defender para Ponto de Extremidade, mesmo se você estiver usando uma solução antivírus/antimalware que não seja da Microsoft. Na maioria dos casos, quando você integra seus dispositivos no Defender para Ponto de Extremidade, você pode usar o Microsoft Defender Antivírus juntamente com sua solução antivírus não Microsoft para proteção adicionada. Por exemplo, você pode usar [EDR](edr-in-block-mode.md)modo de bloqueio , que bloqueia e remedia artefatos mal-intencionados que sua solução antivírus principal pode ter perdido. 
+
+Veja como funciona:
 
 - Se os dispositivos cliente da sua organização estão protegidos por uma solução antivírus/antimwalware que não seja da Microsoft, quando esses dispositivos estão a bordo do Defender para Ponto de Extremidade, o Microsoft Defender Antivírus entra no modo passivo automaticamente. Nesse caso, ocorrem detecções de ameaças, mas a proteção e as ameaças em tempo real não são remediadas por Microsoft Defender Antivírus. **OBSERVAÇÃO**: Este cenário específico não se aplica aos pontos de extremidade que executam Windows Server.
 
@@ -48,22 +54,22 @@ Microsoft Defender Antivírus é automaticamente habilitado e instalado em ponto
 
 ## <a name="antivirus-and-microsoft-defender-for-endpoint"></a>Antivírus e Microsoft Defender para Ponto de Extremidade
 
-A tabela a seguir resume o que acontece com Microsoft Defender Antivírus quando produtos antivírus de terceiros são usados juntos ou sem o Microsoft Defender para Ponto de Extremidade. 
+A tabela a seguir resume o que acontece com o Microsoft Defender Antivírus quando soluções antimalware/antivírus não-Microsoft são usadas juntas ou sem o Microsoft Defender para Ponto de Extremidade. 
 
-| Versão do Windows   | Produto antivírus/antimalware  | Registro do Defender para Ponto de Extremidade | Microsoft Defender Antivírus estado     |
+| Versão do Windows   | Solução antivírus/antimalware  | Onboarded to <br/> Defender para Ponto de Extremidade? | Microsoft Defender Antivírus estado     |
 |------|------|-------|-------|
 | Windows 10  | Microsoft Defender Antivírus | Sim  | Modo ativo | 
 | Windows 10  | Microsoft Defender Antivírus | Não   | Modo ativo |
-| Windows 10  | Um produto de terceiros que não é oferecido ou desenvolvido pela Microsoft | Sim  | Modo passivo (automaticamente) |
-| Windows 10  | Um produto de terceiros que não é oferecido ou desenvolvido pela Microsoft | Não   | Modo desabilitado (automaticamente)    |
+| Windows 10  | Uma solução antivírus/antimalware que não seja da Microsoft | Sim  | Modo passivo (automaticamente) |
+| Windows 10  | Uma solução antivírus/antimalware que não seja da Microsoft | Não   | Modo desabilitado (automaticamente)    |
 | Windows Servidor, versão 1803 ou mais recente <p> Windows Server 2019 | Microsoft Defender Antivírus  | Sim |         Modo ativo  |
 | Windows Servidor, versão 1803 ou mais recente <p> Windows Server 2019 | Microsoft Defender Antivírus | Não  | Modo ativo |
-| Windows Servidor, versão 1803 ou mais recente <p> Windows Server 2019 | Um produto de terceiros que não é oferecido ou desenvolvido pela Microsoft | Sim  | Microsoft Defender Antivírus deve ser definido como modo passivo (manualmente) <sup> [[1](#fn1)]<sup>  | 
-| Windows Servidor, versão 1803 ou mais recente <p> Windows Server 2019 | Um produto de terceiros que não é oferecido ou desenvolvido pela Microsoft | Não  | Microsoft Defender Antivírus deve ser desabilitado (manualmente) <sup> [[2](#fn2)]<sup></sup>  |
+| Windows Servidor, versão 1803 ou mais recente <p> Windows Server 2019 | Uma solução antivírus/antimalware que não seja da Microsoft | Sim  | Microsoft Defender Antivírus deve ser definido como modo passivo (manualmente) <sup> [[1](#fn1)]<sup>  | 
+| Windows Servidor, versão 1803 ou mais recente <p> Windows Server 2019 | Uma solução antivírus/antimalware que não seja da Microsoft | Não  | Microsoft Defender Antivírus deve ser desabilitado (manualmente) <sup> [[2](#fn2)]<sup></sup>  |
 | Windows Server 2016 | Microsoft Defender Antivírus | Sim | Modo ativo |
 | Windows Server 2016 | Microsoft Defender Antivírus | Não | Modo ativo |
-| Windows Server 2016 | Um produto de terceiros que não é oferecido ou desenvolvido pela Microsoft | Sim | Microsoft Defender Antivírus deve ser desabilitado (manualmente) <sup> [[2](#fn2)]<sup> |
-| Windows Server 2016 | Um produto de terceiros que não é oferecido ou desenvolvido pela Microsoft | Não | Microsoft Defender Antivírus deve ser desabilitado (manualmente) <sup> [[2](#fn2)]<sup> |
+| Windows Server 2016 | Uma solução antivírus/antimalware que não seja da Microsoft | Sim | Microsoft Defender Antivírus deve ser desabilitado (manualmente) <sup> [[2](#fn2)]<sup> |
+| Windows Server 2016 | Uma solução antivírus/antimalware que não seja da Microsoft | Não | Microsoft Defender Antivírus deve ser desabilitado (manualmente) <sup> [[2](#fn2)]<sup> |
 
 (<a id="fn1">1</a>) No Windows Server, versão 1803 ou mais recente, ou Windows Server 2019, o Microsoft Defender Antivírus não entra no modo passivo automaticamente quando você instala um produto antivírus que não seja da Microsoft. Nesses casos, [dejuste Microsoft Defender Antivírus modo passivo](microsoft-defender-antivirus-on-windows-server.md#need-to-set-microsoft-defender-antivirus-to-passive-mode) para evitar problemas causados por ter vários produtos antivírus instalados em um servidor. Você pode definir Microsoft Defender Antivírus modo passivo usando o PowerShell, a Política de Grupo ou uma chave do Registro.
 
@@ -74,7 +80,7 @@ Se você estiver usando o Windows Server, versão 1803 ou mais recente, ou Windo
 - Valor: `1`
 
 > [!NOTE]
-> A `ForcePassiveMode` chave do Registro não é suportada no Windows Server 2016.
+> O modo passivo não é suportado no Windows Server 2016. A `ForcePassiveMode` chave do Registro não é aplicável a Windows Server 2016. 
 
 (<a id="fn2">2</a>) No Windows Server 2016, se você estiver usando um produto antivírus que não seja da Microsoft, não poderá executar Microsoft Defender Antivírus no modo passivo ou no modo ativo. Nesses casos, [desabilite/desinstale](microsoft-defender-antivirus-on-windows-server.md#are-you-using-windows-server-2016) Microsoft Defender Antivírus manualmente para evitar problemas causados pela instalação de vários produtos antivírus em um servidor.
 
@@ -124,7 +130,6 @@ A tabela nesta seção resume a funcionalidade e os recursos disponíveis em cad
 - Quando Microsoft Defender Antivírus está no modo passivo, você ainda pode [gerenciar atualizações para](manage-updates-baselines-microsoft-defender-antivirus.md)Microsoft Defender Antivírus; no entanto, você não pode mover o Microsoft Defender Antivírus para o modo ativo se seus dispositivos têm um produto antivírus atualizado que não seja da Microsoft que está fornecendo proteção em tempo real contra malware. Para obter uma eficácia ideal de defesa e detecção em camadas de segurança, atualize a proteção de Microsoft Defender Antivírus [(atualização de](manage-updates-baselines-microsoft-defender-antivirus.md) inteligência de segurança, Mecanismo e Plataforma) mesmo que o Microsoft Defender Antivírus seja executado no modo passivo.
 
 - Quando o Microsoft Defender Antivírus é desabilitado automaticamente, ele pode ser reabilitar automaticamente se a proteção oferecida por um produto antivírus que não seja da Microsoft expirar ou se deixar de fornecer proteção em tempo real contra vírus, malware ou outras ameaças. A rehabilitação automática ajuda a garantir que a proteção antivírus seja mantida em seus dispositivos. Ele também permite que você habilita a verificação periódica limitada [,](limited-periodic-scanning-microsoft-defender-antivirus.md)que usa o mecanismo Microsoft Defender Antivírus para verificar periodicamente se há ameaças além do seu aplicativo antivírus principal.
-
 
 > [!WARNING]
 > Não desabilite, pare ou modifique nenhum dos serviços associados que são usados pelo Microsoft Defender Antivírus, Microsoft Defender para Ponto de Extremidade ou pelo aplicativo Segurança do Windows. Esta recomendação inclui os processos e serviços *wscsvc,* *SecurityHealthService,* *MsSense*, *Sense,* *WinDefend* ou *MsMpEng.* Modificar manualmente esses serviços pode causar grave instabilidade em seus dispositivos e pode tornar sua rede vulnerável. Desabilitar, interromper ou modificar esses serviços também pode causar problemas ao usar soluções antivírus que não são da Microsoft e como suas informações são exibidas no aplicativo [Segurança do Windows .](microsoft-defender-security-center-antivirus.md)

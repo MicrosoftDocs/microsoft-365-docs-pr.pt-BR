@@ -1,6 +1,6 @@
 ---
 title: Criar e gerenciar grupos de dispositivos no Microsoft Defender para Ponto de Extremidade
-description: Criar grupos de dispositivos e definir níveis automatizados de correção neles, confiando as regras que se aplicam ao grupo
+description: Criar grupos de dispositivos e definir níveis automatizados de correção neles confirmando as regras que se aplicam ao grupo
 keywords: grupos de dispositivos, grupos, correção, nível, regras, aad group, role, assign, rank
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: acd24e5c87a74bbb32835ec170a121c5c0b6bb33
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 4fc2768392e818f74600e3c2d749b6e95bf957e4
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860298"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52259410"
 ---
 # <a name="create-and-manage-device-groups"></a>Criar e gerenciar grupos de dispositivos
 
@@ -52,14 +52,14 @@ Como parte do processo de criação de um grupo de dispositivos, você:
 - De definir o nível de correção automatizado para esse grupo. Para obter mais informações sobre níveis de correção, consulte [Use Automated investigation to investigate and remediate threats](automated-investigations.md).
 - Especifique a regra correspondente que determina qual grupo de dispositivos pertence ao grupo com base no nome do dispositivo, domínio, marcas e plataforma do sistema operacional. Se um dispositivo também for corresponder a outros grupos, ele será adicionado apenas ao grupo de dispositivos mais alto classificado.
 - Selecione o grupo de usuários do Azure AD que deve ter acesso ao grupo de dispositivos.
-- Rank the device group relative to other groups after it is created.
+- Rank the device group relative to other groups after it's created.
 
 >[!NOTE]
 >Um grupo de dispositivos será acessível a todos os usuários se você não atribuir nenhum grupo do Azure AD a ele.
 
 ## <a name="create-a-device-group"></a>Criar um grupo de dispositivos
 
-1. No painel de navegação, selecione **Configurações**  >  **Grupos de dispositivos**.
+1. No painel de navegação, **selecione** Configurações  >  **Grupos de dispositivos**.
 
 2. Clique **em Adicionar grupo de dispositivos**.
 
@@ -81,6 +81,8 @@ Como parte do processo de criação de um grupo de dispositivos, você:
 
 Você pode promover ou rebaixar a classificação de um grupo de dispositivos para que ele seja priorizado mais ou menos durante a correspondência. Quando um dispositivo é corresponder a mais de um grupo, ele é adicionado apenas ao grupo de classificação mais alto. Você também pode editar e excluir grupos.
 
+
+
 >[!WARNING]
 >Excluir um grupo de dispositivos pode afetar as regras de notificação de email. Se um grupo de dispositivos estiver configurado sob uma regra de notificação de email, ele será removido dessa regra. Se o grupo de dispositivos for o único grupo configurado para uma notificação de email, essa regra de notificação de email será excluída juntamente com o grupo de dispositivos.
 
@@ -91,8 +93,22 @@ Dispositivos que não são compatíveis com nenhum grupo são adicionados ao gru
 >[!NOTE]
 > A aplicação de alterações na configuração do grupo de dispositivos pode levar até vários minutos.
 
+
+### <a name="add-device-group-definitions"></a>Adicionar definições de grupo de dispositivos
+As definições de grupo de dispositivos também podem incluir vários valores para cada condição. Você pode definir várias marcas, nomes de dispositivo e domínios para a definição de um único grupo de dispositivos.
+
+1. Crie um novo grupo de dispositivos e selecione **Guia Dispositivos.**
+2. Adicione o primeiro valor para uma das condições.
+3. Selecione `+` para adicionar mais linhas do mesmo tipo de propriedade.
+
+>[!TIP]
+> Use o operador 'OR' entre linhas do mesmo tipo de condição, o que permite vários valores por propriedade.
+> Você pode adicionar até 10 linhas (valores) para cada tipo de propriedade - marca, nome do dispositivo, domínio.
+
+Para obter mais informações sobre como vincular a definições de grupos de dispositivos, consulte [Device groups - Microsoft 365 security](https://sip.security.microsoft.com/homepage).
+
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Gerenciar o acesso ao portal usando o controle de acesso baseado em função](rbac.md)
 - [Criar e gerenciar marcas de dispositivo](machine-tags.md)
-- [Obter lista de grupos de dispositivos de locatários usando a API do Graph](https://docs.microsoft.com/graph/api/device-list-memberof)
+- [Obter lista de grupos de dispositivos de locatários usando Graph API](https://docs.microsoft.com/graph/api/device-list-memberof)

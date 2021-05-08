@@ -1,5 +1,5 @@
 ---
-title: Manipular falsos positivos ou falsos negativos no AIR no Microsoft 365 Defender
+title: Resolver falsos positivos ou falsos negativos no Microsoft 365 Defender
 description: Algo falhou ou errou ao ser detectado pelo AIR no Microsoft 365 Defender? Saiba como enviar falsos positivos ou falsos negativos à Microsoft para análise.
 keywords: automatizado, investigação, alerta, correção, falso positivo, falso negativo
 search.appverid: met150
@@ -21,25 +21,25 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 727ca529dc1a16af778e01a08c9adcfe42b9b974
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 3cffa97d26b2b28de8d9e45d7030e0931a7ba072
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245463"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52269571"
 ---
-# <a name="handle-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Manipular falsos positivos/negativos em recursos automatizados de investigação e resposta
+# <a name="address-false-positives-or-false-negatives-in-microsoft-365-defender"></a>Resolver falsos positivos ou falsos negativos no Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-Falsos positivos/negativos podem ocorrer ocasionalmente com qualquer solução de proteção contra ameaças. Se [os recursos automatizados de](m365d-autoir.md) investigação e resposta no Microsoft 365 Defender detectaram ou detectaram algo incorretamente, há etapas que sua equipe de operações de segurança pode seguir:
+Falsos positivos ou negativos podem ocorrer ocasionalmente com qualquer solução de proteção contra ameaças. Se [os recursos automatizados](m365d-autoir.md) de investigação e resposta no Microsoft 365 Defender não foram detectados ou detectaram algo incorretamente, há etapas que sua equipe de operações de segurança pode seguir:
 
-- [Relatar um falso positivo/negativo para a Microsoft;](#report-a-false-positivenegative-to-microsoft-for-analysis)
-- [Ajuste seus alertas](#adjust-an-alert-to-prevent-false-positives-from-recurring) (se necessário); e 
-- [Desfazer ações de correção que foram tomadas em dispositivos](#undo-a-remediation-action-that-was-taken-on-a-device). 
+- [Relatar um falso positivo/negativo para a Microsoft](#report-a-false-positivenegative-to-microsoft-for-analysis)
+- [Ajustar seus alertas](#adjust-an-alert-to-prevent-false-positives-from-recurring) (se necessário)
+- [Desfazer ações de correção que foram tomadas em dispositivos](#undo-a-remediation-action-that-was-taken-on-a-device)
 
 As seções a seguir descrevem como executar essas tarefas.
 
@@ -47,14 +47,14 @@ As seções a seguir descrevem como executar essas tarefas.
 
 |Item perdido ou detectado incorretamente |Serviço  |O que fazer  |
 |---------|---------|---------|
-|- Mensagem de email <br/>- Anexo de email <br/>- URL em uma mensagem de email<br/>- URL em um arquivo Office de dados      |[Obter o Microsoft Defender para Office 365](/microsoft-365/security/office-365-security/defender-for-office-365)        |[Enviar spam, phishing, URLs e arquivos suspeitos à Microsoft para verificação](../office-365-security/admin-submission.md)         |
+|- Mensagem de email <br/>- Anexo de email <br/>- URL em uma mensagem de email<br/>- URL em um arquivo do Office      |[Obter o Microsoft Defender para Office 365](/microsoft-365/security/office-365-security/defender-for-office-365)        |[Enviar spam, phishing, URLs e arquivos suspeitos à Microsoft para verificação](../office-365-security/admin-submission.md)         |
 |Arquivo ou aplicativo em um dispositivo    |[Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection)         |[Enviar um arquivo à Microsoft para análise de malware](https://www.microsoft.com/wdsi/filesubmission)         |
 
 ## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a>Ajustar um alerta para evitar que falsos positivos se repitam
 
 |Cenário |Serviço |O que fazer |
 |--------|--------|--------|
-|- Um alerta é disparado por uso legítimo <br/>- Um alerta é impreciso    |[Microsoft Cloud App Security](/cloud-app-security)<br/> ou <br/>[Detecção avançada de ameaças do Azure](/azure/security/fundamentals/threat-detection)         |[Gerenciar alertas no Cloud App Security portal](/cloud-app-security/managing-alerts)         |
+|- Um alerta é disparado por uso legítimo <br/>- Um alerta é impreciso    |[Segurança no Aplicativo da Nuvem da Microsoft](/cloud-app-security)<br/> ou <br/>[Proteção contra ameaças do Azure](/azure/security/fundamentals/threat-detection)         |[Gerenciar alertas no portal de Segurança do Aplicativo na Nuvem](/cloud-app-security/managing-alerts)         |
 |Um arquivo, endereço IP, URL ou domínio é tratado como malware em um dispositivo, mesmo que seja seguro|[Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection) |[Criar um indicador personalizado com uma ação "Permitir"](/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
 
 ## <a name="undo-a-remediation-action-that-was-taken-on-a-device"></a>Desfazer uma ação de correção que foi tomada em um dispositivo

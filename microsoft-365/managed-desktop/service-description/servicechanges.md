@@ -1,28 +1,31 @@
 ---
 title: Mudanças de serviço e comunicação
-description: ''
+description: Como as alterações no serviço ocorrem e são comunicadas
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 879e5dc96cf19c8070769b62f59cca0e409bf1df
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+manager: laurawi
+ms.topic: article
+audience: Admin
+ms.openlocfilehash: 20af244d14f8f29e0175fb5e8efdabff94ff9a2b
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917753"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244099"
 ---
 # <a name="service-changes-and-communication"></a>Mudanças de serviço e comunicação
 
-Às vezes, a Microsoft pode precisar alterar detalhes sobre como a Área de Trabalho Gerenciada da Microsoft funciona. Da mesma forma, talvez seja necessário fazer alterações que também afetariam o serviço. Tratamos essas alterações de forma diferente, dependendo do quão significativas elas são. Este tópico define as alterações que consideramos importantes e explica como lidar com elas em relação a outras alterações.
+Às vezes, a Microsoft pode precisar alterar detalhes sobre como Área de Trabalho Gerenciada da Microsoft funciona. Da mesma forma, talvez seja necessário fazer alterações que também afetariam o serviço. Tratamos essas alterações de forma diferente, dependendo do quão significativas elas são. Este tópico define as alterações que consideramos importantes e explica como lidar com elas em relação a outras alterações.
 
 
 
 ## <a name="changes-made-by-microsoft"></a>Alterações feitas pela Microsoft
 
-Notificação de pelo menos 30 dias antes do tempo para qualquer alteração importante que exija ação. Vamos deixá-lo saber usando o sistema de mensagens do portal de Administração da Área de Trabalho Gerenciada da Microsoft.
+Notificação de pelo menos 30 dias antes do tempo para qualquer alteração importante que exija ação. Vamos deixá-lo saber usando o sistema de mensagens do portal de administração Área de Trabalho Gerenciada da Microsoft administrador.
 
 **As principais alterações** são aquelas que podem afetar qualquer uma dessas áreas:
 - Alterações que afetam a produtividade diária
@@ -40,19 +43,19 @@ Notificação de pelo menos 30 dias antes do tempo para qualquer alteração imp
 
 Faremos outras alterações rotineiramente no serviço para melhorar a experiência do usuário, a segurança, a confiabilidade e o relatório. Alguns exemplos dessas alterações incluem:
 
-- Instalação de atualizações do Windows e do Office
+- Instalação de Windows e Office atualizações
 - Atualizações para a linha de base de segurança aplicada a dispositivos
-- [Supported devices](device-list.md)
+- Dispositivos com suporte. Para ver os dispositivos recomendados, filtre Área de Trabalho Gerenciada da Microsoft no site de Windows 10 Pro [de negócios](https://www.microsoft.com/windowsforbusiness/view-all-devices) da Loja.
 
-Comunicaremos essas alterações usando canais estabelecidos. Se você tiver dúvidas sobre quaisquer alterações, contate a equipe de Operações de Área [de Trabalho Gerenciada da](../working-with-managed-desktop/admin-support.md)Microsoft. As alterações no serviço também são documentadas conforme necessário no histórico [de alterações.](../change-history-managed-desktop.md)
+Comunicaremos essas alterações usando canais estabelecidos. Se você tiver alguma dúvida sobre quaisquer alterações, contate a equipe Área de Trabalho Gerenciada da Microsoft [Operações](../working-with-managed-desktop/admin-support.md). As alterações no serviço também são documentadas conforme necessário no histórico [de alterações.](../change-history-managed-desktop.md)
 
-As alterações e comunicações da Área de Trabalho Gerenciada da Microsoft são governadas por duas políticas da Microsoft:
-- [Política de Ciclo de Vida Moderna](https://support.microsoft.com/help/30881/modern-lifecycle-policy)
-- [Política de Comunicação de Alteração do Microsoft 365](/office365/admin/manage/message-center?view=o365-worldwide)
+Área de Trabalho Gerenciada da Microsoft alterações e comunicações são governadas por duas políticas da Microsoft:
+- [Política de ciclo de vida moderna](https://support.microsoft.com/help/30881/modern-lifecycle-policy)
+- [Microsoft 365 Alterar Política de Comunicação](/office365/admin/manage/message-center)
 
 ## <a name="changes-you-make"></a>Alterações feitas
 
-Algumas alterações que você pode fazer em seu ambiente podem afetar a Área de Trabalho Gerenciada da Microsoft. Para essas principais alterações, pedimos que você nos dê pelo menos 30 dias de aviso enviando uma solicitação de serviço no portal de Administração da Área de Trabalho Gerenciada da Microsoft. Consulte [Suporte de administrador para Área de Trabalho Gerenciada](../working-with-managed-desktop/admin-support.md) da Microsoft para obter instruções. Isso nos permite um tempo adequado para planejar e se preparar para a alteração para evitar interrupções.
+Algumas alterações que você pode fazer em seu ambiente podem afetar Área de Trabalho Gerenciada da Microsoft. Para essas principais alterações, pedimos que você nos dê pelo menos 30 dias de aviso enviando uma solicitação de serviço no portal Área de Trabalho Gerenciada da Microsoft Administrador. Consulte [Suporte de administrador para Área de Trabalho Gerenciada da Microsoft](../working-with-managed-desktop/admin-support.md) para obter instruções. Isso nos permite um tempo adequado para planejar e se preparar para a alteração para evitar interrupções.
 
 As principais alterações são aquelas que podem afetar qualquer uma dessas áreas:
 
@@ -62,11 +65,11 @@ As principais alterações são aquelas que podem afetar qualquer uma dessas ár
 - Certificados de usuário ou dispositivo usados para identidade ou proteção de serviços de rede
 - Sistemas de gerenciamento que interagem com o serviço
 - Sistemas de segurança ou agentes que interagem com o serviço
-- Configuração de qualquer um dos serviços de nuvem do Microsoft 365 associados ou usados pelo serviço
+- Configuração de qualquer um dos Microsoft 365 de nuvem associados ou usados pelo serviço
 
 Essas alterações provavelmente não serão disruptivas, portanto, você não precisa nos dizer sobre elas com antecedência:
 
 - Limpeza de objeto órfão
 - Adicionar ou remover usuários do serviço
-- Configuração do sistema que não tem um impacto material na entrega da Área de Trabalho Gerenciada da Microsoft
+- Configuração do sistema que não tem um impacto material na entrega do Área de Trabalho Gerenciada da Microsoft
 - Atualizações de versão do aplicativo, com exceção de aplicativos VPN ou proxy

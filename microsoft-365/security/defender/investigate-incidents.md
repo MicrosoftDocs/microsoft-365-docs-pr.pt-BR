@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 22d3bba03745cee330f89b67061e6c6b13e78aed
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 72e1efb8a06fb7fa64b83ab6522fe4cdcfd1a73e
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939737"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52259626"
 ---
 # <a name="analyze-incidents-in-microsoft-365-defender"></a>Analisar incidentes no Microsoft 365 Defender
 
@@ -37,7 +37,7 @@ ms.locfileid: "51939737"
 
 - Microsoft 365 Defender
 
-O Microsoft 365 Defender agrega todos os alertas, ativos, investigações e evidências relacionados de todos os dispositivos, usuários e caixas de correio em um incidente para dar uma olhada abrangente em toda a amplitude de um ataque.
+Microsoft 365 O Defender agrega todos os alertas, ativos, investigações e evidências relacionados entre seus dispositivos, usuários e caixas de correio em um incidente para dar uma olhada abrangente em toda a amplitude de um ataque.
 
 Em um incidente, você analisa os alertas que afetam sua rede, entende o que significam e cola as evidências para que você possa planejar um plano de correção eficaz.
 
@@ -61,9 +61,9 @@ Você também pode abrir a página principal de um incidente selecionando o nome
 
 A **página** Resumo fornece um resumo das principais coisas a observar sobre o incidente.
 
-:::image type="content" source="../../media/incidents-overview/incidents-ss-incident-summary.png" alt-text="Exemplo da página Resumo de um incidente no centro de segurança do Microsoft 365":::
+:::image type="content" source="../../media/incidents-overview/incidents-ss-incident-summary.png" alt-text="Exemplo da página Resumo de um incidente no centro Microsoft 365 segurança":::
 
-As categorias de ataque dão a você uma visão visual e numérica de como o ataque avançou contra a cadeia de kill. Assim como com outros produtos de segurança da Microsoft, o Microsoft 365 Defender é alinhado à estrutura de CK do [MITRE ATT&&trade; CK.](https://attack.mitre.org/)
+As categorias de ataque dão a você uma visão visual e numérica de como o ataque avançou contra a cadeia de kill. Assim como com outros produtos de segurança da Microsoft, Microsoft 365 Defender é alinhado à estrutura de CK do [MITRE ATT&&trade; CK.](https://attack.mitre.org/)
 
 A seção escopo fornece uma lista dos principais ativos afetados que fazem parte desse incidente. Se houver informações específicas sobre esse ativo, como nível de risco, prioridade de investigação, além de qualquer marcação nos ativos, também virão à tona nesta seção.
 
@@ -103,7 +103,7 @@ Você pode selecionar a marca de seleção de um dispositivo para ver detalhes d
 Na página do dispositivo, você pode coletar informações adicionais sobre o dispositivo, como todos os alertas, uma linha do tempo e recomendações de segurança. Por exemplo,  na guia Linha do Tempo, você pode rolar pela linha do tempo do computador e exibir todos os eventos e comportamentos observados no computador em ordem cronológica, intercalados com os alertas gerados.
 
 > [!TIP]
-> Você pode fazer verificações sob demanda em uma página de dispositivo. No Centro de segurança do Microsoft 365, escolha **Pontos de extremidade > Inventário de dispositivos**. Selecione um dispositivo que tenha alertas e execute uma verificação antivírus. Ações, como verificações de antivírus, são controladas e ficam visíveis na página **Inventário de** dispositivos. Para saber mais, confira [Executar a verificação do Microsoft Defender Antivírus em dispositivos](/microsoft-365/security/defender-endpoint/respond-machine-alerts#run-microsoft-defender-antivirus-scan-on-devices).
+> Você pode fazer verificações sob demanda em uma página de dispositivo. No centro de Microsoft 365 de segurança, escolha **Pontos de extremidade > Inventário de dispositivos**. Selecione um dispositivo que tenha alertas e execute uma verificação antivírus. Ações, como verificações de antivírus, são controladas e ficam visíveis na página **Inventário de** dispositivos. Para saber mais, confira [Executar Microsoft Defender Antivírus verificação em dispositivos](/microsoft-365/security/defender-endpoint/respond-machine-alerts#run-microsoft-defender-antivirus-scan-on-devices).
 
 ## <a name="users"></a>Usuários
 
@@ -123,7 +123,7 @@ Você pode selecionar a marca de seleção de uma caixa de correio para ver uma 
 
 ## <a name="investigations"></a>Investigações
 
-A **guia Investigações** lista todas as investigações automatizadas disparadas por alertas neste incidente. As investigações executarão ações de correção ou aguardarão a aprovação de ações do analista, dependendo de como você configurou suas investigações automatizadas para executar no Microsoft Defender para Ponto de Extremidade e no Defender para Office 365.
+A **guia Investigações** lista todas as investigações automatizadas disparadas por alertas neste incidente. As investigações executarão ações de correção ou aguardarão a aprovação de ações do analista, dependendo de como você configurou suas investigações automatizadas para executar no Microsoft Defender para Ponto de Extremidade e Defender para Office 365.
 
 :::image type="content" source="../../media/investigate-incidents/incident-investigations.png" alt-text="Exemplo de uma página Investigações para um incidente":::
 
@@ -135,9 +135,26 @@ A **guia Evidências e Resposta** mostra todos os eventos com suporte e entidade
 
 :::image type="content" source="../../media/investigate-incidents/incident-evidence.png" alt-text="Exemplo de uma página evidências e resposta para um incidente":::
 
-O Microsoft 365 Defender investiga automaticamente todos os eventos com suporte dos incidentes e entidades suspeitas nos alertas, fornecendo informações sobre os emails importantes, arquivos, processos, serviços, endereços IP e muito mais. Isso ajuda você a detectar e bloquear rapidamente possíveis ameaças no incidente.
+Microsoft 365 O Defender investiga automaticamente todos os eventos com suporte dos incidentes e entidades suspeitas nos alertas, fornecendo informações sobre os emails importantes, arquivos, processos, serviços, endereços IP e muito mais. Isso ajuda você a detectar e bloquear rapidamente possíveis ameaças no incidente.
 
 Cada uma das entidades analisadas é marcada com um veredito (Mal-intencionado, suspeito, limpo) e um status de correção. Isso ajuda você a entender o status de correção de todo o incidente e quais próximas etapas podem ser tomadas.
+
+## <a name="graph-in-preview"></a>Graph (em Visualização)
+
+Com a nova **guia Graph** (na visualização), você pode ver:
+
+- A conexão de alertas com os ativos afetados em sua organização.
+- Quais entidades estão relacionadas a quais alertas e como eles fazem parte da história do ataque.
+- Os alertas do incidente.
+
+Veja um exemplo.
+
+:::image type="content" source="../../media/investigate-incidents/incident-graph.png" alt-text="Exemplo de uma página Graph para um incidente":::
+
+O gráfico de incidentes ajuda você a entender rapidamente o escopo completo do ataque conectando as diferentes entidades suspeitas que fazem parte do ataque com seus ativos relacionados, como usuários, dispositivos e caixas de correio. 
+
+Agora você pode entender como o ataque se propaga pela rede ao longo do tempo, onde ele começou e até onde o ataque foi.
+
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

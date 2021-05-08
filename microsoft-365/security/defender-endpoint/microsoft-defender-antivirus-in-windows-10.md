@@ -14,12 +14,13 @@ ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 6fc6ad69df554cf20fbae0d97fcb30f211f48705
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.topic: article
+ms.openlocfilehash: c4a0e40f3f6e6728af3d8c7a6da29485f1fad3fd
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768789"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52269595"
 ---
 # <a name="next-generation-protection"></a>Proteção de última geração
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: c3efff1e7ebb3a5e868ede018512d12cf38e38fc
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 47d066fa20abe963f7afaa3b88cecc96fa6e87fc
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939701"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52259575"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Priorizar incidentes no Microsoft 365 Defender
 
@@ -36,15 +36,17 @@ ms.locfileid: "51939701"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-O Microsoft 365 Defender aplica análises de correlação e agrega alertas relacionados e investigações automatizadas de diferentes produtos em um incidente. O Microsoft 365 Defender também dispara alertas exclusivos sobre atividades que só podem ser identificadas como mal-intencionadas devido à visibilidade de ponta a ponta que o Microsoft 365 Defender tem em todo o pacote de produtos. Essa exibição fornece aos seus analistas de segurança uma história de ataque mais ampla, que os ajuda a entender melhor e lidar com ameaças complexas em toda a sua organização.
+Microsoft 365 O Defender aplica análises de correlação e agrega alertas relacionados e investigações automatizadas de diferentes produtos em um incidente. Microsoft 365 O Defender também dispara alertas exclusivos sobre atividades que só podem ser identificadas como mal-intencionadas devido à visibilidade de ponta a ponta que o Microsoft 365 Defender tem em todo o pacote de produtos. Essa exibição fornece aos seus analistas de segurança uma história de ataque mais ampla, que os ajuda a entender melhor e lidar com ameaças complexas em toda a sua organização.
 
 A **fila de incidentes** mostra uma coleção de incidentes que foram criados em dispositivos, usuários e caixas de correio. Isso ajuda a classificar incidentes e criar uma decisão de resposta de segurança cibernética embasada. 
 
-Você pode chegar à fila de incidentes de **Incidentes & alertas** > Incidentes no início rápido do centro de segurança do Microsoft 365 ([security.microsoft.com](https://security.microsoft.com)).
+Você pode chegar à fila de incidentes & alertas > **Incidentes** no início rápido do centro de segurança Microsoft 365 [(security.microsoft.com).](https://security.microsoft.com) Veja um exemplo.
 
 :::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="Exemplo da fila de incidentes":::
 
-Por padrão, a fila de incidentes no centro de segurança do Microsoft 365 exibe incidentes vistos nos últimos seis meses. O incidente mais recente está na parte superior da lista para que você possa vê-lo primeiro.
+A **seção Incidentes e alertas** mais recentes mostra um gráfico do número de alertas recebidos e incidentes criados nas últimas 24 horas.
+
+Por padrão, a fila de incidentes no centro de segurança Microsoft 365 exibe incidentes vistos nos últimos seis meses. O incidente mais recente está na parte superior da lista para que você possa vê-lo primeiro.
 
 A fila de incidentes tem colunas personalizáveis (selecione **Escolher colunas**) que dão visibilidade a diferentes características do incidente ou das entidades impactadas. Isso ajuda você a tomar uma decisão informada sobre a priorização de incidentes para análise.
 
@@ -87,5 +89,5 @@ Depois de determinar qual incidente requer a maior prioridade, selecione-o e ini
 
 ## <a name="see-also"></a>Confira também
 - [Visão geral dos incidentes](incidents-overview.md)
-- [Analisar incidentes](investigate-incidents.md)
+- [Analisar os incidentes](investigate-incidents.md)
 - [Gerenciar incidentes](manage-incidents.md)

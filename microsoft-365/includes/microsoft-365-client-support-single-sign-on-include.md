@@ -29,6 +29,6 @@
 |TEAMS|✔|✔|Planejado|✔|N/D|
 |TO-DO|✔|✔|N/D|N/D|✔|
 |VISIO|N/D|✔|N/D|✔|N/D|
-|WHITEBOARD|N/D|✔|N/D|N/D|✔|
+|WHITEBOARD|✔|✔|N/D|N/D|✔|
 |WORD|✔|✔|✔|✔|✔|
 |YAMMER|✔|✔|N/D|Planejado|N/D|

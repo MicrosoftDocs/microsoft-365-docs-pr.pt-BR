@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: Saiba como restaurar contas de usuário excluídas e todos os dados associados.
-ms.openlocfilehash: 4893f7468a8ab5919dd3be1cce233917323f2076
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 9cdc4100f963ed450b50caa0f07a3863bc87992d
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023960"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244027"
 ---
 # <a name="restore-a-user"></a>Restaurar um usuário
    
@@ -42,30 +42,12 @@ Aqui estão algumas dicas:
     
 ## <a name="restore-one-or-more-user-accounts"></a>Restaurar uma ou mais contas de usuário
 
-Você deve ser um administrador global do Microsoft 365 ou administrador de gerenciamento de usuário para fazer essas etapas. 
-  
- 
-::: moniker range="o365-worldwide"
+Você deve ser um administrador global Microsoft 365 gerenciamento de usuários ou administrador global para fazer essas etapas. 
 
 1. No centro de administração, vá para a **página Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">Excluídos.</a>
 
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. Vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=848041)e selecione **Usuários** \> **Excluídos usuários**.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=850627)e selecione **Usuários** \> **Excluídos usuários**.
-
-::: moniker-end
-
 2. Na página **Usuários Excluídos,** selecione os nomes dos usuários que você deseja restaurar e selecione **Restaurar**.
     
- 
 3. Siga os prompts para definir sua senha e selecione **Restaurar**.
     
 4. Se o usuário for restaurado com êxito, selecione **Enviar email e fechar**. Se ocorrer um conflito de nome ou de endereço proxy, confira as instruções abaixo para saber como restaurar essas contas.
@@ -73,31 +55,12 @@ Você deve ser um administrador global do Microsoft 365 ou administrador de gere
 Depois de restaurar um usuário, certifique-se de notificá-lo de que a senha foi alterada e que você o acompanha.
   
 ## <a name="restore-a-user-that-has-a-user-name-conflict"></a>Restaurar um usuário com um conflito de nome de usuário
-<a name="RestoreUserNameConflict"> </a>
 
 Um conflito de nome de usuário ocorre quando você exclui uma conta de usuário, cria uma nova conta com o mesmo nome de usuário (para o mesmo usuário ou outro com um nome semelhante) e, posteriormente, tenta restaurar a conta excluída.
   
 Para resolver isso, você pode substituir a conta de usuário ativa por uma que esteja restaurando ou atribuir um nome de usuário diferente à conta que está restaurando para que não existam duas contas com o mesmo nome de usuário. Siga as seguintes etapas.
-  
-
-::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a **página Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">Excluídos.</a>
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. Vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=848041)e selecione **Usuários** \> **Excluídos usuários**.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=850627)e selecione **Usuários** \> **Excluídos usuários**.
-
-::: moniker-end
-
   
 2. Na página **Usuários Excluídos,** selecione os nomes dos usuários que você deseja restaurar e selecione **Restaurar**.
     
@@ -118,26 +81,9 @@ Para resolver isso, você pode substituir a conta de usuário ativa por uma que 
 
 Um conflito de endereço proxy ocorre quando você exclui uma conta de usuário que contém um endereço proxy, atribui esse mesmo endereço proxy a outra conta e tenta restaurar a conta excluída. Para corrigir esse problema, siga as etapas a seguir.
   
-Você deve ter [permissões de](about-admin-roles.md) administrador no Microsoft 365 para fazer isso. 
-  
-
-::: moniker range="o365-worldwide"
+Você deve ter [permissões de](about-admin-roles.md) administrador Microsoft 365 fazer isso. 
 
 1. No centro de administração, vá para a **página Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">Excluídos.</a>
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-Vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=848041)e selecione **Usuários** \> **Excluídos usuários**.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=850627)e selecione **Usuários** \> **Excluídos usuários**.
-
-::: moniker-end
 
 2. Na página **Usuários excluídos**, selecione o usuário que você deseja restaurar e selecione **Restaurar**. 
     
