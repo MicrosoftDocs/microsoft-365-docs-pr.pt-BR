@@ -130,11 +130,11 @@
               href: m365d-remediation-actions.md
             - name: Visite a Central de Ações
               href: m365d-action-center.md
-            - name: Aprove ou rejeite as ações de correção pendentes
+            - name: Exibir e gerenciar ações de correção
               href: m365d-autoir-actions.md
             - name: Exiba os detalhes e resultados das investigações automatizadas
               href: m365d-autoir-results.md
-            - name: Relatório falso positivo/negativos
+            - name: Resolver falsos positivos/negativos
               href: m365d-autoir-report-false-positives-negatives.md
         - name: Busca avançada
           items:
