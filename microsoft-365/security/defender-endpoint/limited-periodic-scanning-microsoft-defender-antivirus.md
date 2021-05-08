@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -14,12 +14,13 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 82c4bc1feec1556dc864558a843ed5e911c3ef3d
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: b2ae56c0f67501eb8603d5d28c4ed0c4af01a8c9
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764478"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274587"
 ---
 # <a name="use-limited-periodic-scanning-in-microsoft-defender-antivirus"></a>Usar uma verificação periódica limitada no Microsoft Defender Antivírus
 

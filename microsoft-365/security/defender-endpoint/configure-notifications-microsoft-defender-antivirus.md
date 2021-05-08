@@ -1,13 +1,13 @@
 ---
-title: Configurar notificações do Microsoft Defender Antivírus
-description: Saiba como configurar e personalizar notificações padrão e adicionais do Microsoft Defender Antivírus nos pontos de extremidade.
+title: Configurar Microsoft Defender Antivírus notificações
+description: Saiba como configurar e personalizar notificações Microsoft Defender Antivírus padrão e adicionais nos pontos de extremidade.
 keywords: notificações, defender, antivírus, ponto de extremidade, gerenciamento, administrador
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,13 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: a91da48f27450d6f4a6fd2b9607aa979458ccf71
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 6e11c9394f250a6f3882183224f53954b1390a23
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765090"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274623"
 ---
 # <a name="configure-the-notifications-that-appear-on-endpoints"></a>Configurar as notificações que aparecem nos pontos de extremidade
 
@@ -31,7 +32,7 @@ ms.locfileid: "51765090"
 
 - [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
 
-No Windows 10, as notificações de aplicativos sobre detecção e correção de malware são mais robustas, consistentes e concisas.
+Em Windows 10, as notificações de aplicativos sobre detecção e correção de malware são mais robustas, consistentes e concisas.
 
 As notificações são exibidas nos pontos de extremidade quando as verificações acionadas manualmente e agendadas são concluídas e as ameaças são detectadas. Essas notificações também aparecem na Central de Notificações **,** e um resumo de verificações e detecções de ameaças aparecem em intervalos de tempo regulares.
 
@@ -39,21 +40,21 @@ Você também pode configurar como as notificações padrão aparecem nos pontos
 
 ## <a name="configure-the-additional-notifications-that-appear-on-endpoints"></a>Configurar as notificações adicionais que aparecem nos pontos de extremidade
 
-Você pode configurar a exibição de notificações adicionais, como resumos recentes de detecção de ameaças, no aplicativo segurança do [Windows](microsoft-defender-security-center-antivirus.md) e com a Política de Grupo.
+Você pode configurar a exibição de notificações adicionais, como resumos recentes de detecção de ameaças, no aplicativo Segurança do Windows [e](microsoft-defender-security-center-antivirus.md) com a Política de Grupo.
 
 > [!NOTE]
-> No Windows 10, versão 1607, o recurso era chamado notificações aprimoradas e poderia ser configurado em **Windows Settings** Update &   >  **segurança**  >  **Windows Defender**. Nas configurações da Política de Grupo em todas as versões do Windows 10, ela é chamada **de Notificações aprimoradas.**
+> No Windows 10, versão 1607, o  recurso era chamado notificações aprimoradas e poderia ser configurado em **Windows Configurações**  >  **Atualização &** segurança  >  **Windows Defender**. Nas configurações da Política de Grupo em todas as versões do Windows 10, ela é chamada **notificações aprimoradas**.
 
 > [!IMPORTANT]
 > Desabilitar notificações adicionais não desabilitará notificações críticas, como alertas de detecção e correção de ameaças.
 
-**Use o aplicativo segurança do Windows para desabilitar notificações adicionais:**
+**Use o Segurança do Windows para desabilitar notificações adicionais:**
 
-1. Abra o aplicativo segurança do Windows clicando no ícone de escudo na barra de tarefas ou pesquisando o menu inicial do **Defender**.
+1. Abra o Segurança do Windows aplicativo clicando no ícone de escudo na barra de tarefas ou pesquisando o menu inicial do **Defender**.
 
 2. Clique no **&** de proteção contra ameaças (ou o ícone de escudo na barra de **menus** esquerda) e, em seguida, o rótulo de configurações de proteção contra ameaças & vírus:
 
-    ![Captura de tela do rótulo de configurações de proteção contra & vírus no aplicativo segurança do Windows](images/defender/wdav-protection-settings-wdsc.png)
+    ![Captura de tela do rótulo de configurações de proteção contra & vírus no Segurança do Windows app](images/defender/wdav-protection-settings-wdsc.png)
 
 3. Role até a **seção Notificações** e clique em **Alterar configurações de notificação**.
 
@@ -67,7 +68,7 @@ Você pode configurar a exibição de notificações adicionais, como resumos re
 
 3. Clique **em Modelos Administrativos**.
 
-4. Expanda a árvore para **componentes do Windows > o Microsoft Defender Antivírus > Reporting**.
+4. Expanda a árvore para **Windows componentes > Microsoft Defender Antivírus > Reporting**.
 
 5. Clique duas **vezes em Desativar notificações aprimoradas** e de definir a opção como **Habilitado**. Clique em **OK**. Isso impedirá que notificações adicionais apareçam.
 
@@ -79,12 +80,12 @@ Você pode usar a Política de Grupo para:
 - Ocultar todas as notificações nos pontos de extremidade
 - Ocultar notificações de reinicialização nos pontos de extremidade
 
-Ocultar notificações pode ser útil em situações em que você não pode ocultar toda a interface do Microsoft Defender Antivírus. Confira [Impedir que os usuários vejam ou interajam com a interface](prevent-end-user-interaction-microsoft-defender-antivirus.md) do usuário do Microsoft Defender Antivírus para obter mais informações. 
+Ocultar notificações pode ser útil em situações em que você não pode ocultar toda a Microsoft Defender Antivírus interface. Consulte [Impedir que os usuários vejam ou interajam](prevent-end-user-interaction-microsoft-defender-antivirus.md) com Microsoft Defender Antivírus interface do usuário para obter mais informações. 
 
 > [!NOTE]
-> Ocultar notificações só ocorrerá nos pontos de extremidade aos quais a política foi implantada. As notificações relacionadas a ações que devem ser tomadas (como uma reinicialização) ainda serão exibidas no painel de monitoramento e relatórios do [Microsoft Endpoint Manager Endpoint Protection.](/configmgr/protect/deploy-use/monitor-endpoint-protection) 
+> Ocultar notificações só ocorrerá nos pontos de extremidade aos quais a política foi implantada. As notificações relacionadas a ações que devem ser tomadas (como uma reinicialização) ainda serão exibidas no painel de monitoramento Microsoft Endpoint Manager Endpoint Protection [relatórios.](/configmgr/protect/deploy-use/monitor-endpoint-protection) 
 
-Confira [Personalizar o aplicativo de Segurança](/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center) do Windows para sua organização para obter instruções para adicionar informações de contato personalizadas às notificações que os usuários veem em seus computadores.
+Consulte [Personalizar o aplicativo Segurança do Windows para sua](/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center) organização para obter instruções para adicionar informações de contato personalizadas às notificações que os usuários veem em seus máquinas.
 
 **Use a Política de Grupo para ocultar notificações:**
 
@@ -92,7 +93,7 @@ Confira [Personalizar o aplicativo de Segurança](/windows/security/threat-prote
 
 2. No Editor **de Gerenciamento de Política de Grupo,** acesse **Configuração do** computador e clique em Modelos **administrativos.**
 
-3. Expanda a árvore para componentes do Windows > interface do Cliente do **Microsoft Defender Antivírus >.** 
+3. Expanda a árvore para **Windows componentes > Microsoft Defender Antivírus > Interface do Cliente.** 
 
 4. Clique duas vezes **em Suprimir todas as notificações** e de definir a opção como **Habilitado**. Clique em **OK**. Isso impedirá que notificações adicionais apareçam.
 
@@ -104,11 +105,11 @@ Confira [Personalizar o aplicativo de Segurança](/windows/security/threat-prote
 
 3. Clique **em Modelos Administrativos**.
 
-4. Expanda a árvore para componentes do Windows > interface do Cliente do **Microsoft Defender Antivírus >.**
+4. Expanda a árvore para **Windows componentes > Microsoft Defender Antivírus > Interface do Cliente.**
 
 5. Clique duas vezes **em Suprime notificações de reinicialização** e de definir a opção **como Habilitado**. Clique em **OK**. Isso impedirá que notificações adicionais apareçam.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
-- [Configurar a interação do usuário final com o Microsoft Defender Antivírus](configure-end-user-interaction-microsoft-defender-antivirus.md)
+- [Configurar a interação do usuário final com Microsoft Defender Antivírus](configure-end-user-interaction-microsoft-defender-antivirus.md)

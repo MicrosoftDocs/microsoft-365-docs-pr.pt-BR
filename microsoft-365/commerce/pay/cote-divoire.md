@@ -9,15 +9,15 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5662ca08da77e58c331a0dfc2aa301aad4bd4fd6
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 61a7e6cca7cd8e6625870ac380b56a0dbb6bf6b6
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50551591"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52273987"
 ---
 # <a name="payment-information-for-cte-divoire"></a>Informações de pagamento para a Costa do Marfim
 

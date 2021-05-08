@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: Neste artigo, os administradores podem aprender sobre a proteção de Links Seguros no Defender para Office 365 para proteger sua organização contra phishing e outros ataques que usam URLs mal-intencionadas.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1f27e1bbd051bd43d1f160707589db2bb7189b76
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: 86ecea1e250821f6a7f08d204586db0e60052e5c
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644771"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274431"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Links seguros no Microsoft Defender para Office 365
 
@@ -57,9 +57,9 @@ A proteção de Links Seguros está disponível nos seguintes locais:
 
   Para obter mais informações sobre a proteção de Links Seguros no Teams, consulte a seção Links Seguros [para o Microsoft Teams](#safe-links-settings-for-microsoft-teams) mais adiante neste artigo.
 
-- **Aplicativos do Office 365**: a proteção de Links Seguros para aplicativos do Office 365 está disponível em computadores, dispositivos móveis e web com suporte. Configure **a** proteção de Links Seguros para aplicativos do Office 365 na configuração global que estão **fora das** políticas de Links Seguros. Para obter instruções, consulte [Configure global settings for Safe Links settings in Microsoft Defender for Office 365](configure-global-settings-for-safe-links.md).
+- **Aplicativos do Office 365**: a proteção de Links Seguros para aplicativos do Office 365 está disponível em aplicativos da Web, desktop e móveis com suporte. Configure **a** proteção de Links Seguros para aplicativos do Office 365 na configuração global que estão **fora das** políticas de Links Seguros. Para obter instruções, consulte [Configure global settings for Safe Links settings in Microsoft Defender for Office 365](configure-global-settings-for-safe-links.md).
 
-  No entanto, a proteção de Links Seguros  para aplicativos do Office 365 só é aplicada aos usuários incluídos em políticas de Links Seguros ativos. Se um usuário não estiver incluído em uma política de Links Seguros ativos, o usuário não obterá proteção de Links Seguros em aplicativos do Office 365 com suporte.
+  A proteção de Links Seguros para aplicativos do Office 365 é aplicada a todos os usuários da organização licenciados para o Defender para o Office 365, independentemente de os usuários estar incluídos ou não nas políticas de Links Seguros ativos.
 
   Para obter mais informações sobre a proteção de Links Seguros nos aplicativos do Office 365, consulte a seção Configurações de Links Seguros para aplicativos do [Office 365](#safe-links-settings-for-office-365-apps) posteriormente neste artigo.
 
@@ -78,6 +78,8 @@ Este artigo inclui descrições detalhadas dos seguintes tipos de configuraçõe
 
 A tabela a seguir descreve cenários para Links Seguros nas organizações do Microsoft 365 e do Office 365 que incluem o Defender para Office 365 (em outras palavras, a falta de licenciamento nunca é um problema nos exemplos).
 
+<br>
+
 ****
 
 |Cenário|Resultado|
@@ -87,6 +89,7 @@ A tabela a seguir descreve cenários para Links Seguros nas organizações do Mi
 |Na organização do Pat, nenhum administrador criou nenhuma política de Links Seguros, mas a proteção de Links Seguros para aplicativos do Office 365 está conexões ativas. Pat abre um documento do Word e clica em uma URL no arquivo.|O Pat não está protegido por Links Seguros. <p> Embora a proteção de Links Seguros para aplicativos do Office 365 seja ativa globalmente, o Pat não está incluído em nenhuma política ativa de Links Seguros, portanto, a proteção não pode ser aplicada.|
 |Na organização de Lee, é configurado na lista Bloquear as URLs a seguir nas configurações `https://tailspintoys.com` globais para Links Seguros.  Uma política de Links Seguros que inclui Lee já existe. Lee recebe uma mensagem de email que contém a URL `https://tailspintoys.com/aboutus/trythispage` . Lee clica na URL.|A URL pode ser bloqueada automaticamente para Lee; depende da entrada da URL na lista e do cliente de email que Lee usou. Para obter mais informações, consulte a [seção "Bloquear as URLs a seguir" para Links](#block-the-following-urls-list-for-safe-links) Seguros mais adiante neste artigo.|
 |O Jamie e a Julia trabalham para contoso.com. Há muito tempo, os administradores configuram políticas de Links Seguros que se aplicam a Ambos de Jamie e Julia. O Jamie envia um email para a Julia, sem saber que o email contém uma URL mal-intencionada.|A Julia será protegida por **Links** Seguros se a política de Links Seguros que se aplica a ela estiver configurada para aplicar-se a mensagens entre destinatários internos. Para obter mais informações, consulte a seção [Configurações de Links Seguros para mensagens de email](#safe-links-settings-for-email-messages) posteriormente neste artigo.|
+|
 
 ## <a name="safe-links-settings-for-email-messages"></a>Configurações de Links Seguros para mensagens de email
 
@@ -104,9 +107,7 @@ As configurações em políticas de Links Seguros que se aplicam a mensagens de 
   - URLs que não têm uma reputação válida são detonadas de forma assíncrona em segundo plano.
 
 - **Aplicar verificação de URL** em tempo real para links suspeitos e links que apontam para arquivos : Permite a verificação em tempo real de links, incluindo links em mensagens de email que apontam para conteúdo baixável. O valor recomendado está habilitado.
-
   - **Aguarde a conclusão da verificação de URL antes de entregar a mensagem**:
-
     - Habilitado: as mensagens que contêm URLs são mantidas até que a verificação seja concluída. As mensagens são entregues somente depois que as URLs são confirmadas como seguras. Esse é o valor recomendado.
     - Desabilitado: se a verificação de URL não puder ser concluída, entregue a mensagem de qualquer maneira.
 
@@ -125,7 +126,6 @@ As configurações em políticas de Links Seguros que se aplicam a mensagens de 
   Para obter mais informações sobre os valores recomendados para configurações de política padrão e estrita para políticas de Links Seguros, consulte Configurações de política de [Links Seguros.](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)
 
 - **Filtros de** destinatário : Você precisa especificar as condições e exceções de destinatário que determinam a quem a política se aplica. Você pode usar essas propriedades para condições e exceções:
-
   - **O destinatário é**
   - **O domínio do destinatário é**
   - **O destinatário é um membro de**
@@ -207,7 +207,7 @@ A proteção de Links Seguros para aplicativos do Office 365 tem os seguintes re
 
 - Os usuários são assinados usando suas contas de trabalho ou de estudante. Para obter mais informações, [consulte Entrar no Office](https://support.microsoft.com/office/b9582171-fd1f-4284-9846-bdd72bb28426).
 
-Configure a proteção de Links Seguros para aplicativos do Office 365 nas configurações globais para Links Seguros, não em políticas de Links Seguros. No entanto, para que a proteção de Links Seguros para aplicativos do Office 365 seja aplicada, o usuário que abre o documento do Office e clica no link deve ser incluído em uma política de Links Seguros ativos.
+Configure a proteção de Links Seguros para aplicativos do Office 365 nas configurações globais para Links Seguros, não em políticas de Links Seguros. A proteção é aplicada a todos os usuários da organização licenciados para o Defender para Office 365, independentemente de os usuários estar incluídos ou não em políticas de Links Seguros ativos.
 
 As seguintes configurações de Links Seguros estão disponíveis para aplicativos do Office 365:
 
@@ -256,26 +256,23 @@ Quando um usuário em uma política de Links Seguros ativo clica em um link bloq
 
 Você configura a lista de URLs nas configurações globais para Links Seguros. Para obter instruções, [consulte Configure the "Block the following URLs" list](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security--compliance-center).
 
-> [!NOTE]
-> 
-> - Para uma lista verdadeiramente universal de URLs bloqueadas em todos os lugares, consulte [Manage the Tenant Allow/Block List](tenant-allow-block-list.md).
-> 
-> - Limites:
->   - O número máximo de entradas é 500.
->   - O comprimento máximo de uma entrada é de 128 caracteres.
->   - Todas as entradas não podem exceder 10.000 caracteres.
-> 
-> - Não inclua uma barra de avanço ( `/` ) no final da URL. Por exemplo, use `https://www.contoso.com` , não `https://www.contoso.com/` .
-> 
-> - Uma URL somente de domínio (por `contoso.com` exemplo ou `tailspintoys.com` ) bloqueará qualquer URL que contenha o domínio.
-> 
-> - Você pode bloquear um subdomínio sem bloquear o domínio completo. Por exemplo, bloqueia qualquer URL que contenha o subdomínio, mas não bloqueia `toys.contoso.com*` URLs que contenham o domínio completo `contoso.com` .
-> 
-> - Você pode incluir até três caracteres curinga ( `*` ) por entrada de URL.
+**Observações**:
+
+- Para uma lista verdadeiramente universal de URLs bloqueadas em todos os lugares, consulte [Manage the Tenant Allow/Block List](tenant-allow-block-list.md).
+- Limites para a **lista Bloquear as URLs** a seguir:
+  - O número máximo de entradas é 500.
+  - O comprimento máximo de uma entrada é de 128 caracteres.
+  - Todas as entradas não podem exceder 10.000 caracteres.
+- Não inclua uma barra de avanço ( `/` ) no final da URL. Por exemplo, use `https://www.contoso.com` , não `https://www.contoso.com/` .
+- Uma URL somente de domínio (por `contoso.com` exemplo ou `tailspintoys.com` ) bloqueará qualquer URL que contenha o domínio.
+- Você pode bloquear um subdomínio sem bloquear o domínio completo. Por exemplo, bloqueia qualquer URL que contenha o subdomínio, mas não bloqueia `toys.contoso.com*` URLs que contenham o domínio completo `contoso.com` .
+- Você pode incluir até três caracteres curinga ( `*` ) por entrada de URL.
 
 ### <a name="entry-syntax-for-the-block-the-following-urls-list"></a>Sintaxe de entrada para a lista "Bloquear as URLs a seguir"
 
 Exemplos dos valores que você pode inserir e seus resultados são descritos na tabela a seguir:
+
+<br>
 
 ****
 
@@ -296,24 +293,24 @@ Cada política de Links Seguros contém uma lista Não reescrever a lista de **U
 
 Para adicionar entradas à lista em políticas de Links Seguros novas ou existentes, consulte [Create Safe Links policies](set-up-safe-links-policies.md#use-the-security--compliance-center-to-create-safe-links-policies) or Modify Safe Links [policies](set-up-safe-links-policies.md#use-the-security--compliance-center-to-modify-safe-links-policies).
 
-> [!NOTE]
-> 
-> - Os clientes a seguir não reconhecem as listas Não reescrever **as SEGUINTES URLs** em políticas de Links Seguros. Os usuários incluídos nas polícias podem ser impedidos de acessar as URLs com base nos resultados da verificação de Links Seguros nesses clientes:
-> 
->   - Microsoft Teams
->   - Aplicativos web do Office
-> 
->   Para uma lista verdadeiramente universal de URLs permitidas em todos os lugares, consulte [Manage the Tenant Allow/Block List](tenant-allow-block-list.md).
-> 
-> - Considere adicionar URLs internas comumente usadas à lista para melhorar a experiência do usuário. Por exemplo, se você tiver serviços locais, como Skype for Business ou SharePoint, poderá adicionar essas URLs para exclui-las da verificação.
-> 
-> - Se você já tiver Não reescreve as seguintes entradas **URLs** em suas políticas de Links Seguros, não deixe de revisar as listas e adicionar curingas conforme necessário. Por exemplo, sua lista tem uma entrada como e você decide incluir `https://contoso.com/a` subcaminho como `https://contoso.com/a/b` . Em vez de adicionar uma nova entrada, adicione um caractere curinga à entrada existente para que ela se torne `https://contoso.com/a/*` .
-> 
-> - Você pode incluir até três caracteres curinga ( `*` ) por entrada de URL. Caracteres curinga incluem explicitamente prefixos ou subdomas. Por exemplo, a entrada não é igual a , porque permite que as pessoas `contoso.com` `*.contoso.com/*` `*.contoso.com/*` visitem subdomas e caminhos no domínio especificado.
+**Observações**:
+
+- Os clientes a seguir não reconhecem as listas Não reescrever **as SEGUINTES URLs** em políticas de Links Seguros. Os usuários incluídos nas polícias podem ser impedidos de acessar as URLs com base nos resultados da verificação de Links Seguros nesses clientes:
+  - Microsoft Teams
+  - Aplicativos web do Office
+
+  Para uma lista verdadeiramente universal de URLs permitidas em todos os lugares, consulte [Manage the Tenant Allow/Block List](tenant-allow-block-list.md).
+
+- Considere adicionar URLs internas comumente usadas à lista para melhorar a experiência do usuário. Por exemplo, se você tiver serviços locais, como Skype for Business ou SharePoint, poderá adicionar essas URLs para exclui-las da verificação.
+- Se você já tiver Não reescreve as seguintes entradas **URLs** em suas políticas de Links Seguros, não deixe de revisar as listas e adicionar curingas conforme necessário. Por exemplo, sua lista tem uma entrada como e você decide incluir `https://contoso.com/a` subcaminho como `https://contoso.com/a/b` . Em vez de adicionar uma nova entrada, adicione um caractere curinga à entrada existente para que ela se torne `https://contoso.com/a/*` .
+- Você pode incluir até três caracteres curinga ( `*` ) por entrada de URL. Caracteres curinga incluem explicitamente prefixos ou subdomas. Por exemplo, a entrada não é igual a , porque permite que as pessoas `contoso.com` `*.contoso.com/*` `*.contoso.com/*` visitem subdomas e caminhos no domínio especificado.
+- Se uma URL usa redirecionamento automático para HTTP para HTTPs (por exemplo, redirecionamento 302 para ), e você tenta inserir entradas HTTP e HTTPS para a mesma URL da lista, você pode notar que a segunda entrada de URL substitui a primeira entrada `http://www.contoso.com` `https://www.contoso.com` de URL. Esse comportamento não ocorrerá se as versões HTTP e HTTPS da URL estão completamente separadas.
 
 ### <a name="entry-syntax-for-the-do-not-rewrite-the-following-urls-list"></a>Sintaxe de entrada para a lista "Não reescrever as URLs a seguir"
 
 Exemplos dos valores que você pode inserir e seus resultados são descritos na tabela a seguir:
+
+<br>
 
 ****
 

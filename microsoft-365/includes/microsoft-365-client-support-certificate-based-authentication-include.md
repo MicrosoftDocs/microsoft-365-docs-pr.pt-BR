@@ -36,7 +36,7 @@
 |TEAMS|✔|✔|✔|Planejado|N/D|
 |TO-DO|✔|✔|✔|N/D|✔|
 |VISIO|N/D|✔|N/D|✔|N/D|
-|WHITEBOARD|N/D|Planejado|N/D|N/D|✔|
+|WHITEBOARD|✔|Planejado|N/D|N/D|✔|
 |WORD|✔|✔|✔|✔|✔|
 |WORKPLACE ANALYTICS|N/D|N/D|N/D|N/D|N/D|
 |YAMMER|✔|✔|Planejado|Planejado|N/D|

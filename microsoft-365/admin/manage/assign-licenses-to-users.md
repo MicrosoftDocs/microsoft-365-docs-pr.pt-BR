@@ -22,12 +22,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Aprenda a atribuir licenças aos usuários.
-ms.openlocfilehash: 9fa8981949215c4cf7779a21ff7089d7534e1ef0
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: ae088ab5c26df9b782bd4433bbd0c9f2d0ed9348
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023744"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274371"
 ---
 # <a name="assign-licenses-to-users"></a>Atribuir licenças aos usuários
 
@@ -41,9 +41,10 @@ Você pode atribuir licenças a usuários na página **Usuários ativos** ou na 
 ## <a name="before-you-begin"></a>Antes de começar
 
 - Você deve ser um administrador global, de licença ou de usuário para atribuir licenças. Para obter mais informações, consulte [Sobre as funções de administrador do Microsoft 365](../add-users/about-admin-roles.md).
-- Você pode [atribuir licenças às contas de usuários com o Office 365 PowerShell](../../enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell.md).
+- Você pode [atribuir licenças às contas de usuários do Microsoft 365 com o PowerShell](../../enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell.md).
 - Para obter mais instruções do licenciamento baseado em grupo, consulte [Atribuir licenças a usuários por membro de grupo no Azure Active Directory](/azure/active-directory/users-groups-roles/licensing-groups-assign).
 - Alguns serviços, como o Sway, são atribuídos automaticamente aos usuários e não precisam ser atribuídos individualmente.
+
 
 ## <a name="use-the-licenses-page-to-assign-licenses-to-users"></a>Use a página Licenças para atribuir licenças aos usuários
 
@@ -128,6 +129,10 @@ Ao usar a página **Usuários ativos** para atribuir licenças, você atribui li
 5. No painel **Adicionar a produtos existentes**, alterne o botão para a posição **Ativado** nas licenças que você quer que os usuários selecionados tenham.\
     Por padrão, todos os serviços associados a essa licença são atribuídos automaticamente ao usuário. Você pode limitar quais serviços estão disponíveis para os usuários. Alterne o botão a posição **Desativado** para os serviços que você não deseja que os usuários tenham.
 6. Na parte inferior do painel, selecione **Adicionar** \> **Fechar**.  
+
+
+> [!NOTE]
+> Se você deseja atribuir licenças a um grande número de usuários, use o [Atribuir licenças a usuários por associação a um grupo no Azure Active Directory](/azure/active-directory/enterprise-users/licensing-groups-assign)
 
 ### <a name="assign-licenses-to-one-user"></a>Atribuir licenças a um usuário
 

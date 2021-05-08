@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5f57d14427ef68280a065489e068955db9e5045a
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 18afd4aa160ec345839d23719d1b3fcce21654ec
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934796"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52246351"
 ---
 # <a name="troubleshooting-issues-on-microsoft-defender-for-endpoint-on-android"></a>Solução de problemas no Microsoft Defender para Ponto de Extremidade no Android
 
@@ -55,7 +55,7 @@ Você tem uma versão mais antiga do aplicativo "Microsoft Authenticator" instal
 
 **Solução:**
 
-Instalar a versão mais recente e o [Microsoft Authenticator](https://play.google.com/store/apps/details?androidid=com.azure.authenticator) na Google Play Store e tentar novamente
+Instale a versão mais recente e [Microsoft Authenticator](https://play.google.com/store/apps/details?androidid=com.azure.authenticator) da Google Play Store e tente novamente
 
 ## <a name="sign-in-failed---invalid-license"></a>Falha ao entrar - licença inválida
 
@@ -67,11 +67,15 @@ Instalar a versão mais recente e o [Microsoft Authenticator](https://play.googl
 
 **Causa:**
 
-Você não tem a licença do Microsoft 365 atribuída ou sua organização não tem uma licença para a assinatura do Microsoft 365 Enterprise.
+Você não tem uma Microsoft 365 atribuída, ou sua organização não tem uma licença para Microsoft 365 Enterprise assinatura.
 
 **Solução:**
 
 Entre em contato com o administrador para obter ajuda.
+
+## <a name="report-unsafe-site"></a>Relatar site não seguro
+
+Sites de phishing personificam sites confiáveis com o objetivo de obter suas informações pessoais ou financeiras. Visite a [página Fornecer comentários sobre a](https://www.microsoft.com/wdsi/filesubmission/exploitguard/networkprotection) proteção de rede se quiser relatar um site que pode ser um site de phishing.
 
 ## <a name="phishing-pages-arent-blocked-on-some-oem-devices"></a>Páginas de phishing não são bloqueadas em alguns dispositivos OEM
 

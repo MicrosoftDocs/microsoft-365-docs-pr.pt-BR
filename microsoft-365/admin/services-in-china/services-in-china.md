@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: Saiba mais sobre o Office 365 operado pela 21Vianet que foi projetado para atender às necessidades de serviços de nuvem seguros, confiáveis e escalonáveis na China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 92b69cc77f5c48af63651f2fd37761981ca45ad5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1ee7ba7be2e350195350a5c00e92ed10924657ac
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914337"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274359"
 ---
 # <a name="office-365-operated-by-21vianet"></a>Office 365 operado pela 21Vianet
 
@@ -153,8 +153,8 @@ Use a tabela a seguir para saber mais sobre o suporte a recursos em diferentes c
 |**Versão local do Exchange**|**MRM (arquivo morto dividido)**|**Acesso ao OWA (arquivo morto dividido)**|**Descoberta Eletrônica In-loco**|**Auditoria de Caixa de Correio**|**Espera/arquivamento in-locar**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 | Todos os CU5 de 2013  <br/> | Com suporte <br/>  | Sem suporte <br/>  | Com suporte <br/>  | Com suporte  <br/> | Com suporte <br/> |
-| All 2010 SP3 <br/>  | Sem suporte <br/>  | Sem suporte <br/>  | 1<sup>com suporte</sup> <br/> | Com suporte  <br/> | Com suporte <br/>  |
-| Pelo menos um servidor CU5 pré-2013  <br/> | 2<sup>com suporte</sup> <br/> | Sem suporte  <br/> | Sem suporte <br/> | Com suporte  <br/> | Com suporte <br/> |
+| All 2010 SP3 <br/>  | Incompatível <br/>  | Incompatível <br/>  | 1<sup>com suporte</sup> <br/> | Com suporte  <br/> | Com suporte <br/>  |
+| Pelo menos um servidor CU5 pré-2013  <br/> | 2<sup>com suporte</sup> <br/> | Incompatível  <br/> | Incompatível <br/> | Com suporte  <br/> | Com suporte <br/> |
 |||
 
 <sup>1</sup> Pesquisas separadas são necessárias para caixas de correio locais e do Exchange Online.  <br/> <sup>2 As</sup> políticas de movimentação de MRM para arquivo morto podem ser usadas para caixas de correio localizadas em um servidor do Exchange 2013 CU5 ou superior. 
@@ -197,7 +197,7 @@ Compartilhamento de dados de contato do Exchange em dispositivos móveis apple p
 |Integração do painel de pesquisa aos serviços do Bing  <br/> |Indisponível.  <br/> |
 |Verificador de acessibilidade  <br/> |Indisponível.  <br/> |
 |Bloco de anotações de classe  <br/> |Indisponível.  <br/> |
-|Forms  <br/> |Indisponível.  <br/> |
+|Formulários  <br/> |Indisponível.  <br/> |
 |Leitor imersivo  <br/> |Indisponível.  <br/> |
 |Inserir imagem online  <br/> |Indisponível.  <br/> |
 |Detalhes da reunião  <br/> |Indisponível.  <br/> |
@@ -233,3 +233,11 @@ O RGPD concede a indivíduos (ou titulares de dados) certos direitos em relaçã
 - Logs gerados pelo sistema para serviços Microsoft operados pela 21Vianet podem ser exportados por administradores de locatários usando a Exportação de Log de Dados.
     
 Para obter detalhes e instruções, consulte [Data Subject Requests (DSR) for GDPR](https://www.trustcenter.cn/privacy/gdpr-office365.mdl).
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Experimente ou compre uma assinatura do Microsoft 365 para empresas](../../commerce/try-or-buy-microsoft-365.md) (artigo)
+
+Suporte à Proteção de Informações [do Azure para o Office 365 operado pela 21Vianet](parity-between-azure-information-protection.md) (artigo)
+
+[Exibir sua fatura ou obter um Fapiao](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) (artigo)

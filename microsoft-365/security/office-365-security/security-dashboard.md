@@ -3,7 +3,7 @@ title: Visão geral do painel de segurança
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: denisebmsft
+author: siosulli
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 description: Use o novo Painel de Segurança para revisar o Status da Proteção contra Ameaças do Office 365 e exibir e agir em alertas de segurança.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7114776f686d25808c141a07b8cb2868cc67615d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8c9a49b9b8fc1edd9b2928250e8cae135acb75f4
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203041"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274407"
 ---
 # <a name="security-dashboard"></a>Painel de Segurança
 
@@ -87,7 +87,7 @@ As métricas são calculadas conforme descrito na tabela a seguir:
 |---|---|
 |Mensagens examinadas|Número de mensagens de email digitalizada multiplicada pelo número de destinatários|
 |Ameaças interrompidas|Número de mensagens de email identificadas como contendo malware multiplicado pelo número de destinatários|
-|Bloqueado pelo [Defender para Office 365 ](defender-for-office-365.md)|Número de mensagens de email bloqueadas pelo Defender para Office 365 multiplicada pelo número de destinatários|
+|Bloqueado pelo [Defender para Office 365](defender-for-office-365.md)|Número de mensagens de email bloqueadas pelo Defender para Office 365 multiplicada pelo número de destinatários|
 |Removido após a entrega|Número de mensagens removidas pela [limpeza automática de hora zero](zero-hour-auto-purge.md) multiplicada pelo número de destinatários|
 
 ## <a name="malware"></a>Malware
@@ -96,7 +96,7 @@ Os widgets de malware mostram detalhes sobre tendências de malware e tipos de f
 
 ![Tendências de malware e tipos de família](../../media/malwarewidgetatpe5.png)
 
-## <a name="insights"></a>Percepções
+## <a name="insights"></a>Insights
 
 Insights não apenas problemas de superfície que você deve revisar, eles também incluem recomendações e ações a considerar.
 
@@ -128,6 +128,6 @@ Para exibir ou acessar o widget Alertas de Gerenciamento de Ameaças Recentes, v
 
 [Exibir relatórios do Microsoft Defender para Office 365](view-reports-for-mdo.md)
 
-[Microsoft Defender para Office 365?](defender-for-office-365.md)
+[Defender para Office 365](defender-for-office-365.md)
 
 [Resposta e investigação de ameaças do Office 365](office-365-ti.md)

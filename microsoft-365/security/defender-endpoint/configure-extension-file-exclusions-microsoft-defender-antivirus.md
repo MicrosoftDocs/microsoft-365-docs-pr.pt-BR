@@ -6,19 +6,20 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 338dc249bcd4e092f5a2be39e3d045d094ed957a
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 3d65275d504ece4ac298558e660fa70c32a76d06
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765210"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274527"
 ---
 # <a name="configure-and-validate-exclusions-based-on-file-extension-and-folder-location"></a>Configurar e validar exclusões com base na extensão de arquivo e no local da pasta
 
@@ -168,7 +169,7 @@ Para obter mais informações, [consulte Windows Defender APIs WMIv2](/previous-
 
 ### <a name="use-the-windows-security-app-to-configure-file-name-folder-or-file-extension-exclusions"></a>Use o aplicativo segurança do Windows para configurar exclusões de nome de arquivo, pasta ou extensão de arquivo
 
-Consulte [Adicionar exclusões no aplicativo segurança do Windows](microsoft-defender-security-center-antivirus.md) para obter instruções.
+Consulte [Adicionar exclusões no aplicativo Segurança do Windows para](microsoft-defender-security-center-antivirus.md) obter instruções.
 
 <a id="wildcards"></a>
 
@@ -274,16 +275,16 @@ Você pode recuperar os itens na lista de exclusão usando um dos seguintes mét
 - [Gerenciador de Configuração do Microsoft Endpoint](/configmgr/protect/deploy-use/endpoint-antimalware-policies)
 - MpCmdRun
 - PowerShell
-- [Aplicativo de Segurança do Windows](microsoft-defender-security-center-antivirus.md)
+- [Segurança do Windows app](microsoft-defender-security-center-antivirus.md)
 
 >[!IMPORTANT]
->As alterações de lista de exclusão feitas com a Política de **Grupo** serão mostrar nas listas no aplicativo [segurança do Windows](microsoft-defender-security-center-antivirus.md).
+>As alterações de lista de exclusão feitas com a Política de **Grupo** serão mostrar nas listas no Segurança do Windows [app](microsoft-defender-security-center-antivirus.md).
 >
->As alterações feitas no aplicativo de Segurança do Windows **não aparecerão** nas listas de Política de Grupo.
+>As alterações feitas no Segurança do Windows **aplicativo não aparecerão** nas listas de Política de Grupo.
 
 Se você usar o PowerShell, poderá recuperar a lista de duas maneiras:
 
-- Recupere o status de todas as preferências do Microsoft Defender Antivírus. Cada lista é exibida em linhas separadas, mas os itens em cada lista são combinados na mesma linha.
+- Recupere o status de todas as Microsoft Defender Antivírus preferências. Cada lista é exibida em linhas separadas, mas os itens em cada lista são combinados na mesma linha.
 - Escreva o status de todas as preferências em uma variável e use essa variável para chamar apenas a lista específica em que você está interessado. Cada uso é `Add-MpPreference` gravado em uma nova linha.
 
 ### <a name="validate-the-exclusion-list-by-using-mpcmdrun"></a>Validar a lista de exclusão usando MpCmdRun
@@ -298,9 +299,9 @@ MpCmdRun.exe -CheckExclusion -path <path>
 ```
 
 >[!NOTE]
->Verificar exclusões com MpCmdRun requer o Microsoft Defender Antivírus CAMP versão 4.18.1812.3 (lançado em dezembro de 2018) ou posterior.
+>Verificar exclusões com MpCmdRun requer Microsoft Defender Antivírus CAMP versão 4.18.1812.3 (lançada em dezembro de 2018) ou posterior.
 
-### <a name="review-the-list-of-exclusions-alongside-all-other-microsoft-defender-antivirus-preferences-by-using-powershell"></a>Revise a lista de exclusões juntamente com todas as outras preferências do Microsoft Defender Antivírus usando o PowerShell
+### <a name="review-the-list-of-exclusions-alongside-all-other-microsoft-defender-antivirus-preferences-by-using-powershell"></a>Revise a lista de exclusões juntamente com todas as outras preferências Microsoft Defender Antivírus usando o PowerShell
 
 Use o seguinte cmdlet:
 
@@ -312,7 +313,7 @@ No exemplo a seguir, os itens contidos na `ExclusionExtension` lista são realç
 
 ![Saída do PowerShell para Get-MpPreference mostrando a lista de exclusão juntamente com outras preferências](images/defender/wdav-powershell-get-exclusions-all.png)
 
-Para obter mais informações, [consulte Usar cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) do PowerShell para configurar e executar os [cmdlets](/powershell/module/defender/)do Microsoft Defender Antivírus e do Defender.
+Para obter mais informações, [consulte Usar cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) do PowerShell para configurar e executar [cmdlets](/powershell/module/defender/)Microsoft Defender Antivírus e Defender.
 
 ### <a name="retrieve-a-specific-exclusions-list-by-using-powershell"></a>Recuperar uma lista de exclusões específica usando o PowerShell
 
@@ -328,7 +329,7 @@ No exemplo a seguir, a lista é dividida em novas linhas para cada uso do `Add-M
 
 ![Saída do PowerShell mostrando apenas as entradas na lista de exclusão](images/defender/wdav-powershell-get-exclusions-variable.png)
 
-Para obter mais informações, [consulte Usar cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) do PowerShell para configurar e executar os [cmdlets](/powershell/module/defender/)do Microsoft Defender Antivírus e do Defender.
+Para obter mais informações, [consulte Usar cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) do PowerShell para configurar e executar [cmdlets](/powershell/module/defender/)Microsoft Defender Antivírus e Defender.
 
 <a id="validate"></a>
 
@@ -342,7 +343,7 @@ No trecho a seguir do PowerShell, *substitua* test.txtpor um arquivo que esteja 
 Invoke-WebRequest "http://www.eicar.org/download/eicar.com.txt" -OutFile "test.txt"
 ```
 
-Se o Microsoft Defender Antivírus relata malware, a regra não está funcionando. Se não houver nenhum relatório de malware e o arquivo baixado existir, a exclusão está funcionando. Você pode abrir o arquivo para confirmar que o conteúdo é igual ao descrito no site do arquivo de teste [EICAR.](http://www.eicar.org/86-0-Intended-use.html)
+Se Microsoft Defender Antivírus relata malware, a regra não está funcionando. Se não houver nenhum relatório de malware e o arquivo baixado existir, a exclusão está funcionando. Você pode abrir o arquivo para confirmar que o conteúdo é igual ao descrito no site do arquivo de teste [EICAR.](http://www.eicar.org/86-0-Intended-use.html)
 
 Você também pode usar o código do PowerShell a seguir, que chama a classe .NET WebClient para baixar o arquivo de teste - como com o cmdlet; substitua oc:\test.txtpor um arquivo que esteja em conformidade com a regra que você está `Invoke-WebRequest` validando: 
 
@@ -361,7 +362,7 @@ Você também pode copiar a cadeia de caracteres em um arquivo de texto em branc
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Configurar e validar exclusões em verificações do Microsoft Defender Antivírus](configure-exclusions-microsoft-defender-antivirus.md)
+- [Configurar e validar exclusões em Microsoft Defender Antivírus verificações](configure-exclusions-microsoft-defender-antivirus.md)
 - [Configurar e validar exclusões para arquivos abertos por processos](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
-- [Configurar exclusões do Microsoft Defender Antivírus no Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)
+- [Configurar Microsoft Defender Antivírus exclusões no Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)
 - [Erros comuns a evitar ao definir exclusões](common-exclusion-mistakes-microsoft-defender-antivirus.md)

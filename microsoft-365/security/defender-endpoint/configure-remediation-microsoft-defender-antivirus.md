@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,13 @@ ms.date: 03/16/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 98bc079bcfd772ada52d699d5f873a187d4ab4c1
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 45886b94ec5ea11f01bfe23092eef4bd72691554
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765054"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274503"
 ---
 # <a name="configure-remediation-for-microsoft-defender-antivirus-detections"></a>Configurar a remediação para detecções do Microsoft Defender Antivírus
 
@@ -47,11 +48,11 @@ Você também pode usar o [ `Set-MpPreference` cmdlet do PowerShell](/powershell
 
 4. Usando a tabela abaixo, selecione um local e edite a política conforme necessário. 
 
-5. Clique em **OK**.
+5. Selecione **OK**.
 
-|Local | Setting | Descrição | Configuração padrão (se não estiver configurada) |
+|Location | Setting | Descrição | Configuração padrão (se não estiver configurada) |
 |:---|:---|:---|:---|
-|Examinar | Criar um ponto de restauração do sistema | Um ponto de restauração do sistema será criado todos os dias antes da tentativa de limpeza ou verificação | Desabilitada|
+|Examinar | Criar um ponto de restauração do sistema | Um ponto de restauração do sistema será criado todos os dias antes da tentativa de limpeza ou verificação | Desabilitado|
 |Examinar | Ativar a remoção de itens da pasta histórico de verificação | Especificar quantos itens de dias devem ser mantidos no histórico de verificação | 30 dias |
 |Root | Desativar a correção de rotina | Você pode especificar se o Microsoft Defender Antivírus corrigiu automaticamente as ameaças ou se ele deve perguntar ao usuário do ponto de extremidade o que fazer. | Desabilitada (as ameaças são corrigidas automaticamente) |
 |Quarentena | Configurar a remoção de itens da pasta Quarentena | Especificar quantos itens de dias devem ser mantidos em quarentena antes de serem removidos | 90 dias |

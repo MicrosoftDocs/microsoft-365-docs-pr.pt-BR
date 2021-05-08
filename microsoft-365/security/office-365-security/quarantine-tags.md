@@ -17,12 +17,12 @@ ROBOTS: NOINDEX
 description: Os administradores podem aprender a usar marcas de quarentena para controlar o que os usuários podem fazer com suas mensagens em quarentena.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 580cf2bad690d0fc6508d11178527ad218df763b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 512c589572502deacb5529ca9d6f2876861bf050
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203065"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274455"
 ---
 # <a name="quarantine-tags"></a>Marcas de quarentena
 
@@ -42,6 +42,10 @@ As permissões individuais são combinadas nos seguintes grupos de permissões p
 - Acesso total
 
 As permissões individuais disponíveis e o que está incluído ou não nos grupos de permissão predefinidos são descritos na tabela a seguir:
+
+<br>
+
+****
 
 |Permissão|Sem acesso|Acesso limitado|Acesso total|
 |---|:---:|:---:|:---:|
@@ -126,6 +130,8 @@ O _parâmetro EndUserQuarantinePermissionsValue_ usa um valor decimal convertido
 
 A ordem e os valores necessários para cada permissão individual em grupos de permissão predefinidos são descritos na tabela a seguir:
 
+<br>
+
 ****
 
 |Permissão|Sem acesso|Acesso limitado|Acesso total|
@@ -140,6 +146,7 @@ A ordem e os valores necessários para cada permissão individual em grupos de p
 |PermissionToViewHeader<sup>\*</sup>|0|0|0|
 |Valor binário|00000000|01101010|11101100|
 |Valor decimal a ser usado|0|106|236|
+|
 
 <sup>\*</sup> Atualmente, esse valor é sempre 0. Para PermissionToViewHeader, o valor 0 não oculta o botão Exibir o **header** da mensagem nos detalhes da mensagem em quarentena (o botão está sempre disponível).
 
@@ -224,6 +231,8 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [New-
 ## <a name="step-2-assign-a-quarantine-tag-to-supported-features"></a>Etapa 2: Atribuir uma marca de quarentena aos recursos com suporte
 
 Nos _recursos de proteção_ com suporte que as mensagens ou arquivos de quarentena (automaticamente ou como uma ação configurável), você pode atribuir uma marca de quarentena às ações de quarentena disponíveis. Recursos que as mensagens de quarentena e a disponibilidade de marcas de quarentena são descritos na tabela a seguir:
+
+<br>
 
 ****
 
@@ -456,7 +465,7 @@ Se a marca de quarentena atribuir as **permissões** de acesso total (todas as p
 
 - **Notificações de spam do usuário final:** Os seguintes botões estão disponíveis:
   - **Bloquear remetente**
-  - **Lançar**
+  - **Liberar**
   - **Análise**
 
   ![Botões disponíveis na notificação de spam do usuário final se a marca de quarentena der ao usuário permissões de acesso total](../../media/quarantine-tags-esn-full-access.png)

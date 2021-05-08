@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4898081103faa27c19d3a09ffba1b59670833dd8
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: fc1c1e0d3f68016651c04521e04ce348e5ab9a65
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860792"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52246460"
 ---
 # <a name="investigate-entities-on-devices-using-live-response"></a>Investigar entidades em dispositivos usando a resposta ao vivo
 
@@ -44,7 +44,7 @@ Com a resposta ao vivo, os analistas podem realizar todas as seguintes tarefas:
 - Execute comandos básicos e avançados para fazer um trabalho de investigação em um dispositivo.
 - Baixe arquivos como exemplos de malware e resultados de scripts do PowerShell.
 - Baixar arquivos em segundo plano (novo!).
-- Carregue um script do PowerShell ou executável na biblioteca e execute-o em um dispositivo de um nível de locatário.
+- Upload um script do PowerShell ou executável para a biblioteca e executá-lo em um dispositivo de um nível de locatário.
 - Realizar ou desfazer ações de correção.
 
 ## <a name="before-you-begin"></a>Antes de começar
@@ -101,20 +101,20 @@ Você precisará habilitar, pelo menos, o Nível mínimo de Correção para um d
 ## <a name="live-response-dashboard-overview"></a>Visão geral do painel de resposta ao vivo
 Quando você inicia uma sessão de resposta ao vivo em um dispositivo, um painel é aberto. O painel fornece informações sobre a sessão, como o seguinte: 
 
-- Quem criou a sessão
+- Who a sessão
 - Quando a sessão foi iniciada
 - A duração da sessão
 
 O painel também oferece acesso a:
 - Desconectar sessão
-- Carregar arquivos na biblioteca 
+- Upload arquivos para a biblioteca 
 - Console de comando
 - Log de comando
 
 
 ## <a name="initiate-a-live-response-session-on-a-device"></a>Iniciar uma sessão de resposta ao vivo em um dispositivo 
 
-1. Entre no Centro de Segurança do Microsoft Defender.
+1. Entre no Central de Segurança do Microsoft Defender.
 
 2. Navegue até a página de lista de dispositivos e selecione um dispositivo para investigar. A página dispositivos é aberta.
 
@@ -143,7 +143,6 @@ Os comandos a seguir estão disponíveis para funções de usuário que têm a c
 |`connect` | Inicia uma sessão de resposta ao vivo no dispositivo. |
 |`connections` | Mostra todas as conexões ativas. |
 |`dir` | Mostra uma lista de arquivos e subdireários em um diretório. |
-|`download <file_path> &` | Baixa um arquivo em segundo plano. |
 |`drivers` |  Mostra todos os drivers instalados no dispositivo. |
 |`fg <command ID>` | Coloque o trabalho especificado em primeiro plano em primeiro plano, tornando-o o trabalho atual. <br> OBSERVAÇÃO: fg tem uma "ID de comando" disponível nos trabalhos, não em um PID |
 |`fileinfo` | Obter informações sobre um arquivo. |
@@ -173,7 +172,7 @@ Os comandos a seguir estão disponíveis para funções de usuário que têm a c
 
 ## <a name="use-live-response-commands"></a>Usar comandos de resposta ao vivo
 
-Os comandos que você pode usar no console seguem princípios semelhantes aos comandos [do Windows](https://docs.microsoft.com/windows-server/administration/windows-commands/windows-commands#BKMK_c).
+Os comandos que você pode usar no console seguem princípios semelhantes aos [Windows Comandos](https://docs.microsoft.com/windows-server/administration/windows-commands/windows-commands#BKMK_c).
 
 Os comandos avançados oferecem um conjunto mais robusto de ações que permitem que você tome ações mais poderosas, como baixar e carregar um arquivo, executar scripts no dispositivo e executar ações de correção em uma entidade.
 
@@ -200,7 +199,7 @@ Aqui estão alguns exemplos:
 
 |Comando  |Função  |
 |---------|---------|
-|`Download "C:\windows\some_file.exe" &`     |Inicia o download de um arquivo *chamadosome_file.exe* em segundo plano.         |
+|`getfile "C:\windows\some_file.exe" &`     |Inicia o download de um arquivo *chamadosome_file.exe* em segundo plano.         |
 |`fg 1234`     |Retorna um download com a ID do comando *1234* em primeiro plano.         |
 
 
@@ -214,7 +213,7 @@ Você pode ter uma coleção de scripts do PowerShell que podem ser executados e
 
 #### <a name="to-upload-a-file-in-the-library"></a>Para carregar um arquivo na biblioteca
 
-1. Clique **em Carregar arquivo na biblioteca**. 
+1. Clique **Upload arquivo para biblioteca**. 
 
 2. Clique **em Procurar** e selecione o arquivo.
 
@@ -234,16 +233,6 @@ A qualquer momento durante uma sessão, você pode cancelar um comando pressiona
 
 >[!WARNING]
 >O uso desse atalho não interromperá o comando no lado do agente. Ele só cancelará o comando no portal. Portanto, a alteração de operações como "correção" pode continuar, enquanto o comando é cancelado. 
-
-### <a name="automatically-run-prerequisite-commands"></a>Executar comandos de pré-requisito automaticamente
-
-Alguns comandos têm comandos de pré-requisito para executar. Se você não executar o comando de pré-requisito, você obterá um erro. Por exemplo, executar o `download` comando sem `fileinfo` retornará um erro.
-
-Você pode usar o sinalizador automático para executar automaticamente comandos de pré-requisito, por exemplo:
-
-```console
-getfile c:\Users\user\Desktop\work.txt -auto
-```
 
 ## <a name="run-a-powershell-script"></a>Executar um script do PowerShell 
 
@@ -286,7 +275,7 @@ A resposta ao vivo dá suporte a tipos de saída de tabela e formato JSON. Para 
 
 ## <a name="supported-output-pipes"></a>Pipes de saída com suporte
 
-A resposta ao vivo dá suporte à canalização de saída para CLI e arquivo. CLI é o comportamento de saída padrão. Você pode canalar a saída para um arquivo usando o seguinte comando: [comando] > [filename].txt.  
+A resposta ao vivo dá suporte à canalização de saída para CLI e arquivo. CLI é o comportamento de saída padrão. Você pode canalar a saída para um arquivo usando o seguinte comando: [comando] > [nomedo arquivo].txt.  
 
 Exemplo:
 

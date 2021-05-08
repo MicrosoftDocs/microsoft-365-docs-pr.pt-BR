@@ -14,12 +14,12 @@ ms.custom:
 description: Os administradores podem usar o rastreamento de mensagens no Centro de Conformidade & segurança para descobrir o que aconteceu com as mensagens.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 78a7a2bda41f721b9e2084615b9eca1e70cf1f35
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 292c59563d0fd42da62cb071e07d19f545f5eb20
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51202955"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274467"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Rastreamento de mensagens no Centro de Conformidade e Segurança
 
@@ -30,32 +30,30 @@ ms.locfileid: "51202955"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-## <a name="message-trace-features"></a>Recursos de rastreamento de mensagens
-
 O rastreamento de mensagens no Centro de Conformidade & segurança segue mensagens de email à medida que elas viajam pela sua organização do Exchange Online. Você pode determinar se uma mensagem foi recebida, rejeitada, adiada ou entregue pelo serviço. Também mostra as ações feitas na mensagem antes de ela chegar em seu status final.
 
-O rastreamento de mensagens no Centro de Conformidade & segurança melhora o rastreamento de mensagens original que estava disponível no Centro de administração do Exchange (EAC). Você pode usar as informações do rastreamento de mensagens para responder com eficiência às perguntas do usuário sobre o que aconteceu com as mensagens, solucionar problemas de fluxo de emails e validar alterações de política.
+Você pode usar as informações do rastreamento de mensagens para responder com eficiência às perguntas do usuário sobre o que aconteceu com as mensagens, solucionar problemas de fluxo de emails e validar alterações de política.
 
-> [!NOTE]
->
-> - Para fazer um rastreamento de mensagens, você precisa ser membro dos grupos de função Gerenciamento de Organização, Gerenciamento de Conformidade ou Help Desk. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
->
-> - O número máximo de mensagens exibidas nos resultados depende do tipo de relatório selecionado (consulte a seção Escolher tipo [de](#choose-report-type) relatório para obter detalhes). O cmdlet [Get-HistoricalSearch](/powershell/module/exchange/get-historicalsearch) no PowerShell do Exchange Online ou no EOP PowerShell autônomo retorna todas as mensagens nos resultados.
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+
+- Você precisa ser membro dos grupos de função Gerenciamento da **Organização,** Gerenciamento de **Conformidade** ou Help **Desk** no **Exchange Online** para usar o rastreamento de mensagens. Para obter mais informações, confira [Permissões no Exchange Online](/exchange/permissions-exo/permissions-exo).
+
+  **Observações**: a associação à função correspondente do Azure Active Directory no Centro  de administração do Microsoft 365 fornece aos usuários as permissões e permissões necessárias para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+
+- O número máximo de mensagens exibidas nos resultados de um rastreamento de mensagem depende do tipo de relatório selecionado (consulte a seção Escolher tipo [de](#choose-report-type) relatório para obter detalhes). O cmdlet [Get-HistoricalSearch](/powershell/module/exchange/get-historicalsearch) no PowerShell do Exchange Online ou no EOP PowerShell autônomo retorna todas as mensagens nos resultados.
 
 ## <a name="open-message-trace"></a>Abrir rastreamento de mensagens
 
-1. Abra o Centro de Conformidade & segurança em <https://protection.office.com> .
+Abra o Centro de Conformidade & segurança em e, em <https://protection.office.com/> seguida, vá para **Fluxo de emails** Rastreamento de \> **mensagens.**
 
-2. Expanda **o fluxo de** email e selecione Rastreamento de **mensagem**.
+Para ir diretamente para a página **rastreamento de** mensagens, abra <https://protection.office.com/messagetrace> .
 
 ## <a name="message-trace-page"></a>Página de rastreamento de mensagens
 
 A partir daqui, você pode iniciar um novo rastreamento padrão clicando no **botão Iniciar um rastreamento.** Isso procurará todas as mensagens para todos os destinatários e destinatários nos últimos dois dias. Ou você pode usar uma das consultas armazenadas das categorias de consulta disponíveis e usá-las como está ou usá-las como pontos de partida para suas próprias consultas:
 
 - **Consultas padrão**: consultas in-lo como fornecidas pelo Microsoft 365.
-
 - **Consultas personalizadas**: Consultas salvas pelos administradores em sua organização para uso futuro.
-
 - **Consultas com autossaved**: As dez últimas consultas mais recentes são executados. Essa lista torna mais fácil escolher de onde você foi deixado.
 
 Também nesta página há uma seção **Relatórios** baixáveis para as solicitações que você enviou, bem como os relatórios em si quando estão disponíveis para download.
@@ -67,13 +65,11 @@ Também nesta página há uma seção **Relatórios** baixáveis para as solicit
 Os valores padrão são **Todos os destinatários e** todos os **destinatários,** mas você pode usar os seguintes campos para filtrar os resultados:
 
 - **Por essas pessoas**: clique neste campo para selecionar um ou mais senders de sua organização. Você também pode começar a digitar um nome e os itens na lista serão filtrados pelo que você digitou, bem como como uma página de pesquisa se comporta.
-
 - **Para essas pessoas:** clique neste campo para selecionar um ou mais destinatários em sua organização.
 
 > [!NOTE]
 >
 > - Você também pode digitar os endereços de email de destinatários e destinatários externos. Há suporte para caracteres curinga (por exemplo), mas você não pode usar várias entradas curinga no mesmo campo `*@contoso.com` ao mesmo tempo.
->
 > - Você pode colar vários destinatários ou listas de destinatários separados por ponto-e-vírgula ( `;` ). espaços ( `\s` ), retornos de carro ( `\r` ), ou próximas linhas ( `\n` ).
 
 ### <a name="time-range"></a>Intervalo de tempo
@@ -104,17 +100,11 @@ O valor padrão é **2 dias**, mas você pode especificar intervalos de data/hor
 Você pode deixar o valor padrão **Todos** selecionados ou selecionar um dos seguintes valores para filtrar os resultados:
 
 - **Entregue**: a mensagem foi entregue com êxito ao destino pretendido.
-
 - **Pendente**: a entrega da mensagem está sendo tentada ou tentada outra vez.
-
 - **Expandido**: um destinatário do grupo de distribuição foi expandido antes da entrega aos membros individuais do grupo.
-
 - **Falha**: a mensagem não foi entregue.
-
 - **Quarentena :** a mensagem foi colocada em quarentena (como spam, email em massa ou phishing). Para obter mais informações, consulte [Mensagens de email em quarentena no EOP](quarantine-email-messages.md).
-
 - **Filtrada como spam**: a mensagem foi identificada como spam e foi rejeitada ou bloqueada (não em quarentena).
-
 - **Obter status:** A mensagem foi recebida recentemente pelo Microsoft 365, mas nenhum outro dado de status ainda está disponível. Volte em alguns minutos.
 
 > [!NOTE]
@@ -144,15 +134,12 @@ Você pode arquivar os resultados por endereço IP do cliente para investigar co
 Os tipos de relatório disponíveis são:
 
 - **Resumo**: disponível se o intervalo de tempo for menor que 10 dias e não exigir opções adicionais de filtragem. Os resultados estão disponíveis quase imediatamente após você clicar em **Pesquisar**. O relatório retorna até 20.000 resultados.
-
 - **Resumo** aprimorado ou **Estendido:** esses relatórios estão disponíveis apenas como arquivos CSV baixáveis e exigem uma ou mais das seguintes opções de filtragem, independentemente do intervalo de **tempo:** Por essas pessoas **,** Para essas pessoas ou ID de **mensagem.** Você pode usar curingas para os destinatários ou os destinatários (por exemplo, \* @contoso.com). O relatório de resumo aprimorado retorna até 50000 resultados. O relatório Estendido retorna até 1000 resultados.
 
 > [!NOTE]
 >
 > - Resumo aprimorado e relatórios estendidos são preparados usando dados de rastreamento de mensagens arquivados e podem levar até várias horas antes do relatório estar disponível para download. Dependendo de quantos outros administradores também tenham enviado solicitações de relatório ao mesmo tempo, você também pode notar um atraso antes que sua solicitação em fila comece a ser processada.
->
 > - Embora você possa selecionar um resumo aprimorado ou relatório estendido para qualquer intervalo de data/hora, normalmente as últimas quatro horas de dados arquivados ainda não estarão disponíveis para esses dois tipos de relatórios.
->
 > - O tamanho máximo de um relatório baixável é de 500 MB. Se um relatório baixável exceder 500 MB, você não poderá abrir o relatório no Excel ou no Bloco de Notas.
 
 Quando você clica em **Next**, você é apresentado com uma página de resumo que lista as opções de filtragem selecionadas, um título exclusivo (editável) para o relatório e o endereço de email que recebe a notificação quando o rastreamento de mensagem é concluído (também editável e deve estar em um dos domínios aceitos da sua organização). Clique **em Preparar relatório** para enviar o rastreamento da mensagem. Na página de **rastreamento de** mensagem principal, você pode ver o status do relatório na seção **Relatórios Baixáveis.**
@@ -172,13 +159,9 @@ Depois de executar o rastreamento de mensagem, os resultados serão listados, or
 O relatório de resumo contém as seguintes informações:
 
 - **Data**: a data e a hora em que a mensagem foi recebida pelo serviço, usando o fuso horário UTC configurado.
-
 - **Remetente**: o endereço de email do remetente (*domínio de* @ *alias*).
-
 - **Destinatário**: o endereço de email do destinatário ou destinatário. Para uma mensagem enviada a vários destinatários, há uma linha por destinatário. Se o destinatário for um grupo de distribuição, um grupo dinâmico de distribuição ou um grupo de segurança habilitado para email, o grupo será o primeiro destinatário e, em seguida, cada membro do grupo estará em uma linha separada.
-
 - **Assunto**: Os primeiros 256 caracteres do campo **Assunto da mensagem:**
-
 - **Status**: Esses valores são descritos na seção [Status de](#delivery-status) entrega.
 
 Por padrão, os primeiros 250 resultados são carregados e prontamente disponíveis. Quando você rola para baixo, há uma pequena pausa à medida que o próximo lote de resultados é carregado. Em vez de rolar, você pode clicar em **Carregar** tudo para carregar todos os resultados até um máximo de 10.000.
@@ -202,7 +185,6 @@ Para obter mais informações sobre a ID da mensagem, consulte a seção ID da m
 Na saída do relatório de resumo, você pode exibir detalhes sobre uma mensagem usando um dos seguintes métodos:
 
 - Selecione a linha (clique em qualquer lugar da linha, exceto na caixa de seleção).
-
 - Marque a caixa de seleção da linha e clique em **Mais opções Mais** Detalhes da mensagem ![ ](../../media/1ea52bbf-9d00-48ce-9362-307f7f6fb7fe.png) \> **Exibir.**
 
    ![Detalhes após clicar duas vezes em uma linha no relatório de resumo resultados de rastreamento de mensagens no Centro de Conformidade & Segurança](../../media/e50ee7cd-810a-4c06-8b58-e56ffd7028d1.png)
@@ -210,37 +192,24 @@ Na saída do relatório de resumo, você pode exibir detalhes sobre uma mensagem
 Os detalhes do rastreamento de mensagens contêm as seguintes informações adicionais que não estão presentes no relatório de resumo:
 
 - **Eventos de mensagem**: esta seção contém classificações que ajudam a categorizar as ações que o serviço assume em mensagens. **Alguns dos eventos mais interessantes** que você pode encontrar são:
-
   - **Recebimento**: A mensagem foi recebida pelo serviço.
-
   - **Enviar**: a mensagem foi enviada pelo serviço.
-
   - **Falha**: a mensagem falhou ao ser entregue.
-
   - **Entregar**: a mensagem foi entregue a uma caixa de correio.
-
   - **Expanda**: a mensagem foi enviada para um grupo de distribuição que foi expandido.
-
   - **Transferência**: Os destinatários foram movidos para uma mensagem bifurcada devido a conversão de conteúdo, limites de destinatário de mensagem ou agentes.
-
   - **Adiamento**: a entrega da mensagem foi adiada e pode ser tentada novamente mais tarde.
-
   - **Resolvido**: a mensagem foi redirecionada para um novo endereço de destinatário com base em uma busca do Active Directory. Quando isso acontece, o endereço original de destinatário é listado em uma linha separada no rastreamento de mensagem junto com o status final de entrega da mensagem.
 
   > [!NOTE]
-  > 
+  >
   > - Uma mensagem desigual entregue com êxito gerará várias entradas **event** no rastreamento da mensagem.
-  > 
   > - Essa lista não deve ser exaustiva. Para obter descrições de mais eventos, consulte [Tipos de evento no log de controle de mensagens](/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log). Observe que este link é um tópico Exchange Server (Local do Exchange).
 
 - **Mais informações**: Esta seção contém os seguintes detalhes:
-
   - **ID da** mensagem : esse valor é descrito na seção [ID da](#message-id) mensagem anteriormente neste artigo. Por exemplo, `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`.
-
   - **Tamanho da mensagem**
-
   - **De IP**: O endereço IP do computador que enviou a mensagem. Para as mensagens de saída enviadas a partir do Exchange Online, o valor é nulo.
-
   - **Para IP**: o endereço IP ou endereços onde o serviço tentou entregar a mensagem. Se a mensagem tiver vários destinatários, eles serão exibidos. Para mensagens de entrada enviadas para o Exchange Online, o valor é nulo.
 
 ### <a name="enhanced-summary-reports"></a>Relatórios de resumo aprimorados
@@ -248,31 +217,18 @@ Os detalhes do rastreamento de mensagens contêm as seguintes informações adic
 Relatórios de resumo aprimorados disponíveis (concluídos) estão disponíveis na seção **Relatórios baixáveis** no rastreamento de mensagens inicial. As informações a seguir estão disponíveis no relatório:
 
 - **origin_timestamp**: a data e a hora em que a mensagem foi inicialmente recebida pelo serviço, usando o fuso horário <sup>*</sup> UTC configurado.
-
 - **sender_address**: o endereço de email do remetente (*domínio de* @ *alias*).
-
 - **Recipient_status**: o status da entrega da mensagem ao destinatário. Se a mensagem foi enviada para vários destinatários, ela mostrará todos os destinatários e o status correspondente para cada um deles, no formato: \<*email address*\> ## \<*status*\> . Por exemplo:
-
   - **##Receive, Send** significa que a mensagem foi recebida pelo serviço e enviada para o destino pretendido.
-
   - **##Receive, Fail** significa que a mensagem foi recebida pelo serviço, mas a entrega ao destino pretendido falhou.
-
   - **##Receive, Deliver** significa que a mensagem foi recebida pelo serviço e foi entregue à caixa de correio do destinatário.
-
 - **message_subject:** os primeiros 256 caracteres do campo **Assunto da** mensagem.
-
 - **total_bytes:** o tamanho da mensagem em bytes, incluindo anexos.
-
 - **message_id:** esse valor é descrito na seção [ID da](#message-id) mensagem anteriormente neste artigo. Por exemplo, `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`.
-
 - **network_message_id**: um valor exclusivo da ID da mensagem que persiste em todas as cópias da mensagem que podem ser criadas devido à bifurcação ou à expansão do grupo de distribuição. Um valor de exemplo é `1341ac7b13fb42ab4d4408cf7f55890f` .
-
 - **original_client_ip:** o endereço IP do cliente do remetente.
-
 - **direcionalidade**: Indica se a mensagem foi enviada de entrada (1) para sua organização ou se ela foi enviada de saída (2) de sua organização.
-
 - **connector_id:** o nome do conector de origem ou destino. Para obter mais informações sobre conectores no Exchange Online, consulte [Configure mail flow using connectors in Office 365](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
-
 - **delivery_priority:** se a mensagem foi enviada com prioridade <sup>*</sup> **Alta,** Baixa ou **Normal.** 
 
 <sup>*</sup> Essas propriedades estão disponíveis apenas em relatórios de resumos aprimorados.
@@ -282,65 +238,34 @@ Relatórios de resumo aprimorados disponíveis (concluídos) estão disponíveis
 Relatórios estendidos disponíveis (concluídos) estão disponíveis na seção **Relatórios baixáveis** no início do rastreamento de mensagens. Praticamente todas as informações de um relatório de resumo aprimorado estão disponíveis em um relatório estendido (com exceção de origin_timestamp **e** **delivery_priority**). As informações adicionais a seguir estão disponíveis apenas em um relatório estendido:
 
 - **client_ip**: o endereço IP do servidor de email ou do cliente de mensagens que enviou a mensagem.
-
 - **client_hostname**: O nome do host ou FQDN do servidor de email ou do cliente de mensagens que enviou a mensagem.
-
 - **server_ip:** o endereço IP do servidor de origem ou destino.
-
 - **server_hostname**: O nome do host ou FQDN do servidor de destino.
-
 - **source_context:** informações extras associadas ao **campo de origem.** Por exemplo:
-
   - `Protocol Filter Agent`
-
   - `3489061114359050000`
-
 - **source**: o componente do Exchange Online responsável pelo evento. Por exemplo:
-
   - `AGENT`
-
   - `MAILBOXRULE`
-
   - `SMTP`
-
 - **event_id**: eles correspondem aos valores de evento **Message** que são explicados na seção Encontrar registros [relacionados para esta](#find-related-records-for-this-message) mensagem.
-
 - **internal_message_id**: um identificador de mensagem atribuído pelo servidor do Exchange Online que está processamento da mensagem no momento.
-
 - **recipient_address:** os endereços de email dos destinatários da mensagem. Vários endereços de email são separados pelo caractere de ponto-e-vírgula (;).
-
 - **recipient_count:** o número total de destinatários na mensagem.
-
 - **related_recipient_address**: usado com , e eventos para exibir outros endereços de email de `EXPAND` `REDIRECT` destinatário `RESOLVE` associados à mensagem.
-
 - **referência**: Este campo contém informações adicionais para tipos específicos de eventos. Por exemplo:
-
   - **DSN**: contém o link de relatório, que é o valor message_id da notificação de status de entrega associada (também conhecida como DSN, relatório de não entrega, notificação de entrega ou mensagem de rejeição) se um DSN for gerado posteriormente **a** esse evento. Se for uma mensagem DSN,  este campo conterá o valor message_id da mensagem original para a que o DSN foi gerado.
-
   - **EXPAND**: contém o **valor related_recipient_address** das mensagens relacionadas.
-
   - **RECEIVE**: pode conter o **valor message_id** da mensagem relacionada se a mensagem foi gerada por outros processos (por exemplo, regras de caixa de entrada).
-
   - **SEND**: contém o **internal_message_id** valor de qualquer mensagem DSN.
-
   - **TRANSFER**: contém **o internal_message_id** valor da mensagem que está sendo bifurcada (por exemplo, por conversão de conteúdo, limites de destinatário de mensagem ou agentes).
-
-  - **MAILBOXRULE**: contém o **valor internal_message_id** da mensagem de entrada que fez com que a regra de Caixa de Entrada gerava a mensagem de saída.
-
-    Para outros tipos de eventos, esse campo geralmente está em branco.
-
+  - **MAILBOXRULE**: contém o **valor internal_message_id** da mensagem de entrada que fez com que a regra de Caixa de Entrada gerava a mensagem de saída. Para outros tipos de eventos, esse campo geralmente está em branco.
 - **return_path**: o endereço de email de retorno especificado pelo **comando MAIL FROM** que enviou a mensagem. Embora esse campo nunca seja vazio, ele pode ter o valor de endereço de remetente nulo representado como `<>` .
-
 - **message_info**: Informações adicionais sobre a mensagem. Por exemplo:
-
   - A data-hora de origem da mensagem em UTC e `DELIVER` `SEND` eventos. A data-hora de origem é a hora em que a mensagem entrou pela primeira vez na organização do Exchange Online. A data-hora UTC é representada no formato de data-hora ISO 8601: , onde = ano, = mês, = dia, indica o início do componente de `yyyy-mm-ddThh:mm:ss.fffZ` `yyyy` `mm` `dd` `T` hora, `hh` = hora, `mm` = minuto, = segundo, `ss` `fff` = `Z` `Zulu` frações de um segundo e significa , que é outra maneira de indicar UTC.
-
   - Erros de autenticação. Por exemplo, você pode ver o valor `11a` e o tipo de autenticação que foi usado quando ocorreu o erro de autenticação.
-
 - **tenant_id**: um valor GUID que representa a organização do Exchange Online (por exemplo, `39238e87-b5ab-4ef6-a559-af54c6b07b42` ).
-
 - **original_server_ip**: o endereço IP do servidor original.
-
 - **custom_data**: contém dados relacionados a tipos de eventos específicos. Para obter mais informações, consulte as seções a seguir.
 
 #### <a name="custom_data-values"></a>custom_data valores
@@ -350,6 +275,8 @@ O **custom_data** de um evento é usado por vários agentes do Exchange Online p
 #### <a name="spam-filter-agent"></a>Agente de filtro de spam
 
 Um **custom_data** valor que começa com `S:SFA` é do agente de filtro de spam. Os principais detalhes são descritos na tabela a seguir:
+
+<br>
 
 ****
 
@@ -381,6 +308,8 @@ Um exemplo **custom_data** valor para uma mensagem filtrada para spam como esta:
 
 Um **custom_data** valor que começa com `S:AMA` é do agente de filtro de malware. Os principais detalhes são descritos na tabela a seguir:
 
+<br>
+
 ****
 
 |Valor|Descrição|
@@ -406,6 +335,8 @@ Um exemplo **custom_data** valor para uma mensagem que contém malware tem a seg
 #### <a name="transport-rule-agent"></a>Agente de Regra de Transporte
 
 Um **custom_data** valor que começa com é do agente de Regra de Transporte para regras de fluxo de emails `S:TRA` (também conhecidas como regras de transporte). Os principais detalhes são descritos na tabela a seguir:
+
+<br>
 
 ****
 

@@ -1,5 +1,5 @@
 ---
-title: Capacite funcionários remotos com o Microsoft 365
+title: Configure sua infraestrutura para trabalho remoto com o Microsoft 365
 author: JoeDavies-MSFT
 f1.keywords:
 - NOCSH
@@ -17,17 +17,20 @@ ms.collection:
 - m365solution-overview
 - M365initiative-coredeploy
 ms.custom: seo-marvel-jun2020
-description: Certifique-se de ter habilitado todos os recursos do Microsoft 365 para maximizar a produtividade do trabalhador remoto e manter o acesso seguro aos seus servidores, dados e nuvem.
-ms.openlocfilehash: e811b0ea40c38d3c8de0dfdc17a24ce0d7aabe2f
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+keywords: trabalhar de casa, trabalhar-de-casa, híbrido, trabalhador remoto, trabalho híbrido, funcionários remotos, conectividade híbrida, acesso remoto, trabalho à distância, teletrabalho, trabalho móvel, trabalho remoto, trabalhar de qualquer lugar, local de trabalho flexível
+description: Passe através das camadas de infraestrutura para que seus trabalhadores remotos possam acessar com segurança os recursos no local e no Microsoft 365.
+ms.openlocfilehash: 1a8cf471cf92e1301c231f395ed0238bb35359cb
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52029117"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52246315"
 ---
-# <a name="empower-remote-workers-with-microsoft-365"></a>Capacite funcionários remotos com o Microsoft 365
+# <a name="set-up-your-infrastructure-for-remote-work-with-microsoft-365"></a>Configure sua infraestrutura para trabalho remoto com o Microsoft 365
 
-Sua empresa talvez precise habilitar seus funcionários a ter acesso seguro às informações, ferramentas e recursos da organização, no local e na nuvem de sua organização, a partir de suas casas. Permitir que os funcionários trabalhem fora do escritório é importante para várias organizações para:
+Para assegurar e otimizar a produtividade e colaboração do trabalhador remoto, configure sua infraestrutura de TI e de nuvem para permitir o trabalho remoto e fornecer acesso às informações, ferramentas e recursos de sua organização no local e na nuvem. Esta solução passa pela implantação de camadas principais de infraestrutura que capacitam seus funcionários a fazer seu melhor trabalho, onde quer que estejam.
+
+Permitir que os funcionários trabalhem fora do escritório é importante para várias organizações para:
 
 - Economizar espaço no escritório.
 - Contratar e reter funcionários que não estão dispostos a ser realocados.
@@ -125,8 +128,6 @@ Use essas etapas para proteger e otimizar o acesso aos servidores e serviços em
 5. [Implantar aplicativos e serviços de produtividade de trabalhador remoto](empower-people-to-work-remotely-teams-productivity-apps.md)
 6. [Treinar os funcionários remotos e responder a questões sobre o uso](empower-people-to-work-remotely-train-monitor-usage.md)
 
-[![Os passos para capacitar os trabalhadores remotos com o Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)](empower-people-to-work-remotely-secure-sign-in.md)
+[![As etapas para configurar sua infraestrutura para trabalho remoto com o Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)](empower-people-to-work-remotely-secure-sign-in.md)
 
-Para obter as informações mais recentes da Microsoft sobre o suporte de trabalhadores remotos, confira o site [Habilitando o trabalho híbrido com o Microsoft Teams](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/).
-
-Para ver como uma organização multinacional fictícia, mas representativa, capacitou seus funcionários remotos, confira a [resposta e infraestrutura da Contoso à COVID-19 para uma força de trabalho híbrida](contoso-remote-onsite-work.md).
+Para ver como uma organização multinacional fictícia, mas representativa, montou sua infraestrutura para o trabalho remoto, confira [Resposta e infraestrutura da Contoso à COVID-19 para uma força de trabalho híbrida](contoso-remote-onsite-work.md).
