@@ -107,16 +107,30 @@
               href: create-groups/manage-guest-access-in-groups.md
             - name: Alterar o nome de exibição e o endereço de email de um usuário
               href: add-users/change-a-user-name-and-email-address.md
-            - name: Remover um ex-funcionário
-              href: add-users/remove-former-employee.md
-            - name: Acessar e fazer backup dos dados de um usuário anterior
-              href: add-users/get-access-to-and-back-up-a-former-user-s-data.md
             - name: Restaurar um usuário
               href: add-users/restore-user.md
             - name: Criar um modelo para adicionar usuários
               href: add-users/create-and-use-a-template-to-add-users.md
             - name: Atualizar os usuários para os aplicativos mais recentes
               href: setup/upgrade-users-to-latest-office-client.md
+        - name: Remover um ex-funcionário
+          items:
+            - name: Visão Geral
+              href: add-users/remove-former-employee.md
+            - name: Etapa 1. Impedir que um funcionário entre e bloqueie o acesso aos serviços do Microsoft 365
+              href: add-users/remove-former-employee-step-1.md
+            - name: Etapa 2. Salvar o conteúdo da caixa de correio de um ex-funcionário
+              href: add-users/remove-former-employee-step-2.md
+            - name: Etapa 3. Encaminhar o email do ex-funcionário a outro funcionário ou convertê-lo em uma caixa de correio compartilhada
+              href: add-users/remove-former-employee-step-3.md
+            - name: Etapa 4. Dar a outro funcionário acesso a dados do OneDrive e do Outlook
+              href: add-users/remove-former-employee-step-4.md
+            - name: Etapa 5. Apagar e bloquear o dispositivo móvel de um ex-funcionário.
+              href: add-users/remove-former-employee-step-5.md
+            - name: Etapa 6. Remover a licença do Microsoft 365 de um ex-funcionário
+              href: add-users/remove-former-employee-step-6.md
+            - name: Etapa 7. Excluir a conta de usuário de um ex-funcionário
+              href: add-users/remove-former-employee-step-7.md
         - name: Grupos
           items:
             - name: Visão geral dos grupos
