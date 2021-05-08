@@ -1,25 +1,26 @@
 ---
-title: Gerenciar como e onde o Microsoft Defender Antivírus recebe atualizações
-description: Gerencie a ordem de fallback para saber como o Microsoft Defender Antivírus recebe atualizações de proteção.
+title: Gerenciar como e onde Microsoft Defender Antivírus recebe atualizações
+description: Gerencie a ordem de fallback para saber Microsoft Defender Antivírus recebe atualizações de proteção.
 keywords: atualizações, linhas de base de segurança, proteção, ordem de fallback, ADL, MMPC, UNC, caminho de arquivo, compartilhamento, wsus
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 9b1c9bc8c86c5b348e3c4d2a51e0bfafaf3e7174
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: c6961c4eac375ea36d801e278f5208f16d2558d9
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765462"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275019"
 ---
 # <a name="manage-the-sources-for-microsoft-defender-antivirus-protection-updates"></a>Gerenciar as fontes das atualizações de proteção do Microsoft Defender Antivírus
 
@@ -33,14 +34,14 @@ ms.locfileid: "51765462"
 <a id="protection-updates"></a>
 <!-- this has been used as anchor in VDI content -->
 
-Manter a proteção antivírus atualizada é fundamental. Há dois componentes para gerenciar atualizações de proteção para o Microsoft Defender Antivírus: 
+Manter a proteção antivírus atualizada é fundamental. Há dois componentes para gerenciar atualizações de proteção para Microsoft Defender Antivírus: 
 - *De* onde as atualizações são baixadas; e 
 - *Quando* as atualizações são baixadas e aplicadas. 
 
-Este artigo descreve como especificar de onde as atualizações devem ser baixadas (isso também é conhecido como ordem de fallback). Consulte [Manage Microsoft Defender Antivírus updates](manage-updates-baselines-microsoft-defender-antivirus.md) and apply baselines topic for an overview on how updates work, and how to configure other aspects of updates (such as scheduling updates).
+Este artigo descreve como especificar de onde as atualizações devem ser baixadas (isso também é conhecido como ordem de fallback). Consulte [Manage Microsoft Defender Antivírus updates and](manage-updates-baselines-microsoft-defender-antivirus.md) apply baselines topic for an overview on how updates work, and how to configure other aspects of updates (such as scheduling updates).
 
 > [!IMPORTANT]
-> As atualizações de inteligência de Segurança do Microsoft Defender Antivírus são entregues por meio do Windows Update e, a partir de segunda-feira, 21 de outubro de 2019, todas as atualizações de inteligência de segurança serão assinadas exclusivamente pelo SHA-2. Seus dispositivos devem ser atualizados para dar suporte ao SHA-2 para atualizar sua inteligência de segurança. Para saber mais, confira [2019 SHA-2 Code Signing Support requirement for Windows and WSUS](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus).  
+> Microsoft Defender Antivírus As atualizações de inteligência de segurança são entregues por meio do Windows Update e, a partir de segunda-feira, 21 de outubro de 2019, todas as atualizações de inteligência de segurança serão assinadas exclusivamente pelo SHA-2. Seus dispositivos devem ser atualizados para dar suporte ao SHA-2 para atualizar sua inteligência de segurança. Para saber mais, confira [2019 SHA-2 Code Signing Support requirement for Windows and WSUS](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus).  
 
 
 <a id="fallback-order"></a>
@@ -58,32 +59,32 @@ Quanto mais antigas as atualizações em um ponto de extremidade, maior será o 
 Há cinco locais onde você pode especificar onde um ponto de extremidade deve obter atualizações: 
 
 - [Microsoft Update](https://support.microsoft.com/help/12373/windows-update-faq)
-- [Serviço de Atualização do Windows Server](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
+- [Windows Serviço de Atualização do Servidor](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
 - [Gerenciador de Configuração do Microsoft Endpoint](/configmgr/core/servers/manage/updates)
 - [Compartilhamento de arquivos de rede](#unc-share)
-- Atualizações de inteligência de segurança para o Microsoft Defender Antivírus e outros [antimalware](https://www.microsoft.com/en-us/wdsi/defenderupdates) da Microsoft (Sua política e registro podem ter isso listado como inteligência de segurança Centro de Proteção contra Malware da Microsoft (MMPC), seu nome anterior.)
+- Atualizações de inteligência de segurança para Microsoft Defender Antivírus e outros [antimalware](https://www.microsoft.com/en-us/wdsi/defenderupdates) da Microsoft (Sua política e registro podem ter isso listado como inteligência de segurança Centro de Proteção contra Malware da Microsoft (MMPC), seu nome anterior.)
 
-Para garantir o melhor nível de proteção, o Microsoft Update permite versões rápidas, o que significa downloads menores com frequência. O Serviço de Atualização do Windows Server, o Microsoft Endpoint Configuration Manager e as fontes de atualizações de inteligência de segurança da Microsoft oferecem atualizações menos frequentes. Assim, o delta pode ser maior, resultando em downloads maiores. 
+Para garantir o melhor nível de proteção, o Microsoft Update permite versões rápidas, o que significa downloads menores com frequência. As Windows do Serviço de Atualização do Servidor, Microsoft Endpoint Configuration Manager e as fontes de inteligência de segurança da Microsoft oferecem atualizações menos frequentes. Assim, o delta pode ser maior, resultando em downloads maiores. 
 
 > [!IMPORTANT]
-> Se você definiu as atualizações de página de inteligência do [Microsoft Security](https://www.microsoft.com/security/portal/definitions/adl.aspx) como uma fonte de fallback após o Windows Server Update Service ou o Microsoft Update, as atualizações só serão baixadas de atualizações de inteligência de segurança quando a atualização atual for considerada desajustada. (Por padrão, são sete dias consecutivos em que não é possível aplicar atualizações do Serviço de Atualização do Windows Server ou dos serviços do Microsoft Update).
+> Se você definiu as atualizações de página de inteligência do [Microsoft Security](https://www.microsoft.com/security/portal/definitions/adl.aspx) como uma fonte de fallback após o Serviço de Atualização do Servidor Windows ou o Microsoft Update, as atualizações só serão baixadas de atualizações de inteligência de segurança quando a atualização atual for considerada desajustada. (Por padrão, são sete dias consecutivos em que não é possível aplicar atualizações do serviço Windows De atualização do servidor ou dos serviços do Microsoft Update).
 > No entanto, você pode definir o número de dias antes que a [proteção seja relatada como desa data.](/windows/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#set-the-number-of-days-before-protection-is-reported-as-out-of-date)<p>
 > A partir de segunda-feira, 21 de outubro de 2019, as atualizações de inteligência de segurança serão assinadas exclusivamente pelo SHA-2. Os dispositivos devem ser atualizados para dar suporte ao SHA-2 para obter as atualizações mais recentes de inteligência de segurança. Para saber mais, confira [2019 SHA-2 Code Signing Support requirement for Windows and WSUS](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus).
 
 Cada fonte tem cenários típicos que dependem de como sua rede é configurada, além da frequência com que publicam atualizações, conforme descrito na tabela a seguir:
 
-|Local | Cenário de exemplo |
+|Location | Cenário de exemplo |
 |---|---|
-|Serviço de Atualização do Windows Server | Você está usando o Serviço de Atualização do Windows Server para gerenciar atualizações para sua rede.|
-|Microsoft Update | Você deseja que seus pontos de extremidade se conectem diretamente ao Microsoft Update. Isso pode ser útil para pontos de extremidade que se conectam irregularmente à sua rede corporativa ou se você não usar o Serviço de Atualização do Windows Server para gerenciar suas atualizações.|
+|Windows Serviço de Atualização do Servidor | Você está usando o Windows De Atualização do Servidor para gerenciar atualizações para sua rede.|
+|Microsoft Update | Você deseja que seus pontos de extremidade se conectem diretamente ao Microsoft Update. Isso pode ser útil para pontos de extremidade que se conectam irregularmente à sua rede corporativa ou se você não usar o Serviço de Atualização do Servidor Windows para gerenciar suas atualizações.|
 |Compartilhamento de arquivos | Você tem dispositivos não conectados à Internet (como VMs). Você pode usar seu host de VM conectado à Internet para baixar as atualizações para um compartilhamento de rede, a partir do qual as VMs podem obter as atualizações. Consulte o [guia de implantação da VDI](deployment-vdi-microsoft-defender-antivirus.md) sobre como os compartilhamentos de arquivos podem ser usados em ambientes de infraestrutura de área de trabalho virtual (VDI).|
-|Microsoft Endpoint Manager | Você está usando o Microsoft Endpoint Manager para atualizar seus pontos de extremidade.|
-|Atualizações de inteligência de segurança para o Microsoft Defender Antivírus e outros antimalware da Microsoft (anteriormente chamado de MMPC) |[Certifique-se de que seus dispositivos sejam atualizados para dar suporte a SHA-2](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus). As atualizações de inteligência de segurança do Microsoft Defender Antivírus são entregues por meio do Windows Update e, a partir de segunda-feira, 21 de outubro de 2019, as atualizações de inteligência de segurança serão assinadas exclusivamente pelo SHA-2. <br/>Baixe as atualizações de proteção mais recentes devido a uma infecção recente ou para ajudar a provisionar uma imagem forte e base para implantação [VDI.](deployment-vdi-microsoft-defender-antivirus.md) Essa opção geralmente deve ser usada apenas como uma fonte de fallback final, e não como a fonte primária. Ele só será usado se as atualizações não puderem ser baixadas do Windows Server Update Service ou do Microsoft Update por um [número especificado de dias.](/windows/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#set-the-number-of-days-before-protection-is-reported-as-out-of-date)|
+|Microsoft Endpoint Manager | Você está usando Microsoft Endpoint Manager para atualizar seus pontos de extremidade.|
+|Atualizações de inteligência de segurança para Microsoft Defender Antivírus e outros antimalware da Microsoft (anteriormente chamado de MMPC) |[Certifique-se de que seus dispositivos sejam atualizados para dar suporte a SHA-2](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus). Microsoft Defender Antivírus As atualizações de inteligência de segurança são entregues por meio do Windows Update e, a partir de segunda-feira, 21 de outubro de 2019, as atualizações de inteligência de segurança serão assinadas exclusivamente pelo SHA-2. <br/>Baixe as atualizações de proteção mais recentes devido a uma infecção recente ou para ajudar a provisionar uma imagem forte e base para implantação [VDI.](deployment-vdi-microsoft-defender-antivirus.md) Essa opção geralmente deve ser usada apenas como uma fonte de fallback final, e não como a fonte primária. Ele só será usado se as atualizações não puderem ser baixadas do Serviço de Atualização do Servidor Windows ou do Microsoft Update por um [número especificado de dias.](/windows/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#set-the-number-of-days-before-protection-is-reported-as-out-of-date)|
 
-Você pode gerenciar a ordem na qual as fontes de atualização são usadas com a Política de Grupo, o Microsoft Endpoint Configuration Manager, os cmdlets do PowerShell e o WMI.
+Você pode gerenciar a ordem na qual as fontes de atualização são usadas com a Política de Grupo, Microsoft Endpoint Configuration Manager, cmdlets do PowerShell e WMI.
 
 > [!IMPORTANT]
-> Se você definir o Serviço de Atualização do Windows Server como local de download, deverá aprovar as atualizações, independentemente da ferramenta de gerenciamento usada para especificar o local. Você pode configurar uma regra de aprovação automática com o Serviço de Atualização do Windows Server, o que pode ser útil à medida que as atualizações chegam pelo menos uma vez por dia. Para saber mais, confira [sincronizar atualizações](/configmgr/protect/deploy-use/endpoint-definitions-wsus#to-synchronize-endpoint-protection-definition-updates-in-standalone-wsus)de proteção de ponto de extremidade no Serviço de Atualização do Windows Server autônomo.
+> Se você definir Windows Server Update Service como local de download, deverá aprovar as atualizações, independentemente da ferramenta de gerenciamento usada para especificar o local. Você pode configurar uma regra de aprovação automática com Windows Server Update Service, que pode ser útil à medida que as atualizações chegam pelo menos uma vez por dia. Para saber mais, confira [sincronizar atualizações](/configmgr/protect/deploy-use/endpoint-definitions-wsus#to-synchronize-endpoint-protection-definition-updates-in-standalone-wsus)de proteção de ponto de extremidade no Serviço de Atualização Windows Servidor Autônomo.
 
 Os procedimentos neste artigo descrevem primeiro como definir a ordem e, em seguida, como configurar a opção **Compartilhamento** de arquivos se você a habilitar.
 
@@ -95,7 +96,7 @@ Os procedimentos neste artigo descrevem primeiro como definir a ordem e, em segu
 
 3. Clique **em Políticas** e modelos **administrativos.**
 
-4. Expanda a árvore para **componentes do Windows > Windows Defender > atualizações de assinatura e** configure as seguintes configurações:
+4. Expanda a árvore para **Windows componentes > Windows Defender > atualizações de assinatura e** configure as seguintes configurações:
 
    1.  Clique duas vezes na **configuração Definir a ordem das fontes para baixar** atualizações de inteligência de segurança e defina a opção como **Habilitado**.
 
@@ -112,11 +113,11 @@ Os procedimentos neste artigo descrevem primeiro como definir a ordem e, em segu
    6. Clique em **OK**. Isso definirá a ordem dos compartilhamentos de arquivos quando essa fonte for referenciada na configuração Definir a ordem **das fontes...** da política de grupo.
 
 > [!NOTE]
-> Para o Windows 10, versões 1703 até e incluindo 1809, o caminho da política é Componentes do **Windows > Microsoft Defender Antivírus >** Atualizações de Assinatura para Windows 10, versão 1903, o caminho da política é Componentes do Windows > Microsoft Defender **Antivírus > Atualizações de** Inteligência de Segurança
+> Para Windows 10, versões 1703 até e incluindo 1809, o caminho da política é **Windows Components > Microsoft Defender Antivírus > Signature Updates** For Windows 10, versão 1903, o caminho da política é Windows Components > Microsoft Defender Antivírus > Security Intelligence **Updates**
 
 ## <a name="use-configuration-manager-to-manage-the-update-location"></a>Usar o Configuration Manager para gerenciar o local de atualização
 
-Consulte [Configure Security intelligence Updates for Endpoint Protection](/configmgr/protect/deploy-use/endpoint-definition-updates) para obter detalhes sobre como configurar o Microsoft Endpoint Manager (branch atual).
+Consulte [Configure Security intelligence Updates for Endpoint Protection](/configmgr/protect/deploy-use/endpoint-definition-updates) for details on configuring Microsoft Endpoint Manager (branch atual).
 
 
 ## <a name="use-powershell-cmdlets-to-manage-the-update-location"></a>Usar cmdlets do PowerShell para gerenciar o local de atualização
@@ -130,10 +131,10 @@ Set-MpPreference -SignatureDefinitionUpdateFileSharesSource {\\UNC SHARE PATH|\\
 Confira os seguintes artigos para obter mais informações:
 - [Set-MpPreference -SignatureFallbackOrder](/powershell/module/defender/set-mppreference)
 - [Set-MpPreference -SignatureDefinitionUpdateFileSharesSource](/powershell/module/defender/set-mppreference#-signaturedefinitionupdatefilesharessources)
-- [Usar cmdlets do PowerShell para configurar e executar o Microsoft Defender Antivírus](use-powershell-cmdlets-microsoft-defender-antivirus.md)
+- [Usar cmdlets do PowerShell para configurar e executar Microsoft Defender Antivírus](use-powershell-cmdlets-microsoft-defender-antivirus.md)
 - [Cmdlets defender](/powershell/module/defender/index)
 
-## <a name="use-windows-management-instruction-wmi-to-manage-the-update-location"></a>Usar a Instrução de Gerenciamento do Windows (WMI) para gerenciar o local de atualização
+## <a name="use-windows-management-instruction-wmi-to-manage-the-update-location"></a>Use Windows Instrução de Gerenciamento (WMI) para gerenciar o local de atualização
 
 Use o [ **método Set** da classe **MSFT_MpPreference**](/previous-versions/windows/desktop/legacy/dn455323(v=vs.85)) para as seguintes propriedades:
 

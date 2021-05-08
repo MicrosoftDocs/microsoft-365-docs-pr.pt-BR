@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 34274e260da2e8acc8088fcff6d324b6b31fc2ef
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 0e09a313b512135785050abd5aa61bb9576ce1d8
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935936"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274935"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender para Ponto de Extremidade para Linux
 
@@ -50,6 +50,13 @@ Este tópico descreve como instalar, configurar, atualizar e usar o Microsoft De
 - Experiência de nível iniciante em scripts Linux e BASH
 - Privilégios administrativos no dispositivo (em caso de implantação manual)
 
+> [!NOTE]
+>  O Microsoft Defender para Ponto de Extremidade no Linux é independente do [agente OMS.](/azure/azure-monitor/agents/agents-overview#log-analytics-agent) O Microsoft Defender para Ponto de Extremidade depende de seu próprio pipeline de telemetria independente.
+> 
+> O Microsoft Defender para Ponto de Extremidade no Linux ainda não está integrado ao Centro de Segurança do Azure.
+
+
+
 ### <a name="installation-instructions"></a>Instruções de instalação
 
 Há vários métodos e ferramentas de implantação que você pode usar para instalar e configurar o Microsoft Defender para Ponto de Extremidade no Linux.
@@ -66,6 +73,8 @@ Em geral, você precisa seguir as seguintes etapas:
 
 Se você tiver alguma falha de instalação, consulte [Troubleshooting installation failures in Microsoft Defender for Endpoint on Linux](linux-support-install.md).
 
+
+
 ### <a name="system-requirements"></a>Requisitos do sistema
 
 - Versões e distribuições de servidor Linux com suporte:
@@ -77,14 +86,23 @@ Se você tiver alguma falha de instalação, consulte [Troubleshooting installat
   - SUSE Linux Enterprise Server 12 ou superior
   - Oracle Linux 7.2 ou superior
 
+    > [!NOTE]
+    > As distribuições e as versões que não estão listadas explicitamente não têm suporte (mesmo que sejam derivadas das distribuições oficialmente suportadas).
+
+
 - Kernel mínimo versão 3.10.0-327
+
 - A `fanotify` opção kernel deve estar habilitada
+
   > [!CAUTION]
   > Não há suporte para executar o Defender para Ponto de Extremidade no Linux lado a lado com outras soluções `fanotify` de segurança baseadas. Pode levar a resultados imprevisíveis, incluindo a suspensão do sistema operacional.
 
 - Espaço em disco: 1 GB
+
 - /opt/microsoft/mdatp/sbin/wdavdaemon requer permissão executável. Para obter mais informações, consulte "Certifique-se de que o daemon tenha permissão executável" em Solucionar problemas de instalação do [Microsoft Defender para Ponto de](/microsoft-365/security/defender-endpoint/linux-support-install)Extremidade no Linux .
+
 - Memória: 1 GB
+
     > [!NOTE]
     > Verifique se você tem espaço livre em disco no /var.
 
@@ -117,7 +135,7 @@ Depois de habilitar o serviço, talvez seja necessário configurar sua rede ou f
 
 A planilha baixável a seguir lista os serviços e as URLs associadas às quais sua rede deve ser capaz de se conectar. Você deve garantir que não haja regras de filtragem de rede ou firewall que negariam o acesso a essas URLs. Se houver, talvez seja necessário criar uma regra *de* autorização especificamente para elas.
 
-|**Planilha de lista de domínios**|**Descrição**|
+| Planilha de lista de domínios | Descrição |
 |:-----|:-----|
 |![Imagem em miniatura da planilha URLs do Microsoft Defender para Endpoint](images/mdatp-urls.png)<br/>  | Planilha de registros DNS específicos para locais de serviço, localizações geográficas e sistema operacional. <br><br>[Baixe a planilha aqui.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)
 

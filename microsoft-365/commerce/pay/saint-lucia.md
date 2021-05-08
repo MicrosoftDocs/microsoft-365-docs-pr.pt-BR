@@ -8,16 +8,16 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a452ab4721c23eec8c1a06e82f8ceaa8df0b3620
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 35b550c65bd9d23f05c27fd6ed5da7d1b560406a
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50550355"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52272955"
 ---
 # <a name="payment-information-for-saint-lucia"></a>Informações de pagamento para Santa Lúcia
 

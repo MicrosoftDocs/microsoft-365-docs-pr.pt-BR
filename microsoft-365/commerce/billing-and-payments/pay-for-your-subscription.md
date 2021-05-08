@@ -21,14 +21,17 @@ ms.custom:
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
 - commerce
-ms.openlocfilehash: 582ecb0f9b46d877c30aa29334b30b9209c93993
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 65454dcc71645b370d2ebfc875474151c0954a3c
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51576932"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244999"
 ---
 # <a name="how-to-pay-for-your-subscription"></a>Como pagar por sua assinatura
+
+> [!IMPORTANT]
+> Desde 26 de janeiro de 2021, não há mais suporte para novas contas bancárias para clientes na Bélgica, França, Itália, Luxemburgo, Portugal, Espanha e Estados Unidos. Se você for um cliente existente em um desses países, poderá continuar pagando pela assinatura com uma conta bancária existente e adicionar novas assinaturas a ela, mas apenas enquanto a conta bancária estiver em dia.
 
 Você pode usar um cartão de crédito ou débito ou uma conta bancária para pagar sua assinatura. Em alguns casos, você pode pagar por fatura, usando cheque ou transferência eletrônica de fundos (TEF). Se você tem um perfil de faturamento, suas opções são um pouco diferentes. Para mais informações, consulte [Como pagar por sua assinatura com um perfil de faturamento](pay-for-subscription-billing-profile.md). Se você não tiver certeza se sua conta tem um perfil de faturamento, consulte [Entenda os perfis de faturamento](manage-billing-profiles.md).
 
@@ -37,7 +40,7 @@ Você pode usar um cartão de crédito ou débito ou uma conta bancária para pa
 ## <a name="before-you-begin"></a>Antes de começar
 
 - Você deve ser um administrador Global ou de Cobrança para realizar as etapas descritas neste artigo. Para mais informações, consulte [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
-- O método de pagamento que você escolhe durante a finalização da compra é o método de pagamento que usamos para todos os períodos de faturamento futuros. Você pode alterá-lo a qualquer momento.
+- A forma de pagamento escolhida durante a compra é a forma de pagamento usada para todos os períodos de cobrança futuros. Você pode alterá-lo a qualquer momento.
 
 ## <a name="paying-by-credit-or-debit-card-or-bank-account"></a>Pagar com cartão de crédito, débito ou conta bancária
 

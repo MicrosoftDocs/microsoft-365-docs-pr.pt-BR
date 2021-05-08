@@ -19,16 +19,23 @@ search.appverid:
 - MET150
 description: Saiba como ler e entender sua fatura ou cobrança de produtos comerciais da Microsoft.
 keywords: contas de cobrança, informações sobre a organização, fatura
-ms.openlocfilehash: 3752254fc6068381cd6effed0be4d5b8295f8a27
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 344877a4b97f5c77dc3381aa49d7bf0f60bd628e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579753"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244703"
 ---
 # <a name="understand-your-bill-or-invoice"></a>Entenda sua cobrança ou fatura
 
 A fatura fornece um resumo dos seus encargos e instruções de pagamento. Você pode [visualizar sua fatura online](#view-your-online-invoice) no Centro de administração do Microsoft 365. Você também pode baixá-lo no formato de Documento Portátil (.pdf) para enviar por email.
+
+Para exibir e imprimir sua fatura:
+
+1. Na página **cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Cobranças e pagamentos</a>, selecione um intervalo de datas de notas fiscais.
+2. Para imprimir ou salvar uma cópia em PDF da cobrança, selecione **Baixar fatura em PDF**, e então imprima o PDF.
+
+Para saber mais, consulte [Veja sua cobrança ou fatura](view-your-bill-or-invoice.md).
 
 Se você tiver apenas uma assinatura do Microsoft 365, consulte [Entenda sua cobrança ou fatura do Microsoft 365 para empresas](understand-your-invoice2.md).
 
@@ -133,13 +140,6 @@ As instruções de pagamento dependem do seu método de pagamento e são forneci
 
 - **Período de serviço:** É o período de tempo durante o qual você é cobrado para usar o serviço.
 - **Período de cobrança:** É o período de tempo desde a data da última fatura.
-
-### <a name="how-do-i-view-and-print-my-bill"></a>Como faço para visualizar e imprimir minha cobrança?
-
-1. Na página **cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Cobranças e pagamentos</a>, selecione um intervalo de datas de notas fiscais.
-2. Para imprimir ou salvar uma cópia em PDF da cobrança, selecione **Baixar fatura em PDF**, e então imprima o PDF.
-
-Para saber mais, consulte [Veja sua cobrança ou fatura](view-your-bill-or-invoice.md).
 
 ### <a name="why-dont-i-see-azure-prepayment-as-a-payment-method"></a>Por que eu não vejo o pagamento antecipado do Azure como um método de pagamento?
 

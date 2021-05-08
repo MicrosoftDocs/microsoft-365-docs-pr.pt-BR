@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba mais sobre o Microsoft 365 Business Premium, um serviço de assinatura que inclui os aplicativos de produtividade do Office e a proteção avançada para a sua empresa contra ameaças cibernéticas.
-ms.openlocfilehash: d6b0ded25e0478f85e73b807789463e4d55b1bb0
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: a355c9856ead4a66f6876cc7cb5aa8eb469d7f12
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578338"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244847"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Visão geral do Microsoft 365 Business Premium
 
@@ -46,7 +46,7 @@ Assista a este vídeo para obter uma rápida visão geral do Microsoft 365 Busin
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
+Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](../business-video/index.yml). 
 
 O Microsoft 365 Business Premium destina-se a até 300 licenças. Se precisar de mais licenças, confira a documentação do[Microsoft 365 Enterprise ](../enterprise/index.yml) para saber mais.
 
@@ -71,11 +71,11 @@ O Microsoft 365 Business Premium ajuda a proteger seus dados em cada uma dessas 
 
 O Microsoft 365 Business Premium ajuda na **defesa contra ameaças** ao:
 
-- Verificação de links em emails e documentos em tempo real para bloquear sites não seguros (Links Seguros).
+- Verificação de links em emails e documentos em tempo real para bloquear sites não seguros (Cofre Links).
 
-- Executando análise avançada de anexos de email em um ambiente de área de segurança para detectar malware recém-desenvolvido (Anexos Seguros). 
+- Executando análises avançadas de anexos de email em um ambiente de área de risco para detectar malware recém-desenvolvido (Cofre Anexos). 
 
-- Habilitando políticas anti-phishing que usam modelos de aprendizado de máquina e detecção de representação para fornecer proteção contra ataques avançados (anti-phishing no Defender para Inteligência do Office 365). 
+- Habilitando políticas anti-phishing que usam modelos de aprendizado de máquina e detecção de representação para fornecer proteção contra ataques avançados (anti-phishing no Defender para Office 365 inteligência). 
 
 - Configurar políticas avançadas que desabilitam o acesso de locais não confiáveis ou ignoram a autenticação multifatorial de locais confiáveis, como sua rede do Office (Azure MFA, incluindo IPs confiáveis e acesso condicional). 
 
@@ -111,6 +111,6 @@ Para ver a lista completa de recursos de segurança, confira [Recursos de segura
 
 - Se não tiver um parceiro e desejar obter o Microsoft 365 Business Premium, você poderá [comprá-lo aqui](https://www.microsoft.com/microsoft-365/business) e seguir as instruções em [inscreva-se](sign-up.md).
 
-## <a name="see-also"></a>Confira também
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Vídeos de treinamento do Microsoft 365 Business Premium](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business Premium vídeos de treinamento](../business-video/index.yml) (página de link)

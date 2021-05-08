@@ -7,20 +7,21 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 12/16/2020
+ms.date: 05/06/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 6b9845812763f9e3f1fdecf5566824eb76971dad
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 2265f3680e425ade062d444685fbd8873eaa02ca
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764862"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274959"
 ---
 # <a name="manage-microsoft-defender-antivirus-in-your-business"></a>Gerenciar o Microsoft Defender Antivírus em sua empresa
 

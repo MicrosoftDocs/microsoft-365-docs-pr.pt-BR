@@ -11,12 +11,12 @@ metadata:
   ms.date: 04/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: af01532312d675e3b685e51334235a9cf07683e0
-  ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+  ms.openlocfilehash: 2a0894dfeded8f34dd3c7e4182a317029512636f
+  ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/02/2021
-  ms.locfileid: "51579020"
+  ms.lasthandoff: 05/06/2021
+  ms.locfileid: "52244963"
 landingContent:
 - title: Trabalhar com clientes
   linkLists:
@@ -29,12 +29,12 @@ landingContent:
   - linkListType: video
     links:
     - text: Criar uma equipe com convidados
-      url: https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7
+      url: ../../business-video/team-with-guests.md
     - text: Participe de uma equipe como convidado
-      url: https://support.microsoft.com/office/928d1eef-61e2-49ec-b754-c2fe86b34824
+      url: ../../business-video/join-team-guest.md
     - text: Converse com funcionários e clientes
       url: https://support.microsoft.com/office/65748808-a403-462c-a6e1-b169e5bc6c92
     - text: Agendar uma reunião no Teams com convidados
-      url: https://support.microsoft.com/office/c61b4f61-ee62-4a06-8bf7-0a1cd302700a
+      url: ../../business-video/schedule-guest-meeting.md
     - text: Participe de uma reunião do Teams com convidados
-      url: https://support.microsoft.com/office/a120c282-063d-46b8-b973-851197ab75d8
+      url: ../../business-video/join-guest-meeting.md

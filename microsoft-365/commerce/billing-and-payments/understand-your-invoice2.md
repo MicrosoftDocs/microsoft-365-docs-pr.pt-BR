@@ -25,14 +25,17 @@ search.appverid:
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
 description: Saiba como interpretar as cobranças, as faturas e as informações de pagamento na fatura do Microsoft 365 para Empresas e como alterar o número da ordem de compra.
-ms.openlocfilehash: 56f1ba3e7cc328593873aaf06ddfe6dc82fc1a17
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: b89ca38bf5d7b1d82982668dcd98e9979f1657be
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615370"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245011"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Compreenda sua conta ou fatura para o Microsoft 365 para Empresas
+
+> [!IMPORTANT]
+> A partir de 26 de janeiro de 2021, novas contas bancárias não são mais suportadas para clientes na Bélgica, França, Itália, Luxemburgo, Portugal, Espanha e Estados Unidos. Se você for um cliente existente em um desses países, poderá continuar pagando por sua assinatura com uma conta bancária existente e poderá adicionar novas assinaturas a ela, mas apenas enquanto a conta bancária estiver em boas condições.
 
 Seja mensal ou anual (dependendo da opção escolhida durante a aquisição da assinatura), você receberá um email informando que seu novo demonstrativo de cobrança está disponível no centro de administração. [Saiba como encontrar e exibir a sua fatura](view-your-bill-or-invoice.md).
   

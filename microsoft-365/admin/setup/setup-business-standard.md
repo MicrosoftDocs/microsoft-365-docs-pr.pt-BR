@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Saiba como configurar sua assinatura do Microsoft 365 Business Standard.
-ms.openlocfilehash: 9efd14af2955e85b9b13c437ad869710f69a90f6
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: ce45b4869000892b5640730e765dbfc9c21386ed
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579081"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244450"
 ---
 # <a name="set-up-microsoft-business-standard"></a>Configurar o Microsoft Business Standard
 
@@ -67,9 +67,9 @@ Você pode adicionar usuários no assistente, mas também pode [adicionar usuár
 
 Todos os usuários que você adicionar no assistente recebem automaticamente uma licença do Microsoft 365 Business Standard.
 
-1. Se sua assinatura do Microsoft 365 Business Standard tiver usuários existentes (por exemplo, se você usou o Azure AD Connect), você terá a opção de atribuir-lhes licenças agora. Também adicione licenças para eles.
+1. Se sua assinatura do Microsoft 365 Business Standard tiver usuários existentes (por exemplo, se você usou o Azure AD Connect), você obterá uma opção para atribuir licenças a eles agora. Adicione licenças para eles também.
 
-2. Depois de adicionar os usuários, você também terá a opção de compartilhar credenciais com os novos usuários adicionados. Você pode optar por imprimi-las, enviá-las por email ou baixá-las.
+2. Depois de adicionar os usuários, você também terá uma opção para compartilhar as credenciais com os novos usuários adicionados. Você pode optar por imprimi-las, enviá-las por email ou baixá-las.
 
 ## <a name="connect-your-domain"></a>Conectar seu domínio
 
@@ -139,4 +139,4 @@ O Microsoft 365 não inclui um site público para a sua empresa. Se quiser confi
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/4839abc6-9323-4cbf-a79d-2907235f9ebb]
 
-Veja mais em [Usar um site público](https://support.microsoft.com/office/3325d50e-d131-403c-a278-7f3296fe33a9).
+Veja mais em [Usar um site público](../../business-video/create-web-site.md).

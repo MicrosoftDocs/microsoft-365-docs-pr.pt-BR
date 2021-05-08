@@ -8,16 +8,16 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7d731469a1c6908c79e55f0a7f4bae66aad8f267
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: db42ce70f5533101ecb39bd504f3e5eb16c2b396
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50543023"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52273183"
 ---
 # <a name="payment-information-for-new-zealand"></a>Informações de pagamento para a Nova Zelândia
 

@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: e3e842f812c5675334cc25fa35544165129db2b4
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: f3dba2116e0f13f265937ef65fd3b69bcb1e725b
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245883"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274647"
 ---
 # <a name="view-and-manage-actions-in-the-action-center"></a>Exibir e gerenciar ações no Centro de Ações
 
@@ -37,24 +37,25 @@ ms.locfileid: "52245883"
 - Microsoft 365 Defender
 
 Os recursos de proteção contra ameaças no Microsoft 365 Defender podem resultar em determinadas ações de correção. Aqui estão alguns exemplos:
-- [Investigações automatizadas](m365d-autoir.md) podem resultar em ações de correção que são realizadas automaticamente ou aguardam aprovação.
+
+- [Investigações automatizadas](m365d-autoir.md) podem resultar em ações de correção que são realizadas automaticamente ou aguardam sua aprovação.
 - Antivírus, antimalware e outros recursos de proteção contra ameaças podem resultar em ações de correção, como bloquear um arquivo, URL ou processo ou enviar um artefato para a quarentena.
 - Sua equipe de operações de segurança pode realizar [](advanced-hunting-overview.md) ações de correção manualmente, como durante a busca avançada ou durante a investigação de [alertas](investigate-alerts.md) [ou incidentes.](investigate-incidents.md)
 
 > [!NOTE]
-> Você deve ter [permissões apropriadas](m365d-action-center.md#required-permissions-for-action-center-tasks) para aprovar ou rejeitar ações de correção. Para obter mais informações, consulte [Prerequisites for automated investigation and response in Microsoft 365 Defender](m365d-configure-auto-investigation-response.md#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender).
+> Você deve ter [permissões apropriadas](m365d-action-center.md#required-permissions-for-action-center-tasks) para aprovar ou rejeitar ações de correção. Para obter mais informações, consulte [os pré-requisitos](m365d-configure-auto-investigation-response.md#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender).
 
 ## <a name="review-pending-actions-in-the-action-center"></a>Revisar ações pendentes no Centro de Ações
 
 É importante aprovar (ou rejeitar) ações pendentes o mais rápido possível, para que suas investigações automatizadas possam prosseguir e ser concluídas a tempo. 
 
-![Aprovar ou rejeitar uma ação](../../media/air-actioncenter-itemselected.png)
-
 1. Vá para [https://security.microsoft.com](https://security.microsoft.com) e entre. 
 
 2. No painel de navegação, escolha **Central de Ações**. 
 
-3. Em Central de Ações, na guia **Pendente**, selecione um item na lista. Seu painel de sobrevoo é aberto.
+3. Em Central de Ações, na guia **Pendente**, selecione um item na lista. Seu painel de sobrevoo é aberto. Veja um exemplo.
+
+   ![Aprovar ou rejeitar uma ação](../../media/air-actioncenter-itemselected.png)
 
 4. Revise as informações no painel de sobrevoos e, em seguida, dê uma das seguintes etapas:
    - Selecione **Abrir página de investigação** para exibir mais detalhes sobre a investigação.
@@ -90,11 +91,11 @@ Se você tiver determinado que um dispositivo ou um arquivo não é uma ameaça,
 
 1. Vá para a Central de Ações ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) e entre.
 
-2. Na guia **Histórico,** selecione um arquivo que tenha o arquivo De quarentena tipo **ação.**
+2. Na guia **Histórico,** selecione um arquivo que tenha um tipo **ação de arquivo de** quarentena.
 
 3. No painel no lado direito da tela, selecione Aplicar a X mais **instâncias** deste arquivo e selecione **Desfazer**.
 
 ## <a name="next-steps"></a>Próximas etapas
 
 - [Exibir os detalhes e resultados de uma investigação automatizada](m365d-autoir-results.md)
-- [Saiba como lidar com falsos positivos/negativos (se você receber um)](m365d-autoir-report-false-positives-negatives.md)
+- [Endereço de falsos positivos ou falsos negativos)](m365d-autoir-report-false-positives-negatives.md)

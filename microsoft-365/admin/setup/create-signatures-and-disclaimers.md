@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: Aprenda a gerenciar assinaturas de email, incluindo avisos de isenção de responsabilidade legal ou instruções de divulgação para todas as mensagens de email que entram ou saem da sua organização.
-ms.openlocfilehash: b599ef8b6d0bb236b6111bae86c92409601e00d0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e1c3df235442fdc6f569825a7137c92bfc5bb044
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914229"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244522"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>Criar assinaturas e avisos de isenção de ônus em toda a organização
 
@@ -40,7 +40,7 @@ ms.locfileid: "50914229"
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf] 
 
-Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou este vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades para o Microsoft 365](../../business-video/index.yml).
 
 ## <a name="create-a-signature-that-applies-to-all-messages"></a>Criar uma assinatura que se aplica a todas as mensagens
 
@@ -80,14 +80,14 @@ Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/
 6. Em **Aplicar essa regra,** selecione **[Aplicar a todas as mensagens]**.
     
     > [!TIP]
-    > [Saiba mais](/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping) sobre como aplicar condições se não quiser que a isenção de responsabilidade seja aplicada a todas as mensagens. (Este artigo de scoping é para Exchange Server, mas também se aplica ao Microsoft 365.) 
+    > [Saiba mais](/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping) sobre como aplicar condições se não quiser que a isenção de responsabilidade seja aplicada a todas as mensagens. (Este artigo de scoping é para Exchange Server, mas também se aplica a Microsoft 365.) 
   
 7. Em Faça o seguinte, deixe **Adicionar o aviso de isenção de responsabilidade** selecionado. 
     
 8.  Selecione **Inserir texto** e digite seu aviso de isenção de responsabilidade. 
     
     > [!TIP]
-    > [Saiba mais](/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer) sobre a formatação de avisos de isenção de responsabilidade. (Este artigo de formatação é Exchange Server, mas também se aplica ao Microsoft 365.) 
+    > [Saiba mais](/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer) sobre a formatação de avisos de isenção de responsabilidade. (Este artigo de formatação é para Exchange Server, mas também se aplica a Microsoft 365.) 
 
 9. Selecione **Selecionar um** e escolha **Wrap** como uma opção de fallback. Em seguida, clique em **OK**. Isso significa que, se não for possível adicionar a isenção de responsabilidade devido a criptografia ou outra configuração de email, ela será quebrada automaticamente em um envelope de mensagem.
     
@@ -115,4 +115,4 @@ Para obter esses e outros recursos para gerenciar assinaturas de email, use uma 
   
 ## <a name="more-resources"></a>Mais recursos
 
-- Consulte Avisos de isenção de responsabilidade de mensagens em toda a [organização, assinaturas, rodapés](/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) ou headers no Exchange Online para obter informações sobre como usar o PowerShell.
+- Consulte Avisos de isenção de responsabilidade de mensagem em toda a [organização, assinaturas, rodapés](/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) ou Exchange Online informações sobre como usar o PowerShell.

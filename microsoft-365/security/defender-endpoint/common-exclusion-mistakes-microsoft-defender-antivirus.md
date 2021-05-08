@@ -1,35 +1,36 @@
 ---
 title: Erros comuns a evitar ao definir exclusões
-description: Evite erros comuns ao definir exclusões para verificações do Microsoft Defender Antivírus.
+description: Evite erros comuns ao definir exclusões para Microsoft Defender Antivírus verificações.
 keywords: exclusões, arquivos, extensão, tipo de arquivo, nome da pasta, nome do arquivo, verificações
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: eb3ac89eb05b39ff3337aa8e9c5ead1c308fbefb
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: de739ca3c6a4ab305b575fa7e2f419d044d997a8
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764910"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274964"
 ---
 # <a name="common-mistakes-to-avoid-when-defining-exclusions"></a>Erros comuns a evitar ao definir exclusões
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-Você pode definir uma lista de exclusão para itens que não deseja que o Microsoft Defender Antivírus digitalizar. Esses itens excluídos podem conter ameaças que torna seu dispositivo vulnerável. 
+Você pode definir uma lista de exclusão para itens que não deseja Microsoft Defender Antivírus examinar. Esses itens excluídos podem conter ameaças que torna seu dispositivo vulnerável. 
 
 Este artigo descreve alguns erros comuns que você deve evitar ao definir exclusões. 
 
-Antes de definir suas listas de exclusão, consulte [Recomendações para definir exclusões](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions).
+Antes de definir suas listas de exclusão, [consulte Recomendações para definir exclusões](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions).
 
 ## <a name="excluding-certain-trusted-items"></a>Excluindo determinados itens confiáveis
 
@@ -50,17 +51,17 @@ Um malware pode ter o mesmo nome do arquivo em que você confia e deseja excluir
 
 ## <a name="using-a-single-exclusion-list-for-multiple-server-workloads"></a>Usando uma única lista de exclusão para várias cargas de trabalho de servidor
 
-Não use uma única lista de exclusão para definir exclusões para várias cargas de trabalho de servidor. Divida as exclusões de diferentes cargas de trabalho de aplicativo ou serviço em várias listas de exclusão. Por exemplo, a lista de exclusão para a carga de trabalho do Servidor do IIS deve ser diferente da lista de exclusão para sua SQL Server de trabalho.
+Não use uma única lista de exclusão para definir exclusões para várias cargas de trabalho de servidor. Divida as exclusões de diferentes cargas de trabalho de aplicativo ou serviço em várias listas de exclusão. Por exemplo, a lista de exclusão para a carga de trabalho do servidor do IIS deve ser diferente da lista de exclusão para sua carga de trabalho SQL Server trabalho.
 
 ## <a name="using-incorrect-environment-variables-as-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists"></a>Usar variáveis de ambiente incorretas como curingas no nome do arquivo e no caminho da pasta ou listas de exclusão de extensão
 
-O Serviço Antivírus do Microsoft Defender é executado no contexto do sistema usando a conta LocalSystem, o que significa que ele obtém informações da variável do ambiente do sistema e não da variável de ambiente do usuário. O uso de variáveis de ambiente como curinga em listas de exclusão está limitado a variáveis do sistema e às aplicáveis a processos em execução como uma conta NT AUTHORITY\SYSTEM. Portanto, não use variáveis de ambiente do usuário como curingas ao adicionar a pasta do Microsoft Defender Antivírus e exclusões de processo. Consulte a tabela em [variáveis de ambiente do sistema](configure-extension-file-exclusions-microsoft-defender-antivirus.md#system-environment-variables) para uma lista completa de variáveis de ambiente do sistema.
+Microsoft Defender Antivírus O serviço é executado no contexto do sistema usando a conta LocalSystem, o que significa que ele obtém informações da variável de ambiente do sistema e não da variável de ambiente do usuário. O uso de variáveis de ambiente como curinga em listas de exclusão está limitado a variáveis do sistema e às aplicáveis a processos em execução como uma conta NT AUTHORITY\SYSTEM. Portanto, não use variáveis de ambiente do usuário como caracteres curinga ao adicionar Microsoft Defender Antivírus exclusões de processo e pasta. Consulte a tabela em [variáveis de ambiente do sistema](configure-extension-file-exclusions-microsoft-defender-antivirus.md#system-environment-variables) para uma lista completa de variáveis de ambiente do sistema.
 
 Consulte [Usar curingas no nome](configure-extension-file-exclusions-microsoft-defender-antivirus.md#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists) do arquivo e no caminho da pasta ou listas de exclusão de extensão para obter informações sobre como usar curingas em listas de exclusão.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Configurar e validar exclusões em verificações do Microsoft Defender Antivírus](configure-exclusions-microsoft-defender-antivirus.md)
+- [Configurar e validar exclusões em Microsoft Defender Antivírus verificações](configure-exclusions-microsoft-defender-antivirus.md)
 - [Configurar e validar exclusões com base na extensão de arquivo e no local da pasta](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 - [Configurar e validar exclusões para arquivos abertos por processos](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
-- [Configurar exclusões do Microsoft Defender Antivírus no Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)
+- [Configurar Microsoft Defender Antivírus exclusões no Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)

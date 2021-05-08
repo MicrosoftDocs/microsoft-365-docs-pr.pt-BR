@@ -8,16 +8,16 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b79f343b2f35ad8e111df641a1cf77f1f809ecff
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: af3ed45bd5f0041f8fd2dd4776e8cc0580f29f70
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50542615"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52272907"
 ---
 # <a name="payment-information-for-serbia"></a>Informações de pagamento para a Sérvia
 

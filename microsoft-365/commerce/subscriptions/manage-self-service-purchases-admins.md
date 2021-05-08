@@ -20,12 +20,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Os administradores podem aprender a gerenciar compras de autoatendados feitas pelos usuários em sua organização.
-ms.openlocfilehash: febf0ee470e735a454dc7a9e747de5025c7a4a51
-ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
+ms.openlocfilehash: 59d64c047ddf4f33c2ef3277f3139f1b7692b891
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51398163"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244987"
 ---
 # <a name="manage-self-service-purchases-admin"></a>Gerenciar compras de autoatendimento (Administrador)
 
@@ -43,14 +43,13 @@ Você também pode controlar se os usuários em sua organização podem fazer co
 
 ::: moniker range="o365-germany"
 
-1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">de administração,</a>vá para a página **Cobrança** > **seus** produtos.
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Seus produtos</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">de administração,</a>vá para a página **Cobrança** > **seus** produtos.
-
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Seus produtos</a>.
 ::: moniker-end
 
 2. Na guia **Produtos,** selecione o ícone de filtro e, em seguida, **selecione Autoatendados**.
@@ -59,7 +58,7 @@ Você também pode controlar se os usuários em sua organização podem fazer co
 ## <a name="view-who-has-licenses-for-a-self-service-purchase-subscription"></a>Exibir quem tem licenças para uma assinatura de compra de autoatend
 
 > [!NOTE]
-> Como administrador, você não pode atribuir ou desatribuição de licenças para uma assinatura de compra de autoatendados comprada por um usuário em sua organização. Você pode assumir uma assinatura de compra [autoatendente](#take-over-a-self-service-purchase-subscription)e, em seguida, atribuir ou desatribuição de licenças.
+> Como administrador, você não pode atribuir ou cancelar a atribuição de licenças para uma assinatura de compra de autoatendimento comprada por um usuário em sua organização. Você pode [assumir uma assinatura de compra de autoatendimento](#take-over-a-self-service-purchase-subscription), e, em seguida, atribuir ou cancelar a atribuição de licenças.
 
 ::: moniker range="o365-worldwide"
 
@@ -69,12 +68,13 @@ Você também pode controlar se os usuários em sua organização podem fazer co
 
 ::: moniker range="o365-germany"
 
-1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">de administração,</a>vá para a página  > **Licenças de** Cobrança.
+ 1. No centro de administração, acesse a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenças</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">de administração,</a>vá para a página  > **Licenças de** Cobrança.
+ 1. No centro de administração, acesse a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenças</a>.
 
 ::: moniker-end
 
@@ -189,7 +189,7 @@ Quando você opta por cancelar uma assinatura de compra de autoatendado, os usu�
 ::: moniker-end
 
 2. Na guia **Produtos,** selecione o ícone de filtro e, em seguida, **selecione Autoatendados**.
-3. Selecione a assinatura que você deseja cancelar.
+3. Selecione a assinatura que você deseja alterar.
 4. Na página detalhes da assinatura, na seção **Assinaturas e** configurações, selecione **Assumir o controle dessa assinatura**.
 5. No painel direito, selecione **Cancelar assinatura**.
 6. Selecione um motivo para o cancelamento na listada e selecione **Cancelar assinatura**.

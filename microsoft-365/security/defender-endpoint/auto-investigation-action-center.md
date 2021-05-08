@@ -7,8 +7,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -19,12 +19,12 @@ ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.date: 01/28/2021
 ms.technology: mde
-ms.openlocfilehash: f8dd48364f60da789ac95638018245cf46434822
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: e51cc1d613e6f9e7ab96653692362ed7fe239e3e
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197632"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274839"
 ---
 # <a name="visit-the-action-center-to-see-remediation-actions"></a>Visite o Centro de Ações para ver ações de correção
 
@@ -54,7 +54,7 @@ O centro de ações unificado reúne ações de correção no Defender para Pont
 
 Você pode usar o Centro de Ações unificado se tiver permissões apropriadas e uma ou mais das seguintes assinaturas:
 - [Defender para Ponto de Extremidade](microsoft-defender-endpoint.md)
-- [O que é o Defender para Office 365?](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
+- [Defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
 - [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) 
 
 > [!TIP]
@@ -91,4 +91,4 @@ Você pode personalizar, classificar, filtrar e exportar dados no Centro de Aç�
  
 ## <a name="see-also"></a>Confira também
 
-- [Resolver falsos positivos/negativos no Microsoft Defender para Ponto de Extremidade](defender-endpoint-false-positives-negatives.md)
+- [Endereços falsos positivos/negativos no Microsoft Defender para Ponto de Extremidade](defender-endpoint-false-positives-negatives.md)

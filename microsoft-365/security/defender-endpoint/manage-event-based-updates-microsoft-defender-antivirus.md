@@ -1,13 +1,13 @@
 ---
-title: Aplicar atualizações do Microsoft Defender Antivírus após determinados eventos
-description: Gerencie como o Microsoft Defender Antivírus aplica atualizações de inteligência de segurança após a inicialização ou recebimento de relatórios de detecção entregues na nuvem.
+title: Aplicar Microsoft Defender Antivírus atualizações após determinados eventos
+description: Gerencie Microsoft Defender Antivírus aplica atualizações de inteligência de segurança após a inicialização ou recebimento de relatórios de detecção entregues na nuvem.
 keywords: atualizações, proteção, atualizações de força, eventos, inicialização, verificar se há mais recentes, notificações
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,13 @@ ms.date: 09/17/2018
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 78a04105fce0a3a1f9f7ea3f9ee993dd53750f3f
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 624e32bfebfce02021f1dcb1dbdde9446472239a
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764550"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274695"
 ---
 # <a name="manage-event-based-forced-updates"></a>Gerenciar atualizações aplicadas com base em evento
 
@@ -31,15 +32,15 @@ ms.locfileid: "51764550"
 
 - [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
 
-O Microsoft Defender Antivírus permite determinar se as atualizações devem (ou não) ocorrer após determinados eventos, como na inicialização ou depois de receber relatórios específicos do serviço de proteção entregue na nuvem.
+Microsoft Defender Antivírus permite determinar se as atualizações devem (ou não) ocorrer após determinados eventos, como na inicialização ou depois de receber relatórios específicos do serviço de proteção entregue na nuvem.
 
 ## <a name="check-for-protection-updates-before-running-a-scan"></a>Verifique se há atualizações de proteção antes de executar uma verificação
 
-Você pode usar o Microsoft Endpoint Configuration Manager, a Política de Grupo, os cmdlets do PowerShell e o WMI para forçar o Microsoft Defender Antivírus a verificar e baixar atualizações de proteção antes de executar uma verificação agendada.
+Você pode usar Microsoft Endpoint Configuration Manager, Política de Grupo, cmdlets do PowerShell e WMI para forçar Microsoft Defender Antivírus verificar e baixar atualizações de proteção antes de executar uma verificação agendada.
 
 ### <a name="use-configuration-manager-to-check-for-protection-updates-before-running-a-scan"></a>Use o Configuration Manager para verificar se há atualizações de proteção antes de executar uma verificação
 
-1. No console do Microsoft Endpoint Manager, abra a política  antimalware que você deseja alterar (clique em Ativos e Conformidade no painel de navegação à esquerda e expanda a árvore para Visão Geral das Políticas  >    >  **antimalware** de Proteção de Ponto de Extremidade )
+1. Em seu console Microsoft Endpoint Manager, abra a política antimalware que  você deseja alterar (clique em Ativos e Conformidade no painel de navegação à esquerda e expanda a árvore para **Visão** geral  >  **Endpoint Protection**  >  **Políticas antimalware**)
 
 2. Vá para a seção **Verificações** agendadas e **desem conjunto Verificar as** atualizações mais recentes de inteligência de segurança antes de executar uma verificação como **Sim**.
 
@@ -55,7 +56,7 @@ Você pode usar o Microsoft Endpoint Configuration Manager, a Política de Grupo
 
 3. Clique **em Políticas** e modelos **administrativos.**
 
-4. Expanda a árvore para **componentes do Windows**  >  **Microsoft Defender**  >  **Antivírus Scan**.
+4. Expanda a árvore para **Windows componentes**  >  **Microsoft Defender Antivírus**  >  **Scan**.
 
 5. Clique duas **vezes em Verificar as definições mais** recentes de vírus e spyware antes de executar uma verificação agendada e de definir a opção como **Habilitado**.
 
@@ -69,9 +70,9 @@ Use os seguintes cmdlets:
 Set-MpPreference -CheckForSignaturesBeforeRunningScan
 ```
 
-Para obter mais informações, [consulte Usar cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) do PowerShell para configurar e executar os [cmdlets](/powershell/module/defender/index)do Microsoft Defender Antivírus e do Defender.
+Para obter mais informações, [consulte Usar cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) do PowerShell para configurar e executar [cmdlets](/powershell/module/defender/index)Microsoft Defender Antivírus e Defender.
 
-### <a name="use-windows-management-instruction-wmi-to-check-for-protection-updates-before-running-a-scan"></a>Use a Instrução de Gerenciamento do Windows (WMI) para verificar se há atualizações de proteção antes de executar uma verificação
+### <a name="use-windows-management-instruction-wmi-to-check-for-protection-updates-before-running-a-scan"></a>Use Windows Instrução de Gerenciamento (WMI) para verificar se há atualizações de proteção antes de executar uma verificação
 
 Use o [ **método Set** da classe **MSFT_MpPreference**](/previous-versions/windows/desktop/legacy/dn455323(v=vs.85)) para as seguintes propriedades:
 
@@ -83,7 +84,7 @@ Para obter mais informações, [consulte Windows Defender APIs WMIv2](/previous-
 
 ## <a name="check-for-protection-updates-on-startup"></a>Verificar se há atualizações de proteção na inicialização
 
-Você pode usar a Política de Grupo para forçar o Microsoft Defender Antivírus a verificar e baixar atualizações de proteção quando o computador for iniciado.
+Você pode usar a Política de Grupo para forçar Microsoft Defender Antivírus verificar e baixar atualizações de proteção quando o computador for iniciado.
 
 1. No computador de gerenciamento de Política de Grupo, abra o Console de Gerenciamento de Política de [Grupo](/previous-versions/windows/desktop/gpmc/group-policy-management-console-portal), clique com o botão direito do mouse no Objeto de Política de Grupo que você deseja configurar e clique em **Editar**.
 
@@ -91,7 +92,7 @@ Você pode usar a Política de Grupo para forçar o Microsoft Defender Antivíru
 
 3. Clique **em Políticas** e modelos **administrativos.**
 
-4. Expanda a árvore para **componentes do Windows** Atualizações de Inteligência de Segurança do Microsoft Defender  >    >  **Antivírus.**
+4. Expanda a árvore para **Windows componentes**  >  **Microsoft Defender Antivírus**  >  **Atualizações de Inteligência de Segurança.**
 
 5. Clique duas **vezes em Verificar as definições mais** recentes de vírus e spyware na inicialização e de definir a opção como **Habilitado**. 
 
@@ -99,7 +100,7 @@ Você pode usar a Política de Grupo para forçar o Microsoft Defender Antivíru
 
 Você também pode usar a Política de Grupo, o PowerShell ou o WMI para configurar o Microsoft Defender Antivírus para verificar se há atualizações na inicialização, mesmo quando ela não está em execução.
 
-### <a name="use-group-policy-to-download-updates-when-microsoft-defender-antivirus-is-not-present"></a>Usar a Política de Grupo para baixar atualizações quando o Microsoft Defender Antivírus não estiver presente
+### <a name="use-group-policy-to-download-updates-when-microsoft-defender-antivirus-is-not-present"></a>Usar a Política de Grupo para baixar atualizações quando Microsoft Defender Antivírus não estiver presente
 
 1. Em sua máquina de gerenciamento de Política de Grupo, abra o Console de Gerenciamento de Política de [Grupo](/previous-versions/windows/desktop/gpmc/group-policy-management-console-portal), clique com o botão direito do mouse no Objeto de Política de Grupo que você deseja configurar e clique em **Editar**.
 
@@ -107,13 +108,13 @@ Você também pode usar a Política de Grupo, o PowerShell ou o WMI para configu
 
 3. Clique **em Políticas** e modelos **administrativos.**
 
-4. Expanda a árvore para **componentes do Windows** Atualizações de Inteligência de Segurança do Microsoft Defender  >    >  **Antivírus.**
+4. Expanda a árvore para **Windows componentes**  >  **Microsoft Defender Antivírus**  >  **Atualizações de Inteligência de Segurança.**
 
 5. Clique duas vezes em **Iniciar atualização de inteligência de segurança na inicialização** e de definir a opção como **Habilitado**.
 
 6. Clique em **OK**.
 
-### <a name="use-powershell-cmdlets-to-download-updates-when-microsoft-defender-antivirus-is-not-present"></a>Usar cmdlets do PowerShell para baixar atualizações quando o Microsoft Defender Antivírus não estiver presente
+### <a name="use-powershell-cmdlets-to-download-updates-when-microsoft-defender-antivirus-is-not-present"></a>Usar cmdlets do PowerShell para baixar atualizações quando Microsoft Defender Antivírus não estiver presente
 
 Use os seguintes cmdlets:
 
@@ -121,9 +122,9 @@ Use os seguintes cmdlets:
 Set-MpPreference -SignatureDisableUpdateOnStartupWithoutEngine
 ```
 
-Para obter mais informações, consulte [Usar cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) do PowerShell para gerenciar os [cmdlets](/powershell/module/defender/index) do Microsoft Defender Antivírus e do Defender para obter mais informações sobre como usar o PowerShell com o Microsoft Defender Antivírus.
+Para obter mais informações, consulte [Usar cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) do PowerShell para gerenciar [cmdlets](/powershell/module/defender/index) Microsoft Defender Antivírus e Defender para obter mais informações sobre como usar o PowerShell com Microsoft Defender Antivírus.
 
-### <a name="use-windows-management-instruction-wmi-to-download-updates-when-microsoft-defender-antivirus-is-not-present"></a>Use a Instrução de Gerenciamento do Windows (WMI) para baixar atualizações quando o Microsoft Defender Antivírus não estiver presente
+### <a name="use-windows-management-instruction-wmi-to-download-updates-when-microsoft-defender-antivirus-is-not-present"></a>Use Windows Instrução de Gerenciamento (WMI) para baixar atualizações quando Microsoft Defender Antivírus não estiver presente
 
 Use o [ **método Set** da classe **MSFT_MpPreference**](/previous-versions/windows/desktop/legacy/dn455323(v=vs.85)) para as seguintes propriedades:
 
@@ -149,7 +150,7 @@ Se você habilitar a proteção entregue na nuvem, o Microsoft Defender AV envia
 
 3. Clique **em Políticas** e modelos **administrativos.**
 
-4. Expanda a árvore para **componentes do Windows** Atualizações de Inteligência de Segurança do Microsoft Defender  >    >  **Antivírus.**
+4. Expanda a árvore para **Windows componentes**  >  **Microsoft Defender Antivírus**  >  **Atualizações de Inteligência de Segurança.**
 
 5. Clique duas vezes **em Permitir atualizações de** inteligência de segurança em tempo real com base em relatórios para o Microsoft MAPS e de definir a opção **como Habilitado.** Clique em **OK**.
 
@@ -160,8 +161,8 @@ Se você habilitar a proteção entregue na nuvem, o Microsoft Defender AV envia
 
 ## <a name="see-also"></a>Confira também
 
-- [Implantar o Microsoft Defender Antivírus](deploy-manage-report-microsoft-defender-antivirus.md)
-- [Gerenciar atualizações do Microsoft Defender Antivírus e aplicar linhas de base](manage-updates-baselines-microsoft-defender-antivirus.md)
+- [Implantar Microsoft Defender Antivírus](deploy-manage-report-microsoft-defender-antivirus.md)
+- [Gerenciar Microsoft Defender Antivírus e aplicar linhas de base](manage-updates-baselines-microsoft-defender-antivirus.md)
 - [Gerenciar quando as atualizações de proteção devem ser baixadas e aplicadas](manage-protection-update-schedule-microsoft-defender-antivirus.md)
 - [Gerenciar atualizações para pontos de extremidade que estão des date](manage-outdated-endpoints-microsoft-defender-antivirus.md)
 - [Gerenciar atualizações para dispositivos móveis e máquinas virtuais (VMs)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)

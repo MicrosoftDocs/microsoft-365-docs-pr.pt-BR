@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Saiba como cancelar sua assinatura paga ou de avaliação do Microsoft 365 Business.
 ms.date: 04/08/2021
-ms.openlocfilehash: f052a08cfe0e7582690864556cfc3039d6caf99c
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 15ab7ed31af24fa4cb1c83c6babc945871584375
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52106997"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244655"
 ---
 # <a name="cancel-your-subscription"></a>Cancelar sua assinatura
 
@@ -126,7 +126,7 @@ Quando o cancelamento entra em vigor, os usuários perdem o acesso aos dados. An
 
 - Para migrar emails, contatos, tarefas e informações de calendário para outra conta, confira [Exportar ou fazer backup dos emails, dos contatos e do calendário para um arquivo .pst do Outlook](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx).
 
-- Para salvar uma biblioteca de documentos ou conteúdo de lista (como contatos) de um ambiente do SharePoint Online (OneDrive for Business ou sites de equipe) em compartilhamentos de arquivo ou em um computador local, confira [Migração manual do conteúdo do SharePoint Online](https://support.microsoft.com/kb/2783484).
+- Para salvar uma biblioteca de documentos ou conteúdo de lista (como contatos) de um ambiente do SharePoint Online (OneDrive for Business ou sites de equipe) em compartilhamentos de arquivo ou em um computador local, confira [Migração manual do conteúdo do SharePoint Online](https://docs.microsoft.com/sharepoint/troubleshoot/migration-tool/content-manual-migration).
 
 ### <a name="uninstall-office-optional"></a>Desinstalar o Office (opcional)
 

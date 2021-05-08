@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: how-to
 ms.date: 01/29/2021
 ms.technology: mde
-ms.openlocfilehash: 48674292e5a72ccc371ff4bf43dc499f19b3886d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b0c983f4ba939cee6485570af774c8a728c73944
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053347"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274923"
 ---
 # <a name="review-remediation-actions-following-an-automated-investigation"></a>Revisar ações de correção após uma investigação automatizada
 
@@ -61,7 +61,7 @@ Seja realizada automaticamente ou após a aprovação, uma investigação automa
 
 ## <a name="review-pending-actions"></a>Revisar ações pendentes
 
-1. Vá para o Centro de Segurança do Microsoft 365 ( [https://security.microsoft.com](https://security.microsoft.com) ) e entre.
+1. Vá para o Microsoft 365 de segurança ( [https://security.microsoft.com](https://security.microsoft.com) ) e entre.
 2. No painel de navegação, escolha **Central de ações**. 
 3. Revise os itens na **guia Pendente.** 
 4. Selecione uma ação para abrir seu painel de flyout.
@@ -73,7 +73,7 @@ Seja realizada automaticamente ou após a aprovação, uma investigação automa
 
 ## <a name="review-completed-actions"></a>Revisar ações concluídas
 
-1. Vá para o Centro de Segurança do Microsoft 365 ( [https://security.microsoft.com](https://security.microsoft.com) ) e entre.
+1. Vá para o Microsoft 365 de segurança ( [https://security.microsoft.com](https://security.microsoft.com) ) e entre.
 2. No painel de navegação, escolha **Central de ações**. 
 3. Revise os itens na guia **Histórico.** 
 4. Selecione um item para exibir mais detalhes sobre essa ação de correção.
@@ -107,11 +107,11 @@ Os níveis de automação afetam se determinadas ações de correção são real
 |**Completo - correção de ameaças automaticamente** (a configuração recomendada) |Um veredito de *Mal-intencionado* é atingido por uma evidência. <br/><br/>As ações de correção apropriadas são tomadas automaticamente. |[Revisar ações concluídas](#review-completed-actions) |
 |**Completo - correção de ameaças automaticamente** |Um veredito de *Suspicious* é atingido para uma evidência. <br/><br/>As ações de correção estão aguardando aprovação para continuar. | [Aprovar (ou rejeitar) ações pendentes](#review-pending-actions) |
 |**Semi - exigir aprovação para qualquer correção**  |Um veredito de *mal-intencionado* *ou suspeito* é atingido para uma evidência. <br/><br/>As ações de correção estão aguardando aprovação para continuar.  |[Aprovar (ou rejeitar) ações pendentes](#review-pending-actions) |
-|**Semi - exigir aprovação para correção de pastas principais** |Um veredito de *Mal-intencionado* é atingido por uma evidência. <br/><br/>Se o artefato for um arquivo ou executável e estiver em um diretório do sistema operacional, como a pasta do Windows ou a pasta Arquivos do Programa, as ações de correção serão aprovadas pendentes. <br/><br/>Se o artefato não *estiver em* um diretório do sistema operacional, as ações de correção serão tomadas automaticamente. |1. [Aprovar (ou rejeitar) ações pendentes](#review-pending-actions)<br/><br/>2. [Revisar ações concluídas](#review-completed-actions) |
+|**Semi - exigir aprovação para correção de pastas principais** |Um veredito de *Mal-intencionado* é atingido por uma evidência. <br/><br/>Se o artefato for um arquivo ou executável e estiver em um diretório do sistema operacional, como a pasta Windows ou a pasta Arquivos do programa, as ações de correção estão pendentes de aprovação. <br/><br/>Se o artefato não *estiver em* um diretório do sistema operacional, as ações de correção serão tomadas automaticamente. |1. [Aprovar (ou rejeitar) ações pendentes](#review-pending-actions)<br/><br/>2. [Revisar ações concluídas](#review-completed-actions) |
 |**Semi - exigir aprovação para correção de pastas principais** |Um veredito de *Suspicious* é atingido para uma evidência. <br/><br/>As ações de correção estão pendentes de aprovação.  |[Aprovar (ou rejeitar) ações pendentes](#review-pending-actions).|
 |**Semi - exigir aprovação para correção de pastas não temporárias** |Um veredito de *Mal-intencionado* é atingido por uma evidência. <br/><br/>Se o artefato for um arquivo ou executável que não esteja em uma pasta temporária, como a pasta de downloads do usuário ou pasta temporária, as ações de correção estão pendentes de aprovação. <br/><br/>Se o artefato for um arquivo ou executável que *esteja* em uma pasta temporária, as ações de correção serão executadas automaticamente.  |1. [Aprovar (ou rejeitar) ações pendentes](#review-pending-actions)<br/><br/>2. [Revisar ações concluídas](#review-completed-actions)  |
 |**Semi - exigir aprovação para correção de pastas não temporárias** |Um veredito de *Suspicious* é atingido para uma evidência. <br/><br/>As ações de correção estão pendentes de aprovação. |[Aprovar (ou rejeitar) ações pendentes](#review-pending-actions)  | 
-|Qualquer um dos níveis **de automação Completo** ou **Semi** |Um veredito de *Nenhuma ameaça encontrada* é alcançado para uma evidência. <br/><br/>Nenhuma ação de correção é tomada e nenhuma ação está pendente de aprovação. |[Exiba os detalhes e resultados das investigações automatizadas](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/auto-investigation-action-center) |
+|Qualquer um dos níveis **de automação Completo** ou **Semi** |Um veredito de *Nenhuma ameaça encontrada* é alcançado para uma evidência. <br/><br/>Nenhuma ação de correção é tomada e nenhuma ação está pendente de aprovação. |[Exibir detalhes e resultados das investigações automatizadas](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/auto-investigation-action-center) |
 |**Nenhuma resposta automatizada** (não recomendada)|Nenhuma investigação automatizada é realizada, portanto, nenhum veredito é atingido e nenhuma ação de correção é tomada ou aguarda aprovação. |[Considere configurar ou alterar seus grupos de dispositivos para usar **automação completa** ou **semi**](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups) |
 
 No Microsoft Defender para Ponto de Extremidade, todos os vereditos são rastreados no [Centro de Ações](auto-investigation-action-center.md#new-a-unified-action-center).
@@ -120,7 +120,7 @@ No Microsoft Defender para Ponto de Extremidade, todos os vereditos são rastrea
 
 - [Saiba mais sobre os recursos de resposta ao vivo](live-response.md)
 - [Busca proativamente por ameaças com busca avançada](advanced-hunting-overview.md)
-- [Resolver falsos positivos/negativos no Microsoft Defender para Ponto de Extremidade](defender-endpoint-false-positives-negatives.md)
+- [Endereços falsos positivos/negativos no Microsoft Defender para Ponto de Extremidade](defender-endpoint-false-positives-negatives.md)
 
 ## <a name="see-also"></a>Confira também
 

@@ -4,7 +4,7 @@ summary: Saiba como configurar e gerenciar o Microsoft 365 para sua empresa.
 brand: m365
 metadata:
   title: Treinamento do Microsoft 365 para pequenas e médias empresas
-  description: Configurar e gerenciar o Microsoft 365 no centro de administração do Microsoft 365.
+  description: Configurar e gerenciar Microsoft 365 no centro de Microsoft 365 de administração.
   ms.service: O365-administration
   ms.prod: microsoft-365-business
   ms.topic: hub-page
@@ -17,7 +17,7 @@ productDirectory:
   items:
     - title: Introdução
       imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
-      summary: Planeje sua mudança para o Microsoft 365 para empresas.
+      summary: Planeje sua mudança para Microsoft 365 para empresas.
       url: what-is-microsoft-365.md
     - title: Configurar o Microsoft 365 para empresas
       imageSrc: 'https://docs.microsoft.com/office/media/icons/add-to-cloud-blue.svg'
@@ -25,15 +25,15 @@ productDirectory:
       url: sign-up.md
     - title: Configurar computadores
       imageSrc: 'https://docs.microsoft.com/office/media/icons/device-desktop-download-blue.svg'
-      summary: 'Instalar o Office, configurar email, migrar arquivos...'
+      summary: 'Instalar Office, configurar email, migrar arquivos...'
       url: upgrade.md
     - title: Configurar dispositivos móveis
       imageSrc: 'https://docs.microsoft.com/office/media/icons/device-mobile-download-blue.svg'
-      summary: Instalar aplicativos do Office em dispositivos móveis.
+      summary: Instale Office aplicativos em dispositivos móveis.
       url: work-from-anywhere.md
     - title: Colaborar com outras pessoas
       imageSrc: 'https://docs.microsoft.com/office/media/icons/collaborate-blue.svg'
-      summary: Trabalhe com funcionários e clientes no Teams.
+      summary: Trabalhe com funcionários e clientes em Teams.
       url: collab-outlook-teams.md
     - title: Armazenar e compartilhar arquivos
       imageSrc: 'https://docs.microsoft.com/office/media/icons/cloud-storage-folder-blue.svg'
@@ -61,18 +61,18 @@ productDirectory:
       url: overview-m365-security.md
     - title: Obter suporte
       imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-blue.svg'
-      summary: Obter ajuda com o Microsoft 365 para empresas.
-      url: find-help-answers.md
+      summary: Obter ajuda com Microsoft 365 para empresas.
+      url: get-help-support.md
 additionalContent:
   sections:
     - title: Saiba mais
       items:
-        - title: Saiba mais sobre o Office
-          summary: 'Saiba como usar o Word, Excel, PowerPoint e outros aplicativos do Office.'
+        - title: Saiba mais sobre Office
+          summary: 'Saiba como usar o Word, Excel, PowerPoint e outros Office aplicativos.'
           url: 'https://support.microsoft.com/training'
         - title: Obter treinamento para ITPros
           summary: Conclua caminhos de aprendizado para empresas de médio porte e empresas.
           url: 'https://docs.microsoft.com/learn/m365/'
         - title: Encontre mais recursos de administrador
-          summary: Vá para o site de ajuda do Centro de administração do Microsoft 365.
+          summary: Vá para o site de ajuda Microsoft 365 centro de administração.
           url: ../admin/index.yml

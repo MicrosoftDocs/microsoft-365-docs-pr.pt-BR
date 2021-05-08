@@ -8,16 +8,16 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 595ade468c8445123cc08808bbf8c33f215e27a7
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 121cb3ea0420177f6cc9684e6458de38467da41f
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50543299"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52273339"
 ---
 # <a name="payment-information-for-macedonia-former-yugoslav-republic-of"></a>Informações de pagamento para a Macedônia, Antiga República Da Iugoslávia de
 

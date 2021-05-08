@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 8ecf39090d368427c103c7ec78e22bc13f7c339f
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: c593dfe384649b1599d5c0bab8fa6a8204d105dc
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51591763"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274827"
 ---
 # <a name="view-the-details-and-results-of-an-automated-investigation"></a>Exibir os detalhes e resultados de uma investigação automatizada
 
@@ -37,7 +37,7 @@ Com o Microsoft Defender para [](automated-investigations.md) Ponto de Extremida
 
 ## <a name="new-unified-investigation-page"></a>(NEW!) Página de investigação unificada
 
-A página de investigação foi atualizada recentemente para incluir informações em seus dispositivos, email e conteúdo de colaboração. A nova página de investigação unificada define um idioma comum e fornece uma experiência unificada para investigações automáticas no [Microsoft Defender para Ponto](microsoft-defender-endpoint.md)  de Extremidade e no Microsoft Defender para Office [365](/microsoft-365/security/office-365-security/office-365-atp). 
+A página de investigação foi atualizada recentemente para incluir informações em seus dispositivos, email e conteúdo de colaboração. A nova página de investigação unificada define um idioma comum e fornece uma experiência unificada para investigações automáticas no [Microsoft Defender para Ponto](microsoft-defender-endpoint.md) de Extremidade e no Microsoft [Defender](/microsoft-365/security/office-365-security/office-365-atp)para Office 365 . 
 
 > [!TIP]
 > Para saber mais sobre o que está mudando, consulte [(NEW!) Página de investigação unificada](/microsoft-365/security/mtp/mtp-autoir-results).
@@ -78,12 +78,12 @@ Use o modo de exibição de detalhes da investigação para ver as atividades an
 Na exibição de detalhes da investigação, você pode ver as informações nas guias **Gráfico de Investigação**, **Alertas**, **Dispositivos**, **Identidades**, **Principais descobertas**, **Entidades**,**Log** e **Ações pendentes**, descritas na tabela a seguir.
 
 > [!NOTE]
-> As guias específicas que você vê em uma página de detalhes da investigação dependem do que sua assinatura inclui. Por exemplo, se sua assinatura não incluir o Microsoft Defender para o Plano 2 do Office 365, você não verá uma guia **Caixas de** Correio.
+> As guias específicas que você vê em uma página de detalhes da investigação dependem do que sua assinatura inclui. Por exemplo, se sua assinatura não incluir o Microsoft Defender para Office 365 Plano 2, você não verá uma guia **Caixas de** Correio.
 
 | Guia | Descrição |
 |:--------|:--------|
 | **Gráficos de investigação**   | Oferece uma representação visual da investigação. Descreve entidades e lista as ameaças encontradas, juntamente com os alertas, e se as ações estão aguardando aprovação.<br/>Você pode selecionar um item no gráfico para exibir mais detalhes. Por exemplo, selecionar **o ícone**  Evidência o leva à guia Evidências, onde você pode ver entidades detectadas e seus vereditos. |
-| **Alertas**    | Lista os alertas associados à investigação. Os alertas podem vir de recursos de proteção contra ameaças no dispositivo de um usuário, em aplicativos do Office, segurança de aplicativos na nuvem e outros recursos do Microsoft 365 Defender.|
+| **Alertas**    | Lista os alertas associados à investigação. Os alertas podem vir de recursos de proteção contra ameaças no dispositivo de um usuário, em Office aplicativos, Cloud App Security e outros recursos Microsoft 365 Defender.|
 | **Dispositivos** | Lista os dispositivos incluídos na investigação juntamente com seu nível de correção. (Os níveis de correção correspondem ao nível [de automação para grupos de dispositivos](automation-levels.md).) |
 | **Caixas de correio** |Lista caixas de correio que são impactadas por ameaças detectadas.  |
 | **Usuários**  | Lista contas de usuário que são impactadas por ameaças detectadas. |

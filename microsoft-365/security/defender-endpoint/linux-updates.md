@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9cb0c7375b538f502cf6165f13c68fd4b2fdcc64
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: fc5a64f4be1b782c423c2ae9e2222a1424be97e0
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934748"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274719"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-linux"></a>Implantar atualizações do Microsoft Defender para Ponto de Extremidade no Linux
 
@@ -44,6 +44,10 @@ A Microsoft publica regularmente atualizações de software para melhorar o dese
 > ```bash
 > mdatp health --field product_expiration
 > ```
+
+
+Geralmente, os recursos disponíveis do Microsoft Defender para o Ponto de Extremidade são equivalentes, independentemente do canal de atualização usado para uma implantação (Insider), Visualização (Externa), Atual (Produção)).
+
 
 Para atualizar o Defender para Ponto de Extremidade no Linux manualmente, execute um dos seguintes comandos:
 

@@ -3,8 +3,8 @@ title: Analisar e gerenciar ações de correção no Microsoft Defender para Off
 keywords: AIR, autoIR, Microsoft Defender for Endpoint, automated, investigation, response, remediation, threats, advanced, threat, protection
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
@@ -19,14 +19,14 @@ description: Saiba mais sobre ações de correção em recursos automatizados de
 ms.technology: mdo
 ms.prod: m365-security
 ms.date: 01/29/2021
-ms.openlocfilehash: ce6cfd920845f5a85dbc7d7d48cfefdd6209ec3a
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f0c42bef1b090412a7a6422fe029323b645e90df
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933644"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275067"
 ---
-# <a name="review-and-manage-remediation-actions-in-office-365"></a>Revisar e gerenciar ações de correção no Office 365
+# <a name="review-and-manage-remediation-actions-in-office-365"></a>Analisar e gerenciar ações de correção em Office 365
 
 À medida que investigações automatizadas no email & conteúdo  de colaboração resultam em vereditos, como Mal-intencionados ou *suspeitos,* determinadas ações de correção são criadas. No Microsoft Defender para Office 365, as ações de correção podem incluir:
 - Bloqueando uma URL (hora do clique)
@@ -42,7 +42,7 @@ Essas ações de correção não serão tomadas, a menos que e até que sua equi
 
 ## <a name="approve-or-reject-pending-actions"></a>Aprovar (ou rejeitar) ações pendentes
 
-1. Vá para o Centro de Segurança do Microsoft 365 ( <https://security.microsoft.com> ) e entre.
+1. Vá para o Microsoft 365 de segurança ( <https://security.microsoft.com> ) e entre.
 2. No painel de navegação, selecione **Centro de ações**.
 3. Na guia **Pendente,** revise a lista de ações que estão aguardando aprovação.
 4. Selecione um item na lista. Seu painel de sobrevoo é aberto. 

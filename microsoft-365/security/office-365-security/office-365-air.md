@@ -3,8 +3,8 @@ title: Investigação e resposta automatizadas no Microsoft Defender para Office
 keywords: AIR, autoIR, Microsoft Defender for Endpoint, automated, investigation, response, remediation, threats, advanced, threat, protection
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 89421348d858a869e033380802e402465949c554
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c9cd9ef649ec60fc8d880ae525469980a00f69b2
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935168"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274995"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Investigação e resposta automatizadas (AIR) no Microsoft Defender para Office 365
 
@@ -37,7 +37,7 @@ ms.locfileid: "51935168"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-[O Microsoft Defender para Office 365](defender-for-office-365.md) inclui poderosos recursos automatizados de investigação e resposta (AIR) que podem economizar tempo e esforço da equipe de operações de segurança. À medida que os alertas são disparados, a equipe de operações de segurança deve revisar, priorizar e responder a esses alertas. Acompanhar o volume de alertas de entrada pode ser avassalador. Automatizar algumas dessas tarefas pode ajudar.
+[O Microsoft Defender para Office 365](defender-for-office-365.md) inclui recursos avançados de investigação e resposta automatizadas (AIR) que podem economizar tempo e esforço da equipe de operações de segurança. À medida que os alertas são disparados, a equipe de operações de segurança deve revisar, priorizar e responder a esses alertas. Acompanhar o volume de alertas de entrada pode ser avassalador. Automatizar algumas dessas tarefas pode ajudar.
 
 O AIR permite que sua equipe de operações de segurança opere de forma mais eficiente e eficaz. Os recursos air incluem processos de investigação automatizados em resposta a ameaças conhecidas que existem atualmente. As ações de correção apropriadas aguardam aprovação, permitindo que sua equipe de operações de segurança responda efetivamente a ameaças detectadas. Com o AIR, sua equipe de operações de segurança pode se concentrar em tarefas de prioridade mais alta sem perder a visão de alertas importantes disparados.
 
@@ -75,13 +75,13 @@ Durante e após cada investigação automatizada, sua equipe de operações de s
 
 ## <a name="how-to-get-air"></a>Como obter AIR
 
-Os recursos air são incluídos [no Microsoft Defender para Office 365](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2), desde que suas políticas e alertas sejam configurados. Precisa de ajuda? Siga as diretrizes em [Proteger contra ameaças](protect-against-threats.md) para configurar ou configurar as seguintes configurações de proteção:
+Os recursos AIR são incluídos no [Microsoft Defender para Office 365](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2), desde que suas políticas e alertas sejam configurados. Precisa de ajuda? Siga as diretrizes em [Proteger contra ameaças](protect-against-threats.md) para configurar ou configurar as seguintes configurações de proteção:
 
 - [Log de auditoria](../../compliance/turn-audit-log-search-on-or-off.md) (deve ser ligado)
 - [Políticas antimalware](protect-against-threats.md#part-1---anti-malware-protection)
 - [Proteção antiphishing](protect-against-threats.md#part-2---anti-phishing-protection)
 - [Proteção antispam](protect-against-threats.md#part-3---anti-spam-protection)
-- [Links seguros e anexos seguros](protect-against-threats.md#part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365)
+- [Cofre Links e Cofre anexos](protect-against-threats.md#part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365)
 - [Anexos seguros para SharePoint, OneDrive e Microsoft Teams](protect-against-threats.md#part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on)
 - [Limpeza automática de hora zero para email](protect-against-threats.md#zero-hour-auto-purge-for-email-in-eop)
 
@@ -89,20 +89,20 @@ Além disso, revise as políticas [de](../../compliance/alert-policies.md)alerta
 
 ## <a name="which-alert-policies-trigger-automated-investigations"></a>Quais políticas de alerta disparam investigações automatizadas?
 
-O Microsoft 365 fornece muitas políticas de alerta internas que ajudam a identificar abuso de permissões de administrador do Exchange, atividade de malware, possíveis ameaças externas e internas e riscos de governança de informações. Várias das políticas [de alerta padrão podem](../../compliance/alert-policies.md#default-alert-policies) disparar investigações automatizadas. A tabela a seguir descreve os alertas que disparam investigações automatizadas, sua gravidade no centro de segurança do Microsoft 365 e como eles são gerados:
+Microsoft 365 fornece muitas Exchange políticas de alerta internas que ajudam a identificar o abuso de permissões de administrador, atividades de malware, possíveis ameaças externas e internas e riscos de governança de informações. Várias das políticas [de alerta padrão podem](../../compliance/alert-policies.md#default-alert-policies) disparar investigações automatizadas. A tabela a seguir descreve os alertas que disparam investigações automatizadas, sua gravidade no centro de segurança do Microsoft 365 e como eles são gerados:
 
 |Alerta|Severity|Como o alerta é gerado|
 |---|---|---|
-|Um clique de URL potencialmente mal-intencionado foi detectado|**High**|Esse alerta é gerado quando ocorre um dos seguintes: <ul><li>Um usuário protegido por [Links Seguros](safe-links.md) em sua organização clica em um link mal-intencionado</li><li>Alterações de veredito para URLs são identificadas pelo Microsoft Defender para Office 365</li><li>Os usuários substituem páginas de aviso de Links Seguros (com base na política de Links Seguros da [sua organização).](set-up-safe-links-policies.md)</li></ul> <p> Para obter mais informações sobre eventos que disparam esse alerta, consulte [Configurar políticas de Links Seguros.](set-up-safe-links-policies.md)|
+|Um clique de URL potencialmente mal-intencionado foi detectado|**High**|Esse alerta é gerado quando ocorre um dos seguintes: <ul><li>Um usuário protegido por links [Cofre em](safe-links.md) sua organização clica em um link mal-intencionado</li><li>Alterações de veredito para URLs são identificadas pelo Microsoft Defender para Office 365</li><li>Os usuários substituem Cofre páginas de aviso links (com base na política de Cofre [Links da sua organização).](set-up-safe-links-policies.md)</li></ul> <p> Para obter mais informações sobre eventos que disparam esse alerta, consulte [Set up Cofre Links policies](set-up-safe-links-policies.md).|
 |Uma mensagem de email é relatada por um usuário como malware ou phishing|**Informativo**|Esse alerta é gerado quando os usuários da sua organização relatam mensagens como emails de phishing usando o complemento [Mensagem](enable-the-report-message-add-in.md) de Relatório ou o [complemento Relatar Phishing](enable-the-report-phish-add-in.md).|
-|As mensagens de email que contêm malware são removidas após a entrega|**Informativo**|Esse alerta é gerado quando todas as mensagens de email que contêm malware são entregues às caixas de correio em sua organização. Se esse evento ocorrer, a Microsoft removerá as mensagens infectados das caixas de correio do Exchange Online usando [a limpeza automática zero hora.](zero-hour-auto-purge.md)|
-|As mensagens de email que contêm URLs de phishing são removidas após a entrega|**Informativo**|Esse alerta é gerado quando todas as mensagens que contêm phishing são entregues às caixas de correio em sua organização. Se esse evento ocorrer, a Microsoft removerá as mensagens infectados das caixas de correio do Exchange Online usando [a limpeza automática zero hora.](zero-hour-auto-purge.md)|
+|As mensagens de email que contêm malware são removidas após a entrega|**Informativo**|Esse alerta é gerado quando todas as mensagens de email que contêm malware são entregues às caixas de correio em sua organização. Se esse evento ocorrer, a Microsoft removerá as mensagens infectados de Exchange Online caixas de correio usando limpeza automática [zero hora](zero-hour-auto-purge.md).|
+|As mensagens de email que contêm URLs de phishing são removidas após a entrega|**Informativo**|Esse alerta é gerado quando todas as mensagens que contêm phishing são entregues às caixas de correio em sua organização. Se esse evento ocorrer, a Microsoft removerá as mensagens infectados de Exchange Online caixas de correio usando limpeza automática [zero hora](zero-hour-auto-purge.md).|
 |Padrões suspeitos de envio de email são detectados|**Medium**|Esse alerta é gerado quando alguém em sua organização envia emails suspeitos e corre o risco de ser impedido de enviar emails. O alerta é um aviso antecipado sobre o comportamento que pode indicar que a conta está comprometida, mas não grave o suficiente para restringir o usuário. <p> Embora seja raro, um alerta gerado por essa política pode ser uma anomalia. No entanto, é uma boa ideia verificar se a [conta de usuário está comprometida](responding-to-a-compromised-email-account.md).|
 |Um usuário é impedido de enviar emails|**High**|Esse alerta é gerado quando alguém em sua organização é impedido de enviar emails de saída. Esse alerta normalmente resulta quando uma conta [de email é comprometida](responding-to-a-compromised-email-account.md). <p> Para obter mais informações sobre usuários restritos, consulte [Remove blocked users from the Restricted Users portal in Microsoft 365](removing-user-from-restricted-users-portal-after-spam.md).|
 |
 
 > [!TIP]
-> Para saber mais sobre políticas de alerta ou editar as configurações padrão, consulte Políticas de alerta no centro de [conformidade do Microsoft 365.](../../compliance/alert-policies.md)
+> Para saber mais sobre políticas de alerta ou editar as configurações padrão, consulte [Alert policies in the Microsoft 365 compliance center](../../compliance/alert-policies.md).
 
 ## <a name="required-permissions-to-use-air-capabilities"></a>Permissões necessárias para usar recursos AIR
 
@@ -111,11 +111,11 @@ As permissões são concedidas por meio de determinadas funções, como as descr
 |Tarefas|Função(s) obrigatório|
 |---|---|
 |Configurar recursos AIR|Uma das seguintes funções: <ul><li>Administrador Global</li><li>Administrador de Segurança</li></ul> <p> Essas funções podem ser atribuídas no [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no Centro de Conformidade & [Segurança.](permissions-in-the-security-and-compliance-center.md)|
-|Iniciar uma investigação automatizada <p> ---ou--- <p> Aprovar ou rejeitar ações recomendadas|Uma das seguintes funções, atribuídas no [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no Centro de Conformidade & [Segurança](permissions-in-the-security-and-compliance-center.md): <ul><li>Administrador Global</li><li>Administrador de Segurança</li><li>Operador de segurança</li><li>Leitor de segurança <br> ---e--- </li><li>Pesquisa e limpeza (essa função é atribuída somente no Centro de Conformidade e [Segurança & Segurança.](permissions-in-the-security-and-compliance-center.md) Talvez seja preciso criar um novo grupo de funções e adicionar a função Pesquisar e Limpar a esse novo grupo de funções.</li></ul>|
+|Iniciar uma investigação automatizada <p> ---ou--- <p> Aprovar ou rejeitar ações recomendadas|Uma das seguintes funções, atribuídas no [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no Centro de Conformidade & [Segurança:](permissions-in-the-security-and-compliance-center.md) <ul><li>Administrador Global</li><li>Administrador de Segurança</li><li>Operador de segurança</li><li>Leitor de segurança <br> ---e--- </li><li>Pesquisa e limpeza (essa função é atribuída somente no Centro de Conformidade e [Segurança & Segurança.](permissions-in-the-security-and-compliance-center.md) Talvez seja preciso criar um novo grupo de funções e adicionar a função Pesquisar e Limpar a esse novo grupo de funções.</li></ul>|
 
 ## <a name="required-licenses"></a>Licenças necessárias
 
-[As licenças do Microsoft Defender para Office 365 Plan 2](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2) devem ser atribuídas a:
+[As licenças do Microsoft Defender Office 365 Plano 2](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2) devem ser atribuídas a:
 
 - Administradores de segurança (incluindo administradores globais)
 - A equipe de operações de segurança da sua organização (incluindo leitores de segurança e aqueles com a **função Pesquisar e Limpar)**
@@ -123,17 +123,17 @@ As permissões são concedidas por meio de determinadas funções, como as descr
 
 ## <a name="changes-are-coming-soon-in-your-security-center"></a>As alterações estão chegando em breve em seu centro de segurança
 
-Se você já estiver usando recursos AIR no Microsoft Defender para Office 365, você está prestes a ver algumas alterações no centro de segurança do [Microsoft 365 aprimorado.](../defender/overview-security-center.md)
+Se você já estiver usando recursos AIR no Microsoft Defender para Office 365, você está prestes a ver algumas alterações no centro de segurança Microsoft 365 [aprimorado.](../defender/overview-security-center.md)
 
 :::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Centro de Ações Unificadas":::
 
-O novo e aprimorado centro de segurança reúne recursos AIR no [Microsoft Defender para Office 365](defender-for-office-365.md) e no Microsoft Defender para Ponto de [Extremidade.](../defender-endpoint/automated-investigations.md) Com essas atualizações e melhorias, sua equipe de operações de segurança poderá exibir detalhes sobre investigações automatizadas e ações de remediação em todo o seu email, conteúdo de colaboração, contas de usuário e dispositivos, tudo em um só lugar.
+O centro de segurança novo e aprimorado reúne recursos AIR no [Microsoft Defender para](defender-for-office-365.md) Office 365 e no Microsoft Defender para Ponto de [Extremidade.](../defender-endpoint/automated-investigations.md) Com essas atualizações e melhorias, sua equipe de operações de segurança poderá exibir detalhes sobre investigações automatizadas e ações de remediação em todo o seu email, conteúdo de colaboração, contas de usuário e dispositivos, tudo em um só lugar.
 
 > [!TIP]
-> O novo centro de segurança do Microsoft 365 ( <https://security.microsoft.com> ) substitui os seguintes centros:
+> O novo Microsoft 365 de segurança ( <https://security.microsoft.com> ) substitui os seguintes centros:
 >
-> - Centro de Conformidade & Segurança do Office 365 ( <https://protection.office.com> )
-> - Centro de Segurança do Microsoft Defender ( <https://securitycenter.windows.com> )
+> - Office 365 Centro de conformidade & segurança ( <https://protection.office.com> )
+> - Central de Segurança do Microsoft Defender ( <https://securitycenter.windows.com> )
 >
 > Além da alteração da URL, há uma nova aparência, projetada para dar à sua equipe de segurança uma experiência mais simplificada, com visibilidade para mais detecções de ameaças em um só lugar.
 

@@ -1,12 +1,12 @@
 ---
-title: Usar a linha de comando para gerenciar o Microsoft Defender Antivírus
-description: Execute as verificações do Microsoft Defender Antivírus e configure a proteção de última geração com um utilitário de linha de comando dedicado.
+title: Use a linha de comando para gerenciar Microsoft Defender Antivírus
+description: Execute Microsoft Defender Antivírus e configure a proteção de última geração com um utilitário de linha de comando dedicado.
 keywords: executar a verificação do Windows Defender, executar a verificação antivírus da linha de comando, executar a verificação do Windows Defender da linha de comando, mpcmdrun, defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -14,14 +14,15 @@ ms.reviewer: ksarens
 manager: dansimp
 ms.date: 03/19/2021
 ms.technology: mde
-ms.openlocfilehash: 1b357f7c1e02211f3949383a380666cb7444f814
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: how-to
+ms.openlocfilehash: 85fb60d8d4504ba3a4aa8744c1183d094da01a9b
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764622"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274743"
 ---
-# <a name="configure-and-manage-microsoft-defender-antivirus-with-the-mpcmdrunexe-command-line-tool"></a>Configurar e gerenciar o Microsoft Defender Antivírus com a mpcmdrun.exe de linha de comando
+# <a name="configure-and-manage-microsoft-defender-antivirus-with-the-mpcmdrunexe-command-line-tool"></a>Configurar e gerenciar Microsoft Defender Antivírus com a mpcmdrun.exe de linha de comando
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -30,7 +31,7 @@ ms.locfileid: "51764622"
 
 - [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
 
-Você pode executar várias funções do Microsoft Defender Antivírus com a ferramenta de linha de **comando dedicadampcmdrun.exe**. Esse utilitário é útil quando você deseja automatizar o uso do Microsoft Defender Antivírus. Você pode encontrar o utilitário em `%ProgramFiles%\Windows Defender\MpCmdRun.exe` . Você deve executar a partir de um prompt de comando.
+Você pode executar várias Microsoft Defender Antivírus com a ferramenta de linha de **comando dedicadampcmdrun.exe**. Esse utilitário é útil quando você deseja automatizar Microsoft Defender Antivírus uso. Você pode encontrar o utilitário em `%ProgramFiles%\Windows Defender\MpCmdRun.exe` . Você deve executar a partir de um prompt de comando.
 
 > [!NOTE]
 > Talvez seja necessário abrir uma versão de nível de administrador do prompt de comando. Ao pesquisar o **Prompt de Comando no** menu Iniciar, escolha Executar como **administrador**.
@@ -41,7 +42,7 @@ O utilitário tem os seguintes comandos:
 ```console
 MpCmdRun.exe [command] [-options]
 ```
-Exemplo:
+Veja um exemplo:
 
 ```console
 MpCmdRun.exe -Scan -ScanType 2
@@ -63,15 +64,15 @@ MpCmdRun.exe -Scan -ScanType 2
 | `-ListAllDynamicSignatures` | Lista a inteligência de segurança dinâmica carregada |
 | `-RemoveDynamicSignature [-SignatureSetID]` | Remove a inteligência de segurança dinâmica |
 | `-CheckExclusion -path <path>` | Verifica se um caminho é excluído |
-| `-ValidateMapsConnection` | Verifica se sua rede pode se comunicar com o serviço de nuvem do Microsoft Defender Antivírus. Esse comando funcionará apenas no Windows 10, versão 1703 ou superior.|
+| `-ValidateMapsConnection` | Verifica se sua rede pode se comunicar com o serviço Microsoft Defender Antivírus nuvem. Esse comando funcionará apenas Windows 10 versão 1703 ou superior.|
 
 
 ## <a name="common-errors-in-running-commands-via-mpcmdrunexe"></a>Erros comuns na execução de comandos por mpcmdrun.exe 
 
 |Mensagem de erro | Possível motivo
 |:----|:----|
-| `ValidateMapsConnection failed (800106BA) or 0x800106BA` | O serviço Microsoft Defender Antivírus está desabilitado. Habilita o serviço e tente novamente. <br>   **Observação:**  No Windows 10 1909 ou mais antigo, e no Windows Server 2019 ou mais antigo, o serviço era chamado de serviço "Windows Defender Antivírus".|
-| `0x80070667` | Você está executando o comando de um computador que é `-ValidateMapsConnection` o Windows 10 versão 1607 ou mais antiga, ou do Windows Server 2016 ou mais antigo. Execute o comando de um computador que seja o Windows 10 versão 1703 ou mais recente, ou do Windows Server 2019 ou mais recente.|
+| `ValidateMapsConnection failed (800106BA) or 0x800106BA` | O Microsoft Defender Antivírus está desabilitado. Habilita o serviço e tente novamente. <br>   **Observação:**  No Windows 10 1909 ou mais antigo, e Windows Server 2019 ou mais antigo, o serviço era chamado de serviço "Windows Defender Antivírus".|
+| `0x80070667` | Você está executando o comando de um computador que Windows 10 versão 1607 ou mais antiga, ou Windows Server 2016 `-ValidateMapsConnection` ou mais antigo. Execute o comando de um computador Windows 10 versão 1703 ou mais recente ou Windows Server 2019 ou mais recente.|
 | `'MpCmdRun' is not recognized as an internal or external command, operable program or batch file.` | A ferramenta precisa ser executado de: ou (onde pode ser diferente, já que as atualizações da plataforma são `%ProgramFiles%\Windows Defender` `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2012.4-0` `2012.4-0` mensais, exceto para março)|
 | `ValidateMapsConnection failed to establish a connection to MAPS (hr=80070005 httpcode=450)` | Não há privilégios suficientes. Use o prompt de comando (cmd.exe) como administrador.|
 | `ValidateMapsConnection failed to establish a connection to MAPS (hr=80070006 httpcode=451)` | O firewall está bloqueando a conexão ou realizando a inspeção SSL. |
@@ -83,6 +84,6 @@ MpCmdRun.exe -Scan -ScanType 2
 ## <a name="see-also"></a>Confira também
 
 - [Configurar recursos do Microsoft Defender Antivírus](configure-microsoft-defender-antivirus-features.md)
-- [Gerenciar o Microsoft Defender Antivírus em sua empresa](configuration-management-reference-microsoft-defender-antivirus.md)
+- [Gerenciar Microsoft Defender Antivírus em sua empresa](configuration-management-reference-microsoft-defender-antivirus.md)
 - [Tópicos de referência para ferramentas de gerenciamento e configuração](configuration-management-reference-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)

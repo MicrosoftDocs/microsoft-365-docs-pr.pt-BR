@@ -8,16 +8,16 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 976183a627fc769cfa1ef725cfb1c8d0ecaf06f0
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: b2dfa5f74c7648df0340dd403bed961b7491bdb7
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50550342"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52272967"
 ---
 # <a name="payment-information-for-saint-kitts-and-nevis"></a>Informações de pagamento para São Cristóvão e Nevis
 

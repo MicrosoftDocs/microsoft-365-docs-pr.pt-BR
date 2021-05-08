@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -16,12 +16,12 @@ ms.reviewer: pauhijbr, ksarens
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 038818b711400eb16fea89573dc70664a442fc1d
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 1748a33be2c27123eb0437784dcdb2cb7905616a
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245895"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274683"
 ---
 # <a name="configure-scheduled-quick-or-full-microsoft-defender-antivirus-scans"></a>Configurar verificações rápidas ou completas do Microsoft Defender Antivírus agendadas
 
@@ -98,7 +98,7 @@ Verificações agendadas são realizadas no dia e hora especificados. Você pode
 
 ### <a name="use-group-policy-to-schedule-scans"></a>Usar a Política de Grupo para agendar verificações
 
-|Local | Configuração | Descrição | Configuração padrão (se não estiver configurada) |
+|Location | Setting | Descrição | Configuração padrão (se não estiver configurada) |
 |:---|:---|:---|:---|
 |Examinar | Especificar o tipo de verificação a ser usado para uma verificação agendada | Verificação rápida |
 |Examinar | Especificar o dia da semana para executar uma verificação agendada | Especifique o dia (ou nunca) para executar uma verificação. | Nunca |
@@ -143,7 +143,7 @@ Você pode definir a verificação agendada para ocorrer somente quando o ponto 
 
 ### <a name="use-group-policy-to-schedule-scans"></a>Usar a Política de Grupo para agendar verificações
 
-|Local | Configuração | Descrição | Configuração padrão (se não estiver configurada) |
+|Location | Setting | Descrição | Configuração padrão (se não estiver configurada) |
 |:---|:---|:---|:---|
 |Examinar | Iniciar a verificação agendada somente quando o computador estiver em uso, mas não estiver em uso | As verificações agendadas não serão executados, a menos que o computador esteja, mas não esteja em uso | Habilitado |
 
@@ -174,7 +174,7 @@ Algumas ameaças podem exigir uma verificação completa para concluir sua remo�
 
 ### <a name="use-group-policy-to-schedule-remediation-required-scans"></a>Usar a Política de Grupo para agendar verificações necessárias para correção
 
-| Local | Configuração | Descrição | Configuração padrão (se não estiver configurada) |
+| Location | Setting | Descrição | Configuração padrão (se não estiver configurada) |
 |---|---|---|---|
 |Correção | Especificar o dia da semana para executar uma verificação completa agendada para concluir a correção | Especifique o dia (ou nunca) para executar uma verificação. | Nunca |
 |Correção | Especificar a hora do dia para executar uma verificação completa agendada para concluir a correção | Especifique o número de minutos após a meia-noite (por exemplo, **insira 60** para 1 da manhã) | 2 da manhã. |
@@ -208,7 +208,7 @@ Você pode habilitar uma verificação rápida diária que pode ser executado al
 
 ### <a name="use-group-policy-to-schedule-daily-scans"></a>Usar a Política de Grupo para agendar verificações diárias
 
-|Local | Configuração | Descrição | Configuração padrão (se não estiver configurada) |
+|Location | Setting | Descrição | Configuração padrão (se não estiver configurada) |
 |:---|:---|:---|:---|
 |Examinar | Especificar o intervalo para executar verificações rápidas por dia | Especifique quantas horas devem ser completas antes da próxima verificação rápida. Por exemplo, para executar a cada duas horas, insira **2**, uma vez por dia, insira **24**. Insira **0** para nunca executar uma verificação rápida diária. | Nunca |
 |Examinar | Especifique o tempo para uma verificação rápida diária | Especifique o número de minutos após a meia-noite (por exemplo, **insira 60** para 1 da manhã) | 2 da manhã. |
@@ -240,7 +240,7 @@ Você pode forçar uma verificação a ocorrer após cada atualização [de prot
 
 ### <a name="use-group-policy-to-schedule-scans-after-protection-updates"></a>Usar a Política de Grupo para agendar verificações após atualizações de proteção
 
-|Local | Configuração | Descrição | Configuração padrão (se não estiver configurada)|
+|Location | Setting | Descrição | Configuração padrão (se não estiver configurada)|
 |:---|:---|:---|:---|
 |Atualizações de assinatura | Ativar a verificação após a atualização de Inteligência de Segurança | Uma verificação ocorrerá imediatamente depois que uma nova atualização de proteção for baixada | Habilitado |
 

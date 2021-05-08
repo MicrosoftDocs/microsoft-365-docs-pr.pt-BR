@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e8084fab434246a5c9f12af40872ade66e6fa163
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 1f8428c2995eec2dece290049eda67a3683b4c1e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934256"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244975"
 ---
 # <a name="troubleshoot-license-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Solucionar problemas de licença do Microsoft Defender para Ponto de Extremidade no macOS
 
@@ -46,15 +46,14 @@ Enquanto você estiver passando pelo Microsoft Defender para Ponto de Extremidad
 
 Nenhuma licença encontrada
 
-Parece que sua organização não tem uma licença para assinatura do Microsoft 365 Enterprise.
+Parece que sua organização não tem uma licença para Microsoft 365 Enterprise assinatura.
 
 Entre em contato com o administrador para obter ajuda.
 
 **Causa:** 
 
-Você implantou e/ou instalou o Microsoft Defender para Ponto de Extremidade no pacote macOS ("Baixar pacote de instalação") mas pode ter executado o script de configuração ("Baixar pacote de integração").
+Você implantou e/ou instalou o pacote do Microsoft Defender for Endpoint para macOS ("Baixar pacote de instalação"), mas pode ter executado o script de configuração ("Baixar pacote de integração"), ou não atribuiu uma licença ao usuário.
 
 **Solução:**
 
 Siga as instruções MicrosoftDefenderATPOnboardingMacOs.py documentadas aqui: [Configuração do cliente](mac-install-manually.md#client-configuration)
-
