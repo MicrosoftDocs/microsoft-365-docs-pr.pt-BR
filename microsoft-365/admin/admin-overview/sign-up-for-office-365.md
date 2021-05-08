@@ -26,12 +26,12 @@ search.appverid:
 ROBOTS: NOINDEX
 description: Entenda o que você precisa saber antes de passar pelo processo de Office 365.
 ms.date: 03/17/2021
-ms.openlocfilehash: 37cbe20a5cc1a7506e8db218c3e9ffe2b4e64478
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 77fe0252a267b13fda19a6842ce0e07b1b8307b1
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107021"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244003"
 ---
 # <a name="how-to-sign-up---admin-help"></a>Como se inscrever - Ajuda do administrador
 
@@ -136,4 +136,4 @@ Você não precisa cancelar sua avaliação. Se você não comprar a assinatura 
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Microsoft 365 para vídeos de treinamento empresarial](../../business-video/index.yml) (links)
+[Microsoft 365 para vídeos de treinamento empresarial](../../business-video/index.yml) (página de link)

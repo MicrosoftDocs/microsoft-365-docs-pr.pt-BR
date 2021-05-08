@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Depois de criar uma caixa de correio compartilhada, você vai querer configurar algumas configurações para seus usuários, como encaminhamento de email e respostas automáticas. Mais tarde, talvez você queira alterar outras configurações, como o nome da caixa de correio ou os membros.
-ms.openlocfilehash: 2d0998ba2bdc95a9f78f59527bd9bd6fa98b4c45
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 01d5aaa686e1d64c9ea7d89913d8208f779dcfd1
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915909"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52243967"
 ---
 # <a name="configure-shared-mailbox-settings"></a>Configurar caixa de correio compartilhada
 
@@ -34,23 +34,7 @@ Depois de criar [uma caixa](create-a-shared-mailbox.md)de correio compartilhada,
 
 ## <a name="change-the-name-or-email-alias-of-a-shared-mailbox-or-change-the-primary-email-address"></a>Alterar o nome ou o alias de email de uma caixa de correio compartilhada ou alterar o endereço de email principal
 
-::: moniker range="o365-worldwide"
-
 1. No centro de administração, vá para a página **Grupos** \><a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Caixas de correio compartilhadas</a>.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
-
-::: moniker-end
 
 2. Selecione a caixa de correio compartilhada que você deseja editar e selecione **Editar** ao lado de **Nome, Email, Aliases de Email.**
 
@@ -62,23 +46,7 @@ Depois de criar [uma caixa](create-a-shared-mailbox.md)de correio compartilhada,
 
 Não é necessário atribuir uma licença à caixa de correio compartilhada para encaminhar emails enviados a ela. Você pode encaminhar as mensagens para qualquer endereço de email válido ou lista de distribuição.
 
-::: moniker range="o365-worldwide"
-
 1. No centro de administração, vá para a página **Grupos** \><a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Caixas de correio compartilhadas</a>.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
-
-::: moniker-end
 
 2. Selecione a caixa de correio compartilhada que você deseja editar e selecione **Editar encaminhamento de** \> **email.**
     
@@ -88,23 +56,7 @@ Não é necessário atribuir uma licença à caixa de correio compartilhada para
 
 ## <a name="send-automatic-replies-from-a-shared-mailbox"></a>Enviar respostas automáticas de uma caixa de correio compartilhada
 
-::: moniker range="o365-worldwide"
-
 1. No centro de administração, vá para a página **Grupos** \><a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Caixas de correio compartilhadas</a>.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
-
-::: moniker-end
 
 2. Selecione a caixa de correio compartilhada que você deseja editar e selecione **Respostas automáticas** \> **Editar**.
     
@@ -125,23 +77,7 @@ Se você quiser permitir que todos vejam o email enviado, no centro de administr
 
 ## <a name="choose-the-apps-that-a-shared-mailbox-can-use-to-access-microsoft-email"></a>Escolha os aplicativos que uma caixa de correio compartilhada pode usar para acessar email da Microsoft
 
-::: moniker range="o365-worldwide"
-
 1. No centro de administração, vá para a página **Grupos** \><a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Caixas de correio compartilhadas</a>.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
-
-::: moniker-end
 
 2. Selecione a caixa de correio compartilhada que você deseja editar e selecione **Aplicativos de email** \> **Editar**.
 
@@ -154,23 +90,7 @@ Se você quiser permitir que todos vejam o email enviado, no centro de administr
 
 Para saber mais sobre a ressarção de litígio, consulte [Create a Litigation Hold](../../compliance/create-a-litigation-hold.md).
 
-::: moniker range="o365-worldwide"
-
 1. No centro de administração, vá para a página **Grupos** \><a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Caixas de correio compartilhadas</a>.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
-
-::: moniker-end
 
 2. Selecione a caixa de correio compartilhada que você deseja editar e selecione **Contencioso de espera** \> **Editar**.
 
@@ -183,23 +103,7 @@ Para saber mais sobre a ressarção de litígio, consulte [Create a Litigation H
 
 ## <a name="add-or-remove-members"></a>Adicionar ou remover membros
 
-::: moniker range="o365-worldwide"
-
 1. No centro de administração, vá para a página **Grupos** \><a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Caixas de correio compartilhadas</a>.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
-
-::: moniker-end
 
 2. Selecione a caixa de correio compartilhada que você deseja editar e selecione **Membros** \> **Editar**.
 
@@ -211,23 +115,7 @@ Para saber mais sobre a ressarção de litígio, consulte [Create a Litigation H
 
 ## <a name="add-or-remove-permissions-of-members"></a>Adicionar ou remover permissões de membros
 
-::: moniker range="o365-worldwide"
-
 1. No centro de administração, vá para a página **Grupos** \><a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Caixas de correio compartilhadas</a>.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
-
-::: moniker-end
 
 2. Selecione a caixa de correio compartilhada que você deseja editar e selecione **Membros** \> **Personalizar permissões**.
 
@@ -243,23 +131,7 @@ Para saber mais sobre a ressarção de litígio, consulte [Create a Litigation H
 
 Se você optar por não mostrar a caixa de correio compartilhada na lista de endereços global, a caixa de correio não aparecerá na lista de endereços da sua organização, mas ainda receberá emails enviados a ela. 
 
-::: moniker range="o365-worldwide"
-
 1. No centro de administração, vá para a página **Grupos** \><a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Caixas de correio compartilhadas</a>.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
-
-::: moniker-end
 
 2. Selecione a caixa de correio compartilhada que você deseja editar e selecione **Mostrar na lista de endereços global** \> **Editar**.
 
@@ -268,16 +140,16 @@ Se você optar por não mostrar a caixa de correio compartilhada na lista de end
 4. Selecione **Salvar**.
 
 > [!NOTE]
-> Ocultar uma caixa de correio compartilhada da lista de endereços fará com que os novos membros da caixa de correio compartilhada adicionem a caixa de correio oculta ao perfil do Outlook até que a caixa de correio compartilhada seja novamente mostrada na lista de endereços. 
+> Ocultar uma caixa de correio compartilhada da lista de endereços inviabilizará que novos membros de caixa de correio compartilhada adicionem a caixa de correio oculta ao perfil de Outlook até que a caixa de correio compartilhada seja novamente mostrada na lista de endereços. 
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Sobre as caixas de correio compartilhadas](about-shared-mailboxes.md)
+[Sobre caixas de correio compartilhadas](about-shared-mailboxes.md) (artigo)
 
-[Criar uma caixa de correio compartilhada](create-a-shared-mailbox.md)
+[Criar uma caixa de correio compartilhada](create-a-shared-mailbox.md) (artigo)
 
-[Converter uma caixa de correio do usuário em uma caixa de correio compartilhada](convert-user-mailbox-to-shared-mailbox.md).
+[Converter uma caixa de correio de usuário em uma caixa de correio compartilhada](convert-user-mailbox-to-shared-mailbox.md) (artigo)
 
-[Remover uma licença de uma caixa de correio compartilhada](remove-license-from-shared-mailbox.md)
+[Remover uma licença de uma caixa de correio compartilhada](remove-license-from-shared-mailbox.md) (artigo)
 
-[Solucionar problemas com caixas de correio compartilhadas](resolve-issues-with-shared-mailboxes.md)
+[Resolver problemas com caixas de correio compartilhadas](resolve-issues-with-shared-mailboxes.md) (artigo)
