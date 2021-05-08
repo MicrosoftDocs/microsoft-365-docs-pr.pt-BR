@@ -13,7 +13,7 @@
       href: architecture-icons-templates.md
 - name: Soluções de base do Microsoft 365
   items:
-    - name: Capacite funcionários remotos com o Microsoft 365
+    - name: Configure sua infraestrutura para trabalho remoto
       items:
         - name: Visão Geral
           href: empower-people-to-work-remotely.md
@@ -21,13 +21,13 @@
           href: empower-people-to-work-remotely-secure-sign-in.md
         - name: Etapa 2. Fornecer acesso remoto
           href: empower-people-to-work-remotely-remote-access.md
-        - name: Etapa 3. Implantar segurança e conformidade
+        - name: 'Etapa 3: implantar segurança e conformidade'
           href: empower-people-to-work-remotely-security-compliance.md
         - name: Etapa 4. Implantar o gerenciamento de ponto de extremidade
           href: empower-people-to-work-remotely-manage-endpoints.md
         - name: Etapa 5. Implantar aplicativos e serviços de produtividade
           href: empower-people-to-work-remotely-teams-productivity-apps.md
-        - name: Etapa 6. Treinar trabalhadores remotos
+        - name: Etapa 6. Treinar os funcionários remotos
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Configurar a colaboração segura com o Microsoft 365
       items:
@@ -123,7 +123,7 @@
               href: /MicrosoftTeams/cloud-voice-landing-page?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: Etapa 2. - Configurar o Sistema de Telefonia
               href: /microsoftteams/setting-up-your-phone-system?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: Etapa 3. - Configurar conectividade PSTN
+            - name: Etapa 3.- Configurar conectividade PSTN
               items:
                 - name: Opção de Plano de Chamadas
                   href: /microsoftteams/set-up-calling-plans?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json

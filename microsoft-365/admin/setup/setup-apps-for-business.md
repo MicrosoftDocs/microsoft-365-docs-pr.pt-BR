@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Saiba como configurar sua assinatura do Microsoft 365 Apps for business.
-ms.openlocfilehash: 56eb3eb0f28ee99aab1c50a970626c61514335cd
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 6978a5402792906ef773934e5201b3ea6671c010
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579093"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244474"
 ---
 # <a name="set-up-microsoft-365-apps-for-business"></a>Configurar o Microsoft 365 Apps for business
 
@@ -89,7 +89,7 @@ Se você estiver usando o Office 365 operado pela 21Vianet, vá para [https://po
 
 2. Selecionar **Instalar**.
 
-Precisa de etapas mais detalhadas ou prefere instalar a versão de 64 bits do Office? Confira a seguir as [Instruções de instalação passo a passo](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658#BKMK_InstallSteps).
+Precisa de etapas mais detalhadas ou prefere instalar a versão de 64 bits do Office? Consulte [Instruções de instalação passo a passo](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658#BKMK_InstallSteps).
   
 ## <a name="set-up-mobile"></a>Configurar dispositivos móveis
 
@@ -99,7 +99,7 @@ Obtenha as etapas para o seu dispositivo: [Android](https://support.microsoft.co
   
 ## <a name="store-files-online"></a>Armazenar arquivos on-line
 
-A Microsoft facilita o armazenamento de arquivos online. Para saber quais locais de armazenamento são ideais para sua empresa, confira [Onde você pode armazenar arquivos no Office 365](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790).
+A Microsoft facilita o armazenamento de arquivos online. Para saber quais locais de armazenamento são ideais para sua empresa, confira [Onde você pode armazenar arquivos no Office 365](../../business-video/store-files.md).
   
 Todas as pessoas recebem um local de armazenamento em nuvem do **OneDrive**, quando você cria contas da Microsoft para elas. Com o OneDrive, você pode acessar arquivos em computadores, telefones e tablets.
   

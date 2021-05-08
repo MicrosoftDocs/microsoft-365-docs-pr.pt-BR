@@ -21,14 +21,17 @@ search.appverid:
 - MET150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: Saiba como renovar o Microsoft 365, ativando ou desativando faturas recorrentes.
-ms.openlocfilehash: 76be85fe3cbeafb275478e6236e051b6a252c099
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: afa899bd60b761d196df01c6f0bf18d51e546d8e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615166"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244643"
 ---
 # <a name="renew-microsoft-365-for-business"></a>Renove o Microsoft 365 para empresas
+
+> [!IMPORTANT]
+> Desde 26 de janeiro de 2021, não há mais suporte para novas contas bancárias para clientes na Bélgica, França, Itália, Luxemburgo, Portugal, Espanha e Estados Unidos. Se você for um cliente existente em um desses países, poderá continuar pagando pela assinatura com uma conta bancária existente e adicionar novas assinaturas a ela, mas apenas enquanto a conta bancária estiver em dia.
 
 Esse artigo se aplica à maioria das assinaturas do Microsoft 365 para empresas.
   

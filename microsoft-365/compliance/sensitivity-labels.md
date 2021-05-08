@@ -22,12 +22,12 @@ description: Use rótulos de confidencialidade da MIP (Proteção de Informaçõ
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 1e21da114154a5258f81a48e39d46ae875ee3930
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: da660f79cd218c4b97cd2159f2811985d4651cef
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51892924"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245619"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -261,3 +261,5 @@ Você também pode saber mais sobre [soluções de parceiro que estão integrada
 ## <a name="deployment-guidance"></a>Guia de implantação
 
 Para planejamento de implantação e orientação que inclui informações de licenciamento, permissões, estratégia de implantação, uma lista de cenários com suporte e documentação do usuário final, confira [Introdução aos rótulos de sensibilidade](get-started-with-sensitivity-labels.md).
+
+Para saber como usar os rótulos de confidencialidade para estar em conformidade com os normas de privacidade de dados, consulte [Implantar proteção de informações para regulamentos de privacidade de dados com o Microsoft 365](../solutions/information-protection-deploy.md)  (aka.ms/m365dataprivacy).
