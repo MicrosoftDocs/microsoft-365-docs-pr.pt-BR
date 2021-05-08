@@ -10,12 +10,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 36745a0aafb70e7921c19db7c28984dcca1e2a63
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: d058cfefbc31be6d355ed61e745c36af684829b4
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245523"
+ms.locfileid: "52259662"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de trabalho gerenciada da Microsoft?
 
@@ -57,7 +57,7 @@ Os administradores de TI se beneficiam dos seguintes recursos:
 ## <a name="device-management"></a>Gerenciamento de dispositivo
 A Área de Trabalho Gerenciada da Microsoft assume o trabalho de gerenciar dispositivos registrados e o software da Microsoft que eles usam.
 
-- **Hardware:** Em vez de seu departamento de TI ter que pesquisar e descobrir se um dispositivo é compatível com o serviço, fornecemos requisitos específicos de hardware e software, ferramentas e processos para simplificar a seleção para que você possa escolher dispositivos com confiança. Você pode encontrar dispositivos recomendados filtrando a Área de Trabalho Gerenciada da Microsoft no site [Compre dispositivos Windows 10 Pro business](https://www.microsoft.com/windowsforbusiness/view-all-devices). Você pode obter os dispositivos por conta própria (ou trabalhar com um parceiro) ou reutilizar dispositivos já existentes, desde que eles estejam na lista aprovada. O registro de dispositivos é fácil e rápido e, antes que eles sejam implantados, você também pode [personalizar](../working-with-managed-desktop/config-setting-overview.md) determinados aspectos da experiência de dispositivos para os usuários.
+- **Hardware:** Em vez de seu departamento de TI ter que pesquisar e descobrir se um dispositivo é compatível com o serviço, fornecemos requisitos específicos de hardware e software, ferramentas e processos para simplificar a seleção para que você possa escolher dispositivos com confiança. Você pode encontrar dispositivos recomendados filtrando por Área de Trabalho Gerenciada da Microsoft no site [Compre dispositivos Windows 10 Pro business](https://www.microsoft.com/windowsforbusiness/view-all-devices). Você pode obter os dispositivos por conta própria (ou trabalhar com um parceiro) ou reutilizar dispositivos já existentes. O registro de dispositivos é fácil e rápido e, antes que eles sejam implantados, você também pode [personalizar](../working-with-managed-desktop/config-setting-overview.md) determinados aspectos da experiência de dispositivos para os usuários.
 
 - **Atualizações:** A Área de Trabalho Gerenciada da Microsoft configura e gerencia todos os aspectos de [grupos de implantação](../service-description/updates.md) para as atualizações de recursos e qualidade do Windows 10, drivers, firmware, definições de antivírus e atualizações do Microsoft 365 Apps para Grandes Empresas. Isso inclui os testes abrangentes e a verificação de todas as atualizações, o que garante que os dispositivos registrados estejam sempre atualizados e minimize as interrupções, liberando o seu departamento de TI por toda a tarefa.
 

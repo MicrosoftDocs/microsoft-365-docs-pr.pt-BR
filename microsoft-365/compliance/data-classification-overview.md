@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O painel de classificação de dados permite visualizar a quantidade de dados confidenciais encontrados e classificados em sua organização.
-ms.openlocfilehash: 2867e545221061f5f99bf7ff669f9655b3777ba8
-ms.sourcegitcommit: 1c53f114a810e7aaa2dc876b84d66348492ea36c
+ms.openlocfilehash: d9c53d1f4679fbea9f5a7cded7f4bb6b6eb15b98
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899381"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244378"
 ---
 # <a name="learn-about-data-classification"></a>Saiba mais sobre a classificação de dados
 
@@ -112,7 +112,7 @@ O cartão dos principais rótulos de retenção aplicados mostra quantos itens t
 ![Captura de tela do espaço reservado mostrando os principais rótulos de retenção aplicados](../media/data-classification-top-retention-labels-applied.png)
 
 > [!NOTE]
-> Se este cartão exibir a mensagem "Nenhum rótulo de retenção detectado", isso significa que você não criou ou publicou qualquer rótulo de retenção ou que nenhum conteúdo teve qualquer rótulo de retenção aplicado.   Para começar a usar os rótulos de retenção, confira:
+> Se este cartão exibir a mensagem "Nenhum rótulo de retenção detectado", isso significa que você não criou ou publicou qualquer rótulo de confidencialidade ou que nenhum conteúdo teve um rótulo de retenção aplicado. Para começar com os rótulos de confidencialidade, consulte:
 >- [Introdução às políticas de retenção e rótulos de retenção](get-started-with-retention.md)
 
 ## <a name="top-activities-detected"></a>Atividades detectadas mais comuns
@@ -140,3 +140,5 @@ O objetivo do relatório de classificação de dados é fornecer visibilidade so
 - [Aprenda sobre os tipos de informações confidenciais](sensitive-information-type-learn-about.md)
 - [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
 - [Saiba mais sobre classificadores treináveis (visualização)](classifier-learn-about.md)
+
+Para saber como usar a classificação de dados para cumprir as normas de privacidade de dados, consulte [Implantar proteção de informações para normas de privacidade de dados com o Microsoft 365](../solutions/information-protection-deploy.md)  (aka.ms/m365dataprivacy).

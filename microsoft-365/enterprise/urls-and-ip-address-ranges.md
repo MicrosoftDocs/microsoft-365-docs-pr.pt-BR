@@ -3,7 +3,7 @@ title: 'URLs e intervalos de endereço IP do Office 365 '
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/01/2021
+ms.date: 04/29/2021
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 8548a211-3fe7-47cb-abb1-355ea5aa88a2
 description: 'Resumo: o Office 365 requer conectividade com a Internet. Os pontos de extremidade abaixo devem estar acessíveis para os clientes que usam os planos do Office 365, incluindo a Government Community Cloud (GCC).'
 hideEdit: true
-ms.openlocfilehash: b4b256e9138f89cd9d44182a08dd22050b17f7c2
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 14f4b4097e905c7d63bde472a6a39d4ba59ae184
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51581101"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245751"
 ---
 # <a name="office-365-urls-and-ip-address-ranges"></a>Intervalos de endereços IP e URLs do Office 365
 
@@ -39,9 +39,9 @@ O Office 365 requer conectividade com a Internet. Os pontos de extremidade abaix
 
 ||||
 |:-----|:-----|:-----|
-|**Ultima atualização:** 03/01/2021 - ![RSS](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Alterar assinatura do Log](https://endpoints.office.com/version/worldwide?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |**Baixar:** todos os destinos obrigatórios e opcionais em uma lista [no formato em JSON](https://endpoints.office.com/endpoints/worldwide?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7).  <br/> | **Use:** nossos arquivos proxy [PAC](managing-office-365-endpoints.md#pacfiles) <br/> |
+|**Última atualização:** 29/04/2021 - ![RSS](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Alterar assinatura do Log](https://endpoints.office.com/version/worldwide?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |**Baixar:** todos os destinos obrigatórios e opcionais em uma lista [no formato em JSON](https://endpoints.office.com/endpoints/worldwide?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7).  <br/> | **Use:** nossos arquivos proxy [PAC](managing-office-365-endpoints.md#pacfiles) <br/> |
 
- Comece com [Gerenciando pontos de extremidade do Office 365 ](managing-office-365-endpoints.md) para entender nossas recomendações para gerenciar a conectividade de rede usando esses dados. Os dados dos terminais são atualizados conforme necessário no início de cada mês com novos endereços IP e URLs publicados 30 dias antes de serem ativados. Isso permite que os clientes que ainda não possuem atualizações automatizadas concluam seus processos antes que uma nova conectividade seja necessária. Os endpoints também podem ser atualizados durante o mês, se necessário, para lidar com escalações de suporte, incidentes de segurança ou outros requisitos operacionais imediatos. Os dados mostrados nesta página a seguir são todos gerados a partir dos serviços da web baseados em REST. Se estiver usando um script ou um dispositivo de rede para acessar esses dados, você deve ir para o [serviço da Web ](microsoft-365-ip-web-service.md) diretamente.
+ Comece com [Gerenciar os pontos de extremidade do Office 365](managing-office-365-endpoints.md) para entender nossas recomendações para gerenciar a conectividade de rede usando estes dados. Os dados dos pontos de extremidade são atualizados, conforme necessário, no início de cada mês com novos endereços IP e URLs publicadas 30 dias antes de se tornarem ativas. Isso permite que os clientes que ainda não têm atualizações automáticas completem seus processos antes que uma nova conectividade seja necessária. Os pontos de extremidade também podem ser atualizados durante o mês, se necessário, para tratar de escalações de suporte, incidentes de segurança ou outros requisitos operacionais imediatos. Todos os dados exibidos abaixo nesta página são gerados a partir dos serviços Web baseados em REST. Se estiver usando um script ou dispositivo de rede para acessar esses dados, vá diretamente para o [serviço Web](microsoft-365-ip-web-service.md).
 
 Os dados do terminal abaixo listam os requisitos de conectividade da máquina de um usuário ao Office 365. Ele não inclui conexões de rede da Microsoft em uma rede de clientes, às vezes chamadas de conexões de rede híbridas ou de entrada. Consulte [Terminais adicionais](additional-office365-ip-addresses-and-urls.md) para obter mais informações.
 
@@ -66,7 +66,7 @@ As colunas de dados exibidas são:
 >
 
 ## <a name="related-topics"></a>Tópicos Relacionados
-[Pontos de extremidades adicionais não incluídos no endereço IP do Office 365 e serviço da Web de URL](https://docs.microsoft.com/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls?view=o365-worldwide)
+[Pontos de extremidades adicionais não incluídos no endereço IP do Office 365 e serviço da Web de URL](additional-office365-ip-addresses-and-urls.md)
 
 [Gerenciar pontos de extremidade do Office 365](managing-office-365-endpoints.md)
 

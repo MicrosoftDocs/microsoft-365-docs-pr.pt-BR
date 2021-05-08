@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Saiba como configurar sua assinatura do Microsoft 365 Business Basic.
-ms.openlocfilehash: 409d2fd4698452a1694d39c4ca3cc7f378d355e8
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: a4636006a6819769752ef6ae61a5cb7155d5289e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580781"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244462"
 ---
 # <a name="set-up-microsoft-365-business-basic"></a>Configurar o Microsoft 365 Business Basic
 
@@ -37,7 +37,7 @@ ms.locfileid: "51580781"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vk3W]
 
-Se você achou esse vídeo útil, confira as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou esse vídeo útil, confira as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](../../business-video/index.yml).
 
 ## <a name="add-your-domain-to-personalize-sign-in"></a>Adicione seu domínio para personalizar o login
 
@@ -85,9 +85,9 @@ Você pode adicionar usuários no assistente, mas também pode [adicionar usuár
 
 Todos os usuários adicionados ao assistente recebem automaticamente uma licença do Microsoft 365 Business Basic.
 
-1. Se sua assinatura do Microsoft 365 Business Basic tiver usuários existentes (por exemplo, se você usou o Azure AD Connect), você terá a opção de atribuir licenças a eles agora. Também adicione licenças para eles.
+1. Se sua assinatura do Microsoft 365 Business Basic tiver usuários existentes (por exemplo, se você usou o Azure AD Connect), você terá uma opção para atribuir licenças a eles agora. Adicione licenças para eles também.
 
-2. Depois de adicionar os usuários, você também terá a opção de compartilhar credenciais com os novos usuários adicionados. Você pode optar por imprimi-las, enviá-las por email ou baixá-las.
+2. Depois de adicionar os usuários, você também terá uma opção para compartilhar as credenciais com os novos usuários adicionados. Você pode optar por imprimi-las, enviá-las por email ou baixá-las.
 
 ## <a name="connect-your-domain"></a>Conectar seu domínio
 

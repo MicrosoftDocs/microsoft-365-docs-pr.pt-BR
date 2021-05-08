@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 12ff9834e2853c1745c20847f869bc2cba4e082e
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 9cd544ca3d714ea46c74e10f8aba5e46dc0e1b35
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114265"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280988"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-ansible"></a>Implantar o Microsoft Defender para Ponto de Extremidade no Linux com Ansible
 
@@ -98,7 +98,7 @@ Baixe o pacote de integração Central de Segurança do Microsoft Defender:
 
 ## <a name="create-ansible-yaml-files"></a>Criar arquivos YAML ansible
 
-Crie uma subtarefa ou arquivos de função que contribuam para um playbook ou tarefa.
+Crie uma subtarefa ou arquivos de função que contribuam para uma playbook ou tarefa.
 
 - Crie a tarefa de integração, `onboarding_setup.yml` :
 
@@ -282,3 +282,6 @@ Ao atualizar o sistema operacional para uma nova versão principal, primeiro voc
 - [Adicionar e remover repositórios APT](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_repository_module.html)
 
 - [Gerenciar pacotes de apt](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html)
+
+## <a name="see-also"></a>Confira também
+- [Investigar problemas de saúde do agente](health-status.md)

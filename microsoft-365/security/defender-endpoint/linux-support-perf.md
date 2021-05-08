@@ -18,12 +18,12 @@ mms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9964b27f29654a7cc474dc4fb8f84334ddaf381c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 998d8c500613ffa9fc6d790535e555ff9503f590
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933212"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52281012"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Solucionar problemas de desempenho do Microsoft Defender para Ponto de Extremidade no Linux
 
@@ -57,7 +57,7 @@ As etapas a seguir podem ser usadas para solucionar problemas e atenuar esses pr
 
     Se seu dispositivo for gerenciado pela sua organização, a proteção em tempo real poderá ser desabilitada pelo administrador usando as instruções em Definir [preferências](linux-preferences.md)para Defender para Ponto de Extremidade no Linux .
 
-    Se o problema de desempenho persistir enquanto a proteção em tempo real estiver desligada, a origem do problema poderá ser o componente de detecção e resposta do ponto de extremidade. Nesse caso, entre em contato com o suporte do cliente para obter mais instruções e mitigação.
+    Se o problema de desempenho persistir enquanto a proteção em tempo real estiver desligada, a origem do problema poderá ser o detecção e resposta de ponto de extremidade componente. Nesse caso, entre em contato com o suporte do cliente para obter mais instruções e mitigação.
 
 2. Para encontrar os aplicativos que estão disparando a maioria das verificações, você pode usar estatísticas em tempo real coletadas pelo Defender para Ponto de Extremidade no Linux.
 
@@ -148,3 +148,6 @@ As etapas a seguir podem ser usadas para solucionar problemas e atenuar esses pr
 5. Configure o Microsoft Defender para Ponto de Extremidade no Linux com exclusões para os processos ou locais de disco que contribuem para os problemas de desempenho e rehabilitam a proteção em tempo real.
 
     Para obter mais informações, [consulte Configure and validate exclusions for Microsoft Defender for Endpoint on Linux](linux-exclusions.md).
+
+## <a name="see-also"></a>Confira também
+- [Investigar problemas de saúde do agente](health-status.md)

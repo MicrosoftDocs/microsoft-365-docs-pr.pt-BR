@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: 'Para administradores: saiba como usar o carregamento de rede para importar arquivos PST em massa para as caixas de correio dos usuários no Microsoft 365.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cf7f471a4323c4c03f232e93d2f00b930e53aefe
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 6ff645589337260cd8e29d1e1d066abdf60c1f1a
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114337"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280916"
 ---
 # <a name="use-network-upload-to-import-your-organizations-pst-files-to-microsoft-365"></a>Use o carregamento de rede para importar arquivos PST da sua organização para o Microsoft 365
 
@@ -173,7 +173,7 @@ Como uma etapa opcional, você pode instalar e usar o Gerenciador de Armazenamen
 
 - Verifique se o nome do arquivo (e o nome do caminho da subpasta, se você incluiu um) para cada arquivo PST carregado para o blob do Azure. Isso será muito útil quando você estiver criando o arquivo de mapeamento PST na próxima etapa porque será preciso especificar o nome do caminho da pasta e o nome do arquivo para cada arquivo PST. Verificar esses nomes pode ajudar a reduzir possíveis erros no arquivo de mapeamento PST.
 
-O Gerenciador de Armazenamento do Microsoft Azure está em Prévia.
+O aplicativo autônomo do Gerenciador de Armazenamento do Microsoft Azure geralmente está disponível. Você pode baixar a versão mais recente usando o link no procedimento a seguir.
   
 > [!IMPORTANT]
 > Não é possível usar o Gerenciador de Armazenamento do Azure para carregar ou modificar arquivos PST. O único método com suporte para a importação de arquivos PST é usar o AzCopy. Além disso, não é possível excluir os arquivos PST que você carregou no blob do Azure. Se tentar excluir um arquivo PST, você receberá uma mensagem de erro informando que você não tem as permissões necessárias. Todos os arquivos PST são excluídos automaticamente da sua área de armazenamento do Azure. Se não houver trabalhos de importação em andamento, todos os arquivos PST no contêiner **ingestiondata** serão excluídos 30 dias após a criação do trabalho de importação mais recente.

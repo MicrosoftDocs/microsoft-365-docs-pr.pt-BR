@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c13138f3d80a95dbda3a899507f662c081831d94
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: c50efb11ee7f884be6788b90c14e7fc639d9b8ca
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259674"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52281000"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Implantar o Microsoft Defender para Ponto de Extremidade no Linux manualmente
 
@@ -407,3 +407,6 @@ Ao atualizar o sistema operacional para uma nova versão principal, primeiro voc
 ## <a name="uninstallation"></a>Desinstalação
 
 Consulte [Desinstalar](linux-resources.md#uninstall) para obter detalhes sobre como remover o Defender for Endpoint no Linux de dispositivos cliente.
+
+## <a name="see-also"></a>Confira também
+- [Investigar problemas de saúde do agente](health-status.md)

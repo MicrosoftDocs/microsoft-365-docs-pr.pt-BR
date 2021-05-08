@@ -16,12 +16,12 @@ ms.topic: article
 manager: dansimp
 ms.technology: mde
 ms.date: 05/06/2021
-ms.openlocfilehash: 866a36828c5c83d833d66bd7ed7d32b3499cbbdf
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 885844b46d603dc318dbaf877cd445b5caaa4e46
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275151"
+ms.locfileid: "52280969"
 ---
 # <a name="microsoft-defender-antivirus-compatibility"></a>Microsoft Defender Antivírus compatibilidade
 
@@ -80,7 +80,7 @@ Se você estiver usando o Windows Server, versão 1803 ou mais recente, ou Windo
 - Valor: `1`
 
 > [!NOTE]
-> O modo passivo não é suportado no Windows Server 2016. A `ForcePassiveMode` chave do Registro não é aplicável a Windows Server 2016. 
+> O modo passivo não é suportado no Windows Server 2016. A chave do Registro pode ser usada no Windows Server, versão 1803 ou mais recente, ou `ForcePassiveMode` Windows Server 2019, mas não Windows Server 2016. 
 
 (<a id="fn2">2</a>) No Windows Server 2016, se você estiver usando um produto antivírus que não seja da Microsoft, não poderá executar Microsoft Defender Antivírus no modo passivo ou no modo ativo. Nesses casos, [desabilite/desinstale](microsoft-defender-antivirus-on-windows-server.md#are-you-using-windows-server-2016) Microsoft Defender Antivírus manualmente para evitar problemas causados pela instalação de vários produtos antivírus em um servidor.
 

@@ -14,16 +14,16 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Visão geral dos Tópicos do Viva.
-ms.openlocfilehash: b37572087794055724cb9533246f83794d88fb93
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 1d66751d55c0144149fa8325e89be404e3df19ed
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275187"
+ms.locfileid: "52281024"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Visão geral dos Tópicos do Microsoft Viva 
 
-Os Tópicos do Viva usam a tecnologia de IA da Microsoft, o Microsoft 365, o Microsoft Graph, a Pesquisa da Microsoft e outros componentes e serviços para trazer conhecimento aos seus usuários em aplicativos Microsoft 365 que eles usam diariamente, começando com páginas modernas do SharePoint e a Pesquisa da Microsoft.
+O Viva Topics usa a tecnologia microsoft AI, Microsoft 365, Microsoft Graph, Pesquisa e outros componentes e serviços para trazer conhecimento aos seus usuários em aplicativos Microsoft 365 que eles usam diariamente SharePoint, começando com páginas modernas, Pesquisa da Microsoft e Pesquisa no Word e PowerPoint.
 
 </br>
 
@@ -42,6 +42,7 @@ Quando um tópico for mencionado no conteúdo de notícias e páginas do SharePo
 
    ![Destaques de tópicos](../media/knowledge-management/saturn.png) 
 
+Quando você usa a Pesquisa no Word ou PowerPoint, por  meio da caixa de pesquisa ou selecionando Pesquisar no menu de contexto, os resultados exibidos também podem mostrar o resumo do tópico.
 
    ![Captura de tela mostrando a pesquisa no Word por meio da caixa Pesquisa.](../media/knowledge-management/word-search-2.png)
 
