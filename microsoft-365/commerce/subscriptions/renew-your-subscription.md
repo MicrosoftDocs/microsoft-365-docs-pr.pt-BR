@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,21 +13,20 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
-- commerce
 ms.custom:
 - SaRA
 - AdminSurgePortfolio
-search.appverid:
-- MET150
-ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
+- commerce_subscriptions
+- PPM_jmueller
+search.appverid: MET150
 description: Saiba como renovar o Microsoft 365, ativando ou desativando faturas recorrentes.
-ms.openlocfilehash: afa899bd60b761d196df01c6f0bf18d51e546d8e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.date: 05/04/2021
+ms.openlocfilehash: 25b0e4f8e94780bd301b41591cd1c06978cbd68e
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244643"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52285689"
 ---
 # <a name="renew-microsoft-365-for-business"></a>Renove o Microsoft 365 para empresas
 
@@ -49,6 +49,7 @@ Se sua assinatura for pré-paga com uma chave do produto, ela expirará no final
 ::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
@@ -60,6 +61,7 @@ Se sua assinatura for pré-paga com uma chave do produto, ela expirará no final
 ::: moniker range="o365-21vianet"
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Seus produtos</a>.
+
 ::: moniker-end
 
 2. Selecione a assinatura da qual você quer gerenciar a cobrança recorrente.
@@ -68,17 +70,15 @@ Se sua assinatura for pré-paga com uma chave do produto, ela expirará no final
 5. Selecione **Salvar**.
 
     > [!NOTE]
+    >
     > - Você só pode alterar a configuração de **Cobrança recorrente** para assinaturas ativas. Se a sua assinatura já tiver expirado ou se estiver desabilitada, será necessário [reativá-la](reactivate-your-subscription.md) antes que seja possível ativar ou desativar a **Cobrança recorrente**.
     > - Quando a **Cobrança recorrente** for desativada, a assinatura não será cancelada. Se desejar manter a assinatura ativa, você deverá pagar a fatura manualmente.
     > - Se você desativar a **Cobrança recorrente**, a assinatura permanecerá ativa até expirar. Você pode exibir a data de expiração na página de detalhes da assinatura na seção **Configurações de pagamento e assinatura**.
     > - Para saber como cancelar a assinatura imediatamente, consulte [Cancelar a minha assinatura](cancel-your-subscription.md).
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Reativar sua assinatura](reactivate-your-subscription.md)
-  
-[O que acontecerá com os meus dados e com o meu acesso quando a assinatura terminar?](what-if-my-subscription-expires.md)
-
-[Inserir a sua chave de produto](../enter-your-product-key.md)
-  
-[Compre a versão de avaliação do Microsoft 365 para empresas](../try-or-buy-microsoft-365.md)
+[Reativar sua assinatura](reactivate-your-subscription.md) (artigo)\
+[O que acontecerá com os meus dados e com o meu acesso quando a assinatura terminar?](what-if-my-subscription-expires.md) (artigo)\
+[Insira sua chave do produto](../enter-your-product-key.md) (artigo)\
+[Compre a versão de avaliação do Microsoft 365 para empresas](../try-or-buy-microsoft-365.md) (artigo)
