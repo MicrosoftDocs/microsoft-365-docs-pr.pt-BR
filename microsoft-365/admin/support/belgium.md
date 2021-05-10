@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7da86a19364c8bb303706b048e694d720cf0518f
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 96b1a495217bfdbd84397d1f6f027c5427f82ee0
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50548663"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296919"
 ---
 # <a name="contact-support-for-belgium"></a>Contatar o suporte para a Bélgica
 
-[Encontre outro país ou região](../contact-support-for-business-products.md).
+[Encontre outro país ou região](../../business-video/get-help-support.md).
 
 ## <a name="phone-number"></a>Número de telefone
 0800 81174
@@ -41,6 +41,6 @@ Francês: Mon-Fri 8:9 PM
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de Telefone Alternativo: 02 200 88 84
+Número Telefone alternativo: 02 200 88 84
 
 Cobranças de chamada locais são aplicadas

@@ -19,65 +19,65 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
-description: Determine se o locatário e os usuários atendem aos requisitos, para que você possa usar a Implantação Centralizada para implantar os complementos do Office.
-ms.openlocfilehash: 7eb15563ca11e8fcce17dc6b505347475d18641e
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+description: Determine se o locatário e os usuários atendem aos requisitos, para que você possa usar a Implantação Centralizada para implantar Office de complementos.
+ms.openlocfilehash: 8f73deb1059097640946fcf7dad1ca97cb2831b1
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860686"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296714"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Determinar se a Implantação Centralizada de complementos funciona para sua organização
 
-A Implantação Centralizada é a maneira recomendada e mais rica em recursos para a maioria dos clientes implantar os complementos do Office para usuários e grupos em sua organização. Se você for um administrador, use essa orientação para determinar se sua organização e usuários atendem aos requisitos para que você possa usar a Implantação Centralizada.
+A Implantação Centralizada é a maneira recomendada e mais rica em recursos para a maioria dos clientes implantar Office a usuários e grupos em sua organização. Se você for um administrador, use essa orientação para determinar se sua organização e usuários atendem aos requisitos para que você possa usar a Implantação Centralizada.
 
 A Implantação Centralizada oferece os seguintes benefícios:
   
 - Um administrador global pode atribuir um complemento diretamente a um usuário, a vários usuários por meio de um grupo ou a todos na organização.
     
-- Quando o aplicativo do Office relevante é iniciado, o complemento baixa automaticamente. Se o add-in dá suporte a comandos de add-in, o complemento aparece automaticamente na faixa de opções dentro do aplicativo do Office.
+- Quando o aplicativo Office relevante é iniciado, o complemento baixa automaticamente. Se o complemento suportar comandos de Office.
     
-- Os complementos não aparecerão mais para os usuários se o administrador desligar ou excluir o complemento ou se o usuário for removido do Azure Active Directory ou de um grupo ao qual o add-in é atribuído.
+- Os complementos não aparecerão mais para os usuários se o administrador desligar ou excluir o complemento ou se o usuário for removido do Azure Active Directory ou de um grupo ao que o complemento é atribuído.
 
-A Implantação Centralizada dá suporte a três plataformas de área de trabalho Aplicativos do Windows, Mac e Online do Office. A Implantação Centralizada também oferece suporte para iOS e Android (Somente para Os Complementos do Outlook Mobile).
+A Implantação Centralizada dá suporte a três plataformas de área de trabalho Windows, Mac e Online Office aplicativos. A Implantação Centralizada também oferece suporte para iOS e Android (Outlook somente para complementos móveis).
 
 Pode levar até 24 horas para um complemento aparecer para cliente para todos os usuários.
   
 ## <a name="requirements"></a>Requisitos
 
-A implantação centralizada de complementos exige que os usuários usem SKUs do Microsoft 365 Enterprise: E3/E5/F3 ou SKUs Corporativos: Business Basic, Business Standard, Business Premium (e são assinados no Office usando sua ID organizacional) e têm caixas de correio do Exchange Online e do Exchange Online ativas. Seu diretório de assinatura deve estar ou federado para o Azure Active Directory.
-Você pode exibir requisitos específicos para o Office e o Exchange abaixo ou usar o Verificador de Compatibilidade de [Implantação Centralizado](#centralized-deployment-compatibility-checker).
+A implantação centralizada de complementos exige que os usuários usem SKUs do Microsoft 365 Enterprise: E3/E5/F3 ou SKUs De Negócios: Business Basic, Business Standard, Business Premium (e estão Office no Office usando sua ID organizacional) e possuem caixas de correio Exchange Online e Exchange Online ativas. Seu diretório de assinatura deve estar ou federado para Azure Active Directory.
+Você pode exibir requisitos específicos para Office e Exchange abaixo ou usar o [Verificador de](#centralized-deployment-compatibility-checker)Compatibilidade de Implantação Centralizado .
 
 A Implantação Centralizada não é compatível com:
   
 - Suplementos que visam o Word, Excel ou o PowerPoint no Office 2013 
 - Um serviço de diretório local
-- Implantação de um add-in para uma caixa de correio do Exchange on-prem
+- Implantação de add-in para uma caixa de correio Exchange No-Prem
 - Implantação de suplemento no SharePoint  
-- Aplicativos do Teams
-- Implantação do Modelo de Objeto de Componente (COM) ou Visual Studio ferramentas para os complementos do Office (VSTO).
-- Implantações do Microsoft 365 que não incluem o Exchange Online, como SKUs: Microsoft 365 Apps for Business e Microsoft 365 Apps for Enterprise.
+- Teams aplicativos
+- Implantação de componentes modelo de objeto (COM) ou Visual Studio Tools para Office (VSTO) de componentes.
+- Implantações de Microsoft 365 que não incluem Exchange Online como SKUs: Microsoft 365 Apps para Empresas e Microsoft 365 Apps para Enterprise.
 
-### <a name="office-requirements"></a>Requisitos do Office
+### <a name="office-requirements"></a>Office Requisitos
 
-- Para os complementos do Word, do Excel e do PowerPoint, os usuários devem estar usando um dos seguintes:
-  - Em um dispositivo Windows, versão 1704 ou posterior do Microsoft 365 Enterprise SKUs: E3/E5/F3 ou SKUs Corporativos: Business Basic, Business Standard, Business Premium.
+- Para o Word, Excel e PowerPoint, os usuários devem estar usando um dos seguintes:
+  - Em um dispositivo Windows, versão 1704 ou posterior do Microsoft 365 Enterprise SKUs: E3/E5/F3 ou Business SKUs: Business Basic, Business Standard, Business Premium.
   - Em um Mac, versão 15.34 ou posterior.
 
-- Para o Outlook, seus usuários devem estar usando um dos seguintes: 
+- Para Outlook, os usuários devem estar usando um dos seguintes: 
   - Versão 1701 ou posterior do Microsoft 365 Enterprise SKUs: E3/E5/F3 ou Business SKUs: Business Basic, Business Standard, Business Premium.
   - Versão 1808 ou posterior do Office Professional Plus 2019 ou Office Standard 2019.
   - Versão 16.0.4494.1000 ou posterior do Office Professional Plus 2016 (MSI) ou Office Standard 2016 (MSI)\*
   - Versão 15.0.4937.1000 ou posterior do Office Professional Plus 2013 (MSI) ou Office Standard 2013 (MSI)\*
   - Versão 16.0.9318.1000 ou posterior do Office 2016 para Mac 
 - Versão 2.75.0 ou posterior do Outlook mobile para iOS 
-- Versão 2.2.145 ou posterior do Outlook mobile para Android 
+- Versão 2.2.145 ou posterior do Outlook para Android 
     
-    *As versões MSI do Outlook mostram os complementos instalados pelo administrador na faixa de opções apropriada do Outlook, não na seção "Meus complementos".
+    *As versões MSI do Outlook mostram os complementos instalados pelo administrador na faixa de opções Outlook apropriada, não na seção "Meus complementos".
 
-### <a name="exchange-online-requirements"></a>Requisitos do Exchange Online
+### <a name="exchange-online-requirements"></a>Exchange Online requisitos
 
-O Microsoft Exchange armazena os manifestos de complemento no locatário da sua organização. O administrador que está implantando os complementos e os usuários que recebem esses complementos devem estar em uma versão do Exchange Online que oferece suporte à autenticação OAuth.
+A Microsoft Exchange armazena os manifestos do complemento no locatário da sua organização. O administrador que está implantando os complementos e os usuários que recebem esses complementos devem estar em uma versão do Exchange Online que oferece suporte à autenticação OAuth.
   
 Fale com o administrador do Exchange da sua organização para saber qual configuração está sendo usada. Para verificar a conectividade por usuário do OAuth, use o cmdlet do PowerShell [Test-OAuthConnectivity](/powershell/module/exchange/test-oauthconnectivity). 
 
@@ -114,7 +114,7 @@ Quando a ferramenta conclui a execução, ela gera um arquivo de saída no forma
     
 - Implantação Centralizada pronta, se os itens restantes forem verdadeiros
     
-- Plano do Office - O plano do Office para o que eles estão licenciados
+- Office plano - O plano de Office para os que estão licenciados
     
 - Office ativado - Se ele ativou o Office
     
@@ -125,7 +125,7 @@ Quando a ferramenta conclui a execução, ela gera um arquivo de saída no forma
   
 ## <a name="user-and-group-assignments"></a>Atribuições de usuário e grupo
 
-O recurso implantação centralizada atualmente dá suporte à maioria dos grupos com suporte do Azure Active Directory, incluindo grupos do Microsoft 365, listas de distribuição e grupos de segurança.
+O recurso Implantação Centralizada atualmente dá suporte à maioria dos grupos com suporte Azure Active Directory, incluindo grupos de Microsoft 365, listas de distribuição e grupos de segurança.
   
 > [!NOTE]
 > Os grupos de segurança não habilitados por email não têm suporte no momento. 
@@ -141,17 +141,17 @@ Examine o exemplo a seguir em que Sara, Maria Eduarda e o grupo do Departamento 
 
 A maneira mais fácil de detectar se um grupo contém grupos aninhados é exibir o cartão de visita do grupo no Outlook. Se você inserir o nome do grupo no campo **Para** de um email e, em seguida, selecionar o nome do grupo quando ele for resolvido, ele mostrará se ele contém usuários ou grupos aninhados. No exemplo abaixo, a guia **Membros** do cartão de visita do Outlook para o Grupo de Teste não mostra usuários nem grupos, apenas dois subgrupos. 
   
-![Guia Membros do cartão de visita do Outlook](../../media/d9db88c4-d752-426c-a480-b11a5b3adcd6.png)
+![Guia Membros do Outlook de contato](../../media/d9db88c4-d752-426c-a480-b11a5b3adcd6.png)
   
 É possível fazer a consulta inversa resolvendo o grupo para ver se ele é membro de algum grupo. No exemplo abaixo, na guia **Associação** do cartão de visita do Outlook, é possível ver que o Subgrupo 1 é membro do Grupo de Teste. 
   
-![Guia Associação do cartão de visita do Outlook](../../media/a9f9b6ab-9c19-4822-9e3d-414ca068c42f.png)
+![Guia Associação do cartão Outlook contato](../../media/a9f9b6ab-9c19-4822-9e3d-414ca068c42f.png)
   
 Se preferir, use a API do Graph do Azure Active Directory para executar consultas para localizar a lista de grupos dentro de um grupo. Para saber mais, veja [Operações em grupos | Referência da API do Graph](/previous-versions/azure/ad/graph/api/groups-operations).
   
 ### <a name="contacting-microsoft-for-support"></a>Entrar em contato com a Microsoft para obter suporte
 
-Se você ou seus usuários encontrarem problemas para carregar o complemento enquanto usam aplicativos do Office para a Web (Word, Excel, etc.), que foram implantados centralmente, talvez seja necessário entrar em contato com o suporte da Microsoft ( saiba[como](../contact-support-for-business-products.md)). Forneça as seguintes informações sobre seu ambiente do Microsoft 365 no tíquete de suporte.
+Se você ou seus usuários encontrarem problemas para carregar o add-in enquanto usam aplicativos Office web (Word, Excel, etc.), que foram implantados centralmente, talvez seja necessário contatar o suporte da Microsoft ( saiba[como](../../business-video/get-help-support.md)). Forneça as informações a seguir sobre seu Microsoft 365 ambiente no tíquete de suporte.
   
 |**Plataforma**|**Informações de depuração**|
 |:-----|:-----|

@@ -23,12 +23,12 @@ ms.custom:
 - okr_smb
 - AdminSurgePortfolio
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 2527389634cda9912f45ecdcd3213f7d987b7bb8
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 0d4c59f24f5d5979d0f63d035edd1ca668ff4314
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51221866"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296690"
 ---
 # <a name="what-is-a-domain"></a>O que é um domínio?
 
@@ -36,17 +36,17 @@ ms.locfileid: "51221866"
   
 O domínio é um nome exclusivo que é exibido após o sinal de **@** nos endereços de email e após **www.** nos endereços de site. Normalmente, ele assume a forma do nome da sua organização e um sufixo padrão da Internet, como *o seu negócio. <span> com* ou *stateuniversity. <span> edu*. 
   
-Usando um domínio personalizado como *rob@contoso. <span> com* com o Microsoft 365 pode ajudar a criar credibilidade e reconhecimento para sua marca. 
+Usando um domínio personalizado como *rob@contoso. <span> com* com Microsoft 365 pode ajudar a criar credibilidade e reconhecimento para sua marca. 
   
 ## <a name="choose-the-experience-thats-best-for-you"></a>Escolha a experiência que é melhor para você:
 
  **Comprar um novo Domínio:**
   
-Use o Microsoft 365 para comprar um novo domínio - configuraremos tudo. [Saiba Mais.](buy-a-domain-name.md)
+Use Microsoft 365 para comprar um novo domínio- configuraremos tudo. [Saiba Mais.](buy-a-domain-name.md)
   
  **Use um domínio que você já possui:**
   
-Se você já possui um domínio como  *you@yourcompany. <span> com*  você pode adicioná-lo e começar a usar aplicativos Do OneDrive e Microsoft imediatamente. Você precisará de alguns minutos para configurar o email e o Skype for Business. 
+Se você já possui um domínio como *you@yourcompany. <span> com* você pode adicioná-lo e começar a usar OneDrive aplicativos da Microsoft imediatamente. Você precisará de alguns minutos para configurar o email e o Skype for Business. 
   
 > [!TIP]
 > Não sabe onde seu domínio está registrado? [Obtenha ajuda para localizar o registrador de domínios](find-your-domain-registrar.md).
@@ -57,6 +57,6 @@ Você pode usar um domínio padrão como  *yourcompany.onmicrosoft. <span> com* 
   
 ## <a name="feeling-stuck"></a>Se sentindo travado?
 
-Chamar o Suporte da Microsoft - [Obter ajuda para configurar um domínio](../contact-support-for-business-products.md)
+Chamar o Suporte da Microsoft - [Obter ajuda para configurar um domínio](../../business-video/get-help-support.md)
   
 

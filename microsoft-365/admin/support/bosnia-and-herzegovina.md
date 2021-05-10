@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 674c5c2c0f5cfbf8b4c0ca9d6a6806a00bb7fa68
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 7f17526765bbd3940ed88d85f7432805546ab13c
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50548531"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296450"
 ---
 # <a name="contact-support-for-bosnia-and-herzegovnia"></a>Contatar o suporte para Bósnia e Herzegovnia
 
-[Encontre outro país ou região](../contact-support-for-business-products.md).
+[Encontre outro país ou região](../../business-video/get-help-support.md).
 
 ## <a name="phone-number"></a>Número de telefone
 0800 20 230
@@ -39,6 +39,6 @@ Inglês: Segunda a sexta, das 9h às 17h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de Telefone Alternativo: +387 33 606 100
+Número Telefone alternativo: +387 33 606 100
 
 Cobranças de chamada internacionais são aplicadas

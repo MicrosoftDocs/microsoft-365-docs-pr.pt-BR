@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1ad1e34f2a30fade2b46ccf0b4a4f7ceaa16cc36
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: d3fc8dc128d4ece94a00cf4a0acfcb7d18ca10f2
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50548291"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296390"
 ---
 # <a name="contact-support-for-cameroon"></a>Contatar o suporte para Cameroon
 
-[Encontre outro país ou região](../contact-support-for-business-products.md).
+[Encontre outro país ou região](../../business-video/get-help-support.md).
 
 ## <a name="phone-number"></a>Número de telefone
 +225 20 24 24 90

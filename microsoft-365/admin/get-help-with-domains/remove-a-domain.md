@@ -22,18 +22,18 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Saiba como remover um domínio antigo do Microsoft 365 e mover usuários e grupos para outro domínio.
-ms.openlocfilehash: 916730975e9e17c42b01d9fa0ff55b3cb7078f66
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: ca12a886c508024bf39ae9e619744a355376a80d
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470960"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296702"
 ---
 # <a name="remove-a-domain"></a>Excluir um domínio
   
  Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
-Você está removendo seu domínio porque deseja adicioná-lo a um plano de assinatura diferente do Microsoft 365? Ou você só deseja cancelar sua assinatura? Você pode [alterar seu plano ou assinatura](../../commerce/subscriptions/switch-to-a-different-plan.md) ou cancelar sua [assinatura](../../commerce/subscriptions/cancel-your-subscription.md).
+Você está removendo seu domínio porque deseja adicioná-lo a um plano de assinatura Microsoft 365 diferente? Ou você só deseja cancelar sua assinatura? Você pode [alterar seu plano ou assinatura](../../commerce/subscriptions/switch-to-a-different-plan.md) ou cancelar sua [assinatura](../../commerce/subscriptions/cancel-your-subscription.md).
   
 ### <a name="step-1-move-users-to-another-domain"></a>Etapa 1: mover usuários para outro domínio
 
@@ -203,7 +203,7 @@ Você também pode usar o PowerShell para mover os usuários para outro domínio
 
 ## <a name="how-long-does-it-take-for-a-domain-to-be-removed"></a>Quanto tempo leva para um domínio ser removido?
 
-Pode levar apenas cinco minutos para o Microsoft 365 remover um domínio se ele não for referenciado em muitos locais, como grupos de segurança, listas de distribuição, usuários e grupos do Microsoft 365. Se há muitas referências que usam o domínio, pode levar várias horas (um dia) para que ele seja removido.
+Pode levar apenas cinco minutos para Microsoft 365 remover um domínio se ele não for referenciado em muitos locais, como grupos de segurança, listas de distribuição, usuários e grupos Microsoft 365. Se há muitas referências que usam o domínio, pode levar várias horas (um dia) para que ele seja removido.
   
 Se você tem centenas ou milhares de usuários, use o PowerShell para fazer uma consulta de todos os usuários e mova-os para outro domínio. Caso contrário, é possível que alguns usuários fiquem de fora da interface e, quando você tentar remover o domínio, não conseguirá e não saberá por quê. Saiba mais em [Set-MsolUserPrincipalName](/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0). Para definir o domínio padrão, use [Set-MsolDomain](/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).
   
@@ -214,7 +214,7 @@ Se você tem centenas ou milhares de usuários, use o PowerShell para fazer uma 
 > [!NOTE]
 > Você não pode remover o domínio [".onmicrosoft.com"](../setup/domains-faq.yml) da sua conta. Quando você remover um domínio, as contas de usuário retornarão para o endereço ".onmicrosoft.com" como o SMTP principal/UserprincipalName.
   
-Ainda não está funcionando? Seu domínio pode precisar ser removido manualmente. [Ligue para nós](../contact-support-for-business-products.md) e ajudaremos você a cuidar dela!
+Ainda não funciona? É possível que seja necessário remover seu domínio manualmente. [Ligue para nós](../../business-video/get-help-support.md). Ajudaremos você com essa questão!
   
 ::: moniker-end
 

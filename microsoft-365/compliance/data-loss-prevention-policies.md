@@ -22,12 +22,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: material de referência de prevenção contra perda de dados
-ms.openlocfilehash: a94dde0bba3fdfc869746f51687ed7709a96639a
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: a039b8d99bd92be0040f6207803981e8a2937c6f
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114397"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296763"
 ---
 # <a name="data-loss-prevention-reference"></a>Referência de prevenção contra perda de dados
  
@@ -385,7 +385,7 @@ Ao usar um [rótulo de retenção](retention.md#retention-labels) criado e publi
 
 ### <a name="using-a-sensitivity-label-as-a-condition-in-a-dlp-policy"></a>Usar um rótulo de confidencialidade como condição em uma política DLP
 
-Rótulos de confidencialidade como condição nas políticas de DLP está atualmente na versão prévia. [Saiba mais](./dlp-sensitivity-label-as-condition.md).
+[Saiba mais](./dlp-sensitivity-label-as-condition.md) sobre como usar o rótulo de sensibilidade como condição nas políticas de DLP.
   
 ### <a name="how-this-feature-relates-to-other-features"></a>Como esse recurso se relaciona a outros recursos
 

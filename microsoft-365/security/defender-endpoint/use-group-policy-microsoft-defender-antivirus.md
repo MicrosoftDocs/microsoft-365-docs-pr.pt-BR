@@ -10,18 +10,18 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 04/13/2021
+ms.date: 05/07/2021
 ms.reviewer: ksarens, jtoole, pahuijbr
 manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: 8db14b016491ac10872f29f04b8166e548d6c63b
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 81cba445482b1fceb8bd520f2be88d55db2a47fb
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275331"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296726"
 ---
 # <a name="use-group-policy-settings-to-configure-and-manage-microsoft-defender-antivirus"></a>Use as configurações da Política de Grupo para configurar e gerenciar Microsoft Defender Antivírus
 
@@ -33,6 +33,8 @@ ms.locfileid: "52275331"
 - [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
 
 Você pode usar [a Política de Grupo](/windows/win32/srvnodes/group-policy) para configurar e gerenciar Microsoft Defender Antivírus em seus pontos de extremidade.
+
+## <a name="configure-microsoft-defender-antivirus-using-group-policy"></a>Configurar Microsoft Defender Antivírus usando a Política de Grupo
 
 Em geral, você pode usar o procedimento a seguir para configurar ou alterar Microsoft Defender Antivírus de política de grupo:
 
@@ -48,9 +50,14 @@ Em geral, você pode usar o procedimento a seguir para configurar ou alterar Mic
 
 6. [Implante o GPO atualizado como você normalmente faz](/windows/win32/srvnodes/group-policy). 
 
-A tabela a seguir neste tópico lista as configurações da Política de Grupo disponíveis no Windows 10, versão 1703, e fornece links para o tópico apropriado nesta biblioteca de documentação (quando aplicável).
+## <a name="group-policy-settings-and-resources"></a>Configurações e recursos da Política de Grupo
 
-| Location | Setting | Artigo |
+A tabela a seguir neste tópico lista as configurações da Política de Grupo disponíveis no Windows 10, versão 1703, e fornece links para o tópico apropriado nesta biblioteca de documentação (quando aplicável). 
+
+> [!TIP]
+> Baixe a Planilha de Referência Configurações Política de Grupo para Windows 10 atualização de maio de [2020 (2004)](https://www.microsoft.com/download/101451). Esta planilha lista as configurações de política para configurações do computador e do usuário incluídas nos arquivos de modelo administrativo fornecidos para Windows 10 atualização de maio de 2020 (2004). Você pode configurar essas configurações de política ao editar Objetos de Política de Grupo.
+
+| Local | Configuração | Artigo |
 |:---|:---|:---|
 | Interface do cliente | Habilitar o modo de interface do usuário sem cabeça | [Impedir que os usuários vejam ou interajam com a Microsoft Defender Antivírus do usuário](prevent-end-user-interaction-microsoft-defender-antivirus.md) |
 | Interface do cliente | Exibir texto adicional para clientes quando eles precisam executar uma ação | [Configurar as notificações que aparecem nos pontos de extremidade](configure-notifications-microsoft-defender-antivirus.md) |
@@ -61,14 +68,14 @@ A tabela a seguir neste tópico lista as configurações da Política de Grupo d
 | Exclusões | Exclusões de processo | [Configurar e validar exclusões em Microsoft Defender Antivírus verificações](configure-exclusions-microsoft-defender-antivirus.md) | 
 | Exclusões | Desativar Exclusões Automáticas | [Configurar e validar exclusões em Microsoft Defender Antivírus verificações](configure-exclusions-microsoft-defender-antivirus.md) |
 | MAPS | Configurar o recurso "Bloquear à Primeira Vista" | [Habilitar o bloqueio à primeira vista](configure-block-at-first-sight-microsoft-defender-antivirus.md) |
-| MAPS | Ingressar no Microsoft MAPS | [Habilitar a proteção entregue na nuvem](enable-cloud-protection-microsoft-defender-antivirus.md) |
-| MAPS | Enviar amostras de arquivo quando uma análise posterior for necessária | [Habilitar a proteção entregue na nuvem](enable-cloud-protection-microsoft-defender-antivirus.md) |
+| MAPS | Ingressar no Microsoft MAPS | [Ativar proteção fornecida pela nuvem](enable-cloud-protection-microsoft-defender-antivirus.md) |
+| MAPS | Enviar amostras de arquivo quando uma análise posterior for necessária | [Ativar proteção fornecida pela nuvem](enable-cloud-protection-microsoft-defender-antivirus.md) |
 | MAPS | Configurar a substituição de configuração local para relatórios para o Microsoft MAPS | [Impedir ou permitir que os usuários modifiquem localmente as configurações de política](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
 | MpEngine | Configurar verificação de nuvem estendida | [Configurar o período de tempo limite de bloqueio da nuvem](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md) |
 | MpEngine | Selecionar nível de proteção na nuvem | [Especificar o nível de proteção fornecida na nuvem](specify-cloud-protection-level-microsoft-defender-antivirus.md) |
-| Sistema de inspeção de rede | Especificar conjuntos de definições adicionais para inspeção de tráfego de rede | Não é mais relevante |
-| Sistema de inspeção de rede | Ativar a aposentadoria de definição | Não é mais relevante |
-| Sistema de inspeção de rede | Ativar o reconhecimento de protocolo | Não é mais relevante |
+| Sistema de inspeção de rede | Especificar conjuntos de definições adicionais para inspeção de tráfego de rede | [Especificar conjuntos de definições adicionais para inspeção de tráfego de rede](specify-additional-definitions-network-traffic-inspection-mdav.md) |
+| Sistema de inspeção de rede | Ativar a aposentadoria de definição | [Configurar a aposentadoria de definição](turn-on-definition-retirement.md)  |
+| Sistema de inspeção de rede | Ativar o reconhecimento de protocolo | [Ativar o reconhecimento de protocolo](turn-on-protocol-recognition.md)  |
 | Quarentena | Configurar substituição de configuração local para a remoção de itens da pasta Quarentena | [Impedir ou permitir que os usuários modifiquem localmente as configurações de política](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
 | Quarentena | Configurar a remoção de itens da pasta Quarentena | [Configurar correção para Microsoft Defender Antivírus verificações](configure-remediation-microsoft-defender-antivirus.md) |
 | Proteção em tempo real | Configurar a substituição de configuração local para monitoramento de atividade de arquivo e programa no computador | [Impedir ou permitir que os usuários modifiquem localmente as configurações de política](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
@@ -144,8 +151,7 @@ A tabela a seguir neste tópico lista as configurações da Política de Grupo d
 | Ameaças | Especificar níveis de alerta de ameaça nos quais a ação padrão não deve ser tomada quando detectada | [Configurar correção para Microsoft Defender Antivírus verificações](configure-remediation-microsoft-defender-antivirus.md) |
 | Ameaças | Especificar ameaças sobre as quais a ação padrão não deve ser tomada quando detectada | [Configurar correção para Microsoft Defender Antivírus verificações](configure-remediation-microsoft-defender-antivirus.md) |
 
-
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="see-also"></a>Confira também
 
 - [Tópicos de referência para ferramentas de gerenciamento e configuração](configuration-management-reference-microsoft-defender-antivirus.md)
-- [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Microsoft Defender Antivirus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)

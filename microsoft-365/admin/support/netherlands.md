@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7d30b10fc6b329c1856eb561472195e2a93b2bcf
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: fa5b0ac6a6fbeea3e88aac7973c866edbddb6c53
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50545483"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295668"
 ---
 # <a name="contact-support-for-netherlands"></a>Contatar o suporte para Países Baixos
 
-[Encontre outro país ou região](../contact-support-for-business-products.md).
+[Encontre outro país ou região](../../business-video/get-help-support.md).
 
 ## <a name="phone-number"></a>Número de telefone
 0800 020 2546
@@ -37,6 +37,6 @@ Inglês: Segunda a sexta, das 9h às 17h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de Telefone Alternativo: 020 203 5362
+Número Telefone alternativo: 020 203 5362
 
 Cobranças de chamada locais são aplicadas

@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b66b5e8a0356c923537941ea5021cd69c19ef337
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 641553925d12755bfd1efbceba68fe4e39709b53
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50546419"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295970"
 ---
 # <a name="contact-support-for-korea"></a>Contatar o suporte para a Coreia
 
-[Encontre outro país ou região](../contact-support-for-business-products.md).
+[Encontre outro país ou região](../../business-video/get-help-support.md).
 
 ## <a name="phone-number"></a>Número de telefone
 080 495 0880
@@ -39,6 +39,6 @@ Coreano: Mon-Fri 9:00-18:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de Telefone Alternativo: 02 3483 1937
+Número Telefone alternativo: 02 3483 1937
 
 Cobranças de chamada locais são aplicadas

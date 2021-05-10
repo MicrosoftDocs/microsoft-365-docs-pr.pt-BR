@@ -1,9 +1,9 @@
 ---
-title: Habilitar o suplemento de Mensagem de Relatório
+title: Habilitar a Mensagem de Relatório ou os complementos de Phishing de Relatório
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: siosulli
+author: dansimp
 manager: dansimp
 audience: Admin
 ms.topic: how-to
@@ -14,17 +14,17 @@ search.appverid:
 ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
-description: Saiba como habilitar o complemento Mensagem de Relatório para Outlook e Outlook na Web, para usuários individuais ou toda a sua organização.
+description: Saiba como habilitar a Mensagem de Relatório ou os complementos de Phishing de relatório para Outlook e Outlook na Web, para usuários individuais ou para toda a sua organização.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4e85af902eaaa41eb82acf8d4b4baedc538e7888
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: dc54c5b74697ac41a1d4ff0818467dba662b31f5
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51202946"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295814"
 ---
-# <a name="enable-the-report-message-add-in"></a>Habilitar o suplemento de Mensagem de Relatório
+# <a name="enable-the-report-message-or-the-report-phishing-add-ins"></a>Habilitar a Mensagem de Relatório ou os complementos de Phishing de Relatório
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -34,41 +34,45 @@ ms.locfileid: "51202946"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 > [!NOTE]
-> Se você for um administrador em uma organização do Microsoft 365 com caixas de correio do Exchange Online, recomendamos usar o portal Envios no Centro de Conformidade & Segurança. Para obter mais informações, [consulte Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](admin-submission.md).
+> Se você for um administrador em uma organização Microsoft 365 com caixas de correio Exchange Online, recomendamos que você use o portal Envios no Centro de Conformidade & Segurança. Para obter mais informações, [consulte Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](admin-submission.md).
 
-Os complementos De Relatório de Mensagens e Phishing para Outlook e Outlook na Web (anteriormente conhecido como Outlook Web App) permitem que as pessoas reportem facilmente falsos positivos (bons emails marcados como ruins) ou falsos negativos (email ruim permitido) para a Microsoft e suas afiliadas para análise.
+Os complementos De Relatório de Mensagens e Phishing para Outlook e Outlook na Web (anteriormente conhecido como Outlook Web App) permitem que as pessoas reportem facilmente falsos positivos (bons emails marcados como ruins) ou falsos negativos (email ruim permitido) para a Microsoft e suas afiliadas para análise. 
 
-A Microsoft usa esses envios para melhorar a eficácia das tecnologias de proteção de email. Por exemplo, se as pessoas estão relatando muitas mensagens que foram sinalizadas como lixo eletrônico como Não Lixo Eletrônico usando o complemento Mensagem de Relatório, a equipe de segurança da sua organização pode precisar ajustar as políticas [anti-spam.](configure-your-spam-filter-policies.md)
+A Microsoft usa esses envios para melhorar a eficácia das tecnologias de proteção de email. Por exemplo, suponha que as pessoas estão relatando muitas mensagens usando o add-in De Phishing de relatório. Essas informações são publicadas no Painel de Segurança e em outros relatórios. A equipe de segurança da sua organização pode usar essas informações como uma indicação de que as políticas anti-phishing podem precisar ser atualizadas. 
 
-Você pode instalar o add-in Report Message ou Report Phishing. Se quiser que seus usuários reportem apenas mensagens de phishing, implante o complemento Relatar Phishing em sua organização. Para obter mais informações, [consulte Enable the Report Phishing add-in](enable-the-report-phish-add-in.md).
+Você pode instalar o add-in Report Message ou Report Phishing. Se você quiser que seus usuários reportem mensagens de spam e phishing, implante o complemento Mensagem de Relatório em sua organização. Para obter mais informações, consulte Enable the Report Message add-in. 
 
-O complemento Mensagem de Relatório oferece a opção de relatar mensagens de spam e phishing. Os administradores podem habilitar o complemento Mensagem de Relatório para a organização, e usuários individuais podem instalá-lo por conta própria.
+O complemento Mensagem de Relatório oferece a opção de relatar mensagens de spam e phishing. Os administradores podem habilitar o complemento Mensagem de Relatório para a organização, e usuários individuais podem instalá-lo por conta própria. 
 
-Se você for um usuário individual, poderá habilitar o [complemento Mensagem de Relatório para si mesmo.](#get-the-report-message-add-in-for-yourself)
+O add-in Relatório phishing fornece a opção de relatar apenas mensagens de phishing. Os administradores podem habilitar o complemento Relatar Phishing para a organização, e usuários individuais podem instalá-lo por conta própria. 
 
-Se você for um administrador global ou um administrador do Exchange Online e o Exchange estiver configurado para usar a autenticação OAuth, você poderá habilitar o complemento Mensagem [de Relatório para sua organização.](#get-and-enable-the-report-message-add-in-for-your-organization) A mensagem de Add-In agora está disponível por meio da [Implantação Centralizada.](../../admin/manage/centralized-deployment-of-add-ins.md)
+Se você for um usuário individual, poderá habilitar os dois complementos para si mesmo.
+
+f você é um administrador global ou um administrador de Exchange Online e o Exchange está configurado para usar a autenticação OAuth, você pode habilitar o complemento Mensagem de Relatório e o complemento Relatar Phishing para sua organização. Os dois complementos agora estão disponíveis por meio da [Implantação Centralizada.](../../admin/manage/centralized-deployment-of-add-ins.md)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- O complemento Mensagem de Relatório funciona com a maioria das assinaturas do Microsoft 365 e os seguintes produtos:
+- O complemento Mensagem de Relatório e o complemento Phishing de Relatório funcionam com a maioria das assinaturas Microsoft 365 e os seguintes produtos:
 
   - Outlook na Web
   - Outlook 2013 SP1 ou posterior
   - Outlook 2016 para Mac
-  - Outlook incluído nos aplicativos do Microsoft 365 para Empresas
-  - Aplicativo do Outlook para iOS e Android
+  - Outlook incluído com Microsoft 365 aplicativos para Enterprise
+  - Outlook aplicativo para iOS e Android
 
-- O complemento Mensagem de Relatório não está disponível para caixas de correio compartilhadas ou caixas de correio em organizações locais do Exchange.
+- Ambos os complementos não estão disponíveis para caixas de correio compartilhadas ou caixas de correio em organizações Exchange locais.
 
-- Você pode configurar mensagens relatadas a serem copiadas ou redirecionadas para uma caixa de correio especificada. Para obter mais informações, consulte [Políticas de envios de usuário](user-submission.md).
-
-- O navegador da Web existente deve funcionar com o complemento Mensagem de Relatório. Mas, se você observar que o complemento não está disponível ou não está funcionando conforme o esperado, tente um navegador diferente.
+- O navegador da Web existente deve trabalhar com os complementos De Relatório Mensagem e Phishing de Relatório. Mas, se você observar que o complemento não está disponível ou não está funcionando conforme o esperado, tente um navegador diferente.
 
 - Para as instalações organizacionais, a organização precisa ser configurada para usar a autenticação OAuth. Para obter mais informações, [consulte Determine if Centralized Deployment of add-ins works for your organization](../../admin/manage/centralized-deployment-of-add-ins.md).
 
-- Os administradores precisam ser membros do grupo de função Administradores Globais. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
+- Os administradores precisam ser membros do grupo de função Administradores Globais. Para saber mais, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
-## <a name="get-the-report-message-add-in-for-yourself"></a>Obter o complemento Mensagem de Relatório para você mesmo
+- Para obter mais informações sobre como relatar uma mensagem usando o recurso Mensagem de Relatório, consulte [Report false positives and false negatives in Outlook](report-false-positives-and-false-negatives.md).
+
+## <a name="get-the-report-message-add-in"></a>Obter o complemento Mensagem de Relatório
+
+### <a name="get-the-add-in-for-yourself"></a>Obter o complemento para você mesmo
 
 1. Vá para o Microsoft AppSource em <https://appsource.microsoft.com/marketplace/apps> e pesquise o complemento Mensagem de Relatório. Para ir diretamente para o add-in Mensagem de Relatório, vá para <https://appsource.microsoft.com/product/office/wa104381180> .
 
@@ -82,26 +86,26 @@ Se você for um administrador global ou um administrador do Exchange Online e o 
 
 Depois que o add-in for instalado e habilitado, você verá os seguintes ícones:
 
-- No Outlook, o ícone tem esta aparência:
+- Em Outlook, o ícone tem esta aparência:
 
-  ![Ícone de add-in de mensagem de relatório para o Outlook](../../media/OutlookReportMessageIcon.png)
+  > [!div class="mx-imgBorder"]
+  > ![Ícone de complemento de mensagem de relatório para Outlook](../../media/OutlookReportMessageIcon.png)
 
-- No Outlook na Web, o ícone tem esta aparência:
+- Em Outlook na Web, o ícone tem esta aparência:
 
-  ![Ícone do add-in de mensagem de relatório do Outlook na Web](../../media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)
+  > [!div class="mx-imgBorder"]
+  > ![Outlook no ícone de add-in de mensagem de relatório da Web](../../media/owa-report-message-icon.png)
 
-Para saber como usar o add-in, consulte [Use the Report Message add-in](https://support.microsoft.com/office/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
-
-## <a name="get-and-enable-the-report-message-add-in-for-your-organization"></a>Obter e habilitar o complemento Mensagem de Relatório para sua organização
+### <a name="get-the-add-in-for-your-organization"></a>Obter o complemento para sua organização
 
 > [!NOTE]
 > Pode levar até 12 horas para que o complemento apareça em sua organização.
 
-1. No Centro de administração do Microsoft 365, vá para a página Ir para a página Configurações de **Complementos** em , Se você não vir a Página de Adicionar, vá para o \>  <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> link Configurações Integradas aplicativos Complementos  na parte superior da página Aplicativos  \>  \> **integrados.** 
+1. No centro Microsoft 365 de administração, vá para  a página de Configurações de \> **Configurações em** <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> . Se você não vir  a Página de Complementos, vá para o link Configurações  \>  \> **Aplicativos integrados,** na parte superior da página **Aplicativos** integrados.
 
 2. Selecione **Implantar o Add-in** na parte superior da página e selecione **Próximo**.
 
-   ![Página serviços e complementos no centro de administração do Microsoft 365](../../media/ServicesAddInsPageNewM365AdminCenter.png)
+   ![Página serviços e complementos no Microsoft 365 de administração](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
 3. No **sub-sub-projeto** que aparece, revise as informações e clique em **Próximo**.
 
@@ -141,36 +145,86 @@ Para saber como usar o add-in, consulte [Use the Report Message add-in](https://
 
    ![Anunciar página de complementos](../../media/announce-add-in-page.png)
 
-## <a name="learn-how-to-use-the-report-message-add-in"></a>Saiba como usar o complemento Mensagem de Relatório
-
-As pessoas que têm o complemento atribuído a eles verão os seguintes ícones:
-
-- No Outlook, o ícone tem esta aparência:
-
-  ![Ícone de adicionar mensagem de relatório para o Outlook](../../media/OutlookReportMessageIcon.png)
-
-- No Outlook na Web, o ícone tem esta aparência:
-
-  ![Ícone de Complemento de Mensagem de Relatório da Web do Outlook](../../media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)
-
-Quando você notificar os usuários sobre o complemento Mensagem de Relatório, inclua um link para Usar o [complemento Mensagem de Relatório](https://support.microsoft.com/office/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
-
 ## <a name="review-or-edit-settings-for-the-report-message-add-in"></a>Revisar ou editar configurações do complemento Mensagem de Relatório
 
-1. No Centro de administração do Microsoft 365, vá para a página Ir para a página Configurações de **Complementos** em , Se você não vir a Página de Adicionar, vá para o \>  <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> link Configurações Integradas aplicativos Complementos  na parte superior da página Aplicativos  \>  \> **integrados.** 
+1. No centro Microsoft 365 de administração, vá para  a página de Configurações de \> **Configurações em** <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> . Se você não vir  a Página de Complementos, vá para o link Configurações  \>  \> **Aplicativos integrados,** na parte superior da página **Aplicativos** integrados.
 
-   ![Página Serviços e Add-Ins no novo Centro de Administração do Microsoft 365](../../media/ServicesAddInsPageNewM365AdminCenter.png)
+   ![Página Serviços e Add-Ins no novo Microsoft 365 Admin Center](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
 2. Encontre e selecione o complemento **Mensagem** de Relatório.
 
 3. No flyout **Editar Relatório Mensagem** que aparece, revise e edite as configurações conforme apropriado para sua organização. Quando concluir, clique em **Salvar**.
 
-   ![Configurações do complemento Mensagem de Relatório](../../media/EditReportMessageAddIn.png)
+   ![Configurações para o complemento Mensagem de Relatório](../../media/EditReportMessageAddIn.png)
 
-## <a name="view-and-review-reported-messages"></a>Exibir e revisar mensagens relatadas
+## <a name="get-the-report-phishing-add-in"></a>Obter o complemento Phishing de Relatório
 
-Para revisar as mensagens relatadas pelos usuários à Microsoft, você tem estas opções:
+### <a name="get-the-add-in-for-yourself"></a>Obter o complemento para você mesmo
 
-- Use o portal Envios de Administrador. Para obter mais informações, consulte [Exibir envios de usuários para a Microsoft](admin-submission.md#view-user-submissions-to-microsoft).
+1. Vá para o Microsoft AppSource em <https://appsource.microsoft.com/marketplace/apps> e pesquise o add-in De Phishing de relatório.
 
-- Crie uma regra de fluxo de emails (também conhecida como regra de transporte) para enviar cópias de mensagens relatadas. Para obter instruções, [consulte Use mail flow rules to see what your users are reporting to Microsoft](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md).
+2. Clique **em OBTER AGORA**.
+
+3. Na caixa de diálogo exibida, revise os termos de uso e política de privacidade e clique em **Continuar**.
+
+4. Entre usando sua conta comercial ou de estudante (para uso comercial) ou sua conta da Microsoft (para uso pessoal).
+
+Depois que o add-in for instalado e habilitado, você verá os seguintes ícones:
+
+- Em Outlook, o ícone tem esta aparência:
+
+  ![Relatar o ícone do add-in phishing para Outlook](../../media/Outlook-ReportPhishing.png)
+
+- Em Outlook na Web, o ícone tem esta aparência:
+
+  > [!div class="mx-imgBorder"]
+  > ![Outlook no ícone do add-in Phishing de Relatório da Web](../../media/OWA-ReportPhishing.png)
+
+### <a name="get-the-add-in-for-your-organization"></a>Obter o complemento para sua organização
+
+> [!NOTE]
+> Pode levar até 12 horas para que o complemento apareça em sua organização.
+
+1. No centro Microsoft 365 de administração, vá para  a página de Configurações de \> **Configurações em** <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> . Se você não vir  a Página de Complementos, vá para o link Configurações  \>  \> **Aplicativos integrados,** na parte superior da página **Aplicativos** integrados.
+
+2. Selecione **Implantar o Add-in** na parte superior da página e selecione **Próximo**.
+
+   ![Página serviços e complementos no Microsoft 365 de administração](../../media/ServicesAddInsPageNewM365AdminCenter.png)
+
+3. No **sub-sub-projeto** que aparece, revise as informações e clique em **Próximo**.
+
+4. Na próxima página, clique **em Escolher na Loja**.
+
+   ![Implantar uma nova página de complemento](../../media/NewAddInScreen2.png)
+
+5. Na página **Selecionar o add-in** que  aparece, clique na caixa Pesquisar, digite **Relatar Phishing** e clique em **Pesquisar** ícone ![ de ](../../media/search-icon.png) Pesquisa. Na lista de resultados, encontre **Relatar Phishing** e clique em **Adicionar**.
+
+6. Na caixa de diálogo exibida, revise as informações de licenciamento e privacidade e clique em **Continuar**.
+
+7. Na página **Configurar o complemento** que aparece, configure as seguintes configurações:
+
+   - **Usuários atribuídos**: Selecione um dos seguintes valores:
+
+     - **Todos** (padrão)
+     - **Usuários/grupos específicos**
+     - **Só eu**
+
+   - **Método de implantação**: selecione um dos seguintes valores:
+
+     - **Fixo (Padrão)**: o complemento é implantado automaticamente para os usuários especificados e eles não podem removê-lo.
+     - **Disponível**: os usuários podem instalar o add-in em **Home** \> **Get add-ins** \> **Admin-managed**.
+     - **Opcional**: o complemento é implantado automaticamente para os usuários especificados, mas eles podem optar por removê-lo.
+
+   Quando terminar, clique em **Implantar**.
+
+8. Na página **Implantar Phishing** de Relatório que aparece, você verá um relatório de progresso seguido de uma confirmação de que o complemento foi implantado. Depois de ler as informações, clique em **Próximo**.
+
+9. Na página **Anunciar o** complemento que aparece, revise as informações e clique em **Fechar**.
+
+## <a name="review-or-edit-settings-for-the-report-phishing-add-in"></a>Revisar ou editar configurações do add-in Relatar Phishing
+
+1. No centro Microsoft 365 de administração, vá para  a página de Configurações de \> **Configurações em** <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> . Se você não vir  a Página de Complementos, vá para o link Configurações  \>  \> **Aplicativos integrados,** na parte superior da página **Aplicativos** integrados.
+
+2. Encontre e selecione o **complemento Relatar Phishing.**
+
+3. No flyout **Editar Relatório phishing** que aparece, revise e edite as configurações conforme apropriado para sua organização. Ao finalizar, clique em **Salvar**.

@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: aace89665d8c1034f8af41b0991ed5cf217512aa
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: cf1a847d367f3783b47260a07d1db040336295ac
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50547199"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296162"
 ---
 # <a name="contact-support-for-germany"></a>Contatar o suporte para a Alemanha
 
-[Encontre outro país ou região](../contact-support-for-business-products.md).
+[Encontre outro país ou região](../../business-video/get-help-support.md).
 
 ## <a name="phone-number"></a>Número de telefone
 0800 589 2332
@@ -39,6 +39,6 @@ Alemão: Mon-Fri 8:9 PM
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de Telefone Alternativo: 069 380 789 508
+Número Telefone alternativo: 069 380 789 508
 
 Cobranças de chamada locais são aplicadas
