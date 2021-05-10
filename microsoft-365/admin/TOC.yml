@@ -121,7 +121,7 @@
               href: add-users/remove-former-employee-step-1.md
             - name: Etapa 2. Salvar o conteúdo da caixa de correio de um ex-funcionário
               href: add-users/remove-former-employee-step-2.md
-            - name: Etapa 3. Encaminhar o email do ex-funcionário a outro funcionário ou convertê-lo em uma caixa de correio compartilhada
+            - name: Etapa 3. Encaminhar o email de um ex-funcionário para outro funcionário ou convertê-lo em uma caixa de correio compartilhada
               href: add-users/remove-former-employee-step-3.md
             - name: Etapa 4. Dar a outro funcionário acesso a dados do OneDrive e do Outlook
               href: add-users/remove-former-employee-step-4.md
@@ -273,8 +273,6 @@
           href: manage/manage-office-scripts-settings.md
         - name: Encontrar um parceiro ou um revendedor
           href: manage/find-your-partner-or-reseller.md
-        - name: Gerenciar Microsoft Rewards
-          href: manage/manage-microsoft-rewards.md
         - name: Gerenciar comentários da Microsoft para sua organização
           href: /admin/manage/manage-feedback-ms-org.md
         - name: 'Configurar opções de versão  '
@@ -422,4 +420,4 @@
     - name: Solução de problemas
       href: /office/troubleshoot/
     - name: Contatar o suporte
-      href: contact-support-for-business-products.md
+      href: ../business-video/get-help-support.md

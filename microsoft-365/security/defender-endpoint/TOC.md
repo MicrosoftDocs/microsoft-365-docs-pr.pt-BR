@@ -344,6 +344,8 @@
 #### [Controle do Dispositivo]()
 ##### [Relatórios de Controle do Dispositivo](device-control-report.md)
 ##### [Controlar dispositivos USB](control-usb-devices-using-intune.md)
+##### [Proteção de Armazenamento Removível](device-control-removable-storage-protection.md)
+##### [Controle de Acesso de Armazenamento Removível](device-control-removable-storage-access-control.md)
 
 #### [Bloqueio e contenção comportamental]()
 ##### [Bloqueio e contenção comportamental](behavioral-blocking-containment.md)
