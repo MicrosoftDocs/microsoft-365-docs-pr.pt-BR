@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a disposição do conteúdo, se você usa uma revisão de disposição ou o conteúdo é excluído automaticamente de acordo com as configurações definidas.
-ms.openlocfilehash: c49f669498424169a89fa99fcdd259de1f5c720b
-ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
+ms.openlocfilehash: b64db336aa619313f2ff744e94d48e44c13856a0
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51488164"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296751"
 ---
 # <a name="disposition-of-content"></a>Disposição de conteúdo
 
@@ -52,7 +52,7 @@ Verifique se a auditoria está habilitada pelo menos um dia antes da primeira a�
 
 ## <a name="disposition-reviews"></a>Revisões de disposição
 
-Quando o conteúdo atinge o fim do período de retenção, existem vários motivos pelos quais você pode querer revisar o conteúdo e confirmar se ele pode ser excluído com segurança ("descartado"). Por exemplo, em vez de excluir o conteúdo, você pode precisar:
+Quando o conteúdo atinge o fim do período de retenção, existem vários motivos pelos quais você pode querer revisar o conteúdo e confirmar se ele pode ser excluído com segurança ("descartado"). Por exemplo, em vez de excluir o conteúdo, talvez você precise:
   
 - Suspender a exclusão de conteúdo relevante no caso de litígio ou auditoria.
 
@@ -114,7 +114,7 @@ Como você pode ver na imagem, as ações com suporte são:
 
 Fornecendo permissões para o local e o conteúdo, você pode usar o link na coluna **Local** para exibir os documentos no local original. Durante uma revisão de disposição, o conteúdo nunca se moverá do local original e nunca será excluído até que o revisor opte por fazê-lo.
 
-As notificações de email são enviadas automaticamente para os revisores semanalmente. Esse processo agendado significa que, quando o conteúdo atinge o fim do período de retenção, pode levar até sete dias para que os revisores recebam a notificação de email informando que o conteúdo está aguardando a disposição.
+Semanalmente, as notificações por email são enviadas automaticamente aos revisadores. Esse processo agendado significa que, quando o conteúdo atinge o fim do período de retenção, pode levar até sete dias para que os revisores recebam a notificação de email informando que o conteúdo está aguardando a disposição.
   
 Todas as ações podem ser auditadas, e o texto de justificativa digitado pelo revisor é salvo e exibido na coluna **Comentário** na página **Itens Descartados**.
   
@@ -133,7 +133,7 @@ Esses itens exibem **Registros Descartados** na coluna **Tipo**. Por exemplo:
 
 ![Itens que foram descartados sem uma revisão de disposição](../media/records-disposed2.png)
 
-Itens mostrados na guia **Itens Dispostos** são mantidos por até sete anos após o item ser descartado, com um limite de um milhão de itens por registro para aquele período. Se você vir que o número de **Contagem** se aproxima desse limite de 1 milhão e precisar de prova de disposição para seus registros, contate o [Suporte da Microsoft](/office365/admin/contact-support-for-business-products).
+Itens mostrados na guia **Itens Dispostos** são mantidos por até sete anos após o item ser descartado, com um limite de um milhão de itens por registro para aquele período. Se você vir que o número de **Contagem** se aproxima desse limite de 1 milhão e precisar de prova de disposição para seus registros, contate o [Suporte da Microsoft](../business-video/get-help-support.md).
 
 > [!NOTE]
 > Esta funcionalidade usa informações do [log de auditoria unificado](search-the-audit-log-in-security-and-compliance.md) e, portanto, requer que a auditoria seja [habilitada e pesquisável](turn-audit-log-search-on-or-off.md) para que os eventos correspondentes sejam capturados.

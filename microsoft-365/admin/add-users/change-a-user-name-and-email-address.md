@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Saiba como um administrador global pode alterar o endereço de e-mail e o nome de exibição de um usuário. '
-ms.openlocfilehash: 94ed05d87fa290f2ae1059ae04c62c5d0d5e6860
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: a785ef17f0823429ad5eb216a330dc6f04dc7761
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023768"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52291014"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Alterar o nome de exibição e o endereço de email de um usuário
 
@@ -221,9 +221,9 @@ Pode levar até 24 horas para que essa alteração entre em vigor em todos os se
 
 ### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>"Não é possível localizar um parâmetro que coincida com o nome de parâmetro 'EmailAddresses'"
 
-Se você receber a mensagem de erro " **Não foi encontrado um parâmetro que corresponda ao nome do parâmetro 'EmailAddresses**", significa que está demorando um pouco mais para concluir a configuração do seu locatário ou do seu domínio personalizado, caso você tenha adicionado um recentemente. O processo de configuração pode levar até 4 horas para ser concluído. Espere um pouco para que o processo de configuração tenha tempo de terminar e tente novamente. Se o problema persistir, ligue para o [suporte](../contact-support-for-business-products.md) e peça para fazer uma sincronização completa para você.
+Se você receber a mensagem de erro " **Não foi encontrado um parâmetro que corresponda ao nome do parâmetro 'EmailAddresses**", significa que está demorando um pouco mais para concluir a configuração do seu locatário ou do seu domínio personalizado, caso você tenha adicionado um recentemente. O processo de configuração pode levar até 4 horas para ser concluído. Espere um pouco para que o processo de configuração tenha tempo de terminar e tente novamente. Se o problema persistir, ligue para o [suporte](../../business-video/get-help-support.md) e peça para fazer uma sincronização completa para você.
   
-### <a name="were-sorry-the-user-couldnt-be-edited-review-the-user-information-and-try-again"></a>"Não foi possível editar o usuário. Examine as informações de usuário e tente novamente"
+### <a name="were-sorry-the-user-couldnt-be-edited-review-the-user-information-and-try-again"></a>"O usuário não pôde ser editado. Revise as informações do usuário e tente novamente"
 
 Se você receber a mensagem "**Não foi possível editar o usuário. Examine as informações de usuário e tente novamente**." Isso significa que você não é um administrador global e não tem as permissões necessárias para alterar o nome de usuário. Localize o administrador global em sua empresa e peça para ele fazer a alteração.
 

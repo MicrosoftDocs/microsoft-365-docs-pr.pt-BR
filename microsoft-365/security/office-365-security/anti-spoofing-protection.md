@@ -22,12 +22,12 @@ localization_priority: Priority
 description: Os administradores podem saber mais sobre os recursos de anti-falsificação disponíveis na Proteção do Exchange Online (EOP), que podem ajudar a reduzir os ataques de phishing de remetentes e domínios falso.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 20294bf00c62e59da33b54ea0c8ee85f7b1372af
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 76ad8ac14de7b176ae12dc02272e31e790b6b410
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51769017"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52291026"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Proteção antifalsificação no EOP
 
@@ -80,7 +80,7 @@ As mensagens falsificadas têm as seguintes implicações negativas para os usu�
 
   ![Redefinição de senha da Microsoft legítima](../../media/58a3154f-e83d-4f86-bcfe-ae9e8c87bd37.jpg)
 
-  A mensagem realmente veio da Microsoft, mas os usuários foram condicionados a suspeitar. Como é difícil distinguir uma mensagem de redefinição de senha real de uma falsa, os usuários podem ignorar a mensagem, denunciá-la como spam ou denunciá-la desnecessariamente à Microsoft como phishing.
+  A mensagem realmente veio da Microsoft, mas os usuários foram condicionalmente suspeitos. Como é difícil distinguir uma mensagem de redefinição de senha real de uma falsa, os usuários podem ignorar a mensagem, denunciá-la como spam ou denunciá-la desnecessariamente à Microsoft como phishing.
 
 ## <a name="different-types-of-spoofing"></a>Diferentes tipos de falsificação
 
@@ -139,11 +139,11 @@ Sabe-se que as listas de endereçamento (também conhecidas como listas de discu
 
 Por exemplo, Gabriela Laureano (glaureano@contoso.com) está interessada em observar pássaros, ingressa na lista de endereçamento birdwatchers@fabrikam.com e envia a seguinte mensagem à lista:
 
-> **Por:** "Gabriela Laureano" \<glaureano@contoso.com\> <br> **Para:** Lista de discussão do Birdwatcher \<birdwatchers@fabrikam.com\> <br> **Assunto:** Belo exemplo de gaios azuis no topo do Monte Rainier esta semana <p> Alguém quer conferir esta semana a vista do Monte Rainier?
+> **Por:** "Gabriela Laureano" \<glaureano@contoso.com\> <br> **Para:** Lista de discussão do Birdwatcher \<birdwatchers@fabrikam.com\> <br> **Assunto:** Belo exemplo de gaios azuis no topo do Monte Rainier esta semana <p> Alguém quer ver a vista do Monte Rainier dessa semana?
 
 O servidor da lista de endereçamento recebe a mensagem, modifica seu conteúdo e a repete aos membros da lista. A mensagem repetida tem o mesmo endereço De (glaureano@contoso.com), mas uma marca é adicionada à linha de assunto e um rodapé é adicionado à parte inferior da mensagem. Esse tipo de modificação é comum em listas de endereçamento, e pode resultar em falsos positivos para falsificação.
 
-> **Por:** "Gabriela Laureano" \<glaureano@contoso.com\> <br> **Para:** Lista de discussão do Birdwatcher \<birdwatchers@fabrikam.com\> <br> **Assunto:** [OBSERVAÇÃODEPÁSSAROS] Belo exemplo de gaios azuis no topo do Monte Rainier esta semana <p> Alguém quer conferir esta semana a vista do Monte Rainier? <p> Esta mensagem foi enviada para a lista de discussão de Observação de Pássaros. Você pode cancelar a assinatura a qualquer momento.
+> **Por:** "Gabriela Laureano" \<glaureano@contoso.com\> <br> **Para:** Lista de discussão do Birdwatcher \<birdwatchers@fabrikam.com\> <br> **Assunto:** [OBSERVAÇÃODEPÁSSAROS] Belo exemplo de gaios azuis no topo do Monte Rainier esta semana <p> Alguém quer ver a vista do Monte Rainier dessa semana? <p> Esta mensagem foi enviada para a lista de discussão de Observação de Pássaros. Você pode cancelar a assinatura a qualquer momento.
 
 Para ajudar as mensagens da lista de endereçamento a passarem nas verificações antifalsificação, execute as seguintes etapas com base no controle da lista de endereçamento:
 
@@ -163,7 +163,7 @@ Para ajudar as mensagens da lista de endereçamento a passarem nas verificaçõe
 
   - Crie regras de caixa de entrada no seu cliente de email para mover as mensagens para a Caixa de Entrada. Você também pode solicitar que seus administradores configurem substituições, conforme discutido em [Usar inteligência contra falsificação para configurar remetentes permitidos de email não autenticado](email-validation-and-authentication.md#use-spoof-intelligence-to-configure-permitted-senders-of-unauthenticated-email).
 
-  - Crie um tíquete de suporte do Microsoft 365 para criar uma substituição para a lista de endereçamento para que ela seja tratada como legítima. Para obter mais informações, confira [Contatar o suporte para produtos comerciais - Ajuda para administradores](../../admin/contact-support-for-business-products.md).
+  - Crie um tíquete de suporte do Microsoft 365 para criar uma substituição para a lista de endereçamento para que ela seja tratada como legítima. Para obter mais informações, confira [Contatar o suporte para produtos comerciais - Ajuda para administradores](../../business-video/get-help-support.md).
 
 Se tudo falhar, você poderá relatar a mensagem como um falso positivo para a Microsoft. Para mais informações, confira [Relatar mensagens e arquivos à Microsoft](report-junk-email-messages-to-microsoft.md).
 

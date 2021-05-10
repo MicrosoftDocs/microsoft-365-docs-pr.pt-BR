@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para implantar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: 08ecf97e3cb45896390c3dac9074c54a2b0bbe96
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: 2e757f7f07dbb911a8d89890b1f1cce80d7247b5
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51994768"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52302107"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -97,7 +97,10 @@ Todos os cenários requerem que você [crie e configure rótulos de confidencial
 
 ## <a name="end-user-documentation-for-sensitivity-labels"></a>Documentação do usuário final para rótulos de confidencialidade
 
-A documentação mais eficaz do usuário final será orientação e instruções personalizadas que você fornecerá para os nomes de etiqueta e configurações que você escolher. Para rotulagem interna, você pode usar a configuração de política de rótulo **Fornecer aos usuários um link para uma página de ajuda personalizada** para especificar um link interno desta documentação. Os usuários podem acessá-lo facilmente selecionando **Saiba mais** no botão **Confidencialidade** na faixa de opções do Office para Word, PowerPoint, Excel e Outlook.
+A documentação mais eficaz do usuário final será orientação e instruções personalizadas que você fornecerá para os nomes de etiqueta e configurações que você escolher. Você pode usar a configuração de política de rótulo **Fornecer aos usuários um link para uma página de ajuda personalizada** para especificar um link interno para esta documentação. Os usuários podem acessá-lo facilmente a partir do botão **Confidencialidade**:
+
+- Para rotulagem integrada: Opção de menu **Saiba Mais**.
+- Para o cliente de rotulagem unificada da Proteção de Informações do Azure: **Ajuda e Comentários** opção de menu > **Mais Informações** link na caixa de diálogo de Proteção de Informações do Microsoft Azure.
 
 Para ajudá-lo a escrever sua documentação personalizada, confira a seguinte postagem no blog para obter um pacote de download que você pode usar para treinar usuários e impulsionar a adoção: [Treinamento de usuário final para rótulos de confidencialidade no M365 - Como acelerar a adoção](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-sensitivity-labels-in-m365-how-to/ba-p/1750880). 
 

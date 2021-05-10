@@ -22,12 +22,12 @@ description: Use rótulos de confidencialidade da MIP (Proteção de Informaçõ
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: da660f79cd218c4b97cd2159f2811985d4651cef
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: bd3cc0a71fab9f2ceb6d3219a371bb4d5c030744
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245619"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297243"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -49,7 +49,9 @@ Exemplo mostrando os rótulos de confidencialidade disponíveis no Excel, na gui
 Para aplicar rótulos de confidencialidade, os usuários devem ter entrado com sua conta Microsoft 365 do trabalho ou da escola.
 
 > [!NOTE]
-> Para locatários do governo dos Estados Unidos, os rótulos de sensibilidade [agora são suportados para ambientes GCC e GCC Altos](/officeupdates/current-channel#version-2101-january-26) e estão sendo implementados atualmente para ambientes DoD.
+> Para locatários do Governo dos Estados Unidos, os rótulos de sensibilidade agora são suportados para todas as plataformas:
+> - Para ambientes GCC e GCC High: Notas de versão do [Office para Windows](/officeupdates/current-channel#version-2101-january-26) e [Office para Mac](/officeupdates/release-notes-office-for-mac#feature-updates-2)
+> - Para ambientes do DoD: Notas de versão do [Office para Windows](/officeupdates/current-channel#version-2103-march-30)
 >
 > Se você usar o cliente de rotulagem unificada da Proteção de Informações do Azure e o verificador para esses ambientes, consulte [Descrição do Serviço GovernamentalPpremium da Proteção de Informações do Azure](/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description).
 
@@ -219,13 +221,14 @@ Uma política de rótulo consiste em:
 - Os usuários e grupos que serão atribuídos à política com rótulos.
 - O escopo da política e configurações de política para esse escopo (como rótulo padrão para arquivos e emails).
 
-Você pode incluir um usuário em várias políticas de rótulos e esse usuário verá todas os rótulos de confidencialidade dessas políticas. Se houver um conflito em configurações de múltiplas políticas, aplica-se a configuração da política com a maior prioridade. Em outras palavras, a prioridade mais alta ganha para cada cenário.
+Você pode incluir um usuário em várias políticas de rótulos e esse usuário verá todas os rótulos de confidencialidade dessas políticas. Se houver um conflito em configurações de múltiplas políticas, aplica-se a configuração da política com a maior prioridade (posição mais baixa). Em outras palavras, a prioridade mais alta ganha para cada cenário.
 
-Se você não estiver vendo o comportamento do rótulo ou da política de rótulo que você espera para um usuário ou grupo, verifique a ordem das políticas de rótulo de sensibilidade. Para reordenar as políticas de rótulo, selecione uma política de rótulo de sensibilidade > escolha as reticências à direita > **Mover para baixo** ou **Mover para cima**.
+Se você não estiver vendo o comportamento do rótulo ou da política de rótulo que você espera para um usuário ou grupo, verifique a ordem das políticas de rótulo de sensibilidade. Talvez seja necessário mover a política para baixo. Para reordenar as políticas de rótulo, selecione uma política de rótulo de sensibilidade > escolha as reticências à direita > **Mover para baixo** ou **Mover para cima**.
 
 ![Opções de movimentação na página de políticas de rótulos de confidencialidade](../media/sensitivity-label-policy-priority.png)
 
-Se você usa rótulos de confidencialidade e rótulos de retenção, é importante lembrar que a prioridade é importante em políticas de rótulo de confidencialidade, mas não em [rótulo de retenção](retention.md#the-principles-of-retention-or-what-takes-precedence).
+> [!NOTE]
+> Lembre-se: quando houver um conflito de configurações para um usuário que tenha várias políticas atribuídas, a configuração da política com prioridade mais alta (posição mais baixa) será aplicada.
 
 ## <a name="sensitivity-labels-and-azure-information-protection"></a>Rótulos de confidencialidade e Proteção de Informações do Azure
 
