@@ -12,31 +12,31 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 615170c8fd6bc044bca41963502392ff2f3be57e
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 788641b549119229307a179dbfebed09b2a4c0b0
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50547391"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296210"
 ---
-# <a name="contact-support-for-french-guiana"></a><span data-ttu-id="a2d9d-103">Contatar o suporte para a Guiana Francesa</span><span class="sxs-lookup"><span data-stu-id="a2d9d-103">Contact support for French Guiana</span></span>
+# <a name="contact-support-for-french-guiana"></a><span data-ttu-id="4d4fd-103">Contatar o suporte para a Guiana Francesa</span><span class="sxs-lookup"><span data-stu-id="4d4fd-103">Contact support for French Guiana</span></span>
 
-<span data-ttu-id="a2d9d-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="a2d9d-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="4d4fd-104">[Encontre outro país ou região](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="4d4fd-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="a2d9d-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="a2d9d-105">Phone number</span></span>
-<span data-ttu-id="a2d9d-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="a2d9d-106">+1 312 843 5147</span></span>
+## <a name="phone-number"></a><span data-ttu-id="4d4fd-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="4d4fd-105">Phone number</span></span>
+<span data-ttu-id="4d4fd-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="4d4fd-106">+1 312 843 5147</span></span>
 
-## <a name="hours"></a><span data-ttu-id="a2d9d-107">Horas</span><span class="sxs-lookup"><span data-stu-id="a2d9d-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="a2d9d-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="a2d9d-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="4d4fd-107">Horas</span><span class="sxs-lookup"><span data-stu-id="4d4fd-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="4d4fd-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="4d4fd-108">Billing Support:</span></span>
 
-<span data-ttu-id="a2d9d-109">Francês: Mon-Fri 17:00</span><span class="sxs-lookup"><span data-stu-id="a2d9d-109">French: Mon-Fri 5 AM-1 PM</span></span>
+<span data-ttu-id="4d4fd-109">Francês: Mon-Fri 17:00</span><span class="sxs-lookup"><span data-stu-id="4d4fd-109">French: Mon-Fri 5 AM-1 PM</span></span>
 
-<span data-ttu-id="a2d9d-110">Inglês: Mon-Fri 17:00</span><span class="sxs-lookup"><span data-stu-id="a2d9d-110">English: Mon-Fri 5 AM-1 PM</span></span>
+<span data-ttu-id="4d4fd-110">Inglês: Mon-Fri 17:00</span><span class="sxs-lookup"><span data-stu-id="4d4fd-110">English: Mon-Fri 5 AM-1 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="a2d9d-111">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="a2d9d-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="4d4fd-111">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="4d4fd-111">Technical Support:</span></span>
 
-<span data-ttu-id="a2d9d-112">Francês: Mon-Fri 4:00-17:00</span><span class="sxs-lookup"><span data-stu-id="a2d9d-112">French: Mon-Fri 4 AM-5 PM</span></span>
+<span data-ttu-id="4d4fd-112">Francês: Mon-Fri 4:00-17:00</span><span class="sxs-lookup"><span data-stu-id="4d4fd-112">French: Mon-Fri 4 AM-5 PM</span></span>
 
-<span data-ttu-id="a2d9d-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="a2d9d-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="4d4fd-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="4d4fd-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="a2d9d-114">Cobranças de chamada internacionais são aplicadas</span><span class="sxs-lookup"><span data-stu-id="a2d9d-114">International call charges apply</span></span>
+<span data-ttu-id="4d4fd-114">Cobranças de chamada internacionais são aplicadas</span><span class="sxs-lookup"><span data-stu-id="4d4fd-114">International call charges apply</span></span>
