@@ -371,7 +371,7 @@ O hash e o carregamento podem ser feitos usando um computador, ou você pode sep
 
 Se você quiser usar o hash e carregá-los de um computador, será preciso fazer isso em um computador que possa se conectar diretamente ao seu locatário do Microsoft 365. Isso exige que os arquivos de dados confidenciais de texto sem formatação estejam no computador para hash.
 
-Se você não quiser expor seu arquivo de dados sensíveis ao texto claro, você pode fazer hash em um computador em um local seguro e depois copiar o arquivo hash e o arquivo sal para um computador que possa se conectar diretamente ao seu locatário do Microsoft 365 para upload. Neste cenário, você precisará do EDMUploadAgent em ambos os computadores.
+Se você não quiser expor seu arquivo de dados sensíveis ao texto claro, poderá fazer hash em um computador em um local seguro e depois copiar o arquivo hash e o arquivo sal para um computador que possa se conectar diretamente ao seu locatário do Microsoft 365 para upload. Neste cenário, você precisará do EDMUploadAgent em ambos os computadores.
 
 > [!IMPORTANT]
 > Caso tenha usado o Assistente de Correspondência Exata de Dados e assistente de tipo de informação confidencial para criar seus arquivos de esquema e padrão, você ***deve*** baixar o esquema.

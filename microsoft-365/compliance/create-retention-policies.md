@@ -203,11 +203,11 @@ Para verificar a sintaxe do seu locatário e identificar URLs dos usuários, con
 
 ### <a name="configuration-information-for-microsoft-365-groups"></a>Informações de configuração do Grupos do Microsoft 365
 
-Para reter ou deletar o conteúdo de um grupo do Microsoft 365 (antigo Grupo Office 365), use o local **Grupos do Microsoft 365**. Mesmo que um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclua todo o local **E-mail do Exchange** não incluirá conteúdo nas caixas de correio de grupo do Microsoft 365. Embora o local do **E-mail Exchange** permita inicialmente especificar uma caixa postal de grupo a ser incluída ou excluída, quando você tentar salvar a política de retenção, você verá um erro que "RemoteGroupMailbox" não é uma seleção válida para a localização do Exchange.
+Para reter ou deletar o conteúdo de um grupo do Microsoft 365 (antigo Grupo Office 365), use o local **Grupos do Microsoft 365**. Mesmo que um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclua todo o local **E-mail do Exchange** não incluirá conteúdo nas caixas de correio de grupo do Microsoft 365. Embora o local do **Email do Exchange** permita inicialmente especificar uma caixa postal de grupo a ser incluída ou excluída, quando você tentar salvar a política de retenção, verá um erro que "RemoteGroupMailbox" não é uma seleção válida para a localização do Exchange.
 
 Por padrão, uma política de retenção aplicada a um grupo Microsoft 365 inclui a caixa postal do grupo e o site das equipes SharePoint. Os arquivos armazenados no site de equipes do SharePoint são cobertos por este local, mas não os chats do Teams ou as mensagens do canal do Teams que têm seus próprios locais de política de retenção.
 
-Para alterar o padrão porque você quer que a política de retenção seja aplicada apenas às caixas de correio Microsoft 365, ou apenas aos sites das equipes SharePoint conectadas, use o parâmetro [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy) PowerShell cmdlet com o parâmetro *Applications* com um dos seguintes valores:
+Para alterar o padrão porque você quer que a política de retenção seja aplicada apenas às caixas de correio Microsoft 365, ou apenas aos sites das equipes SharePoint conectadas, use o cmdlet do PowerShell [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy) com o parâmetro *Applications* com um dos seguintes valores:
 
 - `Group:Exchange` apenas para as caixas de correio Microsoft 365 que estão conectadas ao grupo.
 - `Group:SharePoint` apenas para os sites SharePoint que estão conectados ao grupo.

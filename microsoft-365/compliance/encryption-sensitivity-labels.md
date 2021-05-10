@@ -135,11 +135,11 @@ Configurações de controle de acesso para conteúdo criptografado:
 
 ### <a name="rights-management-use-license-for-offline-access"></a>Licença de uso de Gerenciamento de Direitos para acesso offline
 
-Quando um usuário abre um documento ou e-mail que foi protegido por criptografia do serviço Azure Rights Management, uma licença de uso do Azure Rights Management para esse conteúdo é concedida ao usuário. Esta licença de uso é um certificado que contém os direitos de uso do usuário para o documento ou e-mail, e a chave de criptografia que foi utilizada para criptografar o conteúdo. A licença de uso também contém uma data de expiração se esta tiver sido definida, e por quanto tempo a licença de uso é válida.
+Quando um usuário abre um documento ou e-mail que foi protegido por criptografia do serviço Azure Rights Management, uma licença de uso do Azure Rights Management para esse conteúdo é concedida ao usuário. Esta licença de uso é um certificado que contém os direitos de uso do usuário para o documento ou e-mail, e a chave de criptografia que foi utilizada para criptografar o conteúdo. A licença de uso também conterá uma data de expiração se esta tiver sido definida, e por quanto tempo a licença de uso é válida.
 
 Se nenhuma data de vencimento tiver sido definida, o período de validade da licença de uso padrão para um locatário é de 30 dias. Pela duração da licença de uso, o usuário não precisa ser autenticado ou autorizado novamente para o conteúdo. Esse processo permite que o usuário continue a abrir o documento ou email protegido sem uma conexão de Internet. Quando expirar o período de validade da licença de uso, na próxima vez em que o usuário acessar o documento ou email protegido, ele precisará ser autenticado e autorizado novamente.
 
-Além da re-autenticação, são reavaliadas as configurações de criptografia e a filiação a grupos de usuários. Isto significa que os usuários podem experimentar diferentes resultados de acesso para o mesmo documento ou e-mail se houver mudanças nas configurações de criptografia ou filiação em grupo desde a última vez que acessaram o conteúdo.
+Além da reautenticação, são reavaliadas as configurações de criptografia e a filiação a grupos de usuários. Isso significa que os usuários podem experimentar diferentes resultados de acesso para o mesmo documento ou e-mail se houver mudanças nas configurações de criptografia ou filiação em grupo desde a última vez que acessaram o conteúdo.
 
 Para saber como alterar a configuração padrão de 30 dias, confira [Licença de uso de Gerenciamento de Direitos](/azure/information-protection/configure-usage-rights#rights-management-use-license)..
 
@@ -236,7 +236,7 @@ Você pode usar as seguintes opções para permitir que os usuários atribuam pe
     
     A opção Não Encaminhar é compatível com todos os clientes de email que têm suporte para os rótulos de confidencialidade. No entanto, a aplicação da opção **Criptografar Somente** com um rótulo de confidencialidade é um lançamento recente que tem suporte apenas por rotulagem integrada, e não pelo cliente de rotulagem unificada da Proteção de Informações do Azure. O rotulo não ficará visível para os clientes de email que não têm suporte para esse recurso.
     
-    Para verificar as versões mínimas dos aplicativos Outlook que usam etiquetagem integrada para suportar a aplicação da opção Encrypt-Only com uma etiqueta de sensibilidade, use a [tabela de capacidades para Outlook](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-outlook) e a linha **Deixe os usuários atribuírem permissões: - Encript-Only**.
+    Para verificar as versões mínimas dos aplicativos Outlook que usam etiquetagem integrada para suportar a aplicação da opção Encrypt-Only com uma etiqueta de sensibilidade, use a [tabela de capacidades para Outlook](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-outlook) e a linha **Permitir que usuários atribuam permissões: - Encrypt-Only**.
 
 - No Word, no PowerPoint e no Excel, um usuário deve selecionar suas próprias permissões para usuários, grupos ou organizações específicos.
 
@@ -265,7 +265,7 @@ No Outlook, quando um usuário aplica um rótulo de confidencialidade que permit
 
 ![Rótulo de confidencialidade aplicado a uma mensagem no Outlook](../media/sensitivity-label-outlook-protection-applied.png)
 
-Quando uma dessas opções é aplicada a um e-mail, o e-mail é criptografado e os destinatários devem ser autenticados. Então, os destinatários têm automaticamente direitos de uso restritos:
+Quando uma dessas opções é aplicada a um email, o email é criptografado e os destinatários devem ser autenticados. Então, os destinatários têm automaticamente direitos de uso restritos:
 
 - **Não Encaminhar**: os destinatários não podem encaminhar o email, imprimi-lo ou copiá-lo. Por exemplo, no cliente do Outlook, o botão Encaminhar não está disponível, as opções do menu Salvar Como e Imprimir não estão disponíveis, e você não pode adicionar ou alterar destinatários nas caixas Para, CC ou Cco.
     
@@ -424,7 +424,7 @@ Antes de usar a criptografia, talvez seja necessário realizar algumas tarefas d
 
 - Configurar o Exchange para a Proteção de Informações do Azure
     
-    O intercâmbio não precisa ser configurado para a Proteção de Informações Azure antes que os usuários possam aplicar etiquetas no Outlook para criptografar seus e-mails. Entretanto, até que o Exchange seja configurado para a Proteção de Informações do Microsoft Azure, você não terá a funcionalidade completa de usar a proteção Microsoft Azure AD Rights Management com Exchange.
+    O intercâmbio não precisa ser configurado para a Proteção de Informações Azure antes que os usuários possam aplicar etiquetas no Outlook para criptografar seus emails. Entretanto, até que o Exchange seja configurado para a Proteção de Informações do Microsoft Azure, você não terá a funcionalidade completa de usar a proteção Microsoft Azure AD Rights Management com Exchange.
     
     Por exemplo, os usuários não podem exibir emails criptografados em telefones celulares ou com o Outlook na Web, emails criptografados não podem ser indexados para pesquisa e você não pode configurar o DLP do Exchange Online para proteção do Gerenciamento de Direitos. 
     
