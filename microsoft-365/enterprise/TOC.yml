@@ -446,7 +446,7 @@
         - name: Como verificar a integridade do serviço
           href: view-service-health.md
         - name: Opções de suporte
-          href: 'https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b'
+          href: ../business-video/get-help-support.md
         - name: Exchange Online
           href: /Exchange/exchange-online
         - name: SharePoint
