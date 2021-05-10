@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 5f66189979f401430353f4c15978a85276b48840
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 09c391d6b02e1273f55070283a6e11454f677114
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939749"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52299996"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>Gerenciar incidentes no Microsoft 365 Defender
 
@@ -39,7 +39,7 @@ ms.locfileid: "51939749"
 
 O gerenciamento de incidentes é fundamental para garantir que as ameaças sejam contidas e abordadas.
 
-Você gerencia incidentes de **incidentes & alertas** > incidentes no início rápido do centro de segurança do Microsoft 365 ([security.microsoft.com](https://security.microsoft.com)). Veja um exemplo.
+Você gerencia incidentes de **incidentes & alertas** > Incidentes no início rápido do centro de segurança do Microsoft 365 ([security.microsoft.com](https://security.microsoft.com)). Veja um exemplo.
 
 :::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="Exemplo da fila de incidentes":::
 
@@ -65,7 +65,7 @@ Em casos em que, ao analisar você gostaria de mover alertas de um incidente par
 
 ## <a name="edit-the-incident-name"></a>Editar o nome do incidente
 
-O Microsoft 365 Defender atribui automaticamente um nome com base em atributos de alerta, como o número de pontos de extremidade afetados, usuários afetados, fontes de detecção ou categorias. Isso permite que você entenda rapidamente o escopo do incidente. Por exemplo: *incidente em vários estágios em vários pontos de extremidade relatados por várias fontes.*
+Microsoft 365 O Defender atribui automaticamente um nome com base em atributos de alerta, como o número de pontos de extremidade afetados, usuários afetados, fontes de detecção ou categorias. Isso permite que você entenda rapidamente o escopo do incidente. Por exemplo: *incidente em vários estágios em vários pontos de extremidade relatados por várias fontes.*
 
 Você pode editar o nome do incidente no campo **Nome do** incidente no **painel Gerenciar** incidentes.
 
@@ -98,8 +98,16 @@ Se foi um alerta verdadeiro, você também deve especificar que tipo de ameaça 
 
 Você pode adicionar vários comentários a um incidente com o **campo Comentário.** Cada comentário é adicionado aos eventos históricos do incidente. Você pode ver os comentários e o histórico de um incidente no link **Comentários e** histórico na página **Resumo.**
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="next-steps"></a>Próximas etapas
+
+Para novos incidentes, inicie sua [investigação.](investigate-incidents.md)
+
+Para incidentes no processo, continue sua [investigação.](investigate-incidents.md)
+
+Para incidentes resolvidos, execute uma [revisão pós-incidente.](first-incident-post.md)
+
+## <a name="see-also"></a>Confira também
 
 - [Visão geral dos incidentes](incidents-overview.md)
 - [Priorizar incidentes](incident-queue.md)
-- [Analisar incidentes](investigate-incidents.md)
+- [Investigar incidentes](investigate-incidents.md)

@@ -1,6 +1,6 @@
 ---
-title: Analisar usuários no Centro de segurança do Microsoft 365
-description: Analisar usuários no centro de segurança do Microsoft 365
+title: Investigar usuários no Centro de segurança do Microsoft 365
+description: Investigar usuários no centro de Microsoft 365 segurança
 keywords: segurança, malware, Microsoft 365, M365, central de segurança, monitor, relatório, identidades, dados, dispositivos, aplicativos, incidente, análise, resposta
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -19,14 +19,14 @@ ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 2fd9b958cdbdaf22346f8171c789f2ca9a8336d1
-ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
+ms.openlocfilehash: c03e4d5bd94eb6105ffab91c6dad2b74d7159dde
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51957600"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52300056"
 ---
-# <a name="analyze-users-in-microsoft-365-security-center"></a>Analisar usuários no Centro de segurança do Microsoft 365
+# <a name="investigate-users-in-microsoft-365-security-center"></a>Investigar usuários no Centro de segurança do Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -34,28 +34,28 @@ ms.locfileid: "51957600"
 
 - Microsoft 365 Defender
 
-Parte da análise de incidentes pode incluir contas de usuário. Comece com a **guia Usuários** para um incidente de **Incidentes & alertas >** incidente *>* **Usuários**. 
+Parte da investigação de incidentes pode incluir contas de usuário. Comece com a **guia Usuários** para um incidente de **Incidentes & alertas >** incidente *>* **Usuários**. 
 
 :::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="Exemplo de uma página Usuários para um incidente":::
 
 Para obter um resumo rápido de uma conta de usuário para o incidente, selecione a marca de seleção ao lado do nome da conta de usuário. Veja um exemplo.
 
-:::image type="content" source="../../media/investigate-users/incidents-ss-user-pane.png" alt-text="Exemplo do painel de resumo da conta de usuário para um incidente no centro de segurança do Microsoft 365":::
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-pane.png" alt-text="Exemplo do painel de resumo da conta de usuário para um incidente no Microsoft 365 de segurança":::
 
 > [!NOTE]
-> A página Usuário mostra a organização do Azure Active Directory (AD), bem como grupos, ajudando você a entender os grupos e permissões associados a um usuário.
+> A página Usuário mostra Azure Active Directory organização (AD), bem como grupos, ajudando você a entender os grupos e permissões associados a um usuário.
 
 Nesta página de pré-saída, você pode revisar as informações de ameaça do usuário, incluindo quaisquer incidentes atuais, alertas ativos e nível de risco, bem como a exposição do usuário, contas, dispositivos e muito mais.
 
-Além disso, você pode tomar medidas diretamente no centro de segurança do Microsoft 365 para lidar com um usuário comprometido, confirmando que o usuário está comprometido ou exigindo que ele entre novamente.
+Além disso, você pode tomar medidas diretamente no centro de segurança Microsoft 365 para lidar com um usuário comprometido, confirmando que o usuário está comprometido ou exigindo que ele entre novamente.
 
 A partir daqui, você pode selecionar **Ir para a página do usuário** para ver os detalhes de uma conta de usuário. Veja um exemplo.
 
-:::image type="content" source="../../media/investigate-users/incidents-ss-user-details.png" alt-text="Exemplo da página da conta de usuário para um incidente no centro de segurança do Microsoft 365":::
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-details.png" alt-text="Exemplo da página de conta de usuário para um incidente no centro Microsoft 365 segurança":::
 
 Você também pode ver esta página selecionando o nome da conta de usuário na lista na **página Usuários.**
 
-A página de usuário do Centro de Segurança do Microsoft 365 combina informações do Microsoft Defender para Ponto de Extremidade, do Microsoft Defender para Identidade e do Microsoft Cloud App Security (dependendo das licenças que você tiver). 
+A Microsoft 365 de usuário do centro de segurança combina informações do Microsoft Defender para Ponto de Extremidade, Do Microsoft Defender para Identidade e Microsoft Cloud App Security (dependendo das licenças que você tiver). 
 
 Esta página mostra informações específicas do risco de segurança de uma conta de usuário. Isso inclui uma pontuação que ajuda a avaliar riscos e eventos recentes e alertas que contribuíram para o risco geral do usuário.
 
@@ -64,13 +64,13 @@ Nesta página, você pode fazer essas ações adicionais:
 - Marcar a conta de usuário como comprometida
 - Exigir que o usuário entre novamente
 - Suspender a conta de usuário
-- Consulte as configurações da conta de usuário do Azure Active Directory (Azure AD)
+- Consulte as configurações de Azure Active Directory de usuário (Azure AD)
 - Exibir os arquivos pertencentes à conta de usuário
 - Exibir arquivos compartilhados com esse usuário. 
 
 Veja um exemplo.
 
-:::image type="content" source="../../media/investigate-users/incidents-ss-user-details-actions.png" alt-text="Exemplo das ações em uma conta de usuário para um incidente no centro de segurança do Microsoft 365":::
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-details-actions.png" alt-text="Exemplo das ações em uma conta de usuário para um incidente no centro Microsoft 365 segurança":::
 
 
 <!--
@@ -80,7 +80,11 @@ Learn more about how to investigate users and potential risk [in this Cloud App 
 
 --> 
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="next-steps"></a>Próximas etapas
+
+Conforme necessário para incidentes no processo, continue sua [investigação](investigate-incidents.md).
+
+## <a name="see-also"></a>Confira também
 
 - [Visão geral dos incidentes](incidents-overview.md)
 - [Priorizar incidentes](incident-queue.md)

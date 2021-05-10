@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 83011f09f337485807f4f3f451cf7a26837fc9a5
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 0f9f5665345733abafc6e4f2e777958feb4e11b6
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50546791"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52298630"
 ---
 # <a name="contact-support-for-india"></a>Contatar o suporte para a Índia
 
-[Encontre outro país ou região](../contact-support-for-business-products.md).
+[Encontre outro país ou região](../../business-video/get-help-support.md).
 
 ## <a name="phone-number"></a>Número de telefone
 000 800 440 2038
@@ -37,6 +37,6 @@ Inglês: Mon-Fri 9:00-18:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de Telefone Alternativo: 1800 200 2052
+Número Telefone alternativo: 1800 200 2052
 
 Gratuito local

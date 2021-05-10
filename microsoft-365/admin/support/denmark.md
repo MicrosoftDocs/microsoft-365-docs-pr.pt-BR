@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 65d9e2d99a7533c78135f6b8f5be4ff918510de6
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 379580c2c404a1a0669cad4fb657c28857072c1c
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50547769"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52298933"
 ---
 # <a name="contact-support-for-denmark"></a>Contatar o suporte para a Dinamarca
 
-[Encontre outro país ou região](../contact-support-for-business-products.md).
+[Encontre outro país ou região](../../business-video/get-help-support.md).
 
 ## <a name="phone-number"></a>Número de telefone
 80 34 76 23
@@ -35,6 +35,6 @@ Inglês: Segunda a sexta, das 9h às 17h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de Telefone Alternativo: 38 48 70 67
+Número Telefone alternativo: 38 48 70 67
 
 Cobranças de chamada locais são aplicadas

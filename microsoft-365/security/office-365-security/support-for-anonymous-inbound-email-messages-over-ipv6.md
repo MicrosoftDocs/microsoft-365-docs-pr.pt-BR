@@ -15,17 +15,17 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: O administrador pode aprender a configurar o suporte para emails de entrada anônimos de fontes IPv6 no Exchange Online e no Exchange Online Protection.
+description: O administrador pode aprender a configurar o suporte para emails de entrada anônimos de fontes IPv6 em Exchange Online e Proteção do Exchange Online.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: df06891401802d212cbfdb55085662901f5546e9
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 80fdcc9dcfe3006ef8b21aa19856fe8c0ea3ff70
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203313"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52300044"
 ---
-# <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-microsoft-365"></a>Adicionar suporte para email de entrada anônimo por IPv6 no Microsoft 365
+# <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-microsoft-365"></a>Adicione suporte para email de entrada anônimo por IPv6 no Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -34,13 +34,13 @@ ms.locfileid: "51203313"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-As organizações do Microsoft 365 com caixas de correio do Exchange Online e organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online suportam emails de entrada anônimos por IPv6. O servidor de email IPv6 de origem deve atender a ambos os seguintes requisitos:
+Microsoft 365 com caixas de correio Exchange Online e organizações de Proteção do Exchange Online (EOP) autônomas sem Exchange Online de correio suportam emails de entrada anônimos por meio do IPv6. O servidor de email IPv6 de origem deve atender a ambos os seguintes requisitos:
 
 - O endereço IPv6 de origem deve ter um registro válido de busca de DNS reverso (PTR) que permita ao destino encontrar o nome de domínio do endereço IPv6.
 
 - O remetente deve passar por verificação SPF (definida na [RFC 7208](https://tools.ietf.org/html/rfc7208)) ou [verificação DKIM](http://dkim.org/) (definida na [RFC 6376](https://www.rfc-editor.org/rfc/rfc6376.txt)).
 
-Para que sua organização possa receber emails de entrada anônimos pelo IPv6, um administrador precisa entrar em contato com o suporte da Microsoft e solicitar. Para obter instruções sobre como abrir uma solicitação de suporte, consulte [Contact support for business products - Admin Help](../../admin/contact-support-for-business-products.md).
+Para que sua organização possa receber emails de entrada anônimos pelo IPv6, um administrador precisa entrar em contato com o suporte da Microsoft e solicitar. Para obter instruções sobre como abrir uma solicitação de suporte, consulte [Contact support for business products - Admin Help](../../business-video/get-help-support.md).
 
 Depois que o suporte à mensagem IPv6 de entrada anônima for habilitado em sua organização, a mensagem passará pela filtragem normal de mensagens fornecida pelo serviço.
 

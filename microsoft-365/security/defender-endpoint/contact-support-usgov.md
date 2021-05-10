@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: 97971699ec6000ab9233c2fd739f471cdda01b2d
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 47d494016161f306745ea4116c95c22bd18e1402
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933848"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52300068"
 ---
 # <a name="contact-microsoft-defender-for-endpoint-support-for-us-government-customers"></a>Entrar em contato com o Microsoft Defender para suporte ao ponto de extremidade para clientes do Governo dos EUA
 
@@ -39,12 +39,12 @@ Para abrir um caso de suporte, você precisará fazer logon no portal do Microso
 
 Ambiente | Portal URL
 :---|:---
-GCC-M on Commercial | [https://securitycenter.microsoft.com](https://securitycenter.microsoft.com)
+GCC-M no Comercial | [https://securitycenter.microsoft.com](https://securitycenter.microsoft.com)
 GCC-M | [https://gcc.securitycenter.microsoft.us](https://gcc.securitycenter.microsoft.us)
 GCC-H | [https://securitycenter.microsoft.us](https://securitycenter.microsoft.us)
 DoD | [https://securitycenter.microsoft.us](https://securitycenter.microsoft.us)
 
-Se você não conseguir fazer logon no portal, também poderá abrir uma ocorrência de suporte usando o [telefone](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=phone&preserve-view=true).
+Se você não conseguir fazer logon no portal, também poderá abrir uma ocorrência de suporte usando o [telefone](../../business-video/get-help-support.md).
 
 ## <a name="opening-a-support-case"></a>Abrir um caso de suporte
 Para obter pré-requisitos e instruções, consulte [Contact Microsoft Defender for Endpoint support](contact-support.md).

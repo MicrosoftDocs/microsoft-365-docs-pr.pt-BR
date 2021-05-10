@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d19a08b85f4f102fd4f56e41ab9c070961eb9846
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 47b48e492eb0ed0b299060097c8d9ce00c64a132
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50548123"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52299923"
 ---
 # <a name="contact-support-for-chile"></a>Contatar o suporte para o Chile
 
-[Encontre outro país ou região](../contact-support-for-business-products.md).
+[Encontre outro país ou região](../../business-video/get-help-support.md).
 
 ## <a name="phone-number"></a>Número de telefone
 800 226 826
@@ -35,6 +35,6 @@ Espanhol: Mon-Fri 9:00-17:00
 
 Espanhol: 24 horas por dia, 7 dias por semana
 
-Número de Telefone Alternativo: 123 002 000 05
+Número Telefone alternativo: 123 002 000 05
 
 Cobranças de chamada locais são aplicadas

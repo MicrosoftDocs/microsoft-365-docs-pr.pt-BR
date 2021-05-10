@@ -1,5 +1,5 @@
 ---
-title: Roteiro de serviços de nuvem para o Microsoft 365
+title: Mapa de serviços de nuvem para Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -12,26 +12,26 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
-description: O roteiro para configurar seus serviços de nuvem para o Microsoft 365.
-ms.openlocfilehash: 5049d24a2cff696ee44429f809b2b91c15a4b4d1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: O roteiro para configurar seus serviços de nuvem para Microsoft 365.
+ms.openlocfilehash: 3303d91b5ec72090c69ae0b1fb14434e03c83729
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928255"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52300020"
 ---
-# <a name="cloud-services-roadmap-for-microsoft-365"></a>Roteiro de serviços de nuvem para o Microsoft 365
+# <a name="cloud-services-roadmap-for-microsoft-365"></a>Mapa de serviços de nuvem para Microsoft 365
 
 Para obter os benefícios de criatividade, trabalho em equipe e produtividade do Microsoft 365 para empresas, implante os serviços de nuvem que melhor se ajustam às necessidades da sua organização.
 
-Se você tiver implantações baseadas em servidor existentes para Exchange, SharePoint ou Skype for Business e quiser migrar toda a sua organização para o Microsoft 365 para empresas, consulte o roteiro de software de cliente e [servidor.](client-server-software-roadmap-microsoft-365.md) Este roteiro inclui Microsoft Office cliente, produtos do Office Server local e dispositivos baseados no Microsoft &ndash; Windows.
+Se você tiver implantações baseadas em servidor existentes para Exchange, SharePoint ou Skype for Business e quiser migrar toda a sua organização para o Microsoft 365 para empresas, consulte o roteiro de software de cliente e [servidor.](client-server-software-roadmap-microsoft-365.md) Este roteiro inclui produtos Microsoft Office cliente, produtos Office Server locais e dispositivos Windows &ndash; Microsoft.
 
 ## <a name="deploy"></a>Implantar
 
 Para implantar seus serviços de nuvem:
 
 - [Preparar seus serviços](configure-services-and-applications.md)
-- [Migrar seus dados locais para o Microsoft 365](migrate-data-to-office-365.md)
+- [Migre seus dados locais para Microsoft 365](migrate-data-to-office-365.md)
 - Configurar seus serviços de nuvem para seus usuários
   - [Exchange Online](/Exchange/exchange-online)
   - [SharePoint Online](/sharepoint/sharepoint-online)
@@ -45,7 +45,7 @@ Para implantar seus serviços de nuvem:
 Para gerenciar seus serviços de nuvem: 
 
 - [Verificar a saúde do seu serviço](view-service-health.md)
-- [Entender suas opções de suporte](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+- [Entender suas opções de suporte](../business-video/get-help-support.md)
 - Administrar seus serviços de nuvem
   - [Exchange Online](/Exchange/exchange-online)
   - [SharePoint Online](https://support.office.com/article/79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a)
@@ -54,14 +54,14 @@ Para gerenciar seus serviços de nuvem:
   - [Yammer](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
 - [Executar ajuste de desempenho para seus serviços de nuvem](tune-microsoft-365-performance.md)
 
-## <a name="how-microsoft-does-cloud-services-for-microsoft-365"></a>Como a Microsoft faz serviços de nuvem para o Microsoft 365
+## <a name="how-microsoft-does-cloud-services-for-microsoft-365"></a>Como a Microsoft faz serviços de nuvem para Microsoft 365
 
-Para obter informações sobre como a EQUIPE da Microsoft implantou ou está gerenciando os serviços de nuvem do Microsoft 365:
+Para obter informações sobre como a MICROSOFT foi implantada ou está gerenciando Microsoft 365 de nuvem:
 
 1. Vá para [Microsoft IT Showcase](https://www.microsoft.com/itshowcase).
 2. Selecione **Conteúdo de pesquisa**.
-3. Em **Refinar resultados,** selecione **PROFISSIONAIS de IT** em **Audiência** e, em **Produto,** selecione um serviço de nuvem.
+3. Em **Refinar resultados,** selecione **PRO** em **Audiência** e, em **Produto,** selecione um serviço de nuvem.
 
 ## <a name="next-step"></a>Próxima etapa
 
-Inicie a implementação dos serviços de nuvem. Para obter orientações, consulte [Configure Microsoft 365 Enterprise services and applications](configure-services-and-applications.md).
+Inicie a implementação dos serviços de nuvem. Para obter orientações, consulte [Configure Microsoft 365 Enterprise serviços e aplicativos](configure-services-and-applications.md).

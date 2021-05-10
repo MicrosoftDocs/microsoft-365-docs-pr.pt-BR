@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f04c1a05ee18472742910b0131a746f7c9b7691c
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 77843171550bfe07b0bd8739adc8464e527c7331
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50547883"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52298945"
 ---
 # <a name="contact-support-for-czech-republic"></a>Contatar o suporte para a República Tcheca
 
-[Encontre outro país ou região](../contact-support-for-business-products.md).
+[Encontre outro país ou região](../../business-video/get-help-support.md).
 
 ## <a name="phone-number"></a>Número de telefone
 800 701 371
@@ -39,6 +39,6 @@ Tcheco: Mon-Fri 8:00-18:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de Telefone Alternativo: 239 016 433
+Número Telefone alternativo: 239 016 433
 
 Cobranças de chamada locais são aplicadas

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e2e29015d4cb5e04510577118eb847b9b596a6c5
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 93751a8297e61a969e0049e27a847324a3d16872
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114277"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52300008"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>Incidentes no Microsoft 365 Defender
 
@@ -62,7 +62,7 @@ Agrupar alertas relacionados a um incidente oferece uma visão abrangente de um 
 - O escopo do ataque, como quantos dispositivos, usuários e caixas de correio foram afetados. 
 - Todos os dados associados ao ataque.
 
-Se [habilitado, o](m365d-enable.md)Microsoft 365 Defender poderá investigar e resolver automaticamente os alertas por meio da automação e da inteligência artificial. Você também pode executar etapas de correção adicionais para resolver o ataque. 
+Se [habilitado, o](m365d-enable.md)Microsoft 365 Defender pode investigar [e resolver](m365d-autoir.md) alertas automaticamente por meio da automação e da inteligência artificial. Você também pode executar etapas de correção adicionais para resolver o ataque. 
 
 ## <a name="incidents-and-alerts-in-the-microsoft-365-security-center"></a>Incidentes e alertas no centro Microsoft 365 segurança
 
@@ -94,11 +94,15 @@ As guias adicionais para um incidente são:
 
 - Investigações
 
-  Todas as investigações automatizadas disparadas por alertas no incidente.
+  Todas as [investigações automatizadas](m365d-autoir.md) disparadas por alertas no incidente.
 
 - Evidências e resposta
 
   Todos os eventos com suporte e entidades suspeitas nos alertas no incidente.
+
+- Graph (em visualização)
+
+  Uma figura mostrando a conexão de alertas aos ativos afetados em sua organização.
 
 Aqui está a relação entre um incidente e seus dados e as guias de um incidente no centro Microsoft 365 segurança.
 
@@ -115,7 +119,7 @@ Em uma base contínua, identifique os incidentes de maior prioridade para análi
 - [Triaging](incident-queue.md) to determining the highest priority incidents through filtering and sorting of the incident queue.
 - [Gerenciando](manage-incidents.md) incidentes modificando seu título, atribuindo-os a um analista e adicionando marcas e comentários.
 
-1. Para cada incidente, inicie uma análise [de ataque e alerta:](investigate-incidents.md)
+1. Para cada incidente, inicie uma investigação e análise de ataques [e alertas:](investigate-incidents.md)
  
    a. Exibir o resumo do incidente para entender seu escopo e gravidade e quais entidades são afetadas (a **guia Resumo).**
 
@@ -123,7 +127,7 @@ Em uma base contínua, identifique os incidentes de maior prioridade para análi
 
    c. Conforme necessário, reúna informações sobre dispositivos, usuários e caixas de correio afetados (as guias **Dispositivos,** **Usuários** e **Caixas** de Correio).
 
-   d. Veja como Microsoft 365 o Defender resolveu automaticamente alguns alertas (a guia **Investigações).**
+   d. Veja como Microsoft 365 o Defender [resolveu automaticamente alguns alertas](m365d-autoir.md) (a **guia Investigações).**
    
    e. Conforme necessário, use informações no conjunto de dados do incidente para obter mais informações (a **guia Evidências e Resposta).**
 
@@ -149,7 +153,7 @@ Veja um exemplo de operações de segurança para o Microsoft 365 Defender.
 Tarefas diárias podem incluir:
 
 - [Gerenciando](manage-incidents.md) incidentes
-- Revisão de [ações automatizadas de investigação e resposta (AIR)](m365d-action-center.md)
+- Revisão de ações automatizadas de investigação e resposta [(AIR)](m365d-action-center.md) no Centro de Ações
 - Revisão da análise de [ameaças mais recente](threat-analytics.md)
 - [Respondendo](investigate-incidents.md) a incidentes
 
@@ -167,8 +171,19 @@ Tarefas diárias, mensais, trimestrais e anuais podem ser usadas para atualizar 
 
 ## <a name="next-steps"></a>Próximas etapas
 
-A fila de **incidentes da página Incidentes** lista os incidentes mais recentes. A partir daqui, você pode:
+**Se você for novo na** análise de segurança e na resposta a incidentes:
 
-- Confira quais incidentes devem ser [priorizados](incident-queue.md) com base na gravidade e em outros fatores. 
-- [Gerenciar incidentes](manage-incidents.md), que inclui renomeação, atribuição, classificação e adição de marcas e comentários para o fluxo de trabalho de gerenciamento de incidentes.
-- Execute uma [análise](investigate-incidents.md) de um incidente.
+- Consulte o [passo](first-incident-overview.md) a passo Responder ao seu primeiro incidente para obter uma visita guiada de um processo típico de análise, correção e revisão pós-incidente no centro de segurança Microsoft 365 com um exemplo de ataque.
+
+**Se você tiver experiência com** análise de segurança e resposta a incidentes:
+
+- Começar com a fila de incidentes da página **Incidentes** do centro Microsoft 365 segurança. A partir daqui, você pode:
+
+  - Confira quais incidentes devem ser [priorizados](incident-queue.md) com base na gravidade e em outros fatores. 
+
+  - [Gerencie incidentes](manage-incidents.md), que inclui renomeação, atribuição, classificação e adição de marcas e comentários com base no fluxo de trabalho de gerenciamento de incidentes.
+
+  - Realize [investigações](investigate-incidents.md) de incidentes.
+
+- Consulte estes [playbooks de resposta](https://docs.microsoft.com/security/compass/incident-response-playbooks) a incidentes para obter orientações detalhadas sobre phishing, pulverização de senha e ataques de concessão de consentimento do aplicativo.
+

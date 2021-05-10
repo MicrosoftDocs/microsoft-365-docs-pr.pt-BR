@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 79532e4b5ca86018b4a79c9383e8d62ab8691cb7
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 9dd42cd5f5b671a89cf8abf1e5a70d6ef8e506ec
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50545987"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52298137"
 ---
 # <a name="contact-support-for-malaysia"></a>Contatar o suporte para Malásia
 
-[Encontre outro país ou região](../contact-support-for-business-products.md).
+[Encontre outro país ou região](../../business-video/get-help-support.md).
 
 ## <a name="phone-number"></a>Número de telefone
 1800 22 0030
@@ -35,6 +35,6 @@ Inglês: Mon-Fri 9:00-18:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de Telefone Alternativo: 03 6207 4606
+Número Telefone alternativo: 03 6207 4606
 
 Cobranças de chamada locais são aplicadas

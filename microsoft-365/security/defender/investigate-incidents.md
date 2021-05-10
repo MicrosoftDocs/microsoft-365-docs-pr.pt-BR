@@ -1,6 +1,6 @@
 ---
-title: Analisar incidentes no Microsoft 365 Defender
-description: Analisar incidentes relacionados a dispositivos, usuários e caixas de correio.
+title: Investigar incidentes no Microsoft 365 Defender
+description: Investigue incidentes relacionados a dispositivos, usuários e caixas de correio.
 keywords: incidentes, incidentes, análise, resposta, máquinas, dispositivos, usuários, identidades, email, email, caixa de correio, investigação, gráfico, evidência
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -22,14 +22,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 72e1efb8a06fb7fa64b83ab6522fe4cdcfd1a73e
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 7abc99a14ec538afea8cdbd4d8f3b4940bcccd9f
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259626"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52300080"
 ---
-# <a name="analyze-incidents-in-microsoft-365-defender"></a>Analisar incidentes no Microsoft 365 Defender
+# <a name="investigate-incidents-in-microsoft-365-defender"></a>Investigar incidentes no Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -41,7 +41,7 @@ Microsoft 365 O Defender agrega todos os alertas, ativos, investigações e evid
 
 Em um incidente, você analisa os alertas que afetam sua rede, entende o que significam e cola as evidências para que você possa planejar um plano de correção eficaz.
 
-## <a name="initial-analysis"></a>Análise inicial
+## <a name="initial-investigation"></a>Investigação inicial
 
 Antes de mergulhar nos detalhes, confira as propriedades e o resumo do incidente.
 
@@ -88,7 +88,7 @@ Veja um exemplo.
 
 Por padrão, os alertas são ordenados cronologicamente para permitir que você veja como o incidente ocorreu ao longo do tempo. Selecionar cada alerta o leva à página principal do alerta, onde você pode conduzir uma análise detalhada desse alerta. 
 
-Saiba como usar a fila de alertas e as páginas de alerta na [análise de alertas](investigate-alerts.md)
+Saiba como usar a fila de alertas e as páginas de alerta em [alertas de investigação.](investigate-alerts.md)
 
 ## <a name="devices"></a>Dispositivos
 
@@ -123,11 +123,13 @@ Você pode selecionar a marca de seleção de uma caixa de correio para ver uma 
 
 ## <a name="investigations"></a>Investigações
 
-A **guia Investigações** lista todas as investigações automatizadas disparadas por alertas neste incidente. As investigações executarão ações de correção ou aguardarão a aprovação de ações do analista, dependendo de como você configurou suas investigações automatizadas para executar no Microsoft Defender para Ponto de Extremidade e Defender para Office 365.
+A **guia Investigações** lista todas [as investigações automatizadas](m365d-autoir.md) disparadas por alertas neste incidente. As investigações executarão ações de correção ou aguardarão a aprovação de ações do analista, dependendo de como você configurou suas investigações automatizadas para executar no Microsoft Defender para Ponto de Extremidade e Defender para Office 365.
 
 :::image type="content" source="../../media/investigate-incidents/incident-investigations.png" alt-text="Exemplo de uma página Investigações para um incidente":::
 
 Clique em uma investigação para navegar até a página Detalhes da investigação e obter informações completas sobre o status da investigação e da correção. Se houver ações pendentes para aprovação como parte da investigação, elas aparecerão na guia Ações pendentes. Tome medidas como parte da correção de incidentes.
+
+Para obter mais informações, consulte [Automated investigation and response in Microsoft 365 Defender](m365d-autoir.md).
 
 ## <a name="evidence-and-response"></a>Evidências e resposta
 
@@ -139,7 +141,7 @@ Microsoft 365 O Defender investiga automaticamente todos os eventos com suporte 
 
 Cada uma das entidades analisadas é marcada com um veredito (Mal-intencionado, suspeito, limpo) e um status de correção. Isso ajuda você a entender o status de correção de todo o incidente e quais próximas etapas podem ser tomadas.
 
-## <a name="graph-in-preview"></a>Graph (em Visualização)
+## <a name="graph-in-preview"></a>Graph (em visualização)
 
 Com a nova **guia Graph** (na visualização), você pode ver:
 
@@ -155,8 +157,14 @@ O gráfico de incidentes ajuda você a entender rapidamente o escopo completo do
 
 Agora você pode entender como o ataque se propaga pela rede ao longo do tempo, onde ele começou e até onde o ataque foi.
 
+## <a name="next-steps"></a>Próximas etapas
 
-## <a name="related-topics"></a>Tópicos relacionados
+Conforme necessário:
+
+- [Investigar os alertas de um incidente](investigate-alerts.md)
+- [Investigar os usuários de um incidente](investigate-users.md)
+
+## <a name="see-also"></a>Confira também
 
 - [Visão geral dos incidentes](incidents-overview.md)
 - [Priorizar incidentes](incident-queue.md)
