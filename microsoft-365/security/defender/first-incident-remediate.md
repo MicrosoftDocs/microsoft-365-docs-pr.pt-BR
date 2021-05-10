@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 2fe6c5b1b0feea2163c0a2bcc871921a885abb85
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: ed597c55a646eb00d6e6d256c287b22c119f8148
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114559"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297339"
 ---
 # <a name="step-2-remediate-your-first-incident"></a>Etapa 2. Correção do primeiro incidente
 
@@ -36,7 +36,7 @@ ms.locfileid: "52114559"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-Microsoft 365 O Defender não só fornece recursos de detecção e análise, mas também fornece contenção e erradicação de malware. A contenção inclui etapas para reduzir o impacto do ataque enquanto a erradicação garante que todos os rastreamentos da atividade do invasor sejam removidos da rede.  Microsoft 365 O Defender oferece várias ações de correção que podem ser configuradas para correção automática, dependendo do sistema operacional e do tipo de ataque.
+Microsoft 365 O Defender não só fornece recursos de detecção e análise, mas também fornece contenção e erradicação de malware. A contenção inclui etapas para reduzir o impacto do ataque enquanto a erradicação garante que todos os rastreamentos da atividade do invasor sejam removidos da rede.  Microsoft 365 O Defender oferece várias ações de correção que podem ser configuradas para correção [automática,](m365d-autoir.md) dependendo do sistema operacional e do tipo de ataque.
 
 Microsoft 365 O Defender oferece várias ações de correção que os analistas podem iniciar manualmente. As ações são separadas em duas categorias, Ações em dispositivos e Ações em arquivos. Algumas ações podem ser usadas para interromper imediatamente a ameaça enquanto outras ações ajudam na análise forense.
 
@@ -98,5 +98,5 @@ Saiba como executar [uma revisão pós-incidente de um incidente](first-incident
 ## <a name="see-also"></a>Confira também
 
 - [Visão geral dos incidentes](incidents-overview.md)
-- [Analisar os incidentes](investigate-incidents.md)
+- [Investigar incidentes](investigate-incidents.md)
 - [Gerenciar incidentes](manage-incidents.md)

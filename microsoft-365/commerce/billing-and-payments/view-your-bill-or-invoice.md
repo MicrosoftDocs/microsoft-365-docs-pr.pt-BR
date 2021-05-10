@@ -24,12 +24,12 @@ ms.custom:
 - PPM_jmueller
 description: Localize a sua fatura ou demonstrativo de cobrança no Centro de administração do Microsoft 365. Você também pode salvar e imprimir uma cópia da fatura.
 ms.date: 07/31/2020
-ms.openlocfilehash: f9dc6fb9be765e6e221ddf43f703d64737870f01
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: eff193689817c1c89fff7c8ffbc5335fff64ee0f
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280818"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297351"
 ---
 # <a name="view-your-bill-or-invoice"></a>Exibir sua conta ou fatura
 
@@ -37,7 +37,7 @@ Este artigo é destinado às pessoas que tenham uma assinatura do Microsoft 365 
   
 Se precisar de ajuda com a interpretação das cobranças na sua fatura, consulte [Compreender sua conta ou fatura](understand-your-invoice2.md) para obter uma explicação detalhada.
   
-**Tem um problema com a fatura?** [Contate o suporte para produtos empresariais](../../admin/contact-support-for-business-products.md).
+**Tem um problema com a fatura?** [Contate o suporte para produtos empresariais](../../business-video/get-help-support.md).
 
 ## <a name="before-you-begin"></a>Antes de começar
 

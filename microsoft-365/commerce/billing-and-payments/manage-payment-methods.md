@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 description: Saiba como gerenciar suas formas de pagamento no Centro de administração do Microsoft 365.
 ms.date: 04/02/2021
-ms.openlocfilehash: b69096bb05ada6ce7a1ee619aa78bc04639e7004
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 82b2880eed830bd3b65cce14635c4fa10f618740
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244715"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297363"
 ---
 # <a name="manage-payment-methods"></a>Gerenciar métodos de pagamento
 
@@ -129,7 +129,7 @@ Se uma forma de pagamento for vinculada a qualquer assinatura ou perfil de cobra
 |**Meu cartão de crédito ou débito foi recusado.** |Se você pagar com cartão de crédito ou débito e ele for recusado, você receberá um email informando que a Microsoft não conseguiu processar o pagamento. Primeiro, verifique se os detalhes do cartão &mdash;número, data de vencimento, nome no cartão e endereço, incluindo cidade, estado e CEP&mdash; são exibidos exatamente como no cartão e no extrato do cartão de crédito. Você pode atualizar as informações do seu cartão e enviar o pagamento imediatamente usando o link **Saldo devedor** na seção **Cobrança** da página de detalhes da assinatura. Para obter mais informações, confira [E se eu tiver um saldo pendente?](pay-for-your-subscription.md#what-if-i-have-an-outstanding-balance)  <br/><br/>  Se a mensagem "recusado" continuar sendo exibida, entre em contato com o seu banco.  É possível que seu cartão não esteja ativo. Se você recebeu recentemente o cartão pelo correio com uma data de validade atualizada, certifique-se de que ele está ativado. Seu banco também pode informar se seu cartão não está aprovado para transações online, internacionais ou recorrentes. |
 |**Quero atualizar o número do cartão de crédito ou da conta bancária.** |Você não pode alterar o número do cartão de crédito ou da conta bancária em uma forma de pagamento existente. Se o número do seu cartão ou da sua conta tiver sido alterado, [substitua-o por uma forma de pagamento diferente](#replace-a-payment-method), que move todas as assinaturas ativas da forma de pagamento para a nova e [exclua a forma de pagamento antiga](#delete-a-payment-method-with-no-subscriptions-or-billing-profiles-attached). |
 |**Tenho apenas um cartão ou uma conta bancária associados à minha conta e desejo remover o cartão ou a conta.** |Se tiver apenas uma forma de pagamento, você deverá [substituí-la por uma nova forma de pagamento](#replace-a-payment-method) antes de poder excluí-la. |
-|**Não consigo adicionar meu cartão de crédito ou conta bancária.**  |Você deve usar uma forma de pagamento do mesmo país do seu locatário. Se tiver problemas para inserir seu cartão de crédito ou conta bancária, você poderá [contatar o suporte](../../admin/contact-support-for-business-products.md). |
+|**Não consigo adicionar meu cartão de crédito ou conta bancária.**  |Você deve usar uma forma de pagamento do mesmo país do seu locatário. Se tiver problemas para inserir seu cartão de crédito ou conta bancária, você poderá [contatar o suporte](../../business-video/get-help-support.md). |
 
 ## <a name="related-content"></a>Conteúdo relacionado
 

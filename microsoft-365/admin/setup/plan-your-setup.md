@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: eb926624-018b-4486-bf11-5fba6ee4d645
 description: Saiba mais sobre os requisitos e considerações para fazer a mudança para Microsoft 365 para empresas.
-ms.openlocfilehash: ba97253beed1544d8f993a462559037a0a1a4281
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: b4d2b5d500b73b62c67d3f8126b6313484e2bc78
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244498"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297027"
 ---
 # <a name="plan-your-setup-of-microsoft-365-for-business"></a>Planejar sua configuração de Microsoft 365 para empresas
 
@@ -56,7 +56,7 @@ O assistente de instalação orienta você a instalar os aplicativos Microsoft 3
   
 Se você não concluir o assistente de instalação, poderá concluir as tarefas de instalação a qualquer momento a partir da Instalação [do Centro de](https://go.microsoft.com/fwlink/p/?linkid=2024339)  >  **administração.** A partir daqui, você pode migrar emails e contatos de outro serviço de email, alterar o domínio da sua conta de administrador, gerenciar suas informações de cobrança, adicionar ou remover usuários, redefinir senhas e fazer outras funções comerciais. Para obter mais informações sobre as  diferenças entre o assistente de instalação e a página de Instalação, consulte Diferenças entre o assistente de Microsoft 365 de instalação e [a página De instalação](o365-setup-wizard-and-setup-page.md).
 
-Se você tiver algum problema, fale conosco. [Estamos aqui para ajudar!](../contact-support-for-business-products.md)
+Se você tiver algum problema, fale conosco. [Estamos aqui para ajudar!](../../business-video/get-help-support.md)
   
 ## <a name="when-not-to-use-the-setup-wizard-active-directory-synchronization-and-hybrid-environments"></a>Quando não usar o Assistente de configuração: Sincronização do Active Directory e ambientes híbridos
 
@@ -138,7 +138,7 @@ Para organizações maiores ou se você estiver começando de implantações Sky
 - **Se você tiver menos de 50 funcionários:**
 
   - **Peça ajuda, e entraremos em contato com você**. Depois de comprar Microsoft 365, você pode acessar o centro de administração (não é necessário executar a instalação para chegar a ele). Na parte inferior do centro de administração, selecione **Precisa de ajuda?** Descreva seu problema, e entraremos em contato com você. 
-  - **Chame [Microsoft 365 suporte para empresas](../contact-support-for-business-products.md) com suas perguntas.** Estamos aqui para ajudar! 
+  - **Chame [Microsoft 365 suporte para empresas](../../business-video/get-help-support.md) com suas perguntas.** Estamos aqui para ajudar! 
   - **Considere a possibilidade de contratar um [parceiro da Microsoft](https://go.microsoft.com/fwlink/?linkid=391089)**. Se você tiver pouco tempo ou tiver requisitos avançados (como mover milhares de arquivos para Microsoft 365 armazenamento em nuvem ou integrar-se a outros softwares), um parceiro experiente pode ser uma grande ajuda. 
 
 - **Se você tiver mais de 50 funcionários**, o [Centro de Integração do Microsoft FastTrack](https://go.microsoft.com/fwlink/?LinkId=517115) está disponível para ajudá-lo com a sua implantação.

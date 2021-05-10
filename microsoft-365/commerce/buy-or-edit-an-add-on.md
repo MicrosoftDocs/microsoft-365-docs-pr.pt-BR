@@ -22,12 +22,12 @@ ms.custom:
 ms.reviewer: jkinma
 description: Saiba como comprar e gerenciar complementos para sua assinatura Microsoft 365 para empresas.
 ms.date: 04/02/2021
-ms.openlocfilehash: c0b5a76f8690c64723782640738ac3817bc64714
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: d60503cd7ab7be219c3ed813dd1d9aef480cd4dc
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107431"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297327"
 ---
 # <a name="buy-or-manage-add-ons"></a>Comprar ou gerenciar complementos
 
@@ -71,7 +71,7 @@ Você gerencia um complemento tradicional indo para a assinatura que o contém e
 
 Para remover uma assinatura de complemento autônomo, [cancele](subscriptions/cancel-your-subscription.md)a assinatura , assim como qualquer outra assinatura. Ou você pode [desativar a cobrança recorrente](subscriptions/renew-your-subscription.md).
 
-Não é possível remover um complemento tradicional. Se você quiser remover um complemento tradicional, contate [o suporte para ajuda](../admin/contact-support-for-business-products.md).
+Não é possível remover um complemento tradicional. Se você quiser remover um complemento tradicional, contate [o suporte para ajuda](../business-video/get-help-support.md).
   
 ## <a name="related-content"></a>Conteúdo relacionado
 

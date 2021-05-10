@@ -22,12 +22,12 @@ search.appverid:
 ROBOTS: NOINDEX
 description: Altere as assinaturas manualmente comprando uma nova assinatura e garantindo que ambas as assinaturas sejam listadas e ativas.
 ms.date: 03/17/2021
-ms.openlocfilehash: 1dc7ff8cd6b8a43db7d70ab6c17aec16a020baac
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 7361b459e61961efbb729d80dcbb55dfdad65933
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107675"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293614"
 ---
 # <a name="change-plans-manually"></a>Alterar planos manualmente
 
@@ -74,7 +74,7 @@ Inclua uma licença para cada usuário que você deseja mover.
 
 - **Se você comprou duas assinaturas** e elas não estão listadas aqui , elas podem ter sido compradas para organizações diferentes (para domínios diferentes). As assinaturas não podem cruzar os limites da organização.
 
-- **Se você sabe que tem uma assinatura** adicional e ela não está listada aqui ou não está ativa, chame o suporte da [Microsoft.](../../admin/contact-support-for-business-products.md)
+- **Se você sabe que tem uma assinatura** adicional e ela não está listada aqui ou não está ativa, chame o suporte da [Microsoft.](../../business-video/get-help-support.md)
 
 ### <a name="what-about-the-old-licenses"></a>E as licenças antigas?
 
@@ -115,4 +115,4 @@ Se você tiver movido todos os usuários de uma assinatura para outra e não pre
 Se você moveu apenas alguns usuários para uma assinatura diferente, [remova as licenças](../licenses/buy-licenses.md) que você não precisa mais.
 
 ## <a name="call-support-to-help-you-change-plans"></a>Chamar suporte para ajudá-lo a mudar de planos
-[Chamar o suporte da Microsoft](../../admin/contact-support-for-business-products.md)
+[Chamar o suporte da Microsoft](../../business-video/get-help-support.md)

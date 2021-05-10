@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 88001dc7126a55539213d4c560127d573a09f4bd
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 76bead8fd855e4119db6297d2ab1a3d08d64a48c
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114509"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297159"
 ---
 # <a name="prepare-your-security-posture-for-your-first-incident"></a>Preparar sua postura de segurança para o primeiro incidente
 
@@ -53,7 +53,7 @@ Os componentes do Microsoft 365 Defender podem exibir violações de regras impl
 
 O risco do dispositivo influencia diretamente quais recursos serão acessíveis pelo usuário desse dispositivo. A negação de acesso a recursos com base em determinados critérios é o tema principal do Zero Trust e Microsoft 365 Defender fornece informações necessárias para determinar os critérios de nível de confiança. Por exemplo, o Microsoft 365 Defender pode fornecer o nível de versão de software de um dispositivo por meio da página Gerenciamento de Ameaças e Vulnerabilidades, enquanto as políticas de Acesso Condicional restringem dispositivos que têm versões desatualizadas ou vulneráveis.
 
-A automação é uma parte crucial da implementação e manutenção de um ambiente de Confiança Zero, além de reduzir o número de alertas que potencialmente levariam a eventos de resposta a incidentes (IR). Componentes do Microsoft 365 Defender podem ser automatizados, como ações de correção (conhecidas como investigações de um incidente no centro de segurança do Microsoft 365), ações de notificação e até mesmo a criação de tíquetes de suporte, como [em ServiceNow](https://microsoft.service-now.com/sp/).
+A automação é uma parte crucial da implementação e manutenção de um ambiente de Confiança Zero, além de reduzir o número de alertas que potencialmente levariam a eventos de resposta a incidentes (IR). Componentes do Microsoft 365 Defender podem ser [](m365d-autoir.md) automatizados, como ações de correção (conhecidas como investigações de um incidente no centro de segurança do Microsoft 365), ações de notificação e até mesmo a criação de tíquetes de suporte, como [em ServiceNow](https://microsoft.service-now.com/sp/).
 
 ## <a name="step-2-determine-your-organizations-security-posture"></a>Etapa 2. Determinar a postura de segurança da sua organização
 
@@ -92,5 +92,5 @@ Saiba como [triagem e análise de incidentes.](first-incident-analyze.md)
 ## <a name="see-also"></a>Confira também
 
 - [Visão geral dos incidentes](incidents-overview.md)
-- [Analisar os incidentes](investigate-incidents.md)
+- [Investigar incidentes](investigate-incidents.md)
 - [Gerenciar incidentes](manage-incidents.md)

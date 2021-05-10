@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 1890b4f9b4c71efebe833ebaee62debedbf0fb72
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 83889123067897483478aec3d881a5a7b6ec14cc
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114548"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297219"
 ---
 # <a name="step-1-triage-and-analyze-your-first-incident"></a>Etapa 1. Triagem e analise seu primeiro incidente
 
@@ -97,7 +97,7 @@ Veja a seguir apenas uma abordagem de triagem:
 
 Compreender o contexto em torno dos alertas é igualmente importante. Geralmente, um alerta não é um único evento independente. Há uma cadeia de processos criados, comandos e ações que podem não ter ocorrido ao mesmo tempo. Portanto, um analista deve procurar as primeiras e últimas atividades da entidade suspeita nas linhas do tempo do dispositivo para entender o contexto dos alertas.
 
-Há várias maneiras de ler e analisar dados usando o Microsoft 365 Defender, mas o objetivo final para os analistas é responder a incidentes o mais rápido possível. Embora Microsoft 365 Defender possa reduzir significativamente o Tempo Média para [Correção (MTTR)](https://www.microsoft.com/security/blog/2020/05/04/lessons-learned-microsoft-soc-part-3c/) por meio do recurso de Correção Automática líder do setor, sempre há casos que exigem análise manual. 
+Há várias maneiras de ler e analisar dados usando o Microsoft 365 Defender, mas o objetivo final para os analistas é responder a incidentes o mais rápido possível. Embora Microsoft 365 Defender possa reduzir significativamente o Tempo Média para [Correção (MTTR)](https://www.microsoft.com/security/blog/2020/05/04/lessons-learned-microsoft-soc-part-3c/) por meio do recurso de investigação e resposta automatizados líderes do setor, sempre há casos que exigem análise manual. [](m365d-autoir.md) 
 
 Veja um exemplo:
 
@@ -136,5 +136,5 @@ Saiba como [remediar incidentes.](first-incident-remediate.md)
 ## <a name="see-also"></a>Confira também
 
 - [Visão geral dos incidentes](incidents-overview.md)
-- [Analisar os incidentes](investigate-incidents.md)
+- [Investigar incidentes](investigate-incidents.md)
 - [Gerenciar incidentes](manage-incidents.md)

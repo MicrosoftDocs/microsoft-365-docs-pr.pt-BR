@@ -23,12 +23,12 @@ ms.custom:
 ms.reviewer: jkinma
 description: Saiba como resgatar uma chave Microsoft 365 Business Standard de produto comprada em uma loja de varejo.
 ms.date: 11/13/2020
-ms.openlocfilehash: 0e647b8d52d024750b3944a03133755c1257ee4c
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: ed9fb3c1ecc02930f55ddc11c523cf5989d6bbbe
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107443"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297315"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Insira a chave do produto para Microsoft 365 Business Standard
 
@@ -67,4 +67,4 @@ Se você for novo no Microsoft 365 para empresas, saiba como [configurar o Micro
 
 Confira esta lista de erros e soluções comuns: Problemas com a chave do produto Microsoft 365 [para empresas?](product-key-errors-and-solutions.md)
   
-Ou, [chame o Suporte da Microsoft.](../admin/contact-support-for-business-products.md)
+Ou, [chame o Suporte da Microsoft.](../business-video/get-help-support.md)

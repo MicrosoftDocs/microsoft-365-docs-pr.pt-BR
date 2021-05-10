@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Saiba mais sobre contas de cobrança e como gerenciá-las.
 ms.date: 03/17/2021
-ms.openlocfilehash: 504811e8cdfb84569a4bc3cea021c3c37030fca7
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: ecac005b8b49739cb74efc4ca2fae44667f37bad
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107575"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293638"
 ---
 # <a name="manage-billing-accounts"></a>Gerenciar contas de cobrança
 
@@ -56,7 +56,7 @@ A tabela a seguir lista os termos importantes que você vê na página de detalh
 | Perfis de cobrança | Um perfil de cobrança define propriedades da fatura, como quem recebe a fatura, como a fatura é entregue, os termos de pagamento e um número de PO. Para distribuir a cobrança em toda a sua organização, você pode criar vários perfis de cobrança e identificar o perfil de cobrança apropriado no momento da compra. Para obter mais informações sobre perfis de cobrança e como você pode usá-los para criar opções de cobrança mais flexíveis para sua organização, [Entenda os perfis de cobrança.](billing-and-payments/manage-billing-profiles.md) |
 
 > [!NOTE]
-> Se você precisar alterar o **nome ou** o endereço Vendido para, mas não vir um link **Editar,** entre em contato com o suporte [para](../admin/contact-support-for-business-products.md) alterá-lo. Solicitações para uma **alteração de nome** vendido exigirão uma verificação de crédito. Preencha [este formulário](https://www.microsoft.com/download/details.aspx?id=102732)e esteja pronto para compartilhar um dos seguintes documentos com a Microsoft quando entrar em contato com o suporte:
+> Se você precisar alterar o **nome ou** o endereço Vendido para, mas não vir um link **Editar,** entre em contato com o suporte [para](../business-video/get-help-support.md) alterá-lo. Solicitações para uma **alteração de nome** vendido exigirão uma verificação de crédito. Preencha [este formulário](https://www.microsoft.com/download/details.aspx?id=102732)e esteja pronto para compartilhar um dos seguintes documentos com a Microsoft quando entrar em contato com o suporte:
 >
 > - Documento emitido pelo governo ou carta de registro
 > - Imprimir o registro da empresa local

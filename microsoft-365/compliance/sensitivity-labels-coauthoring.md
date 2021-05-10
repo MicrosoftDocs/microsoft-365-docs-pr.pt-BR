@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: Ative uma configuração que permite a coautoria e o Salvamento Automático em aplicativos da área de trabalho para documentos rotulados e criptografados no SharePoint e no OneDrive.
-ms.openlocfilehash: 990ab13508565fb910abe0d5e759a93e54766915
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 4b2c4551579d2609b66b5cd8fa8857f98b966a7d
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245715"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297255"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>Ativar a coautoria para arquivos criptografados com rótulos de confidencialidade
 
@@ -173,7 +173,7 @@ Depois de habilitar a coautoria para arquivos com rótulos de confidencialidade 
 
 ![Opção que mostra a coautoria ativada para rótulos de confidencialidade](../media/co-authoring-tenant-option-set-for-sensitivity-labels.png)
 
-Como você pode ver na captura de tela, quando esta configuração tiver sido ativada, você pode entrar em contato com o [Suporte da Microsoft](/office365/admin/contact-support-for-business-products) e solicitar a desativação dessa configuração. Essa solicitação pode levar alguns dias e você precisará provar que você é um administrador global do seu locatário. Espere que taxas de suporte habituais sejam aplicadas. 
+Como você pode ver na captura de tela, quando esta configuração tiver sido ativada, você pode entrar em contato com o [Suporte da Microsoft](../business-video/get-help-support.md) e solicitar a desativação dessa configuração. Essa solicitação pode levar alguns dias e você precisará provar que você é um administrador global do seu locatário. Espere que taxas de suporte habituais sejam aplicadas. 
 
 Se um engenheiro de suporte desabilitar essa configuração no seu locatário:
 

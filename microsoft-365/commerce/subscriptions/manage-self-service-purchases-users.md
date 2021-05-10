@@ -15,12 +15,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Os usuários podem aprender a gerenciar suas compras de autoatendir.
-ms.openlocfilehash: 73b044ab9954744e89a13ccff0145f35bc1b821b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9935259f05432b964fbe138b39397f192e203eb2
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920187"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297291"
 ---
 # <a name="manage-self-service-purchases-users"></a>Gerenciar compras de autoatendimento (Usuários)
 
@@ -31,7 +31,7 @@ ms.locfileid: "50920187"
 
 ::: moniker-end
 
-Como usuário, você pode comprar assinaturas para determinados produtos e atribuir licenças para essas assinaturas para as pessoas em sua equipe. Você é responsável por pagar todas as compras de autoatend pena que fizer. Você pode gerenciar suas assinaturas no Centro de administração do Microsoft 365 em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com</a>.
+Como usuário, você pode comprar assinaturas para determinados produtos e atribuir licenças para essas assinaturas para as pessoas em sua equipe. Você é responsável por pagar todas as compras de autoatend pena que fizer. Você pode gerenciar suas assinaturas no centro de administração Microsoft 365 em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com</a>.
 
 O administrador tem uma exibição somente leitura em todas as assinaturas que você comprar. Eles podem ver o produto, o nome do comprador, as assinaturas compradas, a data de expiração, o preço de compra e os usuários atribuídos para cada assinatura que você comprar.
 
@@ -107,4 +107,4 @@ Você pode exibir uma lista de todas as assinaturas adquiridas por autoatendam q
 
 Para perguntas comuns sobre compras de autoatend pois, consulte Perguntas frequentes sobre compras de [autoatend nome.](self-service-purchase-faq.md)
 
-Se você tiver dúvidas ou precisar de ajuda com compras de [autoatendém, entre em contato com o suporte](../../admin/contact-support-for-business-products.md).
+Se você tiver dúvidas ou precisar de ajuda com compras de [autoatendém, entre em contato com o suporte](../../business-video/get-help-support.md).

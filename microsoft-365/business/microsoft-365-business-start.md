@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba mais Microsoft 365 para empresas, como defini-lo e como preparar os dispositivos e os PCs dos usuários para garantir que eles estão protegidos pelo Microsoft 365 para empresas.
-ms.openlocfilehash: cc54147e75a27fbb93255d6f706b4f9044c75858
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: ddf6f8d12587c6fb562a599a41c190ffef32c147
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245115"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293698"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Começar com o Microsoft 365 para empresas
 
@@ -65,7 +65,7 @@ Assista a este vídeo para ver uma visão geral Microsoft 365 configuração par
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-Se você achou este vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades para o Microsoft 365](../business-video/index.yml).
+Se você achou esse vídeo útil, confira as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](../business-video/index.yml).
 
   
 ### <a name="1-set-up-microsoft-365-for-business-admin"></a>1: Configurar o Microsoft 365 para empresas (Administrador)
@@ -105,7 +105,7 @@ Se você manter um Active Directory local que contenha alguns recursos locais (c
   
 - Contate o seu parceiro.
     
-- Como administrador Microsoft 365 para empresas, você tem acesso à nossa equipe de suporte ao cliente: Contate o suporte para produtos **[de negócios - Ajuda do administrador](../admin/contact-support-for-business-products.md)**
+- Como administrador Microsoft 365 para empresas, você tem acesso à nossa equipe de suporte ao cliente: Contate o suporte para produtos **[de negócios - Ajuda do administrador](../business-video/get-help-support.md)**
     
 ## <a name="related-content"></a>Conteúdo relacionado
 

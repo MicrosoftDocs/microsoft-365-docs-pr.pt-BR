@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-overview
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8123bdf610b30407e5d262296f9c3639bc21b12f
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 5aeaa51e5ab8974c8ca26453534396dac14b5853
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893480"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297196"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-in-rings"></a>Implantar o Microsoft Defender para Ponto de Extremidade em anéis
 
@@ -81,7 +81,7 @@ A tabela a seguir mostra os pontos de extremidade com suporte e a ferramenta cor
 
 | Ponto de extremidade     | Ferramenta de implantação                       |
 |--------------|------------------------------------------|
-| **Windows**  |  [Script local (até 10 dispositivos)](configure-endpoints-script.md) <br> OBSERVAÇÃO: se você quiser implantar mais de 10 dispositivos em um ambiente de produção, use o método de Política de Grupo ou as outras ferramentas com suporte listadas abaixo.<br>  [Política de grupo](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Mobile Device Manager](configure-endpoints-mdm.md) <br>   [Gerenciador de Configuração do Microsoft Endpoint](configure-endpoints-sccm.md) <br> [Scripts VDI](configure-endpoints-vdi.md)   |
+| **Windows**  |  [Script local (até 10 dispositivos)](configure-endpoints-script.md) <br> OBSERVAÇÃO: se você quiser implantar mais de 10 dispositivos em um ambiente de produção, use o método de Política de Grupo ou as outras ferramentas com suporte listadas abaixo.<br>  [Política de grupo](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Gerenciador de Dispositivos Móveis](configure-endpoints-mdm.md) <br>   [Gerenciador de Configuração do Microsoft Endpoint](configure-endpoints-sccm.md) <br> [Scripts VDI](configure-endpoints-vdi.md)   |
 | **macOS**    | [Script local](mac-install-manually.md) <br> [Microsoft Endpoint Manager](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [Gerenciamento de dispositivo móvel](mac-install-with-other-mdm.md) |
 | **Servidor Linux** | [Script local](linux-install-manually.md) <br> [Puppet](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
 | **iOS**      | [Baseado em aplicativos](ios-install.md)                                |
@@ -105,25 +105,25 @@ Use o material a seguir para selecionar a arquitetura apropriada do Microsoft De
 
 ## <a name="existing-deployments"></a>Implantações existentes
 
-### <a name="windows-endpoints"></a>Pontos de extremidade do Windows
-Para Servidores Windows e/ou Windows, você seleciona vários computadores para testar com antecedência (antes do patch terça-feira) usando o programa **DEP (Validação** de Atualização de Segurança).
+### <a name="windows-endpoints"></a>Windows pontos de extremidade
+Para Windows e/ou servidores Windows, selecione vários máquinas para testar com antecedência (antes do patch terça-feira) usando o programa **DEP (Validação** de Atualização de Segurança) .
 
-Para saber mais, confira:
+Para saber mais, veja:
 - [O que é o Programa de Validação de Atualizações de Segurança](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/what-is-the-security-update-validation-program/ba-p/275767)
 - [Programa de Validação de Atualização de Software e Centro de Proteção contra Malware da Microsoft Estabelecimento - TwC Interactive Timeline Part 4](https://www.microsoft.com/security/blog/2012/03/28/software-update-validation-program-and-microsoft-malware-protection-center-establishment-twc-interactive-timeline-part-4/)
 
 
-### <a name="non-windows-endpoints"></a>Pontos de extremidade que não são do Windows
-Com macOS e Linux, você pode usar alguns sistemas e executar no canal "InsidersFast".
+### <a name="non-windows-endpoints"></a>Pontos de extremidade Windows não-Windows
+Com macOS e Linux, você pode usar alguns sistemas e executar no canal Beta.
 
 >[!NOTE]
->Idealmente, pelo menos um administrador de segurança e um desenvolvedor para que você possa encontrar problemas de compatibilidade, desempenho e confiabilidade antes que a com build o faça no canal "Produção".
+>Idealmente, pelo menos um administrador de segurança e um desenvolvedor para que você possa encontrar problemas de compatibilidade, desempenho e confiabilidade antes que a com build o faça no canal Atual.
 
-A escolha do canal determina o tipo e a frequência de atualizações oferecidas ao seu dispositivo. Os dispositivos em insiders-fast são os primeiros a receber atualizações e novos recursos, seguidos posteriormente por insiders-slow e por último por prod.
+A escolha do canal determina o tipo e a frequência de atualizações oferecidas ao seu dispositivo. Os dispositivos em Beta são os primeiros a receber atualizações e novos recursos, seguidos posteriormente por Preview e por último por Current.
 
 ![Imagem de anéis insider](images/insider-rings.png)
 
-Para visualizar novos recursos e fornecer comentários antecipados, é recomendável configurar alguns dispositivos em sua empresa para usar insiders-fast ou insiders-slow.
+Para visualizar novos recursos e fornecer comentários antecipados, é recomendável configurar alguns dispositivos em sua empresa para usar Beta ou Preview.
 
 >[!WARNING]
 >Alternar o canal após a instalação inicial exige que o produto seja reinstalado. Para alternar o canal do produto: desinstale o pacote existente, configure novamente seu dispositivo para usar o novo canal e siga as etapas deste documento para instalar o pacote no novo local.

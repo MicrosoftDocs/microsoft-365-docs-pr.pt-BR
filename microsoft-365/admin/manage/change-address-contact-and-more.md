@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Saiba como fazer alterações no perfil da sua organização, como nome da organização, endereço, telefone, contato técnico e email.
 ms.date: 03/30/2021
-ms.openlocfilehash: d27ad65b9f58d4da6c01b32c9441c0296a17e3bd
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 05908de7c4fc899669da2ba2a3d3024855f4b394
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107009"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297087"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Alterar o endereço, o contato técnico e outras informações da organização
   
@@ -55,7 +55,7 @@ Uma explicação de cada campo é fornecida abaixo.
 |---------|---------|
 |Nome  <br/>   | O nome inserido aqui é o que os usuários verão nas seguintes páginas:  <br/>  Página de entrada: se seus usuários configuraram outras contas da Microsoft com seus endereços de email comercial e escolar, poderão ver o nome da organização na página de entrada. Isso os ajuda a distinguir entre a conta conta corporativa ou de estudante e outras contas, e possibilita identificar qual delas usar ao entrar.  <br/>  Link e página de perfil da organização: o link para o perfil da sua organização exibe o nome da organização.  <br/>  Yammer navegação: em Yammer, a navegação à esquerda usa o nome da organização como o nome da rede Yammer local.  <br/> OneDrive cliente de sincronização: o nome da organização é mostrado no Explorador de Arquivos no Windows e no Finder no Mac, nos caminhos de arquivo, no centro de atividades do OneDrive, na dica de ferramenta do ícone de nuvem do OneDrive e na janela de configurações OneDrive do OneDrive. Atualmente, atualizar o nome da organização não o atualiza para clientes configurados. <br/> MS Teams: O Alternador de Organização no Teams exibe o Nome da organização <br/>  |
 |Endereço, Cidade, Estado/província, Código postal  <br/>     | O endereço inserido aqui é o que você verá na sua fatura, em Vendido para: O endereço Vendido para na sua conta é o mesmo que o endereço da sua organização na página de perfil (consulte Compreender sua fatura ou fatura para Microsoft 365 [para empresas](../../commerce/billing-and-payments/understand-your-invoice2.md)).  <br/>        |
-|País ou região,  <br/>    | Este é o país ou a região em que a empresa está localizada. O país ou a região selecionado determina quais serviços estão disponíveis para você, a moeda de impostos e cobrança do seu país ou região e o local do data center mais próximo (veja [Restrições de licença do Microsoft Office](https://office.microsoft.com/redir/FX103037529)).  <br/>OBSERVAÇÃO: Depois de selecionado, o país ou região não pode ser alterado. Se você deseja alterar a seleção, precisa cancelar sua assinatura e inscrever-se novamente. Para ajudar nesse processo, entre [em contato com o suporte](../contact-support-for-business-products.md).        |
+|País ou região,  <br/>    | Este é o país ou a região em que a empresa está localizada. O país ou a região selecionado determina quais serviços estão disponíveis para você, a moeda de impostos e cobrança do seu país ou região e o local do data center mais próximo (veja [Restrições de licença do Microsoft Office](https://office.microsoft.com/redir/FX103037529)).  <br/>OBSERVAÇÃO: Depois de selecionado, o país ou região não pode ser alterado. Se você deseja alterar a seleção, precisa cancelar sua assinatura e inscrever-se novamente. Para ajudar nesse processo, entre [em contato com o suporte](../../business-video/get-help-support.md).        |
 |Telefone  <br/>     | Este é o número principal para a sua empresa. Geralmente é o número da sede de sua empresa.  <br/>        |
 |Contato técnico  <br/> |Este é o endereço de email para a pessoa técnica primária que administra sua assinatura Microsoft 365 cliente. Essa é a pessoa que receberá comunicações sobre o Microsoft 365 de serviço.  <br/> |
 |Idioma preferencial  <br/> |O idioma preferencial determina o idioma de todas as comunicações enviadas pela Microsoft para a sua organização. Na ocasião da inscrição, essa configuração determina o idioma usado pelo SharePoint Online, que seus usuários veem no site de equipe. Se você mudar a configuração de preferência de idioma após a inscrição, todas as comunicações futuras serão enviadas no idioma mais recente selecionado.    <br/> OBSERVAÇÃO: o idioma usado pelo SharePoint Online não pode ser alterado.           |

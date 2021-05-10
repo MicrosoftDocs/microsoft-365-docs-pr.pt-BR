@@ -21,12 +21,12 @@ search.appverid: MET150
 description: Saiba como atualizar de uma assinatura Office 365 E4.
 ms.date: 08/14/2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f9143497ac2ee15009a3a2b3af9e76426d408d38
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 0e30ece58cfc10ea258a684f9ac6ca4dba1b8692
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280506"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297279"
 ---
 # <a name="upgrade-from-an-office-365-e4-subscription"></a>Atualizar de uma assinatura Office 365 E4
 
@@ -63,7 +63,7 @@ Atualizar planos manualmente significa concluir os procedimentos separados a seg
 3. Selecione a **guia** Atualizar. Se você vir outros planos listados, isso significa que você pode atualizar os planos automaticamente.
 4. Se você não puder atualizar automaticamente, verá uma mensagem que descreve o motivo pelo qual não pode atualizar.
 
-Há vários motivos pelos quais você não pode atualizar os planos automaticamente. A maioria dos problemas são temporários, como problemas de integridade do serviço que você pode resolver. Para obter mais informações, consulte [Por que não posso atualizar planos?](upgrade-to-different-plan.md#why-cant-i-upgrade-plans) Se precisar de ajuda com a atualização, contate [o suporte](../../admin/contact-support-for-business-products.md).
+Há vários motivos pelos quais você não pode atualizar os planos automaticamente. A maioria dos problemas são temporários, como problemas de integridade do serviço que você pode resolver. Para obter mais informações, consulte [Por que não posso atualizar planos?](upgrade-to-different-plan.md#why-cant-i-upgrade-plans) Se precisar de ajuda com a atualização, contate [o suporte](../../business-video/get-help-support.md).
 
 ## <a name="will-a-credit-check-be-required"></a>Será necessária uma verificação de crédito?
 

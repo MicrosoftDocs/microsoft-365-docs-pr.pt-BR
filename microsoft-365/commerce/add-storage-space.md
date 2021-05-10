@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 description: Aprenda a adicionar e reduzir o armazenamento de arquivos em sua assinatura Microsoft 365 de arquivo. Com o armazenamento de arquivos extra, você pode armazenar mais conteúdo no SharePoint Online e OneDrive.
 ms.date: 04/02/2021
-ms.openlocfilehash: 576efee4ba0e1ad8fb43b3d8475d6c3a949ee1e8
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 14f72f59493be04165f0e7b28f26b14f8ae01a08
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107383"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293674"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Adicionar espaço de armazenamento para sua assinatura
 
@@ -40,7 +40,7 @@ Se você começar a ficar sem armazenamento para seus conjuntos de sites do Shar
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Você deve ser um administrador global ou SharePoint para realizar as tarefas neste artigo. Para obter mais informações, confira o artigo [Sobre funções de administrador](../admin/add-users/about-admin-roles.md).
+Você deve ser um administrador global ou SharePoint para realizar as tarefas neste artigo. Para mais informações, consulte [Sobre funções de administrador](../admin/add-users/about-admin-roles.md).
 
 ## <a name="view-available-storage"></a>Exibir armazenamento disponível
 
@@ -71,7 +71,7 @@ Se você ainda não comprou armazenamento extra para sua assinatura, você pode 
 
 ## <a name="increase-or-decrease-storage"></a>Aumentar ou diminuir armazenamento
 
-Se você já comprou armazenamento de arquivo extra por meio do complemento **Office 365 com Espaço de Armazenamento Adicional,** você pode usar essas etapas para aumentar ou diminuir o espaço de armazenamento extra para sua assinatura. Você pode reduzir o armazenamento para até 1 gigabyte. Para remover todo o espaço de armazenamento extra, contate [o suporte](../admin/contact-support-for-business-products.md).
+Se você já comprou armazenamento de arquivo extra por meio do complemento **Office 365 com Espaço de Armazenamento Adicional,** você pode usar essas etapas para aumentar ou diminuir o espaço de armazenamento extra para sua assinatura. Você pode reduzir o armazenamento para até 1 gigabyte. Para remover todo o espaço de armazenamento extra, contate [o suporte](../business-video/get-help-support.md).
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 2. Na guia **Produtos,** selecione a assinatura que contém o **Office 365 com Espaço de Armazenamento Adicional** complemento.

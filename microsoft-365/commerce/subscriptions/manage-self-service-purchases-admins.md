@@ -20,12 +20,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Os administradores podem aprender a gerenciar compras de autoatendados feitas pelos usuários em sua organização.
-ms.openlocfilehash: 59d64c047ddf4f33c2ef3277f3139f1b7692b891
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 5378d14affd074bfad356fea4bb2adbd6ca104dd
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244987"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293566"
 ---
 # <a name="manage-self-service-purchases-admin"></a>Gerenciar compras de autoatendimento (Administrador)
 
@@ -201,4 +201,4 @@ Quando você opta por cancelar uma assinatura de compra de autoatendado, os usu�
 
 Para perguntas comuns sobre compras de autoatend pois, consulte Perguntas frequentes sobre compras de [autoatend nome.](self-service-purchase-faq.md)
 
-Se você tiver dúvidas ou precisar de ajuda com compras de [autoatendém, entre em contato com o suporte](../../admin/contact-support-for-business-products.md).
+Se você tiver dúvidas ou precisar de ajuda com compras de [autoatendém, entre em contato com o suporte](../../business-video/get-help-support.md).

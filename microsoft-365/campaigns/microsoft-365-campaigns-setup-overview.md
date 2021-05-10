@@ -1,5 +1,5 @@
 ---
-title: Visão geral da instalação do Microsoft 365 Business Premium
+title: Visão geral da instalação para Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -24,33 +24,33 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
-description: Visão geral da instalação do Microsoft 365 Business Premium para campanhas ou outras empresas
-ms.openlocfilehash: e612771ca4e967462f190c41396f16c6faf9d195
-ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
+description: Visão geral da instalação Microsoft 365 Business Premium para campanhas ou outras empresas
+ms.openlocfilehash: 08fe74e519c2efab14e4362e35b89128a8442cfb
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51398260"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297375"
 ---
-# <a name="set-up-microsoft-365"></a>Configurar o Microsoft 365
+# <a name="set-up-microsoft-365"></a>Configurar Microsoft 365
 
-Este artigo descreve o processo de configuração do Microsoft 365. Qualquer pessoa com o Microsoft 365 Business Premium pode usar essas diretrizes para dar um passo à frente na segurança.
+Este artigo descreve o processo de configuração Microsoft 365. Qualquer pessoa com Microsoft 365 Business Premium pode usar essas diretrizes para a segurança.
 
-## <a name="admins-set-up-microsoft-365"></a>Administradores: Configurar o Microsoft 365
+## <a name="admins-set-up-microsoft-365"></a>Administradores: Configurar Microsoft 365
 
-O diagrama a seguir descreve como os administradores configuram o Microsoft 365.
+O diagrama a seguir descreve como os administradores configuram Microsoft 365.
 
-![Etapas para configurar o Microsoft 365](../media/M365-democracy-SetUpProcess.png)
+![Etapas para configurar Microsoft 365](../media/M365-democracy-SetUpProcess.png)
 
-Para campanhas que se qualificam para preços especiais, você pode começar solicitando um convite da [Microsoft](https://m365forcampaigns.microsoft.com/)e, em seguida, inscrever-se no [Microsoft 365 para Campanhas.](m365-campaigns-sign-up.md) Para concluir a instalação, [execute o assistente de instalação](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) para configurar as configurações principais.
+Para campanhas que se qualificam para preços especiais, começar solicitando um convite da [Microsoft](https://m365forcampaigns.microsoft.com/)e, em seguida, inscrever-se para Microsoft 365 [campanhas](m365-campaigns-sign-up.md). Para concluir a instalação, [execute o assistente de instalação](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) para configurar as configurações principais.
 
-Para todas as outras organizações, depois que você se inscreveu [](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) no [Microsoft 365 Business Premium](../business/sign-up.md), conclua a instalação executando o assistente de instalação para configurar as configurações principais.
+Para todas as outras organizações, depois que você se [](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) inscreveu no Microsoft 365 Business Premium , conclua [a](../business/sign-up.md)configuração executando o assistente de instalação para configurar as configurações principais.
 
 Para todas as organizações, aumenta a proteção de [segurança:](m365-campaigns-protect-admin-accounts.md)protegendo contas de administrador, protegendo o acesso a [emails](m365-campaigns-conditional-access.md)e dados e aumentando a proteção [contra ameaças.](m365-campaigns-increase-protection.md)
 
 ## <a name="everyone-set-up-your-devices"></a>Todos: Configurar seus dispositivos
 
-Os usuários precisarão levar alguns minutos para configurar dispositivos para trabalhar com esse ambiente. Para os usuários principais (aqueles que são os destinos de maior valor para hackers), você pode configurar e pré-configurar novos dispositivos. Isso os ajuda a começar a entrar com suas credenciais do Microsoft 365.
+Os usuários precisarão levar alguns minutos para configurar dispositivos para trabalhar com esse ambiente. Para os usuários principais (aqueles que são os destinos de maior valor para hackers), você pode configurar e pré-configurar novos dispositivos. Isso os ajuda a começar a entrar com suas Microsoft 365 credenciais.
 
 ![Processo de configuração de dispositivo do usuário](../media/m365-democracy-user-device-setup.png)
   
@@ -65,4 +65,4 @@ Para a equipe principal, recomendamos que você use [dispositivos gerenciados](.
 
  **Se for necessário entrar em contato com o suporte:**
   
-Como administrador do Microsoft 365, você tem acesso à nossa equipe de suporte ao cliente, contate o suporte para produtos **[comerciais - Ajuda do administrador](../admin/contact-support-for-business-products.md)**
+Como administrador Microsoft 365, você tem acesso à nossa equipe de suporte ao cliente, contate o suporte para produtos **[de negócios - Ajuda do administrador](../business-video/get-help-support.md)**
