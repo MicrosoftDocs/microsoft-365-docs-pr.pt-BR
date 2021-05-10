@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 76abde885aa16c174bb81d22e5939d47894a59bf
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 64a96256ff4bb4b77ec634195f6d89b92252142a
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934964"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52301759"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-ios"></a>Novidades do Microsoft Defender para Ponto de Extremidade no iOS
 
@@ -37,11 +37,13 @@ Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se
 
 ## <a name="1115140101"></a>1.1.15140101
 
-- O nome do produto do Microsoft Defender ATP agora foi atualizado para o Microsoft Defender para Ponto de Extremidade na loja de aplicativos.
+- **A Detecção de Jailbreak** está em visualização. Para obter mais informações, consulte [Setup Conditional Access Policy based on device risk signals](ios-configure-features.md#conditional-access-with-defender-for-endpoint-on-ios).
+- **A configuração automática do perfil VPN está** em visualização para dispositivos inscritos Microsoft Endpoint Manager (Intune). Para obter mais informações, consulte [Perfil VPN de Instalação Automática para dispositivos iOS inscritos.](ios-install.md#auto-onboarding-of-vpn-profile-simplified-onboarding)
+- O Microsoft Defender ATP nome do produto agora foi atualizado para o Microsoft Defender para Ponto de Extremidade na loja de aplicativos.
 - Experiência de login aprimorada.
 - Correções de bugs.
 
 ## <a name="1115010101"></a>1.1.15010101
 
-- Com essa versão, anunciamos suporte para dispositivos iPadOS/iPad.
+- Com essa versão, anunciamos o suporte para dispositivos iPadOS/iPad.
 - Correções de bugs.

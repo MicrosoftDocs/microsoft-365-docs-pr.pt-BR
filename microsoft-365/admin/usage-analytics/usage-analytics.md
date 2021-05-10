@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Obter uma visão geral de como sua organização está adotando serviços Microsoft 365 para se comunicar e colaborar.
-ms.openlocfilehash: 7d267dcbbb35a03794567991fddb2e3a573d47dc
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: ac54e8bbc24393b7140fbc32efd48047beca2a1c
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297387"
+ms.locfileid: "52301735"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 análise de uso
 
@@ -89,6 +89,9 @@ Os relatórios de atividades do usuário estão disponíveis para determinados s
 Não é gratuito, você precisará de uma licença de Power BI Pro. Para obter [detalhes, consulte os pré-requisitos](/power-bi/service-template-apps-install-distribute#prerequisites) para instalar, personalizar e distribuir um aplicativo de modelo.
 
 Para compartilhar os painéis com outras pessoas, confira mais em [Compartilhar painéis e relatórios.](/power-bi/service-how-to-collaborate-distribute-dashboards-reports#share-dashboards-and-reports)
+### <a name="is-the-usage-summary-reports-reader-role-enough-to-view-the-usage-analytics"></a>A função Leitor de Relatórios de Resumo de Uso é suficiente para exibir a análise de uso?
+
+A função De leitor de relatórios de resumo de uso permite apenas acesso a agregados de nível de locatários Microsoft 365 análise de uso.  Recomendamos a função Leitor de Relatórios de Leitura ou Resumo de Uso Para qualquer pessoa responsável pelo gerenciamento e adoção de alterações, mas não é necessariamente um administrador de IT.
 
 ### <a name="who-can-connect-to-microsoft-365-usage-analytics"></a>Who pode se conectar Microsoft 365 análise de uso?
 

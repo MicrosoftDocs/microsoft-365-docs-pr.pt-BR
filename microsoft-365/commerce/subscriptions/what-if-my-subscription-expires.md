@@ -20,18 +20,18 @@ search.appverid:
 - MET150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Saiba o que acontece com seus dados quando sua assinatura do Microsoft 365 para empresas expira, é desabilitada ou cancelada.
-ms.openlocfilehash: 8f853000ebd20ab8f6625df9f773bbb182bdb7fd
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: 45f331fd14abb2f851c8ff84e729b8443a60b59b
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644651"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297267"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>O que acontecerá com meus dados e o acesso ao Microsoft 365 para empresas quando a assinatura terminar?
 
 Se a sua assinatura terminar, porque expirou ou porque você decidiu cancelá-la, o seu acesso aos serviços, aplicativos e dados de cliente do Microsoft 365 passam por vários estados antes de a assinatura ser totalmente desativada ou *excluída*. Se você estiver ciente dessa progressão, estará melhor preparado para retornar a sua assinatura para um estado ativo antes que seja tarde demais ou, se estiver saindo do Microsoft 365, para fazer backup de seus dados antes que eles sejam completamente excluídos.
 
-Leia essas informações importantes antes de entrar em contato com [suporte do Microsoft 365](../../admin/contact-support-for-business-products.md).
+Leia essas informações importantes antes de entrar em contato com [suporte do Microsoft 365](../../business-video/get-help-support.md).
   
 ## <a name="what-happens-to-data-when-a-subscription-expires"></a>O que acontece com os dados quando uma assinatura expira?
 
@@ -125,7 +125,7 @@ Como administrador global ou de cobrança, você pode [reativar a assinatura](re
   
 Os administradores e usuários não terão mais acesso aos serviços ou aplicativos do Office que acompanham a assinatura. Todos os dados do cliente, desde os dados de usuário a documentos e emails, serão excluídos permanentemente e não serão recuperáveis.
   
-Neste ponto, você não poderá reativar a assinatura. No entanto, como administrador global ou de cobrança, você ainda poderá acessar o centro de administração para gerenciar outras assinaturas ou para comprar novas assinaturas para atender às suas necessidades de negócios.
+Neste ponto, não é possível reativar a assinatura. No entanto, como administrador global ou de cobrança, você ainda pode acessar o centro de administração para gerenciar outras assinaturas ou para comprar novas assinaturas para atender às suas necessidades de negócios.
   
 > [!NOTE]
 > - Adicionar uma nova assinatura do mesmo tipo da que foi excluída não restaura os dados associados à assinatura excluída.
@@ -133,7 +133,7 @@ Neste ponto, você não poderá reativar a assinatura. No entanto, como administ
 
 ### <a name="what-happens-when-my-trial-ends"></a>O que acontece quando minha versão de avaliação termina?
 
-Quando sua avaliação termina, você não poderá continuar usando o Microsoft 365 gratuitamente. Você tem algumas opções:
+Quando sua avaliação terminar, você não poderá continuar usando o Microsoft 365 gratuitamente. Você tem algumas opções:
 
 - **Comprar o Microsoft 365.** Quando sua avaliação expirar, ela passa para o estágio Expirado, dando a você mais 30 dias (para a maioria das experiências, na maioria dos países e regiões) para adquirir o Microsoft 365. Para saber como converter sua avaliação em uma assinatura paga, consulte [Comprar uma assinatura a partir da sua avaliação gratuita](../try-or-buy-microsoft-365.md#buy-a-subscription-from-your-free-trial).
 

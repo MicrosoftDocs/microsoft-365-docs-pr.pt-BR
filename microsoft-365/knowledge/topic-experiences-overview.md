@@ -14,22 +14,22 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Visão geral dos Tópicos do Viva.
-ms.openlocfilehash: 1d66751d55c0144149fa8325e89be404e3df19ed
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: ecd090036f35a3cfdaffe532c800244c8174183b
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281024"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52302119"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Visão geral dos Tópicos do Microsoft Viva 
 
-O Viva Topics usa a tecnologia microsoft AI, Microsoft 365, Microsoft Graph, Pesquisa e outros componentes e serviços para trazer conhecimento aos seus usuários em aplicativos Microsoft 365 que eles usam diariamente SharePoint, começando com páginas modernas, Pesquisa da Microsoft e Pesquisa no Word e PowerPoint.
+Os Tópicos do Viva usam a tecnologia microsoft AI, Microsoft 365, Microsoft Graph, Pesquisa e outros componentes e serviços para levar conhecimento aos usuários em aplicativos Microsoft 365 que eles usam diariamente SharePoint, começando com páginas modernas, Pesquisa da Microsoft e Pesquisa no Word, PowerPoint, Outlook e Excel.
 
-</br>
+<br/>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LhZP]  
 
-</br>
+<br/>
 
 Os Tópicos do Viva ajudam a abordar um dos principais problemas comerciais de várias empresas, fornecendo as informações aos usuários sempre que elas precisam. Por exemplo, novos funcionários precisam aprender rapidamente muitas informações novas e se deparam com termos sobre os quais não conhecem ao ler informações da empresa. Para saber mais, o usuário pode precisar se afastar do que está fazendo e passar um tempo valioso pesquisando detalhes, como informações sobre o termo, quem na organização é um especialista no assunto e talvez sites e documentos relacionados ao termo.
 
@@ -42,7 +42,7 @@ Quando um tópico for mencionado no conteúdo de notícias e páginas do SharePo
 
    ![Destaques de tópicos](../media/knowledge-management/saturn.png) 
 
-Quando você usa a Pesquisa no Word ou PowerPoint, por  meio da caixa de pesquisa ou selecionando Pesquisar no menu de contexto, os resultados exibidos também podem mostrar o resumo do tópico.
+Quando você usa a Pesquisa no Word, PowerPoint, Outlook ou Excel, por meio da  caixa de pesquisa, ou selecionando Pesquisar no menu de contexto, os resultados exibidos também podem mostrar o resumo do tópico.
 
    ![Captura de tela mostrando a pesquisa no Word por meio da caixa Pesquisa.](../media/knowledge-management/word-search-2.png)
 
@@ -71,7 +71,7 @@ Quando um tópico é identificado e a IA determina que há informações suficie
 
 Os administradores de conhecimento podem optar por rastrear todos os sites do SharePoint em seu locatário para tópicos ou apenas selecionar tópicos determinados.
 
-Consulte [Descoberta e curadoria de tópicos](./topic-experiences-discovery-curation.md)
+Consulte [Descoberta e cura de tópicos.](./topic-experiences-discovery-curation.md)
 
 ## <a name="roles"></a>Funções
 
@@ -97,7 +97,7 @@ Os gerentes de conhecimento podem:
 
 - Confirmar ou remover tópicos que foram descobertos em seu locatário.
 - Criar novos tópicos manualmente conforme necessário (por exemplo, se não foram fornecidas informações suficientes para que sejam descobertas através da IA).
-- Editar páginas de tópicos existentes.</br>
+- Editar páginas de tópicos existentes.<br/>
 
 Consulte [Gerenciar tópicos na Central de tópicos](manage-topics.md) para saber mais.  
 
@@ -125,7 +125,8 @@ Os usuários aos quais você permitir o acesso aos tópicos no trabalho diário 
 
 Além disso, os usuários com permissões adequadas podem marcar itens como uma conversa do Yammer relevante para um tópico e adicioná-los a um tópico específico. 
 
-Consulte [Descoberta e curadoria de tópicos](./topic-experiences-discovery-curation.md)
+Consulte [Descoberta e cura de tópicos.](./topic-experiences-discovery-curation.md)
 
-
-## <a name="see-also"></a>Confira também
+<!--
+## See also
+-->

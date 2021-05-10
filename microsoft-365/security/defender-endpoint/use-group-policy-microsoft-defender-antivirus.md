@@ -10,18 +10,18 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 05/07/2021
+ms.date: 05/08/2021
 ms.reviewer: ksarens, jtoole, pahuijbr
 manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: 81cba445482b1fceb8bd520f2be88d55db2a47fb
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 74f58959c22313806ebc95aef14e8ccb2d75326b
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296726"
+ms.locfileid: "52302095"
 ---
 # <a name="use-group-policy-settings-to-configure-and-manage-microsoft-defender-antivirus"></a>Use as configurações da Política de Grupo para configurar e gerenciar Microsoft Defender Antivírus
 
@@ -55,7 +55,7 @@ Em geral, você pode usar o procedimento a seguir para configurar ou alterar Mic
 A tabela a seguir neste tópico lista as configurações da Política de Grupo disponíveis no Windows 10, versão 1703, e fornece links para o tópico apropriado nesta biblioteca de documentação (quando aplicável). 
 
 > [!TIP]
-> Baixe a Planilha de Referência Configurações Política de Grupo para Windows 10 atualização de maio de [2020 (2004)](https://www.microsoft.com/download/101451). Esta planilha lista as configurações de política para configurações do computador e do usuário incluídas nos arquivos de modelo administrativo fornecidos para Windows 10 atualização de maio de 2020 (2004). Você pode configurar essas configurações de política ao editar Objetos de Política de Grupo.
+> Baixe a Planilha de Referência Configurações Política de Grupo para Windows 10 atualização de maio de [2020 (2004)](https://www.microsoft.com/download/101451). Esta planilha lista as configurações de política para configurações do computador e do usuário incluídas nos arquivos de modelo administrativo fornecidos para Windows 10 atualização de maio de 2020 (2004). Você pode configurar consulte a planilha ao editar Objetos de Política de Grupo.
 
 | Local | Configuração | Artigo |
 |:---|:---|:---|

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b5af93e82f72bac900682b2e231453e448b267d9
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 365fed8b5f7c7fc617ea068e324da541f7f1b187
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934184"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52301771"
 ---
 # <a name="microsoft-defender-for-endpoint-on-mac"></a>Microsoft Defender para Ponto de Extremidade no Mac
 
@@ -39,7 +39,7 @@ ms.locfileid: "51934184"
 Este tópico descreve como instalar, configurar, atualizar e usar o Defender para Ponto de Extremidade no Mac.
 
 > [!CAUTION]
-> A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Microsoft Defender para Ponto de Extremidade no Mac provavelmente levará a problemas de desempenho e efeitos colaterais imprevisíveis. Se a proteção de ponto de extremidade que não é da Microsoft for um requisito absoluto em seu ambiente, você ainda poderá aproveitar com segurança o Defender para o Ponto de Extremidade na funcionalidade do Mac EDR depois de configurar a funcionalidade antivírus para ser executado no modo [Passivo.](mac-preferences.md#enable--disable-passive-mode)
+> A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Microsoft Defender para Ponto de Extremidade no Mac provavelmente levará a problemas de desempenho e efeitos colaterais imprevisíveis. Se a proteção de ponto de extremidade que não é da Microsoft for um requisito absoluto em seu ambiente, você ainda poderá aproveitar com segurança a funcionalidade do Defender para Ponto de Extremidade no Mac EDR depois de configurar a funcionalidade antivírus para ser executado no modo [Passivo.](mac-preferences.md#enable--disable-passive-mode)
 
 ## <a name="whats-new-in-the-latest-release"></a>Novidades na versão mais recente
 
@@ -50,13 +50,13 @@ Este tópico descreve como instalar, configurar, atualizar e usar o Defender par
 > [!TIP]
 > Se você tiver algum comentário que gostaria de compartilhar, envie-o abrindo o Microsoft Defender para Ponto de Extremidade no Mac em seu dispositivo e navegando para Ajudar a  >  **enviar comentários.**
 
-Para obter os recursos mais recentes, incluindo recursos de visualização (como detecção de ponto de extremidade e resposta para seus dispositivos Mac), configure seu dispositivo macOS executando o Microsoft Defender para Ponto de Extremidade como um dispositivo "Insider".
+Para obter os recursos mais recentes, incluindo recursos de visualização (como detecção e resposta de ponto de extremidade para seus dispositivos Mac), configure seu dispositivo macOS executando o Microsoft Defender para Ponto de Extremidade como um dispositivo "Insider".
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-mac"></a>Como instalar o Microsoft Defender para Ponto de Extremidade no Mac
 
 ### <a name="prerequisites"></a>Pré-requisitos
 
-- Uma assinatura do Defender para Ponto de Extremidade e acesso ao portal do Centro de Segurança do Microsoft Defender
+- Uma assinatura do Defender para Ponto de Extremidade e acesso ao portal Central de Segurança do Microsoft Defender site
 - Experiência de nível iniciante em scripts macOS e BASH
 - Privilégios administrativos no dispositivo (em caso de implantação manual)
 
@@ -96,8 +96,10 @@ Depois de habilitar o serviço, talvez seja necessário configurar sua rede ou f
 O Microsoft Defender para Ponto de Extremidade no Mac requer uma das seguintes ofertas de Licenciamento por Volume da Microsoft:
 
 - Microsoft 365 E5 (M365 E5)
-- Segurança do Microsoft 365 E5
+- Microsoft 365 E5 Security
 - Microsoft 365 A5 (M365 A5)
+- Windows 10 Enterprise E5
+- Microsoft Defender para Ponto de Extremidade
 
 > [!NOTE]
 > Os usuários licenciados qualificados podem usar o Microsoft Defender para Ponto de Extremidade em até cinco dispositivos simultâneos.

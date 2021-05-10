@@ -12,19 +12,18 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: ''
 localization_priority: None
-ms.openlocfilehash: 290c06d95c6569b5a446a7a7410d34ff3b57055d
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: bdb49af4ac43976a1ad734e507902781d63c5670
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904065"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52301783"
 ---
 # <a name="topic-center-overview-in-microsoft-viva-topics"></a>Visão geral do centro de tópicos em Tópicos do Microsoft Viva
 
-
-Em Tópicos do Microsoft Viva, o centro de tópicos é um site moderno do SharePoint que serve como um centro de conhecimento para sua organização. Ele é criado durante a instalação [de Tópicos do Viva](set-up-topic-experiences.md) no Centro de administração do Microsoft 365.
+Em Tópicos do Microsoft Viva, o centro de tópicos é um site SharePoint moderno que serve como um centro de conhecimento para sua organização. Ele é criado durante a instalação [de Tópicos do Viva](set-up-topic-experiences.md) no centro de Microsoft 365 de administração.
 
 O centro de tópicos tem uma home page padrão com a Web Part **Tópicos** onde todos os usuários licenciados podem ver os tópicos aos quais eles têm uma conexão. 
 
@@ -35,10 +34,10 @@ Embora todos os usuários licenciados que possam exibir tópicos tenham acesso �
 O centro de tópicos é criado durante a instalação de Tópicos do Viva. Após a conclusão da instalação, um administrador pode encontrar a URL na página [Gerenciamento do Centro de Tópicos.](./topic-experiences-administration.md#to-access-topics-management-settings)
 
 
-1. No Centro de administração do Microsoft 365, selecione **Configurações** e, em seguida, selecione **Configurações de organização**.
+1. No centro Microsoft 365 de administração, selecione **Configurações** e, em seguida, selecione **Configurações de organização**.
 2. Na guia **Serviços,** selecione **Experiências de Tópico**.
 
-    ![Conectar pessoas ao conhecimento](../media/admin-org-knowledge-options-completed.png) </br>
+    ![Conexão pessoas para conhecimento](../media/admin-org-knowledge-options-completed.png) </br>
 
 3. Selecione a **guia Central de** tópicos. Em **Endereço do site** é um link para a central de tópicos.
 
@@ -46,7 +45,7 @@ O centro de tópicos é criado durante a instalação de Tópicos do Viva. Após
 
 
 
-## <a name="home-page"></a>Home page
+## <a name="home-page"></a>Página inicial
 
 </br>
 
@@ -57,7 +56,7 @@ O centro de tópicos é criado durante a instalação de Tópicos do Viva. Após
 
 Na home page da central de tópicos, você pode ver os tópicos em sua organização aos quais você tem uma conexão.
 
-- Conexões sugeridas - Você verá tópicos listados em **Listamos você nesses tópicos. Fizemos certo?**. Estes são tópicos nos quais sua conexão com o tópico foi sugerida por meio da AI. Por exemplo, você pode ser um autor de um arquivo ou site relacionado. Você deve confirmar que deve permanecer listado como uma pessoa relacionada para o tópico.
+- Conexões sugeridas - Você verá tópicos listados em **Listamos você nesses tópicos. Fizemos certo?** Estes são tópicos nos quais sua conexão com o tópico foi sugerida por meio da AI. Por exemplo, você pode ser um autor de um arquivo ou site relacionado. Você deve confirmar que deve permanecer listado como uma pessoa relacionada para o tópico.
 
    ![Conexões sugeridas](../media/knowledge-management/my-topics.png) </br>
  
@@ -70,12 +69,12 @@ Depois que um usuário confirmar sua conexão com um tópico, o usuário poderá
 
 ## <a name="manage-topics-page"></a>Gerenciar página de tópicos
 
-Para trabalhar na seção **Gerenciar Tópicos** do centro de tópicos, você precisa ter as permissões necessárias para Gerenciar Tópicos necessárias para a função de gerente de conhecimento. O administrador pode atribuir essas permissões aos usuários durante a configuração de gerenciamento de conhecimento [ou](set-up-topic-experiences.md)novos usuários podem ser [adicionados](topic-experiences-knowledge-rules.md) posteriormente por um administrador por meio do Centro de administração do Microsoft 365.
+Para trabalhar na seção **Gerenciar Tópicos** do centro de tópicos, você precisa ter as permissões necessárias para Gerenciar Tópicos necessárias para a função de gerente de conhecimento. O administrador pode atribuir essas permissões aos usuários durante a configuração de gerenciamento de conhecimento [ou](set-up-topic-experiences.md)novos usuários podem ser [adicionados](topic-experiences-knowledge-rules.md) posteriormente por um administrador por meio do Microsoft 365 de administração.
 
 Na página Gerenciar Tópicos, o painel de tópicos mostra todos os tópicos aos que você tem acesso, que foram identificados de seus locais de origem especificados. Cada tópico mostrará a data em que o tópico foi descoberto. Um usuário que foi atribuído Gerenciar permissões de tópicos pode revisar os tópicos não confirmados e optar por:
 - Confirme o tópico: Indica aos usuários que um tópico sugerido por AI foi validado por um curador humano. 
 - Publique o tópico: Edite as informações do tópico para melhorar a qualidade do tópico identificado inicialmente e realça o tópico para todos os usuários que têm acesso a tópicos. 
-- Rejeitar o tópico: torna o tópico indiscoverable para os usuários finais. O tópico é movido para a guia **Rejeitados** e pode ser confirmado posteriormente, se necessário. 
+- Remova o tópico: torna o tópico indiscoverable para os usuários finais. O tópico é movido para a guia **Removido** e pode ser confirmado posteriormente, se necessário. 
 
 > [!Note] 
 > Consulte [Gerenciar tópicos para](manage-topics.md) obter mais detalhes sobre tópicos de gerenciamento de tópicos na página Gerenciar tópicos.
@@ -88,7 +87,7 @@ Se você tiver permissões Criar e editar tópicos, poderá:
 - [Criar novos tópicos](create-a-topic.md): Você pode criar novos tópicos para aqueles que não foram encontrados por meio da descoberta ou se as ferramentas de AI não encontraram evidências suficientes para criar um tópico.
 
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 [Gerenciar tópicos no centro de tópicos](manage-topics.md)
 

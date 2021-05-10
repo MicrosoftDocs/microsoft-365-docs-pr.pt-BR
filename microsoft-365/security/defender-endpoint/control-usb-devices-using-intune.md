@@ -12,12 +12,12 @@ ms.reviewer: dansimp
 manager: dansimp
 audience: ITPro
 ms.technology: mde
-ms.openlocfilehash: 4d5479336588a78599f8e8a868503257964adb3a
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: eb7043451c4d80e3eca8b0703703ac6d7a459161
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893667"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52302083"
 ---
 # <a name="how-to-control-usb-devices-and-other-removable-media-using-microsoft-defender-for-endpoint"></a>Como controlar dispositivos USB e outras mídias removíveis usando o Microsoft Defender para Ponto de Extremidade
 
@@ -28,10 +28,10 @@ A Microsoft recomenda uma abordagem em camadas para proteger mídia removível, 
 1. [Descubra plug and play connected events for peripherals in Microsoft Defender for Endpoint advanced hunting](#discover-plug-and-play-connected-events). Identificar ou investigar atividades de uso suspeitas.
 
 2. Configure para permitir ou bloquear apenas determinados dispositivos removíveis e evitar ameaças.
-    1. [Permitir ou bloquear dispositivos removíveis](#allow-or-block-removable-devices) com base na configuração granular para negar o acesso de gravação a discos removíveis e aprovar ou negar dispositivos usando IDs de dispositivo USB. Atribuição de política flexível de configurações de instalação de dispositivo com base em um indivíduo ou grupo de usuários e dispositivos do Azure Active Directory (Azure AD).
+    1. [Permitir ou bloquear dispositivos removíveis](#allow-or-block-removable-devices) com base na configuração granular para negar o acesso de gravação a discos removíveis e aprovar ou negar dispositivos usando IDs de dispositivo USB. Atribuição de política flexível de configurações de instalação de dispositivo com base em um indivíduo ou grupo de Azure Active Directory (Azure AD) usuários e dispositivos.
 
     2. [Impedir ameaças de armazenamento removível introduzido](#prevent-threats-from-removable-storage) por dispositivos de armazenamento removíveis habilitando:  
-        - Proteção em tempo real do Microsoft Defender Antivírus (RTP) para verificar o armazenamento removível para malware.  
+        - Microsoft Defender Antivírus RTP (proteção em tempo real) para verificar o armazenamento removível para malware.  
         - A regra USB de Redução de Superfície de Ataque (ASR) para bloquear processos não assinados e não assinados que são executados a partir de USB.  
         - Configurações de proteção de Acesso direto à Memória (DMA) para atenuar ataques DMA, incluindo a Proteção DMA do Kernel para Thunderbolt e bloqueando o DMA até que um usuário entre.  
 
@@ -40,19 +40,19 @@ A Microsoft recomenda uma abordagem em camadas para proteger mídia removível, 
 4. [Responder a ameaças](#respond-to-threats) de periféricos em tempo real com base nas propriedades relatadas por cada periférico.
 
 >[!Note]
->Essas medidas de redução de ameaças ajudam a impedir que o malware entre em seu ambiente. Para proteger os dados corporativos de sair do seu ambiente, você também pode configurar medidas de prevenção contra perda de dados. Por exemplo, em dispositivos Windows 10, você pode configurar o [BitLocker](/windows/security/information-protection/bitlocker/bitlocker-overview.md) e a Proteção de Informações do [Windows](/windows/security/information-protection/create-wip-policy-using-intune-azure.md), que criptografarão os dados da empresa mesmo que eles são armazenados em um dispositivo pessoal ou usem o [CSP Storage/RemovableDiskDenyWriteAccess](/windows/client-management/mdm/policy-csp-storage#storage-removablediskdenywriteaccess) para negar o acesso de gravação a discos removíveis. Além disso, você pode classificar e proteger arquivos em [dispositivos Windows](/windows/security/threat-protection/windows-defender-atp/information-protection-in-windows-overview) (incluindo seus dispositivos USB montados) usando o Microsoft Defender para o Ponto de Extremidade e a Proteção de Informações do Azure.
+>Essas medidas de redução de ameaças ajudam a impedir que o malware entre em seu ambiente. Para proteger os dados corporativos de sair do seu ambiente, você também pode configurar medidas de prevenção contra perda de dados. Por exemplo, em dispositivos Windows 10 você pode configurar o [BitLocker](/windows/security/information-protection/bitlocker/bitlocker-overview.md) e Windows [Proteção](/windows/security/information-protection/create-wip-policy-using-intune-azure.md)de Informações , que criptografarão os dados da empresa mesmo que eles são armazenados em um dispositivo pessoal ou usem o [CSP Armazenamento/RemovableDiskDenyWriteAccess](/windows/client-management/mdm/policy-csp-storage#storage-removablediskdenywriteaccess) para negar o acesso de gravação a discos removíveis. Além disso, você pode classificar e proteger arquivos em Windows [dispositivos](/windows/security/threat-protection/windows-defender-atp/information-protection-in-windows-overview) (incluindo seus dispositivos USB montados) usando o Microsoft Defender para o Ponto de Extremidade e a Proteção de Informações do Azure.
 
 ## <a name="discover-plug-and-play-connected-events"></a>Descobrir plug and play connected events
 
 Você pode exibir plug and play connected events in Microsoft Defender for Endpoint advanced hunting to identify suspicious usage activity or perform internal investigations.
-Para exemplos de consultas avançadas de busca avançada do Defender para Ponto de Extremidade, consulte o repositório de consultas de busca do [Microsoft Defender for Endpoint GitHub](https://github.com/Microsoft/WindowsDefenderATP-Hunting-Queries).
+Para exemplos de consultas de busca avançadas do Defender para Ponto de Extremidade, consulte as consultas de busca do Microsoft Defender para Ponto de Extremidade GitHub [repo](https://github.com/Microsoft/WindowsDefenderATP-Hunting-Queries).
 
-Modelos de relatório do Power BI de exemplo estão disponíveis para o Microsoft Defender para Endpoint que você pode usar para consultas de busca avançadas. Com esses modelos de exemplo, incluindo um para controle de dispositivo, você pode integrar o poder da busca avançada ao Power BI. Consulte o [repositório do GitHub para modelos do PowerBI](https://github.com/microsoft/MDATP-PowerBI-Templates) para obter mais informações. Consulte [Criar relatórios personalizados usando o Power BI](/microsoft-365/security/defender-endpoint/api-power-bi) para saber mais sobre a integração com o Power BI.
+Modelos Power BI de relatório de exemplo estão disponíveis para o Microsoft Defender para Ponto de Extremidade que você pode usar para consultas de busca avançadas. Com esses modelos de exemplo, incluindo um para controle de dispositivo, você pode integrar o poder da busca avançada ao Power BI. Consulte o [GitHub para modelos do PowerBI](https://github.com/microsoft/MDATP-PowerBI-Templates) para obter mais informações. Consulte [Criar relatórios personalizados usando Power BI](/microsoft-365/security/defender-endpoint/api-power-bi) para saber mais sobre Power BI integração.
 
 ## <a name="allow-or-block-removable-devices"></a>Permitir ou bloquear dispositivos removíveis
 A tabela a seguir descreve as maneiras como o Microsoft Defender para Ponto de Extremidade pode permitir ou bloquear dispositivos removíveis com base na configuração granular.
 
-| Controle  | Descrição |
+| Control  | Descrição |
 |----------|-------------|
 | [Restringir unidades USB e outros periféricos](#restrict-usb-drives-and-other-peripherals) | Você pode permitir/impedir que os usuários instalem apenas as unidades USB e outros periféricos incluídos em uma lista de dispositivos autorizados/não autorizados ou tipos de dispositivos. |
 | [Bloquear a instalação e o uso do armazenamento removível](#block-installation-and-usage-of-removable-storage) | Não é possível instalar ou usar armazenamento removível. |
@@ -67,7 +67,7 @@ A tabela a seguir descreve as maneiras como o Microsoft Defender para Ponto de E
 
 Para evitar infecções por malware ou perda de dados, uma organização pode restringir unidades USB e outros periféricos. A tabela a seguir descreve as maneiras como o Microsoft Defender para Ponto de Extremidade pode ajudar a impedir a instalação e o uso de unidades USB e outros periféricos.
 
-| Controle  | Descrição
+| Control  | Descrição
 |----------|-------------|
 | [Permitir a instalação e o uso de unidades USB e outros periféricos](#allow-installation-and-usage-of-usb-drives-and-other-peripherals) | Permitir que os usuários instalem apenas as unidades USB e outros periféricos incluídos em uma lista de dispositivos ou tipos de dispositivo autorizados |
 | [Impedir a instalação e o uso de unidades USB e outros periféricos](#prevent-installation-and-usage-of-usb-drives-and-other-peripherals) | Impedir que os usuários instalem unidades USB e outros periféricos incluídos em uma lista de dispositivos e tipos de dispositivo não autorizados |
@@ -124,11 +124,11 @@ Se você quiser impedir a instalação de uma classe de dispositivo ou determina
 > [!Note]
 > As políticas de instalação de dispositivos de prevenção têm precedência sobre as políticas de instalação de dispositivos de permitir.
 
-A política Impedir a instalação de dispositivos que corresponderem a qualquer uma dessas **IDs** de dispositivo permite especificar uma lista de dispositivos que o Windows está impedido de instalar. 
+A política Impedir a instalação de dispositivos que corresponderem a qualquer uma dessas **IDs** de dispositivo permite especificar uma lista de dispositivos que Windows é impedida de instalar. 
 
 Para impedir a instalação de dispositivos que corresponderem a qualquer uma dessas IDs de dispositivo: 
 
-1. [Procure a ID do](#look-up-device-id) dispositivo para dispositivos que você deseja que o Windows impeça de instalar.
+1. [Procure a ID do](#look-up-device-id) dispositivo para dispositivos que você Windows impedir de instalar.
 
    ![Procurar a ID do fornecedor ou do produto](images/lookup-vendor-product-id.png)
 
@@ -158,7 +158,7 @@ Get-WMIObject -Class Win32_DiskDrive |
 Select-Object -Property * 
 ```
 
-A **política Impedir a instalação de** dispositivos usando drivers que corresponderem a essas classes de configuração de dispositivo permite especificar classes de configuração de dispositivos que o Windows está impedido de instalar. 
+A **política Impedir** a instalação de dispositivos usando drivers que corresponderem a essas classes de configuração de dispositivo permite especificar classes de configuração de dispositivos que Windows é impedida de instalar. 
 
 Para impedir a instalação de classes específicas de dispositivos: 
 
@@ -171,9 +171,9 @@ Para impedir a instalação de classes específicas de dispositivos:
 
 ### <a name="block-installation-and-usage-of-removable-storage"></a>Bloquear a instalação e o uso do armazenamento removível
 
-1. Entre no [Portal do Microsoft Azure](https://portal.azure.com/).
+1. Entre no centro de administração [Microsoft Endpoint Manager.](https://endpoint.microsoft.com/)
 
-2. Clique **em Perfis de**  >  **configuração do dispositivo do** Intune  >  **Criar**  >  **perfil**.
+2. Clique **em**  >  **Perfis de Configuração de**  >  **Dispositivos Criar perfil**.
 
     > [!div class="mx-imgBorder"]
     > ![Criar perfil de configuração de dispositivo](images/create-device-configuration-profile.png)
@@ -253,25 +253,25 @@ A tabela a seguir descreve as maneiras como o Microsoft Defender para Ponto de E
 
 Para obter mais informações sobre como controlar dispositivos USB, consulte o [blog do Microsoft Defender for Endpoint](https://aka.ms/devicecontrolblog).
 
-| Controle  | Descrição |
+| Control  | Descrição |
 |----------|-------------|
-| [Habilitar a verificação do Microsoft Defender Antivírus](#enable-microsoft-defender-antivirus-scanning) | Habilita a verificação do Microsoft Defender Antivírus para proteção em tempo real ou verificações agendadas.|
+| [Habilitar Microsoft Defender Antivírus verificação](#enable-microsoft-defender-antivirus-scanning) | Habilita Microsoft Defender Antivírus verificação de proteção em tempo real ou verificações agendadas.|
 | [Bloquear processos não assinados e não assinados em periféricos USB](#block-untrusted-and-unsigned-processes-on-usb-peripherals) | Bloquear arquivos USB que não são assinados ou não são confidenciais. |
 | [Proteger contra ataques DMA (Acesso direto à Memória)](#protect-against-direct-memory-access-dma-attacks) | Configure as configurações para proteger contra ataques DMA. |
 
 >[!NOTE]
 >Como um periférico USB não autorizado pode ter firmware que espou suas propriedades USB, recomendamos permitir apenas periféricos USB aprovados especificamente e limitar os usuários que podem acessá-los.
 
-### <a name="enable-microsoft-defender-antivirus-scanning"></a>Habilitar a verificação do Microsoft Defender Antivírus
+### <a name="enable-microsoft-defender-antivirus-scanning"></a>Habilitar Microsoft Defender Antivírus verificação
 
-A proteção de armazenamento removível autorizado com o Microsoft Defender Antivírus requer a habilitação de verificações de proteção ou agendamento em tempo [real](/microsoft-365/security/defender-endpoint/configure-real-time-protection-microsoft-defender-antivirus) e a configuração de unidades removíveis para verificações.
+Proteger o armazenamento removível autorizado com Microsoft Defender Antivírus requer a habilitação de verificações de proteção ou agendamento em tempo [real](/microsoft-365/security/defender-endpoint/configure-real-time-protection-microsoft-defender-antivirus) e a configuração de unidades removíveis para verificações.
 
-- Se a proteção em tempo real estiver habilitada, os arquivos serão verificados antes que sejam acessados e executados. O escopo de verificação inclui todos os arquivos, incluindo aqueles em dispositivos removíveis montados, como unidades USB. Opcionalmente, você pode executar um script do [PowerShell](/samples/browse/?redirectedfrom=TechNet-Gallery) para executar uma verificação personalizada de uma unidade USB após a montagem, para que o Microsoft Defender Antivírus comece a examinar todos os arquivos em um dispositivo removível depois que o dispositivo removível for anexado. No entanto, recomendamos habilenciar a proteção em tempo real para melhorar o desempenho da verificação, especialmente para dispositivos de armazenamento grandes.
+- Se a proteção em tempo real estiver habilitada, os arquivos serão verificados antes que sejam acessados e executados. O escopo de verificação inclui todos os arquivos, incluindo aqueles em dispositivos removíveis montados, como unidades USB. Opcionalmente, você pode executar um script do [PowerShell](/samples/browse/?redirectedfrom=TechNet-Gallery) para executar uma verificação personalizada de uma unidade USB após a montagem, para que o Microsoft Defender Antivírus comece a verificar todos os arquivos em um dispositivo removível depois que o dispositivo removível for anexado. No entanto, recomendamos habilenciar a proteção em tempo real para melhorar o desempenho da verificação, especialmente para dispositivos de armazenamento grandes.
 
 - Se as verificações agendadas são usadas, você precisará desabilitar a configuração DisableRemovableDriveScanning (habilitada por padrão) para examinar o dispositivo removível durante uma verificação completa. Os dispositivos removíveis são verificados durante uma verificação rápida ou personalizada, independentemente da configuração DisableRemovableDriveScanning.
 
 >[!NOTE]
->Recomendamos habilenciar o monitoramento em tempo real para verificação. No Intune, você pode habilitar o monitoramento em tempo real do Windows 10 em **Restrições** de Dispositivo Configurar o monitoramento em tempo real do  >    >  **Microsoft Defender**  >  **Antivírus.**
+>Recomendamos habilenciar o monitoramento em tempo real para verificação. No Intune, você pode habilitar o monitoramento em tempo real para Windows 10 em **Restrições** de Dispositivo Configurar Microsoft Defender Antivírus  >    >    >  **monitoramento em tempo real.**
 
 <!-- Need to build out point in the preceding note. 
 -->
@@ -289,7 +289,7 @@ Essas configurações [exigem a habilitação da proteção em tempo real.](/mic
 
 1. Entre no [Microsoft Endpoint Manager](https://endpoint.microsoft.com/).
 
-2. Clique **em**  >  **Dispositivos Políticas de**  >  **Configuração do** Windows  >  **Criar perfil**. 
+2. Clique **em**  >  **Dispositivos Windows** Políticas de  >    >  **Configuração Criar perfil**. 
 
     ![Criar perfil de configuração de dispositivo](images/create-device-configuration-profile.png)
 
@@ -312,13 +312,13 @@ Essas configurações [exigem a habilitação da proteção em tempo real.](/mic
 
 Os ataques de DMA podem levar à divulgação de informações confidenciais que residem em um computador ou até mesmo à injeção de malware que permite que os invasores ignorem a tela de bloqueio ou controlem computadores remotamente. As configurações a seguir ajudam a evitar ataques DMA:
 
-1. A partir do Windows 10 versão 1803, a Microsoft introduziu o [Kernel DMA Protection for Thunderbolt](/windows/security/information-protection/kernel-dma-protection-for-thunderbolt.md) para fornecer proteção nativa contra ataques DMA por meio de portas Thunderbolt. A Proteção de DMA do Kernel para Thunderbolt é habilitada pelos fabricantes do sistema e não pode ser ativada ou desligada pelos usuários.
+1. A partir Windows 10 versão 1803, a Microsoft introduziu o [Kernel DMA Protection for Thunderbolt](/windows/security/information-protection/kernel-dma-protection-for-thunderbolt.md) para fornecer proteção nativa contra ataques DMA por meio de portas Thunderbolt. A Proteção de DMA do Kernel para Thunderbolt é habilitada pelos fabricantes do sistema e não pode ser ativada ou desligada pelos usuários.
 
-   A partir do Windows 10 versão 1809, você pode ajustar o nível de Proteção DMA kernel configurando o CSP do [DMA Guard](/windows/client-management/mdm/policy-csp-dmaguard#dmaguard-deviceenumerationpolicy). Esse é um controle adicional para periféricos que não suportam isolamento de memória do dispositivo (também conhecido como remapping DMA). O isolamento de memória permite que o sistema operacional utilize a Unidade de Gerenciamento de Memória de E/S (IOMMU) de um dispositivo para bloquear a E/S não aloqueada ou o acesso à memória, pelo periférico (área de segurança de memória). Em outras palavras, o sistema operacional atribui um determinado intervalo de memória ao periférico. Se o periférico tentar ler/gravar na memória fora do intervalo atribuído, o sistema operacional o bloqueará.
+   A partir Windows 10 versão 1809, você pode ajustar o nível de Proteção DMA do Kernel configurando o CSP do [DMA Guard.](/windows/client-management/mdm/policy-csp-dmaguard#dmaguard-deviceenumerationpolicy) Esse é um controle adicional para periféricos que não suportam isolamento de memória do dispositivo (também conhecido como remapping DMA). O isolamento de memória permite que o sistema operacional utilize a Unidade de Gerenciamento de Memória de E/S (IOMMU) de um dispositivo para bloquear a E/S não aloqueada ou o acesso à memória, pelo periférico (área de segurança de memória). Em outras palavras, o sistema operacional atribui um determinado intervalo de memória ao periférico. Se o periférico tentar ler/gravar na memória fora do intervalo atribuído, o sistema operacional o bloqueará.
 
    Periféricos que suportam isolamento de memória do dispositivo sempre podem se conectar. Periféricos que não podem ser bloqueados, permitidos ou permitidos somente após o usuário entrar (padrão).
 
-2. Em sistemas Windows 10 que não suportam a Proteção DMA do Kernel, você pode:
+2. Em Windows 10 sistemas que não suportam a Proteção DMA do Kernel, você pode:
 
    - [Bloquear o DMA até que um usuário entre](/windows/client-management/mdm/policy-csp-dataprotection#dataprotection-allowdirectmemoryaccess)
    - [Bloquear todas as conexões por meio das portas Thunderbolt (incluindo dispositivos USB)](https://support.microsoft.com/help/2516445/blocking-the-sbp-2-driver-and-thunderbolt-controllers-to-reduce-1394-d)
@@ -333,7 +333,7 @@ Você pode criar alertas personalizados e ações de resposta com o Conector WDA
 
 **Verificação de ameaças** em dispositivos USB.
 
-**Restringir** a execução de todos os aplicativos no computador, exceto um conector MDATP definido predefinido, é um dos mais de 200 conectores pré-definidos, incluindo Outlook, Teams, Slack, etc. Conectores personalizados podem ser construídos.
+**Restringir** a execução de todos os aplicativos no computador, exceto um conector de conjunto predefinido MDATP é um dos mais de 200 conectores pré-definidos, incluindo Outlook, Teams, Slack, etc. Conectores personalizados podem ser construídos.
 - [Mais informações sobre ações de resposta do conector WDATP](/connectors/wdatp/)
 
 **Ação de resposta de regras de detecção personalizadas:** Tanto as ações de nível de máquina quanto de arquivo podem ser aplicadas.
@@ -343,13 +343,13 @@ Para obter informações sobre eventos de busca antecipados relacionados ao cont
 
 ## <a name="respond-to-threats"></a>Responder a ameaças
 
-Você pode criar alertas personalizados e ações de resposta automática com o [Microsoft Defender for Endpoint Custom Detection Rules](/microsoft-365/security/defender-endpoint/custom-detection-rules). As ações de resposta dentro da detecção personalizada abrangem ações de nível de arquivo e computador. Você também pode criar alertas e ações automáticas de resposta usando [PowerApps](https://powerapps.microsoft.com/) e [Flow](https://flow.microsoft.com/) com o [conector do Microsoft Defender para Ponto de Extremidade.](/connectors/wdatp/) O conector oferece suporte a ações para investigação, verificação de ameaças e restrição de aplicativos em execução. É um dos mais de 200 conectores pré-definidos, incluindo Outlook, Teams, Slack e muito mais. Conectores personalizados também podem ser construídos. Consulte [Conectores](/connectors/) para saber mais sobre conectores.
+Você pode criar alertas personalizados e ações de resposta automática com o [Microsoft Defender for Endpoint Custom Detection Rules](/microsoft-365/security/defender-endpoint/custom-detection-rules). As ações de resposta dentro da detecção personalizada abrangem ações de nível de arquivo e computador. Você também pode criar alertas e ações de resposta automática usando [PowerApps](https://powerapps.microsoft.com/) [e](https://flow.microsoft.com/) Flow com o conector do [Microsoft Defender para Ponto de Extremidade.](/connectors/wdatp/) O conector oferece suporte a ações para investigação, verificação de ameaças e restrição de aplicativos em execução. É um dos mais de 200 conectores pré-definidos, incluindo Outlook, Teams, Slack e muito mais. Conectores personalizados também podem ser construídos. Consulte [Conectores](/connectors/) para saber mais sobre conectores.
  
 Por exemplo, usando qualquer abordagem, você pode executar automaticamente o Microsoft Defender Antivírus quando um dispositivo USB é montado em um computador.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Configurar proteção em tempo real para o Microsoft Defender Antivírus](/microsoft-365/security/defender-endpoint/configure-real-time-protection-microsoft-defender-antivirus)
+- [Configurar proteção em tempo real para Microsoft Defender Antivírus](/microsoft-365/security/defender-endpoint/configure-real-time-protection-microsoft-defender-antivirus)
 - [Defender/AllowFullScanRemovableDriveScanning](/windows/client-management/mdm/policy-csp-defender#defender-allowfullscanremovabledrivescanning)
 - [Policy/DeviceInstallation CSP](/windows/client-management/mdm/policy-csp-deviceinstallation)
 - [Executar uma verificação personalizada de um dispositivo removível](/samples/browse/?redirectedfrom=TechNet-Gallery)

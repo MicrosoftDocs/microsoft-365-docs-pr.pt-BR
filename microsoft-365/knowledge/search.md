@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 description: Saiba como pesquisar tópicos no Microsoft Viva.
-ms.openlocfilehash: 15b42c9d3689a73c865be53bb29f298fcbf896bd
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 54a143ea0960bf56a0d1c5224658bea404c7621e
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281037"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52301711"
 ---
 # <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Usar a Pesquisa da Microsoft para encontrar tópicos em Tópicos do Microsoft Viva
 
@@ -36,7 +36,7 @@ A resposta do tópico será exibida:
 
 A página de tópico pode ser exibida nos resultados da pesquisa, mesmo que o cartão de resposta do tópico não apareça.
 
-Os resultados da pesquisa no Word e PowerPoint também mostrarão a resposta do tópico quando uma for encontrada.
+Os resultados da pesquisa no Word, PowerPoint, Outlook e Excel também mostrarão a resposta do tópico quando uma for encontrada.
 
 
 ## <a name="acronyms"></a>Acrônimos
