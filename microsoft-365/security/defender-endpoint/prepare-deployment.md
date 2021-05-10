@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 00e57d03ae636837120b53c0de16861ad142ef76
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: e3df1286c69132c960c412f6f74512bb49c32b28
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280928"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52291038"
 ---
 # <a name="prepare-microsoft-defender-for-endpoint-deployment"></a>Preparar o Microsoft Defender para implantação do Ponto de Extremidade
 
@@ -60,7 +60,7 @@ Adicione participantes à tabela abaixo conforme apropriado para sua organizaç�
 
 -   I = Informado deste projeto
 
-| Nome                 | Role                                                                                                                                                                                                          | Ação |
+| Nome                 | Função                                                                                                                                                                                                          | Ação |
 |----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
 | Inserir nome e email | Diretor de Segurança da Informação **(CISO)** Um representante executivo que serve como patrocinador dentro da organização para a *implantação da nova tecnologia.*                                                  | Então     |
 | Inserir nome e email | **Head of Cyber Defense Operations Center (CDOC)** Um representante da equipe do CDOC responsável por definir como essa alteração é alinhada com os processos na equipe de operações de *segurança dos clientes.*       | Então     |
@@ -134,7 +134,6 @@ Escolha o componente do Defender para o Ponto de Extremidade a ser usado e remov
 | Especialistas em Ameaças da Microsoft (MTE)          | Especialistas em Ameaças da Microsoft é um serviço de busca gerenciada que fornece SOCs (Security Operation Centers) com monitoramento e análise de nível de especialista para ajudá-los a garantir que ameaças críticas em seus ambientes exclusivos não são perdidas. <br>[Saiba Mais.](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/microsoft-threat-experts)                                                                                                                                                                                                                                                                                                                     | Não aplicável      |
 
 ## <a name="next-step"></a>Próxima etapa
-|||
-|:-------|:-----|
-|![Fase 2: Configurar](images/setup.png) <br>[Fase 2: Configurar](production-deployment.md) | Configurar o Microsoft Defender para implantação do Ponto de Extremidade
+
+![Fase 2: Configurar](images/setup.png) <br>[Fase 2: Configuração](production-deployment.md) | Configurar o Microsoft Defender para implantação do Ponto de Extremidade
 

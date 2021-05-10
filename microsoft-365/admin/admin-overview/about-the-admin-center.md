@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: Use o centro de administração para configurar sua organização na nuvem e gerenciar usuários e assinaturas. Comece acessando a conta com permissões de administrador.
-ms.openlocfilehash: f2b8a22019e3292c93d07161f3825dfe90629ccc
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: db88904e16cf9410d3eb4e4aac161f714993150b
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52241743"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52290978"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Sobre o centro de administração do Microsoft 365
 
@@ -64,7 +64,7 @@ Aqui estão os recursos e configurações que você encontrará na navegação e
 |**Grupos** <br/> |Crie e gerencie grupos em sua organização, como um grupo Microsoft 365, grupo de distribuição, grupo de segurança ou caixa de correio compartilhada. Saiba como [criar](../create-groups/create-groups.md) e [gerenciar](../create-groups/manage-groups.md) grupos.  <br/> |
 |**Resources** <br/> |Crie e gerencie recursos, como um conjunto de sites do SharePoint. Saiba como [criar conjuntos de sites](/sharepoint/create-site-collection).  <br/> |
 |**Cobrança** <br/> |Exiba, compre ou cancele assinaturas da sua organização. Exiba demonstrativos de cobrança anteriores ou exiba o número de licenças atribuídas aos usuários individuais. Saiba como [gerenciar cobranças](../../commerce/index.yml).  <br/> |
-|**Suporte** <br/> | Exiba solicitações de serviço existentes ou crie novos. Saiba mais em [Contatar suporte para produtos comerciais – Ajuda para Administradores](../contact-support-for-business-products.md). |
+|**Suporte** <br/> | Exiba solicitações de serviço existentes ou crie novos. Saiba mais em [Contatar suporte para produtos comerciais – Ajuda para Administradores](../../business-video/get-help-support.md). |
 |**Settings** <br/> |Gerencie as configurações globais para aplicativos como email, sites e o pacote do Office. Altere a política de senha e a data de expiração. Adicione e atualize os nomes de domínio como contoso.com. Altere o perfil da organização e as preferências de lançamento. E escolha se os parceiros podem acessar seu centro de administração.  <br/> |
 |**Configurar** <br/> |Gerenciar domínios existentes, ative e gerencie autenticação multifator, gerencie o acesso de administrador, migre caixas de correio de usuários para o Office 365, gerencie atualizações de recursos e ajude os usuários a instalar seus aplicativos do Office. |
 |**Relatórios** <br/> |Consulte rapidamente como sua organização está usando Microsoft 365 relatórios detalhados sobre o uso de email, Office ativações e muito mais. Saiba como usar os novos [relatórios de atividades](../activity-reports/activity-reports.md).  <br/> |

@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9fd3a9dec07e4eb6cd543384d82b317fa1da9acc
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: f90daea81f1d0918be852d7ac9269393a1eb37f0
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50544811"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295494"
 ---
 # <a name="contact-support-for-russia"></a>Contatar o suporte para a Rússia
 
-[Encontre outro país ou região](../contact-support-for-business-products.md).
+[Encontre outro país ou região](../../business-video/get-help-support.md).
 
 ## <a name="phone-number"></a>Número de telefone
 8 10 800 2548 1044
@@ -39,6 +39,6 @@ Russo: Mon-Fri 7:8 PM de Moscou
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de Telefone Alternativo: 499 922 86 23
+Número Telefone alternativo: 499 922 86 23
 
 Cobranças de chamada locais são aplicadas

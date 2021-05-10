@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 22f7b55ab2fa2e9c13a0b3fd7cfbba37570dfcaf
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: c4ee22bdcd297dc8dad7a819303b9c17879ee2a2
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50544943"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295506"
 ---
 # <a name="contact-support-for-reunion"></a>Contatar o suporte para Reunião
 
-[Encontre outro país ou região](../contact-support-for-business-products.md).
+[Encontre outro país ou região](../../business-video/get-help-support.md).
 
 ## <a name="phone-number"></a>Número de telefone
 +1 312 843 5147

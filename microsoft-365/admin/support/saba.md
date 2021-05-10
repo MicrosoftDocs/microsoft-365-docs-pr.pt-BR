@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 89c79d7f0c902d9244a4d1bdc9f22f5a79a86788
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 60ca450aafa3a064fe1f87d5156343c26142b2c0
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50544787"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295482"
 ---
 # <a name="contact-support-for-saba"></a>Contatar o suporte para Saba
 
-[Encontre outro país ou região](../contact-support-for-business-products.md).
+[Encontre outro país ou região](../../business-video/get-help-support.md).
 
 ## <a name="phone-number"></a>Número de telefone
 +1 312 843 5145

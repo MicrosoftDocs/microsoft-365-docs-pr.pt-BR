@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: Saiba como redefinir a senha para um usuário Microsoft 365 assinatura para empresas.
-ms.openlocfilehash: fa368c7f44d4df847cf007568853c11970e7adc1
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 8720942d60b5ce4efaca8885bd5209cb3e7e7ef8
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52241695"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52290990"
 ---
 # <a name="reset-passwords"></a>Redefinir senha
 
@@ -50,7 +50,7 @@ Assista a um breve vídeo sobre como redefinir senhas de usuário.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FVVP]
 
-Se você achou este vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades para o Microsoft 365](../../business-video/index.yml).
+Se você achou esse vídeo útil, confira as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](../../business-video/index.yml).
   
 ## <a name="steps-reset-a-business-password-for-a-user"></a>Etapas: Redefinir uma senha comercial para um usuário
 
@@ -86,7 +86,7 @@ Se você esqueceu sua senha e não pode entrar:
 
 - Certifique-se de ter fornecido informações de contato alternativas, incluindo um número de telefone celular.
 
-- Ou, [chame o Suporte da Microsoft.](../contact-support-for-business-products.md)
+- Ou, [chame o Suporte da Microsoft.](../../business-video/get-help-support.md)
 
 ## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a>Redefinir todas as senhas comerciais para todos na sua organização ao mesmo tempo
 <a name="bkmk_forgot"> </a>

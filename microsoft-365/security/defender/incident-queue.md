@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 47d066fa20abe963f7afaa3b88cecc96fa6e87fc
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: a3b6edda36d2872177d9a88f3259220dcf2e76f3
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259575"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52291310"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Priorizar incidentes no Microsoft 365 Defender
 
@@ -83,11 +83,14 @@ Esta tabela lista os nomes de filtro disponíveis.
 | Status | Você pode optar por limitar a lista de incidentes exibidos com base em seu status para ver quais estão ativos ou resolvidos. |
 |||
 
-## <a name="next-step"></a>Próxima etapa
+## <a name="next-steps"></a>Próximas etapas
 
-Depois de determinar qual incidente requer a maior prioridade, selecione-o e inicie a [análise.](investigate-incidents.md)
+Depois de determinar qual incidente exige a maior prioridade, selecione-o e:
+
+- [Gerencie](manage-incidents.md) as propriedades do incidente para marcas, atribuição a um analista de segurança e comentários.
+- Comece sua [investigação.](investigate-incidents.md)
 
 ## <a name="see-also"></a>Confira também
 - [Visão geral dos incidentes](incidents-overview.md)
-- [Analisar os incidentes](investigate-incidents.md)
+- [Investigar incidentes](investigate-incidents.md)
 - [Gerenciar incidentes](manage-incidents.md)

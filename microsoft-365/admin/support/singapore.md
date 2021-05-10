@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 452461f2147484b6bf5f034b612afccdd08e1449
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 0f167e1634071eefe6a5563bc1ed0fe92cfcc2d6
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50544487"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295398"
 ---
 # <a name="contact-support-for-singapore"></a>Contatar o suporte para Cingapura
 
-[Encontre outro país ou região](../contact-support-for-business-products.md).
+[Encontre outro país ou região](../../business-video/get-help-support.md).
 
 ## <a name="phone-number"></a>Número de telefone
 1 800 622 1856
@@ -35,6 +35,6 @@ Inglês: Mon-Fri 9:00-18:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de Telefone Alternativo: 6622 1855
+Número Telefone alternativo: 6622 1855
 
 Cobranças de chamada locais são aplicadas

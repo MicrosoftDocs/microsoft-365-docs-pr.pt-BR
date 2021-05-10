@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8de63fad7741171dc628ff9064796d64dccd96da
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 55b2406147272cf1aff69e0469f1cc7e6fce9ef2
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50544247"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295170"
 ---
 # <a name="contact-support-for-spain"></a>Contatar o suporte para a Espanha
 
-[Encontre outro país ou região](../contact-support-for-business-products.md).
+[Encontre outro país ou região](../../business-video/get-help-support.md).
 
 ## <a name="phone-number"></a>Número de telefone
 900 814 197
@@ -39,6 +39,6 @@ Espanhol: Mon-Fri 8:00-21:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de Telefone Alternativo: 912 718 160
+Número Telefone alternativo: 912 718 160
 
 Cobranças de chamada locais são aplicadas
