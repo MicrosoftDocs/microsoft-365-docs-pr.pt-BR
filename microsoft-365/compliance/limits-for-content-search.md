@@ -1,5 +1,5 @@
 ---
-title: Limites para pesquisa de conteúdo e Descoberta Principal no centro de conformidade
+title: Limites para a pesquisa de conteúdo e a Descoberta Principal no centro de conformidade
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,16 +16,19 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 78fe3147-1979-4c41-83bb-aeccf244368d
-description: Saiba mais sobre os limites em vigor para o recurso de pesquisa de conteúdo no centro de conformidade Microsoft 365, como o número máximo de pesquisas simultâneas. Esses limites de pesquisa também se aplicam às pesquisas associadas aos principais casos de Descoberta eDiscovery.
-ms.openlocfilehash: e4cfc79d35b4dc6a22e8e7a872699d906b39a901
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Saiba mais sobre os limites em vigor para os recursos de Pesquisa de Conteúdo e Descoberta Básica da Descoberta Microsoft 365 de conformidade.
+ms.openlocfilehash: 47004473efe3407e9123fd15a7b1bf5f23e9fb23
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244315"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311407"
 ---
-# <a name="limits-for-content-search"></a>Limites para pesquisa de conteúdo 
-Vários limites são aplicados à ferramenta de pesquisa de conteúdo no centro Microsoft 365 conformidade. Isso inclui pesquisas executados  na página De pesquisa de conteúdo e pesquisas associadas a um caso de Descoberta De eDiscovery na página **Descoberta Principal.** Esses limites ajudam a manter a saúde e a qualidade dos serviços fornecidos às organizações. Também há limites relacionados à indexação de mensagens de email Exchange Online pesquisa. Você não pode modificar os limites da Pesquisa de Conteúdo ou indexação de email, mas deve estar ciente deles para que possa levar esses limites em consideração ao planejar, executar e solucionar problemas de pesquisas de conteúdo.
+# <a name="limits-for-ediscovery-search"></a>Limites para pesquisa de Descobertas EDiscovery 
+
+Vários limites são aplicados às ferramentas de pesquisa de Descoberta Microsoft 365 no centro de conformidade. Isso inclui pesquisas executados  na página De pesquisa de conteúdo e pesquisas associadas a um caso de Descoberta De eDiscovery na página **Descoberta Principal.** Esses limites ajudam a manter a saúde e a qualidade dos serviços fornecidos às organizações. Também há limites relacionados à indexação de mensagens de email Exchange Online pesquisa. Você não pode modificar os limites para pesquisas de Descoberta Eletrônico ou indexação de email, mas deve estar ciente delas para que possa levar esses limites em consideração ao planejar, executar e solucionar problemas de pesquisas de Descoberta Eletrônico.
+
+Para saber os limites relacionados à ferramenta Advanced eDiscovery, consulte [Limits in Advanced eDiscovery](limits-ediscovery20.md)
   
 ## <a name="search-limits"></a>Limites da pesquisa
 

@@ -18,12 +18,12 @@ ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como gerenciar itens parcialmente indexados (também chamados de itens não indexados) Exchange, SharePoint e OneDrive for Business dentro da sua organização.
-ms.openlocfilehash: c24fb2d9b633181538d76cf35e27dae1824b311d
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: 539fd2687735a5ee14be543750becca8c6c3154c
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51994800"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311443"
 ---
 # <a name="investigating-partially-indexed-items-in-ediscovery"></a>Investigando itens parcialmente indexados na Descoberta eDiscovery
 
@@ -49,9 +49,9 @@ Depois que você executar uma pesquisa de Descobertas E, o número total e o tam
   
 ## <a name="calculating-the-ratio-of-partially-indexed-items-in-your-organization"></a>Calculando a proporção de itens parcialmente indexados em sua organização
 
-Para entender a exposição da sua organização a itens parcialmente indexados, você pode executar uma pesquisa de todo o conteúdo em todas as caixas de correio (usando uma consulta de palavra-chave em branco). No exemplo a seguir, há 56.208 (4.830 MB) itens totalmente indexados e 470 (316 MB) parcialmente indexados.
+Para entender a exposição da sua organização a itens parcialmente indexados, você pode executar uma pesquisa de todo o conteúdo em todas as caixas de correio (usando uma consulta de palavra-chave em branco). No exemplo a seguir, há 1.629.904 (146,46 GB) itens totalmente indexados e 10.025 (10,27 GB) parcialmente indexados.
   
-![Exemplo de estatísticas de pesquisa mostrando itens parcialmente indexados](../media/0f6a5cf7-4c98-44a0-a0dd-5aed67124641.png)
+![Exemplo de estatísticas de pesquisa mostrando itens parcialmente indexados](../media/PartiallyIndexedItemsTest.png)
   
 Você pode determinar a porcentagem de itens parcialmente indexados usando os cálculos a seguir.
   
@@ -59,23 +59,23 @@ Você pode determinar a porcentagem de itens parcialmente indexados usando os c�
 
 `(Total number of partially indexed items/Total number of items) x 100`
 
-`(470/56,208) x 100 = 0.84%`
+`(10025/1629904) x 100 = 0.62%`
 
-Usando os resultados da pesquisa do exemplo anterior, 0,84% de todos os itens de caixas de correio são parcialmente indexados.
+Usando os resultados da pesquisa do exemplo anterior, 0,62% de todos os itens de caixas de correio são parcialmente indexados.
   
  **Para calcular a porcentagem do tamanho de itens parcialmente indexados em sua organização:**
 
 `(Size of all partially indexed items/Size of all items) x 100`
 
-`(316 MB/4830 MB) x 100 = 6.54%`
+`(10.27 GB/146.46 MB) x 100 = 7.0%`
 
-Portanto, no exemplo anterior, 6,54% do tamanho total de itens de caixa de correio são de itens parcialmente indexados. Como mencionado anteriormente, a maioria dos clientes de organizações tem menos de 1% do conteúdo por volume e menos de 12% do conteúdo por tamanho parcialmente indexado.
+Portanto, no exemplo anterior, 7% do tamanho total de itens de caixa de correio são de itens parcialmente indexados. Como mencionado anteriormente, a maioria dos clientes de organizações tem menos de 1% do conteúdo por volume e menos de 12% do conteúdo por tamanho parcialmente indexado.
 
 ## <a name="working-with-partially-indexed-items"></a>Trabalhando com itens parcialmente indexados
 
 Nos casos em que você precisa examinar parcialmente itens para validar que eles não contêm informações relevantes, você pode [exportar](export-a-content-search-report.md) um relatório de pesquisa de conteúdo que contém informações sobre itens parcialmente indexados. Ao exportar um relatório de pesquisa de conteúdo, certifique-se de escolher uma das opções de exportação que inclui itens parcialmente indexados.
   
-![Escolha a segunda ou a terceira opção para exportar itens parcialmente indexados](../media/624a62b4-78f7-4329-ab5d-e62e3b369885.png)
+![Escolha a segunda ou a terceira opção para exportar itens parcialmente indexados](../media/PartiallyIndexedItemsExportOptions.png)
   
 Quando você exporta resultados de pesquisa de Descoberta Items.csv. Este relatório inclui a maioria das mesmas informações que o arquivo ResultsLog.csv arquivo; no entanto, o arquivo Items.csv também inclui dois campos relacionados a itens parcialmente **indexados:** **Marcas** de Erro e Propriedades de Erro . Esses campos contêm informações sobre o erro de indexação para cada item parcialmente indexado. O uso das informações nesses dois campos pode ajudá-lo a determinar se o erro de indexação de um determinado afeta ou não sua investigação. Se isso acontecer, você poderá executar uma pesquisa direcionada e recuperar e exportar mensagens de email específicas e documentos SharePoint ou OneDrive para que você possa examiná-los para determinar se elas são relevantes para sua investigação. Para obter instruções passo a passo, consulte [Prepare a CSV file for a targeted search in Office 365](csv-file-for-an-id-list-content-search.md).
 
@@ -164,7 +164,7 @@ As etapas a seguir mostram como executar um script do PowerShell que pesquisa to
      }
    ```
 
-2. [Conectar ao Centro de Conformidade e Segurança do PowerShell](/powershell/exchange/exchange-online-powershell).
+2. [Conectar-se ao Windows PowerShell do Centro de Conformidade e Segurança](/powershell/exchange/exchange-online-powershell).
 
 3. No Centro de Conformidade & Segurança do PowerShell, vá para a pasta onde você salvou o script na etapa 1 e execute o script; por exemplo:
 
@@ -183,6 +183,6 @@ Veja um exemplo para a saída retornada pelo script.
 > 
 > - Uma lista de marcas de erro e os tipos de arquivo correspondentes para os quais o erro ocorreu.
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 [Itens parcialmente indexados na Descoberta eDiscovery](partially-indexed-items-in-content-search.md)

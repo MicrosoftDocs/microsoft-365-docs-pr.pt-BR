@@ -17,16 +17,28 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de sensibilidade para arquivos word, Excel e PowerPoint no SharePoint e OneDrive.
-ms.openlocfilehash: c3d4320937b441510424454197c4eb4ffa46d9fe
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: f610e04a9115b7654332bcc1f479144b4d100618
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245631"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311923"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
+
+> [!NOTE]
+> Há um problema atual que resulta em arquivos rotulados e criptografados que não são abertos Office na Web:
+>
+> Embora investiguemos um problema relacionado a propriedades específicas do documento, você não poderá abrir muitos arquivos em Office na Web. Para esses arquivos, você pode continuar a abri-los e editá-los em sua área de trabalho e aplicativos Office móveis. Ou faça o seguinte:
+>
+> 1. Abra o arquivo no aplicativo Office desktop.
+> 2. Remova o rótulo que aplica criptografia.
+> 3. Salve o arquivo no local original (SharePoint ou OneDrive) e feche o aplicativo da área de trabalho.
+> 4. Abra o arquivo Office na Web e reaplica o rótulo original que aplica criptografia.
+> 
+> Os arquivos criados e editados somente Office na Web não são afetados.
 
 Habilita rótulos de Office arquivos SharePoint e OneDrive para que os usuários [](sensitivity-labels.md) possam aplicar seus rótulos de sensibilidade Office para a Web. Quando esse recurso estiver habilitado, os usuários verão o botão **Sensibilidade** na faixa de opções para que possam aplicar rótulos e ver qualquer nome de rótulo aplicado na barra de status.
 
@@ -71,14 +83,6 @@ Esses novos recursos funcionam apenas [com rótulos de sensibilidade.](sensitivi
 Use o aplicativo de sincronização OneDrive versão 19.002.0121.0008 ou posterior no Windows e versão 19.002.0107.0008 ou posterior no Mac. Ambas as versões foram lançadas em 28 de janeiro de 2019 e atualmente são lançadas para todos os anéis. Para obter mais informações, consulte as [OneDrive de versão](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0). Depois de habilitar rótulos de sensibilidade para arquivos Office no SharePoint e OneDrive, os usuários que executarem uma versão mais antiga do aplicativo de sincronização serão solicitados a atualizá-lo.
 
 ## <a name="limitations"></a>Limitações
-
-- Power Query e complementos personalizados com Excel na Web: se esses arquivos são criptografados com um rótulo de sensibilidade, o SharePoint e o OneDrive não podem processar os arquivos para que os usuários não possam abri-los no Office na Web. Para esses arquivos, aplique um rótulo sem criptografia para que eles possam ser abertos no Office na Web ou instrua os usuários a abrirem os arquivos em seus aplicativos de área de trabalho.
-
-- Se você tiver problemas para abrir arquivos rotulados e criptografados no Office na Web, tente o seguinte:
-    1. Abra o arquivo no aplicativo Office desktop.
-    2. Remova o rótulo que aplica criptografia.
-    3. Salve o arquivo no local original (SharePoint ou OneDrive) e feche o aplicativo da área de trabalho.
-    4. Abra o arquivo Office na Web e reaplica o rótulo original que aplica criptografia.
 
 - SharePoint e OneDrive não aplicam automaticamente rótulos de sensibilidade a arquivos existentes que você já criptografou usando rótulos da Proteção de Informações do Azure. Em vez disso, para que os recursos funcionem depois que você habilitar rótulos de sensibilidade para arquivos Office no SharePoint e OneDrive, conclua estas tarefas:
     
@@ -173,7 +177,8 @@ Para habilitar os novos recursos, use o cmdlet [Set-SPOTenant](/powershell/modul
 
 1. Usando uma conta de estudante ou de trabalho que tenha privilégios de administrador global ou SharePoint administrador no Microsoft 365, conecte-se ao SharePoint. Para saber como, consulte [Introdução ao Shell de Gerenciamento do SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
-    Observação: se você tiver Microsoft 365 multi-geo, use o parâmetro -Url com [Conexão-SPOService](/powershell/module/sharepoint-online/connect-sposervice)e especifique a URL do site do Centro de Administração online do SharePoint para uma de suas localizações geográficas.
+   > [!NOTE]
+   > Se você tiver Microsoft 365 Multi-Geo, use o parâmetro -Url com [Conexão-SPOService](/powershell/module/sharepoint-online/connect-sposervice)e especifique a URL do site do Centro de Administração do SharePoint Online para uma de suas localizações geográficas.
 
 2. Execute o seguinte comando e pressione **Y** para confirmar:
 

@@ -1,5 +1,5 @@
 ---
-title: Fechar, reabrir e excluir ocorrências de Descobertas Principais
+title: Fechar, reabrir e excluir principais casos de Descoberta eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,96 +16,98 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Este artigo descreve como gerenciar casos principais de Descobertas eDiscovery. Isso inclui fechar uma ocorrência, reabrir uma ocorrência fechada e excluir uma ocorrência.
-ms.openlocfilehash: 17b243a7207fd6927188b42e585101ff1d258b76
-ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
+description: Este artigo descreve como gerenciar os principais casos de Descoberta eDiscovery. Isso inclui fechar um caso, reabrir um caso fechado e excluir um caso.
+ms.openlocfilehash: 251ca932954071cf949c45343130f122464dcf01
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412790"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52310867"
 ---
-# <a name="close-reopen-and-delete-a-core-ediscovery-case"></a>Fechar, reabrir e excluir um caso principal de Descoberta eDiscovery
+# <a name="close-reopen-and-delete-a-core-ediscovery-case"></a>Fechar, reabrir e excluir um caso de Descoberta Principal
 
-Este artigo descreve como fechar, reabrir e excluir ocorrências de Descobertas Principais no Microsoft 365.
+Este artigo descreve como fechar, reabrir e excluir os principais casos de Descoberta Microsoft 365.
 
-## <a name="close-a-case"></a>Fechar uma ocorrência
+## <a name="close-a-case"></a>Fechar um caso
 
-Quando o caso jurídico ou a investigação com suporte em um caso de Descoberta e Principal for concluído, você poderá fechar o caso. Veja o que acontece quando você fecha um caso:
+Quando o caso legal ou a investigação com suporte de um caso core de Descoberta eDiscovery for concluído, você poderá fechar o caso. Veja o que acontece quando você fecha um caso:
   
-- Se a ocorrência contiver qualquer local de conteúdo em espera de Descoberta eDiscovery, essas regiões serão desligadas. Depois que a espera é desligada, um período de carência de 30 dias (chamado de espera de *atraso)* é aplicado a locais de conteúdo que estavam em espera. Isso ajuda a evitar que o conteúdo seja imediatamente excluído e oferece aos administradores a oportunidade de pesquisar e restaurar conteúdo antes que ele possa ser excluído permanentemente após o período de espera de atraso expirar. Para obter mais informações, [consulte Removendo locais de conteúdo de um eDiscovery hold](create-ediscovery-holds.md#removing-content-locations-from-an-ediscovery-hold).
+- Se o caso contiver qualquer ressarção de Descoberta E, eles serão desligados. Depois que a espera é desligada, um período de carência de 30 dias (chamado de *atraso)* é aplicado a locais de conteúdo que estavam em espera. Isso ajuda a impedir que o conteúdo seja imediatamente excluído e oferece aos administradores a oportunidade de pesquisar e restaurar conteúdo antes que ele possa ser excluído permanentemente depois que o período de espera de atraso expirar. Para obter mais informações, consulte [Removendo locais de conteúdo de uma remoção de descoberta de eDiscovery](create-ediscovery-holds.md#removing-content-locations-from-an-ediscovery-hold).
 
-- Fechar uma ocorrência só desliga as retém associadas a esse caso. Se outras retenções são colocadas em um local de conteúdo (como uma Retenção de Litígio, uma política de retenção ou uma retenção de um caso de Descoberta eDiscovery Principal diferente), essas retenções ainda serão mantidas.
+- Fechar um caso apenas desativa as retenções que estão associadas a esse caso. Se outras retenções são colocadas em um local de conteúdo (como uma Retenção de Litígio, uma política de retenção ou uma retenção de um caso de Descoberta eDiscovery Principal diferente), essas retenções ainda serão mantidas.
 
-- O caso ainda está listado na página Descoberta e Principal no centro de conformidade do Microsoft 365. Os detalhes, retidos, pesquisas e membros de um caso fechado são mantidos.
+- O caso ainda está listado na página Descoberta Principal da Descoberta Microsoft 365 de conformidade. Os detalhes, retenções, pesquisas e membros de um caso fechado são retidos.
 
-- Você pode editar uma ocorrência depois que ela for fechada. Por exemplo, você pode adicionar ou remover membros, criar pesquisas e exportar resultados de pesquisa. A principal diferença entre os casos ativos e fechados é que as isenções de Descoberta eDiscovery são desligadas quando um caso é fechado.
+- Você pode editar uma ocorrência depois que ela for fechada. Por exemplo, você pode adicionar ou remover membros, criar pesquisas e exportar resultados de pesquisa. A principal diferença entre os casos ativos e fechados é que os ressarcedores de Descoberta e São desligados quando um caso é fechado.
 
 Para fechar um caso:
   
-1. No centro de conformidade do Microsoft 365, clique em **eDiscovery** Core para exibir a lista de principais ocorrências de Descoberta  >   eDiscovery em sua organização.
+1. No centro Microsoft 365 de conformidade, clique em **eDiscovery** Core para exibir a lista de principais casos de  >   Descoberta eDiscovery em sua organização.
 
-2. Clique no nome da ocorrência que você deseja fechar.
+2. Clique no nome do caso que você deseja fechar.
 
-    A **página Gerenciar esse caso** é exibida.
+   ![Fechar caso na home page do caso](../media/eDiscoveryCaseHomePage.png)
 
-3. Em **Gerenciar status da ocorrência,** clique em Fechar **caso.**
+3. Na home page, em **Status**, clique **em Fechar caso**.
 
-    Um aviso é exibido dizendo que as iseções associadas à ocorrência serão desligadas.
+    Um aviso é exibido dizendo que os ressarcições associados à ocorrência serão desligados.
 
-4. Clique **em Sim** para fechar a ocorrência.
+4. Clique **em Sim** para fechar o caso.
 
-    O status na página **Gerenciar este caso** do flyout é alterado de **Ativo** para **Fechamento.**
+    O status na home page do caso é alterado de **Ativo** para **Fechamento**.
 
-5. Feche a **página Gerenciar este caso.**
+5. Na página **Descoberta Automática Principal,** clique em **Atualizar** para atualizar o status do caso fechado. Pode levar até 60 minutos para o processo de fechamento concluir.
 
-6. Na página **Descoberta Automática Principal,** clique em Atualizar para atualizar o status do caso fechado.  Pode levar até 60 minutos para que o processo de fechamento seja concluído.
-
-    Quando o processo é concluído, o status da ocorrência é alterado para **Fechado** na página **Descoberta Principal.** Clique no nome da ocorrência  novamente para exibir a página gerenciar esse caso do flyout, que contém informações sobre quando o caso foi fechado e quem o fechou.
+    Quando o processo é concluído, o status da ocorrência é alterado para **Fechado** na página **Descoberta Principal.**
 
 ## <a name="reopen-a-closed-case"></a>Reabrir um caso fechado
 
-Quando você reabrir um caso, qualquer resuspensão de Descoberta Automática que estava no local quando o caso foi fechado não será automaticamente restabelecimento. Depois que o caso for reaberto, você terá que ir para a página **Isões** e ativar as retém anteriores. Para ativar uma espera, selecione-a para exibir a página do flyout e, em seguida, de definir a **alternância de Status** para **Ativar.**
+Quando você reabrir um caso, qualquer Descoberta Automática que estava no local quando o caso foi fechado não será automaticamente restabelecido. Depois que o caso for reaberto, você terá que ir para a página **Retém** e ativar as ressarções anteriores. Para ativar uma retenção, selecione para exibir o submenu da página e depois alterne o **Status** para **Ativo**. 
   
-1. No centro de conformidade do Microsoft 365, clique em **eDiscovery** Core para exibir a lista de principais ocorrências de Descoberta  >   eDiscovery em sua organização.
+1. No centro Microsoft 365 de conformidade, clique em **eDiscovery** Core para exibir a lista de principais casos de  >   Descoberta eDiscovery em sua organização.
 
 2. Clique no nome do caso que você deseja reabrir.
 
-    A **página Gerenciar esse caso** é exibida. 
+   ![Reabrir um caso fechado](../media/eDiscoveryCaseHomePageReopen.png)
 
-3. Em **Gerenciar status do caso,** clique em **Reabrir caso.**
+3. Na home page, em **Status**, clique em **Reabrir caso**.
 
-    Um aviso é exibido dizendo que as resuspensão que estavam associadas à ocorrência quando ele foi fechado não serão ativados automaticamente.
+    Um aviso é exibido dizendo que as resvações associadas à ocorrência quando ela foi fechada não serão ativados automaticamente.
 
 4. Clique **em Sim** para reabrir o caso.
 
-    O status na página **Gerenciar este caso** do flyout é alterado de **Fechado** para **Ativo.**
+    O status na página de sobrevoo da home page de caso é alterado **de Closed** para **Active**.
 
-5. Feche a **página Gerenciar este caso.** 
+5. Na página **Descoberta Principal da Descoberta Automática,** clique em **Atualizar** para atualizar o status do caso reaberto. Pode levar até 60 minutos para que o processo de reabertura seja concluído. 
 
-6. Na página **Descoberta Automática** Principal,  clique em Atualizar para atualizar o status do caso reaberto. Pode levar até 60 minutos para que o processo de reabertura seja concluído. 
+    Quando o processo é concluído, o status da ocorrência é alterado para **Ativo** na página **Descoberta Principal.**
 
-    Quando o processo é concluído, o status da ocorrência é alterado para **Ativo** na página **Descoberta Principal.** 
+7. (Opcional) Para ativar quaisquer bloqueios associados ao caso  reaberto, vá para a guia Bloqueios, selecione uma responsabilidade e selecione a caixa de seleção em **Status** na página de subsuletor de espera.
   
 ## <a name="delete-a-case"></a>Excluir uma ocorrência
 
-Você também pode excluir ocorrências de Descobertas Principais ativas e fechadas. Quando você exclui uma ocorrência, todas as pesquisas e exportações no caso são excluídas, e o caso é removido da lista de ocorrências na página **Descoberta** Principal do Centro de conformidade do Microsoft 365. Não é possível reabrir um caso excluído.
+Você também pode excluir casos ativos e fechados de Descoberta eDiscovery Principal. Quando você exclui um caso, todas as pesquisas e exportações no caso são excluídas, e o caso é removido da lista de casos na página Descoberta Principal de **Descoberta** e No centro de conformidade do Microsoft 365. Não é possível reabrir um caso excluído.
 
-Antes de excluir uma ocorrência (se ela está ativa  ou fechada), primeiro você deve excluir todas as retém de Descobertas De eDiscovery associadas à ocorrência. Isso inclui a exclusão de retém com um status **de Desligado**. 
+Antes de poder excluir uma ocorrência (se ela está ativa ou fechada), primeiro exclua todas as resções de *Descoberta* De eDiscovery associadas ao caso. Isso inclui a exclusão de retém com um status de **Off**. 
 
-Para excluir um eDiscovery hold:
+Para excluir uma ressarção de Descoberta e:
 
-1. Vá para **a guia** Retém no caso em que você deseja excluir.
+1. Vá na **guia Retém** no caso em que você deseja excluir.
 
-2. Clique na espera que você deseja excluir.
+2. Selecione a espera que você deseja excluir.
 
-3. Na página do flyout, clique em **Excluir bloqueio.**
+3. Na página de sobrevoo, clique em **Excluir**.
 
-Para excluir uma ocorrência:
+      ![Excluir uma responsabilidade de Descoberta De eDiscovery](../media/DeleteeDiscoveryHold.png)
 
-1. No centro de conformidade do Microsoft 365, clique em **eDiscovery** Core para exibir a lista de principais ocorrências de Descoberta  >   eDiscovery em sua organização.
+Para excluir um caso:
 
-2. Clique no nome da ocorrência que você deseja excluir.
+1. No centro Microsoft 365 de conformidade, clique em **eDiscovery** Core para exibir a lista de principais casos de  >   Descoberta eDiscovery em sua organização.
 
-3. Em **Gerenciar status da ocorrência** na página do sub-sub-piloto, clique em Excluir **caso.**
+2. Clique no nome do caso que você deseja excluir.
 
-Se o caso que você estiver tentando excluir ainda contiver rescuções de Descoberta eDiscovery, você receberá uma mensagem de erro. Você terá que excluir todas as retém associadas à ocorrência e, em seguida, tentar novamente excluir a ocorrência.
+3. Na home page do caso, em **Status**, clique **em Excluir caso**.
+
+      ![Reabrir um caso fechado](../media/eDiscoveryCaseHomePageDelete.png)
+
+Se o caso que você estiver tentando excluir ainda contiver retém a Descoberta E, você receberá uma mensagem de erro. Você terá que excluir todas as ressarcições associadas à ocorrência e tentar novamente excluir o caso.

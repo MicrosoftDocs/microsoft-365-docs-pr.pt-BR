@@ -16,76 +16,70 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Você pode pesquisar conteúdo que possa ser relevante para um caso de Descoberta e Principal.
-ms.openlocfilehash: d17a9d16643ec9077e02b5438597237b80f09af5
-ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
+description: Pesquise por conteúdo que possa ser relevante para um caso de Descoberta Principal de Descoberta e.
+ms.openlocfilehash: 8d2e2a20135312a8f111a071abbe77b03b8e8363
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44224618"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311767"
 ---
-# <a name="search-for-content-in-a-core-ediscovery-case"></a>Pesquisar conteúdo em um caso principal de Descoberta eDiscovery
+# <a name="search-for-content-in-a-core-ediscovery-case"></a>Pesquisar conteúdo em um caso core de Descoberta eDiscovery
 
-Depois que um caso de Descoberta Principal é criado e as pessoas de interesse no caso são colocadas em espera, você pode criar e executar uma ou mais pesquisas de conteúdo relevante para o caso. As pesquisas associadas a um caso de Descoberta e  Principal não estão listadas na página Pesquisa de conteúdo no centro de conformidade do Microsoft 365. Essas pesquisas estão listadas na **página Pesquisas** do caso principal de Descoberta eDiscover ao que as pesquisas estão associadas. Isso também significa que as pesquisas associadas a uma ocorrência só podem ser acessadas por membros da ocorrência.
+Depois que um caso core de Descoberta eDiscovery é criado e as pessoas de interesse no caso são colocadas em espera, você pode criar e executar uma ou mais pesquisas de conteúdo relevante para o caso. As pesquisas associadas a um caso de Descoberta Básica  de Descoberta e não estão listadas na página de pesquisa de conteúdo no centro de conformidade Microsoft 365. Essas pesquisas estão listadas na página **Pesquisas** da ocorrência principal de Descoberta eDiscover à que as pesquisas estão associadas. Isso também significa que as pesquisas associadas a um caso só podem ser acessadas por membros da ocorrência.
 
 Para criar uma pesquisa principal de Descoberta eDiscovery:
   
-1. Acesse e entre usando as credenciais da conta de usuário que recebeu as permissões [https://compliance.microsoft.com](https://compliance.microsoft.com) apropriadas de Descoberta.
+1. Acesse e entre usando as credenciais da conta de usuário que recebeu as permissões de <https://compliance.microsoft.com> Descoberta eDiscovery apropriadas e é membro do caso.
 
-2. No painel de navegação esquerdo do centro de conformidade do Microsoft 365, clique em Mostrar tudo e clique em **eDiscovery > Core.**
+2. No painel de navegação esquerdo do centro de conformidade Microsoft 365, clique em **Mostrar** tudo e clique em **Descoberta > Core**.
 
-3. Na página **Descoberta eDiscovery** Principal, selecione a ocorrência em que você deseja criar uma pesquisa associada e clique em **Abrir caso.**
+3. Na página **Descoberta Principal da Descoberta** e, em seguida, selecione o caso que você deseja criar uma pesquisa associada e clique em Abrir **caso**.
 
-4. Na **home** page do caso, clique na **guia** Pesquisas.
+4. Na **home** page do caso, clique na guia **Pesquisas** e clique em **Nova pesquisa**.
+
+   ![Clique em Nova pesquisa para criar uma pesquisa principal de Descoberta EDiscovery](../media/CoreeDiscoverySearch1.png)
+
+   > [!NOTE]
+   > A **opção Pesquisar por ID** permite que você pesquise mensagens de email específicas e outros itens de caixa de correio usando uma lista de Exchange IDs. Para criar uma pesquisa de lista de IDs, você envia um arquivo de valores separados por vírgula (CSV) que identifica os itens específicos da caixa de correio a serem pesquisados. Para obter instruções, confira [Preparar um arquivo CSV para uma pesquisa de lista de IDs](csv-file-for-an-id-list-content-search.md).
+
+5. No assistente **Nova pesquisa,** digite um nome para a pesquisa e uma descrição opcional que ajuda a identificar a pesquisa. O nome da pesquisa deve ser exclusivo em sua organização.
+
+6. Na página **Locais,** escolha os locais de conteúdo que você deseja pesquisar. Você pode pesquisar caixas de correio, sites e pastas públicas.
+
+    ![Escolher os locais de conteúdo para colocar em espera](../media/ContentSearchLocations.png)
   
-5. Na página **Pesquisar,** clique em **Nova pesquisa.**
+   1. **Exchange caixas de** correio : de  definir a alternância como On e clique em Escolher usuários, grupos ou **equipes** para especificar as caixas de correio que devem ser colocadas em espera. Use a caixa de pesquisa para encontrar caixas de correio de usuário e grupos de distribuição (para colocar uma responsabilidade nas caixas de correio dos membros do grupo) para colocar em espera. Você também pode pesquisar a caixa de correio associada a uma Equipe da Microsoft (para mensagens de canal), Office 365 Group e Yammer Group. Para obter mais informações sobre os dados do aplicativo armazenados em caixas de correio, consulte Conteúdo armazenado em caixas de [correio para Descoberta Eletrônico.](what-is-stored-in-exo-mailbox.md)
 
-6. Na página **Nova pesquisa**, você pode adicionar palavras-chave e condições para criar a consulta de pesquisa. 
-
-    ![Nova pesquisa](../media/0e9954e7-c0ea-4e05-820b-e4b81dc5f81d.png)
+   2. **SharePoint :** de definir a alternância como On e clique em Escolher **sites** para especificar SharePoint sites e OneDrive contas para colocar em espera.  Digite a URL de cada site que você deseja colocar em retenção. Você também pode adicionar a URL do site SharePoint para uma Equipe da Microsoft, Office 365 Group ou Yammer Group.
   
-   a. Você pode especificar palavras-chave, propriedades de mensagens, como datas enviadas e recebidas, ou propriedades do documento, como nomes de arquivo ou a data em que um documento foi alterado pela última vez. Você pode usar consultas mais complexas que usam um operador booleano, como **AND**, **OR**, **NOT** ou **NEAR**. Você também pode procurar informações confidenciais (por exemplo, números de seguridade social) em documentos ou pesquisar documentos que foram compartilhados externamente. Se você deixar a caixa de palavra-chave vazia, todo o conteúdo localizado nos locais de conteúdo especificados será incluído nos resultados da pesquisa.
-
-   b. Você pode clicar na caixa de seleção Mostrar **lista de** palavras-chave e digitar uma palavra-chave em cada linha. Se você fizer isso, as palavras-chave em cada linha serão conectadas pelo operador **OR** na consulta de pesquisa criada. Você pode inserir no máximo 20 palavras-chave na lista.
-
-    ![Lista de palavras-chave](../media/29cceb5d-2817-4fc4-b91a-ced1c5824a17.png)
+   3. **Exchange pastas públicas**: de definir a alternância como **On** para colocar todas as pastas públicas em sua Exchange Online organização em espera. Não é possível escolher pastas públicas específicas para colocar em espera. Deixe o botão de alternância desligado se você não quiser colocar uma espera em pastas públicas.
   
-    Por que usar a lista de palavras-chave? Para obter estatísticas que mostram quantos itens correspondem a cada palavra-chave. Isso ajudará a identificar rapidamente quais palavras-chave são as mais recentes. Também poderá usar uma frase de palavra-chave (entre parênteses) em uma linha. Para obter mais informações sobre as estatísticas de pesquisa, confira [Exibir estatísticas da palavra-chave para Resultados de Pesquisa de Conteúdo](view-keyword-statistics-for-content-search.md).
+   4. Mantenha essa caixa de seleção selecionada para pesquisar Teams conteúdo para usuários locais. Por exemplo, se você pesquisar todas as caixas de correio Exchange na organização e essa caixa de seleção estiver selecionada, o armazenamento baseado em nuvem usado para armazenar dados de chat Teams para usuários locais será incluído no escopo da pesquisa. Para obter mais informações, confira [Pesquisar dados de bate-papo do Teams para usuários locais](search-cloud-based-mailboxes-for-on-premises-users.md).
 
-    Para obter mais informações sobre como usar a lista de palavras-chave, consulte [Criando uma consulta de pesquisa.](content-search.md#building-a-search-query)
+7. Na página **Definir suas condições de pesquisa,** digite uma consulta de palavra-chave e adicione condições à consulta de pesquisa, se necessário.
 
-   c. Você pode clicar **em Condições** e adicionar condições a uma consulta de pesquisa para restringir uma pesquisa e retornar um conjunto de resultados mais refinado. Cada condição adiciona uma cláusula à consulta de pesquisa KQL que é criada e executada quando você inicia a pesquisa. Uma condição é logicamente conectada à consulta de palavra-chave (especificada na caixa de palavra-chave) pelo operador **AND**. Isso significa que os itens devem atender à consulta de palavra-chave e a cada condição a ser incluída nos resultados. É assim que as condições ajudam a restringir os resultados.
+   ![Configurar a consulta de pesquisa](../media/ContentSearchQuery.png)
 
-    Para saber mais sobre como criar uma consulta de pesquisa e usar condições, confira [Keyword queries for Content Search](keyword-queries-and-search-conditions.md).
+   1. Especifique palavras-chave, propriedades de mensagem, como datas enviadas e recebidas, ou propriedades de documento, como nomes de arquivo ou a data em que um documento foi alterado pela última vez. Faça consultas mais complexas que usam um operador Booleano, **E**, **OU**, **NÃO** e **PRÓXIMO**. Se você deixar a caixa de palavra-chave vazia, todo o conteúdo localizado nos locais de conteúdo especificado será incluído nos resultados da pesquisa. Para obter mais informações, consulte [Consultas de palavra-chave e condições de pesquisa para eDiscovery](keyword-queries-and-search-conditions.md).
 
-7. Em **Locais: locais em espera,** escolha os locais de conteúdo que você deseja pesquisar. Você pode pesquisar caixas de correio, sites e pastas públicas na mesma pesquisa.
+   2. Como alternativa, você pode clicar na caixa de seleção **Mostrar lista de palavras-chave** e digitar uma palavra-chave em cada linha. Ao fazer isso, as palavras-chave em cada linha serão conectadas por um operador lógico (**c:s**) com funcionalidade semelhante ao operador **OU** na consulta de pesquisa criada.
 
-    ![Locais, locais em espera](../media/d56398aa-0b20-4500-8e26-494eab92a99f.png)
-  
-    - **Todos os locais.** Selecione essa opção para pesquisar todos os locais de conteúdo em sua organização. Ao selecionar essa opção, você pode optar por pesquisar todas as caixas de correio do Exchange (o que inclui as caixas de correio de todos os Grupos do Microsoft Teams, do Yammer e do Office 365), todos os sites do SharePoint e do OneDrive for Business (que inclui os sites de todos os Grupos do Microsoft Teams, do Yammer e do Office 365) e todas as pastas públicas.
-    
-    - **Todos os locais em espera.** Selecione essa opção para pesquisar todos os locais de conteúdo que foram colocados em espera de Descoberta eDiscovery no caso. Se o caso contiver várias regiões, os locais de conteúdo de todas as regiões serão pesquisados. Além disso, se um local de conteúdo foi colocado em uma espera baseada em consulta, somente os itens que estão em espera serão pesquisados quando você executar a pesquisa de conteúdo que você está criando nesta etapa. Por exemplo, se um usuário foi colocado em um caso de espera baseado em consulta que preserva itens que foram enviados ou criados antes de uma data específica, somente esses itens serão pesquisados. Isso é realizado conectando a consulta de isenção de caso e a consulta de pesquisa de conteúdo por um **operador AND.** Para obter mais informações, [consulte Locais de pesquisa em eDiscovery hold](create-ediscovery-holds.md#search-locations-on-ediscovery-hold).
-    
-    - **Locais específicos.** Selecione essa opção para selecionar as caixas de correio e sites que você deseja pesquisar. Quando você seleciona essa opção e clica **em Modificar,** uma lista de locais é exibida. Você pode optar por pesquisar qualquer um ou todos os usuários, grupos, equipes ou locais de site. Você também pode pesquisar as pastas públicas em sua organização.
-    
-      ![Selecionar locais específicos](../media/97469b15-7be1-4aee-be27-f8343636152c.png)
-  
-     Se você selecionar essa opção e pesquisar qualquer local de conteúdo que estiver em espera, qualquer consulta de um caso baseado em consulta não será aplicada à consulta de pesquisa. Em outras palavras, todo o conteúdo é pesquisado, não apenas o conteúdo preservado por uma isenção de caso baseada em consulta.
+      Por que usar a lista de palavras-chave? Para obter estatísticas que mostram quantos itens correspondem a cada palavra-chave. Isso ajudará a identificar rapidamente quais palavras-chave são as mais recentes. Também poderá usar uma frase de palavra-chave (entre parênteses) em uma linha. Para obter mais informações sobre a lista de palavras-chave e estatísticas de pesquisa, consulte Obter estatísticas de palavra-chave [para pesquisas](view-keyword-statistics-for-content-search.md#get-keyword-statistics-for-searches).
 
-8. Depois de selecionar os locais de conteúdo para pesquisar, clique em **Feito** e em **Salvar.**
+      > [!NOTE]
+      > Para ajudar a reduzir problemas causados por listas de palavras-chave grandes, você está limitado a no máximo 20 linhas na lista de palavras-chave.
 
-9. Na página **Nova pesquisa,** clique em **Salvar & e** digite um nome para a pesquisa. As pesquisas associadas a uma ocorrência de Descoberta e Principal devem ter nomes exclusivos na sua organização do Office 365.
+   3. Você pode adicionar condições de pesquisa para restringir uma pesquisa e retornar um conjunto mais refinado de resultados. Cada condição adiciona uma cláusula à consulta de pesquisa que é criada e executada quando você inicia a pesquisa. Uma condição é logicamente conectada à consulta de palavra-chave (especificada na caixa de palavra-chave) por um operador lógico (**c:c**) parecido com a funcionalidade do operador **E**. Isso significa que os itens precisam atender à consulta de palavras-chave e uma ou mais condições para serem incluídas nos resultados. É assim que as condições ajudam a restringir os resultados. Para obter uma lista e uma descrição das condições que podem ser usadas em uma consulta de pesquisa, confira a seção [Condições de pesquisa](keyword-queries-and-search-conditions.md#search-conditions).
 
-10. Clique **em** Salvar para salvar as configurações de pesquisa e iniciar a pesquisa.
+8. Revise as configurações de pesquisa (e edite se necessário) e envie a pesquisa para in-locar.
 
-  Após a conclusão da pesquisa, você poderá visualizar os resultados. Se necessário, clique **em Atualizar** na **página Pesquisas** para exibir a pesquisa criada na lista.
+Após a conclusão da pesquisa, você poderá visualizar os resultados. Se necessário, clique **em Atualizar** na **página Pesquisas** para exibir a pesquisa criada.
 
-11. Clique na pesquisa para exibir a página do flyout, que contém estatísticas sobre a pesquisa e para executar outras tarefas, como exibir estatísticas de pesquisa e exportar os resultados da pesquisa.
+## <a name="more-information-about-searching-content-locations"></a>Mais informações sobre a pesquisa de locais de conteúdo
 
-## <a name="more-information-about-searching-content-locations"></a>Mais informações sobre como pesquisar locais de conteúdo
+- Quando você clica **em Escolher usuários, grupos** ou equipes para especificar caixas de correio para pesquisar, o seletor de caixa de correio exibido está vazio. Isso foi desenvolvido para melhorar o desempenho. Para adicionar destinatários a essa lista, clique em Escolher **usuários,** grupos ou equipes , digite um nome (no mínimo três caracteres) na caixa de pesquisa, marque a caixa de seleção ao lado do nome e clique em **Escolher**.
 
-- Quando você clica **em Escolher usuários, grupos** ou equipes para especificar caixas de correio a pesquisar, o seletor de caixa de correio exibido fica vazio. Isso foi desenvolvido para melhorar o desempenho. Para adicionar destinatários a essa lista, clique em Escolher **usuários,** grupos ou equipes, digite um nome (no mínimo 3 caracteres) na caixa de pesquisa, marque a caixa de seleção ao lado do nome e clique em **Escolher.**
+- Você pode adicionar caixas de correio inativas, Microsoft Teams, grupos Yammer, grupos de Office 365 e grupos de distribuição à lista de caixas de correio a ser pesquisada. Não há suporte para grupos dinâmicos de distribuição. Se você adicionar Microsoft Teams, Yammer grupos ou Office 365 grupos, a caixa de correio do grupo ou da equipe será pesquisada; as caixas de correio dos membros do grupo não são pesquisadas.
 
-- Você pode adicionar caixas de correio inativas, Microsoft Teams, Grupos do Yammer, Grupos do Office 365 e grupos de distribuição à lista de caixas de correio a pesquisar. Não há suporte para grupos dinâmicos de distribuição. Se você adicionar o Microsoft Teams, Grupos do Yammer ou Grupos do Office 365, o grupo ou a caixa de correio da equipe será pesquisada; as caixas de correio dos membros do grupo não são pesquisadas.
-
-- Para adicionar sites, clique em Escolher **sites,** clique em Escolher **sites** novamente e digite a URL de cada site que você deseja pesquisar. Você também pode adicionar a URL do site do SharePoint para uma Equipe da Microsoft, um Grupo do Yammer ou um Grupo do Office 365.
+- Para adicionar sites à pesquisa, acione a alternância e clique **em Escolher sites**. Digite a URL para cada site que você deseja pesquisar. Você também pode adicionar a URL do site SharePoint para uma Equipe da Microsoft, um grupo Yammer ou um grupo Office 365.

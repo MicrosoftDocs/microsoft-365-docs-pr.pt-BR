@@ -21,19 +21,19 @@ search.appverid:
 - MET150
 description: Saiba como desaignar licenças de contas de usuário.
 ms.date: 07/01/2020
-ms.openlocfilehash: 550136c2cfa8d81a31e52a4313dc9c967a55d56e
-ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
+ms.openlocfilehash: 87bb8f6fe0e85fc4ac832f2bc4ad746e8d6386eb
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51398188"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52310987"
 ---
 # <a name="unassign-licenses-from-users"></a>Cancelar a atribuição de licenças de usuários
 
 Você pode desasignar licenças  de usuários na página Usuários ativos ou na página **Licenças.** O método usado depende se você deseja desasincar licenças de produtos de usuários específicos ou desasincar licenças de usuários de um produto específico.
 
 > [!NOTE]
-> Como administrador, você não pode atribuir ou desatribuição de licenças para uma assinatura de compra de autoatendados comprada por um usuário em sua organização. Você pode assumir uma assinatura de compra [autoatendente](../../commerce/subscriptions/manage-self-service-purchases-admins.md#take-over-a-self-service-purchase-subscription)e, em seguida, atribuir ou desatribuição de licenças.
+> Como administrador, você não pode atribuir ou cancelar a atribuição de licenças para uma assinatura de compra de autoatendimento comprada por um usuário em sua organização. Você pode [assumir uma assinatura de compra de autoatendimento](../../commerce/subscriptions/manage-self-service-purchases-admins.md#take-over-a-self-service-purchase-subscription), e, em seguida, atribuir ou cancelar a atribuição de licenças.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -53,12 +53,12 @@ Quando você usa a página **Licenças** para desasincar licenças, desaigna lic
 
 ::: moniker range="o365-germany"
 
-1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">de administração,</a>vá para a página  > **Licenças de** Cobrança.
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Licenças** página.
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">de administração,</a>vá para a página  > **Licenças de** Cobrança.
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Licenças** página.
 
 ::: moniker-end
 
@@ -81,13 +81,13 @@ Quando você usa a **página Usuários ativos** para desaignar licenças, você 
 
 ::: moniker range="o365-germany"
 
-1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">de administração,</a>vá para a página **Cobrança** > **de usuários ativos.**
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Usuários ativos** página.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">de administração,</a>vá para a página **Cobrança** > **de usuários ativos.**
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Usuários ativos** página.
 
 ::: moniker-end
 
@@ -105,13 +105,13 @@ Quando você usa a **página Usuários ativos** para desaignar licenças, você 
 
 ::: moniker range="o365-germany"
 
-1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">de administração,</a>vá para a página **Cobrança** > **de usuários ativos.**
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Usuários ativos** página.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">de administração,</a>vá para a página **Cobrança** > **de usuários ativos.**
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Usuários ativos** página.
 
 ::: moniker-end
 
@@ -123,11 +123,11 @@ Quando você usa a **página Usuários ativos** para desaignar licenças, você 
 ## <a name="what-happens-to-a-users-data-when-you-remove-their-license"></a>O que acontece com os dados de um usuário ao remover a licença?
 
 - Quando uma licença é removida de um usuário, os dados associados a essa conta são mantidos por 30 dias. Após o período de carência de 30 dias, os dados são excluídos e não podem ser recuperados.
-- Os arquivos salvos no OneDrive for Business não são excluídos, a menos que o usuário seja excluído do centro de administração do Microsoft 365 ou seja removido por meio da sincronização do Active Directory. Para obter mais informações, consulte Retenção e exclusão do [OneDrive.](/onedrive/retention-and-deletion)
-- Quando a licença é removida, a caixa de correio do usuário não é mais pesquisável usando uma ferramenta de Descoberta Eletrônico, como Pesquisa de Conteúdo ou Descoberta Avançada. Para obter mais informações, consulte "Pesquisar caixas de correio desconectadas ou des licenciadas" na Pesquisa de [Conteúdo no Microsoft 365](../../compliance/content-search.md#searching-disconnected-or-de-licensed-mailboxes).
-- Se você tiver uma assinatura enterprise, como o Office 365 Enterprise E3, o Exchange Online permitirá que você preserve os dados de caixa de correio de uma conta de usuário excluída usando caixas de correio [inativas](../../compliance/inactive-mailboxes-in-office-365.md). Para obter mais informações, [consulte Create and manage inactive mailboxes in Exchange Online](../../compliance/create-and-manage-inactive-mailboxes.md).
-- Para saber como bloquear o acesso de um usuário aos dados do Microsoft 365 após a remoção da licença e como obter acesso aos dados posteriormente, consulte [Remove a former employee](../add-users/remove-former-employee.md).
-- Se você remover a licença de um usuário e eles ainda têm aplicativos do Office [instalados,](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380) eles verão Erros de ativação e produto não licenciado no Office quando eles usam aplicativos do Office.
+- Os arquivos salvos OneDrive for Business não são excluídos, a menos que o usuário seja excluído do centro de administração Microsoft 365 ou seja removido por meio da sincronização do Active Directory. Para obter mais informações, [consulte OneDrive retenção e exclusão.](/onedrive/retention-and-deletion)
+- Quando a licença é removida, a caixa de correio do usuário não é mais pesquisável usando uma ferramenta de Descoberta Eletrônico, como pesquisa de conteúdo ou Advanced eDiscovery. Para obter mais informações, consulte "Pesquisar caixas de correio desconectadas ou des licenciadas" em [Referência de pesquisa de conteúdo](../../compliance/content-search-reference.md#searching-disconnected-or-de-licensed-mailboxes).
+- Se você tiver uma assinatura Enterprise, como Office 365 Enterprise E3, Exchange Online permite preservar os dados de caixa de correio de uma conta de usuário excluída usando caixas de correio [inativas](../../compliance/inactive-mailboxes-in-office-365.md). Para obter mais informações, [consulte Create and manage inactive mailboxes in Exchange Online](../../compliance/create-and-manage-inactive-mailboxes.md).
+- Para saber como bloquear o acesso de um usuário a Microsoft 365 dados após a remoção da licença e como obter acesso aos dados posteriormente, consulte [Remove a former employee](../add-users/remove-former-employee.md).
+- Se você remover a licença de um usuário e eles ainda Office [aplicativos instalados,](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380) eles verão erros de ativação e produto não licenciado no Office quando eles usam Office aplicativos.
 
 ## <a name="next-steps"></a>Próximas etapas
 

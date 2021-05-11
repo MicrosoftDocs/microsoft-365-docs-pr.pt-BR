@@ -1,5 +1,5 @@
 ---
-title: Usar a Pesquisa de Conteúdo para determinadas coleções
+title: Usar a pesquisa de conteúdo para coleções direcionadas
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -18,26 +18,26 @@ search.appverid:
 - MET150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 ms.custom: seo-marvel-apr2020
-description: Use a Pesquisa de Conteúdo no Microsoft 365 de conformidade para executar coleções direcionadas, que garantem que os itens estão localizados em uma caixa de correio ou pasta de site específica.
-ms.openlocfilehash: ea01386b7e52c05f8116caacddd6dec7baf12272
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+description: Use a pesquisa de conteúdo no Microsoft 365 de conformidade para executar um conjunto direcionado, que pesquisa itens em uma caixa de correio ou pasta de site específica.
+ms.openlocfilehash: cf0364d39a78e1bbbc062d85ce750d190fbbda5a
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51994758"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311888"
 ---
-# <a name="use-content-search-for-targeted-collections"></a>Usar a Pesquisa de Conteúdo para determinadas coleções
+# <a name="use-content-search-for-targeted-collections"></a>Usar a pesquisa de conteúdo para coleções direcionadas
 
-O recurso pesquisa de conteúdo no centro de conformidade do Microsoft 365 não fornece uma maneira direta na interface do usuário de pesquisar pastas específicas em caixas de correio Exchange ou sites SharePoint e OneDrive for Business. No entanto, é possível pesquisar pastas específicas (chamadas de uma coleção direcionada *)* especificando a propriedade ID da pasta para a propriedade email ou caminho (DocumentLink) para sites na sintaxe de consulta de pesquisa real. Usar a Pesquisa de Conteúdo para executar uma coleção direcionada é útil quando você tem certeza de que os itens que respondem a uma ocorrência ou itens privilegiados estão localizados em uma caixa de correio ou pasta de site específica. Você pode usar o script neste artigo para obter a ID da pasta para pastas de caixa de correio ou o caminho (DocumentLink) para pastas em um SharePoint e OneDrive for Business site. Em seguida, você pode usar a ID da pasta ou o caminho em uma consulta de pesquisa para retornar itens localizados na pasta.
+A ferramenta de pesquisa de conteúdo no centro de conformidade do Microsoft 365 não fornece uma maneira direta na interface do usuário de pesquisar pastas específicas em Exchange caixas de correio ou SharePoint e sites OneDrive for Business. No entanto, é possível pesquisar pastas específicas (chamadas de uma coleção direcionada *)* especificando a propriedade ID da pasta para a propriedade email ou caminho (DocumentLink) para sites na sintaxe de consulta de pesquisa real. Usar a Pesquisa de Conteúdo para executar uma coleção direcionada é útil quando você tem certeza de que os itens que respondem a uma ocorrência ou itens privilegiados estão localizados em uma caixa de correio ou pasta de site específica. Você pode usar o script neste artigo para obter a ID da pasta para pastas de caixa de correio ou o caminho (DocumentLink) para pastas em um SharePoint e OneDrive for Business site. Em seguida, você pode usar a ID da pasta ou o caminho em uma consulta de pesquisa para retornar itens localizados na pasta.
 
 > [!NOTE]
 > Para retornar o conteúdo localizado em uma pasta em um SharePoint ou OneDrive for Business site, o script neste tópico usa a propriedade gerenciada DocumentLink em vez da propriedade Path. A propriedade DocumentLink é mais robusta do que a propriedade Path porque retornará todo o conteúdo em uma pasta, enquanto a propriedade Path não retornará alguns arquivos de mídia.
 
 ## <a name="before-you-run-a-targeted-collection"></a>Antes de executar uma coleção direcionada
 
-- Você precisa ser membro do grupo de funções do Gerenciador de Descobertas e no Centro de Conformidade & Segurança para executar o script na Etapa 1. Para obter mais informações, confira [Atribuir permissões de descoberta eletrônica](assign-ediscovery-permissions.md).
+- Você precisa ser membro do grupo de funções do Gerenciador de Descobertas e No Centro de Conformidade & Segurança para executar o script na Etapa 1. Para obter mais informações, confira [Atribuir permissões de descoberta eletrônica](assign-ediscovery-permissions.md).
 
-    Além disso, você precisa receber a função Destinatários de Email em sua Exchange Online organização. Isso é necessário para executar o cmdlet **Get-MailboxFolderStatistics,** que está incluído no script. Por padrão, a função Destinatários de Email é atribuída aos grupos de função Gerenciamento da Organização e Gerenciamento de Destinatários Exchange Online. Para obter mais informações sobre a atribuição de permissões Exchange Online, consulte [Gerenciar membros do grupo de função](/exchange/manage-role-group-members-exchange-2013-help). Você também pode criar um grupo de função personalizado, atribuir a função Destinatários de Email a ele e, em seguida, adicionar os membros que precisam executar o script na Etapa 1. Para obter mais informações, consulte [Manage role groups](/Exchange/permissions-exo/role-groups).
+- Você também precisa receber a função Destinatários de Email em sua Exchange Online organização. Isso é necessário para executar o cmdlet **Get-MailboxFolderStatistics,** que está incluído no script. Por padrão, a função Destinatários de Email é atribuída aos grupos de função Gerenciamento da Organização e Gerenciamento de Destinatários Exchange Online. Para obter mais informações sobre a atribuição de permissões Exchange Online, consulte [Gerenciar membros do grupo de função](/exchange/manage-role-group-members-exchange-2013-help). Você também pode criar um grupo de função personalizado, atribuir a função Destinatários de Email a ele e, em seguida, adicionar os membros que precisam executar o script na Etapa 1. Para obter mais informações, consulte [Manage role groups](/Exchange/permissions-exo/role-groups).
 
 - O script neste artigo dá suporte à autenticação moderna. Você pode usar o script como está se você for um Microsoft 365 ou uma organização Microsoft 365 GCC. Se você for uma organização Office 365 Alemanha, uma organização Microsoft 365 GCC alta ou uma organização Microsoft 365 do DoD, será necessário editar o script para executar com êxito. Especificamente, você precisa editar a linha e usar o parâmetro `Connect-ExchangeOnline` *ExchangeEnvironmentName* (e o valor apropriado para o tipo de organização) para se conectar ao Exchange Online PowerShell.  Além disso, você precisa editar a linha e usar os `Connect-IPPSSession` parâmetros *ConnectionUri* e *AzureADAuthorizationEndpointUri* (e os valores apropriados para o tipo de organização) para se conectar ao Centro de Conformidade e Segurança & do PowerShell. Para obter mais informações, consulte os exemplos em [Conexão para Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-without-using-mfa) e Conexão para o Centro de Conformidade e [Segurança & PowerShell](/powershell/exchange/connect-to-scc-powershell#connect-to-security--compliance-center-powershell-without-using-mfa).
 

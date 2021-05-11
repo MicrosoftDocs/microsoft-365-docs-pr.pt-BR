@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 60220d00ca1b612564b72103b9206e3d6d89dc60
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 9c4f3da57796903fc22314574f389bcdd92ca4b3
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689444"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311983"
 ---
 # <a name="troubleshoot-siem-tool-integration-issues"></a>Solucionar problemas de integração da ferramenta SIEM
 
@@ -51,7 +51,7 @@ Se o segredo do cliente expirar ou se você tiver perdido a cópia fornecida qua
 
 4. Clique **em Registros de aplicativo.** Em seguida, na lista aplicativos, selecione o aplicativo.
 
-5. Selecione **a seção** Chaves e forneça uma descrição de chave e especifique a duração da validade da chave.
+5. Selecione **Certificados & Segredos,** Clique em Novo Segredo do Cliente e forneça uma descrição e especifique a duração da validade.
 
 6. Clique em **Salvar**. O valor da chave é exibido.
 

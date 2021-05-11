@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 89b8ac7d99cfcd4c5e5e647e5ba54e14184ef0bd
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 2bb1fde1bfd8ddfa358d1141c3821843e532a8bf
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688112"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311995"
 ---
 # <a name="run-a-detection-test-on-a-newly-onboarded-microsoft-defender-for-endpoint-device"></a>Executar um teste de detecção em um dispositivo recém-integrado do Microsoft Defender para Ponto de Extremidade 
 
@@ -31,10 +31,10 @@ ms.locfileid: "51688112"
 
 
 **Aplica-se a:**
-- Versões com suporte do Windows 10
+- Versões Windows 10 com suporte
 - Windows Server 2012 R2
 - Windows Server 2016
-- Windows Server, versão 1803
+- Windows Servidor, versão 1803
 - Windows Server, 2019
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
@@ -55,7 +55,7 @@ Execute o seguinte script do PowerShell em um dispositivo recém-conectado para 
 3. No prompt, copie e execute o seguinte comando:
 
    ```powershell
-   powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden $ErrorActionPreference= 'silentlycontinue';(New-Object System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe', 'C:\\test-MDATP-test\\invoice.exe');Start-Process 'C:\\test-MDATP-test\\invoice.exe'
+   powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden $ErrorActionPreference = 'silentlycontinue';(New-Object System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe', 'C:\\test-MDATP-test\\invoice.exe');Start-Process 'C:\\test-MDATP-test\\invoice.exe'
    ```
 
 A janela prompt de comando será fechada automaticamente. Se bem-sucedido, o teste de detecção será marcado como concluído e um novo alerta aparecerá no portal do dispositivo conectado em aproximadamente 10 minutos.

@@ -1,5 +1,5 @@
 ---
-title: Migrar pesquisas de Descobertas EDiscovery herdado e retê-lo no centro de conformidade do Microsoft 365
+title: Migrar pesquisas e retês de Descobertas EDiscovery herdado para o Microsoft 365 de conformidade
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,31 +14,31 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: ef5562aa6f5c7519d19452100b55dd4bc30d4126
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: aaae5e6bddc48f29cc0766fe26a1976672c7dd49
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926319"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52310783"
 ---
-# <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>Migrar pesquisas de Descobertas EDiscovery herdado e retê-lo no centro de conformidade do Microsoft 365
+# <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>Migrar pesquisas e retês de Descobertas EDiscovery herdado para o Microsoft 365 de conformidade
 
-O Centro de conformidade do Microsoft 365 oferece uma experiência aprimorada para o uso da Descoberta Eletrônico, incluindo: maior confiabilidade, melhor desempenho e muitos recursos personalizados para fluxos de trabalho de Descoberta Eletrônico, incluindo casos para organizar seu conteúdo por questão, conjuntos de revisão para revisar conteúdo e análise para ajudar a analisar dados para revisão, como agrupação quase duplicada, threading de email, análise de temas e codificação preditiva.
+O centro de conformidade do Microsoft 365 oferece uma experiência aprimorada para o uso de Descoberta Eletrônico, incluindo: maior confiabilidade, melhor desempenho e muitos recursos personalizados para fluxos de trabalho de Descoberta Eletrônico, incluindo casos para organizar seu conteúdo por questão, conjuntos de revisão para revisar conteúdo e análise para ajudar a analisar dados para revisão, como agrupação quase duplicada, threading de email, análise de temas e codificação preditiva.
 
-Para ajudar os clientes In-Place aproveitar a funcionalidade nova e aprimorada, este artigo fornece orientações básicas sobre como migrar as pesquisas de Descobertas e Descobertas In-Place do Centro de administração do Exchange para o centro de conformidade do Microsoft 365.
+Para ajudar os clientes In-Place aproveitar a funcionalidade nova e aprimorada, este artigo fornece orientações básicas sobre como migrar pesquisas e retês de descobertas e descobertas In-Place do centro de administração do Exchange para o centro de conformidade Microsoft 365.
 
 > [!NOTE]
-> Como há muitos cenários diferentes, este artigo fornece orientações gerais para pesquisas de transição e retém para um caso principal de Descoberta Digital no Centro de conformidade do Microsoft 365. O uso de casos de Descoberta Digital nem sempre é necessário, mas eles adicionam uma camada extra de segurança, ao permitir que você atribua permissões para controlar quem tem acesso aos casos de Descoberta Digital em sua organização.
+> Como há muitos cenários diferentes, este artigo fornece orientações gerais para fazer a transição de pesquisas e retém para um caso de Descoberta eDiscovery principal no centro de conformidade Microsoft 365 de segurança. O uso de casos de Descoberta Digital nem sempre é necessário, mas eles adicionam uma camada extra de segurança, ao permitir que você atribua permissões para controlar quem tem acesso aos casos de Descoberta Digital em sua organização.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Você precisa ser membro do grupo de funções do Gerenciador de Descobertas e no Centro de Conformidade & Segurança para executar os comandos do PowerShell descritos neste artigo. Você também precisa ser membro do grupo de função Gerenciamento de Descoberta no Centro de administração do Exchange.
+- Você precisa ser membro do grupo de funções do Gerenciador de Descobertas e no Centro de Conformidade & Segurança para executar os comandos do PowerShell descritos neste artigo. Você também precisa ser membro do grupo de função Gerenciamento de Descoberta no centro de Exchange de administração.
 
 - Este artigo fornece orientações sobre como criar uma ressalto de Descoberta e. A política de espera será aplicada a caixas de correio por meio de um processo assíncrono. Ao criar uma contenção de Descoberta eDiscovery, você deve criar um CaseHoldPolicy e CaseHoldRule, caso contrário, a responsabilidade não será criada e os locais de conteúdo não serão colocados em espera.
 
-## <a name="step-1-connect-to-exchange-online-powershell-and-security--compliance-center-powershell"></a>Etapa 1: Conectar-se ao PowerShell do Exchange Online e ao Centro de & de Conformidade do PowerShell
+## <a name="step-1-connect-to-exchange-online-powershell-and-security--compliance-center-powershell"></a>Etapa 1: Conexão para Exchange Online PowerShell e Segurança & Centro de Conformidade do PowerShell
 
-A primeira etapa é conectar-se ao PowerShell do Exchange Online e ao Centro de Conformidade e Segurança & PowerShell. Você pode copiar o script a seguir, colar-o em uma janela do PowerShell e, em seguida, execute-o. Você será solicitado a solicitar credenciais para a organização à que deseja se conectar. 
+A primeira etapa é conectar-se Exchange Online powershell e segurança & Centro de Conformidade do PowerShell. Você pode copiar o script a seguir, colar-o em uma janela do PowerShell e, em seguida, execute-o. Você será solicitado a solicitar credenciais para a organização à que deseja se conectar. 
 
 ```powershell
 $UserCredential = Get-Credential
@@ -81,7 +81,7 @@ A saída desses dois comandos será semelhante à seguinte:
 > [!NOTE]
 > A duração da In-Place neste exemplo é indefinida (*ItemHoldPeriod: Unlimited*). Isso é típico para cenários de Descoberta e Investigação Legal. Se a duração da retenção tiver um valor diferente do indefinido, o motivo provavelmente será porque a retenção está sendo usada para reter conteúdo em um cenário de retenção. Em vez de usar os cmdlet & s de Descoberta Eletrônica no Centro de Conformidade e Segurança do PowerShell para cenários de retenção, recomendamos que você use [New-RetentionCompliancePolicy](/powershell/module/exchange/new-retentioncompliancepolicy) e [New-RetentionComplianceRule](/powershell/module/exchange/new-retentioncompliancerule) para reter conteúdo. O resultado do uso desses cmdlets será semelhante ao uso de **New-CaseHoldPolicy** e **New-CaseHoldRule**, mas você poderá especificar um período de retenção e uma ação de retenção, como a exclusão de conteúdo após o período de retenção expirar. Além disso, o uso dos cmdlets de retenção não exige que você associe os retenções de retenção a um caso de Descoberta Eletrônica.
 
-## <a name="step-4-create-a-case-in-the-microsoft-365-compliance-center"></a>Etapa 4: Criar um caso no Centro de Conformidade do Microsoft 365
+## <a name="step-4-create-a-case-in-the-microsoft-365-compliance-center"></a>Etapa 4: Criar um caso no centro Microsoft 365 Conformidade
 
 Para criar uma responsabilidade de Descoberta eDiscovery, você precisa criar um caso de Descoberta e Para associar a responsabilidade. O exemplo a seguir cria um caso de Descoberta E usando um nome de sua escolha. Armazenaremos as propriedades do novo caso em uma variável para uso posteriormente. Você pode exibir essas propriedades executando o `$case | FL` comando depois de criar o caso.
 
@@ -130,25 +130,25 @@ New-ComplianceSearch -Name $search.Name -ExchangeLocation $search.SourceMailboxe
 
 ![Exemplo New-ComplianceSearch PowerShell](../media/MigrateLegacyeDiscovery6.png)
 
-## <a name="step-8-verify-the-case-hold-and-search-in-the-microsoft-365-compliance-center"></a>Etapa 8: Verificar o caso, a espera e a pesquisa no centro de conformidade do Microsoft 365
+## <a name="step-8-verify-the-case-hold-and-search-in-the-microsoft-365-compliance-center"></a>Etapa 8: Verificar o caso, a espera e a pesquisa no Microsoft 365 de conformidade
 
-Para garantir que tudo está definido corretamente, vá para o Centro de conformidade do Microsoft 365 em , e clique em [https://compliance.microsoft.com](https://compliance.microsoft.com) **Descoberta > Core**.
+Para certificar-se de que tudo está definido corretamente, vá para o centro de conformidade Microsoft 365 em , e clique em [https://compliance.microsoft.com](https://compliance.microsoft.com) **Descoberta > Core**.
 
-![Descoberta eDiscovery do Centro de Conformidade do Microsoft 365](../media/MigrateLegacyeDiscovery7.png)
+![Microsoft 365 Descoberta eDiscovery do Centro de Conformidade](../media/MigrateLegacyeDiscovery7.png)
 
-O caso criado na Etapa 3 está listado na página **Descoberta Principal.** Abra a caixa e observe a espera que você criou na Etapa 4 listada na guia **Retém.** Você pode clicar na espera para ver detalhes, incluindo o número de caixas de correio às quais a espera é aplicada e o status de distribuição.
+O caso criado na Etapa 3 está listado na página **Descoberta Principal.** Abra a caixa e observe a espera que você criou na Etapa 4 listada na **guia** Espera. Você pode selecionar a espera para ver detalhes na página de sobrevoo, incluindo o número de caixas de correio às quais a 1000 caixas de correio é aplicada e o status de distribuição.
 
-![EDiscovery retém no centro de conformidade do Microsoft 365](../media/MigrateLegacyeDiscovery8.png)
+![O eDiscovery é ressado no Microsoft 365 de conformidade](../media/MigrateLegacyeDiscovery8.png)
 
-A pesquisa que você criou na Etapa 7  está listada na guia Pesquisas do caso de Descoberta e.
+A pesquisa que você criou na Etapa 7 está listada na guia **Pesquisas** do caso.
 
-![Pesquisa de caso de descoberta de eDiscovery no centro de conformidade do Microsoft 365](../media/MigrateLegacyeDiscovery9.png)
+![Pesquisa de caso de descoberta de eDiscovery no Microsoft 365 de conformidade](../media/MigrateLegacyeDiscovery9.png)
 
-Se você migrar uma pesquisa de descoberta In-Place eDiscovery, mas não associá-la a um caso de Descoberta eDiscovery, ela será listada na página de pesquisa de conteúdo no centro de conformidade do Microsoft 365.
+Se você migrar uma pesquisa de Descoberta In-Place eDiscovery, mas não associá-la a um caso de Descoberta eDiscovery, ela será listada na página de pesquisa de conteúdo no centro de conformidade Microsoft 365.
 
 ## <a name="more-information"></a>Mais informações
 
-- Para obter mais informações sobre In-Place eDiscovery & Holds no Centro de administração do Exchange, consulte:
+- Para obter mais informações sobre In-Place & eDiscovery no centro de administração Exchange, consulte:
   
   - [Descoberta Eletrônica In-loco](/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)
 
@@ -170,4 +170,4 @@ Se você migrar uma pesquisa de descoberta In-Place eDiscovery, mas não associ�
 
   - [Start-ComplianceSearch](/powershell/module/exchange/start-compliancesearch)
 
-- Para obter mais informações sobre o centro de conformidade do Microsoft 365, consulte [Overview of the Microsoft 365 compliance center](microsoft-365-compliance-center.md).
+- Para obter mais informações sobre o Microsoft 365 de conformidade, consulte [Overview of the Microsoft 365 compliance center](microsoft-365-compliance-center.md).

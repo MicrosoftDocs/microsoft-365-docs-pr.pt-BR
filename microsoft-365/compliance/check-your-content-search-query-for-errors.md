@@ -1,5 +1,5 @@
 ---
-title: Verifique se há erros na sua consulta da Pesquisa de Conteúdo
+title: Verificar se há erros na sua consulta
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,17 +15,17 @@ search.appverid:
 - MET150
 ms.assetid: 88898874-e262-4c5c-b6d2-4e697497fc74
 ms.custom: seo-marvel-apr2020
-description: Saiba como detectar erros e erros de digitação em sua consulta de palavra-chave para pesquisa de conteúdo, antes de executar a pesquisa.
-ms.openlocfilehash: 939ac3d227f176a0b74138107ced5dd5b7142bcd
-ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
+description: Saiba como detectar erros e erros de digitação em sua consulta de palavra-chave para pesquisas de Descoberta e Antes de executar a pesquisa.
+ms.openlocfilehash: 9c041ca690df3306347cbca77df3ba9639801245
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51488208"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311683"
 ---
-# <a name="check-your-content-search-query-for-errors"></a>Verifique se há erros na sua consulta da Pesquisa de Conteúdo
+# <a name="check-your-search-query-for-errors"></a>Verificar se há erros na sua consulta
   
-Aqui está uma lista dos caracteres sem suporte que verificamos. Caracteres sem suporte geralmente são ocultos e normalmente causam um erro de pesquisa ou retornam resultados não intencionados.
+Aqui está uma lista dos caracteres sem suporte que verificamos nas consultas de pesquisa para Pesquisa de Conteúdo e Descoberta Principal da Descoberta. Caracteres sem suporte geralmente são ocultos e normalmente causam um erro de pesquisa ou retornam resultados não intencionados.
   
 - **Aspas inteligentes** - Aspas simples e duplas inteligentes (também chamadas de aspas curly) não são suportadas. Somente aspas retas podem ser usadas em uma consulta de pesquisa. 
 
@@ -45,4 +45,4 @@ Veja um exemplo da mensagem de aviso exibida depois  de clicar em Verificar se h
   
 ## <a name="how-to-prevent-unsupported-characters-in-your-search-queries"></a>Como evitar caracteres sem suporte em suas consultas de pesquisa
 
-Caracteres sem suporte geralmente são adicionados a uma consulta quando você copia a consulta ou partes da consulta de outros aplicativos (como o Microsoft Word ou o Microsoft Excel) e os colar na caixa de palavra-chave na página de consulta de uma Pesquisa de Conteúdo. A melhor maneira de evitar caracteres sem suporte é apenas digitar a consulta na caixa de palavra-chave. Ou você pode copiar uma consulta do Word ou excel e, em seguida, colar em um editor de texto simples, como o Bloco de Notas da Microsoft. Salve o arquivo de texto e selecione **ANSI** **na** lista drop-down de Codificação. Isso removerá qualquer formatação e caracteres sem suporte. Em seguida, você pode copiar e colar a consulta do arquivo de texto para a caixa de consulta de palavra-chave. 
+Caracteres sem suporte geralmente são adicionados a uma consulta quando você copia a consulta ou partes da consulta de outros aplicativos (como Microsoft Word ou Microsoft Excel) e os colar na caixa de palavra-chave na página de consulta de uma Pesquisa de Conteúdo. A melhor maneira de evitar caracteres sem suporte é apenas digitar a consulta na caixa de palavra-chave. Ou você pode copiar uma consulta do Word ou Excel e, em seguida, colar em um editor de texto simples, como o Microsoft Bloco de notas. Salve o arquivo de texto e selecione **ANSI** **na** lista drop-down de Codificação. Isso removerá qualquer formatação e caracteres sem suporte. Em seguida, você pode copiar e colar a consulta do arquivo de texto para a caixa de consulta de palavra-chave.
