@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 description: Saiba o que acontece com seus dados quando sua assinatura do Microsoft 365 para empresas expira, é desabilitada ou cancelada.
 ms.date: 04/08/2021
-ms.openlocfilehash: f226514078a9f6d6bc1f4761269e2740300ef88d
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: d0821214f9a8c242306685db2ee7faf3779cecff
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52326793"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333021"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>O que acontecerá com meus dados e o acesso ao Microsoft 365 para empresas quando a assinatura terminar?
 
@@ -50,6 +50,7 @@ A tabela a seguir mostra o que você pode esperar quando uma assinatura paga do 
 *Para a maioria das ofertas, na maioria dos países e regiões.
   
 > [!NOTE]
+>
 > **O que são “dados do cliente”?** Os dados do cliente, como definido nos [Termos de Serviço Online da Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=613649), referem-se a todos os dados, inclusive todos os arquivos de texto, de som e de imagem fornecidos à Microsoft pelo cliente, ou em nome dele, por meio do uso dos serviços do Microsoft 365. Para saber mais sobre a proteção dos dados do cliente, confira [Introdução ao Portal de Confiabilidade do Serviço da Microsoft](../../compliance/get-started-with-service-trust-portal.md).
 
 ## <a name="what-happens-if-i-cancel-a-subscription"></a>O que acontece se eu cancelar uma assinatura?
@@ -68,6 +69,7 @@ Para saber como cancelar, confira [Cancelar a assinatura](cancel-your-subscripti
 > Se você quiser que seus dados de assinatura sejam excluídos antes que o estágio típico de Desabilitação tenha terminado, você pode [fechar sua conta](../close-your-account.md).
   
 > [!NOTE]
+>
 > Se você excluir explicitamente uma assinatura, ela ignorará os estágios Expirado e Desabilitado, e os dados e conteúdo do SharePoint Online, incluindo o OneDrive, serão excluídos imediatamente.
 
 ## <a name="what-are-my-options-if-my-subscription-is-about-to-expire"></a>Quais são as minhas opções se minha assinatura estiver prestes a expirar?

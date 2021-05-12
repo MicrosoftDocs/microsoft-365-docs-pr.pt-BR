@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: seemg, pablom
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,18 +17,15 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_SMB
 - commerce_signup
-- PPM_pablom
-ms.reviewer: seemg
-search.appverid:
-- MET150
+search.appverid: MET150
 description: Saiba mais sobre Microsoft 365 de autoatendados e programas de autoatendados disponíveis, como o Microsoft Power Apps, Microsoft Flow e o Dynamics 365 para Finanças.
 ms.date: 03/17/2021
-ms.openlocfilehash: a3257cf57d3a2579a250f90811c1bd644cd0d27d
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: f3427294a94875e21a5e6b99a09056617a7dea99
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107407"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332373"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>Usando a assinatura de autoatendindo em sua organização
 
@@ -63,4 +61,4 @@ A seguir estão os programas de autoatendados disponíveis no momento. Essa list
 |**Microsoft Stream** <br/> |Upload compartilhar vídeos em toda a sua organização para melhorar a comunicação, a participação e o aprendizado.  <br/> |[&amp;Inscrever-se no dia 0 experiência](https://go.microsoft.com/fwlink/p/?linkid=841472) <br/> |[Microsoft Stream](https://go.microsoft.com/fwlink/p/?linkid=841473) <br/> |
 |**Power Automate** <br/> |Power Automate é um produto para ajudá-lo a configurar fluxos de trabalho automatizados entre seus aplicativos e serviços favoritos para sincronizar arquivos, receber notificações, coletar dados e muito mais.  <br/> |[Inscreva-se e entre Power Automate](/power-automate/sign-up-sign-in) <br/> |[Power Automate](https://go.microsoft.com/fwlink/p/?linkid=841465) <br/> |
 |**Agentes virtuais do Power** <br/> |Power Virtual Agents capacita as equipes a criar facilmente bots poderosos usando uma interface gráfica orientada sem código sem a necessidade de desenvolvedores ou especialistas em dados. Power Virtual Agents aborda muitos dos principais problemas com a criação de bots no setor atualmente. Ele elimina o intervalo entre os especialistas no assunto e as equipes de desenvolvimento que estão criando os bots e a latência longa entre as equipes reconhecendo um problema e atualizando o bot para resolver isso.  <br/> |[Detalhes de licenciamento e acesso](/power-virtual-agents/requirements-licensing) <br/> |[Inscreva-se para Power Virtual Agents](https://aka.ms/TryPVA) <br/> |
-|**Azure AD B2B** <br/> |Azure Active Directory colaboração entre empresas (B2B) (Azure AD) permite que você convide Usuários Externos (ou "usuários convidados") para usar seus serviços pagos do Azure AD. Alguns recursos são gratuitos, mas para todos os recursos pagos do Azure AD, você pode convidar até cinco usuários convidados para cada licença da edição do Azure AD que você possui para um funcionário ou um usuário não convidado em seu locatário. <br/> |[Autoatenduro para a assinatura de colaboração do Azure AD B2B](/azure/active-directory/b2b/self-service-portal) <br/> |[Azure Active Directory Diretrizes de licenciamento de colaboração B2B](/azure/active-directory/b2b/licensing-guidance) <br/> |
+|**Azure AD B2B** <br/> |Azure Active Directory colaboração entre empresas (B2B) (Azure AD) permite que você convide Usuários Externos (ou "usuários convidados") para usar seus serviços pagos do Azure AD. Alguns recursos são gratuitos, mas para todos os recursos pagos do Azure AD, você pode convidar até cinco usuários convidados para cada licença da edição do Azure AD que você possui para um funcionário ou um usuário não convidado em seu locatário. <br/> |[Autoatenduro para a assinatura de colaboração do Azure AD B2B](/azure/active-directory/b2b/self-service-portal) <br/> |[Diretrizes de licenciamento de colaboração B2B do Azure Active Directory](/azure/active-directory/b2b/licensing-guidance) <br/> |

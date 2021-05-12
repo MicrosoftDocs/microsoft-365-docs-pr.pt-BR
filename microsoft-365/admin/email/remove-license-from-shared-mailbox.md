@@ -4,6 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: sharik
 author: SKjerland
+ms.reviewer: nicholak
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -12,22 +13,20 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
-- MSStore_Link
 - AdminSurgePortfolio
+- commerce_licensing
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-ms.assetid: bb229ee9-e7be-4990-b3eb-354e75740496
 description: 'Remova a licença de uma caixa de correio compartilhada para atribuí-la a outro usuário. '
-ms.openlocfilehash: 873b50b34b9887ada92cc56f7083e3b748a52035
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 2d0e6e6b1d6222bea80265bf6cc008e21ac3239c
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327217"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332649"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>Remover uma licença de uma caixa de correio compartilhada
 
@@ -42,7 +41,6 @@ As caixas de correio compartilhadas geralmente não exigem uma licença. Siga es
 > 3. A caixa de correio compartilhada é colocada em contencioso.
 > 4. A caixa de correio compartilhada tem uma licença do Microsoft Defender atribuída.
 
-  
 ## <a name="remove-the-license"></a>Remover a licença
 
 ::: moniker range="o365-worldwide"
@@ -50,7 +48,7 @@ As caixas de correio compartilhadas geralmente não exigem uma licença. Siga es
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 
    > [!NOTE]
-   > Você precisa remover a licença da página Usuários ativos. Você não pode remover a licença da página Caixa de Correio Compartilhada porque as licenças são configurações do usuário. 
+   > Você precisa remover a licença da página Usuários ativos. Você não pode remover a licença da página Caixa de Correio Compartilhada porque as licenças são configurações do usuário.
   
 2. Selecione a caixa de correio compartilhada.
 
@@ -100,9 +98,7 @@ As caixas de correio compartilhadas geralmente não exigem uma licença. Siga es
 
 6. Você ainda está pagando pela licença. Para parar de pagar por ela, [remova a licença de sua assinatura](../../commerce/licenses/buy-licenses.md).
 
-::: moniker-end 
-
- 
+::: moniker-end
 
 ## <a name="related-articles"></a>Artigos relacionados
 

@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,26 +13,23 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-search.appverid:
-- MET150
+search.appverid: MET150
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_purchase
-- PPM_jmueller
-ms.reviewer: jkinma
-description: Saiba como comprar e gerenciar complementos para sua assinatura Microsoft 365 para empresas.
+description: Saiba como comprar e gerenciar complementos para sua assinatura do Microsoft 365 para empresas.
 ms.date: 04/02/2021
-ms.openlocfilehash: d60503cd7ab7be219c3ed813dd1d9aef480cd4dc
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 8cf586114c9b6ab30a9f4e5acdd669e185edd71b
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297327"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331773"
 ---
 # <a name="buy-or-manage-add-ons"></a>Comprar ou gerenciar complementos
 
-Muitos Microsoft 365 planos de negócios têm complementos que você pode comprar para suas assinaturas. Os complementos fornecem mais recursos para aprimorar sua experiência de assinatura.
+Muitos planos do Microsoft 365 para empresas têm complementos que você pode comprar para suas assinaturas. Os complementos fornecem mais recursos para aprimorar sua experiência de assinatura.
 
 Há dois tipos de complementos:
 

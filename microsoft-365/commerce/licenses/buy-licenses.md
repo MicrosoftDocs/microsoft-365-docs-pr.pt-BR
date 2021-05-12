@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Saiba como comprar mais licenças ou reduzir o número de licenças para sua assinatura Microsoft 365 para empresas.
 ms.date: 04/07/2021
-ms.openlocfilehash: 6603b49ed7af8b5213141d5c2434093c3af9540a
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: a327149a780d2059cfc69068fc4b2122e549773c
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327113"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331677"
 ---
 # <a name="buy-or-remove-licenses"></a>Comprar ou remover licenças
 

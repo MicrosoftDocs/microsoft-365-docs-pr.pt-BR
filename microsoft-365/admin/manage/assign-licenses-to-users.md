@@ -5,29 +5,30 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: sinakassaw, nicholak
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Priority
 ms.collection:
 - M365-subscription-management
-- Adm_TOC
+- Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - TopSMBIssues
 - SaRA
 - okr_SMB
 - manage_licenses
-- commerce
-search.appverid:
-- MET150
+- commerce_licensing
+search.appverid: MET150
 description: Aprenda a atribuir licenças aos usuários.
-ms.openlocfilehash: ae088ab5c26df9b782bd4433bbd0c9f2d0ed9348
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.date: 04/26/2021
+ms.openlocfilehash: ef8169658c6aef03cf8ff0cf9714c980ce63b060
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274371"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332481"
 ---
 # <a name="assign-licenses-to-users"></a>Atribuir licenças aos usuários
 

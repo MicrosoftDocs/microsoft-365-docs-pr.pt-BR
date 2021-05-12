@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,23 +13,20 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-search.appverid:
-- MET150
+search.appverid: MET150
 ROBOTS: NOINDEX
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_purchase
-- PPM_jmueller
-ms.reviewer: jkinma
 description: Saiba como resgatar uma chave Microsoft 365 Business Standard de produto comprada em uma loja de varejo.
 ms.date: 11/13/2020
-ms.openlocfilehash: ed9fb3c1ecc02930f55ddc11c523cf5989d6bbbe
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: b313b38fbb4fff332bb13402dc5af5db4e0bf676
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297315"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331713"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Insira a chave do produto para Microsoft 365 Business Standard
 

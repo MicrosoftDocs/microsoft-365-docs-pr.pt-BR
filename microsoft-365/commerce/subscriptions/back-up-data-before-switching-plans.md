@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,8 +16,6 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
-- PPM_jmueller
-ms.reviewer: jkinma
 search.appverid:
 - BCS160
 - MET150
@@ -24,12 +23,12 @@ search.appverid:
 - BEA160
 description: Faça Outlook, OneDrive, Yammer e SharePoint antes de alterar Microsoft 365 planos.
 ms.date: 03/17/2021
-ms.openlocfilehash: cdbeb7267105742082358dcd985e8fd1052a5679
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 86953f3235d8725ecdd6b5294611c0e5a378b17d
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107419"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333345"
 ---
 # <a name="back-up-data-before-switching-microsoft-365-for-business-plans"></a>Fazer o back up de dados antes de alternar Microsoft 365 para planos de negócios
 

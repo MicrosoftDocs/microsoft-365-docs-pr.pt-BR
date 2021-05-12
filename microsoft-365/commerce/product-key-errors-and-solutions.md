@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: jkinma
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: troubleshooting
 ms.service: o365-administration
@@ -20,14 +20,13 @@ ms.custom:
 - okr_smb
 - AdminSurgePortfolio
 - commerce_purchase
-- PPM_jmueller
 ms.date: 05/01/2021
-ms.openlocfilehash: 5c830af2beca702c15f8c4023c3d3e0fc59a0f51
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: d93b45258b9004d0ae19795886d31ce1e7141601
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280554"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333357"
 ---
 # <a name="problems-with-your-microsoft-365-for-business-product-key"></a>Problemas com sua chave Microsoft 365 do produto para empresas?
 

@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: tugu, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,18 +16,15 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
-- PPM_jmueller
-ms.reviewer: tugu
-search.appverid:
-- MET150
+search.appverid: MET150
 description: Saiba como trabalhar com provedores de soluções certificados pela Microsoft (parceiros) para comprar e gerenciar produtos e serviços para sua organização ou escola.
 ms.date: 04/13/2021
-ms.openlocfilehash: e225fa0c525d484e8c5a3887b82277a1da5861b0
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 63c5595d14ca0a531f50875ea8058663b626bb89
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107563"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331569"
 ---
 # <a name="manage-partner-relationships"></a>Gerenciar relacionamentos de parceiros
 
@@ -34,7 +32,7 @@ Você pode trabalhar com provedores de soluções certificados pela Microsoft (p
 
 1. Os administradores encontram e contatem um parceiro usando o formulário em <a href="https://www.microsoft.com/solution-providers/home" target="_blank">https://www.microsoft.com/solution-providers/home</a> .
 2. Os parceiros enviam uma solicitação de email aos clientes para estabelecer uma relação de parceiro.
-3. Os clientes aceitam o convite Microsoft 365 centro de administração e começam a trabalhar com o parceiro.
+3. Os clientes aceitam o convite no Centro de administração do Microsoft 365 e começam a trabalhar com o parceiro.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -49,7 +47,7 @@ Há várias maneiras de um parceiro trabalhar com você. Com base nas suas neces
 | Revendedor | Parceiros que vendem produtos Microsoft para sua organização ou escola. |
 | Administrador delegado | Parceiros que gerenciam produtos e serviços para sua organização ou escola. No Azure Active Directory (AD), o parceiro é um Administrador Global para seu locatário. Essa função permite que eles gerenciem serviços como criar contas de usuário, atribuir e gerenciar licenças e redefinições de senha. |
 | Revendedor & administrador delegado | Parceiros que vendem e gerenciam produtos e serviços da Microsoft para sua organização ou escola. |
-| Parceiro | Você dá uma conta de usuário ao seu parceiro em seu locatário e eles trabalham com outras serviços Microsoft em seu nome. |
+| Parceiro | Você dá ao seu parceiro uma conta de usuário em seu locatário e eles trabalham com outros serviços da Microsoft em seu nome. |
 | Advisor | Os parceiros podem redefinir senhas e lidar com incidentes de suporte para você. |
 | Parceiro MPSA (Contrato de Serviços & Serviços da Microsoft) | Se você tiver trabalhado com vários parceiros por meio do programa MPSA, poderá permitir que eles vejam compras feitas uns pelos outros. |
 | Parceiro lob (linha de negócios) | Os parceiros podem desenvolver, enviar e gerenciar aplicativos LOB específicos para sua organização ou escola. |
@@ -67,7 +65,7 @@ O parceiro contata você e oferece a você a chance de saber mais sobre eles. Se
 
 Depois de encontrar um parceiro e decidir trabalhar com eles, eles enviam um convite por email.
 
-1. No email, selecione o link para ir para o Microsoft 365 de administração.
+1. No email, selecione o link para ir para o Centro de administração do Microsoft 365.
 2. Na página **Aceitar contrato & autorizar** o parceiro, selecione o link para o Contrato de **Cliente da Microsoft** e leia o documento.
 3. Marque a caixa para confirmar que você leu o contrato.
 4. Selecione **Aceitar & Autorizar**.
@@ -77,7 +75,7 @@ Depois de encontrar um parceiro e decidir trabalhar com eles, eles enviam um con
 
 Se você já tiver um parceiro, mas ainda não tiver assinado um Contrato de Cliente da Microsoft, deverá aceitar o contrato antes que eles possam fazer compras ou gerenciar suas assinaturas em seu nome.
 
-1. Se você receber um email de seu parceiro, selecione o link para ir para o centro de administração Microsoft 365 ou vá para a página <a href="https://go.microsoft.com/fwlink/?linkid=2116573" target="_blank">Aceitar contrato.</a>
+1. Se você receber um email de seu parceiro, selecione o link para ir para o Centro de administração do Microsoft 365 ou vá para a página <a href="https://go.microsoft.com/fwlink/?linkid=2116573" target="_blank">Aceitar contrato.</a>
 2. Selecione o link para o **Contrato de Cliente da Microsoft** e leia o documento.
 3. Marque a caixa para confirmar que você leu o contrato.
 4. Selecione **Aceitar**.
@@ -91,7 +89,7 @@ Se você não quiser dar as funções de administrador ao parceiro, cancele o co
 
 Você pode remover funções de administrador de um parceiro a qualquer momento. Remover as funções de administrador não remove a relação de parceiro. Eles ainda podem trabalhar com você em uma capacidade diferente, como um Revendedor. Se você decidir que não deseja mais trabalhar com um parceiro, entre em contato com seu parceiro para encerrar o relacionamento.
 
-1. No centro de administração, vá para a página relações **Configurações**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">parceiros.</a>
+1. No centro de administração, vá para a página **Configurações**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">Relações de</a> parceiros.
 2. Na página **Relações de parceiros,** selecione a linha que contém o nome do parceiro que você deseja remover.
 3. Selecione a linha que contém o nome do parceiro.
 4. Na página do parceiro, selecione **Remover funções**.

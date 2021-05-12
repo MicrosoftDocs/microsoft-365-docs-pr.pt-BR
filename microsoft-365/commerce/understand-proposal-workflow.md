@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: presharm
+ms.reviewer: presharm, jmueller
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -16,17 +16,16 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_purchase
-- PPM_jmueller
 search.appverid: MET150
 description: Saiba mais sobre propostas para ajudá-lo a comprar produtos e serviços da Microsoft.
 ROBOTS: NOINDEX
 ms.date: 03/17/2021
-ms.openlocfilehash: a3c91168c90b91d83a9aa116c1ff57d103b3c48c
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: c61fa53267f2fdb60e78a05cd89aa6f364cb2395
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280866"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332949"
 ---
 # <a name="understand-the-proposal-workflow"></a>Compreender o fluxo de trabalho da proposta
 
@@ -64,7 +63,7 @@ Se essa é uma nova conta de cobrança e ninguém aceitou um contrato, você se 
 
 - É a pessoa nomeada na proposta\
     OU
-- Já são um [administrador Azure Active Directory global](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) da sua organização
+- Já são [administradores globais do Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) para sua organização
 
 ## <a name="what-is-the-overall-workflow"></a>O que é o fluxo de trabalho geral?
 
@@ -86,7 +85,7 @@ A tabela a seguir contém termos e definições que aparecem em sua proposta e n
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Conta de cobrança | Uma conta usada para gerenciar suas configurações de conta, faturas, métodos de pagamento e produtos. |
 | Perfil de cobrança | Informações sobre sua organização que permitem personalizar quais itens estão incluídos em sua fatura e como você paga por suas faturas. O perfil de cobrança inclui o nome da conta de cobrança, os métodos de pagamento usados para o perfil de cobrança específico, informações de contato, configurações de fatura e permissões que permitem alterar o perfil de cobrança, pagar contas e comprar produtos e serviços. |
-| Contratos existentes | Qualquer acordo que sua organização já tenha em mãos com a Microsoft. Isso pode incluir, mas não se limita a, um contrato de Enterprise Agreement, o Contrato de Serviços de & produtos da Microsoft ou o Contrato de Cliente da Microsoft. |
+| Contratos existentes | Qualquer acordo que sua organização já tenha em mãos com a Microsoft. Isso pode incluir, mas não se limita a, um contrato de Contrato Enterprise, o Contrato de Serviços & Produtos da Microsoft ou o Contrato de Cliente da Microsoft. |
 | Contrato de Cliente da Microsoft (MCA) | Um contrato que descreve os termos e condições da conta mantida pela sua organização com a Microsoft. |
 | Representante da Microsoft | Um representante autorizado da Microsoft que prepara uma proposta para você e sua organização. |
 | Organização | Uma entidade jurídica que usa produtos, tecnologias ou serviços da Microsoft. |
@@ -101,7 +100,7 @@ Depois de entrar, a primeira coisa a fazer é revisar as informações da sua or
 
 A **seção Sua organização** exibe a conta de cobrança associada a ela. As informações da conta de cobrança são retiradas de uma conta de cobrança existente ou criadas para você pelo representante da Microsoft. Se sua organização for uma afiliada de outra organização, você também verá uma seção **Da** organização líder com o nome e o endereço dessa organização.
 
-Se essa for a primeira vez que sua organização está estabelecendo uma relação comercial com  a Microsoft  e você ainda não tiver assinado um MCA, se as informações em Sua organização ou organização líder estão incorretas, contate o representante para fazer alterações para você. Depois de aceitar um MCA, você poderá revisar e alterar o endereço [](https://go.microsoft.com/fwlink/p/?linkid=2084771) e as informações de contato da sua organização na página Contas de cobrança no centro de administração Microsoft 365 de cobrança. Se o nome da sua organização mudar, abra uma solicitação de serviço para que ela seja atualizada. [Saiba como abrir uma solicitação de serviço](../business-video/get-help-support.md)
+Se essa for a primeira vez que sua organização está estabelecendo uma relação comercial com  a Microsoft  e você ainda não tiver assinado um MCA, se as informações em Sua organização ou organização líder estão incorretas, contate o representante para fazer alterações para você. Depois de aceitar um MCA, você pode revisar e alterar o endereço [](https://go.microsoft.com/fwlink/p/?linkid=2084771) e as informações de contato da sua organização na página Contas de Cobrança no Centro de administração do Microsoft 365. Se o nome da sua organização mudar, abra uma solicitação de serviço para que ela seja atualizada. [Saiba como abrir uma solicitação de serviço](../business-video/get-help-support.md)
 
 ### <a name="your-information"></a>Suas informações
 
@@ -171,7 +170,7 @@ Depois de fazer o pedido, você recebe uma confirmação com as próximas etapas
 
 Se você é um novo cliente e comprou produtos do Azure como parte da proposta, sua próxima etapa é configurar sua nova conta de cobrança. Para saber como, confira [Configurar sua conta de cobrança para um Contrato de Cliente da Microsoft.](/azure/cost-management-billing/manage/mca-setup-account)
 
-Se você é um cliente do Azure existente com um Enterprise Agreement e está assinando um MCA pela primeira vez, sua próxima etapa é aprender sobre as alterações entre os contratos e como concluir tarefas com sua nova conta de cobrança. Para saber mais, confira Concluir Enterprise Agreement tarefas em sua conta [de cobrança para um Contrato de Cliente da Microsoft.](/azure/cost-management-billing/manage/mca-enterprise-operations)
+Se você é um cliente do Azure existente com um Contrato Enterprise e está assinando um MCA pela primeira vez, sua próxima etapa é aprender sobre as alterações entre os contratos e como concluir tarefas com sua nova conta de cobrança. Para saber mais, confira Concluir Contrato Enterprise tarefas em sua conta [de cobrança para um Contrato de Cliente da Microsoft.](/azure/cost-management-billing/manage/mca-enterprise-operations)
 
 ## <a name="understand-invoicing"></a>Compreender o faturamento
 

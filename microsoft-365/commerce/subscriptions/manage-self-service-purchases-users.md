@@ -5,22 +5,25 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: mijeffer, pablom
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection:
-- commerce
-ms.custom: AdminSurgePortfolio
+ms.collection: M365-subscription-management
+ms.custom:
+- AdminSurgePortfolio
+- commerce_ssp
 search.appverid:
 - MET150
 description: Os usuários podem aprender a gerenciar suas compras de autoatendir.
-ms.openlocfilehash: 9935259f05432b964fbe138b39397f192e203eb2
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.date: 03/17/2021
+ms.openlocfilehash: 0f9832f69d7e89346e82e3acef0e626fc7f6c4de
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297291"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333249"
 ---
 # <a name="manage-self-service-purchases-users"></a>Gerenciar compras de autoatendimento (Usuários)
 
@@ -31,7 +34,7 @@ ms.locfileid: "52297291"
 
 ::: moniker-end
 
-Como usuário, você pode comprar assinaturas para determinados produtos e atribuir licenças para essas assinaturas para as pessoas em sua equipe. Você é responsável por pagar todas as compras de autoatend pena que fizer. Você pode gerenciar suas assinaturas no centro de administração Microsoft 365 em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com</a>.
+Como usuário, você pode comprar assinaturas para determinados produtos e atribuir licenças para essas assinaturas para as pessoas em sua equipe. Você é responsável por pagar todas as compras de autoatend pena que fizer. Você pode gerenciar suas assinaturas no Centro de administração do Microsoft 365 em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com</a>.
 
 O administrador tem uma exibição somente leitura em todas as assinaturas que você comprar. Eles podem ver o produto, o nome do comprador, as assinaturas compradas, a data de expiração, o preço de compra e os usuários atribuídos para cada assinatura que você comprar.
 

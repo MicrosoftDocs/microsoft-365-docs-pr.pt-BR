@@ -21,18 +21,18 @@ ms.custom:
 search.appverid: MET150
 description: Saiba quais assinaturas sua organização tem indo para a página Seus produtos.
 ms.date: 01/21/2021
-ms.openlocfilehash: c54b9795487f1cfc5902c2c761fdd65b78109bcf
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: e1f7ebecafa5edff1ccc3d6eb4e4dc143054996a
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327229"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332661"
 ---
 # <a name="what-subscription-do-i-have"></a>Qual assinatura eu tenho?
 
 Se você for um administrador, poderá verificar quais assinaturas sua organização tem indo para o centro de administração.
   
- **Não é um administrador?** Veja [O que o Microsoft 365 para produtos ou licenças comerciais eu tenho?](https://support.microsoft.com/office/f8ab5e25-bf3f-4a47-b264-174b1ee925fd)
+**Não é um administrador?** Consulte [What Microsoft 365 for business product or license do I have?](https://support.microsoft.com/office/f8ab5e25-bf3f-4a47-b264-174b1ee925fd)
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 2. Na guia **Produtos,** você vê todas as assinaturas. Cada linha de assinatura inclui informações sobre licenças, status de assinatura e cobrança.

@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: jkinma
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,16 +18,15 @@ ms.custom:
 - fwlink 874703
 - AdminSurgePortfolio
 - commerce_subscriptions
-- PPM_jmueller
 search.appverid: MET150
 description: Saiba como reativar sua assinatura quando ela expirar, estiver desabilitada ou cancelada.
 ms.date: 04/07/2021
-ms.openlocfilehash: 80d1594890ec15fc4c2391d439ccbc16be6ae707
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 7f77a9782e9028521cbcefbdbffc49bc28db8e9c
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280890"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333165"
 ---
 # <a name="reactivate-your-subscription"></a>Reativar sua assinatura
 
@@ -66,6 +65,6 @@ Você deve ser um administrador Global ou cobrança para reativar uma assinatura
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Experimente ou compre uma assinatura Microsoft 365 para empresas](../try-or-buy-microsoft-365.md) (artigo)\
+[Experimente ou compre uma assinatura do Microsoft 365 para empresas](../try-or-buy-microsoft-365.md) (artigo)\
 [Renovar o Microsoft 365 para empresas](renew-your-subscription.md) (artigo)\
 [Cancelar sua assinatura](cancel-your-subscription.md) (artigo)

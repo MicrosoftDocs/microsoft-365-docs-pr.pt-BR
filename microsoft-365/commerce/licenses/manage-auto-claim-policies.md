@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-description: Saiba como criar e gerenciar políticas de declaração automática que atribuem automaticamente licenças a usuários para determinados aplicativos.
 ms.custom:
 - AdminSurgePortfolio
 - commerce_licensing
+description: Saiba como criar e gerenciar políticas de declaração automática que atribuem automaticamente licenças a usuários para determinados aplicativos.
 search.appverid: MET150
 ms.date: 04/06/2021
-ms.openlocfilehash: c89c8114c9a71a315d5876a0edf55d269ed2b12d
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: b104700905b3753466036411368951f12a7012d8
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327101"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331641"
 ---
 # <a name="manage-auto-claim-policies"></a>Gerenciar políticas de declaração automática
 
@@ -40,7 +40,7 @@ Depois de criar uma política de declaração automática, você pode fazer as s
 - [Exibir um relatório de política](#view-an-auto-claim-policy-report)
 
 > [!IMPORTANT]
-> No momento, as políticas de declaração automática estão disponíveis apenas para o Microsoft Teams. Mais produtos estarão disponíveis para uso no futuro.
+> As políticas de declaração automática estão disponíveis apenas para Microsoft Teams. Mais produtos estarão disponíveis para uso no futuro.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -59,7 +59,7 @@ Por padrão, o recurso de política de declaração automática está desligado.
 
 Somente um administrador global pode desativar uma configuração de política de declaração automática.
 
-1. No centro de administração, vá para a página **Configurações** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">da Organização.</a>
+1. No centro de administração, vá para a página **configurações Configurações** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Org.</a>
 2. Na parte inferior da tabela, selecione **Aplicativos e serviços de propriedade do usuário.**
 3. No painel direito, despeque a caixa para Permitir que os usuários reclamem automaticamente **licenças na primeira vez em que entrar**.
 

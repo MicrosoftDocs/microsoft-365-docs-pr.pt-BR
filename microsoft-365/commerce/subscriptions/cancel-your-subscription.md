@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,18 +16,15 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
-- PPM_jmueller
-ms.reviewer: jkinma
-search.appverid:
-- MET150
+search.appverid: MET150
 description: Saiba como cancelar sua assinatura paga ou de avaliação do Microsoft 365 Business.
 ms.date: 04/08/2021
-ms.openlocfilehash: 329bc10adbe6c2ad0efe3609e7cb72141ae346bd
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 022981e91abc985a0540acccccd6f211b39620a4
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297303"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333309"
 ---
 # <a name="cancel-your-subscription"></a>Cancelar sua assinatura
 
@@ -126,7 +124,7 @@ Quando o cancelamento se torna efetivo, seus usuários perdem o acesso aos seus 
 
 - Para migrar emails, contatos, tarefas e informações de calendário para outra conta, confira [Exportar ou fazer backup dos emails, dos contatos e do calendário para um arquivo .pst do Outlook](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx).
 
-- Para salvar uma biblioteca de documentos ou conteúdo de lista (como contatos) de um ambiente do SharePoint Online (OneDrive for Business ou sites de equipe) em compartilhamentos de arquivo ou em um computador local, confira [Migração manual do conteúdo do SharePoint Online](https://docs.microsoft.com/sharepoint/troubleshoot/migration-tool/content-manual-migration).
+- Para salvar uma biblioteca de documentos ou conteúdo de lista (como contatos) de um ambiente do SharePoint Online (OneDrive for Business ou sites de equipe) em compartilhamentos de arquivo ou em um computador local, confira [Migração manual do conteúdo do SharePoint Online](/sharepoint/troubleshoot/migration-tool/content-manual-migration).
 
 ### <a name="uninstall-office-optional"></a>Desinstalar o Office (opcional)
 

@@ -14,12 +14,12 @@ search.appverid:
 description: Os administradores podem aprender sobre as opções disponíveis e preferenciais para bloquear mensagens de entrada no Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a9ee0a026e33bf07bb929607b8eed9078d0b6e4c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: fa2a5e0c71f14838dc8446431f5ea02a535fb787
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203101"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331449"
 ---
 # <a name="create-blocked-sender-lists-in-eop"></a>Criar listas de remetentes bloqueados no EOP
 
@@ -70,7 +70,7 @@ Quando as mensagens são bloqueadas com êxito devido à lista De envios bloquea
 
 ## <a name="use-blocked-sender-lists-or-blocked-domain-lists"></a>Usar listas de remetentes bloqueados ou listas de domínios bloqueados
 
-Quando vários usuários são afetados, o escopo é mais amplo, portanto, a próxima melhor opção é listas de remetentes bloqueados ou listas de domínios bloqueados em políticas anti-spam. As mensagens dos remetentes nas listas são marcadas como **Spam** e a ação que você configurou para o veredito de filtro de **spam** é tomada na mensagem. Para saber mais, confira [Configurar políticas anti-spam](configure-your-spam-filter-policies.md).
+Quando vários usuários são afetados, o escopo é mais amplo, portanto, a próxima melhor opção é listas de remetentes bloqueados ou listas de domínios bloqueados em políticas anti-spam. As mensagens dos remetentes nas listas são marcadas como **spam** de alta confiança e a ação que você configurou para o veredito de filtro de **spam** de alta confiança é tomada na mensagem. Para saber mais, confira [Configurar políticas anti-spam](configure-your-spam-filter-policies.md).
 
 O limite máximo para essas listas é de aproximadamente 1.000 entradas.
 

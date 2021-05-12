@@ -19,12 +19,12 @@ ms.custom:
 description: Os administradores podem aprender a exibir, criar, modificar e excluir políticas de spam de saída no Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ceaf0d276aff4504dd34aa3229c28c9cb042742d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 2448bb7942f7694d2a6d6e9b98537a2b7ccb14d1
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203293"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331665"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>Configurar a filtragem de spam de saída no EOP
 
@@ -509,12 +509,12 @@ Remove-HostedOutboundSpamFilterRule -Identity "Marketing Department"
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, [consulte Remove-HostedOutboundSpamFilterRule](/powershell/module/exchange/remove-hostedoutboundspamfilterrule).
 
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
 [Remover usuários bloqueados do portal Usuários Restritos](removing-user-from-restricted-users-portal-after-spam.md)
 
 [Pool de entrega de alto risco para mensagens de saída](high-risk-delivery-pool-for-outbound-messages.md)
 
-[Perguntas frequentes sobre a proteção antispam](anti-spam-protection-faq.md)
+[Perguntas frequentes sobre a proteção antispam](anti-spam-protection-faq.yml)
 
 [Relatório de encaminhamento automático de mensagens](mfi-auto-forwarded-messages-report.md)

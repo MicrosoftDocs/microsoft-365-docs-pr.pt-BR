@@ -19,12 +19,13 @@ ms.custom:
 search.appverid: MET150
 ROBOTS: NOINDEX
 description: Saiba como adicionar licenças à sua assinatura do Microsoft 365 comprada por meio do parceiro de terceiros, reconhecido pela Microsoft.
-ms.openlocfilehash: f40ca8f208d95ed150ad0fcea982347405e3d801
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.date: 04/07/2021
+ms.openlocfilehash: 0e2a3779ae7d93eaaea660209bbc86a6843b553c
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327149"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331749"
 ---
 # <a name="add-licenses-to-a-subscription-purchased-through-the-volume-licensing-service-center"></a>Adicionar licenças a uma assinatura adquirida pelo Centro de Serviços de Licenciamento por Volume
 
