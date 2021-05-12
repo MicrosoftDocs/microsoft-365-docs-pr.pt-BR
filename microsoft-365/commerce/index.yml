@@ -7,18 +7,21 @@ metadata:
   ms.service: o365-administration
   ms.topic: landing-page
   ms.collection: commerce
-  ms.custom: AdminSurgePortfolio
+  ms.custom:
+  - AdminSurgePortfolio
+  - commerce_landingpage
   author: cmcatee-MSFT
   ms.author: cmcatee
+  manager: sctov
   ms.date: 02/27/2020
   localization_priority: Normal
   search.appverid: MET150
-  ms.openlocfilehash: a2998495e5cf6309005e9bd8a65290081f565678
-  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+  ms.openlocfilehash: e09a21819551bbd7cd35a8e3df2e81e17e90305f
+  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/19/2021
-  ms.locfileid: "50911597"
+  ms.lasthandoff: 05/12/2021
+  ms.locfileid: "52331716"
 landingContent:
 - title: Gerenciar contas e pagamentos
   linkLists:

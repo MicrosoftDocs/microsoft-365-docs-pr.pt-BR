@@ -303,19 +303,19 @@
     - name: Perguntas frequentes
       items:
         - name: Perguntas frequentes sobre administração delegada
-          href: delegated-administration-faq.md
+          href: delegated-administration-faq.yml
         - name: Perguntas frequentes gerais sobre o EOP
-          href: eop-general-faq.md
+          href: eop-general-faq.yml
         - name: 'Perguntas frequentes sobre mensagens enfileiradas, adiadas e retornadas do EOP'
-          href: eop-queued-deferred-and-bounced-messages-faq.md
+          href: eop-queued-deferred-and-bounced-messages-faq.yml
         - name: Perguntas frequentes sobre proteção antimalware
-          href: anti-malware-protection-faq-eop.md
+          href: anti-malware-protection-faq-eop.yml
         - name: Perguntas frequentes sobre a proteção antispam
-          href: anti-spam-protection-faq.md
+          href: anti-spam-protection-faq.yml
         - name: Perguntas frequentes sobre a proteção antifalsificação
-          href: anti-spoofing-protection-faq.md
+          href: anti-spoofing-protection-faq.yml
         - name: Perguntas frequentes sobre a quarentena
-          href: quarantine-faq.md
+          href: quarantine-faq.yml
     - name: Referência
       items:
         - name: Roteiro de segurança
