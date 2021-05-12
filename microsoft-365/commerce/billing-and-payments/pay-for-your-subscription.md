@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: jkinma
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,14 +20,13 @@ ms.custom:
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
 - commerce_billing
-- PPM_jmueller
 ms.date: 05/04/2021
-ms.openlocfilehash: 85fdcc0aca52b91ed34b1729f6eea805cce37ade
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 282e8106e75a94b3c9693a2aba9bfa2edf72f6ed
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280578"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331965"
 ---
 # <a name="how-to-pay-for-your-subscription"></a>Como pagar por sua assinatura
 

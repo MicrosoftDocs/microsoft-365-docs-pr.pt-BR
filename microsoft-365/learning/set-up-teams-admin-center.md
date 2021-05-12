@@ -1,10 +1,10 @@
 ---
-title: Configurar o Microsoft Viva Learning (Visualização) no Teams de administração
+title: Configurar o Microsoft Viva Learning (Visualização) no centro de administração do Teams
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 04/30/2021
+ms.date: 05/12/2021
 audience: admin
 ms.topic: article
 ms.service: ''
@@ -14,49 +14,48 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-learning
 localization_priority: None
-description: Saiba como configurar o Microsoft Viva Learning (Visualização) no Teams de administração.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c1427ae9fceab38046b53b31540e08d726815bda
-ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
+description: Saiba como configurar o Microsoft Viva Learning (Visualização) no Centro de administração do Teams.
+ms.openlocfilehash: 40e659796b22097f42515c0cbb704bdaa4ccc972
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52100832"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333513"
 ---
-# <a name="set-up-microsoft-viva-learning-preview-in-the-teams-admin-center"></a>Configurar o Microsoft Viva Learning (Visualização) no Teams de administração
+# <a name="set-up-microsoft-viva-learning-preview-in-the-teams-admin-center"></a>Configurar o Microsoft Viva Learning (Visualização) no centro de administração do Teams
 
 > [!NOTE]
 > As informações neste artigo se relacionam a um produto de visualização que pode ser substancialmente modificado antes de ser lançado comercialmente. 
 
-O Teams administrador instala o Viva Learning (Visualização) e aplica políticas de permissão por meio do Teams de administração.
+O administrador do Teams instala o Viva Learning (Visualização) e aplica políticas de permissão por meio do Centro de administração do Teams.
 
 ## <a name="manage-settings-for-viva-learning-preview"></a>Gerenciar configurações para o Viva Learning (Visualização)
 
-Você deve ser um administrador no centro de administração Teams para executar essas tarefas.
+Você deve ser um administrador no Centro de administração do Teams para executar essas tarefas.
 
 Para disponibilizar o Viva Learning (Visualização) para usuários em sua organização, siga estas etapas:
 
-1. Na navegação à esquerda do centro de administração Teams, acesse **Teams**  >  **aplicativos Gerenciar aplicativos**.
+1. Na navegação à esquerda do Centro de administração do Teams, vá para **Aplicativos do Teams**  >  **Gerenciar aplicativos**.
 
-   ![Navegação à esquerda no centro de Teams de administração mostrando Teams aplicativos e Gerenciar aplicativos.](../media/learning/learning-app-teams-manage-apps-nav.png)
+   ![Navegação à esquerda no centro de administração do Teams mostrando aplicativos do Teams e Seção Gerenciar aplicativos.](../media/learning/learning-app-teams-manage-apps-nav.png)
 
 2. Na página **Gerenciar aplicativos,** na caixa de pesquisa, digite *Viva learning* e selecione Viva **Learning (Visualização).**
 
-   ![Gerenciar a página aplicativos no Teams de administração mostrando a caixa de pesquisa.](../media/learning/learning-app-teams-manage-apps-page.png)
+   ![Gerenciar a página aplicativos no centro de administração do Teams mostrando a caixa de pesquisa.](../media/learning/learning-app-teams-manage-apps-page.png)
 
 3. Na página **Viva Aprendizagem (Visualização):**
 
    1. Em **Status**, selecione **Permitido** ativar o Viva Learning (Visualização).
 
-   2. Na guia **Configurações,** em Configurações **do** aplicativo, vá para o centro de administração Microsoft 365 para configurar fontes de conteúdo [de aprendizagem.](content-sources-365-admin-center.md)
+   2. Na guia **Configurações,** em **Configurações do** aplicativo, vá para o Centro de administração do Microsoft 365 para configurar fontes de conteúdo [de aprendizagem.](content-sources-365-admin-center.md)
 
-   ![Página de aprendizado no centro Teams de administração mostrando configurações de Status e Aplicativo.](../media/learning/learning-app-teams-learning-page.png)
+   ![Página de aprendizado no centro de administração do Teams mostrando configurações de Status e Aplicativo.](../media/learning/learning-app-teams-learning-page.png)
 
 4. Depois **de Gerenciar** configurações  do  aplicativo, acesse Políticas de permissão e políticas de Instalação para conceder permissão aos funcionários que devem ter acesso ao Viva Learning (Visualização) como parte da participação da sua organização na visualização.
 
 > [!NOTE]
->  Se sua organização estiver no Ring 4.0 como parte do programa TAP100 do Teams, talvez seja necessário habilitar usuários aprovados no Ring 3.0 para acessar o Viva Learning (Visualização). <br><br>Como parte da visualização, o Viva Learning (Visualização) é lançado no Ring 3.0. Se sua organização estiver no Ring 4.0, você não verá o Viva Learning (Visualização) na página **Gerenciar aplicativos.** Para testar o aplicativo, você precisa criar uma política de permissão de aplicativos personalizados, defini-la como **Permitir** todos os aplicativos e atribuí-la aos usuários aprovados do Anel 3.0. <br><br>   ![Página TAP-AppsPermission-Plcy mostrando Permitir todos os aplicativos selecionados.](../media/learning/learning-app-tap-appspermission-plcy.png)
+>  Se sua organização estiver no Ring 4.0 como parte do programa Do Teams TAP100, talvez seja necessário habilitar usuários aprovados no Ring 3.0 para acessar o Viva Learning (Visualização). <br><br>Como parte da visualização, o Viva Learning (Visualização) é lançado no Ring 3.0. Se sua organização estiver no Ring 4.0, você não verá o Viva Learning (Visualização) na página **Gerenciar aplicativos.** Para testar o aplicativo, você precisa criar uma política de permissão de aplicativos personalizados, defini-la como **Permitir** todos os aplicativos e atribuí-la aos usuários aprovados do Anel 3.0. <br><br>   ![Página TAP-AppsPermission-Plcy mostrando Permitir todos os aplicativos selecionados.](../media/learning/learning-app-tap-appspermission-plcy.png)
 
 ## <a name="next-step"></a>Próxima etapa
 
-[Configurar fontes de conteúdo de aprendizagem para o Viva Learning (Visualização) no Microsoft 365 de administração](content-sources-365-admin-center.md)
+[Configurar fontes de conteúdo de aprendizagem para o Viva Learning (Visualização) no Centro de administração do Microsoft 365](content-sources-365-admin-center.md)

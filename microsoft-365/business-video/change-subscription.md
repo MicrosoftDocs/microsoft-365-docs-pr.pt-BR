@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- commerce_subscriptions
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Saiba como mover os usuários para uma assinatura diferente.
-ms.openlocfilehash: 4f26e890e7c3c008c807dfed75829562dbebd087
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 8d919cc4d84654a17ac52813a287da0d75590536
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578972"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332193"
 ---
 # <a name="move-users-to-different-subscriptions"></a>Mover usuários para assinaturas diferentes
 

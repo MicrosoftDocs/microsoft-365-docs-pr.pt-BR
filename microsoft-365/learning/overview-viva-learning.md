@@ -4,7 +4,7 @@ ms.author: daisyfeller
 author: daisyfeller
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 04/30/2021
+ms.date: 05/12/2021
 audience: admin
 ms.topic: article
 ms.service: ''
@@ -15,13 +15,12 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: None
 description: Saiba mais sobre o Microsoft Viva Learning (Visualização) em seu Microsoft 365 ambiente.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d2493c499b8dae3c766f3a94521a74648bbd2a56
-ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
+ms.openlocfilehash: 9b0045cd769d76541b7dfb1e86b50caa2728b54c
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52100845"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333525"
 ---
 # <a name="overview-of-microsoft-viva-learning-preview"></a>Visão geral do Microsoft Viva Learning (Visualização) 
 

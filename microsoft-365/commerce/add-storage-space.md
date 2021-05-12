@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: drjones, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,18 +19,15 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_purchase
-- PPM_jmueller
-ms.reviewer: drjones
-search.appverid:
-- MET150
+search.appverid: MET150
 description: Aprenda a adicionar e reduzir o armazenamento de arquivos em sua assinatura Microsoft 365 de arquivo. Com o armazenamento de arquivos extra, você pode armazenar mais conteúdo no SharePoint Online e OneDrive.
 ms.date: 04/02/2021
-ms.openlocfilehash: 14f72f59493be04165f0e7b28f26b14f8ae01a08
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 98fdb4412f263bd9e0a22b6890ff66509cb3e799
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52293674"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332181"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Adicionar espaço de armazenamento para sua assinatura
 
@@ -40,7 +38,7 @@ Se você começar a ficar sem armazenamento para seus conjuntos de sites do Shar
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Você deve ser um administrador global ou SharePoint para realizar as tarefas neste artigo. Para mais informações, consulte [Sobre funções de administrador](../admin/add-users/about-admin-roles.md).
+Você deve ser um administrador global ou SharePoint para realizar as tarefas neste artigo. Para obter mais informações, confira o artigo [Sobre funções de administrador](../admin/add-users/about-admin-roles.md).
 
 ## <a name="view-available-storage"></a>Exibir armazenamento disponível
 
@@ -105,5 +103,5 @@ O Office 365 com Espaço de Armazenamento Adicional está disponível para as se
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Gerenciar limites de armazenamento de site](https://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits) (artigo)\
+[Gerenciar limites de armazenamento de site](/sharepoint/manage-site-collection-storage-limits) (artigo)\
 [Definir o espaço de armazenamento padrão para OneDrive usuários](/onedrive/set-default-storage-space)(artigo)

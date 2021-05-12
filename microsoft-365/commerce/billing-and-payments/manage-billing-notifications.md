@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: prkalid, guyb
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,16 +16,17 @@ ms.collection:
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-- commerce
+- commerce_billing
 search.appverid:
 - MET150
 description: Saiba como gerenciar quem recebe emails de notificação de cobrança e anexos de fatura.
-ms.openlocfilehash: 8997a4d3ca575c60214adbedccc018e6768850cd
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.date: 03/17/2021
+ms.openlocfilehash: d4083dc5a9d70eb8c20b4107389ec5fec65749ad
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911849"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332133"
 ---
 # <a name="manage-billing-notifications-and-invoice-attachments"></a>Gerenciar notificações de faturamento e anexos de fatura
 
@@ -41,7 +43,7 @@ Você deve ser um administrador global para fazer as etapas descritas neste arti
 
 Os emails de notificação de cobrança são enviados no idioma preferencial da sua organização. Para alterar o idioma preferencial, use as etapas a seguir.
 
-1. No Centro de administração do Microsoft 365, vá para a página **Notificações** de  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank"></a> cobrança.
+1. No centro Microsoft 365 de administração, vá para a **página** Notificações  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">de</a> cobrança.
 2. Na seção **Configurações de notificação de cobrança,** selecione **Editar configurações de notificação**.
 3. No painel **Configurações de notificação de** cobrança, em **Idioma** preferencial, selecione o idioma que você deseja usar e selecione **Salvar**.
 
@@ -101,7 +103,7 @@ Para parar de receber o anexo da fatura a qualquer momento, siga as etapas acima
 
 Se você tiver um perfil de cobrança, algumas das etapas descritas neste artigo podem ser ligeiramente diferentes para algumas de suas assinaturas. Esta seção descreve essas diferenças. [Como saber se tenho um perfil de cobrança?](manage-billing-profiles.md)
 
-### <a name="who-receives-billing-notifications"></a>Quem recebe notificações de cobrança?
+### <a name="who-receives-billing-notifications"></a>Who recebe notificações de cobrança?
 
 Os emails de notificação de cobrança são enviados para os endereços de email principais e alternativos para usuários que têm uma das seguintes funções:
 
@@ -128,5 +130,5 @@ Para receber suas faturas como anexos às notificações de fatura, use as etapa
 ## <a name="related-content"></a>Conteúdo relacionado
 
 [Ver sua conta ou fatura](view-your-bill-or-invoice.md) (artigo)\
-[Entenda sua fatura ou fatura do Microsoft 365 for business](understand-your-invoice2.md) (artigo)\
+[Entenda sua fatura ou fatura para Microsoft 365 para empresas](understand-your-invoice2.md) (artigo)\
 [Adicionar usuários e atribuir licenças ao mesmo tempo](../../admin/add-users/add-users.md) (artigo)

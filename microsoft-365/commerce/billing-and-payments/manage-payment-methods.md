@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jamitche, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -17,18 +18,15 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_billing
-- PPM_jmueller
-ms.reviewer: jamitche
-search.appverid:
-- MET150
+search.appverid: MET150
 description: Saiba como gerenciar suas formas de pagamento no Centro de administração do Microsoft 365.
 ms.date: 04/02/2021
-ms.openlocfilehash: 82b2880eed830bd3b65cce14635c4fa10f618740
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: b6fe62a70d478a98eb13a17fafb4320afc6b5952
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297363"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332001"
 ---
 # <a name="manage-payment-methods"></a>Gerenciar métodos de pagamento
 

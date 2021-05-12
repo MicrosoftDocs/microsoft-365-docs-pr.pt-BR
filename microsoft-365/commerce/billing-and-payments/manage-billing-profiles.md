@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: jkinma
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 f1_keywords:
@@ -18,16 +18,15 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
-- PPM_jmueller
 search.appverid: MET150
 description: Saiba como os perfis de cobrança suportam faturas.
 ms.date: 04/02/2021
-ms.openlocfilehash: 57786df370246c2b4fda556a9c48eb828db1cb4f
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 36d762e50627763b7856ed1fe6c109e8da2b4789
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280782"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332025"
 ---
 # <a name="understand-billing-profiles"></a>Compreender os perfis de cobrança
 
@@ -38,7 +37,7 @@ Os perfis de cobrança incluem as seguintes informações:
 - **Conta de cobrança** &ndash; Nome da conta de cobrança à que o perfil está relacionado
 - **Métodos de pagamento** &ndash; Cartões de crédito ou débito, contas bancárias, verificação ou transferência bancária
 - **Informações de contato** &ndash; Endereço de cobrança e um nome de contato
-- **Configurações de fatura** &ndash; Conversor de Moedas com base no país da conta de cobrança, um número de PO opcional e a opção de receber faturas como anexos de email
+- **Configurações de fatura** &ndash; Moeda com base no país da conta de cobrança, um número DE opcional e a opção de receber faturas como anexos de email
 - **Permissões** &ndash; Permissões que permitem alterar o perfil de cobrança, pagar contas ou usar o método de pagamento no perfil de cobrança para fazer compras
 
 Use perfis de cobrança para controlar suas compras e personalizar sua fatura. Uma fatura mensal é gerada para os produtos comprados com o perfil de cobrança. Você pode personalizar a fatura, como atualizar o número do pedido de compra e a preferência da fatura de email.
@@ -49,7 +48,7 @@ Um perfil de cobrança é criado automaticamente para sua conta de cobrança dur
 
 Funções nos perfis de cobrança têm permissões para controlar compras e exibir e gerenciar faturas. Atribua essas funções aos usuários que rastreiam, organizam e pagam faturas, como membros da equipe de compras em sua organização.
 
-| Role                         | Descrição                                                                      |
+| Função                         | Descrição                                                                      |
 |----------------------------- |--------------------------------------------------------------------------------- |
 | Proprietário do perfil de cobrança        | Gerenciar tudo para um perfil de cobrança                                          |
 | Colaborador de perfil de cobrança  | Gerenciar tudo, exceto permissões em um perfil de cobrança                        |
@@ -73,4 +72,4 @@ Funções nos perfis de cobrança têm permissões para controlar compras e exib
 
 Se você tiver dúvidas ou precisar de ajuda com suas cobranças do Azure, crie uma solicitação de suporte <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">com o suporte do Azure.</a>
 
-Se você tiver dúvidas ou precisar de ajuda com seu perfil de cobrança no centro de administração Microsoft 365, [contate o suporte para produtos de negócios.](../../business-video/get-help-support.md)
+Se você tiver dúvidas ou precisar de ajuda com seu perfil de cobrança no Centro de administração do Microsoft 365, [contate o suporte para produtos comerciais.](../../business-video/get-help-support.md)

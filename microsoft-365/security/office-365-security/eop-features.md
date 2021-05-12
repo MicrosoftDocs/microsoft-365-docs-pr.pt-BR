@@ -13,12 +13,12 @@ ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: A tabela a seguir fornece uma lista dos recursos que estão disponíveis no serviço de filtragem de email hospedado da Proteção do Exchange Online (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ff3c889f3e4d6779b08584ba6537da36d6f2660e
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: b30608b858f06951a8f4c250f288a8d44bd84b08
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203019"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333825"
 ---
 # <a name="eop-features"></a>Recursos EOP
 
@@ -98,6 +98,6 @@ A tabela a seguir fornece uma lista dos recursos que estão disponíveis no serv
 |Suporte técnico por telefone e pela Web 24 horas por dia, sete dias por semana|Para saber mais sobre a ajuda da EOP e as opções de suporte, consulte [Ajuda e suporte para EOP](help-and-support-for-eop.md).|
 |**Outros recursos**||
 |Uma rede global com redundância geográfica de servidores|O EOP é executado em uma rede mundial de datacenters projetados para ajudar a fornecer a melhor disponibilidade. Para saber mais, veja a seção "datacenter da EOP" em [Visão geral do Exchange Online Protection](exchange-online-protection-overview.md).  |
-|Enfileiramento de mensagens quando o servidor local não consegue aceitar emails|As mensagens em adiamento permanecem em nossas filas por um dia. As tentativas de repetição de mensagens baseiam-se no tipo de erro recebido do sistema de mensagens do destinatário. Em média, as mensagens são repetidas a cada 5 minutos. Para saber mais, veja [Perguntas frequentes sobre mensagens enfileiradas, adiadas e retornadas do EOP](eop-queued-deferred-and-bounced-messages-faq.md).|
+|Enfileiramento de mensagens quando o servidor local não consegue aceitar emails|As mensagens em adiamento permanecem em nossas filas por um dia. As tentativas de repetição de mensagens baseiam-se no tipo de erro recebido do sistema de mensagens do destinatário. Em média, as mensagens são repetidas a cada 5 minutos. Para saber mais, veja [Perguntas frequentes sobre mensagens enfileiradas, adiadas e retornadas do EOP](eop-queued-deferred-and-bounced-messages-faq.yml).|
 |Criptografia de mensagem do Office 365 disponível como um serviço complementar|Para saber mais informações, consulte [Criptografia no Office 365](../../compliance/encryption.md).|
 |

@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: jkinma
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,21 +18,20 @@ ms.custom:
 - okr_smb
 - AdminSurgePortfolio
 - commerce_billing
-- PPM_jmueller
 search.appverid: MET150
 description: Saiba como interpretar as cobranças, as faturas e as informações de pagamento na fatura do Microsoft 365 para Empresas e como alterar o número da ordem de compra.
 ms.date: 05/04/2021
-ms.openlocfilehash: 9eb9d063b3634269600d5f6566e9e5f373ab08c2
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 3b183c219e25bcef21add70e2c704a7a0f3fe354
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280480"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331953"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Compreenda sua conta ou fatura para o Microsoft 365 para Empresas
 
 > [!IMPORTANT]
-> A partir de 26 de janeiro de 2021, novas contas bancárias não são mais suportadas para clientes na Bélgica, França, Itália, Luxemburgo, Portugal, Espanha e Estados Unidos. Se você for um cliente existente em um desses países, poderá continuar pagando por sua assinatura com uma conta bancária existente e poderá adicionar novas assinaturas a ela, mas apenas enquanto a conta bancária estiver em boas condições.
+> Desde 26 de janeiro de 2021, não há mais suporte para novas contas bancárias para clientes na Bélgica, França, Itália, Luxemburgo, Portugal, Espanha e Estados Unidos. Se você for um cliente existente em um desses países, poderá continuar pagando pela assinatura com uma conta bancária existente e adicionar novas assinaturas a ela, mas apenas enquanto a conta bancária estiver em dia.
 
 Seja mensal ou anual (dependendo da opção escolhida durante a aquisição da assinatura), você receberá um email informando que seu novo demonstrativo de cobrança está disponível no centro de administração. [Saiba como encontrar e exibir a sua fatura](view-your-bill-or-invoice.md).
   
@@ -129,5 +128,5 @@ Se paga por fatura, você pode adicionar ou alterar o número da OC (ordem de co
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Pagar por sua assinatura Microsoft 365 para empresas](pay-for-your-subscription.md) (artigo)\
+[Pagar sua assinatura do Microsoft 365 para empresas](pay-for-your-subscription.md) (artigo)\
 [Minecraft: Education Edition, opções de pagamento](/education/windows/school-get-minecraft) (artigo) \

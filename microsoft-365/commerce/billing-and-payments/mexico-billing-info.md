@@ -1,10 +1,11 @@
 ---
-title: Informações de cobrança para Microsoft 365 para empresas no México
+title: Informações de cobrança do Microsoft 365 para empresas no México
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,33 +13,30 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-search.appverid:
-- MET150
-description: Saiba mais sobre informações especificamente para Microsoft 365 para empresas no México.
+search.appverid: MET150
+description: Saiba mais sobre informações especificamente para o Microsoft 365 para empresas no México.
 ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
-- PPM_jmueller
-ms.reviewer: jkinma
 monikerRange: o365-worldwide
 ms.date: 11/20/2020
-ms.openlocfilehash: ace8712718dc960f846bd366c8e8dbb7b074f428
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 15b29887fcfd301e303d0918e5f3efc2acd7e908
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107177"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331989"
 ---
-# <a name="billing-information-for-microsoft-365-for-business-in-mexico"></a>Informações de cobrança para Microsoft 365 para empresas no México
+# <a name="billing-information-for-microsoft-365-for-business-in-mexico"></a>Informações de cobrança do Microsoft 365 para empresas no México
 
-## <a name="1-where-can-i-get-an-invoice-for-my-microsoft-365-for-business-purchase"></a>1. Onde posso obter uma fatura do meu Microsoft 365 para compra comercial?
+## <a name="1-where-can-i-get-an-invoice-for-my-microsoft-365-for-business-purchase"></a>1. Onde posso obter uma fatura para minha compra do Microsoft 365 para empresas?
 
-Sua fatura é enviada para o endereço de email de notificação de cobrança registrado 24 horas após a confirmação da compra. Para baixar sua fatura no centro de administração Microsoft 365, vá para a página **Cobrança**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& pagamentos.</a>
+Sua fatura é enviada para o endereço de email de notificação de cobrança registrado 24 horas após a confirmação da compra. Para baixar sua fatura no Centro de administração do Microsoft 365, vá para a página Cobrança  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& pagamentos.</a>
 
 > [!IMPORTANT]
 > Se você quiser que a fatura inclua sua RFC, você deve adicioná-la antes da confirmação da compra.
 
-## <a name="2-how-can-i-add-my-rfc-registro-federal-de-contribuyentes-to-the-invoice-i-get-for-the-purchase-of-microsoft-365-for-business"></a>2. Como posso adicionar meu RFC (Registro Federal de Contribuyentes) à fatura que eu consigo para a compra de Microsoft 365 para empresas?
+## <a name="2-how-can-i-add-my-rfc-registro-federal-de-contribuyentes-to-the-invoice-i-get-for-the-purchase-of-microsoft-365-for-business"></a>2. Como posso adicionar meu RFC (Registro Federal de Contribuyentes) à fatura que consigo para a compra do Microsoft 365 para empresas?
 
 ### <a name="during-the-purchase-process-checkout"></a>Durante o processo de compra (Checkout)
 
@@ -46,14 +44,14 @@ Durante o processo de compra de check-out, quando você chegar à **etapa 4. Pag
 
 ### <a name="for-your-future-purchases"></a>Para suas compras futuras
 
-Você pode adicionar ou modificar o RFC para que as informações se refletem no futuro Microsoft 365 compras comerciais. Para adicionar ou modificar sua RFC, vá para a página **Contas**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">de</a> Cobrança.
+Você pode adicionar ou modificar sua RFC para que as informações se refletem nas compras futuras do Microsoft 365 para empresas. Para adicionar ou modificar sua RFC, vá para a página **Contas**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">de</a> Cobrança.
 
 > [!NOTE]
 > Se você estiver em uma assinatura de cobrança mensal ou anual recorrente, a adição ou modificação do RFC será refletida na fatura da próxima cobrança.
 
 ## <a name="3-can-i-add-or-modify-my-rfc-to-an-invoice-that-was-already-generated"></a>3. Posso adicionar ou modificar minha RFC a uma fatura que já foi gerada?
 
-É importante adicionar ou modificar o RFC antes de fazer a compra. Depois de gerar sua fatura Microsoft 365 para empresas, você não poderá adicionar ou modificar as informações RFC.
+É importante adicionar ou modificar o RFC antes de fazer a compra. Depois de gerar sua fatura do Microsoft 365 para empresas, você não poderá adicionar ou modificar as informações RFC.
 
 ## <a name="4-why-dont-i-get-a-cfdi-comprobante-fiscal-digital-por-internet"></a>4. Por que não consigo uma CFDI (Comprobante Fiscal Digital por Internet)?
 
@@ -66,4 +64,4 @@ Uma fatura gerada por entidades estrangeiras (nesse caso, a Microsoft Corporatio
 ## <a name="related-content"></a>Conteúdo relacionado
 
 [Ver sua conta ou fatura](view-your-bill-or-invoice.md) (artigo)\
-[Entenda sua fatura ou fatura para Microsoft 365 para empresas](understand-your-invoice2.md) (artigo)
+[Entenda sua fatura ou fatura do Microsoft 365 para empresas](understand-your-invoice2.md) (artigo)

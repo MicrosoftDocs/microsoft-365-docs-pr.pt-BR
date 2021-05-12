@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 04/30/2021
+ms.date: 05/12/2021
 audience: enabler
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -14,13 +14,12 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: None
 description: Saiba como encontrar recursos para o Microsoft Viva Learning (Visualização).
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 31e39680fc18ec52b65c29899ec16e72ccbccf58
-ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
+ms.openlocfilehash: 48162a619d37ac764db5a98153efec79ee1a4632
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52100833"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333501"
 ---
 # <a name="introduction-to-microsoft-viva-learning-preview"></a>Introdução ao Microsoft Viva Learning (Visualização)
 

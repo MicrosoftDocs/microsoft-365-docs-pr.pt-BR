@@ -21,14 +21,41 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre o Centro de administração do Microsoft 365.
-ms.openlocfilehash: 5ae72b51657cea1ce635c622e875cdf736ee1598
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 47eafbf49ac70d86b4065d3a67672c79abc16e63
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51221756"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332241"
 ---
 # <a name="overview-of-the-microsoft-365-admin-center"></a>Visão geral do Centro de administração do Microsoft 365
+
+- [O centro de administração em exibição simplificada](#the-admin-center-in-simplified-view)
+- [O centro de administração no painel de exibição](#the-admin-center-in-dashboard-view)
+
+## <a name="the-admin-center-in-simplified-view"></a>O centro de administração em exibição simplificada
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWD3sq?autoplay=false]
+
+Com o Centro de administração do Microsoft 365, você pode redefinir senhas, exibir sua fatura, adicionar ou remover usuários e muito mais tudo em um só lugar.
+
+Entre no Office.com com sua conta de trabalho e selecione o launcher do aplicativo. 
+
+Se você tiver permissão para acessar o centro de administração, você verá **Admin** na lista. Selecione-o. 
+
+Na parte superior do centro de administração, revise as principais ações para você. Você pode ver ações diferentes dependendo do que você já definiu, como criar novas contas, usar o Teams, configurar email e instalar aplicativos do Office. 
+ 
+Em **Sua organização na** guia **Usuários** está uma lista de pessoas que podem acessar aplicativos e serviços, adicionar novos usuários, redefinir senhas ou usar o menu **Mais ações.** Selecione uma pessoa para exibir ou editar suas informações e configurações.  
+
+Na guia **Teams,** crie uma nova equipe ou gerencie equipes existentes. Você pode gerenciar os membros de uma equipe ou selecionar **Mais ações** para alterar outras configurações do Teams. 
+
+Na guia **Assinaturas,** adicione mais produtos, adicione licenças ou use o menu **Mais** ações para modificar licenças ou método de pagamento.
+
+Na guia **Aprender,** navegue por vídeos e artigos sobre o centro de administração e outros recursos do Microsoft 365. Para explorar recursos mais avançados do centro de administração, abra o menu de navegação e expanda os títulos para ver mais. Selecione **Mostrar tudo para** ver tudo no menu de navegação ou use a barra de pesquisa para encontrar rapidamente o que você está procurando.
+
+Se precisar de assistência, selecione **Ajuda & suporte**. Pesquise o tópico com o que você deseja ajudar e exibir a solução recomendada ou selecione o fone de ouvido para entrar em contato com o suporte e insira suas informações de perguntas e contatos. 
+
+## <a name="the-admin-center-in-dashboard-view"></a>O centro de administração no painel de exibição
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWfvDL?autoplay=false]
 
@@ -59,8 +86,6 @@ Para obter mais informações sobre como gerenciar cobrança, senhas, usuários 
 Por padrão, a pessoa que se ins inscrito e compra uma assinatura do Microsoft 365 para empresas obtém permissões de administrador. Essa pessoa pode atribuir permissões de administrador a outras pessoas para ajudá-las a gerenciar o Microsoft 365 para sua organização.
 
 Se você receber a mensagem "**Você não tem** permissão para acessar esta página ou executar essa ação ", você não é um administrador.
-<br><br>    
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/3a4e19ee-1a2a-473f-8995-06de0052c169?autoplay=false]
   
 ### <a name="who-has-admin-permissions-in-my-business"></a>Quem tem permissões de administrador na minha empresa?
 <a name="bkmk_admin"> </a>

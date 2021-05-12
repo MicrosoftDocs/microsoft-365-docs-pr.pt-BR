@@ -13,12 +13,12 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
 localization_priority: None
-ms.openlocfilehash: 59581dce3701e622a1e2d7ed264370c9d92b3211
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 2c29cdb6823e695cb9c96a4f51ef7b1c41642ac9
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327265"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333621"
 ---
 # <a name="manage-topics-in-the-topic-center-in-microsoft-viva-topics"></a>Gerenciar tópicos no centro de tópicos no Microsoft Viva Topics
 
@@ -45,10 +45,6 @@ Os gerentes de conhecimento ajudam a orientar tópicos descobertos por meio dos 
 - **Publicado**: Um tópico confirmado que foi abordado: foram feitas edições manuais para melhorar sua qualidade.
 
 - **Removido**: um tópico é rejeitado por um gerente de conhecimento e não será mais visível para os visualizadores. Um tópico pode ser removido em qualquer estado (sugerido, confirmado ou publicado). Para que um tópico seja removido, deve haver uma rede de dois votos negativos recebidos dos usuários que votaram usando os mecanismos de feedback no cartão de tópico. Por exemplo, se um usuário votou negativo e um usuário votou positivo para um tópico específico, você ainda precisaria de mais dois votos negativos para que o tópico fosse removido. Quando um tópico publicado é removido, a página com os detalhes de cura precisará ser excluída manualmente por meio da Biblioteca de Páginas do centro de tópicos.
-
-Na página **Gerenciar tópicos,** um gerente de conhecimento pode ver se um tópico foi confirmado ou removido por votos do usuário ou por uma pessoa específica. Por exemplo, para tópicos removidos por votos do usuário,  o motivo é mostrado na coluna **Removido** por como Votação do usuário em vez do nome de uma pessoa. 
-
-   ![Captura de tela da página Gerenciar tópicos mostrando a lista de tópicos removidos com votações do usuário realçadas.](../media/knowledge-management/removed-topics-user-votes.png) 
 
 > [!Note] 
 > Na página **Gerenciar tópicos,** cada gerente de conhecimento só poderá ver tópicos em que eles tenham acesso aos arquivos e páginas subjacentes conectados ao tópico. Essa aparação de permissão será refletida na lista de tópicos que aparecem nas guias **Sugeridas** **,** **Confirmadas,** Publicadas e **Removidas.** O tópico conta, no entanto, mostrar o total de contagens na organização, independentemente das permissões.

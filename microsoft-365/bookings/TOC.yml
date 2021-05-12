@@ -42,4 +42,4 @@
     - name: Informações de relatório do Microsoft Bookings
       href: reporting-info.md
     - name: Perguntas frequentes sobre o Microsoft Bookings
-      href: bookings-faq.md
+      href: bookings-faq.yml

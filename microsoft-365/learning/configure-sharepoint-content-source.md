@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 04/30/2021
+ms.date: 05/12/2021
 audience: admin
 ms.topic: article
 ms.service: ''
@@ -15,13 +15,12 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: None
 description: Saiba como configurar o SharePoint como uma fonte de conteúdo de aprendizagem para o Microsoft Viva Learning (Visualização).
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fc702f57b75b78ab523226ba7d8a8eb6505f2975
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 2bed3a42d62e2aab2165ee38379eb07503807e6e
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244112"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333573"
 ---
 # <a name="coming-soon-configure-sharepoint-as-a-learning-content-source-for-microsoft-viva-learning-preview"></a>Em breve: Configure SharePoint como uma fonte de conteúdo de aprendizagem para o Microsoft Viva Learning (Visualização)
 

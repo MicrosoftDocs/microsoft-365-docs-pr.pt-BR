@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: tugu, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,18 +17,15 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_billing
-- PPM_jmueller
-ms.reviewer: tugu
-search.appverid:
-- MET150
-description: Saiba como atualizar seus endereços de cobrança para Microsoft 365 para empresas. Você também pode atualizar o endereço de email usado para receber notificações de cobrança.
+search.appverid: MET150
+description: Saiba como atualizar seus endereços de cobrança do Microsoft 365 para empresas. Você também pode atualizar o endereço de email usado para receber notificações de cobrança.
 ms.date: 04/07/2021
-ms.openlocfilehash: ea212d79ef28d5d387bdb5503c267d7cd5113786
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 8bff090353c409f4364aed63e3b48a831608be2b
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107189"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332158"
 ---
 # <a name="change-your-billing-addresses"></a>Alterar os endereços para cobrança
 
@@ -111,7 +109,7 @@ Para saber mais sobre sua fatura ou fatura, consulte [Exibir](view-your-bill-or-
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Seus produtos</a>.
 
-    Se você estiver usando o Office 365 operado pela 21Vianet na China, consulte Exibir sua conta ou obter Fapiaos para Office 365 operado pela [21Vianet](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md).
+    Se você estiver usando o Office 365 operado pela 21Vianet na China, consulte Exibir sua conta ou obter [Fapiaos para Office 365 operado pela 21Vianet](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md).
 
 ::: moniker-end
 
