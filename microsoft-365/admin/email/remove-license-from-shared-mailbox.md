@@ -22,19 +22,21 @@ search.appverid:
 - MOE150
 ms.assetid: bb229ee9-e7be-4990-b3eb-354e75740496
 description: 'Remova a licença de uma caixa de correio compartilhada para atribuí-la a outro usuário. '
-ms.openlocfilehash: 82ec863d5c2ae550fb401e71744715a27c89d382
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 873b50b34b9887ada92cc56f7083e3b748a52035
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470614"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327217"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>Remover uma licença de uma caixa de correio compartilhada
 
 As caixas de correio compartilhadas geralmente não exigem uma licença. Siga estas instruções para remover uma licença de uma caixa de correio compartilhada para que você possa atribuí-la a um usuário ou retornar a licença para que você não está pagando por uma licença que não precisa.
 
 > [!NOTE]
+>
 > Uma licença é necessária nos seguintes cenários:
+>
 > 1. A caixa de correio compartilhada tem mais de 50 GB de armazenamento em uso.
 > 2. A caixa de correio compartilhada usa o arquivamento local.
 > 3. A caixa de correio compartilhada é colocada em contencioso.

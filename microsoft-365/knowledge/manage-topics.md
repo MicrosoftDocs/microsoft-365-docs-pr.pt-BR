@@ -1,6 +1,6 @@
 ---
 title: Gerenciar tópicos no centro de tópicos no Microsoft Viva Topics
-description: Como gerenciar tópicos na Central de Tópicos.
+description: Como gerenciar tópicos no centro de tópicos.
 author: chuckedmonson
 ms.author: chucked
 manager: pamgreen
@@ -13,12 +13,12 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
 localization_priority: None
-ms.openlocfilehash: 4532f5685fdde7c89ca59e5c22e1ad8afdf2b112
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 59581dce3701e622a1e2d7ed264370c9d92b3211
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904029"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327265"
 ---
 # <a name="manage-topics-in-the-topic-center-in-microsoft-viva-topics"></a>Gerenciar tópicos no centro de tópicos no Microsoft Viva Topics
 
@@ -28,84 +28,88 @@ ms.locfileid: "51904029"
 
 </br>
 
-
 No centro de tópicos Tópicos do Viva, um gerente de conhecimento pode exibir a página Gerenciar tópicos para revisar **tópicos** identificados nos locais de origem conforme especificado pelo administrador de conhecimento.  
 
-   ![Central de Tópicos](../media/knowledge-management/topic-center.png) </br> 
+   ![Central de Tópicos](../media/knowledge-management/topic-center.png)  
 
+## <a name="topic-stages"></a>Estágios do tópico
 
+Os gerentes de conhecimento ajudam a orientar tópicos descobertos por meio dos vários estágios de ciclo de vida de tópicos: **Sugerido** **,** Confirmado, **Publicado** e **Removido.**
 
-Os gerentes de conhecimento ajudam a orientar tópicos descobertos por meio dos vários estágios de ciclo de vida de tópicos:
+   ![Gráfico de ciclo de vida do tópico](../media/knowledge-management/topic-lifecycle.png) 
 
-- **Sugerido**: um tópico foi identificado pela AI e tem recursos de suporte suficientes, conexões e propriedades.
-- **Confirmado**: Um tópico sugerido pela AI é validado. A validação é feita por confirmação de um gerente de conhecimento. Além disso, um tópico pode ser confirmado se houver 2 votos positivos líquidos dos usuários finais recebidos por meio dos mecanismos de feedback no cartão de tópico.
+- **Sugerido**: um tópico foi identificado pela IA e tem recursos, conexões e propriedades de suporte suficientes. (Eles são marcados como **um Tópico Sugerido** na interface do usuário.)
+
+- **Confirmado**:um tópico sugerido pela IA é validado. A validação do tópico deve ser confirmada por um gerente de conhecimento. Para que um tópico seja confirmado, deve haver uma rede de dois votos positivos recebidos dos usuários que votaram usando o mecanismo de comentários no cartão de tópico. Por exemplo, se um usuário votou positivo e um usuário votou negativo para um tópico específico, você ainda precisaria de mais dois votos positivos para que o tópico fosse confirmado.
+ 
 - **Publicado**: Um tópico confirmado que foi abordado: foram feitas edições manuais para melhorar sua qualidade.
-- **Removido**: um tópico é rejeitado por um gerente de conhecimento e não será mais visível para os visualizadores. O tópico pode estar em qualquer estado quando é removido (sugerido, confirmado ou publicado). Quando um tópico publicado é removido, a página com os detalhes de cura precisará ser excluída manualmente por meio da Biblioteca de Páginas do centro de tópicos.
 
-   ![Gráfico de ciclo de vida do tópico](../media/knowledge-management/topic-lifecycle.png) </br> 
+- **Removido**: um tópico é rejeitado por um gerente de conhecimento e não será mais visível para os visualizadores. Um tópico pode ser removido em qualquer estado (sugerido, confirmado ou publicado). Para que um tópico seja removido, deve haver uma rede de dois votos negativos recebidos dos usuários que votaram usando os mecanismos de feedback no cartão de tópico. Por exemplo, se um usuário votou negativo e um usuário votou positivo para um tópico específico, você ainda precisaria de mais dois votos negativos para que o tópico fosse removido. Quando um tópico publicado é removido, a página com os detalhes de cura precisará ser excluída manualmente por meio da Biblioteca de Páginas do centro de tópicos.
+
+Na página **Gerenciar tópicos,** um gerente de conhecimento pode ver se um tópico foi confirmado ou removido por votos do usuário ou por uma pessoa específica. Por exemplo, para tópicos removidos por votos do usuário,  o motivo é mostrado na coluna **Removido** por como Votação do usuário em vez do nome de uma pessoa. 
+
+   ![Captura de tela da página Gerenciar tópicos mostrando a lista de tópicos removidos com votações do usuário realçadas.](../media/knowledge-management/removed-topics-user-votes.png) 
 
 > [!Note] 
-> Na página Gerenciar Tópicos, cada gerente de conhecimento só poderá ver tópicos em que eles tenham acesso aos arquivos e páginas subjacentes conectados ao tópico. Essa aparação de permissão será refletida na lista de tópicos que aparecem nas guias **Sugeridas** **,** **Confirmadas,** Removidas e **Publicadas.** O tópico conta, no entanto, mostrar o total de contagens na organização, independentemente das permissões.
+> Na página **Gerenciar tópicos,** cada gerente de conhecimento só poderá ver tópicos em que eles tenham acesso aos arquivos e páginas subjacentes conectados ao tópico. Essa aparação de permissão será refletida na lista de tópicos que aparecem nas guias **Sugeridas** **,** **Confirmadas,** Publicadas e **Removidas.** O tópico conta, no entanto, mostrar o total de contagens na organização, independentemente das permissões.
 
 ## <a name="requirements"></a>Requisitos
 
 Para gerenciar tópicos no centro de tópicos, você precisa:
-- Tenha uma licença de Tópicos do Viva.
+- Ter uma licença do Viva Topics.
 
-- Tenha a [**permissão Quem pode gerenciar tópicos.**](./topic-experiences-user-permissions.md) Os administradores de conhecimento podem dar aos usuários essa permissão nas configurações de permissões do tópico Tópicos do Viva. 
+- Ter a [**Who pode gerenciar a permissão de**](./topic-experiences-user-permissions.md) tópicos. Os Administradores de conhecimento podem dar aos usuários essa permissão nas configurações de permissões do tópico do Viva Topics. 
 
-Você não poderá exibir a página Gerenciar Tópicos no centro de tópicos, a menos que você tenha a permissão **Quem pode gerenciar tópicos.**
+Você não poderá exibir a página Gerenciar tópicos no centro de **tópicos,** a menos que você tenha a permissão Who **possa gerenciar tópicos.**
 
-No centro de tópicos, um gerente de conhecimento pode revisar tópicos que foram identificados nos locais de origem especificados e podem confirmá-los ou rejeitá-los. Um gerente de conhecimento também pode criar e publicar novas páginas de tópicos se uma não foi encontrada na descoberta de tópicos ou editar as existentes, caso precisem ser atualizadas.
-
+No centro de tópicos, um gerente de conhecimento pode revisar tópicos que foram identificados nos locais de origem especificados e podem confirmá-los ou removê-los. Um gerente de conhecimento também pode criar e publicar novas páginas de tópicos se uma não foi encontrada na descoberta de tópicos ou editar as existentes, caso precisem ser atualizadas.
 
 ## <a name="review-suggested-topics"></a>Revisar tópicos sugeridos
 
-Na página Gerenciar Tópicos do centro de tópicos, os tópicos que foram descobertos em seus locais de origem especificados do SharePoint serão listados na **guia Sugerido.** Se necessário, um gerente de conhecimento pode revisar tópicos não confirmados e optar por confirmá-los ou rejeitá-los.
+Na página **Gerenciar tópicos,** os tópicos que foram descobertos em seus locais SharePoint de origem especificados serão listados na **guia Sugerido.** Se necessário, um gerente de conhecimento pode revisar tópicos não confirmados e optar por confirmá-los ou removê-los.
 
-   ![Tópicos sugeridos](../media/knowledge-management/quality-score.png) </br> 
+   ![Tópicos sugeridos](../media/knowledge-management/quality-score.png) 
 
 Para revisar um tópico sugerido:
 
-1. Na página **Gerenciar tópicos,** selecione a **guia Sugerido,** selecione o tópico para abrir a página de tópicos.</br>
+1. Na página **Gerenciar tópicos,** selecione a guia **Sugerido** e selecione o tópico para abrir a página de tópicos.
 
 2. Na página de tópicos, revise a página de tópicos e selecione **Editar** se precisar fazer alterações na página. A publicação de todas as edições moverá este tópico para a **guia Publicado.**
 
-3. Depois de revisar o tópico, volte para a página Gerenciar Tópicos. Para o tópico selecionado, você pode:
+3. Depois de revisar o tópico, volte para a **página Gerenciar tópicos.** Para o tópico selecionado, você pode:
 
    - Selecione a marca de seleção para confirmar o tópico.
     
-   - Selecione **o x** se quiser rejeitar o tópico.
+   - Selecione **o x** se quiser remover o tópico.
 
     Os tópicos confirmados serão removidos da **lista Sugerida** e agora serão exibidos na **lista Confirmado.**
 
-    Os tópicos rejeitados serão removidos da lista **Sugerida** e agora serão exibidos na **guia Removido.**
-
-   </br> 
+    Os tópicos removidos serão removidos da lista **Sugerida** e agora serão exibidos na **guia Removido.**
 
 ### <a name="quality-score"></a>Pontuação de qualidade
 
-Cada tópico que aparece na página Tópicos Sugeridos tem uma pontuação de qualidade atribuída a ele. A pontuação de qualidade é um reflexo da quantidade de informações que o usuário médio verá para obter as informações sobre o tópico, tendo em mente que cada usuário pode ver mais ou menos informações devido às permissões que podem ou não ter sobre as informações em um tópico. 
+Cada tópico que aparece na página **Tópicos** Sugeridos tem uma pontuação de qualidade atribuída a ele. A pontuação de qualidade é um reflexo da quantidade de informações que o usuário médio verá para obter as informações sobre o tópico, tendo em mente que cada usuário pode ver mais ou menos informações devido às permissões que podem ou não ter sobre as informações em um tópico. 
 
-A pontuação de qualidade pode ajudar a dar informações sobre os tópicos com mais informações e pode ser útil para encontrar tópicos que podem precisar ser editados manualmente. Por exemplo, um tópico com uma pontuação de qualidade menor pode ser o resultado de alguns usuários não terem permissões do SharePoint para arquivos ou sites pertinentes que a AI incluiu no tópico. Em seguida, um colaborador pode editar o tópico para incluir as informações (quando apropriado), que serão visualizadas para todos os usuários que podem exibir o tópico.
+A pontuação de qualidade pode ajudar a dar informações sobre os tópicos com mais informações e pode ser útil para encontrar tópicos que podem precisar ser editados manualmente. Por exemplo, um tópico com uma pontuação de qualidade menor pode ser o resultado de alguns usuários não terem SharePoint permissões para arquivos ou sites pertinentes que a AI incluiu no tópico. Um colaborador poderá, em seguida, editar o tópico para incluir as informações (quando apropriado), que poderão ser visualizadas para todos os usuários que podem exibir o tópico.
 
 ### <a name="impressions"></a>Impressões
 
-A **coluna Impressões** exibe o número de vezes que um tópico foi mostrado aos usuários finais. Isso inclui exibições por meio de cartões de resposta de tópicos na pesquisa e nos destaques do tópico. Ele não reflete o clique sobre esses tópicos, mas que o tópico foi exibido. A **coluna Impressões** mostrará tópicos nas guias **Sugeridas** **,** Confirmadas, Publicadas e Removidas na página Gerenciar Tópicos. 
+A **coluna Impressões** exibe o número de vezes que um tópico foi mostrado aos usuários finais. Isso inclui exibições por meio de cartões de resposta de tópicos na pesquisa e nos destaques do tópico. Ele não reflete o clique sobre esses tópicos, mas que o tópico foi exibido. A **coluna Impressões** mostrará tópicos nas guias **Sugeridas** **,** Confirmadas, Publicadas e Removidas na página **Gerenciar** tópicos. 
 
 ## <a name="confirmed-topics"></a>Tópicos confirmados
 
-Na página Gerenciar Tópicos, os tópicos que foram descobertos em seus locais de origem especificados do SharePoint e foram confirmados por um gerente de conhecimento ou "crowdsourced" confirmados por uma rede de duas ou mais pessoas (balanceamento de votos de usuários negativos contra votos positivos de usuários) por meio do mecanismo de feedback de cartão serão listados na guia Confirmado.  Se necessário, um usuário com permissões para gerenciar tópicos pode revisar tópicos confirmados e optar por rejeitá-los.
+Na página Gerenciar **tópicos,** os tópicos que foram descobertos em seus locais de origem do SharePoint especificados e foram confirmados por um gerente de conhecimento ou "crowdsourced"  confirmados por uma rede de duas ou mais pessoas (balanceando votos de usuários negativos contra votos positivos de usuários) por meio do mecanismo de feedback de cartão serão listados na guia Confirmado. Se necessário, um usuário com permissões para gerenciar tópicos pode revisar tópicos confirmados e optar por rejeitá-los.
 
 Para revisar um tópico confirmado:
 
-1. Na guia **Confirmado,** selecione o tópico para abrir a página de tópicos.</br>
+1. Na guia **Confirmados**, selecione o tópico para abrir a página de tópicos.
 
 2. Na página de tópicos, revise a página de tópicos e selecione **Editar** se precisar fazer alterações na página.
 
 Observe que você ainda pode optar por rejeitar um tópico confirmado. Para fazer isso, vá para  o tópico selecionado na guia Confirmado e selecione **o x** se quiser rejeitar o tópico.
 
 ## <a name="published-topics"></a>Tópicos publicados
-Os tópicos publicados foram editados para que informações específicas sempre apareçam para quem encontrar a página. Os tópicos criados manualmente também estão listados aqui.
 
-   ![Gerenciar tópicos](../media/knowledge-management/manage-topics-new.png) </br>
+Os tópicos publicados foram editados para que informações específicas sempre apareçam para quem encontrar a página. Os tópicos criados manualmente também são listados aqui.
+
+   ![Gerenciar tópicos](../media/knowledge-management/manage-topics-new.png)

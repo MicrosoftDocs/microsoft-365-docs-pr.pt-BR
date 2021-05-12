@@ -16,20 +16,20 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
-description: Saiba como os administradores podem excluir itens na pasta Itens Recuperáveis de um usuário para uma caixa de correio Exchange Online, mesmo que essa caixa de correio seja colocada em espera legal.
+description: Saiba como os administradores podem excluir itens na pasta Itens Recuperáveis de um usuário para uma caixa de correio do Exchange Online, mesmo que essa caixa de correio seja colocada em espera legal.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b6a5967784e3d82275acc4800aaabfa0bdf4c2f9
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 776113bcd6141c4f01c2da61f0bd71f99cffd3e2
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939679"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52326637"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold"></a>Excluir itens na pasta de Itens recuperáveis de caixas de correio baseadas em nuvem em retenção
 
-A pasta Itens Recuperáveis para uma caixa de Exchange Online existe para proteger contra exclusões acidentais ou mal-intencionadas. Ele também é usado para armazenar itens mantidos e acessados por recursos de conformidade, como retidos e pesquisas de Descoberta Virtual. No entanto, em algumas situações, as organizações podem ter dados não intencionalmente mantidos na pasta Itens Recuperáveis que devem ser excluídos. Por exemplo, um usuário pode enviar ou encaminhar, sem saber, uma mensagem de email que contenha informações confidenciais ou informações que possam ter sérias consequências comerciais. Mesmo que a mensagem seja excluída permanentemente, ela poderá ser mantida indefinidamente porque uma responsabilidade legal foi colocada na caixa de correio. Esse cenário é conhecido como vazamento *de* dados porque os dados foram não intencionalmente espalhados *em* Office 365. Nessas situações, você pode excluir itens na pasta Itens Recuperáveis de um usuário para uma caixa de correio Exchange Online, mesmo que essa caixa de correio seja colocada em espera com um dos diferentes recursos de espera no Office 365. Esses tipos de retenções incluem Retençãos de Litígio, In-Place Retençãos, Retençãos de Descoberta e Políticas de retenção criadas no centro de segurança e conformidade no Office 365 ou Microsoft 365.
-  
- Este artigo explica como os administradores podem excluir itens da pasta Itens Recuperáveis para caixas de correio baseadas em nuvem que estão em espera. Este procedimento envolve desabilitar o acesso à caixa de correio e desabilitar a recuperação de item único, desabilitar o Assistente de Pasta Gerenciada do processamento da caixa de correio, remover temporariamente a suspensão, excluir itens da pasta Itens Recuperáveis e, em seguida, reverter a caixa de correio para sua configuração anterior. Este é o processo:
+A pasta Itens Recuperáveis para uma caixa de correio do Exchange Online existe para proteger contra exclusões acidentais ou mal-intencionadas. Ele também é usado para armazenar itens mantidos e acessados por recursos de conformidade, como retidos e pesquisas de Descoberta Virtual. No entanto, em algumas situações, as organizações podem ter dados não intencionalmente mantidos na pasta Itens Recuperáveis que devem ser excluídos. Por exemplo, um usuário pode enviar ou encaminhar, sem saber, uma mensagem de email que contenha informações confidenciais ou informações que possam ter sérias consequências comerciais. Mesmo que a mensagem seja excluída permanentemente, ela poderá ser mantida indefinidamente porque uma responsabilidade legal foi colocada na caixa de correio. Esse cenário é conhecido como vazamento *de dados* porque os dados foram não intencionalmente espalhados *no* Office 365. Nessas situações, você pode excluir itens na pasta Itens Recuperáveis de um usuário para uma caixa de correio do Exchange Online, mesmo que essa caixa de correio seja colocada em espera com um dos diferentes recursos de espera no Office 365. Esses tipos de retenção incluem Retençãos de Litígio, In-Place Retençãos, Retençãos de Descoberta e Políticas de Retenção criadas no centro de segurança e conformidade no Office 365 ou no Microsoft 365.
+
+Este artigo explica como os administradores podem excluir itens da pasta Itens Recuperáveis para caixas de correio baseadas em nuvem que estão em espera. Este procedimento envolve desabilitar o acesso à caixa de correio e desabilitar a recuperação de item único, desabilitar o Assistente de Pasta Gerenciada do processamento da caixa de correio, remover temporariamente a suspensão, excluir itens da pasta Itens Recuperáveis e, em seguida, reverter a caixa de correio para sua configuração anterior. Este é o processo:
   
 [Etapa 1: Coletar informações sobre a caixa de correio](#step-1-collect-information-about-the-mailbox)
 
@@ -44,7 +44,7 @@ A pasta Itens Recuperáveis para uma caixa de Exchange Online existe para proteg
 [Etapa 6: Reverter a caixa de correio para seu estado anterior](#step-6-revert-the-mailbox-to-its-previous-state)
   
 > [!CAUTION]
-> Os procedimentos descritos neste artigo resultarão em que os dados serão excluídos permanentemente (limpos) de uma Exchange Online de correio. Isso significa que as mensagens que você excluir da pasta Itens Recuperáveis não podem ser recuperadas e não estarão disponíveis para descoberta legal ou outras finalidades de conformidade. Se você quiser excluir mensagens de uma caixa de correio colocada em espera como parte de uma Retenção de Litígio, In-Place Retenção, Retenção de Descoberta Eletrônico ou política de retenção criada no centro de segurança e conformidade, verifique com seu gerenciamento de registros ou departamentos jurídicos antes de remover a retenção. Sua organização pode ter uma política que define se uma caixa de correio em espera ou um incidente de vazamento de dados tem prioridade.
+> Os procedimentos descritos neste artigo resultarão em que os dados serão excluídos permanentemente (excluídos) de uma caixa de correio do Exchange Online. Isso significa que as mensagens que você excluir da pasta Itens Recuperáveis não podem ser recuperadas e não estarão disponíveis para descoberta legal ou outras finalidades de conformidade. Se você quiser excluir mensagens de uma caixa de correio colocada em espera como parte de uma Retenção de Litígio, In-Place Retenção, Retenção de Descoberta Eletrônico ou política de retenção criada no centro de segurança e conformidade, verifique com seu gerenciamento de registros ou departamentos jurídicos antes de remover a retenção. Sua organização pode ter uma política que define se uma caixa de correio em espera ou um incidente de vazamento de dados tem prioridade.
   
 ## <a name="before-you-delete-items"></a>Antes de excluir itens
 
@@ -74,7 +74,7 @@ Além disso, você precisa obter as configurações de acesso do cliente de caix
     Get-Mailbox <username> | FL SingleItemRecoveryEnabled,RetainDeletedItemsFor
     ```
 
-   Se a recuperação de item único estiver habilitada, você terá que desabilitá-la na Etapa 2. Se o período de retenção de item excluído não estiver definido por 30 dias (o valor máximo em Exchange Online), você poderá autená-lo na Etapa 2.
+   Se a recuperação de item único estiver habilitada, você terá que desabilitá-la na Etapa 2. Se o período de retenção de item excluído não estiver definido por 30 dias (o valor máximo no Exchange Online), você poderá autená-lo na Etapa 2.
 
 3. Execute o seguinte comando para obter as configurações de acesso à caixa de correio da caixa de correio.
 
@@ -90,7 +90,7 @@ Além disso, você precisa obter as configurações de acesso do cliente de caix
     Get-Mailbox <username> | FL LitigationHoldEnabled,InPlaceHolds
     ```
 
-   > [!TIP]
+    > [!TIP]
     > Se houver valores demais na propriedade  *InPlaceHolds*  e nem todos eles são exibidos, você pode executar o comando para exibir cada valor em uma  `Get-Mailbox <username> | Select-Object -ExpandProperty InPlaceHolds` linha separada.
   
 5. Execute o seguinte comando para obter informações sobre todas as políticas de retenção em toda a organização. 
@@ -99,9 +99,9 @@ Além disso, você precisa obter as configurações de acesso do cliente de caix
     Get-OrganizationConfig | FL InPlaceHolds
     ```
 
-   Se sua organização tiver políticas de retenção em toda a organização, você terá que excluir a caixa de correio dessas políticas na Etapa 3.
+   Se sua organização tiver políticas de retenção em toda a organização, você terá que excluir a caixa de correio dessas políticas na Etapa 3. Pode levar até 24 horas para replicar a alteração.
 
-   > [!TIP]
+    > [!TIP]
     > Se houver valores demais na propriedade  *InPlaceHolds*  e nem todos eles são exibidos, você pode executar o comando para exibir cada valor em uma  `Get-OrganizationConfig | Select-Object -ExpandProperty InPlaceHolds` linha separada. 
   
 6. Execute o seguinte comando para determinar se uma espera de atraso é aplicada à caixa de correio.
@@ -134,13 +134,13 @@ Depois de coletar e salvar informações sobre a caixa de correio, a próxima et
   
 - **Desabilite o acesso do cliente** à caixa de correio para que o proprietário da caixa de correio não possa acessar sua caixa de correio e fazer alterações nos dados da caixa de correio durante este procedimento.
 
-- Aumente o período de retenção de **item** excluído para 30 dias (o valor máximo no Exchange Online) para que os itens não sejam limpos da pasta Itens Recuperáveis antes de poder excluí-los na Etapa 5.
+- **Aumente** o período de retenção de item excluído para 30 dias (o valor máximo no Exchange Online) para que os itens não sejam limpos da pasta Itens Recuperáveis antes que você possa excluí-los na Etapa 5.
 
 - **Desabilite** a recuperação de item único para que os itens não sejam retidos (durante o período de retenção de item excluído) após excluí-los da pasta Itens Recuperáveis na Etapa 5.
 
 - **Desabilite o Assistente de** Pasta Gerenciada para que ele não processe a caixa de correio e mantenha os itens excluídos na Etapa 5.
 
-Execute as etapas a seguir Exchange Online PowerShell.
+Execute as etapas a seguir no PowerShell do Exchange Online.
   
 1. Execute o seguinte comando para desabilitar todo o acesso do cliente à caixa de correio. A sintaxe de comando supõe que todos os métodos de acesso para cliente foram habilitados na caixa de correio.
 
@@ -148,7 +148,7 @@ Execute as etapas a seguir Exchange Online PowerShell.
     Set-CASMailbox <username> -EwsEnabled $false -ActiveSyncEnabled $false -MAPIEnabled $false -OWAEnabled $false -ImapEnabled $false -PopEnabled $false
     ```
 
-   > [!NOTE]
+    > [!NOTE]
     > Pode levar até 60 minutos para desabilitar todos os métodos de acesso do cliente à caixa de correio. Observe que desabilitar esses métodos de acesso não desconecta o proprietário da caixa de correio se eles estão atualmente assinados. Se o proprietário não estiver assinado, ele não poderá acessar sua caixa de correio depois que esses métodos de acesso são desabilitados.
   
 2. Execute o seguinte comando para aumentar o período de retenção de item excluído no máximo de 30 dias. Isso supõe que a configuração atual seja inferior a 30 dias.
@@ -163,7 +163,7 @@ Execute as etapas a seguir Exchange Online PowerShell.
     Set-Mailbox <username> -SingleItemRecoveryEnabled $false
     ```
 
-   > [!NOTE]
+    > [!NOTE]
     > Pode levar até 60 minutos para desabilitar a recuperação de item único. Não exclua itens na pasta Itens Recuperáveis até que esse período tenha decorrido. 
   
 4. Execute o seguinte comando para impedir que o Assistente de Pasta Gerenciada processe a caixa de correio. Conforme explicado anteriormente, você só poderá desabilitar o Assistente de Pasta Gerenciada se uma política de retenção com um Bloqueio de Preservação não for aplicada à caixa de correio. 
@@ -174,14 +174,14 @@ Execute as etapas a seguir Exchange Online PowerShell.
 
 ## <a name="step-3-remove-all-holds-from-the-mailbox"></a>Etapa 3: Remover todas as resções da caixa de correio
 
-A última etapa antes de poder excluir itens da pasta Itens Recuperáveis é remover todas as restituições (identificadas na Etapa 1) colocadas na caixa de correio. Todos os retidos devem ser removidos para que os itens não sejam mantidos depois que você excluí-los da pasta Itens Recuperáveis. As seções a seguir contêm informações sobre como remover diferentes tipos de retém em uma caixa de correio. Consulte a [seção Mais informações](#more-information) para obter dicas sobre como identificar o tipo de espera que pode ser colocado em uma caixa de correio. Para obter mais informações, [consulte How to identify the type of hold placed on an Exchange Online mailbox](identify-a-hold-on-an-exchange-online-mailbox.md).
+A última etapa antes de poder excluir itens da pasta Itens Recuperáveis é remover todas as restituições (identificadas na Etapa 1) colocadas na caixa de correio. Todos os retidos devem ser removidos para que os itens não sejam mantidos depois que você excluí-los da pasta Itens Recuperáveis. As seções a seguir contêm informações sobre como remover diferentes tipos de retém em uma caixa de correio. Consulte a [seção Mais informações](#more-information) para obter dicas sobre como identificar o tipo de espera que pode ser colocado em uma caixa de correio. Para obter mais informações, [consulte Como identificar o tipo de espera colocada em uma caixa de correio do Exchange Online](identify-a-hold-on-an-exchange-online-mailbox.md).
   
 > [!CAUTION]
 > Conforme mencionado anteriormente, verifique com seu gerenciamento de registros ou departamentos jurídicos antes de remover uma moção de uma caixa de correio. 
   
 ### <a name="litigation-hold"></a>Retenção de litígio
   
-Execute o seguinte comando no Exchange Online PowerShell para remover uma Moção de Litígio da caixa de correio.
+Execute o seguinte comando no PowerShell do Exchange Online para remover uma Moção de Litígio da caixa de correio.
 
 ```powershell
 Set-Mailbox <username> -LitigationHoldEnabled $false
@@ -218,7 +218,7 @@ Políticas de retenção em toda a organização, Exchange e Teams em toda a org
 Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 ```
 
-Depois de identificar as políticas de retenção em toda a organização &, vá para a página Retenção de governança de informações no Centro de Conformidade e Segurança, edite cada política de retenção em toda a organização que você identificou na etapa anterior e adicione a caixa de correio à lista de  >   destinatários excluídos. Isso removerá a caixa de correio do usuário da política de retenção.
+Depois de identificar as políticas de retenção em toda a organização &, vá para a página Retenção de governança de informações no Centro de Conformidade e Segurança, edite cada política de retenção em toda a organização que você identificou na etapa anterior e adicione a caixa de correio à lista de  >   destinatários excluídos. Isso removerá a caixa de correio do usuário da política de retenção. Pode levar até 24 horas para replicar a alteração.
 
 ### <a name="retention-labels"></a>Rótulos de retenção
 

@@ -15,18 +15,19 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: df77a3d6c1f66882600a200b83b3b2585473f42b
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: fc04db0c9fe8ee6d09efc9802ab4a747af0b3e9c
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995064"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52326650"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>Habilitar regras da redução da superfície de ataque
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
+
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -78,7 +79,6 @@ Você também pode excluir as regras ASR de disparar com base em hashes de certi
 > [!IMPORTANT]
 > A exclusão de arquivos ou pastas pode reduzir gravemente a proteção fornecida pelas regras ASR. Arquivos excluídos terão permissão para serem executados e nenhum relatório ou evento será gravado.
 > Se as regras ASR estão detectando arquivos que você acredita que não devem ser detectados, você deve usar o modo de auditoria [primeiro para testar a regra](evaluate-attack-surface-reduction.md).
-
 
 Você pode especificar arquivos ou pastas individuais (usando caminhos de pasta ou nomes de recursos totalmente qualificados), mas não pode especificar a quais regras as exclusões se aplicam. Uma exclusão é aplicada somente quando o aplicativo ou serviço excluído é iniciado. Por exemplo, se você adicionar uma exclusão para um serviço de atualização que já está em execução, o serviço de atualização continuará disparando eventos até que o serviço seja interrompido e reiniciado.
 
@@ -145,9 +145,9 @@ Exemplo:
 > [!WARNING]
 > Se você gerenciar seus computadores e dispositivos com o Intune, o Configuration Manager ou outra plataforma de gerenciamento de nível empresarial, o software de gerenciamento substituirá quaisquer configurações conflitantes da Política de Grupo na inicialização.
 
-1. No computador de gerenciamento de Política de Grupo, abra o Console de Gerenciamento de Política de [Grupo](https://technet.microsoft.com/library/cc731212.aspx), clique com o botão direito do mouse no Objeto de Política de Grupo que você deseja configurar e selecione **Editar**.
+1. No computador de gerenciamento de Política de Grupo, abra o [ Console de Gerenciamento de Política de Grupo](https://technet.microsoft.com/library/cc731212.aspx), clique com o botão direito do mouse no Objeto de Política de Grupo que deseja configurar e selecione **Editar**.
 
-2. No Editor **de Gerenciamento de Política de Grupo,** acesse **Configuração do** computador e selecione Modelos **administrativos.**
+2. No **Editor de Gerenciamento de Política de Grupo**, acesse **Configuração do Computador** e selecione **Modelos Administrativos**.
 
 3. Expanda a árvore para **componentes do Windows**  >  **Microsoft Defender Antivírus**  >  **Redução** de superfície  >  **de ataque do** Microsoft Defender Exploit Guard .
 
@@ -166,6 +166,75 @@ Exemplo:
 
    > [!WARNING]
    > Não use aspas, pois elas não são suportadas para a coluna **Nome do** valor ou para a **coluna Valor.**
+
+## <a name="microsoft-endpoint-manager-custom-procedure"></a>Procedimento personalizado do Microsoft Endpoint Manager
+
+Você pode usar um centro de administração do Microsoft Endpoint Manager (MEM) para configurar regras ASR personalizadas.
+
+1. Abra o Centro de administração do Microsoft Endpoint Manager (MEM). No menu **Página** Inicial, clique em  **Dispositivos,** selecione **Perfil de configuração** e clique em **Criar perfil**.
+
+   ![Criar Perfil do MEM](images/mem01-create-profile.png)
+
+2. Em **Criar um perfil**, nas duas listas listadas a seguir, selecione o seguinte:
+
+   - Em **Plataforma**, selecione **Windows 10 e posterior**
+   - Em **Tipo de perfil,** selecione **Modelos**
+
+   Selecione **Personalizado** e clique em **Criar**.
+
+   ![Atributos de perfil de regra de MEM](images/mem02-profile-attributes.png)
+
+3. A ferramenta modelo personalizado é aberta para a **etapa 1 Noções Básicas.** Em **1 Noções Básicas**, em **Nome**, digite um nome para seu modelo e, em **Descrição,** você pode digitar uma descrição opcional.
+
+   ![Atributos básicos do MEM](images/mem03-1-basics.png)
+
+4. Clique em **Avançar**. Etapa **2 As configurações são abertas.** Para configurações do OMA-URI, clique em **Adicionar**. Duas opções agora aparecem: **Adicionar** e **Exportar**.
+
+   ![Configurações de MEM](images/mem04-2-configuration-settings.png)
+
+5. Clique **em Adicionar** novamente. As **configurações adicionar linha OMA-URI são abertas.** Em **Adicionar Linha,** faça o seguinte:
+
+   - Em **Nome**, digite um nome para a regra.
+   - Em **Descrição**, digite uma breve descrição.
+   - Em **OMA-URI**, digite ou colar o link OMA-URI específico para a regra que você está adicionando.
+   - Em **Tipo de dados,** selecione **Cadeia de caracteres**.
+   - Em **Valor**, digite ou colar o valor GUID, o sinal e o valor estado sem espaços \= (_GUID=StateValue_). Where: {0 : Disable (Disable the ASR rule)}, {1 : Block (Enable the ASR rule)}, {2 : Audit (Evaluate how the ASR rule would impact your organization if enabled)}, {6 : Warn (Enable the ASR rule but allow the end-user to bypass the block)}
+
+   ![Configuração de URI OMA do MEM](images/mem05-add-row-oma-uri.png)
+
+6. Clique em **Salvar**. **Add Row** closes. Em **Personalizado,** clique em **Próximo.** Na etapa **3 Marcas de escopo**, as marcas de escopo são opcionais. Siga um destes procedimentos:
+
+   - Clique **em Selecionar Marcas de Escopo,** selecione a marca de escopo (opcional) e clique em **Próximo**.
+   - Ou clique em **Next**
+
+7. Na etapa **4 Atribuições**, em **Grupos Incluídos** - para os grupos que você deseja que essa regra se aplique - selecione entre as seguintes opções:
+
+   - **Adicionar grupos**
+   - **Adicionar todos os usuários**
+   - **Adicionar todos os dispositivos**
+
+   ![Atribuições de MEM](images/mem06-4-assignments.png)
+
+8. Em **Grupos excluídos,** selecione todos os grupos que você deseja excluir dessa regra e clique em **Próximo**.
+
+9. Na etapa **5 Regras de Aplicabilidade** para as seguintes configurações, faça o seguinte:
+
+   - Em **Regra**, selecione **Atribuir perfil se** ou Não atribuir perfil **se**
+   - Em **Propriedade**, selecione a propriedade à qual você deseja que essa regra seja aplicada
+   - Em **Valor**, insira o valor aplicável ou intervalo de valores
+
+   ![Regras de aplicabilidade do MEM](images/mem07-5-applicability -rules.png)
+
+10. Clique em **Avançar**. Na etapa **6 Revisar + criar**, revisar as configurações e informações que você selecionou e ins inserido e clique em **Criar**.
+
+   ![Revisão e criação de MEM](images/mem08-6-review-create.png)
+
+>[!NOTE]
+> As regras estão ativas e ao vivo em minutos.
+
+>[!NOTE]
+> Tratamento de conflitos: se você atribuir a um dispositivo duas políticas ASR diferentes, a maneira como o conflito é tratado são regras que são atribuídas a estados diferentes, não há nenhum gerenciamento de conflitos em vigor, e o resultado é um erro.
+> Regras não conflitantes não resultarão em um erro, e a regra será aplicada corretamente. O resultado é que a primeira regra é aplicada e as regras subsequentes não conflitantes são mescladas à política.
 
 ## <a name="powershell"></a>PowerShell
 

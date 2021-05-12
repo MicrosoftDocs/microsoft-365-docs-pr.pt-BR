@@ -5,21 +5,23 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: micurn, nicholak
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
-ms.collection:
-- commerce
-ms.custom: AdminSurgePortfolio
+ms.collection: ''
+ms.custom:
+- commerce_licensing
 description: Saiba mais sobre o novo recurso de loteamentos.
-ms.openlocfilehash: 62df346def3fd2577568916d2d668ca50542bdbd
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.date: 03/17/2021
+ms.openlocfilehash: 949e06d4bf54405e0045f8c7512a04b1b5cc22c0
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911609"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327125"
 ---
 # <a name="allotment-basics"></a>Noções básicas de loteamento
 

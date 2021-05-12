@@ -21,16 +21,16 @@ search.appverid:
 - MET150
 description: Saiba como cancelar sua assinatura paga ou de avaliação do Microsoft 365 Business.
 ms.date: 04/08/2021
-ms.openlocfilehash: 15ab7ed31af24fa4cb1c83c6babc945871584375
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 329bc10adbe6c2ad0efe3609e7cb72141ae346bd
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244655"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297303"
 ---
 # <a name="cancel-your-subscription"></a>Cancelar sua assinatura
 
-*Qualificação:* Se você tiver menos de 25 licenças atribuídas aos usuários, poderá cancelar sua avaliação do Microsoft 365 Business ou uma assinatura paga online no Centro de Administração do Microsoft 365 a qualquer momento. Se você tiver mais de 25 licenças atribuídas aos usuários, reduza-a para menos de 25 ou [ligue para o suporte para cancelar sua assinatura](../../admin/contact-support-for-business-products.md).
+*Qualificação:* Se você tiver menos de 25 licenças atribuídas aos usuários, poderá cancelar sua avaliação do Microsoft 365 Business ou uma assinatura paga online no Centro de Administração do Microsoft 365 a qualquer momento. Se você tiver mais de 25 licenças atribuídas aos usuários, reduza-a para menos de 25 ou [ligue para o suporte para cancelar sua assinatura](../../business-video/get-help-support.md).
 
 *Reembolso:* qualquer crédito proporcional será devolvido a você no próximo ciclo de faturamento.
 
@@ -102,9 +102,9 @@ Se você usa um domínio personalizado com sua assinatura, existem algumas etapa
 
 #### <a name="change-your-domain-nameserver-records-if-needed"></a>Alterar os registros do servidor de nome do seu domínio (se necessário)
 
-Se tiver configurado um domínio personalizado, você adicionou registros DNS para que o domínio funcione com serviços do Microsoft 365. Antes de remover o seu domínio, atualize os registros DNS, tal como o registro MX do domínio, no seu host DNS.
+Se você configurou um domínio personalizado, também adicionou registros DNS para que o domínio trabalhe com os serviços do Microsoft 365. Antes de remover seu domínio, certifique-se de atualizar os registros DNS, como o registro MX de seu domínio em seu host DNS.
 
-Por exemplo, altere o registro MX no seu host DNS. Os emails enviados para seu domínio deixarão de chegar ao seu endereço da Microsoft e irão para seu novo provedor de email. (Um registro MX determina o local para onde os emails do domínio são enviados.)
+Por exemplo, altere o registro MX em seu host DNS. O email enviado para o seu domínio deixa de chegar ao seu endereço da Microsoft e vai para o seu novo provedor de email. (Um registro MX determina para onde o email do seu domínio é enviado.)
 
 - Se seus registros NS (nameserver) [apontarem para os servidores de nomes do Microsoft 365](../../admin/setup/add-domain.md), a alteração do registro MX não entrará em vigor até você alterar seus registros NS para apontarem para seu novo host DNS (confira a Etapa 2).
 
@@ -122,7 +122,7 @@ Para alterar seus registros NS, consulte [Remover um domínio](../../admin/get-h
 
 ### <a name="save-your-data"></a>Salvar seus dados
 
-Quando o cancelamento entra em vigor, os usuários perdem o acesso aos dados. Antes de cancelar a assinatura, salve os arquivos do OneDrive for Business ou do Microsoft Office SharePoint Online em outro local. Todos os dados de clientes deixados para trás poderão ser excluídos após 30 dias, e serão excluídos no prazo máximo de 180 dias após o cancelamento.
+Quando o cancelamento se torna efetivo, seus usuários perdem o acesso aos seus dados. Antes de cancelar a assinatura, peça que salvem seus arquivos do OneDrive for Business ou do SharePoint Online em outro local. Depois de cancelar a assinatura, todos os dados de clientes restantes podem ser excluídos após 30 dias e, no máximo, 180 dias após o cancelamento.
 
 - Para migrar emails, contatos, tarefas e informações de calendário para outra conta, confira [Exportar ou fazer backup dos emails, dos contatos e do calendário para um arquivo .pst do Outlook](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx).
 

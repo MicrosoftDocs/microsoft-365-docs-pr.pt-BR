@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: 'Crie links rápidos para seu email, documentos, aplicativos, sites do SharePoint, sites externos e outros recursos adicionando blocos personalizados ao iniciador de aplicativos. '
-ms.openlocfilehash: b6ae4deed1566492574e30cf8cb66a750c9858c8
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 598cfeb75fc811c87519c4479fa8fcab450466c3
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470626"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327205"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>Adicionar blocos personalizados ao inicializador de aplicativos
 
@@ -36,7 +36,7 @@ No Microsoft 365, você pode chegar rapidamente e facilmente aos seus emails, ca
   
 Você pode adicionar blocos personalizados ao inicializador de aplicativos, que apontem para sites do SharePoint, sites externos, aplicativos herdados, e muito mais. O bloco personalizado é exibido na guia **Tudo** do inicializador de aplicativos, mas você pode fixá-lo junto aos aplicativos da guia **Página Inicial** e orientar os usuários a fazerem o mesmo. Isso facilita a localização de sites, aplicativos e recursos importantes para realizar o trabalho. No exemplo a seguir, o bloco personalizado Portal da Contoso serve para acessar o site de intranet do SharePoint da organização. 
   
-![Launcher de aplicativos](../../media/7acc06cc-ac7a-4c6e-8ea7-81570a5bdbab.png)
+![Inicializador de aplicativos](../../media/7acc06cc-ac7a-4c6e-8ea7-81570a5bdbab.png)
   
 ## <a name="add-a-custom-tile-to-the-app-launcher"></a>Adicionar um bloco personalizado ao inicializador de aplicativos
 
@@ -48,19 +48,28 @@ Você pode adicionar blocos personalizados ao inicializador de aplicativos, que 
   
 4. Insira o **Nome do bloco** para o novo bloco. O nome será exibido no bloco. 
     
-5. Insira uma **URL do site** para o azulejo. Este é o local onde você deseja que seus usuários acessem quando eles selecionam o telha no launcher do aplicativo. Use HTTPS na URL.<br/>DICA: Se você estiver criando um azulejo para um site do SharePoint, navegue até esse site, copie a URL e a colará aqui. A URL do site de equipe padrão tem esta aparência: `https://<company_name>.sharepoint.com` 
+5. Insira uma **URL do site** para o azulejo. Este é o local onde você deseja que seus usuários acessem quando eles selecionam o telha no launcher do aplicativo. Use HTTPS na URL.
+
+    > [!TIP]
+    > Se você estiver criando um bloco para um site do SharePoint, navegue até o site, copie a URL e cole-a aqui. A URL do site de equipe padrão tem esta aparência: `https://<company_name>.sharepoint.com` 
   
-6. Insira uma **URL da imagem** do azulejo. A imagem é exibida na página Meus Aplicativos e no inicializador de aplicativos.<br/>DICA: a imagem deve ter 60 x 60 pixels e estar disponível para todos na sua organização sem a necessidade de autenticação.
+6. Insira uma **URL da imagem** do azulejo. A imagem é exibida na página Meus Aplicativos e no inicializador de aplicativos.
+
+    > [!TIP]
+    > A imagem deve ter 60 x 60 pixels e estar disponível para todos em sua organização sem a necessidade de autenticação.
 
 7. Insira uma **Descrição** para o bloco. Você vê isso quando seleciona o azulejo na página Meus aplicativos e seleciona **Detalhes do aplicativo.** 
   
 8. Selecione **Salvar alterações** para criar o azulejo personalizado. 
     
-Agora, o bloco personalizado é exibido na guia **Tudo** do inicializador de aplicativos para todas as pessoas. 
+    Agora, o bloco personalizado é exibido na guia **Tudo** do inicializador de aplicativos para todas as pessoas. 
+
+    > [!NOTE]
+    > Se você não vir o bloco personalizado criado na etapa anterior, verifique se tem uma caixa de correio do Exchange Online atribuída e se você entrou em sua caixa de correio pelo menos uma vez. Essas etapas são necessárias para blocos personalizados no Microsoft 365. 
   
 ## <a name="edit-or-delete-a-custom-tile"></a>Edit or delete a custom tile
 
-1. No centro de administração, vá para a guia **Configurações** da Organização  >  **Configurações**  >  **Perfil da** </a> organização.
+1. No centro de administração, vá para a guia **Configurações** da Organização  >  **Configurações**  >  **Perfil da** organização.
     
 2. Na página **Perfil da** Organização, ao lado de   **Adicionar blocos personalizados para sua** organização, selecione **Editar**.
 

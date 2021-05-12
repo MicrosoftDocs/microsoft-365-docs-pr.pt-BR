@@ -5,27 +5,28 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: argani, nicholak
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
+- Adm_o365
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - manage_licenses
-- commerce
-search.appverid:
-- MET150
-description: Saiba como comprar mais licenças ou reduzir o número de licenças para sua assinatura do Microsoft 365 para empresas.
-ms.date: ''
-ms.openlocfilehash: d4d0b73fb33d27f82a02b4ae0c6ecb009eb9d38d
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+- commerce_licensing
+search.appverid: MET150
+description: Saiba como comprar mais licenças ou reduzir o número de licenças para sua assinatura Microsoft 365 para empresas.
+ms.date: 04/07/2021
+ms.openlocfilehash: 6603b49ed7af8b5213141d5c2434093c3af9540a
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615130"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327113"
 ---
 # <a name="buy-or-remove-licenses"></a>Comprar ou remover licenças
 
@@ -33,9 +34,9 @@ Você pode comprar mais licenças ou reduzir o número de licenças para suas as
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Você deve ser um administrador global ou de cobrança para realizar as tarefas descritas neste artigo. Para obter mais informações, confira [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+- Você deve ser um administrador global ou de cobrança para realizar as tarefas descritas neste artigo. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 - Você pode [adicionar usuários e atribuir licenças ao mesmo tempo.](../../admin/add-users/add-users.md)
-- Se você comprou seu plano do Microsoft 365 para empresas ou do Office 365 Enterprise por meio de um parceiro de terceiros, você deve comprar licenças adicionais por meio desse parceiro.
+- Se você comprou seu Microsoft 365 para empresas ou Office 365 Enterprise por meio de um parceiro de terceiros, você deve comprar licenças adicionais por meio desse parceiro.
 
 ## <a name="watch-buy-new-licenses"></a>Assista: Comprar novas licenças
 
@@ -83,7 +84,7 @@ Esta tabela descreve os motivos pelos quais os botões **Comprar licenças** ou 
 |---------|---------|---------|
 |Uma verificação de crédito está pendente. |Se uma verificação de crédito estiver pendente, você não poderá comprar ou remover licenças até que a verificação de crédito seja concluída.  | Volte mais tarde para ver se a verificação de crédito foi concluída. Geralmente, as verificações de crédito levam até dois dias úteis para serem concluídas.<br/>Depois que a verificação de crédito for concluída, você deverá ver os botões **Comprar licenças** e **Remover** licenças. |
 |Você ativou a assinatura usando uma chave de produto.| Se a assinatura foi comprada e ativada usando uma chave de produto de 25  caracteres, você verá a palavra "Pré-pago" na coluna Canal de Compra da página **Seus** produtos.  |Consulte [Adicionar licenças a uma assinatura paga por usar uma chave de produto](add-licenses-using-product-key.md). |
-|Você comprou sua assinatura por meio de um revendedor.| Você vê a palavra "Revendedor" na coluna **Canal de** Compra da **página Seus** produtos. | Se a assinatura foi comprada por meio de um parceiro CSP (Provedor de Soluções na Nuvem), contate seu parceiro CSP para comprar mais licenças.        |
+|Você comprou sua assinatura por meio de um revendedor.| Você vê a palavra "Revendedor" na coluna **Canal de** Compra da **página Seus** produtos. | Se a assinatura foi comprada por meio de um parceiro Provedor de Soluções na Nuvem (CSP), entre em contato com seu parceiro CSP para comprar mais licenças.        |
 |Você tem uma assinatura de avaliação. | Para exibir suas assinaturas de avaliação, selecione o botão de filtro e escolha **Avaliação**. | Primeiro compre sua assinatura de avaliação e, em seguida, você pode comprar mais licenças.|
 
 ## <a name="when-will-the-new-licenses-be-available-to-assign"></a>Quando as novas licenças estarão disponíveis para atribuir?
@@ -107,4 +108,4 @@ Se você reduziu o número de licenças para sua assinatura porque alguém saiu 
 
 [Atribuir licenças aos usuários](../../admin/manage/assign-licenses-to-users.md) (artigo) \
 [Compreender assinaturas e licenças](subscriptions-and-licenses.md) (artigo)\
-[Experimente ou compre uma assinatura do Microsoft 365](../try-or-buy-microsoft-365.md) (artigo)
+[Experimente ou compre uma assinatura Microsoft 365 (artigo)](../try-or-buy-microsoft-365.md)

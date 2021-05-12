@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.review: yinggiy, pablom
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,15 +16,15 @@ ms.collection:
 description: Saiba como criar e gerenciar políticas de declaração automática que atribuem automaticamente licenças a usuários para determinados aplicativos.
 ms.custom:
 - AdminSurgePortfolio
-- commerce
-search.appverid:
-- MET150
-ms.openlocfilehash: 001b612820bb13873ec18733d68828837fcecd78
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+- commerce_licensing
+search.appverid: MET150
+ms.date: 04/06/2021
+ms.openlocfilehash: c89c8114c9a71a315d5876a0edf55d269ed2b12d
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599446"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327101"
 ---
 # <a name="manage-auto-claim-policies"></a>Gerenciar políticas de declaração automática
 
@@ -78,7 +79,7 @@ Ao criar uma política de declaração automática, você pode adicionar um prod
 3. Na página **Nomear essa política de declaração** automática, insira um nome para a política e selecione **Próximo**.
 4. Na página **Definir um aplicativo de declaração automática** e produto, selecione um aplicativo e a assinatura de onde atribuir licenças.
 5. Se você quiser adicionar um produto de backup, selecione **Adicionar um produto de backup a essa política** e selecione o produto na lista.
-6. Selecione **Próximo**.
+6. Selecione **Avançar**.
 7. Na página **Selecionar aplicativos,** deslele ou selecione as caixas para os aplicativos excluirem ou incluirem com a licença e selecione **Próximo**.
 8. Se você adicionou um ou mais produtos de backup, repita a etapa 7 para cada produto. Caso contrário, vá para a etapa 9.
 9. Na página **Revisar e** concluir, verifique as novas informações de política, faça as alterações necessárias e selecione **Criar política**.

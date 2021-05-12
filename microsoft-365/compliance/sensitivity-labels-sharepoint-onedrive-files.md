@@ -17,19 +17,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de sensibilidade para arquivos word, Excel e PowerPoint no SharePoint e OneDrive.
-ms.openlocfilehash: f610e04a9115b7654332bcc1f479144b4d100618
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 656c8c12194119aa83d9b6b6897a7c43fede08df
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311923"
+ms.locfileid: "52326577"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
-> Há um problema atual que resulta em arquivos rotulados e criptografados que não são abertos Office na Web:
+> Há um problema atual que resulta em alguns arquivos rotulados e criptografados que não são abertos Office na Web:
 >
 > Embora investiguemos um problema relacionado a propriedades específicas do documento, você não poderá abrir muitos arquivos em Office na Web. Para esses arquivos, você pode continuar a abri-los e editá-los em sua área de trabalho e aplicativos Office móveis. Ou faça o seguinte:
 >
@@ -38,7 +38,7 @@ ms.locfileid: "52311923"
 > 3. Salve o arquivo no local original (SharePoint ou OneDrive) e feche o aplicativo da área de trabalho.
 > 4. Abra o arquivo Office na Web e reaplica o rótulo original que aplica criptografia.
 > 
-> Os arquivos criados e editados somente Office na Web não são afetados.
+> Os arquivos rotulados apenas Office na Web não são afetados.
 
 Habilita rótulos de Office arquivos SharePoint e OneDrive para que os usuários [](sensitivity-labels.md) possam aplicar seus rótulos de sensibilidade Office para a Web. Quando esse recurso estiver habilitado, os usuários verão o botão **Sensibilidade** na faixa de opções para que possam aplicar rótulos e ver qualquer nome de rótulo aplicado na barra de status.
 
@@ -177,8 +177,7 @@ Para habilitar os novos recursos, use o cmdlet [Set-SPOTenant](/powershell/modul
 
 1. Usando uma conta de estudante ou de trabalho que tenha privilégios de administrador global ou SharePoint administrador no Microsoft 365, conecte-se ao SharePoint. Para saber como, consulte [Introdução ao Shell de Gerenciamento do SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
-   > [!NOTE]
-   > Se você tiver Microsoft 365 Multi-Geo, use o parâmetro -Url com [Conexão-SPOService](/powershell/module/sharepoint-online/connect-sposervice)e especifique a URL do site do Centro de Administração do SharePoint Online para uma de suas localizações geográficas.
+    Observação: se você tiver Microsoft 365 multi-geo, use o parâmetro -Url com [Conexão-SPOService](/powershell/module/sharepoint-online/connect-sposervice)e especifique a URL do site do Centro de Administração online do SharePoint para uma de suas localizações geográficas.
 
 2. Execute o seguinte comando e pressione **Y** para confirmar:
 

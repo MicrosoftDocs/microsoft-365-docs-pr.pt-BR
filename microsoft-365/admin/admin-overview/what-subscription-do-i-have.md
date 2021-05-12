@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -13,26 +14,25 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_O365_Setup
-- Adm_TOC
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-search.appverid:
-- MET150
-ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
+- commerce_subscriptions
+search.appverid: MET150
 description: Saiba quais assinaturas sua organização tem indo para a página Seus produtos.
-ms.openlocfilehash: 38098eb01a9a1e7fa2ee46acf20cc03ed8f31f93
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.date: 01/21/2021
+ms.openlocfilehash: c54b9795487f1cfc5902c2c761fdd65b78109bcf
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52243991"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327229"
 ---
 # <a name="what-subscription-do-i-have"></a>Qual assinatura eu tenho?
 
 Se você for um administrador, poderá verificar quais assinaturas sua organização tem indo para o centro de administração.
   
- **Não é um administrador?** Consulte [What Microsoft 365 for business product or license do I have?](https://support.microsoft.com/office/f8ab5e25-bf3f-4a47-b264-174b1ee925fd)
+ **Não é um administrador?** Veja [O que o Microsoft 365 para produtos ou licenças comerciais eu tenho?](https://support.microsoft.com/office/f8ab5e25-bf3f-4a47-b264-174b1ee925fd)
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 2. Na guia **Produtos,** você vê todas as assinaturas. Cada linha de assinatura inclui informações sobre licenças, status de assinatura e cobrança.

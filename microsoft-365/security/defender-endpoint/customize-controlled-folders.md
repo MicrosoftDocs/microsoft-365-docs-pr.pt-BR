@@ -12,15 +12,15 @@ author: denisebmsft
 ms.author: deniseb
 ms.reviewer: jcedola, dbodorin, vladiso, nixanm, anvascon
 manager: dansimp
-ms.date: 03/24/2021
+ms.date: 05/10/2021
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 0962913df63e6837664cdb8ff79710d66e66977c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: e12368b6241a2c79eead66ed77b30b7864af3955
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199894"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52326518"
 ---
 # <a name="customize-controlled-folder-access"></a>Personalizar o acesso controlado a pastas
 
@@ -28,12 +28,10 @@ ms.locfileid: "51199894"
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> [!TIP]
+> Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-
-O acesso controlado a pastas ajuda você a proteger dados valiosos contra aplicativos mal-intencionados e ameaças, como ransomware. O acesso controlado a pastas é suportado nos clientes do Windows Server 2019 e do Windows 10.
-
-Este artigo descreve como personalizar recursos de acesso controlado a pastas e inclui as seguintes seções:
+O acesso controlado a pastas ajuda você a proteger dados valiosos contra aplicativos mal-intencionados e ameaças, como ransomware. O acesso controlado a pastas é suportado nos clientes do Windows Server 2019 e do Windows 10. Este artigo descreve como personalizar recursos de acesso controlado a pastas e inclui as seguintes seções:
 
 - [Proteger pastas adicionais](#protect-additional-folders)
 - [Adicionar aplicativos que devem ter permissão para acessar pastas protegidas](#allow-specific-apps-to-make-changes-to-controlled-folders)
@@ -45,17 +43,17 @@ Este artigo descreve como personalizar recursos de acesso controlado a pastas e 
 
 ## <a name="protect-additional-folders"></a>Proteger pastas adicionais
 
-O acesso controlado a pastas se aplica a várias pastas do sistema e locais padrão, incluindo pastas como **Documentos,** **Imagens** e **Filmes.** Você pode adicionar pastas adicionais a serem protegidas, mas não pode remover as pastas padrão na lista padrão.
+O acesso controlado a pastas se aplica a várias pastas do sistema e locais padrão, incluindo pastas como **Documentos,** **Imagens** e **Filmes.** Você pode adicionar outras pastas a serem protegidas, mas não pode remover as pastas padrão na lista padrão.
 
 Adicionar outras pastas ao acesso controlado a pastas pode ser útil para casos em que você não armazena arquivos nas bibliotecas padrão do Windows ou alterou o local padrão de suas bibliotecas.
 
-Você também pode especificar compartilhamentos de rede e unidades mapeadas. Há suporte para variáveis de ambiente e curingas. Para obter informações sobre como usar caracteres curinga, consulte Use curingas no nome do arquivo e no caminho da pasta ou listas de [exclusão de extensão.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-extension-file-exclusions-microsoft-defender-antivirus#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists)
+Você também pode especificar compartilhamentos de rede e unidades mapeadas. Há suporte para variáveis de ambiente e curingas. Para obter informações sobre como usar caracteres curinga, consulte Use curingas no nome do arquivo e no caminho da pasta ou listas de [exclusão de extensão.](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 
-Você pode usar o aplicativo segurança do Windows, Política de Grupo, cmdlets do PowerShell ou provedores de serviço de configuração de gerenciamento de dispositivo móvel para adicionar e remover pastas protegidas adicionais.
+Você pode usar o aplicativo segurança do Windows, Política de Grupo, cmdlets do PowerShell ou provedores de serviço de configuração de gerenciamento de dispositivo móvel para adicionar e remover pastas protegidas.
 
 ### <a name="use-the-windows-security-app-to-protect-additional-folders"></a>Usar o aplicativo segurança do Windows para proteger pastas adicionais
 
-1. Abra o aplicativo segurança do Windows selecionando o ícone de escudo na barra de tarefas ou pesquisando o menu iniciar para **Segurança**.
+1. Abra o aplicativo segurança do Windows selecionando o ícone de escudo na barra de tarefas ou procurando *segurança* no menu Iniciar.
 
 2. Selecione **Proteção contra & contra vírus** e, em seguida, role para baixo até a seção proteção **ransomware.**
 
@@ -65,37 +63,41 @@ Você pode usar o aplicativo segurança do Windows, Política de Grupo, cmdlets 
 
 5. Escolha **Sim** no prompt **controle de acesso do** usuário. O **painel Pastas Protegidas** é exibido.
 
-4. Selecione **Adicionar uma pasta protegida** e siga os prompts para adicionar pastas.
+6. Selecione **Adicionar uma pasta protegida** e siga os prompts para adicionar pastas.
 
 ### <a name="use-group-policy-to-protect-additional-folders"></a>Usar a Política de Grupo para proteger pastas adicionais
 
-1. No computador de gerenciamento de Política de Grupo, abra o Console de Gerenciamento de Política de [Grupo](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11)?preserve=true), clique com o botão direito do mouse no Objeto de Política de Grupo que você deseja configurar e selecione **Editar**.
+1. No computador de gerenciamento de Política de Grupo, abra o [Console de Gerenciamento de Política de Grupo](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11)?preserve=true). 
 
-2. No Editor **de Gerenciamento de Política de Grupo,** acesse **Configuração do** computador e selecione Modelos **administrativos.**
+2. Clique com o botão direito do mouse no Objeto de Política de Grupo que você deseja configurar e selecione **Editar**.
 
-3. Expanda a árvore para **componentes do Windows**  >  **O Microsoft Defender**  >  **Antivírus Windows Defender acesso controlado** à  >  **pasta do** Exploit Guard .
+3. No Editor **de Gerenciamento de Política de Grupo,** acesse Políticas de **configuração** do computador  >    >  **Modelos administrativos.**
 
-4. Clique duas vezes **em Configurações de pastas protegidas** e de definir a opção como **Habilitado**. Selecione **Mostrar** e insira cada pasta.
+4. Expanda a árvore para **componentes do Windows**  >  **O Microsoft Defender**  >  **Antivírus Windows Defender acesso controlado** à  >  **pasta do** Exploit Guard . <br/>**OBSERVAÇÃO**: Em versões mais antigas do Windows, você pode ver Windows Defender **Antivírus** em vez **do Microsoft Defender Antivírus**.
+
+5. Clique duas vezes **em Configurações de pastas protegidas** e, em seguida, de definir a opção **como Habilitado**. Selecione **Mostrar** e especifique cada pasta que você deseja proteger.
+
+6. Implante seu Objeto de Política de Grupo como normalmente faz.
 
 ### <a name="use-powershell-to-protect-additional-folders"></a>Usar o PowerShell para proteger pastas adicionais
 
 1. Digite **o PowerShell** no menu Iniciar, clique com o botão direito **do mouse Windows PowerShell** e selecione Executar como **administrador**
 
-2. Insira o seguinte cmdlet:
+2. Digite o seguinte cmdlet do PowerShell, substituindo pelo caminho da `<the folder to be protected>` pasta (como `"c:\apps\"` ):
 
     ```PowerShell
     Add-MpPreference -ControlledFolderAccessProtectedFolders "<the folder to be protected>"
     ```
-3. Repita a etapa 2 até que você tenha adicionado todas as pastas que deseja proteger. As pastas adicionadas ficam visíveis no aplicativo segurança do Windows.
+3. Repita a etapa 2 para cada pasta que você deseja proteger. As pastas protegidas ficam visíveis no aplicativo segurança do Windows.
 
-   ![Captura de tela de uma janela do PowerShell com o cmdlet acima inserido](/microsoft-365/security/defender-endpoint/images/cfa-allow-folder-ps)
+   :::image type="content" source="images/cfa-allow-folder-ps.png" alt-text="Janela do PowerShell com cmdlet mostrado":::
 
 > [!IMPORTANT]
-> Use `Add-MpPreference` para acrescentar ou adicionar aplicativos à lista. O uso `Set-MpPreference` do cmdlet substituirá a lista existente.
+> Use `Add-MpPreference` para acrescentar ou adicionar aplicativos à lista e não `Set-MpPreference` . O uso `Set-MpPreference` do cmdlet substituirá a lista existente.
 
 ### <a name="use-mdm-csps-to-protect-additional-folders"></a>Usar CSPs MDM para proteger pastas adicionais
 
-Use o provedor de serviços de configuração [./Vendor/MSFT/Policy/Config/Defender/GuardedFoldersList](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-guardedfolderslist) (CSP) para permitir que os aplicativos façam alterações em pastas protegidas.
+Use o provedor de serviços de configuração [./Vendor/MSFT/Policy/Config/Defender/GuardedFoldersList](/windows/client-management/mdm/policy-csp-defender#defender-guardedfolderslist) (CSP) para permitir que os aplicativos façam alterações em pastas protegidas.
 
 ## <a name="allow-specific-apps-to-make-changes-to-controlled-folders"></a>Permitir que aplicativos específicos façam alterações em pastas controladas
 
@@ -122,9 +124,9 @@ Um aplicativo ou serviço permitido só tem acesso de gravação a uma pasta con
 
 ### <a name="use-group-policy-to-allow-specific-apps"></a>Usar a Política de Grupo para permitir aplicativos específicos
 
-1. Em seu dispositivo de gerenciamento de Política de Grupo, abra o Console de Gerenciamento de Política de [Grupo](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11)?preserve=true), clique com o botão direito do mouse no Objeto de Política de Grupo que você deseja configurar e selecione **Editar**.
+1. Em seu dispositivo de gerenciamento de Política de Grupo, abra o Console de Gerenciamento de Política de [Grupo](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11)?preserve=true), clique com o botão direito do mouse no Objeto de Política de Grupo que você deseja configurar e selecione **Editar**.
 
-2. No Editor **de Gerenciamento de Política de Grupo,** acesse **Configuração do** computador e selecione Modelos **administrativos.**
+2. No **Editor de Gerenciamento de Política de Grupo**, acesse **Configuração do Computador** e selecione **Modelos Administrativos**.
 
 3. Expanda a árvore para **componentes do Windows**  >  **O Microsoft Defender**  >  **Antivírus Windows Defender acesso controlado** à  >  **pasta do** Exploit Guard .
 
@@ -154,21 +156,21 @@ Um aplicativo ou serviço permitido só tem acesso de gravação a uma pasta con
 
 ### <a name="use-mdm-csps-to-allow-specific-apps"></a>Usar CSPs MDM para permitir aplicativos específicos
 
-Use o provedor de serviços de configuração [./Vendor/MSFT/Policy/Config/Defender/GuardedFoldersAllowedApplications](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-guardedfoldersallowedapplications) (CSP) para permitir que os aplicativos façam alterações em pastas protegidas.
+Use o provedor de serviços de configuração [./Vendor/MSFT/Policy/Config/Defender/GuardedFoldersAllowedApplications](/windows/client-management/mdm/policy-csp-defender#defender-guardedfoldersallowedapplications) (CSP) para permitir que os aplicativos façam alterações em pastas protegidas.
 
 ## <a name="allow-signed-executable-files-to-access-protected-folders"></a>Permitir que arquivos executáveis assinados acessem pastas protegidas
 
-Os indicadores de certificado e arquivo do Microsoft Defender for Endpoint podem permitir que arquivos executáveis assinados acessem pastas protegidas. Para obter detalhes da implementação, [consulte Create indicators based on certificates](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/indicator-certificates).
+Os indicadores de certificado e arquivo do Microsoft Defender for Endpoint podem permitir que arquivos executáveis assinados acessem pastas protegidas. Para obter detalhes da implementação, [consulte Create indicators based on certificates](indicator-certificates.md).
 
 > [!Note]
 > Isso não se aplica a mecanismos de script, incluindo o Powershell
 
 ## <a name="customize-the-notification"></a>Personalizar a notificação
 
-Para obter mais informações sobre como personalizar a notificação quando uma regra é disparada e bloqueia um aplicativo ou arquivo, consulte [Configure alert notifications in Microsoft Defender for Endpoint](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-email-notifications).
+Para obter mais informações sobre como personalizar a notificação quando uma regra é disparada e bloqueia um aplicativo ou arquivo, consulte [Configure alert notifications in Microsoft Defender for Endpoint](configure-email-notifications.md).
 
 ## <a name="see-also"></a>Confira também
 
 - [Proteger pastas importantes com acesso controlado a pastas](controlled-folders.md)
 - [Habilitar o acesso controlado a pastas](enable-controlled-folders.md)
-- [Avaliar regras de redução de superfície de ataque](evaluate-attack-surface-reduction.md)
+- [Avaliar as regras da redução da superfície de ataque](evaluate-attack-surface-reduction.md)

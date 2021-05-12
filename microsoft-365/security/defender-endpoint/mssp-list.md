@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 71db42f4bd651f4e9d4236e1f4d794aeb99dfa9f
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 48e45385fb138c19b76dc2d672566cf2ad0fb3cc
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862146"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327289"
 ---
 # <a name="supported-managed-security-service-providers"></a>Provedores de serviços de segurança gerenciados com suporte
 
@@ -36,6 +36,7 @@ Os seguintes provedores de serviços de segurança gerenciados podem ser acessad
 
 Logotipo |Nome do parceiro   | Descrição 
 :---|:---|:---
+![Imagem do logotipo do Aujas](images/aujas-logo.png) | [Serviço MDE gerenciado do Aujas](https://go.microsoft.com/fwlink/?linkid=2162429) | A segurança cibernética do Aujas fornece 24*7 serviços de segurança gerenciados em todo o espectro empresarial, usando o Microsoft Defender para pontos de extremidade por meio de seus Centros de Defesa Cibernética.
 ![Imagem do logotipo do BDO Digital](images/bdo-logo.png)| [BDO Digital](https://go.microsoft.com/fwlink/?linkid=2090394) | A Defesa Gerenciada do BDO Digital aproveita ferramentas de práticas práticas, AI e especialistas em segurança interna para proteção de identidade 24/7/365
 ![Imagem do logotipo BlueVoyant](images/bluevoyant-logo.png)| [BlueVoyant](https://go.microsoft.com/fwlink/?linkid=2121401) | A MDR do Microsoft Defender para Ponto de Extremidade oferece suporte no monitoramento, investigação e mitigação de ataques avançados em pontos de extremidade
 ![Imagem do logotipo do Centro de Segurança na Nuvem](images/cloudsecuritycenter-logo.png)| [Centro de Segurança na Nuvem](https://go.microsoft.com/fwlink/?linkid=2099315) | O Centro de Segurança na Nuvem do InSpark é um serviço gerenciado 24x7 que oferece proteção, detecção & recursos de resposta
@@ -44,6 +45,7 @@ Logotipo |Nome do parceiro   | Descrição
 ![Imagem do logotipo da Proteção Avançada contra Ameaças da Dell Technologies](images/dell-logo.png)| [Proteção Avançada contra Ameaças da Dell Technologies](https://go.microsoft.com/fwlink/?linkid=2091004) | Serviço de monitoramento profissional para comportamento mal-intencionado e anomalias com funcionalidade 24/7
 ![Imagem do DXC-Managed de Detecção e Resposta de Ameaças de Ponto de Extremidade](images/dxc-logo.png)| [Resposta e detecção de ameaças de ponto de extremidade gerenciados pelo DXC](https://go.microsoft.com/fwlink/?linkid=2090395) | Identificar ameaças de ponto de extremidade que escapam das defesas de segurança tradicionais e as contêm em horas ou minutos, não dias
 ![Imagem do log do eSentire](images/esentire-logo.png) | [Detecção e resposta gerenciadas do eSentire](https://go.microsoft.com/fwlink/?linkid=2154970) | Investigações e respostas de ameaças 24x7 por meio do Microsoft Defender para Ponto de Extremidade.
+![Imagem do logotipo de desmarcação](images/expel-logo.png)| [Excluir detecção e resposta gerenciadas para o Ponto de Extremidade do Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2162430) | A Expulsão ajuda a manter a segurança detectando riscos de segurança no Microsoft Defender Endpoint.
 ![Imagem do logotipo de Segurança NTT](images/ntt-logo.png)| [Segurança NTT](https://go.microsoft.com/fwlink/?linkid=2095320) | O Serviço de EDR da NTT fornece monitoramento de segurança 24 horas por dia & resposta em seu ponto de extremidade e rede
 ![Imagem do logotipo do OneVinn](images/onevinn-logo.png) | [Onevinn MDR](https://go.microsoft.com/fwlink/?linkid=2155203)| 24 horas por dia, 7 dias por dia, detecção gerenciada e resposta criadas no Microsoft Defender e no Azure Sentinel, enriquecidas com a inteligência contra ameaças do Onevinn.
 ![Imagem do logotipo do Quorum Cyber](images/quorum-logo.png) | [Quorum Cyber](https://go.microsoft.com/fwlink/?linkid=2155202)| Um serviço de Engenharia de Segurança & de busca de ameaças de ponta.

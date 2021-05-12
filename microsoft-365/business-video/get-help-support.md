@@ -10,7 +10,6 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
-- M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
@@ -20,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como obter ajuda ou suporte administrativo no Microsoft 365 Business Premium.
-ms.openlocfilehash: 5494b51ba59304de8dde71c9c7fa0434ec5dd0c8
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
-ms.translationtype: HT
+ms.openlocfilehash: 8db4f7675f96bac2157c9c0f93ab506c8a39e1bb
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244927"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327181"
 ---
 # <a name="get-support"></a>Obter suporte
 
@@ -44,7 +43,7 @@ Comece [verificando a Integridade atual de seus serviços](../enterprise/view-se
 
 Economize tempo ao iniciar uma solicitação de serviço online. Ajudaremos você a encontrar uma solução ou vamos conectá-lo ao suporte técnico.
 
-1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. Se receber uma mensagem informando que você não tem permissão para acessar essa página ou executar essa ação, você não é um administrador. [Quem tem permissões de administrador na minha empresa?](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview?#who-has-admin-permissions-in-my-business)
+1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. Se você receber uma mensagem informando que não tem permissão para acessar esta página ou executar essa ação, não será um administrador. (Para obter mais informações, consulte Quem tem permissões de administrador na [minha empresa?](admin-center-overview.md#who-has-admin-permissions-in-my-business).)
 
 2. Selecionar o botão **Precisa de ajuda?**.
 
@@ -216,7 +215,7 @@ A função do suporte da 21Vianet é:
 
 ## <a name="feature-availability"></a>Disponibilidade de recursos
 
-Para exibir a disponibilidade de recursos nos planos do Office 365, consulte [Descrição de Serviço do Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet).
+Para exibir a disponibilidade de recursos nos planos do Office 365, consulte Descrição do Serviço do [Office 365.](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet)
 
 ## <a name="follow-us-on-wechat"></a>Siga-nos no WeChat
 
