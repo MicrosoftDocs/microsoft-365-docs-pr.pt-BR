@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente um rótulo a arquivos e emails, ou você pode solicitar aos usuários que selecionem o rótulo que você recomenda.
-ms.openlocfilehash: 477f176d523fbb458ae266cad98b07a63a10050c
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: d0745ac2e4d5b78b40746fd0593a9af18e691021
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259338"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52326825"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -167,7 +167,7 @@ Durante o período de visualização desta opção, os seguintes aplicativos sã
 
 ### <a name="recommend-that-the-user-applies-a-sensitivity-label"></a>Recomendar ao usuário que ele aplique um rótulo de confidencialidade
 
-Se preferir, você pode recomendar aos usuários que apliquem o rótulo. Com essa opção, seus usuários podem aceitar a classificação e qualquer proteção associada ou descartar a recomendação se o rótulo não for adequado para seu conteúdo.
+Se preferir, você pode recomendar aos usuários que eles apliquem o rótulo. Com essa opção, os usuários podem aceitar a classificação e qualquer proteção associada ou descartar a recomendação, caso o rótulo não seja adequado para o conteúdo.
 
 ![Opção para recomendar um rótulo de confidencialidade a usuários](../media/Sensitivity-labels-Recommended-label-option.png)
 
@@ -220,7 +220,9 @@ Certifique-se de que você está ciente dos pré-requisitos antes de configurar 
 - Um ou mais rótulos de confidencialidade [criados e publicados](create-sensitivity-labels.md) (para pelo menos um usuário) que você pode selecionar para suas políticas de rotulagem automática. Para esses rótulos:
     - Não importa se a rotulagem automática na configuração de rótulo dos aplicativos do Office está ativada ou desativada, porque essa configuração complementa as políticas de rotulagem automática, conforme explicado na introdução.
     - Se aos rótulos que você deseja usar para rotulagem automática estiverem configurados para usar marcações visuais (cabeçalhos, rodapés, marcas d'água), observe que eles não são aplicadas aos documentos.
-    - Se os rótulos aplicarem [criptografia](encryption-sensitivity-labels.md), eles deverão ser configurados para a configuração **Atribuir permissões agora**.
+    - Se os rótulos aplicarem [criptografia](encryption-sensitivity-labels.md):
+        - Quando a política de rótulo automático inclui locais para o SharePoint ou o OneDrive, o rótulo deve ser configurado para a configuração **Atribuir permissões agora**.
+        - Quando a política de rótulo automático é somente para o Exchange, o rótulo pode ser configurado para **Atribuir permissões agora** ou **Permitir que os usuários atribuam permissões** (para as opções Não Encaminhar ou Criptografar Apenas).
 
 ### <a name="learn-about-simulation-mode"></a>Saiba mais sobre o modo de simulação
 
