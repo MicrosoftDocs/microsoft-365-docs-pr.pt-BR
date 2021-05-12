@@ -18,19 +18,19 @@ search.appverid:
 - MOE150
 - MET150
 description: A Auditoria Avançada no Microsoft 365 fornece novos recursos de auditoria para ajudar sua organização com investigações forenses e de conformidade.
-ms.openlocfilehash: 4df9cda05d4b5febbc5b7beb505365e449accf04
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 3c91a388bc01a5531309b556a5a8532cb2efbaa6
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51892902"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311711"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Auditoria Avançada no Microsoft 365
 
 A [funcionalidade de auditoria unificada](search-the-audit-log-in-security-and-compliance.md) no Microsoft 365 oferece às organizações a visibilidade de vários tipos de atividades auditadas em vários serviços do Microsoft 365. A Auditoria Avançada ajuda as organizações a conduzir investigações forenses e de conformidade ao aumentar a retenção de log de auditoria necessária para conduzir uma investigação, fornecendo acesso a eventos cruciais que ajudam a determinar o escopo do comprometimento e acesso mais rápido à API da Atividade de Gestão do Office 365.
 
 > [!NOTE]
-> A Auditoria Avançada está disponível para organizações com uma assinatura do Office 365 E5/G5 ou Microsoft 365 Enterprise E5/G5. Além disso, uma licença de complemento do Microsoft 365 E5 Compliance ou Descoberta Eletrônica E5 pode ser atribuída aos usuários quando o licenciamento por usuário for necessário aos recursos de Auditoria Avançada, como é o caso da retenção a longo prazo dos logs de auditoria e do acesso a eventos cruciais de investigações. Para obter mais informações sobre licenciamento, confira [Diretrizes de licenciamento do Microsoft 365 para conformidade e segurança](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-audit).
+> A Auditoria Avançada está disponível para organizações com uma assinatura do Office 365 E5/A5/G5 ou do Microsoft 365 Enterprise E5/A5/G5. Além disso, uma licença de complemento do Microsoft 365 E5/A5/G5 Compliance ou Descoberta Eletrônica E5/A5/G5 pode ser atribuída aos usuários quando o licenciamento por usuário for necessário para os recursos de Auditoria Avançada, como é o caso da retenção a longo prazo dos logs de auditoria e do acesso a eventos cruciais para investigações. Para obter mais informações sobre licenciamento, consulte:<br/>- [Requisitos de licenciamento da Auditoria Avançada](auditing-solutions-overview.md#licensing-requirements)<br/>- [Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-audit).
 
 Este artigo fornece uma visão geral dos recursos de Auditoria Avançada e mostra como configurar usuários para Auditoria Avançada.
 
@@ -131,9 +131,7 @@ Para pesquisar os registros de auditoria SearchQueryInitiatedExchange, é possí
 Você também pode executar o [Search-UnifiedAuditLog – Operations SearchQueryInitiatedExchange](/powershell/module/exchange/search-unifiedauditlog) no PowerShell do Exchange Online.
 
 > [!NOTE]
-> Você deve executar o comando a seguir no PowerShell do Exchange Online para que os eventos do SearchQueryInitiatedExchange (feitos pelo usuário E5 especificado) sejam incluídos nos resultados de pesquisa de log de auditoria: `Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`.<br/><br/>
-Em um ambiente multi-geo, você deve executar o comando **Set-Mailbox** na floresta onde a caixa de correio do usuário está localizada. Para identificar a localização da caixa de correio do usuário, execute o seguinte comando: `Get-Mailbox <user identity> | FL MailboxLocations`.
-Se o comando `Set-Mailbox -AuditOwner @{Add="SearchQueryInitiated"}` foi executado anteriormente na floresta diferente daquela em que a caixa de correio do usuário está localizada, você deve remover o valor SearchQueryInitiated da caixa de correio do usuário (executando `Set-Mailbox -AuditOwner @{Remove="SearchQueryInitiated"}`) e, em seguida, adicioná-lo à caixa de correio do usuário na floresta onde o usuário caixa de correio está localizada.
+> Você deve habilitar o SearchQueryInitiatedExchange para ser registrado em log para poder procurar esse evento no log de auditoria. Para obter instruções, confira [Configurar a Auditoria Avançada](set-up-advanced-audit.md#step-2-enable-crucial-events).
 
 ### <a name="searchqueryinitiatedsharepoint"></a>SearchQueryInitiatedSharePoint
 
@@ -156,47 +154,25 @@ Para pesquisar os registros de auditoria SearchQueryInitiatedSharePoint, é poss
 Você também pode executar o [Search-UnifiedAuditLog – Operations SearchQueryInitiatedSharePoint](/powershell/module/exchange/search-unifiedauditlog) no PowerShell do Exchange Online.
 
 > [!NOTE]
-> Você deve executar o comando a seguir no PowerShell do Exchange Online para que os eventos do SearchQueryInitiatedSharePoint (feitos pelo usuário E5 especificado) sejam incluídos nos resultados de pesquisa de log de auditoria: `Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`.<br/><br/>
-Em um ambiente multi-geo, você deve executar o comando **Set-Mailbox** na floresta onde a caixa de correio do usuário está localizada. Para identificar a localização da caixa de correio do usuário, execute o seguinte comando: `Get-Mailbox <user identity> | FL MailboxLocations`.
-Se o comando `Set-Mailbox -AuditOwner @{Add="SearchQueryInitiated"}` foi executado anteriormente na floresta diferente daquela em que a caixa de correio do usuário está localizada, você deve remover o valor SearchQueryInitiated da caixa de correio do usuário (executando `Set-Mailbox -AuditOwner @{Remove="SearchQueryInitiated"}`) e, em seguida, adicioná-lo à caixa de correio do usuário na floresta onde o usuário caixa de correio está localizada.
+> Você deve habilitar o SearchQueryInitiatedSharePoint para ser registrado em log para poder procurar esse evento no log de auditoria. Para obter instruções, confira [Configurar a Auditoria Avançada](set-up-advanced-audit.md#step-2-enable-crucial-events).
 
 ## <a name="high-bandwidth-access-to-the-office-365-management-activity-api"></a>Acesso de alta largura de banda à API da Atividade de Gerenciamento do Office 365
 
 As organizações que acessam logs de auditoria por meio da API da Atividade de Gestão do Office 365 foram restritas pelos limites no nível do editor. Isso significa que, para um editor obter dados em nome de vários clientes, o limite foi compartilhado por todos esses clientes.
 
-Com o lançamento da Auditoria Avançada, passamos de um limite de nível de editor para um limite de nível de locatário. O resultado é que todas as organizações terão sua própria cota de largura de banda totalmente alocada para acessar os dados de auditoria. A largura de banda não é um limite estático predefinido, mas é modelada em uma combinação de fatores, incluindo o número de assentos na organização e que as organizações E5 terão mais largura de banda do que as organizações que não são E5.
+Com o lançamento da Auditoria Avançada, passamos de um limite de nível de editor para um limite de nível de locatário. O resultado é que todas as organizações terão sua própria cota de largura de banda totalmente alocada para acessar os dados de auditoria. A largura de banda não é um limite estático predefinido. Ela é modelada em uma combinação de fatores, incluindo o número de assentos na organização e o fato de que as organizações E5/A5/G5 terão mais largura de banda do que as organizações que não são E5/A5/G5.
 
-Todas as organizações alocam inicialmente uma linha de base de 2.000 solicitações por minuto. Esse limite aumentará dinamicamente de acordo com a contagem de assentos de uma organização e de sua assinatura de licenciamento. As organizações E5 terão aproximadamente o dobro da largura de banda que as organizações que não são E5. Também haverá limite máximo quanto à largura de banda para proteger a integridade do serviço.
+Todas as organizações alocam inicialmente uma linha de base de 2.000 solicitações por minuto. Esse limite aumentará dinamicamente de acordo com a contagem de assentos de uma organização e de sua assinatura de licenciamento. As organizações E5/A5/G5 terão aproximadamente o dobro da largura de banda que as organizações que não são E5/A5/G5. Também haverá limite máximo quanto à largura de banda para proteger a integridade do serviço.
 
 Para mais informações, confira a seção "limitação da API" em [Referência da API de atividade de gerenciamento do Office 365](/office/office-365-management-api/office-365-management-activity-api-reference#api-throttling).
 
-## <a name="set-up-advanced-audit-for-users"></a>Configurar Auditoria Avançada para usuários
-
-Recursos de Auditoria Avançada, como a capacidade de registrar eventos cruciais, como MailItemsAccessed e Send, exigem uma licença E5 apropriada atribuída aos usuários. Além disso, o aplicativo/plano de serviço de Auditoria Avançada deve ser habilitado para esses usuários. Para verificar se o aplicativo Auditoria Avançada está atribuído aos usuários, execute as seguintes etapas para cada usuário:
-
-1. No [Centro de administração do Microsoft 365](https://admin.microsoft.com/Adminportal), acesse **Usuários** > **Ativar usuários** e selecione um usuário.
-
-2. Na página flyout de propriedades do usuário, clique em **Licenças e aplicativos**.
-
-3. Na seção **Licenças**, verifique se o usuário recebeu uma licença E5.
-
-4. Expanda a seção **Aplicativos** e verifique se a caixa de seleção **Auditoria Avançada do Microsoft 365** está marcada.
-
-5. Se a caixa de seleção não estiver marcada, selecione-a e clique em **Salvar alterações**.
-
-   O log de registros de auditoria para MailItemsAccessed, Send, e outros eventos cruciais para o usuário começará dentro de 24 horas.
-
-Para organizações que atribuem licenças a grupos de usuários usando o licenciamento baseado em grupo, é necessário desativar a atribuição de licenciamento da Auditoria avançada do Microsoft 365 do grupo. Depois de salvar as alterações, verifique se a Auditoria Avançada do Microsoft 365 está desativada para o grupo. Em seguida, ative novamente a atribuição de licenciamento do grupo. Para obter mais instruções do licenciamento baseado em grupo, consulte [Atribuir licenças a usuários por membro de grupo no Azure Active Directory](/azure/active-directory/users-groups-roles/licensing-groups-assign).
-
-Além disso, se você personalizou as ações de caixa de correio que estão conectadas às caixas de correio dos usuários ou compartilhadas, as novas ações da caixa de correio padrão, como MailItemsAccessed, não serão auditadas automaticamente nessas caixas de correio. Para obter informações sobre como alterar as ações da caixa de correio que são auditadas para cada tipo de logon, confira a seção "Alterar ou restaurar ações da caixa de correio registradas por padrão" em [Gerenciar auditoria de caixa de correio](enable-mailbox-auditing.md#change-or-restore-mailbox-actions-logged-by-default).
-
 ## <a name="faqs-for-advanced-audit"></a>Perguntas frequentes para Auditoria Avançada
 
-**Todo usuário precisa de uma licença E5 para se beneficiar da Auditoria Avançada?**
+**Todo usuário precisa de uma licença E5/A5/G5 para se beneficiar da Auditoria Avançada?**
 
-Para se beneficiar dos recursos da Auditoria Avançada no nível de usuário, o usuário deve ter uma licença E5. Existem alguns recursos que verificarão a licença apropriada para expor o recurso ao usuário. Por exemplo, se você estiver tentando manter os registros de auditoria para um usuário que não tem uma licença E5 por mais de 90 dias, o sistema retornará uma mensagem de erro.
+Para se beneficiar dos recursos da Auditoria Avançada no nível de usuário, o usuário deve ter uma licença E5/A5/G5. Existem alguns recursos que verificarão a licença apropriada para expor o recurso ao usuário. Por exemplo, se você estiver tentando manter os registros de auditoria para um usuário que não tem uma licença apropriada por mais de 90 dias, o sistema retornará uma mensagem de erro.
 
-**Minha organização tem uma assinatura E5, preciso fazer algo para ter acesso aos registros de auditoria dos eventos cruciais?**
+**Minha organização tem uma assinatura E5/A5/G5. Preciso fazer algo para obter acesso aos registros de auditoria para eventos cruciais?**
 
 Para clientes qualificados e usuários atribuídos à licença apropriada, não há ação para obter acesso a eventos de auditoria cruciais.
 

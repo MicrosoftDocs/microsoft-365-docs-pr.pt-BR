@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Use as ferramentas de Descoberta Eletrônica no Microsoft 365 para pesquisar e exportar dados de bate-papo do Teams para usuários locais em uma implantação híbrida do Exchange.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5053eb54b59d55c428290987bcc8b2a8ce26b5b
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: ab59c179b62903dd5f1ddd9b718f81a1ac78923a
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471020"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311791"
 ---
 # <a name="search-for-teams-chat-data-for-on-premises-users"></a>Pesquisar dados de chat do Teams para usuários locais
 
@@ -40,7 +40,7 @@ Estes são os requisitos e limitações para a configuração de caixas de corre
 - Somente os dados de bate-papo do Teams associados a um usuário local são armazenados na área de armazenamento baseada em nuvem. Um usuário local não pode acessar essa área de armazenamento de forma alguma.
 
 > [!NOTE]
-> As conversas de canal do Teams sempre são armazenadas na caixa de correio baseada em nuvem associada à Equipe, o que significa que você pode pesquisar por conversas de canal. Para obter mais informações sobre como Pesquisar conversas de canal do Teams, confira [Pesquisar no Microsoft Teams e Grupos do Microsoft 365 ](content-search.md#searching-microsoft-teams-and-microsoft-365-groups).
+> As conversas de canal do Teams sempre são armazenadas na caixa de correio baseada em nuvem associada à Equipe, o que significa que você pode pesquisar por conversas de canal. Para obter mais informações sobre como Pesquisar conversas de canal do Teams, confira [Pesquisar no Microsoft Teams e Grupos do Microsoft 365 ](content-search-reference.md#searching-microsoft-teams-and-microsoft-365-groups).
   
 ## <a name="how-it-works"></a>Como funciona
 
@@ -56,11 +56,11 @@ Além deste recurso, você também pode usar as ferramentas de Descoberta Eletr�
 
 Os seguintes elementos de IU na Pesquisa de Conteúdo e na ferramenta de pesquisa associada com os casos de Descoberta Eletrônica Principal no Centro de conformidade do Microsoft 365:
   
-- A caixa de seleção **Adicionar conteúdo do Aplicativo do Office para usuários locais** é exibida em **Localizações** na Pesquisa de Conteúdo. Selecione esta caixa de seleção para incluir o armazenamento baseado em nuvem para usuários locais em uma Pesquisa de Conteúdo.
+- A caixa de seleção **Adicionar conteúdo do aplicativo para usuários locais** é exibida na página do assistente **Locais** na ferramenta Pesquisa de conteúdo e está selecionada por padrão. Selecione esta caixa de seleção para incluir o armazenamento baseado em nuvem para usuários locais em uma pesquisa de conteúdo.
 
-    ![A caixa de seleção "Adicionar conteúdo do aplicativo do Office para usuários locais" é adicionada à IU de Pesquisa de Conteúdo](../media/599e751e-17bd-408d-a18c-127538de6e85.png)
+    ![A caixa de seleção "Adicionar conteúdo do Aplicativo do Office para usuários locais" é adicionada à IU de Pesquisa de Conteúdo](../media/EHAMShardCheckBox.png)
   
-- Os usuários locais são exibidos no seletor de locais de conteúdo que você usa para selecionar as caixas de correio dos usuários.
+- Você pode procurar usuários locais quando escolher usuários específicos para procurar.
 
 ## <a name="searching-for-teams-chat-content-for-on-premises-users"></a>Pesquisando conteúdo de chat do Teams para usuários locais
 
@@ -68,29 +68,25 @@ Veja como usar a Pesquisa de Conteúdo no Centro de conformidade do Microsoft 36
   
 1. No Centro de conformidade do Microsoft 365, vá para **Pesquisa de Conteúdo**.
 
-2. Na guia **Pesquisas**, clique em ![Adicionar ícone](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **Nova pesquisa**.
+2. Na guia **Pesquisas**, clique em **Nova pesquisa** e nomeie a nova pesquisa.
 
-    Como explicado anteriormente, a caixa de seleção **Adicionar o conteúdo do aplicativo do Office para usuários locais** é exibida em **Locais**. Ela é selecionada por padrão.
+3. Na página **Locais**, configure a alternância como **Ativada** para caixas de correio do Exchange. Observe que a caixa de seleção **Adicionar conteúdo do aplicativo para usuários locais** é exibida e selecionada por padrão.
 
-3. Crie uma consulta de palavra-chave e adicione condições à consulta de pesquisa, se necessário. Para pesquisar apenas dados de chat da equipe, você pode adicionar a seguinte consulta na caixa **Palavras-chave**:
+4. Para procurar conteúdo do Teams para usuários específicos, selecione **Escolher usuário, grupos ou equipes** e escolha usuários específicos para incluir na pesquisa. Caso contrário, clique em **Próximo** para pesquisar conteúdo do Teams para todos os usuários, incluindo usuários locais
+
+5. Na página **Definir as condições da pesquisa**, digite uma consulta de palavra-chave e adicione condições à consulta de pesquisa, se necessário. Para pesquisar apenas dados de chats do Teams, você pode adicionar a seguinte consulta na caixa **Palavras-chave**:
 
     ```text
     kind:im AND kind:microsoftteams
     ```
 
-4. Neste ponto, você pode escolher uma das seguintes opções em **Locais**:
+6. Salve e execute a pesquisa. Os resultados da pesquisa para usuários locais podem ser visualizados como qualquer outro resultado da pesquisa. Você também pode exportar os resultados da pesquisa (inclusive dados de chat do Teams) para um arquivo PST. Para saber mais, confira:
 
-    - **Todos os locais:** Selecione essa opção para pesquisar nas caixas de correio de todos os usuários em sua organização. Quando a caixa de seleção estiver marcada, todos os dados de chat do Teams para usuários locais também serão pesquisados.
+    - [Criar uma pesquisa](content-search.md)
 
-    - **Locais específicos:** Selecione essa opção e clique em **Modificar** \> Escolha usuário, grupos ou equipes para pesquisar caixas de correio específicas. Como explicado anteriormente, o seletor de local permite pesquisar dados de chats do Teams para usuários locais.
+    - [Visualização de resultados de pesquisa](preview-ediscovery-search-results.md)
 
-5. Salve e execute a pesquisa. Os resultados da pesquisa para usuários locais podem ser visualizados como qualquer outro resultado da pesquisa. Você também pode exportar os resultados da pesquisa (inclusive dados de chat do Teams) para um arquivo PST. Para saber mais, confira:
-
-    - [Criar uma pesquisa](content-search.md#create-a-search)
-
-    - [Visualização de resultados de pesquisa](content-search.md#preview-search-results)
-
-    - [Exportar resultados de Pesquisa de Conteúdo](export-search-results.md)
+    - [Exportar resultados de pesquisa](export-search-results.md)
 
 ## <a name="using-powershell-to-search-for-teams-chat-data-for-on-premises-users"></a>Usando o PowerShell para pesquisar dados de chat do Teams para usuários locais
 
@@ -106,13 +102,13 @@ Você pode usar os cmdlets **New-ComplianceSearch** e **Set-ComplianceSearch** n
 
     O parâmetro *IncludeUserAppContent* é usado para especificar o armazenamento baseado em nuvem para o usuário ou usuários especificados pelo parâmetro *ExchangeLocation*. O *AllowNotFoundExchangeLocationsEnabled* permite que você pesquise o armazenamento baseado em nuvem para usuários locais. Quando você usa o valor `$true` para esse parâmetro, a pesquisa não tenta validar a existência da caixa de correio antes de ser executada. Isso é necessário para pesquisar o armazenamento baseado em nuvem para usuários locais porque esse armazenamento baseado em nuvem não é resolvido como uma caixa de correio comum baseada em nuvem.
 
-    O exemplo a seguir procura por diversos chats do Teams (que são mensagens instantâneas) que contenham a palavra-chave "redstone" no armazenamento baseado em nuvem da Sara Davis, que é uma usuária local na organização da Contoso.
+    O exemplo a seguir procura por diversos chats do Teams que contenham a palavra-chave "redstone" no armazenamento baseado em nuvem da Sara Davis, que é uma usuária local na organização da Contoso.
   
     ```powershell
-    New-ComplianceSearch "Redstone_Search" -ContentMatchQuery "redstone AND kind:im" -ExchangeLocation sarad@contoso.com -IncludeUserAppContent $true -AllowNotFoundExchangeLocationsEnabled $true  
+    New-ComplianceSearch "Redstone_Search" -ContentMatchQuery "redstone AND (kind:im AND kind:microsoftteams)" -ExchangeLocation sarad@contoso.com -IncludeUserAppContent $true -AllowNotFoundExchangeLocationsEnabled $true  
     ```
 
-   Depois de criar uma pesquisa, certifique-se de usar o cmdlet **Start-ComplianceSearch** para executar a pesquisa. 
+   Depois de criar uma pesquisa, certifique-se de usar o cmdlet **Start-ComplianceSearch** para executar a pesquisa.
   
 Para mais informações sobre esses cmdlets, confira:
   
@@ -134,11 +130,11 @@ Não. Este recurso está habilitado por padrão para todas as organizações. Em
   
  **As ferramentas de Descoberta Eletrônica podme encontrar dados de bate-papo do Teams mais antigos para usuários locais antes do momento em que este recurso foi habilitado por padrão para todas as organizações?**
   
-A Microsoft começou a armazenar os dados de bate-papo do Teams para usuários locais em 31 de janeiro de 2018. Portanto, se a identidade de um usuário local do Teams foi sincronizada entre vocês no Active Directory local e no Azure Active Directory no Microsoft 365 desde esta data, então os dados de bate-papo do Teams estão armazenados na nuvem e poderão ser pesquisados usando as ferramentas de Descoberta Eletrônica.
+A Microsoft começou a armazenar dados de chat do Teams para usuários locais em 31 de janeiro de 2018. Portanto, se a identidade de um usuário local do Teams foi sincronizada entre vocês no Active Directory local e no Azure Active Directory no Microsoft 365 desde esta data, então os dados de bate-papo do Teams estão armazenados na nuvem e poderão ser pesquisados usando as ferramentas de Descoberta eletrônica.
 
  **Os usuários locais precisam de uma licença para armazenar os dados de chat do Teams na nuvem?**
   
-Sim. Para armazenar dados de chat do Teams de um usuário local em um armazenamento baseado em nuvem, o usuário deve receber uma licença do Microsoft Teams e uma licença do Exchange Online Plan no Office 365 (ou Microsoft 365).
+Para armazenar dados de chat do Teams de um usuário local em um armazenamento baseado em nuvem, o usuário deve receber uma licença do Microsoft Teams e uma licença do Exchange Online Plan no Office 365 (ou Microsoft 365).
 
 **Onde está localizado o armazenamento baseado em nuvem para usuários locais?**
   
@@ -146,7 +142,7 @@ Os dados do bate-papo das equipes são armazenados no local de dados preferencia
 
 **Há o risco de perder os dados de chat do Teams se a caixa de correio local do usuário for migrada para a nuvem?**
   
-Não. Quando você migrar a caixa de correio principal de um usuário local para a nuvem, os dados de chat do Teams serão migrados para a sua nova caixa de correio primária baseada na nuvem.
+Quando você migrar a caixa de correio principal de um usuário local para a nuvem, os dados de chat do Teams serão migrados para a sua nova caixa de correio principal baseada na nuvem.
   
  **Posso aplicar um bloqueio de Descoberta eletrônica ou políticas de retenção para usuários locais?**
   
