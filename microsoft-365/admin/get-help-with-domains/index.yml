@@ -11,12 +11,12 @@ metadata:
   ms.date: 03/25/2021
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 2ca0bc79cc70ce738603dcdb7cb09ea1d238e4c9
-  ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+  ms.openlocfilehash: 38cf5ad6b551763b5ffc6520617b393b07f2646e
+  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/26/2021
-  ms.locfileid: "51379701"
+  ms.lasthandoff: 05/12/2021
+  ms.locfileid: "52332577"
 landingContent:
 - title: Gerenciar domínios
   linkLists:
@@ -44,7 +44,7 @@ landingContent:
     links:
     - text: Piloto do Microsoft 365 do meu domínio personalizado
       url: https://docs.microsoft.com/microsoft-365/admin/misc/pilot-microsoft-365-from-my-custom-domain
-- title: Instruções específicas do host
+- title: Nameserver & REGISTROS DNS
   linkLists:
   - linkListType: how-to-guide
     links:
