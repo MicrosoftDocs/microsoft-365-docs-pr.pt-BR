@@ -20,147 +20,149 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba mais sobre como usar os complementos centralizados para implantar os complementos para usuários e grupos em sua organização.
-ms.openlocfilehash: 8503ed7ea2e088a8e17b52e619ee999aa05f497a
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 76bfa6272ec784518f045a50299fc7cda719eec8
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579285"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327193"
 ---
-# <a name="manage-add-ins-in-the-admin-center"></a><span data-ttu-id="ff11b-103">Gerenciar suplementos no centro de administração</span><span class="sxs-lookup"><span data-stu-id="ff11b-103">Manage add-ins in the admin center</span></span>
+# <a name="manage-add-ins-in-the-admin-center"></a><span data-ttu-id="b7099-103">Gerenciar suplementos no centro de administração</span><span class="sxs-lookup"><span data-stu-id="b7099-103">Manage add-ins in the admin center</span></span>
 
-<span data-ttu-id="ff11b-104">Os complementos do Office ajudam você a personalizar seus documentos e simplificar a maneira como você acessa informações na Web (consulte Iniciar usando o [seu complemento do Office](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)).</span><span class="sxs-lookup"><span data-stu-id="ff11b-104">Office add-ins help you personalize your documents and streamline the way you access information on the web (see [Start using your Office add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)).</span></span> 
+<span data-ttu-id="b7099-104">Office os complementos ajudam você a personalizar seus documentos e a simplificar a maneira como você acessa informações na Web (consulte [Start using your Office add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)).</span><span class="sxs-lookup"><span data-stu-id="b7099-104">Office add-ins help you personalize your documents and streamline the way you access information on the web (see [Start using your Office add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)).</span></span> 
 
-<span data-ttu-id="ff11b-105">Depois que um administrador implanta os complementos para usuários em uma organização, o administrador pode desativar ou ativar os complementos, editar, excluir e gerenciar o acesso aos complementos.</span><span class="sxs-lookup"><span data-stu-id="ff11b-105">After an admin deploys add-ins for users in an organization, the admin can turn add-ins off or on, edit, delete, and manage access to the add-ins.</span></span>
+<span data-ttu-id="b7099-105">Depois que um administrador implanta os complementos para usuários em uma organização, o administrador pode desativar ou ativar os complementos, editar, excluir e gerenciar o acesso aos complementos.</span><span class="sxs-lookup"><span data-stu-id="b7099-105">After an admin deploys add-ins for users in an organization, the admin can turn add-ins off or on, edit, delete, and manage access to the add-ins.</span></span>
 
-<span data-ttu-id="ff11b-106">Para obter mais informações sobre como instalar os complementos do centro de administração, consulte [Deploy add-ins in the admin center](./manage-deployment-of-add-ins.md).</span><span class="sxs-lookup"><span data-stu-id="ff11b-106">For more information about installing add-ins from the admin center, see [Deploy add-ins in the admin center](./manage-deployment-of-add-ins.md).</span></span>
+<span data-ttu-id="b7099-106">Para obter mais informações sobre como instalar os complementos do centro de administração, consulte [Deploy add-ins in the admin center](./manage-deployment-of-add-ins.md).</span><span class="sxs-lookup"><span data-stu-id="b7099-106">For more information about installing add-ins from the admin center, see [Deploy add-ins in the admin center](./manage-deployment-of-add-ins.md).</span></span>
   
-## <a name="add-in-states"></a><span data-ttu-id="ff11b-107">Estados de suplementos</span><span class="sxs-lookup"><span data-stu-id="ff11b-107">Add-in states</span></span>
+## <a name="add-in-states"></a><span data-ttu-id="b7099-107">Estados de complementos</span><span class="sxs-lookup"><span data-stu-id="b7099-107">Add-in states</span></span>
 
-<span data-ttu-id="ff11b-108">Um complemento pode estar no estado **On** ou **Off.**</span><span class="sxs-lookup"><span data-stu-id="ff11b-108">An add-in can be in either the **On** or **Off** state.</span></span>
+<span data-ttu-id="b7099-108">Um complemento pode estar no estado **On** ou **Off.**</span><span class="sxs-lookup"><span data-stu-id="b7099-108">An add-in can be in either the **On** or **Off** state.</span></span>
   
-|<span data-ttu-id="ff11b-109">**Estado**</span><span class="sxs-lookup"><span data-stu-id="ff11b-109">**State**</span></span>|<span data-ttu-id="ff11b-110">**Como o estado ocorre**</span><span class="sxs-lookup"><span data-stu-id="ff11b-110">**How the state occurs**</span></span>|<span data-ttu-id="ff11b-111">**Impacto**</span><span class="sxs-lookup"><span data-stu-id="ff11b-111">**Impact**</span></span>|
+| <span data-ttu-id="b7099-109">Estado</span><span class="sxs-lookup"><span data-stu-id="b7099-109">State</span></span> | <span data-ttu-id="b7099-110">Como o estado ocorre</span><span class="sxs-lookup"><span data-stu-id="b7099-110">How the state occurs</span></span> | <span data-ttu-id="b7099-111">Impacto</span><span class="sxs-lookup"><span data-stu-id="b7099-111">Impact</span></span> |
 |:-----|:-----|:-----|
-|<span data-ttu-id="ff11b-112">**Active**</span><span class="sxs-lookup"><span data-stu-id="ff11b-112">**Active**</span></span>  <br/> |<span data-ttu-id="ff11b-113">O administrador carregou o complemento e o atribuiu a usuários ou grupos.</span><span class="sxs-lookup"><span data-stu-id="ff11b-113">Admin uploaded the add-in and assigned it to users or groups.</span></span>  <br/> |<span data-ttu-id="ff11b-114">Os usuários e grupos atribuídos ao complemento o veem nos clientes relevantes.</span><span class="sxs-lookup"><span data-stu-id="ff11b-114">Users and groups assigned to the add-in see it in the relevant clients.</span></span>  <br/> |
-|<span data-ttu-id="ff11b-115">**Desativado**</span><span class="sxs-lookup"><span data-stu-id="ff11b-115">**Turned off**</span></span>  <br/> |<span data-ttu-id="ff11b-116">O administrador desativou o suplemento.</span><span class="sxs-lookup"><span data-stu-id="ff11b-116">Admin turned off the add-in.</span></span>  <br/> |<span data-ttu-id="ff11b-117">Os usuários e grupos atribuídos ao complemento não têm mais acesso a ele.</span><span class="sxs-lookup"><span data-stu-id="ff11b-117">Users and groups assigned to the add-in no longer have access to it.</span></span>  <br/> <span data-ttu-id="ff11b-118">Se o estado do add-in for alterado para Ativo, os usuários e grupos terão acesso a ele novamente.</span><span class="sxs-lookup"><span data-stu-id="ff11b-118">If the add-in state is changed to Active, the users and groups will have access to it again.</span></span>  <br/> |
-|<span data-ttu-id="ff11b-119">**Excluído**</span><span class="sxs-lookup"><span data-stu-id="ff11b-119">**Deleted**</span></span>  <br/> |<span data-ttu-id="ff11b-120">O administrador excluiu o suplemento.</span><span class="sxs-lookup"><span data-stu-id="ff11b-120">Admin deleted the add-in.</span></span>  <br/> |<span data-ttu-id="ff11b-121">Os usuários e grupos atribuídos ao complemento não têm mais acesso a ele.</span><span class="sxs-lookup"><span data-stu-id="ff11b-121">Users and groups assigned the add-in no longer have access to it.</span></span>  <br/> |
+|<span data-ttu-id="b7099-112">**Ativo**</span><span class="sxs-lookup"><span data-stu-id="b7099-112">**Active**</span></span>  <br/> |<span data-ttu-id="b7099-113">O administrador carregou o complemento e o atribuiu a usuários ou grupos.</span><span class="sxs-lookup"><span data-stu-id="b7099-113">Admin uploaded the add-in and assigned it to users or groups.</span></span>  <br/> |<span data-ttu-id="b7099-114">Os usuários e grupos atribuídos ao complemento o veem nos clientes relevantes.</span><span class="sxs-lookup"><span data-stu-id="b7099-114">Users and groups assigned to the add-in see it in the relevant clients.</span></span>  <br/> |
+|<span data-ttu-id="b7099-115">**Desativado**</span><span class="sxs-lookup"><span data-stu-id="b7099-115">**Turned off**</span></span>  <br/> |<span data-ttu-id="b7099-116">O administrador desativou o suplemento.</span><span class="sxs-lookup"><span data-stu-id="b7099-116">Admin turned off the add-in.</span></span>  <br/> |<span data-ttu-id="b7099-117">Os usuários e grupos atribuídos ao complemento não têm mais acesso a ele.</span><span class="sxs-lookup"><span data-stu-id="b7099-117">Users and groups assigned to the add-in no longer have access to it.</span></span>  <br/> <span data-ttu-id="b7099-118">Se o estado do add-in for alterado para Ativo, os usuários e grupos terão acesso a ele novamente.</span><span class="sxs-lookup"><span data-stu-id="b7099-118">If the add-in state is changed to Active, the users and groups will have access to it again.</span></span>  <br/> |
+|<span data-ttu-id="b7099-119">**Excluído**</span><span class="sxs-lookup"><span data-stu-id="b7099-119">**Deleted**</span></span>  <br/> |<span data-ttu-id="b7099-120">O administrador excluiu o suplemento.</span><span class="sxs-lookup"><span data-stu-id="b7099-120">Admin deleted the add-in.</span></span>  <br/> |<span data-ttu-id="b7099-121">Os usuários e grupos atribuídos ao complemento não têm mais acesso a ele.</span><span class="sxs-lookup"><span data-stu-id="b7099-121">Users and groups assigned the add-in no longer have access to it.</span></span>  <br/> |
    
-<span data-ttu-id="ff11b-122">Considere a exclusão de um complemento se ninguém o estiver usando mais.</span><span class="sxs-lookup"><span data-stu-id="ff11b-122">Consider deleting an add-in if no one is using it anymore.</span></span> <span data-ttu-id="ff11b-123">Por exemplo, desligar um complemento pode fazer sentido se um add-in for usado somente durante períodos específicos do ano.</span><span class="sxs-lookup"><span data-stu-id="ff11b-123">For example, turning off an add-in might make sense if an add-in is used only during specific times of the year.</span></span>
+<span data-ttu-id="b7099-122">Considere a exclusão de um complemento se ninguém o estiver usando mais.</span><span class="sxs-lookup"><span data-stu-id="b7099-122">Consider deleting an add-in if no one is using it anymore.</span></span> <span data-ttu-id="b7099-123">Por exemplo, desligar um complemento pode fazer sentido se um add-in for usado somente durante períodos específicos do ano.</span><span class="sxs-lookup"><span data-stu-id="b7099-123">For example, turning off an add-in might make sense if an add-in is used only during specific times of the year.</span></span>
 
-## <a name="delete-an-add-in"></a><span data-ttu-id="ff11b-124">Excluir um complemento</span><span class="sxs-lookup"><span data-stu-id="ff11b-124">Delete an add-in</span></span>
+## <a name="delete-an-add-in"></a><span data-ttu-id="b7099-124">Excluir um complemento</span><span class="sxs-lookup"><span data-stu-id="b7099-124">Delete an add-in</span></span>
 
-<span data-ttu-id="ff11b-125">Você também pode excluir um complemento que foi implantado.</span><span class="sxs-lookup"><span data-stu-id="ff11b-125">You can also delete an add-in that was deployed.</span></span>
+<span data-ttu-id="b7099-125">Você também pode excluir um complemento que foi implantado.</span><span class="sxs-lookup"><span data-stu-id="b7099-125">You can also delete an add-in that was deployed.</span></span>
 
-1. <span data-ttu-id="ff11b-126">No centro de administração, vá para a página **Serviços** de  >  **Configurações & de complementos.**</span><span class="sxs-lookup"><span data-stu-id="ff11b-126">In the admin center, go to the **Settings** > **Services & add-ins** page.</span></span>
+1. <span data-ttu-id="b7099-126">No centro de administração, vá para **a** página Configurações  >  **Serviços & de complementos.**</span><span class="sxs-lookup"><span data-stu-id="b7099-126">In the admin center, go to the **Settings** > **Services & add-ins** page.</span></span>
 
-     > [!NOTE]
-    > <span data-ttu-id="ff11b-127">O centro de administração está sendo atualizado para a experiência de implantação com Aplicativos Integrados.</span><span class="sxs-lookup"><span data-stu-id="ff11b-127">The admin center is getting updated to deployment experience with Integrated Apps .</span></span> <span data-ttu-id="ff11b-128">Se você não vir as etapas acima, vá para a seção Implantação Centralizada indo para **Configurações Aplicativos**  >  **integrados.**</span><span class="sxs-lookup"><span data-stu-id="ff11b-128">If you don't see the above steps, go to Centralized Deployment section by going to **Settings** > **Integrated apps**.</span></span> <span data-ttu-id="ff11b-129">Na parte superior da página **Aplicativos integrados,** escolha **Complementos**.</span><span class="sxs-lookup"><span data-stu-id="ff11b-129">On the top of the **Integrated apps** page, choose **Add-ins**.</span></span>
+    > [!NOTE]
+    > <span data-ttu-id="b7099-127">O centro de administração está sendo atualizado para a experiência de implantação com Aplicativos Integrados.</span><span class="sxs-lookup"><span data-stu-id="b7099-127">The admin center is getting updated to deployment experience with Integrated Apps .</span></span> <span data-ttu-id="b7099-128">Se você não vir as etapas acima, vá para a seção Implantação Centralizada indo para Configurações  >  **aplicativos integrados.**</span><span class="sxs-lookup"><span data-stu-id="b7099-128">If you don't see the above steps, go to Centralized Deployment section by going to **Settings** > **Integrated apps**.</span></span> <span data-ttu-id="b7099-129">Na parte superior da página **Aplicativos integrados,** escolha **Complementos**.</span><span class="sxs-lookup"><span data-stu-id="b7099-129">On the top of the **Integrated apps** page, choose **Add-ins**.</span></span>
 
-2. <span data-ttu-id="ff11b-130">Selecione o complemento implantado.</span><span class="sxs-lookup"><span data-stu-id="ff11b-130">Select the deployed add-in.</span></span>
+2. <span data-ttu-id="b7099-130">Selecione o complemento implantado.</span><span class="sxs-lookup"><span data-stu-id="b7099-130">Select the deployed add-in.</span></span>
 
-3. <span data-ttu-id="ff11b-131">Clique em **Excluir Add-In**.</span><span class="sxs-lookup"><span data-stu-id="ff11b-131">Click on **Delete Add-In**.</span></span> <span data-ttu-id="ff11b-132">Remova o botão Adicionar no canto inferior direito.</span><span class="sxs-lookup"><span data-stu-id="ff11b-132">Remove the Add-in button on the bottom right corner.</span></span>
+3. <span data-ttu-id="b7099-131">Clique em **Excluir Add-In**.</span><span class="sxs-lookup"><span data-stu-id="b7099-131">Click on **Delete Add-In**.</span></span> <span data-ttu-id="b7099-132">Remova o botão Adicionar no canto inferior direito.</span><span class="sxs-lookup"><span data-stu-id="b7099-132">Remove the Add-in button on the bottom-right corner.</span></span>
 
-4. <span data-ttu-id="ff11b-133">Valide suas seleções e escolha **Remover o complemento**.</span><span class="sxs-lookup"><span data-stu-id="ff11b-133">Validate your selections, and choose **Remove add-in**.</span></span>
+4. <span data-ttu-id="b7099-133">Valide suas seleções e escolha **Remover complemento**.</span><span class="sxs-lookup"><span data-stu-id="b7099-133">Validate your selections, and choose **Remove add-in**.</span></span>
 
-## <a name="edit-add-in-access"></a><span data-ttu-id="ff11b-134">Editar acesso ao add-in</span><span class="sxs-lookup"><span data-stu-id="ff11b-134">Edit add-in access</span></span>
+## <a name="edit-add-in-access"></a><span data-ttu-id="b7099-134">Editar acesso ao complemento</span><span class="sxs-lookup"><span data-stu-id="b7099-134">Edit add-in access</span></span>
 
-<span data-ttu-id="ff11b-135">Após a implantação, os administradores também podem gerenciar o acesso do usuário aos complementos.</span><span class="sxs-lookup"><span data-stu-id="ff11b-135">Post deployment, admins can also manage user access to add-ins.</span></span>
+<span data-ttu-id="b7099-135">Após a implantação, os administradores também podem gerenciar o acesso do usuário aos complementos.</span><span class="sxs-lookup"><span data-stu-id="b7099-135">Post deployment, admins can also manage user access to add-ins.</span></span>
 
-1. <span data-ttu-id="ff11b-136">No centro de administração, vá para a página **Serviços** de  >  **Configurações & de complementos.**</span><span class="sxs-lookup"><span data-stu-id="ff11b-136">In the admin center, go to the **Settings** > **Services & add-ins** page.</span></span>
+1. <span data-ttu-id="b7099-136">No centro de administração, vá para **a** página Configurações  >  **Serviços & de complementos.**</span><span class="sxs-lookup"><span data-stu-id="b7099-136">In the admin center, go to the **Settings** > **Services & add-ins** page.</span></span>
 
-     > [!NOTE]
-    > <span data-ttu-id="ff11b-137">O centro de administração está sendo atualizado para a experiência de implantação com Aplicativos Integrados.</span><span class="sxs-lookup"><span data-stu-id="ff11b-137">The admin center is getting updated to deployment experience with Integrated Apps .</span></span> <span data-ttu-id="ff11b-138">Se você não vir as etapas acima, vá para a seção Implantação Centralizada indo para **Configurações Aplicativos**  >  **integrados.**</span><span class="sxs-lookup"><span data-stu-id="ff11b-138">If you don't see the above steps, go to Centralized Deployment section by going to **Settings** > **Integrated apps**.</span></span> <span data-ttu-id="ff11b-139">Na parte superior da página **Aplicativos integrados,** escolha **Complementos**.</span><span class="sxs-lookup"><span data-stu-id="ff11b-139">On the top of the **Integrated apps** page, choose **Add-ins**.</span></span>
+    > [!NOTE]
+    > <span data-ttu-id="b7099-137">O centro de administração está sendo atualizado para a experiência de implantação com Aplicativos Integrados.</span><span class="sxs-lookup"><span data-stu-id="b7099-137">The admin center is getting updated to deployment experience with Integrated Apps .</span></span> <span data-ttu-id="b7099-138">Se você não vir as etapas acima, vá para a seção Implantação Centralizada indo para Configurações  >  **aplicativos integrados.**</span><span class="sxs-lookup"><span data-stu-id="b7099-138">If you don't see the above steps, go to Centralized Deployment section by going to **Settings** > **Integrated apps**.</span></span> <span data-ttu-id="b7099-139">Na parte superior da página **Aplicativos integrados,** escolha **Complementos**.</span><span class="sxs-lookup"><span data-stu-id="b7099-139">On the top of the **Integrated apps** page, choose **Add-ins**.</span></span>
 
-2. <span data-ttu-id="ff11b-140">Selecione o complemento implantado.</span><span class="sxs-lookup"><span data-stu-id="ff11b-140">Select the deployed add-in.</span></span>
+2. <span data-ttu-id="b7099-140">Selecione o complemento implantado.</span><span class="sxs-lookup"><span data-stu-id="b7099-140">Select the deployed add-in.</span></span>
 
-3. <span data-ttu-id="ff11b-141">Clique em **Editar** em **Quem tem Acesso.**</span><span class="sxs-lookup"><span data-stu-id="ff11b-141">Click on **Edit** under **Who has Access**.</span></span>
+3. <span data-ttu-id="b7099-141">Clique em **Editar** em **Who tem Access**.</span><span class="sxs-lookup"><span data-stu-id="b7099-141">Click on **Edit** under **Who has Access**.</span></span>
 
-4. <span data-ttu-id="ff11b-142">Salve as alterações.</span><span class="sxs-lookup"><span data-stu-id="ff11b-142">Save the changes.</span></span>
+4. <span data-ttu-id="b7099-142">Salve as alterações.</span><span class="sxs-lookup"><span data-stu-id="b7099-142">Save the changes.</span></span>
 
-## <a name="prevent-add-in-downloads-by-turning-off-the-office-store-across-all-clients-except-outlook"></a><span data-ttu-id="ff11b-143">Impedir downloads de complementos ao desligar a Office Store em todos os clientes (exceto o Outlook)</span><span class="sxs-lookup"><span data-stu-id="ff11b-143">Prevent add-in downloads by turning off the Office Store across all clients (Except Outlook)</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="ff11b-144">A instalação do add-in do Outlook é gerenciada por um [processo diferente.](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins)</span><span class="sxs-lookup"><span data-stu-id="ff11b-144">Outlook add-in installation is managed by a [different process](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins).</span></span>
-
-<span data-ttu-id="ff11b-145">Como uma organização, você pode querer impedir o download de novos complementos do Office na Office Store.</span><span class="sxs-lookup"><span data-stu-id="ff11b-145">As an organization you may wish to prevent the download of new Office add-ins from the Office Store.</span></span> <span data-ttu-id="ff11b-146">Isso pode ser usado em conjunto com a Implantação Centralizada para garantir que apenas os complementos aprovados pela organização sejam implantados para usuários em sua organização.</span><span class="sxs-lookup"><span data-stu-id="ff11b-146">This can be used in conjunction with Centralized Deployment to ensure that only organization-approved add-ins are deployed to users within your organization.</span></span>
-  
-<span data-ttu-id="ff11b-147">**Para desativar a aquisição de um complemento**</span><span class="sxs-lookup"><span data-stu-id="ff11b-147">**To turn off add-in acquisition**</span></span>
-  
-1. <span data-ttu-id="ff11b-148">No centro de administração, vá para a página **Configurações** \> [Serviços&amp; suplementos](https://go.microsoft.com/fwlink/p/?linkid=2053743).</span><span class="sxs-lookup"><span data-stu-id="ff11b-148">In the admin center, go to the **Settings** \> [Services &amp; add-ins](https://go.microsoft.com/fwlink/p/?linkid=2053743) page.</span></span>
-
-     > [!NOTE]
-    > <span data-ttu-id="ff11b-149">O centro de administração está sendo atualizado para a experiência de implantação com Aplicativos Integrados.</span><span class="sxs-lookup"><span data-stu-id="ff11b-149">The admin center is getting updated to deployment experience with Integrated Apps .</span></span> <span data-ttu-id="ff11b-150">Se você não vir as etapas acima, vá para a seção Implantação Centralizada indo para **Configurações Aplicativos**  >  **integrados.**</span><span class="sxs-lookup"><span data-stu-id="ff11b-150">If you don't see the above steps, go to Centralized Deployment section by going to **Settings** > **Integrated apps**.</span></span> <span data-ttu-id="ff11b-151">Na parte superior da página **Aplicativos integrados,** escolha **Complementos**.</span><span class="sxs-lookup"><span data-stu-id="ff11b-151">On the top of the **Integrated apps** page, choose **Add-ins**.</span></span>
-    
-3. <span data-ttu-id="ff11b-152">Selecione **Aplicativos e serviços de propriedade do usuário.**</span><span class="sxs-lookup"><span data-stu-id="ff11b-152">Select **User owned apps and services**.</span></span>
-    
-4. <span data-ttu-id="ff11b-153">Des limpar a opção para permitir que os usuários acessem o Office Store.</span><span class="sxs-lookup"><span data-stu-id="ff11b-153">Clear the option to let users access the Office store.</span></span>
-
-<span data-ttu-id="ff11b-154">Isso impedirá que todos os usuários adquiram os seguintes complementos da loja.</span><span class="sxs-lookup"><span data-stu-id="ff11b-154">This will prevent all users from acquiring the following add-ins from the store.</span></span>
-  
-- <span data-ttu-id="ff11b-155">Os complementos para Word, Excel e PowerPoint 2016 de:</span><span class="sxs-lookup"><span data-stu-id="ff11b-155">Add-ins for Word, Excel, and PowerPoint 2016 from:</span></span>
-    
-  - <span data-ttu-id="ff11b-156">Windows</span><span class="sxs-lookup"><span data-stu-id="ff11b-156">Windows</span></span>
-    
-  - <span data-ttu-id="ff11b-157">Mac</span><span class="sxs-lookup"><span data-stu-id="ff11b-157">Mac</span></span>
-    
-  - <span data-ttu-id="ff11b-158">Office</span><span class="sxs-lookup"><span data-stu-id="ff11b-158">Office</span></span>
-    
-    
-- <span data-ttu-id="ff11b-159">Aquisições começando no **AppSource**</span><span class="sxs-lookup"><span data-stu-id="ff11b-159">Acquisitions starting within **AppSource**</span></span>
-    
-- <span data-ttu-id="ff11b-160">Complementos no Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="ff11b-160">Add-ins within Microsoft 365</span></span>
-    
-<span data-ttu-id="ff11b-161">Um usuário que tentar acessar a loja verá a seguinte mensagem: Desculpe, o **Microsoft 365** foi configurado para impedir a aquisição individual de complementos da Office Store.</span><span class="sxs-lookup"><span data-stu-id="ff11b-161">A user who tries to access the store will see the following message: **Sorry, Microsoft 365 has been configured to prevent individual acquisition of Office Store add-ins.**</span></span>
-  
-<span data-ttu-id="ff11b-162">O suporte para desligar a Office Store está disponível nas seguintes versões:</span><span class="sxs-lookup"><span data-stu-id="ff11b-162">Support for turning off the Office Store is available in the following versions:</span></span>
-  
-- <span data-ttu-id="ff11b-163">Windows: 16.0.9001 - Disponível no momento.</span><span class="sxs-lookup"><span data-stu-id="ff11b-163">Windows: 16.0.9001 - Currently available.</span></span>
-    
-- <span data-ttu-id="ff11b-164">Mac: 16.10.18011401 - Disponível no momento.</span><span class="sxs-lookup"><span data-stu-id="ff11b-164">Mac: 16.10.18011401 - Currently available.</span></span>
-    
-- <span data-ttu-id="ff11b-165">iOS: 2.9.18010804 - Disponível no momento.</span><span class="sxs-lookup"><span data-stu-id="ff11b-165">iOS: 2.9.18010804 - Currently available.</span></span>
-    
-- <span data-ttu-id="ff11b-166">A Web - Disponível no momento.</span><span class="sxs-lookup"><span data-stu-id="ff11b-166">The web - Currently available.</span></span>
-    
-<span data-ttu-id="ff11b-167">Isso não impede que um administrador use a Implantação Centralizada para atribuir um complemento da Office Store.</span><span class="sxs-lookup"><span data-stu-id="ff11b-167">This does not prevent an administrator from using Centralized Deployment to assign an add-in from the Office Store.</span></span>
-  
-<span data-ttu-id="ff11b-168">Para impedir que um usuário entre com uma conta da Microsoft, você pode restringir o logon para usar apenas a conta organizacional.</span><span class="sxs-lookup"><span data-stu-id="ff11b-168">To prevent a user from signing in with a Microsoft account, you can restrict logon to use only the organizational account.</span></span> <span data-ttu-id="ff11b-169">Para obter mais informações, [consulte Identidade, autenticação e autorização no Office 2016](/DeployOffice/security/identity-authentication-and-authorization-in-office).</span><span class="sxs-lookup"><span data-stu-id="ff11b-169">For more information, see [Identity, authentication, and authorization in Office 2016](/DeployOffice/security/identity-authentication-and-authorization-in-office).</span></span>  
+## <a name="prevent-add-in-downloads-by-turning-off-the-office-store-across-all-clients-except-outlook"></a><span data-ttu-id="b7099-143">Impedir downloads de complementos ao desligar o Office Store em todos os clientes (exceto Outlook)</span><span class="sxs-lookup"><span data-stu-id="b7099-143">Prevent add-in downloads by turning off the Office Store across all clients (Except Outlook)</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ff11b-170">Impedir que os usuários acessem o office store também os impedirá de [fazer sideload de complementos](/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)do Office para teste.</span><span class="sxs-lookup"><span data-stu-id="ff11b-170">Preventing users from accessing the office store will also prevent them from [Sideloading Office Add-ins for testing](/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins).</span></span>
+> <span data-ttu-id="b7099-144">Outlook instalação do add-in é gerenciada por um [processo diferente.](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins)</span><span class="sxs-lookup"><span data-stu-id="b7099-144">Outlook add-in installation is managed by a [different process](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins).</span></span>
 
-## <a name="more-about-the-end-user-experience-with-add-ins"></a><span data-ttu-id="ff11b-171">Mais sobre a experiência do usuário final com os complementos</span><span class="sxs-lookup"><span data-stu-id="ff11b-171">More about the end user experience with add-ins</span></span>
-
-<span data-ttu-id="ff11b-172">Depois de implantar um complemento, os usuários finais podem começar a usá-lo em seus aplicativos do Office (consulte [Start using your Office Add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)).</span><span class="sxs-lookup"><span data-stu-id="ff11b-172">After you deploy an add-in, your end users can start using it in their Office applications (see [Start using your Office Add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)).</span></span> <span data-ttu-id="ff11b-173">O complemento aparece em todas as plataformas que o complemento oferece suporte.</span><span class="sxs-lookup"><span data-stu-id="ff11b-173">The add-in appears on all platforms that the add-in supports.</span></span>
+<span data-ttu-id="b7099-145">Como uma organização, você pode querer impedir o download de novos Office de Office Store.</span><span class="sxs-lookup"><span data-stu-id="b7099-145">As an organization you may wish to prevent the download of new Office add-ins from the Office Store.</span></span> <span data-ttu-id="b7099-146">Isso pode ser usado em conjunto com a Implantação Centralizada para garantir que apenas os complementos aprovados pela organização sejam implantados para usuários em sua organização.</span><span class="sxs-lookup"><span data-stu-id="b7099-146">This can be used in conjunction with Centralized Deployment to ensure that only organization-approved add-ins are deployed to users within your organization.</span></span>
   
-<span data-ttu-id="ff11b-174">Se o complemento suportar comandos de complemento, os comandos aparecerão na faixa de opções do Office.</span><span class="sxs-lookup"><span data-stu-id="ff11b-174">If the add-in supports add-in commands, the commands appear on the Office ribbon.</span></span> <span data-ttu-id="ff11b-175">No exemplo a seguir, o comando **Search Citation** é exibido para o complemento **Citações.**</span><span class="sxs-lookup"><span data-stu-id="ff11b-175">In the following example, the command **Search Citation** appears for the **Citations** add-in.</span></span> 
-
-![Faixa de opções do Office com Citações de Pesquisa](../../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png)
+<span data-ttu-id="b7099-147">**Para desativar a aquisição de um complemento**</span><span class="sxs-lookup"><span data-stu-id="b7099-147">**To turn off add-in acquisition**</span></span>
   
-<span data-ttu-id="ff11b-177">Se o complemento implantado não dá suporte a comandos de add-in ou se você quiser exibir todos os complementos implantados, poderá **exibi-los** por meio de Meus Complementos .</span><span class="sxs-lookup"><span data-stu-id="ff11b-177">If the deployed add-in doesn't support add-in commands or if you want to view all deployed add-ins, you can view them via **My Add-ins**.</span></span> 
-  
-### <a name="in-word-2016-excel-2016-or-powerpoint-2016"></a><span data-ttu-id="ff11b-178">No Word 2016, Excel 2016 ou PowerPoint 2016</span><span class="sxs-lookup"><span data-stu-id="ff11b-178">In Word 2016, Excel 2016, or PowerPoint 2016</span></span>
+1. <span data-ttu-id="b7099-148">No centro de administração, vá para a página **Configurações** \> [Serviços&amp; suplementos](https://go.microsoft.com/fwlink/p/?linkid=2053743).</span><span class="sxs-lookup"><span data-stu-id="b7099-148">In the admin center, go to the **Settings** \> [Services &amp; add-ins](https://go.microsoft.com/fwlink/p/?linkid=2053743) page.</span></span>
 
-1. <span data-ttu-id="ff11b-179">Selecione **Inserir \> Meus Complementos**.</span><span class="sxs-lookup"><span data-stu-id="ff11b-179">Select **Insert \> My Add-ins**.</span></span> 
+    > [!NOTE]
+    > <span data-ttu-id="b7099-149">O centro de administração está sendo atualizado para a experiência de implantação com Aplicativos Integrados.</span><span class="sxs-lookup"><span data-stu-id="b7099-149">The admin center is getting updated to deployment experience with Integrated Apps.</span></span> <span data-ttu-id="b7099-150">Se você não vir as etapas acima, vá para a seção Implantação Centralizada indo para Configurações  >  **aplicativos integrados.**</span><span class="sxs-lookup"><span data-stu-id="b7099-150">If you don't see the above steps, go to Centralized Deployment section by going to **Settings** > **Integrated apps**.</span></span> <span data-ttu-id="b7099-151">Na parte superior da página **Aplicativos integrados,** escolha **Complementos**.</span><span class="sxs-lookup"><span data-stu-id="b7099-151">On the top of the **Integrated apps** page, choose **Add-ins**.</span></span>
     
-2. <span data-ttu-id="ff11b-180">Selecione a **guia Administrador Gerenciado** na janela Desacentros do Office.</span><span class="sxs-lookup"><span data-stu-id="ff11b-180">Select the **Admin Managed** tab in the Office Add-ins window.</span></span> 
+3. <span data-ttu-id="b7099-152">Selecione **Aplicativos e serviços de propriedade do usuário**.</span><span class="sxs-lookup"><span data-stu-id="b7099-152">Select **User owned apps and services**.</span></span>
     
-3. <span data-ttu-id="ff11b-181">Clique duas vezes no complemento implantado anteriormente (neste exemplo, **Citações** ).</span><span class="sxs-lookup"><span data-stu-id="ff11b-181">Double-click the add-in you deployed earlier (in this example, **Citations** ).</span></span> <br/><span data-ttu-id="ff11b-182">![Guia Administrador Gerenciado da página Desacentros do Office](../../media/fd36ba81-9882-40f0-9fce-74f991aa97d5.png)</span><span class="sxs-lookup"><span data-stu-id="ff11b-182">![Admin Managed tab of the Office Add-ins page](../../media/fd36ba81-9882-40f0-9fce-74f991aa97d5.png)</span></span>
+4. <span data-ttu-id="b7099-153">Desmarque a opção de permitir que os usuários acessem a Office Store.</span><span class="sxs-lookup"><span data-stu-id="b7099-153">Clear the option to let users access the Office store.</span></span>
+
+    <span data-ttu-id="b7099-154">Isso impedirá que todos os usuários adquiram os seguintes complementos da loja.</span><span class="sxs-lookup"><span data-stu-id="b7099-154">This will prevent all users from acquiring the following add-ins from the store.</span></span>
+      
+    - <span data-ttu-id="b7099-155">Os complementos para Word, Excel e PowerPoint 2016 de:</span><span class="sxs-lookup"><span data-stu-id="b7099-155">Add-ins for Word, Excel, and PowerPoint 2016 from:</span></span>
+        
+      - <span data-ttu-id="b7099-156">Windows</span><span class="sxs-lookup"><span data-stu-id="b7099-156">Windows</span></span>
+      - <span data-ttu-id="b7099-157">Mac</span><span class="sxs-lookup"><span data-stu-id="b7099-157">Mac</span></span>
+      - <span data-ttu-id="b7099-158">Office</span><span class="sxs-lookup"><span data-stu-id="b7099-158">Office</span></span>
+        
+        
+    - <span data-ttu-id="b7099-159">Aquisições começando no **AppSource**</span><span class="sxs-lookup"><span data-stu-id="b7099-159">Acquisitions starting within **AppSource**</span></span>
+        
+    - <span data-ttu-id="b7099-160">Os complementos no Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="b7099-160">Add-ins within Microsoft 365</span></span>
+        
+    <span data-ttu-id="b7099-161">Um usuário que tentar acessar o armazenamento verá a seguinte mensagem: Desculpe, Microsoft 365 foi configurada para impedir a aquisição individual de Office **Desempregos da Loja.**</span><span class="sxs-lookup"><span data-stu-id="b7099-161">A user who tries to access the store will see the following message: **Sorry, Microsoft 365 has been configured to prevent individual acquisition of Office Store add-ins.**</span></span>
   
-### <a name="in-outlook"></a><span data-ttu-id="ff11b-183">No Outlook</span><span class="sxs-lookup"><span data-stu-id="ff11b-183">In Outlook</span></span>
-
-1. <span data-ttu-id="ff11b-184">Na faixa **de opções** Home, selecione **Obter Complementos**.</span><span class="sxs-lookup"><span data-stu-id="ff11b-184">On the **Home** ribbon, select **Get Add-ins**.</span></span><br/><span data-ttu-id="ff11b-185">![Botão Armazenar no Outlook](../../media/getaddinsicon.png)</span><span class="sxs-lookup"><span data-stu-id="ff11b-185">![Store button in Outlook](../../media/getaddinsicon.png)</span></span>
+<span data-ttu-id="b7099-162">O suporte para desligar o Office Store está disponível nas seguintes versões:</span><span class="sxs-lookup"><span data-stu-id="b7099-162">Support for turning off the Office Store is available in the following versions:</span></span>
   
-2. <span data-ttu-id="ff11b-186">Selecione **Admin-managed** na nav esquerda.</span><span class="sxs-lookup"><span data-stu-id="ff11b-186">Select **Admin-managed** in the left nav.</span></span> 
-
-## <a name="learn-more"></a><span data-ttu-id="ff11b-187">Saiba mais</span><span class="sxs-lookup"><span data-stu-id="ff11b-187">Learn more</span></span>
-
-[<span data-ttu-id="ff11b-188">Implantar suplementos no centro de administração</span><span class="sxs-lookup"><span data-stu-id="ff11b-188">Deploy add-ins in the admin center</span></span>](./manage-deployment-of-add-ins.md)
-
-<span data-ttu-id="ff11b-189">Saiba mais sobre a criação e a criação [de Complementos do Office.](/office/dev/add-ins/overview/office-add-ins)</span><span class="sxs-lookup"><span data-stu-id="ff11b-189">Learn more about creating and building [Office Add-ins](/office/dev/add-ins/overview/office-add-ins).</span></span>
+- <span data-ttu-id="b7099-163">Windows: 16.0.9001 - Disponível no momento.</span><span class="sxs-lookup"><span data-stu-id="b7099-163">Windows: 16.0.9001 - Currently available.</span></span>
+    
+- <span data-ttu-id="b7099-164">Mac: 16.10.18011401 - Disponível no momento.</span><span class="sxs-lookup"><span data-stu-id="b7099-164">Mac: 16.10.18011401 - Currently available.</span></span>
+    
+- <span data-ttu-id="b7099-165">iOS: 2.9.18010804 - Disponível no momento.</span><span class="sxs-lookup"><span data-stu-id="b7099-165">iOS: 2.9.18010804 - Currently available.</span></span>
+    
+- <span data-ttu-id="b7099-166">A Web - Disponível no momento.</span><span class="sxs-lookup"><span data-stu-id="b7099-166">The web - Currently available.</span></span>
+    
+<span data-ttu-id="b7099-167">Isso não impede que um administrador use a Implantação Centralizada para atribuir um Office Store.</span><span class="sxs-lookup"><span data-stu-id="b7099-167">This does not prevent an administrator from using Centralized Deployment to assign an add-in from the Office Store.</span></span>
   
-<span data-ttu-id="ff11b-190">[Use cmdlets do PowerShell de](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md)Implantação Centralizada para gerenciar os complementos .</span><span class="sxs-lookup"><span data-stu-id="ff11b-190">[Use Centralized Deployment PowerShell cmdlets to manage add-ins](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md).</span></span>
-  
-[<span data-ttu-id="ff11b-191">Solução de problemas: o usuário não está vendo os complementos</span><span class="sxs-lookup"><span data-stu-id="ff11b-191">Troubleshoot: User not seeing add-ins</span></span>](/office365/troubleshoot/access-management/user-not-seeing-add-ins)
+<span data-ttu-id="b7099-168">Para impedir que um usuário entre com uma conta da Microsoft, você pode restringir o logon para usar apenas a conta organizacional.</span><span class="sxs-lookup"><span data-stu-id="b7099-168">To prevent a user from signing in with a Microsoft account, you can restrict logon to use only the organizational account.</span></span> <span data-ttu-id="b7099-169">Para obter mais informações, [consulte Identity, authentication, and authorization in Office 2016](/DeployOffice/security/identity-authentication-and-authorization-in-office).</span><span class="sxs-lookup"><span data-stu-id="b7099-169">For more information, see [Identity, authentication, and authorization in Office 2016](/DeployOffice/security/identity-authentication-and-authorization-in-office).</span></span>  
 
-[<span data-ttu-id="ff11b-192">Secundárias e aquisição de complementos da Microsoft Store</span><span class="sxs-lookup"><span data-stu-id="ff11b-192">Minors and acquiring add-ins from the Microsoft Store</span></span>](./minors-and-acquiring-addins-from-the-store.md)
+> [!NOTE] 
+> <span data-ttu-id="b7099-170">Impedir que os usuários acessem o office store também os impedirá de fazer sideload Office de complementos para testes de um [compartilhamento de rede.](/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)</span><span class="sxs-lookup"><span data-stu-id="b7099-170">Preventing users from accessing the office store will also prevent them from [Sideloading Office Add-ins for testing from a network share](/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins).</span></span>
+
+## <a name="more-about-the-end-user-experience-with-add-ins"></a><span data-ttu-id="b7099-171">Mais sobre a experiência do usuário final com os complementos</span><span class="sxs-lookup"><span data-stu-id="b7099-171">More about the end-user experience with add-ins</span></span>
+
+<span data-ttu-id="b7099-172">Depois de implantar um add-in, os usuários finais podem começar a usá-lo em seus aplicativos Office de Office (consulte [Start using your Office Add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)).</span><span class="sxs-lookup"><span data-stu-id="b7099-172">After you deploy an add-in, your end users can start using it in their Office applications (see [Start using your Office Add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)).</span></span> <span data-ttu-id="b7099-173">O complemento aparece em todas as plataformas que o complemento oferece suporte.</span><span class="sxs-lookup"><span data-stu-id="b7099-173">The add-in appears on all platforms that the add-in supports.</span></span>
+  
+<span data-ttu-id="b7099-174">Se o complemento for compatível com comandos de complemento, os comandos aparecerão na faixa Office faixa de opções.</span><span class="sxs-lookup"><span data-stu-id="b7099-174">If the add-in supports add-in commands, the commands appear on the Office ribbon.</span></span> <span data-ttu-id="b7099-175">No exemplo a seguir, o comando **Search Citation** é exibido para o complemento **Citações.**</span><span class="sxs-lookup"><span data-stu-id="b7099-175">In the following example, the command **Search Citation** appears for the **Citations** add-in.</span></span> 
+
+![Office faixa de opções com citações de pesquisa](../../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png)
+  
+<span data-ttu-id="b7099-177">Se o complemento implantado não dá suporte a comandos de add-in ou se você quiser exibir todos os complementos implantados, poderá **exibi-los** por meio de Meus Complementos .</span><span class="sxs-lookup"><span data-stu-id="b7099-177">If the deployed add-in doesn't support add-in commands or if you want to view all deployed add-ins, you can view them via **My Add-ins**.</span></span> 
+  
+### <a name="in-word-2016-excel-2016-or-powerpoint-2016"></a><span data-ttu-id="b7099-178">Nos aplicativos Word 2016, Excel 2016 ou PowerPoint 2016</span><span class="sxs-lookup"><span data-stu-id="b7099-178">In Word 2016, Excel 2016, or PowerPoint 2016</span></span>
+
+1. <span data-ttu-id="b7099-179">Selecione **Inserir \> Meus Complementos**.</span><span class="sxs-lookup"><span data-stu-id="b7099-179">Select **Insert \> My Add-ins**.</span></span> 
+    
+2. <span data-ttu-id="b7099-180">Selecione a **guia Admin Managed** na janela Office Desem seguida.</span><span class="sxs-lookup"><span data-stu-id="b7099-180">Select the **Admin Managed** tab in the Office Add-ins window.</span></span> 
+    
+3. <span data-ttu-id="b7099-181">Clique duas vezes no complemento implantado anteriormente (neste exemplo, **Citações**).</span><span class="sxs-lookup"><span data-stu-id="b7099-181">Double-click the add-in you deployed earlier (in this example, **Citations**).</span></span>
+
+    ![Guia Administrador Gerenciado da página de Office Desa somar](../../media/fd36ba81-9882-40f0-9fce-74f991aa97d5.png)
+  
+### <a name="in-outlook"></a><span data-ttu-id="b7099-183">No Outlook</span><span class="sxs-lookup"><span data-stu-id="b7099-183">In Outlook</span></span>
+
+1. <span data-ttu-id="b7099-184">Na faixa **de opções** Home, selecione **Obter Complementos**.</span><span class="sxs-lookup"><span data-stu-id="b7099-184">On the **Home** ribbon, select **Get Add-ins**.</span></span>
+
+    ![Botão Armazenar no Outlook](../../media/getaddinsicon.png)
+  
+2. <span data-ttu-id="b7099-186">Selecione **Gerenciados pelo Administrador** no painel de administração à esquerda.</span><span class="sxs-lookup"><span data-stu-id="b7099-186">Select **Admin-managed** in the left nav.</span></span> 
+
+## <a name="learn-more"></a><span data-ttu-id="b7099-187">Saiba mais</span><span class="sxs-lookup"><span data-stu-id="b7099-187">Learn more</span></span>
+
+[<span data-ttu-id="b7099-188">Implantar suplementos no centro de administração</span><span class="sxs-lookup"><span data-stu-id="b7099-188">Deploy add-ins in the admin center</span></span>](./manage-deployment-of-add-ins.md)
+
+<span data-ttu-id="b7099-189">Saiba mais sobre como criar e [criar Office de complementos.](/office/dev/add-ins/overview/office-add-ins)</span><span class="sxs-lookup"><span data-stu-id="b7099-189">Learn more about creating and building [Office Add-ins](/office/dev/add-ins/overview/office-add-ins).</span></span>
+  
+<span data-ttu-id="b7099-190">[Use cmdlets do PowerShell de](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md)Implantação Centralizada para gerenciar os complementos .</span><span class="sxs-lookup"><span data-stu-id="b7099-190">[Use Centralized Deployment PowerShell cmdlets to manage add-ins](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md).</span></span>
+  
+[<span data-ttu-id="b7099-191">Solução de problemas: o usuário não está vendo os complementos</span><span class="sxs-lookup"><span data-stu-id="b7099-191">Troubleshoot: User not seeing add-ins</span></span>](/office365/troubleshoot/access-management/user-not-seeing-add-ins)
+
+[<span data-ttu-id="b7099-192">Secundárias e aquisição de complementos do Microsoft Store</span><span class="sxs-lookup"><span data-stu-id="b7099-192">Minors and acquiring add-ins from the Microsoft Store</span></span>](./minors-and-acquiring-addins-from-the-store.md)
