@@ -18,17 +18,16 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f13734392e4975738a0d60d38e618595b5175667
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: b706cb8dbd43d545768c1c573021b5ef401e3c09
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934556"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52346397"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-macos"></a>Definir preferências para o Microsoft Defender para Ponto de Extremidade no macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **Aplica-se a:**
 
@@ -106,6 +105,7 @@ Especifique a política de mesclagem para exclusões. Isso pode ser uma combina�
 #### <a name="scan-exclusions"></a>Exclusões de verificação
 
 Especifique entidades excluídas da verificação. As exclusões podem ser especificadas por caminhos completos, extensões ou nomes de arquivo.
+(As exclusões são especificadas como uma matriz de itens, o administrador pode especificar quantos elementos for necessário, em qualquer ordem.)
 
 |Section|Valor|
 |:---|:---|
@@ -136,6 +136,27 @@ Especifique o conteúdo excluído de ser verificado pelo caminho completo do arq
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | caminhos válidos |
 | **Comentário** | Aplicável somente se *$type* *for excludedPath* |
+
+## <a name="supported-exclusion-types"></a>Tipos de exclusão com suporte
+
+A tabela a seguir mostra os tipos de exclusão suportados pelo Defender para Ponto de Extremidade no Mac.
+
+Exclusão | Definição | Exemplos
+---|---|---
+Extensão de arquivo | Todos os arquivos com a extensão, em qualquer lugar do dispositivo | `.test`
+File | Um arquivo específico identificado pelo caminho completo | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`
+Pasta | Todos os arquivos na pasta especificada (recursivamente) | `/var/log/`<br/>`/var/*/`
+Processo | Um processo específico (especificado pelo caminho completo ou nome do arquivo) e todos os arquivos abertos por ele | `/bin/cat`<br/>`cat`<br/>`c?t`
+
+> [!IMPORTANT]
+> Os caminhos acima devem ser links rígidos, não links simbólicos, para serem excluídos com êxito. Você pode verificar se um caminho é um link simbólico executando `file <path-name>` .
+
+As exclusões de arquivo, pasta e processo suportam os seguintes caracteres curinga:
+
+Curinga | Descrição | Exemplo | Matches | Não se iguala
+---|---|---|---|---
+\* |    Corresponde a qualquer número de caracteres, incluindo nenhum (observe que quando esse caractere curinga é usado dentro de um caminho, ele substituirá apenas uma pasta) | `/var/\*/\*.log` | `/var/log/system.log` | `/var/log/nested/system.log`
+? | Corresponde a qualquer caractere único | `file?.log` | `file1.log`<br/>`file2.log` | `file123.log`
 
 ##### <a name="path-type-file--directory"></a>Tipo de caminho (arquivo/diretório)
 
@@ -358,7 +379,7 @@ Especifique se os usuários podem enviar comentários para a Microsoft indo para
 
 ### <a name="endpoint-detection-and-response-preferences"></a>Preferências de detecção e resposta do ponto de extremidade
 
-Gerencie as preferências do componente de detecção e resposta do ponto de extremidade (EDR) do Microsoft Defender para Ponto de Extremidade no macOS.
+Gerencie as preferências do componente detecção e resposta de ponto de extremidade (EDR) do Microsoft Defender para Ponto de Extremidade no macOS.
 
 |Section|Valor|
 |:---|:---|
@@ -416,7 +437,7 @@ O perfil de configuração a seguir (ou, no caso de JAMF, uma lista de proprieda
   - **Aplicativos potencialmente indesejados (PUA)** são bloqueados
   - **As bombas de** arquivo morto (arquivo com alta taxa de compactação) são auditadas para logs do Microsoft Defender para pontos de extremidade
 - Habilitar atualizações automáticas de inteligência de segurança
-- Habilitar a proteção entregue na nuvem
+- Ativar proteção fornecida pela nuvem
 - Habilitar envio automático de exemplo
 
 ### <a name="property-list-for-jamf-configuration-profile"></a>Lista de propriedades para perfil de configuração JAMF
@@ -577,6 +598,14 @@ Os modelos a seguir contêm entradas para todas as configurações descritas nes
             </dict>
             <dict>
                 <key>$type</key>
+                <string>excludedPath</string>
+                <key>isDirectory</key>
+                <true/>
+                <key>path</key>
+                <string>/Users/*/git</string>
+            </dict>
+            <dict>
+                <key>$type</key>
                 <string>excludedFileExtension</string>
                 <key>extension</key>
                 <string>pdf</string>
@@ -719,6 +748,14 @@ Os modelos a seguir contêm entradas para todas as configurações descritas nes
                         </dict>
                         <dict>
                             <key>$type</key>
+                            <string>excludedPath</string>
+                            <key>isDirectory</key>
+                            <true/>
+                            <key>path</key>
+                            <string>/Users/*/git</string>
+                        </dict>
+                        <dict>
+                            <key>$type</key>
                             <string>excludedFileExtension</string>
                             <key>extension</key>
                             <string>pdf</string>
@@ -812,7 +849,7 @@ Depois de construir o perfil de configuração da sua empresa, você pode implan
 
 ### <a name="jamf-deployment"></a>Implantação jamf
 
-No console JAMF, **abra** Perfis de Configuração de Computadores, navegue até o perfil de configuração que você gostaria de  >  usar e selecione **Configurações Personalizadas.** Crie uma entrada com `com.microsoft.wdav` como o domínio de preferência e carregue o *.plist* produzido anteriormente.
+No console JAMF, **abra** Perfis de Configuração de Computadores , navegue até o perfil de configuração que você gostaria de  >  usar e selecione **Custom Configurações**. Crie uma entrada com `com.microsoft.wdav` como o domínio de preferência e carregue o *.plist* produzido anteriormente.
 
 >[!CAUTION]
 >Você deve inserir o domínio de preferência correto ( ); caso contrário, as preferências não serão reconhecidas pelo `com.microsoft.wdav` Microsoft Defender para o Ponto de Extremidade.

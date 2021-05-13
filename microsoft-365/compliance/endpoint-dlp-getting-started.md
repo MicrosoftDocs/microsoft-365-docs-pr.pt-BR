@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Configure a prevenção contra perda de dados de ponto de extremidade do Microsoft 365 para monitorar atividades de arquivo e implementar ações de proteção para esses arquivos para pontos de extremidade.
-ms.openlocfilehash: 118c2f3f87df5ac9930bebd1338157d323b1e5e1
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 8fc8bef62827a5e6125565f5d7227a88cd923dcf
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259494"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332805"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Introdução à Prevenção contra perda de dados do ponto de extremidade
 
@@ -147,7 +147,7 @@ Neste cenário de implantação, você integrará dispositivos que ainda não fo
     - Integrar computadores com Windows usando o Microsoft Endpoint Configuration Manager
     - Integrar computadores com Windows 10 usando ferramentas de gerenciamento de dispositivo móvel
     - Integrar computadores com Windows 10 usando um script local
-    - Integrar computadores não persistentes da VDI (infraestrutura de desktop virtual).
+    - Integrar computadores VDI (infraestrutura de área de trabalho virtual) não persistente em cenários de sessão única.
 
 Uma vez que o ponto de extremidade está integrado, ele deve estar visível na lista dispositivos e começar a relatar logs de atividades de auditoria para o Explorador de atividades.
 

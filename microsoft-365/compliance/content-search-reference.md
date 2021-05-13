@@ -1,5 +1,5 @@
 ---
-title: Referência de Pesquisa de conteúdo
+title: Referência de recurso para pesquisa de Conteúdo
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -20,14 +20,16 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Este artigo contém informações de referência sobre a ferramenta Descoberta Eletrônica de Pesquisa de conteúdo no Centro de conformidade do Microsoft 365 para ajudá-lo a conhecer os muitos detalhes sobre a Pesquisa de conteúdo.
-ms.openlocfilehash: c345cf00bddba30cb543ad9682a2a332607d31fe
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: f3545cc4644ca8b0a96ee37713d8fe62be7466e5
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52314246"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332889"
 ---
-# <a name="content-search-reference"></a>Referência de pesquisa de conteúdo
+# <a name="feature-reference-for-content-search"></a>Referência de recurso para pesquisa de Conteúdo
+
+Este artigo descreve os recursos e a funcionalidade da pesquisa de Conteúdo.
 
 ## <a name="content-search-limits"></a>Limites da pesquisa de conteúdo
 
@@ -71,6 +73,10 @@ Lembre-se do seguinte ao usar a lista de palavras-chave para criar uma consulta 
     
 - Se você tiver uma consulta de pesquisa que contenha palavras-chave para caracteres que não estão em inglês (como caracteres chineses), clique em **Idioma/país de consulta**![Ícone de Idioma/país de consulta na Pesquisa de conteúdo](../media/8d4b60c8-e1f1-40f9-88ae-ee2a7eca0886.png) e selecione um valor de código cultural de idioma/país para a pesquisa. O padrão idioma/região é neutro. Como saber se é preciso alterar a configuração de idioma para uma pesquisa de conteúdo? Se você tiver certeza de que os locais de conteúdo contêm os caracteres que não estão em inglês que você está procurando, mas a pesquisa não retorna nenhum resultado, a configuração de idioma pode ser a causa. 
   
+## <a name="partially-indexed-items"></a>Itens parcialmente indexados
+
+- Os itens parcialmente indexados na caixa de correio são incluídos nos resultados estimados da pesquisa. Itens parcialmente indexados do SharePoint e do OneDrive não são incluídos nos resultados estimados da pesquisa. Para obter mais informações, consulte [Itens parcialmente indexados na Descoberta eletrônica](partially-indexed-items-in-content-search.md).
+
 ## <a name="searching-onedrive-accounts"></a>Pesquisar contas do OneDrive
 
 - Para coletar uma lista das URLs dos sites do OneDrive na organização, confira [Criar uma lista de todos os locais do OneDrive na organização](/onedrive/list-onedrive-urls). Esse script neste artigo cria um arquivo de texto que contém uma lista de todos os sites do OneDrive. Para executar esse script, é necessário instalar e usar o Shell de Gerenciamento Online do SharePoint. Não se esqueça de acrescentar a URL do domínio MySite da organização para cada site do OneDrive que você deseja pesquisar. Este é o domínio que contém todos os seus OneDrive; por exemplo, `https://contoso-my.sharepoint.com`. Veja um exemplo de URL para o site do OneDrive de um usuário: `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
@@ -228,12 +234,6 @@ Se a licença do Exchange Online (ou a licença inteira do Microsoft 365) for re
 - Se você usar o cmdlet **New-ComplianceSearch** para criar uma pesquisa de conteúdo e especificar um caixa de correio desconectada como o local de conteúdo do Exchange para pesquisar, a pesquisa de conteúdo não retornará resultados de pesquisa da caixa de correio desconectada.
 
 Se você precisar preservar os dados em uma caixa de correio desconectada para que possam ser pesquisados, você deve colocar a caixa de correio em retenção antes de remover a licença. Isso preserva os dados e mantém a caixa de correio desconectada pesquisável até que a retenção seja removida. Para saber mais sobre retenções, confira [Como identificar o tipo de retenção de uma caixa de correio do Exchange Online](identify-a-hold-on-an-exchange-online-mailbox.md).
-
-## <a name="partially-indexed-items"></a>Itens parcialmente indexados
-
-- Como explicado anteriormente, os itens parcialmente indexados na caixa de correio são incluídos nos resultados estimados da pesquisa. Itens parcialmente indexados do SharePoint e do OneDrive não são incluídos nos resultados estimados da pesquisa.
-
-- Se um item parcialmente indexado corresponder à consulta de pesquisa (porque outras propriedades do documento ou mensagem atendem aos critérios de pesquisa), não será incluído no número estimado de itens não indexados. Se um item parcialmente indexado for excluído pelos critérios de pesquisa, ele não será incluído no número estimado de itens não indexados. Para obter mais informações, consulte [Itens parcialmente indexados na Pesquisa de Conteúdo do Office 365](partially-indexed-items-in-content-search.md).
 
 ## <a name="searching-for-content-in-a-sharepoint-multi-geo-environment"></a>Pesquisa de conteúdo em um ambiente Multi-Geo do SharePoint (englobando diferente áreas geográficas)
 

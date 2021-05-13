@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como criar um calendário compartilhado.
-ms.openlocfilehash: 684122bcbccd7e8a419cc98eb0d0028c6218141a
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 21b594d1d5f28cc38c907cb8e85085a296ef20b8
+ms.sourcegitcommit: aff2331f9a3f22591f8ace1a646809969d28c120
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903689"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52464349"
 ---
 # <a name="create-a-shared-calendar"></a>Criar calendário compartilhado
 
@@ -35,7 +35,7 @@ ms.locfileid: "51903689"
 
 Um calendário compartilhado pode ajudá-lo a ver rapidamente quando as pessoas estão disponíveis para reuniões ou outros eventos.
 
-1. No Outlook, selecione o ícone de calendário.
+1. Em Outlook, selecione o ícone de calendário.
 1. Na guia **Página** Página 1, escolha **Adicionar Calendário** e, **em seguida, No Livro de Endereços.**
 1. Adicione usuários ao calendário compartilhado inserindo seu nome ou selecionando seu nome na lista e, em seguida, escolha **OK**.
 1. Agora você pode exibir seu calendário e os calendários para as pessoas que você adicionou.
@@ -43,4 +43,8 @@ Um calendário compartilhado pode ajudá-lo a ver rapidamente quando as pessoas 
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Gerenciar seu calendário e contatos](https://support.microsoft.com/office/manage-your-calendar-and-contacts-in-outlook-631a182a-21e0-4e41-8fa2-0d83e55da02d) no Outlook (artigo) Colaboração [por email](https://docs.microsoft.com/microsoft-365/admin/email/email-collaboration) (artigo) Visão geral do Centro de administração do [Microsoft 365](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview) (artigo)
+[Gerenciar seu calendário e contatos no Outlook](https://support.microsoft.com/office/manage-your-calendar-and-contacts-in-outlook-631a182a-21e0-4e41-8fa2-0d83e55da02d) (artigo)
+
+[Colaboração por email](../admin/email/email-collaboration.md) (artigo)
+
+[Visão geral do Microsoft 365 de administração](admin-center-overview.md) (artigo)

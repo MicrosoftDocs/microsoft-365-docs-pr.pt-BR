@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 5513c4b4fd8c5e24f9ada989113abc8a10e6a864
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: ba6f84f9f08d0635dab6ac65eaa697b8e0e73df7
+ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933440"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52470683"
 ---
 # <a name="migrate-advanced-hunting-queries-from-microsoft-defender-for-endpoint"></a>Migrar consultas de busca avançadas do Microsoft Defender para o Ponto de Extremidade
 
@@ -35,7 +35,7 @@ ms.locfileid: "51933440"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-Mova seus fluxos de trabalho de busca avançados do Microsoft Defender para o Ponto de Extremidade para procurar proativamente ameaças usando um conjunto mais amplo de dados. No Microsoft 365 Defender, você tem acesso a dados de outras soluções de segurança do Microsoft 365, incluindo:
+Mova seus fluxos de trabalho de busca avançados do Microsoft Defender para o Ponto de Extremidade para procurar proativamente ameaças usando um conjunto mais amplo de dados. No Microsoft 365 Defender, você tem acesso aos dados de outras soluções Microsoft 365 segurança, incluindo:
 
 - Microsoft Defender para Ponto de Extremidade
 - Microsoft Defender para Office 365
@@ -43,24 +43,23 @@ Mova seus fluxos de trabalho de busca avançados do Microsoft Defender para o Po
 - Microsoft Defender para Identidade?
 
 >[!NOTE]
->A maioria dos clientes do Microsoft Defender para Ponto de Extremidade [pode usar o Microsoft 365 Defender sem licenças adicionais.](prerequisites.md#licensing-requirements) Para começar a fazer a transição dos fluxos de trabalho de busca avançados do Defender para o Ponto de Extremidade, [a ligue o Microsoft 365 Defender](m365d-enable.md).
+>A maioria dos clientes do Microsoft Defender para Ponto de Extremidade pode [usar o Microsoft 365 Defender sem licenças adicionais.](prerequisites.md#licensing-requirements) Para começar a fazer a transição dos fluxos de trabalho de busca avançada do Defender para o Ponto de Extremidade, a [Microsoft 365 Defender](m365d-enable.md).
 
 Você pode fazer a transição sem afetar seus fluxos de trabalho existentes do Defender para Pontos de Extremidade. As consultas salvas permanecem intactas e as regras de detecção personalizadas continuam a ser executados e geram alertas. No entanto, eles estarão visíveis no Microsoft 365 Defender. 
 
-## <a name="schema-tables-in-microsoft-365-defender-only"></a>Tabelas de esquema no Microsoft 365 Defender somente
-O esquema de busca avançada do [Microsoft 365 Defender](advanced-hunting-schema-tables.md) fornece tabelas adicionais contendo dados de várias soluções de segurança do Microsoft 365. As tabelas a seguir estão disponíveis apenas no Microsoft 365 Defender:
+## <a name="schema-tables-in-microsoft-365-defender-only"></a>Tabelas de esquema somente Microsoft 365 Defender
+O [Microsoft 365 esquema](advanced-hunting-schema-tables.md) de busca avançada do Defender fornece tabelas adicionais que contêm dados de várias Microsoft 365 de segurança. As tabelas a seguir estão disponíveis apenas no Microsoft 365 Defender:
 
 | Nome da tabela | Descrição |
 |------------|-------------|
 | [AlertEvidence](advanced-hunting-alertevidence-table.md) | Arquivos, endereços IP, URLs, usuários ou dispositivos associados a alertas |
 | [AlertInfo](advanced-hunting-alertinfo-table.md) | Alertas do Microsoft Defender para Ponto de Extremidade, Microsoft Defender para Office 365, Microsoft Cloud App Security e Microsoft Defender para Identidade, incluindo informações de gravidade e categorias de ameaças  |
-| [AppFileEvents](advanced-hunting-appfileevents-table.md) | Atividades relacionadas a arquivos em aplicativos e serviços na nuvem |
 | [EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md) | Informações sobre arquivos anexados a emails |
-| [EmailEvents](advanced-hunting-emailevents-table.md) | Eventos de email do Microsoft 365, incluindo eventos de entrega de email e bloqueio |
-| [EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md) | Eventos de segurança que ocorrem após a entrega, após o Microsoft 365 ter entregue os emails à caixa de correio do destinatário |
+| [EmailEvents](advanced-hunting-emailevents-table.md) | Microsoft 365 de email, incluindo eventos de entrega de email e bloqueio |
+| [EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md) | Eventos de segurança que ocorrem após a entrega, Microsoft 365 entregar os emails à caixa de correio do destinatário |
 | [EmailUrlInfo](advanced-hunting-emailurlinfo-table.md) | Informações sobre URLs em emails |
 | [IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md) | Eventos envolvendo um controlador de domínio local executando o Active Directory (AD). Esta tabela abrange um intervalo de eventos relacionados à identidade e eventos do sistema no controlador de domínio. |
-| [IdentityInfo](advanced-hunting-identityinfo-table.md) | Informações da conta de várias fontes, incluindo o Azure Active Directory |
+| [IdentityInfo](advanced-hunting-identityinfo-table.md) | Informações da conta de várias fontes, incluindo Azure Active Directory |
 | [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md) | Eventos de autenticação no Active Directory e serviços online da Microsoft |
 | [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md) | Consultas para objetos do Active Directory, como usuários, grupos, dispositivos e domínios |
 
@@ -119,7 +118,7 @@ AlertInfo
 
 ## <a name="migrate-custom-detection-rules"></a>Migrar regras de detecção personalizadas
 
-Quando as regras do Microsoft Defender para Ponto de Extremidade são editadas no Microsoft 365 Defender, elas continuam a funcionar como antes se a consulta resultante olhar apenas para tabelas de dispositivo. 
+Quando as regras do Microsoft Defender para Ponto de Extremidade são editadas no Microsoft 365 Defender, elas continuam a funcionar como antes se a consulta resultante olhar apenas para tabelas de dispositivos. 
 
 Por exemplo, alertas gerados por regras de detecção personalizadas que consultam apenas tabelas de dispositivo continuarão a ser entregues ao SIEM e gerarão notificações de email, dependendo de como você configurou isso no Microsoft Defender para Ponto de Extremidade. Quaisquer regras de supressão existentes no Defender para Ponto de Extremidade também continuarão a ser aplicadas.
 
@@ -127,13 +126,13 @@ Depois de editar uma regra do Defender para Ponto de Extremidade para que ela co
 
 Alertas gerados pela regra migrada:
 
-- Não estão mais visíveis no portal do Defender para Ponto de Extremidade (Centro de Segurança do Microsoft Defender)
-- Pare de ser entregue ao SIEM ou gere notificações por email. Para resolver essa alteração, configure as notificações por meio do Microsoft 365 Defender para obter os alertas. Você pode usar a API do [Microsoft 365 Defender](api-incident.md) para receber notificações para alertas de detecção do cliente ou incidentes relacionados.
+- Não estão mais visíveis no portal defender para ponto de extremidade (Central de Segurança do Microsoft Defender)
+- Pare de ser entregue ao SIEM ou gere notificações por email. Para resolver essa alteração, configure as notificações por meio Microsoft 365 Defender para obter os alertas. Você pode usar a [API Microsoft 365 Defender](api-incident.md) para receber notificações para alertas de detecção do cliente ou incidentes relacionados.
 - Não será suprimido pelo Microsoft Defender para regras de supressão de ponto de extremidade. Para evitar que alertas são gerados para determinados usuários, dispositivos ou caixas de correio, modifique as consultas correspondentes para excluir essas entidades explicitamente.
 
 Se você editar uma regra dessa forma, será solicitado a confirmar antes que essas alterações sejam aplicadas.
 
-Novos alertas gerados por regras de detecção personalizadas no portal do Microsoft 365 Defender são exibidos em uma página de alerta que fornece as seguintes informações:
+Novos alertas gerados por regras de detecção personalizadas no Microsoft 365 portal do Defender são exibidos em uma página de alerta que fornece as seguintes informações:
 
 - Título e descrição do alerta 
 - Ativos afetados
@@ -141,11 +140,12 @@ Novos alertas gerados por regras de detecção personalizadas no portal do Micro
 - Resultados da consulta que dispararam o alerta 
 - Informações sobre a regra de detecção personalizada 
  
-![Imagem da nova página de alerta](../../media/new-alert-page.png)
+> [!div class="mx-imgBorder"]
+> ![Imagem da nova página de alerta](../../media/new-alert-page.png)
 
 ## <a name="write-queries-without-devicealertevents"></a>Gravar consultas sem DeviceAlertEvents
 
-No esquema do Microsoft 365 Defender, as tabelas e são fornecidas para acomodar o conjunto diversificado de informações que acompanham `AlertInfo` `AlertEvidence` alertas de várias fontes. 
+No esquema Microsoft 365 Defender, as tabelas e são fornecidas para acomodar o conjunto diversificado de informações que acompanham `AlertInfo` `AlertEvidence` alertas de várias fontes. 
 
 Para obter as mesmas informações de alerta que você usou para obter da tabela no esquema do Microsoft Defender para Ponto de Extremidade, filtre a tabela e, em seguida, participe de cada ID exclusiva com a tabela, que fornece informações detalhadas sobre eventos e `DeviceAlertEvents` `AlertInfo` `ServiceSource` `AlertEvidence` entidades. 
 

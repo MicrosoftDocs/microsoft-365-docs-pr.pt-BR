@@ -1,5 +1,5 @@
 ---
-title: Conectividade de rede no Microsoft 365 Admin Center (visualização)
+title: Conectividade de rede no Microsoft 365 Admin Center
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -14,15 +14,15 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
-description: Visão geral da conectividade de rede no Microsoft 365 Admin Center (visualização)
-ms.openlocfilehash: 4f88b3ad5bf8f0c32059a26348a651a6024ad544
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Visão geral da conectividade de rede no Microsoft 365 Admin Center
+ms.openlocfilehash: 75451a73ed56dade796f6de288f7f4acfb147960
+ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245763"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52470607"
 ---
-# <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Conectividade de rede no Microsoft 365 Admin Center (visualização)
+# <a name="network-connectivity-in-the-microsoft-365-admin-center"></a>Conectividade de rede no Microsoft 365 Admin Center
 
 O Microsoft 365 Admin Center agora inclui métricas de conectividade de rede agregadas coletadas do seu locatário Microsoft 365 e disponíveis para exibição somente por usuários administrativos em seu locatário.
 

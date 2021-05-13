@@ -23,12 +23,12 @@ ms.custom:
 - okr_smb
 - AdminSurgePortfolio
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0d4c59f24f5d5979d0f63d035edd1ca668ff4314
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: eac7de88e6d4c09e6807edbbd35d6ccc4718c671
+ms.sourcegitcommit: aff2331f9a3f22591f8ace1a646809969d28c120
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296690"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52464328"
 ---
 # <a name="what-is-a-domain"></a>O que é um domínio?
 
@@ -58,5 +58,13 @@ Você pode usar um domínio padrão como  *yourcompany.onmicrosoft. <span> com* 
 ## <a name="feeling-stuck"></a>Se sentindo travado?
 
 Chamar o Suporte da Microsoft - [Obter ajuda para configurar um domínio](../../business-video/get-help-support.md)
-  
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Comprar um domínio](buy-a-domain-name.md) (artigo)
+
+[Adicionar um domínio ao Microsoft 365](../setup/add-domain.md) (artigo)
+
+[Piloto Microsoft 365 do meu domínio personalizado](../misc/pilot-microsoft-365-from-my-custom-domain.md) (artigo)
+
 

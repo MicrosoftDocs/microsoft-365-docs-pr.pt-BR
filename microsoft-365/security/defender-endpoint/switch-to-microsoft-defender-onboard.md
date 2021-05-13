@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-migratetomdatp
 ms.custom: migrationguides
 ms.topic: article
-ms.date: 05/10/2021
+ms.date: 05/11/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 6b3b9fda0060108bd6a3c48188ff6e89261be096
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 66d24f5a479a903c8d42d509f1bbe956293c9ac3
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327241"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52346335"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-3-onboard"></a>Alternar para o Microsoft Defender para o Ponto de Extremidade - Fase 3: Onboard
 
@@ -42,15 +42,21 @@ ms.locfileid: "52327241"
 **Bem-vindo à Fase 3 [da mudança para o Microsoft Defender para Ponto de Extremidade](switch-to-microsoft-defender-migration.md#the-migration-process)**. Essa fase de migração inclui as seguintes etapas:
 
 1. [Dispositivos de integração com o Microsoft Defender para Ponto de Extremidade](#onboard-devices-to-microsoft-defender-for-endpoint).
+
 2. [Execute um teste de detecção](#run-a-detection-test).
+
 3. [Desinstale sua solução que não seja da Microsoft.](#uninstall-your-non-microsoft-solution)
+
 4. [Certifique-se de que o Microsoft Defender para Ponto de Extremidade está no modo ativo](#make-sure-microsoft-defender-for-endpoint-is-in-active-mode).
 
 ## <a name="onboard-devices-to-microsoft-defender-for-endpoint"></a>Dispositivos integrados ao Microsoft Defender para Ponto de Extremidade
 
-1. Vá para o Centro de Segurança do Microsoft Defender ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ) e entre.
-2. Escolha **Configurações**  >  **Gerenciamento de**  >  **dispositivos Integração**. 
+1. Vá para o Central de Segurança do Microsoft Defender ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ) e entre.
+
+2. Escolha **Configurações**  >  **Gerenciamento de**  >  **dispositivos Integrando**. 
+
 3. Na lista **Selecionar sistema operacional para iniciar o** processo de integração, selecione um sistema operacional. 
+
 4. Em **Método deployment,** selecione uma opção. Siga os links e os prompts para integrar os dispositivos da sua organização. Precisa de ajuda? Consulte [Métodos de integração](#onboarding-methods) (neste artigo).
 
 ### <a name="onboarding-methods"></a>Métodos de integração
@@ -59,10 +65,10 @@ Os métodos de implantação variam, dependendo de qual sistema operacional est�
 
 |Sistema operacional  |Método  |
 |---------|---------|
-|Windows 10     |- [Política de Grupo](configure-endpoints-gp.md)<br/>- [Configuration Manager](configure-endpoints-sccm.md)<br/>- [Gerenciamento de dispositivo móvel (Intune)](configure-endpoints-mdm.md)<br/>- [Script local](configure-endpoints-script.md) <p>**OBSERVAÇÃO**: um script local é adequado para uma prova de conceito, mas não deve ser usado para implantação de produção. Para uma implantação de produção, recomendamos usar a Política de Grupo, o Microsoft Endpoint Configuration Manager ou o Intune.         |
-|- Windows 8.1 Enterprise <br/>- Windows 8.1 Pro <br/>- Windows 7 SP1 Enterprise <br/>- Windows 7 SP1 Pro     | [Agente de Monitoramento da Microsoft](onboard-downlevel.md)<p>**OBSERVAÇÃO**: o Agente de Monitoramento da Microsoft agora é o agente do Azure Log Analytics. Para saber mais, confira [Visão geral do agente do Log Analytics.](/azure/azure-monitor/platform/log-analytics-agent)        |
-|- Windows Server 2019 e posterior <br/>- Edição principal do Windows Server 2019 <br/>- Windows Server versão 1803 e posterior |- [Script local](configure-endpoints-script.md) <br/>- [Política de Grupo](configure-endpoints-gp.md) <br/>- [Configuration Manager](configure-endpoints-sccm.md) <br/>- [System Center Configuration Manager](configure-endpoints-sccm.md) <br/>- [Scripts de integração VDI para dispositivos não persistentes](configure-endpoints-vdi.md) <p>**OBSERVAÇÃO**: um script local é adequado para uma prova de conceito, mas não deve ser usado para implantação de produção. Para uma implantação de produção, recomendamos usar a Política de Grupo, o Microsoft Endpoint Configuration Manager ou o Intune.    |
-|- Windows Server 2016 <br/>- Windows Server 2012 R2 <br/>- Windows Server 2008 R2 SP1  |- [Centro de Segurança do Microsoft Defender](configure-server-endpoints.md)<br/>- [Azure Defender](/azure/security-center/security-center-wdatp) |
+|Windows 10     |- [Política de Grupo](configure-endpoints-gp.md)<br/>- [Configuration Manager](configure-endpoints-sccm.md)<br/>- [Gerenciamento de dispositivo móvel (Intune)](configure-endpoints-mdm.md)<br/>- [Script local](configure-endpoints-script.md) <p>**OBSERVAÇÃO**: um script local é adequado para uma prova de conceito, mas não deve ser usado para implantação de produção. Para uma implantação de produção, recomendamos usar a Política de Grupo, Microsoft Endpoint Configuration Manager ou Intune.         |
+|- Windows 8.1 Enterprise <br/>- Windows 8.1 Pro <br/>- Windows 7 sp1 Enterprise <br/>- Windows 7 sp1 Pro     | [Microsoft Monitoring Agent](onboard-downlevel.md)<p>**OBSERVAÇÃO**: Microsoft Monitoring Agent agora é agente do Azure Log Analytics. Para saber mais, confira [Visão geral do agente do Log Analytics.](/azure/azure-monitor/platform/log-analytics-agent)        |
+|- Windows Server 2019 e posterior <br/>- Windows edição principal do Server 2019 <br/>- Windows Server versão 1803 e posterior |- [Script local](configure-endpoints-script.md) <br/>- [Política de Grupo](configure-endpoints-gp.md) <br/>- [Configuration Manager](configure-endpoints-sccm.md) <br/>- [System Center Configuration Manager](configure-endpoints-sccm.md) <br/>- [Scripts de integração VDI para dispositivos não persistentes](configure-endpoints-vdi.md) <p>**OBSERVAÇÃO**: um script local é adequado para uma prova de conceito, mas não deve ser usado para implantação de produção. Para uma implantação de produção, recomendamos usar a Política de Grupo, Microsoft Endpoint Configuration Manager ou Intune.    |
+|- Windows Server 2016 <br/>- Windows Server 2012 R2 <br/>- Windows Server 2008 R2 SP1  |- [Central de Segurança do Microsoft Defender](configure-server-endpoints.md)<br/>- [Azure Defender](/azure/security-center/security-center-wdatp) |
 |macOS<br/>- 11.3.1 (Big Sur) <br/>- 10.15 (Catalina)<br/>- 10.14 (Mojave)<p>iOS<p>Linux:<br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS ou LTS superior<br/>- SLES 12+<br/>- Debian 9+<br/>- Oracle Linux 7.2 |[Dispositivos Windows não integrados](configure-endpoints-non-windows.md)  |
 
 ## <a name="run-a-detection-test"></a>Executar um teste de detecção
@@ -91,11 +97,12 @@ Para fazer isso, visite o site de cenários de demonstração do Microsoft Defen
 - Proteção de Rede (NP)
 
 > [!IMPORTANT]
-> Se você estiver usando o Windows Server 2016, talvez seja preciso iniciar o Microsoft Defender Antivírus manualmente. Você pode fazer isso usando o cmdlet do PowerShell `mpcmdrun.exe -wdenable` no dispositivo.
+> Se você estiver usando Windows Server 2016, talvez seja preciso iniciar Microsoft Defender Antivírus manualmente. Você pode fazer isso usando o cmdlet do PowerShell `mpcmdrun.exe -wdenable` no dispositivo.
 
 ## <a name="next-steps"></a>Próximas etapas
 
 **Parabéns**! Você concluiu sua [migração para o Microsoft Defender para o Ponto de Extremidade](switch-to-microsoft-defender-migration.md#the-migration-process)! 
 
-- [Visite seu painel de operações de](security-operations-dashboard.md) segurança no Centro de Segurança do Microsoft Defender ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ). 
+- [Visite seu painel de operações de](security-operations-dashboard.md) segurança no Central de Segurança do Microsoft Defender ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ). 
+
 - [Gerenciar o Microsoft Defender para Ponto de Extremidade, pós-migração](manage-atp-post-migration.md).

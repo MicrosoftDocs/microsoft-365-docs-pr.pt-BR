@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Use a ferramenta de Pesquisa de Conteúdo no centro de conformidade da Microsoft para pesquisar conteúdo em diferentes serviços do Microsoft 365.
-ms.openlocfilehash: a058c07d080962723e9f6bc7a150cbfb5074e7db
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 5f48418882d5d4c7589b3ef394a0a306c0675f34
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311648"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332841"
 ---
 # <a name="create-a-content-search"></a>Criar uma pesquisa de conteúdo
 
@@ -88,7 +88,7 @@ Para ter acesso à página da **Pesquisa de conteúdo** no Centro de conformidad
 7. Revise as configurações de pesquisa (e edite, se necessário) e envie a pesquisa para iniciá-la.
   
 Para acessar a pesquisa de conteúdo novamente ou acessar outras pesquisas de conteúdo listadas na página **Pesquisa de conteúdo**, selecione a pesquisa e clique em **Abrir**.
-  
+
 ## <a name="next-steps"></a>Próximas etapas
 
 Aqui está uma lista das próximas etapas a serem seguidas por você criar e executar uma Pesquisa de conteúdo.
@@ -100,3 +100,7 @@ Aqui está uma lista das próximas etapas a serem seguidas por você criar e exe
 - [Exportar resultados de pesquisa](export-search-results.md)
 
 - [Exportar um relatório de pesquisa](export-a-content-search-report.md)
+
+## <a name="more-information"></a>Mais informações
+
+Para obter mais sobre pesquisa de Conteúdo, como pesquisar conteúdo em diferentes serviços do Microsoft 365, consulte [Referência de recurso para pesquisa de Conteúdo](content-search-reference.md).

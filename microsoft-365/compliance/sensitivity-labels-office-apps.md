@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informações para administradores de TI para gerenciar rótulos de confidencialidade em aplicativos do Office para área de trabalho, dispositivos móveis e Web.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 55c22c9901f163fdf64e6148d5b2c19e51136bc1
-ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
+ms.openlocfilehash: 2cc1cb494569e054825875a4d0dc67e5c56f8146
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "52086798"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52326613"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Gerenciar rótulos de confidencialidade em aplicativos do Office
 
@@ -89,7 +89,7 @@ Os números listados são as versão mínima do aplicativo do Office necessária
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Sim               |
 |[Permitir que usuários atribuam permissões: <br /> – Não Encaminhar](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Sim               |
 |[Permitir que usuários atribuam permissões: <br /> – Criptografar Somente](encryption-sensitivity-labels.md#let-users-assign-permissions)  |2011+ | 16.48+ | 4.2112.0+  | 4.2112.0+ | Sim |
-|[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+                        | 16.43+ <sup>\*</sup>                    | Em implantação: 4.2111+            | Em implantação: 4.2111+                | Sim                |
+|[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+                        | 16.43+ <sup>\*</sup>                    | 4.2111+            | 4.2111+                | Sim                |
 |[Atividade do usuário relacionada a rótulos de auditoria](data-classification-activity-explorer.md) | 2011+ | Em revisão | Em revisão           | Em revisão               | Em revisão |
 |[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009+                      | 16.44+ <sup>\*</sup>                    | Em revisão           | Em revisão               | Sim |
 |[Configurações diferentes para rótulo padrão e rotulagem obrigatória](#outlook-specific-options-for-default-label-and-mandatory-labeling)                    | Implantação na versão prévia: [Canal beta](https://office.com/insider)                      | 16.43.1108+                   | 4.2111+           | 4.2111+               | Sim |
@@ -134,7 +134,7 @@ Para Microsoft Word 2016, Excel 2016, PowerPoint 2016 e Outlook 2016, especifiqu
 | | | 
 
 
-Implemente este cenário usando a Política de Grupo ou usando o [Serviço de política de nuvem do Office](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service).
+Implemente este cenário usando a Política de Grupo ou usando o [Serviço de política de nuvem do Office](/DeployOffice/overview-office-cloud-policy-service).
 
 > [!NOTE]
 > Se você usar a configuração de Política de Grupo, **Usar o recurso Confidencialidade no Office para aplicar e exibir rótulos de confidencialidade** e defini-la como **1**, há algumas situações em que o cliente da Proteção de Informações do Azure ainda pode carregar nos aplicativos do Office. Bloquear o carregamento do suplemento em cada aplicativo impede que isso aconteça.

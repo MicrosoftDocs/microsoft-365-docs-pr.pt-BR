@@ -3,7 +3,6 @@ title: Rolar ou girar uma Chave de Cliente ou uma chave de disponibilidade
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 02/05/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,25 +11,25 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Saiba como rolar as chaves raiz do cliente armazenadas no Azure Key Vault que são usadas com a Chave do Cliente. Os serviços incluem arquivos do Exchange Online, Skype for Business, SharePoint Online, OneDrive for Business e Teams.
-ms.openlocfilehash: 980d6b198b326cb75bb2b4ef4d2c980f605f23e5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Saiba como rolar as chaves raiz do cliente armazenadas no Azure Key Vault que são usadas com a Chave do Cliente. Os serviços incluem Exchange Online, Skype for Business, SharePoint Online, OneDrive for Business e Teams arquivos.
+ms.openlocfilehash: 892d77959bec1fb33b0ea6bcfaa8c530dd9b8911
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923327"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52345113"
 ---
 # <a name="roll-or-rotate-a-customer-key-or-an-availability-key"></a>Rolar ou girar uma Chave de Cliente ou uma chave de disponibilidade
 
 > [!CAUTION]
-> Somente role uma chave de criptografia que você usa com a Chave do Cliente quando seus requisitos de segurança ou conformidade determinam que você deve rolar a chave. Além disso, não exclua as chaves que estão ou foram associadas às políticas. Quando você rolar suas chaves, haverá conteúdo criptografado com as chaves anteriores. Por exemplo, embora as caixas de correio ativas sejam criptografadas com frequência, as caixas de correio inativas, desconectadas e desabilitadas ainda poderão ser criptografadas com as chaves anteriores. O SharePoint Online executa o backup do conteúdo para fins de restauração e recuperação, portanto, ainda pode haver conteúdo arquivado usando chaves mais antigas.
+> Somente role uma chave de criptografia que você usa com a Chave do Cliente quando seus requisitos de segurança ou conformidade determinam que você deve rolar a chave. Além disso, não exclua as chaves que estão ou foram associadas às políticas. Quando você rolar suas chaves, haverá conteúdo criptografado com as chaves anteriores. Por exemplo, embora as caixas de correio ativas sejam criptografadas com frequência, as caixas de correio inativas, desconectadas e desabilitadas ainda poderão ser criptografadas com as chaves anteriores. SharePoint Online executa backup de conteúdo para fins de restauração e recuperação, portanto, ainda pode haver conteúdo arquivado usando chaves mais antigas.
 
 ## <a name="about-rolling-the-availability-key"></a>Sobre a rolagem da chave de disponibilidade
 
-A Microsoft não expõe o controle direto da chave de disponibilidade aos clientes. Por exemplo, você só pode rolar (girar) as chaves que possui no Azure Key Vault. O Microsoft 365 rola as chaves de disponibilidade em uma agenda definida internamente. Não há nenhum contrato de nível de serviço (SLA) voltado para o cliente para esses rolados de chaves. O Microsoft 365 gira a chave de disponibilidade usando o código de serviço do Microsoft 365 em um processo automatizado, não manual. Os administradores da Microsoft podem iniciar o processo de rolagem. A chave é rolada usando mecanismos automatizados sem acesso direto ao armazenamento de chaves. O acesso ao armazenamento secreto da chave de disponibilidade não é provisionado para administradores da Microsoft. A rolagem da chave de disponibilidade aproveita o mesmo mecanismo usado inicialmente para gerar a chave. Para obter mais informações sobre a chave de disponibilidade, consulte [Understand the availability key](customer-key-availability-key-understand.md).
+A Microsoft não expõe o controle direto da chave de disponibilidade aos clientes. Por exemplo, você só pode rolar (girar) as chaves que possui no Azure Key Vault. Microsoft 365 as chaves de disponibilidade em um cronograma definido internamente. Não há nenhum contrato de nível de serviço (SLA) voltado para o cliente para esses rolados de chaves. Microsoft 365 gira a chave de disponibilidade usando Microsoft 365 código de serviço em um processo automatizado e não manual. Os administradores da Microsoft podem iniciar o processo de rolagem. A chave é rolada usando mecanismos automatizados sem acesso direto ao armazenamento de chaves. O acesso ao armazenamento secreto da chave de disponibilidade não é provisionado para administradores da Microsoft. A rolagem da chave de disponibilidade aproveita o mesmo mecanismo usado inicialmente para gerar a chave. Para obter mais informações sobre a chave de disponibilidade, consulte [Understand the availability key](customer-key-availability-key-understand.md).
 
 > [!IMPORTANT]
-> As chaves de disponibilidade do Exchange Online e do Skype for Business podem ser efetivamente roladas pelos clientes criando um novo DEP, pois uma chave de disponibilidade exclusiva é gerada para cada DEP que você criar. As chaves de disponibilidade para arquivos do SharePoint Online, do OneDrive for Business e do Teams existem no nível da floresta e são compartilhadas entre DEPs e clientes, o que significa que a implantação ocorre somente em um cronograma definido internamente pela Microsoft. Para atenuar o risco de não rolar a chave de disponibilidade sempre que uma nova DEP for criada, o SharePoint, o OneDrive e o Teams rolarão a chave intermediária do locatário (TIK), a chave envolvida pelas chaves raiz do cliente e a chave de disponibilidade, sempre que uma nova DEP for criada.
+> Exchange Online e Skype for Business de disponibilidade podem ser efetivamente roladas pelos clientes criando um novo DEP, pois uma chave de disponibilidade exclusiva é gerada para cada DEP que você criar. As chaves de disponibilidade para arquivos SharePoint Online, OneDrive for Business e Teams existem no nível da floresta e são compartilhadas entre DEPs e clientes, o que significa que a rolagem só ocorre em um cronograma definido internamente pela Microsoft. Para atenuar o risco de não rolar a chave de disponibilidade sempre que uma nova DEP for criada, SharePoint, OneDrive e Teams rolar a chave intermediária do locatário (TIK), a chave envolvida pelas chaves raiz do cliente e pela chave de disponibilidade, sempre que um novo DEP for criado.
 
 ## <a name="request-a-new-version-of-each-existing-root-key-you-want-to-roll"></a>Solicitar uma nova versão de cada chave raiz existente que você deseja rolar
 
@@ -38,35 +37,55 @@ Quando você rola uma chave, solicita uma nova versão de uma chave existente. P
 
 Por exemplo:
 
-1. Entre em sua assinatura do Azure com o Azure PowerShell. Para obter instruções, [consulte Entrar com o Azure PowerShell](/powershell/azure/authenticate-azureps).
+1. Entre em sua assinatura do Azure com Azure PowerShell. Para obter instruções, [consulte Entrar com Azure PowerShell](/powershell/azure/authenticate-azureps).
 
 2. Execute o Add-AzKeyVaultKey cmdlet como mostrado no exemplo a seguir:
 
    ```powershell
-   Add-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -Destination HSM -KeyOps @('wrapKey','unwrapKey') -NotBefore (Get-Date -Date "12/27/2016 12:01 AM")
+   Add-AzKeyVaultKey -VaultName Contoso-CK-EX-NA-VaultA1 -Name Contoso-CK-EX-NA-VaultA1-Key001 -Destination HSM -KeyOps @('wrapKey','unwrapKey') -NotBefore (Get-Date -Date "12/27/2016 12:01 AM")
    ```
 
-   Neste exemplo, como uma chave chamada **Contoso-O365EX-NA-VaultA1-Key001** existe no cofre **Contoso-O365EX-NA-VaultA1,** o cmdlet cria uma nova versão da chave. Essa operação preserva as versões de chave anteriores no histórico de versão da chave. Você precisa da versão da chave anterior para descriptografar os dados que eles ainda criptografam. Depois de concluir a rolagem de qualquer chave associada a um DEP, execute um cmdlet extra para garantir que a Chave do Cliente comece a usar a nova chave. As seções a seguir descrevem os cmdlets com mais detalhes.
+   Neste exemplo, como uma chave chamada **Contoso-CK-EX-NA-VaultA1-Key001** existe no cofre **Contoso-CK-EX-NA-VaultA1,** o cmdlet cria uma nova versão da chave. Essa operação preserva as versões de chave anteriores no histórico de versão da chave. Você precisa da versão da chave anterior para descriptografar os dados que eles ainda criptografam. Depois de concluir a rolagem de qualquer chave associada a um DEP, execute um cmdlet extra para garantir que a Chave do Cliente comece a usar a nova chave. As seções a seguir descrevem os cmdlets com mais detalhes.
   
-## <a name="update-the-customer-key-for-exchange-online-and-skype-for-business"></a>Atualizar a Chave do Cliente para o Exchange Online e o Skype for Business
+## <a name="update-the-keys-for-multi-workload-deps"></a>Atualizar as chaves para DEPs de várias cargas de trabalho
 
-Quando você rola uma das teclas do Azure Key Vault associadas a um DEP usado com o Exchange Online e o Skype for Business, você deve atualizar o DEP para apontar para a nova chave. Isso não gira a chave de disponibilidade.
+Quando você rola uma das teclas do Azure Key Vault associadas a um DEP usado com várias cargas de trabalho, você deve atualizar o DEP para apontar para a nova chave. Esse processo não gira a chave de disponibilidade.
+
+Para instruir a Chave do Cliente a usar a nova chave para criptografar várias cargas de trabalho, conclua estas etapas:
+
+1. Em seu computador local, usando uma conta de estudante ou de trabalho que tenha permissões globais de administrador ou administrador de conformidade em sua organização, conecte-se ao [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) em uma janela Windows PowerShell de conformidade.
+
+2. Execute o cmdlet Set-M365DataAtRestEncryptionPolicy.
+  
+   ```powershell
+   Set-M365DataAtRestEncryptionPolicy -[Identity] "PolicyName" -Refresh
+   ```
+
+Onde *PolicyName* é o nome ou ID exclusiva da política. Por exemplo, Contoso_Global.
+
+Exemplo:
+
+```powershell
+Set-M365DataAtRestEncryptionPolicy -Identity "Contoso_Global" -Refresh
+```
+
+## <a name="update-the-keys-for-exchange-online-deps"></a>Atualizar as chaves para Exchange Online DEPs
+
+Quando você rola uma das teclas do Azure Key Vault associadas a um DEP usado com Exchange Online e Skype for Business, você deve atualizar o DEP para apontar para a nova chave. Isso não gira a chave de disponibilidade.
 
 Para instruir a Chave do Cliente a usar a nova chave para criptografar caixas de correio, execute o cmdlet Set-DataEncryptionPolicy da seguinte forma:
 
-1. Execute o cmdlet Set-DataEncryptionPolicy no Azure PowerShell:
+1. Execute o cmdlet Set-DataEncryptionPolicy Azure PowerShell:
   
    ```powershell
    Set-DataEncryptionPolicy -Identity <DataEncryptionPolicyID> -Refresh
    ```
 
-   Em 72 horas, as caixas de correio ativas associadas a esse DEP serão criptografadas com a nova chave.
-
 2. Para verificar o valor da propriedade DataEncryptionPolicyID para a caixa de correio, use as etapas em [Determine the DEP assigned to a mailbox](customer-key-manage.md#determine-the-dep-assigned-to-a-mailbox). O valor dessa propriedade muda quando o serviço aplica a chave atualizada.
   
-## <a name="update-the-customer-key-for-sharepoint-online-onedrive-for-business-and-teams-files"></a>Atualizar os arquivos Chave do Cliente para SharePoint Online, OneDrive for Business e Teams
+## <a name="update-the-keys-for-sharepoint-online-onedrive-for-business-and-teams-files"></a>Atualizar as chaves para arquivos SharePoint Online, OneDrive for Business e Teams
 
-O SharePoint Online só permite que você role uma chave por vez. Se você quiser rolar as duas chaves em um cofre de chaves, aguarde a conclusão da primeira operação. A Microsoft recomenda que você escalone suas operações para evitar esse problema. Quando você rola uma das chaves do Azure Key Vault associadas a um DEP usado com o SharePoint Online e o OneDrive for Business, você deve atualizar o DEP para apontar para a nova chave. Isso não gira a chave de disponibilidade.
+SharePoint Online só permite rolar uma chave por vez. Se você quiser rolar as duas chaves em um cofre de chaves, aguarde a conclusão da primeira operação. A Microsoft recomenda que você escalone suas operações para evitar esse problema. Quando você rola uma das teclas do Azure Key Vault associadas a um DEP usado com o SharePoint Online e o OneDrive for Business, você deve atualizar o DEP para apontar para a nova chave. Isso não gira a chave de disponibilidade.
 
 1. Execute o Update-SPODataEncryptionPolicy cmdlet da seguinte forma:
   
@@ -74,7 +93,7 @@ O SharePoint Online só permite que você role uma chave por vez. Se você quise
    Update-SPODataEncryptionPolicy -Identity <SPOAdminSiteUrl> -KeyVaultName <ReplacementKeyVaultName> -KeyName <ReplacementKeyName> -KeyVersion <ReplacementKeyVersion> -KeyType <Primary | Secondary>
    ```
 
-   Enquanto esse cmdlet inicia a operação de rolagem de chaves para o SharePoint Online e o OneDrive for Business, a ação não é concluída imediatamente.
+   Enquanto esse cmdlet inicia a operação de rolagem de chaves para SharePoint Online e OneDrive for Business, a ação não é concluída imediatamente.
 
 2. Para ver o progresso da operação de rolagem de teclas, execute o cmdlet Get-SPODataEncryptionPolicy da seguinte forma:
 

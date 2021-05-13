@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 42b15edd933d80dd397f4681c4f0fdb035f030f2
-ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
+ms.openlocfilehash: 29505a6e975fdfa2283efe3391c615e40e678164
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51943000"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52346373"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-linux"></a>Definir preferências para o Microsoft Defender para Ponto de Extremidade no Linux
 
@@ -105,6 +105,7 @@ Especifica a política de mesclagem para exclusões. Pode ser uma combinação d
 #### <a name="scan-exclusions"></a>Exclusões de verificação
 
 Entidades que foram excluídas da verificação. As exclusões podem ser especificadas por caminhos completos, extensões ou nomes de arquivo.
+(As exclusões são especificadas como uma matriz de itens, o administrador pode especificar quantos elementos for necessário, em qualquer ordem.)
 
 |||
 |:---|:---|
@@ -305,7 +306,7 @@ Os dados de diagnóstico são usados para manter o Defender para o Ponto de Extr
 Determina se amostras suspeitas (que provavelmente contêm ameaças) são enviadas à Microsoft. Há três níveis para controlar o envio de exemplo:
 
 - **Nenhum**: nenhum exemplo suspeito é enviado à Microsoft.
-- **Seguro**: somente amostras suspeitas que não contêm informações de identificação pessoal (PII) são enviadas automaticamente. Esse é o valor padrão para essa configuração.
+- **Cofre**: somente amostras suspeitas que não contenham informações de identificação pessoal (PII) são enviadas automaticamente. Esse é o valor padrão para essa configuração.
 - **All**: todos os exemplos suspeitos são enviados à Microsoft.
 
 |||
@@ -337,7 +338,7 @@ O seguinte perfil de configuração será:
   - **Aplicativos potencialmente indesejados (PUA)** são bloqueados
   - **As bombas de** arquivo morto (arquivo com alta taxa de compactação) são auditadas para os logs do produto
 - Habilitar atualizações automáticas de inteligência de segurança
-- Habilitar a proteção entregue na nuvem
+- Ativar proteção fornecida pela nuvem
 - Habilitar o envio automático de exemplo no `safe` nível
 
 ### <a name="sample-profile"></a>Perfil de exemplo
@@ -387,7 +388,12 @@ O perfil de configuração a seguir contém entradas para todas as configuraçõ
          {
             "$type":"excludedPath",
             "isDirectory":true,
-            "path":"/home"
+            "path":"/run"
+         },
+         {
+            "$type":"excludedPath",
+            "isDirectory":true,
+            "path":"/home/*/git"
          },
          {
             "$type":"excludedFileExtension",

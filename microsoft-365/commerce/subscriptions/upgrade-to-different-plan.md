@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 description: Saiba como atualizar para um plano diferente.
 ms.date: 04/21/2021
-ms.openlocfilehash: 2cfb5c3c6c5052a813e7dd078f15b6c0c943b004
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 4882ad4296eb05faf0bb549ebf850562a7ebf780
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333093"
+ms.locfileid: "52344609"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Atualizar para um plano diferente
 
@@ -99,7 +99,7 @@ Você pode [alterar os planos manualmente ou](change-plans-manually.md) chamar o
 
 #### <a name="you-have-two-or-more-plans-for-the-same-product"></a>Você tem dois ou mais planos para o mesmo produto
 
-Você só poderá usar a guia **Atualização** se todos os usuários assinarem o mesmo plano. Por exemplo, se você tiver dois planos do Microsoft 365 Business Standard, não poderá atualizar automaticamente um deles para outro plano.
+Você só poderá usar a guia **Atualização** se todos os usuários assinarem o mesmo plano. Por exemplo, se você tiver dois planos Microsoft 365 Business Standard, não poderá atualizar automaticamente um deles para outro plano.
 
 #### <a name="you-have-a-prepaid-plan"></a>Você tem um plano pré-pago
 
@@ -117,7 +117,7 @@ Você pode não ver nenhum plano na guia **Atualização** porque o serviço est
 
 #### <a name="the-plan-that-you-want-to-upgrade-to-isnt-a-supported-option"></a>O plano para o qual você deseja atualizar não é uma opção suportada
 
-Quando você atualiza planos, os planos que estão disponíveis para você atualizar são exibidos com base nos serviços em seu plano atual. Você só pode atualizar para um plano que tenha os mesmos serviços relacionados a dados, como o Exchange Online ou o SharePoint Online, ou para uma versão mais alta deles. Isso garante que os usuários não \' percam dados relacionados a esses serviços durante a atualização.
+Quando você atualiza planos, os planos que estão disponíveis para você atualizar são exibidos com base nos serviços em seu plano atual. Você só pode atualizar para um plano que tenha os mesmos serviços relacionados a dados, como Exchange Online ou SharePoint Online, ou para uma versão mais alta deles. Isso garante que os usuários não \' percam dados relacionados a esses serviços durante a atualização.
 
 Se seu plano não estiver qualificado para atualizar os planos automaticamente, você poderá alterar [os planos manualmente](change-plans-manually.md), em vez disso. Você também pode [chamar suporte](../../business-video/get-help-support.md) para ajuda.
 
@@ -143,11 +143,11 @@ Os **Usuários** não perceberão qualquer interrupção do serviço. Eles conti
 
 Os usuários com assinaturas antigas serão movidos automaticamente para as novas assinaturas.
   
-Se sua assinatura antiga incluir vários serviços e se você tiver alterado qual desses serviços seus usuários serão atribuídos, talvez você queira tomar nota disso antes de atualizar os planos para que possa recriar essas alterações posteriormente. Todos os usuários terão acesso a todos os serviços da nova assinatura. Por exemplo, se você comprou anteriormente o Microsoft 365 Business Premium para todos os 100 de seus usuários, mas não atribuiu o serviço do SharePoint Online de 50 deles, essa alteração não será mantida após a atualização dos planos.
+Se sua assinatura antiga incluir vários serviços e se você tiver alterado qual desses serviços seus usuários serão atribuídos, talvez você queira tomar nota disso antes de atualizar os planos para que possa recriar essas alterações posteriormente. Todos os usuários terão acesso a todos os serviços da nova assinatura. Por exemplo, se você comprou o Microsoft 365 Business Premium para todos os 100 usuários, mas não foi atribuído o serviço SharePoint Online de 50 deles, essa alteração não será mantida após a atualização dos planos.
   
 Se você tiver mais de uma assinatura antes de atualizar planos e tiver licenças atribuídas aos usuários para mais de uma assinatura, esse padrão de atribuição será mantido o máximo possível na nova assinatura.
   
-Todos os dados do usuário serão mantidos durante a atualização, incluindo caixas de correio do Exchange e documentos do SharePoint Online, listas e outras informações.
+Todos os dados do usuário serão mantidos durante a atualização, incluindo Exchange caixas de correio e SharePoint documentos online, listas e outras informações.
   
 ### <a name="billing"></a>Cobrança
 
@@ -165,4 +165,4 @@ No dia em que a atualização do plano for concluída, a cobrança em sua assina
 ## <a name="related-content"></a>Conteúdo relacionado
 
 [Alterar planos manualmente](change-plans-manually.md) (artigo)\
-[Fazer o back up de dados antes de alternar o Microsoft 365 para planos de negócios](back-up-data-before-switching-plans.md) (artigo)
+[Fazer o back up de dados antes de alternar Microsoft 365 para planos de negócios](back-up-data-before-switching-plans.md) (artigo)

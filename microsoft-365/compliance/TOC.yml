@@ -172,13 +172,11 @@
           href: office-365-service-encryption.md
         - name: Chave de Cliente
           items:
-            - name: Chave do cliente para Microsoft 365 no nível do locatário (visualização pública)
-              href: customer-key-tenant-level.md
-            - name: Criptografia de serviço com Chave de Cliente no Office 365
+            - name: Chave de Cliente no Microsoft 365
               href: customer-key-overview.md
-            - name: Configurar a Chave de Cliente do Office 365
+            - name: Configurar a Chave de Cliente do Microsoft 365
               href: customer-key-set-up.md
-            - name: Gerenciar Chave de Cliente do Office 365
+            - name: Gerenciar Chave de Cliente do Microsoft 365
               href: customer-key-manage.md
             - name: Rolar ou girar uma Chave de Cliente ou uma chave de disponibilidade
               href: customer-key-availability-key-roll.md

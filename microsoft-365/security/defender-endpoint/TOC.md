@@ -211,7 +211,7 @@
 #### [Visão geral](next-gen-threat-and-vuln-mgt.md)
 #### [Introdução]()
 ##### [Permissões e pré-requisitos](tvm-prerequisites.md)
-##### [Sistemas operacionais e plataformas com suporte](tvm-supported-os.md)
+##### [Plataformas e recursos de sistemas operacionais com suporte](tvm-supported-os.md)
 ##### [Atribuir valor ao dispositivo](tvm-assign-device-value.md)
 #### [Avaliar postura de segurança]()
 ##### [Painel de insights](tvm-dashboard-insights.md)

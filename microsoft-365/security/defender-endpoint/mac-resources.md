@@ -18,18 +18,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 34feeec0f8c34748678862b9aa7b20f84087eb5e
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 29e9eefdf85c80b6d3c44eba01d0df57be0193a4
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934520"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52346385"
 ---
 # <a name="resources-for-microsoft-defender-for-endpoint-on-macos"></a>Recursos para o Microsoft Defender para Ponto de Extremidade no macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
+
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -51,7 +52,7 @@ Se você puder reproduzir um problema, aumente o nível de registro em log, exec
 
 2. Reproduzir o problema
 
-3. Execute `sudo mdatp diagnostic create` para fazer o back up dos logs do Microsoft Defender para Pontos de Extremidade. Os arquivos serão armazenados dentro de um arquivo .zip. Esse comando também imprimirá o caminho do arquivo para o backup depois que a operação for bem-sucedida.
+3. Execute `sudo mdatp diagnostic create` para fazer o back up dos logs do Microsoft Defender para Pontos de Extremidade. Os arquivos serão armazenados dentro de um arquivo .zip arquivo morto. Esse comando também imprimirá o caminho do arquivo para o backup depois que a operação for bem-sucedida.
 
    > [!TIP]
    > Por padrão, os logs de diagnóstico são salvos em `/Library/Application Support/Microsoft/Defender/wdavdiag/` . Para alterar o diretório onde os logs de diagnóstico são salvos, passe para o `--path [directory]` comando abaixo, substituindo `[directory]` pelo diretório desejado.
@@ -59,6 +60,7 @@ Se você puder reproduzir um problema, aumente o nível de registro em log, exec
    ```bash
    sudo mdatp diagnostic create
    ```
+
    ```console
    Diagnostic file created: "/Library/Application Support/Microsoft/Defender/wdavdiag/932e68a8-8f2e-4ad0-a7f2-65eb97c0de01.zip"
    ```
@@ -68,6 +70,7 @@ Se você puder reproduzir um problema, aumente o nível de registro em log, exec
    ```bash
    mdatp log level set --level info
    ```
+
    ```console
    Log level configured successfully
    ```
@@ -80,7 +83,7 @@ O log detalhado será salvo em `/Library/Logs/Microsoft/mdatp/install.log` . Se 
 
 ## <a name="uninstalling"></a>Desinstalação
 
-Há várias maneiras de desinstalar o Microsoft Defender para o Ponto de Extremidade no macOS. Observe que, embora a desinstalação gerenciada centralmente está disponível no JAMF, ela ainda não está disponível para o Microsoft Intune.
+Há várias maneiras de desinstalar o Microsoft Defender para o Ponto de Extremidade no macOS. Observe que, embora a desinstalação gerenciada centralmente está disponível no JAMF, ela ainda não está disponível para Microsoft Intune.
 
 ### <a name="interactive-uninstallation"></a>Desinstalação interativa
 
@@ -88,14 +91,13 @@ Há várias maneiras de desinstalar o Microsoft Defender para o Ponto de Extremi
 
 ### <a name="from-the-command-line"></a>Da linha de comando
 
-- ```sudo rm -rf '/Applications/Microsoft Defender ATP.app'```
-- ```sudo rm -rf '/Library/Application Support/Microsoft/Defender/'```
+- ```sudo '/Library/Application Support/Microsoft/Defender/uninstall/uninstall'```
 
 ## <a name="configuring-from-the-command-line"></a>Configurando a partir da linha de comando
 
 Tarefas importantes, como controlar as configurações do produto e disparar verificações sob demanda, podem ser feitas a partir da linha de comando:
 
-|Group        |Cenário                                   |Comando                                                                           |
+|Grupo        |Cenário                                   |Comando                                                                           |
 |-------------|-------------------------------------------|----------------------------------------------------------------------------------|
 |Configuração|Ativar/desativar a proteção em tempo real           |`mdatp config real-time-protection --value [enabled/disabled]`                    |
 |Configuração|Ativar/desativar a proteção de nuvem               |`mdatp config cloud --value [enabled/disabled]`                                   |
@@ -108,8 +110,8 @@ Tarefas importantes, como controlar as configurações do produto e disparar ver
 |Configuração|Desativar a proteção PUA                    |`mdatp threat policy set --type potentially_unwanted_application -- action off`   |
 |Configuração|Ativar o modo de auditoria para proteção pua      |`mdatp threat policy set --type potentially_unwanted_application -- action audit` |
 |Configuração|Ativar/desativar passiveMode                    |`mdatp config passive-mode --value enabled [enabled/disabled]`                    |
-|Diagnóstico  |Alterar o nível de log                       |`mdatp log level set --level [error/warning/info/verbose]`                        |
-|Diagnóstico  |Gerar logs de diagnóstico                   |`mdatp diagnostic create --path [directory]`                                      |
+|Diagnostics  |Alterar o nível de log                       |`mdatp log level set --level [error/warning/info/verbose]`                        |
+|Diagnostics  |Gerar logs de diagnóstico                   |`mdatp diagnostic create --path [directory]`                                      |
 |Integridade       |Verificar a saúde do produto                 |`mdatp health`                                                                    |
 |Integridade       |Verifique se há um atributo de produto esefico       |`mdatp health --field [attribute: healthy/licensed/engine_version...]`            |
 |Proteção   |Examinar um caminho                                |`mdatp scan custom --path [path] [--ignore-exclusions]`                           |
@@ -117,7 +119,7 @@ Tarefas importantes, como controlar as configurações do produto e disparar ver
 |Proteção   |Fazer uma verificação completa                             |`mdatp scan full`                                                                 |
 |Proteção   |Cancelar uma verificação contínua sob demanda           |`mdatp scan cancel`                                                               |
 |Proteção   |Solicitar uma atualização de inteligência de segurança     |`mdatp definitions update`                                                        |
-|EDR          |Adicione a marca de grupo ao dispositivo. As marcas EDR são usadas para gerenciar grupos de dispositivos. Para obter mais informações, visite https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups |`mdatp edr tag set --name GROUP --value [name]` |
+|EDR          |Adicione a marca de grupo ao dispositivo. EDR marcas são usadas para gerenciar grupos de dispositivos. Para obter mais informações, visite https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups |`mdatp edr tag set --name GROUP --value [name]` |
 |EDR          |Remover a marca de grupo do dispositivo               |`mdatp edr tag remove --tag-name [name]`                                          |
 |EDR          |Adicionar ID de Grupo                               |`mdatp edr group-ids --group-id [group]`                                          |
 
@@ -158,4 +160,4 @@ Para habilitar a comcompleção automática em zsh:
 
 ## <a name="microsoft-defender-for-endpoint-portal-information"></a>Informações do portal do Microsoft Defender para Ponto de Extremidade
 
-Os recursos de EDR para [macOS](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/edr-capabilities-for-macos-have-now-arrived/ba-p/1047801)chegaram , no blog do Microsoft Defender for Endpoint, fornece orientações detalhadas sobre o que esperar no Centro de Segurança do Microsoft Defender para Ponto de Extremidade.
+EDR recursos para [macOS](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/edr-capabilities-for-macos-have-now-arrived/ba-p/1047801)chegaram , no blog do Microsoft Defender para Ponto de Extremidade, fornece orientações detalhadas sobre o que esperar no Centro de Segurança do Microsoft Defender para Ponto de Extremidade.

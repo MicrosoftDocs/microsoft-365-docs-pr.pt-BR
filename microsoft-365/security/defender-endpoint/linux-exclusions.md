@@ -17,19 +17,19 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8e861055067a55630da458e87b7376a607dc69c4
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: bd506caa041af2585778fb3ecd7a40562463b17e
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934292"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52346409"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-linux"></a>Configurar e validar exclusões do Microsoft Defender para Ponto de Extremidade no Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-
 **Aplica-se a:**
+
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -38,7 +38,7 @@ ms.locfileid: "51934292"
 Este artigo fornece informações sobre como definir exclusões que se aplicam a verificações sob demanda e proteção e monitoramento em tempo real.
 
 > [!IMPORTANT]
-> As exclusões descritas neste artigo não se aplicam a outros recursos do Defender for Endpoint no Linux, incluindo a detecção e a resposta do ponto de extremidade (EDR). Os arquivos excluídos usando os métodos descritos neste artigo ainda podem disparar alertas de EDR e outras detecções.
+> As exclusões descritas neste artigo não se aplicam a outros Recursos do Defender para Ponto de Extremidade no Linux, incluindo detecção e resposta de ponto de extremidade (EDR). Os arquivos que você excluir usando os métodos descritos neste artigo ainda podem disparar EDR alertas e outras detecções.
 
 Você pode excluir determinados arquivos, pastas, processos e arquivos abertos por processo do Defender para Ponto de Extremidade em verificações do Linux.
 
@@ -55,7 +55,7 @@ Exclusão | Definição | Exemplos
 ---|---|---
 Extensão de arquivo | Todos os arquivos com a extensão, em qualquer lugar do dispositivo | `.test`
 File | Um arquivo específico identificado pelo caminho completo | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`
-Folder | Todos os arquivos na pasta especificada (recursivamente) | `/var/log/`<br/>`/var/*/`
+Pasta | Todos os arquivos na pasta especificada (recursivamente) | `/var/log/`<br/>`/var/*/`
 Processo | Um processo específico (especificado pelo caminho completo ou nome do arquivo) e todos os arquivos abertos por ele | `/bin/cat`<br/>`cat`<br/>`c?t`
 
 > [!IMPORTANT]

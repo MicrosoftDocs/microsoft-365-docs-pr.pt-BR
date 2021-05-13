@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 136e7cba26d55676fdf3b3b7f0f9ef967e7d7991
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 1928e381e861f993d171462833b8807b69dea515
+ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245823"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52470671"
 ---
 # <a name="get-expert-training-on-advanced-hunting"></a>Obter treinamento especializado em busca avançada
 
@@ -84,7 +84,7 @@ DeviceLogonEvents
 // - Network information (for network logons)
 // - Timestamp
 
-AppFileEvents
+CloudAppEvents
 | take 100
 | sort by Timestamp desc
 ```

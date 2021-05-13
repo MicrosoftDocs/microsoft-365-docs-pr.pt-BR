@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Saiba como reativar sua assinatura quando ela expirar, estiver desabilitada ou cancelada.
 ms.date: 04/07/2021
-ms.openlocfilehash: 7f77a9782e9028521cbcefbdbffc49bc28db8e9c
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 902be48b32acdff5173a0dd5cc84dbd5972e1ba9
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333165"
+ms.locfileid: "52345137"
 ---
 # <a name="reactivate-your-subscription"></a>Reativar sua assinatura
 
@@ -65,6 +65,6 @@ Você deve ser um administrador Global ou cobrança para reativar uma assinatura
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Experimente ou compre uma assinatura do Microsoft 365 para empresas](../try-or-buy-microsoft-365.md) (artigo)\
+[Experimente ou compre uma assinatura Microsoft 365 para empresas](../try-or-buy-microsoft-365.md) (artigo)\
 [Renovar o Microsoft 365 para empresas](renew-your-subscription.md) (artigo)\
 [Cancelar sua assinatura](cancel-your-subscription.md) (artigo)

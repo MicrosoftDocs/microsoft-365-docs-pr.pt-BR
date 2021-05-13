@@ -42,6 +42,8 @@
       href: topic-experiences-security-trimming.md
     - name: Pesquisar marcas
       href: search.md
+    - name: Gerenciar tópicos em escala
+      href: scale-topics.md
 - name: Adoção
   items:
     - name: Começar a impulsionar a adoção

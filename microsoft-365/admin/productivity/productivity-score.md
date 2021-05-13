@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Visão geral da pontuação de produtividade da Microsoft.
-ms.openlocfilehash: 0eac22eadd099ebe4c7efbdf1198f6dc576dc080
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: 1d5e163e6ec8a394065c09e51879582d101a75bf
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876126"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52345233"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft Productivity Score 
 
@@ -63,7 +63,7 @@ Sua Pontuação de Produtividade é baseada na pontuação combinada de seu pess
 - Integridade dos Microsoft 365 Apps (100 pontos)
 - **Total possível = 800 pontos**
  
- Em cada categoria de pontuação, quantificamos os principais indicadores de como sua organização está usando o Microsoft 365 na jornada da transformação digital. Fornecemos uma visão de 28 e 180 dias das principais atividades. Também fornecemos métricas de suporte que não fazem parte do cálculo da pontuação, mas são importantes para ajudá-lo a identificar estatísticas de uso e configurações subjacentes que você pode resolver.
+Em cada categoria de pontuação, quantificamos os principais indicadores de como sua organização está usando o Microsoft 365 na jornada da transformação digital. Fornecemos uma visão de 28 e 180 dias das principais atividades. Também fornecemos métricas de suporte que não fazem parte do cálculo da pontuação, mas são importantes para ajudá-lo a identificar estatísticas de uso e configurações subjacentes que você pode resolver.
 
 ### <a name="products-included-in-productivity-score"></a>Produtos incluídos na Pontuação de Produtividade 
 
@@ -74,7 +74,7 @@ A pontuação da sua organização é atualizada diariamente e reflete as açõe
 
 ## <a name="prerequisites"></a>Pré-requisitos 
 
-Para pessoas com dados de experiência, você precisa de uma assinatura do Microsoft 365 para negócios ou Office 365 corporativo. Para dados de análise de ponto de extremidade do seu locatário, você precisa adicionar o Microsoft Intune à sua assinatura. O Intune ajuda você a proteger os dados da sua organização gerenciando dispositivos e aplicativos. Uma vez que você tenha o Intune, você pode ativar a análise do ponto de extremidade dentro da experiência do Intune. Saiba mais sobre o [Microsoft Intune](/mem/intune/). 
+Para pessoas com dados de experiência, você precisa de uma assinatura do Microsoft 365 para negócios ou Office 365 corporativo. Para dados de análise de ponto de extremidade do seu locatário, você precisa adicionar o Microsoft Intune à sua assinatura. O Intune ajuda a proteger os dados da sua organização gerenciando dispositivos e aplicativos. Uma vez que você tenha o Intune, você pode ativar a análise do ponto de extremidade dentro da experiência do Intune. Para saber mais sobre Microsoft Intune, consulte a documentação [Microsoft Intune](/mem/intune/). 
 
 > [!NOTE]
 > Uma licença para Microsoft Workplace Analytics não é necessária para obter os recursos de Pontuação de Produtividade..
@@ -107,7 +107,10 @@ A página inicial da Pontuação de Produtividade mostra sua pontuação total e
 
 **A pontuação da sua pontuação** é mostrada como um valor percentual e em pontos. Você pode ver seus pontos no numerador e o máximo de pontos possíveis no denominador.
 
-**Os parâmetros de comparação pares** permitem que você compare a pontuação da sua organização com a de organizações como a sua. O parâmetro de referência para as categorias de experiências pessoais é calculado como a média de medidas dentro de um conjunto de organizações similares. O conjunto de organizações é composto por organizações da sua região com um número similar de usuários licenciados, tipos de licenças, indústria e durção da assinatura com o Microsoft 365. 
+**Os parâmetros de comparação pares** permitem que você compare a pontuação da sua organização com a de organizações como a sua. O parâmetro de referência para as categorias de experiências pessoais é calculado como a média de medidas dentro de um conjunto de organizações similares. O conjunto de organizações é composto por organizações da sua região com um número similar de usuários licenciados, tipos de licenças, indústria e durção da assinatura com o Microsoft 365.
+
+> [!NOTE]
+> A Microsoft utiliza dados internos para determinar o setor para o qual uma organização está direcionada. Os locatários de uma organização primária são mapeados para o mesmo setor da organização primária. As organizações não podem visualizar ou modificar os mapeamentos do setor.
 
 O parâmetros de comparação de análise de pontos de terminal inclui metas de desempenho de inicialização do dispositivo e configuração de software recomendada com base em valores medianos agregados em todos os locatários.
 
@@ -158,8 +161,6 @@ Compartilhe seus pensamentos sobre a Pontuação de Produtividade e suas ideias 
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Monitorar a atividade do Microsoft 365 usando relatórios](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports) (artigo)
-
-[Habilitar a análise de uso do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/enable-usage-analytics) (artigo)
-
-[Visão geral do Centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview) (vídeo)
+[Monitorar a atividade do Microsoft 365 usando relatórios](/microsoft-365/admin/activity-reports/activity-reports) (artigo)\
+[Habilitar análise de uso do Microsoft 365](/microsoft-365/admin/usage-analytics/enable-usage-analytics) (artigo)\
+[Visão geral do Centro de administração do Microsoft 365](/microsoft-365/business-video/admin-center-overview) (vídeo)
