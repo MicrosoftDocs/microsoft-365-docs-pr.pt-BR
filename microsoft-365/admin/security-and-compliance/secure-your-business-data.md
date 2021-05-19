@@ -22,27 +22,20 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Proteja seus emails e dados de negócios contra ameaças cibernéticas, incluindo ransomware, phishing e anexos mal-intencionados. '
-ms.openlocfilehash: c20b0d070c4c4ca28ee681e560c4a91c412241fc
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: dcaeb9588f50d1e12bdff5164f5f41a0beee2e47
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244534"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535873"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Top 10 maneiras de proteger Microsoft 365 para planos de negócios
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Se você for uma organização de pequeno ou médio porte usando um dos planos de negócios da Microsoft e seu tipo de organização for direcionado por criminosos cibernéticos e hackers, use as diretrizes neste artigo para aumentar a segurança da sua organização. Essas diretrizes ajudam sua organização a atingir as metas descritas no Manual da Campanha de [Segurança Cibernética](https://go.microsoft.com/fwlink/p/?linkid=2015598)da Escola De Harvard.
 
 A Microsoft recomenda que você conclua as tarefas listadas na tabela a seguir que se aplicam ao seu plano de serviço.
 
-||Tarefas|Microsoft 365 Business Standard|Microsoft 365 Business Premium|
+||Tarefa|Microsoft 365 Business Standard|Microsoft 365 Business Premium|
 |---|---|---|---|
 |1|[Configurar autenticações multifatoriais](secure-your-business-data.md#setup)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |2|[Treinar os usuários](secure-your-business-data.md#train)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -55,9 +48,9 @@ A Microsoft recomenda que você conclua as tarefas listadas na tabela a seguir q
 |9 |[Proteger contra anexos e arquivos mal-intencionados com Cofre Anexos](secure-your-business-data.md#atp)||![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |10 |[Proteger contra ataques de phishing com Cofre Links](secure-your-business-data.md#phishingatp)||![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 
-Se você tiver o Microsoft Business Premium, a maneira mais rápida de configurar a segurança e começar a colaborar com segurança é seguir as diretrizes nesta biblioteca: Microsoft 365 para empresas e [campanhas](../../campaigns/index.md)menores. Essa orientação foi desenvolvida em parceria com a equipe do Microsoft Defending Democracy para proteger todos os clientes de pequenas empresas contra ameaças cibernéticas lançadas por hackers sofisticados.
+Se você tem o Microsoft Business Premium, a maneira mais rápida para configurar a segurança e iniciar a colaborar com segurança é seguir as orientações nesta biblioteca:[Microsoft 365 para pequenas empresas e campanhas](../../campaigns/index.md). Essa diretriz foi criada em parceria com a equipe do Microsoft Defendering Democracy para proteger todos os clientes de pequenas empresas contra ameaças cibernéticas iniciadas por hackers sofisticados.
 
-Antes de começar, verifique sua [Microsoft 365 Pontuação Segura](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-secure-score) no centro Microsoft 365 segurança. Em um painel centralizado, você pode monitorar e melhorar a segurança de suas identidades Microsoft 365, dados, aplicativos, dispositivos e infraestrutura. Você recebe pontos para configurar recursos de segurança recomendados, executar tarefas relacionadas à segurança (como exibir relatórios) ou endereçamento de recomendações com um aplicativo ou software de terceiros. Com informações adicionais e mais visibilidade sobre um conjunto mais amplo de produtos e serviços da Microsoft, você pode sentir relatórios confiantes sobre a saúde de segurança da sua organização.
+Antes de começar, verifique sua [Microsoft 365 Pontuação Segura](../../security/defender/microsoft-secure-score.md) no centro Microsoft 365 segurança. Em um painel centralizado, você pode monitorar e melhorar a segurança de suas identidades Microsoft 365, dados, aplicativos, dispositivos e infraestrutura. Você recebe pontos para configurar recursos de segurança recomendados, executar tarefas relacionadas à segurança (como exibir relatórios) ou endereçamento de recomendações com um aplicativo ou software de terceiros. Com informações adicionais e mais visibilidade sobre um conjunto mais amplo de produtos e serviços da Microsoft, você pode sentir relatórios confiantes sobre a saúde de segurança da sua organização.
 
 ![Captura de tela da Pontuação Segura da Microsoft](../../media/secure-score.png)
 
@@ -172,7 +165,7 @@ Para criar uma regra de transporte de email, veja um [vídeo de](../../business-
 > [!TIP]
 > Você também pode adicionar os arquivos que deseja bloquear à lista Anti-malware na [etapa 4](#4-raise-the-level-of-protection-against-malware-in-mail).
 
-Para saber mais, veja:
+Para mais informações, confira:
 
 - [Ransomware: como reduzir o risco](https://www.microsoft.com/security/blog/2020/04/28/ransomware-groups-continue-to-target-healthcare-critical-services-heres-how-to-reduce-risk/)
 

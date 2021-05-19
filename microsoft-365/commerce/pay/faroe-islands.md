@@ -1,23 +1,24 @@
 ---
 title: Informações de pagamento para ilhas Faroe
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0972d9912d7eb56c0fcb2e83a040a679a7b16eb4
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: a4d2db1ce27d6da9ba32baa2f646ea0872c2636f
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273819"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535537"
 ---
 # <a name="payment-information-for-faroe-islands"></a>Informações de pagamento para ilhas Faroe
 
@@ -32,4 +33,4 @@ Por favor, pague somente em EUR e faça referência aos números da fatura em su
 **IBAN:** GB31CITI18500812207591  
 **Código SORT:** 185008  
 **Número da conta:** 12207591  
-**Nome da conta:** MICROSOFT  
+**Nome da conta:** MICROSOFT

@@ -1,5 +1,5 @@
 ---
-title: Gerenciar contas de cobrança
+title: Compreender contas de cobrança
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -17,22 +17,22 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
 search.appverid: MET150
-description: Saiba mais sobre contas de cobrança e como gerenciá-las.
+description: Saiba mais sobre contas de cobrança e como elas são usadas para gerenciar configurações de conta, faturas, métodos de pagamento e compras.
 ms.date: 03/17/2021
-ms.openlocfilehash: 05ab759f300cb7fa6b02e06714d7d98e64890be8
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 1eb01ace2fe8b84b813793168cb50db2508b4ebb
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331593"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535633"
 ---
-# <a name="manage-billing-accounts"></a>Gerenciar contas de cobrança
+# <a name="understand-billing-accounts"></a>Compreender contas de cobrança
 
-Uma conta de cobrança é criada ao se inscrever para tentar ou comprar produtos da Microsoft. Use sua conta de cobrança para gerenciar suas configurações de conta, faturas, métodos de pagamento e compras. Você pode ter acesso a várias contas de cobrança. Por exemplo, você se inscreveu diretamente no Microsoft 365 ou tem acesso ao contrato de serviços de Contrato Enterprise da sua organização, Contrato de Serviços de & Produtos da Microsoft ou Contrato de Cliente da Microsoft. Para cada um desses cenários, você teria uma conta de cobrança separada.
+Uma conta de cobrança é criada ao se inscrever para tentar ou comprar produtos da Microsoft. Use sua conta de cobrança para gerenciar suas configurações de conta, faturas, métodos de pagamento e compras. Você pode ter acesso a várias contas de cobrança. Por exemplo, você se inscreveu Microsoft 365 diretamente, ou tem acesso ao contrato de Enterprise Agreement da sua organização, ao Contrato de Serviços de & produtos da Microsoft ou ao Contrato de Cliente da Microsoft. Para cada um desses cenários, você teria uma conta de cobrança separada.
 
-O Centro de administração do Microsoft 365 atualmente dá suporte ao seguinte tipo de contas de cobrança:
+O Microsoft 365 de administração atualmente dá suporte ao seguinte tipo de contas de cobrança:
 
-- Microsoft Online Services Programa: essa conta de cobrança é criada quando você se ins inscrever para uma assinatura do Microsoft 365 diretamente.
+- Microsoft Online Services Programa: essa conta de cobrança é criada quando você se ins inscrever para uma assinatura Microsoft 365 diretamente.
 - Programa MpSA (Contrato de Serviços de &) da Microsoft Products: essa conta de cobrança é criada quando sua organização assina um contrato de Licenciamento por Volume MPSA para comprar software e serviços online.
 - Contrato de Cliente da Microsoft: essa conta de cobrança é criada quando sua organização trabalha com um representante da Microsoft, um parceiro autorizado ou compras independentemente.
 
@@ -67,14 +67,14 @@ Esta seção lista os endereços de envio associados à sua conta de cobrança. 
 
 ## <a name="understand-access-to-billing-accounts"></a>Entender o acesso a contas de cobrança
 
-Você pode fornecer a outras pessoas acesso à conta de cobrança no Centro de administração do Microsoft 365 por meio de funções e permissões. Somente um proprietário de conta de cobrança pode conceder acesso a uma conta de cobrança. Você pode atribuir uma das seguintes funções aos usuários:
+Você pode fornecer a outras pessoas acesso à conta de cobrança no centro de administração Microsoft 365 por meio de funções e permissões. Somente um proprietário de conta de cobrança pode conceder acesso a uma conta de cobrança. Você pode atribuir uma das seguintes funções aos usuários:
 
 - **Proprietário da conta de cobrança** &mdash; Pode atribuir permissões, editar contas, assinar contratos e exibir contas.
 - **Colaborador da conta de cobrança** &mdash; Pode editar contas, assinar contratos e exibir contas.
 - **Leitor de contas de cobrança** &mdash; Pode exibir contas.
 
 > [!Note]
-> As funções de conta de cobrança só se aplicam a contas de cobrança e não se aplicam a outros cenários do Centro de administração do Microsoft 365.
+> As funções de conta de cobrança só se aplicam a contas de cobrança e não se aplicam a outros cenários Microsoft 365 centro de administração.
 
 ## <a name="related-content"></a>Conteúdo relacionado
 

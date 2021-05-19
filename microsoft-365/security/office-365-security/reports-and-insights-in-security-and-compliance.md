@@ -19,12 +19,12 @@ description: Saiba mais sobre os relatórios inteligentes e & informações disp
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8e945cd3e3ba3dd0a80214e032c420bf7ecad18e
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 2ece53bd0b857fb00e394982f6e3b4c8c81d8b83
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274419"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52530869"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>Relatórios inteligentes e insights no Centro de Conformidade e Segurança
 
@@ -39,7 +39,7 @@ Se você faz parte da equipe de segurança do Microsoft for 365 para empresas da
 
 ## <a name="smart-reports-and-insights-overview"></a>Visão geral de relatórios e insights inteligentes
 
-Os recursos de monitoramento disponíveis no Centro de Conformidade e Segurança & incluem relatórios inteligentes e insights que permitem que seus administradores de segurança e conformidade se concentrem em problemas de alta prioridade, como ataques de segurança ou aumento de atividades suspeitas. Em um painel, relatórios inteligentes e percepções se parecem com a seguinte imagem:
+Os recursos de monitoramento disponíveis no Centro de Conformidade e Segurança & incluem relatórios inteligentes e insights que permitem que os administradores de conformidade e segurança se concentrem em problemas de alta prioridade, como ataques de segurança ou aumento de atividades suspeitas. Em um painel, relatórios inteligentes e percepções se parecem com a seguinte imagem:
 
 ![O painel Relatórios no Centro de Conformidade & Segurança](../../media/2a668c3d-3fa3-4e37-8149-46989b33ae8c.png)
 
@@ -49,9 +49,11 @@ Além de destacar áreas de problemas, relatórios inteligentes e insights inclu
 
 Uma ampla variedade de relatórios estão disponíveis no Centro de Conformidade & Segurança. (Vá para **Relatórios** \> **Painel** para obter uma exibição all-up.) A tabela a seguir lista relatórios disponíveis com links para saber mais:
 
+<br>
+
 ****
 
-|Tipo de informação|Como chegar lá|Onde ir para saber mais| 
+|Tipo de informação|Como chegar lá|Onde ir para saber mais|
 |---|---|---|
 |**Relatórios & Centro de Conformidade** (todos para cima) <p> Principais percepções e recomendações e links para relatórios de Conformidade & segurança, incluindo relatórios de prevenção contra perda de dados, rótulos, relatórios de segurança de email, relatórios do Defender para Office 365 e muito mais|No Centro de Conformidade & segurança, vá para Painel **de** \> **Relatórios**|[Monitorar e exibir relatórios no centro Microsoft 365 segurança](../defender/overview-security-center.md)|
 |**Prevenção contra perda de dados** <p> Correspondência de políticas de prevenção contra perda de dados, falsos positivos e substituições e links para criar ou editar políticas|No Centro de Conformidade & segurança, vá para **Política de prevenção contra perda de** \> **dados**|[Exibir os relatórios de prevenção contra perda de dados](../../compliance/view-the-dlp-reports.md)|

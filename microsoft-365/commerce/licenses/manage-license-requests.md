@@ -20,17 +20,17 @@ ms.custom:
 search.appverid: MET150
 description: Saiba como revisar e aprovar ou negar solicitações de licença de usuários para sua assinatura Microsoft 365 para empresas.
 ms.date: 08/07/2020
-ms.openlocfilehash: 06ee210b39c19c1f2c8a2041c463568e55001b6e
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 6cbfd81f4f6deba642729f1fef0b826b07a99f56
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331545"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535669"
 ---
 # <a name="manage-license-requests"></a>Gerenciar solicitações de licença
 
 > [!NOTE]
-> As informações neste artigo só se aplica a produtos comprados por autoatendados. Para saber mais, confira Perguntas frequentes sobre [compra de autoatend.](../subscriptions/self-service-purchase-faq.md)
+> As informações neste artigo só se aplica a produtos comprados por autoatendados. Para saber mais, confira Perguntas frequentes sobre [compra de autoatend.](../subscriptions/self-service-purchase-faq.yml)
 
 Se você desabilitar as compras de autoatendito em sua organização, poderá usar solicitações de licença para gerenciar o processo de solicitação de licença para seus usuários. Quando um usuário tenta fazer uma compra de autoatendito para um produto que você bloqueou, ele pode enviar uma solicitação para uma licença para você, o administrador. Quando eles fazem uma solicitação, eles podem adicionar os nomes de outros usuários que também precisam de licenças para o produto.
 

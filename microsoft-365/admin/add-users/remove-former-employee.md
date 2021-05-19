@@ -24,41 +24,29 @@ search.appverid:
 - MET150
 - MOE150
 description: Siga as etapas nesta solução para remover um ex-funcionário do Microsoft 365 e proteger os dados da sua organização.
-ms.openlocfilehash: 4b4cf59fdce81b3098ee333095daa8e1af1cd5c5
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 79baf5cbd94d555c1dff1859f5045cde3dbcfdc0
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52241731"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535897"
 ---
 # <a name="overview-remove-a-former-employee-and-secure-data"></a>Visão geral: remover um ex-funcionário e proteger dados
 
 Uma pergunta que muitas vezes fazemos é: "O que devo fazer para proteger os dados e proteger o acesso quando um funcionário sai da minha organização?" Esta série de artigos explica como bloquear o acesso ao Microsoft 365, as etapas que você deve seguir para proteger seus dados e como permitir que outros funcionários acessem os dados.
 
-Assista a um breve vídeo sobre como remover um funcionário. <br><br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR] 
-
-Se você achou este vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades para o Microsoft 365](../../business-video/index.yml).
-
-Para impedir que um funcionário entre em log:
-
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
-2. Selecione a caixa ao lado do nome do usuário e selecione **Redefinir senha**.
-3. Insira uma nova senha e selecione **Redefinir**. (Não envie para eles.)
-4. Selecione o nome do usuário para ir para o  painel de propriedades e, na guia Conta, selecione **Iniciar saída**.
-
-> [!NOTE]
-> Você precisa ser um administrador global para iniciar a saída.
-
-Dentro de uma hora - ou depois de sair da página Microsoft 365 atual em que estão - eles são solicitados a entrar novamente. Um token de acesso é bom para uma hora, portanto, a linha do tempo depende de quanto tempo resta nesse token e se eles navegam para fora de sua página da Web atual.
-
-> [!IMPORTANT]
-> Embora nós numeramos as etapas desta solução e você não precisa concluir a solução usando a ordem exata, recomendamos fazer as etapas dessa maneira.
+:::image type="content" source="../../media/delete-user-overview.png" alt-text="Captura de tela: etapas de visão geral para remover um ex-funcionário":::
 
 ## <a name="before-you-begin"></a>Antes de começar
 
 Você precisa ser um administrador global para concluir as etapas nesta solução.
+
+## <a name="solution-remove-a-former-employee"></a>Solução: Remover um ex-funcionário
+
+> [!IMPORTANT]
+> Embora nós numeramos as etapas desta solução e você não precisa concluir a solução usando a ordem exata, recomendamos fazer as etapas dessa maneira.
+
+:::image type="content" source="../../media/delete-user-account.png" alt-text="Captura de tela: etapas para remover um ex-funcionário de sua organização":::
 
 |||
 |:-----|:-----|

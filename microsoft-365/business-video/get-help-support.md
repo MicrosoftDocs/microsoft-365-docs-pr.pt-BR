@@ -18,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como obter ajuda ou suporte administrativo no Microsoft 365 Business Premium.
-ms.openlocfilehash: 8db4f7675f96bac2157c9c0f93ab506c8a39e1bb
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
-ms.translationtype: HT
+description: Você deve ser um administrador de uma assinatura comercial para obter ajuda de administrador ou suporte online ou por telefone Microsoft 365 Business Premium.
+ms.openlocfilehash: e6308a9728731052d540cf3e872b6e153b64aae2
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327181"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535705"
 ---
 # <a name="get-support"></a>Obter suporte
 
@@ -252,3 +252,12 @@ As opções de suporte assistido são apenas para administradores de organizaç�
 Você também pode [pesquisar nos fóruns de comunidade do Microsoft 365 para pequenos e médios negócios](https://go.microsoft.com/fwlink/p/?LinkId=518605) para tomar conhecimento dos problemas detectados e dos tópicos mais populares ou postar uma nova pergunta. Os fóruns da comunidade são monitorados por agentes de suporte treinados da Microsoft que podem ajudar a resolver seu problema.
 
 ::: moniker-end
+
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Encontre documentos e treinamento](find-help-answers.md) (artigo)
+
+[Configuração rápida do funcionário](employee-quick-setup.md) (artigo)
+
+[Visão geral da Microsoft 365 Business Premium](setup-overview.md) (vídeo)

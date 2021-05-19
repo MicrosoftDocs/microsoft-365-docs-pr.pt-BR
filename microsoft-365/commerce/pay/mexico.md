@@ -1,23 +1,24 @@
 ---
 title: Informações de pagamento para o México
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 71762b16925a21238894af7d241e4f1ed112cbdd
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 5300552fdd2b33986c96ad5f59e827e3e309ca47
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244679"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535417"
 ---
 # <a name="payment-information-by-deposit-or-electronic-transfer-only-for-mexico"></a>Informações de pagamento por depósito ou transferência eletrônica (somente para o México)
 

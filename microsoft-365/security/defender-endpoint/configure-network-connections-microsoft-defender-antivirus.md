@@ -11,17 +11,17 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 12/28/2020
+ms.date: 05/17/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 8c049a7301cc651dbf2621d0baa398117856b925
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 5e754c2f4b5406d4b91ef624415f3819d3171305
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274635"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536017"
 ---
 # <a name="configure-and-validate-microsoft-defender-antivirus-network-connections"></a>Configurar e validar as conexões de rede do Microsoft Defender Antivírus
 
@@ -32,25 +32,23 @@ ms.locfileid: "52274635"
 
 - [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
 
-Para garantir Microsoft Defender Antivírus proteção entregue na nuvem funcione corretamente, você precisa configurar sua rede para permitir conexões entre seus pontos de extremidade e determinados servidores Microsoft.
-
-Este artigo lista as conexões que devem ser permitidas, como o uso de regras de firewall, e fornece instruções para validar sua conexão. Configurar sua proteção corretamente ajuda a garantir que você receba o melhor valor de seus serviços de proteção entregues na nuvem.
+Para garantir Microsoft Defender Antivírus proteção entregue na nuvem funcione corretamente, você precisa configurar sua rede para permitir conexões entre seus pontos de extremidade e determinados servidores Microsoft. Este artigo lista as conexões que devem ser permitidas, como o uso de regras de firewall, e fornece instruções para validar sua conexão. Configurar sua proteção corretamente ajuda a garantir que você receba o melhor valor de seus serviços de proteção entregues na nuvem.
 
 Consulte a postagem do blog Alterações importantes no ponto de extremidade [do Microsoft Active Protection Services](https://techcommunity.microsoft.com/t5/Configuration-Manager-Archive/Important-changes-to-Microsoft-Active-Protection-Service-MAPS/ba-p/274006) para obter alguns detalhes sobre a conectividade de rede.
 
->[!TIP]
->Você também pode visitar o site de demonstração do Microsoft Defender para Ponto de Extremidade [no demo.wd.microsoft.com](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) para confirmar que os seguintes recursos estão funcionando:
+> [!TIP]
+> Você também pode visitar o site de demonstração do Microsoft Defender para Ponto de Extremidade [no demo.wd.microsoft.com](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) para confirmar que os seguintes recursos estão funcionando:
 >
->- Proteção fornecida na nuvem
->- Aprendizado rápido (incluindo bloquear à primeira vista)
->- Bloqueio de aplicativo potencialmente indesejado
+> - Proteção fornecida na nuvem
+> - Aprendizado rápido (incluindo bloquear à primeira vista)
+> - Bloqueio de aplicativo potencialmente indesejado
 
 ## <a name="allow-connections-to-the-microsoft-defender-antivirus-cloud-service"></a>Permitir conexões com o serviço Microsoft Defender Antivírus nuvem
 
 O Microsoft Defender Antivírus de nuvem oferece proteção rápida e forte para seus pontos de extremidade. A habilitação do serviço de proteção entregue na nuvem é opcional, no entanto, é altamente recomendável porque fornece proteção importante contra malware em seus pontos de extremidade e em toda a sua rede.
 
->[!NOTE]
->O Microsoft Defender Antivírus de nuvem é um mecanismo para fornecer proteção atualizada para sua rede e pontos de extremidade. Embora seja chamado de serviço de nuvem, ele não é simplesmente proteção para arquivos armazenados na nuvem, em vez disso, usa recursos distribuídos e aprendizado de máquina para fornecer proteção aos seus pontos de extremidade em uma taxa muito mais rápida do que as atualizações tradicionais de inteligência de segurança.
+> [!NOTE]
+> O Microsoft Defender Antivírus de nuvem é um mecanismo para fornecer proteção atualizada para sua rede e pontos de extremidade. Embora seja chamado de serviço de nuvem, ele não é simplesmente proteção para arquivos armazenados na nuvem, em vez disso, usa recursos distribuídos e aprendizado de máquina para fornecer proteção aos seus pontos de extremidade em uma taxa muito mais rápida do que as atualizações tradicionais de inteligência de segurança.
 
 Consulte [Habilitar](enable-cloud-protection-microsoft-defender-antivirus.md) a proteção entregue na nuvem para obter detalhes sobre como habilitar o serviço com o Intune, Microsoft Endpoint Configuration Manager, Política de Grupo, cmdlets do PowerShell ou em clientes individuais no aplicativo Segurança do Windows. 
 
@@ -65,7 +63,7 @@ A tabela a seguir lista os serviços e suas URLs associadas. Certifique-se de qu
 | :--: | :-- | :-- |
 | Microsoft Defender Antivírus serviço de proteção entregue na nuvem, também conhecido como Microsoft Active Protection Service (MAPS)|Usado pela Microsoft Defender Antivírus para fornecer proteção entregue na nuvem|`*.wdcp.microsoft.com` <br/> `*.wdcpalt.microsoft.com` <br/> `*.wd.microsoft.com`|
 | Serviço de Atualização da Microsoft (MU) <br/> Windows Serviço de Atualização (WU)|  Inteligência de segurança e atualizações de produtos   |`*.update.microsoft.com` <br/> `*.delivery.mp.microsoft.com`<br/> `*.windowsupdate.com` <br/><br/> Para obter detalhes, [consulte Pontos de extremidade de conexão para Windows Update](/windows/privacy/manage-windows-1709-endpoints#windows-update)|
-|Atualizações de inteligência de segurança Local de Download Alternativo (ADL)|   Local alternativo para Microsoft Defender Antivírus atualizações de inteligência de segurança se a inteligência de segurança instalada estiver desa data (7 ou mais dias depois)|    `*.download.microsoft.com`  </br> `*.download.windowsupdate.com`</br> `https://fe3cr.delivery.mp.microsoft.com/ClientWebService/client.asmx`|
+|Atualizações de inteligência de segurança Local de Download Alternativo (ADL)|   Local alternativo para Microsoft Defender Antivírus atualizações de inteligência de segurança se a inteligência de segurança instalada estiver desa data (7 ou mais dias depois)|    `*.download.microsoft.com`  </br> `*.download.windowsupdate.com`</br>  `go.microsoft.com`</br> `https://fe3cr.delivery.mp.microsoft.com/ClientWebService/client.asmx`|
 | Armazenamento de envio de malware|Upload local para arquivos enviados à Microsoft por meio do formulário de envio ou envio automático de amostra    | `ussus1eastprod.blob.core.windows.net` <br/>    `ussus2eastprod.blob.core.windows.net` <br/>    `ussus3eastprod.blob.core.windows.net` <br/>    `ussus4eastprod.blob.core.windows.net` <br/>    `wsus1eastprod.blob.core.windows.net` <br/>    `wsus2eastprod.blob.core.windows.net` <br/>    `ussus1westprod.blob.core.windows.net` <br/>    `ussus2westprod.blob.core.windows.net` <br/>    `ussus3westprod.blob.core.windows.net` <br/>    `ussus4westprod.blob.core.windows.net` <br/>    `wsus1westprod.blob.core.windows.net` <br/>    `wsus2westprod.blob.core.windows.net` <br/>    `usseu1northprod.blob.core.windows.net` <br/>    `wseu1northprod.blob.core.windows.net` <br/>    `usseu1westprod.blob.core.windows.net` <br/>    `wseu1westprod.blob.core.windows.net` <br/>    `ussuk1southprod.blob.core.windows.net` <br/>    `wsuk1southprod.blob.core.windows.net` <br/>    `ussuk1westprod.blob.core.windows.net` <br/>    `wsuk1westprod.blob.core.windows.net` |
 | Lista de Revogação de Certificados (CRL)|Usado por Windows ao criar a conexão SSL com o MAPS para atualizar a CRL   | `http://www.microsoft.com/pkiops/crl/` <br/> `http://www.microsoft.com/pkiops/certs` <br/>   `http://crl.microsoft.com/pki/crl/products` <br/> `http://www.microsoft.com/pki/certs` |
 | Loja de Símbolos|Usado pelo Microsoft Defender Antivírus para restaurar determinados arquivos críticos durante fluxos de correção  | `https://msdl.microsoft.com/download/symbols` |
@@ -94,8 +92,8 @@ Você pode baixar um arquivo de exemplo que Microsoft Defender Antivírus detect
 
 Baixe o arquivo visitando [https://aka.ms/ioavtest](https://aka.ms/ioavtest) .
 
->[!NOTE]
->Esse arquivo não é um malware real. É um arquivo falso projetado para testar se você está conectado corretamente à nuvem.
+> [!NOTE]
+> Esse arquivo não é um malware real. É um arquivo falso projetado para testar se você está conectado corretamente à nuvem.
 
 Se você estiver conectado corretamente, você verá uma notificação de Microsoft Defender Antivírus aviso.
 
@@ -124,9 +122,9 @@ Você também verá uma detecção em **Ameaças em quarentena** na seção **Hi
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Microsoft Defender Antivirus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
 
-- [Habilitar a proteção entregue na nuvem](enable-cloud-protection-microsoft-defender-antivirus.md)
+- [Ativar proteção fornecida pela nuvem](enable-cloud-protection-microsoft-defender-antivirus.md)
 
 - [Argumentos de linha de comando](command-line-arguments-microsoft-defender-antivirus.md)
 

@@ -20,12 +20,12 @@ ms.custom:
 - commerce_licensing
 search.appverid: MET150
 ms.date: 03/17/2021
-ms.openlocfilehash: 67bd0734953c64f51390aac949a7da477914c7b4
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: c590c2d47699c4c3cbea4b5145bea9e7c9fc79ec
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331653"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535657"
 ---
 # <a name="manage-licenses-for-devices"></a>Gerenciar licenças para dispositivos
 
@@ -55,5 +55,5 @@ Quando você desaigna licenças de um grupo, você remove as licenças de todos 
 
 1. No centro de administração, vá para a página  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças de</a> Cobrança.
 2. Na página **Licenças,** escolha **Microsoft 365 Apps para Educação (dispositivo)** **ou Microsoft 365 Apps para Grandes Empresas (dispositivo).**
-3. Na próxima página, escolha uma assinatura, escolha **Mais ações** e, em seguida, **escolha Unassign licenses**.
+3. Na próxima página, escolha uma assinatura, selecione os três pontos (mais ações) e escolha **Unassign licenses**.
 4. Na caixa **de diálogo Licenças não assinadas,** escolha **Unassign**.

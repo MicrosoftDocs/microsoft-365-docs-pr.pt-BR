@@ -1,23 +1,24 @@
 ---
 title: Informações de pagamento para o Egito
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6993e83dffffc91cb2a3f3cafde042951454e989
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: c9e518253f353db406566ca61a630101c2cf8b28
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273867"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535585"
 ---
 # <a name="payment-information-for-egypt"></a>Informações de pagamento para o Egito
 
@@ -31,4 +32,4 @@ Por favor, pague somente em USD e faça referência aos números da fatura em su
 **Código SWIFT:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Número da conta:** 12510049  
-**Nome da conta:** MICROSOFT  
+**Nome da conta:** MICROSOFT

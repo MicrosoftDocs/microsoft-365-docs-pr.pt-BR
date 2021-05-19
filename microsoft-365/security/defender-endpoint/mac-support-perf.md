@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 623717e7b1a3149dbccf07d32200820a7f9083cb
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d69c7dc30a4cf6a3078f510a02e5572fe8b36cbb
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934244"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52530905"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Solucionar problemas de desempenho do Microsoft Defender para Ponto de Extremidade no macOS
 
@@ -62,7 +62,7 @@ As etapas a seguir podem ser usadas para solucionar problemas e atenuar esses pr
 
       Se seu dispositivo for gerenciado pela sua organização, a proteção em tempo real poderá ser desabilitada pelo administrador usando as instruções em Definir preferências do Microsoft Defender para Ponto de Extremidade [no macOS](mac-preferences.md).
       
-      Se o problema de desempenho persistir enquanto a proteção em tempo real estiver desligada, a origem do problema poderá ser o componente de detecção e resposta do ponto de extremidade. Nesse caso, entre em contato com o suporte do cliente para obter mais instruções e mitigação.
+      Se o problema de desempenho persistir enquanto a proteção em tempo real estiver desligada, a origem do problema poderá ser o detecção e resposta de ponto de extremidade componente. Nesse caso, entre em contato com o suporte do cliente para obter mais instruções e mitigação.
 
 2. Abra o Finder e navegue até  >  **Utilitários de Aplicativos.** Abra **o Monitor de Atividades** e analise quais aplicativos estão usando os recursos em seu sistema. Exemplos típicos incluem atualizadores e compiladores de software.
 
@@ -94,7 +94,7 @@ As etapas a seguir podem ser usadas para solucionar problemas e atenuar esses pr
       Para coletar estatísticas atuais, execute:
 
       ```bash
-      mdatp config real-time-protection --value enabled
+      mdatp config real-time-protection-statistics --output json > real_time_protection.json
       ```
 
       > [!NOTE]
@@ -104,7 +104,7 @@ As etapas a seguir podem ser usadas para solucionar problemas e atenuar esses pr
 1. Em seu sistema Mac, baixe o analisador Python de exemplo high_cpu_parser.py usando o comando:
 
     ```bash
-    wget -c https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/linux/diagnostic/high_cpu_parser.py
+    curl -O https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/linux/diagnostic/high_cpu_parser.py
     ```
 
     A saída deste comando deve ser semelhante ao seguinte:

@@ -25,13 +25,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
-description: Adicione seu domínio ao Microsoft 365 no Centro de administração do Microsoft 365 adicionando um registro DNS ao host DNS. O assistente de instalação orienta você durante o processo.
-ms.openlocfilehash: 747de5f61dc9fce53f82f52b65f701572a56f8d4
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+description: Use o assistente de instalação para adicionar seu domínio Microsoft 365 no centro de administração Microsoft 365 adicionando um registro DNS ao host DNS.
+ms.openlocfilehash: 96849e90a420dc31dbde8c55d5a1108f73f85978
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470876"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535825"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Adicionar um domínio ao Microsoft 365
 
@@ -39,17 +39,9 @@ ms.locfileid: "51470876"
   
  *Para adicionar, modificar ou remover domínios, você **deve** ser um **Administrador Global** de um [plano empresarial ou corporativo.](https://products.office.com/business/office) Essas alterações afetam todo o locatário, administradores *personalizados* ou *usuários regulares* não poderão fazer essas alterações.*  
 
- Siga estas etapas para adicionar, configurar ou continuar configurando um domínio. 
+ ## <a name="add-a-domain"></a>Adicionar um domínio
 
-::: moniker range="o365-worldwide"
-  
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/dda6df6d-37b0-41ff-905b-089448355a31?autoplay=false]
-  
-::: moniker-end
+Siga estas etapas para adicionar, configurar ou continuar configurando um domínio. 
 
 ::: moniker range="o365-worldwide"
 
@@ -76,14 +68,14 @@ ms.locfileid: "51470876"
     
 5. Escolha como deseja verificar se você é o próprio domínio.
     
-    1. Se o registrador de domínio usar [o Domain Connect,](#domain-connect-registrars-integrating-with-microsoft-365)a [Microsoft](../get-help-with-domains/domain-connect.md) configurará seus registros automaticamente fazendo você entrar no registrador e confirmar a conexão com o Microsoft 365. Você será retornado ao centro de administração e a Microsoft verificará automaticamente seu domínio.
+    1. Se o registrador de domínio usar [Domínio Conexão](#domain-connect-registrars-integrating-with-microsoft-365), a [Microsoft](../get-help-with-domains/domain-connect.md) configurará seus registros automaticamente fazendo com que você entre no registrador e confirme a conexão com Microsoft 365. Você será retornado ao centro de administração e a Microsoft verificará automaticamente seu domínio.
     2. Use um registro TXT para verificar seu domínio. Selecione isso e selecione **Próximo** para ver instruções sobre como adicionar esse registro DNS ao site do registrador. Isso pode levar até 30 minutos para verificar depois que você adicionou o registro. 
     3. Você pode adicionar um arquivo de texto ao site do seu domínio. Selecione e baixe o arquivo .txt do assistente de instalação e carregue o arquivo na pasta de nível superior do seu site. O caminho para o arquivo deve ser semelhante a: `http://mydomain.com/ms39978200.txt` . Confirmaremos se você é o dono do domínio encontrando o arquivo em seu site.
     
 6. Escolha como você deseja fazer as alterações dns necessárias para que a Microsoft use seu domínio.
     
-    1. Escolha **Adicionar os registros DNS** para mim se o registrador for compatível com o Domain [Connect](#domain-connect-registrars-integrating-with-microsoft-365)e a [Microsoft](../get-help-with-domains/domain-connect.md) configurará seus registros automaticamente, fazendo com que você entre no registrador e confirme a conexão com o Microsoft 365.
-    2. Escolha **Eu mesmo adicionarei** os registros DNS se você quiser anexar apenas serviços específicos do Microsoft 365 ao seu domínio ou se quiser ignorar isso por enquanto e fazer isso posteriormente. **Escolha essa opção se você souber exatamente o que está fazendo:**
+    1. Escolha **Adicionar os** registros DNS para mim se o registrador for compatível com o domínio Conexão e [a](#domain-connect-registrars-integrating-with-microsoft-365) [Microsoft](../get-help-with-domains/domain-connect.md) configurará seus registros automaticamente, fazendo com que você entre no registrador e confirme a conexão com o Microsoft 365.
+    2. Escolha **Eu mesmo adicionarei** os registros DNS se você quiser anexar apenas serviços Microsoft 365 específicos ao seu domínio ou se quiser ignorar isso por enquanto e fazer isso mais tarde. **Escolha essa opção se você souber exatamente o que está fazendo:**
 
 7. Se você optar por adicionar registros *DNS*  por conta própria, selecione **Próximo** e verá uma página com todos os registros necessários para adicionar ao seu site de registradores para configurar seu domínio. 
 
@@ -113,16 +105,16 @@ Siga as etapas abaixo para adicionar um registro personalizado para um site ou s
     
 6. Selecione **Salvar**.
 
-## <a name="registrars-with-domain-connect"></a>Registradores com Conexão de Domínio
+## <a name="registrars-with-domain-connect"></a>Registradores com domínio Conexão
 
-[Registradores habilitados](https://www.domainconnect.org/) para Conexão de Domínio permitem adicionar seu domínio ao Microsoft 365 em um processo de três etapas que leva minutos. 
+[Os Conexão](https://www.domainconnect.org/) de domínio habilitados permitem que você adicione seu domínio Microsoft 365 em um processo de três etapas que leva minutos. 
   
-No assistente, apenas confirmaremos se você é o próprio domínio e configurará automaticamente os registros do seu domínio, para que o email venha para o Microsoft 365 e outros serviços do Microsoft 365, como o Teams, trabalhar com seu domínio.
+No assistente, apenas confirmaremos se você é o próprio domínio e configurará automaticamente os registros do seu domínio, para que o email venha para o Microsoft 365 e outros serviços Microsoft 365, como Teams, trabalhem com seu domínio.
   
 > [!NOTE]
 > Desative os bloqueadores de pop-up em seu navegador antes de iniciar o assistente de configuração.
   
-### <a name="domain-connect-registrars-integrating-with-microsoft-365"></a>Registradores de Conexão de Domínio integrando-se com o Microsoft 365
+### <a name="domain-connect-registrars-integrating-with-microsoft-365"></a>Registradores Conexão de domínio integrando-se com Microsoft 365
 
 - [1 &amp; 1 IONOS](https://www.1and1.com/)
 - [EuroDNS](https://www.eurodns.com/)
@@ -138,16 +130,16 @@ No assistente, apenas confirmaremos se você é o próprio domínio e configurar
 
 ### <a name="what-happens-to-my-email-and-website"></a>O que acontece com meu email e site?
 
-Depois de concluir a instalação, o registro MX do seu domínio é atualizado para apontar para o Microsoft 365 e todos os emails para seu domínio começarão a chegar ao Microsoft 365. Certifique-se de adicionar usuários e configurar caixas de correio no Microsoft 365 para todos que receberem emails em seu domínio!
+Depois de concluir a instalação, o registro MX do seu domínio é atualizado para apontar para Microsoft 365 e todos os emails para seu domínio começarão a Microsoft 365. Certifique-se de adicionar usuários e configurar caixas de correio no Microsoft 365 para todos que receberem emails em seu domínio!
   
-Se você tiver um site que usa com a empresa, ele continuará funcionando onde está. As etapas de configuração do Domain Connect não afetam seu site.
+Se você tiver um site que usa com a empresa, ele continuará funcionando onde está. As etapas Conexão de configuração de domínio não afetam seu site.
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Perguntas frequentes sobre domínios](domains-faq.yml)
+[Perguntas frequentes sobre domínios](domains-faq.yml) (artigo)
 
-[O que é um domínio?](../get-help-with-domains/what-is-a-domain.md)
+[O que é um domínio?](../get-help-with-domains/what-is-a-domain.md) (artigo)
 
-[Comprar um nome de domínio no Microsoft 365](../get-help-with-domains/buy-a-domain-name.md)
+[Comprar um nome de domínio Microsoft 365](../get-help-with-domains/buy-a-domain-name.md) (artigo)
 
-[Configurar seu domínio (instruções específicas do host)](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md)
+[Configurar seu domínio](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) (artigo)
