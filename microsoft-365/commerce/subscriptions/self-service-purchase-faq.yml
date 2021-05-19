@@ -1,0 +1,134 @@
+### YamlMime:FAQ
+metadata:
+  title: Perguntas frequentes sobre compra de autoatend
+  f1.keywords:
+  - NOCSH
+  ms.author: cmcatee
+  author: cmcatee-MSFT
+  manager: scotv
+  ms.reviewer: mijeffer, pablom
+  audience: Admin
+  ms.topic: article
+  ms.service: o365-administration
+  localization_priority: Normal
+  ms.collection: M365-subscription-management
+  ms.custom:
+  - AdminSurgePortfolio
+  - aka.ms/self-service-purchase-faq
+  - commerce_ssp
+  search.appverid:
+  - MET150
+  description: Encontre respostas para perguntas frequentes sobre compras de autoatendados.
+  ms.date: 09/15/2020
+  ms.openlocfilehash: 7dcf16ff51854b595f61c2797a62632a3003b7c9
+  ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+  ms.translationtype: MT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 05/19/2021
+  ms.locfileid: "52539282"
+title: Perguntas frequentes sobre compra de autoatend
+summary: >
+  A compra self-service oferece aos usuários a chance de experimentar novas tecnologias e desenvolver soluções que, em última análise, beneficiam suas organizações maiores. As equipes de TI e compras centrais têm visibilidade para todos os usuários que compram e implantam soluções de compra de autoatend <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 centro de administração.</a> Os administradores podem desativar a compra por produto por produto por meio do PowerShell. Para saber mais, [consulte Use AllowSelfServicePurchase for the MSCommerce PowerShell module](allowselfservicepurchase-powershell.md).
+
+
+  A compra de autoatend Power BI, Power Apps e Power Automate), Project e Visio.
+
+
+  > [!NOTE]
+
+  > A compra de autoatendam não está disponível na Índia ou para clientes governamentais ou de educação. Project e Visio estão disponíveis para compra de autoatendado no Brasil e na República Democrática do Congo.
+sections:
+- name: Fazendo uma compra self-service
+  questions:
+  - question: >
+      Como um cliente faz uma compra self-service?
+    answer: >
+      Os clientes podem fazer uma compra por conta própria online a partir dos sites do produto ou de prompts de compra no aplicativo. Primeiro, os clientes são solicitados a inserir um endereço de email para garantir que eles sejam um usuário em um locatário Azure Active Directory (AD) existente. Em seguida, eles são direcionados para entrar usando suas credenciais do Azure AD. Depois de entrar, o cliente é solicitado a selecionar quantas assinaturas deseja comprar e fornecer pagamento com cartão de crédito. Quando a compra for concluída, eles poderão começar a usar sua assinatura. O comprador tem acesso a uma <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a> exibição limitada do centro de administração Microsoft 365 onde ele pode atribuir licenças ao produto a outras pessoas em sua organização.
+  - question: >
+      Quais são as opções de pagamento para compras self-service?
+    answer: >
+      Atualmente, o cartão de crédito é o único método de pagamento disponível. Não há suporte para pagamento por meio de faturamento.
+  - question: >
+      Who pode comprar por meio da compra de autoatend.?
+    answer: >
+      Qualquer usuário com uma conta de usuário não convidado em um locatário gerenciado do Azure AD pode fazer uma compra de autoatendido. A compra por conta própria não está disponível para locatários que são organizações governamentais ou de educação. Se isso se aplicar à sua organização, nenhuma ação adicional será necessária para controlar a compra de autoatendados.
+
+
+      Os usuários em organizações ou mercados que não estão qualificados para compra de autoatendam veem uma mensagem solicitando que eles contatem o administrador de IT.
+  - question: >
+      Os usuários convidados podem comprar por meio da compra de autoatend.?
+    answer: >
+      Não, os usuários convidados não podem concluir uma compra de autoatend responsabilidade em um locatário no qual são convidados.
+  - question: >
+      Os usuários sincronizados de um Active Directory local podem comprar por meio da compra de autoatendido?
+    answer: >
+      Se um usuário tiver uma conta de usuário ativa em um locatário qualificado do Azure AD, ele poderá concluir uma compra de autoatenduro.
+  - question: >
+      Who podem atribuir licenças aos compradores autônomos?
+    answer: >
+      Os compradores de autoatendados só podem atribuir licenças a usuários no mesmo locatário do Azure AD. O comprador tem acesso a uma exibição limitada do centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 para</a> atribuir licenças. Os compradores podem atribuir licenças aos produtos que compraram por meio da compra de autoatendados e só podem atribuir essas licenças aos usuários no mesmo locatário do Azure AD.
+  - question: >
+      Onde o comprador de autoatendir vê e gerencia suas compras?
+    answer: >
+      Os compradores de autoatendir podem gerenciar suas compras no ponto de vista limitado do centro <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">de administração Microsoft 365.</a> Os compradores sempre podem chegar ao  centro de administração a partir do painel Administrador no launcher de aplicativos integrado a todos os Microsoft 365 e aplicativos online do Dynamics. Os compradores podem exibir as compras feitas, comprar assinaturas adicionais para o mesmo serviço e atribuir licenças para essas assinaturas a outros usuários em sua organização. Além disso, os compradores podem exibir e pagar suas contas, atualizar seu método de pagamento e cancelar sua assinatura.
+- name: Preços
+  questions:
+  - question: >
+      Qual é o preço das compras de autoatendificação?
+    answer: >
+      O preço de cada um dos produtos para compra de autoatendados está disponível no site da Microsoft. Os preços também são exibidos como parte da experiência de check-in quando os usuários fazem uma compra de autoatendência. Esses preços podem diferir dos preços que uma organização paga ao fazer compras centrais ou preços oferecidos por meio de um parceiro.
+  - question: >
+      Who é responsável pelo pagamento?
+    answer: >
+      A pessoa que compra a assinatura por meio da compra autoatendida é a pessoa que é cobrada e responsável pelo pagamento com base nos termos e preços da compra.
+- name: Recursos de administrador
+  questions:
+  - question: >
+      Quais recursos um administrador tem para compras de autoatendições?
+    answer: >
+      Os administradores podem exibir todas as compras de autoatend nome feitas em sua organização no Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">de administração.</a> Eles podem ver o produto, o nome do comprador, as assinaturas compradas, a data de expiração, o histórico do pedido, o preço de compra e os usuários atribuídos para cada compra de autoatendido. No Centro de Administração da Plataforma Power, os administradores também podem exibir a capacidade de compras de autoatend.. Se necessário para sua organização, os administradores podem desativar a compra de autoatendados por produto por meio do PowerShell. Os administradores têm as mesmas políticas de gerenciamento e acesso de dados sobre produtos comprados por meio da compra de autoatendados ou centralmente.
+
+
+      Os administradores também podem controlar se os usuários em sua organização podem fazer compras de autoatendado. Para obter mais informações, [consulte Use AllowSelfServicePurchase for the MSCommerce PowerShell module](allowselfservicepurchase-powershell.md).
+  - question: >
+      Como a Microsoft respeita a governança e a conformidade de dados habilitando a compra de autoatendados?
+    answer: >
+      Os administradores mantêm o controle sobre quais serviços e produtos estão disponíveis em seu locatário com base em seus requisitos de conformidade e governança de dados. Todas as políticas de gerenciamento e acesso de dados que sua organização adere se aplicam aos serviços disponíveis de autoatend log comprados.
+  - question: >
+      Who possui os dados do produto criados a partir de compras de autoatendado?
+    answer: >
+      Os dados criados a partir de produtos comprados por meio da compra de autoatendados são de propriedade e controlados pela organização.
+  - question: >
+      Como centralizar as compras feitas por meio da compra de autoatendença?
+    answer: >
+      Os administradores podem atribuir licenças existentes ou comprar assinaturas adicionais de produtos de compra de autoatendência por meio de contratos e preços existentes para usuários atribuídos a compras de autoatendência. Depois de atribuir essas licenças compradas centralmente, os administradores podem solicitar que os compradores cancelem suas assinaturas existentes.
+  - question: >
+      Onde o administrador vê compras self-service?
+    answer: >
+      Os administradores globais e de cobrança podem ver assinaturas compradas por meio da compra de autoatendados em **Cobrança** Seus produtos no Microsoft 365  >   <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">de administração.</a> Eles podem filtrar a lista de produtos para mostrar apenas as assinaturas compradas por meio de compras centrais ou para incluir assinaturas compradas por meio da compra de autoatendados.
+
+
+      Os administradores podem ver o produto, o nome do comprador, a assinatura comprada, a data de expiração, o histórico do pedido, o preço de compra e os usuários atribuídos.
+- name: Suporte e treinamento
+  questions:
+  - question: >
+      Os departamentos de IT ou parceiros dos clientes devem dar suporte a produtos comprados por meio da compra de autoatendados?
+    answer: >
+      Não é esperado que os departamentos e parceiros de IT forneçam suporte para produtos comprados por meio da compra de autoatendados. A Microsoft oferece suporte padrão para compradores de autoatend..
+  - question: >
+      Se um comprador autônomo chamar suporte, isso usará os incidentes de Suporte Premier do cliente?
+    answer: >
+      Os compradores de autoatendê não usarão os incidentes de Suporte Premier de um cliente para receber suporte para suas compras de autoatendê.
+  - question: >
+      Como os usuários devem receber treinamento sobre os produtos que compram por meio da compra de autoatendados?
+    answer: >
+      Treinamento extensivo para usuários é fornecido nos sites do produto. Os produtos têm aprendizado orientado, documentação, exemplos e comunidades fortes para obter respostas e dicas diretamente de outros usuários.
+  - question: >
+      O que acontece com uma compra de autoatendado se um usuário sair da organização?
+    answer: >
+      Se a pessoa que comprou originalmente o produto de compra de autoatendência sair da organização, os usuários válidos continuarão a ter uso total do produto durante a assinatura. A assinatura permanece ativa até que o comprador cancele diretamente ou um administrador solicita o cancelamento da assinatura por meio do suporte ao cliente. Os administradores também podem optar por atribuir uma licença comprada centralmente aos usuários da assinatura cancelada.
+- name: Parceiros
+  questions:
+  - question: >
+      Qual é a função dos parceiros da Microsoft nas compras de autoatendam?
+    answer: Os parceiros que têm privilégios de administração delegados podem ver compras de autoatendido <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">no</a>centro de administração Microsoft 365 , assim como um administrador. Os parceiros podem ajudar a dar suporte a uma organização que deseja centralizar produtos comprados por meio de compras de autoatendados. Além disso, os parceiros podem oferecer soluções para estender os recursos de uma compra de autoatendereço.

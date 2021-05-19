@@ -1,6 +1,6 @@
 ---
-title: Investigar usuários no Centro de segurança do Microsoft 365
-description: Investigar usuários no centro de Microsoft 365 segurança
+title: Investigar usuários no Microsoft 365 Defender
+description: Investigue os usuários por um incidente no centro Microsoft 365 segurança.
 keywords: segurança, malware, Microsoft 365, M365, central de segurança, monitor, relatório, identidades, dados, dispositivos, aplicativos, incidente, análise, resposta
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -19,14 +19,14 @@ ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: c03e4d5bd94eb6105ffab91c6dad2b74d7159dde
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 7084b9370a0dd83265b37ff1d152e2164fe32813
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300056"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539126"
 ---
-# <a name="investigate-users-in-microsoft-365-security-center"></a>Investigar usuários no Centro de segurança do Microsoft 365
+# <a name="investigate-users-in-microsoft-365-defender"></a>Investigar usuários no Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 

@@ -14,13 +14,14 @@ ms.collection:
 - m365solution-securecollab
 ms.custom:
 - Ent_Solutions
+recommendations: false
 description: Saiba como criar uma equipe com um rótulo de confidencialidade exclusivo para segurança.
-ms.openlocfilehash: 4d305e952d48d42afffe91466121c67621aa9d85
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 4ed8b3a7476e11cdf2341b0a98af690ed3f33c7e
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52113397"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539066"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Configurar uma equipe com isolamento de segurança
 

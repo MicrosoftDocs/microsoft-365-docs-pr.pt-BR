@@ -1,7 +1,7 @@
 ---
 title: Planejar versões de software e software de fim de suporte
 description: Descubra e planeje versões de software e software que não são mais suportadas e não receberão atualizações de segurança.
-keywords: gerenciamento de ameaças e vulnerabilidades, recomendação de segurança de TV do Microsoft Defender para Endpoint, recomendação de segurança cibernética, recomendação de segurança a ação
+keywords: Gerenciamento de Ameaças e Vulnerabilidades, recomendação de segurança de TV do Microsoft Defender para Endpoint, recomendação de segurança cibernética, recomendação de segurança a ação
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,21 +18,21 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8e8fc228b8856df03b580e748bf00efc8d4333c3
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: bb436cbd2d0fa453872760c1d2656585e02d1767
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934124"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538862"
 ---
-# <a name="plan-for-end-of-support-software-and-software-versions-with-threat-and-vulnerability-management"></a>Planejar versões de software e software de fim de suporte com gerenciamento de ameaças e vulnerabilidades
+# <a name="plan-for-end-of-support-software-and-software-versions-with-threat-and-vulnerability-management"></a>Planejar versões de software e software de fim de suporte com Gerenciamento de Ameaças e Vulnerabilidades
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Ameaça e Gerenciamento de Vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
@@ -41,9 +41,12 @@ O fim do suporte (EOS), também conhecido como EOL (fim da vida útil), para ver
 
 É fundamental que os administradores de segurança e DES trabalhem juntos e garantam que o inventário de software da organização seja configurado para obter resultados ideais, conformidade e um ecossistema de rede saudável. Eles devem examinar as opções para remover ou substituir aplicativos que chegaram às versões de fim de suporte e atualização que não são mais suportadas. É melhor criar e implementar um plano **antes do** final das datas de suporte.
 
+>[!NOTE]
+> A funcionalidade do EOS não está disponível atualmente para produtos que não Windows (Mac, Linux); no entanto, ele será adicionado no futuro.
+
 ## <a name="find-software-or-software-versions-that-are-no-longer-supported"></a>Encontre versões de software ou software que não são mais suportadas
 
-1. No menu gerenciamento de ameaças e vulnerabilidades, navegue até [**Recomendações de segurança.**](tvm-security-recommendation.md)
+1. No menu Gerenciamento de Ameaças e Vulnerabilidades, navegue até [**Recomendações de segurança**](tvm-security-recommendation.md).
 2. Vá para o **painel Filtros** e procure a seção marcas. Selecione uma ou mais opções de marca EOS. Em **seguida, aplique**.
 
     ![Marcas de captura de tela que dizem software EOS, versões do EOS e versões futuras do EOS.](images/tvm-eos-tag.png)
@@ -72,6 +75,6 @@ Depois de identificar quais versões de software e software são vulneráveis de
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Visão geral do gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Visão geral Gerenciamento de Vulnerabilidades ameaça](next-gen-threat-and-vuln-mgt.md)
 - [Recomendações de segurança](tvm-security-recommendation.md)
 - [Inventário de software](tvm-software-inventory.md)

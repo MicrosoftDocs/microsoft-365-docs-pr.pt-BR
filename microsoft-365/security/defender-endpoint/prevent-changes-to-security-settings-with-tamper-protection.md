@@ -16,17 +16,15 @@ ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 9a2f37aa0a2a17646862a7a7e1bd8b34685e76b8
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.date: 05/17/2021
+ms.openlocfilehash: ed9eb425d718a2dbdaa2cdb3ab1e6899c9870124
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274707"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538875"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>Proteger as configurações de segurança com proteção contra adulteração
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **Aplica-se a:**
 
@@ -62,14 +60,12 @@ A proteção contra adulteração essencialmente bloqueia Microsoft Defender Ant
 
 A proteção contra violações não impede que você veja suas configurações de segurança. E a proteção contra adulteração não afeta como aplicativos antivírus de terceiros se registram com o Segurança do Windows aplicativo. Se sua organização estiver usando Windows 10 Enterprise E5, usuários individuais não poderão alterar a configuração de proteção contra violações; nesses casos, a proteção contra violações é gerenciada pela sua equipe de segurança.
 
-
-
 ### <a name="what-do-you-want-to-do"></a>O que você deseja fazer?
 
 | Para executar essa tarefa... | Consulte esta seção... |
 |:---|:---|
-| Ativar a proteção contra adulteração (ou desativar) no Central de Segurança do Microsoft Defender <p>Gerenciar a proteção contra violações em seu locatário | [Gerenciar a proteção contra violações para sua organização usando o Central de Segurança do Microsoft Defender](#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) |
-| Ativar a proteção contra adulteração (ou desativar) para toda ou parte da sua organização usando o Intune <p>Ajustar as configurações de proteção contra violações em sua organização | [Gerenciar a proteção contra violações para sua organização usando o Intune](#manage-tamper-protection-for-your-organization-using-intune) |
+| Gerenciar a proteção contra violações em seu locatário <p>Usar o Central de Segurança do Microsoft Defender para ativar ou desativar a proteção contra adulteração | [Gerenciar a proteção contra violações para sua organização usando o Central de Segurança do Microsoft Defender](#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) |
+| Ajustar as configurações de proteção contra violações em sua organização <p>Use o Intune (Microsoft Endpoint Manager) para ativar ou desativar a proteção contra adulteração. Você pode configurar a proteção contra violações para alguns ou todos os usuários com esse método. | [Gerenciar a proteção contra violações para sua organização usando o Intune](#manage-tamper-protection-for-your-organization-using-intune) |
 | Ativar (ou desativar) a proteção contra adulteração para sua organização com o Configuration Manager | [Gerenciar a proteção contra violações para sua organização usando a anexação de locatário com o Configuration Manager, versão 2006](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006) |
 | Ativar a proteção contra adulteração (ou desativar) para um dispositivo individual | [Gerenciar a proteção contra violações em um dispositivo individual](#manage-tamper-protection-on-an-individual-device) |
 | Exibir detalhes sobre tentativas de adulteração em dispositivos | [Exibir informações sobre tentativas de adulteração](#view-information-about-tampering-attempts) |
@@ -80,29 +76,24 @@ Dependendo do método ou ferramenta de gerenciamento que você usa para habilita
 
 A tabela a seguir fornece detalhes sobre os métodos, ferramentas e dependências.
 
-
-
-|     Como a proteção contra adulteração está habilitada                                         |     Dependência do MAPS (proteção entregue na nuvem)    |
-|------------------------------------------------------------------------------|--------------------------------------------------------|
-|     Microsoft Intune                                                         |     Não                                                 |
-| Microsoft Endpoint Configuration Manager + Anexação de Locatário                     |     Não                                                 |
-|     Portal do Microsoft Defender para Ponto de Extremidade (securitycenter.microsoft.com)    |     Sim                                                |
-|     Microsoft 365 Portal do Defender (security.microsoft.com)                   |     Sim                                                |
+| Como a proteção contra adulteração está habilitada  | Dependência do MAPS (proteção entregue na nuvem)    |
+|:----|:----|
+| Microsoft Intune  | Não |
+| Microsoft Endpoint Configuration Manager + Anexação de Locatário  |     Não  |
+| Central de Segurança do Microsoft Defender ( [https://securitycenter.microsoft.com](https://securitycenter.microsoft.com) )    |     Sim |
+| Microsoft 365 de segurança ( [https://security.microsoft.com](https://security.microsoft.com) )  |     Sim  |
 
 ## <a name="manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center"></a>Gerenciar a proteção contra violações para sua organização usando o Central de Segurança do Microsoft Defender
 
 A proteção contra adulteração pode ser 1 ou 2016 para seu locatário usando o Central de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ). Aqui estão alguns pontos para ter em mente:
 
-- No momento, a opção para gerenciar a proteção contra Central de Segurança do Microsoft Defender no Central de Segurança do Microsoft Defender está em por padrão para novas implantações. Para implantações existentes, a proteção contra adulteração está disponível em uma base de aceitação, com planos para tornar este o método padrão em um futuro próximo. (Para optar, no Central de Segurança do Microsoft Defender, escolha **Configurações**  >  **Recursos avançados**  >  **Proteção contra adulteração**.) 
+- No momento, a opção para gerenciar a proteção contra Central de Segurança do Microsoft Defender no Central de Segurança do Microsoft Defender está em por padrão para novas implantações. Para implantações existentes, a proteção contra adulteração está disponível em uma base de aceitação, com planos para fazer a aceitação no método padrão em um futuro próximo. (Para optar, no Central de Segurança do Microsoft Defender, escolha **Configurações**  >  **Recursos avançados**  >  **Proteção contra adulteração**.) 
 
 - Quando você usa o Central de Segurança do Microsoft Defender para gerenciar a proteção contra violações, não é preciso usar o Intune ou o método de anexação de locatários.
 
 - Quando você gerencia a proteção contra violações no Central de Segurança do Microsoft Defender, a configuração é aplicada em todo o locatário, afetando todos os dispositivos que estão executando Windows 10, Windows Server 2016 ou Windows Server 2019. Para ajustar a proteção contra adulteração (como a proteção contra adulteração para alguns dispositivos, mas para outros), use [o Intune](#manage-tamper-protection-for-your-organization-using-intune) ou o Configuration Manager com anexação [de locatário.](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
 
 - Se você tiver um ambiente híbrido, as configurações de proteção contra adulteração configuradas no Intune terão precedência sobre as configurações configuradas no Central de Segurança do Microsoft Defender. 
-
-
-
 
 ### <a name="requirements-for-managing-tamper-protection-in-the-microsoft-defender-security-center"></a>Requisitos para gerenciar a proteção contra violações no Central de Segurança do Microsoft Defender
 
@@ -133,7 +124,7 @@ A proteção contra adulteração pode ser 1 ou 2016 para seu locatário usando 
 
 ## <a name="manage-tamper-protection-for-your-organization-using-intune"></a>Gerenciar a proteção contra violações para sua organização usando o Intune
 
-Se você faz parte da equipe de segurança da sua organização e sua assinatura inclui o [Intune,](/intune/fundamentals/what-is-intune)você pode ativar (ou [desativar) a](https://endpoint.microsoft.com) proteção contra violações para sua organização no portal do centro de administração Microsoft Endpoint Manager. Use o Intune quando quiser ajustar as configurações de proteção contra violações. Por exemplo, se você quiser habilitar a proteção contra violações em alguns dispositivos, mas não todos, use o Intune.
+Se você faz parte da equipe de segurança da sua organização e sua assinatura inclui o [Intune,](/intune/fundamentals/what-is-intune)você pode ativar (ou desativar) a proteção contra violações para sua organização no centro de administração do Microsoft Endpoint Manager ( [https://endpoint.microsoft.com](https://endpoint.microsoft.com) ). Use o Intune quando quiser ajustar as configurações de proteção contra violações. Por exemplo, se você quiser habilitar a proteção contra violações em alguns dispositivos, mas não todos, use o Intune.
 
 ### <a name="requirements-for-managing-tamper-protection-in-intune"></a>Requisitos para gerenciar a proteção contra violações no Intune
 
@@ -179,12 +170,12 @@ Se você estiver usando o Windows 10 OS [1709](/windows/release-health/status-wi
 
 Se você estiver usando a versão [2006](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2006)do Configuration Manager, poderá gerenciar as configurações de proteção contra violações no Windows 10, no Windows Server 2016 e no Windows Server 2019 usando um método chamado anexação de locatário *.* A anexação de locatário permite sincronizar seus dispositivos do Configuration Manager somente no centro de administração do Microsoft Endpoint Manager e, em seguida, fornecer políticas de configuração de segurança de ponto de extremidade para coleções locais & dispositivos.
 
-![Windows experiência de segurança no Endpoint Manager](images/win-security- exp-policy-endpt-security.png)
+:::image type="content" source="images/win-security- exp-policy-endpt-security.png" alt-text="Segurança do Windows experiência em Endpoint Manager":::
 
 > [!NOTE]
 > O procedimento pode ser usado para estender a proteção contra violações a dispositivos que executam Windows 10 e Windows Server 2019. Revise os pré-requisitos e outras informações nos recursos mencionados neste procedimento.
 
-1. Configurar anexação de locatário. Para obter ajuda com isso, consulte [Microsoft Endpoint Manager locatário anexado: Sincronização de dispositivo e ações de dispositivo.](/mem/configmgr/tenant-attach/device-sync-actions)
+1. Configurar anexação de locatário. Para saber mais, consulte [Microsoft Endpoint Manager locatário: Sincronização de dispositivo e ações de dispositivo.](/mem/configmgr/tenant-attach/device-sync-actions)
 
 2. No centro [Microsoft Endpoint Manager de administração,](https://go.microsoft.com/fwlink/?linkid=2109431)vá para **Endpoint security**  >  **Antivírus** e escolha + Criar **Política**.<br/> 
    - Na lista **Plataforma,** selecione **Windows 10 e Windows Server (ConfigMgr)**.  
@@ -219,8 +210,6 @@ Veja o que você vê no Segurança do Windows aplicativo:
 2. Selecione **Proteção contra vírus & vírus**& proteção contra  >  **ameaças.**
 
 3. Definir **a Proteção contra Adulteração** como **On** ou **Off**.
-
-
 
 ## <a name="view-information-about-tampering-attempts"></a>Exibir informações sobre tentativas de adulteração
 

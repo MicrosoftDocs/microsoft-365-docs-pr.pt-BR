@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente um rótulo a arquivos e emails, ou você pode solicitar aos usuários que selecionem o rótulo que você recomenda.
-ms.openlocfilehash: f5281255db48b61e7cf21a1ac8d6b5bdd18ebc20
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: d7559e5fa75db1fb23592dec1a3a5f35bad603df
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332973"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538526"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -133,7 +133,7 @@ Ao selecionar a opção **Tipos de informações confidenciais**, você vê a me
 
 Da mesma forma que quando você configura políticas de DLP, você pode refinar sua condição alterando a contagem de instâncias e a precisão da correspondência. Por exemplo:
 
-![Opções de contagem de instâncias e precisão de correspondência](../media/sensitivity-labels-instance-count-match-accuracy.png)
+![Opções de contagem de instâncias e precisão de correspondência](../media/sit-confidence-level.png)
 
 Você pode aprender mais sobre essas opções de configuração na documentação do DLP: [Regras de ajuste para torná-las mais fáceis ou mais difíceis de corresponder](data-loss-prevention-policies.md#tuning-rules-to-make-them-easier-or-harder-to-match).
 
@@ -189,7 +189,7 @@ Específico para rotulagem interna:
 
 - Para obter os rótulos recomendados nas versões de área de trabalho do Word, o conteúdo confidencial que disparou a recomendação é sinalizado para que os usuários podem analisar e remover o conteúdo confidencial, em vez de aplicar o rótulo de confidencialidade recomendado.
 
-- Para saber mais sobre como esses rótulos são aplicados aos aplicativos do Office, capturas de tela de exemplo e como as informações confidenciais são detectadas, confira [Aplicar ou recomendar rótulos de confidencialidade automaticamente aos seus arquivos e emails no Office](https://support.office.com/pt-BR/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1).
+- Para saber mais sobre como esses rótulos são aplicados aos aplicativos do Office, capturas de tela de exemplo e como as informações confidenciais são detectadas, confira [Aplicar ou recomendar rótulos de confidencialidade automaticamente aos seus arquivos e emails no Office](https://support.office.com/en-us/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1).
 
 Específico para o cliente de rotulagem unificada da Proteção de Informações do Azure:
 

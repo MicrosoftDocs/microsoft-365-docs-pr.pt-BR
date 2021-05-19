@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 81f1b4154de25f6186679adc5b1f24f78f302415
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 8aaea65c617300a16f99a9a3e3a62d94b7983198
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933752"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538346"
 ---
 # <a name="troubleshoot-service-issues"></a>Solucionar problemas de serviço
 
@@ -34,14 +34,14 @@ ms.locfileid: "51933752"
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
 
 
-Esta seção aborda problemas que podem surgir à medida que você usa o serviço de Ameaça Avançada do Microsoft Defender.
+Esta seção aborda problemas que podem surgir à medida que você usa o serviço Microsoft Defender para Ponto de Extremidade.
 
 ## <a name="server-error---access-is-denied-due-to-invalid-credentials"></a>Erro do servidor - o acesso é negado devido a credenciais inválidas
 Se você encontrar um erro de servidor ao tentar acessar o serviço, precisará alterar as configurações de cookie do navegador.
 Configure seu navegador para permitir cookies.
 
 ## <a name="elements-or-data-missing-on-the-portal"></a>Elementos ou dados ausentes no portal
-Se alguns elementos ou dados estão faltando no Centro de Segurança do Microsoft Defender, é possível que as configurações de proxy o bloqueem.
+Se alguns elementos ou dados estão faltando Central de Segurança do Microsoft Defender é possível que as configurações de proxy os bloqueem.
 
 Certifique-se de `*.securitycenter.windows.com` que está incluída a lista de autorizações de proxy.
 
@@ -55,9 +55,9 @@ Consulte [Review events and errors using Event Viewer](event-error-codes.md) for
 
 ## <a name="microsoft-defender-for-endpoint-service-fails-to-start-after-a-reboot-and-shows-error-577"></a>O serviço do Microsoft Defender para Ponto de Extremidade falha ao iniciar após uma reinicialização e mostra o erro 577
 
-Se a integração de dispositivos for concluída com êxito, mas o Microsoft Defender for Endpoint não iniciar após uma reinicialização e mostrar o erro 577, verifique se o Windows Defender não está desabilitado por uma política.
+Se a integração de dispositivos for concluída com êxito, mas o Microsoft Defender for Endpoint não começar após uma reinicialização e mostrar o erro 577, verifique se o Windows Defender não está desabilitado por uma política.
 
-Para obter mais informações, consulte [Ensure that Microsoft Defender Antivírus is not disabled by policy](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy).
+Para obter mais informações, [consulte Ensure that Microsoft Defender Antivírus is not disabled by policy](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy).
 
 ## <a name="known-issues-with-regional-formats"></a>Problemas conhecidos com formatos regionais
 

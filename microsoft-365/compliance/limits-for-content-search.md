@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 78fe3147-1979-4c41-83bb-aeccf244368d
 description: Saiba mais sobre os limites em vigor para os recursos de Pesquisa de Conteúdo e Descoberta Básica da Descoberta Microsoft 365 de conformidade.
-ms.openlocfilehash: 47004473efe3407e9123fd15a7b1bf5f23e9fb23
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 5ca6fd30b40fbfaa3b93095eee403979f541d154
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311407"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538418"
 ---
 # <a name="limits-for-ediscovery-search"></a>Limites para pesquisa de Descobertas EDiscovery 
 
@@ -47,7 +47,7 @@ A tabela a seguir lista os limites de pesquisa ao usar a ferramenta de pesquisa 
 |O número máximo de sites (em SharePoint e OneDrive for Business) que podem ser visualizados para resultados de pesquisa. Se houver mais de 200 sites totais que contenham conteúdo que corresponde à consulta de pesquisa, somente os 200 sites principais com mais resultados de pesquisa estarão disponíveis para visualização.  <br/> |200  <br/> |
 |O número máximo de itens por caixa de correio de pasta pública exibida na página de visualização ao visualizar os resultados da pesquisa de conteúdo.  <br/> |100  <br/> |
 |O número máximo de itens encontrados em todas as caixas de correio de pasta pública exibidas na página de visualização ao visualizar os resultados da pesquisa de conteúdo.  <br/> |200  <br/> |
-|O número máximo de caixas de correio públicas que podem ser visualizadas para resultados de pesquisa. Se houver mais de 500 caixas de correio de pasta pública que contêm conteúdo que corresponde à consulta de pesquisa, somente as 500 caixas de correio de pasta pública mais importantes com a maioria dos resultados da pesquisa estarão disponíveis para visualização.  <br/> |500  <br/> |
+|O número máximo de caixas de correio de pasta pública que podem ser visualizadas para resultados de pesquisa. Se houver mais de 500 caixas de correio de pasta pública que contêm conteúdo que corresponde à consulta de pesquisa, somente as 500 caixas de correio de pasta pública mais importantes com a maioria dos resultados da pesquisa estarão disponíveis para visualização.  <br/> |500  <br/> |
 |O número máximo de caracteres para a consulta de pesquisa (incluindo operadores e condições) para uma pesquisa.  <br/><br/> **Observação:** Esse limite entra em vigor depois que a consulta é expandida e inclui caracteres da consulta de palavra-chave, quaisquer filtros de permissões de pesquisa aplicados ao usuário e URLs de todos os locais do site. Isso significa que a consulta será expandida em cada uma das palavras-chave. Por exemplo, se uma consulta de pesquisa tiver 15 palavras-chave e parâmetros e condições adicionais, a consulta será expandida 15 vezes, cada uma com os outros parâmetros e condições na consulta. Portanto, mesmo que o número de caracteres na consulta de pesquisa possa estar abaixo do limite, é a consulta expandida que pode contribuir para exceder esse limite.  <br/> |**Caixas de correio:** 10.000  <br/> **Sites:** 4.000 ao pesquisar todos os sites ou 2.000 ao pesquisar até 20 sites <sup>2</sup> <br/> |
 |Número máximo de variantes retornadas ao usar um caractere curinga de prefixo para pesquisar uma frase exata em uma consulta de pesquisa ou ao usar um caractere curinga de prefixo e o **operador booleano NEAR.**  <br/> |10.000 <sup>3</sup> <br/> |
 |O número mínimo de caracteres alfa para caracteres curinga de prefixo; por exemplo,  `time*`  `one*` , ou  `set*` .  <br/> |3  <br/> |

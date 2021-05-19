@@ -14,15 +14,15 @@ search.appverid:
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem aprender sobre as opções disponíveis e preferenciais para permitir mensagens de entrada no Exchange Online Protection (EOP).
+description: Os administradores podem aprender sobre as opções disponíveis e preferenciais para permitir mensagens de entrada no Proteção do Exchange Online (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e5473f8c37b4edcf6c2451cf995b430edbe09533
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: f76b34a439d2eaf2c8315d174483b0b30d3b3b0b
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203098"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538754"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Criar listas de remetentes seguros no EOP
 
@@ -33,12 +33,12 @@ ms.locfileid: "51203098"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Se você for um cliente do Microsoft 365 com caixas de correio no Exchange Online ou um cliente do Exchange Online Protection (EOP) autônomo sem caixas de correio do Exchange Online, o EOP oferece várias maneiras de garantir que os usuários recebam emails de destinatários confiáveis. Essas opções incluem regras de fluxo de emails do Exchange (também conhecidas como regras de transporte), Remetentes Seguros do Outlook, Lista de Permissão de IP (filtragem de conexão) e listas de remetentes permitidos ou listas de domínio permitidos em políticas anti-spam. Coletivamente, você pode pensar nessas opções como listas _de remetentes seguros._
+Se você for um cliente Microsoft 365 com caixas de correio no Exchange Online ou um cliente autônomo Proteção do Exchange Online (EOP) sem caixas de correio Exchange Online, o EOP oferece várias maneiras de garantir que os usuários recebam emails de destinatários confiáveis. Essas opções incluem Exchange de fluxo de emails (também conhecidas como regras de transporte), Outlook Cofre Remetentes, Lista de ID Permitidos (filtragem de conexão) e listas de remetentes permitidos ou listas de domínio permitidos em políticas anti-spam. Coletivamente, você pode pensar nessas opções como listas _de remetentes seguros._
 
 As listas de remetentes seguros disponíveis são descritas na lista a seguir para o mais recomendado para o menos recomendado:
 
 1. Regras do fluxo de email
-2. Senders seguros do Outlook
+2. Outlook Cofre Senders
 3. Lista de IDS (filtragem de conexão)
 4. Listas de remetentes permitidas ou listas de domínio permitidos (políticas anti-spam)
 
@@ -50,15 +50,15 @@ As regras de fluxo de emails permitem a maior flexibilidade para garantir que ap
 >
 > - Embora você possa usar listas de remetentes seguros para ajudar com falsos positivos (bons emails marcados como ruins), considere o uso de listas de remetentes seguros como uma solução temporária que deve ser evitada, se possível. Não recomendamos o gerenciamento de falsos positivos usando listas de remetentes seguros, pois as exceções à filtragem de spam podem abrir sua organização para a spoofing e outros ataques. Se você insistir em usar listas de remetentes seguros para gerenciar falsos positivos, você precisa estar atento e manter o tópico Relatar mensagens e arquivos para a [Microsoft](report-junk-email-messages-to-microsoft.md) em condições prontas.
 >
-> - Para permitir que um domínio envie emails não autenticados (ignore a proteção anti-spoofing), mas não ignore as verificações anti-spam e anti-malware, você pode adicioná-lo à lista de remetentes seguros [AllowedToSpoof](walkthrough-spoof-intelligence-insight.md)
+> - Para permitir que um domínio envie emails não autenticados (ignore a proteção anti-spoofing), mas não ignore as verificações anti-spam e anti-malware, você pode usar o insight de inteligência de [spoof](learn-about-spoof-intelligence.md) e a Lista de Locatários [Permitir/Bloquear.](tenant-allow-block-list.md)
 >
-> - O EOP e o Outlook inspecionam diferentes propriedades de mensagem para determinar o remetente da mensagem. Para obter mais informações, consulte a [seção Considerações para email](#considerations-for-bulk-email) em massa posteriormente neste artigo.
+> - EOP e Outlook inspecionar diferentes propriedades de mensagem para determinar o remetente da mensagem. Para obter mais informações, consulte a [seção Considerações para email](#considerations-for-bulk-email) em massa posteriormente neste artigo.
 
 Por outro lado, você também tem várias opções para bloquear emails de fontes específicas usando _listas de remetentes bloqueados._ Para obter mais informações, confira [Criar listas de bloqueios de remetentes no EOP](create-block-sender-lists-in-office-365.md).
 
 ## <a name="recommended-use-mail-flow-rules"></a>(Recomendado) Usar regras de fluxo de emails
 
-As regras de fluxo de emails no Exchange Online e no EOP autônomo usam condições e exceções para identificar mensagens e ações para especificar o que deve ser feito com essas mensagens. Para obter mais informações, consulte [Regras de fluxo de emails (regras de transporte) no Exchange Online](/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules).
+As regras de fluxo de email Exchange Online EOP autônoma e usam condições e exceções para identificar mensagens e ações para especificar o que deve ser feito com essas mensagens. Para obter mais informações, consulte Regras de fluxo de email [(regras de transporte) em Exchange Online](/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules).
 
 O exemplo a seguir supõe que você precisa de email contoso.com para ignorar a filtragem de spam. Para fazer isso, configure as seguintes configurações:
 
@@ -100,14 +100,14 @@ O exemplo a seguir supõe que você precisa de email contoso.com para ignorar a 
 
 ![Configurações de regra de fluxo de emails no EAC para ignorar a filtragem de spam.](../../media/1-AllowList-SkipFilteringFromContoso.png)
 
-## <a name="use-outlook-safe-senders"></a>Usar o Outlook Safe Senders
+## <a name="use-outlook-safe-senders"></a>Usar Outlook Cofre Senders
 
 > [!CAUTION]
-> Esse método cria um alto risco de invasores entregarem emails com êxito à Caixa de Entrada que, de outra forma, seriam filtrados; no entanto, as listas de Senders Seguros ou Domínios Seguros do usuário não impedem que o malware ou mensagens de phishing de alta confiança seja filtrada.
+> Esse método cria um alto risco de invasores entregarem emails com êxito à Caixa de Entrada que, de outra forma, seriam filtrados; no entanto, as listas de Cofre ou domínios Cofre do usuário não impedem a filtragem de malware ou mensagens de phishing de alta confiança.
 
-Em vez de uma configuração organizacional, os usuários ou administradores podem adicionar os endereços de email do remetente à lista Remetentes Seguros na caixa de correio. Para obter instruções, consulte [Configure junk email settings on Exchange Online mailboxes in Office 365](configure-junk-email-settings-on-exo-mailboxes.md). Isso não é desejável na maioria das situações, pois os envios ignorarão partes da pilha de filtragem. Embora você confie no remetente, o remetente ainda pode ser comprometido e enviar conteúdo mal-intencionado. É melhor que você deixe nossos filtros fazer o que é necessário para verificar todas as mensagens e, em seguida, relatar o [falso positivo/negativo](report-junk-email-messages-to-microsoft.md) para a Microsoft se nossos filtros errarem. Ignorar a pilha de filtragem também interfere no [ZAP](zero-hour-auto-purge.md).
+Em vez de uma configuração organizacional, os usuários ou administradores podem adicionar os endereços de email do remetente à lista Cofre Remetentes na caixa de correio. Para obter instruções, consulte [Configure junk email settings on Exchange Online mailboxes in Office 365](configure-junk-email-settings-on-exo-mailboxes.md). Isso não é desejável na maioria das situações, pois os envios ignorarão partes da pilha de filtragem. Embora você confie no remetente, o remetente ainda pode ser comprometido e enviar conteúdo mal-intencionado. É melhor que você deixe nossos filtros fazer o que é necessário para verificar todas as mensagens e, em seguida, relatar o [falso positivo/negativo](report-junk-email-messages-to-microsoft.md) para a Microsoft se nossos filtros errarem. Ignorar a pilha de filtragem também interfere no [ZAP](zero-hour-auto-purge.md).
 
-Quando as mensagens ignoram a filtragem de spam devido à lista de Remetentes Seguros de um usuário, o campo de header **X-Forefront-Antispam-Report** conterá o valor , o que indica que a filtragem para `SFV:SFE` spam, spoof e phishing foi ignorada.
+Quando as mensagens ignoram a filtragem de spam devido à lista de remetentes Cofre do usuário, o campo de header **X-Forefront-Antispam-Report** conterá o valor , o que indica que a filtragem de `SFV:SFE` spam, spoof e phishing foi ignorada.
 
 ## <a name="use-the-ip-allow-list"></a>Usar a Lista de IDS
 
@@ -152,11 +152,11 @@ Por exemplo, suponha que a Blue Yonder Airlines tenha contratado Margie's Travel
 
 - O `5322.From` endereço é blueyonder@news.blueyonderairlines.com, que é o que você verá no Outlook.
 
-Listas de remetentes seguros e listas de domínios seguros em políticas anti-spam no EOP inspecionam apenas os endereços, isso é semelhante ao `5322.From` Outlook Safe Senders que usa o `5322.From` endereço.
+Cofre listas de remetentes e listas de domínios seguros em políticas anti-spam no EOP inspecionam apenas os endereços, isso é semelhante Outlook Cofre remetentes que `5322.From` usam o `5322.From` endereço.
 
 Para evitar que essa mensagem seja filtrada, você pode seguir as seguintes etapas:
 
-- Adicione blueyonder@news.blueyonderairlines.com (o `5322.From` endereço) como um Remetente Seguro do Outlook.
+- Adicione blueyonder@news.blueyonderairlines.com (o `5322.From` endereço) como um Outlook Cofre Remetente.
 
 - [Use uma regra de fluxo de](#recommended-use-mail-flow-rules) emails com uma condição que procura mensagens de blueyonder@news.blueyonderairlines.com (o endereço, blueyonder.airlines@margiestravel.com `5322.From` `5321.MailFrom` (o ), ou ambos.
 

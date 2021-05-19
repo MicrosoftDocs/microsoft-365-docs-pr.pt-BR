@@ -8,19 +8,19 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Aprenda a criar e importar um tipo de informação confidencial personalizada para políticas no Centro de Conformidade.
-ms.openlocfilehash: 18679e171fa704341094dee582124f36a950f8a5
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
-ms.translationtype: HT
+ms.openlocfilehash: 75e767b0ea5ebe4940af5ee0fbfa85f858f65e9c
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52113983"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538694"
 ---
 # <a name="create-a-custom-sensitive-information-type-using-powershell"></a>Criar um tipo de informação confidencial personalizado usando o Windows PowerShell
 
@@ -176,7 +176,7 @@ O que todos os padrões abaixo têm em comum é que eles fazem referência à me
   
 Quando satisfeito, um padrão retorna uma contagem e um nível de confiança que pode ser usado nas condições da sua política. Ao adicionar uma condição para detectar um tipo de informação confidencial a uma política, você pode editar a contagem e o nível de confiança como mostrado aqui. O nível de confiança (também chamado de precisão de correspondência) é explicado mais adiante neste tópico.
   
-![Contagem de instâncias e opções de precisão de correspondência](../media/11d0b51e-7c3f-4cc6-96d8-b29bcdae1aeb.png)
+![Contagem de instâncias e opções de precisão de correspondência](../media/sit-confidence-level.png)
   
 Ao criar sua expressão regular, lembre-se de que há possíveis problemas a serem considerados. Por exemplo, se você escrever e carregar uma expressão regular que identifica conteúdo demais, isso poderá afetar o desempenho. Para saber mais sobre esses possíveis problemas, confira a seção posterior [Possíveis problemas de validação a serem considerados](#potential-validation-issues-to-be-aware-of).
   
@@ -296,7 +296,7 @@ Quanto mais evidências um padrão exigir, mais confiança você terá que uma e
   
 O elemento Pattern tem um atributo confidenceLevel obrigatório. Você pode pensar no valor de confidenceLevel (um inteiro entre 1 e 100) como uma ID exclusiva para cada padrão em uma entidade - os padrões em uma entidade devem ter níveis de confiança diferentes que você atribui. O valor preciso do inteiro não importa, basta escolher números que façam sentido para sua equipe de conformidade. Depois de carregar seu tipo de informação confidencial personalizado e criar uma política, você poderá fazer referência a esses níveis de confiança nas condições das regras que você criar.
   
-![Marcação XML mostrando elementos Pattern com valores diferentes para o atributo confidenceLevel](../media/301e0ba1-2deb-4add-977b-f6e9e18fba8b.png)
+![Marcação XML mostrando elementos Pattern com valores diferentes para o atributo confidenceLevel](../media/sit-xml-markedup-2.png)
   
 Além do atributo confidenceLevel para cada Padrão, a Entidade tem um atributo recommendedConfidence. O atributo recommendedConfidence pode ser visto como o nível de confiança padrão para a regra. Quando criar uma regra em uma política, se você não especificar um nível de confiança para a regra a ser usada, essa regra corresponderá com base no nível de confiança recomendado para a entidade. Observe que o atributo recommendedConfidence é obrigatório para cada ID de entidade no pacote de regras, se não houver, não será possível salvar políticas que usem o tipo de informações confidenciais. 
   

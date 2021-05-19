@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint, Microsoft Teams e grupos do Microsoft 365.
-ms.openlocfilehash: 4914a5911ffb493eded46631d7682c1e48cf1426
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: ef4559a278ce83f429790efcd20517b5c8545cb3
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860870"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52531037"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint
 
@@ -34,9 +34,10 @@ Além de usar [rótulos de confidencialidade](sensitivity-labels.md) para classi
 - Acesso de usuários externos
 - Compartilhamento externo de sites do Microsoft Office SharePoint Online
 - Acesso de dispositivos não gerenciados
+- Contextos de autenticação (em versão prévia)
 
 > [!IMPORTANT]
-> O **Acesso por dispositivos não gerenciados** funciona em conjunto com o recurso SharePoint para [controlar o acesso por dispositivos não gerenciados](/sharepoint/control-access-from-unmanaged-devices). Você deve configurar este recurso dependente do SharePoint para usar um rótulo de confidencialidade que tenha essa configuração definida. Informações adicionais estão incluídas nas instruções abaixo.
+> As configurações para dispositivos não gerenciados e contextos de autenticação funcionam em conjunto com o acesso condicional do Azure Active Directory. Você deve configurar este recurso dependente se quiser usar um rótulo de confidencialidade para essas configurações. Informações adicionais estão incluídas nas instruções abaixo.
 
 Quando você aplica esse rótulo de confidencialidade a um contêiner compatível, o rótulo aplica automaticamente a classificação e as configurações de proteção configuradas ao site ou grupo.
 
@@ -47,7 +48,7 @@ O conteúdo nesses contêineres, no entanto, não herda os rótulos para a class
 
 ## <a name="using-sensitivity-labels-for-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Use rótulos de confidencialidade para Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint
 
-Antes de habilitar rótulos de confidencialidade para recipientes e configurar rótulos de confidencialidade para as novas configurações, os usuários podem ver e aplicar rótulos de confidencialidade em seus aplicativos. Por exemplo, no Word:
+Antes de habilitar rótulos de confidencialidade para recipientes e configurar rótulos de confidencialidade para as novas configurações, os usuários podem ver e aplicar rótulos de confidencialidade em seus aplicativos. Por exemplo, do Word:
 
 ![Um rótulo de confidencialidade exibido no aplicativo Word para área de trabalho](../media/sensitivity-label-word.png)
 
@@ -56,6 +57,8 @@ Depois de habilitar e configurar os rótulos de confidencialidade dos contêiner
 ![Um rótulo de confidencialidade ao criar um site de equipe do SharePoint](../media/sensitivity-labels-new-team-site.png)
 
 ## <a name="how-to-enable-sensitivity-labels-for-containers-and-synchronize-labels"></a>Como habilitar rótulos de confidencialidade para contêineres e sincronizar rótulos
+
+Se você ainda não ativou os rótulos de confidencialidade para contêineres, execute o seguinte conjunto de etapas como um procedimento único:
 
 1. Como esse recurso usa a funcionalidade do Azure Active Directory, siga as instruções na documentação do Azure Active Directory para habilitar o suporte de rótulos de confidencialidade: [Atribuir rótulos de confidencialidade aos grupos do Microsoft 365 no Azure Active Directory](/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels).
 
@@ -71,7 +74,7 @@ Depois de habilitar e configurar os rótulos de confidencialidade dos contêiner
 
 ## <a name="how-to-configure-groups-and-site-settings"></a>Como definir grupos e configurações de site
 
-Ativar rótulos de confidencialidade para contêineres significa que agora você pode definir as configurações de proteção para grupos e sites no assistente de rotulagem de confidencialidade. Até que você habilite este suporte, as configurações ficam visíveis no assistente, mas você não pode defini-las.
+Depois que os rótulos de confidencialidade são habilitados para contêineres conforme descrito na seção anterior, você pode definir as configurações de proteção para grupos e sites no assistente de rotulagem de confidencialidade. Até que os rótulos de confidencialidade sejam habilitados para contêineres, as configurações ficam visíveis no assistente, mas você não pode defini-las.
 
 1. Siga as instruções gerais para [criar ou editar um rótulo de confidencialidade](create-sensitivity-labels.md#create-and-configure-sensitivity-labels) e certifique-se de selecionar **Grupos e sites** para o escopo do rótulo: 
     
@@ -84,7 +87,7 @@ Ativar rótulos de confidencialidade para contêineres significa que agora você
 2. Em seguida, na página **Definir configurações de proteção para grupos e sites**, selecione uma ou ambas as opções disponíveis:
     
     - **Configurações de privacidade e acesso de usuário externo** para definir as configurações de **Privacidade** e **Acesso de usuários externos**. 
-    - **Configurações de acesso ao dispositivo e compartilhamento externo** para definir a configuração **Controlar compartilhamento externo de sites rotulados do Microsoft Office SharePoint Online** e **Acesso de dispositivos não gerenciados**.
+    - **Configurações de compartilhamento externo e acesso condicional** para definir a configuração **Controlar compartilhamento externo de sites rotulados do Microsoft Office SharePoint Online** e **Usar o acesso condicional do Azure Active Directory para proteger sites rotulados do Microsoft Office SharePoint Online**.
 
 3. Se você selecionou **Privacidade e configurações de acesso de usuário externo**, agora defina as seguintes configurações:
     
@@ -98,13 +101,25 @@ Ativar rótulos de confidencialidade para contêineres significa que agora você
     
     - **Acesso de usuário externo**: Controle se o proprietário do grupo pode [adicionar convidados ao grupo](/office365/admin/create-groups/manage-guest-access-in-groups).
 
-4. Se você selecionou **Acesso ao dispositivo e configuração de compartilhamento externo**, agora defina as seguintes configurações:
+4. Se você selecionou **Compartilhamento externo do dispositivo e configurações de acesso ao dispositivo**, agora defina as seguintes configurações:
     
     - **Controle o compartilhamento externo de sites rotulados do Microsoft Office SharePoint Online**: Selecione esta opção para selecionar o compartilhamento externo para qualquer pessoa, convidados novos e existentes, convidados existentes ou apenas pessoas em sua organização. pessoas em sua organização. Para obter mais informações sobre essa configuração e definições, confira a documentação do Microsoft Office SharePoint Online, [Ativar ou desativar o compartilhamento externo para um site](/sharepoint/change-external-sharing-site).
     
-    - **Acesso de dispositivos não gerenciados**: esta opção usa o recurso do Microsoft Office SharePoint Online que usa o acesso condicional do Microsoft Azure Active Directory para bloquear ou limitar o acesso ao conteúdo do Microsoft Office SharePoint Online e OneDrive de dispositivos não gerenciados. Para obter mais informações, consulte [Controle de acesso de dispositivos não gerenciados](/sharepoint/control-access-from-unmanaged-devices) na documentação do Microsoft Office SharePoint Online. A opção que você especifica para esta configuração de rótulo é o equivalente a executar um comando Windows PowerShell para um site, conforme descrito nas etapas 3 a 5 de [Bloquear ou limitar o acesso a um site específico do Microsoft Office SharePoint Online ou seção OneDrive](/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive) das instruções do Microsoft Office SharePoint Online.
-        
-        Para obter informações adicionais, consulte [Mais informações sobre as dependências da opção de dispositivos não gerenciados](#more-information-about-the-dependencies-for-the-unmanaged-devices-option) no final desta seção.
+    - **Use o Acesso Condicional do Azure Active Directory para proteger sites rotulados do Microsoft Office SharePoint Online**: selecione essa opção apenas se sua organização tiver configurado e estiver usando o [Acesso Condicional do Azure Active Directory](/azure/active-directory/conditional-access/overview). Em seguida, selecione uma das seguintes configurações:
+    
+        - **Determine se os usuários podem acessar sites do Microsoft Office SharePoint Online de dispositivos não gerenciados**: esta opção usa o recurso do Microsoft Office SharePoint Online que usa o acesso condicional do Azure Active Directory para bloquear ou limitar o acesso ao conteúdo do Microsoft Office SharePoint Online e OneDrive de dispositivos não gerenciados. Para obter mais informações, consulte [Controle de acesso de dispositivos não gerenciados](/sharepoint/control-access-from-unmanaged-devices) na documentação do Microsoft Office SharePoint Online. A opção que você especifica para esta configuração de rótulo é o equivalente a executar um comando Windows PowerShell para um site, conforme descrito nas etapas 3 a 5 de [Bloquear ou limitar o acesso a um site específico do Microsoft Office SharePoint Online ou seção OneDrive](/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive) das instruções do Microsoft Office SharePoint Online.
+            
+            Para obter informações adicionais de configuração, confira [Mais informações sobre as dependências da opção de dispositivos não gerenciados](#more-information-about-the-dependencies-for-the-unmanaged-devices-option) no final desta seção.
+            
+        - **Escolha um contexto de autenticação existente**: atualmente na prévia, esta opção permite que você aplique condições de acesso mais rigorosas quando os usuários acessam sites do Microsoft Office SharePoint Online que têm este rótulo aplicado. Essas condições são aplicadas quando você seleciona um contexto de autenticação existente que foi criado e publicado para a implantação de Acesso Condicional da sua organização. Se os usuários não atenderem às condições configuradas ou se usarem aplicativos que não oferecem suporte a contextos de autenticação, o acesso será negado.
+            
+            Para obter informações adicionais de configuração, confira [Mais informações sobre as dependências da opção de contexto de autenticação](#more-information-about-the-dependencies-for-the-authentication-context-option) no final desta seção.
+            
+            Exemplos para esta configuração de rótulo:
+            
+             - Você escolhe um contexto de autenticação configurado para exigir [autenticação multifator (MFA)](/azure/active-directory/conditional-access/untrusted-networks). Esse rótulo é então aplicado a um site do Microsoft Office SharePoint Online que contém itens altamente confidenciais. Como resultado, quando os usuários de uma rede não confiável tentam acessar um documento neste site, eles veem o prompt do MFA que devem ser preenchidos antes de acessar o documento.
+             
+             - Você escolhe um contexto de autenticação que é configurado para políticas de [termos de uso (ToU)](/azure/active-directory/conditional-access/terms-of-use). Esse rótulo é então aplicado a um site do Microsoft Office SharePoint Online que contém itens que exigem a aceitação dos termos de uso por motivos legais ou de conformidade. Como resultado, quando os usuários tentam acessar um documento neste site, eles veem um documento de termos de uso que devem aceitar antes de acessar o documento original.
 
 > [!IMPORTANT]
 > Só essas configurações de site e grupo entrarão em vigor quando você aplicar um rótulo a uma equipe, grupo ou site. Se o [escopo do rótulo](sensitivity-labels.md#label-scopes) inclui arquivos e emails, outras configurações de rótulo, como criptografia e marcação de conteúdo, não são aplicadas ao conteúdo da equipe, grupo ou site.
@@ -118,6 +133,43 @@ Se você não configurar a política de acesso condicional dependente conforme d
 Por exemplo, se seu locatário estiver configurado para **Permitir acesso limitado apenas à Web**, a configuração de rótulo que permite acesso total não terá efeito porque é menos restritiva. Para esta configuração de nível de locatário, escolha a configuração de rótulo para bloquear o acesso (mais restritiva) ou a configuração de rótulo para acesso limitado (a mesma que a configuração do locatário).
 
 Como você pode configurar o SharePoint separadamente da configuração do rótulo, não há verificação no assistente do rótulo de confidencialidade de que as dependências estejam no lugar. Essas dependências podem ser configuradas depois que o rótulo é criado e publicado, e mesmo depois que o rótulo é aplicado. No entanto, se o rótulo já estiver aplicado, a configuração do rótulo não entrará em vigor até a próxima autenticação do usuário.
+
+##### <a name="more-information-about-the-dependencies-for-the-authentication-context-option"></a>Mais informações sobre as dependências da opção de contexto de autenticação
+
+Para exibir na lista suspensa para seleção, os contextos de autenticação devem ser criados, configurados e publicados como parte de sua configuração de acesso de condição do Azure Active Directory. Para obter mais informações e instruções, confira a seção [Configurar contextos de autenticação](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#configure-authentication-contexts) da documentação de Acesso Condicional do Azure Active Directory.
+
+Nem todos os aplicativos oferecem suporte a contextos de autenticação. Se um usuário com um aplicativo sem suporte se conectar ao site configurado para um contexto de autenticação, ele verá uma mensagem de acesso negado ou será solicitado a autenticar, mas foi rejeitado. Os aplicativos que atualmente oferecem suporte a contextos de autenticação:
+
+- Office na Web, que inclui Outlook para a web
+
+- Microsoft Planner
+
+- Microsoft 365 Apps para Word, Excel e PowerPoint; versões mínimas:
+    - Windows: 2103
+    - macOS: 16.45.1202
+    - iOS: 2.48.303
+    - Android: 16.0.13924.10000
+
+- Microsoft 365 Apps para Outlook; versões mínimas:
+    - Windows: 2103
+    - macOS: 16.45.1202
+    - iOS: 4.2109.0
+    - Android: 4.2025.1
+
+- Aplicativo de Sincronização do Microsoft OneDrive, versões mínimas:
+    - Windows: 21.002
+    - macOS: 21.002
+    - iOS: lançamento em 12h30
+    - Android: ainda sem suportado
+
+Limitações conhecidas para esta prévia:
+
+- Para o aplicativo de Sincronização do Microsoft OneDrive, compatível apenas com OneDrive e não para outros sites.
+
+- Os seguintes recursos e aplicativos podem ser incompatíveis com contextos de autenticação, portanto, recomendamos que você verifique se eles continuam a funcionar depois que um usuário acessar um site usando um contexto de autenticação:
+    
+    - Fluxos de trabalho que usam PowerApps ou Power Automate
+    - Aplicativos de terceiros
 
 ## <a name="sensitivity-label-management"></a>Gerenciamento de rótulo de confidencialidade
 

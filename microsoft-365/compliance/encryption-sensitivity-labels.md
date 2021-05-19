@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Configure rótulos de confidencialidade para criptografia que protege seus dados restringindo o acesso e o uso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6163e48e3e80b76506d970b77d6cd66f7a050d51
-ms.sourcegitcommit: 8c89bc1d106b4716b07a1977d57e4d9ef98aecb3
+ms.openlocfilehash: 804cfa9da39b5dc9b9dffdcd68fb196e8676f9af
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "52079254"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52532081"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia
 
@@ -65,7 +65,9 @@ Quando você usa essa solução de criptografia, o **recurso de superusuário** 
 
 4.  Na página **Criptografia** do assistente, selecione uma das seguintes opções:
     
-    - **Remova a criptografia se o arquivo estiver criptografado**: Para obter mais informações sobre este cenário, consulte a seção [O que acontece com a criptografia existente quando um rótulo é aplicado](#what-happens-to-existing-encryption-when-a-labels-applied). É importante entender que essa configuração pode resultar em um rótulo de confidencialidade que os usuários podem não ser capazes de aplicar quando não têm permissões suficientes.
+    - **Remova a criptografia se o arquivo estiver criptografado**: esta opção é compatível apenas com o cliente de rotulagem unificada da Proteção de Informações do Microsoft Azure. Quando você seleciona esta opção e usa rotulagem embutida, a etiqueta pode não ser exibida em aplicativos ou exibida e não fazer nenhuma alteração de criptografia.
+        
+        Para obter mais informações sobre este cenário, confira a seção [O que acontece com a criptografia existente quando um rótulo é aplicado](#what-happens-to-existing-encryption-when-a-labels-applied). É importante entender que essa configuração pode resultar em um rótulo de confidencialidade que os usuários podem não ser capazes de aplicar quando não têm permissões suficientes.
     
     - **Definir configurações de criptografia**: Ativa a criptografia e torna as configurações de criptografia visíveis:
         
@@ -85,13 +87,17 @@ No entanto, conteúdo pode já estar criptografado. Por exemplo, outro usuário 
 
 A tabela a seguir identifica o que acontece com uma criptografia existente quando um rótulo de confidencialidade é aplicado ao conteúdo:
 
-| | Criptografia: não selecionada | Criptografia: Configurada | Criptografia: remover |
+| | Criptografia: não selecionada | Criptografia: Configurada | Criptografia: remover <sup>\*</sup> |
 |:-----|:-----|:-----|:-----|
 |**Permissões especificadas por um usuário**|A criptografia original é preservada|A criptografia de novo rótulo é aplicada|A criptografia original é removida|
 |**Modelo de proteção**|A criptografia original é preservada|A criptografia de novo rótulo é aplicada|A criptografia original é removida|
 |**Rótulo com permissões definidas por administrador**|A criptografia original é removida|A criptografia de novo rótulo é aplicada|A criptografia original é removida|
 
-Observe que, em casos em que a nova criptografia de rótulo é aplicada ou a criptografia original é removida, isso só acontece se o usuário que está aplicando o rótulo tiver um direito de uso ou função que dê suporte a essa ação:
+**Rodapé:**
+
+<sup>\*</sup> Suportado apenas pelo cliente de rotulagem unificada da Proteção de Informações do Azure
+
+Nos casos em que a nova criptografia de rótulo é aplicada ou a criptografia original é removida, isso acontece apenas se o usuário que aplica o rótulo tiver um direito de uso ou função que ofereça suporte a esta ação:
 
 - O [direito de uso](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) Exportar ou Controle Total.
 - A função do [emissor de Gerenciamento de Direitos ou do proprietário de Gerenciamento de Direitos](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) ou [superusuário](/azure/information-protection/configure-super-users).
@@ -269,11 +275,11 @@ Quando uma dessas opções é aplicada a um email, o email é criptografado e os
 
 - **Não Encaminhar**: os destinatários não podem encaminhar o email, imprimi-lo ou copiá-lo. Por exemplo, no cliente do Outlook, o botão Encaminhar não está disponível, as opções do menu Salvar Como e Imprimir não estão disponíveis, e você não pode adicionar ou alterar destinatários nas caixas Para, CC ou Cco.
     
-    Para saber mais sobre como essa opção funciona, confira [opção Não Encaminhar para emails](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails).
+    Para saber mais sobre como essa opção funciona, confira [opção Não Encaminhar para emails](/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails).
 
 - **Criptografar Somente**: os destinatários têm todos os direitos de uso, exceto Salvar como, Exportar e Controle Total. Essa combinação de direitos de uso significa que os destinatários não têm restrições, exceto que não podem remover a proteção. Por exemplo, um destinatário pode copiar do email, imprimi-lo e encaminhá-lo.
     
-    Para saber mais sobre como essa opção funciona, confira [opção Criptografar Somente para emails](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#encrypt-only-option-for-emails).
+    Para saber mais sobre como essa opção funciona, confira [opção Criptografar Somente para emails](/azure/information-protection/configure-usage-rights#encrypt-only-option-for-emails).
 
 Os documentos do Office não criptografados anexados ao email herdam automaticamente as mesmas restrições. Para a opção Não Encaminhar, os direitos de uso aplicados a esses documentos são Editar Conteúdo, Editar; Salvar, Exibir, Abrir, Ler; e Permitir Macros. Se o usuário quiser direitos de uso diferentes para um anexo, ou se o anexo não for um documento do Office compatível com essa proteção herdada, o usuário precisará criptografar o arquivo antes de anexá-lo ao email.
 

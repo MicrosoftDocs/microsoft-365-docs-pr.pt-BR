@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: f3dba2116e0f13f265937ef65fd3b69bcb1e725b
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 9e82f1c5de9fe1f4a03385458338edf18c4f35bd
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274647"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538838"
 ---
 # <a name="view-and-manage-actions-in-the-action-center"></a>Exibir e gerenciar ações no Centro de Ações
 
@@ -98,4 +98,4 @@ Se você tiver determinado que um dispositivo ou um arquivo não é uma ameaça,
 ## <a name="next-steps"></a>Próximas etapas
 
 - [Exibir os detalhes e resultados de uma investigação automatizada](m365d-autoir-results.md)
-- [Endereço de falsos positivos ou falsos negativos)](m365d-autoir-report-false-positives-negatives.md)
+- [Resolver falsos positivos ou falsos negativos](m365d-autoir-report-false-positives-negatives.md)

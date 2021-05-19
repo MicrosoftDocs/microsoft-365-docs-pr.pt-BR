@@ -17,13 +17,14 @@ ms.collection:
 - m365solution-securecollab
 ms.custom:
 - Ent_Solutions
+recommendations: false
 description: Aprenda a implantar equipes com um nível de linha de base de proteção.
-ms.openlocfilehash: db1a58fd06a62240cbcfcc74f83ba6196f33df80
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: ec8c2a1a5c4480ffd36b77fe9e9accc91214c6a3
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114289"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538202"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Configurar equipes com proteção de linha de base
 

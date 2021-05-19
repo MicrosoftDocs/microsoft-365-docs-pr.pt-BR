@@ -13,18 +13,18 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Saiba mais sobre as práticas recomendadas para gerenciar os muitos tópicos em sua organização usando Tópicos do Viva.
-ms.openlocfilehash: 3246c7e91c315dadb6c2b14008c9a4da378409d5
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: dd9fe658d4f698ac50563b5c9ea141a090f6141d
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333901"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538406"
 ---
 # <a name="manage-topics-at-scale-in-microsoft-viva-topics"></a>Gerenciar tópicos em escala nos Tópicos do Microsoft Viva
 
 Quando você indexa seus SharePoint sites ou toda a sua organização para Tópicos do Viva, muitos tópicos podem ser gerados. Quando isso acontece e você vê milhares de tópicos sugeridos na página **Gerenciar tópicos,** pode ser um desafio saber por onde começar. Este artigo descreve como os Tópicos do Viva ajudam a otimizar quais tópicos e informações são mostrados aos usuários que estão procurando informações, mesmo em grandes organizações com um grande número de tópicos.
 
-Primeiro, um lembrete dos quatro estados para tópicos:
+Primeiro, um lembrete dos [quatro estágios dos tópicos](manage-topics.md#topic-stages):
 
 - **Sugerido**: um tópico foi identificado pela IA e tem recursos, conexões e propriedades de suporte suficientes. (Eles são marcados como **um Tópico Sugerido** na interface do usuário.)
 

@@ -1,5 +1,5 @@
 ---
-title: Política de nomeação de grupos do Microsoft 365
+title: Microsoft 365 de nomeação de grupos
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -16,22 +16,23 @@ ms.collection:
 search.appverid:
 - MET150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
-description: Saiba como criar uma política de nomen por grupos do Microsoft 365.
-ms.openlocfilehash: 7fd2ea36b536924d85c7ca09b55593161a24dbe4
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+recommendations: false
+description: Saiba como criar uma política de nomen por Microsoft 365 grupos.
+ms.openlocfilehash: 5ab5f252e2b81470413b4efea17b131613aabc18
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921043"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538166"
 ---
-# <a name="microsoft-365-groups-naming-policy"></a>Política de nomeação de grupos do Microsoft 365
+# <a name="microsoft-365-groups-naming-policy"></a>Microsoft 365 de nomeação de grupos
 
 Você pode usar uma política de nomenis de grupo para impor uma estratégia de nomenisão consistente para grupos criados pelos usuários em sua organização. Uma política de nomenrção pode ajudar você e seus usuários a identificar a função do grupo, associação, região geográfica ou quem criou o grupo. A política de nomenrção também pode ajudar a categorizar grupos no livro de endereços. Você pode usar a política para impedir que palavras específicas são usadas em nomes de grupo e aliases.
 
-A política de nomenisagem é aplicada a grupos criados em todas as cargas de trabalho de grupos (como Outlook, Microsoft Teams, SharePoint, Planner, Yammer, etc.). Ele é aplicado ao nome do grupo e ao alias do grupo. Ele também é aplicado quando um usuário cria um grupo e quando o nome do grupo, alias, descrição ou avatar é editado para um grupo existente.
+A política de nomenisagem é aplicada a grupos criados em todas as cargas de trabalho de grupos (como Outlook, Microsoft Teams, SharePoint, Planner, Yammer etc.). Ele é aplicado ao nome do grupo e ao alias do grupo. Ele também é aplicado quando um usuário cria um grupo e quando o nome do grupo, alias, descrição ou avatar é editado para um grupo existente.
 
 > [!TIP]
-> Uma política de nomenis de grupo do Microsoft 365 só se aplica a grupos do Microsoft 365. Ele não se aplica a grupos de distribuição criados no Exchange Online. Para criar uma política de nomenisão para grupos de distribuição, consulte [Create a distribution group noming policy](/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy).
+> Uma Microsoft 365 de nomenis de grupo só se aplica a Microsoft 365 grupos. Ele não se aplica a grupos de distribuição criados em Exchange Online. Para criar uma política de nomenisão para grupos de distribuição, consulte [Create a distribution group noming policy](/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy).
 
 A política de nomenisagem de grupo consiste nos seguintes recursos:
 
@@ -39,9 +40,9 @@ A política de nomenisagem de grupo consiste nos seguintes recursos:
 
 - **Palavras bloqueadas** personalizadas: você pode carregar um conjunto de palavras bloqueadas específicas para sua organização que seriam bloqueadas em grupos criados pelos usuários. (Por exemplo: "CEO, Folha de Pagamento, RH").
 
-## <a name="licensing-requirements"></a>Requisitos de licença
+## <a name="licensing-requirements"></a>Requisitos de licenciamento
 
-O uso da política de nomenização do Azure AD para grupos do Microsoft 365 exige que você possua, mas não necessariamente atribua uma licença do Azure Active Directory Premium P1 ou uma licença do Azure AD Basic EDU para cada usuário exclusivo (incluindo convidados) que seja membro de um ou mais grupos do Microsoft 365.
+O uso da política de nomenização do Azure AD para grupos do Microsoft 365 exige que você possua, mas não necessariamente atribua uma licença P1 do Azure Active Directory Premium ou uma licença do Azure AD Basic EDU para cada usuário exclusivo (incluindo convidados) que seja membro de um ou mais grupos Microsoft 365.
 
 Isso também é necessário para o administrador que cria a política de nomenrção de grupos.
 
@@ -63,7 +64,7 @@ Exemplos:
 - Departamento do usuário = Engenharia
 - Nome do grupo criado = "GRP My Group Engineering"
 
-Os atributos do Azure Active Directory (Azure AD) suportados são [Department], [Company], [Office], [StateOrProvince], [CountryOrRegion], e [Title].
+Os atributos Azure Active Directory (Azure AD) são [Department], [Company], [Office], [StateOrProvince], [CountryOrRegion], e [Title].
 
 - Atributos de usuário sem suporte são considerados como cadeias de caracteres fixas, por exemplo [postalCode].
 
@@ -80,13 +81,13 @@ Os atributos do Azure Active Directory (Azure AD) suportados são [Department], 
   > [!NOTE]
   > Um ponto (.) ou um hífen (-) é permitido em qualquer lugar no nome do grupo, exceto no início ou no final do nome. Um sublinhado (_) é permitido em qualquer lugar no nome do grupo, incluindo no início ou no final do nome.
 
-- Se você estiver usando grupos conectados do Yammer Office 365, evite usar os seguintes caracteres em sua política de nomenisagem: @, \# \[ , , , \] \<, and \> . Se esses caracteres estão na política de nomenlagem, os usuários regulares do Yammer não poderão criar grupos.
+- Se você estiver usando Yammer Office 365 grupos conectados, evite usar os seguintes caracteres em sua política de nomenisagem: @, \# \[ , , , \] \<, and \> . Se esses caracteres estão na política de nomenisagem, Yammer usuários regulares não poderão criar grupos.
 
 > [!Tip]
 > - Use cadeias de caracteres curtas como sufixo.
 > - Use atributos com valores.
 > - Não seja muito criativo, o comprimento total do nome tem no máximo 264 caracteres.
-> - Carregue palavras bloqueadas específicas da sua organização para restringir o uso.
+> - Upload palavras bloqueadas específicas da sua organização para restringir o uso.
 
 ## <a name="custom-blocked-words"></a>Palavras bloqueadas personalizadas
 
@@ -120,8 +121,8 @@ Alguns administradores são isentos dessas políticas, em todas as cargas de tra
 
 Para configurar uma política de nomenrção:
 
-1. No [Azure Active Directory](https://aad.portal.azure.com), em **Gerenciar,** clique em **Grupos**.
-2. Em **Configurações,** clique **em Política de Nomenl.**
+1. Em [Azure Active Directory](https://aad.portal.azure.com), em **Gerenciar,** clique em **Grupos**.
+2. Em **Configurações,** clique **em Política de Nomenis.**
 3. Escolha a **guia Política de nomenis de** grupo.
 4. Em **Política atual,** escolha se deseja exigir um prefixo ou sufixo ou ambos e selecione as caixas de seleção apropriadas.
 5. Escolha entre **Atributo** e **Cadeia de** Caracteres para cada linha e especifique o atributo ou a cadeia de caracteres.

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 1921c0985128b49e3f8e11a29df8bc75cdbda829
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: dcae50150eb3b21e65e68a5cea376a0cdef31a65
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114377"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538442"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -482,7 +482,7 @@ O **painel Relatórios** contém os seguintes widgets de relatório e links deta
 Em alguns casos, você deve fornecer informações aos auditores regulatórios ou de conformidade para comprovar a supervisão das atividades e comunicações do usuário. Essas informações podem ser um resumo de todas as atividades associadas a uma política organizacional definida ou sempre que uma política de conformidade de comunicação muda. As políticas de conformidade de comunicação têm trilhas de auditoria internas para preparação completa para auditorias internas ou externas. Os históricos de auditoria detalhados de cada ação de criação, edição e exclusão são capturados por suas políticas de comunicação para fornecer uma prova dos procedimentos de supervisão.
 
 >[!Important]
->A auditoria deve ser habilitada para sua organização antes que os eventos de conformidade de comunicação sejam gravados. Para habilitar a auditoria, consulte [Enable the audit log](communication-compliance-configure.md#step-2-required-enable-the-audit-log).
+>A auditoria deve ser habilitada para sua organização antes que os eventos de conformidade de comunicação sejam gravados. Para habilitar a auditoria, consulte [Enable the audit log](communication-compliance-configure.md#step-2-required-enable-the-audit-log). Quando as atividades disparam eventos capturados no log de auditoria Microsoft 365, pode levar até 48 horas para que esses eventos possam ser exibidos em políticas de conformidade de comunicação.
 
 Para exibir as atividades de atualização da política de conformidade de comunicação, selecione o **controle Exportar** atualizações de política na página principal de qualquer política. Você deve receber as funções *Administrador Global* de Conformidade ou Administrador de *Conformidade* de Comunicação para exportar atividades de atualização. Essa ação gera um arquivo de auditoria no formato .csv que contém as seguintes informações:
 

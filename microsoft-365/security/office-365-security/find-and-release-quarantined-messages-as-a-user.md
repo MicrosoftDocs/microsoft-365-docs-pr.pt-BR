@@ -20,12 +20,12 @@ ms.custom:
 description: Os usuários podem aprender como exibir e gerenciar mensagens em quarentena no Exchange Online Protection (EOP) que deveriam ter sido entregues a eles.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 036aa164b8b77efd2365d56c07d26870eac243f5
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 68656d21b8c10157ebae5d030e56293ba1ce07f7
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274443"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539114"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Localizar e liberar mensagens em quarentena como usuário no EOP
 
@@ -54,7 +54,7 @@ Como usuário, você pode exibir, liberar e excluir mensagens em quarentena em q
 
 ## <a name="view-your-quarantined-messages"></a>Visualizar suas mensagens em quarentena
 
-1. No Centro de segurança e conformidade, vá para **Gerenciamento de ameaças** \> **Revisão** \> **Quarentena**.
+1. No Centro de Conformidade e Segurança, vá para **Gerenciamento de ameaças** \> **Análise** \> **Quarentena**.
 
 2. Você pode classificar os resultados clicando em um cabeçalho de coluna disponível. Clique em **Modificar colunas** para exibir um máximo de sete colunas. Os valores padrão são marcados com um asterisco (<sup>\*</sup>):
 

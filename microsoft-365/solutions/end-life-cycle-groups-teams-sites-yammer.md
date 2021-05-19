@@ -14,13 +14,14 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
+recommendations: false
 description: Opções de fim de ciclo de vida para grupos, equipes e Yammer.
-ms.openlocfilehash: 468f41df747b6cf12d3f6619d79cb97248eba1d1
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: fccdf838b7ebec6a1ab1fae2f709824bfbd3b6d1
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346421"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538826"
 ---
 # <a name="end-of-lifecycle-options-for-groups-teams-and-yammer"></a>Opções de fim de ciclo de vida para grupos, equipes e Yammer
 
@@ -197,7 +198,7 @@ Se você precisar do relatório depois que o grupo ou a equipe for excluído, el
 
 Em vez disso, se o relatório não precisar mais estar ativo, mas os dados precisarem ser mantidos, ele poderá ser [exportado](/power-bi/visuals/power-bi-visualization-export-data)para Excel .
 
-## <a name="project"></a>Project
+## <a name="project"></a>Projeto
 
 Projetos e roteiros criados no Project para a Web são associados a grupos Microsoft 365 e têm abordagens para o off-boarding semelhante ao Power BI.
 
@@ -265,3 +266,7 @@ As conversas podem ser movidas para outro Yammer grupo por qualquer usuário, n�
 **Exportar dados de rede**
 
 Yammer administradores de rede [exportam dados de rede.](/yammer/manage-security-and-compliance/export-yammer-enterprise-data) No entanto, isso exportará todas as conversas para toda a rede. A exportação resultante lista a ID do Grupo. É possível filtrar conversas com base nessa ID.
+
+## <a name="related-topics"></a>Tópicos relacionados
+
+[Remover um ex-funcionário e proteger dados](/microsoft-365/admin/add-users/remove-former-employee)

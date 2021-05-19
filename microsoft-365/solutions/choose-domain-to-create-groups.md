@@ -1,5 +1,5 @@
 ---
-title: Escolha o domínio a ser usado ao criar grupos do Microsoft 365
+title: Escolha o domínio a ser usado ao criar Microsoft 365 grupos
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -16,21 +16,22 @@ ms.collection:
 search.appverid:
 - MET150
 ms.assetid: 7cf5655d-e523-4bc3-a93b-3ccebf44a01a
-description: Aprenda a escolher o domínio a ser usado ao criar grupos do Microsoft 365 configurando políticas de endereço de email usando o PowerShell.
-ms.openlocfilehash: 4908d5bd58ca6d0fbb50151983ddb459f0732284
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+recommendations: false
+description: Aprenda a escolher o domínio a ser usado ao criar grupos Microsoft 365 configurando políticas de endereço de email usando o PowerShell.
+ms.openlocfilehash: a0142ea5f5aa088c4be79fc8699a616d9cdd9390
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904679"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538214"
 ---
-# <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a>Escolha o domínio a ser usado ao criar grupos do Microsoft 365
+# <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a>Escolha o domínio a ser usado ao criar Microsoft 365 grupos
 
-Algumas organizações usam domínios de email separados para segmentar diferentes partes do negócio. Você pode especificar qual domínio deve ser usado quando seus usuários criarem grupos do Microsoft 365.
+Algumas organizações usam domínios de email separados para segmentar diferentes partes do negócio. Você pode especificar qual domínio deve ser usado quando seus usuários criarem Microsoft 365 grupos.
   
 Se sua organização precisar que os usuários criem seus grupos em domínios diferentes do domínio aceito padrão da sua empresa, você poderá permitir isso configurando as políticas de endereço de email (EAPs) usando o PowerShell.
 
-Antes de executar os cmdlets do PowerShell, baixe e instale um módulo que permitirá que você fale com sua organização. Confira [Conectar-se ao Exchange Online usando o PowerShell remoto.](/powershell/exchange/connect-to-exchange-online-powershell)
+Antes de executar os cmdlets do PowerShell, baixe e instale um módulo que permitirá que você fale com sua organização. Confira o [Conexão para Exchange Online usando o PowerShell remoto.](/powershell/exchange/connect-to-exchange-online-powershell)
 
 ## <a name="example-scenarios"></a>Exemplos de cenários
 
@@ -45,11 +46,11 @@ Digamos que você também tenha sub-domínios configurados em sua organização.
 Os dois cenários a seguir explicam como você faria isso.
 
 > [!NOTE]
-> Quando você tem EAPs mulitple, eles são avaliados na ordem de prioridade. Um valor 1 significa a prioridade mais alta. Depois que um EAP corresponder, nenhum EAP posterior é avaliado e os endereços que são carimbados no grupo são conforme o EAP coincidente. > Se nenhum EAPs corresponder aos critérios especificados, o grupo será provisionado no domínio aceito padrão da organização. Confira [Gerenciar domínios aceitos no Exchange Online](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) para obter detalhes sobre como adicionar um domínio aceito.
+> Quando você tem EAPs mulitple, eles são avaliados na ordem de prioridade. Um valor 1 significa a prioridade mais alta. Depois que um EAP corresponder, nenhum EAP posterior é avaliado e os endereços que são carimbados no grupo são conforme o EAP coincidente. > Se nenhum EAPs corresponder aos critérios especificados, o grupo será provisionado no domínio aceito padrão da organização. Confira [Gerenciar domínios aceitos Exchange Online](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) para obter detalhes sobre como adicionar um domínio aceito.
   
 ### <a name="scenario-1"></a>Cenário 1
 
-O exemplo a seguir mostra como provisionar todos os grupos do Microsoft 365 em sua organização no groups.contoso.com domínio.
+O exemplo a seguir mostra como provisionar todos os grupos Microsoft 365 em sua organização no groups.contoso.com domínio.
   
 ```
 New-EmailAddressPolicy -Name Groups -IncludeUnifiedGroupRecipients -EnabledEmailAddressTemplates "SMTP:@groups.contoso.com" -Priority 1
@@ -57,7 +58,7 @@ New-EmailAddressPolicy -Name Groups -IncludeUnifiedGroupRecipients -EnabledEmail
 
 ### <a name="scenario-2"></a>Cenário 2
 
-Digamos que você queira controlar em quais sub-domínios os grupos do Microsoft 365 são criados. Você quer:
+Digamos que você queira controlar em quais sub-domínios Microsoft 365 grupos são criados. Você quer:
   
 - Grupos criados por alunos (usuários que têm **o Departamento** definido como **Alunos**) no students.groups.contoso.com domínio. Use este comando:
     
@@ -100,7 +101,7 @@ Alterar um EAP não afeta os grupos que já foram provisionados.
   
 ## <a name="hybrid-requirements"></a>Requisitos híbridos
 
-Se sua organização estiver configurada em um cenário híbrido, confira Configurar grupos do [Microsoft 365](/exchange/hybrid-deployment/set-up-microsoft-365-groups) com o Exchange híbrido local para garantir que sua organização atenda aos requisitos para criar grupos do Microsoft 365. 
+Se sua organização estiver configurada em um cenário híbrido, confira Configure Microsoft 365 groups with [on-premises Exchange hybrid](/exchange/hybrid-deployment/set-up-microsoft-365-groups) para garantir que sua organização atenda aos requisitos para criar grupos Microsoft 365 locais. 
   
 ## <a name="additional-info-about-using-email-address-policies-groups"></a>Informações adicionais sobre como usar grupos de políticas de endereço de email:
 
@@ -124,4 +125,4 @@ Há mais algumas coisas a saber:
 
 [Criar seu plano de governança de colaboração](collaboration-governance-first.md)
 
-[Criar um grupo do Microsoft 365 no centro de administração](../admin/create-groups/create-groups.md)
+[Criar um Microsoft 365 no centro de administração](../admin/create-groups/create-groups.md)

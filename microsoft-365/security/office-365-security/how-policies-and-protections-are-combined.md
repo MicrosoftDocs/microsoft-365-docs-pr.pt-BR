@@ -14,15 +14,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem aprender sobre a ordem de aplicativos de proteções no Exchange Online Protection (EOP) e como o valor de prioridade nas políticas de proteção determina qual política é aplicada.
+description: Os administradores podem aprender sobre a ordem de aplicativos de proteções no Proteção do Exchange Online (EOP) e como o valor de prioridade nas políticas de proteção determina qual política é aplicada.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8cd2809fa69064c2058516f459eeba60683c91b9
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 24d43aeb70e2cdef4bdf65fd3943cdfda9ec3862
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51930372"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539006"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Ordem e precedência da proteção de email
 
@@ -33,7 +33,7 @@ ms.locfileid: "51930372"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Em organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, os emails de entrada podem ser sinalizados por várias formas de proteção. Por exemplo, as políticas anti-phishing internas no EOP que estão disponíveis para todos os clientes do Microsoft 365 e as políticas anti-phishing mais robustas que estão disponíveis para os clientes do Microsoft Defender para Office 365. As mensagens também passam por várias verificações de detecção de malware, spam, phishing etc. Devido a toda essa atividade, pode haver alguma confusão sobre qual política é aplicada.
+Em organizações Microsoft 365 com caixas de correio em organizações Exchange Online ou autônomas Proteção do Exchange Online (EOP) sem Exchange Online caixas de correio, os emails de entrada podem ser sinalizados por várias formas de proteção. Por exemplo, as políticas anti-phishing internas no EOP que estão disponíveis para todos os clientes Microsoft 365 e as políticas anti-phishing mais robustas que estão disponíveis para o Microsoft Defender para clientes Office 365. As mensagens também passam por várias verificações de detecção de malware, spam, phishing etc. Devido a toda essa atividade, pode haver alguma confusão sobre qual política é aplicada.
 
 Em geral, uma política aplicada a uma mensagem é identificada no header **X-Forefront-Antispam-Report** na **propriedade CAT (Categoria).** Para obter mais informações, consulte [Cabeçalhos de mensagem antispam](anti-spam-message-headers.md).
 
@@ -45,31 +45,31 @@ Há dois fatores principais que determinam qual política é aplicada a uma mens
 
   ****
 
-  |Priority|Proteção por email|Categoria|Onde gerenciar|
+  |Prioridade|Proteção por email|Categoria|Onde gerenciar|
   |---|---|---|---|
   |1|Malware|CAT:MALW|[Configurar políticas anti-malware no EOP](configure-anti-malware-policies.md)|
   |2|Phishing|CAT:PHSH|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |3|Spam de alta confiança|CAT:HSPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
-  |4 |Spoofing|CAT:SPOOF|[Configurar a inteligência de spoof no EOP](learn-about-spoof-intelligence.md)|
+  |4 |Spoofing|CAT:SPOOF|[Spoof intelligence insight in EOP](learn-about-spoof-intelligence.md)|
   |5<sup>\*</sup>|Representação do usuário (usuários protegidos)|UIMP|[Configurar políticas anti-phishing no Microsoft Defender para Office 365](configure-atp-anti-phishing-policies.md)|
   |6<sup>\*</sup>|Representação de domínio (domínios protegidos)|DIMP|[Configurar políticas anti-phishing no Microsoft Defender para Office 365](configure-atp-anti-phishing-policies.md)|
   |7 |Spam|CAT:SPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |8 |Em massa|CAT:BULK|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |
 
-  <sup>\*</sup> Esses recursos só estão disponíveis em políticas anti-phishing no Microsoft Defender para Office 365.
+  <sup>\*</sup>Esses recursos só estão disponíveis em políticas anti-phishing no Microsoft Defender para Office 365.
 
 - A prioridade da política **:** Para cada tipo de política (anti-spam, anti-malware, anti-phishing, etc.), há uma política padrão que se aplica a todos, mas você pode criar políticas personalizadas que se apliquem a usuários específicos. Cada política personalizada tem um valor de prioridade que determina a ordem na qual as políticas são aplicadas. A política padrão é sempre aplicada por último.
 
   Se um usuário for definido em várias políticas do mesmo tipo, somente a política com a maior prioridade será aplicada a ele. Quaisquer políticas restantes desse tipo não são avaliadas para o usuário (incluindo a política padrão).
 
-Por exemplo, considere as seguintes políticas anti-phishing no Microsoft Defender para Office 365 que se aplicam aos mesmos usuários e uma mensagem identificada como representação de usuário e fraude:
+Por exemplo, considere as seguintes políticas anti-phishing no Microsoft Defender para Office 365 que se aplicam aos mesmos usuários **e** uma mensagem identificada como representação de usuário e fraude:
 
 <br>
 
 ****
 
-|Nome da política|Priority|Representação de usuário|Antifalsificação|
+|Nome da política|Prioridade|Representação de usuário|Antifalsificação|
 |---|---|---|---|
 |Política A|1|Ativada|Desativada|
 |Política B|2|Desativada|Ativada|

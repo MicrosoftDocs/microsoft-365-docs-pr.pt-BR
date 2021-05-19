@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 76bead8fd855e4119db6297d2ab1a3d08d64a48c
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 4fc124bf8787d5880d78a4f5208bd66329da07a0
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297159"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539030"
 ---
 # <a name="prepare-your-security-posture-for-your-first-incident"></a>Preparar sua postura de segurança para o primeiro incidente
 
@@ -47,7 +47,7 @@ Microsoft 365 O Defender pode ajudar a resolver vários aspectos da prevenção 
 
 ## <a name="step-1-implement-zero-trust"></a>Etapa 1. Implementar Confiança Zero
 
-[A](https://docs.microsoft.com/security/zero-trust/) Confiança Zero é uma filosofia de segurança integrada e uma estratégia de ponta a ponta que considera a natureza complexa de qualquer ambiente moderno, incluindo a força de trabalho móvel e os usuários, dispositivos, aplicativos e dados, onde quer que estejam localizados. Ao fornecer um único painel de vidro para gerenciar todas as detecções de ponto de extremidade de forma [](https://docs.microsoft.com/security/zero-trust/#guiding-principles-of-zero-trust) consistente, o Microsoft 365 Defender pode facilitar para a sua equipe de operações de segurança implementar os princípios de orientação da Confiança Zero. 
+[A](https://docs.microsoft.com/security/zero-trust/) Confiança Zero é uma filosofia de segurança integrada e uma estratégia de ponta a ponta que considera a natureza complexa de qualquer ambiente moderno, incluindo a força de trabalho móvel e os usuários, dispositivos, aplicativos e dados, onde quer que estejam localizados. Ao fornecer um único painel de vidro para gerenciar todas as detecções de forma consistente, o Microsoft 365 [](https://docs.microsoft.com/security/zero-trust/#guiding-principles-of-zero-trust) Defender pode facilitar para sua equipe de operações de segurança implementar os princípios orientadores do Zero Trust. 
 
 Os componentes do Microsoft 365 Defender podem exibir violações de regras implementadas para estabelecer políticas de Acesso Condicional para Confiança Zero integrando dados do Microsoft Defender para Ponto de Extremidade (MDE) ou outros fornecedores de segurança móvel como fonte de informações para políticas de conformidade de dispositivo e implementação de políticas de Acesso Condicional baseadas em dispositivo. 
 
@@ -78,6 +78,8 @@ Use [a análise de](threat-analytics.md) ameaças no Microsoft 365 de segurança
 - Vulnerabilidades críticas
 - Superfícies de ataque comuns
 - Malware predominante
+
+A análise de ameaças também analisa sua configuração e alertas para determinar como você está em risco e se há alertas ativos aplicáveis a um relatório.
 
 Você pode implementar as recomendações de uma ameaça emergente para fortalecer sua postura de segurança e minimizar sua área de superfície de ataque.
 

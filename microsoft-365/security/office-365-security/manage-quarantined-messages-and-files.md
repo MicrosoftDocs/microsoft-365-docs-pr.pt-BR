@@ -16,15 +16,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem aprender a exibir e gerenciar mensagens em quarentena para todos os usuários no Exchange Online Protection (EOP). Os administradores em organizações com o Microsoft Defender para Office 365 também podem gerenciar arquivos em quarentena no SharePoint Online, no OneDrive for Business e no Microsoft Teams.
+description: Os administradores podem aprender a exibir e gerenciar mensagens em quarentena para todos os usuários no Proteção do Exchange Online (EOP). Os administradores em organizações com o Microsoft Defender para Office 365 também podem gerenciar arquivos em quarentena no SharePoint Online, OneDrive for Business e Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c5e2d6a3729a24766652d4c7c0973c63b1dcb207
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 508866fd66e4cbd00f559446d4ce52a4be063c94
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52272199"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539102"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Gerenciar arquivos e mensagens em quarentena como administrador no EOP
 
@@ -39,9 +39,9 @@ Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou 
 
 Os administradores podem exibir, liberar e excluir todos os tipos de mensagens em quarentena para todos os usuários. Somente os administradores podem gerenciar mensagens que foram colocadas em quarentena como malware, phishing de alta confiança ou como resultado de regras de fluxo de emails (também conhecidas como regras de transporte). Os administradores também podem relatar falsos positivos à Microsoft.
 
-Os administradores em organizações com o Microsoft Defender para Office 365 também podem exibir, baixar e excluir arquivos em quarentena no SharePoint Online, no OneDrive for Business e no Microsoft Teams.
+Os administradores em organizações com o Microsoft Defender para Office 365 também podem exibir, baixar e excluir arquivos em quarentena no SharePoint Online, OneDrive for Business e Microsoft Teams.
 
-Você visualiza e gerencia mensagens em quarentena no Centro de Conformidade & Segurança ou no PowerShell (Exchange Online PowerShell para organizações do Microsoft 365 com caixas de correio no Exchange Online; PowerShell autônomo do EOP para organizações sem caixas de correio do Exchange Online).
+Você visualiza e gerencia mensagens em quarentena no Centro de Conformidade & Segurança ou no PowerShell (Exchange Online PowerShell para organizações do Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem Exchange Online caixas de correio).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
@@ -59,12 +59,12 @@ Você visualiza e gerencia mensagens em quarentena no Centro de Conformidade & S
 
   - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias _e_ para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
   - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
-  - <sup>\*</sup> Membros do grupo de função **Administrador** de Quarentena também precisam ser membros do grupo de função **Gerenciamento** de Higienização no [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) para realizar procedimentos de quarentena no PowerShell do Exchange Online.
+  - <sup>\*</sup>Os membros **do** grupo de função Administrador  de Quarentena também [](/Exchange/permissions-exo/permissions-exo#role-groups) precisam ser membros do grupo de função Gerenciamento de Higienização no Exchange Online para realizar procedimentos de quarentena no Exchange Online PowerShell.
 
 - As mensagens em quarentena são mantidas por um período de tempo padrão antes que sejam excluídas automaticamente:
   - 30 dias para mensagens em quarentena por políticas anti-spam (spam, phishing e email em massa). Esse é o valor padrão e máximo. Para configurar (mais baixo) esse valor, consulte [Configure anti-spam policies](configure-your-spam-filter-policies.md).
   - 15 dias para mensagens que contêm malware.
-  - 15 dias para arquivos em quarentena por Anexos Seguros para SharePoint, OneDrive e Microsoft Teams no Defender para Office 365.
+  - 15 dias para arquivos em quarentena Cofre anexos para SharePoint, OneDrive e Microsoft Teams no Defender para Office 365.
 
   Quando uma mensagem expira da quarentena, você não pode recuperá-la.
 
@@ -72,7 +72,7 @@ Você visualiza e gerencia mensagens em quarentena no Centro de Conformidade & S
 
 ### <a name="view-quarantined-email"></a>Exibir email em quarentena
 
-1. No Centro de segurança e conformidade, vá para **Gerenciamento de ameaças** \> **Revisão** \> **Quarentena**.
+1. No Centro de Conformidade & segurança, vá para Quarentena de Revisão **de Gerenciamento** \> **de** \> **Ameaças.**
 
 2. Verifique se a **Exibição em quarentena** está definida como o valor padrão **email**.
 
@@ -113,7 +113,7 @@ Você visualiza e gerencia mensagens em quarentena no Centro de Conformidade & S
 
    - **Tipo de Política**: Filtre mensagens por tipo de política:
      - **Política anti-malware**
-     - **Política de Anexos Seguros**
+     - **Cofre Política de anexos**
      - **Política Anti-phish**:
      - **Política de filtro de conteúdo hospedado** (política antispam)
      - **Regra de transporte**
@@ -196,7 +196,7 @@ Depois de selecionar uma mensagem, você tem várias opções para o que fazer c
 
 - **Mensagem de download**: no painel de submenu que é exibido, clique em **Compreendo os riscos de baixar esta mensagem** para salvar uma cópia local da mensagem no formato .eml.
 
-- **Bloquear Remetente**: Adicione o remetente à lista Remetentes Bloqueados em sua caixa de correio. Para obter mais informações, consulte [Bloquear um remetente de email](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4).
+- **Bloquear remetente**: adicione o remetente à lista de Remetentes Bloqueados na sua caixa de correio. Para obter mais informações, consulte [Bloquear um remetente](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4).
 
 - **Enviar mensagem**: no painel de sub-texto que aparece, escolha as seguintes opções:
 
@@ -225,16 +225,16 @@ Quando você seleciona várias mensagens que estão em quarentena na lista (até
 
 Quando terminar, clique em **Fechar**.
 
-## <a name="microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files"></a>Microsoft Defender para Office 365 Somente: use o Centro de Conformidade & Segurança para gerenciar arquivos em quarentena
+## <a name="microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files"></a>Microsoft Defender for Office 365 Somente: Usar o Centro de Conformidade & Segurança para gerenciar arquivos em quarentena
 
 > [!NOTE]
-> Os procedimentos para arquivos em quarentena nesta seção estão disponíveis apenas para assinantes do Microsoft Defender para Office 365 Plano 1 e Plano 2.
+> Os procedimentos para arquivos em quarentena nesta seção estão disponíveis apenas para assinantes do Microsoft Defender Office 365 Plano 1 e Plano 2.
 
-Em organizações com o Defender para Office 365, os administradores podem gerenciar arquivos em quarentena no SharePoint Online, no OneDrive for Business e no Microsoft Teams. Para habilitar a proteção para esses arquivos, consulte [Ativar Anexos Seguros para SharePoint, OneDrive e Microsoft Teams.](turn-on-mdo-for-spo-odb-and-teams.md)
+Em organizações com o Defender para Office 365, os administradores podem gerenciar arquivos em quarentena no SharePoint Online, OneDrive for Business e Microsoft Teams. Para habilitar a proteção para esses arquivos, consulte [Ativar Cofre anexos para SharePoint, OneDrive e Microsoft Teams](turn-on-mdo-for-spo-odb-and-teams.md).
 
 ### <a name="view-quarantined-files"></a>Exibir arquivos em quarentena
 
-1. No Centro de segurança e conformidade, vá para **Gerenciamento de ameaças** \> **Revisão** \> **Quarentena**.
+1. No Centro de Conformidade & segurança, vá para Quarentena de Revisão **de Gerenciamento** \> **de** \> **Ameaças.**
 
 2. Alterar **Exibição em quarentena** para os arquivos de **valor**. Você pode classificar em um campo clicando em um header de coluna disponível.
 
@@ -268,7 +268,7 @@ Depois de encontrar um arquivo em quarentena específico, selecione o arquivo pa
 Quando você seleciona um arquivo na lista, os seguintes detalhes do arquivo aparecem no painel **Detalhes** do flyout:
 
 - **Nome do arquivo**
-- **URL do** arquivo : URL que define o local do arquivo (por exemplo, no SharePoint Online).
+- **URL do** arquivo : URL que define o local do arquivo (por exemplo, em SharePoint Online).
 - **Conteúdo mal-intencionado detectado em** A data/hora em que o arquivo foi colocado em quarentena.
 - **Expira**: a data em que o arquivo será excluído da quarentena.
 - **Detectado por**: Defender para Office 365 ou mecanismo anti-malware da Microsoft.
@@ -298,7 +298,7 @@ Quando você seleciona vários arquivos em quarentena na lista (até 100), o pai
 - **Liberar arquivos**
 - **Excluir arquivos**: depois de clicar **em Sim** no aviso que aparece, os arquivos serão imediatamente excluídos.
 
-## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-view-and-manage-quarantined-messages-and-files"></a>Use o PowerShell do Exchange Online ou o EOP PowerShell autônomo para exibir e gerenciar mensagens e arquivos em quarentena
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-view-and-manage-quarantined-messages-and-files"></a>Use Exchange Online PowerShell ou EOP PowerShell autônomo para exibir e gerenciar mensagens e arquivos em quarentena
 
 Os cmdlets que você usa para exibir e gerencia mensagens e arquivos em quarentena são:
 
@@ -308,6 +308,6 @@ Os cmdlets que você usa para exibir e gerencia mensagens e arquivos em quarente
 
 - [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage)
 
-- [Preview-QuarantineMessage](/powershell/module/exchange/preview-quarantinemessage): observe que esse cmdlet é apenas para mensagens, não arquivos em quarentena de Anexos Seguros para SharePoint, OneDrive e Microsoft Teams.
+- [Preview-QuarantineMessage](/powershell/module/exchange/preview-quarantinemessage): observe que este cmdlet é apenas para mensagens, não arquivos em quarentena de Cofre Attachments para SharePoint, OneDrive e Microsoft Teams.
 
 - [Release-QuarantineMessage](/powershell/module/exchange/release-quarantinemessage)

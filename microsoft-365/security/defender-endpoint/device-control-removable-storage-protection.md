@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ec5cfa78852d65db808c4e853f90f5639df25d6f
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: c9b97c2157ba8090628af23b2ab54cf38f04d8c6
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300105"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538382"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-protection"></a>Microsoft Defender for Endpoint Device Control Removable Armazenamento Protection
 
@@ -29,15 +29,73 @@ ms.locfileid: "52300105"
 
 O Microsoft Defender for Endpoint Device Control Removível Armazenamento Proteção impede que o usuário ou máquina ou ambos usem mídia de armazenamento removível não autorizada.
 
-**Microsoft Defender for Endpoint Removable Armazenamento Protection**
+## <a name="protection-policies"></a>Políticas de proteção
 
+### <a name="device-installation"></a>Instalação do dispositivo
 
-|Política  |Funcionalidade |Descrição  |
-|---------|---------|---------|
-|Instalação do dispositivo    |  Impedir a instalação com ou sem exclusão - Permitir dispositivos específicos com base em várias propriedades; para obter mais informações, consulte a [seção Propriedades do](#device-properties) dispositivo abaixo.        |    Funciona no computador: Usuários diferentes fazendo logon no mesmo computador serão restritos pela mesma política. Para obter informações, [consulte Como controlar dispositivos USB e outras mídias removíveis usando o Microsoft Defender para Ponto de Extremidade](control-usb-devices-using-intune.md).     |
-|Controle de acesso de armazenamento removível      | (1) Auditar o acesso de leitura ou gravação ou execução ao armazenamento removível com base em várias propriedades de dispositivo, com ou sem exceção. Para obter mais informações, consulte a [seção Propriedades do](#device-properties) dispositivo abaixo. (2) Impedir acesso de leitura ou gravação ou execução com ou sem exclusão - Permitir dispositivos específicos com base em várias propriedades de dispositivo; para obter mais informações sobre as propriedades do dispositivo, consulte a [seção Propriedades do](#device-properties) dispositivo abaixo.     |     Funciona em máquina ou usuário ou ambos: permitir somente pessoas específicas que executam o acesso de Leitura/Gravação/Execução a um armazenamento removível específico em um computador específico; para o recurso no Windows, consulte Controle de Acesso [de armazenamento removível;](device-control-removable-storage-access-control.md) para o recurso no Mac, consulte [Controle de dispositivo para macOS](mac-device-control-overview.md).     |
-|Armazenamento removível de DLP do ponto de extremidade      |    Auditar ou avisar ou impedir que um usuário copie um item ou informações para mídia removível ou dispositivo USB.     |  Para obter mais informações, consulte [Microsoft Endpoint DLP](/compliance/endpoint-dlp-learn-about.md).       |
-|BitLocker    |     Bloquear dados que devem ser gravados em unidades removíveis que não sejam BitLocker protegidos: Bloqueie o acesso a unidades removíveis, a menos que tenham sido criptografadas em um computador pertencente à sua organização.    |   Para obter mais informações, consulte BitLocker – [Unidade Removível Configurações](/mem/intune/protect/endpoint-security-disk-encryption-profile-settings#bitlocker---removable-drive-settings.md).      |
+**Recursos** - Impedir a instalação com ou sem exclusão com base em várias propriedades de dispositivo.
+
+**Descrição**
+- Aplicado no nível do computador: a mesma política se aplica a qualquer usuário conectado.
+- Oferece suporte a MEM e GPO.
+- Suporte para '[Propriedades do dispositivo](#device-properties)' conforme listado.
+- Para obter mais informações sobre Windows, consulte Como controlar dispositivos USB e outras [mídias removíveis usando o Microsoft Defender para Ponto de Extremidade](control-usb-devices-using-intune.md).
+
+**Plataforma com suporte** - Windows 10
+
+**Descrição**
+- Aplicado no nível do computador: a mesma política se aplica a qualquer usuário conectado
+- Para obter informações específicas do macOS, consulte [Controle de dispositivo para macOS](mac-device-control-overview.md).
+ 
+**Plataforma com suporte** - macOS Catalina 10.15.4+ (com extensões do sistema habilitadas)
+
+### <a name="removable-storage-access-control"></a>Controle de acesso de armazenamento removível
+
+**Capabilities**
+- *Auditoria* Acesso de leitura ou gravação ou execução ao armazenamento removível com base em várias propriedades de dispositivo, com ou sem exclusão.
+- *Impedir* Acesso de leitura ou gravação ou execução com ou sem exclusão - Permitir dispositivo específico com base em várias propriedades de dispositivo.
+
+**Descrição**
+- Aplicado em máquina ou usuário ou ambos – permite apenas que pessoas específicas que executam o acesso de Leitura/Gravação/Execução a armazenamento removível específico em máquina específica.
+- Suporte a MEM OMA-URI e GPO.
+- Suporte para '[Propriedades do dispositivo](#device-properties)' conforme listado.
+- Para ver o recurso Windows, consulte [Controle de acesso de armazenamento removível.](device-control-removable-storage-access-control.md)
+
+**Plataforma com suporte** - Windows 10
+
+**Descrição**
+- Aplicado no nível do computador: a mesma política se aplica a qualquer usuário conectado.
+- Para obter informações específicas do macOS, consulte [Controle de dispositivo para macOS](mac-device-control-overview.md).
+ 
+**Plataforma com suporte** - macOS Catalina 10.15.4+ (com extensões do sistema habilitadas)
+
+### <a name="windows-portable-device-access-control"></a>Windows Controle de Acesso a Dispositivo Portátil
+
+**Recursos** - Negar acesso de leitura ou gravação a qualquer Windows [portátil](/windows-hardware/drivers/portable/), por exemplo: Tablet, iPhone.
+
+**Descrição**
+- Aplicado em máquina ou usuário ou ambos.
+- Suporte a MEM OMA-URI e GPO.
+
+**Plataforma com suporte** - Windows 10
+
+### <a name="endpoint-dlp-removable-storage"></a>Armazenamento removível de DLP do ponto de extremidade
+
+**Recursos** - Auditar ou Avisar ou Impedir que um usuário copie um item ou informações para mídia removível ou dispositivo USB.
+
+**Descrição** - Para obter mais informações sobre Windows, consulte [Learn about Microsoft 365 Endpoint data loss prevention](../../compliance/endpoint-dlp-learn-about.md).
+
+**Plataforma com suporte** - Windows 10
+
+### <a name="bitlocker"></a>BitLocker 
+
+**Capabilities**
+- Bloquear dados a serem gravados em unidades removíveis que não BitLocker protegidas.
+- Bloquear o acesso a unidades removíveis, a menos que tenham sido criptografadas em um computador pertencente à sua organização
+ 
+**Descrição** - Para obter mais informações sobre Windows, [consulte BitLocker – Unidade Removível Configurações](/mem/intune/protect/endpoint-security-disk-encryption-profile-settings).
+
+**Plataforma com suporte** - Windows 10
 
 ## <a name="device-properties"></a>Propriedades do dispositivo
 
@@ -58,3 +116,4 @@ O Microsoft Defender for Endpoint Device Control Removable Armazenamento Protect
 ## <a name="related-topic"></a>Tópicos relacionados
 
 - [Microsoft Defender for Endpoint Device Control Removível Armazenamento Access Control](device-control-removable-storage-access-control.md)
+

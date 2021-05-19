@@ -14,25 +14,26 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
+recommendations: false
 description: Saiba como impedir que os convidados são adicionados a um grupo específico
-ms.openlocfilehash: 572746a666586920ad85dafddbd78997940490d7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1db2055f3e546c05905dbf4c854333387112f06e
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907935"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538922"
 ---
-# <a name="prevent-guests-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>Impedir que os convidados seja adicionado a um grupo específico do Microsoft 365 ou à equipe do Microsoft Teams
+# <a name="prevent-guests-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>Impedir que os convidados seja adicionado a um grupo Microsoft 365 específico ou Microsoft Teams equipe
 
 Se você deseja permitir o acesso de convidados à maioria dos grupos e equipes, mas tem alguns onde deseja impedir o acesso de convidados, você pode bloquear o acesso de convidados para grupos e equipes individuais. (O bloqueio do acesso de convidados a uma equipe é feito bloqueando o acesso de convidados ao grupo associado.) Isso impede que novos convidados sejam adicionados, mas não remove os convidados que já estão no grupo ou na equipe.
 
-Se você usar rótulos de sensibilidade em sua organização, recomendamos usá-los para controlar o acesso de convidados por grupo. Para obter informações sobre como fazer isso, use rótulos de sensibilidade para proteger o conteúdo no Microsoft Teams, nos grupos do [Microsoft 365 e nos sites do SharePoint.](../compliance/sensitivity-labels-teams-groups-sites.md) Esta é a abordagem recomendada.
+Se você usar rótulos de sensibilidade em sua organização, recomendamos usá-los para controlar o acesso de convidados por grupo. Para obter informações sobre como fazer isso, use rótulos de sensibilidade para proteger o conteúdo em Microsoft Teams, Microsoft 365 grupos e [sites SharePoint.](../compliance/sensitivity-labels-teams-groups-sites.md) Esta é a abordagem recomendada.
 
 ## <a name="change-group-settings-using-microsoft-powershell"></a>Alterar configurações de grupo usando o Microsoft PowerShell
 
-Você também pode impedir a adição de novos convidados a grupos individuais usando o PowerShell. (Lembre-se de que o site do SharePoint associado da equipe tem controles de compartilhamento de [convidados separados](/sharepoint/change-external-sharing-site).)
+Você também pode impedir a adição de novos convidados a grupos individuais usando o PowerShell. (Lembre-se de que o site SharePoint da equipe tem [controles de compartilhamento de](/sharepoint/change-external-sharing-site)convidados separados .)
 
-Você deve usar a versão de visualização do [Azure Active Directory PowerShell para Graph](/powershell/azure/active-directory/install-adv2) (nome do módulo **AzureADPreview**) para alterar a configuração de acesso de convidado no nível de grupo:
+Você deve usar a versão de visualização [do Azure Active Directory PowerShell](/powershell/azure/active-directory/install-adv2) para Graph (nome do módulo **AzureADPreview**) para alterar a configuração de acesso de convidado no nível de grupo:
 
 - Caso ainda não tenha instalado uma versão do módulo Azure AD PowerShell antes, confira [instalando o módulo Azure AD](/powershell/azure/active-directory/install-adv2?preserve-view=true&view=azureadps-2.0-preview) e siga as instruções para instalar a versão de visualização pública.
 
@@ -75,7 +76,7 @@ Para obter mais informações, consulte [Permitir ou bloquear convites para usu�
 
 ## <a name="add-guests-to-the-global-address-list"></a>Adicionar convidados à lista de endereços global
 
-Por padrão, os convidados não estão visíveis na Lista de Endereços Globais do Exchange. Use as etapas listadas abaixo para tornar um convidado visível na lista de endereços global.
+Por padrão, os convidados não estão visíveis na lista Exchange Endereço Global. Use as etapas listadas abaixo para tornar um convidado visível na lista de endereços global.
 
 Encontre ObjectID do convidado executando:
 
@@ -95,8 +96,8 @@ Set-AzureADUser -ObjectId cfcbd1a0-ed18-4210-9b9d-cf0ba93cf6b2 -ShowInAddressLis
 
 [Criar seu plano de governança de colaboração](collaboration-governance-first.md)
 
-[Gerenciar associação ao grupo no centro de administração do Microsoft 365](../admin/create-groups/add-or-remove-members-from-groups.md)
+[Gerenciar a associação de grupo no Microsoft 365 de administração](../admin/create-groups/add-or-remove-members-from-groups.md)
   
-[Avaliações de acesso do Azure Active Directory](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review)
+[Azure Active Directory de acesso](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review)
 
 [Set-AzureADUser](/powershell/module/azuread/set-azureaduser)

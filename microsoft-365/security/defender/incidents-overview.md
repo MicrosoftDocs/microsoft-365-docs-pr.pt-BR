@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 93751a8297e61a969e0049e27a847324a3d16872
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: cc2fcd7410c2f3122fb3ce49a40e93bfa0767331
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300008"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539018"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>Incidentes no Microsoft 365 Defender
 
@@ -135,7 +135,7 @@ Em uma base contínua, identifique os incidentes de maior prioridade para análi
 
 3. O máximo possível, recupere-se do ataque restaurando os recursos do locatário para o estado em que estavam antes do incidente.
 
-4. [Resolver](manage-incidents.md#resolve-incident) o incidente e levar tempo para o aprendizado pós-incidente para:
+4. [Resolver](manage-incidents.md#resolve-an-incident) o incidente e levar tempo para o aprendizado pós-incidente para:
 
    - Entenda o tipo de ataque e seu impacto.
    - Pesquise o ataque [no Threat Analytics](threat-analytics.md) e na comunidade de segurança para uma tendência de ataque de segurança.
@@ -148,7 +148,7 @@ Se você for novo na [](incidents-overview.md) análise de segurança, consulte 
 
 Veja um exemplo de operações de segurança para o Microsoft 365 Defender.
 
-:::image type="content" source="../../media/incidents-overview/incidents-example-operations.png" alt-text="Um exemplo de operações de segurança para o Micosoft 365 Defender":::
+:::image type="content" source="../../media/incidents-overview/incidents-example-operations.png" alt-text="Um exemplo de operações de segurança para Microsoft 365 Defender":::
 
 Tarefas diárias podem incluir:
 
@@ -177,7 +177,7 @@ Tarefas diárias, mensais, trimestrais e anuais podem ser usadas para atualizar 
 
 **Se você tiver experiência com** análise de segurança e resposta a incidentes:
 
-- Começar com a fila de incidentes da página **Incidentes** do centro Microsoft 365 segurança. A partir daqui, você pode:
+- Começar com a fila de incidentes da página **Incidentes** do centro Microsoft 365 segurança. A partir daqui, você poderá:
 
   - Confira quais incidentes devem ser [priorizados](incident-queue.md) com base na gravidade e em outros fatores. 
 

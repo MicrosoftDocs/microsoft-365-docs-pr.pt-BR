@@ -16,19 +16,20 @@ ms.collection:
 search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
-description: Saiba como controlar quais usuários podem criar grupos do Microsoft 365.
-ms.openlocfilehash: 092ff821911ef0af2b7867e1b870b68b1b6355b3
-ms.sourcegitcommit: dcc6bfd228ca9070975ce9eb14574e084f9ed92c
+recommendations: false
+description: Saiba como controlar quais usuários podem criar Microsoft 365 Grupos.
+ms.openlocfilehash: 19a106d255708f4b1df8f798219ea7ea778bbef3
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656980"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539174"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Gerenciar quem pode criar grupos do Microsoft 365
 
-Por padrão, todos os usuários podem criar grupos do Microsoft 365. Essa é a abordagem recomendada porque permite que os usuários comecem a colaborar sem exigir assistência de TI.
+Por padrão, todos os usuários podem criar Microsoft 365 grupos. Essa é a abordagem recomendada porque permite que os usuários comecem a colaborar sem exigir assistência de TI.
 
-Se sua empresa exigir que você restrinja quem pode criar grupos, você pode restringir a criação do Grupo do Microsoft 365 aos membros de um grupo ou grupo de segurança específico do Microsoft 365.
+Se a sua empresa exigir que você restrinja quem pode criar grupos, você pode restringir Microsoft 365 criação de grupo aos membros de um grupo Microsoft 365 específico ou grupo de segurança.
 
 Se você estiver preocupado com os usuários que criam equipes ou grupos que não estão em conformidade com seus padrões de negócios, considere exigir que os usuários concluam um curso de treinamento e, em seguida, adicione-os ao grupo de usuários permitidos.
 
@@ -41,35 +42,35 @@ Quando você limita quem pode criar um grupo, ele afeta todos os serviços que d
 - Microsoft Stream
 - Planner
 - Power BI (clássico)
-- Project for the Web /Roadmap
+- Project para a Web /Roteiro
 
-As etapas deste artigo não impedirão que membros de determinadas funções de criação de Grupos. Os administradores globais do Office 365 podem criar Grupos por meio do centro de administração do Microsoft 365, planner, Exchange e SharePoint Online. Outras funções podem criar Grupos por meios limitados, listados abaixo.
+As etapas deste artigo não impedirão que membros de determinadas funções de criação de Grupos. Office 365 Os administradores globais podem criar Grupos Microsoft 365 centro de administração, Planner, Exchange e SharePoint Online. Outras funções podem criar Grupos por meios limitados, listados abaixo.
 
-- Administrador do Exchange: Centro de administração do Exchange, Azure AD
-- Suporte a Nível de Parceiro 1: Centro de administração do Microsoft 365, Centro de Administração do Exchange, Azure AD
-- Suporte a Nível de Parceiro 2: Centro de administração do Microsoft 365, Centro de Administração do Exchange, Azure AD
+- Exchange Administrador: Exchange Admin Center, Azure AD
+- Suporte a Nível de Parceiro 1: Microsoft 365 Admin Center, Exchange Admin Center, Azure AD
+- Suporte ao Partner Tier 2: Microsoft 365 Admin Center, Exchange Admin Center, Azure AD
 - Redatores de diretório: Azure AD
-- Administrador do SharePoint: Centro de administração do SharePoint, Azure AD
-- Administrador de Serviços do Teams: Centro de administração do Teams, Azure AD
-- Administrador do Usuário: Centro de administração do Microsoft 365, Azure AD
+- SharePoint Administrador: SharePoint Admin Center, Azure AD
+- Teams Administrador de Serviços: Teams Admin Center, Azure AD
+- Administrador do Usuário: Microsoft 365 Admin Center, Azure AD
 
-Se você for membro de uma dessas funções, poderá criar Grupos do Microsoft 365 para usuários restritos e atribuir o usuário como o proprietário do grupo.
+Se você for membro de uma dessas funções, poderá criar grupos Microsoft 365 para usuários restritos e atribuir o usuário como o proprietário do grupo.
 
-## <a name="licensing-requirements"></a>Requisitos de licença
+## <a name="licensing-requirements"></a>Requisitos de licenciamento
 
-Para gerenciar quem cria grupos, as seguintes pessoas precisam de licenças do Azure AD Premium ou licenças do Azure AD Basic EDU atribuídas a eles:
+Para gerenciar quem cria grupos, as pessoas a seguir precisam de licenças do Azure AD Premium ou licenças do Azure AD Basic EDU atribuídas a eles:
 
 - O administrador que configura essas configurações de criação de grupo
 - Os membros do grupo que têm permissão para criar grupos
 
 > [!NOTE]
-> Confira Atribuir ou remover licenças no portal do [Azure Active Directory](/azure/active-directory/fundamentals/license-users-groups) para obter mais detalhes sobre como atribuir licenças do Azure.
+> Consulte [Atribuir ou remover licenças no portal Azure Active Directory para](/azure/active-directory/fundamentals/license-users-groups) obter mais detalhes sobre como atribuir licenças do Azure.
 
 As pessoas a seguir não precisam de licenças do Azure AD Premium ou do Azure AD Basic EDU atribuídas a elas:
 
-- Pessoas que são membros de grupos do Microsoft 365 e que não têm a capacidade de criar outros grupos.
+- Pessoas que são membros de Microsoft 365 grupos e que não têm a capacidade de criar outros grupos.
 
-## <a name="step-1-create-a-group-for-users-who-need-to-create-microsoft-365-groups"></a>Etapa 1: Criar um grupo para usuários que precisam criar grupos do Microsoft 365
+## <a name="step-1-create-a-group-for-users-who-need-to-create-microsoft-365-groups"></a>Etapa 1: criar um grupo para os usuários que precisam criar grupos Microsoft 365 grupos
 
 Somente um grupo em sua organização pode ser usado para controlar quem é capaz de criar Grupos. Porém, você pode aninhar outros grupos como membros desse grupo.
 
@@ -87,7 +88,7 @@ Para obter instruções detalhadas, consulte [Create, edit, or delete a security
 
 ## <a name="step-2-run-powershell-commands"></a>Etapa 2: Executar comandos do PowerShell
 
-Você deve usar a versão de visualização do [Azure Active Directory PowerShell para Graph (AzureAD) (nome](/powershell/azure/active-directory/install-adv2) do módulo **AzureADPreview**) para alterar a configuração de acesso de convidado no nível de grupo:
+Você deve usar a versão de visualização do Azure Active Directory PowerShell para [Graph (AzureAD) (nome](/powershell/azure/active-directory/install-adv2) do módulo **AzureADPreview**) para alterar a configuração de acesso de convidado no nível de grupo:
 
 - Caso ainda não tenha instalado uma versão do módulo Azure AD PowerShell antes, confira [instalando o módulo Azure AD](/powershell/azure/active-directory/install-adv2?preserve-view=true&view=azureadps-2.0-preview) e siga as instruções para instalar a versão de visualização pública.
 
@@ -95,7 +96,7 @@ Você deve usar a versão de visualização do [Azure Active Directory PowerShel
 
 - Se você já tiver instalado a versão de visualização, execute `Install-Module AzureADPreview` para ter certeza de que esta é a versão mais recente deste módulo.
 
-Copie o script abaixo para um editor de texto, como o Bloco de Notas ou o [Windows PowerShell ISE](/powershell/scripting/components/ise/introducing-the-windows-powershell-ise).
+Copie o script abaixo para um editor de texto, como Bloco de notas, ou o [Windows PowerShell ISE](/powershell/scripting/components/ise/introducing-the-windows-powershell-ise).
 
 Substitua *\<GroupName\>* pelo nome do grupo que você criou. Por exemplo:
 
@@ -174,7 +175,7 @@ Tente o mesmo procedimento novamente com um membro do grupo.
 
 [Introdução ao Office 365 PowerShell](../enterprise/getting-started-with-microsoft-365-powershell.md)
 
-[Configurar o gerenciamento de grupo de autoatenduro no Azure Active Directory](/azure/active-directory/users-groups-roles/groups-self-service-management)
+[Configurar o gerenciamento de grupo de autoatend Azure Active Directory](/azure/active-directory/users-groups-roles/groups-self-service-management)
 
 [Set-ExecutionPolicy](/powershell/module/microsoft.powershell.security/set-executionpolicy)
 

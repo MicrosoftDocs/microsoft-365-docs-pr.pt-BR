@@ -1,5 +1,5 @@
 ---
-title: A página da entidade de email do Microsoft Defender para Office 365 (MDO)
+title: A página da entidade de email do Microsoft Defender Office 365 (MDO)
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -14,13 +14,13 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Os clientes do Microsoft Defender para Office 365 E5 e P1 e P2 agora podem obter uma exibição de 360 graus de cada página de email com entidade de email.
-ms.openlocfilehash: 8b531980852336679aad5f2013d63269c238e49c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+description: Os clientes do Microsoft Defender Office 365 E5 e P1 e P2 agora podem obter uma exibição de 360 graus de cada página de email com entidade de email.
+ms.openlocfilehash: aa5d7effb66c4805f6983fa1afac19255bc996e4
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933356"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539090"
 ---
 # <a name="the-email-entity-page"></a>A página de entidade de email
 
@@ -30,11 +30,11 @@ ms.locfileid: "51933356"
 - [Usar guias de página de entidade de email](#use-email-entity-page-tabs)
 - [Novo na página entidade de email](#new-to-the-email-entity-page)
 
-Os administradores do Microsoft Defender para Office 365 (ou MDO) E5 e MDO P1 e P2 têm uma exibição de 360 graus de email usando a página entidade **Email.** Essa página de email de ida e volta foi criada para aprimorar as informações entregues no [submenu "detalhes de email" do Explorador](threat-explorer-views.md)de Ameaças.
+Os administradores do Microsoft Defender para Office 365 (ou MDO) E5 e MDO P1 e P2 têm uma exibição de 360 graus de email usando a página entidade **Email**. Essa página de email de ida e volta foi criada para aprimorar as informações entregues no [submenu "detalhes de email" do Explorador](threat-explorer-views.md)de Ameaças.
 
 ## <a name="reach-the-email-entity-page"></a>Alcançar a página da entidade de email
 
-Um dos centro de Conformidade e Segurança do Office existente (protection.office.com) ou o novo Centro de Segurança do Microsoft 365 (security.microsoft.com) permitirão que você veja e use a página entidade de email..
+Um dos & de Conformidade (protection.office.com) existente ou o novo centro de segurança Microsoft 365 (security.microsoft.com) permitirá que você veja e use a página de entidade de email..
 
 |Centro|URL|Navegação|
 |---|---|---|
@@ -111,12 +111,12 @@ Os usuários verão detalhes de detonação enriquecidos para anexos ou hiperlin
 
 *Detalhes de* email : Detalhes necessários para uma compreensão mais profunda do email disponível *na* guia Análise.
 
-- Regras de Transporte do *Exchange (ETRs* ou regras de fluxo de emails) : Essas regras são aplicadas a uma mensagem na camada de transporte e têm precedência sobre vereditos de phishing e spam. Eles só podem ser criados e modificados no Centro de administração do Exchange, mas se qualquer ETR se aplicar a uma mensagem, o nome ETR e o GUID serão mostrados aqui. Informações valiosas para fins de controle.
+- Exchange regras de transporte *(ETRs* ou regras de fluxo de emails) : Essas regras são aplicadas a uma mensagem na camada de transporte e têm precedência sobre vereditos de phishing e spam. Elas só podem ser criadas e modificadas no centro de administração Exchange, mas se qualquer ETR se aplicar a uma mensagem, o nome ETR e GUID serão mostrados aqui. Informações valiosas para fins de controle.
 
 - *Substituições do* sistema : isso é um meio de fazer exceções ao local de entrega destinado a uma mensagem substituindo o local de entrega dado pelo sistema (de acordo com a tecnologia de detecção e ameaça).
 
 - *Regra de Caixa de* Correio de Lixo Eletrônico : 'Lixo eletrônico' é a regra de Caixa de Entrada oculta habilitada por padrão em cada caixa de correio.
-  - Quando a regra lixo eletrônico é habilitada na caixa de correio, a Proteção do Exchange Online (EOP) é capaz de mover mensagens para Lixo Eletrônico de acordo com alguns critérios. A movimentação pode ser baseada na ação de veredito de filtragem de spam *Mover* mensagem para a pasta Lixo Eletrônico ou na lista Remetentes Bloqueados na caixa de correio. Desabilitar a regra lixo eletrônico impede a entrega de mensagens para a pasta Lixo Eletrônico com base na lista *De envios seguros* na caixa de correio.
+  - Quando a regra lixo eletrônico é habilitada na caixa de correio, Proteção do Exchange Online (EOP) é capaz de mover mensagens para Lixo Eletrônico de acordo com alguns critérios. A movimentação pode ser baseada na ação de veredito de filtragem de spam *Mover* mensagem para a pasta Lixo Eletrônico ou na lista Remetentes Bloqueados na caixa de correio. Desabilitar a regra lixo eletrônico impede a entrega de mensagens para a pasta Lixo Eletrônico com base na lista de Cofre *de* Envios na caixa de correio.
   - Quando a regra  de lixo eletrônico é desabilitada na caixa de correio, o EOP não pode mover mensagens para a pasta Lixo Eletrônico com base na ação de veredito de filtragem de spam *Mover* mensagem para a pasta Lixo Eletrônico ou a coleção de listas seguras na caixa de correio.
 
 - Nível de reclamação em massa *(BCL)*: O nível de reclamação em massa (BCL) da mensagem. Uma BCL mais alta indica que uma mensagem de email em massa tem mais probabilidade de gerar reclamações (o resultado natural se o email provavelmente for spam).
@@ -131,7 +131,7 @@ Os usuários verão detalhes de detonação enriquecidos para anexos ou hiperlin
 
 - *Data de criação do* domínio : especifica a data de criação do domínio de envio. Um domínio recém-criado é algo que você pode ter cuidado se outros sinais indicarem algum comportamento suspeito.
 
-*Autenticação de Email*: Os métodos de autenticação de email usados pelo Microsoft 365 incluem SPF, DKIM e DMARC.
+*Autenticação de Email*: Os métodos de autenticação de email usados Microsoft 365 incluem SPF, DKIM e DMARC.
 
 - Estrutura de Política de Remetente (**SPF**): descreve os resultados da verificação SPF da mensagem. Os valores possíveis podem ser:
   - Passagem (endereço IP): a verificação SPF da mensagem passada e inclui o endereço IP do remetente. O cliente está autorizado a enviar ou retransmitir emails em nome do domínio do remetente.
@@ -153,4 +153,4 @@ Os usuários verão detalhes de detonação enriquecidos para anexos ou hiperlin
   - Bestguesspass: Indica que não existe nenhum registro TXT DMARC para o domínio, mas se um tivesse existido, a verificação DMARC da mensagem teria passado.
   - Nenhuma: indica que não existe nenhum registro TXT DMARC para o domínio de envio no DNS.
 
-*Autenticação* Composta : esse é um valor usado pelo Microsoft 365 para combinar autenticação de email como SPF, DKIM e DMARC, para determinar se a mensagem é autenticada. Ele usa o *domínio From:* do email como base de avaliação.
+*Autenticação* Composta : esse é um valor usado pela Microsoft 365 para combinar autenticação de email como SPF, DKIM e DMARC, para determinar se a mensagem é autenticada. Ele usa o *domínio From:* do email como base de avaliação.

@@ -16,19 +16,20 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
-description: Saiba mais sobre as etapas de configuração do Microsoft 365 necessárias para configurar um site do SharePoint para colaboração com convidados.
-ms.openlocfilehash: fd3cf55b3d95a5c79b9bd4d7c55855f7d73fc0d2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+recommendations: false
+description: Saiba mais sobre as Microsoft 365 de configuração necessárias para configurar um site SharePoint para colaboração com convidados.
+ms.openlocfilehash: f91b9c64dbdca8ed7e3ada3315cb57f1c728f838
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904643"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539246"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>Colaborar com convidados em um site
 
-Se você precisar colaborar com convidados em documentos, dados e listas, poderá usar um site do SharePoint. Os sites modernos do SharePoint estão conectados aos Grupos do Microsoft 365 e podem gerenciar a associação ao site e fornecer ferramentas de colaboração adicionais, como uma caixa de correio compartilhada e um calendário.
+Se você precisar colaborar com convidados em documentos, dados e listas, poderá usar um SharePoint site. Os SharePoint modernos são conectados a grupos Microsoft 365 e podem gerenciar a associação ao site e fornecer ferramentas de colaboração adicionais, como uma caixa de correio compartilhada e um calendário.
 
-Neste artigo, vamos passar pelas etapas de configuração do Microsoft 365 necessárias para configurar um site do SharePoint para colaboração com convidados.
+Neste artigo, vamos passar pelas etapas de configuração Microsoft 365 necessárias para configurar um site SharePoint para colaboração com convidados.
 
 ## <a name="video-demonstration"></a>Demonstração de vídeo
 
@@ -42,7 +43,7 @@ Compartilhamento no Microsoft 365 é regido em seu nível mais alto pelas [Confi
 
 Verifique as configurações de colaboração externa B2B para garantir que o compartilhamento com convidados não seja bloqueado.
 
-![Captura de tela da página Configurações de colaboração externa do Azure Active Directory](../media/azure-ad-organizational-relationships-settings.png)
+![Captura de tela da Azure Active Directory de colaboração externa Configurações página](../media/azure-ad-organizational-relationships-settings.png)
 
 Para conjunto de configurações de colaboração externa
 
@@ -59,7 +60,7 @@ Se você trabalha com convidados de várias organizações, pode restringir sua 
 
 ## <a name="microsoft-365-groups-guest-settings"></a>Configurações de convidado do Microsoft 365 Groups
 
-Os sites modernos do SharePoint usam grupos do Microsoft 365 para controlar o acesso ao site. As configurações de convidado dos Grupos do Microsoft 365 devem ser ativas para que o acesso de convidados nos sites do SharePoint funcione.
+Os SharePoint modernos usam Microsoft 365 grupos para controlar o acesso ao site. As Microsoft 365 de convidado grupos devem ser ativas para que o acesso de convidados SharePoint sites funcionem.
 
 ![Captura de tela das configurações de convidado dos Grupos do Microsoft 365 no Centro de administração do Microsoft 365](../media/office-365-groups-guest-settings.png)
 
@@ -71,9 +72,9 @@ Para definir as configurações de convidado do Grupos do Microsoft 365
 4. Certifique-se de que as caixas de seleção **Permitir que proprietários de grupos adicionem pessoas fora de sua organização aos Grupos do Microsoft 365 como convidados** e **Permitir que membros de grupos convidados acessem o conteúdo do grupo** estejam marcadas.
 5. Se você fez alterações, clique em **Salvar alterações**.
 
-## <a name="sharepoint-organization-level-sharing-settings"></a>Configurações de compartilhamento no nível da organização do SharePoint
+## <a name="sharepoint-organization-level-sharing-settings"></a>SharePoint configurações de compartilhamento no nível da organização
 
-Para que os convidados tenham acesso aos sites do SharePoint, as configurações de compartilhamento no nível da organização do SharePoint devem permitir o compartilhamento com convidados.
+Para que os convidados tenham acesso SharePoint sites SharePoint, as configurações de compartilhamento no nível da organização devem permitir o compartilhamento com convidados.
 
 As configurações no nível da organização determinam as configurações que estarão disponíveis para sites individuais. Como configurações no nível da organização determinam quais configurações estão disponíveis para sites individuais, incluindo sites associados a equipes.
 
@@ -85,7 +86,7 @@ Se você quiser permitir o compartilhamento de pastas e arquivos não autenticad
 Para definir as configurações de compartilhamento no nível da organização do Microsoft Office SharePoint Online
 
 1. No Centro de administração do Microsoft 365, no painel de navegação esquerdo, em **Centros de administração**, clique em **SharePoint**.
-2. No centro de administração do SharePoint, no painel de navegação esquerdo, em **Políticas,** clique em **Compartilhamento**.
+2. No centro SharePoint de administração, no painel de navegação esquerdo, em **Políticas,** clique em **Compartilhamento**.
 3. Certifique-se de que o compartilhamento externo para o Microsoft Office SharePoint Online esteja definido como **Qualquer Pessoa** ou **Convidados novos e existentes**.
 4. Caso tenha feito alterações, clique em **Salvar**.
 
@@ -110,7 +111,7 @@ Verifique as configurações de compartilhamento no nível do site para garantir
 
 Observe que o site não pode ser compartilhado com pessoas não autenticadas **(** configuração de Qualquer pessoa), mas arquivos e pastas individuais podem.
 
-Você também pode usar [rótulos de sensibilidade para controlar configurações de compartilhamento externo para sites do SharePoint.](../compliance/sensitivity-labels-teams-groups-sites.md)
+Você também pode usar [rótulos de sensibilidade para controlar configurações de compartilhamento externo para SharePoint sites](../compliance/sensitivity-labels-teams-groups-sites.md).
 
 ![Captura de tela das configurações de compartilhamento externo do site do Microsoft Office SharePoint Online](../media/sharepoint-site-external-sharing-settings.png)
 
@@ -123,7 +124,7 @@ Para conjunto de configurações de compartilhamento no nível do site
 
 ## <a name="invite-users"></a>Convidar usuários
 
-As configurações de compartilhamento de convidados agora estão configuradas, para que você possa começar a adicionar usuários internos e convidados ao seu site. O acesso ao site é controlado por meio do Grupo do Microsoft 365 associado, portanto, vamos adicionar usuários lá.
+As configurações de compartilhamento de convidados agora estão configuradas, para que você possa começar a adicionar usuários internos e convidados ao seu site. O acesso ao site é controlado por meio do grupo de Microsoft 365 associado, portanto, vamos adicionar usuários lá.
 
 Para convidar usuários internos para um grupo
 1. Navegue até o site onde você deseja adicionar usuários.
@@ -131,7 +132,7 @@ Para convidar usuários internos para um grupo
 3. Clique em **Adicionar membros**.
 4. Digite os nomes ou endereços de email dos usuários que você deseja convidar para o site e clique em **Salvar**.
 
-Os convidados não podem ser adicionados do site. Você precisa adicioná-los usando o Outlook na Web. Portanto, como pré-requisito para adicionar e convidar convidados a um grupo, clique na URL do site na coluna **URL**  para navegar até a página específica do site. Nesta página, clique no ícone do **iniciador de aplicativos** e selecione **Outlook**. Esta é a tela da qual você pode convidar convidados para um grupo, para o qual o procedimento é descrito abaixo.
+Os convidados não podem ser adicionados do site. Você precisa adicioná-los usando Outlook na Web. Portanto, como pré-requisito para adicionar e convidar convidados a um grupo, clique na URL do site na coluna **URL**  para navegar até a página específica do site. Nesta página, clique no ícone do **iniciador de aplicativos** e selecione **Outlook**. Esta é a tela da qual você pode convidar convidados para um grupo, para o qual o procedimento é descrito abaixo.
 
 Para convidar convidados para um grupo
 1. Em **Grupos**, clique no grupo para o qual você deseja convidar convidados.

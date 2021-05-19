@@ -14,13 +14,14 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.topic: article
-ms.openlocfilehash: 1efa72d5b8d204b6aec1cef05fe3c8afe1ca82f7
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.date: 05/06/2021
+ms.topic: how-to
+ms.openlocfilehash: 1942531b77df1c2bd9408815d3ad54b4b7211e8b
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275295"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538394"
 ---
 # <a name="configure-microsoft-defender-antivirus-scanning-options"></a>Configurar opções de verificação do Microsoft Defender Antivírus
 
@@ -33,7 +34,7 @@ ms.locfileid: "52275295"
 
 ## <a name="use-microsoft-intune-to-configure-scanning-options"></a>Usar Microsoft Intune para configurar opções de verificação
 
-Consulte [Configure device restriction settings in Microsoft Intune](/intune/device-restrictions-configure) and Microsoft Defender Antivírus device restriction [settings for Windows 10 in Intune](/intune/device-restrictions-windows-10#microsoft-defender-antivirus) para obter mais detalhes.
+Confira [Definir as configurações de restrição de dispositivo no Microsoft Intune](/intune/device-restrictions-configure) e [Configurações de restrição de dispositivo do Microsoft Defender Antivírus para Windows 10 no Intune](/intune/device-restrictions-windows-10#microsoft-defender-antivirus) para obter mais detalhes.
 
 ## <a name="use-microsoft-endpoint-manager-to-configure-scanning-options"></a>Usar Microsoft Endpoint Manager para configurar opções de verificação
 
@@ -51,19 +52,19 @@ Para configurar as configurações da Política de Grupo descritas na tabela a s
 
 4. Clique duas vezes na **configuração de** política, conforme especificado na tabela abaixo, e de definir a opção para a configuração desejada. Clique **em OK** e repita para quaisquer outras configurações.
 
-Descrição | Local e configuração | Configuração padrão (se não estiver configurada) | Parâmetro PowerShell `Set-MpPreference` ou propriedade WMI para `MSFT_MpPreference` classe
----|---|---|---
-Verificação de email Consulte [Limitações de verificação de email](#ref1)| Verificar > Ativar a verificação de email | Desabilitado | `-DisableEmailScanning`
-Verificar [pontos de repare](/windows/win32/fileio/reparse-points) | Verificar > Ativar a verificação de ponto de repare | Desabilitado | Não disponível
-Examinar unidades de rede mapeadas | Verificar > Executar a verificação completa em unidades de rede mapeadas | Desabilitado | `-DisableScanningMappedNetworkDrivesForFullScan`
- Examinar arquivos arquivados (como arquivos .zip ou .rar arquivos). A [lista de exclusão de extensões](configure-extension-file-exclusions-microsoft-defender-antivirus.md) terá precedência sobre essa configuração. | Examinar > arquivos de arquivo morto | Habilitado | `-DisableArchiveScanning`
-Examinar arquivos na rede | Examinar > de rede | Desabilitado | `-DisableScanningNetworkFiles`
-Examinar executáveis empacotados | Examinar > Executáveis empacotados | Habilitado | Não disponível
-Examinar unidades removíveis somente durante verificações completas | Examinar > Verificar unidades removíveis | Desabilitado | `-DisableRemovableDriveScanning`
-Especificar o nível de subpastas em uma pasta de arquivo morto a ser digitalizada | Verificar > Especificar a profundidade máxima para examinar arquivos arquivados | 0 | Não disponível
- Especifique a carga máxima da CPU (como porcentagem) durante uma verificação. Observação: este não é um limite rígido, mas uma orientação para que o mecanismo de verificação não exceda esse máximo em média. | Verificação > Especificar o percentual máximo de utilização da CPU durante uma verificação | 50 |  `-ScanAvgCPULoadFactor`
- Especifique o tamanho máximo (em quilobytes) dos arquivos de arquivo morto que devem ser verificados. O padrão, **0**, não aplica limite | Verificação > Especificar o tamanho máximo de arquivos arquivados a serem verificados | Sem limite | Não disponível
- Configurar baixa prioridade de CPU para verificações agendadas | Verificar > Configurar baixa prioridade de CPU para verificações agendadas | Desabilitado | Não disponível
+| Descrição | Local e configuração | Configuração padrão (se não estiver configurada) | Parâmetro PowerShell `Set-MpPreference` ou propriedade WMI para `MSFT_MpPreference` classe |
+|---|---|---|---|
+| Verificação de email Consulte [Limitações de verificação de email](#ref1)| Verificar > Ativar a verificação de email | Desabilitada | `-DisableEmailScanning` |
+|Verificar [pontos de repare](/windows/win32/fileio/reparse-points) | Verificar > Ativar a verificação de ponto de repare | Desabilitada | Não disponível |
+| Examinar unidades de rede mapeadas | Verificar > Executar a verificação completa em unidades de rede mapeadas | Desabilitada | `-DisableScanningMappedNetworkDrivesForFullScan`|
+ Examinar arquivos arquivados (como arquivos .zip ou .rar arquivos). A [lista de exclusão de extensões](configure-extension-file-exclusions-microsoft-defender-antivirus.md) terá precedência sobre essa configuração. | Examinar > arquivos de arquivo morto | Habilitado | `-DisableArchiveScanning` |
+| Examinar arquivos na rede | Examinar > de rede | Desabilitada | `-DisableScanningNetworkFiles` |
+| Examinar executáveis empacotados | Examinar > Executáveis empacotados | Habilitado | Não disponível |
+| Examinar unidades removíveis somente durante verificações completas | Examinar > Verificar unidades removíveis | Desabilitada | `-DisableRemovableDriveScanning` |
+| Especificar o nível de subpastas em uma pasta de arquivo morto a ser digitalizada | Verificar > Especificar a profundidade máxima para examinar arquivos arquivados | 0 | Não disponível |
+| Especifique a carga máxima da CPU (como porcentagem) durante uma verificação. Observação: este não é um limite rígido, mas uma orientação para que o mecanismo de verificação não exceda esse máximo em média. As verificações de executar manualmente ignorarão essa configuração e serão executados sem limites de CPU. | Verificação > Especificar o percentual máximo de utilização da CPU durante uma verificação | 50 |  `-ScanAvgCPULoadFactor` |
+| Especifique o tamanho máximo (em quilobytes) dos arquivos de arquivo morto que devem ser verificados. O padrão, **0**, não aplica limite | Verificação > Especificar o tamanho máximo de arquivos arquivados a serem verificados | Sem limite | Não disponível |
+| Configurar baixa prioridade de CPU para verificações agendadas | Verificar > Configurar baixa prioridade de CPU para verificações agendadas | Desabilitada | Não disponível |
  
 > [!NOTE]
 > Se a proteção em tempo real estiver acessível, os arquivos serão verificados antes que sejam acessados e executados. O escopo de verificação inclui todos os arquivos, incluindo arquivos em mídia removível montada, como unidades USB. Se o dispositivo que executa a verificação tiver proteção em tempo real ou proteção no acesso, a verificação também incluirá compartilhamentos de rede.
@@ -98,4 +99,4 @@ Se Microsoft Defender Antivírus detectar uma ameaça dentro de um email, ele mo
 - [Personalizar, iniciar e revisar os resultados de Microsoft Defender Antivírus e correção](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
 - [Configurar e executar verificações do Microsoft Defender Antivírus sob demanda](run-scan-microsoft-defender-antivirus.md)
 - [Configurar verificações Microsoft Defender Antivírus agendadas](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
-- [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Microsoft Defender Antivirus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)

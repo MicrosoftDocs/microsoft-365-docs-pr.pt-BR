@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Saiba como reativar sua assinatura quando ela expirar, estiver desabilitada ou cancelada.
 ms.date: 04/07/2021
-ms.openlocfilehash: 902be48b32acdff5173a0dd5cc84dbd5972e1ba9
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 63c65e90d01bfd2c67d1d2ecfed32a4d4ff8d27a
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345137"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538454"
 ---
 # <a name="reactivate-your-subscription"></a>Reativar sua assinatura
 
@@ -58,7 +58,7 @@ Você deve ser um administrador Global ou cobrança para reativar uma assinatura
 
 ::: moniker-end
 
-2. Na página **Produtos**, encontre a assinatura que quer reativar. Selecione **Mais ações** (três pontos) e selecione **Reativar essa assinatura**.\
+2. Na página **Produtos**, encontre a assinatura que quer reativar. Selecione os três pontos (mais ações) e selecione **Reativar essa assinatura**.\
     Se você não vir **Reativar essa assinatura,** contate [o suporte](../../business-video/get-help-support.md).
 3. No painel **Reativar esta assinatura**, selecione um método de pagamento na lista suspensa ou selecione **Adicionar método de pagamento**.
 4. Selecione **Salvar**.

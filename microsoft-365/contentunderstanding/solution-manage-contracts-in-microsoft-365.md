@@ -13,12 +13,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como gerenciar contratos usando Microsoft 365 solução SharePoint Syntex, Microsoft Teams e Power Automate.
-ms.openlocfilehash: 806ea9fd048dec198a19fa79f3b60f3f3cb81018
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 057c581559aa2e5cfd6e98b379783a7d73e0bccc
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281051"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538562"
 ---
 # <a name="manage-contracts-using-a-microsoft-365-solution"></a>Gerenciar contratos usando uma solução Microsoft 365 de segurança
 
@@ -67,6 +67,10 @@ Esta orientação de solução de gerenciamento de contratos inclui quatro compo
 4. Usando o Power Automate, os contratos são movidos pelo processo de aprovação no Teams canal. Quando um membro aprova um contrato, o status do contrato é alterado para aprovar, todos os membros são notificados por meio de uma postagem de Teams e um item de linha é criado para mostrar que o contrato está pronto para pagamento. Esse processo pode ser estendido para gravar diretamente em um aplicativo financeiro de terceiros para pagamento.
 
 5.  Quando um membro rejeita um contrato, o status é alterado para rejeitado e todos os membros são notificados por meio de Teams postagem.
+
+6. O resultado final dessa solução é um processo de negócios automatizado para sua organização. Os funcionários podem usar facilmente a exibição de Teams para iniciar e monitorar o fluxo de trabalho de aprovação de seus documentos. 
+
+     ![Guia Contratos.](../media/content-understanding/tile-view.png)
 
 ## <a name="create-the-solution"></a>Criar a solução
 
