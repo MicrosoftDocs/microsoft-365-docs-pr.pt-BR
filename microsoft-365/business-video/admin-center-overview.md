@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre o Microsoft 365 de administração.
-ms.openlocfilehash: 7d355b5064c2a0344ac62653afcae8712dbfc73f
-ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
+ms.openlocfilehash: 6d7fe36345ebd9234027e943d11266b7bcc2b30f
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52470419"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537386"
 ---
 # <a name="overview-of-the-microsoft-365-admin-center"></a>Visão geral do Centro de administração do Microsoft 365
 
@@ -47,11 +47,11 @@ Se você tiver permissão para acessar o centro de administração, você verá 
 
 Na parte superior do centro de administração, revise as principais ações para você. Você pode ver ações diferentes, dependendo do que você já definiu, como criar novas contas, usar Teams, configurar email e instalar Office aplicativos. 
  
-Em **Sua organização na** guia **Usuários** está uma lista de pessoas que podem acessar aplicativos e serviços, adicionar novos usuários, redefinir senhas ou usar o menu **Mais ações.** Selecione uma pessoa para exibir ou editar suas informações e configurações.  
+Em **Sua organização** na guia **Usuários** está uma lista de pessoas que podem acessar aplicativos e serviços, adicionar novos usuários, redefinir senhas ou usar o menu três pontos (mais ações). Selecione uma pessoa para exibir ou editar suas informações e configurações.  
 
-Na guia **Teams,** crie uma nova equipe ou gerencie equipes existentes. Você pode gerenciar os membros de uma equipe ou selecionar **Mais ações** para alterar outras Teams configurações. 
+Na guia **Teams,** crie uma nova equipe ou gerencie equipes existentes. Você pode gerenciar os membros de uma equipe ou selecionar os três pontos (mais ações) para alterar outras Teams configurações. 
 
-Na guia **Assinaturas,** adicione mais produtos, adicione licenças ou use o menu **Mais** ações para modificar licenças ou método de pagamento.
+Na guia **Assinaturas,** adicione mais produtos, adicione licenças ou use o menu três pontos (mais ações) para modificar licenças ou método de pagamento.
 
 Na guia **Aprender,** navegue por vídeos e artigos sobre o centro de administração e outros Microsoft 365 recursos. Para explorar recursos mais avançados do centro de administração, abra o menu de navegação e expanda os títulos para ver mais. Selecione **Mostrar tudo para** ver tudo no menu de navegação ou use a barra de pesquisa para encontrar rapidamente o que você está procurando.
 
@@ -67,7 +67,7 @@ Espaços de trabalho especializados, como gerenciamento de segurança ou disposi
 
 Para chegar ao centro de administração Microsoft 365, vá para o admin.microsoft.com ou, se você já estiver assinado, selecione o launcher do aplicativo e escolha **Admin**. [](https://admin.microsoft.com)
 
-Na home page, você pode criar cartões para tarefas executadas com frequência. Para adicionar um novo cartão, selecione **Adicionar cartão**, em seguida, selecione o sinal de a mais ao lado do cartão que você deseja adicionar. Quando terminar, feche a janela. Você pode reorganizar os cartões selecionando e arrastando-os para onde quiser. Para remover um cartão, selecione **Mais ações** e, em seguida, escolha **Remover**.
+Na home page, você pode criar cartões para tarefas executadas com frequência. Para adicionar um novo cartão, selecione **Adicionar cartão**, em seguida, selecione o sinal de a mais ao lado do cartão que você deseja adicionar. Quando terminar, feche a janela. Você pode reorganizar os cartões selecionando e arrastando-os para onde quiser. Para remover um cartão, selecione os três pontos (mais ações) e escolha **Remover**.
 
 Para exibir mais tarefas de administrador, expanda o menu de navegação. Você encontrará configurações avançadas nos centros de administração adicionais na parte inferior.
 

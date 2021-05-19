@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 description: Saiba como fechar sua conta com a Microsoft.
 ms.date: 04/02/2021
-ms.openlocfilehash: 767a82088500bc24c0d4755a2dafd40742fc796c
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: ed73c191063a328490945c54dc2f5101c88f17e8
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331761"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537290"
 ---
 # <a name="close-your-account"></a>Fechar sua conta
 
@@ -41,18 +41,18 @@ Você deve ser um administrador Global ou de Cobrança para realizar as etapas d
 
 Exclua todos os usuários, exceto um administrador global. O administrador global conclui as etapas para fechar a conta. Antes de poder excluir o diretório no final deste processo, você deve excluir todos os outros usuários.
 
-Se os usuários estiverem sincronizados no local, primeiro desligue a sincronização e exclua os usuários no diretório de nuvem usando o portal do Azure ou os cmdlets do Azure PowerShell.
+Se os usuários estiverem sincronizados no local, primeiro desligue a sincronização e exclua os usuários no diretório de nuvem usando o portal do Azure ou Azure PowerShell cmdlets.
 
 Para excluir usuários, consulte [User management admin: Delete one or more users](../admin/add-users/delete-a-user.md#user-management-admin-delete-one-or-more-users-from-office-365).
 
 Você também pode usar o cmdlet [Remove-MsolUser](/powershell/module/msonline/remove-msoluser) PowerShell para excluir usuários em massa.
 
-Se sua organização usa o Active Directory que se sincroniza com o Microsoft Azure Active Directory (Azure AD), exclua a conta de usuário do Active Directory, em vez disso. Para obter instruções, consulte [Bulk delete users in Azure Active Directory](/azure/active-directory/users-groups-roles/users-bulk-delete).
+Se sua organização usa o Active Directory que sincroniza com o Microsoft Azure Active Directory (Azure AD), exclua a conta de usuário do Active Directory, em vez disso. Para obter instruções, consulte [Bulk delete users in Azure Active Directory](/azure/active-directory/users-groups-roles/users-bulk-delete).
 
 ## <a name="step-2-cancel-all-active-subscriptions"></a>Etapa 2: Cancelar todas as assinaturas ativas
 
 1. No centro de administração, acesse a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
-2. Na guia **Produtos,** encontre uma assinatura ativa. Selecione **Mais ações** (três pontos) e, em seguida, selecione **Cancelar assinatura**.
+2. Na guia **Produtos,** encontre uma assinatura ativa. Selecione os três pontos (mais ações) e selecione **Cancelar assinatura**.
 3. No painel **Cancelar assinatura**, escolha um motivo pelo qual você está cancelando. Opcionalmente, forneça qualquer comentário.
 4. Selecione **Salvar**.
 5. Repita as etapas de 1 a 4 para cancelar todas as assinaturas ativas.

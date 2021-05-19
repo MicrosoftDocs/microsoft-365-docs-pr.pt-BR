@@ -21,32 +21,24 @@ ms.custom:
 search.appverid: MET150
 description: Saiba como os perfis de cobrança suportam faturas.
 ms.date: 04/02/2021
-ms.openlocfilehash: 36d762e50627763b7856ed1fe6c109e8da2b4789
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: e66efe12e05d2aaf286b689c955f17c8401144f1
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332025"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537326"
 ---
 # <a name="understand-billing-profiles"></a>Compreender os perfis de cobrança
 
-Para clientes comerciais que compram produtos e serviços da Microsoft, os perfis de cobrança permitem personalizar quais itens estão incluídos em sua fatura e como você paga suas faturas.
+Um perfil de cobrança contém um método de pagamento, informações de cobrança e outras configurações de fatura, como o número do pedido de compra e a preferência da fatura de email. Você usa um perfil de cobrança para pagar os produtos que você compra da Microsoft. Um perfil de cobrança é criado automaticamente quando um usuário faz uma compra self-service. Cada perfil de cobrança é faturado separadamente.
 
-Os perfis de cobrança incluem as seguintes informações:
+> [!NOTE]
+>
+> Os perfis de cobrança não estão disponíveis para clientes que compram  produtos e serviços da Microsoft.com ou na página Serviços de Compra do centro de administração Microsoft 365.
 
-- **Conta de cobrança** &ndash; Nome da conta de cobrança à que o perfil está relacionado
-- **Métodos de pagamento** &ndash; Cartões de crédito ou débito, contas bancárias, verificação ou transferência bancária
-- **Informações de contato** &ndash; Endereço de cobrança e um nome de contato
-- **Configurações de fatura** &ndash; Moeda com base no país da conta de cobrança, um número DE opcional e a opção de receber faturas como anexos de email
-- **Permissões** &ndash; Permissões que permitem alterar o perfil de cobrança, pagar contas ou usar o método de pagamento no perfil de cobrança para fazer compras
+## <a name="what-are-billing-profile-roles"></a>O que são funções de perfil de cobrança?
 
-Use perfis de cobrança para controlar suas compras e personalizar sua fatura. Uma fatura mensal é gerada para os produtos comprados com o perfil de cobrança. Você pode personalizar a fatura, como atualizar o número do pedido de compra e a preferência da fatura de email.
-
-Um perfil de cobrança é criado automaticamente para sua conta de cobrança durante sua primeira compra. Você pode criar perfis de cobrança na página <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Perfis de</a> Cobrança para configurar mais faturas. Por exemplo, você pode usar perfis de cobrança diferentes ao fazer compras para cada departamento em sua organização. Na próxima data de cobrança, você receberá uma fatura para cada perfil de cobrança.
-
-## <a name="billing-profile-roles"></a>Funções de perfil de cobrança
-
-Funções nos perfis de cobrança têm permissões para controlar compras e exibir e gerenciar faturas. Atribua essas funções aos usuários que rastreiam, organizam e pagam faturas, como membros da equipe de compras em sua organização.
+Funções nos perfis de cobrança têm permissões para controlar compras e exibir e gerenciar faturas. Atribua essas funções aos usuários que rastreiam, organizam e pagam faturas. Por exemplo, membros da equipe de compras em sua organização.
 
 | Função                         | Descrição                                                                      |
 |----------------------------- |--------------------------------------------------------------------------------- |
@@ -55,21 +47,36 @@ Funções nos perfis de cobrança têm permissões para controlar compras e exib
 | Leitor de perfil de cobrança       | Exibição somente leitura de tudo em um perfil de cobrança                                |
 | Gerenciador de faturas              | Exibir e pagar contas e tem uma exibição somente leitura de tudo em um perfil de cobrança  |
 
-## <a name="view-billing-profiles"></a>Exibir perfis de cobrança
+## <a name="view-my-billing-profiles"></a>Exibir meus perfis de cobrança
+
+> [!NOTE]
+>
+> Se você seguir estas etapas e a lista de perfis de cobrança estiver vazia, isso significa que você não tem um perfil de cobrança e não pode usar esse recurso.
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Faturas e pagamentos</a>.
-2. Escolha **Perfis de** cobrança e escolha um perfil de cobrança na lista.
+2. Selecione a **guia Perfil de cobrança** e selecione um perfil de cobrança na lista.
 
-    - Na guia **Visão** geral, você pode editar detalhes do perfil de cobrança e ativar ou desativar o envio de uma fatura por email.
-    - Na guia **Permissões,** você pode atribuir funções aos usuários para pagar faturas.
-    - Na guia saldo de crédito do **Azure,** os clientes do Azure podem ver o histórico do saldo de transações dos créditos do Azure usados por esse perfil de cobrança.
-    - Na guia Créditos do **Azure,** os clientes do Azure podem ver uma lista de créditos do Azure associados a esse perfil de cobrança e suas datas de expiração.
+Cada perfil de cobrança inclui as seguintes informações:
 
-    > [!NOTE]
-    > Se você não tiver créditos do Azure, não verá o saldo de crédito do **Azure** ou as guias de créditos do **Azure.**
+- **Nome e status do perfil de cobrança** &ndash; O nome exclusivo do perfil de cobrança e se o perfil de cobrança está ativo ou desabilitado para compra.
+- **Configurações de fatura** &ndash; Conversor de Moedas com base no país da conta de cobrança, informações sobre a frequência e a data da fatura, a opção de receber faturas como anexos de email e um campo opcional de número de PO
+- **Métodos de pagamento** &ndash; Mostra o método de pagamento principal e de backup, se for o caso, para o perfil
+- **Conta de cobrança** &ndash; Nome da conta de cobrança à que o perfil está relacionado. Para obter mais informações sobre contas de cobrança, consulte [Understand billing accounts](../manage-billing-accounts.md).
+- **Informações de contato** &ndash; Endereço de cobrança, nome de contato e endereço de email
+- **Funções de perfil de cobrança** &ndash; Uma lista de pessoas que são atribuídas a uma das funções de perfil de cobrança para fazer coisas para esse perfil. Por exemplo, pagar contas, adicionar um número de PO ou substituir o método de pagamento usado para fazer compras.
+
+> [!NOTE]
+>
+> Você só pode atribuir funções de perfil de cobrança aos usuários em sua organização.
 
 ## <a name="need-help-contact-support"></a>Precisa de ajuda? Contatar o suporte
 
 Se você tiver dúvidas ou precisar de ajuda com suas cobranças do Azure, crie uma solicitação de suporte <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">com o suporte do Azure.</a>
 
-Se você tiver dúvidas ou precisar de ajuda com seu perfil de cobrança no Centro de administração do Microsoft 365, [contate o suporte para produtos comerciais.](../../business-video/get-help-support.md)
+Se você tiver dúvidas ou precisar de ajuda com seu perfil de cobrança no Microsoft 365 de administração, [contate o suporte](../../business-video/get-help-support.md).
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Como pagar sua assinatura com um perfil de cobrança](pay-for-subscription-billing-profile.md) (artigo)\
+[Compreender contas de cobrança](../manage-billing-accounts.md) (artigo)\
+[Gerenciar métodos de pagamento](manage-payment-methods.md) (artigo)

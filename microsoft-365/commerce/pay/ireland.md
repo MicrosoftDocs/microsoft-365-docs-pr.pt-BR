@@ -1,23 +1,24 @@
 ---
 title: Informações de pagamento para a Irlanda
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 03a7013700cd0bf75585c7ee449b91ce11be7d3d
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 801296a2c50978100340107b70672e8dafb627cf
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273543"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536605"
 ---
 # <a name="payment-information-for-ireland"></a>Informações de pagamento para a Irlanda
 
@@ -27,8 +28,8 @@ Por favor, pague somente em EUR e faça referência aos números da fatura em su
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Banco:** Citibank, Londres    
-**Código SWIFT/BIC:** CITIGB2L   
+**Banco:** Citibank, Londres  
+**Código SWIFT/BIC:** CITIGB2L  
 **IBAN:** GB31CITI18500812207591  
 **Código SORT:** 185008  
 **Número da conta:** 12207591  

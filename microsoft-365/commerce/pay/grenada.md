@@ -1,23 +1,24 @@
 ---
 title: Informações de pagamento para a Granada
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6b76a59a5f5a8798e7a2412a80a1d1a1ebfe8886
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: cd28a2e55baddc81dba43be8d4facdf07c8ccda4
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273711"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536761"
 ---
 # <a name="payment-information-for-grenada"></a>Informações de pagamento para a Granada
 
@@ -31,4 +32,4 @@ Por favor, pague apenas em USD e faça referência aos seus números de fatura n
 **Branch** Dallas  
 **Código SWIFT:** BOFAUS3N  
 **Número da conta:** 4426587954  
-**Nome da conta:** Microsoft  
+**Nome da conta:** Microsoft

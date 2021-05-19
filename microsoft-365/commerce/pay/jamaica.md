@@ -1,23 +1,24 @@
 ---
 title: Informações de pagamento para a Jamaica
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b3c17956fe9b2aac019f084a49cd7cec38f624bc
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: e27136b860c13dbb8ec2290e819482b196ba7d21
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273519"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536569"
 ---
 # <a name="payment-information-for-jamaica"></a>Informações de pagamento para a Jamaica
 
@@ -31,4 +32,4 @@ Por favor, pague somente em USD e faça referência aos números da fatura em su
 **Branch:** Dallas  
 **Código SWIFT:** BOFAUS3N  
 **Número da conta:** 4426587954  
-**Nome da conta:** Microsoft  
+**Nome da conta:** Microsoft

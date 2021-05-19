@@ -1,23 +1,24 @@
 ---
 title: Informações de pagamento para Honduras
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 74c1e23ad44a8d39ad6a88c38e986cefc2bb8bd6
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: c23a9deff43d78c9f73ae0440b8952159a58d28f
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273639"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536677"
 ---
 # <a name="payment-information-for-honduras"></a>Informações de pagamento para Honduras
 
@@ -31,4 +32,4 @@ Por favor, pague somente em USD e faça referência aos números da fatura em su
 **Branch:** Dallas  
 **Código SWIFT:** BOFAUS3N  
 **Número da conta:** 4426587954  
-**Nome da conta:** Microsoft   
+**Nome da conta:** Microsoft

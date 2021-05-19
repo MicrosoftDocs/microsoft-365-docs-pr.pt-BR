@@ -1,23 +1,24 @@
 ---
 title: Informações de pagamento para o Japão
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1c271232e25247f4f107160ea2d595da17c62ee8
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 4b90e9136b7d73fbfbc7006fc242f84c34ce52db
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273507"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536557"
 ---
 # <a name="payment-information-for-japan"></a>Informações de pagamento para o Japão
 

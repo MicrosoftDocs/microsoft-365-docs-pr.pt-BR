@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Saiba como comprar mais licenças ou reduzir o número de licenças para sua assinatura Microsoft 365 para empresas.
 ms.date: 04/07/2021
-ms.openlocfilehash: a327149a780d2059cfc69068fc4b2122e549773c
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: a20e89ff28c582018c55281a85dbe115b58f9d74
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331677"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537266"
 ---
 # <a name="buy-or-remove-licenses"></a>Comprar ou remover licenças
 
@@ -68,7 +68,7 @@ Se você tiver removido licenças de uma assinatura, a próxima coisa a fazer é
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Seus produtos</a>.
 ::: moniker-end
 
-2. Na guia **Produtos,** encontre a assinatura para a qual você deseja comprar ou remover licenças. Selecione **Mais ações** (três pontos) e selecione Comprar **licenças**. [E se eu não vir os botões Comprar licenças ou Remover licenças?](#what-if-i-dont-see-the-buy-licenses-or-remove-licenses-buttons)
+2. Na guia **Produtos,** encontre a assinatura para a qual você deseja comprar ou remover licenças. Selecione os três pontos (mais ações) e selecione **Comprar licenças**. [E se eu não vir os botões Comprar licenças ou Remover licenças?](#what-if-i-dont-see-the-buy-licenses-or-remove-licenses-buttons)
 3. Se você quiser reduzir o número de licenças, na parte superior do painel **Comprar licenças,** selecione **remover licenças**.
 4. Para comprar ou remover licenças, em **Nova quantidade** na caixa Total de **licenças,** insira o número total de licenças que você deseja para essa assinatura. Por exemplo, se você tiver 100 licenças e quiser adicionar mais cinco, digite 105. Se você quiser remover cinco delas, digite 95.
 5. Selecione **Salvar**.

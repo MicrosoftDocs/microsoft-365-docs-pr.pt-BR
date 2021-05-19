@@ -2,22 +2,23 @@
 title: Informações de pagamento para a Austrália
 f1.keywords:
 - NOCSH
-author: cmcatee-MSFT
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6b02242af4e1beb5b113c72ce3e1ab91d682417a
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: e396618984b90053c2f4918201f6abfe5ca915df
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274273"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537218"
 ---
 # <a name="payment-information-for-australia"></a>Informações de pagamento para a Austrália
 
@@ -29,18 +30,18 @@ ms.locfileid: "52274273"
 
 Se você tiver uma fatura cobrada pela **Microsoft Regional Sales Pte Ltd,** use essas informações bancárias:
 
-Banco: Citibank, Sydney\
-Código SWIFT: CITIAU2X\
-Código BSB: 242000\
-Número da conta: 205565043\
-Nome da conta: MICROSOFT
+**Banco:** Citibank, Sydney  
+**Código SWIFT:** CITIAU2X  
+**Código BSB:** 242000  
+**Número da conta:** 205565043  
+**Nome da conta:** MICROSOFT
 
 Se você tiver uma fatura cobrada pela **Microsoft Pty Ltd** para pedidos e consumo a partir de 1º de março de 2021, use essas informações bancárias:
 
-Banco: Citibank, N.A. Sydney\
-Código SWIFT: CITIAU2X\
-Código BSB: 248053\
-Número da conta: 100001074\
-Nome da conta: MICROSOFT
+**Banco:** Citibank, N.A. Sydney  
+**Código SWIFT:** CITIAU2X  
+**Código BSB:** 248053  
+**Número da conta:** 100001074  
+**Nome da conta:** MICROSOFT  
 
 As faturas emitidas de uma Subsidiária local da Microsoft são emitidas com a taxa padrão de IVA/Imposto de Vendas/GST e considerada uma oferta doméstica de serviços para fins de IVA/Imposto de Vendas/GST.

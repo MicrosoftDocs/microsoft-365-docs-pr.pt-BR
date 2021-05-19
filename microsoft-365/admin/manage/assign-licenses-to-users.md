@@ -21,14 +21,14 @@ ms.custom:
 - manage_licenses
 - commerce_licensing
 search.appverid: MET150
-description: Aprenda a atribuir licenças aos usuários.
+description: Atribua licenças dependendo se você deseja atribuir licenças de produto a usuários específicos ou atribuir licenças de usuários a um produto específico.
 ms.date: 04/26/2021
-ms.openlocfilehash: ef8169658c6aef03cf8ff0cf9714c980ce63b060
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 707c1c952aa737f0aa91d886e9fa304eabe26321
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332481"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537530"
 ---
 # <a name="assign-licenses-to-users"></a>Atribuir licenças aos usuários
 
@@ -53,20 +53,22 @@ Ao usar a página **Licenças** para atribuir licenças, você atribui licenças
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, acesse a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a>.
+1. No centro de administração, acesse a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Licenças** página.
+ 1. No centro de administração, acesse a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenças</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Licenças** página.
+ 1. No centro de administração, acesse a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenças</a>.
 
 ::: moniker-end
+
 
 2. Selecione um produto.
 3. Na página de detalhes do produto, selecione **Atribuir licenças**.
@@ -80,21 +82,22 @@ Se houver um conflito, será exibida uma mensagem informando qual é o problema 
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, acesse a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a>.
+1. No centro de administração, acesse a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Licenças** página.
+ 1. No centro de administração, acesse a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenças</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Licenças** página.
+ 1. No centro de administração, acesse a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenças</a>.
 
 ::: moniker-end
+
 
 2. Na página **Licenças**, selecione a linha de um usuário específico.
 3. No painel direito, marque ou desmarque os aplicativos e serviços aos quais você deseja conceder acesso ou remover o acesso.
@@ -114,18 +117,19 @@ Ao usar a página **Usuários ativos** para atribuir licenças, você atribui li
 
 ::: moniker range="o365-germany"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Usuários ativos** página.
+ 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Usuários ativos** página.
+ 1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 
 ::: moniker-end
 
+
 2. Selecione os círculos ao lado dos nomes dos usuários aos quais você quer atribuir licenças.
-3. Na parte superior, selecione **mais opções (...)**, em seguida, selecione **Gerenciar licenças de produtos**.
+3. Na parte superior, selecione os três pontos (mais ações) e selecione **Gerenciar licenças de produto**.
 4. No painel **Gerenciar licenças de produtos**, selecione **Adicionar a atribuições de licença de produto existentes** \> **.Avançar**.
 5. No painel **Adicionar a produtos existentes**, alterne o botão para a posição **Ativado** nas licenças que você quer que os usuários selecionados tenham.\
     Por padrão, todos os serviços associados a essa licença são atribuídos automaticamente ao usuário. Você pode limitar quais serviços estão disponíveis para os usuários. Alterne o botão a posição **Desativado** para os serviços que você não deseja que os usuários tenham.
@@ -145,15 +149,16 @@ Ao usar a página **Usuários ativos** para atribuir licenças, você atribui li
 
 ::: moniker range="o365-germany"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Usuários ativos** página.
+ 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Usuários ativos** página.
+ 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 
 ::: moniker-end
+
 
 2. Selecione a linha do usuário ao qual você quer atribuir uma licença.
 3. No painel direito, selecione **Licenças e Aplicativos**.
