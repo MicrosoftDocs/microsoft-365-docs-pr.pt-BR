@@ -88,55 +88,55 @@
           items:
             - name: Visão Geral
               href: incidents-overview.md
-            - name: Priorizar incidentes
+            - name: Priorizar
               href: incident-queue.md
-            - name: Gerenciar incidentes
+            - name: Gerenciar
               href: manage-incidents.md
-            - name: Resposta a incidentes
+            - name: Investigar
               items:
-                - name: Investigar incidentes
+                - name: Visão Geral
                   href: investigate-incidents.md
-                - name: Investigar alertas
+                - name: Alertas
                   href: investigate-alerts.md
-                - name: Investigar usuários
+                - name: Usuários
                   href: investigate-users.md
-                - name: Playbooks de resposta a incidentes
-                  href: 'https://docs.microsoft.com/security/compass/incident-response-playbooks'
-                - name: Responder ao seu primeiro incidente
+            - name: Responder ao seu primeiro incidente
+              items:
+                - name: Introdução
+                  href: first-incident-overview.md
+                - name: Preparar
+                  href: first-incident-prepare.md
+                - name: Etapa 1. Triagem e análise
+                  href: first-incident-analyze.md
+                - name: Etapa 2. Corrigir
+                  href: first-incident-remediate.md
+                - name: Etapa 3. Revisão
+                  href: first-incident-post.md
+                - name: Exemplos adicionais de incidentes
                   items:
-                    - name: Introdução
-                      href: first-incident-overview.md
-                    - name: Preparar
-                      href: first-incident-prepare.md
-                    - name: Etapa 1. Triagem e análise
-                      href: first-incident-analyze.md
-                    - name: Etapa 2. Corrigir
-                      href: first-incident-remediate.md
-                    - name: Etapa 3. Revisão
-                      href: first-incident-post.md
-                    - name: Exemplos adicionais de incidentes
-                      items:
-                        - name: Email de phishing
-                          href: first-incident-path-phishing.md
-                        - name: Identidade
-                          href: first-incident-path-identity.md
-            - name: Obter notificações por email
+                    - name: Email de phishing
+                      href: first-incident-path-phishing.md
+                    - name: Identidade
+                      href: first-incident-path-identity.md
+            - name: Playbooks de resposta a incidentes
+              href: 'https://docs.microsoft.com/security/compass/incident-response-playbooks'
+            - name: Notificações por e-mail
               href: get-incident-notifications.md
         - name: Investigação e resposta automatizadas
           items:
-            - name: Visão geral da investigação e resposta automatizadas
+            - name: Visão Geral
               href: m365d-autoir.md
-            - name: Configurar os recursos de investigação e resposta automatizadas
+            - name: Configurar recursos
               href: m365d-configure-auto-investigation-response.md
             - name: Ações de correção
               href: m365d-remediation-actions.md
-            - name: Visite a Central de Ações
+            - name: Usando a Central de Ações
               href: m365d-action-center.md
             - name: Exibir e gerenciar ações de correção
               href: m365d-autoir-actions.md
-            - name: Exiba os detalhes e resultados das investigações automatizadas
+            - name: Exibir detalhes e resultados
               href: m365d-autoir-results.md
-            - name: Resolver falsos positivos/negativos
+            - name: Resolver falsos positivos e negativos
               href: m365d-autoir-report-false-positives-negatives.md
         - name: Busca avançada
           items:

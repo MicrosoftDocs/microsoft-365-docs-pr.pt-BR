@@ -68,7 +68,7 @@
       href: billing-and-payments/psd2.md
 - name: Contas de cobrança
   items:
-    - name: Gerenciar contas de cobrança
+    - name: Compreender contas de cobrança
       href: manage-billing-accounts.md
     - name: Associar um locatário à minha conta de cobrança
       href: /microsoft-store/manage-mpsa-software-microsoft-store-for-business
