@@ -8,7 +8,6 @@ metadata:
   ms.topic: landing-page
   ms.collection: commerce
   ms.custom:
-  - AdminSurgePortfolio
   - commerce_landingpage
   author: cmcatee-MSFT
   ms.author: cmcatee
@@ -16,12 +15,12 @@ metadata:
   ms.date: 02/27/2020
   localization_priority: Normal
   search.appverid: MET150
-  ms.openlocfilehash: e09a21819551bbd7cd35a8e3df2e81e17e90305f
-  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.openlocfilehash: 2c048207d0528856924b348697e1f7c48114e82a
+  ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/12/2021
-  ms.locfileid: "52331716"
+  ms.lasthandoff: 05/19/2021
+  ms.locfileid: "52537278"
 landingContent:
 - title: Gerenciar contas e pagamentos
   linkLists:
