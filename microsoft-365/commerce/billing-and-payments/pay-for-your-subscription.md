@@ -14,19 +14,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 search.appverid: MET150
-description: Saiba quais opções de pagamento estão disponíveis para pagar pela assinatura do Microsoft 365 para empresas.
+description: Use um cartão de crédito ou débito ou conta bancária para pagar sua assinatura Microsoft 365 Business, ou em alguns casos, você pode pagar por fatura.
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
 - commerce_billing
 ms.date: 05/04/2021
-ms.openlocfilehash: 282e8106e75a94b3c9693a2aba9bfa2edf72f6ed
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: eb1e8ed9e932b09a82dc8529f933a1926868319d
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331965"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535693"
 ---
 # <a name="how-to-pay-for-your-subscription"></a>Como pagar por sua assinatura
 

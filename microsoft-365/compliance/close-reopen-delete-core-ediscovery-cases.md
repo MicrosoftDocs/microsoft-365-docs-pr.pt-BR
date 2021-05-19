@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Este artigo descreve como gerenciar os principais casos de Descoberta eDiscovery. Isso inclui fechar um caso, reabrir um caso fechado e excluir um caso.
-ms.openlocfilehash: 251ca932954071cf949c45343130f122464dcf01
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 8a54d5c8f93d36351538bc235a6dbeaaa602c3e9
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52310867"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52532441"
 ---
 # <a name="close-reopen-and-delete-a-core-ediscovery-case"></a>Fechar, reabrir e excluir um caso de Descoberta Principal
 
@@ -82,7 +82,7 @@ Quando você reabrir um caso, qualquer Descoberta Automática que estava no loca
 
     Quando o processo é concluído, o status da ocorrência é alterado para **Ativo** na página **Descoberta Principal.**
 
-7. (Opcional) Para ativar quaisquer bloqueios associados ao caso  reaberto, vá para a guia Bloqueios, selecione uma responsabilidade e selecione a caixa de seleção em **Status** na página de subsuletor de espera.
+6. (Opcional) Para ativar quaisquer bloqueios associados ao caso  reaberto, vá para a guia Bloqueios, selecione uma responsabilidade e selecione a caixa de seleção em **Status** na página de subsuletor de espera.
   
 ## <a name="delete-a-case"></a>Excluir uma ocorrência
 
@@ -108,6 +108,6 @@ Para excluir um caso:
 
 3. Na home page do caso, em **Status**, clique **em Excluir caso**.
 
-      ![Reabrir um caso fechado](../media/eDiscoveryCaseHomePageDelete.png)
+      ![Excluir uma ocorrência](../media/eDiscoveryCaseHomePageDelete.png)
 
 Se o caso que você estiver tentando excluir ainda contiver retém a Descoberta E, você receberá uma mensagem de erro. Você terá que excluir todas as ressarcições associadas à ocorrência e tentar novamente excluir o caso.

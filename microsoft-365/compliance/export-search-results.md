@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: Exporte os resultados da pesquisa de uma pesquisa de conteúdo no Microsoft 365 de conformidade para um computador local. Os resultados do email são exportados como arquivos PST. O conteúdo SharePoint e OneDrive for Business sites são exportados como documentos Office nativos.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b5e900d44e59c2c37263c1162a7e631b1635cb06
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 8ec09706fecbe703fa2ab38cad5f8f8304484f44
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311938"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536053"
 ---
 # <a name="export-content-search-results"></a>Exportar resultados de Pesquisa de conteúdo
 
@@ -37,7 +37,7 @@ Exportar os resultados de uma pesquisa de conteúdo envolve a preparação dos r
   
 ## <a name="before-you-export-search-results"></a>Antes de exportar resultados de pesquisa
 
-- Para exportar os resultados da pesquisa, você precisa ter a função de gerenciamento Exportar no Centro de Conformidade & Segurança. Essa função é atribuída ao grupo de função do Gerente de Descoberta Eletrônica interno. Ela não é atribuída por padrão ao grupo de funções Gerenciamento da Organização. Para obter mais informações, confira [Atribuir permissões de descoberta eletrônica](assign-ediscovery-permissions.md).
+- Para exportar os resultados da pesquisa, você precisa ter a função de gerenciamento Exportar no Centro de Conformidade & Segurança. Essa função é atribuída ao grupo de função do Gerente de Descoberta Eletrônica interno. Ela não é atribuída por padrão ao grupo de funções Gerenciamento da Organização. Para obter mais informações, confira [Atribuir permissões de Descoberta eletrônica](assign-ediscovery-permissions.md).
 
 - O computador que você usa para exportar os resultados da pesquisa devem atender aos seguintes requisitos de sistema:
   
@@ -122,7 +122,7 @@ A primeira etapa é preparar os resultados da pesquisa para a exportação. Quan
   
 5. Configure as seguintes opções adicionais:
 
-   ![Exchange opções](../media/OtherExportOptions.png)
+   ![Configurar outras opções de exportação](../media/OtherExportOptions.png)
 
    1. Selecione a **caixa de seleção Habilitar a duplicação de Exchange conteúdo** para excluir mensagens duplicadas.
   

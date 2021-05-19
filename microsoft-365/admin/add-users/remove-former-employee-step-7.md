@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Siga estas etapas para excluir a conta de usuário de um ex-funcionário.
-ms.openlocfilehash: 0afa9b112919d2668d7553ac5bcf08e664bc1749
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 5ca428079091c4af44ef1efa9be3d7340e254995
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244153"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535933"
 ---
 # <a name="step-7---delete-a-former-employees-user-account"></a>Etapa 7 - Excluir a conta de usuário de um ex-funcionário
 
@@ -43,7 +43,13 @@ Depois de salvar e acessar todos os dados de usuário do ex-funcionário, você 
 3. Em nome do usuário, selecione **Excluir usuário**. Escolha as opções que você deseja para esse usuário e selecione **Excluir usuário**. Se você já tiver dado a outro usuário acesso ao email e ao OneDrive desse usuário, não será preciso fazer isso novamente aqui.
 
 Quando você exclui um usuário, a conta se torna inativa por aproximadamente 30 dias. Você tem até esse prazo para restaurar a conta antes de ela ser permanentemente excluída.
-  
+
+## <a name="watch-delete-a-former-employees-user-account"></a>Assista: Excluir a conta de usuário de um ex-funcionário
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR]
+
+Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](../../business-video/index.yml).
+
 ## <a name="does-your-organization-use-active-directory"></a>Sua organização usa o Active Directory?
 
 Se sua organização sincroniza contas de usuário Microsoft 365 de um ambiente local do Active Directory, você deve excluir e restaurar essas contas de usuário no serviço local do Active Directory. Não é possível excluí-las ou restaurá-las no Office 365.
@@ -81,3 +87,5 @@ As operações acima podem ser feitas em três locais:
 ## <a name="related-articles"></a>Artigos relacionados
 
 [Restaurar um usuário](restore-user.md)
+
+[Redefinir senhas](reset-passwords.md)

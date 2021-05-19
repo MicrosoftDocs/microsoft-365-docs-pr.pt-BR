@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 description: Os usuários podem aprender a gerenciar suas compras de autoatendir.
 ms.date: 03/17/2021
-ms.openlocfilehash: 0f9832f69d7e89346e82e3acef0e626fc7f6c4de
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: ed6f2fc3b55756fb88dccd748fd4a4a9a34a5c81
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333249"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536077"
 ---
 # <a name="manage-self-service-purchases-users"></a>Gerenciar compras de autoatendimento (Usuários)
 
@@ -34,7 +34,7 @@ ms.locfileid: "52333249"
 
 ::: moniker-end
 
-Como usuário, você pode comprar assinaturas para determinados produtos e atribuir licenças para essas assinaturas para as pessoas em sua equipe. Você é responsável por pagar todas as compras de autoatend pena que fizer. Você pode gerenciar suas assinaturas no Centro de administração do Microsoft 365 em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com</a>.
+Como usuário, você pode comprar assinaturas para determinados produtos e atribuir licenças para essas assinaturas para as pessoas em sua equipe. Você é responsável por pagar todas as compras de autoatend pena que fizer. Você pode gerenciar suas assinaturas no centro de administração Microsoft 365 em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com</a>.
 
 O administrador tem uma exibição somente leitura em todas as assinaturas que você comprar. Eles podem ver o produto, o nome do comprador, as assinaturas compradas, a data de expiração, o preço de compra e os usuários atribuídos para cada assinatura que você comprar.
 
@@ -75,7 +75,7 @@ Você pode exibir uma lista de todas as assinaturas adquiridas por autoatendam q
 ## <a name="cancel-a-subscription"></a>Cancelar uma assinatura
 
 1. No centro de administração, acesse a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
-2. Na guia **Produtos**, encontre a assinatura que deseja cancelar. Selecione **Mais ações** (três pontos) e, em seguida, selecione **Cancelar assinatura**.
+2. Na guia **Produtos**, encontre a assinatura que deseja cancelar. Selecione os três pontos (mais ações) e selecione **Cancelar assinatura**.
 3. No painel **Cancelar assinatura**, escolha um motivo pelo qual você está cancelando. Opcionalmente, forneça qualquer comentário que você tiver.
 4. Selecione **Salvar**.
 
@@ -108,6 +108,6 @@ Você pode exibir uma lista de todas as assinaturas adquiridas por autoatendam q
 
 ## <a name="need-help-contact-us"></a>Precisa de ajuda? Entre em contato conosco.
 
-Para perguntas comuns sobre compras de autoatend pois, consulte Perguntas frequentes sobre compras de [autoatend nome.](self-service-purchase-faq.md)
+Para perguntas comuns sobre compras de autoatend pois, consulte Perguntas frequentes sobre compras de [autoatend nome.](self-service-purchase-faq.yml)
 
 Se você tiver dúvidas ou precisar de ajuda com compras de [autoatendém, entre em contato com o suporte](../../business-video/get-help-support.md).

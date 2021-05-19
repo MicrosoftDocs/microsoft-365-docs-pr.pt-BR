@@ -2,22 +2,23 @@
 title: Informações de pagamento para Países Baixos
 f1.keywords:
 - NOCSH
-author: cmcatee-MSFT
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ff080fd690b6e392e8c4d1485f3c1cf9a150448f
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 3b4c7e9b7519c2fc0cdc6420093076acbaf88912
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273195"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535345"
 ---
 # <a name="payment-information-for-netherlands"></a>Informações de pagamento para Países Baixos
 
@@ -29,18 +30,18 @@ ms.locfileid: "52273195"
 
 Se você tiver uma fatura cobrada pela **Microsoft Ireland Operations Limited,** use essas informações bancárias:
 
-Banco: Citibank, Londres\
-Código SWIFT: CITIGB2L\
-Código IBAN: GB31CITI18500812207591\
-Número da conta: 12207591\
-Nome da conta: MICROSOFT
+**Banco:** Citibank, Londres  
+**Código SWIFT:** CITIGB2L  
+**Código IBAN:** GB31CITI18500812207591  
+**Número da conta:** 12207591  
+**Nome da conta:** MICROSOFT
 
 Se você tiver uma fatura cobrada pelo **Microsoft BV** para pedidos e consumo a partir de 1º de março de 2021, use essas informações bancárias:
 
-Banco: Citibank Europe plc\
-Código SWIFT: CITIIE2X\
-Código IBAN: IE70CITI99005170000128\
-Número da conta: 70000128\
-Nome da conta: MICROSOFT
+**Banco:** Citibank Europe plc  
+**Código SWIFT:** CITIIE2X  
+**Código IBAN:** IE70CITI99005170000128  
+**Número da conta:** 70000128  
+**Nome da conta:** MICROSOFT
 
 As faturas emitidas de uma Subsidiária local da Microsoft são emitidas com a taxa padrão de IVA/Imposto de Vendas/GST e considerada uma oferta doméstica de serviços para fins de IVA/Imposto de Vendas/GST.

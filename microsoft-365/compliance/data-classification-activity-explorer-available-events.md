@@ -1,5 +1,5 @@
 ---
-title: Ações de rotulagem relatadas no Explorador de atividades
+title: Rotular ações relatadas no gerenciador de Atividades
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -17,21 +17,21 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: listagem de ações de rotulagem que estão disponíveis no explorador de atividades.
-ms.openlocfilehash: ed51c908d6968e3aeae0adbe06d9ba55887bcf83
-ms.sourcegitcommit: 1c53f114a810e7aaa2dc876b84d66348492ea36c
+description: listagem de atividades de rotulagem que estão disponíveis no explorador de atividades.
+ms.openlocfilehash: d4f6884ad39b16aeb0345f0c976d6ad87f03c05a
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51902938"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52532249"
 ---
 # <a name="labeling-activities-that-are-available-in-activity-explorer"></a>Atividades de rotulagem que estão disponíveis no Explorador de Atividades
 
 ## <a name="sensitivity-label-applied"></a>Rótulo de sensibilidade aplicado
 
-Esse evento é gerado sempre que um documento não rotulado é rotulado ou um email é enviado com um rótulo. 
+Esse evento é gerado sempre que um documento não rotulado é rotulado ou um email é enviado com um rótulo de sensibilidade. 
 
-- Ele é capturado no momento da salvação em aplicativos nativos do Office e aplicativos Web. 
+- Ele é capturado no momento da salvação em aplicativos Office nativos e aplicativos Web. 
 - Ele é capturado no momento da ocorrência nos complementos da Proteção de Informações do Azure. 
 - As ações de rótulos de atualização e downgrade também podem ser monitoradas por meio do *campo de* tipo de evento Label e filtro.   
 
@@ -45,19 +45,19 @@ Esse evento é gerado sempre que um documento não rotulado é rotulado ou um em
 |Cliente unificado da Proteção de Informações do Azure (AIP) e scanner unificado do AIP |sim |a ação de *novo rótulo* da AIP é mapeada para o rótulo *aplicado no* explorador de atividades   |
 |Microsoft information protection (MIP) SDK         |sim|a ação de *novo rótulo* da AIP é mapeada para o rótulo *aplicado no* explorador de atividades|
 |Serviço de Gerenciamento de Direitos (RMS)         |não se aplica         | |
-|Área de trabalho e Web do Power BI        | não| acessível nos logs de auditoria do Microsoft 365         |
+|Power BI desktop e web        | não| acessíveis nos logs Microsoft 365 de auditoria         |
 |MCAS (Microsoft Cloud App Security)         |não|         |
 
 ## <a name="sensitivity-label-changed"></a>Rótulo de sensibilidade alterado
 
-Esse evento é gerado sempre que um rótulo é atualizado no documento ou no email.
+Esse evento é gerado sempre que um rótulo de sensibilidade é atualizado no documento ou no email.
 
 - Para as fontes de SDK do AIP Unified Client, Unified Scanner e MIP, o rótulo de atualização do *AIP* e a ação de rótulo de *downgrade* são mapeados para o rótulo do explorador de *atividades alterado*
 
-- Ele é capturado no ponto de salvar em aplicativos nativos do Office e aplicativos Web. 
+- Ele é capturado no ponto de salvar em aplicativos Office nativos e aplicativos Web. 
 - Ele é capturado no momento da ocorrência em Azure Information protection unified client add-ins and scanner enforcements
-- As ações de rótulos de atualização e downgrade também podem ser monitoradas por meio do *campo de* tipo de evento Label e filtro. O *texto de* justificativa também é capturado, exceto para o SharePoint Online e o OneDrive.
-- A rotulagem de confidencialidade feita em aplicativos nativos do Office no Outlook coleta a última ação gerada antes das ações de envio de email/salvar arquivos. Por exemplo, se o usuário mudar o rótulo em um email várias vezes antes de enviar, o último rótulo encontrado no email quando ele é enviado será capturado no log de auditoria e, em seguida, relatado no explorador de atividades. 
+- As ações de rótulos de atualização e downgrade também podem ser monitoradas por meio do *campo de* tipo de evento Label e filtro. O *texto de* justificativa também é capturado, exceto SharePoint Online e OneDrive.
+- A rotulagem de confidencialidade feita Office aplicativos nativos no Outlook coleta a última ação gerada antes das ações de envio/envio de email de arquivo. Por exemplo, se o usuário mudar o rótulo em um email várias vezes antes de enviar, o último rótulo encontrado no email quando ele é enviado será capturado no log de auditoria e, em seguida, relatado no explorador de atividades. 
 
 
 |Origem  |Relatado no explorador de atividades|Observação  |
@@ -70,16 +70,16 @@ Esse evento é gerado sempre que um rótulo é atualizado no documento ou no ema
 |Scanner unificado AIP         |sim         |
 |MIP SDK         |sim         |
 |Serviço RMS         |não se aplica         |
-|Área de trabalho e Web do Power BI         |não         |acessível nos logs de auditoria do Microsoft 365 |
+|Power BI desktop e Web         |não         |acessíveis nos logs Microsoft 365 de auditoria |
 |MCAS     |não         |         |
 
 ## <a name="sensitivity-label-removed"></a>Rótulo de sensibilidade removido
 
-Esse evento é gerado sempre que um rótulo é removido de um arquivo ou documento.
+Esse evento é gerado sempre que um rótulo de confidencialidade é removido de um arquivo ou documento.
 
-- Esse evento é capturado no momento da salvação em aplicativos nativos do Office e aplicativos Web.
+- Esse evento é capturado no momento da salvação em Office aplicativos web e aplicativos web nativos.
 - Ele é capturado no momento da ocorrência nos complementos da Proteção de Informações do Azure. 
-- A rotulagem de confidencialidade, com o rótulo MIP nativo do Office, no Outlook coleta o último evento de rotulagem que foi gerado antes das ações de salvar/enviar emails de arquivo.
+- A rotulagem de confidencialidade, com Office rótulo MIP nativo, no Outlook coleta o último evento de rotulagem que foi gerado antes das ações de envio de arquivo/envio de email.
 
 |Origem  |Relatado no explorador de atividades | Observação  |
 |---------|---------|---------| 
@@ -91,7 +91,7 @@ Esse evento é gerado sempre que um rótulo é removido de um arquivo ou documen
 |Scanner unificado AIP         |sim         |a ação remover *rótulo* do AIP é mapeada para a *ação removida do rótulo* no explorador de atividades |
 |MIP SDK         |sim         |a ação remover *rótulo* do AIP é mapeada para a *ação removida do rótulo* no explorador de atividades |
 |Serviço RMS         |não se aplica         |
-|Área de trabalho e Web do Power BI         |não         |acessível nos logs de auditoria do Microsoft 365 |
+|Power BI desktop e Web         |não         |acessíveis nos logs Microsoft 365 de auditoria |
 |MCAS     |não         |         |
  
 
@@ -109,11 +109,11 @@ Esse evento é gerado sempre que um documento rotulado ou protegido é aberto.
 |Scanner unificado AIP         |sim         |a ação de *acesso AIP* é mapeada para a ação de leitura *de* arquivo no explorador de atividades|
 |MIP SDK         |sim         |a ação de *acesso AIP* é mapeada para a ação de leitura *de* arquivo no explorador de atividades|
 |Serviço RMS         |sim         |a *ação de* acesso é mapeada para a ação de leitura *de* arquivo no explorador de atividades |
-|Área de trabalho e Web do Power BI         |não         |acessível nos logs de auditoria do Microsoft 365 |
+|Power BI desktop e Web         |não         |acessíveis nos logs Microsoft 365 de auditoria |
 |MCAS     |não         |         |
 
 
-## <a name="sensitivity-label-files-discovered"></a>Arquivos de rótulo de sensibilidade descobertos
+## <a name="files-discovered"></a>Arquivos descobertos
 
 Esse evento é gerado sempre que os arquivos são descobertos quando o Scanner AIP é usado para a verificação de dados confidenciais em vários locais e localiza arquivos.
 
@@ -127,7 +127,7 @@ Esse evento é gerado sempre que os arquivos são descobertos quando o Scanner A
 |Scanner unificado AIP         |sim         |a ação *descoberta* do AIP é mapeada para os *arquivos descobertos ação* no explorador de atividades|
 |MIP SDK         |sim         |a ação *descoberta* do AIP é mapeada para a ação *descoberta de arquivo* no explorador de atividades|
 |Serviço RMS         |não se aplica         |
-|Área de trabalho e Web do Power BI         |não se aplica         |
+|Power BI desktop e Web         |não se aplica         |
 |MCAS     |não se aplica         |         |
 
 
@@ -145,11 +145,11 @@ Esse evento é gerado sempre que um documento com um rótulo de sensibilidade é
 |Scanner unificado AIP         |não         |
 |MIP SDK         |não         |
 |Serviço RMS         |não      |
-|Área de trabalho e Web do Power BI         |não         |
+|Power BI desktop e Web         |não         |
 |MCAS     |não         |         |
 
 
-## <a name="sensitivity-label-file-removed"></a>Arquivo de rótulo de confidencialidade removido
+## <a name="file-removed"></a>Arquivo removido
 
 Esse evento é gerado sempre que o verificador AIP detecta que um arquivo verificado anteriormente foi removido.
 
@@ -163,10 +163,10 @@ Esse evento é gerado sempre que o verificador AIP detecta que um arquivo verifi
 |Scanner unificado AIP         |sim         |
 |MIP SDK         |não se aplica            |
 |Serviço RMS         |não se aplica         |
-|Área de trabalho e Web do Power BI         |não se aplica  |
+|Power BI desktop e Web         |não se aplica  |
 |MCAS     |não se aplica        |         |
 
-### <a name="sensitivity-label-protection-applied"></a>Proteção de rótulo de sensibilidade aplicada
+### <a name="protection-applied"></a>Proteção aplicada
 
 Esse evento é gerado, a proteção de primeira vez é adicionada manualmente a um item que não tem um rótulo.
 
@@ -180,10 +180,10 @@ Esse evento é gerado, a proteção de primeira vez é adicionada manualmente a 
 |Scanner unificado AIP         |não se aplica         |
 |MIP SDK         |sim            |
 |Serviço RMS         |não se aplica         |
-|Área de trabalho e Web do Power BI         |não se aplica            |
+|Power BI desktop e Web         |não se aplica            |
 |MCAS     |não se aplica        |         |
 
-## <a name="sensitivity-label-protection-changed"></a>Proteção de rótulo de sensibilidade alterada
+## <a name="protection-changed"></a>Proteção alterada
 
 Esse evento é gerado sempre que a proteção em um documento não rotulado é alterada manualmente.
 
@@ -197,10 +197,10 @@ Esse evento é gerado sempre que a proteção em um documento não rotulado é a
 |Scanner unificado AIP         |não se aplica         |
 |MIP SDK         |sim            |
 |Serviço RMS         |não se aplica         |
-|Área de trabalho e Web do Power BI         |não se aplica            |
+|Power BI desktop e Web         |não se aplica            |
 |MCAS     |não se aplica        |
 
-## <a name="sensitivity-label-protection-removed"></a>Proteção de rótulo de sensibilidade removida
+## <a name="protection-removed"></a>Proteção removida
 
 Esse evento é gerado sempre que a proteção em um documento não rotulado é alterada manualmente.
 
@@ -214,12 +214,12 @@ Esse evento é gerado sempre que a proteção em um documento não rotulado é a
 |Scanner unificado AIP         |não se aplica         |
 |MIP SDK         |sim            |
 |Serviço RMS         |não se aplica         |
-|Área de trabalho e Web do Power BI         |não se aplica            |
+|Power BI desktop e Web         |não se aplica            |
 |MCAS     |não se aplica        |
 
-## <a name="sensitivity-label-dlp-policy-matched"></a>Política de DLP do rótulo de sensibilidade corresponder
+## <a name="dlp-policy-matched"></a>Política de DLP corresponder
 
-Esse evento é gerado sempre que uma política de DLP é corresponder.
+Esse evento é gerado sempre que uma política de DLP é corresponder a um documento ou a um email.
 
 |Origem  |Relatado no explorador de atividades |
 |---------|---------| 
@@ -247,9 +247,9 @@ Os eventos para dispositivos Windows 10 (DLP do ponto de extremidade) são:
 
 ## <a name="retention-label-applied"></a>Rótulo de retenção aplicado 
 
-Esse evento é gerado sempre que um documento não rotulado é rotulado ou um email é enviado com um rótulo.
+Esse evento é gerado sempre que um documento não rotulado é rotulado ou um email é enviado com um rótulo de retenção.
 
-- Ele é capturado no momento da salvação em aplicativos nativos do Office e aplicativos Web.
+- Ele é capturado no momento da salvação de um documento e no momento do envio de um email.
 
 |Origem  |Relatado no explorador de atividades |
 |---------|---------| 
@@ -261,7 +261,7 @@ Esse evento é gerado sempre que um documento não rotulado é rotulado ou um em
 
 Esse evento é gerado sempre que um rótulo é atualizado em um documento ou email.
 
-- Ele é capturado no momento da salvação.
+- Ele é capturado no momento da salvação de um documento e no momento do envio de um email.
 
 |Origem  |Relatado no explorador de atividades |
 |---------|---------| 
@@ -273,7 +273,7 @@ Esse evento é gerado sempre que um rótulo é atualizado em um documento ou ema
 
 Esse evento é gerado sempre que um rótulo é removido de um arquivo ou documento.
 
-- Ele é capturado no momento da salvação.
+- Ele é capturado no momento da salvação de um documento e no momento do envio de um email.
 
 |Origem  |Relatado no explorador de atividades |
 |---------|---------| 
@@ -286,6 +286,6 @@ Esse evento é gerado sempre que um rótulo é removido de um arquivo ou documen
   
 - Quando a dica de ferramenta de rótulo recomendada é mostrada para um usuário final, ela não é capturada. Mas se o usuário optar por aplicar o rótulo recomendado, o rótulo será mostrado no campo Como *aplicado* como *recomendado*  
 
-- O texto de justificativa não está disponível no momento em downgrade de rótulo de sensibilidade do Sharepoint e do OneDrive.  
+- O texto de justificativa não está disponível no momento em downgrade de rótulo de sensibilidade do Sharepoint e OneDrive.  
 
-- No momento, os tipos de informações confidenciais não estão disponíveis para atividades de auto-rótulo do Word, Excel, PowerPoint e Outlook, bem como do SharePoint Online e do OneDrive.
+- No momento, os tipos de informações confidenciais não estão disponíveis para atividades de auto-rótulo do Word, Excel, PowerPoint e Outlook, bem como SharePoint Online e OneDrive.

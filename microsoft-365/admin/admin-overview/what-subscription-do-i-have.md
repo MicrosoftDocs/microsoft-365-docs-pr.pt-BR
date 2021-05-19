@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Saiba quais assinaturas sua organização tem indo para a página Seus produtos.
 ms.date: 01/21/2021
-ms.openlocfilehash: e1f7ebecafa5edff1ccc3d6eb4e4dc143054996a
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: c33ba799880e6c687a08c2d49b17cbae8e80552c
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332661"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535885"
 ---
 # <a name="what-subscription-do-i-have"></a>Qual assinatura eu tenho?
 
@@ -42,3 +42,9 @@ Se você for um administrador, poderá verificar quais assinaturas sua organiza�
 ## <a name="related-content"></a>Conteúdo relacionado
   
 [Assinaturas e cobrança](../../commerce/index.yml) (links)
+
+[Exibir sua fatura ou fatura](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) (artigo)
+
+[Pagar por sua assinatura](../../commerce/billing-and-payments/pay-for-your-subscription.md) (artigo)
+
+[Alterar seus endereços de cobrança](../../commerce/billing-and-payments/change-your-billing-addresses.md) (artigo)

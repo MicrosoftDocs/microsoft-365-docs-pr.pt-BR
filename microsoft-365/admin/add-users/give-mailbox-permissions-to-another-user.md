@@ -22,13 +22,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
-description: 'Saiba como oferecer ao usuário o direito de acessar a caixa de correio de outro usuário. Isso dará ao usuário o direito de ler e enviar emails da caixa de correio do outro usuário. '
-ms.openlocfilehash: e6b94d4e24b0ff1d5dc397ccbcfba98929a303f2
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: Conceder a um usuário o direito de acessar a caixa postal de outro usuário, o que permite ao usuário ler e enviar emails da caixa postal do outro usuário.
+ms.openlocfilehash: 3514be02f2ef82b727edfcf86c0bd3f6b8515510
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49925537"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535957"
 ---
 # <a name="give-mailbox-permissions-to-another-user---admin-help"></a>Conceder permissões de caixa de correio para outro usuário - Ajuda para administradores
 
@@ -205,11 +205,11 @@ Há algumas maneiras diferentes que você pode acessar uma caixa de correio. Par
 ::: moniker-end
 
 
-## <a name="send-and-read-from-outlook-and-outlook-on-the-web-for-business"></a>Enviar e ler pelo Outlook e pelo Outlook na Web para empresas
-
-
-Deseja saber como enviar emails da caixa de correio de outro usuário? Confira os seguintes tópicos:
+## <a name="related-content"></a>Conteúdo relacionado
   
-- [Gerenciar o email e os itens de calendário de outra pessoa](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5)
+[Gerenciar o email e os itens de calendário de outra pessoa](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5) (artigo)
     
-- [Enviar emails de outra pessoa ou grupo](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b)
+[Enviar emails de outra pessoa ou grupo](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b) (artigo)
+
+[Alterar um nome de usuário e endereço de email](../add-users/change-a-user-name-and-email-address.md) (vídeo)
+

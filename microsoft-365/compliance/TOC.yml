@@ -782,10 +782,10 @@
   items:
     - name: Soluções de auditoria do Microsoft 365
       href: auditing-solutions-overview.md
-    - name: Auditoria básica
+    - name: Auditoria Básica
       items:
-        - name: Configurar a auditoria básica.
-          href: set-up-basic-auditing.md
+        - name: Configurar a Auditoria Básica.
+          href: set-up-basic-audit.md
         - name: Pesquisar o log de auditoria
           href: search-the-audit-log-in-security-and-compliance.md
         - name: Usar um script do Windows PowerShell para pesquisar o log de auditoria

@@ -1,23 +1,24 @@
 ---
 title: Informações de pagamento para eslovênia
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e2355c7be2c81b93569614af60a18f6f20f56d17
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 413083b9dd0f911d2c4db3f20ea1036b9bc703df
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52272847"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536269"
 ---
 # <a name="payment-information-for-slovenia"></a>Informações de pagamento para eslovênia
 

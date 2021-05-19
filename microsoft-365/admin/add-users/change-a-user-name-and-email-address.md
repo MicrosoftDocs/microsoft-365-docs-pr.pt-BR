@@ -22,13 +22,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
-description: 'Saiba como um administrador global pode alterar o endereço de e-mail e o nome de exibição de um usuário. '
-ms.openlocfilehash: a785ef17f0823429ad5eb216a330dc6f04dc7761
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+description: 'Saiba como um administrador global do Microsoft 365 pode alterar o endereço de email e o nome de exibição de um usuário quando seu nome altera. '
+ms.openlocfilehash: 2614e0ae53e5ff1cf08ded384e7470cc5967e682
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52291014"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535981"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Alterar o nome de exibição e o endereço de email de um usuário
 
@@ -251,8 +251,10 @@ Set-MsolUserPrincipalName -UserPrincipalName anne.wallace@contoso.onmicrosoft.co
   
 Para saber como alterar um nome de usuário no Active Directory no Windows Server 2003 e em versões anteriores, confira [Alterar um nome de conta de usuário](/previous-versions/windows/it-pro/windows-server-2003/cc772952(v=ws.10))
   
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Administradores: Redefinir uma senha para um ou mais usuários](reset-passwords.md)
+[Administradores: redefinir uma senha para um ou mais usuários](reset-passwords.md) (artigo)
   
-[Adicionar outro endereço de e-mail para um usuário](../email/add-another-email-alias-for-a-user.md)
+[Adicionar outro endereço de email a um usuário](../email/add-another-email-alias-for-a-user.md) (artigo)
+
+[Criar uma caixa de correio compartilhada](../email/create-a-shared-mailbox.md) (artigo)

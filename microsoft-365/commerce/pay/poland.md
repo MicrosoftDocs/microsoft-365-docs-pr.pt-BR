@@ -1,23 +1,24 @@
 ---
 title: Informações de pagamento para a Polônia
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6fae5fa2fe7dd3aa58f64ed527ff72b2708692d6
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: cf8f08dc3932c60c18a0af724c7a186df06d247e
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273051"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536329"
 ---
 # <a name="payment-information-for-poland"></a>Informações de pagamento para a Polônia
 

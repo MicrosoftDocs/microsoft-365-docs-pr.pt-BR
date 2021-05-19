@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 description: Saiba como gerenciar assinaturas de inscrição gratuitas de autoatendir para sua organização.
 ms.date: 03/17/2021
-ms.openlocfilehash: 9c29d36ff28e312fa3782b60f89fa755d4df9bf3
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 741c9e0b45f127ffc0753b34982073f90c525d5b
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345125"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536065"
 ---
 # <a name="manage-self-service-sign-up-subscriptions"></a>Gerenciar assinaturas de inscrição de autoatend
 
@@ -39,7 +39,7 @@ Há um número limitado de assinaturas de inscrição gratuitas de autoatend., d
 
 ## <a name="how-are-these-subscriptions-different-from-self-service-purchase-subscriptions"></a>Como essas assinaturas são diferentes das assinaturas de compra de autoatendidores?
 
-As assinaturas de inscrição de autoatendados são gratuitas e estão disponíveis para uma lista maior de produtos do que assinaturas de compra de autoatendados. Quando um usuário se insinuou em uma assinatura de compra de autoatendam, ele é responsável por pagar por ela. As assinaturas de compra de autoatendados estão disponíveis apenas para produtos da Plataforma Power (Power BI, Power Apps e Power Automate), Project e Visio. Para obter mais informações, consulte Perguntas frequentes sobre [compra de autoatend.](self-service-purchase-faq.md)
+As assinaturas de inscrição de autoatendados são gratuitas e estão disponíveis para uma lista maior de produtos do que assinaturas de compra de autoatendados. Quando um usuário se insinuou em uma assinatura de compra de autoatendam, ele é responsável por pagar por ela. As assinaturas de compra de autoatendados estão disponíveis apenas para produtos da Plataforma Power (Power BI, Power Apps e Power Automate), Project e Visio. Para obter mais informações, consulte Perguntas frequentes sobre [compra de autoatend.](self-service-purchase-faq.yml)
 
 ## <a name="block-users-from-signing-up"></a>Impedir que os usuários se insuem
 

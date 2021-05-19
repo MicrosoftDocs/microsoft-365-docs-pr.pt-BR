@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Altere as assinaturas manualmente comprando uma nova assinatura e garantindo que ambas as assinaturas sejam listadas e ativas.
 ROBOTS: NOINDEX
 ms.date: 03/17/2021
-ms.openlocfilehash: 4935301c6d2a530f34d628f946032b7007e5c907
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: f5a44b7a3c01883ed42ca4ed203b63ccf77f9b72
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345173"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536101"
 ---
 # <a name="change-plans-manually"></a>Alterar planos manualmente
 
@@ -94,7 +94,7 @@ As licenças da assinatura atual serão removidas posteriormente; você só paga
 
 2. Selecione os círculos ao lado dos nomes dos usuários para os quais você deseja substituir as licenças existentes.
 
-3. Na parte superior, selecione **Mais opções** (**...**) e escolha **Gerenciar licenças de produto**.
+3. Na parte superior, selecione os três pontos (mais ações) e escolha **Gerenciar licenças de produto**.
 
 4. Selecione **Substituir atribuições de licença de produto existentes** \> **Avançar**.
 
