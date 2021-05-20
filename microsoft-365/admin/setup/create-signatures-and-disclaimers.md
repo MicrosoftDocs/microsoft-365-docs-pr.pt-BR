@@ -24,13 +24,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
-description: Aprenda a gerenciar assinaturas de email, incluindo avisos de isenção de responsabilidade legal ou instruções de divulgação para todas as mensagens de email que entram ou saem da sua organização.
-ms.openlocfilehash: e1c3df235442fdc6f569825a7137c92bfc5bb044
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Gerencie assinaturas de email, incluindo avisos de isenção de responsabilidade legal ou instruções de divulgação para todas as mensagens de email que entram ou saem da sua organização.
+ms.openlocfilehash: 05cfeeb01231e7f99d2a96fc37581b4c9a23f5aa
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244522"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582747"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>Criar assinaturas e avisos de isenção de ônus em toda a organização
 
@@ -40,7 +40,7 @@ ms.locfileid: "52244522"
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf] 
 
-Se você achou este vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades para o Microsoft 365](../../business-video/index.yml).
+Se você achou esse vídeo útil, confira as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](../../business-video/index.yml).
 
 ## <a name="create-a-signature-that-applies-to-all-messages"></a>Criar uma assinatura que se aplica a todas as mensagens
 
@@ -115,4 +115,13 @@ Para obter esses e outros recursos para gerenciar assinaturas de email, use uma 
   
 ## <a name="more-resources"></a>Mais recursos
 
-- Consulte Avisos de isenção de responsabilidade de mensagem em toda a [organização, assinaturas, rodapés](/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) ou Exchange Online informações sobre como usar o PowerShell.
+Para obter informações sobre como usar o PowerShell, consulte Avisos de isenção de responsabilidade de mensagem em toda a [organização, assinaturas, rodapés](/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers)ou headers em Exchange Online .
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Migrar emails e contatos para Microsoft 365](migrate-email-and-contacts-admin.md) (vídeo)
+
+[Configurações de email do usuário](../email/office-365-user-email-settings.md) (artigo)
+
+[Visão geral do Centro de administração do Microsoft 365](../../business-video/admin-center-overview.md) (vídeo)
+

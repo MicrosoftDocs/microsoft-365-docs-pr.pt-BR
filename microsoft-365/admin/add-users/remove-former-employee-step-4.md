@@ -23,13 +23,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Siga estas etapas para dar a outro funcionário acesso aos dados de OneDrive e Outlook do ex-funcionário.
-ms.openlocfilehash: 451f8f7f50098c280e3925ef4efe5ad491ac54fa
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Siga as etapas deste artigo para dar a outro funcionário acesso aos dados de OneDrive e Outlook ex-funcionários.
+ms.openlocfilehash: cb5c27cbc7f1c184af8f0d1ad32b822660e93791
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244147"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582687"
 ---
 # <a name="step-4---give-another-employee-access-to-onedrive-and-outlook-data"></a>Etapa 4 - Dar a outro funcionário acesso aos OneDrive e Outlook dados
 
@@ -161,10 +161,10 @@ Para dar acesso às mensagens de email, calendário, tarefas e contatos do ex-fu
 > [!TIP]
 > Se você quiser importar ou restaurar apenas alguns itens de um arquivo de dados Outlook (.pst), poderá abrir o arquivo Outlook dados. Em seguida, no painel de navegação, arraste os itens Outlook pastas de Arquivo de Dados para as pastas Outlook existentes. 
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Adicionar e remover administradores em uma OneDrive de usuário](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive)
+[Adicionar e remover administradores em uma conta OneDrive (artigo)](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive)
 
-[Restaurar um OneDrive](/onedrive/restore-deleted-onedrive)
+[Restaurar um OneDrive](/onedrive/restore-deleted-onedrive) excluído (artigo)
   
-[Retenção e exclusão do OneDrive](/onedrive/retention-and-deletion)
+[OneDrive retenção e exclusão](/onedrive/retention-and-deletion) (artigo)
