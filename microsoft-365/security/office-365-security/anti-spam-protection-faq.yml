@@ -17,15 +17,15 @@ metadata:
   - m365initiative-defender-office365
   ms.custom:
   - seo-marvel-apr2020
-  description: Os administradores podem exibir perguntas e respostas frequentes sobre a proteção anti-spam no Exchange Online Protection (EOP).
+  description: Os administradores podem exibir perguntas e respostas frequentes sobre a proteção anti-spam no Proteção do Exchange Online (EOP).
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: 430ed10d74dea909415ee0ca32d33ad8d006ae6b
-  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.openlocfilehash: e632ab1183c43cd50da7c2cf7832a5a18fa64d50
+  ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/12/2021
-  ms.locfileid: "52333884"
+  ms.lasthandoff: 05/20/2021
+  ms.locfileid: "52583611"
 title: Perguntas frequentes sobre a proteção antispam
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -40,7 +40,7 @@ summary: >
   - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
-  Este tópico fornece perguntas e respostas frequentes sobre a proteção anti-malware para organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online.
+  Este tópico fornece perguntas e respostas frequentes sobre a proteção anti-malware para organizações Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas Proteção do Exchange Online (EOP) sem Exchange Online caixas de correio.
 
 
   Para obter perguntas e respostas sobre a quarentena, veja [Perguntas Frequentes sobre a Quarentena](quarantine-faq.yml).
@@ -61,7 +61,7 @@ sections:
 
       > [!IMPORTANT]
 
-      > Em implantações híbridas em que o EOP protege caixas de correio locais, você precisa configurar duas regras de fluxo de emails do Exchange (também conhecidas como regras de transporte) em sua organização local do Exchange para detectar os headers de filtragem de spam do EOP adicionados às mensagens. Para obter detalhes, confira [Configurar a EOP autônoma para enviar spam à pasta Lixo Eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
+      > Em implantações híbridas em que o EOP protege caixas de correio locais, você precisa configurar duas regras de fluxo de emails do Exchange (também conhecidas como regras de transporte) em sua organização local Exchange para detectar os headers de filtragem de spam do EOP adicionados às mensagens. Para obter detalhes, confira [Configurar a EOP autônoma para enviar spam à pasta Lixo Eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
 
        **Para mensagens de saída:** A mensagem é roteada pelo [pool](high-risk-delivery-pool-for-outbound-messages.md) de entrega de alto risco ou é retornada para o remetente em um relatório de não entrega (também conhecido como uma mensagem de NDR ou bounce). Para obter mais informações sobre a proteção de spam de saída, consulte [Controles de spam de saída.](outbound-spam-controls.md)
   - question: >
@@ -70,7 +70,9 @@ sections:
       Uma variante de spam de dia zero é uma variante de spam de primeira geração, anteriormente desconhecida, que nunca foi capturada ou analisada, portanto, nossos filtros anti-spam ainda não têm informações disponíveis para detectá-lo. Depois que um exemplo de spam de dia zero é capturado e analisado por nossos analistas de spam, se ele atender aos critérios de classificação de spam, nossos filtros anti-spam são atualizados para detectá-lo e ele não é mais considerado "zero-day".
 
 
-      **Observação:** Se você receber uma mensagem que pode ser uma variante de spam de dia zero, para nos ajudar a melhorar o serviço, envie a mensagem para a Microsoft usando um dos métodos descritos em Relatar mensagens e arquivos para a [Microsoft](report-junk-email-messages-to-microsoft.md).
+      > [!NOTE]
+
+      > Se você receber uma mensagem que pode ser uma variante de spam de dia zero, para nos ajudar a melhorar o serviço, envie a mensagem para a Microsoft usando um dos métodos descritos em Relatar mensagens e arquivos para a [Microsoft](report-junk-email-messages-to-microsoft.md).
   - question: >
       Preciso configurar o serviço para fornecer proteção anti-spam?
     answer: >
@@ -80,7 +82,7 @@ sections:
       Para mais informações, confira os seguintes tópicos:
 
 
-      [Configurações recomendadas para segurança do EOP e do Microsoft Defender para Office 365](recommended-settings-for-eop-and-office365.md)
+      [Configurações recomendadas para o EOP e o Microsoft Defender para Office 365 segurança](recommended-settings-for-eop-and-office365.md)
 
 
       [Configurar a filtragem de conexão no EOP](configure-the-connection-filter-policy.md)
@@ -97,7 +99,7 @@ sections:
   - question: >
       A filtragem de email em massa está habilitada automaticamente?
     answer: >
-      Sim. Para obter mais informações sobre email em massa, consulte Qual é a diferença entre lixo eletrônico [e email em massa?](what-s-the-difference-between-junk-email-and-bulk-email.md).
+      Sim. Para saber mais sobre emails em massa, veja [Qual é a diferença entre lixo eletrônico e email em massa?](what-s-the-difference-between-junk-email-and-bulk-email.md)
   - question: >
       O serviço fornece filtragem de URL?
     answer: >
@@ -109,13 +111,13 @@ sections:
   - question: >
       Posso receber relatórios de spam?
     answer: >
-      Sim, por exemplo, você pode obter um relatório de detecção de spam no Centro de administração do Microsoft 365. Este relatório mostra o volume de spam como uma contagem de mensagens exclusivas. Para obter mais informações sobre relatórios, consulte os seguintes links:
+      Sim, por exemplo, você pode obter um relatório de detecção de spam no Microsoft 365 de administração. Este relatório mostra o volume de spam como uma contagem de mensagens exclusivas. Para obter mais informações sobre relatórios, consulte os seguintes links:
 
 
-      Clientes do Exchange Online: [Monitoramento, Relatórios e Rastreamento de Mensagens no Exchange Online](/exchange/monitoring/monitoring)
+      Exchange Online clientes: [Monitoramento, Relatório e Rastreamento de Mensagens no Exchange Online](/exchange/monitoring/monitoring)
 
 
-      Clientes EOP autônomos: [Relatórios e rastreamento de mensagens na Proteção do Exchange Online](reporting-and-message-trace-in-exchange-online-protection.md)
+      Clientes EOP autônomos: [Relatórios e rastreamento de mensagens Proteção do Exchange Online](reporting-and-message-trace-in-exchange-online-protection.md)
   - question: >
       Alguém me enviou uma mensagem e não consigo encontrá-la. Suspeito que ele possa ter sido detectado como spam. Há uma ferramenta que eu possa usar para descobrir?
     answer: >
@@ -133,10 +135,10 @@ sections:
       Sim. Embora seja recomendável apontar seu registro MX para a Microsoft, sabemos que há motivos comerciais legítimos para roteá-lo para outro lugar que não seja a Microsoft primeiro.
 
 
-      - **Entrada**: altere seus registros MX para apontar para o provedor de terceiros e, em seguida, redirecione as mensagens para o EOP para processamento adicional. Para obter mais informações, [consulte Enhanced Filtering for connectors in Exchange Online](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
+      - **Entrada**: altere seus registros MX para apontar para o provedor de terceiros e, em seguida, redirecione as mensagens para o EOP para processamento adicional. Para obter mais informações, consulte [Enhanced Filtering for connectors in Exchange Online](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
 
-      - **Saída**: Configurar o roteamento de host inteligente do Microsoft 365 para o provedor de terceiros de destino.
+      - **Saída**: Configure o roteamento de host inteligente Microsoft 365 para o provedor de terceiros de destino.
   - question: >
       A Microsoft tem alguma documentação sobre como posso me proteger contra fraudes de phishing?
     answer: >
