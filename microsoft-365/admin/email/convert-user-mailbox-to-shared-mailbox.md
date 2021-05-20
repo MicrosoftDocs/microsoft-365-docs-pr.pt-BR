@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
-description: 'Aprenda a converter uma caixa de correio privada em uma caixa de correio compartilhada que pode ser acessada por vários usuários. '
-ms.openlocfilehash: d5b33731908d2d555a8dd12d5d7fbbd462bd83ad
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: 'Aprenda a converter uma caixa de correio privada em uma caixa de correio compartilhada que pode ser acessada por várias pessoas em vez de por apenas uma pessoa. '
+ms.openlocfilehash: 73e2bad40037e1343f4e08c07ca6b26df16b1a30
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915861"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537614"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>Converter uma caixa de correio do usuário em uma caixa de correio compartilhada
 
@@ -41,7 +41,7 @@ Quando você converte a caixa de correio de um usuário em uma caixa de correio 
 
 - As regras ficam intactas depois que a caixa de correio é convertida em uma caixa de correio compartilhada.
 
-## <a name="use-the-exchange-admin-center-to-convert-a-mailbox"></a>Usar o centro de administração do Exchange para converter uma caixa de correio
+## <a name="use-the-exchange-admin-center-to-convert-a-mailbox"></a>Usar o Exchange de administração para converter uma caixa de correio
  
 1. Vá até o <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Centro de administração do Exchange</a>.
 
@@ -57,7 +57,7 @@ Quando você converte a caixa de correio de um usuário em uma caixa de correio 
 Para saber mais sobre caixas de correio compartilhadas, consulte Sobre caixas de correio [compartilhadas](about-shared-mailboxes.md) e [Criar uma caixa de correio compartilhada.](create-a-shared-mailbox.md)
 
 > [!NOTE]
-> Caixas de correio compartilhadas não exigem uma licença separada. No entanto, se você quiser habilitar o In-Place Archive ou colocar uma responsabilidade In-Place ou uma responsabilidade de litígio em uma caixa de correio compartilhada, você deve atribuir uma licença do Plano 1 do Exchange Online com Arquivamento do Exchange Online ou Plano 2 do Exchange Online à caixa de correio.
+> Caixas de correio compartilhadas não exigem uma licença separada. No entanto, se você quiser habilitar o In-Place Archive ou colocar uma In-Place ou uma Responsabilidade de Litígio em uma caixa de correio compartilhada, você deve atribuir uma licença do Exchange Online Plano 1 com Arquivamento do Exchange Online ou Exchange Online Plano 2 à caixa de correio.
 
 
 ## <a name="convert-the-mailbox-of-a-deleted-user"></a>Converter a caixa de correio de um usuário excluído
@@ -66,7 +66,7 @@ Digamos que você excluiu uma conta de usuário e agora deseja converter sua cai
 
 1. [Restaure a conta do usuário](../add-users/restore-user.md).
 
-2. Certifique-se de que uma licença do Microsoft 365 seja atribuída a ela.
+2. Certifique-se de Microsoft 365 uma licença de Microsoft 365 seja atribuída a ela.
 
 3. Redefinir a senha do usuário.
     
@@ -93,23 +93,23 @@ Digamos que você excluiu uma conta de usuário e agora deseja converter sua cai
 
 ## <a name="convert-a-users-mailbox-in-a-hybrid-environment"></a>Converter a caixa de correio de um usuário em um ambiente híbrido
 
-Para obter mais informações sobre como converter uma caixa de correio de usuário em uma caixa de correio compartilhada em um ambiente Híbrido do Exchange, consulte:
+Para obter mais informações sobre como converter uma caixa de correio de usuário em uma caixa de correio compartilhada em um ambiente Exchange híbrido, consulte:
 
- - [Cmdlets para criar ou modificar uma caixa de correio compartilhada remota em um ambiente local do Exchange](https://support.microsoft.com/office/cmdlets-to-create-or-modify-a-remote-shared-mailbox-in-an-on-premises-exchange-environment-9e83fb59-c001-729c-a4c0-b2964c154b49)
- - [Caixas de correio compartilhadas são convertidas inesperadamente em caixas de correio de usuário após a sincronização de diretório ser executado em uma implantação híbrida do Exchange](/exchange/troubleshoot/user-and-shared-mailboxes/shared-mailboxes-unexpectedly-converted-to-user-mailboxes)
+ - [Cmdlets para criar ou modificar uma caixa de correio compartilhada remota em um ambiente Exchange local](https://support.microsoft.com/office/cmdlets-to-create-or-modify-a-remote-shared-mailbox-in-an-on-premises-exchange-environment-9e83fb59-c001-729c-a4c0-b2964c154b49)
+ - [As caixas de correio compartilhadas são convertidas inesperadamente em caixas de correio de usuário após a sincronização de diretórios ser Exchange implantação híbrida](/exchange/troubleshoot/user-and-shared-mailboxes/shared-mailboxes-unexpectedly-converted-to-user-mailboxes)
  
 
 > [!NOTE]
-> Se você for membro do grupo de função Gerenciamento da Organização ou Gerenciamento de Destinatários, poderá usar o Shell de Gerenciamento do Exchange para alterar uma caixa de correio de usuário para uma caixa de correio compartilhada no local. Por exemplo, `Set-Mailbox -Identity mailbox1@contoso.com -Type Shared`.
+> Se você for membro do grupo de função Gerenciamento da Organização ou Gerenciamento de Destinatários, poderá usar o Shell de Gerenciamento Exchange para alterar uma caixa de correio de usuário para uma caixa de correio compartilhada no local. Por exemplo, `Set-Mailbox -Identity mailbox1@contoso.com -Type Shared`.
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Sobre as caixas de correio compartilhadas](about-shared-mailboxes.md)
+[Sobre caixas de correio compartilhadas](about-shared-mailboxes.md) (artigo)
 
-[Criar uma caixa de correio compartilhada](create-a-shared-mailbox.md)
+[Criar uma caixa de correio compartilhada](create-a-shared-mailbox.md) (artigo)
 
-[Configurar uma caixa de correio compartilhada](configure-a-shared-mailbox.md)
+[Configurar uma caixa de correio compartilhada](configure-a-shared-mailbox.md) (artigo)
 
-[Remover uma licença de uma caixa de correio compartilhada](remove-license-from-shared-mailbox.md)
+[Remover uma licença de uma caixa de correio compartilhada](remove-license-from-shared-mailbox.md) (artigo)
 
-[Solucionar problemas com caixas de correio compartilhadas](resolve-issues-with-shared-mailboxes.md)
+[Resolver problemas com caixas de correio compartilhadas](resolve-issues-with-shared-mailboxes.md) (artigo)

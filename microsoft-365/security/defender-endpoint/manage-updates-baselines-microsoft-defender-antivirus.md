@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 05/10/2021
-ms.openlocfilehash: 5b599e9d5a5c3d098033af1f1df96ee9f26025ee
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.date: 05/13/2021
+ms.openlocfilehash: 17a76b39b51293de82cf9b3e5f0e323ec3d28844
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52312007"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538034"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Gerenciar Microsoft Defender Antivírus e aplicar linhas de base
 
@@ -65,7 +65,7 @@ Microsoft Defender Antivírus exige atualizações mensais [(KB4052623)](https:/
 Você pode gerenciar a distribuição de atualizações por meio de um dos seguintes métodos: 
 
 - [Windows Serviço de Atualização do Servidor (WSUS)](/mem/configmgr/protect/deploy-use/endpoint-definitions-wsus#to-synchronize-endpoint-protection-definition-updates-in-standalone-wsus)
-- [Gerenciador de Configuração do Microsoft Endpoint](/configmgr/sum/understand/software-updates-introduction)
+- [Microsoft Endpoint Configuration Manager](/configmgr/sum/understand/software-updates-introduction)
 - O método comum que você usa para implantar a Microsoft e Windows atualizações para pontos de extremidade em sua rede.
 
 Para obter mais informações, consulte [Manage the sources for Microsoft Defender Antivírus protection updates](/mem/configmgr/protect/deploy-use/endpoint-definitions-wsus#to-synchronize-endpoint-protection-definition-updates-in-standalone-wsus).
@@ -83,11 +83,11 @@ Todas as nossas atualizações contêm
 - melhorias de integração (Cloud, Microsoft 365 Defender).
 <br/>
 <details>
-<summary> Abril-2021 (Plataforma: 4.18.2104.9 | Mecanismo: 1.1.18100.5)</summary>
+<summary> Abril-2021 (Plataforma: 4.18.2104.14 | Mecanismo: 1.1.18100.5)</summary>
 
 &ensp;Versão de atualização de inteligência de segurança: **1.337.2.0**  
 &ensp;Lançado: **1º de abril de 2021**  
-&ensp;Plataforma: **4.18.2104.9**  
+&ensp;Plataforma: **4.18.2104.14**  
 &ensp;Mecanismo: **1.1.18100.5**  
 &ensp;Fase de suporte: **Segurança e Atualizações Críticas**
     

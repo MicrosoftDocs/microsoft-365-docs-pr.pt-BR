@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
 description: Saiba mais sobre itens não Exchange e SharePoint que você pode incluir em uma pesquisa de Descoberta Microsoft 365 que você executar no centro de conformidade do Microsoft 365.
-ms.openlocfilehash: 40995aa403686caadd5e35b6fa9c6ca20ee017ee
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: e1730959cd3177fe1f7bce1f0315c871b5a57598
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51994728"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537650"
 ---
 # <a name="partially-indexed-items-in-ediscovery"></a>Itens parcialmente indexados na Descoberta eDiscovery
 
@@ -67,7 +67,7 @@ Para obter uma lista de formatos de arquivo com suporte ou desabilitados, confir
 
 Nem todas as mensagens de email com um anexo de arquivo parcialmente indexado ou cada documento parcialmente indexado SharePoint documento é retornado automaticamente como um item parcialmente indexado. Isso porque outras propriedades de mensagem ou documento, como a propriedade **Subject** em mensagens de email e as propriedades **Title** ou **Author** para documentos são indexadas e disponíveis para pesquisa. Por exemplo, uma pesquisa de palavra-chave para "financeiro" retornará itens com um anexo de arquivo parcialmente indexado se essa palavra-chave aparecer no assunto de uma mensagem de email ou no nome do arquivo ou no título de um documento. No entanto, se a palavra-chave aparecer apenas no corpo do arquivo, a mensagem ou documento será retornada como um item parcialmente indexado.
   
-Da mesma forma, as mensagens com anexos de arquivo parcialmente indexados e documentos de um tipo de arquivo parcialmente indexado são incluídas nos resultados da pesquisa quando outras propriedades de documento ou mensagem, indexadas e pesquisáveis, atendem aos critérios de pesquisa. Propriedades de mensagem indexadas para pesquisa incluem datas enviadas e recebidas, remetente e destinatário, o nome do arquivo de um anexo e o texto no corpo da mensagem. Propriedades do documento indexadas para pesquisa incluem datas criadas e modificadas. Portanto, mesmo que um anexo de mensagem possa ser um item parcialmente indexado, a mensagem será incluída nos resultados de pesquisa regulares se o valor de outras propriedades de mensagem ou documento corresponde aos critérios de pesquisa.
+Da mesma forma, as mensagens com anexos de arquivo parcialmente indexados e documentos de um tipo de arquivo parcialmente indexado são incluídas nos resultados da pesquisa quando outras propriedades de documento ou mensagem, indexadas e pesquisáveis, corresponderem aos critérios de pesquisa. Propriedades de mensagem indexadas para pesquisa incluem datas enviadas e recebidas, remetente e destinatário, o nome do arquivo de um anexo e o texto no corpo da mensagem. Propriedades do documento indexadas para pesquisa incluem datas criadas e modificadas. Portanto, mesmo que um anexo de mensagem possa ser um item parcialmente indexado, a mensagem será incluída nos resultados de pesquisa regulares se o valor de outras propriedades de mensagem ou documento corresponde aos critérios de pesquisa.
   
 Para uma lista de propriedades de email e documento que você pode pesquisar usando o recurso De pesquisa no Centro de Conformidade & Segurança, consulte Consultas de palavra-chave e condições de pesquisa para [Descoberta Eletrônico](keyword-queries-and-search-conditions.md).
   
@@ -77,7 +77,7 @@ Sua organização pode ser necessária para identificar e executar análises adi
   
 Lembre-se do seguinte sobre itens parcialmente indexados:
   
-- Quando você executar uma pesquisa de Descoberta eDiscovery, o número total e o tamanho de itens de Exchange parcialmente indexados (retornados pela consulta de pesquisa) são exibidos nas estatísticas de pesquisa na página sub-sub-lista e rotulados como itens não indexados. As estatísticas sobre itens parcialmente indexados exibidos na página de subexeção não incluem itens parcialmente indexados em SharePoint ou OneDrive.
+- Quando você executar uma pesquisa de Descoberta eDiscovery, o número total e o tamanho de itens de Exchange parcialmente indexados (retornados pela consulta de pesquisa) são exibidos nas estatísticas de pesquisa na página sub-sub-lista e rotulados como itens não indexados. As estatísticas sobre itens parcialmente indexados exibidos na página de subexeção não incluem itens parcialmente indexados SharePoint sites ou OneDrive contas.
 
 - Se a pesquisa de que você está exportando resultados foi uma pesquisa de locais de conteúdo específicos ou de todos os locais de conteúdo em sua organização, apenas os itens não índicedos de locais de conteúdo que contêm itens que corresponderem aos critérios de pesquisa serão exportados. In other words, if no search results are found in a mailbox or site, then any unindexed items in that mailbox or site won't be exported. O motivo disso é que a exportação de itens parcialmente indexados de muitos locais na organização pode aumentar a probabilidade de erros de exportação e aumentar o tempo necessário para exportar e baixar os resultados da pesquisa.
 
@@ -87,22 +87,16 @@ Lembre-se do seguinte sobre itens parcialmente indexados:
 
 - Os itens parcialmente indexados não estão disponíveis para visualização. Você precisa exportar os resultados da pesquisa para exibir itens parcialmente indexados retornados pela pesquisa.
 
-Além disso, quando você exporta os resultados da pesquisa e inclui itens parcialmente indexados na exportação, itens parcialmente indexados de SharePoint itens são exportados para uma pasta chamada **Uncrawlable**. Quando você exporta itens Exchange parcialmente indexados, eles são exportados de forma diferente, dependendo se os itens parcialmente indexados corresponderam à consulta de pesquisa e à configuração das configurações de exportação. 
+   Além disso, quando você exporta os resultados da pesquisa e inclui itens parcialmente indexados na exportação, itens parcialmente indexados de SharePoint itens são exportados para uma pasta chamada **Uncrawlable**. Quando você exporta itens Exchange parcialmente indexados, eles são exportados de forma diferente, dependendo se os itens parcialmente indexados corresponderam à consulta de pesquisa e à configuração das configurações de exportação. 
 
-A tabela a seguir mostra o comportamento de exportação de itens indexados e parcialmente indexados e se cada um deles está ou não incluído para as diferentes configurações de exportação.
+- A tabela a seguir mostra o comportamento de exportação de itens indexados e parcialmente indexados e se cada um deles está ou não incluído para as diferentes configurações de exportação.
 
-|**Configuração de exportação**|**Itens indexados que corresponderem à consulta de pesquisa**|**Itens parcialmente indexados que corresponderem à consulta de pesquisa**|**Itens parcialmente indexados que não corresponderem à consulta de pesquisa**|
-|:-----|:-----|:-----|:-----|
-|Exportar somente itens indexados  <br/> |Exported<br/> |Exportado (incluído nos itens indexados que são exportados)<br/>  |Não exportado <br/>|
-|Exportar apenas itens parcialmente indexados  <br/> |Não exportado  <br/> |Exportado (como itens parcialmente indexados)<br/> |Exportado (como itens parcialmente indexados)|
-|Exportar itens indexados e parcialmente indexados  <br/> |Exported<br/> |Exportado (incluído nos itens indexados que são exportados)<br/>  |Exportado (como itens parcialmente indexados)<br/>|
-||||
-
-## <a name="partially-indexed-items-excluded-from-the-search-results"></a>Itens parcialmente indexados excluídos dos resultados da pesquisa
-
-Se um item for parcialmente indexado, mas não atender aos critérios de consulta de pesquisa, ele não será incluído como um item parcialmente indexado nos resultados da pesquisa. Em outras palavras, o item é excluído nos resultados da pesquisa. Da mesma forma, se você optar por incluir itens parcialmente indexados ao exportar os resultados de uma pesquisa, os itens parcialmente indexados excluídos dos resultados da pesquisa não serão exportados.
-  
-Uma exceção a essa regra é quando você cria uma isenção baseada em consulta associada a um caso de Descoberta e. Se você criar uma espera de Descoberta eDiscovery baseada em consulta, todos os itens parcialmente indexados serão colocados em espera. Isso inclui itens parcialmente indexados que não corresponderem aos critérios de consulta de pesquisa. Para obter mais informações sobre como criar retém de Descoberta eDiscovery baseada em consulta, consulte [Create an eDiscovery hold](create-ediscovery-holds.md).
+  |**Configuração de exportação**|**Itens indexados que corresponderem à consulta de pesquisa**|**Itens parcialmente indexados que corresponderem à consulta de pesquisa**|**Itens parcialmente indexados que não corresponderem à consulta de pesquisa**|
+  |:-----|:-----|:-----|:-----|
+  |Exportar somente itens indexados  <br/> |Exported<br/> |Exportado (incluído nos itens indexados que são exportados)<br/>  |Não exportado <br/>|
+  |Exportar apenas itens parcialmente indexados  <br/> |Não exportado  <br/> |Exportado (como itens parcialmente indexados)<br/> |Exportado (como itens parcialmente indexados)|
+  |Exportar itens indexados e parcialmente indexados  <br/> |Exported<br/> |Exportado (incluído nos itens indexados que são exportados)<br/>  |Exportado (como itens parcialmente indexados)<br/>|
+  ||||
   
 ## <a name="indexing-limits-for-messages"></a>Limites de indexação para mensagens
 
@@ -122,12 +116,13 @@ Para ver uma lista de limites de indexação para documentos SharePoint, consult
 |Tokens máximos de anotação  <br/> |2 milhões  <br/> |Quando uma mensagem de email é indexada, cada palavra é anotada com instruções de processamento diferentes que especificam como essa palavra deve ser indexada. Cada conjunto de instruções de processamento é chamado de token de anotação. Para manter a qualidade do serviço Office 365, há um limite de 2 milhões de tokens de anotação para uma mensagem de email.  <br/> |
 |Tamanho máximo do corpo no índice  <br/> |67 milhões de caracteres  <br/> |O número total de caracteres no corpo de uma mensagem de email e todos os seus anexos. Quando uma mensagem de email é indexada, todo o texto no corpo da mensagem e em todos os anexos é concatenado em uma única cadeia de caracteres. O tamanho máximo dessa cadeia de caracteres indexada é de 67 milhões de caracteres.  <br/> |
 |Máximo de tokens exclusivos no corpo  <br/> |1 milhão  <br/> |Conforme explicado anteriormente, os tokens são o resultado da extração de texto do conteúdo, da remoção da pontuação e dos espaços e da divisão em palavras (chamadas tokens) armazenadas no índice. Por exemplo, a frase  `"cat, mouse, bird, dog, dog"` contém 5 tokens. Mas apenas 4 deles são tokens exclusivos. Há um limite de 1 milhão de tokens exclusivos por mensagem de email, o que ajuda a impedir que o índice seja muito grande com tokens aleatórios.  <br/> |
+||||
 
 ## <a name="more-information-about-partially-indexed-items"></a>Mais informações sobre itens parcialmente indexados
 
 - Como mencionado anteriormente, como as propriedades de mensagem e documento e seus metadados são indexadas, uma pesquisa de palavra-chave pode retornar resultados se essa palavra-chave aparecer nos metadados indexados. No entanto, essa mesma pesquisa de palavra-chave poderá não retornar o mesmo item se a palavra-chave só aparece no conteúdo de um item com um tipo de arquivo sem suporte. Nesse caso, o item seria retornado como um item parcialmente indexado.
 
-- Se um item parcialmente indexado estiver incluído nos resultados da pesquisa porque ele atendeu aos critérios de consulta de pesquisa (e não foi excluído), ele não será incluído como um item parcialmente indexado nas estatísticas de pesquisa estimadas. Além disso, ele não será incluído com itens parcialmente indexados quando você exportar resultados da pesquisa.
+- Se um item parcialmente indexado estiver incluído nos resultados da pesquisa porque ele corresponder aos critérios de consulta de pesquisa, ele não será incluído como um item parcialmente indexado nas estatísticas de pesquisa estimadas. Além disso, ele não será incluído com itens parcialmente indexados quando você exportar resultados da pesquisa.
 
 - Embora um tipo de arquivo tenha suporte para indexação e seja indexado, pode haver erros de indexação ou pesquisa que fará com que um arquivo seja retornado como um item parcialmente indexado. Por exemplo, pesquisar um arquivo de Excel muito grande pode ser parcialmente bem-sucedido (porque os primeiros 4 MB são indexados), mas, em seguida, falha porque o limite de tamanho do arquivo é excedido. Nesse caso, é possível que o mesmo arquivo seja retornado com os resultados da pesquisa e como um item parcialmente indexado.
 
@@ -136,6 +131,8 @@ Para ver uma lista de limites de indexação para documentos SharePoint, consult
 - As mensagens de email criptografadas com S/MIME são parcialmente indexadas. Isso inclui mensagens criptografadas com ou sem anexos de arquivo.
 
 - As mensagens de email protegidas usando o Gerenciamento de Direitos do Azure são indexadas e serão incluídas nos resultados da pesquisa se corresponderem à consulta de pesquisa. As mensagens de email protegidas por direitos são descriptografadas e podem ser visualizadas e exportadas. Essa funcionalidade exige que você seja atribuído à função de descriptografia RMS, que é atribuída por padrão ao grupo de funções do Gerenciador de Descobertas.
+
+- Se você criar uma responsabilidade baseada em consulta associada a um caso de Descoberta eDiscovery, todos os itens parcialmente indexados serão colocados em espera. Isso inclui itens parcialmente indexados que não corresponderem aos critérios de consulta de pesquisa para a espera. Para obter mais informações sobre como criar retém de Descoberta eDiscovery baseada em consulta, consulte [Create an eDiscovery hold](create-ediscovery-holds.md).
 
 ## <a name="see-also"></a>Confira também
 

@@ -18,12 +18,12 @@ ms.collection:
 description: Os administradores podem aprender a usar o analisador de configuração para encontrar e corrigir políticas de segurança que estão abaixo das políticas de segurança predefinidas de proteção padrão e de proteção estrita.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 65fd67c93711dc847a25be485b4b016af55e4a31
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: fd0cf4f3194a7a8eec39f2d0c447dca2dae5948b
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51202930"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537926"
 ---
 # <a name="configuration-analyzer-for-protection-policies-in-eop-and-microsoft-defender-for-office-365"></a>Analisador de configuração para políticas de proteção no EOP e no Microsoft Defender para Office 365
 
@@ -38,13 +38,13 @@ O analisado & r de configuração no Centro de Conformidade e Segurança fornece
 
 Os seguintes tipos de políticas são analisados pelo analisador de configuração:
 
-- Políticas de Proteção do **Exchange Online (EOP)**: Isso inclui organizações do Microsoft 365 com caixas de correio do Exchange Online e organizações EOP autônomas sem caixas de correio do Exchange Online:
+- **Proteção do Exchange Online (EOP)**: isso inclui organizações Microsoft 365 com caixas de correio Exchange Online e organizações EOP autônomas sem Exchange Online caixas de correio:
 
   - [Políticas anti-spam](configure-your-spam-filter-policies.md).
   - [Políticas anti-malware](configure-anti-malware-policies.md).
   - [Políticas anti-phishing do EOP](set-up-anti-phishing-policies.md#spoof-settings).
 
-- **Políticas do Microsoft Defender para Office 365**: Isso inclui organizações com assinaturas de complemento do Microsoft 365 E5 ou do Defender para Office 365:
+- **Políticas do Microsoft Defender para Office 365**: isso inclui organizações com o Microsoft 365 E5 ou o Defender para Office 365 assinaturas de complemento:
 
   - Políticas anti-phishing no Microsoft Defender para Office 365, que incluem:
 
@@ -52,11 +52,11 @@ Os seguintes tipos de políticas são analisados pelo analisador de configuraç�
     - [Configurações de representação](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
     - [Limites avançados de phishing](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
 
-  - [Políticas de Links Seguros](set-up-safe-links-policies.md).
+  - [Cofre Políticas de links.](set-up-safe-links-policies.md)
 
-  - [Políticas de Anexos Seguros](set-up-safe-attachments-policies.md).
+  - [Cofre de anexos.](set-up-safe-attachments-policies.md)
 
-Os valores  **de configuração** de política Padrão e Estrita usados como linhas de base são descritos em Configurações recomendadas para a segurança do EOP e do Microsoft Defender para [Office 365.](recommended-settings-for-eop-and-office365.md)
+Os valores  **de configuração** de política Padrão e Estrita usados como linhas de base são descritos em [Configurações recomendadas](recommended-settings-for-eop-and-office365.md)para EOP e Microsoft Defender para Office 365 segurança .
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
@@ -92,15 +92,15 @@ O analisador de configuração tem duas guias principais:
 
 Por padrão, a guia é aberta na comparação com o perfil de proteção padrão. Você pode alternar para a comparação do perfil de proteção estrita clicando em **Exibir recomendações estritas.** Para alternar de volta, selecione **Exibir recomendações padrão**.
 
-![Exibição de configurações e recomendações no analisador de configuração](../../media/configuration-analyzer-settings-and-recommendations-view.png)
+![Configurações e recomendações no analisador de configuração](../../media/configuration-analyzer-settings-and-recommendations-view.png)
 
 Por padrão, a coluna **Grupo de política/nome** de configuração contém um modo de exibição recolhido dos diferentes tipos de políticas de segurança e o número de configurações que precisam ser melhoradas (se alguma). Os tipos de políticas são:
 
 - **Anti-spam**
 - **Anti-phishing**
 - **Anti-malware**
-- **Anexos seguros atp** (se sua assinatura incluir o Microsoft Defender para Office 365)
-- **Links seguros atp** (se sua assinatura incluir o Microsoft Defender para Office 365)
+- **Anexos Cofre ATP** (se sua assinatura incluir o Microsoft Defender para Office 365)
+- **Atp Cofre Links** (se sua assinatura incluir o Microsoft Defender para Office 365)
 
 No modo de exibição padrão, tudo é recolhido. Ao lado de cada política, há um resumo dos resultados de comparação de suas políticas (que você pode modificar) e as configurações nas políticas correspondentes para os perfis de proteção Standard ou Strict (que você não pode modificar). Você verá as seguintes informações para o perfil de proteção ao que está comparando:
 
@@ -124,7 +124,7 @@ Se a comparação não tiver recomendações de melhoria (verde), a expansão da
 
 - **Última modificação:** a data em que a política foi modificada pela última vez.
 
-- **Recomendações**: O valor da configuração no perfil de proteção Padrão ou Estrito. Para alterar o valor da configuração em sua política para corresponder ao valor recomendado no perfil de proteção, clique em **Adotar**. Se a alteração for bem-sucedida, você verá a mensagem: **Recomendações adotadas com êxito.** Clique **em** Atualizar para ver o número reduzido de recomendações e a remoção da linha de configuração/política específica dos resultados.
+- **Recomendações:** o valor da configuração no perfil de proteção Padrão ou Estrito. Para alterar o valor da configuração em sua política para corresponder ao valor recomendado no perfil de proteção, clique em **Adotar**. Se a alteração for bem-sucedida, você verá a mensagem: Recomendações **adotada com êxito.** Clique **em** Atualizar para ver o número reduzido de recomendações e a remoção da linha de configuração/política específica dos resultados.
 
 ### <a name="configuration-drift-analysis-and-history-tab-in-the-configuration-analyzer"></a>Análise de deriva de configuração e guia histórico no analisador de configuração
 

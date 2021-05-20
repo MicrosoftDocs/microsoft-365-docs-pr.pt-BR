@@ -1,5 +1,5 @@
 ---
-title: Correção de emails mal-intencionados que foram entregues no Office 365
+title: Correção de emails mal-intencionados que foram entregues Office 365
 author: msfttracyp
 ms.author: tracyp
 manager: dansimp
@@ -15,24 +15,24 @@ appliesto:
 - Microsoft 365 Defender
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 202ebc8b79368c8d41fd3727b67359ddcb8a08fa
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: a59b24cd29ab8bf3b9b08c7818813a7ab89f7ce2
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203341"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537878"
 ---
-# <a name="remediate-malicious-email-delivered-in-office-365"></a>Correção de emails mal-intencionados entregues no Office 365
+# <a name="remediate-malicious-email-delivered-in-office-365"></a>Correção de emails mal-intencionados entregues Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
 - [Plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 
-Correção significa tomar uma ação prescrita contra uma ameaça. Emails mal-intencionados enviados para sua organização podem ser limpos pelo sistema, por meio da limpeza automática de zero hora (ZAP) ou por equipes de segurança por meio de ações de correção, como mover para a caixa de *entrada,* mover para lixo *eletrônico,* mover para itens excluídos, exclusão automática *ou* *exclusão difícil*. O Microsoft Defender for Office 365 P2/E5 permite que as equipes de segurança soluçam ameaças em funcionalidades de colaboração e email por meio de investigação manual e automatizada.
+Correção significa tomar uma ação prescrita contra uma ameaça. Emails mal-intencionados enviados para sua organização podem ser limpos pelo sistema, por meio da limpeza automática de zero hora (ZAP) ou por equipes de segurança por meio de ações de correção, como mover para a caixa de *entrada,* mover para lixo *eletrônico,* mover para itens excluídos, exclusão automática *ou* *exclusão difícil*. O Microsoft Defender para Office 365 P2/E5 permite que as equipes de segurança soluçam ameaças em funcionalidades de colaboração e email por meio de investigação manual e automatizada.
 
 > [!NOTE]
-> Para correção de emails mal-intencionados, as equipes de segurança precisam da *função de* pesquisa e limpeza atribuída a elas. A atribuição de função é feita por meio de permissões no centro de segurança e conformidade.
+> Para correção de emails mal-intencionados, as equipes de segurança precisam da *função de* pesquisa e limpeza atribuída a elas. A atribuição de função é feita [por meio de permissões no Centro de Conformidade & Segurança.](permissions-in-the-security-and-compliance-center.md)
 
 ## <a name="what-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar
 
@@ -43,7 +43,7 @@ Os administradores podem tomar medidas necessárias em emails, mas, para  obter 
 *A busca* manual ocorre quando as equipes de segurança identificam ameaças manualmente usando os recursos de pesquisa e filtragem no Explorador de Ameaças. A correção de email manual pode ser disparada por meio de qualquer modo de exibição de email (*Malware,* *Phish*, ou Todos os *emails*) depois de identificar um conjunto de emails que precisam ser remediados.
 
 > [!div class="mx-imgBorder"]
-> [![Busca manual no Explorador de Ameaças do Office 365 por data.](../../media/tp-RemediationArticle1.png)](../../media/tp-RemediationArticle1.png#lightbox)
+> [![Busca manual no Office 365 de Ameaças por data.](../../media/tp-RemediationArticle1.png)](../../media/tp-RemediationArticle1.png#lightbox)
 
 As equipes de segurança podem usar o Explorador de Ameaças para selecionar emails de várias maneiras:
 
@@ -104,7 +104,7 @@ Abra qualquer item de correção para exibir detalhes sobre ele, incluindo seu n
   > [!NOTE]
   > Para melhores resultados, a correção deve ser feita em lotes de 50.000 ou menos.
 
-  Somente emails remediados são agidos durante a correção. Emails não remediados não podem ser remediados pelo sistema de email do Office 365, pois eles não são armazenados em caixas de correio de nuvem.
+  Somente emails remediados são agidos durante a correção. Emails não remediados não podem ser remediados pelo Office 365 de email, pois eles não são armazenados em caixas de correio de nuvem.
 
   Os administradores podem realizar ações em emails em quarentena, se necessário, mas esses emails expiram fora de quarentena se não são limpos manualmente. Emails em quarentena por causa de conteúdo mal-intencionado não são acessíveis pelos usuários, portanto, a equipe de segurança não precisa tomar nenhuma ação para se livrar das ameaças na quarentena. Se os emails são locais ou externos, o usuário pode ser contatado para resolver o email suspeito. Ou os administradores podem usar servidores de email/ferramentas de segurança separados para remoção. Esses emails podem ser identificados aplicando-se o local de entrega *= filtro* externo local no Explorador de Ameaças. Para emails com falha ou redução, ou email não acessível pelos usuários, não haverá nenhum email a ser atenuado, já que esses emails não chegam à caixa de correio.
 

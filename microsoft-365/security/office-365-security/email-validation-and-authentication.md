@@ -19,12 +19,12 @@ localization_priority: Priority
 description: Os administradores podem saber como o EOP usa autenticação de email (SPF, DKIM e DMARC) para ajudar a evitar falsificações, phishing e spam.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 633494717ad7cf68319a2332f435fd8b56fc8aeb
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 4815924714845b641819021ea793baa465cfc812
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203085"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538286"
 ---
 # <a name="email-authentication-in-eop"></a>Autenticação de e-mail no EOP
 
@@ -39,9 +39,7 @@ ms.locfileid: "51203085"
 A autenticação de email (também conhecida como validação de email) é um grupo de padrões que tenta interromper a falsificação (mensagens de email de remetentes forjados). Em todas as organizações do Microsoft 365, o EOP usa estes padrões para verificar emails de entrada:
 
 - [SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
-
 - [DKIM](use-dkim-to-validate-outbound-email.md)
-
 - [DMARCDMARC](use-dmarc-to-validate-email.md)
 
 A autenticação de email verifica se as mensagens de email de um remetente (por exemplo, laura@contoso.com) são legítimas e vêm de fontes esperadas para o domínio de email (por exemplo, contoso.com.)
@@ -58,7 +56,7 @@ Em março de 2018, apenas 9% dos domínios de empresas da lista Fortune 500 publ
 
 ![Políticas do DMARC de empresas da lista Fortune 500](../../media/84e77d34-2073-4a8e-9f39-f109b32d06df.jpg)
 
-A quantidade de pequenas e médias empresas que publicam políticas fortes de autenticação de email é menor. E o número é ainda menor para domínios de email fora da América do Norte e da Europa Ocidental.
+A proporção de empresas de pequeno e médio porte que publicam fortes políticas de autenticação de e-mails é menor. E o número é ainda menor para domínios de email fora da América do Norte e da Europa Ocidental.
 
 A falta de políticas fortes de autenticação de email é um grande problema. Embora as organizações possam não entender como funciona a autenticação de email, os invasores entendem perfeitamente e tiram vantagem. Devido às preocupações com phishing e à adoção limitada de políticas fortes de autenticação de email, a Microsoft usa *autenticação implícita de email* para verificar os emails recebidos.
 
@@ -89,7 +87,7 @@ Confiar apenas nos registros de autenticação de email para determinar se uma m
 
 A autenticação composta pode solucionar essas limitações transmitindo mensagens que, de outra forma, falhariam nas verificações de autenticação de email.
 
-Para simplificar, os exemplos a seguir se concentram nos resultados da autenticação de email. Outros fatores de inteligência de back-end poderiam identificar mensagens aprovadas na autenticação de email como falsas, ou mensagens reprovadas na autenticação de email como legítimas.
+Para simplificar, os exemplos a seguir concentram-se nos resultados da autenticação por email. Outros fatores de inteligência back-end poderiam identificar mensagens que passam a autenticação de email como falsas, ou mensagens que reprovam a autenticação de email como legítimas.
 
 Por exemplo, o domínio fabrikam.com não possui registros SPF, DKIM ou DMARC. Mensagens de remetentes no domínio fabrikam.com podem ser reprovadas na autenticação composta (observe o valor `compauth` e o motivo):
 
@@ -102,7 +100,7 @@ From: chris@fabrikam.com
 To: michelle@contoso.com
 ```
 
-Se o fabrikam.com configurar um SPF sem um registro DKIM, a mensagem poderá passar pela autenticação composta. O domínio que passou pelas verificações de SPF está alinhado com o domínio no endereço De:
+Se o fabrikam.com configura um SPF sem um registro DKIM, a mensagem poderá passar a autenticação composta. O domínio que passou no SPF é alinhado com o domínio no endereço De:
 
 ```text
 Authentication-Results: spf=pass (sender IP is 10.2.3.4)
@@ -113,7 +111,7 @@ From: chris@fabrikam.com
 To: michelle@contoso.com
 ```
 
-Se o fabrikam.com configurar um registro DKIM sem um registro SPF, a mensagem poderá passar pela autenticação composta. O domínio na assinatura DKIM está alinhado com o domínio no endereço De:
+Se fabrikam.com configura um registro DKIM sem um registro SPF, a mensagem poderá passar a autenticação composta. O domínio na assinatura DKIM está alinhado com o domínio no endereço De:
 
 ```text
 Authentication-Results: spf=none (sender IP is 10.2.3.4)
@@ -146,9 +144,7 @@ O Microsoft 365 mantém o controle de quem está enviando emails não autenticad
 Você pode usar este método para solucionar problemas de falsificação dentro da organização e falsificação entre domínios nos casos em que você possui ou interage com vários locatários. Ele também ajuda a resolver a falsificação entre domínios que você envia para outros clientes no Microsoft 365 ou em terceiros que são hospedados por outros provedores.
 
 - [Configurar registros SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md) para seus domínios.
-
 - [Configurar registros DKIM](use-dkim-to-validate-outbound-email.md) para seus domínios principais.
-
 - [Considere configurar registros DMARC](use-dmarc-to-validate-email.md) para seu domínio para determinar seus remetentes legítimos.
 
 A Microsoft não fornece diretrizes detalhadas de implementação para registros SPF, DKIM e DMARC. No entanto, há várias informações disponíveis online. Também há empresas de terceiros dedicadas a ajudar sua organização a configurar registros de autenticação de email.
@@ -167,17 +163,11 @@ O Microsoft 365 tratará os emails de entrada da infraestrutura corporativa como
 
 Após começar a usar um registro SPF com a política de fallback `?all`, você poderá gradualmente descobrir e incluir mais fontes de email para suas mensagens e, em seguida, atualizar seu registro SPF com uma política mais rígida.
 
-### <a name="use-spoof-intelligence-to-configure-permitted-senders-of-unauthenticated-email"></a>Use a inteligência contra falsificação para configurar remetentes permitidos de email não autenticado
+### <a name="configure-permitted-senders-of-unauthenticated-email"></a>Configurar remetentes permitidos de emails não autenticados
 
-Você também pode usar a [inteligência contra falsificação](learn-about-spoof-intelligence.md) para permitir que os remetentes transmitam mensagens não autenticadas para a sua organização.
+Você também pode usar o [inteligência contra falsificação insight](learn-about-spoof-intelligence.md) e o [ Lista de Permissão/Bloqueio do Locatário ](tenant-allow-block-list.md) para permitir que os remetentes transmitam mensagens não autenticadas para sua organização.
 
 Para domínios externos, o usuário falsificado é o domínio no endereço De, enquanto a infraestrutura de envio é o endereço IP de origem (dividido em intervalos /24 CIDR) ou o domínio organizacional do registro de DNS reverso (PTR).
-
-Na captura de tela abaixo, o IP de origem pode ser 131.107.18.4 com o registro PTR outbound.mail.protection.outlook.com. Isso apareceria como outlook.com para a infraestrutura de envio.
-
-Para permitir que esse remetente envie emails não autenticados, altere **No** para **Yes**.
-
-![Configurar remetentes permitidos pela antifalsificação](../../media/d4334921-d820-4334-8217-788279701e94.jpg)
 
 ### <a name="create-an-allow-entry-for-the-senderrecipient-pair"></a>Crie uma permissão de entrada para o par remetente/destinatário
 
@@ -189,7 +179,7 @@ Devido ao problema de spam e phishing, a Microsoft recomenda autenticação de e
 
 - Mesmo que ele não tenha precisado publicar registros de autenticação de email no passado, ele deverá fazê-lo se enviar emails para a Microsoft.
 
-- Configure o SPF para publicar os endereços IP de envio do domínio e configure o DKIM (se disponível) para assinar digitalmente as mensagens. Ele também deve considerar a criação de registros DMARC.
+- Configurar o SPF para publicar os endereços IP de envio do domínio, e configurar o DKIM (se disponível) para assinar digitalmente as mensagens. Eles também devem considerar a criação de registros DMARC.
 
 - Se ele usar remetentes em massa para enviar emails em seu nome, verifique se o domínio no endereço De (se pertencer a ele) está alinhado com o domínio que passa no SPF ou no DMARC.
 

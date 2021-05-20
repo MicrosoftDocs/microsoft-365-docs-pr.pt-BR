@@ -22,15 +22,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
-description: Configurar o encaminhamento de email para uma ou mais contas de email usando o Office365.
-ms.openlocfilehash: 4b205c0a21f076b9c7858c8a8fc46e240920cd32
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+description: O encaminhamento de email permite encaminhar mensagens de email enviadas para uma caixa de correio de usuário Microsoft 365 para outra caixa de correio dentro ou fora da sua organização.
+ms.openlocfilehash: 7389651cbbec5316c307cd10b331fda6812c1cd4
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332625"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537626"
 ---
-# <a name="configure-email-forwarding-in-microsoft-365"></a>Configurar o encaminhamento de email no Microsoft 365
+# <a name="configure-email-forwarding-in-microsoft-365"></a>Configurar o encaminhamento de email em Microsoft 365
 
 Como administrador de uma organização, você pode ter requisitos da empresa para configurar o encaminhamento de email para a caixa de correio de um usuário. O encaminhamento de email permite encaminhar mensagens de email enviadas para a caixa de correio de um usuário para a caixa de correio de outro usuário dentro ou fora de sua organização.
 
@@ -45,7 +45,7 @@ Antes de configurar o encaminhamento de email, observe o seguinte:
 
 - O encaminhamento de email exige que  *a conta de*  a partir tenha uma licença. Se você estiver configurando o encaminhamento de email porque o usuário deixou sua organização, outra opção é converter sua caixa de correio [em uma caixa de correio compartilhada.](convert-user-mailbox-to-shared-mailbox.md) Dessa forma, várias pessoas podem acessá-lo. No entanto, uma caixa de correio compartilhada não pode exceder 50 GB.
 
-Você deve ser um administrador do Exchange ou administrador global no Microsoft 365 para fazer essas etapas. Para obter mais informações, consulte o tópico [Sobre funções de administrador](../add-users/about-admin-roles.md).
+Você deve ser um administrador Exchange ou administrador global no Microsoft 365 para fazer essas etapas. Para obter mais informações, consulte o tópico [Sobre funções de administrador](../add-users/about-admin-roles.md).
 
 1. No centro de administração, vá para a página **Usuários** \> **[Usuários ativos.](https://go.microsoft.com/fwlink/p/?linkid=834822)**
 
@@ -55,7 +55,7 @@ Você deve ser um administrador do Exchange ou administrador global no Microsoft
 
 4. Na página de encaminhamento de email, selecione Encaminhar todos os **emails** enviados para essa caixa de correio, insira o endereço de encaminhamento e escolha se deseja manter uma cópia dos emails encaminhados. Se você não vir essa opção, certifique-se de que uma licença seja atribuída à conta de usuário. Selecione **Salvar alterações**.
 
-    **Para encaminhar para vários endereços de email,** você pode pedir ao usuário para configurar uma regra no Outlook para encaminhar para os endereços. Para saber mais, confira [Usar regras para encaminhar automaticamente mensagens](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746).
+    **Para encaminhar para vários endereços de email,** você pode pedir ao usuário para configurar uma regra Outlook encaminhar para os endereços. Para saber mais, confira [Usar regras para encaminhar automaticamente mensagens](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746).
 
      Ou, no centro de administração, crie um grupo de [distribuição,](add-user-or-contact-to-distribution-list.md)adicione os endereços a ele e, em seguida, defina o encaminhamento para apontar para [a](../setup/create-distribution-lists.md)DL usando as instruções neste artigo.
 
@@ -73,7 +73,7 @@ Você deve ser um administrador do Exchange ou administrador global no Microsoft
 
 4. Na página de encaminhamento de email, de definir a alternância como **On**, insira o endereço de encaminhamento e escolha se deseja manter uma cópia dos emails encaminhados. Se você não vir essa opção, certifique-se de que uma licença seja atribuída à conta de usuário. Selecione **Salvar**.
 
-   **Para encaminhar para vários endereços de email,** você pode pedir ao usuário para configurar uma regra no Outlook para encaminhar para os endereços. Para saber mais, confira [Usar regras para encaminhar automaticamente mensagens](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746).
+   **Para encaminhar para vários endereços de email,** você pode pedir ao usuário para configurar uma regra Outlook encaminhar para os endereços. Para saber mais, confira [Usar regras para encaminhar automaticamente mensagens](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746).
 
    Ou, no centro de administração, crie um grupo de [distribuição,](add-user-or-contact-to-distribution-list.md)adicione os endereços a ele e, em seguida, defina o encaminhamento para apontar para [a](../setup/create-distribution-lists.md)DL usando as instruções neste artigo.
 
@@ -91,11 +91,19 @@ Você deve ser um administrador do Exchange ou administrador global no Microsoft
 
 4. Na página de encaminhamento de email, de definir a alternância como **On**, insira o endereço de encaminhamento e escolha se deseja manter uma cópia dos emails encaminhados. Se você não vir essa opção, certifique-se de que uma licença seja atribuída à conta de usuário. Selecione **Salvar**.
 
-   **Para encaminhar para vários endereços de email,** você pode pedir ao usuário para configurar uma regra no Outlook para encaminhar para os endereços. Para saber mais, confira [Usar regras para encaminhar automaticamente mensagens](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746).
+   **Para encaminhar para vários endereços de email,** você pode pedir ao usuário para configurar uma regra Outlook encaminhar para os endereços. Para saber mais, confira [Usar regras para encaminhar automaticamente mensagens](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746).
 
    Ou, no centro de administração, crie um grupo de [distribuição,](add-user-or-contact-to-distribution-list.md)adicione os endereços a ele e, em seguida, defina o encaminhamento para apontar para [a](../setup/create-distribution-lists.md)DL usando as instruções neste artigo.
 
-5. Não exclua a conta do usuário que está encaminhando ou remova sua licença!  Se você fizer isso, o encaminhamento de email será parado.
+5. Não exclua a conta do usuário que está encaminhando ou remova sua licença! Se você fizer isso, o encaminhamento de email será parado.
 
 ::: moniker-end
+
+## <a name="related-content"></a>Conteúdo relacionado 
+
+[Criar uma caixa de correio compartilhada](../email/create-a-shared-mailbox.md) (artigo)
+
+[Enviar email de um endereço diferente](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) (artigo)
+
+[Alterar um nome de usuário e um endereço de email](../add-users/change-a-user-name-and-email-address.md) (artigo)
 

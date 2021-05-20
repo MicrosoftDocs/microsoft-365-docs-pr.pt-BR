@@ -14,13 +14,14 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
+recommendations: false
 description: Saiba mais sobre opções de conformidade Microsoft 365 grupos, Teams e SharePoint colaboração.
-ms.openlocfilehash: a9a94f0c1886ac5b60292f5f4d4b9b9d6d84380c
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 236b977b22066830e1b36bc87676fd5fa2c9d3f5
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52241671"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538118"
 ---
 # <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Opções de conformidade para Microsoft 365 grupos, Teams e SharePoint colaboração
 
@@ -38,7 +39,7 @@ A tabela a seguir fornece uma referência rápida para os controles de conformid
 ||Classificar automaticamente conteúdos confidenciais|[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](../compliance/apply-sensitivity-label-automatically.md)|
 ||Criptografar conteúdos confidenciais|[Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia](../compliance/encryption-sensitivity-labels.md)|
 |Proteção de informações|||
-||Impedir a perda de informações confidenciais|[Saiba mais sobre a prevenção contra perda de dados](../compliance/dlp-learn-about-dlp.md)|
+||Impedir a perda de informações confidenciais|[Saiba mais sobre prevenção contra perda de dados](../compliance/dlp-learn-about-dlp.md)|
 ||Proteja informações confidenciais no chat.|[Prevenção contra perda de dados e Microsoft Teams](../compliance/dlp-microsoft-teams.md)|
 ||Definir as informações confidenciais da sua organização|[Tipos personalizados de informações confidenciais](../compliance/sensitive-information-type-learn-about.md)|
 |Segmentação de usuário|||
@@ -95,7 +96,7 @@ Recursos adicionais:
 
 As políticas de DLP podem impedir o compartilhamento acidental de informações confidenciais entre SharePoint, Exchange e Teams. Você pode criar políticas que especifiquem ações a tomar (como bloquear o acesso) com base em um conjunto de regras.
 
-- [Saiba mais sobre a prevenção contra perda de dados](../compliance/dlp-learn-about-dlp.md)
+- [Saiba mais sobre prevenção contra perda de dados](../compliance/dlp-learn-about-dlp.md)
 
 A DLP no Teams pode ajudar a proteger informações confidenciais Teams mensagens de chat e canal excluindo mensagens que contêm informações confidenciais.
 

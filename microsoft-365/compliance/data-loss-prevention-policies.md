@@ -1,5 +1,5 @@
 ---
-title: Referência de Prevenção contra Perda de Dados
+title: Referência de prevenção de perda de dados
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -21,18 +21,18 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: material de referência de prevenção contra perda de dados
-ms.openlocfilehash: a039b8d99bd92be0040f6207803981e8a2937c6f
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+description: material de referência de prevenção de perda de dados
+ms.openlocfilehash: a6dc0b2702899e05f78c54331fb33b87495672d8
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296763"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52572556"
 ---
-# <a name="data-loss-prevention-reference"></a>Referência de prevenção contra perda de dados
+# <a name="data-loss-prevention-reference"></a>Referência de prevenção de perda de dados
  
 > [!IMPORTANT]
-> Este é o tópico de referência não é mais o principal recurso para Microsoft 365 de prevenção contra perda de dados (DLP). O conjunto de conteúdo DLP está sendo atualizado e reestruturado. Os tópicos abordados neste artigo mudarão para artigos novos e atualizados. Para obter mais informações sobre DLP, consulte [Learn about data loss prevention](dlp-learn-about-dlp.md).
+> Este é o tema de referência não é mais o principal recurso para Microsoft 365 informações de prevenção de perda de dados (DLP). O conjunto de conteúdo DLP está sendo atualizado e reestruturado. Os tópicos abordados neste artigo passarão para novos artigos atualizados. Para obter mais informações sobre o DLP, consulte [Aprender sobre prevenção de perda de dados](dlp-learn-about-dlp.md).
 
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
 <!-- move this note to a more appropriate place, no topic should start with a note -->
@@ -66,7 +66,7 @@ With a DLP policy, you can:
     To view alerts and metadata related to your DLP policies you can use the [DLP Alerts Management Dashboard](dlp-configure-view-alerts-policies.md). You can also view policy match reports to assess how your organization is complying with a DLP policy. If a DLP policy allows users to override a policy tip and report a false positive, you can also view what users have reported
 
 -->    
-## <a name="create-and-manage-dlp-policies"></a>Criar e gerenciar políticas DLP
+## <a name="create-and-manage-dlp-policies"></a>Crie e gerencie políticas DLP
 
 Você cria e gerencia políticas DLP na página Prevenção Contra Perda de Dados no Centro de conformidade do Microsoft 365.
   
@@ -385,7 +385,7 @@ Ao usar um [rótulo de retenção](retention.md#retention-labels) criado e publi
 
 ### <a name="using-a-sensitivity-label-as-a-condition-in-a-dlp-policy"></a>Usar um rótulo de confidencialidade como condição em uma política DLP
 
-[Saiba mais](./dlp-sensitivity-label-as-condition.md) sobre como usar o rótulo de sensibilidade como condição nas políticas de DLP.
+[Saiba mais](./dlp-sensitivity-label-as-condition.md) sobre o uso do rótulo Sensibilidade como condição nas políticas de DLP.
   
 ### <a name="how-this-feature-relates-to-other-features"></a>Como esse recurso se relaciona a outros recursos
 
@@ -441,28 +441,30 @@ Um modelo de política DLP pré-configurado pode ajudar a detectar tipos especí
   
 Sua organização também pode ter suas próprias exigências específicas e, nesse caso, você pode criar uma política DLP do zero, escolhendo a opção **Política personalizada**. Uma política personalizada é vazia e não contém regras pré-criadas. 
   
-## <a name="roll-out-dlp-policies-gradually-with-test-mode"></a>Implementar políticas de DLP gradualmente com o modo de teste
+<!-- ## Roll out DLP policies gradually with test mode
 
-Depois de criar as políticas de DLP, você deve considerar a implementação gradual delas para avaliar o impacto e testar a eficácia delas antes de aplicá-las completamente. Por exemplo, você não quer que uma nova política DLP, inadvertidamente, bloqueie o acesso a milhares de documentos que as pessoas precisam acessar para realizar seus trabalhos.
+rehomed to Plan for DLP
+
+When you create your DLP policies, you should consider rolling them out gradually to assess their impact and test their effectiveness before fully enforcing them. For example, you don't want a new DLP policy to unintentionally block access to thousands of documents that people require access to in order to get their work done.
   
-Se estiver criando políticas DLP com um grande impacto em potencial, é recomendável seguir esta sequência:
+If you're creating DLP policies with a large potential impact, we recommend following this sequence:
   
-1. **Iniciar no modo de teste sem Dicas de Política** e, em seguida, usar os relatórios de DLP e de qualquer incidente para avaliar o impacto. Você pode usar relatórios de DLP para exibir o número, o local, o tipo e a gravidade das correspondências de política. Com base nos resultados, você pode ajustar as regras conforme necessário. No modo de teste, as políticas de DLP não afetarão a produtividade das pessoas que trabalham na sua organização. 
+1. **Start in test mode without Policy Tips** and then use the DLP reports and any incident reports to assess the impact. You can use DLP reports to view the number, location, type, and severity of policy matches. Based on the results, you can fine tune the rules as needed. In test mode, DLP policies will not impact the productivity of people working in your organization. 
     
-2. **Mover para o modo de teste com Dicas de Política e notificações** para que você possa começar a ensinar os usuários sobre suas políticas de conformidade e prepará-los para as regras que serão aplicadas. Nesse estágio, você também pode pedir aos usuários para relatar falsos positivos para que você possa refinar as regras. 
+2. **Move to Test mode with notifications and Policy Tips** so that you can begin to teach users about your compliance policies and prepare them for the rules that are going to be applied. At this stage, you can also ask users to report false positives so that you can further refine the rules. 
     
-3. **Inicie a imposição total das políticas** para que as ações sejam aplicadas nas regras e o conteúdo seja protegido. Continue a monitorar os relatórios de DLP e qualquer relatório de incidente ou notificações para se certificar de que os resultados sejam os desejados. 
+3. **Start full enforcement on the policies** so that the actions in the rules are applied and the content's protected. Continue to monitor the DLP reports and any incident reports or notifications to make sure that the results are what you intend. 
 
-    ![Opções para usar o modo de teste e ativar a política](../media/49fafaac-c6cb-41de-99c4-c43c3e380c3a.png)
+    ![Options for using test mode and turning on policy](../media/49fafaac-c6cb-41de-99c4-c43c3e380c3a.png)
 
-    Você pode desativar uma política de DLP a qualquer momento, o que afeta todas as regras da política. No entanto, as regras também podem ser desativadas individualmente, alternando o status no editor de regras.
+    You can turn off a DLP policy at any time, which affects all rules in the policy. However, each rule can also be turned off individually by toggling its status in the rule editor.
 
-    ![Opções para desativar uma regra em uma política](../media/f7b258ff-1b8b-4127-b580-83c6492f2bef.png)
+    ![Options for turning off a rule in a policy](../media/f7b258ff-1b8b-4127-b580-83c6492f2bef.png)
 
-    Você também pode alterar a prioridade de várias regras em uma política. Para fazer isso, abra uma política para edição. Em uma linha para uma regra, escolha as reticências (**...**) e, em seguida, escolha uma opção, como **Mover para baixo** ou **Colocar como mais baixa**.
+    You can also change the priority of multiple rules in a policy. To do that, open a policy for editing. In a row for a rule, choose the ellipses (**...**), and then choose an option, such as **Move down** or **Bring to last**.
 
     > [!div class="mx-imgBorder"]
-    > ![Definir prioridade da regra](../media/dlp-set-rule-priority.png)
+    > ![Set rule priority](../media/dlp-set-rule-priority.png)-->
   
 ## <a name="dlp-reports"></a>Relatórios DLP
 
@@ -518,7 +520,7 @@ Por esse motivo, as políticas de DLP verificam documentos em busca de correspon
 A DLP avalia qualquer conteúdo que pode ser indexado. Para saber mais sobre os tipos de arquivo que são rastreados por padrão, confira [Extensões de nomes de arquivos rastreados e tipos de arquivos padrão analisados no SharePoint Server](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types).
 
 > [!NOTE]
-> Para evitar que os documentos sejam compartilhados antes que as políticas DLP tivessem a oportunidade de analisá-los, o compartilhamento de novos arquivos no SharePoint pode ser bloqueado até que seu conteúdo seja indexado. Confira [Marcar novos arquivos como confidenciais por padrão](/sharepoint/sensitive-by-default) para obter informações detalhadas. 
+> Para evitar que os documentos fossem compartilhados antes que as políticas de DLP tivessem a oportunidade de analisá-los, o compartilhamento de novos arquivos em SharePoint pode ser bloqueado até que seu conteúdo seja indexado. Confira [Marcar novos arquivos como confidenciais por padrão](/sharepoint/sensitive-by-default) para obter informações detalhadas. 
   
 ### <a name="policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web"></a>Avaliação de políticas no Exchange Online, Outlook e Outlook na Web
 
