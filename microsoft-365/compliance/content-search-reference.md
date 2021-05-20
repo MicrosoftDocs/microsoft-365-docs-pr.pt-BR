@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Este artigo contém informações de referência sobre a ferramenta Descoberta Eletrônica de Pesquisa de conteúdo no Centro de conformidade do Microsoft 365 para ajudá-lo a conhecer os muitos detalhes sobre a Pesquisa de conteúdo.
-ms.openlocfilehash: f3545cc4644ca8b0a96ee37713d8fe62be7466e5
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 14660b4cfcd09f5346fa8d0d901880d0a6c774c2
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332889"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538478"
 ---
 # <a name="feature-reference-for-content-search"></a>Referência de recurso para pesquisa de Conteúdo
 
@@ -33,19 +33,7 @@ Este artigo descreve os recursos e a funcionalidade da pesquisa de Conteúdo.
 
 ## <a name="content-search-limits"></a>Limites da pesquisa de conteúdo
 
-- Para obter uma descrição dos limites aplicados as pesquisas de conteúdo, confira [Limites da Pesquisa de conteúdo](limits-for-content-search.md).
-  
-- A Microsoft coleta informações de desempenho para as pesquisas de conteúdo realizadas por todas as organizações. Embora a complexidade da consulta de pesquisa possa afetar os tempos de pesquisa, o maior fator que afeta o tempo de duração das pesquisas é o número de caixas de correio pesquisadas. Embora a Microsoft não forneça um Contrato de Nível de Serviço para os tempos de pesquisa, a tabela a seguir lista os tempos médios de pesquisa para uma Pesquisa de Conteúdo com base no número de caixas de correio incluídas na pesquisa.
-  
-  |**Número de caixas de correio**|**Tempo médio de pesquisa**|
-  |:-----|:-----|
-  |100  <br/> |30 segundos  <br/> |
-  |1.000  <br/> |45 segundos  <br/> |
-  |10.000  <br/> |4 minutos  <br/> |
-  |25.000  <br/> |10 minutos  <br/> |
-  |50.000  <br/> |20 minutos  <br/> |
-  |100.000  <br/> |25 minutos  <br/> |
-  |||
+Para obter uma descrição dos limites aplicados as Pesquisas de conteúdo, confira [Limites da Pesquisa de conteúdo](limits-for-content-search.md).
   
 ## <a name="building-a-search-query"></a>Criar uma consulta de pesquisa
 
@@ -71,7 +59,7 @@ Lembre-se do seguinte ao usar a lista de palavras-chave para criar uma consulta 
   
 - Ao executar uma pesquisa de conteúdo, o Microsoft 365 verifica automaticamente a consulta de pesquisa para caracteres sem suporte e para operadores booleanos que podem não estar em maiúsculas. Os caracteres sem suporte geralmente estão ocultos e costumam causar um erro de pesquisa ou retornam resultados inesperados. Para obter mais informações sobre os caracteres sem suporte que estão marcados, confira [Verifique se há erros na consulta da Pesquisa de Conteúdo](check-your-content-search-query-for-errors.md).
     
-- Se você tiver uma consulta de pesquisa que contenha palavras-chave para caracteres que não estão em inglês (como caracteres chineses), clique em **Idioma/país de consulta**![Ícone de Idioma/país de consulta na Pesquisa de conteúdo](../media/8d4b60c8-e1f1-40f9-88ae-ee2a7eca0886.png) e selecione um valor de código cultural de idioma/país para a pesquisa. O padrão idioma/região é neutro. Como saber se é preciso alterar a configuração de idioma para uma pesquisa de conteúdo? Se você tiver certeza de que os locais de conteúdo contêm os caracteres que não estão em inglês que você está procurando, mas a pesquisa não retorna nenhum resultado, a configuração de idioma pode ser a causa. 
+- Se você tiver uma consulta de pesquisa que contenha palavras-chave para caracteres que não estão em inglês (como caracteres chineses), clique em **Idioma/país de consulta**![Ícone de Idioma/país de consulta na Pesquisa de conteúdo](../media/8d4b60c8-e1f1-40f9-88ae-ee2a7eca0886.png) e selecione um valor de código cultural de idioma/país para a pesquisa. O padrão idioma/região é neutro. Como saber se é preciso alterar a configuração de idioma para uma pesquisa de conteúdo? Se você tiver certeza de que os locais de conteúdo contêm os caracteres que não estão em inglês que você está procurando, mas a pesquisa não retorna nenhum resultado, a configuração de idioma pode ser a causa.
   
 ## <a name="partially-indexed-items"></a>Itens parcialmente indexados
 

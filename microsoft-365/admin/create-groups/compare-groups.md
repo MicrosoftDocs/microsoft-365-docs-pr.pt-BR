@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
-description: Saiba mais sobre os tipos de grupos que você pode usar.
-ms.openlocfilehash: 9f36688972f00a27a274b6a974d958d1d590aa93
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Os membros do grupo do Microsoft 365 receberão um email do grupo e um espaço de trabalho compartilhado para conversas, arquivos e eventos do calendário, como o Stream e um Planner.
+ms.openlocfilehash: d8bf2e20b428063b99d540896bac3e6e1ae59481
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52243979"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535861"
 ---
 # <a name="compare-groups"></a>Comparar grupos
 

@@ -17,14 +17,14 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
 search.appverid: MET150
-description: Saiba como cancelar sua assinatura paga ou de avaliação do Microsoft 365 Business.
+description: Se você tiver menos de 25 licenças de usuário, poderá cancelar sua avaliação do Microsoft 365 Business ou uma assinatura paga online no Centro de Administração.
 ms.date: 04/08/2021
-ms.openlocfilehash: 022981e91abc985a0540acccccd6f211b39620a4
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 583433e2c2cc939724f772c1cd699cc5763cb21c
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333309"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536113"
 ---
 # <a name="cancel-your-subscription"></a>Cancelar sua assinatura
 
@@ -46,7 +46,7 @@ Se você tiver adicionado seu próprio nome de domínio para usar com a sua assi
 ::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
-2. Encontre a assinatura que deseja cancelar. Selecione **Mais ações** (três pontos) e, em seguida, selecione **Cancelar assinatura**.
+2. Encontre a assinatura que deseja cancelar. Selecione os três pontos (mais ações) e selecione **Cancelar assinatura**.
 3. No painel **Cancelar assinatura**, escolha um motivo pelo qual você está cancelando. Opcionalmente, forneça qualquer comentário.
 4. Selecione **Salvar**.
 
@@ -69,7 +69,7 @@ Sua assinatura aparecerá com um estado **Desabilitado** e terá funcionalidade 
 ::: moniker-end
 
 2. Selecione a guia **Produtos**.
-3. Encontre a assinatura que deseja cancelar. Selecione **Mais ações** (três pontos) e, em seguida, selecione **Cancelar assinatura**.
+3. Encontre a assinatura que deseja cancelar. Selecione os três pontos (mais ações) e selecione **Cancelar assinatura**.
 4. No painel **Cancelar assinatura**, escolha um motivo pelo qual você está cancelando. Opcionalmente, forneça qualquer comentário.
 5. Selecione **Salvar**.
 

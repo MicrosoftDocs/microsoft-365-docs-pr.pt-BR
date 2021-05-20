@@ -17,14 +17,14 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Aprenda a adicionar usuários e atribuir licenças ao Microsoft 365 ao mesmo tempo.
+description: Cada membro da equipe precisa de uma conta de usuário antes de poder entrar e acessar o Microsoft 365 Business. Saiba como adicionar usuários e atribuir licenças.
 ms.date: 07/01/2020
-ms.openlocfilehash: 3efa32d21a21ed12041f5731296c1b033374712f
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 390576f46bed57929471b16848f9e1fd7e95304d
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274383"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535993"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>Adicionar usuários e atribuir licenças ao mesmo tempo
 

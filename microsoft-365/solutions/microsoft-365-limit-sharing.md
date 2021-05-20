@@ -18,13 +18,14 @@ search.appverid:
 f1.keywords: NOCSH
 ms.custom: ''
 localization_priority: Priority
+recommendations: false
 description: Saiba mais sobre as opções para limitar ou desabilitar o compartilhamento no Microsoft 365.
-ms.openlocfilehash: 46cef1aac6d3387366a5e8ce9f9c1129f6c83e61
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f237df883bb401342a3a5c93432beeb5028cfce6
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920199"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539186"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Limitar o compartilhamento no Microsoft 365
 
@@ -211,7 +212,7 @@ Os usuários que têm acesso a arquivos e pastas no Microsoft 365 podem baixar e
 
 O acesso condicional do Azure Active Directory fornece opções para limitar ou impedir o compartilhamento com pessoas com base no local de rede, integridade do dispositivo, riscos de entrada e outros fatores. [O que é o Acesso Condicional?](/azure/active-directory/conditional-access/overview)
 
-O SharePoint fornece integração direta com o acesso condicional do Azure AD para o local de rede e os dispositivos não gerenciados. Confira os detalhes a seguir:
+O Microsoft Office SharePoint Online fornece integração direta com o acesso condicional do Microsoft Azure Active Directory para o local de rede e os dispositivos não gerenciados. Veja as seguintes referências para detalhes:
 
 - [Controlar o acesso de dispositivos não gerenciados](/sharepoint/control-access-from-unmanaged-devices)
 - [Controlar o acesso aos dados do SharePoint Online e do OneDrive com base no local de rede](/sharepoint/control-access-based-on-network-location)

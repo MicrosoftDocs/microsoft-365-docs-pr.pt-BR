@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informações para administradores de TI para gerenciar rótulos de confidencialidade em aplicativos do Office para área de trabalho, dispositivos móveis e Web.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cb385ec5589af115ce1a0d323e3660def42179b9
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: f280cae2364a3ad76a3a3ff91ce382fdf69eab2b
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345759"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52532045"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Gerenciar rótulos de confidencialidade em aplicativos do Office
 
@@ -170,7 +170,7 @@ Quando os usuários inicialmente rotulam um documento ou email, eles podem subst
 
 - Um usuário aplica o rótulo **Confidencial \ Todos os Funcionários** a um documento e esse rótulo é configurado para aplicar configurações de criptografia para todos os usuários da organização. Em seguida, o usuário define manualmente as configurações do IRM para restringir o acesso a um usuário de fora da organização. O resultado final é um documento rotulado como **Confidencial \ Todos os Funcionários** e criptografado, mas os usuários de sua organização não conseguem abri-lo como esperado.
 
-- Um usuário aplica o rótulo **Confidencial \ Somente Destinatários** a um email, e esse email está configurado para aplicar a configuração de criptografia de **Não Encaminhar**. No aplicativo do Outlook, esse usuário define manualmente as configurações do IRM para que o email seja irrestrito. O resultado final é que o email poderá ser encaminhado pelos destinatários, apesar de ter o rótulo **Confidencial \ Somente Destinatários**.
+- Um usuário aplica o rótulo **Confidencial \ Somente Destinatários** a um email, e esse email está configurado para aplicar a configuração de criptografia de **Não Encaminhar**. No aplicativo Outlook, este usuário então seleciona manualmente a configuração IRM para Criptografar Somente. O resultado final é que enquanto o email permanece criptografado, ele pode ser encaminhado pelos destinatários, apesar de ter o rótulo **Confidencial \ Somente Destinatários**.
     
     Como exceção, para o Outlook na Web, as opções do menu **Criptografar** não estão disponíveis para um usuário selecionar quando o rótulo atualmente selecionado aplica a criptografia.
 
@@ -178,13 +178,23 @@ Quando os usuários inicialmente rotulam um documento ou email, eles podem subst
 
 Se o documento ou email já estiver identificado, um usuário poderá fazer qualquer uma dessas ações se o conteúdo ainda não estiver criptografado, ou se eles tiverem o [direito de uso](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) Exportar ou Controle Total. 
 
-Para uma experiência de rótulos mais consistente com relatórios significativos, forneça diretrizes e rótulos apropriados para que os usuários apliquem somente rótulos para proteger documentos. Por exemplo:
+Para uma experiência de rótulos mais consistente com relatórios significativos, forneça rótulos apropriados e orientação para os usuários aplicarem somente rótulos para proteger documentos e emails. Por exemplo:
 
 - Para casos de exceções em que os usuários devem atribuir suas próprias permissões, forneça rótulos que [permitam aos usuários atribuir suas próprias permissões](encryption-sensitivity-labels.md#let-users-assign-permissions). 
 
 - Em vez de os usuários removerem manualmente a criptografia após selecionar um rótulo que aplica criptografia, forneça uma alternativa de subrótulo quando os usuários precisarem de um rótulo com a mesma classificação, mas sem criptografia. Como:
     - **Confidencial \ Todos os Funcionários**
     - **Confidencial \ Qualquer pessoa (sem criptografia)**
+
+- Considerar desativar as configurações de IRM para impedir que os usuários selecionem:
+    - Outlook para Windows: 
+        - Chaves do registro (DWORD:00000001) *DisableDNF* and *DisableEO* de HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\DRM
+        - Certifique-se de que a configuração da Política de Grupo **Configuração da opção de criptografia padrão para o botão de Criptografia** não esteja configurada
+    - Outlook para Mac: 
+        - Chaves *DisableEncryptOnly* e *DisableDoNotForward* configurações de segurança documentadas em [Definir preferências do Microsoft Outlook para Mac para Mac](/DeployOffice/mac/preferences-outlook)
+    - Outlook na Web: 
+        - Parâmetros *SimplifiedClientAccessDoNotForwardDisabled* e *SimplifiedClientAccessEncryptOnlyDisabled* documentados para [Set-IRMConfiguration](/powershell/module/exchange/set-irmconfiguration)
+        - Outlook para iOS e Android: Estes aplicativos não suportam usuários que aplicam criptografia sem rótulos, portanto, nada a ser desabilitado.
 
 > [!NOTE]
 > Se os usuários removerem manualmente a criptografia de um documento identificado que esteja armazenado no SharePoint ou no OneDrive, e você tiver [habilitado rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md), a criptografia do rótulo será automaticamente restaurada na próxima vez em que o documento for acessado ou baixado. 
@@ -413,7 +423,7 @@ As outras configurações avançadas do PowerShell permanecem com suporte apenas
 
 #### <a name="powershell-tips-for-specifying-the-advanced-settings"></a>Dicas do PowerShell para especificar as configurações avançadas
 
-Para especificar um rótulo padrão diferente para o Outlook, você deve especificar o GUID do rótulo. Para encontrar esse valor, você poderá usar o seguinte comando:
+Para especificar um rótulo padrão diferente para o Outlook, identifique o rótulo por seu GUID. Para encontrar esse valor, você poderá usar o seguinte comando:
 
 ````powershell
 Get-Label | Format-Table -Property DisplayName, Name, Guid

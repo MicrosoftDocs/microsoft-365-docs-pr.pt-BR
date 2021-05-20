@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Você pode usar o recurso pesquisar e limpar do Centro de Segurança e Conformidade para pesquisar e excluir uma mensagem de e-mail de todas as caixas de correio da sua organização.
-ms.openlocfilehash: b7bb1008120df8efefc983d526d90e8397b3a89e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 629b236be3f857da47674cda9350d8b89e6f3445
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924231"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537638"
 ---
 # <a name="search-for-and-delete-email-messages"></a>Pesquisar e excluir mensagens de email
 
@@ -41,7 +41,10 @@ Você pode usar o recurso Pesquisa de Conteúdo para pesquisar e excluir uma men
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Para criar e executar uma pesquisa de conteúdo, você precisa ser membro do grupo de funções **Gerente de Descoberta Eletrônica** ou então ter sido designado para a função de gerenciador de **Pesquisa de Conformidade**. Para excluir mensagens, você tem de ser membro do grupo de funções **Gerenciamento da Organização** ou ter sido designado para a função de gerenciamento **Pesquisar e Limpar**. Para saber mais sobre como adicionar usuários a um grupo de função, confira [Atribuir permissões de Descoberta Eletrônica no Centro de Segurança e Conformidade](assign-ediscovery-permissions.md).
+- Para criar e executar uma Pesquisa de conteúdo, você precisa ser membro do grupo de funções **Gerente de Descoberta Eletrônica** ou então ter sido designado para a função de **Pesquisa de Conformidade** no Centro de Conformidade e Segurança. Para excluir mensagens, você tem de ser membro do grupo de funções **Gerenciamento da Organização** ou ter sido designado para a função de **Pesquisar e Limpar** no Centro de Segurança e Conformidade. Para saber mais sobre como adicionar usuários a um grupo de funções, confira [Atribuir permissões de Descoberta Eletrônica no Centro de Segurança e Conformidade](assign-ediscovery-permissions.md).
+
+  > [!NOTE]
+  > O grupo de funções **Gerenciamento da Organização** existe no Exchange Online e no Centro de Conformidade e Segurança. Esses são grupos de funções separados que dão permissões diferentes. Ser membro do **Gerenciamento da Organização** no Exchange Online não concede as permissões necessárias para excluir mensagens de email. Caso não receba a função **Pesquisa e Limpeza** no Centro de Conformidade e Segurança (diretamente ou por meio de um grupo de funções como o **Gerenciamento da Organização**), você receberá um erro na Etapa 3 ao executar o cmdlet **New-ComplianceSearchAction** com a mensagem "Não foi possível encontrar um parâmetro que corresponda ao nome do parâmetro 'Limpar'".
 
 - Você tem que usar o Centro de Segurança e Conformidade do PowerShell para excluir mensagens. Consulte a[Etapa 2](#step-2-connect-to-security--compliance-center-powershell) para obter instruções sobre como se conectar.
 

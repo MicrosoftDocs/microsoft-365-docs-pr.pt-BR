@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Visualizar um exemplo dos resultados retornados por uma Pesquisa de conteúdo ou uma pesquisa de Descoberta eletrônica Principal no Centro de Conformidade do Microsoft 365.
-ms.openlocfilehash: ebe4aa0d5f08ab97376cfde63eb59351fccd1911
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: a89c8c9ed2500b4e2a859c75be3da177203d1406
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52314244"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538575"
 ---
 # <a name="preview-ediscovery-search-results"></a>Visualização de resultados de pesquisa da Descoberta Eletrônica
 
@@ -39,9 +39,25 @@ Para visualizar um exemplo de resultados retornados por uma pesquisa:
 
 3. Na parte inferior da página de sobrevoo, clique em **Revisar exemplo**.
 
-   É exibida uma página contendo uma amostra dos resultados da pesquisa.
+   ![Clique em Revisar exemplo na página flyout para exibir os resultados](../media/PreviewSearchResults1.png)
+
+   É exibida uma página contendo um exemplo dos resultados da pesquisa.
 
 4. Selecione um item para exibir seu conteúdo no painel de leitura.
+
+   ![Exibir itens no painel de leitura](../media/PreviewSearchResults2.png)
+
+   Na captura de tela anterior, observe que as palavras-chave da consulta de pesquisa são realçadas quando você visualiza itens.
+
+## <a name="how-the-search-result-samples-are-selected"></a>Como são selecionados os exemplos dos resultados da pesquisa
+
+No máximo 1.000 itens selecionados aleatoriamente estão disponíveis para visualização. Além de serem selecionados aleatoriamente, os itens disponíveis para visualização também devem atender aos seguintes critérios:
+
+- É possível visualizar no máximo 100 itens de um único local de conteúdo (uma caixa de correio ou um site). Isso significa que é possível que menos de 1.000 itens possam estar disponíveis para visualização. Por exemplo, se você pesquisar quatro caixas de correio e a pesquisa retornar 1.500 itens estimados, apenas 400 estarão disponíveis para visualização porque somente 100 itens de cada caixa de correio podem ser visualizados.
+
+- Para itens de caixa de correio, apenas as mensagens de email estão disponíveis para visualização. Itens como tarefas, itens de calendário e contatos não podem ser visualizados.
+
+- Para itens de site, somente os documentos estão disponíveis para visualização. Itens como pastas, listas ou anexos de listas não podem ser visualizados.
 
 ## <a name="file-types-supported-when-previewing-search-results"></a>Tipos de arquivos com suporte durante a visualização de resultados da pesquisa
 

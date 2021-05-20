@@ -19,12 +19,12 @@ search.appverid:
 description: Conheça três ferramentas disponíveis para monitorar o vazamento de dados pessoais.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b51bc5d5d3cbfa8951392f88edc6e178778206df
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 0976c0d1c0c8d3ebb25ebf423f1d9df2f71fc852
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51202973"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538274"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Monitorar o vazamento de dados pessoais
 
@@ -79,7 +79,7 @@ O centro de conformidade e o centro de segurança oferecem duas maneiras de moni
 
 - Pesquisar diretamente no log de auditoria – você pode pesquisar todos os eventos em um intervalo de datas especificado ou filtrar os resultados com base em determinados critérios; por exemplo, o usuário que executou a ação, a ação ou o objeto de destino.
 
-As equipes de segurança e conformidade das informações podem usar essas ferramentas para analisar proativamente as atividades realizadas pelos usuários finais e administradores entre os serviços. Os alertas automáticos podem ser configurados para enviar notificações por email quando determinadas atividades ocorrem em conjuntos de sites específicos, por exemplo, quando o conteúdo de sites conhecidos por conter informações relacionadas ao GDPR é compartilhado. Isso permite que essas equipes acompanhem os usuários para garantir que as políticas de segurança corporativa sejam seguidas ou para fornecer treinamento adicional.
+As equipes de segurança e conformidade das informações podem usar essas ferramentas para analisar proativamente as atividades realizadas pelos usuários finais e administradores em vários serviços. Os alertas automáticos podem ser configurados para enviar notificações por email quando determinadas atividades ocorrerem em conjuntos de sites específicos, por exemplo, quando o conteúdo é compartilhado de sites conhecidos por conter informações relacionadas ao GDPR é compartilhado. Isso permite que essas equipes acompanhem os usuários para garantir que as políticas de segurança corporativa sejam seguidas ou para fornecer treinamento adicional.
 
 As equipes de segurança de informações podem também pesquisar o log de auditoria para investigar suspeitas de violação de dados, bem como determinar a causa raiz e a abrangência da violação. Esta funcionalidade interna facilita o cumprimento dos artigos 33 e 34 do GDPR, que exige o envio de notificações sobre violação de dados à autoridade supervisora do GDPR e aos detentores dos dados, em um período específico. As entradas do log de auditoria são mantidas apenas por 90 dias no serviço. Recomendamos e a maioria das organizações exige que esses logs sejam mantidos por mais tempo.
 
@@ -87,7 +87,7 @@ Existem soluções disponíveis, com as quais é possível inscrever-se nos logs
 
 Clique nos links abaixo para saber mais sobre as políticas de alerta e como pesquisar no log de auditoria.
 
-- [Políticas de alerta nos centros de conformidade e segurança do Microsoft Office 365](../../compliance/alert-policies.md)
+- [Políticas de alerta no Microsoft 365](../../compliance/alert-policies.md)
 
 - [Pesquisar as atividades do administrador e dos usuários no log de auditoria do Office 365](../../compliance/search-the-audit-log-in-security-and-compliance.md) (introdução)
 

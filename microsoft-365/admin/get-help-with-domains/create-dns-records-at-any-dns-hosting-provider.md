@@ -16,16 +16,16 @@ ms.collection:
 - Adm_O365_Setup
 search.appverid:
 - MET150
-description: Aprenda a verificar seu domínio e criar registros DNS em qualquer provedor de hospedagem de DNS para o Microsoft 365.
+description: Conectar um domínio em qualquer provedor de host DNS ao Microsoft 365, verificando seu domínio e atualizando os registros DNS na conta do seu registrador.
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: 06a5e7d081a16cd8d5aae28268b3aaf737981a43
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: facdd460bd3197e39dd6d4d9f4a5450dc972bf03
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051037"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537554"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>Adicionar registros DNS para conectar seu domínio
 
@@ -129,7 +129,7 @@ Valide seu registro SPF usando uma destas [ferramentas de validação de SPF](/o
 
 O SPF foi projetado para ajudar a evitar a falsificação, mas há técnicas de falsificação contra as quais o SPF não pode protegê-lo. Para se proteger contra isso, depois de configurar o SPF, você também deve configurar o DKIM e o DMARC para o Microsoft 365. 
 
-Para começar, consulte [Usar DKIM para validar emails de saída enviados do seu domínio no Microsoft 365](../../security/defender-365-security/use-dkim-to-validate-outbound-email.md) e [Usar DMARC para validar emails no Microsoft 365](../../security/defender-365-security/use-dmarc-to-validate-email.md).
+Para começar, consulte [Usar DKIM para validar emails de saída enviados do seu domínio no Microsoft 365](../../security/office-365-security/use-dkim-to-validate-outbound-email.md) e [Usar DMARC para validar emails no Microsoft 365](../../security/office-365-security/use-dmarc-to-validate-email.md).
 
 ### <a name="add-srv-records-for-communications-services-teams-skype-for-business"></a>Adicionar registros SRV para serviços de communications (Teams, Skype for Business)
 
@@ -166,3 +166,11 @@ Para adicionar esses valores, crie uma única cadeia de caracteres, separando os
 
 - Exemplo 1: `100 1 443 sipdir.online.lync.com.`
 - Exemplo 2: `100 1 443 sipdir.online.lync.com`
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Alterar os servidores de nomes para configurar o Microsoft 365 com qualquer registrador de domínio](change-nameservers-at-any-domain-registrar.md) (artigo)
+
+[Localizar e corrigir problemas após adicionar o seu domínio ou registros DNS](find-and-fix-issues.md) (artigo)
+
+[Gerenciar domínios](index.yml) (página de link)

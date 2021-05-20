@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a disposição do conteúdo para quando você usar uma revisão de disposição ou itens marcados como registros forem excluídos automaticamente de acordo com as configurações definidas.
-ms.openlocfilehash: 13310eca369949e2b66163907be4268120aa0ed0
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: dd03c429bf1b12a4c733c2e6800d0b71ca7a691f
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344921"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52532154"
 ---
 # <a name="disposition-of-content"></a>Disposição de conteúdo
 
@@ -53,16 +53,24 @@ Além disso:
 
 - Para visualizar o conteúdo dos itens durante o processo de disposição, adicione usuários ao grupo de funções do **Visualizador de Lista de Explorador de Conteúdos**. Se os usuários não tiverem as permissões desses grupos de função, ainda poderão selecionar uma ação de revisão de disposição para concluir a revisão de disposição, mas deverão fazê-lo sem a capacidade de exibir o conteúdo do item pelo mini painel de visualização no centro de conformidade.
 
-- Na visualização: por padrão, cada pessoa que acessa a página **Disposição** vê apenas os itens que estão designados para revisão. Para que um administrador de gerenciamento de registros veja todos os itens atribuídos a todos os usuários e todos os rótulos de retenção configurados para revisão de disposição: Navegue até as **configurações de gerenciamento de registros** > **Geral** > **Grupo de segurança do Gerenciador de Registros** para selecionar e habilitar um grupo de segurança habilitado para email que contém as contas de administrador.
+- Na visualização: por padrão, cada pessoa que acessa a página **Disposição** vê apenas os itens que estão designados para revisão. Para que um administrador de gerenciamento de registros veja todos os itens atribuídos a todos os usuários e todos os rótulos de retenção configurados para revisão de disposição: Navegue até **Configurações de gerenciamento de registros** > **Geral** > **Grupo de segurança para gerente de registros** para selecionar e habilitar um grupo de segurança habilitado para email que contém as contas de administrador.
     
     Os grupos do Microsoft 365 e os grupos de segurança que não são habilitados para email não oferecem suporte a esse recurso e não seriam exibidos na lista para seleção. Se você precisar criar um novo grupo de segurança habilitado para email, use o link para o Centro de administração do Microsoft 365 para criar o novo grupo. 
     
     > [!IMPORTANT]
-    > Você não pode desativar essa permissão ou substituir o grupo habilitado pelo centro de conformidade. No entanto, você pode habilitar outro grupo de segurança habilitado para email usando o cmdlet [Enable-ComplianceTagStorage](/powershell/module/exchange/enable-compliancetagstorage).
-    > 
-    > Por exemplo: `Enable-ComplianceTagStorage -RecordsManagementSecurityGroupEmail dispositionreviewers@contosoi.com`
+    > Depois de habilitar o grupo, você não poderá alterá-lo no centro de conformidade. Confira a próxima seção para saber como habilitar um grupo diferente usando o Windows PowerShell.
 
 - Na visualização: a opção **Configurações de gerenciamento de registros** está visível apenas para administradores de gerenciamento de registros. 
+
+#### <a name="enabling-another-security-group-for-disposition"></a>Habilitar outro grupo de segurança para disposição
+
+Depois de habilitar um grupo de segurança para disposição das **Configurações de gerenciamento de registros** no Centro de conformidade do Microsoft 365, você não poderá desabilitar essa permissão para o grupo ou substituir o grupo selecionado no centro de conformidade. No entanto, você pode habilitar outro grupo de segurança habilitado para email usando o cmdlet [Enable-ComplianceTagStorage](/powershell/module/exchange/enable-compliancetagstorage).
+
+Por exemplo: 
+
+```PowerShell
+Enable-ComplianceTagStorage -RecordsManagementSecurityGroupEmail dispositionreviewers@contosoi.com
+````
 
 ### <a name="enable-auditing"></a>Habilitar auditoria
 
@@ -83,7 +91,7 @@ Quando uma revisão de disposição é disparada no final do período de retenç
 - As pessoas que você escolher receberão uma notificação por email com o conteúdo a ser revisado. Esses revisores podem ser usuários individuais ou grupos de segurança habilitados para email. Novo em visualização:
    - Você pode personalizar o email que eles recebem, incluindo instruções em diferentes idiomas. Para ter suporte em vários idiomas, você mesmo deve especificar as traduções e esse texto personalizado será exibido a todos os revisores, independentemente de sua localidade.
    - Os usuários recebem uma notificação inicial por email por etiqueta no final do período de retenção do item, com um lembrete por etiqueta uma vez por semana de todas as revisões de disposição que lhes são atribuídas. Eles podem clicar no link nos emails de notificação e lembrete para ir para a página **Disposição** no Centro de conformidade do Microsoft 365 para revisar o conteúdo e executar uma ação. Como alternativa, os revisores podem ir diretamente para a página **Disposição** no centro de conformidade.
-   - Os revisores veem apenas as revisões de disposição atribuídas a eles, enquanto os administradores adicionados ao Grupo de Segurança do Gerenciador de Registros selecionado veem todas as revisões de disposição.
+   - Os revisadores veem apenas as revisões de disposição atribuídas a eles, enquanto os administradores que são adicionados ao grupo de segurança selecionado para o gerente de registros veem todas as revisões de disposição.
    - Os revisores podem adicionar novos usuários à mesma revisão de disposição. Atualmente, esta ação não concede as [permissões necessárias](#permissions-for-disposition) automaticamente a esses usuários adicionados.
    - Para o processo de revisão da disposição, um mini painel de revisão para cada item mostra uma visualização do conteúdo, se eles tiverem permissão para vê-lo. Se não tiverem permissões, eles podem selecionar o link de conteúdo e solicitar permissões. Este mini painel de revisão também possui guias para obter informações adicionais sobre o conteúdo:
        - **Detalhes** para exibir as propriedades indexadas, onde está localizado, quem o criou e quando, e quem o modificou pela última vez e quando.
@@ -127,7 +135,7 @@ Para os revisores, especifique um usuário ou um grupo de segurança habilitado 
 
 Se você precisar de mais de uma pessoa para revisar um item no final de seu período de retenção, selecione **Adicionar um estágio** novamente e repita o processo de configuração para o número de estágios necessários, com no máximo cinco estágios. 
 
-Em cada estágio individual de disposição, qualquer um dos usuários que você especificar para esse estágio está autorizado a executar a próxima ação para o item no final de seu período de retenção. Esses usuários também podem adicionar outros usuários aos estágio de revisão de disposição deles.
+Em cada estágio individual de disposição, qualquer um dos usuários especificados para esse estágio está autorizado a adotar a próxima ação para o item no final do período de retenção. Esses usuários também podem adicionar outros usuários ao estágio de revisão de disposição.
 
 > [!NOTE]
 > Rótulos de retenção existentes que são configurados para revisão de disposição podem ser atualizados para usar revisão de disposição em vários estágios, configurando o rótulo. No assistente de etiqueta, selecione **Adicionar um estágio**, ou edite os revisores existentes ou adicione novos revisores.
@@ -142,17 +150,21 @@ Depois de especificar os revisores, lembre-se de conceder a eles a permissão de
 
 ### <a name="how-to-customize-email-messages-for-disposition-review"></a>Como personalizar mensagens de email para revisão de disposição
 
+Exemplo de notificação padrão por e-mail enviada a um revisor:
+
+![Exemplo de notificação de email com texto padrão quando um item está pronto para revisão de disposição](../media/disposition-review-email.png)
+
 Também na visualização, é possível personalizar as mensagens de email enviadas aos revisores de disposição para a notificação inicial e os lembretes.
 
 Em qualquer uma das páginas de Disposição no centro de conformidade, selecione **Configurações de gerenciamento de registros**:  
 
-![Configurações de gerenciamento de registros](../media/record-management-settings.png)
+![Configurações de gerenciamento de registros ](../media/record-management-settings.png)
 
-Em seguida, selecione a guia **Modelos de email** e especifique se deseja usar apenas os modelos de email padrão ou adicionar seu próprio texto ao modelo padrão. Seu texto personalizado é adicionado às instruções do email após as informações sobre o rótulo de retenção e antes das instruções das próximas etapas.
+Em seguida, selecione a guia **Notificações de disposição** e especifique se deseja usar apenas as mensagens de email padrão ou adicionar seu próprio texto à mensagem padrão. Seu texto personalizado é adicionado às instruções do email após as informações sobre o rótulo de retenção e antes das instruções das próximas etapas.
 
 É possível adicionar texto em todos os idiomas, mas não há suporte para formatação e imagens no momento. URLs e endereços de email podem ser inseridos como texto e, dependendo do cliente de email, exibidos como hiperlinks ou texto não formatado no email personalizado.
 
-Texto de exemplo a ser anexado:
+Texto de exemplo a ser adicionado:
 
 ```console
 If you need additional information, visit the helpdesk website (https://support.contoso.com) or send them an email (helpdesk@contoso.com).
@@ -162,7 +174,7 @@ Selecione **Salvar** para salvar as alterações.
 
 ### <a name="viewing-and-disposing-of-content"></a>Exibir e descartar o conteúdo
 
-Quando um revisor é notificado por email informando que o conteúdo está pronto para ser revisado, ele vai para a guia **Disposição** em **Gerenciamento de Registros** no Centro de conformidade do Microsoft 365. Os revisores podem ver quantos itens estão aguardando disposição para cada etiqueta de retenção com o **Tipo** exibindo **Disposição pendente**. Em seguida, eles devem selecionar um rótulo de retenção e **Abrir em uma nova janela** para ver todo o conteúdo com esse rótulo:
+Quando um revisador é notificado por email de que o conteúdo está pronto para revisão, ele pode clicar em um link no email que o leva diretamente para a página **Disposição** do **Gerenciamento de Registros** no Centro de Conformidade do Microsoft 365. Lá, os revisadores podem ver quantos itens para cada rótulo de retenção estão aguardando disposição com o **Tipo** exibindo **Disposição pendente**. Em seguida, eles devem selecionar um rótulo de retenção e **Abrir em uma nova janela** para ver todo o conteúdo com esse rótulo:
 
 ![Abrir em uma nova janela para revisão de disposição](../media/open-in-new-window.png)
 

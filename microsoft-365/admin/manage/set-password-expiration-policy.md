@@ -22,26 +22,19 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
-description: Saiba como definir uma política de expiração de senha para sua organização no centro de administração do Microsoft 365.
-ms.openlocfilehash: 14ff08126533d5c530fb56761a2ef1676d5864b8
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+description: Saiba como um administrador pode definir uma política de expiração de senha para seu negócio, escola, ou sem fins lucrativos no Centro de administração do Microsoft 365.
+ms.openlocfilehash: 5469d4dcd75bee2e6f8a188aa6f50d18ce6e06c4
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903149"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537482"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Definir a política de expiração de senha para sua organização
 
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?view=o365-worldwide).
-
-::: moniker-end
-
 ## <a name="before-you-begin"></a>Antes de começar
 
-Este artigo é destinado às pessoas que definem a política de expiração de senhas para uma empresa, escola ou entidade sem fins lucrativos. Para concluir essas etapas, você precisa entrar com a sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview).
+Este artigo é destinado às pessoas que definem a política de expiração de senhas para uma empresa, escola ou entidade sem fins lucrativos. Para concluir essas etapas, você precisa entrar com a sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](../../business-video/admin-center-overview.md).
 
 Como administrador, você pode fazer as senhas de usuário expirarem após um determinado número de dias ou definir as senhas para nunca expirarem. Por padrão, as senhas da sua organização estão definidas para nunca expirar.
 
@@ -49,7 +42,7 @@ A pesquisa atual indica que as alterações de senha obrigatórias são mais pre
 
 Você deve ser um administrador [global](../add-users/about-admin-roles.md) para executar essas etapas.
 
-Se é um usuário, você não tem as permissões para definir a senha para nunca expirar. Peça ao suporte técnico do seu trabalho ou da sua escola que faça isso para você. 
+Se é um usuário, você não tem as permissões para definir a senha para nunca expirar. Peça ao suporte técnico do seu trabalho ou da sua escola que faça isso para você.
 
 ## <a name="set-password-expiration-policy"></a>Definir política de expiração de senha
 
@@ -90,12 +83,12 @@ Você pode definir mais restrições e políticas de senha no Azure Active Direc
 
 ## <a name="update-password-policy"></a>Atualizar a Política de senhas
 
-O cmdlet Set-MsolPasswordPolicy atualiza a política de senhas de um determinado domínio ou locatário. Duas configurações são necessárias. a primeira é para indicar o período de tempo que uma senha permanece válida antes de ser alterada e a segunda é indicar o número de dias antes da data de vencimento da senha que será disparada quando os usuários receberem suas primeiras notificações de que a senha irá expirar em breve.
+O cmdlet Set-MsolPasswordPolicy atualiza a política de senhas de um determinado domínio ou locatário. Duas configurações são necessárias; a primeira é indicar o período de tempo que uma senha permanece válida antes de ser alterada e a segunda é indicar o número de dias antes da data de vencimento da senha que será acionada quando os usuários receberem sua primeira notificação de que a senha irá expirar em breve.
 
 Para saber como atualizar a política de senha de um específico domínio ou locatário, confira [Set-MsolPasswordPolicy](/powershell/module/msonline/set-msolpasswordpolicy?view=azureadps-1.0).
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Permitir que os usuários redefinam as próprias senhas](../add-users/let-users-reset-passwords.md)
+[Permitir aos usuários redefinir suas próprias senhas](../add-users/let-users-reset-passwords.md) (artigo)
 
-[Redefinir senhas](../add-users/reset-passwords.md)
+[Redefinir senhas](../add-users/reset-passwords.md) (artigo)

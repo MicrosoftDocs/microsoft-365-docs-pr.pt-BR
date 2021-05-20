@@ -17,13 +17,14 @@ ms.collection:
 - m365solution-securecollab
 ms.custom:
 - Ent_Solutions
+recommendations: false
 description: Aprenda a implantar equipes com proteção para dados altamente confidenciais.
-ms.openlocfilehash: fdc3c1ab2c780289b7405623779b8af89da8ba17
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d83c10df50d02f47a6d70ee80b2ddbf89fff37d0
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916281"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538190"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>Configurar equipes com proteção para dados altamente confidenciais
 
@@ -33,7 +34,7 @@ Para esta camada de proteção, criamos um rótulo de confidencialidade que pode
 
 A camada altamente confidencial oferece as seguintes proteções adicionais sobre a camada de linha de base:
 
-- Um rótulo de confidencialidade para a equipe que permite ativar ou desativar o compartilhamento de convidados e bloqueia o acesso ao conteúdo do Microsoft Office SharePoint Online para dispositivos não gerenciados. Este rótulo também pode ser usado para classificar e criptografar arquivos.
+- Um rótulo de confidencialidade para a equipe que permite ativar ou desativar o compartilhamento de convidados e bloquear o acesso ao conteúdo do Microsoft Office SharePoint Online para dispositivos não gerenciados. Este rótulo também pode ser usado para classificar e criptografar arquivos.
 - Um tipo de link de compartilhamento padrão mais restritivo
 - Somente os proprietários da equipe podem criar canais privados.
 - As solicitações de acesso para o site do Microsoft Office SharePoint Online associado estão desativadas.

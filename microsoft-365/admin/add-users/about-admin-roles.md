@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
-description: As funções de administrador são mapeadas para as funções de negócios e oferecem permissões para realizar tarefas específicas no centro de administração. Por exemplo, o administrador de serviço pode abrir tíquetes de suporte por meio do centro de administração.
-ms.openlocfilehash: d220ee918f70a56ba27bdad9d7d0f45025fad451
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+description: As funções de administrador como a Administração de serviços fazem mapeamento para as funções de negócios e dão permissões para realizar tarefas específicas no centro de administração.
+ms.openlocfilehash: 7ba8b6fd483901fde31a9bceca189797b4f2e16d
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759403"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536005"
 ---
 # <a name="about-admin-roles"></a>Sobre funções de administrador
 
@@ -43,7 +43,7 @@ Procurando a lista completa de descrições detalhadas da função do Intune que
 
 Para obter mais informações sobre como atribuir funções no Centro de administração do Microsoft 365, confira [Atribuir funções de administrador](assign-admin-roles.md).
 
-### <a name="watch-what-is-an-admin"></a>Assista: O que é um administrador?
+## <a name="watch-what-is-an-admin"></a>Assista: O que é um administrador?
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SRc0]
 
@@ -70,7 +70,7 @@ Provavelmente, você só precisará atribuir as funções a seguir em sua organi
 |Administrador de faturamento     |   Atribua a função de administrador de cobrança aos usuários que fazem compras, gerenciam assinaturas e solicitações de serviço, e monitoram a integridade do serviço. <br><br> Os administradores de faturamento também podem:<br> - Gerenciar todos os aspectos da cobrança <br> - Criar e gerenciar tíquetes de suporte no portal do Microsoft Azure <br>  |
 |Administrador do Exchange     |   Atribua a função de administrador do Exchange a usuários que precisam exibir e gerenciar as caixas de correio de e-mail do usuário, grupos do Microsoft 365 e Exchange Online. <br><br> Os administradores do Exchange também podem:<br> - Recuperar itens excluídos na caixa de correio de um usuário <br> - Configurar delegados "Enviar como" e "Enviar em nome" <br>  |
 |Administrador global     |   Atribua a função de administrador global aos usuários que precisam de acesso global à maioria dos recursos e dados de gerenciamento nos serviços online da Microsoft. <br><br> Conceder a muitos usuários o acesso global é um risco à segurança e é recomendável que você tenha entre dois e quatro administradores globais. <br><br> Somente os administradores globais podem:<br> - Redefinir senhas para todos os usuários <br> - Adicionar e gerenciar domínios <br> <br> **Observação:** a pessoa que se inscreveu no Microsoft Online Services automaticamente se torna um administrador global. |
-|Leitor global    |   Atribua a função leitor global aos usuários que precisam exibir os recursos e as configurações do administrador no centro de administração que o administrador global pode exibir. O administrador leitor global não pode editar as configurações.   |
+|Leitor global    |   Atribua a função de leitor global aos usuários que precisam exibir recursos e configurações de administração em centros de administração que o administrador global pode exibir. O administrador de leitor global não pode editar as configurações.   |
 |Administrador de grupos     |   Atribua a função de administrador grupos aos usuários que precisam gerenciar todas as configurações de grupos em todos os centros de administração, incluindo o Centro de administração do Microsoft 365 e o portal do Azure Active Directory. <br><br> Os administradores de grupos podem:<br> - Criar, editar, excluir e restaurar grupos do Microsoft 365 <br> - Criar e atualizar políticas de criação, expiração e nomeação de grupos <br> - Criar, editar, excluir e restaurar grupos de segurança do Azure Active Directory| 
 |Administrador de help desk     |   Atribua a função de administrador de help desk aos usuários que precisam fazer o seguinte:<br> - Redefinir senhas <br> - Forçar os usuários a sair <br> - Gerenciar solicitações de serviço <br> - Monitorar a integridade do serviço <br> <br> **Observação**: o administrador de help desk só pode ajudar usuários não administradores e usuários atribuídos a essas funções: leitor de diretório, emissor de convite, administrador de help desk, leitor de centro de mensagens e leitor de relatórios.      |
 |Administrador de licença    |   Atribua a função Administrador de licença a usuários que precisam atribuir e remover licenças de usuários, e edite o local de uso. <br/><br/> Os administradores de licenças também podem: <br> - Reprocessar as atribuições de licença para licenciamento baseado em grupo <br> - Atribuir licenças de produto a grupos para licenciamento baseado em grupo  |
@@ -93,12 +93,12 @@ Um parceiro pode atribuir estas funções:
 
 Antes que o parceiro possa atribuir funções aos usuários, é preciso adicioná-lo como administrador delegado à sua conta. Esse processo é iniciado por um parceiro autorizado.O parceiro envia um email perguntando se você deseja conceder permissão a ele para atuar como administrador delegado. Para obter instruções, confira [Autorizar ou remover relações de parceiro](../misc/add-partner.md).
   
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Atribuir funções de administrador](assign-admin-roles.md)
+[Atribuir funções de administrador](assign-admin-roles.md) (artigo)
 
-[Funções de Azure Active Directory no Centro de administração do Microsoft 365](azure-ad-roles-in-the-mac.md)
+[Funções de Azure Active Directory no Centro de administração do Microsoft 365](azure-ad-roles-in-the-mac.md) (artigo)
 
-[Função de administrador do Exchange Online](about-exchange-online-admin-role.md)
+[Função de administrador do Exchange Online](about-exchange-online-admin-role.md) (artigo)
   
-[Relatórios de atividades no centro de administração do Microsoft 365](../activity-reports/activity-reports.md)
+[Relatórios de atividades no Centro de administração do Microsoft 365](../activity-reports/activity-reports.md) (artigo)

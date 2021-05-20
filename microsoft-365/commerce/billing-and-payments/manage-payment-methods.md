@@ -19,14 +19,14 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
 search.appverid: MET150
-description: Saiba como gerenciar suas formas de pagamento no Centro de administração do Microsoft 365.
+description: Compre produtos ou serviços empresariais da Microsoft usando uma forma de pagamento existente ou adicionando uma nova no Centro de administração do Microsoft 365.
 ms.date: 04/02/2021
-ms.openlocfilehash: b6fe62a70d478a98eb13a17fafb4320afc6b5952
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: bda7eca29b92cdf131c6d3f5a6069ea2be77f6fa
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332001"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537314"
 ---
 # <a name="manage-payment-methods"></a>Gerenciar métodos de pagamento
 
@@ -87,7 +87,7 @@ Você pode alterar a forma de pagamento usada para uma única assinatura.
 
 1. No centro de administração, acesse a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 2. Na guia **Produtos**, encontre a assinatura que você deseja pagar com a forma de pagamento alternativa.
-3. Selecione **Mais ações** (três pontos) e, em seguida, selecione **Substituir forma de pagamento**.
+3. Selecione os três pontos (mais ações) e selecione **Substituir método de pagamento**.
 4. No painel **Substituir forma de pagamento**, na lista suspensa, escolha uma forma de pagamento alternativa ou opte por adicionar uma forma de pagamento.
 5. Se você adicionar uma forma de pagamento, insira os detalhes do cartão ou da conta e selecione **Salvar**.
 6. Verifique se a forma de pagamento selecionada está correta e selecione **Substituir**.

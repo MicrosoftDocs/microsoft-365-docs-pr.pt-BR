@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: Crie uma caixa de correio compartilhada para permitir que vários usuários da sua empresa compartilhem a responsabilidade de ler e responder a emails enviados para um endereço.
-ms.openlocfilehash: 004473b329b14be9287f249b1d640c3b0803412a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 808b98b45c3d6f5ba3cd9847ba2aa843ff53d106
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915873"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537602"
 ---
 # <a name="create-a-shared-mailbox"></a>Criar uma caixa de correio compartilhada 
 
@@ -38,7 +38,7 @@ ms.locfileid: "50915873"
 
 É muito fácil criar caixas de correio compartilhadas para que um grupo de pessoas possa monitorar e enviar emails de endereços de email comuns, como info@contoso.com. Quando um membro do grupo responde a uma mensagem enviada para a caixa de correio compartilhada, o email é exibido como sendo da caixa de correio compartilhada, e não do usuário individual.
 
-As caixas de correio compartilhadas incluem um calendário compartilhado. Várias empresas de pequeno porte preferem usar os calendários compartilhados como um local em que todos possam inserir compromissos. Por exemplo, se você tem três usuários que fazem atendimento presencial a clientes, todos eles podem usar o calendário compartilhado para inserir os respectivos compromissos. Essa é uma maneira fácil de manter todos informados.
+As caixas de correio compartilhadas incluem um calendário compartilhado. Várias empresas de pequeno porte preferem usar os calendários compartilhados como um local em que todos possam inserir compromissos. Por exemplo, se você tem três usuários que fazem visitas a clientes, todos eles podem usar o calendário compartilhado para inserir os respectivos compromissos. Essa é uma maneira fácil de manter todos informados, em praticamente qualquer lugar.
 
 Antes de criar uma caixa de correio compartilhada, não deixe de ler [Sobre caixas de correio compartilhadas](about-shared-mailboxes.md) para mais informações.
 
@@ -198,14 +198,14 @@ Ao criar a caixa de correio compartilhada, você cria automaticamente um calend�
 
 3. Qualquer membro da caixa de correio compartilhada pode criar, exibir e gerenciar compromissos no calendário da mesma maneira que como é feito com seus compromissos pessoais. Todos os membros da caixa de correio compartilhada podem ver as alterações no calendário compartilhado.
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Sobre as caixas de correio compartilhadas](about-shared-mailboxes.md)
+[Sobre as caixas de correio compartilhadas](about-shared-mailboxes.md) (artigo)
 
-[Configurar uma caixa de correio compartilhada](configure-a-shared-mailbox.md)
+[Configurar uma caixa de correio compartilhada](configure-a-shared-mailbox.md) (artigo)
 
-[Converter uma caixa de correio do usuário em uma caixa de correio compartilhada](convert-user-mailbox-to-shared-mailbox.md).
+[Converter uma caixa de correio do usuário em uma caixa de correio compartilhada](convert-user-mailbox-to-shared-mailbox.md) (artigo)
 
-[Remover uma licença de uma caixa de correio compartilhada](remove-license-from-shared-mailbox.md)
+[Remover uma licença de uma caixa de correio compartilhada](remove-license-from-shared-mailbox.md) (artigo)
 
-[Solucionar problemas com caixas de correio compartilhadas](resolve-issues-with-shared-mailboxes.md)
+[Resolver problemas com caixas de correio compartilhadas](resolve-issues-with-shared-mailboxes.md) (artigo)

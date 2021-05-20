@@ -16,13 +16,14 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 f1.keywords: NOCSH
+recommendations: false
 description: Saiba mais sobre as etapas de configuração do Microsoft 365 necessárias para configurar uma equipe para tarefas, conversas e colaboração de documentação com convidados no Teams.
-ms.openlocfilehash: 4e734af198563d0bc4599b4476b3823384989212
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: c17732705c1d88ff70e56f5d26d9e268e3ff7c19
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904655"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539258"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Colaborar com convidados em uma equipe
 
@@ -81,7 +82,7 @@ Depois que o acesso de convidado do Teams está ativado, você pode opcionalment
 
 ## <a name="microsoft-365-groups-guest-settings"></a>Configurações de convidado do Microsoft 365 Groups
 
-O Teams usa o Grupos do Microsoft 365 para associação à equipe. As configurações de convidado do Grupos do Microsoft 365 devem ser ativadas na ordem para o acesso de convidado no Teams trabalhe.
+O Teams utiliza os Grupos Microsoft 365 para a associação à equipe. As configurações dos Grupos Microsoft 365 devem ser ativadas para que o acesso de convidados em Equipes trabalhe.
 
 ![Captura de tela das configurações de convidado dos Grupos do Microsoft 365 no Centro de administração do Microsoft 365](../media/office-365-groups-guest-settings.png)
 
