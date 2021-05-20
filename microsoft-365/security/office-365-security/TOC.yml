@@ -118,8 +118,6 @@
           href: configure-junk-email-settings-on-exo-mailboxes.md
         - name: Configurar a filtragem de spam de saída
           href: configure-the-outbound-spam-policy.md
-        - name: Configurar a inteligência contra falsificação
-          href: learn-about-spoof-intelligence.md
         - name: Criar listas de remetentes bloqueados
           href: Create-block-sender-lists-in-office-365.md
         - name: Criar listas de remetentes confiáveis
@@ -150,10 +148,6 @@
           href: support-for-anonymous-inbound-email-messages-over-ipv6.md
         - name: Instalar o Application Guard para Office
           href: install-app-guard.md
-        - name: Defina grupos e usuários para um ambiente de desenvolvimento/teste de uma campanha política
-          href: configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
-        - name: Criar sites de equipe em um ambiente de desenvolvimento/teste de campanha política
-          href: create-team-sites-in-a-political-campaign-dev-test-environment.md
     - name: Migrar
       items:
         - name: 'Mudar para EOP do Google Postini, do Firewall de Vírus ou Spam Barracuda, ou do Cisco IronPort'
@@ -226,13 +220,13 @@
           href: campaigns.md
         - name: Investigar emails mal-intencionados
           href: investigate-malicious-email-that-was-delivered.md
-        - name: Exibir os relatórios do Defender para Office 365 no Centro de Conformidade e Segurança
-          href: view-reports-for-mdo.md
-        - name: Exibir os detalhes e resultados de uma investigação automatizada
+        - name: Exibir detalhes e resultados de uma investigação automatizada
           href: air-view-investigation-results.md
-        - name: Exibir relatórios de segurança de email no Centro de Conformidade e Segurança
+        - name: Exibir relatórios do Defender para Office 365
+          href: view-reports-for-mdo.md
+        - name: Exibir relatórios de segurança de email
           href: view-email-security-reports.md
-        - name: Exibir relatórios de fluxo de emails no Centro de Conformidade e Segurança
+        - name: Exibir relatórios de fluxo de email
           href: view-mail-flow-reports.md
         - name: Exibir o log de auditoria de administradores no EOP autônomo
           href: view-the-admin-audit-log-eop.md
@@ -240,6 +234,8 @@
           href: reporting-and-message-trace-in-exchange-online-protection.md
         - name: Visão geral sobre mensagens encaminhadas automaticamente
           href: mfi-auto-forwarded-messages-report.md
+        - name: Informações sobre usurpação de identidade
+          href: impersonation-insight.md
         - name: Mapa de fluxo de email
           href: mfi-mail-flow-map-report.md
         - name: Enviar mensagens manualmente à Microsoft
@@ -256,6 +252,8 @@
           href: mfi-outbound-and-inbound-mail-flow.md
         - name: Visão geral e relatório de clientes de autenticação SMTP
           href: mfi-smtp-auth-clients-report.md
+        - name: Informações de inteligência contra falsificação
+          href: learn-about-spoof-intelligence.md
         - name: Enviar malware e não malware à Microsoft
           href: submitting-malware-and-non-malware-to-microsoft-for-analysis.md
         - name: Insight sobre o status do fluxo de mensagens dos principais domínios
@@ -266,8 +264,6 @@
           href: use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md
         - name: Informações sobre filas
           href: mfi-queue-alerts-and-queues.md
-        - name: Passo a passo – Informações sobre Inteligência contra Falsificação
-          href: walkthrough-spoof-intelligence-insight.md
     - name: Responder
       items:
         - name: Detectar e endereçar rapidamente contas comprometidas de usuários
