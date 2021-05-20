@@ -22,12 +22,12 @@ localization_priority: Priority
 description: Os administradores podem saber mais sobre os recursos de anti-falsificação disponíveis na Proteção do Exchange Online (EOP), que podem ajudar a reduzir os ataques de phishing de remetentes e domínios falso.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 76ad8ac14de7b176ae12dc02272e31e790b6b410
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 7680c2f4eae54aa53eba72b328baf1bf92fbcf98
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52291026"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537962"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Proteção antifalsificação no EOP
 
@@ -44,17 +44,28 @@ Quando se trata de proteger os usuários, a Microsoft leva a sério a ameaça de
 
 As seguintes tecnologias antifalsificação estão disponíveis na EOP:
 
-- **Inteligência contra falsificação**: Revise as mensagens falsas dos remetentes em domínios internos e externos e permita ou bloqueie esses remetentes. Para obter mais informações, contra [Configurar a inteligência contra falsificação no Microsoft 365](learn-about-spoof-intelligence.md).
-
-- **Políticas antiphishing**: Na EOP, a política interna antiphishing permite ativar ou desativar a inteligência contra falsificação, ativar ou desativar a identificação de remetente não autenticado no Outlook e especificar a ação para remetentes falsificados bloqueados (mover para a pasta Lixo Eletrônico ou para a quarentena). As políticas anti-phishing avançadas disponíveis no Microsoft Defender para Office 365 também contêm configurações anti-usurpação de identidade (remetentes e domínios protegidos), configurações de inteligência de caixa de correio e limites de phishing avançados ajustáveis. Para obter mais informações, confira [Políticas antiphishing](set-up-anti-phishing-policies.md) no Microsoft 365.
-
 - **Autenticação de email**: Um componente integrante de qualquer esforço antifalsificação é o uso de autenticação de email (também conhecida como validação de email) pelos registros SPF, DKIM e DMARC no DNS. Você pode configurar esses registros para seus domínios, para que os sistemas de email de destino possam verificar a validade das mensagens que afirmam ser de remetentes em seus domínios. Para mensagens de entrada, o Microsoft 365 requer autenticação de email para domínios do remetente. Para obter mais informações, confira [Autenticação de email no Microsoft 365](email-validation-and-authentication.md).
 
-A partir de outubro de 2018, a proteção anti-falsificação está disponível em EOP.
+  A EOP analisa e bloqueia mensagens que não podem ser autenticadas pela combinação de métodos padrão de autenticação de email e técnicas de reputação do remetente.
 
-A EOP analisa e bloqueia mensagens que não podem ser autenticadas pela combinação de métodos padrão de autenticação de email e técnicas de reputação do remetente.
+  ![Verificações antifalsificação da EOP](../../media/eop-anti-spoofing-protection.png)
 
-![Verificações antifalsificação da EOP](../../media/eop-anti-spoofing-protection.png)
+- **Informações sobre inteligência contra falsificação**: Revise mensagens falsas de remetentes em domínios internos e externos nos últimos 7 dias e permita ou bloqueie esses remetentes. Para saber mais, confira [Informações de inteligência contra falsificação no EOP](learn-about-spoof-intelligence.md).
+
+- **Permitir ou bloquear remetentes na Lista Permitir/Bloquear Locatários**: quando você substitui o remetente nas informações de inteligência contra falsificação, o remetente falsificado se torna uma permissão manual de entrada ou bloqueio que só aparece na guia **Falsificação** na Lista Permitir/Bloquear Locatário. Você também pode criar manualmente entradas de permissão ou bloqueio para remetentes falsificados antes que eles sejam detectados pela inteligência contra falsificação. Para saber mais, confira [Gerenciar a Lista Permitir/Bloquear Locatário no EOP](tenant-allow-block-list.md).
+
+- **Políticas anti phishing**: no EOP, as políticas anti phishing contêm as seguintes configurações contra falsificação:
+  - Ativar ou desativar a inteligência contra falsificação.
+  - Ativar ou desativar a identificação de remetentes não autenticados no Outlook.
+  - Especificar a ação para os remetentes falsificados bloqueados.
+
+  Para saber mais, confira [Configurações de inteligência contra falsificação nas políticas anti phishing](set-up-anti-phishing-policies.md#spoof-settings).
+
+  **Observação**: as políticas anti phishing no Microsoft Defender para Office 365 contêm proteções de adição, incluindo proteção contra **usurpação de identidade**. Para saber mais, confira [Configurações exclusivas em políticas anti phishing no Microsoft Defender para Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365).
+
+- **Relatório de detecção de falsificação**: para saber mais, confira [Relatório de Detecções de Falsificações](view-email-security-reports.md#spoof-detections-report).
+
+  **Observação**: as organizações do Defender para Office 365 também podem usar detecções em tempo real (Plano 1) ou o Explorador de Ameaças (Plano 2) para exibir informações sobre tentativas de phishing. Para obter mais informações, confira [Investigação e resposta a ameaças do Microsoft 365](office-365-ti.md).
 
 ## <a name="how-spoofing-is-used-in-phishing-attacks"></a>Como a falsificação é usada em ataques de phishing
 
@@ -127,12 +138,6 @@ A Microsoft diferencia dois tipos diferentes de mensagens falsas:
 
 Para obter mais informações sobre o DMARC, confira [Usar o DMARC para validar emails no Microsoft 365](use-dmarc-to-validate-email.md).
 
-## <a name="reports-of-how-many-messages-were-marked-as-spoofed"></a>Relatórios de quantas mensagens foram marcadas como falsificadas
-
-As organizações EOP podem usar o relatório de **detecções de Falsificação** no painel de relatórios do Centro de Segurança e Conformidade. Para mais informações, confira [Relatório de Detecções de Falsificação](view-email-security-reports.md#spoof-detections-report).
-
-A organização Microsoft Defender para Office 365 pode usar o Explorador de Ameaças no Centro de Conformidade e Segurança para exibir informações sobre tentativas de phishing. Para obter mais informações, confira [Investigação e resposta a ameaças do Microsoft 365](office-365-ti.md).
-
 ## <a name="problems-with-anti-spoofing-protection"></a>Problemas com a proteção antifalsificação
 
 Sabe-se que as listas de endereçamento (também conhecidas como listas de discussão) têm problemas com a antifalsificação devido à maneira como encaminham e modificam as mensagens.
@@ -161,7 +166,7 @@ Para ajudar as mensagens da lista de endereçamento a passarem nas verificaçõe
 
     Quando um número suficiente de remetentes responde aos proprietários do domínio que devem configurar registros de autenticação de email, isso os incentiva a agir. Embora a Microsoft também trabalhe com proprietários de domínio para publicar os registros necessários, é ainda mais eficaz quando usuários individuais solicitam isso.
 
-  - Crie regras de caixa de entrada no seu cliente de email para mover as mensagens para a Caixa de Entrada. Você também pode solicitar que seus administradores configurem substituições, conforme discutido em [Usar inteligência contra falsificação para configurar remetentes permitidos de email não autenticado](email-validation-and-authentication.md#use-spoof-intelligence-to-configure-permitted-senders-of-unauthenticated-email).
+  - Crie regras de caixa de entrada no seu cliente de email para mover as mensagens para a Caixa de Entrada. Você também pode solicitar que seus administradores configurem substituições, conforme descrito em [Informações de Inteligência contra falsificação](learn-about-spoof-intelligence.md) no EOP e em [Gerenciar a Lista Permitir/Bloquear Locatário](tenant-allow-block-list.md).
 
   - Crie um tíquete de suporte do Microsoft 365 para criar uma substituição para a lista de endereçamento para que ela seja tratada como legítima. Para obter mais informações, confira [Contatar o suporte para produtos comerciais - Ajuda para administradores](../../business-video/get-help-support.md).
 

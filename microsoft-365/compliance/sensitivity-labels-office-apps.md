@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informações para administradores de TI para gerenciar rótulos de confidencialidade em aplicativos do Office para área de trabalho, dispositivos móveis e Web.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f280cae2364a3ad76a3a3ff91ce382fdf69eab2b
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: bca8efa15bdfe2f4b7c8c90e7a4706f40b19f85d
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/19/2021
-ms.locfileid: "52532045"
+ms.locfileid: "52572604"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Gerenciar rótulos de confidencialidade em aplicativos do Office
 
@@ -194,7 +194,7 @@ Para uma experiência de rótulos mais consistente com relatórios significativo
         - Chaves *DisableEncryptOnly* e *DisableDoNotForward* configurações de segurança documentadas em [Definir preferências do Microsoft Outlook para Mac para Mac](/DeployOffice/mac/preferences-outlook)
     - Outlook na Web: 
         - Parâmetros *SimplifiedClientAccessDoNotForwardDisabled* e *SimplifiedClientAccessEncryptOnlyDisabled* documentados para [Set-IRMConfiguration](/powershell/module/exchange/set-irmconfiguration)
-        - Outlook para iOS e Android: Estes aplicativos não suportam usuários que aplicam criptografia sem rótulos, portanto, nada a ser desabilitado.
+    - Outlook para iOS e Android: Estes aplicativos não suportam usuários que aplicam criptografia sem rótulos, portanto, nada a ser desabilitado.
 
 > [!NOTE]
 > Se os usuários removerem manualmente a criptografia de um documento identificado que esteja armazenado no SharePoint ou no OneDrive, e você tiver [habilitado rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md), a criptografia do rótulo será automaticamente restaurada na próxima vez em que o documento for acessado ou baixado. 

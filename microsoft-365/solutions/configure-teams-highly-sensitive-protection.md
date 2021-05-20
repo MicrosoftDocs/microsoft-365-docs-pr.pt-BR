@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 recommendations: false
 description: Aprenda a implantar equipes com proteção para dados altamente confidenciais.
-ms.openlocfilehash: d83c10df50d02f47a6d70ee80b2ddbf89fff37d0
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 0e2f41cfeb06ba34a4a0dcbc82008e44d136a70c
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538190"
+ms.locfileid: "52572784"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>Configurar equipes com proteção para dados altamente confidenciais
 
@@ -115,7 +115,7 @@ Você também pode usar [políticas de equipes](/MicrosoftTeams/teams-policies) 
 
 Sempre que você cria uma nova equipe com o rótulo altamente confidencial, há duas etapas a serem executadas no Microsoft Office SharePoint Online:
 
-- Atualize as configurações de compartilhamento de convidados do site no Centro de Administração do SharePoint Online para corresponder ao que você escolheu quando criou o rótulo, e atualize o link de compartilhamento padrão para *Pessoas com acesso existente*.
+- Atualize as configurações de compartilhamento do site no Centro de administração do SharePoint para atualizar o link padrão de compartilhamento para *Pessoas com acesso existente*.
 - Atualize as configurações de compartilhamento do site no próprio site para impedir que os membros compartilhem arquivos, pastas ou o site, e desative as solicitações de acesso.
 
 ### <a name="site-guest-sharing-settings"></a>Configurações de compartilhamento de convidados do site

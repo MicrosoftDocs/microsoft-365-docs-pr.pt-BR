@@ -38,14 +38,6 @@
           href: turn-on-mdo-for-spo-odb-and-teams.md
         - name: Visão geral do Centro de segurança do Microsoft 365
           href: ../defender/overview-security-center.md
-        - name: Explorador de Ameaças para Microsoft Defender para Office 365
-          items:
-            - name: A caça de ameaças no Explorador de Ameaças
-              href: threat-hunting-in-threat-explorer.md
-            - name: Segurança de email com o Explorador de Ameaças
-              href: email-security-in-microsoft-defender.md
-            - name: Noções básicas sobre o Explorador de Ameaças e detecção em tempo real
-              href: real-time-detections.md
         - name: A página de entidade de email
           href: mdo-email-entity-page.md
         - name: Visão geral do AIR
@@ -200,6 +192,14 @@
           href: zero-hour-auto-purge.md
     - name: Detectar
       items:
+        - name: Explorador de Ameaças para Microsoft Defender para Office 365
+          items:
+            - name: A caça de ameaças no Explorador de Ameaças
+              href: threat-hunting-in-threat-explorer.md
+            - name: Segurança de email com o Explorador de Ameaças
+              href: email-security-in-microsoft-defender.md
+            - name: Noções básicas sobre o Explorador de Ameaças e detecção em tempo real
+              href: real-time-detections.md
         - name: Usar Rastreadores de Ameaças
           href: threat-trackers.md
         - name: Exibir alertas
