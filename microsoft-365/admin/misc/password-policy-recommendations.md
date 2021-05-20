@@ -20,13 +20,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
-description: Aprenda a tornar a sua organização mais segura contra ataques de senha e por que você deve bloquear senhas comuns e habilitar a autenticação multifator baseada em risco.
-ms.openlocfilehash: d3f86a6e85ab2f8e469a57ea98a661e4cc453673
-ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
+description: Deixe a sua organização mais segura contra ataques de senha, vete senhas comuns e habilite a autenticação multifator baseada em risco.
+ms.openlocfilehash: 1927e481625e93afa8aa064666e75ea8f891669e
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52073860"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52572292"
 ---
 # <a name="password-policy-recommendations"></a>Recomendações de política de senha
 
@@ -74,7 +74,7 @@ O principal objetivo de um sistema de senhas mais seguro é a diversidade de sen
 
 ### <a name="password-guidance-for-your-users"></a>Diretrizes de senha para os seus usuários
 
-Aqui estão algumas diretrizes de senha para usuários da sua organização. Lembre-se de permitir que seus usuários saibam sobre essas recomendações e aplicar as políticas de senha recomendadas no nível da organização.
+Aqui estão algumas orientações de senha para os usuários de sua organização. Lembre-se de informar seus usuários sobre estas recomendações e imponha as políticas de senhas recomendadas em nível organizacional.
   
 - Não use uma senha igual ou similar a uma que você usa em outros sites
 
