@@ -14,48 +14,74 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
-description: Agora você pode aplicar políticas de DLP Microsoft Teams chats e canais. Leia este artigo para saber mais sobre como ele funciona.
-ms.openlocfilehash: 9fdce86473dcfbb7ec75b9d371b8782d4141ef57
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+description: Microsoft Teams chats e canais suportam políticas de Prevenção contra Perda de Dados (DLP).
+ms.openlocfilehash: e55bfa34b2495465f573bcede3ebda2308dbbbbc
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572460"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583383"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>Prevenção contra perda de dados e Microsoft Teams
 
-> [!NOTE]
-> Os recursos de prevenção contra perda de dados foram adicionados recentemente Microsoft Teams mensagens de chat e canal para usuários licenciados para o Office 365 E5/A5, Microsoft 365 E5/A5, Microsoft 365 Proteção de Informações e Governança ou Conformidade Avançada do Office 365. Office 365 e Microsoft 365 E3 incluem proteção DLP para SharePoint Online, OneDrive e Exchange Online. Isso também inclui arquivos compartilhados por meio Teams porque Teams usa SharePoint Online e OneDrive para compartilhar arquivos.
-O suporte para a proteção DLP no Teams Chat requer E5.
-Para saber mais sobre os requisitos de licenciamento, confira [Diretrizes do Licenciamento de Serviços no Nível de Locatário do Microsoft 365](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance).
-
-## <a name="overview-of-dlp-for-microsoft-teams"></a>Visão geral da DLP para o Microsoft Teams
-
-Recentemente, [os recursos de prevenção](dlp-learn-about-dlp.md) contra perda de dados foram estendidos para incluir Microsoft Teams mensagens de chat e canal, incluindo mensagens de canal **privado.** 
-
-> [!IMPORTANT]
-> A DLP atualmente só se aplica às mensagens reais no thread de chat ou canal. As notificações de atividade - que incluem uma visualização de mensagem  curta e aparecem com base nas configurações de notificação de um usuário - não estão incluídas no Teams DLP no momento. Quaisquer informações confidenciais presentes na parte da mensagem exibida na visualização permanecerão visíveis na notificação mesmo depois que a política DLP tiver sido aplicada e removida informações confidenciais da própria mensagem.
-
-Se sua organização tiver DLP, agora você pode definir políticas que impedem que as pessoas compartilhem informações confidenciais em um Microsoft Teams canal ou sessão de chat. Aqui estão alguns exemplos de como essa proteção funciona:
+Se sua organização tiver DLP (prevenção contra perda de dados), você poderá definir políticas que impedem que as pessoas compartilhem informações confidenciais em um canal Microsoft Teams ou sessão de chat. Aqui estão alguns exemplos de como essa proteção funciona:
 
 - **Exemplo 1: Protegendo informações confidenciais em mensagens**. Suponha que alguém tenta compartilhar informações confidenciais em um Teams ou canal com convidados (usuários externos). Se você tiver uma política de DLP definida para evitar isso, as mensagens com informações confidenciais enviadas a usuários externos serão excluídas. Isso acontece automaticamente e em segundos, de acordo com a configuração da política de DLP.
 
     > [!NOTE]
     > A DLP para Microsoft Teams o conteúdo confidenciais quando compartilhado com Microsoft Teams usuários que têm:<br/>- [acesso de convidados](/MicrosoftTeams/guest-access) em equipes e canais; ou<br/>- [acesso externo](/MicrosoftTeams/manage-external-access) em reuniões e sessões de chat. <p>A DLP para sessões de chat externo só funcionará se o remetente e o receptor estão no modo Somente Teams e usando Microsoft Teams [federação nativa](/microsoftteams/manage-external-access). A DLP para Teams não bloqueia mensagens em [interop](/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability#interoperability-of-teams-and-skype-for-business) com Skype for Business ou sessões de chat federadas não nativas.
 
-- **Exemplo 2: Protegendo informações confidenciais em documentos**. Suponha que alguém tenta compartilhar um documento com convidados em um canal Microsoft Teams ou chat, e o documento contém informações confidenciais. Se você tiver uma política de DLP definida para evitar isso, o documento não abrirá para esses usuários. Observe que, nesse caso, sua política de DLP deve incluir SharePoint e OneDrive para que a proteção seja realizada. (Este é um exemplo de DLP para SharePoint que aparece no Microsoft Teams e, portanto, exige que os usuários sejam licenciados para Office 365 DLP (incluído no Office 365 E3), mas não exige que os usuários sejam licenciados para Conformidade Avançada do Office 365.)
+- **Exemplo 2: Protegendo informações confidenciais em documentos**. Suponha que alguém tenta compartilhar um documento com convidados em um canal Microsoft Teams ou chat, e o documento contém informações confidenciais. Se você tiver uma política de DLP definida para evitar isso, o documento não abrirá para esses usuários. Sua política DLP deve incluir o SharePoint e o OneDrive para que a proteção seja colocada em ação. Este é um exemplo de DLP para SharePoint que aparece no Microsoft Teams e, portanto, exige que os usuários sejam licenciados para Office 365 DLP (incluído no Office 365 E3), mas não exige que os usuários sejam licenciados para Conformidade Avançada do Office 365.)
+
+## <a name="dlp-licensing-for-microsoft-teams"></a>Licenciamento de DLP para Microsoft Teams
+
+[Os recursos de prevenção](dlp-learn-about-dlp.md) contra perda de dados foram estendidos para incluir Microsoft Teams mensagens de chat e canal, **incluindo mensagens de canal privado** para:
+
+- Office 365 E5/A5
+- Microsoft 365 E5/A5
+- Governança e Proteção de Informações do Microsoft 365
+- Conformidade Avançada do Office 365
+
+Office 365 e Microsoft 365 E3 incluem proteção DLP para SharePoint Online, OneDrive e Exchange Online. Isso também inclui arquivos compartilhados por meio Teams porque Teams usa SharePoint Online e OneDrive para compartilhar arquivos.
+
+O suporte para a proteção DLP no Teams Chat requer E5.
+
+Para saber mais sobre os requisitos de licenciamento, confira [Diretrizes do Licenciamento de Serviços no Nível de Locatário do Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+
+> [!IMPORTANT]
+> A DLP aplica-se apenas às mensagens reais no thread de chat ou canal. As notificações de atividade - que incluem uma visualização de mensagem  curta e aparecem com base nas configurações de notificação de um usuário - não são incluídas no Teams DLP. Quaisquer informações confidenciais presentes na parte da mensagem exibida na visualização permanecerão visíveis na notificação mesmo depois que a política DLP tiver sido aplicada e removida informações confidenciais da própria mensagem.
+
+## <a name="scope-of-dlp-protection"></a>Escopo da proteção DLP
+
+A proteção DLP é aplicada de forma diferente Teams entidades.
+
+|Contas de usuário/grupos/lista  |Teams Entity |Proteção DLP disponível|
+|---------|---------|---------|
+|contas de usuário individuais     |Chats 1:1/n         |sim         |
+|     |chats gerais         |não         |
+|     |canais compartilhados         |não         |
+|     |canais privados         |sim         |
+|grupos de segurança/listas de distribuição  | Chats 1:1/n         |sim         |
+|     |chats gerais         |não         |
+|     |canais compartilhados         |não      |
+|     |canais privados         |sim        |
+|Microsoft 365 grupo    |Chats 1:1/n          |não         |
+|     |chats gerais          |sim        |
+|     |canais compartilhados|sim |
+|     |canais privados|não| 
+
 
 ## <a name="policy-tips-help-educate-users"></a>Dicas de política ajudam a instruir os usuários
 
-Semelhante à forma como a DLP funciona em [Exchange, Outlook, Outlook](data-loss-prevention-policies.md#policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web)na Web , [SharePoint Online, sites OneDrive for Business e](data-loss-prevention-policies.md#policy-evaluation-in-onedrive-for-business-and-sharepoint-online-sites)clientes de área de trabalho do [Office,](data-loss-prevention-policies.md#policy-evaluation-in-the-office-desktop-programs)as dicas de política aparecem quando uma ação entra em conflito com uma política de DLP. Veja um exemplo de uma dica de política:
+Semelhante à forma como a DLP funciona no [Exchange, Outlook, Outlook](data-loss-prevention-policies.md#policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web)na Web , [SharePoint Online, sites OneDrive for Business e](data-loss-prevention-policies.md#policy-evaluation-in-onedrive-for-business-and-sharepoint-online-sites)clientes de área de trabalho do [Office](data-loss-prevention-policies.md#policy-evaluation-in-the-office-desktop-programs), as dicas de política aparecem quando uma ação dispara com uma política DLP. Veja um exemplo de uma dica de política:
 
 ![Notificação de mensagem bloqueada Teams](../media/dlp-teams-blockedmessage-notification.png)
 
-Nesse caso, o remetente tentou compartilhar um número de segurança social em um Microsoft Teams canal. O **link O que posso fazer?** abre uma caixa de diálogo que fornece opções para o remetente resolver o problema. Observe que, nesse caso, o remetente pode optar por substituir a política ou notificar um administrador para revisá-la e resolvê-la.
+Aqui, o remetente tentou compartilhar um número de segurança social em um Microsoft Teams canal. O **link O que posso fazer?** abre uma caixa de diálogo que fornece opções para o remetente resolver o problema. Observe que, o remetente pode optar por substituir a política ou notificar um administrador para revisá-la e resolvê-la.
 
 ![Opções para resolver mensagens bloqueadas](../media/dlp-teams-blockedmessage-possibleactions.png)
 
-Em sua organização, você pode optar por permitir que os usuários substituam uma política de DLP. E, ao configurar suas políticas de DLP, você pode usar as dicas de política padrão ou [personalizar dicas](#to-customize-policy-tips) de política para sua organização.
+Em sua organização, você pode optar por permitir que os usuários substituam uma política de DLP. Ao configurar suas políticas de DLP, você pode usar as dicas de política padrão ou [personalizar dicas de política](#to-customize-policy-tips) para sua organização.
 
 Retornando ao nosso exemplo, onde um remetente compartilhou um número de seguro social em um canal de Teams, veja o que o destinatário viu:
 
@@ -66,7 +92,7 @@ Retornando ao nosso exemplo, onde um remetente compartilhou um número de seguro
 
 Para executar essa tarefa, você deverá receber uma função que tenha permissões para editar as políticas DLP. Para saber mais, confira [permissões](data-loss-prevention-policies.md#permissions).
 
-1. Vá para o Centro de Conformidade & segurança ( [https://protection.office.com](https://protection.office.com) ) e entre.
+1. Vá para o Centro de Conformidade ( [https://compliance.microsoft.com](https://compliance.microsoft.com) ) e entre.
 
 2. Clique em **Prevenção contra perda de dados** > **Política**.
 
@@ -93,7 +119,7 @@ Permita aproximadamente uma hora para que suas alterações funcionem por meio d
 
 Para executar essa tarefa, você deverá receber uma função que tenha permissões para editar as políticas DLP. Para saber mais, confira [permissões](data-loss-prevention-policies.md#permissions).
 
-1. Vá para o Centro de Conformidade & segurança ( [https://protection.office.com](https://protection.office.com) ) e entre.
+1. Vá para o Centro de Conformidade ( [https://compliance.microsoft.com](https://compliance.microsoft.com) ) e entre.
 
 2. Clique em **Prevenção contra perda de dados** > **Política**.
 
@@ -124,7 +150,7 @@ Permita aproximadamente uma hora para que suas alterações funcionem por meio d
 
 Para executar essa tarefa, você deverá receber uma função que tenha permissões para editar as políticas DLP. Para saber mais, confira [permissões](data-loss-prevention-policies.md#permissions).
 
-1. Vá para o Centro de Conformidade & segurança ( [https://protection.office.com](https://protection.office.com) ) e entre.
+1. Vá para o Centro de Conformidade ( [https://compliance.microsoft.com](https://compliance.microsoft.com) ) e entre.
 
 2. Escolha **Prevenção contra perda de dados** > **Política** > **+ Criar uma política**.
 
@@ -148,9 +174,9 @@ Para executar essa tarefa, você deverá receber uma função que tenha permiss�
     > [!NOTE]
     > Se você quiser garantir que os documentos que contêm informações confidenciais não sejam compartilhados de forma inadequada no Teams, certifique-se de que os **sites** SharePoint e contas OneDrive **estão** ativas, juntamente com mensagens de chat e canal do Teams **.**
 
-6. Na guia **Configurações de** Política, em Personalizar o tipo de conteúdo que você deseja **proteger,** mantenha as configurações simples padrão ou escolha Usar configurações **avançadas** e escolha **Avançar**. Se você escolher configurações avançadas, poderá criar ou editar regras para sua política. (Para obter ajuda com isso, consulte [Configurações simples versus configurações avançadas](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings).)
+6. Na guia **Configurações de** Política, em Personalizar o tipo de conteúdo que você deseja **proteger,** mantenha as configurações simples padrão ou escolha Usar configurações **avançadas** e escolha **Avançar**. Se você escolher configurações avançadas, poderá criar ou editar regras para sua política. Para obter ajuda com isso, consulte [Configurações simples versus configurações avançadas](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings).
 
-7.  Na guia **Configurações de** Política, em O que você deseja fazer se detectarmos informações **confidenciais?**, revise as configurações. (Aqui é onde você pode optar por manter dicas de política padrão e [notificações de email](use-notifications-and-policy-tips.md)ou personalizá-las.)
+7.  Na guia **Configurações de** Política, em O que você deseja fazer se detectarmos informações **confidenciais?**, revise as configurações. Aqui é onde você pode optar por manter dicas de política padrão e notificações [de email](use-notifications-and-policy-tips.md)ou personalizá-las.
 
     > [!div class="mx-imgBorder"]
     > ![Configurações de política de DLP com dicas e notificações](../media/dlp-teams-policysettings-tipsemails.png)
@@ -205,6 +231,5 @@ Política de DLP em ação quando o convidado tenta abrir um documento em Teams 
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
-
-[Enviar notificações por email e mostrar dicas para políticas de DLP](use-notifications-and-policy-tips.md)
+- [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
+- [Enviar notificações por email e mostrar dicas para políticas de DLP](use-notifications-and-policy-tips.md)

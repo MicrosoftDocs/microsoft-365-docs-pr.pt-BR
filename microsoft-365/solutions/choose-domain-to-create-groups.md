@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 7cf5655d-e523-4bc3-a93b-3ccebf44a01a
 recommendations: false
 description: Aprenda a escolher o domínio a ser usado ao criar grupos Microsoft 365 configurando políticas de endereço de email usando o PowerShell.
-ms.openlocfilehash: a0142ea5f5aa088c4be79fc8699a616d9cdd9390
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 4d620c3344f83f56afd05c00d78615331dd413ed
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538214"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583143"
 ---
 # <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a>Escolha o domínio a ser usado ao criar Microsoft 365 grupos
 
@@ -119,10 +119,10 @@ Há mais algumas coisas a saber:
     
 - Um limite máximo de 100 políticas de endereço de email pode ser configurado para uma organização.
     
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Planejamento de governança de colaboração passo a passo](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[Planejamento de governança de colaboração passo a passo](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step) (artigo)
 
-[Criar seu plano de governança de colaboração](collaboration-governance-first.md)
+[Criar seu plano de governança de colaboração](collaboration-governance-first.md) (artigo)
 
-[Criar um Microsoft 365 no centro de administração](../admin/create-groups/create-groups.md)
+[Criar um Microsoft 365 no centro de administração](../admin/create-groups/create-groups.md) (artigo)

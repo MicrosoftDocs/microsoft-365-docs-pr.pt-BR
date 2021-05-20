@@ -1,6 +1,6 @@
 ---
 title: Tabela AADSpnSignInEventsBeta no esquema de busca avançado
-description: Saiba mais sobre informações associadas à entidade de serviço do Azure Active Directory e à tabela de eventos de login de identidade gerenciada do esquema de busca avançado
+description: Saiba mais sobre informações associadas à Azure Active Directory de serviço e à tabela de eventos de login de identidade gerenciada do esquema de busca avançado
 keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, AlertInfo, alerta, entidades, evidências, arquivo, endereço IP, dispositivo, máquina, usuário, conta, identidade, AAD
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 984e945107b6e0b41459659a7f2e9f649981e4b5
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f74972bcd5d0ddaab58d82b72a55991fda44e3b1
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932590"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583539"
 ---
 # <a name="aadspnsignineventsbeta"></a>AADSpnSignInEventsBeta
 
@@ -34,12 +34,11 @@ ms.locfileid: "51932590"
 - Microsoft 365 Defender
 
 >[!IMPORTANT]
-> A tabela está atualmente em beta e está sendo oferecida em curto prazo para permitir que você cace a entidade de serviço do `AADSpnSignInEventsBeta` Azure Active Directory (AAD) e os eventos de login de identidade gerenciada. Eventualmente, moveremos todas as informações de esquema de login para a `IdentityLogonEvents` tabela.<br><br>
-> Os clientes que podem acessar o Microsoft 365 Defender por meio da solução integrada do Microsoft Defender para Ponto de Extremidade do Azure Defender, mas não têm licenças para o Microsoft Defender para Office, o Microsoft Defender para Identidade ou o Microsoft Cloud App Security, não poderão exibir esse esquema. 
+> A tabela está atualmente em beta e está sendo oferecida em curto prazo para permitir que você cace a entidade de serviço Azure Active Directory (AAD) e os eventos de login de identidade `AADSpnSignInEventsBeta` gerenciada. Eventualmente, moveremos todas as informações de esquema de login para a `IdentityLogonEvents` tabela.
 
 
 
-A tabela no esquema de busca avançado contém informações sobre a entidade de serviço do `AADSpnSignInEventsBeta` Azure Active Directory e as insições de identidade gerenciada. Você pode saber mais sobre os diferentes tipos de logins nos relatórios de atividade de login do [Azure Active Directory - visualização](/azure/active-directory/reports-monitoring/concept-all-sign-ins).
+A tabela no esquema de busca avançado contém informações sobre Azure Active Directory entidade de serviço e logins de identidade `AADSpnSignInEventsBeta` gerenciada. Você pode saber mais sobre os diferentes tipos de logins em Azure Active Directory relatórios de atividade de login [- visualização](/azure/active-directory/reports-monitoring/concept-all-sign-ins).
 
 Use esta referência para criar consultas quer retiram informações desta tabela.
 

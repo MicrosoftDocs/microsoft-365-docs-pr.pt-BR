@@ -1,6 +1,6 @@
 ---
 title: Tabela AADSignInEventsBeta no esquema de busca avançado
-description: Saiba mais sobre informações associadas à tabela de eventos de login do Azure Active Directory do esquema de busca avançado
+description: Saiba mais sobre informações associadas Azure Active Directory tabela de eventos de login do esquema de busca avançado
 keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, arquivo, endereço IP, dispositivo, máquina, usuário, conta, identidade, AAD
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 93735ee3bf8d9b95ab320c2bc158d6ebfe27186c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 704752951c453a3fe872b814e7364ef1699226bf
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932602"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582975"
 ---
 # <a name="aadsignineventsbeta"></a>AADSignInEventsBeta
 
@@ -34,12 +34,11 @@ ms.locfileid: "51932602"
 - Microsoft 365 Defender
 
 >[!IMPORTANT]
-> A tabela está atualmente em beta e está sendo oferecida em curto prazo para permitir que você cace os eventos de logom do `AADSignInEventsBeta` Azure Active Directory (AAD). Eventualmente, moveremos todas as informações de esquema de login para a `IdentityLogonEvents` tabela.<br><br>
-> Os clientes que podem acessar o Microsoft 365 Defender por meio da solução integrada do Microsoft Defender para Ponto de Extremidade do Azure Defender, mas não têm licenças para o Microsoft Defender para Office, o Microsoft Defender para Identidade ou o Microsoft Cloud App Security, não poderão exibir esse esquema. 
+> A tabela está atualmente em beta e está sendo oferecida em curto prazo para permitir que você cace os eventos de Azure Active Directory `AADSignInEventsBeta` (AAD). Eventualmente, moveremos todas as informações de esquema de login para a `IdentityLogonEvents` tabela.
 
  
 
-A tabela no esquema de busca avançado contém informações sobre as inspeções interativas e não interativas do `AADSignInEventsBeta` Azure Active Directory. Saiba mais sobre as inscrições nos relatórios de atividade de login do [Azure Active Directory - visualização](/azure/active-directory/reports-monitoring/concept-all-sign-ins).
+A tabela no esquema de busca avançada contém informações sobre Azure Active Directory de `AADSignInEventsBeta` logins interativos e não interativos. Saiba mais sobre entrar em Azure Active Directory relatórios de atividade de login [- visualização](/azure/active-directory/reports-monitoring/concept-all-sign-ins).
 
 Use esta referência para criar consultas quer retiram informações desta tabela.
 Para obter informações sobre outras tabelas no esquema de busca avançada, confira [a referência de busca avançada](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-reference).
@@ -75,7 +74,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, con
 | `IsCompliant`                     | int       | Indica se o dispositivo que iniciou a entrada é compatível (1) ou não compatível (0)                                                                                       |
 | `AuthenticationProcessingDetails` | cadeia de caracteres        | Detalhes sobre o processador de autenticação                                                                                                                                          |
 | `AuthenticationRequirement`       | cadeia de caracteres        | Tipo de autenticação necessário para a assinatura. Valores possíveis: multiFactorAuthentication (MFA foi necessário) e singleFactorAuthentication (nenhum MFA foi necessário).                |
-| `TokenIssuerType`                 | int        | Indica se o emissor de token é o Azure Active Directory (0) ou os Serviços de Federação do Active Directory (1)                                                                             |
+| `TokenIssuerType`                 | int        | Indica se o emissor de token é Azure Active Directory (0) ou Serviços de Federação do Active Directory (1)                                                                             |
 | `RiskLevelAggregated`                       | int        | Nível de risco agregado durante a assinatura. Valores possíveis: 0 (nível de risco agregado não definido), 1 (nenhum), 10 (baixo), 50 (médio) ou 100 (alto).                               |
 | `RiskDetails`                      | int        | Detalhes sobre o estado de risco do usuário que se inscreveu                                                                                                                            |
 | `RiskState`                       | int        | Indica o estado de usuário arriscado. Valores possíveis: 0 (nenhum), 1 (seguro confirmado), 2 (remediado), 3 (ignorado), 4 (em risco) ou 5 (confirmado comprometido).                                |

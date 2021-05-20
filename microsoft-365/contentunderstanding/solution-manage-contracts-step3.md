@@ -6,18 +6,18 @@ manager: pamgreen
 ms.reviewer: ssquires
 audience: admin
 ms.topic: article
-ms.date: 05/10/2021
+ms.date: 05/19/2021
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como usar o Power Automate para criar seu fluxo para processar seus contratos usando uma solução Microsoft 365.
-ms.openlocfilehash: d9892110d6aebd3eaae6fbc21d453b7eb14d7f7e
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 54e92f36b19cefde92111cdbc960fad7715cf8b0
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281064"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583095"
 ---
 # <a name="step-3-use-power-automate-to-create-your-flow-to-process-your-contracts"></a>Etapa 3. Use Power Automate para criar seu fluxo para processar seus contratos
 
@@ -36,11 +36,11 @@ O diagrama a seguir mostra o fluxo Power Automate para a solução de gerenciame
 
 ## <a name="prepare-your-contract-for-review"></a>Preparar seu contrato para revisão
 
-Quando um contrato é identificado e classificado pelo SharePoint de entendimento do documento Syntex, o fluxo de Power Automate primeiro alterará o status para "Em revisão".
+Quando um contrato é identificado e classificado pelo seu modelo de SharePoint de entendimento do documento Syntex, o fluxo de Power Automate primeiro alterará o status para **Em revisão**.
 
 ![Status da atualização.](../media/content-understanding/flow-overview.png)
 
-Depois de fazer check-out do arquivo, altere o valor de status para "Em revisão".
+Depois de fazer check-out do arquivo, altere o valor de status para **Em revisão**.
 
 ![Em status de revisão.](../media/content-understanding/in-review.png)
 
@@ -141,7 +141,7 @@ Quando um contrato é aprovado, ocorrem as seguintes coisas:
 
    ![Status do cartão aprovado.](../media/content-understanding/approved-contracts-tab.png)
 
-- Em seu fluxo, o status é alterado para "Aprovado".
+- Em seu fluxo, o status é alterado para **Aprovado**.
 
    ![Flow status aprovado.](../media/content-understanding/status-approved.png)
 

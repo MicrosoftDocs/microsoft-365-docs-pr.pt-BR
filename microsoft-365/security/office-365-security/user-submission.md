@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender a configurar uma caixa de correio para coletar emails de spam e phishing relatados pelos usuários.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 321e27f22295a4da17d0eb37b477a1dc7b779d38
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: a23f27478d01092705a47d49884f200478348182
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644759"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583707"
 ---
 # <a name="user-submissions-policy"></a>Política de envios de usuários
 
@@ -33,18 +33,18 @@ ms.locfileid: "51644759"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Em organizações do Microsoft 365 com caixas de correio do Exchange Online, você pode especificar uma caixa de correio para receber mensagens que os usuários relatam como mal-intencionadas ou não mal-intencionadas. Quando os usuários enviam mensagens usando as várias opções de relatório, você pode usar essa caixa de correio para interceptar mensagens (enviar somente para a caixa de correio personalizada) ou receber cópias de mensagens (enviar para a caixa de correio personalizada e a Microsoft). Esse recurso funciona com as seguintes opções de relatório de mensagens:
+Em Microsoft 365 com caixas de correio Exchange Online, você pode especificar uma caixa de correio para receber mensagens que os usuários relatam como mal-intencionadas ou não mal-intencionadas. Quando os usuários enviam mensagens usando as várias opções de relatório, você pode usar essa caixa de correio para interceptar mensagens (enviar somente para a caixa de correio personalizada) ou receber cópias de mensagens (enviar para a caixa de correio personalizada e a Microsoft). Esse recurso funciona com as seguintes opções de relatório de mensagens:
 
 - [O complemento Mensagem de Relatório](enable-the-report-message-add-in.md)
 
 - [O add-in De relatório phishing](enable-the-report-phish-add-in.md)
 
-- [Relatórios integrados no Outlook na Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md) (anteriormente conhecido como Outlook Web App)
+- [Relatórios integrados em Outlook na Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md) (anteriormente conhecido como Outlook Web App)
 
-- [Relatórios integrados no Outlook para iOS e Android](report-junk-email-and-phishing-scams-in-outlook-for-iOS-and-Android.md)
+- [Relatórios integrados em Outlook para iOS e Android](report-junk-email-and-phishing-scams-in-outlook-for-iOS-and-Android.md)
 
   > [!NOTE]
-  > Se o relatório tiver sido desabilitado no Outlook na [Web,](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web)habilitar envios de usuários aqui substituirá essa configuração e permitirá que os usuários reportem mensagens no Outlook na Web novamente.
+  > Se o relatório tiver sido desabilitado Outlook na [Web,](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web)habilitar envios de usuários aqui substituirá essa configuração e permitirá que os usuários reportem mensagens Outlook na Web novamente.
 
 Você também pode configurar ferramentas de relatório de mensagens de terceiros para encaminhar mensagens para a caixa de correio especificada.
 
@@ -54,36 +54,36 @@ A entrega de mensagens relatadas pelo usuário a uma caixa de correio personaliz
 
 Use os seguintes artigos para configurar os pré-requisitos necessários para que as mensagens relatadas pelo usuário acessem sua caixa de correio personalizada:
 
-- Ignore a filtragem de spam na caixa de correio personalizada criando uma regra de fluxo de emails do exchange para definir o nível de confiança de spam. Consulte [Usar o EAC para criar uma regra](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message) de fluxo de emails que define a SCL de uma mensagem para definir o SCL como **-1**.
+- Ignore a filtragem de spam na caixa de correio personalizada criando uma regra de fluxo de emails do exchange para definir o nível de confiança de spam. Consulte [Usar o EAC para criar uma regra](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message) de fluxo de emails que define o SCL de uma mensagem para definir o SCL como Ignorar a **filtragem de spam**.
 
-- Desativar anexos de verificação de malware na caixa de correio personalizada. Use Configurar políticas de Anexos Seguros no [Defender para Office 365](set-up-safe-attachments-policies.md) para criar uma política de Anexos Seguros com a configuração **Off** for **Safe Attachments unknown malware response**.
+- Desativar anexos de verificação de malware na caixa de correio personalizada. Use [Configurar políticas de Cofre Anexos](set-up-safe-attachments-policies.md) no Defender para Office 365 para criar uma política  de anexos Cofre com a configuração Off para Cofre **Anexos resposta** de malware desconhecida .
 
-- Desativar a verificação de URL em mensagens na caixa de correio personalizada. Use Configurar políticas de Links Seguros no [Defender para Office 365](set-up-safe-links-policies.md) para criar uma política de Links Seguros com a configuração Off para Selecionar a ação para URLs potencialmente **mal-intencionadas desconhecidas** em mensagens. 
+- Desativar a verificação de URL em mensagens na caixa de correio personalizada. Use [Configurar políticas Cofre links](set-up-safe-links-policies.md) no Defender para Office 365 para criar uma política  de links Cofre com a configuração Off para Selecionar a ação para **URLs** potencialmente mal-intencionadas desconhecidas em mensagens .
 
 - Crie uma política anti-malware para desativar o Malware Zero-hour Auto Purge. Consulte Usar o Centro de Conformidade & segurança para criar políticas [anti-malware](configure-your-spam-filter-policies.md#use-the-security--compliance-center-to-create-anti-spam-policies) para definir a Limpeza **Automática de Hora Zero** de Malware como **Desligada.**
 
 - Crie uma política de filtro de spam para desabilitar a limpeza automática de hora zero (ZAP) para spam e phishing na caixa de correio personalizada. Consulte Usar o Centro de Conformidade & segurança para  criar políticas [anti-spam](configure-your-spam-filter-policies.md#use-the-security--compliance-center-to-create-anti-spam-policies) e limpar as caixas de seleção On para **SPAM ZAP** e **Phish ZAP**.
 
-- Desabilite a regra de lixo eletrônico na caixa de correio personalizada. Use [Configurar configurações de lixo eletrônico em caixas de correio do Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md) para desabilitar a regra de lixo eletrônico. Depois de desabilitado, o EOP não pode mover mensagens para a pasta Lixo Eletrônico com base na ação de veredito de filtragem de spam **Mover** mensagem para a pasta Lixo Eletrônico ou o conjunto de listas seguras na caixa de correio.
+- Desabilite a regra de lixo eletrônico na caixa de correio personalizada. Use [Configure junk email settings on Exchange Online mailboxes](configure-junk-email-settings-on-exo-mailboxes.md) to disable the junk email rule. Depois de desabilitado, o EOP não pode mover mensagens para a pasta Lixo Eletrônico com base na ação de veredito de filtragem de spam **Mover** mensagem para a pasta Lixo Eletrônico ou o conjunto de listas seguras na caixa de correio.
 
 Depois de verificar se sua caixa de correio atende a todos os pré-requisitos aplicáveis, & use o Centro de Conformidade e Segurança para configurar a caixa de correio de [envios](#use-the-security--compliance-center-to-configure-the-user-submissions-mailbox) do usuário (neste artigo).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a **página Envios de** usuário, use <https://protection.office.com/userSubmissionsReportMessage> .
+- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a **página Envios de** usuário, use <https://protection.office.com/userSubmissionsReportMessage> .
 
 - Para modificar a configuração para envios do usuário, você precisa ser membro de um dos seguintes grupos de função:
 
   - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
-  - **Gerenciamento de organização** no [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).
+  - **Gerenciamento de organização** em [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).
 
-- Você precisa acessar o PowerShell do Exchange Online. Se a conta que você está tentando usar não tiver acesso ao PowerShell do Exchange Online, você receberá um erro com esta aparência ao especificar a caixa de correio de envios:
+- Você precisa acessar o Exchange Online PowerShell. Se a conta que você está tentando usar não tiver acesso ao Exchange Online PowerShell, você receberá um erro com esta aparência ao especificar a caixa de correio de envios:
 
   > Especificar um endereço de email em seu domínio
 
-  Para obter mais informações sobre a habilitação ou desabilitação do acesso ao PowerShell do Exchange Online, consulte os seguintes tópicos:
+  Para obter mais informações sobre a habilitação ou desabilitação do acesso ao Exchange Online PowerShell, consulte os seguintes tópicos:
 
-  - [Habilitar ou desabilitar o acesso ao PowerShell do Exchange Online](/powershell/exchange/disable-access-to-exchange-online-powershell) 
+  - [Habilitar ou desabilitar o acesso Exchange Online PowerShell](/powershell/exchange/disable-access-to-exchange-online-powershell) 
   - [Regras de Acesso para Cliente no Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
 
 ## <a name="use-the-security--compliance-center-to-configure-the-user-submissions-mailbox"></a>Use o Centro de Conformidade & segurança para configurar a caixa de correio de envios do usuário
@@ -92,7 +92,7 @@ Depois de verificar se sua caixa de correio atende a todos os pré-requisitos ap
 
 2. Na página **Envios de** usuário exibida, selecione uma das seguintes opções:
 
-      1. Habilita o recurso Mensagem de Relatório para **o Outlook (Recomendado)**: Selecione essa opção se você usar o complemento Mensagem de Relatório, o complemento De relatório phishing ou o relatório integrado no Outlook na Web e, em seguida, configurar as seguintes configurações:
+      1. Habilitar o recurso Mensagem de Relatório para **Outlook (Recomendado)**: Selecione essa opção se você usar o complemento De Mensagem de Relatório, o add-in Relatório phishing ou o relatório integrado no Outlook na Web e, em seguida, configure as seguintes configurações:
 
     - **Personalizar a mensagem de confirmação do usuário final**: clique neste link. No flyout **Personalizar mensagem de** confirmação exibida, configure as seguintes configurações:
 
@@ -119,12 +119,12 @@ Depois de verificar se sua caixa de correio atende a todos os pré-requisitos ap
 
         - **Microsoft (Recomendado)**: A caixa de correio de envios do usuário não é usada (todas as mensagens relatadas vão para a Microsoft).
 
-        - **Microsoft e uma caixa de correio personalizada**: na caixa exibida, insira o endereço de email de uma caixa de correio existente do Exchange Online. Grupos de distribuição não são permitidos. Os envios do usuário irão para a Microsoft para análise e para a caixa de correio personalizada para sua equipe de operações de segurança ou administrador analisar.
+        - **Microsoft e uma caixa de correio personalizada:** na caixa exibida, insira o endereço de email de uma caixa de correio Exchange Online existente. Grupos de distribuição não são permitidos. Os envios do usuário irão para a Microsoft para análise e para a caixa de correio personalizada para sua equipe de operações de segurança ou administrador analisar.
 
-        - **Caixa de correio personalizada somente**: na caixa exibida, insira o endereço de email de uma caixa de correio existente do Exchange Online. Grupos de distribuição não são permitidos. Use essa opção se quiser que a mensagem vá apenas para um administrador ou a equipe de operações de segurança para análise primeiro. As mensagens não serão enviadas para a Microsoft, a menos que o administrador as encaminhe por conta própria.
+        - **Caixa de correio personalizada somente**: na caixa exibida, insira o endereço de email de uma caixa de correio Exchange Online existente. Grupos de distribuição não são permitidos. Use essa opção se quiser que a mensagem vá apenas para um administrador ou a equipe de operações de segurança para análise primeiro. As mensagens não serão enviadas para a Microsoft, a menos que o administrador as encaminhe por conta própria.
 
           > [!NOTE]
-          > As organizações governamentais dos EUA (GCC, GCC-H e DoD) só podem configurar a **caixa de correio personalizada**. As outras duas opções estão desabilitadas.
+          > As organizações governamentais dos EUA (GCC, GCC-H e DoD) só podem configurar **a caixa de correio personalizada**. As outras duas opções estão desabilitadas.
 
           > [!NOTE]
           > Se as organizações estão configuradas para enviar somente para a caixa de correio personalizada, as mensagens relatadas não serão enviadas para análise novamente e os resultados no portal de mensagens relatadas pelo usuário sempre estarão vazios.
@@ -135,9 +135,9 @@ Depois de verificar se sua caixa de correio atende a todos os pré-requisitos ap
       > Se você desabilitou o relatório de lixo eletrônico no Outlook na [Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) usando o Outlook nas políticas de caixa de correio da Web, mas configurou uma das configurações anteriores para relatar mensagens à Microsoft, os usuários poderão relatar mensagens à Microsoft no Outlook na Web usando o complemento Mensagem de Relatório ou o complemento Relatar Phishing.
 
 
-    2. Desabilite o recurso Mensagem de Relatório do **Outlook**: selecione essa opção se você usar ferramentas de relatório de terceiros em vez do complemento De mensagem de relatório, do complemento De relatório phishing ou do relatório integrado no Outlook na Web e, em seguida, configure as seguintes configurações:
+    2. Desabilitar o recurso Mensagem de Relatório para **Outlook:** selecione essa opção se você usar ferramentas de relatório de terceiros em vez do complemento De mensagem de relatório, do complemento Relatar Phishing ou do relatório integrado no Outlook na Web e, em seguida, configurar as seguintes configurações:
 
-       Selecione **Usar essa caixa de correio personalizada para receber envios relatados pelo usuário.** Na caixa exibida, insira o endereço de email de uma caixa de correio existente que já está no Office 365. Deve ser uma caixa de correio existente no Exchange Online que pode receber emails.
+       Selecione **Usar essa caixa de correio personalizada para receber envios relatados pelo usuário.** Na caixa exibida, insira o endereço de email de uma caixa de correio existente que já está Office 365. Deve ser uma caixa de correio existente no Exchange Online que possa receber emails.
 
        Quando terminar, clique em **Confirmar**.
 

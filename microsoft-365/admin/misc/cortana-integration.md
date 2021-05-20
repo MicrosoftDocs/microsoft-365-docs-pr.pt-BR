@@ -18,13 +18,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
-description: Quando entrar com contas corporativas ou de estudante válidas, os usuários podem obter serviços de assistência baseados em nuvem com a Cortana em experiências Microsoft 365 que atendem às promessas de privacidade, segurança e conformidade no nível empresarial do Office 365.
-ms.openlocfilehash: dd00972f6e84f5d430ad860ea9cbf637bd7c790f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Os usuários com contas corporativas ou de estudante válidas podem obter a Cortana em Microsoft 365 experiências que atendem Office 365 promessas de segurança no nível empresarial.
+ms.openlocfilehash: aad371fc531a03f42e1756a41405082b6b528b06
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537458"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582771"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana no Microsoft 365
 
@@ -183,3 +183,12 @@ Desativar o acesso da Cortana aos dados hospedados pela Microsoft da sua organiz
 3. Selecione **Salvar alterações**.
 
 Para serviços regidos pelo [Contrato de Serviços Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=2109174) e Pela Declaração de Privacidade da [Microsoft,](https://privacy.microsoft.com/privacystatement)a Microsoft é o controlador de dados. Como controlador de dados, a Microsoft usa dados para melhorar produtos e serviços de acordo com a [Política de Privacidade da Microsoft.](https://privacy.microsoft.com/privacystatement)
+
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Assistência de voz da Cortana Teams](/microsoftteams/cortana-in-teams) (artigo)
+
+[Configurar a Cortana Windows 10](/windows/configuration/cortana-at-work/cortana-at-work-overview) (artigo)
+
+[O que você pode fazer com o Play My Emails da Cortana?](https://support.microsoft.com/help/4558256)

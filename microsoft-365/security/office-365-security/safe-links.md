@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: Neste artigo, os administradores podem aprender sobre a proteção Cofre Links no Defender para Office 365 proteger sua organização contra phishing e outros ataques que usam URLs mal-intencionadas.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c93ed2ec46cd0fd82ae1808ff7cfdb4a4f758117
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 573fd5b92400996fa595b5953028e20fcecec976
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246496"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583575"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Cofre Links no Microsoft Defender para Office 365
 
@@ -52,6 +52,9 @@ Cofre A proteção de links está disponível nos seguintes locais:
 - **Mensagens de** email : Cofre proteção de links para links em mensagens de email é controlada por políticas Cofre Links. Não há nenhuma política de links padrão Cofre, portanto, para obter a proteção de links Cofre em mensagens de email, você precisa criar uma ou mais políticas Cofre **Links.** Para obter instruções, [consulte Set up Cofre Links policies in Microsoft Defender for Office 365](set-up-safe-links-policies.md).
 
   Para obter mais informações sobre Cofre de links para mensagens de email, consulte [Cofre configurações](#safe-links-settings-for-email-messages) de links para mensagens de email mais adiante neste artigo.
+  
+  > [!NOTE]
+  > Links de venda não funcionam em pastas públicas habilitadas para email.
 
 - **Microsoft Teams** (atualmente no TAP Preview): a proteção de links Cofre links para links em conversas de Teams, chats de grupo ou de canais também é controlada por políticas Cofre Links. Não há nenhuma política Cofre links padrão, portanto, para obter a proteção de links Cofre **no Teams, você** precisa criar uma ou mais políticas Cofre Links.
 
@@ -107,9 +110,7 @@ As configurações em Cofre políticas de links que se aplicam a mensagens de em
   - URLs que não têm uma reputação válida são detonadas de forma assíncrona em segundo plano.
 
 - **Aplicar verificação de URL** em tempo real para links suspeitos e links que apontam para arquivos : Permite a verificação em tempo real de links, incluindo links em mensagens de email que apontam para conteúdo baixável. O valor recomendado está habilitado.
-
   - **Aguarde a conclusão da verificação de URL antes de entregar a mensagem**:
-
     - Habilitado: as mensagens que contêm URLs são mantidas até que a verificação seja concluída. As mensagens são entregues somente depois que as URLs são confirmadas como seguras. Esse é o valor recomendado.
     - Desabilitado: se a verificação de URL não puder ser concluída, entregue a mensagem de qualquer maneira.
 
@@ -128,7 +129,6 @@ As configurações em Cofre políticas de links que se aplicam a mensagens de em
   Para obter mais informações sobre os valores recomendados para configurações de política padrão e estritas para políticas Cofre Links, consulte [Cofre Configurações de](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)política links.
 
 - **Filtros de** destinatário : Você precisa especificar as condições e exceções de destinatário que determinam a quem a política se aplica. Você pode usar essas propriedades para condições e exceções:
-
   - **O destinatário é**
   - **O domínio do destinatário é**
   - **O destinatário é um membro de**
@@ -138,7 +138,7 @@ As configurações em Cofre políticas de links que se aplicam a mensagens de em
 - **Prioridade**: se você criar várias políticas, poderá especificar a ordem em que elas são aplicadas. Duas políticas não podem ter a mesma prioridade, e o processamento da política será interrompido após a primeira política ser aplicada.
 
   Para obter mais informações sobre a ordem de precedência e como várias políticas são avaliadas e aplicadas, confira [Ordem e precedência da proteção de email](how-policies-and-protections-are-combined.md).
-
+  
 ### <a name="how-safe-links-works-in-email-messages"></a>Como Cofre links funciona em mensagens de email
 
 Em um nível alto, veja como a proteção Cofre Links funciona em URLs em mensagens de email:
@@ -259,26 +259,23 @@ Quando um usuário em uma política Cofre Links clica em um link bloqueado em um
 
 Você configura a lista de URLs nas configurações globais para Cofre Links. Para obter instruções, [consulte Configure the "Block the following URLs" list](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security--compliance-center).
 
-> [!NOTE]
-> 
-> - Para uma lista verdadeiramente universal de URLs bloqueadas em todos os lugares, consulte [Manage the Tenant Allow/Block List](tenant-allow-block-list.md).
-> 
-> - Limites:
->   - O número máximo de entradas é 500.
->   - O comprimento máximo de uma entrada é de 128 caracteres.
->   - Todas as entradas não podem exceder 10.000 caracteres.
-> 
-> - Não inclua uma barra de avanço ( `/` ) no final da URL. Por exemplo, use `https://www.contoso.com` , não `https://www.contoso.com/` .
-> 
-> - Uma URL somente de domínio (por `contoso.com` exemplo ou `tailspintoys.com` ) bloqueará qualquer URL que contenha o domínio.
-> 
-> - Você pode bloquear um subdomínio sem bloquear o domínio completo. Por exemplo, bloqueia qualquer URL que contenha o subdomínio, mas não bloqueia `toys.contoso.com*` URLs que contenham o domínio completo `contoso.com` .
-> 
-> - Você pode incluir até três caracteres curinga ( `*` ) por entrada de URL.
+**Observações**:
+
+- Para uma lista verdadeiramente universal de URLs bloqueadas em todos os lugares, consulte [Manage the Tenant Allow/Block List](tenant-allow-block-list.md).
+- Limites para a **lista Bloquear as URLs** a seguir:
+  - O número máximo de entradas é 500.
+  - O comprimento máximo de uma entrada é de 128 caracteres.
+  - Todas as entradas não podem exceder 10.000 caracteres.
+- Não inclua uma barra de avanço ( `/` ) no final da URL. Por exemplo, use `https://www.contoso.com` , não `https://www.contoso.com/` .
+- Uma URL somente de domínio (por `contoso.com` exemplo ou `tailspintoys.com` ) bloqueará qualquer URL que contenha o domínio.
+- Você pode bloquear um subdomínio sem bloquear o domínio completo. Por exemplo, bloqueia qualquer URL que contenha o subdomínio, mas não bloqueia `toys.contoso.com*` URLs que contenham o domínio completo `contoso.com` .
+- Você pode incluir até três caracteres curinga ( `*` ) por entrada de URL.
 
 ### <a name="entry-syntax-for-the-block-the-following-urls-list"></a>Sintaxe de entrada para a lista "Bloquear as URLs a seguir"
 
 Exemplos dos valores que você pode inserir e seus resultados são descritos na tabela a seguir:
+
+<br>
 
 ****
 
@@ -299,24 +296,24 @@ Cada Cofre de links contém uma lista Não reescrever a lista de **URLs** a segu
 
 Para adicionar entradas à lista em políticas Cofre Links novas ou existentes, consulte [Create Cofre Links policies](set-up-safe-links-policies.md#use-the-security--compliance-center-to-create-safe-links-policies) ou Modify Cofre Links [policies](set-up-safe-links-policies.md#use-the-security--compliance-center-to-modify-safe-links-policies).
 
-> [!NOTE]
-> 
-> - Os clientes a seguir não reconhecem as listas Não reescrever **as URLs** a seguir nas políticas Cofre Links. Os usuários incluídos nas polícias podem ser impedidos de acessar as URLs com base nos resultados Cofre verificação de links nesses clientes:
-> 
->   - Microsoft Teams
->   - Office Web
-> 
->   Para uma lista verdadeiramente universal de URLs permitidas em todos os lugares, consulte [Manage the Tenant Allow/Block List](tenant-allow-block-list.md).
-> 
-> - Considere adicionar URLs internas comumente usadas à lista para melhorar a experiência do usuário. Por exemplo, se você tiver serviços locais, como Skype for Business ou SharePoint, poderá adicionar essas URLs para exclui-las da verificação.
-> 
-> - Se você já tiver Não reescreve as seguintes entradas **URLs** em suas políticas Cofre Links, revise as listas e adicione caracteres curinga conforme necessário. Por exemplo, sua lista tem uma entrada como e você decide incluir `https://contoso.com/a` subcaminho como `https://contoso.com/a/b` . Em vez de adicionar uma nova entrada, adicione um caractere curinga à entrada existente para que ela se torne `https://contoso.com/a/*` .
-> 
-> - Você pode incluir até três caracteres curinga ( `*` ) por entrada de URL. Caracteres curinga incluem explicitamente prefixos ou subdomas. Por exemplo, a entrada não é igual a , porque permite que as pessoas `contoso.com` `*.contoso.com/*` `*.contoso.com/*` visitem subdomas e caminhos no domínio especificado.
+**Observações**:
+
+- Os clientes a seguir não reconhecem as listas Não reescrever **as URLs** a seguir nas políticas Cofre Links. Os usuários incluídos nas polícias podem ser impedidos de acessar as URLs com base nos resultados Cofre verificação de links nesses clientes:
+  - Microsoft Teams
+  - Office Web
+
+  Para uma lista verdadeiramente universal de URLs permitidas em todos os lugares, consulte [Manage the Tenant Allow/Block List](tenant-allow-block-list.md).
+
+- Considere adicionar URLs internas comumente usadas à lista para melhorar a experiência do usuário. Por exemplo, se você tiver serviços locais, como Skype for Business ou SharePoint, poderá adicionar essas URLs para exclui-las da verificação.
+- Se você já tiver Não reescreve as seguintes entradas **URLs** em suas políticas Cofre Links, revise as listas e adicione caracteres curinga conforme necessário. Por exemplo, sua lista tem uma entrada como e você decide incluir `https://contoso.com/a` subcaminho como `https://contoso.com/a/b` . Em vez de adicionar uma nova entrada, adicione um caractere curinga à entrada existente para que ela se torne `https://contoso.com/a/*` .
+- Você pode incluir até três caracteres curinga ( `*` ) por entrada de URL. Caracteres curinga incluem explicitamente prefixos ou subdomas. Por exemplo, a entrada não é igual a , porque permite que as pessoas `contoso.com` `*.contoso.com/*` `*.contoso.com/*` visitem subdomas e caminhos no domínio especificado.
+- Se uma URL usa redirecionamento automático para HTTP para HTTPs (por exemplo, redirecionamento 302 para ), e você tenta inserir entradas HTTP e HTTPS para a mesma URL da lista, você pode notar que a segunda entrada de URL substitui a primeira entrada `http://www.contoso.com` `https://www.contoso.com` de URL. Esse comportamento não ocorrerá se as versões HTTP e HTTPS da URL estão completamente separadas.
 
 ### <a name="entry-syntax-for-the-do-not-rewrite-the-following-urls-list"></a>Sintaxe de entrada para a lista "Não reescrever as URLs a seguir"
 
 Exemplos dos valores que você pode inserir e seus resultados são descritos na tabela a seguir:
+
+<br>
 
 ****
 

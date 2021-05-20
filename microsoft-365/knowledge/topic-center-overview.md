@@ -14,16 +14,16 @@ ms.collection:
 - m365initiative-viva-topics
 ROBOTS: ''
 localization_priority: None
-ms.openlocfilehash: 2e7152530dc3221eb3ab01047416993178193732
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 073c14f84f4858a1853da062bf87ae9e78c05cbd
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333813"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583587"
 ---
 # <a name="topic-center-overview-in-microsoft-viva-topics"></a>Visão geral do centro de tópicos em Tópicos do Microsoft Viva
 
-Em Tópicos do Microsoft Viva, o centro de tópicos é um site moderno do SharePoint que serve como um centro de conhecimento para sua organização. Ele é criado durante a instalação [de Tópicos do Viva](set-up-topic-experiences.md) no Centro de administração do Microsoft 365.
+Em Tópicos do Microsoft Viva, o centro de tópicos é um site SharePoint moderno que serve como um centro de conhecimento para sua organização. Ele é criado durante a instalação [de Tópicos do Viva](set-up-topic-experiences.md) no centro de Microsoft 365 de administração.
 
 O centro de tópicos tem uma home page padrão com a Web Part **Tópicos** onde todos os usuários licenciados podem ver os tópicos aos quais eles têm uma conexão. 
 
@@ -34,12 +34,12 @@ Embora todos os usuários licenciados que possam exibir tópicos tenham acesso �
 O centro de tópicos é criado durante a instalação de Tópicos do Viva. Após a conclusão da instalação, um administrador pode encontrar a URL na página [Gerenciamento do Centro de Tópicos.](./topic-experiences-administration.md#to-access-topics-management-settings)
 
 
-1. No Centro de administração do Microsoft 365, selecione **Configurações** e, em seguida, selecione **Configurações de organização**.
+1. No centro Microsoft 365 de administração, selecione **Configurações** e, em seguida, selecione **Configurações de organização**.
 2. Na guia **Serviços,** selecione **Experiências de Tópico**.
 
-    ![Conectar pessoas ao conhecimento](../media/admin-org-knowledge-options-completed.png) 
+    ![Conexão pessoas para conhecimento](../media/admin-org-knowledge-options-completed.png) 
 
-3. Selecione a **guia Central de** tópicos. Em **Endereço do site** é um link para a central de tópicos.
+3. Selecione a **guia Central de** tópicos. Em **Endereço do site** é um link para o centro de tópicos.
 
     ![knowledge-network-settings](../media/knowledge-network-settings-topic-center.png) 
 
@@ -69,7 +69,7 @@ Depois que um usuário confirmar sua conexão com um tópico, o usuário poderá
 
 ## <a name="manage-topics-page"></a>Gerenciar página de tópicos
 
-Para trabalhar na página **Gerenciar tópicos** do centro de tópicos, você precisa ter as permissões necessárias Gerenciar tópicos necessários para a função de gerente de conhecimento. O administrador pode atribuir essas permissões aos usuários durante a configuração de gerenciamento de conhecimento [ou](set-up-topic-experiences.md)novos usuários podem ser [adicionados](topic-experiences-knowledge-rules.md) posteriormente por um administrador por meio do Centro de administração do Microsoft 365.
+Para trabalhar na página **Gerenciar tópicos** do centro de tópicos, você precisa ter as permissões necessárias Gerenciar tópicos necessários para a função de gerente de conhecimento. O administrador pode atribuir essas permissões aos usuários durante a configuração de gerenciamento de conhecimento [ou](set-up-topic-experiences.md)novos usuários podem ser [adicionados](topic-experiences-knowledge-rules.md) posteriormente por um administrador por meio do Microsoft 365 de administração.
 
 Na página **Gerenciar tópicos,** o painel de tópicos mostra todos os tópicos aos que você tem acesso, que foram identificados de seus locais de origem especificados. Cada tópico mostrará a data em que o tópico foi descoberto. Um usuário que foi atribuído Gerenciar permissões de tópicos pode revisar os tópicos não confirmados e optar por:
 
@@ -79,7 +79,7 @@ Na página **Gerenciar tópicos,** o painel de tópicos mostra todos os tópicos
  
 - Remova o tópico: torna o tópico indiscoverable para os usuários finais. O tópico é movido para a guia **Removido** e pode ser confirmado posteriormente, se necessário. 
 
-Para obter mais informações sobre como gerenciar tópicos na página **Gerenciar tópicos, consulte [Gerenciar tópicos](manage-topics.md).
+Para obter mais informações sobre como gerenciar tópicos na página **Gerenciar tópicos,** consulte [Gerenciar tópicos](manage-topics.md).
 
 ## <a name="create-or-edit-a-topic"></a>Criar ou editar um tópico
 

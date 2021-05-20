@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: dcae50150eb3b21e65e68a5cea376a0cdef31a65
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 3df8fbf20fd00bd584af2fd329949939433a19eb
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538442"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583479"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -311,6 +311,7 @@ Os filtros de conformidade de comunicação permitem filtrar e classificar mensa
 | **Tamanho** | O tamanho da mensagem em KB. |
 | **Assunto/Título** | O assunto da mensagem ou o título do chat. |
 | **Marcas** | As marcas atribuídas a uma mensagem, *questionável,* *compatível* ou *não compatível*. |
+| **Language** | O idioma detectado do texto na mensagem. A mensagem é classificada de acordo com o idioma da maioria do texto da mensagem. Por exemplo, para uma mensagem que contém texto alemão e italiano, mas a maioria do texto é alemã, a mensagem é classificada como alemão (DE). Há suporte para os seguintes idiomas: chinês (simplificado - ZH), inglês (EN), francês (FR), alemão (DE), italiano (IT), japonês (JP), português (PT) e espanhol (ES). Por exemplo, para filtrar mensagens classificadas como alemão e italiano, insira 'DE,IT' (os códigos de idioma de 2 dígitos) na caixa de pesquisa Filtro de idioma. Para exibir a classificação de idioma detectada para uma mensagem, selecione uma mensagem, selecione Exibir detalhes da mensagem e role para o campo EmailDetectedLanguage. |
 | **Escalonado para** | O nome de usuário da pessoa incluída como parte de uma ação de escalonamento de mensagens. |
 | **Classificadores** | O nome dos classificadores integrados e personalizados que se aplicam à mensagem. Alguns exemplos *incluem Linguagem Ofensiva,* *Assédio Direcionado,* *Profanidade,* *Ameaça* e muito mais.
 

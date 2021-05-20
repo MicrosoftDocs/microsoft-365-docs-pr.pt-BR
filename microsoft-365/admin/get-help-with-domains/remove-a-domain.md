@@ -21,13 +21,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
-description: Saiba como remover um domínio antigo do Microsoft 365 e mover usuários e grupos para outro domínio.
-ms.openlocfilehash: 3586cc8b288b77725c0dd3484629688e98e0a218
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+description: Saiba como remover um domínio antigo do Microsoft 365 e mover usuários e grupos para outro domínio ou cancelar sua assinatura.
+ms.openlocfilehash: 089f0378109dd2a5abdf922694390bfdc943693a
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572112"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582927"
 ---
 # <a name="remove-a-domain"></a>Excluir um domínio
   
@@ -218,10 +218,10 @@ Ainda não funciona? É possível que seja necessário remover seu domínio manu
   
 ::: moniker-end
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Perguntas frequentes sobre domínios](../setup/domains-faq.yml)
+[Perguntas frequentes sobre domínios](../setup/domains-faq.yml) (artigo)
 
-[Mudar para outro plano do Microsoft 365 for business](../../commerce/subscriptions/switch-to-a-different-plan.md)
+[Alternar para um plano Microsoft 365 para empresas](../../commerce/subscriptions/switch-to-a-different-plan.md) (artigo)
 
-[Cancelar sua assinatura](../../commerce/subscriptions/cancel-your-subscription.md)
+[Cancelar sua assinatura](../../commerce/subscriptions/cancel-your-subscription.md) (artigo)

@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Saiba como planejar os Tópicos do Microsoft Viva
-ms.openlocfilehash: d64e4b341fe96d7aa3636f58bffe3dd8f388838e
-ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
+ms.openlocfilehash: de7534ce58a7888ac822826ef4ef1b4934ed8cb1
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51957534"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583107"
 ---
 # <a name="plan-for-microsoft-viva-topics"></a>Planejar tópicos do Microsoft Viva
 
@@ -23,7 +23,7 @@ Você está no controle de como os tópicos são experimentado em sua organizaç
 
 Neste artigo, examinaremos essas decisões de planejamento:
 
-- Quais sites do SharePoint você deseja rastrear para tópicos
+- Quais SharePoint sites que você deseja rastrear para tópicos
 - Quais tópicos, se algum, você deseja excluir das experiências de tópico
 - Para quais usuários você deseja tornar os tópicos visíveis
 - Quais usuários você deseja dar permissões para gerenciar tópicos no centro de tópicos
@@ -32,24 +32,26 @@ Neste artigo, examinaremos essas decisões de planejamento:
 
 A segurança e a privacidade de seus dados são respeitadas, e as experiências de tópico não concedem aos usuários acesso adicional aos arquivos aos que eles não têm direitos. Recomendamos que você também leia a segurança e a privacidade [dos Tópicos](topic-experiences-security-privacy.md) do Microsoft Viva como parte do seu processo de planejamento.
 
+Para saber mais sobre a tecnologia de IA por trás dos Tópicos do Viva, leia a leitura de Alexandria em Tópicos do Microsoft Viva: de [big data a grande conhecimento.](https://www.microsoft.com/research/blog/alexandria-in-microsoft-viva-topics-from-big-data-to-big-knowledge)
+
 ## <a name="requirements"></a>Requisitos
 
-Você deve estar inscrito em [Tópicos do Viva](https://www.microsoft.com/microsoft-viva/topics) e ser um administrador global ou administrador do SharePoint para acessar o centro de administração do Microsoft 365 e configurar Tópicos.
+Você deve estar inscrito em [Tópicos](https://www.microsoft.com/microsoft-viva/topics) do Viva e ser um administrador global ou SharePoint para acessar o centro de administração Microsoft 365 e configurar Tópicos.
 
 Todos os usuários que vão usar Tópicos exigem uma **licença experiências de** tópico. A atribuição de licenças é abordada [em Configurar Tópicos do Microsoft Viva.](set-up-topic-experiences.md)
 
 ## <a name="topic-discovery"></a>Descoberta de tópicos
 
-As configurações de descoberta de tópicos especificam quais sites do SharePoint são usados como fontes para tópicos. Você pode optar por incluir todos os sites do SharePoint, uma lista específica de sites ou nenhum site. Recomendamos que você escolha todos os sites para que as experiências de tópico possam descobrir um grande número de tópicos bons para seus usuários.
+As configurações de descoberta de tópicos especificam quais sites do Microsoft Office SharePoint Online são usados como fontes de tópicos. Você pode optar por incluir todos os sites do Microsoft Office SharePoint Online, uma lista específica de sites ou nenhum site. Recomendamos que você escolha todos os sites para que as experiências de tópico possam descobrir um grande número de tópicos bons para seus usuários.
 
-Ao configurar Tópicos, você pode escolher entre as seguintes opções:
+Ao configurar tópicos, você pode escolher entre as seguintes opções:
 
-- **Todos os sites**: Todos os sites do SharePoint em sua organização. Isso inclui sites atuais e futuros.
-- **Todos, exceto sites selecionados:** todos os sites, exceto aqueles especificados. Os sites criados no futuro serão incluídos como fontes para descoberta de tópicos. 
-- **Somente sites selecionados:** somente os sites especificados. Os sites criados no futuro não serão incluídos como fontes para descoberta de tópicos.
-- **Nenhum site**: Não inclua sites do SharePoint.
+- **Todos os**: todos os sites do Microsoft Office SharePoint Online em sua organização. Isso inclui sites atuais e futuros.
+- **Tudo, exceto sites selecionados**: Todos os sites, exceto aqueles que você especificar. Os sites criados no futuro serão incluídos como fontes para descoberta de tópicos. 
+- **Somente sites selecionados:** somente os sites especificados. Sites criados no futuro não serão incluídos como fontes para descoberta de tópicos.
+- **Nenhum site**: Não incluir sites do Microsoft Office SharePoint Online.
 
-Se você escolher **Todos, exceto sites** selecionados ou Somente **sites** selecionados, poderá carregar um arquivo .csv com uma lista de sites. Essas opções são úteis se você estiver fazendo um piloto e quiser incluir um número limitado de sites para iniciar.
+Se você escolher **Todos,** exceto sites selecionados ou Somente **sites** selecionados, poderá carregar um arquivo .csv com uma lista de sites. Essas opções são úteis se você estiver fazendo um piloto e quiser incluir um número limitado de sites para iniciar.
 
 Você pode copiar o modelo .csv abaixo:
 
@@ -63,7 +65,7 @@ Recomendamos que você crie um processo para usuários ou gerentes de conhecimen
 
 ### <a name="multi-geo"></a>Multi-Geo
 
-Se sua organização tiver implantado o [Microsoft 365 Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo), o centro de tópicos será provisionado no local central e somente os sites do SharePoint no local central estarão disponíveis para uso como fontes para tópicos. (Se você selecionar **Todos os sites,** os Tópicos do Viva usarão todos os sites no local central.)
+Se sua organização tiver implantado Microsoft 365 [multi-geo](/microsoft-365/enterprise/microsoft-365-multi-geo), o centro de tópicos será provisionado no local central e somente os sites SharePoint no local central estarão disponíveis para uso como fontes para tópicos. (Se você selecionar **Todos os sites,** os Tópicos do Viva usarão todos os sites no local central.)
 
 Todo o processamento e armazenamento do conteúdo é feito no local central.
 
@@ -92,7 +94,7 @@ Você pode optar por não permitir que ninguém contribua com tópicos, no entan
 
 *Visualizadores de tópicos*
 
-Os visualizadores de tópicos podem ver informações sobre páginas de tópicos, nos resultados da pesquisa e quando os tópicos são realçados no conteúdo, como páginas do SharePoint. Os usuários só podem ver tópicos descobertos quando têm acesso aos arquivos e páginas em que o tópico foi descoberto.
+Os visualizadores de tópicos podem ver informações sobre páginas de tópicos, nos resultados da pesquisa e quando os tópicos são realçados no conteúdo como SharePoint páginas. Os usuários só podem ver tópicos descobertos quando têm acesso aos arquivos e páginas em que o tópico foi descoberto.
 
 Ao configurar os visualizadores de tópicos, você pode escolher entre:
 
@@ -108,7 +110,7 @@ Como administrador, você pode excluir determinados tópicos de experiências de
 
 Se você quiser excluir tópicos no nível de administrador, você deve adicioná-los a um arquivo .csv e carregar o arquivo. Você pode fazer isso durante a instalação ou posterior.
 
-O arquivo .csv deve conter os seguintes parâmetros:
+O .csv deve conter os seguintes parâmetros:
 
 - **Nome**: digite o nome do tópico que você deseja excluir. Há duas maneiras de fazer isso:
 - **MatchType-Exact/Partial**: Digite se o nome inserido foi *um tipo de* combinação exato *ou* parcial.
@@ -126,17 +128,17 @@ Name (required),Expansion,MatchType- Exact/Partial (required)
 
 ## <a name="administration"></a>Administração
 
-Quando você configura Tópicos, como parte do processo de instalação, um centro de tópicos é criado automaticamente. Pense no nome do centro de tópicos e no que deseja que a URL seja. Você pode definir o nome e a URL como parte do processo de instalação e alterar o nome (mas não URL) posteriormente no Centro de administração do Microsoft 365. Você só pode ter um centro de tópicos.
+Quando você configura Tópicos, como parte do processo de instalação, um centro de tópicos é criado automaticamente. Pense no nome do centro de tópicos e no que deseja que a URL seja. Você pode definir o nome e a URL como parte do processo de instalação e alterar o nome (mas não a URL) posteriormente no centro de administração Microsoft 365. Você só pode ter um centro de tópicos.
 
 ## <a name="setup-checklist"></a>Lista de verificação de instalação
 
 Ao configurar experiências de tópico, você precisará dos seguintes itens ao passar pelo assistente de instalação:
 
 > [!div class="checklist"]
-> * Lista de sites para incluir ou excluir se não incluir todos os sites para descoberta de tópicos
-> * Grupo de segurança para visualizadores de tópicos se não permitir que todos os usuários exibirem tópicos
-> * Grupo de segurança para colaboradores de tópicos se não permitir que todos os usuários criem e editem tópicos
-> * Grupo de segurança para gerentes de conhecimento de tópicos se não permitir que todos os usuários gerenciem tópicos
+> * Lista de sites a incluir ou excluir, se não incluir todos os sites para descoberta de tópicos
+> * Grupo de segurança para visualizadores de tópicos, se não permitir que todos os usuários visualizem tópicos
+> * Grupo de segurança para colaboradores de tópicos, se não permitir que todos os usuários criem e editem tópicos
+> * Grupo de segurança para gerentes de conhecimento de tópicos, se não permitir que todos os usuários gerenciem tópicos
 > * Lista de tópicos confidenciais a excluir da descoberta de tópicos
 > * Um nome para seu site central de tópicos
 
@@ -148,6 +150,6 @@ Ao configurar experiências de tópico, você precisará dos seguintes itens ao 
 
 [Gerenciar visibilidade de tópicos no Microsoft 365](topic-experiences-knowledge-rules.md)
 
-[Gerenciar permissões de tópico no Microsoft 365](topic-experiences-user-permissions.md)
+[Gerenciar permissões de tópico em Microsoft 365](topic-experiences-user-permissions.md)
 
 [Alterar o nome do centro de tópicos no Microsoft 365](topic-experiences-administration.md)

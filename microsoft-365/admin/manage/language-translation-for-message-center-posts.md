@@ -18,17 +18,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9f7c2ff2-af65-4557-8840-0b84ce96d9bc
-description: Saiba como definir seu idioma preferido no Centro de mensagens para traduzir automaticamente as postagens.
-ms.openlocfilehash: d0318763069e053fe2368b4906bc7d5ebb58c1fe
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: As postagens do centro de mensagens estão somente em inglês, mas podem ser exibidas automaticamente no idioma especificado para Microsoft 365.
+ms.openlocfilehash: 88b34fcca1d4cedfd6e1a7cb4ee19aef5c3262b7
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580925"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582915"
 ---
 # <a name="language-translation-for-message-center-posts"></a>Tradução de idioma para postagens do Centro de mensagens
 
-As postagens do Centro de mensagens são redigidas apenas em inglês devido à pontualidade das informações que postamos, no entanto, elas podem ser mostradas automaticamente no idioma especificado pelas suas configurações pessoais de idioma do Microsoft 365. Se o idioma de preferência que você definiu não for o inglês, haverá uma opção no Centro de mensagens para traduzir automaticamente as postagens. As mensagens são traduzidas automaticamente para seu idioma de preferência. Isso significa que o computador faz a tradução. Essa opção controla a visualização padrão, mas você também pode usar o menu suspenso para traduzir e exibir postagens em qualquer um dos idiomas com suporte a tradução. Se você selecionar inglês, reverteremos a mensagem para a versão original em inglês.
+As postagens do Centro de mensagens são redigidas apenas em inglês devido à pontualidade das informações que postamos, no entanto, elas podem ser mostradas automaticamente no idioma especificado pelas suas configurações pessoais de idioma do Microsoft 365. Se o idioma de preferência que você definiu não for o inglês, haverá uma opção no Centro de mensagens para traduzir automaticamente as postagens. As mensagens são traduzidas por máquina para seu idioma preferencial, o que significa que um computador fez a tradução. Essa opção controla a visualização padrão, mas você também pode usar o menu suspenso para traduzir e exibir postagens em qualquer um dos idiomas com suporte a tradução. Se você selecionar inglês, reverteremos a mensagem para a versão original em inglês.
+
+## <a name="before-you-begin"></a>Antes de começar
   
 > [!IMPORTANT]
 > Antes de escolher as configurações de idioma do Centro de mensagens, defina seu idioma preferido. Nenhuma opção de tradução é mostrada quando seu idioma está definido como inglês. Não é possível especificar um idioma de preferência para outras pessoas, cada uma deve alterar essa configuração por conta própria. 
@@ -44,6 +46,16 @@ As postagens do Centro de mensagens são redigidas apenas em inglês devido à p
 Quando seu idioma de preferência não está definido para inglês, as opções de tradução no Centro de mensagens estão disponíveis.
   
 Para traduzir automaticamente as postagens do Centro de mensagens e exibi-las em seu idioma de preferência, acesse **Integridade** \> **Centro de mensagens**. Você verá uma chave na parte superior da exibição da lista de mensagens que permite ativar ou desativar a tradução automática. Quando essa configuração está desativada, as postagens são mostradas em inglês. Quando essa configuração está ativada, as mensagens são exibidas no seu idioma de preferência. A configuração escolhida persistirá para cada visita ao Centro de mensagens. 
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Visão geral do Centro de administração do Microsoft 365](../../business-video/admin-center-overview.md) (vídeo)
+
+[Qual assinatura eu tenho?](../admin-overview/what-subscription-do-i-have.md) (artigo)
+
+[Fique por dentro das alterações](../manage/stay-on-top-of-updates.md) (artigo)
+
+
 
   
 

@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Saiba como desaignar licenças de contas de usuário.
 ms.date: 07/01/2020
-ms.openlocfilehash: 5ef28b3065703ec224e6426c4fdbfffdb5269b22
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 4ff6a0e5554117cd1fc2d818c04edabc9e33b2a1
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537494"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582903"
 ---
 # <a name="unassign-licenses-from-users"></a>Cancelar a atribuição de licenças de usuários
 
@@ -123,7 +123,7 @@ Quando você usa a **página Usuários ativos** para desaignar licenças, você 
 
 ## <a name="what-happens-to-a-users-data-when-you-remove-their-license"></a>O que acontece com os dados de um usuário ao remover a licença?
 
-- Quando uma licença é removida de um usuário, os dados associados a essa conta são mantidos por 30 dias. Após o período de carência de 30 dias, os dados são excluídos e não podem ser recuperados.
+- Quando uma licença é removida de um usuário, Exchange dados online associados a essa conta são mantidos por 30 dias. Após o período de carência de 30 dias, os dados são excluídos e não podem ser recuperados.
 - Os arquivos salvos OneDrive for Business não são excluídos, a menos que o usuário seja excluído do centro de administração Microsoft 365 ou seja removido por meio da sincronização do Active Directory. Para obter mais informações, [consulte OneDrive retenção e exclusão.](/onedrive/retention-and-deletion)
 - Quando a licença é removida, a caixa de correio do usuário não é mais pesquisável usando uma ferramenta de Descoberta Eletrônico, como Pesquisa de Conteúdo ou Advanced eDiscovery. Para obter mais informações, consulte "Pesquisar caixas de correio desconectadas ou des licenciadas" em Pesquisa de [Conteúdo em Microsoft 365](../../compliance/content-search.md).
 - Se você tiver uma assinatura Enterprise, como Office 365 Enterprise E3, Exchange Online permite preservar os dados de caixa de correio de uma conta de usuário excluída usando caixas de correio [inativas](../../compliance/inactive-mailboxes-in-office-365.md). Para obter mais informações, [consulte Create and manage inactive mailboxes in Exchange Online](../../compliance/create-and-manage-inactive-mailboxes.md).

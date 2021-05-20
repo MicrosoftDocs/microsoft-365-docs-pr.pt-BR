@@ -12,12 +12,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como usar o SharePoint Syntex para identificar arquivos de contrato e extrair dados usando uma solução Microsoft 365.
-ms.openlocfilehash: f246dd4ed619dd9885d2c45c69d607cfa9c2483f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 67c0a072b070cd414f5079fe4fb61e7391839951
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538550"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583563"
 ---
 # <a name="step-1-use-sharepoint-syntex-to-identify-contract-files-and-extract-data"></a>Etapa 1. Use SharePoint Syntex para identificar arquivos de contrato e extrair dados
 
@@ -42,7 +42,7 @@ Sua organização precisa de uma maneira de identificar e classificar todos os d
 ## <a name="steps-to-create-and-train-your-model"></a>Etapas para criar e treinar seu modelo
 
 > [!NOTE]
-> Para essas etapas, você pode usar os arquivos de exemplo no repositório de Exemplos SharePoint [Syntex da Microsoft.](https://github.com/pnp/syntex-samples) Os exemplos neste repositório contêm os arquivos de modelo de compreensão do documento e os arquivos usados para treinar o modelo.
+> Para essas etapas, você pode usar os arquivos de exemplo no repositório Ativos da Solução de Gerenciamento de [Contratos.](https://github.com/pnp/syntex-samples/tree/main/scenario%20assets/Contracts%20Management) Os exemplos neste repositório contêm os arquivos de modelo de compreensão do documento e os arquivos usados para treinar o modelo.
 
 ### <a name="create-a-contract-model"></a>Criar um modelo de contrato
 
@@ -184,7 +184,7 @@ Para aplicar seu modelo a uma biblioteca SharePoint de documentos:
 
    ![Captura de tela mostrando a página Contratos com a opção Aplicar modelo a bibliotecas realçada.](../media/content-understanding/key-actions-apply-model.png)
 
-2. No painel **Adicionar Contrato,** selecione o site SharePoint que contém a biblioteca de documentos à qual você deseja aplicar o modelo. Se o site não for mostrado na lista, use a caixa de pesquisa para localizá-lo. Clique em **Adicionar**.
+2. No painel **Adicionar Contrato,** selecione o site SharePoint que contém a biblioteca de documentos à qual você deseja aplicar o modelo. Se o site não for mostrado na lista, use a caixa de pesquisa para localizá-lo. Selecione **Adicionar**.
 
     > [!NOTE]
     > Você deve ter permissões de *Gerenciar Lista* ou direitos de *Editar* na biblioteca de documentos para a qual você está aplicando o modelo.

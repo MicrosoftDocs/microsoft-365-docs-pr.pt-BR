@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Saiba mais sobre as práticas recomendadas para gerenciar os muitos tópicos em sua organização usando Tópicos do Viva.
-ms.openlocfilehash: dd9fe658d4f698ac50563b5c9ea141a090f6141d
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: a11d6fd1a7435ce75faa749a6d66fba6c1cda457
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538406"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583059"
 ---
 # <a name="manage-topics-at-scale-in-microsoft-viva-topics"></a>Gerenciar tópicos em escala nos Tópicos do Microsoft Viva
 
@@ -28,15 +28,17 @@ Primeiro, um lembrete dos [quatro estágios dos tópicos](manage-topics.md#topic
 
 - **Sugerido**: um tópico foi identificado pela IA e tem recursos, conexões e propriedades de suporte suficientes. (Eles são marcados como **um Tópico Sugerido** na interface do usuário.)
 
-- **Confirmado**:um tópico sugerido pela IA é validado. A validação do tópico deve ser confirmada por um gerente de conhecimento. Para que um tópico seja confirmado, deve haver uma rede de dois votos positivos recebidos dos usuários que votaram usando o mecanismo de comentários no cartão de tópico. Por exemplo, se um usuário votou positivo e um usuário votou negativo para um tópico específico, você ainda precisaria de mais dois votos positivos para que o tópico fosse confirmado.
+- **Confirmado**: Um tópico sugerido pela AI precisa ser validado. A validação de tópico ocorre quando:
+   - Um gerente de conhecimento confirma um tópico. Um gerente de [conhecimento confirma um tópico na](manage-topics.md#confirmed-topics) página Gerenciar **tópicos.** 
+   - Vários usuários confirmam um tópico. Deve haver uma rede de dois votos positivos recebidos dos usuários que votaram usando o mecanismo de comentários no cartão de tópico. Por exemplo, se um usuário votou positivo e um usuário votou negativo para um tópico específico, você ainda precisaria de mais dois votos positivos para que o tópico fosse confirmado.
  
-- **Publicado**: Um tópico confirmado que foi abordado: foram feitas edições manuais para melhorar sua qualidade.
+- **Publicado**: Um tópico confirmado que foi abordado. As edições manuais foram feitas para melhorar sua qualidade.
 
 - **Removido**: um tópico é rejeitado por um gerente de conhecimento e não será mais visível para os visualizadores. Um tópico pode ser removido em qualquer estado (sugerido, confirmado ou publicado). Para que um tópico seja removido, deve haver uma rede de dois votos negativos recebidos dos usuários que votaram usando os mecanismos de feedback no cartão de tópico. Por exemplo, se um usuário votou negativo e um usuário votou positivo para um tópico específico, você ainda precisaria de mais dois votos negativos para que o tópico fosse removido. Quando um tópico publicado é removido, a página com os detalhes de cura precisará ser excluída manualmente por meio da Biblioteca de Páginas do centro de tópicos.
 
 ## <a name="knowledge-manager-role"></a>Função de gerente de conhecimento 
 
-Ao configurar os Tópicos do Viva, você adicionará um grupo de usuários que recebe permissões para ver a experiência Gerenciar **tópicos** no centro de tópicos. Ele aparecerá apenas para esses usuários que ocupam a função de curadoria principal para os tópicos. Eles terão acesso aos dados sobre os tópicos e poderão ver listas de todos os tópicos que eles têm acesso para revisar e fazer a curadoria.
+Ao configurar os Tópicos do Viva, você adicionará um grupo de usuários que recebe permissões para ver a página Gerenciar **tópicos** no centro de tópicos. Ele aparecerá apenas para esses usuários que ocupam a função de curadoria principal para os tópicos. Eles terão acesso aos dados sobre os tópicos e poderão ver listas de todos os tópicos que eles têm acesso para revisar e fazer a curadoria.
 
 Os funcionários nesta função devem ter permissões amplas para exibir uma ampla matriz de tópicos. Ou se as permissões são segmentadas, talvez você queira selecionar um grupo de usuários que representam diferentes áreas da empresa e podem fazer a cura para suas próprias áreas.
 

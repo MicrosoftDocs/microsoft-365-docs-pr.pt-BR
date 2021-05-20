@@ -16,15 +16,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem aprender a exibir, criar, modificar e excluir políticas de spam de saída no Exchange Online Protection (EOP).
+description: Os administradores podem aprender a exibir, criar, modificar e excluir políticas de spam de saída no Proteção do Exchange Online (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2448bb7942f7694d2a6d6e9b98537a2b7ccb14d1
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: ead8aa75c0218dd2c4cad96e50e37ed3ddc12815
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331665"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583179"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>Configurar a filtragem de spam de saída no EOP
 
@@ -35,15 +35,15 @@ ms.locfileid: "52331665"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Em organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, as mensagens de email de saída enviadas por meio do EOP são verificadas automaticamente em busca de spam e atividades de envio incomuns.
+Em organizações Microsoft 365 com caixas de correio no Exchange Online ou organizações de Proteção do Exchange Online (EOP) autônomas sem caixas de correio Exchange Online, as mensagens de email de saída enviadas por meio do EOP são verificadas automaticamente para spam e atividades de envio incomuns.
 
-Spam de saída de um usuário em sua organização normalmente indica uma conta comprometida. Mensagens de saída suspeitas são marcadas como spam (independentemente do nível de confiança de spam ou SCL) e são roteadas pelo [pool](high-risk-delivery-pool-for-outbound-messages.md) de entrega de alto risco para ajudar a proteger a reputação do serviço (ou seja, manter os servidores de email de origem do Microsoft 365 fora das listas de bloqueios de IP). Os administradores são automaticamente notificados sobre atividades suspeitas de email de saída e os usuários bloqueados por meio de políticas [de alerta.](../../compliance/alert-policies.md)
+Spam de saída de um usuário em sua organização normalmente indica uma conta comprometida. As mensagens de saída suspeitas são marcadas como spam (independentemente do nível de confiança de spam ou SCL) e são roteadas pelo [pool](high-risk-delivery-pool-for-outbound-messages.md) de entrega de alto risco para ajudar a proteger a reputação do serviço (ou seja, Microsoft 365 manter os servidores de email de origem fora das listas de bloqueios de IP). Os administradores são automaticamente notificados sobre atividades suspeitas de email de saída e os usuários bloqueados por meio de políticas [de alerta.](../../compliance/alert-policies.md)
 
 O EOP usa políticas de spam de saída como parte da defesa geral da sua organização contra spam. Para obter mais informações, consulte [Proteção antispam](anti-spam-protection.md).
 
 Os administradores podem exibir, editar e configurar (mas não excluir) a política de spam de saída padrão. Para maior granularidade, você também pode criar políticas de spam de saída personalizadas que se aplicam a usuários, grupos ou domínios específicos em sua organização. Políticas personalizadas sempre terão prioridade sobre a política padrão, mas você pode alterar a prioridade (ordem de execução) de suas políticas personalizadas.
 
-Você pode configurar políticas de spam de saída no Centro de Conformidade & Segurança ou no PowerShell (Exchange Online PowerShell para organizações do Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem caixas de correio do Exchange Online).
+Você pode configurar políticas de spam de saída no Centro de Conformidade & Segurança ou no PowerShell (Exchange Online PowerShell para organizações Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem Exchange Online caixas de correio).
 
 Os elementos básicos de uma política de spam de saída no EOP são:
 
@@ -56,7 +56,7 @@ A diferença entre esses dois elementos não é óbvia quando você gerencia as 
 - Quando você modifica uma política, as configurações relacionadas ao nome, prioridade, habilitado ou desabilitado e filtros de destinatário modificam a regra de filtro de spam de saída. Todas as outras configurações modificam a política de filtro de spam de saída associada.
 - Quando você remove uma política, a regra de filtro de spam de saída e a política de filtro de spam de saída associada são removidas.
 
-No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política e a regra são gerenciadas separadamente. Para obter mais informações, consulte a seção Usar o PowerShell do Exchange Online ou [o EOP PowerShell](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-outbound-spam-policies) autônomo para configurar políticas de spam de saída posteriormente neste artigo.
+No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política e a regra são gerenciadas separadamente. Para obter mais informações, consulte a seção Usar Exchange Online PowerShell ou [EOP PowerShell](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-outbound-spam-policies) autônomo para configurar políticas de spam de saída posteriormente neste artigo.
 
 Cada organização tem uma política de spam de saída interna chamada Default que tem essas propriedades:
 
@@ -78,10 +78,10 @@ Para aumentar a eficácia da filtragem de spam de saída, você pode criar polí
 
   Para obter mais informações, confira [Permissões no Exchange Online](/exchange/permissions-exo/permissions-exo).
 
-  **Observações**:
-
-  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias _e_ para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
-  - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
+  > [!NOTE]
+  > - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+  > 
+  > - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
 - Para nossas configurações recomendadas para políticas de spam de saída, consulte Configurações de política de filtro de spam de saída do [EOP](recommended-settings-for-eop-and-office365.md#eop-outbound-spam-policy-settings).
 
@@ -271,11 +271,11 @@ Para alterar a prioridade de uma política, mova a política para cima ou para b
 
 Não é possível remover a política padrão.
 
-## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-outbound-spam-policies"></a>Usar o PowerShell do Exchange Online ou o EOP PowerShell autônomo para configurar políticas de spam de saída
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-outbound-spam-policies"></a>Use Exchange Online PowerShell ou EOP PowerShell autônomo para configurar políticas de spam de saída
 
 Conforme descrito anteriormente, uma política de spam de saída consiste em uma política de filtro de spam de saída e uma regra de filtro de spam de saída.
 
-No PowerShell do Exchange Online ou no EOP PowerShell autônomo, a diferença entre políticas de filtro de spam de saída e regras de filtro de spam de saída é aparente. Você gerencia políticas de filtro de spam de saída usando os cmdlets **\* -HostedOutboundSpamFilterPolicy** e gerencia as regras de filtro de spam de saída usando os cmdlets **\* -HostedOutboundSpamFilterRule.**
+No Exchange Online PowerShell ou no EOP PowerShell autônomo, a diferença entre políticas de filtro de spam de saída e regras de filtro de spam de saída é aparente. Você gerencia políticas de filtro de spam de saída usando os cmdlets **\* -HostedOutboundSpamFilterPolicy** e gerencia as regras de filtro de spam de saída usando os cmdlets **\* -HostedOutboundSpamFilterRule.**
 
 - No PowerShell, primeiro você cria a política de filtro de spam de saída e, em seguida, cria a regra de filtro de spam de saída que identifica a política à que a regra se aplica.
 - No PowerShell, você modifica as configurações na política de filtro de spam de saída e na regra de filtro de spam de saída separadamente.
@@ -288,16 +288,15 @@ Criar uma política de spam de saída no PowerShell é um processo de duas etapa
 1. Crie a política de filtro de spam de saída.
 2. Crie a regra de filtro de spam de saída que especifica a política de filtro de spam de saída à que a regra se aplica.
 
- **Observações**:
-
-- Você pode criar uma nova regra de filtro de spam de saída e atribuir uma política de filtro de spam de saída existente e nãossociada a ela. Uma regra de filtro de spam de saída não pode ser associada a mais de uma política de filtro de spam de saída.
-
-- Você pode configurar as configurações a seguir em novas políticas de filtro de spam de saída no PowerShell que não estão disponíveis no Centro de Conformidade de segurança & até depois de criar a política:
-
-  - Crie a nova política como desabilitada (_Habilitado_ no `$false` cmdlet **New-HostedOutboundSpamFilterRule).**
-  - Definir a prioridade da política durante a criação (_Prioridade_ _\<Number\>_ ) no cmdlet **New-HostedOutboundSpamFilterRule).**
-
-- Uma nova política de filtro de spam de saída que você cria no PowerShell não fica visível no Centro de Conformidade & segurança até que você atribua a política a uma regra de filtro de spam.
+> [!NOTE]
+> - Você pode criar uma nova regra de filtro de spam de saída e atribuir uma política de filtro de spam de saída existente e nãossociada a ela. Uma regra de filtro de spam de saída não pode ser associada a mais de uma política de filtro de spam de saída.
+> 
+> - Você pode configurar as configurações a seguir em novas políticas de filtro de spam de saída no PowerShell que não estão disponíveis no Centro de Conformidade de segurança & até depois de criar a política:
+> 
+>   - Crie a nova política como desabilitada (_Habilitado_ no `$false` cmdlet **New-HostedOutboundSpamFilterRule).**
+>   - Definir a prioridade da política durante a criação (_Prioridade_ _\<Number\>_ ) no cmdlet **New-HostedOutboundSpamFilterRule).**
+> 
+> - Uma nova política de filtro de spam de saída que você cria no PowerShell não fica visível no Centro de Conformidade & segurança até que você atribua a política a uma regra de filtro de spam.
 
 #### <a name="step-1-use-powershell-to-create-an-outbound-spam-filter-policy"></a>Etapa 1: usar o PowerShell para criar uma política de filtro de spam de saída
 
@@ -309,7 +308,7 @@ New-HostedOutboundSpamFilterPolicy -Name "<PolicyName>" [-AdminDisplayName "<Com
 
 Este exemplo cria uma nova política de filtro de spam de saída chamada Contoso Executives com as seguintes configurações:
 
-- Os limites de taxa de destinatário são restritos a valores menores que os padrões. Para obter mais informações, consulte [Enviando limites entre as opções do Microsoft 365](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options).
+- Os limites de taxa de destinatário são restritos a valores menores que os padrões. Para obter mais informações, consulte [Sending limits across Microsoft 365 options](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options).
 
 - Depois que um dos limites é atingido, o usuário é impedido de enviar mensagens.
 
@@ -509,7 +508,7 @@ Remove-HostedOutboundSpamFilterRule -Identity "Marketing Department"
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, [consulte Remove-HostedOutboundSpamFilterRule](/powershell/module/exchange/remove-hostedoutboundspamfilterrule).
 
-## <a name="for-more-information"></a>Para obter mais informações
+## <a name="for-more-information"></a>Para saber mais
 
 [Remover usuários bloqueados do portal Usuários Restritos](removing-user-from-restricted-users-portal-after-spam.md)
 

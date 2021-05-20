@@ -17,14 +17,14 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_purchase
 search.appverid: MET150
-description: Saiba como obter uma avaliação gratuita ou comprar uma assinatura para Microsoft 365 para empresas.
+description: Inscreva-se para uma avaliação gratuita de 30 dias para Microsoft 365 Business Standard, Microsoft 365 Business Premium ou Microsoft 365 Apps para Pequenos e Médios negócios.
 ms.date: 08/07/2020
-ms.openlocfilehash: 78716d78745616530729ff2fa5cfa31202e056c8
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 20ceb683c6224e572a1c532330d45fa8fa5c8416
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344681"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583443"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>Experimente ou compre uma assinatura Microsoft 365 para empresas
 
@@ -143,9 +143,9 @@ Se você já tiver uma assinatura e estiver adicionando uma nova assinatura, pod
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Microsoft 365 para vídeos de treinamento empresarial](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) (vídeos de treinamento)\
+[Microsoft 365 para vídeos de treinamento empresarial](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) (vídeo)\
 [Adicionar usuários e atribuir licenças ao mesmo tempo](../admin/add-users/add-users.md) (artigo)\
 [Atribuir licenças aos usuários](../admin/manage/assign-licenses-to-users.md) (artigo) \
 [Atualizar para um plano diferente](subscriptions/upgrade-to-different-plan.md) (artigo)\
 [Comprar ou editar um complemento para Microsoft 365 para empresas](buy-or-edit-an-add-on.md) (artigo)\
-[Adicionar espaço de armazenamento para sua assinatura](add-storage-space.md)
+[Adicionar espaço de armazenamento para sua assinatura](add-storage-space.md) (artigo)

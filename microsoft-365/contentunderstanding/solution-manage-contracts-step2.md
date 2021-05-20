@@ -6,18 +6,18 @@ manager: pamgreen
 ms.reviewer: ssquires
 audience: admin
 ms.topic: article
-ms.date: 05/10/2021
+ms.date: 05/19/2021
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como usar o Microsoft Teams para criar seu canal de gerenciamento de contratos usando uma solução Microsoft 365 contrato.
-ms.openlocfilehash: d703f6f7286a6d9584e8b18d4e283174f42a95bd
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: 20ace5d17550c8dd800368957dd940c9857bce5d
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52301795"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583131"
 ---
 # <a name="step-2-use-microsoft-teams-to-create-your-contract-management-channel"></a>Etapa 2. Use Microsoft Teams para criar seu canal de gerenciamento de contratos
 
@@ -44,13 +44,13 @@ Depois de anexar a SharePoint de documentos, você poderá exibir quaisquer cont
 ## <a name="customize-your-contracts-tab-tile-view"></a>Personalizar o seu exibição de tile de tabulação Contratos
 
 > [!NOTE]
-> Esta seção faz referência a exemplos de código que estão contidos no arquivo **ContractCard.json** incluído no arquivo zip **solutionfiles.**
+> Esta seção faz referência a exemplos de código contidos no arquivo [ContractTileFormatting.json](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) incluído no repositório de Ativos da Solução de Gerenciamento de [Contratos.](https://github.com/pnp/syntex-samples/tree/main/scenario%20assets/Contracts%20Management)
 
 Enquanto Teams permite que você veja seus contratos em uma exibição de azulejo, talvez você queira personalizá-los para exibir os dados de contrato que você deseja tornar visíveis no cartão de contrato. Por exemplo, para a guia **Contratos,** é importante que os membros vejam o cliente, o contratado e o valor da taxa no cartão de contrato. Todos esses campos foram extraídos de cada contrato por meio do seu modelo SharePoint Syntex que foi aplicado à biblioteca de documentos. Você também deseja poder alterar a barra de header de azulejo para cores diferentes para cada status para que os membros possam ver facilmente onde o contrato está no processo de aprovação. Por exemplo, todos os contratos aprovados terão uma barra de header azul.
 
    ![Exibição de lista.](../media/content-understanding/tile.png)
 
-A exibição de azulejo personalizada que você usa exige que você faça alterações no arquivo JSON usado para formatar o exibição de azulejo atual. Você pode fazer referência ao arquivo JSON usado para criar o exibição de cartão baixando oContractCard.js **no** arquivo. Nas seções a seguir, você verá seções específicas do código para recursos que estão nos cartões de contrato.
+A exibição de azulejo personalizada que você usa exige que você faça alterações no arquivo JSON usado para formatar o exibição de azulejo atual. Você pode fazer referência ao arquivo JSON usado para criar o exibição de cartão olhando para o arquivo [ContractTileFormatting.json.](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) Nas seções a seguir, você verá seções específicas do código para recursos que estão nos cartões de contrato.
 
 Se você quiser ver ou fazer alterações no código JSON para seu exibição no canal Teams, no canal Teams, selecione o menu suspenso exibir e selecione **Formatar** o exibição atual .
 
@@ -58,7 +58,7 @@ Se você quiser ver ou fazer alterações no código JSON para seu exibição no
 
 ## <a name="card-size-and-shape"></a>Tamanho e forma do cartão
 
-No arquivo **ContractCard.js** on que você baixou no arquivo ZIP de referência, consulte a seção a seguir para ver o código de como o tamanho e a forma do cartão são formatados.
+No arquivo [ContractTileFormatting.json,](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) consulte a seção a seguir para ver o código de como o tamanho e a forma do cartão são formatados.
 
 ```JSON
                   {
@@ -84,7 +84,7 @@ No arquivo **ContractCard.js** on que você baixou no arquivo ZIP de referência
 
 ## <a name="contract-status"></a>Status do contrato
 
-O código a seguir permite definir o status de cada cartão de título. Observe que cada valor de status (*Novo*, *Em revisão,* Aprovado e *Rejeitado*) exibirá um código de cor diferente para cada um. No arquivo **ContractCard.json** que você baixou, veja a seção que define o status.
+O código a seguir permite definir o status de cada cartão de título. Observe que cada valor de status (*Novo*, *Em revisão,* Aprovado e *Rejeitado*) exibirá um código de cor diferente para cada um. No arquivo [ContractTileFormatting.json,](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) veja a seção que define o status.
 
 ```JSON
           {
@@ -109,9 +109,9 @@ O código a seguir permite definir o status de cada cartão de título. Observe 
 
 Cada cartão de contrato exibirá três campos que foram extraídos para cada contrato (*Client,* *Contractor* e *Fee Amount*). Além disso, você também deseja exibir a hora/data em que o arquivo foi classificado pelo modelo SharePoint Syntex usado para identificá-lo. 
 
-No arquivo **ContractCard.json** que você baixou, as seções a seguir definem cada uma delas.
+No arquivo [ContractTileFormatting.json,](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) as seções a seguir definem cada uma delas.
 
-### <a name="client"></a>Client
+### <a name="client"></a>Cliente
 
 Esta seção define como "Cliente" será exibido no cartão e usa o valor do contrato específico.
 

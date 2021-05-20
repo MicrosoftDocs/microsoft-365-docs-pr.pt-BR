@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 2bd719377e36cf608a0fe75078ab8bef004ad92e
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 42ab124f3026cf0b7441edf44c0e6433be5f0ecd
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346323"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583659"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 
@@ -42,7 +42,7 @@ Essas diretrizes abordam como implantar as políticas recomendadas em um ambient
 
 O diagrama a seguir ilustra o conjunto recomendado de políticas. Ele mostra a qual camada de proteções cada política se aplica e se as políticas se aplicam a computadores ou telefones e tablets, ou ambas as categorias de dispositivos. Ele também indica onde você configura essas políticas.
 
-[![Políticas comuns para configurar identidade e acesso a dispositivos](../../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
+[![Políticas comuns para configurar identidade e acesso a dispositivos](../../media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)
 
 Aqui está um resumo pdf de uma página com links para as políticas individuais:
 
@@ -197,7 +197,7 @@ Na segunda seção **Atribuições:**
 
 |Tipo|Propriedades|Valores|Ação|
 |---|---|---|---|
-|Acessar|**Permitir acesso**||Selecionar|
+|Access|**Permitir acesso**||Selecionar|
 |||**Requer a alteração de senha**|Cheque|
 |
 
