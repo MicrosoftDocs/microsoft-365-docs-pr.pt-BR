@@ -1,8 +1,8 @@
 ---
-title: Implantar o Microsoft Defender para endpoint no Linux com Ansible
+title: Implantar o Microsoft Defender para Ponto de Extremidade no Linux com Ansible
 ms.reviewer: ''
-description: Descreve como implantar o Microsoft Defender para endpoint no Linux usando o Ansible.
-keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, instalação, implantação, desinstalação, fantoche, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+description: Descreve como implantar o Microsoft Defender para Ponto de Extremidade no Linux usando Ansible.
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -25,7 +25,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52572724"
 ---
-# <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-ansible"></a>Implantar o Microsoft Defender para endpoint no Linux com Ansible
+# <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-ansible"></a>Implantar o Microsoft Defender para Ponto de Extremidade no Linux com Ansible
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -34,28 +34,28 @@ ms.locfileid: "52572724"
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Quer experimentar o Defender for Endpoint? [Inscreva-se para um teste gratuito.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+> Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-Este artigo descreve como implantar o Defender para endpoint no Linux usando o Ansible. Uma implantação bem-sucedida requer a conclusão de todas as seguintes tarefas:
+Este artigo descreve como implantar o Defender para Ponto de Extremidade no Linux usando Ansible. Uma implantação bem-sucedida requer a conclusão de todas as seguintes tarefas:
 
-- [Baixe o pacote de onboarding](#download-the-onboarding-package)
+- [Baixar o pacote de integração](#download-the-onboarding-package)
 - [Criar arquivos YAML ansible](#create-ansible-yaml-files)
 - [Implantação](#deployment)
 - [References](#references)
 
 ## <a name="prerequisites-and-system-requirements"></a>Pré-requisitos e requisitos do sistema
 
-Antes de começar, consulte [a página principal do Defender for Endpoint no Linux](microsoft-defender-endpoint-linux.md) para obter uma descrição dos pré-requisitos e requisitos do sistema para a versão atual do software.
+Antes de começar, consulte a página [principal do Defender para Ponto](microsoft-defender-endpoint-linux.md) de Extremidade no Linux para obter uma descrição dos pré-requisitos e dos requisitos do sistema para a versão de software atual.
 
-Além disso, para implantação da Ansible, você precisa estar familiarizado com tarefas de administração ansible, ter o Ansible configurado e saber como implantar cartilhas e tarefas. Ansible tem muitas maneiras de completar a mesma tarefa. Estas instruções assumem a disponibilidade de módulos Ansible suportados, como *apto* e *unarchive* para ajudar a implantar o pacote. Sua organização pode usar um fluxo de trabalho diferente. Consulte a [documentação Ansible](https://docs.ansible.com/) para obter detalhes.
+Além disso, para a implantação ansible, você precisa estar familiarizado com tarefas de administração Ansible, ter Ansible configurado e saber como implantar playbooks e tarefas. Ansible tem muitas maneiras de concluir a mesma tarefa. Essas instruções pressuem disponibilidade de módulos Ansible com suporte, como *apt* e *unarchive* para ajudar a implantar o pacote. Sua organização pode usar um fluxo de trabalho diferente. Consulte a [documentação Ansible para](https://docs.ansible.com/) obter detalhes.
 
-- O Ansible precisa ser instalado em pelo menos um computador (Ansible chama isso de nó de controle).
-- O SSH deve ser configurado para uma conta de administrador entre o nó de controle e todos os nós gerenciados (dispositivos que terão o Defender for Endpoint instalado neles), e recomenda-se que seja configurado com autenticação de chave pública.
-- O seguinte software deve ser instalado em todos os nós gerenciados:
-  - cacho
+- Ansible precisa ser instalado em pelo menos um computador (Ansible chama esse nó de controle).
+- O SSH deve ser configurado para uma conta de administrador entre o nó de controle e todos os nós gerenciados (dispositivos que terão o Defender para Ponto de Extremidade instalado neles) e é recomendável ser configurado com autenticação de chave pública.
+- O software a seguir deve ser instalado em todos os nós gerenciados:
+  - cache
   - python-apt
 
-- Todos os nós gerenciados devem ser listados no seguinte formato no `/etc/ansible/hosts` arquivo ou relevante:
+- Todos os nós gerenciados devem estar listados no seguinte formato no `/etc/ansible/hosts` arquivo ou relevante:
 
     ```bash
     [servers]
@@ -69,17 +69,17 @@ Além disso, para implantação da Ansible, você precisa estar familiarizado co
     ansible -m ping all
     ```
 
-## <a name="download-the-onboarding-package"></a>Baixe o pacote de onboarding
+## <a name="download-the-onboarding-package"></a>Baixar o pacote de integração
 
-Baixe o pacote de onboarding de Central de Segurança do Microsoft Defender:
+Baixe o pacote de integração Central de Segurança do Microsoft Defender:
 
-1. Em Central de Segurança do Microsoft Defender, vá para **Configurações > Gerenciamento de Dispositivos > Onboarding**.
-2. No primeiro menu suspenso, selecione **Linux Server** como o sistema operacional. No segundo menu suspenso, selecione **sua ferramenta de gerenciamento de configuração Linux preferida** como o método de implantação.
-3. Selecione **Download no pacote de onboarding**. Salve o arquivo como WindowsDefenderATPOnboardingPackage.zip.
+1. Em Central de Segurança do Microsoft Defender, vá para Configurações > Gerenciamento de **Dispositivos > Integração**.
+2. No primeiro menu suspenso, selecione **Servidor Linux como** o sistema operacional. No segundo menu suspenso, selecione Sua ferramenta de gerenciamento de configuração **do Linux preferencial** como o método de implantação.
+3. Selecione **Baixar pacote de integração**. Salve o arquivo como WindowsDefenderATPOnboardingPackage.zip.
 
-    ![captura de tela Central de Segurança do Microsoft Defender](images/atp-portal-onboarding-linux-2.png)
+    ![Central de Segurança do Microsoft Defender captura de tela](images/atp-portal-onboarding-linux-2.png)
 
-4. A partir de um prompt de comando, verifique se você tem o arquivo. Extrair o conteúdo do arquivo:
+4. Em um prompt de comando, verifique se você tem o arquivo. Extraia o conteúdo do arquivo morto:
 
     ```bash
     ls -l
@@ -98,9 +98,9 @@ Baixe o pacote de onboarding de Central de Segurança do Microsoft Defender:
 
 ## <a name="create-ansible-yaml-files"></a>Criar arquivos YAML ansible
 
-Crie um subtarefa ou arquivos de papel que contribuam para um livro de jogadas ou tarefa.
+Crie uma subtarefa ou arquivos de função que contribuam para uma playbook ou tarefa.
 
-- Crie a tarefa de `onboarding_setup.yml` onboarding:
+- Crie a tarefa de integração, `onboarding_setup.yml` :
 
     ```bash
     - name: Create MDATP directories
@@ -127,23 +127,23 @@ Crie um subtarefa ou arquivos de papel que contribuam para um livro de jogadas o
       when: not mdatp_onboard.stat.exists
     ```
 
-- Adicione o defender para repositório de ponto final e `add_apt_repo.yml` chave:
+- Adicione o repositório do Defender para Ponto de Extremidade e a chave, `add_apt_repo.yml` :
 
-    O Defender for Endpoint on Linux pode ser implantado a partir de um dos seguintes canais (denotado abaixo como *[canal]*): *insiders-fast,* *insiders-slow* ou *prod*. Cada um desses canais corresponde a um repositório de software Linux.
+    O Defender para Ponto de Extremidade no Linux pode ser implantado de um dos seguintes canais (denotado abaixo como *[canal]*): *insiders-fast,* *insiders-slow* ou *prod*. Cada um desses canais corresponde a um repositório de software Linux.
 
-    A escolha do canal determina o tipo e a frequência das atualizações que são oferecidas ao seu dispositivo. Dispositivos em *insiders-fast* são os primeiros a receber atualizações e novos recursos, seguidos posteriormente por *insiders-lento e,* finalmente, por *prod*.
+    A escolha do canal determina o tipo e a frequência de atualizações oferecidas ao seu dispositivo. Os *dispositivos em insiders-fast* são os primeiros a receber atualizações e novos recursos, seguidos posteriormente por *insiders-slow* e por *último por prod*.
 
-    Para visualizar novos recursos e fornecer feedback antecipado, recomenda-se que você configure alguns dispositivos em sua empresa para usar *insiders-fast* ou *insiders-slow*.
+    Para visualizar novos recursos e fornecer comentários antecipados, é recomendável configurar alguns dispositivos em sua empresa para usar *insiders-fast* ou *insiders-slow*.
 
     > [!WARNING]
-    > A comutação do canal após a instalação inicial requer que o produto seja reinstalado. Para mudar o canal do produto: desinstalar o pacote existente, reconfigurar o dispositivo para usar o novo canal e seguir as etapas deste documento para instalar o pacote a partir do novo local.
+    > Alternar o canal após a instalação inicial exige que o produto seja reinstalado. Para alternar o canal do produto: desinstale o pacote existente, configure novamente seu dispositivo para usar o novo canal e siga as etapas deste documento para instalar o pacote no novo local.
 
     Observe sua distribuição e versão e identifique a entrada mais próxima para ela em `https://packages.microsoft.com/config/` .
 
-    Nos comandos a seguir, *substitua [distro]* e *[versão]* pelas informações identificadas.
+    Nos comandos a seguir, substitua *[distro]* e *[version]* pela informação que você identificou.
 
     > [!NOTE]
-    > No caso do Oracle Linux, substitua *[distro]* por "rhel".
+    > No caso do Oracle Linux, substitua *[distro]* por "remos".
 
   ```bash
   - name: Add Microsoft APT key
@@ -177,7 +177,7 @@ Crie um subtarefa ou arquivos de papel que contribuam para um livro de jogadas o
     when: ansible_os_family == "RedHat"
   ```
 
-- Crie os arquivos Ansible install and desinstalem os arquivos YAML.
+- Crie os arquivos YAML de instalação e desinstalação ansible.
 
     - Para distribuições baseadas em apt, use o seguinte arquivo YAML:
 
@@ -239,16 +239,16 @@ Crie um subtarefa ou arquivos de papel que contribuam para um livro de jogadas o
 
 ## <a name="deployment"></a>Implantação
 
-Agora execute os arquivos de tarefas em `/etc/ansible/playbooks/` diretório ou relevante.
+Agora execute os arquivos de tarefas em `/etc/ansible/playbooks/` ou diretório relevante.
 
-- instalação:
+- Instalação:
 
     ```bash
     ansible-playbook /etc/ansible/playbooks/install_mdatp.yml -i /etc/ansible/hosts
     ```
 
 > [!IMPORTANT]
-> Quando o produto começa pela primeira vez, ele baixa as últimas definições de antimalware. Dependendo da sua conexão com a Internet, isso pode levar até alguns minutos.
+> Quando o produto é iniciado pela primeira vez, ele baixa as definições antimalware mais recentes. Dependendo da conexão com a Internet, isso pode levar até alguns minutos.
 
 - Validação/configuração:
 
@@ -265,13 +265,13 @@ Agora execute os arquivos de tarefas em `/etc/ansible/playbooks/` diretório ou 
     ansible-playbook /etc/ansible/playbooks/uninstall_mdatp.yml -i /etc/ansible/hosts
     ```
 
-## <a name="log-installation-issues"></a>Problemas de instalação de registro
+## <a name="log-installation-issues"></a>Problemas de instalação de log
 
-Consulte [Problemas de instalação do Log](linux-resources.md#log-installation-issues) para obter mais informações sobre como encontrar o log gerado automaticamente criado pelo instalador quando ocorre um erro.
+Consulte [Log installation issues](linux-resources.md#log-installation-issues) for more information on how to find the automatically generated log that is created by the installer when an error occurs.
 
 ## <a name="operating-system-upgrades"></a>Atualizações do sistema operacional
 
-Ao atualizar seu sistema operacional para uma nova versão principal, você deve primeiro desinstalar o Defender para endpoint no Linux, instalar a atualização e, finalmente, reconfigurar o Defender para Endpoint no Linux em seu dispositivo.
+Ao atualizar o sistema operacional para uma nova versão principal, primeiro você deve desinstalar o Defender para o Ponto de Extremidade no Linux, instalar a atualização e, finalmente, reconfigurar o Defender para Ponto de Extremidade no Linux em seu dispositivo.
 
 ## <a name="references"></a>Referências
 
@@ -281,7 +281,7 @@ Ao atualizar seu sistema operacional para uma nova versão principal, você deve
 
 - [Adicionar e remover repositórios APT](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_repository_module.html)
 
-- [Gerenciar pacotes apt](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html)
+- [Gerenciar pacotes de apt](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html)
 
 ## <a name="see-also"></a>Confira também
 - [Investigar problemas de integridade do agente](health-status.md)

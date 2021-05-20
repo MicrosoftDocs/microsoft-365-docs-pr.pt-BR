@@ -46,7 +46,7 @@ Assista a um vídeo curto sobre o armazenamento de arquivos na nuvem do Microsof
 
 Se você achou este vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades para o Microsoft 365](../../business-video/index.yml).
 
-## <a name="microsoft-365-document-storage-and-management"></a>Microsoft 365 armazenamento e gerenciamento de documentos
+## <a name="microsoft-365-document-storage-and-management"></a>Microsoft 365 gerenciamento e armazenamento de documentos
 
 - O OneDrive foi projetado para uso individual, com compartilhamento ocasional de arquivos.
 
@@ -207,8 +207,8 @@ Você pode habilite um serviço de armazenamento de terceiros para seus usuário
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Adicione espaço de armazenamento para sua assinatura](../../commerce/add-storage-space.md) (artigo)
+[Adicionar espaço de armazenamento para sua assinatura](../../commerce/add-storage-space.md) (artigo)
 
 [Compartilhar arquivos e pastas com Microsoft 365 Business](https://support.microsoft.com/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65) (vídeo)
 
-[Personalize o site da sua equipe para armazenamento e compartilhamento de arquivos](customize-team-site.md) (artigo)
+[Personalizar seu site de equipe para armazenamento e compartilhamento de arquivos](customize-team-site.md) (artigo)

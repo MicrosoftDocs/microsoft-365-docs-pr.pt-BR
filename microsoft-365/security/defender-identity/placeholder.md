@@ -1,6 +1,6 @@
 ---
-title: Tópico do espaço reservado para criar a pasta em master-to-excluído
-description: Tópico do espaço reservado para criar a pasta em master-to-excluído
+title: Tópico de espaço reservado para criar a pasta no mestre a ser excluída
+description: Tópico de espaço reservado para criar a pasta no mestre a ser excluída
 keywords: ''
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -29,5 +29,5 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52572808"
 ---
-# <a name="placeholder-topic-to-create-the-folder-in-master-to-be-deleted"></a>Tópico do espaço reservado para criar a pasta em master-to-excluído
+# <a name="placeholder-topic-to-create-the-folder-in-master-to-be-deleted"></a>Tópico de espaço reservado para criar a pasta no mestre a ser excluída
 

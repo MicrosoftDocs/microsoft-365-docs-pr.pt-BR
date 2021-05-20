@@ -21,7 +21,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7dc1c01a-090f-4971-9677-f1b192d6c910
-description: Aprenda a definir chaves de registro para ativar a autenticação moderna para dispositivos que Microsoft Office 2013 instalados.
+description: Aprenda a definir chaves do Registro para habilitar a autenticação moderna para dispositivos que Microsoft Office 2013 instalados.
 ms.openlocfilehash: d358cb2ffb4284a51779e5a7c1dc894052b9ebc0
 ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
@@ -45,7 +45,7 @@ Para habilitar a autenticação moderna para os dispositivos com Windows (por ex
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL  |REG_DWORD  |1  |
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version |REG_DWORD |1 |
    
-Depois de definir as chaves de registro, você pode definir Office aplicativos de dispositivos de 2013 para usar a [autenticação multifatorial (MFA)](set-up-multi-factor-authentication.md) com Microsoft 365. 
+Depois de definir as chaves do Registro, você pode definir Office aplicativos de dispositivos 2013 para usar a [autenticação multifator (MFA)](set-up-multi-factor-authentication.md) com Microsoft 365. 
   
 Se você estiver conectado no momento a qualquer um dos aplicativos cliente, você precisará sair e entrar novamente para que a alteração entre em vigor. Caso contrário, o MRU e as configurações de roaming estarão indisponíveis até que a identidade de ADAL seja estabelecida.
   
@@ -59,7 +59,7 @@ Para desabilitar a autenticação moderna em um dispositivo, defina as seguintes
    
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Faça login em Office 2013 com um segundo método de verificação](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb) (artigo)
+[Entre no Office 2013 com um segundo método de verificação](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb) (artigo)
 
-[Outlook solicita senha e não usa autenticação moderna para se conectar a Office 365](/outlook/troubleshoot/authentication/outlook-prompt-password-modern-authentication-enabled) (artigo)
+Outlook solicita senha e [não usa Autenticação](/outlook/troubleshoot/authentication/outlook-prompt-password-modern-authentication-enabled) Moderna para se conectar ao Office 365 (artigo)
 

@@ -1,5 +1,5 @@
 ---
-title: Referência de prevenção de perda de dados
+title: Referência de Prevenção contra Perda de Dados
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -21,7 +21,7 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: material de referência de prevenção de perda de dados
+description: material de referência de prevenção contra perda de dados
 ms.openlocfilehash: a6dc0b2702899e05f78c54331fb33b87495672d8
 ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
@@ -29,10 +29,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52572556"
 ---
-# <a name="data-loss-prevention-reference"></a>Referência de prevenção de perda de dados
+# <a name="data-loss-prevention-reference"></a>Referência de prevenção contra perda de dados
  
 > [!IMPORTANT]
-> Este é o tema de referência não é mais o principal recurso para Microsoft 365 informações de prevenção de perda de dados (DLP). O conjunto de conteúdo DLP está sendo atualizado e reestruturado. Os tópicos abordados neste artigo passarão para novos artigos atualizados. Para obter mais informações sobre o DLP, consulte [Aprender sobre prevenção de perda de dados](dlp-learn-about-dlp.md).
+> Este é o tópico de referência não é mais o principal recurso para Microsoft 365 de prevenção contra perda de dados (DLP). O conjunto de conteúdo DLP está sendo atualizado e reestruturado. Os tópicos abordados neste artigo mudarão para artigos novos e atualizados. Para obter mais informações sobre DLP, consulte [Learn about data loss prevention](dlp-learn-about-dlp.md).
 
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
 <!-- move this note to a more appropriate place, no topic should start with a note -->
@@ -66,7 +66,7 @@ With a DLP policy, you can:
     To view alerts and metadata related to your DLP policies you can use the [DLP Alerts Management Dashboard](dlp-configure-view-alerts-policies.md). You can also view policy match reports to assess how your organization is complying with a DLP policy. If a DLP policy allows users to override a policy tip and report a false positive, you can also view what users have reported
 
 -->    
-## <a name="create-and-manage-dlp-policies"></a>Crie e gerencie políticas DLP
+## <a name="create-and-manage-dlp-policies"></a>Criar e gerenciar políticas DLP
 
 Você cria e gerencia políticas DLP na página Prevenção Contra Perda de Dados no Centro de conformidade do Microsoft 365.
   
@@ -385,7 +385,7 @@ Ao usar um [rótulo de retenção](retention.md#retention-labels) criado e publi
 
 ### <a name="using-a-sensitivity-label-as-a-condition-in-a-dlp-policy"></a>Usar um rótulo de confidencialidade como condição em uma política DLP
 
-[Saiba mais](./dlp-sensitivity-label-as-condition.md) sobre o uso do rótulo Sensibilidade como condição nas políticas de DLP.
+[Saiba mais](./dlp-sensitivity-label-as-condition.md) sobre como usar o rótulo de sensibilidade como condição nas políticas de DLP.
   
 ### <a name="how-this-feature-relates-to-other-features"></a>Como esse recurso se relaciona a outros recursos
 
@@ -520,7 +520,7 @@ Por esse motivo, as políticas de DLP verificam documentos em busca de correspon
 A DLP avalia qualquer conteúdo que pode ser indexado. Para saber mais sobre os tipos de arquivo que são rastreados por padrão, confira [Extensões de nomes de arquivos rastreados e tipos de arquivos padrão analisados no SharePoint Server](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types).
 
 > [!NOTE]
-> Para evitar que os documentos fossem compartilhados antes que as políticas de DLP tivessem a oportunidade de analisá-los, o compartilhamento de novos arquivos em SharePoint pode ser bloqueado até que seu conteúdo seja indexado. Confira [Marcar novos arquivos como confidenciais por padrão](/sharepoint/sensitive-by-default) para obter informações detalhadas. 
+> Para evitar que os documentos sejam compartilhados antes que as políticas DLP tivessem a oportunidade de analisá-los, o compartilhamento de novos arquivos no SharePoint pode ser bloqueado até que seu conteúdo seja indexado. Confira [Marcar novos arquivos como confidenciais por padrão](/sharepoint/sensitive-by-default) para obter informações detalhadas. 
   
 ### <a name="policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web"></a>Avaliação de políticas no Exchange Online, Outlook e Outlook na Web
 

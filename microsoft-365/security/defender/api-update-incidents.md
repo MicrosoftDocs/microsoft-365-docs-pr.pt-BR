@@ -1,7 +1,7 @@
 ---
-title: Atualizar a API incidente
+title: Atualizar API de incidentes
 description: Saiba como atualizar incidentes usando Microsoft 365 API do Defender
-keywords: atualização, api, incidente
+keywords: update, api, incident
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -27,7 +27,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52571776"
 ---
-# <a name="update-incident-api"></a>Atualizar a API incidente
+# <a name="update-incident-api"></a>Atualizar API de incidentes
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -40,26 +40,26 @@ ms.locfileid: "52571776"
 
 ## <a name="api-description"></a>Descrição da API
 
-Atualiza as propriedades do incidente existente. As propriedades de updatable são: ```status``` , , , e ```determination``` ```classification``` ```assignedTo``` ```tags``` ```comments``` .
+Atualiza as propriedades do incidente existente. As propriedades atualizáveis são: ```status``` , , , , e ```determination``` ```classification``` ```assignedTo``` ```tags``` ```comments``` .
 
 ### <a name="quotas-resource-allocation-and-other-constraints"></a>Cotas, alocação de recursos e outras restrições
 
-1. Você pode fazer até 50 chamadas por minuto ou 1500 chamadas por hora antes de atingir o limite de estrangulamento.
-2. Você só pode definir a `determination` propriedade se estiver definida como `classification` TruePositive.
+1. Você pode fazer até 50 chamadas por minuto ou 1500 chamadas por hora antes de atingir o limite de limite de limite.
+2. Você só pode definir `determination` a propriedade se estiver definida como `classification` TruePositive.
 
-Se sua solicitação for estrangulada, ela retornará um `429` código de resposta. O corpo de resposta indicará o momento em que você pode começar a fazer novas chamadas.
+Se sua solicitação for acelerada, ela retornará um `429` código de resposta. O corpo da resposta indicará a hora em que você pode começar a fazer novas chamadas.
 
 ## <a name="permissions"></a>Permissões
 
-Uma das seguintes permissões é necessária para chamar esta API. Para saber mais, incluindo como escolher permissões, consulte [Acessar as APIs Microsoft 365 Defender](api-access.md).
+Uma das seguintes permissões é necessária para chamar essa API. Para saber mais, incluindo como escolher permissões, consulte [Access the Microsoft 365 Defender APIs](api-access.md).
 
 Tipo de permissão | Permissão | Nome de exibição de permissão
 -|-|-
-Aplicativo | Incidente.ReadWrite.Todos | Leia e escreva todos os incidentes
-Delegado (conta corporativa ou de estudante) | Incidente.ReadWrite | Leia e escreva incidentes
+Aplicativo | Incident.ReadWrite.All | Ler e gravar todos os incidentes
+Delegada (conta corporativa ou de estudante) | Incident.ReadWrite | Incidentes de leitura e gravação
 
 > [!NOTE]
-> Ao obter um token usando credenciais do usuário, o usuário precisa ter permissão para atualizar o incidente no portal.
+> Ao obter um token usando credenciais de usuário, o usuário precisa ter permissão para atualizar o incidente no portal.
 
 ## <a name="http-request"></a>Solicitação HTTP
 
@@ -71,31 +71,31 @@ PATCH /api/incidents/{id}
 
 Nome | Tipo | Descrição
 -|-|-
-Autorização | Cadeia de caracteres | Portador {token}. **Obrigatório**.
+Autorização | String | Portador {token}. **Obrigatório**.
 Content-Type | Cadeia de Caracteres | application/json. **Obrigatório**.
 
 ## <a name="request-body"></a>Corpo da solicitação
 
-No órgão de solicitação, forneça os valores para os campos que devem ser atualizados. As propriedades existentes que não estão incluídas no órgão de solicitação manterão seus valores, a menos que tenham que ser recalculadas devido a alterações nos valores relacionados. Para obter melhor desempenho, você deve omitir valores existentes que não mudaram.
+No corpo da solicitação, fornece os valores para os campos que devem ser atualizados. As propriedades existentes que não estão incluídas no corpo da solicitação manterão seus valores, a menos que elas tenham que ser recalculadas devido a alterações nos valores relacionados. Para melhor desempenho, você deve omitir valores existentes que não foram alterados.
 
 Propriedade | Tipo | Descrição
 -|-|-
-status | Enum | Especifica o estado atual do incidente. Os valores possíveis são: ```Active``` ```Resolved``` , , e ```Redirected``` .
-assignedTo | cadeia de caracteres | O dono do incidente.
+status | Enum | Especifica o status atual do incidente. Os valores possíveis são: ```Active``` ```Resolved``` , e ```Redirected``` .
+assignedTo | cadeia de caracteres | Proprietário do incidente.
 classificação | Enum | Especificação do incidente. Os valores possíveis são: ```Unknown```, ```FalsePositive```, ```TruePositive```.
 determinação | Enum | Especifica a determinação do incidente. Os valores possíveis são: ```NotAvailable```, ```Apt```, ```Malware```, ```SecurityPersonnel```, ```SecurityTesting```, ```UnwantedSoftware```, ```Other```.
-tags | lista de strings | Lista de etiquetas de incidente.
+tags | string List | Lista de marcas de incidente.
 comment | string | Comentário a ser adicionado ao incidente.
 
 ## <a name="response"></a>Resposta
 
-Se for bem sucedido, este método retorna `200 OK` . O corpo de resposta conterá a entidade incidente com propriedades atualizadas. Se um incidente com a ID especificada não foi encontrado, o método retorna `404 Not Found` .
+Se tiver êxito, este método retornará `200 OK` . O corpo da resposta conterá a entidade de incidente com propriedades atualizadas. Se um incidente com a ID especificada não for encontrado, o método retornará `404 Not Found` .
 
 ## <a name="example"></a>Exemplo
 
 **Solicitação**
 
-Aqui está um exemplo do pedido.
+Veja um exemplo da solicitação.
 
 ```HTTP
  PATCH https://api.security.microsoft.com/api/incidents/{id}
@@ -127,9 +127,9 @@ Aqui está um exemplo do pedido.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Acesse as APIs do Microsoft 365 Defender](api-access.md)
-- [Conheça os limites e licenciamento da API](api-terms.md)
-- [Entenda códigos de erro](api-error-codes.md)
+- [Acessar as APIs Microsoft 365 Defender](api-access.md)
+- [Saiba mais sobre limites de API e licenciamento](api-terms.md)
+- [Compreender códigos de erro](api-error-codes.md)
 - [APIs de Incidente](api-incident.md)
 - [Listar incidentes](api-list-incidents.md)
 - [Visão geral dos incidentes](incidents-overview.md)
