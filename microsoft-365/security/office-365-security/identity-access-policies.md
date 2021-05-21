@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 42ab124f3026cf0b7441edf44c0e6433be5f0ecd
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: e7148e666b7d96d6de328089fccc4bb444b9f502
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583659"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594000"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 
@@ -63,9 +63,9 @@ Para dar tempo para realizar essas tarefas, recomendamos implementar as polític
 ||[Aplicar proteção de dados app (políticas de proteção de aplicativos)](#apply-app-data-protection-policies)|Uma política de Proteção de Aplicativo do Intune por plataforma (Windows, iOS/iPadOS, Android).|Microsoft 365 E3 ou E5|
 ||[Exigir aplicativos aprovados e proteção de aplicativos](#require-approved-apps-and-app-protection)|Impõe a proteção de aplicativos móveis para telefones e tablets usando iOS, iPadOS ou Android.|Microsoft 365 E3 ou E5|
 ||[Definir políticas de conformidade de dispositivo](#define-device-compliance-policies)|Uma política para cada plataforma.|Microsoft 365 E3 ou E5|
-||[Exigir PCs compatíveis](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Impõe o gerenciamento do Intune de computadores usando Windows ou MacOS.|Microsoft 365 E3 ou E5|
+||[Exigir PCs compatíveis](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Impõe o gerenciamento do Intune de computadores usando Windows ou macOS.|Microsoft 365 E3 ou E5|
 |**Confidencial**|[Exigir MFA quando o risco de entrar é *baixo,* *médio* ou *alto*](#require-mfa-based-on-sign-in-risk)||Microsoft 365 E5 ou Microsoft 365 E3 com o complemento segurança do E5|
-||[Exigir PCs e *dispositivos* móveis compatíveis](#require-compliant-pcs-and-mobile-devices)|Impõe o gerenciamento do Intune para computadores (Windows ou MacOS) e telefones ou tablets (iOS, iPadOS ou Android).|Microsoft 365 E3 ou E5|
+||[Exigir PCs e *dispositivos* móveis compatíveis](#require-compliant-pcs-and-mobile-devices)|Impõe o gerenciamento do Intune para computadores (Windows ou macOS) e telefones ou tablets (iOS, iPadOS ou Android).|Microsoft 365 E3 ou E5|
 |**Altamente controlado**|[*Sempre* exigir MFA](#assigning-policies-to-groups-and-users)||Microsoft 365 E3 ou E5|
 |
 

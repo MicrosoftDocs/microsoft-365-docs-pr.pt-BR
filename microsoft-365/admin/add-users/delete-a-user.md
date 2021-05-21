@@ -19,19 +19,19 @@ ms.custom:
 search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
-description: Saiba como excluir uma conta de usuário. Decida o que fazer com o email e o conteúdo OneDrive usuário. E decida se deve manter a licença do produto ou parar de pagar por ela.
-ms.openlocfilehash: f4b1e0b1fb591d369cc09010db86dd995d7d4896
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Saiba como excluir uma conta de usuário e o que fazer com o email do usuário e OneDrive conteúdo e se deve manter a licença do produto.
+ms.openlocfilehash: c30edb598f659337778ec956737934da5fedad18
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535969"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593400"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Excluir um usuário da sua organização
   
 **Procurando como excluir sua *própria* conta de Microsoft 365 que você usa no trabalho ou na escola? Entre em contato com o suporte técnico em seu trabalho ou universidade para fazer estas etapas para você.**
 
-## <a name="what-you-need-to-know-about-deleting-users"></a>O que você precisa saber sobre a exclusão de usuários
+## <a name="before-you-begin"></a>Antes de começar
 
 - Somente as pessoas que [têm Microsoft 365 administrador global](about-admin-roles.md) ou permissões de gerenciamento de usuário para a empresa ou escola podem excluir contas de usuário.
 - Você tem até 30 dias para [restaurar](restore-user.md) a conta, antes que os dados do usuário sejam excluídos permanentemente.
@@ -169,14 +169,14 @@ Aqui estão os problemas mais comuns que as pessoas encontram ao excluir um usu�
 
 **Deseja excluir o Microsoft 365 do computador? Vá para [Cancelar sua assinatura](../../commerce/subscriptions/cancel-your-subscription.md).**
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Restaurar um usuário](restore-user.md)
+[Restaurar um usuário](restore-user.md) (artigo)
   
-[Excluir permanentemente uma caixa de correio](/exchange/permanently-delete-a-mailbox-exchange-2013-help)
+[Excluir permanentemente uma caixa de correio](/exchange/permanently-delete-a-mailbox-exchange-2013-help) (artigo)
 
-[Remover um ex-funcionário do Office 365](remove-former-employee.md)
+[Remover um ex-funcionário do Office 365](remove-former-employee.md) (artigo)
 
-[Adicionar um novo funcionário ao Office 365](add-new-employee.md)
+[Adicionar um novo funcionário ao Office 365](add-new-employee.md) (artigo)
 
-[Excluir uma Conta de Usuário](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11)): Use estas instruções se sua empresa usar o Active **Directory** que está sincronizando com o Azure AD. Não é possível fazê-lo no Office 365.
+[Excluir uma Conta de Usuário](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11)): Use estas instruções se sua empresa usar o Active **Directory** que está sincronizando com o Azure AD. Não é possível fazê-lo no Office 365. (artigo)

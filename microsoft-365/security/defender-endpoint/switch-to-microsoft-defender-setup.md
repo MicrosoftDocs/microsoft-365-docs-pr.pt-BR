@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-migratetomdatp
 ms.topic: article
 ms.custom: migrationguides
-ms.date: 05/14/2021
+ms.date: 05/20/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: e8abf10bd036b5e6e76d08e86ab4963629d2f994
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 2ea8cc323220024406a49eda8d6a7c0b42ca71a4
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537986"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594044"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-2-setup"></a>Alternar para o Microsoft Defender para o Ponto de Extremidade - Fase 2: Instalação
 
@@ -41,35 +41,31 @@ ms.locfileid: "52537986"
 **Bem-vindo à fase de Instalação [da alternação para Defender para Ponto de Extremidade](switch-to-microsoft-defender-migration.md#the-migration-process)**. Esta fase inclui as seguintes etapas:
 
 1. [Reinstalar/habilitar Microsoft Defender Antivírus em seus pontos de extremidade.](#reinstallenable-microsoft-defender-antivirus-on-your-endpoints)
-
 2. [Configurar o Defender para o Ponto de Extremidade](#configure-defender-for-endpoint).
-
 3. [Adicione o Defender para Ponto de Extremidade à lista de exclusão da solução existente.](#add-microsoft-defender-for-endpoint-to-the-exclusion-list-for-your-existing-solution)
-
 4. [Adicione sua solução existente à lista de exclusões para Microsoft Defender Antivírus](#add-your-existing-solution-to-the-exclusion-list-for-microsoft-defender-antivirus).
-
 5. [Configurar grupos de dispositivos, coleções de dispositivos e unidades organizacionais.](#set-up-your-device-groups-device-collections-and-organizational-units)
-
 6. [Configurar políticas antimalware e proteção em tempo real.](#configure-antimalware-policies-and-real-time-protection)
 
 
 ## <a name="reinstallenable-microsoft-defender-antivirus-on-your-endpoints"></a>Reinstalar/habilitar Microsoft Defender Antivírus em seus pontos de extremidade
 
-Em determinadas versões do Windows, Microsoft Defender Antivírus é provavelmente desinstalada ou desabilitada quando sua solução antivírus/antimalware não Microsoft foi instalada. Para obter mais informações, [consulte Microsoft Defender Antivírus compatibilidade](microsoft-defender-antivirus-compatibility.md).
+Em determinadas versões do Windows, Microsoft Defender Antivírus provavelmente foi desinstalada ou desabilitada quando sua solução antivírus/antimalware não Microsoft foi instalada. A menos que e até que os dispositivos sejam integradas ao Defender para Ponto de Extremidade, o Microsoft Defender Antivírus não é executado no modo ativo juntamente com uma solução antivírus que não seja da Microsoft. Para saber mais, confira [Microsoft Defender Antivírus compatibilidade](microsoft-defender-antivirus-compatibility.md).
 
-Em Windows clientes, quando uma solução antivírus/antimalware não Microsoft é instalada, o Microsoft Defender Antivírus é desabilitado automaticamente até que esses dispositivos sejam integradas ao Defender para Ponto de Extremidade. Quando os pontos de extremidade do cliente são integradas ao Defender para Ponto de Extremidade, Microsoft Defender Antivírus entra no modo passivo até que a solução antivírus não Microsoft seja desinstalada. Microsoft Defender Antivírus ainda deve ser instalado, mas provavelmente está desabilitado neste ponto do processo de migração. A menos Microsoft Defender Antivírus tenha sido desinstalado, você não precisa tomar nenhuma ação para seus Windows clientes.
+Agora que você está planejando mudar para o Defender para o Ponto de Extremidade, talvez seja necessário tomar determinadas etapas para reinstalar ou habilitar Microsoft Defender Antivírus. 
 
-Em Windows servidores, quando um antivírus/antimalware não microsoft em instalado, Microsoft Defender Antivírus é desabilitado manualmente (se não desinstalado). As tarefas a seguir ajudam a garantir que Microsoft Defender Antivírus seja instalado e definido como modo passivo no Windows Server.
 
-- [Definir DisableAntiSpyware como false no Windows Server](#set-disableantispyware-to-false-on-windows-server) (somente se necessário)
+| Tipo de ponto de extremidade  | O que fazer  |
+|---------|---------|
+| Windows clientes (como pontos de extremidade executando Windows 10)     | Em geral, você não precisa tomar nenhuma ação para Windows clientes (a menos que Microsoft Defender Antivírus tenha sido desinstalado). Veja por que: <p>Microsoft Defender Antivírus ainda deve ser instalado, mas provavelmente desabilitado neste ponto do processo de migração.<p> Quando uma solução antivírus/antimalware não Microsoft é instalada e os clientes ainda não estão integradas ao Defender para Ponto de Extremidade, o Microsoft Defender Antivírus é desabilitado automaticamente. <p>Mais tarde, quando os pontos de extremidade do cliente são integradas ao Defender para Ponto de Extremidade, se esses pontos de extremidade estão executando uma solução antivírus que não seja da Microsoft, Microsoft Defender Antivírus entra no modo passivo. <p>Se a solução antivírus não Microsoft for desinstalada, Microsoft Defender Antivírus entrar no modo ativo automaticamente.  |
+|Windows servidores     | No Windows Server, você precisará reinstalar Microsoft Defender Antivírus e defini-lo para o modo passivo manualmente. Veja por que: <p>Em Windows servidores, quando um antivírus/antimalware não Microsoft é instalado, o Microsoft Defender Antivírus não pode ser executado juntamente com a solução antivírus que não seja da Microsoft. Nesses casos, o Microsoft Defender Antivírus está desabilitado ou desinstalado manualmente. <p>Para reinstalar ou habilitar Microsoft Defender Antivírus no Windows Server, execute os seguintes procedimentos: <p>- [Definir DisableAntiSpyware como false no Windows Server](#set-disableantispyware-to-false-on-windows-server) (somente se necessário)<br/>- [Reinstalar Microsoft Defender Antivírus no Windows Server](#reinstall-microsoft-defender-antivirus-on-windows-server)<br/>- [Definir Microsoft Defender Antivírus modo passivo no Windows Server](#set-microsoft-defender-antivirus-to-passive-mode-on-windows-server)       |
 
-- [Reinstalar Microsoft Defender Antivírus no Windows Server](#reinstall-microsoft-defender-antivirus-on-windows-server) 
 
-- [Definir Microsoft Defender Antivírus modo passivo no Windows Server](#set-microsoft-defender-antivirus-to-passive-mode-on-windows-server)
+Para saber mais sobre Microsoft Defender Antivírus com proteção antivírus não Microsoft, [consulte Microsoft Defender Antivírus compatibilidade.](microsoft-defender-antivirus-compatibility.md)
 
 ### <a name="set-disableantispyware-to-false-on-windows-server"></a>Definir DisableAntiSpyware como false no Windows Server
 
-A chave do Registro [DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) foi usada no passado para desabilitar o Microsoft Defender Antivírus e implantar outro produto antivírus, como McAfee, Symantec ou outros. Em geral, você não deve ter essa chave do Registro em seus Windows dispositivos e pontos de extremidade; no entanto, se você `DisableAntiSpyware` tiver configurado, veja como definir seu valor como false:
+A chave do Registro [DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) foi usada no passado para desabilitar o Microsoft Defender Antivírus e implantar outro produto antivírus, como McAfee, Symantec ou outros. **Em geral, você não deve ter essa** chave do Registro em seus Windows e pontos de extremidade; no entanto, se *você* `DisableAntiSpyware` tiver configurado, veja como definir seu valor como false:
 
 1. Em seu Windows servidor, abra Editor do Registro.
 
@@ -100,11 +96,11 @@ A chave do Registro [DisableAntiSpyware](/windows-hardware/customize/desktop/una
    `Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features` <p>
    `Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender` <br/>
  
-    > [!NOTE]
-    > Ao usar o comando DISM em uma sequência de tarefas executando o PS, o caminho a seguir para cmd.exe é necessário.
-    > Exemplo:<br/>
-    > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features`<p>
-    > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender`<br/>
+   > [!NOTE]
+   > Ao usar o comando DISM em uma sequência de tarefas executando o PS, o caminho a seguir para cmd.exe é necessário.
+   > Exemplo:<br/>
+   > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features`<p>
+   > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender`<br/>
 
 3. Para verificar Microsoft Defender Antivírus está em execução, use o seguinte cmdlet do PowerShell: <br/>
    `Get-Service -Name windefend`
@@ -127,11 +123,14 @@ A chave do Registro [DisableAntiSpyware](/windows-hardware/customize/desktop/una
 
 Se você tiver pontos de extremidade executando Windows Server 2016, não poderá Microsoft Defender Antivírus com uma solução antivírus/antimalware que não seja da Microsoft. Microsoft Defender Antivírus pode ser executado no modo passivo Windows Server 2016. Nesse caso, você precisará desinstalar a solução antivírus/antimalware que não seja da Microsoft e instalar/habilitar Microsoft Defender Antivírus. Para saber mais, confira [compatibilidade da solução antivírus com o Defender para Ponto de Extremidade](microsoft-defender-antivirus-compatibility.md).
 
-Se você estiver usando Windows Server 2016 e estiver com problemas para habilcular Microsoft Defender Antivírus, use o seguinte cmdlet do PowerShell:
+Se você estiver usando Windows Server 2016 e estiver com problemas para habil Microsoft Defender Antivírus, siga estas etapas:
 
-`mpcmdrun -wdenable`
+1. No dispositivo, abra o PowerShell como administrador.
 
-Para obter mais informações, [consulte Microsoft Defender Antivírus no Windows Server](microsoft-defender-antivirus-on-windows-server.md).
+2. Digite o seguinte cmdlet do PowerShell: `mpcmdrun -wdenable`
+
+> [!TIP]
+> Para obter mais informações, [consulte Microsoft Defender Antivírus no Windows Server](microsoft-defender-antivirus-on-windows-server.md).
 
 ## <a name="configure-defender-for-endpoint"></a>Configurar o Defender para Ponto de Extremidade
 
@@ -171,14 +170,13 @@ Durante esta etapa do processo de instalação, adicione sua solução existente
 
 ### <a name="keep-the-following-points-about-exclusions-in-mind"></a>Lembre-se dos seguintes pontos sobre exclusões
 
-Quando você adiciona [exclusões a Microsoft Defender Antivírus verificações,](/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus)você deve adicionar exclusões de caminho e processo. Lembre-se dos seguintes pontos:
+Quando você adiciona [exclusões a Microsoft Defender Antivírus verificações,](/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus)você deve adicionar exclusões de caminho e processo. 
+
+Lembre-se dos seguintes pontos:
 
 - *As exclusões de caminho* excluem arquivos específicos e qualquer que seja o acesso a esses arquivos.
-
 - *As exclusões de processo* excluem o que um processo toca, mas não exclui o processo em si.
-
 - Listar suas exclusões de processo usando seu caminho completo e não apenas pelo nome. (O método somente nome é menos seguro.)
-
 - Se você listar cada executável (.exe) como uma exclusão de caminho e uma exclusão de processo, o processo e o que ele toca serão excluídos.
 
 
@@ -197,7 +195,6 @@ Grupos de dispositivos, coleções de dispositivos e unidades organizacionais pe
 Usando o Configuration Manager e suas coleções de dispositivos, configure suas políticas antimalware.
 
 - Consulte [Create and deploy antimalware policies for Endpoint Protection in Configuration Manager](/mem/configmgr/protect/deploy-use/endpoint-antimalware-policies).
-
 - Enquanto você cria e configura suas políticas antimalware, revise as configurações de proteção em tempo [real](/mem/configmgr/protect/deploy-use/endpoint-antimalware-policies#real-time-protection-settings) e [habilita](configure-block-at-first-sight-microsoft-defender-antivirus.md)o bloqueio à primeira vista.
 
 > [!TIP]

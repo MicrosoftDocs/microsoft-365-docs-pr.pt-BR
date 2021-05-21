@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: Neste artigo, os administradores podem aprender sobre a proteção Cofre Links no Defender para Office 365 proteger sua organização contra phishing e outros ataques que usam URLs mal-intencionadas.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 573fd5b92400996fa595b5953028e20fcecec976
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 407f04685e41269c0e8436d3b68db7d755fce129
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583575"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593564"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Cofre Links no Microsoft Defender para Office 365
 
@@ -54,7 +54,7 @@ Cofre A proteção de links está disponível nos seguintes locais:
   Para obter mais informações sobre Cofre de links para mensagens de email, consulte [Cofre configurações](#safe-links-settings-for-email-messages) de links para mensagens de email mais adiante neste artigo.
   
   > [!NOTE]
-  > Links de venda não funcionam em pastas públicas habilitadas para email.
+  > Cofre Os links não funcionam em pastas públicas habilitadas para email.
 
 - **Microsoft Teams** (atualmente no TAP Preview): a proteção de links Cofre links para links em conversas de Teams, chats de grupo ou de canais também é controlada por políticas Cofre Links. Não há nenhuma política Cofre links padrão, portanto, para obter a proteção de links Cofre **no Teams, você** precisa criar uma ou mais políticas Cofre Links.
 

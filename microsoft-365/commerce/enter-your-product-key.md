@@ -19,14 +19,14 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_purchase
-description: Saiba como resgatar uma chave Microsoft 365 Business Standard de produto comprada em uma loja de varejo.
+description: Se você comprou Microsoft 365 Business Standard de uma loja de varejo, saiba como resgatar a chave do produto e ativar sua assinatura.
 ms.date: 11/13/2020
-ms.openlocfilehash: b313b38fbb4fff332bb13402dc5af5db4e0bf676
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: bc2b07b5a98c13a919596bdbf85a21bdc6c8d2bf
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331713"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593387"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Insira a chave do produto para Microsoft 365 Business Standard
 
@@ -66,3 +66,11 @@ Se você for novo no Microsoft 365 para empresas, saiba como [configurar o Micro
 Confira esta lista de erros e soluções comuns: Problemas com a chave do produto Microsoft 365 [para empresas?](product-key-errors-and-solutions.md)
   
 Ou, [chame o Suporte da Microsoft.](../business-video/get-help-support.md)
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Atualizar para um plano diferente](./subscriptions/upgrade-to-different-plan.md) (artigo)
+
+[O que acontecerá com meus dados e o acesso ao Microsoft 365 para empresas quando a assinatura terminar?](./subscriptions/what-if-my-subscription-expires.md) (artigo)
+
+[Compreender assinaturas e licenças no Microsoft 365 para empresas](./licenses/subscriptions-and-licenses.md) (artigo)

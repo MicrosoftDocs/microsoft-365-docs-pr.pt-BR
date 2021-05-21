@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-migratetomdatp
 ms.custom: migrationguides
 ms.topic: article
-ms.date: 05/14/2021
+ms.date: 05/20/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 0ba6f3da326223dcefb1c29f91c5a631ec8a866c
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 939fea5b815827f5afbe6cdf78fd9335da6337e8
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539162"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594056"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-3-onboard"></a>Alternar para o Microsoft Defender para o Ponto de Extremidade - Fase 3: Onboard
 
@@ -42,20 +42,15 @@ ms.locfileid: "52539162"
 **Bem-vindo à Fase 3 [da alternação para o Defender para o Ponto de Extremidade](switch-to-microsoft-defender-migration.md#the-migration-process)**. Essa fase de migração inclui as seguintes etapas:
 
 1. [Dispositivos de integração com o Defender para Ponto de Extremidade](#onboard-devices-to-microsoft-defender-for-endpoint).
-
 2. [Execute um teste de detecção](#run-a-detection-test).
-
 3. [Confirme se Microsoft Defender Antivírus está no modo passivo em seus pontos de extremidade](#confirm-that-microsoft-defender-antivirus-is-in-passive-mode-on-your-endpoints).
-
 4. [Obter atualizações para Microsoft Defender Antivírus](#get-updates-for-microsoft-defender-antivirus).
-
 5. [Desinstale sua solução que não seja da Microsoft.](#uninstall-your-non-microsoft-solution) 
-
 6. [Certifique-se de que o Defender para o Ponto de Extremidade está funcionando corretamente.](#make-sure-defender-for-endpoint-is-working-correctly)
 
 ## <a name="onboard-devices-to-microsoft-defender-for-endpoint"></a>Dispositivos integrados ao Microsoft Defender para Ponto de Extremidade
 
-1. Vá para o Central de Segurança do Microsoft Defender ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ) e entre.
+1. Vá para o Central de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ) e entre.
 
 2. Escolha **Configurações**  >  **Gerenciamento de**  >  **dispositivos Integrando**. 
 
@@ -73,9 +68,9 @@ Os métodos de implantação variam, dependendo do sistema operacional e dos mé
 | Windows 8.1 Enterprise <p>Windows 8.1 Pro <p>Windows 7 sp1 Enterprise <p>Windows 7 sp1 Pro     | [Microsoft Monitoring Agent](onboard-downlevel.md)<p>**OBSERVAÇÃO**: Microsoft Monitoring Agent agora é agente do Azure Log Analytics. Para saber mais, confira [Visão geral do agente do Log Analytics.](/azure/azure-monitor/platform/log-analytics-agent)        |
 | Windows Server 2019 e posterior <p>Windows Edição principal do Server 2019 <p>Windows Servidor versão 1803 e posterior | [Script local](configure-endpoints-script.md) <p>[Política de grupo](configure-endpoints-gp.md) <p>[Configuration Manager](configure-endpoints-sccm.md) <p>[System Center Configuration Manager](configure-endpoints-sccm.md) <p>[Scripts de integração VDI para dispositivos não persistentes](configure-endpoints-vdi.md) <p>**OBSERVAÇÃO**: um script local é adequado para uma prova de conceito, mas não deve ser usado para implantação de produção. Para uma implantação de produção, recomendamos usar a Política de Grupo, Microsoft Endpoint Configuration Manager ou Intune.    |
 | Windows Server 2016 <p>Windows Server 2012 R2 <p>Windows Server 2008 R2 SP1  | [Central de Segurança do Microsoft Defender](configure-server-endpoints.md)<p>[Azure Defender](/azure/security-center/security-center-wdatp) |
-|macOS:<p>11.3.1 (Big Sur) <p>10.15 (Catalina)<p>10.14 (Mojave)|[Dispositivos Windows não integrados](configure-endpoints-non-windows.md)  |
-|iOS |[Dispositivos Windows não integrados](configure-endpoints-non-windows.md)  |
-|Linux:<p>RHEL 7.2+<p>CentOS Linux 7.2+<p>Ubuntu 16 LTS ou LTS superior<p>SLES 12+<p>Debian 9+<p>Oracle Linux 7.2 |[Dispositivos Windows não integrados](configure-endpoints-non-windows.md)  |
+| macOS:<p>11.3.1 (Big Sur) <p>10.15 (Catalina)<p>10.14 (Mojave) | [Dispositivos Windows não integrados](configure-endpoints-non-windows.md)  |
+| iOS | [Dispositivos Windows não integrados](configure-endpoints-non-windows.md)  |
+| Linux:<p>RHEL 7.2+<p>CentOS Linux 7.2+<p>Ubuntu 16 LTS ou LTS superior<p>SLES 12+<p>Debian 9+<p>Oracle Linux 7.2 | [Dispositivos Windows não integrados](configure-endpoints-non-windows.md)  |
 
 ## <a name="run-a-detection-test"></a>Executar um teste de detecção
 
@@ -83,18 +78,18 @@ Para verificar se seus dispositivos conectados estão conectados corretamente ao
 
 |Sistema operacional  |Orientação  |
 |---------|---------|
-| Windows 10 <p>Windows Server 2019 <p>Windows Servidor, versão 1803 <p>Windows Server 2016 <p>Windows Server 2012 R2     | Consulte [Executar um teste de detecção](run-detection-test.md). <p>Visite o site de cenários de demonstração do Defender para Ponto de Extremidade ( ) e experimente um ou mais [https://demo.wd.microsoft.com](https://demo.wd.microsoft.com) dos cenários. Por exemplo, experimente o **cenário de demonstração de proteção entregue na** nuvem.         |
-| macOS:<p>11.3.1 (Big Sur) <p>10.15 (Catalina)<p>10.14 (Mojave)    |Baixe e use o aplicativo DIY em [https://aka.ms/mdatpmacosdiy](https://aka.ms/mdatpmacosdiy) . <p>Para obter mais informações, [consulte Defender for Endpoint on macOS](microsoft-defender-endpoint-mac.md).        |
-| Linux:<p>RHEL 7.2+<p>CentOS Linux 7.2+<p>Ubuntu 16 LTS ou LTS superior<p>SLES 12+<p>Debian 9+<p>Oracle Linux 7.2 |1. Execute o seguinte comando e procure um resultado de **1**: <br/>`mdatp health --field real_time_protection_enabled`. <p>2. Abra uma janela de Terminal e execute o seguinte comando: <br/>`curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt`. <p>3. Execute o seguinte comando para listar quaisquer ameaças detectadas: <br/>`mdatp threat list`. <p>Para obter mais informações, [consulte Defender for Endpoint on Linux](microsoft-defender-endpoint-linux.md). |
+| Windows 10 <p>Windows Server 2019 <p>Windows Servidor, versão 1803 <p>Windows Server 2016 <p>Windows Server 2012 R2     | Consulte [Executar um teste de detecção](run-detection-test.md). <p>Visite o site de cenários de demonstração do Defender para Ponto de Extremidade ( ) e experimente um ou mais [https://demo.wd.microsoft.com](https://demo.wd.microsoft.com) dos cenários. Por exemplo, experimente o **cenário de demonstração de proteção entregue na** nuvem.    |
+| macOS:<p>11.3.1 (Big Sur) <p>10.15 (Catalina)<p>10.14 (Mojave)    | Baixe e use o aplicativo DIY em [https://aka.ms/mdatpmacosdiy](https://aka.ms/mdatpmacosdiy) . <p>Para obter mais informações, [consulte Defender for Endpoint on macOS](microsoft-defender-endpoint-mac.md).        |
+| Linux:<p>RHEL 7.2+<p>CentOS Linux 7.2+<p>Ubuntu 16 LTS ou LTS superior<p>SLES 12+<p>Debian 9+<p>Oracle Linux 7.2 | 1. Execute o seguinte comando e procure um resultado de **1**: <br/>`mdatp health --field real_time_protection_enabled`. <p>2. Abra uma janela de Terminal e execute o seguinte comando: <br/>`curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt`. <p>3. Execute o seguinte comando para listar quaisquer ameaças detectadas: <br/>`mdatp threat list`. <p>Para obter mais informações, [consulte Defender for Endpoint on Linux](microsoft-defender-endpoint-linux.md). |
 
 ## <a name="confirm-that-microsoft-defender-antivirus-is-in-passive-mode-on-your-endpoints"></a>Confirme se Microsoft Defender Antivírus está no modo passivo em seus pontos de extremidade
 
 Agora que seus pontos de extremidade foram integrados ao Defender para Ponto de Extremidade, sua próxima etapa é garantir Microsoft Defender Antivírus está sendo executado no modo passivo. Você pode usar o Prompt de Comando ou o PowerShell para executar essa tarefa, conforme descrito na tabela a seguir:
 
-|Método  |O que fazer  |
-|---------|---------|
+| Método  | O que fazer  |
+|:-------|:-------|
 |Prompt de comando     | 1. Em um Windows, abra o Prompt de Comando como administrador.<p>2. Digite `sc query windefend` e pressione Enter.<p>3. Revise os resultados para confirmar se o Microsoft Defender Antivírus está sendo executado no modo passivo.         |
-|PowerShell     | 1. Em um Windows, abra Windows PowerShell como administrador.<p>2. Execute o cmdlet [Get-MpComputerStatus.](/powershell/module/defender/Get-MpComputerStatus) <p>3. Na lista de resultados, procure **AMRunningMode: Modo** Passivo ou **AMRunningMode: Modo Passivo SxS**.          |
+| PowerShell     | 1. Em um Windows, abra Windows PowerShell como administrador.<p>2. Execute o cmdlet [Get-MpComputerStatus.](/powershell/module/defender/Get-MpComputerStatus) <p>3. Na lista de resultados, procure **AMRunningMode: Modo** Passivo ou **AMRunningMode: Modo Passivo SxS**.    |
 
 > [!NOTE]
 > Você pode ver *Windows Defender Antivírus* em vez *de Microsoft Defender Antivírus* em algumas versões do Windows.
@@ -122,21 +117,30 @@ Se você estiver usando Windows Server 2016, talvez seja preciso iniciar Microso
 
 ## <a name="get-updates-for-microsoft-defender-antivirus"></a>Obter atualizações para Microsoft Defender Antivírus
 
-Manter Microsoft Defender Antivírus atualizado é fundamental para garantir que seus dispositivos tenham a tecnologia e os recursos mais recentes necessários para proteger contra novas técnicas de malware e ataque, mesmo que o Microsoft Defender Antivírus seja executado no modo passivo [.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
+Manter Microsoft Defender Antivírus atualizado é fundamental para garantir que seus dispositivos tenham a tecnologia e os recursos mais recentes necessários para proteger contra novas técnicas de malware e ataque, mesmo que o Microsoft Defender Antivírus seja executado no modo passivo. (Consulte [Microsoft Defender Antivírus compatibilidade](microsoft-defender-antivirus-compatibility.md).)
 
 Há dois tipos de atualizações relacionadas à Microsoft Defender Antivírus atualizadas:
+
 - Atualizações de inteligência de segurança
 - Atualizações de produtos
 
-Para obter suas atualizações, siga as diretrizes em Gerenciar atualizações [Microsoft Defender Antivírus e aplicar linhas de base.](/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus)
+Para obter suas atualizações, siga as diretrizes em Gerenciar atualizações [Microsoft Defender Antivírus e aplicar linhas de base.](manage-updates-baselines-microsoft-defender-antivirus.md)
 
 ## <a name="uninstall-your-non-microsoft-solution"></a>Desinstalar sua solução que não seja da Microsoft
 
-Agora que você insinuou os dispositivos da sua organização no Defender para Ponto de Extremidade e Microsoft Defender Antivírus está instalado e habilitado, sua próxima etapa é desinstalar sua solução de proteção de ponto de extremidade que não seja da Microsoft. Para obter ajuda com essa tarefa, entre em contato com a equipe de suporte técnico do provedor de soluções.
+Se neste ponto você tiver:
+
+- Integramos os dispositivos da sua organização ao Defender para Ponto de Extremidade e 
+- Microsoft Defender Antivírus está instalado e habilitado, 
+
+Em seguida, sua próxima etapa é desinstalar sua solução de proteção de ponto de extremidade que não seja da Microsoft. 
+
+Para obter ajuda com essa tarefa, entre em contato com a equipe de suporte técnico do provedor de soluções.
 
 ## <a name="make-sure-defender-for-endpoint-is-working-correctly"></a>Certifique-se de que o Defender para o Ponto de Extremidade está funcionando corretamente
 
 Agora que você embarcou no Defender para Ponto de Extremidade e desinstalou sua solução anterior não-Microsoft, a próxima etapa é garantir que o Defender para Ponto de Extremidade funciona corretamente. Uma boa maneira de fazer isso é visitando o site de cenários de demonstração do Defender for Endpoint ( [https://demo.wd.microsoft.com](https://demo.wd.microsoft.com) ). Experimente um ou mais dos cenários de demonstração nessa página, incluindo pelo menos o seguinte:
+
 - Proteção fornecida na nuvem
 - Aplicativos potencialmente indesejados (PUA)
 - Proteção de Rede (NP)
@@ -145,6 +149,5 @@ Agora que você embarcou no Defender para Ponto de Extremidade e desinstalou sua
 
 **Parabéns**! Você concluiu sua [migração para o Defender para o Ponto de Extremidade](switch-to-microsoft-defender-migration.md#the-migration-process)! 
 
-- [Visite seu painel de operações de](security-operations-dashboard.md) segurança no Central de Segurança do Microsoft Defender ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ). 
-
+- [Visite seu painel de operações de](security-operations-dashboard.md) segurança no Central de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ). 
 - [Gerenciar o Defender para Ponto de Extremidade, pós-migração](manage-atp-post-migration.md).

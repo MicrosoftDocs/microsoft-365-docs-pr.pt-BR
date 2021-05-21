@@ -1,5 +1,5 @@
 ---
-title: Fazer a opção de uma solução de ponto de extremidade que não seja da Microsoft para o Microsoft Defender para Ponto de Extremidade
+title: Fazer a opção de proteção de ponto de extremidade que não seja da Microsoft para o Microsoft Defender para Ponto de Extremidade
 description: Alternar para o Microsoft Defender para Ponto de Extremidade. Leia este artigo para uma visão geral.
 keywords: migração, proteção avançada do ponto de extremidade do Windows Defender, para Endpoint, edr
 search.product: eADQiWindows 10XVcnh
@@ -19,23 +19,23 @@ ms.collection:
 - m365solution-overview
 ms.topic: conceptual
 ms.custom: migrationguides
-ms.date: 05/14/2021
+ms.date: 05/20/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
 ms.technology: mde
-ms.openlocfilehash: 013205a1b5b9db204f626a6fe6ab76ad07378558
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 2a2b78089486b432ebf9492de26396b2bb96f94d
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537998"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593496"
 ---
-# <a name="make-the-switch-from-a-non-microsoft-endpoint-solution-to-microsoft-defender-for-endpoint"></a>Fazer a opção de uma solução de ponto de extremidade que não seja da Microsoft para o Microsoft Defender para Ponto de Extremidade
+# <a name="make-the-switch-from-non-microsoft-endpoint-protection-to-microsoft-defender-for-endpoint"></a>Fazer a opção de proteção de ponto de extremidade que não seja da Microsoft para o Microsoft Defender para Ponto de Extremidade
 
-Se você estiver planejando mudar de uma solução de proteção de ponto de extremidade que não seja da Microsoft para o [Microsoft Defender para](microsoft-defender-endpoint.md) Ponto de Extremidade (Defender para Ponto de Extremidade), você está no lugar certo. Use este artigo como um guia.
+Se você estiver pensando em mudar de sua proteção de ponto de extremidade não Microsoft para [o Microsoft Defender para Ponto](microsoft-defender-endpoint.md) de Extremidade (Defender para Ponto de Extremidade), você está no lugar certo. Use este artigo como um guia.
 
 :::image type="content" source="images/nonms-mde-migration.png" alt-text="Visão geral da migração para o Defender para Ponto de Extremidade":::
 
-Quando você faz a mudança para o Defender para Ponto de Extremidade, você começa com sua solução não Microsoft no modo ativo, configura o Defender para Ponto de Extremidade no modo passivo, integra o Defender para Ponto de Extremidade e define o Defender para Ponto de Extremidade como modo ativo e remove a solução que não é da Microsoft.
+Quando você faz a opção para Defender para Ponto de Extremidade, você começa com sua solução não Microsoft operando no modo ativo, configura o Defender para Ponto de Extremidade no modo passivo, integra o Defender para Ponto de Extremidade, define o Defender para o Ponto de Extremidade como modo ativo e remove a solução que não é da Microsoft.
 
 > [!TIP]
 > - Se você estiver usando o McAfee Endpoint Security (McAfee), consulte [Migrate from McAfee to Defender for Endpoint](mcafee-to-microsoft-defender-migration.md).
@@ -43,15 +43,15 @@ Quando você faz a mudança para o Defender para Ponto de Extremidade, você com
 
 ## <a name="the-migration-process"></a>O processo de migração
 
-Quando você alterna para o Defender para o Ponto de Extremidade, você segue um processo que pode ser dividido em três fases, conforme descrito na tabela a seguir:
+O processo de migração para o Defender para Ponto de Extremidade pode ser dividido em três fases, conforme descrito na tabela a seguir:
 
 ![Fases de migração - preparar, configurar, integração](images/phase-diagrams/migration-phases.png)
 
 |Fase |Descrição |
 |--|--|
-|[Prepare-se para sua migração](switch-to-microsoft-defender-prepare.md) |Durante [a **fase Preparar,**](switch-to-microsoft-defender-prepare.md)atualize os dispositivos da sua organização, receba o Defender para Ponto de Extremidade, planeje suas funções e permissões e conceda acesso ao Central de Segurança do Microsoft Defender. Você também configura o proxy de dispositivo e as configurações da Internet para habilitar a comunicação entre os dispositivos da sua organização e o Defender para o Ponto de Extremidade. |
-|[Configurar o Defender para Ponto de Extremidade](switch-to-microsoft-defender-setup.md) |Durante [a fase **de** Instalação,](switch-to-microsoft-defender-setup.md)você habilita Microsoft Defender Antivírus e o configura como modo passivo. Você também configura configurações & exclusões para Microsoft Defender Antivírus e sua solução de proteção de ponto de extremidade existente. Em seguida, você cria seus grupos de dispositivos, coleções e unidades organizacionais. Por fim, você configura suas políticas antimalware e configurações de proteção em tempo real.|
-|[Onboard to Defender for Endpoint](switch-to-microsoft-defender-onboard.md) |Durante [  ](switch-to-microsoft-defender-onboard.md)a fase Onboard , você integra seus dispositivos no Defender para Ponto de Extremidade, confirma se o Microsoft Defender Antivírus está sendo executado no modo passivo e verifique se seus pontos de extremidade estão se comunicando com o Defender para Ponto de Extremidade. Em seguida, desinstale sua solução de proteção de ponto de extremidade existente e certifique-se de que o Defender para Ponto de Extremidade está funcionando corretamente. |
+|[Prepare-se para sua migração](switch-to-microsoft-defender-prepare.md) |Durante [a **fase Preparar:**](switch-to-microsoft-defender-prepare.md) <p>1. Atualize os dispositivos da sua organização. <p>2. Obter o Defender para o Ponto de Extremidade. <p>3. Planeje suas funções e permissões e conceda acesso ao Central de Segurança do Microsoft Defender. <p>4. Configure suas configurações de proxy de dispositivo e internet para habilitar a comunicação entre os dispositivos da sua organização e o Defender para o Ponto de Extremidade. |
+|[Configurar o Defender para Ponto de Extremidade](switch-to-microsoft-defender-setup.md) |Durante [a fase de **Instalação:**](switch-to-microsoft-defender-setup.md) <p>1. Habilitar/reinstalar Microsoft Defender Antivírus. <p>2. Configure o Defender para o Ponto de Extremidade. <p>3. Adicione o Defender para Ponto de Extremidade à lista de exclusão da solução existente. <p>4. Adicione sua solução existente à lista de exclusão para Microsoft Defender Antivírus. <p>5. Configurar seus grupos de dispositivos, coleções e unidades organizacionais. <p>6. Configure suas políticas antimalware e configurações de proteção em tempo real.|
+|[Onboard to Defender for Endpoint](switch-to-microsoft-defender-onboard.md) |Durante [a **fase Onboard**](switch-to-microsoft-defender-onboard.md): <p>1. A integração de seus dispositivos ao Defender para Ponto de Extremidade. <p>2. Execute um teste de detecção. <p>3. Confirme se Microsoft Defender Antivírus está sendo executado no modo passivo. <p>4. Obter atualizações para Microsoft Defender Antivírus. <p>5. Desinstale sua solução de proteção de ponto de extremidade existente. <p>6. Certifique-se de que o Defender para Ponto de Extremidade está funcionando corretamente. |
 
 ## <a name="whats-included-in-microsoft-defender-for-endpoint"></a>O que está incluído no Microsoft Defender para Ponto de Extremidade?
 

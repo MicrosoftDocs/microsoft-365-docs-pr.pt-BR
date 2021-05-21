@@ -1,6 +1,6 @@
 ---
-title: Integração de dispositivos Windows 10 para o Microsoft Defender para Ponto de Extremidade por meio da Política de Grupo
-description: Use a Política de Grupo para implantar o pacote de configuração em dispositivos Windows 10 para que eles sejam integrados ao serviço.
+title: Integração Windows 10 dispositivos para o Microsoft Defender para Ponto de Extremidade por meio da Política de Grupo
+description: Use a Política de Grupo para implantar o pacote de configuração em Windows 10 dispositivos para que eles sejam integrados ao serviço.
 keywords: configurar dispositivos usando a política de grupo, o gerenciamento de dispositivos, configurar o Microsoft Defender para dispositivos de ponto de extremidade, a integração do Microsoft Defender para dispositivos de ponto de extremidade, a política de grupo
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,14 +17,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: b8f56c8f2ba92073ea7ae9464f199d9c900b932f
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 81a3b41fb8e38a224a030571093b2145d2efb3d4
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933956"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593424"
 ---
-# <a name="onboard-windows-10-devices-using-group-policy"></a>Integração de dispositivos Windows 10 usando a Política de Grupo 
+# <a name="onboard-windows-10-devices-using-group-policy"></a>Integração Windows 10 usando a Política de Grupo 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -38,7 +38,7 @@ ms.locfileid: "51933956"
 
 
 > [!NOTE]
-> Para usar atualizações de Política de Grupo (GP) para implantar o pacote, você deve estar no Windows Server 2008 R2 ou posterior.
+> Para usar atualizações de Política de Grupo (GP) para implantar o pacote, você deve estar Windows Server 2008 R2 ou posterior.
 > 
 > Para o Windows Server 2019, talvez seja necessário substituir o NT AUTHORITY\Well-Known-System-Account por NT AUTHORITY\SYSTEM do arquivo XML que a preferência de Política de Grupo cria.
 
@@ -46,11 +46,11 @@ ms.locfileid: "51933956"
 
 [![Imagem do PDF mostrando os vários caminhos de implantação](images/onboard-gp.png)](images/onboard-gp.png#lightbox)
 
-Confira o [PDF ou](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)  o  [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) para ver os vários caminhos na implantação do Defender para o Ponto de Extremidade. 
+Confira o [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) ou [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) para ver os vários caminhos na implantação do Defender para o Ponto de Extremidade. 
 
 
 
-1. Abra o arquivo .zip do pacote de configuração da GP (*WindowsDefenderATPOnboardingPackage.zip*) que você baixou do assistente de integração do serviço. Você também pode obter o pacote do [Centro de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
+1. Abra o arquivo de pacote de configuração da GP .zip (*WindowsDefenderATPOnboardingPackage.zip*) que você baixou do assistente de integração do serviço. Você também pode obter o pacote de [Central de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
  
     1. No painel de navegação, selecione **Configurações**  >  **Integração**.
 
@@ -58,7 +58,7 @@ Confira o [PDF ou](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/publi
     
     1. No campo **Método de implantação,** selecione **Política de grupo**.
     
-    1. Clique **em Baixar pacote** e salve o arquivo .zip.
+    1. Clique **em Baixar pacote** e salve o .zip arquivo.
 
 2. Extraia o conteúdo do arquivo .zip para um local compartilhado somente leitura que pode ser acessado pelo dispositivo. Você deve ter uma pasta chamada *OptionalParamsPolicy* e o *arquivo WindowsDefenderATPOnboardingScript.cmd*.
 
@@ -66,7 +66,7 @@ Confira o [PDF ou](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/publi
 
 4. No Editor **de Gerenciamento de Política de Grupo,** vá para **Configuração** do computador, **Preferências** e configurações **do painel de controle.**
 
-5. Clique com o botão direito do mouse em **Tarefas Agendadas**, aponte para **Novo** e clique em **Tarefa Imediata (Pelo menos Windows 7)**.
+5. Clique com o botão direito do mouse em **Tarefas Agendadas,** aponte para **Novo** e clique em Tarefa Imediata (Pelo menos **Windows 7)**.
 
 6. Na janela **Tarefa** aberta, vá para a **guia** Geral. Em **Opções de segurança,** **clique em Alterar Usuário ou Grupo** e digite SISTEMA e clique em Verificar **Nomes,** em **seguida, OK**. NT AUTHORITY\SYSTEM aparece como a conta de usuário que a tarefa executará como.
 
@@ -80,7 +80,7 @@ Confira o [PDF ou](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/publi
 > Após a integração do dispositivo, você pode optar por executar um teste de detecção para verificar se o dispositivo está corretamente conectado ao serviço. Para obter mais informações, [consulte Execute a detection test on a newly onboarded Defender for Endpoint device](run-detection-test.md).
 
 ## <a name="additional-defender-for-endpoint-configuration-settings"></a>Configurações adicionais do Defender para Ponto de Extremidade
-Para cada dispositivo, você pode dizer se amostras podem ser coletadas do dispositivo quando uma solicitação é feita por meio do Centro de Segurança do Microsoft Defender para enviar um arquivo para análise profunda.
+Para cada dispositivo, você pode determinar se amostras podem ser coletadas do dispositivo quando uma solicitação é feita por meio Central de Segurança do Microsoft Defender enviar um arquivo para análise profunda.
 
 Você pode usar a Política de Grupo (GP) para definir configurações, como configurações para o compartilhamento de exemplo usado no recurso de análise profunda.
 
@@ -103,7 +103,7 @@ Você pode usar a Política de Grupo (GP) para definir configurações, como con
 
 4.  Clique **em Políticas** e, em **seguida, modelos administrativos.**
 
-5.  Clique **em Componentes do Windows** e Windows Defender **ATP**.
+5.  Clique **Windows componentes e,** **em seguida, Windows Defender SmartScreen**.
 
 6.  Escolha habilitar ou desabilitar o compartilhamento de exemplo de seus dispositivos.
 
@@ -115,38 +115,38 @@ Você pode usar a Política de Grupo (GP) para definir configurações, como con
 
 ### <a name="update-endpoint-protection-configuration"></a>Atualizar a configuração de proteção do ponto de extremidade
 
-Depois de configurar o script de integração, continue editando a mesma política de grupo para adicionar configurações de proteção de ponto de extremidade. Execute edições de política de grupo de um sistema que executa o Windows 10 ou o Server 2019 para garantir que você tenha todos os recursos necessários do Microsoft Defender Antivírus. Talvez seja necessário fechar e reabrir o objeto de política de grupo para registrar as configurações do Defender ATP.
+Depois de configurar o script de integração, continue editando a mesma política de grupo para adicionar configurações de proteção de ponto de extremidade. Execute as edições de política de grupo de um sistema que Windows 10 ou o Server 2019 para garantir que você tenha todos os recursos de Microsoft Defender Antivírus necessários. Talvez seja necessário fechar e reabrir o objeto de política de grupo para registrar as configurações do Defender ATP.
 
 Todas as políticas estão localizadas em `Computer Configuration\Policies\Administrative Templates` .
 
-**Local da política:** \Componentes do Windows\Windows Defender ATP
+**Local da política:** \Windows Components\Windows Defender SmartScreen*
 
-Política | Setting 
+Política | Configuração 
 :---|:---
 Enable\Disable Sample collection|   Habilitado - verificado "Habilitar coleta de exemplo em máquinas"
 
 <br/>
 
-**Local da política:**  \Componentes do Windows\Windows Defender Antivírus
+**Local da política:** \Windows Components\Microsoft Defender Antivírus
 
-Política | Setting 
+Política | Configuração 
 :---|:---
 Configurar a detecção para aplicativos potencialmente indesejados | Habilitado, Bloqueado
 
 <br/>
 
-**Local da política:** \Componentes do Windows\Windows Defender Antivírus\MAPS
+**Local da política:** \Windows Components\Microsoft Defender Antivírus\MAPS
 
-Política | Setting 
+Política | Configuração 
 :---|:---
 Ingressar no Microsoft MAPS | MAPAs avançados e habilitados
 Enviar amostras de arquivo quando uma análise posterior for necessária | Habilitado, Enviar amostras seguras
 
 <br/>
 
-**Local da política:** \Componentes do Windows\Windows Defender Antivírus\Proteção em tempo real
+**Local da política:** \Windows Components\Microsoft Defender Antivírus\Proteção em tempo real
 
-Política | Setting 
+Política | Configuração 
 :---|:---
 Desativar a proteção em tempo real|Desabilitada
 Ativar o monitoramento de comportamento|Habilitado
@@ -155,18 +155,18 @@ Monitorar atividades de arquivo e programa em seu computador|Habilitado
 
 <br/>
 
-**Local da política:**  \Componentes do Windows\Windows Defender Antivírus\Verificação
+**Local da política:** \Windows Components\Microsoft Defender AntivírusScan
 
 Essas configurações configuram verificações periódicas do ponto de extremidade. Recomendamos a realização de uma verificação rápida semanal, permitindo desempenho.
 
-Política | Setting 
+Política | Configuração 
 :---|:---
 Verifique a inteligência de segurança de vírus e spyware mais recente antes de executar uma verificação agendada |Habilitado
 
 
 <br/>
 
-**Local da política:** \Componentes do Windows\Windows Defender Antivírus\Windows Defender Exploit Guard\Redução de Superfície de Ataque
+**Local da política:** \Windows Components\Microsoft Defender Antivírus\Microsoft Defender Exploit Guard\Redução de Superfície de Ataque
 
 Obter a lista atual de GUIDs de redução de superfície de ataque de Personalizar regras de redução [de superfície de ataque](customize-attack-surface-reduction.md)
 
@@ -184,7 +184,7 @@ Obter a lista atual de GUIDs de redução de superfície de ataque de Personaliz
 
 
 
-Política | Setting 
+Política | Configuração 
 :---|:---
 Configurar acesso controlado a pastas| Habilitado, Modo de Auditoria
 
@@ -196,15 +196,15 @@ Por motivos de segurança, o pacote usado para dispositivos offboard expirará 3
 > [!NOTE]
 > As políticas de integração e de offboard não devem ser implantadas no mesmo dispositivo ao mesmo tempo, caso contrário, isso causará colisões imprevisíveis.
 
-1. Obter o pacote de offboarding do [Centro de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
+1. Obter o pacote de offboard de [Central de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
 
-    1. No painel de navegação, selecione **Configurações**  >  **offboarding**.
+    1. No painel de navegação, selecione **Configurações**  >  **Offboarding**.
 
     1. Selecione Windows 10 como o sistema operacional.
     
     1. No campo **Método de implantação,** selecione **Política de grupo**.
 
-    1. Clique **em Baixar pacote** e salve o arquivo .zip.
+    1. Clique **em Baixar pacote** e salve o .zip arquivo.
 
 2. Extraia o conteúdo do arquivo .zip para um local compartilhado somente leitura que pode ser acessado pelo dispositivo. Você deve ter um arquivo chamado *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd*.
 
@@ -230,7 +230,7 @@ Por motivos de segurança, o pacote usado para dispositivos offboard expirará 3
 Com a Política de Grupo, não há uma opção para monitorar a implantação de políticas nos dispositivos. O monitoramento pode ser feito diretamente no portal ou usando as diferentes ferramentas de implantação.
 
 ## <a name="monitor-devices-using-the-portal"></a>Monitorar dispositivos usando o portal
-1. Vá para [o Centro de Segurança do Microsoft Defender.](https://securitycenter.windows.com/)
+1. Vá para [Central de Segurança do Microsoft Defender](https://securitycenter.windows.com/).
 2. Clique **em Lista de dispositivos**.
 3. Verifique se os dispositivos estão aparecendo.
 
@@ -239,7 +239,7 @@ Com a Política de Grupo, não há uma opção para monitorar a implantação de
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Integração de dispositivos Windows 10 usando o Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
+- [Integração Windows 10 dispositivos usando Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [Integrar dispositivo Windows 10 usando as ferramentas de Gerenciamento de Dispositivo Móvel](configure-endpoints-mdm.md)
 - [Integrar dispositivos Windows 10 usando um script local](configure-endpoints-script.md)
 - [Dispositivos integrados de VDI (Virtual Desktop Infrastructure) não persistente](configure-endpoints-vdi.md)
