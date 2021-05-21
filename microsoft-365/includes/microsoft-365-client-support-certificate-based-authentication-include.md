@@ -33,7 +33,7 @@
 |OBSERVAÇÕES STICKY|N/D|N/D|N/D|N/D|✔|
 |STREAM|✔|✔|N/D|N/D|N/D|
 |SWAY|N/D|N/D|N/D|N/D|✔|
-|TEAMS|✔|✔|✔|Planejado|N/D|
+|TEAMS|✔|✔|✔|✔|N/D|
 |TO-DO|✔|✔|✔|N/D|✔|
 |VISIO|N/D|✔|N/D|✔|N/D|
 |WHITEBOARD|✔|Planejado|N/D|N/D|✔|

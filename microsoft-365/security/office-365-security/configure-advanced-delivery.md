@@ -14,16 +14,15 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 ms.custom: ''
-description: Os administradores podem aprender a usar a política de entrega avançada no Exchange Online Protection (EOP) para identificar mensagens que não devem ser filtradas em cenários com suporte específico (simulações de phishing de terceiros e mensagens entregues às caixas de correio de operações de segurança (SecOps).
+description: Os administradores podem aprender a usar a política de entrega avançada no Proteção do Exchange Online (EOP) para identificar mensagens que não devem ser filtradas em cenários com suporte específico (simulações de phishing de terceiros e mensagens entregues às caixas de correio de operações de segurança (SecOps).
 ms.technology: mdo
 ms.prod: m365-security
-ROBOTS: NOINDEX
-ms.openlocfilehash: 9d737472be5da2af0a0a36beb4b7914b8bfe3a10
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: 8bebc094b56a20a43f92d1acf8d374110de43d71
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876060"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594116"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>Configurar a entrega de simulações de phishing de terceiros para usuários e mensagens não filtradas para caixas de correio SecOps
 
@@ -35,21 +34,21 @@ ms.locfileid: "51876060"
 > [!NOTE]
 > O recurso descrito neste artigo está em Visualização, não está disponível para todos e está sujeito a alterações.
 
-Para manter sua organização segura por [padrão,](secure-by-default.md)a Proteção do Exchange Online (EOP) não permite listas seguras ou bypass de filtragem para mensagens que resultam em malware ou vereditos de phishing de alta confiança. Mas há cenários específicos que exigem a entrega de mensagens não filtradas. Por exemplo:
+Para manter sua organização segura por [padrão,](secure-by-default.md)o Proteção do Exchange Online (EOP) não permite listas seguras ou bypass de filtragem para mensagens que resultam em malware ou vereditos de phishing de alta confiança. Mas há cenários específicos que exigem a entrega de mensagens não filtradas. Por exemplo:
 
 - **Simulações de phishing de** terceiros : Ataques simulados podem ajudá-lo a identificar usuários vulneráveis antes que um ataque real impacte sua organização.
 - Caixas de correio de operações de segurança **(SecOps)**: Caixas de correio dedicadas que são usadas pelas equipes de segurança para coletar e analisar mensagens não filtradas (boas e ruins).
 
-Você usa a _política de entrega_ avançada no Microsoft 365 para impedir que essas mensagens nesses _cenários específicos_ seja filtrada. <sup>\*</sup> A política de entrega avançada garante que as mensagens nesses cenários não sejam filtradas:
+Você usa a _política de entrega_ avançada Microsoft 365 impedir que essas mensagens nesses _cenários específicos_ seja filtrada. <sup>\*</sup> A política de entrega avançada garante que as mensagens nesses cenários não sejam filtradas:
 
-- Os filtros no EOP e no Microsoft Defender para Office 365 não têm nenhuma ação nessas mensagens.<sup>\*</sup>
+- Os filtros no EOP e no Microsoft Defender Office 365 tomar nenhuma ação nessas mensagens.<sup>\*</sup>
 - [A limpeza zero hora (ZAP)](zero-hour-auto-purge.md) para spam e phishing não toma nenhuma ação nessas mensagens.<sup>\*</sup>
 - [Os alertas padrão do](alerts.md) sistema não são disparados para esses cenários.
 - [AIR e clustering no Defender para Office 365](office-365-air.md) ignora essas mensagens.
 - Especificamente para simulações de phishing de terceiros:
   - [Os envios de administrador](admin-submission.md) geram uma resposta automática dizendo que a mensagem faz parte de uma campanha de simulação de phishing e não é uma ameaça real. Os alertas e o AIR não serão disparados.
-  - [Os Links Seguros no Defender para o Office 365](safe-links.md) não bloqueiam ou detonam as URLs especificamente identificadas nessas mensagens.
-  - [Anexos seguros no Defender para Office 365](safe-attachments.md) não detona anexos nessas mensagens.
+  - [Cofre Links no Defender para Office 365](safe-links.md) não bloqueia ou detona as URLs especificamente identificadas nessas mensagens.
+  - [Cofre Anexos no Defender para](safe-attachments.md) Office 365 não detona anexos nessas mensagens.
 
 <sup>\*</sup> Não é possível ignorar a filtragem de malware ou o ZAP para malware.
 
@@ -63,10 +62,10 @@ As mensagens identificadas pela política de entrega avançada não são ameaça
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a **página Entrega** Avançada, abra <https://protection.office.com/advanceddelivery> .
+- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a **página Entrega** Avançada, abra <https://protection.office.com/advanceddelivery> .
 
 - Você precisa ter permissões atribuídas antes de poder fazer os procedimentos neste artigo:
-  - Para criar, modificar ou remover configurações configuradas na política de entrega  avançada **&,** você precisa ser membro do grupo de  função Administrador de Segurança no Centro de Conformidade e Segurança e membro do grupo de função Gerenciamento da Organização no **Exchange Online.**  
+  - Para criar, modificar ou remover configurações configuradas na política de entrega  avançada **&,** você precisa ser membro do grupo de  função Administrador de Segurança no Centro de Conformidade e Segurança e membro do grupo de função Gerenciamento da Organização em **Exchange Online**.  
   - Para acesso somente leitura à política de entrega avançada, você precisa ser membro dos grupos de função Leitor **Global** ou **Leitor de** Segurança.
 
   Para obter mais informações, consulte [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md) and [Permissions in Exchange Online](/exchange/permissions-exo/permissions-exo).
@@ -96,7 +95,7 @@ As entradas de simulação de phishing de terceiros que você configurou são ex
 
 2. Na página **Entrega Avançada,** selecione a guia Caixa **de Correio SecOps** e clique em **Editar**.
 
-3. No sobrevoo de caixa de correio **SecOps** que é aberto, insira os endereços de email das caixas de correio existentes do Exchange Online que você deseja designar como caixas de correio SecOps. Grupos de distribuição não são permitidos.
+3. No sobrevoo de caixa de correio **SecOps** que é aberto, insira os endereços de email de caixas de correio Exchange Online existentes que você deseja designar como caixas de correio SecOps. Grupos de distribuição não são permitidos.
 
 4. Quando concluir, clique em **Salvar**.
 
@@ -106,7 +105,7 @@ As entradas de caixa de correio SecOps que você configurou são exibidas na gui
 
 Além dos dois cenários em que a política de entrega avançada pode ajudá-lo, há outros cenários que podem exigir que você ignore a filtragem:
 
-- **Filtros de** terceiros : Se o  registro MX do seu domínio não apontar para o Office 365 (as mensagens são roteadas primeiro para outro [lugar),](secure-by-default.md) a segurança por padrão não *está disponível*.
+- **Filtros de** terceiros : Se o  registro MX do seu domínio não apontar para o Office 365 (as mensagens são roteadas primeiro para outro [lugar),](secure-by-default.md) a segurança por padrão não está *disponível*.
 
   Para ignorar a filtragem da Microsoft para mensagens que já foram avaliadas pela filtragem de terceiros, use regras de fluxo de emails (também conhecidas como regras de transporte), consulte [Use mail flow rules to set the SCL in messages](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md).
 

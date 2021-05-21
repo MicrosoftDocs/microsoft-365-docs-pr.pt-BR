@@ -19,17 +19,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ba256583-03ca-429e-be4d-a92d9c221ad6
-description: Saiba como adicionar um usuário Microsoft 365 ou contato a um grupo de distribuição. Por exemplo, você pode adicionar um funcionário, parceiro ou um fornecedor ao seu grupo de distribuição de email.
-ms.openlocfilehash: f4ca52b02ce3b403fb318a9e092f883e8492d003
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Saiba como adicionar um usuário Microsoft 365 ou contato como um funcionário, parceiro ou fornecedor a um grupo de distribuição de email.
+ms.openlocfilehash: 69dea710554b344de4bc221b17d5d8f929b964a5
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52243955"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593484"
 ---
 # <a name="add-a-user-or-contact-to-a-distribution-group"></a>Adicionar um usuário ou contato a um grupo de distribuição
 
-Como administrador de uma organização, talvez seja necessário adicionar um de seus usuários ou contatos a um grupo de distribuição (consulte [Create distribution groups in Microsoft 365](../setup/create-distribution-lists.md).) Por exemplo, você pode adicionar funcionários ou parceiros externos ou fornecedores a um grupo de distribuição de email.
+Como administrador de uma organização, talvez seja necessário adicionar um de seus usuários ou contatos a um grupo de distribuição (consulte [Create distribution groups in Microsoft 365](../setup/create-distribution-lists.md)). Por exemplo, você pode adicionar funcionários ou parceiros externos ou fornecedores a um grupo de distribuição de email.
   
 ## <a name="add-a-user-or-contact-to-a-distribution-group"></a>Adicionar um usuário ou contato a um grupo de distribuição
 
@@ -44,9 +44,18 @@ Como administrador de uma organização, talvez seja necessário adicionar um de
     ![Adicionar membros ao grupo de distribuição](../../media/f79f59f8-1606-43fe-bae6-df74f5b6259d.png)
   
 5. Selecione **Salvar** **e,** em seguida, Fechar .
+
+## <a name="watch-add-a-user-to-a-distribution-list"></a>Assista: Adicionar um usuário a uma lista de distribuição
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ed4e6095-9a6a-4d3d-999d-698c39bb7ec8?autoplay=false]
   
-Saiba como enviar [emails como um grupo de distribuição em Microsoft 365](../manage/send-email-as-distribution-list.md).
-  
+## <a name="next-steps"></a>Próximas etapas
+
+Aprenda a [enviar emails como um grupo de distribuição em Microsoft 365](../manage/send-email-as-distribution-list.md).
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Gerenciar a desordem para sua organização](configure-clutter.md) (artigo)
+
+[Criar uma caixa de correio compartilhada](create-a-shared-mailbox.md) (artigo)
 

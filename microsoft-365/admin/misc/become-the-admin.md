@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
-description: Saiba como verificar sua propriedade de email e domínio para assumir um locatário não-funcionário no Microsoft 365
-ms.openlocfilehash: 72278fd0e373848a79f9823e186b19bc1cb47770
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Saiba como verificar sua propriedade de email e domínio para assumir um locatário não-autônomo criado por uma inscrição de usuário de autoatendida no Microsoft 365.
+ms.openlocfilehash: c37bf153edf39f53b5c10f020b0cbb8d630eb4a6
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914841"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593928"
 ---
 # <a name="perform-an-internal-admin-takeover"></a>Executar uma aquisição interna do administrador
 
@@ -39,9 +39,9 @@ Se você for um administrador e quiser assumir um locatário não gerenciada cri
 ## <a name="step-1-verify-your-email-address"></a>Etapa 1: Verificar seu endereço de email
 
 > [!NOTE]
-> Se o self-service estiver habilitado em seu locatário, os usuários poderão se inscrever em serviços gratuitos, como o Power BI, por conta própria. Estas etapas presumem que uma assinatura de usuário de autoatendados tenha criado o locatário não gerenciado que você deseja assumir como administrador. Na primeira etapa, você cria um contexto de usuário no locatário não gerenciado, usando o Power BI para ilustrar o caminho de aquisição do administrador.
+> Se o autoatendado estiver habilitado em seu locatário, os usuários poderão se inscrever em serviços gratuitos, como Power BI, por conta própria. Estas etapas presumem que uma assinatura de usuário de autoatendados tenha criado o locatário não gerenciado que você deseja assumir como administrador. Na primeira etapa, você cria um contexto de usuário no locatário não gerenciado, usando o Power BI para ilustrar o caminho de aquisição do administrador.
 
-1. Para se inscrever no Power BI, acesse o [site do Power BI](https://powerbi.com) e selecione Iniciar avaliação gratuita de Início Livre (na caixa Compartilhar com o Power BI   >   Pro). 
+1. Para se inscrever no Power BI, acesse o site Power BI  [e](https://powerbi.com) selecione Iniciar avaliação gratuita de Início Livre (na caixa  >   Compartilhar com Power BI Pro). 
 
 2. Inscreva-se em uma conta de usuário que usa o nome de domínio da sua organização (como `powerbiadmin@contoso.com` ). Se sua conta já estiver em uso, entre usando sua senha atual.
 
@@ -66,12 +66,12 @@ Se você for um administrador e quiser assumir um locatário não gerenciada cri
 > [!NOTE]
 > Assumir o locatário de sombra não afetará quaisquer informações ou serviços existentes. No entanto, se qualquer usuário no domínio tiver se inscreveu para serviços que exigem uma licença, você será solicitado a comprar licenças para eles como parte de assumir a função de administrador. Você pode comprar ou remover licenças depois que o processo de instalação do administrador for concluído.
   
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-YouTube: 3 etapas para fazer uma Tomada de Administração de TI [para Power BI e Microsoft 365](https://www.youtube.com/watch?v=xt5EsrQBZZk)
+YouTube: [3 etapas para fazer uma Tomada](https://www.youtube.com/watch?v=xt5EsrQBZZk) de Administração de TI para Power BI e Microsoft 365 (vídeo)
 
-[Administração de aquisição no Azure AD](/azure/active-directory/users-groups-roles/domains-admin-takeover)
+[Administração de aquisição no Azure AD](/azure/active-directory/users-groups-roles/domains-admin-takeover) (artigo)
 
-[Usando o autoatendimento inscreva-se na sua instituição](self-service-sign-up.md)
+[Usando o autoatendino, inscreva-se em sua organização](self-service-sign-up.md) (artigo)
   
-[Noções básicas sobre a função de administrador de serviço do Power BI](/power-bi/service-admin-role)
+[Noções básicas Power BI função de administrador de serviço](/power-bi/service-admin-role) (artigo)

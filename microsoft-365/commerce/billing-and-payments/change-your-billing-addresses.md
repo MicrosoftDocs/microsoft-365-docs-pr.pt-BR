@@ -18,14 +18,14 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
 search.appverid: MET150
-description: Saiba como atualizar seus endereços de cobrança do Microsoft 365 para empresas. Você também pode atualizar o endereço de email usado para receber notificações de cobrança.
+description: Saiba como atualizar seus endereços de cobrança ou o endereço de email usado para receber notificações de cobrança para Microsoft 365 para empresas.
 ms.date: 04/07/2021
-ms.openlocfilehash: 8bff090353c409f4364aed63e3b48a831608be2b
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 77ccb7b7ff9927736c1adaadfd2dea6b64a084f0
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332158"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594104"
 ---
 # <a name="change-your-billing-addresses"></a>Alterar os endereços para cobrança
 
@@ -109,7 +109,7 @@ Para saber mais sobre sua fatura ou fatura, consulte [Exibir](view-your-bill-or-
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Seus produtos</a>.
 
-    Se você estiver usando o Office 365 operado pela 21Vianet na China, consulte Exibir sua conta ou obter [Fapiaos para Office 365 operado pela 21Vianet](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md).
+    Se você estiver usando o Office 365 operado pela 21Vianet na China, consulte Exibir sua conta ou obter Fapiaos para Office 365 operado pela [21Vianet](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md).
 
 ::: moniker-end
 
@@ -161,7 +161,7 @@ Você também pode alterar o endereço de email alternativo de outros administra
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Exibir sua fatura ou fatura](view-your-bill-or-invoice.md)\
-[Entender sua fatura ou fatura](understand-your-invoice2.md)\
-[Pagar por sua assinatura](pay-for-your-subscription.md)\
-[Assinaturas e cobranças - Ajuda do administrador](../index.yml)
+[Ver sua conta ou fatura](view-your-bill-or-invoice.md) (artigo)\
+[Entenda sua fatura ou fatura](understand-your-invoice2.md) (artigo)\
+[Pagar por sua assinatura](pay-for-your-subscription.md) (artigo)\
+[Assinaturas e cobrança - Ajuda do administrador](../index.yml) (página de link)

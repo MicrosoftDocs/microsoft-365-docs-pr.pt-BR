@@ -21,23 +21,23 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
-description: 'Aprenda a alterar o tema padrão do Microsoft 365 e personalizá-lo para corresponder ao logotipo ou cor da sua empresa. '
-ms.openlocfilehash: b7a0b142b8bd465a9e3258aaaeb951b72bc53fc7
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+description: Aprenda a alterar o tema padrão para a parte superior da barra de navegação Microsoft 365 personalizá-lo para corresponder ao logotipo ou cor da sua empresa.
+ms.openlocfilehash: b2177eebc31f34f7067c8464724623e4bf7d4870
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52060893"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593824"
 ---
-# <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Personalizar o tema do Microsoft 365 para sua organização
+# <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Personalizar o Microsoft 365 da sua organização
 
 Como administrador da sua organização, você pode criar vários temas para as pessoas em sua organização e selecionar quais temas se aplicam a diferentes membros da sua organização. O tema da organização é o que aparece na barra de navegação superior para pessoas em sua organização.
 
-Você pode adicionar ou atualizar um tema padrão que se aplica a todos em sua organização. Você também pode criar até quatro temas de grupo adicionais que podem ser atribuídos a vários grupos do Microsoft 365.
+Você pode adicionar ou atualizar um tema padrão que se aplica a todos em sua organização. Você também pode criar até quatro temas de grupo adicionais que podem ser atribuídos a vários Microsoft 365 grupos.
   
 ## <a name="add-or-update-your-organizations-theme"></a>Adicionar ou atualizar o tema da sua organização
 
-1. No centro de administração, vá até a página **Configurações** da Organização Configurações e escolha \>  a guia **Perfil da** Organização.
+1. No centro de administração, vá para **a** página Configurações Org Configurações e escolha a guia Perfil \>  **da** Organização.
 
 2. Na guia **Perfil da** Organização, selecione **Tema organização**.
 
@@ -46,7 +46,7 @@ Todos os temas podem ser personalizados usando as guias a seguir.
 |**Tab**|**O que você pode fazer?**|
 |:-----|:-----|
 |[Geral](#general-modify-a-theme) <br/> |Modifique um nome de tema e atribua a até cinco grupos (se aplicável).  <br/> |
-|[Logos](#logos-specify-your-theme-logos) <br/> |Adicione o logotipo do tema, incluindo o tema escuro do Office e as opções móveis.  <br/> |
+|[Logos](#logos-specify-your-theme-logos) <br/> |Adicione seu logotipo de tema, incluindo o Office de tema escuro e opções móveis.  <br/> |
 |[Colors](#colors-choose-theme-colors) <br/> |Personalize um esquema de cores especificando as cores da barra de navegação, ênfase, texto e ícone. <br/> |
 
 ## <a name="general-modify-a-theme"></a>Geral: Modificar um tema
@@ -72,7 +72,7 @@ Você pode criar até quatro temas de grupo adicionais.
 
 1. Na página **Geral,** insira um nome para seu tema.
 
-2. Em **Grupos**, você pode selecionar até 5 Grupos do Microsoft 365 que podem ver o tema do grupo, em vez de usar o tema padrão. Você também pode impedir que os usuários sobressuam o tema e mostrar o nome de exibição do usuário.
+2. Em **Grupos**, você pode selecionar até 5 Microsoft 365 Grupos que podem ver o tema do grupo, em vez de usar o tema padrão. Você também pode impedir que os usuários sobressuam o tema e mostrar o nome de exibição do usuário.
 
 3. Selecione **Salvar**.
 
@@ -83,7 +83,7 @@ Você pode criar até quatro temas de grupo adicionais.
 Na página **Logos,** você pode adicionar seus logotipos e especificar a URL para a qual os usuários navegarão quando selecionarem o logotipo.
 
 - **Logotipo padrão**: Adicione um local de URL que aponta para seu logotipo. Certifique-se de que a URL use HTTPS e que a imagem tenha pelo menos 200 x 30 pixels. Seu logotipo padrão pode estar no formato JPG, PNG, GIF ou SVG.
-- **Logotipo alternativo**: Adicione um local de URL que aponta para seu logotipo. Seu logotipo alternativo deve ser otimizado para uso em temas escuros do Office. Os mesmos requisitos do logotipo padrão.
+- **Logotipo alternativo**: Adicione um local de URL que aponta para seu logotipo. Seu logotipo alternativo deve ser otimizado para uso em Office temas escuros. Os mesmos requisitos do logotipo padrão.
 - **Logotipo padrão pequeno:** adicione um local de URL que aponta para seu logotipo. A imagem deve ter pelo menos 48 x 48 pixels. Você pode dimensionar essa imagem para que ela se encaixe em dispositivos menores ou móveis.
 - **Logotipo alternativo pequeno:** adicione um local de URL que aponta para seu logotipo. Essa imagem tem os mesmos requisitos do logotipo padrão pequeno.
 - **Link ao clicar**: Adicione um local de URL que aponta para seu logotipo. Você pode usar seu logotipo como um link para qualquer recurso da empresa, por exemplo, o site da sua empresa.
@@ -103,7 +103,7 @@ Na página **Cores,** você pode definir as cores padrão e escolher qual logoti
 
 - **Cor da barra de** navegação : selecione uma cor a ser usada para o plano de fundo da barra de navegação. A barra de navegação aparece na parte superior em cada página.
 - **Cor de texto e ícone:** selecione uma cor a ser usada para o texto e os ícones na barra de navegação superior.
-- **Cor do** destaque : escolha uma que aparece bem em um plano de fundo branco ou claro. A cor do destaque é usada para colorir alguns links e botões que aparecem em um plano de fundo branco ou claro. Por exemplo, a cor do destaque é usada para colorir elementos na caixa de entrada de um usuário e em sua página Office.com portal.
+- **Cor do** destaque : escolha uma que aparece bem em um plano de fundo branco ou claro. A cor do destaque é usada para colorir alguns links e botões que aparecem em um plano de fundo branco ou claro. Por exemplo, a cor do destaque é usada para colorir elementos na caixa de entrada de um usuário e na página de portal Office.com.
 - **Cor de** redefinição: selecione este link para redefinir as cores para as cores padrão.
 - **Qual logotipo deve ser usado?**: Selecione logotipos padrão ou quaisquer outros logotipos que você mesmo criou.
 
@@ -113,7 +113,7 @@ Na página **Cores,** você pode definir as cores padrão e escolher qual logoti
 
 ### <a name="my-organization-already-has-a-theme-for-all-employees-how-will-this-change"></a>Minha organização já tem um tema para todos os funcionários. Como isso mudará?
 
-O tema padrão continuará a ser mostrado para todos os funcionários.A adição de um novo tema de grupo só será disponibilizada para os grupos do Microsoft 365 associados a esse tema.
+O tema padrão continuará a ser mostrado para todos os funcionários.A adição de um novo tema de grupo só será disponibilizada para os grupos Microsoft 365 associados a esse tema.
 
 ### <a name="whydont-isee-group-themes-in-the-admin-center"></a>Por que não vejo temas de grupo no Centro de Administração?
 
@@ -123,16 +123,16 @@ Somente administradores globais podem personalizar temas da empresa.Leitores glo
 
 Até cinco temas podem ser criados. Um tema padrão e quatro temas de grupo.  
 
-### <a name="can-i-use-security-groups-or-distribution-groups-instead-of-microsoft-365-groups"></a>Posso usar grupos de segurança ou grupos de distribuição em vez de Grupos do Microsoft 365?
+### <a name="can-i-use-security-groups-or-distribution-groups-instead-of-microsoft-365-groups"></a>Posso usar grupos de segurança ou grupos de distribuição em vez de Microsoft 365 Grupos?
 
-Não, novos temas de grupo devem ser mapeados para um ou mais grupos do Microsoft 365 e não grupos de segurança ou grupos de distribuição.
+Não, novos temas de grupo devem ser mapeados para um ou mais grupos Microsoft 365 e não grupos de segurança ou grupos de distribuição.
 
 > [!NOTE]
-> Você pode converter grupos de distribuição em grupos do [Microsoft 365](../manage/upgrade-distribution-lists.md) no Outlook.
+> Você pode converter [grupos de distribuição em Microsoft 365 grupos](../manage/upgrade-distribution-lists.md) em Outlook.
 
-### <a name="can-imanually-assign-a-theme-independent-ofmicrosoft-365-groups"></a>Posso atribuir manualmente um tema independente dos Grupos do Microsoft 365?  
+### <a name="can-imanually-assign-a-theme-independent-ofmicrosoft-365-groups"></a>Posso atribuir manualmente um tema independente de Microsoft 365 Grupos?  
 
-Não, novos temas de grupo devem ser mapeados para um ou mais grupos do Microsoft 365. Os usuários que são membros do grupo do Microsoft 365 obterão o tema aplicado ao grupo. Você pode criar e adicionar novos membros a um Grupo do [Microsoft 365,](../create-groups/create-groups.md) indo para os **Grupos** de   >  **** Configurações no centro de administração.
+Não, novos temas de grupo devem ser mapeados para um ou mais Microsoft 365 grupos. Os usuários que são membros do grupo Microsoft 365 obterão o tema aplicado ao grupo. Você pode [criar e adicionar novos membros a](../create-groups/create-groups.md) um **** grupo de Microsoft 365 indo para o Configurações   >  **grupos** no centro de administração.
 
 ### <a name="what-happens-if-a-user-is-assigned-to-multiple-group-themes"></a>O que acontece se um usuário for atribuído a vários temas de grupo?  
 
@@ -144,18 +144,18 @@ O tema padrão só pode ser excluído depois que todos os temas do grupo são ex
 
 ### <a name="why-am-i-receiving-an-error-message-every-time-i-uploadalogo-url"></a>Por que estou recebendo uma mensagem de erro sempre que carrego uma URL de logotipo.  
 
-Certifique-se de que o logotipo que você está usando seja especificado como uma URL publicamente acessível. Siga estas etapas para carregar logotipos no Armazenamento de Blob do [Azure](/azure/storage/blobs/storage-upload-process-images?tabs=dotnet) ou na Rede de Entrega de Conteúdo do [Office 365 com o SharePoint Online.](../../enterprise/use-microsoft-365-cdn-with-spo.md)
+Certifique-se de que o logotipo que você está usando seja especificado como uma URL publicamente acessível. Siga estas etapas para [carregar logotipos no Azure Blob](/azure/storage/blobs/storage-upload-process-images?tabs=dotnet) Armazenamento ou no Office 365 Rede de Distribuição de Conteúdo [com SharePoint Online.](../../enterprise/use-microsoft-365-cdn-with-spo.md)
 
 ### <a name="why-am-i-receiving-themessagedoesnt-meet-minimum-color-contrast-ratio-of-451"></a>Por que estou recebendo a mensagem "Não encontra taxa mínima de contraste de cor de 4,5:1"?
 
 A taxa de contraste recomendada entre o texto, o ícone ou a cor do botão e a cor do plano de fundo é 4,5:1. Você pode substituir essa recomendação e ainda salvar seu tema, pois isso não é um requisito.
 
-### <a name="if-i-define-a-theme-which-places-in-microsoft-365-will-this-be-used"></a>Se eu definir um tema, quais locais no Microsoft 365 isso será usado?
+### <a name="if-i-define-a-theme-which-places-in-microsoft-365-will-this-be-used"></a>Se eu definir um tema, quais locais Microsoft 365 isso será usado?
 
-Qualquer tema será exibido na barra de navegação superior para todos na organização como parte do header do pacote do Microsoft 365.  
+Qualquer tema será exibido na barra de navegação superior para todos na organização como parte do Microsoft 365 do pacote.  
   
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Adicionar blocos personalizados à página "Meus aplicativos" e ao inicializador de aplicativos](../manage/customize-the-app-launcher.md)
+[Adicionar blocos personalizados à página Meus aplicativos e ao launcher](../manage/customize-the-app-launcher.md) de aplicativos (artigo)
 
-[Visão geral dos Grupos do Microsoft 365 para administradores](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups)
+[Visão geral Microsoft 365 grupos para administradores](../create-groups/office-365-groups.md) (artigo)

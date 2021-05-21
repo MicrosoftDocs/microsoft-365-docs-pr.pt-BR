@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-migratetomdatp
 ms.topic: article
 ms.custom: migrationguides
-ms.date: 05/14/2021
+ms.date: 05/20/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 6d3f1e2b0986fe12f0bf318b53100ca31f1ed700
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 92dfc279344b003ab651110375982b0f065dfb0d
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538370"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594164"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-1-prepare"></a>Alternar para o Microsoft Defender para o Ponto de Extremidade - Fase 1: Preparar
 
@@ -43,11 +43,8 @@ ms.locfileid: "52538370"
 Essa fase de migração inclui as seguintes etapas:
 
 1. [Obter e implantar atualizações nos dispositivos da sua organização](#get-and-deploy-updates-across-your-organizations-devices)
-
 2. [Obter o Defender para o Ponto de Extremidade](#get-microsoft-defender-for-endpoint).
-
 3. [Conceda acesso ao Central de Segurança do Microsoft Defender](#grant-access-to-the-microsoft-defender-security-center).
-
 4. [Configure as configurações de proxy de dispositivo e conectividade com a Internet.](#configure-device-proxy-and-internet-connectivity-settings)
 
 ## <a name="get-and-deploy-updates-across-your-organizations-devices"></a>Obter e implantar atualizações nos dispositivos da sua organização
@@ -64,7 +61,7 @@ Precisa de ajuda? Consulte a documentação do provedor de soluções.
 
 Precisa de ajuda para atualizar os dispositivos da sua organização? Consulte os seguintes recursos:
 
-|SISTEMA OPERACIONAL | Recurso |
+|SISTEMA OPERACIONAL | Resource |
 |:--|:--|
 |Windows |[Microsoft Update](https://www.update.microsoft.com) |
 |macOS | [Como atualizar o software em seu Mac](https://support.apple.com/HT201541)|
@@ -84,14 +81,14 @@ Agora que você atualizou os dispositivos da sua organização, a próxima etapa
 
 4. Se os pontos de extremidade (como dispositivos) em sua organização usarem um proxy para acessar a Internet, consulte [Defender for Endpoint setup: Network configuration](production-deployment.md#network-configuration).
  
-Neste ponto, você está pronto para conceder acesso aos administradores de segurança e operadores de segurança que usarão o Central de Segurança do Microsoft Defender ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ). 
+Neste ponto, você está pronto para conceder acesso aos administradores de segurança e operadores de segurança que usarão o Central de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ). 
 
 > [!NOTE]
-> O Central de Segurança do Microsoft Defender às vezes é chamado de portal do Defender para Ponto de Extremidade e pode ser acessado em [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) . 
+> O Central de Segurança do Microsoft Defender às vezes é chamado de portal do Defender para Ponto de Extremidade e pode ser acessado em [https://securitycenter.windows.com](https://securitycenter.windows.com) . 
 
 ## <a name="grant-access-to-the-microsoft-defender-security-center"></a>Conceder acesso ao Central de Segurança do Microsoft Defender
 
-A Central de Segurança do Microsoft Defender ( ) é onde você [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) acessa e configura recursos e recursos do Defender para Ponto de Extremidade. Para saber mais, confira [Visão geral do Central de Segurança do Microsoft Defender](use.md).
+A Central de Segurança do Microsoft Defender ( ) é onde você [https://securitycenter.windows.com](https://securitycenter.windows.com) acessa e configura recursos e recursos do Defender para Ponto de Extremidade. Para saber mais, confira [Visão geral do Central de Segurança do Microsoft Defender](use.md).
 
 As permissões para o Central de Segurança do Microsoft Defender podem ser concedidas usando permissões básicas ou controle de acesso baseado em função (RBAC). Recomendamos o uso do RBAC para que você tenha controle mais granular sobre permissões.
 
@@ -102,9 +99,7 @@ As permissões para o Central de Segurança do Microsoft Defender podem ser conc
     Se sua organização exigir um método diferente do Intune, escolha uma das seguintes opções:
 
     - [Configuration Manager](/mem/configmgr/core/servers/deploy/configure/configure-role-based-administration)
-
     - [Gerenciamento avançado de política de grupo](/microsoft-desktop-optimization-pack/agpm)
-
     - [Windows Centro de administração](/windows-server/manage/windows-admin-center/overview)
 
 3. Conceda acesso ao Central de Segurança do Microsoft Defender. (Precisa de ajuda? Consulte [Gerenciar acesso ao portal usando RBAC](rbac.md)).
@@ -113,14 +108,14 @@ As permissões para o Central de Segurança do Microsoft Defender podem ser conc
 
 Para habilitar a comunicação entre seus dispositivos e o Defender para Ponto de Extremidade, configure configurações de proxy e internet. A tabela a seguir inclui links para recursos que você pode usar para configurar suas configurações de proxy e internet para vários sistemas operacionais e recursos:
 
-|Recursos  | Sistema operacional | Recursos |
-|--|--|--|
-|[Detecção e](overview-endpoint-detection-response.md) resposta do ponto de extremidade (EDR) |[Windows 10](/windows/release-health/release-information) <p>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<p>[Windows Servidor 1803 ou posterior](/windows-server/get-started/whats-new-in-windows-server-1803)  |[Configurar configurações de proxy de máquina e conectividade com a Internet](configure-proxy-internet.md) |
-|EDR |[Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016) <p>[Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<p>[Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)<p>[Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<p>[Windows 7 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) |[Configurar configurações de conectividade de proxy e internet](onboard-downlevel.md#configure-proxy-and-internet-connectivity-settings) |
-|EDR  |macOS: <p>11.3.1 (Big Sur)<p>10.15 (Catalina)<p>10.14 (Mojave)   |[Defender para Ponto de Extremidade no macOS: conexões de rede](microsoft-defender-endpoint-mac.md#network-connections)  |
-|[Microsoft Defender Antivírus](microsoft-defender-antivirus-in-windows-10.md) |[Windows 10](/windows/release-health/release-information) <p>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<p>[Windows Servidor 1803 ou posterior](/windows-server/get-started/whats-new-in-windows-server-1803) <p>[Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016) |[Configurar e validar as conexões de rede do Microsoft Defender Antivírus](configure-network-connections-microsoft-defender-antivirus.md)<br/> |
-|Antivírus |macOS: <p>11.3.1 (Big Sur)<p>10.15 (Catalina)<p>10.14 (Mojave) |[Defender para Ponto de Extremidade no macOS: conexões de rede](microsoft-defender-endpoint-mac.md#network-connections) |
-|Antivírus |Linux: <p>RHEL 7.2+<p>CentOS Linux 7.2+<p>Ubuntu 16 LTS ou LTS superior<p>SLES 12+<p>Debian 9+<p>Oracle Linux 7.2 |[Defender para Ponto de Extremidade no Linux: conexões de rede](microsoft-defender-endpoint-linux.md#network-connections) |
+| Recursos  | Sistema operacional | Recursos |
+|:--|:--|:--|
+| [Detecção e](overview-endpoint-detection-response.md) resposta do ponto de extremidade (EDR) | [Windows 10](/windows/release-health/release-information) <p>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<p>[Windows Servidor 1803 ou posterior](/windows-server/get-started/whats-new-in-windows-server-1803)  | [Configurar configurações de proxy de máquina e conectividade com a Internet](configure-proxy-internet.md) |
+| EDR | [Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016) <p>[Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<p>[Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)<p>[Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<p>[Windows 7 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) |[Configurar configurações de conectividade de proxy e internet](onboard-downlevel.md#configure-proxy-and-internet-connectivity-settings) |
+| EDR  | macOS:<p>11.3.1 (Big Sur)<p>10.15 (Catalina)<p>10.14 (Mojave)   | [Defender para Ponto de Extremidade no macOS: conexões de rede](microsoft-defender-endpoint-mac.md#network-connections)  |
+| [Microsoft Defender Antivírus](microsoft-defender-antivirus-in-windows-10.md) | [Windows 10](/windows/release-health/release-information) <p>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<p>[Windows Servidor 1803 ou posterior](/windows-server/get-started/whats-new-in-windows-server-1803) <p>[Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016) | [Configurar e validar as conexões de rede do Microsoft Defender Antivírus](configure-network-connections-microsoft-defender-antivirus.md)<br/> |
+| Antivírus | macOS:<p>11.3.1 (Big Sur)<p>10.15 (Catalina)<p>10.14 (Mojave) | [Defender para Ponto de Extremidade no macOS: conexões de rede](microsoft-defender-endpoint-mac.md#network-connections) |
+| Antivírus | Linux: <p>RHEL 7.2+<p>CentOS Linux 7.2+<p>Ubuntu 16 LTS ou LTS superior<p>SLES 12+<p>Debian 9+<p>Oracle Linux 7.2 | [Defender para Ponto de Extremidade no Linux: conexões de rede](microsoft-defender-endpoint-linux.md#network-connections) |
 
 ## <a name="next-step"></a>Próxima etapa
 

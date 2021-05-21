@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba mais sobre como usar os complementos centralizados para implantar os complementos para usuários e grupos em sua organização.
-ms.openlocfilehash: 76bfa6272ec784518f045a50299fc7cda719eec8
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: c103cfc4e3e7b404ea4d31d81bc30d7990a922dc
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327193"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593964"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>Gerenciar suplementos no centro de administração
 
@@ -155,14 +155,14 @@ Se o complemento implantado não dá suporte a comandos de add-in ou se você qu
   
 2. Selecione **Gerenciados pelo Administrador** no painel de administração à esquerda. 
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Implantar suplementos no centro de administração](./manage-deployment-of-add-ins.md)
+[Implantar os complementos no centro de administração](./manage-deployment-of-add-ins.md) (artigo)
 
-Saiba mais sobre como criar e [criar Office de complementos.](/office/dev/add-ins/overview/office-add-ins)
+Saiba mais sobre como criar e [criar Office de complementos](/office/dev/add-ins/overview/office-add-ins) (artigo)
   
-[Use cmdlets do PowerShell de](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md)Implantação Centralizada para gerenciar os complementos .
+[Usar cmdlets do PowerShell de](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md) Implantação Centralizada para gerenciar os complementos (artigo)
   
-[Solução de problemas: o usuário não está vendo os complementos](/office365/troubleshoot/access-management/user-not-seeing-add-ins)
+[Solução de problemas: o usuário não está vendo os complementos](/office365/troubleshoot/access-management/user-not-seeing-add-ins) (artigo)
 
-[Secundárias e aquisição de complementos do Microsoft Store](./minors-and-acquiring-addins-from-the-store.md)
+[Secundárias e aquisição de complementos do Microsoft Store](./minors-and-acquiring-addins-from-the-store.md) (artigo)

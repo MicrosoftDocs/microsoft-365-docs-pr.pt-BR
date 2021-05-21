@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Deixe a sua organização mais segura contra ataques de senha, vete senhas comuns e habilite a autenticação multifator baseada em risco.
-ms.openlocfilehash: 1927e481625e93afa8aa064666e75ea8f891669e
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: f2b9b9188a6f05bbcdae45dcc22d401e1eb6f1a8
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572292"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593904"
 ---
 # <a name="password-policy-recommendations"></a>Recomendações de política de senha
 
