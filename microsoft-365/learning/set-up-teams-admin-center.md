@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 05/12/2021
+ms.date: 05/24/2021
 audience: admin
 ms.topic: article
 ms.service: ''
@@ -15,69 +15,69 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: None
 description: Saiba como configurar o Microsoft Viva Learning (Visualização) no Teams de administração.
-ms.openlocfilehash: e5af676752064738e26f9b934a60973cb9b0200d
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: a96a2f3ecf7d4e1ee0c136ae155868218f08aaf4
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625288"
+ms.locfileid: "52636129"
 ---
-# <a name="set-up-microsoft-viva-learning-preview-in-the-teams-admin-center"></a><span data-ttu-id="059b7-103">Configurar o Microsoft Viva Learning (Visualização) no Teams de administração</span><span class="sxs-lookup"><span data-stu-id="059b7-103">Set up Microsoft Viva Learning (Preview) in the Teams admin center</span></span>
+# <a name="set-up-microsoft-viva-learning-preview-in-the-teams-admin-center"></a><span data-ttu-id="bbba0-103">Configurar o Microsoft Viva Learning (Visualização) no Teams de administração</span><span class="sxs-lookup"><span data-stu-id="bbba0-103">Set up Microsoft Viva Learning (Preview) in the Teams admin center</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="059b7-104">As informações neste artigo se relacionam a um produto de visualização que pode ser substancialmente modificado antes de ser lançado comercialmente.</span><span class="sxs-lookup"><span data-stu-id="059b7-104">The information in this article relates to a preview product that may be substantially modified before it's commercially released.</span></span> 
+> <span data-ttu-id="bbba0-104">As informações neste artigo se relacionam a um produto de visualização que pode ser substancialmente modificado antes de ser lançado comercialmente.</span><span class="sxs-lookup"><span data-stu-id="bbba0-104">The information in this article relates to a preview product that may be substantially modified before it's commercially released.</span></span> 
 
-<span data-ttu-id="059b7-105">O Teams administrador instala o Viva Learning (Visualização) e aplica políticas de permissão por meio do Teams de administração.</span><span class="sxs-lookup"><span data-stu-id="059b7-105">The Teams admin installs Viva Learning (Preview) and applies permission policies through the Teams admin center.</span></span>
+<span data-ttu-id="bbba0-105">O Teams administrador instala o Viva Learning (Visualização) e aplica políticas de permissão por meio do Teams de administração.</span><span class="sxs-lookup"><span data-stu-id="bbba0-105">The Teams admin installs Viva Learning (Preview) and applies permission policies through the Teams admin center.</span></span>
 
-1. <span data-ttu-id="059b7-106">Para Visualização Pública, você deve primeiro definir a política De atualização.</span><span class="sxs-lookup"><span data-stu-id="059b7-106">For Public Preview, you must first set the Update policy.</span></span> <span data-ttu-id="059b7-107">Para obter mais detalhes, consulte o Teams site Microsoft Teams [Visualização Pública](/MicrosoftTeams/public-preview-doc-updates).</span><span class="sxs-lookup"><span data-stu-id="059b7-107">For more details, see the Teams site [Microsoft Teams Public Preview](/MicrosoftTeams/public-preview-doc-updates).</span></span>
+1. <span data-ttu-id="bbba0-106">Para o Viva Learning (Visualização), você deve primeiro definir a política De atualização em Teams.</span><span class="sxs-lookup"><span data-stu-id="bbba0-106">For Viva Learning (Preview), you must first set the Update policy in Teams.</span></span> <span data-ttu-id="bbba0-107">Para obter mais informações, [consulte Microsoft Teams Visualização Pública](/MicrosoftTeams/public-preview-doc-updates).</span><span class="sxs-lookup"><span data-stu-id="bbba0-107">For more information, see [Microsoft Teams Public Preview](/MicrosoftTeams/public-preview-doc-updates).</span></span>
 
-    1. <span data-ttu-id="059b7-108">Entre no centro de Teams de administração.</span><span class="sxs-lookup"><span data-stu-id="059b7-108">Sign in to the Teams admin center.</span></span>
+    1. <span data-ttu-id="bbba0-108">Entre no centro de Teams de administração.</span><span class="sxs-lookup"><span data-stu-id="bbba0-108">Sign in to the Teams admin center.</span></span>
 
-    2. <span data-ttu-id="059b7-109">Selecione **Teams**  >  **Políticas de atualização.**</span><span class="sxs-lookup"><span data-stu-id="059b7-109">Select **Teams** > **Update policies**.</span></span>
+    2. <span data-ttu-id="bbba0-109">Selecione **Teams**  >  **Políticas de atualização.**</span><span class="sxs-lookup"><span data-stu-id="bbba0-109">Select **Teams** > **Update policies**.</span></span>
 
-    3. <span data-ttu-id="059b7-110">Selecione **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="059b7-110">Select **Add**.</span></span> 
+    3. <span data-ttu-id="bbba0-110">Selecione **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="bbba0-110">Select **Add**.</span></span> 
 
-    4. <span data-ttu-id="059b7-111">Nomeia a política de atualização, adicione uma política e acione **Mostrar recursos de visualização**.</span><span class="sxs-lookup"><span data-stu-id="059b7-111">Name the update policy, add a policy, and turn on **Show preview features**.</span></span>
+    4. <span data-ttu-id="bbba0-111">Nomeia a política de atualização, adicione uma política e acione **Mostrar recursos de visualização**.</span><span class="sxs-lookup"><span data-stu-id="bbba0-111">Name the update policy, add a policy, and turn on **Show preview features**.</span></span>
 
-2. <span data-ttu-id="059b7-112">O administrador deve notificar os usuários sobre a atualização de política para que eles movam sua com build para a Visualização Pública para Teams.</span><span class="sxs-lookup"><span data-stu-id="059b7-112">The admin must notify users of the policy update so that they move their build into Public Preview for Teams.</span></span> 
+2. <span data-ttu-id="bbba0-112">O administrador deve notificar os usuários sobre a atualização de política para que eles movam sua com build para a Visualização Pública para Teams.</span><span class="sxs-lookup"><span data-stu-id="bbba0-112">The admin must notify users of the policy update so that they move their build into the Public Preview for Teams.</span></span> 
 
-    1. <span data-ttu-id="059b7-113">O usuário deve selecionar sua imagem de perfil --> Sobre --> Visualização Pública.</span><span class="sxs-lookup"><span data-stu-id="059b7-113">User must select their profile image --> About --> Public Preview.</span></span>
+    1. <span data-ttu-id="bbba0-113">Os usuários devem selecionar suas imagens de perfil > **Sobre**  >  **Visualização Pública.**</span><span class="sxs-lookup"><span data-stu-id="bbba0-113">Users must select their profile image > **About** > **Public Preview**.</span></span>
    
         ![Navegação superior no aplicativo Teams mostrando o perfil do usuário](../media/learning/learning-app-select-profile-teams.png)
     
-    2. <span data-ttu-id="059b7-115">O usuário deve aceitar os termos de Visualização Pública.</span><span class="sxs-lookup"><span data-stu-id="059b7-115">User must accept terms of Public Preview.</span></span>
+    2. <span data-ttu-id="bbba0-115">Os usuários devem aceitar os termos e condições **de visualização** pública.</span><span class="sxs-lookup"><span data-stu-id="bbba0-115">Users must accept the **Public preview** terms and conditions.</span></span>
 
         ![Alternar para a com build de visualização pública](../media/learning/learning-app-switch-to-public-preview.png)
  
-3. <span data-ttu-id="059b7-117">Para organizações que têm políticas restritivas e precisam habilitar o Viva Learning, siga o processo na próxima seção.</span><span class="sxs-lookup"><span data-stu-id="059b7-117">For organizations that have restrictive policies and need to enable Viva Learning, follow the process in the next section.</span></span>
+3. <span data-ttu-id="bbba0-117">Para organizações que têm políticas restritivas e precisam habilitar o Viva Learning (Visualização), siga o processo na próxima seção.</span><span class="sxs-lookup"><span data-stu-id="bbba0-117">For organizations that have restrictive policies and need to enable Viva Learning (Preview), follow the process in the next section.</span></span>
 
-## <a name="manage-settings-for-viva-learning-preview"></a><span data-ttu-id="059b7-118">Gerenciar configurações para o Viva Learning (Visualização)</span><span class="sxs-lookup"><span data-stu-id="059b7-118">Manage settings for Viva Learning (Preview)</span></span>
+## <a name="manage-settings-for-viva-learning-preview"></a><span data-ttu-id="bbba0-118">Gerenciar configurações para o Viva Learning (Visualização)</span><span class="sxs-lookup"><span data-stu-id="bbba0-118">Manage settings for Viva Learning (Preview)</span></span>
 
-<span data-ttu-id="059b7-119">Você deve ser um administrador no centro de administração Teams para executar essas tarefas.</span><span class="sxs-lookup"><span data-stu-id="059b7-119">You must be an administrator in the Teams admin center to perform these tasks.</span></span>
+<span data-ttu-id="bbba0-119">Você deve ser um administrador no centro de administração Teams para executar essas tarefas.</span><span class="sxs-lookup"><span data-stu-id="bbba0-119">You must be an administrator in the Teams admin center to perform these tasks.</span></span>
 
-<span data-ttu-id="059b7-120">Para disponibilizar o Viva Learning (Visualização) para usuários em sua organização, siga estas etapas:</span><span class="sxs-lookup"><span data-stu-id="059b7-120">To make Viva Learning (Preview) available for users in your organization, follow these steps:</span></span>
+<span data-ttu-id="bbba0-120">Para disponibilizar o Viva Learning (Visualização) para usuários em sua organização, siga estas etapas:</span><span class="sxs-lookup"><span data-stu-id="bbba0-120">To make Viva Learning (Preview) available for users in your organization, follow these steps:</span></span>
 
-1. <span data-ttu-id="059b7-121">Na navegação à esquerda do centro de administração Teams, acesse **Teams**  >  **aplicativos Gerenciar aplicativos**.</span><span class="sxs-lookup"><span data-stu-id="059b7-121">In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.</span></span>
+1. <span data-ttu-id="bbba0-121">Na navegação à esquerda do centro de administração Teams, acesse **Teams**  >  **aplicativos Gerenciar aplicativos**.</span><span class="sxs-lookup"><span data-stu-id="bbba0-121">In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.</span></span>
 
    ![Navegação à esquerda no centro de Teams de administração mostrando Teams aplicativos e Gerenciar aplicativos.](../media/learning/learning-app-teams-manage-apps-nav.png)
 
-2. <span data-ttu-id="059b7-123">Na página **Gerenciar aplicativos,** na caixa de pesquisa, digite *Viva learning* e selecione Viva **Learning (Visualização).**</span><span class="sxs-lookup"><span data-stu-id="059b7-123">On the **Manage apps** page, in the search box, type *Viva learning*, and then select **Viva Learning (Preview)**.</span></span>
+2. <span data-ttu-id="bbba0-123">Na página **Gerenciar aplicativos,** na caixa de pesquisa, digite *Viva learning* e selecione Viva **Learning (Visualização).**</span><span class="sxs-lookup"><span data-stu-id="bbba0-123">On the **Manage apps** page, in the search box, type *Viva learning*, and then select **Viva Learning (Preview)**.</span></span>
 
    ![Gerenciar a página aplicativos no Teams de administração mostrando a caixa de pesquisa.](../media/learning/learning-app-teams-manage-apps-page.png)
 
-3. <span data-ttu-id="059b7-125">Na página **Viva Aprendizagem (Visualização):**</span><span class="sxs-lookup"><span data-stu-id="059b7-125">On the **Viva Learning (Preview)** page:</span></span>
+3. <span data-ttu-id="bbba0-125">Na página **Viva Aprendizagem (Visualização):**</span><span class="sxs-lookup"><span data-stu-id="bbba0-125">On the **Viva Learning (Preview)** page:</span></span>
 
-   1. <span data-ttu-id="059b7-126">Em **Status**, selecione **Permitido** ativar o Viva Learning (Visualização).</span><span class="sxs-lookup"><span data-stu-id="059b7-126">Under **Status**, select **Allowed** to turn on Viva Learning (Preview).</span></span>
+   1. <span data-ttu-id="bbba0-126">Em **Status**, selecione **Permitido** ativar o Viva Learning (Visualização).</span><span class="sxs-lookup"><span data-stu-id="bbba0-126">Under **Status**, select **Allowed** to turn on Viva Learning (Preview).</span></span>
 
-   2. <span data-ttu-id="059b7-127">Na guia **Configurações,** em Configurações **do** aplicativo, vá para o centro de administração Microsoft 365 para configurar fontes de conteúdo [de aprendizagem.](content-sources-365-admin-center.md)</span><span class="sxs-lookup"><span data-stu-id="059b7-127">On the **Settings** tab, under **App settings**, go to the Microsoft 365 admin center to [configure learning content sources](content-sources-365-admin-center.md).</span></span>
+   2. <span data-ttu-id="bbba0-127">Na guia **Configurações,** em Configurações **do** aplicativo, vá para o centro de administração Microsoft 365 para configurar fontes de conteúdo [de aprendizagem.](content-sources-365-admin-center.md)</span><span class="sxs-lookup"><span data-stu-id="bbba0-127">On the **Settings** tab, under **App settings**, go to the Microsoft 365 admin center to [configure learning content sources](content-sources-365-admin-center.md).</span></span>
 
    ![Página de aprendizado no centro Teams de administração mostrando configurações de Status e Aplicativo.](../media/learning/learning-app-teams-learning-page.png)
 
-4. <span data-ttu-id="059b7-129">Depois **de Gerenciar** configurações  do  aplicativo, acesse Políticas de permissão e políticas de Instalação para conceder permissão aos funcionários que devem ter acesso ao Viva Learning (Visualização) como parte da participação da sua organização na visualização.</span><span class="sxs-lookup"><span data-stu-id="059b7-129">After **Manage app** settings, go to **Permission policies** and **Setup policies** to grant permission to employees who should have access to Viva Learning (Preview) as part of your organization's participation in the preview.</span></span>
+4. <span data-ttu-id="bbba0-129">Depois **de Gerenciar** configurações  do  aplicativo, acesse Políticas de permissão e políticas de Instalação para conceder permissão aos funcionários que devem ter acesso ao Viva Learning (Visualização) como parte da participação da sua organização na visualização.</span><span class="sxs-lookup"><span data-stu-id="bbba0-129">After **Manage app** settings, go to **Permission policies** and **Setup policies** to grant permission to employees who should have access to Viva Learning (Preview) as part of your organization's participation in the preview.</span></span>
 
 > [!NOTE]
->  <span data-ttu-id="059b7-130">Se sua organização estiver no Ring 4.0 como parte do programa TAP100 do Teams, talvez seja necessário habilitar usuários aprovados no Ring 3.0 para acessar o Viva Learning (Visualização).</span><span class="sxs-lookup"><span data-stu-id="059b7-130">If your organization is in Ring 4.0 as part of Teams TAP100 program, you might need to enable approved users in Ring 3.0 to access Viva Learning (Preview).</span></span> <br><br><span data-ttu-id="059b7-131">Como parte da visualização, o Viva Learning (Visualização) é lançado no Ring 3.0.</span><span class="sxs-lookup"><span data-stu-id="059b7-131">As part of the preview, Viva Learning (Preview) is released in Ring 3.0.</span></span> <span data-ttu-id="059b7-132">Se sua organização estiver no Ring 4.0, você não verá o Viva Learning (Visualização) na página **Gerenciar aplicativos.**</span><span class="sxs-lookup"><span data-stu-id="059b7-132">If your organization is in Ring 4.0, you won’t see Viva Learning (Preview) on the **Manage apps** page.</span></span> <span data-ttu-id="059b7-133">Para testar o aplicativo, você precisa criar uma política de permissão de aplicativos personalizados, defini-la como **Permitir** todos os aplicativos e atribuí-la aos usuários aprovados do Anel 3.0.</span><span class="sxs-lookup"><span data-stu-id="059b7-133">To test the app, you need to create a custom apps permission policy, set it to **Allow all apps**, and assign it to Ring 3.0 approved users.</span></span> <br><br>   <span data-ttu-id="059b7-134">![Página TAP-AppsPermission-Plcy mostrando Permitir todos os aplicativos selecionados.](../media/learning/learning-app-tap-appspermission-plcy.png)</span><span class="sxs-lookup"><span data-stu-id="059b7-134">![TAP-AppsPermission-Plcy page showing Allow all apps selected.](../media/learning/learning-app-tap-appspermission-plcy.png)</span></span>
+>  <span data-ttu-id="bbba0-130">Se sua organização estiver no Ring 4.0 como parte do programa TAP100 do Teams, talvez seja necessário habilitar usuários aprovados no Ring 3.0 para acessar o Viva Learning (Visualização).</span><span class="sxs-lookup"><span data-stu-id="bbba0-130">If your organization is in Ring 4.0 as part of Teams TAP100 program, you might need to enable approved users in Ring 3.0 to access Viva Learning (Preview).</span></span> <br><br><span data-ttu-id="bbba0-131">Como parte da visualização, o Viva Learning (Visualização) é lançado no Ring 3.0.</span><span class="sxs-lookup"><span data-stu-id="bbba0-131">As part of the preview, Viva Learning (Preview) is released in Ring 3.0.</span></span> <span data-ttu-id="bbba0-132">Se sua organização estiver no Ring 4.0, você não verá o Viva Learning (Visualização) na página **Gerenciar aplicativos.**</span><span class="sxs-lookup"><span data-stu-id="bbba0-132">If your organization is in Ring 4.0, you won’t see Viva Learning (Preview) on the **Manage apps** page.</span></span> <span data-ttu-id="bbba0-133">Para testar o aplicativo, você precisa criar uma política de permissão de aplicativos personalizados, defini-la como **Permitir** todos os aplicativos e atribuí-la aos usuários aprovados do Anel 3.0.</span><span class="sxs-lookup"><span data-stu-id="bbba0-133">To test the app, you need to create a custom apps permission policy, set it to **Allow all apps**, and assign it to Ring 3.0 approved users.</span></span> <br><br>   <span data-ttu-id="bbba0-134">![Página TAP-AppsPermission-Plcy mostrando Permitir todos os aplicativos selecionados.](../media/learning/learning-app-tap-appspermission-plcy.png)</span><span class="sxs-lookup"><span data-stu-id="bbba0-134">![TAP-AppsPermission-Plcy page showing Allow all apps selected.](../media/learning/learning-app-tap-appspermission-plcy.png)</span></span>
 
-## <a name="next-step"></a><span data-ttu-id="059b7-135">Próxima etapa</span><span class="sxs-lookup"><span data-stu-id="059b7-135">Next step</span></span>
+## <a name="next-step"></a><span data-ttu-id="bbba0-135">Próxima etapa</span><span class="sxs-lookup"><span data-stu-id="bbba0-135">Next step</span></span>
 
-[<span data-ttu-id="059b7-136">Configurar fontes de conteúdo de aprendizagem para o Viva Learning (Visualização) no Microsoft 365 de administração</span><span class="sxs-lookup"><span data-stu-id="059b7-136">Configure learning content sources for Viva Learning (Preview) in the Microsoft 365 admin center</span></span>](content-sources-365-admin-center.md)
+[<span data-ttu-id="bbba0-136">Configurar fontes de conteúdo de aprendizagem para o Viva Learning (Visualização) no Microsoft 365 de administração</span><span class="sxs-lookup"><span data-stu-id="bbba0-136">Configure learning content sources for Viva Learning (Preview) in the Microsoft 365 admin center</span></span>](content-sources-365-admin-center.md)
