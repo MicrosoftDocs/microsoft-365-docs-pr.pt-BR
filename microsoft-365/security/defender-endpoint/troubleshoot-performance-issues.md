@@ -16,12 +16,12 @@ ms.date: 04/14/2021
 audience: ITPro
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 71c2391361c645d26cdaddff0bff86796da50391
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: 1a969b6430914eb2dd667a906dc071d3cd49be8b
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995076"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625324"
 ---
 # <a name="troubleshoot-performance-issues-related-to-real-time-protection"></a>Solucionar problemas de desempenho relacionados à proteção em tempo real
 
@@ -33,7 +33,7 @@ ms.locfileid: "51995076"
 
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2146631)
  
-Se o seu sistema estiver tendo altos problemas de uso ou desempenho da CPU relacionados ao serviço de proteção em tempo real no Microsoft Defender para Ponto de Extremidade, você pode enviar um tíquete para o suporte da Microsoft. Siga as etapas em Coletar dados de [diagnóstico do Microsoft Defender Antivírus.](collect-diagnostic-data.md)
+Se o seu sistema estiver tendo altos problemas de uso ou desempenho da CPU relacionados ao serviço de proteção em tempo real no Microsoft Defender para Ponto de Extremidade, você pode enviar um tíquete para o suporte da Microsoft. Siga as etapas em [Coletar Microsoft Defender Antivírus dados de diagnóstico](collect-diagnostic-data.md).
 
 Como administrador, você também pode solucionar esses problemas por conta própria. 
 
@@ -43,7 +43,7 @@ Caso contrário, você pode identificar qual software está relacionado ao probl
 
 Você também pode fornecer logs adicionais para o seu envio para o suporte da Microsoft seguindo as etapas em:
 - [Capturar logs de processo usando o Monitor de Processo](#capture-process-logs-using-process-monitor)
-- [Capturar logs de desempenho usando o Windows Performance Recorder](#capture-performance-logs-using-windows-performance-recorder) 
+- [Capturar logs de desempenho usando Windows Gravador de Desempenho](#capture-performance-logs-using-windows-performance-recorder) 
 
 ## <a name="check-with-vendor-for-antivirus-exclusions"></a>Verificar com o fornecedor sobre exclusões de antivírus
 
@@ -62,14 +62,14 @@ Em **MPLog-xxxxxxxx-xxxxxx.log,** você pode encontrar as informações de impac
 |---|---|
 |ProcessImageName | Processar nome da imagem |
 | TotalTime | A duração cumulativa em milissegundos gastos em verificações de arquivos acessados por esse processo |
-|Contar | O número de arquivos verificados acessados por esse processo |
+|Contagem | O número de arquivos verificados acessados por esse processo |
 |MaxTime |  A duração em milissegundos na verificação única mais longa de um arquivo acessado por esse processo |
 | MaxTimeFile | O caminho do arquivo acessado por esse processo para o qual a verificação mais longa de duração `MaxTime` foi registrada |
 | EstimatedImpact | A porcentagem de tempo gasto em verificações de arquivos acessados por esse processo fora do período em que esse processo experimentou a atividade de verificação |
 
-Se o impacto no desempenho for alto, tente adicionar o processo às exclusões de Caminho/Processo seguindo as etapas em Configurar e validar exclusões para verificações do [Microsoft Defender Antivírus.](collect-diagnostic-data.md)
+Se o impacto no desempenho for alto, tente adicionar o processo às exclusões de Caminho/Processo seguindo as etapas em Configurar e validar exclusões para Microsoft Defender Antivírus [verificações](collect-diagnostic-data.md).
 
-Se a etapa anterior não resolver o problema, você poderá coletar mais informações por meio do [Monitor](#capture-process-logs-using-process-monitor) de Processo ou do [Windows Performance Recorder](#capture-performance-logs-using-windows-performance-recorder) nas seções a seguir.
+Se a etapa anterior não resolver o problema, você poderá coletar mais informações por meio do [Monitor](#capture-process-logs-using-process-monitor) de Processo ou do Windows [De](#capture-performance-logs-using-windows-performance-recorder) desempenho nas seções a seguir.
      
 ## <a name="capture-process-logs-using-process-monitor"></a>Capturar logs de processo usando o Monitor de Processo
 
@@ -87,7 +87,7 @@ O Monitor de Processos (ProcMon) é uma ferramenta de monitoramento avançada qu
 
 3. Descomplem o arquivo `C:\temp` para que o caminho da pasta seja `C:\temp\ProcessMonitor` . 
 
-4. Copie **ProcMon.exe**  para o cliente windows ou servidor Windows que você está solucionando.  
+4. Copie **ProcMon.exe** para o cliente Windows ou Windows servidor que você está solucionando.  
 
 5. Antes de executar ProcMon, certifique-se de que todos os outros aplicativos não relacionados ao alto problema de uso da CPU sejam fechados. Isso minimizará o número de processos a verificar.
 
@@ -150,15 +150,15 @@ O Monitor de Processos (ProcMon) é uma ferramenta de monitoramento avançada qu
 13. Feche o arquivo .pml e envie-o para o suporte da Microsoft.
 
 
-## <a name="capture-performance-logs-using-windows-performance-recorder"></a>Capturar logs de desempenho usando o Windows Performance Recorder
+## <a name="capture-performance-logs-using-windows-performance-recorder"></a>Capturar logs de desempenho usando Windows Gravador de Desempenho
 
-Você pode usar o Windows Performance Recorder (WPR) para incluir informações adicionais em seu envio para o suporte da Microsoft. WPR é uma ferramenta de gravação poderosa que cria Rastreamento de Eventos para gravações do Windows. 
+Você pode usar Windows WPR (Gravador de Desempenho) para incluir informações adicionais no envio ao suporte da Microsoft. WPR é uma ferramenta de gravação poderosa que cria Rastreamento de Eventos para Windows gravações. 
 
-WPR faz parte do Kit de Avaliação e Implantação do Windows (Windows ADK) e pode ser baixado em Baixar e [instalar o Windows ADK](/windows-hardware/get-started/adk-install). Você também pode baixá-lo como parte do Kit de Desenvolvimento de Software do Windows 10 no [SDK do Windows 10.](https://developer.microsoft.com/windows/downloads/windows-10-sdk/)
+WPR faz parte do Windows Kit de Avaliação e Implantação (Windows ADK) e pode ser baixado do Download e instalar o [Windows ADK](/windows-hardware/get-started/adk-install). Você também pode baixá-lo como parte do Windows 10 Software Development Kit [em Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk/).
 
 Você pode usar a interface do usuário WPR seguindo as etapas em Capturar logs de desempenho usando a interface do usuário [WPR](#capture-performance-logs-using-the-wpr-ui). 
 
-Como *alternativa,* você também pode usar a ferramenta de linha de comandowpr.exe, que está disponível no Windows 8 e versões posteriores seguindo as etapas em Capturar logs de desempenho usando a [CLI WPR](#capture-performance-logs-using-the-wpr-cli).
+Como alternativa, você também pode usar a ferramenta de linha de comando *wpr.exe*, que está disponível no Windows 8 e versões posteriores seguindo as etapas em Capturar logs de desempenho usando a [CLI WPR](#capture-performance-logs-using-the-wpr-cli).
 
 
 ### <a name="capture-performance-logs-using-the-wpr-ui"></a>Capturar logs de desempenho usando a interface do usuário WPR
@@ -168,7 +168,7 @@ Como *alternativa,* você também pode usar a ferramenta de linha de comandowpr.
 
 1. Baixe e instale o WPR.
 
-2. Em *Kits do Windows,* clique com o botão direito do mouse **no Windows Performance Recorder.** 
+2. Em *Windows Kits,* clique com o botão direito do **mouse Windows Performance Recorder**. 
 
     ![Menu Iniciar](images/wpr-01.png)
 
@@ -178,13 +178,13 @@ Como *alternativa,* você também pode usar a ferramenta de linha de comandowpr.
 
     ![UAC](images/wpt-yes.png)
 
-4. Em seguida, baixe o perfil de análise do [Microsoft Defender para Ponto](https://github.com/YongRhee-MDE/Scripts/blob/master/MDAV.wprp) de Extremidade e salve uma pasta como `WD.wprp` `C:\temp` . 
+4. Em seguida, baixe o perfil de análise do [Microsoft Defender para Ponto](https://github.com/YongRhee-MDE/Scripts/blob/master/MDAV.wprp) de Extremidade e salve uma pasta como `MDAV.wprp` `C:\temp` . 
      
 5. Na caixa de diálogo WPR, selecione **Mais opções**.
 
     ![Selecionar mais opções](images/wpr-03.png)
 
-6. Selecione **Adicionar Perfis...** e navegue até o caminho do `WD.wprp` arquivo.
+6. Selecione **Adicionar Perfis...** e navegue até o caminho do `MDAV.wprp` arquivo.
 
 7. Depois disso, você deverá ver um novo conjunto de perfis em *Medidas personalizadas* chamadas *Microsoft Defender para Análise* do Ponto de Extremidade abaixo dele.
 
@@ -247,20 +247,20 @@ Como *alternativa,* você também pode usar a ferramenta de linha de comandowpr.
 
 A ferramenta de linha *de comandowpr.exe* faz parte do sistema operacional a partir do Windows 8. Para coletar um rastreamento WPR usando a ferramenta de linha de comando wpr.exe:
 
-1. Baixe o perfil de análise **[do Microsoft Defender para Ponto](https://github.com/YongRhee-MDE/Scripts/blob/master/MDAV.wprp)** de Extremidade para rastreamentos de desempenho para um arquivo nomeado em um diretório local como `WD.wprp` `C:\traces` .
+1. Baixe o perfil de análise **[do Microsoft Defender para Ponto](https://github.com/YongRhee-MDE/Scripts/blob/master/MDAV.wprp)** de Extremidade para rastreamentos de desempenho para um arquivo nomeado em um diretório local como `MDAV.wprp` `C:\traces` .
 
-3. Clique com o botão direito do mouse no **ícone Menu** Iniciar e selecione **Windows PowerShell (Administrador)** ou Prompt de **Comando (Administrador)** para abrir uma janela de prompt de comando de administrador.
+3. Clique com o botão direito do mouse no **ícone menu** Iniciar e selecione **Windows PowerShell (Administrador)** ou Prompt de **Comando (Administrador)** para abrir uma janela de prompt de comando de administrador.
 
 4. Quando a caixa de diálogo Controle de Conta de Usuário for exibida, selecione **Sim**.
 
 5. No prompt elevado, execute o seguinte comando para iniciar um rastreamento de desempenho do Microsoft Defender para Ponto de Extremidade:
 
     ```console
-    wpr.exe -start C:\traces\WD.wprp!WD.Verbose -filemode
+    wpr.exe -start C:\traces\MDAV.wprp!WD.Verbose -filemode
     ```
     
     >[!WARNING]
-    >Se o Windows Server tiver 64 GB ou RAM ou mais, use perfis e, em vez `WDForLargeServers.Light` `WDForLargeServers.Verbose` de perfis e , `WD.Light` `WD.Verbose` respectivamente. Caso contrário, seu sistema poderia consumir uma grande quantidade de memória de pool não páginada ou buffers que podem levar à instabilidade do sistema.
+    >Se seu Windows Server tiver 64 GB ou RAM ou mais, use perfis e, em vez de `WDForLargeServers.Light` `WDForLargeServers.Verbose` perfis `WD.Light` e , `WD.Verbose` respectivamente. Caso contrário, seu sistema poderia consumir uma grande quantidade de memória de pool não páginada ou buffers que podem levar à instabilidade do sistema.
 
 6. Reproduza o problema.
 
@@ -279,5 +279,5 @@ A ferramenta de linha *de comandowpr.exe* faz parte do sistema operacional a par
 
 ## <a name="see-also"></a>Confira também
 
-- [Coletar dados de diagnóstico do Microsoft Defender Antivírus](collect-diagnostic-data.md)
-- [Configurar e validar exclusões para verificações do Microsoft Defender Antivírus](configure-exclusions-microsoft-defender-antivirus.md)
+- [Coletar Microsoft Defender Antivírus dados de diagnóstico](collect-diagnostic-data.md)
+- [Configurar e validar exclusões para Microsoft Defender Antivírus verificações](configure-exclusions-microsoft-defender-antivirus.md)

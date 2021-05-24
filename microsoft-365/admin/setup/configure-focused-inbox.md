@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 613a845c-4b71-41de-b331-acdcf5b6625d
-description: 'Aprenda a configurar a Caixa de Entrada Destaques para todos ou usuários específicos da sua organização. '
-ms.openlocfilehash: 62a38f911e4e1b878af6489f096f17644e070978
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+description: Se você é responsável por definir as configurações de email para todos em uma empresa, este artigo explica como configurar a Caixa de entrada Destaques para os usuários.
+ms.openlocfilehash: ddd0886988072139a199bfc3f6e8adbbf25ad58b
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644507"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623696"
 ---
 # <a name="configure-focused-inbox-for-everyone-in-your-organization"></a>Configurar a Caixa de Entrada Destaques para todos na sua organização
 
@@ -168,7 +168,7 @@ Sim. Você pode ativar ou desativar a Caixa de Entrada Destaques para toda a sua
   
 ### <a name="is-the-focused-inbox-feature-only-available-for-office-2016-clients"></a>O recurso Caixa de Entrada Destaques está disponível APENAS para clientes do Office 2016?
 
-Sim, somente usuários com o Office 2016 são afetados. O recurso não será disponibilizado para o Outlook 2013 e versões anteriores.
+Sim, somente os usuários com o Office 2016 são afetados. O recurso não será disponibilizado para o Outlook 2013 e versões anteriores.
   
 ### <a name="how-long-does-it-take-for-focused-inbox-changes-to-take-place-in-outlook"></a>Quanto tempo leva para as alterações da Caixa de Entrada Destaques serem feitas no Outlook?
 
@@ -180,7 +180,7 @@ Após a mudança, você deixará de receber emails menos importantes na pasta Em
   
 Confira esta postagem de [Tony Redmond](https://www.petri.com/author/tony-redmond), MVP da Microsoft: [Como a Caixa de Entrada Destaques substituirá o Email Secundário no Office 365](https://www.petri.com/focused-inbox-office-365).
   
-### <a name="can-i-keep-users-on-clutter-what-is-microsofts-recommendation-when-it-comes-to-using-clutter-vs-focused-inbox"></a>Posso manter os usuários no Clutter? O que a Microsoft recomenda sobre o uso do Email Secundário e da Caixa de Entrada Destaques?
+### <a name="can-i-keep-users-on-clutter-what-is-microsofts-recommendation-when-it-comes-to-using-clutter-vs-focused-inbox"></a>Posso manter os usuários no Email secundário? Qual é a recomendação da Microsoft quando se trata de usar Email secundário vs Caixa de Entrada Destaques?
 
 Sim, você pode manter os usuários no Email secundário e desabilitar a Caixa de Entrada Destaques; no entanto, futuramente o Email Secundário será totalmente substituído pela Caixa de Entrada Destaques, portanto, a Microsoft recomenda migrar para a Caixa de Entrada Destaques agora. Para saber mais sobre quando usar a pasta Email secundário no Exchange Online, confira a seguinte postagem de blog: [Atualização sobre a Caixa de Entrada Destaques e nossos planos para o Email secundário](https://techcommunity.microsoft.com/t5/Outlook-Blog/Update-on-Focused-Inbox-and-our-plans-for-Clutter/ba-p/136448).
   
@@ -206,5 +206,10 @@ Há dois cmdlets para controlar a Caixa de Entrada Destaques. Quando você execu
   
 ### <a name="can-i-run-a-script-to-see-who-has-turned-on-focused-inbox"></a>Posso executar um script para ver quem ativou a Caixa de Entrada Destaques?
 
-Não, e isso é o padrão. A habilitação da Caixa de Entrada Destaques é uma configuração do lado do cliente, portanto, tudo o que o cmdlet pode fazer é informar se a caixa de correio do usuário está qualificada para a experiência do cliente. É possível que ela esteja ativada simultaneamente em alguns clientes e desativada em outros, por exemplo, ativada no aplicativo Outlook e no Outlook Mobile, mas desativada no Outlook na Web.
+Não, e isso ocorre por design. A ativação da Caixa de entrada destaques é uma configuração do lado do cliente, portanto, tudo o que o cmdlet pode fazer é informar se a caixa de correio do usuário está qualificada para a experiência do cliente. É possível que seja habilitado simultaneamente em alguns clientes e desabilitado em outros, por exemplo, habilitado no aplicativo Outlook e Outlook Mobile, mas desabilitado no Outlook na Web.
 
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Configure o Email secundário para sua organização ](../email/configure-clutter.md) (artigo)\
+[Definir configurações de caixa de correio compartilhada](../email/configure-a-shared-mailbox.md) (artigo)\
+[Criar assinaturas e isenções de responsabilidade ](create-signatures-and-disclaimers.md) (vídeo)

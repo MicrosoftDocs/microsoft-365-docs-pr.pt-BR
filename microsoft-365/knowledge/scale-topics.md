@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Saiba mais sobre as práticas recomendadas para gerenciar os muitos tópicos em sua organização usando Tópicos do Viva.
-ms.openlocfilehash: d5cdae62cdec9193d354e7585364bd842a514a26
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 613c4ed85a62efd22ba104c810420a2d0af015c5
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593872"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624832"
 ---
 # <a name="manage-topics-at-scale-in-microsoft-viva-topics"></a>Gerenciar tópicos em escala nos Tópicos do Microsoft Viva
 
@@ -28,15 +28,16 @@ Primeiro, um lembrete dos [quatro estágios dos tópicos](manage-topics.md#topic
 
 - **Sugerido**: um tópico foi identificado pela IA e tem recursos, conexões e propriedades de suporte suficientes. (Eles são marcados como **um Tópico Sugerido** na interface do usuário.)
 
-- **Confirmado**: Um tópico sugerido pela AI precisa ser validado. A validação de tópico ocorre quando:
+- **Confirmado**: um tópico que foi descoberto pela AI e foi validado. A validação de tópico ocorre quando:
 
    - Um gerente de conhecimento confirma um tópico. Um gerente de [conhecimento confirma um tópico na](manage-topics.md#confirmed-topics) página Gerenciar **tópicos.**
 
    - Vários usuários confirmam um tópico. Deve haver uma rede de dois votos positivos recebidos dos usuários que votaram usando o mecanismo de comentários no cartão de tópico. Por exemplo, se um usuário votou positivo e um usuário votou negativo para um tópico específico, você ainda precisaria de mais dois votos positivos para que o tópico fosse confirmado.
  
-- **Publicado**: Um tópico confirmado que foi abordado. As edições manuais foram feitas para melhorar sua qualidade.
+- **Publicado**: um tópico que foi abordado. As edições manuais foram feitas para melhorar sua qualidade ou foram criadas por um usuário.
 
 - **Removido**: um tópico que foi rejeitado e não estará mais visível para os visualizadores. Um tópico pode ser removido em qualquer estado (sugerido, confirmado ou publicado). A remoção de tópico ocorre quando:
+
    - Um gerente de conhecimento remove um tópico. Um gerente de conhecimento remove um tópico na página **Gerenciar** tópicos.
 
    - Vários usuários lançam votos negativos usando o mecanismo de comentários no cartão de tópico. Para que um tópico seja removido, deve haver uma rede de dois votos negativos recebidos dos usuários. Por exemplo, se um usuário votou negativo e um usuário votou positivo para um tópico específico, você ainda precisaria de mais dois votos negativos para que o tópico fosse removido.

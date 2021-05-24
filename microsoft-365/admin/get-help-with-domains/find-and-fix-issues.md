@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: Saiba como rastrear todos os problemas que você encontrar durante a configuração de um domínio personalizado, certifique-se de que os registros DNS estão definidos corretamente.
-ms.openlocfilehash: 5959cae02b87cf481fc06edd941a6da284b71736
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 70beb877251c333766a0963316287796eb81d595
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537542"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623960"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>Localizar e corrigir problemas após a adição do seu domínio ou de registros DNS
 
@@ -103,5 +103,6 @@ Caso tenha corrigido os problemas de DNS, mas ainda esteja com dificuldades, ten
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Solução de problemas: Auditar dados em alteração de domínio verificada](/azure/active-directory/reports-monitoring/troubleshoot-audit-data-verified-domain)
+[Solução de problemas: Auditar dados em alteração de domínio verificada](/azure/active-directory/reports-monitoring/troubleshoot-audit-data-verified-domain) (artigo)\
+[Perguntas frequentes sobre domínios](../setup/domains-faq.yml) (artigo)
 

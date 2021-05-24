@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informações para administradores de TI para gerenciar rótulos de confidencialidade em aplicativos do Office para área de trabalho, dispositivos móveis e Web.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bca8efa15bdfe2f4b7c8c90e7a4706f40b19f85d
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: dd3f1e7329612755a1806b5d9af8e13f07790cd6
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572604"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625120"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Gerenciar rótulos de confidencialidade em aplicativos do Office
 
@@ -65,7 +65,7 @@ Os números listados são as versão mínima do aplicativo do Office necessária
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [Sim – aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Permitir que usuários atribuam permissões: <br /> – Solicitar aos usuários](encryption-sensitivity-labels.md#let-users-assign-permissions)                     |2004+ | 16.35+   | Em revisão   | Em revisão         | Em revisão                                                        |
 |[Atividade do usuário relacionada a rótulos de auditoria](data-classification-activity-explorer.md)                      | 2011+ | 16.43+ | 2.46+ | Em implantação: 16.0.13628+ | Sim <sup>\*</sup>                                                        |
-|[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+             | Em implantação: 16.45+         | Em implantação: 2.47+ | Em implantação: 16.0.13628+ | Em implantação                                            
+|[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+             | 16.45+         | 2.47+ | 16.0.13628+ | [Sim – aceitar](sensitivity-labels-sharepoint-onedrive-files.md)                                            
 |[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009+                                  | Em implantação: 16.44+ | Em revisão | Em revisão | [Sim – aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Suporte a coautoria e salvamento automático](sensitivity-labels-coauthoring.md) de documentos rotulados e criptografados | Visualização: [Canal Atual (Visualização)](https://office.com/insider) | Visualização: [Canal Atual (Visualização)](https://office.com/insider) | Em revisão | Em revisão | [Sim – aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |

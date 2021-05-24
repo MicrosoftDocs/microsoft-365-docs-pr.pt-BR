@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5d73b54a60b22ac74a55c301b3bd9344ee83352f
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: ec66115bc5ad0c8031be7117d2d8282e5c7d5041
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52298813"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623876"
 ---
 # <a name="contact-support-for-georgia"></a>Contatar o suporte para a Geórgia
 
@@ -26,11 +26,9 @@ ms.locfileid: "52298813"
 ## <a name="phone-number"></a>Número de telefone
 032 297 0124
 
-Selecionar opção 2
+Pressione 2 para empresas
 
-Selecionar opção 9
-
-Insira o código 7700
+Pressione 1 para Microsoft 365
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:

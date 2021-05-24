@@ -13,12 +13,12 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
 localization_priority: None
-ms.openlocfilehash: 2c29cdb6823e695cb9c96a4f51ef7b1c41642ac9
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: ba8f27c90f9c84729a10f461e85b2e1441b49549
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333621"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625396"
 ---
 # <a name="manage-topics-in-the-topic-center-in-microsoft-viva-topics"></a>Gerenciar tópicos no centro de tópicos no Microsoft Viva Topics
 
@@ -40,21 +40,31 @@ Os gerentes de conhecimento ajudam a orientar tópicos descobertos por meio dos 
 
 - **Sugerido**: um tópico foi identificado pela IA e tem recursos, conexões e propriedades de suporte suficientes. (Eles são marcados como **um Tópico Sugerido** na interface do usuário.)
 
-- **Confirmado**:um tópico sugerido pela IA é validado. A validação do tópico deve ser confirmada por um gerente de conhecimento. Para que um tópico seja confirmado, deve haver uma rede de dois votos positivos recebidos dos usuários que votaram usando o mecanismo de comentários no cartão de tópico. Por exemplo, se um usuário votou positivo e um usuário votou negativo para um tópico específico, você ainda precisaria de mais dois votos positivos para que o tópico fosse confirmado.
- 
-- **Publicado**: Um tópico confirmado que foi abordado: foram feitas edições manuais para melhorar sua qualidade.
+- **Confirmado**: um tópico que foi descoberto pela AI e foi validado. A validação de tópico ocorre quando:
 
-- **Removido**: um tópico é rejeitado por um gerente de conhecimento e não será mais visível para os visualizadores. Um tópico pode ser removido em qualquer estado (sugerido, confirmado ou publicado). Para que um tópico seja removido, deve haver uma rede de dois votos negativos recebidos dos usuários que votaram usando os mecanismos de feedback no cartão de tópico. Por exemplo, se um usuário votou negativo e um usuário votou positivo para um tópico específico, você ainda precisaria de mais dois votos negativos para que o tópico fosse removido. Quando um tópico publicado é removido, a página com os detalhes de cura precisará ser excluída manualmente por meio da Biblioteca de Páginas do centro de tópicos.
+   - Um gerente de conhecimento confirma um tópico. Um gerente de [conhecimento confirma um tópico na](manage-topics.md#confirmed-topics) página Gerenciar **tópicos.**
+
+   - Vários usuários confirmam um tópico. Deve haver uma rede de dois votos positivos recebidos dos usuários que votaram usando o mecanismo de comentários no cartão de tópico. Por exemplo, se um usuário votou positivo e um usuário votou negativo para um tópico específico, você ainda precisaria de mais dois votos positivos para que o tópico fosse confirmado.
+ 
+- **Publicado**: um tópico que foi abordado. As edições manuais foram feitas para melhorar sua qualidade ou foram criadas por um usuário.
+
+- **Removido**: um tópico que foi rejeitado e não estará mais visível para os visualizadores. Um tópico pode ser removido em qualquer estado (sugerido, confirmado ou publicado). A remoção de tópico ocorre quando:
+
+   - Um gerente de conhecimento remove um tópico. Um gerente de conhecimento remove um tópico na página **Gerenciar** tópicos.
+
+   - Vários usuários lançam votos negativos usando o mecanismo de comentários no cartão de tópico. Para que um tópico seja removido, deve haver uma rede de dois votos negativos recebidos dos usuários. Por exemplo, se um usuário votou negativo e um usuário votou positivo para um tópico específico, você ainda precisaria de mais dois votos negativos para que o tópico fosse removido.
+
+  Quando um tópico publicado é removido, a página com os detalhes de cura precisará ser excluída manualmente por meio da Biblioteca de Páginas do centro de tópicos.
 
 > [!Note] 
 > Na página **Gerenciar tópicos,** cada gerente de conhecimento só poderá ver tópicos em que eles tenham acesso aos arquivos e páginas subjacentes conectados ao tópico. Essa aparação de permissão será refletida na lista de tópicos que aparecem nas guias **Sugeridas** **,** **Confirmadas,** Publicadas e **Removidas.** O tópico conta, no entanto, mostrar o total de contagens na organização, independentemente das permissões.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Para gerenciar tópicos no centro de tópicos, você precisa:
 - Ter uma licença do Viva Topics.
 
-- Ter a [**Who pode gerenciar a permissão de**](./topic-experiences-user-permissions.md) tópicos. Os Administradores de conhecimento podem dar aos usuários essa permissão nas configurações de permissões do tópico do Viva Topics. 
+- Ter a [**Who pode gerenciar a permissão de**](./topic-experiences-user-permissions.md) tópicos. Os administradores de conhecimento podem dar aos usuários essa permissão nas configurações de permissões do tópico do Viva Topics. 
 
 Você não poderá exibir a página Gerenciar tópicos no centro de **tópicos,** a menos que você tenha a permissão Who **possa gerenciar tópicos.**
 
@@ -74,7 +84,7 @@ Para revisar um tópico sugerido:
 
 3. Depois de revisar o tópico, volte para a **página Gerenciar tópicos.** Para o tópico selecionado, você pode:
 
-   - Selecione a marca de seleção para confirmar o tópico.
+   - Selecionar a marca de seleção para confirmar o tópico.
     
    - Selecione **o x** se quiser remover o tópico.
 

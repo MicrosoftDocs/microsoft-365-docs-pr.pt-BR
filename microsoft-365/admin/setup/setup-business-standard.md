@@ -23,13 +23,13 @@ search.appverid:
 - MET150
 - MOE150
 - BEA160
-description: Saiba como configurar sua assinatura do Microsoft 365 Business Standard.
-ms.openlocfilehash: ce45b4869000892b5640730e765dbfc9c21386ed
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Ao comprar o Microsoft 365 Business Standard, você tem a opção de usar um domínio que possui ou comprar um durante a inscrição.
+ms.openlocfilehash: cee91edaab09506dca90cf5ed64ee9bc669c98cf
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244450"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624412"
 ---
 # <a name="set-up-microsoft-business-standard"></a>Configurar o Microsoft Business Standard
 
@@ -50,7 +50,7 @@ Ao comprar o Microsoft 365 Business Standard, você tem a opção de usar um dom
 4. Na etapa **Adicionar domínio**, digite o nome do domínio que você deseja usar (como contoso.com).
 
     > [!IMPORTANT]
-    > Se você comprou um domínio durante a inscrição, não verá a etapa **Adicionar um domínio** aqui. Em vez disso, acesse [Adicionar usuários](#add-users-and-assign-licenses).
+    > Se você comprou um domínio durante a inscrição, não verá a etapa **Adicionar um domínio** aqui. Vá para [Adicionar usuários](#add-users-and-assign-licenses) em vez disso.
 
     
 4. Siga as etapas no assistente para [Criar registros DNS em qualquer provedor de hospedagem DNS do Office 365](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) que verifique se você é o proprietário do domínio. Se você conhece o host do seu domínio, também consulte as [instruções específicas do organizador](/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
@@ -81,7 +81,7 @@ Para configurar serviços, você deve atualizar alguns registros no registrador 
 1. O assistente de configuração normalmente detecta o registrador e proporciona um link para as instruções passo a passo para atualizar seus registros NS no site do registrador. Caso contrário, [Alterar os servidores de nomes para configurar o Office 365 com qualquer registrador de domínio](../get-help-with-domains/change-nameservers-at-any-domain-registrar.md). 
 
     - Se você possui registros DNS existentes, por exemplo, um site existente, mas seu organizador DNS está ativado para [conexão com o domínio](/office365/admin/get-help-with-domains/domain-connect), clique em **Adicionar registros para mim**. Na página **Escolha seus serviços on-line**, aceite todos os padrões, clique em **Avançar** e clique em **Autorizar** na página do organizador DNS.
-    - Se você possui registros DNS existentes com outros organizadores DNS (não habilitados para conexão ao domínio), convém gerenciar seus próprios registros DNS para garantir que os serviços existentes fiquem conectados. Consulte [noções básicas de domínio](/office365/admin/get-help-with-domains/dns-basics) para obter mais informações.
+    - Se você tiver registros DNS existentes com outros hosts DNS (não habilitados para conexão de domínio), você irá desejar gerenciar seus próprios registros DNS para garantir que os serviços existentes fiquem conectados. Veja [domínios básicos](/office365/admin/get-help-with-domains/dns-basics) para mais informações.
 
 2. Siga as etapas no assistente e o e-mail e outros serviços serão configurados para você.
 
@@ -139,4 +139,7 @@ O Microsoft 365 não inclui um site público para a sua empresa. Se quiser confi
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/4839abc6-9323-4cbf-a79d-2907235f9ebb]
 
-Veja mais em [Usar um site público](../../business-video/create-web-site.md).
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Crie um site](../../business-video/create-web-site.md) (vídeo)\
+[Microsoft 365 para seus negócios ](../../business-video/index.yml) (página de link)

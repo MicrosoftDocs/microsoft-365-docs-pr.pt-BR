@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 2f9777631fe9d8b3506296f30906d5280805b4cb
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 02fbd70e7456f95ded920faa8004eedadb35d4f5
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583397"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624240"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts"></a>Investigar e corrigir alertas de conformidade em comunicações
 
@@ -101,9 +101,9 @@ Não importa onde você começa a analisar alertas ou a filtragem configurada, a
 
 Depois de revisar as noções básicas da mensagem, é hora de abrir uma mensagem para examinar os detalhes e determinar outras ações de correção. Selecione uma mensagem para exibir as informações completas do corpo e do texto da mensagem. Várias exibições diferentes estão disponíveis para ajudá-lo a decidir a ação adequada:
 
-- **Exibição de origem**: esse é o exibição de mensagem padrão normalmente visto na maioria das plataformas de mensagens baseadas na Web. As informações do header são formatadas no estilo normal e o corpo da mensagem dá suporte a arquivos gráficos imbedded e texto empacotado por palavras. Se [o OCR (reconhecimento](communication-compliance-feature-reference.md#optical-character-recognition-ocr-preview) de caractere óptico) estiver habilitado para a política, as imagens que contêm texto impresso ou manuscrito que corresponderem à política condicional serão exibidas como um item filho para a mensagem associada neste modo de exibição.
+- **Exibição de origem**: esse é o exibição de mensagem padrão normalmente visto na maioria das plataformas de mensagens baseadas na Web. As informações do header são formatadas no estilo normal e o corpo da mensagem dá suporte a arquivos gráficos imbedded e texto empacotado por palavras. Se [o OCR (reconhecimento](communication-compliance-feature-reference.md#optical-character-recognition-ocr) de caractere óptico) estiver habilitado para a política, as imagens que contêm texto impresso ou manuscrito que corresponderem à política condicional serão exibidas como um item filho para a mensagem associada neste modo de exibição.
 - **Exibição** de texto : O exibição de texto exibe uma exibição somente de texto numerada em linha da mensagem e inclui o realçamento de palavra-chave em mensagens e anexos para termos de tipo de informação confidenciais ou palavras-chave corresponderem na política de conformidade de comunicação associada. O realçamento de palavra-chave pode ajudá-lo a examinar rapidamente mensagens longas e anexos para a área de interesse. Em alguns casos, o texto realçado pode estar apenas em anexos para mensagens que coincidem com as condições da política. Não há suporte para realçamento de palavra-chave para termos identificados por classificadores integrados atribuídos a uma política. Os arquivos incorporados não são exibidos, e a numeração de linha desse visor é útil para fazer referência a detalhes pertinentes entre vários revisores.
-- **Exibição de anotações**: esse exibição permite que os revistores adicionem anotações diretamente na mensagem que são salvas no exibição da mensagem. Se [o OCR](communication-compliance-feature-reference.md#optical-character-recognition-ocr-preview) estiver habilitado para a política, as imagens que contêm texto impresso ou manuscrito que corresponderem à política condicional serão exibidas como um item filho para a mensagem associada neste modo de exibição e podem ser anotadas.
+- **Exibição de anotações**: esse exibição permite que os revistores adicionem anotações diretamente na mensagem que são salvas no exibição da mensagem. Se [o OCR](communication-compliance-feature-reference.md#optical-character-recognition-ocr) estiver habilitado para a política, as imagens que contêm texto impresso ou manuscrito que corresponderem à política condicional serão exibidas como um item filho para a mensagem associada neste modo de exibição e podem ser anotadas.
 - **Histórico de**: o exibição do histórico do usuário exibe todos os outros alertas gerados por qualquer política de conformidade de comunicação para o usuário que envia a mensagem.
 - **Notificação detectada por** padrão : muitas ações de assedio e intimidação ao longo do tempo e envolvem instâncias recorrentes do mesmo comportamento por um usuário. A *notificação de* Padrão detectada é exibida nos detalhes do alerta e chama a atenção para o alerta. A detecção de padrões é por política e avalia o comportamento nos últimos 30 dias quando pelo menos duas mensagens são enviadas para o mesmo destinatário por um remetente. Os investigadores e revisadores podem usar essa notificação para identificar o comportamento repetido para avaliar o alerta conforme apropriado.
 - **Show Translate view**: This view automatically converts alert message text to the language configured in the *Displayed* language setting in the Microsoft 365 subscription for each reviewer. O modo de exibição Traduzir ajuda a ampliar o suporte investigativo para organizações com usuários multilíngues e elimina a necessidade de serviços de tradução adicionais fora do processo de revisão de conformidade de comunicação. Usando os serviços do Microsoft Translate, o visualização Traduzir pode ser ligado e desligado conforme necessário e oferece suporte a uma ampla variedade de idiomas. Para ver uma lista completa de idiomas com suporte, consulte [Microsoft Tradutor Languages](https://www.microsoft.com/translator/business/languages/). Os idiomas listados na *lista Tradutor idioma* são suportados no visualização Traduzir.

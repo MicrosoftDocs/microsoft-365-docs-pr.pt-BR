@@ -19,12 +19,12 @@ ms.collection:
 description: Quais são as práticas recomendadas para Proteção do Exchange Online (EOP) e Defender para Office 365 configurações de segurança? Quais são as recomendações atuais para proteção padrão? O que deve ser usado se você quiser ser mais rigoroso? E quais extras você obterá se também usar o Defender para Office 365?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1a2f65db0934c585210827299d46737040df8efb
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 04668932747462d2636b466d87c2655d97569657
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537890"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624068"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Configurações recomendadas para o EOP e o Microsoft Defender para Office 365 segurança
 
@@ -155,7 +155,7 @@ Para obter mais informações sobre essas configurações, consulte [Configuraç
 |Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
 |---|:---:|:---:|:---:|---|
 |**Habilitar proteção anti-spoofing** <p> _EnableSpoofIntelligence_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
-|**Habilitar Remetente Não Autenticado** <p> _EnableUnauthenticatedSender_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`|Adiciona um ponto de interrogação (?) à foto do remetente Outlook remetentes não identificados. Para obter mais informações, consulte [Configurações de Spoof em políticas anti-phishing](set-up-anti-phishing-policies.md).|
+|**Habilitar Remetente Não Autenticado** <p> _EnableUnauthenticatedSender_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`|Adiciona um ponto de interrogação (?) à foto do remetente Outlook remetentes não identificados. Para saber mais, confira [Configurações de inteligência contra falsificação nas políticas anti phishing](set-up-anti-phishing-policies.md).|
 |**Se o email for enviado por alguém que não tenha permissão para spoofar seu domínio** <p> _AuthenticationFailAction_|**Mover mensagem para as pastas lixo eletrônico dos destinatários** <p> `MoveToJmf`|**Mover mensagem para as pastas lixo eletrônico dos destinatários** <p> `MoveToJmf`|**Colocar em quarentena a mensagem** <p> `Quarantine`|Essa configuração se aplica a envios com [spoofed](learn-about-spoof-intelligence.md) que foram bloqueados automaticamente, conforme mostrado no insight de inteligência de spoof ou bloqueado manualmente na Lista de Locatários [Permitir/Bloquear.](tenant-allow-block-list.md)|
 |
 
@@ -213,7 +213,7 @@ Observe que essas são as mesmas configurações que estão disponíveis nas con
 |Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
 |---|---|---|---|---|
 |**Habilitar proteção anti-spoofing** <p> _EnableSpoofIntelligence_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
-|**Habilitar Remetente Não Autenticado** <p> _EnableUnauthenticatedSender_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`|Adiciona um ponto de interrogação (?) à foto do remetente Outlook remetentes não identificados. Para obter mais informações, consulte [Configurações de Spoof em políticas anti-phishing](set-up-anti-phishing-policies.md).|
+|**Habilitar Remetente Não Autenticado** <p> _EnableUnauthenticatedSender_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`|Adiciona um ponto de interrogação (?) à foto do remetente Outlook remetentes não identificados. Para saber mais, confira [Configurações de inteligência contra falsificação nas políticas anti phishing](set-up-anti-phishing-policies.md).|
 |**Se o email for enviado por alguém que não tenha permissão para spoofar seu domínio** <p> _AuthenticationFailAction_|**Mover mensagem para as pastas lixo eletrônico dos destinatários** <p> `MoveToJmf`|**Mover mensagem para as pastas lixo eletrônico dos destinatários** <p> `MoveToJmf`|**Colocar em quarentena a mensagem** <p> `Quarantine`|Essa configuração se aplica a envios com [spoofed](learn-about-spoof-intelligence.md) que foram bloqueados automaticamente, conforme mostrado no insight de inteligência de spoof ou bloqueado manualmente na Lista de Locatários [Permitir/Bloquear.](tenant-allow-block-list.md)|
 |
 
@@ -322,6 +322,6 @@ No PowerShell, você usa os cmdlets [New-SafeAttachmentPolicy](/powershell/modul
 
 - Os administradores e usuários podem enviar falsos positivos (emails bons marcados como ruins) e falsos negativos (email ruim permitido) para a Microsoft para análise. Para mais informações, confira [Relatar mensagens e arquivos à Microsoft](report-junk-email-messages-to-microsoft.md).
 
-- Use esses links para obter informações sobre como **configurar seu** [serviço EOP](set-up-your-eop-service.md)e **configurar** o Microsoft [Defender para](defender-for-office-365.md)Office 365 . Não se esqueça das instruções úteis em '[Proteger contra ameaças Office 365](protect-against-threats.md)'.
+- Use esses links para obter informações sobre como **configurar seu** [serviço EOP](/exchange/standalone-eop/set-up-your-eop-service)e **configurar** o Microsoft [Defender para](defender-for-office-365.md)Office 365 . Não se esqueça das instruções úteis em '[Proteger contra ameaças Office 365](protect-against-threats.md)'.
 
 -  As linhas de base de segurança para Windows podem ser encontradas aqui: onde posso obter as linhas de base de [segurança?](/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) para opções de GPO/local e Usar linhas de base de segurança para configurar Windows 10 dispositivos no Intune para segurança baseada no [Intune.](/intune/protect/security-baselines) Por fim, uma comparação entre o Microsoft Defender para o Ponto de Extremidade e Microsoft Intune de segurança está disponível em Comparar o Microsoft Defender para Ponto de Extremidade e as linhas de base de segurança [do Windows Intune.](/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines)

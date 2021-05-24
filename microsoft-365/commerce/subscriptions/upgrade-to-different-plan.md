@@ -18,14 +18,14 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
 search.appverid: MET150
-description: Saiba como atualizar para um plano diferente.
+description: A maneira mais fácil de atualizar planos é usar a guia Atualização no centro de administração. No entanto, nem sempre há suporte para a guia Atualização.
 ms.date: 04/21/2021
-ms.openlocfilehash: 4882ad4296eb05faf0bb549ebf850562a7ebf780
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: da0b0a826087ea7e963dde85f9b4612acf0eaf99
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344609"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624308"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Atualizar para um plano diferente
 
@@ -95,7 +95,7 @@ Você pode [alterar os planos manualmente ou](change-plans-manually.md) chamar o
 
 Você pode [alterar os planos manualmente ou](change-plans-manually.md) chamar o [suporte](../../business-video/get-help-support.md).
 
-### <a name="additional-reasons-you-cant-upgrade"></a>Motivos adicionais que não podem ser atualizados
+### <a name="additional-reasons-you-cant-upgrade"></a>Motivos adicionais que você não pode atualizar
 
 #### <a name="you-have-two-or-more-plans-for-the-same-product"></a>Você tem dois ou mais planos para o mesmo produto
 

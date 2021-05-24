@@ -13,32 +13,32 @@ metadata:
   ms.assetid: d6a87ce8-2c22-433a-b430-5eab14f6afdc
   ms.custom:
   - seo-marvel-apr2020
-  description: Os administradores podem exibir perguntas frequentes e respostas sobre tarefas de administração delegadas no Microsoft 365 para parceiros e revendedores da Microsoft.
+  description: Os administradores podem exibir perguntas frequentes e respostas sobre tarefas de administração delegadas Microsoft 365 parceiros e revendedores da Microsoft.
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: 836e52139ef2e6191bda26d6fdb92da521dff6bd
-  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.openlocfilehash: b62c1d53d4b2a482aeb91cea147ed9feaa4027c4
+  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/12/2021
-  ms.locfileid: "52333888"
+  ms.lasthandoff: 05/24/2021
+  ms.locfileid: "52624078"
 title: Perguntas frequentes sobre administração delegada
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
 
-  Este artigo fornece perguntas e respostas frequentes sobre tarefas de administração delegadas no Microsoft 365 para parceiros e revendedores da Microsoft. A administração delegada inclui a capacidade de gerenciar as configurações do Exchange Online Protection (EOP) para outros locatários (empresas).
+  Este artigo fornece perguntas frequentes e respostas sobre tarefas de administração delegadas Microsoft 365 parceiros e revendedores da Microsoft. A administração delegada inclui a capacidade de gerenciar as configurações Proteção do Exchange Online (EOP) para outros locatários (empresas).
 sections:
 - name: Ignorado
   questions:
   - question: >
       Sou um revendedor e preciso gerenciar meus locatários de clientes. Como isso funciona?
     answer: >
-      Se você for um parceiro ou revendedor da Microsoft e se inscreveu para  ser um consultor da Microsoft, poderá solicitar recursos de administração delegados na organização do Microsoft 365 do cliente.
+      Se você for um parceiro ou revendedor da Microsoft e se inscreveu para  ser um consultor da Microsoft, poderá solicitar recursos de administração delegados na organização de Microsoft 365 do cliente.
 
 
-      A administração delegada permite gerenciar o Microsoft 365 (incluindo configurações do EOP) como se você fosse um administrador dentro dessa organização. As etapas para configurar a administração delegada são descritas na lista a seguir:
+      A administração delegada permite que você gerencie Microsoft 365 (incluindo configurações do EOP) como se você fosse um administrador dentro dessa organização. As etapas para configurar a administração delegada são descritas na lista a seguir:
 
 
       1. Inscreva-se para ser um [Consultor do Microsoft Office 365](https://partner.microsoft.com/?cloudbenefits).
@@ -54,11 +54,11 @@ sections:
   - question: >
       Sou um cliente, não um revendedor. Como configurar o administrador delegado para meus subtenantes?
     answer: >
-      A administração delegada só está disponível para revendedores e parceiros. No entanto, há um exemplo de script do PowerShell que ajudará você a aplicar políticas aos seus subtenentes (empresas). Para obter mais informações, consulte [Amostra de script para aplicação de configurações de EOP a vários locatários](sample-script-for-applying-eop-settings-to-multiple-tenants.md).
+      A administração delegada só está disponível para revendedores e parceiros. No entanto, há um exemplo de script do PowerShell que ajudará você a aplicar políticas aos seus subtenentes (empresas). Para obter mais informações, consulte [Amostra de script para aplicação de configurações de EOP a vários locatários](/exchange/standalone-eop/sample-script-standalone-eop-settings-to-multiple-tenants).
   - question: >
       Posso impedir que meu administrador subtenente modifique minha política?
     answer: >
-      Não. No momento, o Microsoft 365 não tem esse recurso.
+      Não. Microsoft 365 atualmente não tem esse recurso.
   - question: >
       Posso obter relatórios consolidados em todos os meus subtenantes?
-    answer: Relatórios consolidados entre as empresas gerenciadas não estão disponíveis nos relatórios do Centro de administração do Microsoft 365. No entanto, você pode obter relatórios usando o [Microsoft Graph](/graph/overview).
+    answer: Relatórios consolidados entre as empresas gerenciadas não estão disponíveis nos relatórios Microsoft 365 centro de administração. No entanto, você pode obter relatórios usando [o Microsoft Graph](/graph/overview).

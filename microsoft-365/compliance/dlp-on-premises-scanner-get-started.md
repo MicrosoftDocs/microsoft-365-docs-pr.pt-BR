@@ -7,7 +7,7 @@ author: chrfox
 manager: laurawi
 ms.date: ''
 audience: ITPro
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - ms.o365.cc.DLPLandingPage
 ms.service: O365-seccomp
@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Configurar o scanner local de prevenção contra perda de dados do Microsoft 365
-ms.openlocfilehash: deae5dfa803b002174583ae67412af9fc028fcb9
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: b21474f3a9e045bf353d62ef6c7c8d4174801a1b
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538094"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623828"
 ---
 # <a name="get-started-with-the-data-loss-prevention-on-premises-scanner-preview"></a>Obter o scanner local de prevenção contra perda de dados (visualização)
 

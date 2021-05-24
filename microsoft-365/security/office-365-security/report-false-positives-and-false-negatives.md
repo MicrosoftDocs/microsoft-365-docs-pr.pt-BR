@@ -13,12 +13,12 @@ ms.collection:
 description: Saiba como relatar falsos positivos e falsos negativos no Outlook usando o recurso Mensagem de Relatório.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e848595035501f5da7b6099efd2700ebac6f17e3
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 6f8c4fc327bfd467cdd1d0043c454e222e84125c
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52291158"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625108"
 ---
 # <a name="report-false-positives-and-false-negatives-in-outlook"></a>Relatar falsos positivos e falsos negativos no Outlook
 
@@ -55,7 +55,7 @@ Em organizações com caixas de correio em Exchange Online ou caixas de correio 
 Para mensagens na Caixa de Entrada ou em qualquer outra pasta de email, exceto Lixo Eletrônico, use o seguinte método para relatar mensagens de spam e phishing:
 
 1. Clique nas **releições** Mais ações no canto superior direito  da mensagem selecionada, clique em Relatar mensagem no menu suspenso e selecione **Lixo** Eletrônico ou **Phishing**.
-  
+
    > [!div class="mx-imgBorder"]
    > ![Mensagem de Relatório - Mais ações](../../media/report-message-more-actions.png)
 
@@ -67,10 +67,10 @@ Para mensagens na Caixa de Entrada ou em qualquer outra pasta de email, exceto L
    - Movido para a pasta Lixo Eletrônico se tiver sido relatado como spam.
 
    - Excluído se tiver sido relatado como phishing.
-   
+
 ### <a name="report-messages-that-are-not-junk"></a>Relatar mensagens que não são lixo eletrônico
 
-1. Clique nas **releições** Mais ações no canto superior direito  da mensagem selecionada, clique em Relatar mensagem no menu suspenso e clique em **Não Lixo Eletrônico.**  
+1. Clique nas **releições** Mais ações no canto superior direito  da mensagem selecionada, clique em Relatar mensagem no menu suspenso e clique em **Não Lixo Eletrônico.**
 
    > [!div class="mx-imgBorder"]
    > ![Mensagem de Relatório - Mais ações](../../media/report-message-more-actions.png)
@@ -86,4 +86,4 @@ Para revisar as mensagens relatadas pelos usuários à Microsoft, você tem esta
 
 - Use o portal Envios de Administrador. Para obter mais informações, consulte [Exibir envios de usuários para a Microsoft](admin-submission.md#view-user-submissions-to-microsoft).
 
-- Crie uma regra de fluxo de emails (também conhecida como regra de transporte) para enviar cópias de mensagens relatadas. Para obter instruções, [consulte Use mail flow rules to see what your users are reporting to Microsoft](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md).
+- Crie uma regra de fluxo de emails (também conhecida como regra de transporte) para enviar cópias de mensagens relatadas. Para obter instruções, [consulte Use mail flow rules to see what users are reporting to Microsoft](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-see-what-users-are-reporting-to-microsoft).

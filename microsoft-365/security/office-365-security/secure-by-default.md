@@ -17,12 +17,12 @@ ms.collection:
 description: Saiba mais sobre a configuração segura por padrão no Proteção do Exchange Online (EOP)
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 957ca3b563d4f1466dd537c3ae974a4fd61aa6f2
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 2d5cdc8f8faa9c2d5772fd1572134ea49cdd77da
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346311"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624044"
 ---
 # <a name="secure-by-default-in-office-365"></a>Proteger por padrão em Office 365
 
@@ -77,7 +77,7 @@ Para colocá-lo de outra maneira: como um serviço de segurança, estamos agindo
 > [!NOTE]
 > Em julho de 2021, a segurança por padrão será estendida Exchange regras de fluxo de emails (também conhecidas como regras de transporte). Se você usar regras de fluxo de emails para permitir simulações de phishing de terceiros ou entrega não [](configure-advanced-delivery.md) filtrada para caixas de correio de operação de segurança, eventualmente precisará eliminar essas regras e alternar para usar a política de entrega avançada quando o recurso estiver disponível para você _._
 
-A única substituição que permite que a mensagem de phishing de alta confiança ignore a filtragem são as regras de fluxo de emails. Para usar regras de fluxo de emails para ignorar a filtragem, consulte [Use mail flow rules to set the SCL in messages](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md).
+A única substituição que permite que a mensagem de phishing de alta confiança ignore a filtragem são as regras de fluxo de emails. Para usar regras de fluxo de emails para ignorar a filtragem, consulte [Use mail flow rules to set the SCL in messages](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl).
 
 Você só deve considerar o uso de substituições nos seguintes cenários:
 

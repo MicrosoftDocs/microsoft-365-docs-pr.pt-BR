@@ -15,12 +15,12 @@ manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: c6961c4eac375ea36d801e278f5208f16d2558d9
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 52fe64b096b24dfc52a97fb664e408c5aeb701f4
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275019"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624204"
 ---
 # <a name="manage-the-sources-for-microsoft-defender-antivirus-protection-updates"></a>Gerenciar as fontes das atualizações de proteção do Microsoft Defender Antivírus
 
@@ -60,7 +60,7 @@ Há cinco locais onde você pode especificar onde um ponto de extremidade deve o
 
 - [Microsoft Update](https://support.microsoft.com/help/12373/windows-update-faq)
 - [Windows Serviço de Atualização do Servidor](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
-- [Gerenciador de Configuração do Microsoft Endpoint](/configmgr/core/servers/manage/updates)
+- [Microsoft Endpoint Configuration Manager](/configmgr/core/servers/manage/updates)
 - [Compartilhamento de arquivos de rede](#unc-share)
 - Atualizações de inteligência de segurança para Microsoft Defender Antivírus e outros [antimalware](https://www.microsoft.com/en-us/wdsi/defenderupdates) da Microsoft (Sua política e registro podem ter isso listado como inteligência de segurança Centro de Proteção contra Malware da Microsoft (MMPC), seu nome anterior.)
 
@@ -73,7 +73,7 @@ Para garantir o melhor nível de proteção, o Microsoft Update permite versões
 
 Cada fonte tem cenários típicos que dependem de como sua rede é configurada, além da frequência com que publicam atualizações, conforme descrito na tabela a seguir:
 
-|Location | Cenário de exemplo |
+|Local | Cenário de exemplo |
 |---|---|
 |Windows Serviço de Atualização do Servidor | Você está usando o Windows De Atualização do Servidor para gerenciar atualizações para sua rede.|
 |Microsoft Update | Você deseja que seus pontos de extremidade se conectem diretamente ao Microsoft Update. Isso pode ser útil para pontos de extremidade que se conectam irregularmente à sua rede corporativa ou se você não usar o Serviço de Atualização do Servidor Windows para gerenciar suas atualizações.|
@@ -152,12 +152,12 @@ Consulte [CSP de política - Defender/SignatureUpdateFallbackOrder](/windows/cli
 
 ## <a name="what-if-were-using-a-third-party-vendor"></a>E se estamos usando um fornecedor de terceiros?
 
-Este artigo descreve como configurar e gerenciar atualizações para o Microsoft Defender Antivírus. No entanto, fornecedores de terceiros podem ser usados para executar essas tarefas. 
+Este artigo descreve como configurar e gerenciar atualizações para Microsoft Defender Antivírus. No entanto, fornecedores de terceiros podem ser usados para executar essas tarefas. 
 
-Por exemplo, suponha que a Contoso tenha contratado a Fabrikam para gerenciar sua solução de segurança, que inclui o Microsoft Defender Antivírus. A Fabrikam normalmente usa Instrumentação de Gerenciamento do [Windows,](./use-wmi-microsoft-defender-antivirus.md) [cmdlets](./use-powershell-cmdlets-microsoft-defender-antivirus.md)do PowerShell ou linha de comando do [Windows](./command-line-arguments-microsoft-defender-antivirus.md) para implantar patches e atualizações. 
+Por exemplo, suponha que a Contoso tenha contratado a Fabrikam para gerenciar sua solução de segurança, que inclui Microsoft Defender Antivírus. A Fabrikam normalmente usa [Windows Instrumentação](./use-wmi-microsoft-defender-antivirus.md)de Gerenciamento, [cmdlets](./use-powershell-cmdlets-microsoft-defender-antivirus.md)do PowerShell ou Windows [linha de](./command-line-arguments-microsoft-defender-antivirus.md) comando para implantar patches e atualizações. 
 
 > [!NOTE]
-> A Microsoft não testa soluções de terceiros para gerenciar o Microsoft Defender Antivírus.
+> A Microsoft não testa soluções de terceiros para gerenciar Microsoft Defender Antivírus.
 
 <a id="unc-share"></a>
 ## <a name="create-a-unc-share-for-security-intelligence-updates"></a>Criar um compartilhamento UNC para atualizações de inteligência de segurança
@@ -196,7 +196,7 @@ Configurar um compartilhamento de arquivos de rede (UNC/unidade mapeada) para ba
     
        C:\Tool\PS-Scripts\
     
-       “.\SignatureDownloadCustomTask.ps1 -action create -arch x64 -isDelta $true -destDir C:\Temp\TempSigs\x64 -scriptPath C:\Tool\PS-Scripts\SignatureDownloadCustomTask.ps1 -daysInterval 1”
+       ".\SignatureDownloadCustomTask.ps1 -action create -arch x64 -isDelta $true -destDir C:\Temp\TempSigs\x64 -scriptPath C:\Tool\PS-Scripts\SignatureDownloadCustomTask.ps1 -daysInterval 1"
        ```
 
    - Para x64 completo:
@@ -206,7 +206,7 @@ Configurar um compartilhamento de arquivos de rede (UNC/unidade mapeada) para ba
     
        C:\Tool\PS-Scripts\
     
-       “.\SignatureDownloadCustomTask.ps1 -action create -arch x64 -isDelta $false -destDir C:\Temp\TempSigs\x64 -scriptPath C:\Tool\PS-Scripts\SignatureDownloadCustomTask.ps1 -daysInterval 1”
+       ".\SignatureDownloadCustomTask.ps1 -action create -arch x64 -isDelta $false -destDir C:\Temp\TempSigs\x64 -scriptPath C:\Tool\PS-Scripts\SignatureDownloadCustomTask.ps1 -daysInterval 1"
        ```
 
    - Para delta x86:
@@ -216,7 +216,7 @@ Configurar um compartilhamento de arquivos de rede (UNC/unidade mapeada) para ba
     
        C:\Tool\PS-Scripts\
     
-       “.\SignatureDownloadCustomTask.ps1 -action create -arch x86 -isDelta $true -destDir C:\Temp\TempSigs\x86 -scriptPath C:\Tool\PS-Scripts\SignatureDownloadCustomTask.ps1 -daysInterval 1”
+       ".\SignatureDownloadCustomTask.ps1 -action create -arch x86 -isDelta $true -destDir C:\Temp\TempSigs\x86 -scriptPath C:\Tool\PS-Scripts\SignatureDownloadCustomTask.ps1 -daysInterval 1"
        ```
 
    - Para x86 completo:
@@ -226,7 +226,7 @@ Configurar um compartilhamento de arquivos de rede (UNC/unidade mapeada) para ba
     
        C:\Tool\PS-Scripts\
     
-       “.\SignatureDownloadCustomTask.ps1 -action create -arch x86 -isDelta $false -destDir C:\Temp\TempSigs\x86 -scriptPath C:\Tool\PS-Scripts\SignatureDownloadCustomTask.ps1 -daysInterval 1”
+       ".\SignatureDownloadCustomTask.ps1 -action create -arch x86 -isDelta $false -destDir C:\Temp\TempSigs\x86 -scriptPath C:\Tool\PS-Scripts\SignatureDownloadCustomTask.ps1 -daysInterval 1"
        ```
 
     > [!NOTE]
@@ -239,13 +239,13 @@ Configurar um compartilhamento de arquivos de rede (UNC/unidade mapeada) para ba
    Se a tarefa agendada falhar, execute os seguintes comandos:
 
     ```DOS
-    C:\windows\system32\windowspowershell\v1.0\powershell.exe -NoProfile -executionpolicy allsigned -command “&\”C:\Tool\PS-Scripts\SignatureDownloadCustomTask.ps1\” -action run -arch x64 -isDelta $False -destDir C:\Temp\TempSigs\x64″
+    C:\windows\system32\windowspowershell\v1.0\powershell.exe -NoProfile -executionpolicy allsigned -command "&\"C:\Tool\PS-Scripts\SignatureDownloadCustomTask.ps1\" -action run -arch x64 -isDelta $False -destDir C:\Temp\TempSigs\x64"
     
-    C:\windows\system32\windowspowershell\v1.0\powershell.exe -NoProfile -executionpolicy allsigned -command “&\”C:\Tool\PS-Scripts\SignatureDownloadCustomTask.ps1\” -action run -arch x64 -isDelta $True -destDir C:\Temp\TempSigs\x64″
+    C:\windows\system32\windowspowershell\v1.0\powershell.exe -NoProfile -executionpolicy allsigned -command "&\"C:\Tool\PS-Scripts\SignatureDownloadCustomTask.ps1\" -action run -arch x64 -isDelta $True -destDir C:\Temp\TempSigs\x64"
     
-    C:\windows\system32\windowspowershell\v1.0\powershell.exe -NoProfile -executionpolicy allsigned -command “&\”C:\Tool\PS-Scripts\SignatureDownloadCustomTask.ps1\” -action run -arch x86 -isDelta $False -destDir C:\Temp\TempSigs\x86″
+    C:\windows\system32\windowspowershell\v1.0\powershell.exe -NoProfile -executionpolicy allsigned -command "&\"C:\Tool\PS-Scripts\SignatureDownloadCustomTask.ps1\" -action run -arch x86 -isDelta $False -destDir C:\Temp\TempSigs\x86"
     
-    C:\windows\system32\windowspowershell\v1.0\powershell.exe -NoProfile -executionpolicy allsigned -command “&\”C:\Tool\PS-Scripts\SignatureDownloadCustomTask.ps1\” -action run -arch x86 -isDelta $True -destDir C:\Temp\TempSigs\x86″
+    C:\windows\system32\windowspowershell\v1.0\powershell.exe -NoProfile -executionpolicy allsigned -command "&\"C:\Tool\PS-Scripts\SignatureDownloadCustomTask.ps1\" -action run -arch x86 -isDelta $True -destDir C:\Temp\TempSigs\x86"
     ```
     > [!NOTE]
     > Os problemas também podem ser devido à política de execução.
@@ -260,9 +260,9 @@ Configurar um compartilhamento de arquivos de rede (UNC/unidade mapeada) para ba
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Implantar o Microsoft Defender Antivírus](deploy-manage-report-microsoft-defender-antivirus.md)
-- [Gerenciar atualizações do Microsoft Defender Antivírus e aplicar linhas de base](manage-updates-baselines-microsoft-defender-antivirus.md)
+- [Implantar Microsoft Defender Antivírus](deploy-manage-report-microsoft-defender-antivirus.md)
+- [Gerenciar Microsoft Defender Antivírus e aplicar linhas de base](manage-updates-baselines-microsoft-defender-antivirus.md)
 - [Gerenciar atualizações para pontos de extremidade que estão des date](manage-outdated-endpoints-microsoft-defender-antivirus.md)
 - [Gerenciar atualizações aplicadas com base em evento](manage-event-based-updates-microsoft-defender-antivirus.md)
 - [Gerenciar atualizações para dispositivos móveis e VMs](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
-- [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Microsoft Defender Antivirus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)

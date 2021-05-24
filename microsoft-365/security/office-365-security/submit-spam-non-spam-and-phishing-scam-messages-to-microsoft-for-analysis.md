@@ -18,12 +18,12 @@ description: Os administradores e usuários finais podem aprender como enviar me
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e0a6f564d82750c5ab8156680854c2453cda6971
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 9c3a02c710472a996245a38d996ff4485efd1748
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203318"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624020"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Enviar mensagens manualmente à Microsoft para análise
 
@@ -35,7 +35,7 @@ ms.locfileid: "51203318"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 > [!NOTE]
-> Se você for um administrador em uma organização com caixas de correio do Exchange Online, recomendamos que você use o portal Envios no Centro de Conformidade & Segurança. Para obter mais informações, [consulte Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](admin-submission.md).
+> Se você for um administrador em uma organização com Exchange Online caixas de correio, recomendamos que você use o portal Envios no Centro de Conformidade & Segurança. Para obter mais informações, [consulte Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](admin-submission.md).
 
 Pode ser frustrante quando os usuários em sua organização recebem mensagens de lixo eletrônico (spam) ou mensagens de phishing em sua Caixa de Entrada ou se eles não recebem uma mensagem de email legítima porque ela é marcada como lixo eletrônico. Estamos constantemente ajustando nossos filtros de spam para ser mais preciso.
 
@@ -47,14 +47,13 @@ Você e seus usuários podem ajudar nesse processo enviando falsos positivos (em
 ## <a name="submit-false-negatives-to-microsoft"></a>Enviar falsos negativos à Microsoft
 
 > [!TIP]
-> Em vez de usar os procedimentos a seguir para relatar falsos negativos, os usuários no Outlook e no Outlook na Web (anteriormente conhecidos como Outlook Web App) podem usar o complemento Mensagem de Relatório ou o complemento Relatar Phishing. Para obter informações sobre como instalar e usar essas ferramentas, consulte [Enable the Report Message add-in](enable-the-report-message-add-in.md) and Enable the Report [Phishing add-in](enable-the-report-phish-add-in.md).
+> Em vez de usar os procedimentos a seguir para relatar falsos negativos, os usuários do Outlook e do Outlook na Web (anteriormente conhecidos como Outlook Web App) podem usar o complemento Mensagem de Relatório ou o complemento Relatar Phishing. Para obter informações sobre como instalar e usar essas ferramentas, consulte [Enable the Report Message add-in](enable-the-report-message-add-in.md) and Enable the Report [Phishing add-in](enable-the-report-phish-add-in.md).
 
 Se você receber uma mensagem que passou pela filtragem de spam que deveria ter sido identificada como spam ou phishing, poderá enviar a mensagem para as equipes de Análise de Spam da Microsoft e análise de phishing da Microsoft, conforme apropriado. Os analistas revisarão a mensagem e a adicionarão aos filtros de todo o serviço se atenderem aos critérios de classificação.
 
 1. Crie uma nova mensagem de email em branco com um dos seguintes destinatários:
 
    - **Lixo** eletrônico : `junk@office365.microsoft.com`
-
    - **Phishing**: `phish@office365.microsoft.com`
 
 2. Arraste e solte o lixo eletrônico ou a mensagem de phishing na nova mensagem. Isso salvará o lixo eletrônico ou a mensagem de phishing como um anexo na nova mensagem. Não copie e colar o conteúdo da mensagem ou encaminhe a mensagem (precisamos da mensagem original para que possamos inspecionar os headers da mensagem).
@@ -62,10 +61,8 @@ Se você receber uma mensagem que passou pela filtragem de spam que deveria ter 
    > [!NOTE]
    >
    > - Você pode anexar várias mensagens na nova mensagem. Certifique-se de que todas as mensagens sejam do mesmo tipo: mensagens de phishing ou mensagens de lixo eletrônico.
-   >
    > - Deixe o corpo da nova mensagem vazio.
-   >
-   > - Use os formatos .msg (formato padrão do Outlook) ou .eml (Padrão do Outlook no formato Web) para as mensagens anexadas.
+   > - Use os formatos .msg (formato padrão Outlook) ou .eml (padrão Outlook no formato Web) para as mensagens anexadas.
 
 3. Quando terminar, clique em **Enviar**.
 
@@ -77,20 +74,17 @@ Se você receber uma mensagem que passou pela filtragem de spam que deveria ter 
 > [!TIP]
 > Em vez de usar os procedimentos a seguir para relatar falsos positivos, os usuários do Outlook e do Outlook na Web (anteriormente conhecidos como Outlook Web App) podem usar o complemento Mensagem de Relatório ou o complemento Relatar Phishing. Para obter informações sobre como instalar e usar essas ferramentas, consulte [Enable the Report Message add-in](enable-the-report-message-add-in.md) and Enable the Report [Phishing add-in](enable-the-report-phish-add-in.md).
 
-
 Se uma mensagem foi identificada incorretamente como spam, você pode enviar a mensagem para a Equipe de Análise de Spam da Microsoft. Os analistas avaliarão a mensagem e (dependendo dos resultados da análise) os filtros de todo o serviço podem ser ajustados para permitir a passagem da mensagem.
 
-1. Crie uma nova mensagem de email em `not_junk@office365.microsoft.com` branco com o destinatário:
+1. Crie uma nova mensagem de email em `not_junk@office365.microsoft.com` branco com como destinatário.
 
 2. Arraste e solte a mensagem não identificada na nova mensagem. Isso salvará a mensagem identificada como um anexo na nova mensagem. Não copie e colar o conteúdo da mensagem ou encaminhe a mensagem (precisamos da mensagem original para que possamos inspecionar os headers da mensagem).
 
    > [!NOTE]
    >
    > - Você pode anexar várias mensagens na nova mensagem. Certifique-se de que todas as mensagens sejam do mesmo tipo: mensagens de phishing ou mensagens de lixo eletrônico.
-   >
    > - Deixe o corpo da nova mensagem vazio.
-   >
-   > - Use os formatos .msg (formato padrão do Outlook) ou .eml (Padrão do Outlook no formato Web) para as mensagens anexadas.
+   > - Use os formatos .msg (formato padrão Outlook) ou .eml (padrão Outlook no formato Web) para as mensagens anexadas.
 
 3. Quando terminar, clique em **Enviar**.
 
@@ -99,8 +93,8 @@ Se uma mensagem foi identificada incorretamente como spam, você pode enviar a m
 
 ## <a name="where-is-the-data-from-submissions-to-microsoft-stored"></a>Onde os dados de envios para a Microsoft são armazenados?
 
-Os dados residem no limite de conformidade do Office 365 em data centers norte-americanos. Os dados são revisados por analistas na equipe de engenharia para ajudar a melhorar a eficácia dos filtros.
+Os dados residem no limite Office 365 conformidade nos data centers norte-americanos. Os dados são revisados por analistas na equipe de engenharia para ajudar a melhorar a eficácia dos filtros.
 
 ## <a name="create-a-mail-flow-rule-to-receive-copies-of-messages-that-are-reported-to-microsoft"></a>Criar uma regra de fluxo de emails para receber cópias de mensagens relatadas à Microsoft
 
-Para obter instruções, [consulte Use mail flow rules to see what your users are reporting to Microsoft](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md).
+Para obter instruções, [consulte Use mail flow rules to see what users are reporting to Microsoft](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-see-what-users-are-reporting-to-microsoft).

@@ -20,27 +20,27 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: a7c98273-067e-4162-b3a1-4ba081796012
-description: Saiba como enviar emails como uma lista de distribuição no Microsoft 365.
-ms.openlocfilehash: bb1d5a62d2b1a3bbfae87849e8aa96cef14c173e
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+description: Envie emails como uma lista de distribuição em Microsoft 365 para que, quando um membro responde a uma mensagem, ele pareça ser da lista de distribuição.
+ms.openlocfilehash: 01bff7e1d2515670c5a6faa199355e7de591f1fb
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332421"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624532"
 ---
 # <a name="send-email-as-a-distribution-list"></a>Enviar email como uma lista de distribuição
 
-No Microsoft 365, você pode enviar emails como uma lista de distribuição. Quando uma pessoa que é membro da lista de distribuição responde a uma mensagem enviada à lista de distribuição, o email parece ser da lista de distribuição, não do usuário individual. Este tópico mostra como fazer isso.
+Em Microsoft 365, você pode enviar emails como uma lista de distribuição. Quando uma pessoa que é membro da lista de distribuição responde a uma mensagem enviada à lista de distribuição, o email parece ser da lista de distribuição, não do usuário individual. Este tópico mostra como fazer isso.
   
-## <a name="send-email-as-a-distribution-list"></a>Enviar email como uma lista de distribuição
+## <a name="before-you-begin"></a>Antes de começar
 
-Antes de executar essas etapas, certifique-se de ter sido adicionado a uma lista de distribuição do Microsoft 365 e você recebeu a permissão Enviar como permissão.
+Antes de executar essas etapas, certifique-se de ter sido adicionado a uma lista de distribuição Microsoft 365 e você recebeu a permissão Enviar como ela.
   
- **Administradores**: certifique-se de ter seguido as etapas nos tópicos Adicionar um usuário ou contato do [Microsoft 365 a](../email/add-user-or-contact-to-distribution-list.md) uma lista e Permitir que os membros enviem emails como um grupo do [Microsoft 365](../../solutions/allow-members-to-send-as-or-send-on-behalf-of-group.md#allow-members-to-send-email-as-a-group) e adicionem as pessoas corretas à lista de distribuição.
+ **Administradores**: certifique-se de ter seguido as etapas nos tópicos Adicionar um usuário ou contato do [Microsoft 365](../email/add-user-or-contact-to-distribution-list.md) a uma lista e Permitir que os membros enviem [emails](../../solutions/allow-members-to-send-as-or-send-on-behalf-of-group.md#allow-members-to-send-email-as-a-group) como um grupo de Microsoft 365 e adicionem as pessoas corretas à lista de distribuição.
   
 ## <a name="outlook-on-the-web"></a>Outlook na Web
 
-1. Abra o Outlook na Web e vá para sua caixa de entrada. 
+1. Abra Outlook na Web e vá para sua caixa de entrada. 
     
 2. Abra uma mensagem que foi enviada para a lista de distribuição. 
     
@@ -54,10 +54,16 @@ Antes de executar essas etapas, certifique-se de ter sido adicionado a uma lista
 
 ## <a name="outlook"></a>Outlook
 
-1. Abra o cliente da área de trabalho do Outlook.
+1. Abra Outlook cliente da área de trabalho.
 
 2. Componha um novo email. Clique no **campo De** e selecione Outro endereço **de email**. Se você não vir o campo De, navegue até **Opções** e selecione **De** na seção Mostrar campos.
 
 3. Selecione o **endereço da Lista** de Distribuição na Lista de Endereços Global.
 
 4. Envie o email.
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Criar, editar ou excluir um grupo de segurança no Microsoft 365 de administração](../email/create-edit-or-delete-a-security-group.md) (artigo)\
+[Colaboração por email](../email/email-collaboration.md) (artigo)\
+[Adicionar um usuário ou contato a um grupo de distribuição](../email/add-user-or-contact-to-distribution-list.md)

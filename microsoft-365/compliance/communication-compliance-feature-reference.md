@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 3df8fbf20fd00bd584af2fd329949939433a19eb
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 87f5e414a13d966ba2fbb30d84d7d4adae7a1d13
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583479"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624344"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -50,7 +50,7 @@ Os modelos de política são configurações de política pré-definidas que voc
 
 As comunicações são examinadas a cada 24 horas a partir do momento em que as políticas são criadas. Por exemplo, se você criar uma política de idioma ofensivo às 11:00, a política reunirá sinais de conformidade de comunicação a cada 24 horas às 11:00 diariamente. Editar uma política não muda desta vez. Para exibir a última data e hora de verificação de uma política, navegue até a *coluna* Última verificação de política na página **Política.** Depois de criar uma nova política, pode levar até 24 horas para exibir a primeira data e hora de verificação de política. A data e a hora da última verificação serão convertidas no fuso horário do sistema local.
 
-## <a name="permissions"></a>Permissões
+## <a name="permissions"></a>Permissions
 
 >[!Important]
 >Por padrão, os Administradores Globais não têm acesso aos recursos de conformidade de comunicação. As funções atribuídas nesta etapa são necessárias para que todos os recursos de conformidade de comunicação sejam acessíveis.
@@ -187,9 +187,9 @@ Os classificadores integrados e globais não fornecem uma lista exaustiva de ter
 
 Para obter informações sobre classificadores com treinamento em Microsoft 365, consulte [Getting started with trainable classifiers](classifier-get-started-with.md).
 
-### <a name="optical-character-recognition-ocr-preview"></a>Reconhecimento óptico de caracteres (OCR) (visualização)
+### <a name="optical-character-recognition-ocr"></a>Reconhecimento óptico de caracteres (OCR)
 
-Configure políticas de conformidade de comunicação internas ou personalizadas para verificar e identificar texto impresso ou manuscrito de imagens que podem ser inadequadas em sua organização. Os Serviços Cognitivos integrados do Azure e o suporte à verificação óptica para identificar texto em imagens ajudam os analistas e investigadores a detectar e agir em instâncias em que a conduta inadequada pode ser perdida em comunicações que são principalmente não textuais.
+Configure políticas de conformidade de comunicação internas ou personalizadas para verificar e identificar texto impresso ou manuscrito de imagens que podem ser inadequadas em sua organização. Os Serviços Cognitivos integrados do [Azure](/azure/cognitive-services/computer-vision/overview-ocr) e o suporte à verificação óptica para identificar texto em imagens ajudam os analistas e investigadores a detectar e agir em instâncias em que a conduta inadequada pode ser perdida em comunicações que são principalmente não textuais.
 
 Você pode habilitar o OCR (reconhecimento óptico de caracteres) em novas políticas de modelos, políticas personalizadas ou atualizar políticas existentes para expandir o suporte para o processamento de imagens e anexos incorporados. Quando habilitada em uma política criada a partir de um modelo de política, a verificação automática é suportada para imagens incorporadas ou anexadas no email e Microsoft Teams mensagens de chat. Para políticas personalizadas, uma ou mais configurações condicionais associadas a palavras-chave, classificadores integrados ou tipos de informações confidenciais devem ser configuradas na política para habilitar a seleção da verificação OCR.
 
@@ -477,6 +477,17 @@ O **painel Relatórios** contém os seguintes widgets de relatório e links deta
     - Caso criado
 
     Use a *opção Exportar* para criar um arquivo .csv que contém os detalhes do relatório.
+
+- **Tipo de informação confidenciais por relatório** detalhado de local (visualização): Revise e exporte informações sobre a detecção de tipos de informações confidenciais e as fontes associadas em políticas de conformidade de comunicação. Inclui o total geral e a divisão específica de instâncias de tipo de informação confidenciais nas fontes configuradas em sua organização. Exemplos são:
+
+    - **Email**: Tipos de informações confidenciais detectados em Exchange de email.
+    - **Teams:** Tipos de informações confidenciais detectados em Microsoft Teams canais e mensagens de chat.
+    - **Skype for Business:** Tipos de informações confidenciais detectados no Skype para comunicações comerciais.
+    - **Yammer:** Tipos de informações confidenciais detectados Yammer caixas de entrada, postagens, chats e respostas.
+    - **Fontes de terceiros**: Tipos de informações confidenciais detectados para atividades associadas a conectores de terceiros configurados em sua organização. Para exibir a divisão de fontes de terceiros para um tipo de informação confidenciais específico no relatório, passe o mouse sobre o valor do tipo de informação confidenciais na coluna De origem de terceiros.
+    - **Outros**: Tipos de informações confidenciais usados para o processamento interno do sistema. Selecionar ou desmarcar essa fonte para o relatório não afetará nenhum valor.
+
+    Use a *opção Exportar* para criar um arquivo .csv que contém os detalhes do relatório. Os valores para cada fonte de terceiros são exibidos em colunas separadas no arquivo .csv.
 
 ## <a name="audit"></a>Auditoria
 

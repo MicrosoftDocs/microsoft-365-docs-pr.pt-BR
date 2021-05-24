@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender a configurar uma caixa de correio para coletar emails de spam e phishing relatados pelos usuários.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a23f27478d01092705a47d49884f200478348182
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 852e87ee76d9692b789ca217720ac3efb08f31a8
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583707"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624604"
 ---
 # <a name="user-submissions-policy"></a>Política de envios de usuários
 
@@ -39,22 +39,18 @@ Em Microsoft 365 com caixas de correio Exchange Online, você pode especificar u
 
 - [O add-in De relatório phishing](enable-the-report-phish-add-in.md)
 
-- [Relatórios integrados em Outlook na Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md) (anteriormente conhecido como Outlook Web App)
+- [Ferramentas de relatórios de terceiros](#third-party-reporting-tools)
 
-- [Relatórios integrados em Outlook para iOS e Android](report-junk-email-and-phishing-scams-in-outlook-for-iOS-and-Android.md)
+A entrega de mensagens relatadas pelo usuário a uma caixa de correio personalizada, em vez de diretamente à Microsoft, permite que os administradores reportem mensagens de forma seletiva e manual à Microsoft usando [o envio de Administrador.](admin-submission.md)
 
   > [!NOTE]
   > Se o relatório tiver sido desabilitado Outlook na [Web,](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web)habilitar envios de usuários aqui substituirá essa configuração e permitirá que os usuários reportem mensagens Outlook na Web novamente.
-
-Você também pode configurar ferramentas de relatório de mensagens de terceiros para encaminhar mensagens para a caixa de correio especificada.
-
-A entrega de mensagens relatadas pelo usuário a uma caixa de correio personalizada, em vez de diretamente à Microsoft, permite que os administradores reportem mensagens de forma seletiva e manual à Microsoft usando [o envio de Administrador.](admin-submission.md)
 
 ## <a name="custom-mailbox-prerequisites"></a>Pré-requisitos de caixa de correio personalizados
 
 Use os seguintes artigos para configurar os pré-requisitos necessários para que as mensagens relatadas pelo usuário acessem sua caixa de correio personalizada:
 
-- Ignore a filtragem de spam na caixa de correio personalizada criando uma regra de fluxo de emails do exchange para definir o nível de confiança de spam. Consulte [Usar o EAC para criar uma regra](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message) de fluxo de emails que define o SCL de uma mensagem para definir o SCL como Ignorar a **filtragem de spam**.
+- Ignore a filtragem de spam na caixa de correio personalizada criando uma regra de fluxo de emails do exchange para definir o nível de confiança de spam. Consulte [Usar o EAC para criar uma regra](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message) de fluxo de emails que define o SCL de uma mensagem para definir o SCL como Ignorar a **filtragem de spam**.
 
 - Desativar anexos de verificação de malware na caixa de correio personalizada. Use [Configurar políticas de Cofre Anexos](set-up-safe-attachments-policies.md) no Defender para Office 365 para criar uma política  de anexos Cofre com a configuração Off para Cofre **Anexos resposta** de malware desconhecida .
 
@@ -141,9 +137,17 @@ Depois de verificar se sua caixa de correio atende a todos os pré-requisitos ap
 
        Quando terminar, clique em **Confirmar**.
 
+## <a name="third-party-reporting-tools"></a>Ferramentas de relatórios de terceiros
+
+Você pode configurar ferramentas de relatório de mensagens de terceiros para enviar mensagens relatadas para a caixa de correio personalizada. O único requisito é que a mensagem original seja incluída como um anexo na mensagem enviada à caixa de correio personalizada (não apenas encaminhe a mensagem original para a caixa de correio personalizada).
+
+Os requisitos de formatação de mensagens são descritos na próxima seção.
+
 ## <a name="message-submission-format"></a>Formato de envio de mensagem
 
-As mensagens enviadas para caixas de correio personalizadas precisam seguir um formato de email de envio específico. O Assunto (Título do Envelope) do envio deve estar nesse formato:
+Para identificar corretamente as mensagens anexadas originais, as mensagens enviadas para a caixa de correio personalizada exigem formatação específica. Se as mensagens não usarem esse formato, as mensagens anexadas originais sempre serão identificadas como envios de phishing.
+
+Para a identificação correta das mensagens anexadas originais, as mensagens enviadas para a caixa de correio personalizada precisam usar a sintaxe a seguir para o Assunto (Título do Envelope):
 
 `SafetyAPIAction|NetworkMessageId|SenderIp|FromAddress|(Message Subject)`
 
@@ -153,7 +157,7 @@ em que SafetyAPIAction é um dos seguintes valores inteiros:
 - 2: Não lixo eletrônico
 - 3: Phishing
 
-No exemplo a seguir:
+Este exemplo usa os seguintes valores:
 
 - A mensagem está sendo relatada como phishing.
 - A ID da Mensagem de Rede é 49871234-6dc6-43e8-abcd-08d797f20abe.

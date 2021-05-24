@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: Aprenda a criar, editar ou excluir um grupo de segurança.
-ms.openlocfilehash: 8f76b5fa803ea43e53e89cf6479eb7572a2857c2
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 7887a6371287ebef3a91cc1a37f2ed696df1948d
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537590"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623996"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Criar, editar ou excluir um grupo de segurança no Microsoft 365 de administração
 
@@ -99,3 +99,9 @@ Não. Essa é apenas mais uma maneira de gerenciar a segurança da sua organiza�
 ## <a name="can-i-send-email-to-a-security-group"></a>Posso enviar emails para um grupo de segurança?
 
 Sim. Mas se você quiser usar grupos para email e colaboração, recomendamos que você crie um Microsoft 365 [grupo.](../create-groups/create-groups.md) 
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Criar um grupo no Microsoft 365 de administração](../create-groups/create-groups.md) (artigo)\
+[Explicando Microsoft 365 grupos para seus usuários](../create-groups/explain-groups-knowledge-worker.md) (artigo)\
+[Gerenciar um grupo no Microsoft 365 de administração](../create-groups/manage-groups.md) (artigo)

@@ -22,17 +22,17 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
-description: 'Crie links rápidos para seu email, documentos, aplicativos, sites do SharePoint, sites externos e outros recursos adicionando blocos personalizados ao iniciador de aplicativos. '
-ms.openlocfilehash: 598cfeb75fc811c87519c4479fa8fcab450466c3
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+description: Crie links rápidos para seu email, documentos, aplicativos, SharePoint sites, sites externos e outros recursos adicionando blocos personalizados ao iniciador de aplicativos.
+ms.openlocfilehash: 47f871d66f180225e877a521ef159fc745960507
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327205"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623768"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>Adicionar blocos personalizados ao inicializador de aplicativos
 
-No Microsoft 365, você pode chegar rapidamente e facilmente aos seus emails, calendários, documentos e aplicativos usando o iniciador de aplicativos ([saiba mais](https://support.microsoft.com/office/79f12104-6fed-442f-96a0-eb089a3f476a)). Esses são os aplicativos que você tem com o Microsoft 365, bem como aplicativos personalizados que você adiciona da Loja do [SharePoint](https://support.microsoft.com/office/dd98e50e-d3db-4ecb-9bb7-82b189822d43) ou [do Azure AD](/previous-versions/office/office-365-api/).
+Em Microsoft 365, você pode chegar rapidamente e facilmente aos seus emails, calendários, documentos e aplicativos usando o launcher de aplicativos ([saiba mais](https://support.microsoft.com/office/79f12104-6fed-442f-96a0-eb089a3f476a)). Esses são os aplicativos que você Microsoft 365, bem como aplicativos personalizados que você adiciona da SharePoint [Store](https://support.microsoft.com/office/dd98e50e-d3db-4ecb-9bb7-82b189822d43) ou [do Azure AD](/previous-versions/office/office-365-api/).
   
 Você pode adicionar blocos personalizados ao inicializador de aplicativos, que apontem para sites do SharePoint, sites externos, aplicativos herdados, e muito mais. O bloco personalizado é exibido na guia **Tudo** do inicializador de aplicativos, mas você pode fixá-lo junto aos aplicativos da guia **Página Inicial** e orientar os usuários a fazerem o mesmo. Isso facilita a localização de sites, aplicativos e recursos importantes para realizar o trabalho. No exemplo a seguir, o bloco personalizado Portal da Contoso serve para acessar o site de intranet do SharePoint da organização. 
   
@@ -40,7 +40,7 @@ Você pode adicionar blocos personalizados ao inicializador de aplicativos, que 
   
 ## <a name="add-a-custom-tile-to-the-app-launcher"></a>Adicionar um bloco personalizado ao inicializador de aplicativos
 
-1. Entre no centro de administração como Administrador Global, acesse **Configurações** da Organização Configurações e escolha a  >  guia **Perfil da** Organização.
+1. Entre no centro de administração como Administrador Global, vá para o Configurações Org Configurações e escolha a  >  guia **Perfil da** Organização.
     
 2. Na guia **Perfil da** Organização, escolha **Blocos personalizados do iniciador de aplicativos.**
   
@@ -65,11 +65,11 @@ Você pode adicionar blocos personalizados ao inicializador de aplicativos, que 
     Agora, o bloco personalizado é exibido na guia **Tudo** do inicializador de aplicativos para todas as pessoas. 
 
     > [!NOTE]
-    > Se você não vir o bloco personalizado criado na etapa anterior, verifique se tem uma caixa de correio do Exchange Online atribuída e se você entrou em sua caixa de correio pelo menos uma vez. Essas etapas são necessárias para blocos personalizados no Microsoft 365. 
+    > Se você não vir o bloco personalizado criado na etapa anterior, verifique se tem uma caixa de correio do Exchange Online atribuída e se você entrou em sua caixa de correio pelo menos uma vez. Essas etapas são necessárias para blocos personalizados Microsoft 365. 
   
 ## <a name="edit-or-delete-a-custom-tile"></a>Edit or delete a custom tile
 
-1. No centro de administração, vá para a guia **Configurações** da Organização  >  **Configurações**  >  **Perfil da** organização.
+1. No centro de administração, vá para **a** guia perfil Configurações  >  **Org Configurações**  >  **Organização.**
     
 2. Na página **Perfil da** Organização, ao lado de   **Adicionar blocos personalizados para sua** organização, selecione **Editar**.
 
@@ -79,6 +79,12 @@ Você pode adicionar blocos personalizados ao inicializador de aplicativos, que 
     
 Para excluir um bloco personalizado, na janela **Blocos** personalizados, selecione o bloco, selecione **Remover excluir bloco**  >  . 
   
-## <a name="whats-next"></a>O que vem a seguir?
+## <a name="next-steps"></a>Próximas etapas
 
-Além de adicionar blocos ao launcher de aplicativos, você pode adicionar blocos do launcher de aplicativo à barra de navegação ([saiba mais](https://support.microsoft.com/office/eb34a21b-52fa-4fbf-a8d5-146132242985)). Para personalizar a aparência do Microsoft 365 para corresponder à marca da sua organização, consulte Personalizar o [tema do Microsoft 365](../setup/customize-your-organization-theme.md).
+Além de adicionar blocos ao launcher de aplicativos, você pode adicionar blocos do launcher de aplicativo à barra de navegação ([saiba mais](https://support.microsoft.com/office/eb34a21b-52fa-4fbf-a8d5-146132242985)). Para personalizar a aparência da Microsoft 365 para corresponder à marca da sua organização, consulte [Customize the Microsoft 365 theme](../setup/customize-your-organization-theme.md).
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Fixar aplicativos no iniciador de aplicativos](pin-apps-to-app-launcher.md) de seus usuários (artigo)\
+[Atualize seu Microsoft 365 para usuários comerciais para o cliente Office mais recente](../setup/upgrade-users-to-latest-office-client.md) (artigo)\
+[Gerenciar os complementos no centro de administração](../manage/manage-addins-in-the-admin-center.md) (artigo)

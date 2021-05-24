@@ -22,12 +22,12 @@ description: Use rótulos de confidencialidade da MIP (Proteção de Informaçõ
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: bd3cc0a71fab9f2ceb6d3219a371bb4d5c030744
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 171f449a8b73ff42113358d50dbe8bde909f5d4d
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297243"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625180"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -209,7 +209,7 @@ Ao configurar uma política de rótulo, você pode:
 
 Depois de criar uma política de rótulo que atribui novos rótulos de confidencialidade a usuários e grupos, os usuários começam a ver esses rótulos em seus aplicativos do Office. Aguarde até 24 horas para que as alterações mais recentes sejam replicadas em sua organização.
 
-Não há limite para o número de rótulos de confidencialidade que você pode criar e publicar, com uma exceção: se o rótulo aplicar criptografia, o máximo que pode ser criado é de 500 rótulos. No entanto, como prática recomendada para diminuir as despesas gerais do administrador e reduzir a complexidade para seus usuários, tente manter o número mínimo de rótulos. As implantações no mundo real provaram que a eficácia é visivelmente reduzida quando os usuários têm mais de cinco rótulos principais ou mais de cinco sub-rótulos por rótulo principal.
+Não há limite para o número de rótulos de confidencialidade que você pode criar e publicar, com uma exceção: se o rótulo aplica criptografia que especifica os usuários e permissões, há um máximo de 500 rótulos com suporte com esta configuração. No entanto, como prática recomendada para diminuir as despesas gerais do administrador e reduzir a complexidade para seus usuários, tente manter o número mínimo de rótulos. As implantações no mundo real provaram que a eficácia é visivelmente reduzida quando os usuários têm mais de cinco rótulos principais ou mais de cinco sub-rótulos por rótulo principal.
 
 ### <a name="label-policy-priority-order-matters"></a>Prioridade das políticas de rótulos (a ordem é importante)
 
@@ -253,7 +253,7 @@ Se você é novo na Proteção de Informações do Azure ou se já é um cliente
 > [!NOTE]
 > O gerenciamento dos rótulos de Proteção de Informações do Azure no portal do Azure foi substituído em **31 de março de 2021**. Saiba mais no [aviso de substituição](https://techcommunity.microsoft.com/t5/azure-information-protection/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179) oficial.
 
-Se seu locatário ainda não estiver na [plataforma unificada de rotulagem](https://docs.microsoft.com/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform), você deve primeiro ativar a rotulagem unificada antes de poder usar rótulos de confidencialidade. Para obter instruções, consulte[Como migrar os rótulos de Proteção de Informações do Azure para rótulos de confidencialidade unificada](/azure/information-protection/configure-policy-migrate-labels). 
+Se seu locatário ainda não estiver na [plataforma unificada de rotulagem](/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform), você deve primeiro ativar a rotulagem unificada antes de poder usar rótulos de confidencialidade. Para obter instruções, consulte[Como migrar os rótulos de Proteção de Informações do Azure para rótulos de confidencialidade unificada](/azure/information-protection/configure-policy-migrate-labels). 
 
 ## <a name="sensitivity-labels-and-the-microsoft-information-protection-sdk"></a>Rótulos de confidencialidade e SDK da Proteção de Informações da Microsoft
 

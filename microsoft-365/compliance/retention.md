@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 2695d34e29492a88da86c2511ce32e4036031e9d
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: ba17a94fa4ae0d12405cc7e38d7d74e90fa7ad02
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572652"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625216"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -195,7 +195,7 @@ Você também pode criar uma ou mais **políticas de rótulo de retenção de ap
 |Aplicada automaticamente com base em tipos de informações confidenciais ou classificadores treináveis  <br/> |Exchange (somente para todas as caixas de correio), SharePoint, OneDrive  <br/> |
 |Aplicado automaticamente com base em uma consulta  <br/> |Exchange, SharePoint, OneDrive, Grupos do Microsoft 365  <br/> |
    
-No Exchange, os rótulos de retenção que você aplica automaticamente são aplicados apenas às mensagens enviadas recentemente (dados em trânsito) e não a todos os itens atualmente na caixa de correio (dados em repouso). Além disso, os rótulos de retenção de aplicação automática para tipos de informações confidenciais e classificadores treináveis aplicam-se a todas as caixas de correio. Não é possível selecionar caixas de correio específicas.
+No Exchange, os rótulos de retenção que você aplica automaticamente são aplicados apenas às mensagens enviadas recentemente (dados em trânsito), não a todos os itens atualmente na caixa de correio (dados em repouso). Além disso, rótulos de retenção de aplicação automática para tipos de informações confidenciais e classificadores treináveis ​​se aplicam a todas as caixas de correio; você não pode selecionar caixas de correio específicas.
   
 As pastas públicas do Exchange, Skype, Teams e as mensagens do Yammer não oferecem suporte a rótulos de retenção. Para reter e excluir conteúdo desses locais, use políticas de retenção.
 
@@ -368,7 +368,7 @@ Você aplica o Bloqueio de Preservação depois que a política de retenção ou
 
 Caso as suas políticas para retenção não tenham um Bloqueio de Preservação, você pode excluir suas políticas a qualquer momento, o que desabilita eficazmente as configurações de retenção aplicadas anteriormente. Você também pode manter a política, mas remover um site do SharePoint ou uma conta do OneDrive, alterar o status de local para desativá-la ou desabilitar a política.
  
-Quando você realiza qualquer uma dessas ações, qualquer conteúdo do SharePoint ou do OneDrive que estiver sujeito à retenção da política continuará a ser retido por 30 dias para evitar a perda inadvertida de dados. Durante esse período de carência de 30 dias, não é possível excluir o site, os arquivos excluídos ainda são mantidos (os arquivos continuam sendo adicionados à biblioteca de Retenção para preservação), mas o trabalho de temporizador que limpa periodicamente a biblioteca de Retenção para preservação é suspenso para esses arquivos, para que você possa restaurá-los, se necessário.
+Quando você realiza qualquer uma dessas ações, qualquer conteúdo do SharePoint ou do OneDrive que estiver sujeito à retenção da política continuará a ser retido por 30 dias para evitar a perda inadvertida de dados. Durante esse período de cortesia de 30 dias, os arquivos excluídos ainda são retidos (os arquivos continuam a ser adicionados à biblioteca de retenção para preservação), mas o trabalho de timer que limpa periodicamente a biblioteca de Retenção para Preservação é suspenso para esses arquivos para que você possa restaurá-los se necessário.
 
 Para saber mais sobre a biblioteca de Retenção para Preservação, confira [Como funciona a retenção no SharePoint e no OneDrive](retention-policies-sharepoint.md#how-retention-works-for-sharepoint-and-onedrive).
 

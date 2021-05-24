@@ -1,5 +1,5 @@
 ---
-title: Gerenciar dispositivos protegidos com o Microsoft 365 Business Premium
+title: Gerenciar dispositivos protegidos com Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -26,22 +26,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
-description: Aprenda a remover dados da empresa de dispositivos gerenciados por meio de políticas de proteção, bem como redefinir dispositivos Windows 10 para suas configurações de fábrica.
-ms.openlocfilehash: fdd92e797774a47455d6b4163dfe399bf74d41f3
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Aprenda a remover dados da empresa de dispositivos gerenciados por meio de políticas de proteção, bem como redefinir Windows 10 dispositivos para suas configurações de fábrica.
+ms.openlocfilehash: 0b757172ed337e9b2b68b4fcbdf5b102a8c76710
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580145"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624276"
 ---
-# <a name="manage-protected-devices-with-microsoft-365-business-premium"></a>Gerenciar dispositivos protegidos com o Microsoft 365 Business Premium
+# <a name="manage-protected-devices-with-microsoft-365-business-premium"></a>Gerenciar dispositivos protegidos com Microsoft 365 Business Premium
 
-Depois que um usuário conectar seu dispositivo à sua organização, conectando-se com sua conta de trabalho ao dispositivo ou aos aplicativos do Office no dispositivo, você poderá proteger o dispositivo com as políticas configuradas. Os dispositivos conectados estão listados na **página Dispositivos.** Se um dispositivo for perdido ou roubado, você poderá gerenciá-lo nesta página para remover todos os dados da empresa. É possível também restaurar dispositivos Windows 10 para as configurações de fábrica a fim de apagar as configurações personalizadas. 
+Depois que um usuário conecta seu dispositivo à sua organização, conectando-se com sua conta de trabalho ao dispositivo ou Office aplicativos no dispositivo, você pode proteger o dispositivo com as políticas configuradas. Os dispositivos conectados estão listados na **página Dispositivos.** Se um dispositivo for perdido ou roubado, você poderá gerenciá-lo nesta página para remover todos os dados da empresa. É possível também restaurar dispositivos Windows 10 para as configurações de fábrica a fim de apagar as configurações personalizadas. 
 
-Para obter mais informações sobre as tarefas que você pode usar para gerenciar dispositivos, consulte estes artigos: 
+## <a name="related-content"></a>Conteúdo relacionado
   
-[Remover dados da empresa de dispositivos](remove-company-data.md)
-  
-[Restaurar dispositivos Windows 10 para as configurações de fábrica](reset-devices-to-factory-settings.md)
-
-[Adicionar um dispositivo gerenciado](./app-protection-settings-for-android-and-ios.md)
+[Remover dados da empresa de dispositivos](remove-company-data.md) (artigo)\
+[Redefinir Windows 10 dispositivos para suas configurações de fábrica](reset-devices-to-factory-settings.md) (artigo)\
+[Adicionar um dispositivo gerenciado](./app-protection-settings-for-android-and-ios.md) (artigo)

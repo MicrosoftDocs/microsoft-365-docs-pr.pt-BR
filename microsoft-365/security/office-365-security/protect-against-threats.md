@@ -20,12 +20,12 @@ description: Os administradores podem aprender sobre a proteção contra ameaça
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3381ce66433f1f4e32f0251c45601e3cb84865b6
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 438200f3f8a6a846d49bc397d6a4b0a0a33cad40
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538718"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624616"
 ---
 # <a name="protect-against-threats"></a>Proteção contra ameaças
 
@@ -41,7 +41,7 @@ Aqui está um guia de início rápido que quebra a configuração do Defender pa
 > [!IMPORTANT]
 > **As configurações recomendadas** iniciais são incluídas para cada tipo de política; no entanto, muitas opções estão disponíveis e você pode ajustar suas configurações para atender às necessidades de sua organização específica. Permita aproximadamente 30 minutos para que suas políticas ou alterações funcionem por meio do datacenter.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 ### <a name="subscriptions"></a>Assinaturas
 
@@ -277,7 +277,7 @@ Junto com a configuração de proteção contra malware, URLs mal-intencionadas 
 
 - As ações de spam são definidas como **Mover mensagem para a** pasta Lixo Eletrônico em políticas [anti-spam.](anti-spam-protection.md)
 
-- Os usuários mantiveram suas configurações padrão [de lixo eletrônico](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)e não desligaram a proteção contra lixo eletrônico.
+- Os usuários mantiveram suas configurações padrão [de lixo eletrônico](configure-junk-email-settings-on-exo-mailboxes.md)e não desligaram a proteção contra lixo eletrônico.
 
 Para saber mais, confira [Limpeza automática zero hora - proteção contra spam e malware](zero-hour-auto-purge.md).
 

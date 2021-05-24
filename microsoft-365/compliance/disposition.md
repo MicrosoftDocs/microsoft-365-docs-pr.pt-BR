@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a disposição do conteúdo para quando você usar uma revisão de disposição ou itens marcados como registros forem excluídos automaticamente de acordo com as configurações definidas.
-ms.openlocfilehash: 3c5d178b4eab267759506dcd86d66fb2bf4d93ee
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 99ab789b99385af9ad2677995606d21ece54705c
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583467"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594068"
 ---
 # <a name="disposition-of-content"></a>Disposição de conteúdo
 
@@ -30,7 +30,7 @@ ms.locfileid: "52583467"
 Use a página **Disposição** do **Gerenciamento de Registros** no Centro de conformidade do Microsoft 365 para gerenciar revisões de disposição e visualizar os metadados dos [registros](records-management.md#records) que foram excluídos automaticamente no final do período de retenção.
 
 > [!NOTE]
-> Implementação na visualização: **revisão de disposição em vários estágios**
+> Em visualização: **Revisão da disposição em vários estágios**
 > 
 > Um administrador agora pode adicionar até cinco estágios consecutivos de revisão de disposição em um rótulo de retenção, e os revisores podem adicionar outros usuários ao seu estágio de revisão de disposição. Você também pode personalizar as notificações e lembretes por email. As seções a seguir contêm mais informações sobre as mudanças nesta visualização.
 >

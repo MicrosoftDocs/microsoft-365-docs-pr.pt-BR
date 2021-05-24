@@ -17,12 +17,12 @@ ms.custom: ''
 description: Os administradores podem aprender a usar a política de entrega avançada no Proteção do Exchange Online (EOP) para identificar mensagens que não devem ser filtradas em cenários com suporte específico (simulações de phishing de terceiros e mensagens entregues às caixas de correio de operações de segurança (SecOps).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8bebc094b56a20a43f92d1acf8d374110de43d71
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 0e4e230fdca7fe29fc1c7a1bc68085454ba883b9
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52594116"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624784"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>Configurar a entrega de simulações de phishing de terceiros para usuários e mensagens não filtradas para caixas de correio SecOps
 
@@ -107,6 +107,6 @@ Além dos dois cenários em que a política de entrega avançada pode ajudá-lo,
 
 - **Filtros de** terceiros : Se o  registro MX do seu domínio não apontar para o Office 365 (as mensagens são roteadas primeiro para outro [lugar),](secure-by-default.md) a segurança por padrão não está *disponível*.
 
-  Para ignorar a filtragem da Microsoft para mensagens que já foram avaliadas pela filtragem de terceiros, use regras de fluxo de emails (também conhecidas como regras de transporte), consulte [Use mail flow rules to set the SCL in messages](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md).
+  Para ignorar a filtragem da Microsoft para mensagens que já foram avaliadas pela filtragem de terceiros, use regras de fluxo de emails (também conhecidas como regras de transporte), consulte [Use mail flow rules to set the SCL in messages](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl.md).
 
 - **Falsos positivos** em revisão : talvez você queira permitir temporariamente determinadas mensagens que ainda estão sendo analisadas pela Microsoft por meio de envios de administrador para relatar mensagens boas [conhecidas](admin-submission.md) que estão sendo marcadas incorretamente como ruins para a Microsoft (falsos positivos). Como com todas as substituições, é **_altamente recomendável_** que essas concessões sejam feitas temporariamente.

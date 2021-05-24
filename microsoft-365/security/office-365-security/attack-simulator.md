@@ -17,15 +17,15 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem aprender a usar o Simulador de Ataques para executar ataques simulados de phishing e senha em suas organizações do Microsoft 365 E5 ou do Microsoft Defender para Office 365 Plan 2.
+description: Os administradores podem aprender a usar o Simulador de Ataques para executar ataques simulados de phishing e senha em suas Microsoft 365 E5 ou no Microsoft Defender para organizações do Office 365 Plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 637e84281b85e8c859207ae81342a3c6ab3d00be
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 73ad3501ed9818261c9fbec6ba12b4dc884da84f
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203003"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624820"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Simulador de Ataque no Microsoft Defender para Office 365
 
@@ -33,19 +33,19 @@ ms.locfileid: "51203003"
 
 **Aplica-se ao** [Microsoft Defender para Office 365 plano 2](defender-for-office-365.md)
 
-Se sua organização tiver o Microsoft Defender para Office 365 Plano 2, que inclui recursos de Investigação e Resposta contra [Ameaças,](office-365-ti.md)você poderá usar o Simulador de Ataques no Centro de Conformidade & Segurança para executar cenários de ataque realistas em sua organização. Esses ataques simulados podem ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real impacte sua linha inferior. Leia este artigo para saber mais.
+Se sua organização tiver o Microsoft Defender para Office 365 Plano 2, que inclui recursos de Investigação e Resposta contra [Ameaças,](office-365-ti.md)você poderá usar o Simulador de Ataque no Centro de Conformidade & Segurança para executar cenários de ataque realistas em sua organização. Esses ataques simulados podem ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real impacte sua linha inferior. Leia este artigo para saber mais.
 
 > [!NOTE]
 >
-> O Simulador de Ataque, conforme descrito neste artigo,  agora é somente leitura e foi substituído pelo treinamento de simulação de ataque no nó de colaboração **email &** no centro de segurança do [Microsoft 365.](https://security.microsoft.com) Para obter mais informações, consulte [Começar a usar o treinamento de simulação de ataque](attack-simulation-training-get-started.md).
+> O Simulador de Ataque, conforme descrito neste artigo,  agora é somente leitura e foi substituído pelo treinamento de simulação de ataque no nó de colaboração **Email &** no centro de segurança [do Microsoft 365.](https://security.microsoft.com) Para obter mais informações, consulte [Começar a usar o treinamento de simulação de ataque](attack-simulation-training-get-started.md).
 >
 > A capacidade de iniciar novas simulações dessa versão do Simulador de Ataque foi desabilitada. No entanto, você ainda pode acessar relatórios por até 90 dias a partir de 24 de janeiro de 2021.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Para abrir o Centro de Conformidade e Segurança, acesse <https://protection.office.com/>. Simulador de ataque está disponível no simulador **de ataques de gerenciamento** de \> **ameaças.** Vá diretamente para o simulador de ataque, abra <https://protection.office.com/attacksimulator> .
+- Para abrir o Centro de Conformidade e Segurança, acesse <https://protection.office.com/>. Simulador de ataque está disponível no simulador **de ataques de gerenciamento** de \> **ameaças.** Para ir diretamente ao simulador de ataque, abra <https://protection.office.com/attacksimulator> .
 
-- Para obter mais informações sobre a disponibilidade do Simulador de Ataques em diferentes assinaturas do Microsoft 365, consulte [Microsoft Defender for Office 365 service description](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+- Para obter mais informações sobre a disponibilidade do Simulador de Ataque em diferentes Microsoft 365 assinaturas, consulte Microsoft Defender para obter Office 365 [descrição do serviço](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
 
 - Você precisa ser membro dos grupos de função Gerenciamento da **Organização** ou **Administrador de** Segurança. Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
@@ -55,7 +55,7 @@ Se sua organização tiver o Microsoft Defender para Office 365 Plano 2, que inc
 
 - As campanhas de phishing coletarão e processarão eventos por 30 dias. Os dados históricos da campanha estarão disponíveis por até 90 dias após o início da campanha.
 
-- Dados relacionados à simulação de ataque e treinamento são armazenados com outros dados do cliente para serviços do Microsoft 365. Para obter mais informações, consulte Locais de dados [do Microsoft 365](../../enterprise/o365-data-locations.md).
+- Os dados relacionados à simulação de ataque e treinamento são armazenados com outros dados do cliente para Microsoft 365 serviços. Para obter mais informações, [consulte Microsoft 365 data locations](../../enterprise/o365-data-locations.md).
 
 - Não há cmdlets do PowerShell correspondentes para Simulador de Ataque.
 
@@ -73,7 +73,7 @@ No Simulador de Ataques, dois tipos diferentes de campanhas de phishing de lanç
 
   - Uma página personalizada (URL) que você especificar.
 
-- **Phishing de lança (anexo)**: O ataque tenta convencer os destinatários a abrir um anexo .docx ou .pdf na mensagem. O anexo contém o mesmo conteúdo do link padrão de phishing, mas a primeira frase começa com " , você está vendo essa mensagem como uma mensagem de email recente que você \<Display Name\> abriu...".
+- **Phishing de lança (anexo)**: O ataque tenta convencer os destinatários a abrir um .docx ou .pdf anexo na mensagem. O anexo contém o mesmo conteúdo do link padrão de phishing, mas a primeira frase começa com " , você está vendo essa mensagem como uma mensagem de email recente que você \<Display Name\> abriu...".
 
 > [!NOTE]
 > Atualmente, as campanhas de phishing de lança no Simulador de Ataques não expiram.
@@ -170,7 +170,7 @@ Se você vai usar um dos modelos integrados ou criar a mensagem de email diretam
 
 4. Na etapa **Destinatários de** destino, faça uma das seguintes etapas:
 
-   - Clique **em Livro de** Endereços para selecionar os destinatários (usuários ou grupos) da campanha. Cada destinatário direcionado deve ter uma caixa de correio do Exchange Online. Se você clicar **em Filtrar** **e Aplicar** sem inserir um critério de pesquisa, todos os destinatários serão retornados e adicionados à campanha.
+   - Clique **em Livro de** Endereços para selecionar os destinatários (usuários ou grupos) da campanha. Cada destinatário direcionado deve ter uma caixa Exchange Online caixa de correio. Se você clicar **em Filtrar** **e Aplicar** sem inserir um critério de pesquisa, todos os destinatários serão retornados e adicionados à campanha.
 
    - Clique **em Importar** e **Importar** Arquivo para importar um valor separado por vírgula (CSV) ou arquivo separado por linha de endereços de email. Cada linha deve conter o endereço de email do destinatário.
 
@@ -207,9 +207,9 @@ Se você vai usar um dos modelos integrados ou criar a mensagem de email diretam
      >
      > - Você deve selecionar uma URL. Para **campanhas de Phishing** de Lança (Anexo), você pode remover o link do corpo da mensagem na próxima etapa (caso contrário, a mensagem conterá um **link** e um anexo).
 
-   - **Tipo de** anexo : essa configuração só está disponível em campanhas **de Phishing de Lança (Anexo).** Clique na lista listada e selecione **. DOCX** ou **. PDF** da lista.
+   - **Tipo de** anexo : essa configuração só está disponível em campanhas **de Phishing de Lança (Anexo).** Clique na lista lista e selecione **.DOCX** ou **.PDF** na lista.
 
-   - **Nome do** anexo : essa configuração só está disponível em campanhas de Phishing de Lança **(Anexo).** Insira um nome de arquivo para o anexo .docx ou .pdf.
+   - **Nome do** anexo : essa configuração só está disponível em campanhas de Phishing de Lança **(Anexo).** Insira um nome de arquivo para o .docx ou .pdf anexo.
 
    - **URL da Página inicial personalizada**: insira uma página de aterrissagem opcional onde os usuários são levados se clicarem no link de phishing e inserirem suas credenciais. Este link substitui a página de aterrissagem padrão. Por exemplo, se você tiver treinamento de reconhecimento interno, poderá especificar essa URL aqui.
 
@@ -265,7 +265,7 @@ No Simulador de Ataques, dois tipos diferentes de campanhas de ataque de senha e
 
 4. Na etapa **Usuários de destino,** faça uma das seguintes etapas:
 
-   - Clique **em Livro de** Endereços para selecionar os destinatários (usuários ou grupos) da campanha. Cada destinatário direcionado deve ter uma caixa de correio do Exchange Online. Se você clicar **em Filtrar** **e Aplicar** sem inserir um critério de pesquisa, todos os destinatários serão retornados e adicionados à campanha.
+   - Clique **em Livro de** Endereços para selecionar os destinatários (usuários ou grupos) da campanha. Cada destinatário direcionado deve ter uma caixa Exchange Online caixa de correio. Se você clicar **em Filtrar** **e Aplicar** sem inserir um critério de pesquisa, todos os destinatários serão retornados e adicionados à campanha.
 
    - Clique **em Importar** e **Importar** Arquivo para importar um valor separado por vírgula (CSV) ou arquivo separado por linha de endereços de email. Cada linha deve conter o endereço de email do destinatário.
 
@@ -277,7 +277,7 @@ No Simulador de Ataques, dois tipos diferentes de campanhas de ataque de senha e
 
      - **Insira senhas manualmente**: Na caixa Pressionar **digite** para adicionar uma senha, digite uma senha e pressione ENTER. Repita essa etapa quantas vezes forem necessárias.
 
-     - **Carregar senhas de um arquivo de** dicionário : clique em **Carregar** para importar um arquivo de texto existente que contém uma senha em cada linha e uma última linha em branco. O arquivo de texto deve ter 10 MB ou menos de tamanho e não pode conter mais de 30.000 senhas.
+     - **Upload senhas** de um arquivo de  dicionário: clique em Upload para importar um arquivo de texto existente que contém uma senha em cada linha e uma última linha em branco. O arquivo de texto deve ter 10 MB ou menos de tamanho e não pode conter mais de 30.000 senhas.
 
    - **Ataque de pulverização de** senha : Em As senhas a ser **usadas na caixa de** ataque, insira uma senha.
 
@@ -335,7 +335,7 @@ As informações a seguir estão disponíveis na página **Detalhes de** ataque 
 
   - O endereço IP do cliente.
 
-  - Detalhes sobre a versão do usuário do Windows e do navegador da Web.
+  - Detalhes sobre a versão do usuário do Windows e navegador da Web.
 
   Você pode clicar **em Exportar** para exportar os resultados para um arquivo CSV.
 

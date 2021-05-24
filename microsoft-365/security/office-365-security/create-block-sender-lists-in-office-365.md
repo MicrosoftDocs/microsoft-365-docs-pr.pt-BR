@@ -11,15 +11,15 @@ ms.topic: how-to
 localization_priority: Normal
 search.appverid:
 - MET150s
-description: Os administradores podem aprender sobre as opções disponíveis e preferenciais para bloquear mensagens de entrada no Exchange Online Protection (EOP).
+description: Os administradores podem aprender sobre as opções disponíveis e preferenciais para bloquear mensagens de entrada no Proteção do Exchange Online (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fa2a5e0c71f14838dc8446431f5ea02a535fb787
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: c844378a19ba7995cbd616f615e8a84994f9bf26
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331449"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624072"
 ---
 # <a name="create-blocked-sender-lists-in-eop"></a>Criar listas de remetentes bloqueados no EOP
 
@@ -30,11 +30,11 @@ ms.locfileid: "52331449"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP oferece várias maneiras de bloquear emails de destinatários indesejados. Essas opções incluem Remetentes Bloqueados do Outlook, listas de remetentes bloqueados ou listas de domínios bloqueados em políticas anti-spam, regras de fluxo de emails do Exchange (também conhecidas como regras de transporte) e a Lista de Bloqueios de IP (filtragem de conexão). Coletivamente, você pode pensar nessas opções como listas _de remetentes bloqueados._
+Em organizações Microsoft 365 com caixas de correio em organizações Exchange Online ou autônomas Proteção do Exchange Online (EOP) sem Exchange Online caixas de correio, o EOP oferece várias maneiras de bloquear emails de destinatários indesejados. Essas opções incluem Outlook remetentes bloqueados, listas de remetentes bloqueados ou listas de domínios bloqueados em políticas anti-spam, Exchange regras de fluxo de emails (também conhecidas como regras de transporte) e a Lista de Bloqueios de IP (filtragem de conexão). Coletivamente, você pode pensar nessas opções como listas _de remetentes bloqueados._
 
-O melhor método para bloquear os envios varia no escopo do impacto. Para um único usuário, a solução certa pode ser o Outlook Blocked Senders. Para muitos usuários, uma das outras opções seria mais apropriada. As opções a seguir são classificadas pelo escopo de impacto e amplitude. A lista vai de estreita a ampla, mas *leia os detalhes para* recomendações completas.
+O melhor método para bloquear os envios varia no escopo do impacto. Para um único usuário, a solução certa pode ser enviar Outlook Bloqueados. Para muitos usuários, uma das outras opções seria mais apropriada. As opções a seguir são classificadas pelo escopo de impacto e amplitude. A lista vai de estreita a ampla, mas *leia os detalhes para* recomendações completas.
 
-1. Senders bloqueados do Outlook (a lista De envios bloqueados que é armazenada em cada caixa de correio)
+1. Outlook Senders bloqueados (a lista De envios bloqueados armazenada em cada caixa de correio)
 
 2. Listas de remetentes bloqueados ou listas de domínios bloqueados (políticas anti-spam)
 
@@ -57,9 +57,9 @@ Uma mensagem de email SMTP padrão consiste em um *envelope de mensagem* e conte
 
 Frequentemente, os `5321.MailFrom` `5322.From` endereços e são os mesmos (comunicação de pessoa para pessoa). No entanto, quando o email é enviado em nome de outra pessoa, os endereços podem ser diferentes.
 
-Listas de remetentes bloqueados e listas de domínios bloqueados em políticas anti-spam no EOP inspecionam os `5321.MailFrom` endereços e os `5322.From` endereços. O Outlook Blocked Senders usa apenas o `5322.From` endereço.
+Listas de remetentes bloqueados e listas de domínios bloqueados em políticas anti-spam no EOP inspecionam os `5321.MailFrom` endereços e os `5322.From` endereços. Outlook Remetentes bloqueados só usam o `5322.From` endereço.
 
-## <a name="use-outlook-blocked-senders"></a>Usar o Outlook Blocked Senders
+## <a name="use-outlook-blocked-senders"></a>Usar Outlook bloqueados
 
 Quando apenas um pequeno número de usuários recebeu emails indesejados, os usuários ou administradores podem adicionar os endereços de email do remetente à lista Remetentes Bloqueados na caixa de correio. Para obter instruções, consulte [Configure junk email settings on Exchange Online mailboxes](configure-junk-email-settings-on-exo-mailboxes.md).
 
@@ -78,7 +78,7 @@ O limite máximo para essas listas é de aproximadamente 1.000 entradas.
 
 Se você precisar bloquear mensagens enviadas a usuários específicos ou em toda a organização, poderá usar regras de fluxo de emails. As regras de fluxo de emails são mais flexíveis do que bloquear listas de remetentes ou listas de domínios de remetente bloqueados porque também podem procurar palavras-chave ou outras propriedades nas mensagens indesejadas.
 
-Independentemente das condições ou exceções que você usa para identificar as mensagens, configure a ação para definir o nível de confiança de spam (SCL) da mensagem como 9, o que marca a mensagem como **spam** de alta confiança. Para obter mais informações, [consulte Use mail flow rules to set the SCL in messages](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md).
+Independentemente das condições ou exceções que você usa para identificar as mensagens, configure a ação para definir o nível de confiança de spam (SCL) da mensagem como 9, o que marca a mensagem como **spam** de alta confiança. Para obter mais informações, [consulte Use mail flow rules to set the SCL in messages](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl).
 
 > [!IMPORTANT]
 > É fácil criar regras que sejam *muito* agressivas, portanto, é importante que você identifique apenas as mensagens que você deseja bloquear usando critérios muito específicos. Além disso, certifique-se de habilitar a auditoria na regra e testar os resultados da regra para garantir que tudo funcione conforme esperado.

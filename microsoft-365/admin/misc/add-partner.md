@@ -20,13 +20,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
-description: Saiba como adicionar um parceiro de consultor de assinatura como parceiro de registro no momento da compra Microsoft 365, alterar o parceiro ou excluir um parceiro de uma assinatura.
-ms.openlocfilehash: d45f9e3278b0a25cc5603d322c96f40eee45e6f8
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Adicione um parceiro de registro no momento da Microsoft 365, altere o parceiro ou exclua um parceiro de uma assinatura.
+ms.openlocfilehash: e21c324bc84e360b80deae2abeec610e73834819
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537470"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624520"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>Adicionar, mudar ou excluir um parceiro para assessoria de assinaturas
 
@@ -42,6 +42,8 @@ ms.locfileid: "52537470"
 Um parceiro autorizado da Microsoft que atua como parceiro para assessoria de assinaturas fornece a experiência técnica, de vendas e de suporte que você precisa para ajudar a configurar e manter sua assinatura. Você pode adicionar um parceiro de consultor de assinatura como parceiro de registro ao comprar Microsoft 365 ou em outro momento. Se você não estiver trabalhando com um parceiro no momento, também poderá encontrar um no site [do Microsoft Pinpoint.](https://pinpoint.microsoft.com)
 
 ::: moniker-end
+
+## <a name="before-you-begin"></a>Antes de começar
 
 ::: moniker range="o365-worldwide"
 
@@ -102,7 +104,7 @@ Siga as etapas na página provedores para pesquisar ou para obter uma combinaç�
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 2. Na guia **Produtos,** selecione a assinatura que você deseja editar.
 3. Na página detalhes da assinatura, em **Informações do parceiro,** digite a **ID da Rede de Parceiros.** Você pode obter a ID do Microsoft Partner Network do parceiro solicitando-a ao parceiro.
-4. Clique em **Adicionar**.
+4. Selecione **Adicionar**.
 
 ::: moniker-end
 
@@ -136,7 +138,7 @@ Para aceitar essa oferta
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 2. Na página detalhes das assinaturas, em **Informações do parceiro,** selecione **Remover**.
 3. Digite a **ID da Rede** de Parceiros da Microsoft para o novo parceiro. Você pode obter a ID de Parceiro da Microsoft, solicitando-a do parceiro.
-4. Clique em **Adicionar**.
+4. Selecione **Adicionar**.
   
 ::: moniker-end
 
@@ -218,6 +220,7 @@ Você terá que pedir ao parceiro revendedor para seguir estas instruções: [Re
   
 ::: moniker-end
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Encontre seu Microsoft 365 ou revendedor](../manage/find-your-partner-or-reseller.md)
+[Encontre seu Microsoft 365 ou revendedor](../manage/find-your-partner-or-reseller.md) (artigo)\
+[Planejar sua configuração de Microsoft 365 para empresas](../setup/plan-your-setup.md) (artigo)

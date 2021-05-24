@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 3e84c3266dd802fb6cab12db0c20773838b4e2a9
-ms.sourcegitcommit: b169f6ad3e44a7fcebf77f43be9eb5edd84ea5ef
+ms.openlocfilehash: 60b9577c2a42ef080fa6a734e0207225bf197cab
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52077184"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624264"
 ---
 # <a name="get-started-with-communication-compliance"></a>Introdução à conformidade de comunicação
 
@@ -202,7 +202,7 @@ Para obter mais informações sobre como configurar Yammer no Modo Nativo, consu
     - Escolha um campo de condição limitado, geralmente um tipo de informação confidenciais ou um dicionário de palavras-chave para aplicar à política.
 
     >[!NOTE]
-    >Se você quiser habilitar o reconhecimento óptico de [caracteres (OCR)](communication-compliance-feature-reference.md#optical-character-recognition-ocr-preview) para examinar imagens incorporadas ou anexadas em mensagens para texto impresso ou manuscrito que corresponder às condições da política, selecione Personalizar condições de política e porcentagem e habilitar Extrair texto impresso ou manuscrito de imagens para avaliação  >   . 
+    >Se você quiser habilitar o reconhecimento óptico de [caracteres (OCR)](communication-compliance-feature-reference.md#optical-character-recognition-ocr) para examinar imagens incorporadas ou anexadas em mensagens para texto impresso ou manuscrito que corresponder às condições da política, selecione Personalizar condições de política e porcentagem e habilitar Extrair texto impresso ou manuscrito de imagens para avaliação  >   . 
 
     Se você optar por usar o assistente de política para criar uma política personalizada, você irá:
 
@@ -222,7 +222,7 @@ Para obter mais informações sobre como configurar Yammer no Modo Nativo, consu
 
     - Escolha se você gostaria de habilitar classificadores. Os classificadores podem detectar idiomas e imagens inadequadas enviadas ou recebidas no corpo de mensagens de email ou outros tipos de texto. Você pode escolher os seguintes classificadores integrados: *Ameaça,* *Profanidade,* Assédio *direcionado,* Imagens de *adulto,* *imagens de reticência* e imagens *de Gory.*
 
-    - [Habilita o reconhecimento óptico de caracteres (OCR)](communication-compliance-feature-reference.md#optical-character-recognition-ocr-preview) para examinar imagens incorporadas ou anexadas em mensagens para texto impresso ou manuscrito que corresponder às condições da política. Para políticas personalizadas, uma ou mais configurações condicionais associadas a texto, palavras-chave, classificadores ou tipos de informações confidenciais devem ser configuradas na política para habilitar a seleção da verificação de reconhecimento óptico de caracteres.
+    - [Habilita o reconhecimento óptico de caracteres (OCR)](communication-compliance-feature-reference.md#optical-character-recognition-ocr) para examinar imagens incorporadas ou anexadas em mensagens para texto impresso ou manuscrito que corresponder às condições da política. Para políticas personalizadas, uma ou mais configurações condicionais associadas a texto, palavras-chave, classificadores ou tipos de informações confidenciais devem ser configuradas na política para habilitar a seleção da verificação de reconhecimento óptico de caracteres.
 
     - Defina a porcentagem das comunicações a analisar.
 

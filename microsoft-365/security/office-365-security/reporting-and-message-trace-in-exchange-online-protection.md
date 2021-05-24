@@ -15,12 +15,12 @@ ms.custom:
 description: Neste artigo, você aprenderá sobre relatórios e ferramentas de solução de problemas disponíveis para administradores Microsoft Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d5e5493925a17725bfb9d6698b3f94050960ccc7
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: ae55ded9d907754161813c9f7bfa7eeb14c558a8
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203054"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625024"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>Rastreamento de relatórios e mensagens no EOP
 
@@ -31,11 +31,11 @@ ms.locfileid: "51203054"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP oferece muitos relatórios diferentes que podem ajudá-lo a determinar o status geral e a saúde da sua organização. Existem também ferramentas que ajudam você a solucionar problemas com eventos específicos (tais como uma mensagem que não chega aos destinatários pretendidos), e relatórios de auditoria para ajudar nos requisitos de conformidade.
+Em organizações Microsoft 365 com caixas de correio em organizações Exchange Online ou autônomas do Proteção do Exchange Online (EOP) sem caixas de correio Exchange Online, o EOP oferece muitos relatórios diferentes que podem ajudá-lo a determinar o status geral e a saúde da sua organização. Existem também ferramentas que ajudam você a solucionar problemas com eventos específicos (tais como uma mensagem que não chega aos destinatários pretendidos), e relatórios de auditoria para ajudar nos requisitos de conformidade.
 
 ## <a name="usage-reports"></a>Relatórios de uso
 
-**Atividade de grupos do Microsoft 365**: Exibir informações sobre o número de grupos do Microsoft 365 criados e usados.
+**Microsoft 365 de grupos**: Exibir informações sobre o número de grupos Microsoft 365 que são criados e usados.
 
 **Atividade de email**: Exibir informações sobre o número de mensagens enviadas, recebidas e lidas em toda a organização e por usuários específicos.
 
@@ -45,19 +45,19 @@ Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou 
 
 Veja os seguintes recursos para obter mais informações:
 
-- [Relatórios do Microsoft 365 no centro de administração - grupos do Microsoft 365](../../admin/activity-reports/office-365-groups.md)
+- [Microsoft 365 Relatórios no centro de administração - Microsoft 365 grupos](../../admin/activity-reports/office-365-groups.md)
 
-- [Relatórios do Microsoft 365 no centro de administração - Atividade de email](../../admin/activity-reports/email-activity.md)
+- [Microsoft 365 Relatórios no centro de administração - Atividade de email](../../admin/activity-reports/email-activity.md)
 
-- [Relatórios do Microsoft 365 no centro de administração - Uso de aplicativos de email](../../admin/activity-reports/email-apps-usage.md)
+- [Microsoft 365 Relatórios no centro de administração - Uso de aplicativos de email](../../admin/activity-reports/email-apps-usage.md)
 
-- [Relatórios do Microsoft 365 no centro de administração - Uso da caixa de correio](../../admin/activity-reports/mailbox-usage.md)
+- [Microsoft 365 Relatórios no centro de administração - Uso da caixa de correio](../../admin/activity-reports/mailbox-usage.md)
 
-## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Relatórios & conformidade de segurança no centro de administração do Microsoft 365
+## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Relatórios & de conformidade de segurança no Microsoft 365 de administração
 
 Esses relatórios aprimorados fornecem uma experiência interativa de relatórios para os administradores do EOP, que inclui informações resumidas e a capacidade de detalhar para obter mais detalhes.
 
-**Defender for Office 365**: Exibir informações sobre Links Seguros e Anexos Seguros que fazem parte do Microsoft Defender para Office 365.
+**Defender for Office 365**: Exibir informações sobre Cofre Links e Cofre anexos que fazem parte do Microsoft Defender para Office 365.
 
 **EOP**: Exibir informações sobre detecções de malware, emails empoados, detecções de spam e fluxo de emails de e para sua organização.
 
@@ -65,7 +65,7 @@ Esses relatórios aprimorados fornecem uma experiência interativa de relatório
 
 ## <a name="custom-reports-using-microsoft-graph"></a>Relatórios personalizados usando o Microsoft Graph
 
-Crie relatórios programaticamente disponíveis no centro de administração usando o Microsoft Graph. Para obter mais informações, consulte [Overview of Microsoft Graph](/graph/overview) and Working with Office [365 usage reports in Microsoft Graph](/graph/api/resources/report).
+Crie relatórios programaticamente disponíveis no centro de administração usando o Microsoft Graph. Para obter mais informações, consulte [Overview of Microsoft Graph](/graph/overview) and Working with Office 365 usage reports in Microsoft [Graph](/graph/api/resources/report).
 
 ## <a name="message-trace"></a>Rastreamento de mensagens
 
@@ -77,7 +77,7 @@ Consulte [Rastreamento de mensagens no Centro de Conformidade & segurança.](mes
 
 ## <a name="audit-logging"></a>Registro em log de auditoria
 
-Rastreie alterações específica feitas pelos administradores na sua organização. Estes relatórios ajudam você a solucionar problemas de configuração ou a encontrar a causa de problemas relacionados à conformidade ou à segurança. Consulte [Relatórios de auditoria no EOP](auditing-reports-in-eop.md).
+Rastreie alterações específica feitas pelos administradores na sua organização. Estes relatórios ajudam você a solucionar problemas de configuração ou a encontrar a causa de problemas relacionados à conformidade ou à segurança. Consulte [Relatórios de auditoria em Exchange Online](/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports).
 
 ## <a name="reporting-and-message-trace-data-availability-and-latency"></a>Disponibilidade e latência de dados de relatórios e rastreamento de mensagens
 

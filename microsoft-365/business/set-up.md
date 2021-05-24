@@ -30,14 +30,16 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Descubra as etapas de instalação para Microsoft 365 Business Premium, incluindo adicionar um domínio e usuários, configurar políticas de segurança e muito mais.
-ms.openlocfilehash: 37607b483686fc12ac6253ae9f693ec86c073c4e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 3e15f16db2a233d2e11d444600398102b075932d
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245035"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624380"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Configurar Microsoft 365 Business Premium no assistente de configuração
+
+## <a name="watch-overview-of-microsoft-365-setup"></a>Assista: Visão geral da Microsoft 365 configuração
 
 Assista a este vídeo para ver uma visão geral Microsoft 365 Business Premium configuração.<br><br>
 
@@ -62,7 +64,7 @@ Ao comprar Microsoft 365 Business Premium, você tem a opção de usar um domín
 4. Na etapa **Adicionar domínio**, digite o nome do domínio que você deseja usar (como contoso.com).
 
     > [!IMPORTANT]
-    > Se você comprou um domínio durante a inscrição, não verá a etapa **Adicionar um domínio** aqui. Em vez disso, acesse [Adicionar usuários](#add-users-and-assign-licenses).
+    > Se você comprou um domínio durante a inscrição, não verá a etapa **Adicionar um domínio** aqui. Vá para [Adicionar usuários](#add-users-and-assign-licenses) em vez disso.
 
     ![Captura de tela da página Personalizar sua assinatura.](../media/adddomain.png)
 
@@ -85,7 +87,7 @@ Todos os usuários que você adicionar no assistente receberão automaticamente 
 
 1. Se sua assinatura Microsoft 365 Business Premium tiver usuários existentes (por exemplo, se você usou o Azure AD Conexão), você terá a opção de atribuir licenças a eles agora. Também adicione licenças para eles.
 
-2. Depois de adicionar os usuários, você também terá a opção de compartilhar credenciais com os novos usuários adicionados. Você pode optar por imprimi-las, enviá-las por email ou baixá-las.
+2. Depois de adicionar os usuários, você também terá uma opção para compartilhar as credenciais com os novos usuários adicionados. Você pode optar por imprimi-las, enviá-las por email ou baixá-las.
 
 ### <a name="connect-your-domain"></a>Conectar seu domínio
 
@@ -97,7 +99,7 @@ Para configurar serviços, você deve atualizar alguns registros no registrador 
 1. O assistente de configuração normalmente detecta o registrador e proporciona um link para as instruções passo a passo para atualizar seus registros NS no site do registrador. Caso não seja, [altere os nameservers](../admin/get-help-with-domains/change-nameservers-at-any-domain-registrar.md)para configurar Microsoft 365 com qualquer registrador de domínios. 
 
     - Se você possui registros DNS existentes, por exemplo, um site existente, mas seu organizador DNS está ativado para [conexão com o domínio](/office365/admin/get-help-with-domains/domain-connect), clique em **Adicionar registros para mim**. Na página **Escolha seus serviços on-line**, aceite todos os padrões, clique em **Avançar** e clique em **Autorizar** na página do organizador DNS.
-    - Se você possui registros DNS existentes com outros organizadores DNS (não habilitados para conexão ao domínio), convém gerenciar seus próprios registros DNS para garantir que os serviços existentes fiquem conectados. Consulte [noções básicas de domínio](/office365/admin/get-help-with-domains/dns-basics) para obter mais informações.
+    - Se você tiver registros DNS existentes com outros hosts DNS (não habilitados para conexão de domínio), você irá desejar gerenciar seus próprios registros DNS para garantir que os serviços existentes fiquem conectados. Veja [domínios básicos](/office365/admin/get-help-with-domains/dns-basics) para mais informações.
 
         ![Ativar a página de registros.](../media/activaterecords.png)
 
@@ -131,6 +133,6 @@ Para instalar Office em dispositivos móveis iOS ou Android, consulte Configurar
 
 Você também pode instalar Office individualmente. Consulte [install Office on a PC or Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) para obter instruções.
 
-## <a name="see-also"></a>Confira também
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Vídeos de treinamento do Microsoft 365 Business ](../business-video/index.yml)
+[Microsoft 365 para vídeos de treinamento empresarial](../business-video/index.yml) (página de link)

@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender sobre as diferentes maneiras de relatar mensagens e arquivos bons e ruins à Microsoft para análise.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8c87938a8716da36f027300d685f0caedcf69660
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: d7534d5d88fe19fba39ac1ebef16c72cac25cae7
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52291122"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625036"
 ---
 # <a name="report-messages-and-files-to-microsoft"></a>Relatar mensagens e arquivos à Microsoft
 
@@ -35,6 +35,8 @@ ms.locfileid: "52291122"
 
 Em organizações Microsoft 365 com caixas de correio em organizações Exchange Online ou autônomas do Proteção do Exchange Online (EOP) sem caixas de correio Exchange Online, usuários e administradores têm vários métodos diferentes para relatar mensagens de email e arquivos à Microsoft.
 
+<br>
+
 ****
 
 |Método|Descrição|
@@ -43,8 +45,9 @@ Em organizações Microsoft 365 com caixas de correio em organizações Exchange
 |[Habilitar a Mensagem de Relatório ou os complementos de Phishing de Relatório](enable-the-report-message-add-in.md)|Funciona com Outlook e Outlook na Web (anteriormente conhecido como Outlook Web App). <p> Dependendo da sua assinatura, as mensagens relatadas pelos usuários com os complementos estão disponíveis no [portal Envios](admin-submission.md)de Administrador, resultados de investigação e resposta [automatizadas (AIR),](air-view-investigation-results.md)no relatório de mensagens relatadas pelo usuário [e](view-email-security-reports.md#user-reported-messages-report)no [Explorador](threat-explorer-views.md#email--submissions)de Ameaças. <p> Você pode configurar mensagens relatadas a serem copiadas ou redirecionadas para uma caixa de correio especificada. Para obter mais informações, consulte [Políticas de envios de usuário](user-submission.md).
 |[Relatar falsos positivos e falsos negativos para Outlook](report-false-positives-and-false-negatives.md)|Envie falsos positivos (bons emails bloqueados ou enviados para a pasta lixo eletrônico) e falsos negativos (emails indesejados ou phishing que foram entregues à caixa de entrada) para Proteção do Exchange Online (EOP) usando o recurso Mensagem de Relatório.|
 |[Enviar mensagens manualmente à Microsoft para análise](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)|Envie mensagens anexadas manualmente para endereços de email específicos da Microsoft para spam, não spam e phishing.|
-|[Usar regras de fluxo de emails para ver o que seus usuários estão relatando à Microsoft](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)|Saiba como criar uma regra de fluxo de emails (também conhecida como regra de transporte) que o notifica quando os usuários relatam mensagens à Microsoft para análise.|
+|[Usar regras de fluxo de emails para ver o que os usuários estão relatando para a Microsoft](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-see-what-users-are-reporting-to-microsoft)|Saiba como criar uma regra de fluxo de emails (também conhecida como regra de transporte) que o notifica quando os usuários relatam mensagens à Microsoft para análise.|
 |[Enviar malware e não malware à Microsoft para análise](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)|Use o Inteligência de Segurança da Microsoft site para enviar anexos e outros arquivos.|
+|
 
 Se as mensagens de spam ou phishing foram colocadas em quarentena em vez de entregues, os usuários poderão relatar as mensagens à Microsoft do portal de quarentena no Centro de Conformidade & Segurança. Para obter detalhes, [consulte Find and release quarantined messages as a user in Microsoft 365](find-and-release-quarantined-messages-as-a-user.md).
 

@@ -21,13 +21,13 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Saiba como mover sua empresa para Microsoft 365 Business Premium do Office 365 E3.
-ms.openlocfilehash: 990ca8bdae979f1efb8a60a3460add2953a51892
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+description: Se você tiver uma assinatura Office 365 E3, mas não tiver mais de 300 funcionários, considere alternar para Microsoft 365 Business Premium.
+ms.openlocfilehash: d139d07c946ff3efed3db3a73eb5e1a4ae66c190
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327161"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623596"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Migrando do Office 365 E3 para Microsoft 365 Business Premium
 
@@ -42,7 +42,7 @@ Esta tabela mostra as diferenças entre Microsoft 365 Business Premium e Office 
 | Recurso    | Suporte em Microsoft 365 Business Premium    | Suporte no Office 365 E3 |
 |:-------|:-----|:-----|
 | **No local**        | | |
-| Office apps<sup>1</sup>    | Microsoft 365 Apps para Pequenos e Médios negócios    | Microsoft 365 Apps para empresas |
+| Office apps<sup>1</sup>    | Microsoft 365 Apps para Pequenos e Médios negócios    | Microsoft 365 Apps para Grandes Empresas |
 | **Aplicativos de produtividade na nuvem**        | | |
 | Exchange Online e Outlook    | Limite de armazenamento de 50 GB por caixa de correio e limites ilimitados Arquivamento do Exchange Online    | Limite de armazenamento de 100 GB por caixa de correio e limites ilimitados Arquivamento do Exchange Online |
 | Teams    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Office 365 E3](../media/check-mark.png) | 
@@ -125,3 +125,12 @@ Depois de migrar para Microsoft 365 Business Premium, você terá o Defender par
 ### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 
 Para começar a usar rótulos de sensibilidade, consulte [Visão geral dos](../compliance/sensitivity-labels.md) rótulos de sensibilidade e crie e gerencie o vídeo de [rótulos de sensibilidade.](../business-video/create-sensitivity-labels.md)
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Alterar planos manualmente](../commerce/subscriptions/change-plans-manually.md) (artigo)\
+[Atualizar Windows dispositivos para Windows 10 Pro](upgrade-to-windows-pro-creators-update.md) (vídeo)\
+[Definir configurações de proteção de aplicativos para dispositivos Android ou iOS](app-protection-settings-for-android-and-ios.md) (artigo)\
+[Definir ou editar configurações de proteção de aplicativo para Windows 10 dispositivos](protection-settings-for-windows-10-devices.md) (artigo)\
+[]
+

@@ -20,12 +20,12 @@ ms.collection:
 description: Os administradores podem aprender sobre o recurso Cofre anexos no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ab3fd89c02186dfbdb6c9a3d754a4902d8b945f8
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: cc5fabf7b0bb4a649aeb7c4e09155037fc09e9f9
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246375"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625000"
 ---
 # <a name="safe-attachments-in-microsoft-defender-for-office-365"></a>Cofre Anexos no Microsoft Defender para Office 365
 
@@ -124,7 +124,7 @@ Há cenários em que a Entrega Dinâmica não pode substituir anexos em mensagen
 - Mensagens excluídas.
 - A pasta de pesquisa de caixa de correio do usuário está em estado de erro.
 - Exchange Online organizações onde o Exclamador está habilitado. Para resolver esse problema, consulte [KB4014438](https://support.microsoft.com/help/4014438).
-- [S/MIME)](s-mime-for-message-signing-and-encryption.md) mensagens criptografadas.
+- [S/MIME)](/exchange/security-and-compliance/smime-exo/smime-exo) mensagens criptografadas.
 - Você configurou a ação Entrega Dinâmica em uma política de Cofre Anexos, mas o destinatário não dá suporte à Entrega Dinâmica (por exemplo, o destinatário é uma caixa de correio em uma organização Exchange local). No entanto, Cofre links no [Microsoft Defender para Office 365](set-up-safe-links-policies.md) é capaz de verificar anexos de arquivo Office que contêm URLs (dependendo de como as configurações globais para links Cofre [estão](configure-global-settings-for-safe-links.md) configuradas).
 
 ## <a name="submitting-files-for-malware-analysis"></a>Enviando arquivos para análise de malware

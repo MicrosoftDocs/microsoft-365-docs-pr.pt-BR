@@ -22,13 +22,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
-description: Saiba como restaurar contas de usuário excluídas e todos os dados associados.
-ms.openlocfilehash: b7d98c1f49f8252ea9fdda2d863b5b77ac5bea9d
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+description: Dentro de 30 dias após a exclusão de uma conta de usuário, você pode restaurar a conta e todos os dados, e o usuário pode entrar com a mesma conta.
+ms.openlocfilehash: 83852136ee22ab3f63d8ada6a5a7290883c392e5
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52291062"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623816"
 ---
 # <a name="restore-a-user"></a>Restaurar um usuário
    
@@ -91,6 +91,8 @@ Você deve ter [permissões de](about-admin-roles.md) administrador Microsoft 36
     
 4. Examine os resultados e selecione **Fechar**.
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Excluir um usuário](delete-a-user.md)
+[Excluir um usuário](delete-a-user.md) (artigo)\
+[Atribuir funções de administrador](assign-admin-roles.md) (vídeo)\
+[Atribuir licenças aos usuários](../manage/assign-licenses-to-users.md) (artigo)

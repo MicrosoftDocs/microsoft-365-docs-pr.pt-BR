@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Configure rótulos de confidencialidade para criptografia que protege seus dados restringindo o acesso e o uso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 804cfa9da39b5dc9b9dffdcd68fb196e8676f9af
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: f6fff2bc595e9317ef037929a8a6828935b15bbf
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52532081"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624676"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia
 
@@ -427,6 +427,10 @@ Antes de usar a criptografia, talvez seja necessário realizar algumas tarefas d
 - Ativar a proteção da Proteção de Informações do Azure
     
     Para que os rótulos de confidencialidade apliquem a criptografia, o serviço de proteção (Azure Rights Management) da Proteção de Informações do Aure devem ser ativado para seu locatário. Em locatários mais recentes, essa é a configuração padrão, mas talvez seja necessário ativar o serviço manualmente. Para saber mais, confira [Ativar o serviço de proteção da Proteção de Informações do Azure](/azure/information-protection/activate-service).
+
+- Verificar os requisitos de rede
+    
+    Pode ser necessário fazer algumas alterações em seus dispositivos de rede, como firewalls. Para obter detalhes, confira [Firewalls e infraestrutura de rede](/azure/information-protection/requirements#firewalls-and-network-infrastructure) na documentação da Proteção de Informações do Azure.
 
 - Configurar o Exchange para a Proteção de Informações do Azure
     

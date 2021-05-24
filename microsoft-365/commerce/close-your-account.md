@@ -18,14 +18,14 @@ ms.custom:
 - fwlink 2133922 to Delete subscription heading
 - commerce_subscription
 search.appverid: MET150
-description: Saiba como fechar sua conta com a Microsoft.
+description: Quando você fecha sua conta com a Microsoft, todas as informações relacionadas à sua conta são excluídas, incluindo licenças, usuários e dados do usuário.
 ms.date: 04/02/2021
-ms.openlocfilehash: ed73c191063a328490945c54dc2f5101c88f17e8
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: b212911707b5d6a967ab833a5a06bc76f5ceeb3b
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537290"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624320"
 ---
 # <a name="close-your-account"></a>Fechar sua conta
 
@@ -53,7 +53,7 @@ Se sua organização usa o Active Directory que sincroniza com o Microsoft Azure
 
 1. No centro de administração, acesse a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 2. Na guia **Produtos,** encontre uma assinatura ativa. Selecione os três pontos (mais ações) e selecione **Cancelar assinatura**.
-3. No painel **Cancelar assinatura**, escolha um motivo pelo qual você está cancelando. Opcionalmente, forneça qualquer comentário.
+3. No painel **Cancelar assinatura**, escolha um motivo pelo qual você está cancelando. Se optar, forneça comentários.
 4. Selecione **Salvar**.
 5. Repita as etapas de 1 a 4 para cancelar todas as assinaturas ativas.
 
@@ -88,3 +88,9 @@ Você também pode [usar o PowerShell para desabilitar a autenticação multifa 
 5. Se sua organização falhar em uma ou mais verificações, você verá um link para mais informações sobre como passar as verificações. Depois de passar todas as verificações, selecione **Excluir** para concluir o processo.
 
 Depois de concluir essa etapa final, sua conta com a Microsoft será fechada e excluída.
+
+## <a name="related-content"></a>Conteúdo relacionado 
+
+[Entenda sua fatura ou fatura para Microsoft 365 para empresas](./billing-and-payments/understand-your-invoice2.md) (artigo)\
+[Cancelar sua assinatura](./subscriptions/cancel-your-subscription.md) (artigo)
+

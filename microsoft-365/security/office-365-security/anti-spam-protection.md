@@ -21,12 +21,12 @@ ms.custom:
 description: Os administradores podem aprender sobre as configurações e filtros anti-spam que ajudarão a evitar spam no Proteção do Exchange Online (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e6a4113925956c67e80a5239b8f9823acaf7f75b
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 52e891a86e75309dadd445736738a3f25584823e
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538310"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624856"
 ---
 # <a name="anti-spam-protection-in-eop"></a>Proteção anti-spam no EOP
 
@@ -60,7 +60,7 @@ As configurações anti-spam no EOP são feitas das seguintes tecnologias:
 - **Filtragem de** spam (filtragem de conteúdo) : O EOP usa os vereditos de filtragem de spam **Spam,** **spam** de alta **confiança,** email em massa, email de **phishing** e email de **phishing** de alta confiança para classificar mensagens. Você pode configurar as ações a tomar com base nesses vereditos e pode configurar as opções de notificação do usuário final para mensagens que foram colocadas em quarentena em vez de entregues. Para obter mais informações, consulte [Configure anti-spam policies in Microsoft 365](configure-your-spam-filter-policies.md).
 
   > [!NOTE]
-  > Por padrão, a filtragem de spam é configurada para enviar mensagens marcadas como spam para a pasta Lixo Eletrônico do destinatário. No entanto, em ambientes híbridos em que o EOP protege caixas de correio locais Exchange, você precisa configurar duas regras de fluxo de emails (também conhecidas como regras de transporte) em sua organização local Exchange para reconhecer os headers de spam do EOP adicionados às mensagens. Para obter detalhes, confira [Configurar a EOP autônoma para enviar spam à pasta Lixo Eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
+  > Por padrão, a filtragem de spam é configurada para enviar mensagens marcadas como spam para a pasta Lixo Eletrônico do destinatário. No entanto, em ambientes híbridos em que o EOP protege caixas de correio locais Exchange, você precisa configurar duas regras de fluxo de emails (também conhecidas como regras de transporte) em sua organização local Exchange para reconhecer os headers de spam do EOP adicionados às mensagens. Para obter detalhes, [consulte Configure EOP to deliver spam to the Junk Email folder in hybrid environments](/exchange/standalone-eop/configure-eop-spam-protection-hybrid).
 
 - **Filtragem de spam** de saída : O EOP também verifica se os usuários não enviam spam, seja no conteúdo da mensagem de saída ou excedendo os limites de mensagem de saída. Para obter mais informações, consulte [Configure outbound spam filtering in Microsoft 365](configure-the-outbound-spam-policy.md).
 
@@ -100,7 +100,7 @@ Aqui estão algumas práticas recomendadas que se aplicam a qualquer cenário:
 
 - **Cancelar assinatura de email em massa** Se a mensagem foi algo para o que o usuário se inscreveu (boletins informativos, comunicados de produto, etc.) e contém um link de cancelamento de assinatura de uma fonte confiável, considere pedir que eles simplesmente cancelem a assinatura.
 
-- EOP autônomo: crie regras de fluxo de emails no Exchange local para vereditos de filtragem de spam do EOP : em ambientes EOP autônomos onde o EOP protege caixas de correio locais Exchange, você precisa configurar regras de fluxo de emails (também **conhecidas** como regras de transporte) no Exchange local para traduzir o veredito de filtragem de spam do EOP para que a regra de lixo eletrônico possa mover a mensagem para a pasta Lixo Eletrônico. Para obter detalhes, confira [Configurar a EOP autônoma para enviar spam à pasta Lixo Eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
+- EOP autônomo: crie regras de fluxo de emails no Exchange local para vereditos de filtragem de spam do **EOP**: em ambientes EOP onde o EOP protege caixas de correio locais do Exchange, você precisa configurar regras de fluxo de emails (também conhecidas como regras de transporte) no Exchange local para traduzir o veredito de filtragem de spam do EOP para que a regra de lixo eletrônico possa mover a mensagem para a pasta Lixo Eletrônico. Para obter detalhes, [consulte Configure EOP to deliver spam to the Junk Email folder in hybrid environments](/exchange/standalone-eop/configure-eop-spam-protection-hybrid).
 
 ### <a name="prevent-good-email-from-being-identified-as-spam"></a>Impedir que um bom email seja identificado como spam
 
@@ -118,7 +118,7 @@ Aqui estão algumas etapas que você pode seguir para ajudar a evitar falsos pos
 
 - **Verifique se os usuários estão dentro dos** limites de envio e recebimento, conforme descrito em [Recebimento](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits) e envio de limites Exchange Online de serviço.
 
-- **EOP autônomo:** use a sincronização de diretórios : se você usar o EOP autônomo para ajudar a proteger sua organização Exchange local, você deve sincronizar as configurações do usuário com o serviço usando a sincronização de diretórios. Isso garante que as listas de Remetentes confiáveis dos seus usuários sejam respeitadas pelo EOP. Para obter mais informações, consulte [Usar a sincronização de diretório para gerenciar usuários de e-mail](manage-mail-users-in-eop.md#use-directory-synchronization-to-manage-mail-users).
+- **EOP autônomo:** use a sincronização de diretórios : se você usar o EOP autônomo para ajudar a proteger sua organização Exchange local, você deve sincronizar as configurações do usuário com o serviço usando a sincronização de diretórios. Isso garante que as listas de Remetentes confiáveis dos seus usuários sejam respeitadas pelo EOP. Para obter mais informações, consulte [Usar a sincronização de diretório para gerenciar usuários de e-mail](/exchange/standalone-eop/manage-mail-users-in-eop#synchronize-directories-with-azure-active-directory-connect-aad-connect).
 
 ## <a name="anti-spam-legislation"></a>Legislação anti-spam
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Aprenda a usar o recurso de email piloto do meu domínio personalizado para uma caixa de correio do Microsoft 365 usando apenas duas contas de teste.
-ms.openlocfilehash: bdcf86474a7f2edb458075e884c20e56d231df6d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: b2017da30aba3b48b51de26b7907167dc5dd3e6e
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197834"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623640"
 ---
 # <a name="pilot-microsoft-365-from-my-custom-domain"></a>Piloto do Microsoft 365 a partir do meu domínio personalizado
 
@@ -60,7 +60,7 @@ Siga estas etapas para configurar um piloto do Microsoft 365:
 
 3. Selecione os serviços que você deseja testar com seu domínio, como email e mensagens instantâneas.
 
-5. Na página **Verificar domínio**, siga as instruções passo a passo e selecione **Verificar**.
+4. Na página **Verificar domínio**, siga as instruções passo a passo e selecione **Verificar**.
 
     Leva entre alguns minutos e até 72 horas para que as alterações de DNS entrem em vigor.
 
@@ -70,7 +70,7 @@ Siga estas etapas para configurar um piloto do Microsoft 365:
 
 1. No centro de administração do Exchange, na seção **Fluxo de emails**, selecione **Domínios aceitos** e, em seguida, selecione o domínio que você deseja modificar.
 
-2. Clique duas vezes para abrir a janela e selecione **Retransmissão Interna**. 
+2. Clique duas vezes para abrir a janela e selecione **Retransmissão Interna**.
 
 3. Selecione **Salvar**.
 
@@ -81,11 +81,11 @@ Siga estas etapas para configurar um piloto do Microsoft 365:
 O Microsoft 365 usa a Proteção do Exchange Online (EOP) para a proteção contra spam. A EOP poderá bloquear o seu servidor de email existente se detectar um alto volume de spam sendo encaminhado pelo seu servidor de email atual. Se você confiar na proteção contra spam do seu outro provedor de email, poderá desbloquear o servidor no Microsoft 365.
 
 > [!NOTE]
-> Desbloquear o seu servidor de email existente permite que qualquer spam recebido pelo seu servidor original chegue nas caixas de correio do Microsoft 365. Assim, você não poderá avaliar o quão bem a Microsoft 365 evita spam.
+> Desbloquear seu servidor de email existente permite que qualquer spam que chegue através de seu servidor original chegue às caixas de correio do Microsoft 365, e você não pode avaliar o quão bem o Microsoft 365 evita spam.
 
 1. No painel de navegação do centro de administração do Exchange, selecione **Proteção** e, em seguida, selecione **Filtro de conexão**.
 
-2. Na **Lista de IP Permitidos**, selecione **+** e adicione o endereço IP do servidor de email do seu provedor de email atual. 
+2. Na **Lista de IP Permitidos**, selecione **+** e adicione o endereço IP do servidor de email do seu provedor de email atual.
 
 ### <a name="step-5-create-user-accounts-and-set-the-primary-reply-to-address"></a>Etapa 5: Crie contas de usuário e defina o endereço principal para resposta 
 
@@ -95,11 +95,11 @@ O Microsoft 365 usa a Proteção do Exchange Online (EOP) para a proteção cont
 
     Para cada conta, selecione **+ Adicionar um usuário** e preencha as informações necessárias, incluindo o método de senha que você deseja testar.
 
-    Para garantir que o email de um usuário permaneça o mesmo, o campo **Nome de usuário** deve corresponder ao endereço de email atual do usuário.
+    Para garantir que o email de um usuário permaneça o mesmo, o campo **Nome do usuário** deve corresponder ao endereço de email atual do usuário.
 
-3. Escolha a licença apropriada, clique em **Avançar** e clique em **Terminar de adicionar**. 
+3. Escolha a licença apropriada, clique em **Avançar** e clique em **Terminar de adicionar**.
 
-4. Ao lado de **Nome de usuário**, selecione seu nome de domínio personalizado na lista suspensa. 
+4. Ao lado de **Nome de usuário**, selecione seu nome de domínio personalizado na lista suspensa.
 
 5. Selecione **Criar** > **Fechar**.
 
@@ -115,7 +115,7 @@ Há duas etapas a seguir:
 
 Verifique se você concluiu o seguinte no Microsoft 365 ou no Office 365:
 
-1. Para configurar conectores, você precisa ter permissões atribuídas antes de começar. Para verificar quais são as permissões necessárias, confira a entrada dos conectores do Microsoft 365 e do Office 365 no tópico [Permissões de recurso na EOP](https://docs.microsoft.com/microsoft-365/security/office-365-security/feature-permissions-in-eop).
+1. Para configurar conectores, você precisa ter permissões atribuídas antes de começar. Para verificar de quais permissões você precisa, confira a entrada de Conectores do Office 365 e Microsoft 365 no tópico [Permissões de recursos no Exchange Online](/exchange/permissions-exo/feature-permissions).
 
 2. Se você quiser que a EOP ou o Exchange Online façam a retransmissão de email de seus servidores de email para a Internet:
 
@@ -156,7 +156,7 @@ Entre no site do seu provedor de hospedagem DNS e siga as instruções em [Adici
 
     Por exemplo, "v=spf1 mx include:adatum.com include:spf.protection.outlook.com ~all".
 
-    Se você não tiver um registro SPF, modifique o recomendado pela Microsoft 365 para incluir o domínio do seu provedor de email atual e, então, adicione spf.protection.outlook.com. Isso autoriza as mensagens de saída de ambos os sistemas de email.
+    Se você não tiver um registro SPF, modifique aquele recomendado pela Microsoft 365 para incluir o domínio do seu provedor de email atual e adicione spf.protection.outlook.com. Isso autoriza mensagens de saída de ambos os sistemas de email.
 
 ### <a name="step-8-set-up-email-forwarding-at-your-current-provider"></a>Etapa 8: Configure o encaminhamento de email em seu provedor atual
 
@@ -189,4 +189,4 @@ Quando você concluir esta etapa, todos os emails enviados para usera@yourcompan
 
 Como você está movendo apenas dois usuários de teste, e o usuário A e o usuário B estão usando o Outlook, você pode mover o email abrindo o arquivo .PST antigo no novo perfil do Outlook e copiar as mensagens, os itens do calendário, os contatos e assim por diante. Para obter mais informações, confira [Importar emails, contatos e calendário de um arquivo .pst do Outlook](https://support.microsoft.com/office/import-email-contacts-and-calendar-from-an-outlook-pst-file-431a8e9a-f99f-4d5f-ae48-ded54b3440ac).
 
-Depois de importá-los para os locais apropriados na caixa de correio do Microsoft 365, os itens podem ser acessados em qualquer dispositivo, em qualquer lugar.
+Depois de importados para os locais apropriados na caixa de correio do Microsoft 365, os itens podem ser acessados ​​de qualquer dispositivo, em qualquer lugar.

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre funciona a retenção para o SharePoint e o OneDrive.
-ms.openlocfilehash: 448f3e8e2ab827527b02263fea2b07de4b345dc1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 90e94f4ff94b65860890ab65b451107d1d02963f
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919767"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625240"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>Saiba mais sobre retenção para o SharePoint e o OneDrive
 
@@ -72,14 +72,12 @@ Para reter este conteúdo quando um usuário tenta alterá-lo ou excluí-lo, é 
   
 Um trabalho do temporizador limpa periodicamente a Biblioteca de Retenção para Preservação. Para o conteúdo que estiver na biblioteca de Retenção para Preservação por mais de 30 dias, esse trabalho compara o conteúdo a todas as consultas usadas pelas configurações de retenção para aquele conteúdo. O conteúdo anterior ao período de retenção configurado é excluído da biblioteca de Retenção para Preservação e do local original, se ainda estiver lá. Esse trabalho de temporizador é executado a cada sete dias, o que significa que, juntamente com o mínimo de 30 dias, pode levar até 37 dias para que o conteúdo seja excluído da biblioteca de Retenção para Preservação.
 
-Embora os arquivos sejam mantidos na biblioteca de Retenção para preservação, os administradores não poderão excluir o site do SharePoint ou a conta do OneDrive do conteúdo.
-
 Esse comportamento de copiar arquivos para a biblioteca de Retenção para preservação aplica-se ao conteúdo existente quando as configurações de retenção forem aplicadas. Além disso, para políticas de retenção, qualquer novo conteúdo criado ou adicionado ao site depois que ele foi incluído na política será mantido na biblioteca de Retenção para Preservação. Entretanto, o novo conteúdo não será copiado para a Biblioteca de Retenção para Preservação na primeira vez em que for editado, somente quando for excluído. Para manter todas as versões de um arquivo, você deve ativar o [controle de versão](#how-retention-works-with-document-versions).
   
 Os usuários verão uma mensagem de erro se tentarem excluir uma biblioteca, lista, pasta ou site sujeito à retenção. Eles podem excluir uma pasta se primeiro moverem ou excluirem quaisquer arquivos da pasta que estejam sujeitos à retenção.
 
 > [!NOTE]
-> Como a biblioteca de Retenção de Preservação é criada somente quando é necessária, e não quando você aplica uma política de retenção ou rótulo de retenção, para ver isso funcionando, você deve primeiro editar ou excluir um item que está sujeito à retenção. Em seguida, navegue até a Biblioteca de retenção para preservação para exibir a cópia retida.
+> Como a biblioteca de Retenção para Preservação é criada apenas quando é necessária, e não quando você aplica uma política de retenção ou rótulo de retenção, para ver isso funcionando, você deve primeiro editar ou excluir um item que está sujeito à retenção. Em seguida, navegue até a biblioteca de Retenção para Preservação para exibir a cópia retida.
   
 Depois de atribuir as configurações de retenção ao conteúdo em uma conta do OneDrive ou em um site do SharePoint, os caminhos que o conteúdo assume dependem se as configurações de retenção forem para reter e excluir, reter somente, ou excluir somente.
 
@@ -118,16 +116,16 @@ O controle de versão é um recurso de todas as listas de documentos e bibliotec
   
 Quando um documento com versões está sujeito a configurações de retenção para reter esse conteúdo, as versões que são copiadas para a Biblioteca de Retenção de Preservação existem como um item separado. Se as configurações de retenção forem definidas para exclusão no final do período de retenção:
 
-- Se o período de retenção se basear em quando o conteúdo foi criado, cada versão terá a mesma data de expiração do documento original. O documento original e suas versões expiram ao mesmo tempo.
+- Se o período de retenção for baseado na data de criação do conteúdo, cada versão terá a mesma data de expiração do documento original. O documento original e suas versões expiram ao mesmo tempo.
 
-- Se a período de retenção estiver baseado na data da última modificação do conteúdo, cada versão terá sua própria data de expiração com base em quando o documento original foi modificado para criar essa versão. O documento original e suas versões expiram independentemente um do outro.
+- Se o período de retenção for baseado em quando o conteúdo foi modificado pela última vez, cada versão terá sua própria data de expiração com base em quando o documento original foi modificado para criar essa versão. O documento original e suas versões expiram independentemente um do outro.
 
 > [!NOTE]
 > As versões retidas desses documentos do Microsoft Office SharePoint Online e do Microsoft OneDrive não podem ser pesquisadas por ferramentas de descoberta eletrônica.
 
 Quando a ação de retenção é excluir o documento, todas as versões que não estão na Biblioteca de Retenção para Preservação serão excluídas ao mesmo tempo, de acordo com a versão atual.
 
-Para itens sujeitos a uma política de retenção (ou uma suspensão do descoberta eletrônica), os limites de versão da biblioteca de documentos são ignorados até que o período de retenção do documento seja atingido (ou a suspensão da descoberta eletrônica seja liberada). Nesse cenário, as versões antigas não são eliminadas automaticamente e os usuários são impedidos de excluir versões.
+Para itens que estão sujeitos a uma política de retenção (ou uma suspensão da Descoberta eletrônica), os limites de versão da biblioteca de documentos são ignorados até que o período de retenção do documento seja atingido (ou a suspensão da Descoberta eletrônica seja liberada). Nesse cenário, as versões antigas não são eliminadas automaticamente e os usuários são impedidos de excluir versões.
 
 Esse não é o caso dos rótulos de retenção quando o conteúdo não está sujeito a uma política de retenção (ou uma retenção de descoberta eletrônica). Em vez disso, os limites de controle de versão são cumpridos, de modo que as versões mais antigas sejam automaticamente excluídas para acomodar novas versões, mas os usuários ainda poderão excluir versões.
 

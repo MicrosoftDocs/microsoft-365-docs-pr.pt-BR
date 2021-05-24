@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: aad0f00292a1a1182fc4b731e562b2e4c78d97f8
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 7592b92b74173e77e7937151ba88c23163363fde
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259506"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624688"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>Começar com as configurações de gerenciamento de riscos insider
 
@@ -60,7 +60,7 @@ Os alertas são disparados por políticas quando os usuários executam atividade
 Os indicadores de política são segmentados nas seguintes áreas. Você pode escolher os indicadores para ativar e personalizar os limites de eventos de indicador para cada nível de indicador ao criar uma política de risco interna:
 
 - **Office**: incluem indicadores de política para sites, SharePoint, Microsoft Teams e mensagens de email.
-- **Indicadores de** dispositivo : eles incluem indicadores de política para atividades como compartilhamento de arquivos pela rede ou com dispositivos. Os indicadores incluem atividades Microsoft Office arquivos, .csv arquivos (valores separados por vírgula) e arquivos .pdf (formato de documento portátil). Se você selecionar **indicadores** de dispositivo, a atividade será processada somente para dispositivos com Windows 10 Build 1809 ou superior e deverá primeiro integrar dispositivos no centro de conformidade. Para obter mais informações sobre como configurar dispositivos para integração com o risco insider, consulte a [seção](insider-risk-management-settings.md#OnboardDevices) Habilitar indicadores de dispositivo e dispositivos integrados neste artigo.
+- **Indicadores de** dispositivo : eles incluem indicadores de política para atividades como compartilhamento de arquivos pela rede ou com dispositivos. Os indicadores incluem atividades envolvendo todos os tipos de arquivo, excluindo atividades de arquivo executáveis (.exe) e biblioteca de links dinâmicos (.dll). Se você selecionar **indicadores** de dispositivo, a atividade será processada somente para dispositivos com Windows 10 Build 1809 ou superior e deverá primeiro integrar dispositivos no centro de conformidade. Para obter mais informações sobre como configurar dispositivos para integração com o risco insider, consulte a [seção](insider-risk-management-settings.md#OnboardDevices) Habilitar indicadores de dispositivo e dispositivos integrados neste artigo.
 - Indicador de violação de política de segurança **(visualização)**: eles incluem indicadores do Microsoft Defender para Ponto de Extremidade relacionados à instalação de software não aprovado ou mal-intencionado ou ignorar controles de segurança. Para receber alertas no gerenciamento de riscos insider, você deve ter uma licença ativa do Defender para Endpoint e integração de risco insider habilitada. Para obter mais informações sobre como configurar o Defender para Endpoint para integração de gerenciamento de riscos insider, consulte [Configure advanced features in Microsoft Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/advanced-features\#share-endpoint-alerts-with-microsoft-compliance-center).
 - **Indicadores de acesso físico (visualização)**: Eles incluem indicadores de política para acesso físico a ativos confidenciais. Por exemplo, tentativas de acesso a uma área restrita em seus logs do sistema de danos físicos podem ser compartilhadas com políticas de gerenciamento de riscos internas. Para receber esses tipos de alertas no gerenciamento de riscos insider, você deve ter ativos físicos prioritários habilitados no gerenciamento de riscos insider e o conector de dados de danos físicos [configurado.](import-physical-badging-data.md) Para saber mais sobre como configurar o acesso físico, consulte a seção [Prioridade de](#priority-physical-assets-preview) acesso físico neste artigo.
 - **Microsoft Cloud App Security indicadores (visualização)**: eles incluem indicadores de política de alertas compartilhados de Cloud App Security. A detecção de anomalias automaticamente habilitada no Cloud App Security imediatamente começa a detectar e a colá-los, direcionando várias anomalias comportamentais em seus usuários e nos dispositivos e máquinas e dispositivos conectados à sua rede. Para incluir essas atividades em alertas de política de gerenciamento de riscos internas, selecione um ou mais indicadores nesta seção. Para saber mais sobre Cloud App Security análise e detecção de anomalias, consulte [Obter análise comportamental e detecção de anomalias.](/cloud-app-security/anomaly-detection-policy)
