@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Siga as etapas nesta solução para remover um ex-funcionário do Microsoft 365 e proteger os dados da sua organização.
-ms.openlocfilehash: 44741382a84cca15277308a44b3fd20470aa3a08
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: a613d4931c730dffe195954da97af86c683041bf
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572040"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634239"
 ---
 # <a name="overview-remove-a-former-employee-and-secure-data"></a>Visão geral: remover um ex-funcionário e proteger dados
 
@@ -61,4 +61,7 @@ Você precisa ser um administrador global para concluir as etapas nesta soluçã
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Restaurar um usuário](restore-user.md) (artigo)
+[Restaurar um usuário](restore-user.md) (artigo)\
+[Adicionar um novo funcionário ao Microsoft 365](add-new-employee.md) (artigo) \
+[Atribuir licenças aos usuários](../manage/assign-licenses-to-users.md) (artigo) \
+[Unassign licenses from users](../manage/remove-licenses-from-users.md) (article)

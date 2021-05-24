@@ -20,22 +20,22 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba mais sobre o Microsoft 365 de administração.
-ms.openlocfilehash: 6d7fe36345ebd9234027e943d11266b7bcc2b30f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Use a exibição simplificada no Microsoft 365 para gerenciar tarefas comuns ou exibição de painel para configurações e tarefas mais complexas.
+ms.openlocfilehash: bca3aa7bb071d9334f7a5162a78db89690421f1a
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537386"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635885"
 ---
 # <a name="overview-of-the-microsoft-365-admin-center"></a>Visão geral do Centro de administração do Microsoft 365
 
-- [O centro de administração em exibição simplificada](#the-admin-center-in-simplified-view)
-- [O centro de administração no painel de exibição](#the-admin-center-in-dashboard-view)
+- [O centro de administração em exibição simplificada](#watch-the-admin-center-in-simplified-view)
+- [O centro de administração no painel de exibição](#watch-the-admin-center-in-dashboard-view)
 
 O Microsoft 365 de administração tem duas exibições: a exibição simplificada ajuda as organizações menores a gerenciar suas tarefas mais comuns. O painel de exibição inclui configurações e tarefas mais complexas. Você pode alternar entre eles de um botão na parte superior do centro de administração.
 
-## <a name="the-admin-center-in-simplified-view"></a>O centro de administração em exibição simplificada
+## <a name="watch-the-admin-center-in-simplified-view"></a>Assista: o centro de administração em exibição simplificada
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWD3sq?autoplay=false]
 
@@ -57,7 +57,7 @@ Na guia **Aprender,** navegue por vídeos e artigos sobre o centro de administra
 
 Se precisar de assistência, selecione **Ajuda & suporte**. Pesquise o tópico com o que você deseja ajudar e exibir a solução recomendada ou selecione o fone de ouvido para entrar em contato com o suporte e insira suas informações de perguntas e contatos. 
 
-## <a name="the-admin-center-in-dashboard-view"></a>O centro de administração no painel de exibição
+## <a name="watch-the-admin-center-in-dashboard-view"></a>Assista: o centro de administração no painel de exibição
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWfvDL?autoplay=false]
 
@@ -188,4 +188,10 @@ O Microsoft 365 de administração está totalmente localizado em 40 idiomas.
 |Vietnamita | vi |
 |Chinese Simplified | zh-hans |
 |Chinese Traditional | zh-hant |
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[O que é um Microsoft 365 administrador?](what-is-admin.md) (vídeo)\
+[Adicionar um administrador](add-admin.md) (vídeo)\
+[Personalizar o Microsoft 365 da sua organização](../admin/setup/customize-your-organization-theme.md) (artigo)
   

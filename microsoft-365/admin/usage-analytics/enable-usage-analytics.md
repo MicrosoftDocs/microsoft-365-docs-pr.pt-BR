@@ -20,22 +20,22 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Saiba como começar a coletar dados para seu locatário usando o aplicativo Microsoft 365 modelo de Análise de Uso no Power BI.
-ms.openlocfilehash: 329878365aa07da4615a849ad04cde7f75a07872
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 01923887b4af143d1490e14d59a6174700e6ae93
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593364"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635409"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Habilitar Microsoft 365 análise de uso
 
 Microsoft 365 análise de uso ainda não está disponível para Microsoft 365 us government Community.
   
-## <a name="steps-to-enable-microsoft-365-usage-analytics"></a>Etapas para habilitar a análise de uso do Microsoft 365
+## <a name="before-you-begin"></a>Antes de começar
 
 Para começar a usar Microsoft 365 análise de uso, primeiro você deve disponibilizar os dados no centro de administração Microsoft 365 e, em seguida, iniciar o aplicativo de modelo Power BI.
   
-### <a name="get-power-bi"></a>Obter o Power BI
+## <a name="get-power-bi"></a>Obter o Power BI
 
 Se você ainda não tiver Power BI, poderá inscrever-se [no](https://go.microsoft.com/fwlink/p/?linkid=845347)Power BI Pro . Selecione **Experimentar gratuitamente** para se inscrever em uma avaliação ou **Comprar agora** para obter Power BI Pro.
   
@@ -47,7 +47,7 @@ Você também pode expandir **Produtos** para comprar uma versão do Power BI.
 
 Para compartilhar seus dados, você e as pessoas com quem você compartilha os dados precisam de uma licença de Power BI Pro, ou o conteúdo precisa estar em um espaço de trabalho em um serviço [Power BI premium](/power-bi/service-premium-what-is). 
   
-### <a name="enable-the-template-app"></a>Habilitar o aplicativo de modelo
+## <a name="enable-the-template-app"></a>Habilitar o aplicativo de modelo
 
 Para habilitar o aplicativo de modelo, você precisa ser um **administrador global.**
   
@@ -61,7 +61,7 @@ Confira [mais informações sobre funções de](../add-users/about-admin-roles.m
   
 O processo de coleta de dados será concluído em duas a 48 horas, dependendo do tamanho do locatário. O **botão Ir para Power BI** será habilitado (não mais cinza) quando a coleta de dados for concluída. 
     
-### <a name="start-the-template-app"></a>Iniciar o aplicativo de modelo
+## <a name="start-the-template-app"></a>Iniciar o aplicativo de modelo
 
 Para iniciar **o** aplicativo de modelo, você precisa ser um administrador **global,** um leitor de **relatório,** um administrador **Exchange,** um administrador Skype for Business ou um **SharePoint administrador**. 
   
@@ -99,8 +99,6 @@ Para tornar anônimos os dados coletados para todos os relatórios, você deve s
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Sobre análise de uso](usage-analytics.md) (artigo)
-
-[Obter a versão mais recente da análise de uso](get-the-latest-version-of-usage-analytics.md) (artigo)
-
+[Sobre análise de uso](usage-analytics.md) (artigo)\
+[Obter a versão mais recente da análise de uso](get-the-latest-version-of-usage-analytics.md) (artigo)\
 [Navegue e utilize os relatórios Microsoft 365 análise de uso](navigate-and-utilize-reports.md) (artigo)

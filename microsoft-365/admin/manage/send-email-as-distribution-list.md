@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: a7c98273-067e-4162-b3a1-4ba081796012
 description: Envie emails como uma lista de distribuição em Microsoft 365 para que, quando um membro responde a uma mensagem, ele pareça ser da lista de distribuição.
-ms.openlocfilehash: 01bff7e1d2515670c5a6faa199355e7de591f1fb
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: eb5ce4a08fae13ee0d2631499a8df1724ef3ef66
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624532"
+ms.locfileid: "52635709"
 ---
 # <a name="send-email-as-a-distribution-list"></a>Enviar email como uma lista de distribuição
 
@@ -66,4 +66,4 @@ Antes de executar essas etapas, certifique-se de ter sido adicionado a uma lista
 
 [Criar, editar ou excluir um grupo de segurança no Microsoft 365 de administração](../email/create-edit-or-delete-a-security-group.md) (artigo)\
 [Colaboração por email](../email/email-collaboration.md) (artigo)\
-[Adicionar um usuário ou contato a um grupo de distribuição](../email/add-user-or-contact-to-distribution-list.md)
+[Adicionar um usuário ou contato a um grupo de distribuição](../email/add-user-or-contact-to-distribution-list.md) (artigo)

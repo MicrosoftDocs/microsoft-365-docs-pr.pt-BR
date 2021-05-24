@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Saiba como excluir uma conta de usuário e o que fazer com o email do usuário e OneDrive conteúdo e se deve manter a licença do produto.
-ms.openlocfilehash: c30edb598f659337778ec956737934da5fedad18
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: ff10d3289eae87f84685c22b81db03798ca9d7eb
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593400"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634203"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Excluir um usuário da sua organização
   
@@ -171,12 +171,8 @@ Aqui estão os problemas mais comuns que as pessoas encontram ao excluir um usu�
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Restaurar um usuário](restore-user.md) (artigo)
-  
-[Excluir permanentemente uma caixa de correio](/exchange/permanently-delete-a-mailbox-exchange-2013-help) (artigo)
-
-[Remover um ex-funcionário do Office 365](remove-former-employee.md) (artigo)
-
-[Adicionar um novo funcionário ao Office 365](add-new-employee.md) (artigo)
-
+[Restaurar um usuário](restore-user.md) (artigo)\
+[Excluir permanentemente uma caixa de](/exchange/permanently-delete-a-mailbox-exchange-2013-help) correio (artigo)\
+[Remover um ex-funcionário do Office 365](remove-former-employee.md) (artigo)\
+[Adicionar um novo funcionário ao Office 365](add-new-employee.md) (artigo)\
 [Excluir uma Conta de Usuário](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11)): Use estas instruções se sua empresa usar o Active **Directory** que está sincronizando com o Azure AD. Não é possível fazê-lo no Office 365. (artigo)

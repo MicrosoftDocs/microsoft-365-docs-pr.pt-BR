@@ -22,12 +22,12 @@ ms.custom:
 search.appverid: MET150
 description: Adicione armazenamento de arquivos em sua assinatura Microsoft 365 de arquivo. Com o armazenamento de arquivos extra, você pode armazenar mais conteúdo no SharePoint Online e OneDrive.
 ms.date: 04/02/2021
-ms.openlocfilehash: b573205c7053aba0339d1f32deb2996ef80f8754
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 14b688e850f62a06c39e4a315d871202e57d70d6
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572316"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635853"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Adicionar espaço de armazenamento para sua assinatura
 
@@ -104,4 +104,4 @@ O Office 365 com Espaço de Armazenamento Adicional está disponível para as se
 ## <a name="related-content"></a>Conteúdo relacionado
 
 [Gerenciar limites de armazenamento de site](/sharepoint/manage-site-collection-storage-limits) (artigo)\
-[Definir o espaço de armazenamento padrão para OneDrive usuários](/onedrive/set-default-storage-space)(artigo)
+[Definir o espaço de armazenamento padrão para OneDrive usuários](/onedrive/set-default-storage-space) (artigo)

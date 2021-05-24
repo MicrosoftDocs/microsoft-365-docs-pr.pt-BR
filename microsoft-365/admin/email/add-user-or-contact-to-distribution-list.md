@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: ba256583-03ca-429e-be4d-a92d9c221ad6
 description: Saiba como adicionar um usuário Microsoft 365 ou contato como um funcionário, parceiro ou fornecedor a um grupo de distribuição de email.
-ms.openlocfilehash: 69dea710554b344de4bc221b17d5d8f929b964a5
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: c512e1da805fca5e46d7978620f34b825d0289a0
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593484"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635541"
 ---
 # <a name="add-a-user-or-contact-to-a-distribution-group"></a>Adicionar um usuário ou contato a um grupo de distribuição
 
@@ -55,7 +55,6 @@ Aprenda a [enviar emails como um grupo de distribuição em Microsoft 365](../ma
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Gerenciar a desordem para sua organização](configure-clutter.md) (artigo)
-
+[Gerenciar a desordem para sua organização](configure-clutter.md) (artigo)\
 [Criar uma caixa de correio compartilhada](create-a-shared-mailbox.md) (artigo)
 

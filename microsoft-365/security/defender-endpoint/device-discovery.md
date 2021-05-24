@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 2dee1193e9f852e66df324927bf38d37d736d251
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: ed4e0c477bd2a8840e920b337f05c8730965bcff
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245943"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636237"
 ---
 # <a name="device-discovery-overview"></a>Visão geral sobre descoberta de dispositivo
 
@@ -62,7 +62,7 @@ Há dois modos de descoberta:
 
 
 > [!IMPORTANT]
-> A descoberta é definida como modo básico. Você pode optar por manter essa configuração por meio da página de configurações. A descoberta padrão será o modo padrão para todos os clientes de visualização a partir de 10 de maio de 2021 , a menos que seja modificada pela página de configurações antes dessa data.
+> A descoberta é definida como modo básico. Você pode optar por manter essa configuração por meio da página de configurações. A descoberta padrão será o modo padrão para todos os clientes a partir de 19 de julho de 2021 , a menos que seja modificada pela página de configurações antes dessa data.
 
 ### <a name="basic-discovery"></a>Descoberta básica 
 

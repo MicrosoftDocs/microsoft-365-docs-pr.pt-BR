@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: a1229cdb-ce19-4da5-90c7-2b9b146aef0a
 description: Personalize Microsoft 365 página de Azure Active Directory. Você pode adicionar uma ilustração, um logotipo e um texto à página de login.
-ms.openlocfilehash: dba75d5178f3c4a879ae2cdc9694697df45f6b8b
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 6c873409a06d824c7b63f5ea02e178e22337a345
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624436"
+ms.locfileid: "52635933"
 ---
 # <a name="add-your-company-branding-to-the-sign-in-page"></a>Adicionar a identidade visual da sua empresa à página Entrar
 
@@ -49,6 +49,8 @@ A figura a seguir mostra quais partes da página de entrada podem ser alteradas 
     
 Além da página de entrada, você pode personalizar a página Painel de Acesso no Azure.
   
+## <a name="next-steps"></a>Próximas etapas
+
 Se você estiver pronto para adicionar a identidade visual, explore as opções de personalização do conjunto de conteúdo do Azure: [Adicionar a identidade visual da empresa nas páginas de entrada e Painel de Acesso](/azure/active-directory/fundamentals/customize-branding)
 
 ## <a name="related-content"></a>Conteúdo relacionado

@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
 description: Altere seu endereço de email para um endereço de email amigável como tom@fourthcoffee.com comprando um nome de domínio e adicionando-o a Microsoft 365.
-ms.openlocfilehash: d5e70856c9200cd7e5df0eded25b6ff460e5d1fe
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 1a248cb67bab5d0467cad35dc5be8023b8013a12
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572088"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635517"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>Mudar seu endereço de email para usar seu domínio personalizado
 
@@ -91,4 +91,6 @@ Você será orientado a configurar tudo corretamente com seu domínio Microsoft 
   
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Comprar um domínio personalizado usando Microsoft 365](../get-help-with-domains/buy-a-domain-name.md) (artigo)
+[Comprar um domínio personalizado usando Microsoft 365](../get-help-with-domains/buy-a-domain-name.md) (artigo)\
+[Gerenciar domínios](../get-help-with-domains/index.yml) (página de link)\
+[Perguntas frequentes sobre domínios](../setup/domains-faq.yml) (artigo)

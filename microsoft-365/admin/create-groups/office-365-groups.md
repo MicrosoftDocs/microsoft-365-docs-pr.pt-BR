@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Com Microsoft 365 Grupos, você pode conduzir o trabalho em equipe em Microsoft 365 dando a um grupo de pessoas acesso a uma coleção de recursos compartilhados.
-ms.openlocfilehash: bfcd2d27bc1d63fcc8b306267efe21c3f9564522
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: f940872a3e4ba2aeeb62247c2898d5a4c0dec85f
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582735"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635745"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>Visão geral dos Grupos do Microsoft 365 para administradores
 
@@ -119,12 +119,8 @@ Microsoft 365 grupos trabalham com Azure Active Directory. Os recursos de grupos
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Saiba mais Microsoft 365 Grupos](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2) (artigo)
-
-[Atualizar listas de distribuição para Microsoft 365 Grupos](../manage/upgrade-distribution-lists.md) (artigo)
-
-[Gerenciar Microsoft 365 grupos com o PowerShell](../../enterprise/manage-microsoft-365-groups-with-powershell.md) (artigo)
-
-[SharePoint Online](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) (artigo)
-
+[Saiba mais Microsoft 365 grupos](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2) (artigo)\
+[Atualizar listas de distribuição para Microsoft 365 Grupos](../manage/upgrade-distribution-lists.md) (artigo)\
+[Gerenciar Microsoft 365 grupos com o PowerShell](../../enterprise/manage-microsoft-365-groups-with-powershell.md) (artigo)\
+[SharePoint Online](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) (artigo)\
 [Organizar grupos e canais no Microsoft Stream](/stream/groups-channels-organization) (artigo)

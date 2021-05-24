@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: dba96a43f976353251b5530233667933088f6f29
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: df2d2660267c38dccf5ef09fa4955615d3a78141
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52594080"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636261"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Priorizar incidentes no Microsoft 365 Defender
 
@@ -88,9 +88,9 @@ Esta tabela lista os nomes de filtro disponíveis.
 Depois de determinar qual incidente exige a maior prioridade, selecione-o e:
 
 - [Gerencie](manage-incidents.md) as propriedades do incidente para marcas, atribuição, resolução imediata para falsos incidentes positivos e comentários.
-- Comece sua [investigação.](investigate-incidents.md)
+- Inicie suas [investigações.](investigate-incidents.md)
 
 ## <a name="see-also"></a>Confira também
 - [Visão geral dos incidentes](incidents-overview.md)
-- [Investigar incidentes](investigate-incidents.md)
 - [Gerenciar incidentes](manage-incidents.md)
+- [Investigar incidentes](investigate-incidents.md)

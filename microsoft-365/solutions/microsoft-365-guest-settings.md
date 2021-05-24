@@ -18,12 +18,12 @@ ms.custom:
 localization_priority: Priority
 recommendations: false
 description: Saiba mais sobre as configurações de compartilhamento de convidados disponíveis no Microsoft 365 que podem afetar o compartilhamento com pessoas de fora da sua organização.
-ms.openlocfilehash: 60ebff4f564e7046a54cb707781acc0151aa8ad9
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: b209477e2fa205ebb6b298b7fa9f37c21e2b3d7e
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538106"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625421"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Referência de configurações de compartilhamento de convidados do Microsoft 365
 
@@ -38,7 +38,7 @@ O Azure Active Directory é o serviço de diretório usado pelo Microsoft 365. A
 > [!NOTE]
 > Essas configurações afetam o SharePoint apenas quando a [Integração do Microsoft Office SharePoint Online e do OneDrive com o Azure Active Directory B2B](/sharepoint/sharepoint-azureb2b-integration-preview) tiver sido configurada. A tabela a seguir supõe que ela tenha sido configurada.
 
-### <a name="organizational-relationships-settings"></a>Configurações das relações organizacionais
+### <a name="external-collaboration-settings"></a>Configurações de colaboração externa
 
 **Navegação:** [Centro de Administração do Azure Active Directory](https://aad.portal.azure.com) > Azure Active Directory > Identidades Externas > Configurações de Colaboração Externas
 
@@ -46,11 +46,9 @@ O Azure Active Directory é o serviço de diretório usado pelo Microsoft 365. A
 
 | Setting | Padrão | Descrição |
 |:-----|:-----|:-----|
-|As permissões de usuários convidados são limitadas|Sim|Essa configuração afeta as tarefas de diretório que um convidado pode executar.|
-|Somente administradores e usuários na função emissor do convite convidado podem convidar|Sim|Quando definido como **Sim**, os administradores podem convidar convidados por meio do Azure AD e por experiências de compartilhamento da Microsoft 365, como o Teams e SharePoint. Quando definido como **Não**, não podem.|
-|Membros podem convidar|Sim|Quando definido como **Sim**, os membros do Azure AD podem convidar convidados por meio do Azure AD. Quando definido como **Não**, não podem. Quando definido como **Sim**, os membros do Grupo do Microsoft 365 podem convidar convidados com a aprovação do proprietário. Quando definido como **Não**, os membros do Grupo do Microsoft 365 podem convidar convidados com a aprovação do proprietário, mas os proprietários devem ser administradores globais para aprovar. <br><br>Observe que a frase **Membros podem convidar** se refere aos membros no Azure AD (em vez de convidados) e não aos membros do site ou do grupo no Microsoft 365. <br><br>Isso é idêntico à configuração **Permitir que usuários adicionem novos convidados à organização** na Segurança e Privacidade no Microsoft 365.|
-|Os convidados podem convidar|Sim|Quando definido como **Sim**, os convidados no diretório podem convidar outros convidados para colaborar em recursos do Azure AD e em arquivos e pastas no SharePoint e no OneDrive. Quando definido como **Não**, não podem. <br><br>Observe que **Permitir que usuários externos encontrem contas de usuários no diretório digitando o endereço de email em correspondência exata** deve ser habilitada no centro de administração do SharePoint para convidados compartilharem arquivos e pastas com outros convidados.|
-|Habilitar senha de uso único por email para convidados (versão prévia)|Não|Quando definido como **Sim**, os convidados sem um MSA ou uma conta corporativa ou de estudante podem [autenticar com o Azure ad usando uma senha de uso único](/azure/active-directory/b2b/one-time-passcode). Quando definido como **Não**, os usuários precisam criar uma Conta Microsoft para autenticação. Essa configuração deve ser definida como **Sim** na [integração do SharePoint e OneDrive com o Azure AD B2B (versão prévia)](/sharepoint/sharepoint-azureb2b-integration-preview) para funcionar.|
+|Acesso de usuário convidado|Os usuários convidados têm acesso limitado às propriedades e associações de objetos de diretório|Determina as permissões [dos convidados no Azure Active Directory](/azure/active-directory/fundamentals/users-default-permissions).|
+|Configurações de convite de convidado|Qualquer pessoa na organização pode convidar usuários convidados, incluindo convidados e não administradores|Determina se os convidados, membros e administradores podem convidar convidados para a organização.<br><br> Essa configuração afeta as experiências de compartilhamento da Microsoft 365, como o Teams e SharePoint.|
+|Habilitar a entrada de autoatendimento de convidado via fluxos de usuário|Não|Determina se você pode criar fluxos de usuário que permitem que alguém se inscreva em um aplicativo que você criou e crie uma nova conta de convidado.|
 |Restrições de colaboração|Permitir o envio de convites para qualquer domínio|Essa configuração permite especificar uma lista de domínios permitidos ou bloqueados para compartilhamento. Quando domínios permitidos são especificados, convites de compartilhamento só poderão ser enviados para esses domínios. Quando domínios negados são especificados, convites de compartilhamento não poderão ser enviados para esses domínios.<br><br> Essa configuração afeta as experiências de compartilhamento da Microsoft 365, como o Teams e SharePoint. Você pode permitir ou bloquear domínios em um nível mais granular usando a filtragem de domínios no SharePoint ou Teams.|
 
 Essas configurações afetam como os usuários são convidados ao diretório. Elas não afetam o compartilhamento com convidados que já estão no diretório.

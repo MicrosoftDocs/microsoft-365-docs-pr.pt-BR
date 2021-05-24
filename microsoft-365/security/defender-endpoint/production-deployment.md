@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7abf1c9e4115c928ae581da3789270fd8ed036d3
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: 6b49565c45c1f38d0d2ce71b097af079782ba4de
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476296"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636189"
 ---
 # <a name="set-up-microsoft-defender-for-endpoint-deployment"></a>Configurar o Microsoft Defender para implantação do Ponto de Extremidade
 
@@ -52,13 +52,13 @@ Neste cenário de implantação, você será orientado pelas etapas em:
 
 
 >[!NOTE]
->Para orientar você por meio de uma implantação típica, esse cenário só abrange o uso do Microsoft Endpoint Configuration Manager. O Defender for Endpoint dá suporte ao uso de outras ferramentas de integração, mas não abrange esses cenários no guia de implantação. Para obter mais informações, consulte [Onboard devices to Microsoft Defender for Endpoint](onboard-configure.md).
+>Para orientar você por meio de uma implantação típica, esse cenário só abrange o uso de Microsoft Endpoint Configuration Manager. O Defender for Endpoint dá suporte ao uso de outras ferramentas de integração, mas não abrange esses cenários no guia de implantação. Para obter mais informações, consulte [Onboard devices to Microsoft Defender for Endpoint](onboard-configure.md).
 
 ## <a name="check-license-state"></a>Verificar o estado da licença
 
-Verificar o estado da licença e se ele foi provisionado corretamente, pode ser feito por meio do centro de administração ou por meio do portal do **Microsoft Azure.**
+Verificar o estado da licença e se ele foi provisionado corretamente, pode ser feito por meio do centro de administração ou por meio **do portal Microsoft Azure .**
 
-1. Para exibir suas licenças, acesse o portal do **Microsoft Azure** e navegue até a seção licença [do portal do Microsoft Azure.](https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Products)
+1. Para exibir suas licenças, vá para o **portal de** Microsoft Azure e navegue até a seção de licença Microsoft Azure [portal.](https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Products)
 
    ![Imagem da página Licenciamento do Azure](images/atp-licensing-azure-portal.png)
 
@@ -82,41 +82,14 @@ Para obter acesso a quais licenças são provisionadas para sua empresa e verifi
 
 
 ## <a name="tenant-configuration"></a>Configuração do Locatário
+A integração com o Microsoft Defender para Ponto de Extremidade é fácil. No menu de navegação, selecione qualquer item na seção Pontos de Extremidade ou qualquer recurso Microsoft 365 Defender, como Incidentes, Busca, Centro de Ações ou Análise de Ameaças para iniciar o processo de integração.
 
-Ao acessar o Centro de Segurança do Microsoft Defender pela primeira vez, um assistente que o guiará por algumas etapas iniciais. No final do assistente de instalação, haverá uma instância de nuvem dedicada do Defender para Ponto de Extremidade criada. O método mais fácil é executar essas etapas de um dispositivo cliente Windows 10.
-
-1. Em um navegador da Web, navegue até <https://securitycenter.windows.com> .
-
-    ![Imagem de Configurar suas permissões para o Microsoft Defender para Ponto de Extremidade](images/atp-setup-permissions-wdatp-portal.png)
-
-2. Se passar por uma licença TRIAL, vá para o link ( <https://signup.microsoft.com/Signup?OfferId=6033e4b5-c320-4008-a936-909c2825d83c&dl=WIN_DEF_ATP&pc=xxxxxxx-xxxxxx-xxx-x> )
-
-    Depois que a etapa de autorização for concluída, a tela **de** boas-vindas será exibida.
-3. Vá pelas etapas de autorização.
-
-    ![Imagem da tela de boas-vindas para a configuração do portal](images/welcome1.png)
-
-4. Configurar preferências.
-
-   **Local de armazenamento de** dados - É importante configurar isso corretamente. Determine onde o cliente deseja ser hospedado principalmente: EUA, UE ou Reino Unido. Não é possível alterar o local após essa configuração e a Microsoft não transferirá os dados da localização geográfica especificada. 
-
-    **Retenção de dados** - O padrão é de seis meses.
-
-    **Habilitar recursos de** visualização - O padrão está ativado, pode ser alterado posteriormente.
-
-    ![Imagem da localização geográfica na configuração](images/setup-preferences.png)
-
-5. Selecione **Avançar**.
-
-     ![Imagem da configuração de preferência final](images/setup-preferences2.png)
-
-6. Selecione **Continuar**.
-
+Em um navegador da Web, navegue até a [Central Microsoft 365 Segurança.](https://security.microsoft.com)
 
 ## <a name="network-configuration"></a>Configuração da rede
 Se a organização não exigir que os pontos de extremidade usem um Proxy para acessar a Internet, ignore esta seção.
 
-O sensor Microsoft Defender ATP requer o Microsoft Windows HTTP (WinHTTP) para relatar os dados do sensor e se comunicar com o serviço Microsoft Defender ATP. O sensor incorporado do Microsoft Defender para Ponto de Extremidade é executado no contexto do sistema usando a conta LocalSystem. O sensor usa o Microsoft Windows HTTP Services (WinHTTP) para permitir a comunicação com o serviço de nuvem Microsoft Defender ATP. A configuração do WinHTTP é independente das configurações de proxy de navegação da Internet do Windows (WinINet) e só pode descobrir um servidor proxy usando os seguintes métodos de descoberta:
+O sensor Microsoft Defender ATP requer o Microsoft Windows HTTP (WinHTTP) para relatar os dados do sensor e se comunicar com o serviço Microsoft Defender ATP. O sensor incorporado do Microsoft Defender para Ponto de Extremidade é executado no contexto do sistema usando a conta LocalSystem. O sensor usa o Microsoft Windows HTTP Services (WinHTTP) para permitir a comunicação com o serviço de nuvem Microsoft Defender ATP. A configuração winhttp é independente das configurações de proxy de navegação na Internet (WinINet) Windows internet e só pode descobrir um servidor proxy usando os seguintes métodos de descoberta:
 
 **Métodos de Descoberta Automática:**
 
@@ -136,18 +109,18 @@ Se um proxy transparente ou WPAD tiver sido implementado na topologia de rede, n
 
 Configure um proxy estático baseado no Registro para permitir que apenas o microsoft Defender para sensor de ponto de extremidade reporte dados de diagnóstico e se comunique com o Microsoft Defender para serviços de Ponto de Extremidade se um computador não tiver permissão para se conectar à Internet. O proxy estático é configurável por meio da Política de Grupo (GP). A política do grupo pode ser encontrada em:
 
- - Modelos Administrativos \> Windows Components Data Collection and Preview \> Builds Configure \> Authenticated Proxy usage for the Connected User Experience and Telemetry Service
+ - Modelos Administrativos Windows Componentes Coleta de Dados e Builds de Visualização \> \> Configure \> Authenticated Proxy usage for the Connected User Experience and Telemetry Service
      - De defini-lo **como Habilitado e** selecione **Desabilitar o uso de Proxy Autenticado**
 
 1. Abra o Console de Gerenciamento de Política de Grupo.
 2. Crie uma política ou edite uma política existente com base nas práticas organizacionais.
-3. Edite a Política de Grupo e navegue até Modelos Administrativos Componentes do Windows Data Collection and **\> Preview \> Builds Configure \> Authenticated Proxy usage for the Connected User Experience and Telemetry Service**. 
+3. Edite a Política de Grupo e navegue até Modelos Administrativos Windows Componentes Coleta de Dados e Builds de Visualização **\> Configure \> \> Authenticated Proxy usage for the Connected User Experience and Telemetry Service**. 
     ![Imagem da configuração da Política de Grupo](images/atp-gpo-proxy1.png)
 
 4. Selecione **Habilitado**.
 5. Selecione **Desabilitar o uso de Proxy Autenticado**.
    
-6. Navegue até **Modelos Administrativos \> Windows Components Data Collection and Preview \> Builds Configure connected user experiences and \> telemetry**.
+6. Navegue até Modelos Administrativos Windows Componentes Coleta de Dados e Builds de Visualização **Configure connected user experiences and \> \> \> telemetry**.
     ![Imagem da configuração da Política de Grupo](images/atp-gpo-proxy2.png)
 7. Selecione **Habilitado**.
 8. Insira o **Nome do Servidor Proxy**.
@@ -189,10 +162,10 @@ Use netsh para configurar um proxy estático de todo o sistema.
 
 ###  <a name="proxy-configuration-for-down-level-devices"></a>Configuração de Proxy para dispositivos de nível inferior
 
-Down-Level dispositivos incluem estações de trabalho do Windows 7 SP1 e Windows 8.1, bem como Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2 e versões do Windows Server 2016 antes do Windows Server CB 1803. Esses sistemas operacionais terão o proxy configurado como parte do Agente de Gerenciamento da Microsoft para manipular a comunicação do ponto de extremidade para o Azure. Consulte o Guia de Implantação Rápida do Agente de Gerenciamento da Microsoft para obter informações sobre como um proxy é configurado nesses dispositivos.
+Down-Level dispositivos incluem estações de trabalho Windows 7 SP1 e Windows 8.1, bem como o Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2 e versões do Windows Server 2016 antes do Windows Server CB 1803. Esses sistemas operacionais terão o proxy configurado como parte do Agente de Gerenciamento da Microsoft para manipular a comunicação do ponto de extremidade para o Azure. Consulte o Guia de Implantação Rápida do Agente de Gerenciamento da Microsoft para obter informações sobre como um proxy é configurado nesses dispositivos.
 
 ### <a name="proxy-service-urls"></a>URLs do Serviço proxy
-AS URLs que incluem v20 neles só serão necessárias se você tiver o Windows 10, versão 1803 ou dispositivos posteriores. Por exemplo, só será necessário se o dispositivo estiver no ```us-v20.events.data.microsoft.com``` Windows 10, versão 1803 ou posterior.
+UrLs que incluem v20 neles são necessárias apenas se você tiver Windows 10, versão 1803 ou dispositivos posteriores. Por exemplo, ```us-v20.events.data.microsoft.com``` só será necessário se o dispositivo estiver Windows 10, versão 1803 ou posterior.
  
 
 Se um proxy ou firewall estiver bloqueando o tráfego anônimo, como o sensor do Microsoft Defender para Ponto de Extremidade está se conectando do contexto do sistema, certifique-se de que o tráfego anônimo seja permitido nas URLs listadas.

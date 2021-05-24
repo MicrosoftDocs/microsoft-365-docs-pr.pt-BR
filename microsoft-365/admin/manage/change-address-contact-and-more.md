@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 description: Faça alterações no perfil da sua organização, como nome da organização, endereço, telefone, contato técnico e email.
 ms.date: 03/30/2021
-ms.openlocfilehash: 9fc985f640f1544bf30ea1a6ccdd5c1ca19aa81f
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 2646d2d83c72caa8a56f6658f005812f087101cb
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572124"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635397"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Alterar o endereço, o contato técnico e outras informações da organização
   
@@ -81,8 +81,6 @@ Você pode alterar sua assinatura de email no Outlook Web App. Para obter mais i
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Enviar email de um endereço diferente](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) (artigo)
-
-[Alterar um nome de usuário e um endereço de email](../add-users/change-a-user-name-and-email-address.md) (artigo)
-
+[Enviar email de um endereço](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) diferente (artigo)\
+[Alterar um nome de usuário e um endereço de email](../add-users/change-a-user-name-and-email-address.md) (artigo)\
 [Configurar o encaminhamento de email no Microsoft 365](../email/configure-email-forwarding.md) (artigo)

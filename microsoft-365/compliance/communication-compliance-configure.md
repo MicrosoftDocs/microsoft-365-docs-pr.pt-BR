@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 60b9577c2a42ef080fa6a734e0207225bf197cab
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: eed486120673abc513490f4892069ee8fd9bba21
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624264"
+ms.locfileid: "52636153"
 ---
 # <a name="get-started-with-communication-compliance"></a>Introdução à conformidade de comunicação
 
@@ -128,7 +128,7 @@ Use o gráfico a seguir para ajudá-lo a configurar grupos em sua organização 
 
 | **Membro da Política** | **Grupos com suporte** | **Grupos sem suporte** |
 |:-----|:-----|:-----|
-|Usuários supervisionados <br> Usuários não supervisionados | Grupos de distribuição <br> Grupos do Microsoft 365 | Grupos dinâmicos de distribuição <br> Grupos de distribuição aninhados <br> Grupos de segurança habilitados para email <br> Microsoft 365 grupos com associação dinâmica |
+|Usuários supervisionados <br> Usuários excluídos | Grupos de distribuição <br> Grupos do Microsoft 365 | Grupos dinâmicos de distribuição <br> Grupos de distribuição aninhados <br> Grupos de segurança habilitados para email <br> Microsoft 365 grupos com associação dinâmica |
 | Revisores | Nenhum | Grupos de distribuição <br> Grupos dinâmicos de distribuição <br> Grupos de distribuição aninhados <br> Grupos de segurança habilitados para email |
   
 Quando você atribui um grupo de distribuição à política, a política monitora todos os emails e Teams chats de cada usuário no grupo de distribuição. Quando você atribui um grupo Microsoft 365 na política, a política monitora todos os emails e chats Teams enviados a esse grupo, não os emails e chats individuais recebidos por cada membro do grupo.

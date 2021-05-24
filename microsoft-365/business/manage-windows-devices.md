@@ -24,24 +24,26 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba como habilitar Microsoft 365 proteger os dispositivos locais ingressados no Active-Directory Windows 10 em apenas algumas etapas.
-ms.openlocfilehash: f16962dd3c33c3c228da507bc5c4a902d76a8a08
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: ec80159bdceffd8a13d09a297a2acc1b78c9b1b3
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593884"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636077"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Habilitar dispositivos Windows 10 de domínio a serem gerenciados por Microsoft 365 Business Premium
 
 Se a sua organização usa o Windows Active Directory no local, você pode configurar um Microsoft 365 Business Premium para proteger seus dispositivos Windows 10, enquanto ainda mantém o acesso a recursos locais que exigem autenticação local.
 Para configurar essa proteção, você pode implementar **dispositivos ingressados no Azure AD híbridos.** Esses dispositivos são ingressados no Active Directory local e no Azure Active Directory.
 
+## <a name="watch-configure-hybrid-azure-active-directory-join"></a>Watch: Configure Hybrid Azure Active Directory join
+
 Este vídeo descreve as etapas de como configurar isso para o cenário mais comum, que também é detalhado nas etapas a seguir.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3C9hO]
   
+## <a name="before-you-begin"></a>Antes de começar
 
-## <a name="before-you-get-started-make-sure-you-complete-these-steps"></a>Antes de começar, certifique-se de concluir estas etapas:
 - Sincronizar usuários com o Azure AD com o Azure AD Conexão.
 - Conclua a sincronização da UO (Unidade Organizacional) do Azure A Conexão D.
 - Certifique-se de que todos os usuários de domínio sincronizados tenham licenças para Microsoft 365 Business Premium.
@@ -119,8 +121,6 @@ Neste ponto, você deve ser capaz de ver a política Habilitar o registro autom�
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Sincronizar usuários de domínio para Microsoft 365](manage-domain-users.md) (artigo)
-
-[Criar um grupo no centro de administração](../admin/create-groups/create-groups.md) (artigo)
-
+[Sincronizar usuários de domínio para Microsoft 365](manage-domain-users.md) (artigo)\
+[Criar um grupo no centro de administração](../admin/create-groups/create-groups.md) (artigo)\
 [Tutorial: Configure hybrid Azure Active Directory join for managed domains](/azure/active-directory/devices/hybrid-azuread-join-managed-domains.md) (article)

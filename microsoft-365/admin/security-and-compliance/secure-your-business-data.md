@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: Proteja seus emails e dados de negócios contra ameaças cibernéticas, incluindo ransomware, phishing e anexos mal-intencionados.
-ms.openlocfilehash: 12bdb9f12c1b0d3072a4c84c006787c26050cc8b
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: b274bb6bcdf71641ff8b196921a501bae9cbba28
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582795"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635957"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Top 10 maneiras de proteger Microsoft 365 para planos de negócios
 
@@ -348,8 +348,6 @@ Para obter mais informações, [consulte Cofre Links no Microsoft Defender para 
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Autenticação multifafação para Microsoft 365](multi-factor-authentication-microsoft-365.md) (artigo)
-
-[Gerenciar e monitorar contas de prioridade](../setup/priority-accounts.md) (artigo)
-
+[Autenticação multifafação para Microsoft 365](multi-factor-authentication-microsoft-365.md) (artigo)\
+[Gerenciar e monitorar contas de prioridade](../setup/priority-accounts.md) (artigo)\
 [Microsoft 365 relatórios no centro de administração](../activity-reports/activity-reports.md) (vídeo)

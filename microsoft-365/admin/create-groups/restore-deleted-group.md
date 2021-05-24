@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: Um grupo excluído é mantido por 30 dias e você ainda pode restaurar o grupo. Após 30 dias, o grupo e seu conteúdo serão excluídos permanentemente.
-ms.openlocfilehash: 285796ec45b1e6d77d46d7a0c39706f566bb8cf6
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 2c20c2bd3ce91331e7160132047dbf3ecd79c4b8
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582675"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635733"
 ---
 # <a name="restore-a-deleted-microsoft-365-group"></a>Restaurar um grupo Microsoft 365 excluído
 
@@ -83,10 +83,7 @@ Visite o [microsoft tech Community](https://techcommunity.microsoft.com/t5/Offic
   
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Gerenciar Microsoft 365 grupos com o PowerShell](../../enterprise/manage-microsoft-365-groups-with-powershell.md) (artigo)
-  
-[Excluir grupos usando o cmdlet Remove-UnifiedGroup](/powershell/module/exchange/remove-unifiedgroup) (artigo)
-  
-[Gerenciar as configurações do site de equipe](https://support.microsoft.com/office/8376034d-d0c7-446e-9178-6ab51c58df42) conectado ao grupo (artigo)
-  
+[Gerenciar Microsoft 365 grupos com o PowerShell](../../enterprise/manage-microsoft-365-groups-with-powershell.md) (artigo)\
+[Excluir grupos usando o cmdlet Remove-UnifiedGroup](/powershell/module/exchange/remove-unifiedgroup) (artigo)\
+[Gerenciar suas configurações de site](https://support.microsoft.com/office/8376034d-d0c7-446e-9178-6ab51c58df42) de equipe conectadas ao grupo (artigo)\
 [Excluir um grupo no Outlook](https://support.microsoft.com/office/ca7f5a9e-ae4f-4cbe-a4bc-89c469d1726f) (artigo)

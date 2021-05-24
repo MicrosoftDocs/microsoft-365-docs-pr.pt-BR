@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: Aprenda a alterar o tema padrão para a parte superior da barra de navegação Microsoft 365 personalizá-lo para corresponder ao logotipo ou cor da sua empresa.
-ms.openlocfilehash: b2177eebc31f34f7067c8464724623e4bf7d4870
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 5f6536d575ef055cda7a97a0860315c491100a1d
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593824"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635921"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Personalizar o Microsoft 365 da sua organização
 
@@ -152,10 +152,9 @@ A taxa de contraste recomendada entre o texto, o ícone ou a cor do botão e a c
 
 ### <a name="if-i-define-a-theme-which-places-in-microsoft-365-will-this-be-used"></a>Se eu definir um tema, quais locais Microsoft 365 isso será usado?
 
-Qualquer tema será exibido na barra de navegação superior para todos na organização como parte do Microsoft 365 do pacote.  
+Qualquer tema aparece na barra de navegação superior para todos na organização como parte do Microsoft 365 de pacote.  
   
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Adicionar blocos personalizados à página Meus aplicativos e ao launcher](../manage/customize-the-app-launcher.md) de aplicativos (artigo)
-
+[Adicionar blocos personalizados à página Meus aplicativos e ao launcher](../manage/customize-the-app-launcher.md) de aplicativos (artigo)\
 [Visão geral Microsoft 365 grupos para administradores](../create-groups/office-365-groups.md) (artigo)

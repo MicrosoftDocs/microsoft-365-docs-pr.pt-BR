@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba como implantar os complementos para usuários e grupos em sua organização usando a Implantação Centralizada no centro de administração.
-ms.openlocfilehash: 2d3b90a75f38a2c1146c0b0e5470c80b0af2c63f
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 8cc4f29cd2593d9651edaf87791f46dabdcc30b2
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572268"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636017"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>Implantar suplementos no centro de administração
 
@@ -131,12 +131,7 @@ As atualizações para os complementos ocorrem da seguinte forma:
   
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Gerenciar os complementos no centro de administração](manage-addins-in-the-admin-center.md) (artigo)
-
-[Criar seu primeiro complemento do painel de tarefas do Word](/office/dev/add-ins/quickstarts/word-quickstart?tabs=yeomangenerator) (artigo)
-
-[Secundárias e aquisição de complementos da loja](minors-and-acquiring-addins-from-the-store.md) (artigo)
-  
-[Usar cmdlets do PowerShell de](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md) Implantação Centralizada para gerenciar os complementos (artigo)
-  
+[Gerenciar os complementos no centro de administração](manage-addins-in-the-admin-center.md) (artigo)\
+[Crie seu primeiro complemento do painel de tarefas do Word](/office/dev/add-ins/quickstarts/word-quickstart?tabs=yeomangenerator) (artigo\
+[Secundárias e aquisição](minors-and-acquiring-addins-from-the-store.md) de complementos do armazenamento (artigo)\ [Use cmdlets do PowerShell](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md) de Implantação Centralizada para gerenciar os complementos (artigo)\  
 [Solução de problemas: o usuário não está vendo os complementos](/office365/troubleshoot/access-management/user-not-seeing-add-ins) (artigo)

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: Obter uma visão geral Microsoft 365 central de mensagens e sua função no controle de recursos novos e alterados e outros comunicados importantes.
-ms.openlocfilehash: edef3bb5a9016cf6f65f307fcd7c706bf4424d2f
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 51cdf1924b3aaa507a6b41f903a6aea5d81d68f1
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593952"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636041"
 ---
 # <a name="message-center"></a>Centro de mensagens
 
@@ -303,8 +303,6 @@ Para uma visão geral do Centro de mensagens, confira [Centro de mensagens no Mi
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Configurar as opções de versão Padrão ou Direcionada](../manage/release-options-in-office-365.md) (artigo)
-
-[Gerenciar quais Office recursos aparecem em What's New](../manage/show-hide-new-features.md) (artigo)
-
-[Assinaturas comerciais e documentação de cobrança](../../commerce/index.yml) (links)
+[Configurar as opções de versão Padrão](../manage/release-options-in-office-365.md) ou Direcionada (artigo)\
+[Gerenciar quais Office recursos aparecem em What's New](../manage/show-hide-new-features.md) (article)\
+[Assinaturas comerciais e documentação de cobrança](../../commerce/index.yml) (página de link)

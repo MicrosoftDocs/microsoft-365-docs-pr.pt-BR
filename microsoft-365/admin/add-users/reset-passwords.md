@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: Entre com sua conta de administrador Microsoft 365 para redefinir senhas para usuários em Microsoft 365 assinatura para empresas.
-ms.openlocfilehash: 8d4666eb70b1d5349f71c906f05510a8a54ded74
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 0cec6c7874b51c76fca60c6c237395c940c47bbe
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571968"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635565"
 ---
 # <a name="reset-passwords"></a>Redefinir senha
 
@@ -122,12 +122,8 @@ Experimente os procedimentos deste artigo: [Eu esqueci o nome de usuário ou a s
   
 ## <a name="related-content"></a>Conteúdo relacionado
   
-[Permitir aos usuários redefinir suas próprias senhas](../add-users/let-users-reset-passwords.md) (artigo)
-
-[Redefinir senhas](../add-users/reset-passwords.md) (artigo)
-
-[Definir a senha de um usuário individual para nunca expirar](set-password-to-never-expire.md) (artigo)
-
-[Definir a política de expiração de senha para sua organização](../manage/set-password-expiration-policy.md) (artigo)
-
+[Permitir que os usuários redefinir suas próprias senhas](../add-users/let-users-reset-passwords.md) (artigo)\
+[Redefinir senhas](../add-users/reset-passwords.md) (artigo)\
+[Definir a senha de um usuário individual para nunca expirar](set-password-to-never-expire.md) (artigo)\
+[Definir a política de expiração de senha para sua](../manage/set-password-expiration-policy.md) organização (artigo)\
 [Microsoft 365 para vídeos de treinamento empresarial](../../business-video/index.yml) (página de link)

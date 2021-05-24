@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Crie uma caixa de correio compartilhada e configure algumas configurações para seus usuários, como encaminhamento de email e respostas automáticas.
-ms.openlocfilehash: ab23353f07a24f06d43172e8087819dd915ab720
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: c1d8007a2fcc45fbdd1a6943ee464e5aae8917b9
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582663"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635505"
 ---
 # <a name="configure-shared-mailbox-settings"></a>Configurar caixa de correio compartilhada
 
@@ -144,12 +144,8 @@ Se você optar por não mostrar a caixa de correio compartilhada na lista de end
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Sobre as caixas de correio compartilhadas](about-shared-mailboxes.md) (artigo)
-
-[Criar uma caixa de correio compartilhada](create-a-shared-mailbox.md) (artigo)
-
-[Converter uma caixa de correio do usuário em uma caixa de correio compartilhada](convert-user-mailbox-to-shared-mailbox.md) (artigo)
-
-[Remover uma licença de uma caixa de correio compartilhada](remove-license-from-shared-mailbox.md) (artigo)
-
+[Sobre caixas de correio compartilhadas](about-shared-mailboxes.md) (artigo)\
+[Criar uma caixa de correio compartilhada](create-a-shared-mailbox.md) (artigo)\
+[Converter uma caixa de correio de usuário em uma caixa de correio compartilhada](convert-user-mailbox-to-shared-mailbox.md) (artigo)\
+[Remover uma licença de uma caixa de correio compartilhada](remove-license-from-shared-mailbox.md) (artigo)\
 [Resolver problemas com caixas de correio compartilhadas](resolve-issues-with-shared-mailboxes.md) (artigo)

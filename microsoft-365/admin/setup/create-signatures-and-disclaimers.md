@@ -25,18 +25,18 @@ search.appverid:
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: Gerencie assinaturas de email, incluindo avisos de isenção de responsabilidade legal ou instruções de divulgação para todas as mensagens de email que entram ou saem da sua organização.
-ms.openlocfilehash: 05cfeeb01231e7f99d2a96fc37581b4c9a23f5aa
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: f72d522c7dc592a7f719d716e22ecf726d00a6de
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582747"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635649"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>Criar assinaturas e avisos de isenção de ônus em toda a organização
 
  Você pode gerenciar assinaturas de email adicionando uma assinatura de email, aviso de isenção de responsabilidade legal ou declaração de divulgação às mensagens de email que entram ou saem da sua organização. É possível configurar essa mensagem para que ela se aplique a todos os emails enviados e recebidos, conforme é mostrado abaixo. Também é possível aplicá-la a determinados emails, por exemplo, aqueles que contêm palavras ou padrões de texto específicos.
 
- Assista a um breve vídeo sobre como criar uma assinatura de email em toda a empresa. <br><br>
+## <a name="watch-create-a-company-wide-email-signature"></a>Assista: Criar uma assinatura de email em toda a empresa
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf] 
 
@@ -119,9 +119,7 @@ Para obter informações sobre como usar o PowerShell, consulte Avisos de isenç
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Migrar emails e contatos para Microsoft 365](migrate-email-and-contacts-admin.md) (vídeo)
-
-[Configurações de email do usuário](../email/office-365-user-email-settings.md) (artigo)
-
+[Migrar emails e contatos para Microsoft 365](migrate-email-and-contacts-admin.md) (vídeo)\
+[Configurações de email do usuário](../email/office-365-user-email-settings.md) (artigo)\
 [Visão geral do Centro de administração do Microsoft 365](../../business-video/admin-center-overview.md) (vídeo)
 

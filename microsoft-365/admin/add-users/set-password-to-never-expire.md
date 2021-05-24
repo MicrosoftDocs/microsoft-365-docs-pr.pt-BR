@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Entre na sua conta de administrador Microsoft 365 para definir algumas senhas de usuário individuais para nunca expirar usando Windows PowerShell.
-ms.openlocfilehash: 0747e0bfe8a7389db554d5d6a7f685605e013306
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 12c717d8d625b0135f185b1af131db00e9762c73
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571920"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635553"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Definir a senha de um usuário individual para nunca expirar
 
@@ -128,6 +128,6 @@ Execute um dos seguintes comandos:
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Permitir aos usuários redefinir suas próprias senhas](../add-users/let-users-reset-passwords.md) (artigo)
-
-[Redefinir senhas](../add-users/reset-passwords.md) (artigo)
+[Permitir que os usuários redefinir suas próprias senhas](../add-users/let-users-reset-passwords.md) (artigo)\
+[Redefinir senhas](../add-users/reset-passwords.md) (artigo)\
+[Definir a política de expiração de senha para sua organização](../manage/set-password-expiration-policy.md) (artigo)

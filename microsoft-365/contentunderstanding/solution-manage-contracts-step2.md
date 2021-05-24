@@ -6,18 +6,18 @@ manager: pamgreen
 ms.reviewer: ssquires
 audience: admin
 ms.topic: article
-ms.date: 05/19/2021
+ms.date: ''
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: ''
 description: Saiba como usar o Microsoft Teams para criar seu canal de gerenciamento de contratos usando uma solução Microsoft 365 contrato.
-ms.openlocfilehash: 20ace5d17550c8dd800368957dd940c9857bce5d
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 81d5fe34383453b187363b13c21ef47844948193
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583131"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636177"
 ---
 # <a name="step-2-use-microsoft-teams-to-create-your-contract-management-channel"></a>Etapa 2. Use Microsoft Teams para criar seu canal de gerenciamento de contratos
 

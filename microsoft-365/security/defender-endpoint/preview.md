@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ea37ad4302eedf7d43e3ad03e94357a146c2216c
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 4612fbb2005145feae7bbcf9309c1ec9559a5a0d
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245571"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636065"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>Recursos de visualização do Microsoft Defender para Ponto de Extremidade
 
@@ -65,7 +65,7 @@ Os seguintes novos recursos estão incluídos na visualização prévia:
 - [Descoberta de dispositivo](device-discovery.md) <br> Ajuda você a encontrar dispositivos não administrativos conectados à sua rede corporativa sem a necessidade de dispositivos extras ou alterações de processo complicadas. Usando dispositivos conectados, você pode encontrar dispositivos nãomanageados em sua rede e avaliar vulnerabilidades e riscos. Em seguida, você pode integrar dispositivos descobertos para reduzir os riscos associados a ter pontos de extremidade nãomanageados em sua rede.
 
    > [!IMPORTANT]
-   > A descoberta padrão será o modo padrão para todos os clientes de visualização a partir de 10 de maio de 2021. Você pode optar por manter o modo básico por meio da página de configurações. 
+   > A descoberta padrão será o modo padrão para todos os clientes a partir de 19 de julho de 2021. Você pode optar por manter o modo básico por meio da página de configurações. 
 
 
 - [Filtragem de Conteúdo da Web](web-content-filtering.md) <br> A filtragem de conteúdo da Web faz parte dos recursos de proteção da Web no Microsoft Defender para Ponto de Extremidade. Ele permite que sua organização acompanhe e regular o acesso a sites com base em suas categorias de conteúdo. Muitos desses sites, embora não sejam mal-intencionados, podem ser problemáticos devido a regulamentos de conformidade, uso de largura de banda ou outras preocupações.

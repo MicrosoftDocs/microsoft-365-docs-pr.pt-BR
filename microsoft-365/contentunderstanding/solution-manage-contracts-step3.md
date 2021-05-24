@@ -6,18 +6,18 @@ manager: pamgreen
 ms.reviewer: ssquires
 audience: admin
 ms.topic: article
-ms.date: 05/19/2021
+ms.date: ''
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: ''
 description: Saiba como usar o Power Automate para criar seu fluxo para processar seus contratos usando uma solução Microsoft 365.
-ms.openlocfilehash: 54e92f36b19cefde92111cdbc960fad7715cf8b0
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 0ddcbeff6c8bd119850e3e4ea45db2513e774433
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583095"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636249"
 ---
 # <a name="step-3-use-power-automate-to-create-your-flow-to-process-your-contracts"></a>Etapa 3. Use Power Automate para criar seu fluxo para processar seus contratos
 

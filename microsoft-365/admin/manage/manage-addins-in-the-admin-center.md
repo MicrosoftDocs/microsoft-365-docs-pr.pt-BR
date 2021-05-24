@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba mais sobre como usar os complementos centralizados para implantar os complementos para usuários e grupos em sua organização.
-ms.openlocfilehash: c103cfc4e3e7b404ea4d31d81bc30d7990a922dc
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: d678755b28daea1578ce2a5d2e387492cf32d368
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593964"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636053"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>Gerenciar suplementos no centro de administração
 
@@ -157,12 +157,8 @@ Se o complemento implantado não dá suporte a comandos de add-in ou se você qu
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Implantar os complementos no centro de administração](./manage-deployment-of-add-ins.md) (artigo)
-
-Saiba mais sobre como criar e [criar Office de complementos](/office/dev/add-ins/overview/office-add-ins) (artigo)
-  
-[Usar cmdlets do PowerShell de](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md) Implantação Centralizada para gerenciar os complementos (artigo)
-  
-[Solução de problemas: o usuário não está vendo os complementos](/office365/troubleshoot/access-management/user-not-seeing-add-ins) (artigo)
-
+[Implantar os complementos no centro de administração](./manage-deployment-of-add-ins.md) (artigo)\
+Saiba mais sobre como criar e [criar Office -ins](/office/dev/add-ins/overview/office-add-ins) (artigo)\
+[Usar cmdlets do PowerShell de](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md) Implantação Centralizada para gerenciar os complementos (artigo)\
+[Solução de problemas: o usuário não está vendo os complementos](/office365/troubleshoot/access-management/user-not-seeing-add-ins) (artigo)\
 [Secundárias e aquisição de complementos do Microsoft Store](./minors-and-acquiring-addins-from-the-store.md) (artigo)

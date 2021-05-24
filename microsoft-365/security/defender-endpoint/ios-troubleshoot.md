@@ -1,5 +1,5 @@
 ---
-title: Solucionar problemas no Microsoft Defender para Ponto de Extremidade no iOS
+title: Solucionar problemas e encontrar respostas sobre perguntas frequentes relacionadas ao Microsoft Defender para Ponto de Extremidade no iOS
 description: Solução de problemas e perguntas frequentes - Microsoft Defender para Ponto de Extremidade no iOS
 keywords: microsoft, defender, Microsoft Defender para Endpoint, ios, solução de problemas, perguntas frequentes, como
 search.product: eADQiWindows 10XVcnh
@@ -17,14 +17,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 82a3fcc58b97f53f584befae77c86e8a18952a23
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 13c0a575fd2614f58eb6a2163cda04118c2a391d
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539285"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636273"
 ---
-# <a name="troubleshoot-issues-on-microsoft-defender-for-endpoint-on-ios"></a>Solucionar problemas no Microsoft Defender para Ponto de Extremidade no iOS
+# <a name="troubleshoot-issues-and-find-answers-to-faqs-on-microsoft-defender-for-endpoint-on-ios"></a>Solucionar problemas e encontrar respostas para perguntas frequentes no Microsoft Defender para Endpoint no iOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

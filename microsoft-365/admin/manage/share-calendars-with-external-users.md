@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb00dd4e-2d5f-4e8d-8ff4-94b2cf002bdd
 description: Habilita o compartilhamento de calendário no centro de administração Microsoft 365 para que os usuários possam compartilhar seus calendários com qualquer pessoa dentro ou fora da organização.
-ms.openlocfilehash: 6f4c215403e16ac6658619e50e6115606f106397
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: ee2b48182efec3e8bc22f47fd1657cd123ec65f8
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582711"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635805"
 ---
 # <a name="share-calendars-with-external-users"></a>Compartilhar calendários com usuários externos
 
@@ -50,12 +50,10 @@ Você pode habilitar o compartilhamento de calendário para todos os usuários e
 
 ## <a name="invite-people-to-access-calendars"></a>Convidar pessoas para acessarem os calendários
 
-Depois que o compartilhamento é habilitado, os proprietários de calendários podem estender convites para usuários específicos. Consulte [Compartilhar seu calendário no Outlook Web App](https://support.microsoft.com/office/7ecef8ae-139c-40d9-bae2-a23977ee58d5) para obter instruções.
+Depois que o compartilhamento é habilitado, os proprietários de calendários podem estender convites para usuários específicos. Para obter instruções, consulte [Sharing your calendar in Outlook Web App](https://support.microsoft.com/office/7ecef8ae-139c-40d9-bae2-a23977ee58d5).
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Ativar ou desativar o compartilhamento externo para um site](/sharepoint/change-external-sharing-site) (artigo)
-
-[Visão geral do Centro de administração do Microsoft 365](../../business-video/admin-center-overview.md) (vídeo)
-
+[Ativar ou desativar o compartilhamento externo para um site](/sharepoint/change-external-sharing-site) (artigo)\
+[Visão geral do Microsoft 365 de administração](../../business-video/admin-center-overview.md) (vídeo)\
 [Gerenciar emails e calendários](../email/index.yml) (página de link)

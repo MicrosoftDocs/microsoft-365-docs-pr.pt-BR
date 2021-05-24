@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
 description: Saiba como verificar sua propriedade de email e domínio para assumir um locatário não-autônomo criado por uma inscrição de usuário de autoatendida no Microsoft 365.
-ms.openlocfilehash: c37bf153edf39f53b5c10f020b0cbb8d630eb4a6
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: aa44023ffdc2b59e4db024706323c5b872566260
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593928"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635981"
 ---
 # <a name="perform-an-internal-admin-takeover"></a>Executar uma aquisição interna do administrador
 
@@ -68,10 +68,7 @@ Se você for um administrador e quiser assumir um locatário não gerenciada cri
   
 ## <a name="related-content"></a>Conteúdo relacionado
 
-YouTube: [3 etapas para fazer uma Tomada](https://www.youtube.com/watch?v=xt5EsrQBZZk) de Administração de TI para Power BI e Microsoft 365 (vídeo)
-
-[Administração de aquisição no Azure AD](/azure/active-directory/users-groups-roles/domains-admin-takeover) (artigo)
-
-[Usando o autoatendino, inscreva-se em sua organização](self-service-sign-up.md) (artigo)
-  
+YouTube: [3 etapas para fazer uma Tomada](https://www.youtube.com/watch?v=xt5EsrQBZZk) de Administração de TI para Power BI e Microsoft 365 (vídeo)\
+[Administração de aquisição no Azure AD](/azure/active-directory/users-groups-roles/domains-admin-takeover) (artigo)\
+[Usando o autoatendino, inscreva-se em sua](self-service-sign-up.md) organização (artigo)\
 [Noções básicas Power BI função de administrador de serviço](/power-bi/service-admin-role) (artigo)

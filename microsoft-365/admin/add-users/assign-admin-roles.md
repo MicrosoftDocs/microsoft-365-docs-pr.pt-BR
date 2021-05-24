@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Saiba como atribuir funções de administrador a um usuário ou vários usuários em sua empresa para que eles possam executar tarefas específicas no centro de administração.
-ms.openlocfilehash: f23a30cfd1be53982572d745d476558c3be615e6
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 8a9da12a8ebc01a02e4362f09ccaa9e92c21b7e9
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571860"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634167"
 ---
 # <a name="assign-admin-roles"></a>Atribuir funções de administrador
 
@@ -42,7 +42,7 @@ Para obter mais informações, confira o artigo [Sobre funções de administrado
 
 Quando você adiciona novos usuários, se você não atribuir a  eles uma função de administrador, eles estão na função de usuário e não têm privilégios de administrador em nenhum dos centros de administração da Microsoft. Mas se você precisar de ajuda para fazer as coisas, poderá atribuir uma função de administrador a um usuário. Por exemplo, se você precisar de alguém para ajudar a redefinir senhas, não deve atribuir a elas a função de administrador global, você deve atribuí-las a função de administrador de senha. Ter muitos administradores globais, com acesso ilimitado aos seus dados e negócios online, é um risco de segurança.
 
-## <a name="watch-add-an-adminbrbr"></a>Assista: Adicionar um administrador.<br><br>
+## <a name="watch-add-an-adminbrbr"></a>Watch: Adicionar um administrador<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
@@ -121,10 +121,7 @@ Você pode verificar permissões de função de administrador de duas maneiras d
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Sobre Microsoft 365 de administrador](about-admin-roles.md) (artigo)
-
-[Permissões de função de administrador Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) (artigo)
-
-[Atribuir funções a contas de usuário com o PowerShell](../../enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell.md) (artigo)
-
+[Sobre Microsoft 365 de administrador](about-admin-roles.md) (artigo)\
+[Permissões de função de administrador Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) (artigo)\
+[Atribuir funções a contas de usuário com o PowerShell](../../enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell.md) (artigo)\
 [Autorizar ou remover relacionamentos de parceiros](../misc/add-partner.md) (artigo)

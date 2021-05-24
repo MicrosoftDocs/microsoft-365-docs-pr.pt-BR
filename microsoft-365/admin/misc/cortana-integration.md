@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: Os usuários com contas corporativas ou de estudante válidas podem obter a Cortana em Microsoft 365 experiências que atendem Office 365 promessas de segurança no nível empresarial.
-ms.openlocfilehash: aad371fc531a03f42e1756a41405082b6b528b06
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: f626ba0d0295655dcdb3d4df2b332dcf05f1a6b5
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582771"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635793"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana no Microsoft 365
 
@@ -187,8 +187,6 @@ Para serviços regidos pelo [Contrato de Serviços Microsoft](https://go.microso
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Assistência de voz da Cortana Teams](/microsoftteams/cortana-in-teams) (artigo)
-
-[Configurar a Cortana Windows 10](/windows/configuration/cortana-at-work/cortana-at-work-overview) (artigo)
-
+[Assistência de voz da Cortana Teams](/microsoftteams/cortana-in-teams) (artigo)\
+[Configurar a Cortana Windows 10](/windows/configuration/cortana-at-work/cortana-at-work-overview) (artigo)\
 [O que você pode fazer com o Play My Emails da Cortana?](https://support.microsoft.com/help/4558256)

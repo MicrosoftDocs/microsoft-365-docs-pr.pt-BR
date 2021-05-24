@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7dc1c01a-090f-4971-9677-f1b192d6c910
 description: Aprenda a definir chaves do Registro para habilitar a autenticação moderna para dispositivos que Microsoft Office 2013 instalados.
-ms.openlocfilehash: d358cb2ffb4284a51779e5a7c1dc894052b9ebc0
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 917ecd5c668ea43b0627ba2361f951ebc5e19725
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572280"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635685"
 ---
 # <a name="enable-modern-authentication-for-office-2013-on-windows-devices"></a>Habilitar a Autenticação Moderna do Office 2013 em dispositivos Windows.
 
@@ -40,7 +40,7 @@ Para habilitar a autenticação moderna para qualquer dispositivo com Windows co
   
 Para habilitar a autenticação moderna para os dispositivos com Windows (por exemplo em laptops e tablets), que têm o Microsoft Office 2013 instalado, você precisa definir as seguintes chaves do Registro. As teclas precisam ser definidas em cada dispositivo que você deseja habilitar para autenticação moderna:
   
-|**Chave do Registro**|**Tipo**|**Valor** |
+|**Chave do Registro**|**Type**|**Valor** |
 |:-------|:------:|--------:|
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL  |REG_DWORD  |1  |
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version |REG_DWORD |1 |
@@ -53,13 +53,12 @@ Se você estiver conectado no momento a qualquer um dos aplicativos cliente, voc
 
 Para desabilitar a autenticação moderna em um dispositivo, defina as seguintes chaves do Registro no dispositivo:
   
-|**Chave do Registro**|**Tipo**|**Valor**|
+|**Chave do Registro**|**Type**|**Valor**|
 |:-------|:------:|--------:|
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL |REG_DWORD|0|
    
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Entre no Office 2013 com um segundo método de verificação](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb) (artigo)
-
+[Entre no Office 2013 com um segundo método de verificação](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb) (artigo)\
 Outlook solicita senha e [não usa Autenticação](/outlook/troubleshoot/authentication/outlook-prompt-password-modern-authentication-enabled) Moderna para se conectar ao Office 365 (artigo)
 

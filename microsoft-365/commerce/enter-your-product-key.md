@@ -21,12 +21,12 @@ ms.custom:
 - commerce_purchase
 description: Se você comprou Microsoft 365 Business Standard de uma loja de varejo, saiba como resgatar a chave do produto e ativar sua assinatura.
 ms.date: 11/13/2020
-ms.openlocfilehash: bc2b07b5a98c13a919596bdbf85a21bdc6c8d2bf
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: e075a9d06b45f823540a3a99a1943caa9d116954
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593387"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636117"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Insira a chave do produto para Microsoft 365 Business Standard
 
@@ -57,11 +57,9 @@ Se você comprou Microsoft 365 Business Standard de uma loja de varejo, este art
 
 Para estender a data de expiração ou adicionar uma licença à sua assinatura Microsoft 365 Business Standard existente, use uma chave nova e não usada para o mesmo Microsoft 365 plano. Inserir sua chave Microsoft 365 produto original não funcionará porque uma chave que já foi resgatada não pode ser usada novamente. Consulte [Adicionar licenças ou estender uma assinatura paga pelo uso de uma chave de produto](licenses/add-licenses-using-product-key.md).
 
-## <a name="whats-next"></a>O que vem a seguir?
+## <a name="next-steps"></a>Próximas etapas
 
 Se você for novo no Microsoft 365 para empresas, saiba como [configurar o Microsoft 365](../admin/setup/setup.md).
-  
-## <a name="still-having-trouble-with-product-keys"></a>Ainda está com problemas com chaves do produto?
 
 Confira esta lista de erros e soluções comuns: Problemas com a chave do produto Microsoft 365 [para empresas?](product-key-errors-and-solutions.md)
   
@@ -69,8 +67,6 @@ Ou, [chame o Suporte da Microsoft.](../business-video/get-help-support.md)
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Atualizar para um plano diferente](./subscriptions/upgrade-to-different-plan.md) (artigo)
-
-[O que acontecerá com meus dados e o acesso ao Microsoft 365 para empresas quando a assinatura terminar?](./subscriptions/what-if-my-subscription-expires.md) (artigo)
-
+[Atualizar para um plano diferente](./subscriptions/upgrade-to-different-plan.md) (artigo)\
+[O que acontecerá com meus dados e o acesso ao Microsoft 365 para empresas quando a assinatura terminar?](./subscriptions/what-if-my-subscription-expires.md) (artigo)\
 [Compreender assinaturas e licenças no Microsoft 365 para empresas](./licenses/subscriptions-and-licenses.md) (artigo)

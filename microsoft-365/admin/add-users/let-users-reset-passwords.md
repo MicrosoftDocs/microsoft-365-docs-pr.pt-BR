@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Saiba como você pode definir uma política para permitir que os usuários redefinir suas próprias senhas usando a ferramenta de redefinição de senha de autoatendados.
-ms.openlocfilehash: 2c79d5611ab2db00f4de5f227b0ec2f411955558
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 81fbe1949b8d5e4a601411703d86165f95cc7b7f
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571848"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634263"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Permitir que os usuários redefinam as próprias senhas
 
@@ -74,8 +74,6 @@ Estas etapas habilitam a redefinição de senhas de autoatendimento para todas a
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Definir a política de expiração de senha para sua organização](../manage/set-password-expiration-policy.md) (artigo)
-
-[Definir a senha de um usuário individual para nunca expirar](set-password-to-never-expire.md) (artigo)
-
+[Definir a política de expiração de senha para sua](../manage/set-password-expiration-policy.md) organização (artigo)\
+[Definir a senha de um usuário individual para nunca expirar](set-password-to-never-expire.md) (artigo)\
 [Microsoft 365 Business vídeos de treinamento](../../business-video/index.yml) (página de link)

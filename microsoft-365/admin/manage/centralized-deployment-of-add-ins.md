@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Determine se o locatário e os usuários atendem aos requisitos, para que você possa usar a Implantação Centralizada para implantar Office de complementos.
-ms.openlocfilehash: e5d3337cdf1bbb0dc18ee6940ab8bd289d2e5f65
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 25fe217a41274b6a239e4ee482ee105238465999
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593916"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635445"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Determinar se a Implantação Centralizada de complementos funciona para sua organização
 
@@ -160,11 +160,8 @@ Se você ou seus usuários encontrarem problemas para carregar o add-in enquanto
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Implantar os complementos no centro de administração](../manage/manage-deployment-of-add-ins.md) (artigo)
-
-[Gerenciar os complementos no centro de administração](manage-addins-in-the-admin-center.md) (artigo)
-
-[Perguntas frequentes sobre implantação](../manage/centralized-deployment-faq.md) centralizada (artigo)
-
+[Implantar os complementos no centro de administração](../manage/manage-deployment-of-add-ins.md) (artigo)\
+[Gerenciar os complementos no centro de administração](manage-addins-in-the-admin-center.md) (artigo)\
+[Perguntas frequentes sobre implantação](../manage/centralized-deployment-faq.md) centralizada (artigo)\
 [Atualize seu Microsoft 365 para usuários comerciais para o cliente Office mais recente](../setup/upgrade-users-to-latest-office-client.md) (artigo)
  

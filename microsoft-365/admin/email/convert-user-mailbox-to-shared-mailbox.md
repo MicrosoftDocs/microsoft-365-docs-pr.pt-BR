@@ -20,16 +20,18 @@ search.appverid:
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
 description: 'Aprenda a converter uma caixa de correio privada em uma caixa de correio compartilhada que pode ser acessada por várias pessoas em vez de por apenas uma pessoa. '
-ms.openlocfilehash: 73e2bad40037e1343f4e08c07ca6b26df16b1a30
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 0beb85e5a69b72bcd244cd654c399e91ded06ba7
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537614"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635469"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>Converter uma caixa de correio do usuário em uma caixa de correio compartilhada
 
 Quando você converte a caixa de correio de um usuário em uma caixa de correio compartilhada, todo o email e calendário existentes são mantidos. Somente agora ele está em uma caixa de correio compartilhada onde várias pessoas poderão acessá-la em vez de uma pessoa. Em uma data posterior, você pode converter uma caixa de correio compartilhada de volta em uma caixa de correio de usuário (privada).
+
+## <a name="before-you-begin"></a>Antes de começar
 
 **Aqui estão algumas coisas realmente importantes que você precisa saber:**
 
@@ -59,7 +61,6 @@ Para saber mais sobre caixas de correio compartilhadas, consulte Sobre caixas de
 > [!NOTE]
 > Caixas de correio compartilhadas não exigem uma licença separada. No entanto, se você quiser habilitar o In-Place Archive ou colocar uma In-Place ou uma Responsabilidade de Litígio em uma caixa de correio compartilhada, você deve atribuir uma licença do Exchange Online Plano 1 com Arquivamento do Exchange Online ou Exchange Online Plano 2 à caixa de correio.
 
-
 ## <a name="convert-the-mailbox-of-a-deleted-user"></a>Converter a caixa de correio de um usuário excluído
 
 Digamos que você excluiu uma conta de usuário e agora deseja converter sua caixa de correio antiga em uma caixa de correio de compartilhamento. Veja o que você precisa fazer:
@@ -77,7 +78,6 @@ Digamos que você excluiu uma conta de usuário e agora deseja converter sua cai
 6. Após isso, você pode remover a licença da caixa de correio do usuário. Não exclua a caixa de correio antiga do usuário. A caixa de correio compartilhada precisa dela como âncora.
     
 7. Adicione membros à caixa de correio compartilhada.
-
 
 ## <a name="convert-a-shared-mailbox-back-to-a-users-private-mailbox"></a>Converter uma caixa de correio compartilhada de volta na caixa de correio (privada) de um usuário
 
@@ -104,12 +104,8 @@ Para obter mais informações sobre como converter uma caixa de correio de usuá
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Sobre caixas de correio compartilhadas](about-shared-mailboxes.md) (artigo)
-
-[Criar uma caixa de correio compartilhada](create-a-shared-mailbox.md) (artigo)
-
-[Configurar uma caixa de correio compartilhada](configure-a-shared-mailbox.md) (artigo)
-
-[Remover uma licença de uma caixa de correio compartilhada](remove-license-from-shared-mailbox.md) (artigo)
-
+[Sobre caixas de correio compartilhadas](about-shared-mailboxes.md) (artigo)\
+[Criar uma caixa de correio compartilhada](create-a-shared-mailbox.md) (artigo)\
+[Configurar uma caixa de correio compartilhada](configure-a-shared-mailbox.md) (artigo)\
+[Remover uma licença de uma caixa de correio compartilhada](remove-license-from-shared-mailbox.md) (artigo)\
 [Resolver problemas com caixas de correio compartilhadas](resolve-issues-with-shared-mailboxes.md) (artigo)

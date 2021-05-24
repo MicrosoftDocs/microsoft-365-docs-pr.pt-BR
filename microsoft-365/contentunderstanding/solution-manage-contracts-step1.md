@@ -6,18 +6,18 @@ manager: pamgreen
 ms.reviewer: ssquires
 audience: admin
 ms.topic: article
-ms.date: 05/17/2021
+ms.date: ''
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: ''
 description: Saiba como usar o SharePoint Syntex para identificar arquivos de contrato e extrair dados usando uma solução Microsoft 365.
-ms.openlocfilehash: 67c0a072b070cd414f5079fe4fb61e7391839951
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: b4b11b1bdb980b0ee7629af0cbecbb126a5ae5e5
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583563"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636201"
 ---
 # <a name="step-1-use-sharepoint-syntex-to-identify-contract-files-and-extract-data"></a>Etapa 1. Use SharePoint Syntex para identificar arquivos de contrato e extrair dados
 

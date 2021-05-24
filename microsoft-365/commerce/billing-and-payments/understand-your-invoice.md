@@ -22,12 +22,12 @@ search.appverid: MET150
 description: Saiba como ler e entender sua fatura ou cobrança de produtos comerciais da Microsoft.
 keywords: contas de cobrança, informações sobre a organização, fatura
 ms.date: 05/04/2021
-ms.openlocfilehash: d173df1eac827eb835b8544f64858c28ccf0fb75
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 64ccf82549bb85ba803693eb3e7c15939940d45c
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537302"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635841"
 ---
 # <a name="understand-your-bill-or-invoice"></a>Entenda sua cobrança ou fatura
 
@@ -142,21 +142,17 @@ As instruções de pagamento dependem do seu método de pagamento e são forneci
 
 ### <a name="why-dont-i-see-azure-prepayment-as-a-payment-method"></a>Por que eu não vejo o pagamento antecipado do Azure como um método de pagamento?
 
-O pagamento antecipado do Azure está disponível como forma de pagamento somente para produtos e serviços Azure elegíveis.
-
-## <a name="related-content"></a>Conteúdo relacionado
-
-[Entenda sua fatura ou fatura para Microsoft 365 para empresas](understand-your-invoice2.md) (artigo)
-
-[Acompanhar o saldo de crédito do Microsoft Customer Agreement do Azure](/azure/billing/billing-mca-check-azure-credits-balance) (artigo)
-
-[Revisar sua fatura do Contrato de Cliente da Microsoft](/azure/cost-management-billing/understand/review-customer-agreement-bill) (artigo)
-
-[Começar com sua conta de](/azure/billing/billing-mca-overview) cobrança do Contrato de Cliente da Microsoft (artigo)
-
+O pré-pagamento do Azure está disponível como um método de pagamento apenas para produtos e serviços qualificados do Azure
 
 ## <a name="need-help-contact-support"></a>Precisa de ajuda? Contatar o suporte
 
 Se você tiver dúvidas ou precisar de ajuda com seus créditos Azure, <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">crie uma solicitação de suporte com o Suporte do Azure</a>.
 
 Se você tiver dúvidas ou precisar de ajuda com sua fatura no Centro de administração do Microsoft 365, [entre em contato com o suporte para produtos comerciais](../../business-video/get-help-support.md).
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Entenda sua fatura ou fatura para Microsoft 365 para empresas](understand-your-invoice2.md) (artigo)\
+Acompanhar o saldo de crédito do [Microsoft Customer Agreement do Azure](/azure/billing/billing-mca-check-azure-credits-balance) (artigo)\
+[Revise sua fatura do Contrato de Cliente da Microsoft](/azure/cost-management-billing/understand/review-customer-agreement-bill) (artigo)\
+[Começar com sua conta de](/azure/billing/billing-mca-overview) cobrança do Contrato de Cliente da Microsoft (artigo)

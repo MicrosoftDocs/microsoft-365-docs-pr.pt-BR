@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 05/12/2021
+ms.date: 05/24/2021
 audience: admin
 ms.topic: article
 ms.service: ''
@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: None
 description: Saiba como configurar o Microsoft Viva Learning (Visualização) no Teams de administração.
-ms.openlocfilehash: e5af676752064738e26f9b934a60973cb9b0200d
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: a96a2f3ecf7d4e1ee0c136ae155868218f08aaf4
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625288"
+ms.locfileid: "52636129"
 ---
 # <a name="set-up-microsoft-viva-learning-preview-in-the-teams-admin-center"></a>Configurar o Microsoft Viva Learning (Visualização) no Teams de administração
 
@@ -29,7 +29,7 @@ ms.locfileid: "52625288"
 
 O Teams administrador instala o Viva Learning (Visualização) e aplica políticas de permissão por meio do Teams de administração.
 
-1. Para Visualização Pública, você deve primeiro definir a política De atualização. Para obter mais detalhes, consulte o Teams site Microsoft Teams [Visualização Pública](/MicrosoftTeams/public-preview-doc-updates).
+1. Para o Viva Learning (Visualização), você deve primeiro definir a política De atualização em Teams. Para obter mais informações, [consulte Microsoft Teams Visualização Pública](/MicrosoftTeams/public-preview-doc-updates).
 
     1. Entre no centro de Teams de administração.
 
@@ -41,15 +41,15 @@ O Teams administrador instala o Viva Learning (Visualização) e aplica polític
 
 2. O administrador deve notificar os usuários sobre a atualização de política para que eles movam sua com build para a Visualização Pública para Teams. 
 
-    1. O usuário deve selecionar sua imagem de perfil --> Sobre --> Visualização Pública.
+    1. Os usuários devem selecionar suas imagens de perfil > **Sobre**  >  **Visualização Pública.**
    
         ![Navegação superior no aplicativo Teams mostrando o perfil do usuário](../media/learning/learning-app-select-profile-teams.png)
     
-    2. O usuário deve aceitar os termos de Visualização Pública.
+    2. Os usuários devem aceitar os termos e condições **de visualização** pública.
 
         ![Alternar para a com build de visualização pública](../media/learning/learning-app-switch-to-public-preview.png)
  
-3. Para organizações que têm políticas restritivas e precisam habilitar o Viva Learning, siga o processo na próxima seção.
+3. Para organizações que têm políticas restritivas e precisam habilitar o Viva Learning (Visualização), siga o processo na próxima seção.
 
 ## <a name="manage-settings-for-viva-learning-preview"></a>Gerenciar configurações para o Viva Learning (Visualização)
 

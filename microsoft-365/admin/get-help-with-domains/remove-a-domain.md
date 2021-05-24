@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Saiba como remover um domínio antigo do Microsoft 365 e mover usuários e grupos para outro domínio ou cancelar sua assinatura.
-ms.openlocfilehash: 089f0378109dd2a5abdf922694390bfdc943693a
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: a8e636059a84a2086844a8ff139d240268ee5b19
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582927"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635697"
 ---
 # <a name="remove-a-domain"></a>Excluir um domínio
   
@@ -220,8 +220,6 @@ Ainda não funciona? É possível que seja necessário remover seu domínio manu
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Perguntas frequentes sobre domínios](../setup/domains-faq.yml) (artigo)
-
-[Alternar para um plano Microsoft 365 para empresas](../../commerce/subscriptions/switch-to-a-different-plan.md) (artigo)
-
+[Perguntas frequentes sobre domínios](../setup/domains-faq.yml) (artigo)\
+[Alternar para um plano Microsoft 365 para empresas](../../commerce/subscriptions/switch-to-a-different-plan.md) (artigo)\
 [Cancelar sua assinatura](../../commerce/subscriptions/cancel-your-subscription.md) (artigo)

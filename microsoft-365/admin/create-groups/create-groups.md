@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Aprenda a criar e excluir Microsoft 365 grupos, adicionar e remover membros do grupo e personalizar como o grupo funciona.
-ms.openlocfilehash: b3fb637867229489a3e3abe93373cc46fbce365f
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: b8cbd194825ef114fa8e4ce999355248a61e7830
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52241719"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635577"
 ---
 # <a name="create-a-group-in-the-microsoft-365-admin-center"></a>Criar um grupo no Microsoft 365 de administração
   
@@ -80,14 +80,12 @@ Um membro pode excluir uma conversa de email da caixa de entrada Grupo se a inic
   
 Quando um email é excluído da caixa de correio do grupo, ele não é excluído de nenhuma das caixas de correio pessoais dos membros do grupo.
 
-## <a name="next-step-manage-your-group"></a>Próxima etapa: gerenciar seu grupo
+## <a name="next-steps"></a>Próximas etapas
 
 Depois de criar um novo grupo e adicionar membros, você pode configurar ainda mais seu grupo, como editar o nome ou a descrição do grupo, alterar proprietários ou membros e especificar se os envios externos podem enviar emails para o grupo e se devem enviar cópias de conversas de grupo aos membros. Consulte [Gerenciar um grupo Microsoft 365 para](manage-groups.md) obter informações.
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Gerenciar o acesso de convidados Microsoft 365 grupos](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6) (artigo)
-
-[Escolha o domínio a ser usado ao criar Microsoft 365 grupos](../../solutions/choose-domain-to-create-groups.md) (artigo)
-
+[Gerenciar o acesso de convidados Microsoft 365 grupos](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6) (artigo)\
+[Escolha o domínio a ser usado ao criar Microsoft 365 grupos](../../solutions/choose-domain-to-create-groups.md) (artigo)\
 [Atualizar listas de distribuição para Microsoft 365 grupos](../manage/upgrade-distribution-lists.md) (artigo)
