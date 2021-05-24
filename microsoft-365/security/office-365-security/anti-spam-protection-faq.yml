@@ -20,12 +20,12 @@ metadata:
   description: Os administradores podem exibir perguntas e respostas frequentes sobre a proteção anti-spam no Proteção do Exchange Online (EOP).
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: e632ab1183c43cd50da7c2cf7832a5a18fa64d50
-  ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+  ms.openlocfilehash: b15e7409c275810a9d5e70d1376a9c3accd07ab9
+  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/20/2021
-  ms.locfileid: "52583611"
+  ms.lasthandoff: 05/24/2021
+  ms.locfileid: "52624904"
 title: Perguntas frequentes sobre a proteção antispam
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -61,7 +61,7 @@ sections:
 
       > [!IMPORTANT]
 
-      > Em implantações híbridas em que o EOP protege caixas de correio locais, você precisa configurar duas regras de fluxo de emails do Exchange (também conhecidas como regras de transporte) em sua organização local Exchange para detectar os headers de filtragem de spam do EOP adicionados às mensagens. Para obter detalhes, confira [Configurar a EOP autônoma para enviar spam à pasta Lixo Eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
+      > Em implantações híbridas em que o EOP protege caixas de correio locais Exchange, você precisa configurar duas regras de fluxo de emails do Exchange (também conhecidas como regras de transporte) em sua organização local Exchange para detectar os headers de filtragem de spam do EOP adicionados às mensagens. Para obter detalhes, [consulte Configure EOP to deliver spam to the Junk Email folder in hybrid environments](/exchange/standalone-eop/configure-eop-spam-protection-hybrid).
 
        **Para mensagens de saída:** A mensagem é roteada pelo [pool](high-risk-delivery-pool-for-outbound-messages.md) de entrega de alto risco ou é retornada para o remetente em um relatório de não entrega (também conhecido como uma mensagem de NDR ou bounce). Para obter mais informações sobre a proteção de spam de saída, consulte [Controles de spam de saída.](outbound-spam-controls.md)
   - question: >

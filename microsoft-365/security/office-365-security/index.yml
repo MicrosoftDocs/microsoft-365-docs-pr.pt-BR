@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Documentação do Microsoft Defender para Office 365
-summary: Saiba mais sobre as soluções robustas de segurança no Defender para Office 365 para proteger melhor suas ferramentas de email e colaboração.
+title: Microsoft Defender para Office 365 documentação
+summary: Saiba mais sobre as soluções robustas de segurança no Defender para Office 365 proteger melhor suas ferramentas de email e colaboração.
 metadata:
-  title: Documentação de segurança do Microsoft Defender para Office 365
-  description: Saiba mais sobre as soluções robustas de segurança no Defender para Office 365 para proteger melhor suas ferramentas de email e colaboração.
+  title: Microsoft Defender para Office 365 de segurança
+  description: Saiba mais sobre as soluções robustas de segurança no Defender para Office 365 proteger melhor suas ferramentas de email e colaboração.
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -13,14 +13,14 @@ metadata:
   ms.author: macapara
   ms.date: 04/13/2021
   localization_priority: Priority
-  ms.openlocfilehash: a646d52b903a1ab16d2f552b456793492462c44b
-  ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+  ms.openlocfilehash: b379b42ae3c01c8359003407f3fb58834a8c074e
+  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/14/2021
-  ms.locfileid: "51760255"
+  ms.lasthandoff: 05/24/2021
+  ms.locfileid: "52623560"
 landingContent:
-- title: Defender para o Office 365 & Proteção do Exchange Online
+- title: Defender para Office 365 & Proteção do Exchange Online
   linkLists:
   - linkListType: overview
     links:
@@ -36,7 +36,7 @@ landingContent:
       url: protect-against-threats.md
     - text: Políticas de segurança predefinidas no EOP e no Microsoft Defender para Office 365
       url: preset-security-policies.md
-    - text: Novidades no Microsoft Defender para Office 365
+    - text: Novidades do Microsoft Defender para Office 365
       url: whats-new-in-defender-for-office-365.md
 - title: Avaliar o Defender para Office 365
   linkLists:
@@ -44,7 +44,7 @@ landingContent:
     links:
     - text: Avaliar o Defender para Office 365
       url: office-365-evaluation.md
-    - text: Alternar para a Proteção do Exchange Online
+    - text: Alternar para Proteção do Exchange Online
       url: switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md
 - title: Configurando a proteção de autenticação de email
   linkLists:
@@ -62,13 +62,13 @@ landingContent:
     links:
     - text: Visão geral do Exchange Online Protection
       url: exchange-online-protection-overview.md
-    - text: Configurações recomendadas para segurança do EOP e do Microsoft Defender para Office 365 para configuração
+    - text: Configurações recomendadas para o EOP e o Microsoft Defender para Office 365 segurança para configurar
       url: recommended-settings-for-eop-and-office365.md
 - title: Impedir
   linkLists:
   - linkListType: overview
     links:
-    - text: Configurar seu locatário do Microsoft 365 para aumentar a segurança
+    - text: 'Configure o locatário do Microsoft 365 para aumentar a segurança '
       url: tenant-wide-setup-for-increased-security.md
     - text: Analisador de configuração no EOP e no Defender para Office 365
       url: configuration-analyzer-for-security-policies.md
@@ -78,8 +78,8 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Regras de fluxo de email (regras de transporte) no EOP autônomo
-      url: mail-flow-rules-transport-rules-0.md
+    - text: Regras de fluxo de emails (regras de transporte) no Exchange Online
+      url: /exchange/security-and-compliance/mail-flow-rules/mail-flow-rules
     - text: Rastreadores de Ameaças
       url: threat-trackers.md
     - text: Relatórios inteligentes e insights no Centro de Conformidade e Segurança
@@ -92,7 +92,7 @@ landingContent:
       url: threat-explorer-views.md
     - text: Exibições de campanha no Microsoft Defender para Office 365
       url: campaigns.md
-    - text: Investigar emails mal-intencionados que foram entregues no Office 365
+    - text: Investigar emails mal-intencionados que foram entregues Office 365
       url: investigate-malicious-email-that-was-delivered.md
     - text: Exibir relatórios do Defender para Office 365
       url: view-reports-for-mdo.md
@@ -102,17 +102,17 @@ landingContent:
     links:
     - text: Rastreamento de relatórios e mensagens no EOP
       url: reporting-and-message-trace-in-exchange-online-protection.md
-    - text: Exibir o log de auditoria de administradores no EOP autônomo
-      url: view-the-admin-audit-log-eop.md
+    - text: Exibir o log de auditoria do administrador
+      url: /exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log
 - title: Responder
   linkLists:
   - linkListType: overview
     links:
-    - text: Correção de emails mal-intencionados entregues no Office 365
+    - text: Correção de emails mal-intencionados entregues Office 365
       url: remediate-malicious-email-delivered-office-365.md
     - text: Responder a uma conta de email comprometida
       url: responding-to-a-compromised-email-account.md
-    - text: Correção de regras do Outlook e ataques de injeções de formulários personalizados
+    - text: Remediar Outlook regras e ataques de injeções de formulários personalizados
       url: detect-and-remediate-outlook-rules-forms-attack.md
     - text: Enviar Falsos Positivos/Falsos Negativos
       url: admin-submission.md
@@ -120,9 +120,9 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Como funciona a Investigação e Resposta Automatizadas (AIR) no Defender para Office 365
+    - text: Como a Investigação Automatizada e Resposta (AIR) funciona no Defender para Office 365
       url: automated-investigation-response-office.md
-    - text: Começar com o AIR no Defender para Office 365
+    - text: Introdução com AIR no Defender para Office 365
       url: office-365-air.md
     - text: Endereço de contas de usuário comprometidas com AIR
       url: address-compromised-users-quickly.md
