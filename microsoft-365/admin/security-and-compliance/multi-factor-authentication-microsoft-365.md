@@ -22,13 +22,13 @@ search.appverid:
 - MOE150
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
-description: Saiba mais sobre a autenticação multifação no Microsoft 365.
-ms.openlocfilehash: 080251efa7d7d3bda6ad89e95960e43dd38d076d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+description: A autenticação multifato (MFA) usa uma senha, que deve ser forte, e um método de verificação adicional.
+ms.openlocfilehash: 84d26d0a9908e51ce734e71961d4643a2df3471b
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050661"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623684"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Autenticação multifator para Microsoft 365
 
@@ -41,34 +41,34 @@ Para fornecer um nível adicional de segurança para entrar, você deve usar a a
 
 O método de verificação adicional não é empregado até que a senha do usuário seja verificada. Com o MFA, mesmo que uma senha de usuário forte seja comprometida, o invasor não tem seu smartphone ou sua impressão digital para concluir a login.
 
-## <a name="mfa-support-in-microsoft-365"></a>Suporte a MFA no Microsoft 365
+## <a name="mfa-support-in-microsoft-365"></a>Suporte A MFA no Microsoft 365
 
-Por padrão, o Microsoft 365 e o Office 365 suportam MFA para contas de usuário usando:
+Por padrão, os Microsoft 365 e Office 365 suportam MFA para contas de usuário usando:
 
 - Uma mensagem de texto enviada para um telefone que exige que o usuário digite um código de verificação.
 - Uma chamada telefônica.
-- O aplicativo de telefone inteligente Microsoft Authenticator.
+- O Microsoft Authenticator de telefone inteligente.
 
-Em ambos os casos, a assinatura MFA está usando o método "algo que você tem com você que não é facilmente duplicado" para a verificação adicional. Há várias maneiras de habilitar o MFA para o Microsoft 365 e o Office 365:
+Em ambos os casos, a assinatura MFA está usando o método "algo que você tem com você que não é facilmente duplicado" para a verificação adicional. Há várias maneiras de habilitar o MFA para Microsoft 365 e Office 365:
 
 - Com padrões de segurança
 - Com políticas de Acesso Condicional
 - Para cada conta de usuário individual (não recomendada)
 
-Essas maneiras se baseiam no seu plano do Microsoft 365.
+Essas maneiras se baseiam no seu Microsoft 365 plano.
 
 |Planejar|Recomendação|Tipo de cliente|
 |---|---|---|
-|Todos os planos do Microsoft 365|Use padrões de segurança, que exigem MFA para todas as contas de usuário. <p> Você também pode configurar o MFA por usuário em contas de usuário individuais, mas isso não é recomendado.|Pequena empresa|
-|Microsoft 365 Business Premium <p> Microsoft 365 E3 <p> Licenças premium P1 do Azure Active Directory (Azure AD)|Use políticas de Acesso Condicional para exigir MFA para contas de usuário com base em associação a grupos, aplicativos ou outros critérios.|Pequenas empresas para empresas|
-|Microsoft 365 E5 <p> Licenças do Azure AD Premium P2|Use a Proteção de Identidade do Azure AD para exigir MFA com base nos critérios de risco de login.|Enterprise|
+|Todos os Microsoft 365 planos|Use padrões de segurança, que exigem MFA para todas as contas de usuário. <p> Você também pode configurar o MFA por usuário em contas de usuário individuais, mas isso não é recomendado.|Pequena empresa|
+|Microsoft 365 Business Premium <p> Microsoft 365 E3 <p> Azure Active Directory (Azure AD) Premium P1|Use políticas de Acesso Condicional para exigir MFA para contas de usuário com base em associação a grupos, aplicativos ou outros critérios.|Pequenas empresas para empresas|
+|Microsoft 365 E5 <p> Licenças do Azure AD Premium P2|Use a Proteção de Identidade do Azure AD para exigir MFA com base nos critérios de risco de login.|Empresa|
 ||||
 
 ### <a name="security-defaults"></a>Padrões de segurança
 
 Os padrões de segurança são um novo recurso para assinaturas pagas ou de avaliação do Microsoft 365 e Office 365 criadas após 21 de outubro de 2019. Essas assinaturas têm padrões de segurança ativas, que:
 
-- Exige que todos os usuários usem o MFA com o aplicativo Microsoft Authenticator.
+- Exige que todos os usuários usem o MFA com o Microsoft Authenticator app.
 - Bloqueia a autenticação herdda.
 
 Os usuários têm 14 dias para se registrar na MFA com o aplicativo Microsoft Authenticator em seus smartphones, que começa na primeira vez em que eles entram depois de os padrões de segurança terem sido habilitados. Após 14 dias, o usuário não poderá entrar até que o registro da MFA seja concluído.
@@ -79,7 +79,7 @@ Você habilita ou desabilita os padrões de segurança no painel **Propriedades*
 
 ![Imagem da página Propriedades do diretório.](../../media/multi-factor-authentication-microsoft-365/security-defaults-mfa.png)
 
-Você pode usar padrões de segurança com qualquer plano do Microsoft 365.
+Você pode usar padrões de segurança com qualquer Microsoft 365 plano.
 
 Para obter mais informações, confira esta [visão geral dos padrões de segurança](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
 
@@ -91,7 +91,7 @@ As políticas de acesso condicional são um conjunto de regras que especificam a
 
 Essa política permite exigir a MFA com base na associação ao grupo, em vez de tentar configurar contas de usuário individuais para a MFA quando elas são atribuídas ou não a essas funções de administrador.
 
-Você também pode usar políticas de Acesso Condicional para recursos mais avançados, como exigir MFA para aplicativos específicos ou que a entrada é feita a partir de um dispositivo compatível, como seu laptop executando o Windows 10.
+Você também pode usar políticas de Acesso Condicional para recursos mais avançados, como exigir MFA para aplicativos específicos ou que a entrada é feita a partir de um dispositivo compatível, como seu laptop executando Windows 10.
 
 Você configura políticas de Acesso Condicional no **painel** Segurança do Azure AD no portal do Azure.
 
@@ -101,9 +101,9 @@ Você pode usar políticas de Acesso Condicional com:
 
 - Microsoft 365 Business Premium
 - Microsoft 365 E3 e E5
-- Licenças do Azure AD Premium P1 e do Azure AD Premium P2
+- Licenças do Azure AD Premium P1 e Azure AD Premium P2
 
-Para pequenas empresas com o Microsoft 365 Business Premium, você pode usar facilmente as políticas de Acesso Condicional com as seguintes etapas:
+Para pequenas empresas com Microsoft 365 Business Premium, você pode usar facilmente as políticas de Acesso Condicional com as seguintes etapas:
 
 1. Crie um grupo para conter as contas de usuário que exigem MFA.
 2. Habilita **a política Exigir MFA para administradores globais.**
@@ -127,7 +127,7 @@ Para mais informações, confira esta [visão geral do Acesso Condicional](/azur
 
 ### <a name="azure-ad-identity-protection"></a>Azure AD Identity Protection
 
-Com a Proteção de Identidade do Azure AD, você pode criar uma política de Acesso Condicional adicional para exigir MFA quando o risco de entrada [for médio ou alto.](../../security/defender-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk)
+Com a Proteção de Identidade do Azure AD, você pode criar uma política de Acesso Condicional adicional para exigir MFA quando o risco de entrada [for médio ou alto.](../../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk)
 
 Você pode usar a Proteção de Identidade do Azure AD e políticas de Acesso Condicional baseadas em risco com:
 
@@ -140,7 +140,7 @@ Para obter mais informações, confira esta [visão geral da Azure Active Direct
 
 Você deve estar usando os padrões de segurança ou políticas de Acesso Condicional para exigir MFA para suas inserções de conta de usuário. No entanto, se um desses não puder ser usado, a Microsoft recomenda fortemente o MFA para contas de usuário que tenham funções de administrador, especialmente a função de administrador global, para qualquer assinatura de tamanho.
 
-Você habilita o MFA para contas de usuário individuais no **painel** Usuário Ativo do Centro de administração do Microsoft 365.
+Você habilita o MFA para contas de usuário individuais no **painel** Usuário Ativo do Microsoft 365 de administração.
 
 ![Imagem da opção de autenticação de vários fatores na página Usuários ativos](../../media/multi-factor-authentication-microsoft-365/per-user-mfa.png)
 
@@ -157,7 +157,7 @@ Esta tabela mostra os resultados da ativação da MFA com padrões de segurança
 |**MFA herdda por usuário (não recomendado)**|Substitui os padrões de segurança e as políticas de Acesso Condicional que exigem MFA em cada entrada|Substituído por padrões de segurança e políticas de Acesso Condicional|Especificado pelo usuário durante o registro da MFA|
 ||||
 
-Se os padrões de segurança estão habilitados, todos os novos usuários são solicitados a solicitar o registro MFA e o uso do aplicativo Microsoft Authenticator em sua próxima logon.
+Se os padrões de segurança estão habilitados, todos os novos usuários são solicitados a solicitar o registro MFA e o uso do aplicativo Microsoft Authenticator em sua próxima login.
 
 ## <a name="ways-to-manage-mfa-settings"></a>Maneiras de gerenciar configurações de MFA
 
@@ -168,14 +168,13 @@ No portal do Azure, você pode:
 - Habilitar e desabilitar padrões de segurança
 - Configurar políticas de Acesso Condicional
 
-No Centro de administração do Microsoft 365, você pode configurar as configurações de MFA por usuário e serviço.
+No centro Microsoft 365 de administração, você pode configurar as configurações de MFA por usuário e serviço.
 
 ## <a name="your-next-step"></a>Sua próxima etapa
 
-[Configurar o MFA para o Microsoft 365](set-up-multi-factor-authentication.md)
+[Configurar o MFA para Microsoft 365](set-up-multi-factor-authentication.md)
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Vídeo: Ativar a autenticação multifator](../../business-video/turn-on-mfa.md)
-
-[Vídeo: Ativar a autenticação multifator para seu telefone](../../business-video/set-up-mfa.md)
+[Ativar a autenticação multifa factor](../../business-video/turn-on-mfa.md) (vídeo)\
+[Ativar a autenticação multifator para seu telefone](../../business-video/set-up-mfa.md) (vídeo)

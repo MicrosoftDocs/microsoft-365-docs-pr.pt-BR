@@ -23,13 +23,13 @@ search.appverid:
 - BSA160
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
-description: Aprenda sobre domínios e seus registros DNS associados para ajudá-lo a gerenciar seus domínios.
-ms.openlocfilehash: f8d8171e306a0206facec1621bf2b1a9f8085757
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: O sistema de nomes de domínio mapeia os nomes de hosts de computadores para endereços IP e o entendimento básico do DNS e do registrador de domínios pode ajudá-lo a gerenciar domínios.
+ms.openlocfilehash: f9982ad55652eac9faf33986bb1481e29897a48e
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915657"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582939"
 ---
 # <a name="dns-basics"></a>Noções básicas do DNS
 
@@ -102,7 +102,7 @@ Os registros DNS são como um banco de dados de informações sobre seu domínio
   
  *Quando você alterar seu email para o Microsoft 365, ao atualizar o seu registro MX do seu domínio na etapa seguinte, TODOS os emails enviados para esse domínio serão enviados para o Microsoft 365.*  Se outras pessoas utilizarem seu domínio para enviar e receber emails, você deverá configurar caixas de correio do Microsoft 365 para cada uma dessas pessoas. 
   
-Parece complicado? Bom, pode ser, mas vamos orientá-lo ao longo de cada etapa na configuração de domínio da Microsoft.
+Parece complicado? Bem, pode ser, mas vamos orientá-lo ao longo de cada etapa na configuração de domínio da Microsoft.
   
 ### <a name="dns-tells-the-internet-where-to-look-for-websites-too"></a>O DNS também informa à Internet onde localizar os sites
 
@@ -186,7 +186,7 @@ Adicionar um domínio personalizado, como fourthcoffee.com ao Microsoft 365 perm
 
 ## <a name="the-dns-records-required-for-microsoft-365"></a>Os registros DNS necessários para o Microsoft 365
 
-Há diversos registros DNS necessários para que o Microsoft 365 funcione no seu domínio. Além de configurar o registro MX de seu domínio para que os emails sejam enviados ao Microsoft 365, existem registros para ajudá-lo com tarefas, como garantir que o Outlook possa se conectar automaticamente ao servidor do Exchange correto, configurar as mensagens instantâneas e ajudar a impedir emails de spam.
+Há vários registros DNS necessários para que o Microsoft 365 funcione com seu domínio. Além de configurar o registro MX do seu domínio para que os emails sejam enviados para o Microsoft 365, existem registros para ajudá-lo com tarefas como garantir que o Outlook possa se conectar automaticamente ao servidor do Exchange correto, configurar o sistema de mensagens instantâneas e ajudar a evitar mensagens de spam.
   
 Você pode [encontrar uma lista de valores](information-for-dns-records.md) para configurar seu domínio. Eles estão incluídos diretamente no centro de administração do Microsoft 365. 
   
@@ -198,3 +198,11 @@ Confira um dos seguintes tópicos:
   
 - Não sabe onde seu domínio está registrado? [Obtenha ajuda para encontrar o seu registrador de domínio.](find-your-domain-registrar.md)
 - Descubra [por que você deve concluir as etapas do assistente](../setup/add-domain.md) antes de usar seu domínio com o Microsoft 365.
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Perguntas frequentes sobre domínios](../setup/domains-faq.yml) (artigo)
+
+[Localizar e corrigir problemas após adicionar o seu domínio ou registros DNS](find-and-fix-issues.md) (artigo)
+
+[Gerenciar domínios](index.yml) (página de link)

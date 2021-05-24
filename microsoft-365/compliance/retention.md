@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 89a3544c390fdeceea3741a950aad8fe29da25c4
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 2695d34e29492a88da86c2511ce32e4036031e9d
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245583"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52572652"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
-> Se estiver vendo mensagens sobre políticas de retenção no Teams ou tiver dúvidas sobre os rótulos de retenção de seus aplicativos, entre em contato com seu departamento de TI para obter informações sobre como elas foram configuradas para você. Enquanto isso, você poderá encontrar os seguintes artigos úteis:
+> Se estiver vendo mensagens sobre políticas de retenção no Teams ou tiver dúvidas sobre os rótulos de retenção em seus aplicativos, entre em contato com seu departamento de TI para obter informações sobre como elas foram configuradas para você. Entretanto, você pode achar úteis os seguintes artigos:
 > -  [Mensagens do Teams sobre políticas de retenção](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)
 > - [Aplicar rótulos de retenção a arquivos no SharePoint ou no OneDrive](https://support.microsoft.com/office/apply-retention-labels-to-files-in-sharepoint-or-onedrive-11a6835b-ec9f-40db-8aca-6f5ef18132df)
 >
@@ -394,11 +394,15 @@ Para usar os cmdlets de retenção, primeiro você deve [se conectar ao PowerShe
 
 - [Get-ComplianceTagStorage](/powershell/module/exchange/get-compliancetagstorage)
 
+- [Get-RecordReviewNotificationTemplateConfig](/powershell/module/exchange/get-recordreviewnotificationtemplateconfig)
+
 - [Get-RetentionCompliancePolicy](/powershell/module/exchange/get-retentioncompliancepolicy)
 
 - [New-RetentionCompliancePolicy](/powershell/module/exchange/new-retentioncompliancepolicy)
 
 - [Remove-RetentionCompliancePolicy](/powershell/module/exchange/remove-retentioncompliancepolicy)
+
+- [Set-RecordReviewNotificationTemplateConfig](/powershell/module/exchange/set-recordreviewnotificationtemplateconfig )
 
 - [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy)
 
@@ -409,6 +413,7 @@ Para usar os cmdlets de retenção, primeiro você deve [se conectar ao PowerShe
 - [Remove-RetentionComplianceRule](/powershell/module/exchange/remove-retentioncompliancerule)
 
 - [Set-RetentionComplianceRule](/powershell/module/exchange/set-retentioncompliancerule)
+
 
 ## <a name="when-to-use-retention-policies-and-retention-labels-or-ediscovery-holds"></a>Quando usar políticas de retenção e rótulos de retenção, ou bloqueios de Descoberta Eletrônica
 

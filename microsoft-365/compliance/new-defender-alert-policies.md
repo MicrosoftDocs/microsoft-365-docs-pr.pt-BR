@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: noindex,nofollow
 description: Estamos liberando a novas políticas de alerta no Microsoft Defender para Office 365. Também desativamos duas políticas de alerta existentes que foram substituídas pelas novas.
-ms.openlocfilehash: 7074002a78d6e776f24395bf6492177c1d789033
-ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
+ms.openlocfilehash: 4a433a5357a524f396935151e2c5895213c6524c
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "52086766"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583311"
 ---
 # <a name="new-alert-policies-in-microsoft-defender-for-office-365"></a>Novas políticas de alerta no Microsoft Defender para Office 365
 
@@ -37,10 +37,10 @@ A tabela a seguir lista as novas políticas de alerta e as políticas de alerta 
 
 | Política de alerta nova ou existente | Nome da política de alerta | ID da política de alerta|
 |:-----------------------------|:----------------|:--------------|
-| Novo| **Mensagens de email contendo URL mal-intencionada removida após a entrega**   | 0179B3F7-3FDA-40C3-8F24-278563978DBB |
-| Novo| **Mensagens de email contendo arquivo mal-intencionado removido após a entrega**  | 8E6BA277-EF39-404E-AAF1-294F6D9A2B88 |
-| Novo| **Mensagens de email de uma campanha foram entregues e removidas posteriormente** | ef850570-5624-42b2-ff0a-08d8d899d578 |
-| Novo|**Emails mal-intencionados foram entregues e removidos posteriormente**                | a1f563cc-fb1f-466b-1fb5-08d8d71a3050 |
+| Novo| **Mensagens de email contendo URL mal-intencionada removida após a entrega**   | 8e6ba277-ef39-404e-aaf1-294f6d9a2b88 |
+| Novo| **Mensagens de email contendo arquivo mal-intencionado removido após a entrega**  | 4b1820ec-39dc-45f3-abf6-5ee80df51fd2 |
+| Novo| **Mensagens de email de uma campanha foram entregues e removidas posteriormente** | c8522cbb-9368-4e25-4ee9-08d8d899dfab |
+| Novo|**Mensagens de email removidas após a entrega**                | b8f6b088-5487-4c70-037c-08d8d71a43fe |
 | Existente (será removido)| **Mensagens de email contendo URLs de phishing removidas após a entrega**| EA8169FA-0678-4751-8854-AEBEA7ADECEB |
 | Existente (será removido)| **Mensagens de email contendo malware removido após a entrega**| 0179B3F7-3FDA-40C3-8F24-278563978DBB |
 ||||
@@ -67,17 +67,17 @@ A tabela a seguir identifica quando as novas políticas de alerta começarão a 
 |:------------|:-----|
 | **Mensagens de email contendo URL mal-intencionada removida após a entrega** (novo) | Os alertas começarão a ser disparados em 11 de abril de 2021|
 | **Mensagens de email contendo arquivo mal-intencionado removido após a entrega** (novo) | Os alertas começarão a ser disparados em 11 de abril de 2021 |
-| **Mensagens de email de uma campanha foram entregues e removidas posteriormente** (novo) | Os alertas começarão a ser disparados em 14 de maio de 2021|
-| **Emails mal-intencionados foram entregues e removidos posteriormente** (novo) | Os alertas começarão a ser disparados em 14 de maio de 2021|
-| **Mensagens de email contendo URLs de phishing removidas após a entrega** (existentes, serão removidas)| A política de alerta será removida em 14 de maio de 2021. Confira a seção [O que você precisa fazer para se preparar para estas alterações](#what-you-need-to-do-to-prepare-for-these-changes).|
-| **Mensagens de email contendo malware removidos após a entrega** (existentes, serão removidas) | A política de alerta será removida em 14 de maio de 2021. Confira a seção [O que você precisa fazer para se preparar para estas alterações](#what-you-need-to-do-to-prepare-for-these-changes). |
+| **Mensagens de email de uma campanha foram entregues e removidas posteriormente** (novo) | Os alertas começarão a ser disparados em 28 de maio de 2021|
+| **Emails mal-intencionados foram entregues e removidos posteriormente** (novo) | Os alertas começarão a ser disparados em 28 de maio de 2021|
+| **Mensagens de email contendo URLs de phishing removidas após a entrega** (existentes, serão removidas)| A política de alerta será removida em 28 de maio de 2021. Confira a seção [O que você precisa fazer para se preparar para estas alterações](#what-you-need-to-do-to-prepare-for-these-changes).|
+| **Mensagens de email contendo malware removidos após a entrega** (existentes, serão removidas) | A política de alerta será removida em 28 de maio de 2021. Confira a seção [O que você precisa fazer para se preparar para estas alterações](#what-you-need-to-do-to-prepare-for-these-changes). |
 |||
 
 As alterações na severidade do alerta serão estendidas a todas organizações até 14 de maio de 2021.
 
 ## <a name="how-this-will-affect-your-organization"></a>Como isso afetará sua organização
 
-Os novos alertas começarão a ser acionados, disparando investigações de AIR na organização nas datas listadas acima. Para reduzir o impacto nas organizações de segurança que operacionalizaram os dois alertas que serão removidos, você verá os alertas disparados pelas políticas de alerta existentes *e* os alertas disparados pelas novas políticas de alerta entre 5 de abril de 2021 e 14 de maio de 2021. Isso proporcionará às equipes de segurança tempo para lidar com as alterações necessárias. Para ajudar as equipes de segurança com o aumento do volume de alerta durante esta curta duração, os alertas existentes e os novos serão correlacionados na mesma investigação de AIR, e correlacionados em um mesmo Incidente. Mais especificamente, isso inclui o seguinte comportamento para alertas, investigações de AIR e Incidentes:
+Os novos alertas começarão a ser acionados, disparando investigações de AIR na organização nas datas listadas acima. Para reduzir o impacto nas organizações de segurança que operacionalizaram os dois alertas que serão removidos, você verá os alertas disparados pelas políticas de alerta existentes *e* os alertas disparados pelas novas políticas de alerta entre 5 de abril de 2021 e 28 de maio de 2021. Isso proporcionará às equipes de segurança tempo para lidar com as alterações necessárias. Para ajudar as equipes de segurança com o aumento do volume de alerta durante esta curta duração, os alertas existentes e os novos serão correlacionados na mesma investigação de AIR, e correlacionados em um mesmo Incidente. Mais especificamente, isso inclui o seguinte comportamento para alertas, investigações de AIR e Incidentes:
 
 - **Alertas**: Por padrão, você verá os seguintes pares de alerta nos alertas novos e existentes:
 
@@ -109,11 +109,11 @@ A forma como sua organização usa esses alertas determinará o que precisa ser 
 
   - **Mensagens de email contendo malware removido após a entrega**
 
-- Não faça nada. As políticas de alerta existentes serão desabilitadas em 14 de maio de 2021.
+- Não faça nada. Desabilitaremos as políticas de alerta existentes em 28 de maio de 2021.
 
 **Se você tiver operacionalizado esses alertas:**
 
-- Comece a consumir os novos alertas como parte dos fluxos de trabalho, em antecipação à remoção da política de alerta existente em 14 de maio de 2021. Se você tiver uma lógica personalizada no sistema de emissão de tíquetes, uma caixa de correio de segurança onde você recebe notificações de alerta por email, ou uma solução SIEM que depende do nome do alerta ou da Id da política de alerta (CorrelationId), será necessário modificar a lógica para acomodar a alteração.
+- Comece a consumir os novos alertas como parte dos fluxos de trabalho, em antecipação à remoção da política de alerta existente em 28 de maio de 2021. Se você tiver uma lógica personalizada no sistema de emissão de tíquetes, uma caixa de correio de segurança onde você recebe notificações de alerta por email, ou uma solução SIEM que depende do nome do alerta ou da Id da política de alerta (CorrelationId), será necessário modificar a lógica para acomodar a alteração.
 
   > [!NOTE]
   > As informações nos alertas, investigações e incidentes não foram alteradas. Na verdade, essas informações foram aprimoradas com detalhes adicionais sobre as ameaças associadas a elas.
@@ -124,4 +124,4 @@ A forma como sua organização usa esses alertas determinará o que precisa ser 
 
   - **Mensagens de email contendo malware removido após a entrega**
 
-  Como alternativa, deixe estas políticas de alerta habilitadas até elas serem excluídas em 14 de maio de 2021.
+  Como alternativa, deixe estas políticas de alerta habilitadas até elas serem excluídas em 28 de maio de 2021.

@@ -164,6 +164,8 @@
           href: attack-simulation-training-insights.md
         - name: Considerações de implantação de treinamento de simulação de ataque e perguntas frequentes
           href: attack-simulation-training-faq.md
+        - name: Configurar a entrega para simulações de tentativas de phishing e caixas de correio do SecOps
+          href: configure-advanced-delivery.md
         - name: Configurações recomendadas para configurar o EOP e o Defender para segurança do Office 365
           href: recommended-settings-for-eop-and-office365.md
         - name: Práticas recomendadas para a configuração do EOP

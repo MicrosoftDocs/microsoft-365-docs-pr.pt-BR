@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a disposição do conteúdo para quando você usar uma revisão de disposição ou itens marcados como registros forem excluídos automaticamente de acordo com as configurações definidas.
-ms.openlocfilehash: dd03c429bf1b12a4c733c2e6800d0b71ca7a691f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 3c5d178b4eab267759506dcd86d66fb2bf4d93ee
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52532154"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583467"
 ---
 # <a name="disposition-of-content"></a>Disposição de conteúdo
 
@@ -33,6 +33,8 @@ Use a página **Disposição** do **Gerenciamento de Registros** no Centro de co
 > Implementação na visualização: **revisão de disposição em vários estágios**
 > 
 > Um administrador agora pode adicionar até cinco estágios consecutivos de revisão de disposição em um rótulo de retenção, e os revisores podem adicionar outros usuários ao seu estágio de revisão de disposição. Você também pode personalizar as notificações e lembretes por email. As seções a seguir contêm mais informações sobre as mudanças nesta visualização.
+>
+> Para ler o comunicado do lançamento, confira a postagem no blog [Anunciando a Disposição em vários estágios no Gerenciamento de Registros da Microsoft](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/announcing-multi-stage-disposition-in-microsoft-records/ba-p/2361849).
 
 ## <a name="prerequisites-for-viewing-content-dispositions"></a>Pré-requisitos para exibir disposições de conteúdo
 

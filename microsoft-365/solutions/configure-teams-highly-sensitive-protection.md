@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 recommendations: false
 description: Aprenda a implantar equipes com proteção para dados altamente confidenciais.
-ms.openlocfilehash: 0e2f41cfeb06ba34a4a0dcbc82008e44d136a70c
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 7c5485a008434b351eebbec3ea1f20b10d82278a
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572784"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583683"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>Configurar equipes com proteção para dados altamente confidenciais
 
@@ -118,28 +118,16 @@ Sempre que você cria uma nova equipe com o rótulo altamente confidencial, há 
 - Atualize as configurações de compartilhamento do site no Centro de administração do SharePoint para atualizar o link padrão de compartilhamento para *Pessoas com acesso existente*.
 - Atualize as configurações de compartilhamento do site no próprio site para impedir que os membros compartilhem arquivos, pastas ou o site, e desative as solicitações de acesso.
 
-### <a name="site-guest-sharing-settings"></a>Configurações de compartilhamento de convidados do site
+### <a name="site-default-sharing-link-settings"></a>Configurações de link de compartilhamento padrão do site
 
-A configuração de compartilhamento de convidados que você escolheu quando criou o rótulo (que afeta somente a associação à equipe) deve corresponder às configurações de compartilhamento de convidados do site do Microsoft Office SharePoint Online associado, da seguinte maneira:
+Para atualizar o tipo de link de compartilhamento padrão do site
 
-|Configuração do rótulo|Configuração do site do Microsoft Office SharePoint Online|
-|:------------|:----------------------|
-|**Permitir que proprietários de grupos do Office 365 adicionem pessoas de fora da organização aos grupos** selecionado|**Convidados novos e existentes** (padrão para novas equipes)|
-|**Permitir que os proprietários de grupos do Office 365 adicionem pessoas de fora da organização aos grupos** não selecionado|**Somente pessoas em sua organização**|
-
-Para atualizar as configurações do site
 1. Abra o [Centro de Administração do SharePoint Online](https://admin.microsoft.com/sharepoint).
 2. Em **Sites**, clique em **Sites ativos**.
 3. Clique no site associado à equipe.
 4. Na guia **Políticas**, em **Compartilhamento externo**, clique em **Editar**.
-5. Se você permitiu o compartilhamento de convidados ao criar o rótulo Altamente confidencial, certifique-se de que **Convidados novos e existentes** esteja selecionado. Se você não permitiu o compartilhamento quando criou o rótulo, escolha **Somente pessoas da sua organização**.
-6. Em Tipo de link de compartilhamento padrão, limpe a caixa de seleção **O mesmo que a configuração de nível de organização** e selecione **Pessoas com acesso existente**.
-7. Clique em **Salvar**.
-
-Se você deseja criar um script como parte do processo de criação da equipe, use [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) com os seguintes parâmetros:
-
-- `-SharingCapability Disabled` para desativar o compartilhamento de convidados (ativado por padrão)
-- `-DefaultSharingLinkType Internal` para alterar o link de compartilhamento padrão para *Pessoas específicas*
+5. Em Tipo de link de compartilhamento padrão, limpe a caixa de seleção **O mesmo que a configuração de nível de organização** e selecione **Pessoas com acesso existente**.
+6. Clique em **Salvar**.
 
 #### <a name="private-channels"></a>Canais privados
 
