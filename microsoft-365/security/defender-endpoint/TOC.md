@@ -3,7 +3,7 @@
 ## [Visão geral]()
 ### [O que é o Microsoft Defender para Ponto de Extremidade?](microsoft-defender-endpoint.md)
 ### [Requisitos mínimos](minimum-requirements.md)
-### [Novidades no Microsoft Defender para Ponto de Extremidade](whats-new-in-microsoft-defender-atp.md)
+### [O que há de novo no Proteção Avançada contra Ameaças do Microsoft Defender? ](whats-new-in-microsoft-defender-atp.md)
 ### [Recursos de visualização](preview.md)
 ### [Armazenamento de dados e privacidade](data-storage-privacy.md)
 ### [Visão geral da Central de Segurança do Microsoft Defender](use.md)
@@ -134,7 +134,8 @@
 ###### [Implantação manual](linux-install-manually.md)
 ###### [Implantação baseada no Puppet](linux-install-with-puppet.md)
 ###### [Implantação baseada no Ansible](linux-install-with-ansible.md)
- 
+###### [Implantar o Defender para Ponto de Extremidade no Linux com Chef](linux-deploy-defender-for-endpoint-with-chef.md)
+
 ##### [Atualizar](linux-updates.md)
  
 ##### [Configurar]()
@@ -144,7 +145,7 @@
 ###### [Detectar e bloquear Aplicativos Potencialmente Indesejados](linux-pua.md)
 ###### [Agendar verificações com o Microsoft Defender para Ponto de Extremidade para Linux](linux-schedule-scan-atp.md)
 ###### [Agendar uma atualização do Microsoft Defender para Ponto de Extremidade (Linux)](linux-update-MDE-Linux.md)
-###### [Implantar o Defender para Ponto de Extremidade no Linux com Chef](linux-deploy-defender-for-endpoint-with-chef.md)
+
  
 ##### [Solucionar problemas]()
 ###### [Solucionar problemas de instalação](linux-support-install.md)
