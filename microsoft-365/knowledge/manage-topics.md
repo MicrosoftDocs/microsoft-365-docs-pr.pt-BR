@@ -13,12 +13,12 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
 localization_priority: None
-ms.openlocfilehash: ba8f27c90f9c84729a10f461e85b2e1441b49549
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: f2429b0ffdd4a238bc9322ae9199eebbbfd407b5
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625396"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651147"
 ---
 # <a name="manage-topics-in-the-topic-center-in-microsoft-viva-topics"></a>Gerenciar tópicos no centro de tópicos no Microsoft Viva Topics
 
@@ -59,12 +59,12 @@ Os gerentes de conhecimento ajudam a orientar tópicos descobertos por meio dos 
 > [!Note] 
 > Na página **Gerenciar tópicos,** cada gerente de conhecimento só poderá ver tópicos em que eles tenham acesso aos arquivos e páginas subjacentes conectados ao tópico. Essa aparação de permissão será refletida na lista de tópicos que aparecem nas guias **Sugeridas** **,** **Confirmadas,** Publicadas e **Removidas.** O tópico conta, no entanto, mostrar o total de contagens na organização, independentemente das permissões.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Para gerenciar tópicos no centro de tópicos, você precisa:
 - Ter uma licença do Viva Topics.
 
-- Ter a [**Who pode gerenciar a permissão de**](./topic-experiences-user-permissions.md) tópicos. Os administradores de conhecimento podem dar aos usuários essa permissão nas configurações de permissões do tópico do Viva Topics. 
+- Ter a [**Who pode gerenciar a permissão de**](./topic-experiences-user-permissions.md) tópicos. Os Administradores de conhecimento podem dar aos usuários essa permissão nas configurações de permissões do tópico do Viva Topics. 
 
 Você não poderá exibir a página Gerenciar tópicos no centro de **tópicos,** a menos que você tenha a permissão Who **possa gerenciar tópicos.**
 
@@ -119,3 +119,11 @@ Observe que você ainda pode optar por rejeitar um tópico confirmado. Para faze
 Os tópicos publicados foram editados para que informações específicas sempre apareçam para quem encontrar a página. Os tópicos criados manualmente também são listados aqui.
 
    ![Gerenciar tópicos](../media/knowledge-management/manage-topics-new.png)
+
+## <a name="topic-count-dashboard"></a>Painel de contagem de tópicos
+
+Este gráfico no painel de exibição permite que você veja o número de tópicos no centro de tópicos do Viva Tópicos. O gráfico mostra as contagens de tópicos por estágio de ciclo de vida de tópicos e também mostra como as contagens de tópicos têm tendência ao longo do tempo. Os gerentes de conhecimento podem monitorar visualmente a taxa na qual novos tópicos estão sendo descobertos pela AI e a taxa na qual os tópicos estão sendo confirmados ou publicados pelo gerente de conhecimento ou pelas ações do usuário.
+
+Os gerentes de conhecimento podem ver uma contagem diferente de tópicos representados na lista de tópicos na página Gerenciar **tópicos** do que eles veem no painel. Isso porque um gerente de conhecimento pode não ter acesso a todos os tópicos. A contagem apresentada no exibição do painel é feita antes da aplicação de corte de permissão. 
+
+   ![Captura de tela do painel de contagem de tópicos](../media/knowledge-management/topic-count-dashboard.png)

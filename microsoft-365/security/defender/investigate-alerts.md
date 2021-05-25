@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: b9bbe058042a49586e8515fde85371b1487e8d25
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 6a34269c414f59d40c9160d5728159ed9cddf976
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297123"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651339"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>Investigar alertas no Microsoft 365 Defender
 
@@ -58,7 +58,7 @@ Você pode filtrar alertas de acordo com estes critérios:
 - Status
 - Categoria
 - Fonte de detecção
-- Marcas
+- Tags
 - Política
 - Ativos afetados
 
@@ -72,14 +72,12 @@ Você também pode selecionar **a ação Abrir a página de alerta** principal n
 
 Uma página de alerta é composta por estas seções: 
 
-- História do alerta
-- Ações tomadas (incluindo ativos afetados)
-- Eventos relacionados
+- História do alerta, que é a cadeia de eventos e alertas relacionados a esse alerta em ordem cronológica
 - Detalhes de resumo
 
 :::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-main.png" alt-text="Exemplo da página de detalhes de um alerta no centro Microsoft 365 segurança":::
 
-Ao longo de uma página de alerta, você pode selecionar as releições (**...**) ao lado de qualquer entidade para ver ações disponíveis, como abrir a página de ativo específica ou tomar etapas de correção específicas.
+Ao longo de uma página de alerta, você pode selecionar as regiões (**...**) ao lado de qualquer entidade para ver ações disponíveis, como abrir a página de alerta ou vincular o alerta a outro incidente.
 
 ### <a name="analyze-affected-assets"></a>Analisar ativos afetados
 

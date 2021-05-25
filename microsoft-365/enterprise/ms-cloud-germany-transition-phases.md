@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: entenda as ações de fases de migração e os impactos da migração do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para Office 365 serviços na nova região do datacenter alemão.'
-ms.openlocfilehash: a99103083c8fabae3934a6622acc55a59ff5c9a0
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: df2407deeaa3cd6e0b0925b48f888a25c0435042
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346287"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651100"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>Ações e impactos de fases de migração para a migração do Microsoft Cloud Deutschland
 
@@ -305,12 +305,15 @@ Caso você tenha aplicativos de linha de negócios, certifique-se de ter conclu�
 
 **Aplica-se a:** Todos os clientes
 
-Quando o Office 365 locatário conclui a etapa final da migração (Finalização do Azure AD (Fase 9)) todos os serviços são transições para todo o mundo. Nenhum aplicativo ou usuário deve estar acessando recursos para o locatário em qualquer um dos pontos de extremidade do Microsoft Cloud Deutschland. Automaticamente, 30 dias após a conclusão da finalização, o serviço do Microsoft Cloud Deutschland Azure AD interromperá o acesso ao ponto de extremidade para o locatário em transição. As solicitações de ponto de extremidade, como Autenticação, falharão deste ponto em diante em relação ao serviço Microsoft Cloud Deutschland. 
+Quando o Office 365 locatário conclui a etapa final da migração (Fase 9: Finalização do Azure AD), todos os serviços são transições para todo o mundo. Nenhum aplicativo ou usuário deve estar acessando recursos para o locatário em qualquer um dos pontos de extremidade do Microsoft Cloud Deutschland. Automaticamente, 30 dias após a conclusão da finalização, o serviço do Microsoft Cloud Deutschland Azure AD interromperá o acesso ao ponto de extremidade para o locatário em transição. As solicitações de ponto de extremidade, como autenticação, falharão deste ponto em diante em relação ao serviço Microsoft Cloud Deutschland.  
+
+Microsoft Azure clientes devem fazer a transição de suas cargas de trabalho do Azure seguindo as etapas descritas no playbook de migração do [Azure](/azure/germany/germany-migration-main) assim que o locatário concluir a migração para todo o mundo (Fase 9).  
 
 | Step(s) | Descrição | Impacto |
 |:-------|:-------|:-------|
 | Atualizar pontos de extremidade do usuário | Garantir que todos os usuários acessem o serviço usando os pontos de extremidade do mundo inteiro da Microsoft apropriados |30 dias após a finalização da migração, os pontos de extremidade do Microsoft Cloud Deutschland param de receber solicitações; o tráfego de cliente ou aplicativo falhará.  |
 | Atualizar pontos de extremidade do aplicativo do Azure AD | Você deve atualizar autenticação, Azure Active Directory (Azure AD) Graph e pontos de extremidade do MS Graph para seus aplicativos para os do serviço Microsoft Worldwide. | 30 dias após a finalização da migração, os pontos de extremidade do Microsoft Cloud Deutschland param de receber solicitações; o tráfego de cliente ou aplicativo falhará. |
+| Migrar cargas de trabalho do Azure | Os clientes de serviços do Azure devem provisionr novas assinaturas em todo o mundo para os serviços do Azure e executar a migração de acordo com o playbook de migração [do Azure.](/azure/germany/germany-migration-main) | Quando estiver totalmente em transição para o serviço mundial (Fase 10), os clientes não poderão mais acessar cargas de trabalho do Azure presentes no portal do Microsoft Cloud Deutschland Azure. |
 ||||
 
 ### <a name="azure-ad-connect"></a>Azure AD Connect

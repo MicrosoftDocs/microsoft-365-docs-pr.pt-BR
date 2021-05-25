@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Configure a prevenção contra perda de dados de ponto de extremidade do Microsoft 365 para monitorar atividades de arquivo e implementar ações de proteção para esses arquivos para pontos de extremidade.
-ms.openlocfilehash: 8fc8bef62827a5e6125565f5d7227a88cd923dcf
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: a6c0ec6f1248fdeecd8616b7eda000b7608d452d
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332805"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651003"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Introdução à Prevenção contra perda de dados do ponto de extremidade
 
@@ -102,7 +102,11 @@ Certifique-se de que os dispositivos Windows 10 que você pretende implantar o E
     - Para Windows 10 2004 - KB4568831, KB4577063
     - Para dispositivos que executam o Office 2016 (e nenhuma outra versão do Office) - KB4577063 
 
-4. Todos os dispositivos devem estar ingressados [Azure Active Directory (Azure AD)](/azure/active-directory/devices/concept-azure-ad-join), ingressado no AD, ingressado no Azure AD Híbrido ou no AAD registrado.
+4. Todos os dispositivos devem um destes:
+- [Ingressado no Active Directory do Azure (Azure AD)](/azure/active-directory/devices/concept-azure-ad-join)
+- Ingressado no AD
+- [Ingressado no Azure AD Híbrido](/azure/active-directory/devices/concept-azure-ad-join-hybrid)
+- [Registrado no AAD](/azure/active-directory/user-help/user-help-register-device-on-network)
 
 5. Instalar o navegador Microsoft Chromium Edge no dispositivo do ponto de extremidade para impor ações de política para a atividade carregar na nuvem. Confira, [Baixar o novo Microsoft Edge baseado em Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 7abc99a14ec538afea8cdbd4d8f3b4940bcccd9f
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 865aa9dc34a91be251d6f7772da5cc686f9641a4
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300080"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651303"
 ---
 # <a name="investigate-incidents-in-microsoft-365-defender"></a>Investigar incidentes no Microsoft 365 Defender
 
@@ -86,7 +86,19 @@ Veja um exemplo.
 
 :::image type="content" source="../../media/investigate-incidents/incident-alerts.png" alt-text="Exemplo de uma página Alertas para um incidente":::
 
-Por padrão, os alertas são ordenados cronologicamente para permitir que você veja como o incidente ocorreu ao longo do tempo. Selecionar cada alerta o leva à página principal do alerta, onde você pode conduzir uma análise detalhada desse alerta. 
+Por padrão, os alertas são ordenados cronologicamente para permitir que você veja como o incidente ocorreu ao longo do tempo. Quando você seleciona um alerta dentro de um incidente, Microsoft 365 Defender exibe as informações de alerta específicas para o contexto do incidente geral. 
+
+Você pode ver os eventos do alerta, quais outros alertas disparados causaram o alerta atual e todas as entidades e atividades afetadas envolvidas no ataque, incluindo arquivos, usuários e caixas de correio.
+
+Veja um exemplo.
+
+:::image type="content" source="../../media/investigate-incidents/incident-alert-example.png" alt-text="Exemplo de uma página de detalhes de alerta dentro de um incidente":::
+
+Esta página de alerta de incidente é composta por estas seções:
+
+- História do alerta, que inclui um resumo do que aconteceu
+- Eventos e alertas relacionados
+- Detalhes de resumo
 
 Saiba como usar a fila de alertas e as páginas de alerta em [alertas de investigação.](investigate-alerts.md)
 
@@ -112,6 +124,9 @@ A **guia** Usuários lista todos os usuários que foram identificados para fazer
 :::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="Exemplo de uma página Usuários para um incidente":::
 
 Você pode selecionar a marca de seleção de um usuário para ver detalhes da ameaça, exposição e informações de contato da conta de usuário. Selecione o nome de usuário para ver detalhes adicionais da conta de usuário.
+
+Saiba como exibir informações adicionais do usuário e gerenciar os usuários de um incidente na [investigação de usuários](investigate-users.md).
+
 
 ## <a name="mailboxes"></a>Caixas de correio
 

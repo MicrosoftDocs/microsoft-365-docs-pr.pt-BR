@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: pré-trabalho ao mudar do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para Office 365 serviços na nova região do datacenter alemão.'
-ms.openlocfilehash: f872a75ed11bfd53c2100f1370a4e22426437bff
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 66f23d33e9e55c432c33e9d90549d33ea42536db
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344693"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651015"
 ---
 # <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>Atividades de pré-migração para a migração do Microsoft Cloud Deutschland
 
@@ -205,7 +205,7 @@ Se você estiver usando um serviço de terceiros ou aplicativos de linha de neg�
 Se você estiver usando a mesma partição de Azure Active Directory de identidade para Office 365 e Microsoft Azure na instância do Microsoft Cloud Deutschland, certifique-se de que você está se preparando para a migração orientada pelo cliente dos serviços Microsoft Azure.
 
 > [!NOTE]
-> A migração de seus serviços Microsoft Azure não deve ser iniciada antes que o locatário Office 365 tenha atingido a fase de migração 3 e deve ser concluída antes da conclusão da fase 8 de migração.
+> A migração de seus serviços Microsoft Azure pode não começar antes que seu locatário Office 365 tenha atingido a fase de migração 9 e deve ser concluída antes que a fase 10 de migração tenha sido concluída.
 
 Os clientes que usam Office 365 e recursos do Azure (por exemplo, rede, computação e armazenamento) realizarão a migração de recursos para a instância de serviços Office 365. Essa migração é responsabilidade do cliente. As postagens da Central de Mensagens sinalizam o início. A migração deve ser concluída antes da finalização da organização do Azure AD no ambiente Office 365 serviços. Para migrações do Azure, consulte o manual de migração do Azure, Visão geral das diretrizes de migração [para o Azure Germany](https://docs.microsoft.com/azure/germany/germany-migration-main).
 

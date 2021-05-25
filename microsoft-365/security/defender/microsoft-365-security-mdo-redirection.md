@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 40d86f9f3a4896bbe788f0a9894a7e08efe3a690
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: 2a4b122b3ef3a1ddaf61d8f9373bec3e721db177
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52301723"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651375"
 ---
 # <a name="redirecting-accounts-from-microsoft-defender-for-office-365-to-the-microsoft-365-security-center"></a>Redirecionando contas do Microsoft Defender para Office 365 para o Microsoft 365 de segurança
 
@@ -34,7 +34,7 @@ ms.locfileid: "52301723"
 **Aplica-se a:**
 
 - Microsoft 365 Defender
-- O que é o Defender para Office 365?
+- Microsoft Defender para Office 365?
 
 Este artigo explica como rotear contas para o centro de segurança do Microsoft 365 habilitando o redirecionamento automático do antigo Centro de Conformidade e Segurança da Microsoft (protection.office.com ou securitycenter.microsoft.com), para o centro de segurança Microsoft 365 (security.microsoft.com).
 
@@ -64,13 +64,13 @@ Para iniciar o roteamento de contas para o Microsoft 365 de segurança em securi
 > Depois que o redirecionamento estiver habilitado, as contas em sessões ativas enquanto essa configuração for aplicada não serão ejetadas de suas sessões e serão roteadas apenas para o centro de segurança do Microsoft 365 depois de encerrar a sessão atual e entrar novamente.
 
 ## <a name="can-i-go-back-to-using-the-former-portal"></a>Posso voltar a usar o portal anterior?
-Se algo não estiver funcionando para você ou se houver algo que você não consiga concluir por meio do portal do centro de segurança do Microsoft 365, queremos ouvir sobre isso usando a opção comentários do portal. Se você tiver encontrado algum problema com redirecionamento, recomendamos que você entre em contato com seu parceiro de PM diretamente por meio da visualização privada ou nos avise por meio do formulário De envio de comentários.
+Se algo não estiver funcionando para você ou se houver algo que você não consiga concluir por meio do portal do centro de segurança do Microsoft 365, queremos ouvir sobre isso usando a opção comentários do portal. Se você tiver encontrado algum problema com redirecionamento, por favor, nos avise.
 
 Para reverter para o portal anterior:
 
 1. [Entre no](https://security.microsoft.com/) centro de segurança Microsoft 365 como administrador global ou usando e conta com permissões de administrador de segurança no Azure Active directory.
 
-2. Navegue **até Configurações**  >  **endpoints**  >  **redirecionamento** geral do  >  **Portal.**  
+2. Navegue **até Configurações** Email &  >  **portal** de colaboração  >  **redirecionamento**.   
 
 3. Alterne a configuração de redirecionamento automático para **Off**.
 

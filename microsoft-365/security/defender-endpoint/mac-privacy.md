@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b2897766570c6ef8979a7944a687ba024e55b3ce
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 2884ffc695abc1c6b4b5be9bbd7c9ad37ad05439
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934544"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651291"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-on-macos"></a>Privacidade do Microsoft Defender para Ponto de Extremidade no macOS
 
@@ -133,7 +133,8 @@ Os seguintes campos são coletados:
 | cloud_service.service_uri                           | URI usado para se comunicar com a nuvem. |
 | cloud_service.diagnostic_level                      | Nível de diagnóstico do dispositivo (obrigatório, opcional). |
 | cloud_service.automatic_sample_submission           | Se o envio automático de amostra está ou não ligado. |
-| edr.early_preview                                   | Se o dispositivo deve executar os recursos de visualização antecipada do EDR. |
+| cloud_service.automatic_definition_update_enabled   | Se a atualização automática de definição está ou não 2016. |
+| edr.early_preview                                   | Se o dispositivo deve ser executado EDR recursos de visualização inicial. |
 | edr.group_id                                        | Identificador de grupo usado pelo componente de detecção e resposta. |
 | edr.tags                                            | Marcas definidas pelo usuário. |
 | features. \[ nome do recurso opcional\]                  | Lista de recursos de visualização, juntamente com se eles estão habilitados ou não. |
@@ -165,7 +166,7 @@ Os seguintes campos são coletados:
 | ------------------------------ | ----------- |
 | v1_crash_count                 | Número de vezes que o processo do mecanismo V1 falha a cada hora na máquina cliente  |
 | v2_crash_count                 | Número de vezes que o processo do mecanismo V2 falha a cada hora na máquina cliente  |
-| EDR_crash_count                | Número de vezes que o processo EDR cai a cada hora no computador cliente        |
+| EDR_crash_count                | Número de vezes que EDR processo caiu a cada hora no computador cliente        |
 
 **Estatísticas de extensão do kernel**
 
@@ -219,6 +220,7 @@ Os seguintes campos são coletados:
 | antivirus_engine.scan_cache_maximum                | Tamanho do cache do produto. |
 | antivirus_engine.maximum_scan_threads              | Número máximo de threads usados para verificação. |
 | antivirus_engine.threat_restoration_exclusion_time | Tempo para que um arquivo restaurado da quarentena possa ser detectado novamente. |
+| antivirus_engine.threat_type_settings              | Configuração de como diferentes tipos de ameaça são manipulados pelo produto. |
 | filesystem_scanner.full_scan_directory             | Diretório de verificação completo. |
 | filesystem_scanner.quick_scan_directories          | Lista de diretórios usados na verificação rápida. |
 | edr.latency_mode                                   | Modo de latência usado pelo componente de detecção e resposta. |

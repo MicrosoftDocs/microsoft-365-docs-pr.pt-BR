@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 8d29291c63bdc437163feecce8164089d958d71d
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 2e47b35646a1cd6e1075d80f9ed0550e8e1e819f
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52299959"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651387"
 ---
 # <a name="get-incident-notifications-by-email"></a>Obter notificações de incidentes por email
 
@@ -72,7 +72,7 @@ Siga estas etapas para criar uma nova regra e personalizar as configurações de
 
 Para editar uma regra existente, selecione-a na lista de regras. No painel com o nome da regra, selecione **Editar** regra e faça suas alterações nas páginas **Noções Básicas,** Configurações de Notificação e **Destinatários.** 
 
-Para editar uma regra existente, selecione-a na lista de regras. No painel com o nome da regra, selecione **Excluir**.
+Para excluir uma regra, selecione-a na lista de regras. No painel com o nome da regra, selecione **Excluir**.
 
 ## <a name="see-also"></a>Confira também
 - [Visão geral dos incidentes](incidents-overview.md)

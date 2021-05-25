@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: saiba mais sobre os serviços e os tipos de item que você pode usar rótulos de confidencialidade como condições em políticas DLP
-ms.openlocfilehash: 19bd80de225f703b5c280163e94826498fa097bd
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: b33e6704a3311740c1e386f77f1c751382ee6958
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876290"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651087"
 ---
 # <a name="use-sensitivity-labels-as-conditions-in-dlp-policies"></a>Use rótulos de confidencialidade como condições em políticas DLP
 
@@ -54,7 +54,7 @@ Você pode usar rótulos de confidencialidade como condições nestes itens e ne
 |Serviço  |Tipo de item  |Disponível para a dica de política  |Aplicável  |
 |---------|---------|---------|---------|
 |Exchange    |mensagem de email         |sim         |sim         |
-|Exchange    |anexos de email         |não *         |sim *         |
+|Exchange    |anexos de email         |não         |sim *         |
 |SharePoint Online     |itens no SharePoint Online         |sim         |sim         |
 |OneDrive for Business     |itens         |sim         |sim         |
 |Teams     |Teams e mensagens de canal         |não se aplica         |não se aplica         |
@@ -62,7 +62,7 @@ Você pode usar rótulos de confidencialidade como condições nestes itens e ne
 |Dispositivos Windows 10     |itens         |sim         |sim         |
 |MCAS (visualização) |itens         |sim         |sim         |
 
-\* A detecção de DLP e a aplicação de rótulos de confidencialidade em emails e anexos são suportados em trânsito. As dicas de política DLP de rotulagem de confidencialidade não são anexos de email.
+\* A detecção de DLP de anexos de email rotulados como confidenciais são compatíveis apenas com tipos de arquivos do Office.
 
 \** Anexos enviados no Teams em chats individuais ou canais são carregados automaticamente para o OneDrive for Business e para o SharePoint. Portanto, se o SharePoint Online ou OneDrive for Business estiverem incluídos como locais na sua política de DLP, os anexos enviados pelo Teams serão incluídos automaticamente no escopo dessa condição. O Teams como local não precisa ser selecionado na política de DLP.
 

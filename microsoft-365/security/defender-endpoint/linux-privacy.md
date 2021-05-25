@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cbf68b6ce8397f0339b374a041ba2629b20db699
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 4be0960e8ba868df2acb313b171a08f667c287a7
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933332"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651327"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-on-linux"></a>Privacidade do Microsoft Defender para Ponto de Extremidade no Linux
 
@@ -68,7 +68,7 @@ Os dados de exemplo são usados para melhorar os recursos de proteção do produ
 Há três níveis para controlar o envio de exemplo:
 
 - **Nenhum**: nenhum exemplo suspeito é enviado à Microsoft.
-- **Seguro**: somente amostras suspeitas que não contêm informações de identificação pessoal (PII) são enviadas automaticamente. Esse é o valor padrão para essa configuração.
+- **Cofre**: somente amostras suspeitas que não contenham informações de identificação pessoal (PII) são enviadas automaticamente. Esse é o valor padrão para essa configuração.
 - **All**: todos os exemplos suspeitos são enviados à Microsoft.
 
 ## <a name="manage-privacy-controls-with-policy-settings"></a>Gerenciar os controles de privacidade com as configurações de política
@@ -135,7 +135,8 @@ Os seguintes campos são coletados:
 | cloud_service.service_uri                           | URI usado para se comunicar com a nuvem. |
 | cloud_service.diagnostic_level                      | Nível de diagnóstico do dispositivo (obrigatório, opcional). |
 | cloud_service.automatic_sample_submission           | Nível automático de envio de amostra do dispositivo (nenhum, seguro, todos). |
-| edr.early_preview                                   | Se o dispositivo deve executar os recursos de visualização antecipada do EDR. |
+| cloud_service.automatic_definition_update_enabled   | Se a atualização automática de definição está ou não 2016. |
+| edr.early_preview                                   | Se o dispositivo deve ser executado EDR recursos de visualização inicial. |
 | edr.group_id                                        | Identificador de grupo usado pelo componente de detecção e resposta. |
 | edr.tags                                            | Marcas definidas pelo usuário. |
 | features. \[ nome do recurso opcional\]                  | Lista de recursos de visualização, juntamente com se eles estão habilitados ou não. |
@@ -207,6 +208,7 @@ Os seguintes campos são coletados:
 | antivirus_engine.scan_cache_maximum                | Tamanho do cache do produto. |
 | antivirus_engine.maximum_scan_threads              | Número máximo de threads usados para verificação. |
 | antivirus_engine.threat_restoration_exclusion_time | Tempo para que um arquivo restaurado da quarentena possa ser detectado novamente. |
+| antivirus_engine.threat_type_settings              | Configuração de como diferentes tipos de ameaça são manipulados pelo produto. |
 | filesystem_scanner.full_scan_directory             | Diretório de verificação completo. |
 | filesystem_scanner.quick_scan_directories          | Lista de diretórios usados na verificação rápida. |
 | edr.latency_mode                                   | Modo de latência usado pelo componente de detecção e resposta. |

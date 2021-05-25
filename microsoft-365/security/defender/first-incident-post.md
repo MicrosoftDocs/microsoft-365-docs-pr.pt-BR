@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 44f583d32de166fe3d68a182406eb3a2ee814084
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 6b5311a2923d7b299ba4f70ef3c2e8d91809e7c8
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297147"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651363"
 ---
 # <a name="step-3-perform-a-post-incident-review-of-your-first-incident"></a>Etapa 3. Executar uma revisão pós-incidente do seu primeiro incidente
 
@@ -36,7 +36,7 @@ ms.locfileid: "52297147"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-O Instituto Nacional de Padrões e Tecnologia (NIST) recomenda que, uma vez que todas as etapas tenham sido tomadas para se recuperar do ataque, as organizações devem revisar o incidente para aprender com ele e aprender e melhorar a postura ou os processos de segurança. A avaliação dos diferentes aspectos da manipulação de incidentes torna-se importante na preparação para o próximo incidente.
+O Instituto Nacional de Padrões e Tecnologia (NIST) recomenda que, uma vez que todas as etapas tenham sido tomadas para se recuperar do ataque, as organizações devem revisar o incidente para aprender com ele e melhorar a postura ou os processos de segurança. A avaliação dos diferentes aspectos da manipulação de incidentes torna-se importante na preparação para o próximo incidente.
 
 Microsoft 365 O Defender pode ajudar na execução de atividades pós-incidentes fornecendo a uma organização alertas que se alinham ao [MITRE ATT](https://attack.mitre.org/)&CK Framework . Todos os ataques de rótulo de soluções do Microsoft Defender de acordo com uma técnica ou tática&CK da ATT. 
 

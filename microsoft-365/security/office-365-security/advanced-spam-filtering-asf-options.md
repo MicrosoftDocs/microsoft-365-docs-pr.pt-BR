@@ -16,15 +16,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem aprender sobre as configurações do Filtro de Spam Avançado (ASF) disponíveis em políticas anti-spam no Exchange Online Protection (EOP).
+description: Os administradores podem aprender sobre as configurações do Filtro de Spam Avançado (ASF) disponíveis em políticas anti-spam no Proteção do Exchange Online (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5ade36086d1503b89b506730b98ac7965845e86b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 3639b12c0003c958681671fce6bb2b857b3931b8
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203363"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651195"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-eop"></a>Configurações avançadas de Filtro de Spam (ASF) no EOP
 
@@ -38,7 +38,7 @@ ms.locfileid: "51203363"
 > [!NOTE]
 > As configurações ASF que estão disponíveis atualmente em políticas anti-spam estão em processo de preterido. Recomendamos que você não use essas configurações em políticas anti-spam. A funcionalidade dessas configurações ASF está sendo incorporada a outras partes da pilha de filtragem. Para obter mais informações, consulte [EOP anti-spam policy settings](recommended-settings-for-eop-and-office365.md#eop-anti-spam-policy-settings).
 
-Em todas as organizações do Microsoft 365, as configurações do Filtro de Spam Avançado (ASF) em políticas anti-spam no EOP permitem que os administradores marquem mensagens como spam com base em propriedades de mensagem específicas. O ASF direciona especificamente essas propriedades porque elas são comumente encontradas em spam. Dependendo da propriedade, as detecções ASF marcarão a mensagem como Spam ou **spam** **de alta confiança.**
+Em todas as Microsoft 365, as configurações do Filtro de Spam Avançado (ASF) em políticas anti-spam no EOP permitem que os administradores marquem mensagens como spam com base em propriedades de mensagem específicas. O ASF direciona especificamente essas propriedades porque elas são comumente encontradas em spam. Dependendo da propriedade, as detecções ASF marcarão a mensagem como Spam ou **spam** **de alta confiança.**
 
 > [!NOTE]
 > Habilenciar uma ou mais configurações do ASF é uma abordagem agressiva para a filtragem de spam. Não é possível relatar mensagens filtradas pelo ASF como falsos positivos. Você pode identificar mensagens que foram filtradas pelo ASF por:
@@ -49,7 +49,7 @@ Em todas as organizações do Microsoft 365, as configurações do Filtro de Spa
 >
 > - Os campos `X-CustomSpam:` de header X específicos que são adicionados às mensagens conforme descrito neste artigo.
 
-As seções a seguir descrevem as configurações e as opções ASF que estão disponíveis em políticas anti-& spam no Centro de Conformidade e Segurança e no PowerShell do Exchange Online ou no EOP PowerShell autônomo ([New-HostedContentFilterPolicy](/powershell/module/exchange/new-hostedcontentfilterpolicy) e [Set-HostedContentFilterPolicy](/powershell/module/exchange/set-hostedcontentfilterpolicy)). Para obter mais informações, consulte [Configure as políticas de anti-spam no EOP](configure-your-spam-filter-policies.md).
+As seções a seguir descrevem as configurações e opções ASF que estão disponíveis em políticas anti-spam no Centro de Conformidade do & de Segurança e no Exchange Online PowerShell ou no EOP PowerShell autônomo ([New-HostedContentFilterPolicy](/powershell/module/exchange/new-hostedcontentfilterpolicy) e [Set-HostedContentFilterPolicy](/powershell/module/exchange/set-hostedcontentfilterpolicy)). Para obter mais informações, consulte [Configure as políticas de anti-spam no EOP](configure-your-spam-filter-policies.md).
 
 ## <a name="enable-disable-or-test-asf-settings"></a>Habilitar, desabilitar ou testar configurações ASF
 
@@ -81,6 +81,8 @@ Para cada configuração ASF, as seguintes opções estão disponíveis em polí
 
 As configurações ASF a seguir definirão o nível de confiança de spam (SCL) das mensagens detectadas como 5 ou 6, que corresponde ao veredito do filtro de **spam** e à ação correspondente em políticas anti-spam.
 
+<br>
+
 ****
 
 |Configuração de política anti-spam|Descrição|Header X adicionado|
@@ -94,6 +96,8 @@ As configurações ASF a seguir definirão o nível de confiança de spam (SCL) 
 ## <a name="mark-as-spam-settings"></a>Marcar como configurações de spam
 
 As configurações asf a seguir definirão a SCL das mensagens detectadas como 9, que corresponde ao veredito do filtro de **spam** de alta confiança e à ação correspondente em políticas anti-spam.
+
+<br>
 
 ****
 
@@ -109,5 +113,5 @@ As configurações asf a seguir definirão a SCL das mensagens detectadas como 9
 |**Aplicar lista de palavras sensíveis** <p> *MarkAsSpamSensitiveWordList*|A Microsoft mantém uma lista dinâmica, mas não editável de palavras associadas a mensagens potencialmente ofensivas. <p> As mensagens que contêm palavras da lista de palavras confidenciais no assunto ou no corpo da mensagem são marcadas como spam de alta confiança.|`X-CustomSpam: Sensitive word in subject/body`|
 |**Registro SPF: falha grave** <p> *MarkAsSpamSpfRecordHardFail*|As mensagens enviadas de um endereço IP que não está especificado no registro SPF (Estrutura de Política de Remetente) do SPF no DNS para o domínio de email de origem são marcadas como spam de alta confiança. <p> O modo de teste não está disponível para essa configuração.|`X-CustomSpam: SPF Record Fail`|
 |**Filtragem de ID por remetente condicional: falha grave** <p> *MarkAsSpamFromAddressAuthFail*|As mensagens com falha grave em uma verificação de ID de Remetente condicional são marcadas como spam. <p> Essa configuração combina uma verificação SPF com uma verificação de ID do Remetente para ajudar a proteger contra os headers de mensagens que contêm remetentes forjados. <p> O modo de teste não está disponível para essa configuração.|`X-CustomSpam: SPF From Record Fail`|
-|**Backscatter NDR** <p> *MarkAsSpamNdrBackscatter*|*Backscatter* é relatórios de não entrega inúteis (também conhecidos como NDRs ou mensagens de bounce) causados por envios forjados em mensagens de email. Para obter mais informações, consulte [Backscatter messages and EOP](backscatter-messages-and-eop.md). <p> Você não precisa configurar essa configuração nos seguintes ambientes, pois as NDRs legítimas são entregues e o backscatter é marcado como spam: <ul><li>Organizações do Microsoft 365 com caixas de correio do Exchange Online.</li><li>Organizações de email locais onde você *roteia* emails de saída por meio do EOP.</li></ul> <p> Em ambientes EOP autônomos que protegem emails de entrada para caixas de correio locais, a a opção de ligar ou desligar essa configuração tem o seguinte resultado: <ul><li> **On**: NDRs legítimos são entregues e backscatter é marcado como spam.</li><li>**Off**: NDRs legítimos e backscatter passam por filtragem de spam normal. A maioria das NDRs legítimas será entregue ao remetente da mensagem original. Alguns, mas não todos, backscatter são marcados como spam de alta confiança. Por definição, o backscatter só pode ser entregue ao remetente spoofed, não ao remetente original.</li></ul> <p> O modo de teste não está disponível para essa configuração.|`X-CustomSpam: Backscatter NDR`|
+|**Backscatter NDR** <p> *MarkAsSpamNdrBackscatter*|*Backscatter* é relatórios de não entrega inúteis (também conhecidos como NDRs ou mensagens de bounce) causados por envios forjados em mensagens de email. Para obter mais informações, consulte [Backscatter messages and EOP](backscatter-messages-and-eop.md). <p> Você não precisa configurar essa configuração nos seguintes ambientes, pois as NDRs legítimas são entregues e o backscatter é marcado como spam: <ul><li>Microsoft 365 organizações com Exchange Online caixas de correio.</li><li>Organizações de email locais onde você *roteia* emails de saída por meio do EOP.</li></ul> <p> Em ambientes EOP autônomos que protegem emails de entrada para caixas de correio locais, a a opção de ligar ou desligar essa configuração tem o seguinte resultado: <ul><li> **On**: NDRs legítimos são entregues e backscatter é marcado como spam.</li><li>**Off**: NDRs legítimos e backscatter passam por filtragem de spam normal. A maioria das NDRs legítimas será entregue ao remetente da mensagem original. Alguns, mas não todos, backscatter são marcados como spam de alta confiança. Por definição, o backscatter só pode ser entregue ao remetente spoofed, não ao remetente original.</li></ul> <p> O modo de teste não está disponível para essa configuração.|`X-CustomSpam: Backscatter NDR`|
 |
