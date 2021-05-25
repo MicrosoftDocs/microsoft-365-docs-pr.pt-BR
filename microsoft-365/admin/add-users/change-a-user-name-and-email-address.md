@@ -23,18 +23,18 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Saiba como um administrador global do Microsoft 365 pode alterar o endereço de email e o nome de exibição de um usuário quando seu nome altera. '
-ms.openlocfilehash: 2614e0ae53e5ff1cf08ded384e7470cc5967e682
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 1aa3fd3b67333937e64aab825e64533ccb09eea9
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535981"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634215"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Alterar o nome de exibição e o endereço de email de um usuário
 
 Talvez seja necessário alterar o endereço de email e o nome de exibição de uma pessoa se, por exemplo, ela se casar e mudar de sobrenome.
 
-Assista a um vídeo curto sobre como alterar o endereço de e-mail de um usuário. <br><br>
+## <a name="watch-change-a-users-name-or-email-address"></a>Assista: alterar o nome ou o endereço de email de um usuário
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SJuc] 
 
@@ -253,8 +253,6 @@ Para saber como alterar um nome de usuário no Active Directory no Windows Serve
   
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Administradores: redefinir uma senha para um ou mais usuários](reset-passwords.md) (artigo)
-  
-[Adicionar outro endereço de email a um usuário](../email/add-another-email-alias-for-a-user.md) (artigo)
-
+[Administradores: redefinir uma senha para um ou mais usuários](reset-passwords.md) (artigo)\
+[Adicionar outro endereço de email a um usuário](../email/add-another-email-alias-for-a-user.md) (artigo)\
 [Criar uma caixa de correio compartilhada](../email/create-a-shared-mailbox.md) (artigo)

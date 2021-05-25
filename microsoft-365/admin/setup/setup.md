@@ -25,12 +25,12 @@ search.appverid:
 - BEA160
 ms.assetid: 6a3a29a0-e616-4713-99d1-15eda62d04fa
 description: Aprenda a configurar sua assinatura do Microsoft Business Premium, Microsoft 365 Business Standard, Microsoft 365 Business Basic, Microsoft 365 Apps for business ou Office 365 Education.
-ms.openlocfilehash: d0af350ce307bc7f62b51b70b120da19bf0e2156
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: 44e15e71be85eabdf6aa80bdb8d4b5dc4cd3b8d7
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379305"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635613"
 ---
 # <a name="set-up-microsoft-365-for-business"></a>Configurar o Microsoft 365 para empresas
 
@@ -41,3 +41,9 @@ Não é uma empresa? Confira [Configurar o Microsoft 365 Family ou o Microsoft 3
 - [Configurar o Microsoft Business Standard](setup-business-standard.md)
 - [Configurar o Microsoft 365 Business Premium](../../business/set-up.md)
 - [Configurar o Microsoft 365 Apps for business](setup-apps-for-business.md)
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Introdução](../setup/index.yml) (página de link)\
+[Como se inscrever - Ajuda para Administradores](../admin-overview/sign-up-for-office-365.md) (vídeo)\
+[Experimente ou compre uma assinatura do Microsoft 365 para empresas](../../commerce/try-or-buy-microsoft-365.md) (artigo)

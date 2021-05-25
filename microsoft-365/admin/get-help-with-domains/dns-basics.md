@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: O sistema de nomes de domínio mapeia os nomes de hosts de computadores para endereços IP e o entendimento básico do DNS e do registrador de domínios pode ajudá-lo a gerenciar domínios.
-ms.openlocfilehash: f9982ad55652eac9faf33986bb1481e29897a48e
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 19fc444c056bbf3e1ea1f601d20a9b9cbd75bec8
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582939"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635421"
 ---
 # <a name="dns-basics"></a>Noções básicas do DNS
 
@@ -38,6 +38,8 @@ ms.locfileid: "52582939"
 ::: moniker range="o365-worldwide"
 
 Os nomes de domínio, como contoso.com, são gerenciados usando um sistema mundial de registradores de domínios e bancos de dados. O Sistema de Nomes de Domínio (DNS) fornece um mapeamento entre nomes de host de computador legíveis e os endereços IP usados pelo equipamento de rede. Noções básicas sobre o DNS e o registrador de domínios podem ajudá-lo a gerenciar domínios.
+
+## <a name="watch-domains--dns-an-overview"></a>Assista: Domínios e DNS: uma visão geral
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c005f2a4-90ad-46fe-b1ab-90f41f2a9d53?autoplay=false]
   
@@ -46,6 +48,8 @@ Os nomes de domínio, como contoso.com, são gerenciados usando um sistema mundi
 ::: moniker range="o365-germany"
 
 Os nomes de domínio, como contoso.com, são gerenciados usando um sistema mundial de registradores de domínios e bancos de dados. O Sistema de Nomes de Domínio (DNS) fornece um mapeamento entre nomes de host de computador legíveis e os endereços IP usados pelo equipamento de rede. Noções básicas sobre o DNS e o registrador de domínios podem ajudá-lo a gerenciar domínios.
+
+## <a name="watch-domains--dns-an-overview"></a>Assista: Domínios e DNS: uma visão geral
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c005f2a4-90ad-46fe-b1ab-90f41f2a9d53?autoplay=false]
   
@@ -192,7 +196,7 @@ Você pode [encontrar uma lista de valores](information-for-dns-records.md) para
   
 Ou, se estiver planejando uma implantação, convém analisar uma lista de todos os registros DNS necessários para o Microsoft 365, a função deles e os valores de exemplo. Confira os [Registros do Sistema de Nomes de Domínio Externo do Microsoft 365](../../enterprise/external-domain-name-system-records.md).
   
-## <a name="how-can-i-learn-more"></a>Como posso saber mais?
+## <a name="next-steps"></a>Próximas etapas
 
 Confira um dos seguintes tópicos: 
   
@@ -201,8 +205,6 @@ Confira um dos seguintes tópicos:
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Perguntas frequentes sobre domínios](../setup/domains-faq.yml) (artigo)
-
-[Localizar e corrigir problemas após adicionar o seu domínio ou registros DNS](find-and-fix-issues.md) (artigo)
-
+[Perguntas frequentes sobre domínios](../setup/domains-faq.yml) (artigo)\
+[Localizar e corrigir problemas após adicionar seu domínio ou registros DNS ](find-and-fix-issues.md) (artigo)\
 [Gerenciar domínios](index.yml) (página de link)

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Os membros do grupo do Microsoft 365 receberão um email do grupo e um espaço de trabalho compartilhado para conversas, arquivos e eventos do calendário, como o Stream e um Planner.
-ms.openlocfilehash: d8bf2e20b428063b99d540896bac3e6e1ae59481
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 3e4fa36520247179b653f799f7b2a061b9d9f4a9
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535861"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635589"
 ---
 # <a name="compare-groups"></a>Comparar grupos
 
@@ -93,6 +93,5 @@ Atualmente, não é possível migrar uma caixa de correio compartilhada para um 
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Saiba mais sobre os grupos do Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2) (artigo)
-
+[Saiba mais sobre os grupos do Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2) (artigo)\
 [Por que você deve atualizar suas listas de distribuição para grupos no Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188) (artigo)

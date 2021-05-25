@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Saiba como configurar a autenticação multifator para a sua organização.
 monikerRange: o365-worldwide
-ms.openlocfilehash: de5f8ffbc5c26015f6ff0eb2863b622273f96ca1
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: 480e09e42ea53cc78cd738a6e0650feae7a9f8c8
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408508"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635945"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Configurar a autenticação multifator
 
@@ -104,6 +104,5 @@ Se você já habilitou a MFA por usuário, é necessário desabilitá-lo antes d
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Ativar a autenticação multifator](../../business-video/turn-on-mfa.md) (vídeo)
-
+[Ativar a autenticação multifator](../../business-video/turn-on-mfa.md) (vídeo)\
 [Ativar a autenticação multifator para seu telefone](../../business-video/set-up-mfa.md) (vídeo)

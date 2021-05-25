@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Ao comprar o Microsoft 365 Business Standard, você tem a opção de usar um domínio que possui ou comprar um durante a inscrição.
-ms.openlocfilehash: cee91edaab09506dca90cf5ed64ee9bc669c98cf
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: ca9cc359aaabfc16a5d0c57a75362c7826dea0db
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624412"
+ms.locfileid: "52635625"
 ---
 # <a name="set-up-microsoft-business-standard"></a>Configurar o Microsoft Business Standard
 
@@ -103,6 +103,8 @@ Para configurar serviços, você deve atualizar alguns registros no registrador 
 
 3. Digite seu endereço de e-mail do Microsoft e selecione **conectar**.
 
+## <a name="watch-set-up-outlook-for-email"></a>Assista: configurar o Outlook para e-mail
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/9fe86884-8a83-42cc-bca9-61a12e6dad31?autoplay=false]
   
 Veja mais em [Configurar o Outlook para email](https://support.microsoft.com/office/f5bf0cd1-e1f3-4b0d-a022-ecab17efe86f).
@@ -123,6 +125,8 @@ Se você estava usando o Outlook com outra conta de email, poderá importar seus
 
     Desta vez, selecione **Importar de outro programa ou arquivo** e siga as etapas para importar o arquivo de backup criado ao exportar os emails antigos.
 
+## <a name="watch-import-and-redirect-email"></a>Assista: importar e redirecionar emails
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/40f7df36-9e24-44e5-8791-e9ed0dd8fd21?autoplay=false]
   
 Veja mais em [Importar emails com o Outlook](https://support.microsoft.com/office/6a3771d4-4c1d-4a25-92a6-0b8e476335de).
@@ -136,6 +140,8 @@ O Microsoft 365 não inclui um site público para a sua empresa. Se quiser confi
 1. No Centro de Administração, vá para **Recursos** e selecione **Site público**.
 
 2. Selecione **Saiba mais** em uma das opções e depois inscreva-se com um parceiro de site e use as ferramentas dele para configurar e projetar seu site.
+
+## <a name="watch-create-your-business-website"></a>Assista: criar seu site de negócios
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/4839abc6-9323-4cbf-a79d-2907235f9ebb]
 

@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Deixe a sua organização mais segura contra ataques de senha, vete senhas comuns e habilite a autenticação multifator baseada em risco.
-ms.openlocfilehash: f2b9b9188a6f05bbcdae45dcc22d401e1eb6f1a8
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: f42905c6bf7769e558581338fd122f26d530423e
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593904"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635969"
 ---
 # <a name="password-policy-recommendations"></a>Recomendações de política de senha
 
@@ -128,7 +128,9 @@ Para saber mais, confira [Configurar a autenticação multifator](../security-an
 
 A autenticação multifatorial baseada em risco garante que, quando o sistema detectar atividades suspeitas, ele poderá desafiar o usuário a garantir que ele seja o proprietário legítimo da conta. 
   
-## <a name="want-to-know-more-recommended-reading"></a>Deseja saber mais? Leitura recomendada
+## <a name="next-steps"></a>Próximas etapas
+
+Quer saber mais sobre o gerenciamento de senhas? Veja algumas leituras recomendadas:
 
 - [Senhas Fortes da Web Realizam Qualquer Coisa?](https://go.microsoft.com/fwlink/p/?linkid=861008)
 
@@ -144,10 +146,7 @@ A autenticação multifatorial baseada em risco garante que, quando o sistema de
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Redefinir senhas](../add-users/reset-passwords.md) (artigo)
-
-[Definir a senha de um usuário individual para nunca expirar](../add-users/set-password-to-never-expire.md) (artigo)
-
-[Permitir aos usuários redefinir suas próprias senhas](../add-users/let-users-reset-passwords.md) (artigo)
-
+[Redefinir senhas](../add-users/reset-passwords.md) (artigo)\
+[Definir a senha de um usuário individual para nunca expirar](../add-users/set-password-to-never-expire.md) (artigo)\
+[Permitir que os usuários redefinim suas próprias senhas](../add-users/let-users-reset-passwords.md) (artigo)\
 [Reenviar a senha de um usuário - Ajuda do Administrador](../add-users/resend-user-password.md) (artigo)

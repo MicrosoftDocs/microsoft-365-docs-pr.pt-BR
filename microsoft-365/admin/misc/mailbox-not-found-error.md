@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
 description: Uma **Caixa de correio não foi encontrada** devido ao erro significa que a conta que você usou para se conectar ao Outlook na Web não tem uma licença do Exchange Online.
-ms.openlocfilehash: 5ae850da3b9a4022c01f8bf4469f5e86f44b10bd
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: cb82f917adca8f1fc183fd9516321a524c63eb69
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537434"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635781"
 ---
 # <a name="getting-a-mailbox-not-found-error-in-outlook-on-the-web"></a>Obtendo um erro de caixa de correio não encontrada no Outlook na Web?
 
@@ -37,8 +37,6 @@ O administrador pode atribuir uma licença à sua conta seguindo estas etapas:
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Adicionar outro alias de email para um usuário](../email/add-another-email-alias-for-a-user.md) (artigo)
-
-[Configurar o encaminhamento de email no Microsoft 365](../email/configure-email-forwarding.md) (artigo)
-
+[Adicionar outro alias de email para um usuário](../email/add-another-email-alias-for-a-user.md) (artigo)\
+[Configurar o encaminhamento de email no Microsoft 365](../email/configure-email-forwarding.md) (artigo)\
 [Criar uma caixa de correio compartilhada](../email/create-a-shared-mailbox.md) (artigo)

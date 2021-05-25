@@ -21,12 +21,12 @@ description: O Microsoft 365 de administração - saiba mais sobre os recursos q
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: b75c6be901dfe2bcfe9a0d8fad8fbb56eecd34d6
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 964689c431b45671a92dda62ccf8a083291213a3
+ms.sourcegitcommit: ddf6c25d1ed6387d07614f7042e033bad7f406f9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535741"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52639531"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Novidades no centro de Microsoft 365 de administração
 
@@ -49,6 +49,24 @@ E se você quiser saber o que há de novo com outros serviços de nuvem da Micro
 - [Novidades no centro de SharePoint de administração](/sharepoint/what-s-new-in-admin-center)
 - [Atualizações do Office](/OfficeUpdates/)
 - [Como verificar a Windows de versão](/windows/deployment/update/check-release-health)
+
+## <a name="may-2021"></a>Maio de 2021
+
+### <a name="admin-mobile-app"></a>Aplicativo móvel do administrador
+
+### <a name="keep-track-of-support-ticket-updates-using-the-admin-mobile-app"></a>Acompanhar as atualizações de tíquetes de suporte usando o aplicativo móvel administrador
+
+Para todas as solicitações de serviço criadas em seu locatário, agora você pode acompanhar o status do tíquete, exibir detalhes do tíquete e fornecer /solicitar informações adicionais & anexos. 
+
+:::image type="content" source="../media/whats-new-track-support-tickets.png" alt-text="Captura de tela: rastrear atualizações de tíquetes de suporte":::
+
+### <a name="stay-on-top-of-all-the-major-updates-to-the-app-and-your-microsoft-365-subscription"></a>Fique por dentro de todas as principais atualizações para o aplicativo e sua assinatura Microsoft 365 usuário 
+
+- Fique por dentro de todas as principais atualizações para sua assinatura Microsoft 365 por meio de notificações por push da Central de Mensagens (agora habilitadas por padrão). 
+
+- Acompanhe os recursos mais recentes disponíveis no aplicativo usando a **seção Novidades.** Vá para **Configurações**  >  **Novidades?**
+
+:::image type="content" source="../media/whats-new-updates.png" alt-text="Captura de tela: acompanhar as principais atualizações e recursos":::
 
 ## <a name="april-2021"></a>Abril de 2021
 

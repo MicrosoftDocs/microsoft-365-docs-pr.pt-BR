@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: Saiba como um administrador pode definir uma política de expiração de senha para seu negócio, escola, ou sem fins lucrativos no Centro de administração do Microsoft 365.
-ms.openlocfilehash: 5469d4dcd75bee2e6f8a188aa6f50d18ce6e06c4
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 7f12918211718b91313c0c89b11eaeb0a8cc3181
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537482"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635817"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Definir a política de expiração de senha para sua organização
 
@@ -63,7 +63,7 @@ Siga as etapas abaixo se desejar definir as senhas dos usuários para expirarem 
   
 ## <a name="important-things-you-need-to-know-about-the-password-expiration-feature"></a>Pontos importantes que você precisa saber sobre o recurso de expiração de senha
   
-- As pessoas que só usam o aplicativo do Outlook não terão de redefinir a senha do Microsoft 365 até que ela expire no cache. Isso pode levar vários dias após a data de validade real. Não há soluções alternativas para isso ao nível de administrador.
+As pessoas que só usam o aplicativo do Outlook não terão de redefinir a senha do Microsoft 365 até que ela expire no cache. Isso pode levar vários dias após a data de validade real. Não há soluções alternativas para isso ao nível de administrador.
 
 ## <a name="prevent-last-password-from-being-used-again"></a>Impedir que a última senha seja utilizada novamente
 
@@ -89,6 +89,5 @@ Para saber como atualizar a política de senha de um específico domínio ou loc
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Permitir aos usuários redefinir suas próprias senhas](../add-users/let-users-reset-passwords.md) (artigo)
-
+[Permitir que os usuários redefinim suas próprias senhas](../add-users/let-users-reset-passwords.md) (artigo)\
 [Redefinir senhas](../add-users/reset-passwords.md) (artigo)
