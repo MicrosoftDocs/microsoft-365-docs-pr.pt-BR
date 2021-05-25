@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5cd6a1a2ce1ca6c6ce3741674945a1e2a43694b7
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 1241e6ebb838938f82fce5dc08ea93a3038f4ace
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203104"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624228"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Configurar políticas antispam no EOP
 
@@ -125,7 +125,7 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
 
      > <sup>1</sup> No Exchange Online, a mensagem será movida para a pasta Lixo Eletrônico se a regra de lixo eletrônico estiver habilitada na caixa de correio (ela é habilitada por padrão). Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md).
      >
-     > Em ambientes da EOP autônoma, em que a EOP protege as caixas de correio locais do Exchange, é preciso configurar regras de fluxo de email (também conhecidas como regras de transporte) no Exchange local para traduzir o veredito de filtragem de spam do EOP, de modo que a regra do lixo eletrônico possa mover as mensagens para a pasta de Lixo Eletrônico. Para obter detalhes, confira [Configurar a EOP autônoma para enviar spam à pasta Lixo Eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
+     > Em ambientes híbridos onde o EOP protege as caixas de correio locais do Exchange, você precisa configurar regras de fluxo de email (também conhecidas como regras de transporte) no Exchange local para traduzir o veredito de filtragem de spam do EOP para que a regra de lixo eletrônico possa mover a mensagem para o Lixo Pasta de email. Para obter detalhes, confira [Configurar o EOP para enviar spam para a pasta Lixo Eletrônico em ambientes híbridos](/exchange/standalone-eop/configure-eop-spam-protection-hybrid).
      >
      > <sup>2</sup>É possível usar esse valor como uma condição nas regras de fluxo de email para filtrar ou rotear a mensagem.
 
@@ -185,7 +185,7 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
 
    - **Permitir domínio**: clique em **Editar**. No submenu **Lista de domínios permitidos** exibido, execute estas etapas:
 
-      a. Insira o domínio. Vários domínios podem ser especificados, separados por ponto e vírgula (;).
+      a. Insira o domínio. Você pode especificar vários domínios separados por ponto e vírgula (;).
 
       b. Click ![Ícone Adicionar](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) para adicionar os domínios.
 
@@ -230,7 +230,7 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
 
      - **Filtrar mensagens de email escritas nos seguintes idiomas**: marque a caixa de seleção para habilitar esta configuração. Desmarque a caixa de seleção para desabilitar a configuração.
 
-     - Clique na caixa e comece a digitar o *nome* do idioma. Uma lista filtrada de idiomas com suporte será exibida, juntamente com o código ISO 639-2 de duas letras do idioma correspondente. Quando encontrar o idioma que está procurando, selecione-o. Repita essa etapa quantas vezes forem necessárias.
+     - Clique na caixa e comece a digitar o *nome* do idioma. Uma lista filtrada de idiomas com suporte será exibida, juntamente com o código ISO 639-2 de duas letras do idioma correspondente. Quando encontrar o idioma que está procurando, selecione-o. Repita essa etapa quantas vezes forem necessárias.
 
        A lista de idiomas selecionados aparecerá no submenu. Para excluir um idioma, clique em ![Botão Remover](../../media/scc-remove-icon.png).
 
@@ -240,7 +240,7 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
 
      - **Filtrar mensagens de email enviadas dos seguintes países ou regiões**: marque a caixa de seleção para habilitar esta configuração. Desmarque a caixa de seleção para desabilitar a configuração.
 
-     - Clique na caixa e comece a digitar o *nome* do país ou região. Uma lista filtrada de países com suporte será exibida, juntamente com o código ISO 3166-1 de duas letras do país correspondente. Quando encontrar o país ou região que está procurando, selecione-o. Repita essa etapa quantas vezes forem necessárias.
+     - Clique na caixa e comece a digitar o *nome* do país ou região. Uma lista filtrada de países com suporte será exibida, juntamente com o código ISO 3166-1 de duas letras do país correspondente. Quando encontrar o país ou região que está procurando, selecione-o. Repita essa etapa quantas vezes forem necessárias.
 
        A lista de países selecionados aparecerá no submenu. Para excluir um país ou região, clique em ![Botão Remover](../../media/scc-remove-icon.png).
 
@@ -639,7 +639,7 @@ Para obter informações detalhadas de sintaxe e parâmetro, confira [Remove-Hos
 ### <a name="send-a-gtube-message-to-test-your-spam-policy-settings"></a>Enviar uma mensagem do GTUBE para testar as configurações de política de spam
 
 > [!NOTE]
-> Essas etapas só funcionarão se a organização de email da qual você está enviando a mensagem do GTUBE não tiver verificação de spam de saída. Se ela tiver, a mensagem de teste não poderá ser enviada.
+> Essas etapas só funcionarão se a organização de email da qual você está enviando a mensagem do GTUBE não tiver verificação de spam de saída.
 
 O GTUBE (teste genérico para email em massa não solicitado) é uma cadeia de caracteres de texto incluída em uma mensagem de texto para verificar as configurações antispam da sua organização. A mensagem do GTUBE é similar ao arquivo de texto do EICAR (Instituto Europeu para Pesquisa de Antivírus de Computador) em configurações de malware de teste.
 
