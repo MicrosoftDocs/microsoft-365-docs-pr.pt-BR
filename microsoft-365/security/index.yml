@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 02/05/2021
   localization_priority: Priority
-  ms.openlocfilehash: b7e193c15951a446d2fa21f36394085ad5016ee2
-  ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+  ms.openlocfilehash: 732bf6a455baaf3f75c1da956d25d85133f13b0e
+  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/21/2021
-  ms.locfileid: "52593976"
+  ms.lasthandoff: 05/24/2021
+  ms.locfileid: "52625372"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
@@ -55,7 +55,7 @@ landingContent:
   - linkListType: overview
     links:
     - text: O que é o Defender para Office 365?
-      url: /office-365-security/defender-for-office-365
+      url: office-365-security/defender-for-office-365.md
     - text: Descrição do serviço do Defender para Office 365
       url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
 - title: Microsoft Defender para Ponto de Extremidade
@@ -63,9 +63,9 @@ landingContent:
   - linkListType: overview
     links:
     - text: O que é o Microsoft Defender para Ponto de Extremidade?
-      url: /defender-endpoint/microsoft-defender-endpoint
+      url: defender-endpoint/microsoft-defender-endpoint.md
     - text: Navegando no portal da Central de Segurança do Microsoft Defender.
-      url: /defender-endpoint/portal-overview
+      url: defender-endpoint/portal-overview.md
 - title: Azure Defender
   linkLists:
   - linkListType: overview
