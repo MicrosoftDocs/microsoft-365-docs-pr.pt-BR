@@ -2,7 +2,7 @@
 title: Microsoft 365 Defender
 summary: Saiba mais sobre as soluções robustas de segurança no Microsoft 365 Defender para que você possa proteger melhor sua empresa em superfícies de ataque.
 metadata:
-  title: Documentação do Microsoft 365 Defender
+  title: Microsoft 365 Documentação do Defender
   description: Saiba mais sobre as soluções robustas de segurança no Microsoft 365 Defender para que você possa proteger melhor sua empresa em superfícies de ataque.
   services: office-365-security-compliance
   ms.service: O365-seccomp
@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: 1085b54a4b879a316b57cad89e138a73c871370e
-  ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+  ms.openlocfilehash: b10d9eebf8ed98e06e98c1e73722f7b3b0d7ba87
+  ms.sourcegitcommit: ddf6c25d1ed6387d07614f7042e033bad7f406f9
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/20/2021
-  ms.locfileid: "51904171"
+  ms.lasthandoff: 05/25/2021
+  ms.locfileid: "52639386"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
@@ -28,7 +28,7 @@ landingContent:
       url: ../defender/microsoft-365-defender.md
   - linkListType: whats-new
     links:
-    - text: Novidades do iMicrosoft 365 Defender
+    - text: Novidades do Microsoft 365 Defender
       url: ../defender/whats-new.md
   - linkListType: video
     links:
@@ -72,7 +72,7 @@ landingContent:
       url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
     - text: Defender para Office 365 no Microsoft 365 Defender
       url: /defender/microsoft-365-security-center-mdo
-    - text: Redirecionando o Defender para o Office 365 no Microsoft 365 Defender
+    - text: Redirecionando o Defender para Office 365 no Microsoft 365 Defender
       url: /defender/microsoft-365-security-mdo-redirection
 - title: Microsoft Defender para Ponto de Extremidade
   linkLists:
@@ -90,7 +90,7 @@ landingContent:
     links:
     - text: Visão geral da central de segurança do Microsoft 365
       url: overview-security-center.md
-    - text: Microsoft Defender para Ponto de Extremidade no centro de segurança do Microsoft 365
+    - text: Microsoft Defender para Ponto de Extremidade no centro de Microsoft 365 de segurança
       url: microsoft-365-security-center-mde.md
     - text: Microsoft Defender para Office 365 no Centro de segurança do Microsoft 365
       url: ../defender/microsoft-365-security-center-mdo.md
@@ -118,5 +118,5 @@ landingContent:
   linkLists:
   - linkListType: reference
     links:
-    - text: APIs do Microsoft 365 Defender (visualização)
+    - text: Microsoft 365 APIs do Defender (visualização)
       url: api-overview.md
