@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 8f20ca4f-a908-46ec-99e6-9890d269ecf2
 description: Entenda por que os resultados de pesquisa estimados e reais podem variar em pesquisas executados com ferramentas de Descoberta Office 365.
-ms.openlocfilehash: d530b083b2353b66ee5d4fd4bb72b175aef28be8
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 17a4c2eea9833afa2112fa8ab918dcda074eeb36
+ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52532105"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52653506"
 ---
 # <a name="differences-between-estimated-and-actual-ediscovery-search-results"></a>Diferenças entre os resultados estimados e reais da pesquisa de Descoberta EDiscovery
 
@@ -81,7 +81,7 @@ Aqui estão alguns motivos para essas diferenças:
 
 - **Des duplicação de Exchange itens durante a exportação**. Para Exchange itens, a de duplicação reduz o número de itens exportados. Você tem a opção de des duplicar os resultados da pesquisa ao exportá-los. Para Exchange mensagens, isso significa que apenas uma única instância de uma mensagem é exportada, mesmo que essa mensagem possa ser encontrada em várias caixas de correio. Os resultados estimados da pesquisa incluem todas as instâncias de uma mensagem. Portanto, se você escolher a opção de des duplicação ao exportar resultados da pesquisa, o número real de itens exportados pode ser consideravelmente menor do que o número estimado de itens.
 
-    Outra coisa a ter em mente se você escolher a opção de des duplicação é que todos os itens Exchange são exportados em um único arquivo PST e a estrutura de pastas das caixas de correio de origem não é preservada. O arquivo PST exportado contém apenas os itens de email. No entanto, um relatório de resultados de pesquisa contém uma entrada para cada mensagem exportada que identifica a caixa de correio de origem onde a mensagem está localizada. Isso ajuda a identificar todas as caixas de correio que contêm uma mensagem duplicada. Se você não habilitou a deduplicação, um arquivo PST separado é exportado para cada caixa de correio incluída na pesquisa.
+O relatório de resultados da pesquisa (arquivo Results.csv) contém uma entrada para cada mensagem duplicada e identifica a caixa de correio de origem onde uma mensagem duplicada está localizada. Isso ajuda a identificar todas as caixas de correio que contêm uma mensagem duplicada.
 
 > [!NOTE]
 > Se você não selecionar  a opção Incluir itens que são criptografados ou têm uma opção de formato não reconhecedo quando você exporta os resultados da pesquisa ou baixa os relatórios, os relatórios de erro de índice são baixados, mas eles não têm nenhuma entrada. Isso não significa que não haja erros de indexação. Isso significa apenas que itens não indexados não foram incluídos na exportação.

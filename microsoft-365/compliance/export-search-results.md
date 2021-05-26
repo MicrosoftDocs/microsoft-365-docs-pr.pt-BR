@@ -22,18 +22,18 @@ search.appverid:
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: Exporte os resultados da pesquisa de uma pesquisa de conteúdo no Microsoft 365 de conformidade para um computador local. Os resultados do email são exportados como arquivos PST. O conteúdo SharePoint e OneDrive for Business sites são exportados como documentos Office nativos.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ec09706fecbe703fa2ab38cad5f8f8304484f44
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: b39bb52457599090f2898da222c71a3a56889290
+ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536053"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52653530"
 ---
 # <a name="export-content-search-results"></a>Exportar resultados de Pesquisa de conteúdo
 
 Depois que uma pesquisa de conteúdo for realizada com êxito, você poderá exportar os resultados da pesquisa para um computador local. Quando você exporta os resultados de email, eles são baixados para seu computador como arquivos PST. Quando você exporta conteúdo de sites SharePoint e OneDrive for Business, cópias de documentos Office nativos são exportadas. Há outros documentos e relatórios incluídos nos resultados de pesquisa exportados.
   
-Exportar os resultados de uma pesquisa de conteúdo envolve a preparação dos resultados e, em seguida, baixá-los para um computador local.
+Exportar os resultados de uma pesquisa de conteúdo envolve a preparação dos resultados e, em seguida, baixá-los para um computador local. Estas etapas para exportar resultados de pesquisa também se aplicam à exportação dos resultados de uma pesquisa associada aos principais casos de Descoberta eDiscovery.
   
 ## <a name="before-you-export-search-results"></a>Antes de exportar resultados de pesquisa
 
@@ -57,6 +57,8 @@ Exportar os resultados de uma pesquisa de conteúdo envolve a preparação dos r
   > <sup>1</sup> A Microsoft não fabrica extensões ou complementos de terceiros para ClickOnce aplicativos. Não há suporte para a exportação de resultados de pesquisa usando um navegador sem suporte com extensões ou complementos de terceiros.<br/>
   > <sup>2</sup> Como resultado de alterações recentes no Microsoft Edge, ClickOnce suporte não está mais habilitado por padrão. Para obter instruções sobre como habil ClickOnce suporte no Edge, [consulte Use the eDiscovery Export Tool in Microsoft Edge](configure-edge-to-export-search-results.md).
   
+- A Ferramenta de Exportação de Descoberta Eletrônica que você usa na Etapa 2 para baixar resultados de pesquisa não dá suporte à automação (usando um script ou executando cmdlets). É altamente recomendável que você não automatize o processo de preparação na Etapa 1 ou no processo de download na Etapa 2. Se você automatizar um desses processos, o Suporte da Microsoft não fornecerá assistência se você tiver problemas.
+
 - Recomendamos baixar os resultados da pesquisa para um computador local. Para eliminar a infraestrutura de firewall ou proxy da sua empresa de causar problemas ao baixar os resultados da pesquisa, você pode considerar baixar os resultados da pesquisa para uma área de trabalho virtual fora da sua rede. Isso pode diminuir os tempos-de-tempo que ocorrem nas conexões de dados do Azure ao exportar um grande número de arquivos. Para obter mais informações sobre áreas de trabalho virtuais, [consulte Windows Área de Trabalho Virtual](https://azure.microsoft.com/services/virtual-desktop).
 
 - Para melhorar o desempenho ao baixar resultados da pesquisa, considere dividir pesquisas que retornam um grande conjunto de resultados em pesquisas menores. Por exemplo, você pode usar intervalos de datas em consultas de pesquisa para retornar um conjunto menor de resultados que podem ser baixados mais rapidamente.
@@ -82,7 +84,7 @@ Exportar os resultados de uma pesquisa de conteúdo envolve a preparação dos r
     </system.net>
     ```
 
-- Se os resultados de uma pesquisa de conteúdo são mais antigos do que 7 dias e você envia um trabalho de exportação, uma mensagem de erro é exibida solicitando que você reprise a pesquisa para atualizar os resultados da pesquisa. Se isso acontecer, cancele a exportação, reprise a pesquisa e inicie a exportação novamente.
+- Se os resultados de uma pesquisa são mais antigos do que 7 dias e você envia um trabalho de exportação, uma mensagem de erro é exibida solicitando que você reprise a pesquisa para atualizar os resultados da pesquisa. Se isso acontecer, cancele a exportação, reprise a pesquisa e inicie a exportação novamente.
 
 ## <a name="step-1-prepare-search-results-for-export"></a>Etapa 1: Preparar resultados da pesquisa para exportação
 
@@ -169,7 +171,7 @@ A próxima etapa é baixar os resultados da pesquisa do local de Armazenamento d
       >- Desabilite a verificação de antivírus para a pasta para a que você baixa o resultado da pesquisa.<br/>
       >- Baixe os resultados da pesquisa em pastas diferentes para trabalhos de download simultâneos.
 
-6. Clique em **Iniciar** para baixar os resultados da pesquisa em seu computador.
+7. Clique em **Iniciar** para baixar os resultados da pesquisa em seu computador.
   
     A **Ferramenta de Exportação de Descoberta Eletrônica** exibe informações de status sobre o processo de exportação, incluindo uma estimativa do número (e tamanho) dos itens restantes a serem baixados. Quando o processo de exportação estiver concluído, você poderá acessar os arquivos no local onde eles foram baixados.
 
