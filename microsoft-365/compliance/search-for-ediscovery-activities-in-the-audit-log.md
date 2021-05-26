@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: Saiba quais eventos são registrados quando os usuários com permissões de Descoberta eDiscovery atribuídas executam tarefas de Pesquisa de conteúdo, Descoberta Básica e Advanced eDiscovery no centro de conformidade Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ce0dcc50c13ad705cb36f065639a4e971d032f22
-ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
+ms.openlocfilehash: 8b1f3f235f3411e2f637e4e32104c6179643757d
+ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52653494"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52657688"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>Procurar atividades de descoberta eletrônica no log de auditoria
 
@@ -112,7 +112,7 @@ A tabela a seguir descreve as atividades de Pesquisa de Conteúdo e Descoberta E
 |Exportação iniciada da pesquisa de conteúdo  <br/> |SearchExported  <br/> |New-ComplianceSearchAction  <br/> |Um usuário exportou os resultados de uma pesquisa de conteúdo.  <br/> |
 |Relatório de exportação iniciado  <br/> |SearchReport  <br/> |New-ComplianceSearchAction  <br/> |Um usuário exportou um relatório de pesquisa de conteúdo.  <br/> |
 |Pesquisa de conteúdo interrompida  <br/> |SearchStopped  <br/> |Stop-ComplianceSearch  <br/> |Um usuário interrompeu uma pesquisa de conteúdo.  <br/> |
-|(nenhum)|CaseViewed|Get-ComplianceCase|Um usuário exibiu a lista de casos na página **Descoberta** Eletrônica Principal no centro de conformidade ou executando o cmdlet Get-ComplianceCase.|
+|(nenhum)|CaseViewed|Get-ComplianceCase|Um usuário exibiu a lista de casos na  página **Descoberta** Eletrônica Principal ou na página Advanced eDiscovery no centro de conformidade ou executando o cmdlet Get-ComplianceCase.|
 |(nenhum)|SearchViewed|Get-ComplianceSearch|Um usuário exibiu a lista em  pesquisas de conteúdo (listadas na guia Pesquisas) no centro de conformidade ou executando o cmdlet. Essa atividade também é registrada quando um usuário visualiza a lista de pesquisas de conteúdo  associadas a um caso de Descoberta De eDiscovery (clicando na guia Pesquisas em um caso) ou executando o comando **Get-ComplianceSearch -Case.**|
 |(nenhum)|ViewedSearchExported|Get-ComplianceSearchAction -Export|Um usuário exibiu a lista de trabalhos de exportação de pesquisa de conteúdo (listados na guia **Exportações)** no centro de conformidade ou executando o cmdlet. Essa atividade também é registrada quando um usuário visualiza a lista de trabalhos de exportação em um caso de Descoberta E (listado na guia **Exportações** em um caso) ou executando o comando **Get-ComplianceSearchAction -Case -Export.**|
 |(nenhum)|ViewedSearchPreviewed|Get-ComplianceSearchAction -Preview|Um usuário visualiza os resultados de uma pesquisa de conteúdo no centro de conformidade ou executando o cmdlet.|
