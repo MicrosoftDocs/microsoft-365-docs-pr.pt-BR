@@ -22,18 +22,10 @@
               href: exchange-online-protection-overview.md
             - name: Recursos EOP
               href: eop-features.md
-            - name: Permissões no EOP autônomo
-              href: feature-permissions-in-eop.md
-            - name: Centro de administração do Exchange no EOP autônomo
-              href: exchange-admin-center-in-exchange-online-protection-eop.md
-            - name: Gerenciar destinatários no EOP autônomo
-              href: manage-recipients-in-eop.md
             - name: Fluxo de emails no EOP
               href: mail-flow-in-eop.md
             - name: Quarentena
               href: quarantine-email-messages.md
-            - name: Relatórios de auditoria no EOP autônomo
-              href: auditing-reports-in-eop.md
         - name: 'Anexos seguros para SharePoint, OneDrive e Microsoft Teams'
           href: turn-on-mdo-for-spo-odb-and-teams.md
         - name: Visão geral do Centro de segurança do Microsoft 365
@@ -72,18 +64,6 @@
           href: microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md
     - name: Implantar
       items:
-        - name: Proteção do Exchange Online
-          items:
-            - name: Configurar políticas anti-phishing em EOP
-              href: configure-anti-phishing-policies-eop.md
-            - name: Configurar o EOP autônomo para enviar spam para a pasta Lixo Eletrônico
-              href: ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
-            - name: Gerenciar grupos no EOP autônomo
-              href: manage-groups-in-eop.md
-            - name: Gerenciar usuários de email no EOP autônomo
-              href: manage-mail-users-in-eop.md
-            - name: Configurar serviço EOP
-              href: set-up-your-eop-service.md
         - name: Proteção contra ameaças
           href: protect-against-threats.md
         - name: Integrar o defender para Office 365 com o Defender para Ponto de Extremidade
@@ -98,16 +78,20 @@
           href: secure-by-default.md
         - name: Configurar políticas anti-phishing no Defender para Office 365
           href: configure-mdo-anti-phishing-policies.md
+        - name: Configurar políticas anti-phishing em EOP
+          href: configure-anti-phishing-policies-eop.md
         - name: Configurar políticas antimalware
           href: configure-anti-malware-policies.md
         - name: Configurar políticas antispam
           href: configure-your-spam-filter-policies.md
+        - name: Configurar o EOP para entregar spam em pastas de lixo eletrônico híbridas
+          href: /exchange/standalone-eop/configure-eop-spam-protection-hybrid
+        - name: Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online
+          href: configure-junk-email-settings-on-exo-mailboxes.md
         - name: Configurar a filtragem de conexão
           href: configure-the-connection-filter-policy.md
         - name: Definir as configurações globais para Links Seguros no Defender para Office 365
           href: configure-global-settings-for-safe-links.md
-        - name: Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online
-          href: configure-junk-email-settings-on-exo-mailboxes.md
         - name: Configurar a filtragem de spam de saída
           href: configure-the-outbound-spam-policy.md
         - name: Criar listas de remetentes bloqueados
@@ -116,7 +100,7 @@
           href: Create-safe-sender-lists-in-office-365.md
         - name: Autenticação do email
           href: email-validation-and-authentication.md
-        - name: Conceder aos usuários acesso à Central de segurança
+        - name: Conceder aos usuários acesso ao Centro de Conformidade e Segurança
           href: grant-access-to-the-security-and-compliance-center.md
         - name: Documentos Seguros no Defender para Office 365
           href: safe-docs.md
@@ -168,10 +152,6 @@
           href: configure-advanced-delivery.md
         - name: Configurações recomendadas para configurar o EOP e o Defender para segurança do Office 365
           href: recommended-settings-for-eop-and-office365.md
-        - name: Práticas recomendadas para a configuração do EOP
-          href: best-practices-for-configuring-eop.md
-        - name: Proteger caixas de correio locais na China com o EOP autônomo
-          href: protect-on-premises-mailboxes-with-exchange-online-protection.md
         - name: Integrar o AIR com uma solução personalizada ou uma solução de terceiros
           href: air-custom-reporting.md
         - name: Configurações avançadas de filtro de spam (ASF)
@@ -184,12 +164,12 @@
           href: report-junk-email-messages-to-microsoft.md
         - name: Habilitar a Mensagem de Relatório e os suplementos de Relatório de Phishing
           href: enable-the-report-message-add-in.md
-        - name: Usar regras de fluxo de email para bloquear mensagens com anexos executáveis no EOP
-          href: reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md
-        - name: Usar regras de fluxo de email para filtrar emails em massa no EOP
-          href: use-transport-rules-to-configure-bulk-email-filtering.md
+        - name: Usar regras de fluxo de correio para bloquear mensagens com anexos executáveis
+          href: /exchange/security-and-compliance/mail-flow-rules/use-rules-to-block-executable-attachments
+        - name: Usar regras de fluxo de correio para filtrar correio em massa
+          href: /exchange/security-and-compliance/mail-flow-rules/use-rules-to-filter-bulk-mail
         - name: Usar regras de fluxo de emails para definir o SCL em mensagens
-          href: use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md
+          href: /exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl
         - name: Limpeza automática zero hora – proteção contra spam e malware
           href: zero-hour-auto-purge.md
     - name: Detectar
@@ -210,10 +190,10 @@
           href: reports-and-insights-in-security-and-compliance.md
         - name: Relatar falsos positivos e falsos negativos no Outlook
           href: report-false-positives-and-false-negatives.md
-        - name: Regras de fluxo de email (regras de transporte) no EOP autônomo
-          href: mail-flow-rules-transport-rules-0.md
-        - name: Executar um relatório de grupo de função de administrador no EOP autônomo
-          href: run-an-administrator-role-group-report-in-eop-eop.md
+        - name: Regras de fluxo de emails (regras de transporte)
+          href: /exchange/security-and-compliance/mail-flow-rules/mail-flow-rules
+        - name: Executar um relatório do grupo de funções do administrador
+          href: /exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes
     - name: Investigar
       items:
         - name: Exibições do Explorador de Ameaças
@@ -230,8 +210,8 @@
           href: view-email-security-reports.md
         - name: Exibir relatórios de fluxo de email
           href: view-mail-flow-reports.md
-        - name: Exibir o log de auditoria de administradores no EOP autônomo
-          href: view-the-admin-audit-log-eop.md
+        - name: Exibir o log de auditoria administrador
+          href: /exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log
         - name: Relatório e rastreamento de mensagens no EOP autônomo
           href: reporting-and-message-trace-in-exchange-online-protection.md
         - name: Visão geral sobre mensagens encaminhadas automaticamente
@@ -262,8 +242,8 @@
           href: mfi-domain-mail-flow-status-insight.md
         - name: Usar o Envio do Administrador
           href: admin-submission.md
-        - name: Usar regras de fluxo de emails para ver o que seus usuários estão relatando à Microsoft
-          href: use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md
+        - name: Usar as regras de fluxo de correio para ver o que os usuários estão relatando à Microsoft
+          href: /exchange/security-and-compliance/mail-flow-rules/use-rules-to-see-what-users-are-reporting-to-microsoft
         - name: Informações sobre filas
           href: mfi-queue-alerts-and-queues.md
     - name: Responder
@@ -346,8 +326,6 @@
           href: reference-policies-practices-and-guidelines.md
         - name: Dicas de segurança para mensagens de email
           href: safety-tips-in-office-365.md
-        - name: Amostra de script para aplicação de configurações de EOP a vários locatários
-          href: sample-script-for-applying-eop-settings-to-multiple-tenants.md
         - name: Enviar email para o Office 365
           href: sending-mail-to-office-365.md
         - name: Serviços para não clientes
@@ -360,27 +338,10 @@
           href: virus-detection-in-spo.md
         - name: Qual é a diferença entre lixo eletrônico e email em massa?
           href: what-s-the-difference-between-junk-email-and-bulk-email.md
-        - name: S/MIME
-          href: s-mime-for-message-signing-and-encryption.md
-          items:
-            - name: S/MIME para assinatura e criptografia de mensagens
-              href: s-mime-for-message-signing-and-encryption.md
-            - name: Definir as configurações de S/MIME para o Outlook Web
-              href: configure-s-mime-settings-for-outlook-web-app.md
-            - name: Enviar e receber emails assinados e criptografados com S/MIME
-              href: send-and-receive-s-mime-signed-and-encrypted-email.md
-            - name: Sincronizar certificados de usuário para o Microsoft 365 para S/MIME
-              href: sync-user-certificates-to-office-365-for-s-mime.md
-            - name: Configurar coleção de certificados virtuais para validar S/MIME
-              href: set-up-virtual-certificate-collection-to-validate-s-mime.md
-            - name: Defina grupos e usuários para um ambiente de desenvolvimento/teste de uma campanha política
-              href: configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
-            - name: Criar sites de equipe em um ambiente de desenvolvimento/teste de campanha política
-              href: create-team-sites-in-a-political-campaign-dev-test-environment.md
-            - name: Mover domínios e configurações de uma organização do EOP para outra
-              href: move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md
-            - name: Gerenciar grupos de funções no EOP autônomo
-              href: manage-admin-role-group-permissions-in-eop.md
+        - name: Defina grupos e usuários para um ambiente de desenvolvimento/teste de uma campanha política
+          href: configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
+        - name: Criar sites de equipe em um ambiente de desenvolvimento/teste de campanha política
+          href: create-team-sites-in-a-political-campaign-dev-test-environment.md
     - name: Microsoft 365 Defender
       href: ../defender/index.yml
     - name: Microsoft Defender para Ponto de Extremidade
