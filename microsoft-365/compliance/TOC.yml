@@ -798,7 +798,7 @@
           href: detailed-properties-in-the-office-365-audit-log.md
         - name: 'Exportar, configurar e exibir registros de log de auditoria'
           href: export-view-audit-log-records.md
-        - name: Ativar ou desativar a pesquisa de log de auditoria
+        - name: Ativar ou desativar a auditoria
           href: turn-audit-log-search-on-or-off.md
         - name: Usar o log de auditoria para investigar problemas comuns
           href: auditing-troubleshooting-scenarios.md
