@@ -13,12 +13,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Priority
 description: Configure a compreensão de conteúdo no Projeto Cortex
-ms.openlocfilehash: 2f9fd4e035152a127f9f1c254f4c489a6ca4c976
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: 7589003505aafb480872b14a09c383cfbe0dff40
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51994694"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683542"
 ---
 # <a name="set-up-sharepoint-syntex"></a>Configuração do SharePoint Syntex
 
@@ -31,7 +31,7 @@ Considere o seguinte antes de começar:
 
 É possível alterar suas configurações após a configuração inicial no Centro de administração do Microsoft 365.
 
-Antes da configuração, certifique-se de planejar a melhor maneira de estabelecer e configurar a compreensão de conteúdo no seu ambiente. Por exemplo, você precisa tomar as seguintes decisões:
+Antes da instalação, planeje a melhor maneira de configurar e configurar a compreensão do conteúdo em seu ambiente. Por exemplo, você precisa tomar as seguintes decisões:
 
 - Os sites do Microsoft Office SharePoint Online nos quais você deseja habilitar o processamento de formulários - todos, alguns ou sites selecionados
 - O nome e os administradores do seu centro de conteúdo
@@ -42,6 +42,8 @@ Antes da configuração, certifique-se de planejar a melhor maneira de estabelec
 > Você precisa ter permissões administrativas globais ou de administrador do SharePoint para poder acessar o Centro de administração do Microsoft 365 e configurar o SharePoint Syntex.
 
 Como administrador, também é possível fazer alterações nas configurações selecionadas a qualquer momento após a configuração e ao longo das configurações de gerenciamento de compreensão de conteúdo no Centro de Administração do Microsoft 365.
+
+Se você planeja usar um ambiente personalizado do Power Platform, deverá [instalar o aplicativo *AI Builder para Project Cortex* nesse ambiente](/power-platform/admin/manage-apps#install-an-app-in-the-environment-view) e [alocar créditos do AI Builder](/power-platform/admin/capacity-add-on) a ele antes de criar modelos de processamento de formulário.
 
 ### <a name="licensing"></a>Licenciamento
 
@@ -67,9 +69,9 @@ Vá até o [Centro de administração do Power Platform](https://admin.powerplat
 
 1. No centro de administração do Microsoft 365, selecione **Configurar** e visualize a seção **Arquivos e conteúdo**.
 
-2. Na seção **Arquivos e conteúdo**, selecione **Automatizar a compreensão de conteúdo**.<br/>
+2. Na seção **Arquivos e conteúdo**, selecione **Automatizar a compreensão de conteúdo**. Observe que a disponibilidade de crédito atual do Construtor de AI é mostrada na **Em um relance** seção.<br/>
 
-3. Na página **Compreensão automatizada de conteúdo**, clique em **Começar** para percorrer o processo de instalação.<br/>
+3. Na página **Compreensão automatizada de conteúdo**, clique em **Começar** para percorrer o processo de instalação. <br/>
 
     > [!div class="mx-imgBorder"]
     > ![Iniciar a instalação](../media/content-understanding/admin-content-understanding-get-started.png)</br>
@@ -93,7 +95,7 @@ Vá até o [Centro de administração do Power Platform](https://admin.powerplat
 
     Para **ambiente do Power Platform**, você pode selecionar:
     - **Use o ambiente padrão** para utilizar seu ambiente padrão do Power Platform.
-    - **Use um ambiente personalizado** para utilizar um ambiente personalizado. Escolha o ambiente que você deseja usar na lista. Você deve instalar o aplicativo *AI Builder para Project Cortex* neste ambiente e alocar créditos do AI Builder a ele antes de criar modelos de processamento de formulário.
+    - **Use um ambiente personalizado** para utilizar um ambiente personalizado. Escolha o ambiente que você deseja usar na lista. ([Veja os requisitos para um ambiente personalizado](/microsoft-365/contentunderstanding/set-up-content-understanding#requirements)).
 
     Clique em **Avançar**.
 

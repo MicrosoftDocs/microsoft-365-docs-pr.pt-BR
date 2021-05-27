@@ -22,18 +22,18 @@ ms.custom:
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 recommendations: false
 description: Saiba como configurar o Teams para melhorar a segurança de compartilhamento de arquivos usando três camadas de proteção, equilibrando a segurança com a facilidade de colaboração.
-ms.openlocfilehash: ab2dd4cbf2b9cfc7b285f049eeaa876371574202
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 34351b202575302e2929db48d7807b91e4308905
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539210"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683398"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>Configurar equipes com três camadas de proteção
 
 Os artigos nesta série fornecem recomendações para configurar equipes no Microsoft Teams e seus sites do Microsoft Office SharePoint Online associados, para obter uma proteção de arquivos que equilibre segurança com facilidade de colaboração.
 
-Este artigo define quatro configurações diferentes, começando com uma equipe pública com as políticas de compartilhamento mais abertas. Cada configuração adicional representa um avanço significativo na proteção, enquanto a capacidade de acessar e colaborar nos arquivos armazenados nas equipes é reduzida ao conjunto relevante de membros da equipe. 
+Este artigo define quatro configurações diferentes, começando com uma equipe pública com as políticas de compartilhamento mais abertas. Cada configuração adicional representa uma etapa significativa na proteção, enquanto a capacidade de acessar e colaborar em arquivos armazenados dentro de equipes é reduzida para o conjunto relevante de membros da equipe. 
 
 As configurações nesse artigo se alinham às recomendações da Microsoft para três níveis de proteção de dados, identidades e dispositivos:
 
@@ -117,6 +117,14 @@ Confira as seguintes referências para criar um ambiente de compartilhamento de 
 Para as camadas confidencial e altamente confidencial, restringimos o acesso ao conteúdo do Microsoft Office SharePoint Online com rótulos de confidencialidade. O acesso condicional do Azure AD oferece muitas opções para determinar como as pessoas acessam o Microsoft 365, incluindo limitações com base em localização, risco, conformidade do dispositivo e outros fatores. Recomendamos que você leia [O que é o Acesso Condicional?](/azure/active-directory/conditional-access/overview) e considere quais políticas adicionais podem ser apropriadas para sua organização.
 
 Observe que os convidados geralmente não têm dispositivos gerenciados pela sua organização. Se você permitir aos convidados em qualquer uma das camadas, considere que tipos de dispositivos eles estarão usando para acessar equipes e sites e defina suas políticas de dispositivos não gerenciados de acordo.
+
+### <a name="control-device-access-across-microsoft-365"></a>Controlar o acesso do dispositivo no Microsoft 365
+
+A configuração de dispositivos não gerenciados nos rótulos de sensibilidade afeta somente o acesso do Microsoft Office SharePoint Online. Se quiser expandir o controle de dispositivos não gerenciados além do Microsoft Office SharePoint Online[, você poderá criar uma política de acesso condicional do Azure Active Directory para todos os aplicativos e serviços da sua organização](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device) em vez disso. Para configurar essa política especificamente para [serviços do Microsoft 365](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#office-365), selecione o aplicativo de nuvem do **Office 365** em **Aplicativos ou ações do**.
+
+![Captura de tela do aplicativo de nuvem do Office 365 em uma política de acesso condicional do Azure Active Directory](https://docs.microsoft.com/sharepoint/sharepointonline/media/azure-ca-office365-policy.png)
+
+O uso de uma política que afete todos os serviços do Microsoft 365 pode levar a uma melhor segurança e uma melhor experiência para os usuários. Por exemplo, quando você bloqueia o acesso a dispositivos não gerenciados apenas no Microsoft Office SharePoint Online, os usuários podem acessar o chat em uma equipe com um dispositivo não gerenciado, mas perderão o acesso quando tentarem acessar a guia **Arquivos**. Usar o aplicativo de nuvem do Office 365 ajuda a evitar problemas com [dependências de serviço](/azure/active-directory/conditional-access/service-dependencies).
 
 ## <a name="next-step"></a>Próxima etapa
 

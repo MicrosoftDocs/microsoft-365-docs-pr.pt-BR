@@ -1,8 +1,9 @@
 ---
 title: Visão geral da compreensão de documentos
-ms.author: efrene
-author: efrene
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
+ms.reviewer: ssquires
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -12,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Obtenha uma visão geral da compreensão de documentos no Microsoft SharePoint Syntex.
-ms.openlocfilehash: 73e217e458fb9e1ccad8b64ffc81a6c9522a04f4
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 7e5818a929fa0f4554a7ee4ece460b4fe0d691aa
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222750"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683818"
 ---
 # <a name="document-understanding-overview"></a>Visão geral da compreensão de documentos
 
@@ -36,7 +37,7 @@ A compreensão de documentos usa modelos de inteligência artificial (IA) para a
 Os modelos de compreensão de documentos são criados e gerenciados em um tipo de site do SharePoint chamado *centro de conteúdo*. Quando aplicada a uma biblioteca de documentos do SharePoint, o modelo é associado a um tipo de conteúdo que possui colunas para armazenar as informações que estão sendo extraídas. O tipo de conteúdo que você cria é armazenado na galeria de tipos de conteúdo do SharePoint. Você também pode optar por usar os tipos de conteúdo existentes para usar o esquema.
 
 > [!NOTE]
-> Tipos de conteúdo selados ou somente leitura não podem ser atualizados e, assim, não podem ser usados em um modelo.
+> Os tipos de conteúdo somente leitura ou de conteúdo não podem ser atualizados, portanto, não podem ser usados em um modelo.
 
 Adicione se *Classificadores* e *Extratores* ao seu modelo de compreensão de documentos para fazer o seguinte: 
 
@@ -48,16 +49,40 @@ Você pode usar os arquivos de exemplo para treinar e testar seus separadores e 
 
 Depois de publicar seu modelo, use o centro de conteúdo para aplicá-lo a qualquer biblioteca de documentos do SharePoint à qual você tenha acesso.  
 
-### <a name="file-limitations"></a>Limitações de arquivo
+## <a name="file-limitations"></a>Limitações de arquivo
 
 Os modelos de compreensão de documentos usam a tecnologia reconhecimento óptico de caracteres (OCR) para digitalizar PDFs, imagens e arquivos TIFF, tanto quando você treina um modelo com arquivos de exemplo como quando executa o modelo em arquivos em uma biblioteca de documentos.
 
-Observe as seguintes diferenças em relação aos arquivos baseados em texto do Microsoft Office e arquivos digitalizados por OCR (PDF, imagem ou TIFF):
+Observe as seguintes diferenças em relação a arquivos baseados em texto do Microsoft Office e arquivos verificados por OCR (PDF, imagem ou TIFF):
 
-- Arquivos do Office: truncamos em 64000 caracteres (no treinamento e quando executado em arquivos em uma biblioteca de documentos).
-- Arquivos digitalizados por OCR: há um limite de 20 páginas.  
+- Arquivos do Office: Truncado em 64.000 caracteres (no treinamento e quando executado em arquivos em uma biblioteca de documentos).
 
-#### <a name="supported-file-types"></a>Tipos de arquivo compatíveis
+- Arquivos digitalizados com OCR: há um limite de 20 páginas.  
+
+### <a name="requirements"></a>Requisitos
+
+O processamento de OCR funciona melhor em documentos que atendem aos seguintes requisitos:
+
+- Nos formatos JPG, PNG ou PDF (texto ou digitalizado). PDFs inseridos por texto são melhores, pois não haverá erros na extração de caracteres e no local.
+
+- Se seus PDFs estão bloqueados por senha, você deve remover o bloqueio antes de enviar a eles.
+
+- O tamanho de arquivo combinado dos documentos usados para treinamento por coleção não deve exceder 50 MB, e documentos PDF não devem ter mais de 500 páginas.
+
+- Para imagens, as dimensões devem estar entre 50 × 50 e 10.000 × 10.000 pixels.
+   > [!NOTE]
+   > Imagens muito largas ou com dimensões ímpares (por exemplo, plantas terrárias) podem ficar truncadas no processo de OCR e perder precisão.
+ 
+- Para arquivos PDF, as dimensões devem ser de no máximo 17 x 17 polegadas, correspondentes aos tamanhos de papel Legal ou A3 e menores.
+
+- Se digitalizados de documentos de papel, as digitalizações deverão ser imagens de alta qualidade.
+
+- Deve usar o alfabeto latino (caracteres em inglês).
+
+> [!NOTE]
+> No momento, o AI Builder não dá suporte aos seguintes tipos de dados de entrada de formulário:<br>- Caixas de seleção ou botões de rádio<br>– Assinaturas<br>– PDFs preenchíveis
+
+### <a name="supported-file-types"></a>Tipos de arquivo compatíveis
 
 Os modelos de compreensão de documentos são compatíveis com os seguintes tipos de arquivo:
 
