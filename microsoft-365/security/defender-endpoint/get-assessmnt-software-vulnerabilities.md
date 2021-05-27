@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: be21be07758c1123cdde38e3750cafe739bfb66a
-ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
+ms.openlocfilehash: 951f78ba361a12e404a5cce2071f931eab30c43f
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52653616"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689208"
 ---
 # <a name="export-software-vulnerabilities-assessment-per-device"></a>Exportar a avaliação de vulnerabilidades de software por dispositivo
 
@@ -37,21 +37,23 @@ ms.locfileid: "52653616"
 [!include[Prerelease information](../../includes/prerelease.md)]
 >
 >
-Retorna todas as vulnerabilidades conhecidas e seus detalhes para todos os dispositivos, por dispositivo.
+Retorna todas as vulnerabilidades de software conhecidas e seus detalhes para todos os dispositivos, por dispositivo.
 
 Há diferentes chamadas de API para obter diferentes tipos de dados. Como a quantidade de dados pode ser muito grande, há duas maneiras de recuperá-las:
 
-- **OData**  A API puxa todos os dados da sua organização como respostas Json, seguindo o protocolo OData. Esse método é melhor para _organizações pequenas com menos de 100 mil dispositivos_. A resposta é paginada, portanto, você pode usar o campo odata.nextLink da resposta para \@ buscar os próximos resultados.
+- [Exportar a avaliação de vulnerabilidades de software OData](#1-export-software-vulnerabilities-assessment-odata)  A API puxa todos os dados da sua organização como respostas Json, seguindo o protocolo OData. Esse método é melhor para _organizações pequenas com menos de 100 K dispositivos_. A resposta é paginada, portanto, você pode usar o campo odata.nextLink da resposta para \@ buscar os próximos resultados.
 
-- **via arquivos** Essa solução de API permite a retirada de quantidades maiores de dados de forma mais rápida e confiável. Portanto, é recomendado para grandes organizações, com mais de 100 mil dispositivos. Essa API puxa todos os dados da sua organização como arquivos de download. A resposta contém URLs para baixar todos os dados do Azure Armazenamento. Essa API permite baixar todos os dados do Azure Armazenamento a seguir:
+- [Exportar a avaliação de vulnerabilidades de software por meio de arquivos](#2-export-software-vulnerabilities-assessment-via-files) Essa solução de API permite a retirada de quantidades maiores de dados de forma mais rápida e confiável. Portanto, é recomendado para grandes organizações, com mais de 100 K dispositivos. Essa API puxa todos os dados da sua organização como arquivos de download. A resposta contém URLs para baixar todos os dados do Azure Armazenamento. Essa API permite baixar todos os dados do Azure Armazenamento a seguir:
 
   - Chame a API para obter uma lista de URLs de download com todos os dados da sua organização.
 
   - Baixe todos os arquivos usando as URLs de download e processe os dados conforme quiser.
 
-Os dados coletados (para _OData_ ou por meio de arquivos _)_ são o instantâneo atual do estado atual e não contêm dados históricos. Para coletar dados históricos, os clientes devem salvar os dados em seus próprios armazenamentos de dados.
+Os dados coletados (usando _OData_ ou _por_ meio de arquivos ) são o instantâneo atual do estado atual e não contêm dados históricos. Para coletar dados históricos, os clientes devem salvar os dados em seus próprios armazenamentos de dados.
 
-A menos que indicado de outra forma, todos os métodos de avaliação de exportação listados são **_exportação completa_** e **_por dispositivo_** (também chamado de **_por dispositivo)._**
+> [!Note]
+>
+> A menos que indicado de outra forma, todos os métodos de avaliação de exportação listados são **_exportação completa_** e **_por dispositivo_** (também chamado de **_por dispositivo)._**
 
 ## <a name="1-export-software-vulnerabilities-assessment-odata"></a>1. Avaliação de vulnerabilidades de software de exportação (OData)
 
@@ -72,7 +74,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão | Permissão | Nome de exibição de permissão
 ---|---|---
 Aplicativo | Vulnerability.Read.All | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
-Delegado (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
+Delegada (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
 
 ### <a name="13-url"></a>URL 1.3
 
@@ -93,30 +95,30 @@ GET /api/machines/SoftwareVulnerabilitiesByMachine
 >
 >- Algumas colunas adicionais podem ser retornadas na resposta. Essas colunas são temporárias e podem ser removidas, use apenas as colunas documentadas.
 >
->- As propriedades definidas na tabela a seguir são listadas alfanumericamente, por ID da propriedade.  Ao executar essa API, a saída resultante não será necessariamente retornada na mesma ordem listada nessas tabelas.
+>- As propriedades definidas na tabela a seguir são listadas em ordem alfabética, por ID da propriedade.  Ao executar essa API, a saída resultante não será necessariamente retornada na mesma ordem listada nesta tabela.
 >
 
-Propriedade (id) | Tipo de dados | Descrição | Exemplo de um valor retornado
+Propriedade (ID) | Tipo de dados | Descrição | Exemplo de um valor retornado
 :---|:---|:---|:---
-CveId | string | Identificador exclusivo atribuído à vulnerabilidade de segurança no sistema CVE (Common Vulnerabilities and Exposures). | CVE-2020-15992
-CvssScore | string | A pontuação CVSS do CVE. | 6.2
-DeviceId | string | Identificador exclusivo do dispositivo no serviço. | 9eaf3a8b5962e0e6b1af9ec756664a9b823df2d1
-DeviceName | string | Nome de domínio totalmente qualificado (FQDN) do dispositivo. | johnlaptop.europe.contoso.com
+CveId | cadeia de caracteres | Identificador exclusivo atribuído à vulnerabilidade de segurança no sistema CVE (Common Vulnerabilities and Exposures). | CVE-2020-15992
+CvssScore | cadeia de caracteres | A pontuação CVSS do CVE. | 6.2
+DeviceId | cadeia de caracteres | Identificador exclusivo do dispositivo no serviço. | 9eaf3a8b5962e0e6b1af9ec756664a9b823df2d1
+DeviceName | cadeia de caracteres | Nome de domínio totalmente qualificado (FQDN) do dispositivo. | johnlaptop.europe.contoso.com
 DiskPaths  | Cadeia de \[ caracteres de matriz\] | Evidência em disco de que o produto está instalado no dispositivo. | [ "C:\Arquivos de Programas (x86)\Microsoft\Silverlight\Application\silverlight.exe" ]
-ExploitabilityLevel | string | O nível de exploração dessa vulnerabilidade (NoExploit, ExploitIsPublic, ExploitIsVerified, ExploitIsInKit) | ExploitIsInKit
-FirstSeenTimestamp | string | Primeira vez que o CVE deste produto foi visto no dispositivo. | 2020-11-03 10:13:34.8476880
+ExploitabilityLevel | cadeia de caracteres | O nível de exploração dessa vulnerabilidade (NoExploit, ExploitIsPublic, ExploitIsVerified, ExploitIsInKit) | ExploitIsInKit
+FirstSeenTimestamp | cadeia de caracteres | Primeira vez que o CVE deste produto foi visto no dispositivo. | 2020-11-03 10:13:34.8476880
 Id | cadeia de caracteres | Identificador exclusivo do registro. | 123ABG55_573AG&mnp!
-LastSeenTimestamp | string | A última vez que o CVE foi visto no dispositivo. | 2020-11-03 10:13:34.8476880
-OSPlatform | string | Plataforma do sistema operacional em execução no dispositivo. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7. Confira sistemas operacionais e plataformas com suporte para TVM para obter detalhes. | Windows10
-RbacGroupName  | string | O grupo controle de acesso baseado em função (RBAC). Se esse dispositivo não for atribuído a nenhum grupo RBAC, o valor será "Não atribuído". Se a organização não tiver nenhum grupo RBAC, o valor será "None". | Servidores
-RecommendationReference | string | Uma referência à ID de recomendação relacionada a este software. | va-_-microsoft-_-silverlight
-RecommendedSecurityUpdate (opcional) | string | Nome ou descrição da atualização de segurança fornecida pelo fornecedor de software para resolver a vulnerabilidade. | Atualizações de segurança de abril de 2020
-RecommendedSecurityUpdateId (opcional) | string | Identificador das atualizações de segurança ou identificador aplicáveis para os artigos de base de conhecimento ou orientação correspondentes (KB) | 4550961
+LastSeenTimestamp | cadeia de caracteres | A última vez que o CVE foi visto no dispositivo. | 2020-11-03 10:13:34.8476880
+OSPlatform | cadeia de caracteres | Plataforma do sistema operacional em execução no dispositivo. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7. Confira sistemas operacionais e plataformas com suporte para TVM para obter detalhes. | Windows10
+RbacGroupName  | cadeia de caracteres | O grupo controle de acesso baseado em função (RBAC). Se esse dispositivo não for atribuído a nenhum grupo RBAC, o valor será "Não atribuído". Se a organização não tiver nenhum grupo RBAC, o valor será "None". | Servidores
+RecommendationReference | cadeia de caracteres | Uma referência à ID de recomendação relacionada a este software. | va-_-microsoft-_-silverlight
+RecommendedSecurityUpdate (opcional) | cadeia de caracteres | Nome ou descrição da atualização de segurança fornecida pelo fornecedor de software para resolver a vulnerabilidade. | Atualizações de segurança de abril de 2020
+RecommendedSecurityUpdateId (opcional) | cadeia de caracteres | Identificador das atualizações de segurança ou identificador aplicáveis para os artigos de base de conhecimento ou orientação correspondentes (KB) | 4550961
 RegistryPaths  | Cadeia de \[ caracteres de matriz\] | Evidência do Registro de que o produto está instalado no dispositivo. | [ "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\MicrosoftSilverlight" ]
-SoftwareName | string | Nome do produto de software. | chrome
-SoftwareVendor | string | Nome do fornecedor de software. | google
-SoftwareVersion | string | Número da versão do produto de software. | 81.0.4044.138
-VulnerabilitySeverityLevel  | string | Nível de severidade atribuído à vulnerabilidade de segurança com base na pontuação cvss e fatores dinâmicos influenciados pelo cenário de ameaças. | Médio
+SoftwareName | cadeia de caracteres | Nome do produto de software. | chrome
+SoftwareVendor | cadeia de caracteres | Nome do fornecedor de software. | google
+SoftwareVersion | cadeia de caracteres | Número da versão do produto de software. | 81.0.4044.138
+VulnerabilitySeverityLevel  | cadeia de caracteres | Nível de severidade atribuído à vulnerabilidade de segurança com base na pontuação cvss e fatores dinâmicos influenciados pelo cenário de ameaças. | Médio
 
 ### <a name="16-examples"></a>1.6 Exemplos
 
@@ -275,7 +277,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão | Permissão | Nome de exibição de permissão
 ---|---|---
 Aplicativo | Vulnerability.Read.All | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
-Delegado (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
+Delegada (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
 
 ### <a name="23-url"></a>URL 2.3
 
@@ -304,13 +306,11 @@ GET /api/machines/SoftwareVulnerabilitiesExport
 >
 >- Algumas colunas adicionais podem ser retornadas na resposta. Essas colunas são temporárias e podem ser removidas, use apenas as colunas documentadas.
 >
->- As propriedades definidas na tabela a seguir são listadas em ordem alfabética, por ID da propriedade.  Ao executar essa API, a saída resultante não será necessariamente retornada na mesma ordem listada nessas tabelas.
->
 
-Propriedade (id) | Tipo de dados | Descrição | Exemplo de um valor retornado
+Propriedade (ID) | Tipo de dados | Descrição | Exemplo de um valor retornado
 :---|:---|:---|:---
 Exportar arquivos | cadeia de \[ caracteres de matriz\]  | Uma lista de URLs de download para arquivos que segurando o instantâneo atual da organização. | [  “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...1”, “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...2”  ]
-GeneratedTime | string | A hora em que a exportação foi gerada. | 2021-05-20T08:00:00Z
+GeneratedTime | cadeia de caracteres | A hora em que a exportação foi gerada. | 2021-05-20T08:00:00Z
 
 ### <a name="26-examples"></a>2.6 Exemplos
 

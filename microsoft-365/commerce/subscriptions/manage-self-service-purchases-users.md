@@ -18,21 +18,14 @@ search.appverid:
 - MET150
 description: Os usuários podem aprender a gerenciar suas compras de autoatendir.
 ms.date: 03/17/2021
-ms.openlocfilehash: ed6f2fc3b55756fb88dccd748fd4a4a9a34a5c81
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: fb8431bce82893d8ca2903caf96968dd3b0ef359
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536077"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683662"
 ---
 # <a name="manage-self-service-purchases-users"></a>Gerenciar compras de autoatendimento (Usuários)
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Como usuário, você pode comprar assinaturas para determinados produtos e atribuir licenças para essas assinaturas para as pessoas em sua equipe. Você é responsável por pagar todas as compras de autoatend pena que fizer. Você pode gerenciar suas assinaturas no centro de administração Microsoft 365 em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com</a>.
 
@@ -42,12 +35,42 @@ O administrador tem uma exibição somente leitura em todas as assinaturas que v
 
 Você pode exibir uma lista de todas as assinaturas adquiridas por autoatendam que você comprou.
 
-1. No centro de administração, acesse a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
+::: moniker range="o365-worldwide"
+
+1. No centro de administração, vá para a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Seus produtos</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Seus produtos</a>.
+::: moniker-end
 2. Na guia **Produtos,** selecione o ícone de filtro e, em seguida, **selecione Autoatendados**.
 
 ## <a name="how-to-buy-more-or-reduce-licenses"></a>Como comprar mais ou reduzir licenças
 
-1. No centro de administração, acesse a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
+::: moniker range="o365-worldwide"
+
+1. No centro de administração, vá para a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Seus produtos</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Seus produtos</a>.
+::: moniker-end
 2. Na guia **Produtos,** selecione a assinatura para a que você deseja comprar mais ou reduzir licenças.
 3. Escolha **Comprar licenças** ou **Remover licenças**.
 4. No painel direito, na caixa Total de **licenças,** insira o número total de licenças que você deseja para essa assinatura e escolha **Salvar**. Por exemplo, se você tiver 100 licenças e quiser adicionar mais 5, digite 105.
@@ -56,7 +79,23 @@ Você pode exibir uma lista de todas as assinaturas adquiridas por autoatendam q
 
 ### <a name="to-assign-licenses"></a>Para atribuir licenças
 
-1. No centro de administração, vá para a página  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças de</a> Cobrança.
+:: moniker range="o365-worldwide"
+
+1. No centro de administração, acesse a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+ 1. No centro de administração, acesse a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenças</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+ 1. No centro de administração, acesse a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenças</a>.
+
+::: moniker-end
 2. Escolha a assinatura para a qual você deseja atribuir licenças.
 3. Escolha **Atribuir licenças**.
 4. No painel **Atribuir licenças a usuários**, comece a digitar um nome e, em seguida, selecione-o nos resultados para adicioná-lo à lista. É possível selecionar até 20 usuários de cada vez.
@@ -66,7 +105,23 @@ Você pode exibir uma lista de todas as assinaturas adquiridas por autoatendam q
 
 ### <a name="to-unassign-licenses"></a>Para desasignar licenças
 
-1. No centro de administração, vá para a página  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças de</a> Cobrança.
+:: moniker range="o365-worldwide"
+
+1. No centro de administração, acesse a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+ 1. No centro de administração, acesse a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenças</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+ 1. No centro de administração, acesse a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenças</a>.
+
+::: moniker-end
 2. Escolha o produto para o qual você deseja desasincar licenças.
 3. Escolha os usuários dos quais você deseja desasincar licenças.
 4. Escolha **Unassign licenses**.
@@ -74,7 +129,22 @@ Você pode exibir uma lista de todas as assinaturas adquiridas por autoatendam q
 
 ## <a name="cancel-a-subscription"></a>Cancelar uma assinatura
 
-1. No centro de administração, acesse a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
+::: moniker range="o365-worldwide"
+
+1. No centro de administração, vá para a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Seus produtos</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Seus produtos</a>.
+::: moniker-end
 2. Na guia **Produtos**, encontre a assinatura que deseja cancelar. Selecione os três pontos (mais ações) e selecione **Cancelar assinatura**.
 3. No painel **Cancelar assinatura**, escolha um motivo pelo qual você está cancelando. Opcionalmente, forneça qualquer comentário que você tiver.
 4. Selecione **Salvar**.

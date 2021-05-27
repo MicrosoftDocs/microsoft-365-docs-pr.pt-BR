@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 6a34269c414f59d40c9160d5728159ed9cddf976
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 4957c92cb95464213cce4a81ded07de166468c73
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651339"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689008"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>Investigar alertas no Microsoft 365 Defender
 
@@ -78,6 +78,23 @@ Uma página de alerta é composta por estas seções:
 :::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-main.png" alt-text="Exemplo da página de detalhes de um alerta no centro Microsoft 365 segurança":::
 
 Ao longo de uma página de alerta, você pode selecionar as regiões (**...**) ao lado de qualquer entidade para ver ações disponíveis, como abrir a página de alerta ou vincular o alerta a outro incidente.
+
+### <a name="alert-sources"></a>Fontes de alerta
+Microsoft 365 Os alertas do Defender podem vir de soluções como o Microsoft Defender para Ponto de Extremidade, o Microsoft Defender para Office 365 e Microsoft Cloud App Security. Você pode notar alertas com caracteres pré-anexados no alerta. A tabela a seguir fornece orientações para ajudá-lo a entender o mapeamento de fontes de alerta com base no caractere pré-anexado no alerta.
+
+> [!NOTE]
+> - Os GUIDs anteriores são específicos apenas para experiências unificadas, como fila de alertas unificados, página de alertas unificados, investigação unificada e incidente unificado.<br>
+> - O caractere prepended não altera o GUID do alerta. A única alteração no GUID é o componente pré-anexado.<br>
+
+
+Fonte de alerta | Caracteres pré-anexados 
+:---|:---
+Microsoft Defender para Office 365 | `fa{GUID}` <br> Exemplo: `fa123a456b-c789-1d2e-12f1g33h445h6i` 
+Microsoft Defender para Ponto de Extremidade | `da` ou `ed` para alertas de detecção personalizados <br> 
+Microsoft Defender para Identidade? | `aa{GUID}` <br> Exemplo: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
+Microsoft Cloud App Security |`ca{GUID}` <br> Exemplo: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
+
+
 
 ### <a name="analyze-affected-assets"></a>Analisar ativos afetados
 

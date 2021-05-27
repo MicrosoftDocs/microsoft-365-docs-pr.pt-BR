@@ -13,12 +13,12 @@ localization_priority: Normal
 description: Siga o caminho de uma mensagem de entrada através da pilha de filtragem de ameaças no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 01ad901f7f746d9b5d2c50632c1344701120c20f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: e892ebe04887527cf57e4ea44f67c4aaa775b228
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538682"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683290"
 ---
 # <a name="step-by-step-threat-protection-in-microsoft-defender-for-office-365"></a>Proteção passo a passo contra ameaças no Microsoft Defender para Office 365
 
@@ -111,13 +111,13 @@ O último estágio ocorre após a entrega de emails ou arquivos, atuando em emai
 
 :::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase4.png" alt-text="A fase 4 da filtragem no Defender para Office 365 é a proteção pós-entrega.":::
 
-1. **Cofre Links** é a proteção de tempo de clique do MDO. Cada URL em cada mensagem é empacotada para apontar para os servidores Cofre Links da Microsoft. Quando uma URL é clicada, ela é verificada em relação à reputação mais recente, antes que o usuário seja redirecionado para o site de destino. A URL é assíncrona em áreas de segurança para atualizar sua reputação.
+1. **Cofre Links** é o Defender para Office 365 proteção de hora de clique. Cada URL em cada mensagem é empacotada para apontar para os servidores Cofre Links da Microsoft. Quando uma URL é clicada, ela é verificada em relação à reputação mais recente, antes que o usuário seja redirecionado para o site de destino. A URL é assíncrona em áreas de segurança para atualizar sua reputação.
 
-2. Phish Zero-Hour Limpeza automática **(ZAP)** detecta e neutraliza de forma retroativa mensagens de phishing mal-intencionadas que já foram entregues a Exchange Online caixas de correio.
+2. A limpeza automática zero **hora (ZAP)** para phishing detecta e neutraliza mensagens de phishing mal-intencionadas que já foram entregues a Exchange Online caixas de correio.
 
-3. **Malware O ZAP** detecta e neutraliza retroativamente mensagens de malware mal-intencionadas que já foram entregues Exchange Online caixas de correio.
+3. **O ZAP para malware** detecta e neutraliza retroativamente mensagens de malware mal-intencionadas que já foram entregues Exchange Online caixas de correio.
 
-4. **Spam O ZAP** detecta e neutraliza retroativamente mensagens de spam mal-intencionadas que já foram entregues Exchange Online caixas de correio.
+4. **O ZAP para phishing** detecta e neutraliza retroativamente mensagens de spam mal-intencionadas que já foram entregues Exchange Online caixas de correio.
 
 5. **Os Exibições** de Campanha permitem que os administradores vejam a imagem geral de um ataque, mais rápido e mais completo, do que qualquer equipe poderia sem automação. A Microsoft aproveita as grandes quantidades de dados anti-phishing, anti-spam e anti-malware em todo o serviço para ajudar a identificar campanhas e permite que os administradores as investiguem do início ao fim, incluindo destinos, impactos e fluxos, que também estão disponíveis em um write-up de campanha baixável.
 
@@ -128,7 +128,6 @@ O último estágio ocorre após a entrega de emails ou arquivos, atuando em emai
 8. A **proteção para OneDrive, SharePoint** e Teams oferece a mesma proteção de anexos Cofre contra arquivos mal-intencionados, na verdade, dentro de OneDrive, SharePoint e Microsoft Teams.
 
 9. Quando uma URL que aponta para um arquivo é selecionada após a **entrega,** a detonação de conteúdo vinculado exibe uma página de aviso até que a área de segurança do arquivo seja concluída e a URL seja encontrada como segura.
-
 
 ## <a name="the-filtering-stack-diagram"></a>O diagrama de pilha de filtragem
 

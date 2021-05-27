@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: Crie uma caixa de correio compartilhada para permitir que vários usuários da sua empresa compartilhem a responsabilidade de ler e responder a emails enviados para um endereço.
-ms.openlocfilehash: e628d72482ed7ff32a204eaf9503fdd9a271844a
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 35f1de41094c6bf3f806b3e8e01c0a67949c491e
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635493"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683242"
 ---
 # <a name="create-a-shared-mailbox"></a>Criar uma caixa de correio compartilhada 
 
@@ -116,42 +116,26 @@ Mas e se um administrador simplesmente redefinir a senha da conta de usuário da
 
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 
-2. Na lista de contas de usuários, localize a conta da caixa de correio compartilhada (por exemplo, altere o filtro para **Usuários não licenciados**).
-
-3. Selecione o usuário para abrir o painel propriedades e, em seguida, selecione o ícone **Bloquear este usuário** ![Captura de tela do ícone Bloquear este usuário](../../media/block-user-icon.png).
-
-   **Observação**: Se a conta já estiver bloqueada, a mensagem **Entrada bloqueada** aparecerá na parte superior e o ícone exibirá **Desbloquear este usuário**.
-
-4. No painel **Bloquear este usuário?**, selecione **Bloquear a entrada do usuário** e, em seguida, selecione **Salvar alterações**.
-
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 
-2. Na lista de contas de usuários, localize a conta da caixa de correio compartilhada (por exemplo, altere o modo de exibição para **Usuários não licenciados**) e selecione a conta.
-
-3. No submenu propriedades, selecione **Bloquear entrada**.
-
-    **Observação:** Se a conta já estiver bloqueada, o botão indicará **Desbloquear entrada**.
-
-4. No submenu **Editar o status de entrada**, verifique se a opção Bloquear a entrada do usuário está marcada, selecione **Salvar** e, em seguida, **Fechar**.
-
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
-
-2. Na lista de contas de usuários, localize a conta da caixa de correio compartilhada (por exemplo, altere o modo de exibição para **Usuários não licenciados**) e selecione a conta.
-
-3. No submenu propriedades, selecione **Bloquear entrada**.
-
-    **Observação:** Se a conta já estiver bloqueada, o botão indicará **Desbloquear entrada**.
-
-4. No submenu **Editar o status de entrada**, verifique se a opção Bloquear a entrada do usuário está marcada, selecione **Salvar** e, em seguida, **Fechar**.
 ::: moniker-end
+
+1. Na lista de contas de usuários, localize a conta da caixa de correio compartilhada (por exemplo, altere o filtro para **Usuários não licenciados**).
+
+1. Selecione o usuário para abrir o painel propriedades e, em seguida, selecione o ícone **Bloquear este usuário** ![Captura de tela do ícone Bloquear este usuário](../../media/block-user-icon.png).
+
+   **Observação**: Se a conta já estiver bloqueada, a mensagem **Entrada bloqueada** aparecerá na parte superior e o ícone exibirá **Desbloquear este usuário**.
+
+1. No painel **Bloquear este usuário?**, selecione **Bloquear a entrada do usuário** e, em seguida, selecione **Salvar alterações**.
 
 Para obter instruções sobre como bloquear a entrada de contas usando o Azure AD PowerShell (incluindo várias contas ao mesmo tempo), confira [Bloquear contas de usuário com o Office 365 PowerShell](../../enterprise/block-user-accounts-with-microsoft-365-powershell.md).
 
@@ -172,7 +156,6 @@ Para saber mais sobre caixas de correio compartilhadas no Outlook, confira:
 - <a href="https://support.microsoft.com/office/6ecc39c5-5577-4a1d-b18c-bbdc92972cb2" target="_blank">Abrir uma pasta compartilhada ou caixa de correio no Outlook para Mac</a>
 
 - <a href="https://support.microsoft.com/office/b0963400-2a51-4c64-afc7-b816d737d164" target="_blank">Adicionar regras para uma caixa de correio compartilhada</a>
-
 
 ## <a name="use-a-shared-mailbox-on-a-mobile-device-phone-or-tablet"></a>Usar uma caixa de correio compartilhada no dispositivo móvel (telefone ou tablet)
 

@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Configure a prevenção contra perda de dados de ponto de extremidade do Microsoft 365 para monitorar atividades de arquivo e implementar ações de proteção para esses arquivos para pontos de extremidade.
-ms.openlocfilehash: a6c0ec6f1248fdeecd8616b7eda000b7608d452d
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 34355a25283207929a12a7bc504b929fbf3041a0
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651003"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683650"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Introdução à Prevenção contra perda de dados do ponto de extremidade
 
@@ -104,7 +104,6 @@ Certifique-se de que os dispositivos Windows 10 que você pretende implantar o E
 
 4. Todos os dispositivos devem um destes:
 - [Ingressado no Active Directory do Azure (Azure AD)](/azure/active-directory/devices/concept-azure-ad-join)
-- Ingressado no AD
 - [Ingressado no Azure AD Híbrido](/azure/active-directory/devices/concept-azure-ad-join-hybrid)
 - [Registrado no AAD](/azure/active-directory/user-help/user-help-register-device-on-network)
 

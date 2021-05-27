@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Este artigo descreve como gerenciar os principais casos de Descoberta eDiscovery. Isso inclui fechar um caso, reabrir um caso fechado e excluir um caso.
-ms.openlocfilehash: 8a54d5c8f93d36351538bc235a6dbeaaa602c3e9
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: d729c91d4e81ad12d0b4b16574aa4edad8e239a3
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52532441"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684094"
 ---
 # <a name="close-reopen-and-delete-a-core-ediscovery-case"></a>Fechar, reabrir e excluir um caso de Descoberta Principal
 
@@ -34,9 +34,9 @@ Quando o caso legal ou a investigação com suporte de um caso core de Descobert
   
 - Se o caso contiver qualquer ressarção de Descoberta E, eles serão desligados. Depois que a espera é desligada, um período de carência de 30 dias (chamado de *atraso)* é aplicado a locais de conteúdo que estavam em espera. Isso ajuda a impedir que o conteúdo seja imediatamente excluído e oferece aos administradores a oportunidade de pesquisar e restaurar conteúdo antes que ele possa ser excluído permanentemente depois que o período de espera de atraso expirar. Para obter mais informações, consulte [Removendo locais de conteúdo de uma remoção de descoberta de eDiscovery](create-ediscovery-holds.md#removing-content-locations-from-an-ediscovery-hold).
 
-- Fechar um caso apenas desativa as retenções que estão associadas a esse caso. Se outras retenções são colocadas em um local de conteúdo (como uma Retenção de Litígio, uma política de retenção ou uma retenção de um caso de Descoberta eDiscovery Principal diferente), essas retenções ainda serão mantidas.
+- Fechar um caso apenas fecha as retenções que estão associadas a esse caso. Se outras retenções são colocadas em um local de conteúdo (como uma Retenção de Litígio, uma política de retenção ou uma retenção de um caso de Descoberta eDiscovery Principal diferente), essas retenções ainda serão mantidas.
 
-- O caso ainda está listado na página Descoberta Principal da Descoberta Microsoft 365 de conformidade. Os detalhes, retenções, pesquisas e membros de um caso fechado são retidos.
+- O caso ainda está listado na página Descoberta Principal da Descoberta Microsoft 365 de conformidade. Os detalhes, retenções, pesquisas e membros de uma ocorrência fechada são mantidos.
 
 - Você pode editar uma ocorrência depois que ela for fechada. Por exemplo, você pode adicionar ou remover membros, criar pesquisas e exportar resultados de pesquisa. A principal diferença entre os casos ativos e fechados é que os ressarcedores de Descoberta e São desligados quando um caso é fechado.
 
@@ -92,7 +92,7 @@ Antes de poder excluir uma ocorrência (se ela está ativa ou fechada), primeiro
 
 Para excluir uma ressarção de Descoberta e:
 
-1. Vá na **guia Retém** no caso em que você deseja excluir.
+1. Vá para a guia **Retém** no caso de você querer excluir.
 
 2. Selecione a espera que você deseja excluir.
 

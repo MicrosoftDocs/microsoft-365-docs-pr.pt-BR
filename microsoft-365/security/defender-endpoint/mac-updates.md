@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 886195de38856306d69932446eae34212fe4bb0d
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: e08781455888595d57bd8a9e6f792796ea1853cd
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934496"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684202"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-macos"></a>Implantar atualizações do Microsoft Defender para Ponto de Extremidade no macOS
 
@@ -48,7 +48,7 @@ Se você decidir implantar atualizações usando suas ferramentas de distribuiç
 
 ## <a name="use-msupdate"></a>Usar o msupdate
 
-O MAU inclui uma ferramenta de linha de comando, chamada *msupdate*, projetada para administradores de IT para que eles tenham um controle mais preciso sobre quando as atualizações são aplicadas. As instruções sobre como usar essa ferramenta podem ser encontradas em [Atualizar o Office para Mac usando msupdate](https://docs.microsoft.com/deployoffice/mac/update-office-for-mac-using-msupdate).
+O MAU inclui uma ferramenta de linha de comando, chamada *msupdate*, projetada para administradores de IT para que eles tenham um controle mais preciso sobre quando as atualizações são aplicadas. As instruções sobre como usar essa ferramenta podem ser encontradas em [Update Office para Mac usando msupdate](https://docs.microsoft.com/deployoffice/mac/update-office-for-mac-using-msupdate).
 
 No MAU, o identificador de aplicativo do Microsoft Defender para Ponto de Extremidade no macOS é *WDAV00*. Para baixar e instalar as atualizações mais recentes do Microsoft Defender para Ponto de Extremidade no macOS, execute o seguinte comando de uma janela de Terminal:
 
@@ -79,7 +79,7 @@ O `Current` canal contém a versão mais estável do produto.
 |Section|Valor|
 |:--|:--|
 | **Domínio** | `com.microsoft.autoupdate2` |
-| **Tecla** | ChannelName |
+| **Chave** | ChannelName |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | Beta <br/> Visualização <br/> Atual |
 |||
@@ -97,7 +97,7 @@ Altere a frequência com que o MAU pesquisa atualizações.
 |Section|Valor|
 |:--|:--|
 | **Domínio** | `com.microsoft.autoupdate2` |
-| **Tecla** | UpdateCheckFrequency |
+| **Chave** | UpdateCheckFrequency |
 | **Tipo de dados** | Inteiro |
 | **Valor padrão** | 720 (minutos) |
 | **Comentário** | Esse valor é definido em minutos. |
@@ -110,7 +110,7 @@ Altere como o MAU pesquisa atualizações.
 |Section|Valor|
 |:--|:--|
 | **Domínio** | `com.microsoft.autoupdate2` |
-| **Tecla** | HowToCheck |
+| **Chave** | HowToCheck |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | Manual <br/> AutomaticCheck <br/> AutomaticDownload |
 | **Comentário** |  Observe que AutomaticDownload fará um download e instalará silenciosamente, se possível. |
@@ -123,19 +123,19 @@ Altere se os usuários locais poderão clicar na opção "Verificar atualizaçõ
 |Section|Valor|
 |:--|:--|
 | **Domínio** | `com.microsoft.autoupdate2` |
-| **Tecla** | EnableCheckForUpdatesButton |
+| **Chave** | EnableCheckForUpdatesButton |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | True (padrão) <br/> Falso |
 
 
 ### <a name="disable-insider-checkbox"></a>Desabilitar a caixa de seleção Insider
 
-Definir como true para tornar o "Ingressar no Programa Office Insider..." caixa de seleção indisponível/esvazada para os usuários.
+De definir como true para tornar o "Ingressar no programa Office Insider..." caixa de seleção indisponível/esvazada para os usuários.
 
 |Section|Valor|
 |:--|:--|
 | **Domínio** | `com.microsoft.autoupdate2` |
-| **Tecla** | DisableInsiderCheckbox |
+| **Chave** | DisableInsiderCheckbox |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | False (padrão) <br/> Verdadeiro |
 
@@ -147,7 +147,7 @@ De definida como false para enviar dados mínimos de pulsação, sem uso de apli
 |Section|Valor|
 |:--|:--|
 | **Domínio** | `com.microsoft.autoupdate2` |
-| **Tecla** | SendAllTelemetryEnabled |
+| **Chave** | SendAllTelemetryEnabled |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | True (padrão) <br/> Falso |
 
@@ -155,10 +155,17 @@ De definida como false para enviar dados mínimos de pulsação, sem uso de apli
 ## <a name="example-configuration-profile"></a>Exemplo de perfil de configuração
 
 O seguinte perfil de configuração é usado para:
-- Colocar o dispositivo no canal Beta
+- Colocar o dispositivo no canal de produção
 - Baixar e instalar atualizações automaticamente
 - Habilitar o botão "Verificar atualizações" na interface do usuário
 - Permitir que os usuários no dispositivo se inscrevam nos canais Insider
+
+
+>[!WARNING]
+>A configuração abaixo é um exemplo de configuração e não deve ser usada na produção sem a revisão adequada das configurações e do ajuste das configurações.
+
+>[!TIP]
+>Para visualizar novos recursos e fornecer comentários antecipados, é recomendável configurar alguns dispositivos em sua empresa para `Beta` ou `Preview` .
 
 ### <a name="jamf"></a>JAMF
 
@@ -168,7 +175,7 @@ O seguinte perfil de configuração é usado para:
 <plist version="1.0">
 <dict>
     <key>ChannelName</key>
-    <string>Beta</string>
+    <string>Production</string>
     <key>HowToCheck</key>
     <string>AutomaticDownload</string>
     <key>EnableCheckForUpdatesButton</key>
@@ -228,7 +235,7 @@ O seguinte perfil de configuração é usado para:
             <key>PayloadEnabled</key>
             <true/>
             <key>ChannelName</key>
-            <string>Beta</string>
+            <string>Production</string>
             <key>HowToCheck</key>
             <string>AutomaticDownload</string>
             <key>EnableCheckForUpdatesButton</key>

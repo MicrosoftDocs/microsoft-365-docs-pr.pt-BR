@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2c746a74899a34827e089f4c9c2f6ecc396bb69c
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: ec8dd97a563edc487008d028a7cdc9f6ef3d17c1
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538766"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689080"
 ---
 # <a name="mitigate-zero-day-vulnerabilities---threat-and-vulnerability-management"></a>Mitigar vulnerabilidades de dia zero - Gerenciamento de Ameaças e Vulnerabilidades
 
@@ -46,7 +46,7 @@ A ameaça e Gerenciamento de Vulnerabilidades exibirão apenas vulnerabilidades 
 Depois que uma vulnerabilidade de dia zero tiver sido encontrada, as informações sobre ela serão transmitidas através das experiências a seguir no Central de Segurança do Microsoft Defender.
 
 >[!NOTE]
-> A funcionalidade de 0 dia não está disponível atualmente para produtos que não Windows (Mac, Linux); no entanto, ele será adicionado no futuro.
+> A funcionalidade de vulnerabilidade de 0 dia está disponível apenas para produtos Windows.
 
 ### <a name="threat-and-vulnerability-management-dashboard"></a>Painel de ameaças e Gerenciamento de Vulnerabilidades de segurança
 

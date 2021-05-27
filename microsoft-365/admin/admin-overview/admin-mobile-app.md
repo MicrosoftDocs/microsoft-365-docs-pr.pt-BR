@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obter o Microsoft 365 administrador e aprender a gerenciar sua organização online a partir do seu telefone ou tablet.
-ms.openlocfilehash: 2f6b27b409dd456a88a17a9825fae3ec24d787a4
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: f8834aca0835a209a4df32a934eca736c5f7808f
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244015"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683230"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>Sobre o Microsoft 365 do administrador móvel
 
@@ -50,6 +50,10 @@ Se você for um administrador e for responsável por mais de uma organização M
   
 > [!IMPORTANT]
 > Se você estiver com problemas ao usar o aplicativo móvel Admin no iOS ou Android, envie um email feedback365@microsoft.com [nos](mailto:feedback365@microsoft.com) avise.
+
+## <a name="before-you-begin"></a>Antes de começar
+
+Você deve ser um administrador em uma Microsoft 365 para usar o aplicativo móvel do administrador.
   
 ## <a name="download-the-admin-mobile-app"></a>Baixar o aplicativo móvel do administrador
 
@@ -115,7 +119,11 @@ No menu de navegação esquerdo, vá **para Configurações**  >  **Notificaçõ
 ### <a name="what-do-i-do-if-my-question-isnt-answered"></a>O que posso fazer se minha pergunta não for respondida?
 
 Email [feedback365@microsoft.com](mailto:feedback365@microsoft.com) para relatar um problema com o aplicativo. Ou você pode fazer comentários na parte inferior deste artigo.
-  
-## <a name="related-content"></a>Conteúdo relacionado 
 
-[Microsoft 365 para vídeos de treinamento empresarial](../../business-video/index.yml) (página de link)
+## <a name="next-steps"></a>Próximas etapas
+
+Depois de baixar o celular do administrador, você pode adicionar usuários para começar.
+  
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Vídeos de treinamento do Microsoft 365 Business ](../../business-video/index.yml)

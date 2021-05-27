@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Saiba como um administrador global do Microsoft 365 pode alterar o endereço de email e o nome de exibição de um usuário quando seu nome altera. '
-ms.openlocfilehash: 1aa3fd3b67333937e64aab825e64533ccb09eea9
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 4f65bade32b2998f395c3b4eab7a1d2a2e5f3f33
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634215"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683110"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Alterar o nome de exibição e o endereço de email de um usuário
 
@@ -47,25 +47,12 @@ Você terá de ser um [administrador global ](about-admin-roles.md) para executa
 ::: moniker range="o365-worldwide"
  
 1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
-    
-2. Selecione o nome do usuário e, em seguida, na guia **Conta** selecione **Gerenciar nome de usuário**.
-    
-3. Na primeira caixa, digite a primeira parte do novo endereço de email. Se você adicionou seu próprio domínio ao Microsoft 365, escolha o domínio para o novo alias de email usando a lista suspensa. 
 
-4. Selecione **Salvar alterações**.
-
-   
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.  
-
-2. Selecione o usuário. No painel de atalho, ao lado de **Nome de usuário/ E-mail**, selecione **Editar**.
-
-3. Na primeira caixa, digite a primeira parte do novo endereço de email. Se você adicionou seu próprio domínio ao Microsoft 365, é possível escolher o domínio para o novo alias de email usando a lista suspensa.
-
-4. Selecione **Salvar**.
 
 ::: moniker-end
 
@@ -73,13 +60,13 @@ Você terá de ser um [administrador global ](about-admin-roles.md) para executa
 
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>. 
 
-2. Selecione o usuário. No painel de atalho, ao lado de **Nome de usuário/ E-mail**, selecione **Editar**.
-
-3. Na primeira caixa, digite a primeira parte do novo endereço de email. Se você adicionou seu próprio domínio ao Microsoft 365, é possível escolher o domínio para o novo alias de email usando a lista suspensa.
-
-4. Selecione **Salvar**.
-
 ::: moniker-end
+
+1. Selecione o nome do usuário e, em seguida, na guia **Conta** selecione **Gerenciar nome de usuário**.
+    
+1. Na primeira caixa, digite a primeira parte do novo endereço de email. Se você adicionou seu próprio domínio ao Microsoft 365, escolha o domínio para o novo alias de email usando a lista suspensa. 
+
+1. Selecione **Salvar alterações**.
 
 > [!IMPORTANT]
 > Se você receber uma mensagem de erro, confira [Resolver mensagens de erro](#resolve-error-messages).
@@ -89,6 +76,20 @@ Você terá de ser um [administrador global ](about-admin-roles.md) para executa
 ::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>. 
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.  
+
+::: moniker-end
     
 2. Selecione o nome do usuário e, em seguida, na guia **Conta** selecione **Gerenciar alias de email**.
 
@@ -113,34 +114,17 @@ Você terá de ser um [administrador global ](about-admin-roles.md) para executa
   
    - Se a senha também tiver sido alterada, o utilizador precisará digitar a nova senha no dispositivo móvel ou eles não sincronizarão.
   
+## <a name="change-a-users-display-name"></a>Alterar nome de exibição de um usuário
+
+::: moniker range="o365-worldwide"
+
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.  
-
-2. Selecione o usuário. No painel de atalho, ao lado de **Nome de usuário/ E-mail**, selecione **Editar**.
-
-3. Escolha **Definir como Principal** para o endereço de e-mail que quer configurar como o principal para aquela pessoa. 
-    
-   > [!IMPORTANT]
-   > Você não verá essa opção para Definir como Principal se tiver comprado o Microsoft 365 da GoDaddy ou outro serviço de Parceiro que forneça um console de gerenciamento. Em vez disso, entre no console de gerenciamento GoDaddy / parceiro para definir o alias principal. 
-   > 
-   > Além disso, você só verá essa opção se for um administrador global. Se não vir a opção, você não possui as permissões necessárias para alterar o nome e endereço de email principal do usuário.
-  
-4. Você verá um grande alerta amarelo informando que está prestes a alterar as informações de acesso.  Selecione **Salvar**, **Feche**.
-    
-5. Repasse a seguinte informação à pessoa:
- 
-   - Essa alteração pode demorar um pouco para entrar em vigor.
-  
-   - Informe o novo nome de usuário. Ele será necessário para entrar no Microsoft 365.
-    
-   - Se ele estiver usando o Skype for Business Online, informe que ela deverá reagendar todas as reuniões do Skype for Business Online que organizou e que será preciso pedir aos contatos externos que atualizem as antigas informações de contato.
-
-   - Se eles estiverem usando o OneDrive, informe-os de que a URL deste local foi alterada. Se eles tiverem blocos de anotações do OneNote no OneDrive, talvez precisem fechá-los e reabri-los no OneNote. Se eles tiverem arquivos compartilhados do OneDrive, os links para os arquivos poderão não funcionar, e o usuário poderá compartilhá-los novamente.    
-  
-   - Se a senha dela também tiver sido alterada, informe que ela precisará digitar a nova senha no dispositivo móvel para fazer a sincronização.
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>. 
 
 ::: moniker-end
 
@@ -148,36 +132,7 @@ Você terá de ser um [administrador global ](about-admin-roles.md) para executa
 
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>. 
 
-2. Selecione o usuário. No painel de atalho, ao lado de **Nome de usuário/ E-mail**, selecione **Editar**.
-
-3. Escolha **Definir como Principal** para o endereço de e-mail que quer configurar como o principal para aquela pessoa. 
-    
-   > [!IMPORTANT]
-   > Você não verá essa opção para Definir como Principal se tiver comprado o Microsoft 365 da GoDaddy ou outro serviço de Parceiro que forneça um console de gerenciamento. Em vez disso, entre no console de gerenciamento GoDaddy / parceiro para definir o alias principal. 
-   >  
-   > Além disso, você só verá essa opção se for um administrador global. Se não vir a opção, você não possui as permissões necessárias para alterar o nome e endereço de email principal do usuário.
-  
-4. Você verá um grande alerta amarelo informando que está prestes a alterar as informações de acesso.  Selecione **Salvar**, **Feche**.
-    
-5. Repasse a seguinte informação à pessoa:
- 
-   - Essa alteração pode demorar um pouco para entrar em vigor.
-  
-   - Informe o novo nome de usuário. Ele será necessário para entrar no Microsoft 365.
-    
-   - Se ele estiver usando o Skype for Business Online, informe que ela deverá reagendar todas as reuniões do Skype for Business Online que organizou e que será preciso pedir aos contatos externos que atualizem as antigas informações de contato.
-
-   - Se eles estiverem usando o OneDrive, informe-os de que a URL deste local foi alterada. Se eles tiverem blocos de anotações do OneNote no OneDrive, talvez precisem fechá-los e reabri-los no OneNote. Se eles tiverem arquivos compartilhados do OneDrive, os links para os arquivos poderão não funcionar, e o usuário poderá compartilhá-los novamente.    
-  
-   - Se a senha dela também tiver sido alterada, informe que ela precisará digitar a nova senha no dispositivo móvel para fazer a sincronização.
-
 ::: moniker-end
-  
-## <a name="change-a-users-display-name"></a>Alterar nome de exibição de um usuário
-
-::: moniker range="o365-worldwide"
-
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 
 2. Selecione o nome do usuário e, em seguida, na guia **Conta** selecione **Gerenciar informações de contato**.
 
@@ -186,37 +141,7 @@ Você terá de ser um [administrador global ](about-admin-roles.md) para executa
    Se você receber a mensagem de erro "**Infelizmente o usuário não pôde ser editado, examine as informações do usuário e tente novamente**. Confira [Resolver mensagens de erro](#resolve-error-messages).
 
 Pode levar até 24 horas para que essa alteração entre em vigor em todos os serviços. Depois que isso acontecer, a pessoa deverá entrar no Outlook, no Skype for Business e no SharePoint com o novo nome de usuário.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.  
-
-2. Selecione o usuário. No painel de atalho, ao lado de **Informações de contato**, selecione **Editar**.
-
-3. Na caixa **Nome de exibição**, digite um novo nome para a pessoa e, em seguida, selecione **Salvar**.
-
-   Se você receber a mensagem de erro "**Infelizmente o usuário não pôde ser editado, examine as informações do usuário e tente novamente**. Confira [Resolver mensagens de erro](#resolve-error-messages).
-
-Pode levar até 24 horas para que essa alteração entre em vigor em todos os serviços. Depois que isso acontecer, a pessoa deverá entrar no Outlook, no Skype for Business e no SharePoint com o novo nome de usuário. Por isso, avise sobre essa alteração.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>. 
-
-2. Selecione o usuário. No painel de atalho, ao lado de **Informações de contato**, selecione **Editar**.
-
-3. Na caixa **Nome de exibição**, digite um novo nome para a pessoa e, em seguida, selecione **Salvar**.
-
-   Se você receber a mensagem de erro "**Infelizmente o usuário não pôde ser editado, examine as informações do usuário e tente novamente**. Confira [Resolver mensagens de erro](#resolve-error-messages).
-
-Pode levar até 24 horas para que essa alteração entre em vigor em todos os serviços. Depois que isso acontecer, a pessoa deverá entrar no Outlook, no Skype for Business e no SharePoint com o novo nome de usuário. Por isso, avise sobre essa alteração.
-
-::: moniker-end
-
+ 
 ## <a name="resolve-error-messages"></a>Resolver mensagens de erro
 
 ### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>"Não é possível localizar um parâmetro que coincida com o nome de parâmetro 'EmailAddresses'"

@@ -20,12 +20,12 @@ description: Os administradores podem aprender sobre a proteção contra ameaça
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 438200f3f8a6a846d49bc397d6a4b0a0a33cad40
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 12b519d45df005471e3d87cfdb24f87edddbf6f3
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624616"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683326"
 ---
 # <a name="protect-against-threats"></a>Proteção contra ameaças
 
@@ -41,7 +41,7 @@ Aqui está um guia de início rápido que quebra a configuração do Defender pa
 > [!IMPORTANT]
 > **As configurações recomendadas** iniciais são incluídas para cada tipo de política; no entanto, muitas opções estão disponíveis e você pode ajustar suas configurações para atender às necessidades de sua organização específica. Permita aproximadamente 30 minutos para que suas políticas ou alterações funcionem por meio do datacenter.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 ### <a name="subscriptions"></a>Assinaturas
 
@@ -78,27 +78,26 @@ Para configurar o Defender Office 365 políticas de Office 365, você deve ter u
 
 Para saber mais, confira Permissões no Centro de [Conformidade & Segurança.](permissions-in-the-security-and-compliance-center.md)
 
-## <a name="before-you-begin-turn-on-audit-logging-for-reporting-and-investigation"></a>Antes de começar, a turn on Audit logging for reporting and investigation
+### <a name="turn-on-audit-logging-for-reporting-and-investigation"></a>Ativar o log de auditoria para relatórios e investigação
 
-Inicie o log de auditoria mais cedo. Você precisará da auditoria para estar **on** em determinadas etapas a seguir. O log de auditoria está disponível em assinaturas que incluem [Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description). Para exibir dados em relatórios de proteção contra ameaças, como o Painel de [Segurança,](security-dashboard.md)os relatórios de segurança de [email](view-email-security-reports.md)e o [Explorer,](threat-explorer.md)o log de auditoria deve *estar em*. Para saber mais, confira Ativar ou desativar a pesquisa de [log de auditoria.](../../compliance/turn-audit-log-search-on-or-off.md)
+- Inicie o log de auditoria mais cedo. Você precisará que a auditoria seja **on** para algumas das etapas a seguir. O log de auditoria está disponível em assinaturas que incluem [Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description). Para exibir dados em relatórios de proteção contra ameaças, como o Painel de [Segurança,](security-dashboard.md)os relatórios de segurança de [email](view-email-security-reports.md)e o [Explorer,](threat-explorer.md)o log de auditoria deve *estar em*. Para saber mais, confira Ativar ou desativar a pesquisa de [log de auditoria.](../../compliance/turn-audit-log-search-on-or-off.md)
 
 ## <a name="part-1---anti-malware-protection"></a>Parte 1 - Proteção anti-malware
 
-[A proteção anti-malware](anti-malware-protection.md) está disponível em assinaturas que incluem [eOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description).
+Para obter mais informações sobre as configurações recomendadas para anti-malware, consulte [EOP anti-malware policy settings](recommended-settings-for-eop-and-office365.md#eop-anti-malware-policy-settings).
 
-1. No Centro [de Conformidade & segurança,](https://protection.office.com)escolha Política de **Gerenciamento de** \> **Ameaças** \> **Anti-malware**.
+1. Abra <https://security.microsoft.com/antimalwarev2> .
 
-2. Clique duas vezes na **política Padrão** e escolha **configurações**.
+2. Selecione a política Padrão clicando no nome da política.
 
-3. Especifique as seguintes configurações:
+3. No sobremenu de detalhes da política que é aberto, clique em Editar configurações **de proteção** e, em seguida, configure as seguintes configurações:
+   - Selecione **Habilitar o filtro de anexos comuns** para ativar o filtro de anexos comuns. Clique **em Personalizar tipos de** arquivo para adicionar mais tipos de arquivo.
+   - Verifique se **Enable zero-hour auto purge for malware** is selected.
+   - Verifique se nenhuma das configurações na seção **Notificação** está selecionada.
 
-    - Na seção **Resposta à Detecção de Malware,** mantenha a configuração padrão de **Não**.
+   Quando terminar, clique em **Salvar**
 
-    - Na seção **Filtro de Tipos de Anexo Comum,** escolha **Em**.
-
-4. Clique em **Salvar**.
-
-Para saber mais sobre as opções de política anti-malware, consulte [Configure anti-malware policies](configure-anti-malware-policies.md).
+Para obter instruções detalhadas sobre como configurar políticas anti-malware, consulte [Configure anti-malware policies in EOP](configure-anti-malware-policies.md).
 
 ## <a name="part-2---anti-phishing-protection"></a>Parte 2 - Proteção anti-phishing
 

@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Use eDiscovery e ferramentas de pesquisa para gerenciar e responder a um incidente de vazamento de dados em sua organização.
-ms.openlocfilehash: 4305dbdb2fb59e4275852c88f8b74f6c4128a5cb
-ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
+ms.openlocfilehash: f92887018a7ab1cec35526c2a36cce4b0889172e
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52653518"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683770"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>Série de soluções de Descoberta eDiscovery: Cenário de vazamento de dados - Pesquisa e limpeza
 
@@ -52,7 +52,7 @@ Aqui está uma maneira de gerenciar um incidente de vazamento de dados:
 
 - Quando uma caixa de correio está em espera, uma mensagem excluída permanece na pasta Itens Recuperáveis até que o período de retenção expire ou a retenção seja liberada. [A Etapa 6](#step-6-prepare-the-mailboxes) descreve como remover a remoção de espera das caixas de correio. Verifique com seu gerenciamento de registros ou departamentos jurídicos antes de remover a moção. Sua organização pode ter uma política que define se uma caixa de correio em espera ou um incidente de vazamento de dados tem prioridade. 
     
-- Para controlar quais caixas de correio de usuário um pesquisador de vazamento de dados pode pesquisar e gerenciar quem pode acessar o caso, você pode configurar limites de conformidade e criar um grupo de função personalizado, descrito na [Etapa 1](#optional-step-1-manage-who-can-access-the-case-and-set-compliance-boundaries). Para fazer isso, você precisa ser membro do grupo de função Gerenciamento da Organização ou ser atribuído à função de gerenciamento de função. Se você ou administrador em sua organização já definiu limites de conformidade, ignore a Etapa 1.
+- Para controlar quais caixas de correio de usuário um pesquisador de vazamento de dados pode pesquisar e gerenciar quem pode acessar o caso, você pode configurar limites de conformidade e criar um grupo de função personalizado, descrito na [Etapa 1](#optional-step-1-manage-who-can-access-the-case-and-set-compliance-boundaries). Para fazer isso, você precisa ser membro do grupo de função Gerenciamento da Organização ou ser atribuído à função de gerenciamento de função. Se você ou um administrador em sua organização já definiu limites de conformidade, ignore a Etapa 1.
     
 - Para criar um caso, você deve ser membro do grupo de funções do Gerenciador de Descobertas e ou ser membro de um grupo de função personalizado que tenha atribuído a função de Gerenciamento de Caso. Se você não for um membro, peça a um administrador de Microsoft 365 para adicioná-lo ao grupo de função de gerente de [Descobertas e.](assign-ediscovery-permissions.md)
     
@@ -64,7 +64,7 @@ Aqui está uma maneira de gerenciar um incidente de vazamento de dados:
 
 Dependendo da sua prática organizacional, você precisa controlar quem pode acessar o caso de Descoberta e-Mail usado para investigar um incidente de vazamento de dados e configurar limites de conformidade. A & maneira mais fácil de fazer isso é adicionar investigadores como membros de um grupo de função existente no Centro de Conformidade e segurança e, em seguida, adicionar o grupo de funções como membro do caso descoberta ediscovery. Para obter informações sobre os grupos de função de Descoberta eDiscovery integrados e como adicionar membros a um caso de Descoberta eDiscovery, consulte [Assign eDiscovery permissions](assign-ediscovery-permissions.md).
   
-Você também pode criar um novo grupo de funções que se alinhe às suas necessidades organizacionais. Por exemplo, você pode querer que um grupo de investigadores de vazamento de dados na organização acesse e colabore em todos os casos de vazamento de dados. Você pode fazer isso criando um grupo de função "Pesquisador de Vazamento de Dados", atribuindo as funções apropriadas (Export, RMS Decrypt, Review, Preview, Compliance Search e Case Management), adicionando os investigadores de vazamento de dados ao grupo de funções e, em seguida, adicionando o grupo de função como membro do caso de Descoberta e Descoberta De vazamento de dados. Consulte [Set up compliance boundaries for eDiscovery investigations in Office 365](tagging-and-assessment-in-advanced-ediscovery.md) para obter instruções detalhadas sobre como fazer isso. 
+Você também pode criar um novo grupo de funções que se alinhe às suas necessidades organizacionais. Por exemplo, você pode querer que um grupo de investigadores de vazamento de dados na organização acesse e colabore em todos os casos de vazamento de dados. Você pode fazer isso criando um grupo de função "Pesquisador de Vazamento de Dados", atribuindo as funções apropriadas (Export, RMS Decrypt, Review, Preview, Compliance Search e Case Management), adicionando os investigadores de vazamento de dados ao grupo de funções e, em seguida, adicionando o grupo de função como membro do caso de Descoberta e Descoberta De vazamento de dados. Consulte [Set up compliance boundaries for eDiscovery investigations in Office 365](set-up-compliance-boundaries.md) para obter instruções detalhadas sobre como fazer isso. 
   
 ## <a name="step-2-create-an-ediscovery-case"></a>Etapa 2: Criar um caso de Descoberta e
 
@@ -123,7 +123,7 @@ Você pode usar rastreamento de mensagem no centro de segurança e conformidade 
   
 - [Rastreamento de mensagens no Centro de Conformidade e Segurança](../security/office-365-security/message-trace-scc.md)
     
-- [Novo Rastreamento de Mensagens no Centro de Conformidade & Segurança](https://blogs.technet.microsoft.com/exchange/2018/05/02/new-message-trace-in-office-365-security-compliance-center/)
+- [Novo Rastreamento de Mensagens no Centro de Conformidade & Segurança](https://techcommunity.microsoft.com/t5/exchange-team-blog/new-message-trace-in-office-365-security-038-compliance-center/ba-p/607893)
     
 ## <a name="step-6-prepare-the-mailboxes"></a>Etapa 6: Preparar as caixas de correio
 

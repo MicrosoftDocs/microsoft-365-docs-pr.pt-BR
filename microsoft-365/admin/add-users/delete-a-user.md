@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Saiba como excluir uma conta de usuário e o que fazer com o email do usuário e OneDrive conteúdo e se deve manter a licença do produto.
-ms.openlocfilehash: ff10d3289eae87f84685c22b81db03798ca9d7eb
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 43a57a69ce0d810af2b029f49c15d32d75a4dc33
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634203"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683134"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Excluir um usuário da sua organização
   
@@ -87,19 +87,11 @@ Como a experiência guiada percorre as etapas para excluir um usuário, veja com
 
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.  
 
-2. Selecione os nomes dos usuários que você deseja excluir, selecione os três pontos (mais ações) e escolha  **Excluir usuário**.
-
-   Embora você tenha excluído a conta do usuário, **você ainda está pagando pela licença**. Consulte o próximo procedimento para parar de pagar a licença.  Ou você pode atribuir a licença a outro usuário. Ele não será atribuído a alguém automaticamente.
-
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
-
-2. Selecione os nomes dos usuários que você deseja  excluir e, no painel Ações em massa, escolha **Excluir usuários**.
-
-   Embora você tenha excluído a conta do usuário, **você ainda está pagando pela licença**. Consulte o próximo procedimento para parar de pagar a licença.  Ou você pode atribuir a licença a outro usuário. Ele não será atribuído a alguém automaticamente.
 
 ::: moniker-end
 
@@ -107,11 +99,11 @@ Como a experiência guiada percorre as etapas para excluir um usuário, veja com
 
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 
-2. Selecione os nomes dos usuários que você deseja  excluir e, no painel Ações em massa, escolha **Excluir usuários**.
+::: moniker-end
+
+2. Selecione os nomes dos usuários que você deseja excluir, selecione os três pontos (mais ações) e escolha  **Excluir usuário**.
 
    Embora você tenha excluído a conta do usuário, **você ainda está pagando pela licença**. Consulte o próximo procedimento para parar de pagar a licença.  Ou você pode atribuir a licença a outro usuário. Ele não será atribuído a alguém automaticamente.
-
-::: moniker-end
 
 ### <a name="stop-paying-for-the-license"></a>Parar de pagar pela licença
 
@@ -119,7 +111,19 @@ Reduzir o número de licenças é uma etapa separada que só pode ser executada 
   
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>. Se você não vir essa opção, não será um administrador global ou administrador de cobrança e não poderá fazer essa etapa.
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Seus produtos</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Seus produtos</a>.
+::: moniker-end
 
 2. Na guia **Produtos,** selecione a assinatura para a que você deseja remover licenças.
 
@@ -130,28 +134,6 @@ Reduzir o número de licenças é uma etapa separada que só pode ser executada 
 5. Selecione **Salvar**.
 
 Mais tarde, quando você passar pelas etapas para adicionar outra pessoa à sua empresa, você será solicitado a comprar uma licença ao mesmo tempo, com apenas uma etapa!
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Assinaturas</a>. Se você não vir essa opção, não será um administrador global ou administrador de cobrança e não poderá fazer essa etapa.
-
-2. Selecione a assinatura (se você tiver mais de uma) e selecione **Adicionar/Remover licenças** para excluir a licença para que você não pague por ela até contratar outra pessoa.  
-
-   Mais tarde, quando você passar pelas etapas para adicionar outra pessoa à sua empresa, você será solicitado a comprar uma licença ao mesmo tempo, com apenas uma etapa!
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Assinaturas</a>. Se você não vir essa opção, não será um administrador global ou administrador de cobrança e não poderá fazer essa etapa.
-
-2. Selecione a assinatura (se você tiver mais de uma) e selecione **Adicionar/Remover licenças** para excluir a licença para que você não pague por ela até contratar outra pessoa.  
-
-   Mais tarde, quando você passar pelas etapas para adicionar outra pessoa à sua empresa, você será solicitado a comprar uma licença ao mesmo tempo, com apenas uma etapa!
-
-::: moniker-end
 
 ## <a name="delete-many-users-at-the-same-time"></a>Excluir muitos usuários ao mesmo tempo
 

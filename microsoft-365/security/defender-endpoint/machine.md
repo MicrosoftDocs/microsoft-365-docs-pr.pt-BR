@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f96cfd56cb8d61bc62c34e2b1ee08d6313c6a8ad
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 43a136bb3432adcd47589d29aa5de8f8f6299ba8
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186636"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683062"
 ---
 # <a name="machine-resource-type"></a>Tipo de recurso do computador
 
@@ -42,35 +42,35 @@ ms.locfileid: "51186636"
 
 Método|Tipo de retorno |Descrição
 :---|:---|:---
-[Listar máquinas](get-machines.md) | [coleção machine](machine.md) | Listar o conjunto [de](machine.md) entidades do computador na organização.
+[Listar computadores](get-machines.md) | [coleção machine](machine.md) | Listar o conjunto [de](machine.md) entidades do computador na organização.
 [Obter máquina](get-machine-by-id.md) | [machine](machine.md) | Obter uma [máquina](machine.md) por sua identidade.
 [Obter usuários conectados](get-machine-log-on-users.md) | Coleção [usuário](user.md) | Obter o conjunto de [Usuários](user.md) conectado ao [computador](machine.md).
 [Obter alertas relacionados](get-machine-related-alerts.md) | conjunto [alerta](alerts.md)  | Obter o conjunto de [entidades](alerts.md) de alerta que foram criadas no [computador](machine.md).
-[Obter software instalado](get-installed-software.md) | [coleção de software](software.md) | Recupera um conjunto de softwares instalados relacionados a uma determinada ID de máquina.
+[Obter o software instalado](get-installed-software.md) | [coleção de software](software.md) | Recupera um conjunto de softwares instalados relacionados a uma determinada ID de máquina.
 [Obter vulnerabilidades descobertas](get-discovered-vulnerabilities.md) | [conjunto de vulnerabilidades](vulnerability.md) | Recupera uma coleção de vulnerabilidades descobertas relacionadas a uma determinada ID do computador.
 [Obter recomendações de segurança](get-security-recommendations.md) | [coleção recommendation](recommendation.md) | Recupera uma coleção de recomendações de segurança relacionadas a uma determinada ID do computador.
-[Adicionar ou remover marcas de máquina](add-or-remove-machine-tags.md) | [machine](machine.md) | Adicionar ou Remover marca a um computador específico.
-[Encontrar máquinas por IP](find-machines-by-ip.md) | [coleção machine](machine.md) | Encontre máquinas vistas com IP.
-[Encontrar máquinas por marca](find-machines-by-tag.md) | [coleção machine](machine.md) | Encontre máquinas por [Marca](machine-tags.md).
+[Adicionar ou Remover marcas de computador](add-or-remove-machine-tags.md) | [machine](machine.md) | Adicionar ou Remover marca a um computador específico.
+[Localizar os computadores por IP](find-machines-by-ip.md) | [coleção machine](machine.md) | Encontre máquinas vistas com IP.
+[Localizar os computadores por marca](find-machines-by-tag.md) | [coleção machine](machine.md) | Encontre máquinas por [Marca](machine-tags.md).
 [Obter KBs ausentes](get-missing-kbs-machine.md) | Coleção KB | Obter uma lista de KBs ausentes associados à ID do computador
-[Definir o valor do dispositivo](set-device-value.md)| [coleção machine](machine.md) | De definir [o valor de um dispositivo](tvm-assign-device-value.md).
+[Definir valor do dispositivo](set-device-value.md)| [coleção machine](machine.md) | De definir [o valor de um dispositivo](tvm-assign-device-value.md).
 
 ## <a name="properties"></a>Propriedades
 
 Propriedade |   Tipo   |   Descrição
 :---|:---|:---
-id | Cadeia de caracteres | identidade do [computador.](machine.md)
-computerDnsName | Cadeia de caracteres | [nome](machine.md) totalmente qualificado da máquina.
+id | String | identidade do [computador.](machine.md)
+computerDnsName | String | [nome](machine.md) totalmente qualificado da máquina.
 firstSeen | DateTimeOffset | Primeira data e hora em que [o computador](machine.md) foi observado pelo Microsoft Defender para Ponto de Extremidade.
 lastSeen | DateTimeOffset |Hora e data do último relatório de dispositivo completo recebido. Um dispositivo normalmente envia um relatório completo a cada 24 horas.
-osPlatform | Cadeia de caracteres | Plataforma do sistema operacional.
-osProcessor | Cadeia de caracteres | Processador do sistema operacional.
+osPlatform | String | Plataforma do sistema operacional.
+osProcessor | String | Processador do sistema operacional. Use a propriedade osArchitecture.
 versão | String | Versão do sistema operacional.
 osBuild | Long anulado | Número de com build do sistema operacional.
-lastIpAddress | Cadeia de caracteres | Último IP na NIC local no [computador](machine.md).
-lastExternalIpAddress | Cadeia de caracteres | Último IP pelo qual o [computador acessou](machine.md) a Internet.
+lastIpAddress | String | Último IP na NIC local no [computador](machine.md).
+lastExternalIpAddress | String | Último IP pelo qual o [computador acessou](machine.md) a Internet.
 healthStatus | Enum | [status](machine.md) de saúde da máquina. Os valores possíveis são: "Active", "Inactive", "ImpairedCommunication", "NoSensorData", "NoSensorDataImpairedCommunication" e "Unknown". 
-rbacGroupName | Cadeia de caracteres | Nome do grupo de máquinas.
+rbacGroupName | String | Nome do grupo de máquinas.
 riskScore | Núm anulado | Pontuação de risco avaliada pelo Microsoft Defender para Ponto de Extremidade. Os valores possíveis são: 'None', 'Informational', 'Low', 'Medium' e 'High'.
 exposureScore | Núm anulado | [Pontuação de exposição](tvm-exposure-score.md) avaliada pelo Microsoft Defender para Ponto de Extremidade. Os valores possíveis são: 'None', 'Low', 'Medium' e 'High'.
 aadDeviceId | Guid de representação anulada | ID do dispositivo AAD (quando [o computador](machine.md) está ingressado no AAD).
@@ -78,5 +78,6 @@ machineTags | Coleção de cadeias de caracteres | Conjunto de [marcas de](machi
 exposureLevel | Núm anulado | Nível de exposição conforme avaliado pelo Microsoft Defender para Ponto de Extremidade. Os valores possíveis são: 'None', 'Low', 'Medium' e 'High'.
 deviceValue | Núm anulado | O [valor do dispositivo](tvm-assign-device-value.md). Os valores possíveis são: 'Normal', 'Baixo' e 'Alto'.
 ipAddresses | Coleção IpAddress | Conjunto de ***objetos IpAddress.*** Consulte [Obter API de máquinas](get-machines.md).
+osArchitecture | String | Arquitetura do sistema operacional. Os valores possíveis são: "32 bits", "64 bits". Use essa propriedade em vez de osProcessor.
 
 

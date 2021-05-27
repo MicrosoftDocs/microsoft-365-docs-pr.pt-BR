@@ -19,15 +19,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem aprender sobre como a limpeza automática zero hora (ZAP) pode mover retroativamente mensagens entregues em uma caixa de correio do Exchange Online para a pasta Lixo Eletrônico ou quarentena que são encontradas retroativamente como spam ou phishing.
+description: Os administradores podem aprender sobre como a limpeza automática zero hora (ZAP) pode mover retroativamente mensagens entregues em uma caixa de correio Exchange Online para a pasta Lixo Eletrônico ou quarentena que são encontradas retroativamente como spam ou phishing.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 81d37b3d02cb1009ef718fdd0d50eeadd819d3b6
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: ee5a3fee8e189ff9cc08f187971e728670766d6d
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203390"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684190"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Limpeza automática zero hora (ZAP) no Exchange Online
 
@@ -41,9 +41,9 @@ ms.locfileid: "51203390"
 
 ## <a name="basic-features-of-zap"></a>Recursos básicos do ZAP
 
-Nas organizações do Microsoft 365 com caixas de correio no Exchange Online, a limpeza automática zero hora (ZAP) é um recurso de proteção de email que detecta e neutraliza retroativamente mensagens mal-intencionadas de phishing, spam ou malware que já foram entregues às caixas de correio do Exchange Online.
+Em Microsoft 365 organizações com caixas de correio no Exchange Online, a limpeza automática zero hora (ZAP) é um recurso de proteção de email que detecta e neutraliza retroativamente mensagens mal-intencionadas de phishing, spam ou malware que já foram entregues a caixas de correio Exchange Online.
 
-O ZAP não funciona em ambientes autônomos do Exchange Online Protection (EOP) que protegem caixas de correio locais do Exchange.
+O ZAP não funciona em ambientes de Proteção do Exchange Online (EOP) autônomos que protegem caixas de correio locais Exchange local.
 
 ## <a name="how-zap-works"></a>Como o ZAP funciona
 
@@ -51,15 +51,15 @@ As assinaturas de spam e malware são atualizadas no serviço em tempo real diar
 
 A ação ZAP é perfeita para o usuário; eles não serão notificados se uma mensagem for detectada e movida.
 
-[Listas de remetentes seguros,](create-safe-sender-lists-in-office-365.md)regras de fluxo de emails (também conhecidas como regras de transporte), regras de caixa de entrada ou filtros adicionais têm precedência sobre o ZAP. Semelhante ao que acontece no fluxo de emails, isso significa que, mesmo que o serviço determine que a mensagem entregue precisa de ZAP, a mensagem não é agida devido à configuração de envios seguros. Esse é outro motivo para ter cuidado ao configurar mensagens para ignorar a filtragem.
+[Cofre listas de remetentes,](create-safe-sender-lists-in-office-365.md)regras de fluxo de emails (também conhecidas como regras de transporte), regras de caixa de entrada ou filtros adicionais têm precedência sobre o ZAP. Semelhante ao que acontece no fluxo de emails, isso significa que, mesmo que o serviço determine que a mensagem entregue precisa de ZAP, a mensagem não é agida devido à configuração de envios seguros. Esse é outro motivo para ter cuidado ao configurar mensagens para ignorar a filtragem.
 
-### <a name="malware-zap"></a>Malware ZAP
+### <a name="zap-for-malware"></a>ZAP para malware
 
 Para **mensagens de leitura ou não lidas** que são encontradas para conter malware após a entrega, o ZAP coloca em quarentena a mensagem que contém o anexo de malware. Somente os administradores podem exibir e gerenciar mensagens de malware da quarentena.
 
-O MALWARE ZAP é habilitado por padrão em políticas anti-malware. Para obter mais informações, consulte [Configure anti-malware policies in EOP](configure-anti-malware-policies.md).
+O ZAP para malware está habilitado por padrão em políticas anti-malware. Para obter mais informações, consulte [Configure anti-malware policies in EOP](configure-anti-malware-policies.md).
 
-### <a name="phish-zap"></a>Phish ZAP
+### <a name="zap-for-phishing"></a>ZAP para phishing
 
 Para **mensagens** de leitura ou não lidas identificadas como phishing após a entrega, o resultado do ZAP depende da ação configurada para um veredito de filtragem de email de **Phishing** na política anti-spam aplicável. As ações de veredito de filtragem disponíveis para phishing e seus possíveis resultados zap são descritas na lista a seguir:
 
@@ -69,11 +69,11 @@ Para **mensagens** de leitura ou não lidas identificadas como phishing após a 
 
 - **Mensagem de quarentena**: ZAP coloca a mensagem em quarentena.
 
-Por padrão, o ZAP de phishing está habilitado em políticas anti-spam e a ação padrão para o veredito de filtragem de email de **phishing** é **a** mensagem quarentena , o que significa que phish ZAP coloca a mensagem em quarentena por padrão.
+Por padrão, a ZAP para phishing está habilitada em políticas anti-spam e a ação padrão para o veredito de filtragem de email de phishing é **a** mensagem quarentena , o que significa QUE o ZAP para **phishing** coloca a mensagem em quarentena por padrão.
 
 Para obter mais informações sobre como configurar vereditos de filtragem de spam, consulte [Configure anti-spam policies in Microsoft 365](configure-your-spam-filter-policies.md).
 
-### <a name="spam-zap"></a>Spam ZAP
+### <a name="zap-for-spam"></a>ZAP para spam
 
 Para **mensagens não** lidas identificadas como spam após a entrega, o resultado do ZAP depende da ação configurada para o veredito de filtragem de **spam** na política anti-spam aplicável. As ações de veredito de filtragem disponíveis para spam e seus possíveis resultados ZAP são descritas na lista a seguir:
 
@@ -89,11 +89,11 @@ Para obter mais informações sobre como configurar vereditos de filtragem de sp
 
 ### <a name="zap-considerations-for-microsoft-defender-for-office-365"></a>Considerações do ZAP para o Microsoft Defender para Office 365
 
-O ZAP não colocará em quarentena [](safe-attachments.md#dynamic-delivery-in-safe-attachments-policies) qualquer mensagem que está em processo de entrega dinâmica na verificação de Anexos Seguros ou em que a filtragem de malware do EOP já substituiu o anexo pelo arquivo Text.txtde Alerta **de** Malware. Se um sinal de phishing ou spam for recebido para esses tipos de mensagens e o veredito de filtragem na política anti-spam for definido para tomar alguma ação na mensagem (Mover para Lixo Eletrônico, Redirecionar, Excluir ou Quarentena), o ZAP será padrão para uma ação "Mover para Lixo Eletrônico".
+O ZAP não colocará em quarentena [](safe-attachments.md#dynamic-delivery-in-safe-attachments-policies) qualquer mensagem que está em processo de Entrega Dinâmica na verificação de anexos do Cofre ou em que a filtragem de malware do EOP já tenha substituído o anexo pelo arquivo Text.txtde Alerta **de** Malware. Se um sinal de phishing ou spam for recebido para esses tipos de mensagens e o veredito de filtragem na política anti-spam for definido para tomar alguma ação na mensagem (Mover para Lixo Eletrônico, Redirecionar, Excluir ou Quarentena), o ZAP será padrão para uma ação "Mover para Lixo Eletrônico".
 
 ## <a name="how-to-see-if-zap-moved-your-message"></a>Como ver se o ZAP moveu sua mensagem
 
-Para determinar se o ZAP moveu sua mensagem, você pode usar o relatório de [Status](view-email-security-reports.md#threat-protection-status-report) da Proteção contra Ameaças ou o Explorador de Ameaças [(e detecções](threat-explorer.md)em tempo real) . Observe que, como uma ação do sistema, o ZAP não está registrado nos logs de auditoria de caixa de correio do Exchange.
+Para determinar se o ZAP moveu sua mensagem, você pode usar o relatório de [Status](view-email-security-reports.md#threat-protection-status-report) da Proteção contra Ameaças ou o Explorador de Ameaças [(e detecções](threat-explorer.md)em tempo real) . Observe que, como uma ação do sistema, o ZAP não está conectado nos logs de auditoria Exchange caixa de correio.
 
 ## <a name="zap-faq"></a>PERGUNTAS FREQUENTES DO ZAP
 
@@ -107,11 +107,11 @@ A ZAP tomará medidas em uma mensagem com base na configuração de suas políti
 
 ### <a name="what-if-im-using-safe-senders-mail-flow-rules-or-allowedblocked-sender-lists"></a>E se eu estiver usando remetentes seguros, regras de fluxo de emails ou listas de remetentes permitidos/bloqueados?
 
-Senders seguros, regras de fluxo de emails ou bloquear e permitir configurações organizacionais têm precedência. Essas mensagens são excluídas do ZAP, pois o serviço está fazendo o que você configurou para fazer. Esse é outro motivo para ter cuidado ao configurar mensagens para ignorar a filtragem.
+Cofre, regras de fluxo de emails ou bloquear e permitir que as configurações organizacionais precedam. Essas mensagens são excluídas do ZAP, pois o serviço está fazendo o que você configurou para fazer. Esse é outro motivo para ter cuidado ao configurar mensagens para ignorar a filtragem.
 
 ### <a name="what-are-the-licensing-requirements-for-zap-to-work"></a>Quais são os requisitos de licenciamento para o ZAP funcionar?
 
-Não há limitações em licenças. O ZAP funciona em todas as caixas de correio hospedadas no Exchange online. O ZAP não funciona em ambientes autônomos do Exchange Online Protection (EOP) que protegem caixas de correio locais do Exchange.
+Não há limitações em licenças. O ZAP funciona em todas as caixas de correio hospedadas Exchange online. O ZAP não funciona em ambientes de Proteção do Exchange Online (EOP) autônomos que protegem caixas de correio locais Exchange local.
 
 ### <a name="what-if-a-message-is-moved-to-another-folder-eg-inbox-rules"></a>E se uma mensagem for movida para outra pasta (por exemplo, regras de caixa de entrada)?
 
@@ -121,4 +121,4 @@ O ZAP ainda funciona desde que a mensagem não tenha sido excluída, ou desde qu
 
 O ZAP não colocará em quarentena mensagens de caixas de correio em espera. O ZAP pode mover mensagens para a pasta Lixo Eletrônico com base na ação configurada para um veredito de spam ou phishing em políticas anti-spam.
 
-Para obter mais informações sobre as resdações no Exchange Online, consulte [In-Place Hold and Litigation Hold in Exchange Online](/Exchange/security-and-compliance/in-place-and-litigation-holds).
+Para obter mais informações sobre Exchange Online, consulte [In-Place Hold and Litigation Hold in-Exchange Online](/Exchange/security-and-compliance/in-place-and-litigation-holds).

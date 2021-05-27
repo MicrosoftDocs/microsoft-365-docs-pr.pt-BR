@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender a configurar uma caixa de correio para coletar emails de spam e phishing relatados pelos usuários.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 852e87ee76d9692b789ca217720ac3efb08f31a8
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 906048609ce70c761bb014961e02c86f912cd638
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624604"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683494"
 ---
 # <a name="user-submissions-policy"></a>Política de envios de usuários
 
@@ -64,9 +64,9 @@ Use os seguintes artigos para configurar os pré-requisitos necessários para qu
 
 Depois de verificar se sua caixa de correio atende a todos os pré-requisitos aplicáveis, & use o Centro de Conformidade e Segurança para configurar a caixa de correio de [envios](#use-the-security--compliance-center-to-configure-the-user-submissions-mailbox) do usuário (neste artigo).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a **página Envios de** usuário, use <https://protection.office.com/userSubmissionsReportMessage> .
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a **página Envios de** usuário, use <https://protection.office.com/userSubmissionsReportMessage> .
 
 - Para modificar a configuração para envios do usuário, você precisa ser membro de um dos seguintes grupos de função:
 
@@ -141,7 +141,7 @@ Depois de verificar se sua caixa de correio atende a todos os pré-requisitos ap
 
 Você pode configurar ferramentas de relatório de mensagens de terceiros para enviar mensagens relatadas para a caixa de correio personalizada. O único requisito é que a mensagem original seja incluída como um anexo na mensagem enviada à caixa de correio personalizada (não apenas encaminhe a mensagem original para a caixa de correio personalizada).
 
-Os requisitos de formatação de mensagens são descritos na próxima seção.
+Os requisitos de formatação de mensagens são descritos na próxima seção. A formatação é opcional, mas se ela não seguir o formato prescrito, os relatórios sempre serão enviados como phishing.
 
 ## <a name="message-submission-format"></a>Formato de envio de mensagem
 

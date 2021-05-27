@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: f2e20415cb64903e8dfe2c82646c1970036b8f6b
-ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
+ms.openlocfilehash: ab33db7fb7acf1969973a7af8f80ea97ef3d378f
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52653614"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689092"
 ---
 # <a name="export-secure-configuration-assessment-per-device"></a>Exportar avaliação de configuração segura por dispositivo
 
@@ -39,19 +39,21 @@ ms.locfileid: "52653614"
 >
 Retorna todas as configurações e seu status, por dispositivo.
 
-Há diferentes chamadas de API para obter diferentes tipos de dados. Como a quantidade de dados pode ser muito grande, há duas maneiras de recuperá-las:
+Há diferentes chamadas de API para obter diferentes tipos de dados. Como a quantidade de dados pode ser grande, há duas maneiras de recuperá-las:
 
-- **OData**  A API puxa todos os dados da sua organização como respostas Json, seguindo o protocolo OData. Esse método é melhor para _organizações pequenas com menos de 100 mil dispositivos_. A resposta é paginada, portanto, você pode usar o campo odata.nextLink da resposta para \@ buscar os próximos resultados.
+- [Exportar **OData** de avaliação](#1-export-secure-configuration-assessment-odata)de configuração segura : a API coleta todos os dados em sua organização como respostas Json, seguindo o protocolo OData. Esse método é melhor para _organizações pequenas com menos de 100 K dispositivos_. A resposta é paginada, portanto, você pode usar o campo odata.nextLink da resposta para \@ buscar os próximos resultados.
 
-- **via arquivos** Essa solução de API permite a retirada de quantidades maiores de dados de forma mais rápida e confiável. Portanto, é recomendado para grandes organizações, com mais de 100 mil dispositivos. Essa API puxa todos os dados da sua organização como arquivos de download. A resposta contém URLs para baixar todos os dados do Azure Armazenamento. Essa API permite baixar todos os dados do Azure Armazenamento a seguir:
+- [Exportar a avaliação de configuração](#2-export-secure-configuration-assessment-via-files)segura por meio de arquivos : essa solução de API permite a retirada de quantidades maiores de dados de forma mais rápida e confiável. Portanto, é recomendado para grandes organizações, com mais de 100 K dispositivos. Essa API puxa todos os dados da sua organização como arquivos de download. A resposta contém URLs para baixar todos os dados do Azure Armazenamento. Essa API permite baixar todos os dados do Azure Armazenamento a seguir:
 
   - Chame a API para obter uma lista de URLs de download com todos os dados da sua organização.
 
   - Baixe todos os arquivos usando as URLs de download e processe os dados conforme quiser.
 
-Os dados coletados (para _OData_ ou por meio de arquivos _)_ são o instantâneo atual do estado atual e não contêm dados históricos. Para coletar dados históricos, os clientes devem salvar os dados em seus próprios armazenamentos de dados.
+Os dados coletados (usando _OData_ ou _por_ meio de arquivos ) são o instantâneo atual do estado atual e não contêm dados históricos. Para coletar dados históricos, os clientes devem salvar os dados em seus próprios armazenamentos de dados.
 
-A menos que indicado de outra forma, todos os métodos de avaliação de exportação listados são **_exportação completa_** e **_por dispositivo_** (também chamado de **_por dispositivo)._**
+> [!Note]
+>
+> A menos que indicado de outra forma, todos os métodos de avaliação de exportação listados são **_exportação completa_** e **_por dispositivo_** (também chamado de **_por dispositivo)._**
 
 ## <a name="1-export-secure-configuration-assessment-odata"></a>1. Exportar a avaliação de configuração segura (OData)
 
@@ -72,7 +74,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão | Permissão | Nome de exibição de permissão
 ---|---|---
 Aplicativo | Vulnerability.Read.All | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
-Delegado (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
+Delegada (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
 
 ### <a name="13-url"></a>URL 1.3
 
@@ -90,27 +92,27 @@ GET /api/machines/SecureConfigurationsAssessmentByMachine
 
 >[!Note]
 >
->- As propriedades definidas na tabela a seguir são listadas alfanumericamente, por ID da propriedade.  Ao executar essa API, a saída resultante não será necessariamente retornada na mesma ordem listada nessas tabelas.
+>- As propriedades definidas na tabela a seguir são listadas em ordem alfabética, por ID da propriedade.  Ao executar essa API, a saída resultante não será necessariamente retornada na mesma ordem listada nesta tabela.
 >
 >- Algumas colunas adicionais podem ser retornadas na resposta. Essas colunas são temporárias e podem ser removidas, use apenas as colunas documentadas.
 >
 
-Propriedade (id) | Tipo de dados | Descrição | Exemplo de um valor retornado
+Propriedade (ID) | Tipo de dados | Descrição | Exemplo de um valor retornado
 :---|:---|:---|:---
 ConfigurationCategory | string | Categoria ou agrupamento ao qual a configuração pertence: aplicativo, sistema operacional, rede, contas, controles de segurança | Controles de segurança
 ConfigurationId | string | Identificador exclusivo para uma configuração específica | scid-10000
 ConfigurationImpact | string | Impacto avaliado da configuração na classificação total (1-10) | 9 
 ConfigurationName | string | Exibir o nome da configuração | Dispositivos integrados ao Microsoft Defender para Ponto de Extremidade
 ConfigurationSubcategory | string | Subcategoria ou subgrupo ao qual a configuração pertence. Em muitos casos, isso descreve capacidades ou recursos específicos. | Dispositivos de integração
-DeviceId | string | Identificador exclusivo do dispositivo no serviço. | 9eaf3a8b5962e0e6b1af9ec756664a9b823df2d1
-DeviceName | string | Nome de domínio totalmente qualificado (FQDN) do dispositivo. | johnlaptop.europe.contoso.com
+DeviceId | cadeia de caracteres | Identificador exclusivo do dispositivo no serviço. | 9eaf3a8b5962e0e6b1af9ec756664a9b823df2d1
+DeviceName | cadeia de caracteres | Nome de domínio totalmente qualificado (FQDN) do dispositivo. | johnlaptop.europe.contoso.com
 IsApplicable | bool | Indica se a configuração ou a política é aplicável | verdadeiro
 IsCompliant | bool | Indica se a configuração ou política está configurada corretamente | falso
 IsExpectedUserImpact | bool | Indica se haverá impacto do usuário se a configuração será aplicada | verdadeiro
-OSPlatform | string | Plataforma do sistema operacional em execução no dispositivo. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7. Confira sistemas operacionais e plataformas com suporte para TVM para obter detalhes. | Windows10
-RbacGroupName | string | O grupo controle de acesso baseado em função (RBAC). Se esse dispositivo não for atribuído a nenhum grupo RBAC, o valor será "Não atribuído". Se a organização não tiver nenhum grupo RBAC, o valor será "None". | Servidores
-RecommendationReference | string | Uma referência à ID de recomendação relacionada a este software. | sca-_-scid-20000
-Carimbo de data/hora | string | Última vez que a configuração foi vista no dispositivo | 2020-11-03 10:13:34.8476880
+OSPlatform | cadeia de caracteres | Plataforma do sistema operacional em execução no dispositivo. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7. Confira sistemas operacionais e plataformas com suporte para TVM para obter detalhes. | Windows10
+RbacGroupName | cadeia de caracteres | O grupo controle de acesso baseado em função (RBAC). Se esse dispositivo não for atribuído a nenhum grupo RBAC, o valor será "Não atribuído". Se a organização não tiver nenhum grupo RBAC, o valor será "None". | Servidores
+RecommendationReference | cadeia de caracteres | Uma referência à ID de recomendação relacionada a este software. | sca-_-scid-20000
+Carimbo de data/hora | cadeia de caracteres | Última vez que a configuração foi vista no dispositivo | 2020-11-03 10:13:34.8476880
 
 ### <a name="16-examples"></a>1.6 Exemplos
 
@@ -233,7 +235,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão | Permissão | Nome de exibição de permissão
 ---|---|---
 Aplicativo | Vulnerability.Read.All | \'Ler informações de vulnerabilidade "Gerenciamento de Ameaças e Vulnerabilidades"\'
-Delegado (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade "Gerenciamento de Ameaças e Vulnerabilidades"\'
+Delegada (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade "Gerenciamento de Ameaças e Vulnerabilidades"\'
 
 ### <a name="23-url"></a>URL 2.3
 
@@ -255,10 +257,10 @@ GET /api/machines/SecureConfigurationsAssessmentExport
 >
 >- Para a velocidade máxima de download de seus dados, você pode garantir que você está baixando da mesma região do Azure na qual seus dados residem.
 >
-Propriedade (id) | Tipo de dados | Descrição | Exemplo de um valor retornado
+Propriedade (ID) | Tipo de dados | Descrição | Exemplo de um valor retornado
 :---|:---|:---|:---
 Exportar arquivos | cadeia de \[ caracteres de matriz\] | Uma lista de URLs de download para arquivos que segurando o instantâneo atual da organização | [  Https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...1”, “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...2” ]
-GeneratedTime | string | A hora em que a exportação foi gerada. | 2021-05-20T08:00:00Z ]
+GeneratedTime | cadeia de caracteres | A hora em que a exportação foi gerada. | 2021-05-20T08:00:00Z ]
 
 ### <a name="26-examples"></a>2.6 Exemplos
 

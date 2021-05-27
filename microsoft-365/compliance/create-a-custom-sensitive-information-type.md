@@ -9,20 +9,20 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.date: ''
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Saiba como criar, modificar, remover e testar tipos de informações confidenciais personalizados para DLP na interface gráfica do usuário, no Centro de Conformidade e Segurança.
+description: Saiba como criar, modificar, remover e testar tipos de informações confidenciais personalizados para DLP no Centro de Conformidade & Segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 36238d14d3d6a1f84b0fdcae62635922f62b58d3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
-ms.translationtype: HT
+ms.openlocfilehash: 911d2dc3a4adeb79e2b41f3a450bbc446feee916
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908485"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683830"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>Comece com tipos de informações confidenciais personalizados
 
@@ -61,10 +61,10 @@ Usar este procedimento para criar um novo tipo de informação confidencial que 
 2. Preencher os valores para **Nome** e **Descrição** e escolher **Próximo**.
 3. Escolher **Criar padrão**. Você pode criar vários padrões, cada um com diferentes elementos e níveis de confiança, conforme define seu novo tipo de informação confidencial.
 4. Escolher o nível de confiança padrão para o padrão. Os valores são **Confiança baixa**, **Confiança média** e **Confiança alta**.
-5. Escolher e definir **Elemento primário**. O elemento primário pode ser uma **Expressão regular** com um validador opcional, uma **Lista de palavras-chave**, um **Dicionário de palavras-chave**, ou uma das **Funções** pré-configuradas. Para obter mais informações sobre as funções DLP, consulte [O que procuram as funções DLP](what-the-dlp-functions-look-for.md).
+5. Escolher e definir **Elemento primário**. O elemento primário pode ser uma **Expressão regular** com um validador opcional, uma **Lista de palavras-chave**, um **Dicionário de palavras-chave**, ou uma das **Funções** pré-configuradas. Para obter mais informações sobre as funções DLP, consulte [O que procuram as funções DLP](what-the-dlp-functions-look-for.md). Para obter mais informações sobre a data e os validadores de verificação, consulte [Mais informações sobre validadores de expressão regular](#more-information-on-regular-expression-validators).
 6. Preencha um valor para **Proximidade do caractere**.
-7. (Opcional) Adicionar elementos de suporte, se houver. Os elementos de suporte podem ser uma expressão regular com um validador opcional, uma lista de palavras-chave, um dicionário de palavras-chave ou uma das funções predefinidas. 
-8.  (Opcional) Adicionar [**verificações adicionais**](#more-information-on-additional-checks) da lista de verificações disponíveis.
+7. (Opcional) Adicionar elementos de suporte, se houver. Os elementos de suporte podem ser uma expressão regular com um validador opcional, uma lista de palavras-chave, um dicionário de palavras-chave ou uma das funções predefinidas. Os elementos de suporte podem ter sua própria **configuração de proximidade character.** 
+8. (Opcional) Adicionar [**verificações adicionais**](#more-information-on-additional-checks) da lista de verificações disponíveis.
 9. Escolher **Criar**.
 10. Escolher **Próximo**.
 11. Escolher o **nível de confiança recomendado** para este tipo de informação confidencial.
@@ -122,6 +122,47 @@ Usar este procedimento para criar um novo tipo de informação confidencial base
 Também é possível criar tipos personalizados de informações confidenciais usando os recursos PowerShell e Exact Data Match. Para saber mais sobre esses métodos, confira:
 - [Crie um tipo personalizado de informação confidencial no PowerShell do Centro de Conformidade e Segurança](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 - [Criar um tipo personalizado de informações confidenciais com Correspondência Exata de Dados (visualização)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
+
+## <a name="more-information-on-regular-expression-validators"></a>Mais informações sobre validadores de expressão regular
+
+### <a name="checksum-validator"></a>Validador checksum
+
+Se você precisar executar um checksum em um dígito em uma expressão regular, poderá usar o *validador checksum*. Por exemplo, digamos que você precise criar um SIT para um número de licença de oito dígitos onde o último dígito é um dígito de verificação que é validado usando um cálculo mod 9. Você definiu o algoritmo checksum assim:
+ 
+Soma = dígito 1 * Peso 1 + dígito 2 * peso 2 + dígito 3 * peso 3 + dígito 4 * peso 4 + dígito 5 * peso 5 + dígito 6 * peso 6 * peso 6 + dígito 7 * peso 7 + dígito 8 * peso 8 Valor mod = soma % 9 Se o valor mod == dígito 8 Número de conta for válido Se o valor mod != dígito 8 Número da conta for inválido
+
+1. Defina o elemento principal com essa expressão regular:
+
+`\d{8}`
+
+2. Em seguida, adicione o validador checksum.
+3. Adicione os valores de peso separados por vírgulas, a posição do dígito de verificação e o valor Mod. Para obter mais informações sobre a operação Modulo, consulte [Operação Modulo](https://en.wikipedia.org/wiki/Modulo_operation).
+
+> [!NOTE]
+> Se o dígito de verificação não faz parte do cálculo de verificação, use 0 como o peso do dígito de verificação. Por exemplo, no caso acima, o peso 8 será igual a 0 se o dígito de verificação não for usado para calcular o dígito de verificação.  Modulo_operation).
+
+![captura de tela do validador de verificação configurado](../media/checksum-validator.png)
+
+### <a name="date-validator"></a>Validador de data
+
+Se um valor de data inserido na expressão regular faz parte de um novo padrão que você está criando, você pode usar o *validador* de data para testar se ele atende aos seus critérios. Por exemplo, digamos que você queira criar um SIT para um número de identificação de funcionários de nove dígitos. Os seis primeiros dígitos são a data de contratação no formato DDMMYYY e os três últimos são números gerados aleatoriamente. Para validar se os seis primeiros dígitos estão no formato correto. 
+
+1. Defina o elemento principal com essa expressão regular:
+
+`\d{9}`
+
+2. Em seguida, adicione o validador de data.
+3. Selecione o formato de data e o deslocamento inicial. Como a cadeia de caracteres de data é os primeiros seis dígitos, o deslocamento é `0` .
+
+![captura de tela do validador de data configurado](../media/date-validator.png)
+
+### <a name="functional-processors-as-validators"></a>Processadores funcionais como validadores
+
+Você pode usar processadores de função para alguns dos SITs mais usados como validadores. Isso permite que você defina sua própria expressão regular enquanto garante que eles passem as verificações adicionais exigidas pelo SIT. Por exemplo, Func_India_Aadhar garantirá que a expressão regular personalizada definida por você passe a lógica de validação necessária para o cartão Aadhar da Índia. Para obter mais informações sobre funções DLP que podem ser usadas como validadores, consulte O que as funções [DLP procurarão](what-the-dlp-functions-look-for.md#what-the-dlp-functions-look-for). 
+
+### <a name="luhn-check-validator"></a>Validador de verificação luhn
+
+Você pode usar o validador de verificação Luhn se tiver um tipo de informação confidenciais personalizado que inclua uma expressão regular que deve passar no algoritmo [Luhn](https://en.wikipedia.org/wiki/Luhn_algorithm).
 
 ## <a name="more-information-on-additional-checks"></a>Mais informações sobre verificações adicionais
 

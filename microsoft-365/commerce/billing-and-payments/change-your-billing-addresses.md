@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 description: Saiba como atualizar seus endereços de cobrança ou o endereço de email usado para receber notificações de cobrança para Microsoft 365 para empresas.
 ms.date: 04/07/2021
-ms.openlocfilehash: 77ccb7b7ff9927736c1adaadfd2dea6b64a084f0
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: afc23134f85995a5e8d7db0fb956635ceb6ea629
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52594104"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683602"
 ---
 # <a name="change-your-billing-addresses"></a>Alterar os endereços para cobrança
 

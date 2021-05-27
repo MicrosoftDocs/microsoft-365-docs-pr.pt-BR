@@ -20,12 +20,12 @@ ms.custom:
 description: Este tópico orienta você sobre a configuração recomendada para configurações em todo o locatário que afetam a segurança do seu ambiente Microsoft 365 local.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 686768d05e37a4e103640c2973fd30abaa25630b
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 8a449d9647ae5a8b892967116f28aa6203a5e815
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538934"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684166"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>Configure o locatário do Microsoft 365 para aumentar a segurança 
 
@@ -46,12 +46,14 @@ Office 365 A Pontuação Segura analisa a segurança da sua organização com ba
 
 O Microsoft 365 de segurança inclui recursos que protegem seu ambiente. Ele também inclui relatórios e painéis que você pode usar para monitorar e tomar medidas. Algumas áreas vêm com configurações de política padrão. Algumas áreas não incluem políticas ou regras padrão. Visite essas políticas em gerenciamento de ameaças para ajustar as configurações de gerenciamento de ameaças para um ambiente mais seguro.
 
+<br>
+
 ****
 
 |Área|Inclui uma política padrão|Recomendação|
 |---|---|---|
 |**Anti-phishing**|Sim|<ul><li>Proteção contra representação — se você tiver o Defender para Office 365 e um domínio personalizado, configure as configurações de proteção de representação na política anti-phishing padrão para proteger as contas de email de seus usuários mais valiosos, como seu CEO, e proteger seu domínio. Mais informações: [configurações de representação em políticas anti-phishing](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) e [visão de representação](impersonation-insight.md)</li><li>Inteligência de spoof — Revise os envios que estão spoofando seu domínio. Bloqueie ou permita esses envios. Mais informações: [Spoof intelligence insight in EOP](learn-about-spoof-intelligence.md) and [Manage the Tenant Allow/Block List](tenant-allow-block-list.md).</li></ul>|
-|**Mecanismo anti-malware**|Sim| Edite a política padrão: <ul><li>Filtro Tipos de Anexo Comuns: Selecione Em</li></ul> <p> Você também pode criar políticas de filtro de malware personalizadas e aplicá-las a usuários, grupos ou domínios especificados em sua organização. <p> Mais informações: <ul><li>[Proteção antimalware](anti-malware-protection.md)</li><li>[Configurar políticas antimalware](configure-anti-malware-policies.md)</li></ul>|
+|**Mecanismo anti-malware**|Sim|Edite a política padrão: <ul><li>Selecione **Habilitar o filtro de anexos comuns**</li></ul> <p> Você também pode criar políticas de filtro de malware personalizadas e aplicá-las a usuários, grupos ou domínios especificados em sua organização. <p> Mais informações: <ul><li>[Proteção antimalware](anti-malware-protection.md)</li><li>[Configurar políticas antimalware](configure-anti-malware-policies.md)</li></ul>|
 |**Cofre Anexos no Microsoft Defender para Office 365**|Não|Na página principal para Cofre anexos, clique em **Configurações globais** e a opção Ativar esta configuração: <ul><li>**Ativar o Defender para Office 365, para SharePoint, OneDrive e Microsoft Teams.**</li></ul> <p> Crie uma Cofre de anexos com estas configurações: <ul><li> **Bloquear**: Selecione **Bloquear** como a resposta de malware desconhecida.</li><li>**Habilitar redirecionamento**: marque essa caixa e insira um endereço de email, como uma conta de administrador ou quarentena.</li><li>**Aplique a seleção acima se a verificação de malware** para anexos for o tempo de saída ou se ocorrer um erro : Marque esta caixa.</li><li>**_Aplicado a_*: **O domínio do destinatário é** selecionar seu \> domínio.</li></ul> <p> Mais informações: Cofre anexos para [SharePoint, OneDrive e Microsoft Teams](mdo-for-spo-odb-and-teams.md) e Configurar políticas de Cofre [Anexos](set-up-safe-attachments-policies.md)|
 |**Cofre Links no Microsoft Defender para Office 365**|Sim|Na página principal para Cofre Links, clique em **Configurações globais**: <ul><li>**Use Cofre Links em: Office 365 aplicativos**: Verifique se essa configuração está conexões.</li><li>**Não rastreia quando os usuários clicam Cofre Links**: Desativar essa configuração para controlar os cliques do usuário.</li></ul> <p> Crie uma Cofre de links com estas configurações: <ul><li>**Selecione a ação para URLs mal-intencionadas desconhecidas em mensagens**: Verifique se essa configuração está **em**.</li><li>**Selecione a ação para URLs desconhecidas** ou potencialmente mal-intencionadas Microsoft Teams : Verifique se essa configuração está **em**.</li><li>**Aplicar verificação de URL** em tempo real para links suspeitos e links que apontam para arquivos : Marque esta caixa.</li><li>**Aguarde a conclusão da verificação de URL antes de entregar a mensagem**: Marque esta caixa.</li><li>**Aplicar Cofre links para mensagens de email enviadas dentro da organização**: Marque esta caixa</li><li>**Não permita que os usuários cliquem na URL original**: Marque esta caixa.</li><li>**Aplicado a**: **O domínio do destinatário é** selecionar seu \> domínio.</li></ul> <p> Mais informações: [Configurar políticas Cofre Links.](set-up-safe-links-policies.md)|
 |**Anti-Spam (Filtragem de email)**|Sim| O que assistir: spam em de mais — Escolha as configurações personalizadas e edite a política de filtro de spam padrão. Mais informações: Microsoft 365 [Email Anti-Spam Protection](anti-spam-protection.md).|
@@ -64,6 +66,8 @@ O Microsoft 365 de segurança inclui recursos que protegem seu ambiente. Ele tam
 ## <a name="view-dashboards-and-reports-in-the-security--compliance-center"></a>Exibir painéis e relatórios no Centro de Conformidade & Segurança
 
 Visite esses relatórios e painéis para saber mais sobre a saúde do seu ambiente. Os dados nesses relatórios se tornarão mais ricos à medida que sua organização usa Office 365 serviços. Por enquanto, conheça o que você pode monitorar e tomar medidas. Para obter mais informações, consulte [Reports in the Security & Compliance Center](../../compliance/reports-in-security-and-compliance.md).
+
+<br>
 
 ****
 
@@ -80,6 +84,8 @@ Visite esses relatórios e painéis para saber mais sobre a saúde do seu ambien
 
 Muitos dos controles de segurança e proteção no centro de administração Exchange também estão incluídos no centro de segurança. Você não precisa configurá-los em ambos os lugares. Aqui estão algumas configurações adicionais que são recomendadas.
 
+<br>
+
 ****
 
 |Área|Inclui uma política padrão|Recomendação|
@@ -95,6 +101,8 @@ Recomendações da Microsoft para configurar SharePoint de equipe em níveis cre
 SharePoint sites de equipe configurados no nível da linha de base permitem o compartilhamento de arquivos com usuários externos usando links de acesso anônimos. Essa abordagem é recomendada em vez de enviar arquivos por email.
 
 Para dar suporte às metas de proteção de linha de base, configure políticas de compartilhamento em todo o locatário conforme recomendado aqui. As configurações de compartilhamento para sites individuais podem ser mais restritivas do que essa política em todo o locatário, mas não mais permissiva.
+
+<br>
 
 ****
 
@@ -138,9 +146,7 @@ Como essa solução recomenda o plano EMS E5, recomendamos que você comece com 
 Mais informações:
 
 - [Implantar o Cloud App Security](/cloud-app-security/getting-started-with-cloud-app-security)
-
 - [Mais informações sobre o Microsoft Cloud App Security](https://www.microsoft.com/cloud-platform/cloud-app-security)
-
 - [O que é o Cloud App Security?](/cloud-app-security/what-is-cloud-app-security)
 
 ![Painel do Cloud App Security](../../media/1fb2aa65-54b8-4746-9f5e-c187d339e9f5.png)

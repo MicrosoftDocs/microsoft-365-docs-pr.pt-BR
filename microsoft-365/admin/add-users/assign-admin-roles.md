@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Saiba como atribuir funções de administrador a um usuário ou vários usuários em sua empresa para que eles possam executar tarefas específicas no centro de administração.
-ms.openlocfilehash: 8a9da12a8ebc01a02e4362f09ccaa9e92c21b7e9
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: e53d1a414d081ddb74a1c4784adcd982b6194691
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634167"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683206"
 ---
 # <a name="assign-admin-roles"></a>Atribuir funções de administrador
 
@@ -46,11 +46,9 @@ Quando você adiciona novos usuários, se você não atribuir a  eles uma funç�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
-Se você achou esse vídeo útil, confira as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](../../business-video/index.yml).
+Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](../../business-video/index.yml).
 
 ## <a name="assign-admin-roles"></a>Atribuir funções de administrador 
-
-::: moniker range="o365-worldwide"
 
 Você pode atribuir usuários a uma função de duas maneiras diferentes:
 
@@ -61,18 +59,16 @@ Você pode atribuir usuários a uma função de duas maneiras diferentes:
 
 1. No centro de administração, vá para **Funções**. Escolha as **guias Azure AD** ou **Intune** para exibir as funções de administrador disponíveis para sua organização.
 2. Selecione a função de administrador à que você deseja atribuir o usuário.
-3. Selecione **Administradores atribuídos** > **Adicionar**.
+3. Selecione **Administradores atribuídos**  >  **Adicionar**.
 4. Digite o nome de **exibição ou** o nome de usuário **do** usuário e selecione o usuário na lista de sugestões.
 5. Adicione vários usuários até terminar.
 6. Selecione **Salvar** e, em seguida, o usuário será adicionado à lista de administradores atribuídos.
 
 ### <a name="assign-a-user-to-an-admin-role-from-active-users"></a>Atribuir um usuário a uma função de administrador a partir de Usuários ativos
 
+::: moniker range="o365-worldwide"
+
 1. No centro de administração, vá para a **página Usuários** > [Usuários ativos.](https://go.microsoft.com/fwlink/p/?linkid=834822)
-
-2. Na página **Usuários ativos,** selecione o usuário cuja função de administrador você deseja alterar. No painel sublevado, em **Funções**, selecione **Gerenciar funções**.
-
-3. Selecione a função de administrador que deseja atribuir ao usuário. Se você não vir a função que está procurando, selecione **Mostrar tudo** na parte inferior da lista.
 
 ::: moniker-end
 
@@ -80,33 +76,23 @@ Você pode atribuir usuários a uma função de duas maneiras diferentes:
 
 1. No centro de administração, vá para a página **Usuários** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 
-2. Na página **Usuários ativos,** selecione o usuário cuja função de administrador você deseja alterar. No painel de sobrevoos, ao lado de **Funções,** selecione **Editar**. 
-
-    Se você não vir a opção **Editar,** não terá permissão para editar e não poderá atribuir funções de administrador a outras pessoas. Peça a um administrador global em sua empresa para atribuir funções para você. Em uma pequena empresa, o proprietário da empresa (a pessoa que comprou sua assinatura) é um administrador global. Em uma grande empresa, as pessoas-chave no departamento de IT são administradores globais.
-
-3. Selecione **Administrador personalizado** para ver uma lista de funções personalizadas para você. Para uma descrição de cada função, consulte [Sobre funções de administrador.](about-admin-roles.md)
-
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
 1. No centro de administração, vá para a página **Usuários** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 
-2. Na página **Usuários ativos,** selecione o usuário cuja função de administrador você deseja alterar. No painel de sobrevoos, ao lado de **Funções,** selecione **Editar**.
-
-    Se você não vir a opção **Editar,** não terá permissão para editar e não poderá atribuir funções de administrador a outras pessoas. Peça a um administrador global em sua empresa para atribuir funções para você. Em uma pequena empresa, o proprietário da empresa (a pessoa que comprou sua assinatura) é um administrador global. Em uma grande empresa, as pessoas-chave no departamento de IT são administradores globais.
-
-3. Selecione **Administrador personalizado** para ver uma lista de funções personalizadas para você. Para uma descrição de cada função, consulte [Sobre funções de administrador.](about-admin-roles.md)
-
 ::: moniker-end
+
+2. Na página **Usuários ativos,** selecione o usuário cuja função de administrador você deseja alterar. No painel sublevado, em **Funções**, selecione **Gerenciar funções**.
+
+3. Selecione a função de administrador que deseja atribuir ao usuário. Se você não vir a função que está procurando, selecione **Mostrar tudo** na parte inferior da lista.
 
 ## <a name="assign-admin-roles-to-multiple-users"></a>Atribuir funções de administrador para vários usuários
 
 Se você conhece o PowerShell, consulte [Atribuir funções a contas de usuário com o PowerShell](../../enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell.md). Ele é ideal para atribuir funções a centenas de usuários.
   
 Use as instruções a seguir para atribuir funções a dezenas de usuários.
-
-::: moniker range="o365-worldwide"
 
 ## <a name="check-admin-roles-in-your-organization"></a>Verificar funções de administrador em sua organização
 
@@ -116,8 +102,6 @@ Você pode verificar permissões de função de administrador de duas maneiras d
 
 - Você pode ir até os detalhes do usuário e procurar em **Funções** na **página Conta.**
 - Ou você pode ir para **Funções** e selecionar a função de administrador e selecionar administradores atribuídos para ver quais usuários são atribuídos.
-
-::: moniker-end
 
 ## <a name="related-content"></a>Conteúdo relacionado
 

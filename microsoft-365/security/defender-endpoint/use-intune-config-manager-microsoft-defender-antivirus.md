@@ -1,5 +1,5 @@
 ---
-title: Configurar Microsoft Defender Antivírus com o Configuration Manager e o Intune
+title: Configurar Microsoft Defender Antivírus usando Microsoft Endpoint Manager
 description: Use Microsoft Endpoint Manager e Microsoft Intune configurar o Microsoft Defender AV e Endpoint Protection
 keywords: scep, intune, proteção de ponto de extremidade, configuração
 search.product: eADQiWindows 10XVcnh
@@ -11,20 +11,20 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 10/26/2018
-ms.reviewer: ''
+ms.date: 05/24/2021
+ms.reviewer: phuijbr, oogunrinde
 manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: b62344945efc0bdfc495a4fc4196cea6ddcb1874
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: ab77f3ab5ac9385d1ce049061730d2192e3bcb0c
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275319"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683746"
 ---
-# <a name="use-microsoft-endpoint-manager-and-microsoft-intune-to-configure-and-manage-microsoft-defender-antivirus"></a>Use Microsoft Endpoint Manager e Microsoft Intune para configurar e gerenciar Microsoft Defender Antivírus
+# <a name="use-microsoft-endpoint-manager-to-configure-and-manage-microsoft-defender-antivirus"></a>Use Microsoft Endpoint Manager para configurar e gerenciar Microsoft Defender Antivírus
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -33,26 +33,32 @@ ms.locfileid: "52275319"
 
 - [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
 
-Se você estava usando Microsoft Endpoint Manager ou Microsoft Intune gerenciar os pontos de extremidade em sua rede, agora você pode usar o Microsoft Endpoint Manager para gerenciar Microsoft Defender Antivírus verificações.
+Você pode usar [Microsoft Endpoint Manager](/mem/endpoint-manager-overview) para configurar Microsoft Defender Antivírus verificações. [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) e [o Configuration Manager](/mem/configmgr/core/understand/introduction) agora fazem parte Endpoint Manager.  
 
-1. No centro Microsoft Endpoint Manager de administração ( [https://endpoint.microsoft.com](https://endpoint.microsoft.com) ), navegue até **Endpoint Security**.
+## <a name="configure-microsoft-defender-antivirus-scans-in-endpoint-manager"></a>Configurar Microsoft Defender Antivírus verificações em Endpoint Manager
 
-2. Em **Gerenciar**, escolha **Antivírus**.
+1. Vá para o Microsoft Endpoint Manager de administração ( [https://endpoint.microsoft.com](https://endpoint.microsoft.com) ), e entre.
 
-3. Selecione sua Microsoft Defender Antivírus de segurança. 
+2. Navegue até **Endpoint Security**.
 
-4. Em **Gerenciar**, escolha **Propriedades**.
+3. Em **Gerenciar**, escolha **Antivírus**.
 
-5. Ao lado **das configurações,** escolha **Editar**.
+4. Selecione sua Microsoft Defender Antivírus de segurança. 
 
-6. Expanda **a seção Examinar** e revise ou edite suas configurações de verificação.
+5. Em **Gerenciar**, escolha **Propriedades**.
 
-7. Escolha **Revisar + salvar**
+6. Ao lado de **Definições de configuração**, escolha **Editar**.
 
-Precisa de ajuda? Consulte [Gerenciar a segurança do ponto de extremidade Microsoft Intune](/mem/intune/protect/endpoint-security).
+7. Expanda **a seção Examinar** e revise ou edite suas configurações de verificação.
+
+8. Escolha **Revisar + salvar**
+
+
+> [!TIP]
+> Precisa de ajuda? Consulte [Gerenciar a segurança do ponto de extremidade Microsoft Intune](/mem/intune/protect/endpoint-security).
 
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Tópicos de referência para ferramentas de gerenciamento e configuração](configuration-management-reference-microsoft-defender-antivirus.md)
-- [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Artigos de referência para ferramentas de gerenciamento e configuração](configuration-management-reference-microsoft-defender-antivirus.md)
+- [Microsoft Defender Antivirus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)

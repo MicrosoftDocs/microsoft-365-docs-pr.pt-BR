@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
 description: Adicione um parceiro de registro no momento da Microsoft 365, altere o parceiro ou exclua um parceiro de uma assinatura.
-ms.openlocfilehash: e21c324bc84e360b80deae2abeec610e73834819
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 4cebbce41cbd2a500cc502b808734f6056271d12
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624520"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683338"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>Adicionar, mudar ou excluir um parceiro para assessoria de assinaturas
 
@@ -43,17 +43,17 @@ Um parceiro autorizado da Microsoft que atua como parceiro para assessoria de as
 
 ::: moniker-end
 
+::: moniker range="o365-germany"
+
+Um parceiro autorizado da Microsoft que atua como parceiro para assessoria de assinaturas fornece a experiência técnica, de vendas e de suporte que você precisa para ajudar a configurar e manter sua assinatura. Você pode adicionar um parceiro para assessoria de assinaturas como parceiro de registro ao comprar o Office 365 ou em outra ocasião. Se você não estiver trabalhando com um parceiro no momento, também poderá encontrar um no site [do Microsoft Pinpoint.](https://pinpoint.microsoft.com)
+
+::: moniker-end
+
 ## <a name="before-you-begin"></a>Antes de começar
 
 ::: moniker range="o365-worldwide"
 
 O parceiro escolhido depende da serviços Microsoft que você usa e do país ou região onde você usará esses serviços. Se estiver adicionando um parceiro ou mudando de parceiro para a sua assinatura, primeiro será necessário solicitar e obter a ID de Parceiro Microsoft desse parceiro.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-Um parceiro autorizado da Microsoft que atua como parceiro para assessoria de assinaturas fornece a experiência técnica, de vendas e de suporte que você precisa para ajudar a configurar e manter sua assinatura. Você pode adicionar um parceiro para assessoria de assinaturas como parceiro de registro ao comprar o Office 365 ou em outra ocasião. Se você não estiver trabalhando com um parceiro no momento, também poderá encontrar um no site [do Microsoft Pinpoint.](https://pinpoint.microsoft.com)
 
 ::: moniker-end
 
@@ -73,7 +73,7 @@ Como administrador do Office 365, você pode criar ou editar usuários, redefini
 
 ## <a name="add-a-partner-at-the-time-of-purchase"></a>Adicionar um parceiro na ocasião da compra
 
-1. No centro de administração, vá para a página **Serviços de** Compra \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">de</a> Cobrança.
+1. No centro de administração, vá para a página **Serviços de** Compra \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">**de**</a> Cobrança.
 2. Selecione o produto que você deseja comprar e selecione **Comprar**.
 3. Para adicionar um novo parceiro, **expanda Precisa de ajuda com seu pedido?** e selecione **Obter assistência de um Microsoft Partner**.<br>
 Siga as etapas na página provedores para pesquisar ou para obter uma combinação com um parceiro.
@@ -136,30 +136,22 @@ Para aceitar essa oferta
 ::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
-2. Na página detalhes das assinaturas, em **Informações do parceiro,** selecione **Remover**.
-3. Digite a **ID da Rede** de Parceiros da Microsoft para o novo parceiro. Você pode obter a ID de Parceiro da Microsoft, solicitando-a do parceiro.
-4. Selecione **Adicionar**.
-  
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Assinaturas</a>.
-2. Se você tiver várias assinaturas, selecione o nome da assinatura que deseja editar.
-3. Em **ID de Parceiro**, selecione **Editar parceiro de registro**.
-4. Digite a nova ID de parceiro da Microsoft para o parceiro que você está adicionando e selecione **Verificar ID** e, em seguida, **Enviar**. Peça a ID ao parceiro.
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Seus produtos</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Assinaturas</a>.
-2. Se você tiver várias assinaturas, selecione o nome da assinatura que deseja editar.
-3. Em **ID de Parceiro**, selecione **Editar parceiro de registro**.
-4. Digite a nova ID de parceiro da Microsoft para o parceiro que você está adicionando e selecione **Verificar ID** e, em seguida, **Enviar**. Peça a ID ao parceiro.
-
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Seus produtos</a>.
 ::: moniker-end
-
+2. Na página detalhes das assinaturas, em **Informações do parceiro,** selecione **Remover**.
+3. Digite a **ID da Rede** de Parceiros da Microsoft para o novo parceiro. Você pode obter a ID de Parceiro da Microsoft, solicitando-a do parceiro.
+4. Selecione **Adicionar**.
+  
 ## <a name="view-your-partner-relationships"></a>Exibir suas relações de parceiro
 
 - No centro de administração, vá para a página relações **Configurações**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">parceiros.</a> Seus parceiros estão listados nesta página.
@@ -171,50 +163,38 @@ Para aceitar essa oferta
 ::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Seus produtos</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Seus produtos</a>.
+::: moniker-end
 2. Na guia **Produtos,** selecione a assinatura que você deseja editar.
 3. Na página detalhes da assinatura, em **Informações do parceiro,** selecione **Remover**.
 
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Assinaturas</a>.
-2. Se você tiver várias assinaturas, selecione o nome da assinatura que deseja editar.
-3. Em **ID de Parceiro**, selecione **Editar parceiro de registro**.
-4. Na página **Informações do parceiro**, desmarque a caixa **ID de parceiro** e selecione **Enviar**.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Assinaturas</a>.
-2. Se você tiver várias assinaturas, selecione o nome da assinatura que deseja editar.
-3. Em **ID de Parceiro**, selecione **Editar parceiro de registro**.
-4. Na página **Informações do parceiro**, desmarque a caixa **ID de parceiro** e selecione **Enviar**.
-
-::: moniker-end
-
 ## <a name="remove-a-reseller-relationship"></a>Remover uma relação de revendedor
 
-::: moniker range="o365-worldwide"
-
 Você não pode remover um relação de revendedor.
+
+::: moniker range="o365-worldwide"
   
 Se você estiver removendo uma relação de revendedor, a opção **Excluir** está acinzenada e você terá que pedir ao parceiro revendedor para seguir estas instruções: Remover uma relação de revendedor com o [parceiro](/partner-center/remove-a-relationship).
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-
-Você não pode remover um relação de revendedor.
   
 Se você estiver removendo uma relação de revendedor, a opção **Excluir** está acinzenada e você terá que pedir ao parceiro revendedor para seguir estas instruções: Remover uma relação de revendedor com o [parceiro](/partner-center/remove-a-relationship).
   
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
-
-Você não pode remover um relação de revendedor.
   
 Você terá que pedir ao parceiro revendedor para seguir estas instruções: [Remover uma relação de revendedor com o parceiro](/partner-center/remove-a-relationship).
   

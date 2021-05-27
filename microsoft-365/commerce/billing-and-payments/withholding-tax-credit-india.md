@@ -20,18 +20,18 @@ ms.custom:
 - commerce_billing
 monikerRange: o365-worldwide
 ms.date: 05/03/2021
-ms.openlocfilehash: 4866bcd07cb4a54088d230166f9b04f8258d7185
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: b34fd0fd2e35d71e6b35cde250be822201aa719a
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331785"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689020"
 ---
 # <a name="request-a-credit-for-withholding-tax-on-your-account-india-customers"></a>Solicitar um crédito de Imposto de Retenção em sua conta (clientes da Índia)
 
 Os clientes na Índia recebem faturas do Web Direct (Azure e Microsoft 365) cobradas pela Microsoft Regional Sales Pte Ltd. Cingapura (MRS) e fazem pagamentos cruzados para Cingapura para liquidar a fatura. Se você reteve impostos ao reemitir o pagamento, este artigo explica o processo para a declaração de um crédito para o Imposto de Retenção (WHT) em sua conta com MRS.
 
-## <a name="for-invoice-pay-customers-who-pay-by-check-and-wire"></a>Para clientes de pagamento de fatura que pagam por verificação e transferência
+## <a name="for-invoice-pay-customers-who-pay-by-check-or-wire"></a>Para clientes de pagamento de faturas que pagam por verificação ou fio
 
 Se você reteve o imposto ao reemitir o pagamento ao MRS e depositou o imposto retido com o Departamento de Imposto de Renda, você deve enviar uma solicitação WHT para liquidar o valor do imposto retido em sua conta.
 
@@ -44,7 +44,7 @@ Envie a solicitação WHT abrindo um tíquete com suporte da Microsoft.
 
 ## <a name="for-customers-who-pay-by-credit-card"></a>Para clientes que pagam por cartão de crédito
 
-Se sua forma de pagamento for um cartão de crédito e você fez um pagamento completo ao MRS e pagou WHT ao Departamento de Imposto de Renda, você deve enviar uma solicitação WHT para solicitar o reembolso do valor do imposto.
+Se sua forma de pagamento for um cartão de crédito e você fez um pagamento completo ao MRS e também pagou WHT ao Departamento de Imposto de Renda, você deve enviar uma solicitação WHT para solicitar o reembolso do valor do imposto.
 
 Sua solicitação WHT deve incluir os seguintes itens:
 
@@ -68,11 +68,11 @@ A tabela a seguir mostra as datas e cronogramas de conclusão para enviar formul
 >
 > - Os clientes só podem enviar uma solicitação para um reembolso do valor WHT depois de pagar a fatura.
 > - O valor da fatura no Formulário de Crédito de Imposto de Retenção deve corresponder ao valor da fatura identificado no certificado TDS. Se o valor da fatura for diferente entre os dois formulários, você deverá especificar o motivo da diferença no Formulário de Crédito de Imposto de Retenção. Essas informações são verificadas pela equipe de revisão, que pode fazer perguntas esclarecedoras, se necessário.
-> - Os arquivos de certificado TDS devem estar em um dos seguintes formatos de arquivo: somente .PDF ou Imagem (. JPEG, .PNG e .GIF). Além disso, os nomes de arquivo não devem conter espaços ou caracteres especiais. O tamanho do arquivo não pode exceder 1 MB.
+> - Os arquivos de certificado TDS devem estar em um dos seguintes formatos de arquivo: somente .PDF ou Imagem (. JPEG, .PNG ou .GIF). Além disso, os nomes de arquivo não devem conter espaços ou caracteres especiais. O tamanho do arquivo não pode exceder 1 MB.
 
 Depois de enviar a solicitação, ela entra no processo de aprovação onde ela é aprovada para conclusão ou é enviada de volta para você para correção.
 
-Se houver um problema com sua solicitação, a equipe de revisão pode exigir correções no valor de retenção ou substituição do certificado TDS. Você deve reabrir a solicitação antes de ser aprovada. A equipe de revisão aprovará a solicitação ou solicitará mais alterações.
+Se houver um problema com sua solicitação, a equipe de revisão pode exigir correções no valor de retenção ou substituição do certificado TDS. Você deve reabrir a solicitação antes que ela possa ser aprovada. A equipe de revisão aprovará a solicitação ou solicitará mais alterações.
 
 ## <a name="approved-requests"></a>Solicitações aprovadas
 
