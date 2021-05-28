@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-compliance
 recommendations: false
 description: Implemente a Proteção de Informações da Microsoft (MIP) para ajudá-lo a proteger informações confidenciais onde elas ficam ou trafegam.
-ms.openlocfilehash: a68f8dee00117af1fa4d7be5f459ed5c850a5100
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 2de9b1e4a3901477df883287a1ee350885de5513
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332745"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683686"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Proteção de Informações da Microsoft no Microsoft 365
 
@@ -41,9 +41,6 @@ Para obter informações sobre como controlar seus dados, confira [Governança d
 
 > [!NOTE]
 > Para obter informações sobre como classificar e rotular dados no Azure Purview, atualmente em pré-visualização, confira [Rotular automaticamente seu conteúdo no Azure Purview](/azure/purview/create-sensitivity-label).
-> 
-> Para comunicados de lançamento do Azure Purview, confira as seguintes postagens de blog: [Proteção de Informações da Microsoft e Microsoft Azure Purview: Melhor juntos](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-information-protection-and-microsoft-azure-purview/ba-p/1957481) e [Azure Purview na Primavera do Ignite 2021](https://techcommunity.microsoft.com/t5/azure-purview/azure-purview-at-spring-ignite-2021/ba-p/2175919).
-
 
 Para entender o panorama de dados e identificar dados importantes em ambiente híbrido, use os seguintes recursos:
  
@@ -83,3 +80,7 @@ Para ajudar a evitar o compartilhamento acidental de informações confidenciais
 |[Extensão de Conformidade da Microsoft (visualização)](dlp-chrome-learn-about.md) | Estende os recursos de DLP para o navegador Chrome | [Comece com a extensão de conformidade da Microsoft (visualização)](dlp-chrome-get-started.md)|
 |[Verificador local de prevenção contra perda de dados do Microsoft 365 (visualização)](dlp-on-premises-scanner-learn.md)|Estende o monitoramento DLP de atividades de arquivo e ações de proteção para esses arquivos para compartilhamentos de arquivos locais e pastas do SharePoint e bibliotecas de documentos.|[Comece a usar o scanner local de prevenção contra perda de dados do Microsoft 365 (visualização)](dlp-on-premises-scanner-get-started.md)|
 |[Proteja informações confidenciais no bate-papo do Microsoft Teams e nas mensagens do canal](dlp-microsoft-teams.md) | Estende algumas funcionalidades do DLP para o bate-papo do Teams e as mensagens do canal | [Saiba mais sobre a política de prevenção de perda de dados padrão no Microsoft Teams (visualização)](dlp-teams-default-policy.md)|
+
+## <a name="licensing-requirements"></a>Requisitos de licenciamento
+
+Os requisitos de licença para a Proteção de Informações da Microsoft dependem dos cenários e dos recursos que você usa, em vez de definir os requisitos de licenciamento para cada recurso listado nesta página. Para entender suas opções e requisitos de licenciamento, confira as seções de [Proteção de Informações](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) da documentação de licenciamento do Microsoft 365 e baixe o PDF ou o Excel relacionado.
