@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 13c0a575fd2614f58eb6a2163cda04118c2a391d
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 2f9d56b7e72befb8acddf6d9f810a7ba5cec1083
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636273"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694360"
 ---
 # <a name="troubleshoot-issues-and-find-answers-to-faqs-on-microsoft-defender-for-endpoint-on-ios"></a>Solucionar problemas e encontrar respostas para perguntas frequentes no Microsoft Defender para Endpoint no iOS
 
@@ -60,18 +60,21 @@ Embora habilitada por padrão, pode haver alguns casos que exigem que você desa
 
 ## <a name="issues-with-multiple-vpn-profiles"></a>Problemas com vários perfis VPN
 
-O iOS da Apple não dá suporte a várias VPNs em todo o dispositivo para serem ativas simultaneamente. Embora vários perfis VPN possam existir no dispositivo, apenas uma VPN pode estar ativa por vez.
+O iOS da Apple não dá suporte a várias VPNs em **todo** o dispositivo para serem ativas simultaneamente. Embora vários perfis VPN possam existir no dispositivo, apenas uma VPN pode estar ativa por vez.
 
+O Microsoft Defender para VPN de Ponto de Extremidade pode co-existir com outras VPNs configuradas como *por aplicativo* ou *"Pessoal"*.
 
 ## <a name="battery-consumption"></a>Consumo de bateria
 
-O uso da bateria por um aplicativo é calculado pela Apple com base em uma infinidade de fatores, incluindo o uso da CPU e da rede. O Microsoft Defender para Ponto de Extremidade usa uma VPN local/loop-back em segundo plano para verificar o tráfego da Web em busca de sites ou conexões mal-intencionadas. Os pacotes de rede de qualquer aplicativo passam por essa verificação e isso faz com que o uso da bateria do Microsoft Defender para o Ponto de Extremidade seja calculado de forma impreciso. Isso dá uma falsa impressão ao usuário. O consumo real de bateria do Microsoft Defender para Ponto de Extremidade é menor do que o mostrado na página Bateria Configurações no dispositivo. Isso se baseia em testes realizados no aplicativo Microsoft Defender para Ponto de Extremidade para entender o consumo de bateria.
+No aplicativo Configurações, o iOS mostra apenas o uso da bateria de aplicativos que ficam visíveis para o usuário por um período específico de tempo. O uso da bateria por aplicativos mostrados na tela é apenas por esse período e é calculado pelo iOS com base em uma infinidade de fatores, incluindo o uso da CPU e da rede. O Microsoft Defender para Ponto de Extremidade usa uma VPN local/loop-back em segundo plano para verificar o tráfego da Web em busca de sites ou conexões mal-intencionadas. Os pacotes de rede de qualquer aplicativo passam por essa verificação e isso faz com que o uso da bateria do Microsoft Defender para o Ponto de Extremidade seja calculado de forma impreciso. O consumo real de bateria do Microsoft Defender para Ponto de Extremidade é muito menor do que o que é mostrado na página Bateria Configurações no dispositivo.
+
+Em média, o uso de bateria por dia pelo Microsoft Defender para Ponto de Extremidade em execução em segundo plano é de aproximadamente **8,81%** da bateria geral consumida nesse dia . Essa métrica é relatada pela Apple com base no uso real do Microsoft Defender para Ponto de Extremidade em dispositivos de usuário final e devido aos motivos mencionados acima também podem ser contabilados para outros aplicativos que têm atividade de rede.
 
 Além disso, a VPN usada é uma VPN local e, ao contrário de uma VPN tradicional, o tráfego de rede não é enviado fora do dispositivo.
 
 ## <a name="data-usage"></a>Uso de dados
 
-O Microsoft Defender para Ponto de Extremidade usa uma VPN local/loopback para verificar o tráfego da Web em busca de sites ou conexões mal-intencionadas. Devido a esse motivo, a Apple conta o uso de dados para o Microsoft Defender para o Ponto de Extremidade de forma impreciso. O uso real de dados pelo Microsoft Defender para Ponto de Extremidade não é significativo e muito menos do que o mostrado no data Usage Configurações no dispositivo.
+O Microsoft Defender para Ponto de Extremidade usa uma VPN local/loopback para verificar o tráfego da Web em busca de sites ou conexões mal-intencionadas. Devido a esse motivo, o uso de dados do Microsoft Defender para Ponto de Extremidade pode ser contabilmente impreciso. O uso real de dados pelo Microsoft Defender para Ponto de Extremidade não é significativo e menor do que o mostrado no data usage Configurações no dispositivo.
 
 ## <a name="report-unsafe-site"></a>Relatar site não seguro
 

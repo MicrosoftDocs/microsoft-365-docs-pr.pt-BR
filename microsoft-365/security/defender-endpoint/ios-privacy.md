@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 15c22a6f6b581ff68488db6628f7647d49487652
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: b1d64ceb7b0027546e84a9c42c8d2ffed188c03b
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934280"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694468"
 ---
 # <a name="privacy-information---microsoft-defender-for-endpoint-on-ios"></a>Informações de privacidade - Microsoft Defender para Ponto de Extremidade no iOS
 
@@ -39,6 +39,9 @@ ms.locfileid: "51934280"
 O Defender para Ponto de Extremidade no iOS coleta informações de seus dispositivos iOS configurados e as armazena no mesmo locatário em que você tem o Defender para Ponto de Extremidade. As informações são coletadas para ajudar a manter o Defender para o Ponto de Extremidade no iOS seguro, atualizado, executando conforme esperado e para dar suporte ao serviço.
 
 Para obter mais informações sobre armazenamento de dados, consulte [Microsoft Defender for Endpoint data storage and privacy](data-storage-privacy.md).
+
+
+Para obter mais informações sobre as perguntas de privacidade mais comuns sobre o Microsoft Defender para Ponto de Extremidade em dispositivos móveis Android e iOS, consulte Microsoft Defender for Endpoint e sua privacidade em dispositivos móveis Android e [iOS.](https://support.microsoft.com/topic/microsoft-defender-for-endpoint-and-your-privacy-on-android-and-ios-mobile-devices-4109bc54-8ec5-4433-9c33-d359b75ac22a)
 
 ## <a name="required-data"></a>Dados necessários 
 
@@ -60,9 +63,9 @@ Aqui está uma lista dos tipos de dados que estão sendo coletados:
 
 - Informações de locatário, dispositivo e usuário 
 
-    - ID de Dispositivo do Azure Active Directory (AD) e ID do Usuário do Azure - Identifica exclusivamente o dispositivo, Usuário, respectivamente, no Azure Active directory. 
+    - Azure Active Directory (AD) ID de Dispositivo e ID de Usuário do Azure - Identifica exclusivamente o dispositivo, Usuário, respectivamente, no diretório do Azure Active. 
 
-    - ID do locatário do Azure - GUID que identifica sua organização no Azure Active Directory. 
+    - ID do locatário do Azure - GUID que identifica sua organização dentro Azure Active Directory. 
 
     - ID da organização do Microsoft Defender for Endpoint - Identificador exclusivo associado à empresa à que o dispositivo pertence. Permite que a Microsoft identifique se há problemas que afetam um conjunto selecionado de empresas e o número de empresas impactadas. 
 

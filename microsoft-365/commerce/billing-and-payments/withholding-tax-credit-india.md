@@ -18,16 +18,21 @@ description: Saiba como solicitar um crédito em sua conta para o Imposto de Ret
 ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
+ROBOTS: NOINDEX, NOFOLLOW
 monikerRange: o365-worldwide
 ms.date: 05/03/2021
-ms.openlocfilehash: b34fd0fd2e35d71e6b35cde250be822201aa719a
-ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
+ms.openlocfilehash: 68afdd9c5dddc071faa96a78981c68cc2c20e1ed
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689020"
+ms.locfileid: "52694216"
 ---
 # <a name="request-a-credit-for-withholding-tax-on-your-account-india-customers"></a>Solicitar um crédito de Imposto de Retenção em sua conta (clientes da Índia)
+
+> [!NOTE]
+>
+> Se sua organização não estiver baseada na Índia, consulte Solicitar um crédito de Imposto de Retenção em sua conta [(clientes globais)](withholding-tax-credit-global.md).
 
 Os clientes na Índia recebem faturas do Web Direct (Azure e Microsoft 365) cobradas pela Microsoft Regional Sales Pte Ltd. Cingapura (MRS) e fazem pagamentos cruzados para Cingapura para liquidar a fatura. Se você reteve impostos ao reemitir o pagamento, este artigo explica o processo para a declaração de um crédito para o Imposto de Retenção (WHT) em sua conta com MRS.
 

@@ -16,12 +16,12 @@ ms.collection:
 description: Os administradores podem aprender a configurar as permites e os bloqueios na Lista de Locatários de Permitir/Bloquear no portal de Segurança.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 270e38d65857de2f4d06460fb3bb77f72a165ecf
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 636114180a1814f5ef842b2a704f2df98488f46e
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538958"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694480"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>Gerenciar a lista de Permissões/Bloqueios do Locatário
 
@@ -44,12 +44,11 @@ A Lista de Locatários de & de Conformidade oferece uma maneira de substituir ma
 
 - URLs a bloquear.
 - Arquivos a bloquear.
-- Domínios de remetente de email em massa para permitir. Para obter mais informações sobre email em massa, o nível de confiança em massa (BCL) e a filtragem de emails em massa por políticas anti-spam, consulte [Bulk complaint level (BCL) in EOP](bulk-complaint-level-values.md).
 - Envios com spoofed para permitir ou bloquear. Se você substituir o veredito de permitir ou bloquear no insight de inteligência de spoof , o remetente [spoofed](learn-about-spoof-intelligence.md)se tornará uma entrada manual de permitir ou bloquear que só aparece na guia **Spoof** na Lista de Locatários De Permitir/Bloquear. Você também pode criar manualmente entradas de permitir ou bloquear para os envios de spoofed aqui antes que eles são detectados pela inteligência spoof.
 
 Este artigo descreve como configurar entradas na Lista de Permitir/Bloquear Locatários no Centro de Conformidade de Segurança & ou no PowerShell (Exchange Online PowerShell para organizações Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem Exchange Online caixas de correio).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **Lista de Locatários Permitir/Bloquear,** use <https://protection.office.com/tenantAllowBlockList> .
 
@@ -76,7 +75,7 @@ Este artigo descreve como configurar entradas na Lista de Permitir/Bloquear Loca
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - Você precisa de permissões em Exchange Online  antes de poder realizar os procedimentos neste artigo:
-  - **URLs, arquivos e permitir envios em massa:**
+  - **URLs e arquivos**:
     - Para adicionar e remover valores da Lista de Permitir/Bloquear Locatários, você precisa ser membro dos grupos de função Gerenciamento da Organização ou Administrador **de** Segurança. 
     - Para acesso somente leitura à Lista de Locatários Permitir/Bloquear, você precisa ser membro dos grupos de função Leitor **Global** ou **Leitor de** Segurança.
   - **Spoofing**: uma das seguintes combinações:
@@ -135,26 +134,6 @@ Este artigo descreve como configurar entradas na Lista de Permitir/Bloquear Loca
 
 4. Quando terminar, clique em **Adicionar**.
 
-## <a name="use-the-security--compliance-center-to-create-allow-bulk-mail-sender-domain-entries-in-the-tenant-allowblock-list"></a>Use o Centro de Conformidade & segurança para criar entradas de domínio de remetente de email em massa na Lista de Locatários Permitir/Bloquear
-
-1. No Centro de Conformidade & Segurança, vá para **Lista** de Locatários de Política de Gerenciamento de \>  \> **Ameaças/Listas de Bloqueio.**
-
-2. Na página **Lista de Locatários Permitir/Bloquear,** selecione a guia Domínios do Remetente para bypass **BCL** e clique em **Adicionar**.
-
-3. No **flyout Adicionar domínio de remetente para BCL** que aparece, defina as seguintes configurações:
-
-   - **Adicionar domínios de remetente para** bypass BCL : Insira um domínio de origem de um bom email em massa por linha, até um máximo de 20.
-
-   - **Nunca expire**: Faça uma das seguintes etapas:
-
-     - Verifique se a configuração está desligada ( Alternar ) e use a caixa Expira na caixa para especificar a data de ![ ](../../media/scc-toggle-off.png) expiração para as entradas. 
-
-     ou
-
-     - Mova a alternância para a direita para configurar as entradas para nunca expirar: ![Ativar](../../media/scc-toggle-on.png).
-
-4. Quando terminar, clique em **Adicionar**.
-
 ## <a name="use-the-security--compliance-center-to-create-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a>Use o Centro de Conformidade & segurança para criar entradas de remetentes que permitem ou bloqueiem spoofed na Lista de Locatários de Permitir/Bloquear
 
 **Observações**:
@@ -198,11 +177,6 @@ Este artigo descreve como configurar entradas na Lista de Permitir/Bloquear Loca
      - **Data da última atualização**
      - **Data de expiração**
      - **Observação**
-
-   - **Domínios de remetente para bypass BCL**
-     - **Valor**: O domínio do remetente de email em massa.
-     - **Data da última atualização**
-     - **Data de expiração**
 
    - **Spoofing**
      - **Usuário com spoofed**
@@ -312,23 +286,6 @@ New-TenantAllowBlockListItems -ListType Url -Block -Entries ~contoso.com
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [New-TenantAllowBlockListItems](/powershell/module/exchange/new-tenantallowblocklistitems).
 
-### <a name="use-powershell-to-add-allow-bulk-mail-sender-domain-entries-to-the-tenant-allowblock-list"></a>Use o PowerShell para adicionar entradas de domínio de remetente de email em massa à Lista de Locatários Permitir/Bloquear
-
-Para adicionar entradas de domínio de remetente de email em massa na Lista de Locatários Permitir/Bloquear, use a seguinte sintaxe:
-
-```powershell
-New-TenantAllowBlockListItems -ListType BulkSender -Block:$false -Entries "Value1","Value2",..."ValueN" <-ExpirationDate Date | -NoExpiration> [-Notes <String>]
-```
-
-Este exemplo adiciona uma entrada de remetente em massa permitida para o domínio especificado que nunca expira.
-
-```powershell
-New-TenantAllowBlockListItem -ListType BulkSender -Block:$false -Entries contosodailydeals.com
-New-TenantAllowBlockListItems -ListType FileHash -Block -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
-```
-
-Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [New-TenantAllowBlockListItems](/powershell/module/exchange/new-tenantallowblocklistitems).
-
 ### <a name="use-powershell-to-add-allow-or-block-spoofed-sender-entries-to-the-tenant-allowblock-list"></a>Use o PowerShell para adicionar entradas de remetentes com spoofed ou de autorização ou bloqueio à Lista de Locatários De permitir/Bloquear
 
 Para adicionar entradas de remetentes com spoofed na Lista de Locatários De permitir/bloquear, use a seguinte sintaxe:
@@ -357,28 +314,6 @@ Este exemplo retorna todas as URLs bloqueadas.
 
 ```powershell
 Get-TenantAllowBlockListItems -ListType Url -Block
-```
-
-Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Get-TenantAllowBlockListItems](/powershell/module/exchange/get-tenantallowblocklistitems).
-
-### <a name="use-powershell-to-view-allow-bulk-mail-sender-domain-entries-in-the-tenant-allowblock-list"></a>Use o PowerShell para exibir permitir entradas de domínio de remetente de email em massa na Lista de Locatários Permitir/Bloquear
-
-Para exibir as entradas de domínio de remetente de email em massa na Lista de Locatários de Permitir/Bloquear, use a seguinte sintaxe:
-
-```powershell
-Get-TenantAllowBlockListItems -ListType BulkSender [-Entry <BulkSenderDomainValue>] [<-ExpirationDate Date | -NoExpiration>]
-```
-
-Este exemplo retorna todos os domínios permitidos de remetente de email em massa.
-
-```powershell
-Get-TenantAllowBlockListItems -ListType BulkSender
-```
-
-Este exemplo retorna informações para o domínio de remetente em massa especificado.
-
-```powershell
-Get-TenantAllowBlockListItems -ListType FileHash -Entry "contosodailydeals.com"
 ```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Get-TenantAllowBlockListItems](/powershell/module/exchange/get-tenantallowblocklistitems).
@@ -427,22 +362,6 @@ Set-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBw
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-TenantAllowBlockListItems](/powershell/module/exchange/set-tenantallowblocklistitems).
 
-### <a name="use-powershell-to-modify-allow-bulk-mail-sender-domain-entries-in-the-tenant-allowblock-list"></a>Usar o PowerShell para modificar permitir entradas de domínio de remetente de email em massa na Lista de Locatários de Permitir/Bloquear
-
-Para modificar permitir entradas de domínio de remetente de email em massa na Lista de Locatários Permitir/Bloquear, use a seguinte sintaxe:
-
-```powershell
-Get-TenantAllowBlockListItems -ListType BulkSender -Ids <"Id1","Id2",..."IdN"> [<-ExpirationDate Date | -NoExpiration>] [-Notes <String>]
-```
-
-Este exemplo altera a expiração da entrada de domínio de remetente de email em massa especificada para nunca expirar.
-
-```powershell
-Set-TenantAllowBlockListItems -ListType BulkSender -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSRAAAA" -NoExpiration
-```
-
-Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Get-TenantAllowBlockListItems](/powershell/module/exchange/get-tenantallowblocklistitems).
-
 ### <a name="use-powershell-to-modify-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a>Use o PowerShell para modificar as entradas de remetentes com spoofed ou de permitir ou bloquear na Lista de Locatários de Permitir/Bloquear
 
 Para modificar entradas de remetentes com spoofed ou de permitir ou bloquear na Lista de Locatários De permitir/Bloquear, use a seguinte sintaxe:
@@ -459,12 +378,12 @@ Set-TenantAllowBlockListItems -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdl
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-TenantAllowBlockListSpoofItems](/powershell/module/exchange/set-tenantallowblocklistspoofitems).
 
-### <a name="use-powershell-to-remove-bulk-mail-sender-domain-file-and-domain-entries-from-the-tenant-allowblock-list"></a>Use o PowerShell para remover o domínio, o arquivo e as entradas de domínio do remetente de email em massa da Lista de Locatários Permitir/Bloquear
+### <a name="use-powershell-to-remove-url-or-file-entries-from-the-tenant-allowblock-list"></a>Use o PowerShell para remover entradas de URL ou arquivo da Lista de Locatários Permitir/Bloquear
 
-Para remover permitir entradas de domínio de remetente de email em massa, bloquear entradas de arquivo e bloquear entradas de URL da Lista de Locatários de Permitir/Bloquear, use a seguinte sintaxe:
+Para remover entradas de arquivo e URL da Lista de Locatários Permitir/Bloquear, use a seguinte sintaxe:
 
 ```powershell
-Remove-TenantAllowBlockListItems -ListType <BulkSender | FileHash | Url> -Ids <"Id1","Id2",..."IdN">
+Remove-TenantAllowBlockListItems -ListType <FileHash | Url> -Ids <"Id1","Id2",..."IdN">
 ```
 
 Este exemplo remove a entrada de URL de bloco especificada da Lista de Locatários de Bloqueio/Autorização.

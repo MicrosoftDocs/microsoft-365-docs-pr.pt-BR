@@ -12,12 +12,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 description: Saiba mais sobre recursos multi-geo no Exchange Online, como limitações de recursos e posicionamento de caixa de correio.
-ms.openlocfilehash: bf1c3c8f510c57f47cbfc7b2609d97f5932e05d3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4c8f873039cd14251931125f5af2c04b7cbfe719
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923727"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694300"
 ---
 # <a name="multi-geo-capabilities-in-exchange-online"></a>Recursos multigeográficos no Exchange Online
 
@@ -43,7 +43,7 @@ O Exchange Online sincroniza a propriedade **PreferredDataLocation** do Azure ad
 
 - Quando o **PreferredDataLocation** não está especificado em um usuário, quando você fornece a caixa de correio, ela será fornecida para a localização geográfica central.
 
-- Se o código **PreferredDataLocation** estiver incorreto (por exemplo, um tipo de NAN, em vez de NAM), a caixa de correio será provisionada na localização geográfica central.
+- Se o **código PreferredDataLocation** estiver incorreto (por exemplo, um erro de digitação de NAN em vez de NAM), a caixa de correio será provisionada na localização geográfica central.
 
 **Observação**: os recursos multigeográficos e as reuniões hospedadas regionalmente do Skype for Business Online usam a propriedade **PreferredDataLocation** em objetos de usuário para localizar os serviços. Se você configurar os valores **PreferredDataLocation** nos objetos de usuário das reuniões hospedadas regionalmente, a caixa de correio desses usuários será automaticamente movida ao local geográfico especificado após a habilitação múltipla ser ativada no locatário do Microsoft 365.
 

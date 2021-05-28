@@ -1,5 +1,5 @@
 ---
-title: Configurar políticas de Links Seguros no Microsoft Defender para Office 365
+title: Configurar políticas Cofre links no Microsoft Defender para Office 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
-description: Os administradores podem aprender a exibir, criar, modificar e excluir políticas de Links Seguros e configurações globais de Links Seguros no Microsoft Defender para Office 365.
+description: Os administradores podem aprender a exibir, criar, modificar e excluir Cofre políticas de links e configurações globais Cofre Links no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c8b2cb8b57dcf630b3e07ac387e96ab099ca7403
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 61cb4746289a8acbdd9af7f668010604de511902
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203037"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694492"
 ---
-# <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas de Links Seguros no Microsoft Defender para Office 365
+# <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas Cofre links no Microsoft Defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -36,60 +36,63 @@ ms.locfileid: "51203037"
 > [!IMPORTANT]
 > Este artigo se destina a clientes empresariais que possuem o [Microsoft Defender para Office 365](defender-for-office-365.md). Se você for um usuário de residência procurando informações sobre Safelinks no Outlook, consulte [Advanced Outlook.com security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
-Links Seguros é um recurso do [Microsoft Defender para Office 365](defender-for-office-365.md) que fornece verificação de URL de mensagens de email de entrada no fluxo de emails e hora de verificação de clique em URLs e links em mensagens de email e em outros locais. Para obter mais informações, consulte [Links seguros no Microsoft Defender para Office 365](safe-links.md).
+Cofre Links é um recurso no [Microsoft Defender para](defender-for-office-365.md) Office 365 que fornece verificação de URL de mensagens de email de entrada no fluxo de emails e hora de verificação de clique em URLs e links em mensagens de email e em outros locais. Para obter mais informações, [consulte Cofre Links no Microsoft Defender para Office 365](safe-links.md).
 
-Não há nenhuma política interna ou padrão de Links Seguros. Para obter a verificação de URLs de Links Seguros, você precisa criar uma ou mais políticas de Links Seguros, conforme descrito neste artigo.
+Não há política de links interna ou padrão Cofre Links. Para obter Cofre verificação de links de URLs, você precisa criar uma ou mais políticas Cofre Links conforme descrito neste artigo.
 
 > [!NOTE]
-> Você configura as configurações globais para proteção de Links Seguros **fora das** políticas de Links Seguros. Para obter instruções, consulte [Configure global settings for Safe Links in Microsoft Defender for Office 365](configure-global-settings-for-safe-links.md).
+> Você configura as configurações globais para a proteção Cofre Links **fora** das políticas Cofre Links. Para obter instruções, consulte [Configure global settings for Cofre Links in Microsoft Defender for Office 365](configure-global-settings-for-safe-links.md).
 
-Você pode configurar políticas de Links Seguros no Centro de Conformidade de Segurança & ou no PowerShell (PowerShell do Exchange Online para organizações qualificadas do Microsoft 365 com caixas de correio no Exchange Online; PowerShell autônomo do EOP para organizações sem caixas de correio do Exchange Online, mas com assinaturas de complemento do Microsoft Defender para Office 365).
+Você pode configurar políticas de Links do Cofre no Centro de Conformidade de Segurança & ou no PowerShell (Exchange Online PowerShell para organizações de Microsoft 365 qualificadas com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem caixas de correio Exchange Online, mas com o Microsoft Defender para assinaturas de complemento do Office 365).
 
-Os elementos básicos de uma política de Links Seguros são:
+Os elementos básicos de uma política Cofre Links são:
 
-- A política de **links** seguros : ativar a proteção de Links Seguros, ativar a verificação de URL em tempo real, especificar se a verificação em tempo real deve ser concluída antes de entregar a mensagem, ativar a verificação de mensagens internas, especificar se deve rastrear os cliques do usuário em URLs e especificar se os usuários devem clicar na URL original.
+- A política de **links** seguros : ativar a proteção de links do Cofre, ativar a verificação de URL em tempo real, especificar se a verificação em tempo real deve ser concluída antes de entregar a mensagem, ativar a verificação de mensagens internas, especificar se deve rastrear os cliques do usuário em URLs e especificar se os usuários devem clicar na URL original.
 - **A regra de links seguros**: especifica a prioridade e os filtros de destinatário (a quem a política se aplica).
 
-A diferença entre esses dois elementos não é óbvia quando você gerencia as polícias de Links Seguros no Centro de Conformidade & Segurança:
+> [!IMPORTANT]
+> Os administradores devem considerar as configurações diferentes para SafeLinks. Uma das opções disponíveis é incluir informações de identificação do usuário em SafeLinks. Esse recurso permite que as *equipes de Operações* de Segurança investiguem possíveis comprometimentos do usuário, tome medidas corretivas e limitem violações custosas.
 
-- Ao criar uma política de Links Seguros, você está realmente criando uma regra de links seguros e a política de links seguros associados ao mesmo tempo usando o mesmo nome para ambos.
-- Quando você modifica uma política de Links Seguros, as configurações relacionadas ao nome, prioridade, habilitado ou desabilitado e filtros de destinatário modificam a regra de links seguros. Todas as outras configurações modificam a política de links seguros associados.
-- Quando você remove uma política de Links Seguros, a regra de links seguros e a política de links seguros associados são removidas.
+A diferença entre esses dois elementos não é óbvia quando você gerencia as Cofre links no Centro de Conformidade & Segurança:
 
-No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política e a regra são gerenciadas separadamente. Para obter mais informações, consulte a seção Usar o PowerShell do Exchange Online ou [o EOP PowerShell](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies) autônomo para configurar políticas de Links Seguros posteriormente neste artigo.
+- Ao criar uma política Cofre Links, você está realmente criando uma regra de links seguros e a política de links seguros associados ao mesmo tempo usando o mesmo nome para ambos.
+- Quando você modifica uma política Cofre Links, as configurações relacionadas ao nome, prioridade, habilitado ou desabilitado e filtros de destinatário modificam a regra de links seguros. Todas as outras configurações modificam a política de links seguros associados.
+- Quando você remove uma política Cofre Links, a regra de links seguros e a política de links seguros associados são removidas.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política e a regra são gerenciadas separadamente. Para obter mais informações, consulte a seção Usar Exchange Online PowerShell ou [EOP PowerShell](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies) autônomo para configurar Cofre políticas de Links posteriormente neste artigo.
 
-- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **Links Seguros,** use <https://protection.office.com/safelinksv2> .
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **Cofre Links,** use <https://protection.office.com/safelinksv2> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - Você precisa ter permissões atribuídas antes de poder fazer os procedimentos neste artigo:
-  - Para criar, modificar e excluir políticas de Links Seguros  &,  você precisa ser membro dos grupos de  função Gerenciamento  da Organização ou Administrador de Segurança no Centro de Conformidade e Segurança e membro do grupo de função Gerenciamento da Organização no Exchange Online.
-  - Para acesso somente leitura a políticas de Links Seguros, você precisa ser membro dos grupos de função Leitor **Global ou** **Leitor de** Segurança.
+  - Para criar, modificar e excluir políticas Cofre Links &, você  precisa ser  membro dos grupos de função Gerenciamento  da Organização ou  Administrador de Segurança no Centro de Conformidade e Segurança e membro do grupo de função Gerenciamento da Organização no Exchange Online.
+  - Para acesso somente leitura às políticas Cofre Links, você precisa ser membro dos grupos de função Leitor **Global** ou **Leitor de** Segurança.
 
   Para obter mais informações, consulte [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md) and [Permissions in Exchange Online](/exchange/permissions-exo/permissions-exo).
 
   > [!NOTE]
   > 
   > - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
-  . - O **grupo de função Gerenciamento** de Organização Somente Exibição no Exchange [Online](/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
+  . - O **grupo de função gerenciamento** de organização somente exibição no [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
-- Para nossas configurações recomendadas para políticas de Links Seguros, consulte Configurações de política [de Links Seguros.](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)
+- Para nossas configurações recomendadas para políticas Cofre Links, [consulte Cofre configurações da](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)política links.
 
 - Permitir até 30 minutos para que uma política nova ou atualizada seja aplicada.
 
-- [Novos recursos estão sendo adicionados continuamente ao Microsoft Defender para Office 365](defender-for-office-365.md#new-features-in-microsoft-defender-for-office-365). À medida que novos recursos são adicionados, talvez seja necessário fazer ajustes nas políticas existentes de Links Seguros.
+- [Novos recursos estão sendo adicionados continuamente ao Microsoft Defender para](defender-for-office-365.md#new-features-in-microsoft-defender-for-office-365)Office 365 . À medida que novos recursos são adicionados, talvez seja necessário fazer ajustes nas políticas de links Cofre existentes.
 
-## <a name="use-the-security--compliance-center-to-create-safe-links-policies"></a>Use o Centro de Conformidade & segurança para criar políticas de Links Seguros
+## <a name="use-the-security--compliance-center-to-create-safe-links-policies"></a>Use o Centro de Conformidade & segurança para criar políticas Cofre Links
 
-A criação de uma política & de Links Seguros personalizada no Centro de Conformidade e Segurança cria a regra de links seguros e a política de links seguros associados ao mesmo tempo usando o mesmo nome para ambos.
+A criação de uma política Cofre & Links personalizada no Centro de Conformidade e Segurança cria a regra de links seguros e a política de links seguros associados ao mesmo tempo usando o mesmo nome para ambos.
 
-1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP Links seguros**.
+1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP** Cofre Links .
 
-2. Na página **Links Seguros,** clique em **Criar**.
+2. Na página **Cofre Links,** clique em **Criar**.
 
-3. O **assistente de política Novos Links Seguros** é aberto. Na página **Nomear sua política,** configure as seguintes configurações:
+3. O **assistente de política Cofre Novos Links** é aberto. Na página **Nomear sua política,** configure as seguintes configurações:
 
    - **Nome**: insira um nome exclusivo e descritivo para a política.
 
@@ -97,23 +100,23 @@ A criação de uma política & de Links Seguros personalizada no Centro de Confo
 
    Quando terminar, clique em **Avançar**.
 
-4. Na página **Configurações** exibida, configure as seguintes configurações:
+4. Na página **Configurações** que aparece, configure as seguintes configurações:
 
-   - **Selecione a ação para URLs** mal-intencionadas desconhecidas em mensagens : Selecione **Ativado** para habilitar a proteção de Links Seguros para links em mensagens de email.
+   - **Selecione a ação para URLs** mal-intencionadas desconhecidas em mensagens : **Selecione** Ativar para habilitar Cofre de links para links em mensagens de email.
 
-   - **Selecione a ação para URLs desconhecidas** ou potencialmente mal-intencionadas no Microsoft Teams : Selecione **Ativado** para habilitar a proteção de Links Seguros para links no Teams.
+   - **Selecione a ação para URLs desconhecidas** ou potencialmente  mal-intencionadas em Microsoft Teams : Selecione Ativado para habilitar Cofre Proteção de links para links Teams.
 
    - **Aplicar verificação de URL** em tempo real para links suspeitos e links que apontam para arquivos : Selecione essa configuração para habilitar a verificação em tempo real de links em mensagens de email.
 
    - **Aguarde a conclusão da** verificação de URL antes de entregar a mensagem : Selecione essa configuração para aguardar a conclusão da verificação de URL em tempo real antes de entregar a mensagem.
 
-   - **Aplicar Links Seguros a mensagens de email** enviadas dentro da organização : Selecione essa configuração para aplicar a política de Links Seguros a mensagens entre os destinatários internos e os destinatários internos.
+   - **Aplicar Cofre Links** para mensagens de email enviadas dentro da organização : Selecione essa configuração para aplicar a política Cofre Links a mensagens entre destinatários internos e destinatários internos.
 
    - **Não acompanhar cliques do usuário**: Deixe essa configuração não eleita para habilitar os cliques do usuário de controle em URLs em mensagens de email.
 
    - **Não permita que os usuários cliquem** na URL original : Selecione essa configuração para impedir que os usuários cliquem na URL original em páginas [de aviso.](safe-links.md#warning-pages-from-safe-links)
 
-   - **Não reescreva as SEGUINTES URLs**: Permite acessar as URLs especificadas que seriam bloqueadas por Links Seguros.
+   - **Não reescreva as SEGUINTES URLs**: Permite acessar as URLs especificadas que, de outra forma, seriam bloqueadas por Cofre Links.
 
      Na caixa, digite a URL ou o valor que você deseja e clique em ![Adicionar ícone de botão](../../media/ITPro-EAC-AddIcon.png).
 
@@ -121,9 +124,9 @@ A criação de uma política & de Links Seguros personalizada no Centro de Confo
 
      Para a sintaxe de entrada, consulte [Sintaxe de entrada para a lista "Não reescrever as URLs a seguir".](safe-links.md#entry-syntax-for-the-do-not-rewrite-the-following-urls-list)
 
-   Para obter informações detalhadas sobre essas configurações, consulte [Configurações](safe-links.md#safe-links-settings-for-email-messages) de Links Seguros para mensagens de email e configurações de Links Seguros [para o Microsoft Teams.](safe-links.md#safe-links-settings-for-microsoft-teams)
+   Para obter informações detalhadas sobre essas configurações, consulte [Cofre Configurações](safe-links.md#safe-links-settings-for-email-messages) de Links para mensagens de email e Cofre [Configurações](safe-links.md#safe-links-settings-for-microsoft-teams)de links para Microsoft Teams .
 
-   Para obter mais valores recomendados para configurações de política Padrão e Estrita, consulte Configurações de política [de Links Seguros.](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)
+   Para obter mais valores recomendados para configurações de política padrão e estritas, [consulte Cofre Configurações de](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)política links.
 
    Quando terminar, clique em **Avançar**.
 
@@ -155,29 +158,29 @@ A criação de uma política & de Links Seguros personalizada no Centro de Confo
 
    Quando terminar, clique em **Concluir**.
 
-## <a name="use-the-security--compliance-center-to-view-safe-links-policies"></a>Use o Centro de Conformidade & segurança para exibir políticas de Links Seguros
+## <a name="use-the-security--compliance-center-to-view-safe-links-policies"></a>Use o Centro de Conformidade & segurança para exibir Cofre links
 
-1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP Links seguros**.
+1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP** Cofre Links .
 
-2. Na página **Links Seguros,** selecione uma política na lista e clique nele (não marque a caixa de seleção).
+2. Na página **Cofre Links,** selecione uma política na lista e clique nele (não marque a caixa de seleção).
 
    Os detalhes da política aparecem em um fly-out
 
-## <a name="use-the-security--compliance-center-to-modify-safe-links-policies"></a>Use o Centro de Conformidade & segurança para modificar políticas de Links Seguros
+## <a name="use-the-security--compliance-center-to-modify-safe-links-policies"></a>Use o Centro de Conformidade & segurança para modificar as políticas Cofre Links
 
-1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP Links seguros**.
+1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP** Cofre Links .
 
-2. Na página **Links Seguros,** selecione uma política na lista e clique nele (não marque a caixa de seleção).
+2. Na página **Cofre Links,** selecione uma política na lista e clique nele (não marque a caixa de seleção).
 
 3. Nos detalhes da política exibidos, clique em **Editar política**.
 
-As configurações disponíveis no sobrevoo que aparece são idênticas às descritas na seção Usar o Centro de Conformidade & Segurança para criar políticas [de Links](#use-the-security--compliance-center-to-create-safe-links-policies) Seguros.
+As configurações disponíveis no sobrevoo que aparece são idênticas às descritas na seção Usar o Centro de Conformidade & Segurança para criar políticas Cofre [Links.](#use-the-security--compliance-center-to-create-safe-links-policies)
 
 Para habilitar ou desabilitar uma política ou definir a ordem de prioridade da política, consulte as seções a seguir.
 
-### <a name="enable-or-disable-safe-links-policies"></a>Habilitar ou desabilitar políticas de Links Seguros
+### <a name="enable-or-disable-safe-links-policies"></a>Habilitar ou desabilitar Cofre de links
 
-1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP Links seguros**.
+1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP** Cofre Links .
 
 2. Observe o valor na coluna **Status:**
 
@@ -185,46 +188,46 @@ Para habilitar ou desabilitar uma política ou definir a ordem de prioridade da 
 
    - Mova o botão de alternância para a direita para habilitar a política: ![Ativar a política](../../media/scc-toggle-on.png).
 
-### <a name="set-the-priority-of-safe-links-policies"></a>Definir a prioridade das políticas de Links Seguros
+### <a name="set-the-priority-of-safe-links-policies"></a>Definir a prioridade das políticas Cofre Links
 
-Por padrão, as políticas de Links Seguros têm uma prioridade baseada na ordem em que foram criadas (as políticas mais novas têm prioridade menor do que as políticas mais antigas). Um número de prioridade menor indica uma maior prioridade para a política (0 é a maior), e as políticas são processadas por ordem de prioridade (políticas com maior prioridade são processadas antes das políticas com menor prioridade). Duas políticas não podem ter a mesma prioridade, e o processamento da política será interrompido após a primeira política ser aplicada.
+Por padrão, Cofre de links recebe uma prioridade baseada na ordem em que foram criadas (as políticas mais novas têm prioridade menor do que as políticas mais antigas). Um número de prioridade menor indica uma maior prioridade para a política (0 é a maior), e as políticas são processadas por ordem de prioridade (políticas com maior prioridade são processadas antes das políticas com menor prioridade). Duas políticas não podem ter a mesma prioridade, e o processamento da política será interrompido após a primeira política ser aplicada.
 
 Para obter mais informações sobre a ordem de precedência e como várias políticas são avaliadas e aplicadas, confira [Ordem e precedência da proteção de email](how-policies-and-protections-are-combined.md).
 
-As políticas de Links Seguros são exibidas na ordem em que são processadas (a primeira política tem o **valor Priority** 0).
+Cofre As políticas de links são exibidas na ordem em que são processadas (a primeira política tem o **valor Priority** 0).
 
 > [!NOTE]
-> No Centro de Conformidade & segurança, você só pode alterar a prioridade da política links seguros após a criação. No PowerShell, você pode substituir a prioridade padrão ao criar a regra de links seguros (que pode afetar a prioridade das regras existentes).
+> No Centro de Conformidade & segurança, você só pode alterar a prioridade da política Cofre Links após a criação. No PowerShell, você pode substituir a prioridade padrão ao criar a regra de links seguros (que pode afetar a prioridade das regras existentes).
 
 Para alterar a prioridade de uma política, mova a política para cima ou para baixo na lista (não é possível modificar diretamente o número de **Prioridade** no Centro de Conformidade e Segurança).
 
-1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP Links seguros**.
+1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP** Cofre Links .
 
-2. Na página **Links Seguros,** selecione uma política na lista e clique nele (não marque a caixa de seleção).
+2. Na página **Cofre Links,** selecione uma política na lista e clique nele (não marque a caixa de seleção).
 
 3. Nos detalhes da política exibidos, clique no botão de prioridade disponível:
 
-   - A política links seguros com o **valor Prioridade** **0** tem apenas o **botão Diminuir** prioridade disponível.
+   - A Cofre links com o valor **Prioridade** **0** tem apenas o **botão Diminuir** prioridade disponível.
 
-   - A política Links Seguros com o menor valor **priority** (por exemplo, **3**) tem apenas o **botão Aumentar prioridade** disponível.
+   - A Cofre links com o menor valor **priority** (por exemplo, **3**) tem apenas o **botão Aumentar** prioridade disponível.
 
-   - Se você tiver três ou mais políticas de Links Seguros, as políticas  entre os valores de prioridade mais altos e mais baixos terão os botões **Aumentar** prioridade e Diminuir prioridade disponíveis.
+   - Se você tiver três ou mais políticas Cofre links, as políticas entre os  valores de prioridade mais alta e mais baixa terão os botões **Aumentar** prioridade e Diminuir prioridade disponíveis.
 
 4. Clique **em Aumentar prioridade** ou Diminuir **prioridade** para alterar o **valor Priority.**
 
 5. Quando terminar, clique em **Fechar**.
 
-## <a name="use-the-security--compliance-center-to-remove-safe-links-policies"></a>Use o Centro de Conformidade & segurança para remover políticas de Links Seguros
+## <a name="use-the-security--compliance-center-to-remove-safe-links-policies"></a>Use o Centro de Conformidade & segurança para remover Cofre links
 
-1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP Links seguros**.
+1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP** Cofre Links .
 
-2. Na página **Links Seguros,** selecione uma política na lista e clique nele (não marque a caixa de seleção).
+2. Na página **Cofre Links,** selecione uma política na lista e clique nele (não marque a caixa de seleção).
 
 3. Nos detalhes da política exibidos, clique em **Excluir política** e clique em **Sim** na caixa de diálogo de aviso exibida.
 
-## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies"></a>Usar o PowerShell do Exchange Online ou o EOP PowerShell autônomo para configurar políticas de Links Seguros
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies"></a>Use Exchange Online PowerShell ou EOP PowerShell autônomo para configurar Cofre links
 
-Conforme descrito anteriormente, uma política de Links Seguros consiste em uma política de links seguros e uma regra de links seguros.
+Conforme descrito anteriormente, uma política Cofre Links consiste em uma política de links seguros e uma regra de links seguros.
 
 No PowerShell, a diferença entre políticas de links seguros e regras de links seguros é aparente. Você gerencia políticas de links seguros usando os cmdlets **\* -SafeLinksPolicy** e gerencia as regras de links seguros usando os cmdlets **\* -SafeLinksRule.**
 
@@ -232,9 +235,9 @@ No PowerShell, a diferença entre políticas de links seguros e regras de links 
 - No PowerShell, você modifica as configurações na política de links seguros e a regra de links seguros separadamente.
 - Quando você remove uma política de links seguros do PowerShell, a regra de links seguros correspondente não é removida automaticamente e vice-versa.
 
-### <a name="use-powershell-to-create-safe-links-policies"></a>Usar o PowerShell para criar políticas de Links Seguros
+### <a name="use-powershell-to-create-safe-links-policies"></a>Usar o PowerShell para criar políticas Cofre Links
 
-Criar uma política de Links Seguros no PowerShell é um processo de duas etapas:
+Criar uma Cofre de links no PowerShell é um processo de duas etapas:
 
 1. Crie a política de links seguros.
 2. Crie a regra de links seguros que especifica a política de links seguros à que a regra se aplica.
@@ -271,7 +274,7 @@ Este exemplo cria uma política de links seguros chamada Contoso All com os segu
 - Ativar a verificação em tempo real de URLs clicadas, incluindo links clicados que apontam para arquivos.
 - Aguarde a conclusão da verificação de URL antes de entregar a mensagem.
 - Ativar a verificação de URL e a reescrita de mensagens internas.
-- Rastrear cliques do usuário relacionados à proteção de Links Seguros (não estamos usando o parâmetro _DoNotTrackUserClicks_ e o valor padrão é $false, o que significa que os cliques do usuário são rastreados).
+- Rastrear cliques do usuário relacionados à proteção de links do Cofre (não estamos usando o parâmetro _DoNotTrackUserClicks_ e o valor padrão é $false, o que significa que os cliques do usuário são rastreados).
 - Não permita que os usuários cliquem na URL original.
 
 ```PowerShell
@@ -357,7 +360,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Get-
 
 ### <a name="use-powershell-to-modify-safe-links-policies"></a>Usar o PowerShell para modificar políticas de links seguros
 
-Não é possível renomear uma política de links seguros no PowerShell (o cmdlet **Set-SafeLinksPolicy** não tem _parâmetro Name)._ Ao renomear uma política de Links Seguros no Centro de Conformidade & segurança, você está renomeando apenas a regra de links _seguros._
+Não é possível renomear uma política de links seguros no PowerShell (o cmdlet **Set-SafeLinksPolicy** não tem _parâmetro Name)._ Ao renomear uma política Cofre & Links no Centro de Conformidade e Segurança, você só está renomeando a regra de links _seguros._
 
 A única consideração adicional para modificar políticas de links seguros no PowerShell é a sintaxe disponível para o parâmetro _DoNotRewriteUrls_ (a lista "Não reescrever as [URLs a seguir"](safe-links.md#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)):
 
@@ -390,7 +393,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-
 
 ### <a name="use-powershell-to-enable-or-disable-safe-links-rules"></a>Usar o PowerShell para habilitar ou desabilitar regras de links seguros
 
-Habilitar ou desabilitar uma regra de links seguros no PowerShell habilita ou desabilita toda a política de Links Seguros (a regra de links seguros e a política de links seguros atribuídos).
+Habilitar ou desabilitar uma regra de links seguros no PowerShell habilita ou desabilita toda a política Cofre Links (a regra de links seguros e a política de links seguros atribuídos).
 
 Para habilitar ou desabilitar uma regra de links seguros no PowerShell, use esta sintaxe:
 
@@ -469,15 +472,15 @@ Remove-SafeLinksRule -Identity "Marketing Department"
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, [consulte Remove-SafeLinksRule](/powershell/module/exchange/remove-safelinksrule).
 
-Para verificar se Os Links Seguros estão verificando mensagens, verifique os relatórios disponíveis do Microsoft Defender para Office 365. Para obter mais informações, consulte [View reports for Defender for Office 365](view-reports-for-mdo.md) and Use Explorer in the Security & Compliance [Center](threat-explorer.md).
+Para verificar se Cofre links está verificando mensagens, verifique os relatórios disponíveis do Microsoft Defender Office 365. Para obter mais informações, [consulte View reports for Defender for Office 365](view-reports-for-mdo.md) and Use Explorer in the Security & Compliance [Center](threat-explorer.md).
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Como saber se esses procedimentos funcionaram?
 
-Para verificar se você criou, modificou ou removeu políticas de Links Seguros com êxito, faça uma das seguintes etapas:
+Para verificar se você criou, modificou ou removeu com êxito Cofre políticas de Links, faça qualquer uma das seguintes etapas:
 
-- No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP Links seguros**. Verifique a lista de políticas, seus **valores de Status** e seus valores **priority.** Para exibir mais detalhes, selecione a política na lista e veja os detalhes no fly-out.
+- No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP** Cofre Links . Verifique a lista de políticas, seus **valores de Status** e seus valores **priority.** Para exibir mais detalhes, selecione a política na lista e veja os detalhes no fly-out.
 
-- No PowerShell do Exchange Online ou no PowerShell da Proteção do Exchange Online, substitua pelo nome da política ou regra, execute o seguinte comando e \<Name\> verifique as configurações:
+- Em Exchange Online PowerShell ou Proteção do Exchange Online PowerShell, substitua pelo nome da política ou regra, execute o seguinte comando e verifique \<Name\> as configurações:
 
   ```PowerShell
   Get-SafeLinksPolicy -Identity "<Name>"

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3d9dd871edba29ec6119329f98ada990abad6e8d
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 4a051742775c3d4e8b36bf0ba7a4fd2502763014
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246411"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694456"
 ---
 # <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender para Ponto de Extremidade para iOS
 
@@ -62,9 +62,6 @@ ms.locfileid: "52246411"
 
 - Acesso ao [Microsoft Endpoint Manager de](https://go.microsoft.com/fwlink/?linkid=2109431)administração , para implantar o aplicativo em grupos de usuários inscritos em sua organização.
 
-**Requisitos de rede**
-- Para o Microsoft Defender for Endpoint no iOS funcionar quando conectado a uma rede, o firewall/proxy precisará ser configurado para habilitar o acesso ao Microsoft Defender para [URLs](configure-proxy-internet.md#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server) de serviço de ponto de extremidade
-
 **Requisitos do sistema**
 
 - Dispositivos iOS que executam o iOS 11.0 ou superior. iPad dispositivos são oficialmente compatíveis com a versão 1.1.15010101 em diante.
@@ -72,7 +69,7 @@ ms.locfileid: "52246411"
 - O dispositivo está inscrito no aplicativo [Portal da Empresa do Intune .](https://apps.apple.com/us/app/intune-company-portal/id719171358)
 
 > [!NOTE]
-> **Microsoft Defender ATP (Microsoft Defender para Ponto de Extremidade) no iOS agora está disponível na [Apple App Store](https://aka.ms/mdatpiosappstore).**
+> **O Microsoft Defender para Ponto de Extremidade no iOS está disponível na [Apple App Store](https://aka.ms/mdatpiosappstore).**
 
 ## <a name="installation-instructions"></a>Instruções de instalação
 

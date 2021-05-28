@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: Este artigo descreve como você pode iniciar seu portal usando o agendador de início do portal
-ms.openlocfilehash: d7ea64b3a9fef25ddfde43e61624e49d2b7d4352
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: fdf92f2bbdfb673f1db446b562e941d61679fa9a
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280964"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694348"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>Iniciar seu portal usando o agendador de SharePoint portal
 
@@ -95,7 +95,7 @@ Anteriormente, os lançamentos de portal só podiam ser agendados por meio Share
     - Menos de 10 mil usuários: Duas ondas
     - Usuários de 10 mil a 30 mil: três ondas 
     - 30k+ a 100 mil usuários: Cinco ondas
-    - Mais de 100 mil usuários: cinco ondas e contate sua equipe de conta da Microsoft
+    - Mais de 100 mil usuários: cinco ondas e contate sua Microsoft por meio das etapas listadas no portal de início com mais de 100 mil usuários. 
 
 5.  Em seguida, determine **o Tipo de redirecionamento** necessário:
 
@@ -118,6 +118,26 @@ Anteriormente, os lançamentos de portal só podiam ser agendados por meio Share
 
 8.  Confirme os detalhes de início do portal e selecione **Agendar**. Depois que o lançamento tiver sido agendado, quaisquer alterações na home page do portal SharePoint precisarão receber um resultado de diagnóstico saudável antes que o início do portal seja retomado.
 
+### <a name="launch-portal-with-over-100k-users"></a>Portal de lançamento com mais de 100 mil usuários
+
+Se você planeja migrar acima de 100 TB, envie uma solicitação de suporte de acordo com as etapas listadas a seguir. Não deixe de incluir todas as informações solicitadas.
+
+Siga estas etapas:
+1. Navegue até https://admin.microsoft.com
+2. Verifique se você está usando a nova visualização do centro de administração.
+3. No painel de navegação à esquerda, selecione **Suporte** e, em seguida, **Nova Solicitação de Serviço**. 
+
+
+   Isso ativará o painel **Precisa de Ajuda?** no lado direito da tela.
+
+4.  Na área **Descrevê-lo brevemente,** digite "Iniciar SharePoint Portal com 100 mil usuários".</br>
+5. Selecione **Contatar o Suporte**.
+6. Em **Descrição,** insira "Iniciar SharePoint Portal com 100 mil usuários". 
+7. Preencha as informações restantes e selecione **Entrar em contato comigo**.
+8. Depois de o tíquete ter sido criado, certifique-se de fornecer ao agente de suporte as seguintes informações:
+- Iniciar URL do Portal 
+- Número de usuários esperados
+- Tempo estimado de lançamento 
 
 ## <a name="make-changes-to-a-scheduled-portal-launch"></a>Fazer alterações em um lançamento de portal agendado
 
