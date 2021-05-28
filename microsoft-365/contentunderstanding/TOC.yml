@@ -42,6 +42,8 @@
   items:
     - name: Introdução à adoção
       href: adoption-getstarted.md
+    - name: Cenários e casos de uso
+      href: adoption-scenarios.md
     - name: Gerenciar contratos no Microsoft 365
       items:
         - name: Visão Geral
@@ -54,7 +56,7 @@
           href: solution-manage-contracts-step3.md
 - name: Configuração e administração
   items:
-    - name: Configurar o entendimento de conteúdo
+    - name: Configurar o SharePoint Syntex
       href: set-up-content-understanding.md
 - name: Serviços de conteúdo
   items:
