@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint, Microsoft Teams e grupos do Microsoft 365.
-ms.openlocfilehash: ef4559a278ce83f429790efcd20517b5c8545cb3
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 6baca2e24e50bd3ee418da994adcfbe7fca8338c
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52531037"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694396"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint
 
@@ -138,7 +138,7 @@ Como você pode configurar o SharePoint separadamente da configuração do rótu
 
 Para exibir na lista suspensa para seleção, os contextos de autenticação devem ser criados, configurados e publicados como parte de sua configuração de acesso de condição do Azure Active Directory. Para obter mais informações e instruções, confira a seção [Configurar contextos de autenticação](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#configure-authentication-contexts) da documentação de Acesso Condicional do Azure Active Directory.
 
-Nem todos os aplicativos oferecem suporte a contextos de autenticação. Se um usuário com um aplicativo sem suporte se conectar ao site configurado para um contexto de autenticação, ele verá uma mensagem de acesso negado ou será solicitado a autenticar, mas foi rejeitado. Os aplicativos que atualmente oferecem suporte a contextos de autenticação:
+Nem todos os aplicativos suportam contextos de autenticação. Se um usuário com um aplicativo sem suporte se conectar ao site configurado para um contexto de autenticação, ele verá uma mensagem de acesso negado ou será solicitado a autenticar, mas foi rejeitado. Os aplicativos que atualmente suportam os contextos de autenticação:
 
 - Office na Web, que inclui Outlook para a web
 
@@ -163,6 +163,20 @@ Nem todos os aplicativos oferecem suporte a contextos de autenticação. Se um u
     - Android: ainda sem suportado
 
 Limitações conhecidas para esta prévia:
+
+- Esse novo recurso ainda está sendo distribuído aos locatários. Se a política de acesso condicional com o seu contexto de autenticação não tem efeito quando um usuário acessa o site, você pode usar o PowerShell para confirmar que a sua configuração está correta e que todos os pré-requisitos são atendidos. Você precisará remover o rótulo de sensibilidade do site e configurar o site para o contexto de autenticação usando o cmdlet [set-SPOSite](/powershell/module/sharepoint-online/set-sposite) do atual [Shell de Gerenciamento do SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online). Se esse método funcionar, aguarde mais alguns dias antes de tentar aplicar o rótulo de sensibilidade novamente.
+    
+    Para testar o contexto de autenticação usando o PowerShell:
+    
+    ```powershell
+    Set-SPOSite -Identity <site url> -ConditionalAccessPolicy AuthenticationContext -AuthenticationContextName "Name of authentication context"
+    ```
+    
+    Para remover o contexto de autenticação para que você possa tentar aplicar o rótulo de sensibilidade novamente:
+    
+    ```powershell
+    Set-SPOSite -Identity <site url> -ConditionalAccessPolicy AuthenticationContext -AuthenticationContextName ""
+    ```
 
 - Para o aplicativo de Sincronização do Microsoft OneDrive, compatível apenas com OneDrive e não para outros sites.
 
