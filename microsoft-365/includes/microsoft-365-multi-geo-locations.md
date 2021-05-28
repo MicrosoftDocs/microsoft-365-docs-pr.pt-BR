@@ -3,6 +3,7 @@
 |:----------------------------|:-------|:---------------------------------|
 |Ásia – Pacífico                 |APC     |Datacenters no sudeste ou leste da Ásia|
 |Austrália                    |AUS     |Datacenters no sudeste ou leste da Ásia|
+|Brasil                       |BRA     |(Localização dos dados de descoberta eletrônica em breve)|
 |Canadá                       |CAN     |Datacenters nos Estados Unidos                    |
 |Europa/Oriente Médio/África|EUR     |Datacenters na Europa                |
 |França                       |FRA     |Datacenters na Europa                |

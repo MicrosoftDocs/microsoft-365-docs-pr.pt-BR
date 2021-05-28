@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c9cd9ef649ec60fc8d880ae525469980a00f69b2
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 7632efb2014af9f55e9cad700bceeeabe555fb8b
+ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274995"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52696569"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Investigação e resposta automatizadas (AIR) no Microsoft Defender para Office 365
 
@@ -78,9 +78,9 @@ Durante e após cada investigação automatizada, sua equipe de operações de s
 Os recursos AIR são incluídos no [Microsoft Defender para Office 365](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2), desde que suas políticas e alertas sejam configurados. Precisa de ajuda? Siga as diretrizes em [Proteger contra ameaças](protect-against-threats.md) para configurar ou configurar as seguintes configurações de proteção:
 
 - [Log de auditoria](../../compliance/turn-audit-log-search-on-or-off.md) (deve ser ligado)
-- [Políticas antimalware](protect-against-threats.md#part-1---anti-malware-protection)
-- [Proteção antiphishing](protect-against-threats.md#part-2---anti-phishing-protection)
-- [Proteção antispam](protect-against-threats.md#part-3---anti-spam-protection)
+- [Políticas anti-malware](protect-against-threats.md#part-1---anti-malware-protection-in-eop)
+- [Proteção anti-phishing](protect-against-threats.md#part-2---anti-phishing-protection)
+- [Anti-spam protection](protect-against-threats.md#part-3---anti-spam-protection-in-eop)
 - [Cofre Links e Cofre anexos](protect-against-threats.md#part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365)
 - [Anexos seguros para SharePoint, OneDrive e Microsoft Teams](protect-against-threats.md#part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on)
 - [Limpeza automática de hora zero para email](protect-against-threats.md#zero-hour-auto-purge-for-email-in-eop)
@@ -108,7 +108,7 @@ Microsoft 365 fornece muitas Exchange políticas de alerta internas que ajudam a
 
 As permissões são concedidas por meio de determinadas funções, como as descritas na tabela a seguir:
 
-|Tarefas|Função(s) obrigatório|
+|Tarefa|Função(s) obrigatório|
 |---|---|
 |Configurar recursos AIR|Uma das seguintes funções: <ul><li>Administrador Global</li><li>Administrador de Segurança</li></ul> <p> Essas funções podem ser atribuídas no [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no Centro de Conformidade & [Segurança.](permissions-in-the-security-and-compliance-center.md)|
 |Iniciar uma investigação automatizada <p> ---ou--- <p> Aprovar ou rejeitar ações recomendadas|Uma das seguintes funções, atribuídas no [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no Centro de Conformidade & [Segurança:](permissions-in-the-security-and-compliance-center.md) <ul><li>Administrador Global</li><li>Administrador de Segurança</li><li>Operador de segurança</li><li>Leitor de segurança <br> ---e--- </li><li>Pesquisa e limpeza (essa função é atribuída somente no Centro de Conformidade e [Segurança & Segurança.](permissions-in-the-security-and-compliance-center.md) Talvez seja preciso criar um novo grupo de funções e adicionar a função Pesquisar e Limpar a esse novo grupo de funções.</li></ul>|

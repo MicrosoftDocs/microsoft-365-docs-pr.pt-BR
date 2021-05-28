@@ -20,12 +20,12 @@ description: Os administradores podem aprender sobre a proteção contra ameaça
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 12b519d45df005471e3d87cfdb24f87edddbf6f3
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 77b76a56c34a005b0e0742f207e2824359ae8cac
+ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683326"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52696545"
 ---
 # <a name="protect-against-threats"></a>Proteção contra ameaças
 
@@ -50,6 +50,8 @@ Os recursos de proteção contra ameaças estão incluídos em todas *as* assina
 > [!TIP]
 > Observe que, além das instruções para ativar a *auditoria,* as etapas iniciam anti-malware, anti-phishing e anti-spam, que são marcados como parte do Office 365 Proteção do Exchange Online (**EOP**). Isso pode parecer estranho em um artigo do Defender para Office 365, até que você se lembre (**Defender para** Office 365 ) contém e se baseia no EOP.
 
+<br>
+
 ****
 
 |Tipo de proteção|Requisitos de assinatura|
@@ -67,6 +69,8 @@ Os recursos de proteção contra ameaças estão incluídos em todas *as* assina
 
 Para configurar o Defender Office 365 políticas de Office 365, você deve ter uma função apropriada no Centro de Conformidade & [Segurança.](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) Confira a tabela abaixo para ver as funções que podem fazer essas ações.
 
+<br>
+
 ****
 
 |Função ou grupo de funções|Onde saber mais|
@@ -82,20 +86,22 @@ Para saber mais, confira Permissões no Centro de [Conformidade & Segurança.](p
 
 - Inicie o log de auditoria mais cedo. Você precisará que a auditoria seja **on** para algumas das etapas a seguir. O log de auditoria está disponível em assinaturas que incluem [Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description). Para exibir dados em relatórios de proteção contra ameaças, como o Painel de [Segurança,](security-dashboard.md)os relatórios de segurança de [email](view-email-security-reports.md)e o [Explorer,](threat-explorer.md)o log de auditoria deve *estar em*. Para saber mais, confira Ativar ou desativar a pesquisa de [log de auditoria.](../../compliance/turn-audit-log-search-on-or-off.md)
 
-## <a name="part-1---anti-malware-protection"></a>Parte 1 - Proteção anti-malware
+## <a name="part-1---anti-malware-protection-in-eop"></a>Parte 1 - Proteção anti-malware no EOP
 
 Para obter mais informações sobre as configurações recomendadas para anti-malware, consulte [EOP anti-malware policy settings](recommended-settings-for-eop-and-office365.md#eop-anti-malware-policy-settings).
 
 1. Abra <https://security.microsoft.com/antimalwarev2> .
 
-2. Selecione a política Padrão clicando no nome da política.
+2. Na página **Anti-malware,** selecione a política chamada **Política** padrão clicando no nome.
 
 3. No sobremenu de detalhes da política que é aberto, clique em Editar configurações **de proteção** e, em seguida, configure as seguintes configurações:
    - Selecione **Habilitar o filtro de anexos comuns** para ativar o filtro de anexos comuns. Clique **em Personalizar tipos de** arquivo para adicionar mais tipos de arquivo.
    - Verifique se **Enable zero-hour auto purge for malware** is selected.
    - Verifique se nenhuma das configurações na seção **Notificação** está selecionada.
 
-   Quando terminar, clique em **Salvar**
+   Quando concluir, clique em **Salvar**.
+
+4. De volta ao sobremenu de detalhes da política, clique em **Fechar**.
 
 Para obter instruções detalhadas sobre como configurar políticas anti-malware, consulte [Configure anti-malware policies in EOP](configure-anti-malware-policies.md).
 
@@ -135,23 +141,23 @@ O procedimento a seguir descreve como configurar uma política anti-phishing no 
 
 Para saber mais sobre suas opções de política anti-phishing, consulte [Configure anti-phishing policies in Microsoft Defender for Office 365](configure-atp-anti-phishing-policies.md).
 
-## <a name="part-3---anti-spam-protection"></a>Parte 3 - Proteção anti-spam
+## <a name="part-3---anti-spam-protection-in-eop"></a>Parte 3 - Proteção anti-spam no EOP
 
-[A proteção anti-spam](anti-spam-protection.md) está disponível em assinaturas que incluem [eOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description).
+Para obter mais informações sobre as configurações recomendadas para anti-spam, consulte [EOP anti-spam policy settings](recommended-settings-for-eop-and-office365.md#eop-anti-spam-policy-settings).
 
-1. No Centro [de Conformidade & segurança,](https://protection.office.com)escolha Política de **Gerenciamento de** \> **Ameaças** \> **Anti-spam**.
+1. Abra <https://security.microsoft.com/antispam> .
 
-2. Na guia **Personalizado,** a opção Configurações personalizadas.
+2. Na página **Políticas anti-spam,** selecione a política chamada Política de entrada **anti-spam** na lista clicando no nome.
 
-3. Expanda **a política de filtro de spam padrão,** clique em Editar **política** e especifique as seguintes configurações:
+3. No sobremenu de detalhes da política exibido, clique em Editar limite de **spam** e propriedades na seção Limite de email em massa **& de spam.**
 
-   - Na seção **Spam e ações em massa,** de definir o limite como um valor de 5 ou 6.
+4. No limite **de spam e** no sobrevoo de propriedades que aparece, de definir o valor limite de **email** em massa como 5 (Estrito) ou 6 (Standard). Quando terminar, clique em **Salvar**
 
-   - Na seção **Permitir listas,** revise (e/ou edit) seus senders e domínios permitidos.
+5. De volta ao sobremenu de detalhes da política, vá para a seção Senders e **domínios permitidos** e bloqueados e revise ou edite seus senders permitidos e domínios permitidos.
 
-4. Clique em **Salvar**.
+6. Quando terminar, clique em **Fechar**.
 
-Para saber mais sobre suas opções de política anti-spam, consulte [Configure anti-spam policies in EOP](configure-your-spam-filter-policies.md).
+Para obter instruções detalhadas sobre como configurar políticas anti-spam, consulte [Configure anti-spam policies in EOP](configure-your-spam-filter-policies.md).
 
 ## <a name="part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365"></a>Parte 4 - Proteção contra URLs e arquivos mal-intencionados (Cofre Links e Cofre anexos no Defender para Office 365)
 

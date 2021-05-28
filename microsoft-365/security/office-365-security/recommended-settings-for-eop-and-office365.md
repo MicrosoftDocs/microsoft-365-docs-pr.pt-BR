@@ -19,12 +19,12 @@ ms.collection:
 description: Quais são as práticas recomendadas para Proteção do Exchange Online (EOP) e Defender para Office 365 configurações de segurança? Quais são as recomendações atuais para proteção padrão? O que deve ser usado se você quiser ser mais rigoroso? E quais extras você obterá se também usar o Defender para Office 365?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 10fac8cb7241faa652bbcb4726610abef741e70c
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: b6661c31d0cc05a1bdfd51de986af1e7b22c9d70
+ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683266"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52696521"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Configurações recomendadas para o EOP e o Microsoft Defender para Office 365 segurança
 
@@ -44,7 +44,7 @@ Para aplicar automaticamente as configurações Standard ou Strict aos usuários
 > [!NOTE]
 > A regra de lixo eletrônico precisa ser habilitada em caixas de correio para que a filtragem funcione corretamente. Ele está habilitado por padrão, mas você deve verificar se a filtragem não parece estar funcionando. Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
-Este artigo descreve as configurações padrão e também as configurações padrão e estrita recomendadas para ajudar a proteger seus usuários.
+Este artigo descreve as configurações padrão e também as configurações padrão e estrita recomendadas para ajudar a proteger seus usuários. As tabelas contêm as configurações no centro de segurança Microsoft 365 e no PowerShell (Exchange Online PowerShell ou no PowerShell autônomo Proteção do Exchange Online PowerShell para organizações sem Exchange Online caixas de correio).
 
 > [!TIP]
 > O Office 365 do Analisador de Configuração Recomendado para Proteção avançada contra Ameaças (ORCA) para o PowerShell pode ajudá-lo (administradores) a encontrar os valores atuais dessas configurações. Especificamente, o cmdlet **Get-ORCAReport** gera uma avaliação de anti-spam, anti-phishing e outras configurações de higienização de mensagens. Você pode baixar o módulo ORCA em <https://www.powershellgallery.com/packages/ORCA/> .
@@ -65,26 +65,26 @@ Para criar e configurar políticas anti-spam, consulte [Configure anti-spam poli
 |---|:---:|:---:|:---:|---|
 |**Ação de detecção** de spam <p> _SpamAction_|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mensagem em quarentena** <p> `Quarantine`||
 |**Ação de detecção de spam** de alta confiança <p> _HighConfidenceSpamAction_|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mensagem em quarentena** <p> `Quarantine`|**Mensagem em quarentena** <p> `Quarantine`||
-|**Ação de detecção de email de phishing** <p> _PhishSpamAction_|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mensagem em quarentena** <p> `Quarantine`|**Mensagem em quarentena** <p> `Quarantine`||
-|**Ação de detecção de email de phishing** de alta confiança <p> _HighConfidencePhishAction_|**Mensagem em quarentena** <p> `Quarantine`|**Mensagem em quarentena** <p> `Quarantine`|**Mensagem em quarentena** <p> `Quarantine`||
-|**Ação de detecção de email** em massa <p> _BulkSpamAction_|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mensagem em quarentena** <p> `Quarantine`||
-|Limite de email em massa <p> _BulkThreshold_|7 |6 |4 |Para obter detalhes, consulte [Bulk complaint level (BCL) in Office 365](bulk-complaint-level-values.md).|
-|Período de retenção de quarentena <p> _QuarantineRetentionPeriod_|15 dias|30 dias|30 dias||
-|**Segurança Dicas** <p> _InlineSafetyTipsEnabled_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
+|**Ação de detecção de phishing** <p> _PhishSpamAction_|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mensagem em quarentena** <p> `Quarantine`|**Mensagem em quarentena** <p> `Quarantine`||
+|**Ação de detecção de phishing de alta** confiança <p> _HighConfidencePhishAction_|**Mensagem em quarentena** <p> `Quarantine`|**Mensagem em quarentena** <p> `Quarantine`|**Mensagem em quarentena** <p> `Quarantine`||
+|**Ação de** detecção em massa <p> _BulkSpamAction_|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mensagem em quarentena** <p> `Quarantine`||
+|**Limite de email em massa** <p> _BulkThreshold_|7 |6 |4 |Para obter detalhes, consulte [Bulk complaint level (BCL) in Office 365](bulk-complaint-level-values.md).|
+|_MarkAsSpamBulkMail_|Habilitado|Habilitado|Habilitado|Essa configuração só está disponível no PowerShell.|
+|**Reter spam em quarentena por esses muitos dias** <p> _QuarantineRetentionPeriod_|15 dias|30 dias|30 dias||
+|**Habilitar dicas de segurança de spam** <p> _InlineSafetyTipsEnabled_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
 |Senders permitidos <p> _AllowedSenders_|Nenhum|Nenhum|Nenhum||
-|Domínios permitidos do Remetente <p> _AllowedSenderDomains_|Nenhum|Nenhum|Nenhum|Adicionar domínios à lista de envios permitidos é uma ideia muito ruim. Os invasores seriam capazes de enviar emails que seriam filtrados de outra forma. <p> Use o insight de inteligência de [spoof](learn-about-spoof-intelligence.md) e a Lista de Locatários [Permitir/Bloquear](tenant-allow-block-list.md) no Centro de Conformidade de Segurança & para analisar todos os remetentes que estão fazendo a spoofing de endereços de email de remetente nos domínios de email da sua organização ou a spoofing de endereços de email de remetente em domínios externos.|
-|Senders bloqueados <p> _BlockedSenders_|Nenhum|Nenhum|Nenhum||
+|Domínios de remetente permitidos <p> _AllowedSenderDomains_|Nenhum|Nenhum|Nenhum|Adicionar domínios à lista de envios permitidos é uma ideia muito ruim. Os invasores seriam capazes de enviar emails que seriam filtrados de outra forma. <p> Use o insight de inteligência de [spoof](learn-about-spoof-intelligence.md) e a Lista de Locatários [Permitir/Bloquear](tenant-allow-block-list.md) para revisar todos os remetentes que estão spoofando endereços de email de remetente nos domínios de email da sua organização ou spoofando endereços de email de remetente em domínios externos.|
+|Remetentes bloqueados <p> _BlockedSenders_|Nenhum|Nenhum|Nenhum||
 |Domínios de remetente bloqueados <p> _BlockedSenderDomains_|Nenhum|Nenhum|Nenhum||
 |**Habilitar notificações de spam para o usuário final** <p> _EnableEndUserSpamNotifications_|Desabilitado <p> `$false`|Habilitado <p> `$true`|Habilitado <p> `$true`||
 |**Envie notificações de spam para o usuário final a cada (dias)** <p> _EndUserSpamNotificationFrequency_|3 dias|3 dias|3 dias||
-|**Spam ZAP** <p> _SpamZapEnabled_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
-|**Phish ZAP** <p> _PhishZapEnabled_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
-|_MarkAsSpamBulkMail_|Habilitado|Habilitado|Habilitado|Essa configuração só está disponível no PowerShell.|
+|Habilitar a limpeza automática de hora zero (ZAP) para mensagens de phishing <p> _PhishZapEnabled_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
+|Habilitar o ZAP para mensagem de spam <p> _SpamZapEnabled_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
 |
 
-Há várias outras configurações de Filtro de Spam Avançado (ASF) em políticas anti-spam que estão sendo preteridas. Mais informações sobre as linhas do tempo para a depreciação desses recursos serão comunicadas fora deste artigo.
+Há muitas configurações de Filtro de Spam Avançado (ASF) em políticas anti-spam que estão sendo preteridas. Mais informações sobre as linhas do tempo para a depreciação desses recursos serão comunicadas fora deste artigo.
 
-Recomendamos desativar essas configurações ASF **para** níveis **Padrão** **e Estrito.** Para obter mais informações sobre as configurações do ASF, consulte [AsF (Advanced Spam Filter) settings in Office 365](advanced-spam-filtering-asf-options.md).
+Recomendamos que você deixe as configurações ASF a seguir **desligadas para** os **níveis Standard** **e Strict.** Para obter mais informações sobre as configurações do ASF, consulte [AsF (Advanced Spam Filter) settings in Office 365](advanced-spam-filtering-asf-options.md).
 
 <br>
 
