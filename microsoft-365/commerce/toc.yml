@@ -66,6 +66,8 @@
       href: billing-and-payments/change-your-billing-addresses.md
     - name: Saiba Mais sobre a Diretiva de Serviços de Pagamento 2 e a Autenticação Forte do cliente
       href: billing-and-payments/psd2.md
+    - name: Solicitar um crédito de Imposto Retido na Fonte em sua conta
+      href: billing-and-payments/withholding-tax-credit-global.md
 - name: Contas de cobrança
   items:
     - name: Compreender contas de cobrança
