@@ -19,15 +19,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como compartilhar facilmente seus arquivos de negócios externamente.
-ms.openlocfilehash: 469e4b16277b048a539767f6fc9fd54d2ea2e6cf
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Saiba como usar um link Qualquer pessoa no Microsoft 365 para compartilhar facilmente seus arquivos de negócios externamente.
+ms.openlocfilehash: cbe6a12fd8d0c2b2ec16db32178f9c2559a08c22
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578622"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706493"
 ---
 # <a name="easily-share-files-externally"></a>Compartilhar arquivos com facilidade externamente
+
+## <a name="watch-share-files-with-an-anyone-link"></a>Assista: Compartilhar arquivos com um link qualquer pessoa
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2dCOV?autoplay=false]
 
@@ -35,8 +37,8 @@ Para compartilhar arquivos com seus clientes e trabalhar em documentos juntos, u
 
 ## <a name="try-it"></a>Experimente!
 
-1. No site do SharePoint, selecione a pasta que deseja compartilhar, escolha **Compartilhar** e clique no botão configurações do link.
-1. Na janela **Configurações do Link,** certifique-se **de que Qualquer pessoa** está selecionada. Se essa opção estiver esmaecendo, ela precisará ser entalhe no centro de administração do SharePoint.
+1. No site SharePoint, selecione a pasta que deseja compartilhar, escolha **Compartilhar** e clique no botão configurações do link.
+1. Na janela **Link Configurações,** certifique-se de **que Qualquer pessoa** está selecionada. Se essa opção estiver esmae SharePoint centro de administração.
 1. Opcionalmente, marque a caixa **de seleção Permitir edição** e insira uma data de expiração para o link.
 1. Escolha **Aplicar**.
 1. Na janela **Enviar Link,** insira o endereço de email do cliente, digite uma mensagem e escolha **Enviar**.

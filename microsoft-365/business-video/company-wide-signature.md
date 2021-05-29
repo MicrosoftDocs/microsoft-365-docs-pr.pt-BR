@@ -21,14 +21,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como criar uma assinatura de email em toda a empresa.
-ms.openlocfilehash: a1a85826be2a799b56cf3d06b6416778470a116f
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 669c61d17784641d1ecc88ac0952a46575c7898b
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578946"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706257"
 ---
 # <a name="create-a-company-wide-email-signature"></a>Criar uma assinatura de email em toda a empresa
+
+## <a name="watch-create-a-company-wide-email-signature"></a>Assista: Criar uma assinatura de email em toda a empresa
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf?autoplay=false]
 
@@ -36,7 +38,7 @@ Uma assinatura de email em toda a empresa aparece em todos os emails enviados po
 
 ## <a name="try-it"></a>Experimente!
 
-1. No Centro de administração do Microsoft 365, selecione **Exchange**.
+1. No centro Microsoft 365 de administração, selecione **Exchange**.
 1. Selecione **Fluxo de email**.
 1. Selecione **Adicionar +** e, em seguida, selecione Aplicar **avisos de isenção de índole.**
 1. Na página **Nova regra:**

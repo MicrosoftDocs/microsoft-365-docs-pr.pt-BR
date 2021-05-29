@@ -20,13 +20,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 'Remova a licença de uma caixa de correio compartilhada para atribuí-la a outro usuário. '
-ms.openlocfilehash: d552cfb77ff0ab2853939c6cb25fd4737f8c17d3
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: 'Remova uma licença de uma caixa de correio compartilhada para atribuí-la a outro usuário ou retorne a licença para que você não esteja pagando por ela. '
+ms.openlocfilehash: d33487879506402c5f0de2f7942c3299c5698b73
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537578"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706281"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>Remover uma licença de uma caixa de correio compartilhada
 
@@ -74,14 +74,10 @@ As caixas de correio compartilhadas geralmente não exigem uma licença. Siga es
 
 6. Você ainda está pagando pela licença. Para parar de pagar por ela, [remova a licença de sua assinatura](../../commerce/licenses/buy-licenses.md).
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Sobre as caixas de correio compartilhadas](about-shared-mailboxes.md)
-
-[Criar uma caixa de correio compartilhada](create-a-shared-mailbox.md)
-
-[Configurar uma caixa de correio compartilhada](configure-a-shared-mailbox.md)
-
-[Converter uma caixa de correio do usuário em uma caixa de correio compartilhada](convert-user-mailbox-to-shared-mailbox.md).
-
-[Solucionar problemas com caixas de correio compartilhadas](resolve-issues-with-shared-mailboxes.md)
+[Sobre as caixas de correio compartilhadas](about-shared-mailboxes.md) (artigo)\
+[Criar uma caixa de correio compartilhada](create-a-shared-mailbox.md) (artigo)\
+[Configurar uma caixa de correio compartilhada](configure-a-shared-mailbox.md) (artigo)\
+[Converter uma caixa de correio do usuário em uma caixa de correio compartilhada](convert-user-mailbox-to-shared-mailbox.md) (artigo)\
+[Resolver problemas com caixas de correio compartilhadas](resolve-issues-with-shared-mailboxes.md) (artigo)

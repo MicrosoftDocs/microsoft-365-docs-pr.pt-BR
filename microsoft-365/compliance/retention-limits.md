@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 hideEdit: true
 description: Entenda o número máximo de políticas e itens por política para políticas de retenção e políticas de rótulos de retenção
-ms.openlocfilehash: 007ca6eec50b243e1b820938ffa67553d7882c7b
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 1ee2d07a42aaf4dff45ae22e9dfc005b3c4593d9
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107653"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52698959"
 ---
 # <a name="limits-for-retention-policies-and-retention-label-policies"></a>Limites para políticas de retenção e políticas de rótulo de retenção
 
@@ -33,13 +33,15 @@ Haverá números máximos a serem considerados ao usar [políticas de retenção
 
 ## <a name="maximum-number-of-policies-per-tenant"></a>Número máximo de políticas por locatário
 
-Um único locatário pode ter no máximo 10.000 políticas (qualquer configuração). Esse número máximo inclui as diferentes políticas de retenção e outras políticas de conformidade, tais como políticas DLP.
+Um único locatário pode ter no máximo 10.000 políticas (qualquer configuração). Esse número máximo inclui as diferentes políticas de retenção e outras políticas de conformidade, como políticas para DLP, barreiras de informações, retenções de Descoberta eletrônica e rótulos de confidencialidade.
 
-Número máximo de políticas de retenção por carga de trabalho:
+Dentro desse limite de 10.000 políticas, também existem alguns limites no número máximo de políticas para retenção por carga de trabalho:
 
 - Exchange Online (qualquer configuração): 1.800
 - SharePoint ou OneDrive: (todos os sites incluídos automaticamente): 13
 - SharePoint ou OneDrive (locais específicos incluídos ou excluídos): 2.600
+
+Embora as políticas de retenção para o Microsoft Teams e Yammer usem caixas de correio para armazenar dados para fins de retenção, o número máximo de políticas para Exchange Online exclui políticas de retenção para o Teams e o Yammer.
 
 ## <a name="maximum-number-of-items-per-policy"></a>Número máximo de itens por política
 

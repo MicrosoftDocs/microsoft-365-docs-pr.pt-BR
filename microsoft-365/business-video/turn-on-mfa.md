@@ -20,15 +20,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como ativar a autenticação multifação.
-ms.openlocfilehash: 64e054defb407a3b2c1e4d124767d1d68f78452a
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Saiba como ativar a autenticação multifa factor, às vezes conhecida como autenticação de dois fatores.
+ms.openlocfilehash: 7d491ac88ab928dea9b5a5316a51151b8df63eab
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578574"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706437"
 ---
 # <a name="turn-on-multi-factor-authentication"></a>Ativar a autenticação multifa factor
+
+## <a name="watch-turn-on-multi-factor-authentication"></a>Assistir: ativar a autenticação multifa factor
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MuO3?autoplay=false]
 
@@ -37,8 +39,8 @@ A autenticação multifafação significa que você e seus funcionários devem f
 ## <a name="try-it"></a>Experimente!
 
 1. Vá para o centro de administração do[https://admin.microsoft.com](https://admin.microsoft.com).
-1. Selecione  **Mostrar Tudo** e, em seguida, escolha o Centro de Administração do **Azure Active Directory**.
-1. Selecione **O Azure Active Directory,** **Propriedades,** **Gerenciar padrões de segurança.**
+1. Selecione **Mostrar Tudo** e, em seguida, escolha o Azure Active Directory Admin **Center**.
+1. Selecione **Azure Active Directory,** **Propriedades,** **Gerenciar padrões de segurança.**
 1. Em **Habilitar padrões de segurança,** selecione **Sim** e, em **seguida, Salvar**.
 
 > [!NOTE]

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: As funções de administrador são mapeadas para as funções de negócios e oferecem permissões para realizar tarefas específicas no centro de administração. Por exemplo, o administrador do serviço abre tíquetes de suporte da Microsoft.
-ms.openlocfilehash: 3c55619dc1193d7c41f8a52fc027f03f13f3c9ad
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: c1baf7fcd9189973864929550b19ca6e32d499ae
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759949"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706197"
 ---
 # <a name="get-started-with-the-roles-page"></a>Começar com a página de funções
 
@@ -33,7 +33,7 @@ Na página Funções, você pode dar aos usuários permissões para realizar tar
 ![Uma figura que mostra funções de administrador](../../media/roles-main-page.png)
 
 > [!TIP]
-> Procurando as descrições detalhadas das funções? Confira Permissões [de função de administrador no Azure Active Directory e](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) sobre funções de [administrador](/microsoft-365/admin/add-users/about-admin-roles).
+> Procurando as descrições detalhadas das funções? Confira Permissões [de função de administrador em Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) e Sobre funções de [administrador](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## <a name="about-the-admin-roles-page"></a>Sobre a página funções de administrador
 
@@ -43,7 +43,7 @@ Você pode exportar a lista de administradores, bem como pesquisar e filtrar por
 
 |||
 |:-----|:-----|
-|  <br/> |Use **Exportar lista de administradores** para obter uma lista completa de todos os usuários de administração em sua organização. A lista é armazenada em um arquivo .csv do Excel.   <br/> |
+|  <br/> |Use **Exportar lista de administradores** para obter uma lista completa de todos os usuários de administração em sua organização. A lista é armazenada em um arquivo Excel .csv arquivo.   <br/> |
 |  <br/> |Use **a Pesquisa** para pesquisar uma função de administrador e consulte seus usuários que são atribuídos a essa função.   <br/> |
 |  <br/> |Use **Filter** para alterar sua exibição de funções de administrador exibidas.   <br/> |
 
@@ -56,7 +56,7 @@ Esta não é uma lista exaustiva de todas as permissões que essas funções tê
 
 ### <a name="exchange-admin"></a>Administrador do Exchange
 
-Atribua a função de administrador do Exchange aos usuários que precisam exibir e gerenciar as caixas de correio de email do usuário, grupos do Microsoft 365 e Exchange Online. Eles também podem abrir e gerenciar solicitações de serviço para o suporte da Microsoft. [Saiba Mais](/microsoft-365/admin/add-users/about-exchange-online-admin-role)
+Atribua a Exchange de administrador a usuários que precisam exibir e gerenciar as caixas de correio de email do usuário, Microsoft 365 grupos e Exchange Online. Eles também podem abrir e gerenciar solicitações de serviço para o suporte da Microsoft. [Saiba Mais](/microsoft-365/admin/add-users/about-exchange-online-admin-role)
 
 ### <a name="global-admin"></a>Administrador global
 
@@ -72,15 +72,15 @@ Atribua a função de administrador do Helpdesk aos usuários que querem redefin
 
 ### <a name="service-admin"></a>Administrador de serviço
 
-Atribua a função de administrador de serviço aos usuários que precisam criar solicitações de serviço para serviços do Azure, Microsoft 365 e Office 365. [Saiba Mais](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
+Atribua a função de administrador de serviço aos usuários que precisam criar solicitações de serviço para serviços do Azure, Microsoft 365 e Office 365 serviços. [Saiba Mais](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
 
 ### <a name="sharepoint-admin"></a>Administrador do SharePoint
 
-Quando você compra uma assinatura do Microsoft 365, um site de equipe é criado automaticamente e o administrador global é definido como o administrador principal do conjunto de sites. Atribua a função de administrador do SharePoint aos usuários que você deseja acessar ao centro de administração do SharePoint. Os usuários com a função de administrador do SharePoint podem criar e gerenciar conjunto de sites, designar administradores de conjunto de sites e gerenciar perfis de usuário. Os usuários com a função de administrador do SharePoint também podem gerenciar grupos do Microsoft 365 e abrir solicitações de serviço por meio do suporte da Microsoft. [Saiba Mais](/sharepoint/sharepoint-admin-role)
+Quando você compra uma assinatura Microsoft 365, um site de equipe é criado automaticamente e o administrador global é definido como o administrador principal do conjunto de sites. Atribua a SharePoint de administrador a usuários que você deseja acessar ao SharePoint de administração. Os usuários com a SharePoint de administrador podem criar e gerenciar conjunto de sites, designar administradores de conjunto de sites e gerenciar perfis de usuário. Os usuários com a SharePoint de administrador também podem gerenciar Microsoft 365 grupos e abrir solicitações de serviço por meio do suporte da Microsoft. [Saiba Mais](/sharepoint/sharepoint-admin-role)
 
 ### <a name="teams-service-admin"></a>Administrador do serviço do Teams
 
-Atribua a função de administrador do Teams aos usuários que você deseja acessar e gerenciar o Centro de administração do Teams & Skype. Os usuários com a função de administrador do Teams também podem gerenciar grupos do Microsoft 365 e abrir solicitações de serviço por meio do suporte da Microsoft. [Saiba Mais](/MicrosoftTeams/using-admin-roles)
+Atribua a Teams de administrador a usuários que você deseja acessar e gerenciar o Teams & Skype de administração. Os usuários com a função Teams administrador também podem gerenciar grupos Microsoft 365 e abrir solicitações de serviço por meio do suporte da Microsoft. [Saiba Mais](/MicrosoftTeams/using-admin-roles)
 
 ### <a name="user-admin"></a>Administrador de usuários
 
@@ -96,8 +96,7 @@ No centro de administração:
 
 ![Uma figura que mostra uma comparação de funções de administrador](../../media/compare-roles-list.png)
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Sobre as funções de administrador do Microsoft 365 ](about-admin-roles.md)
-
-[Atribuir funções de administrador](assign-admin-roles.md)
+[Sobre Microsoft 365 de administrador](about-admin-roles.md) (artigo)\
+[Atribuir funções de administrador](assign-admin-roles.md) (artigo)

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Se ele está adicionando novas soluções ao centro de conformidade, atualizando recursos existentes com base em seus comentários ou implantando documentação atualizada e atualizada, Microsoft 365 ajuda você a se manter no topo do cenário de conformidade em constante mudança. Descubra o que estamos fazendo este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ae1df2ce6373e4a8f6b01c33e50bea5e6c16ca0a
-ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
+ms.openlocfilehash: f249108dba279e255efd57ecd56159d3c71dcb4b
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52698947"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706613"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Novidades na Conformidade do Microsoft 365
 
@@ -48,7 +48,7 @@ E visite o [roteiro Microsoft 365](https://www.microsoft.com/microsoft-365/roadm
 
 ### <a name="data-connectors"></a>Conectores de dados
 
-- [Configurar um conector para arquivar Cisco Jabber em dados Oracle]/microsoft-365/compliance/archive-ciscojabberonoracle-data)
+- [Configurar um conector para arquivar o Cisco Jabber em dados oracle](/microsoft-365/compliance/archive-ciscojabberonoracle-data)
 - [Configurar um conector para arquivar o Cisco Jabber em dados PostgreSQL](/microsoft-365/compliance/archive-ciscojabberonpostgresql-data)
 
 ### <a name="data-loss-prevention"></a>Prevenção contra Perda de Dados
@@ -59,14 +59,15 @@ E visite o [roteiro Microsoft 365](https://www.microsoft.com/microsoft-365/roadm
 
 ### <a name="retention-policies-and-retention-label-policies"></a>Políticas de retenção e políticas de rótulo de retenção
 
-- O local Microsoft 365 Groups agora dá suporte à aplicação das configurações de retenção apenas Microsoft 365 caixas de correio ou apenas aos sites SharePoint conectados usando o cmdlet [Set-RetentionCompliancePolicy PowerShell](/powershell/module/exchange/set-retentioncompliancepolicy) com o parâmetro Applications.
+- O local Microsoft 365 Groups agora dá suporte à aplicação das configurações de retenção apenas Microsoft 365 caixas de correio ou apenas aos sites SharePoint conectados usando o cmdlet [Set-RetentionCompliancePolicy PowerShell](/powershell/module/exchange/set-retentioncompliancepolicy) com o parâmetro *Applications.*
 
 ### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 
 Outlook e atualizações:
-- Anteriormente suportado apenas pelo cliente de rotulagem unificada da AIP, a rotulagem integrado agora dá suporte a configurações diferentes para rótulo padrão e [rotulagem obrigatória](sensitivity-labels-office-apps.md#outlook-specific-options-for-default-label-and-mandatory-labeling)
-- Encrypt-Only agora tem suporte para macOS, iOS e Android
-- [](/microsoft-365/compliance/sensitivity-labels-office-apps) Gerencie [rótulos](/microsoft-365/compliance/sensitivity-labels-office-apps#outlook-specific-options-for-default-label-and-mandatory-labeling) de sensibilidade no tópico de aplicativos do Office atualizado com novas entradas na tabela de recursos do Outlook para Configurações diferentes para rótulo padrão e rotulagem obrigatória para o novo lançamento de recurso do Outlook para rotulagem integrado para dar suporte [a](/microsoft-365/compliance/sensitivity-labels-office-apps#sensitivity-label-capabilities-in-outlook) um rótulo padrão diferente e isenção da rotulagem obrigatória. Além disso, a opção Encrypt-Only agora é suportada pelo macOS/iOS/Android, e todas as marcações dinâmicas com variáveis agora são suportadas em todos os clientes Outlook. A rotulagem obrigatória agora está sendo implantada nas plataformas restantes.
+- [Configurações diferentes para o rótulo padrão](sensitivity-labels-office-apps.md#outlook-specific-options-for-default-label-and-mandatory-labeling) e rotulagem obrigatória agora são suportadas para rotulagem in-locar. Anteriormente, essas configurações eram suportadas apenas pelo cliente de rotulagem unificada do AIP.
+- [Somente criptografia](encryption-sensitivity-labels.md#let-users-assign-permissions) agora é suportado por macOS, iOS e Android.
+- [A rotulagem obrigatória](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents) está sendo implantada nas plataformas restantes.
+- [As marcações dinâmicas com todas as variáveis](sensitivity-labels-office-apps.md#dynamic-markings-with-variables) são suportadas em todos os Outlook clientes.
 
 ## <a name="march-2021"></a>Março de 2021
 

@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 70a62f09-45ea-4968-8482-43cddfb8cc01
 description: Saiba como personalizar, organizar e gerenciar seu site de equipe SharePoint com bibliotecas de documentos, listas e hubs.
-ms.openlocfilehash: aca2b2ff147fdb030540712133b27eba706b0985
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 47033f286f2661a8cfffa3efce0cc7deda82ea63
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244510"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706341"
 ---
 # <a name="customize-your-team-site-for-file-storage-and-sharing"></a>Personalizar seu site de equipe para armazenamento e compartilhamento de arquivos
 
@@ -103,15 +103,15 @@ Embora o armazenamento de arquivos e o gerenciamento de documentos seja um iníc
 
 Ao gerenciar seu site de equipe, talvez seja preciso adicionar ou remover usuários. Aqui estão informações para ajudá-lo a entender, adicionar e gerenciar usuários em seu site de equipe.
   
-Exibir um vídeo em grupos com [Entender e gerenciar grupos](https://docs.microsoft.com/learn/m365/). 
+Exibir um vídeo em grupos com [Entender e gerenciar grupos](/learn/m365/). 
   
 Para adicionar usuários a um grupo Microsoft 365, consulte [Adicionar usuários e atribuir licenças ao mesmo tempo.](../add-users/add-users.md)
   
 Saiba como lidar com solicitações de acesso [com Configurar e gerenciar solicitações de acesso.](https://support.microsoft.com/office/94B26E0B-2822-49D4-929A-8455698654B3)
   
-## <a name="here-are-more-articles-you-might-be-interested-in"></a>Aqui estão mais artigos em que você pode estar interessado
+## <a name="next-steps"></a>Próximas etapas
 
-- **Configurar aplicativos do Office em tablets e telefone**. Você deve fazer isso para poder editar arquivos armazenados no site de equipe do tablet ou telefone. Se não instalar os aplicativos do Office no telefone ou tablet, você poderá exibir os arquivos no site de equipe, mas não editá-los. 
+Você deve configurar Office aplicativos em seus dispositivos para que possa editar arquivos armazenados no site de equipe do tablet ou telefone. Se não instalar os aplicativos do Office no telefone ou tablet, você poderá exibir os arquivos no site de equipe, mas não editá-los. 
     
   - [Instalar e configurar o Office em um Android com o Microsoft 365](https://support.microsoft.com/office/cafe9d6f-8b0c-4b03-b20a-12438a82a22d)
     

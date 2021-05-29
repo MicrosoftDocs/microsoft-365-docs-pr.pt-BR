@@ -18,20 +18,20 @@ ms.custom:
 search.appverid:
 - MET150
 description: Use o Basic Mobility and Security integrado para remover informações de dispositivos inscritos.
-ms.openlocfilehash: 7830a0f4ef609f6465c171ecab2c9e3c48198424
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 8c873923505fe527f5a44df0e8b15d290e92023b
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023852"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706137"
 ---
 # <a name="wipe-a-mobile-device-in-basic-mobility-and-security"></a>Apagar um dispositivo móvel em Mobilidade Básica e Segurança
 
-Você pode usar o Basic Mobility and Security integrado para o Microsoft 365 para remover apenas informações organizacionais ou para executar uma redefinição de fábrica para excluir todas as informações de um dispositivo móvel e restaurá-la para as configurações de fábrica.
+Você pode usar o Basic Mobility and Security integrado para Microsoft 365 remover apenas informações organizacionais ou para executar uma redefinição de fábrica para excluir todas as informações de um dispositivo móvel e restaurá-la para as configurações de fábrica.
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="before-you-begin"></a>Antes de você começar
 
-Dispositivos móveis podem armazenar informações organizacionais confidenciais e fornecer acesso aos recursos do Microsoft 365 da sua organização. Para ajudar a proteger as informações da sua organização, você pode redefinir Fábrica ou Remover dados da empresa:
+Os dispositivos móveis podem armazenar informações organizacionais confidenciais e fornecer acesso aos recursos Microsoft 365 da sua organização. Para ajudar a proteger as informações da sua organização, você pode redefinir Fábrica ou Remover dados da empresa:
 
 - **Redefinição de** fábrica : exclui todos os dados no dispositivo móvel de um usuário, incluindo aplicativos instalados, fotos e informações pessoais. Quando a limpeza é concluída, o dispositivo é restaurado para suas configurações de fábrica.
 
@@ -45,7 +45,7 @@ Dispositivos móveis podem armazenar informações organizacionais confidenciais
 
 ## <a name="wipe-a-mobile-device"></a>Apagar um dispositivo móvel
 
-1. Vá para o Centro de administração [do Microsoft 365.](../../admin/admin-overview/about-the-admin-center.md)
+1. Vá para o centro [de administração Microsoft 365.](../../admin/admin-overview/about-the-admin-center.md)
 
 2. Digite Gerenciamento de Dispositivo Móvel no campo de pesquisa e selecione Gerenciamento de Dispositivo **Móvel** na lista de resultados.
 
@@ -60,7 +60,7 @@ Dispositivos móveis podem armazenar informações organizacionais confidenciais
 6. Selecione o tipo de apagamento remoto que deseja executar.
 
     - Para fazer uma limpeza completa e restaurar o dispositivo em suas configurações de fábrica, selecione **Redefinição de fábrica**.
-    - Para fazer uma limpeza seletiva e excluir apenas informações da organização do Microsoft 365, selecione **Remover dados da empresa**.
+    - Para fazer uma limpeza seletiva e excluir apenas Microsoft 365 informações da organização, selecione **Remover dados da empresa**.
     - Para remover o dispositivo da sua organização, selecione **Remover dispositivo**.
 
 7. Selecione **Sim** para confirmar.
@@ -83,12 +83,8 @@ O apagamento é enviado imediatamente para o dispositivo móvel e o dispositivo 
 
 |**Impacto no conteúdo**|**iOS 10 e posterior**|**Android 5 e posterior**|
 |:-----|:-----|:-----|
-|Os dados do aplicativo do Microsoft 365 serão apagados se o dispositivo estiver protegido pelas políticas de Proteção de Aplicativos do Intune. Os aplicativos não são removidos. Para dispositivos não protegidos por políticas de Gerenciamento de Aplicativo Móvel (MAM), o Outlook e o OneDrive não removerão dados armazenados em cache.<br/>**Observação** Para aplicar políticas de proteção do Aplicativo do Intune, você deve ter uma licença do Intune.|Sim|Sim|
+|Microsoft 365 dados do aplicativo serão apagados se o dispositivo estiver protegido pelas políticas de Proteção de Aplicativos do Intune. Os aplicativos não são removidos. Para dispositivos não protegidos por políticas de Gerenciamento de Aplicativo Móvel (MAM), Outlook e OneDrive não removerão dados armazenados em cache.<br/>**Observação** Para aplicar políticas de proteção do Aplicativo do Intune, você deve ter uma licença do Intune.|Sim|Sim|
 |As configurações de política aplicadas pela Mobilidade Básica e Segurança a dispositivos não são mais impostas; os usuários podem alterar as configurações.|Sim|Sim|
 |Os perfis de email criados pela Basic Mobility and Security são removidos e os emails armazenados em cache no dispositivo são excluídos.|Sim|N/D|
 >[!NOTE]
->O aplicativo portal da empresa está disponível na App Store para iOS e na Play Store para dispositivos Android.
-
-## <a name="related-topics"></a>Tópicos relacionados
-
-[Configurar a Mobilidade Básica e a Segurança](set-up.md)
+>Portal da Empresa app está disponível na App Store para iOS e na Play Store para dispositivos Android.

@@ -20,15 +20,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como parar o encaminhamento automático de emails.
-ms.openlocfilehash: f8bd599c7c8bca8d4789188acbcd3574b7473dcb
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+description: Saiba como parar o encaminhamento automático de emails criando uma regra de fluxo de emails para evitar o roubo de informações proprietárias.
+ms.openlocfilehash: 82e4c80b0edc501889e0fc4dc28f1ec1ad703568
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903677"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706469"
 ---
 # <a name="stop-email-auto-forward"></a>Parar o encaminhamento automático de email
+
+## <a name="watch-stop-auto-forwarding-emails"></a>Assista: Pare o encaminhamento automático de emails
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2W6kS?autoplay=false]
 
@@ -36,7 +38,7 @@ Se um hacker tiver acesso à caixa de correio de um usuário, ele poderá encami
 
 ## <a name="try-it"></a>Experimente!
 
-1. No Centro de administração do Microsoft 365, selecione  **Exchange**, **fluxo** de emails e, na guia regras, selecione o sinal de a mais e escolha **criar uma nova regra**.
+1. No centro Microsoft 365 de administração, selecione **Exchange** **,** fluxo de  email e, na guia regras, selecione o sinal de a mais e escolha criar **uma nova regra**.
 1. Selecione **Mais opções**. Nomeia sua nova regra.
 1. Em seguida, abra o drop-down para **aplicar essa regra se**, selecione o **remetente** e, em seguida, é **interno externo**.
 1. Selecione **Dentro da organização** e, em seguida, **OK**.
@@ -50,4 +52,6 @@ Se um hacker tiver acesso à caixa de correio de um usuário, ele poderá encami
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Adicionar outro alias de email para](https://docs.microsoft.com/microsoft-365/admin/email/add-another-email-alias-for-a-user) um usuário (artigo) Configure email [forwarding in Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/email/configure-email-forwarding) (article) [Find and fix email delivery issues as an Office 365 for business admin](https://docs.microsoft.com/exchange/troubleshoot/email-delivery/email-delivery-issues) (article)
+[Adicionar outro alias de email para um usuário](../admin/email/add-another-email-alias-for-a-user.md) (artigo)\
+[Configurar o encaminhamento de email no Microsoft 365](../admin/email/configure-email-forwarding.md) (artigo)\
+[Encontrar e corrigir problemas de entrega de email como um Office 365 para administradores](/exchange/troubleshoot/email-delivery/email-delivery-issues) de negócios (artigo)

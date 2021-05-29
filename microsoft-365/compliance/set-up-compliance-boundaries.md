@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Saiba como usar limites de conformidade para criar limites lógicos que controlam os locais de conteúdo do usuário que um gerente de Descoberta Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8b19347ad8e1c87d5b66cb49ed2af152b4765c37
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 02e2e2f048ab521ad5640003cb127ed7bfa19641
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311911"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706601"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Configurar limites de conformidade para investigações de Descobertas EDiscovery
 
@@ -288,6 +288,8 @@ Tenha em mente as seguintes limitações ao gerenciar casos e investigações de
 - Os limites de conformidade não se aplicam a resções em casos de Descoberta E. Isso significa que um gerenciador da Descoberta Eletrônica pode colocar um usuário de uma outra agência em retenção. No entanto, o limite de conformidade será imposto se o gerenciador da Descoberta Eletrônica pesquisa os locais de conteúdo do usuário colocado em modo de retenção. Isso significa que o gerenciador da Descoberta Eletrônica não poderá pesquisar os locais de conteúdo do usuário, mesmo se conseguirem colocar o usuário em retenção.
 
     Além disso, estatísticas de retenção se aplicam somente aos locais de conteúdo na agência.
+
+- Se você tiver atribuído um filtro de permissões de pesquisa (uma caixa de correio ou um filtro de site) e tentar exportar itens não índicedos para uma pesquisa que inclua todos os sites SharePoint em sua organização, receberá a seguinte mensagem de erro: `Unable to execute the task. Reason: The scope options UnindexedItemsOnly or BothIndexedandUnindexedItems are not allowed when the executing user has a compliance security filter applied` . Se você tiver atribuído um filtro de permissões de pesquisa e quiser exportar itens não SharePoint, você terá que reprisar a pesquisa e incluir sites SharePoint específicos para pesquisar. Caso contrário, você só poderá exportar itens indexados de uma pesquisa que inclui todos os SharePoint sites. Para obter mais informações sobre as opções ao exportar resultados da pesquisa, consulte [Exportar resultados da pesquisa de conteúdo.](export-search-results.md#step-1-prepare-search-results-for-export)
 
 - Filtros de permissões de pesquisa não são aplicados a pastas públicas do Exchange.
 

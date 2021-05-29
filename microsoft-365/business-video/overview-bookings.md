@@ -19,15 +19,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba mais sobre o Microsoft Bookings.
-ms.openlocfilehash: 826cb84acace03aaf18bcb9d3a58fa5a518d71ee
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Saiba mais sobre o Microsoft Bookings, um aplicativo online e móvel para pequenas empresas que fornece reserva de compromisso para seus clientes.
+ms.openlocfilehash: f797a18616f63aea873ea5c1060a54dffbe078ef
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578742"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706221"
 ---
 # <a name="overview-of-microsoft-bookings"></a>Visão geral do Microsoft Bookings
+
+## <a name="watch-overview-of-microsoft-bookings"></a>Assista: Visão geral do Microsoft Bookings
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE26B1q?autoplay=false]
 

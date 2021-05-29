@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: Saiba mais sobre Office 365 operado pela 21Vianet que foi projetado para atender às necessidades de serviços de nuvem seguros, confiáveis e escalonáveis na China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 00710d53033648764ed0e55eeb51ee66518e36f7
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: bc416ca253d26cc5d391d226039223eac02720b0
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297051"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706365"
 ---
 # <a name="office-365-operated-by-21vianet"></a>Office 365 operado pela 21Vianet
 
@@ -129,11 +129,11 @@ Para organizações que executam versões mais antigas ou misturadas de Exchange
 | 2013 SP1  <br/> | 2013 SP1  <br/> | Sim  <br/> | Todos  <br/> |
 | Sp1/2010 SP3 misto 2013  <br/> | 2013 CU5  <br/> | Sim  <br/> | Todos, exceto Descoberta eDiscoveria/Arquivamento in-loco, acesso ao OWA (consulte a tabela abaixo)  <br/> |
 | Sp1/2010 SP3 misto 2013  <br/> | 2013 SP1  <br/> | Sim  <br/> | Somente livre/ocupado configurado manualmente  <br/> |
-| 2010 SP3  <br/> | 2010 SP3  <br/> | Não  <br/> | Nenhum(a)  <br/> |
+| 2010 SP3  <br/> | 2010 SP3  <br/> | Não  <br/> | Nenhuma  <br/> |
 | 2007  <br/> | 2013 CU5  <br/> | Sim  <br/> | Somente livre/ocupado  <br/> |
 | 2007  <br/> | 2013 SP1 ou 2010 SP3No  <br/> | N/D  <br/> | Sem suporte  <br/> |
 | 2003  <br/> | 2013 SP1/CU5  <br/> | N/D  <br/> | Sem suporte  <br/> |
-| 2003  <br/> | 2010 SP3  <br/> | Não  <br/> | Nenhum(a)  <br/> |
+| 2003  <br/> | 2010 SP3  <br/> | Não  <br/> | Nenhuma  <br/> |
 
    
 > [!IMPORTANT]
@@ -153,8 +153,8 @@ Use a tabela a seguir para saber mais sobre o suporte a recursos em diferentes E
 |**Versão Exchange local**|**MRM (arquivo morto dividido)**|**Acesso ao OWA (arquivo morto dividido)**|**Descoberta Eletrônica In-loco**|**Auditoria de Caixa de Correio**|**Espera/arquivamento in-locar**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 | Todos os CU5 de 2013  <br/> | Com suporte <br/>  | Sem suporte <br/>  | Com suporte <br/>  | Com suporte  <br/> | Com suporte <br/> |
-| All 2010 SP3 <br/>  | Incompatível <br/>  | Incompatível <br/>  | 1<sup>com suporte</sup> <br/> | Com suporte  <br/> | Com suporte <br/>  |
-| Pelo menos um servidor CU5 pré-2013  <br/> | 2<sup>com suporte</sup> <br/> | Incompatível  <br/> | Incompatível <br/> | Com suporte  <br/> | Com suporte <br/> |
+| All 2010 SP3 <br/>  | Sem suporte <br/>  | Sem suporte <br/>  | 1<sup>com suporte</sup> <br/> | Com suporte  <br/> | Com suporte <br/>  |
+| Pelo menos um servidor CU5 pré-2013  <br/> | 2<sup>com suporte</sup> <br/> | Sem suporte  <br/> | Sem suporte <br/> | Com suporte  <br/> | Com suporte <br/> |
 |||
 
 <sup>1</sup> Pesquisas separadas são necessárias para caixas de correio locais e Exchange Online locais.  <br/> <sup>2 As</sup> políticas de movimentação de MRM para arquivo morto podem ser usadas para caixas de correio localizadas em um Exchange 2013 CU5 ou servidor superior. 
@@ -236,8 +236,6 @@ Para obter detalhes e instruções, consulte [Data Subject Requests (DSR) for GD
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Experimente ou compre uma assinatura Microsoft 365 para empresas](../../commerce/try-or-buy-microsoft-365.md) (artigo)
-
-Suporte à Proteção de Informações do [Azure para Office 365 operado pela 21Vianet](parity-between-azure-information-protection.md) (artigo)
-
+[Experimente ou compre uma assinatura Microsoft 365 para empresas](../../commerce/try-or-buy-microsoft-365.md) (artigo)\
+Suporte à Proteção de Informações do [Azure para Office 365 operado pela 21Vianet](parity-between-azure-information-protection.md) (artigo)\
 [Exibir sua fatura ou obter um Fapiao](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) (artigo)

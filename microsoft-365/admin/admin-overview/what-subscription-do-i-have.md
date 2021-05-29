@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Saiba quais assinaturas sua organização tem indo para a página Seus produtos.
 ms.date: 01/21/2021
-ms.openlocfilehash: c33ba799880e6c687a08c2d49b17cbae8e80552c
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: b0f5f11f34ec4cf84648709ae5557bc5f637a55f
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535885"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706293"
 ---
 # <a name="what-subscription-do-i-have"></a>Qual assinatura eu tenho?
 
@@ -41,10 +41,7 @@ Se você for um administrador, poderá verificar quais assinaturas sua organiza�
 
 ## <a name="related-content"></a>Conteúdo relacionado
   
-[Assinaturas e cobrança](../../commerce/index.yml) (links)
-
-[Exibir sua fatura ou fatura](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) (artigo)
-
-[Pagar por sua assinatura](../../commerce/billing-and-payments/pay-for-your-subscription.md) (artigo)
-
+[Assinaturas e cobrança](../../commerce/index.yml) (links)\
+[Ver sua conta ou fatura](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) (artigo)\
+[Pagar por sua assinatura](../../commerce/billing-and-payments/pay-for-your-subscription.md) (artigo)\
 [Alterar seus endereços de cobrança](../../commerce/billing-and-payments/change-your-billing-addresses.md) (artigo)

@@ -18,17 +18,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como usar o alternador de locatários e sobre os modo de exibição de vários locatários.
-ms.openlocfilehash: d59760b8a143acc33747aff9f7deaa0b6dd3e711
-ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
+description: Saiba como usar o alternador de locatários e exibições de vários locatários que lhe dão a capacidade de gerenciar locatários de um único local.
+ms.openlocfilehash: e0bf6c872d4998c0cd0263fd8474ac5e9c99ef14
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51943024"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706149"
 ---
 # <a name="multi-tenant-management"></a>Gerenciamento de vários locatários
 
-O gerenciamento de vários locatários oferece uma forma unificada de gerenciamento que permite aos administradores parceiros do Microsoft 365 a capacidade de administrar todos os locatários que gerenciam de um único local. Se você for um parceiro que gerencia vários locatários, poderá:
+O gerenciamento de vários locatários oferece uma forma unificada de gerenciamento que permite Microsoft 365 administradores parceiros a capacidade de administrar todos os locatários que gerenciam de um único local. Se você for um parceiro que gerencia vários locatários, poderá:
 
 - Mova-se rapidamente entre locatários que você gerencia.
 - Avalie a saúde do serviço, produtos e cobrança em vários locatários.
@@ -36,7 +36,7 @@ O gerenciamento de vários locatários oferece uma forma unificada de gerenciame
 
 ## <a name="move-between-tenants"></a>Mover entre locatários
 
-1. No Centro de administração do Microsoft 365, selecione o nome da organização.
+1. No centro Microsoft 365 de administração, selecione o nome da organização.
 
     :::image type="content" source="../../media/macorgswitcher.png" alt-text="Alternador de vários locatários.":::
 
@@ -46,7 +46,7 @@ O gerenciamento de vários locatários oferece uma forma unificada de gerenciame
 
 ## <a name="view-all-tenants-page"></a>Exibir a página Todos os locatários
 
-1. No Centro de administração do Microsoft 365, na nav esquerda, selecione **Todos os locatários**.
+1. No centro Microsoft 365 de administração, na nav esquerda, selecione **Todos os locatários**.
 - Na página **Todos os locatários,** você pode
   - Avaliar a saúde do serviço
   - Revisar o uso da licença
@@ -59,7 +59,7 @@ Se você marcou um locatário como favorito, ele é expandido automaticamente pa
 
 A exibição de saúde do serviço mostra se quaisquer incidentes ou avisos estão afetando os locatários. Ele ainda dirá quantos de seus locatários gerenciados são afetados.
 
-1. No Centro de administração do Microsoft 365, no modo de exibição de vários locatários, selecione **Service Health**.
+1. No centro Microsoft 365 de administração, no modo de exibição de vários locatários, selecione **Saúde do Serviço**.
 2. Na  exibição agregada da página de saúde do serviço, você também pode ver o número total de incidentes, o número total de avisos que afetam qualquer um dos locatários gerenciados e o número de serviços com incidentes ativos. Você também pode ver quantos de seus locatários são afetados por incidentes e avisos.
 
     - Você pode usar a opção de filtro para exibir problemas por tipo de problema ou por serviço
@@ -73,9 +73,9 @@ A exibição de saúde do serviço mostra se quaisquer incidentes ou avisos est�
 
 A lista de locatários afetados pode ser exportada para o formato CSV para que os administradores possam compartilhá-la com equipes de suporte.
 
-## <a name="view-a-single-tenant-in-the-microsoft-365-admin-center"></a>Exibir um único locatário no centro de administração do Microsoft 365
+## <a name="view-a-single-tenant-in-the-microsoft-365-admin-center"></a>Exibir um único locatário no Microsoft 365 de administração
 
-Você pode retornar ao Centro de administração do Microsoft 365 para qualquer um dos locatários da página **Todos os locatários.**
+Você pode retornar ao centro de administração Microsoft 365 para qualquer um dos locatários na página **Todos os locatários.**
 
 1. Na página **Todos os locatários,** selecione o nome do locatário para o qual você deseja exibir o centro de administração.
 2. Você é direcionado para o centro de administração desse locatário.

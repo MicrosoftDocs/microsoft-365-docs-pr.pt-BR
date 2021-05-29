@@ -1,5 +1,5 @@
 ---
-title: Sobre a função de administrador do Exchange Online
+title: Sobre a função Exchange Online administrador
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,23 +20,21 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
-description: 'Os administradores do Exchange online gerenciam os emails e caixas de correio da sua organização. Por exemplo, eles recuperam itens excluídos na caixa de correio de um usuário. '
-ms.openlocfilehash: 4dc1f435571650ae4a805198782c3c24a92024fb
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+description: Exchange administradores online gerenciam emails e caixas de correio da sua organização. Por exemplo, eles recuperam itens excluídos na caixa de correio de um usuário.
+ms.openlocfilehash: 58f0da87c0db57a3df62834a4375d561e20a98f8
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197644"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706209"
 ---
-# <a name="about-the-exchange-online-admin-role"></a>Sobre a função de administrador do Exchange Online
+# <a name="about-the-exchange-online-admin-role"></a>Sobre a função Exchange Online administrador
 
-Para ajudá-lo a administrar o [](assign-admin-roles.md) Microsoft 365, você pode atribuir permissões aos usuários para gerenciar emails e caixas de correio da sua organização no Centro de administração [do Exchange.](/exchange/exchange-admin-center) Faça isso atribuindo-os à função de administrador do Exchange.
+Para ajudá-lo a administrar Microsoft 365, você pode atribuir permissões aos usuários para gerenciar emails e caixas de correio da sua organização Exchange [centro de administração](/exchange/exchange-admin-center). [](assign-admin-roles.md) Faça isso atribuindo-os à função de administrador do Exchange.
   
- **Dica:** ao atribuir alguém à função de administrador do Exchange, atribua-o também à função de administrador do Serviço. Dessa forma, eles podem ver informações importantes no Centro de administração do Microsoft 365, como a saúde do serviço Exchange Online, e notificações de alteração e versão.
-  
-## <a name="before-you-begin"></a>Antes de começar
+ **Dica**: quando você atribuir alguém à função de administrador Exchange, atribua-a também à função de administrador do Serviço. Dessa forma, eles podem ver informações importantes no centro de administração Microsoft 365, como a saúde do serviço Exchange Online e notificações de alteração e lançamento.
 
-Aqui estão algumas das principais tarefas que os usuários podem realizar quando são atribuídos à função de administrador do Exchange:
+Aqui estão algumas das principais tarefas que os usuários podem realizar quando são atribuídos à função de Exchange administrador:
   
 - [Recuperar itens excluídos na caixa de correio do usuário – Ajuda para Administradores](/Exchange/recipients-in-exchange-online/manage-user-mailboxes/recover-deleted-messages)
 
@@ -44,19 +42,19 @@ Aqui estão algumas das principais tarefas que os usuários podem realizar quand
 
 - Configurar recursos de caixa de correio, como a política de compartilhamento de caixa de correio: como os usuários podem compartilhar informações de calendário e contatos com outras pessoas fora da sua organização.
 
-- Configurar representantes "[Enviar como](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)" e " Enviar em[nome](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)" para a caixa de correio de alguém. Por exemplo, um executivo pode querer que seu assistente tenha a capacidade de enviar emails em seu nome.
+- Configurar representantes "[Enviar como](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)" e " Enviar em[nome](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)" para a caixa de correio de alguém. Por exemplo, um executivo pode querer que seu assistente possa enviar emails em seu nome.
 
 - [Crie uma caixa de correio compartilhada](../email/create-a-shared-mailbox.md) para que um grupo de pessoas possa monitorar e enviar emails de um endereço de email comum.
 
-- [Filtros de malware e proteção anti-spam](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-protection) de email para a organização.
+- [Filtros de malware e proteção anti-spam](../../security/office-365-security/anti-spam-protection.md) de email para a organização.
 
 - Gerenciar grupos do Microsoft 365
 
-## <a name="exchange-online-role-groups"></a>Grupos de função do Exchange Online
+## <a name="exchange-online-role-groups"></a>Exchange Online grupos de função
 
-Se você tiver uma organização grande, talvez o administrador do Exchange queira atribuir usuários a grupos de função do Exchange. Quando um administrador adiciona um usuário a um grupo de funções, o usuário obtém permissões para executar determinadas funções comerciais que somente membros desse grupo podem fazer.
+Se você tiver uma organização grande, o administrador Exchange talvez queira atribuir usuários a Exchange grupos de função. Quando um administrador adiciona um usuário a um grupo de funções, o usuário obtém permissões para executar determinadas funções comerciais que somente membros desse grupo podem fazer.
   
- Por exemplo, o administrador do Exchange pode atribuir alguém ao grupo de função Gerenciamento de Descoberta para que ele possa executar pesquisas de caixas de correio para dados que atendam a determinados critérios. Para saber mais, confira [Permissões no Exchange Online e](/exchange/permissions-exo/permissions-exo) Gerenciar Grupos de [Função.](/exchange/manage-role-groups-exchange-2013-help)
+ Por exemplo, o administrador Exchange pode atribuir alguém ao grupo de função Gerenciamento de Descoberta para que possa executar pesquisas de caixas de correio para dados que atendam a determinados critérios. Para saber mais, confira [Permissões no Exchange Online](/exchange/permissions-exo/permissions-exo) e Gerenciar Grupos de [Função.](/exchange/manage-role-groups-exchange-2013-help)
   
 ## <a name="learn-about-other-admin-roles"></a>Saiba mais sobre outras funções de administrador
 
@@ -64,6 +62,6 @@ Se você tiver uma organização grande, talvez o administrador do Exchange quei
 
 - [Sobre a função de administrador do SharePoint Online](/sharepoint/sharepoint-admin-role)
 
-- [Sobre a função de administrador do Skype for Business](/skypeforbusiness/skype-for-business-online)
+- [Sobre a função Skype for Business administrador](/skypeforbusiness/skype-for-business-online)
 
-- [Usar a função de administrador do Microsoft Teams](/MicrosoftTeams/using-admin-roles)
+- [Usar Microsoft Teams função de administrador](/MicrosoftTeams/using-admin-roles)
