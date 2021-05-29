@@ -1,5 +1,5 @@
 ---
-title: Agendar uma reunião no Teams com convidados
+title: Agendar uma Teams com usuários externos
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -19,30 +19,29 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como agendar uma reunião do Teams com convidados.
-ms.openlocfilehash: 1a48fa290211507453004c54637e588ad9ad6759
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Saiba como agendar uma reunião Teams com usuários externos.
+ms.openlocfilehash: e4fec84613dc968298569284c7f026de47005ce3
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578694"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52698887"
 ---
-# <a name="schedule-a-teams-meeting-with-guests"></a><span data-ttu-id="80cbf-103">Agendar uma reunião no Teams com convidados</span><span class="sxs-lookup"><span data-stu-id="80cbf-103">Schedule a Teams meeting with guests</span></span>
+# <a name="schedule-a-teams-meeting-with-external-users"></a><span data-ttu-id="33bf1-103">Agendar uma Teams com usuários externos</span><span class="sxs-lookup"><span data-stu-id="33bf1-103">Schedule a Teams meeting with external users</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOhP?autoplay=false]
 
-<span data-ttu-id="80cbf-104">Você pode convidar pessoas de fora da sua organização para uma reunião sem precisar adicioná-las ao Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="80cbf-104">You can invite people from outside of your organization to a meeting without having to add them to Microsoft Teams.</span></span> <span data-ttu-id="80cbf-105">Veja como funciona para seus clientes ou parceiros ao ingressar em uma reunião [sem uma conta do Teams.](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)</span><span class="sxs-lookup"><span data-stu-id="80cbf-105">Here's how it works for your customers or partners when they [join a meeting without a Teams account](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508).</span></span>
+<span data-ttu-id="33bf1-104">Você pode convidar pessoas de fora da sua organização para uma reunião sem precisar adicioná-las Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="33bf1-104">You can invite people from outside of your organization to a meeting without having to add them to Microsoft Teams.</span></span> <span data-ttu-id="33bf1-105">Veja como funciona para seus clientes ou parceiros ao ingressar em uma reunião [sem Teams conta.](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)</span><span class="sxs-lookup"><span data-stu-id="33bf1-105">Here's how it works for your customers or partners when they [join a meeting without a Teams account](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508).</span></span>
 
-## <a name="try-it"></a><span data-ttu-id="80cbf-106">Experimente!</span><span class="sxs-lookup"><span data-stu-id="80cbf-106">Try it!</span></span>
+## <a name="try-it"></a><span data-ttu-id="33bf1-106">Experimente!</span><span class="sxs-lookup"><span data-stu-id="33bf1-106">Try it!</span></span>
 
-<span data-ttu-id="80cbf-107">Com o Microsoft Teams, você pode criar novas equipes à medida que inicia novos projetos ou adiciona clientes.</span><span class="sxs-lookup"><span data-stu-id="80cbf-107">With Microsoft Teams, you can create new teams as you start new projects or add customers.</span></span>
+<span data-ttu-id="33bf1-107">Para agendar reuniões com seus funcionários, clientes, usuários externos e outros convidados, use Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="33bf1-107">To schedule meetings with your employees, clients, External users and other guests, use Microsoft Teams.</span></span> 
 
-1. <span data-ttu-id="80cbf-108">Na guia  **Equipes,** selecione **Ingressar ou** criar uma **equipe,** Criar equipe, Criar uma equipe **do zero** e, em seguida, **Private**.</span><span class="sxs-lookup"><span data-stu-id="80cbf-108">On the  **Teams** tab, select **Join or create a team**, **Create team**, **Build a team from scratch**, and then **Private**.</span></span>
-2. <span data-ttu-id="80cbf-109">Insira um nome para sua equipe, uma descrição e selecione  **Criar**.</span><span class="sxs-lookup"><span data-stu-id="80cbf-109">Enter a name for your team, a description, and then select  **Create**.</span></span>
-3. <span data-ttu-id="80cbf-110">Na página  **Adicionar membros,**  adicione membros internos pesquisando e selecionando-os e adicione membros convidados inserindo seu endereço de email e selecione  **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="80cbf-110">On the  **Add members**  page, add internal members by searching and selecting them, and add guest members by entering their email address, and then select  **Add**.</span></span>
-
-    <span data-ttu-id="80cbf-111">Se você vir  **We didn't find any matches** , you must enable guest sharing.</span><span class="sxs-lookup"><span data-stu-id="80cbf-111">If you see  **We didn't find any matches** , you must enable guest sharing.</span></span> <span data-ttu-id="80cbf-112">Vá para o Centro de administração do Microsoft 365, escolha o Centro de administração do Teams, escolha Configurações em toda a  **organização,**  **Acesso** para convidados e a opção Permitir acesso de convidados  **no Teams**.</span><span class="sxs-lookup"><span data-stu-id="80cbf-112">Go to the Microsoft 365 admin center, choose the Teams admin center, choose  **Org-wide settings**,  **Guest access** , and turn on  **Allow guest access in Teams**.</span></span> <span data-ttu-id="80cbf-113">Essa alteração pode levar até 24 horas.</span><span class="sxs-lookup"><span data-stu-id="80cbf-113">This change may take up to 24 hours.</span></span>
-
-1. <span data-ttu-id="80cbf-114">Selecione  **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="80cbf-114">Select  **Close**.</span></span> <span data-ttu-id="80cbf-115">Seus convidados e membros receberão convites para a equipe.</span><span class="sxs-lookup"><span data-stu-id="80cbf-115">Your guests and members will receive invitations to the team.</span></span>
-2. <span data-ttu-id="80cbf-116">No canal Geral, insira uma saudação para todos e selecione  **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="80cbf-116">On the General channel, enter a greeting for everyone and select  **Send**.</span></span>
-3. <span data-ttu-id="80cbf-117">Na guia  **Arquivos,** adicione documentos em que você deseja trabalhar juntos.</span><span class="sxs-lookup"><span data-stu-id="80cbf-117">On the  **Files** tab, add documents that you want to work on together.</span></span> <span data-ttu-id="80cbf-118">Você pode criar aqui ou arrastar e soltar arquivos do computador.</span><span class="sxs-lookup"><span data-stu-id="80cbf-118">You can create them here or drag and drop files from your computer.</span></span>
+1. <span data-ttu-id="33bf1-108">Em Microsoft Teams, na navegação à esquerda, escolha **Reuniões**.</span><span class="sxs-lookup"><span data-stu-id="33bf1-108">In Microsoft Teams, in the left navigation, choose **Meetings**.</span></span>
+2. <span data-ttu-id="33bf1-109">Escolha **Agendar uma reunião**.</span><span class="sxs-lookup"><span data-stu-id="33bf1-109">Choose **Schedule a meeting**.</span></span>
+3. <span data-ttu-id="33bf1-110">Na caixa **Nova reunião,** insira um **Título** e **Local** para a reunião.</span><span class="sxs-lookup"><span data-stu-id="33bf1-110">In the **New meeting box**, enter a **Title** and **Location** for the meeting.</span></span>
+4. <span data-ttu-id="33bf1-111">Insira uma **data e** **hora** de início e término.</span><span class="sxs-lookup"><span data-stu-id="33bf1-111">Enter a **Start** and **End** time and date.</span></span>
+5. <span data-ttu-id="33bf1-112">Na caixa **Detalhes,** insira uma descrição da reunião e quaisquer outros detalhes que você deseja adicionar, como uma agenda de reunião.</span><span class="sxs-lookup"><span data-stu-id="33bf1-112">In the **Details** box, enter a description of the meeting and any other details you want to add, such as a meeting agenda.</span></span>
+6. <span data-ttu-id="33bf1-113">Em **Convidar pessoas**, insira os nomes de funcionários ou clientes que você deseja convidar.</span><span class="sxs-lookup"><span data-stu-id="33bf1-113">Under **Invite people**, enter the names of employees or clients that you want to invite.</span></span>
+7. <span data-ttu-id="33bf1-114">Se você vir **Tentativo** ou **Ocupado abaixo** de qualquer nome, escolha um dos horários **gratuitos** fornecidos ou clique em **Assistente de Agendamento** para obter mais opções.</span><span class="sxs-lookup"><span data-stu-id="33bf1-114">If you see **Tentative** or **Busy** below any names, choose one of the **Free** times provided, or click **Scheduling assistant** for more options.</span></span>
+8. <span data-ttu-id="33bf1-115">Escolha **Agendar uma reunião**.</span><span class="sxs-lookup"><span data-stu-id="33bf1-115">Choose **Schedule a meeting**.</span></span>
