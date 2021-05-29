@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: Neste artigo, os administradores podem aprender sobre a proteção Cofre Links no Defender para Office 365 proteger sua organização contra phishing e outros ataques que usam URLs mal-intencionadas.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 407f04685e41269c0e8436d3b68db7d755fce129
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 675de13410ac98e18a8b72125c2226d2c9c62821
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593564"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52698983"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Cofre Links no Microsoft Defender para Office 365
 
@@ -74,7 +74,7 @@ Este artigo inclui descrições detalhadas dos seguintes tipos de configuraçõe
   - [Cofre Configurações de links para Microsoft Teams](#safe-links-settings-for-microsoft-teams)
   - ["Não reescrever as seguintes URLs" nas políticas Cofre Links](#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)
 
-- **Configurações Cofre links** globais : Essas configurações são configuradas globalmente, não em Cofre Políticas de Links. Porém, as configurações se aplicam somente aos usuários incluídos nas políticas Cofre Links ativos. Essas configurações incluem:
+- **Configurações Cofre links** globais : Essas configurações são configuradas globalmente, não em Cofre Políticas de Links. Essas configurações incluem:
 
   - [Cofre Configurações de links para Office 365 aplicativos](#safe-links-settings-for-office-365-apps)
   - ["Bloquear a lista de URLs a seguir" para Cofre Links](#block-the-following-urls-list-for-safe-links)
