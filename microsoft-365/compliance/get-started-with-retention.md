@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para iniciar a implementar políticas e rótulos de retenção para controlar os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para começar.
-ms.openlocfilehash: b39f6246fc9265319e0d4e5b053db6dfddc0d43a
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: bd3ed5e354ee80831cb1af073b6da6f277418b51
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244583"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689032"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>Introdução à políticas de retenção e rótulos de retenção
 
@@ -88,4 +88,4 @@ A maioria das políticas de retenção funciona discretamente em segundo plano, 
 
 Como os rótulos de retenção têm uma presença de interface do usuário em aplicativos do Microsoft 365, certifique-se de fornecer orientação para os usuários finais e seu help desk antes de implantar esses rótulos em sua rede de produção. Para ajudar os usuários a aplicar rótulos de retenção no SharePoint e no OneDrive, consulte [Aplicar rótulos de retenção a arquivos no SharePoint ou no OneDrive](https://support.microsoft.com/office/apply-retention-labels-to-files-in-sharepoint-or-onedrive-11a6835b-ec9f-40db-8aca-6f5ef18132df).
 
-No entanto, a documentação mais eficaz do usuário final será orientação e instruções personalizadas que você fornecerá para os nomes dos rótulos de retenção e às configurações que você escolher. Confira a postagem de blog a seguir para um pacote de download que você pode usar para treinar os usuários e impulsionar a adoção: [Treinamento do Usuário Final para Etiquetas de Retenção no M365 – Como Acelerar a Sua Adoção](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-retention-labels-in-m365-how-to-accelerate/ba-p/1750861).
+No entanto, a documentação mais eficaz do usuário final será orientação e instruções personalizadas que você fornecerá para os nomes dos rótulos de retenção e às configurações que você escolher. Confira a seção seguinte página e downloads que você pode usar para ajudar a treinar seus usuários: [Treinamento do usuário final para Rótulos de Retenção](https://microsoft.github.io/ComplianceCxE/enduser/retention/).

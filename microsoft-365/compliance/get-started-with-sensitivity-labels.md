@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para implantar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: 2e757f7f07dbb911a8d89890b1f1cce80d7247b5
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: c87289fc7017e75db3b8a5b84a8af3a42dc16a10
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52302107"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689116"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -102,7 +102,7 @@ A documentação mais eficaz do usuário final será orientação e instruções
 - Para rotulagem integrada: Opção de menu **Saiba Mais**.
 - Para o cliente de rotulagem unificada da Proteção de Informações do Azure: **Ajuda e Comentários** opção de menu > **Mais Informações** link na caixa de diálogo de Proteção de Informações do Microsoft Azure.
 
-Para ajudá-lo a escrever sua documentação personalizada, confira a seguinte postagem no blog para obter um pacote de download que você pode usar para treinar usuários e impulsionar a adoção: [Treinamento de usuário final para rótulos de confidencialidade no M365 - Como acelerar a adoção](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-sensitivity-labels-in-m365-how-to/ba-p/1750880). 
+Para ajudar a fornecer sua documentação personalizada, veja a seguinte página e downloads que você pode usar para ajudar a treinar seus usuários: [ Treinamento do usuário final para Rótulos de Sensibilidade ](https://microsoft.github.io/ComplianceCxE/enduser/sensitivity/). 
 
 Você também pode usar os seguintes recursos para obter instruções básicas:
 

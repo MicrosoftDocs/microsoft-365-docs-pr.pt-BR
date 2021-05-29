@@ -1,5 +1,5 @@
 ---
-title: Agendar uma reunião no Teams com convidados
+title: Agendar uma Teams com usuários externos
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -19,30 +19,29 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como agendar uma reunião do Teams com convidados.
-ms.openlocfilehash: 1a48fa290211507453004c54637e588ad9ad6759
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Saiba como agendar uma reunião Teams com usuários externos.
+ms.openlocfilehash: e4fec84613dc968298569284c7f026de47005ce3
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578694"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52698887"
 ---
-# <a name="schedule-a-teams-meeting-with-guests"></a>Agendar uma reunião no Teams com convidados
+# <a name="schedule-a-teams-meeting-with-external-users"></a>Agendar uma Teams com usuários externos
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOhP?autoplay=false]
 
-Você pode convidar pessoas de fora da sua organização para uma reunião sem precisar adicioná-las ao Microsoft Teams. Veja como funciona para seus clientes ou parceiros ao ingressar em uma reunião [sem uma conta do Teams.](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)
+Você pode convidar pessoas de fora da sua organização para uma reunião sem precisar adicioná-las Microsoft Teams. Veja como funciona para seus clientes ou parceiros ao ingressar em uma reunião [sem Teams conta.](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)
 
 ## <a name="try-it"></a>Experimente!
 
-Com o Microsoft Teams, você pode criar novas equipes à medida que inicia novos projetos ou adiciona clientes.
+Para agendar reuniões com seus funcionários, clientes, usuários externos e outros convidados, use Microsoft Teams. 
 
-1. Na guia  **Equipes,** selecione **Ingressar ou** criar uma **equipe,** Criar equipe, Criar uma equipe **do zero** e, em seguida, **Private**.
-2. Insira um nome para sua equipe, uma descrição e selecione  **Criar**.
-3. Na página  **Adicionar membros,**  adicione membros internos pesquisando e selecionando-os e adicione membros convidados inserindo seu endereço de email e selecione  **Adicionar**.
-
-    Se você vir  **We didn't find any matches** , you must enable guest sharing. Vá para o Centro de administração do Microsoft 365, escolha o Centro de administração do Teams, escolha Configurações em toda a  **organização,**  **Acesso** para convidados e a opção Permitir acesso de convidados  **no Teams**. Essa alteração pode levar até 24 horas.
-
-1. Selecione  **Fechar**. Seus convidados e membros receberão convites para a equipe.
-2. No canal Geral, insira uma saudação para todos e selecione  **Enviar**.
-3. Na guia  **Arquivos,** adicione documentos em que você deseja trabalhar juntos. Você pode criar aqui ou arrastar e soltar arquivos do computador.
+1. Em Microsoft Teams, na navegação à esquerda, escolha **Reuniões**.
+2. Escolha **Agendar uma reunião**.
+3. Na caixa **Nova reunião,** insira um **Título** e **Local** para a reunião.
+4. Insira uma **data e** **hora** de início e término.
+5. Na caixa **Detalhes,** insira uma descrição da reunião e quaisquer outros detalhes que você deseja adicionar, como uma agenda de reunião.
+6. Em **Convidar pessoas**, insira os nomes de funcionários ou clientes que você deseja convidar.
+7. Se você vir **Tentativo** ou **Ocupado abaixo** de qualquer nome, escolha um dos horários **gratuitos** fornecidos ou clique em **Assistente de Agendamento** para obter mais opções.
+8. Escolha **Agendar uma reunião**.
