@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fb4ba4f48d6f336444861b4407461efd4c8862d0
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: 1ed4b04acd7fec75af4e157837312b824a8d9f98
+ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694504"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52696557"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Configurar políticas antispam no EOP
 
@@ -37,14 +37,14 @@ Em organizações do Microsoft 365 com caixas de correio no Exchange Online ou u
 
 Os administradores podem visualizar, editar e configurar (mas não excluir) a política antispam padrão. Para maior granularidade, também é possível criar políticas antispam personalizadas aplicadas a determinados usuários, grupos ou domínios na sua organização. Políticas personalizadas sempre terão prioridade sobre a política padrão, mas você pode alterar a prioridade (ordem de execução) de suas políticas personalizadas.
 
-Você pode configurar políticas anti-spam no Centro de Conformidade e Segurança ou no PowerShell (organizações do Exchange Online PowerShell para Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem caixas de correio do Exchange Online).
+Configure políticas antispam no Centro de segurança do Microsoft 365 ou no PowerShell (PowerShell do Exchange Online para organizações do Microsoft 365 com caixas de correio no Exchange Online; PowerShell autônomo da EOP para organizações sem caixas de correio no Exchange Online).
 
 Os elementos básicos de uma política antispam são:
 
 - **A política de filtro de spam**: especifica as ações de vereditos de filtragem de spam e as opções de notificação.
 - **A regra de filtro de spam**: especifica a prioridade e os filtros de destinatário (a quem a política se aplica) para uma política de filtro de spam.
 
-A diferença entre esses dois elementos não é óbvia quando você gerencia as políticas antispam no Centro de Segurança e Conformidade:
+A diferença entre esses dois elementos não é óbvia ao gerenciar as políticas antispam no centro de segurança:
 
 - Ao criar uma política antispam, na verdade, você está criando uma regra de filtro de spam e a política de filtro de spam associada ao mesmo tempo, usando o mesmo nome para ambas.
 - Ao modificar uma política antispam, as configurações relacionadas a nome, prioridade, habilitado ou desabilitado, e filtros de destinatário modificam a regra do filtro de spam. Todas as demais configurações modificam a política de filtro de spam associada.
@@ -62,7 +62,7 @@ Para aumentar a eficácia da filtragem de spam, crie políticas antispam persona
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente à página de **Configurações antispam**, use <https://protection.office.com/antispam>.
+- Abra o centro de segurança em <https://security.microsoft.com/>. Para ir diretamente à página de **Políticas antispam**, use <https://security.microsoft.com/antispam>.
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -79,40 +79,75 @@ Para aumentar a eficácia da filtragem de spam, crie políticas antispam persona
 
 - Para nossas configurações recomendadas para políticas antispam, confira [Configurações da política antispam EOP](recommended-settings-for-eop-and-office365.md#eop-anti-spam-policy-settings).
 
-## <a name="use-the-security--compliance-center-to-create-anti-spam-policies"></a>Usar o Centro de Conformidade e Segurança para criar políticas antispam
+## <a name="use-the-security-center-to-create-anti-spam-policies"></a>Usar o centro de segurança para criar políticas antispam
 
-Criar uma política antispam personalizada no Centro de Conformidade e Segurança gera uma regra de filtro de spam e a política de filtro de spam associada ao mesmo tempo, com o mesmo nome para ambas.
+Ao criar uma política antispam personalizada no centro de segurança é gerado, ao mesmo tempo, uma regra de filtro de spam e a política de filtro de spam associada com o mesmo nome para ambas.
 
-1. No Centro de Conformidade e Segurança, vá para **Gerenciamento de ameaças** \> **Política** \> **Antispam**.
+1. No centro de segurança, vá para **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Antispam**.
 
-2. Na página **Configurações antispam**, clique em **Criar uma política**.
+2. Clique no ![ícone Criar](../../media/m365-cc-sc-create-icon.png) **Criar política** e, em seguida, selecione **Entrada** na lista suspensa.
 
-3. No submenu **Nova política de filtro de spam** que é aberto, defina as seguintes configurações:
+3. O assistente de política é aberto. Na **página Nomear política**, defina as seguintes configurações:
+   - **Nome**: insira um nome exclusivo e descritivo para a política.
+   - **Descrição**: insira uma descrição opcional para a política.
 
-   - **Nome**: insira um nome exclusivo e descritivo para a política. Não use os seguintes caracteres: `\ % & * + / = ? { } | < > ( ) ; : , [ ] "`.
+   Ao terminar, clique em **Avançar**.
 
-      Caso você tenha criado anteriormente alguma política antispam no EAC (Centro de administração do Exchange) que contenha esses caracteres, renomeie a política no PowerShell. Para obter instruções, confira a seção [Usar o PowerShell para modificar regras de filtro de spam](#use-powershell-to-modify-spam-filter-rules) mais adiante neste tópico.
+4. Na página **Usuários, grupos e domínios** exibida, identifique os destinatários internos aos quais a política se aplica (condições do destinatário):
+   - **Usuários**: as caixas de correio, os usuários de email, ou os contatos de email especificados na organização.
+   - **Grupos**: os grupos de distribuição, os grupos de segurança habilitados para email ou os grupos do Microsoft 365 habilitados na organização.
+   - **Domínios**: todos os destinatários nos [domínios aceitos](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) especificados na organização.
 
-   - **Descrição**: digite uma descrição opcional para a política.
+   Clique na caixa apropriada, comece a digitar um valor e selecione o valor desejado dos resultados. Repita esse processo quantas vezes for necessário. Para remover uma entrada existente, clique em Remover ![Ícone Remover](../../media/m365-cc-sc-remove-selection-icon.png) ao lado do valor.
 
-4. (Opcional) Expanda a seção **Ações de spam e em massa** e verifique ou defina as seguintes configurações:
+   Para usuários ou grupos, você pode usar a maioria dos identificadores (nome, nome de exibição, alias, endereço de email, nome da conta etc.), mas o nome de exibição correspondente será mostrado nos resultados. Para os usuários, insira um asterisco (\*) por si só para ver todos os valores disponíveis.
 
-   - **Selecionar a ação a ser executada para emails de spam e em massa recebidos**: selecione ou revise a ação a ser realizada em relação às mensagens com base nos seguintes vereditos de filtragem de spam:
+   Vários valores na mesma condição ou exceção usam a lógica OR (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_). Diferentes condições usam a lógica AND (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_).
 
+   - **Excluir estes usuários, grupos e domínios**: para adicionar exceções para os destinatários internos aos quais a política se aplica (exceções de destinatários), selecione essa opção e configure as exceções. As configurações e o comportamento são exatamente como as condições.
+
+   Ao terminar, clique em **Avançar**.
+
+5. Na página **Limite de emails em massa e propriedades de spam** exibida, configure as seguintes configurações:
+
+   - **Limite de email em massa**: especifica o BCL (nível de reclamação em massa) de uma mensagem que dispara a ação especificada para o veredito de filtragem de spam **Em massa** configurado na próxima página (maior que o valor especificado, não é maior que ou igual a). Um valor mais alto indica que a mensagem é menos desejável (é mais provável que a mensagem pareça um spam). O valor padrão é 7. Para obter mais informações, confira [BCL (Nível de reclamação em massa) no EOP](bulk-complaint-level-values.md) e [Qual é a diferença entre lixo eletrônico e e-mail em massa?](what-s-the-difference-between-junk-email-and-bulk-email.md).
+
+     Por padrão, a única configuração _MarkAsSpamBulkMail_ do PowerShell é `On` nas políticas antispam. Essa configuração afeta significativamente os resultados de um veredito de filtragem de **Em massa**:
+
+     - **_MarkAspamBulkMail_ está Ativado**: um BCL maior que o limite é convertido em um SCL 6 que corresponde a um veredito de filtragem de **Spam**, e a ação para o veredito de filtragem **Em massa** é executada na mensagem.
+     - **_MarkAsSpamBulkMail_ está Desativado**: a mensagem tem o carimbo com o BCL, mas _nenhuma ação_ foi executada para o veredito de filtragem **Em massa**. De fato, o limite de BCL e a ação do veredito de filtragem **Em massa** são irrelevantes.
+
+   - **Aumentar pontuação de spam**, **Marcar como spam**<sup>\*</sup> e **Modo de teste**: contém as configurações de ASF (Filtro de Spam Avançado) que estão desativadas por padrão. As configurações de ASF estão em processo de substituição, e a funcionalidade delas está sendo incorporada a outras partes da pilha de filtragem. Recomendamos deixar todas essas configurações de ASF desativadas em suas políticas antispam.
+
+     Para obter mais detalhes sobre essas configurações, confira [Configurações de filtragem de spam avançadas no EOP](advanced-spam-filtering-asf-options.md).
+
+      <sup>\*</sup> **Contém idiomas específicos** e **A partir destes países/regiões** não fazem parte das configurações de ASF.
+
+   - **Contém idiomas específicos**: clique na caixa e selecione **Ativado** ou **Desativado** na lista suspensa. Se você a ativar, uma caixa será exibida. Comece a digitar o nome de um idioma na caixa. Uma lista filtrada de idiomas com suporte será exibida. Selecione o idioma que está procurando ao encontrá-lo. Repita essa etapa quantas vezes forem necessárias. Para remover um valor existente, clique em remover ![ícone Remover](../../media/m365-cc-sc-remove-selection-icon.png) ao lado do valor.
+
+   - **A partir destes países/regiões**: clique na caixa e selecione *Ativado* ou **Desativado** na lista suspensa. Se você a ativar, uma caixa será exibida. Comece digitando o nome de um país/região na caixa. Uma lista filtrada de países/regiões com suporte será exibida. Quando encontrar o país/região que está procurando, selecione-o. Repita essa etapa quantas vezes forem necessárias. Para remover um valor existente, clique em remover ![ícone Remover](../../media/m365-cc-sc-remove-selection-icon.png) ao lado do valor.
+
+   Ao terminar, clique em **Avançar**.
+
+6. Na página **Ações** exibida, de acordo com as seguintes configurações:
+
+   - **Ações de mensagem**: selecione ou revise a ação a ser realizada nas mensagens com base nos seguintes vereditos de filtragem de spam:
      - **Spam**
      - **Spam de alta confiança**
-     - **Email de phishing**
-     - **Email de phishing de alta confiança**
-     - **Email em massa**
+     - **Phishing**
+     - **Phishing de alta confiança**
+     - **Em massa**
 
      As ações disponíveis para vereditos de filtragem de spam são descritas na tabela a seguir.
 
-     - Uma marca de seleção ( ![Marca de seleção](../../media/checkmark.png)) indica que a ação está disponível (nem todas as ações estão disponíveis para todos os vereditos de filtragem de spam).
+     - Uma marca de seleção ( ![Marca de seleção](../../media/checkmark.png)) indica que a ação está disponível (nem todas as ações estão disponíveis para todos os vereditos).
      - Um asterisco ( <sup>\*</sup> ) após a marca de seleção indica a ação padrão para o veredito de filtragem de spam.
+
+     <br>
 
      ****
 
-     |Ação|Spam|Alto<br>confiança<br>spam|Phishing<br>email|Alto<br>confiança<br>phishing<br>email|Em massa<br>email|
+     |Ação|Spam|Alto<br>confiança<br>spam|Phishing|Alto<br>confiança<br>phishing|Em massa|
      |---|:---:|:---:|:---:|:---:|:---:|
      |**Mover mensagem para a pasta Lixo Eletrônico**: a mensagem é enviada para a caixa de correio e movida para a pasta Lixo Eletrônico.<sup>1</sup>|![Marca de seleção](../../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)<sup>\*</sup>|
      |**Adicionar cabeçalho X**: adiciona um cabeçalho X ao cabeçalho da mensagem e entrega a mensagem à caixa de correio. <p> Digite o nome do campo do cabeçalho X (não o valor) posteriormente na caixa **Adicionar o texto do cabeçalho X**. <p> Para vereditos de **Spam** e de **Spam de alta confiança**, a mensagem é movida para a pasta Lixo eletrônico.<sup>1,2</sup>|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)||![Marca de seleção](../../media/checkmark.png)<sup>\*</sup>|
@@ -129,15 +164,7 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
      >
      > <sup>2</sup>É possível usar esse valor como uma condição nas regras de fluxo de email para filtrar ou rotear a mensagem.
 
-   - **Selecionar o limite**: especifica o BCL (nível de reclamação em massa) de uma mensagem que dispara a ação especificada para o veredito de filtragem de spam de **Email em massa** (maior que o valor especificado, não superior ou igual a ele). Um valor mais alto indica que a mensagem é menos desejável (é mais provável que a mensagem pareça um spam). O valor padrão é 7. Para obter mais informações, confira [BCL (Nível de reclamação em massa) no EOP](bulk-complaint-level-values.md) e [Qual é a diferença entre lixo eletrônico e e-mail em massa?](what-s-the-difference-between-junk-email-and-bulk-email.md).
-
-     Por padrão, a única configuração _MarkAsSpamBulkMail_ do PowerShell é `On` nas políticas antispam. Essa configuração afeta significativamente os resultados de um veredito de filtragem de **Email em massa**:
-
-     - **_MarkAsSpamBulkMail_ está Ativada**: um BCL maior do que o limite é convertido para um SCL 6 que corresponde a um veredito de filtragem de **Spam**, e a ação para o veredito de filtragem de **Email em massa** é executada na mensagem.
-
-     - **_MarkAsSpamBulkMail_ é Desativada**: a mensagem tem o carimbo do BCL, mas _nenhuma ação_ é realizada para o veredito de filtragem de **Email em massa**. De fato, o limite do BCL e a ação do veredito de filtragem de **Email em massa** são irrelevantes.
-
-   - **Quarentena**: especifica por quanto tempo manter a mensagem em quarentena se você selecionar **Colocar mensagem em quarentena** como ação para um veredito de filtragem de spam. Após o período da quarentena, a mensagem será excluída. O valor padrão é de 30 dias. O valor válido é de 1 a 30 dias. Para obter informações sobre quarentena, confira os seguintes tópicos:
+   - **Manter spam em quarentena por esse número de dias**: especifica por quanto tempo manter a mensagem em quarentena se você selecionar **Colocar mensagem em quarentena** como ação para um veredito de filtragem de spam. Após o período da quarentena, a mensagem será excluída. O valor padrão é de 30 dias. O valor válido é de 1 a 30 dias. Para obter informações sobre quarentena, confira os seguintes tópicos:
 
      - [Mensagens em quarentena no EOP](quarantine-email-messages.md)
      - [Gerenciar arquivos e mensagens em quarentena como administrador no EOP](manage-quarantined-messages-and-files.md)
@@ -155,225 +182,173 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
 
    - **Redirecionar para este endereço de email**: esta caixa é obrigatória e só estará disponível se você selecionar **Redirecionar mensagem para o endereço de email** como a ação para um veredito de filtragem de spam. Digite o endereço de email para o qual você deseja enviar a mensagem. É possível inserir diversos valores separados por ponto e vírgula (;).
 
-   - **Dicas de Segurança**: por padrão, as Dicas de Segurança estão habilitadas, mas é possível desabilitá-las desmarcando a caixa de seleção **Ativado**. Para obter mais informações sobre as Dicas de Segurança, confira [Dicas de segurança em mensagens de e-mail](safety-tips-in-office-365.md).
+   - **Habilitar Dicas de Segurança**: por padrão, as Dicas de Segurança estão habilitadas, mas é possível desabilitá-las desmarcando a caixa de seleção. Para obter mais informações sobre as Dicas de Segurança, confira [Dicas de segurança em mensagens de e-mail](safety-tips-in-office-365.md).
 
-   Configurações de **Limpeza Automática Zero Hora**: a ZAP detecta e realiza ações em mensagens já enviadas a caixas de correio do Exchange Online. Para obter mais informações sobre a ZAP, confira [Limpeza Automática Zero Hora – proteção contra spam e malware](zero-hour-auto-purge.md).
+   - **Habilitar ZAP (limpeza automática zero hora)**: a ZAP detecta e realiza ações em mensagens já enviadas a caixas de correio do Exchange Online. Para obter mais informações, confira [Limpeza Automática zero hora: proteção contra spam e malware](zero-hour-auto-purge.md).
 
-   - **ZAP de spam**: por padrão, a ZAP é habilitada para detecções de spam, mas é possível desabilitá-la desmarcando a caixa de seleção **Ativado**.
+     A ZAP está ativada por padrão. Quando ZAP está ativada, as seguintes configurações estarão disponíveis:
 
-   - **ZAP de phishing**: por padrão, a ZAP é habilitada para detecções de phishing, mas é possível desabilitá-la desmarcando a caixa de seleção **Ativado**.
+     - **Habilitar ZAP para mensagens de phishing**: por padrão, a ZAP está habilitada para detecções de phishing, mas é possível desabilitá-la desmarcando a caixa de seleção.
+     - **Habilitar ZAP para mensagens de spam**: por padrão, a ZAP está habilitada para detecções de spam, mas é possível desabilitá-la desmarcando a caixa de seleção.
 
-5. (Opcional) Expanda a seção **Listas de permissão** para configurar os remetentes de mensagens por endereço ou domínio de email que podem ignorar a filtragem de spam:
+   - **Habilitar notificações de spam para usuário final**: para mais informações, confira a seção [Configurar notificações de spam para usuário final](#configure-end-user-spam-notifications) mais adiante neste tópico.
 
-   > [!CAUTION]
+   Ao terminar, clique em **Avançar**.
+
+7. No submenu de **lista Permissões e bloqueios** exibido, é possível configurar os remetentes de mensagens, por endereço de email ou domínio de email, que podem ignorar a filtragem de spam.
+
+   Na seção **Permitido**, é possível configurar os remetentes e domínios permitidos. Na seção **Bloqueado**, é possível adicionar os remetentes e domínios bloqueados.
+
+   > [!IMPORTANT]
    >
-   > - Pense bem antes de adicionar domínios aqui. Para mais informações, consulte [Crie listas de remetentes seguros no EOP](create-safe-sender-lists-in-office-365.md).
+   > Pense bem antes de adicionar domínios à lista de domínios permitidos. Para mais informações, confira [Criar listas de remetentes seguros no EOP](create-safe-sender-lists-in-office-365.md).
    >
-   > - Nunca adicione domínios aceitos (domínios que pertencem a você) ou domínios comuns (por exemplo, microsoft.com ou office.com) à lista de domínios permitidos. Isso permitirá que invasores enviem emails que ignorem a filtragem de spam da sua organização.
+   > Nunca adicione seus próprios [domínios aceitos](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) ou domínios comuns (por exemplo, microsoft.com ou office.com) à lista de domínios permitidos. Se esses domínios puderem ignorar a filtragem de spam, isso permitirá que invasores enviem facilmente emails para sua organização.
+   >
+   > Bloquear manualmente os domínios ao adicioná-los à lista de domínios bloqueados não é algo perigoso, mas pode aumentar sua carga de trabalho administrativa. Para obter mais informações, confira [Criar listas de bloqueios de remetentes no EOP](create-block-sender-lists-in-office-365.md).
+   >
+   > Em algumas ocasiões, os filtros perderão uma mensagem, você não concordará com o veredito da filtragem, ou nossos sistemas demorarão algum tempo para se ajustar. Nesses casos, a lista de permissões e a lista de bloqueios estarão disponíveis para substituir os vereditos de filtragem atuais. Porém, use estas listas com moderação e temporariamente: listas longas podem se tornar não gerenciáveis, e a pilha de filtragem deverá executar o que precisa ser feito. Se você for manter um domínio permitido por um longo período de tempo, diga ao remetente para verificar se seu domínio está autenticado e configure o DMARC para rejeitá-lo, caso não esteja.
 
-   - **Permitir remetente**: clique em **Editar**. No submenu **Lista de remetentes permitidos** exibido:
+   As etapas para adicionar entradas a qualquer uma das listas são as mesmas:
 
-      a. Insira o endereço de email do remetente. Você pode especificar vários endereços de email separados por ponto e vírgula (;).
+   1. Clique no link da lista que você deseja configurar:
+      - **Permitido** \> **Remetentes**: Clique em **Gerenciar (nn) remetente(s)**.
+      - **Permitido** \> **Domínios**: Clique em **Permitir domínios**.
+      - **Bloqueado** \> **Remetentes**: Clique em **Gerenciar (nn) remetente(s)**.
+      - **Bloqueado** \> **Domínios**: Clique em **Bloquear domínios**.
 
-      b. Click ![Ícone Adicionar](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) para adicionar os remetentes.
+   2. No submenu exibido, faça as seguintes etapas:
+      1. Clique no ![ícone Criar](../../media/m365-cc-sc-create-icon.png) **Adicionar remetentes** ou **Adicionar domínios**.
+      2. No submenu **Adicionar remetentes** ou **Adicionar domínios** exibido, insira o endereço de email do remetente na caixa **Remetente** ou o domínio na caixa **Domínio**. Ao digitar, o valor será exibido abaixo da caixa. Quando terminar de digitar o endereço de email ou o domínio, selecione o valor abaixo da caixa.
+      3. Repita a etapa anterior quantas vezes for necessário. Para remover uma entrada existente, clique em Remover ![Ícone Remover](../../media/m365-cc-sc-remove-selection-icon.png) ao lado do valor.
 
-      Repita essas etapas quantas vezes for necessário.
+      Quando terminar, clique em **Adicionar remetentes** ou **Adicionar domínios**.
 
-      Os remetentes que você adicionou aparecem na seção **Remetente Permitido** no submenu. Para excluir um remetente, clique em ![ícone Remover](../../media/scc-remove-icon.png).
+      De volta ao submenu principal, os remetentes ou os domínios adicionados estarão listados na página. Para remover uma entrada desta página, faça as seguintes etapas:
 
-      Quando concluir, clique em **Salvar**.
+      1. Selecione uma ou mais entradas na lista. Você também pode usar a caixa de **Pesquisa** para encontrar valores na lista.
+      2. Depois de selecionar pelo menos uma entrada, o ícone Excluir ![Ícone Excluir](../../media/m365-cc-sc-delete-icon.png) será exibido.
+      3. Clique no ícone Excluir ![Ícone Excluir](../../media/m365-cc-sc-delete-icon.png) para remover as entradas selecionadas.
 
-   - **Permitir domínio**: clique em **Editar**. No submenu **Lista de domínios permitidos** exibido, execute estas etapas:
+      Quando terminar, clique em **Concluído**.
 
-      a. Insira o domínio. Você pode especificar vários domínios separados por ponto e vírgula (;).
+      De volta à página de **lista Permissões e bloqueios**, clique em **Avançar** quando tiver lido para continuar.
 
-      b. Click ![Ícone Adicionar](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) para adicionar os domínios.
+8. Na página **Revisão** exibida, revise suas configurações. Você pode selecionar **Editar** em cada seção para modificar as configurações da seção.
 
-      Repita essas etapas quantas vezes for necessário.
+   Quando terminar, clique em **Criar**.
 
-      Os domínios que você adicionou aparecem na seção **Domínio Permitido** no submenu. Para excluir um domínio, clique em ![ícone Remover](../../media/scc-remove-icon.png).
+9. Na mensagem de confirmação exibida, clique em **Concluído**.
 
-      Quando concluir, clique em **Salvar**.
+## <a name="use-the-security-center-to-view-anti-spam-policies"></a>Usar o centro de segurança para exibir políticas antispam
 
-6. (Opcional) Expanda a seção **Listas de bloqueios** para configurar os remetentes de mensagens por endereço ou domínio de email que sempre serão marcados como spam de alta confidencialidade:
+1. No centro de segurança, vá para **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Antispam**.
 
-   > [!NOTE]
-   > Bloquear manualmente os domínios não é perigoso, mas pode aumentar sua carga de trabalho administrativa. Para obter mais informações, confira [Criar listas de bloqueios de remetentes no EOP](create-block-sender-lists-in-office-365.md).
+2. Na página **Política antispam**, procure um dos seguintes valores:
+   - O valor **Tipo** é a **Política antispam personalizada** 
+   - O valor **Nome** é a **Política de entrada antispam (Padrão)** 
 
-   - **Bloquear remetente**: clique em **Editar**. No submenu **Lista de remetentes bloqueados** exibido, siga estas etapas:
+   As propriedades a seguir são exibidas na lista de políticas antispam:
 
-      a. Insira o endereço de email do remetente. Você pode especificar vários endereços de email separados por ponto e vírgula (;). Curingas (*) não são permitidos.
+   - **Nome**
+   - **Status**
+   - **Prioridade**
+   - **Tipo**
 
-      b. Click ![Ícone Adicionar](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) para adicionar os remetentes.
+3. Ao selecionar uma política antispam clicando no nome, as configurações da política serão exibidas em um submenu.
 
-      Repita essas etapas quantas vezes for necessário.
+## <a name="use-the-security-center-to-modify-anti-spam-policies"></a>Usar o centro de segurança para modificar políticas antispam
 
-      Os remetentes que você adicionou aparecem na seção **Remetente bloqueado** no submenu. Para excluir um remetente, clique em ![botão Remover](../../media/scc-remove-icon.png).
+1. No centro de segurança, vá para **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Antispam**.
 
-      Quando concluir, clique em **Salvar**.
-
-   - **Bloquear domínio**: clique em **Editar**. No submenu **Lista de domínios bloqueados** exibido:
-
-      a. Inserir o domínio. Você pode especificar múltiplos domínios separados por ponto-e-vírgula (;). Wildcards (*) não são permitidos.
-
-      b. Click ![Ícone Adicionar](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) para adicionar os domínios.
-
-      Repita essas etapas quantas vezes for necessário.
-
-      Os domínios que você adicionou aparecem na lista **Domínio Bloqueado** no submenu. Para excluir um domínio, clique em ![botão Remover](../../media/scc-remove-icon.png).
-
-      Quando concluir, clique em **Salvar**.
-
-7. (Opcional) Expanda a seção **Spam internacional** para configurar os países de origem ou idiomas de email bloqueados pela filtragem de spam:
-
-   - **Filtrar mensagens de email escritas nos seguintes idiomas**: esta configuração é exibida por padrão (**Status: DESATIVADO**). Clique em **Editar**. No submenu **Configurações de spam internacionais** exibido, defina as seguintes configurações:
-
-     - **Filtrar mensagens de email escritas nos seguintes idiomas**: marque a caixa de seleção para habilitar esta configuração. Desmarque a caixa de seleção para desabilitar a configuração.
-
-     - Clique na caixa e comece a digitar o *nome* do idioma. Uma lista filtrada de idiomas com suporte será exibida, juntamente com o código ISO 639-2 de duas letras do idioma correspondente. Quando encontrar o idioma que está procurando, selecione-o. Repita essa etapa quantas vezes forem necessárias.
-
-       A lista de idiomas selecionados aparecerá no submenu. Para excluir um idioma, clique em ![Botão Remover](../../media/scc-remove-icon.png).
-
-     Quando concluir, clique em **Salvar**.
-
-   - **Filtrar mensagens de email enviadas dos seguintes países ou regiões**: esta configuração é exibida por padrão (**Status: DESATIVADO**). Para habilitar, clique em **Editar**. No submenu **Configurações de spam internacionais** exibido, defina as seguintes configurações:
-
-     - **Filtrar mensagens de email enviadas dos seguintes países ou regiões**: marque a caixa de seleção para habilitar esta configuração. Desmarque a caixa de seleção para desabilitar a configuração.
-
-     - Clique na caixa e comece a digitar o *nome* do país ou região. Uma lista filtrada de países com suporte será exibida, juntamente com o código ISO 3166-1 de duas letras do país correspondente. Quando encontrar o país ou região que está procurando, selecione-o. Repita essa etapa quantas vezes forem necessárias.
-
-       A lista de países selecionados aparecerá no submenu. Para excluir um país ou região, clique em ![Botão Remover](../../media/scc-remove-icon.png).
-
-     Quando concluir, clique em **Salvar**.
-
-8. A seção opcional **Propriedades de spam** contém configurações de ASF (filtragem de spam avançada) que estão desativadas por padrão. As configurações de ASF estão em processo de substituição, e a funcionalidade delas está sendo incorporada a outras partes da pilha de filtragem. Recomendamos deixar todas essas configurações de ASF desativadas em suas políticas antispam.
-
-   Para obter mais detalhes sobre essas configurações, confira [Configurações de filtragem de spam avançadas no EOP](advanced-spam-filtering-asf-options.md).
-
-9. (Obrigatório) Expanda a seção **Aplicada a** para identificar os destinatários internos aos quais a política se aplica.
-
-    Só é possível usar uma condição ou exceção uma vez; contudo, você pode especificar vários valores para a condição ou exceção. Vários valores da mesma condição ou exceção usam a lógica OU (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_).
-
-    O mais fácil é clicar em **Adicionar uma condição** três vezes para ver todas as condições disponíveis. Clique em ![botão Remover](../../media/scc-remove-icon.png) para remover condições que você não queira configurar.
-
-    - **O domínio do destinatário é**: Especifica os destinatários em um ou mais domínios aceitos configurados na sua organização.  Clique na caixa **Adicionar uma marca** para ver e selecionar um domínio. Clique novamente na caixa **Adicionar uma marca** para selecionar domínios adicionais se mais de um domínio estiver disponível.
-
-    - **O destinatário é**: especifica uma ou mais caixas de correio, usuários de email ou contatos de email em sua organização. Clique em **Adicionar uma marca** e comece a digitar para filtrar a lista. Clique novamente na caixa **Adicionar uma marca** para selecionar destinatários adicionais.
-
-    - **O destinatário é um membro de**: especifica um ou mais grupos em sua organização. Clique em **Adicionar uma marca** e comece a digitar para filtrar a lista. Clique novamente na caixa **Adicionar uma marca** para selecionar destinatários adicionais.
-
-    - **Exceto se**: para adicionar exceções à regra, clique em **Adicionar uma condição** três vezes para ver todas as exceções disponíveis. As configurações e o comportamento são exatamente como as condições.
-
-10. Quando concluir, clique em **Salvar**.
-
-## <a name="use-the-security--compliance-center-to-view-anti-spam-policies"></a>Usar o Centro de Conformidade e Segurança para visualizar políticas antispam
-
-1. No Centro de Conformidade e Segurança, vá para **Gerenciamento de ameaças** \> **Política** \> **Antispam**.
-
-2. Na página **Configurações antispam**, clique em ![ícone Expandir](../../media/scc-expand-icon.png) para expandir uma política antispam:
-
-   - A política padrão chamada **Política de filtro de spam padrão**.
-
+2. Na página **Política antispam**, selecione uma política antispam da lista, clicando no nome:
    - Uma política personalizada que você criou em que o valor da coluna **Tipo** é **Política antispam personalizada**.
+   - A política padrão denominada **Política de entrada antispam (Padrão)**.
 
-3. As configurações de política importantes são exibidas nos detalhes de política expandida que são exibidos. Para ver mais detalhes, clique em **Editar política**.
+3. No submenu de detalhes da política exibido, selecione **Editar** em cada seção para modificar as configurações da seção. Para mais informações sobre as configurações, confira a seção anterior [Usar o centro de segurança para criar políticas antispam](#use-the-security-center-to-create-anti-spam-policies) neste artigo.
 
-## <a name="use-the-security--compliance-center-to-modify-anti-spam-policies"></a>Usar o Centro de Conformidade e Segurança para modificar políticas antispam
-
-1. No Centro de Conformidade e Segurança, vá para **Gerenciamento de ameaças** \> **Política** \> **Antispam**.
-
-2. Na página **Configurações antispam**, clique em ![ícone Expandir](../../media/scc-expand-icon.png) para expandir uma política antispam:
-
-   - A política padrão chamada **Política de filtro de spam padrão**.
-
-   - Uma política personalizada que você criou em que o valor da coluna **Tipo** é **Política antispam personalizada**.
-
-3. Clique em **Editar política**.
-
-Para políticas antispam, as configurações disponíveis no submenu exibido são idênticas às descritas na seção [Usar o Centro de Conformidade e Segurança para criar políticas antispam](#use-the-security--compliance-center-to-create-anti-spam-policies).
-
-Para a política antispam padrão chamada **Política de filtragem de spam padrão**, a seção **Aplicada a** não está disponível (a política se aplica a todos), e não é possível renomear a política.
+   Para a política antispam padrão, a seção **Aplicada a** não está disponível (a política se aplica a todos), e não é possível renomear a política.
 
 Para habilitar ou desabilitar uma política, definir a ordem de prioridade da política ou configurar notificações de quarentena de usuário final, confira as seções a seguir.
 
 ### <a name="enable-or-disable-anti-spam-policies"></a>Habilitar ou desabilitar políticas antispam
 
-1. No Centro de Conformidade e Segurança, vá para **Gerenciamento de ameaças** \> **Política** \> **Antispam**.
-
-2. Na página **Configurações antispam**, clique em ![ícone Expandir](../../media/scc-expand-icon.png) para expandir uma política personalizada que você criou (o valor na coluna **Tipo** é **Política antispam personalizada**).
-
-3. Nos detalhes exibidos da política expandida, observe o valor na coluna **Ativado**.
-
-   Mova o botão de alternância para a esquerda para desabilitar a política: ![Desativar](../../media/scc-toggle-off.png)
-
-   Mova o botão de alternância para a direita para habilitar a política: ![Ativar](../../media/scc-toggle-on.png)
-
 Não é possível desabilitar a política antispam padrão.
+
+1. No centro de segurança, vá para **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Antispam**.
+
+2. Na página **Políticas antispam**, selecione uma política com o **Valor de tipo** da **Política antispam personalizada** na lista clicando no nome.
+
+3. Na parte superior do submenu de detalhes da política exibido, você verá um dos seguintes valores:
+   - **Política desativada**: para ativar a política, clique no ![ícone Ativar](../../media/m365-cc-sc-turn-on-off-icon.png) **Ativar** .
+   - **Política ativada**: para desativar a política, clique no ![ícone Desativar](../../media/m365-cc-sc-turn-on-off-icon.png) **Desativar**.
+
+4. Na caixa de diálogo de confirmação exibida, clique em **Ativar** ou **Desativar**.
+
+5. Clique em **Fechar** no submenu de detalhes da política.
+
+De volta à página da política principal, o valor **Status** da política será **Ativado** ou **Desativado**.
 
 ### <a name="set-the-priority-of-custom-anti-spam-policies"></a>Definir a prioridade das políticas antispam personalizadas
 
-Por padrão, as políticas antispam recebem uma prioridade com base na ordem em que foram criadas (políticas mais novas têm prioridade menor do que as políticas mais antigas). Um número de prioridade menor indica uma maior prioridade para a política (0 é a maior), e as políticas são processadas por ordem de prioridade (políticas com maior prioridade são processadas antes das políticas com menor prioridade). Duas políticas não podem ter a mesma prioridade, e o processamento da política será interrompido após a primeira política ser aplicada.
+Por padrão, as políticas antispam recebem uma prioridade baseada na ordem em que elas foram criadas (as políticas mais recentes são de prioridade mais baixa do que as políticas mais antigas). Um número de prioridade menor indica uma maior prioridade para a política (0 é a maior), e as políticas são processadas por ordem de prioridade (políticas com maior prioridade são processadas antes das políticas com menor prioridade). Duas políticas não podem ter a mesma prioridade, e o processamento da política será interrompido após a primeira política ser aplicada.
 
-Para obter mais informações sobre a ordem de precedência e como várias políticas são avaliadas e aplicadas, confira [Ordem e precedência da proteção de email](how-policies-and-protections-are-combined.md).
+Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou **Diminuir prioridade** nas propriedades da política (não é possível modificar diretamente o número da **Prioridade** no centro de segurança). Alterar a prioridade de uma política só faz sentido se você tiver várias políticas.
 
-As políticas antispam personalizadas são exibidas na ordem em que são processadas (a primeira política tem o valor de **Prioridade** 0). A política antispam padrão chamada **Política de filtro de spam padrão** tem o valor de prioridade **Menor**, e isso não pode ser alterado.
+ **Observações**:
 
- **Observação**: no Centro de Conformidade e Segurança, só é possível alterar a política antispam depois de criá-la. No PowerShell, é possível substituir a prioridade padrão ao criar a regra de filtro de spam (o que pode afetar a prioridade das regras existentes).
+- No centro de segurança, só é possível alterar a prioridade da política antispam depois de criá-la. No PowerShell, é possível substituir a prioridade padrão ao criar a regra de filtro de spam (o que pode afetar a prioridade das regras existentes).
+- As políticas antispam são processadas na ordem em que são exibidas (a primeira política tem o valor de **Prioridade** 0). A política antispam padrão tem o valor de prioridade **Mais baixo**, e isso não pode ser alterado.
 
-Para alterar a prioridade de uma política, mova a política para cima ou para baixo na lista (não é possível modificar diretamente o número de **Prioridade** no Centro de Conformidade e Segurança).
+1. No centro de segurança, vá para **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Antispam**.
 
-1. No Centro de Conformidade e Segurança, vá para **Gerenciamento de ameaças** \> **Política** \> **Antispam**.
+2. Na página **Políticas antispam**, selecione uma política com o **Valor de tipo** da **Política antispam personalizada** na lista clicando no nome.
 
-2. Na página **Configurações antispam**, encontre as políticas em que o valor na coluna **Tipo** é **Política antispam personalizada**. Observe os valores na coluna **Prioridade**:
+3. Na parte superior do submenu de detalhes da política exibido, você verá **Aumentar a prioridade** ou **Diminuir a prioridade** com base no valor de prioridade atual e no número de políticas personalizadas:
+   - A política antispam com o valor **Prioridade** **0** tem apenas a opção **Diminuir prioridade** disponível.
+   - A política anti-spam com o valor de **Prioridade** mais baixo (por exemplo, **3**) tem apenas a opção **Aumentar prioridade** disponível.
+   - Se você tiver três ou mais políticas antispam, as políticas entre os valores de prioridade mais altos e mais baixos têm as opções **Aumentar prioridade** e **Diminuir prioridade** disponíveis.
 
-   - A política antispam personalizada com maior prioridade tem o valor ![ícone Seta para baixo](../../media/ITPro-EAC-DownArrowIcon.png) **0**.
+   Clique no ![ícone Aumentar prioridade](../../media/m365-cc-sc-increase-icon.png) **Aumentar prioridade** ou no ![ícone Diminuir prioridade](../../media/m365-cc-sc-decrease-icon.png) **Diminuir prioridade** para alterar o valor da **Prioridade**.
 
-   - A política antispam personalizada com menor prioridade tem o valor ![ícone Seta para cima](../../media/ITPro-EAC-UpArrowIcon.png) **n** (por exemplo, ![ícone Seta para cima](../../media/ITPro-EAC-UpArrowIcon.png) **3**).
-
-   - Se você tem três ou mais políticas antispam personalizadas, as políticas entre a maior e menor prioridade têm valores ![ícone Seta para cima](../../media/ITPro-EAC-UpArrowIcon.png)![ícone Seta para baixo](../../media/ITPro-EAC-DownArrowIcon.png) **n** (por exemplo, ![ícone Seta para cima](../../media/ITPro-EAC-UpArrowIcon.png)![ícone Seta para baixo](../../media/ITPro-EAC-DownArrowIcon.png) **2**).
-
-3. Clique em ![ícone Seta para cima](../../media/ITPro-EAC-UpArrowIcon.png) ou ![ícone Seta para baixo](../../media/ITPro-EAC-DownArrowIcon.png) para mover a política antispam personalizada na lista de prioridade.
+4. Quando terminar, clique em **Fechar** no submenu de detalhes da política.
 
 ### <a name="configure-end-user-spam-notifications"></a>Configurar as notificações de spam para usuário final
 
 Quando um veredito de filtragem de spam coloca uma mensagem em quarentena, é possível configurar as notificações de spam para usuário final de modo que os destinatários saibam o que houve com as mensagens que foram enviadas para eles. Para obter mais informações sobre essas notificações, confira [Notificações de spam para usuário final no EOP](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
-1. No Centro de Conformidade e Segurança, vá para **Gerenciamento de ameaças** \> **Política** \> **Antispam**.
+1. No centro de segurança, vá para **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Antispam**.
 
-2. Na página **Configurações antispam**, clique em ![ícone Expandir](../../media/scc-expand-icon.png) para expandir uma política antispam:
-
-   - A política padrão chamada **Política de filtro de spam padrão**.
-
+2. Na página **Políticas antispam**, selecione uma política antispam da lista clicando no nome:
    - Uma política personalizada que você criou em que o valor da coluna **Tipo** é **Política antispam personalizada**.
+   - A política padrão denominada **Política de entrada antispam (Padrão)**.
 
-3. Nos detalhes da política expandida, clique em **Configurar as notificações de spam para usuário final**.
+3. No submenu de detalhes da política exibido, clique em **Editar** na seção **Ações**. No submenu **Ações** exibido, defina as seguintes configurações:
 
-4. Na caixa de diálogo **\<Policy Name\>** que se abre, defina as seguintes configurações:
+   - **Habilitar notificações de spam do usuário final**: selecione a caixa de seleção para habilitar as notificações ou desmarque a caixa de seleção para desabilitar as notificações. Quando você marca a caixa de seleção, são exibidas as seguintes configurações adicionais:
 
-   - **Habilitar as notificações de spam para usuário final**: selecione a caixa de seleção para habilitar as notificações. Desmarque a caixa de seleção para desabilitar as notificações.
+     - **Enviar notificações de spam para usuário final a cada (dias)**: selecione a frequência de envio das notificações. O valor padrão é de 3 dias. Você pode inserir de 1 a 15 dias.
 
-   - **Enviar notificações de spam para usuário final a cada (dias)**: selecione a frequência de envio das notificações. O valor padrão é de 3 dias. Você pode inserir de 1 a 15 dias.
+       Há três ciclos de notificação de spam para o usuário final dentro de um período de 24 horas que se iniciam nos seguintes horários: 01:00 UTC, 08:00 UTC e 16:00 UTC.
 
-     Há três ciclos de notificação de spam para o usuário final dentro de um período de 24 horas que se iniciam nos seguintes horários: 01:00 UTC, 08:00 UTC e 16:00 UTC.
+       > [!NOTE]
+       > Se perdermos uma notificação durante um ciclo anterior, um ciclo subsequente gerará a notificação. Isso pode dar a impressão da ocorrência de várias notificações no mesmo dia.
 
-     > [!NOTE]
-     > Se perdermos uma notificação durante um ciclo anterior, um ciclo subsequente gerará a notificação. Isso pode dar a impressão da ocorrência de várias notificações dentro do mesmo dia.
-
-   - **Idioma da notificação**: clique no menu suspenso selecionar um idioma disponível na lista. O valor padrão é **Padrão**, o que significa inglês.
+     - **Idioma**: clique no menu suspenso e selecione um idioma disponível na lista. O valor padrão é **Padrão**, o que significa inglês.
 
    Quando concluir, clique em **Salvar**.
 
-## <a name="use-the-security--compliance-center-to-remove-anti-spam-policies"></a>Usar o Centro de Conformidade e Segurança para remover políticas antispam
+4. De volta ao submenu de detalhes da política, clique em **Fechar**.
 
-1. No Centro de Conformidade e Segurança, vá para **Gerenciamento de ameaças** \> **Política** \> **Antispam**.
+## <a name="use-the-security-center-to-remove-anti-spam-policies"></a>Usar o centro de segurança para remover políticas antispam
 
-2. Na página **Configurações antispam**, clique em ![ícone Expandir](../../media/scc-expand-icon.png) para expandir a política personalizada que você deseja excluir (a coluna **Tipo** é **Política antispam personalizada**).
+Quando você usa o centro de segurança para remover uma política antispam, a regra de filtro de spam e a política de filtro de spam correspondente são excluídas. Não é possível remover a política padrão.
 
-3. Nas informações da política expandida, clique em **Excluir política**.
+1. No centro de segurança, vá para **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Antispam**.
 
-4. Clique em **Sim** na caixa de diálogo exibida.
+2. Na página **Políticas antispam**, selecione uma política com o **Valor de tipo** da **Política antispam personalizada** na lista clicando no nome. Na parte superior do submenu de detalhes da política exibido, clique no ![ícone Mais ações](../../media/m365-cc-sc-more-actions-icon.png) **Mais ações** \> ![ícone Excluir política](../../media/m365-cc-sc-delete-icon.png) **Excluir política**.
 
-Não é possível remover a política padrão.
+3. Na caixa de diálogo de confirmação exibida, clique em **Sim**.
 
 ## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-spam-policies"></a>Use o Exchange Online PowerShell ou EOP PowerShell autônomo para configurar políticas anti-spam
 
@@ -387,12 +362,10 @@ No Exchange Online PowerShell ou no EOP PowerShell autônomo, a diferença entre
 
 As seguintes configurações de política antispam só estão disponíveis no PowerShell:
 
-- O parâmetro _MarkAsSpamBulkMail_ que é `On` por padrão. Os efeitos dessa configuração foram explicados anteriormente na seção [Usar o Centro de Conformidade e Segurança para criar políticas antispam](#use-the-security--compliance-center-to-create-anti-spam-policies) deste tópico.
+- O parâmetro _MarkAsSpamBulkMail_ que é `On` por padrão. Os efeitos dessa configuração foram explicados anteriormente na seção [Usar o centro de segurança para criar políticas antispam](#use-the-security-center-to-create-anti-spam-policies) deste tópico.
 
 - As seguintes configurações de notificações da quarentena de spam para usuário final:
-
   - O parâmetro _DownloadLink_, que mostra ou oculta o link para a Ferramenta de Relatórios de Lixo Eletrônico para Outlook.
-
   - O parâmetro _EndUserSpamNotificationCustomSubject_, que você pode usar para personalizar a linha de assunto da notificação.
 
 ### <a name="use-powershell-to-create-anti-spam-policies"></a>Usar o PowerShell para criar políticas antispam
@@ -406,12 +379,12 @@ A criação de uma política antispam no PowerShell é um processo de duas etapa
 
 - você pode criar uma nova regra de filtro de spam e atribuir uma política de filtro de spam existente e não associada a ela. Não é possível associar uma regra de filtro de spam a mais de uma política de filtro de spam.
 
-- Você pode definir as seguintes configurações em novas políticas de filtro de spam no PowerShell que não estarão disponíveis no Centro de Conformidade e Segurança até que você crie a política:
+- Defina as seguintes configurações nas novas políticas de filtro de spam no PowerShell que não estão disponíveis no centro de segurança até que você crie a política:
 
   - Crie a nova política como desabilitada (_Habilitada_ `$false` no cmdlet **New-HostedContentFilterRule**).
   - Defina a prioridade da política durante a criação (_Prioridade__\<Number\>_) no cmdlet **New-HostedContentFilterRule**).
 
-- Uma nova política de filtro de spam criada no PowerShell não ficará visível no Centro de Conformidade e Segurança até você atribua a política a uma regra de filtro de spam.
+- Uma nova política de filtro de spam criada no PowerShell não ficará visível no centro de segurança até você atribua a política a uma regra de filtro de spam.
 
 #### <a name="step-1-use-powershell-to-create-a-spam-filter-policy"></a>Etapa 1: usar o PowerShell para criar uma política de filtro de spam
 
@@ -424,15 +397,11 @@ New-HostedContentFilterPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments
 Esse exemplo cria uma política de filtro de spam chamada Contoso Executives com as seguintes configurações:
 
 - Colocar mensagens em quarentena quando o veredicto de filtragem de spam for spam ou spam de alta confiança.
-
-- O BCL 6 dispara a ação para um veredito de filtragem de spam de email em massa.
+- O BCL 7, 8 ou 9 dispara a ação para um veredito de filtragem de spam de email em massa.
 
 ```PowerShell
 New-HostedContentFilterPolicy -Name "Contoso Executives" -HighConfidenceSpamAction Quarantine -SpamAction Quarantine -BulkThreshold 6
 ```
-
-> [!NOTE]
-> **New-HostedContentFilterPolicy** e **Set-HostedContentFilterPolicy** contêm um parâmetro _ZapEnabled_ mais antigo, bem como parâmetros _PhishZapEnabled_ e _SpamZapEnabled_ mais novos. O parâmetro _ZapEnabled_ foi depreciado em fevereiro de 2020. Os parâmetros _PhishZapEnabled_ e _SpamZapEnabled_ herdavam os valores deles do parâmetro _ZapEnabled_. No entanto, se você usar os parâmetros _PhishZapEnabled_ e _SpamZapEnabled_ em um comando ou usar as configurações de **ZAP de spam** ou **ZAP de phishing** na política no Centro de Conformidade e Segurança, o valor do parâmetro _ZapEnabled_ será ignorado. Em outras palavras, não use o parâmetro _ZapEnabled_; em vez disso, use os parâmetros _PhishZapEnabled_ e _SpamZapEnabled_.
 
 Para obter mais informações detalhadas de sintaxe e parâmetro, confira [New-HostedContentFilterPolicy](/powershell/module/exchange/new-hostedcontentfilterpolicy).
 
@@ -447,7 +416,6 @@ New-HostedContentFilterRule -Name "<RuleName>" -HostedContentFilterPolicy "<Poli
 Esse exemplo cria uma nova regra de filtro de spam chamada Contoso Executives com as seguintes configurações:
 
 - A política de filtro de spam chamada Contoso Executives é associada à regra.
-
 - A regra se aplica aos membros do grupo chamado Contoso Executives Group.
 
 ```PowerShell
@@ -521,8 +489,7 @@ Para obter mais informações detalhadas de sintaxe e parâmetro, confira [Get-H
 Além dos itens a seguir, as mesmas configurações estão disponíveis quando você modifica uma política de filtro de spam no Windows PowerShell, como ao criar a política conforme descrito anteriormente na seção [Etapa 1: usar o PowerShell para criar uma política de filtro de spam](#step-1-use-powershell-to-create-a-spam-filter-policy) deste tópico.
 
 - A opção _MakeDefault_ que transforma a política especificada em política padrão (aplicada a todos, sempre com a **Menor** prioridade, e que pode ser excluída) só está disponível quando você modifica uma política de filtro de spam no PowerShell.
-
-- Não é possível renomear uma política de filtro de spam (o cmdlet **Set-HostedContentFilterPolicy** não tem o parâmetro _Name_). Quando você renomeia uma política antispam no Centro de Conformidade e Segurança, só é possível renomear a _regra_ do filtro de spam.
+- Não é possível renomear uma política de filtro de spam (o cmdlet **Set-HostedContentFilterPolicy** não tem o parâmetro _Name_). Quando você renomeia uma política antispam no centro de segurança, só é possível renomear a _regra_ do filtro de spam.
 
 Para modificar uma política de filtro de spam, use esta sintaxe:
 
@@ -544,7 +511,7 @@ Para modificar uma regra de filtro de spam, use esta sintaxe:
 Set-HostedContentFilterRule -Identity "<RuleName>" <Settings>
 ```
 
-Este exemplo renomeia a regra de filtro de spam chamada `{Fabrikam Spam Filter}` que pode causar problemas no Centro de Conformidade e Segurança.
+Este exemplo renomeia a regra de filtro de spam existente chamada `{Fabrikam Spam Filter}`.
 
 ```powershell
 Set-HostedContentFilterRule -Identity "{Fabrikam Spam Filter}" -Name "Fabrikam Spam Filter"
@@ -595,7 +562,6 @@ Set-HostedContentFilterRule -Identity "Marketing Department" -Priority 2
 **Observações**:
 
 - para definir a prioridade de uma nova regra ao criá-la, use o parâmetro _Prioridade_ no cmdlet **New-HostedContentFilterRule**.
-
 - A política de filtro de spam padrão não tem uma regra de filtro de spam correspondente e sempre tem o valor de prioridade inalterável **Menor**.
 
 ### <a name="use-powershell-to-remove-spam-filter-policies"></a>Usar o PowerShell para remover políticas de filtro de spam
@@ -639,7 +605,7 @@ Para obter informações detalhadas de sintaxe e parâmetro, confira [Remove-Hos
 ### <a name="send-a-gtube-message-to-test-your-spam-policy-settings"></a>Enviar uma mensagem do GTUBE para testar as configurações de política de spam
 
 > [!NOTE]
-> Essas etapas só funcionarão se a organização de email da qual você está enviando a mensagem do GTUBE não tiver verificação de spam de saída.
+> Essas etapas só funcionarão se a organização de email da qual você está enviando a mensagem GTUBE não tiver verificação de spam de saída. Se isso acontecer, você não poderá enviar a mensagem de teste.
 
 O GTUBE (teste genérico para email em massa não solicitado) é uma cadeia de caracteres de texto incluída em uma mensagem de texto para verificar as configurações antispam da sua organização. A mensagem do GTUBE é similar ao arquivo de texto do EICAR (Instituto Europeu para Pesquisa de Antivírus de Computador) em configurações de malware de teste.
 
@@ -648,10 +614,3 @@ Inclua o seguinte texto do GTUBE em uma mensagem de email em uma única linha, s
 ```text
 XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
 ```
-
-## <a name="allowblock-lists"></a>Listas de permissões/bloqueios
-
-De vez em quando, os filtros perdem a mensagem ou nossos sistemas demoram algum tempo para se ajustar. Nesse caso, a política antispam tem uma lista de permissões e outra de bloqueios, disponíveis para substituir o veredicto atual. Essa opção deve ser usada com moderação, pois as listas podem se tornar temporariamente não gerenciáveis porque a pilha de filtragem deverá executar o que precisa ser feito.
-
-> [!TIP]
-> Podem haver situações nas quais a sua organização pode não concordar com o veredicto fornecido pelo serviço. Nesse caso, talvez você queira manter a Lista de permissões ou bloqueio permanente. No entanto, se você pretende colocar um domínio na Lista de permissões por longos períodos de tempo, deve informar ao remetente para verificar se o domínio está autenticado e configurar o DMARC para rejeitá-lo, caso não esteja.
