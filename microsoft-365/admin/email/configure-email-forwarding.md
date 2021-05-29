@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: O encaminhamento de email permite encaminhar mensagens de email enviadas para uma caixa de correio de usuário Microsoft 365 para outra caixa de correio dentro ou fora da sua organização.
-ms.openlocfilehash: eb72204211a8eff929c024fbcede66dfe1f4b879
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 1d16a44749b51b582b7198cb331edf7faf3cf1f8
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635481"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52698911"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>Configurar o encaminhamento de email em Microsoft 365
 
@@ -40,6 +40,8 @@ Como administrador de uma organização, você pode ter requisitos da empresa pa
 ## <a name="configure-email-forwarding"></a>Configurar encaminhamento de email
 
 Antes de configurar o encaminhamento de email, observe o seguinte:
+
+- Permitir que mensagens encaminhadas automaticamente sejam enviadas para pessoas no domínio remoto. Consulte [Gerenciar domínios remotos](/exchange/mail-flow-best-practices/remote-domains/manage-remote-domains) para obter detalhes.
 
 - Depois de configurar o encaminhamento de email, somente **os** novos emails enviados para a caixa  *de*  correio da caixa de correio serão encaminhados.
 
@@ -104,4 +106,3 @@ Você deve ser um administrador Exchange ou administrador global no Microsoft 36
 [Criar uma caixa de correio compartilhada](../email/create-a-shared-mailbox.md) (artigo)\
 [Enviar email de um endereço](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) diferente (artigo)\
 [Alterar um nome de usuário e um endereço de email](../add-users/change-a-user-name-and-email-address.md) (artigo)
-

@@ -24,19 +24,20 @@ search.appverid:
 - MET150
 - MOE150
 description: Impedir que um ex-funcionário entre e bloqueie o acesso aos Microsoft 365 serviços.
-ms.openlocfilehash: 8eb41c3b449e63284371aaf168262307a4c21941
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 84852e9bccb1d4370db07492baf7ccaed7f6db3d
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535945"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52698899"
 ---
 # <a name="step-1---prevent-a-former-employee-from-logging-in-and-block-access-to-microsoft-365-services"></a>Etapa 1 - Impedir que um ex-funcionário entre e bloqueie o acesso aos serviços Microsoft 365 serviços
 
 Se você precisar impedir imediatamente o acesso de entrada de um usuário, você deve redefinir a senha. Nesta etapa, force uma saída do usuário do Microsoft 365.
 
 > [!NOTE]
-> Você precisa ser um administrador global para iniciar a saída.
+> Você precisa ser um administrador global para iniciar a saída para outros administradores. Para usuários que não são administradores, você pode usar um Administrador de Usuário ou um usuário do Administrador do Helpdesk para executar essa ação.
+> Saiba mais sobre as funções de administrador <a href="https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles">sobre funções de administrador</a>
 
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 2. Selecione a caixa ao lado do nome do usuário e selecione **Redefinir senha**.
