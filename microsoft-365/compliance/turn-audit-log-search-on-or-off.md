@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 ms.custom: seo-marvel-apr2020
 description: Como ativar ou desativar o recurso de pesquisa de log de auditoria no centro de conformidade do Microsoft 365 para habilitar ou desabilitar a capacidade dos administradores de pesquisar o log de auditoria.
-ms.openlocfilehash: 091331a40a2ab6bf3c05bb289d49f63ab2dd2794
-ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
+ms.openlocfilehash: 457f453b001f71a095bc60932c8e0cebf46aa7b1
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52657724"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706655"
 ---
 # <a name="turn-auditing-on-or-off"></a>Ativar ou desativar a auditoria
 
@@ -63,7 +63,7 @@ Se a auditoria não estiver Exchange Online PowerShell. Pode levar várias horas
 
    Se a auditoria não estiver 100% 100%, um banner será exibido solicitando que você inicie a gravação da atividade de usuário e administrador.
 
-   ![Banner na página auditoria](../media/39a9d35f-88d0-4bbe-a962-0be2f838e2bf.png)
+   ![Banner na página auditoria](../media/AuditingBanner.png)
 
 3. Clique no **banner Iniciar gravação do usuário e da atividade do** administrador.
 

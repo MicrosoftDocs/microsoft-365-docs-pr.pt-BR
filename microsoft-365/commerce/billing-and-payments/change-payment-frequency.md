@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Saiba como alterar a frequência com que você é cobrado por sua assinatura comercial.
 ms.date: 04/02/2021
-ms.openlocfilehash: 010857d9092ef62d11e1b7c6019f2fe0eaafb58f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 529003210e37897f8c1e0d30a692a6f3a1464a80
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537338"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705565"
 ---
 # <a name="change-your-billing-frequency"></a>Alterar sua frequência de cobrança
 
@@ -39,10 +39,7 @@ Ao comprar uma assinatura, você escolhe cobrança mensal ou anual. Para alterar
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Exibir sua fatura ou fatura](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) (artigo)
-
-[Pagar por sua assinatura](../../commerce/billing-and-payments/pay-for-your-subscription.md) (artigo)
-
-[Saiba como encontrar e exibir sua fatura ou](view-your-bill-or-invoice.md) fatura (artigo)
-
+[Ver sua conta ou fatura](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) (artigo)\
+[Pagar por sua assinatura](../../commerce/billing-and-payments/pay-for-your-subscription.md) (artigo)\
+[Saiba como encontrar e exibir sua fatura](view-your-bill-or-invoice.md) ou fatura (artigo)\
 [Alterar seus endereços de cobrança](change-your-billing-addresses.md) (artigo)
