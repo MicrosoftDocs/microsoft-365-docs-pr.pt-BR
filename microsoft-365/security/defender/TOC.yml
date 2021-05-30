@@ -18,6 +18,8 @@
           href: microsoft-365-security-mde-redirection.md
         - name: Redirecionando o Microsoft Defender para Office 365 para o Centro de segurança do Microsoft 365
           href: microsoft-365-security-mdo-redirection.md
+        - name: Microsoft 365 Integração do Defender com o Azure Sentinel
+          href: microsoft-365-defender-integration-with-azure-sentinel.md
         - name: Recursos de pré-visualização
           href: preview.md
         - name: Solucionar problemas
