@@ -20,19 +20,21 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como atualizar seu método de pagamento para o Microsoft 365 para empresas.
-ms.openlocfilehash: 3b659da6745c92d777629b2912114ee214582623
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Saiba como atualizar seu método de pagamento para Microsoft 365 para empresas.
+ms.openlocfilehash: b0ed8541068fe02e0bd1f005a5a9c7ee8f50ae1b
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580349"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705533"
 ---
-# <a name="update-yor-payment-method-for-your-subscription"></a>Atualizar o método de pagamento de ior para sua assinatura
+# <a name="update-the-payment-method-for-your-subscription"></a>Atualizar o método de pagamento para sua assinatura
+
+## <a name="watch-update-your-payment-method"></a>Assista: atualize seu método de pagamento
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AVxy?autoplay=false]
 
-Você pode atualizar facilmente o método de pagamento para sua assinatura do Microsoft 365 Business. Você pode alterar detalhes como o cartão de crédito usado, o nome ou o endereço.
+Você pode atualizar facilmente o método de pagamento para sua Microsoft 365 Business assinatura. Você pode alterar detalhes como o cartão de crédito usado, o nome ou o endereço.
 
 ## <a name="try-it"></a>Experimente!
 
