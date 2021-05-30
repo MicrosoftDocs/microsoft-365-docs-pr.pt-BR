@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: b5b633ba-1e56-4a98-8ff5-2acaac63a5c8
 description: Aprenda a localizar seu registrador de domínios e seu provedor de hospedagem de DNS usando a pesquisa do InterNIC.
-ms.openlocfilehash: 434e30709b112cf591159a1692540b8ef2b6bb65
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: af883f53c8c45aee2594b0f5b8b9da57e5717f9e
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49655537"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706389"
 ---
 # <a name="find-your-domain-registrar"></a>Localizar seu registrador de domínio
 
@@ -40,7 +40,7 @@ ms.locfileid: "49655537"
 >[!NOTE]
 > Somente domínios terminados em *.COM*, *.NET* e *.EDU* funcionam com esta ferramenta.
   
-1. Na [página de pesquisa do InterNIC](https://go.microsoft.com/fwlink/p/?LinkId=402770), na caixa **Whois Search**, digite seu domínio. Por exemplo,  *contoso.com.* 
+1. Na [página de pesquisa do InterNIC](https://go.microsoft.com/fwlink/p/?LinkId=402770), na caixa **Whois Search**, digite seu domínio. Por exemplo, *contoso.com.* 
     
 2. Selecione a opção **Domínio** e selecione **Enviar**.
     
@@ -59,7 +59,7 @@ ms.locfileid: "49655537"
     
 3. Na página **Whois Search Results**, localize a primeira entrada em **Name Server**. 
     
-4. Copie o NS (servidor de nomes) que aparece depois dos dois-pontos (:) e cole-o na caixa **Search**, na parte superior da página. Selecione **Nameserver** e depois selecione **Enviar**.
+4. Copie as informações do servidor de nomes (NS) que aparecem após os dois-pontos (:) e, em seguida, cole-as na caixa **Pesquisar** na parte superior da página. Selecione **Nameserver** e selecione **Enviar**.
     
 5. Na página **Whois Search Results**, localize a entrada **Registrar**. Ela informará o provedor de hospedagem de DNS, o provedor de DNS a que pertence o servidor de nomes do seu domínio. 
     

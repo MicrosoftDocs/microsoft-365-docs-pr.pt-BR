@@ -1,8 +1,9 @@
 ---
 title: Diferença entre modelo de compreensão de documentos e modelo de processamento de formulário
-ms.author: efrene
-author: efrene
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
+ms.reviewer: lauriellis
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -12,15 +13,14 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Descreve as principais diferenças entre o modelo de compreensão de documentos e o modelo de processamento de formulário
-ms.openlocfilehash: f12cc46e1ffcbc610f50ba327e22ad46a2591521
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: f19017ce8b748644177ac00f4daf7cb29ad522c6
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222264"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706505"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models"></a>Diferença entre modelo de compreensão de documentos e modelo de processamento de formulário 
-
 
 A compreensão do conteúdo no Microsoft SharePoint Syntex permite que você identifique e classifique os documentos carregados nas bibliotecas de documentos do SharePoint e extraia informações relevantes de cada arquivo.  Por exemplo, conforme os arquivos são carregados em uma biblioteca de documentos do SharePoint, todos os arquivos identificados como *Pedidos de Compra* são classificados como tal e, em seguida, exibidos em um modo de exibição de biblioteca de documentos personalizado. Além disso, você pode inserir informações específicas de cada arquivo (por exemplo, *Número do PC* e *Total*) e exibi-las como uma coluna no modo de exibição da biblioteca de documentos. 
 
@@ -36,16 +36,14 @@ Embora os dois modelos sejam usados para a mesma finalidade, as principais difer
 > [!NOTE]
 > Confira [Adoção do SharePoint Syntex: guia de introdução](./adoption-getstarted.md) para saber mais sobre os exemplos de cenários de processamento de formulário e compreensão de documentos.
 
-
 ## <a name="structured-versus-unstructured-and-semi-structured-content"></a>Conteúdo estruturado versus conteúdo não estruturado e semiestruturado
 
 Utilize modelos de compreensão de documento para identificar e extrair dados de documentos não estruturados, como cartas ou contratos, onde as entidades de texto que você deseja extrair estão em frases ou regiões específicas do documento. Por exemplo, um documento não estruturado pode ser uma carta de renovação de contrato que pode ser escrita de maneiras diferentes. No entanto, as informações existem de forma consistente no corpo de cada documento de renovação de contrato, como a cadeia de texto *Data de início do serviço de* seguida de uma data real.
 
-Use modelos de processamento de formulário para identificar arquivos e extrair dados de documentos estruturados e semiestruturados, como formulários ou faturas. Os modelos de processamento de formulário são treinados para entender o layout do seu formulário a partir de documentos de exemplo e aprender a procurar os dados que você precisa extrair de locais semelhantes. Os formulários geralmente têm um layout mais estruturado, onde as entidades estão no mesmo local (por exemplo, um número de previdência social em um formulário de imposto).
+Use modelos de processamento de formulário para identificar arquivos e extrair dados de documentos estruturados ou semiestruturados, como formulários ou faturas. Os modelos de processamento de formulário são treinados para entender o layout do formulário de documentos de exemplo e aprender a procurar os dados que você precisa extrair de locais semelhantes. Os formulários geralmente têm um layout mais estruturado em que as entidades estão no mesmo local (por exemplo, um número do seguro social em um formulário fiscal).
 
 > [!NOTE]
 > Você deve ter acesso a um site do centro de conteúdo para criar um modelo de compreensão de documentos ou aplicar um a uma biblioteca de documentos do SharePoint. 
-
 
 ## <a name="where-models-are-created"></a>Onde os modelos são criados
 
@@ -78,7 +76,7 @@ Use a tabela a seguir para entender quando usar o processamento de formulários 
 | Localizações | Treinado para uma única biblioteca de documentos.| Pode ser aplicado a várias bibliotecas.|
 | Tipos de arquivo compatíveis| Treine em PDF, JPG, formato PNG, total de 50 MB e 500 páginas.| Treine em 5-10 arquivos PDF, Office ou e-mail, incluindo exemplos negativos.<br>Os arquivos do Office são truncados em 64k caracteres. Os arquivos digitalizados por OCR são limitados a 20 páginas.|
 | Integrar com metadados gerenciados | Não | Sim, treinando o extrator de entidade que faz referência a um campo configurado de metadados gerenciados.|
-| Integração de recursos de conformidade quando a Proteção de Informações da Microsoft está habilitada | Definir rótulos de retenção publicados.<br>Definir rótulos de sensibilidade está chegando. | Definir rótulos de retenção publicados.<br>Definir rótulos de sensibilidade está chegando. |
+| Integração de recursos de conformidade quando a Proteção de Informações da Microsoft está habilitada | Definir rótulos de retenção publicados.<br>Definir rótulos de sensibilidade está chegando. | Definir rótulos de retenção publicados.<br>Definir rótulos de confidencialidade publicados. |
 | Regiões com suporte| O processamento de formulários depende do Power Platform. Para obter informações sobre a disponibilidade global para Power Platform e AI Builder, consulte [Disponibilidade da Power Platform ](https://dynamics.microsoft.com/geographic-availability/). | Disponível em todas as regiões.|
 | Custo de transação | Usa créditos do AI Builder.<br>Os créditos podem ser adquiridos em lotes de 1M.<br>1M de créditos são incluídos quando 300+ licenças do Microsoft Office SharePoint Online Syntex são adquiridas.<br>1M de créditos permitirá o processamento de 2.000 páginas de arquivo.<br>| N/A |
 | Capacidade | Usa o ambiente Power Platform padrão (ambientes personalizados com suporte para banco de dados do Dataverse). | Sem restrições de capacidade.|
