@@ -16,12 +16,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Use o monitoramento do Exchange Online para obter informações sobre incidentes de email ou avisos no Microsoft 365.
-ms.openlocfilehash: 53dc7f990f57fd8d4da68bd424947676cbf0e85d
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: ee31f8e152d7c54e37b850563bea57971e07f61c
+ms.sourcegitcommit: 76c91e7b0d3172de57988eb4576d2b91c2f9ce18
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572845"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52707291"
 ---
 # <a name="exchange-online-monitoring-for-microsoft-365"></a>Monitoramento do Exchange Online para Microsoft 365
 
@@ -49,9 +49,9 @@ Com a página de **monitoramento do Exchange Online**, você pode ver se o servi
 
 Esta pré-visualização está habilitada para os clientes que atendem a estes requisitos: 
 
-- A organização precisa ter uma contagem de licenças de pelo menos 10.000, de um ou uma combinação destes produtos: Office 365 E3, Microsoft 365 E3, Office 365 E5 e Microsoft 365 E5. 
+- A organização precisa ter uma contagem de licenças de pelo menos 5.000, de um ou uma combinação destes produtos: Office 365 E3, Microsoft 365 E3, Office 365 E5 e Microsoft 365 E5. 
 
-  Por exemplo, a organização pode ter 3.000 licenças do Office 365 E3 e 8.500 Microsoft 365 E5, para um total de 11.500 licenças dos produtos qualificados.
+  Por exemplo, a organização pode ter 3.000 licenças do Office 365 E3 e 2.500 do Microsoft 365 E5, para um total de 5.500 licenças dos produtos qualificados.
 
 - A organização precisa ter pelo menos 50 usuários ativos mensais do Exchange Online.
 
@@ -95,10 +95,10 @@ Primeiro, certifique-se de ter ativado o novo Centro de administração na pági
 
 Em seguida, certifique-se de atender a ambos os requisitos a seguir: 
 
-- A organização precisa ter uma contagem de licenças de pelo menos 10.000, de um ou uma combinação destes produtos: Office 365 E3, Microsoft 365 E3, Office 365 E5 e Microsoft 365 E5. 
+- A organização precisa ter uma contagem de licenças de pelo menos 5.000, de um ou uma combinação destes produtos: Office 365 E3, Microsoft 365 E3, Office 365 E5 e Microsoft 365 E5. 
 - A organização precisa ter pelo menos 50 usuários ativos mensais do Exchange Online.
 
-Se a contagem de licenças para a organização ficar abaixo de 10.000 usuários e os usuários ativos mensais ficarem abaixo de 50 usuários, o monitoramento do Exchange Online não será habilitado até que esses requisitos sejam atendidos.
+Se a contagem de licenças para a organização ficar abaixo de 5.000 usuários e os usuários ativos mensais ficarem abaixo de 50 usuários, o monitoramento do Exchange Online não será habilitado até que esses requisitos sejam atendidos.
 
 #### <a name="2-the-active-user-count-in-the-dashboard-for-each-client-appears-to-be-low-we-have-a-lot-of-active-licenses-assigned-to-users-what-does-this-mean"></a>2. A contagem de usuários ativos no painel de cada cliente parece ser baixa. Temos muitas licenças ativas atribuídas aos usuários. O que isto significa? 
 
@@ -132,5 +132,5 @@ Para comentários sobre incidentes ou avisos, use o link **Esta postagem é úti
 
 #### <a name="7-where-is-the-data-instrumented-for-the-scenarios-that-show-activity-trends"></a>7. Onde estão os dados instrumentados para os cenários que mostram tendências de atividade?
 
-Os dados são instrumentados no serviço Exchange Online. Se ocorrer uma falha antes de a solicitação chegar ao Exchange Online ou se houver uma falha no Exchange Online, você verá uma queda no sinal de atividade.
+Os dados são instrumentados no serviço Exchange Online. Se houver uma falha que acontece antes da solicitação chegar no Exchange Online ou se houver uma falha no Exchange Online, você verá uma queda do sinal de atividade.
 
