@@ -32,6 +32,8 @@
       href: create-a-form-processing-model.md
     - name: Aplicar um rótulo de retenção
       href: apply-a-retention-label-to-a-model.md
+    - name: Aplicar um rótulo de sensibilidade
+      href: apply-a-sensitivity-label-to-a-model.md
     - name: Análise de uso do modelo
       href: model-usage-analytics.md
     - name: Aproveitar a taxonomia do repositório de termos ao criar um extrator
