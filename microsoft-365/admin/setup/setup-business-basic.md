@@ -24,20 +24,20 @@ search.appverid:
 - MOE150
 - BEA160
 description: Saiba como configurar sua assinatura do Microsoft 365 Business Basic.
-ms.openlocfilehash: 51a83d4cc230fa4bdb78bba71c9c7193a36fd391
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 0251f601b8200bcd5f4f5a2d5640ff774cc94562
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535717"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706329"
 ---
 # <a name="set-up-microsoft-365-business-basic"></a>Configurar o Microsoft 365 Business Basic
 
- Assista a um vídeo curto sobre como configurar o Microsoft 365 Business Basic.<br><br>
+## <a name="watch-set-up-microsoft-365-business-basic"></a>Assista: configurar o Microsoft 365 Business Basic
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vk3W]
 
-Se você achou esse vídeo útil, confira as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](../../business-video/index.yml).
+Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](../../business-video/index.yml).
 
 ## <a name="add-your-domain-to-personalize-sign-in"></a>Adicione seu domínio para personalizar o login
 
