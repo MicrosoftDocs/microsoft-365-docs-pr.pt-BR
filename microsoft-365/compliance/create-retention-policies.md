@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use uma política de retenção para manter o controle eficiente do conteúdo que os usuários geram com email, documentos e conversas. Mantenha o que você deseja e descarte o que não.
-ms.openlocfilehash: 1faeae5dc145d6f908f9137387b875c890d22e14
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 7b23ed2b45a24e8999785909f9357043bef731e5
+ms.sourcegitcommit: cebbdd393dcfd93ff43a1ab66ad70115853f83e7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280422"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "52710689"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -54,7 +54,7 @@ Embora uma política de retenção possa oferecer suporte a vários serviços id
 - Mensagens do canal do Teams
 - Chats do Teams
 - Mensagens da comunidade do Yammer
-- Mensagens privadas do Yammer
+- Mensagens de usuário do Yammer
 
 Quando você seleciona um dos locais do Teams ou Yammer quando cria uma política de retenção, os outros locais são excluídos automaticamente. Isso significa que as instruções a seguir dependem de você precisar incluir os locais Teams ou do Yammer:
 
@@ -130,11 +130,11 @@ Se você tiver um site da equipe que não está conectado a um grupo do Microsof
     
     Não selecione **Usar as configurações avançadas de retenção** porque essa opção não tem suporte para os locais do Yammer. 
 
-4. Na página **Escolher locais**, selecione **Deixe-me escolher locais específicos**. Em seguida, alterne em um ou em ambos os locais do Yammer: **Mensagens da comunidade do Yammer** e **mensagens particulares do Yammer**.
+4. Na página **Escolher locais**, selecione **Deixe-me escolher locais específicos**. Em seguida, alterne em um ou em ambos os locais do Yammer: **Mensagens da comunidade do Yammer** e **mensagens de usuário do Yammer**.
     
     Por padrão, todas as comunidades e todos os usuários são selecionados, mas você pode refinar isso especificando as comunidades e os usuários a serem incluídos ou excluídos.
     
-    Para mensagens privadas do Yammer: 
+    Para as mensagens de usuário do Yammer: 
     - Se você deixar o padrão em **Todos**, os usuários convidados do Azure B2B não serão incluídos. 
     - Se você selecionar **Escolher usuário**, você poderá aplicar uma política de retenção a usuários externos se souber a conta deles.
 

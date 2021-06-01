@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: ba17a94fa4ae0d12405cc7e38d7d74e90fa7ad02
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: ab02559a439899fe25a560aa52718045b730ebd4
+ms.sourcegitcommit: cebbdd393dcfd93ff43a1ab66ad70115853f83e7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625216"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "52710713"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -116,7 +116,7 @@ As políticas de retenção podem ser aplicadas aos seguintes locais:
 - Mensagens do canal do Teams
 - Chats do Teams
 - Mensagens da comunidade do Yammer
-- Mensagens privadas do Yammer
+- Mensagens de usuário do Yammer
 
 Você pode aplicar uma única política de forma eficaz a vários locais ou a locais ou usuários específicos.
 
@@ -308,7 +308,7 @@ Explicação para os quatro níveis diferentes:
     
     Os documentos neste site de Marketing do SharePoint são retidos por dez anos porque esse é o período de retenção mais longo.
 
-3. **Explicito prevalece sobre o implícito.** Aplicável para determinar quando os itens serão excluídos: 
+3. **Explicito prevalece sobre o implícito nas exclusões.** Com os conflitos de retenção resolvidos, apenas os conflitos de exclusão permanecem: 
     
     1. Um rótulo de retenção (independentemente de como foi aplicado) fornece retenção explícita em comparação com as políticas de retenção, porque as configurações de retenção são aplicadas a um item individual em vez de atribuídas implicitamente a partir de um contêiner. Isso significa que uma ação de exclusão de um rótulo de retenção sempre tem precedência sobre uma ação de exclusão de qualquer política de retenção.
         

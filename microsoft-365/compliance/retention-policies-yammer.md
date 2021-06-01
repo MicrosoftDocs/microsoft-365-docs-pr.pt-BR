@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Yammer.
-ms.openlocfilehash: 0426fdf04090e535a99f8acd3bf376adfb016796
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1b99d0915cfb159f821818fb1425d7191a011351
+ms.sourcegitcommit: cebbdd393dcfd93ff43a1ab66ad70115853f83e7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917797"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "52710701"
 ---
 # <a name="learn-about-retention-for-yammer"></a>Saiba mais sobre a retenção para o Yammer
 
@@ -49,7 +49,7 @@ As reações de outras pessoas na forma de emoticons não estão incluídas ness
 
 Você pode usar uma política de retenção para reter e excluir mensagens da comunidade e mensagens privadas no Yammer. As mensagens privadas são armazenadas em uma pasta oculta na caixa de correio de cada usuário participante da mensagem, e as mensagens da comunidade são armazenadas em uma pasta oculta semelhante na caixa de correio da comunidade.
 
-As mensagens do Yammer não são afetadas pelas políticas de retenção configuradas para as caixas de correio de usuário ou de grupos. Embora as mensagens do Yammer sejam armazenadas no Exchange, estes dados do Yammer só serão incluídos em uma política de retenção configurada para os locais das **mensagens da comunidade do Yammer** e das **mensagens privadas do Yammer**.
+As mensagens do Yammer não são afetadas pelas políticas de retenção configuradas para as caixas de correio de usuário ou de grupos. Embora as mensagens do Yammer sejam armazenadas no Exchange, esses dados do Yammer só serão incluídos em uma política de retenção configurada para os locais das **mensagens da comunidade do Yammer** e das **mensagens de usuário do Yammer**.
 
 > [!NOTE]
 > Se um usuário estiver incluído em uma política de retenção ativa que retém dados do Yammer e você excluir uma caixa de correio de um usuário incluído nessa política, para reter os dados do Yammer, a caixa de correio será convertida em uma [caixa de correio inativa](inactive-mailboxes-in-office-365.md). Se você não precisar reter esses dados do Yammer para o usuário, exclua a conta de usuário da política de retenção antes de excluir a caixa de correio.
@@ -88,13 +88,13 @@ Quando a política de retenção é somente retenção ou somente exclusão, os 
 
 ## <a name="messages-and-external-users"></a>Mensagens e usuários externos
 
-Por padrão, uma política de retenção para mensagens privadas do Yammer se aplica a todos os usuários em sua organização, mas não a usuários externos. Você pode aplicar uma política de retenção a usuários externos se usar **Escolher usuário** e especificar sua conta. 
+Por padrão, uma política de retenção para mensagens de usuário do Yammer se aplica a todos os usuários da organização, mas não a usuários externos. Você pode aplicar uma política de retenção a usuários externos se usar **Escolher usuário** e especificar sua conta. 
 
 No momento, não há suporte para os usuários convidados do Azure B2B.
 
 ## <a name="when-a-user-leaves-the-organization"></a>Quando um usuário sair da organização 
 
-Se um usuário deixar sua organização e a conta do Microsoft 365 for excluída, suas mensagens privadas do Yammer sujeitas a retenção serão armazenadas em uma caixa de correio inativa. Essas mensagens permanecem sujeitas a qualquer política de retenção que foi colocada no usuário antes da sua caixa de correio ser desativada, e o conteúdo fica disponível para uma pesquisa de Descoberta Eletrônica. Para obter mais informações, consulte [Caixas de correio inativas no Exchange Online](inactive-mailboxes-in-office-365.md). 
+Se um usuário deixar a organização e a conta do Microsoft 365 for excluída, suas mensagens de usuário do Yammer sujeitas a retenção serão armazenadas em uma caixa de correio inativa. Essas mensagens permanecem sujeitas a qualquer política de retenção que foi colocada no usuário antes da sua caixa de correio ser desativada, e o conteúdo fica disponível para uma pesquisa de Descoberta Eletrônica. Para obter mais informações, consulte [Caixas de correio inativas no Exchange Online](inactive-mailboxes-in-office-365.md). 
 
 Se o usuário tiver armazenado os arquivos no Yammer, consulte a [seção equivalente](retention-policies-sharepoint.md#when-a-user-leaves-the-organization) do SharePoint e do OneDrive.
 
@@ -102,7 +102,7 @@ Se o usuário tiver armazenado os arquivos no Yammer, consulte a [seção equiva
 
 No momento, as políticas de retenção do Yammer estão no modo de visualização e estamos trabalhando continuamente para otimizar a funcionalidade de retenção. Enquanto isso, esteja ciente da seguinte limitação ao usar a retenção para mensagens da comunidade Yammer e mensagens privadas:
 
-- Ao selecionar **Escolher usuários** para o local **mensagens privadas do Yammer**, você poderá ver convidados e usuários sem caixa de correio. As políticas de retenção não são projetadas para esses usuários, portanto, não os selecione.
+- Ao selecionar **Escolher usuários** do local **mensagens de usuário do Yammer**, você poderá ver os convidados e usuários sem caixa de correio. As políticas de retenção não são projetadas para esses usuários, portanto, não os selecione.
 
 ## <a name="configuration-guidance"></a>Instruções de configuração
 
