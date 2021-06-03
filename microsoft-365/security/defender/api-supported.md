@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f2c66dca326589807f5712c5548c177a0d08ade0
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c10b2863503a5bda829cbf67379a606b687ac2e3
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935720"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730937"
 ---
 # <a name="supported-microsoft-365-defender-apis"></a>APIs com suporte do Microsoft 365 Defender 
 
@@ -43,6 +43,7 @@ Artigo | Descrição
 -|-
 [API de Busca Avançada](api-advanced-hunting.md) | Execute consultas de Busca Avançada.
 [APIs de Incidente](api-incident.md) | Listar e atualizar incidentes, juntamente com outras tarefas práticas.
+[API de streaming](../defender-endpoint/raw-data-export.md) (Visualização) | Enviar eventos e alertas em tempo real conforme eles ocorrem em um único fluxo de dados.
 
 ### <a name="endpoint-uris"></a>URIs de ponto de extremidade
 
@@ -58,7 +59,8 @@ Todas as APIs ao longo `/api` do caminho usam o Protocolo [OData;](/odata/overvi
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Visão geral das APIs do Microsoft 365 Defender](api-overview.md)
-- [Acessar as APIs do Microsoft 365 Defender](api-access.md)
+- [Microsoft 365 Visão geral das APIs do Defender](api-overview.md)
+- [Acessar as APIs Microsoft 365 Defender](api-access.md)
+- [Streaming API](../defender-endpoint/raw-data-export.md)
 - [Saiba mais sobre limites de API e licenciamento](api-terms.md)
 - [Compreender códigos de erro](api-error-codes.md)

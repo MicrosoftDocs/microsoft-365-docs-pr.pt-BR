@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: c82e1abf9e539ad169bbc488ade9cd21bb8e6727
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: 8ad5ffe2b175a8f7a42b2fad353fcde13a60cfec
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52029069"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730517"
 ---
-# <a name="microsoft-365-defender-preview-features"></a>Recursos de visualização do Microsoft 365 Defender
+# <a name="microsoft-365-defender-preview-features"></a>Microsoft 365 Recursos de visualização do Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -37,15 +37,15 @@ ms.locfileid: "52029069"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-O serviço do Microsoft 365 Defender está constantemente sendo atualizado para incluir novos aprimoramentos e recursos de recursos.
+O Microsoft 365 do Defender está constantemente sendo atualizado para incluir novos aprimoramentos e recursos de recursos.
 
-Saiba mais sobre os novos recursos na versão de visualização do Microsoft 365 Defender e entre os primeiros a experimentar os recursos futuros, a partir da experiência de visualização.
+Saiba mais sobre os novos recursos na versão de visualização do Microsoft 365 Defender e entre os primeiros a experimentar os recursos futuros, a ligar a experiência de visualização.
 
 Para obter mais informações sobre novos recursos que geralmente estão disponíveis, consulte [Novidades no Microsoft 365 Defender](whats-new.md).
 
 ## <a name="required-permissions"></a>Permissões obrigatórias
 
-As contas atribuídas às seguintes funções do Azure Active Directory (Azure AD) podem ativar os recursos do Microsoft 365 Defender Preview:
+As contas atribuídas às seguintes funções Azure Active Directory (Azure AD) podem ativar Microsoft 365 recursos do Defender Preview:
 
 - Administrador global
 - Administrador de segurança
@@ -68,7 +68,8 @@ Você saberá que tem prévia dos recursos ativados quando vir que a caixa de se
 
 Os recursos e aprimoramentos a seguir estão disponíveis em prévia:
 
-- **[APIs do Microsoft 365 Defender](api-overview.md)** - As APIs de nível superior do Microsoft 365 Defender permitirão automatizar fluxos de trabalho com base no incidente compartilhado e em tabelas avançadas de busca. 
-- **[Tomar medidas na busca avançada](advanced-hunting-take-action.md)**— contenha rapidamente ameaças ou endereços de ativos comprometidos que você encontra na busca [avançada.](advanced-hunting-overview.md)
-- **[Referência de esquema no portal](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)**— Obter informações sobre tabelas avançadas de esquema de busca diretamente no centro de segurança. Além das descrições de tabela e coluna, essa referência inclui tipos de eventos com suporte `ActionType` (valores) e consultas de exemplo.
-- **[Função DeviceFromIP() —](advanced-hunting-devicefromip-function.md)** Obter informações sobre quais dispositivos receberam um endereço IP específico ou endereços em um determinado intervalo de tempo.
+- **[API de streaming](../defender-endpoint/raw-data-export.md)** - o Microsoft 365 Defender oferece suporte ao streaming de todos os eventos disponíveis por meio da Busca Avançada para uma conta de armazenamento do Event Hubs e/ou do Azure.
+- **[Microsoft 365 APIs](api-overview.md)** do Defender - As APIs de nível superior Microsoft 365 Defender permitirão que você automatize fluxos de trabalho com base no incidente compartilhado e nas tabelas avançadas de busca. 
+- **[Tomar medidas na busca avançada](advanced-hunting-take-action.md)** - Conter rapidamente ameaças ou resolver ativos comprometidos que você encontra na busca [avançada](advanced-hunting-overview.md).
+- **[Referência de esquema no portal](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** - Obter informações sobre tabelas avançadas de esquema de busca diretamente no centro de segurança. Além das descrições de tabela e coluna, essa referência inclui tipos de eventos com suporte `ActionType` (valores) e consultas de exemplo.
+- **[Função DeviceFromIP()](advanced-hunting-devicefromip-function.md)** - Obter informações sobre quais dispositivos receberam um endereço IP específico ou endereços em um determinado intervalo de tempo.

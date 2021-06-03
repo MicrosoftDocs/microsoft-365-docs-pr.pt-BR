@@ -1,5 +1,5 @@
 ---
-title: Atualizar API de incidentes
+title: Atualizar a API de incidentes
 description: Saiba como atualizar incidentes usando Microsoft 365 API do Defender
 keywords: update, api, incident
 search.product: eADQiWindows 10XVcnh
@@ -20,20 +20,20 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e3f3919d067078ef1fd1e116dc52e8a73c0726d9
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: e3b445b2f9612f0113f353450ca7bf0b8a1a2bb2
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571776"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730853"
 ---
-# <a name="update-incident-api"></a>Atualizar API de incidentes
+# <a name="update-incidents-api"></a>Atualizar a API de incidentes
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 
-- Microsoft 365 Defender
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!IMPORTANT]
 > Algumas informações estão relacionadas a produtos pré-lançados que podem ser substancialmente modificados antes de seu lançamento comercial. A Microsoft não faz garantias, expressas ou implícitas, quanto às informações fornecidas aqui.
@@ -56,7 +56,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão | Permissão | Nome de exibição de permissão
 -|-|-
 Aplicativo | Incident.ReadWrite.All | Ler e gravar todos os incidentes
-Delegada (conta corporativa ou de estudante) | Incident.ReadWrite | Incidentes de leitura e gravação
+Delegado (conta corporativa ou de estudante) | Incident.ReadWrite | Incidentes de leitura e gravação
 
 > [!NOTE]
 > Ao obter um token usando credenciais de usuário, o usuário precisa ter permissão para atualizar o incidente no portal.
@@ -71,7 +71,7 @@ PATCH /api/incidents/{id}
 
 Nome | Tipo | Descrição
 -|-|-
-Autorização | String | Portador {token}. **Obrigatório**.
+Autorização | Cadeia de caracteres | Portador {token}. **Obrigatório**.
 Content-Type | Cadeia de Caracteres | application/json. **Obrigatório**.
 
 ## <a name="request-body"></a>Corpo da solicitação
@@ -81,10 +81,10 @@ No corpo da solicitação, fornece os valores para os campos que devem ser atual
 Propriedade | Tipo | Descrição
 -|-|-
 status | Enum | Especifica o status atual do incidente. Os valores possíveis são: ```Active``` ```Resolved``` , e ```Redirected``` .
-assignedTo | cadeia de caracteres | Proprietário do incidente.
+assignedTo | string | Proprietário do incidente.
 classificação | Enum | Especificação do incidente. Os valores possíveis são: ```Unknown```, ```FalsePositive```, ```TruePositive```.
 determinação | Enum | Especifica a determinação do incidente. Os valores possíveis são: ```NotAvailable```, ```Apt```, ```Malware```, ```SecurityPersonnel```, ```SecurityTesting```, ```UnwantedSoftware```, ```Other```.
-tags | string List | Lista de marcas de incidente.
+categorias | string List | Lista de marcas de incidente.
 comment | string | Comentário a ser adicionado ao incidente.
 
 ## <a name="response"></a>Resposta

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Declarar registros usando rótulos de retenção. '
-ms.openlocfilehash: fd88858c8d5cd1870f594050607b784a9dc5b78c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: fed988d2f880e4c0af1321cfb6ef4a873bd4e7ab
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925657"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730541"
 ---
 # <a name="declare-records-by-using-retention-labels"></a>Declarar registros usando rótulos de retenção
 
@@ -54,7 +54,7 @@ Se você mudar de ideia sobre como ver essa opção no assistente de etiqueta de
 
 ## <a name="configuring-retention-labels-to-declare-records"></a>Configurar rótulos de retenção para declarar registros
 
-Ao criar ou editar um rótulo de retenção na solução **Gerenciamento de Registros** no Centro de conformidade do Microsoft 365, você tem a opção de marcar os itens como um registro. Caso tenha executado o comando do Windows PowerShell da seção anterior, você pode marcar os itens como um registro regulatório.
+Ao criar um rótulo de retenção na solução **Gerenciamento de Registros** no Centro de conformidade do Microsoft 365, você tem a opção de marcar os itens como um registro. Caso tenha executado o comando do Windows PowerShell da seção anterior, você pode marcar os itens como um registro regulatório.
 
 Por exemplo:
 

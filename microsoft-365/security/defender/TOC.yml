@@ -296,6 +296,8 @@
           items:
             - name: Visão geral das APIs do Microsoft 365 Defender (visualização)
               href: api-overview.md
+            - name: APIs com suporte do Microsoft 365 Defender
+              href: api-supported.md
             - name: Introdução às APIs do Microsoft 365 Defender (visualização)
               items:
                 - name: Licença e termos de uso da API do Microsoft 365 Defender
@@ -314,19 +316,25 @@
                   href: api-articles.md
             - name: APIs e esquema do Microsoft 365 Defender (visualização)
               items:
-                - name: APIs com suporte do Microsoft 365 Defender
-                  href: api-supported.md
                 - name: Códigos de erro comuns da API REST
                   href: api-error-codes.md
+                - name: Streaming API
+                  items:
+                    - name: Microsoft 365 Streaming API
+                      href: ../defender-endpoint/raw-data-export.md
+                    - name: Transmitir eventos avançados de busca ao hub de Eventos do Azure
+                      href: ../defender-endpoint/raw-data-export-event-hub.md
+                    - name: Transmitir eventos avançados de busca para conta de armazenamento
+                      href: ../defender-endpoint/raw-data-export-storage.md
                 - name: API de Busca Avançada
                   href: api-advanced-hunting.md
-                - name: APIs de Incidente
+                - name: APIs de incidentes
                   items:
-                    - name: Propriedades e métodos de Incidente
+                    - name: Métodos e propriedades de incidentes
                       href: api-incident.md
                     - name: Listar incidentes
                       href: api-list-incidents.md
-                    - name: Atualizar incidente
+                    - name: Atualizar incidentes
                       href: api-update-incidents.md
     - name: Microsoft Defender para Office 365
       href: ../office-365-security/index.yml

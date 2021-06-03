@@ -22,12 +22,12 @@ ms.custom:
 description: Os administradores podem aprender sobre como a limpeza automática zero hora (ZAP) pode mover retroativamente mensagens entregues em uma caixa de correio Exchange Online para a pasta Lixo Eletrônico ou quarentena que são encontradas retroativamente como spam ou phishing.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ee5a3fee8e189ff9cc08f187971e728670766d6d
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 9612f6267a0786b6f81f1c9a3f2ac270e344d0a8
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684190"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730673"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Limpeza automática zero hora (ZAP) no Exchange Online
 
@@ -72,6 +72,12 @@ Para **mensagens** de leitura ou não lidas identificadas como phishing após a 
 Por padrão, a ZAP para phishing está habilitada em políticas anti-spam e a ação padrão para o veredito de filtragem de email de phishing é **a** mensagem quarentena , o que significa QUE o ZAP para **phishing** coloca a mensagem em quarentena por padrão.
 
 Para obter mais informações sobre como configurar vereditos de filtragem de spam, consulte [Configure anti-spam policies in Microsoft 365](configure-your-spam-filter-policies.md).
+
+### <a name="zap-for-high-confidence-phishing"></a>ZAP para phishing de alta confiança 
+
+Para **mensagens de leitura ou não lidas** identificadas como phishing de alta confiança após a entrega, o ZAP coloca a mensagem em quarentena. Somente os administradores podem exibir e gerenciar mensagens de phishing de alta confiança da quarentena. 
+
+O ZAP para phishing de alta confiança está habilitado por padrão. Para obter mais informações, consulte [Secure by Default in Office 365](secure-by-default.md).
 
 ### <a name="zap-for-spam"></a>ZAP para spam
 
@@ -119,6 +125,6 @@ O ZAP ainda funciona desde que a mensagem não tenha sido excluída, ou desde qu
 
 ### <a name="how-does-zap-affect-mailboxes-on-hold"></a>Como o ZAP afeta as caixas de correio em espera?
 
-O ZAP não colocará em quarentena mensagens de caixas de correio em espera. O ZAP pode mover mensagens para a pasta Lixo Eletrônico com base na ação configurada para um veredito de spam ou phishing em políticas anti-spam.
+O ZAP colocará em quarentena mensagens de caixas de correio em espera. O ZAP pode mover mensagens para a pasta Lixo Eletrônico com base na ação configurada para um veredito de spam ou phishing em políticas anti-spam.
 
 Para obter mais informações sobre Exchange Online, consulte [In-Place Hold and Litigation Hold in-Exchange Online](/Exchange/security-and-compliance/in-place-and-litigation-holds).

@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: O encaminhamento de email permite encaminhar mensagens de email enviadas para uma caixa de correio de usuário Microsoft 365 para outra caixa de correio dentro ou fora da sua organização.
-ms.openlocfilehash: 1d16a44749b51b582b7198cb331edf7faf3cf1f8
-ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
+ms.openlocfilehash: dfea738f5d786b6e476dd02dc92fd0aef452d62f
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52698911"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730133"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>Configurar o encaminhamento de email em Microsoft 365
 
@@ -57,7 +57,16 @@ Você deve ser um administrador Exchange ou administrador global no Microsoft 36
 
 4. Na página de encaminhamento de email, selecione Encaminhar todos os **emails** enviados para essa caixa de correio, insira o endereço de encaminhamento e escolha se deseja manter uma cópia dos emails encaminhados. Se você não vir essa opção, certifique-se de que uma licença seja atribuída à conta de usuário. Selecione **Salvar alterações**.
 
-    **Para encaminhar para vários endereços de email,** você pode pedir ao usuário para configurar uma regra Outlook encaminhar para os endereços. Para saber mais, confira [Usar regras para encaminhar automaticamente mensagens](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746).
+    **Para encaminhar para vários endereços de email,** você pode pedir ao usuário para configurar uma regra Outlook encaminhar para os endereços. 
+    
+    1.  Abrir **o Outlook**  >  **Home** Rules  >   **>** Selecionar Gerenciar Regras & **Alertas**
+    1. Selecione **Nova Regra Selecione** Aplicar regra na mensagem que  >  **recebo** localizada na parte inferior da lista e clique em **Próximo**.
+    1. Clique **em Sim** quando solicitado Esta regra será aplicada a cada mensagem que você receber. 
+    1. Na próxima lista, selecione as ações **redirecione-a para pessoas ou** grupos públicos e **pare de processar mais regras**
+    1. Clique na frase sublinhada **pessoas ou grupo público** na parte inferior da janela.
+    1. Digite o **endereço de email** para o qual encaminhar emails no campo Para e clique em **OK**.
+    1. Selecionar **Concluir**
+    
 
      Ou, no centro de administração, crie um grupo de [distribuição,](add-user-or-contact-to-distribution-list.md)adicione os endereços a ele e, em seguida, defina o encaminhamento para apontar para [a](../setup/create-distribution-lists.md)DL usando as instruções neste artigo.
 

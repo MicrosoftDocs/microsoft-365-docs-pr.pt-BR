@@ -1,6 +1,6 @@
 ---
-title: Transmitir eventos do Microsoft Defender para Ponto de Extremidade para sua conta de Armazenamento
-description: Saiba como configurar o Microsoft Defender para o Ponto de Extremidade para transmitir eventos de Busca Avançada para sua conta de Armazenamento.
+title: Transmitir Microsoft 365 eventos do Defender para sua conta Armazenamento usuário
+description: Saiba como configurar o Microsoft 365 Defender para transmitir eventos de Busca Avançada para sua Armazenamento conta.
 keywords: exportação de dados brutos, API de streaming, API, Hubs de Eventos, armazenamento do Azure, conta de armazenamento, Busca Avançada, compartilhamento de dados brutos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,48 +16,49 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 19fe0c9c3dc6f2e4226a4aa9a6cd983bc95bae3a
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 1a1d6b63bcdf21535f36b23d4a30e5ea01833c36
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688784"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52729987"
 ---
-# <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-storage-account"></a>Configurar o Microsoft Defender para o Ponto de Extremidade para transmitir eventos de Busca Avançada para sua conta de Armazenamento
+# <a name="configure--microsoft-365-defender-to-stream-advanced-hunting-events-to-your-storage-account"></a>Configure Microsoft 365 Defender para transmitir eventos de Busca Avançada para sua Armazenamento de usuário
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
-- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
+[!include[Prerelease information](../../includes/prerelease.md)]
+
 
 ## <a name="before-you-begin"></a>Antes de começar:
 
-1. Crie uma [conta de armazenamento](https://docs.microsoft.com/azure/storage/common/storage-account-overview) em seu locatário.
+1. Crie uma [Armazenamento em](/azure/storage/common/storage-account-overview) seu locatário.
 
-2. Faça logoff no locatário do [Azure,](https://ms.portal.azure.com/)acesse Assinaturas > Sua assinatura > Provedores de Recursos **> Registrar no Microsoft.insights**.
+2. Faça logoff no locatário do [Azure,](https://ms.portal.azure.com/)acesse Assinaturas > Sua assinatura > Provedores de Recursos **> Registrar no Microsoft.Insights**.
 
 ## <a name="enable-raw-data-streaming"></a>Habilitar o streaming de dados brutos:
 
-1. Faça logon [no portal do Microsoft Defender para Ponto de Extremidade](https://securitycenter.windows.com) como um * Administrador **Global** _ ou _* Administrador _de Segurança_**.
+1. Faça logon [no Microsoft 365 de](https://security.microsoft.com) segurança do Defender como um * Administrador **Global** _ ou _* Administrador _de Segurança_**.
 
-2. Vá para [a página Configurações de exportação de dados](https://securitycenter.windows.com/interoperability/dataexport) no Centro de Segurança do Microsoft Defender.
+2. Vá para [a página Configurações de exportação de dados](https://security.microsoft.com/settings/mtp_settings/raw_data_export) Central de Segurança do Microsoft Defender.
 
 3. Clique em **Adicionar configurações de exportação de dados.**
 
 4. Escolha um nome para suas novas configurações.
 
-5. Escolha **Encaminhar eventos para o Armazenamento do Azure.**
+5. Escolha **Encaminhar eventos para o Azure Armazenamento**.
 
-6. Digite sua **ID de Recurso de Conta de Armazenamento**. Para obter a **ID** do Recurso de Conta de Armazenamento, vá para a página Conta de Armazenamento na guia propriedades do portal do [Azure](https://ms.portal.azure.com/) > > para copiar o texto em **ID** do recurso da conta de armazenamento:
+6. Digite sua **Armazenamento ID do Recurso da Conta.** Para obter Armazenamento **ID** do Recurso de Conta, vá até Armazenamento página da sua conta do [Azure na](https://ms.portal.azure.com/) guia propriedades do portal do Azure > > copie o texto em Armazenamento **ID** do Recurso de Conta :
 
    ![Imagem da ID do recurso do hub de eventos1](images/storage-account-resource-id.png)
 
 7. Escolha os eventos que deseja transmitir e clique em **Salvar**.
 
-## <a name="the-schema-of-the-events-in-the-storage-account"></a>O esquema dos eventos na conta de armazenamento:
+## <a name="the-schema-of-the-events-in-the-storage-account"></a>O esquema dos eventos na conta Armazenamento:
 
 - Um contêiner blob será criado para cada tipo de evento: 
 
@@ -67,10 +68,10 @@ ms.locfileid: "51688784"
 
   ```
   {
-          "time": "<The time WDATP received the event>"
+          "time": "<The time Microsoft 365 Defender received the event>"
           "tenantId": "<Your tenant ID>"
           "category": "<The Advanced Hunting table name with 'AdvancedHunting-' prefix>"
-          "properties": { <WDATP Advanced Hunting event as Json> }
+          "properties": { <Microsoft 365 Defender Advanced Hunting event as Json> }
   }               
   ```
 
@@ -78,15 +79,14 @@ ms.locfileid: "51688784"
 
 - Cada linha contém o nome do evento, a hora em que o Defender for Endpoint recebeu o evento, o locatário que ele pertence (você só receberá eventos do seu locatário) e o evento no formato JSON em uma propriedade chamada "properties".
 
-- Para obter mais informações sobre o esquema do Microsoft Defender para eventos do Ponto de Extremidade, consulte [Visão geral de Busca Avançada](advanced-hunting-overview.md).
+- Para obter mais informações sobre o esquema de eventos Microsoft 365 Defender, consulte [Advanced Hunting overview](../defender/advanced-hunting-overview.md).
 
-- Em Busca Avançada, a tabela **DeviceInfo** tem uma coluna chamada **MachineGroup** que contém o grupo do dispositivo. Aqui todos os eventos também serão decorados com esta coluna. Confira [Grupos de Dispositivos](machine-groups.md) para obter mais informações.
 
 ## <a name="data-types-mapping"></a>Mapeamento de tipos de dados:
 
 Para obter os tipos de dados para nossas propriedades de eventos, faça o seguinte:
 
-1. Faça logoff no [Centro de Segurança do Microsoft Defender](https://securitycenter.windows.com) e acesse a página Busca [Avançada.](https://securitycenter.windows.com/hunting-package)
+1. Entre no centro [Microsoft 365 segurança e](https://security.microsoft.com) vá para a página De Busca [Avançada.](https://security.microsoft.com/hunting-package)
 
 2. Execute a seguinte consulta para obter o mapeamento de tipos de dados para cada evento: 
 
@@ -101,7 +101,7 @@ Para obter os tipos de dados para nossas propriedades de eventos, faça o seguin
   ![Imagem da ID do recurso do hub de eventos3](images/machine-info-datatype-example.png)
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Visão geral da Busca Avançada](advanced-hunting-overview.md)
-- [API de streaming do Microsoft Defender para Ponto de Extremidade](raw-data-export.md)
-- [Transmitir eventos do Microsoft Defender para Ponto de Extremidade para sua conta de armazenamento do Azure](raw-data-export-storage.md)
-- [Documentação da Conta de Armazenamento do Azure](https://docs.microsoft.com/azure/storage/common/storage-account-overview)
+- [Visão geral da Busca Avançada](../defender/advanced-hunting-overview.md)
+- [Microsoft 365 Defender Streaming API](raw-data-export.md)
+- [Transmitir Microsoft 365 eventos do Defender para sua conta de armazenamento do Azure](raw-data-export-storage.md)
+- [Documentação Armazenamento conta do Azure](/azure/storage/common/storage-account-overview)

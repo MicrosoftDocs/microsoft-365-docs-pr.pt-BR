@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: Este artigo descreve como você pode iniciar seu portal usando o agendador de início do portal
-ms.openlocfilehash: fdf92f2bbdfb673f1db446b562e941d61679fa9a
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: ac55a5b0cc9d252642c890b78ccec1ba720f0957
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694348"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730253"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>Iniciar seu portal usando o agendador de SharePoint portal
 
@@ -120,7 +120,7 @@ Anteriormente, os lançamentos de portal só podiam ser agendados por meio Share
 
 ### <a name="launch-portal-with-over-100k-users"></a>Portal de lançamento com mais de 100 mil usuários
 
-Se você planeja migrar acima de 100 TB, envie uma solicitação de suporte de acordo com as etapas listadas a seguir. Não deixe de incluir todas as informações solicitadas.
+Se você estiver planejando iniciar um portal com mais de 100.000 usuários, envie uma solicitação de suporte seguindo as etapas listadas abaixo. Não deixe de incluir todas as informações solicitadas.
 
 Siga estas etapas:
 1. Navegue até https://admin.microsoft.com
@@ -136,7 +136,7 @@ Siga estas etapas:
 7. Preencha as informações restantes e selecione **Entrar em contato comigo**.
 8. Depois de o tíquete ter sido criado, certifique-se de fornecer ao agente de suporte as seguintes informações:
 - Iniciar URL do Portal 
-- Número de usuários esperados
+- Número de usuários esperado
 - Tempo estimado de lançamento 
 
 ## <a name="make-changes-to-a-scheduled-portal-launch"></a>Fazer alterações em um lançamento de portal agendado

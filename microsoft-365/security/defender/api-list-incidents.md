@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 6f0c92371e7e9b7a3348f90df788ee8c3a46374b
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 833bc1d8284829323cc2f0c391e42f4e563a6948
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572148"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730877"
 ---
 # <a name="list-incidents-api-in-microsoft-365-defender"></a>Listar a API de incidentes no Microsoft 365 Defender
 
@@ -34,7 +34,7 @@ ms.locfileid: "52572148"
 
 **Aplica-se a:**
 
-- Microsoft 365 Defender
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!IMPORTANT]
 > Algumas informações estão relacionadas a produtos pré-lançados que podem ser substancialmente modificados antes de seu lançamento comercial. A Microsoft não faz garantias, expressas ou implícitas, quanto às informações fornecidas aqui.
@@ -63,8 +63,8 @@ Tipo de permissão | Permissão | Nome de exibição de permissão
 -|-|-
 Aplicativo | Incident.Read.All | Ler todos os incidentes
 Aplicativo | Incident.ReadWrite.All | Ler e gravar todos os incidentes
-Delegada (conta corporativa ou de estudante) | Incident.Read | Ler incidentes
-Delegada (conta corporativa ou de estudante) | Incident.ReadWrite | Incidentes de leitura e gravação
+Delegado (conta corporativa ou de estudante) | Incident.Read | Ler incidentes
+Delegado (conta corporativa ou de estudante) | Incident.ReadWrite | Incidentes de leitura e gravação
 
 > [!Note]
 > Ao obter um token usando credenciais de usuário:
@@ -82,7 +82,7 @@ GET /api/incidents
 
 Nome | Tipo | Descrição
 -|-|-
-Autorização | String | Portador {token}. **Required**
+Autorização | Cadeia de caracteres | Portador {token}. **Required**
 
 
 ## <a name="request-body"></a>Corpo da solicitação
@@ -109,7 +109,7 @@ classificação | A especificação do incidente. Os valores da propriedade são
 determinação | Especifica a determinação do incidente. Os valores da propriedade são: *NotAvailable*, *Apt*, *Malware*, *SecurityPersonnel,* *SecurityTesting,* *UnwantedSoftware*, *Other* | NotAvailable
 status | Categorizar incidentes (como *Ativo* ou *Resolvido).* Ele pode ajudá-lo a organizar e gerenciar sua resposta a incidentes. | Ativa
 severity | Indica o possível impacto nos ativos. Quanto maior a gravidade, maior será o impacto. Normalmente, itens de severidade mais altos exigem a atenção mais imediata.<br /><br />Um dos seguintes valores: *Informational*, *Low*, *Medium e *High*. | Médio
-tags | Matriz de marcas personalizadas associadas a um incidente, por exemplo, para sinalizar um grupo de incidentes com uma característica comum. | \[\]
+categorias | Matriz de marcas personalizadas associadas a um incidente, por exemplo, para sinalizar um grupo de incidentes com uma característica comum. | \[\]
 comentários | Matriz de comentários criados por secops ao gerenciar o incidente, por exemplo, informações adicionais sobre a seleção de classificação. | \[\]
 alerts | Matriz contendo todos os alertas relacionados ao incidente, além de outras informações, como gravidade, entidades envolvidas no alerta e a origem dos alertas. | \[\] (consulte detalhes sobre campos de alerta abaixo)
 
@@ -124,8 +124,8 @@ creationTime | Hora em que o alerta foi criado pela primeira vez. | 2020-09-06T1
 lastUpdatedTime | Hora em que o alerta foi atualizado pela última vez no back-end. | 2020-09-06T14:46:57.2433333Z
 resolvedTime | Hora em que o alerta foi resolvido. | 2020-09-10T05:22:59Z
 firstActivity | Hora em que o alerta relatou pela primeira vez que a atividade foi atualizada no back-end.| 2020-09-04T05:22:59Z
-title | Breve identificação do valor da cadeia de caracteres disponível para cada alerta. | Atividade de ransomware
-descrição | Valor de cadeia de caracteres que descreve cada alerta. | O usuário Test User2 (testUser2@contoso.com) manipulou 99 arquivos com várias extensões terminando com a extensão *incomum herunterladen*. Esse é um número incomum de manipulações de arquivos e indica um possível ataque de ransomware.
+Título | Breve identificação do valor da cadeia de caracteres disponível para cada alerta. | Atividade de ransomware
+description | Valor de cadeia de caracteres que descreve cada alerta. | O usuário Test User2 (testUser2@contoso.com) manipulou 99 arquivos com várias extensões terminando com a extensão *incomum herunterladen*. Esse é um número incomum de manipulações de arquivos e indica um possível ataque de ransomware.
 category | Exibição visual e numérica da distância em que o ataque progrediu ao longo da cadeia de morte. Alinhado ao [MITRE ATT&CK™ framework](https://attack.mitre.org/). | Impacto
 status | Categorizar alertas (como *Novo,* *Ativo* ou *Resolvido).* Ele pode ajudá-lo a organizar e gerenciar sua resposta a alertas. | Novo
 severity | Indica o possível impacto nos ativos. Quanto maior a gravidade, maior será o impacto. Normalmente, itens de severidade mais altos exigem a atenção mais imediata.<br>Um dos seguintes valores: *Informational*, *Low*, *Medium e *High*. | Médio
@@ -151,7 +151,7 @@ osBuild | A versão de com build do sistema operacional em execução do disposi
 rbacGroupName | O grupo de controle [de acesso](/azure/role-based-access-control/overview) baseado em função (RBAC) associado ao dispositivo. | WDATP-Ring0
 firstSeen | Hora em que o dispositivo foi visto pela primeira vez. | 2020-02-06T14:16:01.9330135Z
 healthStatus | O estado de saúde do dispositivo. | Ativa
-riskScore | A pontuação de risco do dispositivo. | Alta
+riskScore | A pontuação de risco do dispositivo. | Alto
 entidades | Todas as entidades identificadas para fazer parte ou relacionadas a um determinado alerta. | \[\] (consulte detalhes sobre os campos de entidade abaixo)
 
 ### <a name="entity-format"></a>Formato de entidade
@@ -186,7 +186,7 @@ securityGroupId | Disponível se entityType for  *SecurityGroup*. | 301c47c8-e15
 securityGroupName | Disponível se entityType for  *SecurityGroup*. | Operadores de Configuração de Rede
 registryHive | Disponível se entityType for  *Registry*. | MÁQUINA LOCAL HKEY \_ \_ |
 registryKey | Disponível se entityType for  *Registry*. | SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
-registryValueType | Disponível se entityType for  *Registry*. | String
+registryValueType | Disponível se entityType for  *Registry*. | Cadeia de caracteres
 registryValue | Disponível se entityType for  *Registry*. | 31-00-00-00
 deviceId | A ID, se for o caso, do dispositivo relacionado à entidade. | 986e5df8b73dacd43c8917d17e523e76b13c75cd
 

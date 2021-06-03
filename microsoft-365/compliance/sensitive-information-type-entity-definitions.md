@@ -19,12 +19,12 @@ hideEdit: true
 feedback_system: None
 recommendations: false
 description: A prevenção contra perda de dados (DLP) no Centro de Conformidade e Segurança inclui mais de 200 tipos de informações confidenciais que estão prontos para uso em suas políticas &amp; de DLP. Este artigo lista todos esses tipos de informações confidenciais e mostra o que uma política de DLP procura quando detecta cada tipo.
-ms.openlocfilehash: 0f3de14466cf9d2ebf5550eaec002bd4dea6e435
-ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
+ms.openlocfilehash: ff976389e75e96d0a018d7c5379e2831313388dc
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "52086724"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730469"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Definições da entidade de tipo de informações confidenciais 
 
@@ -38,18 +38,17 @@ nove dígitos que podem estar em um padrão formatado ou não formatado
 
 ### <a name="pattern"></a>Padrão
 
-Formatado:
-- quatro dígitos começando com 0, 1, 2, 3, 6, 7 ou 8
-- um hífen
+- dois dígitos nos intervalos 00-12, 21-32, 61-72 ou 80
+- dois dígitos
+- um hífen opcional
 - quatro dígitos
-- um hífen
+- um hífen opcional
 - um dígito
 
-Não formatado: nove dígitos consecutivos começando com 0, 1, 2, 3, 6, 7 ou 8 
 
 ### <a name="checksum"></a>Soma de verificação
 
-Não
+Sim
 
 ### <a name="definition"></a>Definição
 
@@ -619,11 +618,12 @@ Uma política DLP tem alta confiança de que detectou esse tipo de informação 
 
 ### <a name="format"></a>Formatar
 
-Uma letra seguida por sete dígitos
+oito ou nove caracteres alfanuméricos 
 
 ### <a name="pattern"></a>Padrão
 
-Uma letra (não sensível a minúsculas) seguida de sete dígitos
+- uma letra (N, E, D, F, A, C, U, X) seguida por 7 dígitos ou
+- 2 letras (PA, PB, PC, PD, PE, PF, PU, PW, PX, PZ) seguidas por 7 dígitos.
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -632,60 +632,48 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem confiança média de que detectou esse tipo de informação confidenciais se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Regex_australia_passport_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_passport ou Keyword_australia_passport_number é encontrada.
+- A expressão regular `Regex_australia_passport_number` localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave de `Keyword_australia_passport_number` é encontrada.
+
+Uma política de DLP tem baixa confiança de que detectou esse tipo de informação confidenciais se, dentro de uma proximidade de 300 caracteres:
+- A expressão regular `Regex_australia_passport_number` localiza conteúdo que corresponde ao padrão.
 
 ```xml
-<!-- Australia Passport Number -->
-<Entity id="29869db6-602d-4853-ab93-3484f905df50" patternsProximity="300" recommendedConfidence="75">
-  <Pattern confidenceLevel="75">
+    <!-- Australia Passport Number -->
+    <Entity id="29869db6-602d-4853-ab93-3484f905df50" patternsProximity="300" recommendedConfidence="75" relaxProximity="true">
+      <Pattern confidenceLevel="75">
         <IdMatch idRef="Regex_australia_passport_number" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_passport" />
-          <Match idRef="Keyword_australia_passport_number" />
-        </Any>
-   </Pattern>
-</Entity>   
+        <Match idRef="Keyword_australia_passport_number" />
+      </Pattern>
+      <Pattern confidenceLevel="65">
+        <IdMatch idRef="Regex_australia_passport_number" />
+      </Pattern>
+    </Entity>  
 ```
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keyword_passport"></a>Keyword_passport
-
-- Passport Number
-- Passport No
-- Passport #
-- Passport #
-- PassportID
-- Passportno
-- passportnumber
-- パスポート
-- パスポート番号
-- パ ポトiNum
-- パスポート ＃ 
-- Numéro de passeport
-- Passeport n °
-- Passeport Non
-- Passeport #
-- Passeport #
-- PasseportNon
-- Passeportn °
-
 #### <a name="keyword_australia_passport_number"></a>Keyword_australia_passport_number
 
-- passport
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
+- passport number
+- passportnumbers
+- números do passport
 - passport details
 - immigration and citizenship
 - commonwealth of australia
 - department of immigration
-- residential address
-- department of immigration and citizenship
-- visa
 - national identity card
-- passport number
 - travel document
 - issuing authority
-   
+
+
 ## <a name="australia-tax-file-number"></a>Número do arquivo fiscal da Austrália
 
 ### <a name="format"></a>Formatar
@@ -8665,7 +8653,7 @@ O padrão deve incluir todos os seguintes itens:
 
 O formato para cada país é ligeiramente diferente. O tipo de informação confidenciais do IBAN abrange esses 60 países:
 
-ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, fr, gb, ge, gi, gl, gr, hr, hu, ie, il, is, it, kw, kz, lb, li, lt, lu, lv, mc, md, me, mk, mr, mt, mu, nl, no, pl, pt, ro, rs, sa, se, si, sk, sm, tn, tr, vg
+ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, fr, gb, ge, gi, gl, gr, hr, hu, ie, il, is, it, kw, kz, lb, li, lt, lu, lv, mc, md, me, mk, mr, mt, mu, nl, no, pl, pt, ro, rs, sa, se, si, sk , sm, tn, tr, vg
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -8688,7 +8676,7 @@ Uma política DLP tem alta confiança de que detectou esse tipo de informação 
 
 ### <a name="keywords"></a>Palavras-chave
 
-Nenhum
+None
 
    
 ## <a name="international-classification-of-diseases-icd-10-cm"></a>Classificação internacional de doença (ICD-10-CM)

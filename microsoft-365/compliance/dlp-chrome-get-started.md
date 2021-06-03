@@ -1,5 +1,5 @@
 ---
-title: Comece com a Extensão de Conformidade da Microsoft (visualização)
+title: Comece a usar a Extensão de Conformidade da Microsoft (visualização)
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -19,14 +19,14 @@ ms.collection:
 search.appverid:
 - MET150
 description: Prepare-se e implante a Extensão de Conformidade da Microsoft.
-ms.openlocfilehash: 6ae44a86d415161cd3d7adf40671f02d93fb83c6
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 084d8fea1bffb012b4a4685dd28ec93df8e29b19
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52113859"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730505"
 ---
-# <a name="get-started-with-microsoft-compliance-extension-preview"></a>Começar a usar a Extensão de Conformidade da Microsoft (prévia)
+# <a name="get-started-with-microsoft-compliance-extension"></a>Comece a usar a Extensão de Conformidade da Microsoft
 
 Use estes procedimentos para implementar a Extensão de Conformidade da Microsoft.
 
@@ -261,9 +261,8 @@ Agora que você removeu o Chrome da lista de navegadores/aplicativos não permit
 
 ### <a name="known-issues-and-limitations"></a>Limitações e problemas conhecidos
 
-1. A imposição Arrastar e soltar para carregamento de pasta não é compatível.
-2. A imposição de substituição de bloqueio para saída da nuvem não é compatível.
-3. O modo anônimo não é compatível e deve ser desabilitado.
+1. A imposição de substituição de bloqueio para saída da nuvem não é compatível.
+2. O modo anônimo não é compatível e deve ser desabilitado.
 
 ## <a name="next-steps"></a>Próximas etapas
 Agora que você tem dispositivos integrados e pode exibir os dados de atividade no Explorador de atividades, você está pronto para prosseguir para a próxima etapa na qual você cria políticas DLP que protegem seus itens confidenciais.

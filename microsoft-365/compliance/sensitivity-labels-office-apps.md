@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informações para administradores de TI para gerenciar rótulos de confidencialidade em aplicativos do Office para área de trabalho, dispositivos móveis e Web.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dd3f1e7329612755a1806b5d9af8e13f07790cd6
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: a7ac7415ce5e7f88b21128846b7cff957e388fd5
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625120"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730373"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Gerenciar rótulos de confidencialidade em aplicativos do Office
 
@@ -387,54 +387,24 @@ Para obter diretrizes sobre quando usar essa configuração, confira as informa�
 
 ## <a name="outlook-specific-options-for-default-label-and-mandatory-labeling"></a>Opções específicas do Outlook para rótulo padrão e rotulagem obrigatória
 
-Para rotulagem interna, identifique as versões mínimas do Outlook que oferecem suporte a esses recursos usando a [tabela de recursos do Outlook](#sensitivity-label-capabilities-in-outlook) nesta página e a linha **Configurações diferentes para rótulo padrão e rotulagem obrigatória**.
+Para rotulagem interna, identifique as versões mínimas do Outlook que oferecem suporte a esses recursos usando a [tabela de recursos do Outlook](#sensitivity-label-capabilities-in-outlook) nesta página e a linha **Configurações diferentes para rótulo padrão e rotulagem obrigatória**. Todas as versões do cliente de rotulagem unificada da Proteção de Informações do Azure são suportadas por essas opções específicas do Outlook.
 
-Por padrão, quando você seleciona as configurações de política de rótulo **Aplicar este rótulo por padrão a documentos e emails** e **Requer que os usuários apliquem um rótulo a seus emails ou documentos**, sua escolha de configuração se aplica tanto aos emails quanto aos documentos.
+Quando o aplicativo Outlook dá suporte a uma configuração de rótulo padrão diferente da configuração de rótulo padrão para documentos:
 
-Para aplicar configurações diferentes aos emails, use as configurações avançadas do PowerShell:
+- No assistente de política de rótulos, na página **Aplicar um rótulo padrão aos emails**, você pode especificar sua escolha de rótulo de sensibilidade que será aplicado a todos os emails sem rótulo ou sem rótulo padrão. Essa configuração é independente da configuração **Aplicar esse rótulo por padrão aos documentos** na página anterior **Configurações de política para documentos** do assistente.
 
-- **OutlookDefaultLabel**: use essa configuração se quiser que o Outlook aplique um rótulo padrão diferente ou nenhum rótulo.
+Quando o aplicativo Outlook não dá suporte a uma configuração de rótulo padrão diferente da configuração de rótulo padrão para documentos: o Outlook sempre usará o valor especificado para **Aplicar esse rótulo por padrão aos documentos** na página **Configurações de política para documentos** do assistente de política de rótulos.
 
-- **DisableMandatoryInOutlook**: use essa configuração se quiser que o Outlook seja isento de solicitar que os usuários selecionem um rótulo para mensagens de email não rotuladas.
+Quando o aplicativo Outlook dá suporte à desabilitação de rotulagens obrigatórias:
 
-Para saber mais sobre como definir essas configurações usando o PowerShell, confira a próxima seção.
+- No assistente de política de rótulos, na página **Configurações da Política**, selecione **Exigir que os usuários apliquem um rótulo aos emails ou documentos**. Em seguida, selecione **Próximo** > **Próximo** e desmarque a caixa de seleção **Exigir que os usuários apliquem um rótulo aos emails**. Mantenha a caixa de seleção marcada se quiser que a rotulagem obrigatória se aplique a emails e documentos.
 
-### <a name="powershell-advanced-settings-outlookdefaultlabel-and-disablemandatoryinoutlook"></a>Configurações avançadas do PowerShell OutlookDefaultLabel e DisableMandatoryInOutlook
+Quando o aplicativo do Outlook não dá suporte à desabilitação de rotulagem obrigatória: se você selecionar **Exigir que os usuários apliquem um rótulo aos emails ou documentos** como uma configuração de política, o Outlook sempre solicitará que os usuários selecionem um rótulo para emails sem rótulo.
 
-Essas configurações são compatíveis com o uso do PowerShell com o parâmetro *AdvancedSettings* e os cmdlets [Set-LabelPolicy](/powershell/module/exchange/set-labelpolicy) e [New-LabelPolicy](/powershell/module/exchange/new-labelpolicy) do [PowerShell do Centro de Conformidade e Segurança](/powershell/exchange/scc-powershell). Anteriormente compatíveis apenas com o cliente de rotulagem unificada da Proteção de Informações do Azure, essas duas configurações avançadas agora têm suporte para rotulagem interna.
-
-Exemplos do PowerShell, em que a política de rótulo é denominada **Global**:
-
-- Para isentar o Outlook de um rótulo padrão:
-    
-    ````powershell
-    Set-LabelPolicy -Identity Global -AdvancedSettings @{OutlookDefaultLabel="None"}
-    ````
-
-- Para isentar o Outlook da rotulagem obrigatória:
-    
-    ````powershell
-    Set-LabelPolicy -Identity Global -AdvancedSettings @{DisableMandatoryInOutlook="True"}
-    ````
-
-Atualmente, OutlookDefaultLabel e DisableMandatoryInOutlook são as únicas configurações avançadas do PowerShell com suporte para rotulagem interna e para o cliente de Proteção de Informações do Azure.
-
-As outras configurações avançadas do PowerShell permanecem com suporte apenas para o cliente de Proteção de Informações do Azure. Para obter mais informações sobre como usar configurações avançadas para o cliente de Proteção de Informações do Azure, confira o [Guia do administrador: configurações personalizadas para o cliente de rotulagem unificada da Proteção de Informações do Azure](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#configuring-advanced-settings-for-the-client-via-powershell).
-
-#### <a name="powershell-tips-for-specifying-the-advanced-settings"></a>Dicas do PowerShell para especificar as configurações avançadas
-
-Para especificar um rótulo padrão diferente para o Outlook, identifique o rótulo por seu GUID. Para encontrar esse valor, você poderá usar o seguinte comando:
-
-````powershell
-Get-Label | Format-Table -Property DisplayName, Name, Guid
-````
-
-Para remover qualquer uma dessas configurações avançadas de uma política de rótulos, use a mesma sintaxe de parâmetro AdvancedSettings, mas especifique um valor de cadeia de caracteres nulo. Por exemplo:
-
-````powershell
-Set-LabelPolicy -Identity Global -AdvancedSettings @{OutlookDefaultLabel=""}
-````
-
+> [!NOTE]
+> Se você tiver configurado as configurações avançadas do PowerShell **OutlookDefaultLabel** e **DisableMandatoryInOutlook** usando os cmdlets [Set-LabelPolicy](/powershell/module/exchange/set-labelpolicy) ou [New-LabelPolicy](/powershell/module/exchange/new-labelpolicy):
+> 
+> Os valores escolhidos para essas configurações do PowerShell são refletidos no assistente de política de rótulo e funcionam automaticamente nos aplicativos do Outlook que suportam essas configurações. As outras configurações avançadas do PowerShell permanecem com suporte apenas para o cliente de rotulagem unificada de Proteção de Informações do Azure.
 
 ## <a name="end-user-documentation"></a>Documentação do usuário final
 

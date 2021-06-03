@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo define os campos de metadados para documentos em um conjunto de revisão em um caso em Advanced eDiscovery em Microsoft 365.
-ms.openlocfilehash: 77df40f4922718a7ed30431b0c1bd91f5c075425
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 7b8628973a8b07a3cd31e2b42df28c181e77e288
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244595"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730493"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Campos de metadados do documento na Descoberta Avançada
 
@@ -50,7 +50,7 @@ A tabela a seguir lista os campos de metadados para documentos em um conjunto de
 |Content*|Conteúdo||Texto extraído do item.|
 |Corpo da Conversa|Corpo da Conversa||Corpo da conversa do item.|
 |Tópico de Conversa|Tópico de Conversa||Tópico de conversa do item.|
-|ID da conversa|ConversationId|Email_conversation_ID|ID da conversa da mensagem.|
+|ID da conversa|ConversationId|Conversation_ID|ID da conversa da mensagem.|
 |Índice de Conversa||Conversation_index|Índice de conversa da mensagem.|
 |Hora do Pdf da Conversa|ConversationPdfTime||Data em que a versão em PDF da conversa foi criada.|
 |Tempo de queima de redação de conversa|ConversationRedactionBurnTime||Data em que a versão PDF da conversa foi criada para Chat.|
@@ -73,12 +73,12 @@ A tabela a seguir lista os campos de metadados para documentos em um conjunto de
 |Tema dominante|DominantTheme|Dominant_theme|Tema dominante conforme calculado para análise.|
 |Subconjunto duplicado||Duplicate_subset|ID do grupo para duplicatas exatas.|
 |EmailAction*||Email_action|Os valores **são None,** **Reply** ou **Forward;** com base na linha de assunto de uma mensagem.|
-|Recibo de Entrega de Email Solicitado||Email_delivery_receipt_requested|Endereço de email fornecido em Headers da Internet para recebimento de entrega.|
+|Recibo de Entrega de Email Solicitado||Email_delivery_receipt|Endereço de email fornecido em Headers da Internet para recebimento de entrega.|
 |Importance|EmailImportance|Email_importance|Importância da mensagem: **0** - Baixo; **1** - Normal; **2** - Alto|
 |EmailInternetHeaders|EmailInternetHeaders|Email_internet_headers|O conjunto completo de headers de email da mensagem de email|
 |EmailLevel*||Email_level|Indica o nível de uma mensagem dentro do thread de email a que ela pertence; os anexos herdam o valor da mensagem pai.|
 |ID da mensagem de email||Email_message_ID|ID de mensagem da Internet da mensagem.|
-|EmailReadReceiptRequested||Email_read_receipt_requested|Endereço de email fornecido nos Headers da Internet para recebimento de leitura.|
+|EmailReadReceiptRequested||Email_read_receipt|Endereço de email fornecido nos Headers da Internet para recebimento de leitura.|
 |Segurança de Email|EmailSecurity|Email_security|Configuração de segurança da mensagem: **0** - Nenhuma; **1** - Assinado; **2** - Criptografado; **3** - Criptografado e assinado.|
 |Sensibilidade de Email|EmailSensitivity|email_sensitivity|Configuração de sensibilidade da mensagem: **0** - Nenhuma; **1** Pessoal; **2** - Privado; **3** - CompanyConfidential.|
 |Conjunto de email|EmailSet|Email_set|ID do grupo para todas as mensagens no mesmo conjunto de emails.|
@@ -112,14 +112,14 @@ A tabela a seguir lista os campos de metadados para documentos em um conjunto de
 |Classe Item|ItemClass|Item_class|Classe item fornecida pelo servidor exchange; por exemplo, **IPM. Observação**|
 |Last modified date|LastModifiedDate|Doc_date_modified|Data da última modificação dos metadados do documento.|
 |ID de carga|LoadId|Load_ID|A ID do conjunto de carga no qual o item foi adicionado a um conjunto de revisão.|
-|Local|Local|Local|Cadeia de caracteres que indica o tipo de local do qual os documentos foram fonte.<br /><br />**Dados Importados** - Dados não Office 365 dados<br />**Teams** - Microsoft Teams<br />**Exchange** - Exchange caixas de correio<br />**SharePoint** - SharePoint sites<br />**OneDrive** - OneDrive contas|
+|Location|Location|Location|Cadeia de caracteres que indica o tipo de local do qual os documentos foram fonte.<br /><br />**Dados Importados** - Dados não Office 365 dados<br />**Teams** - Microsoft Teams<br />**Exchange** - Exchange caixas de correio<br />**SharePoint** - SharePoint sites<br />**OneDrive** - OneDrive contas|
 |Nome do local|LocationName|Location_name|Cadeia de caracteres que identifica a origem do item. Para o exchange, esse será o endereço SMTP da caixa de correio; para SharePoint e OneDrive, a URL do conjunto de sites.|
 |||Marked_as_pivot|Este arquivo é o pivô em um conjunto quase duplicado.|
 |Marcado como representativo|MarkAsRepresentative||Um documento de cada conjunto de duplicatas exatas é marcado como representantes.|
 |Data de Término da Reunião|MeetingEndDate|Meeting_end_date|Data de término da reunião para reuniões.|
 |Data de início da reunião|MeetingStartDate|Meeting_start_date|Data de início da reunião para reuniões.|
 |Tipo de mensagem|MessageKind|Message_kind|O tipo de mensagem a ser pesquisada. Valores possíveis: contatos docs email **<br /> <br /> <br /> <br /> <br /> externaldata <br /> faxes <br /> im journals reuniões <br /> <br /> <br /> microsoftteams** (retorna itens de chats, reuniões e chamadas no Microsoft Teams) anotações de mensagens **<br /> <br /> <br /> rssfeeds <br /> <br />** tarefas de caixa postal| 
-|ModernAttachment_ParentId||ModernAttachment_ParentId||
+|ID pai do anexo moderno||ModernAttachment_ParentId|A ID Imutável do pai do documento.|
 |Extensão Nativa|NativeExtension|Native_extension|Extensão nativa do item.|
 |Nome de arquivo nativo|NativeFileName|Native_file_name|Nome de arquivo nativo do item.|
 |NativeMD5||Native_MD5|Hash MD5 (valor de hash de 128 bits) do fluxo de arquivos.|
@@ -131,7 +131,7 @@ A tabela a seguir lista os campos de metadados para documentos em um conjunto de
 |Data do O365 criada||O365_date_created|Data criada a partir SharePoint.|
 |Modificação de data do O365||O365_date_modified|Data da última modificação do SharePoint.|
 |O365 modificado por||O365_modified_by|Modificado por SharePoint.|
-|ID pai|ParentId|Container_ID|ID do pai do item.|
+|ID pai|ParentId|Parent_ID|ID do pai do item.|
 |ParentNode||Parent_node|A mensagem de email anterior mais próxima no thread de email.|
 |Domínios participantes|ParticipantDomains|Email_participant_domains|Lista de todos os domínios de participantes de uma mensagem.|
 |Participantes|Participantes|Email_participants|Lista de todos os participantes de uma mensagem; por exemplo, Remetente, Para, Cc, Cc.|
@@ -157,13 +157,14 @@ A tabela a seguir lista os campos de metadados para documentos em um conjunto de
 |Definir Ordem: Inclusiva Primeiro|SetOrderInclusivesFirst|Set_order_inclusives_first|Campo de classificação - email e anexos: contra-cronologia; documents: pivot primeiro, em seguida, pela pontuação de semelhança decrescente.|
 |SimilarityPercent||Similarity_percent|Indica como um documento é semelhante ao pivô do conjunto duplicado próximo.|
 |Tamanho do arquivo nativo|Size|Native_size|Número de bytes do item nativo.|
-|Assunto|Assunto|Email_subject|Assunto da mensagem.|
+|Subject|Subject|Email_subject|Assunto da mensagem.|
 |Assunto/Título|SubjectTitle||Campo calculado composto pelo assunto ou título do item.|
-|Marcas|Marcas|Marcas|Marcas aplicadas em um conjunto de revisão.|
+|Tags|Tags|Tags|Marcas aplicadas em um conjunto de revisão.|
 |Lista de temas|ThemesList|Themes_list|Lista de temas conforme calculado para análise.|
 |Título|Título|Doc_title|Título dos metadados do documento.|
 |Para|Para|Email_to|Para campo para tipos de mensagem. Format é **DisplayName \<SmtpAddress>**|
 |Exclusivo no conjunto de emails|UniqueInEmailSet||**False** se houver uma duplicata do anexo em seu conjunto de emails.|
+|ID do Grupo de Versão||Version_Group_Id|Reúne as diferentes versões do mesmo documento.|
 |Foi remediado|WasRemediated|Was_Remediated|**True** se o item foi remediado, caso **contrário, False**.|
 |Contagem de palavras|WordCount|Word_count|Número de palavras no item.|
 |||||

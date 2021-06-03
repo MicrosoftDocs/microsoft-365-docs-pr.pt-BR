@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0e09a313b512135785050abd5aa61bb9576ce1d8
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 2242d195f4a4ea4b8f0c345d82fa0ad1f947bfa2
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274935"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730757"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender para Ponto de Extremidade para Linux
 
@@ -39,13 +39,13 @@ ms.locfileid: "52274935"
 Este tópico descreve como instalar, configurar, atualizar e usar o Microsoft Defender para Ponto de Extremidade no Linux.
 
 > [!CAUTION]
-> A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Microsoft Defender para Ponto de Extremidade no Linux provavelmente levará a problemas de desempenho e efeitos colaterais imprevisíveis. Se a proteção de ponto de extremidade que não é da Microsoft for um requisito absoluto em seu ambiente, você ainda poderá aproveitar com segurança o Defender para Ponto de Extremidade na funcionalidade EDR do Linux depois de configurar a funcionalidade antivírus para ser executado no modo [Passivo.](linux-preferences.md#enable--disable-passive-mode)
+> A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Microsoft Defender para Ponto de Extremidade no Linux provavelmente levará a problemas de desempenho e efeitos colaterais imprevisíveis. Se a proteção de ponto de extremidade que não é da Microsoft for um requisito absoluto em seu ambiente, você ainda poderá aproveitar com segurança o Defender para Ponto de Extremidade na funcionalidade EDR Linux depois de configurar a funcionalidade antivírus para ser executado no modo Passivo [.](linux-preferences.md#enable--disable-passive-mode)
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-linux"></a>Como instalar o Microsoft Defender para Ponto de Extremidade no Linux
 
 ### <a name="prerequisites"></a>Pré-requisitos
 
-- Acesso ao portal do Centro de Segurança do Microsoft Defender
+- Acesso ao portal de Central de Segurança do Microsoft Defender
 - Distribuição linux usando o [system](https://systemd.io/) manager do sistema
 - Experiência de nível iniciante em scripts Linux e BASH
 - Privilégios administrativos no dispositivo (em caso de implantação manual)
@@ -77,7 +77,7 @@ Se você tiver alguma falha de instalação, consulte [Troubleshooting installat
 
 ### <a name="system-requirements"></a>Requisitos do sistema
 
-- Versões e distribuições de servidor Linux com suporte:
+- Distribuições de servidor Linux com suporte e versões x64 (AMD64/EM64T) :
 
   - Red Hat Enterprise Linux 7.2 ou superior
   - CentOS 7.2 ou superior

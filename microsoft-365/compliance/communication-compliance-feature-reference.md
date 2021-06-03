@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 87f5e414a13d966ba2fbb30d84d7d4adae7a1d13
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: da88bc2aa0e001d714d4317948e28cdca633d17d
+ms.sourcegitcommit: cc9e3cac6af23f20d7cc5ac6fc6f6e01bc3cc5c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624344"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52736355"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -48,7 +48,24 @@ Os modelos de política são configurações de política pré-definidas que voc
 | **Conformidade regulamentar** | Monitorar comunicações para obter informações relacionadas à conformidade regulatória financeira | - Locais: Exchange Online, Microsoft Teams, Yammer, Skype for Business <br> - Direção: Entrada, Saída <br> - Percentual de revisão: 10% <br> - Condições: opção de dicionário personalizada, anexos maiores do que 1 MB |
 | **Conflito de interesses** | Monitorar comunicações entre dois grupos ou dois usuários para ajudar a evitar conflitos de interesse | - Locais: Exchange Online, Microsoft Teams, Yammer, Skype for Business <br> - Direção: Interna <br> - Percentual de revisão: 100% <br> - Condições: Nenhuma |
 
-As comunicações são examinadas a cada 24 horas a partir do momento em que as políticas são criadas. Por exemplo, se você criar uma política de idioma ofensivo às 11:00, a política reunirá sinais de conformidade de comunicação a cada 24 horas às 11:00 diariamente. Editar uma política não muda desta vez. Para exibir a última data e hora de verificação de uma política, navegue até a *coluna* Última verificação de política na página **Política.** Depois de criar uma nova política, pode levar até 24 horas para exibir a primeira data e hora de verificação de política. A data e a hora da última verificação serão convertidas no fuso horário do sistema local.
+As comunicações são examinadas a cada 24 horas a partir do momento em que as políticas são criadas. Por exemplo, se você criar uma política de idioma ofensivo às 11:00, a política reunirá sinais de conformidade de comunicação a cada 24 horas às 11:00 diariamente. Editar uma política não muda desta vez. Para exibir a última data e hora de verificação de uma política, navegue até a *coluna* Última verificação de política na página **Política.** Depois de criar uma nova política, pode levar até 24 horas para exibir a primeira data e hora de verificação de política. A data e a hora da última verificação são convertidas no fuso horário do sistema local.
+
+## <a name="pausing-a-policy-preview"></a>Pausar uma política (visualização)
+
+Depois de criar uma política de conformidade de comunicação, a política poderá ser pausada temporariamente, se necessário. A pausa de uma política pode ser usada para testar ou solucionar problemas de diretivas ou para otimizar as condições da política. Em vez de excluir uma política nessas circunstâncias, pausar uma política também preserva alertas de política e mensagens existentes para investigações e análises em andamento. A pausa de uma política impede a geração de inspeção e alerta para todas as condições de mensagem do usuário definidas na política para o momento em que a política é pausada. Para pausar ou reiniciar uma política, os usuários devem ser membros do grupo de função Administrador de *Conformidade* de Comunicação.
+
+Para pausar uma política, navegue até a página **Política,** selecione uma política e selecione **Pausar política** na barra de ferramentas ações. No painel **Pausar** política, confirme se você gostaria de pausar a política selecionando **Pausar**. Em alguns casos, pode levar até 24 horas para uma política ser pausada. Depois que a política é pausada, os alertas para mensagens correspondentes à política não são criados. No entanto, as mensagens associadas aos alertas criados antes da pausa da política permanecem disponíveis para investigação, revisão e correção.
+
+O status da política para políticas pausadas pode indicar vários estados:
+
+- **Ativo**: a política está ativa
+- **Pausado**: a política está totalmente pausada.
+- **Pausando**: a política está em processo de pausa.
+- **Resumindo**: a política no processo de retomada.
+- **Erro ao retomar**: Um erro foi encontrado ao retomar a política. Para o rastreamento de pilha de erros, passe o mouse sobre o *Erro ao* retomar o status na coluna Status na página Política.
+- **Erro ao pausar**: Um erro foi encontrado ao pausar a política. Para o rastreamento de pilha de erros, passe o mouse sobre o *erro ao pausar* o status na coluna Status na página Política.
+
+Para retomar uma política, navegue até a página **Política,** selecione uma política e selecione **Retomar política** na barra de ferramentas de ações. No painel **Retomar política,** confirme se você gostaria de retomar a política selecionando **Retomar**. Em alguns casos, pode levar até 24 horas para que uma política seja retomada. Depois que a política for retomada, os alertas para mensagens correspondentes à política serão criados e estarão disponíveis para investigação, revisão e correção.
 
 ## <a name="permissions"></a>Permissions
 

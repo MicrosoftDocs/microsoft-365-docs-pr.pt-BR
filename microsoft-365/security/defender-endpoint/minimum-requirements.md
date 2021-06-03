@@ -16,18 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 12ed9b8648630428c6da347252d077521d859482
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 6607d5029e45c77754a431c87eb61cd281e013c1
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245703"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730721"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>Requisitos mínimos para o Microsoft Defender para Ponto de Extremidade
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
+
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -40,7 +41,8 @@ Há alguns requisitos mínimos para a integração de dispositivos ao serviço. 
 > - Saiba mais sobre os aprimoramentos mais recentes no Defender for Endpoint: [Defender for Endpoint Tech Community](https://techcommunity.microsoft.com/t5/Windows-Defender-Advanced-Threat/ct-p/WindowsDefenderAdvanced).
 > - O Defender for Endpoint demonstrou recursos de detecção e ótica líderes do setor na avaliação recente do MITRE. Leitura: [Insights do MITRE ATT&avaliação baseada em CK.](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/)
 
-## <a name="licensing-requirements"></a>Requisitos de licença
+## <a name="licensing-requirements"></a>Requisitos de licenciamento
+
 O Microsoft Defender para Ponto de Extremidade requer uma das seguintes ofertas de licenciamento por volume da Microsoft:
 
 - Windows 10 Enterprise E5
@@ -76,6 +78,7 @@ Para obter mais informações sobre a matriz de recursos em Windows 10 edições
 Para uma tabela de comparação detalhada de Windows 10 de edição comercial, consulte a [comparação PDF](https://wfbdevicemanagementprod.blob.core.windows.net/windowsforbusiness/Windows10_CommercialEdition_Comparison.pdf).
 
 ## <a name="browser-requirements"></a>Requisitos de navegador
+
 O acesso ao Defender para Ponto de Extremidade é feito por meio de um navegador, suportando os seguintes navegadores:
 
 - Microsoft Edge
@@ -88,8 +91,9 @@ O acesso ao Defender para Ponto de Extremidade é feito por meio de um navegador
 ## <a name="hardware-and-software-requirements"></a>Requisitos de hardware e software
 
 ### <a name="supported-windows-versions"></a>Versões Windows com suporte
-- Windows 7 sp1 Enterprise ([Requer ESU para suporte](https://docs.microsoft.com/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq).)
-- Windows 7 SP1 Pro ([Requer ESU para suporte](https://docs.microsoft.com/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq).)
+
+- Windows 7 sp1 Enterprise ([Requer ESU para suporte](/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq).)
+- Windows 7 SP1 Pro ([Requer ESU para suporte](/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq).)
 - Windows 8.1 Enterprise
 - Windows 8.1 Pro
 - Windows 10 Enterprise
@@ -118,17 +122,19 @@ Os requisitos de hardware para o Defender para Ponto de Extremidade em dispositi
 
 
 ### <a name="other-supported-operating-systems"></a>Outros sistemas operacionais com suporte
+
 - [Android](microsoft-defender-endpoint-android.md)
 - [iOS](microsoft-defender-endpoint-ios.md)
 - [Linux](microsoft-defender-endpoint-linux.md)
 - [macOS](microsoft-defender-endpoint-mac.md)
 
 > [!NOTE]
-> Você precisará confirmar as distribuições e versões do Linux do Android, iOS e macOS que você é compatível com o Defender para o Ponto de Extremidade para que a integração funcione.
+> Você precisará confirmar que as distribuições e versões do Linux do Android, iOS e macOS são compatíveis com o Defender para o Ponto de Extremidade para que a integração funcione.
 
 
 
 ### <a name="network-and-data-storage-and-configuration-requirements"></a>Requisitos de configuração e armazenamento de rede e dados
+
 Ao executar o assistente de integração pela primeira vez, você deve escolher onde suas informações relacionadas ao Microsoft Defender for Endpoint estão armazenadas: na União Europeia, no Reino Unido ou no datacenter dos Estados Unidos.
 
 > [!NOTE]
@@ -188,6 +194,7 @@ Você precisará definir o serviço para iniciar automaticamente se o START_TYPE
 
 
 #### <a name="internet-connectivity"></a>Conectividade com a Internet
+
 A conectividade com a Internet em dispositivos é necessária diretamente ou por proxy.
 
 O sensor Defender para Ponto de Extremidade pode usar uma largura de banda média diária de 5 MB para se comunicar com o serviço de nuvem do Defender para Ponto de Extremidade e relatar dados cibernéticos. Atividades exclusivas, como carregamentos de arquivos e conjunto de pacotes de investigação, não são incluídas nesta largura de banda média diária.
@@ -198,26 +205,29 @@ Antes de você entrar em dispositivos, o serviço de dados de diagnóstico deve 
 
 
 ## <a name="microsoft-defender-antivirus-configuration-requirement"></a>Microsoft Defender Antivírus requisito de configuração
+
 O agente Defender para Ponto de Extremidade depende da capacidade de Microsoft Defender Antivírus examinar arquivos e fornecer informações sobre eles.
 
-Configure atualizações de inteligência de segurança no Defender para dispositivos de ponto de extremidade, Microsoft Defender Antivírus o antimalware ativo ou não. Para obter mais informações, consulte [Manage Microsoft Defender Antivírus updates and apply baselines](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus).
+Configure atualizações de inteligência de segurança no Defender para dispositivos de ponto de extremidade, Microsoft Defender Antivírus o antimalware ativo ou não. Para obter mais informações, consulte [Manage Microsoft Defender Antivírus updates and apply baselines](/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus).
 
 Quando Microsoft Defender Antivírus não é o antimalware ativo em sua organização e você usa o serviço Defender para Ponto de Extremidade, o Microsoft Defender Antivírus entra no modo passivo.
 
 Se a sua organização tiver desligado Microsoft Defender Antivírus por meio de política de grupo ou outros métodos, os dispositivos que estão integrados devem ser excluídos dessa política de grupo.
 
-Se você estiver integrando servidores e Microsoft Defender Antivírus não for o antimalware ativo em seus servidores, o Microsoft Defender Antivírus precisará ser configurado para entrar no modo passivo ou desinstalado. A configuração depende da versão do servidor. Para obter mais informações, [consulte Microsoft Defender Antivírus compatibilidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus-compatibility.md).
+Se você estiver integrando servidores e Microsoft Defender Antivírus não for o antimalware ativo em seus servidores, o Microsoft Defender Antivírus precisará ser configurado para entrar no modo passivo ou desinstalado. A configuração depende da versão do servidor. Para obter mais informações, [consulte Microsoft Defender Antivírus compatibilidade](/security/defender-endpoint/microsoft-defender-antivirus-compatibility).
 
 > [!NOTE]
 > Sua política de grupo regular não se aplica à Proteção contra Adulteração, e as alterações nas configurações Microsoft Defender Antivírus serão ignoradas quando a Proteção contra Adulteração estiver em uso.
 
 
 ## <a name="microsoft-defender-antivirus-early-launch-antimalware-elam-driver-is-enabled"></a>Microsoft Defender Antivírus Driver antimalware de início antecipado (ELAM) está habilitado
+
 Se você estiver executando Microsoft Defender Antivírus como o produto antimalware principal em seus dispositivos, o agente Defender para Ponto de Extremidade será aderido com êxito.
 
 Se você estiver executando um cliente antimalware de terceiros e usar soluções de Gerenciamento de Dispositivo Móvel ou Microsoft Endpoint Manager (filial atual), você precisará garantir que o driver Microsoft Defender Antivírus ELAM esteja habilitado. Para obter mais informações, [consulte Ensure that Microsoft Defender Antivírus is not disabled by policy](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy).
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
+
 - [Configurar o Microsoft Defender para implantação do Ponto de Extremidade](production-deployment.md)
-- [Dispositivos de integração](onboard-configure.md)
+- [Integração de dispositivos](onboard-configure.md)

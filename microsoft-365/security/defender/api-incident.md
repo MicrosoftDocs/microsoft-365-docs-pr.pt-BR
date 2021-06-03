@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 APIs de incidentes do Defender e o tipo de recurso de incidente
-description: Saiba mais sobre os métodos e propriedades do tipo de recurso Incident no Microsoft 365 Defender
+title: Microsoft 365 APIs de incidentes do Defender e o tipo de recurso de incidentes
+description: Saiba mais sobre os métodos e propriedades do tipo de recurso Incidentes no Microsoft 365 Defender
 keywords: incidentes, incidentes, api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,20 +20,20 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 5cc149668e49e21b38b5fb95ae3f40db6c296e1d
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 587d6107b0c09b2178311d8da6606968e7fda083
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572580"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730925"
 ---
-# <a name="microsoft-365-defender-incidents-api-and-the-incident-resource-type"></a>Microsoft 365 API de incidentes do Defender e o tipo de recurso de incidente
+# <a name="microsoft-365-defender-incidents-api-and-the-incidents-resource-type"></a>Microsoft 365 API de incidentes do Defender e o tipo de recurso de incidentes
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 
-- Microsoft 365 Defender
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!IMPORTANT]
 > Algumas informações estão relacionadas a produtos pré-lançados que podem ser substancialmente modificados antes de seu lançamento comercial. A Microsoft não faz garantias, expressas ou implícitas, quanto às informações fornecidas aqui.
@@ -67,15 +67,15 @@ Propriedade | Tipo | Descrição
 -|-|-
 incidentId | long | ID exclusiva do incidente.
 redirectIncidentId | nullable long | A ID do Incidente à que o Incidente atual foi mesclado.
-incidentName | cadeia de caracteres | O nome do Incidente.
+incidentName | string | O nome do Incidente.
 createdTime | DateTimeOffset | A data e a hora (em UTC) que o Incidente foi criado.
 lastUpdateTime | DateTimeOffset | A data e a hora (em UTC) que o Incidente foi atualizado pela última vez.
-assignedTo | cadeia de caracteres | Proprietário do Incidente.
+assignedTo | string | Proprietário do Incidente.
 severity | Enum | Gravidade do Incidente. Os valores possíveis são: ```UnSpecified``` , , , e ```Informational``` ```Low``` ```Medium``` ```High``` .
 status | Enum | Especifica o status atual do incidente. Os valores possíveis são: ```Active``` ```Resolved``` , e ```Redirected``` .
 classificação | Enum | Especificação do incidente. Os valores possíveis são: ```Unknown```, ```FalsePositive```, ```TruePositive```.
 determinação | Enum | Especifica a determinação do incidente. Os valores possíveis são: ```NotAvailable```, ```Apt```, ```Malware```, ```SecurityPersonnel```, ```SecurityTesting```, ```UnwantedSoftware```, ```Other```.
-tags | string List | Lista de marcas de incidente.
+categorias | string List | Lista de marcas de incidente.
 comentários | Lista de comentários de incidentes | O objeto Comentário de Incidente contém: cadeia de caracteres de comentários, createdBy string e createTime date time.
 alerts | Lista de alertas | Lista de alertas relacionados. Consulte exemplos na documentação da API [de incidentes](api-list-incidents.md) de lista.
 

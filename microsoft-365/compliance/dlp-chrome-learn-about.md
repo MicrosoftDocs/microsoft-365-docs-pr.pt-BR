@@ -1,5 +1,5 @@
 ---
-title: Saiba mais sobre a Extensão de Conformidade da Microsoft (prévia)
+title: Saiba mais sobre a Extensão de Conformidade da Microsoft (visualização)
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -19,14 +19,14 @@ ms.collection:
 search.appverid:
 - MET150
 description: A Extensão de Conformidade da Microsoft estende o monitoramento e controle de atividades de arquivo e ações de proteção para o navegador Google Chrome
-ms.openlocfilehash: c8a5795b3be8b393fd3a934504449bf6db0c2f01
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: b8d9be88f42cce736cdbf66a97f4363106fa5820
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52113377"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730481"
 ---
-# <a name="learn-about-the-microsoft-compliance-extension-preview"></a>Saiba mais sobre a Extensão de Conformidade da Microsoft (prévia)
+# <a name="learn-about-the-microsoft-compliance-extension"></a>Saiba mais sobre a Extensão de Conformidade da Microsoft (visualização)
 
 [A Prevenção contra Perda de Dados de Ponto de Extremidade (ponto de extremidade DLP)](endpoint-dlp-learn-about.md) estende os recursos de monitoramento de atividade e proteção da [prevenção contra perda de dados (DLP) do Microsoft 365](dlp-learn-about-dlp.md) para itens confidenciais que estão em dispositivos Windows 10. Depois que os dispositivos estiverem integrados às soluções de conformidade do Microsoft 365, as informações sobre o que os usuários estão fazendo com itens confidenciais serão visíveis no [explorador de atividades](data-classification-activity-explorer.md) e você poderá aplicar ações de proteção a esses itens por meio das [políticas DLP](create-test-tune-dlp-policy.md).
 

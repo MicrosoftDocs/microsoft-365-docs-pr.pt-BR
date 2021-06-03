@@ -1,6 +1,6 @@
 ---
-title: Transmitir evento do Microsoft Defender para Ponto de Extremidade
-description: Saiba como configurar o Microsoft Defender para o Ponto de Extremidade para transmitir eventos de Busca Avançada para Hubs de Eventos ou conta de armazenamento do Azure
+title: Transmitir Microsoft 365 eventos do Defender
+description: Saiba como configurar o Microsoft 365 Defender para transmitir eventos de Busca Avançada para Hubs de Eventos ou conta de armazenamento do Azure
 keywords: exportação de dados brutos, API de streaming, API, hubs de eventos, armazenamento do Azure, conta de armazenamento, Busca Avançada, compartilhamento de dados brutos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,38 +16,37 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f6a45629d610ea3cc3ca7d517021a215b72b1439
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 0c25ec8bc88a2714fb2f02ef8641c3eae700efe0
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688748"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730685"
 ---
-# <a name="raw-data-streaming-api"></a>API de Streaming de Dados Brutos
+# <a name="streaming-api"></a>Streaming API
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
-- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
+[!include[Prerelease information](../../includes/prerelease.md)]
 
 ## <a name="stream-advanced-hunting-events-to-event-hubs-andor-azure-storage-account"></a>Transmitir eventos de Busca Avançada para Hubs de Eventos e/ou conta de armazenamento do Azure.
 
-O Defender for Endpoint oferece suporte [](advanced-hunting-overview.md) ao streaming de todos os eventos disponíveis por meio da Busca Avançada para [hubs](https://docs.microsoft.com/azure/event-hubs/) de eventos e/ou conta de armazenamento do [Azure.](https://docs.microsoft.com/azure/event-hubs/)
+Microsoft 365 O Defender dá suporte ao streaming de todos os eventos disponíveis por meio da [Busca](../defender/advanced-hunting-overview.md) Avançada para [hubs](/azure/event-hubs/) de eventos e/ou conta de armazenamento do [Azure.](/azure/event-hubs/)
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4r4ga]
 
 
 ## <a name="in-this-section"></a>Nesta seção
 
 Tópico | Descrição
 :---|:---
-[Transmitir eventos do Microsoft Defender para Ponto de Extremidade para Hubs de Eventos do Azure](raw-data-export-event-hub.md)| Saiba mais sobre a habilitação da API de streaming em seu locatário e configure o Defender for Endpoint para transmitir [a Busca Avançada](advanced-hunting-overview.md) para Hubs de Eventos.
-[Stream Defender for Endpoint events to your Azure storage account](raw-data-export-storage.md)| Saiba mais sobre a habilitação da API de streaming em seu locatário e configurar o Defender for Endpoint para transmitir [a Busca](advanced-hunting-overview.md) Avançada para sua conta de armazenamento do Azure.
+[Transmitir eventos para hubs de eventos do Azure](raw-data-export-event-hub.md)| Saiba mais sobre a habilitação da API de streaming em seu locatário e configure o Microsoft 365 Defender para transmitir [a Busca Avançada](../defender/advanced-hunting-overview.md) para Hubs de Eventos.
+[Transmitir eventos para sua conta de armazenamento do Azure](raw-data-export-storage.md)| Saiba mais sobre a habilitação da API de streaming em seu locatário e configure o Microsoft 365 Defender para transmitir [a](../defender/advanced-hunting-overview.md) Busca Avançada para sua conta de armazenamento do Azure.
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Visão geral da Busca Avançada](advanced-hunting-overview.md)
-- [Documentação dos Hubs de Eventos do Azure](https://docs.microsoft.com/azure/event-hubs/)
-- [Documentação da Conta de Armazenamento do Azure](https://docs.microsoft.com/azure/storage/common/storage-account-overview)
+- [Visão geral da Busca Avançada](../defender/advanced-hunting-overview.md)
+- [Documentação dos Hubs de Eventos do Azure](/azure/event-hubs/)
+- [Documentação Armazenamento conta do Azure](/azure/storage/common/storage-account-overview)

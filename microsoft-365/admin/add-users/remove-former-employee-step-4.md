@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Siga as etapas deste artigo para dar a outro funcionário acesso aos dados de OneDrive e Outlook ex-funcionários.
-ms.openlocfilehash: 55bc2c3d8530e5cb7702f99a77b3918bfb7c0dee
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: abcad87498f6670fe7fe2f5457321f1b3f6e0930
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634251"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730193"
 ---
 # <a name="step-4---give-another-employee-access-to-onedrive-and-outlook-data"></a>Etapa 4 - Dar a outro funcionário acesso aos OneDrive e Outlook dados
 
@@ -52,6 +52,30 @@ Para preservar os arquivos de OneDrive de um usuário anterior, primeiro dê a s
 > [!NOTE]
 > Você pode mover ou copiar até 500 MB de arquivos e pastas por vez.<br/>
 > Quando você move ou copia documentos que têm histórico de versão, somente a versão mais recente é movida.  
+
+Você também pode conceder acesso a outro usuário para acessar a conta de um ex-funcionário OneDrive.
+
+1. Entre no centro de <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">administração como</a> administrador global ou SharePoint administrador.
+
+    Se você receber uma mensagem de que não tem permissão para acessar o centro de administração, não terá permissões de administrador em sua organização.
+
+2. No painel esquerdo, selecione **Centros de administração** \> **SharePoint**. (Talvez seja necessário selecionar **Mostrar tudo** para ver a lista de centros de administração.)
+
+3. Se o centro de SharePoint de administração clássico for exibido, selecione **Abri-lo** agora na parte superior da página para abrir o SharePoint de administração.
+
+4. No painel esquerdo, selecione **Mais recursos**.
+
+5. Em **Perfis de usuário,** selecione **Abrir**.
+
+6. Em **Pessoas,** selecione **Gerenciar Perfis de Usuário**.
+
+7. Insira o nome do ex-funcionário e selecione **Encontrar**.
+
+8. Clique com o botão direito do mouse no usuário e escolha Gerenciar proprietários **do conjunto de sites.**
+
+9. Adicione o usuário aos **administradores do conjunto de sites** e selecione **Ok**.
+
+10. Agora, o usuário poderá acessar o nome do ex-funcionário OneDrive a URL OneDrive. 
 
 ### <a name="revoke-admin-access-to-a-users-onedrive"></a>Revogar o acesso de administrador a um usuário OneDrive
 

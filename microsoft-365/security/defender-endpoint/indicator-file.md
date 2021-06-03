@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 103f5d0ad9d12a37f3a3b8065f39c24d592cc252
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: 6d92cbacba72210c6accbbb1e5ecf25de660fc3c
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995052"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730525"
 ---
 # <a name="create-indicators-for-files"></a>Criar indicadores para arquivos
 
@@ -47,19 +47,19 @@ Há três maneiras de criar indicadores para arquivos:
 
 É importante entender os seguintes pré-requisitos antes da criação de indicadores para arquivos:
 
-- Esse recurso estará disponível se sua organização usar **o Microsoft Defender Antivírus (no** modo ativo) e a proteção baseada em **nuvem estiver habilitada.** Para obter mais informações, consulte [Manage cloud-based protection](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus).
+- Esse recurso estará disponível se sua organização usar Microsoft Defender Antivírus **(no** modo ativo) e a proteção baseada em **nuvem estiver habilitada.** Para obter mais informações, consulte [Manage cloud-based protection](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus).
 
 - A versão do cliente Antimalware deve ser 4.18.1901.x ou posterior. Consulte [Monthly platform and engine versions](manage-updates-baselines-microsoft-defender-antivirus.md#monthly-platform-and-engine-versions)
 
 - Compatível com dispositivos com Windows 10, versão 1703 ou posterior, Windows Server 2016 e 2019.
 
-- Para começar a bloquear arquivos, primeiro você precisa ativar o [recurso "bloquear ou permitir"](advanced-features.md) em Configurações.
+- Para começar a bloquear arquivos, primeiro você precisa ativar o recurso ["bloquear ou permitir"](advanced-features.md) no Configurações.
 
-Esse recurso foi projetado para impedir que o malware suspeito (ou arquivos potencialmente mal-intencionados) seja baixado da Web. Atualmente, ele dá suporte a arquivos executáveis portáteis (PE), incluindo arquivos .exe e .dll. A cobertura será estendida ao longo do tempo.
+Esse recurso foi projetado para impedir que o malware suspeito (ou arquivos potencialmente mal-intencionados) seja baixado da Web. Atualmente, ele dá suporte a arquivos pe (executáveis portáteis), incluindo arquivos .exe e .dll portáteis. A cobertura será estendida ao longo do tempo.
 
 ## <a name="create-an-indicator-for-files-from-the-settings-page"></a>Criar um indicador para arquivos na página de configurações
 
-1. No painel de navegação, selecione **Configurações > Indicadores**.
+1. No painel de navegação, selecione Configurações > **Indicadores**.
 
 2. Selecione a **guia Hash de**   arquivo.
 
@@ -91,19 +91,19 @@ O conflito de tratamento de política de Certificado e IoC de arquivo seguirá a
 
 - Se o arquivo não for permitido Windows Defender Controle de Aplicativo e AppLocker impor políticas/políticas de modo, **então Bloquear**
 
-- Se o arquivo for permitido pela Exclusão antivírus do Defender, **então Permitir**
+- Se o arquivo for permitido pela exclusão Microsoft Defender Antivírus, **então Permitir**
 
 - Se o arquivo for bloqueado ou avisado por um IoC de arquivo de bloqueio ou aviso, **bloquear/avisar**
 
-- Se o arquivo for permitido por uma política de IOC de arquivo permitido, **então Permitir**
+- Se o arquivo for permitido por uma política de IoC de arquivo permitido, **então Permitir**
 
 - Senão, se o arquivo for bloqueado por regras ASR, CFA, AV, SmartScreen **e,** em seguida, Bloquear  
 
-- Else **Allow** (passa Windows Defender controle de aplicativo & política appLocker, nenhuma regra IoC se aplica a ela)
+- Else **Allow** (passa Windows Defender política de Controle de Aplicativo & AppLocker, nenhuma regra IoC se aplica a ela)
 
 Se houver políticas de IoC de arquivo conflitantes com o mesmo tipo de imposição e destino, a política do hash mais seguro (ou seja, mais longo) será aplicada. Por exemplo, uma política de IoC de hash de arquivo SHA-256 vencerá uma política de IoC de hash de arquivo MD5 se ambos os tipos de hash definirem o mesmo arquivo.
 
-Observe que os recursos de aplicativos vulneráveis do gerenciamento de ameaças e vulnerabilidades usam os IoCs de arquivo para imposição e seguirão a ordem de tratamento de conflitos acima.
+Observe que Gerenciamento de Ameaças e Vulnerabilidades os recursos de aplicativos vulneráveis de bloqueio usam os IoCs de arquivo para imposição e seguirão a ordem de tratamento de conflitos acima.
 
 ### <a name="examples"></a>Exemplos
 
@@ -113,7 +113,7 @@ Observe que os recursos de aplicativos vulneráveis do gerenciamento de ameaças
 |Regra de redução de superfície de ataque |Bloquear |Permitir |Permitir
 |Controle de Aplicativos do Windows Defender |Permitir |Bloquear |Permitir |
 |Controle de Aplicativos do Windows Defender |Bloquear |Permitir |Bloquear
-|Exclusão do Microsoft Defender Antivírus |Permitir |Bloquear |Permitir
+|Microsoft Defender Antivírus exclusão |Permitir |Bloquear |Permitir
 
 ## <a name="see-also"></a>Confira também
 

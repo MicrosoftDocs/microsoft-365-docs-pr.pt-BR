@@ -1,5 +1,5 @@
 ---
-title: Kit de laboratório de implantação do Windows e do Office
+title: Windows 10 e Office 365 kit de laboratório de implantação
 f1.keywords:
 - NOCSH
 ms.author: greglin
@@ -15,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: c0cf3ce239ed91261bd6e53cf317a7053168509a
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: da51e0e3509ac2be60b9961dc2a0532d29f4f137
+ms.sourcegitcommit: cc9e3cac6af23f20d7cc5ac6fc6f6e01bc3cc5c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52060868"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52736343"
 ---
-# <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Windows e do Office
+# <a name="windows-10-and-office-365-deployment-lab-kit"></a>Windows 10 e Office 365 kit de laboratório de implantação
 
-O kit de laboratório de implantação do Windows e do Office foi projetado para ajudá-lo a planejar, testar e validar sua implantação e gerenciamento de áreas de trabalho que executam o Windows 10 Enterprise e o Microsoft 365 Apps para empresas. Os laboratórios na capa do kit usando o Microsoft Endpoint Configuration Manager, o Desktop Analytics, a Ferramenta de Personalização do Office, o OneDrive, o Windows Autopilot e muito mais.
+O Windows 10 e o Office 365 de implantação foram projetados para ajudá-lo a planejar, testar e validar sua implantação e gerenciamento de áreas de trabalho executando Windows 10 Enterprise e Microsoft 365 Apps para Grandes Empresas. Os laboratórios na capa do kit usando Microsoft Endpoint Configuration Manager, Análise de Área de Trabalho, a Ferramenta de Personalização Office, OneDrive, Windows Autopilot e muito mais.
 
-Esse kit é altamente recomendado para organizações que se preparam para atualizações do Windows 8.1 para o Windows 10. Também se aplica se você estiver usando o Windows 10, o Microsoft 365 Apps para empresas (anteriormente o Office 365 ProPlus) ou o Office 2019. Como um ambiente isolado, o laboratório resultante é ideal para explorar atualizações de ferramentas de implantação e testar sua automação relacionada à implantação.
+Esse kit é altamente recomendado para organizações que se preparam para Windows 8.1 atualizações para Windows 10. Também se aplica se você estiver usando Windows 10, Microsoft 365 Apps para Grandes Empresas (anteriormente Office 365 ProPlus) ou Office 2019. Como um ambiente isolado, o laboratório resultante é ideal para explorar atualizações de ferramentas de implantação e testar sua automação relacionada à implantação.
 
 [Baixe o Kit de laboratório de implantação do Office e do Windows](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
@@ -34,9 +34,9 @@ Esse kit é altamente recomendado para organizações que se preparam para atual
 
 O kit fornece um ambiente de laboratório virtual provisionado automaticamente, incluindo clientes de área de trabalho ingressados no domínio, um controlador de domínio, um gateway da Internet e uma instância do Configuration Manager totalmente configurada. O kit contém as versões de avaliação mais recentes dos seguintes produtos:
 
-  - NOVO! Windows 10 Enterprise, Versão 20H2
+  - NOVO! Windows 10 Enterprise, Versão 21H1
   - Windows 7 Enterprise
-  - Microsoft Endpoint Configuration Manager, Versão 2010*
+  - NOVO! Microsoft Endpoint Configuration Manager, Versão 2103*
   - Kit de Avaliação e Implantação do Windows para Windows 10
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization (App-V)
@@ -47,6 +47,7 @@ O kit fornece um ambiente de laboratório virtual provisionado automaticamente, 
 O laboratório resultante foi projetado para ser conectado a avaliação para: 
 
   - Microsoft 365 E5
+  - Microsoft 365 Apps para empresas
   - Office 365 E5 com Enterprise Mobility + Security (EMS)
 
 ## <a name="step-by-step-labs"></a>Laboratórios passo a passo
@@ -61,17 +62,17 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 
 ### <a name="prepare-configuration"></a>Preparar configuração   
 
-- Otimizar a entrega de atualizações do Windows 10   
-- Manutenção do Windows 10 usando a Política de Grupo
-- Manutenção do Windows 10 usando o Microsoft Intune   
-- Manutenção do Windows 10 com o Configuration Manager   
-- Manutenção de aplicativos do Microsoft 365 para empresas usando o Configuration Manager   
-- Manutenção de aplicativos do Microsoft 365 para empresas usando o Intune  
+- Otimizar Windows 10 entrega de atualização   
+- Manutenção de Windows 10 usando a Política de Grupo
+- Manutenção Windows 10 usando Microsoft Intune   
+- Manutenção de Windows 10 com o Configuration Manager   
+- Manutenção de Microsoft 365 Apps para Grandes Empresas usando o Configuration Manager   
+- Manutenção de Microsoft 365 Apps para Grandes Empresas usando o Intune  
 - Segurança e conformidade   
 
 ### <a name="prepare-applications"></a>Preparar aplicativos    
 
-- Preparação Toolkit office  
+- Preparação Toolkit para Office  
 - Empacotamento MSIX e conversão de aplicativos Win32   
 
 ### <a name="deploy-windows-10"></a>Implantar o Windows 10   
@@ -85,21 +86,22 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 
 - Implantação gerenciada na nuvem  
 - Implantação gerenciada localmente    
-- Microsoft 365 Apps for enterprise Deployment on Non-AD Joined Devices 
-- Implantação gerenciada empresarial usando o Configuration Manager
-- Implantação gerenciada corporativa usando o Microsoft Intune  
-- Implantação e gerenciamento lob com o Microsoft Intune
-- Implantar o Microsoft Teams
+- Microsoft 365 Apps para Grandes Empresas Implantação em dispositivos não ingressados no AD 
+- Enterprise implantação gerenciada usando o Configuration Manager
+- Enterprise implantação gerenciada usando Microsoft Intune  
+- Implantação e gerenciamento lob com Microsoft Intune
+- Implantar Microsoft Teams
 
-### <a name="deploy-windows-virtual-desktop"></a>Implantar a Área de Trabalho Virtual do Windows  
+### <a name="deploy-windows-virtual-desktop"></a>Implantar Windows área de trabalho virtual  
 
 - Preparar, implantar, otimizar
  
-## <a name="where-to-find-the-windows-and-office-deployment-lab-kit"></a>Onde encontrar o Kit de Laboratório de Implantação do Windows e do Office
+## <a name="where-to-find-the-windows-10-and-office-365-deployment-lab-kit"></a>Onde encontrar o kit de laboratório Windows 10 e Office 365 implantação
 
 [Baixe o Kit de laboratório de implantação do Office e do Windows](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
-* A linha de base instalada versão 2002 pode ser atualizada para a versão 2010 usando e no console atualização. Use uma conexão de Internet de largura de banda larga para baixar esse conteúdo e permitir de 30 a 45 minutos para provisionamento automático. O ambiente de laboratório exige no mínimo 16 GB de memória disponível e 150 GB de espaço livre em disco. Para um desempenho ideal, recomenda-se 32 GB de memória disponível e 300 GB de espaço livre. O kit expira em 22 de julho de 2021. Uma nova versão será publicada antes da expiração.
+> [!NOTE]
+> Use uma conexão de Internet de banda larga para baixar esse conteúdo e permitir de 30 a 45 minutos para provisionamento automático. O ambiente de laboratório exige no mínimo 16 GB de memória disponível e 150 GB de espaço livre em disco. Para um desempenho ideal, recomenda-se 32 GB de memória disponível e 300 GB de espaço livre. O kit expira em 23 de agosto de 2021. Uma nova versão será publicada antes da expiração.
 
 ## <a name="additional-guidance"></a>Orientações adicionais
 

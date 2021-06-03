@@ -593,11 +593,6 @@
 ###### [Busca avançada usando o PowerShell](run-advanced-query-sample-powershell.md)
 ###### [Usar consultas de OData](exposed-apis-odata-samples.md)
 
-#### [API de streaming de dados não processados]()
-##### [Streaming de dados não processados](raw-data-export.md)
-##### [Transmitir eventos avançados de busca ao hub de Eventos do Azure](raw-data-export-event-hub.md)
-##### [Transmitir eventos avançados de busca para conta de armazenamento](raw-data-export-storage.md)
-
 #### [Integração SIEM]()
 ##### [Entender os conceitos de inteligência contra ameaças](threat-indicator-concepts.md)
 ##### [Saiba mais sobre as diferentes maneiras de receber detecções](configure-siem.md)

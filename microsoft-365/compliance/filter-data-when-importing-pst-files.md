@@ -18,17 +18,17 @@ search.appverid:
 - MET150
 ms.assetid: 26af16df-34cd-4f4a-b893-bc1d2e74039e
 ms.custom: seo-marvel-apr2020
-description: Saiba como filtrar dados usando o recurso de importação inteligente no serviço Office 365 de importação quando você importar arquivos PST para Office 365.
-ms.openlocfilehash: fb978332f70495044a457147d29d8cdcf1194264
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+description: Saiba como filtrar dados usando o recurso de importação inteligente no Microsoft 365 de importação quando você importar arquivos PST para Microsoft 365.
+ms.openlocfilehash: fc89467e3ea9c0af86ec6b9ef6a9d7d61079e116
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684046"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730565"
 ---
 # <a name="filter-data-when-importing-pst-files"></a>Filtrar dados ao importar arquivos PST
 
-Use o novo recurso importação inteligente no serviço de importação Office 365 para filtrar os itens em arquivos PST que realmente são importados para as caixas de correio de destino. Veja como funciona:
+Use o novo recurso importação inteligente no serviço de importação Microsoft 365 para filtrar os itens em arquivos PST que realmente são importados para as caixas de correio de destino. Veja como funciona:
   
 - Depois de criar e enviar um trabalho de importação PST, os arquivos PST são carregados em uma área de armazenamento do Azure na nuvem da Microsoft.
   
@@ -66,7 +66,7 @@ Depois de criar um trabalho de importação PST, siga estas etapas para filtrar 
   
 1. Vá para <https://compliance.microsoft.com> e entre usando as credenciais de uma conta de administrador em sua organização.
     
-2. No painel esquerdo do centro de conformidade Microsoft 365, clique em **Importar governança de** \> **informações.**
+2. No painel esquerdo do Centro de Conformidade do Microsoft 365, clique em **controle de informações** \> **Importar**.
     
     Os trabalhos de importação para sua organização estão listados na **guia Importar.** O **valor concluído** análise na coluna **Status** indica os trabalhos de importação que foram analisados pelo Microsoft 365 e estão prontos para importação.
     

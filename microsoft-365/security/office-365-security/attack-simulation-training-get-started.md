@@ -17,32 +17,32 @@ ms.collection:
 - m365initiative-m365-defender
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem aprender a usar o treinamento de simulação de ataque para executar ataques simulados de phishing e senha em suas organizações do Microsoft 365 E5 ou do Microsoft Defender para Office 365 Plan 2.
+description: Os administradores podem aprender a usar o treinamento de simulação de ataque para executar ataques simulados de phishing e senha em suas Microsoft 365 E5 ou no Microsoft Defender para organizações Office 365 Plano 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6e344153ef433bc13b16136e584ec4da73fcef6a
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: a5986bbeebd49223ebfd74773346f27fc5297243
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51202961"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730895"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>Começar a usar o Treinamento de simulação de ataque
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-Se sua organização tiver o Microsoft 365 E5 ou o Microsoft Defender para Office 365 Plano 2, que inclui recursos de Investigação e Resposta contra [Ameaças,](office-365-ti.md)você pode usar o treinamento de simulação de ataque no Centro de Segurança da Microsoft para executar cenários de ataque realistas em sua organização. Esses ataques simulados podem ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real impacte sua linha inferior. Leia este artigo para saber mais.
+Se sua organização tiver um Microsoft 365 E5 ou o Microsoft Defender para Office 365 Plano 2, que inclui recursos de Investigação e Resposta contra [Ameaças,](office-365-ti.md)você pode usar o treinamento de simulação de ataque no Centro de Segurança da Microsoft para executar cenários de ataque realistas em sua organização. Esses ataques simulados podem ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real impacte sua linha inferior. Leia este artigo para saber mais.
 
 > [!NOTE]
-> O treinamento de simulação de ataque substitui a experiência antiga do Simulador de Ataque v1 descrita no Simulador de Ataques no [Microsoft Defender para Office 365](attack-simulator.md).
+> O treinamento de simulação de ataque substitui a experiência antiga do Simulador de Ataque v1 descrita no [Simulador](attack-simulator.md)de Ataques no Microsoft Defender para Office 365 .
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Para abrir o Centro de Segurança da Microsoft, vá para <https://security.microsoft.com/> . Treinamento de simulação de ataque está disponível em Treinamento de **simulação** de ataque e email \> **e colaboração.** Para ir diretamente ao treinamento de simulação de ataque, abra <https://security.microsoft.com/attacksimulator> .
 
-- Para obter mais informações sobre a disponibilidade do treinamento de simulação de ataque em diferentes assinaturas do Microsoft 365, consulte [Microsoft Defender for Office 365 service description](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+- Para obter mais informações sobre a disponibilidade do treinamento de simulação de ataque em assinaturas Microsoft 365 diferentes, consulte [Microsoft Defender for Office 365 service description](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
 
-- Você precisa ter permissões atribuídas no Centro de Conformidade & segurança ou no Azure Active Directory antes de poder fazer os procedimentos neste artigo. Especificamente, você precisa ser membro do **Gerenciamento** da **Organização,** Administrador de Segurança ou uma das seguintes funções:
+- Você precisa ter permissões atribuídas no Centro de Conformidade & Segurança ou Azure Active Directory antes de poder fazer os procedimentos neste artigo. Especificamente, você precisa ser membro do **Gerenciamento** da **Organização,** Administrador de Segurança ou uma das seguintes funções:
   - **Administradores do Simulador de Ataques**: Crie e gere todos os aspectos de campanhas de simulação de ataque.
   - **Autores de Carga do Simulador de Ataque**: Crie cargas de ataque que um administrador pode iniciar posteriormente.
 
@@ -50,7 +50,12 @@ Se sua organização tiver o Microsoft 365 E5 ou o Microsoft Defender para Offic
 
 - Não há cmdlets correspondentes do PowerShell para treinamento de simulação de ataque.
 
-- Dados relacionados à simulação de ataque e treinamento são armazenados com outros dados do cliente para serviços do Microsoft 365. Para obter mais informações, consulte Locais de dados [do Microsoft 365](../../enterprise/o365-data-locations.md). A simulação de ataque está disponível nas seguintes regiões: NAM, APC, EUR, IND, CAN, AUS, FRA, GBR, JPN e KOR.
+- Os dados relacionados à simulação de ataque e treinamento são armazenados com outros dados do cliente para Microsoft 365 serviços. Para obter mais informações, [consulte Microsoft 365 data locations](../../enterprise/o365-data-locations.md). A simulação de ataque está disponível nas seguintes regiões: NAM, APC, EUR, IND, CAN, AUS, FRA, GBR, JPN e KOR.
+
+- A partir de 15 de junho de 2021, o treinamento de simulação de ataque está disponível GCC. Se sua organização tiver Office 365 G5 GCC ou Microsoft Defender para Office 365 (Plano 2) para Governo, você poderá usar o treinamento de simulação de ataque no Centro de Segurança da Microsoft para executar cenários de ataque realistas em sua organização, conforme descrito neste artigo. O treinamento de simulação de ataque ainda não está disponível GCC ambientes High ou DoD.
+
+> [!NOTE]
+> O treinamento de simulação de ataque oferece um subconjunto de recursos para clientes do E3 como uma avaliação. A oferta de avaliação contém a capacidade de usar uma carga de Coleta de Credenciais e a capacidade de selecionar experiências de treinamento 'ISA Phishing' ou 'Mass Market Phishing'. Nenhum outro recursos faz parte da oferta de avaliação do E3.
 
 ## <a name="simulations"></a>Simulações
 
@@ -69,7 +74,7 @@ No treinamento de simulação de ataque, vários tipos de técnicas de engenhari
 - **Drive-by-url**: um invasor envia ao destinatário uma mensagem que contém uma URL. Quando o destinatário clica na URL, ele é levado para um site que tenta executar o código em segundo plano. Esse código em segundo plano tenta coletar informações sobre o destinatário ou implantar código arbitrário em seu dispositivo. Normalmente, o site de destino é um site conhecido que foi comprometido ou um clone de um site conhecido. A familiaridade com o site ajuda a convencer o usuário de que o link é seguro para clicar. Essa técnica também é conhecida como um ataque de _buraco de regua._
 
 > [!NOTE]
-> Verifique a disponibilidade da URL de phishing simulada em seus navegadores da Web com suporte antes de usar a URL em uma campanha de phishing. Embora trabalhemos com muitos fornecedores de reputação de URL para sempre permitir essas URLs de simulação, nem sempre temos cobertura completa (por exemplo, Navegação Segura do Google). A maioria dos fornecedores fornece orientações que permitem que você sempre permita URLs específicas (por exemplo, <https://support.google.com/chrome/a/answer/7532419> ).
+> Verifique a disponibilidade da URL de phishing simulada em seus navegadores da Web com suporte antes de usar a URL em uma campanha de phishing. Embora trabalhemos com muitos fornecedores de reputação de URL para sempre permitir essas URLs de simulação, nem sempre temos cobertura completa (por exemplo, Google Cofre Navegação). A maioria dos fornecedores fornece orientações que permitem que você sempre permita URLs específicas (por exemplo, <https://support.google.com/chrome/a/answer/7532419> ).
 
 As URLs usadas pelo treinamento de simulação de ataque são descritas na lista a seguir:
 
@@ -111,4 +116,4 @@ Para obter instruções passo a passo sobre como criar uma carga para uso em uma
 Para obter instruções passo a passo sobre como obter informações com relatórios, consulte Obter informações por meio [do treinamento de simulação de ataque.](attack-simulation-training-insights.md)
 
 > [!NOTE]
-> O Simulador de Ataques usa Links Seguros no Defender para Office 365 para rastrear com segurança os dados de clique para a URL na mensagem de carga que é enviada a destinatários direcionados de uma campanha de phishing, mesmo que a configuração Não rastrear **cliques** do usuário nas políticas de Links Seguros está conexões.
+> O Simulador de Ataques usa links do Cofre no Defender para Office 365 rastrear com segurança os dados de clique para a URL na mensagem de carga que é enviada a destinatários direcionados de uma campanha de phishing, mesmo que a configuração Não rastrear **cliques** do usuário em Cofre Políticas de Links está conexões.
