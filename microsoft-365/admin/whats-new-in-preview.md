@@ -21,12 +21,12 @@ description: O Microsoft 365 de administração - saiba mais sobre os recursos q
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 654f8de8d931f26efbcba5b60d730a9d9e477e65
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: d4bd7d02b8c14f8b57b6f2e3eef99c2233d820fe
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769061"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779886"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Novidades no centro de Microsoft 365 de administração
 
@@ -49,6 +49,18 @@ E se você quiser saber o que há de novo com outros serviços de nuvem da Micro
 - [Novidades no centro de SharePoint de administração](/sharepoint/what-s-new-in-admin-center)
 - [Atualizações do Office](/OfficeUpdates/)
 - [Como verificar a Windows de versão](/windows/deployment/update/check-release-health)
+
+## <a name="june-2021"></a>Junho de 2021
+
+### <a name="microsoft-365-admin-center-search"></a>Microsoft 365 de centro de administração
+
+Adicionamos algumas novas categorias à funcionalidade de Pesquisa.
+
+- Agora, você pode pesquisar Microsoft 365 funções de administrador na pesquisa global e exibir e gerenciar rapidamente as atribuições de função de qualquer página. Por exemplo, pesquise o **administrador do Intune.**
+
+- Agora você pode encontrar experiências de configuração simplificadas por meio da pesquisa global. Isso pode ajudar você e sua equipe a começar rapidamente a usar novos recursos. Por exemplo, **pesquise a senha definida para nunca expirar**.
+
+Para saber mais sobre a pesquisa no centro de administração, consulte [Search in the Microsoft 365 admin center](manage/search-in-the-mac.md).
 
 ## <a name="may-2021"></a>Maio de 2021
 

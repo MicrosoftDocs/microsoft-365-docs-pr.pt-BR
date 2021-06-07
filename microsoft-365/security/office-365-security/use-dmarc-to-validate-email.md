@@ -18,12 +18,12 @@ ms.collection:
 description: Saiba como configurar uma autenticação de mensagem baseada em domínio, relatórios e conformidade (DMARC) para validar as mensagens enviadas da sua organização.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9beada6e0fb61e503392b0bd379f02bd1c025464
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: a92c6ec50fb60d15e027a11163aad6b2186e5304
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538670"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779898"
 ---
 # <a name="use-dmarc-to-validate-email"></a>Usar DMARC para validar emails
 
@@ -178,7 +178,7 @@ Exemplos:
     _dmarc.contoso.com  3600 IN  TXT  "v=DMARC1; p=reject"
     ```
 
-Após formar seu registro, é preciso atualizá-lo com seu registrador de domínio. Para saber mais sobre como adicionar o registro TXT do DMARC em seus registros de DNS para o Microsoft 365, confira [Criar registros DNS para o Microsoft 365 ao gerenciar seus registros DNS](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
+Após formar seu registro, é preciso atualizá-lo com seu registrador de domínio.
 
 ## <a name="dmarc-mail-public-preview-feature"></a>Email DMARC (Recurso de visualização pública)
 > [!CAUTION]
@@ -256,9 +256,9 @@ contoso.com     3600   IN  MX  10 contoso-com.mail.protection.outlook.com
 
 Todos os, ou a maioria dos, emails primeiro serão direcionados a mail.contoso.com, já que este é o MX primário e, então, serão direcionados para o EOP. Em alguns casos, o EOP pode nem estar listado como registro MX e você usa conectores para direcionar os emails. EOP não precisa ser a primeira entrada para a validação do DMARC. Ele só garante a validação, pois nem todos os servidores locais/não O365 farão a verificação de DMARCs.  A DMARC está qualificada para ser imposta para o domínio de um cliente (não para o servidor) ao configurar o registro TXT do DMARC, mas fica até o servidor de recebimento para realmente fazer a imposição.  Se você configurar o EOP como o servidor de recebimento, o EOP fará a imposição de DMARC.
 
-![Um gráfico da solução de problemas para DMARC, cortesia de Daniel Mande](../../media/Tp_DMARCTroublehoot.png)
+:::image type="content" source="../../media/Tp_DMARCTroublehoot.png" alt-text="Um gráfico de solução de problemas para DMARC, cortesia de Daniel Mande" lightbox="../../media/Tp_DMARCTroublehoot.png":::
 
-## <a name="for-more-information"></a>Para obter mais informações
+## <a name="for-more-information"></a>Para saber mais
 
 Quer mais informações sobre o DMARC? Estes recursos podem ajudar.
 

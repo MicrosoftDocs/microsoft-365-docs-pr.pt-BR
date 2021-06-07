@@ -1,7 +1,7 @@
 ---
 title: Obter recomendações de segurança
 description: Recupera uma coleção de recomendações de segurança relacionadas a uma determinada ID de dispositivo.
-keywords: apis, api gráfica, apis com suporte, obter, listar, arquivo, informações, recomendação de segurança por dispositivo, api de gerenciamento de & de ameaças, api de tvm do Microsoft Defender para Ponto de Extremidade
+keywords: apis, api gráfica, apis com suporte, obter, lista, arquivo, informações, recomendação de segurança por dispositivo, api de & Gerenciamento de Vulnerabilidades de ameaças, api de tvm do Microsoft Defender para Ponto de Extremidade
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: bc209687d51b3e05bfcfd6028042ba5912b877f6
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 44f64334d08d8d0d6a5ed1e8e06baa2880859ad2
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935300"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771124"
 ---
 # <a name="get-security-recommendations"></a>Obter recomendações de segurança
 
@@ -43,7 +45,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo | SecurityRecommendation.Read.All | 'Ler informações de recomendação de segurança do Gerenciamento de Ameaças e Vulnerabilidades'
-Delegada (conta corporativa ou de estudante) | SecurityRecommendation.Read |  'Ler informações de recomendação de segurança do Gerenciamento de Ameaças e Vulnerabilidades'
+Delegado (conta corporativa ou de estudante) | SecurityRecommendation.Read |  'Ler informações de recomendação de segurança do Gerenciamento de Ameaças e Vulnerabilidades'
 
 ## <a name="http-request"></a>Solicitação HTTP
 ```

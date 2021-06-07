@@ -11,17 +11,17 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 05/05/2021
+ms.date: 06/04/2021
 ms.reviewer: pauhijbr, ksarens
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 1748a33be2c27123eb0437784dcdb2cb7905616a
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: f1344026878b7fbd6242d82b1afb0e6671c32073
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274683"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789263"
 ---
 # <a name="configure-scheduled-quick-or-full-microsoft-defender-antivirus-scans"></a>Configurar verificações rápidas ou completas do Microsoft Defender Antivírus agendadas
 
@@ -73,8 +73,8 @@ Use a tabela a seguir para escolher um tipo de verificação.
 |Cenário  |Tipo de verificação recomendado  |
 |---------|---------|
 |Você deseja configurar verificações regulares agendadas     | Verificação rápida <p>Uma verificação rápida verifica os processos, memória, perfis e determinados locais no dispositivo. Combinado com [a proteção sempre em tempo real,](configure-real-time-protection-microsoft-defender-antivirus.md)uma verificação rápida ajuda a fornecer uma cobertura forte para malware que começa com o sistema e malware no nível do kernel. A proteção em tempo real revisa arquivos quando são abertos e fechados e sempre que um usuário navega para uma pasta.         |
-|Ameaças, como malware, são detectadas em um dispositivo     | Verificação completa <p>Uma verificação completa pode ajudar a identificar se há componentes inativos que exigem uma limpeza mais completa.         |
-|Você deseja executar uma verificação [sob demanda](run-scan-microsoft-defender-antivirus.md)     | Verificação completa  <p>Uma verificação completa analisa todos os arquivos no disco do dispositivo, incluindo arquivos que são antigos, arquivados e não acessados diariamente.      |
+|Ameaças, como malware, são detectadas em um dispositivo individual     | Verificação rápida <p>Na maioria dos casos, uma verificação rápida detectará e limpará o malware detectado.   |
+|Você deseja executar uma verificação [sob demanda](run-scan-microsoft-defender-antivirus.md)     | Verificação rápida       |
 | Você deseja garantir que um dispositivo portátil, como uma unidade USB, não contenha malware | Verificação personalizada <p>Uma verificação personalizada permite selecionar locais, pastas ou arquivos específicos e executa uma verificação rápida. |
 
 ### <a name="what-else-do-i-need-to-know-about-quick-and-full-scans"></a>O que mais preciso saber sobre verificações rápidas e completas?
@@ -98,7 +98,7 @@ Verificações agendadas são realizadas no dia e hora especificados. Você pode
 
 ### <a name="use-group-policy-to-schedule-scans"></a>Usar a Política de Grupo para agendar verificações
 
-|Location | Setting | Descrição | Configuração padrão (se não estiver configurada) |
+|Localização | Configuração | Descrição | Configuração padrão (se não estiver configurada) |
 |:---|:---|:---|:---|
 |Examinar | Especificar o tipo de verificação a ser usado para uma verificação agendada | Verificação rápida |
 |Examinar | Especificar o dia da semana para executar uma verificação agendada | Especifique o dia (ou nunca) para executar uma verificação. | Nunca |
@@ -143,7 +143,7 @@ Você pode definir a verificação agendada para ocorrer somente quando o ponto 
 
 ### <a name="use-group-policy-to-schedule-scans"></a>Usar a Política de Grupo para agendar verificações
 
-|Location | Setting | Descrição | Configuração padrão (se não estiver configurada) |
+|Localização | Configuração | Descrição | Configuração padrão (se não estiver configurada) |
 |:---|:---|:---|:---|
 |Examinar | Iniciar a verificação agendada somente quando o computador estiver em uso, mas não estiver em uso | As verificações agendadas não serão executados, a menos que o computador esteja, mas não esteja em uso | Habilitado |
 
@@ -155,7 +155,7 @@ Use os seguintes cmdlets:
 Set-MpPreference -ScanOnlyIfIdleEnabled
 ```
 
-Para obter mais informações, [consulte Usar cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) do PowerShell para configurar e executar [cmdlets](/powershell/module/defender/)Microsoft Defender Antivírus e Defender.
+Para obter mais informações, confira [Usar cmdlets do PowerShell para configurar e executar o Microsoft Defender Antivírus](use-powershell-cmdlets-microsoft-defender-antivirus.md) e [cmdlets do Defender](/powershell/module/defender/).
 
 ### <a name="use-windows-management-instruction-wmi"></a>Usar Windows Instrução de Gerenciamento (WMI)
 
@@ -174,7 +174,7 @@ Algumas ameaças podem exigir uma verificação completa para concluir sua remo�
 
 ### <a name="use-group-policy-to-schedule-remediation-required-scans"></a>Usar a Política de Grupo para agendar verificações necessárias para correção
 
-| Location | Setting | Descrição | Configuração padrão (se não estiver configurada) |
+| Localização | Configuração | Descrição | Configuração padrão (se não estiver configurada) |
 |---|---|---|---|
 |Correção | Especificar o dia da semana para executar uma verificação completa agendada para concluir a correção | Especifique o dia (ou nunca) para executar uma verificação. | Nunca |
 |Correção | Especificar a hora do dia para executar uma verificação completa agendada para concluir a correção | Especifique o número de minutos após a meia-noite (por exemplo, **insira 60** para 1 da manhã) | 2 da manhã. |
@@ -208,7 +208,7 @@ Você pode habilitar uma verificação rápida diária que pode ser executado al
 
 ### <a name="use-group-policy-to-schedule-daily-scans"></a>Usar a Política de Grupo para agendar verificações diárias
 
-|Location | Setting | Descrição | Configuração padrão (se não estiver configurada) |
+|Localização | Configuração | Descrição | Configuração padrão (se não estiver configurada) |
 |:---|:---|:---|:---|
 |Examinar | Especificar o intervalo para executar verificações rápidas por dia | Especifique quantas horas devem ser completas antes da próxima verificação rápida. Por exemplo, para executar a cada duas horas, insira **2**, uma vez por dia, insira **24**. Insira **0** para nunca executar uma verificação rápida diária. | Nunca |
 |Examinar | Especifique o tempo para uma verificação rápida diária | Especifique o número de minutos após a meia-noite (por exemplo, **insira 60** para 1 da manhã) | 2 da manhã. |
@@ -240,7 +240,7 @@ Você pode forçar uma verificação a ocorrer após cada atualização [de prot
 
 ### <a name="use-group-policy-to-schedule-scans-after-protection-updates"></a>Usar a Política de Grupo para agendar verificações após atualizações de proteção
 
-|Location | Setting | Descrição | Configuração padrão (se não estiver configurada)|
+|Localização | Configuração | Descrição | Configuração padrão (se não estiver configurada)|
 |:---|:---|:---|:---|
 |Atualizações de assinatura | Ativar a verificação após a atualização de Inteligência de Segurança | Uma verificação ocorrerá imediatamente depois que uma nova atualização de proteção for baixada | Habilitado |
 
@@ -251,4 +251,4 @@ Você pode forçar uma verificação a ocorrer após cada atualização [de prot
 - [Configurar opções de verificação do Microsoft Defender Antivírus](configure-advanced-scan-types-microsoft-defender-antivirus.md)
 - [Gerenciar Microsoft Defender Antivírus e aplicar linhas de base](manage-updates-baselines-microsoft-defender-antivirus.md)
 - [Gerenciar quando as atualizações de proteção devem ser baixadas e aplicadas](manage-protection-update-schedule-microsoft-defender-antivirus.md) 
-- [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Microsoft Defender Antivirus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)

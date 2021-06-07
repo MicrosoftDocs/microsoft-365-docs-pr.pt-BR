@@ -16,12 +16,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ee2a5e1815dd552753ac7f3dee30df11ac4332e2
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.custom: api
+ms.openlocfilehash: 456507533265bc085adc1008f3264e123569a6ca
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054487"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770764"
 ---
 # <a name="fetch-alerts-from-mssp-customer-tenant"></a>Buscar alertas do locatário do cliente MSSP
 
@@ -48,7 +49,7 @@ Etapa 1: Criar um aplicativo de terceiros
 
 Etapa 2: obter tokens de acesso e atualização do locatário do cliente
  
-Etapa 3: permitir seu aplicativo no Centro de Segurança do Microsoft Defender
+Etapa 3: permitir que seu aplicativo Central de Segurança do Microsoft Defender
  
 ### <a name="step-1-create-an-application-in-azure-active-directory-azure-ad"></a>Etapa 1: Criar um aplicativo no Azure Active Directory (Azure AD)
  
@@ -56,7 +57,7 @@ Você precisará criar um aplicativo e conceder permissões a ele para buscar al
 
 1. Entre no portal [do Azure AD.](https://aad.portal.azure.com/)
 
-2. Selecione **Registros do Aplicativo do Azure Active Directory**  >  .
+2. Selecione **Azure Active Directory**  >  **registros do aplicativo**.
  
 3. Clique **em Novo registro**.
 
@@ -85,7 +86,7 @@ Você precisará criar um aplicativo e conceder permissões a ele para buscar al
  
 
 ### <a name="step-2-get-access-and-refresh-tokens-from-your-customers-tenant"></a>Etapa 2: obter tokens de acesso e atualização do locatário do cliente
-Esta seção orienta você sobre como usar um script do PowerShell para obter os tokens do locatário do cliente. Este script usa o aplicativo da etapa anterior para obter os tokens de acesso e atualização usando o Fluxo de Código de Autorização OAuth.
+Esta seção orienta você sobre como usar um script do PowerShell para obter os tokens do locatário do cliente. Este script usa o aplicativo da etapa anterior para obter os tokens de acesso e atualização usando o código de autorização OAuth Flow.
 
 Depois de fornecer suas credenciais, você precisará conceder consentimento ao aplicativo para que o aplicativo seja provisionado no locatário do cliente.
 
@@ -159,14 +160,14 @@ Depois de fornecer suas credenciais, você precisará conceder consentimento ao 
 
 8. Na janela do PowerShell, você receberá um token de acesso e um token de atualização. Salve o token de atualização para configurar seu conector SIEM. 
  
-### <a name="step-3-allow-your-application-on-microsoft-defender-security-center"></a>Etapa 3: Permitir seu aplicativo no Centro de Segurança do Microsoft Defender
-Você precisará permitir o aplicativo criado no Centro de Segurança do Microsoft Defender.
+### <a name="step-3-allow-your-application-on-microsoft-defender-security-center"></a>Etapa 3: Permitir que seu aplicativo Central de Segurança do Microsoft Defender
+Você precisará permitir o aplicativo criado em Central de Segurança do Microsoft Defender.
  
 Você precisará ter a permissão **Gerenciar configurações do** sistema de portal para permitir o aplicativo. Caso contrário, você precisará solicitar que seu cliente permita o aplicativo para você.
 
 1. Vá para `https://securitycenter.windows.com?tid=<customer_tenant_id>` (substitua \<customer_tenant_id\> pela ID de locatário do cliente.
 
-2. Clique **em Configurações**  >  **SIEM**. 
+2. Clique **Configurações**  >  **SIEM**. 
 
 3. Selecione a **guia MSSP.**
 

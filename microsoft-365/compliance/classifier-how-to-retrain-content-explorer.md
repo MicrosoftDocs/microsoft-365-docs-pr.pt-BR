@@ -15,16 +15,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como fornecer comentários a um classificador treinável no Explorador de conteúdo.
-ms.openlocfilehash: d61437634dcad7f01a6737947b0f32f42de2818e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ef0539a3d474ffecaeac8633b4a58aa068a5c182
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918097"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793059"
 ---
 # <a name="how-to-retrain-a-classifier-in-content-explorer"></a>Como treinar novamente um classificador no explorador de conteúdo
 
-Um classificador de treinamento do Microsoft 365 é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo, dando a ele exemplos para ver. Depois de treinado, você pode usá-lo para identificar o item para a aplicação de rótulos de sensibilidade do Office, políticas de conformidade de comunicações e políticas de rótulo de retenção.
+Um Microsoft 365 classificador treinável é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo, dando a ele exemplos para ver. Depois de treinado, você pode usá-lo para identificar o item para a aplicação de rótulos de Office de sensibilidade, políticas de conformidade de comunicações e políticas de rótulo de retenção.
 
 Este artigo mostra como melhorar o desempenho de classificadores treinados personalizados e alguns classificadores pré-treinados fornecendo comentários adicionais.
 
@@ -39,7 +39,7 @@ Assista a este vídeo para um resumo rápido do processo de ajuste e retreinamen
 
 ## <a name="permissions"></a>Permissões
 
-Para acessar classificadores no Centro de Conformidade do Microsoft 365:
+Para acessar classificadores no centro Microsoft 365 Conformidade:
 
 - a função de administrador de conformidade ou Administrador de Dados de Conformidade é necessária para treinar um classificador
 
@@ -50,7 +50,7 @@ Você precisará de contas com essas permissões para usar classificadores nesse
 ## <a name="overall-workflow"></a>Fluxo de trabalho geral
 
 > [!IMPORTANT]
-> Você fornece comentários no explorador de conteúdo para aplicar automaticamente políticas de rótulo de retenção a itens do Exchange e usa o classificador como uma condição. **Se você não tiver uma política de retenção que aplique automaticamente um rótulo de retenção a itens do Exchange e use um classificador como condição, pare aqui.**
+> Você fornece comentários no explorador de conteúdo para aplicar automaticamente políticas de rótulo de retenção Exchange itens e usa o classificador como uma condição. **Se você não tiver uma política de retenção que aplique automaticamente um rótulo de retenção Exchange itens e use um classificador como condição, pare aqui.**
 
 À medida que você usa seus classificadores, talvez você queira aumentar a precisão das classificações que eles estão fazendo. Você faz isso avaliando a qualidade das classificações feitas para itens identificados como sendo uma combinação ou não uma combinação. Depois de fazer 30 avaliações para um classificador, ele recebe os comentários e se retreina automaticamente.
 
@@ -61,7 +61,7 @@ Para entender mais sobre o fluxo de trabalho geral de retreinamento de um classi
 
 ## <a name="how-to-retrain-a-classifier-in-content-explorer"></a>Como treinar novamente um classificador no explorador de conteúdo
 
-1. Entre no Centro de conformidade do Microsoft 365 com o administrador de conformidade ou acesso à função de administrador de segurança e abra o Centro de conformidade do **Microsoft 365**  >  **Data classification Explorador** de  >  **conteúdo.** 
+1. Entre no centro Microsoft 365 de conformidade com o administrador de conformidade ou acesso **à** função de administrador de segurança e abra Microsoft 365 centro de conformidade  >  **Data classification**  >  **Data classification Explorador de conteúdo**. 
 2. Na lista **Filtrar rótulos, tipos de informações ou** **categorias,** expanda classificadores com treinamento.
 
 > [!IMPORTANT]
@@ -96,7 +96,7 @@ Para entender mais sobre o fluxo de trabalho geral de retreinamento de um classi
 
 12. Revise a ação recomendada e as comparações de previsão das versões retreinadas e publicadas no momento do classificador.
 13. Se você estiver satisfeito com os resultados da retreinamento, escolha **Publicar de novo.**
-14. Se você não estiver satisfeito com os resultados do retreinamento, poderá optar por fornecer comentários adicionais ao classificador na interface de conformidade de comunicações e iniciar outro ciclo de retreinamento ou não fazer nada nesse caso, caso em que a versão publicada no momento do classificador continuará a ser usada. 
+14. Se você não estiver satisfeito com os resultados do retreinamento, poderá optar por fornecer comentários adicionais ao classificador na interface do Explorador de Conteúdo e iniciar outro ciclo de retreinamento ou não fazer nada nesse caso, caso em que a versão publicada no momento do classificador continuará a ser usada. 
 
 ## <a name="details-on-republishing-recommendations"></a>Detalhes sobre recomendações de redação
 

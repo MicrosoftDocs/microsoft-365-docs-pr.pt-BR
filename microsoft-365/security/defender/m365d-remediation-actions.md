@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 80546d44bc1ba222c736b397a272f9f1f1a01d4a
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: f025f23242c28f698e6f67755cc59d21c4463914
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52269463"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782940"
 ---
 # <a name="remediation-actions-in-microsoft-365-defender"></a>Ações de correção no Microsoft 365 Defender
 
@@ -50,7 +50,7 @@ A tabela a seguir resume as ações de correção atualmente suportadas no Micro
 |:---------|:---------|
 |- Coletar pacote de investigação <br/>- Isolar dispositivo (essa ação pode ser desfeita)<br/>- Máquina de offboard <br/>- Execução de código de versão <br/>- Liberação da quarentena <br/>- Exemplo de solicitação <br/>- Restringir a execução de código (essa ação pode ser desfeita) <br/>- Executar a verificação antivírus <br/>- Parar e colocar em quarentena      |- Bloquear URL (hora do clique)<br/>- Excluir mensagens de email ou clusters<br/>- Email de quarentena<br/>- Colocar em quarentena um anexo de email<br/>- Desativar o encaminhamento de email externo          |
 
-As ações de correção, sejam aprovações pendentes ou já concluídas, podem ser exibidas no [Centro de Ações](m365d-action-center.md).
+As ações de correção, sejam aprovações pendentes ou já concluídas, podem ser exibidas no [Centro de ações](m365d-action-center.md).
 
 ## <a name="remediation-actions-that-follow-automated-investigations"></a>Ações de correção que seguem investigações automatizadas
 

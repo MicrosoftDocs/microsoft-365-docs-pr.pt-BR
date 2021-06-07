@@ -17,12 +17,12 @@ ms.collection:
 description: Saiba como habilitar a Mensagem de Relatório ou os complementos de Phishing de relatório para Outlook e Outlook na Web, para usuários individuais ou para toda a sua organização.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: dc54c5b74697ac41a1d4ff0818467dba662b31f5
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 25c4f7d67fd4fa876544a17df0f4bc1abfd7b3e7
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52295814"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782928"
 ---
 # <a name="enable-the-report-message-or-the-report-phishing-add-ins"></a>Habilitar a Mensagem de Relatório ou os complementos de Phishing de Relatório
 
@@ -48,9 +48,9 @@ O add-in Relatório phishing fornece a opção de relatar apenas mensagens de ph
 
 Se você for um usuário individual, poderá habilitar os dois complementos para si mesmo.
 
-f você é um administrador global ou um administrador de Exchange Online e o Exchange está configurado para usar a autenticação OAuth, você pode habilitar o complemento Mensagem de Relatório e o complemento Relatar Phishing para sua organização. Os dois complementos agora estão disponíveis por meio da [Implantação Centralizada.](../../admin/manage/centralized-deployment-of-add-ins.md)
+Se você for um administrador global ou um administrador de Exchange Online e o Exchange estiver configurado para usar a autenticação OAuth, você poderá habilitar o complemento Mensagem de Relatório e o complemento Relatar Phishing para sua organização. Os dois complementos agora estão disponíveis por meio da [Implantação Centralizada.](../../admin/manage/centralized-deployment-of-add-ins.md)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - O complemento Mensagem de Relatório e o complemento Phishing de Relatório funcionam com a maioria das assinaturas Microsoft 365 e os seguintes produtos:
 

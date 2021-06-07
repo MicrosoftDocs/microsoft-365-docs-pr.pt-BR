@@ -1,7 +1,7 @@
 ---
 title: Listar software
 description: Recupera uma lista de inventário de software
-keywords: apis, api gráfica, apis com suporte, obter, listar, arquivo, informações, inventário de software, api de gerenciamento de ameaças & de gerenciamento de vulnerabilidades, Api de tv do Microsoft Defender para Endpoint
+keywords: apis, api gráfica, apis com suporte, obter, listar, arquivo, informações, inventário de software, api de & Gerenciamento de Vulnerabilidades de ameaças, api de tvm do Microsoft Defender para Ponto de Extremidade
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 6522b546dfde7447a03b3c417be93d288e261908
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: f7e71c58396fd4b3ed40ba88aab5c2757ae41a41
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934004"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771076"
 ---
 # <a name="list-software-inventory-api"></a>Listar API de inventário de software
 
@@ -41,7 +43,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |Software.Read.All |    'Ler informações do Software de Gerenciamento de Ameaças e Vulnerabilidades'
-Delegada (conta corporativa ou de estudante) | Software.Read |    'Ler informações do Software de Gerenciamento de Ameaças e Vulnerabilidades'
+Delegado (conta corporativa ou de estudante) | Software.Read |    'Ler informações do Software de Gerenciamento de Ameaças e Vulnerabilidades'
 
 ## <a name="http-request"></a>Solicitação HTTP
 ```

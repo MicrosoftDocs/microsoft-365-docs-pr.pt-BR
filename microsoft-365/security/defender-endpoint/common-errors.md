@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 54ae77c28523d3be6092e1567424d2d87a5f2927
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: c2e52b7074dcd15e7f6852a11ccb7793572cd9b5
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934784"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771004"
 ---
 # <a name="common-rest-api-error-codes"></a>Códigos de erro comuns da API REST
 

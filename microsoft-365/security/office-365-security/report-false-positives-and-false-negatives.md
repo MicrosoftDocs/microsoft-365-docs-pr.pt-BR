@@ -13,12 +13,12 @@ ms.collection:
 description: Saiba como relatar falsos positivos e falsos negativos no Outlook usando o recurso Mensagem de Relatório.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6f8c4fc327bfd467cdd1d0043c454e222e84125c
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 84a5b697f8a4b46cf79c542485bfafb396328f5c
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625108"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789238"
 ---
 # <a name="report-false-positives-and-false-negatives-in-outlook"></a>Relatar falsos positivos e falsos negativos no Outlook
 
@@ -38,7 +38,10 @@ Em organizações com caixas de correio em Exchange Online ou caixas de correio 
 
 - Para a melhor experiência de envio do usuário, use o complemento Mensagem de Relatório ou o complemento Relatar Phishing.
 
-- Observe que esse complemento funciona para Outlook em todas as plataformas— na Web, iOS, Android e Área de Trabalho.
+  > [!IMPORTANT]
+  > A experiência interna para relatar lixo eletrônico ou phishing Outlook não pode usar a [política de envio do usuário.](./user-submission.md) Em vez disso, recomendamos o uso do add-in Mensagem de Relatório ou do add-in Relatar Phishing.
+
+- O complemento Mensagem de Relatório e o add-in De Relatório phishing funcionam para Outlook em todas as plataformas (Outlook na Web, iOS, Android e Área de Trabalho).
 
 - Se você for um administrador em uma organização com Exchange Online caixas de correio, use o portal Envios no Centro de Conformidade & Segurança. Para obter mais informações, [consulte Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](admin-submission.md).
 
@@ -54,29 +57,23 @@ Em organizações com caixas de correio em Exchange Online ou caixas de correio 
 
 Para mensagens na Caixa de Entrada ou em qualquer outra pasta de email, exceto Lixo Eletrônico, use o seguinte método para relatar mensagens de spam e phishing:
 
-1. Clique nas **releições** Mais ações no canto superior direito  da mensagem selecionada, clique em Relatar mensagem no menu suspenso e selecione **Lixo** Eletrônico ou **Phishing**.
+1. Selecione as **releições** Mais ações no canto superior direito da mensagem selecionada, selecione **Relatar** mensagem no menu suspenso e selecione **Lixo** Eletrônico ou **Phishing**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Mensagem de Relatório - Mais ações](../../media/report-message-more-actions.png)
-
-   > [!div class="mx-imgBorder"]
-   > ![Mensagem de Relatório - Lixo Eletrônico e Phishing](../../media/report-message-junk-phishing.png)
+   ![Mensagem de Relatório - Mais ações](../../media/report-message-more-actions.png)
+   
+   ![Mensagem de Relatório - Lixo Eletrônico e Phishing](../../media/report-message-junk-phishing.png)
 
 2. As mensagens selecionadas serão enviadas à Microsoft para análise e:
-
-   - Movido para a pasta Lixo Eletrônico se tiver sido relatado como spam.
-
-   - Excluído se tiver sido relatado como phishing.
+   - Movido para a pasta Lixo Eletrônico se eles foram relatados como spam.
+   - Excluído se eles foram relatados como phishing.
 
 ### <a name="report-messages-that-are-not-junk"></a>Relatar mensagens que não são lixo eletrônico
 
-1. Clique nas **releições** Mais ações no canto superior direito  da mensagem selecionada, clique em Relatar mensagem no menu suspenso e clique em **Não Lixo Eletrônico.**
+1. Selecione as releições Mais ações no canto superior direito da mensagem selecionada, selecione **Relatar** mensagem no menu suspenso e selecione **Não Lixo Eletrônico**. 
 
-   > [!div class="mx-imgBorder"]
-   > ![Mensagem de Relatório - Mais ações](../../media/report-message-more-actions.png)
-
-   > [!div class="mx-imgBorder"]
-   > ![Mensagem de relatório - Não lixo eletrônico](../../media/report-message-not-junk.png)
+   ![Mensagem de Relatório - Mais ações](../../media/report-message-more-actions.png)
+   
+   ![Mensagem de relatório - Não lixo eletrônico](../../media/report-message-not-junk.png)
 
 2. A mensagem selecionada será enviada à Microsoft para análise e movida para a Caixa de Entrada ou qualquer outra pasta especificada.
 
@@ -85,5 +82,4 @@ Para mensagens na Caixa de Entrada ou em qualquer outra pasta de email, exceto L
 Para revisar as mensagens relatadas pelos usuários à Microsoft, você tem estas opções:
 
 - Use o portal Envios de Administrador. Para obter mais informações, consulte [Exibir envios de usuários para a Microsoft](admin-submission.md#view-user-submissions-to-microsoft).
-
 - Crie uma regra de fluxo de emails (também conhecida como regra de transporte) para enviar cópias de mensagens relatadas. Para obter instruções, [consulte Use mail flow rules to see what users are reporting to Microsoft](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-see-what-users-are-reporting-to-microsoft).

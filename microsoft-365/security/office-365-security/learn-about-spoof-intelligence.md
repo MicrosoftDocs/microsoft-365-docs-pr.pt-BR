@@ -1,5 +1,5 @@
 ---
-title: Spoof intelligence insight
+title: Informações de inteligência contra falsificação
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -20,12 +20,12 @@ ms.custom:
 description: Os administradores podem aprender sobre o insight de inteligência de Proteção do Exchange Online (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 37c5bcb6f2c15c3814fafa198f2905e23b12ba01
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 45ecbe68072441b40477d1b27953b957aeffa9e3
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538742"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793167"
 ---
 # <a name="spoof-intelligence-insight-in-eop"></a>Spoof intelligence insight in EOP
 
@@ -63,13 +63,13 @@ O restante deste artigo explica como usar o insight de inteligência de spoof no
 
 > [!NOTE]
 >
-> - Somente os envios com spoofed que foram detectados pela inteligência spoof aparecem na visão de inteligência spoof. Quando você substitui o veredito de permitir ou bloquear no insight, o remetente spoofed torna-se uma entrada manual de permitir ou bloquear que aparece apenas na guia **Spoof** na Lista de Locatários Permitir/Bloquear. Você também pode criar manualmente entradas de permitir ou bloquear para os envios de spoofed antes que eles são detectados pela inteligência spoof. Para obter mais informações, consulte [Manage the Tenant Allow/Block List in EOP](tenant-allow-block-list.md).
+> - Somente os envios com spoofed que foram detectados pela inteligência spoof aparecem na visão de inteligência spoof. Quando você substitui o veredito de permitir ou bloquear no insight, o remetente spoofed torna-se uma entrada manual de permitir ou bloquear que aparece apenas na guia **Spoof** na Lista de Locatários Permitir/Bloquear. Você também pode criar manualmente entradas de permitir ou bloquear para os envios de spoofed antes que eles são detectados pela inteligência spoof. Para saber mais, confira [Gerenciar a Lista Permitir/Bloquear Locatário no EOP](tenant-allow-block-list.md).
 >
 > - O insight de inteligência de spoof e a guia **Spoof** na lista Permitir/Bloquear Locatário substituem a funcionalidade da política de inteligência de spoof que estava disponível na página de política anti-spam no Centro de Conformidade de Segurança &.
 >
 >- O insight de inteligência de spoof mostra 7 dias de dados. O cmdlet **Get-SpoofIntelligenceInsight** mostra 30 dias de dados.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **Anti-phishing,** use <https://protection.office.com/antiphishing> .
 
@@ -88,7 +88,7 @@ O restante deste artigo explica como usar o insight de inteligência de spoof no
 
 - Você habilita e desabilita a inteligência de spoof em políticas anti-phishing no EOP e no Microsoft Defender para Office 365. A inteligência de spoof está habilitada por padrão. Para obter mais informações, consulte [Configure anti-phishing policies in EOP](configure-anti-phishing-policies-eop.md) or [Configure anti-phishing policies in Microsoft Defender for Office 365](configure-atp-anti-phishing-policies.md).
 
-- Para nossas configurações recomendadas para a inteligência de spoof, consulte Configurações de política [anti-phishing](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings)padrão do EOP.
+- Para nossas configurações recomendadas para a inteligência de spoof, consulte Configurações de política [anti-phishing do EOP.](recommended-settings-for-eop-and-office365-atp.md#eop-anti-phishing-policy-settings)
 
 ## <a name="open-the-spoof-intelligence-insight-in-the-security--compliance-center"></a>Abra o insight de inteligência de spoof no Centro de Conformidade & Segurança
 

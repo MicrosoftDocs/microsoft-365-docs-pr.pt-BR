@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 63e38d5c9cfe50d1fa4cda1f7ae9c7df55a45083
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 61c7c8022ed89a4d10e5737e2dcdf92a4375bedd
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788830"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770404"
 ---
 # <a name="supported-microsoft-defender-for-endpoint-apis"></a>Suporte de APIs do Microsoft Defender para Ponto de Extremidade
 
@@ -62,7 +62,7 @@ Tópico | Descrição
 :---|:---
 [Busca Avançada](run-advanced-query-api.md) | Execute consultas da API.
 [Métodos e propriedades de alerta](alerts.md) | Execute chamadas de API, como \- obter alertas, criar alerta, atualizar alerta e muito mais.
-[Exportar métodos e propriedades de avaliação por dispositivo](get-assessment-methods-properties.md) | Execute chamadas de API, como \- avaliação de configuração segura de exportação, avaliação de inventário de software e avaliação de vulnerabilidades de software de exportação.
+[Exportar métodos e propriedades de avaliação por dispositivo](get-assessmnt-1methods-properties.md) | Execute chamadas de API, como \- avaliação de configuração segura de exportação, avaliação de inventário de software e avaliação de vulnerabilidades de software de exportação.
 [Métodos e propriedades de Investigação Automatizada](investigation.md) | Execute chamadas de API, como \- obter coleção de Investigação.
 [Obter alertas relacionados ao domínio](get-domain-related-alerts.md) | Execute chamadas de API, como \- obter dispositivos relacionados ao domínio, estatísticas de domínio e muito mais.
 [Métodos e propriedades de arquivo](files.md) | Execute chamadas de API, como \- obter informações de arquivo, alertas relacionados a arquivos, dispositivos relacionados a arquivos e estatísticas de arquivo.

@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 9e82f1c5de9fe1f4a03385458338edf18c4f35bd
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 95c82f815c794662f7eb0ffaabcfb5f81df3e828
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538838"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782988"
 ---
 # <a name="view-and-manage-actions-in-the-action-center"></a>Exibir e gerenciar ações no Centro de Ações
 
@@ -51,9 +51,9 @@ Os recursos de proteção contra ameaças no Microsoft 365 Defender podem result
 
 1. Vá para [https://security.microsoft.com](https://security.microsoft.com) e entre. 
 
-2. No painel de navegação, escolha **Central de Ações**. 
+2. No painel de navegação, escolha **Central de ações**. 
 
-3. Em Central de Ações, na guia **Pendente**, selecione um item na lista. Seu painel de sobrevoo é aberto. Veja um exemplo.
+3. No Centro de ações, na guia **Pendente,** selecione um item na lista. Seu painel de sobrevoo é aberto. Veja um exemplo.
 
    ![Aprovar ou rejeitar uma ação](../../media/air-actioncenter-itemselected.png)
 

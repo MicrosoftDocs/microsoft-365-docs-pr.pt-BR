@@ -17,17 +17,20 @@ audience: ITPro
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
+- incidentresponse
+- m365solution-incidentresponse
+- m365solution-overview
 ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 865aa9dc34a91be251d6f7772da5cc686f9641a4
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: dcfc3bd0e06e0bdca6c834e947d7d136af47fde3
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651303"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782820"
 ---
 # <a name="investigate-incidents-in-microsoft-365-defender"></a>Investigar incidentes no Microsoft 365 Defender
 

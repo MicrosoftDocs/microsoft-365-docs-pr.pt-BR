@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: entenda as ações de fases de migração e os impactos da migração do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para Office 365 serviços na nova região do datacenter alemão.'
-ms.openlocfilehash: df2407deeaa3cd6e0b0925b48f888a25c0435042
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 6778248b127894102d15d4d94e3d2f099e3bfa37
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651100"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771196"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>Ações e impactos de fases de migração para a migração do Microsoft Cloud Deutschland
 
@@ -80,7 +80,7 @@ No caso de você estar usando o login único para Office 365 e o Azure na instâ
 
 **Quando aplicado:** antes da fase 2 ser iniciada
 
-Se você estiver usando os Serviços de Federação do Active Directory (AD FS), certifique-se de fazer o back  up de sua configuração [do ADFS](ms-cloud-germany-transition-azure-ad.md) antes e depois de adicionar a confiança de parte confiável para o serviço global Office 365 antes do início da fase 2.
+Se você estiver usando os Serviços de Federação do Active Directory (AD FS), certifique-se de fazer o back  up de sua configuração [do ADFS](ms-cloud-germany-transition-add-adfs.md) antes e depois de adicionar a confiança de parte confiável para o serviço global Office 365 antes do início da fase 2.
 
 ## <a name="phase-2-azure-ad-migration"></a>Fase 2: Migração do Azure AD
 Nesta fase, o Azure Active Directory será migrado para a nova região do datacenter e se tornará ativo. Os pontos de extremidade antigos do Azure AD ainda estarão disponíveis.

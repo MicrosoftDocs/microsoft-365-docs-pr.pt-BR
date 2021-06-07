@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como a Microsoft Productivity Score reflete as medidas da experiência de pessoas e tecnologia e se compara a organizações de tamanho semelhante.
-ms.openlocfilehash: 0735fb6d47b475146deade6ab3ca2f8d24ec27a7
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: af0e8583bec00b1ddfd62145a4757a4e568108e8
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779669"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789034"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft Productivity Score 
 
@@ -118,11 +118,11 @@ A seção **Descrição da pontuação** fornece uma discriminação de sua Pont
 
 O histórico de pontuação mostra como sua pontuação em cada categoria mudou nos últimos 6 meses.
 
-As áreas **Experiências das pessoas** e **Experiências tecnológicas** contêm os principais insights para as categorias nessas áreas. Você pode clicar em cada categoria para ver os insights mais profundos.
+As áreas **Experiências das pessoas** e **Experiências tecnológicas** contêm os principais insights para as categorias nessas áreas. Você pode selecionar cada categoria para ver os insights mais profundos.
 
 ## <a name="category-details-pages"></a>Páginas de detalhes da categoria
 
-Cada página de detalhes de categoria mostra o principal insight e métricas de apoio, bem como as pesquisas e ações relacionadas que você pode tomar para impulsionar mudanças em sua organização. A pesquisa apóia a importância e a lógica por trás dos principais insights para cada categoria. para mais informações, [leia o relatório Forrester](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
+Cada página de detalhes de categoria mostra o principal insight e métricas de apoio, bem como as pesquisas e ações relacionadas que você pode tomar para impulsionar mudanças em sua organização. A pesquisa apóia a importância e a lógica por trás dos principais insights para cada categoria. Para mais informações, [leia o relatório Forrester](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PBrb).
 
 As páginas de detalhes são:
 - [Colaboração de conteúdo – experiências pessoais](content-collaboration.md)

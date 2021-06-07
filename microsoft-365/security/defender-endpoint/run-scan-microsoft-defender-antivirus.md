@@ -11,21 +11,19 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 05/05/2021
+ms.date: 06/04/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 124ebde48c008743a486a4454e7772fd93f9eca7
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: fdca059633ab0993e07b5b1be0c6f33cfe327fcf
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275355"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789166"
 ---
 # <a name="configure-and-run-on-demand-microsoft-defender-antivirus-scans"></a>Configurar e executar verificações do Microsoft Defender Antivírus sob demanda
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 
@@ -40,14 +38,12 @@ A verificação rápida analisa todos os locais onde pode haver malware registra
 > [!IMPORTANT]
 > Microsoft Defender Antivírus é executado no contexto da conta [LocalSystem](/windows/win32/services/localsystem-account) ao executar uma verificação local. Para verificações de rede, ele usa o contexto da conta do dispositivo. Se a conta do dispositivo de domínio não tiver permissões apropriadas para acessar o compartilhamento, a verificação não funcionará. Verifique se o dispositivo tem permissões para o compartilhamento de rede de acesso.
 
-Combinado com a funcionalidade de proteção sempre em tempo [real](configure-real-time-protection-microsoft-defender-antivirus.md)-- que revisa os arquivos quando eles são abertos e fechados e sempre que um usuário navega para uma pasta --, uma verificação rápida ajuda a fornecer uma cobertura forte tanto para malware que começa com o sistema quanto o malware no nível do kernel.  
+Combinado com a funcionalidade de proteção sempre em [tempo real,](configure-real-time-protection-microsoft-defender-antivirus.md)uma verificação rápida ajuda a fornecer uma cobertura forte para malware que começa com o sistema e malware no nível do kernel. A proteção sempre em tempo real revisa arquivos quando eles são abertos e fechados e sempre que um usuário navega para uma pasta. Por padrão, verificações rápidas são executados em dispositivos removíveis montados, como unidades USB. Na maioria dos casos, uma verificação rápida é adequada para encontrar malware que não foi escolhido pela proteção em tempo real.
 
-Na maioria dos casos, uma verificação rápida é adequada para encontrar malware que não foi escolhido pela proteção em tempo real.
+Uma verificação completa pode ser útil quando uma ameaça de malware é relatada em um ponto de extremidade. A verificação pode identificar se há componentes inativos que exigem uma limpeza mais completa. No entanto, a Microsoft geralmente recomenda usar verificações rápidas em vez de verificações completas. Uma verificação completa pode levar algumas horas ou dias para ser concluída, dependendo da quantidade e do tipo de dados que precisam ser verificados. 
 
-Uma verificação completa pode ser útil em pontos de extremidade que relataram uma ameaça de malware. A verificação pode identificar se há componentes inativos que exigem uma limpeza mais completa. Isso é ideal se sua organização estiver executando verificações sob demanda.
-
-> [!NOTE]
-> Por padrão, verificações rápidas são executados em dispositivos removíveis montados, como unidades USB.
+> [!TIP]
+> Para saber mais sobre as diferenças entre verificações rápidas e completas, consulte Verificação rápida versus verificação [completa e verificação personalizada.](scheduled-catch-up-scans-microsoft-defender-antivirus.md#quick-scan-versus-full-scan-and-custom-scan)
 
 ## <a name="use-microsoft-endpoint-manager-to-run-a-scan"></a>Usar Microsoft Endpoint Manager para executar uma verificação
 
@@ -101,4 +97,4 @@ Para obter mais informações sobre quais parâmetros são permitidos, [consulte
 
 - [Configurar opções de verificação do Microsoft Defender Antivírus](configure-advanced-scan-types-microsoft-defender-antivirus.md)
 - [Configurar verificações Microsoft Defender Antivírus agendadas](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
-- [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Microsoft Defender Antivirus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)

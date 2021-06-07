@@ -1,5 +1,5 @@
 ---
-title: Gerenciar contratos usando uma solução Microsoft 365 de segurança
+title: Gerenciar contratos usando uma solução do Microsoft 365
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -13,14 +13,14 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Saiba como gerenciar contratos usando uma solução Microsoft 365 de SharePoint Syntex, SharePoint Listas, Microsoft Teams e Power Automate.
-ms.openlocfilehash: 219ab13eb5787bef566ede0c5dc856da29d96837
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: d12ccd2d4bc777b05489556f0d96ce9de80954a8
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651279"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770812"
 ---
-# <a name="manage-contracts-using-a-microsoft-365-solution"></a>Gerenciar contratos usando uma solução Microsoft 365 de segurança
+# <a name="manage-contracts-using-a-microsoft-365-solution"></a>Gerenciar contratos usando uma solução do Microsoft 365
 
 Este artigo descreve como criar uma solução de gerenciamento de contratos para sua organização usando SharePoint Syntex e componentes de Microsoft 365. Ele fornece uma estrutura para ajudá-lo a planejar e criar uma solução que se ajuste às suas necessidades de negócios exclusivas. Mesmo se essa solução não atender às suas necessidades de negócios como um todo, partes dela podem ser adotadas em seu planejamento para criar uma solução de gerenciamento de contratos personalizada.
 
@@ -73,6 +73,14 @@ Esta orientação de solução de gerenciamento de contratos inclui quatro compo
 6. O resultado final dessa solução é um processo de negócios automatizado para sua organização. Os funcionários podem usar facilmente a exibição de Teams para iniciar e monitorar o fluxo de trabalho de aprovação de seus documentos. 
 
      ![Guia Contratos.](../media/content-understanding/tile-view.png)
+
+### <a name="licensing-requirements"></a>Requisitos de licenciamento
+
+Essa solução se baseia na seguinte funcionalidade, tudo disponível como parte de uma licença de Microsoft 365 Enterprise (E1, E3, E5, F3) ou Business (Basic, Standard ou Premium).
+
+-   Microsoft SharePoint Syntex
+-   Microsoft Teams
+-   Power Automate
 
 ## <a name="create-the-solution"></a>Criar a solução
 

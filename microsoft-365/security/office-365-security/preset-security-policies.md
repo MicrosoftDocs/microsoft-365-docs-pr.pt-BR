@@ -15,12 +15,12 @@ ms.collection:
 description: Os administradores podem aprender a aplicar configurações de política padrão e estrita nos recursos de proteção do Proteção do Exchange Online (EOP) e do Microsoft Defender para Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ca65f003b0c206b0f7e23f3498a4ef0d0bc03fa6
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: ca0b8b8dd879f3f662c96f1527bca13efbe5ef6c
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788974"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771220"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Políticas de segurança predefinidas no EOP e no Microsoft Defender para Office 365
 
@@ -103,7 +103,7 @@ Em outras palavras, as  configurações da política de  proteção estrita subs
 
 ## <a name="assign-preset-security-policies-to-users"></a>Atribuir políticas de segurança predefinidas aos usuários
 
-### <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+### <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Você abre o Microsoft 365 de segurança em <https://security.microsoft.com/> . Para ir diretamente para a página **Políticas de segurança** predefinidas, use <https://security.microsoft.com/presetSecurityPolicies> .
 
@@ -115,11 +115,11 @@ Em outras palavras, as  configurações da política de  proteção estrita subs
 
   Para obter mais informações, confira [Permissões no Exchange Online](/exchange/permissions-exo/permissions-exo).
 
-  **Observação**: a adição de usuários à função Azure Active Directory correspondente no centro de  administração Microsoft 365 oferece aos usuários as permissões e permissões necessárias para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+  **Observação**: a adição de usuários à função Azure Active Directory correspondente no centro de  administração Microsoft 365 oferece aos usuários as permissões e permissões necessárias para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 
 ### <a name="use-the-security-center-to-assign-preset-security-policies-to-users"></a>Usar o centro de segurança para atribuir políticas de segurança predefinidas aos usuários
 
-1. No centro de segurança, vá para **Email & políticas** de colaboração & políticas de ameaças De regras Modelo de políticas de segurança \>  \>  \>  \> **predefinidas**.
+1. No centro de segurança, acesse **Email & de** colaboração & Regras Políticas de Segurança \>  \>  \> **Predefinidas.**
 
 2. Em **Proteção padrão ou** proteção **estrita,** clique em **Editar**.
 

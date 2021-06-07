@@ -1,5 +1,5 @@
 ---
-title: Permissões no Microsoft 365 de conformidade
+title: Permissões no Centro de conformidade do Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -11,14 +11,14 @@ ms.topic: article
 localization_priority: Normal
 description: Saiba mais sobre como gerenciar permissões no Microsoft 365 de conformidade.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 72575fce5f7d43354715c77016a8f444e539887f
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 7038863c0cbcaf99cf07072445a3b001e7b8ca0b
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772411"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782844"
 ---
-# <a name="permissions-in-the-microsoft-365-compliance-center"></a>Permissões no Microsoft 365 de conformidade
+# <a name="permissions-in-the-microsoft-365-compliance-center"></a>Permissões no Centro de conformidade do Microsoft 365
 
 O Microsoft 365 de conformidade foi atualizado recentemente e agora oferece suporte ao gerenciamento direto de permissões para usuários que executam tarefas de conformidade Microsoft 365. Essa atualização significa que você não precisa mais usar o Centro de Conformidade Office 365 Segurança & para gerenciar permissões para soluções de conformidade. Usando a nova página **Permissões** no centro de conformidade do Microsoft 365, você pode gerenciar permissões para os usuários para tarefas de conformidade em recursos como gerenciamento de dispositivos, prevenção contra perda de dados, Descoberta Eletrônico, gerenciamento de risco interno, retenção e muitos outros. Os usuários podem executar apenas as tarefas de conformidade às que você explicitamente concede acesso a eles.
 
@@ -26,7 +26,7 @@ Para exibir a guia Permissões no centro de conformidade do Microsoft 365, os us
 
 ![Página Permissões no Microsoft 365 de conformidade](../media/m365-compliance-center-permissions.png)
 
-As permissões no Microsoft 365 de conformidade se baseiam no modelo de permissões de controle de acesso baseado em função (RBAC). O RBAC é o mesmo modelo de permissões usado pela maioria dos serviços Microsoft 365, portanto, se você estiver familiarizado com a estrutura de permissão nesses serviços, conceder permissões no centro de conformidade Microsoft 365 será familiar. É importante lembrar que as permissões gerenciadas no centro de conformidade Microsoft 365 não abrangem o gerenciamento de todas as permissões necessárias em cada serviço individual. Você ainda precisará gerenciar determinadas permissões específicas do serviço no centro de administração para o serviço específico. Por exemplo, se você precisar atribuir permissões para políticas de arquivamento, auditoria e retenção, você precisará gerenciar essas permissões no centro de administração Exchange.
+As permissões no Microsoft 365 de conformidade se baseiam no modelo de permissões de controle de acesso baseado em função (RBAC). O RBAC é o mesmo modelo de permissões usado pela maioria dos serviços Microsoft 365, portanto, se você estiver familiarizado com a estrutura de permissão nesses serviços, conceder permissões no centro de conformidade Microsoft 365 será familiar. É importante lembrar que as permissões gerenciadas no centro de conformidade Microsoft 365 não abrangem o gerenciamento de todas as permissões necessárias em cada serviço individual. Você ainda precisará gerenciar determinadas permissões específicas do serviço no centro de administração para o serviço específico. Por exemplo, se você precisar atribuir permissões para políticas de arquivamento, auditoria e retenção mrm, você precisará gerenciar essas permissões no centro de administração Exchange.
 
 ## <a name="relationship-of-members-roles-and-role-groups"></a>Relação de membros, funções e grupos de função
 
@@ -34,7 +34,7 @@ Uma função concede permissões para realizar um conjunto de tarefas; por exemp
 
 Um grupo de funções é um conjunto de funções que permitem que os usuários façam seus trabalhos em soluções de conformidade Microsoft 365 centro de conformidade. Por exemplo, adicionando usuários ao grupo de função Gerenciamento de Riscos do *Insider,* administradores, analistas, investigadores e auditores designados são configurados para as permissões necessárias de gerenciamento de risco interno em um único grupo. O Microsoft 365 de conformidade inclui grupos de funções padrão para tarefas e funções para cada solução de conformidade à que você precisará atribuir pessoas. Geralmente, recomendamos simplesmente adicionar usuários individuais como membros aos grupos de função de conformidade padrão, conforme necessário.
 
-![Diagrama que mostra a relação de grupos de funções para membros e funções](../media/2a16d200-968c-4755-98ec-f1862d58cb8b.png)
+![Diagrama que mostra a relação de grupos de função para membros e funções](../media/2a16d200-968c-4755-98ec-f1862d58cb8b.png)
 
 ## <a name="permissions-needed-to-use-features-in-the-microsoft-365-compliance-center"></a>Permissões necessárias para usar recursos no Microsoft 365 de conformidade
 
@@ -55,8 +55,8 @@ As funções que aparecem na seção Funções do **Azure AD** da página Permis
 |**Leitor de segurança**|Exibir e investigar ameaças ativas a seus usuários, dispositivos e conteúdo da Microsoft 365, mas (diferentemente do Operador de segurança) não têm permissões para responder executando uma ação. Para obter mais informações, confira o [Leitor de Segurança](/azure/active-directory/roles/permissions-reference#security-reader).|
 |**Administrador de segurança**|Controle a segurança global da sua organização, gerenciando políticas de segurança, analisando análises e relatórios de segurança em produtos da Microsoft 365 e ficando sempre atualizado sobre o panorama das ameaças. Para obter mais informações, confira a[Segurança do Administrador](/azure/active-directory/roles/permissions-reference#security-administrator).|
 |**Leitor global**|A versão somente leitura do **Administrador Global**. Exibir todas as configurações e informações administrativas no Microsoft 365. Para saber mais, confira [Leitor Global](/azure/active-directory/roles/permissions-reference#global-reader)..|
-|**Administrador de simulação de ataque**|Crie e gerencie todos os aspectos da criação de simulação de ataque, início/agendamento de uma simulação e a revisão dos resultados da simulação. Para obter mais informações, consulte [Administrador de Simulação de Ataque](/azure/active-directory/roles/permissions-reference#attack-simulation-administrator).|
-|**Autor da carga de ataque**|Crie cargas de ataque, mas não as iniciará ou agende. Para obter mais informações, consulte [Attack Payload Author](/azure/active-directory/roles/permissions-reference#attack-payload-author).|
+|**Administrador de ataque**|Crie e gerencie todos os aspectos de criação de simulação de ataque, lançamento/agendamento de uma simulação, e a revisão dos resultados da simulação. Para obter mais informações, consulte [Administrador de simulação de ataques](/azure/active-directory/roles/permissions-reference#attack-simulation-administrator).|
+|**Autor do conteúdo de ataque**|Crie cargas úteis de ataque mas não as inicie ou agende. Para obter mais informações, consulte [Autor do conteúdo de ataque](/azure/active-directory/roles/permissions-reference#attack-payload-author).|
 |
 
 ## <a name="add-users-to-a-compliance-role-group"></a>Adicionar usuários a um grupo de função de conformidade

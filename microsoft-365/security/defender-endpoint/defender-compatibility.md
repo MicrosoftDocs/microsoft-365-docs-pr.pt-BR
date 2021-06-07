@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 05/06/2021
 ms.technology: mde
-ms.openlocfilehash: 84c523b721596d9c467f01cf6b8a0685b2091669
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: f5a0db755f919cb47c4cd284857ddf4e27d16996
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274875"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782880"
 ---
 # <a name="antivirus-solution-compatibility-with-microsoft-defender-for-endpoint"></a>Compatibilidade de soluções antivírus com o Microsoft Defender para Ponto de Extremidade
 
@@ -35,17 +35,17 @@ ms.locfileid: "52274875"
 
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-defendercompat-abovefoldlink)
 
-O agente do Microsoft Defender para Ponto de Extremidade depende do Microsoft Defender Antivírus para alguns recursos, como a verificação de arquivos.
+O agente do Microsoft Defender para Ponto de Extremidade depende Microsoft Defender Antivírus alguns recursos, como a verificação de arquivos.
 
 >[!IMPORTANT]
->O Defender para Ponto de Extremidade não está de acordo com as configurações de Exclusão do Microsoft Defender Antivírus. 
+>O Defender para Ponto de Extremidade não segue as configurações Microsoft Defender Antivírus Exclusões. 
 
-Você deve configurar atualizações de inteligência de segurança no Defender para dispositivos de ponto de extremidade, se o Microsoft Defender Antivírus é o antimalware ativo ou não. Para obter mais informações, consulte [Manage Microsoft Defender Antivírus updates and apply baselines](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus.md).
+Você deve configurar atualizações de inteligência de segurança no Defender para dispositivos de ponto de extremidade, Microsoft Defender Antivírus o antimalware ativo ou não. Para obter mais informações, consulte [Manage Microsoft Defender Antivírus updates and apply baselines](manage-updates-baselines-microsoft-defender-antivirus.md).
 
-Se um dispositivo conectado estiver protegido por um cliente antimalware de terceiros, o Microsoft Defender Antivírus nesse ponto de extremidade entrará no modo passivo.
+Se um dispositivo conectado estiver protegido por um cliente antimalware de terceiros, Microsoft Defender Antivírus nesse ponto de extremidade entrará no modo passivo.
 
-O Microsoft Defender Antivírus continuará a  receber atualizações, e o processo demspeng.exeserá listado como um serviço em execução, mas ele não executará verificações e não substituirá o cliente antimalware de terceiros em execução.
+Microsoft Defender Antivírus continuará a receber atualizações, e  o processomspeng.exeserá listado como um serviço em execução, mas ele não executará verificações e não substituirá o cliente antimalware de terceiros em execução.
 
-A interface do Microsoft Defender Antivírus será desabilitada e os usuários no dispositivo não poderão usar o Microsoft Defender Antivírus para executar verificações sob demanda ou configurar a maioria das opções.
+A Microsoft Defender Antivírus interface do usuário será desabilitada e os usuários no dispositivo não poderão usar o Microsoft Defender Antivírus para executar verificações sob demanda ou configurar a maioria das opções.
 
-Para obter mais informações, consulte o tópico de compatibilidade do Microsoft Defender Antivírus e [do Defender for Endpoint.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
+Para obter mais informações, consulte o [tópico Microsoft Defender Antivírus e Defender for Endpoint compatibility](microsoft-defender-antivirus-compatibility.md).

@@ -15,17 +15,15 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 02b8ee1c73116718d771847a43d6334e0723bd5c
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.date: 06/04/2021
+ms.openlocfilehash: dfb75b77119d9550931c3e476323bde67a3b148f
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275297"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789082"
 ---
 # <a name="configure-the-cloud-block-timeout-period"></a>Configurar o período de tempo limite de bloqueio da nuvem
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **Aplica-se a:**
 
@@ -33,29 +31,44 @@ ms.locfileid: "52275297"
 
 Quando Microsoft Defender Antivírus um arquivo suspeito, ele pode impedir que o arquivo seja executado enquanto ele consulta o serviço Microsoft Defender Antivírus [nuvem](cloud-protection-microsoft-defender-antivirus.md).
 
-O período padrão em que o arquivo será [bloqueado](configure-block-at-first-sight-microsoft-defender-antivirus.md) é de 10 segundos. Você pode especificar um período adicional de tempo para aguardar antes que o arquivo possa ser executado. Isso pode ajudar a garantir que haja tempo suficiente para receber uma determinação adequada do serviço Microsoft Defender Antivírus nuvem.
+O período padrão em que o arquivo é [bloqueado](configure-block-at-first-sight-microsoft-defender-antivirus.md) é de 10 segundos. Se você for um administrador de segurança, poderá especificar mais tempo para aguardar antes que o arquivo possa ser executado. Estender o período de tempo de tempo de bloqueio da nuvem pode ajudar a garantir que haja tempo suficiente para receber uma determinação adequada do serviço Microsoft Defender Antivírus nuvem.
 
 ## <a name="prerequisites-to-use-the-extended-cloud-block-timeout"></a>Pré-requisitos para usar o tempo de tempo de bloqueio estendido na nuvem
 
 [Bloqueie à primeira vista](configure-block-at-first-sight-microsoft-defender-antivirus.md) e seus pré-requisitos devem ser habilitados antes que você possa especificar um período de tempo de tempo estendido.
 
-## <a name="specify-the-extended-timeout-period"></a>Especificar o período de tempo de tempo estendido
+## <a name="specify-the-extended-timeout-period-using-microsoft-endpoint-manager"></a>Especifique o período de tempo Microsoft Endpoint Manager
+
+Você pode especificar o período de tempo de bloqueio da nuvem com uma política de segurança do ponto de extremidade [em Microsoft Endpoint Manager](/mem/intune/protect/endpoint-security-policy).
+
+1. Vá para o Endpoint Manager de administração ( [https://endpoint.microsoft.com/](https://endpoint.microsoft.com/) ) e entre.
+
+2. Selecione **Segurança do ponto de** extremidade e, em **Gerenciar,** escolha **Antivírus**.
+
+3. Selecione (ou crie) uma política de antivírus.
+
+4. Na seção **Configuração de configurações,** expanda **Proteção de nuvem**. Em seguida, na **caixa Tempo** Decoro Estendido da Nuvem do Defender em Segundos, especifique quanto mais tempo, em segundos, de 1 segundo a 50 segundos. O que você especificar é adicionado aos 10 segundos padrão.
+
+5. (Esta etapa é opcional) Faça outras alterações em sua política de antivírus. (Precisa de ajuda? Consulte [Configurações para Microsoft Defender Antivírus política em Microsoft Intune](/mem/intune/protect/antivirus-microsoft-defender-settings-windows).)
+
+6. Escolha **Próximo** e termine de configurar sua política.
+
+## <a name="specify-the-extended-timeout-period-using-group-policy"></a>Especificar o período de tempo de tempo estendido usando a Política de Grupo
 
 Você pode usar a Política de Grupo para especificar um tempo de tempo estendido para verificações na nuvem.
 
-1. No computador de gerenciamento de Política de Grupo, abra o Console de Gerenciamento de Política de [Grupo](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11)), clique com o botão direito do mouse no Objeto de Política de Grupo que você deseja configurar e clique em **Editar**.
+1. No computador de gerenciamento de Política de Grupo, abra o Console de Gerenciamento [de Política de Grupo](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11))
 
-2. No Editor **de Gerenciamento de Política de Grupo,** acesse **Configuração do** computador e clique em Modelos **administrativos.**
+2. Clique com o botão direito do mouse no Objeto de Política de Grupo que você deseja configurar e selecione **Editar**.
 
-3. Expanda a árvore para **Windows componentes > Microsoft Defender Antivírus > MpEngine**
+3. No Editor **de Gerenciamento de Política de Grupo,** vá para **Configuração do** computador e selecione Modelos **administrativos.**
 
-4. Clique duas vezes em **Configurar verificação de nuvem estendida** e certifique-se de que a opção está habilitada. Especifique o tempo adicional para impedir que o arquivo seja executado enquanto aguarda uma determinação na nuvem. Você pode especificar o tempo adicional, em segundos, de 1 segundo a 50 segundos. Este tempo será adicionado aos 10 segundos padrão.
+3. Expanda a árvore para **Windows componentes**  >  **Microsoft Defender Antivírus**  >  **MpEngine**.
 
-5. Clique em **OK**.
+4. Clique duas vezes em **Configurar verificação de nuvem estendida** e certifique-se de que a opção está habilitada. 
 
-## <a name="related-topics"></a>Tópicos relacionados
+   Especifique o tempo extra para impedir que o arquivo seja executado enquanto aguarda uma determinação na nuvem. Especifique o tempo extra, em segundos, de 1 segundo a 50 segundos. O que você especificar é adicionado aos 10 segundos padrão.
 
-- [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
-- [Usar tecnologias antivírus de última geração por meio da proteção entregue na nuvem](cloud-protection-microsoft-defender-antivirus.md)
-- [Configurar o bloco à primeira vista](configure-block-at-first-sight-microsoft-defender-antivirus.md)
-- [Habilitar a proteção entregue na nuvem](enable-cloud-protection-microsoft-defender-antivirus.md)
+5. Selecione **OK**.
+
+ 

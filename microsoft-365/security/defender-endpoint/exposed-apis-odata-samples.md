@@ -15,13 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 37319e5af6121a38965e5d2d350a7697bb78c0b1
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: a2570aba26d65a573c19777bc70db77f4118e336
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198288"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771040"
 ---
 # <a name="odata-queries-with-microsoft-defender-for-endpoint"></a>Consultas OData com o Microsoft Defender para Ponto de Extremidade
 

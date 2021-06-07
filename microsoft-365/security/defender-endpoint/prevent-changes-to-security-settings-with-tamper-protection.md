@@ -17,12 +17,12 @@ ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
 ms.date: 05/17/2021
-ms.openlocfilehash: ed9eb425d718a2dbdaa2cdb3ab1e6899c9870124
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 2d212bedf9033b0824d32e7f42afea3944d9ca67
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538875"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782808"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>Proteger as configurações de segurança com proteção contra adulteração
 
@@ -257,7 +257,7 @@ Se você for uma organização usando o [Microsoft Defender para o Ponto](/micro
 
 - [Gerenciar a proteção contra violações usando o Intune](#manage-tamper-protection-for-your-organization-using-intune)
 - [Gerenciar a proteção contra violações usando o Configuration Manager, versão 2006](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
-- [Gerenciar a proteção contra](#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) Central de Segurança do Microsoft Defender usando o Central de Segurança do Microsoft Defender (atualmente na visualização)
+- [Gerenciar a proteção contra violações usando a Central de Segurança do Microsoft Defender](#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) 
 
 ### <a name="how-does-configuring-tamper-protection-in-intune-affect-how-i-manage-microsoft-defender-antivirus-through-my-group-policy"></a>Como configurar a proteção contra adulteração no Intune afeta a forma como gerencio Microsoft Defender Antivírus por meio da minha política de grupo?
 

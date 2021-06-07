@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f6ef1d3dbc111e5d10bf4d3c42dfd08e5e9d63e3
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: c785dbb759afe77b14f41985b9f451a4ec52e29f
+ms.sourcegitcommit: 83df0be7144c9c5d606f70b4efa65369e86693d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730614"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52778228"
 ---
 # <a name="microsoft-defender-for-endpoint-evaluation-lab"></a>Laboratório de avaliação do Microsoft Defender para Ponto de Extremidade
 
@@ -52,7 +52,7 @@ Você também pode instalar simuladores de ameaças. O Defender for Endpoint fez
  Instale seu simulador preferencial, execute cenários no laboratório de avaliação e veja instantaneamente como a plataforma é realizada - tudo convenientemente disponível sem custo adicional para você. Você também terá acesso conveniente a uma ampla matriz de simulações que você pode acessar e executar a partir do catálogo de simulações.
     
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="before-you-begin"></a>Antes de você começar
 Você precisará atender aos requisitos de [licenciamento](minimum-requirements.md#licensing-requirements) ou ter acesso de avaliação ao Microsoft Defender para Endpoint para acessar o laboratório de avaliação.
 
 Você deve ter **permissões Gerenciar configurações de** segurança para:
@@ -118,17 +118,17 @@ O dispositivo será automaticamente integrado ao seu locatário com os component
 
 Os seguintes componentes de segurança são pré-configurados nos dispositivos de teste:
 
-- [Redução de superfície de ataque](attack-surface-reduction.md)
-- [Bloquear à primeira vista](configure-block-at-first-sight-microsoft-defender-antivirus.md)
-- [Acesso controlado a pastas](controlled-folders.md)
-- [Proteção de exploração](enable-exploit-protection.md)
-- [Proteção de rede](network-protection.md)
-- [Detecção de aplicativo potencialmente indesejado](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md)
-- [Proteção entregue na nuvem](cloud-protection-microsoft-defender-antivirus.md)
-- [Microsoft Defender SmartScreen](/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview)
+- [Redução de superfície de ataque](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)
+- [Bloquear à primeira vista](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus)
+- [Acesso controlado a pastas](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/controlled-folders-exploit-guard)
+- [Proteção de exploração](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-exploit-protection)
+- [Proteção de rede](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/network-protection-exploit-guard)
+- [Detecção de aplicativo potencialmente indesejado](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
+- [Proteção entregue na nuvem](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus)
+- [Microsoft Defender SmartScreen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-smartscreen/windows-defender-smartscreen-overview)
 
 >[!NOTE]
-> Microsoft Defender Antivírus estará em (não no modo de auditoria). Se Microsoft Defender Antivírus impede que você executa sua simulação, você pode desativar a proteção em tempo real no dispositivo por meio de Segurança do Windows. Para obter mais informações, consulte [Configure always-on protection](configure-real-time-protection-microsoft-defender-antivirus.md).
+> Microsoft Defender Antivírus estará em (não no modo de auditoria). Se Microsoft Defender Antivírus impede que você executa sua simulação, você pode desativar a proteção em tempo real no dispositivo por meio de Segurança do Windows. Para obter mais informações, consulte [Configure always-on protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus).
 
 As configurações de investigação automatizadas dependerão das configurações do locatário. Ele será configurado para ser semi-automatizado por padrão. Para obter mais informações, consulte [Overview of Automated investigations](automated-investigations.md).
 
@@ -190,7 +190,7 @@ Você pode simular cenários de ataque usando:
 - Os cenários de ataque ["Faça você mesmo"](https://securitycenter.windows.com/tutorials)
 - Simuladores de ameaças
 
-Você também pode usar [a busca avançada](advanced-hunting-overview.md) para consultar dados e análise de [ameaças](threat-analytics.md) para exibir relatórios sobre ameaças emergentes.
+Você também pode usar [a busca avançada](advanced-hunting-query-language.md) para consultar dados e análise de [ameaças](threat-analytics.md) para exibir relatórios sobre ameaças emergentes.
 
 ### <a name="do-it-yourself-attack-scenarios"></a>Cenários de ataque do faça você mesmo
 Se você estiver procurando uma simulação pré-feita, poderá usar nossos cenários de ataque ["Faça você mesmo".](https://securitycenter.windows.com/tutorials) Esses scripts são seguros, documentados e fáceis de usar. Esses cenários refletirão os recursos do Defender para o Ponto de Extremidade e o passarão pela experiência de investigação.

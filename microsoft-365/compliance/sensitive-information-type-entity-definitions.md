@@ -18,17 +18,17 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 recommendations: false
-description: A prevenção contra perda de dados (DLP) no Centro de Conformidade e Segurança inclui mais de 200 tipos de informações confidenciais que estão prontos para uso em suas políticas &amp; de DLP. Este artigo lista todos esses tipos de informações confidenciais e mostra o que uma política de DLP procura quando detecta cada tipo.
-ms.openlocfilehash: ff976389e75e96d0a018d7c5379e2831313388dc
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+description: Há 200 tipos de informações confidenciais que estão prontos para você usar em suas políticas de DLP. Este artigo lista todos esses tipos de informações confidenciais e mostra o que uma política de DLP procura quando detecta cada tipo.
+ms.openlocfilehash: 4efa411f7cc34b4116cc418e328e5c3f7545f788
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730469"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789214"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Definições da entidade de tipo de informações confidenciais 
 
-A prevenção contra perda de dados (DLP) no Centro de Conformidade inclui muitos tipos de informações confidenciais que estão prontos para uso em suas políticas de DLP. Este artigo lista todos esses tipos de informações confidenciais e mostra o que uma política de DLP procura quando detecta cada tipo. Para saber mais sobre tipos de informações confidenciais, consulte [Tipos de informações confidenciais](sensitive-information-type-learn-about.md)
+Este artigo lista todas as definições de entidade de tipo de informação confidenciais. Cada definição mostra o que uma política de DLP procura para detectar cada tipo. Para saber mais sobre tipos de informações confidenciais, consulte [Tipos de informações confidenciais](sensitive-information-type-learn-about.md)
 
 ## <a name="aba-routing-number"></a>Número de roteamento ABA
 
@@ -230,7 +230,7 @@ Uma política de DLP tem confiança média de que detectou esse tipo de informa�
 
 ### <a name="format"></a>Formatar
 
-seis a dez dígitos com ou sem um número de filial de estado do banco
+seis a 10 dígitos com ou sem um número de filial de estado do banco
 
 ### <a name="pattern"></a>Padrão
 
@@ -573,7 +573,7 @@ Uma política de DLP tem confiança média de que detectou esse tipo de informa�
 
 10 a 11 dígitos:
 - Primeiro dígito está no intervalo de 2 a 6
-- Nove dígitos é um dígito de verificação
+- O nono dígito é um dígito de verificação
 - O décimo dígito é o dígito do problema
 - O décimo primeiro dígito (opcional) é o número individual
 
@@ -622,8 +622,8 @@ oito ou nove caracteres alfanuméricos
 
 ### <a name="pattern"></a>Padrão
 
-- uma letra (N, E, D, F, A, C, U, X) seguida por 7 dígitos ou
-- 2 letras (PA, PB, PC, PD, PE, PF, PU, PW, PX, PZ) seguidas por 7 dígitos.
+- uma letra (N, E, D, F, A, C, U, X) seguida por sete dígitos ou
+- Duas letras (PA, PB, PC, PD, PE, PF, PU, PW, PX, PZ) seguidas por sete dígitos.
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -2745,7 +2745,17 @@ Varia por província
 
 ### <a name="pattern"></a>Padrão
 
-Vários padrões que abrangem Alberta, Columbia Britânica, Manitoba, New Brunswick, Newfoundland/Labrador, Nova Escócia, Ontário, Ilha do Príncipe Eduardo, Quebec e Saskatchewan
+Vários padrões que abrangem:
+- Alberta
+- British Columbia
+- Manitoba
+- New Brunswick
+- Newfoundland/Labrador
+- Nova Scotia
+- Ontário
+- Prince Edward Island
+- Quebec
+- Saskatchewan
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -3166,7 +3176,7 @@ Sim
 
 Uma política DLP tem alta confiança de que detectou esse tipo de informação confidenciais se, dentro de uma proximidade de 300 caracteres:
 - A função Func_canadian_sin localiza conteúdo que corresponde ao padrão.
-- Pelo menos duas de qualquer combinação do seguinte:
+- Pelo menos dois dos seguintes padrões:
     - Uma palavra-chave de Keyword_sin for encontrada.
     - Uma palavra-chave de Keyword_sin_collaborative for encontrada.
     - A função Func_eu_date encontra uma data no formato de data à direita.
@@ -3376,7 +3386,7 @@ Uma política de DLP tem confiança média de que detectou esse tipo de informa�
 
 ### <a name="pattern"></a>Padrão
 
-Padrão complexo e robusto que detecta cartões de todas as principais marcas em todo o mundo, incluindo Visa, MasterCard, Discover Card, JCB, American Express, cartões de presente e cartões de lanchonete.
+Detecta cartões de todas as principais marcas em todo o mundo, incluindo Visa, MasterCard, Discover Card, JCB, American Express, cartões de presente e cartões de lanchonete.
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -3835,7 +3845,7 @@ Uma política de DLP tem confiança média de que detectou esse tipo de informa�
 
 
 ## <a name="croatia-identity-card-number"></a>Número do cartão de identidade croata
-Essa entidade de tipo de informação confidenciais está incluída no tipo de informação confidenciais número de identificação nacional da UE. Ele está disponível como uma entidade de tipo de informação independente e sensível.
+Essa entidade está incluída no tipo de informação confidenciais número de identificação nacional da UE. Ele está disponível como uma entidade de tipo de informação independente e sensível.
 
 ### <a name="format"></a>Formatar
 
@@ -6349,7 +6359,7 @@ Uma política de DLP tem confiança média de que detectou esse tipo de informa�
 
 ## <a name="finland-passport-number"></a>Número do passaporte finlandês
 
-Essa entidade de tipo de informação confidenciais está disponível no tipo de informação confidenciais número de passaporte da UE e está disponível como uma entidade de tipo de informação confidenciais autônomo.
+Essa entidade está disponível no tipo de informação confidenciais número de passaporte da UE e está disponível como uma entidade de tipo de informação independente e confidenciais.
 
 ### <a name="format"></a>Formatar
 combinação de nove letras e dígitos
@@ -6429,7 +6439,7 @@ Uma política de DLP tem confiança média de que detectou esse tipo de informa�
 
 ## <a name="france-drivers-license-number"></a>Número da carteira de motorista da França
 
-Essa entidade de tipo de informação confidenciais está disponível no tipo de informação confidenciais número de licença de motorista da UE e está disponível como uma entidade de tipo de informação confidenciais autônomo.
+Essa entidade está disponível no tipo de informação confidenciais número de licença de motorista da UE e está disponível como uma entidade de tipo de informação independente e confidenciais.
 
 ### <a name="format"></a>Formatar
 
@@ -6688,7 +6698,7 @@ Uma política de DLP tem baixa confiança de que detectou esse tipo de informaç
 
    
 ## <a name="france-passport-number"></a>Número do passaporte francês
-Essa entidade de tipo de informação confidenciais está disponível no tipo de informação confidenciais número de passaporte da UE. Ele está disponível como uma entidade de tipo de informação independente e sensível.
+Essa entidade está disponível no tipo de informação confidenciais número de passaporte da UE. Ele também está disponível como uma entidade de tipo de informação independente e confidenciais.
 
 ### <a name="format"></a>Formatar
 
@@ -7002,7 +7012,7 @@ Uma política de DLP tem confiança média de que detectou esse tipo de informa�
 
 ## <a name="germany-drivers-license-number"></a>Número da carteira de motorista da Alemanha
 
-Essa entidade de tipo de informação confidenciais está incluída no tipo de informação confidenciais do Número de Licença do Driver da UE. Ele está disponível como uma entidade de tipo de informação independente e sensível.
+Essa entidade de tipo de informação confidenciais está incluída no tipo de informação confidenciais do Número de Licença do Driver da UE. Ele também está disponível como uma entidade de tipo de informação independente e confidenciais.
 
 ### <a name="format"></a>Formatar
 
@@ -7248,7 +7258,7 @@ Uma política de DLP tem baixa confiança de que detectou esse tipo de informaç
 
 ## <a name="germany-passport-number"></a>Número do passaporte da Alemanha
 
-Essa entidade de tipo de informação confidenciais está incluída no tipo de informação confidenciais número de passaporte da UE e está disponível como uma entidade de tipo de informação independente e confidenciais.
+Essa entidade está incluída no tipo de informação confidenciais número de passaporte da UE e está disponível como uma entidade de tipo de informação independente e confidenciais.
 
 ### <a name="format"></a>Formatar
 
@@ -7465,7 +7475,7 @@ Uma política de DLP tem confiança média de que detectou esse tipo de informa�
 
 ## <a name="greece-drivers-license-number"></a>Número da carteira de motorista da Grécia
 
-Essa entidade de tipo de informação confidenciais está incluída no tipo de informação confidenciais número de licença do driver da UE e está disponível como uma entidade de tipo de informação confidenciais autônomo.
+Essa entidade está incluída no tipo de informação confidenciais do Número de Licença de Motorista da UE. Ele também está disponível como uma entidade de tipo de informação independente e confidenciais.
 
 ### <a name="format"></a>Formatar
 
@@ -7773,8 +7783,8 @@ Esse tipo de informação confidenciais só está disponível para uso em:
   
 ### <a name="pattern"></a>Padrão
 
-- 6 dígitos como data de nascimento YYMMDD
-- 4 dígitos
+- Seis dígitos como data de nascimento YYMMDD
+- Quatro dígitos
 - um dígito de verificação
   
 ### <a name="checksum"></a>Soma de verificação
@@ -8153,7 +8163,7 @@ Esse tipo de informação confidenciais só está disponível para uso em:
 
 11 dígitos:
   
-- Um dígito que corresponde ao sexo (1 homem, 2 mulheres, outros números também são possíveis para cidadãos nascidos antes de 1900 ou cidadãos com dupla cidadania) 
+- Um dígito que corresponde ao sexo, 1 para o sexo masculino, 2 para o sexo feminino. Outros números também são possíveis para cidadãos nascidos antes de 1900 ou cidadãos com dupla cidadania.
 - Seis dígitos que correspondem à data de nascimento (YYMMDD)
 - Três dígitos que correspondem a um número de série
 - Um dígito de verificação
@@ -8653,7 +8663,66 @@ O padrão deve incluir todos os seguintes itens:
 
 O formato para cada país é ligeiramente diferente. O tipo de informação confidenciais do IBAN abrange esses 60 países:
 
-ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, fr, gb, ge, gi, gl, gr, hr, hu, ie, il, is, it, kw, kz, lb, li, lt, lu, lv, mc, md, me, mk, mr, mt, mu, nl, no, pl, pt, ro, rs, sa, se, si, sk , sm, tn, tr, vg
+- ad
+- ae
+- al
+- at
+- az
+- ba
+- be
+- bg
+- bh
+- ch
+- cr
+- cy
+- cz
+- de
+- dk
+- do
+- ee
+- sd
+- fi
+- fo
+- fr
+- gb
+- ge
+- gi
+- gl
+- gr
+- hr
+- hu
+- ie
+- il
+- é
+- it
+- kw
+- kz
+- lb
+- li
+- lt
+- lu
+- lv
+- mc
+- md
+- me
+- mk
+- mr
+- mt
+- mu
+- nl
+- não
+- pl
+- pt
+- ro
+- rs
+- sa
+- se
+- si
+- sk
+- sm
+- tn
+- tr
+- vg
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -8676,7 +8745,7 @@ Uma política DLP tem alta confiança de que detectou esse tipo de informação 
 
 ### <a name="keywords"></a>Palavras-chave
 
-None
+Nenhuma
 
    
 ## <a name="international-classification-of-diseases-icd-10-cm"></a>Classificação internacional de doença (ICD-10-CM)
@@ -9278,7 +9347,7 @@ Uma política de DLP tem confiança média de que detectou esse tipo de informa�
    
 ## <a name="italy-drivers-license-number"></a>Número da carteira de motorista da Itália
 
-Essa entidade de tipo de informação confidenciais está incluída no tipo de informação confidenciais número de licença do driver da UE e está disponível como uma entidade de tipo de informação confidenciais autônomo.
+Essa entidade de tipo está incluída no tipo de informação confidenciais número de licença de driver da UE. Ele também está disponível como uma entidade de tipo de informação independente e confidenciais.
 
 ### <a name="format"></a>Formatar
 
@@ -9466,7 +9535,7 @@ Uma combinação de 16 caracteres de letras e dígitos:
 - três letras que correspondem à primeira, terceira e quarta consoantes no primeiro nome
 - dois dígitos que correspondem aos últimos dígitos do ano de nascimento
 - uma letra que corresponde à letra do mês de nascimento: as letras são usadas em ordem alfabética, mas apenas as letras A a E, H, L, M, P, R a T são usadas (portanto, janeiro é A e outubro é R)
-- dois dígitos que correspondem ao dia do mês de nascimento— para diferenciar entre os sexos, 40 é adicionado ao dia de nascimento das mulheres
+- dois dígitos que correspondem ao dia do mês de nascimento para diferenciar entre os sexos, 40 é adicionado ao dia de nascimento para as mulheres
 - quatro dígitos que correspondem ao código de área específico do município em que a pessoa nasceu (códigos em todo o país são usados para países estrangeiros)
 - um dígito de paridade
     
@@ -11769,7 +11838,7 @@ Uma política de DLP tem baixa confiança de que detectou esse tipo de informaç
 
 ### <a name="format"></a>Formatar
 
-padrão alfanumérico de 11 caracteres
+Padrão alfanumérico de 11 caracteres
   
 ### <a name="pattern"></a>Padrão
 
@@ -11956,11 +12025,11 @@ Uma política DLP tem alta confiança de que detectou esse tipo de informação 
 
 ### <a name="format"></a>Formatar
 
-dez dígitos sem espaços e delimitadores
+10 dígitos sem espaços e delimitadores
   
 ### <a name="pattern"></a>Padrão
 
-dez dígitos
+10 dígitos
   
 ### <a name="checksum"></a>Soma de verificação
 
@@ -12695,7 +12764,7 @@ Uma política de DLP tem baixa confiança de que detectou esse tipo de informaç
 ### <a name="pattern"></a>Padrão
 
 11 dígitos:
-- seis dígitos no formato DDMMYYY que são a data de nascimento 
+- seis dígitos no formato DDMMYYY, que são a data de nascimento 
 - número individual de três dígitos 
 - dois dígitos de verificação
 
@@ -13052,7 +13121,7 @@ Uma política de DLP tem confiança média de que detectou esse tipo de informa�
 
    
 ## <a name="poland-passport-number"></a>Número do passaporte polonês
-Essa entidade de tipo de informação confidenciais está incluída no tipo de informação confidenciais número de passaporte da UE. Ele está disponível como uma entidade de tipo de informação independente e sensível.
+Essa entidade de tipo de informação confidenciais está incluída no tipo de informação confidenciais número de passaporte da UE. Ele também está disponível como uma entidade de tipo de informação independente e confidenciais.
 
 ### <a name="format"></a>Formatar
 
@@ -14400,7 +14469,7 @@ Esse tipo de informação confidenciais só está disponível para uso em:
 
 ### <a name="format"></a>Formatar
 
-nove ou dez dígitos que contêm backslash opcional
+nove ou 10 dígitos que contêm backslash opcional
   
 ### <a name="pattern"></a>Padrão
 
@@ -14746,7 +14815,7 @@ Esse tipo de informação confidenciais só está disponível para uso em:
   
 - sete dígitos que correspondem à data de nascimento (DDMMLLL) em que "LLL" corresponde aos últimos três dígitos do ano de nascimento 
 - dois dígitos que correspondem à área de nascimento "50"
-- três dígitos que correspondem a uma combinação de sexo e número de série para pessoas que nasceram no mesmo dia (000-499 para homens e 500-999 para mulheres)
+- três dígitos que correspondem a uma combinação de sexo e número de série para pessoas que nasceram no mesmo dia. 000-499 para homens e 500-999 para mulheres.
 - um dígito de verificação
     
 ### <a name="checksum"></a>Soma de verificação
@@ -15635,7 +15704,7 @@ Uma política DLP tem alta confiança de que detectou esse tipo de informação 
 
 #### <a name="cep_passwordplaceholder"></a>CEP_PasswordPlaceHolder
 
-(Observe que, tecnicamente, esse tipo de informação sensível identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
+Esse tipo de informação sensível identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.
 
 - Senha ou pwd seguido por espaços 0-2, um sinal de igual (=), espaços de 0-2 e um asterisco (*) -OR-
 - Senha ou pwd seguido por:
@@ -15646,7 +15715,7 @@ Uma política DLP tem alta confiança de que detectou esse tipo de informação 
 
 #### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
-(Observe que, tecnicamente, esse tipo de informação sensível identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
+Esse tipo de informação sensível identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.
 
 - contoso
 - fabrikam
@@ -15662,11 +15731,11 @@ Uma política DLP tem alta confiança de que detectou esse tipo de informação 
 
 ### <a name="format"></a>Formatar
 
-dez dígitos contendo um hífen
+10 dígitos que contêm um hífen
   
 ### <a name="pattern"></a>Padrão
 
-dez dígitos contendo um hífen:
+10 dígitos contendo um hífen:
   
 - seis dígitos 
 - um hífen
@@ -16747,7 +16816,7 @@ Uma política DLP tem alta confiança de que detectou esse tipo de informação 
 - Birth Date 
    
 ## <a name="uk-national-insurance-number-nino"></a>Reino Unido número de seguro nacional (NINO)
-Essa entidade de tipo de informação confidenciais está incluída no tipo de informação confidenciais número de identificação nacional da UE. Ele está disponível como uma entidade de tipo de informação independente e sensível.
+Essa entidade de tipo de informação confidenciais está incluída no tipo de informação confidenciais número de identificação nacional da UE. Ele também está disponível como uma entidade de tipo de informação independente e confidenciais.
 
 ### <a name="format"></a>Formatar
 

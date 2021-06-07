@@ -15,12 +15,12 @@ ms.collection:
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing disponíveis em organizações Proteção do Exchange Online (EOP) com ou sem Exchange Online caixas de correio.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f074596f0391e98735b07d17390cd058fd6fcafe
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: c329edc517476cfb184bfa4b70c2f2c9542b6e33
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793011"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789058"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Configurar políticas anti-phishing em EOP
 
@@ -77,7 +77,7 @@ Para aumentar a eficácia da proteção anti-phishing, você pode criar polític
   - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias _e_ para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
   - O **grupo de função Gerenciamento da Organização** Somente Exibição [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso <sup>\*</sup> .
 
-- Para nossas configurações recomendadas para políticas anti-phishing, consulte [EOP anti-phishing policy settings](recommended-settings-for-eop-and-office365.md#eop-anti-phishing-policy-settings).
+- Para nossas configurações recomendadas para políticas anti-phishing, consulte Configurações de política [anti-phishing](recommended-settings-for-eop-and-office365.md#eop-default-anti-phishing-policy-settings)padrão do EOP.
 
 - Permitir até 30 minutos para que a política atualizada seja aplicada.
 
@@ -137,7 +137,7 @@ A criação de uma política anti-phishing personalizada no centro de segurança
 
    Ao terminar, clique em **Avançar**.
 
-7. Na página **Revisão** exibida, revise suas configurações. Você pode selecionar **Editar** em cada seção para modificar as configurações da seção. Ou você pode clicar **em Voltar** ou selecionar a página específica no assistente.
+7. Na página **Revisão** exibida, revise suas configurações. Você pode selecionar **Editar** em cada seção para modificar as configurações da seção.
 
    Quando terminar, clique em **Enviar**.
 

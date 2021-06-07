@@ -17,16 +17,16 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Use o Microsoft Endpoint Manager para gerenciar seus dispositivos, PCs e outros pontos de extremidade.
-ms.openlocfilehash: 116f2a92ccae43a36a8a4ceafcd598c532a852c3
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: ef43f447b819a6e5d9d0de1d979d7d30887e30fb
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52028987"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789095"
 ---
 # <a name="step-4-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>Etapa 4. Implantar o gerenciamento de pontos de extremidade em seus dispositivos, PCs e outros pontos de extremidade
 
-Com funcionários remotos, é necessário oferecer suporte a um número crescente de dispositivos pessoais. O gerenciamento de pontos de extremidade é uma abordagem de segurança baseada em políticas que exige que os dispositivos obedeçam a critérios específicos antes de receberem acesso aos recursos. O Microsoft Endpoint Manager oferece um ambiente de trabalho e recursos de gerenciamento modernos para manter seus dados seguros na nuvem e no local. 
+Com funcionários híbridos, é necessário oferecer suporte a um número crescente de dispositivos pessoais. O gerenciamento de pontos de extremidade é uma abordagem de segurança baseada em políticas que exige que os dispositivos obedeçam a critérios específicos antes de receberem acesso aos recursos. O Microsoft Endpoint Manager oferece um ambiente de trabalho e recursos de gerenciamento modernos para manter seus dados seguros na nuvem e no local. 
 
 O [Microsoft Endpoint Manager](/mem/endpoint-manager-overview) fornece serviços e ferramentas para gerenciar dispositivos móveis, computadores desktop, máquinas virtuais, dispositivos incorporados e servidores, combinando os seguintes serviços que você já conhece e utiliza.
 
@@ -38,7 +38,7 @@ O Microsoft Intune é um serviço baseado em nuvem com foco no gerenciamento de 
 
 - **MDM:** Para os dispositivos pertencentes à organização, você pode exercer um controle total, que inclui as configurações, os recursos e a segurança. Os dispositivos serão “matriculados” no Intune sempre que utilizarem políticas do Intune referentes a regras e configurações. Por exemplo, você pode configurar exigências de senha e PIN, criar uma conexão de VPN, configurar a proteção contra ameaças e muito mais.
 
-- **MAM:** As pessoas que trabalham remotamente podem não querer que você tenha um controle total de seus dispositivos pessoais, também conhecidos como dispositivos “BYOD”, do inglês “traga seu próprio dispositivo”. Você pode oferecer opções aos seus funcionários remotos e ainda assim proteger a sua organização. Por exemplo, os funcionários remotos podem matricular seus dispositivos se desejarem ter acesso total aos recursos da sua organização. Alternativamente, se esses usuários desejarem acesso somente ao email ou ao Microsoft Teams,poderão optar por aplicar políticas de proteção de aplicativos que exigem uma autenticação multifator (MFA) para o uso desses aplicativos.
+- **MAM:** As pessoas que trabalham remotamente podem não querer que você tenha um controle total de seus dispositivos pessoais, também conhecidos como dispositivos “BYOD”, do inglês “traga seu próprio dispositivo”. Você pode oferecer opções aos seus funcionários híbridos e ainda assim proteger a sua organização. Por exemplo, os funcionários híbridos podem matricular seus dispositivos se desejarem ter acesso total aos recursos da sua organização. Alternativamente, se esses usuários desejarem acesso somente ao email ou ao Microsoft Teams,poderão optar por aplicar políticas de proteção de aplicativos que exigem uma autenticação multifator (MFA) para o uso desses aplicativos.
 
 Para obter mais informações, confira a [visão geral do Microsoft Intune](/intune/fundamentals/what-is-intune).
 
@@ -95,4 +95,4 @@ Você está usando o conjunto de recursos e funcionalidades do Endpoint Manager 
 
 [![Passo 5: Implementar aplicativos e serviços de produtividade para trabalhadores remotos](../media/empower-people-to-work-remotely/remote-workers-step-grid-5.png)](empower-people-to-work-remotely-teams-productivity-apps.md)
 
-Prossiga para a [Etapa 5](empower-people-to-work-remotely-teams-productivity-apps.md) para fazer com que seus funcionários remotos usem os aplicativos de produtividade do Microsoft 365, como o Microsoft Teams.
+Prossiga para a [Etapa 5](empower-people-to-work-remotely-teams-productivity-apps.md) para fazer com que seus funcionários híbridos usem os aplicativos de produtividade do Microsoft 365, como o Microsoft Teams.

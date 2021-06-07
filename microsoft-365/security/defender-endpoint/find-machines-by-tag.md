@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 6460860828acd5ea0c3509e9eb06061d2a9a0cc2
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 88ad63d8b7cc71f7d3f809c7cb0371fc41bb9f5d
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200144"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771160"
 ---
 # <a name="find-devices-by-tag-api"></a>Encontrar dispositivos por API de marca
 
@@ -50,8 +52,8 @@ Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   Machine.Read.All |  'Ler todos os perfis de máquina'
 Aplicativo |   Machine.ReadWrite.All | 'Ler e gravar todas as informações do computador'
-Delegada (conta corporativa ou de estudante) | Machine.Read | 'Ler informações do computador'
-Delegada (conta corporativa ou de estudante) | Machine.ReadWrite | 'Informações de máquina de leitura e gravação'
+Delegado (conta corporativa ou de estudante) | Machine.Read | 'Ler informações do computador'
+Delegado (conta corporativa ou de estudante) | Machine.ReadWrite | 'Informações de máquina de leitura e gravação'
 
 >[!Note]
 > Ao obter um token usando credenciais de usuário:
@@ -75,7 +77,7 @@ Autorização | Cadeia de caracteres | Portador {token}. **Obrigatório**.
 Nome | Tipo | Descrição
 :---|:---|:---
 tag | Cadeia de caracteres | O nome da marca. **Obrigatório**.
-useStartsWithFilter | Booleano | Quando definida como true, a pesquisa encontrará todos os dispositivos com o nome da marca que começa com a marca determinada na consulta. O padão é falso. **Opcional**.
+useStartsWithFilter | Booliano | Quando definida como true, a pesquisa encontrará todos os dispositivos com o nome da marca que começa com a marca determinada na consulta. O padão é falso. **Opcional**.
 
 ## <a name="request-body"></a>Corpo da solicitação
 Vazio

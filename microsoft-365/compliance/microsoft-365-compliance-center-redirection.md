@@ -11,12 +11,12 @@ ms.topic: article
 localization_priority: Normal
 description: Saiba mais sobre redirecionar automaticamente Office 365 usuários do Centro de Conformidade e Segurança para o Microsoft 365 de conformidade..
 ms.collection: M365-security-compliance
-ms.openlocfilehash: fb667e8f19b26cbe229b3aceffe194a86133c261
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: b51b2e225c833ac499379bbee119f8cb6f4216e9
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772410"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782832"
 ---
 # <a name="redirect-users-from-the-office-365-security-and-compliance-center-to-the-microsoft-365-compliance-center"></a>Redirecionar usuários do centro Office 365 Segurança e Conformidade para o Microsoft 365 de conformidade
 
@@ -51,7 +51,7 @@ Para alternar de volta para o centro Office 365 Segurança e Conformidade (prote
 1. Entre no centro de conformidade [Microsoft 365 como](https://compliance.microsoft.com) administrador global ou use qualquer conta com permissões de administrador de conformidade no Azure Active directory.
 2. Navegue **até Configurações**  >  **redirecionamento do Centro de Conformidade.**
 3. Alterne a configuração de redirecionamento automático para **Off**.
-4. Selecione **Desabilitar** e compartilhar comentários quando solicitado.
+4. Selecione **Desativar e** compartilhar comentários quando solicitado.
 
 Depois de desabilitados, os usuários não serão mais roteados para compliance.microsoft.com e serão direcionados para o centro Office 365 Segurança e Conformidade (protection.microsoft.com). Essa configuração pode ser habilitada novamente a qualquer momento pelos administradores de Conformidade ou Global.
 

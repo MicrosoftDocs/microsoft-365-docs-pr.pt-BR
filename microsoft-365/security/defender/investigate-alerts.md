@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4957c92cb95464213cce4a81ded07de166468c73
-ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
+ms.openlocfilehash: a6e11aea14a7b8d99c0098b68951790328ec593e
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689008"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782904"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>Investigar alertas no Microsoft 365 Defender
 
@@ -92,7 +92,7 @@ Fonte de alerta | Caracteres pré-anexados
 Microsoft Defender para Office 365 | `fa{GUID}` <br> Exemplo: `fa123a456b-c789-1d2e-12f1g33h445h6i` 
 Microsoft Defender para Ponto de Extremidade | `da` ou `ed` para alertas de detecção personalizados <br> 
 Microsoft Defender para Identidade? | `aa{GUID}` <br> Exemplo: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
-Microsoft Cloud App Security |`ca{GUID}` <br> Exemplo: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
+Microsoft Cloud App Security |`ca{GUID}` <br> Exemplo: `ca123a456b-c789-1d2e-12f1g33h445h6i` 
 
 
 

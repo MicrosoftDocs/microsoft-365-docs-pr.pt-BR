@@ -16,14 +16,13 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-MS.technology: mde
-ms.custom: api
-ms.openlocfilehash: 7fdb8ef1689c18945352b30b3ebfe6c176c4034e
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.technology: mde
+ms.openlocfilehash: 34fb58c2e32f69cda064bb6db4b180c78ba5d451
+ms.sourcegitcommit: f0118e61e490496cb23189cc5c73b23e2ba939be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772024"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52780148"
 ---
 # <a name="overview-of-management-and-apis"></a>Visão geral do gerenciamento e APIs 
 

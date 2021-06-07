@@ -20,16 +20,16 @@ search.appverid:
 - MET150
 description: Saiba mais sobre a Advanced eDiscovery de Microsoft 365. Este artigo fornece uma visão geral do Advanced eDiscovery em Microsoft 365, uma ferramenta para ajudá-lo a gerenciar investigações internas e externas. Ele também enquadra os motivos comerciais para usar Advanced eDiscovery gerenciar suas investigações legais.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 16d18d04c0bb45f0a9328dcebae866c16a575812
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: ec5ea7b32abb03edd31ab69abc7b8d3044b1d353
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860960"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782784"
 ---
 # <a name="overview-of-microsoft-365-advanced-ediscovery"></a>Visão geral do Microsoft 365 Advanced eDiscovery
 
-A Advanced eDiscovery em Microsoft 365 se baseia nos recursos existentes de Descoberta e análise da Microsoft. Advanced eDiscovery fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar, analisar e exportar conteúdo que responde às investigações internas e externas da sua organização. Ele também permite que sua equipe jurídica gerencie todo o fluxo de trabalho de notificação de responsabilidade para se comunicar com pessoas envolvidas no caso.
+A Advanced eDiscovery em Microsoft 365 se baseia nos recursos existentes de Descoberta e análise da Microsoft. Advanced eDiscovery fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, revisar e exportar conteúdo que responde às investigações internas e externas da sua organização. Ele também permite que sua equipe jurídica gerencie todo o fluxo de trabalho de notificação de responsabilidade para se comunicar com pessoas envolvidas no caso.
 
 ## <a name="advanced-ediscovery-capabilities"></a>Advanced eDiscovery recursos
 

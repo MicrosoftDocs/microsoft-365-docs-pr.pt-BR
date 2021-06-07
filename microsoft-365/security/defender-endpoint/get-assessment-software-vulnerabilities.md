@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 951f78ba361a12e404a5cce2071f931eab30c43f
-ms.sourcegitcommit: 83df0be7144c9c5d606f70b4efa65369e86693d2
+ms.openlocfilehash: 849d1ab2bbc3b8f6d883d6041adda5fe4577741d
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52778294"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789325"
 ---
 # <a name="export-software-vulnerabilities-assessment-per-device"></a>Exportar a avaliação de vulnerabilidades de software por dispositivo
 
@@ -39,7 +39,7 @@ ms.locfileid: "52778294"
 >
 Retorna todas as vulnerabilidades de software conhecidas e seus detalhes para todos os dispositivos, por dispositivo.
 
-Há diferentes chamadas de API para obter diferentes tipos de dados. Como a quantidade de dados pode ser muito grande, há duas maneiras de recuperá-las:
+Há diferentes chamadas de API para obter diferentes tipos de dados. Como a quantidade de dados pode ser grande, há duas maneiras de recuperá-las:
 
 - [Exportar a avaliação de vulnerabilidades de software OData](#1-export-software-vulnerabilities-assessment-odata)  A API puxa todos os dados da sua organização como respostas Json, seguindo o protocolo OData. Esse método é melhor para _organizações pequenas com menos de 100 K dispositivos_. A resposta é paginada, portanto, você pode usar o campo odata.nextLink da resposta para \@ buscar os próximos resultados.
 
@@ -74,7 +74,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão | Permissão | Nome de exibição de permissão
 ---|---|---
 Aplicativo | Vulnerability.Read.All | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
-Delegado (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
+Delegada (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
 
 ### <a name="13-url"></a>URL 1.3
 
@@ -277,7 +277,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão | Permissão | Nome de exibição de permissão
 ---|---|---
 Aplicativo | Vulnerability.Read.All | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
-Delegado (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
+Delegada (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
 
 ### <a name="23-url"></a>URL 2.3
 
@@ -336,11 +336,11 @@ GET https://api-us.securitycenter.contoso.com/api/machines/SoftwareVulnerabiliti
 
 ## <a name="see-also"></a>Confira também
 
-- [Exportar métodos e propriedades de avaliação por dispositivo](get-assessmnt-1methods-properties.md)
+- [Exportar métodos e propriedades de avaliação por dispositivo](get-assessment-methods-properties.md)
 
-- [Exportar avaliação de configuração segura por dispositivo](get-assessmnt-secure-cfg.md)
+- [Exportar avaliação de configuração segura por dispositivo](get-assessment-secure-config.md)
 
-- [Exportar avaliação de inventário de software por dispositivo](get-assessmnt-software-inventory.md)
+- [Exportar avaliação de inventário de software por dispositivo](get-assessment-software-inventory.md)
 
 Outros relacionados
 
