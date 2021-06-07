@@ -15,26 +15,26 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Saiba mais sobre o programa assistência comercial e como ele pode ajudar sua organização com ajuda e uso aprimorados para o Microsoft 365 para empresas.
-ms.openlocfilehash: 767146cbbb68ff2e6632a7cae74a8b232834b01b
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+description: Saiba mais sobre o programa assistência comercial e como ele pode ajudar sua organização com ajuda e uso aprimorados para Microsoft 365 para empresas.
+ms.openlocfilehash: ee0884ec1c95795a6a7847dfeaffdfcb2fac4beb
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51929020"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52768976"
 ---
 # <a name="business-assist-for-microsoft-365"></a>Business Assist para Microsoft 365
 
 Obter o máximo de sua assinatura com consultoria especializada de especialistas em pequenas empresas.
 
-**O Business Assist para o Microsoft 365** foi projetado para empresas com menos de 5 usuários para dar a você e seus funcionários acesso 24 horas por dia a especialistas em pequenas empresas à medida que você cresce sua empresa, da integração ao uso diário.
+**O Business Assist for Microsoft 365** foi projetado para empresas com menos de 5 usuários para dar a você e seus funcionários acesso 24 horas por dia a especialistas em pequenas empresas à medida que você cresce sua empresa, da integração ao uso diário.
 
 ## <a name="business-assist-services"></a>Serviços de Assistência Comercial
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|**Obter e executar rapidamente** <br> Trabalhe com um especialista em pequenas empresas para configurar recursos do Microsoft 365 que protegem sua empresa e dar uma aparência profissional. |**Capacitar todos em sua empresa** <br> Todos os seus funcionários, não apenas a pessoa responsável por IT, podem ir diretamente aos especialistas da Microsoft para um suporte contínuo mais rápido. |**Desbloquear potencial de negócios** <br> Saiba mais sobre recursos subutilizados e obter conselhos sobre maneiras de obter mais valor de sua assinatura. |
-|**Acelerar a migração na nuvem** <br> Obter ajuda personalizada movendo todos os arquivos atuais (email, armazenamento, documentos e comunicação) para o Microsoft 365. |**Acessar especialistas com facilidade** <br> Nossa equipe irá buscar a conversa onde você a deixou por último. Sem tíquetes para rastrear, sem robôs, sem longos tempos de espera. |**Atualize-se** <br> Check-ups regulares que ajudam você a se manter atualizado à medida que novos recursos de serviço são adicionados e as necessidades da sua empresa evoluem. |
+|**Obter e executar rapidamente** <br> Trabalhe com um especialista em pequenas empresas para configurar Microsoft 365 recursos que protegem sua empresa e dar uma aparência profissional. |**Capacitar todos em sua empresa** <br> Todos os seus funcionários, não apenas a pessoa responsável por IT, podem ir diretamente aos especialistas da Microsoft para um suporte contínuo mais rápido. |**Desbloquear potencial de negócios** <br> Saiba mais sobre recursos subutilizados e obter conselhos sobre maneiras de obter mais valor de sua assinatura. |
+|**Acelerar a migração na nuvem** <br> Obter ajuda personalizada movendo todos os arquivos atuais (email, armazenamento, documentos e comunicação) para Microsoft 365. |**Acessar especialistas com facilidade** <br> Nossa equipe irá buscar a conversa onde você a deixou por último. Sem tíquetes para rastrear, sem robôs, sem longos tempos de espera. |**Atualize-se** <br> Check-ups regulares que ajudam você a se manter atualizado à medida que novos recursos de serviço são adicionados e as necessidades da sua empresa evoluem. |
 | | | |
 
 > [!div class="nextstepaction"]
@@ -42,7 +42,7 @@ Obter o máximo de sua assinatura com consultoria especializada de especialistas
 
 ## <a name="eligibility-for-business-assist"></a>Qualificação para Assistência Empresarial
 
-Os clientes com um plano de assinatura ativo do Microsoft 365 para empresas podem usar serviços de integração, migração e gerenciamento do Business Assist. Sua organização deve ter 5 ou menos licenças de usuário.
+Os clientes com um plano de assinatura Microsoft 365 para empresas podem usar serviços de integração, migração e gerenciamento do Business Assist. Sua organização deve ter 5 ou menos licenças de usuário.
 
 > [!IMPORTANT]
 > O Business Assist só está disponível nos Estados Unidos.
@@ -51,9 +51,9 @@ Os clientes com um plano de assinatura ativo do Microsoft 365 para empresas pode
 
 Somente as organizações qualificadas verão a opção de comprar o Business Assist. O Business Assist custa US$ 5 por usuário por mês. Veja como você pode comprar o Business Assist.
 
-1. No Centro de administração do Microsoft 365, vá para **Cobrança**  >  **Serviços de Compra.**
+1. Na exibição simplificada do centro de administração Microsoft 365, vá para a guia **Assinaturas** e selecione **Adicionar produtos**.
 
-2. Selecione **Detalhes** sobre a **Assistência para Pequenas Empresas do Microsoft 365** e conclua sua compra.
+2. Na página Serviços de Compra, Selecione **Detalhes** sobre Assistência Comercial **para** Microsoft 365 e conclua sua compra.
 
 :::image type="content" source="../../media/business-assist-april.png" alt-text="Screeenshot: Purchase Business Assist from the Add-ons section on the Purchase services page":::
 

@@ -8,22 +8,22 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Use esta página para criar sua lista de funcionários e gerenciar detalhes do membro da equipe, como nome, número de telefone e endereço de email.
-ms.openlocfilehash: 7fd19e3281b3dc075b5f72ca0471f5c66f93752d
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 23757c492986936125eff1203e6a99231164da22
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683314"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52768940"
 ---
 # <a name="add-staff-to-bookings"></a>Adicionar funcionários ao Microsoft Bookings
 
 A página Equipe no Bookings é onde você cria sua lista de funcionários e gerencia os detalhes do membro da equipe, como nome, número de telefone e endereço de email. Você também pode definir horários de trabalho para cada membro da equipe a partir daqui.
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="before-you-begin"></a>Antes de você começar
 
 Embora o Bookings seja um recurso Microsoft 365, nem todos os membros da sua equipe precisam ter uma conta Microsoft 365. Todos os membros da equipe devem ter um endereço de email válido para que possam receber reservas e agendar alterações.
 
-## <a name="watch-add-your-staff-in-microsoft-bookings"></a>Assista: Adicionar sua equipe no Microsoft Bookings
+## <a name="watch-add-your-staff-to-bookings"></a>Assista: Adicione sua equipe ao Bookings
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWuVka]
 
@@ -67,14 +67,39 @@ Embora o Bookings seja um recurso Microsoft 365, nem todos os membros da sua equ
     > [!NOTE]
     > Somente os primeiros 31 membros da equipe que você adicionar à sua página de equipe serão exibidos quando você atribuir membros da equipe a um serviço.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="make-a-bookings-user-a-super-user-without-adding-them-as-staff-in-bookings"></a>Tornar um usuário do Bookings um super usuário sem adiá-los como Funcionários no Bookings
 
-Depois de adicionar membros da equipe, você pode [agendar encerramentos](schedule-closures-time-off-vacation.md) de negócios e folga e [definir suas políticas de agendamento.](set-scheduling-policies.md)
+Talvez você queira adicionar uma pessoa à sua lista de funcionários no Bookings sem disponibilizar para clientes ou clientes. Depois de torná-los um super usuário, eles se tornarão administradores da caixa de correio de reserva. Ser um administrador de uma caixa de correio de reserva é definido como tendo acesso total e permissões de envio à caixa de correio de reserva.
 
-## <a name="related-content"></a>Conteúdo relacionado
+> [!NOTE]
+> Essas etapas só funcionam se o usuário que está sendo adicionado ainda não tiver atribuído **uma** função de visualizador no Bookings.
 
-[Microsoft Bookings](bookings-overview.md)
+1. [Conexão para Microsoft 365 com o PowerShell](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
-[Agendar fechamentos de negócios, folga e período de férias](schedule-closures-time-off-vacation.md)
+2. Usando o PowerShell, atribua acesso total aos seguintes comandos:
 
-[Configurar as políticas de agendamento](set-scheduling-policies.md)
+    ```powershell
+    Add-MailboxPermission -Identity <bookingmailbox@emailaddress> -User <adminusers@emailaddress> -AccessRights FullAccess -Deny:$false
+    ```
+
+3. Em seguida, execute este comando para atribuir permissões de envio como.
+
+    ```powershell
+    Add-RecipientPermission -Identity <bookingmailbox@emailaddress> -Trustee <adminusers@emailaddress> -AccessRights SendAs -Confirm:$false
+    ```
+
+Veja um exemplo de comando do PowerShell para adicionar Allie Bellew à caixa de correio de reserva de daycare da Contoso.
+
+1. Primeiro execute este comando:
+
+    ```powershell
+    Add-MailboxPermission -Identity "daycare@contoso.com" -User "Allie Bellew" -AccessRights FullAccess -InheritanceType All
+    ```
+
+2. Em seguida, execute este comando:
+
+    ```powershell
+    Add-RecipientPermission -Identity <bookingmailbox@emailaddress> -Trustee <adminusers@emailaddress> -AccessRights SendAs -Confirm:$false
+    ```
+
+**Allie Bellew** agora tem acesso ao administrador, mas não aparece como funcionário reservado no Bookings.

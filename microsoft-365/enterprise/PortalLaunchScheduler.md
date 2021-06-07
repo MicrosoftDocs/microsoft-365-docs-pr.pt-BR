@@ -17,19 +17,19 @@ search.appverid:
 - SPO160
 - MET150
 description: Este artigo descreve como você pode iniciar seu portal usando o agendador de início do portal
-ms.openlocfilehash: ac55a5b0cc9d252642c890b78ccec1ba720f0957
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: e77668b3c21b43de1a2e30dc7181842770a24784
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730253"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769198"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>Iniciar seu portal usando o agendador de SharePoint portal
 
 Um portal é um site SharePoint de comunicação em sua intranet que é de alto tráfego – um site que tem de 10.000 a mais de 100.000 visualizadores ao longo de várias semanas. Use o agendador de início do Portal para iniciar seu portal para garantir que os usuários tenham uma experiência de visualização suave ao acessar seu novo portal SharePoint portal.
 <br>
 <br>
-O agendador de início do Portal foi projetado para ajudá-lo a seguir uma abordagem de lançamento em fases, direcionando os visualizadores em lotes em ondas e gerenciando os redirecionamentos de URL para o novo portal. Durante o início de cada onda, você pode coletar comentários do usuário, monitorar o desempenho do portal e pausar o lançamento para resolver problemas antes de prosseguir com a próxima onda. Saiba mais sobre como planejar [um lançamento de portal em SharePoint](https://docs.microsoft.com/microsoft-365/Enterprise/Planportallaunchroll-out?view=o365-worldwide). 
+O agendador de início do Portal foi projetado para ajudá-lo a seguir uma abordagem de lançamento em fases, direcionando os visualizadores em lotes em ondas e gerenciando os redirecionamentos de URL para o novo portal. Durante o início de cada onda, você pode coletar comentários do usuário, monitorar o desempenho do portal e pausar o lançamento para resolver problemas antes de prosseguir com a próxima onda. Saiba mais sobre como planejar [um lançamento de portal em SharePoint](/microsoft-365/Enterprise/Planportallaunchroll-out?view=o365-worldwide). 
 
 **Há dois tipos de redirecionamentos:**
 
@@ -116,28 +116,30 @@ Anteriormente, os lançamentos de portal só podiam ser agendados por meio Share
 
 7. Determine quem precisa exibir o site imediatamente e insira suas informações no **campo Usuários isentos de** ondas. Esses usuários são excluídos das ondas e não serão redirecionados antes, durante ou após o início.
 
+    >[!NOTE]
+    > Até 50 usuários ou grupos de segurança distintos no máximo podem ser adicionados. Use grupos de segurança quando precisar de mais de 50 pessoas para obter acesso ao portal antes que as ondas comecem a ser lançadas. 
+
 8.  Confirme os detalhes de início do portal e selecione **Agendar**. Depois que o lançamento tiver sido agendado, quaisquer alterações na home page do portal SharePoint precisarão receber um resultado de diagnóstico saudável antes que o início do portal seja retomado.
 
-### <a name="launch-portal-with-over-100k-users"></a>Portal de lançamento com mais de 100 mil usuários
+### <a name="launch-a-portal-with-over-100k-users"></a>Iniciar um portal com mais de 100 mil usuários
 
-Se você estiver planejando iniciar um portal com mais de 100.000 usuários, envie uma solicitação de suporte seguindo as etapas listadas abaixo. Não deixe de incluir todas as informações solicitadas.
+Se você estiver planejando iniciar um portal com mais de 100.000 usuários, envie uma solicitação de suporte seguindo as etapas listadas abaixo. Certifique-se de incluir todas as informações solicitadas.
 
-Siga estas etapas:
-1. Navegue até https://admin.microsoft.com
-2. Verifique se você está usando a nova visualização do centro de administração.
-3. No painel de navegação à esquerda, selecione **Suporte** e, em seguida, **Nova Solicitação de Serviço**. 
-
+**Siga estas etapas:**
+1. Acesse https://admin.microsoft.com
+2. Verifique se você está usando a nova visualização do centro de administração
+3. No painel de navegação esquerdo, selecione **Suporte** e, em seguida, selecione **Nova Solicitação de Serviço**
 
    Isso ativará o painel **Precisa de Ajuda?** no lado direito da tela.
 
-4.  Na área **Descrevê-lo brevemente,** digite "Iniciar SharePoint Portal com 100 mil usuários".</br>
-5. Selecione **Contatar o Suporte**.
-6. Em **Descrição,** insira "Iniciar SharePoint Portal com 100 mil usuários". 
-7. Preencha as informações restantes e selecione **Entrar em contato comigo**.
+4. Para **descrever brevemente seu problema,** digite "Iniciar SharePoint Portal com 100 mil usuários"</br>
+5. Em seguida, selecione **Suporte de Contato**
+6. Em **Descrição,** insira "Iniciar SharePoint Portal com 100 mil usuários"
+7. Preencha as informações restantes e selecione **Entrar em contato comigo**
 8. Depois de o tíquete ter sido criado, certifique-se de fornecer ao agente de suporte as seguintes informações:
-- Iniciar URL do Portal 
-- Número de usuários esperado
-- Tempo estimado de lançamento 
+   - URL do Portal 
+   - Número de usuários esperado
+   - Agenda de início estimada
 
 ## <a name="make-changes-to-a-scheduled-portal-launch"></a>Fazer alterações em um lançamento de portal agendado
 

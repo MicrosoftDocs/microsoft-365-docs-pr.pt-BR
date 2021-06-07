@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: f9130b054ccea762e6c5cc4f2952bbfa82d24b83
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: b9de7645abc59849b3ca28f64904b0ba49d4eef5
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200420"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771892"
 ---
 # <a name="get-alert-information-by-id-api"></a>Obter informações de alerta pela API de ID
 
@@ -52,8 +53,8 @@ Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   Alert.Read.All |    'Ler todos os alertas'
 Aplicativo |   Alert.ReadWrite.All |   'Ler e gravar todos os alertas'
-Delegada (conta corporativa ou de estudante) | Alert.Read | 'Alertas de leitura'
-Delegada (conta corporativa ou de estudante) | Alert.ReadWrite | 'Alertas de leitura e gravação'
+Delegado (conta corporativa ou de estudante) | Alert.Read | 'Alertas de leitura'
+Delegado (conta corporativa ou de estudante) | Alert.ReadWrite | 'Alertas de leitura e gravação'
 
 >[!Note]
 > Ao obter um token usando credenciais de usuário:

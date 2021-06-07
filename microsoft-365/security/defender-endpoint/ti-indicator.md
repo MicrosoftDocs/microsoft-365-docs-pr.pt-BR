@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: bbd908c15f4d65d4923c088261c92de6d2d3cc35
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 75b62f1bada67c30dc05237a284f8b64c3c7072d
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187024"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771376"
 ---
 # <a name="indicator-resource-type"></a>Tipo de recurso indicator
 
@@ -42,9 +43,9 @@ ms.locfileid: "51187024"
 
 Método|Tipo de retorno |Descrição
 :---|:---|:---
-[Listar indicadores](get-ti-indicators-collection.md) | [Indicador](ti-indicator.md) Coleção | Entidades [indicadoras](ti-indicator.md) de lista.
-[Enviar Indicador](post-ti-indicator.md) | [Indicador](ti-indicator.md) | Entidade Enviar ou atualizar [Indicador.](ti-indicator.md)
-[Importar indicadores](import-ti-indicators.md) | [Indicador](ti-indicator.md) Coleção | Enviar ou atualizar [entidades de indicadores.](ti-indicator.md)
+[Listar Indicadores](get-ti-indicators-collection.md) | [Indicador](ti-indicator.md) Coleção | Entidades [indicadoras](ti-indicator.md) de lista.
+[Enviar indicador](post-ti-indicator.md) | [Indicador](ti-indicator.md) | Entidade Enviar ou atualizar [Indicador.](ti-indicator.md)
+[Importar Indicadores](import-ti-indicators.md) | [Indicador](ti-indicator.md) Coleção | Enviar ou atualizar [entidades de indicadores.](ti-indicator.md)
 [Excluir Indicador](delete-ti-indicator-by-id.md) | Sem Conteúdo | Exclui entidade [Indicator.](ti-indicator.md)
 
 
@@ -65,7 +66,7 @@ expirationTime | DateTimeOffset | O tempo de expiração do indicador.
 lastUpdateTime | DateTimeOffset | A última vez que o indicador foi atualizado.
 severity | Enum | A gravidade do indicador. os valores possíveis são: "Informacional", "Baixo", "Médio" e "Alto".
 title | Cadeia de caracteres | Título do indicador.
-descrição | Cadeia de caracteres | Descrição do indicador.
+description | Cadeia de caracteres | Descrição do indicador.
 recommendedActions | Cadeia de caracteres | Ações recomendadas para o indicador.
 rbacGroupNames | Lista de cadeias de caracteres | Nomes de grupo de dispositivos RBAC onde o indicador é exposto e ativo. Lista vazia caso ela seja exposta a todos os dispositivos.
 

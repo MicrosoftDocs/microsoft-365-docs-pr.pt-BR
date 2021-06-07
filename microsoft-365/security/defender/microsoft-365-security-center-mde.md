@@ -19,12 +19,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: e7cecd645d857a5c2d5e7a98c78bd3f39b68449d
-ms.sourcegitcommit: ddf6c25d1ed6387d07614f7042e033bad7f406f9
+ms.openlocfilehash: 487fc87c613d7321e3ae608097d98d2c90f8874e
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52639398"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771904"
 ---
 # <a name="microsoft-defender-for-endpoint-in-the-microsoft-365-security-center"></a>Microsoft Defender para Ponto de Extremidade no centro de Microsoft 365 de segurança
 
@@ -56,7 +56,7 @@ A imagem e a tabela abaixo lista as alterações na navegação entre o Central 
 | Gerenciamento & de vulnerabilidades | Gerenciamento de Ameaças e Vulnerabilidades |
 | Avaliação e tutoriais | Tutoriais & avaliações |
 | Gerenciamento de configuração | Gerenciamento de configuração |
-| Configurações | Configurações | 
+| Settings | Settings | 
 
 O centro de [segurança Microsoft 365](overview-security-center.md) aprimorado combina recursos de segurança que protegem, detectam, investigam e respondem a ameaças de email, colaboração, identidade e [https://security.microsoft.com](https://security.microsoft.com) dispositivos. Esse centro de segurança reúne funcionalidades de portais de segurança da Microsoft existentes, incluindo o Central de Segurança do Microsoft Defender e o centro de conformidade Office 365 segurança & segurança.
 
@@ -118,7 +118,7 @@ Esta tabela é uma referência rápida das alterações entre o Central de Segur
 |---------|---------|
 | Relatórios  | Consulte relatórios sobre pontos de extremidade e & de email, incluindo proteção contra ameaças, conformidade e conformidade de dispositivos e dispositivos vulneráveis. |
 | Integridade  |  Atualmente, links para a página "Saúde do serviço" no centro [de administração Microsoft 365 .](https://admin.microsoft.com/) |
-| Configurações |  Gerencie suas configurações para o Microsoft 365 de segurança, Microsoft 365 Defender, Pontos de Extremidade, Colaboração & Email, Identidades e Descoberta de Dispositivo.   |
+| Settings |  Gerencie suas configurações para o Microsoft 365 de segurança, Microsoft 365 Defender, Pontos de Extremidade, Colaboração & Email, Identidades e Descoberta de Dispositivo.   |
 
 ## <a name="microsoft-365-security-navigation-and-capabilities"></a>Microsoft 365 e recursos de segurança
 
@@ -177,6 +177,10 @@ Se você usar a [API SIEM](../defender-endpoint/enable-siem-integration.md)do De
 ### <a name="email-alerts"></a>Alertas de email
 
 Você pode continuar a usar alertas de email para o Defender para Ponto de Extremidade. Adicionamos novos links nos emails que apontam para a página de alerta ou a página de incidentes no centro Microsoft 365 segurança. Para obter mais informações, consulte [Redirecionando contas do Microsoft Defender para o Ponto](./microsoft-365-security-mde-redirection.md)de Extremidade para o Microsoft 365 de segurança .
+
+### <a name="managed-security-service-providers-mssp"></a>Provedores de Serviços de Segurança Gerenciada (MSSP)
+
+No momento, não há suporte para fazer logon em vários locatários simultaneamente na mesma sessão de navegação no portal unificado. Você pode optar pelo redirecionamento automático revertendo para o antigo portal do [Microsoft Defender para Ponto](microsoft-365-security-mde-redirection.md#can-i-go-back-to-using-the-former-portal)de Extremidade , para manter essa funcionalidade até que o problema seja resolvido.
 
 ## <a name="related-information"></a>Informações relacionadas
 

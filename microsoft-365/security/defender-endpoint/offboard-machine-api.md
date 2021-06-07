@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 03a1ef11224021703a6f33f82fa2c4f135a317a7
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: e2b1114cd091c9cd42aa8e4525416f9d73358a65
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934172"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771988"
 ---
 # <a name="offboard-machine-api"></a>API de máquina de offboard
 
@@ -50,7 +51,7 @@ Dispositivo offboard do Defender para Ponto de Extremidade.
 [!include[Machine actions note](../../includes/machineactionsnote.md)]
 
 >[!Note]
-> Essa API é suportada no Windows 10, versão 1703 e posterior, ou no Windows Server 2019 e posterior. Essa API não tem suporte em dispositivos MacOS ou Linux.
+> Essa API é suportada Windows 10, versão 1703 e posterior, ou Windows Server 2019 e posterior. Essa API não tem suporte em dispositivos MacOS ou Linux.
 
 ## <a name="permissions"></a>Permissões
 Uma das seguintes permissões é necessária para chamar essa API. Para saber mais, incluindo como escolher permissões, consulte [Use Defender for Endpoint APIs](apis-intro.md)
@@ -58,7 +59,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   Machine.Offboard |  'Máquina de offboard'
-Delegada (conta corporativa ou de estudante) |    Machine.Offboard |  'Máquina de offboard'
+Delegado (conta corporativa ou de estudante) |    Machine.Offboard |  'Máquina de offboard'
 
 >[!Note]
 > Ao obter um token usando credenciais de usuário:

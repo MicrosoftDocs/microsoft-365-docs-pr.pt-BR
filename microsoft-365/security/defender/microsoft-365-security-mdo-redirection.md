@@ -1,5 +1,5 @@
 ---
-title: Redirecionando contas do Microsoft Defender para Office 365 para o novo Microsoft 365 de segurança
+title: Redirecionando contas do Office 365 De segurança e conformidade para o novo centro de Microsoft 365 de segurança
 description: Como redirecionar do Defender para Office 365 para o Microsoft 365 de segurança.
 keywords: Microsoft 365 de segurança, Iniciando com o centro de segurança Microsoft 365, redirecionamento do centro de segurança
 search.product: eADQiWindows 10XVcnh
@@ -20,23 +20,23 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 2a4b122b3ef3a1ddaf61d8f9373bec3e721db177
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 703d3c3c9086aa2bdfada560c009e8738dffbb18
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651375"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52768964"
 ---
-# <a name="redirecting-accounts-from-microsoft-defender-for-office-365-to-the-microsoft-365-security-center"></a>Redirecionando contas do Microsoft Defender para Office 365 para o Microsoft 365 de segurança
+# <a name="redirecting-accounts-from-office-365-security-and-compliance-center-to-microsoft-365-security-center"></a>Redirecionando contas do Office 365 De segurança e conformidade para Microsoft 365 central de segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 
 - Microsoft 365 Defender
-- Microsoft Defender para Office 365?
+- O que é o Defender para Office 365?
 
-Este artigo explica como rotear contas para o centro de segurança do Microsoft 365 habilitando o redirecionamento automático do antigo Centro de Conformidade e Segurança da Microsoft (protection.office.com ou securitycenter.microsoft.com), para o centro de segurança Microsoft 365 (security.microsoft.com).
+Este artigo explica como rotear contas para o centro de segurança do Microsoft 365 habilitando o redirecionamento automático do antigo Centro de Conformidade e Segurança do Office 365 (protection.office.com) para o centro de segurança Microsoft 365 (security.microsoft.com).
 
 ## <a name="what-to-expect"></a>O que esperar
 Depois que o redirecionamento automático for habilitado e ativo, os usuários que acessarem os recursos relacionados à segurança no Office 365 Security and Compliance (protection.office.com), serão automaticamente roteados para o centro de segurança do Microsoft 365 ( https://security.microsoft.com) .  
@@ -78,7 +78,7 @@ Para reverter para o portal anterior:
 
 Essa configuração pode ser habilitada novamente a qualquer momento.
 
-Depois de desabilitada, as contas não serão mais roteadas para security.microsoft.com, e você terá novamente acesso ao portal anterior - securitycenter.windows.com ou securitycenter.microsoft.com.
+Depois de desabilitada, as contas não serão mais roteadas para security.microsoft.com, e você terá novamente acesso ao portal anterior — securitycenter.windows.com ou securitycenter.microsoft.com.
 
 ## <a name="related-information"></a>Informações relacionadas
 - [Visão geral do Centro de segurança do Microsoft 365](overview-security-center.md)

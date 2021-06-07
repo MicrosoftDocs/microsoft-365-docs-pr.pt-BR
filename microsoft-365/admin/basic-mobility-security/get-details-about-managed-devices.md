@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Use Windows PowerShell para obter detalhes sobre dispositivos Básicos de Mobilidade e Segurança em sua organização.
-ms.openlocfilehash: 92fcd6f39ffff97d7a4ecd2a69626ece54b481b2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7cb2369c9a31210f26db12b0453e7a4228e1cccc
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904247"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782436"
 ---
 # <a name="get-details-about-basic-mobility-and-security-managed-devices"></a>Obter detalhes sobre dispositivos gerenciados de Mobilidade Básica e Segurança
 
@@ -39,17 +39,17 @@ Aqui está uma análise dos detalhes do dispositivo disponíveis para você.
 :::image type="content" source="../../media/basic-mobility-security/bms-7-powershell-parameters.png" alt-text="Parâmetros básicos de Mobilidade e Segurança do PowerShell":::
 
 >[!NOTE]
->Os comandos e scripts deste artigo também retornam detalhes sobre todos os dispositivos gerenciados pelo [Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune).
+>Os comandos e scripts deste artigo também retornam detalhes sobre todos os dispositivos gerenciados [por Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune).
 
 ## <a name="before-you-begin"></a>Antes de começar
 
 Há algumas coisas que você precisa configurar para executar os comandos e scripts descritos neste artigo.
 
-### <a name="step-1-download-and-install-the-azure-active-directory-module-for-windows-powershell"></a>Etapa 1: Baixar e instalar o Módulo do Azure Active Directory para Windows PowerShell
+### <a name="step-1-download-and-install-the-azure-active-directory-module-for-windows-powershell"></a>Etapa 1: Baixar e instalar o módulo Azure Active Directory para Windows PowerShell
 
-Para obter mais informações sobre essas etapas, consulte [Conectar-se ao Microsoft 365 com o PowerShell](/office365/enterprise/powershell/connect-to-office-365-powershell).
+Para obter mais informações sobre essas etapas, [consulte Conexão Microsoft 365 com o PowerShell](/office365/enterprise/powershell/connect-to-office-365-powershell).
 
-1. Vá para Microsoft Online Services Sign-In Assistente para Profissionais de [TI RTWl](https://www.microsoft.com/download/details.aspx?id=41950)e selecione Baixar para Microsoft Online Services   Assistente de  **Login.**
+1. Vá para Microsoft Online Services Sign-In Assistente para Profissionais de [TI RTWl](https://download.microsoft.com/download/7/1/E/71EF1D05-A42C-4A1F-8162-96494B5E615C/msoidcli_32bit.msi)e selecione Baixar para Microsoft Online Services   Assistente de  **Login.**
 
 2. Instale o Módulo Microsoft Azure Active Directory para Windows PowerShell seguindo estas etapas:
 
@@ -63,13 +63,13 @@ Para obter mais informações sobre essas etapas, consulte [Conectar-se ao Mic
 
     5. Após a instalação, feche a janela de comando do PowerShell.
 
-### <a name="step-2-connect-to-your-microsoft-365-subscription"></a>Etapa 2: Conectar-se à sua assinatura do Microsoft 365
+### <a name="step-2-connect-to-your-microsoft-365-subscription"></a>Etapa 2: Conexão para sua assinatura Microsoft 365 assinatura
 
-1. No Windows Azure Módulo do Active Directory para Windows PowerShell, execute o seguinte comando.  
+1. No módulo Windows Azure Active Directory para Windows PowerShell, execute o seguinte comando.  
 
     $UserCredential = Get-Credential
 
-2. Na caixa Windows PowerShell caixa de diálogo Solicitação de Credencial, digite o nome de usuário e a senha da sua conta de administrador global do Microsoft 365 e selecione **OK**.
+2. Na caixa Windows PowerShell caixa de diálogo Solicitação de Credencial, digite o nome de usuário e a senha da sua conta de administrador global Microsoft 365 e selecione **OK**.
 
 3. Execute o seguinte comando.
 
@@ -82,7 +82,7 @@ Para obter mais informações sobre essas etapas, consulte [Conectar-se ao Mic
 
 Para executar o Get-MsolUserDeviceComplianceStatus.ps1, você precisa habilitar a execução de scripts do PowerShell.
 
-1. Na área de trabalho do Windows, selecione **Iniciar** e digite Windows PowerShell. Clique com o Windows PowerShell e selecione **Executar como administrador**.
+1. Na sua Windows Desktop, selecione **Iniciar** e digite Windows PowerShell. Clique com o botão Windows PowerShell e selecione **Executar como administrador**.
 
 2. Execute o seguinte comando.
 
@@ -104,7 +104,7 @@ Para obter mais exemplos, consulte  [Get-MsolDevice](https://go.microsoft.com/
 
 Primeiro, salve o script no computador.
 
-1. Copie e colar o texto a seguir no Bloco de Notas.  
+1. Copie e colar o texto a seguir em Bloco de notas.  
 
 2.  param (
 
@@ -263,7 +263,7 @@ Primeiro, salve o script no computador.
 70.  }
     
 
-71.  Salve-o como um Windows PowerShell de script usando a extensão de arquivo .ps1; por exemplo, Get-MsolUserDeviceComplianceStatus.ps1.   
+71.  Salve-o como um arquivo Windows PowerShell script usando a extensão de arquivo .ps1; por exemplo, Get-MsolUserDeviceComplianceStatus.ps1.   
 
 ## <a name="run-the-script-to-get-device-information-for-a-single-user-account"></a>Execute o script para obter informações do dispositivo para uma única conta de usuário
 
@@ -281,7 +281,7 @@ Primeiro, salve o script no computador.
 
     .\Get-MsolUserDeviceComplianceStatus.ps1 -User $u -Export
 
-As informações são exportadas para a área de trabalho do Windows como um arquivo CSV. Você pode usar parâmetros adicionais para especificar o nome de arquivo e o caminho do CSV.
+As informações são exportadas para sua área de trabalho Windows como um arquivo CSV. Você pode usar parâmetros adicionais para especificar o nome de arquivo e o caminho do CSV.
 
 ## <a name="run-the-script-to-get-device-information-for-a-group-of-users"></a>Execute o script para obter informações do dispositivo para um grupo de usuários
 
@@ -299,11 +299,11 @@ As informações são exportadas para a área de trabalho do Windows como um arq
 
     .\Get-MsolUserDeviceComplianceStatus.ps1 -User $u -Export
 
-As informações são exportadas para a área de trabalho do Windows como um arquivo CSV. Você pode usar parâmetros adicionais para especificar o nome de arquivo e o caminho do CSV.
+As informações são exportadas para sua área de trabalho Windows como um arquivo CSV. Você pode usar parâmetros adicionais para especificar o nome de arquivo e o caminho do CSV.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[O Microsoft Connect foi retirado](/collaborate/connect-redirect)
+[O Microsoft Conexão foi retirado](/collaborate/connect-redirect)
 
 [Visão geral da Mobilidade e Segurança Básicas](overview.md)
 

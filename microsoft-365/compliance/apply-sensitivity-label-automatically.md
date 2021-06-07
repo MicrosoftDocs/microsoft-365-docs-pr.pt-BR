@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente um rótulo a arquivos e emails, ou você pode solicitar aos usuários que selecionem o rótulo que você recomenda.
-ms.openlocfilehash: d7559e5fa75db1fb23592dec1a3a5f35bad603df
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 4c39e5895c3315d77d7bfc211f0ba3e65f06659b
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538526"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769288"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -93,7 +93,7 @@ Use a tabela a seguir para ajudá-lo a identificar as diferenças no comportamen
 |Anexos do Exchange verificados quanto a condições|Não | Sim|
 |Aplicar marcações visuais |Sim |Sim (somente email) |
 |Substituir a criptografia de IRM aplicada sem um rótulo|Sim, se o usuário tiver o direito mínimo de uso do Exportar |Sim (somente email) |
-|Rótulo de email de entrada|Não |Sim (criptografia não aplicada) |
+|Rótulo de email de entrada|Não |Sim|
 
 \* A rotulação automática não está disponível em todas as regiões. Se o locatário não oferecer suporte a essa funcionalidade, a guia de rotulamento automático não ficará visível no centro de rotulamento de administrador.
 

@@ -1,5 +1,5 @@
 ---
-title: Métodos e propriedades de recomendação
+title: Métodos e propriedades da recomendação
 description: Recupera os principais alertas recentes.
 keywords: apis, api gráfica, apis com suporte, obter, alertas, recentes
 search.product: eADQiWindows 10XVcnh
@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 6ab4d4e1acab0e4b837195f64c369057d7ceb417
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: bd7aa2af2c7500bbe02108bb8aa5dee452ff2998
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198228"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771592"
 ---
 # <a name="recommendation-resource-type"></a>Tipo de recurso de recomendação
 
@@ -60,8 +61,8 @@ recommendedVersion | Cadeia de caracteres | Versão recomendada
 recommendationCategory | Cadeia de caracteres | Categoria de recomendação. Os valores possíveis são: "Accounts", "Application", "Network", "OS", "SecurityStack
 subCategory | Cadeia de caracteres | Sub-categoria de recomendação
 severityScore | Duplo | Impacto potencial da configuração para a Pontuação Segura da Microsoft para Dispositivos da organização (1-10)
-publicExploit | Booleano | Exploração pública está disponível 
-activeAlert | Booleano | Alerta ativo está associado a essa recomendação
+publicExploit | Booliano | Exploração pública está disponível 
+activeAlert | Booliano | Alerta ativo está associado a essa recomendação
 associatedThreats | Coleção de cadeias de caracteres | O relatório de análise de ameaças está associado a essa recomendação
 remediationType | Cadeia de caracteres | Tipo de correção. Os valores possíveis são: "ConfigurationChange","Update","Upgrade","Uninstall"
 Status | Enum | Status de exceção de recomendação. Os valores possíveis são: "Active" e "Exception"

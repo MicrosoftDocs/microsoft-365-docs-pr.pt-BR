@@ -15,15 +15,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 20c63daaf61b85f35aaceccb540b6d50824c801d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 9192662b8d4ed23a5903dddb555f07bf182ab17f
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198666"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771496"
 ---
-# <a name="advanced-hunting-using-powershell"></a>Busca Avançada usando o PowerShell
+# <a name="advanced-hunting-using-powershell"></a>Busca avançada usando o PowerShell
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -39,7 +40,7 @@ Execute consultas avançadas usando o PowerShell, consulte [Advanced Hunting API
 
 Nesta seção, compartilharemos exemplos do PowerShell para recuperar um token e usá-lo para executar uma consulta.
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="before-you-begin"></a>Antes de você começar
 Primeiro, você precisa [criar um aplicativo.](apis-intro.md)
 
 ## <a name="preparation-instructions"></a>Instruções de preparação
@@ -129,4 +130,4 @@ $results | ConvertTo-Json | Set-Content file1.json
 ## <a name="related-topic"></a>Tópicos relacionados
 - [APIs do Microsoft Defender para Ponto de Extremidade](apis-intro.md)
 - [API de Busca Avançada](run-advanced-query-api.md)
-- [Busca Avançada usando Python](run-advanced-query-sample-python.md)
+- [Busca avançada usando Python](run-advanced-query-sample-python.md)

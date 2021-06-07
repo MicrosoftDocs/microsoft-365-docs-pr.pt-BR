@@ -9,22 +9,22 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 5e614581ee76d1f8cb026345f1c31ed22faafb8a
-ms.sourcegitcommit: d3c1b08b3a8af29ef19ffe77da063920f28fe290
+ms.openlocfilehash: d35ab0f4e99d466d283d49e0f51f8e868691b9a9
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50572623"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771736"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Administrador de suporte para Área de Trabalho Gerenciada da Microsoft
 
-Você pode enviar tíquetes de suporte ou solicitações de comentários para a Microsoft usando o Portal Administrativo da Área de Trabalho Gerenciado da Microsoft. As solicitações de suporte são sempre priorizadas em relação aos envios de feedback. As solicitações de suporte são triaged e gerenciadas de acordo com a gravidade, conforme descrito na tabela [de definição de gravidade.](#sev) Comentários são revisados e uma resposta fornecida quando solicitado. 
+Você pode enviar tíquetes de suporte ou solicitações de comentários para a Microsoft usando o Área de Trabalho Gerenciada da Microsoft Portal Administrativo. As solicitações de suporte são sempre priorizadas em relação aos envios de feedback. As solicitações de suporte são triaged e gerenciadas de acordo com a gravidade, conforme descrito na tabela [de definição de gravidade.](#sev) Comentários são revisados e uma resposta fornecida quando solicitado. 
 
 >[!IMPORTANT]
 >Certifique-se de [configurar um contato administrador para](../get-started/add-admin-contacts.md) empacotamento de aplicativos, dispositivos, segurança e outros. Você não poderá enviar uma solicitação de suporte em qualquer uma dessas áreas se um contato de administrador não estiver configurado.
 
 **Para enviar uma solicitação de suporte**
-1. Entre no [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) e navegue até o menu Solução de Problemas + **suporte.**
+1. Entre no [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) e navegue até o menu **de administração de** locatários.
 2. Procure a seção Área de Trabalho Gerenciada da Microsoft, selecione **Solicitação de serviço**.
 3. Em **Solicitações de Suporte,** selecione **+ Novo tíquete de Suporte.**
 4. Selecione o **tipo de solicitação de** suporte que corresponde à ajuda de que você precisa. A tabela abaixo descreve as opções. 
@@ -32,15 +32,15 @@ Você pode enviar tíquetes de suporte ou solicitações de comentários para a 
 
 Tipo de solicitação de suporte | Quando usar
 --- | ---
-Incidente | Você exige que a Equipe de Operações de Área de Trabalho Gerenciada da Microsoft investigue, como o impacto generalizado de uma alteração ou uma paralisação de serviço.
-Solicitar informações | Você está planejando uma alteração para rede, configuração de proxy, sistemas VPN, expiração de certificado ou apenas precisa de algumas informações sobre o serviço. Uma resposta da Equipe de Operações de Área de Trabalho Gerenciada da Microsoft é aconselhada ao comunicar uma alteração em sua organização.
-Solicitação de alteração | Você exige que a Equipe de Operações de Área de Trabalho Gerenciada da Microsoft faça uma alteração, como mover dispositivos entre grupos de atualização.
+Incidente | Você exige que a equipe Área de Trabalho Gerenciada da Microsoft operações investigue, como o impacto generalizado de uma alteração ou uma paralisação do serviço.
+Solicitar informações | Você está planejando uma alteração para rede, configuração de proxy, sistemas VPN, expiração de certificado ou apenas precisa de algumas informações sobre o serviço. Uma resposta da equipe de Área de Trabalho Gerenciada da Microsoft operações é aconselhada ao comunicar uma alteração em sua organização.
+Solicitação de alteração | Você exige que a Área de Trabalho Gerenciada da Microsoft de Operações faça uma alteração, como mover dispositivos entre grupos de atualização.
 
 <span id="sev" />
 
 ## <a name="support-request-severity-definitions"></a>Suporte a definições de gravidade da solicitação
 
-O tempo inicial de resposta é o período de quando você envia sua solicitação de suporte para quando um engenheiro da Área de Trabalho Gerenciada da Microsoft entra em contato com você e começa a trabalhar em sua solicitação de suporte. O tempo de resposta inicial varia com o impacto comercial da solicitação, com base na gravidade da solicitação.
+O tempo inicial de resposta é o período de quando você envia sua solicitação de suporte para quando um engenheiro Área de Trabalho Gerenciada da Microsoft entra em contato com você e começa a trabalhar em sua solicitação de suporte. O tempo de resposta inicial varia com o impacto comercial da solicitação, com base na gravidade da solicitação.
 
 Nível de severidade  | Situação do cliente |  Tempo de resposta inicial   | Resposta esperada do cliente
 --- | --- | --- | ---
@@ -52,7 +52,7 @@ Mais detalhes:
 - **Idiomas de suporte** - Todo o suporte é fornecido em inglês.
 - **Alterações no** nível de gravidade – a Microsoft pode rebaixar o nível de gravidade se o cliente não conseguir fornecer recursos ou respostas adequados para permitir que a Microsoft continue com os esforços de resolução de problemas. 
 - **Horário comercial** - Para a maioria dos países, o horário comercial é das 9:00 às 17:00, horário padrão do Pacífico.
-- **Compatibilidade** de aplicativos - Para que um problema de compatibilidade de aplicativo seja considerado, deve haver um erro reprodutível, da mesma versão do aplicativo, entre a versão anterior e atual do Windows ou do Office. Para resolver problemas de compatibilidade de aplicativos, a Microsoft requer um ponto de contato do cliente para trabalhar. O indivíduo deve trabalhar diretamente com nossa equipe do Fast Track para investigar e resolver o problema.
+- **Compatibilidade** de aplicativos - Para que um problema de compatibilidade de aplicativo seja considerado, deve haver um erro reprodutível, da mesma versão do aplicativo, entre a versão anterior e atual do Windows ou Office. Para resolver problemas de compatibilidade de aplicativos, a Microsoft requer um ponto de contato do cliente para trabalhar. O indivíduo deve trabalhar diretamente com nossa equipe do Fast Track para investigar e resolver o problema.
 - **Tempo de resposta do cliente** Se um cliente não conseguir atender aos requisitos de resposta esperados, a Microsoft rebaixará a solicitação por um nível de gravidade, para um mínimo de Severidade C. Se um cliente não responder às solicitações de ação, a Microsoft reduzirá e fechará a solicitação de suporte dentro de 48 horas após a última solicitação.
 
 ## <a name="provide-feedback"></a>Faça comentários
@@ -66,6 +66,6 @@ Depois que um tíquete está no estado **Mitigado** ou **Resolvido,** você pode
 
 
 ## <a name="more-resources"></a>Mais recursos
-- [Suporte do usuário para Área de Trabalho Gerenciada da Microsoft.](end-user-support.md) 
-- [Suporte para Área de Trabalho Gerenciada da Microsoft.](../service-description/support.md) 
-- Se você já se inscrever na Área de Trabalho Gerenciada da Microsoft, poderá encontrar procedimentos detalhados, fluxos de processo, instruções de trabalho e perguntas frequentes no Guia de Administração da Área de Trabalho Gerenciada da Microsoft na página Recursos **Online** na seção Área de Trabalho Gerenciada da **Microsoft** do **menu** administração de locatários no [Microsoft Endpoint Manager](https://endpoint.microsoft.com/).
+- [Suporte do usuário para Área de Trabalho Gerenciada da Microsoft](end-user-support.md). 
+- [Suporte para Área de Trabalho Gerenciada da Microsoft](../service-description/support.md). 
+- Se você já se inscreve no Área de Trabalho Gerenciada da Microsoft, poderá encontrar procedimentos detalhados, fluxos de processo, instruções de trabalho e perguntas frequentes no Guia de Administração do Área de Trabalho Gerenciada da Microsoft na página Recursos **Online** na seção **Área de Trabalho Gerenciada da Microsoft** do **menu** administração de locatários em [Microsoft Endpoint Manager](https://endpoint.microsoft.com/).

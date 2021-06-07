@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: bfce003f586c5bfa32d65c834bb244ac13f6cf31
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: e9dd7e7d87e9343b0aae93e7ba47d89f9ed4bf41
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935084"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769000"
 ---
 # <a name="list-vulnerabilities"></a>Listar vulnerabilidades
 
@@ -46,7 +47,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   Vulnerability.Read.All |    'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades'
-Delegada (conta corporativa ou de estudante) | Vulnerability.Read |   'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades'
+Delegado (conta corporativa ou de estudante) | Vulnerability.Read |   'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades'
 
 ## <a name="http-request"></a>Solicitação HTTP
 ```

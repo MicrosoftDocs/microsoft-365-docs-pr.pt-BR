@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 149f3aefd963f15eafa15030a322ec588c0615ed
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 7195e91a3a9b7aef6977c925f2c8689d3e461815
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186769"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771568"
 ---
 # <a name="restrict-app-execution-api"></a>Restringir a API de execução de aplicativos
 
@@ -55,7 +56,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   Machine.RestrictExecution | 'Restringir a execução de código'
-Delegada (conta corporativa ou de estudante) | Machine.RestrictExecution | 'Restringir a execução de código'
+Delegado (conta corporativa ou de estudante) | Machine.RestrictExecution | 'Restringir a execução de código'
 
 >[!Note]
 > Ao obter um token usando credenciais de usuário:

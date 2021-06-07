@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Siga estas etapas para excluir a conta de usuário de um ex-funcionário.
-ms.openlocfilehash: 5ca428079091c4af44ef1efa9be3d7340e254995
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 735821c9c4d6edf3d23fa3535ed9fa6b3d294b8c
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535933"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782376"
 ---
 # <a name="step-7---delete-a-former-employees-user-account"></a>Etapa 7 - Excluir a conta de usuário de um ex-funcionário
 
@@ -56,7 +56,7 @@ Se sua organização sincroniza contas de usuário Microsoft 365 de um ambiente 
 
 Para saber como excluir e restaurar a conta de usuário no Active Directory, consulte [Delete a User Account](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11)).
   
-Se você estiver usando Azure Active Directory, consulte o cmdlet [Remove-MsolUser](https://go.microsoft.com/fwlink/?linkid=842230) PowerShell.
+Se você estiver usando Azure Active Directory, consulte o cmdlet [Remove-MsolUser](/powershell/module/msonline/remove-msoluser) PowerShell.
   
 ## <a name="what-you-need-to-know-about-terminating-an-employees-email-session"></a>O que você precisa saber sobre o encerramento da sessão de email de um funcionário
 
@@ -84,8 +84,6 @@ As operações acima podem ser feitas em três locais:
   
  **O mais rápido para um usuário com presença local e no Datacenter do Exchange**: Encerre a sessão usando o centro de administração do Azure Active Directory/centro de administração do Exchange e altere TAMBÉM no ambiente local. Caso contrário, a alteração no centro de administração do Azure Active Directory/centro de administração do Exchange será substituída pelo DirSync.
   
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Restaurar um usuário](restore-user.md)
-
-[Redefinir senhas](reset-passwords.md)
+[Restaurar um usuário](restore-user.md) (artigo)/ [Redefinir senhas](reset-passwords.md) (artigo)

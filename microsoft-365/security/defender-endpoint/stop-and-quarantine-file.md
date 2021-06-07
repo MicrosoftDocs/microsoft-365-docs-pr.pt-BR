@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 670282f0f87092437bb1f3c6bf7be908e4649042
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: ac14f1ecda2b6256dc19223869b8878e6e725b96
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199724"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771390"
 ---
 # <a name="stop-and-quarantine-file-api"></a>API de arquivo de parada e quarentena
 
@@ -51,7 +52,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   Machine.StopAndQuarantine | 'Parar e Quarentena'
-Delegada (conta corporativa ou de estudante) | Machine.StopAndQuarantine | 'Parar e Quarentena'
+Delegado (conta corporativa ou de estudante) | Machine.StopAndQuarantine | 'Parar e Quarentena'
 
 >[!Note]
 > Ao obter um token usando credenciais de usuário:

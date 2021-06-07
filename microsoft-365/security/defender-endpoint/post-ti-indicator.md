@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 42bab0a9d20d5e1ef78b98b3538cef209240d890
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: ce0dc0ce255e9717082687bd1f8bf5941739261d
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187036"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771700"
 ---
 # <a name="submit-or-update-indicator-api"></a>Api de Indicador de Envio ou Atualização
 
@@ -53,7 +54,7 @@ Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   Ti.ReadWrite |  'Indicadores de leitura e gravação'
 Aplicativo |   Ti.ReadWrite.All |  'Ler e gravar Todos os Indicadores'
-Delegada (conta corporativa ou de estudante) |    Ti.ReadWrite |  'Indicadores de leitura e gravação'
+Delegado (conta corporativa ou de estudante) |    Ti.ReadWrite |  'Indicadores de leitura e gravação'
 
 
 ## <a name="http-request"></a>Solicitação HTTP
@@ -78,7 +79,7 @@ indicatorType | Enum | Tipo do indicador. Os valores possíveis são: "FileSha1"
 ação | Enum | A ação que será tomada se o indicador for descoberto na organização. Os valores possíveis são: "Alert", "AlertAndBlock" e "Allowed". **Required**
 aplicação | Cadeia de caracteres | O aplicativo associado ao indicador. **Opcional**
 title | Cadeia de caracteres | Título de alerta de indicador. **Required**
-descrição | Cadeia de caracteres | Descrição do indicador. **Required**
+description | Cadeia de caracteres | Descrição do indicador. **Required**
 expirationTime | DateTimeOffset | O tempo de expiração do indicador. **Opcional**
 severity | Enum | A gravidade do indicador. os valores possíveis são: "Informacional", "Baixo", "Médio" e "Alto". **Opcional**
 recommendedActions | Cadeia de caracteres | Ações recomendadas do alerta de ti. **Opcional**

@@ -1,7 +1,7 @@
 ---
 title: Usar o Microsoft Defender para APIs de Ponto de Extremidade
 ms.reviewer: ''
-description: Saiba como projetar um aplicativo nativo do Windows para obter acesso programático ao Microsoft Defender para Ponto de Extremidade sem um usuário.
+description: Saiba como projetar um aplicativo Windows nativo para obter acesso programático ao Microsoft Defender para Ponto de Extremidade sem um usuário.
 keywords: apis, api gráfica, apis com suporte, ator, alertas, dispositivo, usuário, domínio, ip, arquivo, busca avançada, consulta
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -15,13 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 5e59ff75a7933cf52af857f1a41b0925aa7bb47a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 8f23a0b269986f4caa199ad3744c563fcc6ff6b2
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198872"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769096"
 ---
 # <a name="use-microsoft-defender-for-endpoint-apis"></a>Usar o Microsoft Defender para APIs de Ponto de Extremidade
 
@@ -63,9 +64,9 @@ Esta página explica como criar um aplicativo AAD, obter um token de acesso ao M
 
 1. Faça logoff no [Azure](https://portal.azure.com) com uma conta de usuário que tenha a **função Administrador Global.**
 
-2. Navegue **até registros do Aplicativo do Azure Active Directory** Novo  >    >  **registro**. 
+2. Navegue **até Azure Active Directory** registros do  >  **aplicativo** Novo  >  **registro**. 
 
-   ![Imagem do Microsoft Azure e navegação para registro de aplicativo](images/atp-azure-new-app2.png)
+   ![Imagem de Microsoft Azure e navegação para registro de aplicativos](images/atp-azure-new-app2.png)
 
 3. Quando a página **Registrar um aplicativo** for exibida, insira as informações de registro do aplicativo:
 

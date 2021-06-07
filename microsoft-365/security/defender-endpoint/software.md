@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 9bfec2c4e65a390189556c14347eaf17236fb95e
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 14291cbbba2272d268a8e79b6df7bd87992885db
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187022"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771388"
 ---
 # <a name="software-resource-type"></a>Tipo de recurso de software
 
@@ -47,8 +48,8 @@ Método |Tipo de retorno |Descrição
 :---|:---|:---
 [Listar software](get-software.md) | Coleção Software | Listar o inventário de software organizacional.
 [Obter software por ID](get-software-by-id.md) | Software | Obter um software específico por sua ID de software.
-[Listar distribuição de versão de software](get-software-ver-distribution.md)| Coleção Distribution | Listar distribuição de versão de software por ID de software.
-[Listar máquinas por software](get-machines-by-software.md)| Coleção MachineRef | Recupere uma lista de dispositivos associados à ID de software.
+[Listar distribuição das versões do software](get-software-ver-distribution.md)| Coleção Distribution | Listar distribuição de versão de software por ID de software.
+[Listar computadores por software](get-machines-by-software.md)| Coleção MachineRef | Recupere uma lista de dispositivos associados à ID de software.
 [Listar vulnerabilidades por software](get-vuln-by-software.md) | [Coleção Vulnerability](vulnerability.md) | Recupere uma lista de vulnerabilidades associadas à ID do software.
 [Obter KBs ausentes](get-missing-kbs-software.md) | Coleção KB | Obter uma lista de KBs ausentes associados à ID de software
 
@@ -60,7 +61,7 @@ id | Cadeia de caracteres | Software ID
 Nome | Cadeia de caracteres | Nome do software
 Fornecedor | Cadeia de caracteres | Nome do fornecedor de software
 Pontos fracos | Longo | Número de vulnerabilidades descobertas
-publicExploit | Booleano | A exploração pública existe para algumas das vulnerabilidades
-activeAlert | Booleano | Alerta ativo está associado a este software
+publicExploit | Booliano | A exploração pública existe para algumas das vulnerabilidades
+activeAlert | Booliano | Alerta ativo está associado a este software
 exposedMachines | Longo | Número de dispositivos expostos
 impactScore | Duplo | Impacto da pontuação de exposição deste software

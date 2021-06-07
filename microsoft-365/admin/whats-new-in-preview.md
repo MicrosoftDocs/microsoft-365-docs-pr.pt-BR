@@ -21,12 +21,12 @@ description: O Microsoft 365 de administração - saiba mais sobre os recursos q
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 964689c431b45671a92dda62ccf8a083291213a3
-ms.sourcegitcommit: ddf6c25d1ed6387d07614f7042e033bad7f406f9
+ms.openlocfilehash: 654f8de8d931f26efbcba5b60d730a9d9e477e65
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52639531"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769061"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Novidades no centro de Microsoft 365 de administração
 
@@ -56,17 +56,17 @@ E se você quiser saber o que há de novo com outros serviços de nuvem da Micro
 
 ### <a name="keep-track-of-support-ticket-updates-using-the-admin-mobile-app"></a>Acompanhar as atualizações de tíquetes de suporte usando o aplicativo móvel administrador
 
-Para todas as solicitações de serviço criadas em seu locatário, agora você pode acompanhar o status do tíquete, exibir detalhes do tíquete e fornecer /solicitar informações adicionais & anexos. 
+Para todas as solicitações de serviço criadas em seu locatário, agora você pode acompanhar o status do tíquete, exibir detalhes do tíquete e fornecer /solicitar informações adicionais & anexos.
 
-:::image type="content" source="../media/whats-new-track-support-tickets.png" alt-text="Captura de tela: rastrear atualizações de tíquetes de suporte":::
+:::image type="content" source="../media/Keep-track-support-ticket-updates2.PNG" alt-text="Captura de tela: rastrear atualizações de tíquetes de suporte":::
 
-### <a name="stay-on-top-of-all-the-major-updates-to-the-app-and-your-microsoft-365-subscription"></a>Fique por dentro de todas as principais atualizações para o aplicativo e sua assinatura Microsoft 365 usuário 
+### <a name="stay-on-top-of-all-the-major-updates-to-the-app-and-your-microsoft-365-subscription"></a>Fique por dentro de todas as principais atualizações para o aplicativo e sua assinatura Microsoft 365 usuário
 
-- Fique por dentro de todas as principais atualizações para sua assinatura Microsoft 365 por meio de notificações por push da Central de Mensagens (agora habilitadas por padrão). 
+- Fique por dentro de todas as principais atualizações para sua assinatura Microsoft 365 por meio de notificações por push da Central de Mensagens (agora habilitadas por padrão).
 
 - Acompanhe os recursos mais recentes disponíveis no aplicativo usando a **seção Novidades.** Vá para **Configurações**  >  **Novidades?**
 
-:::image type="content" source="../media/whats-new-updates.png" alt-text="Captura de tela: acompanhar as principais atualizações e recursos":::
+:::image type="content" source="../media/Stay-on-top-of-updates.PNG" alt-text="Captura de tela: acompanhar as principais atualizações e recursos":::
 
 ## <a name="april-2021"></a>Abril de 2021
 

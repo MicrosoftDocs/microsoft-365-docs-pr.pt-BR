@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 94be185bd30cd36f456a66d5ae30a4361abc0c48
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 043d423e1016d77cad4a175aa41718329f464252
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688244"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52768916"
 ---
 # <a name="update-alert"></a>Atualizar alerta
 
@@ -70,7 +71,7 @@ PATCH /api/alerts/{id}
 
 Nome | Tipo | Descrição
 :---|:---|:---
-Autorização | String | Portador {token}. **Obrigatório**.
+Autorização | Cadeia de caracteres | Portador {token}. **Obrigatório**.
 Content-Type | Cadeia de Caracteres | application/json. **Obrigatório**.
 
 
@@ -81,10 +82,10 @@ No corpo da solicitação, fornece os valores dos campos relevantes que devem se
 
 Propriedade | Tipo | Descrição
 :---|:---|:---
-status | String | Especifica o status atual do alerta. Os valores da propriedade são: 'New', 'InProgress' e 'Resolved'.
-assignedTo | String | Proprietário do alerta
+status | Cadeia de caracteres | Especifica o status atual do alerta. Os valores da propriedade são: 'New', 'InProgress' e 'Resolved'.
+assignedTo | Cadeia de caracteres | Proprietário do alerta
 classificação | String | Especifica a especificação do alerta. Os valores da propriedade são: 'Unknown', 'FalsePositive', 'TruePositive'. 
-determinação | String | Especifica a determinação do alerta. Os valores da propriedade são: 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'
+determinação | Cadeia de caracteres | Especifica a determinação do alerta. Os valores da propriedade são: 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'
 comment | String | Comentário a ser adicionado ao alerta.
 
 ## <a name="response"></a>Resposta

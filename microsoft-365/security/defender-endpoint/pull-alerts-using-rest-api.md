@@ -16,12 +16,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 06028f64a3340aeeef52269bc8a1e739d18e6db7
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.custom: api
+ms.openlocfilehash: 6716b0eb029b49ec08cb52ebefc23e50b19036ca
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903113"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771664"
 ---
 # <a name="pull-microsoft-defender-for-endpoint-detections-using-siem-rest-api"></a>Puxar o Microsoft Defender para detecções de ponto de extremidade usando a API REST SIEM
 
@@ -52,7 +53,7 @@ Em geral, o protocolo OAuth 2.0 oferece suporte a quatro tipos de fluxos:
 
 Para obter mais informações sobre as especificações do OAuth, consulte o [site OAuth](http://www.oauth.net).
 
-O Microsoft Defender for  Endpoint  dá suporte ao fluxo de concessão de autorização e ao fluxo de credenciais do cliente para obter acesso a detecções de pull, com o Azure Active Directory (AAD) como servidor de autorização.
+O Microsoft Defender for  Endpoint  oferece suporte ao fluxo de concessão de autorização e ao fluxo de credenciais do cliente para obter acesso a detecções de pull, com Azure Active Directory (AAD) como o servidor de autorização.
 
 O _fluxo de concessão de_ autorização usa credenciais de usuário para obter um código de autorização, que é usado para obter um token de acesso.
 
@@ -61,10 +62,10 @@ O _fluxo de credenciais do cliente_ usa credenciais de cliente para autenticar n
 Use o método a seguir na API do Microsoft Defender para Ponto de Extremidade para puxar detecções no formato JSON.
 
 >[!NOTE]
->O Centro de Segurança do Microsoft Defender mescla detecções de alerta semelhantes em um único alerta. Essa API puxa detecções de alerta em sua forma bruta com base nos parâmetros de consulta que você definiu, permitindo que você aplique seu próprio grupo e filtragem. 
+>Central de Segurança do Microsoft Defender mescla detecções de alerta semelhantes em um único alerta. Essa API puxa detecções de alerta em sua forma bruta com base nos parâmetros de consulta que você definiu, permitindo que você aplique seu próprio grupo e filtragem. 
 
-## <a name="before-you-begin"></a>Antes de começar
-- Antes de chamar o ponto de extremidade do Microsoft Defender para Endpoint para detectar, você precisará habilitar o aplicativo de integração SIEM no Azure Active Directory (AAD). Para obter mais informações, consulte [Enable SIEM integration in Microsoft Defender for Endpoint](enable-siem-integration.md).
+## <a name="before-you-begin"></a>Antes de você começar
+- Antes de chamar o ponto de extremidade do Microsoft Defender para Endpoint para detectar, você precisará habilitar o aplicativo de integração siem no Azure Active Directory (AAD). Para obter mais informações, consulte [Enable SIEM integration in Microsoft Defender for Endpoint](enable-siem-integration.md).
 
 - Anote os valores a seguir no registro do seu aplicativo Azure. Você precisa desses valores para configurar o fluxo OAuth em seu aplicativo de serviço ou daemon:
   - ID do aplicativo (exclusiva para o seu aplicativo)
@@ -106,7 +107,7 @@ Agora você pode usar o valor no *campo* access_token em uma solicitação à AP
 Com um token de acesso, seu aplicativo pode fazer solicitações autenticadas para a API do Microsoft Defender para Ponto de Extremidade. Seu aplicativo deve anexar o token de acesso ao cabeçalho Authorization de cada solicitação.
 
 ### <a name="request-syntax"></a>Sintaxe de solicitação
-Method | Solicitar URI
+Método | Solicitar URI
 :---|:---|
 GET| Use o URI aplicável à sua região. <br><br> **Para a UE**: `https://wdatp-alertexporter-eu.windows.com/api/alerts` </br> **Para NÓS**: `https://wdatp-alertexporter-us.windows.com/api/alerts` <br> **Para o Reino Unido**: `https://wdatp-alertexporter-uk.windows.com/api/alerts` 
 
@@ -127,7 +128,7 @@ ago | cadeia de caracteres | Puxa alertas no seguinte intervalo de tempo: de `(c
 limite | int | Define o número de alertas a serem recuperados. Os alertas mais recentes serão recuperados com base no número definido.<br><br> **OBSERVAÇÃO**: Quando não especificado, todos os alertas disponíveis no intervalo de tempo serão recuperados.
 machinegroups | cadeia de caracteres | Especifica grupos de dispositivos para puxar alertas. <br><br> **OBSERVAÇÃO**: Quando não especificado, os alertas de todos os grupos de dispositivos serão recuperados. <br><br> Exemplo: <br><br> ```https://wdatp-alertexporter-eu.securitycenter.windows.com/api/alerts/?machinegroups=UKMachines&machinegroups=FranceMachines```
 DeviceCreatedMachineTags | cadeia de caracteres | Marca de dispositivo único do Registro.
-CloudCreatedMachineTags | cadeia de caracteres | Marcas de dispositivo que foram criadas no Centro de Segurança do Microsoft Defender.
+CloudCreatedMachineTags | cadeia de caracteres | Marcas de dispositivo que foram criadas Central de Segurança do Microsoft Defender.
 
 ### <a name="request-example"></a>Exemplo de solicitação
 O exemplo a seguir demonstra como recuperar todas as detecções em sua organização.

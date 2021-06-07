@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Determine se o locatário e os usuários atendem aos requisitos, para que você possa usar a Implantação Centralizada para implantar Office de complementos.
-ms.openlocfilehash: 25fe217a41274b6a239e4ee482ee105238465999
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 63775ed6bab2d595ae87085e1607be5818b355e2
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635445"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782481"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Determinar se a Implantação Centralizada de complementos funciona para sua organização
 
@@ -84,7 +84,7 @@ Fale com o administrador do Exchange da sua organização para saber qual config
 
 ### <a name="centralized-deployment-compatibility-checker"></a>Verificação de Compatibilidade de Implantação Centralizada
 
-Usando o Verificador de Compatibilidade de Implantação Centralizada, você pode verificar se os usuários em seu locatário estão definidos para usar a Implantação Centralizada para Word, Excel e PowerPoint. O Verificador de Compatibilidade não é necessário para o suporte do Outlook. Baixe o verificador de compatibilidade [aqui](https://aka.ms/officeaddindeploymentorgcompatibilitychecker).
+Usando o Verificador de Compatibilidade de Implantação Centralizada, você pode verificar se os usuários em seu locatário estão definidos para usar a Implantação Centralizada para Word, Excel e PowerPoint. O Verificador de Compatibilidade não é necessário para o suporte do Outlook. Baixe o [checker de compatibilidade](https://aka.ms/officeaddindeploymentorgcompatibilitychecker).
   
 #### <a name="run-the-compatibility-checker"></a>Executar o checker de compatibilidade
   
@@ -121,7 +121,7 @@ Quando a ferramenta conclui a execução, ela gera um arquivo de saída no forma
 - Caixa de correio com suporte - Se ele usa uma caixa de correio habilitada para OAuth
 
 > [!NOTE]
-> A autenticação multifator não é suportada ao usar o módulo PowerShell de Implantação Central.
+> A autenticação multifator não é suportada ao usar o módulo PowerShell de Implantação Central. O módulo só funciona com autenticação básica.
   
 ## <a name="user-and-group-assignments"></a>Atribuições de usuário e grupo
 
@@ -155,7 +155,7 @@ Se você ou seus usuários encontrarem problemas para carregar o add-in enquanto
   
 |**Plataforma**|**Informações de depuração**|
 |:-----|:-----|
-|Office  <br/> | Registros de Charles/Fiddler  <br/>  ID do locatário ( [saiba como](/onedrive/find-your-office-365-tenant-id.md))  <br/>  CorrelationID. Exibir a origem de uma das páginas do office e procurar o valor da ID de correlação e enviá-la para dar suporte a:  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
+|Office  <br/> | Registros de Charles/Fiddler  <br/>  ID do locatário ( [saiba como](/onedrive/find-your-office-365-tenant-id))  <br/>  CorrelationID. Exibir a origem de uma das páginas do office e procurar o valor da ID de correlação e enviá-la para dar suporte a:  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
 |Clientes avançados (Windows, Mac)  <br/> | Registros de Charles/Fiddler  <br/>  Criar números do aplicativo cliente (preferencialmente como uma captura de tela de **Arquivo/Conta**)  <br/> |
 
 ## <a name="related-content"></a>Conteúdo relacionado

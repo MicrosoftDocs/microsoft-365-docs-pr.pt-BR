@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 229c1f9e77a0cb85744155e82934b48dd63052b2
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 3aa58f3df4a4c3562cbd4dfbf6113c30816e2a0f
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933404"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769192"
 ---
 # <a name="list-vulnerabilities-by-machine-and-software"></a>Listar vulnerabilidades por computador e software
 
@@ -43,7 +44,7 @@ Recupera uma lista de todas as vulnerabilidades que afetam a organização por [
 - O OData ```$filter``` é suportado em todas as propriedades.
 
 >[!Tip]
->Esta é uma ótima API para [integração do Power BI.](api-power-bi.md)
+>Esta é uma ótima API para [Power BI integração.](api-power-bi.md)
 
 ## <a name="permissions"></a>Permissões
 Uma das seguintes permissões é necessária para chamar essa API. Para saber mais, incluindo como escolher permissões, consulte [Use Microsoft Defender for Endpoint APIs](apis-intro.md) para obter detalhes.
@@ -51,7 +52,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   Vulnerability.Read.All |    'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades'
-Delegada (conta corporativa ou de estudante) | Vulnerability.Read |   'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades'
+Delegado (conta corporativa ou de estudante) | Vulnerability.Read |   'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades'
 
 ## <a name="http-request"></a>Solicitação HTTP
 ```
@@ -119,5 +120,5 @@ Veja a seguir um exemplo da resposta.
 
 ## <a name="see-also"></a>Confira também
 
-- [Gerenciamento de ameaças e vulnerabilidades baseadas em risco](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [Dados baseados em Gerenciamento de Ameaças e Vulnerabilidades](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
 - [Vulnerabilidades em sua organização](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-weaknesses)

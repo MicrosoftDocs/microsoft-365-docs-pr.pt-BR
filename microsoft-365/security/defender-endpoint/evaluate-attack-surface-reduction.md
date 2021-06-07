@@ -9,17 +9,17 @@ ms.sitesec: library
 ms.topic: article
 localization_priority: Normal
 audience: ITPro
-author: dansimp
-ms.author: dansimp
-ms.reviewer: dansimp
+author: denisebmsft
+ms.author: deniseb
+ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 73b23427ff401f2a37c399131d6aa01330ff9de5
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: c2dea22cc8a0ebb875f83ebd5a3e42f723e5f254
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245295"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771316"
 ---
 # <a name="evaluate-attack-surface-reduction-rules"></a>Avaliar as regras da redução da superfície de ataque
 
@@ -37,10 +37,10 @@ As regras de redução de superfície de ataque ajudam a evitar ações normalme
 
 Definir regras de redução de superfície de ataque para dispositivos que executam qualquer uma das seguintes edições e versões de Windows:
 
-- Windows 10 Pro, versão [1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) ou posterior
-- Windows 10 Enterprise, versão [1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) ou posterior
-- Windows Servidor, [versão 1803 (Canal Semesanuais)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) ou posterior
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- Windows 10 Pro, versão [1709](/windows/whats-new/whats-new-windows-10-version-1709) ou posterior
+- Windows 10 Enterprise, versão [1709](/windows/whats-new/whats-new-windows-10-version-1709) ou posterior
+- Windows Servidor, [versão 1803 (Canal Semesanuais)](/windows-server/get-started/whats-new-in-windows-server-1803) ou posterior
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
 Saiba como avaliar as regras de redução de superfície de ataque habilitando o modo de auditoria para testar o recurso diretamente em sua organização.
 
