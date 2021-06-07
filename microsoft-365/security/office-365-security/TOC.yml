@@ -66,6 +66,8 @@
           href: protect-against-threats.md
         - name: Integrar o defender para Office 365 com o Defender para Ponto de Extremidade
           href: integrate-office-365-ti-with-mde.md
+        - name: Permissões no Centro de segurança do Microsoft 365
+          href: permissions-microsoft-365-security-center.md
         - name: Permissões no Centro de Conformidade e Segurança
           href: permissions-in-the-security-and-compliance-center.md
         - name: Integração com o servidor SIEM

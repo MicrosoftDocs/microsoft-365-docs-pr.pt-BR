@@ -14,24 +14,25 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 1c287a72318cfb2e6e4e3860ac90a90e561040fe
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 89012dce4aa5b74d09f071b23f7709b4bd0bf03c
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500950"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771424"
 ---
-# <a name="score-resource-type"></a><span data-ttu-id="f0964-104">Tipo de recurso score</span><span class="sxs-lookup"><span data-stu-id="f0964-104">Score resource type</span></span>
+# <a name="score-resource-type"></a><span data-ttu-id="d80c8-104">Tipo de recurso score</span><span class="sxs-lookup"><span data-stu-id="d80c8-104">Score resource type</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="f0964-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="f0964-105">**Applies to:**</span></span>
-- [<span data-ttu-id="f0964-106">Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="f0964-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [<span data-ttu-id="f0964-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="f0964-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="d80c8-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="d80c8-105">**Applies to:**</span></span>
+- [<span data-ttu-id="d80c8-106">Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="d80c8-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [<span data-ttu-id="d80c8-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="d80c8-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="f0964-108">Deseja experimentar o Microsoft Defender para Ponto de Extremidade?</span><span class="sxs-lookup"><span data-stu-id="f0964-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="f0964-109">Inscreva-se para uma avaliação gratuita.</span><span class="sxs-lookup"><span data-stu-id="f0964-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> <span data-ttu-id="d80c8-108">Deseja experimentar o Microsoft Defender para Ponto de Extremidade?</span><span class="sxs-lookup"><span data-stu-id="d80c8-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="d80c8-109">Inscreva-se para uma avaliação gratuita.</span><span class="sxs-lookup"><span data-stu-id="d80c8-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -40,18 +41,18 @@ ms.locfileid: "51500950"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-## <a name="methods"></a><span data-ttu-id="f0964-110">Métodos</span><span class="sxs-lookup"><span data-stu-id="f0964-110">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="d80c8-110">Métodos</span><span class="sxs-lookup"><span data-stu-id="d80c8-110">Methods</span></span>
 
-<span data-ttu-id="f0964-111">Método</span><span class="sxs-lookup"><span data-stu-id="f0964-111">Method</span></span> |<span data-ttu-id="f0964-112">Tipo de retorno</span><span class="sxs-lookup"><span data-stu-id="f0964-112">Return Type</span></span> |<span data-ttu-id="f0964-113">Descrição</span><span class="sxs-lookup"><span data-stu-id="f0964-113">Description</span></span>
+<span data-ttu-id="d80c8-111">Método</span><span class="sxs-lookup"><span data-stu-id="d80c8-111">Method</span></span> |<span data-ttu-id="d80c8-112">Tipo de retorno</span><span class="sxs-lookup"><span data-stu-id="d80c8-112">Return Type</span></span> |<span data-ttu-id="d80c8-113">Descrição</span><span class="sxs-lookup"><span data-stu-id="d80c8-113">Description</span></span>
 :---|:---|:---
-[<span data-ttu-id="f0964-114">Obter pontuação de exposição</span><span class="sxs-lookup"><span data-stu-id="f0964-114">Get exposure score</span></span>](get-exposure-score.md) | [<span data-ttu-id="f0964-115">Pontuação</span><span class="sxs-lookup"><span data-stu-id="f0964-115">Score</span></span>](score.md) | <span data-ttu-id="f0964-116">Obter a pontuação de exposição organizacional.</span><span class="sxs-lookup"><span data-stu-id="f0964-116">Get the organizational exposure score.</span></span>
-[<span data-ttu-id="f0964-117">Obter pontuação segura do dispositivo</span><span class="sxs-lookup"><span data-stu-id="f0964-117">Get device secure score</span></span>](get-device-secure-score.md) | [<span data-ttu-id="f0964-118">Pontuação</span><span class="sxs-lookup"><span data-stu-id="f0964-118">Score</span></span>](score.md) | <span data-ttu-id="f0964-119">Obter a pontuação segura do dispositivo organizacional.</span><span class="sxs-lookup"><span data-stu-id="f0964-119">Get the organizational device secure score.</span></span>
-[<span data-ttu-id="f0964-120">Listar pontuação de exposição por grupo de dispositivos</span><span class="sxs-lookup"><span data-stu-id="f0964-120">List exposure score by device group</span></span>](get-machine-group-exposure-score.md)| [<span data-ttu-id="f0964-121">Pontuação</span><span class="sxs-lookup"><span data-stu-id="f0964-121">Score</span></span>](score.md) | <span data-ttu-id="f0964-122">Listar pontuações por grupo de dispositivos.</span><span class="sxs-lookup"><span data-stu-id="f0964-122">List scores by device group.</span></span>
+[<span data-ttu-id="d80c8-114">Obter pontuação de exposição</span><span class="sxs-lookup"><span data-stu-id="d80c8-114">Get exposure score</span></span>](get-exposure-score.md) | [<span data-ttu-id="d80c8-115">Pontuação</span><span class="sxs-lookup"><span data-stu-id="d80c8-115">Score</span></span>](score.md) | <span data-ttu-id="d80c8-116">Obter a pontuação de exposição organizacional.</span><span class="sxs-lookup"><span data-stu-id="d80c8-116">Get the organizational exposure score.</span></span>
+[<span data-ttu-id="d80c8-117">Obter pontuação segura do dispositivo</span><span class="sxs-lookup"><span data-stu-id="d80c8-117">Get device secure score</span></span>](get-device-secure-score.md) | [<span data-ttu-id="d80c8-118">Pontuação</span><span class="sxs-lookup"><span data-stu-id="d80c8-118">Score</span></span>](score.md) | <span data-ttu-id="d80c8-119">Obter a pontuação segura do dispositivo organizacional.</span><span class="sxs-lookup"><span data-stu-id="d80c8-119">Get the organizational device secure score.</span></span>
+[<span data-ttu-id="d80c8-120">Listar pontuação de exposição por grupo de dispositivos</span><span class="sxs-lookup"><span data-stu-id="d80c8-120">List exposure score by device group</span></span>](get-machine-group-exposure-score.md)| [<span data-ttu-id="d80c8-121">Pontuação</span><span class="sxs-lookup"><span data-stu-id="d80c8-121">Score</span></span>](score.md) | <span data-ttu-id="d80c8-122">Listar pontuações por grupo de dispositivos.</span><span class="sxs-lookup"><span data-stu-id="d80c8-122">List scores by device group.</span></span>
 
-## <a name="properties"></a><span data-ttu-id="f0964-123">Propriedades</span><span class="sxs-lookup"><span data-stu-id="f0964-123">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="d80c8-123">Propriedades</span><span class="sxs-lookup"><span data-stu-id="d80c8-123">Properties</span></span>
 
-<span data-ttu-id="f0964-124">Propriedade</span><span class="sxs-lookup"><span data-stu-id="f0964-124">Property</span></span> |  <span data-ttu-id="f0964-125">Tipo</span><span class="sxs-lookup"><span data-stu-id="f0964-125">Type</span></span>    |   <span data-ttu-id="f0964-126">Descrição</span><span class="sxs-lookup"><span data-stu-id="f0964-126">Description</span></span>
+<span data-ttu-id="d80c8-124">Propriedade</span><span class="sxs-lookup"><span data-stu-id="d80c8-124">Property</span></span> |  <span data-ttu-id="d80c8-125">Tipo</span><span class="sxs-lookup"><span data-stu-id="d80c8-125">Type</span></span>    |   <span data-ttu-id="d80c8-126">Descrição</span><span class="sxs-lookup"><span data-stu-id="d80c8-126">Description</span></span>
 :---|:---|:---
-<span data-ttu-id="f0964-127">Pontuação</span><span class="sxs-lookup"><span data-stu-id="f0964-127">Score</span></span> | <span data-ttu-id="f0964-128">Duplo</span><span class="sxs-lookup"><span data-stu-id="f0964-128">Double</span></span> | <span data-ttu-id="f0964-129">A pontuação atual.</span><span class="sxs-lookup"><span data-stu-id="f0964-129">The current score.</span></span>
-<span data-ttu-id="f0964-130">Time</span><span class="sxs-lookup"><span data-stu-id="f0964-130">Time</span></span> | <span data-ttu-id="f0964-131">DateTime</span><span class="sxs-lookup"><span data-stu-id="f0964-131">DateTime</span></span> | <span data-ttu-id="f0964-132">A data e a hora em que a chamada para essa API foi feita.</span><span class="sxs-lookup"><span data-stu-id="f0964-132">The date and time in which the call for this API was made.</span></span>
-<span data-ttu-id="f0964-133">RbacGroupName</span><span class="sxs-lookup"><span data-stu-id="f0964-133">RbacGroupName</span></span> | <span data-ttu-id="f0964-134">Cadeia de caracteres</span><span class="sxs-lookup"><span data-stu-id="f0964-134">String</span></span> | <span data-ttu-id="f0964-135">O nome do grupo de dispositivos.</span><span class="sxs-lookup"><span data-stu-id="f0964-135">The device group name.</span></span>
+<span data-ttu-id="d80c8-127">Pontuação</span><span class="sxs-lookup"><span data-stu-id="d80c8-127">Score</span></span> | <span data-ttu-id="d80c8-128">Duplo</span><span class="sxs-lookup"><span data-stu-id="d80c8-128">Double</span></span> | <span data-ttu-id="d80c8-129">A pontuação atual.</span><span class="sxs-lookup"><span data-stu-id="d80c8-129">The current score.</span></span>
+<span data-ttu-id="d80c8-130">Time</span><span class="sxs-lookup"><span data-stu-id="d80c8-130">Time</span></span> | <span data-ttu-id="d80c8-131">DateTime</span><span class="sxs-lookup"><span data-stu-id="d80c8-131">DateTime</span></span> | <span data-ttu-id="d80c8-132">A data e a hora em que a chamada para essa API foi feita.</span><span class="sxs-lookup"><span data-stu-id="d80c8-132">The date and time in which the call for this API was made.</span></span>
+<span data-ttu-id="d80c8-133">RbacGroupName</span><span class="sxs-lookup"><span data-stu-id="d80c8-133">RbacGroupName</span></span> | <span data-ttu-id="d80c8-134">Cadeia de caracteres</span><span class="sxs-lookup"><span data-stu-id="d80c8-134">String</span></span> | <span data-ttu-id="d80c8-135">O nome do grupo de dispositivos.</span><span class="sxs-lookup"><span data-stu-id="d80c8-135">The device group name.</span></span>
