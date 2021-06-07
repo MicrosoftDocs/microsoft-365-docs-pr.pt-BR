@@ -1,5 +1,5 @@
 ---
-title: Conexão do Microsoft Defender para APIs de Ponto de Extremidade com o Power BI
+title: Conexão de APIs de ponto de extremidade do Microsoft Defender para Power BI
 ms.reviewer: ''
 description: Crie um relatório do Power Business Intelligence (BI) em cima das APIs do Microsoft Defender para Ponto de Extremidade.
 keywords: apis, apis com suporte, Power BI, relatórios
@@ -15,15 +15,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 7c99267d75c89b3484d207cd763131e4bcc91527
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 5c76784d78837c324922ffc25539746a4921e426
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935036"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769698"
 ---
-# <a name="create-custom-reports-using-power-bi"></a>Criar relatórios personalizados usando o Power BI
+# <a name="create-custom-reports-using-power-bi"></a>Criar relatórios personalizados usando Power BI
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -38,13 +39,13 @@ ms.locfileid: "51935036"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-Nesta seção, você aprenderá a criar um relatório do Power BI em cima das APIs do Defender para Ponto de Extremidade.
+Nesta seção, você aprenderá a criar um relatório Power BI sobre as APIs do Defender para Ponto de Extremidade.
 
-O primeiro exemplo demonstra como conectar o Power BI à API de Busca Avançada e o segundo exemplo demonstra uma conexão com nossas APIs OData, como Ações do Computador ou Alertas.
+O primeiro exemplo demonstra como conectar o Power BI à API de Busca Avançada e o segundo exemplo demonstra uma conexão com nossas APIs OData, como Ações de Máquina ou Alertas.
 
-## <a name="connect-power-bi-to-advanced-hunting-api"></a>Conectar o Power BI à API de Busca Avançada
+## <a name="connect-power-bi-to-advanced-hunting-api"></a>Conexão Power BI api de busca avançada
 
-- Abrir o Microsoft Power BI
+- Abra o Microsoft Power BI
 
 - Clique **em Obter consulta em** branco de  >  **dados**
 
@@ -107,7 +108,7 @@ O primeiro exemplo demonstra como conectar o Power BI à API de Busca Avançada 
 
 - Insira suas credenciais e aguarde para entrar
 
-- Clique **em Conectar**
+- Clique **Conexão**
 
     ![Imagem de credenciais definidas2](images/power-bi-set-credentials-organizational-cont.png)
 
@@ -115,7 +116,7 @@ O primeiro exemplo demonstra como conectar o Power BI à API de Busca Avançada 
 
 - Você pode duplicar essa tabela, renomeá-la e editar a consulta De Busca Avançada dentro para obter todos os dados que você gostaria.
 
-## <a name="connect-power-bi-to-odata-apis"></a>Conectar o Power BI às APIs OData
+## <a name="connect-power-bi-to-odata-apis"></a>Conexão Power BI APIs OData
 
 - A única diferença do exemplo acima é a consulta dentro do editor. 
 
@@ -137,11 +138,11 @@ O primeiro exemplo demonstra como conectar o Power BI à API de Busca Avançada 
 - Você também pode usar consultas OData para filtros de consultas, consulte [Using OData Queries](exposed-apis-odata-samples.md)
 
 
-## <a name="power-bi-dashboard-samples-in-github"></a>Exemplos de painel do Power BI no GitHub
-Para obter mais informações, consulte os [modelos de relatório do Power BI.](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)
+## <a name="power-bi-dashboard-samples-in-github"></a>Power BI de painel no GitHub
+Para obter mais informações, consulte [os Power BI de relatório](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI).
 
 ## <a name="sample-reports"></a>Relatórios de exemplo
-Exibir os exemplos de relatório do Microsoft Defender for Endpoint Power BI. Para obter mais informações, consulte [Procurar exemplos de código](https://docs.microsoft.com/samples/browse/?products=mdatp).
+Exibir os exemplos de relatório do Microsoft Defender for Endpoint Power BI endpoint. Para obter mais informações, consulte [Procurar exemplos de código](https://docs.microsoft.com/samples/browse/?products=mdatp).
 
 
 ## <a name="related-topic"></a>Tópicos relacionados

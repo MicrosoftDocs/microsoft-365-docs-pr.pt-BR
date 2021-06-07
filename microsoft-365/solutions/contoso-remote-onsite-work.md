@@ -1,5 +1,5 @@
 ---
-title: Resposta e suporte do COVID-19 da Contoso para trabalho remoto e local
+title: Resposta e suporte do COVID-19 da Contoso para trabalho híbrido
 author: JoeDavies-MSFT
 f1.keywords:
 - NOCSH
@@ -13,15 +13,15 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Entenda como a Contoso Corporation respondeu à pandemia do COVID-19 e projetou sua infraestrutura de instalação e atualização de software para trabalho remoto e local.
-ms.openlocfilehash: 0bc7bc0e457b51e2f65337e355bcf9fced52274d
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Entenda como a Contoso Corporation respondeu à pandemia do COVID-19 e projetou sua infraestrutura de instalação e atualização de software para o trabalho híbrido.
+ms.openlocfilehash: 2d28b0513221f6c14526baba69bf0f5986154805
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245439"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788374"
 ---
-# <a name="contosos-covid-19-response-and-support-for-remote-and-onsite-work"></a>Resposta e suporte do COVID-19 da Contoso para trabalho remoto e local
+# <a name="contosos-covid-19-response-and-support-for-hybrid-work"></a>Resposta e suporte do COVID-19 da Contoso para trabalho híbrido
 
 A Contoso sempre apoiou seus funcionários remotos, que acessam recursos locais por meio de um servidor VPN central na sede de Paris. A Contoso emitiu a todos os funcionários remotos um laptop gerenciado. Os funcionários locais tinham uma mistura de computadores desktop e laptops.
 
@@ -39,9 +39,9 @@ Aqui está a configuração resultante com dispositivos VPN instalados na sede d
 
 Um trabalhador remoto com o cliente VPN instalado usa o DNS para encontrar o escritório regionalmente mais próximo e se conecta ao dispositivo VPN instalado lá. Com o túnel dividido, o tráfego para Microsoft 365 pontos de extremidade Otimizados é enviado diretamente para o local de rede regionalmente mais próximo Microsoft 365 rede. Todos os outros tráfegos são enviados pela conexão VPN ao dispositivo VPN.
 
-## <a name="contosos-support-for-remote-and-onsite-work"></a>Suporte da Contoso para trabalho remoto e local
+## <a name="contosos-support-for-hybrid-work"></a>Suporte da Contoso para trabalho híbrido
 
-Depois que as alterações iniciais foram feitas para dar suporte principalmente a funcionários remotos durante bloqueios regionais, a Contoso fez alterações de infraestrutura para dar suporte ao trabalho remoto e local no qual um trabalhador poderia estar:
+Depois que as alterações iniciais foram feitas para dar suporte principalmente a funcionários remotos durante bloqueios regionais, a Contoso fez alterações de infraestrutura para dar suporte ao trabalho híbrido no qual um trabalhador poderia ser:
 
 - Sempre remoto.
 - Sempre no local.
@@ -87,4 +87,4 @@ Para um novo dispositivo remoto emitido para um novo trabalhador, quando o traba
 
 ## <a name="next-step"></a>Próxima etapa
 
-[Configurar sua infraestrutura para trabalho remoto](empower-people-to-work-remotely.md) em sua organização.
+[Configurar sua infraestrutura para o trabalho híbrido](empower-people-to-work-remotely.md) em sua organização.

@@ -15,13 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.technology: mde
-ms.openlocfilehash: a91a401d5d57c7757bc043178c95dc42e7733b41
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 43c797dc8ee9f431ceda6ddecb0a1eada0e362f5
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571824"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769648"
 ---
 # <a name="access-the-microsoft-defender-for-endpoint-apis"></a>Acessar as APIs do Microsoft Defender para Ponto de Extremidade 
 

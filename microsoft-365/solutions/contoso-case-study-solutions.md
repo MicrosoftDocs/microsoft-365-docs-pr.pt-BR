@@ -15,12 +15,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Como uma organização global fictícia, mas representativa, adotou o Microsoft 365 para grandes empresas.
-ms.openlocfilehash: 74eacd4a7de2cf60eb2f1f388f3690496c6cc0e1
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: 3112dc452ff03fbd661ffff80b6b25b1f38f8a66
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52028916"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788326"
 ---
 # <a name="microsoft-365-solutions-for-the-contoso-corporation"></a>Soluções da Microsoft 365 para a Contoso Corporation
 
@@ -32,7 +32,7 @@ Primeiramente, saiba mais sobre a[Contoso Corporation](../enterprise/contoso-ove
 
 Em seguida, veja como a Contoso usou o Microsoft 365 para essas soluções e cenários:
 
-- [Infraestrutura e suporte ao COVID-19 para o trabalho remoto e local](contoso-remote-onsite-work.md)
+- [Resposta ao COVID-19 e a infraestrutura para trabalho híbrido](contoso-remote-onsite-work.md)
 
 - [Equipe isolada para um projeto confidencial](contoso-team-for-top-secret-project.md)
 

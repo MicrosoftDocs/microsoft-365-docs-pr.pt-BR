@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como a Microsoft Productivity Score reflete as medidas da experiência de pessoas e tecnologia e se compara a organizações de tamanho semelhante.
-ms.openlocfilehash: ded8b3ee6cbe6df308a4e7388107ea394debe020
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 0735fb6d47b475146deade6ab3ca2f8d24ec27a7
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593836"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779669"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft Productivity Score 
 
@@ -40,7 +40,7 @@ Fornecemos métricas, insights e recomendações em duas áreas:
 
 - **Experiências de pessoas:** quantifica como a organização funciona usando categorias do Microsoft 365, como colaboração de conteúdo, mobilidade, comunicação, reuniões e trabalho em equipe.  
 
-    Para cada uma das categorias mencionadas, examinamos a pesquisa pública para identificar algumas das melhores práticas e benefícios associados na forma de eficácia organizacional. Por exemplo, a pesquisa da [Forrester](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf) mostrou que quando as pessoas colaboram e compartilham conteúdo na nuvem (em vez de enviar anexos por email), elas podem economizar até 100 minutos por semana. Além disso, quantificamos o uso dessas práticas recomendadas em sua organização para ajudá-lo a ver onde está em sua jornada de transformação digital. 
+    Para cada uma das categorias mencionadas, examinamos a pesquisa pública para identificar algumas das melhores práticas e benefícios associados na forma de eficácia organizacional. Por exemplo, a pesquisa da Forrester mostrou que quando as pessoas colaboram e compartilham conteúdo na nuvem (em vez de enviar anexos por email), elas podem economizar até 100 minutos por semana. Além disso, quantificamos o uso dessas práticas recomendadas em sua organização para ajudá-lo a ver onde está em sua jornada de transformação digital. 
 
 - **Experiências de tecnologia:** sua organização depende de uma tecnologia confiável e de bom desempenho, bem como do uso eficiente do Microsoft 365. A [Análise de ponto de extremidade](https://aka.ms/endpointanalytics) ajuda a entender como sua organização pode ser afetada por problemas de desempenho e integridade com seu hardware e software. A integridade dos aplicativos do Microsoft 365 ajuda a entender se os dispositivos em sua organização estão executando o Microsoft 365 Apps nos canais recomendados.
 

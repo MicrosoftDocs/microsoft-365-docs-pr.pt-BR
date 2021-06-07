@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Criar tipos personalizados de informações confidenciais com classificação baseada em Correspondência Exata de Dados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0bb75db5b6bb1f3a3b18033b5327f014748f6512
-ms.sourcegitcommit: aff2331f9a3f22591f8ace1a646809969d28c120
+ms.openlocfilehash: 7c6db9df115020902b80328a341606cca2b1c735
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52464388"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769456"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match
 
@@ -611,10 +611,6 @@ Estes locais são compatíveis com os tipos de informações confidenciais do ED
 - DLP para SharePoint (arquivos)
 - Políticas DLP de Segurança de Aplicativos do Microsoft Cloud
 - Políticas de rotulagem automática do lado do servidor
-
-Os tipos de informações confidenciais do EDM para os cenários a seguir estão em desenvolvimento, mas ainda não estão disponíveis:
-
-- Classificação automática de rótulos de confidencialidade e rótulos de retenção.
 
 #### <a name="to-create-a-dlp-policy-with-edm"></a>Criação de uma política DLP com o EDM
 

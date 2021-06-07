@@ -23,17 +23,17 @@ search.appverid:
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Saiba como comprar um nome de domínio em Microsoft 365.
-ms.openlocfilehash: 3d5a5568a0e75a06f0880d82ea8e4a1a8d003689
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: c4b3b0ac88671e72ed567998ad9d97486dfb6342
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635457"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779681"
 ---
 # <a name="buy-a-domain-name"></a>Comprar um nome de domínio
 
 > [!NOTE]
-> Se sua organização usa Office 365 operado pela 21Vianet na China, consulte Como comprar um domínio para Office 365 operado pela [21Vianet na China](/buy-a-domain-name?view=o365-21vianet#how-to-buy-a-domain-for-office-365-operated-by-21vianet.md).
+> Se sua organização usa Office 365 operado pela 21Vianet na China, consulte Como comprar um domínio para Office 365 operado pela [21Vianet na China](#how-to-buy-a-domain-for-office-365-operated-by-21vianet).
 
  *Para adicionar, modificar ou remover domínios, você **deve** ser um **Administrador Global** de um [plano empresarial ou corporativo.](https://products.office.com/business/office) Essas alterações afetam todo o locatário, administradores *personalizados* ou *usuários regulares* não poderão fazer essas alterações.*  
 
@@ -89,9 +89,8 @@ Solicite a transferência ao registrador para onde você deseja mover seu domín
 
 
 ::: moniker range="o365-21vianet"
+
 ## <a name="how-to-buy-a-domain-for-office-365-operated-by-21vianet"></a>Como comprar um domínio para o Office 365 operado pela 21Vianet
-
-
 
 Se você ainda não tem seu próprio domínio, é possível comprar um online facilmente em um registrador, um revendedor de domínios ou, até mesmo, com seu provedor de Internet atual. Você obtém um nome de domínio quando se inscreve no Office 365 operado pela 21Vianet, por exemplo, contoso.partner.onmschina.cn, mas talvez você queira usar um nome de domínio personalizado, como fourthcoffee.com.
   

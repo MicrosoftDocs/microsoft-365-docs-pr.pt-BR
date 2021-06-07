@@ -1,6 +1,6 @@
 ---
-title: API de busca avançada do Microsoft 365 Defender
-description: Saiba como executar consultas de busca avançadas usando a API de busca avançada do Microsoft 365 Defender
+title: Microsoft 365 API de busca avançada do Defender
+description: Saiba como executar consultas de busca avançadas usando Microsoft 365 API de busca avançada do Defender
 keywords: Busca avançada, APIs, api, M365 Defender, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: c988a609a329c8f7f8988314e56aae942beebac5
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 3ff62265783be846a95964164e372100fe1ef662
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932888"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769579"
 ---
-# <a name="microsoft-365-defender-advanced-hunting-api"></a>API de busca avançada do Microsoft 365 Defender
+# <a name="microsoft-365-defender-advanced-hunting-api"></a>Microsoft 365 API de busca avançada do Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -38,7 +38,7 @@ ms.locfileid: "51932888"
 > [!IMPORTANT]
 > Algumas informações estão relacionadas a produtos pré-lançados que podem ser substancialmente modificados antes de seu lançamento comercial. A Microsoft não faz garantias, expressas ou implícitas, quanto às informações fornecidas aqui.
 
-[A busca avançada](advanced-hunting-overview.md) é uma [](advanced-hunting-query-language.md) ferramenta de busca de ameaças que usa consultas especialmente construídas para examinar os últimos 30 dias de dados de eventos no Microsoft 365 Defender. Você pode usar consultas avançadas de busca para inspecionar atividades incomuns, detectar possíveis ameaças e até mesmo responder a ataques. A API de busca avançada permite que você consulte programaticamente dados de eventos.
+[A busca](advanced-hunting-overview.md) avançada é uma [](advanced-hunting-query-language.md) ferramenta de busca de ameaças que usa consultas especialmente construídas para examinar os últimos 30 dias de dados de eventos no Microsoft 365 Defender. Você pode usar consultas avançadas de busca para inspecionar atividades incomuns, detectar possíveis ameaças e até mesmo responder a ataques. A API de busca avançada permite que você consulte programaticamente dados de eventos.
 
 ## <a name="quotas-and-resource-allocation"></a>Cotas e alocação de recursos
 
@@ -47,10 +47,9 @@ As condições a seguir se relacionam a todas as consultas.
 1. As consultas exploram e retornam dados dos últimos 30 dias.
 2. Os resultados podem retornar até 100.000 linhas.
 3. Você pode fazer até 15 chamadas por minuto por locatário.
-4. Você tem 10 minutos de tempo de execução por hora por locatário.
-5. Você tem quatro horas totais de tempo de execução por dia por locatário.
-6. Se uma única solicitação for executado por mais de 10 minutos, ela passará o tempo e retornará um erro.
-7. Um código de resposta HTTP indica que você atingiu uma cota, por número de solicitações enviadas ou pelo tempo de `429` execução alocado. Leia o corpo da resposta para entender o limite atingido. 
+4. As consultas serão bloqueadas se o locatário tiver atingido 100% até após o próximo ciclo de 15 minutos.
+5. Se uma única solicitação for executado por mais de 10 minutos, ela passará o tempo e retornará um erro.
+6. Um código de resposta HTTP indica que você atingiu uma cota, por número de solicitações enviadas ou pelo tempo de `429` execução alocado. Leia o corpo da resposta para entender o limite atingido. 
 
 > [!NOTE]
 > Todas as cotas listadas acima (por exemplo, 15 chamadas por minuto) são por tamanho de locatário. Essas cotas são mínimas.
@@ -62,7 +61,7 @@ Uma das seguintes permissões é necessária para chamar a API de busca avançad
 Tipo de permissão | Permissão | Nome de exibição de permissão
 -|-|-
 Aplicativo | AdvancedHunting.Read.All | Executar consultas avançadas
-Delegada (conta corporativa ou de estudante) | AdvancedHunting.Read | Executar consultas avançadas
+Delegado (conta corporativa ou de estudante) | AdvancedHunting.Read | Executar consultas avançadas
 
 >[!Note]
 > Ao obter um token usando credenciais de usuário:
@@ -180,7 +179,7 @@ No exemplo a seguir, um usuário envia a consulta abaixo e recebe um objeto de r
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Acessar as APIs do Microsoft 365 Defender](api-access.md)
+- [Acessar as APIs Microsoft 365 Defender](api-access.md)
 - [Saiba mais sobre limites de API e licenciamento](api-terms.md)
 - [Compreender códigos de erro](api-error-codes.md)
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba como implantar os complementos para usuários e grupos em sua organização usando a Implantação Centralizada no centro de administração.
-ms.openlocfilehash: 8cc4f29cd2593d9651edaf87791f46dabdcc30b2
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 796517ba13a4718c38d5200fcf9cbe38b5dc62d0
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636017"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779633"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>Implantar suplementos no centro de administração
 
@@ -38,7 +38,7 @@ Para obter mais informações sobre como determinar se sua organização pode da
 Para saber mais sobre como gerenciar os complementos após a implantação, consulte [Manage add-ins in the admin center](manage-addins-in-the-admin-center.md)
   
 > [!NOTE]
->  Para o Word, Excel e PowerPoint usam um Catálogo de Aplicativos do [SharePoint](https://dev.office.com/docs/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog) para implantar os complementos para usuários em um ambiente local sem conexão com o Microsoft 365 e/ou suporte para os SharePoint complementos necessários. Para Outlook use Exchange painel de controle para implantar em um ambiente local sem uma conexão com Microsoft 365.
+>  Para o Word, Excel e PowerPoint usam um Catálogo de Aplicativos do [SharePoint](/office/dev/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog) para implantar os complementos para usuários em um ambiente local sem conexão com o Microsoft 365 e/ou suporte para os SharePoint complementos necessários. Para Outlook use Exchange painel de controle para implantar em um ambiente local sem uma conexão com Microsoft 365.
   
 ## <a name="recommended-approach-for-deploying-office-add-ins"></a>Abordagem recomendada para a implantação de complementos do Office
 

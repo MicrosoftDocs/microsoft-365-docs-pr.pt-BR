@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 4f9d3b365fb735805644f33b3a843ad66e777ce4
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 019fadd672f1d00042c3247520afcfb062cee3ab
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684118"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769672"
 ---
 # <a name="microsoft-defender-for-endpoint-api-release-notes"></a>Notas de versão da API do Microsoft Defender para Ponto de Extremidade
 

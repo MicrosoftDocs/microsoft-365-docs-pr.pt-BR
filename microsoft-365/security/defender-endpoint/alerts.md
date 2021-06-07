@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 4997d7118b139d993ed94ed917137ca107940e46
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: c935df1abddc3d0ebee74e09280d6e3ec961ca97
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199616"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769804"
 ---
 # <a name="alert-resource-type"></a>Tipo de recurso de alerta
 
@@ -48,8 +49,8 @@ Método |Tipo de retorno |Descrição
 [Listar domínios relacionados](get-alert-related-domain-info.md)|Coleção Domain| Listar URLs associadas ao alerta.
 [Listar arquivos relacionados](get-alert-related-files-info.md) | [Coleção File](files.md) |  Listar [as entidades](files.md) de arquivo associadas ao [alerta](alerts.md).
 [Listar IPs relacionados](get-alert-related-ip-info.md) | Coleção IP | Listar IPs associados ao alerta.
-[Obter máquinas relacionadas](get-alert-related-machine-info.md) | [Máquina](machine.md) | O [computador](machine.md) associado ao [alerta](alerts.md).
-[Obter usuários relacionados](get-alert-related-user-info.md) | [User](user.md) | O [usuário](user.md) associado ao [alerta](alerts.md).
+[Obter máquinas relacionadas](get-alert-related-machine-info.md) | [Computador](machine.md) | O [computador](machine.md) associado ao [alerta](alerts.md).
+[Obter usuários relacionados](get-alert-related-user-info.md) | [Usuário](user.md) | O [usuário](user.md) associado ao [alerta](alerts.md).
 
 
 ## <a name="properties"></a>Propriedades
@@ -58,7 +59,7 @@ Propriedade |    Tipo    |    Descrição
 :---|:---|:---
 id | Cadeia de caracteres | ID do alerta.
 title | String | Título do alerta.
-descrição | String | Descrição de alerta.
+description | String | Descrição de alerta.
 alertCreationTime | Nullable DateTimeOffset | A data e a hora (em UTC) em que o alerta foi criado.
 lastEventTime | Nullable DateTimeOffset | A última ocorrência do evento que disparou o alerta no mesmo dispositivo.
 firstEventTime | Nullable DateTimeOffset | A primeira ocorrência do evento que disparou o alerta nesse dispositivo.
@@ -78,7 +79,7 @@ threatFamilyName | Cadeia de caracteres | Família de ameaças.
 threatName | Cadeia de caracteres | Nome da ameaça.
 machineId | Cadeia de caracteres | ID de uma [entidade](machine.md) de máquina associada ao alerta.
 computerDnsName | Cadeia de caracteres | [nome](machine.md) totalmente qualificado da máquina.
-aadTenantId | Cadeia de caracteres | A ID do Azure Active Directory.
+aadTenantId | Cadeia de caracteres | A Azure Active Directory ID.
 detectorId | Cadeia de caracteres | A ID do detector que disparou o alerta.
 comentários | Lista de comentários de alerta | O objeto Comentário de Alerta contém: cadeia de caracteres de comentários, createdBy string e createTime date time.
 Evidências | Lista de evidências de alerta | Evidências relacionadas ao alerta. Veja o exemplo a seguir.

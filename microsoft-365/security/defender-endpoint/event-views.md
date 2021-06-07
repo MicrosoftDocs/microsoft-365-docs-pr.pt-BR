@@ -8,17 +8,18 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
-author: dansimp
-ms.author: dansimp
+author: denisebmsft
+ms.author: deniseb
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 0a2ec16685ede2e625528fc3944943923bba3fc9
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.topic: article
+ms.openlocfilehash: ff82819f4e168fc57b649411fbe5e9136b0e36f4
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51569738"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769312"
 ---
 # <a name="view-attack-surface-reduction-events"></a>Exibir os eventos da redução da superfície de ataque
 
@@ -28,7 +29,8 @@ ms.locfileid: "51569738"
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
+> [!TIP]
+> Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink).
 
 Revise eventos de redução de superfície de ataque no Visualizador de Eventos para monitorar quais regras ou configurações estão funcionando. Você também pode determinar se as configurações são muito "barulhentos" ou afetando seu fluxo de trabalho diário.
 
@@ -36,11 +38,11 @@ Analisar eventos é útil quando você está avaliando os recursos. Você pode h
 
 Este artigo lista todos os eventos, seu recurso ou configuração associados e descreve como criar exibições personalizadas para filtrar para eventos específicos.
 
-Obter relatórios detalhados sobre eventos e blocos como parte do Windows Security se você tiver uma assinatura do E5 e usar [o Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection).
+Obter relatórios detalhados em eventos e blocos como parte do Segurança do Windows se você tiver uma assinatura do E5 e usar [o Microsoft Defender para Ponto de Extremidade](microsoft-defender-endpoint.md).
 
 ## <a name="use-custom-views-to-review-attack-surface-reduction-capabilities"></a>Usar exibições personalizadas para revisar recursos de redução de superfície de ataque
 
-Crie exibições personalizadas no Visualizador de Eventos do Windows para ver apenas eventos para recursos e configurações específicos. A maneira mais fácil é importar um modo de exibição personalizado como um arquivo XML. Você pode copiar o XML diretamente desta página.
+Crie exibições personalizadas no Windows visualizador de eventos para ver apenas eventos para recursos e configurações específicos. A maneira mais fácil é importar um modo de exibição personalizado como um arquivo XML. Você pode copiar o XML diretamente desta página.
 
 Você também pode navegar manualmente até a área de evento que corresponde ao recurso.
 
@@ -66,17 +68,17 @@ Você também pode navegar manualmente até a área de evento que corresponde ao
 
 ### <a name="copy-the-xml-directly"></a>Copiar o XML diretamente
 
-1. Digite **o visualizador de eventos** no menu Iniciar e abra o Visualizador de Eventos **do** Windows .
+1. Digite **o visualizador de** eventos no menu Iniciar e abra o Windows **Visualizador de Eventos**.
 
 2. No painel esquerdo, em **Ações**, selecione **Criar Exibição Personalizada...**
 
     ![Animação realçando a opção criar exibição personalizada na janela Visualizador de eventos](/windows/security/threat-protection/images/events-create)
 
-3. Vá para a guia XML e selecione **Editar consulta manualmente**. Você verá um aviso de que não será possível editar a consulta usando a guia **Filtro** se você usar a opção XML. Selecionar **Sim**.
+3. Vá para a guia XML e selecione **Editar consulta manualmente**. Você verá um aviso de que não será possível editar a consulta usando a guia **Filtro** se você usar a opção XML. Selecione **Sim**.
 
 4. Colar o código XML do recurso de onde você deseja filtrar eventos na seção XML.
 
-5. Clique em **OK**. Especifique um nome para o filtro.
+5. Selecione **OK**. Especifique um nome para o filtro.
 
 6. Ele criará uma exibição personalizada que filtra apenas os eventos relacionados a esse recurso.
 
@@ -135,12 +137,12 @@ Você também pode navegar manualmente até a área de evento que corresponde ao
 
 ## <a name="list-of-attack-surface-reduction-events"></a>Lista de eventos de redução de superfície de ataque
 
-Todos os eventos de redução de superfície de ataque estão localizados em Logs de Aplicativos e Serviços > **Microsoft > Windows** e, em seguida, a pasta ou provedor conforme listado na tabela a seguir.
+Todos os eventos de redução de superfície de ataque estão localizados em Logs de Aplicativos e Serviços > **microsoft > Windows** e, em seguida, a pasta ou provedor conforme listado na tabela a seguir.
 
-Você pode acessar esses eventos no visualizador de eventos do Windows:
+Você pode acessar esses eventos Windows visualizador de eventos:
 
 1. Abra o menu **Iniciar** e digite **o visualizador** de eventos e selecione o resultado **do Visualizador de** Eventos.
-2. Expanda **logs de aplicativos** e serviços > Microsoft > Windows e vá para a pasta listada em **Provedor/fonte** na tabela abaixo.
+2. Expanda **logs de aplicativos e serviços > microsoft > Windows** e vá para a pasta listada em **Provedor/fonte** na tabela abaixo.
 3. Clique duas vezes no sub item para ver eventos. Role pelos eventos para encontrar o que você está procurando.
 
    ![Animação mostrando usando o Visualizador de Eventos](/windows/security/threat-protection/images/event-viewer)
@@ -161,7 +163,7 @@ Proteção de exploração | Security-Mitigations (Modo kernel/modo de usuário)
 Proteção de exploração | Security-Mitigations (Modo kernel/modo de usuário) | 12  | Bloqueio do Code Integrity Guard
 Proteção de exploração | Security-Mitigations (Modo kernel/modo de usuário) | 13 | Auditoria EAF
 Proteção de exploração | Security-Mitigations (Modo kernel/modo de usuário) | 14  | Imposição do EAF
-Proteção de exploração | Security-Mitigations (Modo kernel/modo de usuário) | 15  | Auditoria EAF+
+Proteção de exploração | Security-Mitigations (Modo kernel/modo de usuário) | 15 | Auditoria EAF+
 Proteção de exploração | Security-Mitigations (Modo kernel/modo de usuário) | 16  | EAF+ enforce
 Proteção de exploração | Security-Mitigations (Modo kernel/modo de usuário) | 17  | Auditoria IAF
 Proteção de exploração | Security-Mitigations (Modo kernel/modo de usuário) | 18  | IAF enforce

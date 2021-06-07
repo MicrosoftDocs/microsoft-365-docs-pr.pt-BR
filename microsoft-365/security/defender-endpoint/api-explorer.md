@@ -17,12 +17,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b8d0d991e46464bae3b4d21d6218b9b3b2d2b4cb
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.custom: api
+ms.openlocfilehash: 6a5684d71d34b3efdfe915ae674b4fcb90342154
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51930108"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769792"
 ---
 # <a name="api-explorer"></a>Explorador de API
 

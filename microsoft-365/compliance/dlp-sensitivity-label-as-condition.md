@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: saiba mais sobre os serviços e os tipos de item que você pode usar rótulos de confidencialidade como condições em políticas DLP
-ms.openlocfilehash: b33e6704a3311740c1e386f77f1c751382ee6958
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 94d5e9f53471f6113dcc755995a3f94e95a58e53
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651087"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779838"
 ---
 # <a name="use-sensitivity-labels-as-conditions-in-dlp-policies"></a>Use rótulos de confidencialidade como condições em políticas DLP
 
@@ -65,6 +65,9 @@ Você pode usar rótulos de confidencialidade como condições nestes itens e ne
 \* A detecção de DLP de anexos de email rotulados como confidenciais são compatíveis apenas com tipos de arquivos do Office.
 
 \** Anexos enviados no Teams em chats individuais ou canais são carregados automaticamente para o OneDrive for Business e para o SharePoint. Portanto, se o SharePoint Online ou OneDrive for Business estiverem incluídos como locais na sua política de DLP, os anexos enviados pelo Teams serão incluídos automaticamente no escopo dessa condição. O Teams como local não precisa ser selecionado na política de DLP.
+
+> [!NOTE]
+> A capacidade da DLP para detectar rótulos de sensibilidade no SharePoint e no OneDrive for Business é limitada. Para obter mais informações, confira [Habilitar rótulos de confidencialidade para arquivos do Office no Microsoft Office SharePoint Online e OneDrive](sensitivity-labels-sharepoint-onedrive-files.md#limitations).
 
 ### <a name="supported-scenarios"></a>Cenários com suporte
 

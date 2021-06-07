@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 590bd1dee14e54359dd699e86795664819c23d05
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 1c81d2978677b751a8085f88b5c4732fd4a5a247
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200085"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770044"
 ---
 # <a name="get-machine-logon-users-api"></a>Obter API de usuários de logon de máquina
 
@@ -50,7 +52,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   User.Read.All | 'Ler perfis de usuário'
-Delegada (conta corporativa ou de estudante) | User.Read.All | 'Ler perfis de usuário'
+Delegado (conta corporativa ou de estudante) | User.Read.All | 'Ler perfis de usuário'
 
 >[!Note]
 > Ao obter um token usando credenciais de usuário:

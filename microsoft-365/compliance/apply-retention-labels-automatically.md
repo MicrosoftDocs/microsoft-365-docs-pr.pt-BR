@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Criar rótulos de retenção e políticas de rotulação automáticas, para que você possa aplicar automaticamente os rótulos para reter o que precisa e excluir o que não
-ms.openlocfilehash: 12e909964422d0c15312c1794ce3d9aacc2a1da8
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 0324f988402d407e30d10a725aa5acebb0a69964
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107633"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788387"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Aplicar automaticamente um rótulo de retenção para reter ou excluir conteúdo
 
@@ -132,21 +132,19 @@ Você pode aplicar os rótulos de retenção automaticamente ao conteúdo quando
 > [!WARNING]
 > Atualmente, esta configuração tem uma limitação conhecida onde todos os emails sem rótulo sempre têm o rótulo de retenção selecionado aplicado quando há uma correspondência dos tipos de informações confidenciais escolhidos. Por exemplo, mesmo que você use sua política de aplicação automática a usuários específicos, ou selecione locais diferentes do Exchange para a política, o rótulo sempre é aplicado a emails sem rótulo quando há uma correspondência.
 
-Ao criar políticas de rótulo de retenção de aplicação automática para informações confidenciais, você vê a mesma lista de modelos de política de quando cria uma política de prevenção contra perda de dados (DLP). Cada modelo de política é pré-configurado para procurar tipos específicos de informações confidenciais. Por exemplo, o modelo mostrado aqui procura por U.S. ITIN, SSN e números de passaporte da categoria **Privacidade** e **modelo de Dados de Informações de Identificação do Usuário Final (PII) dos EUA**:
+Ao criar políticas de rótulo de retenção de aplicação automática para informações confidenciais, você vê a mesma lista de modelos de política de quando cria uma política de prevenção contra perda de dados (DLP). Cada modelo de política é pré-configurado para procurar tipos específicos de informações confidenciais. No exemplo a seguir, os tipos de informações confidenciais são da categoria **Privacidade** e do modelo de **Informações de identificação pessoal (PII) dos EUA**:
 
 ![Modelos de política com tipos de informações confidenciais](../media/sensitive-info-configuration.png)
 
 Para obter mais informações sobre os tipos de informações confidenciais, confira [Definições da entidade de tipo de informações confidenciais](sensitive-information-type-entity-definitions.md). Atualmente, [correspondências exatas de dados](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md) e [impressão digital do documento](document-fingerprinting.md) não são suportadas neste cenário.
 
-Depois de selecionar um modelo de política, você poderá adicionar ou remover qualquer tipo de informação confidencial e poderá alterar a contagem de instâncias e a precisão de correspondência. Na captura de tela do exemplo mostrado a seguir, um rótulo de retenção será aplicado automaticamente apenas quando:
+Depois de selecionar um modelo de política, você pode adicionar ou remover quaisquer tipos de informações confidenciais e pode alterar o nível de confiança e a contagem de instâncias. Na captura de tela de exemplo anterior, essas opções foram alteradas para que um rótulo de retenção seja aplicado automaticamente somente quando:
   
-- O tipo de informações confidenciais detectadas tiver uma precisão de correspondência (ou um nível de confiança) de pelo menos 75. Muitos tipos de informações confidenciais são definidos com vários padrões, em que um padrão com maior precisão de correspondência requer mais evidências para ser encontrado (como palavras-chave, datas ou endereços), enquanto um padrão com precisão de correspondência inferior requer menos evidências. Quanto menor for a precisão de correspondência **min**, mais fácil será que o conteúdo corresponda à condição.
+- O tipo de informações confidenciais detectadas tem uma correspondência de precisão (ou [nível de confiança](sensitive-information-type-learn-about.md#more-on-confidence-levels)) de pelo menos **Confiança média** para dois dos tipos de informações confidenciais e **Alto nível de confiança** para um. Muitos tipos de informações confidenciais são definidos com vários padrões, em que um padrão com maior precisão de correspondência requer mais evidências para ser encontrado (como palavras-chave, datas ou endereços), enquanto um padrão com precisão de correspondência inferior requer menos evidências. Quanto menor o nível de confiança, mais fácil será para o conteúdo corresponder à condição, mas com o potencial de mais falsos positivos.
 
-- O conteúdo contém entre uma e nove instâncias de qualquer um destes três tipos de informações confidenciais. Você pode excluir o valor **a** para que ele se transforme em **Qualquer**.
+- O conteúdo contém entre uma e nove instâncias de qualquer um destes três tipos de informações confidenciais. O padrão para o **para** valor é **Qualquer**.
 
 Para obter mais informações sobre essas opções, confira as diretrizes a seguir na documentação da DLP [Regras de ajuste para torná-las mais fáceis ou difíceis de corresponder aos](data-loss-prevention-policies.md#tuning-rules-to-make-them-easier-or-harder-to-match).
-    
-![Opções para identificar tipos de informações confidenciais](../media/de255881-f596-4c8d-8359-e974e3a0819a.png)
 
 Para considerar ao usar tipos de informações confidenciais para aplicar automaticamente os rótulos de retenção:
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo define os campos de metadados para documentos em um conjunto de revisão em um caso em Advanced eDiscovery em Microsoft 365.
-ms.openlocfilehash: 7b8628973a8b07a3cd31e2b42df28c181e77e288
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 42f349bf01d5a777535dd04096b860a0165f1edf
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730493"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769564"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Campos de metadados do documento na Descoberta Avançada
 
@@ -75,6 +75,7 @@ A tabela a seguir lista os campos de metadados para documentos em um conjunto de
 |EmailAction*||Email_action|Os valores **são None,** **Reply** ou **Forward;** com base na linha de assunto de uma mensagem.|
 |Recibo de Entrega de Email Solicitado||Email_delivery_receipt|Endereço de email fornecido em Headers da Internet para recebimento de entrega.|
 |Importance|EmailImportance|Email_importance|Importância da mensagem: **0** - Baixo; **1** - Normal; **2** - Alto|
+|Erros de processamento ignorados|ErrorIgnored|Error_Ignored|O erro foi ignorado e não foi remediado.|
 |EmailInternetHeaders|EmailInternetHeaders|Email_internet_headers|O conjunto completo de headers de email da mensagem de email|
 |EmailLevel*||Email_level|Indica o nível de uma mensagem dentro do thread de email a que ela pertence; os anexos herdam o valor da mensagem pai.|
 |ID da mensagem de email||Email_message_ID|ID de mensagem da Internet da mensagem.|
@@ -88,14 +89,14 @@ A tabela a seguir lista os campos de metadados para documentos em um conjunto de
 |||Extracted_text_path|O caminho para o arquivo de texto extraído na exportação.|
 |ExtractedTextLength*||Extracted_text_length|Número de caracteres no texto extraído.|
 |FamilyDuplicateSet*||Family_duplicate_set|Identificador numérico para famílias que são duplicatas exatas umas das outras (mesmo conteúdo e todos os mesmos anexos).|
-|ID da família|FamilyId|Family_ID|Grupos de ID da família reúnem todos os itens; para email, isso inclui a mensagem e todos os anexos; para documentos, isso inclui o documento e todos os itens incorporados.|
+|ID da família|FamilyId|Family_ID|Reúne todos os itens para email. Isso inclui a mensagem e todos os anexos e itens extraídos.|
 |Tamanho da família||Family_size|Número de documentos na família.|
 |Classe File|FileClass|File_class|Para conteúdo de SharePoint e OneDrive: **Documento;** para conteúdo de Exchange: **Email** ou **Anexo.**|
 |ID do arquivo|FileId|File_ID|Identificador de documento exclusivo dentro do caso.|
 |Data do sistema de arquivos criada||File_system_date_created|Data criada a partir do sistema de arquivos (só se aplica a dados que não Office 365 dados).|
 |Data do sistema de arquivos modificada||File_system_date_modified|Data modificada do sistema de arquivos (só se aplica a dados que não Office 365 dados).|
 |Tipo de arquivo|FileType||Tipo de arquivo do item com base na extensão de arquivo.|
-|Id do grupo|GroupID||ID do grupo para conteúdo agrupado.|
+|Id do grupo|Id do grupo|Group_ID|Reúne todos os itens para email e documentos. Para email, isso inclui a mensagem e todos os anexos e itens extraídos. Para documentos, isso inclui o documento e todos os itens incorporados.|
 |Tem anexo|HasAttachment|Email_has_attachment|Indica se a mensagem tem anexos ou não.|
 |Tem advogado|HasAttorney||**True** quando pelo menos um dos participantes é encontrado na lista de advogados; caso contrário, o valor será **False**.|
 |HasText*||Has_text|Indica se o item tem texto ou não; os valores possíveis **são True** e **False**.|
@@ -126,6 +127,7 @@ A tabela a seguir lista os campos de metadados para documentos em um conjunto de
 |NativeSHA256||Native_SHA_256|Hash SHA256 (valor de hash de 256 bits) do fluxo de arquivos.|
 |Classificação ND/ET: Excluindo anexos|NdEtSortExclAttach|ND_ET_sort_excl_attach|Concatenação do conjunto de threads de email (ET) e conjunto quase duplicado (ND). Esse campo é usado para uma classificação eficiente no momento da revisão. Um **D** é prefixado para conjuntos de ND e **um E** é prefixado para conjuntos ET.|
 |Classificação do ND/ET: Incluindo anexos|NdEtSortInclAttach|ND_ET_sort_incl_attach|Concatenação de um conjunto de threads de email (ET) e conjunto ND (quase duplicado). Esse campo é usado para uma classificação eficiente no momento da revisão. Um **D** é prefixado para conjuntos de ND e **um E** é prefixado para conjuntos ET. Cada item de email em um conjunto ET é seguido por seus anexos apropriados.|
+|Conjunto duplicado próximo||ND_set|Itens semelhantes ao documento pivô compartilham o mesmo ND_set.|
 |Autores do O365||O365_authors|Autor de SharePoint.|
 |O365 criado por||O365_created_by|Criado por SharePoint.|
 |Data do O365 criada||O365_date_created|Data criada a partir SharePoint.|
@@ -155,6 +157,7 @@ A tabela a seguir lista os campos de metadados para documentos em um conjunto de
 |Domínio do remetente|SenderDomain|Email_sender_domain|Domínio do remetente.|
 |Sent|Sent|Email_date_sent|Data enviada da mensagem.|
 |Definir Ordem: Inclusiva Primeiro|SetOrderInclusivesFirst|Set_order_inclusives_first|Campo de classificação - email e anexos: contra-cronologia; documents: pivot primeiro, em seguida, pela pontuação de semelhança decrescente.|
+|Definir ID||Set_ID|Documentos de conteúdo semelhante (ND_set) ou emails no mesmo thread de email (Email_set) compartilham o mesmo Set_ID.|
 |SimilarityPercent||Similarity_percent|Indica como um documento é semelhante ao pivô do conjunto duplicado próximo.|
 |Tamanho do arquivo nativo|Size|Native_size|Número de bytes do item nativo.|
 |Subject|Subject|Email_subject|Assunto da mensagem.|

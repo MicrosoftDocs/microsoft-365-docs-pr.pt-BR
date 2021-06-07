@@ -1,7 +1,7 @@
 ---
 title: Obter recomendação por software
 description: Recupera uma recomendação de segurança relacionada a um software específico.
-keywords: apis, api gráfica, apis com suporte, get, recomendação de segurança, recomendação de segurança para software, gerenciamento de ameaças e vulnerabilidades, api de gerenciamento de ameaças e vulnerabilidades
+keywords: apis, api gráfica, apis com suporte, obter, recomendação de segurança, recomendação de segurança para software, Gerenciamento de Ameaças e Vulnerabilidades, Gerenciamento de Ameaças e Vulnerabilidades api
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 82479b0248ceee95321d269e3f48a4eeea3ad193
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 68bc53f2ae0b44567530cc1dd733c9dd37d380ca
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199496"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769576"
 ---
 # <a name="get-recommendation-by-software"></a>Obter recomendação por software
 
@@ -44,7 +46,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   SecurityRecommendation.Read.All |   'Ler informações de recomendação de segurança do Gerenciamento de Ameaças e Vulnerabilidades'
-Delegada (conta corporativa ou de estudante) | SecurityRecommendation.Read |  'Ler informações de recomendação de segurança do Gerenciamento de Ameaças e Vulnerabilidades'
+Delegado (conta corporativa ou de estudante) | SecurityRecommendation.Read |  'Ler informações de recomendação de segurança do Gerenciamento de Ameaças e Vulnerabilidades'
 
 ## <a name="http-request"></a>Solicitação HTTP
 ```

@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1ed4b04acd7fec75af4e157837312b824a8d9f98
-ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
+ms.openlocfilehash: b830c165d91dfdc8c5c6c47abecd73ba7a9621c8
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52696557"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788458"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Configurar políticas antispam no EOP
 
@@ -83,9 +83,9 @@ Para aumentar a eficácia da filtragem de spam, crie políticas antispam persona
 
 Ao criar uma política antispam personalizada no centro de segurança é gerado, ao mesmo tempo, uma regra de filtro de spam e a política de filtro de spam associada com o mesmo nome para ambas.
 
-1. No centro de segurança, vá para **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Antispam**.
+1. No centro de segurança, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **seção** Políticas \> **Anti-spam**.
 
-2. Clique no ![ícone Criar](../../media/m365-cc-sc-create-icon.png) **Criar política** e, em seguida, selecione **Entrada** na lista suspensa.
+2. Na página **Políticas anti-spam**, clique em ![Criar ícone](../../media/m365-cc-sc-create-icon.png) **Criar política** e selecione **Entrada** na lista suspensa.
 
 3. O assistente de política é aberto. Na **página Nomear política**, defina as seguintes configurações:
    - **Nome**: insira um nome exclusivo e descritivo para a política.
@@ -125,7 +125,7 @@ Ao criar uma política antispam personalizada no centro de segurança é gerado,
 
    - **Contém idiomas específicos**: clique na caixa e selecione **Ativado** ou **Desativado** na lista suspensa. Se você a ativar, uma caixa será exibida. Comece a digitar o nome de um idioma na caixa. Uma lista filtrada de idiomas com suporte será exibida. Selecione o idioma que está procurando ao encontrá-lo. Repita essa etapa quantas vezes forem necessárias. Para remover um valor existente, clique em remover ![ícone Remover](../../media/m365-cc-sc-remove-selection-icon.png) ao lado do valor.
 
-   - **A partir destes países/regiões**: clique na caixa e selecione *Ativado* ou **Desativado** na lista suspensa. Se você a ativar, uma caixa será exibida. Comece digitando o nome de um país/região na caixa. Uma lista filtrada de países/regiões com suporte será exibida. Quando encontrar o país/região que está procurando, selecione-o. Repita essa etapa quantas vezes forem necessárias. Para remover um valor existente, clique em remover ![ícone Remover](../../media/m365-cc-sc-remove-selection-icon.png) ao lado do valor.
+   - **A partir destes países/regiões** _: clique na caixa e selecione *Ativado** ou **Desativado** na lista suspensa. Se você a ativar, uma caixa será exibida. Comece digitando o nome de um país/região na caixa. Uma lista filtrada de países/regiões com suporte será exibida. Quando encontrar o país/região que está procurando, selecione-o. Repita essa etapa quantas vezes forem necessárias. Para remover um valor existente, clique em remover ![ícone Remover](../../media/m365-cc-sc-remove-selection-icon.png) ao lado do valor.
 
    Ao terminar, clique em **Avançar**.
 
@@ -242,9 +242,9 @@ Ao criar uma política antispam personalizada no centro de segurança é gerado,
 
 ## <a name="use-the-security-center-to-view-anti-spam-policies"></a>Usar o centro de segurança para exibir políticas antispam
 
-1. No centro de segurança, vá para **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Antispam**.
+1. No centro de segurança, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **seção** Políticas \> **Anti-spam**.
 
-2. Na página **Política antispam**, procure um dos seguintes valores:
+2. Na página **Políticas anti-spam**, procure um dos seguintes valores:
    - O valor **Tipo** é a **Política antispam personalizada** 
    - O valor **Nome** é a **Política de entrada antispam (Padrão)** 
 
@@ -259,9 +259,9 @@ Ao criar uma política antispam personalizada no centro de segurança é gerado,
 
 ## <a name="use-the-security-center-to-modify-anti-spam-policies"></a>Usar o centro de segurança para modificar políticas antispam
 
-1. No centro de segurança, vá para **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Antispam**.
+1. No centro de segurança, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **seção** Políticas \> **Anti-spam**.
 
-2. Na página **Política antispam**, selecione uma política antispam da lista, clicando no nome:
+2. Na página **Políticas antispam**, selecione uma política antispam da lista clicando no nome:
    - Uma política personalizada que você criou em que o valor da coluna **Tipo** é **Política antispam personalizada**.
    - A política padrão denominada **Política de entrada antispam (Padrão)**.
 
@@ -275,7 +275,7 @@ Para habilitar ou desabilitar uma política, definir a ordem de prioridade da po
 
 Não é possível desabilitar a política antispam padrão.
 
-1. No centro de segurança, vá para **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Antispam**.
+1. No centro de segurança, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **seção** Políticas \> **Anti-spam**.
 
 2. Na página **Políticas antispam**, selecione uma política com o **Valor de tipo** da **Política antispam personalizada** na lista clicando no nome.
 
@@ -300,7 +300,7 @@ Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou
 - No centro de segurança, só é possível alterar a prioridade da política antispam depois de criá-la. No PowerShell, é possível substituir a prioridade padrão ao criar a regra de filtro de spam (o que pode afetar a prioridade das regras existentes).
 - As políticas antispam são processadas na ordem em que são exibidas (a primeira política tem o valor de **Prioridade** 0). A política antispam padrão tem o valor de prioridade **Mais baixo**, e isso não pode ser alterado.
 
-1. No centro de segurança, vá para **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Antispam**.
+1. No centro de segurança, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **seção** Políticas \> **Anti-spam**.
 
 2. Na página **Políticas antispam**, selecione uma política com o **Valor de tipo** da **Política antispam personalizada** na lista clicando no nome.
 
@@ -317,7 +317,7 @@ Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou
 
 Quando um veredito de filtragem de spam coloca uma mensagem em quarentena, é possível configurar as notificações de spam para usuário final de modo que os destinatários saibam o que houve com as mensagens que foram enviadas para eles. Para obter mais informações sobre essas notificações, confira [Notificações de spam para usuário final no EOP](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
-1. No centro de segurança, vá para **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Antispam**.
+1. No centro de segurança, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **seção** Políticas \> **Anti-spam**.
 
 2. Na página **Políticas antispam**, selecione uma política antispam da lista clicando no nome:
    - Uma política personalizada que você criou em que o valor da coluna **Tipo** é **Política antispam personalizada**.
@@ -340,11 +340,11 @@ Quando um veredito de filtragem de spam coloca uma mensagem em quarentena, é po
 
 4. De volta ao submenu de detalhes da política, clique em **Fechar**.
 
-## <a name="use-the-security-center-to-remove-anti-spam-policies"></a>Usar o centro de segurança para remover políticas antispam
+## <a name="use-the-security-center-to-remove-custom-anti-spam-policies"></a>Usar o centro de segurança para remover políticas anti-spam
 
-Quando você usa o centro de segurança para remover uma política antispam, a regra de filtro de spam e a política de filtro de spam correspondente são excluídas. Não é possível remover a política padrão.
+Quando você usa o centro de segurança para remover uma política anti-spam, a regra de filtro de spam e a política de filtro de spam correspondente são excluídas. Você não pode remover a política antispam padrão.
 
-1. No centro de segurança, vá para **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Antispam**.
+1. No centro de segurança, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **seção** Políticas \> **Anti-spam**.
 
 2. Na página **Políticas antispam**, selecione uma política com o **Valor de tipo** da **Política antispam personalizada** na lista clicando no nome. Na parte superior do submenu de detalhes da política exibido, clique no ![ícone Mais ações](../../media/m365-cc-sc-more-actions-icon.png) **Mais ações** \> ![ícone Excluir política](../../media/m365-cc-sc-delete-icon.png) **Excluir política**.
 
@@ -378,9 +378,7 @@ A criação de uma política antispam no PowerShell é um processo de duas etapa
  **Observações**:
 
 - você pode criar uma nova regra de filtro de spam e atribuir uma política de filtro de spam existente e não associada a ela. Não é possível associar uma regra de filtro de spam a mais de uma política de filtro de spam.
-
 - Defina as seguintes configurações nas novas políticas de filtro de spam no PowerShell que não estão disponíveis no centro de segurança até que você crie a política:
-
   - Crie a nova política como desabilitada (_Habilitada_ `$false` no cmdlet **New-HostedContentFilterRule**).
   - Defina a prioridade da política durante a criação (_Prioridade__\<Number\>_) no cmdlet **New-HostedContentFilterRule**).
 

@@ -13,16 +13,44 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: bc04059d3ec63dd9395ed8f7a0e02b948e5cead1
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 6b18de29b339c3367bfacb8bdc8ec9725481e3e4
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730733"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779850"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Histórico de alterações da documentação da Área e trabalho gerenciada da Microsoft
 
 Este artigo lista artigos novos e atualizados na [documentação Área de Trabalho Gerenciada da Microsoft .](index.yml) Os artigos "atualizados" tiveram adições ou correções materiais-- correções secundárias, como correção de erros de digitação, estilo ou formatação, não estão listadas. Você sempre pode exibir o histórico de confirmações específicas (incluindo detalhes de quaisquer alterações) visitando o [repo em GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+
+## <a name="may-2021"></a>Maio de 2021
+Artigo novo ou alterado | Descrição
+--- | ---
+[Configurar dispositivos de Área de Trabalho Gerenciada da Microsoft](get-started/set-up-devices.md) | Artigo atualizado
+[Relatório do inventário do dispositivo](working-with-managed-desktop/device-inventory-report.md) | Artigo atualizado
+[Configuração de rede na Área de Trabalho Gerenciada da Microsoft](get-ready/network.md) | Artigo atualizado
+[Logs de diagnóstico](service-description/diagnostic-logs.md) | Novo artigo
+[Tecnologias de Área de Trabalho Gerenciada da Microsoft](intro/technologies.md) | Artigo atualizado
+[Pré-requisitos para contas de convidado](get-ready/guest-accounts.md) | Artigo atualizado
+[Trabalho com relatórios](working-with-managed-desktop/reports.md) | Artigo atualizado
+
+## <a name="april-2021"></a>Abril de 2021
+Artigo novo ou alterado | Descrição
+--- | ---
+[Perfis do dispositivo](service-description/profiles.md) | Novo artigo
+[Etapas para registrar dispositivos de Parceiros](get-started/register-devices-partner.md) | Artigo atualizado
+[Registrar novos dispositivos sozinho](get-started/register-devices-self.md) | Artigo atualizado
+[Registrar dispositivos existentes sozinho](get-started/register-reused-devices-self.md) | Artigo atualizado
+[Dependência do nome do dispositivo de endereço](get-ready/address-device-names.md) | Novo artigo
+[Nomes do dispositivo](service-description/device-names.md) | Novo artigo
+[Remover dispositivos](working-with-managed-desktop/remove-devices.md) | Novo artigo
+[Pré-requisitos da Área de Trabalho Gerenciada da Microsoft](get-ready/prerequisites.md) | Artigo atualizado
+[Aplicativos na Área de Trabalho Gerenciada da Microsoft](get-ready/apps.md) | Artigo atualizado
+[Validar novos dispositivos](get-started/validate-device.md) | Novo artigo
+[Configurar dispositivos de Área de Trabalho Gerenciada da Microsoft](get-started/set-up-devices.md) | Artigo atualizado
+[Área de Trabalho Gerenciada da Microsoft ciclo de vida do produto](service-description/device-lifecycle.md) | Artigo atualizado
+[Área de Trabalho Gerenciada da Microsoft dispositivos](service-description/device-list.md) |Artigo atualizado
 
 ## <a name="march-2021"></a>Março de 2021
 Artigo novo ou alterado | Descrição

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use uma política de retenção para manter o controle eficiente do conteúdo que os usuários geram com email, documentos e conversas. Mantenha o que você deseja e descarte o que não.
-ms.openlocfilehash: 7b23ed2b45a24e8999785909f9357043bef731e5
-ms.sourcegitcommit: cebbdd393dcfd93ff43a1ab66ad70115853f83e7
+ms.openlocfilehash: 9f550aa2e0a79170c4651f29c23a8ed0c8c9b3a4
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "52710689"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769409"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -221,11 +221,11 @@ Para retornar ao valor padrão tanto da caixa postal como do site SharePoint par
 
 ### <a name="configuration-information-for-skype-for-business"></a>Informações de configuração do Skype for Business
 
-Diferentemente de um email do Exchange, você não pode ativar ou desativar o status de local do Skype para incluir automaticamente todos os usuários, mas pode ativar esse local e depois deve selecionar manualmente os usuários cujas conversas deseja manter:
+Ao contrário de outros locais, você não pode alternar o status do local do Skype para incluir automaticamente todos os usuários. Em vez disso, ao habilitar esse local, você deve selecionar a opção **Editar** para escolher manualmente os usuários cujas conversas deseja manter:
 
-![Escolha o local do Skype para políticas de retenção](../media/skype-location-retention-policies.png)
+![Editar a localização do Skype para políticas de retenção](../media/skype-location-retention-policies.png)
 
-Ao selecionar **Escolher usuário**, você pode incluir rapidamente todos os usuários, selecionando a caixa **Selecionar todos**. No entanto, é importante compreender que cada usuário conta como uma inclusão específica na política. Portanto, se você incluir 1.000 usuários selecionando a caixa **Selecionar todos**, é a mesma coisa que selecionar manualmente 1.000 usuários para incluir, que é o número máximo suportado pelo Skype for Business.
+Depois de selecionar esta opção **Editar**, no painel **Skype for Business** você pode incluir rapidamente todos os usuários selecionando a caixa oculta antes da coluna **Nome**. No entanto, é importante compreender que cada usuário conta como uma inclusão específica na política. Portanto, se você incluir 1.000 usuários selecionando esta caixa, será o mesmo que selecionar manualmente 1.000 usuários para incluir, que é o máximo com suporte para Skype for Business.
 
 Lembre-se de que o **Histórico da conversa**, uma pasta no Outlook, é um recurso que nada tem a ver com o recurso de arquivamento do Skype. O **Histórico da conversa** pode ser desativado pelo usuário final, mas o arquivamento para o Skype é feito armazenando-se uma cópia das conversas do Skype em uma pasta oculta que é inacessível ao usuário, mas disponível para Descoberta Eletrônica.
 

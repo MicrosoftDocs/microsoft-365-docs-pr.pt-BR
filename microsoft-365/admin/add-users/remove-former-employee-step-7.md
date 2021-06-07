@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Siga estas etapas para excluir a conta de usuário de um ex-funcionário.
-ms.openlocfilehash: 735821c9c4d6edf3d23fa3535ed9fa6b3d294b8c
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: e9f87f68650394a81c735346db929bf592e91d18
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782376"
+ms.locfileid: "52779826"
 ---
 # <a name="step-7---delete-a-former-employees-user-account"></a>Etapa 7 - Excluir a conta de usuário de um ex-funcionário
 
@@ -84,6 +84,8 @@ As operações acima podem ser feitas em três locais:
   
  **O mais rápido para um usuário com presença local e no Datacenter do Exchange**: Encerre a sessão usando o centro de administração do Azure Active Directory/centro de administração do Exchange e altere TAMBÉM no ambiente local. Caso contrário, a alteração no centro de administração do Azure Active Directory/centro de administração do Exchange será substituída pelo DirSync.
   
-## <a name="related-content"></a>Conteúdo relacionado
+## <a name="related-articles"></a>Artigos relacionados
 
-[Restaurar um usuário](restore-user.md) (artigo)/ [Redefinir senhas](reset-passwords.md) (artigo)
+[Restaurar um usuário](restore-user.md)
+
+[Redefinir senhas](reset-passwords.md)

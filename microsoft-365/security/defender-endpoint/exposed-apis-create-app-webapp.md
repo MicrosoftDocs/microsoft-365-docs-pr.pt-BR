@@ -15,13 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 8f480a148d72428c6346930a91358d1e8b674ee7
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 4742a32fd899f41d4e7772c52415891cdd8895bf
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200000"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769504"
 ---
 # <a name="create-an-app-to-access-microsoft-defender-for-endpoint-without-a-user"></a>Criar um aplicativo para acessar o Microsoft Defender para Ponto de Extremidade sem um usuário
 
@@ -41,7 +42,7 @@ Esta página descreve como criar um aplicativo para obter acesso programático a
 O Microsoft Defender para Ponto de Extremidade expõe grande parte de seus dados e ações por meio de um conjunto de APIs programáticas. Essas APIs ajudarão você a automatizar fluxos de trabalho e inovar com base nos recursos do Defender para Ponto de Extremidade. O acesso à API requer autenticação OAuth2.0. Para obter mais informações, consulte [OAuth 2.0 Authorization Code Flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
 
 Em geral, você precisará seguir as seguintes etapas para usar as APIs:
-- Crie um aplicativo do Azure Active Directory (Azure AD).
+- Crie um Azure Active Directory (Azure AD).
 - Obter um token de acesso usando este aplicativo.
 - Use o token para acessar a API do Defender para Ponto de Extremidade.
 
@@ -51,9 +52,9 @@ Este artigo explica como criar um aplicativo do Azure AD, obter um token de aces
 
 1. Faça logoff no [Azure](https://portal.azure.com) com um usuário que tenha a **função Administrador Global.**
 
-2. Navegue **até registros do Aplicativo do Azure Active Directory** Novo  >    >  **registro**. 
+2. Navegue **até Azure Active Directory** registros do  >  **aplicativo** Novo  >  **registro**. 
 
-   ![Imagem do Microsoft Azure e navegação para registro de aplicativo](images/atp-azure-new-app2.png)
+   ![Imagem de Microsoft Azure e navegação para registro de aplicativos](images/atp-azure-new-app2.png)
 
 3. No formulário de registro, escolha um nome para seu aplicativo e selecione **Registrar**.
 
@@ -222,5 +223,5 @@ Veja a seguir um exemplo de envio de uma solicitação para obter uma lista de a
 ```
 
 ## <a name="see-also"></a>Confira também
-- [Microsoft Defender para APIs de Ponto de Extremidade com suporte](exposed-apis-list.md)
+- [Suporte de APIs do Microsoft Defender para Ponto de Extremidade](exposed-apis-list.md)
 - [Acessar o Microsoft Defender para Ponto de Extremidade em nome de um usuário](exposed-apis-create-app-nativeapp.md)

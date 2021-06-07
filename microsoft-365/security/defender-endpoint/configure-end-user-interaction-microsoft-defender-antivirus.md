@@ -16,11 +16,11 @@ manager: dansimp
 ms.technology: mde
 ms.topic: article
 ms.openlocfilehash: f7f9ae22081eb7c55cf35b08844b88230bd0b201
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.sourcegitcommit: 83df0be7144c9c5d606f70b4efa65369e86693d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571812"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52778297"
 ---
 # <a name="configure-end-user-interaction-with-microsoft-defender-antivirus"></a>Configurar a interação do usuário final com Microsoft Defender Antivírus
 

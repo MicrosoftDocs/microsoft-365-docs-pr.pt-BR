@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 135dc1d76a1a90cd7fffba0638211d716865cb0c
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 230af2311c52437e01cdb28d823236347cf34b8f
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166251"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769888"
 ---
 # <a name="get-user-related-machines-api"></a>Obter API de máquinas relacionadas ao usuário
 
@@ -52,8 +53,8 @@ Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   Machine.Read.All |  'Ler todos os perfis de máquina'
 Aplicativo |   Machine.ReadWrite.All | 'Ler e gravar todas as informações do computador'
-Delegada (conta corporativa ou de estudante) | Machine.Read | 'Ler informações do computador'
-Delegada (conta corporativa ou de estudante) | Machine.ReadWrite | 'Informações de máquina de leitura e gravação'
+Delegado (conta corporativa ou de estudante) | Machine.Read | 'Ler informações do computador'
+Delegado (conta corporativa ou de estudante) | Machine.ReadWrite | 'Informações de máquina de leitura e gravação'
 
 >[!Note]
 > Ao obter um token usando credenciais de usuário:

@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 54b3e0cd63189e67de0aa101634508ff8833dc6a
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 71daccdbcb223ac48d80721bf0a296d9c1a7c98c
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500251"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770092"
 ---
 # <a name="list-exposure-score-by-device-group"></a>Listar pontuação de exposição por grupo de dispositivos
 
@@ -46,7 +48,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo | Score.Read.All | 'Leitura da pontuação de Gerenciamento de Ameaças e Vulnerabilidades'
-Delegada (conta corporativa ou de estudante) | Score.Read | 'Leitura da pontuação de Gerenciamento de Ameaças e Vulnerabilidades'
+Delegado (conta corporativa ou de estudante) | Score.Read | 'Leitura da pontuação de Gerenciamento de Ameaças e Vulnerabilidades'
 
 ## <a name="http-request"></a>Solicitação HTTP
 

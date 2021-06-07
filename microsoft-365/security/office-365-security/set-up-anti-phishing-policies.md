@@ -17,12 +17,12 @@ ms.custom:
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Proteção do Exchange Online (EOP) e no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d20d9c3839cf72d1e99a185186d0716d9a513c5f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 205fd5cd40d187eada4f6b87edf64c0d35f7e3b3
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537854"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788410"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 

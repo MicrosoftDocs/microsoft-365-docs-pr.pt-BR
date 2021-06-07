@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 recommendations: false
 description: Aprenda a implantar equipes com proteção para dados altamente confidenciais.
-ms.openlocfilehash: 0590e63aa0feb5b699eca98c0056604fe09b77f5
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: a3f715cb05ad1d5acf3c93c58959f12ebec46978
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583647"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788335"
 ---
 # <a name="configure-teams-with-protection-for-sensitive-data"></a>Configurar equipes com proteção para dados altamente confidenciais
 
@@ -33,6 +33,13 @@ Neste artigo, examinamos a criação de uma equipe com um nível de proteção a
 - Um rótulo de confidencialidade para a equipe que permite ativar ou desativar o compartilhamento de convidados e limita o acesso ao conteúdo do Microsoft Office SharePoint Online a somente Web para dispositivos não gerenciados. Este rótulo também pode ser usado para classificar arquivos.
 - Um tipo de link de compartilhamento padrão mais restritivo
 - Somente os proprietários da equipe podem criar canais privados.
+
+## <a name="video-demonstration"></a>Demonstração de vídeo
+
+Assista a este vídeo para ver um passo a passo dos procedimentos descritos neste artigo.
+<br>
+<br>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NMS6]
 
 ## <a name="guest-sharing"></a>Compartilhamento de convidados
 

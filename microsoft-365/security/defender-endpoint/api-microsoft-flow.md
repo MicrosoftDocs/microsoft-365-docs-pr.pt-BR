@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender para Conector de Fluxo de Ponto de Extremidade
+title: Microsoft Defender for Endpoint Flow conector
 ms.reviewer: ''
-description: Use o Microsoft Defender for Endpoint Flow connector para automatizar a segurança e criar um fluxo que será disparado sempre que um novo alerta ocorrer em seu locatário.
+description: Use o Microsoft Defender for Endpoint Flow conector para automatizar a segurança e criar um fluxo que será disparado sempre que um novo alerta ocorrer em seu locatário.
 keywords: fluxo, apis com suporte, api, fluxo da Microsoft, consulta, automação
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -15,15 +15,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 33a7c7b1907ac761dfdde43a70bfb8f515235150
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: dd0cc3c2da134750f905b1f80746d6ec65cc70b2
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51929294"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769696"
 ---
-# <a name="microsoft-power-automate-formerly-microsoft-flow-and-azure-functions"></a>Microsoft Power Automate (anteriormente Microsoft Flow) e Funções do Azure
+# <a name="microsoft-power-automate-formerly-microsoft-flow-and-azure-functions"></a>Microsoft Power Automate (anteriormente Microsoft Flow) e funções do Azure
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,7 +37,7 @@ ms.locfileid: "51929294"
 
 Automatizar procedimentos de segurança é um requisito padrão para cada Centro de Operações de Segurança moderno. A falta de defensores cibernéticos profissionais força o SOC a trabalhar da maneira mais eficiente e a automação é uma tarefa. O Microsoft Power Automate oferece suporte a conectores diferentes que foram construídos exatamente para isso. Você pode criar uma automação de procedimento de ponta a ponta em alguns minutos.
 
-A API do Microsoft Defender tem um Conector de Fluxo oficial com muitos recursos.
+A API do Microsoft Defender tem um conector Flow oficial com muitos recursos.
 
 ![Imagem de credenciais de edição1](images/api-flow-0.png)
 
@@ -46,19 +47,19 @@ A API do Microsoft Defender tem um Conector de Fluxo oficial com muitos recursos
 
 ## <a name="usage-example"></a>Exemplo de uso
 
-O exemplo a seguir demonstra como criar um Fluxo que é acionado sempre que um novo Alerta ocorre em seu locatário.
+O exemplo a seguir demonstra como criar uma Flow que é disparada sempre que um novo Alerta ocorre em seu locatário.
 
-1. Faça logoff no [Microsoft Power Automate](https://flow.microsoft.com).
+1. Faça logoff [no Microsoft Power Automate](https://flow.microsoft.com).
 
 2. Vá para **Meus fluxos**  >    >  **New Automated-from em branco**.
 
     ![Imagem de credenciais de edição2](images/api-flow-1.png)
 
-3. Escolha um nome para o seu Fluxo, procure "Gatilhos do Microsoft Defender ATP" como o gatilho e selecione o novo gatilho Alertas.
+3. Escolha um nome para sua Flow, procure "Microsoft Defender ATP Gatilhos" como o gatilho e selecione o novo gatilho Alertas.
 
     ![Imagem de credenciais de edição3](images/api-flow-2.png)
 
-Agora você tem um Fluxo que é disparado sempre que um novo Alerta ocorre.
+Agora você tem uma Flow que é disparada sempre que um novo Alerta ocorre.
 
 ![Imagem de credenciais de edição4](images/api-flow-3.png)
 
@@ -68,7 +69,7 @@ O gatilho Alerta fornece apenas a ID do Alerta e a ID do Computador. Você pode 
 
 ### <a name="get-the-alert-entity-using-the-connector"></a>Obter a entidade Alert usando o conector
 
-1. Escolha **o Microsoft Defender ATP** para a nova etapa.
+1. Escolha **Microsoft Defender ATP** para a nova etapa.
 
 2. Escolha **Alertas - Obter API de alerta único.**
 
@@ -86,7 +87,7 @@ O gatilho Alerta fornece apenas a ID do Alerta e a ID do Computador. Você pode 
 
     ![Imagem de credenciais de edição6](images/api-flow-5.png)
 
-3. Adicione uma nova etapa para enviar emails sobre o Alerta e o Isolamento. Há vários conectores de email que são muito fáceis de usar, como o Outlook ou o Gmail.
+3. Adicione uma nova etapa para enviar emails sobre o Alerta e o Isolamento. Há vários conectores de email que são muito fáceis de usar, como Outlook ou Gmail.
 
 4. Salve o fluxo.
 

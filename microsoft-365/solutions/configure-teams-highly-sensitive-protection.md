@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 recommendations: false
 description: Aprenda a implantar equipes com proteção para dados altamente confidenciais.
-ms.openlocfilehash: 7c5485a008434b351eebbec3ea1f20b10d82278a
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 3e98b1a52e698d52eba16d4296c062d7347759d0
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583683"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788350"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>Configurar equipes com proteção para dados altamente confidenciais
 
@@ -38,6 +38,13 @@ A camada altamente confidencial oferece as seguintes proteções adicionais sobr
 - Um tipo de link de compartilhamento padrão mais restritivo
 - Somente os proprietários da equipe podem criar canais privados.
 - As solicitações de acesso para o site do Microsoft Office SharePoint Online associado estão desativadas.
+
+## <a name="video-demonstration"></a>Demonstração de vídeo
+
+Assista a este vídeo para ver um passo a passo dos procedimentos descritos neste artigo.
+<br>
+<br>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NzI7]
 
 ## <a name="guest-sharing"></a>Compartilhamento de convidados
 

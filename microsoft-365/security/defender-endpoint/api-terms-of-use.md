@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: f737f5a9aeb9bc45e0cf40c3be0cfdde2bde3779
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 6f0fcf101388f9cae08655117caa5380af1242c2
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933608"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769660"
 ---
 # <a name="microsoft-defender-for-endpoint-api-license-and-terms-of-use"></a>Licença da API do Microsoft Defender para Ponto de Extremidade e termos de uso
 
@@ -45,6 +46,6 @@ Chamadas de API por conexão | 100 | 60 segundos
 
 A Microsoft e quaisquer colaboradores concedem uma licença à documentação da Microsoft e a outros conteúdos neste repositório sob a Licença Pública Internacional de Atribuição do Creative Commons 4.0, consulte o arquivo LICENSE.
 
-Microsoft, Windows, Microsoft Azure e/ou outros produtos e serviços da Microsoft referenciados na documentação podem ser marcas comerciais ou marcas comerciais registradas da Microsoft nos Estados Unidos e/ou em outros países. As licenças deste projeto não concedem direitos para usar nomes, logotipos ou marcas comerciais da Microsoft. As diretrizes gerais de marcas comerciais da Microsoft podem ser encontradas em https://go.microsoft.com/fwlink/?LinkID=254653 .
+Microsoft, Windows, Microsoft Azure e/ou outros produtos e serviços da Microsoft referenciados na documentação podem ser marcas comerciais ou marcas registradas da Microsoft nos Estados Unidos e/ou em outros países. As licenças deste projeto não concedem direitos para usar nomes, logotipos ou marcas comerciais da Microsoft. As diretrizes gerais de marcas comerciais da Microsoft podem ser encontradas em https://go.microsoft.com/fwlink/?LinkID=254653 .
 
 As informações de privacidade podem ser encontradas na Microsoft e qualquer colaborador reserva todos os outros direitos, seja sob seus respectivos direitos autorais, patentes ou marcas comerciais, seja por https://privacy.microsoft.com/en-us/ implicação, estoppel ou não.

@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-compliance
 ms.custom: seo-marvel-apr2020
 description: Neste artigo, você aprenderá sobre como a criptografia de serviço funciona com a Chave do Cliente Microsoft 365.
-ms.openlocfilehash: 3d0c86dbca02a66547f0ade643b745ecfc8f92cd
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: d12a5d2f80de11a69fc4a36146a511c5f9a306f8
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344765"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769444"
 ---
 # <a name="service-encryption-with-customer-key"></a>Criptografia do serviço com a Chave de Cliente
 
@@ -52,8 +52,11 @@ Uma política de criptografia de dados (DEP) define a hierarquia de criptografia
 - Teams de status
 - Informações de usuário e sinal para Exchange Online
 - Exchange Online caixas de correio que ainda não estão criptografadas por DEPs de caixa de correio
-- Dados exatos do MIP (EDM) – (esquemas de arquivo de dados, pacotes de regras e sais usados para hash dos dados confidenciais).
-  Para EDM e Microsoft Teams MIP exatos, o DEP de várias cargas de trabalho criptografa novos dados a partir do momento em que você atribui o DEP ao locatário. Para Exchange Online, a Chave do Cliente criptografa todos os dados existentes e novos.
+- Proteção de Informações da Microsoft:
+
+  - Dados exatos de EDM (data match), incluindo esquemas de arquivo de dados, pacotes de regras e os sais usados para hash dos dados confidenciais. Para EDM e Microsoft Teams, o DEP de várias cargas de trabalho criptografa novos dados a partir do momento em que você atribui o DEP ao locatário. Para Exchange Online, a Chave do Cliente criptografa todos os dados existentes e novos.
+
+  - Configuração de rótulo para rótulos de sensibilidade
 
 Os DEPs de várias cargas de trabalho não criptografam os seguintes tipos de dados. Em vez disso, Microsoft 365 usa outros tipos de criptografia para proteger esses dados.
 

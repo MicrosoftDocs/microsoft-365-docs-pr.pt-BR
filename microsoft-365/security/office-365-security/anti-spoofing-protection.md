@@ -22,12 +22,12 @@ localization_priority: Priority
 description: Os administradores podem saber mais sobre os recursos de anti-falsificação disponíveis na Proteção do Exchange Online (EOP), que podem ajudar a reduzir os ataques de phishing de remetentes e domínios falso.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7680c2f4eae54aa53eba72b328baf1bf92fbcf98
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 17228f634dc4aee9cfd416ca676920a5b4e0fba2
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537962"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779489"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Proteção antifalsificação no EOP
 
@@ -54,14 +54,14 @@ As seguintes tecnologias antifalsificação estão disponíveis na EOP:
 
 - **Permitir ou bloquear remetentes na Lista Permitir/Bloquear Locatários**: quando você substitui o remetente nas informações de inteligência contra falsificação, o remetente falsificado se torna uma permissão manual de entrada ou bloqueio que só aparece na guia **Falsificação** na Lista Permitir/Bloquear Locatário. Você também pode criar manualmente entradas de permissão ou bloqueio para remetentes falsificados antes que eles sejam detectados pela inteligência contra falsificação. Para saber mais, confira [Gerenciar a Lista Permitir/Bloquear Locatário no EOP](tenant-allow-block-list.md).
 
-- **Políticas anti phishing**: no EOP, as políticas anti phishing contêm as seguintes configurações contra falsificação:
+- **Políticas antiphishing**: no EOP e no Microsoft Defender para Office 365, as políticas anti phishing contêm as seguintes configurações contra falsificação:
   - Ativar ou desativar a inteligência contra falsificação.
   - Ativar ou desativar a identificação de remetentes não autenticados no Outlook.
   - Especificar a ação para os remetentes falsificados bloqueados.
 
   Para saber mais, confira [Configurações de inteligência contra falsificação nas políticas anti phishing](set-up-anti-phishing-policies.md#spoof-settings).
 
-  **Observação**: as políticas anti phishing no Microsoft Defender para Office 365 contêm proteções de adição, incluindo proteção contra **usurpação de identidade**. Para saber mais, confira [Configurações exclusivas em políticas anti phishing no Microsoft Defender para Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365).
+  **Observação**: as políticas anti phishing no Defender para Office 365 contêm proteções de adição, incluindo proteção contra **usurpação de identidade**. Para saber mais, confira [Configurações exclusivas em políticas anti phishing no Microsoft Defender para Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365).
 
 - **Relatório de detecção de falsificação**: para saber mais, confira [Relatório de Detecções de Falsificações](view-email-security-reports.md#spoof-detections-report).
 

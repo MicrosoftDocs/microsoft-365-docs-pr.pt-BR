@@ -17,11 +17,11 @@ ms.topic: article
 ms.technology: mde
 ms.custom: api
 ms.openlocfilehash: ab33db7fb7acf1969973a7af8f80ea97ef3d378f
-ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
+ms.sourcegitcommit: 83df0be7144c9c5d606f70b4efa65369e86693d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689092"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52778296"
 ---
 # <a name="export-secure-configuration-assessment-per-device"></a>Exportar avaliação de configuração segura por dispositivo
 
@@ -74,7 +74,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão | Permissão | Nome de exibição de permissão
 ---|---|---
 Aplicativo | Vulnerability.Read.All | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
-Delegada (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
+Delegado (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
 
 ### <a name="13-url"></a>URL 1.3
 
@@ -235,7 +235,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão | Permissão | Nome de exibição de permissão
 ---|---|---
 Aplicativo | Vulnerability.Read.All | \'Ler informações de vulnerabilidade "Gerenciamento de Ameaças e Vulnerabilidades"\'
-Delegada (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade "Gerenciamento de Ameaças e Vulnerabilidades"\'
+Delegado (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade "Gerenciamento de Ameaças e Vulnerabilidades"\'
 
 ### <a name="23-url"></a>URL 2.3
 
