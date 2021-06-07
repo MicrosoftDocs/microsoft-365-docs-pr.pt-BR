@@ -17,12 +17,12 @@ ms.collection:
 description: Saiba como habilitar a Mensagem de Relatório ou os complementos de Phishing de relatório para Outlook e Outlook na Web, para usuários individuais ou para toda a sua organização.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 25c4f7d67fd4fa876544a17df0f4bc1abfd7b3e7
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: ff91cf4c99c9552ab5f5fecd7c6d2efee8d2d9a8
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782928"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789251"
 ---
 # <a name="enable-the-report-message-or-the-report-phishing-add-ins"></a>Habilitar a Mensagem de Relatório ou os complementos de Phishing de Relatório
 
@@ -50,10 +50,9 @@ Se você for um usuário individual, poderá habilitar os dois complementos para
 
 Se você for um administrador global ou um administrador de Exchange Online e o Exchange estiver configurado para usar a autenticação OAuth, você poderá habilitar o complemento Mensagem de Relatório e o complemento Relatar Phishing para sua organização. Os dois complementos agora estão disponíveis por meio da [Implantação Centralizada.](../../admin/manage/centralized-deployment-of-add-ins.md)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - O complemento Mensagem de Relatório e o complemento Phishing de Relatório funcionam com a maioria das assinaturas Microsoft 365 e os seguintes produtos:
-
   - Outlook na Web
   - Outlook 2013 SP1 ou posterior
   - Outlook 2016 para Mac
@@ -69,6 +68,9 @@ Se você for um administrador global ou um administrador de Exchange Online e o 
 - Os administradores precisam ser membros do grupo de função Administradores Globais. Para saber mais, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
 - Para obter mais informações sobre como relatar uma mensagem usando o recurso Mensagem de Relatório, consulte [Report false positives and false negatives in Outlook](report-false-positives-and-false-negatives.md).
+
+> [!IMPORTANT]
+> Não recomendamos a experiência interna de relatório no Outlook porque ela não pode usar a [política de envio do usuário.](./user-submission.md) Em vez disso, recomendamos o uso do add-in Mensagem de Relatório ou do add-in Relatar Phishing.
 
 ## <a name="get-the-report-message-add-in"></a>Obter o complemento Mensagem de Relatório
 

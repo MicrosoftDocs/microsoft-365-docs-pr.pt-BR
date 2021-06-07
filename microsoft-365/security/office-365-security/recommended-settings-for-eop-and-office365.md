@@ -19,12 +19,12 @@ ms.collection:
 description: Quais são as práticas recomendadas para Proteção do Exchange Online (EOP) e Defender para Office 365 configurações de segurança? Quais são as recomendações atuais para proteção padrão? O que deve ser usado se você quiser ser mais rigoroso? E quais extras você obterá se também usar o Defender para Office 365?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b6661c31d0cc05a1bdfd51de986af1e7b22c9d70
-ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
+ms.openlocfilehash: f00e1e2356839e70acafb0f98a5424a1311082e7
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52696521"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793215"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Configurações recomendadas para o EOP e o Microsoft Defender para Office 365 segurança
 
@@ -42,7 +42,7 @@ Embora nós capacitamos os administradores de segurança a personalizar suas con
 Para aplicar automaticamente as configurações Standard ou Strict aos usuários, consulte [Preset security policies in EOP and Microsoft Defender for Office 365](preset-security-policies.md).
 
 > [!NOTE]
-> A regra de lixo eletrônico precisa ser habilitada em caixas de correio para que a filtragem funcione corretamente. Ele está habilitado por padrão, mas você deve verificar se a filtragem não parece estar funcionando. Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).
+> A regra de lixo eletrônico precisa ser habilitada em caixas de correio para que a filtragem funcione corretamente. Ele está habilitado por padrão, mas você deve verificar se a filtragem não parece estar funcionando. Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md).
 
 Este artigo descreve as configurações padrão e também as configurações padrão e estrita recomendadas para ajudar a proteger seus usuários. As tabelas contêm as configurações no centro de segurança Microsoft 365 e no PowerShell (Exchange Online PowerShell ou no PowerShell autônomo Proteção do Exchange Online PowerShell para organizações sem Exchange Online caixas de correio).
 
@@ -55,20 +55,20 @@ Anti-spam, anti-malware e anti-phishing são recursos do EOP que podem ser confi
 
 ### <a name="eop-anti-spam-policy-settings"></a>Configurações de política anti-spam do EOP
 
-Para criar e configurar políticas anti-spam, consulte [Configure anti-spam policies in Office 365](configure-your-spam-filter-policies.md).
+Para criar e configurar políticas anti-spam, consulte [Configure anti-spam policies in EOP](configure-your-spam-filter-policies.md).
 
 <br>
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
 |---|:---:|:---:|:---:|---|
 |**Ação de detecção** de spam <p> _SpamAction_|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mensagem em quarentena** <p> `Quarantine`||
 |**Ação de detecção de spam** de alta confiança <p> _HighConfidenceSpamAction_|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mensagem em quarentena** <p> `Quarantine`|**Mensagem em quarentena** <p> `Quarantine`||
 |**Ação de detecção de phishing** <p> _PhishSpamAction_|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mensagem em quarentena** <p> `Quarantine`|**Mensagem em quarentena** <p> `Quarantine`||
 |**Ação de detecção de phishing de alta** confiança <p> _HighConfidencePhishAction_|**Mensagem em quarentena** <p> `Quarantine`|**Mensagem em quarentena** <p> `Quarantine`|**Mensagem em quarentena** <p> `Quarantine`||
 |**Ação de** detecção em massa <p> _BulkSpamAction_|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mensagem em quarentena** <p> `Quarantine`||
-|**Limite de email em massa** <p> _BulkThreshold_|7 |6 |4 |Para obter detalhes, consulte [Bulk complaint level (BCL) in Office 365](bulk-complaint-level-values.md).|
+|**Limite de email em massa** <p> _BulkThreshold_|7 |6 |4 |Para obter detalhes, consulte [Bulk complaint level (BCL) in EOP](bulk-complaint-level-values.md).|
 |_MarkAsSpamBulkMail_|Habilitado|Habilitado|Habilitado|Essa configuração só está disponível no PowerShell.|
 |**Reter spam em quarentena por esses muitos dias** <p> _QuarantineRetentionPeriod_|15 dias|30 dias|30 dias||
 |**Habilitar dicas de segurança de spam** <p> _InlineSafetyTipsEnabled_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
@@ -84,34 +84,34 @@ Para criar e configurar políticas anti-spam, consulte [Configure anti-spam poli
 
 Há muitas configurações de Filtro de Spam Avançado (ASF) em políticas anti-spam que estão sendo preteridas. Mais informações sobre as linhas do tempo para a depreciação desses recursos serão comunicadas fora deste artigo.
 
-Recomendamos que você deixe as configurações ASF a seguir **desligadas para** os **níveis Standard** **e Strict.** Para obter mais informações sobre as configurações do ASF, consulte [AsF (Advanced Spam Filter) settings in Office 365](advanced-spam-filtering-asf-options.md).
+Recomendamos que você deixe as configurações ASF a seguir **desligadas para** os **níveis Standard** **e Strict.** Para obter mais informações sobre as configurações do ASF, consulte [AsF (Advanced Spam Filter) settings in EOP](advanced-spam-filtering-asf-options.md).
 
 <br>
 
 ****
 
-|Nome do recurso de segurança|Comment|
+|Nome do recurso de segurança|Comentário|
 |---|---|
 |**Links de imagem para sites remotos** (_IncreaseScoreWithImageLinks_)||
 |**Endereço IP numérico na URL** (_IncreaseScoreWithNumericIps_)||
-|**Redirecionamento ul para outra porta** (_IncreaseScoreWithRedirectToOtherPort_)||
-|**URL para sites .biz ou .info** (_IncreaseScoreWithBizOrInfoUrls_)||
+|**Redirecionamento de URL para outra porta** (_IncreaseScoreWithRedirectToOtherPort_)||
+|**Links para sites .biz ou .info** (_IncreaseScoreWithBizOrInfoUrls_)||
 |**Mensagens vazias** (_MarkAsSpamEmptyMessages_)||
-|**JavaScript ou VBScript em HTML** (_MarkAsSpamJavaScriptInHtml_)||
-|**Marcas frame ou IFrame em HTML** (_MarkAsSpamFramesInHtml_)||
-|**Marcas de objeto em HTML** (_MarkAsSpamObjectTagsInHtml_)||
 |**Inserir marcas em HTML** (_MarkAsSpamEmbedTagsInHtml_)||
+|**JavaScript ou VBScript em HTML** (_MarkAsSpamJavaScriptInHtml_)||
 |**Marcas de formulário em HTML** (_MarkAsSpamFormTagsInHtml_)||
+|**Marcas de quadro ou iframe em HTML** (_MarkAsSpamFramesInHtml_)||
 |**Bugs da Web em HTML** (_MarkAsSpamWebBugsInHtml_)||
-|**Aplicar lista de palavras confidenciais** (_MarkAsSpamSensitiveWordList_)||
+|**Marcas de objeto em HTML** (_MarkAsSpamObjectTagsInHtml_)||
+|**Palavras confidenciais** (_MarkAsSpamSensitiveWordList_)||
 |**Registro SPF: falha grave** (_MarkAsSpamSpfRecordHardFail_)||
-|**Filtragem de ID do Remetente Condicional: falha dura** (_MarkAsSpamFromAddressAuthFail_)||
-|**Backscatter de NDR** (_MarkAsSpamNdrBackscatter_)||
+|**Falha na filtragem** de ID de remetente (_MarkAsSpamFromAddressAuthFail_)||
+|**Backscatter** (_MarkAsSpamNdrBackscatter_)||
 |
 
 #### <a name="eop-outbound-spam-policy-settings"></a>Configurações de política de spam de saída do EOP
 
-Para criar e configurar políticas de spam de saída, consulte [Configure outbound spam filtering in Office 365](configure-the-outbound-spam-policy.md).
+Para criar e configurar políticas de spam de saída, consulte [Configure outbound spam filtering in EOP](configure-the-outbound-spam-policy.md).
 
 Para obter mais informações sobre os limites de envio padrão no serviço, consulte [Enviando limites](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-1).
 
@@ -119,32 +119,33 @@ Para obter mais informações sobre os limites de envio padrão no serviço, con
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
 |---|:---:|:---:|:---:|---|
-|**Número máximo de destinatários por usuário: Limite de horário externo** <p> _RecipientLimitExternalPerHour_|0|500|400|O valor padrão 0 significa usar os padrões de serviço.|
-|**Número máximo de destinatários por usuário: Limite interno por hora** <p> _RecipientLimitInternalPerHour_|0|1000|800|O valor padrão 0 significa usar os padrões de serviço.|
-|**Número máximo de destinatários por usuário: Limite diário** <p> _RecipientLimitPerDay_|0|1000|800|O valor padrão 0 significa usar os padrões de serviço.|
-|**Ação quando um usuário excede os limites** <p> _ActionWhenThresholdReached_|**Restringir o usuário de enviar emails até o dia seguinte** <p> `BlockUserForToday`|**Restringir o usuário de enviar emails** <p> `BlockUser`|**Restringir o usuário de enviar emails** <p> `BlockUser`||
+|**Definir um limite de mensagem externa** <p> _RecipientLimitExternalPerHour_|0|500|400|O valor padrão 0 significa usar os padrões de serviço.|
+|**Definir um limite de mensagem interno** <p> _RecipientLimitInternalPerHour_|0|1000|800|O valor padrão 0 significa usar os padrões de serviço.|
+|**Definir um limite diário de mensagens** <p> _RecipientLimitPerDay_|0|1000|800|O valor padrão 0 significa usar os padrões de serviço.|
+|**Restrição colocada em usuários que atingem o limite de mensagens** <p> _ActionWhenThresholdReached_|**Restringir o usuário de enviar emails até o dia seguinte** <p> `BlockUserForToday`|**Restringir o usuário de enviar emails** <p> `BlockUser`|**Restringir o usuário de enviar emails** <p> `BlockUser`||
+|**Regras de encaminhamento automático** <p> _AutoForwardingMode_|**Automático - Controlado pelo sistema** <p> `Automatic`|**Automático - Controlado pelo sistema** <p> `Automatic`|**Automático - Controlado pelo sistema** <p> `Automatic`|
 |
 
 ### <a name="eop-anti-malware-policy-settings"></a>Configurações de política anti-malware do EOP
 
-Para criar e configurar políticas anti-malware, consulte [Configure anti-malware policies in Office 365](configure-anti-malware-policies.md).
+Para criar e configurar políticas anti-malware, consulte [Configure anti-malware policies in EOP](configure-anti-malware-policies.md).
 
 <br>
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
 |---|:---:|:---:|:---:|---|
 |**Notificar destinatários quando as mensagens estão em quarentena como malware** <p> _Action_|Não <p> _DeleteMessage_|Não <p> _DeleteMessage_|Não <p> _DeleteMessage_|Se o malware for detectado em um anexo de email, a mensagem será colocada em quarentena e poderá ser liberada somente por um administrador.|
 |**Habilitar o filtro de anexos comuns** <p> _EnableFileFilter_|Desativada <p> `$false`|Ativada <p> `$true`|Habilitado <p> `$true`|Essa configuração coloca em quarentena as mensagens que contêm anexos executáveis com base no tipo de arquivo, independentemente do conteúdo do anexo.|
 |**Habilitar a limpeza automática de hora zero para malware** <p> _ZapEnabled_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
-|**Notificar os envios internos quando as mensagens são colocadas em quarentena como malware** <p> _EnableInternalSenderNotifications_|Desabilitada <p> `$false`|Desabilitada <p> `$false`|Desabilitada <p> `$false`||
-|**Notificar os envios externos quando as mensagens estão em quarentena como malware** <p> _EnableExternalSenderNotifications_|Desabilitada <p> `$false`|Desabilitada <p> `$false`|Desabilitada <p> `$false`||
+|**Notificar os envios internos quando as mensagens são colocadas em quarentena como malware** <p> _EnableInternalSenderNotifications_|Desabilitado <p> `$false`|Desabilitado <p> `$false`|Desabilitado <p> `$false`||
+|**Notificar os envios externos quando as mensagens estão em quarentena como malware** <p> _EnableExternalSenderNotifications_|Desabilitado <p> `$false`|Desabilitado <p> `$false`|Desabilitado <p> `$false`||
 |
 
-### <a name="eop-default-anti-phishing-policy-settings"></a>Configurações de política anti-phishing padrão do EOP
+### <a name="eop-anti-phishing-policy-settings"></a>Configurações de política anti-phishing do EOP
 
 Para obter mais informações sobre essas configurações, consulte [Configurações de spoof](set-up-anti-phishing-policies.md#spoof-settings). Para configurar essas configurações, consulte [Configure anti-phishing policies in EOP](configure-anti-phishing-policies-eop.md).
 
@@ -152,11 +153,12 @@ Para obter mais informações sobre essas configurações, consulte [Configuraç
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
 |---|:---:|:---:|:---:|---|
-|**Habilitar proteção anti-spoofing** <p> _EnableSpoofIntelligence_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
-|**Habilitar Remetente Não Autenticado** <p> _EnableUnauthenticatedSender_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`|Adiciona um ponto de interrogação (?) à foto do remetente Outlook remetentes não identificados. Para saber mais, confira [Configurações de inteligência contra falsificação nas políticas anti phishing](set-up-anti-phishing-policies.md).|
-|**Se o email for enviado por alguém que não tenha permissão para spoofar seu domínio** <p> _AuthenticationFailAction_|**Mover mensagem para as pastas lixo eletrônico dos destinatários** <p> `MoveToJmf`|**Mover mensagem para as pastas lixo eletrônico dos destinatários** <p> `MoveToJmf`|**Colocar em quarentena a mensagem** <p> `Quarantine`|Essa configuração se aplica a envios com [spoofed](learn-about-spoof-intelligence.md) que foram bloqueados automaticamente, conforme mostrado no insight de inteligência de spoof ou bloqueado manualmente na Lista de Locatários [Permitir/Bloquear.](tenant-allow-block-list.md)|
+|**Habilitar a inteligência de spoof** <p> _EnableSpoofIntelligence_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
+|**Se o email for detectado como spoof** <p> _AuthenticationFailAction_|**Mover mensagem para as pastas lixo eletrônico dos destinatários** <p> `MoveToJmf`|**Mover mensagem para as pastas lixo eletrônico dos destinatários** <p> `MoveToJmf`|**Colocar em quarentena a mensagem** <p> `Quarantine`|Essa configuração se aplica a envios com [spoofed](learn-about-spoof-intelligence.md) que foram bloqueados automaticamente, conforme mostrado no insight de inteligência de spoof ou bloqueado manualmente na Lista de Locatários [Permitir/Bloquear.](tenant-allow-block-list.md)|
+|**Mostrar (?) para envios não autenticados para spoof** <p> _EnableUnauthenticatedSender_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`|Adiciona um ponto de interrogação (?) à foto do remetente Outlook remetentes não identificados. Para saber mais, confira [Configurações de inteligência contra falsificação nas políticas anti phishing](set-up-anti-phishing-policies.md).|
+|**Mostrar a marca "via"** <p> _EnableViaTag_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`|Adiciona uma marca via (chris@contoso.com via fabrikam.com) ao endereço From se for diferente do domínio na assinatura DKIM ou no **endereço MAIL FROM.** <p> Se essa configuração não estiver disponível para  você, o ponto de interrogação e a marca via serão controlados pela marca **Show (?)** para envios não autenticados para configuração de spoof em sua organização.|
 |
 
 ## <a name="microsoft-defender-for-office-365-security"></a>Microsoft Defender para Office 365 segurança
@@ -185,21 +187,20 @@ Para obter mais informações sobre essas configurações, consulte [Impersonati
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
 |---|:---:|:---:|:---:|---|
-|Usuários protegidos: **Adicionar usuários para proteger** <p> _EnableTargetedUserProtection_ <p> _TargetedUsersToProtect_|Desabilitado <p> `$false` <p> nenhuma|Habilitado <p> `$true` <p> \<list of users\>|Habilitado <p> `$true` <p> \<list of users\>|Dependendo da sua organização, recomendamos adicionar usuários (envios de mensagens) em funções-chave. Internamente, os envios protegidos podem ser seu CEO, CFO e outros líderes sênior. Externamente, os envios protegidos podem incluir membros do conselho ou seu conselho de diretores.|
-|Domínios protegidos: **inclua automaticamente os domínios que eu tenho** <p> _EnableOrganizationDomainsProtection_|Desativada <p> `$false`|Ativada <p> `$true`|Habilitado <p> `$true`||
+|Usuários protegidos (senders): **Permitir que os usuários protejam** <p> _EnableTargetedUserProtection_ <p> _TargetedUsersToProtect_|Desabilitado <p> `$false` <p> nenhuma|Habilitado <p> `$true` <p> \<list of users\>|Habilitado <p> `$true` <p> \<list of users\>|Dependendo da sua organização, recomendamos adicionar usuários (envios de mensagens) em funções-chave. Internamente, os envios protegidos podem ser seu CEO, CFO e outros líderes sênior. Externamente, os envios protegidos podem incluir membros do conselho ou seu conselho de diretores.|
+|Usuários protegidos: **se a mensagem for detectada como um usuário personificado** <p> _TargetedUserProtectionAction_|**Não aplique nenhuma ação** <p> `NoAction`|**Colocar em quarentena a mensagem** <p> `Quarantine`|**Colocar em quarentena a mensagem** <p> `Quarantine`||
+|Domínios protegidos: **Incluir domínios que eu tenho** <p> _EnableOrganizationDomainsProtection_|Desativada <p> `$false`|Ativada <p> `$true`|Habilitado <p> `$true`||
 |Domínios protegidos: **incluir domínios personalizados** <p> _EnableTargetedDomainsProtection_ <p> _TargetedDomainsToProtect_|Desabilitado <p> `$false` <p> nenhuma|Habilitado <p> `$true` <p> \<list of domains\>|Habilitado <p> `$true` <p> \<list of domains\>|Dependendo da sua organização, recomendamos adicionar domínios (domínios de remetente) que você não possui, mas você interage com frequência.|
-|Usuários protegidos: **se o email for enviado por um usuário personificado** <p> _TargetedUserProtectionAction_|**Não aplique nenhuma ação** <p> `NoAction`|**Colocar em quarentena a mensagem** <p> `Quarantine`|**Colocar em quarentena a mensagem** <p> `Quarantine`||
-|Domínios protegidos: **se o email for enviado por um domínio personificado** <p> _TargetedDomainProtectionAction_|**Não aplique nenhuma ação** <p> `NoAction`|**Colocar em quarentena a mensagem** <p> `Quarantine`|**Colocar em quarentena a mensagem** <p> `Quarantine`||
-|**Mostrar dica para usuários personificados** <p> _EnableSimilarUsersSafetyTips_|Desativada <p> `$false`|Ativada <p> `$true`|Habilitado <p> `$true`||
-|**Mostrar dica para domínios personificados** <p> _EnableSimilarDomainsSafetyTips_|Desativada <p> `$false`|Ativada <p> `$true`|Habilitado <p> `$true`||
-|**Mostrar dica para caracteres incomuns** <p> _EnableUnusualCharactersSafetyTips_|Desativada <p> `$false`|Ativada <p> `$true`|Habilitado <p> `$true`||
-|**Habilitar a Inteligência de Caixa de Correio?** <p> _EnableMailboxIntelligence_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
-|**Habilitar a proteção de representação baseada em inteligência de caixa de correio?** <p> _EnableMailboxIntelligenceProtection_|Desativada <p> `$false`|Ativada <p> `$true`|Habilitado <p> `$true`||
-|**Se o email for enviado por um usuário personificado protegido pela inteligência de caixa de correio** <p> _MailboxIntelligenceProtectionAction_|**Não aplique nenhuma ação** <p> `NoAction`|**Mover mensagem para as pastas lixo eletrônico dos destinatários** <p> `MoveToJmf`|**Colocar em quarentena a mensagem** <p> `Quarantine`||
-|**Senders confiáveis** <p> _ExcludedSenders_|Nenhum|Nenhum|Nenhum|Dependendo da sua organização, recomendamos adicionar usuários que são marcados incorretamente como phishing devido apenas à representação e não a outros filtros.|
-|**Domínios confiáveis** <p> _ExcludedDomains_|Nenhum|Nenhum|Nenhum|Dependendo da sua organização, recomendamos adicionar domínios que são marcados incorretamente como phishing devido apenas à representação e não a outros filtros.|
+|Domínios protegidos: **se a mensagem for detectada como um domínio personificado** <p> _TargetedDomainProtectionAction_|**Não aplique nenhuma ação** <p> `NoAction`|**Colocar em quarentena a mensagem** <p> `Quarantine`|**Colocar em quarentena a mensagem** <p> `Quarantine`||
+|**Adicionar remetentes e domínios confiáveis** <p> _ExcludedSenders_ <p> _ExcludedDomains_|Nenhum|Nenhum|Nenhum|Dependendo da sua organização, recomendamos adicionar senders ou domínios que são identificados incorretamente como tentativas de representação.|
+|**Habilitar a inteligência de caixa de correio** <p> _EnableMailboxIntelligence_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
+|**Habilitar inteligência para proteção de representação** <p> _EnableMailboxIntelligenceProtection_|Desativada <p> `$false`|Ativada <p> `$true`|Habilitado <p> `$true`|Essa configuração permite a ação especificada para detecções de representação por inteligência de caixa de correio.|
+|**Se a inteligência da caixa de correio detectar e representar o usuário** <p> _MailboxIntelligenceProtectionAction_|**Não aplique nenhuma ação** <p> `NoAction`|**Mover mensagem para as pastas lixo eletrônico dos destinatários** <p> `MoveToJmf`|**Colocar em quarentena a mensagem** <p> `Quarantine`||
+|**Mostrar a identidade do usuário dica de segurança** <p> _EnableSimilarUsersSafetyTips_|Desativada <p> `$false`|Ativada <p> `$true`|Habilitado <p> `$true`||
+|**Mostrar a representação de domínio dica de segurança** <p> _EnableSimilarDomainsSafetyTips_|Desativada <p> `$false`|Ativada <p> `$true`|Habilitado <p> `$true`||
+|**Mostrar caracteres incomuns de representação do usuário dica de segurança** <p> _EnableUnusualCharactersSafetyTips_|Desativada <p> `$false`|Ativada <p> `$true`|Habilitado <p> `$true`||
 |
 
 #### <a name="spoof-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Configurações de spoof em políticas anti-phishing no Microsoft Defender para Office 365
@@ -210,11 +211,12 @@ Observe que essas são as mesmas configurações que estão disponíveis nas con
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
-|---|---|---|---|---|
-|**Habilitar proteção anti-spoofing** <p> _EnableSpoofIntelligence_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
-|**Habilitar Remetente Não Autenticado** <p> _EnableUnauthenticatedSender_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`|Adiciona um ponto de interrogação (?) à foto do remetente Outlook remetentes não identificados. Para saber mais, confira [Configurações de inteligência contra falsificação nas políticas anti phishing](set-up-anti-phishing-policies.md).|
-|**Se o email for enviado por alguém que não tenha permissão para spoofar seu domínio** <p> _AuthenticationFailAction_|**Mover mensagem para as pastas lixo eletrônico dos destinatários** <p> `MoveToJmf`|**Mover mensagem para as pastas lixo eletrônico dos destinatários** <p> `MoveToJmf`|**Colocar em quarentena a mensagem** <p> `Quarantine`|Essa configuração se aplica a envios com [spoofed](learn-about-spoof-intelligence.md) que foram bloqueados automaticamente, conforme mostrado no insight de inteligência de spoof ou bloqueado manualmente na Lista de Locatários [Permitir/Bloquear.](tenant-allow-block-list.md)|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
+|---|:---:|:---:|:---:|---|
+|**Habilitar a inteligência de spoof** <p> _EnableSpoofIntelligence_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
+|**Se o email for detectado como spoof** <p> _AuthenticationFailAction_|**Mover mensagem para as pastas lixo eletrônico dos destinatários** <p> `MoveToJmf`|**Mover mensagem para as pastas lixo eletrônico dos destinatários** <p> `MoveToJmf`|**Colocar em quarentena a mensagem** <p> `Quarantine`|Essa configuração se aplica a envios com [spoofed](learn-about-spoof-intelligence.md) que foram bloqueados automaticamente, conforme mostrado no insight de inteligência de spoof ou bloqueado manualmente na Lista de Locatários [Permitir/Bloquear.](tenant-allow-block-list.md)|
+|**Mostrar (?) para envios não autenticados para spoof** <p> _EnableUnauthenticatedSender_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`|Adiciona um ponto de interrogação (?) à foto do remetente Outlook remetentes não identificados. Para saber mais, confira [Configurações de inteligência contra falsificação nas políticas anti phishing](set-up-anti-phishing-policies.md).|
+|**Mostrar a marca "via"** <p> _EnableViaTag_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`|Adiciona uma marca via (chris@contoso.com via fabrikam.com) ao endereço From se for diferente do domínio na assinatura DKIM ou no **endereço MAIL FROM.** <p> Se essa configuração não estiver disponível para  você, o ponto de interrogação e a marca via serão controlados pela marca **Show (?)** para envios não autenticados para configuração de spoof em sua organização.|
 |
 
 #### <a name="advanced-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Configurações avançadas em políticas anti-phishing no Microsoft Defender para Office 365
@@ -225,9 +227,9 @@ Para obter mais informações sobre essa configuração, consulte Limites avanç
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
 |---|:---:|:---:|:---:|---|
-|**Limites avançados de phishing** <p> _PhishThresholdLevel_|**1 - Standard** <p> `1`|**2 - Agressivo** <p> `2`|**3 - Mais agressivo** <p> `3`||
+|**Limite de email de phishing** <p> _PhishThresholdLevel_|**1 - Standard** <p> `1`|**2 - Agressivo** <p> `2`|**3 - Mais agressivo** <p> `3`||
 |
 
 ### <a name="safe-links-settings"></a>Cofre Configurações de links
@@ -244,11 +246,11 @@ No PowerShell, você usa o cmdlet [Set-AtpPolicyForO365](/powershell/module/exch
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
 |---|:---:|:---:|:---:|---|
 |**Usar Cofre links em: Office 365 aplicativos** <p> _EnableSafeLinksForO365Clients_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`|Use Cofre Links em aplicativos Office 365 desktop e mobile (iOS e Android). Para obter mais informações, [consulte Cofre Configurações de Links para Office 365 aplicativos](safe-links.md#safe-links-settings-for-office-365-apps).|
-|**Não rastreia quando os usuários clicam em Cofre Links** <p> _TrackClicks_|Ativada <p> `$false`|Desativada <p> `$true`|Desabilitado <p> `$true`|Desligar essa configuração (definindo _TrackClicks_ como ) rastreia os cliques do usuário em `$true` aplicativos Office 365 suportados.|
-|**Não permitir que os usuários cliquem Cofre links para a URL original** <p> _AllowClickThrough_|Habilitado <p> `$false`|Habilitado <p> `$false`|Habilitado <p> `$false`|A ativá-la _(configurando AllowClickThrough_ como ) impede que clique na URL original em `$false` aplicativos Office 365 suportados.|
+|**Não rastreia quando os usuários clicam em links protegidos em Office 365 aplicativos** <p> _TrackClicks_|Ativada <p> `$false`|Desativada <p> `$true`|Desabilitado <p> `$true`|Desligar essa configuração (definindo _TrackClicks_ como ) rastreia os cliques do usuário em `$true` aplicativos Office 365 suportados.|
+|**Não permitir que os usuários cliquem na URL original em Office 365 aplicativos** <p> _AllowClickThrough_|Habilitado <p> `$false`|Habilitado <p> `$false`|Habilitado <p> `$false`|A ativá-la _(configurando AllowClickThrough_ como ) impede que clique na URL original em `$false` aplicativos Office 365 suportados.|
 |
 
 #### <a name="safe-links-policy-settings"></a>Cofre Configurações de política de links
@@ -264,7 +266,7 @@ No PowerShell, você usa os cmdlets [New-SafeLinksPolicy](/powershell/module/exc
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
 |---|:---:|:---:|:---:|---|
 |**Selecione a ação para URLs potencialmente mal-intencionadas desconhecidas em mensagens** <p> _IsEnabled_|Desativada <p> `$false`|Ativada <p> `$true`|Habilitado <p> `$true`||
 |**Selecione a ação para URLs desconhecidas ou potencialmente mal-intencionadas dentro Microsoft Teams** <p> _EnableSafeLinksForTeams_|Desativada <p> `$false`|Ativada <p> `$true`|Habilitado <p> `$true`||
@@ -289,7 +291,7 @@ No PowerShell, você usa o cmdlet [Set-AtpPolicyForO365](/powershell/module/exch
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
 |---|:---:|:---:|:---:|---|
 |**Ativar o Defender para Office 365, para SharePoint, OneDrive e Microsoft Teams.** <p> _EnableATPForSPOTeamsODB_|Habilitado <p> `$true`|Habilitado <p> `$true`||
 |**Ativar Cofre documentos para Office clientes** <p> _EnableSafeDocs_|Habilitado <p> `$true`|Habilitado <p> `$true`|Essa configuração só está disponível com Microsoft 365 E5 ou Microsoft 365 E5 Security licenças. Para obter mais informações, [consulte Cofre Documentos no Microsoft Defender para Office 365](safe-docs.md).|
@@ -309,7 +311,7 @@ No PowerShell, você usa os cmdlets [New-SafeAttachmentPolicy](/powershell/modul
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
 |---|:---:|:---:|:---:|---|
 |**Cofre Anexos resposta de malware desconhecido** <p> _Action_|Bloquear <p> `Block`|Bloquear <p> `Block`|Bloquear <p> `Block`||
 |**Anexo de redirecionamento na detecção** : **Habilitar redirecionamento** <p> _Redirecionar_ <p> _RedirectAddress_|Desligado e nenhum endereço de email especificado. <p> `$true` <p> nenhuma|On e especifique um endereço de email. <p> `$true` <p> um endereço de email|On e especifique um endereço de email. <p> `$true` <p> um endereço de email|Redirecionar mensagens para um administrador de segurança para revisão.|

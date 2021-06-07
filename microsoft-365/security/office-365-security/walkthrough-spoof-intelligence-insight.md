@@ -19,12 +19,12 @@ description: Os administradores podem aprender a usar a política de inteligênc
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 821488f79186e1b5c306b587764377989346eea5
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: f0e5c83bc50197e30c12f8f7aeedc83930d7ff5e
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52530881"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793203"
 ---
 # <a name="manage-spoofed-senders-using-the-spoof-intelligence-policy-and-spoof-intelligence-insight-in-eop"></a>Gerenciar envios com spoofed usando a política de inteligência de spoof e o insight de inteligência de spoof no EOP
 
@@ -43,7 +43,7 @@ A política de inteligência de **spoof** (e somente) padrão ajuda a garantir q
 
 Você pode gerenciar a inteligência de spoof no Centro de Conformidade & Segurança ou no PowerShell (Exchange Online PowerShell para organizações Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem Exchange Online caixas de correio).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>.
   - Para ir diretamente para a página **Configurações anti-spam** para a política de inteligência de spoof, use <https://protection.office.com/antispam> .
@@ -69,7 +69,7 @@ Você pode gerenciar a inteligência de spoof no Centro de Conformidade & Segura
   - [Configurar políticas anti-phishing no EOP](configure-anti-phishing-policies-eop.md).
   - [Configure políticas anti-phishing no Microsoft Defender para Office 365](configure-atp-anti-phishing-policies.md).
 
-- Para nossas configurações recomendadas para a inteligência de spoof, consulte Configurações de política [anti-phishing](recommended-settings-for-eop-and-office365.md#eop-default-anti-phishing-policy-settings)padrão do EOP.
+- Para nossas configurações recomendadas para a inteligência de spoof, consulte Configurações de política [anti-phishing do EOP.](recommended-settings-for-eop-and-office365.md#eop-anti-phishing-policy-settings)
 
 ## <a name="manage-spoofed-senders"></a>Gerenciar envios com spoofed
 
@@ -96,7 +96,7 @@ Há duas maneiras de permitir e bloquear os envios de spoofed:
    - **Seus Domínios**: Os senders são os usuários que são depondo em seus domínios internos.
    - **Domínios Externos**: Os senders são os usuários depondo em domínios externos.
 
-5. Clique ![ em Expandir ícone na coluna Permitido a ](../../media/scc-expand-icon.png) **spoof?** Escolha **Sim** para permitir que o remetente spoofed ou escolha **Não** para marcar a mensagem como falsa. A ação é controlada pela política anti-phishing padrão ou políticas anti-phishing personalizadas (o valor padrão é Mover mensagem para a pasta **Lixo Eletrônico**). Para obter mais informações, consulte [Configurações de Spoof em políticas anti-phishing](set-up-anti-phishing-policies.md#spoof-settings).
+5. Clique ![ em Expandir ícone na coluna Permitido a ](../../media/scc-expand-icon.png) **spoof?** Escolha **Sim** para permitir que o remetente spoofed ou escolha **Não** para marcar a mensagem como falsa. A ação é controlada pela política anti-phishing padrão ou políticas anti-phishing personalizadas (o valor padrão é Mover mensagem para a pasta **Lixo Eletrônico**). Para saber mais, confira [Configurações de inteligência contra falsificação nas políticas anti phishing](set-up-anti-phishing-policies.md#spoof-settings).
 
    ![Captura de tela mostrando o sobrevoo de remetentes e se o remetente tem permissão para fazer a spoof](../../media/c0c062fd-f4a4-4d78-96f7-2c22009052bb.jpg)
 

@@ -20,12 +20,12 @@ description: Os administradores podem aprender sobre a proteção contra ameaça
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 77b76a56c34a005b0e0742f207e2824359ae8cac
-ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
+ms.openlocfilehash: ac90aa853769b239386d422e0b196a1f6140bf95
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52696545"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793191"
 ---
 # <a name="protect-against-threats"></a>Proteção contra ameaças
 
@@ -101,45 +101,57 @@ Para obter mais informações sobre as configurações recomendadas para anti-ma
 
    Quando concluir, clique em **Salvar**.
 
-4. De volta ao sobremenu de detalhes da política, clique em **Fechar**.
+4. De volta ao submenu de detalhes da política, clique em **Fechar**.
 
 Para obter instruções detalhadas sobre como configurar políticas anti-malware, consulte [Configure anti-malware policies in EOP](configure-anti-malware-policies.md).
 
-## <a name="part-2---anti-phishing-protection"></a>Parte 2 - Proteção anti-phishing
+## <a name="part-2---anti-phishing-protection-in-eop-and-defender-for-office-365"></a>Parte 2 - Proteção anti-phishing no EOP e no Defender para Office 365
 
 [A proteção anti-phishing](anti-phishing-protection.md) está disponível em assinaturas que incluem [eOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description). A proteção anti-phishing avançada está disponível no [Defender para](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)Office 365 .
 
-O procedimento a seguir descreve como configurar uma política anti-phishing no Microsoft Defender para Office 365. As etapas são semelhantes para configurar uma política anti-phishing no EOP.
+Para obter mais informações sobre as configurações recomendadas para políticas [anti-phishing, consulte EOP anti-phishing](recommended-settings-for-eop-and-office365.md#eop-anti-phishing-policy-settings) policy settings and [Anti-phishing policy settings in Microsoft Defender for Office 365](recommended-settings-for-eop-and-office365.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365).
 
-1. No Centro [de Conformidade & segurança,](https://protection.office.com)escolha **Política** de Gerenciamento de \> **Ameaças** \> **Anti-phishing**.
+O procedimento a seguir descreve como configurar a política anti-phishing padrão. Configurações que estão disponíveis apenas no Defender para Office 365 estão claramente marcados.
 
-2. Clique **em Política padrão**.
+1. Abra <https://security.microsoft.com/antiphishing> .
 
-3. Na seção **Representação,** clique em **Editar** e especifique as seguintes configurações:
+2. Na página **Anti-phishing,** selecione a política chamada **Office365 AntiPhish Default (Default)** clicando no nome.
 
-   - Na guia **Adicionar usuários para proteger,** acentue *a proteção.* Em seguida, adicione usuários, como membros do conselho da sua organização, seu CEO, CFO e outros líderes sênior. (Você pode digitar um endereço de email individual ou clicar para exibir uma lista.)
+3. No sobremenu de detalhes da política exibido, configure as seguintes configurações:
 
-   - Na guia **Adicionar domínios para proteger,** a aciona **Automaticamente incluir os domínios que eu tenho**. Se você tiver domínios personalizados, adicione-os agora.
+   - **Seção Limite de phishing &** proteção: clique em **Editar** configurações de proteção e configure as seguintes configurações no flyout **Editar** configurações de proteção que é aberto:
+     - **Limite de email de phishing** <sup>\*</sup> : Selecione **2 - Agressivo** (Padrão) ou **3 - Mais Agressivo** (Estrito).
+     - **Seção Representação** <sup>\*</sup> : Configurar os seguintes valores:
+       - Selecione **Permitir** que os usuários protejam , clique no link Gerenciar **remetentes (nn)** exibido e adicione remetentes internos e externos para proteger contra representação, como membros do conselho da sua organização, seu CEO, CFO e outros líderes sêniores.
+       - Selecione **Habilitar domínios para proteger** e, em seguida, configure as seguintes configurações que aparecem:
+         - Selecione **Incluir domínios que eu tenho** para proteger os envios internos em seus domínios aceitos (visível clicando em Exibir meus **domínios**) de representação.
+         - Para proteger os senders em outros domínios, selecione Incluir **domínios personalizados**, clique no link Gerenciar **(nn) domínios** personalizados exibidos e adicione outros domínios para proteger contra representação.
+     - **Adicionar remetentes** e domínios confiáveis seção : Clique em Gerenciar (nn) remetentes confiáveis e <sup>\*</sup> **domínios(s)** para configurar exceções de domínio de remetente e remetente para proteção de representação, se necessário.
+     - Configurações de inteligência de caixa de correio : Verifique se Habilitar inteligência de caixa de correio e <sup>\*</sup> **Habilitar inteligência para proteção de representação** estão selecionados. 
+     - **Seção Spoof:** Verifique **se Habilitar a inteligência de spoof** está selecionada.
 
-   - Na guia **Ações,** selecione Colocar em quarentena **a mensagem** para o usuário personificado **e** as opções de **domínio personificados.** Além disso, a turn on impersonation safety tips.
+     Quando concluir, clique em **Salvar**.
 
-   - Na guia **Inteligência de** Caixa de Correio, certifique-se de que a inteligência da caixa de correio está 100% 100% 100% 2000 e a proteção de representação baseada em inteligência de caixa de correio. Na lista Se o email for enviado por uma lista **de usuários personificados,** escolha Colocar em quarentena **a mensagem**.
+   - **Seção Ações:** clique **em Editar ações** e configure as seguintes configurações no flyout Editar **ações** que é aberto:
+     - **Seção Ações de** mensagem: Configure as seguintes configurações:
+       - **Se a mensagem for detectada como um usuário personificado** <sup>\*</sup> : Selecione Colocar em quarentena a **mensagem**.
+       - **Se a mensagem for detectada como um domínio personificado** <sup>\*</sup> : Selecione Colocar em quarentena a **mensagem**.
+       - **Se a inteligência da caixa de** correio detectar um usuário personificado : Selecione Mover mensagem para as pastas de Lixo Eletrônico (Padrão) dos destinatários ou Coloque em quarentena a <sup>\*</sup> **mensagem** (Estrita). 
+       - Se a mensagem for detectada como **spoof**: Selecione Mover mensagem para as pastas lixo eletrônico dos **destinatários** (Standard) ou Coloque em quarentena a **mensagem** (Estrita).
+     - **Dicas de segurança & seção indicadores:** Configure as seguintes configurações:
+       - **Mostrar a identidade do usuário dica de segurança**: Selecione <sup>\*</sup> (ativar).
+       - **Mostrar a representação de domínio dica de segurança**: Selecione <sup>\*</sup> (ativar).
+       - **Mostrar caracteres incomuns de** representação do usuário dica de segurança <sup>\*</sup> : Selecione (ativar).
+       - **Mostrar (?) para** envios não autenticados para spoof : Selecione (ativar).
+       - **Mostrar a marca "via":** Selecione (ativar) se essa configuração estiver disponível.
 
-   - Na guia **Adicionar senders e domínios** confiáveis, especifique qualquer senders ou domínios confiáveis que você deseja adicionar.
+     Quando concluir, clique em **Salvar**.
 
-   - **Salve** na guia **Revisar suas configurações** depois de revisar suas configurações.
+   <sup>\*</sup>Essa configuração está disponível somente no Defender para Office 365.
 
-4. Na seção **Spoof,** clique em **Editar** e especifique as seguintes configurações:
+4. Clique **em Salvar** e clique em **Fechar**
 
-   - Na guia **Configurações de filtro de spoofing,** certifique-se de que a proteção anti-spoofing está 100% 100% 2000.
-
-   - Na guia **Ações,** escolha **Colocar em quarentena a mensagem**.
-
-   - **Salve** na guia **Revisar suas configurações** depois de revisar suas alterações. (Se você não fez nenhuma alteração, **Cancel**.)
-
-5. Feche a página de configurações de política padrão.
-
-Para saber mais sobre suas opções de política anti-phishing, consulte [Configure anti-phishing policies in Microsoft Defender for Office 365](configure-atp-anti-phishing-policies.md).
+Para obter instruções detalhadas sobre como configurar políticas anti-phishing, consulte [Configure anti-phishing policies in EOP](configure-anti-phishing-policies-eop.md) and [Configure anti-phishing policies in Microsoft Defender for Office 365](configure-atp-anti-phishing-policies.md).
 
 ## <a name="part-3---anti-spam-protection-in-eop"></a>Parte 3 - Proteção anti-spam no EOP
 
@@ -147,15 +159,13 @@ Para obter mais informações sobre as configurações recomendadas para anti-sp
 
 1. Abra <https://security.microsoft.com/antispam> .
 
-2. Na página **Políticas anti-spam,** selecione a política chamada Política de entrada **anti-spam** na lista clicando no nome.
+2. Na página **Políticas anti-spam,** selecione a política chamada Política de entrada **anti-spam (Padrão)** na lista clicando no nome.
 
-3. No sobremenu de detalhes da política exibido, clique em Editar limite de **spam** e propriedades na seção Limite de email em massa **& de spam.**
+3. No sobremenu de detalhes da política exibido, faça as seguintes etapas:
+   - **Limite de email em massa & seção propriedades de spam:** Clique em **Editar limite de spam e propriedades**. No limite **de spam e** no sobrevoo de propriedades que aparece, de definir o valor limite de **email** em massa como 5 (Estrito) ou 6 (Standard). Quando concluir, clique em **Salvar**.
+   - **Seção Senders e domínios permitidos e bloqueados:** Revise ou edite seus senders permitidos e domínios permitidos.
 
-4. No limite **de spam e** no sobrevoo de propriedades que aparece, de definir o valor limite de **email** em massa como 5 (Estrito) ou 6 (Standard). Quando terminar, clique em **Salvar**
-
-5. De volta ao sobremenu de detalhes da política, vá para a seção Senders e **domínios permitidos** e bloqueados e revise ou edite seus senders permitidos e domínios permitidos.
-
-6. Quando terminar, clique em **Fechar**.
+4. Quando terminar, clique em **Fechar**.
 
 Para obter instruções detalhadas sobre como configurar políticas anti-spam, consulte [Configure anti-spam policies in EOP](configure-your-spam-filter-policies.md).
 

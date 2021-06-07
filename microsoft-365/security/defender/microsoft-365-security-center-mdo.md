@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: 2322dbab657d6dd73ce79b3a8e52a3d968c45809
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: ec5d22caa52ffaa061637cb8c510a0efaf566b6a
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770968"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782892"
 ---
 # <a name="microsoft-defender-for-office-365-in-the-microsoft-365-security-center"></a>Microsoft Defender para Office 365 no Centro de segurança do Microsoft 365
 
@@ -44,7 +44,7 @@ A imagem e a tabela a seguir lista as alterações na navegação entre o Centro
 
 ****
 
-|Conformidade e Segurança do Office 365|Centro de segurança do Microsoft 365|Centro de conformidade do Microsoft 365|Centro de administração do Exchange|
+|Conformidade e Segurança do Office 365|Central de segurança do Microsoft 365|Centro de conformidade do Microsoft 365|Centro de administração do Exchange|
 |---|---|---|---|
 |Alertas|Email e colaboração|||
 |Classificação||Consulte [Microsoft 365 de conformidade](https://compliance.microsoft.com/homepage)||
@@ -56,7 +56,7 @@ A imagem e a tabela a seguir lista as alterações na navegação entre o Centro
 |Privacidade de dados||Consulte [Microsoft 365 de conformidade](https://compliance.microsoft.com/homepage)||
 |Pesquisar|Pesquisar|||
 |Relatórios|Relatório|||
-|Garantia do serviço|Settings|||
+|Garantia do serviço|Configurações|||
 |
 
 O [Centro de segurança do Microsoft 365](./overview-security-center.md) em <https://security.microsoft.com> combina os recursos de segurança de portais de segurança existentes da Microsoft, incluindo a Central de Segurança do Microsoft Defender e o Centro de Segurança e Conformidade do Office 365. Este centro aprimorado ajuda as equipes de segurança a proteger suas organizações de ameaças de maneira mais eficaz e eficiente.

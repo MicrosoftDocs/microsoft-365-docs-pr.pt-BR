@@ -15,12 +15,12 @@ ms.collection:
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing avançadas disponíveis em organizações com o Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8cbe517ef2a702e3e4fd7f6af4ee1d7ed1dd13d2
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 9af3824b245cd976d1e859d6ebc4efcda47325e0
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789121"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793083"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas anti-phishing no Microsoft Defender para Office 365
 
@@ -164,7 +164,7 @@ A criação de uma política anti-phishing personalizada no centro de segurança
 
        De volta ao **flyout Gerenciar domínios personalizados** para representação, você pode remover entradas selecionando uma ou mais entradas da lista. Você pode pesquisar entradas usando a caixa ![ Pesquisar ícone ](../../media/m365-cc-sc-create-icon.png) **de** pesquisa.
 
-       Depois de selecionar pelo menos uma entrada, o ícone Excluir ícone Excluir será exibido, que você pode ![ usar para remover as entradas ](../../media/m365-cc-sc-delete-icon.png)  selecionadas.
+       Depois de selecionar pelo menos uma entrada, o ícone Excluir domínios Excluir será exibido, que você pode usar para ![ remover as entradas ](../../media/m365-cc-sc-delete-icon.png)  selecionadas.
 
    - **Adicione remetentes** e domínios confiáveis: : Especifique exceções de proteção de representação para a política clicando em **Gerenciar (nn) remetentes confiáveis e domínios(s)**. No flyout **Gerenciar domínios personalizados para** proteção de representação que aparece, configure as seguintes configurações:
       - **Remetentes**: verifique se **a** guia Remetente está selecionada e clique em ![ Adicionar ícone de ](../../media/m365-cc-sc-create-icon.png) remetentes. No **sobrevoo Adicionar remetentes** confiáveis que aparece, insira um endereço de email na caixa e clique em **Adicionar**. Repita essa etapa quantas vezes forem necessárias. Para remover uma entrada existente, clique em ![ Excluir ícone ](../../media/m365-cc-sc-close-icon.png) da entrada.
@@ -243,7 +243,7 @@ A criação de uma política anti-phishing personalizada no centro de segurança
 
    Ao terminar, clique em **Avançar**.
 
-7. Na página **Revisão** exibida, revise suas configurações. Você pode selecionar **Editar** em cada seção para modificar as configurações da seção.
+7. Na página **Revisão** exibida, revise suas configurações. Você pode selecionar **Editar** em cada seção para modificar as configurações da seção. Ou você pode clicar **em Voltar** ou selecionar a página específica no assistente.
 
    Quando terminar, clique em **Enviar**.
 
