@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: da51e0e3509ac2be60b9961dc2a0532d29f4f137
-ms.sourcegitcommit: cc9e3cac6af23f20d7cc5ac6fc6f6e01bc3cc5c5
+ms.openlocfilehash: bb73c303e1266a7d19b3578fb01b849b5e96990f
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52736343"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770668"
 ---
 # <a name="windows-10-and-office-365-deployment-lab-kit"></a>Windows 10 e Office 365 kit de laboratório de implantação
 
@@ -28,7 +28,7 @@ O Windows 10 e o Office 365 de implantação foram projetados para ajudá-lo a p
 
 Esse kit é altamente recomendado para organizações que se preparam para Windows 8.1 atualizações para Windows 10. Também se aplica se você estiver usando Windows 10, Microsoft 365 Apps para Grandes Empresas (anteriormente Office 365 ProPlus) ou Office 2019. Como um ambiente isolado, o laboratório resultante é ideal para explorar atualizações de ferramentas de implantação e testar sua automação relacionada à implantação.
 
-[Baixe o Kit de laboratório de implantação do Office e do Windows](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
+[Baixe o Windows 10 e Office 365 kit de laboratório de implantação.](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
 ## <a name="a-complete-lab-environment"></a>Um ambiente de laboratório completo
 
@@ -36,7 +36,7 @@ O kit fornece um ambiente de laboratório virtual provisionado automaticamente, 
 
   - NOVO! Windows 10 Enterprise, Versão 21H1
   - Windows 7 Enterprise
-  - NOVO! Microsoft Endpoint Configuration Manager, Versão 2103*
+  - NOVO! Microsoft Endpoint Configuration Manager, Versão 2103
   - Kit de Avaliação e Implantação do Windows para Windows 10
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization (App-V)

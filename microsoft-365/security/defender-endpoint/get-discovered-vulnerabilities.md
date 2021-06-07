@@ -1,7 +1,7 @@
 ---
 title: Obter vulnerabilidades descobertas
 description: Recupera uma coleção de vulnerabilidades descobertas relacionadas a uma determinada ID de dispositivo.
-keywords: apis, api gráfica, apis com suporte, obter, listar, arquivo, informações, vulnerabilidades descobertas, api de gerenciamento de & de ameaças, api de tvm do Microsoft Defender para Endpoint
+keywords: apis, api gráfica, apis com suporte, obter, listar, arquivo, informações, vulnerabilidades descobertas, api de & Gerenciamento de Vulnerabilidades de ameaças, api de tvm do Microsoft Defender para Endpoint
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 133a8525a2e561062a492f7148de97a77d37444e
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: ac7a9ef932f2640bbc5325f0154c0ceb48ae3018
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934316"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772288"
 ---
 # <a name="get-discovered-vulnerabilities"></a>Obter vulnerabilidades descobertas
 
@@ -49,7 +50,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão | Permissão | Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |Vulnerability.Read.All | 'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades'
-Delegada (conta corporativa ou de estudante) | Vulnerability.Read | 'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades'
+Delegado (conta corporativa ou de estudante) | Vulnerability.Read | 'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades'
 
 ## <a name="http-request"></a>Solicitação HTTP
 

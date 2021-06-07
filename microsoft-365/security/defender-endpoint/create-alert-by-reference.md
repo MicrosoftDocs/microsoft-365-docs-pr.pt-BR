@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 9066bcdae549f7a6b1372714d567674eb03c1e51
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 8b05dde015bc96e1ccd3f80e25c416a371e03199
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166296"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772384"
 ---
 # <a name="create-alert-api"></a>Criar API de alerta
 
@@ -57,7 +58,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   Alerts.ReadWrite.All |  'Ler e gravar todos os alertas'
-Delegada (conta corporativa ou de estudante) | Alert.ReadWrite | 'Alertas de leitura e gravação'
+Delegado (conta corporativa ou de estudante) | Alert.ReadWrite | 'Alertas de leitura e gravação'
 
 >[!Note]
 > Ao obter um token usando credenciais de usuário:
@@ -88,7 +89,7 @@ reportId | Cadeia de caracteres | O reportId do evento, conforme obtido da busca
 machineId | Cadeia de caracteres | ID do dispositivo no qual o evento foi identificado. **Obrigatório**.
 severity | Cadeia de caracteres | Gravidade do alerta. Os valores da propriedade são: 'Low', 'Medium' e 'High'. **Obrigatório**.
 title | Cadeia de caracteres | Título do alerta. **Obrigatório**.
-descrição | Cadeia de caracteres | Descrição do alerta. **Obrigatório**.
+description | Cadeia de caracteres | Descrição do alerta. **Obrigatório**.
 recommendedAction| Cadeia de caracteres | Ação recomendada pelo agente de segurança ao analisar o alerta. **Obrigatório**.
 category| Cadeia de caracteres | Categoria do alerta. Os valores da propriedade são: "Geral", "CommandAndControl", "Collection", "CredentialAccess", "DefenseEvasion", "Discovery", "Exfiltração", "Exploit", "Execution", "InitialAccess", "LateralMovement", "Malware", "Persistência", "PrivilegeEscalation", "Ransomware", "SuspiciousActivity" **Required**.
 

@@ -18,12 +18,12 @@ ms.collection:
 description: Os administradores podem aprender a exibir e configurar configurações globais (a lista "Bloquear as URLs a seguir" e a proteção para aplicativos Office 365) para links do Cofre no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 11544953bf348c47e697b3210da709cccdb31a7e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 623b1bcd670f42c7c6b49c06cacfa31cb8adfd49
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245835"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52792987"
 ---
 # <a name="configure-global-settings-for-safe-links-in-microsoft-defender-for-office-365"></a>Configurar configurações globais para Cofre links no Microsoft Defender para Office 365
 
@@ -45,13 +45,13 @@ No entanto, Cofre Links também usa as seguintes configurações globais que voc
 - A **lista Bloquear as URLs a** seguir. Essa configuração se aplica a todos os usuários incluídos em qualquer política Cofre Links ativas. Para obter mais informações, consulte ["Bloquear a lista de URLs a seguir" para Cofre Links](safe-links.md#block-the-following-urls-list-for-safe-links)
 - Cofre Proteção de links para Office 365 aplicativos. Essas configurações se aplicam a todos os usuários da organização licenciados para o Defender para Office 365, independentemente de os usuários estar incluídos em políticas Cofre Links ativos ou não. Para obter mais informações, [consulte Cofre Configurações de Links para Office 365 aplicativos](safe-links.md#safe-links-settings-for-office-365-apps).
 
-Você pode configurar as configurações globais de Links do Cofre no Centro de Conformidade de Segurança & ou no PowerShell (Exchange Online PowerShell para organizações de Microsoft 365 qualificadas com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem caixas de correio Exchange Online, mas com o Microsoft Defender para assinaturas de complemento do Office 365).
+Você pode configurar as configurações globais de Links do Cofre no centro de segurança do Microsoft 365 ou no PowerShell (Exchange Online PowerShell para organizações de Microsoft 365 qualificadas com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem caixas de correio Exchange Online, mas com o Microsoft Defender para assinaturas de complemento do Office 365).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Não há política de links interna ou padrão Cofre, portanto, você precisa criar pelo menos uma política Cofre Links para que a lista bloquear as **URLs a** seguir seja ativa. Para obter instruções, [consulte Set up Cofre Links policies in Microsoft Defender for Office 365](set-up-safe-links-policies.md).
 
-- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **Cofre Links,** use <https://protection.office.com/safelinksv2> .
+- Abra o centro de segurança em <https://security.microsoft.com/>. Para ir diretamente para a página **Cofre Links,** use <https://security.microsoft.com/safelinksv2> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -72,13 +72,13 @@ Você pode configurar as configurações globais de Links do Cofre no Centro de 
 
 - [Novos recursos estão sendo adicionados continuamente ao Microsoft Defender para](defender-for-office-365.md#new-features-in-microsoft-defender-for-office-365)Office 365 . À medida que novos recursos são adicionados, talvez seja necessário fazer ajustes nas políticas de links Cofre existentes.
 
-## <a name="configure-the-block-the-following-urls-list-in-the-security--compliance-center"></a>Configure a lista "Bloquear as URLs a seguir" no Centro de Conformidade & Segurança
+## <a name="configure-the-block-the-following-urls-list-in-the-security-center"></a>Configurar a lista "Bloquear as URLs a seguir" no centro de segurança
 
 A **lista Bloquear as URLs** a seguir identifica os links que sempre devem ser bloqueados Cofre verificação de links em aplicativos com suporte. Para obter mais informações, consulte ["Bloquear a lista de URLs a seguir" para Cofre Links](safe-links.md#block-the-following-urls-list-for-safe-links).
 
-1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças ATP Cofre Links e clique \>  \> em **Configurações globais**.
+1. No centro de segurança, vá para **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras \>  \>  \>  \> **Cofre Links**.
 
-2. Na política **Cofre Links para** sua organização que aparece, vá para a caixa Bloquear as **URLs a** seguir.
+2. Na página **Cofre Links,** clique em **Configurações globais**. Na política **Cofre Links para** sua organização que aparece, vá para a caixa Bloquear as **URLs a** seguir.
 
 3. Configure uma ou mais entradas conforme descrito em Sintaxe de entrada para a lista ["Bloquear as URLs a seguir".](safe-links.md#entry-syntax-for-the-block-the-following-urls-list)
 
@@ -117,19 +117,19 @@ Você pode usar o cmdlet **Get-AtpPolicyForO365** para exibir entradas existente
   Set-AtpPolicyForO365 -BlockUrls @{Add="adatum.com"; Remove="fabrikam"}
   ```
 
-## <a name="configure-safe-links-protection-for-office-365-apps-in-the-security--compliance-center"></a>Configurar Cofre de links para Office 365 aplicativos no Centro de Conformidade & Segurança
+## <a name="configure-safe-links-protection-for-office-365-apps-in-the-security-center"></a>Configurar Cofre proteção de links para Office 365 aplicativos no centro de segurança
 
 Cofre A proteção de links Office 365 aplicativos se aplica a documentos em aplicativos Office desktop, mobile e Web suportados. Para obter mais informações, [consulte Cofre Configurações de Links para Office 365 aplicativos](safe-links.md#safe-links-settings-for-office-365-apps).
 
-1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças ATP Cofre Links e clique \>  \> em **Configurações globais**.
+1. No centro de segurança, vá para **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras \>  \>  \>  \> **Cofre Links**.
 
-2. Na política **Cofre Links** para sua organização que aparece, configure as seguintes configurações no Configurações que se aplicam ao conteúdo, exceto à seção **email:**
+2. Na página **Cofre Links,** clique em **Configurações globais**. Na política **Cofre Links** para sua organização que aparece, configure as seguintes configurações no Configurações que se aplicam **ao** conteúdo na seção aplicativos Office 365 com suporte:
 
-   - **Office 365**: Verifique se a alternância está à direita para habilitar Cofre Links para aplicativos Office 365 com ![ suporte: Alternar ](../../media/scc-toggle-on.png) em .
+   - **Usar Cofre Links** em aplicativos Office 365 : Verifique se a alternância está à direita para habilitar Cofre Links para aplicativos Office 365 com suporte: ![ Alternar em ](../../media/scc-toggle-on.png) .
 
-   - **Não rastreia quando** os usuários clicam em Cofre Links: mova a alternância para a esquerda para controlar os cliques do usuário relacionados a URLs bloqueadas em aplicativos Office 365 com suporte: ![ Alternar ](../../media/scc-toggle-off.png) para fora .
+   - **Não rastreia quando** os usuários clicam em links protegidos em aplicativos Office 365 : Mova a alternância para a esquerda para controlar os cliques do usuário relacionados a URLs bloqueadas em aplicativos Office 365 suportados: ![ Alternar ](../../media/scc-toggle-off.png) para fora .
 
-   - **Não permitir que** os usuários cliquem em Cofre Links para a URL original : Verifique se a alternância está à direita para impedir que os usuários cliquem na URL bloqueada original em aplicativos Office 365 com suporte: ![ Alternar em ](../../media/scc-toggle-on.png) .
+   - **Não permitir** que os usuários cliquem na URL original em aplicativos Office 365 : Verifique se a alternância está à direita para impedir que os usuários cliquem na URL bloqueada original em aplicativos Office 365 suportados: ![ Alternar ](../../media/scc-toggle-on.png) .
 
    Quando concluir, clique em **Salvar**.
 
@@ -157,7 +157,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-
 
 Para verificar se você configurou com êxito as configurações globais para links Cofre (a lista Bloquear as **SEGUINTES URLs** e as configurações de proteção de aplicativos Office 365), faça qualquer uma das seguintes etapas:
 
-- No Centro de Conformidade & segurança,  vá para Política de Gerenciamento de Ameaças atp Cofre \>  \> **Links,** clique em **Configurações** globais e verifique as configurações no fly out que aparece.
+- No centro de segurança, vá até **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras Cofre Links clique em Configurações globais e verifique as configurações no sobrevoo que \>  \>  \>  \>  \> aparece. 
 
 - No Exchange Online PowerShell ou Proteção do Exchange Online PowerShell, execute o seguinte comando e verifique as configurações:
 

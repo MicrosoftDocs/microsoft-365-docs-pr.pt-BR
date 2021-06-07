@@ -14,82 +14,56 @@ manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: d95f8dec433f29dea0fd5f7f718f34f571b790d4
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.date: 06/03/2021
+ms.openlocfilehash: ce54f8205e62b953022fd2518caac058f4f9bab2
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274803"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788794"
 ---
-# <a name="use-next-generation-technologies-in-microsoft-defender-antivirus-through-cloud-delivered-protection"></a>Usar tecnologias de última geração em Microsoft Defender Antivírus por meio da proteção entregue na nuvem
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
+# <a name="cloud-delivered-protection-and-microsoft-defender-antivirus"></a>Proteção fornecida na nuvem e Microsoft Defender Antivírus
 
 **Aplica-se a:**
 
 - [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
 - Microsoft Defender Antivírus
 
-As tecnologias de próxima geração da Microsoft Microsoft Defender Antivírus oferecem proteção quase instantânea e automatizada contra ameaças novas e emergentes. Para identificar dinamicamente as novas ameaças, essas tecnologias funcionam com grandes conjuntos de dados interconectados no gráfico de segurança inteligente da Microsoft e sistemas AI (inteligência artificial) impulsionados pelos modelos avançados de aprendizado de máquina.  
+As tecnologias de próxima geração Microsoft Defender Antivírus oferecem proteção quase instantânea e automatizada contra ameaças novas e emergentes. Para identificar novas ameaças dinamicamente, as tecnologias de próxima geração trabalham com grandes conjuntos de dados interconectados nos sistemas de inteligência artificial (AI) da Microsoft Intelligent Graph Security e da inteligência artificial avançada, orientados por modelos avançados de aprendizado de máquina. Microsoft Defender Antivírus usa várias tecnologias de detecção e prevenção para oferecer proteção precisa, em tempo real e inteligente. 
 
-Microsoft Defender Antivírus usa várias tecnologias de detecção e prevenção para oferecer proteção precisa, em tempo real e inteligente. [Conheça as tecnologias avançadas no núcleo do Microsoft Defender para Proteção](https://www.microsoft.com/security/blog/2019/06/24/inside-out-get-to-know-the-advanced-technologies-at-the-core-of-microsoft-defender-atp-next-generation-protection/)de próxima geração do Endpoint.
-![Lista de mecanismos do Microsoft Defender AV](images/microsoft-defender-atp-next-generation-protection-engines.png)  
+> [!TIP]
+> Deseja saber mais? Consulte a postagem do blog, Conheça as tecnologias avançadas no núcleo do [Microsoft Defender para Endpoint de proteção de próxima geração.](https://www.microsoft.com/security/blog/2019/06/24/inside-out-get-to-know-the-advanced-technologies-at-the-core-of-microsoft-defender-atp-next-generation-protection/)
 
-Para aproveitar a potência e a velocidade dessas tecnologias de próxima geração, Microsoft Defender Antivírus funciona perfeitamente com os serviços de nuvem da Microsoft. Esses serviços de proteção na nuvem, também chamados de Serviço de Proteção Avançada da Microsoft (MAPS), aprimora a proteção padrão em tempo real, fornecendo, sem dúvida, a melhor defesa antivírus. 
+Microsoft Defender Antivírus funciona perfeitamente com os serviços de nuvem da Microsoft. Esses serviços de proteção na nuvem, também chamados de Serviço de Proteção Avançada da Microsoft (MAPS), aprimora a proteção padrão em tempo real, fornecendo, sem dúvida, a melhor defesa antivírus. 
 
->[!NOTE]
->O Microsoft Defender Antivírus de nuvem é um mecanismo para fornecer proteção atualizada para sua rede e pontos de extremidade. Embora seja chamado de serviço de nuvem, ele não é simplesmente proteção para arquivos armazenados na nuvem, mas usa recursos distribuídos e aprendizado de máquina para fornecer proteção aos seus pontos de extremidade em uma taxa muito mais rápida do que as atualizações tradicionais de Inteligência de Segurança.
+> [!NOTE]
+> O Microsoft Defender Antivírus de nuvem é um mecanismo para fornecer proteção atualizada para sua rede e pontos de extremidade. Como um serviço de nuvem, ele não é simplesmente proteção para arquivos armazenados na nuvem; em vez disso, o serviço de nuvem usa recursos distribuídos e aprendizado de máquina para oferecer proteção aos seus pontos de extremidade em uma taxa muito mais rápida do que as atualizações tradicionais de inteligência de segurança.
 
-Com a proteção entregue na nuvem, as tecnologias de última geração fornecem identificação rápida de novas ameaças, às vezes até mesmo antes de um único computador ser infectado. Assista ao seguinte vídeo sobre a Microsoft AI e Microsoft Defender Antivírus em ação: 
- 
-<iframe 
-src="https://www.microsoft.com/videoplayer/embed/RE1Yu4B" width="768" height="432" allowFullScreen="true" frameBorder="0" scrolling="no"></iframe>
-
-Para entender como as tecnologias de última geração diminuem o tempo de entrega da proteção pela nuvem, assista ao seguinte vídeo: 
- 
-<iframe 
-src="https://videoplayercdn.osi.office.net/embed/c2f20f59-ca56-4a7b-ba23-44c60bc62c59" width="768" height="432" allowFullScreen="true" frameBorder="0" scrolling="no"></iframe>
-
-Leia as seguintes postagens de blog para histórias detalhadas de proteção envolvendo proteção na nuvem e Microsoft AI: 
+Com a proteção entregue na nuvem, as tecnologias de última geração fornecem identificação rápida de novas ameaças, às vezes até mesmo antes de um único computador ser infectado. As postagens de blog a seguir ilustram como funciona a proteção entregue na nuvem:
 
 - [Por Microsoft Defender Antivírus é o mais implantado na empresa](https://www.microsoft.com/security/blog/2018/03/22/why-windows-defender-antivirus-is-the-most-deployed-in-the-enterprise) 
-- [Monitoramento de comportamento combinado com aprendizado de máquina despojosa uma campanha de mineração de moedas do Dofoil em massa](https://www.microsoft.com/security/blog/2018/03/07/behavior-monitoring-combined-with-machine-learning-spoils-a-massive-dofoil-coin-mining-campaign)
-- [Como a inteligência artificial interrompeu um surto de Emotet](https://www.microsoft.com/security/blog/2018/02/14/how-artificial-intelligence-stopped-an-emotet-outbreak)
+- [O monitoramento de comportamento combinado com o aprendizado de máquina despojosa uma campanha de mineração de moedas em massa](https://www.microsoft.com/security/blog/2018/03/07/behavior-monitoring-combined-with-machine-learning-spoils-a-massive-dofoil-coin-mining-campaign)
+- [Como a inteligência artificial interrompeu um surto de "Emotet"](https://www.microsoft.com/security/blog/2018/02/14/how-artificial-intelligence-stopped-an-emotet-outbreak)
 - [Detonando um coelhinha ruim: Microsoft Defender Antivírus e defesas de aprendizado de máquina em camadas](https://www.microsoft.com/security/blog/2017/12/11/detonating-a-bad-rabbit-windows-defender-antivirus-and-layered-machine-learning-defenses)
 - [Microsoft Defender Antivírus de proteção na nuvem: defesa avançada em tempo real contra malware nunca visto antes](https://www.microsoft.com/security/blog/2017/07/18/windows-defender-antivirus-cloud-protection-service-advanced-real-time-defense-against-never-before-seen-malware) 
  
-## <a name="get-cloud-delivered-protection"></a>Obter proteção entregue na nuvem 
+## <a name="how-to-get-cloud-delivered-protection"></a>Como obter proteção entregue na nuvem 
 
-A proteção entregue na nuvem está habilitada por padrão. No entanto, talvez seja necessário reabilitar se ele tiver sido desabilitado como parte de políticas organizacionais anteriores.
+A proteção entregue na nuvem está habilitada por padrão. No entanto, talvez seja necessário reabilitar se ele tiver sido desabilitado como parte de políticas organizacionais anteriores. Para saber mais, confira [Ativar a proteção entregue na nuvem.](enable-cloud-protection-microsoft-defender-antivirus.md)
 
-As organizações Windows 10 E5 também podem tirar proveito das atualizações de inteligência dinâmica de emergência, que fornecem proteção quase em tempo real contra ameaças emergentes. Quando você ativar a proteção entregue na nuvem, correções para problemas de malware podem ser entregues por meio da nuvem em minutos, em vez de aguardar a próxima atualização.
+As organizações Windows 10 E5 também podem tirar proveito das atualizações de inteligência dinâmica de emergência, que fornecem proteção quase em tempo real contra ameaças emergentes. Quando você ativar a proteção entregue na nuvem, correções para problemas de malware podem ser entregues por meio da nuvem em minutos, em vez de aguardar a próxima atualização. [Configure Microsoft Defender Antivírus para receber automaticamente novas atualizações](manage-event-based-updates-microsoft-defender-antivirus.md#cloud-report-updates)de proteção com base em relatórios do nosso serviço de nuvem.
 
->[!TIP]
->Você também pode visitar o site Windows Defender [](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) Testground no demo.wd.microsoft.com para confirmar que o recurso está funcionando e ver como ele funciona.
+> [!TIP]
+> Visite o site Windows Defender Testground [no](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) demo.wd.microsoft.com para confirmar se o recurso está funcionando e ver como ele funciona.
 
-A tabela a seguir descreve as diferenças na proteção entregue na nuvem entre versões recentes do Windows e o Configuration Manager.
+## <a name="next-steps"></a>Próximas etapas
 
-|Versão do sistema operacional ou aplicativo de serviço |Rótulo de serviço de proteção na nuvem  |Nível de relatório (nível de associação MAPS)  |Período de tempo de tempo de bloqueio de nuvem  |
-|---------|---------|---------|---------|
-|Windows 8.1 (Política de Grupo)     |Serviço de Proteção Avançada da Microsoft   |Básico, Avançado   |Não         |
-|Windows 10, versão 1607 (Política de Grupo)  |Serviço de Proteção Avançada da Microsoft      |Advanced         |Não         |
-|Windows 10, versão 1703 ou superior (Política de Grupo)      |Proteção baseada em nuvem      |Advanced         |Configurável         |
-|System Center Configuration Manager 2012  |      N/D         |Dependente da Windows versão         |Não configurável |
-|Microsoft Endpoint Manager (Branch Atual)         |Serviço de proteção na nuvem         |Dependente da Windows versão          |Configurável         |
-|Microsoft Intune     |Serviço de Proteção Avançada da Microsoft         |Dependente da Windows versão         |Configurável         |
+1. [Habilitar a proteção entregue na nuvem](enable-cloud-protection-microsoft-defender-antivirus.md). Você pode habilitar a proteção entregue na nuvem com Microsoft Endpoint Manager (que agora inclui Microsoft Endpoint Configuration Manager e Microsoft Intune), Política de Grupo ou cmdlets do PowerShell.
 
-Você também pode configurar o Microsoft Defender Antivírus para receber automaticamente novas atualizações de proteção com base em [relatórios do nosso serviço de nuvem.](manage-event-based-updates-microsoft-defender-antivirus.md#cloud-report-updates)
+2. [Especifique o nível de proteção entregue na nuvem](specify-cloud-protection-level-microsoft-defender-antivirus.md). Você pode especificar o nível de proteção oferecido pela nuvem usando o Microsoft Endpoint Manager ou a Política de Grupo. O nível de proteção afeta a quantidade de informações compartilhadas com a nuvem e o quão agressivamente novos arquivos são bloqueados.
 
+3. [Configurar e validar conexões de rede para Microsoft Defender Antivírus](configure-network-connections-microsoft-defender-antivirus.md). Há certas URLs da Microsoft às que sua rede e pontos de extremidade devem ser capazes de se conectar para que a proteção entregue na nuvem funcione efetivamente. Este artigo lista as URLs que devem ser permitidas por meio de regras de filtragem de rede ou firewall e instruções para confirmar que sua rede está corretamente matriculada na proteção entregue na nuvem.
 
-## <a name="tasks"></a>Tarefas
+4. [Configure o recurso "bloquear à primeira vista".](configure-block-at-first-sight-microsoft-defender-antivirus.md) O recurso "bloquear à primeira vista" pode bloquear um novo malware em segundos, sem ter que esperar horas pela inteligência de segurança tradicional. Você pode habilita-lo e configurá-lo usando Microsoft Endpoint Manager ou Política de Grupo.
 
-- [Habilitar a proteção entregue na nuvem](enable-cloud-protection-microsoft-defender-antivirus.md). Você pode habilitar a proteção entregue na nuvem com Microsoft Endpoint Configuration Manager, Política de Grupo, Microsoft Intune e cmdlets do PowerShell.
-
-- [Especifique o nível de proteção entregue na nuvem](specify-cloud-protection-level-microsoft-defender-antivirus.md). Você pode especificar o nível de proteção oferecido pela nuvem com a Política de Grupo e Microsoft Endpoint Configuration Manager. O nível de proteção afetará a quantidade de informações compartilhadas com a nuvem e o quão agressivamente novos arquivos são bloqueados.
-
-- [Configurar e validar conexões de rede para Microsoft Defender Antivírus](configure-network-connections-microsoft-defender-antivirus.md). Há certas URLs da Microsoft às que sua rede e pontos de extremidade devem ser capazes de se conectar para que a proteção entregue na nuvem funcione efetivamente. Este artigo lista as URLs que devem ser permitidas por meio de regras de filtragem de rede ou firewall e instruções para confirmar que sua rede está corretamente matriculada na proteção entregue na nuvem.
-
-- [Configure o bloco à primeira vista.](configure-block-at-first-sight-microsoft-defender-antivirus.md) O recurso "bloquear à primeira vista" pode bloquear um novo malware em segundos, sem ter que esperar horas pela inteligência de segurança tradicional. Você pode habilitar e configurá-lo com Microsoft Endpoint Manager e Política de Grupo.
-
-- [Configure o período de tempo de bloqueio na nuvem](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md). Microsoft Defender Antivírus pode impedir a execução de arquivos suspeitos enquanto consulta nosso serviço de proteção entregue na nuvem. Você pode configurar o tempo em que o arquivo será impedido de ser executado com o Microsoft Endpoint Manager e a Política de Grupo.
+5. [Configure o período de tempo de bloqueio na nuvem](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md). Microsoft Defender Antivírus pode impedir a execução de arquivos suspeitos enquanto consulta nosso serviço de proteção entregue na nuvem. Você pode configurar a quantidade de tempo em que o arquivo será impedido de ser executado usando o Microsoft Endpoint Manager ou a Política de Grupo.

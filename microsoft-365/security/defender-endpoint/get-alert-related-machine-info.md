@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 70ce6adce3e14be7ee440b96587b8f9402c0b99f
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: ef10d2bd7193fc7b4a1604658f496ef38ef33555
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166282"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772336"
 ---
 # <a name="get-alert-related-machine-information-api"></a>Obter API de informações relacionadas ao computador de alerta
 
@@ -55,8 +56,8 @@ Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   Machine.Read.All |  'Ler todas as informações do computador'
 Aplicativo |   Machine.ReadWrite.All | 'Ler e gravar todas as informações do computador'
-Delegada (conta corporativa ou de estudante) | Machine.Read | 'Ler informações do computador'
-Delegada (conta corporativa ou de estudante) | Machine.ReadWrite | 'Informações de máquina de leitura e gravação'
+Delegado (conta corporativa ou de estudante) | Machine.Read | 'Ler informações do computador'
+Delegado (conta corporativa ou de estudante) | Machine.ReadWrite | 'Informações de máquina de leitura e gravação'
 
 >[!Note]
 > Ao obter um token usando credenciais de usuário:

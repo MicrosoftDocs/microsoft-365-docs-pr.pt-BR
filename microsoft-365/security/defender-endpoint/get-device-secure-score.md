@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: db4682d0d2fccd7504eb46d9099a9783408cfb73
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: dd9def688619b6079d947cb76069aa0f77d768de
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570931"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772300"
 ---
 # <a name="get-device-secure-score"></a>Obter pontuação segura do dispositivo
 

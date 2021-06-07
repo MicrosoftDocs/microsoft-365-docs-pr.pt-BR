@@ -15,13 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: bc58241be69a1d8e1a78abc583b2c87dbef9cfa7
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 6182b4cb0d1f648f33c3a7fc4da4c648d8996bcd
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199355"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770608"
 ---
 # <a name="partner-access-through-microsoft-defender-for-endpoint-apis"></a>Acesso de parceiros por meio do Microsoft Defender para APIs de ponto de extremidade
 
@@ -36,7 +37,7 @@ ms.locfileid: "51199355"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-Esta página descreve como criar um aplicativo do Azure Active Directory (Azure AD) para obter acesso programático ao Microsoft Defender para Ponto de Extremidade em nome de seus clientes.
+Esta página descreve como criar um aplicativo Azure Active Directory (Azure AD) para obter acesso programático ao Microsoft Defender para Ponto de Extremidade em nome de seus clientes.
 
 
 O Microsoft Defender para Ponto de Extremidade expõe grande parte de seus dados e ações por meio de um conjunto de APIs programáticas. Essas APIs ajudarão você a automatizar fluxos de trabalho e inovar com base nos recursos do Microsoft Defender para Ponto de Extremidade. O acesso à API requer autenticação OAuth2.0. Para obter mais informações, consulte [OAuth 2.0 Authorization Code Flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
@@ -53,9 +54,9 @@ As etapas a seguir orientarão você a criar um aplicativo do Azure AD, obter um
 
 1. Entre no locatário [do Azure](https://portal.azure.com) com o usuário que tenha a **função de Administrador Global.**
 
-2. Navegue **até registros do Aplicativo do Azure Active Directory** Novo  >    >  **registro**. 
+2. Navegue **até Azure Active Directory** registros do  >  **aplicativo** Novo  >  **registro**. 
 
-   ![Imagem do Microsoft Azure e navegação para registro de aplicativo](images/atp-azure-new-app2.png)
+   ![Imagem de Microsoft Azure e navegação para registro de aplicativos](images/atp-azure-new-app2.png)
 
 3. No formulário de registro:
 
@@ -65,7 +66,7 @@ As etapas a seguir orientarão você a criar um aplicativo do Azure AD, obter um
 
     - URI de redirecionamento - tipo: Web, URI: https://portal.azure.com
 
-    ![Imagem do registro de aplicativo parceiro do Microsoft Azure](images/atp-api-new-app-partner.png)
+    ![Imagem do Microsoft Azure de aplicativo parceiro](images/atp-api-new-app-partner.png)
 
 
 4. Permita que seu aplicativo acesse o Microsoft Defender para Ponto de Extremidade e atribua-o com o conjunto mínimo de permissões necessário para concluir a integração.
@@ -140,7 +141,7 @@ As etapas a seguir orientarão você a criar um aplicativo do Azure AD, obter um
 
 <br>Para obter mais informações sobre o token AAD, consulte [tutorial do AAD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
-### <a name="using-powershell"></a>Usando o PowerShell
+### <a name="using-powershell"></a>Usando o Windows PowerShell
 
 ```
 # That code gets the App Context Token and save it to a file named "Latest-token.txt" under the current directory
@@ -200,7 +201,7 @@ Consulte [Obter token usando Python](run-advanced-query-sample-python.md#get-tok
 ### <a name="using-curl"></a>Usando o cache
 
 > [!NOTE]
-> O procedimento a seguir, suposto Cache para Windows, já está instalado em seu computador
+> O procedimento abaixo, suposto Cache para Windows já está instalado em seu computador
 
 - Abrir uma janela de comando
 - Definir CLIENT_ID para a ID do aplicativo do Azure
@@ -248,5 +249,5 @@ Verificação de sanidade para garantir que você tenha um token correto:
     ```
 
 ## <a name="see-also"></a>Confira também
-- [Microsoft Defender para APIs de Ponto de Extremidade com suporte](exposed-apis-list.md)
+- [Suporte de APIs do Microsoft Defender para Ponto de Extremidade](exposed-apis-list.md)
 - [Acessar o Microsoft Defender para Ponto de Extremidade em nome de um usuário](exposed-apis-create-app-nativeapp.md)

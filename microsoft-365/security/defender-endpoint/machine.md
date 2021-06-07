@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 43a136bb3432adcd47589d29aa5de8f8f6299ba8
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 7b95fc487a8ee3e82e0f215b34aa564e063534af
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683062"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772072"
 ---
 # <a name="machine-resource-type"></a>Tipo de recurso do computador
 
@@ -59,18 +60,18 @@ Método|Tipo de retorno |Descrição
 
 Propriedade |   Tipo   |   Descrição
 :---|:---|:---
-id | String | identidade do [computador.](machine.md)
-computerDnsName | String | [nome](machine.md) totalmente qualificado da máquina.
+id | Cadeia de caracteres | identidade do [computador.](machine.md)
+computerDnsName | Cadeia de caracteres | [nome](machine.md) totalmente qualificado da máquina.
 firstSeen | DateTimeOffset | Primeira data e hora em que [o computador](machine.md) foi observado pelo Microsoft Defender para Ponto de Extremidade.
 lastSeen | DateTimeOffset |Hora e data do último relatório de dispositivo completo recebido. Um dispositivo normalmente envia um relatório completo a cada 24 horas.
-osPlatform | String | Plataforma do sistema operacional.
-osProcessor | String | Processador do sistema operacional. Use a propriedade osArchitecture.
+osPlatform | Cadeia de caracteres | Plataforma do sistema operacional.
+osProcessor | Cadeia de caracteres | Processador do sistema operacional. Use a propriedade osArchitecture.
 versão | String | Versão do sistema operacional.
 osBuild | Long anulado | Número de com build do sistema operacional.
-lastIpAddress | String | Último IP na NIC local no [computador](machine.md).
-lastExternalIpAddress | String | Último IP pelo qual o [computador acessou](machine.md) a Internet.
+lastIpAddress | Cadeia de caracteres | Último IP na NIC local no [computador](machine.md).
+lastExternalIpAddress | Cadeia de caracteres | Último IP pelo qual o [computador acessou](machine.md) a Internet.
 healthStatus | Enum | [status](machine.md) de saúde da máquina. Os valores possíveis são: "Active", "Inactive", "ImpairedCommunication", "NoSensorData", "NoSensorDataImpairedCommunication" e "Unknown". 
-rbacGroupName | String | Nome do grupo de máquinas.
+rbacGroupName | Cadeia de caracteres | Nome do grupo de máquinas.
 riskScore | Núm anulado | Pontuação de risco avaliada pelo Microsoft Defender para Ponto de Extremidade. Os valores possíveis são: 'None', 'Informational', 'Low', 'Medium' e 'High'.
 exposureScore | Núm anulado | [Pontuação de exposição](tvm-exposure-score.md) avaliada pelo Microsoft Defender para Ponto de Extremidade. Os valores possíveis são: 'None', 'Low', 'Medium' e 'High'.
 aadDeviceId | Guid de representação anulada | ID do dispositivo AAD (quando [o computador](machine.md) está ingressado no AAD).
@@ -78,6 +79,6 @@ machineTags | Coleção de cadeias de caracteres | Conjunto de [marcas de](machi
 exposureLevel | Núm anulado | Nível de exposição conforme avaliado pelo Microsoft Defender para Ponto de Extremidade. Os valores possíveis são: 'None', 'Low', 'Medium' e 'High'.
 deviceValue | Núm anulado | O [valor do dispositivo](tvm-assign-device-value.md). Os valores possíveis são: 'Normal', 'Baixo' e 'Alto'.
 ipAddresses | Coleção IpAddress | Conjunto de ***objetos IpAddress.*** Consulte [Obter API de máquinas](get-machines.md).
-osArchitecture | String | Arquitetura do sistema operacional. Os valores possíveis são: "32 bits", "64 bits". Use essa propriedade em vez de osProcessor.
+osArchitecture | Cadeia de caracteres | Arquitetura do sistema operacional. Os valores possíveis são: "32 bits", "64 bits". Use essa propriedade em vez de osProcessor.
 
 

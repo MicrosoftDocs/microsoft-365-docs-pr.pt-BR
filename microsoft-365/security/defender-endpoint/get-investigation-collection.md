@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 9ad1216a05846b48bff4186c7e6f39e9da3623b0
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 38485a5028626153c26cd1e11537ef7a2daf5296
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166348"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770140"
 ---
 # <a name="list-investigations-api"></a>API de Investigações de Lista
 
@@ -56,8 +57,8 @@ Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   Alert.Read.All |    'Ler todos os alertas'
 Aplicativo |   Alert.ReadWrite.All |   'Ler e gravar todos os alertas'
-Delegada (conta corporativa ou de estudante) | Alert.Read | 'Alertas de leitura'
-Delegada (conta corporativa ou de estudante) | Alert.ReadWrite | 'Alertas de leitura e gravação'
+Delegado (conta corporativa ou de estudante) | Alert.Read | 'Alertas de leitura'
+Delegado (conta corporativa ou de estudante) | Alert.ReadWrite | 'Alertas de leitura e gravação'
 
 >[!Note]
 > Ao obter um token usando credenciais de usuário:

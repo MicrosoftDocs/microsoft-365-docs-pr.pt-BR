@@ -6,19 +6,19 @@ ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 localization_priority: normal
-ms.author: dansimp
-author: dansimp
+ms.author: deniseb
+author: denisebmsft
 ms.reviewer: dansimp
 ms.topic: article
 manager: dansimp
 audience: ITPro
 ms.technology: mde
-ms.openlocfilehash: ee8e7be20076bde41867981008e53a70c134e47e
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 47eb80af58c948db5997dc9f5edfa5737a796837
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893659"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772360"
 ---
 # <a name="protect-your-organizations-data-with-device-control"></a>Proteger dados da sua organização com controle de dispositivo
 
@@ -43,7 +43,7 @@ Os eventos de auditoria incluem:
 
 ## <a name="monitor-device-control-security"></a>Monitorar a segurança do controle de dispositivo
 
-O controle de dispositivo no Microsoft Defender para Ponto de Extremidade capacita os administradores de segurança com ferramentas que permitem controlar a segurança de controle de dispositivos da organização por meio de relatórios. Você pode encontrar o relatório de controle de dispositivo no centro de segurança do Microsoft 365 indo para **Relatórios > Proteção de dispositivos.**
+O controle de dispositivo no Microsoft Defender para Ponto de Extremidade capacita os administradores de segurança com ferramentas que permitem controlar a segurança de controle de dispositivos da organização por meio de relatórios. Você pode encontrar o relatório de controle de dispositivo no centro Microsoft 365 segurança indo para **Relatórios > Proteção de dispositivos.**
 
 O cartão de proteção de dispositivo no painel **Relatórios** mostra o número de eventos de auditoria gerados pelo tipo de mídia, nos últimos 180 dias.
 
@@ -61,7 +61,7 @@ Quando você seleciona um evento, um flyout é exibido que mostra mais informaç
 
 - **Detalhes gerais:** Data, modo ação e a política deste evento.
 - **Informações de mídia:** As informações de mídia incluem nome de mídia, nome da classe, GUID de classe, ID do dispositivo, ID do fornecedor, volume, número de série e tipo de Barramento.
-- **Detalhes do local:** Nome do dispositivo e ID do dispositivo MDATP.
+- **Detalhes do local:** Nome do dispositivo e MDATP ID do dispositivo.
 
 > [!div class="mx-imgBorder"]
 > ![FilterOnDeviceControlReport](images/devicecontrolreportfilter.png)

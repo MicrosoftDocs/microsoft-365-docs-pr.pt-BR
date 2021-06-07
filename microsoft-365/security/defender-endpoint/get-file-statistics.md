@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: ff43f6c46d89bc92cd1dc2a4fb0f329757b8f69e
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 6063d29562be40aed3060e241b52b1a2936aa36d
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166349"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770200"
 ---
 # <a name="get-file-statistics-api"></a>Obter API de estatísticas de arquivo
 
@@ -51,7 +52,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   File.Read.All | 'Ler perfis de arquivo'
-Delegada (conta corporativa ou de estudante) | File.Read.All | 'Ler perfis de arquivo'
+Delegado (conta corporativa ou de estudante) | File.Read.All | 'Ler perfis de arquivo'
 
 >[!Note]
 > Ao obter um token usando credenciais de usuário:

@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 868fd141cda3b3d92464a2d9247780e0e74d6de8
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: d9ec8610957af0bc7741848e7c7bd4fe850f5e32
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198548"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770416"
 ---
 # <a name="list-indicators-api"></a>API de Indicadores de Lista
 
@@ -52,7 +54,7 @@ Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   Ti.ReadWrite |  'Indicadores de leitura e gravação'
 Aplicativo |   Ti.ReadWrite.All |  'Ler e gravar Todos os Indicadores'
-Delegada (conta corporativa ou de estudante) |    Ti.ReadWrite |  'Indicadores de leitura e gravação'
+Delegado (conta corporativa ou de estudante) |    Ti.ReadWrite |  'Indicadores de leitura e gravação'
 
 ## <a name="http-request"></a>Solicitação HTTP
 ```
@@ -75,7 +77,7 @@ Se tiver êxito, este método retornará 200, código de resposta Ok com uma col
 >[!Note]
 > Se o aplicativo tiver permissão 'Ti.ReadWrite.All', ele será exposto a todos os Indicadores. Caso contrário, ele será exposto somente aos Indicadores criados.
 
-## <a name="example-1"></a>Exemplo 1:
+## <a name="example-1"></a>Exemplo 1: 
 
 **Solicitação**
 
@@ -138,7 +140,7 @@ Content-type: application/json
 }
 ```
 
-## <a name="example-2"></a>Exemplo 2:
+## <a name="example-2"></a>Exemplo 2: 
 
 **Solicitação**
 

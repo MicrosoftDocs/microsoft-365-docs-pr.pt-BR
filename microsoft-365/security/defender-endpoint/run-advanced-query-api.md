@@ -15,13 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 40487143ff18cedb76c9f3f33c52cab24687c282
-ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 0173e271967a1b5b18d69713e9e6540e9cd11a87
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51604364"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772396"
 ---
 # <a name="advanced-hunting-api"></a>API de busca avançada
 

@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: b9c8d4da528ba065dc1b4a68ddaa816a1ad78c4a
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 9f3313a08b072f4fb2f699148ab801207e56fc09
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187824"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772108"
 ---
 # <a name="isolate-machine-api"></a>Isolar a API do computador
 
@@ -55,7 +56,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   Machine.Isolate |   'Isolar máquina'
-Delegada (conta corporativa ou de estudante) | Machine.Isolate |  'Isolar máquina'
+Delegado (conta corporativa ou de estudante) | Machine.Isolate |  'Isolar máquina'
 
 >[!Note]
 > Ao obter um token usando credenciais de usuário:

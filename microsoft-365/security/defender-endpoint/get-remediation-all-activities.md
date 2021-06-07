@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: cf7c79cb6cc76af88ce0293a013ba6edbf435d8c
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: b95fa2da177a3ecb93bcf3e2085be6111c2c641e
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245487"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770512"
 ---
 # <a name="list-all-remediation-activities"></a>Listar todas as atividades de correção
 
@@ -54,7 +55,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão | Permissão | Nome de exibição de permissão
 :---|:---|:---
 Aplicativo | RemediationTask.Read.All | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
-Delegada (conta corporativa ou de estudante) | RemediationTask.Read.Read | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
+Delegado (conta corporativa ou de estudante) | RemediationTask.Read.Read | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
 
 ## <a name="properties"></a>Propriedades
 
@@ -82,7 +83,7 @@ requesterEmail | Cadeia de caracteres | Endereço de email do criador | globalad
 requesterId | Cadeia de caracteres | ID do objeto Creator | r647211f-2e16-43f2-a480-16ar3a2a796r
 requesterNotes | Cadeia de caracteres | As anotações (texto livre) que o criador adicionou para essa atividade de correção | null
 scid | Cadeia de caracteres | SCID da recomendação de segurança relacionada | null
-status | Cadeia de caracteres | Status da atividade de correção (Ativo/Concluído) | Ativo
+status | Cadeia de caracteres | Status da atividade de correção (Ativo/Concluído) | Ativa
 statusLastModifiedOn | DateTime | Data em que o campo de status foi atualizado | 2021-01-12T18:54:11.5499487Z
 targetDevices | Longo | Número de dispositivos expostos a que essa correção é aplicável | 43
 title | Cadeia de caracteres | Título dessa atividade de correção | Atualizar o Microsoft Silverlight

@@ -1,5 +1,5 @@
 ---
-title: 'Etapa 6: Treinar os funcionários remotos e responder a questões sobre o uso'
+title: 'Etapa 6: Treinar os funcionários e responder comentários sobre o uso'
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -17,16 +17,16 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Treine seus usuários e garanta que os problemas sejam tratados rapidamente.
-ms.openlocfilehash: 66091269e4bb4844456feac1b8cfa28718b0ca36
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: b6581533983c2e00ab8b29d73326deebda52599f
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52028915"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788818"
 ---
-# <a name="step-6-train-remote-workers-and-address-usage-feedback"></a>Etapa 6: Treinar os funcionários remotos e responder a questões sobre o uso
+# <a name="step-6-train-your-workers-and-address-usage-feedback"></a>Etapa 6: Treinar os funcionários e responder comentários sobre o uso
 
-Treinar seus funcionários remotos em:
+Treinar seus funcionários híbridos em:
 
 - Procedimentos de entrada apropriados usando a MFA, incluindo o registro de um método de verificação adicional.
 - O uso de dispositivos e como as políticas de gerenciamento de terminal podem ser utilizadas para bloquear o acesso de dispositivos não compatíveis ou não gerenciados.
@@ -38,15 +38,15 @@ Treinar seus funcionários remotos em:
 
 Este treinamento deve incluir exercícios práticos para que os usuários possam experimentar esses recursos e os resultados.
 
-Crie um fórum para seus funcionários remotos fazerem perguntas ou resolverem problemas, como uma equipe ou um grupo do Yammer.
+Crie um fórum para seus funcionários fazerem perguntas ou resolverem problemas, como uma equipe ou um grupo do Yammer.
 
 Nas semanas após o treinamento:
 
-- Aborde rapidamente o feedback do trabalhador remoto em seu fórum e ajuste as políticas e configurações do trabalhador remoto conforme necessário.
+- Aborde rapidamente o feedback do funcionário em seu fórum e ajuste as políticas e configurações do funcionário conforme necessário.
 - Analise o uso de equipes, e-mail, sites do SharePoint e pastas do OneDrive e compare com suas expectativas de adoção do usuário.
 
 Em seguida, repita o treinamento dos usuários conforme necessário.
 
 ## <a name="results-of-step-6"></a>Resultados da Etapa 6
 
-Seus funcionários remotos são treinados e há um fórum aberto e responsivo para eles fornecerem um feedback e postarem problemas com o acesso remoto e com os aplicativos de produtividade.
+Seus funcionários híbridos são treinados e há um fórum aberto e responsivo para eles fornecerem um feedback e postarem problemas com segurança, conformidade, acesso remoto e aplicativos de produtividade.

@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: Neste artigo, os administradores podem aprender sobre a proteção Cofre Links no Defender para Office 365 proteger sua organização contra phishing e outros ataques que usam URLs mal-intencionadas.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 675de13410ac98e18a8b72125c2226d2c9c62821
-ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
+ms.openlocfilehash: d42d7563b5267f805756125d1764d506f1700e13
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52698983"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793023"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Cofre Links no Microsoft Defender para Office 365
 
@@ -220,7 +220,7 @@ As configurações Cofre links a seguir estão disponíveis para Office 365 apli
 
 - **Não permita que** os usuários cliquem em links seguros para a [](#warning-pages-from-safe-links) URL original : Permite ou impede que os usuários cliquem na página de aviso para a URL original nas versões da área de trabalho Word, Excel, PowerPoint e Visio. O valor padrão e recomendado é **On**.
 
-Para configurar as configurações Cofre links para aplicativos Office 365, consulte [Configure Cofre Links protection for Office 365 apps](configure-global-settings-for-safe-links.md#configure-safe-links-protection-for-office-365-apps-in-the-security--compliance-center).
+Para configurar as configurações Cofre links para aplicativos Office 365, consulte [Configure Cofre Links protection for Office 365 apps](configure-global-settings-for-safe-links.md#configure-safe-links-protection-for-office-365-apps-in-the-security-center).
 
 Para obter mais informações sobre os valores recomendados para configurações de política padrão e estrita, consulte [Configurações](recommended-settings-for-eop-and-office365.md#global-settings-for-safe-links)globais para links Cofre links .
 
@@ -257,7 +257,7 @@ A **lista Bloquear as URLs** a seguir define os links que sempre são bloqueados
 
 Quando um usuário em uma política Cofre Links clica em um link bloqueado em um aplicativo com suporte, ele é levado para a página de aviso [url](#blocked-url-warning) bloqueado.
 
-Você configura a lista de URLs nas configurações globais para Cofre Links. Para obter instruções, [consulte Configure the "Block the following URLs" list](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security--compliance-center).
+Você configura a lista de URLs nas configurações globais para Cofre Links. Para obter instruções, [consulte Configure the "Block the following URLs" list](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security-center).
 
 **Observações**:
 

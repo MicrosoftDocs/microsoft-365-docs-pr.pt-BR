@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de sensibilidade para arquivos word, Excel e PowerPoint no SharePoint e OneDrive.
-ms.openlocfilehash: 16186bd1e5c4cd2ca5b1ccd81c24ec81bfd33597
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 8007f085e7bcba7f055f616954e2f0549f6f125a
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684022"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770392"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
 
@@ -87,6 +87,8 @@ Use o aplicativo de sincronização OneDrive versão 19.002.0121.0008 ou posteri
     - **Criptografia de Chave Dupla** é selecionada.
     
     Para rótulos com qualquer uma dessas configurações de criptografia, os rótulos não são exibidos para os usuários Office para a Web. Além disso, os novos recursos não podem ser usados com documentos rotulados que já têm essas configurações de criptografia. Por exemplo, esses documentos não serão retornados nos resultados da pesquisa, mesmo que sejam atualizados.
+
+- Por motivos de desempenho, quando você carrega ou salva um documento no SharePoint e o rótulo do arquivo não aplica criptografia, a coluna **Confidencialidade** na biblioteca de documentos pode demorar um pouco para exibir o nome do rótulo. Factor in this delay if you use scripts or automation that depend on the label name in this column.
 
 - Os usuários podem ter atrasos ao serem capazes de abrir documentos criptografados no seguinte cenário Salvar como: Usando uma versão da área de trabalho do Office, um usuário escolhe Salvar como para um documento que tem um rótulo de sensibilidade que aplica criptografia. O usuário seleciona SharePoint ou OneDrive para o local e, em seguida, tenta imediatamente abrir esse documento Office para a Web. Se o serviço ainda estiver processamento da criptografia, o usuário verá uma mensagem de que o documento deve ser aberto em seu aplicativo de área de trabalho. Se eles tentarem novamente em alguns minutos, o documento será aberto com Office para a Web. 
 
@@ -169,7 +171,8 @@ Para habilitar os novos recursos, use o cmdlet [Set-SPOTenant](/powershell/modul
 
 1. Usando uma conta de estudante ou de trabalho que tenha privilégios de administrador global ou SharePoint administrador no Microsoft 365, conecte-se ao SharePoint. Para saber como, consulte [Introdução ao Shell de Gerenciamento do SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
-    Observação: se você tiver Microsoft 365 multi-geo, use o parâmetro -Url com [Conexão-SPOService](/powershell/module/sharepoint-online/connect-sposervice)e especifique a URL do site do Centro de Administração online do SharePoint para uma de suas localizações geográficas.
+    > [!NOTE]
+    > Se você tiver Microsoft 365 Multi-Geo, use o parâmetro -Url com [Conexão-SPOService](/powershell/module/sharepoint-online/connect-sposervice)e especifique a URL do site do Centro de Administração do SharePoint Online para uma de suas localizações geográficas.
 
 2. Execute o seguinte comando e pressione **Y** para confirmar:
 

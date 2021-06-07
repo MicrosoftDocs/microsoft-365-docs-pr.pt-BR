@@ -1,5 +1,5 @@
 ---
-title: Etapa 1. Aumentar a segurança de entrada para funcionários remotos com a MFA
+title: Etapa 1. Aumentar a segurança de entrada para funcionários híbridos com a MFA
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -16,21 +16,21 @@ ms.collection:
 - m365solution-remotework
 - m365solution-scenario
 ms.custom: ''
-description: Exigir que seus funcionários remotos entrem com autenticação multifator (MFA).
-ms.openlocfilehash: 1c69f2ee7520a554a726bc0ffd9e2d7ebca64261
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+description: Exigir que seus funcionários híbridos entrem com autenticação multifator (MFA).
+ms.openlocfilehash: 105c2f7170b4bea648427b0fda57ad081cb99a86
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52028963"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788950"
 ---
-# <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>Etapa 1. Aumentar a segurança de entrada para funcionários remotos com a MFA
+# <a name="step-1-increase-sign-in-security-for-hybrid-workers-with-mfa"></a>Etapa 1. Aumentar a segurança de entrada para funcionários híbridos com a MFA
 
-Para aumentar a segurança das entradas dos seus trabalhadores remotos, use a autenticação multifator (MFA). A MFA exige que as entradas do usuário estejam sujeitas a uma verificação adicional, além da senha da conta do usuário. Mesmo que um usuário mal-intencionado determine uma senha de conta de usuário, ele também deverá responder a uma verificação adicional, como uma mensagem de texto enviada a um smartphone antes do acesso ser concedido.
+Para aumentar a segurança das entradas dos seus trabalhadores híbridos, use a autenticação multifator (MFA). A MFA exige que as entradas do usuário estejam sujeitas a uma verificação adicional, além da senha da conta do usuário. Mesmo que um usuário mal-intencionado determine uma senha de conta de usuário, ele também deverá responder a uma verificação adicional, como uma mensagem de texto enviada a um smartphone antes do acesso ser concedido.
 
 ![A senha correta, mais uma verificação adicional, resulta em uma entrada bem-sucedida](../media/empower-people-to-work-remotely/remote-workers-mfa.png)
 
-Para todos os usuários, incluindo trabalhadores remotos e especialmente administradores, a Microsoft recomenda a MFA.
+Para todos os usuários, incluindo funcionários híbridos e especialmente administradores, a Microsoft fortemente recomenda a MFA.
 
 Há três maneiras de exigir que seus usuários usem a MFA com base no seu plano do Microsoft 365.
 
@@ -101,7 +101,7 @@ O Autoatendimento de Redefinição de Senha (SSPR) permite que os usuários rede
 
 ## <a name="sign-in-to-saas-apps-with-azure-ad"></a>Entrar em aplicativos SaaS com o Azure AD
 
-Além de fornecer autenticação na nuvem aos usuários, o Azure AD também pode ser a maneira central de proteger todos os seus aplicativos, seja no local, na nuvem da Microsoft ou em outra nuvem. Ao [integrar seus aplicativos no Azure AD](/azure/active-directory/manage-apps/plan-an-application-integration), você pode fazer com que funcionários remotos descubram os aplicativos de que precisam e se conectarem com segurança.
+Além de fornecer autenticação na nuvem aos usuários, o Azure AD também pode ser a maneira central de proteger todos os seus aplicativos, seja no local, na nuvem da Microsoft ou em outra nuvem. Ao [integrar seus aplicativos no Microsoft Azure Active Directory](/azure/active-directory/manage-apps/plan-an-application-integration), você pode facilitar para os funcionários híbridos descobrirem os aplicativos de que precisam e se conectarem a eles com segurança.
 
 ## <a name="admin-technical-resources-for-mfa-and-identity"></a>Treinamento de administrador e recursos técnicos para MFA e identidade
 

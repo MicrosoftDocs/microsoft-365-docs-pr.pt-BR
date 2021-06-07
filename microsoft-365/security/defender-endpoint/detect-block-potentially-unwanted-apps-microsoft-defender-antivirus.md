@@ -11,20 +11,19 @@ author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 audience: ITPro
-ms.reviewer: ''
+ms.reviewer: mimilone, julih
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: fbd897b025db2317dd1c213e5adf5d64ba88e7ac
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.date: 06/02/2021
+ms.openlocfilehash: d7f411c81e839d3929d4aa1a52fda29399c59dca
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275235"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772372"
 ---
 # <a name="detect-and-block-potentially-unwanted-applications"></a>Detectar e bloquear aplicativos potencialmente indesejados
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 
@@ -189,9 +188,8 @@ Se estiver usando o [Microsoft Defender ATP](microsoft-defender-endpoint.md), vo
 DeviceEvents
 | where ActionType == "AntivirusDetection"
 | extend x = parse_json(AdditionalFields)
-| evaluate bag_unpack(x)
+| project Timestamp, DeviceName, FolderPath, FileName, SHA256, ThreatName = tostring(x.ThreatName), WasExecutingWhileDetected = tostring(x.WasExecutingWhileDetected), WasRemediated = tostring(x.WasRemediated)
 | where ThreatName startswith_cs 'PUA:'
-| project Timestamp, DeviceName, FolderPath, FileName, SHA256, ThreatName, WasExecutingWhileDetected, WasRemediated
 ```
 
 Para saber mais sobre a busca avançada de ameaças, confira [Buscar proativamente as ameaças com a busca avançada de ameaças](advanced-hunting-overview.md).
