@@ -244,17 +244,14 @@
 
 ### [Redução de superfície de ataque]()
 #### [Visão geral da redução da superfície de ataque](overview-attack-surface-reduction.md)
+#### [Configurar os recursos de redução da superfície de ataque](configure-attack-surface-reduction.md)
+#### [Saiba mais sobre as regras de redução da superfície de ataque](attack-surface-reduction.md)
 #### [Avaliar as regras da redução da superfície de ataque](evaluate-attack-surface-reduction.md)
-#### [Conjunto de configurações da redução da superfície de ataque](configure-attack-surface-reduction.md)
+#### [Habilitar regras da redução da superfície de ataque](enable-attack-surface-reduction.md)
+#### [Personalizar regras da redução da superfície de ataque](customize-attack-surface-reduction.md)
 #### [Perguntas frequentes sobre a redução da superfície de ataque](attack-surface-reduction-faq.md)
-
-#### [Controles da redução da superfície de ataque]()
-##### [Regras da redução da superfície de ataque](attack-surface-reduction.md)
-##### [Habilitar regras da redução da superfície de ataque](enable-attack-surface-reduction.md)
-##### [Personalizar regras da redução da superfície de ataque](customize-attack-surface-reduction.md)
-##### [Exibir os eventos da redução da superfície de ataque](event-views.md)
-
-#### [Usar o modo de auditoria](audit-windows-defender.md)
+#### [Exibir os eventos da redução da superfície de ataque](event-views.md)
+#### [Usar o modo de auditoria para redução da superfície de ataque](audit-windows-defender.md)
 
 ### Proteção de próxima geração
 #### [Visão geral do Microsoft Defender Antivírus](microsoft-defender-antivirus-in-windows-10.md)
@@ -592,6 +589,13 @@
 ###### [Busca avançada usando Python](run-advanced-query-sample-python.md)
 ###### [Busca avançada usando o PowerShell](run-advanced-query-sample-powershell.md)
 ###### [Usar consultas de OData](exposed-apis-odata-samples.md)
+
+
+#### [API de streaming de dados não processados]()
+##### [Streaming de dados não processados](raw-data-export.md)
+##### [Transmitir eventos avançados de busca ao hub de Eventos do Azure](raw-data-export-event-hub.md)
+##### [Transmitir eventos avançados de busca para conta de armazenamento](raw-data-export-storage.md)
+
 
 #### [Integração SIEM]()
 ##### [Entender os conceitos de inteligência contra ameaças](threat-indicator-concepts.md)
