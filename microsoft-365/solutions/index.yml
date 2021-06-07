@@ -14,18 +14,18 @@ metadata:
   audience: ITPro
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: bb4639a79a0adb55ecf06dcd7898e5e0535c748e
-  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+  ms.openlocfilehash: c71ba6628ed858311db3d58c144295ff617679dc
+  ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/19/2021
-  ms.locfileid: "50928479"
+  ms.lasthandoff: 06/06/2021
+  ms.locfileid: "52789202"
 landingContent:
 - title: Guias de soluções fundamentais
   linkLists:
   - linkListType: quickstart
     links:
-    - text: Capacite funcionários remotos com o Microsoft 365
+    - text: Configurar sua infraestrutura para trabalho híbrido
       url: empower-people-to-work-remotely.md
     - text: Configure a colaboração segura com o Microsoft 365
       url: setup-secure-collaboration-with-teams.md

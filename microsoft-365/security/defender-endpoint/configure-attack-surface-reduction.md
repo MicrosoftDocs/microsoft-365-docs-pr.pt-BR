@@ -1,6 +1,6 @@
 ---
-title: Configurar redução de superfície de ataque
-description: Use o Microsoft Intune, o Microsoft Endpoint Configuration Manager, os cmdlets do PowerShell e a Política de Grupo para configurar a redução de superfície de ataque.
+title: Configurar recursos de redução de superfície de ataque
+description: Use Microsoft Intune, Microsoft Endpoint Configuration Manager, cmdlets do PowerShell e Política de Grupo para configurar a redução de superfície de ataque.
 keywords: asr, redução de superfície de ataque, windows defender, microsoft defender, antivírus, av
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -8,45 +8,57 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: macapara
-author: mjcaparas
+ms.author: deniseb
+author: denisebmsft
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6129fb889e2bd42f177c4e3be30f676854119f91
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.date: 06/02/2021
+ms.openlocfilehash: d2f984e21338e2f9a4ed579cde2d74339031d649
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166156"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770956"
 ---
-# <a name="configure-attack-surface-reduction"></a><span data-ttu-id="ae65c-104">Configurar redução de superfície de ataque</span><span class="sxs-lookup"><span data-stu-id="ae65c-104">Configure attack surface reduction</span></span>
+# <a name="configure-attack-surface-reduction-capabilities"></a><span data-ttu-id="879de-104">Configurar recursos de redução de superfície de ataque</span><span class="sxs-lookup"><span data-stu-id="879de-104">Configure attack surface reduction capabilities</span></span>
 
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+<span data-ttu-id="879de-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="879de-105">**Applies to:**</span></span>
+- [<span data-ttu-id="879de-106">Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="879de-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="879de-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="879de-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-<span data-ttu-id="ae65c-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="ae65c-105">**Applies to:**</span></span>
-- [<span data-ttu-id="ae65c-106">Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="ae65c-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="ae65c-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="ae65c-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+> [!TIP]
+> <span data-ttu-id="879de-108">Deseja experimentar o Defender para Ponto de Extremidade?</span><span class="sxs-lookup"><span data-stu-id="879de-108">Want to experience Defender for Endpoint?</span></span> <span data-ttu-id="879de-109">[Inscreva-se para uma avaliação gratuita](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink).</span><span class="sxs-lookup"><span data-stu-id="879de-109">[Sign up for a free trial](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink).</span></span>
 
-><span data-ttu-id="ae65c-108">Deseja experimentar o Defender para Ponto de Extremidade?</span><span class="sxs-lookup"><span data-stu-id="ae65c-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="ae65c-109">Inscreva-se para uma avaliação gratuita.</span><span class="sxs-lookup"><span data-stu-id="ae65c-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+<span data-ttu-id="879de-110">O Defender para Ponto de Extremidade inclui vários recursos de redução de superfície de ataque.</span><span class="sxs-lookup"><span data-stu-id="879de-110">Defender for Endpoint includes several attack surface reduction capabilities.</span></span> <span data-ttu-id="879de-111">Para saber mais, confira [Visão geral dos recursos de redução de superfície de ataque.](overview-attack-surface-reduction.md)</span><span class="sxs-lookup"><span data-stu-id="879de-111">To learn more, see [Overview of attack surface reduction capabilities](overview-attack-surface-reduction.md).</span></span> <span data-ttu-id="879de-112">Para configurar a redução de superfície de ataque em seu ambiente, siga estas etapas:</span><span class="sxs-lookup"><span data-stu-id="879de-112">To configure attack surface reduction in your environment, follow these steps:</span></span> 
 
-<span data-ttu-id="ae65c-110">Você pode configurar a redução de superfície de ataque com várias ferramentas, incluindo:</span><span class="sxs-lookup"><span data-stu-id="ae65c-110">You can configure attack surface reduction with many tools, including:</span></span>
+1. <span data-ttu-id="879de-113">[Habilitar o isolamento baseado em hardware para Microsoft Edge](/windows/security/threat-protection/microsoft-defender-application-guard/install-md-app-guard).</span><span class="sxs-lookup"><span data-stu-id="879de-113">[Enable hardware-based isolation for Microsoft Edge](/windows/security/threat-protection/microsoft-defender-application-guard/install-md-app-guard).</span></span>
 
-* <span data-ttu-id="ae65c-111">Microsoft Intune</span><span class="sxs-lookup"><span data-stu-id="ae65c-111">Microsoft Intune</span></span>
-* <span data-ttu-id="ae65c-112">Gerenciador de Configuração do Microsoft Endpoint</span><span class="sxs-lookup"><span data-stu-id="ae65c-112">Microsoft Endpoint Configuration Manager</span></span>
-* <span data-ttu-id="ae65c-113">Política de Grupo</span><span class="sxs-lookup"><span data-stu-id="ae65c-113">Group Policy</span></span>
-* <span data-ttu-id="ae65c-114">Cmdlets do PowerShell</span><span class="sxs-lookup"><span data-stu-id="ae65c-114">PowerShell cmdlets</span></span>
+2. <span data-ttu-id="879de-114">Habilitar o controle do aplicativo.</span><span class="sxs-lookup"><span data-stu-id="879de-114">Enable application control.</span></span> 
 
-<span data-ttu-id="ae65c-115">Artigo</span><span class="sxs-lookup"><span data-stu-id="ae65c-115">Article</span></span> | <span data-ttu-id="ae65c-116">Descrição</span><span class="sxs-lookup"><span data-stu-id="ae65c-116">Description</span></span>
--|-
-[<span data-ttu-id="ae65c-117">Habilitar isolamento baseado em hardware para o Microsoft Edge</span><span class="sxs-lookup"><span data-stu-id="ae65c-117">Enable hardware-based isolation for Microsoft Edge</span></span>](/windows/security/threat-protection/microsoft-defender-application-guard/install-md-app-guard) | <span data-ttu-id="ae65c-118">Como preparar e instalar o Application Guard, incluindo requisitos de hardware e software</span><span class="sxs-lookup"><span data-stu-id="ae65c-118">How to prepare for and install Application Guard, including hardware and software requirements</span></span>
-[<span data-ttu-id="ae65c-119">Habilitar o controle do aplicativo</span><span class="sxs-lookup"><span data-stu-id="ae65c-119">Enable application control</span></span>](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)|<span data-ttu-id="ae65c-120">Como controlar aplicativos executados por usuários e proteger processos de modo kernel</span><span class="sxs-lookup"><span data-stu-id="ae65c-120">How to control applications run by users and protect kernel mode processes</span></span>
-[<span data-ttu-id="ae65c-121">Proteção de exploração</span><span class="sxs-lookup"><span data-stu-id="ae65c-121">Exploit protection</span></span>](./enable-exploit-protection.md)|<span data-ttu-id="ae65c-122">Como aplicar automaticamente técnicas de mitigação de exploração em processos do sistema operacional e em aplicativos individuais</span><span class="sxs-lookup"><span data-stu-id="ae65c-122">How to automatically apply exploit mitigation techniques on both operating system processes and on individual apps</span></span>
-[<span data-ttu-id="ae65c-123">Proteção de rede</span><span class="sxs-lookup"><span data-stu-id="ae65c-123">Network protection</span></span>](./enable-network-protection.md)|<span data-ttu-id="ae65c-124">Como impedir que os usuários usem aplicativos para acessar domínios perigosos</span><span class="sxs-lookup"><span data-stu-id="ae65c-124">How to prevent users from using any apps to access dangerous domains</span></span>
-[<span data-ttu-id="ae65c-125">Acesso controlado a pastas</span><span class="sxs-lookup"><span data-stu-id="ae65c-125">Controlled folder access</span></span>](./enable-controlled-folders.md)|<span data-ttu-id="ae65c-126">Como proteger dados valiosos de aplicativos mal-intencionados</span><span class="sxs-lookup"><span data-stu-id="ae65c-126">How to protect valuable data from malicious apps</span></span>
-[<span data-ttu-id="ae65c-127">Redução da superfície do ataque.</span><span class="sxs-lookup"><span data-stu-id="ae65c-127">Attack surface reduction</span></span>](./enable-attack-surface-reduction.md)|<span data-ttu-id="ae65c-128">Como evitar ações e aplicativos que normalmente são usados por malware de exploração</span><span class="sxs-lookup"><span data-stu-id="ae65c-128">How to prevent actions and apps that are typically used by exploit-seeking malware</span></span>
-[<span data-ttu-id="ae65c-129">Firewall de rede</span><span class="sxs-lookup"><span data-stu-id="ae65c-129">Network firewall</span></span>](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security-deployment-guide)|<span data-ttu-id="ae65c-130">Como proteger dispositivos e dados em uma rede</span><span class="sxs-lookup"><span data-stu-id="ae65c-130">How to protect devices and data across a network</span></span>
+   1. <span data-ttu-id="879de-115">Revise as políticas básicas Windows.</span><span class="sxs-lookup"><span data-stu-id="879de-115">Review base policies in Windows.</span></span> <span data-ttu-id="879de-116">Consulte [políticas base de exemplo](/windows/security/threat-protection/windows-defender-application-control/example-wdac-base-policies).</span><span class="sxs-lookup"><span data-stu-id="879de-116">See [example base policies](/windows/security/threat-protection/windows-defender-application-control/example-wdac-base-policies).</span></span>
+   2. <span data-ttu-id="879de-117">Consulte o [guia de design de controle do aplicativo](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-design-guide).</span><span class="sxs-lookup"><span data-stu-id="879de-117">See the [application control design guide](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-design-guide).</span></span>
+   3. <span data-ttu-id="879de-118">Consulte o guia [de design de controle do aplicativo.](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide)</span><span class="sxs-lookup"><span data-stu-id="879de-118">Refer to the [application control design guide](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide).</span></span>
 
+3. <span data-ttu-id="879de-119">[Habilitar acesso controlado a pastas](enable-controlled-folders.md).</span><span class="sxs-lookup"><span data-stu-id="879de-119">[Enable controlled folder access](enable-controlled-folders.md).</span></span>
+
+4. <span data-ttu-id="879de-120">[Ativar a proteção de rede](enable-network-protection.md).</span><span class="sxs-lookup"><span data-stu-id="879de-120">[Turn on Network protection](enable-network-protection.md).</span></span>
+
+5. <span data-ttu-id="879de-121">[Habilitar a proteção de exploração](enable-exploit-protection.md).</span><span class="sxs-lookup"><span data-stu-id="879de-121">[Enable exploit protection](enable-exploit-protection.md).</span></span>
+
+6. <span data-ttu-id="879de-122">[Configurar regras de redução de superfície de ataque](enable-attack-surface-reduction.md).</span><span class="sxs-lookup"><span data-stu-id="879de-122">[Configure attack surface reduction rules](enable-attack-surface-reduction.md).</span></span>
+
+7. <span data-ttu-id="879de-123">Configurar o firewall de rede.</span><span class="sxs-lookup"><span data-stu-id="879de-123">Set up your network firewall.</span></span>
+
+   1. <span data-ttu-id="879de-124">Obter uma visão geral do [Windows Defender Firewall com segurança avançada](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security).</span><span class="sxs-lookup"><span data-stu-id="879de-124">Get an overview of [Windows Defender Firewall with advanced security](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security).</span></span>
+   2. <span data-ttu-id="879de-125">Use o [Windows Defender Firewall de design](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security-design-guide) para decidir como você deseja projetar suas políticas de firewall.</span><span class="sxs-lookup"><span data-stu-id="879de-125">Use the [Windows Defender Firewall design guide](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security-design-guide) to decide how you want to design your firewall policies.</span></span>
+   3. <span data-ttu-id="879de-126">Use o [Windows Defender Firewall de implantação](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security-deployment-guide) para configurar o firewall da sua organização com segurança avançada.</span><span class="sxs-lookup"><span data-stu-id="879de-126">Use the [Windows Defender Firewall deployment guide](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security-deployment-guide) to set up your organization's firewall with advanced security.</span></span> 
+
+> [!TIP]
+> <span data-ttu-id="879de-127">Na maioria dos casos, ao configurar recursos de redução de superfície de ataque, você pode escolher entre vários métodos:</span><span class="sxs-lookup"><span data-stu-id="879de-127">In most cases, when you configure attack surface reduction capabilities, you can choose from among several methods:</span></span>
+> - <span data-ttu-id="879de-128">Microsoft Endpoint Manager (que agora inclui Microsoft Intune e Microsoft Endpoint Configuration Manager)</span><span class="sxs-lookup"><span data-stu-id="879de-128">Microsoft Endpoint Manager (which now includes Microsoft Intune and Microsoft Endpoint Configuration Manager)</span></span>
+> - <span data-ttu-id="879de-129">Política de Grupo</span><span class="sxs-lookup"><span data-stu-id="879de-129">Group Policy</span></span>
+> - <span data-ttu-id="879de-130">Cmdlets do PowerShell</span><span class="sxs-lookup"><span data-stu-id="879de-130">PowerShell cmdlets</span></span>
