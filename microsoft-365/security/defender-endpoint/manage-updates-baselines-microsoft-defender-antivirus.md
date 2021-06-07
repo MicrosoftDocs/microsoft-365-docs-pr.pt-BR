@@ -17,12 +17,12 @@ ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
 ms.date: 06/04/2021
-ms.openlocfilehash: 264a3b7a4a24c446048d6cfc6863f1ae9765566f
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: a1b7891e9e397e7345eb73a94d6298a9da781d98
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789178"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52795977"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Gerenciar Microsoft Defender Antivírus e aplicar linhas de base
 
@@ -80,7 +80,7 @@ Para obter informações sobre como atualizar ou instalar a atualização da pla
 Todas as nossas atualizações contêm 
 - melhorias de desempenho;
 - melhorias de capacidade de serviço; e 
-- melhorias de integração (Cloud, Microsoft 365 Defender).
+- melhorias de integração (Cloud, [Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-365-defender)).
 <br/>
 <details>
 <summary> Maio-2021 (plataforma: 4.18.2105.4 | Mecanismo: 1.1.18200.4)</summary>
@@ -92,7 +92,8 @@ Todas as nossas atualizações contêm
 &ensp;Fase de suporte: **Segurança e Atualizações Críticas**
     
 ### <a name="whats-new"></a>Novidades
-- Melhorias no monitoramento de comportamento 
+- Melhorias [no monitoramento de comportamento](client-behavioral-blocking.md) 
+- Recurso [de filtragem de notificação](network-protection.md) de proteção de rede fixa
 
 ### <a name="known-issues"></a>Problemas Conhecidos
 Nenhum problema conhecido  

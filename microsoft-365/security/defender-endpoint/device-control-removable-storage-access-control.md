@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 46ea74d11f9c54cd1d967058433a74ef4c1ead19
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 018bc3549cd7a25df5bdd86d98d351e19027c31f
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300097"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796025"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control Removível Armazenamento Access Control
 
@@ -68,7 +68,7 @@ Para cada propriedade de dispositivo, consulte **a seção Propriedades do Dispo
         - CdRomDevices
     - DeviceId
     - HardwareId
-    - InstancePathId
+    - InstancePathId: InstancePathId é uma cadeia de caracteres que identifica exclusivamente o dispositivo no sistema, por exemplo, USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0. O número no final (por exemplo, **&0**) representa o slot avaliavel e pode mudar de dispositivo para dispositivo. Para melhores resultados, use um curinga no final. Por exemplo, USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*
     - FriendlyNameId
     - SerialNumberId
     - VID
@@ -194,9 +194,9 @@ Para ajudar a familiarizá-lo com o Microsoft Defender for Endpoint Removable Ar
 
 O recurso Controle de Acesso Armazenamento removível permite aplicar a política por meio da Política de Grupo a usuários ou dispositivos ou ambos.
 
-### <a name="licensing"></a>Licenciamento
+### <a name="licensing"></a>Licenças
 
-Antes de começar a Armazenamento Controle de Acesso [Removível,](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2)você deve confirmar sua assinatura Microsoft 365 . Para acessar e usar o Controle de Acesso Armazenamento removível, você deve ter Microsoft 365 E5.
+Antes de começar a Armazenamento Controle de Acesso [Removível,](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2)você deve confirmar sua assinatura Microsoft 365 . Para acessar e usar o Controle de Acesso Armazenamento removível, você deve ter Microsoft 365 E3.
 
 ### <a name="deploying-policy-via-group-policy"></a>Implantando política por meio da Política de Grupo
 
@@ -224,7 +224,7 @@ Antes de começar a Armazenamento Controle de Acesso [Removível,](https://www
 
 O recurso Controle de Acesso Armazenamento removível permite aplicar a política por meio do OMA-URI a usuários ou dispositivos ou ambos.
 
-### <a name="licensing"></a>Licenciamento
+### <a name="licensing"></a>Licenças
 
 Antes de começar a Armazenamento Controle de Acesso [Removível,](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2)você deve confirmar sua assinatura Microsoft 365 . Para acessar e usar o Controle de Acesso Armazenamento removível, você deve ter Microsoft 365 E3.
 
@@ -243,7 +243,7 @@ Para implantação de política no Intune, a conta deve ter permissões para cri
 1. Para cada Grupo, crie uma regra OMA-URI:
     - OMA-URI: 
 
-      /Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyGroups/%7b **GroupGUID**%7d/GroupData
+      ./Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyGroups/%7b **GroupGUID**%7d/GroupData
 
       Por exemplo, para **qualquer grupo de CD/DVD e** armazenamento removível no exemplo, o link deve ser:
 
@@ -257,7 +257,7 @@ Para implantação de política no Intune, a conta deve ter permissões para cri
 
     - OMA-URI: 
 
-      /Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyRules/%7bFA6BE102-0784-4A2A-B010-A0BEBEBF68E1%7d/RuleData
+      ./Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyRules/%7bFA6BE102-0784-4A2A-B010-A0BEBEBF68E1%7d/RuleData
 
       Por exemplo, para a regra Bloquear Gravação e Executar Acesso, mas permitir **USBs** aprovados no exemplo, o link deve ser: 
 

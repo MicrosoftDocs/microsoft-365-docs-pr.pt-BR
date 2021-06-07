@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 description: Saiba como pesquisar tópicos no Microsoft Viva.
-ms.openlocfilehash: 54a143ea0960bf56a0d1c5224658bea404c7621e
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: 36901cf32a0633aaa5fc08e45021d13c7b06dd0b
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52301711"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52795989"
 ---
 # <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Usar a Pesquisa da Microsoft para encontrar tópicos em Tópicos do Microsoft Viva
 
@@ -55,8 +55,5 @@ Para usuários que estão procurando informações sobre como reservar uma viage
 - Para usuários que pesquisam geralmente por "viagem", crie um tópico sobre "Viagem" que tenha as informações que eles esperam ver. Considere adicionar um link ao site externo Concur na descrição do tópico. Se o link for, em vez disso, para um site de reserva de viagem interno hospedado no Microsoft 365 locatário, você poderá adicioná-lo ao "Recursos Fixados".
  
 ### <a name="search-results-priority"></a>Prioridade de resultados da pesquisa 
- 
-Na experiência de pesquisa de usuários, quando um usuário pesquisa um termo como "viagem", os resultados da pesquisa serão exibidos na seguinte prioridade na Pesquisa da Microsoft
-1. Tópicos publicados ou confirmados 
-2. Indicadores
-3. Tópicos sugeridos
+
+Na experiência de pesquisa do usuário, quando um usuário procura um termo como "viagem", um indicador aparecerá antes de um tópico, se um indicador estiver disponível.

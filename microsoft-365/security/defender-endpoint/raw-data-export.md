@@ -16,12 +16,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 27d1b36f3e49112a2da95f9268c0e05fcaa72c89
-ms.sourcegitcommit: f0118e61e490496cb23189cc5c73b23e2ba939be
+ms.custom: api
+ms.openlocfilehash: c8403dee11070dcf0825fad2502d8d21d54933fd
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/05/2021
-ms.locfileid: "52780136"
+ms.locfileid: "52782748"
 ---
 # <a name="raw-data-streaming-api"></a>API de Streaming de Dados Brutos
 
@@ -34,7 +35,8 @@ ms.locfileid: "52780136"
 
 ## <a name="stream-advanced-hunting-events-to-event-hubs-andor-azure-storage-account"></a>Transmitir eventos de Busca Avançada para Hubs de Eventos e/ou conta de armazenamento do Azure.
 
-O Defender for Endpoint oferece suporte [](advanced-hunting-overview.md) ao streaming de todos os eventos disponíveis por meio da Busca Avançada para [hubs](/azure/event-hubs/) de eventos e/ou conta de armazenamento do [Azure.](/azure/event-hubs/)
+
+O Microsoft Defender para Ponto de Extremidade oferece suporte a eventos de streaming disponíveis por meio da [Busca](../defender/advanced-hunting-overview.md) Avançada para [hubs](/azure/event-hubs/) de eventos e/ou conta de armazenamento do [Azure.](/azure/storage/common/storage-account-overview)
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4r4ga]
 

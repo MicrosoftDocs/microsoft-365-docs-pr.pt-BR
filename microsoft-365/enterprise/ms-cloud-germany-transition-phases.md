@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: entenda as ações de fases de migração e os impactos da migração do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para Office 365 serviços na nova região do datacenter alemão.'
-ms.openlocfilehash: 6778248b127894102d15d4d94e3d2f099e3bfa37
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 3a5b95bac74ae405f4e1d6fa91ba4ab51e4a9d05
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771196"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796037"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>Ações e impactos de fases de migração para a migração do Microsoft Cloud Deutschland
 
@@ -50,8 +50,7 @@ O processo de migração será concluído ao longo de muitas semanas, dependendo
 |Power BI & Dynamics 365|Mais de 15 dias|Microsoft|Migre Power BI conteúdo do Dynamics 365.|
 |Finalizar o Azure AD|1 a 2 dias|Microsoft|Concluir a recortamento de locatários para todo o mundo.|
 |Clean-Up|1 a 2 dias|Cliente|Limpe as conexões herdadas com o Microsoft Cloud Deutschland, como os Serviços de Federação do Active Directory (AD FS) Confiança de Parte Confiável, O Azure AD Conexão e Office cliente é reiniciado.|
-|Pontos de extremidade desabilitados|30 dias|Microsoft|30 dias após a finalização do Azure AD, o serviço do Microsoft Cloud Deutschland Azure AD interromperá o acesso ao ponto de extremidade para a organização em transição. As solicitações de ponto de extremidade, como Autenticação, falharão deste ponto em diante em relação ao serviço Microsoft Cloud Deutschland. |
-
+|Pontos de extremidade desabilitados|30 dias|Microsoft|30 dias após a finalização do Azure AD, o serviço do Microsoft Cloud Deutschland Azure AD interromperá o acesso ao ponto de extremidade para a organização em transição. As solicitações de ponto de extremidade, como Autenticação, falharão deste ponto em diante em relação ao serviço Microsoft Cloud Deutschland. Os clientes que executam cargas de trabalho do Azure na instância vinculadas Office 365 serviços no Microsoft Cloud Deutschland serão movidos para a fase final de migração posteriormente. |
 
 As fases e suas ações garantem que dados críticos e experiências sejam migrados para os serviços Office 365 Global. Depois que o locatário for adicionado à fila de migração, cada carga de trabalho será concluída como um conjunto de etapas executadas no serviço de back-end. Algumas cargas de trabalho podem exigir ações do administrador (ou do usuário) ou a migração pode afetar o uso das fases executadas e discutidas em Como a migração [é organizada?](ms-cloud-germany-transition.md#how-is-the-migration-organized)
 
@@ -136,6 +135,7 @@ Considerações adicionais:
 - Se sua organização ainda usa SharePoint fluxos de trabalho 2010, eles não funcionarão mais após 31 de dezembro de 2021. SharePoint fluxos de trabalho 2013 permanecerão com suporte, embora desligados por padrão para novos locatários a partir de 1º de novembro de 2020. Depois que a migração para o serviço SharePoint Online for concluída, recomendamos que você mude para Power Automate ou outras soluções com suporte.
  - Os clientes do Microsoft Cloud Deutschland cuja instância do SharePoint Online ainda não foi migrada precisam permanecer no módulo do SharePoint PowerShell online/Microsoft.SharePointOnline.CSOM versão 16.0.20616.12000 ou abaixo. Caso contrário, as conexões SharePoint online por meio do PowerShell ou do modelo de objeto do lado do cliente falharão.
 - Durante essa fase, os endereços IP por trás SharePoint URLs serão mudadas. Após a transição para os serviços globais do Office 365, os endereços das URLs de locatários preservados (por exemplo, e ) serão alterados para as URLs e intervalos de endereço IP do Microsoft 365 em todo o mundo `contoso.sharepoint.de` `contoso-my.sharepoint.de` [(SharePoint Online e OneDrive for Business)](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#sharepoint-online-and-onedrive-for-business).
+- Embora SharePoint e OneDrive serviços sejam transições, Office Online pode não funcionar conforme o esperado. 
 
 > [!NOTE]
 > Caso esteja usando a Descoberta eDiscovery, certifique-se de estar ciente da experiência de [migração de Descoberta e.](ms-cloud-germany-transition-add-scc.md)
@@ -256,7 +256,7 @@ Os clientes com o Dynamics 365 exigem envolvimento adicional para migrar as orga
 
 | Step(s) | Descrição | Impacto |
 |:-------|:-------|:-------|
-| Recursos do Microsoft Dynamics | Os clientes com o Microsoft Dynamics serão contratados pela Microsoft Engineering ou pelo Microsoft FastTrack para fazer a transição do Microsoft Dynamics 365 para a instância Office 365 serviços globais.* |<ul><li>Após a migração, o administrador valida a organização. <</li><li>O administrador modifica fluxos de trabalho, conforme necessário. </li><li>O administrador limpa o modo AdminOnly conforme apropriado.</li><li>O administrador altera o tipo de organização do _Sandbox_, conforme apropriado</li><li>Notifique os usuários finais da nova URL para acessar a instância (org).</li><li>Atualize quaisquer conexões de entrada para a nova URL do ponto de extremidade. </li><li>O serviço dynamics ficará indisponível para os usuários durante a transição. </li><li>Os usuários são obrigados a validar a saúde e os recursos da organização após a migração de cada organização.</li></ul>|
+| Recursos do Microsoft Dynamics | Os clientes com o Microsoft Dynamics serão contratados pela Microsoft Engineering ou pelo Microsoft FastTrack para fazer a transição do Microsoft Dynamics 365 para a instância Office 365 serviços globais.* |<ul><li>Após a migração, o administrador valida a organização. </li><li>O administrador modifica fluxos de trabalho, conforme necessário. </li><li>O administrador limpa o modo AdminOnly conforme apropriado.</li><li>O administrador altera o tipo de organização do _Sandbox_, conforme apropriado</li><li>Notifique os usuários finais da nova URL para acessar a instância (org).</li><li>Atualize quaisquer conexões de entrada para a nova URL do ponto de extremidade. </li><li>O serviço dynamics ficará indisponível para os usuários durante a transição. </li><li>Os usuários são obrigados a validar a saúde e os recursos da organização após a migração de cada organização.</li></ul>|
 ||||
 
 \* (i) Os clientes com o Microsoft Dynamics 365 devem tomar medidas nesse cenário de migração conforme definido pelo processo de migração fornecido. (ii) A falha da ação do cliente significa que a Microsoft não poderá concluir a migração. (iii) Quando a Microsoft não conseguir concluir a migração devido à inação do cliente, a assinatura do cliente expirará em 29 de outubro de 2021.

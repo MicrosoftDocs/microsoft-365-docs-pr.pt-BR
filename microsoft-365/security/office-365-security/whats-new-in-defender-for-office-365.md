@@ -1,7 +1,7 @@
 ---
-title: Novidades no Microsoft Defender para Office 365
+title: Novidades do Microsoft Defender para Office 365
 description: Saiba mais sobre os novos recursos e funcionalidades disponíveis na versão mais recente do Microsoft Defender para Office 365.
-keywords: novidades no Microsoft Defender para Office 365, ga, geralmente disponível, recursos, disponíveis, novos
+keywords: novidades no Microsoft Defender para Office 365, ga, geralmente disponíveis, recursos, disponíveis, novos
 search.appverid: met150
 ms.sitesec: library
 ms.pagetype: security
@@ -21,14 +21,14 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4bb1450790883deec295f554ddf9614c0f01fe2d
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 2895598c8d891b08229f072b7bff6b6549639093
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51930478"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796061"
 ---
-# <a name="whats-new-in-microsoft-defender-for-office-365"></a>Novidades no Microsoft Defender para Office 365
+# <a name="whats-new-in-microsoft-defender-for-office-365"></a>Novidades do Microsoft Defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -40,7 +40,13 @@ Este artigo lista os novos recursos na versão mais recente do Microsoft Defende
 
 Saiba mais assistindo a [este vídeo](https://www.youtube.com/watch?v=Tdz6KfruDGo&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=3).
 > [!TIP]
-> O Microsoft Defender para Office 365 ainda não tem? [Entre em contato com vendas para iniciar uma avaliação.](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
+> O Microsoft Defender ainda não Office 365? [Entre em contato com vendas para iniciar uma avaliação.](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
+
+## <a name="aprilmay-2021"></a>Abril/maio de 2021 
+
+- [Página de](mdo-email-entity-page.md)entidade de email : uma exibição unificada de 360 graus de um email com informações enriquecidas sobre ameaças, autenticação e detecções, detalhes de detonação e uma nova experiência de visualização de email.
+- [Office 365 API de](/office/office-365-management-api/office-365-management-activity-api-schema#email-message-events)Gerenciamento : atualizações para EmailEvents (RecordType 28) para adicionar ações de entrega, locais de entrega originais e mais recentes e detalhes de detecção atualizados.
+- [Análise de ameaças para o Defender para Office 365](/microsoft-365/security/defender/threat-analytics): Exibir atores ativos de ameaças, técnicas populares e superfícies de ataque, juntamente com relatórios abrangentes de pesquisadores da Microsoft em torno de campanhas em andamento. 
 
 ## <a name="februarymarch-2021"></a>Fevereiro/março de 2021 
 
@@ -51,7 +57,7 @@ Saiba mais assistindo a [este vídeo](https://www.youtube.com/watch?v=Tdz6KfruDG
 
 ## <a name="december-2020"></a>Dezembro de 2020
 
-- [Seguro por padrão no Office 365](secure-by-default.md)
+- [Proteger por padrão em Office 365](secure-by-default.md)
 - Melhorias de investigação automatizadas para: alertas gerais para investigações de email disparadas manualmente, tratar alterações de caixa de correio como uma categoria de entidade separada, remover ações de bloqueio de URL redundantes e criar clusters de email de saída para investigações comprometidas pelo usuário.
 
 ## <a name="november-2020"></a>Novembro de 2020
@@ -61,8 +67,8 @@ Saiba mais assistindo a [este vídeo](https://www.youtube.com/watch?v=Tdz6KfruDG
 ## <a name="septemberoctober-2020"></a>Setembro/outubro de 2020
 
 - [Verifique suas políticas usando o Analisador de Configuração](configuration-analyzer-for-security-policies.md)
-- Recursos estendidos no Explorador de Ameaças, incluindo os principais usuários [direcionados,](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) regras de transporte e conectores (informações do Defender para Office 365 no [Explorador](threat-explorer.md) de Ameaças (email foi permitido/bloqueado pela política de locatário/usuário) (Defender para Office 365 Plano 2)
-- Ameaças de URL crescentes no [Explorador](threat-explorer.md#threats-in-urls) de Ameaças (malware, phishing, spam ou nenhuma) (Defender para Office 365 Plano 2)
+- Recursos estendidos no Explorador de Ameaças, incluindo usuários principais [direcionados,](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) regras de transporte e conectores (Defender para obter informações Office 365 no [Explorador](threat-explorer.md) de Ameaças (email foi permitido/bloqueado pela política de locatário/usuário) (Defender para Office 365 Plano 2)
+- Ameaças de URL crescentes no [Explorador de](threat-explorer.md#threats-in-urls) Ameaças (malware, phishing, spam ou nenhuma) (Defender para Office 365 Plano 2)
 - [Melhorias no Explorador de](threat-explorer.md#improvements-to-the-threat-hunting-experience-upcoming) Ameaças da Experiência de Busca com atualizações em torno de ameaças, ações adicionais, locais de entrega e exibição de linha do tempo atualizada (Defender para Office 365 Plano 2)
 
 ## <a name="julyaugust-2020"></a>Julho/agosto de 2020
@@ -76,7 +82,7 @@ Saiba mais assistindo a [este vídeo](https://www.youtube.com/watch?v=Tdz6KfruDG
 
 ## <a name="januaryfebruary-2020"></a>Janeiro/fevereiro de 2020
 
-- [Disponibilidade geral de exibições de campanha no Microsoft Defender para Office 365](campaigns.md) (Microsoft Defender para Office 365 Plano 2)
+- [Disponibilidade geral de exibições de campanha](campaigns.md) no Microsoft Defender para Office 365 (Microsoft Defender para Office 365 Plano 2)
 - Aprimoramentos no [Explorador de](threat-explorer.md) Ameaças para permitir que as equipes de operações de segurança pesquisem e filtrem em vários campos enquanto investigam [emails](investigate-malicious-email-that-was-delivered.md): (Microsoft Defender para Office 365 Plano 2)
   - Local de entrega e ações especiais
   - Direcionalidade (entrada, saída ou intra-org)
@@ -85,7 +91,7 @@ Saiba mais assistindo a [este vídeo](https://www.youtube.com/watch?v=Tdz6KfruDG
 
 - O **widget Incidentes** agora é o widget **do Centro de Ações.** (Para exibir seus widgets de segurança, no Centro de Conformidade & segurança, acesse **Gerenciamento de ameaças** \> **Revisar**.) (Microsoft Defender para Office 365 Plano 2)
 
-- [Documentos seguros no Microsoft 365](safe-docs.md) **(visualização)**
+- [Cofre Documentos no Microsoft 365](safe-docs.md) **(visualização)**
 
 ## <a name="december-2019"></a>Dezembro de 2019
 
@@ -101,7 +107,7 @@ Saiba mais assistindo a [este vídeo](https://www.youtube.com/watch?v=Tdz6KfruDG
 
 - [Empregar recursos automatizados de investigação e resposta](automated-investigation-response-office.md) (Microsoft Defender para Office 365 Plano 2)
 
-- [Integrar-se ao Microsoft Defender para Eventos](/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) automatizados de investigação e resposta do Office 365 usando a API de Atividade de Gerenciamento do Office 365 (Defender para Office 365 Plano 2)
+- [Integre-se ao Microsoft Defender](/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) para Office 365 eventos de investigação e resposta automatizados usando Office 365 API de Atividade de Gerenciamento (Defender para Office 365 Plano 2)
 
 - [Exibir os headers de email e baixar o corpo do email](investigate-malicious-email-that-was-delivered.md) (Microsoft Defender para Office 365 Plano 1 ou Plano 2)
 
@@ -115,7 +121,7 @@ Saiba mais assistindo a [este vídeo](https://www.youtube.com/watch?v=Tdz6KfruDG
 
 ## <a name="june-2019"></a>Junho de 2019
 
-- [Exibir URLs de phishing e clicar em dados de veredito](threat-explorer.md#view-phishing-url-and-click-verdict-data) (Microsoft Defender para Office 365 Plano 1 ou Plano 2)
+- [Exibir URLs de phishing e clicar em dados de](threat-explorer.md#view-phishing-url-and-click-verdict-data) veredito (Microsoft Defender para Office 365 Plano 1 ou Plano 2)
 
 ## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Microsoft Defender para Office 365 Plano 1 e Plano 2
 
@@ -123,6 +129,6 @@ Você sabia que o Microsoft Defender para Office 365 está disponível em dois p
 
 ## <a name="see-also"></a>Confira também
 
-[Roteiro do Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap)
+[Microsoft 365 roteiro](https://www.microsoft.com/microsoft-365/roadmap)
 
-[Descrição do serviço do Microsoft Defender para Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+[Microsoft Defender para Office 365 Descrição do serviço](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
