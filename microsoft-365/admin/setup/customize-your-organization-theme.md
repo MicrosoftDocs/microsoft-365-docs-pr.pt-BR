@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: Aprenda a alterar o tema padrão para a parte superior da barra de navegação Microsoft 365 personalizá-lo para corresponder ao logotipo ou cor da sua empresa.
-ms.openlocfilehash: 5f6536d575ef055cda7a97a0860315c491100a1d
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: e609cbbc116f932d9c41f7ec797bf04a2a9c8ef8
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635921"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52809042"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Personalizar o Microsoft 365 da sua organização
 
@@ -39,7 +39,7 @@ Você pode adicionar ou atualizar um tema padrão que se aplica a todos em sua o
 
 1. No centro de administração, vá para **a** página Configurações Org Configurações e escolha a guia Perfil \>  **da** Organização.
 
-2. Na guia **Perfil da** Organização, selecione **Tema organização**.
+2. Na guia **Perfil da** Organização, selecione **Temas personalizados**.
 
 Todos os temas podem ser personalizados usando as guias a seguir.
 

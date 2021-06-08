@@ -19,12 +19,12 @@ ms.assetid: ''
 description: Saiba mais sobre as etapas básicas de solução de problemas que você pode tomar para resolver problemas comuns Office 365 Descoberta eDiscovery.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3d3d0830ac677ea812a0d09793de8214245d6b2a
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 26ca41774e1e09619fdf5e518258f8acf3a9d938
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52060986"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52809114"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Investigar, solucionar problemas e resolver problemas comuns de Descoberta e Descoberta
 
@@ -89,6 +89,20 @@ Ao executar uma pesquisa de Descoberta Virtual que inclui SharePoint online e lo
 1. Verifique o local identificado na pesquisa para garantir que o local do arquivo está correto e adicionado nos locais de pesquisa.
 
 2. Use os procedimentos em Solicitação manual de rastreamento e re indexação de [um site,](/sharepoint/crawl-site-content) uma biblioteca ou uma lista para reindexar o site.
+
+## <a name="errorissue-this-file-wasnt-exported-because-it-doesnt-exist-anymore-the-file-was-included-in-the-count-of-estimated-search-results-because-its-still-listed-in-the-index-the-file-will-eventually-be-removed-from-the-index-and-wont-cause-an-error-in-the-future"></a>Erro/problema: esse arquivo não foi exportado porque ele não existe mais. O arquivo foi incluído na contagem de resultados de pesquisa estimados porque ele ainda está listado no índice. O arquivo eventualmente será removido do índice e não causará um erro no futuro.
+
+Você pode ver esse erro ao executar uma pesquisa de Descoberta Virtual que inclui locais SharePoint Online e One Drive For Business. A Descoberta eDiscovery depende do índice SPO para identificar os locais do arquivo. Se o arquivo foi excluído, mas o índice SPO ainda não foi atualizado, esse erro pode ocorrer.
+
+### <a name="resolution"></a>Resolução 
+Abra o local do SPO e verifique se esse arquivo realmente não está lá.
+A solução sugerida é reindexar manualmente o site ou aguardar até que o site seja reindexado pelo processo de plano de fundo automático.
+
+
+## <a name="errorissue-this-search-result-was-not-downloaded-as-it-is-a-folder-or-other-artefact-that-cant-be-downloaded-by-itself-any-items-inside-the-folder-or-library-will-be-downloaded"></a>Erro/problema: esse resultado de pesquisa não foi baixado, pois é uma pasta ou outro artefato que não pode ser baixado por si só, qualquer item dentro da pasta ou biblioteca será baixado.
+
+Você pode ver esse erro ao executar uma pesquisa de Descoberta Virtual que inclui locais SharePoint Online e One Drive For Business. Isso significa que vamos tentar exportar o item relatado no índice, mas ele acabou sendo uma pasta para que não o exportá-lo. Como mencionado no erro, não exportamos itens de pasta, mas exportamos seu conteúdo.
+
 
 ## <a name="errorissue-search-fails-because-recipient-is-not-found"></a>Erro/problema: a pesquisa falha porque o destinatário não foi encontrado
 

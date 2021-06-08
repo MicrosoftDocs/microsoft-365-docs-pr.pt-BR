@@ -16,12 +16,12 @@ ms.collection:
 description: Os administradores podem aprender a configurar as permites e os bloqueios na Lista de Locatários de Permitir/Bloquear no portal de Segurança.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 636114180a1814f5ef842b2a704f2df98488f46e
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: 12139708fc5cde133819713fd7185435e594a1a9
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694480"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52809174"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>Gerenciar a lista de Permissões/Bloqueios do Locatário
 
@@ -662,7 +662,9 @@ Aqui estão alguns exemplos de pares de domínio válidos para identificar os en
 - `chris@contoso.com, fabrikam.com`
 - `*, contoso.net`
 
-Adicionar um par de domínios  só permite ou bloqueia a combinação do usuário e da *infraestrutura* de envio. Ele não permite emails do usuário com spoofed de qualquer origem, nem permite emails da fonte de infraestrutura de envio para qualquer usuário com spoofed.
+O número máximo de entradas de remetentes com spoofed é 1000. 
+
+Adicionar um par de domínios  só permite ou bloqueia a combinação do usuário e da *infraestrutura* de envio. Ele não permite emails do usuário com spoofed de qualquer origem, nem permite emails da fonte de infraestrutura de envio para qualquer usuário com spoofed. 
 
 Por exemplo, você adiciona uma entrada de autorização para o seguinte par de domínio:
 
