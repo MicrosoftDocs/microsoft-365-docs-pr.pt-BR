@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: Ative uma configuração que permite a coautoria e o Salvamento Automático em aplicativos da área de trabalho para documentos rotulados e criptografados no SharePoint e no OneDrive.
-ms.openlocfilehash: 6506f72a7ff663c1fc1c32ca22a562f1f8ad3e0a
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 926f8aa188aeb1dbc7bb7b042d0a402acc49f7a3
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332721"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796049"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>Ativar a coautoria para arquivos criptografados com rótulos de confidencialidade
 
@@ -48,7 +48,7 @@ Para ler o comunicado de lançamento, veja a postagem no blog [Anunciando a coau
 
 Antes de habilitar a configuração para suportar a coautoria para aplicativos da área de trabalho do Office, é importante compreender que essa ação faz alterações nos metadados de rotulagem salvos e lidos dos arquivos do Office.
 
-Os metadados de rotulagem incluem informações que identificam seu locatário e o rótulo de confidencialidade aplicado. A alteração que essa configuração faz é no formato de metadados e no local de arquivos não criptografados para o Word, Excel e PowerPoint. Não há nenhuma alteração nos metadados de rolatuagem para arquivos criptografados ou emails.
+Os metadados de rotulagem incluem informações que identificam seu locatário e o rótulo de confidencialidade aplicado. A alteração que essa configuração faz é no formato de metadados e no local de arquivos do Word, Excel e PowerPoint. Não é necessário tomar nenhuma medida para emails ou arquivos criptografados; a alteração de metadados para arquivos criptografados é compatível com versões anteriores e não há alterações para emails. No entanto, você precisa estar ciente das alterações de metadados para arquivos criptografados que podem ser atualizados automaticamente, mas não são compatíveis com versões anteriores.
 
 Essa alteração afeta tanto os arquivos que foram rotulados recentemente quanto os arquivos que já estão rotulados. Quando você usa aplicativos e serviços dão suporte à configuração de coautoria:
 - Para arquivos rotulados recentemente, apenas o novo formato e local são usados para os metadados de rotulagem.
