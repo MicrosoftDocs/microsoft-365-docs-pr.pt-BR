@@ -57,7 +57,7 @@ Você também pode exportar os dados do relatório para um arquivo Excel .csv se
 |Data de alteração de estado (UTC)  <br/> |A data em que o estado do usuário foi alterado Yammer.  <br/> |
 |Data da última atividade (UTC)  <br/> | A última data em que o usuário postou, leu ou gostou de uma mensagem.  <br/> |
 |Postados  <br/> |O número de mensagens que o usuário postou durante o período especificado. <br/>|
-|Ler  <br/> |O número de conversas que o usuário leu durante o período especificado.  <br/> |
+|Leitura  <br/> |O número de conversas que o usuário leu durante o período especificado.  <br/> |
 |Curtidos  <br/> |O número de mensagens que o usuário gostou durante o período especificado.  <br/>|
 |Produto atribuído  <br/> |Os produtos atribuídos a esse usuário.|
 |||

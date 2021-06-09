@@ -1,5 +1,5 @@
 ---
-title: 'Suporte ao aplicativo cliente do Microsoft 365: Autenticação baseada em certificado'
+title: 'Microsoft 365 Suporte ao aplicativo cliente: Autenticação baseada em certificado'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -14,7 +14,7 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: Neste artigo, encontre detalhes sobre o suporte ao Microsoft 365 Client App para autenticação baseada em certificado.
+description: Neste artigo, encontre detalhes sobre o Microsoft 365 de aplicativo cliente para autenticação baseada em certificado.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: d5ebef7c10aa61ba28c8fb841468be244f6e8542
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
@@ -23,24 +23,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50904980"
 ---
-# <a name="microsoft-365-client-app-support-certificate-based-authentication"></a>Suporte ao aplicativo cliente do Microsoft 365: Autenticação baseada em certificado
+# <a name="microsoft-365-client-app-support-certificate-based-authentication"></a>Microsoft 365 Suporte ao aplicativo cliente: Autenticação baseada em certificado
 
-*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
+*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
 Autenticação moderna é um termo de guarda-chuva para uma combinação de métodos de autenticação e autorização. São elas:
 
 - **Métodos de autenticação**: Autenticação multifato; Autenticação baseada em certificado do cliente.
 - **Métodos de autorização**: Implementação da Microsoft de Autorização Aberta (OAuth).
 
-A autenticação moderna é habilitada usando uma biblioteca de autenticação, como a Biblioteca de Autenticação do Active Directory (ADAL) ou a Biblioteca de Autenticação da Microsoft (MSAL). Autenticação moderna é o que os clientes usam para autenticar e autorizar o acesso aos recursos do Microsoft 365. A autenticação moderna usa o OAuth e fornece um mecanismo seguro para os clientes acessarem os serviços do Microsoft 365, sem exigir acesso às credenciais do usuário. Ao entrar, o usuário autentica diretamente com o Azure Active Directory e recebe um par de tokens de acesso/atualização em troca. O token de acesso concede ao cliente acesso aos recursos apropriados no locatário do Microsoft 365. Um token de atualização é usado para obter um novo par de tokens de acesso ou atualização quando o token de acesso atual expira.
+A autenticação moderna é habilitada usando uma biblioteca de autenticação, como a Biblioteca de Autenticação do Active Directory (ADAL) ou a Biblioteca de Autenticação da Microsoft (MSAL). Autenticação moderna é o que os clientes usam para autenticar e autorizar o acesso Microsoft 365 recursos. A autenticação moderna usa o OAuth e fornece um mecanismo seguro para os clientes acessarem Microsoft 365 serviços, sem exigir acesso às credenciais do usuário. Ao entrar, o usuário autentica diretamente com Azure Active Directory e recebe um par de tokens de acesso/atualização em retorno. O token de acesso concede ao cliente acesso aos recursos apropriados no Microsoft 365 locatário. Um token de atualização é usado para obter um novo par de tokens de acesso ou atualização quando o token de acesso atual expira.
 
-A autenticação moderna oferece suporte a diferentes mecanismos de autenticação, como autenticação baseada em certificado. Os clientes em dispositivos Windows, Android ou iOS podem usar a autenticação baseada em certificado (CBA) para autenticar no Azure Active Directory usando um certificado de cliente no dispositivo. Em vez de um nome de usuário/senha típico, o certificado é usado para obter um par de tokens de acesso/atualização do Azure Active Directory.
+A autenticação moderna oferece suporte a diferentes mecanismos de autenticação, como autenticação baseada em certificado. Os clientes em Windows, Android ou iOS podem usar a autenticação baseada em certificado (CBA) para autenticar Azure Active Directory usando um certificado de cliente no dispositivo. Em vez de um nome de usuário/senha típico, o certificado é usado para obter um par de tokens de acesso/atualização de Azure Active Directory.
 
 Saiba mais sobre [autenticação baseada em certificado.](/azure/active-directory/authentication/active-directory-certificate-based-authentication-get-started)
 
 ## <a name="supported-clients--platforms"></a>Clientes com suporte & plataformas
 
-As versões mais recentes dos seguintes clientes e plataformas suportam autenticação baseada em certificado ao entrar em contas do Azure Active Directory no cliente (por exemplo, ao adicionar uma conta ao aplicativo). Para obter mais informações sobre o suporte à plataforma no Microsoft 365, consulte [System requirements for Microsoft 365](/microsoft-365/microsoft-365-and-office-resources).
+As versões mais recentes dos seguintes clientes e plataformas suportam autenticação baseada em certificado ao entrar em Azure Active Directory contas dentro do cliente (por exemplo, ao adicionar uma conta ao aplicativo). Para obter mais informações sobre o suporte à plataforma Microsoft 365, consulte [System requirements for Microsoft 365](/microsoft-365/microsoft-365-and-office-resources).
 <br>
 <br>
 

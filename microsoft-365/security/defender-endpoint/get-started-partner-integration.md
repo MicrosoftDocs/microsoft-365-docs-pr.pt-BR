@@ -39,7 +39,7 @@ Para se tornar um parceiro de solução do Defender para Ponto de Extremidade, v
 Inscreva-se na [licença do Microsoft Defender for Endpoint Developer](https://winatpregistration-prd.trafficmanager.net/Developer/UserAgreement?Length=9). A assinatura permite que você use um locatário do Microsoft Defender para Ponto de Extremidade com até 10 dispositivos para desenvolver soluções que se integram ao Microsoft Defender para Ponto de Extremidade. 
 
 ## <a name="step-2-fulfill-the-solution-validation-and-certification-requirements"></a>Etapa 2: atender aos requisitos de validação e certificação de solução
-A melhor maneira para os parceiros de tecnologia certificarem que sua integração funciona é fazer com que [](https://securitycenter.microsoft.com/interoperability/partners) um cliente comum aprove o design de integração sugerido (o cliente pode usar a opção Recomendar um parceiro na página Aplicativo de Parceiro no Centro de Segurança do Microsoft Defender) e testá-lo e rebaixá-lo para **a** equipe do Microsoft Defender para Ponto de Extremidade.
+A melhor maneira para os parceiros de tecnologia certificarem que sua integração funciona é fazer com que [](https://securitycenter.microsoft.com/interoperability/partners) um cliente comum aprove o design de integração sugerido (o cliente pode usar a opção Recomendar um parceiro na página Aplicativo de Parceiro no Central de Segurança do Microsoft Defender) e testá-lo e rebaixá-lo para **a** equipe do Microsoft Defender para Ponto de Extremidade.
 
 Depois que a equipe do Microsoft Defender for Endpoint analisar e aprovar a integração, direcionaremos você para ser incluído como parceiro na Associação de Segurança Inteligente da Microsoft.
 
@@ -56,7 +56,7 @@ Para que sua empresa seja listada como um parceiro na página do parceiro no pro
 3. Forneça uma descrição do produto de 15 palavras.
 4. Link para a página inicial do cliente para concluir a integração ou postagem de blog que incluirá informações suficientes para os clientes. Qualquer comunicado de imprensa, incluindo o nome do produto do Microsoft Defender for Endpoint, deve ser revisado pelas equipes de marketing e engenharia. Aguarde pelo menos 10 dias para que o processo de revisão seja feito.
 5.  Se você usar uma abordagem do Azure AD com vários locatários, será necessário o nome do aplicativo do Azure AD para controlar o uso do aplicativo.
-6. Inclua o campo User-Agent em cada chamada de API feita ao Microsoft Defender para o conjunto público de APIs ou APIs de Segurança do Graph. Isso será usado para fins estatísticos, solução de problemas e reconhecimento de parceiros. Além disso, esta etapa é um requisito para associação no MisA (Associação de Segurança Inteligente da Microsoft).
+6. Inclua o campo User-Agent em cada chamada de API feita ao Microsoft Defender para o conjunto público de APIs de ponto de extremidade ou APIs de segurança Graph. Isso será usado para fins estatísticos, solução de problemas e reconhecimento de parceiros. Além disso, esta etapa é um requisito para associação no MisA (Associação de Segurança Inteligente da Microsoft).
 
     Siga estas etapas:
     

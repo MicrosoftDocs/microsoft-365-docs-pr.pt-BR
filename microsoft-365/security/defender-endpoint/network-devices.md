@@ -1,5 +1,5 @@
 ---
-title: Gerenciamento de vulnerabilidade e descoberta de dispositivo de rede
+title: Descoberta e Gerenciamento de Vulnerabilidades
 description: As recomendações de segurança e a detecção de vulnerabilidades agora estão disponíveis para sistemas operacionais de comutadores, roteadores, controladores WLAN e firewalls.
 keywords: dispositivos de rede, detecção de vulnerabilidade de dispositivos de rede, sistemas operacionais de comutadores, roteadores, controladores WLAN e firewalls
 search.product: eADQiWindows 10XVcnh
@@ -25,14 +25,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/16/2021
 ms.locfileid: "51862062"
 ---
-# <a name="network-device-discovery-and-vulnerability-management"></a>Gerenciamento de vulnerabilidade e descoberta de dispositivo de rede
+# <a name="network-device-discovery-and-vulnerability-management"></a>Descoberta e Gerenciamento de Vulnerabilidades
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Ameaça e Gerenciamento de Vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!IMPORTANT]
@@ -45,9 +45,9 @@ ms.locfileid: "51862062"
 > [!NOTE]  
 > O Blog de avaliação de vulnerabilidade e descoberta de [dispositivos](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/network-device-discovery-and-vulnerability-assessments/ba-p/2267548) de rede publicado em \( 13/04/2021 fornece informações sobre os novos recursos de descoberta de dispositivos de rede no \) Defender for Endpoint.  Este artigo fornece uma visão  geral do desafio que a descoberta de dispositivos de rede foi projetada para resolver e informações detalhadas sobre como começar a usar esses novos recursos.
 
-Os recursos de descoberta de rede estão disponíveis na **seção** Inventário de dispositivos do Centro de Segurança do Microsoft 365 e consoles do Centro de Segurança do Microsoft Defender.  
+Os recursos de descoberta de rede estão disponíveis na **seção** Inventário de dispositivos do centro Microsoft 365 de segurança e Central de Segurança do Microsoft Defender consoles.  
 
-Um dispositivo do Microsoft Defender for Endpoint designado será usado em cada segmento de rede para executar verificações autenticadas periódicas de dispositivos de rede pré-configurados. Depois de descoberto, os recursos de gerenciamento de ameaças e vulnerabilidades do Defender for Endpoint fornecem fluxos de trabalho integrados para proteger opções descobertas, roteadores, controladores WLAN, firewalls e gateways VPN.  
+Um dispositivo do Microsoft Defender for Endpoint designado será usado em cada segmento de rede para executar verificações autenticadas periódicas de dispositivos de rede pré-configurados. Depois de descoberto, os recursos de Gerenciamento de Ameaças e Vulnerabilidades do Defender for Endpoint fornecem fluxos de trabalho integrados para proteger comutadores, roteadores, controladores WLAN, firewalls e gateways VPN descobertos.  
 
 Depois que os dispositivos de rede são descobertos e classificados, os administradores de segurança poderão receber as recomendações de segurança mais recentes e revisar as vulnerabilidades descobertas recentemente em dispositivos de rede implantados em suas organizações.
 
@@ -89,7 +89,7 @@ Sua primeira etapa é selecionar um dispositivo que executará as verificações
 
 5. Obtenha os endereços IP dos dispositivos de rede a serem verificados (ou as sub-redes onde esses dispositivos são implantados).
 
-6. Obtenha as credenciais SNMP dos dispositivos de rede (por exemplo: Cadeia de caracteres da comunidade, noAuthNoPriv, authNoPriv, authPriv). Você será obrigado a fornecer as credenciais ao configurar um novo trabalho de avaliação.  
+6. Obtenha as credenciais SNMP dos dispositivos de rede (por exemplo: string Community, noAuthNoPriv, authNoPriv, authPriv). Você será obrigado a fornecer as credenciais ao configurar um novo trabalho de avaliação.  
 
 7. Configuração do cliente proxy: nenhuma configuração extra é necessária além dos requisitos de proxy do dispositivo Defender para Ponto de Extremidade.
 
@@ -105,12 +105,12 @@ Sua primeira etapa é selecionar um dispositivo que executará as verificações
 
 ## <a name="permissions"></a>Permissões
 
-Para configurar trabalhos de avaliação, a seguinte opção de permissão de usuário é necessária: **Gerenciar configurações de segurança no Centro de Segurança**. Você pode encontrar a permissão indo para **Configurações**  >  **Funções**. Para obter mais informações, [consulte Create and manage roles for role-based access control](user-roles.md).
+Para configurar trabalhos de avaliação, a seguinte opção de permissão de usuário é necessária: **Gerenciar configurações de segurança no Centro de Segurança**. Você pode encontrar a permissão indo **para** Configurações  >  **Funções**. Para obter mais informações, [consulte Create and manage roles for role-based access control](user-roles.md).
 
 ## <a name="install-the-network-scanner"></a>Instalar o scanner de rede
 
-1. Vá para **Configurações de Segurança do Microsoft 365 Trabalhos** de Avaliação de Pontos de Extremidade  >    >    >   (em **Avaliações de rede**).
-    1. Na Central de Segurança do Microsoft Defender, acesse Configurações > Trabalhos de Avaliação.
+1. Vá para os **Microsoft 365 de Configurações** de Avaliação de Pontos de Extremidade  >    >    >   (em **Avaliações de rede).**
+    1. Na Central de Segurança do Microsoft Defender, vá para a página Trabalhos de Avaliação Configurações > Avaliação.
 
 2. Baixe o scanner de rede e instale-o no dispositivo de avaliação do Defender para Ponto de Extremidade designado.
 
@@ -134,7 +134,7 @@ Para concluir o processo de registro do scanner de rede:
 
 ## <a name="configure-a-new-assessment-job"></a>Configurar um novo trabalho de avaliação  
 
-Na página Trabalhos de Avaliação em **Configurações,** selecione **Adicionar trabalho de avaliação de rede.** Siga o processo de configuração para escolher dispositivos de rede a serem verificados regularmente e adicionados ao inventário do dispositivo.
+Na página Trabalhos de Avaliação **em Configurações**, selecione Adicionar trabalho **de avaliação de rede**. Siga o processo de configuração para escolher dispositivos de rede a serem verificados regularmente e adicionados ao inventário do dispositivo.
 
 Para impedir a duplicação de dispositivos no inventário de dispositivos de rede, certifique-se de que cada endereço IP está configurado apenas uma vez em vários dispositivos de avaliação.
 
@@ -193,7 +193,7 @@ Se você ainda não receber resultados após 5 minutos, reinicie o serviço.
 
 Valide se o scanner está sendo executado corretamente. Em seguida, vá para a definição de verificação e selecione "Executar teste". Verifique quais mensagens de erro estão retornando dos endereços IP relevantes.
 
-### <a name="required-threat-and-vulnerability-management-user-permission"></a>Permissão de usuário de gerenciamento de vulnerabilidades e ameaças necessárias
+### <a name="required-threat-and-vulnerability-management-user-permission"></a>Permissão de Gerenciamento de Ameaças e Vulnerabilidades usuário necessária
 
 O registro terminou com um erro: "Parece que você não tem permissões suficientes para adicionar um novo agente. A permissão necessária é "Gerenciar configurações de segurança no Centro de Segurança".
 

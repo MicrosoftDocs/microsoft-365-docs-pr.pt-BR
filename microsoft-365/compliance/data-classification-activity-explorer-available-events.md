@@ -36,7 +36,7 @@ Esse evento é gerado sempre que um documento não rotulado é rotulado ou um em
 - As ações de rótulos de atualização e downgrade também podem ser monitoradas por meio do *campo de* tipo de evento Label e filtro.   
 
 
-|Origem  |Relatado no explorador de atividades | Observação  |
+|Source  |Relatado no explorador de atividades | Observação  |
 |---------|---------|---------|
 | Word, Excel, PowerPoint|sim |
 |Outlook| sim |do Win 32 |
@@ -60,7 +60,7 @@ Esse evento é gerado sempre que um rótulo de sensibilidade é atualizado no do
 - A rotulagem de confidencialidade feita Office aplicativos nativos no Outlook coleta a última ação gerada antes das ações de envio/envio de email de arquivo. Por exemplo, se o usuário mudar o rótulo em um email várias vezes antes de enviar, o último rótulo encontrado no email quando ele é enviado será capturado no log de auditoria e, em seguida, relatado no explorador de atividades. 
 
 
-|Origem  |Relatado no explorador de atividades|Observação  |
+|Source  |Relatado no explorador de atividades|Observação  |
 |---------|---------|---------| 
 |Word, Excel, PowerPoint         |sim         |
 |Outlook         |sim         |Ganhar 32|
@@ -81,7 +81,7 @@ Esse evento é gerado sempre que um rótulo de confidencialidade é removido de 
 - Ele é capturado no momento da ocorrência nos complementos da Proteção de Informações do Azure. 
 - A rotulagem de confidencialidade, com Office rótulo MIP nativo, no Outlook coleta o último evento de rotulagem que foi gerado antes das ações de envio de arquivo/envio de email.
 
-|Origem  |Relatado no explorador de atividades | Observação  |
+|Source  |Relatado no explorador de atividades | Observação  |
 |---------|---------|---------| 
 |Word, Excel, PowerPoint         |sim         |
 |Outlook         |sim         |Ganhar 32|
@@ -99,7 +99,7 @@ Esse evento é gerado sempre que um rótulo de confidencialidade é removido de 
 
 Esse evento é gerado sempre que um documento rotulado ou protegido é aberto.
 
-|Origem  |Relatado no explorador de atividades | Observação  |
+|Source  |Relatado no explorador de atividades | Observação  |
 |---------|---------|---------| 
 |Word, Excel, PowerPoint         |sim         |
 |Outlook         |não         |
@@ -117,7 +117,7 @@ Esse evento é gerado sempre que um documento rotulado ou protegido é aberto.
 
 Esse evento é gerado sempre que os arquivos são descobertos quando o Scanner AIP é usado para a verificação de dados confidenciais em vários locais e localiza arquivos.
 
-|Origem  |Relatado no explorador de atividades | Observação  |
+|Source  |Relatado no explorador de atividades | Observação  |
 |---------|---------|---------| 
 |Word, Excel, PowerPoint         |não se aplica         |
 |Outlook         |não se aplica         |
@@ -135,7 +135,7 @@ Esse evento é gerado sempre que os arquivos são descobertos quando o Scanner A
 
 Esse evento é gerado sempre que um documento com um rótulo de sensibilidade é renomeado. 
 
-|Origem  | Relatado no explorador de atividades | Observação  |
+|Source  | Relatado no explorador de atividades | Observação  |
 |---------|---------|---------| 
 |Word, Excel, PowerPoint         |sim         |
 |Outlook         |não se aplica         |
@@ -153,7 +153,7 @@ Esse evento é gerado sempre que um documento com um rótulo de sensibilidade é
 
 Esse evento é gerado sempre que o verificador AIP detecta que um arquivo verificado anteriormente foi removido.
 
-|Origem  |Relatado no explorador de atividades | Observação  |
+|Source  |Relatado no explorador de atividades | Observação  |
 |---------|---------|---------| 
 |Word, Excel, PowerPoint         |não se aplica         |
 |Outlook         |não se aplica         |
@@ -170,7 +170,7 @@ Esse evento é gerado sempre que o verificador AIP detecta que um arquivo verifi
 
 Esse evento é gerado, a proteção de primeira vez é adicionada manualmente a um item que não tem um rótulo.
 
-|Origem  |Relatado no explorador de atividades | Observação  |
+|Source  |Relatado no explorador de atividades | Observação  |
 |---------|---------|---------| 
 |Word, Excel, PowerPoint         |não         |
 |Outlook         |não         |
@@ -187,7 +187,7 @@ Esse evento é gerado, a proteção de primeira vez é adicionada manualmente a 
 
 Esse evento é gerado sempre que a proteção em um documento não rotulado é alterada manualmente.
 
-|Origem  |Relatado no explorador de atividades |
+|Source  |Relatado no explorador de atividades |
 |---------|---------| 
 |Word, Excel, PowerPoint         |não         |
 |Outlook         |não         |
@@ -204,7 +204,7 @@ Esse evento é gerado sempre que a proteção em um documento não rotulado é a
 
 Esse evento é gerado sempre que a proteção em um documento não rotulado é alterada manualmente.
 
-|Origem  |Relatado no explorador de atividades |
+|Source  |Relatado no explorador de atividades |
 |---------|---------| 
 |Word, Excel, PowerPoint         |não         |
 |Outlook         |não         |
@@ -221,7 +221,7 @@ Esse evento é gerado sempre que a proteção em um documento não rotulado é a
 
 Esse evento é gerado sempre que uma política de DLP é corresponder a um documento ou a um email.
 
-|Origem  |Relatado no explorador de atividades |
+|Source  |Relatado no explorador de atividades |
 |---------|---------| 
 |Exchange         |sim       |
 |SharePoint Online|sim          |
@@ -251,7 +251,7 @@ Esse evento é gerado sempre que um documento não rotulado é rotulado ou um em
 
 - Ele é capturado no momento da salvação de um documento e no momento do envio de um email.
 
-|Origem  |Relatado no explorador de atividades |
+|Source  |Relatado no explorador de atividades |
 |---------|---------| 
 |Exchange         |não       |
 |SharePoint Online|sim          |
@@ -263,7 +263,7 @@ Esse evento é gerado sempre que um rótulo é atualizado em um documento ou ema
 
 - Ele é capturado no momento da salvação de um documento e no momento do envio de um email.
 
-|Origem  |Relatado no explorador de atividades |
+|Source  |Relatado no explorador de atividades |
 |---------|---------| 
 |Exchange         |não       |
 |SharePoint Online|sim          |
@@ -275,7 +275,7 @@ Esse evento é gerado sempre que um rótulo é removido de um arquivo ou documen
 
 - Ele é capturado no momento da salvação de um documento e no momento do envio de um email.
 
-|Origem  |Relatado no explorador de atividades |
+|Source  |Relatado no explorador de atividades |
 |---------|---------| 
 |Exchange         |não       |
 |SharePoint Online|sim          |

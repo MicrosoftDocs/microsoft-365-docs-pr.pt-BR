@@ -64,7 +64,7 @@ Logotipo |Nome do parceiro   | Descrição
 ![Imagem do logotipo Do Micro Focus ArcSight](images/arcsight-logo.png) | [Micro Focus ArcSight](https://go.microsoft.com/fwlink/?linkid=2113548) | Usar o Micro Focus ArcSight para puxar o Defender para detecções de ponto de extremidade
 ![Imagem do logotipo RSA NetWitness](images/rsa-netwitness-logo.png) | [RSA NetWitness](https://go.microsoft.com/fwlink/?linkid=2118566) | Stream Defender for Endpoint Alerts to RSA NetWitness using Microsoft Graph Security API
 ![Imagem do logotipo SafeBreach](images/safebreach-logo.png) | [SafeBreach](https://go.microsoft.com/fwlink/?linkid=2114114)| Obtenha visibilidade sobre eventos de segurança do Defender para Ponto de Extremidade que são correlacionados automaticamente com simulações safeBreach
-![Imagem do logotipo do Controle de Vulnerabilidade do Skybox](images/skybox-logo.png) | [Controle de Vulnerabilidade do Skybox](https://go.microsoft.com/fwlink/?linkid=2127467) | O Controle de Vulnerabilidade do Skybox corta o ruído do gerenciamento de vulnerabilidades, correlacionando o contexto de negócios, rede e ameaças para descobrir suas vulnerabilidades mais arriscadas
+![Imagem do logotipo do Controle de Vulnerabilidade do Skybox](images/skybox-logo.png) | [Controle de Vulnerabilidade do Skybox](https://go.microsoft.com/fwlink/?linkid=2127467) | O Controle de Vulnerabilidade do Skybox corta o ruído do Gerenciamento de Vulnerabilidades, correlacionando o contexto de negócios, rede e ameaças para descobrir suas vulnerabilidades mais arriscadas
 ![Imagem do logotipo do Splunk](images/splunk-logo.png) | [Splunk](https://go.microsoft.com/fwlink/?linkid=2129805) | O Complemento do Defender para Ponto de Extremidade permite que os usuários do Splunk ingeram todos os alertas e informações de suporte para seu Splunk
 ![Imagem do logotipo do XM Cyber](images/xmcyber-logo.png) | [XM Cyber](https://go.microsoft.com/fwlink/?linkid=2136700) | Priorizar sua resposta a um alerta com base em fatores de risco e ativos de alto valor
 
@@ -76,9 +76,9 @@ Logotipo |Nome do parceiro   | Descrição
 ![Imagem do logotipo CyberSponse CyOps](images/cybersponse-logo.png) | [CyberSponse CyOps](https://go.microsoft.com/fwlink/?linkid=2115943) | CyOps se integra ao Defender para Ponto de Extremidade para automatizar os playbooks de resposta a incidentes de alta velocidade dos clientes
 ![Imagem do logotipo Do ActiveEye de Risco Delta](images/delta-risk-activeeye-logo.png) | [Risco Delta ActiveEye](https://go.microsoft.com/fwlink/?linkid=2127468) | O Risco Delta, um provedor líder de serviços soc-as-service e segurança, integra o Defender para Ponto de Extremidade com sua plataforma DESL nativa na nuvem, ActiveEye.
 ![Imagem de Demisto, um logotipo da Empresa de Redes de Palo Alto](images/demisto-logo.png) | [Demisto, uma empresa de redes de Palo Alto](https://go.microsoft.com/fwlink/?linkid=2108414) | A Demisto se integra ao Defender para o Ponto de Extremidade para permitir que as equipes de segurança orquestrem e automatizem o monitoramento, o enriquecimento e a resposta de segurança do ponto de extremidade
-![Imagem do logotipo do Microsoft Flow & Funções do Azure](images/ms-flow-logo.png) | [Funções do Microsoft Flow & Azure](https://go.microsoft.com/fwlink/?linkid=2114300) | Use o Defender for Endpoint connectors for Azure Logic Apps & Microsoft Flow para automatizar procedimentos de segurança
+![Imagem do Microsoft Flow & do Azure Functions](images/ms-flow-logo.png) | [Microsoft Flow & funções do Azure](https://go.microsoft.com/fwlink/?linkid=2114300) | Use o Defender para conectores de ponto de extremidade para Aplicativos Lógicos do Azure & Microsoft Flow automatizar procedimentos de segurança
 ![Imagem do logotipo do Rapid7 InsightConnect](images/rapid7-logo.png) | [Rapid7 InsightConnect](https://go.microsoft.com/fwlink/?linkid=2116040) | O InsightConnect integra-se ao Defender para o Ponto de Extremidade para acelerar, simplificar e integrar seus processos de segurança com muito tempo de uso
-![Imagem do logotipo serviceNow](images/servicenow-logo.png) | [ServiceNow](https://go.microsoft.com/fwlink/?linkid=2135621) | Ingerir alertas na solução operações de segurança serviceNow com base na integração da API do Microsoft Graph
+![Imagem do logotipo serviceNow](images/servicenow-logo.png) | [ServiceNow](https://go.microsoft.com/fwlink/?linkid=2135621) | Ingerir alertas na solução operações de segurança serviceNow com base na integração Graph API da Microsoft
 ![Imagem do logotipo Do nada](images/swimlane-logo.png) | [Marmundo](https://go.microsoft.com/fwlink/?linkid=2113902) | Maximizar os recursos de resposta a incidentes que utilizam o Nadaldo e o Defender para o Ponto de Extremidade juntos
 
 
@@ -109,8 +109,8 @@ Logotipo |Nome do parceiro   | Descrição
 ![Imagem do logotipo do Better Mobile](images/bettermobile-logo.png) | [Better Mobile](https://go.microsoft.com/fwlink/?linkid=2086214)| Solução MTD baseada em AI para parar ameaças móveis & phishing. Navegação privada na Internet para proteger a privacidade do usuário 
 ![Imagem do logotipo corrata](images/corrata-logo.png)| [Corrata](https://go.microsoft.com/fwlink/?linkid=2081148) | Solução móvel — proteja seus dispositivos móveis com visibilidade granular e controle de Corrata 
 ![Imagem do logotipo do Mirante](images/lookout-logo.png)| [Mirante](https://go.microsoft.com/fwlink/?linkid=866935)| Obter telemetria da Proteção Móvel contra Ameaças do Mirante para dispositivos móveis Android e iOS
-![Imagem do logotipo do Symantec Endpoint Protection Mobile](images/symantec-logo.png) | [Symantec Endpoint Protection Mobile](https://go.microsoft.com/fwlink/?linkid=2090992)| O SEP Mobile ajuda as empresas a prever, detectar e evitar ameaças e vulnerabilidades de segurança em dispositivos móveis 
-![Imagem do logotipo do Zimperium](images/zimperium-logo.png)| [Zimperium](https://go.microsoft.com/fwlink/?linkid=2118044)|Estender seu Defender para Ponto de Extremidade para iOS e Android com a Defesa contra Ameaças Móveis baseada em Aprendizado de Máquina
+![Imagem do logotipo da Symantec Endpoint Protection Mobile](images/symantec-logo.png) | [Symantec Endpoint Protection Mobile](https://go.microsoft.com/fwlink/?linkid=2090992)| O SEP Mobile ajuda as empresas a prever, detectar e evitar ameaças e vulnerabilidades de segurança em dispositivos móveis 
+![Imagem do logotipo do Zimperium](images/zimperium-logo.png)| [Zimperium](https://go.microsoft.com/fwlink/?linkid=2118044)|Estender seu Defender para Ponto de Extremidade para iOS e Android com Machine Learning mobile threat Defense
 
 
 
@@ -152,5 +152,5 @@ O Defender for Endpoint permite que você se integre a essas soluções e aja em
 
 O Defender for Endpoint atualmente dá suporte à correspondência e à correção de IOC para indicadores de arquivo e rede. O bloqueio é suportado para indicadores de arquivo.  
 
-## <a name="support-for-non-windows-platforms"></a>Suporte para plataformas que não são do Windows
-O Defender for Endpoint fornece uma experiência centralizada de operações de segurança para o Windows e plataformas que não são do Windows, incluindo dispositivos móveis. Você poderá ver alertas de vários sistemas operacionais com suporte (SO) no portal e proteger melhor a rede da sua organização. 
+## <a name="support-for-non-windows-platforms"></a>Suporte para plataformas não Windows
+O Defender for Endpoint fornece uma experiência centralizada de operações de segurança para plataformas Windows e não Windows, incluindo dispositivos móveis. Você poderá ver alertas de vários sistemas operacionais com suporte (SO) no portal e proteger melhor a rede da sua organização. 

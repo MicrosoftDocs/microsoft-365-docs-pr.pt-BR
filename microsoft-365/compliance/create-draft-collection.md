@@ -1,5 +1,5 @@
 ---
-title: Criar uma coleção de rascunhos
+title: Criar uma coleção de rascunho
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,7 +15,7 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Uma coleção de rascunhos é uma pesquisa de Descoberta EDiscovery de fontes de dados custodiais e não custodiais em um caso de Descoberta Avançada da Descoberta E que retorna uma estimativa de pesquisa que corresponde à consulta de pesquisa da coleção. Você pode revisar estatísticas de pesquisa, visualizar uma amostra de itens e revisar e reprisar a coleção antes de comprometer os resultados em um conjunto de revisão.
+description: Uma coleção de rascunhos é uma pesquisa de Descoberta EDiscovery de fontes de dados custodiais e não custodiais em um caso Advanced eDiscovery que retorna uma estimativa de pesquisa que corresponde à consulta de pesquisa da coleção. Você pode revisar estatísticas de pesquisa, visualizar uma amostra de itens e revisar e reprisar a coleção antes de comprometer os resultados em um conjunto de revisão.
 ms.openlocfilehash: 18f018a5e00f355c3f320a963135e76ecc51f086
 ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
@@ -23,23 +23,23 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/17/2021
 ms.locfileid: "50838827"
 ---
-# <a name="create-a-draft-collection-in-advanced-ediscovery"></a>Criar uma coleção de rascunhos na Descoberta Avançada da Descoberta
+# <a name="create-a-draft-collection-in-advanced-ediscovery"></a>Criar uma coleção de rascunhos em Advanced eDiscovery
 
 Depois de identificar os custodiantes e quaisquer fontes de dados não custodiantes para o caso, você estará pronto para identificar e localizar um conjunto de documentos relevantes. Você faz isso usando a ferramenta Coleções para pesquisar fontes de dados para conteúdo relevante. Você faz isso criando uma coleção que pesquisa fontes de dados especificadas para conteúdo que corresponde aos seus critérios de pesquisa. Você tem *a* opção de criar um conjunto de rascunhos , que é uma estimativa dos itens encontrados ou você pode criar uma coleção que adiciona automaticamente os itens a um conjunto de revisão. Ao criar um conjunto de rascunhos, você pode ver informações sobre os resultados estimados que corresponderam à consulta de pesquisa, como o número total e o tamanho dos itens encontrados, as diferentes fontes de dados onde foram encontrados e estatísticas sobre a consulta de pesquisa. Você também pode visualizar um exemplo de itens que foram retornados pela coleção. Usando essas estatísticas, você pode alterar a consulta de pesquisa e reprisar a coleção de rascunhos para restringir seus resultados. Depois de satisfeito com os resultados da coleção, você pode comprometer a coleção em um conjunto de revisão. Quando você confirma um conjunto de rascunhos, os itens retornados pela coleção são adicionados a um conjunto de revisão para revisão, análise e exportação.
 
 ## <a name="before-you-create-a-draft-collection"></a>Antes de criar uma coleção de rascunhos
 
-- Adicione os custodiantes e fontes de dados não custodiais ao caso antes de criar uma coleção de rascunho. Isso é necessário para que você possa selecionar as fontes de dados ao criar uma coleção de rascunho. Para mais informações, confira:
+- Adicione os custodiantes e fontes de dados não custodiais ao caso antes de criar uma coleção de rascunho. Isso é necessário para que você possa selecionar as fontes de dados ao criar uma coleção de rascunho. Para saber mais, confira:
 
   - [Adicionar custodiantes a uma ocorrência](add-custodians-to-case.md)
 
   - [Adicionar fontes de dados não custodial a uma ocorrência](non-custodial-data-sources.md)
 
-- Você pode pesquisar fontes de dados adicionais (aquelas que não foram adicionadas ao caso como locais de custodia ou não-custodiante) em um conjunto de rascunhos para conteúdo que pode ser relevante para o caso. Essas fontes de dados podem incluir caixas de correio, sites do SharePoint e Teams. Se essa situação for aplicável ao seu caso, compile uma lista dessas fontes de dados para que você possa adicioná-las à coleção.
+- Você pode pesquisar fontes de dados adicionais (aquelas que não foram adicionadas ao caso como locais de custodia ou não-custodiante) em um conjunto de rascunhos para conteúdo que pode ser relevante para o caso. Essas fontes de dados podem incluir caixas de correio, SharePoint sites e Teams. Se essa situação for aplicável ao seu caso, compile uma lista dessas fontes de dados para que você possa adicioná-las à coleção.
 
-## <a name="create-a-draft-collection"></a>Criar uma coleção de rascunhos
+## <a name="create-a-draft-collection"></a>Criar uma coleção de rascunho
 
-1. No Centro de conformidade do Microsoft 365, abra o caso Descoberta Avançada e selecione **a guia** Coleções.
+1. No centro Microsoft 365 de conformidade, abra o Advanced eDiscovery e selecione **a guia** Coleções.
 
 2. Na página **Coleções,** selecione **Nova coleção**  >  **Standard collection**.
 
@@ -59,16 +59,16 @@ Depois de identificar os custodiantes e quaisquer fontes de dados não custodian
 
 6. Na página **Fontes de dados adicionais,** você pode selecionar outras caixas de correio e sites para pesquisar como parte da coleção. Esses tipos de fontes de dados não foram adicionados como locais de dados custodiados ou não custodiais no caso. Você também tem duas opções ao pesquisar fontes de dados adicionais:
 
-   - Para pesquisar todos os locais de conteúdo para um serviço específico (caixas de correio do Exchange, sites do SharePoint e do OneDrive ou pastas públicas do Exchange), clique no botão Selecionar **tudo** correspondente na coluna **Status.** Essa opção pesquisará todos os locais de conteúdo no serviço selecionado.
+   - Para pesquisar todos os locais de conteúdo para um serviço específico (caixas de correio Exchange, sites SharePoint  e OneDrive, ou Exchange pastas públicas), clique na alternância Selecionar tudo correspondente na coluna **Status.** Essa opção pesquisará todos os locais de conteúdo no serviço selecionado.
 
-   - Para pesquisar o local de conteúdo  específico de um serviço, clique no botão Selecionar todos os alternâncias correspondentes na coluna **Status** e clique em **Usuários,** grupos ou equipes (para caixas de correio do Exchange) ou Escolha sites para **(sites** do SharePoint e do OneDrive) para pesquisar locais de conteúdo específicos.
+   - Para pesquisar o local de conteúdo  específico de um serviço, clique no botão Selecionar todos os alternâncias correspondentes na coluna **Status** e clique em **Usuários,** grupos ou equipes (para caixas de correio do Exchange) ou Escolha **sites** para (sites SharePoint e OneDrive) para pesquisar locais de conteúdo específicos.
 
 7. Na página **Condições,** você pode criar a consulta de pesquisa usada para coletar itens das fontes de dados identificadas nas páginas anteriores do assistente. Você pode pesquisar palavras-chave, property:value pairs ou usar uma lista de palavras-chave. Você também pode adicionar várias condições de pesquisa para restringir o escopo da coleção. Para obter mais informações, consulte [Build search queries for collections](building-search-queries.md).
 
 8. Na página **Salvar como rascunho ou adicionar ao conjunto de** revisão, selecione Salvar coleção como **rascunho**.
 
    > [!NOTE]
-   > A outra opção nesta página permite coletar itens e adicioná-los diretamente a um conjunto de revisão. Em vez de criar um conjunto de rascunhos para o qual você pode revisar estatísticas e visualizar um exemplo dos resultados da coleção, essa opção ignora esse processo e adiciona automaticamente a coleção a um conjunto de revisão. Se você selecionar a segunda opção para adicionar a coleção a um conjunto de revisão, terá configurações adicionais para configurar, como coletar threads de conversa de chat inteiros no Microsoft Teams e no Yammer e coletar anexos de nuvem (também chamados de *anexos modernos*). Para obter mais informações sobre essas configurações, consulte [Commit a draft collection to a review set](commit-draft-collection.md).
+   > A outra opção nesta página permite coletar itens e adicioná-los diretamente a um conjunto de revisão. Em vez de criar um conjunto de rascunhos para o qual você pode revisar estatísticas e visualizar um exemplo dos resultados da coleção, essa opção ignora esse processo e adiciona automaticamente a coleção a um conjunto de revisão. Se você selecionar a segunda opção para adicionar a coleção a um conjunto de revisão, terá configurações adicionais para configurar, como coletar threads de conversa de chat inteiros no Microsoft Teams e Yammer e coletar anexos de nuvem (também chamados de *anexos* modernos ). Para obter mais informações sobre essas configurações, consulte [Commit a draft collection to a review set](commit-draft-collection.md).
 
 9. Na página **Revisar sua coleção,** você pode revisar e atualizar as configurações de coleção configuradas nas páginas anteriores.
 
@@ -82,7 +82,7 @@ Depois de identificar os custodiantes e quaisquer fontes de dados não custodian
 
 Depois de criar um conjunto de rascunhos, ele é listado na página **Coleções** no caso e o status mostra que ele está em andamento. Um trabalho chamado **Preparando visualização de pesquisa e estimativas** também é criado e exibido na página **Trabalhos** no caso.
 
-Durante o processo de coleta de rascunho, a Descoberta Avançada realiza uma estimativa de pesquisa usando os critérios de pesquisa e as fontes de dados especificadas na coleção. A Descoberta Avançada também prepara uma amostragem de itens que você pode visualizar. Quando a coleção é concluída, as seguintes colunas e valores correspondentes na página **Coleção** são atualizados:
+Durante o processo de coleta de rascunho, Advanced eDiscovery executa uma estimativa de pesquisa usando os critérios de pesquisa e as fontes de dados especificadas na coleção. Advanced eDiscovery também prepara uma amostragem de itens que você pode visualizar. Quando a coleção é concluída, as seguintes colunas e valores correspondentes na página **Coleção** são atualizados:
 
 ![Estados de status de uma coleção de rascunho](../media/DraftCollectionStatus.png)
 
@@ -104,7 +104,7 @@ Aqui está uma lista de coisas que você pode fazer na página de sobrevoo da co
 
 - Selecione a **guia Fontes de** dados para exibir uma lista de custodiantes e fontes de dados não custodiais) que foram pesquisadas na coleção. Quaisquer locais de conteúdo adicionais que foram pesquisados estão listados em **Locais** na **guia Resumo.**
 
-- Selecione a **guia Estatísticas de Pesquisa** para exibir estatísticas sobre a coleção. Isso inclui o número total e o tamanho dos itens encontrados em cada serviço (por exemplo, caixas de correio do Exchange ou sites do SharePoint) e um relatório de condição que exibe estatísticas sobre o número de itens retornados por diferentes componentes da consulta de pesquisa usada pela coleção. Para obter mais informações, consulte [Estatísticas e relatórios de coleção.](collection-statistics-reports.md)
+- Selecione a **guia Estatísticas de Pesquisa** para exibir estatísticas sobre a coleção. Isso inclui o número total e o tamanho dos itens encontrados em cada serviço (por exemplo, caixas de correio Exchange ou sites SharePoint) e um relatório de condição que exibe estatísticas sobre o número de itens retornados por diferentes componentes da consulta de pesquisa usada pela coleção. Para obter mais informações, consulte [Estatísticas e relatórios de coleção.](collection-statistics-reports.md)
 
 - Clique **em Revisar exemplo** (localizado na parte inferior da página de sobrevoo) para visualizar um exemplo dos itens retornados pela coleção.
 
@@ -132,7 +132,7 @@ Aqui estão as descrições das opções de gerenciamento.
   
   - O tamanho total (em bytes) dos itens em cada local de conteúdo.
 
-  - O serviço (como o Exchange ou o SharePoint) no qual o local do conteúdo está localizado.
+  - O serviço (como Exchange ou SharePoint) no qual o local do conteúdo está localizado.
 
 - **Coleção Copy**: Crie um novo conjunto de rascunho copiando as configurações de uma coleção existente. Você precisa usar um nome diferente para a nova coleção. Você também tem a opção de modificar as configurações antes de enviar a nova coleção. Depois de enviar, a consulta de pesquisa é executado e novas estimativas e estatísticas são geradas. É uma boa maneira de criar rapidamente um conjunto de rascunhos adicionais e modificar as configurações selecionadas conforme necessário enquanto ainda preserva as informações na coleção original. Isso também permite comparar facilmente os resultados de duas coleções semelhantes.
 

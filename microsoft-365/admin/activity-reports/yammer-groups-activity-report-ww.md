@@ -53,13 +53,13 @@ Você também pode exportar os dados do relatório para um arquivo Excel .csv se
 |**Indicador**|**Definição**|
 |Nome do grupo  <br/> |O nome do grupo. <br/> |
 |Administrador de grupo  <br/> |O nome do administrador ou proprietário do grupo.  <br/> |
-|Deleted  <br/> |O número de grupos Yammer excluídos. Se o grupo for excluído, mas tiver atividades no período do relatório, elas serão exibidas na grade com esse sinalizador definido como true.  <br/> |
+|Excluída  <br/> |O número de grupos Yammer excluídos. Se o grupo for excluído, mas tiver atividades no período do relatório, elas serão exibidas na grade com esse sinalizador definido como true.  <br/> |
 |Tipo  <br/> |O tipo de grupo, público ou privado. <br/> |
 |Conectado ao Office 365  <br/> |Indica se o grupo Yammer também é um Microsoft 365 grupo. <br/> |
 |Data da última atividade (UTC)  <br/> | A data mais recente em que uma mensagem foi lida, postada ou curtida pelo grupo.  <br/> |
 |Members  <br/> | O número de membros no grupo.  <br/> |
 |Postados  <br/> |O número de mensagens postadas no grupo Yammer durante o período de relatório. <br/>|
-|Ler  <br/> |O número de conversas lidas no grupo Yammer durante o período de relatório.  <br/> |
+|Leitura  <br/> |O número de conversas lidas no grupo Yammer durante o período de relatório.  <br/> |
 |Curtidos  <br/> |O número de mensagens curtidas no grupo Yammer durante o período de relatório. <br/>|
 |Nome da rede  <br/> |O nome completo da rede à que o grupo pertence. |
 |||

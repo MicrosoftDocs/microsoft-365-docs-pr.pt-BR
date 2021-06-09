@@ -24,7 +24,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/03/2021
 ms.locfileid: "52736372"
 ---
-# <a name="query-and-filter-content-in-a-review-set"></a>Consultar e filtrar conteúdo em um conjunto de revisão
+# <a name="query-and-filter-content-in-a-review-set"></a>Consultas e conteúdo do filtro em um conjunto de revisão
 
 Na maioria dos casos, será útil aprofundar o conteúdo em um conjunto de revisão e organizá-lo para facilitar uma revisão mais eficiente. O uso de filtros e consultas em um conjunto de revisão ajuda você a se concentrar em um subconjunto de documentos que atendem aos critérios de sua revisão.
 
@@ -33,7 +33,7 @@ Na maioria dos casos, será útil aprofundar o conteúdo em um conjunto de revis
 Em um conjunto de revisão, há cinco filtros padrão que são pré-carregados no conjunto de revisão:
 
 - Palavras-chave
-- Data
+- Date
 - Remetente/Autor
 - Assunto/Título
 - Tags

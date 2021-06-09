@@ -36,7 +36,7 @@ ms.locfileid: "51861078"
 
 Ative a configuração de experiência de visualização para ser uma das primeiras pessoas a experimentar os recursos futuros.
 
-1. No painel de navegação, selecione **Configurações**  >  **Recursos avançados**.
+1. No painel de navegação, **selecione** Configurações  >  **recursos avançados**.
 
     ![Imagem de configurações e experiência de visualização](images/atp-preview-features.png)
 

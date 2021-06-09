@@ -40,7 +40,7 @@ Pode haver cenários em que você precisa suprimir alertas de aparecer no portal
 Você pode exibir uma lista de todas as regras de supressão e gerenciá-las em um só lugar. Você também pode ativar ou desativar uma regra de supressão de alerta.
 
 
-1. No painel de navegação, selecione **Configurações**  >  **Supressão de alerta**. A lista de regras de supressão criadas pelos usuários em sua organização é exibida.
+1. No painel de navegação, **selecione** Configurações  >  **supressão de alerta.** A lista de regras de supressão criadas pelos usuários em sua organização é exibida.
 
 2. Selecione uma regra clicando na caixa de seleção ao lado do nome da regra.
 
@@ -49,7 +49,7 @@ Você pode exibir uma lista de todas as regras de supressão e gerenciá-las em 
 
 ## <a name="view-details-of-a-suppression-rule"></a>Exibir detalhes de uma regra de supressão
 
-1. No painel de navegação, selecione **Configurações**  >  **Supressão de alerta**. A lista de regras de supressão criadas pelos usuários em sua organização é exibida.
+1. No painel de navegação, **selecione** Configurações  >  **supressão de alerta.** A lista de regras de supressão criadas pelos usuários em sua organização é exibida.
 
 2. Clique em um nome de regra. Os detalhes da regra são exibidos. Você verá os detalhes da regra, como status, escopo, ação, número de alertas correspondentes, criado por e data quando a regra foi criada. Você também pode exibir alertas associados e as condições de regra.
 

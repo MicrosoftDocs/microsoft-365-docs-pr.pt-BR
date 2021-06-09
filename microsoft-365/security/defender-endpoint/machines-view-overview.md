@@ -89,7 +89,7 @@ Filtrar pelos seguintes estados de saúde do dispositivo:
 
 ### <a name="antivirus-status"></a>Status do antivírus
 
-Filtrar dispositivos pelo status do antivírus. Aplica-se apenas a dispositivos Windows 10 ativos.
+Filtrar dispositivos pelo status do antivírus. Aplica-se somente Windows 10 dispositivos ativos.
 
 - **Desabilitado** - & proteção contra ameaças está desativada.
 - **Not reporting** - Proteção contra & vírus não está relatando.
@@ -103,9 +103,9 @@ Para exibir dispositivos que podem ser afetados por uma determinada ameaça, sel
 
 Para saber mais sobre determinadas ameaças, consulte [Análise de ameaças.](threat-analytics.md) Para obter informações de mitigação, consulte [Threat & Vulnerability Management](next-gen-threat-and-vuln-mgt.md).
 
-### <a name="windows-10-version"></a>Versão do Windows 10
+### <a name="windows-10-version"></a>Windows 10 versão
 
-Selecione apenas as versões do Windows 10 que você está interessado em investigar.
+Selecione somente as Windows 10 que você está interessado em investigar.
 
 ### <a name="tags--groups"></a>Marcas & Grupos
 

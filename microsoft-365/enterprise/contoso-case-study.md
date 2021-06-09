@@ -13,7 +13,7 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-subscription-management
 ms.custom: ''
-description: Como uma organização global fictícia, mas representativa, adotou o Microsoft 365 para empresas.
+description: Como uma organização global fictícia, mas representativa, Microsoft 365 para empresas.
 ms.openlocfilehash: e14c2747837ed91a63e7609ce46307b0f38aa758
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -23,9 +23,9 @@ ms.locfileid: "50927575"
 ---
 # <a name="microsoft-365-for-enterprise-for-the-contoso-corporation"></a>Microsoft 365 para empresas para a Contoso Corporation
 
-O Microsoft 365 para empresas é a oferta de nuvem principal da Microsoft que combina aplicativos e serviços de produtividade locais e baseados em nuvem com o Windows 10 Enterprise e recursos avançados de segurança. É uma solução completa e inteligente que permite que todos trabalhem juntos de forma criativa e segura.
+Microsoft 365 para empresas é a oferta de nuvem principal da Microsoft que combina aplicativos e serviços de produtividade locais e baseados em nuvem com Windows 10 Enterprise e recursos avançados de segurança. É uma solução completa e inteligente que permite que todos trabalhem juntos de forma criativa e segura.
 
-A Contoso Corporation é um grupo fictício, mas representativo de manufatura global, com sua sede em Paris. A empresa implantou o Microsoft 365 para empresas e abordou as principais decisões de design e detalhes de implementação para rede, identidade, Windows 10 Enterprise, Aplicativos do Microsoft 365 para empresas, gerenciamento de dispositivo móvel, proteção de informações e segurança.
+A Contoso Corporation é um grupo fictício, mas representativo de manufatura global, com sua sede em Paris. A empresa implantou Microsoft 365 para empresas e abordou as principais decisões de design e detalhes de implementação para rede, identidade, Windows 10 Enterprise, Microsoft 365 Apps para Grandes Empresas, gerenciamento de dispositivo móvel, proteção de informações e segurança.
 
 A meta geral da empresa para o Microsoft 365 para empresas é acelerar sua transformação digital usando serviços de nuvem para reunir seus funcionários, parceiros, dados e processos para criar o valor do cliente e manter sua vantagem competitiva em um mundo digital-first.
 
@@ -53,7 +53,7 @@ Confira os seguintes artigos para saber mais:
 
 - [Microsoft 365 Apps para empresas](contoso-o365pp.md)
 
-  A infraestrutura da Contoso para Aplicativos do Microsoft 365 para empresas implanta e instala automaticamente atualizações para o pacote de Microsoft Office de software de produtividade.
+  A infraestrutura da Contoso para Microsoft 365 Apps para Grandes Empresas implanta e instala automaticamente atualizações para o pacote Microsoft Office de software de produtividade.
 
 - [Gerenciamento de dispositivo móvel](contoso-mdm.md)
 
@@ -61,11 +61,11 @@ Confira os seguintes artigos para saber mais:
 
 - [Proteção de informações](contoso-info-protect.md)
 
-  Para garantir que os dados comuns e de alto valor sejam identificados, rotulados e sujeitos a camadas de segurança, a Contoso impõe suas políticas de segurança de dados com o Microsoft 365 para proteção de informações corporativas.
+  Para garantir que os dados comuns e de alto valor sejam identificados, rotulados e sujeitos a camadas de segurança, a Contoso impõe suas políticas de segurança de dados com Microsoft 365 para proteção de informações corporativas.
 
 - [Resumo do Microsoft 365 para segurança corporativa](contoso-security-summary.md)
 
-  A Contoso usa o espectro completo do Microsoft 365 para recursos de segurança empresariais para gerenciamento de identidade e acesso, proteção contra ameaças, proteção de informações e gerenciamento de segurança.
+  A Contoso usa todo o espectro de Microsoft 365 para recursos de segurança empresariais para gerenciamento de identidade e acesso, proteção contra ameaças, proteção de informações e gerenciamento de segurança.
 
 Consulte estes cenários e configurações adicionais de IT:
 
@@ -79,15 +79,15 @@ Consulte estes cenários e configurações adicionais de IT:
 
 - [Migração de voz no Teams](/MicrosoftTeams/voice-case-study-overview)
 
-  Saiba como a Contoso migrou seus usuários locais para o Microsoft Teams para comunicação unificada, colaboração e voz.
+  Saiba como a Contoso migrou seus usuários locais para Microsoft Teams comunicação unificada, colaboração e voz.
 
 - [Política de linguagem ofensiva de conformidade de comunicação](../compliance/communication-compliance-case-study.md)
 
-  Saiba como a Contoso configurou rapidamente uma política de idioma ofensivo para comunicações do Microsoft Teams, Exchange e Yammer.
+  Saiba como a Contoso configurou rapidamente uma política de idioma ofensivo para Microsoft Teams, Exchange e Yammer comunicações.
 
 ## <a name="next-step"></a>Próxima etapa
 
-Saiba [mais sobre a Contoso Corporation](contoso-overview.md) e as considerações de design que foram abordadas quando implantaram o Microsoft 365 para empresas.
+Saiba [mais sobre a Contoso Corporation](contoso-overview.md) e as considerações de design que foram abordadas quando implantadas Microsoft 365 para empresas.
 
 
 ## <a name="see-also"></a>Confira também

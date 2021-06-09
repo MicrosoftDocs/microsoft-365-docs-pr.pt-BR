@@ -1,7 +1,7 @@
 ---
 title: Configurações de gerenciamento de riscos insider
 description: Saiba mais sobre as configurações de gerenciamento de riscos insider no Microsoft 365
-keywords: Microsoft 365, gerenciamento de risco interno, gerenciamento de riscos, conformidade
+keywords: Microsoft 365, gerenciamento de risco interno, gerenciamento de risco, conformidade
 localization_priority: Normal
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -71,7 +71,7 @@ Em alguns casos, você pode querer limitar os indicadores de política de risco 
 Para definir os indicadores de política de risco insider que estão habilitados em todas as políticas de risco internas, navegue até As configurações de risco do **Insider** Indicadores e selecione um ou mais indicadores  >   de política. Os indicadores selecionados na página Configurações de Indicadores não podem ser configurados individualmente ao criar ou editar uma política de risco interna no assistente de política.
 
 >[!NOTE]
->Pode levar várias horas para que novos usuários adicionados manualmente apareçam no **painel Usuários.** As atividades dos 90 dias anteriores para esses usuários podem levar até 24 horas para exibição. Para exibir atividades para usuários adicionados manualmente, selecione o usuário no painel Usuários e abra a guia **Atividade** do usuário no painel de detalhes. 
+>Pode levar várias horas para que novos usuários adicionados manualmente apareçam no **painel Usuários.** As atividades dos últimos 90 dias para esses usuários podem levar até 24 horas para serem exibidas. Para exibir atividades para usuários adicionados manualmente, selecione o usuário no painel Usuários e abra a guia **Atividade** do usuário no painel de detalhes. 
 
 ### <a name="enable-device-indicators-and-onboard-devices"></a>Habilitar indicadores de dispositivos e dispositivos de integração
 <a name="OnboardDevices"> </a>
@@ -200,7 +200,7 @@ Alertas do Defender para Ponto de Extremidade são importados diariamente. Depen
 Por exemplo, se você selecionar *Novo* *,* Em andamento e *Resolvido* para essa configuração, quando um alerta do Microsoft Defender for Endpoint for gerado e o status for *Novo*, uma atividade de alerta inicial será importada para o usuário em risco interno. Quando o status de triagem do Defender para Ponto de Extremidade muda para *Em andamento,* uma segunda atividade para esse alerta é importada para o usuário em risco interno. Quando o status final de triagem do Defender para Ponto de Extremidade de *Resolvido* é definido, uma terceira atividade para esse alerta é importada para o usuário em risco interno. Essa funcionalidade permite que os investigadores sigam a progressão dos alertas do Defender para Ponto de Extremidade e escolham o nível de visibilidade que sua investigação exige.
 
 >[!IMPORTANT]
->Você precisará ter o Microsoft Defender para Ponto de Extremidade configurado em sua organização e habilitar o Defender for Endpoint para integração de gerenciamento de riscos insider no Defender Security Center para importar alertas de violação de segurança. Para obter mais informações sobre como configurar o Defender para o Ponto de Extremidade para integração de gerenciamento de riscos insider, consulte [Configure advanced features in Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/advanced-features\#share-endpoint-alerts-with-microsoft-compliance-center).
+>Você precisará ter o Microsoft Defender para Ponto de Extremidade configurado em sua organização e habilitar o Defender para Ponto de Extremidade para integração do gerenciamento de risco interno na Centro de Segurança do Windows Defender para importar os alertas de violação de segurança. Para mais informações sobre a configuração do Defender para Ponto de extremidade para integração do gerenciamento de risco interno, consulte [Configurar recursos avançados no Defender para Ponto de extremidade](/windows/security/threat-protection/microsoft-defender-atp/advanced-features\#share-endpoint-alerts-with-microsoft-compliance-center).
 
 ### <a name="domains-preview"></a>Domínios (visualização)
 
@@ -247,7 +247,7 @@ Os seguintes campos e valores são exportados para alertas de gerenciamento de r
 | Nome | Nome da política para política de gerenciamento de riscos internas que gerou o alerta. |
 | PolicyId | O GUID da política de gerenciamento de riscos internas que disparou o alerta. |
 | Severity | A gravidade do alerta. Os valores *são Alto,* *Médio* ou *Baixo.* |
-| Origem | A origem do alerta. O valor é *Office 365 Segurança & Conformidade*. |
+| Source | A origem do alerta. O valor é *Office 365 Segurança & Conformidade*. |
 | Status | O status do alerta. Os valores são *ativos* (*Precisa de* Revisão no risco insider), *Investigação* *(* Confirmado no risco insider), *Resolvido* (*Resolvido* no risco insider), *Ignorado* (*Ignorado* no risco insider). |
 | Versão | A versão do esquema de alerta de segurança e conformidade. |
 
@@ -257,7 +257,7 @@ Os campos e valores a seguir são exportados para alertas de gerenciamento de ri
 - Id
 - RecordType
 - CreationTime
-- Operation
+- Operação
 - OrganizationId
 - UserType
 - UserKey
@@ -282,9 +282,9 @@ Conclua as etapas a seguir para criar um grupo de usuários prioritário:
 4. Na página **Definir grupo,** conclua os seguintes campos:
     - **Nome (obrigatório)**: Insira um nome amigável para o grupo de usuários prioritário. Não é possível alterar o nome do grupo de usuários de prioridade depois de concluir o assistente.
     - **Descrição (opcional)**: Insira uma descrição para o grupo de usuários de prioridade.
-5. Selecione **Próximo** para continuar.
+5. Selecione **Avançar** para continuar.
 6. Na página **Escolher** membros, selecione Escolher membros para pesquisar e selecionar quais contas de usuário habilitadas para email estão incluídas no grupo ou selecione a caixa de seleção **Selecionar** todos os usuários da sua organização ao grupo.  Selecione **Adicionar** para continuar ou **Cancelar** para fechar sem adicionar usuários ao grupo.
-7. Selecione **Próximo** para continuar.
+7. Selecione **Avançar** para continuar.
 8. Na página **Revisão,** revise as configurações escolhidas para o grupo de usuários prioritário. Selecione **Editar** para alterar qualquer um dos valores de grupo ou **selecione Enviar** para criar e ativar o grupo de usuários prioritário.
 9. Na página de confirmação, selecione **Feito para** sair do assistente.
 
@@ -297,8 +297,8 @@ Conclua as etapas a seguir para editar um grupo de usuários prioritário:
 1. No centro [Microsoft 365 de conformidade,](https://compliance.microsoft.com)vá para Gerenciamento de riscos **do Insider** e selecione Configurações de risco **do Insider.**
 2. Selecione a **guia Grupos de usuários prioritários**
 3. Selecione o grupo de usuários de prioridade que você deseja editar e selecione **Editar grupo**.
-4. Na página **Definir grupo,** atualize o campo Descrição, se necessário. Não é possível atualizar o nome do grupo de usuários prioritário. Selecione **Próximo** para continuar.
-5. Na página **Escolher membros,** adicione novos membros ao grupo usando o **controle Escolher membros.** Para remover um usuário do grupo, selecione o 'X' ao lado do usuário que você deseja remover. Selecione **Próximo** para continuar.
+4. Na página **Definir grupo,** atualize o campo Descrição, se necessário. Não é possível atualizar o nome do grupo de usuários prioritário. Selecione **Avançar** para continuar.
+5. Na página **Escolher membros,** adicione novos membros ao grupo usando o **controle Escolher membros.** Para remover um usuário do grupo, selecione o 'X' ao lado do usuário que você deseja remover. Selecione **Avançar** para continuar.
 6. Na página **Revisão,** revise as configurações de atualização escolhidas para o grupo de usuários prioritário. Selecione **Editar** para alterar qualquer um dos valores de grupo ou **selecione Enviar** para atualizar o grupo de usuários prioritário.
 7. Na página de confirmação, selecione **Feito para** sair do assistente.
 
@@ -494,7 +494,7 @@ Dependendo do número de usuários atribuídos a grupos de função de gerenciam
 
 ## <a name="analytics-preview"></a>Análise (visualização)
 
-A análise de risco insider permite que você conduza uma avaliação de possíveis riscos insider em sua organização sem configurar nenhuma política de risco interna. Essa avaliação pode ajudar sua organização a identificar áreas potenciais de maior risco de usuário e ajudar a determinar o tipo e o escopo das políticas de gerenciamento de riscos internas que você pode considerar configurar. As verificações de análise oferecem as seguintes vantagens para sua organização:
+A análise de riscos internos permite que você conduza uma avaliação de riscos internos potenciais na sua organização sem configurar nenhuma política de riscos internos. Esta avaliação pode ajudar sua organização a identificar áreas potenciais de maior risco para o usuário e ajudar a determinar o tipo e o escopo das políticas de gerenciamento de risco interno que você pode considerar configurar. As verificações de análise oferecem as seguintes vantagens para sua organização:
 
 - Fácil de configurar: para começar com as verificações de análise, você pode selecionar Executar verificação quando solicitado pela recomendação de análise ou ir para As configurações de risco do Insider > Guia Análise e habilitar a análise.
 - Requisitos mínimos de privacidade: os resultados e as percepções de verificação são retornados como atividades de usuário anonimizadas, nomes de usuário individuais não são identificáveis pelos revisadores.

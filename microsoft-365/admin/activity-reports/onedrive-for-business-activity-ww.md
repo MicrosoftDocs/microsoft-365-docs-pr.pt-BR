@@ -58,7 +58,7 @@ Você também pode exportar os dados do relatório para um arquivo Excel .csv se
 |Arquivos sincronizados  <br/> |O número de arquivos que foram sincronizados do dispositivo local de um usuário para a OneDrive de usuário. <br/> |
 |Arquivos compartilhados internamente  <br/> | O número de arquivos que foram compartilhados com usuários dentro da organização ou com usuários dentro de grupos (que podem incluir usuários externos).  <br/> |
 |Arquivos compartilhados externamente  <br/> |O número de arquivos que foram compartilhados com usuários fora da organização. <br/>|
-|Deleted  <br/> | Isso indica que a licença do usuário foi removida.  <br/> OBSERVAÇÃO: A atividade de um usuário excluído ainda será exibida em um relatório desde que ele tenha sido licenciado em algum momento durante o período de tempo selecionado. A coluna **Excluído** ajuda você a observar que o usuário pode não estar mais ativo, mas contribuiu com os dados no relatório.  <br/> |
+|Excluída  <br/> | Isso indica que a licença do usuário foi removida.  <br/> OBSERVAÇÃO: A atividade de um usuário excluído ainda será exibida em um relatório desde que ele tenha sido licenciado em algum momento durante o período de tempo selecionado. A coluna **Excluído** ajuda você a observar que o usuário pode não estar mais ativo, mas contribuiu com os dados no relatório.  <br/> |
 |Data excluída  <br/> |A data em que a licença do usuário foi removida. <br/>|
 |Produto atribuído  <br/> |Os Microsoft 365 que são licenciados para o usuário.|
 |||

@@ -24,7 +24,7 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
-description: Saiba como enviar emails criptografados usando o Outlook.
+description: Saiba como enviar emails criptografados usando Outlook.
 ms.openlocfilehash: 209734bd52d1d97278d5632f035723758fe2e016
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -47,17 +47,17 @@ Antes de enviar emails com informações confidenciais ou confidenciais, conside
 
 ## <a name="set-it-up"></a>Configuração
 
-Se você quiser criptografar uma mensagem que não atender a uma regra pré-definida ou se o administrador não tiver definido nenhuma regra, poderá aplicar uma variedade de regras de criptografia diferentes antes de enviar a mensagem. Para enviar uma mensagem criptografada do Outlook 2013 ou 2016 ou do Outlook 2016 para Mac, selecione **Opções > Permissões** e selecione a opção de proteção de que você precisa. Você também pode enviar uma mensagem criptografada selecionando o **botão Proteger** no Outlook na Web. Para obter mais informações, [consulte Send, view, and reply to encrypted messages in Outlook for PC](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980).
+Se você quiser criptografar uma mensagem que não atender a uma regra pré-definida ou se o administrador não tiver definido nenhuma regra, poderá aplicar uma variedade de regras de criptografia diferentes antes de enviar a mensagem. Para enviar uma mensagem criptografada do Outlook 2013 ou 2016 ou Outlook 2016 para Mac, selecione **Opções > Permissões** e selecione a opção de proteção de que você precisa. Você também pode enviar uma mensagem criptografada selecionando o **botão Proteger** Outlook na Web. Para obter mais informações, [consulte Send, view, and reply to encrypted messages in Outlook for PC](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980).
 
 ## <a name="admin-settings"></a>Configurações do administrador
 
-Você pode aprender tudo sobre como configurar a criptografia de email na [criptografia de email no Microsoft 365](../compliance/email-encryption.md).
+Você pode aprender tudo sobre como configurar a criptografia de email na [criptografia de email em Microsoft 365](../compliance/email-encryption.md).
 
 ### <a name="automatically-encrypt-email-messages"></a>Criptografar automaticamente mensagens de email
 
 Os administradores podem criar regras de fluxo de emails para proteger automaticamente as mensagens de email enviadas e recebidas de sua campanha. Configurar regras para criptografar qualquer mensagem de email de saída e remover a criptografia de mensagens criptografadas provenientes de dentro da sua organização ou de respostas a mensagens criptografadas enviadas de sua organização.
 
-Você cria regras de fluxo de emails para criptografar mensagens de email com os novos recursos de Criptografia de Mensagens (OME) do Office 365. Defina regras de fluxo de emails para disparar a criptografia de mensagens com os novos recursos OME usando o Centro de Administração do Exchange (EAC). 
+Você cria regras de fluxo de emails para criptografar mensagens de email com os novos recursos Criptografia de Mensagens do Office 365 (OME). Defina regras de fluxo de emails para disparar a criptografia de mensagens com os novos recursos OME usando o Centro de Administração Exchange (EAC). 
 
 1. Em um navegador da Web, usando uma conta de trabalho ou de estudante que recebeu permissões de administrador global, entre.
 2. Escolha o painel Administrador.

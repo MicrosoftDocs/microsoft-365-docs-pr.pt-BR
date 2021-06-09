@@ -142,7 +142,7 @@ O uso de taxonomias existentes pode fornecer uma lista de tópicos que provavelm
 
 Essa abordagem também pode ser tomada em um nível funcional ou departamento, com especialistas de assunto que entendem essa área da sua organização. O objetivo não é fazer com que eles revisem uma seleção ou todos os tópicos. Em vez disso, eles trazem seus próprios conhecimentos de domínio para orientar a cura seletiva.
 
-### <a name="search"></a>Pesquisa
+### <a name="search"></a>Pesquisar
 
 Os termos comuns de pesquisa geralmente são descobertos como tópicos. Usando os [principais relatórios de consulta na Pesquisa da Microsoft,](/sharepoint/view-search-usage-reports)você pode identificar os termos de pesquisa mais frequentes em sua organização. Se os tópicos foram descobertos para esses termos, eles são bons candidatos à cura. Esses tópicos podem ser apresentados como cartões de resposta na Pesquisa da Microsoft.
 

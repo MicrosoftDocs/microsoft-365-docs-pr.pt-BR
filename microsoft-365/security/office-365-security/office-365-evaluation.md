@@ -63,7 +63,7 @@ Com a experiência de configuração simplificada, você pode se concentrar em:
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-### <a name="licensing"></a>Licenças
+### <a name="licensing"></a>Licenciamento
 
 Para acessar a avaliação, você precisará atender aos requisitos de licenciamento. Qualquer uma das seguintes licenças funcionará:
 

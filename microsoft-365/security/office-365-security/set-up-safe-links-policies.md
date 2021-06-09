@@ -96,9 +96,9 @@ A criação de uma política Cofre & Links personalizada no Centro de Conformida
 
    - **Nome**: insira um nome exclusivo e descritivo para a política.
 
-   - **Descrição**: digite uma descrição opcional para a política.
+   - **Descrição**: insira uma descrição opcional para a política.
 
-   Quando terminar, clique em **Avançar**.
+   Ao terminar, clique em **Avançar**.
 
 4. Na página **Configurações** que aparece, configure as seguintes configurações:
 
@@ -128,7 +128,7 @@ A criação de uma política Cofre & Links personalizada no Centro de Conformida
 
    Para obter mais valores recomendados para configurações de política padrão e estritas, [consulte Cofre Configurações de](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)política links.
 
-   Quando terminar, clique em **Avançar**.
+   Ao terminar, clique em **Avançar**.
 
 5. Na página **Aplicada à** que aparece, identifique os destinatários internos aos quais a política se aplica.
 
@@ -152,7 +152,7 @@ A criação de uma política Cofre & Links personalizada no Centro de Conformida
 
    Para adicionar exceções, clique em **Adicionar uma condição** e selecione uma exceção em Except **if**. As configurações e o comportamento são exatamente como as condições.
 
-   Quando terminar, clique em **Avançar**.
+   Ao terminar, clique em **Avançar**.
 
 6. Na página **Revisar suas configurações** que aparece, revise suas configurações. Você pode clicar **em Editar** em cada configuração para modificá-la.
 

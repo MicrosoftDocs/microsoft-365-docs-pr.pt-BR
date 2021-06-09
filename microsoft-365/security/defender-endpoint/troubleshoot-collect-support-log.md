@@ -45,7 +45,7 @@ Este tópico fornece instruções sobre como executar a ferramenta por meio do L
  
 2.  Inicie uma [sessão de Resposta Ao](live-response.md#initiate-a-live-response-session-on-a-device) Vivo no computador que você precisa investigar.
 
-3.  Selecione **Carregar arquivo na biblioteca**.
+3.  Selecione **Upload arquivo para biblioteca**.
 
     ![Imagem do arquivo de carregamento](images/upload-file.png)
 

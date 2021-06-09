@@ -16,7 +16,7 @@ search.appverid:
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 ms.custom:
 - seo-marvel-apr2020
-description: Use casos de Descoberta Digital no Centro de Conformidade & segurança no Office 365 para gerenciar a investigação legal da sua organização.
+description: Use os casos de Descoberta eDiscovery no Centro de Conformidade & segurança no Office 365 para gerenciar a investigação legal da sua organização.
 ms.openlocfilehash: c052daab8de33e21cccc3c638ab4995a007f60fb
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -48,19 +48,19 @@ Como a seção anterior que listava scripts para cenários de pesquisa de conte�
   
 - [Crie um relatório de](create-a-report-on-holds-in-ediscovery-cases.md) responsabilidade de Descoberta e Que contém informações sobre todas as resções associadas a casos de Descoberta eDiscovery em sua organização.
 
-- [Adicione caixas de correio e locais do OneDrive](use-a-script-to-add-users-to-a-hold-in-ediscovery.md) para uma lista de usuários a uma espera de Descoberta Eletrônico.
+- [Adicione caixas de correio e OneDrive locais](use-a-script-to-add-users-to-a-hold-in-ediscovery.md) para uma lista de usuários a uma espera de Descoberta Eletrônico.
   
-## <a name="manage-legal-investigations-with-the-advanced-ediscovery-solution-in-microsoft-365"></a>Gerenciar investigações legais com a solução de Descoberta Interna Avançada no Microsoft 365
+## <a name="manage-legal-investigations-with-the-advanced-ediscovery-solution-in-microsoft-365"></a>Gerenciar investigações legais com a solução Advanced eDiscovery no Microsoft 365
 
-A solução de Descoberta Técnica Avançada no Microsoft 365 se baseia nos recursos existentes de Descoberta e análise no Office 365. Essa nova solução, chamada Descoberta Avançada, fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar e exportar conteúdo que responde às investigações internas e externas da sua organização.  Ele também permite que as equipes legais gerenciem todo o fluxo de trabalho de notificação de responsabilidade legal para se comunicar com os custodiantes envolvidos em um caso.
+A Advanced eDiscovery em Microsoft 365 se baseia nos recursos existentes de Descoberta e análise em Office 365. Essa nova solução, chamada *Advanced eDiscovery*, fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, revisar, analisar e exportar conteúdo que responde às investigações internas e externas da sua organização. Ele também permite que sua equipe jurídica gerencie todo o fluxo de trabalho de notificação de responsabilidade para se comunicar com pessoas envolvidas no caso.
 
-A Descoberta Secreta Avançada requer uma assinatura do E5 para sua organização do Microsoft 365 ou office 365. Para obter mais informações sobre licenciamento, consulte [Set up Advanced eDiscovery](get-started-with-advanced-ediscovery.md#step-1-verify-and-assign-appropriate-licenses).
+Advanced eDiscovery requer uma assinatura do E5 para sua Microsoft 365 ou Office 365 organização. Para obter mais informações sobre licenciamento, consulte [Configurar Advanced eDiscovery](get-started-with-advanced-ediscovery.md#step-1-verify-and-assign-appropriate-licenses).
 
-Aqui está uma visão geral rápida do fluxo de trabalho integrado em Descoberta Avançada. Para obter mais informações, [consulte Manage the Advanced eDiscovery workflow](create-and-manage-advanced-ediscoveryv2-case.md#manage-the-workflow).
+Aqui está uma visão geral rápida do fluxo de trabalho integrado no Advanced eDiscovery. Para obter mais informações, consulte [Manage the Advanced eDiscovery workflow](create-and-manage-advanced-ediscoveryv2-case.md#manage-the-workflow).
 
 - [Crie um caso](create-and-manage-advanced-ediscoveryv2-case.md#create-a-case) para começar.
 
-- [Gerencie](managing-custodians.md) os custodiantes adicionando-os a uma ocorrência e colocando uma responsabilidade legal sobre o conteúdo em sua caixa de correio, conta do OneDrive e do Microsoft Teams de que eles são membros.
+- [Gerencie](managing-custodians.md) os custodiantes adicionando-os a um caso e colocando uma responsabilidade legal sobre o conteúdo em sua caixa de correio, OneDrive conta e Microsoft Teams que eles são membros.
 
 - [Gerencie](managing-custodian-communications.md) comunicações com custodiantes automatizando o processo de notificação de espera legal.
 
@@ -74,4 +74,4 @@ Aqui está uma visão geral rápida do fluxo de trabalho integrado em Descoberta
 
 - [Exportar dados de caso](exporting-data-ediscover20.md) para revisão por consultores externos.
 
-- [Gerencie trabalhos de longa duração](managing-jobs-ediscovery20.md) na Descoberta Avançada.
+- [Gerencie trabalhos de](managing-jobs-ediscovery20.md) longa duração Advanced eDiscovery.

@@ -52,13 +52,13 @@ Os administradores podem usar Exchange Online PowerShell para desabilitar, habil
 > [!NOTE]
 > Mensagens de senders que os usuários adicionaram às suas próprias listas Cofre Senders ignorarão a filtragem de conexão como parte do EOP (o SCL é -1). Para impedir que os usuários adicionem entradas à sua lista Cofre Senders no Outlook, use a Política de Grupo conforme mencionado na seção Sobre as configurações de lixo eletrônico [na](#about-junk-email-settings-in-outlook) seção Outlook mais adiante neste artigo. A filtragem de política, a filtragem de conteúdo e o Defender Office 365 verificações ainda serão aplicadas às mensagens.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Você só pode usar Exchange Online PowerShell para fazer os procedimentos neste artigo. Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
 
 - Você precisa ter permissões atribuídas Exchange Online antes de poder fazer os procedimentos neste artigo. Especificamente, você precisa da função **Destinatários** de Email (que é atribuída aos grupos de função Gerenciamento  da **Organização,** Gerenciamento de  Destinatários e Destinatários de Email **Personalizados** por padrão) ou a função Opções de Usuário (atribuída aos grupos de funções Gerenciamento da Organização e Help **Desk** por padrão).  Para adicionar usuários a grupos de função Exchange Online, consulte [Modificar grupos de função em Exchange Online](/Exchange/permissions-exo/role-groups#modify-role-groups). Observe que os usuários com permissões padrão podem fazer esses mesmos procedimentos em suas próprias caixas de correio, desde que tenham acesso [ao Exchange Online PowerShell](/powershell/exchange/disable-access-to-exchange-online-powershell).
 
-- Em ambientes híbridos em que o EOP protege caixas de correio locais Exchange, você precisa configurar regras de fluxo de emails (também conhecidas como regras de transporte) no Exchange local para traduzir o veredito de filtragem de spam do EOP para que a regra de lixo eletrônico possa mover a mensagem para a pasta Lixo Eletrônico. Para obter detalhes, [consulte Configure EOP to deliver spam to the Junk Email folder in hybrid environments](/exchange/standalone-eop/configure-eop-spam-protection-hybrid).
+- Em ambientes híbridos onde o EOP protege as caixas de correio locais do Exchange, você precisa configurar regras de fluxo de email (também conhecidas como regras de transporte) no Exchange local para traduzir o veredito de filtragem de spam do EOP para que a regra de lixo eletrônico possa mover a mensagem para o Lixo Pasta de email. Para obter detalhes, confira [Configurar o EOP para enviar spam para a pasta Lixo Eletrônico em ambientes híbridos](/exchange/standalone-eop/configure-eop-spam-protection-hybrid).
 
 - Cofre Os destinatários de caixas de correio compartilhadas não são sincronizados com o Azure AD e o EOP por design.
 

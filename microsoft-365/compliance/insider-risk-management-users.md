@@ -1,7 +1,7 @@
 ---
 title: Painel usuários de gerenciamento de riscos do Insider
-description: Saiba mais sobre o painel de usuários de gerenciamento de risco interno no Microsoft 365
-keywords: Microsoft 365, gerenciamento de risco interno, gerenciamento de riscos, conformidade
+description: Saiba mais sobre o gerenciamento de risco interno Painel de usuários no Microsoft 365
+keywords: Microsoft 365, gerenciamento de risco interno, gerenciamento de risco, conformidade
 localization_priority: Normal
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -46,7 +46,7 @@ O **painel Usuários** inclui usuários adicionados às políticas de gerenciame
 Quando um usuário é adicionado manualmente a uma política, as atividades do usuário dos últimos 90 dias são pontuadas e adicionadas à linha do tempo de atividade **do** usuário. Por exemplo, você tem um usuário que não está sendo atribuído pontuações de risco para uma política de risco interno e o usuário tem atividades de vazamento de dados relatadas ao departamento jurídico em sua organização. O departamento jurídico recomenda que você configure novos requisitos de monitoramento de curto prazo para o usuário. Você pode atribuir temporariamente o usuário à sua *política de vazamentos* de dados por um período de tempo designado (janela de ativação). Todos os usuários adicionados temporariamente são exibidos no painel **Usuários porque** os requisitos de evento de gatilho são isendos.
 
 >[!NOTE]
->Pode levar várias horas para que novos usuários adicionados manualmente apareçam no **painel Usuários.** As atividades dos 90 dias anteriores para esses usuários podem levar até 24 horas para exibição. Para exibir atividades para usuários adicionados manualmente, selecione o usuário no painel Usuários e abra a guia **Atividade** do usuário no painel de detalhes. 
+>Pode levar várias horas para que novos usuários adicionados manualmente apareçam no **painel Usuários.** As atividades dos últimos 90 dias para esses usuários podem levar até 24 horas para serem exibidas. Para exibir atividades para usuários adicionados manualmente, selecione o usuário no painel Usuários e abra a guia **Atividade** do usuário no painel de detalhes. 
 
 O usuário é removido automaticamente do painel **Usuários** e as paradas de pontuação quando o tempo definido na **janela** Ativação expira se:
 
@@ -79,7 +79,7 @@ Cada usuário exibido no painel **Usuários** tem as seguintes informações:
 Para exibir mais detalhes sobre atividade de risco para um usuário, abra o painel de detalhes do usuário clicando duas vezes em um usuário no painel **Usuários.** No painel de detalhes, você pode exibir as seguintes informações:
 
 - **Guia Perfil de** Usuário
-    - **Nome e título**: o nome e o título de posição para o usuário do Azure Active Directory. Esses campos de usuário serão anonimizados ou vazios se a configuração de anonimização global para o gerenciamento de risco interno estiver habilitada.
+    - **Nome e título**: o nome e o título de posição para o usuário Azure Active Directory. Esses campos de usuário serão anonimizados ou vazios se a configuração de anonimização global para o gerenciamento de risco interno estiver habilitada.
     - **Email do usuário**: O endereço de email do usuário.
     - **Alias**: o alias de rede do usuário.
     - **Organização ou departamento**: a organização ou o departamento do usuário.
@@ -96,22 +96,22 @@ Pode haver cenários em que você precisa parar de atribuir pontuações de risc
 
 Para remover manualmente os usuários do status no escopo em todas as políticas de gerenciamento de riscos internas, conclua as seguintes etapas:
 
-1. No Centro de conformidade do [Microsoft 365,](https://compliance.microsoft.com)acesse Gerenciamento de riscos **do Insider** e selecione **a guia Usuários.**
+1. No centro [Microsoft 365 de conformidade,](https://compliance.microsoft.com)vá para Gerenciamento de riscos **do Insider** e selecione **a guia** Usuários.
 2. No painel **Usuários,** selecione o usuário ou os usuários que você deseja remover de estar no escopo em políticas de gerenciamento de riscos internas.
 3. Selecione **Remover usuários**.
 4. No painel **Remover usuário,** Selecione **Remover** ou **Cancelar** para descartar as alterações e fechar a caixa de diálogo.
 5. Selecione **Remover** no painel de confirmação para remover o usuário.
 
-## <a name="run-automated-tasks-with-power-automate-flows-for-a-user"></a>Executar tarefas automatizadas com fluxos do Power Automate para um usuário
+## <a name="run-automated-tasks-with-power-automate-flows-for-a-user"></a>Executar tarefas automatizadas com Power Automate fluxos para um usuário
 
-Usando fluxos do Power Automate recomendados, os investigadores e analistas de risco podem tomar medidas rapidamente para:
+Usando fluxos Power Automate recomendados, os investigadores e analistas de risco podem tomar medidas rapidamente para:
 
 - Notificar os usuários quando eles são adicionados a uma política de risco interno
 
-Para executar, gerenciar ou criar fluxos do Power Automate para um usuário de gerenciamento de risco interno:
+Para executar, gerenciar ou criar fluxos Power Automate para um usuário de gerenciamento de risco interno:
 
 1. Selecione **Automatizar** na barra de ferramentas de ação do usuário.
-2. Escolha o fluxo do Power Automate a ser executado e selecione **Executar fluxo**.
+2. Escolha o Power Automate fluxo a ser executado e selecione **Executar fluxo**.
 3. Após a conclusão do fluxo, selecione **Concluído**.
 
-Para saber mais sobre fluxos do Power Automate para gerenciamento de riscos insider, consulte [Getting started with insider risk management settings](insider-risk-management-settings.md#power-automate-flows-preview).
+Para saber mais sobre Power Automate fluxos para gerenciamento de riscos insider, consulte [Getting started with insider risk management settings](insider-risk-management-settings.md#power-automate-flows-preview).

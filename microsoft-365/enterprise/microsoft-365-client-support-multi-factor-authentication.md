@@ -1,5 +1,5 @@
 ---
-title: 'Suporte ao aplicativo cliente do Microsoft 365: autenticação multifafação'
+title: 'Microsoft 365 Suporte ao aplicativo cliente: autenticação multifa factor'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -14,7 +14,7 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: Neste artigo, saiba quais plataformas, clientes e módulos do PowerShell suportam a autenticação multifação para o Microsoft 365.
+description: Neste artigo, saiba quais plataformas, clientes e módulos do PowerShell suportam a autenticação multifafação para Microsoft 365.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 80ee370526d17d472cd048cd4d89b862e158b631
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
@@ -23,9 +23,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50927551"
 ---
-# <a name="microsoft-365-client-app-support-multi-factor-authentication"></a>Suporte ao aplicativo cliente do Microsoft 365: autenticação multifafação
+# <a name="microsoft-365-client-app-support-multi-factor-authentication"></a>Microsoft 365 Suporte ao aplicativo cliente: autenticação multifa factor
 
-*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
+*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
 Para fornecer um nível adicional de segurança para entrar, os clientes podem ser configurados para usar a autenticação multifato (MFA), que usa uma senha de usuário e outro método de verificação de usuário com base em:
 
@@ -36,7 +36,7 @@ Saiba mais sobre [a autenticação multifa factor](/azure/active-directory/authe
 
 ## <a name="supported-clients--platforms"></a>Clientes com suporte & plataformas
 
-As versões mais recentes dos seguintes clientes e plataformas suportam a autenticação multifa factor. Para obter mais informações sobre o suporte à plataforma no Microsoft 365, consulte [System requirements for Microsoft 365](/microsoft-365/microsoft-365-and-office-resources).
+As versões mais recentes dos seguintes clientes e plataformas suportam a autenticação multifa factor. Para obter mais informações sobre o suporte à plataforma Microsoft 365, consulte [System requirements for Microsoft 365](/microsoft-365/microsoft-365-and-office-resources).
 <br>
 <br>
 

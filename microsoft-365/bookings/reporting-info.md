@@ -20,7 +20,7 @@ ms.locfileid: "51887216"
 
 Agora você pode ver uma exibição de quatro meses do calendário do Bookings em um arquivo TSV. O arquivo TSV mostrará quatro meses de dados, mas você pode selecionar diferentes períodos de quatro meses ao longo de um ano.
 
-Essas informações de nível de compromisso podem ser usadas para visualizar a atividade do cliente em torno do calendário do Bookings. Os arquivos TSV são arquivos de valores separados por tabulação. Você pode exibir ou editar um arquivo como este com qualquer editor de texto ou programa de planilha, como o Excel.
+Essas informações de nível de compromisso podem ser usadas para visualizar a atividade do cliente em torno do calendário do Bookings. Os arquivos TSV são arquivos de valores separados por tabulação. Você pode exibir ou editar um arquivo como este com qualquer editor de texto ou programa de planilha, como Excel.
 
 ## <a name="see-four-months-of-booking-activity"></a>Consulte quatro meses de atividade do Booking
 
@@ -28,7 +28,7 @@ Essas informações de nível de compromisso podem ser usadas para visualizar a 
 
 :::image type="content" source="../media/bookings-activities.png" alt-text="Captura de tela: 4 meses de atividade do Bookings":::
 
-1. Salve o arquivo com um novo nome e especifique o formato .xls ou xlsx.
+1. Salve o arquivo com um novo nome e especifique .xls ou formato xlsx.
 
 1. Abra o arquivo para ver a exibição de quatro meses do calendário do Bookings.
 
@@ -43,11 +43,11 @@ O relatório inclui os campos a seguir.
  - **Data & Hora**
 - **Nome do cliente**
 - **Email do Cliente**
-- **Telefone do Cliente**
+- **Cliente Telefone**
 - **Endereço do cliente**
 - **Bastão**
 - **Serviço**
-- **Localização**
+- **Location**
 - **Duração (minutos)**
 - **Tipo de Evento**
 
@@ -55,9 +55,9 @@ O relatório aprimorado agora contém os campos a seguir.
 
 - **Tipo de preço**   Tipo de preço padrão definido para um serviço ao criar o serviço.
 - **Preço**   Preço correspondente ao tipo de preço escolhido.
-- **Moeda**   Tipo de moeda definido para uma empresa.
-- **Participantes cc**   Os destinatários que receberão as notificações de email para uma reserva. Isso pode ser especificado no aplicativo teams ao criar uma reserva.
+- **Conversor de Moedas** Conversor de Moedas tipo definido para uma empresa.   
+- **Participantes cc**   Os destinatários que receberão as notificações de email para uma reserva. Isso pode ser especificado no aplicativo Teams ao criar uma reserva.
 - **Contagem de participantes inscretos**   Quantos clientes reservaram um serviço de reserva de grupo.
-- **Notificações de texto habilitadas**   Se os clientes podem receber notificações relacionadas a texto SMS.
+- **Notificações de texto habilitadas**   Se os clientes podem receber SMS notificações relacionadas a texto.
 - **Campos personalizados**   Todas as perguntas e respostas relacionadas a uma única reserva são combinadas neste campo.
 - **ID do Booking**   Isso é útil para identificar as mesmas reservas de um serviço de grupo.

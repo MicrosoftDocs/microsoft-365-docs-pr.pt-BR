@@ -61,7 +61,7 @@ sections:
 
       > [!IMPORTANT]
 
-      > Em implantações híbridas em que o EOP protege caixas de correio locais Exchange, você precisa configurar duas regras de fluxo de emails do Exchange (também conhecidas como regras de transporte) em sua organização local Exchange para detectar os headers de filtragem de spam do EOP adicionados às mensagens. Para obter detalhes, [consulte Configure EOP to deliver spam to the Junk Email folder in hybrid environments](/exchange/standalone-eop/configure-eop-spam-protection-hybrid).
+      > Em implantações híbridas em que o EOP protege caixas de correio locais Exchange, você precisa configurar duas regras de fluxo de emails do Exchange (também conhecidas como regras de transporte) em sua organização local Exchange para detectar os headers de filtragem de spam do EOP adicionados às mensagens. Para obter detalhes, confira [Configurar o EOP para enviar spam para a pasta Lixo Eletrônico em ambientes híbridos](/exchange/standalone-eop/configure-eop-spam-protection-hybrid).
 
        **Para mensagens de saída:** A mensagem é roteada pelo [pool](high-risk-delivery-pool-for-outbound-messages.md) de entrega de alto risco ou é retornada para o remetente em um relatório de não entrega (também conhecido como uma mensagem de NDR ou bounce). Para obter mais informações sobre a proteção de spam de saída, consulte [Controles de spam de saída.](outbound-spam-controls.md)
   - question: >

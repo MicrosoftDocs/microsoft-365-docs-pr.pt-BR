@@ -133,7 +133,7 @@ Se você vai usar um dos modelos integrados ou criar a mensagem de email diretam
 
    - **Assunto**: O **campo Assunto** da mensagem de email.
 
-   Quando terminar, clique em **Avançar**.
+   Ao terminar, clique em **Avançar**.
 
 6. Na etapa **Escrever email,** crie o corpo da mensagem da mensagem de email. Você pode usar a guia **Email** (um editor HTML rico) ou a guia **Origem** (código HTML bruto).
 
@@ -143,7 +143,7 @@ Se você vai usar um dos modelos integrados ou criar a mensagem de email diretam
 
    - `${loginserverurl}` insere o valor de URL do Servidor de **Logon de Phishing** da etapa anterior.
 
-   Quando terminar, clique em **Avançar**.
+   Ao terminar, clique em **Avançar**.
 
 7. Na etapa **Confirmar,** clique em **Concluir**.
 
@@ -166,7 +166,7 @@ Se você vai usar um dos modelos integrados ou criar a mensagem de email diretam
    > [!div class="mx-imgBorder"]
    > ![Página inicial de phishing](../../media/5e93b3cc-5981-462f-8b45-bdf85d97f1b8.jpg)
 
-   Quando terminar, clique em **Avançar**.
+   Ao terminar, clique em **Avançar**.
 
 4. Na etapa **Destinatários de** destino, faça uma das seguintes etapas:
 
@@ -174,7 +174,7 @@ Se você vai usar um dos modelos integrados ou criar a mensagem de email diretam
 
    - Clique **em Importar** e **Importar** Arquivo para importar um valor separado por vírgula (CSV) ou arquivo separado por linha de endereços de email. Cada linha deve conter o endereço de email do destinatário.
 
-   Quando terminar, clique em **Avançar**.
+   Ao terminar, clique em **Avançar**.
 
 5. Na etapa **Configurar detalhes de email,** configure as seguintes configurações:
 
@@ -215,7 +215,7 @@ Se você vai usar um dos modelos integrados ou criar a mensagem de email diretam
 
    - **Assunto**: O **campo Assunto** da mensagem de email.
 
-   Quando terminar, clique em **Avançar**.
+   Ao terminar, clique em **Avançar**.
 
 6. Na etapa **Escrever email,** crie o corpo da mensagem da mensagem de email. Se você selecionou um modelo na etapa **Iniciar,** o corpo da mensagem já está configurado, mas você pode personalizá-lo. Você pode usar a guia **Email** (um editor HTML rico) ou a guia **Origem** (código HTML bruto).
 
@@ -230,7 +230,7 @@ Se você vai usar um dos modelos integrados ou criar a mensagem de email diretam
    > [!div class="mx-imgBorder"]
    > ![Corpo do Email de Composição](../../media/9bd65af4-1f9d-45c1-8c06-796d7ccfd425.jpg)
 
-   Quando terminar, clique em **Avançar**.
+   Ao terminar, clique em **Avançar**.
 
 7. Na etapa **Confirmar,** clique em **Concluir** para iniciar a campanha. A mensagem de phishing é entregue aos destinatários direcionados.
 
@@ -269,7 +269,7 @@ No Simulador de Ataques, dois tipos diferentes de campanhas de ataque de senha e
 
    - Clique **em Importar** e **Importar** Arquivo para importar um valor separado por vírgula (CSV) ou arquivo separado por linha de endereços de email. Cada linha deve conter o endereço de email do destinatário.
 
-   Quando terminar, clique em **Avançar**.
+   Ao terminar, clique em **Avançar**.
 
 5. Na etapa **Escolher configurações de** ataque, escolha o que fazer com base no tipo de campanha:
 
@@ -281,7 +281,7 @@ No Simulador de Ataques, dois tipos diferentes de campanhas de ataque de senha e
 
    - **Ataque de pulverização de** senha : Em As senhas a ser **usadas na caixa de** ataque, insira uma senha.
 
-   Quando terminar, clique em **Avançar**.
+   Ao terminar, clique em **Avançar**.
 
 6. Na etapa **Confirmar,** clique em **Concluir** para iniciar a campanha. As senhas especificadas são tentadas nos usuários especificados.
 

@@ -1,5 +1,5 @@
 ---
-title: Estatísticas e relatórios de coleção
+title: Estatísticas e relatórios de coleta
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,7 +15,7 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Saiba como acessar e usar estatísticas e relatórios para coleções de rascunho e coleções que foram comprometidas com um conjunto de revisão em Descoberta Avançada.
+description: Saiba como acessar e usar estatísticas e relatórios para coleções de rascunho e coleções que foram comprometidas com um conjunto de revisão em Advanced eDiscovery.
 ms.openlocfilehash: 5edbd4a3b7212e027c777ed6ce5284f4e9cf595c
 ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/17/2021
 ms.locfileid: "50838834"
 ---
-# <a name="collection-statistics-and-reports-in-advanced-ediscovery"></a>Estatísticas e relatórios de coleção em Descoberta Avançada
+# <a name="collection-statistics-and-reports-in-advanced-ediscovery"></a>Estatísticas de coleção e relatórios em Advanced eDiscovery
 
 Depois de criar um conjunto de rascunhos, você pode exibir estatísticas nos itens recuperados, como os locais de conteúdo que contêm a maioria dos itens que corresponderam aos critérios de pesquisa e ao número de itens retornados pela consulta de pesquisa. Você também pode visualizar um subconjunto dos resultados.
 
@@ -49,7 +49,7 @@ Esta seção exibe um resumo gráfico dos itens estimados retornados pela coleç
 
 Esta seção exibe estatísticas sobre a consulta de pesquisa de coleção e o número de itens estimados que corresponderam a diferentes partes da consulta de pesquisa. Você pode usar essas estatísticas para analisar o número de itens que corresponderem a cada componente da consulta de pesquisa. Isso pode ajudá-lo a refinar os critérios de pesquisa para a coleção e, se necessário, restringir o escopo da coleção.
 
-- **Tipo de** local : o tipo de local de conteúdo ao qual as estatísticas de consulta são aplicáveis. O valor do **Exchange** indica um local de caixa de correio; um valor do **SharePoint** indica um local do site.
+- **Tipo de** local : o tipo de local de conteúdo ao qual as estatísticas de consulta são aplicáveis. O valor de **Exchange** indica um local de caixa de correio; um valor de **SharePoint** indica um local do site.
 
 - **Parte**: A parte da consulta de pesquisa à que as estatísticas são aplicáveis. **O** primário indica toda a consulta de pesquisa. **A** palavra-chave indica que as estatísticas na linha são para uma palavra-chave específica. Se você usar uma lista de palavras-chave quando para a consulta de pesquisa na coleção, as estatísticas de cada componente da consulta serão incluídas nesta tabela.
 
@@ -128,16 +128,16 @@ Quando você executar um conjunto de rascunhos, uma estimativa do número de ite
 
 - **Opções de configuração de coleção**. Quando você confirma um conjunto de rascunhos em um conjunto de revisão, você precisa incluir threads de conversa, anexos de nuvem e versões de documento. Qualquer um desses itens adicionados ao conjunto de revisão não está incluído nas estimativas do conjunto de rascunhos. Eles são identificados e coletados somente quando você confirma a coleção. Selecionar essas opções provavelmente aumentará o número de itens adicionados ao conjunto de revisão. 
 
-    Por exemplo, várias versões de documentos do SharePoint não estão incluídas na estimativa do conjunto de rascunhos. Mas se você selecionar a opção para incluir todas as versões do documento ao exportar os resultados da pesquisa, o que aumentará o número real (e o tamanho total) dos itens adicionados ao conjunto de revisão. 
+    Por exemplo, várias versões SharePoint documentos não estão incluídas na estimativa do conjunto de rascunhos. Mas se você selecionar a opção para incluir todas as versões do documento ao exportar os resultados da pesquisa, o que aumentará o número real (e o tamanho total) dos itens adicionados ao conjunto de revisão. 
 
     Para obter mais informações sobre essas opções, consulte [Commit a draft collection to a review set](commit-draft-collection.md#commit-a-draft-collection-to-a-review-set-in-advanced-ediscovery). 
 
 Aqui estão outros motivos pelos quais os resultados estimados de uma coleção de rascunhos podem ser diferentes dos resultados reais comprometidos.
 
-- **A maneira como os resultados são estimados para coleções de rascunho.** Uma estimativa dos resultados da pesquisa retornada por uma coleção de rascunhos é exatamente essa, uma estimativa (e não uma contagem real) dos itens que atendem aos critérios de consulta da coleção. Para compilar a estimativa de itens de email, uma lista das IDs de mensagem que atendem aos critérios de pesquisa é solicitada do banco de dados do Exchange. Mas quando você confirma a coleção em um conjunto de revisão, a coleção é reprisada e as mensagens reais são recuperadas do banco de dados do Exchange. Portanto, as diferenças podem resultar devido à forma como o número estimado de itens e o número real de itens são determinados.
+- **A maneira como os resultados são estimados para coleções de rascunho.** Uma estimativa dos resultados da pesquisa retornada por uma coleção de rascunhos é exatamente essa, uma estimativa (e não uma contagem real) dos itens que atendem aos critérios de consulta da coleção. Para compilar a estimativa de itens de email, uma lista das IDs de mensagem que atendem aos critérios de pesquisa é solicitada do banco de dados Exchange. Mas quando você confirma a coleção em um conjunto de revisão, a coleção é reprisada e as mensagens reais são recuperadas do banco de dados Exchange de dados. Portanto, as diferenças podem resultar devido à forma como o número estimado de itens e o número real de itens são determinados.
 
 - **Alterações que ocorrem entre o tempo durante a estimativa e a confirmação de coleções de rascunho.** Quando você confirma um conjunto de rascunhos em um conjunto de revisão, a pesquisa é reprisada para coletar os itens mais recentes no índice de pesquisa que atendem aos critérios de pesquisa. É possível que itens adicionais foram criados, enviados ou excluídos que atendem aos critérios de pesquisa no momento em que o conjunto de rascunhos foi executado pela última vez e quando a coleção de rascunhos é comprometida com um conjunto de revisão. Também é possível que os itens que estavam no índice de pesquisa quando os resultados da coleção de rascunhos foram estimados não estão mais lá porque eles foram limpos de uma fonte de dados antes de comprometer a coleção. Uma maneira de atenuar esse problema é especificar um intervalo de datas para uma coleção. Outra maneira é colocar uma espera em locais de conteúdo para que os itens sejam preservados e não possam ser limpos.
 
-- **Itens nãoindexados.** Se o conjunto de rascunhos incluiu a pesquisa em todas as caixas de correio do Exchange ou todos os sites do SharePoint, somente itens não índicedos de locais de conteúdo que contenham itens que corresponderem aos critérios de coleção serão adicionados ao conjunto de revisão. Em outras palavras, se nenhum resultado for encontrado em uma caixa de correio ou site, nenhum item não índicedo nessa caixa de correio ou site não será adicionado ao conjunto de revisão. No entanto, itens desindexados de todos os locais de conteúdo (mesmo aqueles que não contêm itens que corresponderem à consulta de coleção) serão incluídos nos resultados estimados da coleção.
+- **Itens nãoindexados.** Se o conjunto de rascunhos incluiu a pesquisa em todas as caixas de correio Exchange ou todos os sites SharePoint, somente itens não SharePoint de locais de conteúdo que contenham itens que corresponderem aos critérios de coleção serão adicionados ao conjunto de revisão. Em outras palavras, se nenhum resultado for encontrado em uma caixa de correio ou site, nenhum item não índicedo nessa caixa de correio ou site não será adicionado ao conjunto de revisão. No entanto, itens desindexados de todos os locais de conteúdo (mesmo aqueles que não contêm itens que corresponderem à consulta de coleção) serão incluídos nos resultados estimados da coleção.
 
     Como alternativa, se o conjunto de rascunhos incluiu locais de conteúdo específicos (o que significa que caixas de correio ou sites específicos, onde especificados na página Locais adicionais no assistente de conjunto de rascunhos), os itens não especificados (que não são excluídos pelos critérios de coleção) dos locais de conteúdo especificados na pesquisa serão exportados.  Nesse caso, o número estimado de itens não índicedos e o número de itens não índicedos adicionados ao conjunto de revisão devem ser os mesmos.

@@ -1,5 +1,5 @@
 ---
-title: Criar consultas de pesquisa na Descoberta Avançada
+title: Criar consultas de pesquisa em Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,7 +15,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.custom: seo-marvel-mar2020
-description: Use palavras-chave e condições para restringir o escopo da pesquisa ao pesquisar dados usando a Descoberta Técnica Avançada no Microsoft 365.
+description: Use palavras-chave e condições para restringir o escopo da pesquisa ao pesquisar dados usando Advanced eDiscovery em Microsoft 365.
 ms.openlocfilehash: e0df319257776d3995a4b8e37781d7b5dad54d82
 ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
@@ -23,19 +23,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/17/2021
 ms.locfileid: "50838474"
 ---
-# <a name="build-search-queries-for-collections-in-advanced-ediscovery"></a>Criar consultas de pesquisa para coleções em Descoberta Avançada
+# <a name="build-search-queries-for-collections-in-advanced-ediscovery"></a>Criar consultas de pesquisa para coleções em Advanced eDiscovery
 
-Ao configurar [a](collections-overview.md) consulta de pesquisa ao criar uma coleção em um caso de Descoberta Avançada, você pode usar palavras-chave para encontrar conteúdo e condições específicos para restringir o escopo da pesquisa para retornar itens mais relevantes à investigação legal.
+Ao configurar [a](collections-overview.md) consulta de pesquisa ao criar uma coleção em um caso de Advanced eDiscovery, você pode usar palavras-chave para encontrar conteúdo e condições específicos para restringir o escopo da pesquisa para retornar itens mais relevantes à investigação legal.
 
 ![Usar palavras-chave e condições para restringir os resultados de uma pesquisa](../media/SearchQueryBox.png)
 
-## <a name="keyword-searches"></a>Pesquisas de palavra-chave
+## <a name="keyword-searches"></a>Pesquisas de palavras-chave
 
-Digite uma consulta de palavra-chave na caixa **Palavras-chave** na consulta de pesquisa. Você pode especificar palavras-chave, propriedades de mensagem de email, como datas enviadas e recebidas, ou propriedades de documento, como nomes de arquivo ou a data em que um documento foi alterado pela última vez. Faça consultas mais complexas que usam um operador Booleano, **E**, **OU**, **NÃO** e **PRÓXIMO**. Você também pode pesquisar informações confidenciais (como números de segurança social) em documentos no SharePoint e no OneDrive (não em mensagens de email) ou pesquisar documentos que foram compartilhados externamente. Se você deixar a caixa **Palavras-chave** vazia, todo o conteúdo localizado nos locais de conteúdo especificados está nos resultados da pesquisa.
+Digite uma consulta de palavra-chave na caixa **Palavras-chave** na consulta de pesquisa. Você pode especificar palavras-chave, propriedades de mensagem de email, como datas enviadas e recebidas, ou propriedades de documento, como nomes de arquivo ou a data em que um documento foi alterado pela última vez. Faça consultas mais complexas que usam um operador Booleano, como **E**, **OU**, **NÃO** e **PRÓXIMO**. Você também pode pesquisar informações confidenciais (como números de segurança social) em documentos em SharePoint e OneDrive (não em mensagens de email) ou pesquisar documentos que foram compartilhados externamente. Se você deixar a caixa **Palavras-chave** vazia, todo o conteúdo nos locais de conteúdo especificado aparecerá nos resultados da pesquisa.
 
 ## <a name="keyword-list"></a>Lista de palavras-chave
 
-Como alternativa, você pode selecionar a caixa de seleção **Mostrar** lista de palavras-chave e o tipo de palavra-chave ou frase de palavra-chave em cada linha. As palavras-chave em cada linha são conectadas por um operador lógico (que é representado como *c:s* na sintaxe de consulta de pesquisa) que é semelhante em funcionalidade ao operador **OR** na consulta de pesquisa criada. Isso significa que os itens que contêm qualquer palavra-chave em qualquer linha estão nos resultados da pesquisa. Você pode adicionar até 180 linhas na lista de palavras-chave em consultas de pesquisa de Descoberta Avançada.
+Como alternativa, você pode selecionar a caixa de seleção **Mostrar** lista de palavras-chave e o tipo de palavra-chave ou frase de palavra-chave em cada linha. As palavras-chave em cada linha são conectadas por um operador lógico (que é representado como *c:s* na sintaxe de consulta de pesquisa) que é semelhante em funcionalidade ao operador **OR** na consulta de pesquisa criada. Isso significa que os itens que contêm qualquer palavra-chave em qualquer linha estão nos resultados da pesquisa. Você pode adicionar até 180 linhas na lista de palavras-chave em Advanced eDiscovery de pesquisa.
 
 ![Use a lista de palavras-chave para obter estatísticas sobre cada palavra-chave na consulta](../media/KeywordListSearch.png)
 

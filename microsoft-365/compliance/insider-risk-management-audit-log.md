@@ -1,7 +1,7 @@
 ---
 title: Log de auditoria de gerenciamento de riscos do Insider
 description: Saiba mais sobre o log de auditoria de gerenciamento de risco interno no Microsoft 365
-keywords: Microsoft 365, gerenciamento de risco interno, gerenciamento de riscos, conformidade
+keywords: Microsoft 365, gerenciamento de risco interno, gerenciamento de risco, conformidade
 localization_priority: Normal
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -32,14 +32,14 @@ As áreas incluídas no monitoramento de atividades incluem:
 - Políticas
 - Casos
 - Alertas
-- Settings
+- Configurações
 - Usuários
 - Modelos de aviso
 
 Para exibir e exportar dados do log de auditoria, os usuários devem ser atribuídos aos grupos de função *Insider Risk Management* ou *Insider Risk Management Auditors.* Para saber mais sobre grupos de função de gerenciamento de riscos insider, consulte Iniciando o gerenciamento de riscos [insider Etapa 1: Habilenciar permissões](insider-risk-management-configure.md#step-1-enable-permissions-for-insider-risk-management).
 
 >[!NOTE]
->O log de auditoria de gerenciamento de riscos internos não está associado ao log de auditoria do Microsoft 365, são sistemas de auditoria independentes e capturam informações sobre atividades separadas. Desabilitar a auditoria do Microsoft 365 não afeta a auditoria de atividades dentro do gerenciamento de risco interno.
+>O log de auditoria de gerenciamento de riscos internos não está associado ao log de auditoria Microsoft 365, eles são sistemas de auditoria independentes e capturam informações sobre atividades separadas. Desabilitar Microsoft 365 auditoria não afeta a auditoria de atividades dentro do gerenciamento de risco interno.
 
 ## <a name="view-activity-in-the-insider-risk-audit-log"></a>Exibir atividade no log de auditoria de risco interno
 
@@ -60,17 +60,17 @@ Para adicionar ou remover títulos de coluna para a fila de atividades, use o co
 
 ## <a name="audit-log-export"></a>Exportação de log de auditoria
 
-Os usuários atribuídos aos grupos de função *Insider Risk Management* ou *Insider Risk Management Auditors* podem exportar todas as atividades no log de auditoria para um arquivo .csv (valores separados por vírgula) selecionando **Exportar** na página de log de auditoria de risco do **Insider.** Dependendo da atividade, alguns campos para uma atividade podem não ser aplicáveis à atividade e esses campos aparecerão como em branco no arquivo exportado.
+Os usuários atribuídos aos grupos de função *Insider Risk Management* ou *Insider Risk Management Auditors* podem exportar todas as atividades no log de auditoria para um arquivo .csv (valores separados por vírgula) selecionando **Exportar** na página de log de auditoria de risco **insider.** Dependendo da atividade, alguns campos para uma atividade podem não ser aplicáveis à atividade e esses campos aparecerão como em branco no arquivo exportado.
 
 O arquivo contém informações de atividade para os seguintes campos:
 
 - **Atividade executada por:** O nome de usuário do usuário que modifica um valor de item. Os usuários listados aqui foram atribuídos a um ou mais dos seguintes grupos de função de gerenciamento de riscos [insider](insider-risk-management-configure.md#step-1-enable-permissions-for-insider-risk-management): *Insider Risk Management,* *Insider Risk Management Admins*, *Insider Risk Management Analysts*, *Insider Risk Management Investigators*. Cada grupo de funções tem níveis de permissão diferentes para gerenciar recursos de risco interno.
-- **Atividade:** A atividade realizada em um item. Os valores *são Exibidos, Excluídos, Adicionados, Política Editada, Caso, Usuário, Alerta* e *Configurações.*
+- **Atividade:** A atividade realizada em um item. Os valores *são Exibidos, Excluídos, Adicionados, Política Editada, Caso, Usuário, Alerta* *e Configurações.*
 - **Adicionado**: objetos que foram adicionados durante a atividade, como usuários, tipos de arquivo ou domínios.
 - **Volume de alerta**: o nível de volume de alerta definido nas configurações de gerenciamento de risco interno.
 - **Valor**: Os valores de indicador personalizados selecionados atualmente para uma política.
 - **ID do** ativo : A ID do ativo físico de prioridade em que a atividade foi realizada.
-- **Categoria:** A categoria do item modificado. Os valores *são Políticas, Casos, Usuários, Alertas, Configurações* e *Modelos de Aviso.*
+- **Categoria:** A categoria do item modificado. Os valores *são Políticas, Casos, Usuários, Alertas, Configurações e* *Avisos.*
 - **Data:** Data e hora, listados na data e hora locais da sua organização.
 - **Descrição**: a entrada de descrição pelo usuário para o objeto que está sendo agido (como uma política ou um grupo de usuários de prioridade).
 - **Política de DLP**: a política de prevenção contra perda de dados (DLP) selecionada para disparar a inclusão em uma política de gerenciamento de riscos insider.
