@@ -67,10 +67,10 @@ Propriedade | Tipo | Descrição
 -|-|-
 incidentId | long | ID exclusiva do incidente.
 redirectIncidentId | nullable long | A ID do Incidente à que o Incidente atual foi mesclado.
-incidentName | string | O nome do Incidente.
+incidentName | cadeia de caracteres | O nome do Incidente.
 createdTime | DateTimeOffset | A data e a hora (em UTC) que o Incidente foi criado.
 lastUpdateTime | DateTimeOffset | A data e a hora (em UTC) que o Incidente foi atualizado pela última vez.
-assignedTo | string | Proprietário do Incidente.
+assignedTo | cadeia de caracteres | Proprietário do Incidente.
 severity | Enum | Gravidade do Incidente. Os valores possíveis são: ```UnSpecified``` , , , e ```Informational``` ```Low``` ```Medium``` ```High``` .
 status | Enum | Especifica o status atual do incidente. Os valores possíveis são: ```Active``` ```Resolved``` , e ```Redirected``` .
 classificação | Enum | Especificação do incidente. Os valores possíveis são: ```Unknown```, ```FalsePositive```, ```TruePositive```.

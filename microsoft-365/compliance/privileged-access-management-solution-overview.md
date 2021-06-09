@@ -1,6 +1,6 @@
 ---
 title: Gerenciamento de acesso privilegiado no Microsoft 365
-description: Saiba como configurar recursos de risco interno no Microsoft 365.
+description: Saiba como configurar recursos de risco interno em Microsoft 365.
 keywords: Microsoft 365, risco interno, conformidade
 localization_priority: Normal
 ms.prod: microsoft-365-enterprise
@@ -25,15 +25,15 @@ ms.locfileid: "50423804"
 ---
 # <a name="privileged-access-management-in-microsoft-365"></a>Gerenciamento de acesso privilegiado no Microsoft 365
 
-Ter acesso permanente por alguns usuários a informações confidenciais ou configurações críticas de rede no Microsoft Exchange Online é um caminho em potencial para contas comprometidas ou atividades de ameaças internas. O gerenciamento de acesso privilegiado ajuda a proteger sua organização contra violações e ajuda a atender às práticas recomendadas de conformidade, limitando o acesso permanente a dados confidenciais ou acesso a configurações críticas. Em vez de os administradores terem acesso constante, regras de acesso just-in-time são implementadas para tarefas que precisam de permissões elevadas. A habilitação do gerenciamento de acesso privilegiado para o Exchange Online no Microsoft 365 permite que sua organização opere com privilégios de posição zero e forneça uma camada de defesa contra vulnerabilidades de acesso administrativo permanentes.
+Ter acesso permanente por alguns usuários a informações confidenciais ou configurações críticas de rede no Microsoft Exchange Online é um caminho em potencial para contas comprometidas ou atividades de ameaças internas. O gerenciamento de acesso privilegiado ajuda a proteger sua organização contra violações e ajuda a atender às práticas recomendadas de conformidade, limitando o acesso permanente a dados confidenciais ou acesso a configurações críticas. Em vez de os administradores terem acesso constante, regras de acesso just-in-time são implementadas para tarefas que precisam de permissões elevadas. A habilitação do gerenciamento de acesso privilegiado para Exchange Online no Microsoft 365 permite que sua organização opere com privilégios de posição zero e forneça uma camada de defesa contra vulnerabilidades de acesso administrativo permanentes.
 
-## <a name="configure-privileged-access-management-for-microsoft-365"></a>Configurar o gerenciamento de acesso privilegiado para o Microsoft 365
+## <a name="configure-privileged-access-management-for-microsoft-365"></a>Configurar o gerenciamento de acesso privilegiado para Microsoft 365
 
 Use as etapas a seguir para configurar o gerenciamento de acesso privilegiado para sua organização:
 
 ![Etapas de gerenciamento de acesso privilegiado da solução de risco do Insider](../media/ir-solution-pam-steps.png)
 
-1. Saiba mais sobre [o gerenciamento de acesso privilegiado](privileged-access-management-overview.md) no Microsoft 365
+1. Saiba mais sobre [o gerenciamento de acesso](privileged-access-management-overview.md) privilegiado Microsoft 365
 2. Criar um [grupo do aprovador](privileged-access-management-configuration.md#step-1-create-an-approvers-group)
 3. [Habilitar o gerenciamento de acesso privilegiado](privileged-access-management-configuration.md#step-2-enable-privileged-access)
 4. Criar uma [política de acesso](privileged-access-management-configuration.md#step-3-create-an-access-policy)

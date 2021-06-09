@@ -25,18 +25,18 @@ ms.locfileid: "49780563"
 ---
 # <a name="address-space-calculator-for-azure-gateway-subnets"></a>Calculadora de espaço de endereço para sub-redes de gateway do Azure
 
-Uma rede virtual (VNet) nos serviços de infraestrutura do Azure que está conectada a outras redes deve ter uma sub-rede de gateway. As práticas recomendadas para definir a sub-rede do gateway são:
+Uma rede virtual (VNet) nos serviços de infraestrutura do Azure conectada a outras redes deve ter uma sub-rede de gateway. As práticas recomendadas para definir a sub-rede do gateway são:
 
-- O comprimento do prefixo da sub-rede do gateway pode ter um comprimento máximo de prefixo de 29 (por exemplo, 10.119.255.248/29), mas a recomendação atual é que você use um comprimento de prefixo de 27 (por exemplo, 10.119.255.224/27).
+- O comprimento do prefixo da sub-rede de gateway pode ter um comprimento de prefixo máximo de 29 (por exemplo, 10.119.255.248/29), mas a recomendação atual é que você use um comprimento de prefixo de 27 (por exemplo, 10.119.255.224/27).
 - Ao definir o espaço de endereço da sub-rede do gateway, use a última parte do espaço de endereço VNet.
 
-Para a segunda recomendação, você pode determinar o espaço de endereço da sub-rede do gateway definindo os bits usados para a sub-rede do gateway como 0 e os bits restantes no espaço de endereço VNet como 1. Para calcular rapidamente o espaço de endereço da sub-rede do gateway sem precisar ser convertido em binário e de volta para decimal, você pode usar um aplicativo de console escrito em C# ou Python ou com um bloco de comandos do PowerShell.
+Para a segunda recomendação, você pode determinar o espaço de endereço da sub-rede do gateway definindo os bits usados para a sub-rede de gateway como 0 e os bits restantes no espaço de endereço VNet como 1. Para calcular rapidamente o espaço de endereço de sub-rede do gateway sem precisar converter em binário e voltar para decimal, você pode usar um aplicativo de console escrito em C# ou Python ou com um bloco de comandos do PowerShell.
 
-Este artigo contém blocos de código C#, Python e PowerShell que calculam o espaço de endereço da sub-rede do gateway com base nos valores de w.x.y.z/n para o prefixo de endereço VNet e o comprimento do prefixo da sub-rede do gateway.
+Este artigo contém C#, Python e blocos de código do PowerShell que calculam o espaço de endereço da sub-rede do gateway com base nos valores de w.x.y.z/n para o prefixo de endereço VNet e o comprimento do prefixo de sub-rede do gateway.
 
-## <a name="c-code-block"></a>Bloco de código C#
+## <a name="c-code-block"></a>C# de código
 
-Use esse bloco de código para criar um aplicativo de console em C#.
+Use esse bloco de código para criar um aplicativo de console C#.
 
 ```c#
 using System; 
@@ -108,7 +108,7 @@ namespace ConsoleApplication1
 } 
 ```
 
-## <a name="python-code-block"></a>Bloco de código python
+## <a name="python-code-block"></a>Bloco de código Python
 
 Use esse bloco de código para criar um aplicativo de console no Python.
 
@@ -147,9 +147,9 @@ print(gwAddrPref)
 ```
 
 
-## <a name="powershell-command-block"></a>Bloco de comandos do PowerShell
+## <a name="powershell-command-block"></a>Bloco de comando do PowerShell
 
-Preencha os valores e execute o bloco de comando resultante em uma janela do PowerShell ou no ISE (Ambiente de Script Integrado) do PowerShell.
+Preencha os valores e execute o bloco de comando resultante em uma janela do PowerShell ou no Ambiente de Script Integrado do PowerShell (ISE).
 
 ```powershell
 # Specify the values of w.x.y.z/n for your VNet address space and g, the prefix length of your gateway subnet: 

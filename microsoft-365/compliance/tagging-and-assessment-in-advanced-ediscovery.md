@@ -1,5 +1,5 @@
 ---
-title: Marcação e avaliação na descoberta eletrônica avançada
+title: Marcação e avaliação no Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,7 +16,7 @@ search.appverid:
 - MET150
 ms.assetid: b5c82de7-ed2f-4cc6-becd-db403faf4d18
 ROBOTS: NOINDEX, NOFOLLOW
-description: Revise as etapas para executar o treinamento de avaliação, incluindo arquivos de marcação e revisar os resultados da avaliação na descoberta eletrônica avançada.
+description: Revise as etapas para executar o treinamento de Avaliação, incluindo arquivos de marcação e revisão dos resultados da avaliação Advanced eDiscovery.
 ms.openlocfilehash: 15bc8254ea1589d9afa17a74eaf3bfbcdfd4bba0
 ms.sourcegitcommit: 5ba0015c1554048f817fdfdc85359eee1368da64
 ms.translationtype: MT
@@ -24,105 +24,105 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "49769186"
 ---
-# <a name="tagging-and-assessment-in-the-relevance-module-in-advanced-ediscovery"></a>Marcação e avaliação no módulo de relevância na descoberta eletrônica avançada
+# <a name="tagging-and-assessment-in-the-relevance-module-in-advanced-ediscovery"></a>Marcação e Avaliação no módulo De relevância no Advanced eDiscovery
   
-Esta seção descreve o procedimento de avaliação no módulo de relevância na descoberta eletrônica avançada.
+Esta seção descreve o procedimento para Avaliação no módulo De relevância no Advanced eDiscovery.
   
-## <a name="performing-assessment-training-and-analysis"></a>Realizando treinamento e análise de avaliação
+## <a name="performing-assessment-training-and-analysis"></a>Realizar treinamento e análise de Avaliação
 
-1. Na guia **\> controle de relevância** , clique em **avaliação** para iniciar a avaliação de caso.
+1. Na guia **Faixa de \> Relevância,** clique em **Avaliação** para iniciar a avaliação de caso.
 
-    Por exemplo, neste procedimento, um conjunto de avaliação de amostra de 500 arquivos é criado e a guia **marca** é exibida, que contém o painel de marcação, o conteúdo do arquivo exibido e outras opções de marcação. 
+    Para fins de exemplo neste procedimento, um conjunto de avaliação de exemplo de 500 arquivos é criado e a guia **Marca** é exibida, que contém o painel De marcação, conteúdo de arquivo exibido e outras opções de marcação. 
 
     ![Guia Marca de Relevância para Avaliação](../media/c8acf891-b1cd-4344-816c-eabb8cbbe742.png)
   
-2. Revise cada arquivo no exemplo, determine a relevância do arquivo para cada problema de caso e marque o arquivo usando os botões relevância (R), não relevante (NR) e pular no painel **painel de marcação** . 
+2. Revise cada arquivo no exemplo, determine a relevância do arquivo para cada problema de caso e marque o arquivo usando os  botões Relevância (R), Não Relevante (NR) e Ignorar no painel Painel de Marcação. 
 
     > [!NOTE]
-    >  A avaliação requer arquivos marcados 500. Se os arquivos forem "ignorados", você receberá mais arquivos para marcá-los. 
+    >  A avaliação requer 500 arquivos marcados. Se os arquivos são "ignorados", você receberá mais arquivos para marcar. 
   
-3. Depois de marcar todos os arquivos no exemplo, clique em **calcular**.
+3. Depois de marcar todos os arquivos no exemplo, clique em **Calcular**.
 
-    A margem de erro atual de avaliação e a riqueza são calculadas e exibidas na guia **controle de relevância** , com detalhes expandidos por problema, conforme mostrado abaixo. Mais detalhes sobre esta caixa de diálogo são descritos na seção [revisando resultados da avaliação](#reviewing-assessment-results) .
+    A margem de erro e a riqueza atuais  de Avaliação são calculadas e exibidas na guia Faixa de Relevância, com detalhes expandidos por problema, conforme mostrado abaixo. Mais detalhes sobre essa caixa de diálogo são descritos na seção [Revisão dos resultados da avaliação.](#reviewing-assessment-results)
 
     ![Controle de relevância - avaliação](../media/da911ba5-8678-40d6-9ad5-fd0b058355c1.png)
   
     > [!TIP]
-    > Por padrão, recomendamos que você prossiga para a próxima etapa padrão quando o indicador de progresso da avaliação do problema tiver sido concluído, indicando que o exemplo de avaliação foi revisado e que os arquivos relevantes suficientes foram marcados. > caso contrário, se você quiser exibir os resultados da guia **rastrear** e controlar a margem de erro e a próxima etapa, clique em **Modificar** adjacente à **próxima etapa**, selecione **continuar avaliação** e clique em **OK**.
+    > Por padrão, recomendamos que você prossiga para a próxima etapa padrão quando o indicador de progresso da Avaliação para o problema tiver sido concluído, indicando que o exemplo de avaliação foi revisado e arquivos relevantes suficientes foram marcados. > Caso contrário, se você quiser  exibir os resultados da guia Controlar e  controlar a margem de erro e a próxima etapa, clique em Modificar adjacente à Próxima **Etapa,** selecione **Continuar** avaliação e clique em **OK**.
   
-4. Clique em **Modificar** à direita da caixa de seleção de **avaliação** para exibir e especificar os parâmetros de avaliação por problema. Uma caixa de diálogo de **nível de avaliação** para cada problema é exibida, conforme mostrado no exemplo a seguir: 
+4. Clique **em Modificar** à direita da caixa de seleção **Avaliação** para exibir e especificar parâmetros de avaliação por problema. Uma **caixa de diálogo Nível** de Avaliação para cada problema é exibida, conforme mostrado no exemplo a seguir: 
 
     ![Problema de caso de nível de avaliação](../media/b7113fef-d125-4617-ae1b-c9eb0bf79aec.png)
   
-    Os seguintes parâmetros para o problema são calculados e exibidos na caixa de diálogo **nível de avaliação** : 
+    Os seguintes parâmetros para o problema são calculados e exibidos na caixa de diálogo **Nível de Avaliação:** 
 
-    **Margem de erro de destino para estimativas de cancelamento**: com base nesse valor, o número estimado de arquivos adicionais necessários para a revisão é calculado. A margem usada para a recuperação é maior que 75% e com um nível de confiança 95%.
+    **Margem de erro de** destino para estimativas de recall : Com base nesse valor, o número estimado de arquivos adicionais necessários para revisão é calculado. A margem usada para recall é maior do que 75% e com um nível de confiança de 95%.
 
-    **Arquivos de avaliação adicionais necessários**: indica o número de arquivos necessários se os requisitos da margem de erro atual não tiverem sido atendidos. 
+    **Arquivos de avaliação adicionais** necessários: indica quantos arquivos mais são necessários se os requisitos atuais da margem de erro não foram atendidos. 
 
 5. Para ajustar a margem de erro atual e ver o efeito de diferentes margens de erro (por problema):
 
-6. Na lista **selecionar problema** , selecione um problema. 
+6. Na lista **Selecionar problema,** selecione um problema. 
 
-7. Em **margem de erro de destino para estimativas de cancelamento**, insira um novo valor.
+7. Em **Margem de erro de destino para estimativas de** recall, insira um novo valor.
 
-8. Clique em **atualizar valores** para ver o impacto dos ajustes. 
+8. Clique **em Atualizar valores** para ver o impacto dos ajustes. 
 
-9. Clique em **avançado** na caixa de diálogo **nível de avaliação** para ver os seguintes parâmetros e detalhes adicionais: 
+9. Clique **em Avançado** na caixa de diálogo Nível de **Avaliação** para ver os seguintes parâmetros e detalhes adicionais: 
 
     ![Exibição avançada de problema de caso de nível de avaliação](../media/577d7e0e-95df-48c2-9dec-bdeab5e801d8.png)
   
-    - **Riqueza estimada**: riqueza estimada de acordo com os resultados da avaliação atual
+    - **Riqueza estimada**: Riqueza estimada de acordo com os resultados atuais da avaliação
 
-    - **Para recalls presumidos**: por padrão, a margem de erro de destino se aplica à recuperação acima de 75%. Clique em **Editar** se quiser alterar esse parâmetro e controlar a margem de erro em um intervalo diferente de valores de recuperação. 
+    - **Para recall presumido**: Por padrão, a margem de erro de destino se aplica ao recall acima de 75%. Clique **em Editar** se quiser alterar esse parâmetro e controlar a margem de erro em um intervalo diferente de valores de recall. 
 
-    - **Nível de confiança**: por padrão, a margem de erro recomendada para confiança é de 95%. Clique em **Editar** se quiser alterar esse parâmetro.
+    - **Nível de** confiança : Por padrão, a margem de erro recomendada para confiança é de 95%. Clique **em Editar** se quiser alterar esse parâmetro.
 
-    - **Margem de erro de riqueza esperada**: dado os valores atualizados, esta é a margem esperada de erro da riqueza, após todos os arquivos de avaliação adicionais serem revisados.
+    - **Margem de erro** de riqueza esperada : Considerando os valores atualizados, essa é a margem de erro esperada da riqueza, depois que todos os arquivos de avaliação adicionais são revisados.
 
-    - **Arquivos de avaliação adicionais necessários**: dado os valores atualizados, o número de arquivos de avaliação adicionais que precisam ser revisados para chegar ao destino.
+    - **Arquivos de avaliação adicionais necessários:** dados os valores atualizados, o número de arquivos de avaliação adicionais que precisam ser revisados para alcançar o destino.
 
-    - **Total de arquivos de avaliação necessários**: dado os valores atualizados, os arquivos de avaliação total necessários para análise.
+    - **Total de arquivos de avaliação necessários**: Dados os valores atualizados, total de arquivos de avaliação necessários para revisão.
 
-    - **Número esperado de arquivos relevantes na avaliação**: dado os valores atualizados, o número esperado de arquivos relevantes em toda a avaliação após todos os arquivos de avaliação adicionais serem analisados.
+    - **Número esperado de arquivos relevantes** na avaliação : Dado os valores atualizados, o número esperado de arquivos relevantes em toda a avaliação depois que todos os arquivos de avaliação adicionais são revisados.
 
-10. Clique em **Recalcular valores**, se os parâmetros forem alterados. Quando você terminar, se houver um problema, clique em **OK** para salvar as alterações (ou **ao avançar** quando houver vários problemas para revisar ou modificar e depois **concluir**). 
+10. Clique **em Recalcular valores**, se os parâmetros são alterados. Quando terminar, se houver um problema, clique em **OK** para salvar as alterações (ou **Next** quando houver vários problemas para revisar ou modificar e, em seguida, **Concluir**). 
 
-    Quando há vários problemas, após todos os problemas terem sido revisados ou ajustados, um **nível de avaliação: Resumo** é exibido, conforme mostrado no exemplo a seguir. 
+    Quando há vários problemas, depois que todos os problemas foram revisados ou ajustados, um nível de **Avaliação:** a caixa de diálogo resumo é exibida, conforme mostrado no exemplo a seguir. 
 
     ![Resumo do nível de análise](../media/4997b46d-10a5-4abc-b3b2-7b75a370eb9e.png)
   
     Após a conclusão bem-sucedida da avaliação, prossiga para o próximo estágio no treinamento de relevância.
 
-## <a name="reviewing-assessment-results"></a>Analisar resultados da avaliação
+## <a name="reviewing-assessment-results"></a>Revisão dos resultados da avaliação
 
-Depois que um exemplo de avaliação é marcado, os resultados da avaliação são calculados e exibidos na guia controle de relevância.
+Depois que um exemplo de Avaliação é marcado, os resultados da avaliação são calculados e exibidos na guia Faixa de Relevância.
   
-Os resultados a seguir são exibidos na exibição de faixa expandida:
+Os seguintes resultados são exibidos na exibição Faixa expandida:
   
-- Margem de erro atual de avaliação para estimativas de cancelamento
+- Margem de erro atual de avaliação para estimativas de recall
 
 - Riqueza estimada
 
 - Arquivos de avaliação adicionais necessários (para revisão)
 
-A margem de erro atual da avaliação é a margem de erro recomendada pela descoberta eletrônica avançada. O número exibido para os "arquivos de avaliação adicionais necessários" corresponde a essa recomendação.
+A margem de erro de Avaliação atual é a margem de erro recomendada por Advanced eDiscovery. O número exibido para os "Arquivos de avaliação adicionais necessários" corresponde a essa recomendação.
   
-O indicador de progresso da avaliação mostra o nível de conclusão da avaliação, considerando a margem de erro atual. Quando a avaliação estiver em andamento, o usuário marcará outro exemplo de avaliação.
+O indicador de progresso da Avaliação mostra o nível de conclusão da avaliação, considerando a margem de erro atual. Quando a avaliação estiver em andamento, o usuário marcará outro exemplo de avaliação.
   
-Quando o indicador de progresso da avaliação mostrar a avaliação como concluída, isso significa que a análise da amostra de avaliação foi concluída e os arquivos relevantes suficientes foram marcados. 
+Quando o indicador de progresso da avaliação mostra a avaliação como concluída, isso significa que a revisão de exemplo de avaliação foi concluída e arquivos relevantes suficientes foram marcados. 
   
-A exibição de faixa expandida mostra a próxima etapa recomendada, as estatísticas de avaliação e o acesso aos resultados detalhados.
+A exibição faixa expandida mostra a próxima etapa recomendada, as estatísticas de avaliação e o acesso a resultados detalhados.
   
-Quando a riqueza é muito baixa, o número de arquivos de avaliação adicionais necessários para atingir um número mínimo de arquivos relevantes para produzir estatísticas úteis é muito alto. A descoberta eletrônica avançada recomendará a migração para o treinamento. O indicador de progresso da avaliação será sombreado e nenhuma estatística estará disponível.
+Quando a riqueza é muito baixa, o número de arquivos de avaliação adicionais necessários para alcançar um número mínimo de arquivos relevantes para produzir estatísticas úteis é muito alto. Advanced eDiscovery, em seguida, recomendamos passar para o treinamento. O indicador de progresso da avaliação será sombreado e nenhuma estatística estará disponível.
   
-Na ausência de estabilização com base Estatistica, haverá resultados com um nível inferior de precisão e nível de confiança. No entanto, esses resultados podem ser usados para localizar arquivos relevantes quando você não precisa saber a porcentagem de arquivos relevantes encontrados. Da mesma forma, esse status pode ser usado para treinar problemas com uma riqueza inferior, em que as pontuações de relevância podem acelerar o acesso a arquivos relevantes para um problema específico.
+Na ausência de estabilização baseada em estatísticas, haverá resultados com um nível mais baixo de precisão e nível de confiança. No entanto, esses resultados podem ser usados para encontrar arquivos relevantes quando você não precisa saber a porcentagem de arquivos relevantes encontrados. Da mesma forma, esse status pode ser usado para treinar problemas com baixa riqueza, onde as pontuações de Relevância podem acelerar o acesso a arquivos relevantes a um problema específico.
   
 > [!TIP]
-> Na guia **\> controle de relevância** , exibição de problema expandido, as seguintes opções de visualização estão disponíveis: 
+> Na guia **Faixa de \> Relevância,** exibição de problemas expandidos, as seguintes opções de exibição estão disponíveis: 
 > 
-> A próxima etapa recomendada, como **próxima etapa: a marcação** pode ser ignorada (por problema) clicando no botão **Modificar** à direita e, em seguida, selecionando uma etapa diferente na **próxima etapa**. Quando o indicador de progresso da avaliação não for concluído, a avaliação será a próxima opção recomendada para marcar mais arquivos de avaliação e aumentar a precisão das estatísticas. 
+> A próxima etapa recomendada, como Próxima **etapa:** a marcação pode ser  ignorada (por problema) clicando no botão Modificar à direita e selecionando uma etapa diferente na **próxima etapa**. Quando o indicador de progresso da avaliação não for concluído, a avaliação será a próxima opção recomendada, para marcar mais arquivos de avaliação e aumentar a precisão de estatísticas. 
 > 
-> Você pode alterar a margem de erro e avaliar seu impacto, clicando em **Modificar** e, na **caixa de diálogo nível de avaliação**, alterando a **margem de erro de destino para obter estimativas de cancelamento** e clicando em **atualizar valores**. Além disso, nessa caixa de diálogo, você pode exibir opções avançadas clicando em **avançado**. 
+> Você pode alterar a margem de erro e avaliar seu impacto, clicando em **Modificar** e na caixa de diálogo Nível de Avaliação, alterando a margem de erro de destino para **estimativas** de recall e clicando em Atualizar **valores**. Além disso, nesta caixa de diálogo, você pode exibir opções avançadas clicando em **Avançado**. 
 > 
-> Você pode exibir estatísticas de nível de avaliação adicionais e seu impacto clicando em **Exibir**. Na caixa de diálogo resultados detalhados exibidos, as estatísticas estão disponíveis por questão, quando há pelo menos 500 arquivos de avaliação marcados e pelo menos 18 arquivos são marcados conforme relevante para o problema. 
+> Você pode exibir estatísticas adicionais de nível de avaliação e seu impacto clicando em **Exibir**. Na caixa de diálogo Resultados de detalhes exibidos, as estatísticas estão disponíveis por problema, quando há pelo menos 500 arquivos de avaliação marcados e pelo menos 18 arquivos são marcados como Relevantes para o problema. 

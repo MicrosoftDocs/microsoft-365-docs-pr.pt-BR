@@ -1,6 +1,6 @@
 ---
 title: Relatório de conformidade e saúde do dispositivo no Microsoft Defender para Ponto de Extremidade
-description: Rastrear detecções de estado de saúde do dispositivo, status do antivírus, plataforma do sistema operacional e versões do Windows 10 usando o relatório de conformidade e saúde do dispositivo
+description: Rastrear detecções de estado de saúde do dispositivo, status do antivírus, plataforma do sistema operacional e Windows 10 usando o relatório de conformidade e saúde do dispositivo
 keywords: estado de saúde, antivírus, plataforma do sistema operacional, versão do windows 10, versão, saúde, conformidade, estado
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -35,7 +35,7 @@ ms.locfileid: "51860286"
 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-O relatório de status dos dispositivos fornece informações de alto nível sobre os dispositivos em sua organização. O relatório inclui informações de tendência mostrando o estado de saúde do sensor, o status do antivírus, as plataformas do sistema operacional e as versões do Windows 10.
+O relatório de status dos dispositivos fornece informações de alto nível sobre os dispositivos em sua organização. O relatório inclui informações de tendência que mostram o estado de saúde do sensor, o status do antivírus, as plataformas do sistema operacional e Windows 10 versões.
 
 O painel é estruturado em duas seções: ![ Imagem do relatório do dispositivo](images/device-reports.png)
  
@@ -72,11 +72,11 @@ O relatório é feito de cartões que exibem os seguintes atributos de dispositi
  
 - **Estado de** saúde : mostra informações sobre o estado do sensor em dispositivos, fornecendo uma exibição agregada de dispositivos que estão ativos, com comunicações prejudicadas, inativas ou onde nenhum dado do sensor é visto.
   
-- **Status do antivírus para dispositivos Windows 10** ativos : mostra o número de dispositivos e o status do Microsoft Defender Antivírus.
+- **Status do antivírus para dispositivos Windows 10** ativos : mostra o número de dispositivos e o status de Microsoft Defender Antivírus.
     
 - **Plataformas do sistema operacional**: mostra a distribuição de plataformas do sistema operacional existentes em sua organização. 
  
-- **Versões do Windows 10**: mostra a distribuição de dispositivos Windows 10 e suas versões em sua organização.
+- **Windows 10 :** mostra a distribuição de dispositivos Windows 10 e suas versões em sua organização.
  
  
  
@@ -89,7 +89,7 @@ Você pode selecionar vários filtros para aplicar a partir dos atributos do dis
 >[!NOTE]
 >Esses filtros se aplicam **a** todos os cartões do relatório.
  
-Por exemplo, para mostrar dados sobre dispositivos Windows 10 com estado de saúde do sensor ativo:
+Por exemplo, para mostrar dados sobre Windows 10 dispositivos com estado de saúde do sensor ativo:
  
 1. Em **Filtros > estado de saúde do sensor > Ativo**.
 2. Em seguida, **selecione plataformas do sistema operacional > Windows 10**.

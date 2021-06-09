@@ -24,13 +24,13 @@ ms.locfileid: "50927211"
 ---
 # <a name="retrieve-customer-tenant-reporting-data-with-windows-powershell-for-delegated-access-permissions-dap-partners"></a>Recuperar dados de relatório do locatário do cliente com o Windows PowerShell para parceiros com permissões de acesso delegado (DAP)
 
-*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
+*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
 Use o Windows PowerShell remoto para Microsoft Exchange Online para recuperar relatórios de locatários de clientes individuais.
   
-Os parceiros do Provedor de Soluções na Nuvem (CSP) podem acessar os dados que comem os relatórios de locatários do cliente diretamente por meio de Windows PowerShell para o PowerShell do Exchange Online. Isso permite aos parceiros coletar e salvar os dados dos relatórios e, em seguida, realizar outras operações neles. Depois de abrir uma conexão remota, recuperar dados de relatório de uma locação é o mesmo que executar qualquer cmdlet em uma locação do cliente.
+Os parceiros de Provedor de Soluções na Nuvem (CSP) podem acessar os dados que comem os relatórios de locatários do cliente diretamente por meio do Windows PowerShell remoto para Exchange Online PowerShell. Isso permite aos parceiros coletar e salvar os dados dos relatórios e, em seguida, realizar outras operações neles. Depois de abrir uma conexão remota, recuperar dados de relatório de uma locação é o mesmo que executar qualquer cmdlet em uma locação do cliente.
   
-Neste artigo, você usa o Windows PowerShell remoto para o Exchange Online para se conectar a um único cliente e recuperar um relatório. Por padrão, o Windows PowerShell não tem suporte para agregar dados de relatórios de várias locações do cliente. Os relatórios que você recuperar com esse procedimento são destinados apenas ao  _DelegatedOrg_ para o qual você se conectar.
+Neste artigo, você usa o Windows PowerShell remoto para Exchange Online se conectar a um único cliente e recuperar um relatório. Por padrão, o Windows PowerShell não tem suporte para agregar dados de relatórios de várias locações do cliente. Os relatórios que você recuperar com esse procedimento são destinados apenas ao  _DelegatedOrg_ para o qual você se conectar.
   
  
 ## <a name="before-you-begin"></a>Antes de começar

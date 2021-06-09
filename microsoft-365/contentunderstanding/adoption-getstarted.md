@@ -70,7 +70,7 @@ Use os [cenários de exemplo e use casos](adoption-scenarios.md) para solicitar 
 
 Determinar quem na sua organização criará e gerenciará os modelos? As seguintes funções podem estar envolvidas:
 
-| SharePoint/Administrador de conhecimento | Administrador da Plataforma Power | Gerente de conhecimento | Proprietário do modelo |
+| SharePoint/Administrador de conhecimento | Administrador do Power Platform | Gerente de conhecimento | Proprietário do modelo |
 |:-------|:-------|:-------|:-------|
 | Função AAD| Função AAD | Função AAD | Campeões |
 | Configurar o processamento de formulário | Configurar o ambiente comum de serviço de dados para processamento de formulário | Reunir casos de uso | Reunir casos de uso comercial |

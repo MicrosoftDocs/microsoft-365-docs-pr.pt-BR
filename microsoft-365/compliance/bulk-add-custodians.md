@@ -1,5 +1,5 @@
 ---
-title: Importar custodiantes para um caso de Descoberta Avançada
+title: Importar custodiantes para um Advanced eDiscovery caso
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,7 +14,7 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Use a ferramenta de importação dto adicionar rapidamente vários custodiantes e suas fontes de dados associadas a um caso em Descoberta Avançada.
+description: Use a ferramenta de importação dpara adicionar rapidamente vários custodiantes e suas fontes de dados associadas a um caso em Advanced eDiscovery.
 ms.openlocfilehash: 98ff3690fe7fd8c956fce436585014ef0db82a26
 ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
@@ -22,13 +22,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/04/2021
 ms.locfileid: "50421608"
 ---
-# <a name="import-custodians-to-an-advanced-ediscovery-case"></a>Importar custodiantes para um caso de Descoberta Avançada
+# <a name="import-custodians-to-an-advanced-ediscovery-case"></a>Importar custodiantes para um Advanced eDiscovery caso
 
-Para casos avançados de Descoberta eDiscovery que envolvem muitos custodiantes, você pode importar vários custodiantes de uma só vez usando um arquivo CSV que contém as informações necessárias para adicioná-los a uma ocorrência.
+Para Advanced eDiscovery casos que envolvem muitos custodiantes, você pode importar vários custodiantes ao mesmo tempo usando um arquivo CSV que contém as informações necessárias para adicioná-los a uma ocorrência.
 
 ## <a name="import-custodians"></a>Importar custodiantes
 
-1. Abra o caso Descoberta Avançada e selecione a **guia Fontes de** dados.
+1. Abra a Advanced eDiscovery e selecione a **guia Fontes de** dados.
 
 2. Clique **em Adicionar fonte de dados** Importar  >  **custodiantes**.
 
@@ -52,10 +52,10 @@ Depois de baixar o modelo de custodiante CSV, você pode adicionar custodiantes 
 |:------- |:------------------------------------------------------------|
 |**Custodian contactEmail**     |O endereço de email UPN do custodiado. Por exemplo, sarad@contoso.onmicrosoft.com.           |
 |**Exchange Habilitado** | Valor TRUE/FALSE para incluir ou não a caixa de correio do custodiante.      |
-|**OneDrive Habilitado** | Valor TRUE/FALSE para incluir ou não a conta do OneDrive for Business do custodiante. |
+|**OneDrive Habilitado** | Valor TRUE/FALSE para incluir ou não a conta de OneDrive for Business do custodiante. |
 |**É OnHold**        | Valor TRUE/FALSE para indicar se as fontes de dados custodiadas estão em espera. <sup>1</sup>     |
 |**Tipo workload1**         |Valor de cadeia de caracteres que indica o tipo de fonte de dados a ser associada ao custodiante. Os valores possíveis incluem: <br/>- ExchangeMailbox<br/> - SharePointSite<br/>- TeamsMailbox<br/>- TeamsSite<br/> - YammerMailbox<br/>- YammerSite |
-|**Local da carga de trabalho1**     | Dependendo do tipo de carga de trabalho, esse seria o local da fonte de dados. Por exemplo, o endereço de email de uma caixa de correio do Exchange ou a URL de um site do SharePoint. |
+|**Local da carga de trabalho1**     | Dependendo do tipo de carga de trabalho, esse seria o local da fonte de dados. Por exemplo, o endereço de email de uma caixa de correio Exchange ou a URL de um SharePoint site. |
 |||
 
 > [!NOTE]
@@ -71,7 +71,7 @@ Veja um exemplo de um arquivo CSV com informações de custodiação:<br/><br/>
 
 ## <a name="custodian-and-data-source-validation"></a>Custodiante e validação de fonte de dados
 
-Depois de carregar o arquivo CSV do custodiante, a Descoberta Avançada e Faz as seguintes coisas:
+Depois de carregar o arquivo CSV custodiado, Advanced eDiscovery faz as seguintes coisas:
 
 1. Valida os custodiantes e suas fontes de dados.
 
@@ -79,15 +79,15 @@ Depois de carregar o arquivo CSV do custodiante, a Descoberta Avançada e Faz as
 
 ### <a name="custodian-validation"></a>Validação custodiada
 
-Atualmente, só há suporte à importação de custodiantes incluídos no Azure Active Directory (Azure AD) da sua organização.
+Atualmente, só há suporte à importação de custodiantes incluídos no Azure Active Directory da sua organização (Azure AD).
 
 A ferramenta de importação do custodiador localiza e valida os custodiantes usando o valor UPN na coluna **Custodian contactEmail** no arquivo CSV. Os custodiantes validados são adicionados automaticamente ao caso e listados na guia **Fontes de** dados do caso. Se um custodiante não puder ser validado, ele será listado no log de erros do trabalho BulkAddCustodian listado na guia **Trabalhos** no caso. Os custodiantes nãovalidados não são adicionados ao caso ou listados na **guia Fontes de** dados.
 
 ### <a name="data-source-validation"></a>Validação de fonte de dados
 
-Depois que os custodiantes são validados e adicionados à ocorrência, cada caixa de correio principal e conta do OneDrive associada a um custodiante é adicionada.
+Depois que os custodiantes são validados e adicionados à ocorrência, cada caixa de correio principal e OneDrive conta associada a um custodiante é adicionada.
 
-No entanto, se qualquer uma das outras fontes de dados (como sites do SharePoint, Microsoft Teams, Grupos do Microsoft 365 ou grupos do Yammer) associadas a um custodiante não puder  ser encontrada, nenhuma delas será atribuída ao custodiante e o valor Não validado será exibido na coluna **Status** ao lado do custodiante na guia Fontes de dados. 
+No entanto, se qualquer uma das outras fontes de dados (como sites do SharePoint, Microsoft Teams, grupos Microsoft 365 ou grupos Yammer) associadas a um custodiante não puder ser  encontrada, nenhuma delas será atribuída ao custodiante e o valor Não validado será exibido na coluna **Status** ao lado do custodiante na guia Fontes de **dados.**
 
 Para adicionar fontes de dados validadas para um custodiante:
 
@@ -105,7 +105,7 @@ Para adicionar e associar manualmente uma fonte de dados que anteriormente era i
 
 1. Na guia **Fontes de dados,** selecione um custodiante para adicionar manualmente e associar uma fonte de dados que anteriormente era inválida.
 
-2. Clique **em Editar** na parte superior da página de sobrevoo para associar caixas de correio, sites, grupos do Teams ou do Yammer ao custodiante. Faça isso clicando em **Editar** ao lado do tipo de local de dados apropriado.
+2. Clique **em Editar** na parte superior da página de sobrevoo para associar caixas de correio, sites, Teams ou Yammer grupos ao custodiante. Faça isso clicando em **Editar** ao lado do tipo de local de dados apropriado.
 
 3. Clique **em Próximo** para exibir a página **Configurações de** Espera e configure a configuração de espera para as fontes de dados adicionadas.
 

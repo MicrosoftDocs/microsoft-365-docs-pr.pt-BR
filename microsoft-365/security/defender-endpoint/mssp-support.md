@@ -43,7 +43,7 @@ Para atender a essa demanda, os provedores de serviços de segurança gerenciado
 
 O Defender for Endpoint adiciona oportunidades de parceria para esse cenário e permite que os MSSPs tomem as seguintes ações:
 
-- Obter acesso ao portal do Microsoft Defender Security Center do cliente MSSP
+- Obter acesso ao portal de Central de Segurança do Microsoft Defender do cliente MSSP
 - Obter notificações por email e 
 - Buscar alertas por meio de informações de segurança e ferramentas de gerenciamento de eventos (SIEM)
 

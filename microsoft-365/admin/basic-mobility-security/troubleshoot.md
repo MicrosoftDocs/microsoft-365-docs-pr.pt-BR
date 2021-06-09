@@ -23,52 +23,52 @@ ms.locfileid: "49876847"
 ---
 # <a name="troubleshoot-basic-mobility-and-security"></a>Solucionar problemas básicos de mobilidade e segurança
 
-Se você tiver problemas ao tentar registrar um dispositivo no Basic Mobility and Security, tente as etapas aqui para rastrear o problema. Se as etapas gerais não corrigirem o problema, consulte uma das seções posteriores com etapas específicas para o tipo de dispositivo.
+Se você estiver com problemas ao tentar registrar um dispositivo no Basic Mobility and Security, tente as etapas aqui para rastrear o problema. Se as etapas gerais não corrigirem o problema, consulte uma das seções posteriores com etapas específicas para o tipo de dispositivo.
 
 ## <a name="steps-to-try-first"></a>Etapas para tentar primeiro
 
-Para começar, verifique o seguinte:
+Para iniciar, verifique o seguinte:
 
 - Certifique-se de que o dispositivo ainda não está inscrito em outro provedor de gerenciamento de dispositivo móvel, como o Intune.
 
-- Certifique-se de que o dispositivo está definido para a data e a hora corretas.
+- Certifique-se de que o dispositivo está definido como a data e a hora corretas.
 
 - Alternar para uma rede WIFI ou celular diferente no dispositivo.
 
-- Para dispositivos Android ou iOS, desinstale e reinstale o aplicativo portal da empresa do Intune no dispositivo. 
+- Para dispositivos Android ou iOS, desinstale e reinstale o aplicativo Portal da Empresa do Intune no dispositivo. 
 
 ## <a name="ios-phone-or-tablet"></a>Telefone ou tablet iOS
 
-- Certifique-se de que você tenha definido um certificado APNs. Para obter mais informações, [consulte Criar um certificado APNs para dispositivos iOS.](create-an-apns-certificate-for-ios-devices.md)
+- Certifique-se de configurar um certificado APNs. Para obter mais informações, [consulte Create an APNs Certificate for iOS devices](create-an-apns-certificate-for-ios-devices.md).
 
-- Em **Configurações** Perfil Geral (ou Gerenciamento   >  ****   >  **de Dispositivo),** certifique-se de que um Perfil de Gerenciamento ainda não está instalado. Se estiver, remova-o.
+- Em **Configurações** Perfil Geral (ou Gerenciamento de   >  ****   >  **Dispositivos),** certifique-se de que um Perfil de Gerenciamento ainda não está instalado. Se estiver, remova-o.
 
-- Se você vir a mensagem de erro "O dispositivo falhou ao se inscrever", entre no Microsoft 365 e certifique-se de que uma licença que inclua o Exchange Online tenha sido atribuída ao usuário conectado ao dispositivo.
+- Se você vir a mensagem de erro, "Device failed to enroll", entre no Microsoft 365 e certifique-se de que uma licença que inclui Exchange Online tenha sido atribuída ao usuário que está conectado ao dispositivo.
 
-- Se você vir a mensagem de erro "Falha na instalação do perfil", tente uma das seguintes:
+- Se você vir a mensagem de erro, "Perfil não foi instalado", tente um dos seguintes:
 
-    - Certifique-se de que o Safari seja o navegador padrão no dispositivo e que os cookies não estão desabilitados.
+    - Certifique-se de que o Safari seja o navegador padrão no dispositivo e se os cookies não estão desabilitados.
 
-    - Reinicialize o dispositivo e navegue até portal.manage.microsoft.com. Entre com sua ID de usuário e senha do Microsoft 365 e tente instalar o perfil manualmente.
+    - Reinicie o dispositivo e navegue até portal.manage.microsoft.com. Entre com sua ID Microsoft 365 usuário e senha e tente instalar o perfil manualmente.
 
 ## <a name="windows-rt"></a>Windows RT
 
-- Certifique-se de que seu domínio está definido no Microsoft 365 para trabalhar com Mobilidade e Segurança Básica. Para obter mais informações, [consulte Configurar Mobilidade Básica e Segurança.](set-up.md)
+- Certifique-se de que seu domínio está Microsoft 365 para trabalhar com Mobilidade Básica e Segurança. Para obter mais informações, [consulte Set up Basic Mobility and Security](set-up.md).
     
-- Certifique-se de que o usuário está escolhendo **Ativar em** vez de   escolher **Ingressar.**
+- Certifique-se de que o usuário está escolhendo **Ativar em** vez de   escolher **Ingressar**.
 
-## <a name="windows-10-pc"></a>Computador Windows 10
+## <a name="windows-10-pc"></a>Windows 10 PC
 
-- Certifique-se de que seu domínio está definido no Microsoft 365 para trabalhar com Mobilidade e Segurança Básica. Para obter mais informações, [consulte Configurar Mobilidade Básica e Segurança.](set-up.md)
+- Certifique-se de que seu domínio está Microsoft 365 para trabalhar com Mobilidade Básica e Segurança. Para obter mais informações, [consulte Set up Basic Mobility and Security](set-up.md).
     
-- A menos que você tenha o Azure Active Directory Premium, certifique-se de que o usuário esteja escolhendo Registrar-se no Gerenciamento de **Dispositivos** apenas em   vez de escolher **Conectar.**
+- A menos que você Azure Active Directory Premium, certifique-se de que o usuário esteja escolhendo Registrar-se no Gerenciamento de **Dispositivos** apenas em vez de   escolher **Conexão**.
 
-## <a name="android-phone-or-tablet"></a>Telefone Ou tablet Android
+## <a name="android-phone-or-tablet"></a>Telefone ou tablet Android
 
 - Certifique-se de que o dispositivo está executando o Android 4.4 ou posterior.
 
 - Certifique-se de que o Chrome está atualizado e está definido como o navegador padrão.
 
-- Se você vir a mensagem de erro "Não foi possível registrar este dispositivo", entre no Microsoft 365 e certifique-se de que uma licença que inclua o Exchange Online tenha sido atribuída ao usuário conectado ao dispositivo.
+- Se você vir a mensagem de erro "Não foi possível registrar esse dispositivo", entre no Microsoft 365 e certifique-se de que uma licença que inclui Exchange Online tenha sido atribuída ao usuário que está conectado ao dispositivo.
 
 - Verifique a Área de Notificação no dispositivo para ver se alguma ação necessária do usuário final está pendente e, se estiver, conclua as ações.

@@ -19,56 +19,56 @@ ms.locfileid: "51768969"
 ---
 # <a name="manage-topic-discovery-in-microsoft-viva-topics"></a>Gerenciar a descoberta de tópicos em Tópicos do Microsoft Viva
 
-Você pode gerenciar as configurações de descoberta de tópicos no Centro de administração [do Microsoft 365.](https://admin.microsoft.com) Você deve ser um administrador global ou administrador do SharePoint para executar essas tarefas.
+Você pode gerenciar as configurações de descoberta de tópicos [no Microsoft 365 de administração.](https://admin.microsoft.com) Você deve ser um administrador global ou um SharePoint para executar essas tarefas.
 
 ## <a name="to-access-topics-management-settings"></a>Para acessar as configurações de gerenciamento de tópicos:
 
-1. No Centro de administração do Microsoft 365, clique **em Configurações** e em **Configurações de organização.**
+1. No centro Microsoft 365 de administração, clique **em Configurações**, em seguida, **Configurações de organização**.
 2. Na guia **Serviços,** clique em **Experiências de tópico.**
 
-    ![Conectar pessoas ao conhecimento](../media/admin-org-knowledge-options-completed.png) 
+    ![Conexão pessoas para conhecimento](../media/admin-org-knowledge-options-completed.png) 
 
 3. Selecione a **guia Descoberta de** tópicos. Consulte as seções a seguir para obter informações sobre cada configuração.
 
     ![knowledge-network-settings](../media/knowledge-network-settings-topic-discovery.png) 
 
-## <a name="select-sharepoint-topic-sources"></a>Selecionar fontes de tópicos do SharePoint
+## <a name="select-sharepoint-topic-sources"></a>Selecione SharePoint de tópicos
 
-Você pode alterar os sites do SharePoint em sua organização que serão rastreados para tópicos.
+Você pode alterar os SharePoint em sua organização que serão rastreados para tópicos.
 
-Se quiser incluir ou excluir uma lista específica de sites, use o seguinte modelo .csv:
+Se você quiser incluir ou excluir uma lista específica de sites, poderá usar o seguinte modelo .csv:
 
 ``` csv
 Site name,URL
 ```
 
-Se você adicionar sites usando o se picker de sites, eles serão adicionados à lista existente de sites para incluir ou excluir. Se você carregar um arquivo .csv, ele substituirá qualquer lista existente. Se você tiver incluído ou excluído sites específicos anteriormente, baixe a lista como um arquivo .csv, faça alterações e carregue a nova lista.
+Se você adicionar sites usando o selador de site, eles serão adicionados à lista existente de sites para incluir ou excluir. Se você carregar um arquivo .csv, ele substituirá qualquer lista existente. Se você tiver incluído ou excluído sites específicos anteriormente, baixe a lista como um arquivo .csv, faça alterações e carregue a nova lista.
 
 Para escolher sites para descoberta de tópicos
 
-1. Na guia **Descoberta de** tópicos, em Selecionar fontes **de tópicos do SharePoint,** selecione **Editar**.
-2. Na página **Selecionar fontes de tópicos do SharePoint,** selecione quais sites do SharePoint serão rastreados como fontes para seus tópicos durante a descoberta. Isso inclui:
-    - **Todos os sites**: todos os sites do SharePoint em seu locatário. Isso captura sites atuais e futuros.
-    - **Todos, exceto sites selecionados:** Digite os nomes dos sites que você deseja excluir.  Você também pode carregar uma lista de sites que deseja excluir da descoberta. Os sites criados no futuro serão incluídos como fontes para descoberta de tópicos. 
-    - **Somente sites selecionados**: Digite os nomes dos sites que você deseja incluir. Você também pode carregar uma lista de sites. Os sites criados no futuro não serão incluídos como fontes para descoberta de tópicos.
-    - **Nenhum site**: os tópicos não serão gerados ou atualizados automaticamente com o conteúdo do SharePoint. Os tópicos existentes permanecem no centro de tópicos.
+1. Na guia **Descoberta de tópicos**, em **Selecione fontes de tópicos do Microsoft Office SharePoint Online**, selecione **Editar**.
+2. Na página **Selecionar SharePoint de** tópicos, selecione quais sites SharePoint serão rastreados como fontes para seus tópicos durante a descoberta. Isso inclui:
+    - **Todos os sites**: todos SharePoint sites em seu locatário. Isso captura sites atuais e futuros.
+    - **Todos, exceto sites selecionados:** Digite os nomes dos sites que você deseja excluir.  Você também pode carregar uma lista de sites que deseja excluir da descoberta. Sites criados no futuro serão incluídos como fontes para descoberta de tópicos. 
+    - **Somente sites selecionados**: Digite os nomes dos sites que você deseja incluir. Você também pode carregar uma lista de sites. Sites criados no futuro não serão incluídos como fontes para descoberta de tópicos.
+    - **Nenhum site**: os tópicos não serão gerados ou atualizados automaticamente com SharePoint conteúdo. Os tópicos existentes permanecem no centro de tópicos.
 
-    ![Captura de tela da interface do usuário de fontes de tópicos do SharePoint](../media/k-manage-select-topic-source.png)
+    ![Captura de tela da interface do usuário SharePoint fontes de tópicos](../media/k-manage-select-topic-source.png)
    
 3. Clique em **Salvar**.
 
 ## <a name="exclude-topics-by-name"></a>Excluir tópicos por nome
 
-Você pode excluir tópicos da descoberta carregando uma lista usando um arquivo .csv. Se você tiver excluído tópicos anteriormente, poderá baixar o .csv, fazer alterações e carregar novamente.
+Você pode excluir tópicos da descoberta carregando uma lista usando um arquivo .csv. Se você excluiu tópicos anteriormente, pode baixar o arquivo .csv, fazer alterações e carregar novamente.
 
-1. Na guia **Descoberta de** tópicos, em **Excluir tópicos,** selecione **Editar**.
+1. Na guia **descoberta do** tópico, em **Excluir tópicos**, selecione **Editar**.
 2. Clique **em Excluir tópicos pelo nome**.
-3. Se você precisar criar uma lista, baixe o modelo .csv e adicione os tópicos que deseja excluir (consulte Trabalhando com o modelo *.csv* abaixo). Quando o arquivo estiver pronto, clique em **Procurar** e carregue o arquivo. Se houver uma lista existente, você poderá baixar o .csv que contém a lista.
+3. Se você precisar criar uma lista, baixe o modelo de .csv e adicione os tópicos que deseja excluir (consulte Trabalhando com o modelo .csv *abaixo).* Quando o arquivo estiver pronto, clique em **Procurar** e carregue o arquivo. Se houver uma lista existente, você poderá baixar o .csv que contém a lista.
 4. Clique em **Salvar**.
 
     ![Captura de tela da interface do usuário de tópicos de exclusão](../media/km-manage-exclude-topics.png)
 
-### <a name="working-with-the-csv-template"></a>Trabalhando com o modelo .csv
+### <a name="working-with-the-csv-template"></a>Trabalhar com o .csv modelo
 
 Você pode copiar o modelo csv abaixo:
 
@@ -90,6 +90,6 @@ No modelo CSV, insira as seguintes informações sobre os tópicos que você des
 
 [Gerenciar visibilidade de tópicos no Microsoft 365](topic-experiences-knowledge-rules.md)
 
-[Gerenciar permissões de tópico no Microsoft 365](topic-experiences-user-permissions.md)
+[Gerenciar permissões de tópico em Microsoft 365](topic-experiences-user-permissions.md)
 
 [Alterar o nome do centro de tópicos no Microsoft 365](topic-experiences-administration.md)

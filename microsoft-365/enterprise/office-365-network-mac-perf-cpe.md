@@ -1,5 +1,5 @@
 ---
-title: Roteamento de rede informado do Microsoft 365
+title: Microsoft 365 roteamento de rede informado
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -13,7 +13,7 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: Roteamento de rede informado do Microsoft 365
+description: Microsoft 365 roteamento de rede informado
 ms.openlocfilehash: 5275f8ea55afaf621555b440e7fae4a6d11cad91
 ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
 ms.translationtype: MT
@@ -21,31 +21,31 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/11/2021
 ms.locfileid: "50717590"
 ---
-# <a name="microsoft-365-informed-network-routing-preview"></a>Roteamento de rede informado do Microsoft 365 (visualização)
+# <a name="microsoft-365-informed-network-routing-preview"></a>Microsoft 365 roteamento de rede informado (visualização)
 
-O roteamento de rede informado é um recurso que integra vários aplicativos do Microsoft 365 com soluções de rede definida por software de terceiros (SD-WAN) para otimizar e melhorar sua conectividade de rede aos pontos de extremidade de serviço da Microsoft. A conectividade SD-WAN otimizada pode resultar em experiências e desempenho do usuário aprimorados.
+O roteamento de rede informado é um recurso que integra vários aplicativos Microsoft 365 com soluções de rede definida por software de terceiros (SD-WAN) para otimizar e melhorar sua conectividade de rede com os pontos de extremidade de serviço da Microsoft. A conectividade SD-WAN otimizada pode resultar em experiências e desempenho do usuário aprimorados.
 
 >[!IMPORTANT]
->O roteamento de rede informado do Microsoft 365 está no status de visualização. Para obter mais informações sobre essa visualização, incluindo orientações para receber assistência, consulte [Microsoft 365 informed network routing Public Preview](https://go.microsoft.com/fwlink/?linkid=2151565).
+>Microsoft 365 roteamento de rede informado está no status de visualização. Para obter mais informações sobre essa visualização, incluindo diretrizes para receber assistência, consulte Microsoft 365 de roteamento de rede [informado Visualização Pública](https://go.microsoft.com/fwlink/?linkid=2151565).
 
 ## <a name="overview"></a>Visão Geral
 
-O roteamento de rede informado fornece um canal de compartilhamento de dados bi-direcional entre a Microsoft e sua solução SD-WAN. Para cada local do office e circuito da Internet que você configurar, a Microsoft compartilha periodicamente comentários com a solução SD-WAN sobre a qualidade das experiências de aplicativo do Microsoft 365 selecionadas para o tráfego de rede associado a cada circuito específico da Internet. Usando esses comentários, a solução SD-WAN pode, em seguida, tomar ações de recuperação inteligente roteamento do tráfego de aplicativos do Microsoft 365 por meio de links disponíveis alternativos. 
+O roteamento de rede informado fornece um canal de compartilhamento de dados bi-direcional entre a Microsoft e sua solução SD-WAN. Para cada local de escritório e circuito da Internet que você configurar, a Microsoft compartilha periodicamente comentários com a solução SD-WAN sobre a qualidade das experiências de aplicativos selecionados Microsoft 365 tráfego de rede associado a cada circuito específico da Internet. Usando esses comentários, a solução SD-WAN pode, em seguida, tomar ações de recuperação inteligente roteamento Microsoft 365 tráfego de aplicativos por meio de links disponíveis alternativos. 
 
-As degradaçãos de qualidade do serviço no caminho de um determinado circuito da Internet, como latência aumentada ou perda alta de pacotes, são difíceis de detectar em uma base contínua. Essas degradaçãos podem prejudicar as experiências do usuário para aplicativos como Exchange Online, SharePoint, OneDrive e Microsoft Teams. Os sintomas comuns incluem pesquisa lenta de conteúdo do Exchange, tempos de transferência altos ao interagir com bibliotecas de documentos do SharePoint ou Do OneDrive ou qualidade de chamada ou reunião ruim no Microsoft Teams.
+As degradaçãos de qualidade do serviço no caminho de um determinado circuito da Internet, como latência aumentada ou perda alta de pacotes, são difíceis de detectar em uma base contínua. Essas degradaçãos podem ser prejudiciais para as experiências do usuário para aplicativos como Exchange Online, SharePoint, OneDrive e Microsoft Teams. Os sintomas comuns incluem pesquisa lenta de conteúdo Exchange, tempos de transferência elevados ao interagir com bibliotecas de documentos SharePoint ou OneDrive, ou má qualidade de chamada ou reunião no Microsoft Teams.
 
 O mecanismo de feedback e recuperação dentro do roteamento informado de rede procura detectar dinamicamente esses problemas em tempo real e informa a solução SD-WAN implantada para tomar ações de recuperação automáticas.
 
-O canal de compartilhamento de dados também é usado para receber periodicamente dados ópticos de nível de rede da solução SD-WAN, incluindo informações de configuração e estatísticas de uso associadas ao dispositivo e circuitos anexados. Nenhuma informação pessoal é coletada ou armazenada. Todas as informações coletadas são agregadas a locais de escritório e circuitos conectados à Internet. Essas informações podem ajudar a Microsoft a resolver de forma mais eficiente e eficaz problemas relatados com o uso de serviços e aplicativos do Microsoft 365.
+O canal de compartilhamento de dados também é usado para receber periodicamente dados ópticos de nível de rede da solução SD-WAN, incluindo informações de configuração e estatísticas de uso associadas ao dispositivo e circuitos anexados. Nenhuma informação pessoal é coletada ou armazenada. Todas as informações coletadas são agregadas a locais de escritório e circuitos conectados à Internet. Essas informações podem ajudar a Microsoft a resolver com mais eficiência e eficácia problemas relatados com o uso de serviços Microsoft 365 aplicativos.
 
 >[!NOTE]
->O roteamento de rede informado do Microsoft 365 dá suporte a locatários na nuvem comercial da WW, mas não às nuvens GCC Moderate, GCC High, DoD, Germany ou China.
+>Microsoft 365 roteamento de rede informado dá suporte a locatários na nuvem comercial da W GCC W, mas não as nuvens Moderadas, GCC Alta, DoD, Alemanha ou China.
 
 ## <a name="requirements"></a>Requisitos
 
 ### <a name="integrated-sd-wan-solutions"></a>Soluções SD-WAN integradas
 
-A Microsoft está trabalhando com vários parceiros para habilitar a integração com o roteamento de rede informado do Microsoft 365. As soluções habilitadas no momento incluem o seguinte:
+A Microsoft está trabalhando com vários parceiros para habilitar a integração com Microsoft 365 roteamento de rede informado. As soluções habilitadas no momento incluem o seguinte:
 
 | Device Maker | Nome da solução | Versão mínima |
 | --- | --- | --- |
@@ -59,13 +59,13 @@ No caso em que não houver pelo menos um circuito de rede fornecendo acesso dire
 
 ### <a name="application-usage"></a>Uso do aplicativo
 
-Os dados de experiência do aplicativo (refletidos por meio de métricas de qualidade de rede) são coletados por meio do uso de aplicativos cliente específicos da Microsoft. As métricas do Exchange refletem o uso do cliente do Outlook, bem como alguns usos do Outlook Web App. As métricas do SharePoint e do OneDrive refletem o uso dos pontos de extremidade específicos do Locatário do SharePoint, independentemente do aplicativo cliente. As métricas do Teams refletem o uso do cliente de área de trabalho do Teams. Outro tráfego de aplicativo não é considerado ao avaliar a saúde de um circuito de rede.
+Os dados de experiência do aplicativo (refletidos por meio de métricas de qualidade de rede) são coletados por meio do uso de aplicativos cliente específicos da Microsoft. Exchange métricas refletem o uso do cliente Outlook, bem como algumas Outlook Web App uso. SharePoint e OneDrive refletem o uso dos pontos de extremidade específicos SharePoint locatários, independentemente do aplicativo cliente. Teams métricas refletem o uso do cliente Teams área de trabalho. Outro tráfego de aplicativo não é considerado ao avaliar a saúde de um circuito de rede.
 
 ## <a name="enabling-informed-network-routing"></a>Habilitando o roteamento de rede informado
 
-A habilitação do roteamento de rede informado exige várias etapas, algumas das quais precisarão ser executadas na interface de configuração da sua solução SD-WAN. Consulte o fornecedor de soluções SD-WAN para obter orientações sobre como iniciar o processo de habilitação do roteamento informado de rede na solução SD-WAN antes de prosseguir com a configuração no Centro de administração do Microsoft 365.
+A habilitação do roteamento de rede informado exige várias etapas, algumas das quais precisarão ser executadas na interface de configuração da sua solução SD-WAN. Consulte seu fornecedor de soluções SD-WAN para obter orientações sobre como iniciar o processo de habilitação do roteamento informado de rede na solução SD-WAN antes de prosseguir com a configuração no centro de administração Microsoft 365.
 
-Depois de estar pronto para habilitar o roteamento de rede informado no Centro de administração do Microsoft 365, certifique-se de ter as permissões de administrador global necessárias.
+Depois de estar pronto para habilitar o roteamento de rede informado no centro de administração Microsoft 365, certifique-se de ter as permissões de administrador global necessárias.
 
 >[!IMPORTANT]
 >Para fornecer o consentimento de permissões de aplicativos de nível de locatário necessários para que a solução SD-WAN selecionada acesse o canal de compartilhamento de dados de roteamento de rede informado, execute as etapas a seguir como administrador global.
@@ -73,9 +73,9 @@ Depois de estar pronto para habilitar o roteamento de rede informado no Centro d
 
 ### <a name="step-1-open-sd-wan-solution-configuration-options"></a>Etapa 1: Abrir opções de configuração de solução do SD-WAN
 
-No Centro de administração do [Microsoft 365,](https://admin.microsoft.com/)selecione **Conectividade de** rede > de rede no painel de navegação à esquerda.
+No centro [Microsoft 365 de administração,](https://admin.microsoft.com/)selecione **Conectividade de** rede > de rede no painel de navegação à esquerda.
 
-Esta seção do centro de administração fornece métricas de conectividade de rede agregadas para sua organização e orientações sobre como melhorar sua conectividade. Consulte Conectividade de rede no Centro de Administração do [Microsoft 365 (visualização)](office-365-network-mac-perf-overview.md) para obter informações adicionais sobre esses recursos disponíveis no centro de administração.
+Esta seção do centro de administração fornece métricas de conectividade de rede agregadas para sua organização e orientações sobre como melhorar sua conectividade. Consulte Conectividade de rede no Centro de administração [Microsoft 365 (visualização)](office-365-network-mac-perf-overview.md) para obter informações adicionais sobre esses recursos disponíveis no centro de administração.
 
 Selecione **Configurações > solução SD-WAN para** abrir o painel de configuração de roteamento de rede informado. As outras opções que aparecem em **Configurações** são aplicáveis às diretrizes gerais de conectividade de rede no centro de administração e não são necessárias para habilitar o roteamento de rede informado.
 
@@ -95,7 +95,7 @@ Selecione **Avançar**.
 
 ### <a name="step-4-grant-permissions-to-the-sd-wan-solution"></a>Etapa 4: Conceder permissões à solução SD-WAN
 
-Esta etapa iniciará uma solicitação de concessão de permissões com o Azure Active Directory (Azure AD). Você será solicitado a conceder permissões no nível de locatário que permitem o acesso da solução SD-WAN selecionada ao armazenamento de dados de roteamento de rede informado e às informações de saúde do serviço associadas ao locatário. Essa ação requer permissões de função de administrador global.
+Esta etapa iniciará uma solicitação de concessão de permissões com Azure Active Directory (Azure AD). Você será solicitado a conceder permissões no nível de locatário que permitem o acesso da solução SD-WAN selecionada ao armazenamento de dados de roteamento de rede informado e às informações de saúde do serviço associadas ao locatário. Essa ação requer permissões de função de administrador global.
 
 Selecione o **link Dar permissão a esse** aplicativo e siga as solicitações do Azure AD.
 
@@ -113,9 +113,9 @@ Selecione **Feito** e feche o painel de configuração da solução SD-WAN.
 
 Você executará grande parte da configuração para o roteamento de rede informado em sua solução SD-WAN, como configurar como o tráfego deve ser roteado em circunstâncias normais e os caminhos alternativos que devem ser usados se os problemas são detectados. Consulte seu provedor de soluções SD-WAN para obter detalhes sobre essas etapas de configuração.
 
-Cada local do office deve ser configurado no Centro de administração do Microsoft 365 para que o roteamento de rede informado possa identificar corretamente o tráfego associado aos circuitos de rede que proporcionam conectividade a esses locais.
+Cada local do escritório deve ser configurado no centro de administração Microsoft 365 para que o roteamento de rede informado possa identificar corretamente o tráfego associado aos circuitos de rede que proporcionam conectividade a esses locais.
 
-Os locais do Office podem ser detectados automaticamente como parte da coleção contínua de telemetria de rede da Microsoft. Como resultado, alguns locais podem ser pré-preenchidos no centro de administração do locatário. 
+Office locais podem ser detectados automaticamente como parte da coleção contínua de telemetria de rede da Microsoft. Como resultado, alguns locais podem ser pré-preenchidos no centro de administração do locatário. 
 
 Se esses locais são precisos, você simplesmente precisará habilitar o recurso de roteamento de rede informado para cada local desejado e configurar os circuitos da Internet e seus endereços IP públicos. 
 
@@ -134,19 +134,19 @@ Verifique se cada local do office onde você deseja habilitar o roteamento de re
 
 1. Na lista **Locais,** selecione **Editar** no menu ações rápidas para abrir o painel de configuração de local.
 
-2. Selecione Usar o roteamento de rede informado do **Microsoft 365 neste local**.
+2. Selecione **Usar Microsoft 365 roteamento de rede informado neste local**.
 
-3. Adicione todos os circuitos de rede que proporcionam conectividade com a Internet a esse local do escritório nos **intervalos** de Endereço IP de Saída nesta seção de local do escritório. Verifique se cada circuito está associado às sub-redes de endereço IP pública exclusivas que representam o tráfego de rede.
+3. Adicione todos os circuitos de rede que proporcionam conectividade com a Internet a esse local do escritório **nos intervalos** de endereço IP Egress nesta seção de local do escritório. Verifique se cada circuito está associado às sub-redes de endereço IP pública exclusivas que representam o tráfego de rede.
 
 4. Selecione **Salvar** para salvar suas alterações.
 
 ## <a name="disabling-network-informed-routing"></a>Desabilitando o roteamento informado da rede
 
-O recurso de roteamento de rede informado pode ser desabilitado para todo o locatário redefinindo suas configurações de solução SD-WAN. Embora isso pare todo o processamento de dados no Microsoft 365, você também deve desabilitar o roteamento informado de rede no centro de administração.
+O recurso de roteamento de rede informado pode ser desabilitado para todo o locatário redefinindo suas configurações de solução SD-WAN. Embora isso pare todo o processamento de dados dentro Microsoft 365, você também deve desabilitar o roteamento informado da rede no centro de administração.
 
 ### <a name="step-1-open-sd-wan-solution-configuration-options"></a>Etapa 1: Abrir opções de configuração de solução do SD-WAN
 
-No Centro de administração do [Microsoft 365,](https://admin.microsoft.com/) selecione **Conectividade > rede** de rede no painel de navegação à esquerda.
+No centro [de Microsoft 365 de administração,](https://admin.microsoft.com/) selecione **Conectividade > Rede** no painel de navegação à esquerda.
 
 Selecione **Configurações > solução SD-WAN para** abrir o painel de configuração de roteamento de rede informado.
 
@@ -160,7 +160,7 @@ Suas configurações agora foram redefinidas e o roteamento de rede informado fo
 
 ## <a name="data-storage"></a>Armazenamento de dados
 
-Os dados trocados entre a Microsoft e o provedor de soluções SD-WAN são armazenados no local de armazenamento de dados selecionado durante a habilitação inicial do roteamento informado da rede. As opções de local de armazenamento de dados representam áreas geográficas que contêm regiões do Microsoft Azure onde os dados são armazenados.
+Os dados trocados entre a Microsoft e o provedor de soluções SD-WAN são armazenados no local de armazenamento de dados selecionado durante a habilitação inicial do roteamento informado da rede. As opções de local de armazenamento de dados representam áreas geográficas que Microsoft Azure regiões onde os dados são armazenados.
 
 >[!NOTE]
 >Durante a fase visualização, o único local de armazenamento de dados disponível é a **América do Norte**. Locais de armazenamento de dados adicionais serão disponibilizados antes da disponibilidade geral do roteamento de rede informado.
@@ -169,6 +169,6 @@ Os dados são mantidos nesse local por até 30 dias. Quando desabilitado, todos 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Conectividade de rede no Centro de administração do Microsoft 365 (visualização)](office-365-network-mac-perf-overview.md)
+[Conectividade de rede no Microsoft 365 de administração (visualização)](office-365-network-mac-perf-overview.md)
 
-[Serviços de Localização de Conectividade de Rede do Microsoft 365 (visualização)](office-365-network-mac-location-services.md)
+[Microsoft 365 Serviços de Localização de Conectividade de Rede (visualização)](office-365-network-mac-location-services.md)

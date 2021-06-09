@@ -73,7 +73,7 @@ Para garantir o melhor nível de proteção, o Microsoft Update permite versões
 
 Cada fonte tem cenários típicos que dependem de como sua rede é configurada, além da frequência com que publicam atualizações, conforme descrito na tabela a seguir:
 
-|Local | Cenário de exemplo |
+|Localização | Cenário de exemplo |
 |---|---|
 |Windows Serviço de Atualização do Servidor | Você está usando o Windows De Atualização do Servidor para gerenciar atualizações para sua rede.|
 |Microsoft Update | Você deseja que seus pontos de extremidade se conectem diretamente ao Microsoft Update. Isso pode ser útil para pontos de extremidade que se conectam irregularmente à sua rede corporativa ou se você não usar o Serviço de Atualização do Servidor Windows para gerenciar suas atualizações.|

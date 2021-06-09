@@ -107,7 +107,7 @@ lastUpdateTime | Hora em que o incidente foi atualizado pela última vez no back
 assignedTo | Proprietário do incidente ou *nulo* se nenhum proprietário for atribuído. | secop2@contoso.com
 classificação | A especificação do incidente. Os valores da propriedade são: *Unknown*, *FalsePositive*, *TruePositive* | Desconhecido
 determinação | Especifica a determinação do incidente. Os valores da propriedade são: *NotAvailable*, *Apt*, *Malware*, *SecurityPersonnel,* *SecurityTesting,* *UnwantedSoftware*, *Other* | NotAvailable
-status | Categorizar incidentes (como *Ativo* ou *Resolvido).* Ele pode ajudá-lo a organizar e gerenciar sua resposta a incidentes. | Ativa
+status | Categorizar incidentes (como *Ativo* ou *Resolvido).* Ele pode ajudá-lo a organizar e gerenciar sua resposta a incidentes. | Ativo
 severity | Indica o possível impacto nos ativos. Quanto maior a gravidade, maior será o impacto. Normalmente, itens de severidade mais altos exigem a atenção mais imediata.<br /><br />Um dos seguintes valores: *Informational*, *Low*, *Medium e *High*. | Médio
 categorias | Matriz de marcas personalizadas associadas a um incidente, por exemplo, para sinalizar um grupo de incidentes com uma característica comum. | \[\]
 comentários | Matriz de comentários criados por secops ao gerenciar o incidente, por exemplo, informações adicionais sobre a seleção de classificação. | \[\]
@@ -125,7 +125,7 @@ lastUpdatedTime | Hora em que o alerta foi atualizado pela última vez no back-e
 resolvedTime | Hora em que o alerta foi resolvido. | 2020-09-10T05:22:59Z
 firstActivity | Hora em que o alerta relatou pela primeira vez que a atividade foi atualizada no back-end.| 2020-09-04T05:22:59Z
 Título | Breve identificação do valor da cadeia de caracteres disponível para cada alerta. | Atividade de ransomware
-description | Valor de cadeia de caracteres que descreve cada alerta. | O usuário Test User2 (testUser2@contoso.com) manipulou 99 arquivos com várias extensões terminando com a extensão *incomum herunterladen*. Esse é um número incomum de manipulações de arquivos e indica um possível ataque de ransomware.
+descrição | Valor de cadeia de caracteres que descreve cada alerta. | O usuário Test User2 (testUser2@contoso.com) manipulou 99 arquivos com várias extensões terminando com a extensão *incomum herunterladen*. Esse é um número incomum de manipulações de arquivos e indica um possível ataque de ransomware.
 category | Exibição visual e numérica da distância em que o ataque progrediu ao longo da cadeia de morte. Alinhado ao [MITRE ATT&CK™ framework](https://attack.mitre.org/). | Impacto
 status | Categorizar alertas (como *Novo,* *Ativo* ou *Resolvido).* Ele pode ajudá-lo a organizar e gerenciar sua resposta a alertas. | Novo
 severity | Indica o possível impacto nos ativos. Quanto maior a gravidade, maior será o impacto. Normalmente, itens de severidade mais altos exigem a atenção mais imediata.<br>Um dos seguintes valores: *Informational*, *Low*, *Medium e *High*. | Médio
@@ -150,7 +150,7 @@ osPlatform | A plataforma do sistema operacional que o dispositivo está executa
 osBuild | A versão de com build do sistema operacional em execução do dispositivo. | 14393
 rbacGroupName | O grupo de controle [de acesso](/azure/role-based-access-control/overview) baseado em função (RBAC) associado ao dispositivo. | WDATP-Ring0
 firstSeen | Hora em que o dispositivo foi visto pela primeira vez. | 2020-02-06T14:16:01.9330135Z
-healthStatus | O estado de saúde do dispositivo. | Ativa
+healthStatus | O estado de saúde do dispositivo. | Ativo
 riskScore | A pontuação de risco do dispositivo. | Alto
 entidades | Todas as entidades identificadas para fazer parte ou relacionadas a um determinado alerta. | \[\] (consulte detalhes sobre os campos de entidade abaixo)
 

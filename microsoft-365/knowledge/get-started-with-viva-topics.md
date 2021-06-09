@@ -1,5 +1,5 @@
 ---
-title: Começar com os tópicos do Microsoft Viva
+title: Introdução ao Microsoft Viva Topics
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -16,9 +16,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/03/2021
 ms.locfileid: "50416768"
 ---
-# <a name="get-started-with-microsoft-viva-topics"></a>Começar com os tópicos do Microsoft Viva
+# <a name="get-started-with-microsoft-viva-topics"></a>Introdução ao Microsoft Viva Topics
 
-Como você acha as pessoas e recursos importantes para seu trabalho? Quando você compartilha arquivos importantes com outras pessoas, eles podem encontrá-los novamente mais tarde, quando precisam deles? Os Tópicos do Viva fornece novas maneiras de descobrir e explorar informações do seu conteúdo no Microsoft 365.  
+Como você acha as pessoas e recursos importantes para seu trabalho? Quando você compartilha arquivos importantes com outras pessoas, eles podem encontrá-los novamente mais tarde, quando precisam deles? Os Tópicos do Viva fornece novas maneiras de descobrir e explorar informações do seu conteúdo em Microsoft 365.  
 
 Os Tópicos do Viva permitem que você: 
 
@@ -31,9 +31,9 @@ Os Tópicos do Viva permitem que você:
 
 ## <a name="discover-important-topics-highlighted-in-related-content"></a>Descobrir tópicos importantes destacados em conteúdo relacionado 
 
-Ao ler o conteúdo armazenado no Microsoft 365, os tópicos serão realçados em linha. Ao passar o mouse sobre o nome do tópico, você verá mais informações mostradas em um cartão de tópico. Você pode ver um prompt para fornecer comentários sobre cartões de tópico e páginas de tópicos. Quando você dá comentários sobre tópicos, você melhora a experiência para si mesmo e para os outros. 
+À medida que você lê o conteúdo armazenado Microsoft 365, os tópicos serão realçados em linha. Ao passar o mouse sobre o nome do tópico, você verá mais informações mostradas em um cartão de tópico. Você pode ver um prompt para fornecer comentários sobre cartões de tópico e páginas de tópicos. Quando você dá comentários sobre tópicos, você melhora a experiência para si mesmo e para os outros. 
 
-Os tópicos apresentarão destaques de tópicos gradualmente em todo o serviço. No início, você verá destaques em notícias e páginas do SharePoint.
+Os tópicos apresentarão destaques de tópicos gradualmente em todo o serviço. No início, você verá destaques em SharePoint e páginas.
 
 
 ## <a name="find-people-and-content-connected-to-important-topics"></a>Encontre pessoas e conteúdo conectado a tópicos importantes 
@@ -50,7 +50,7 @@ As páginas de tópico fornecem os detalhes completos sobre um tópico e podem s
 
 
 ## <a name="see-also"></a>Confira também
-[Visão geral dos tópicos do Microsoft Viva](topic-experiences-overview.md)</br>
+[Visão geral dos Tópicos do Microsoft Viva](topic-experiences-overview.md)</br>
 [Visão geral do centro de tópicos](topic-center-overview.md)</br>
 [Criar um tópico](create-a-topic.md)</br>
 [Editar um tópico](edit-a-topic.md)</br>

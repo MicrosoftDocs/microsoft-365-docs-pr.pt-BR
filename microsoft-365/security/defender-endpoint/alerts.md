@@ -59,7 +59,7 @@ Propriedade |    Tipo    |    Descrição
 :---|:---|:---
 id | Cadeia de caracteres | ID do alerta.
 title | String | Título do alerta.
-description | String | Descrição de alerta.
+descrição | String | Descrição de alerta.
 alertCreationTime | Nullable DateTimeOffset | A data e a hora (em UTC) em que o alerta foi criado.
 lastEventTime | Nullable DateTimeOffset | A última ocorrência do evento que disparou o alerta no mesmo dispositivo.
 firstEventTime | Nullable DateTimeOffset | A primeira ocorrência do evento que disparou o alerta nesse dispositivo.

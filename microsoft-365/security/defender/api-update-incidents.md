@@ -81,7 +81,7 @@ No corpo da solicitação, fornece os valores para os campos que devem ser atual
 Propriedade | Tipo | Descrição
 -|-|-
 status | Enum | Especifica o status atual do incidente. Os valores possíveis são: ```Active``` ```Resolved``` , e ```Redirected``` .
-assignedTo | string | Proprietário do incidente.
+assignedTo | cadeia de caracteres | Proprietário do incidente.
 classificação | Enum | Especificação do incidente. Os valores possíveis são: ```Unknown```, ```FalsePositive```, ```TruePositive```.
 determinação | Enum | Especifica a determinação do incidente. Os valores possíveis são: ```NotAvailable```, ```Apt```, ```Malware```, ```SecurityPersonnel```, ```SecurityTesting```, ```UnwantedSoftware```, ```Other```.
 categorias | string List | Lista de marcas de incidente.
