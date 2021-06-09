@@ -1,5 +1,5 @@
 ---
-title: Atribuir políticas do Skype for Business Online por usuário com o PowerShell para o Microsoft 365
+title: Atribuir políticas online Skype for Business por usuário com o PowerShell para Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,7 +13,7 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 ms.assetid: 36743c86-46c2-46be-b9ed-ad9d4e85d186
-description: 'Resumo: use o PowerShell para o Microsoft 365 para atribuir configurações de comunicação por usuário com políticas do Skype for Business Online.'
+description: 'Resumo: use o PowerShell para Microsoft 365 para atribuir configurações de comunicação por usuário com Skype for Business online.'
 ms.openlocfilehash: 2d3d953fe0beb74cc63f914137942f068ce90be7
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -21,11 +21,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50905399"
 ---
-# <a name="assign-per-user-skype-for-business-online-policies-with-powershell-for-microsoft-365"></a>Atribuir políticas do Skype for Business Online por usuário com o PowerShell para o Microsoft 365
+# <a name="assign-per-user-skype-for-business-online-policies-with-powershell-for-microsoft-365"></a>Atribuir políticas online Skype for Business por usuário com o PowerShell para Microsoft 365
 
-*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
+*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-Usar o PowerShell para o Microsoft 365 é uma maneira eficiente de atribuir configurações de comunicação por usuário com políticas do Skype for Business Online.
+Usar o PowerShell para Microsoft 365 é uma maneira eficiente de atribuir configurações de comunicação por usuário com Skype for Business online.
   
 ## <a name="prepare-to-run-the-powershell-commands"></a>Preparar para executar os comandos do PowerShell
 
@@ -43,11 +43,11 @@ Use estas instruções para configurar para executar os comandos (pule as etapas
    Connect-MicrosoftTeams
    ```
 
-   Quando solicitado, insira o nome e a senha da conta de administrador do Skype for Business Online.
+   Quando solicitado, digite o nome e a senha Skype for Business conta de administrador online.
     
 ## <a name="updating-external-communication-settings-for-a-user-account"></a>Atualizando as configurações de comunicação externa para uma conta de usuário
 
-Suponha que você queira alterar as configurações de comunicação externa em uma conta de usuário. Por exemplo, você deseja permitir que Alex se comunique com usuários federados (EnableFederationAccess é igual a True), mas não com usuários Windows Live (EnablePublicCloudAccess é igual a False). Para fazer isso, você precisa fazer duas coisas:
+Suponha que você queira alterar as configurações de comunicação externa em uma conta de usuário. Por exemplo, você deseja permitir que Alex se comunique com usuários federados (EnableFederationAccess é igual a True), mas não com usuários do Windows Live (EnablePublicCloudAccess é igual a False). Para fazer isso, você precisa fazer duas coisas:
   
 1. Localizar uma política de acesso externo que atenda aos nossos critérios.
     

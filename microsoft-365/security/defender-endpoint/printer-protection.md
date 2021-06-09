@@ -19,11 +19,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/08/2021
 ms.locfileid: "52809198"
 ---
-# <a name="device-control-printer-protection"></a>Proteção de Impressora de Controle de Dispositivo 
+# <a name="device-control-printer-protection"></a>Proteção da Impressora de Controle de Dispositivos 
 
 O Microsoft Defender for Endpoint Device Control Printer Protection impede que as pessoas imprimirem por meio de impressoras não corporativas ou impressora USB não aprovada.
 
-## <a name="licensing"></a>Licenças 
+## <a name="licensing"></a>Licenciamento 
 
 Antes de começar a proteção de impressora, você deve [confirmar sua assinatura Microsoft 365 .](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) Para acessar e usar a Proteção contra Impressoras, você deve ter o seguinte:
 

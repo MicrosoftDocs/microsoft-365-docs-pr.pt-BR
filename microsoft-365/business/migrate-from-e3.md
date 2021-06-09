@@ -42,7 +42,7 @@ Esta tabela mostra as diferenças entre Microsoft 365 Business Premium e Office 
 | Recurso    | Suporte em Microsoft 365 Business Premium    | Suporte no Office 365 E3 |
 |:-------|:-----|:-----|
 | **No local**        | | |
-| Office apps<sup>1</sup>    | Microsoft 365 Apps para Pequenos e Médios negócios    | Microsoft 365 Apps para Grandes Empresas |
+| Office apps<sup>1</sup>    | Aplicativos do Microsoft 365 para empresas    | Microsoft 365 Apps para empresas |
 | **Aplicativos de produtividade na nuvem**        | | |
 | Exchange Online e Outlook    | Limite de armazenamento de 50 GB por caixa de correio e limites ilimitados Arquivamento do Exchange Online    | Limite de armazenamento de 100 GB por caixa de correio e limites ilimitados Arquivamento do Exchange Online |
 | Teams    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Office 365 E3](../media/check-mark.png) | 

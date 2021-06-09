@@ -25,7 +25,7 @@ Mantenha-se atualizado com o que está acontecendo em seu setor. Todas as manhã
 
 ## <a name="what-is-it"></a>O que é isso?
 
-Aproveitando o poder do mecanismo de pesquisa do Bing da Microsoft, As Atualizações do Setor são uma coleção das notícias de trabalho mais importantes de toda a Web, selecionadas apenas para você.
+Aproveitando o poder do mecanismo de pesquisa Bing da Microsoft, o Industry Updates é uma coleção das notícias de trabalho mais importantes de toda a Web, selecionadas apenas para você.
 
 ## <a name="how-does-it-work"></a>Como funciona?
 
@@ -33,7 +33,7 @@ Personalize sua experiência seguindo tópicos e interesses. Receba notícias so
 
 ## <a name="how-do-i-customize-my-industry-updates-email"></a>Como personalizar meu email de Atualizações do Setor?
 
-Para personalizar sua experiência, visite a página de configurações para seguir os tópicos e interesses importantes para você. Acesse sua página de configurações pessoais marcando Personalizar seu conteúdo no boletim de Atualizações do [Bing, da](https://www.bing.com/news/professional?pn=setting&mkt=en-us&form=BAWLOG&frb=1) Borda e do Setor ou clicando no botão configurações no email Atualizações do Setor.
+Para personalizar sua experiência, visite a página de configurações para seguir os tópicos e interesses importantes para você. Acesse sua página de configurações pessoais marcando Personalizar seu conteúdo no [Bing,](https://www.bing.com/news/professional?pn=setting&mkt=en-us&form=BAWLOG&frb=1) no boletim de Atualizações de Borda e Do Setor ou clicando no botão configurações no email Atualizações do Setor.
 
 [Inscreva-se](https://www.bing.com/news/professional?pn=setting&mkt=en-us&asnl=1&form=BAWLOG&frb=1) e receba emails de Atualizações do Setor entregues à sua caixa de entrada hoje!
 

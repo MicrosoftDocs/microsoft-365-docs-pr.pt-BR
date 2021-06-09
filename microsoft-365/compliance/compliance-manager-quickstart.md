@@ -31,9 +31,9 @@ Se você estiver vindo para o Gerenciador de Conformidade pela primeira vez ou e
 
 ## <a name="first-visit-get-to-know-compliance-manager"></a>Primeira visita: conheça o Gerenciador de Conformidade
 
-O Gerenciador de Conformidade está localizado no centro de conformidade do Microsoft 365 em https://compliance.microsoft.com . O administrador global da sua organização precisará configurar [permissões](compliance-manager-setup.md#set-user-permissions-and-assign-roles) de usuário e atribuir funções antes de começar a usar o Gerenciador de Conformidade.
+O Gerenciador de Conformidade está localizado no centro Microsoft 365 conformidade em https://compliance.microsoft.com . O administrador global da sua organização precisará configurar [permissões](compliance-manager-setup.md#set-user-permissions-and-assign-roles) de usuário e atribuir funções antes de começar a usar o Gerenciador de Conformidade.
 
-Na primeira vez que visitar o Gerenciador de Conformidade, você verá uma pontuação de conformidade para sua organização. O Gerenciador de Conformidade já está avaliando seu ambiente atual do Microsoft 365 em relação à linha de base de proteção de dados. A melhor maneira de começar a se familiarizar com o Gerenciador de Conformidade é entender o que ele está mostrando, seus principais elementos e como personalizar seu painel.
+Na primeira vez que visitar o Gerenciador de Conformidade, você verá uma pontuação de conformidade para sua organização. O Gerenciador de Conformidade já está avaliando seu ambiente Microsoft 365 atual em relação à linha de base de proteção de dados. A melhor maneira de começar a se familiarizar com o Gerenciador de Conformidade é entender o que ele está mostrando, seus principais elementos e como personalizar seu painel.
 
 Nossa [página de visão geral do Gerenciador](compliance-manager.md) de Conformidade é a melhor primeira parada para uma revisão abrangente do que é o Gerenciador de Conformidade e como ele funciona. Você também pode querer ir direto para as seções principais da nossa documentação usando os links abaixo:
 
@@ -58,7 +58,7 @@ Depois que você estiver familiarizado com as noções básicas, é hora de conf
 
 Quando você estiver confortável gerenciando avaliações no Gerenciador de Conformidade, você pode trabalhar com modelos para modificar uma avaliação do Gerenciador de Conformidade com suas próprias ações e controles. Você também pode criar sua própria avaliação personalizada. Avaliações personalizadas são úteis para:
 
-- Gerenciando a conformidade para produtos que não são do Microsoft 365, como aplicativos e serviços de terceiros, aplicativos locais e outros ativos.
+- Gerenciando a conformidade para produtos não Microsoft 365, como aplicativos e serviços de terceiros, aplicativos locais e outros ativos.
 - Gerenciando seus próprios controles de conformidade personalizados ou específicos da empresa.
 
 Você também pode configurar testes automatizados de todas ou um subconjunto de ações de melhoria. Visite os links abaixo para entender a funcionalidade mais avançada no Gerenciador de Conformidade:

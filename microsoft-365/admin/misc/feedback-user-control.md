@@ -31,7 +31,7 @@ ms.locfileid: "51650048"
 O feedback do usuário é um sinal crítico para a Microsoft entender as experiências do usuário com produtos da Microsoft. A Microsoft valoriza as opiniões dos usuários. Os comentários dos usuários vão diretamente para nossos engenheiros e nos ajudam a moldar o futuro dos produtos e serviços da Microsoft para todos os nossos usuários.  
 Neste tópico, você encontrará informações sobre quais tipos de comentários existem, como coletamos, o que coletamos e como lidamos com os dados.
 
-Como administrador, você pode gerenciar o sinal de feedback para sua organização. Apresentamos um novo conjunto de configurações de política para ajudá-lo a gerenciar a coleção de comentários do usuário dentro dos aplicativos do Microsoft 365 para sua organização. Essas configurações de política ajudarão você a direcionar grupos do Azure Active Directory e configurar a experiência de coleta de comentários para sua organização. Os comentários dos usuários vão diretamente para nossos engenheiros e nos ajudam a moldar o futuro dos produtos e serviços da Microsoft para todos os nossos usuários. Você pode saber mais sobre essas configurações de política, a quais aplicativos eles se aplicam e práticas recomendadas em [Gerenciar comentários da Microsoft para sua organização.](../manage/manage-feedback-ms-org.md)
+Como administrador, você pode gerenciar o sinal de feedback para sua organização. Estamos introduzindo um novo conjunto de configurações de política para ajudá-lo a gerenciar o conjunto de comentários do usuário dentro dos aplicativos Microsoft 365 para sua organização. Essas configurações de política ajudarão você a direcionar Azure Active Directory grupos e configurar a experiência de coleta de comentários para sua organização. Os comentários dos usuários vão diretamente para nossos engenheiros e nos ajudam a moldar o futuro dos produtos e serviços da Microsoft para todos os nossos usuários. Você pode saber mais sobre essas configurações de política, a quais aplicativos eles se aplicam e práticas recomendadas em [Gerenciar comentários da Microsoft para sua organização.](../manage/manage-feedback-ms-org.md)
 
 ## <a name="feedback-types"></a>Tipos de comentários
 
@@ -42,12 +42,12 @@ Se os usuários estão usando um dos aplicativos da Microsoft e desejam fornecer
 #### <a name="in-product-feedback-examples"></a>Exemplos de feedback no produto
 
 :::image type="content" source="../../media/In-appfeedbackbackstage.png" alt-text="Captura de tela: Exemplo de feedback no produto":::
-:::image type="content" source="../../media/In-appfeedbackwindows.png" alt-text="Captura de tela: Exemplo de comentários no produto do Windows ":::
-:::image type="content" source="../../media/TeamsIn-appFeedback.png" alt-text="Captura de tela: Exemplo de comentários no produto do Teams":::
+:::image type="content" source="../../media/In-appfeedbackwindows.png" alt-text="Captura de tela: Windows exemplo de feedback no produto":::
+:::image type="content" source="../../media/TeamsIn-appFeedback.png" alt-text="Captura de tela: Teams exemplo de feedback no produto":::
 
 ### <a name="in-product-surveys"></a>Pesquisas no produto
 
-Os usuários também podem taxar sua experiência e fornecer informações adicionais sobre sua experiência por meio de prompts de pesquisa iniciados pelo sistema. Esses prompts ocorrem dentro dos produtos do Microsoft 365 de vez em quando. Quando solicitado, os usuários podem escolher se querem fornecer comentários. Os prompts de pesquisa normalmente aparecem na parte inferior direita do aplicativo. Se o usuário decidir fornecer comentários, descartar o prompt ou permitir que o prompt desapareça por conta própria, esse usuário não verá a pesquisa novamente por algum tempo. A Microsoft também aproveita um processo de governança para limitar o número dessas pesquisas iniciadas pelo sistema.  A intenção da governança é garantir que os usuários não sejam sobrecarregados pelo número de prompts de pesquisa.
+Os usuários também podem taxar sua experiência e fornecer informações adicionais sobre sua experiência por meio de prompts de pesquisa iniciados pelo sistema. Esses prompts ocorrem dentro do Microsoft 365 de vez em quando. Quando solicitado, os usuários podem escolher se querem fornecer comentários. Os prompts de pesquisa normalmente aparecem na parte inferior direita do aplicativo. Se o usuário decidir fornecer comentários, descartar o prompt ou permitir que o prompt desapareça por conta própria, esse usuário não verá a pesquisa novamente por algum tempo. A Microsoft também aproveita um processo de governança para limitar o número dessas pesquisas iniciadas pelo sistema.  A intenção da governança é garantir que os usuários não sejam sobrecarregados pelo número de prompts de pesquisa.
 
 :::image type="content" source="../../media/feedback-love.png" alt-text="Captura de tela: Exemplo de solicitação de feedback no produto":::
 
@@ -57,7 +57,7 @@ Os usuários também podem taxar sua experiência e fornecer informações adici
 
 Comentários detalhados e ativas são vitais para fazer alterações e melhorias nos produtos Microsoft. Se os usuários têm problemas ou sugestões de como podemos melhorar, queremos ouvi-los. A seguir estão algumas dicas e exemplos sobre comentários ativas enviados à Microsoft.
 
-- **Título conciso e descritivo**   Títulos descritivos e específicos nos ajudam a entender o problema relatado. Exemplo: a lista de arquivos **recentes do** Excel não inclui arquivos do OneDrive adicionados recentemente.
+- **Título conciso e descritivo**   Títulos descritivos e específicos nos ajudam a entender o problema relatado. Exemplo: Excel **lista de** arquivos recentes não inclui arquivos OneDrive adicionados recentemente.
 - **Foco em um problema de cada vez**   Forneça comentários para um problema ou recomendação de um item por vez. Isso garante que os logs e os dados corretos sejam recebidos com cada envio e possam ser atribuídos para acompanhamento. Se você tiver mais de um problema, envie uma nova solicitação de comentários para cada problema. Isso nos ajuda a identificar o volume de comentários que estamos recebendo em um problema específico.
 - **Gravar detalhes na caixa Descrição**   As informações sobre seu dispositivo, sistema operacional e aplicativos são incluídas automaticamente em cada feedback relatado. Adicione informações adicionais sobre um problema que você acha importante. Por exemplo, inclua etapas detalhadas para reproduzir o problema.
 
@@ -82,7 +82,7 @@ Quando um usuário envia comentários, as informações do aplicativo geralmente
 - **Com build de aplicativo**   Número de com build do produto Microsoft que foi capturado no envio.
 - **Idioma do aplicativo**   Idioma do produto Microsoft que foi capturado no envio.
 - **Anexos**   Foram quaisquer anexos (ou seja, capturas de tela, arquivos) coletados como parte dos comentários? (Sim/Não).
-- **TenantId**   Se os comentários são enviados de uma conta do Azure Active Directory, que TenantId foi associado.
+- **TenantId**   Se os comentários são enviados de uma conta Azure Active Directory, que TenantId foi associado.
 
 ## <a name="data-handling-and-privacy"></a>Tratamento de dados e privacidade
 
@@ -93,4 +93,4 @@ Colocamos você no controle de sua privacidade com ferramentas fáceis de usar e
 
 ## <a name="how-can-i-see-my-users-feedback"></a>Como posso ver os comentários do meu usuário?
 
-Em breve, compartilharemos os dados de comentários que coletamos para os produtos microsoft de volta para você. Estamos trabalhando em uma nova experiência no Centro de administração do Microsoft 365 que permite que você exclua, exclua e exporte os dados de comentários para sua organização. Isso oferece transparência direta e informações úteis sobre as experiências dos usuários com produtos do Microsoft 365.
+Em breve, compartilharemos os dados de comentários que coletamos para os produtos microsoft de volta para você. Estamos trabalhando em uma nova experiência no centro de administração Microsoft 365 que permite que você exclua, exclua e exporte os dados de comentários para sua organização. Isso fornece transparência direta e informações úteis sobre as experiências dos usuários com Microsoft 365 produtos.

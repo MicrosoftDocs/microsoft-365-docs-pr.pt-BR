@@ -1,5 +1,5 @@
 ---
-title: Automatizar o licenciamento e a associação de grupo para seu ambiente de teste do Microsoft 365 para empresas
+title: Automatizar o licenciamento e a associação de grupo para seu Microsoft 365 para ambiente de teste empresarial
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,7 +14,7 @@ ms.collection: M365-identity-device-management
 ms.custom:
 - TLG
 - Ent_TLGs
-description: Configure o licenciamento baseado em grupo e a associação dinâmica de grupo em seu ambiente de teste do Microsoft 365 para empresas.
+description: Configure o licenciamento baseado em grupo e a associação dinâmica de grupo em seu Microsoft 365 ambiente de teste empresarial.
 ms.openlocfilehash: 26840e2884202a0fa9c4bb563f3d7c653482ef87
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -22,23 +22,23 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50905363"
 ---
-# <a name="automate-licensing-and-group-membership-for-your-microsoft-365-for-enterprise-test-environment"></a>Automatizar o licenciamento e a associação de grupo para seu ambiente de teste do Microsoft 365 para empresas
+# <a name="automate-licensing-and-group-membership-for-your-microsoft-365-for-enterprise-test-environment"></a>Automatizar o licenciamento e a associação de grupo para seu Microsoft 365 para ambiente de teste empresarial
 
-*Este Guia de Laboratório de Teste só pode ser usado para o Microsoft 365 para ambientes de teste corporativos.*
+*Este Guia de Laboratório de Teste só pode ser usado para Microsoft 365 ambientes de teste corporativos.*
 
-O licenciamento baseado em grupo atribui ou remove automaticamente licenças para uma conta de usuário com base na associação ao grupo. A associação de grupo dinâmica adiciona ou remove membros a um grupo com base nas propriedades da conta de usuário, como **Departamento** ou **País.** Este artigo explica as demonstrações de como adicionar e remover membros do grupo no ambiente de teste do Microsoft 365 para empresas.
+O licenciamento baseado em grupo atribui ou remove automaticamente licenças para uma conta de usuário com base na associação ao grupo. A associação de grupo dinâmica adiciona ou remove membros a um grupo com base nas propriedades da conta de usuário, como **Departamento** ou **País.** Este artigo explica as demonstrações de como adicionar e remover membros do grupo em seu Microsoft 365 ambiente de teste empresarial.
 
-Configurar o licenciamento automático e a associação dinâmica de grupo no ambiente de teste do Microsoft 365 para empresas envolve duas fases:
+Configurar o licenciamento automático e a associação dinâmica de grupo em seu Microsoft 365 ambiente de teste empresarial envolve duas fases:
 
-- [Fase 1: criar seu ambiente de teste do Microsoft 365 para empresas](#phase-1-build-out-your-microsoft-365-for-enterprise-test-environment)
+- [Fase 1: criar seu Microsoft 365 para ambiente de teste empresarial](#phase-1-build-out-your-microsoft-365-for-enterprise-test-environment)
 - [Fase 2: Configurar e testar a associação dinâmica do grupo e o licenciamento automático](#phase-2-configure-and-test-dynamic-group-membership-and-automatic-licensing)
 
 ![Guias de Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Para um mapa visual de todos os artigos na pilha guia de laboratório de teste do Microsoft 365 para empresas, vá para [o Microsoft 365 for enterprise Test Lab Guide Stack](../downloads/Microsoft365EnterpriseTLGStack.pdf).
+> Para um mapa visual de todos os artigos na pilha Microsoft 365 guia do laboratório de teste empresarial, vá para o Microsoft 365 para a pilha de guias de laboratório [de teste corporativos.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
   
-## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Fase 1: criar seu ambiente de teste do Microsoft 365 para empresas
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Fase 1: criar seu Microsoft 365 para ambiente de teste empresarial
 
 Se você quiser testar apenas o licenciamento automatizado e a associação de grupo de forma leve com os requisitos mínimos, siga as instruções em [Configuração base leve.](lightweight-base-configuration-microsoft-365-enterprise.md)
   
@@ -51,7 +51,7 @@ Se você quiser testar o licenciamento automatizado e a associação de grupo em
 
 Primeiro, crie um novo grupo chamado Vendas e adicione uma regra dinâmica de associação de grupo para que as contas de usuário com o **Departamento** definidas como **Vendas** insuem automaticamente no grupo Vendas.
 
-1. Em uma instância privada do navegador da Internet, entre no Centro de administração do [Microsoft 365](https://admin.microsoft.com) com a conta de administrador global da sua assinatura do laboratório de teste do Microsoft 365 E5.
+1. Em uma instância privada do navegador da [](https://admin.microsoft.com) Internet, entre no centro de administração Microsoft 365 com a conta de administrador global da sua assinatura de laboratório de teste Microsoft 365 E5 de teste.
 2. Em uma guia separada do navegador, vá para o portal do Azure em [https://portal.azure.com](https://portal.azure.com) .
 3. No portal do Azure, insira **grupos** na caixa de pesquisa e selecione **Grupos**.
 4. no painel **Todos os grupos,** selecione **Novo grupo**.
@@ -66,19 +66,19 @@ Primeiro, crie um novo grupo chamado Vendas e adicione uma regra dinâmica de as
 10. Selecione **Salvar**.
 11. Selecione **Criar**.
 
-Em seguida, configure o grupo Vendas para que os membros sejam atribuídos automaticamente à licença do Microsoft 365 E5.
+Em seguida, configure o grupo Vendas para que os membros sejam atribuídos automaticamente Microsoft 365 E5 licença.
 
 1. Selecione o **grupo Vendas** e selecione **Licenças**.
-2. No painel **Atualizar atribuições de** licença, selecione **Microsoft 365 E5** e selecione **Salvar**.
+2. No painel **Atualizar atribuições** de licença, selecione **Microsoft 365 E5** e, em seguida, **selecione Salvar**.
 3. No navegador, feche a guia portal do Azure.
 
 Em seguida, teste a associação dinâmica do grupo e o licenciamento automático na conta usuário 4:
 
 1. Na guia **Microsoft Office Página** 1 do navegador, selecione **Admin**.
-2. Na guia Centro de administração **do Microsoft 365,** selecione **Usuários ativos**.
+2. Na guia **Microsoft 365 centro de administração,** selecione **Usuários ativos**.
 3. Na página **Usuários ativos,** selecione a **conta Usuário 4.**
 4. No painel **Usuário 4,** selecione **Editar** para **licenças de produto.**
-5. No painel **Licenças de** produto, desabilite a licença do **Microsoft 365 E5** e selecione **Salvar**  >  **Fechar.**
+5. No painel **Licenças de** produto, desabilite a **Microsoft 365 E5** e selecione **Salvar**  >  **Fechar.**
 6. Nas propriedades da conta Usuário 4, verifique se nenhuma licença de produto foi atribuída e se não há associações de grupo.
 7. Para **obter informações de contato,** selecione **Editar**.
 8. No painel **Editar informações de** contato, selecione Informações de **contato**.
@@ -88,11 +88,11 @@ Em seguida, teste a associação dinâmica do grupo e o licenciamento automátic
 Com o tempo, você deve ver o:
 
 - **Propriedade de associações de** grupo atualizada com o **grupo Vendas.**
-- **Propriedade de licenças** de produto atualizada com a **licença do Microsoft 365 E5.**
+- **Propriedade product licenses** updated with the **Microsoft 365 E5** license.
 
 Consulte estes artigos para implantar a associação dinâmica de grupo e o licenciamento automático na produção:
 
-- [Licenciamento baseado em grupo no Azure Active Directory](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal)
+- [Licenciamento baseado em grupo em Azure Active Directory](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal)
 - [Grupos dinâmicos no Azure Active Directory](/azure/active-directory/users-groups-roles/groups-create-rule)
 
 ## <a name="next-step"></a>Próxima etapa

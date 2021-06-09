@@ -102,7 +102,7 @@ landingContent:
     links:
     - text: Rastreamento de relatórios e mensagens no EOP
       url: reporting-and-message-trace-in-exchange-online-protection.md
-    - text: Exibir o log de auditoria do administrador
+    - text: Exibir o log de auditoria administrador
       url: /exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log
 - title: Responder
   linkLists:

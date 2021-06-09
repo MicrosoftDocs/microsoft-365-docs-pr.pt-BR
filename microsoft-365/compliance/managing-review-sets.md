@@ -1,5 +1,5 @@
 ---
-title: Gerenciar conjuntos de revisão na Descoberta Avançada
+title: Gerenciar conjuntos de revisão em Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,7 +15,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Saiba como gerenciar conjuntos de revisão para que você possa analisar, consultar, exibir, marcar e exportar dados em um caso de Descoberta Avançada.
+description: Saiba como gerenciar conjuntos de revisão para que você possa analisar, consultar, exibir, marcar e exportar dados em Advanced eDiscovery caso.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: c489fa77c8e2d40d4f50275848465d5e8334c7a1
 ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
@@ -24,9 +24,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/05/2020
 ms.locfileid: "44034163"
 ---
-# <a name="manage-review-sets-in-advanced-ediscovery"></a>Gerenciar conjuntos de revisão na Descoberta Avançada
+# <a name="manage-review-sets-in-advanced-ediscovery"></a>Gerenciar conjuntos de revisão em Advanced eDiscovery
 
-Conjuntos de revisão são um conjunto estático de documentos onde você pode analisar, consultar, exibir, marcar e exportar dados em um caso. Para obter mais informações sobre como executar essas tarefas, consulte:
+Os conjuntos de revisão são um conjunto estático de documentos que você pode analisar, consultar, exibir, marcar e exportar dados em um caso.  Para obter mais informações sobre como executar essas tarefas, consulte:
 
 - [Analisar dados em um conjunto de revisão](analyzing-data-in-review-set.md)
 
@@ -44,11 +44,11 @@ Conjuntos de revisão podem ser criados na guia **Conjuntos de** revisão clican
 
 ![Adicionar conjunto de revisão](../media/f45c51d9-585d-47d1-b7fb-0288715e0b6a.png)
 
-Na página **Adicionar conjunto de revisão,** digite um nome para o conjunto de revisão e clique em **Salvar**. O novo conjunto de revisão é exibido na lista na guia **Conjuntos de revisão.**
+Na página **Adicionar conjunto de revisão,** digite um nome para o conjunto de revisão e clique em **Salvar**. O novo conjunto de revisão é exibido na lista na guia **Conjuntos de** revisão.
 
-![Novo conjunto de revisão listado na guia Conjunto de revisão](../media/AeDnewreviewset.png)
+![Novo conjunto de revisão listado na guia Revisar conjunto](../media/AeDnewreviewset.png)
 
-Há três maneiras diferentes de adicionar dados a um conjunto de revisão em um caso de Descoberta Avançada.
+Há três maneiras diferentes de adicionar dados a um conjunto de revisão em um Advanced eDiscovery caso.
 
 ![Três maneiras de adicionar a conjuntos de revisão](../media/1f1f4efd-c03b-4255-bc3d-df358e56549c.png)
 

@@ -84,7 +84,7 @@ landingContent:
       url: /defender/microsoft-365-security-cente
     - text: Redirecionando o Defender para o Ponto de Extremidade no Microsoft 365 Defender
       url: /defender/microsoft-365-security-mde-redirection
-- title: Centro de segurança do Microsoft 365
+- title: Central de segurança do Microsoft 365
   linkLists:
   - linkListType: overview
     links:

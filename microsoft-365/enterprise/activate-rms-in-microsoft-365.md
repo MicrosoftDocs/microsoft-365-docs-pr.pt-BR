@@ -16,7 +16,7 @@ search.appverid:
 - MOE150
 - BCS160
 ms.assetid: 5b6d3ac7-b1ac-428e-b03e-50e882f85a6e
-description: Como ativar e usar o serviço de Gerenciamento de Direitos com o Microsoft 365.
+description: Como ativar e usar o serviço gerenciamento de direitos com Microsoft 365.
 ms.openlocfilehash: 887979e372bf4ba938b2d2570f981aee9373d485
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -26,7 +26,7 @@ ms.locfileid: "50905639"
 ---
 # <a name="activate-rights-management-in-the-admin-center"></a>Ativar o gerenciamento de direitos no centro de administração
 
-Você deve ativar o serviço de Gerenciamento de Direitos (RMS) antes de poder usar os recursos de Gerenciamento de Direitos de Informação (IRM) de aplicativos e serviços do Microsoft 365. Depois de ativar o RMS, sua organização pode começar a proteger documentos e emails importantes usando o Azure RMS. Essa solução de proteção de informações pode proteger todos os tipos de arquivo e se integra a aplicativos cliente, como Excel, Microsoft Word e outros, Exchange Online e SharePoint Online, além de servidores como o Microsoft Exchange e o Microsoft SharePoint.
+Você deve ativar o serviço de Gerenciamento de Direitos (RMS) antes de poder usar os recursos de Gerenciamento de Direitos de Informação (IRM) de Microsoft 365 aplicativos e serviços. Depois de ativar o RMS, sua organização pode começar a proteger documentos e emails importantes usando o Azure RMS. Essa solução de proteção de informações pode proteger todos os tipos de arquivo e se integra a aplicativos cliente, como Excel, Microsoft Word e outros, Exchange Online e SharePoint Online, além de servidores como o Microsoft Exchange e o Microsoft SharePoint.
   
 > [!TIP]
 > Se você não tiver certeza se precisa de Gerenciamento de Direitos, verifique se sua organização tem um ou mais desses problemas de [negócios ou requisitos.](/azure/information-protection/what-is-azure-rms#business-problems-solved-by-azure-rights-management) 
@@ -39,4 +39,4 @@ Use esses links para obter mais informações sobre o RMS:
 
 - Para uma visão geral das etapas de implantação, consulte o mapa de implantação do Gerenciamento de [Direitos do Azure.](/rights-management/plan-design/deployment-roadmap)
 
-- Para obter instruções sobre como ativar o RMS para o Microsoft 365, consulte Ativando o serviço de proteção da Proteção de Informações do [Azure](/azure/information-protection/activate-service).
+- Para obter instruções sobre como ativar o RMS para Microsoft 365, consulte Ativando o serviço de proteção da Proteção de Informações do [Azure](/azure/information-protection/activate-service).

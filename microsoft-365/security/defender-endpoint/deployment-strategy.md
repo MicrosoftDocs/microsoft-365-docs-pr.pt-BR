@@ -62,7 +62,7 @@ A tabela a seguir lista os pontos de extremidade com suporte e a ferramenta de i
 
 | Ponto de extremidade     | Ferramenta de implantação                       |
 |--------------|------------------------------------------|
-| **Windows**  |  [Script local (até 10 dispositivos)](configure-endpoints-script.md) <br>  [Política de grupo](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Mobile Device Manager](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [Scripts VDI](configure-endpoints-vdi.md)   |
+| **Windows**  |  [Script local (até 10 dispositivos)](configure-endpoints-script.md) <br>  [Política de grupo](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Gerenciador de Dispositivos Móveis](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [Scripts VDI](configure-endpoints-vdi.md)   |
 | **macOS**    | [Script local](mac-install-manually.md) <br> [Microsoft Endpoint Manager](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [Gerenciamento de dispositivo móvel](mac-install-with-other-mdm.md) |
 | **Servidor Linux** | [Script local](linux-install-manually.md) <br> [Puppet](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
 | **iOS**      | [Baseado em aplicativos](ios-install.md)                                |
@@ -73,11 +73,11 @@ A tabela a seguir lista os pontos de extremidade com suporte e a ferramenta de i
 ## <a name="step-3-configure-capabilities"></a>Etapa 3: Configurar recursos
 Após a integração dos pontos de extremidade, configure os recursos de segurança no Defender para Ponto de Extremidade para que você possa maximizar a proteção de segurança robusta disponível no pacote. Os recursos incluem:
 
-- Detecção e resposta do terminal.
-- Proteção de última geração
-- Redução da superfície do ataque.
+- Detecção de ponto de extremidade e resposta
+- Proteção de próxima geração
+- Redução de superfície de ataque
 
 
   
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Fases de implantação](deployment-phases.md)
+- [Fases da implementação](deployment-phases.md)
