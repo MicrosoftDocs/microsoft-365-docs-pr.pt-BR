@@ -13,12 +13,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: f996a8fdaf630c8ea389ac9648369cc955a6e95d
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 15ea4696052a6c987314e3c7b0dd282a49ed4df8
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51569892"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842897"
 ---
 # <a name="evaluate-controlled-folder-access"></a>Avaliar o acesso controlado a pastas
 
@@ -31,7 +31,7 @@ ms.locfileid: "51569892"
 >Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
 
-[O acesso controlado](controlled-folders.md) a pastas é um recurso que ajuda a proteger seus documentos e arquivos contra modificação por aplicativos suspeitos ou mal-intencionados. O acesso controlado a pastas é suportado nos clientes do Windows Server 2019 e do Windows 10.
+[O acesso controlado](controlled-folders.md) a pastas é um recurso que ajuda a proteger seus documentos e arquivos contra modificação por aplicativos suspeitos ou mal-intencionados. O acesso controlado a pastas é suportado no Windows Server 2019 e Windows 10 clientes.
 
 É especialmente útil ajudar a proteger contra [ransomware](https://www.microsoft.com/wdsi/threats/ransomware) que tenta criptografar seus arquivos e mantê-los como reféns.
 
@@ -52,11 +52,11 @@ Set-MpPreference -EnableControlledFolderAccess AuditMode
 
 > [!TIP]
 > Se você quiser auditar totalmente como o acesso controlado a pastas funcionará em sua organização, você precisará usar uma ferramenta de gerenciamento para implantar essa configuração em dispositivos em sua rede.
-Você também pode usar a Política de Grupo, o Intune, o gerenciamento de dispositivo móvel (MDM) ou o Microsoft Endpoint Manager para configurar e implantar a configuração, conforme descrito no tópico principal de acesso controlado [a pastas.](controlled-folders.md)
+Você também pode usar a Política de Grupo, o Intune, o gerenciamento de dispositivo móvel (MDM) ou o Microsoft Endpoint Manager para configurar e implantar a configuração, conforme descrito no tópico principal de acesso controlado a [pastas.](controlled-folders.md)
 
-## <a name="review-controlled-folder-access-events-in-windows-event-viewer"></a>Revisar eventos de acesso controlado a pastas no Visualizador de Eventos do Windows
+## <a name="review-controlled-folder-access-events-in-windows-event-viewer"></a>Revisar eventos de acesso controlado a pastas Windows Visualizador de Eventos
 
-Os seguintes eventos de acesso controlado a pastas aparecem no Visualizador de Eventos do Windows na pasta Microsoft/Windows/Windows Defender/Operacional.
+Os seguintes eventos de acesso controlado a pastas aparecem Windows Visualizador de Eventos na pasta Microsoft/Windows/Windows Defender/Operacional.
 
 ID de evento | Descrição
 -|-
@@ -65,7 +65,7 @@ ID de evento | Descrição
  1123 | Evento de acesso controlado de pasta bloqueado
 
 > [!TIP]
-> Você pode configurar uma assinatura [de Encaminhamento de](https://docs.microsoft.com/windows/win32/wec/setting-up-a-source-initiated-subscription) Eventos do Windows para coletar os logs centralmente. 
+> Você pode configurar uma assinatura [Windows encaminhamento de eventos para](/windows/win32/wec/setting-up-a-source-initiated-subscription) coletar os logs centralmente. 
 
 ## <a name="customize-protected-folders-and-apps"></a>Personalizar pastas e aplicativos protegidos
 

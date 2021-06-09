@@ -13,12 +13,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: a2bc36f9d3a3e9179f07662da8d97f4c55e72a24
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: 6afdcc16493839e83771ac831831fdbb121663a1
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52302047"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841769"
 ---
 # <a name="turn-on-network-protection"></a>Ativar a proteção de rede
 
@@ -81,7 +81,7 @@ Habilita a proteção de rede usando qualquer um desses métodos:
 
 ### <a name="mobile-device-management-mdm"></a>Gerenciamento de dispositivos móveis (MDM)
 
-Use o provedor de serviço de configuração [./Vendor/MSFT/Policy/Config/Defender/EnableNetworkProtection](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection) (CSP) para habilitar ou desabilitar a proteção de rede ou habilitar o modo de auditoria.
+Use o provedor de serviço de configuração [./Vendor/MSFT/Policy/Config/Defender/EnableNetworkProtection](/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection) (CSP) para habilitar ou desabilitar a proteção de rede ou habilitar o modo de auditoria.
 
 ### <a name="microsoft-endpoint-manager-formerly-intune"></a>Microsoft Endpoint Manager (anteriormente Intune)
 

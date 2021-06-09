@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 87305f28975b8997afce211ffa4de3711d26be6b
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 7fd9ec25c21b2d70238bd5b0d6b58b60731088ea
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246363"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845469"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Configurar recursos avançados no Defender para Ponto de Extremidade
 
@@ -167,7 +167,7 @@ Ao ativar esse recurso, você poderá incorporar dados do Microsoft Defender par
 > [!NOTE]
 > Você precisará ter a licença apropriada para habilitar esse recurso.
 
-Para receber a integração de dispositivos contextuais Office 365 Inteligência contra Ameaças, você precisará habilitar as configurações do Defender para Ponto de Extremidade no painel Segurança & Conformidade. Para obter mais informações, consulte [Investigação e resposta contra ameaças.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti)
+Para receber a integração de dispositivos contextuais Office 365 Inteligência contra Ameaças, você precisará habilitar as configurações do Defender para Ponto de Extremidade no painel Segurança & Conformidade. Para obter mais informações, consulte [Investigação e resposta contra ameaças.](/microsoft-365/security/office-365-security/office-365-ti)
 
 ## <a name="microsoft-threat-experts---targeted-attack-notifications"></a>Especialistas em Ameaças da Microsoft - Notificações de Ataque Direcionado
 
@@ -212,7 +212,7 @@ Depois de configurar os [indicadores](/microsoft-365/compliance/insider-risk-man
 
 ## <a name="microsoft-intune-connection"></a>Microsoft Intune conexão
 
-O Defender para Ponto de Extremidade pode ser integrado ao [Microsoft Intune](https://docs.microsoft.com/intune/what-is-intune) para [habilitar o](https://docs.microsoft.com/intune/advanced-threat-protection#enable-windows-defender-atp-in-intune)acesso condicional baseado em risco do dispositivo. Ao ativar [esse recurso,](configure-conditional-access.md)você poderá compartilhar informações do dispositivo Defender for Endpoint com o Intune, aprimorando a aplicação da política.
+O Defender para Ponto de Extremidade pode ser integrado ao [Microsoft Intune](/intune/what-is-intune) para [habilitar o](/intune/advanced-threat-protection#enable-windows-defender-atp-in-intune)acesso condicional baseado em risco do dispositivo. Ao ativar [esse recurso,](configure-conditional-access.md)você poderá compartilhar informações do dispositivo Defender for Endpoint com o Intune, aprimorando a aplicação da política.
 
 > [!IMPORTANT]
 > Você precisará habilitar a integração no Intune e no Defender for Endpoint para usar esse recurso. Para obter mais informações sobre etapas específicas, consulte [Configure Conditional Access in Defender for Endpoint](configure-conditional-access.md).
@@ -220,7 +220,7 @@ O Defender para Ponto de Extremidade pode ser integrado ao [Microsoft Intune](ht
 Esse recurso só estará disponível se você tiver o seguinte:
 
 - Um locatário licenciado para Enterprise Mobility + Security E3 e Windows E5 (ou Microsoft 365 Enterprise E5)
-- Um ambiente Microsoft Intune ativo, com os dispositivos Windows 10 do [Azure AD ingressados no](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join/)Intune.
+- Um ambiente Microsoft Intune ativo, com os dispositivos Windows 10 do [Azure AD ingressados no](/azure/active-directory/devices/concept-azure-ad-join/)Intune.
 
 
 ### <a name="conditional-access-policy"></a>Política de Acesso Condicional
@@ -228,7 +228,7 @@ Esse recurso só estará disponível se você tiver o seguinte:
 Ao habilitar a integração com o Intune, o Intune criará automaticamente uma política clássica de Acesso Condicional (CA). Essa política de AC clássica é um pré-requisito para configurar relatórios de status no Intune. Ele não deve ser excluído.
 
 > [!NOTE]
-> A política de AC clássica criada pelo Intune é distinta das políticas modernas de [Acesso](https://docs.microsoft.com/azure/active-directory/conditional-access/overview/)Condicional , que são usadas para configurar pontos de extremidade.
+> A política de AC clássica criada pelo Intune é distinta das políticas modernas de [Acesso](/azure/active-directory/conditional-access/overview/)Condicional , que são usadas para configurar pontos de extremidade.
 
 
 ## <a name="device-discovery"></a>Descoberta de dispositivo

@@ -15,12 +15,12 @@ ms.custom:
 description: O administrador pode aprender sobre as opções para configurar o fluxo de email e o roteamento no Proteção do Exchange Online (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2ad80c4176c1b8b1c47b6b9ecafd34b4ca301f3f
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 9636025796aee1ba2027edff38a16f131974134f
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623412"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842489"
 ---
 # <a name="mail-flow-in-eop"></a>Fluxo de emails no EOP
 
@@ -39,7 +39,7 @@ O EOP oferece flexibilidade na forma como suas mensagens são roteadas. Os tópi
 
 [Usar o Bloqueio de Borda Com Base em Diretório para rejeitar mensagens enviadas a destinatários inválidos](/exchange/mail-flow-best-practices/use-directory-based-edge-blocking) Descreve o recurso Bloqueio de Borda Baseado em Diretório que permite rejeitar mensagens para destinatários inválidos no perímetro da rede de serviço.
 
-[View or Edit Managed Domains in EOP](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) descreve como gerenciar domínios que são associados ao seu serviço EOP.
+[Exibir ou editar domínios aceitos no EOP](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) descreve como gerenciar domínios associados ao seu serviço EOP.
 
 Se você adicionar subdomínios à sua organização, o serviço do EOP poderá ajudá-lo a gerenciá-los também. Saiba mais sobre subdomas em [Habilitar fluxo de emails para subdomas em Exchange Online](/exchange/mail-flow-best-practices/manage-accepted-domains/enable-mail-flow-for-subdomains).
 
@@ -47,7 +47,7 @@ Se você adicionar subdomínios à sua organização, o serviço do EOP poderá 
 
 [A filtragem aprimorada](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) para conectores descreve como configurar conectores se seu email for roteado para um serviço ou dispositivo antes do EOP.
 
-Em ambientes híbridos em que o EOP protege caixas de correio locais Exchange, você precisa configurar regras de fluxo de emails (também conhecidas como regras de transporte) no Exchange local para traduzir o veredito de filtragem de spam do EOP para que a regra de lixo eletrônico possa mover a mensagem para a pasta Lixo Eletrônico. Para obter detalhes, [consulte Configure EOP to deliver spam to the Junk Email folder in hybrid environments](/exchange/standalone-eop/configure-eop-spam-protection-hybrid). Se você não quiser mover mensagens para a pasta Lixo Eletrônico de cada usuário, poderá escolher outra ação editando suas políticas anti-spam (também conhecidas como políticas de filtro de conteúdo). Para saber mais, confira [Configurar políticas anti-spam](configure-your-spam-filter-policies.md).
+Em ambientes híbridos onde o EOP protege as caixas de correio locais do Exchange, você precisa configurar regras de fluxo de email (também conhecidas como regras de transporte) no Exchange local para traduzir o veredito de filtragem de spam do EOP para que a regra de lixo eletrônico possa mover a mensagem para o Lixo Pasta de email. Para obter detalhes, confira [Configurar o EOP para enviar spam para a pasta Lixo Eletrônico em ambientes híbridos](/exchange/standalone-eop/configure-eop-spam-protection-hybrid). Se você não quiser mover mensagens para a pasta Lixo Eletrônico de cada usuário, poderá escolher outra ação editando suas políticas anti-spam (também conhecidas como políticas de filtro de conteúdo). Para saber mais, confira [Configurar políticas anti-spam](configure-your-spam-filter-policies.md).
 
 ## <a name="verify-mail-flow"></a>Verificar fluxo de mensagens
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 056268ed093d371d39a6136dd0b272c12ab6f9d7
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 2510fb1a187bbe136669e11bc73103438b51d811
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933908"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842165"
 ---
 # <a name="onboard-windows-10-devices-using-a-local-script"></a>Integrar dispositivos Windows 10 usando um script local
 
@@ -37,17 +37,17 @@ Você também pode fazer a integração manual de dispositivos individuais no De
 > [!IMPORTANT]
 > Esse script foi otimizado para uso em até 10 dispositivos.
 >
-> Para implantar em escala, use [outras opções de implantação.](configure-endpoints.md) Por exemplo, você pode implantar um script de integração em mais de 10 dispositivos em produção com o script disponível em dispositivos [Do Windows 10](configure-endpoints-gp.md)de integração usando a Política de Grupo .
+> Para implantar em escala, use [outras opções de implantação.](configure-endpoints.md) Por exemplo, você pode implantar um script de integração em mais de 10 dispositivos em produção com o script disponível em Windows 10 de integração usando a Política [de Grupo](configure-endpoints-gp.md).
 
-## <a name="onboard-devices"></a>Dispositivos de integração 
+## <a name="onboard-devices"></a>Integração de dispositivos 
 
 [![Imagem do PDF mostrando os vários caminhos de implantação](images/onboard-script.png)](images/onboard-script.png#lightbox)
 
 
-Confira o [PDF ou](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)  o  [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) para ver os vários caminhos na implantação do Defender para o Ponto de Extremidade. 
+Confira o [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) ou [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) para ver os vários caminhos na implantação do Defender para o Ponto de Extremidade. 
 
 
-1.  Abra o arquivo .zip do pacote de configuração da GP (*WindowsDefenderATPOnboardingPackage.zip*) que você baixou do assistente de integração do serviço. Você também pode obter o pacote do [Centro de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
+1.  Abra o arquivo de pacote de configuração da GP .zip (*WindowsDefenderATPOnboardingPackage.zip*) que você baixou do assistente de integração do serviço. Você também pode obter o pacote de [Central de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
 
     1. No painel de navegação, selecione **Configurações**  >  **Integração**.
 
@@ -55,10 +55,10 @@ Confira o [PDF ou](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/publi
 
     1. No campo **Método de Implantação,** selecione **Script Local**.
 
-    1. Clique **em Baixar pacote** e salve o arquivo .zip.
+    1. Clique **em Baixar pacote** e salve o .zip arquivo.
 
   
-2.  Extraia o conteúdo do pacote de configuração para um local no dispositivo que você deseja integrar (por exemplo, a Área de Trabalho). Você deve ter um arquivo chamado *WindowsDefenderATPOnboardingScript.cmd*.
+2.  Extraia o conteúdo do pacote de configuração para um local no dispositivo que você deseja integrar (por exemplo, a Área de Trabalho). Você deve ter um arquivo chamado *WindowsDefenderATPLocalOnboardingScript.cmd*.
 
 3.  Abra um prompt de linha de comando elevada no dispositivo e execute o script:
 
@@ -68,7 +68,7 @@ Confira o [PDF ou](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/publi
 
         ![Menu Iniciar janela apontando para Executar como administrador](images/run-as-admin.png)
 
-4.  Digite o local do arquivo de script. Se você copiou o arquivo para a área de trabalho, *digite: %userprofile%\Desktop\WindowsDefenderATPOnboardingScript.cmd*
+4.  Digite o local do arquivo de script. Se você copiou o arquivo para a área de trabalho, digite: *%userprofile%\Desktop\WindowsDefenderATPLocalOnboardingScript.cmd*
 
 5.  Pressione a **tecla Enter** ou clique em **OK**.
 
@@ -79,7 +79,7 @@ Para obter informações sobre como você pode validar manualmente se o disposit
 > Após a integração do dispositivo, você pode optar por executar um teste de detecção para verificar se um dispositivo está corretamente conectado ao serviço. Para obter mais informações, [consulte Run a detection test on a newly onboarded Microsoft Defender for Endpoint endpoint endpoint endpoint](run-detection-test.md).
 
 ## <a name="configure-sample-collection-settings"></a>Configurar configurações de coleção de exemplos
-Para cada dispositivo, você pode definir um valor de configuração para determinar se amostras podem ser coletadas do dispositivo quando uma solicitação é feita por meio do Centro de Segurança do Microsoft Defender para enviar um arquivo para análise profunda.
+Para cada dispositivo, você pode definir um valor de configuração para determinar se amostras podem ser coletadas do dispositivo quando uma solicitação é feita por meio do Central de Segurança do Microsoft Defender enviar um arquivo para análise profunda.
 
 Você pode configurar manualmente a configuração de compartilhamento de exemplo no dispositivo usando *regedit* ou criando e executando um *arquivo .reg.*  
 
@@ -105,15 +105,15 @@ Por motivos de segurança, o pacote usado para dispositivos offboard expirará 3
 > [!NOTE]
 > As políticas de integração e de offboard não devem ser implantadas no mesmo dispositivo ao mesmo tempo, caso contrário, isso causará colisões imprevisíveis.
 
-1. Obter o pacote de offboarding do [Centro de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
+1. Obter o pacote de offboard de [Central de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
 
-    1. No painel de navegação, selecione **Configurações**  >  **offboarding**.
+    1. No painel de navegação, selecione **Configurações**  >  **Offboarding**.
 
     1. Selecione Windows 10 como o sistema operacional.
 
     1. No campo **Método de Implantação,** selecione **Script Local**.
 
-    1. Clique **em Baixar pacote** e salve o arquivo .zip.
+    1. Clique **em Baixar pacote** e salve o .zip arquivo.
 
 2. Extraia o conteúdo do arquivo .zip para um local compartilhado somente leitura que pode ser acessado pelos dispositivos. Você deve ter um arquivo chamado *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd*.
 
@@ -139,7 +139,7 @@ Você pode seguir as diferentes etapas de verificação na solução [de](troubl
 O monitoramento também pode ser feito diretamente no portal ou usando as diferentes ferramentas de implantação.
 
 ### <a name="monitor-devices-using-the-portal"></a>Monitorar dispositivos usando o portal
-1. Vá para o Centro de Segurança do Microsoft Defender.
+1. Vá para Central de Segurança do Microsoft Defender.
 
 2. Clique **em Lista de dispositivos**.
 
@@ -147,8 +147,8 @@ O monitoramento também pode ser feito diretamente no portal ou usando as difere
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Integração de dispositivos Windows 10 usando a Política de Grupo](configure-endpoints-gp.md)
-- [Integração de dispositivos Windows 10 usando o Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
+- [Integração Windows 10 usando a Política de Grupo](configure-endpoints-gp.md)
+- [Integração Windows 10 dispositivos usando Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [Integrar dispositivo Windows 10 usando as ferramentas de Gerenciamento de Dispositivo Móvel](configure-endpoints-mdm.md)
 - [Dispositivos integrados de VDI (Virtual Desktop Infrastructure) não persistente](configure-endpoints-vdi.md)
 - [Executar um teste de detecção em um dispositivo recém-integrado do Microsoft Defender para Ponto de Extremidade](run-detection-test.md)

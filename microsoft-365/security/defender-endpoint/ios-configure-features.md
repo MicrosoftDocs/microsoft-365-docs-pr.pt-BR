@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: dab72da02927c3fff6025eb2d0fa9ed0fdf1d0d7
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: d32d40ac8ce086caedd53e0a69aac2a3025dc702
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245271"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842249"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>Configurar o Microsoft Defender para Ponto de Extremidade em recursos do iOS
 
@@ -40,10 +40,10 @@ ms.locfileid: "52245271"
 ## <a name="conditional-access-with-defender-for-endpoint-on-ios"></a>Acesso condicional com o Defender para Ponto de Extremidade no iOS  
 O Microsoft Defender for Endpoint no iOS juntamente com o Microsoft Intune e Azure Active Directory permite aplicar políticas de conformidade de dispositivo e Acesso Condicional com base na pontuação de risco do dispositivo. O Defender for Endpoint é uma solução MTD (Mobile Threat Defense) que você pode implantar para aproveitar esse recurso por meio do Intune.
 
-Para obter mais informações sobre como configurar o Acesso Condicional com o Defender para Ponto de Extremidade no iOS, consulte [Defender for Endpoint e Intune](https://docs.microsoft.com/mem/intune/protect/advanced-threat-protection).
+Para obter mais informações sobre como configurar o Acesso Condicional com o Defender para Ponto de Extremidade no iOS, consulte [Defender for Endpoint e Intune](/mem/intune/protect/advanced-threat-protection).
 
-> [!NOTE]
-> **A detecção de jailbreak pelo Microsoft Defender para Ponto de Extremidade no iOS está atualmente em visualização**. Se um dispositivo for detectado como jailbroken pelo Microsoft Defender para Ponto de Extremidade, um alerta de alto risco será relatado para a Central de Segurança e se o Acesso Condicional for configurado com base na pontuação de risco do dispositivo, o dispositivo será impedido de acessar dados corporativos.
+### <a name="jailbreak-detection-by-microsoft-defender-for-endpoint"></a>Detecção de jailbreak pelo Microsoft Defender para Ponto de Extremidade
+O Microsoft Defender para Ponto de Extremidade tem a capacidade de detectar dispositivos gerenciados e não gerenciados que são jailbroken. Se um dispositivo for detectado como jailbroken, um alerta de alto risco será relatado ao Centro de Segurança e se o Acesso Condicional for configurado com base na pontuação de risco do dispositivo, o dispositivo será impedido de acessar dados corporativos.
 
 ## <a name="web-protection-and-vpn"></a>Proteção da Web e VPN
 
@@ -71,7 +71,7 @@ O iOS da Apple não dá suporte a várias VPNs em todo o dispositivo para serem 
 Para proteger os dados corporativos de serem acessados em dispositivos iOS de cadeia, recomendamos que você defina a seguinte política de conformidade no Intune.
 
 > [!NOTE]
-> Neste momento, a detecção de jailbreak pelo Microsoft Defender para Ponto de Extremidade no iOS está em visualização. Recomendamos que você configure essa política como uma camada adicional de defesa contra cenários de jailbreak.
+> A detecção de jailbreak é um recurso fornecido pelo Microsoft Defender para Endpoint no iOS. No entanto, recomendamos que você configure essa política como uma camada adicional de defesa contra cenários de jailbreak.
 
 Siga as etapas a seguir para criar uma política de conformidade contra dispositivos com cadeia de segurança.
 
@@ -96,7 +96,7 @@ Siga as etapas a seguir para criar uma política de conformidade contra disposit
 
 ## <a name="configure-custom-indicators"></a>Configurar indicadores personalizados
 
-O Defender for Endpoint no iOS permite que os administradores configurem indicadores personalizados em dispositivos iOS também. Para obter mais informações sobre como configurar indicadores personalizados, consulte [Manage indicators](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-indicators).
+O Defender for Endpoint no iOS permite que os administradores configurem indicadores personalizados em dispositivos iOS também. Para obter mais informações sobre como configurar indicadores personalizados, consulte [Manage indicators](/microsoft-365/security/defender-endpoint/manage-indicators).
 
 > [!NOTE]
 > O Defender para Ponto de Extremidade no iOS dá suporte à criação de indicadores personalizados apenas para endereços IP e URLs/domínios.
@@ -105,8 +105,3 @@ O Defender for Endpoint no iOS permite que os administradores configurem indicad
 
 Sites de phishing personificam sites confiáveis com o objetivo de obter suas informações pessoais ou financeiras. Visite a [página Fornecer comentários sobre a](https://www.microsoft.com/wdsi/filesubmission/exploitguard/networkprotection) proteção de rede se quiser relatar um site que pode ser um site de phishing.
 
-## <a name="battery-consumption-issues-on-ios-when-microsoft-defender-for-endpoint-is-installed"></a>Problemas de consumo de bateria no iOS quando o Microsoft Defender for Endpoint está instalado
-
-O uso da bateria por um aplicativo é calculado pela Apple com base em uma infinidade de fatores, incluindo o uso da CPU e da rede. O Microsoft Defender para Ponto de Extremidade usa uma VPN local/loop-back em segundo plano para verificar o tráfego da Web em busca de sites ou conexões mal-intencionadas. Os pacotes de rede de qualquer aplicativo passam por essa verificação e isso faz com que o uso da bateria do Microsoft Defender para o Ponto de Extremidade seja calculado de forma impreciso. Isso dá uma falsa impressão ao usuário. O consumo real de bateria do Microsoft Defender para Ponto de Extremidade é menor do que o mostrado na página Bateria Configurações no dispositivo. Isso se baseia em testes realizados no aplicativo Microsoft Defender para Ponto de Extremidade para entender o consumo de bateria.
-
-Além disso, a VPN usada é uma VPN local e, ao contrário das VPNs tradicionais, o tráfego de rede não é enviado fora do dispositivo.

@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c50efb11ee7f884be6788b90c14e7fc639d9b8ca
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 3ed033f137d3329dc208183fe8fad1f300ffd4c9
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281000"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841781"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Implantar o Microsoft Defender para Ponto de Extremidade no Linux manualmente
 
@@ -328,7 +328,7 @@ Baixe o pacote de integração Central de Segurança do Microsoft Defender:
     > ```bash
     > mdatp health --field definitions_status
     > ```
-    > Observe que você também pode precisar configurar um proxy após concluir a instalação inicial. Consulte [Configure Defender for Endpoint on Linux for static proxy discovery: Post-installation configuration](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-static-proxy-configuration#post-installation-configuration).
+    > Observe que você também pode precisar configurar um proxy após concluir a instalação inicial. Consulte [Configure Defender for Endpoint on Linux for static proxy discovery: Post-installation configuration](/microsoft-365/security/defender-endpoint/linux-static-proxy-configuration#post-installation-configuration).
 
 5. Execute um teste de detecção para verificar se o dispositivo está corretamente conectado e relatando ao serviço. Execute as seguintes etapas no dispositivo recém-integrado:
 
@@ -409,4 +409,4 @@ Ao atualizar o sistema operacional para uma nova versão principal, primeiro voc
 Consulte [Desinstalar](linux-resources.md#uninstall) para obter detalhes sobre como remover o Defender for Endpoint no Linux de dispositivos cliente.
 
 ## <a name="see-also"></a>Confira também
-- [Investigar problemas de saúde do agente](health-status.md)
+- [Investigar problemas de integridade do agente](health-status.md)

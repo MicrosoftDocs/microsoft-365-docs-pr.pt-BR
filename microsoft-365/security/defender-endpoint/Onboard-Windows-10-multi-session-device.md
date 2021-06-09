@@ -1,7 +1,7 @@
 ---
 title: Dispositivos integrados com várias sessões do Windows 10 na Área de Trabalho Virtual do Windows
-description: Leia mais neste artigo sobre a integração de dispositivos de várias sessões do Windows 10 na Área de Trabalho Virtual do Windows
-keywords: Área de trabalho virtual do Windows, WVD, microsoft defender, ponto de extremidade, onboard
+description: Leia mais neste artigo sobre a integração de Windows 10 de várias sessões em Windows Área de Trabalho Virtual
+keywords: Windows Área de trabalho virtual, WVD, microsoft defender, ponto de extremidade, onboard
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -15,30 +15,30 @@ ms.author: dansimp
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 0ef80e2aaccbf25a79083c2f95ea7399e30ea651
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 7ade1ae1e045cb52f48d231acbc1712e753b6bc3
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764312"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841841"
 ---
 # <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Dispositivos integrados com várias sessões do Windows 10 na Área de Trabalho Virtual do Windows 
 6 minutos para leitura 
 
 Aplicável a: 
-- Windows 10 com várias sessões em execução na Área de Trabalho Virtual do Windows (WVD) 
+- Windows 10 várias sessões em execução Windows Virtual Desktop (WVD) 
 
-O Microsoft Defender para Ponto de Extremidade oferece suporte ao monitoramento de sessões de VDI e da Área de Trabalho Virtual do Windows. Dependendo das necessidades da sua organização, talvez seja necessário implementar sessões de VDI ou Área de Trabalho Virtual do Windows para ajudar seus funcionários a acessarem dados corporativos e aplicativos de um dispositivo sem gestão, localização remota ou cenário semelhante. Com o Microsoft Defender para Ponto de Extremidade, você pode monitorar essas máquinas virtuais para atividades anômalas.
+O Microsoft Defender para Ponto de Extremidade oferece suporte ao monitoramento de VDI e Windows da Área de Trabalho Virtual. Dependendo das necessidades da sua organização, talvez seja necessário implementar sessões de VDI ou de área de trabalho virtual Windows para ajudar seus funcionários a acessar dados corporativos e aplicativos de um dispositivo sem gestão, localização remota ou cenário semelhante. Com o Microsoft Defender para Ponto de Extremidade, você pode monitorar essas máquinas virtuais para atividades anômalas.
 
  ## <a name="before-you-begin"></a>Antes de começar
-Familiarize-se com as [considerações para VDI não persistente.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-vdi#onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices-1) Embora a [Área de](https://docs.microsoft.com/azure/virtual-desktop/overview) Trabalho Virtual do Windows não forneça opções de não persistência, ela fornece maneiras de usar uma imagem dourada do Windows que pode ser usada para provisionar novos hosts e reimplantar computadores. Isso aumenta a volatilidade no ambiente e, portanto, afeta quais entradas são criadas e mantidas no portal do Microsoft Defender para Ponto de Extremidade, reduzindo a visibilidade para seus analistas de segurança.
+Familiarize-se com as [considerações para VDI não persistente.](/microsoft-365/security/defender-endpoint/configure-endpoints-vdi#onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices-1) Embora [Windows Área](/azure/virtual-desktop/overview) de Trabalho Virtual não forneça opções de não persistência, ela fornece maneiras de usar uma imagem de Windows dourada que pode ser usada para provisionar novos hosts e reimplantar computadores. Isso aumenta a volatilidade no ambiente e, portanto, afeta quais entradas são criadas e mantidas no portal do Microsoft Defender para Ponto de Extremidade, reduzindo a visibilidade para seus analistas de segurança.
 
 > [!NOTE]
 > Dependendo da escolha do método de integração, os dispositivos podem aparecer no portal do Microsoft Defender para Ponto de Extremidade como: 
 > - Entrada única para cada área de trabalho virtual 
 > - Várias entradas para cada área de trabalho virtual 
 
-A Microsoft recomenda a integração da Área de Trabalho Virtual do Windows como uma única entrada por área de trabalho virtual. Isso garante que a experiência de investigação no portal do Ponto de Extremidade do Microsoft Defender está no contexto de um dispositivo com base no nome do computador. As organizações que frequentemente excluem e reimplantam hosts WVD devem considerar fortemente o uso desse método, pois impede que vários objetos para o mesmo computador seja criado no portal do Microsoft Defender para Ponto de Extremidade. Isso pode levar a confusão ao investigar incidentes. Para ambientes de teste ou não voláteis, você pode optar por escolher de forma diferente. 
+A Microsoft recomenda a integração Windows Área de Trabalho Virtual como uma única entrada por área de trabalho virtual. Isso garante que a experiência de investigação no portal do Ponto de Extremidade do Microsoft Defender está no contexto de um dispositivo com base no nome do computador. As organizações que frequentemente excluem e reimplantam hosts WVD devem considerar fortemente o uso desse método, pois impede que vários objetos para o mesmo computador seja criado no portal do Microsoft Defender para Ponto de Extremidade. Isso pode levar a confusão ao investigar incidentes. Para ambientes de teste ou não voláteis, você pode optar por escolher de forma diferente. 
 
 A Microsoft recomenda adicionar o script de integração do Microsoft Defender for Endpoint à imagem dourada do WVD. Dessa forma, você pode ter certeza de que esse script de integração é executado imediatamente na primeira inicialização. Ele é executado como um script de inicialização na primeira inicialização em todos os dispositivos WVD provisionados da imagem dourada do WVD. No entanto, se você estiver usando uma das imagens da galeria sem modificação, coloque o script em um local compartilhado e chame-o de política de grupo local ou de domínio. 
 
@@ -61,14 +61,14 @@ Siga as instruções para uma única entrada para cada dispositivo.
 #### <a name="scenario-2-using-domain-group-policy"></a>*Cenário 2: usando a política de grupo de domínio*
 Esse cenário usa um script localizado centralmente e o executa usando uma política de grupo baseada em domínio. Você também pode colocar o script na imagem dourada e execute-o da mesma maneira.
 
-**Baixe o WindowsDefenderATPOnboardingPackage.zip do Centro de Segurança Windows Defender de segurança**
+**Baixe o WindowsDefenderATPOnboardingPackage.zip do centro de segurança Windows Defender de segurança**
 
-1. Abra o arquivo .zip do pacote de configuração da VDI (WindowsDefenderATPOnboardingPackage.zip)  
+1. Abra o arquivo de pacote de configuração .zip VDI (WindowsDefenderATPOnboardingPackage.zip)  
 
-    1. No painel de navegação do Centro de Segurança do Microsoft Defender, selecione **Configurações**  >  **integrando**. 
+    1. No painel Central de Segurança do Microsoft Defender de navegação, selecione **Configurações**  >  **Integração**. 
     1. Selecione Windows 10 como o sistema operacional. 
     1. No campo **Método de implantação,** selecione scripts de integração VDI para pontos de extremidade não persistentes. 
-    1. Clique **em Baixar pacote** e salve o arquivo .zip. 
+    1. Clique **em Baixar pacote** e salve o .zip arquivo. 
 
 2. Extraia o conteúdo do arquivo .zip para um local compartilhado somente leitura que pode ser acessado pelo dispositivo. Você deve ter uma pasta chamada **OptionalParamsPolicy** e os arquivos **WindowsDefenderATPOnboardingScript.cmd** e **Onboard-NonPersistentMachine.ps1**.
 
@@ -78,7 +78,7 @@ Esse cenário usa um script localizado centralmente e o executa usando uma polí
 
 2. No Editor de Gerenciamento de Política de Grupo, vá até **Configuração** do computador \> **Configurações Configurações** Do painel \> **Controle de configurações**. 
 
-3. Clique com o botão direito do mouse em **Tarefas Agendadas,** clique em **Novo** e em **Tarefa Imediata** (Pelo menos Windows 7). 
+3. Clique com o botão direito do mouse em **Tarefas Agendadas,** clique em **Novo** e em **Tarefa** Imediata (Pelo menos Windows 7). 
 
 4. Na janela Tarefa aberta, vá para a **guia** Geral. Em **Opções de segurança,** **clique em Alterar Usuário ou Grupo** e digite SISTEMA. Clique **em Verificar Nomes** e clique em OK. NT AUTHORITY\SYSTEM aparece como a conta de usuário que a tarefa executará como. 
 
@@ -96,12 +96,12 @@ Esse cenário usa um script localizado centralmente e o executa usando uma polí
 
 #### <a name="scenario-3-onboarding-using-management-tools"></a>*Cenário 3: Integração usando ferramentas de gerenciamento*
 
-Se você planeja gerenciar seus dispositivos usando uma ferramenta de gerenciamento, poderá integrar dispositivos com o Microsoft Endpoint Configuration Manager.
+Se você planeja gerenciar seus dispositivos usando uma ferramenta de gerenciamento, poderá integrar dispositivos com Microsoft Endpoint Configuration Manager.
 
-Para obter mais informações, consulte [Onboard Windows 10 devices using Configuration Manager](configure-endpoints-sccm.md).
+Para obter mais informações, consulte [Onboard Windows 10 using Configuration Manager](configure-endpoints-sccm.md).
 
 > [!WARNING]
-> Se você planeja usar As Regras de Redução de Superfície de Ataque [,](attack-surface-reduction.md)observe que a regra " Bloquear criações de processo originadas de[comandos PSExec](attack-surface-reduction.md#block-process-creations-originating-from-psexec-and-wmi-commands)e WMI " não deve ser usada, pois essa regra é incompatível com o gerenciamento por meio do Microsoft Endpoint Configuration Manager. A regra bloqueia comandos WMI que o cliente configuration Manager usa para funcionar corretamente. 
+> Se você planeja usar As Regras de Redução de Superfície de Ataque [,](attack-surface-reduction.md)observe que a regra " Bloquear criações de processo originadas de[comandos PSExec](attack-surface-reduction.md#block-process-creations-originating-from-psexec-and-wmi-commands)e WMI " não deve ser usada, pois essa regra é incompatível com o gerenciamento por meio de Microsoft Endpoint Configuration Manager. A regra bloqueia comandos WMI que o cliente configuration Manager usa para funcionar corretamente. 
 
 > [!TIP]
 > Após a integração do dispositivo, você pode optar por executar um teste de detecção para verificar se o dispositivo está corretamente conectado ao serviço. Para obter mais informações, [consulte Execute a detection test on a newly onboarded Microsoft Defender for Endpoint device](run-detection-test.md). 
@@ -144,7 +144,7 @@ Além disso, se você estiver usando perfis de usuário FSlogix, recomendamos ex
 
 `%ProgramFiles%\FSLogix\Apps\frxsvc.exe`
 
-#### <a name="licensing-requirements"></a>Requisitos de licença 
+#### <a name="licensing-requirements"></a>Requisitos de licenciamento 
 
-Observação sobre licenciamento: ao usar várias sessões do Windows 10 Enterprise, dependendo de seus requisitos, você pode optar por ter todos os usuários licenciados por meio do Microsoft Defender para Ponto de Extremidade (por usuário), Windows Enterprise E5, Microsoft 365 Security ou Microsoft 365 E5, ou ter a VM licenciada por meio do Azure Defender.
+Observação sobre licenciamento: ao usar o Windows 10 Enterprise em várias sessões, dependendo de seus requisitos, você pode optar por ter todos os usuários licenciados por meio do Microsoft Defender para Ponto de Extremidade (por usuário), Windows Enterprise E5, Microsoft 365 Security ou Microsoft 365 E5, ou ter a VM licenciada por meio do Azure Defender.
 Os requisitos de licenciamento do Microsoft Defender para ponto de extremidade podem ser encontrados em: [Requisitos de licenciamento.](minimum-requirements.md#licensing-requirements)

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: cc2fcd7410c2f3122fb3ce49a40e93bfa0767331
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 9970bb6d410f39ff5d796dec678a750342f0f599
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539018"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842021"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>Incidentes no Microsoft 365 Defender
 
@@ -185,5 +185,5 @@ Tarefas diárias, mensais, trimestrais e anuais podem ser usadas para atualizar 
 
   - Realize [investigações](investigate-incidents.md) de incidentes.
 
-- Consulte estes [playbooks de resposta](https://docs.microsoft.com/security/compass/incident-response-playbooks) a incidentes para obter orientações detalhadas sobre phishing, pulverização de senha e ataques de concessão de consentimento do aplicativo.
+- Consulte estes [playbooks de resposta](/security/compass/incident-response-playbooks) a incidentes para obter orientações detalhadas sobre phishing, pulverização de senha e ataques de concessão de consentimento do aplicativo.
 

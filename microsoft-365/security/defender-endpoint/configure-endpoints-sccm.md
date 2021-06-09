@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 02/07/2020
 ms.technology: mde
-ms.openlocfilehash: e919f697048840b0eb7bffd34914328fe233f823
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d827fb89a082286b1b7b77ea0a14e588ce171161
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935156"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842189"
 ---
 # <a name="onboard-windows-10-devices-using-configuration-manager"></a>Integrar dispositivo Windows 10 usando o Configuration Manager
 
@@ -32,7 +32,7 @@ ms.locfileid: "51935156"
 
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
-- Filial atual do Microsoft Endpoint Configuration Manager
+- Microsoft Endpoint Configuration Manager branch atual
 - Gerenciador de Configurações do System Center 2012 R2
 
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configureendpointssccm-abovefoldlink)
@@ -43,7 +43,7 @@ Com base na versão do Configuration Manager que você está executando, os segu
 
 #### <a name="configuration-manager-version-1910-and-prior"></a>Configuration Manager versão 1910 e anterior
 
-- Computadores clientes que executam o Windows 10 
+- Clientes que executam computadores Windows 10 
 
 #### <a name="configuration-manager-version-2002-and-later"></a>Configuration Manager versão 2002 e posterior
 
@@ -57,38 +57,38 @@ A partir do Configuration Manager versão 2002, você pode integrar os seguintes
 - Windows Server 2019
 
 >[!NOTE]
->Para obter mais informações sobre como integrar o Windows Server 2012 R2, o Windows Server 2016 e o Windows Server 2019, consulte, [Onboard Windows servers](configure-server-endpoints.md).
+>Para obter mais informações sobre como Windows Server 2012 R2, Windows Server 2016 e Windows Server 2019, consulte Onboard [Windows servers](configure-server-endpoints.md).
 
 
 
-### <a name="onboard-devices-using-system-center-configuration-manager"></a>Dispositivos integrados usando o System Center Configuration Manager
+### <a name="onboard-devices-using-system-center-configuration-manager"></a>Dispositivos de integração usando System Center Configuration Manager
 
 
 [![Imagem do PDF mostrando os vários caminhos de implantação](images/onboard-config-mgr.png)](images/onboard-config-mgr.png#lightbox)
 
 
-Confira o [PDF ou](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)  o  [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) para ver os vários caminhos na implantação do Microsoft Defender para Ponto de Extremidade. 
+Confira o [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) ou [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) para ver os vários caminhos na implantação do Microsoft Defender para Ponto de Extremidade. 
 
 
 
-1. Abra o arquivo .zip do pacote de configuração do Configuration Manager *(WindowsDefenderATPOnboardingPackage.zip*) que você baixou do assistente de integração do serviço. Você também pode obter o pacote do [Centro de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
+1. Abra o arquivo de pacote de configuração do Configuration Manager .zip (*WindowsDefenderATPOnboardingPackage.zip*) que você baixou do assistente de integração do serviço. Você também pode obter o pacote de [Central de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
 
     1. No painel de navegação, selecione **Configurações**  >  **Integração**.
     
     1. Selecione Windows 10 como o sistema operacional.
 
-    1. No campo **Método de** implantação, selecione System Center Configuration **Manager 2012/2012 R2/1511/1602**.
+    1. No campo **método Deployment,** selecione **System Center Configuration Manager 2012/2012 R2/1511/1602**.
     
     1. Selecione **Baixar pacote** e salve o arquivo .zip.
 
 2. Extraia o conteúdo do arquivo .zip para um local compartilhado somente leitura que pode ser acessado pelos administradores de rede que implantarão o pacote. Você deve ter um arquivo chamado *WindowsDefenderATPOnboardingScript.cmd*.
 
-3. Implante o pacote seguindo as etapas no artigo [Pacotes e Programas no System Center 2012 R2 Configuration Manager.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\))
+3. Implante o pacote seguindo as etapas no artigo [Pacotes e Programas no System Center 2012 R2 Configuration Manager.](/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\))
 
     a. Escolha uma coleção de dispositivos predefinida para a qual implantar o pacote.
 
 > [!NOTE]
-> O Defender for Endpoint não dá suporte à integração durante a fase [OOBE (Experiência](https://answers.microsoft.com/en-us/windows/wiki/windows_10/how-to-complete-the-windows-10-out-of-box/47e3f943-f000-45e3-8c5c-9d85a1a0cf87) De Saída). Certifique-se de que os usuários concluam o OOBE após executar a instalação ou a atualização do Windows.
+> O Defender for Endpoint não dá suporte à integração durante a fase [OOBE (Experiência](https://answers.microsoft.com/en-us/windows/wiki/windows_10/how-to-complete-the-windows-10-out-of-box/47e3f943-f000-45e3-8c5c-9d85a1a0cf87) De Saída). Certifique-se de que os usuários concluam o OOBE após Windows instalação ou atualização.
 
 >[!TIP]
 > Após a integração do dispositivo, você pode optar por executar um teste de detecção para verificar se um dispositivo está corretamente conectado ao serviço. Para obter mais informações, [consulte Execute a detection test on a newly onboarded Defender for Endpoint device](run-detection-test.md).
@@ -97,12 +97,12 @@ Confira o [PDF ou](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/publi
 > Se um dispositivo ainda não estiver conectado (devido à conclusão pendente do OOBE ou qualquer outro motivo), o Configuration Manager repetirá a integração do dispositivo até que a regra detecte a alteração de status.
 > 
 > Esse comportamento pode ser realizado criando uma verificação de regra de detecção se o valor do Registro "OnboardingState" (do tipo REG_DWORD) = 1.
-> Esse valor do Registro está localizado em "HKLM\SOFTWARE\Microsoft\Proteção Avançada contra Ameaças do Windows\Status".
-Para obter mais informações, [consulte Configure Detection Methods in System Center 2012 R2 Configuration Manager](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682159\(v=technet.10\)#step-4-configure-detection-methods-to-indicate-the-presence-of-the-deployment-type).
+> Esse valor do Registro está localizado em "HKLM\SOFTWARE\Microsoft\Windows Proteção Avançada contra Ameaças\Status".
+Para obter mais informações, [consulte Configure Detection Methods in System Center 2012 R2 Configuration Manager](/previous-versions/system-center/system-center-2012-R2/gg682159\(v=technet.10\)#step-4-configure-detection-methods-to-indicate-the-presence-of-the-deployment-type).
 
 ### <a name="configure-sample-collection-settings"></a>Configurar configurações de coleção de exemplos
 
-Para cada dispositivo, você pode definir um valor de configuração para determinar se amostras podem ser coletadas do dispositivo quando uma solicitação é feita por meio do Centro de Segurança do Microsoft Defender para enviar um arquivo para análise profunda.
+Para cada dispositivo, você pode definir um valor de configuração para determinar se amostras podem ser coletadas do dispositivo quando uma solicitação é feita por meio do Central de Segurança do Microsoft Defender enviar um arquivo para análise profunda.
 
 >[!NOTE]
 >Essas configurações geralmente são feitas por meio do Configuration Manager. 
@@ -127,7 +127,7 @@ Os valores possíveis são:
 
 O valor padrão caso a chave do Registro não exista é 1.
 
-Para obter mais informações sobre a Conformidade do System Center Configuration Manager, consulte Introdução às configurações de conformidade no [System Center 2012 R2 Configuration Manager](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\)).
+Para obter mais informações sobre System Center Configuration Manager Conformidade, consulte Introdução às configurações de conformidade [no System Center 2012 R2 Configuration Manager](/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\)).
 
 
 ## <a name="other-recommended-configuration-settings"></a>Outras configurações recomendadas
@@ -173,25 +173,25 @@ Por motivos de segurança, o pacote usado para dispositivos offboard expirará 3
 > [!NOTE]
 > As políticas de integração e de offboard não devem ser implantadas no mesmo dispositivo ao mesmo tempo, caso contrário, isso causará colisões imprevisíveis.
 
-### <a name="offboard-devices-using-microsoft-endpoint-manager-current-branch"></a>Dispositivos de offboard usando a ramificação atual do Microsoft Endpoint Manager
+### <a name="offboard-devices-using-microsoft-endpoint-manager-current-branch"></a>Dispositivos de offboard usando Microsoft Endpoint Manager ramificação atual
 
-Se você usar a ramificação atual do Microsoft Endpoint Manager, consulte [Create an offboarding configuration file](https://docs.microsoft.com/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#create-an-offboarding-configuration-file).
+Se você usar Microsoft Endpoint Manager ramificação atual, consulte [Create an offboarding configuration file](/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#create-an-offboarding-configuration-file).
 
-### <a name="offboard-devices-using-system-center-2012-r2-configuration-manager"></a>Dispositivos de offboard usando o System Center 2012 R2 Configuration Manager
+### <a name="offboard-devices-using-system-center-2012-r2-configuration-manager"></a>Dispositivos de offboard usando System Center 2012 R2 Configuration Manager
 
-1. Obter o pacote de offboarding do [Centro de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
+1. Obter o pacote de offboard de [Central de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
 
-    1. No painel de navegação, selecione **Configurações**  >   **offboarding**.
+    1. No painel de navegação, selecione **Configurações**  >   **Offboarding**.
 
     1. Selecione Windows 10 como o sistema operacional.
 
-    1. No campo **Método de** implantação, selecione System Center Configuration **Manager 2012/2012 R2/1511/1602**.
+    1. No campo **método Deployment,** selecione **System Center Configuration Manager 2012/2012 R2/1511/1602**.
     
     1. Selecione **Baixar pacote** e salve o arquivo .zip.
 
 2. Extraia o conteúdo do arquivo .zip para um local compartilhado somente leitura que pode ser acessado pelos administradores de rede que implantarão o pacote. Você deve ter um arquivo chamado *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd*.
 
-3. Implante o pacote seguindo as etapas no artigo [Pacotes e Programas no System Center 2012 R2 Configuration Manager.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\))
+3. Implante o pacote seguindo as etapas no artigo [Pacotes e Programas no System Center 2012 R2 Configuration Manager.](/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\))
 
     a. Escolha uma coleção de dispositivos predefinida para a qual implantar o pacote.
 
@@ -201,7 +201,7 @@ Se você usar a ramificação atual do Microsoft Endpoint Manager, consulte [Cre
 
 ## <a name="monitor-device-configuration"></a>Monitorar a configuração do dispositivo
 
-Se você estiver usando a filial atual do Microsoft Endpoint Manager, use o painel integrado do Defender para Ponto de Extremidade no console do Configuration Manager. Para obter mais informações, consulte [Defender for Endpoint - Monitor](https://docs.microsoft.com/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#monitor).
+Se você estiver usando Microsoft Endpoint Manager filial atual, use o painel do Defender para Ponto de Extremidade integrado no console do Configuration Manager. Para obter mais informações, consulte [Defender for Endpoint - Monitor](/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#monitor).
 
 Se você estiver usando o System Center 2012 R2 Configuration Manager, o monitoramento consiste em duas partes:
 
@@ -237,10 +237,10 @@ Name: "OnboardingState"
 Value: "1"
 ```
 
-Para obter mais informações, consulte Introdução às configurações de conformidade [no System Center 2012 R2 Configuration Manager](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\)).
+Para obter mais informações, consulte [Introdução às configurações de conformidade no System Center 2012 R2 Configuration Manager](/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\)).
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Integração de dispositivos Windows 10 usando a Política de Grupo](configure-endpoints-gp.md)
+- [Integração Windows 10 usando a Política de Grupo](configure-endpoints-gp.md)
 - [Integrar dispositivo Windows 10 usando as ferramentas de Gerenciamento de Dispositivo Móvel](configure-endpoints-mdm.md)
 - [Integrar dispositivos Windows 10 usando um script local](configure-endpoints-script.md)
 - [Dispositivos integrados de VDI (Virtual Desktop Infrastructure) não persistente](configure-endpoints-vdi.md)

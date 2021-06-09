@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 481051b74c1be88ba78bbd44e4fc0c174ed0bdad
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: fb87f36c5289d622df2615046c5bb2fd8fad9543
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470888"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842237"
 ---
 # <a name="create-indicators"></a>Criar indicadores
 
@@ -40,7 +40,7 @@ O indicador de correspondência de comprometimento (IoCs) é um recurso essencia
 
 Crie indicadores que definem a detecção, a prevenção e a exclusão de entidades. Você pode definir a ação a ser tomada, bem como a duração para quando aplicar a ação, bem como o escopo do grupo de dispositivos ao qual aplicá-la.
 
-As fontes atualmente suportadas são o mecanismo de detecção de nuvem do Defender for Endpoint, o mecanismo automatizado de investigação e correção e o mecanismo de prevenção de ponto de extremidade (Microsoft Defender Antivírus).
+As fontes atualmente suportadas são o mecanismo de detecção de nuvem do Defender para Ponto de Extremidade, o mecanismo automatizado de investigação e correção e o mecanismo de prevenção de ponto de extremidade (Microsoft Defender Antivírus).
 
 **Mecanismo de detecção de nuvem**<br>
 O mecanismo de detecção de nuvem do Defender para Ponto de Extremidade verifica regularmente os dados coletados e tenta corresponder aos indicadores definidos. Quando houver uma combinação, a ação será tomada de acordo com as configurações especificadas para o IoC.
@@ -68,7 +68,7 @@ Você pode criar um indicador para:
 
 
 > [!NOTE]
-> Há um limite de 15.000 indicadores por locatário. Os indicadores de arquivo e certificado não bloqueiam [exclusões definidas para o Microsoft Defender Antivírus.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus) Os indicadores não são suportados no Microsoft Defender Antivírus quando ele está no modo passivo. 
+> Há um limite de 15.000 indicadores por locatário. Os indicadores de arquivo e certificado não bloqueiam [as exclusões definidas para Microsoft Defender Antivírus](/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus). Os indicadores não são suportados Microsoft Defender Antivírus quando estão no modo passivo. 
 
 
 ## <a name="related-topics"></a>Tópicos relacionados

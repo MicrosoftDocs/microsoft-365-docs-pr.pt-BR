@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 5ea847e822e094049dd8f0b941f22f3bb4f7eff4
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 6e65a12f42b9f5f75c1a19cb9c4a261c94feaf31
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297171"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841709"
 ---
 # <a name="introduction-to-responding-to-your-first-incident"></a>Introdução à resposta ao seu primeiro incidente
 
@@ -69,6 +69,6 @@ Exemplos adicionais de primeiras respostas a incidentes:
 - [Email de phishing](first-incident-path-phishing.md)
 - [Ataque de base de identidade](first-incident-path-identity.md)
 
-[Playbooks de resposta a incidentes detalhados](https://docs.microsoft.com/security/compass/incident-response-playbooks)
+[Playbooks de resposta a incidentes detalhados](/security/compass/incident-response-playbooks)
 
 

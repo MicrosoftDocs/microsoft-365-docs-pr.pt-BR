@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e08781455888595d57bd8a9e6f792796ea1853cd
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 6447aa4182846020312e9be870c5548d9415ac71
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684202"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842825"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-macos"></a>Implantar atualizações do Microsoft Defender para Ponto de Extremidade no macOS
 
@@ -48,7 +48,7 @@ Se você decidir implantar atualizações usando suas ferramentas de distribuiç
 
 ## <a name="use-msupdate"></a>Usar o msupdate
 
-O MAU inclui uma ferramenta de linha de comando, chamada *msupdate*, projetada para administradores de IT para que eles tenham um controle mais preciso sobre quando as atualizações são aplicadas. As instruções sobre como usar essa ferramenta podem ser encontradas em [Update Office para Mac usando msupdate](https://docs.microsoft.com/deployoffice/mac/update-office-for-mac-using-msupdate).
+O MAU inclui uma ferramenta de linha de comando, chamada *msupdate*, projetada para administradores de IT para que eles tenham um controle mais preciso sobre quando as atualizações são aplicadas. As instruções sobre como usar essa ferramenta podem ser encontradas em [Update Office para Mac usando msupdate](/deployoffice/mac/update-office-for-mac-using-msupdate).
 
 No MAU, o identificador de aplicativo do Microsoft Defender para Ponto de Extremidade no macOS é *WDAV00*. Para baixar e instalar as atualizações mais recentes do Microsoft Defender para Ponto de Extremidade no macOS, execute o seguinte comando de uma janela de Terminal:
 
@@ -256,4 +256,4 @@ Para configurar o MAU, você pode implantar esse perfil de configuração a part
 
 ## <a name="resources"></a>Recursos
 
-- [referência msupdate](https://docs.microsoft.com/deployoffice/mac/update-office-for-mac-using-msupdate)
+- [referência msupdate](/deployoffice/mac/update-office-for-mac-using-msupdate)

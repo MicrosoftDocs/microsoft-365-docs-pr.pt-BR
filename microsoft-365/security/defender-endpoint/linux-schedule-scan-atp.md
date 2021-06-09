@@ -16,16 +16,16 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f868570fccf9b30cde5f16aa8e71292fb8b09497
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 5a4beaefb2fcc12d46cf61c22644217dce1807a6
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933128"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845361"
 ---
 # <a name="schedule-scans-with-microsoft-defender-for-endpoint-linux"></a>Agendar verificações com o Microsoft Defender para Ponto de Extremidade (Linux)
 
-Para executar uma verificação para Linux, consulte [Comandos com Suporte.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-resources#supported-commands)
+Para executar uma verificação para Linux, consulte [Comandos com Suporte.](/microsoft-365/security/defender-endpoint/linux-resources#supported-commands)
 
 O Linux (e o Unix) têm uma ferramenta chamada **crontab** (semelhante ao Agendador de Tarefas) para poder executar tarefas agendadas.
 

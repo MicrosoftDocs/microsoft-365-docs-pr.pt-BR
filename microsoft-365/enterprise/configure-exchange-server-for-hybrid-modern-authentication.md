@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar um Exchange Server local para usar a Autenticação Moderna HÍbrida (HMA), oferecendo a você uma autenticação e autorização de usuário mais seguras.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f52b7c011b717c5dcb91270ab0a7dd2015131c0e
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: d30d1b2b14efd66d973e9bf6d45b970d7af681bc
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694444"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841625"
 ---
 # <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>Como configurar o Exchange Server no local para usar a autenticação moderna híbrida
 
@@ -183,12 +183,12 @@ Você também deve segurar a tecla CTRL ao mesmo tempo em que clica com o botão
 
 Se você for um cliente local usando um servidor Exchange TCP 443, ignore o processamento de tráfego para os seguintes intervalos de endereços IP:
 
-```
+```text
 52.125.128.0/20
 52.127.96.0/23
 ```
 
-O aplicativo Outlook para iOS e Android foi projetado como a melhor maneira de experimentar Microsoft 365 ou Office 365 em seu dispositivo móvel usando o serviços Microsoft para ajudar a encontrar, planejar e priorizar sua vida diária e trabalho. Para obter mais informações, consulte [Using hybrid Modern Authentication with Outlook for iOS and Android](https://docs.microsoft.com/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth?view=exchserver-2019).
+O aplicativo Outlook para iOS e Android foi projetado como a melhor maneira de experimentar Microsoft 365 ou Office 365 em seu dispositivo móvel usando o serviços Microsoft para ajudar a encontrar, planejar e priorizar sua vida diária e trabalho. Para obter mais informações, consulte [Using hybrid Modern Authentication with Outlook for iOS and Android](/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

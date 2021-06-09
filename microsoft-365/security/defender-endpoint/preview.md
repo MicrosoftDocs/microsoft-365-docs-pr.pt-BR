@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4612fbb2005145feae7bbcf9309c1ec9559a5a0d
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 6c77762de4dbd70922eb5623f801837bf6454ec7
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636065"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842357"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>Recursos de visualização do Microsoft Defender para Ponto de Extremidade
 
@@ -44,7 +44,7 @@ O serviço Defender para Ponto de Extremidade está constantemente sendo atualiz
 Saiba mais sobre os novos recursos na versão de visualização do Defender para Ponto de Extremidade e entre os primeiros a experimentar os recursos futuros, ligando a experiência de visualização.
 
 >[!TIP]
->Receba notificado quando esta página for atualizada copiando e colar a seguinte URL no leitor de feed: `https://docs.microsoft.com/api/search/rss?search=%22In+the+navigation+pane%2C+select+Settings+%3E+Advanced+features+%3E+Preview+features.%22&locale=en-us&facet=`
+>Receba notificado quando esta página for atualizada copiando e colar a seguinte URL no leitor de feed: `/api/search/rss?search=%22In+the+navigation+pane%2C+select+Settings+%3E+Advanced+features+%3E+Preview+features.%22&locale=en-us&facet=`
 
 Para obter mais informações sobre novos recursos que geralmente estão disponíveis, consulte [Novidades no Defender para Ponto de Extremidade](whats-new-in-microsoft-defender-atp.md).
 

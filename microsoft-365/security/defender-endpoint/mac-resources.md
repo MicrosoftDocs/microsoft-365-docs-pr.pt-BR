@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 29e9eefdf85c80b6d3c44eba01d0df57be0193a4
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: fa5d5b4470644e1ff50af46a8dd3f035cd9b3184
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346385"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842861"
 ---
 # <a name="resources-for-microsoft-defender-for-endpoint-on-macos"></a>Recursos para o Microsoft Defender para Ponto de Extremidade no macOS
 
@@ -97,7 +97,7 @@ Há várias maneiras de desinstalar o Microsoft Defender para o Ponto de Extremi
 
 Tarefas importantes, como controlar as configurações do produto e disparar verificações sob demanda, podem ser feitas a partir da linha de comando:
 
-|Grupo        |Cenário                                   |Comando                                                                           |
+|Group        |Cenário                                   |Comando                                                                           |
 |-------------|-------------------------------------------|----------------------------------------------------------------------------------|
 |Configuração|Ativar/desativar a proteção em tempo real           |`mdatp config real-time-protection --value [enabled/disabled]`                    |
 |Configuração|Ativar/desativar a proteção de nuvem               |`mdatp config cloud --value [enabled/disabled]`                                   |
@@ -119,7 +119,7 @@ Tarefas importantes, como controlar as configurações do produto e disparar ver
 |Proteção   |Fazer uma verificação completa                             |`mdatp scan full`                                                                 |
 |Proteção   |Cancelar uma verificação contínua sob demanda           |`mdatp scan cancel`                                                               |
 |Proteção   |Solicitar uma atualização de inteligência de segurança     |`mdatp definitions update`                                                        |
-|EDR          |Adicione a marca de grupo ao dispositivo. EDR marcas são usadas para gerenciar grupos de dispositivos. Para obter mais informações, visite https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups |`mdatp edr tag set --name GROUP --value [name]` |
+|EDR          |Adicione a marca de grupo ao dispositivo. EDR marcas são usadas para gerenciar grupos de dispositivos. Para obter mais informações, visite /microsoft-365/security/defender-endpoint/machine-groups |`mdatp edr tag set --name GROUP --value [name]` |
 |EDR          |Remover a marca de grupo do dispositivo               |`mdatp edr tag remove --tag-name [name]`                                          |
 |EDR          |Adicionar ID de Grupo                               |`mdatp edr group-ids --group-id [group]`                                          |
 

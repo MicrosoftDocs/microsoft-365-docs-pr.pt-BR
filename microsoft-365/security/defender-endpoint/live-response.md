@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fc1c1e0d3f68016651c04521e04ce348e5ab9a65
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: d5e48f1e4f6bc2cfaa836d90e24f2ce8ba3f2114
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246460"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845325"
 ---
 # <a name="investigate-entities-on-devices-using-live-response"></a>Investigar entidades em dispositivos usando a resposta ao vivo
 
@@ -55,11 +55,11 @@ Antes de iniciar uma sessão em um dispositivo, certifique-se de atender aos seg
 Os dispositivos devem estar executando uma das seguintes versões do Windows
 
   - **Windows 10**
-    - [Versão 1909](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1909) ou posterior  
-    - [Versão 1903](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1903) com [KB4515384](https://support.microsoft.com/en-us/help/4515384/windows-10-update-kb4515384)
-    - [Versão 1809 (RS 5)](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1809) com [KB4537818](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818)
-    - [Versão 1803 (RS 4)](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1803) com [KB4537795](https://support.microsoft.com/help/4537795/windows-10-update-kb4537795)
-    - [Versão 1709 (RS 3)](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) com [KB4537816](https://support.microsoft.com/help/4537816/windows-10-update-kb4537816)
+    - [Versão 1909](/windows/whats-new/whats-new-windows-10-version-1909) ou posterior  
+    - [Versão 1903](/windows/whats-new/whats-new-windows-10-version-1903) com [KB4515384](https://support.microsoft.com/en-us/help/4515384/windows-10-update-kb4515384)
+    - [Versão 1809 (RS 5)](/windows/whats-new/whats-new-windows-10-version-1809) com [KB4537818](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818)
+    - [Versão 1803 (RS 4)](/windows/whats-new/whats-new-windows-10-version-1803) com [KB4537795](https://support.microsoft.com/help/4537795/windows-10-update-kb4537795)
+    - [Versão 1709 (RS 3)](/windows/whats-new/whats-new-windows-10-version-1709) com [KB4537816](https://support.microsoft.com/help/4537816/windows-10-update-kb4537816)
   
   - **Windows Server 2019 - Somente aplicável para visualização pública**
     - Versão 1903 ou (com [KB4515384](https://support.microsoft.com/en-us/help/4515384/windows-10-update-kb4515384)) posteriormente 
@@ -172,7 +172,7 @@ Os comandos a seguir estão disponíveis para funções de usuário que têm a c
 
 ## <a name="use-live-response-commands"></a>Usar comandos de resposta ao vivo
 
-Os comandos que você pode usar no console seguem princípios semelhantes aos [Windows Comandos](https://docs.microsoft.com/windows-server/administration/windows-commands/windows-commands#BKMK_c).
+Os comandos que você pode usar no console seguem princípios semelhantes aos [Windows Comandos](/windows-server/administration/windows-commands/windows-commands#BKMK_c).
 
 Os comandos avançados oferecem um conjunto mais robusto de ações que permitem que você tome ações mais poderosas, como baixar e carregar um arquivo, executar scripts no dispositivo e executar ações de correção em uma entidade.
 

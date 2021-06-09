@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 81a3b41fb8e38a224a030571093b2145d2efb3d4
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: f607e36cef85f30fa1d6e073da871ac1c140684c
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593424"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841829"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>Integração Windows 10 usando a Política de Grupo 
 
@@ -62,7 +62,7 @@ Confira o [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/m
 
 2. Extraia o conteúdo do arquivo .zip para um local compartilhado somente leitura que pode ser acessado pelo dispositivo. Você deve ter uma pasta chamada *OptionalParamsPolicy* e o *arquivo WindowsDefenderATPOnboardingScript.cmd*.
 
-3. Abra o [Console de Gerenciamento de Política](https://docs.microsoft.com/internet-explorer/ie11-deploy-guide/group-policy-and-group-policy-mgmt-console-ie11) de Grupo (GPMC), clique com o botão direito do mouse no Objeto de Política de Grupo (GPO) que você deseja configurar e clique em **Editar**.
+3. Abra o [Console de Gerenciamento de Política](/internet-explorer/ie11-deploy-guide/group-policy-and-group-policy-mgmt-console-ie11) de Grupo (GPMC), clique com o botão direito do mouse no Objeto de Política de Grupo (GPO) que você deseja configurar e clique em **Editar**.
 
 4. No Editor **de Gerenciamento de Política de Grupo,** vá para **Configuração** do computador, **Preferências** e configurações **do painel de controle.**
 
@@ -97,7 +97,7 @@ Você pode usar a Política de Grupo (GP) para definir configurações, como con
 
     - Copiar _AtpConfiguration.adml_ em _\\ \\ \<forest.root\> \\ Políticas SysVol \\ \<forest.root\> \\ \\ PolicyDefinitions \\ en-US_
 
-2.  Abra o [Console de Gerenciamento de Política de Grupo](https://docs.microsoft.com/internet-explorer/ie11-deploy-guide/group-policy-and-group-policy-mgmt-console-ie11), clique com o botão direito do mouse no GPO que você deseja configurar e clique em **Editar**.
+2.  Abra o [Console de Gerenciamento de Política de Grupo](/internet-explorer/ie11-deploy-guide/group-policy-and-group-policy-mgmt-console-ie11), clique com o botão direito do mouse no GPO que você deseja configurar e clique em **Editar**.
 
 3.  No Editor **de Gerenciamento de Política de Grupo,** acesse **Configuração do computador**.
 
@@ -148,7 +148,7 @@ Enviar amostras de arquivo quando uma análise posterior for necessária | Habil
 
 Política | Configuração 
 :---|:---
-Desativar a proteção em tempo real|Desabilitada
+Desativar a proteção em tempo real|Desabilitado
 Ativar o monitoramento de comportamento|Habilitado
 Examinar todos os arquivos e anexos baixados|Habilitado
 Monitorar atividades de arquivo e programa em seu computador|Habilitado
@@ -208,7 +208,7 @@ Por motivos de segurança, o pacote usado para dispositivos offboard expirará 3
 
 2. Extraia o conteúdo do arquivo .zip para um local compartilhado somente leitura que pode ser acessado pelo dispositivo. Você deve ter um arquivo chamado *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd*.
 
-3. Abra o [Console de Gerenciamento de Política](https://docs.microsoft.com/internet-explorer/ie11-deploy-guide/group-policy-and-group-policy-mgmt-console-ie11) de Grupo (GPMC), clique com o botão direito do mouse no Objeto de Política de Grupo (GPO) que você deseja configurar e clique em **Editar**.
+3. Abra o [Console de Gerenciamento de Política](/internet-explorer/ie11-deploy-guide/group-policy-and-group-policy-mgmt-console-ie11) de Grupo (GPMC), clique com o botão direito do mouse no Objeto de Política de Grupo (GPO) que você deseja configurar e clique em **Editar**.
 
 4. No Editor **de Gerenciamento de Política de Grupo,** vá para Configuração do **computador,** **Preferências** e configurações **do painel de controle.**
 

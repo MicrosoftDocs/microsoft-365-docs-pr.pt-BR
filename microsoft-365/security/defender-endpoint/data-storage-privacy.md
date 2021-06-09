@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2279045093ebfac4a7eb4544a3e0c137c08c9c0c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 0258b2cdbff4a8b20be42e508863985c7402f609
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935384"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845505"
 ---
 # <a name="microsoft-defender-for-endpoint-data-storage-and-privacy"></a>Privacidade e armazenamento de dados do Microsoft Defender para Ponto de Extremidade
 
@@ -35,7 +35,7 @@ ms.locfileid: "51935384"
 
 Esta seção aborda algumas das perguntas mais frequentes sobre privacidade e tratamento de dados para o Defender para Ponto de Extremidade.
 > [!NOTE]
-> Este documento explica os detalhes de armazenamento de dados e privacidade relacionados ao Defender for Endpoint. Para obter mais informações relacionadas ao Defender para Ponto de Extremidade e a outros produtos e serviços, como o Microsoft Defender Antivírus e o Windows 10, consulte [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?linkid=827576). Consulte também Perguntas frequentes sobre privacidade do [Windows 10](https://go.microsoft.com/fwlink/?linkid=827577) para obter mais informações.
+> Este documento explica os detalhes de armazenamento de dados e privacidade relacionados ao Defender for Endpoint. Para obter mais informações relacionadas ao Defender para Ponto de Extremidade e a outros produtos e serviços como Microsoft Defender Antivírus e Windows 10, consulte [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?linkid=827576). Consulte também [Windows 10 perguntas frequentes sobre privacidade](https://go.microsoft.com/fwlink/?linkid=827577) para obter mais informações.
 
 
 ## <a name="what-data-does-microsoft-defender-for-endpoint-collect"></a>Quais dados o Microsoft Defender for Endpoint coleta?
@@ -44,7 +44,7 @@ O Microsoft Defender for Endpoint coletará e armazenará informações de seus 
 
 As informações coletadas incluem dados de arquivo (como nomes de arquivo, tamanhos e hashes), dados de processo (processos em execução, hashes), dados do Registro, dados de conexão de rede (IPs de host e portas) e detalhes do dispositivo (como identificadores de dispositivo, nomes e a versão do sistema operacional).
 
-A Microsoft armazena esses dados com segurança no Microsoft Azure e os mantém de acordo com as práticas de privacidade da Microsoft e com as políticas do Centro de [Confiação da Microsoft.](https://go.microsoft.com/fwlink/?linkid=827578)
+A Microsoft armazena esses dados com segurança no Microsoft Azure e os mantém de acordo com as práticas de privacidade da Microsoft e com as políticas [do Centro de Confiação da Microsoft.](https://go.microsoft.com/fwlink/?linkid=827578)
 
 Esses dados permitem que o Defender para o Ponto de Extremidade:
 - Identificar proativamente indicadores de ataque (IOAs) em sua organização
@@ -54,16 +54,16 @@ Esses dados permitem que o Defender para o Ponto de Extremidade:
 A Microsoft não usa seus dados para publicidade.
 
 ## <a name="data-protection-and-encryption"></a>Proteção e criptografia de dados
-O serviço Defender para Ponto de Extremidade utiliza tecnologias de proteção de dados de última geração que se baseiam na infraestrutura do Microsoft Azure. 
+O serviço Defender para Ponto de Extremidade utiliza tecnologias de proteção de dados de última geração que se baseiam na Microsoft Azure infraestrutura. 
 
-Há vários aspectos relevantes para a proteção de dados que nosso serviço cuida. A criptografia é uma das mais críticas e inclui criptografia de dados em repouso, criptografia em voo e gerenciamento de chaves com o Key Vault. Para obter mais informações sobre outras tecnologias usadas pelo serviço Defender for Endpoint, consulte Visão geral da [criptografia do Azure.](https://docs.microsoft.com/azure/security/security-azure-encryption-overview) 
+Há vários aspectos relevantes para a proteção de dados que nosso serviço cuida. A criptografia é uma das mais críticas e inclui criptografia de dados em repouso, criptografia em voo e gerenciamento de chaves com o Key Vault. Para obter mais informações sobre outras tecnologias usadas pelo serviço Defender for Endpoint, consulte Visão geral da [criptografia do Azure.](/azure/security/security-azure-encryption-overview) 
 
 Em todos os cenários, os dados são criptografados usando a criptografia [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) de 256 bits no mínimo.
 
 
 ## <a name="data-storage-location"></a>Local de armazenamento de dados
 
-O Defender for Endpoint opera nos datacenters do Microsoft Azure na União Europeia, no Reino Unido ou nos Estados Unidos. Os dados do cliente coletados pelo serviço podem ser armazenados em: (a) a localização geográfica do locatário conforme identificado durante o provisionamento ou, (b) se o Defender for Endpoint usa outro serviço online da Microsoft para processar esses dados, a localização geográfica conforme definido pelas regras de armazenamento de dados desse outro serviço online.
+O Defender for Endpoint opera nos Microsoft Azure datacenters na União Europeia, no Reino Unido ou nos Estados Unidos. Os dados do cliente coletados pelo serviço podem ser armazenados em: (a) a localização geográfica do locatário conforme identificado durante o provisionamento ou, (b) se o Defender for Endpoint usa outro serviço online da Microsoft para processar esses dados, a localização geográfica conforme definido pelas regras de armazenamento de dados desse outro serviço online.
 
 Os dados do cliente em formato pseudonimizado também podem ser armazenados nos sistemas de armazenamento e processamento central nos Estados Unidos.
 
@@ -82,7 +82,7 @@ Os desenvolvedores e administradores da Microsoft receberam, por design, privil�
 
 Além disso, a Microsoft realiza verificações de verificação em segundo plano de determinadas equipes de operações e limita o acesso a aplicativos, sistemas e infraestrutura de rede em proporção ao nível de verificação em segundo plano. A equipe de operações segue um processo formal quando é necessário acessar a conta de um cliente ou informações relacionadas no desempenho de suas obrigações.
 
-O acesso aos dados para serviços implantados nos data centers do Microsoft Azure Government só é concedido a funcionários operacionais que foram selecionados e aprovados para lidar com dados sujeitos a determinados regulamentos e requisitos governamentais, como FedRAMP, NIST 800.171 (DIB), ITAR, IRS 1075, DoD L4 e CJIS.
+O acesso aos dados para serviços implantados no Microsoft Azure data centers do Governo só é concedido a funcionários operacionais que foram selecionados e aprovados para lidar com dados sujeitos a determinados regulamentos e requisitos governamentais, como FedRAMP, NIST 800.171 (DIB), ITAR, IRS 1075, DoD L4 e CJIS.
 
 
 ## <a name="is-data-shared-with-other-customers"></a>Os dados são compartilhados com outros clientes?

@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: f025f23242c28f698e6f67755cc59d21c4463914
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: c8d3838194c25ba49b2611dc355b21e228291b01
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782940"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842519"
 ---
 # <a name="remediation-actions-in-microsoft-365-defender"></a>Ações de correção no Microsoft 365 Defender
 
@@ -74,7 +74,7 @@ Além das ações de correção que seguem investigações automatizadas, sua eq
 - Ação de email manual, como a exclusão suave de mensagens de email 
 - [Ação de busca](../defender-endpoint/advanced-hunting-overview.md) avançada em dispositivos ou email
 - [Ação](../office-365-security/threat-explorer.md) do Explorer no conteúdo de email, como a movimentação de emails para lixo eletrônico, a exclusão de emails ou a exclusão direta de emails
-- Ação [de resposta ao vivo](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) manual, como excluir um arquivo, interromper um processo e remover uma tarefa agendada
+- Ação [de resposta ao vivo](/windows/security/threat-protection/microsoft-defender-atp/live-response) manual, como excluir um arquivo, interromper um processo e remover uma tarefa agendada
 - Ação de resposta ao vivo com [o Microsoft Defender para APIs](../defender-endpoint/management-apis.md#microsoft-defender-for-endpoint-apis)de ponto de extremidade , como isolar um dispositivo, executar uma verificação antivírus e obter informações sobre um arquivo
 
 ## <a name="next-steps"></a>Próximas etapas

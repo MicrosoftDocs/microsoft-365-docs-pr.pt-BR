@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: a107c6364e6766094724972e931606003e0c87f7
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 3346f6b4d05eb514bf680f87eb8452d9fd4bab38
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445191"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841985"
 ---
 # <a name="microsoft-managed-desktop-service-description"></a>Descrição do serviço da Área de Trabalho Gerenciada da Microsoft
 
@@ -27,7 +27,7 @@ A Área de Trabalho Gerenciada da Microsoft é um serviço que fornece a seus us
 - Configuração de dispositivos
 - Recursos para manter os usuários e dispositivos seguros, incluindo o Windows Hello, BitLocker, SecureBoot e a segurança baseada em virtualização, de acordo com as práticas recomendadas da Microsoft
 - Serviços de monitoramento e correção de segurança do dispositivo
-- Compatibilidade do aplicativo, por meio da [Garantia de Aplicativo](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure)
+- Compatibilidade do aplicativo, por meio da [Garantia de Aplicativo](/fasttrack/products-and-capabilities#app-assure)
 - Gerenciamento de atualizações do Windows 10 e aplicativos do Microsoft 365 Apps para Grandes Empresas
 - Dados analíticos sobre o uso de dispositivos e aplicativos
 - Suporte de TI para seus usuários

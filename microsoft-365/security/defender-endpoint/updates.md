@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: f5db08e4eb98dd3fe6f7e8a84fb0c49e889fb73f
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 435a77432caa9d7335a22993f85cae69eff6cd38
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809207"
+ms.locfileid: "52841757"
 ---
 #  <a name="manage-the-gradual-rollout-process-for-microsoft-defender-updates"></a>Gerenciar o processo de lançamento gradual para atualizações do Microsoft Defender
 
@@ -56,7 +56,7 @@ O seguinte modelo de lançamento gradual é seguido:
 
 1. A primeira versão sai para assinantes do canal Beta.
 2. Após validação, comentários e correções, iniciamos o processo de distribuição gradual de maneira acelerada e primeiro visualizamos os assinantes do canal.
-3. Em seguida, prosseguiremos para liberar o ato de atualização do restante da população global, dimensionando de 10 a 100%.
+3. Em seguida, prosseguiremos para liberar a atualização para o restante da população global, dimensionando de 10 a 100%.
 
 Nossos engenheiros monitoram continuamente o impacto e escalonam quaisquer problemas para criar uma correção conforme necessário.
 

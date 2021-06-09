@@ -17,12 +17,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: b937dd41f0296f2cf4102f41f8ab10bd55e1c35d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 7c471dc99a5deafcc60177812f60f1f884b10ee1
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200276"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845565"
 ---
 # <a name="protect-important-folders-with-controlled-folder-access"></a>Proteger pastas importantes com acesso controlado a pastas
 
@@ -36,10 +36,10 @@ ms.locfileid: "51200276"
 
 ## <a name="what-is-controlled-folder-access"></a>O que é acesso controlado a pastas?
 
-O acesso controlado a pastas ajuda a proteger seus dados valiosos contra aplicativos mal-intencionados e ameaças, como ransomware. O acesso controlado a pastas protege seus dados verificando aplicativos em uma lista de aplicativos conhecidos e confiáveis. Com suporte nos clientes do Windows Server 2019 e do Windows 10, o acesso controlado a pastas pode ser ligado usando o Aplicativo de Segurança do Windows, o Microsoft Endpoint Configuration Manager ou o Intune (para dispositivos gerenciados). 
+O acesso controlado a pastas ajuda a proteger seus dados valiosos contra aplicativos mal-intencionados e ameaças, como ransomware. O acesso controlado a pastas protege seus dados verificando aplicativos em uma lista de aplicativos conhecidos e confiáveis. Com suporte nos clientes Windows Server 2019 e Windows 10, o acesso controlado a pastas pode ser ligado usando o aplicativo Segurança do Windows, o Microsoft Endpoint Configuration Manager ou o Intune (para dispositivos gerenciados). 
 
 > [!NOTE]
-> Os mecanismos de script não são confiáveis e você não pode permitir que eles acessem pastas protegidas controladas.  Por exemplo, o PowerShell não é confiável por acesso controlado a pastas, mesmo que você permita com indicadores [de certificado e arquivo.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/indicator-certificates) 
+> Os mecanismos de script não são confiáveis e você não pode permitir que eles acessem pastas protegidas controladas.  Por exemplo, o PowerShell não é confiável por acesso controlado a pastas, mesmo que você permita com indicadores [de certificado e arquivo.](/microsoft-365/security/defender-endpoint/indicator-certificates) 
 
 O acesso controlado a pastas funciona melhor com o [Microsoft Defender para Ponto](microsoft-defender-endpoint.md)de Extremidade , que fornece relatórios detalhados sobre eventos e blocos de acesso controlado a pastas como parte dos cenários de investigação de [alertas usuais.](investigate-alerts.md)
 
@@ -62,15 +62,15 @@ O acesso controlado a pastas é especialmente útil para ajudar a proteger seus 
 
 As [pastas protegidas incluem](#review-controlled-folder-access-events-in-windows-event-viewer) pastas comuns do sistema (incluindo setores de inicialização) e você pode [adicionar mais pastas](customize-controlled-folders.md#protect-additional-folders). Você também pode [permitir que os aplicativos](customize-controlled-folders.md#allow-specific-apps-to-make-changes-to-controlled-folders) lhes dêem acesso às pastas protegidas.
 
-Você pode usar o [modo de auditoria](audit-windows-defender.md) para avaliar como o acesso controlado a pastas afetaria sua organização se ele estivesse habilitado. Você também pode visitar o site do [](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) Windows Defender de teste no demo.wd.microsoft.com para confirmar se o recurso está funcionando e ver como ele funciona.
+Você pode usar o [modo de auditoria](audit-windows-defender.md) para avaliar como o acesso controlado a pastas afetaria sua organização se ele estivesse habilitado. Você também pode visitar o site [](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) Windows Defender local de teste no demo.wd.microsoft.com para confirmar se o recurso está funcionando e ver como ele funciona.
 
 O acesso controlado a pastas é suportado nas seguintes versões do Windows:
-- [Windows 10, versão 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) e posterior
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- [Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) e posterior
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
-## <a name="windows-system-folders-are-protected-by-default"></a>As pastas do sistema Windows são protegidas por padrão
+## <a name="windows-system-folders-are-protected-by-default"></a>Windows do sistema são protegidas por padrão
 
-As pastas do sistema Windows são protegidas por padrão, juntamente com várias outras pastas: 
+Windows do sistema são protegidas por padrão, juntamente com várias outras pastas: 
 
 - `c:\Users\<username>\Documents`
 - `c:\Users\Public\Documents`
@@ -83,17 +83,17 @@ As pastas do sistema Windows são protegidas por padrão, juntamente com várias
 - `c:\Users\<username>\Favorites`
 
 > [!NOTE]
-> Você pode configurar pastas adicionais como protegidas, mas não pode remover as pastas do sistema Windows protegidas por padrão.
+> Você pode configurar pastas adicionais como protegidas, mas não pode remover as pastas Windows do sistema protegidas por padrão.
 
 ## <a name="requirements-for-controlled-folder-access"></a>Requisitos para acesso controlado a pastas
 
-O acesso controlado a pastas requer a habilitação da [proteção em tempo real do Microsoft Defender Antivírus.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)
+O acesso controlado a pastas [requer Microsoft Defender Antivírus proteção em tempo real.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)
 
-## <a name="review-controlled-folder-access-events-in-the-microsoft-defender-security-center"></a>Revisar eventos de acesso controlado a pastas no Centro de Segurança do Microsoft Defender
+## <a name="review-controlled-folder-access-events-in-the-microsoft-defender-security-center"></a>Revisar eventos de acesso controlado a pastas no Central de Segurança do Microsoft Defender
 
 O Defender for Endpoint fornece relatórios detalhados sobre eventos e blocos como parte de seus [cenários de investigação de alerta.](investigate-alerts.md)
 
-Você pode consultar dados do Microsoft Defender para o Ponto de Extremidade usando [a busca avançada](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/advanced-hunting-windows-defender-advanced-threat-protection). Se você estiver usando o modo [](advanced-hunting-overview.md) [de](audit-windows-defender.md)auditoria, poderá usar a busca avançada para ver como as configurações de acesso controlado a pastas afetariam seu ambiente se elas fossem habilitadas.
+Você pode consultar dados do Microsoft Defender para o Ponto de Extremidade usando [a busca avançada](/microsoft-365/security/defender-endpoint/advanced-hunting-windows-defender-advanced-threat-protection). Se você estiver usando o modo [](advanced-hunting-overview.md) [de](audit-windows-defender.md)auditoria, poderá usar a busca avançada para ver como as configurações de acesso controlado a pastas afetariam seu ambiente se elas fossem habilitadas.
 
 Exemplo de consulta:
 
@@ -102,12 +102,12 @@ DeviceEvents
 | where ActionType in ('ControlledFolderAccessViolationAudited','ControlledFolderAccessViolationBlocked')
 ```
 
-## <a name="review-controlled-folder-access-events-in-windows-event-viewer"></a>Revisar eventos de acesso controlado a pastas no Visualizador de Eventos do Windows
+## <a name="review-controlled-folder-access-events-in-windows-event-viewer"></a>Revisar eventos de acesso controlado a pastas Windows Visualizador de Eventos
 
-Você pode revisar o log de eventos do Windows para ver eventos criados quando blocos de acesso controlados a pastas (ou auditorias) um aplicativo:
+Você pode revisar o log Windows de eventos para ver eventos criados quando blocos de acesso controlados a pastas (ou auditorias) um aplicativo:
 
 1. Baixe o [Pacote de Avaliação](https://aka.ms/mp7z2w) e extraia o arquivo *cfa-events.xml* para um local facilmente acessível no dispositivo.
-2. Digite **Visualizador de eventos** no menu Iniciar para abrir o Visualizador de Eventos do Windows.
+2. Digite **Visualizador de eventos** no menu Iniciar para abrir o Windows Visualizador de Eventos.
 3. No painel esquerdo, em **Ações**, selecione **Importar exibição personalizada...**.
 4. Navegue até onde você *extraiucfa-events.xml* e selecione-o. Como alternativa, [copie o XML diretamente](event-views.md).
 5. Selecione **OK**.
@@ -122,18 +122,18 @@ A tabela a seguir mostra eventos relacionados ao acesso controlado a pastas:
 
 ## <a name="view-or-change-the-list-of-protected-folders"></a>Exibir ou alterar a lista de pastas protegidas
 
-Você pode usar o aplicativo segurança do Windows para exibir a lista de pastas protegidas pelo acesso controlado a pastas. 
+Você pode usar o aplicativo Segurança do Windows para exibir a lista de pastas protegidas pelo acesso controlado a pastas. 
 
-1. Em seu dispositivo Windows 10, abra o aplicativo segurança do Windows.
-2. Selecione **Proteção contra & contra ameaças.**
+1. Em seu Windows 10, abra o aplicativo Segurança do Windows.
+2. Select **Proteção contra vírus e ameaças**.
 3. Em **Proteção contra ransomware,** selecione **Gerenciar proteção de ransomware**.
 4. Se o acesso controlado à pasta estiver desligado, você precisará au acessá-lo. Selecione **pastas protegidas**.
-5. Faça uma das seguintes etapas:
+5. Faça o seguinte:
    - Para adicionar uma pasta, selecione **+ Adicionar uma pasta protegida**.
    - Para remover uma pasta, selecione-a e selecione **Remover**. 
 
 > [!NOTE]
-> [As pastas do sistema do Windows](#windows-system-folders-are-protected-by-default) são protegidas por padrão e você não pode removê-las da lista.
+> [Windows do sistema](#windows-system-folders-are-protected-by-default) são protegidas por padrão e você não pode removê-las da lista.
 
 ## <a name="see-also"></a>Confira também
 

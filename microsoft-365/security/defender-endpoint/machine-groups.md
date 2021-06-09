@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4fc2768392e818f74600e3c2d749b6e95bf957e4
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: d4f62acde4e7d790c7a7c8635f51c99f0823687d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259410"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842765"
 ---
 # <a name="create-and-manage-device-groups"></a>Criar e gerenciar grupos de dispositivos
 
@@ -111,4 +111,4 @@ Para obter mais informações sobre como vincular a definições de grupos de di
 
 - [Gerenciar o acesso ao portal usando o controle de acesso baseado em função](rbac.md)
 - [Criar e gerenciar marcas de dispositivo](machine-tags.md)
-- [Obter lista de grupos de dispositivos de locatários usando Graph API](https://docs.microsoft.com/graph/api/device-list-memberof)
+- [Obter lista de grupos de dispositivos de locatários usando Graph API](/graph/api/device-list-memberof)

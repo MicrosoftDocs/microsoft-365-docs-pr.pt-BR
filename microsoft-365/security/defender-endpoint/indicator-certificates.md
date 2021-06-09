@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8cf611e38bc781c2302f70f6491bb827410235b0
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: b75a8cf1d2681281555a3b7bb80deadfc11ee44c
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164676"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845445"
 ---
 # <a name="create-indicators-based-on-certificates"></a>Criar indicadores com base em certificados
 
@@ -46,9 +46,9 @@ Você pode criar indicadores para certificados. Alguns casos de uso comuns inclu
 
 É importante entender os seguintes requisitos antes da criação de indicadores para certificados:
 
-- Esse recurso estará disponível se sua organização usar Windows Defender proteção baseada em antivírus e nuvem está habilitada. Para obter mais informações, consulte [Manage cloud-based protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus).
+- Esse recurso estará disponível se sua organização usar Windows Defender Antivírus e a proteção baseada em nuvem estiver habilitada. Para obter mais informações, consulte [Manage cloud-based protection](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus).
 - A versão do cliente Antimalware deve ser 4.18.1901.x ou posterior.
-- Suportado em computadores no Windows 10, versão 1703 ou posterior, Windows server 2016 e 2019.
+- Com suporte em máquinas Windows 10, versão 1703 ou posterior, Windows 2016 e 2019.
 - As definições de proteção contra vírus e ameaças devem estar atualizadas.
 - No momento, esse recurso dá suporte à inserção de . CER ou . Extensões de arquivo PEM.
 
@@ -62,7 +62,7 @@ Você pode criar indicadores para certificados. Alguns casos de uso comuns inclu
 >[!IMPORTANT]
 > Pode levar até 3 horas para criar e remover um IoC de certificado.
 
-1. No painel de navegação, selecione **Indicadores de**  >  **Configurações**.  
+1. No painel de navegação, selecione **Configurações**  >  **Indicadores**.  
 
 2. Selecione a **guia Certificado.**
 

@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 4742a32fd899f41d4e7772c52415891cdd8895bf
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 2d78b7ea31c45220735a8579d728f9c0f7bda181
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769504"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842105"
 ---
 # <a name="create-an-app-to-access-microsoft-defender-for-endpoint-without-a-user"></a>Criar um aplicativo para acessar o Microsoft Defender para Ponto de Extremidade sem um usuário
 
@@ -39,7 +39,7 @@ ms.locfileid: "52769504"
 
 Esta página descreve como criar um aplicativo para obter acesso programático ao Defender para Ponto de Extremidade sem um usuário. Se você precisar de acesso programático ao Defender para Ponto de Extremidade em nome de um usuário, consulte [Obter acesso com o contexto do usuário](exposed-apis-create-app-nativeapp.md). Se você não tem certeza de qual acesso precisa, consulte [Get started](apis-intro.md).
 
-O Microsoft Defender para Ponto de Extremidade expõe grande parte de seus dados e ações por meio de um conjunto de APIs programáticas. Essas APIs ajudarão você a automatizar fluxos de trabalho e inovar com base nos recursos do Defender para Ponto de Extremidade. O acesso à API requer autenticação OAuth2.0. Para obter mais informações, consulte [OAuth 2.0 Authorization Code Flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
+O Microsoft Defender para Ponto de Extremidade expõe grande parte de seus dados e ações por meio de um conjunto de APIs programáticas. Essas APIs ajudarão você a automatizar fluxos de trabalho e inovar com base nos recursos do Defender para Ponto de Extremidade. O acesso à API requer autenticação OAuth2.0. Para obter mais informações, consulte [OAuth 2.0 Authorization Code Flow](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
 
 Em geral, você precisará seguir as seguintes etapas para usar as APIs:
 - Crie um Azure Active Directory (Azure AD).
@@ -116,7 +116,7 @@ Este artigo explica como criar um aplicativo do Azure AD, obter um token de aces
 
 ## <a name="get-an-access-token"></a>Obter um token de acesso
 
-Para obter mais informações sobre tokens do Azure AD, consulte o tutorial do [Azure AD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds).
+Para obter mais informações sobre tokens do Azure AD, consulte o tutorial do [Azure AD](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds).
 
 ### <a name="use-powershell"></a>Usar o Windows PowerShell!
 

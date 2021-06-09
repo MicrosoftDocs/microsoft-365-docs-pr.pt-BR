@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 6182b4cb0d1f648f33c3a7fc4da4c648d8996bcd
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 5546b69fa924025491e1762d199678fa549a9c7c
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770608"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842141"
 ---
 # <a name="partner-access-through-microsoft-defender-for-endpoint-apis"></a>Acesso de parceiros por meio do Microsoft Defender para APIs de ponto de extremidade
 
@@ -40,7 +40,7 @@ ms.locfileid: "52770608"
 Esta página descreve como criar um aplicativo Azure Active Directory (Azure AD) para obter acesso programático ao Microsoft Defender para Ponto de Extremidade em nome de seus clientes.
 
 
-O Microsoft Defender para Ponto de Extremidade expõe grande parte de seus dados e ações por meio de um conjunto de APIs programáticas. Essas APIs ajudarão você a automatizar fluxos de trabalho e inovar com base nos recursos do Microsoft Defender para Ponto de Extremidade. O acesso à API requer autenticação OAuth2.0. Para obter mais informações, consulte [OAuth 2.0 Authorization Code Flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
+O Microsoft Defender para Ponto de Extremidade expõe grande parte de seus dados e ações por meio de um conjunto de APIs programáticas. Essas APIs ajudarão você a automatizar fluxos de trabalho e inovar com base nos recursos do Microsoft Defender para Ponto de Extremidade. O acesso à API requer autenticação OAuth2.0. Para obter mais informações, consulte [OAuth 2.0 Authorization Code Flow](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
 
 Em geral, você precisará seguir as seguintes etapas para usar as APIs:
 - Crie um **aplicativo do** Azure AD com vários locatários.
@@ -139,7 +139,7 @@ As etapas a seguir orientarão você a criar um aplicativo do Azure AD, obter um
 
 **Observação:** Para obter um token de acesso em nome do cliente, use a ID de locatário do cliente nas seguintes aquisições de token.
 
-<br>Para obter mais informações sobre o token AAD, consulte [tutorial do AAD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
+<br>Para obter mais informações sobre o token AAD, consulte [tutorial do AAD](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
 ### <a name="using-powershell"></a>Usando o Windows PowerShell
 

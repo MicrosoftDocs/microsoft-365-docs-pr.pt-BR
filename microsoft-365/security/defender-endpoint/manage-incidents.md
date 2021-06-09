@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: abb538972b48f8790286c0a546eecdd69fc83fb5
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: c86b53abf54788740c8c78cb0ecf9251b10ea8f7
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862134"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842333"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-incidents"></a>Gerenciar o Microsoft Defender para incidentes de ponto de extremidade
 
@@ -81,6 +81,6 @@ Os comentários adicionados aparecem instantaneamente no painel.
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Fila de incidentes](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/view-incidents-queue)
+- [Fila de incidentes](/microsoft-365/security/defender-endpoint/view-incidents-queue)
 - [Exibir e organizar a Fila de incidentes](view-incidents-queue.md)
 - [Investigar incidentes](investigate-incidents.md)

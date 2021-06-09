@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d102635a284ec5c802e352f097d1632e2f20e166
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: b41c5ec827e110e0101c50ce7babeb6442096edb
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51929056"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842885"
 ---
 # <a name="deploying-microsoft-defender-for-endpoint-on-macos-with-jamf-pro"></a>Implantando o Microsoft Defender para Ponto de Extremidade no macOS com o Jamf Pro
 
@@ -39,7 +39,7 @@ ms.locfileid: "51929056"
 Saiba como implantar o Microsoft Defender para Ponto de Extremidade no macOS com o Jamf Pro.
 
 > [!NOTE]
-> Se você estiver usando macOS Catalina (10.15.4) ou versões mais recentes do macOS, consulte Novos perfis de configuração para [macOS Catalina](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/mac-sysext-policies)e versões mais recentes do macOS .
+> Se você estiver usando macOS Catalina (10.15.4) ou versões mais recentes do macOS, consulte Novos perfis de configuração para [macOS Catalina](/microsoft-365/security/defender-endpoint/mac-sysext-policies)e versões mais recentes do macOS .
 
 Este é um processo de várias etapas. Você precisará concluir todas as etapas a seguir:
 

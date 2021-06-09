@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 26c531c0544f92d664bfa0f1a21e4f33a0765d24
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 06ef716e9deee7b20e8615bd22c93130ee18b77f
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893492"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845577"
 ---
 # <a name="connected-applications-in-microsoft-defender-for-endpoint"></a>Aplicativos conectados no Microsoft Defender para Ponto de Extremidade
 
@@ -37,9 +37,9 @@ ms.locfileid: "51893492"
 
 Aplicativos conectados se integram à plataforma Defender para Ponto de Extremidade usando APIs. 
 
-Os aplicativos usam o protocolo OAuth 2.0 padrão para autenticar e fornecer tokens para uso com o Microsoft Defender para APIs de Ponto de Extremidade.  Além disso, os aplicativos do Azure Active Directory (Azure AD) permitem que os administradores de locatários deem um controle explícito sobre quais APIs podem ser acessadas usando o aplicativo correspondente.
+Os aplicativos usam o protocolo OAuth 2.0 padrão para autenticar e fornecer tokens para uso com o Microsoft Defender para APIs de Ponto de Extremidade.  Além disso, Azure Active Directory aplicativos (Azure AD) permitem que os administradores de locatários deem um controle explícito sobre quais APIs podem ser acessadas usando o aplicativo correspondente.
  
-Você precisará seguir estas etapas [para](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/apis-intro) usar as APIs com o aplicativo conectado.
+Você precisará seguir estas etapas [para](/microsoft-365/security/defender-endpoint/apis-intro) usar as APIs com o aplicativo conectado.
  
 ## <a name="access-the-connected-application-page"></a>Acessar a página de aplicativo conectado
 No menu de navegação esquerdo, selecione **Parceiros & APIs**  >  **aplicativos AAD conectados.**
