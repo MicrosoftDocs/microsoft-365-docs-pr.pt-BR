@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Microsoft Bookings
-summary: Saiba como configurar o Microsoft Bookings para fornecer serviços aos clientes com base em um compromisso.
+summary: Saiba como configurar o Microsoft Bookings para fornecer serviços aos clientes em um compromisso.
 brand: m365
 metadata:
   title: Microsoft Bookings
-  description: Saiba como configurar o Microsoft Bookings para fornecer serviços aos clientes com base em um compromisso.
+  description: Saiba como configurar o Microsoft Bookings para fornecer serviços aos clientes em um compromisso.
   ms.service: bookings
   ms.topic: hub-page
   author: dmaguire
@@ -12,30 +12,24 @@ metadata:
   manager: serdars
   audience: Admin
   ms.date: 09/04/2020
-  ms.openlocfilehash: 8c7158c72700a7db866051a4de10bbc890ad4478
-  ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
-  ms.translationtype: MT
-  ms.contentlocale: pt-BR
-  ms.lasthandoff: 09/09/2020
-  ms.locfileid: "47419198"
 additionalContent:
   sections:
-  - items:
-    - title: O que é o Microsoft Bookings?
-      summary: Agende e gerencie compromissos com um aplicativo e calendário de reserva baseado na Web, incluindo a integração do Outlook para sua equipe e emails de notificação automatizados.
-      url: bookings-overview.md
-    - title: Insira suas informações comerciais
-      summary: Insira sua página Sobre Nós, incluindo nome da empresa, endereço, número de telefone, URL do site, logotipo e horário comercial no Microsoft Bookings.
-      url: enter-business-information.md
-    - title: Obtenha o aplicativo Microsoft Bookings
-      summary: Altere o tema de cores e de configurar a aparência da página de reserva voltada para o cliente externo.
-      url: customize-booking-page.md
-    - title: Adicionar funcionários ao Microsoft Bookings
-      summary: Crie sua lista de funcionários e gerencie detalhes do membro da equipe, como nome, número de telefone e endereço de email.
-      url: add-staff.md
-    - title: Agendar fechamentos comerciais, folgas e períodos de férias
-      summary: Agende fechamentos de escritório e folga de funcionários no calendário do Bookings para que os funcionários sejam marcados como indisponíveis para reservas durante os horários especificados.
-      url: schedule-closures-time-off-vacation.md
-    - title: Horário de trabalho dos funcionários no Microsoft Bookings
-      summary: Definir o horário de trabalho e a disponibilidade dos funcionários no Microsoft Bookings.
-      url: employee-hours.md
+    - items:
+        - title: O que é o Microsoft Bookings?
+          summary: 'Agende e gerencie compromissos com um calendário e aplicativo de reserva baseado na Web, incluindo Outlook integração para sua equipe e emails de notificação automatizados.'
+          url: bookings-overview.md
+        - title: Insira suas informações comerciais
+          summary: 'Insira sua página Criar Sobre Nós, incluindo nome da empresa, endereço, número de telefone, URL do site, logotipo e horário comercial no Microsoft Bookings.'
+          url: enter-business-information.md
+        - title: Obtenha o aplicativo Microsoft Bookings
+          summary: Altere o tema de cor e configurar a aparência da página de reserva do cliente externo.
+          url: customize-booking-page.md
+        - title: Adicionar funcionários ao Microsoft Bookings
+          summary: 'Crie sua lista de funcionários e gerencie os detalhes do membro da equipe, como nome, número de telefone e endereço de email.'
+          url: add-staff.md
+        - title: 'Agendar fechamentos de negócios, folga e período de férias'
+          summary: Agende encerramentos do escritório e folga de funcionários do calendário do Bookings para que os funcionários sejam marcados como indisponíveis para reservas durante os horários especificados.
+          url: schedule-closures-time-off-vacation.md
+        - title: Horário de trabalho dos funcionários no Microsoft Bookings
+          summary: Definir o horário de trabalho dos funcionários e a disponibilidade no Microsoft Bookings.
+          url: employee-hours.md

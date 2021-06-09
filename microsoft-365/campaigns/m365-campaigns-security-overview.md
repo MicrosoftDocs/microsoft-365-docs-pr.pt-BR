@@ -1,5 +1,5 @@
 ---
-title: Up security protection for your campaign or business
+title: Aumento da proteção de segurança para sua campanha ou negócios
 f1.keywords:
 - NOCSH
 ms.author: samanro
@@ -23,7 +23,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como proteger sua campanha ou negócios aumentando sua segurança com o Microsoft 365.
+description: Saiba como proteger sua campanha ou negócios aumentando sua segurança com Microsoft 365.
 ms.openlocfilehash: d2486f7160bef57a91d76fba756ff75ba319b8fa
 ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
@@ -31,20 +31,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/29/2021
 ms.locfileid: "50044367"
 ---
-# <a name="bump-up-security-protection-for-your-campaign-or-business"></a><span data-ttu-id="daaf5-103">Up security protection for your campaign or business</span><span class="sxs-lookup"><span data-stu-id="daaf5-103">Bump up security protection for your campaign or business</span></span>
+# <a name="bump-up-security-protection-for-your-campaign-or-business"></a><span data-ttu-id="68b42-103">Aumento da proteção de segurança para sua campanha ou negócios</span><span class="sxs-lookup"><span data-stu-id="68b42-103">Bump up security protection for your campaign or business</span></span>
 
 
-## <a name="overview"></a><span data-ttu-id="daaf5-104">Visão Geral</span><span class="sxs-lookup"><span data-stu-id="daaf5-104">Overview</span></span> 
-<span data-ttu-id="daaf5-105">Assista a este vídeo para ver como você pode proteger sua campanha ou negócios:</span><span class="sxs-lookup"><span data-stu-id="daaf5-105">Watch this video to see how you can protect your campaign or business:</span></span>
+## <a name="overview"></a><span data-ttu-id="68b42-104">Visão Geral</span><span class="sxs-lookup"><span data-stu-id="68b42-104">Overview</span></span> 
+<span data-ttu-id="68b42-105">Assista a este vídeo para ver como você pode proteger sua campanha ou negócios:</span><span class="sxs-lookup"><span data-stu-id="68b42-105">Watch this video to see how you can protect your campaign or business:</span></span>
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3cfV1]  
 
 
-<span data-ttu-id="daaf5-106">Em seguida, siga as etapas para:</span><span class="sxs-lookup"><span data-stu-id="daaf5-106">Then follow the steps to:</span></span>
+<span data-ttu-id="68b42-106">Em seguida, siga as etapas para:</span><span class="sxs-lookup"><span data-stu-id="68b42-106">Then follow the steps to:</span></span>
 
-- [<span data-ttu-id="daaf5-107">Proteger contra malware e outras ameaças</span><span class="sxs-lookup"><span data-stu-id="daaf5-107">Protect against malware and other threats</span></span>](m365-campaigns-increase-protection.md)
-- <span data-ttu-id="daaf5-108">[Proteger o acesso aos dados da campanha](m365-campaigns-conditional-access.md) protegendo suas contas e aplicativos</span><span class="sxs-lookup"><span data-stu-id="daaf5-108">[Protect access to your campaign data](m365-campaigns-conditional-access.md) by protecting your accounts and apps</span></span>
-- [<span data-ttu-id="daaf5-109">Proteger contas administrativas</span><span class="sxs-lookup"><span data-stu-id="daaf5-109">Protect admin accounts</span></span>](m365-campaigns-protect-admin-accounts.md)
-- [<span data-ttu-id="daaf5-110">Configurar dispositivos móveis</span><span class="sxs-lookup"><span data-stu-id="daaf5-110">Set up mobile devices</span></span>](../business/set-up-mobile-devices.md?toc=/microsoft-365/campaigns/toc.json)
-- [<span data-ttu-id="daaf5-111">Treinar os usuários</span><span class="sxs-lookup"><span data-stu-id="daaf5-111">Train your users</span></span>](m365-campaigns-users.md)
+- [<span data-ttu-id="68b42-107">Proteger contra malware e outras ameaças</span><span class="sxs-lookup"><span data-stu-id="68b42-107">Protect against malware and other threats</span></span>](m365-campaigns-increase-protection.md)
+- <span data-ttu-id="68b42-108">[Proteger o acesso aos dados de sua campanha](m365-campaigns-conditional-access.md) protegendo suas contas e aplicativos</span><span class="sxs-lookup"><span data-stu-id="68b42-108">[Protect access to your campaign data](m365-campaigns-conditional-access.md) by protecting your accounts and apps</span></span>
+- [<span data-ttu-id="68b42-109">Proteger contas administrativas</span><span class="sxs-lookup"><span data-stu-id="68b42-109">Protect admin accounts</span></span>](m365-campaigns-protect-admin-accounts.md)
+- [<span data-ttu-id="68b42-110">Configurar dispositivos móveis</span><span class="sxs-lookup"><span data-stu-id="68b42-110">Set up mobile devices</span></span>](../business/set-up-mobile-devices.md?toc=/microsoft-365/campaigns/toc.json)
+- [<span data-ttu-id="68b42-111">Treinar os usuários</span><span class="sxs-lookup"><span data-stu-id="68b42-111">Train your users</span></span>](m365-campaigns-users.md)

@@ -29,14 +29,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49928253"
 ---
-# <a name="cancel-google-workspace-subscription"></a><span data-ttu-id="2a239-103">Cancelar a assinatura do Google Workspace</span><span class="sxs-lookup"><span data-stu-id="2a239-103">Cancel Google Workspace subscription</span></span>
+# <a name="cancel-google-workspace-subscription"></a><span data-ttu-id="99259-103">Cancelar assinatura do Google Workspace</span><span class="sxs-lookup"><span data-stu-id="99259-103">Cancel Google Workspace subscription</span></span>
 
-1. <span data-ttu-id="2a239-104">Entre no [Google Admin e](https://admin.google.com/) vá para **Cobrança.**</span><span class="sxs-lookup"><span data-stu-id="2a239-104">Sign in to [Google Admin](https://admin.google.com/) and go to **Billing**.</span></span>
-1. <span data-ttu-id="2a239-105">Na lista **Assinaturas,** escolha sua assinatura do G Suite, **Cancelar assinatura** e, em seguida, escolha **Continuar**.</span><span class="sxs-lookup"><span data-stu-id="2a239-105">In the **Subscriptions** list,choose your G Suite subscription, **Cancel subscription**, and then choose **Continue**.</span></span>
+1. <span data-ttu-id="99259-104">Entre no [Administrador do Google e](https://admin.google.com/) vá para **Cobrança**.</span><span class="sxs-lookup"><span data-stu-id="99259-104">Sign in to [Google Admin](https://admin.google.com/) and go to **Billing**.</span></span>
+1. <span data-ttu-id="99259-105">Na lista **Assinaturas,** escolha sua assinatura do G Suite, **Cancel subscription** e escolha **Continuar**.</span><span class="sxs-lookup"><span data-stu-id="99259-105">In the **Subscriptions** list,choose your G Suite subscription, **Cancel subscription**, and then choose **Continue**.</span></span>
 
     > [!IMPORTANT]
-    > <span data-ttu-id="2a239-106">sua assinatura será cancelada imediatamente e você não poderá desfazer essa ação.</span><span class="sxs-lookup"><span data-stu-id="2a239-106">your subscription will be cancelled immediately and you cannot undo this action.</span></span>
+    > <span data-ttu-id="99259-106">sua assinatura será cancelada imediatamente e você não poderá desfazer essa ação.</span><span class="sxs-lookup"><span data-stu-id="99259-106">your subscription will be cancelled immediately and you cannot undo this action.</span></span>
 
-    :::image type="content" source="../../media/cancelgoogleworspace.png" alt-text="Captura de tela da página de Cobrança do Administrador do Google.":::
+    :::image type="content" source="../../media/cancelgoogleworspace.png" alt-text="Captura de tela da página Cobrança do Administrador do Google.":::
 
-<span data-ttu-id="2a239-108">Observe que você pode não ver o Registro de Domínio em sua lista de Assinaturas se seu provedor de host DNS não for domínios do Google.</span><span class="sxs-lookup"><span data-stu-id="2a239-108">Note that you might not see Domain Registration in your Subscriptions list if your DNS host provider isn't Google domains.</span></span>
+<span data-ttu-id="99259-108">Observe que você pode não ver Registro de Domínio em sua lista de Assinaturas se o provedor de host DNS não for domínios do Google.</span><span class="sxs-lookup"><span data-stu-id="99259-108">Note that you might not see Domain Registration in your Subscriptions list if your DNS host provider isn't Google domains.</span></span>

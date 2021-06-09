@@ -1,5 +1,5 @@
 ---
-title: Comparações e comparações da pontuação de rede do Office 365
+title: Office 365 comparações e comparações de pontuação de rede
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -13,7 +13,7 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: Comparações e comparações da pontuação de rede do Office 365
+description: Office 365 comparações e comparações de pontuação de rede
 ms.openlocfilehash: e84a6dd63376c55c7da0abd4c414577c94f760d4
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -21,4 +21,4 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46687008"
 ---
-# <a name="office-365-network-score-benchmarks-and-comparisons"></a><span data-ttu-id="84f99-103">Comparações e comparações da pontuação de rede do Office 365</span><span class="sxs-lookup"><span data-stu-id="84f99-103">Office 365 network score benchmarks and comparisons</span></span>
+# <a name="office-365-network-score-benchmarks-and-comparisons"></a><span data-ttu-id="371ae-103">Office 365 comparações e comparações de pontuação de rede</span><span class="sxs-lookup"><span data-stu-id="371ae-103">Office 365 network score benchmarks and comparisons</span></span>
