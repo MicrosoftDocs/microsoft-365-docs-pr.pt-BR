@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ae8b08ce3d5bcc34e91f031223108fca053348ce
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: aab9c191e590b0717a0f1be62ed88a699d3b5b57
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572388"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844036"
 ---
 # <a name="take-response-actions-on-a-device"></a>Executar ações de resposta em um dispositivo
 
@@ -53,7 +53,7 @@ As ações de resposta são executados ao longo da parte superior de uma página
 - **Painel de operações de segurança** - Selecione um nome de dispositivo no cartão de risco Devices.
 - **Fila de alertas** - Selecione o nome do dispositivo ao lado do ícone do dispositivo na fila de alertas.
 - **Lista de** dispositivos - Selecione o título do nome do dispositivo na lista de dispositivos.
-- **Caixa de** pesquisa - Selecione Dispositivo no menu suspenso e insira o nome do dispositivo.
+- **Caixa de pesquisa** - Selecione Dispositivo no menu suspenso e insira o nome do dispositivo.
 
 >[!IMPORTANT]
 > - Essas ações de resposta estão disponíveis apenas para dispositivos Windows 10 versão 1703 ou posterior. 
@@ -61,7 +61,7 @@ As ações de resposta são executados ao longo da parte superior de uma página
 
 ## <a name="manage-tags"></a>Gerenciar marcas
 
-Adicione ou gerencie marcas para criar uma afiliação de grupo lógica. As marcas de dispositivo dão suporte ao mapeamento correto da rede, permitindo que você anexe marcas diferentes para capturar contexto e habilitar a criação dinâmica de lista como parte de um incidente.
+Adicione ou gerencie marcas para criar uma afiliação de grupo lógica. As marcas de dispositivo oferecem suporte ao mapeamento correto da rede, permitindo anexar marcas diferentes para capturar contexto e habilitar a criação de lista dinâmica como parte de um incidente.
 
 Para obter mais informações sobre a marcação de dispositivo, consulte [Create and manage device tags](machine-tags.md).
 
@@ -124,7 +124,7 @@ Como parte do processo de investigação ou resposta, você pode iniciar remotam
 
 >[!IMPORTANT]
 >- Essa ação está disponível para dispositivos Windows 10 versão 1709 ou posterior.
->- Uma Microsoft Defender Antivírus (Microsoft Defender AV) pode ser executado juntamente com outras soluções antivírus, se o Microsoft Defender AV é a solução antivírus ativa ou não. O Microsoft Defender AV pode estar no modo Passivo. Para obter mais informações, [consulte Microsoft Defender Antivírus compatibilidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility.md).
+>- Uma Microsoft Defender Antivírus (Microsoft Defender AV) pode ser executado juntamente com outras soluções antivírus, se o Microsoft Defender AV é a solução antivírus ativa ou não. O Microsoft Defender AV pode estar no modo Passivo. Para obter mais informações, [consulte Microsoft Defender Antivírus compatibilidade](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility.md).
 
 Um que você selecionou **Executar** verificação antivírus , selecione o tipo de verificação que você gostaria de executar (rápido ou completo) e adicione um comentário antes de confirmar a verificação.
 
@@ -134,7 +134,7 @@ O Centro de Ações mostrará as informações de verificação e a linha do tem
 
 >[!NOTE]
 >Ao disparar uma verificação usando a ação de resposta do Defender for Endpoint, o valor do antivírus do Microsoft Defender 'ScanAvgCPULoadFactor' ainda se aplica e limita o impacto da CPU da verificação.<br> Se ScanAvgCPULoadFactor não estiver configurado, o valor padrão será um limite de 50% de carga máxima da CPU durante uma verificação.<br>
->Para obter mais informações, [consulte configure-advanced-scan-types-microsoft-defender-antivírus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-advanced-scan-types-microsoft-defender-antivirus).
+>Para obter mais informações, [consulte configure-advanced-scan-types-microsoft-defender-antivírus](/windows/security/threat-protection/microsoft-defender-antivirus/configure-advanced-scan-types-microsoft-defender-antivirus).
 
 ## <a name="restrict-app-execution"></a>Restringir execução de aplicativo
 
@@ -143,7 +143,7 @@ Além de conter um ataque interrompendo processos mal-intencionados, você tamb�
 >[!IMPORTANT]
 > - Essa ação está disponível para dispositivos Windows 10 versão 1709 ou posterior.
 > - Esse recurso estará disponível se sua organização usar Microsoft Defender Antivírus.
-> - Essa ação precisa atender aos Windows Defender de integridade do código de controle de aplicativo e aos requisitos de assinatura. Para obter mais informações, consulte [Formatos de política de integridade de código e assinatura](https://docs.microsoft.com/windows/device-security/device-guard/requirements-and-deployment-planning-guidelines-for-device-guard#code-integrity-policy-formats-and-signing).
+> - Essa ação precisa atender aos Windows Defender de integridade do código de controle de aplicativo e aos requisitos de assinatura. Para obter mais informações, consulte [Formatos de política de integridade de código e assinatura](/windows/device-security/device-guard/requirements-and-deployment-planning-guidelines-for-device-guard#code-integrity-policy-formats-and-signing).
 
 Para restringir a execução de um aplicativo, uma política de integridade de código é aplicada que só permite que arquivos sejam executados se eles são assinados por um certificado emitido pela Microsoft. Esse método de restrição pode ajudar a impedir que um invasor controle dispositivos comprometidos e a executar outras atividades mal-intencionadas.
 
@@ -191,7 +191,7 @@ Quando um dispositivo está sendo isolado, a seguinte notificação é exibida p
 
 Você pode consultar um especialista em ameaças da Microsoft para obter mais informações sobre um dispositivo potencialmente comprometido ou já comprometido. Especialistas em Ameaças da Microsoft podem ser contratados diretamente de dentro do Central de Segurança do Microsoft Defender para resposta o tempo e precisão. Os especialistas fornecem informações não apenas sobre um dispositivo potencialmente comprometido, mas também para entender melhor as ameaças complexas, as notificações de ataque direcionadas que você recebe ou se você precisar de mais informações sobre os alertas ou um contexto de inteligência contra ameaças que você vê no painel do portal.
 
-Consulte [Consult a Microsoft Threat Expert](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-microsoft-threat-experts#consult-a-microsoft-threat-expert-about-suspicious-cybersecurity-activities-in-your-organization) para obter detalhes.
+Consulte [Consult a Microsoft Threat Expert](/microsoft-365/security/defender-endpoint/configure-microsoft-threat-experts#consult-a-microsoft-threat-expert-about-suspicious-cybersecurity-activities-in-your-organization) para obter detalhes.
 
 
 ## <a name="check-activity-details-in-action-center"></a>Verificar detalhes de atividade na Central de ações
@@ -209,4 +209,4 @@ Todos os outros detalhes relacionados também são mostrados, por exemplo, data/
 
 ## <a name="related-topic"></a>Tópicos relacionados
 - [Executar ações de resposta em um arquivo](respond-file-alerts.md)
-- [Imprecisão de relatório](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation#report-inaccuracy)
+- [Imprecisão de relatório](/microsoft-365/security/defender-endpoint/tvm-security-recommendation#report-inaccuracy)

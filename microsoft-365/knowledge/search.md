@@ -1,7 +1,7 @@
 ---
 title: Usar a Pesquisa da Microsoft para encontrar tópicos em Tópicos do Microsoft Viva
-ms.author: efrene
-author: efrene
+ms.author: chuckedmonson
+author: chucked
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 description: Saiba como pesquisar tópicos no Microsoft Viva.
-ms.openlocfilehash: 36901cf32a0633aaa5fc08e45021d13c7b06dd0b
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: bce9309d27b76854b927922f39389c18e1c09449
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52795989"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844726"
 ---
 # <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Usar a Pesquisa da Microsoft para encontrar tópicos em Tópicos do Microsoft Viva
 
@@ -23,7 +23,7 @@ Embora os usuários do Viva Topics possam encontrar tópicos por meio de destaqu
 
 ## <a name="topic-answer"></a>Resposta de tópico
 
-Quando você pesquisa um tópico específico na Pesquisa da Microsoft (por exemplo, "Saturno"), se um tópico existir e for encontrado, ele exibirá o resultado no formato de sugestão Respostas.
+Quando você pesquisa um tópico específico na Pesquisa da Microsoft (por exemplo, "Saturno"), se um tópico existir e for encontrado, ele exibirá o resultado no formato de sugestão de resposta do tópico.
 
 A resposta do tópico será exibida:
 - Nome do tópico
@@ -56,4 +56,4 @@ Para usuários que estão procurando informações sobre como reservar uma viage
  
 ### <a name="search-results-priority"></a>Prioridade de resultados da pesquisa 
 
-Na experiência de pesquisa do usuário, quando um usuário procura um termo como "viagem", um indicador aparecerá antes de um tópico, se um indicador estiver disponível.
+Na experiência de pesquisa do usuário, quando um usuário pesquisa um termo como "viagem", um indicador aparecerá no lugar de um tópico, se um indicador estiver disponível.

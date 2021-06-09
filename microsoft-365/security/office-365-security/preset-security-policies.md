@@ -15,12 +15,12 @@ ms.collection:
 description: Os administradores podem aprender a aplicar configurações de política padrão e estrita nos recursos de proteção do Proteção do Exchange Online (EOP) e do Microsoft Defender para Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ca0b8b8dd879f3f662c96f1527bca13efbe5ef6c
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 244364b423ee633a9131aabf93b5fc1e7cf756c0
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771220"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822281"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Políticas de segurança predefinidas no EOP e no Microsoft Defender para Office 365
 
@@ -105,7 +105,7 @@ Em outras palavras, as  configurações da política de  proteção estrita subs
 
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Você abre o Microsoft 365 de segurança em <https://security.microsoft.com/> . Para ir diretamente para a página **Políticas de segurança** predefinidas, use <https://security.microsoft.com/presetSecurityPolicies> .
+- Você abre o Microsoft 365 de segurança em <https://security.microsoft.com> . Para ir diretamente para a página **Políticas de segurança** predefinidas, use <https://security.microsoft.com/presetSecurityPolicies> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -119,7 +119,7 @@ Em outras palavras, as  configurações da política de  proteção estrita subs
 
 ### <a name="use-the-security-center-to-assign-preset-security-policies-to-users"></a>Usar o centro de segurança para atribuir políticas de segurança predefinidas aos usuários
 
-1. No centro de segurança, acesse **Email & de** colaboração & Regras Políticas de Segurança \>  \>  \> **Predefinidas.**
+1. No centro de segurança, vá para **Email & políticas** de colaboração & políticas de ameaças De regras Modelo de políticas de segurança \>  \>  \>  \> **predefinidas**.
 
 2. Em **Proteção padrão ou** proteção **estrita,** clique em **Editar**.
 

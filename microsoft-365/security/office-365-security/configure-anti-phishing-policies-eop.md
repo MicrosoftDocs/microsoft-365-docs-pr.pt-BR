@@ -15,12 +15,12 @@ ms.collection:
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing disponíveis em organizações Proteção do Exchange Online (EOP) com ou sem Exchange Online caixas de correio.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c329edc517476cfb184bfa4b70c2f2c9542b6e33
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: ee227fe622f21d5b0f520507e1d88e2bbd0f3b31
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789058"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822305"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Configurar políticas anti-phishing em EOP
 
@@ -60,7 +60,7 @@ Para aumentar a eficácia da proteção anti-phishing, você pode criar polític
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Abra o centro de segurança em <https://security.microsoft.com/>. Para ir diretamente para a página **Anti-phishing,** use <https://security.microsoft.com/antiphishing> .
+- Abra o centro de segurança em <https://security.microsoft.com>. Para ir diretamente para a página **Anti-phishing,** use <https://security.microsoft.com/antiphishing> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -77,7 +77,7 @@ Para aumentar a eficácia da proteção anti-phishing, você pode criar polític
   - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias _e_ para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
   - O **grupo de função Gerenciamento da Organização** Somente Exibição [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso <sup>\*</sup> .
 
-- Para nossas configurações recomendadas para políticas anti-phishing, consulte Configurações de política [anti-phishing](recommended-settings-for-eop-and-office365.md#eop-default-anti-phishing-policy-settings)padrão do EOP.
+- Para nossas configurações recomendadas para políticas anti-phishing, consulte [EOP anti-phishing policy settings](recommended-settings-for-eop-and-office365.md#eop-anti-phishing-policy-settings).
 
 - Permitir até 30 minutos para que a política atualizada seja aplicada.
 
@@ -137,7 +137,7 @@ A criação de uma política anti-phishing personalizada no centro de segurança
 
    Ao terminar, clique em **Avançar**.
 
-7. Na página **Revisão** exibida, revise suas configurações. Você pode selecionar **Editar** em cada seção para modificar as configurações da seção.
+7. Na página **Revisão** exibida, revise suas configurações. Você pode selecionar **Editar** em cada seção para modificar as configurações da seção. Ou você pode clicar em **Voltar** ou selecionar a página específica no assistente.
 
    Quando terminar, clique em **Enviar**.
 

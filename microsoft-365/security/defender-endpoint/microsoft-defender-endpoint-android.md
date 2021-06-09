@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3f8a8c04f608096e5c226d6899fbbd983bd8d8c1
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 499ac9a6ee81bacb79cd83993d510f87e11c62c6
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246423"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844713"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender para Ponto de Extremidade para Android
 
@@ -48,13 +48,13 @@ Este tópico descreve como instalar, configurar, atualizar e usar o Defender par
 
 -   **Para usuários finais**
 
-    -   Licença do Microsoft Defender para Ponto de Extremidade atribuída ao(s) usuário(s) final do aplicativo. Consulte [Requisitos de licenciamento](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/minimum-requirements#licensing-requirements) do Microsoft Defender para Ponto de Extremidade
+    -   Licença do Microsoft Defender para Ponto de Extremidade atribuída ao(s) usuário(s) final do aplicativo. Consulte [Requisitos de licenciamento](/microsoft-365/security/defender-endpoint/minimum-requirements#licensing-requirements) do Microsoft Defender para Ponto de Extremidade
 
     -   Portal da Empresa do Intune aplicativo pode ser baixado no [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal) e está disponível no dispositivo Android.
 
-        -   Além disso, os dispositivos podem [ser](https://docs.microsoft.com/mem/intune/user-help/enroll-device-android-company-portal) inscritos por meio do aplicativo Portal da Empresa do Intune para impor políticas de conformidade de dispositivos do Intune. Isso exige que o usuário final seja atribuído a uma Microsoft Intune de usuário.
+        -   Além disso, os dispositivos podem [ser](/mem/intune/user-help/enroll-device-android-company-portal) inscritos por meio do aplicativo Portal da Empresa do Intune para impor políticas de conformidade de dispositivos do Intune. Isso exige que o usuário final seja atribuído a uma Microsoft Intune de usuário.
 
-    -   Para obter mais informações sobre como atribuir licenças, consulte [Atribuir licenças aos usuários](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign).
+    -   Para obter mais informações sobre como atribuir licenças, consulte [Atribuir licenças aos usuários](/azure/active-directory/users-groups-roles/licensing-groups-assign).
         
 
 -   **Para administradores**

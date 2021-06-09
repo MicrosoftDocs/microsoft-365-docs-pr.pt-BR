@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ee06f927579445825a2b2813e483c24357d2ed78
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: ed33f67695fddc78c0bac646f72ca0c48887bb04
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934916"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844413"
 ---
 # <a name="onboard-devices-without-internet-access-to-microsoft-defender-for-endpoint"></a>Dispositivos de integração sem acesso à Internet ao Microsoft Defender para Ponto de Extremidade
 
@@ -39,24 +39,24 @@ ms.locfileid: "51934916"
 Para os dispositivos de integração sem acesso à Internet, você precisará seguir as seguintes etapas gerais:
 
 > [!IMPORTANT] 
-> As etapas a seguir são aplicáveis apenas a dispositivos que executam versões anteriores do Windows, como: Windows Server 2016 e anterior ou Windows 8.1 e anteriores.
+> As etapas a seguir são aplicáveis apenas a dispositivos que executam versões anteriores do Windows, como: Windows Server 2016 e anteriores ou Windows 8.1 e anteriores.
 
 > [!NOTE]
 > - Um servidor de gateway OMS não pode ser usado como proxy para dispositivos Windows 10 ou Windows Server 2019 desconectados quando configurado por meio do Registro ou GPO "TelemetryProxyServer".
 > - Para Windows 10 ou Windows Server 2019 - embora você possa usar TelemetryProxyServer, ele deve apontar para um dispositivo ou dispositivo proxy padrão.
-> - Além disso, o Windows 10 ou o Windows Server 2019 em ambientes desconectados devem ser capazes de atualizar listas de confiança de certificado offline por meio de um arquivo interno ou servidor Web.
-> - Para obter mais informações sobre como atualizar CTLs offline, consulte [Configure a file or web server to download the CTL files](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn265983(v=ws.11)#configure-a-file-or-web-server-to-download-the-ctl-files).
+> - Além disso, Windows 10 ou Windows Server 2019 em ambientes desconectados deve ser capaz de atualizar listas de certificados de confiança offline por meio de um arquivo interno ou servidor Web.
+> - Para obter mais informações sobre como atualizar CTLs offline, consulte [Configure a file or web server to download the CTL files](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn265983(v=ws.11)#configure-a-file-or-web-server-to-download-the-ctl-files).
 
 Para obter mais informações sobre métodos de integração, consulte os seguintes artigos:
-- [Versões anteriores integradas do Windows](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/onboard-downlevel)
-- [Servidores de integração para o serviço do Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-server-endpoints#windows-server-2008-r2-sp1--windows-server-2012-r2-and-windows-server-2016)
-- [Configurar configurações de proxy de dispositivo e conectividade com a Internet](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-proxy-internet#configure-the-proxy-server-manually-using-a-registry-based-static-proxy)
+- [Versões anteriores integradas do Windows](/microsoft-365/security/defender-endpoint/onboard-downlevel)
+- [Servidores de integração para o serviço do Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/configure-server-endpoints#windows-server-2008-r2-sp1--windows-server-2012-r2-and-windows-server-2016)
+- [Definir as configurações de proxy de dispositivo e conectividade com a Internet](/microsoft-365/security/defender-endpoint/configure-proxy-internet#configure-the-proxy-server-manually-using-a-registry-based-static-proxy)
 
 ## <a name="on-premise-devices"></a>Dispositivos locais
 
 - Configurar o Azure Log Analytics (anteriormente conhecido como Gateway OMS) para atuar como proxy ou hub:
-  - [Agente de Análise de Log do Azure](https://docs.microsoft.com/azure/azure-monitor/platform/gateway#download-the-log-analytics-gateway)
-  - [Instalar e configurar o Microsoft Monitoring Agent (MMA)](configure-server-endpoints.md#install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint) aponte para o Defender for Endpoint Workspace key & ID
+  - [Agente de Análise de Log do Azure](/azure/azure-monitor/platform/gateway#download-the-log-analytics-gateway)
+  - [Instalar e configurar Microsoft Monitoring Agent ponto (MMA)](configure-server-endpoints.md#install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint) para o Defender for Endpoint Workspace key & ID
 
 - Dispositivos offline na mesma rede do Azure Log Analytics
   -  Configurar o MMA para apontar para:
@@ -64,17 +64,17 @@ Para obter mais informações sobre métodos de integração, consulte os seguin
      - Chave de espaço de trabalho do Defender para Ponto de Extremidade & ID
 
 ## <a name="azure-virtual-machines"></a>Máquinas virtuais do Azure
-- Configurar e habilitar o espaço de trabalho [do Azure Log Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/gateway)
+- Configurar e habilitar o espaço de trabalho [do Azure Log Analytics](/azure/azure-monitor/platform/gateway)
 
     - Configurar o Gateway de Análise de Log do Azure (anteriormente conhecido como Gateway OMS) para atuar como proxy ou hub:
-      - [Gateway de Análise de Log do Azure](https://docs.microsoft.com/azure/azure-monitor/platform/gateway#download-the-log-analytics-gateway)
-      - [Instalar e configurar o Microsoft Monitoring Agent (MMA)](configure-server-endpoints.md#install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint) aponte para o Defender for Endpoint Workspace key & ID
+      - [Gateway de Análise de Log do Azure](/azure/azure-monitor/platform/gateway#download-the-log-analytics-gateway)
+      - [Instalar e configurar Microsoft Monitoring Agent ponto (MMA)](configure-server-endpoints.md#install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint) para o Defender for Endpoint Workspace key & ID
     - VMs offline do Azure na mesma rede do Gateway OMS
       - Configurar o IP do Azure Log Analytics como proxy
       - Chave de Espaço de Trabalho do Azure Log Analytics & ID
 
     - Azure Defender
-      - [Espaço de Trabalho \> de Análise de Log de Política de Segurança](https://docs.microsoft.com/azure/security-center/security-center-wdatp#enable-windows-defender-atp-integration)
-      - [Detecção de \> ameaças Permitir que o Defender para o Ponto de Extremidade acesse meus dados](https://docs.microsoft.com/azure/security-center/security-center-wdatp#enable-windows-defender-atp-integration)
+      - [Espaço de Trabalho \> de Análise de Log de Política de Segurança](/azure/security-center/security-center-wdatp#enable-windows-defender-atp-integration)
+      - [Detecção de \> ameaças Permitir que o Defender para o Ponto de Extremidade acesse meus dados](/azure/security-center/security-center-wdatp#enable-windows-defender-atp-integration)
 
-        Para obter mais informações, consulte [Trabalhando com políticas de segurança](https://docs.microsoft.com/azure/security-center/tutorial-security-policy).
+        Para obter mais informações, consulte [Trabalhando com políticas de segurança](/azure/security-center/tutorial-security-policy).

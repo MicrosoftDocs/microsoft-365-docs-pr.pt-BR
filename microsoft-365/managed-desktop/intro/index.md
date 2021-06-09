@@ -10,12 +10,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: d058cfefbc31be6d355ed61e745c36af684829b4
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 0c08f5d05c42ed8d1e84632377be28e542771c2a
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259662"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841361"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de trabalho gerenciada da Microsoft?
 
@@ -61,7 +61,7 @@ A Área de Trabalho Gerenciada da Microsoft assume o trabalho de gerenciar dispo
 
 - **Atualizações:** A Área de Trabalho Gerenciada da Microsoft configura e gerencia todos os aspectos de [grupos de implantação](../service-description/updates.md) para as atualizações de recursos e qualidade do Windows 10, drivers, firmware, definições de antivírus e atualizações do Microsoft 365 Apps para Grandes Empresas. Isso inclui os testes abrangentes e a verificação de todas as atualizações, o que garante que os dispositivos registrados estejam sempre atualizados e minimize as interrupções, liberando o seu departamento de TI por toda a tarefa.
 
-- **Aplicativos:** Como parte do Microsoft 365 Enterprise, a Microsoft fornece (e gerencia) vários aplicativos essenciais da Microsoft para você. Mas você provavelmente também tem outros aplicativos necessários para a sua empresa. Em vez do departamento de TI precisar testar, empacotar e implantar os aplicativos, a Microsoft ajuda a implementá-los usando o programa [FastTrack](https://www.microsoft.com/FastTrack). Além disso, o programa [Garantia de Aplicativo](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assuree) da Microsoft pode ajudar a remediar problemas de compatibilidade de aplicativos que aconteçam ao migrar para as versões mais recentes de nossos produtos. Saiba mais em [Aplicativos da Área de Trabalho Gerenciada da Microsoft](../get-ready/apps.md).
+- **Aplicativos:** Como parte do Microsoft 365 Enterprise, a Microsoft fornece (e gerencia) vários aplicativos essenciais da Microsoft para você. Mas você provavelmente também tem outros aplicativos necessários para a sua empresa. Em vez do departamento de TI precisar testar, empacotar e implantar os aplicativos, a Microsoft ajuda a implementá-los usando o programa [FastTrack](https://www.microsoft.com/FastTrack). Além disso, o programa [Garantia de Aplicativo](/fasttrack/products-and-capabilities#app-assuree) da Microsoft pode ajudar a remediar problemas de compatibilidade de aplicativos que aconteçam ao migrar para as versões mais recentes de nossos produtos. Saiba mais em [Aplicativos da Área de Trabalho Gerenciada da Microsoft](../get-ready/apps.md).
 
 
 ## <a name="device-monitoring"></a>Monitoramento de dispositivo

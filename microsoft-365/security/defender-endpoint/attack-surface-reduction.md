@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 0852cc5af2de6767e202e3a839c498e7e008eef3
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 55b06ca25047fe615bd0011528fbdbe5112a4533
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593848"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844977"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Usar regras de redução de superfície de ataque para evitar infecção por malware
 
@@ -160,8 +160,8 @@ Se você estiver configurando regras de redução de superfície de ataque usand
 |Nome da regra|GUID|Exclusões & de pastas de arquivo|Sistema operacional mínimo suportado|
 |---|:---:|---|---|
 |[Bloquear o abuso de drivers assinados vulneráveis explorados](#block-abuse-of-exploited-vulnerable-signed-drivers)|`56a863a9-875e-4185-98a7-b882c64b5ce5`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior) |
-|[Impedir o Adobe Reader de criar processos filho](#block-adobe-reader-from-creating-child-processes)|`7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`|Compatível|[Windows 10, versão 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
-|[Bloquear todos os Office aplicativos da criação de processos filho](#block-all-office-applications-from-creating-child-processes)|`D4F940AB-401B-4EFC-AADC-AD5F3C50688A`|Compatível|[Windows 10, versão 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
+|[Impedir o Adobe Reader de criar processos filho](#block-adobe-reader-from-creating-child-processes)|`7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
+|[Bloquear todos os Office aplicativos da criação de processos filho](#block-all-office-applications-from-creating-child-processes)|`D4F940AB-401B-4EFC-AADC-AD5F3C50688A`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
 |[Bloquear o roubo de credenciais do subsistema Windows autoridade de segurança local (lsass.exe)](#block-credential-stealing-from-the-windows-local-security-authority-subsystem)|`9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
 |[Bloquear conteúdo executável do cliente de email e do webmail](#block-executable-content-from-email-client-and-webmail)|`BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
 |[Impedir a execução de arquivos executáveis, a menos que eles atendem a uma prevalência, idade ou critério de lista confiável](#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion)|`01443614-cd74-433a-b99e-2ecdc07bfc25`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|

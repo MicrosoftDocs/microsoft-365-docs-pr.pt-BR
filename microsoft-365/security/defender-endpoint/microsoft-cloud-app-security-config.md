@@ -1,7 +1,7 @@
 ---
-title: Configurar a integração com o Microsoft Cloud App Security
+title: Configurar a integração do Microsoft Cloud App Security
 ms.reviewer: ''
-description: Saiba como ativar as configurações para habilitar a integração do Microsoft Defender for Endpoint com o Microsoft Cloud App Security.
+description: Saiba como ativar as configurações para habilitar a integração do Microsoft Defender for Endpoint com Microsoft Cloud App Security.
 keywords: nuvem, aplicativo, segurança, configurações, integração, descoberta, relatório
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,14 +17,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f5e2919ae3fcbbb443f6d160c68633ee3427ae5a
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 4f7aca5cb532510d55042c70d04d65f2aa08baa3
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187524"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844749"
 ---
-# <a name="configure-microsoft-cloud-app-security-in-microsoft-defender-for-endpoint"></a>Configurar o Microsoft Cloud App Security no Microsoft Defender para Ponto de Extremidade
+# <a name="configure-microsoft-cloud-app-security-in-microsoft-defender-for-endpoint"></a>Configurar Microsoft Cloud App Security no Microsoft Defender para Ponto de Extremidade
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,29 +35,29 @@ ms.locfileid: "51187524"
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 
-Para se beneficiar dos sinais de descoberta de aplicativos de nuvem do Microsoft Defender para Endpoint, a ligue a integração com o Microsoft Cloud App Security.
+Para se beneficiar dos sinais de descoberta de aplicativos de nuvem do Microsoft Defender para Endpoint, a Microsoft Cloud App Security integração.
 
 >[!NOTE]
->Esse recurso estará disponível com uma licença E5 para [Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) em dispositivos que executam o Windows 10, versão 1709 (Com build do sistema operacional 16299.1085 com [KB4493441](https://support.microsoft.com/help/4493441)), Windows 10, versão 1803 (build 17134.704 do sistema operacional com [KB4493464](https://support.microsoft.com/help/4493464)), Windows 10, versão 1809 (build 17763.379 do sistema operacional com [KB4489899](https://support.microsoft.com/help/4489899)) ou versões posteriores do Windows 10.
+>Esse recurso estará disponível com uma [](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) licença E5 para Enterprise Mobility + Security em dispositivos que executam o Windows 10, versão 1709 (Com build do sistema operacional 16299.1085 com [KB4493441](https://support.microsoft.com/help/4493441)), Windows 10, versão 1803 (Build 17134.704 com [KB4493464](https://support.microsoft.com/help/4493464)), Windows 10, versão 1809 (build 17763.379 do sistema operacional com [KB4489899](https://support.microsoft.com/help/4489899)) ou posterior Windows 10 versões.
 
-> Consulte [Integração do Microsoft Defender para Ponto](https://docs.microsoft.com/cloud-app-security/mde-integration) de Extremidade com o Microsoft Cloud App Security para integração detalhada do Microsoft Defender para Ponto de Extremidade com o Microsoft Cloud App Security. 
+> Consulte [Integração do Microsoft Defender para Ponto](/cloud-app-security/mde-integration) de Extremidade com Microsoft Cloud App Security para integração detalhada do Microsoft Defender para Ponto de Extremidade com Microsoft Cloud App Security. 
 
-## <a name="enable-microsoft-cloud-app-security-in-microsoft-defender-for-endpoint"></a>Habilitar o Microsoft Cloud App Security no Microsoft Defender para Ponto de Extremidade
+## <a name="enable-microsoft-cloud-app-security-in-microsoft-defender-for-endpoint"></a>Habilitar Microsoft Cloud App Security no Microsoft Defender para Ponto de Extremidade
 
 1. No painel de navegação, selecione **Configuração de preferências**  >  **Recursos avançados**.
 2. Selecione **Microsoft Cloud App Security** e alterne a alternância para **On**.
 3. Clique **em Salvar preferências**.
 
-Depois de ativado, o Microsoft Defender para Ponto de Extremidade começará imediatamente a encaminhar sinais de descoberta para o Cloud App Security.
+Depois de ativado, o Microsoft Defender para Ponto de Extremidade começará imediatamente a encaminhar sinais de descoberta para Cloud App Security.
 
 ## <a name="view-the-data-collected"></a>Exibir os dados coletados
 
-Para exibir e acessar dados do Microsoft Defender para Endpoint no Microsoft Cloud Apps Security, consulte [Investigar dispositivos em Cloud App Security](https://docs.microsoft.com/cloud-app-security/mde-integration#investigate-devices-in-cloud-app-security).
+Para exibir e acessar dados do Microsoft Defender for Endpoint no Microsoft Cloud Apps Security, consulte [Investigar dispositivos em Cloud App Security](/cloud-app-security/mde-integration#investigate-devices-in-cloud-app-security).
 
 
-Para obter mais informações sobre descoberta na nuvem, consulte [Trabalhando com aplicativos descobertos.](https://docs.microsoft.com/cloud-app-security/discovered-apps)
+Para obter mais informações sobre descoberta na nuvem, consulte [Trabalhando com aplicativos descobertos.](/cloud-app-security/discovered-apps)
 
-Se você estiver interessado em tentar o Microsoft Cloud App Security, consulte [Microsoft Cloud App Security Trial](https://signup.microsoft.com/Signup?OfferId=757c4c34-d589-46e4-9579-120bba5c92ed&ali=1).
+Se você estiver interessado em tentar Microsoft Cloud App Security, consulte [Microsoft Cloud App Security Trial](https://signup.microsoft.com/Signup?OfferId=757c4c34-d589-46e4-9579-120bba5c92ed&ali=1).
 
 ## <a name="related-topic"></a>Tópicos relacionados
-- [Integração com o Microsoft Cloud App Security](microsoft-cloud-app-security-integration.md)
+- [Microsoft Cloud App Security integração](microsoft-cloud-app-security-integration.md)

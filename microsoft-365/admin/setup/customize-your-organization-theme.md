@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: Aprenda a alterar o tema padrão para a parte superior da barra de navegação Microsoft 365 personalizá-lo para corresponder ao logotipo ou cor da sua empresa.
-ms.openlocfilehash: e609cbbc116f932d9c41f7ec797bf04a2a9c8ef8
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 7dc1eb4df22cbd96b2370437991aee936243189e
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809042"
+ms.locfileid: "52841301"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Personalizar o Microsoft 365 da sua organização
 
@@ -82,20 +82,13 @@ Você pode criar até quatro temas de grupo adicionais.
 
 Na página **Logos,** você pode adicionar seus logotipos e especificar a URL para a qual os usuários navegarão quando selecionarem o logotipo.
 
-- **Logotipo padrão**: Adicione um local de URL que aponta para seu logotipo. Certifique-se de que a URL use HTTPS e que a imagem tenha pelo menos 200 x 30 pixels. Seu logotipo padrão pode estar no formato JPG, PNG, GIF ou SVG.
+- **Logotipo padrão**: Adicione um local de URL que aponta para seu logotipo. Certifique-se de que a URL use HTTPS. Se você estiver carregando um logotipo, certifique-se de que seja menor que 10kb. Seu logotipo padrão pode estar no formato JPG, PNG, GIF ou SVG. Para imagens SVG, elas serão resized para caber 24 pixels verticalmente. As imagens JPG, PNG, GIF serão dimensionados para caber 200 x 48 pixels.
 - **Logotipo alternativo**: Adicione um local de URL que aponta para seu logotipo. Seu logotipo alternativo deve ser otimizado para uso em Office temas escuros. Os mesmos requisitos do logotipo padrão.
-- **Logotipo padrão pequeno:** adicione um local de URL que aponta para seu logotipo. A imagem deve ter pelo menos 48 x 48 pixels. Você pode dimensionar essa imagem para que ela se encaixe em dispositivos menores ou móveis.
-- **Logotipo alternativo pequeno:** adicione um local de URL que aponta para seu logotipo. Essa imagem tem os mesmos requisitos do logotipo padrão pequeno.
 - **Link ao clicar**: Adicione um local de URL que aponta para seu logotipo. Você pode usar seu logotipo como um link para qualquer recurso da empresa, por exemplo, o site da sua empresa.
 
 Selecione **Salvar** para salvar suas alterações.
 
 Você pode remover seus logotipos a qualquer momento. Basta retornar à página **Logos** e selecione **Remover**.
-
-:::image type="content" source="../../media/default-theme-logos.png" alt-text="Captura de tela: guia Logotipos mostrando o logotipo do tema padrão para sua organização":::
-
-> [!NOTE]
-> Por padrão, primeiro mostramos seleções de logotipo que a maioria das organizações usa. Para ver todas as seleções de logotipo, vá para a parte inferior da lista e selecione **Ver opções avançadas**.
   
 ## <a name="colors-choose-theme-colors"></a>Cores: escolher cores de tema
 

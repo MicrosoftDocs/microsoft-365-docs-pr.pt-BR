@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Aprenda as etapas básicas para criar um dicionário de palavras-chave no Centro de Segurança e Conformidade do Office 365.
-ms.openlocfilehash: 24f6bb636c702438be8ca9520c6523031f297410
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 1e1aa45c3bf4d31e4c969b0bc0949109fa716467
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683758"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841157"
 ---
 # <a name="create-a-keyword-dictionary"></a>Criar um dicionário de palavras-chave
 
@@ -31,7 +31,7 @@ A DLP (prevenção contra perda de dados) pode identificar, monitorar e proteger
 
 ## <a name="keyword-dictionary-limits"></a>Limites do dicionário de palavras-chave
 
-Há um limite de 50 tipos de informações confidenciais baseadas em dicionário de palavras-chave que podem ser criados por locatário. Para descobrir quantos dicionários de palavras-chave você tem em seu inquilino, conecte-se usando os procedimentos do [Connect to the Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) para conectar-se ao seu inquilino e executar este script PowerShell.
+Há um limite de 50 tipos de informações confidenciais baseadas em dicionário de palavras-chave que podem ser criados por locatário. Para descobrir quantos dicionários de palavras-chave você tem em seu inquilino, conecte-se usando os procedimentos do [Connect to the Security & Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell) para conectar-se ao seu inquilino e executar este script PowerShell.
 
 ```powershell
 $rawFile = $env:TEMP + "\rule.xml"

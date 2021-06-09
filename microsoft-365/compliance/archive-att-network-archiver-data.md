@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector teleMessage para importar e arquivar dados SMS e MMS da rede T Mobile do AT&T. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que você possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: a67e6caa8a610c8dac76ac6397c54115b310904b
-ms.sourcegitcommit: b169f6ad3e44a7fcebf77f43be9eb5edd84ea5ef
+ms.openlocfilehash: 5d07c24a2730a405683e064f76c5b95a219dcb2a
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52077276"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822052"
 ---
 # <a name="set-up-a-connector-to-archive-att-smsmms-data"></a>Configurar um conector para arquivar dados AT&T SMS/MMS
 
@@ -54,6 +54,8 @@ Algumas das etapas de implementação necessárias para arquivar os dados da red
 - Seus funcionários devem ter telefones móveis corporativos e corporativos na rede móvel AT&T. As mensagens de arquivamento no Microsoft 365 não estão disponíveis para dispositivos de propriedade do funcionário ou "Traga seus próprios dispositivos (BYOD).
 
 - O usuário que cria um conector de rede T&AT deve receber a função de Exportação de Importação de Caixa de Correio Exchange Online. Isso é necessário para adicionar conectores na página **Conectores** de dados no Microsoft 365 de conformidade. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função Exportar Importação de Importação de Caixa de Correio ao grupo de função Gerenciamento da Organização Exchange Online. Ou você pode criar um grupo de funções, atribuir a função Exportar Importação de Caixa de Correio e adicionar os usuários apropriados como membros. Para obter mais informações, consulte as seções Criar grupos de [função](/Exchange/permissions-exo/role-groups#create-role-groups) ou [Modificar](/Exchange/permissions-exo/role-groups#modify-role-groups) grupos de função no artigo "Gerenciar grupos de funções em Exchange Online".
+
+- Esse conector de dados está disponível em GCC ambientes na nuvem Microsoft 365 Us Government. Aplicativos e serviços de terceiros podem envolver o armazenamento, a transmissão e o processamento dos dados do cliente da sua organização em sistemas de terceiros que estão fora da infraestrutura do Microsoft 365 e, portanto, não são cobertos pelos compromissos de conformidade e proteção de dados do Microsoft 365. A Microsoft não faz nenhuma representação de que o uso desse produto para se conectar a aplicativos de terceiros implica que esses aplicativos de terceiros são compatíveis com FEDRAMP.
 
 ## <a name="create-a-att-network-connector"></a>Criar um conector de rede T&AT
 

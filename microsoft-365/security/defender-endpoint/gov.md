@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0276f0464f898d3675e4cc1d6b69185e7e390a87
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 7956c1454cd7bd962eda984cc9d93be9824d7458
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572664"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822100"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>Microsoft Defender para Ponto de Extremidade para clientes do Governo dos EUA
 
@@ -104,7 +104,7 @@ As seguintes versões do sistema operacional são suportadas ao usar [o Azure De
 
 Versão do sistema operacional | CCG | CCG Alto | DoD
 :---|:---|:---|:---
-Windows Server 2019 | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento
+Windows Server 2019 | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
 Windows Server 2016 | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
 Windows Server 2012 R2 | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
 Windows Server 2008 R2 SP1 | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
@@ -164,7 +164,7 @@ Nome do recurso | CCG | CCG Alto | DoD
 Gerenciamento e APIs: API de streaming | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
 Filtragem de conteúdo da Web | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento
 Integrações: Azure Sentinel | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) Alertas <br /> ![Não](images/svg/check-no.svg) Incidentes & dados brutos: no desenvolvimento | ![Sim](images/svg/check-yes.svg) Alertas <br /> ![Não](images/svg/check-no.svg) Incidentes & dados brutos: no desenvolvimento
-Integrações: Microsoft Cloud App Security | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento
+Integrações: Microsoft Cloud App Security | ![Sim](images/svg/check-yes.svg) | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento
 Integrações: Microsoft Compliance Manager | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento
 Integrações: Microsoft Defender for Identity | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento
 Integrações: DLP do Ponto de Extremidade da Microsoft | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento

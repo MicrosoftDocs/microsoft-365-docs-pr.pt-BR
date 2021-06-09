@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6529f0badd94d6ca4d95dfbb562a9d352fedb76a
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 2a442a642a71bd6bf3a52dbf3901c4367c2c10d8
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935888"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844989"
 ---
 # <a name="understand-the-analyst-report-in-threat-analytics"></a>Compreender o relatório do analista na análise de ameaças
 
@@ -67,18 +67,18 @@ Além dessas mitigações controladas, o relatório do analista também aborda m
 Embora você possa usar a guia **Mitigações** para avaliar sua postura de segurança contra uma ameaça, essas recomendações permitem que você tome medidas adicionais para melhorar sua postura de segurança. Leia cuidadosamente todas as diretrizes de mitigação no relatório do analista e aplique-as sempre que possível.
 
 ## <a name="understand-how-each-threat-can-be-detected"></a>Entender como cada ameaça pode ser detectada
-O relatório de analista também fornece as detecções do Microsoft Defender para recursos de detecção e resposta _de_ antivírus e ponto de extremidade (EDR).
+O relatório de analista também fornece as detecções do Microsoft Defender para recursos de antivírus e _detecção e resposta de ponto de extremidade_ (EDR).
 
 ### <a name="antivirus-detections"></a>Detecções antivírus
-Essas detecções estão disponíveis em dispositivos com [o Microsoft Defender Antivírus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) ligado. Quando essas detecções ocorrem em dispositivos que foram integrados ao Microsoft Defender para Ponto de Extremidade, eles também disparam alertas que acendem os gráficos no relatório.
+Essas detecções estão disponíveis em dispositivos [com Microsoft Defender Antivírus](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) ativas. Quando essas detecções ocorrem em dispositivos que foram integrados ao Microsoft Defender para Ponto de Extremidade, eles também disparam alertas que acendem os gráficos no relatório.
 
 >[!NOTE]
 >O relatório do analista também lista detecções **genéricas** que podem identificar uma ampla variedade de ameaças, além de componentes ou comportamentos específicos da ameaça controlada. Essas detecções genéricas não refletem nos gráficos.
 
-### <a name="endpoint-detection-and-response-edr-alerts"></a>Alertas de detecção e resposta de ponto de extremidade (EDR)
-Alertas de EDR são gerados para [dispositivos conectados ao Microsoft Defender para Ponto de Extremidade.](onboard-configure.md) Esses alertas geralmente dependem de sinais de segurança coletados pelo sensor do Microsoft Defender para Ponto de Extremidade e outros recursos de ponto de extremidade, como antivírus, proteção de rede, proteção contra adulteração, que servem como fontes de sinal poderosas.
+### <a name="endpoint-detection-and-response-edr-alerts"></a>Alertas de detecção e resposta do ponto de extremidade (EDR)
+EDR alertas são gerados para dispositivos [conectados ao Microsoft Defender para Ponto de Extremidade.](onboard-configure.md) Esses alertas geralmente dependem de sinais de segurança coletados pelo sensor do Microsoft Defender para Ponto de Extremidade e outros recursos de ponto de extremidade, como antivírus, proteção de rede, proteção contra adulteração, que servem como fontes de sinal poderosas.
 
-Como a lista de detecções de antivírus, alguns alertas de EDR são projetados para sinalizar genericamente comportamentos suspeitos que podem não estar associados à ameaça controlada. Nesses casos, o relatório identificará claramente o alerta como "genérico" e não influenciará nenhum dos gráficos no relatório.
+Como a lista de detecções de antivírus, alguns alertas EDR foram projetados para sinalizar genericamente comportamentos suspeitos que podem não estar associados à ameaça controlada. Nesses casos, o relatório identificará claramente o alerta como "genérico" e não influenciará nenhum dos gráficos no relatório.
 
 ## <a name="find-subtle-threat-artifacts-using-advanced-hunting"></a>Encontrar artefatos de ameaças sutis usando a busca avançada
 Embora as detecções permitam identificar e interromper a ameaça controlada automaticamente, muitas atividades de ataque deixam rastreamentos sutis que exigem inspeção adicional. Algumas atividades de ataque exibem comportamentos que também podem ser normais, portanto, detectá-los dinamicamente pode resultar em ruído operacional ou até mesmo falsos positivos.

@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.custom: AIR
-ms.openlocfilehash: d4b0751938b66cc22dd59e2e7035077c5ef59ff9
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: e52471e1b3e9ee3a410de493b536f9d360d60624
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274815"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844437"
 ---
 # <a name="overview-of-automated-investigations"></a>Visão geral das investigações automatizadas
 
@@ -72,12 +72,12 @@ Se uma entidade for vista em outro dispositivo, o processo de investigação aut
 
 À medida que os vereditos são atingidos, investigações automatizadas podem resultar em uma ou mais ações de correção. Exemplos de ações de correção incluem o envio de um arquivo para a quarentena, a interrupção de um serviço, a remoção de uma tarefa agendada e muito mais. Para saber mais, confira [Ações de correção.](manage-auto-investigation.md#remediation-actions)  
 
-Dependendo do [](automation-levels.md) nível de automação definido para sua organização, bem como de outras configurações de segurança, as ações de correção podem ocorrer automaticamente ou somente após a aprovação pela sua equipe de operações de segurança. As configurações de segurança adicionais que podem afetar a correção automática incluem [proteção contra](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus) aplicativos potencialmente indesejados (PUA). 
+Dependendo do [](automation-levels.md) nível de automação definido para sua organização, bem como de outras configurações de segurança, as ações de correção podem ocorrer automaticamente ou somente após a aprovação pela sua equipe de operações de segurança. As configurações de segurança adicionais que podem afetar a correção automática incluem [proteção contra](/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus) aplicativos potencialmente indesejados (PUA). 
 
-Todas as ações de correção, pendentes ou concluídas, são controladas no [Centro de Ações](auto-investigation-action-center.md). Se necessário, sua equipe de operações de segurança pode desfazer uma ação de correção. Para saber mais, confira Revisar e aprovar ações [de correção após uma investigação automatizada.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-auto-investigation)
+Todas as ações de correção, pendentes ou concluídas, são controladas no [Centro de Ações](auto-investigation-action-center.md). Se necessário, sua equipe de operações de segurança pode desfazer uma ação de correção. Para saber mais, confira Revisar e aprovar ações [de correção após uma investigação automatizada.](/microsoft-365/security/defender-endpoint/manage-auto-investigation)
 
 > [!TIP]
-> Confira a nova página de investigação unificada no centro de segurança do Microsoft 365. Para saber mais, consulte [(NEW!) Página de investigação unificada](/microsoft-365/security/defender/m365d-autoir-results#new-unified-investigation-page).
+> Confira a nova página de investigação unificada no centro Microsoft 365 segurança. Para saber mais, consulte [(NEW!) Página de investigação unificada](/microsoft-365/security/defender/m365d-autoir-results#new-unified-investigation-page).
 
 
 ## <a name="requirements-for-air"></a>Requisitos para AIR
@@ -87,8 +87,8 @@ Sua organização deve ter o Defender para Ponto de Extremidade (consulte [Requi
 Atualmente, o AIR dá suporte apenas às seguintes versões do sistema operacional:
 - Windows Server 2019
 - Windows 10, versão 1709 (Build 16299.1085 com [KB4493441](https://support.microsoft.com/help/4493441/windows-10-update-kb4493441)) ou posterior
-- Windows 10, versão 1803 (Build 17134.704 com [KB4493464](https://support.microsoft.com/help/4493464/windows-10-update-kb4493464)) ou posterior
-- Windows 10, versão [1803](https://docs.microsoft.com/windows/release-information/status-windows-10-1809-and-windows-server-2019) ou posterior
+- Windows 10, versão 1803 (build 17134.704 do sistema operacional com [KB4493464](https://support.microsoft.com/help/4493464/windows-10-update-kb4493464)) ou posterior
+- Windows 10, versão [1803](/windows/release-information/status-windows-10-1809-and-windows-server-2019) ou posterior
 
 ## <a name="next-steps"></a>Próximas etapas
 
@@ -98,6 +98,6 @@ Atualmente, o AIR dá suporte apenas às seguintes versões do sistema operacion
 
 ## <a name="see-also"></a>Confira também
 
-- [Proteção PUA](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
-- [Investigação e resposta automatizadas no Microsoft Defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)
-- [Investigação e resposta automatizadas no Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/mtp-autoir)
+- [Proteção PUA](/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
+- [Investigação e resposta automatizadas no Microsoft Defender para Office 365](/microsoft-365/security/office-365-security/office-365-air)
+- [Investigação e resposta automatizadas no Microsoft 365 Defender](/microsoft-365/security/defender/mtp-autoir)

@@ -17,12 +17,12 @@ ms.collection:
 ms.topic: conceptual
 ms.date: 5/1/2020
 ms.technology: mde
-ms.openlocfilehash: b791f2b62cb4a3f8062c80ceeb04ccfa72f704bc
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b17af7931b181a5fa30271a3eee07c7abf10a010
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052867"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844017"
 ---
 # <a name="review-alerts-in-microsoft-defender-for-endpoint"></a>Revisar alertas no Microsoft Defender para Ponto de Extremidade
 
@@ -46,7 +46,7 @@ Selecionar o nome de um alerta no Defender para Ponto de Extremidade o fará par
 
 1. **O título do alerta** mostra o nome do alerta e está lá para lembrar qual alerta iniciou sua investigação atual, independentemente do que você selecionou na página.
 2. [**Os ativos**](#review-affected-assets) afetados listam cartões de dispositivos e usuários afetados por esse alerta que podem ser clicados para obter mais informações e ações.
-3. O **artigo de alerta** exibe todas as entidades relacionadas ao alerta, interconectadas por uma exibição em árvore. O alerta no título será aquele em foco quando você chegar pela primeira vez na página do alerta selecionado. As entidades no histórico de alerta são expansíveis e clicáveis, para fornecer informações adicionais e acelerar a resposta, permitindo que você tome ações diretamente no contexto da página de alerta. Use o artigo de alerta para iniciar sua investigação. Saiba como em [Investigar alertas no Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/investigate-alerts).
+3. O **artigo de alerta** exibe todas as entidades relacionadas ao alerta, interconectadas por uma exibição em árvore. O alerta no título será aquele em foco quando você chegar pela primeira vez na página do alerta selecionado. As entidades no histórico de alerta são expansíveis e clicáveis, para fornecer informações adicionais e acelerar a resposta, permitindo que você tome ações diretamente no contexto da página de alerta. Use o artigo de alerta para iniciar sua investigação. Saiba como em [Investigar alertas no Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/investigate-alerts).
 4. O **painel de detalhes** mostrará os detalhes do alerta selecionado no início, com detalhes e ações relacionadas a esse alerta. Se você selecionar qualquer um dos ativos ou entidades afetados no histórico de alertas, o painel de detalhes mudará para fornecer informações contextuais e ações para o objeto selecionado.
 
 Observe o status de detecção do alerta. 

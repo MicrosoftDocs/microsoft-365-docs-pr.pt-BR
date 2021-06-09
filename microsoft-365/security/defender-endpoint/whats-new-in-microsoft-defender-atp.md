@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 28d956e11b4ea26cbc816c4c3c0d915ec18c5810
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: e87a7423d6d69968bdf4224938e10799dcb89d1b
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782964"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844185"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>Novidades no Microsoft Defender para Ponto de Extremidade
 
@@ -43,7 +43,7 @@ Para obter mais informações sobre recursos de visualização, consulte [Recurs
 > RSS feed: seja notificado quando esta página for atualizada copiando e colar a SEGUINTE URL no leitor de feeds: 
 > 
 > ```https
-> https://docs.microsoft.com/api/search/rss?search=%22features+are+generally+available+%28GA%29+in+the+latest+release+of+Microsoft+Defender+for+Endpoint%22&locale=en-us&facet=
+> /api/search/rss?search=%22features+are+generally+available+%28GA%29+in+the+latest+release+of+Microsoft+Defender+for+Endpoint%22&locale=en-us&facet=
 > ```
 
 ## <a name="march-2021"></a>Março de 2021
@@ -146,7 +146,7 @@ Para obter mais informações sobre recursos de visualização, consulte [Recurs
 
 
 ## <a name="october-2018"></a>Outubro de 2018
-- [Regras de redução de superfície de ataque](attack-surface-reduction.md)<BR>Todas as regras de redução de superfície de ataque agora têm suporte no Windows Server 2019.
+- [Regras da redução da superfície de ataque](attack-surface-reduction.md)<BR>Todas as regras de redução de superfície de ataque agora têm suporte no Windows Server 2019.
 
 - [Acesso controlado a pastas](enable-controlled-folders.md)<BR> O acesso controlado a pastas agora é suportado no Windows Server 2019.
 
@@ -178,7 +178,7 @@ A Análise de Ameaças é um conjunto de relatórios interativos publicados pela
 - [Busca Avançada](advanced-hunting-overview.md) <BR>
 Dados de consulta usando a busca avançada no Microsoft Defender para Ponto de Extremidade.
 
-- [Regras de redução de superfície de ataque](/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)<BR>
+- [Regras da redução da superfície de ataque](/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)<BR>
     Novas regras de redução de superfície de ataque: 
   - Usar proteção avançada contra ransomware
   - Bloquear o roubo de credenciais do subsistema Windows autoridade de segurança local (lsass.exe)

@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector teleMessage para importar e arquivar dados do WhatsApp em Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que você possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 1387351772ccbb17f471c44fcd8d077df18a637e
-ms.sourcegitcommit: b169f6ad3e44a7fcebf77f43be9eb5edd84ea5ef
+ms.openlocfilehash: a8f588e6bbe5180865a2053b055230e4f35ed96a
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52077246"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822160"
 ---
 # <a name="set-up-a-connector-to-archive-whatsapp-data"></a>Configurar um conector para arquivar dados do WhatsApp
 
@@ -41,7 +41,7 @@ A visão geral a seguir explica o processo de uso de um conector para arquivar d
 
    Além do mapeamento automático do usuário  usando o valor da propriedade endereço email do usuário, você também pode implementar o mapeamento personalizado carregando um arquivo de mapeamento CSV. Este arquivo de mapeamento contém o número de telefone celular e o endereço Microsoft 365 email correspondente para usuários em sua organização. Se você habilitar o mapeamento automático do usuário e o mapeamento personalizado, para cada item do WhatsApp, o conector primeiro olhará para o arquivo de mapeamento personalizado. Se ele não encontrar um usuário Microsoft 365 que corresponda ao número de telefone celular de um usuário, o conector usará os valores na propriedade endereço de email do item que está tentando importar. Se o conector não encontrar um usuário Microsoft 365 no arquivo de mapeamento personalizado ou na propriedade endereço de email do item WhatsApp, o item não será importado.
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="before-you-set-up-a-connector"></a>Antes de configurar um conector
 
 Algumas das etapas de implementação necessárias para arquivar dados de comunicação do WhatsApp são externas Microsoft 365 e devem ser concluídas antes de você poder criar o conector no centro de conformidade.
 
@@ -52,6 +52,8 @@ Algumas das etapas de implementação necessárias para arquivar dados de comuni
 - Instale o aplicativo Telefone [Do WhatsApp](https://www.telemessage.com/mobile-archiver/whatsapp-phone-archiver-2/) de TeleMessage nos telefones celulares de seus funcionários e ative-o. Como alternativa, você pode instalar os aplicativos de WhatsApp ou WhatsApp Business regulares nos telefones celulares de seus funcionários e ativar o serviço WhatsApp Cloud Archiver, digitalizando um código QR no site do TeleMessage. Para obter mais informações, consulte [WhatsApp Cloud Archiver](https://www.telemessage.com/mobile-archiver/whatsapp-archiver/whatsapp-cloud-archiver/).
 
 - O usuário que cria um conector de Rede do Verizon deve receber a função de Exportação de Importação de Caixa de Correio Exchange Online. Isso é necessário para adicionar conectores na página **Conectores** de dados no Microsoft 365 de conformidade. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função Exportar Importação de Importação de Caixa de Correio ao grupo de função Gerenciamento da Organização Exchange Online. Ou você pode criar um grupo de funções, atribuir a função Exportar Importação de Caixa de Correio e adicionar os usuários apropriados como membros. Para obter mais informações, consulte as seções Criar grupos de [função](/Exchange/permissions-exo/role-groups#create-role-groups) ou [Modificar](/Exchange/permissions-exo/role-groups#modify-role-groups) grupos de função no artigo "Gerenciar grupos de funções em Exchange Online".
+
+- Esse conector de dados está disponível em GCC ambientes na nuvem Microsoft 365 Us Government. Aplicativos e serviços de terceiros podem envolver o armazenamento, a transmissão e o processamento dos dados do cliente da sua organização em sistemas de terceiros que estão fora da infraestrutura do Microsoft 365 e, portanto, não são cobertos pelos compromissos de conformidade e proteção de dados do Microsoft 365. A Microsoft não faz nenhuma representação de que o uso desse produto para se conectar a aplicativos de terceiros implica que esses aplicativos de terceiros são compatíveis com FEDRAMP.
 
 ## <a name="create-a-whatsapp-archiver-connector"></a>Criar um conector de arquivamento do WhatsApp
 

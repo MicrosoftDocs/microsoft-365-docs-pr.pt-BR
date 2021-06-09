@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 6465be53de38872e3eb1d7b70dc3efbb9154aace
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: b9d6cd374a107a403269bc3babbe4220d69e1cce
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934196"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844869"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>Solucionar problemas de integração do Microsoft Defender para pontos de extremidade
 
@@ -52,11 +52,11 @@ Se você tiver concluído o processo de integração [](investigate-machines.md)
 
 Se o script for concluído com êxito, consulte [Solucionar](#troubleshoot-onboarding-issues-on-the-device) problemas de integração nos dispositivos para obter erros adicionais que possam ocorrer.
 
-### <a name="troubleshoot-onboarding-issues-when-deploying-with-microsoft-endpoint-configuration-manager"></a>Solucionar problemas de integração ao implantar com o Microsoft Endpoint Configuration Manager
+### <a name="troubleshoot-onboarding-issues-when-deploying-with-microsoft-endpoint-configuration-manager"></a>Solucionar problemas de integração ao implantar com Microsoft Endpoint Configuration Manager
 
 Ao integrar dispositivos usando as seguintes versões do Configuration Manager:
 
-- Gerenciador de Configuração do Microsoft Endpoint
+- Microsoft Endpoint Configuration Manager
 - System Center Configuration Manager 2012
 - Gerenciador de Configurações do System Center 2012 R2
 
@@ -72,7 +72,7 @@ Se a integração for concluída com êxito,  mas os dispositivos não aparecere
 
 1. Clique **em Iniciar,** digite **Visualizador de Eventos** e pressione **Enter**.
 
-2. Vá para **Windows Logs**  >  **Application**.
+2. Vá para **o Windows Logs**  >  **Application**.
 
 3. Procure um evento da **fonte de eventos WDATPOnboarding.**
 
@@ -85,36 +85,36 @@ ID de evento | Tipo de erro | Etapas de resolução
 :---:|:---|:---
  `5` | Os dados de offboard foram encontrados, mas não puderam ser excluídos | Verifique as permissões no Registro, especificamente<br> `HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`.
 `10` | Os dados de integração não puderam ser gravados no Registro |  Verifique as permissões no Registro, especificamente<br> `HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`.<br>Verifique se o script foi executado como administrador.
-`15` |  Falha ao iniciar o serviço SENSE |Verifique a saúde do serviço ( `sc query sense` comando). Certifique-se de que ele não está em um estado intermediário (*'Pending_Stopped'*, *'Pending_Running'*) e tente executar o script novamente (com direitos de administrador). <br> <br> Se o dispositivo estiver executando o Windows 10, versão 1607 e executando o comando `sc query sense` `START_PENDING` retornará , reinicie o dispositivo. Se a reinicialização do dispositivo não resolver o problema, atualize para KB4015217 e tente integração novamente.
-`15` | Falha ao iniciar o serviço SENSE | Se a mensagem do erro for: Erro do sistema 577 ou erro 1058, você precisará habilitar o driver ELAM do Microsoft Defender Antivírus, consulte Ensure [that Microsoft Defender Antivírus](#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy) is not disabled by a policy for instructions.
+`15` |  Falha ao iniciar o serviço SENSE |Verifique a saúde do serviço ( `sc query sense` comando). Certifique-se de que ele não está em um estado intermediário (*'Pending_Stopped'*, *'Pending_Running'*) e tente executar o script novamente (com direitos de administrador). <br> <br> Se o dispositivo estiver executando Windows 10, a versão 1607 e a execução do comando `sc query sense` `START_PENDING` retornarão , reinicie o dispositivo. Se a reinicialização do dispositivo não resolver o problema, atualize para KB4015217 e tente integração novamente.
+`15` | Falha ao iniciar o serviço SENSE | Se a mensagem do erro for: Erro do sistema 577 ou erro 1058, você precisará habilitar o driver ELAM do Microsoft Defender Antivírus, consulte Ensure that Microsoft Defender Antivírus is not [disabled by a policy](#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy) for instructions.
 `30` |  O script falhou ao aguardar que o serviço começasse a ser executado | O serviço pode ter levado mais tempo para iniciar ou encontrou erros ao tentar iniciar. Para obter mais informações sobre eventos e erros relacionados ao SENSE, consulte [Review events and errors using Event viewer](event-error-codes.md).
 `35` |  O script falhou ao encontrar o valor necessário do registro de status de integração | Quando o serviço SENSE é iniciado pela primeira vez, ele grava o status de integração no local do Registro<br>`HKLM\SOFTWARE\Microsoft\Windows Advanced Threat Protection\Status`.<br> O script falhou ao encontrá-lo após vários segundos. Você pode testá-lo manualmente e verificar se ele está lá. Para obter mais informações sobre eventos e erros relacionados ao SENSE, consulte [Review events and errors using Event viewer](event-error-codes.md).
 `40` | O status de integração do serviço SENSE não está definido como **1** | O serviço SENSE falhou ao fazer a integração adequadamente. Para obter mais informações sobre eventos e erros relacionados ao SENSE, consulte [Review events and errors using Event viewer](event-error-codes.md).
 `65` | Privilégios insuficientes| Execute o script novamente com privilégios de administrador.
 
-### <a name="troubleshoot-onboarding-issues-using-microsoft-intune"></a>Solucionar problemas de integração usando o Microsoft Intune
+### <a name="troubleshoot-onboarding-issues-using-microsoft-intune"></a>Solucionar problemas de integração usando Microsoft Intune
 
-Você pode usar o Microsoft Intune para verificar códigos de erro e tentar solucionar o problema.
+Você pode usar Microsoft Intune para verificar códigos de erro e tentar solucionar o problema.
 
 Se você configurou políticas no Intune e elas não são propagadas em dispositivos, talvez seja necessário configurar o registro MDM automático.
 
 Use as tabelas a seguir para entender as possíveis causas de problemas durante a integração:
 
-- Códigos de erro do Microsoft Intune e OMA-URIs tabela
+- Microsoft Intune códigos de erro e OMA-URIs tabela
 - Problemas conhecidos com tabela de não conformidade
 - Tabela de logs de eventos do Gerenciamento de Dispositivo Móvel (MDM)
 
 Se nenhum dos logs de eventos e as etapas  de solução de problemas funcionarem, baixe o script Local da seção Gerenciamento de dispositivos do portal e execute-o em um prompt de comando elevado.
 
-#### <a name="microsoft-intune-error-codes-and-oma-uris"></a>Códigos de erro e códigos de erro do Microsoft Intune OMA-URIs
+#### <a name="microsoft-intune-error-codes-and-oma-uris"></a>Microsoft Intune códigos de erro e OMA-URIs
 
 Hex de código de erro | Dec de código de erro | Descrição do erro | OMA-URI | Possíveis etapas de causa e solução de problemas
 :---:|:---|:---|:---|:---
-0x87D1FDE8 | -2016281112 | Falha na correção | Integração <br> Offboarding | **Causa possível:** A integração ou o offboarding falharam em um blob errado: assinatura errada ou campos PreviousOrgIds ausentes. <br><br> **Etapas de solução de problemas:** <br> Verifique as IDs de evento na seção Exibir erros de integração do agente [no log de eventos do](#view-agent-onboarding-errors-in-the-device-event-log) dispositivo. <br><br> Verifique os logs de eventos MDM na tabela a seguir ou siga as instruções em [Diagnosticar falhas de MDM no Windows 10](https://docs.microsoft.com/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10).
+0x87D1FDE8 | -2016281112 | Falha na correção | Integração <br> Offboarding | **Causa possível:** A integração ou o offboarding falharam em um blob errado: assinatura errada ou campos PreviousOrgIds ausentes. <br><br> **Etapas de solução de problemas:** <br> Verifique as IDs de evento na seção Exibir erros de integração do agente [no log de eventos do](#view-agent-onboarding-errors-in-the-device-event-log) dispositivo. <br><br> Verifique os logs de eventos MDM na tabela a seguir ou siga as instruções em [Diagnostic MDM failures in Windows 10](/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10).
  | | | | Integração <br> Offboarding <br> SampleSharing | **Causa possível:** A chave do Registro da Política de Ponto de Extremidade do Microsoft Defender não existe ou o cliente do OMA DM não tem permissões para gravar nele. <br><br> **Etapas de solução de problemas:** Verifique se a seguinte chave do Registro existe: `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection` <br> <br> Se ele não existir, abra um comando elevado e adicione a chave.
- | | | | SenseIsRunning <br> OnboardingState <br> OrgId |  **Causa possível:** Uma tentativa de correção por propriedade somente leitura. A integração falhou. <br><br> **Etapas de solução de problemas:** Verifique as etapas de solução de problemas em [Solucionar problemas de integração no dispositivo](#troubleshoot-onboarding-issues-on-the-device). <br><br> Verifique os logs de eventos MDM na tabela a seguir ou siga as instruções em [Diagnosticar falhas de MDM no Windows 10](https://docs.microsoft.com/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10).
- | | | | Todos | **Causa possível:** Tente implantar o Microsoft Defender para Ponto de Extremidade em SKU/Platform sem suporte, especialmente SKU holográfico. <br><br> Plataformas com suporte no momento:<br> Enterprise, Education e Professional.<br> O servidor não tem suporte.
- 0x87D101A9 | -2016345687 |SyncML(425): O comando solicitado falhou porque o remetente não tem permissões adequadas de controle de acesso (ACL) no destinatário. | Todos |  **Causa possível:** Tente implantar o Microsoft Defender para Ponto de Extremidade em SKU/Platform sem suporte, especialmente SKU holográfico.<br><br> Plataformas com suporte no momento:<br>  Enterprise, Education e Professional.
+ | | | | SenseIsRunning <br> OnboardingState <br> OrgId |  **Causa possível:** Uma tentativa de correção por propriedade somente leitura. A integração falhou. <br><br> **Etapas de solução de problemas:** Verifique as etapas de solução de problemas em [Solucionar problemas de integração no dispositivo](#troubleshoot-onboarding-issues-on-the-device). <br><br> Verifique os logs de eventos MDM na tabela a seguir ou siga as instruções em [Diagnostic MDM failures in Windows 10](/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10).
+ | | | | Todos | **Causa possível:** Tente implantar o Microsoft Defender para Ponto de Extremidade em SKU/Platform sem suporte, especialmente SKU holográfico. <br><br> Plataformas com suporte no momento:<br> Enterprise, Educação e Professional.<br> O servidor não tem suporte.
+ 0x87D101A9 | -2016345687 |SyncML(425): O comando solicitado falhou porque o remetente não tem permissões adequadas de controle de acesso (ACL) no destinatário. | Todos |  **Causa possível:** Tente implantar o Microsoft Defender para Ponto de Extremidade em SKU/Platform sem suporte, especialmente SKU holográfico.<br><br> Plataformas com suporte no momento:<br>  Enterprise, Educação e Professional.
 
 #### <a name="known-issues-with-non-compliance"></a>Problemas conhecidos com falta de conformidade
 
@@ -122,8 +122,8 @@ A tabela a seguir fornece informações sobre problemas de não conformidade e c
 
 Caso | Sintomas | Possíveis etapas de causa e solução de problemas
 :---:|:---|:---
- `1` | O dispositivo é compatível com SenseIsRunning OMA-URI. Mas não é compatível com OrgId, Onboarding e OnboardingState OMA-URIs. | **Causa possível:** Verifique se o usuário passou o OOBE após a instalação ou atualização do Windows. Durante a integração OOBE não foi possível concluir, mas o SENSE já está em execução.<br><br> **Etapas de solução de problemas:** Aguarde a conclusão do OOBE.
- `2` |  O dispositivo é compatível com OrgId, Onboarding e OnboardingState OMA-URIs, mas não é compatível com SenseIsRunning OMA-URI. |  **Causa possível:** O tipo de inicialização do serviço Sense é definido como "Início Atrasado". Às vezes, isso faz com que o servidor do Microsoft Intune reporte o dispositivo como não compatível com SenseIsRunning quando a sessão de DM ocorre no início do sistema. <br><br> **Etapas de solução de problemas:** O problema deve ser corrigido automaticamente dentro de 24 horas.
+ `1` | O dispositivo é compatível com SenseIsRunning OMA-URI. Mas não é compatível com OrgId, Onboarding e OnboardingState OMA-URIs. | **Causa possível:** Verifique se o usuário passou o OOBE após Windows instalação ou atualização. Durante a integração OOBE não foi possível concluir, mas o SENSE já está em execução.<br><br> **Etapas de solução de problemas:** Aguarde a conclusão do OOBE.
+ `2` |  O dispositivo é compatível com OrgId, Onboarding e OnboardingState OMA-URIs, mas não é compatível com SenseIsRunning OMA-URI. |  **Causa possível:** O tipo de inicialização do serviço Sense é definido como "Início Atrasado". Às vezes, isso faz com que Microsoft Intune servidor do Microsoft Intune reporte o dispositivo como não compatível com SenseIsRunning quando a sessão de DM ocorre no início do sistema. <br><br> **Etapas de solução de problemas:** O problema deve ser corrigido automaticamente dentro de 24 horas.
  `3` | O dispositivo não é compatível | **Etapas de solução de problemas:** Verifique se as políticas de integração e de offboard não são implantadas no mesmo dispositivo ao mesmo tempo.
 
 #### <a name="mobile-device-management-mdm-event-logs"></a>Logs de eventos do Gerenciamento de Dispositivo Móvel (MDM)
@@ -146,13 +146,13 @@ Se as ferramentas de implantação usadas não indicarem um erro no processo de 
 - [Verifique se o serviço de dados de diagnóstico está habilitado](#ensure-the-diagnostics-service-is-enabled)
 - [Verifique se o serviço está definido para iniciar](#ensure-the-service-is-set-to-start)
 - [Verifique se o dispositivo tem uma conexão com a Internet](#ensure-the-device-has-an-internet-connection)
-- [Verifique se o Microsoft Defender Antivírus não está desabilitado por uma política](#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)
+- [Verifique se Microsoft Defender Antivírus não está desabilitado por uma política](#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)
 
 ### <a name="view-agent-onboarding-errors-in-the-device-event-log"></a>Exibir erros de integração do agente no log de eventos do dispositivo
 
 1. Clique **em Iniciar,** digite **Visualizador de Eventos** e pressione **Enter**.
 
-2. No painel Visualizador de Eventos **(Local),** expanda **Aplicativos e Serviços Logs** do  >  **Microsoft**  >  **Windows**  >  **SENSE**.
+2. No painel Visualizador de Eventos **(Local),** expanda **Logs de** Aplicativos e Serviços  >  **da Microsoft**  >  **Windows**  >  **SENSE**.
 
    > [!NOTE]
    > SENSE é o nome interno usado para se referir ao sensor comportamental que alimenta o Microsoft Defender para o Ponto de Extremidade.
@@ -195,13 +195,13 @@ Há componentes adicionais no dispositivo de que o agente do Microsoft Defender 
 
 ### <a name="ensure-the-diagnostic-data-service-is-enabled"></a>Verifique se o serviço de dados de diagnóstico está habilitado
 
-Se os dispositivos não estão relatando corretamente, talvez seja necessário verificar se o serviço de dados de diagnóstico do Windows 10 está definido para iniciar automaticamente e está sendo executado no dispositivo. O serviço pode ter sido desabilitado por outros programas ou alterações na configuração do usuário.
+Se os dispositivos não estão relatando corretamente, talvez seja necessário verificar se o serviço Windows 10 de dados de diagnóstico está definido para iniciar automaticamente e está sendo executado no dispositivo. O serviço pode ter sido desabilitado por outros programas ou alterações na configuração do usuário.
 
 Primeiro, você deve verificar se o serviço está definido para ser iniciado automaticamente quando o Windows for iniciado, em seguida, verifique se o serviço está em execução no momento (e inicie-o se não estiver).
 
 ### <a name="ensure-the-service-is-set-to-start"></a>Verifique se o serviço está definido para iniciar
 
-Use a linha de comando para verificar o tipo de inicialização do serviço de dados de diagnóstico **do Windows 10:**
+**Use a linha de comando para verificar o tipo Windows 10 de inicialização** do serviço de dados de diagnóstico:
 
 1. Abra um prompt de linha de comando elevada no dispositivo:
 
@@ -221,7 +221,7 @@ Use a linha de comando para verificar o tipo de inicialização do serviço de d
 
    Se o `START_TYPE` não estiver definido como , você precisará definir o serviço para iniciar `AUTO_START` automaticamente.
 
-**Use a linha de comando para definir o serviço de dados de diagnóstico do Windows 10 para iniciar automaticamente:**
+**Use a linha de comando para definir o serviço Windows 10 de dados de diagnóstico para iniciar automaticamente:**
 
 1. Abra um prompt de linha de comando elevada no dispositivo:
 
@@ -259,10 +259,10 @@ Para garantir que o sensor tenha conectividade de serviço, siga as etapas descr
 
 Se a verificação falhar e seu ambiente estiver usando um proxy para se conectar à Internet, siga as etapas descritas em [Configure proxy and Internet connectivity settings](configure-proxy-internet.md) topic.
 
-### <a name="ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy"></a>Verifique se o Microsoft Defender Antivírus não está desabilitado por uma política
+### <a name="ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy"></a>Verifique se Microsoft Defender Antivírus não está desabilitado por uma política
 
 > [!IMPORTANT]
-> O seguinte só se aplica  a dispositivos que ainda não receberam a atualização de agosto de 2020 (versão 4.18.2007.8) para o Microsoft Defender Antivírus.
+> O seguinte só se aplica  a dispositivos que ainda não receberam a atualização de agosto de 2020 (versão 4.18.2007.8) para Microsoft Defender Antivírus.
 >
 > A atualização garante que o Microsoft Defender Antivírus não possa ser desligado em dispositivos cliente por meio da política do sistema.
 
@@ -283,13 +283,13 @@ Se a verificação falhar e seu ambiente estiver usando um proxy para se conecta
   - `<Key Path="SOFTWARE\Policies\Microsoft\Windows Defender"><KeyValue Value="0" ValueKind="DWord" Name="DisableAntiVirus"/></Key>`
 
 > [!IMPORTANT]
-> A configuração é descontinuada e será ignorada em todos os dispositivos cliente, a partir da atualização de agosto de `disableAntiSpyware` 2020 (versão 4.18.2007.8) para o Microsoft Defender Antivírus.
+> A configuração é descontinuada e será ignorada em todos os dispositivos clientes, a partir da atualização de agosto de `disableAntiSpyware` 2020 (versão 4.18.2007.8) para Microsoft Defender Antivírus.
 
 - Depois de limpar a política, execute as etapas de integração novamente.
 
 - Você também pode verificar os valores de chave do Registro anterior para verificar se a política está desabilitada, abrindo a chave do Registro `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender` .
 
-    ![Imagem da chave do Registro do Microsoft Defender Antivírus](images/atp-disableantispyware-regkey.png)
+    ![Imagem da chave do Registro para Microsoft Defender Antivírus](images/atp-disableantispyware-regkey.png)
 
    > [!NOTE]
    > Todos os Windows Defender (wdboot, wdfilter, wdnisdrv, wdnissvc e windefend) devem estar em seu estado padrão. Alterar a inicialização desses serviços não é compatível e pode forçar você a reimagear seu sistema.
@@ -302,7 +302,7 @@ Se a verificação falhar e seu ambiente estiver usando um proxy para se conecta
 
 Se você encontrar problemas durante a integração de um servidor, vá pelas etapas de verificação a seguir para resolver possíveis problemas.
 
-- [Verifique se o Microsoft Monitoring Agent (MMA) está instalado e configurado para relatar dados do sensor ao serviço](configure-server-endpoints.md)
+- [Verifique se Microsoft Monitoring Agent (MMA) está instalado e configurado para relatar dados do sensor ao serviço](configure-server-endpoints.md)
 - [Verifique se o proxy do servidor e as configurações de conectividade com a Internet estão configuradas corretamente](configure-server-endpoints.md)
 
 Você também pode precisar verificar o seguinte:
@@ -313,13 +313,13 @@ Você também pode precisar verificar o seguinte:
 
 - Verifique **o Gerenciador de** Operações de Logs de Aplicativos e Serviços do Visualizador de Eventos para ver se há algum  >    >   erro.
 
-- Em **Serviços**, verifique se o **Agente de Monitoramento da Microsoft** está em execução no servidor. Por exemplo,
+- Em **Serviços,** verifique se o **Microsoft Monitoring Agent** está sendo executado no servidor. Por exemplo,
 
     ![Imagem dos Serviços](images/atp-services.png)
 
-- No **Microsoft Monitoring Agent**  >  **Azure Log Analytics (OMS),** verifique os Espaços de Trabalho e verifique se o status está em execução.
+- Em **Microsoft Monitoring Agent**  >  **Análise de Log do Azure (OMS),** verifique os Espaços de Trabalho e verifique se o status está em execução.
 
-    ![Imagem das propriedades do Agente de Monitoramento da Microsoft](images/atp-mma-properties.png)
+    ![Imagem de Microsoft Monitoring Agent Propriedades](images/atp-mma-properties.png)
 
 - Verifique se os dispositivos são refletidos na lista **Dispositivos** no portal.
 
@@ -335,127 +335,127 @@ As etapas a seguir fornecem orientações para o seguinte cenário:
 - Nesse cenário, o serviço SENSE não iniciará automaticamente, mesmo que o pacote de integração tenha sido implantado
 
 > [!NOTE]
-> As etapas a seguir só são relevantes ao usar o Microsoft Endpoint Configuration Manager. Para obter mais detalhes sobre a integração usando o Microsoft Endpoint Configuration Manager, consulte [Microsoft Defender for Endpoint](https://docs.microsoft.com/mem/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection).
+> As etapas a seguir só são relevantes ao usar Microsoft Endpoint Configuration Manager. Para obter mais detalhes sobre a integração usando Microsoft Endpoint Configuration Manager, consulte [Microsoft Defender for Endpoint](/mem/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection).
 
-1. Crie um aplicativo no Microsoft Endpoint Configuration Manager.
+1. Crie um aplicativo em Microsoft Endpoint Configuration Manager.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager1](images/mecm-1.png)
+    ![Imagem de Microsoft Endpoint Configuration Manager configuração1](images/mecm-1.png)
 
 2. Selecione **Especificar manualmente as informações do aplicativo**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager2](images/mecm-2.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 2](images/mecm-2.png)
 
 3. Especifique informações sobre o aplicativo e selecione **Next**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager3](images/mecm-3.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 3](images/mecm-3.png)
 
 4. Especifique informações sobre o centro de software e selecione **Next**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager4](images/mecm-4.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 4](images/mecm-4.png)
 
 5. Em **Tipos de implantação,** **selecione Adicionar**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager5](images/mecm-5.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 5](images/mecm-5.png)
 
 6. Selecione **Especificar manualmente as informações de tipo de implantação** e, em seguida, **selecione Next**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager6](images/mecm-6.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 6](images/mecm-6.png)
 
 7. Especifique informações sobre o tipo de implantação e selecione **Next**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager7](images/mecm-7.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 7](images/mecm-7.png)
 
 8. Em **Programa de** Instalação de  >  **Conteúdo,** especifique o comando: `net start sense` .
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager8](images/mecm-8.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 8](images/mecm-8.png)
 
 9. No **método Detection,** selecione **Configurar regras para detectar a** presença desse tipo de implantação e, em seguida, selecione Adicionar **Cláusula**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager9](images/mecm-9.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 9](images/mecm-9.png)
 
 10. Especifique os seguintes detalhes da regra de detecção e selecione **OK**:
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager10](images/mecm-10.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 10](images/mecm-10.png)
 
 11. No **método Detection,** selecione **Next**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager11](images/mecm-11.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 11](images/mecm-11.png)
 
 12. Na **Experiência do Usuário,** especifique as seguintes informações e selecione **Next**:
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager12](images/mecm-12.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 12](images/mecm-12.png)
 
 13. Em **Requisitos,** selecione **Próximo**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager13](images/mecm-13.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 13](images/mecm-13.png)
 
 14. Em **Dependências,** selecione **Próximo**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager14](images/mecm-14.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 14](images/mecm-14.png)
 
 15. Em **Resumo,** selecione **Próximo**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager15](images/mecm-15.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 15](images/mecm-15.png)
 
 16. Em **Conclusão,** selecione **Fechar**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager16](images/mecm-16.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 16](images/mecm-16.png)
 
 17. Em **Tipos de implantação,** selecione **Próximo**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager17](images/mecm-17.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager configuração17](images/mecm-17.png)
 
 18. Em **Resumo,** selecione **Próximo**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager18](images/mecm-18.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 18](images/mecm-18.png)
 
-    Em seguida, o status é exibido: ![ Imagem da configuração do Microsoft Endpoint Configuration Manager19](images/mecm-19.png)
+    Em seguida, o status é exibido: ![ Imagem da Microsoft Endpoint Configuration Manager configuração19](images/mecm-19.png)
 
 19. Em **Conclusão,** selecione **Fechar**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager20](images/mecm-20.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 20](images/mecm-20.png)
 
 20. Agora você pode implantar o aplicativo clicando com o botão direito do mouse no aplicativo e selecionando **Implantar**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager21](images/mecm-21.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 21](images/mecm-21.png)
 
 21. Em **Geral,** **selecione Distribuir automaticamente conteúdo para dependências** e **Procurar**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager22](images/mecm-22.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 22](images/mecm-22.png)
 
 22. Em **Conteúdo,** selecione **Próximo**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager23](images/mecm-23.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 23](images/mecm-23.png)
 
 23. Em **Configurações de implantação,** selecione **Próximo**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager24](images/mecm-24.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 24](images/mecm-24.png)
 
 24. Em **Agendamento** selecione Assim que possível após o horário **disponível,** selecione **Próximo**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager25](images/mecm-25.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 25](images/mecm-25.png)
 
 25. Na **experiência do usuário,** selecione Confirma as alterações no prazo ou durante uma janela de **manutenção (requer reinicializações)** e selecione **Próximo**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager26](images/mecm-26.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 26](images/mecm-26.png)
 
 26. Em **Alertas,** selecione **Próximo**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager27](images/mecm-27.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 27](images/mecm-27.png)
 
 27. Em **Resumo,** selecione **Próximo**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager28](images/mecm-28.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 28](images/mecm-28.png)
 
-    Em seguida, o status é exibido ![ Imagem da configuração do Microsoft Endpoint Configuration Manager29](images/mecm-29.png)
+    Em seguida, o status é exibido ![ Image of Microsoft Endpoint Configuration Manager configuration29](images/mecm-29.png)
 
 28. Em **Conclusão,** selecione **Fechar**.
 
-    ![Imagem da configuração do Microsoft Endpoint Configuration Manager30](images/mecm-30.png)
+    ![Imagem da Microsoft Endpoint Configuration Manager 30](images/mecm-30.png)
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Solucionar problemas do Microsoft Defender para Ponto de Extremidade](troubleshoot-mdatp.md)
-- [Dispositivos de integração](onboard-configure.md)
-- [Configurar configurações de proxy de dispositivo e conectividade com a Internet](configure-proxy-internet.md)
+- [Integração de dispositivos](onboard-configure.md)
+- [Definir as configurações de proxy de dispositivo e conectividade com a Internet](configure-proxy-internet.md)

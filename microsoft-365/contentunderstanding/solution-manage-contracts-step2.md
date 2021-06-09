@@ -12,34 +12,34 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Saiba como usar o Microsoft Teams para criar seu canal de gerenciamento de contratos usando uma solução Microsoft 365 contrato.
-ms.openlocfilehash: 81d5fe34383453b187363b13c21ef47844948193
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 073ef1651ea5470594bfce0ffce65e849f9e063a
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636177"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841169"
 ---
 # <a name="step-2-use-microsoft-teams-to-create-your-contract-management-channel"></a>Etapa 2. Use Microsoft Teams para criar seu canal de gerenciamento de contratos
 
-Quando sua organização configura uma solução de gerenciamento de contratos, você precisa de um local central no qual os participantes possam revisar e gerenciar contratos. Para isso, você pode [usar](https://docs.microsoft.com/microsoftteams/) Microsoft Teams para configurar um canal Teams e usar os recursos em Teams para:
+Quando sua organização configura uma solução de gerenciamento de contratos, você precisa de um local central no qual os participantes possam revisar e gerenciar contratos. Para isso, você pode [usar](/microsoftteams/) Microsoft Teams para configurar um canal Teams e usar os recursos em Teams para:
 
 - **Crie um local para que as partes interessadas vejam facilmente todos os contratos que exigem ação.** Por exemplo, Teams você pode criar uma guia **Contratos** no canal Gerenciamento de Contratos no qual os membros podem ver uma exibição de azulejo útil de todos os contratos que precisam de aprovação. Você também pode configurar o modo de exibição para que cada "cartão" lista os dados importantes com os quais você se importa (como *Cliente,* Prestador de Serviços *e* *Valor da Taxa).*
 
      ![Guia Contratos.](../media/content-understanding/tile-view.png)
 
-- **Ter um local para os membros interagirem uns com os outros e ver eventos importantes.** Por exemplo, Teams, a guia **Postagens** pode ser usada para ter conversas, obter atualizações e ver ações (como um membro rejeitando um contrato). Quando algo aconteceu (como um novo contrato enviado para aprovação), a guia **Postagens** pode ser usada não apenas para anuiá-lo, mas também para manter um registro dele. E se os membros assinarem as notificações, eles serão notificados sempre que houver uma atualização. 
+- **Ter um local para os membros interagirem uns com os outros e ver eventos importantes.** Por exemplo, Teams, a guia **Postagens** pode ser usada para ter conversas, obter atualizações e ver ações (como um membro rejeitando um contrato). Quando algo aconteceu (como um novo contrato enviado para aprovação), a guia **Postagens** pode ser usada não apenas para anuiá-lo, mas também para manter um registro dele. E se os membros assinarem as notificações, eles serão notificados sempre que houver uma atualização.
 
-     ![Guia Postagens.](../media/content-understanding/posts.png)</br> 
+     ![Guia Postagens.](../media/content-understanding/posts.png)
 
-- **Tenha um local para os membros ver contratos aprovados para saber quando eles podem ser enviados para pagamento.** Em Teams, você pode criar um canal <b>para</b> pagamento que lista todos os contratos que precisarão ser enviados ao pagamento. Você pode estender facilmente essa solução para gravar essas informações diretamente em um aplicativo financeiro de terceiros (por exemplo, Dynamics CRM).
+- **Tenha um local para os membros ver contratos aprovados para saber quando eles podem ser enviados para pagamento.** Em Teams, você pode criar um canal **para** pagamento que lista todos os contratos que precisarão ser enviados ao pagamento. Você pode estender facilmente essa solução para gravar essas informações diretamente em um aplicativo financeiro de terceiros (por exemplo, Dynamics CRM).
 
-## <a name="attach-your-sharepoint-document-library-to-the-contracts-tab"></a>Anexar sua SharePoint de documentos à guia Contratos 
+## <a name="attach-your-sharepoint-document-library-to-the-contracts-tab"></a>Anexar sua SharePoint de documentos à guia Contratos
 
 Depois de criar uma guia **Contratos** em seu canal de Gerenciamento de Contratos, você precisará anexar sua SharePoint [de documentos a ela.](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b) A SharePoint de documentos que você deseja anexar é a que você aplicou seu modelo de entendimento de documento SharePoint Syntex na seção anterior.
 
 Depois de anexar a SharePoint de documentos, você poderá exibir quaisquer contratos confidenciais por meio de um modo de exibição de lista padrão.
 
-   ![Exibição de lista.](../media/content-understanding/list-view.png) 
+   ![Exibição de lista.](../media/content-understanding/list-view.png)
 
 ## <a name="customize-your-contracts-tab-tile-view"></a>Personalizar o seu exibição de tile de tabulação Contratos
 
@@ -54,7 +54,7 @@ A exibição de azulejo personalizada que você usa exige que você faça altera
 
 Se você quiser ver ou fazer alterações no código JSON para seu exibição no canal Teams, no canal Teams, selecione o menu suspenso exibir e selecione **Formatar** o exibição atual .
 
-   ![formato json.](../media/content-understanding/jason-format.png) 
+   ![formato json.](../media/content-understanding/jason-format.png)
 
 ## <a name="card-size-and-shape"></a>Tamanho e forma do cartão
 
@@ -81,7 +81,6 @@ No arquivo [ContractTileFormatting.json,](https://github.com/pnp/syntex-samples/
                       }
 ```
 
-
 ## <a name="contract-status"></a>Status do contrato
 
 O código a seguir permite definir o status de cada cartão de título. Observe que cada valor de status (*Novo*, *Em revisão,* Aprovado e *Rejeitado*) exibirá um código de cor diferente para cada um. No arquivo [ContractTileFormatting.json,](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) veja a seção que define o status.
@@ -104,10 +103,9 @@ O código a seguir permite definir o status de cada cartão de título. Observe 
               }
 ```
 
-
 ## <a name="extracted-fields"></a>Campos extraídos
 
-Cada cartão de contrato exibirá três campos que foram extraídos para cada contrato (*Client,* *Contractor* e *Fee Amount*). Além disso, você também deseja exibir a hora/data em que o arquivo foi classificado pelo modelo SharePoint Syntex usado para identificá-lo. 
+Cada cartão de contrato exibirá três campos que foram extraídos para cada contrato (*Client,* *Contractor* e *Fee Amount*). Além disso, você também deseja exibir a hora/data em que o arquivo foi classificado pelo modelo SharePoint Syntex usado para identificá-lo.
 
 No arquivo [ContractTileFormatting.json,](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) as seções a seguir definem cada uma delas.
 
@@ -159,7 +157,6 @@ Esta seção define como o "Contratado" será exibido no cartão e usa o valor d
 },
 ```
 
-
 ### <a name="fee-amount"></a>Valor da taxa
 
 Esta seção define como o "Valor da Taxa" será exibido no cartão e usa o valor do contrato específico.
@@ -183,8 +180,6 @@ Esta seção define como o "Valor da Taxa" será exibido no cartão e usa o valo
                         "txtContent": "[$FeeAmount]"
                       },
 ```
-
-
 
 ### <a name="classification-date"></a>Data da classificação
 

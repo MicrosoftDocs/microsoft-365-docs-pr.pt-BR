@@ -15,12 +15,12 @@ ms.collection:
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing avançadas disponíveis em organizações com o Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9af3824b245cd976d1e859d6ebc4efcda47325e0
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: bc7575b87b8c5e512116f60ae98b700071e2bbd0
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793083"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822377"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas anti-phishing no Microsoft Defender para Office 365
 
@@ -61,7 +61,7 @@ Para aumentar a eficácia da proteção anti-phishing no Defender para Office 36
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Abra o centro de segurança em <https://security.microsoft.com/>. Para ir diretamente para a página **Anti-phishing,** use <https://security.microsoft.com/antiphishing> .
+- Abra o centro de segurança em <https://security.microsoft.com>. Para ir diretamente para a página **Anti-phishing,** use <https://security.microsoft.com/antiphishing> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -243,7 +243,7 @@ A criação de uma política anti-phishing personalizada no centro de segurança
 
    Ao terminar, clique em **Avançar**.
 
-7. Na página **Revisão** exibida, revise suas configurações. Você pode selecionar **Editar** em cada seção para modificar as configurações da seção. Ou você pode clicar **em Voltar** ou selecionar a página específica no assistente.
+7. Na página **Revisão** exibida, revise suas configurações. Você pode selecionar **Editar** em cada seção para modificar as configurações da seção. Ou você pode clicar em **Voltar** ou selecionar a página específica no assistente.
 
    Quando terminar, clique em **Enviar**.
 

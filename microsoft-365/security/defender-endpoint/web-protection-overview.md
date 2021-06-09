@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a985719663ec23d41ce4da57aea9aa5e0cf7674c
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: eed208da92f7e196cc71dab4e9d32e5666f3f6a4
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688964"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844197"
 ---
 # <a name="web-protection"></a>Proteção da Web
 
@@ -34,7 +34,7 @@ ms.locfileid: "51688964"
 
 >Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
 
-A proteção da Web no Microsoft Defender para Ponto de Extremidade é um recurso que é feito de proteção contra ameaças da [Web](web-threat-protection.md) e [filtragem de conteúdo da Web.](web-content-filtering.md) A proteção da Web permite proteger seus dispositivos contra ameaças à Web e ajuda a regular conteúdo indesejado. Você pode encontrar relatórios de proteção da Web no Centro de Segurança do Microsoft Defender indo para **Relatórios > Web Protection**.
+A proteção da Web no Microsoft Defender para Ponto de Extremidade é um recurso que é feito de proteção contra ameaças da [Web](web-threat-protection.md) e [filtragem de conteúdo da Web.](web-content-filtering.md) A proteção da Web permite proteger seus dispositivos contra ameaças à Web e ajuda a regular conteúdo indesejado. Você pode encontrar relatórios de proteção da Web no Central de Segurança do Microsoft Defender indo para **Relatórios > Web Protection**.
 
 ![Imagem de todos os cartões de proteção da Web](images/web-protection.png)
 
@@ -53,7 +53,7 @@ Os cartões que compõem a filtragem de conteúdo da Web são atividade da Web p
 
 A filtragem de conteúdo da Web inclui:
 - Os usuários são impedidos de acessar sites em categorias bloqueadas, quer eles estão navegando no local ou fora
-- Convenientemente, você pode implantar políticas variadas em vários conjuntos de usuários usando os grupos de dispositivos definidos nas configurações de controle de acesso baseado em função do [Microsoft Defender para Endpoint](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/rbac)
+- Convenientemente, você pode implantar políticas variadas em vários conjuntos de usuários usando os grupos de dispositivos definidos nas configurações de controle de acesso baseado em função do [Microsoft Defender para Endpoint](/microsoft-365/security/defender-endpoint/rbac)
 - Você pode acessar relatórios da Web no mesmo local central, com visibilidade sobre blocos reais e uso da Web
 
 ## <a name="in-this-section"></a>Nesta seção

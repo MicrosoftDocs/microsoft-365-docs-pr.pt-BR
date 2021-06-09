@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 9192662b8d4ed23a5903dddb555f07bf182ab17f
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 0d44f59f69c590ecd8d61207de8784af3e32197d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771496"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844881"
 ---
 # <a name="advanced-hunting-using-powershell"></a>Busca avançada usando o PowerShell
 
@@ -40,7 +40,7 @@ Execute consultas avançadas usando o PowerShell, consulte [Advanced Hunting API
 
 Nesta seção, compartilharemos exemplos do PowerShell para recuperar um token e usá-lo para executar uma consulta.
 
-## <a name="before-you-begin"></a>Antes de você começar
+## <a name="before-you-begin"></a>Antes de começar
 Primeiro, você precisa [criar um aplicativo.](apis-intro.md)
 
 ## <a name="preparation-instructions"></a>Instruções de preparação
@@ -51,7 +51,7 @@ Primeiro, você precisa [criar um aplicativo.](apis-intro.md)
   Set-ExecutionPolicy -ExecutionPolicy Bypass
   ```
 
->Para obter mais informações, consulte [Documentação do PowerShell](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy)
+>Para obter mais informações, consulte [Documentação do PowerShell](/powershell/module/microsoft.powershell.security/set-executionpolicy)
 
 ## <a name="get-token"></a>Obter token
 

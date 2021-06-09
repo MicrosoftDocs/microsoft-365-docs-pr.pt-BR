@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 8f23a0b269986f4caa199ad3744c563fcc6ff6b2
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 876dddf7a68b9844dea6a30ff4ebbbe3c2b75b69
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769096"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844533"
 ---
 # <a name="use-microsoft-defender-for-endpoint-apis"></a>Usar o Microsoft Defender para APIs de Ponto de Extremidade
 
@@ -44,7 +44,7 @@ Se você precisar de acesso programático do Microsoft Defender para Ponto de Ex
 
 Se você não tiver certeza de qual acesso precisa, leia a página [Introdução.](apis-intro.md)
 
-O Microsoft Defender para Ponto de Extremidade expõe grande parte de seus dados e ações por meio de um conjunto de APIs programáticas. Essas APIs permitirão automatizar fluxos de trabalho e inovar com base nos recursos do Microsoft Defender para o Ponto de Extremidade. O acesso à API requer autenticação OAuth2.0. Para obter mais informações, consulte [OAuth 2.0 Authorization Code Flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
+O Microsoft Defender para Ponto de Extremidade expõe grande parte de seus dados e ações por meio de um conjunto de APIs programáticas. Essas APIs permitirão automatizar fluxos de trabalho e inovar com base nos recursos do Microsoft Defender para o Ponto de Extremidade. O acesso à API requer autenticação OAuth2.0. Para obter mais informações, consulte [OAuth 2.0 Authorization Code Flow](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
 
 Em geral, você precisará seguir as seguintes etapas para usar as APIs:
 - Criar um aplicativo AAD
@@ -122,7 +122,7 @@ Esta página explica como criar um aplicativo AAD, obter um token de acesso ao M
 
 ## <a name="get-an-access-token"></a>Obter um token de acesso
 
-Para obter mais informações sobre tokens AAD, consulte [tutorial do Azure AD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
+Para obter mais informações sobre tokens AAD, consulte [tutorial do Azure AD](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
 ### <a name="using-c"></a>Usando C #
 

@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 06/07/2021
-ms.openlocfilehash: 33170d4706ed53f4de687c34806bb0492a08836e
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.date: 06/08/2021
+ms.openlocfilehash: ccbb57d781196e352e0fed456a1f7cb43eb17300
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809102"
+ms.locfileid: "52822269"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Gerenciar Microsoft Defender Antivírus e aplicar linhas de base
 
@@ -110,6 +110,7 @@ Nenhum problema conhecido
 ### <a name="whats-new"></a>Novidades
 - Lógica adicional de monitoramento de comportamento
 - Detecção aprimorada do keylogger do modo kernel
+- Adicionados novos controles para gerenciar o processo de lançamento gradual para [atualizações do Microsoft Defender](updates.md)
 
 ### <a name="known-issues"></a>Problemas Conhecidos
 Nenhum problema conhecido  
@@ -487,10 +488,10 @@ Para obter mais informações, consulte [Microsoft Defender update for Windows o
 &ensp;Versão de assinatura: **1.339.1923.0**    
     
 ### <a name="fixes"></a>Correções
-- Nenhuma
+- Nenhum
 
 ### <a name="additional-information"></a>Informações adicionais
-- Nenhuma  
+- Nenhum  
 <br/>
 </details><details>
 <summary>1.1.2105.01</summary>
@@ -501,10 +502,10 @@ Para obter mais informações, consulte [Microsoft Defender update for Windows o
 &ensp;Versão de assinatura: **1.339.42.0**    
     
 ### <a name="fixes"></a>Correções
-- Nenhuma
+- Nenhum
 
 ### <a name="additional-information"></a>Informações adicionais
-- Nenhuma  
+- Nenhum  
 <br/>
 </details><details>
 <summary>1.1.2104.01</summary>
@@ -515,10 +516,10 @@ Para obter mais informações, consulte [Microsoft Defender update for Windows o
 &ensp;Versão de assinatura: **1.335.232.0**    
     
 ### <a name="fixes"></a>Correções
-- Nenhuma
+- Nenhum
 
 ### <a name="additional-information"></a>Informações adicionais
-- Nenhuma  
+- Nenhum  
 <br/>
 </details><details>
 <summary>1.1.2103.01</summary>
@@ -529,10 +530,10 @@ Para obter mais informações, consulte [Microsoft Defender update for Windows o
 &ensp;Versão de assinatura: **1.331.2302.0**    
     
 ### <a name="fixes"></a>Correções
-- Nenhuma
+- Nenhum
 
 ### <a name="additional-information"></a>Informações adicionais
-- Nenhuma  
+- Nenhum  
 <br/>
 </details><details>
 <summary>1.1.2102.03</summary>
@@ -543,10 +544,10 @@ Para obter mais informações, consulte [Microsoft Defender update for Windows o
 &ensp;Versão de assinatura: **1.331.174.0**    
     
 ### <a name="fixes"></a>Correções
-- Nenhuma
+- Nenhum
 
 ### <a name="additional-information"></a>Informações adicionais
-- Nenhuma  
+- Nenhum  
 <br/>
 </details><details>
 <summary>1.1.2101.02</summary>
@@ -557,10 +558,10 @@ Para obter mais informações, consulte [Microsoft Defender update for Windows o
 &ensp;Versão de assinatura: **1.329.1796.0**    
     
 ### <a name="fixes"></a>Correções
-- Nenhuma
+- Nenhum
 
 ### <a name="additional-information"></a>Informações adicionais
-- Nenhuma  
+- Nenhum  
 <br/>
 </details><details>
 <summary>1.1.2012.01</summary>
@@ -571,10 +572,10 @@ Para obter mais informações, consulte [Microsoft Defender update for Windows o
 &ensp;Versão de assinatura: **1.327.1991.0**    
     
 ### <a name="fixes"></a>Correções
-- Nenhuma
+- Nenhum
 
 ### <a name="additional-information"></a>Informações adicionais
-- Nenhuma  
+- Nenhum  
 <br/>
 </details><details>
 <summary>1.1.2011.02</summary>
@@ -585,7 +586,7 @@ Para obter mais informações, consulte [Microsoft Defender update for Windows o
 &ensp;Versão de assinatura: **1.327.658.0**    
     
 ### <a name="fixes"></a>Correções
-- Nenhuma
+- Nenhum
 
 ### <a name="additional-information"></a>Informações adicionais
 - Assinaturas Microsoft Defender Antivírus atualizadas  
@@ -599,10 +600,10 @@ Para obter mais informações, consulte [Microsoft Defender update for Windows o
 &ensp;Versão de assinatura: **1.327.344.0**    
     
 ### <a name="fixes"></a>Correções
-- Nenhuma
+- Nenhum
 
 ### <a name="additional-information"></a>Informações adicionais
-- Nenhuma  
+- Nenhum  
 <br/>
 </details><details>
 <summary>1.1.2009.10</summary>
@@ -613,7 +614,7 @@ Para obter mais informações, consulte [Microsoft Defender update for Windows o
 &ensp;Versão de assinatura: **1.327.2216.0**    
     
 ### <a name="fixes"></a>Correções
-- Nenhuma
+- Nenhum
 
 ### <a name="additional-information"></a>Informações adicionais
 - Adicionado suporte para Windows 10 RS1 ou imagens de instalação posteriores do sistema operacional.  

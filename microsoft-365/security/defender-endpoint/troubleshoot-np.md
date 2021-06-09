@@ -15,12 +15,12 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: f77ce94fda63a9e7e8a9484a67a22eeec136d619
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 481a8f15d6a41bda8dc866ce40d98c4f3717223d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935876"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844047"
 ---
 # <a name="troubleshoot-network-protection"></a>Solucionar problemas de proteção de rede
 
@@ -51,10 +51,10 @@ Há quatro etapas para solucionar esses problemas:
 A proteção de rede funcionará apenas em dispositivos com as seguintes condições:
 
 >[!div class="checklist"]
-> - Os pontos de extremidade estão executando o Windows 10 Pro ou Enterprise edition, versão 1709 ou superior.
-> - Os pontos de extremidade estão usando o Microsoft Defender Antivírus como o único aplicativo de proteção antivírus. [Veja o que acontece quando você está usando uma solução antivírus que não seja da Microsoft.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
-> - [A proteção em tempo real](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus) está habilitada.
-> - [A proteção entregue na nuvem](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) está habilitada.
+> - Os pontos de extremidade estão executando Windows 10 Pro ou Enterprise edição, versão 1709 ou superior.
+> - Os pontos de extremidade estão usando Microsoft Defender Antivírus como o único aplicativo de proteção antivírus. [Veja o que acontece quando você está usando uma solução antivírus que não seja da Microsoft.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
+> - [A proteção em tempo real](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus) está habilitada.
+> - [A proteção entregue na nuvem](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) está habilitada.
 > - O modo de auditoria não está habilitado. Use [a Política de](enable-network-protection.md#group-policy) Grupo para definir a regra como **Desabilitada** (valor: **0**).
 
 ## <a name="use-audit-mode"></a>Usar o modo de auditoria
@@ -79,7 +79,7 @@ Você pode habilitar a proteção de rede no modo de auditoria e visitar um site
 
 ## <a name="report-a-false-positive-or-false-negative"></a>Relatar um falso positivo ou falso negativo
 
-Se você testou o recurso com o site de demonstração e com o modo de auditoria, e a proteção de rede está funcionando em cenários pré-configurados, mas não está funcionando conforme o esperado para uma conexão específica, use o formulário de envio baseado na Web do [Windows Defender Security Intelligence](https://www.microsoft.com/wdsi/filesubmission) para relatar um falso negativo ou falso positivo para proteção de rede. Com uma assinatura do E5, você também pode fornecer um [link para qualquer alerta associado.](alerts-queue.md)
+Se você testou o recurso com o site de demonstração e com o modo de auditoria, e a proteção de rede está funcionando em cenários pré-configurados, mas não está funcionando conforme o esperado para uma conexão específica, use o formulário de envio baseado na Web do [Windows Defender Security Intelligence para](https://www.microsoft.com/wdsi/filesubmission) relatar um falso negativo ou falso positivo para proteção de rede. Com uma assinatura do E5, você também pode fornecer um [link para qualquer alerta associado.](alerts-queue.md)
 
 Consulte [Address false positives/negatives in Microsoft Defender for Endpoint](defender-endpoint-false-positives-negatives.md).
 
@@ -120,10 +120,10 @@ reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyServer /d "<proxy IP 
 reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyPacUrl /d "<Proxy PAC url>" /f
 ```
 
-Você pode configurar a chave do Registro usando o PowerShell, o Microsoft Endpoint Manager ou a Política de Grupo. Aqui estão alguns recursos para ajudar:
+Você pode configurar a chave do Registro usando o PowerShell, Microsoft Endpoint Manager ou Política de Grupo. Aqui estão alguns recursos para ajudar:
 - [Trabalhando com chaves do Registro](/powershell/scripting/samples/working-with-registry-keys)
-- [Configurar configurações de cliente personalizadas para a Proteção de Ponto de Extremidade](/mem/configmgr/protect/deploy-use/endpoint-protection-configure-client)
-- [Usar configurações de Política de Grupo para gerenciar a Proteção de Ponto de Extremidade](/mem/configmgr/protect/deploy-use/endpoint-protection-group-policies)
+- [Configurar configurações de cliente personalizadas para Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection-configure-client)
+- [Use as configurações da Política de Grupo para gerenciar Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection-group-policies)
 
 ## <a name="see-also"></a>Confira também
 

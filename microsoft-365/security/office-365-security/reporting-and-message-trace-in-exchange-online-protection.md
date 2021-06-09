@@ -15,12 +15,12 @@ ms.custom:
 description: Neste artigo, você aprenderá sobre relatórios e ferramentas de solução de problemas disponíveis para administradores Microsoft Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ae55ded9d907754161813c9f7bfa7eeb14c558a8
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 079e2b359f28b0b6bc3d7eac86e69060c65ea250
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625024"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841433"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>Rastreamento de relatórios e mensagens no EOP
 
@@ -46,11 +46,8 @@ Em organizações Microsoft 365 com caixas de correio em organizações Exchange
 Veja os seguintes recursos para obter mais informações:
 
 - [Microsoft 365 Relatórios no centro de administração - Microsoft 365 grupos](../../admin/activity-reports/office-365-groups.md)
-
 - [Microsoft 365 Relatórios no centro de administração - Atividade de email](../../admin/activity-reports/email-activity.md)
-
 - [Microsoft 365 Relatórios no centro de administração - Uso de aplicativos de email](../../admin/activity-reports/email-apps-usage.md)
-
 - [Microsoft 365 Relatórios no centro de administração - Uso da caixa de correio](../../admin/activity-reports/mailbox-usage.md)
 
 ## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Relatórios & de conformidade de segurança no Microsoft 365 de administração

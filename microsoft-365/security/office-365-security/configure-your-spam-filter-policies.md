@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a272e78e05f86a8f9f918c873e9fb1a85f863bfc
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: 2214baa1c205d4e0f634c5a07f4d55522d2ad6b1
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793095"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822016"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Configurar políticas antispam no EOP
 
@@ -62,7 +62,7 @@ Para aumentar a eficácia da filtragem de spam, crie políticas antispam persona
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Abra o centro de segurança em <https://security.microsoft.com/>. Para ir diretamente à página de **Políticas antispam**, use <https://security.microsoft.com/antispam>.
+- Abra o centro de segurança em <https://security.microsoft.com>. Para ir diretamente à página de **Políticas antispam**, use <https://security.microsoft.com/antispam>.
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 

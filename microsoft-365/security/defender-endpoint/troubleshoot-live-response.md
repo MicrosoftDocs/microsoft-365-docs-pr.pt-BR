@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 2601001687fc22da98ca3cd81010237d12705ea4
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 99a52188dd5f6eca2f8368aa3c114d0bfb950b10
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687406"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844149"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-live-response-issues"></a>Solucionar problemas de resposta ao vivo do Microsoft Defender para o Ponto de Extremidade
 
@@ -62,12 +62,12 @@ Se ao tentar tomar uma ação durante uma sessão de resposta ao vivo, você enc
 5. Execute a ação que você queria executar no arquivo copiado.
 
 ## <a name="slow-live-response-sessions-or-delays-during-initial-connections"></a>Lentas sessões de resposta ao vivo ou atrasos durante as conexões iniciais
-A resposta ao vivo aproveita o registro do sensor do Defender para Ponto de Extremidade com o serviço WNS no Windows. Se você estiver tendo problemas de conectividade com a resposta ao vivo, confirme os seguintes detalhes:
+A resposta ao vivo aproveita o registro do sensor do Defender para Ponto de Extremidade com o serviço WNS Windows. Se você estiver tendo problemas de conectividade com a resposta ao vivo, confirme os seguintes detalhes:
 1. `notify.windows.com` não está bloqueado em seu ambiente. Para obter mais informações, consulte [Configure device proxy and Internet connectivity settings](configure-proxy-internet.md#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server).
-2. WpnService (Serviço do Sistema de Notificações por Push do Windows) não está desabilitado.
+2. WpnService (Windows Sistema de Notificações por Push) não está desabilitado.
 
 Consulte os artigos abaixo para entender totalmente o comportamento e os requisitos do serviço WpnService:
-- [Visão geral do Windows Push Notification Services (WNS)](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/windows-push-notification-services--wns--overview)
-- [Configurações de Firewall Empresarial e Proxy para dar suporte ao tráfego WNS](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/firewall-allowlist-config)
+- [Windows Visão geral Notification Services push (WNS)](/windows/uwp/design/shell/tiles-and-notifications/windows-push-notification-services--wns--overview)
+- [Enterprise Configurações de firewall e proxy para dar suporte ao tráfego WNS](/windows/uwp/design/shell/tiles-and-notifications/firewall-allowlist-config)
 - [Intervalos ip públicos do Serviço de Notificações por Push da Microsoft (MPNS)](https://www.microsoft.com/en-us/download/details.aspx?id=44535)
 

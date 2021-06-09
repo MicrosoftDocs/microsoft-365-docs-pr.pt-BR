@@ -19,13 +19,13 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
 monikerRange: o365-worldwide
-ms.date: ''
-ms.openlocfilehash: 35d2fa579460d7ceee7929283ae8db082c4eb7d6
-ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
+ms.date: 05/27/2021
+ms.openlocfilehash: 1d18cd6e43a755661997e2b3a9a3295ef6f05de1
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689220"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822088"
 ---
 # <a name="request-a-credit-for-withholding-tax-on-your-account-global-customers"></a>Solicitar um crédito de Imposto de Retenção em sua conta (clientes globais)
 

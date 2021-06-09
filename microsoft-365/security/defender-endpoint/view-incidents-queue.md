@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 93aa685f12e0241758bf86d3aa956717db052e5f
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 56fd5aa10cf30e7bdcad213a68430b460e65647c
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499931"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844209"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-incidents-queue"></a>Exibir e organizar a fila do Microsoft Defender para Incidentes de Ponto de Extremidade
 
@@ -60,7 +60,7 @@ Gravidade do incidente | Descrição
 Alto </br>(Vermelho) | Ameaças frequentemente associadas a ameaças persistentes avançadas (APT). Esses incidentes indicam um alto risco devido à gravidade dos danos que podem causar em dispositivos.
 Médio </br>(Laranja) | Ameaças raramente observadas na organização, como alteração anômala do Registro, execução de arquivos suspeitos e comportamentos observados típicos de estágios de ataque.
 Baixo </br>(Amarelo) | Ameaças associadas a malwares e ferramentas de hackers predominantes que não indicam necessariamente uma ameaça avançada direcionando a organização.
-Informações </br>(Cinza) | Incidentes informacionais podem não ser considerados prejudiciais para a rede, mas podem ser bons para acompanhar.
+Informativo </br>(Cinza) | Incidentes informacionais podem não ser considerados prejudiciais para a rede, mas podem ser bons para acompanhar.
 
 ## <a name="assigned-to"></a>Atribuído a
 Você pode optar por filtrar a lista selecionando não atribuir a ninguém ou os que estão atribuídos a você.
@@ -85,7 +85,7 @@ Por exemplo: *incidente em vários estágios em vários pontos de extremidade re
 
 
 ## <a name="see-also"></a>Confira também
-- [Fila de incidentes](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/view-incidents-queue)
+- [Fila de incidentes](/microsoft-365/security/defender-endpoint/view-incidents-queue)
 - [Gerenciar incidentes](manage-incidents.md)
 - [Investigar incidentes](investigate-incidents.md)
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 018bc3549cd7a25df5bdd86d98d351e19027c31f
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: fba74990d8e4465f957acda83e66e1dc43a317e8
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796025"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841181"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control Removível Armazenamento Access Control
 
@@ -68,7 +68,7 @@ Para cada propriedade de dispositivo, consulte **a seção Propriedades do Dispo
         - CdRomDevices
     - DeviceId
     - HardwareId
-    - InstancePathId: InstancePathId é uma cadeia de caracteres que identifica exclusivamente o dispositivo no sistema, por exemplo, USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0. O número no final (por exemplo, **&0**) representa o slot avaliavel e pode mudar de dispositivo para dispositivo. Para melhores resultados, use um curinga no final. Por exemplo, USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*
+    - InstancePathId: InstancePathId é uma cadeia de caracteres que identifica exclusivamente o dispositivo no sistema, por exemplo, USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0. O número no final (por exemplo, **&0**) representa o slot disponível e pode mudar de dispositivo para dispositivo. Para melhores resultados, use um curinga no final. Por exemplo, USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*
     - FriendlyNameId
     - SerialNumberId
     - VID
@@ -194,9 +194,9 @@ Para ajudar a familiarizá-lo com o Microsoft Defender for Endpoint Removable Ar
 
 O recurso Controle de Acesso Armazenamento removível permite aplicar a política por meio da Política de Grupo a usuários ou dispositivos ou ambos.
 
-### <a name="licensing"></a>Licenças
+### <a name="licensing"></a>Licenciamento
 
-Antes de começar a Armazenamento Controle de Acesso [Removível,](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2)você deve confirmar sua assinatura Microsoft 365 . Para acessar e usar o Controle de Acesso Armazenamento removível, você deve ter Microsoft 365 E3.
+Antes de começar a Armazenamento Controle de Acesso [Removível,](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2)você deve confirmar sua assinatura Microsoft 365 . Para acessar e usar o Controle de Acesso Armazenamento removível, você deve ter Microsoft 365 E3 ou Microsoft 365 E5.
 
 ### <a name="deploying-policy-via-group-policy"></a>Implantando política por meio da Política de Grupo
 
@@ -224,9 +224,9 @@ Antes de começar a Armazenamento Controle de Acesso [Removível,](https://www
 
 O recurso Controle de Acesso Armazenamento removível permite aplicar a política por meio do OMA-URI a usuários ou dispositivos ou ambos.
 
-### <a name="licensing"></a>Licenças
+### <a name="licensing"></a>Licenciamento
 
-Antes de começar a Armazenamento Controle de Acesso [Removível,](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2)você deve confirmar sua assinatura Microsoft 365 . Para acessar e usar o Controle de Acesso Armazenamento removível, você deve ter Microsoft 365 E3.
+Antes de começar a Armazenamento Controle de Acesso [Removível,](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2)você deve confirmar sua assinatura Microsoft 365 . Para acessar e usar o Controle de Acesso Armazenamento removível, você deve ter Microsoft 365 E3 ou Microsoft 365 E5.
 
 ### <a name="permission"></a>Permissão
 
@@ -265,11 +265,11 @@ Para implantação de política no Intune, a conta deve ter permissões para cri
 
     - Tipo de dados: cadeia de caracteres (arquivo XML)
 
-      :::image type="content" source="images/xml-data-type-string-2.png" alt-text="Exibição de arquivo XML para o tipo de dados STRING":::
+      :::image type="content" source="images/xml-data-type-string-2.png" lightbox="images/xml-data-type-string-2.png" alt-text="Exibição de arquivo XML para o tipo de dados STRING":::
 
 ## <a name="deploying-and-managing-policy-by-using-intune-user-interface"></a>Implantando e gerenciando a política usando a interface do usuário do Intune
 
-Esse recurso ainda não está disponível. 
+Esse recurso (no centro de administração do Microsoft Endpoint Manager ( > Dispositivos > Perfis de configuração > Criar perfil > Plataforma: Windows 10 e posterior do & Profile: Device Control) ainda não está https://endpoint.microsoft.com/) disponível. 
 
 ## <a name="view-device-control-removable-storage-access-control-data-in-microsoft-defender-for-endpoint"></a>Exibir dados do Controle de Dispositivo Removível Armazenamento Access Control no Microsoft Defender para Ponto de Extremidade
 
@@ -277,7 +277,7 @@ O Microsoft 365 de segurança mostra o armazenamento removível bloqueado pelo C
 
 - Microsoft 365 relatório do E5
 
-```
+```kusto
 //events triggered by RemovableStoragePolicyTriggered
 DeviceEvents
 | where ActionType == &quot;RemovableStoragePolicyTriggered&quot; 

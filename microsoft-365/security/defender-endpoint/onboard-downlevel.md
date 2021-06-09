@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7ed7390f67747d176145bb051d8b1633a7146a23
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: d0cb4a3d01c1380f4fd06999c8f81a4054e2fd00
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730805"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844425"
 ---
 # <a name="onboard-previous-versions-of-windows"></a>Versões anteriores integradas do Windows
 
@@ -59,7 +59,7 @@ O Defender for Endpoint se integra ao System Center Endpoint Protection para for
 As etapas a seguir são necessárias para habilitar essa integração: 
 - Instalar a atualização da plataforma anti-malware de janeiro de [2017 para Endpoint Protection clientes](https://support.microsoft.com/help/3209361/january-2017-anti-malware-platform-update-for-endpoint-protection-clie) 
 - Configurar a associação do Serviço de Proteção de Nuvem do cliente SCEP à **configuração** Avançada
-- Configure sua rede para permitir conexões com a Microsoft Defender Antivírus nuvem. Para obter mais informações, consulte [Allow connections to the Microsoft Defender Antivírus cloud](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-network-connections-microsoft-defender-antivirus#allow-connections-to-the-microsoft-defender-antivirus-cloud)
+- Configure sua rede para permitir conexões com a Microsoft Defender Antivírus nuvem. Para obter mais informações, consulte [Allow connections to the Microsoft Defender Antivírus cloud](/windows/security/threat-protection/microsoft-defender-antivirus/configure-network-connections-microsoft-defender-antivirus#allow-connections-to-the-microsoft-defender-antivirus-cloud)
 
 ## <a name="install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint"></a>Instalar e configurar o Microsoft Monitoring Agent (MMA) para relatar dados do sensor ao Microsoft Defender para Ponto de Extremidade
 
@@ -90,10 +90,10 @@ Revise os seguintes detalhes para verificar os requisitos mínimos do sistema:
    - Copie a ID do espaço de trabalho e a chave do espaço de trabalho
 
 3. Usando a ID do Espaço de Trabalho e a tecla Workspace, escolha qualquer um dos seguintes métodos de instalação para instalar o agente:
-    - [Instale manualmente o agente usando a instalação](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard). <br>
+    - [Instale manualmente o agente usando a instalação](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard). <br>
       Na página **Opções de Instalação do** Agente, selecione Conexão o agente para **OMS (Análise de Log do Azure)**
-    - [Instale o agente usando a linha de comando](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line).
-    - [Configure o agente usando um script](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation).
+    - [Instale o agente usando a linha de comando](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line).
+    - [Configure o agente usando um script](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation).
 
    > [!NOTE]
    > Se você for um cliente do Governo dos EUA [,](gov.md)em "Nuvem do Azure" precisará escolher "Azure US Government" se estiver usando o assistente de instalação ou se estiver usando uma linha de comando ou um script , de definir o parâmetro "OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE" como 1.
@@ -104,8 +104,8 @@ Depois de concluído, você deverá ver pontos de extremidade integrados no port
 
 ### <a name="configure-proxy-and-internet-connectivity-settings"></a>Definir as configurações de proxy e conectividade com a Internet
  
-- Cada Windows ponto de extremidade deve ser capaz de se conectar à Internet usando HTTPS. Essa conexão pode ser direta, usando um proxy ou por meio do [Gateway OMS.](https://docs.microsoft.com/azure/log-analytics/log-analytics-oms-gateway)
-- Se um proxy ou firewall estiver bloqueando todo o tráfego por padrão e permitindo apenas domínios específicos por meio ou a verificação de HTTPS (inspeção SSL) estiver habilitada, certifique-se de que você habilita o acesso a [URLs](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-proxy-internet#enable-access-to-microsoft-defender-atp-service-urls-in-the-proxy-server)de serviço do Defender para Ponto de Extremidade.
+- Cada Windows ponto de extremidade deve ser capaz de se conectar à Internet usando HTTPS. Essa conexão pode ser direta, usando um proxy ou por meio do [Gateway OMS.](/azure/log-analytics/log-analytics-oms-gateway)
+- Se um proxy ou firewall estiver bloqueando todo o tráfego por padrão e permitindo apenas domínios específicos por meio ou a verificação de HTTPS (inspeção SSL) estiver habilitada, certifique-se de que você habilita o acesso a [URLs](/microsoft-365/security/defender-endpoint/configure-proxy-internet#enable-access-to-microsoft-defender-atp-service-urls-in-the-proxy-server)de serviço do Defender para Ponto de Extremidade.
 
 ## <a name="offboard-client-endpoints"></a>Pontos de extremidade do cliente de offboard
 Para offboard, você pode desinstalar o agente MMA do ponto de extremidade ou desconecta-lo do relatório para o seu espaço de trabalho do Defender para Ponto de Extremidade. Depois de fazer o offboard do agente, o ponto de extremidade não enviará mais dados do sensor para o Defender para o Ponto de Extremidade. 

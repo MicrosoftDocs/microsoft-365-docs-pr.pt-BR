@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 47211e187d1f9f883745f008c6d94d04ee762e98
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: a16e3eb8f6f7eae9fbaa82c9fd978f4fef429818
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52302059"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822317"
 ---
 # <a name="web-content-filtering"></a>Filtragem de conteúdo da Web
 
@@ -57,15 +57,15 @@ A experiência de bloqueio para navegadores com suporte de terceiros é fornecid
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Antes de tentar esse recurso, certifique-se de ter os seguintes requisitos:
+Antes de tentar esse recurso, certifique-se de atender aos seguintes requisitos:
 
 - Windows 10 Enterprise E5, Microsoft 365 E5, Microsoft 365 E5 Security, Microsoft 365 E3 + Microsoft 365 E5 Security complemento ou a licença autônoma do Microsoft Defender para Ponto de Extremidade. 
 - Acesso ao Central de Segurança do Microsoft Defender portal ( https://securitycenter.windows.com) .
-- Dispositivos executando Windows 10 Atualização de Aniversário (versão 1607) ou posterior com a atualização mais recente do MoCAMP.
+- Dispositivos executando Windows 10 Atualização de Aniversário (versão 1607) ou posterior com a atualização mais recente do mecanismo antimalware do Microsoft Defender.
 
 ## <a name="data-handling"></a>Manipulação de dados
 
-Seguiremos qualquer região que você tenha escolhido para usar como parte das configurações de tratamento de dados do [Microsoft Defender for Endpoint.](data-storage-privacy.md) Seus dados não sairão do data center nessa região. Além disso, seus dados não serão compartilhados com terceiros, incluindo nossos provedores de dados.
+Os dados são armazenados na região selecionada como parte das configurações de tratamento de dados do [Microsoft Defender para Endpoint.](data-storage-privacy.md) Seus dados não sairão do data center nessa região. Além disso, seus dados não serão compartilhados com terceiros, incluindo nossos provedores de dados.
 
 ## <a name="turn-on-web-content-filtering"></a>Ativar a filtragem de conteúdo da Web
 
@@ -91,14 +91,10 @@ Para adicionar uma nova política:
 
 5. Revise o resumo e salve a política. A atualização da política pode levar até 2 horas para ser aplicada aos dispositivos selecionados.
 
-> [!TIP]
-> Você pode implantar uma política sem selecionar qualquer categoria em um grupo de dispositivos. Essa ação criará uma política somente de auditoria, para ajudá-lo a entender o comportamento do usuário antes de criar uma política de bloqueio.
-
->[!NOTE]
->Se você estiver removendo uma política ou alterando grupos de dispositivos ao mesmo tempo, isso pode causar um atraso na implantação da política.
-
->[!IMPORTANT]
->Bloquear a categoria "Não categorizada" pode levar a resultados inesperados e indesejáveis.  
+> [!NOTE]
+> - Você pode implantar uma política sem selecionar qualquer categoria em um grupo de dispositivos. Essa ação criará uma política somente de auditoria, para ajudá-lo a entender o comportamento do usuário antes de criar uma política de bloqueio.
+> - Se você estiver removendo uma política ou alterando grupos de dispositivos ao mesmo tempo, isso pode causar um atraso na implantação da política.
+> - Bloquear a categoria "Não categorizada" pode levar a resultados inesperados e indesejáveis.  
 
 ### <a name="allow-specific-websites"></a>Permitir sites específicos
 
@@ -120,7 +116,7 @@ Um painel será aberto onde você pode selecionar a prioridade e adicionar detal
 
 ## <a name="web-content-filtering-cards-and-details"></a>Cartões e detalhes de filtragem de conteúdo da Web
 
-Selecione **Relatórios > Proteção da Web** para exibir cartões com informações sobre filtragem de conteúdo da Web e proteção contra ameaças da Web. Os cartões a seguir fornecem informações resumidas sobre a filtragem de conteúdo da Web.
+Selecione **Relatórios de** Proteção da  >  **Web** para exibir cartões com informações sobre filtragem de conteúdo da Web e proteção contra ameaças da Web. Os cartões a seguir fornecem informações resumidas sobre a filtragem de conteúdo da Web.
 
 ### <a name="web-activity-by-category"></a>Atividade da Web por categoria
 
@@ -166,9 +162,4 @@ Use o filtro de intervalo de tempo na parte superior esquerda da página para se
 
 - Atualmente, os relatórios de Filtragem de Conteúdo da Web estão limitados a mostrar os 5.000 principais registros. Por exemplo, o relatório Domínios mostrará apenas um máximo dos 5.000 domínios principais para uma determinada consulta de filtro, se aplicável. 
 
-## <a name="related-topics"></a>Tópicos relacionados
 
-- [Visão geral da proteção da Web](web-protection-overview.md)
-- [Proteção contra ameaças da Web](web-threat-protection.md)
-- [Monitorar a segurança da Web](web-protection-monitoring.md)
-- [Responder a ameaças da Web](web-protection-response.md)

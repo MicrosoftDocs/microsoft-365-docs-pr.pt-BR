@@ -20,12 +20,12 @@ ms.custom:
 description: Os administradores podem aprender sobre o insight de inteligência de Proteção do Exchange Online (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 45ecbe68072441b40477d1b27953b957aeffa9e3
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: 2fc591bbaf2ecc6f59c2b569acde521453887c2a
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793167"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822341"
 ---
 # <a name="spoof-intelligence-insight-in-eop"></a>Spoof intelligence insight in EOP
 
@@ -53,17 +53,17 @@ Quando um remetente faz a spoofes de um endereço de email, ele parece ser um us
   - O remetente está em uma lista de email (também conhecida como lista de discussão), e a lista de emails retransmite emails do remetente original para todos os participantes na lista de email.
   - Uma empresa externa envia emails em nome de outra empresa (por exemplo, um relatório automatizado ou uma empresa de software como serviço).
 
-Você pode  usar o insight de inteligência falsa no Centro de Conformidade de Segurança & para identificar rapidamente os envios falsos que estão enviando emails não autenticados (mensagens de domínios que não passam verificações SPF, DKIM ou DMARC) e permitir manualmente esses envios.
+Você pode  usar o insight de inteligência falsa no centro de segurança do Microsoft 365 para identificar rapidamente os envios falsos que estão enviando emails não autenticados (mensagens de domínios que não passam verificações SPF, DKIM ou DMARC) e permitir manualmente esses envios.
 
 Ao permitir que os envios conhecidos enviem mensagens falsas de locais conhecidos, você pode reduzir falsos positivos (emails bons marcados como ruins). Monitorando os envios permitidos, você fornece uma camada adicional de segurança para impedir que mensagens não seguras chegam à sua organização.
 
 Da mesma forma, você pode revisar os envios de spoofed que foram permitidos pela inteligência de spoof e bloquear manualmente esses envios do insight de inteligência de spoof.
 
-O restante deste artigo explica como usar o insight de inteligência de spoof no Centro de Conformidade de Segurança & e no PowerShell (Exchange Online PowerShell para organizações de Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem caixas de correio Exchange Online).
+O restante deste artigo explica como usar o insight de inteligência de spoof no centro de segurança e no PowerShell (Exchange Online PowerShell para organizações Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem Exchange Online caixas de correio).
 
 > [!NOTE]
 >
-> - Somente os envios com spoofed que foram detectados pela inteligência spoof aparecem na visão de inteligência spoof. Quando você substitui o veredito de permitir ou bloquear no insight, o remetente spoofed torna-se uma entrada manual de permitir ou bloquear que aparece apenas na guia **Spoof** na Lista de Locatários Permitir/Bloquear. Você também pode criar manualmente entradas de permitir ou bloquear para os envios de spoofed antes que eles são detectados pela inteligência spoof. Para saber mais, confira [Gerenciar a Lista Permitir/Bloquear Locatário no EOP](tenant-allow-block-list.md).
+> - Somente os envios com spoofed que foram detectados pela inteligência spoof aparecem na visão de inteligência spoof. Quando você substitui o veredito de permitir ou bloquear no insight, o remetente spoofed se torna uma entrada manual de permitir ou bloquear que aparece somente na guia **Spoof** na Lista de Locatários Permitir/Bloquear. Você também pode criar manualmente entradas de permitir ou bloquear para os envios de spoofed antes que eles são detectados pela inteligência spoof. Para saber mais, confira [Gerenciar a Lista Permitir/Bloquear Locatário no EOP](tenant-allow-block-list.md).
 >
 > - O insight de inteligência de spoof e a guia **Spoof** na lista Permitir/Bloquear Locatário substituem a funcionalidade da política de inteligência de spoof que estava disponível na página de política anti-spam no Centro de Conformidade de Segurança &.
 >
@@ -71,7 +71,7 @@ O restante deste artigo explica como usar o insight de inteligência de spoof no
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **Anti-phishing,** use <https://protection.office.com/antiphishing> .
+- Abra o centro de segurança em <https://security.microsoft.com/>. Para ir diretamente para a página **Anti-phishing,** use <https://security.microsoft.com/antiphishing> . Para ir diretamente para a página **Spoof intelligence insight,** use <https://security.microsoft.com/spoofintelligence> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -90,31 +90,30 @@ O restante deste artigo explica como usar o insight de inteligência de spoof no
 
 - Para nossas configurações recomendadas para a inteligência de spoof, consulte Configurações de política [anti-phishing do EOP.](recommended-settings-for-eop-and-office365-atp.md#eop-anti-phishing-policy-settings)
 
-## <a name="open-the-spoof-intelligence-insight-in-the-security--compliance-center"></a>Abra o insight de inteligência de spoof no Centro de Conformidade & Segurança
+## <a name="open-the-spoof-intelligence-insight-in-the-security-center"></a>Abra o insight de inteligência de spoof no centro de segurança
 
-1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **Anti-phishing**.
+1. No centro de segurança, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
 
-2. Na página **principal Anti-phishing**, o insight de inteligência de spoof tem dois modos:
+2. Na página **Anti-phishing,** a visão de inteligência de spoof tem a seguinte aparência:
+
+   ![Spoof intelligence insight on the Anti-phishing policy page](../../media/m365-sc-spoof-intelligence-insight.png)
+
+   O insight tem dois modos:
 
    - **Modo de** visão : se a inteligência falsa estiver habilitada, a visão mostra quantas mensagens foram detectadas pela inteligência falsa durante os últimos sete dias.
    - **E se o modo**: se a inteligência falsa estiver  desabilitada, a visão mostra quantas mensagens teriam sido detectadas pela inteligência falsa durante os últimos sete dias.
 
-   De qualquer forma, os domínios despojados exibidos no insight são separados em duas **categorias: domínios** suspeitos e domínios não **suspeitos.**
-
-   - **Domínios suspeitos** incluem:
-
-     - Spoof de alta confiança: com base nos padrões de envio históricos e na pontuação de reputação dos domínios, estamos altamente confiantes de que os domínios são falsas, e as mensagens desses domínios são mais propensas a serem mal-intencionadas.
-
-     - Spoof de confiança moderada: com base nos padrões de envio históricos e na pontuação de reputação dos domínios, estamos moderadamente confiantes de que os domínios são falsas e que as mensagens enviadas desses domínios são legítimas. Falsos positivos são mais prováveis nessa categoria do que falsos falsos.
-
-   **Domínios não suspeitos**: O domínio com falha na autenticação de email explícito verifica [SPF,](how-office-365-uses-spf-to-prevent-spoofing.md) [DKIM](use-dkim-to-validate-outbound-email.md)e [DMARC](use-dmarc-to-validate-email.md)). No entanto, o domínio passou nossas verificações implícitas de autenticação de email ([autenticação composta](email-validation-and-authentication.md#composite-authentication)). Como resultado, nenhuma ação anti-spoofing foi tomada na mensagem.
+Para exibir informações sobre as detecções de inteligência falsas, clique em Exibir atividade de **spoofing** no insight de inteligência falsa.
 
 ### <a name="view-information-about-spoofed-messages"></a>Exibir informações sobre mensagens falsas
 
-No insight de inteligência de spoof, clique em **Domínios** suspeitos ou **domínios** não suspeitos para ir para a página de informações de inteligência de **spoof.** A página contém as seguintes informações:
+> [!NOTE]
+> Lembre-se de que apenas os envios com spoofed detectados pela inteligência spoof aparecem nesta página. Quando você substitui o veredito de permitir ou bloquear no insight, o remetente spoofed se torna uma entrada manual de permitir ou bloquear que aparece somente na guia **Spoof** na Lista de Locatários Permitir/Bloquear.
 
-- **Domínio spoofed**: O domínio do usuário que é exibido na caixa **De** em clientes de email. Esse endereço também é conhecido como `5322.From` endereço.
-- **Infraestrutura**: Também conhecida como infraestrutura _de envio._ Este será um dos seguintes valores:
+Na página **Spoof intelligence insight** que aparece depois de clicar em Exibir atividade de **spoofing** no insight de inteligência falsa, a página contém as seguintes informações:
+
+- **Usuário com spoofed**: o **domínio** do usuário que é exibido na caixa **De** em clientes de email. O endereço From também é conhecido como o `5322.From` endereço.
+- **Infraestrutura de envio**: Também conhecida como _infraestrutura_. A infraestrutura de envio será um dos seguintes valores:
   - O domínio encontrado em um registro DNS reverso (registro PTR) do endereço IP do servidor de email de origem.
   - Se o endereço IP de origem não tiver registro PTR, a infraestrutura de envio será identificada como \<source IP\> /24 (por exemplo, 192.168.100.100/24).
 - **Contagem de** mensagens : o número de mensagens da  combinação do domínio e da infraestrutura de envio para sua organização nos últimos 7 dias.
@@ -122,35 +121,34 @@ No insight de inteligência de spoof, clique em **Domínios** suspeitos ou **dom
 - **Tipo de spoof**: um dos seguintes valores:
   - **Interno**: o remetente spoofed está em um domínio que pertence à sua organização [(um domínio aceito](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)).
   - **Externo**: o remetente spoofed está em um domínio externo.
-- **Permissão para spoof**: O valor depende se você clicou em **Domínios** Suspeitos ou **domínios não suspeitos** no insight:
-  - **Domínios suspeitos**: O **valor Permitido para a spoof** é sempre **Não**. As mensagens da combinação do domínio  e da infraestrutura de envio são marcadas como ruins pela inteligência falsa. A ação realizada nas mensagens falsas é controlada pela política anti-phishing padrão ou políticas anti-phishing personalizadas (o valor padrão é **Mover** mensagem para a pasta Lixo Eletrônico ). Para obter mais informações, consulte [Configure anti-phishing policies in Microsoft Defender for Office 365](configure-atp-anti-phishing-policies.md).
-  - **Domínios não suspeitos**: O valor Permitido para a **spoof** é sempre **Sim**. As mensagens da combinação do domínio  e da infraestrutura de envio são marcadas como boas pela inteligência falsa.
+- **Ação**: esse valor é **Permitido** ou **Bloqueado:**
+  - **Permitido**: O domínio com falha na autenticação de email explícito verifica [SPF,](how-office-365-uses-spf-to-prevent-spoofing.md) [DKIM](use-dkim-to-validate-outbound-email.md)e [DMARC](use-dmarc-to-validate-email.md)). No entanto, o domínio passou nossas verificações implícitas de autenticação de email ([autenticação composta](email-validation-and-authentication.md#composite-authentication)). Como resultado, nenhuma ação anti-spoofing foi tomada na mensagem.
+  - **Bloqueado**: As mensagens da combinação do  domínio e da infraestrutura de envio falsa são marcadas como ruins pela inteligência falsa. A ação realizada nas mensagens falsas é controlada pela política anti-phishing padrão ou políticas anti-phishing personalizadas (o valor padrão é **Mover** mensagem para a pasta Lixo Eletrônico ). Para obter mais informações, consulte [Configure anti-phishing policies in Microsoft Defender for Office 365](configure-atp-anti-phishing-policies.md).
 
 Você pode clicar em títulos de coluna selecionados para classificar os resultados.
 
 Para filtrar os resultados, você tem as seguintes opções:
 
-- Use a **caixa Despois** de filtro de domínio para inserir uma lista separada por vírgulas de valores de domínios esofados para filtrar os resultados.
-- Use a **caixa Infraestrutura de** filtro para inserir uma lista separada por vírgulas de valores de infraestrutura para filtrar os resultados.
-- Clique no **botão Filtrar** para filtrar os resultados por **tipo Spoof**.
+- Clique no **botão Filtrar.** No flyout **Filter** exibido, você pode filtrar os resultados por:
+  - **Tipo de spoof**
+  - **Action**
+- Use a **caixa Pesquisar** para inserir uma lista separada por vírgulas de valores de domínios espouados ou enviar valores de infraestrutura para filtrar os resultados.
 
 ### <a name="view-details-about-spoofed-messages"></a>Exibir detalhes sobre mensagens falsas
 
-Selecione um item na lista para exibir detalhes. Um flyout aparece com as seguintes informações e recursos:
+Quando você seleciona uma entrada na lista, aparece um sobremenu de detalhes que contém as seguintes informações e recursos:
 
-- **Permissão para spoof**: Use essa alternância para substituir o veredito de inteligência de spoof:
-  - Se você tiver selecionado originalmente **domínios suspeitos** no insight, **Allowed to spoof** será desligado. Para aticá-la, que move a entrada do insight de inteligência de spoof para a Lista de Locatários de Permitir/Bloquear como uma entrada de autorização para spoof, deslize a alternância para: ![ Alternar ](../../media/scc-toggle-on.png) em .
-  - Se você tiver selecionado originalmente **domínios não** suspeitos no insight, **Allowed to spoof** será ligado. Para a desativar, que move a entrada do insight de inteligência de spoof para a Lista de Locatários De permitir/bloquear como uma entrada de bloco para spoof, deslize a alternância para off: ![ Desativar ](../../media/scc-toggle-off.png) .
-
+- Permitir a **spoofing** ou Bloquear a spoofing : selecione um desses valores para substituir o veredito de inteligência de spoof original e mover a entrada do insight de inteligência de spoof para a Lista de Locatários Permitir/Bloquear como uma entrada de permitir ou bloquear para spoof. 
 - Por que pegamos isso.
 - O que você precisa fazer.
 - Um resumo de domínio que inclui a maioria das mesmas informações da página principal de inteligência de spoof.
 - WhoIs dados sobre o remetente.
+- Um link para abrir [o Explorador de Ameaças](threat-explorer.md) para ver detalhes adicionais sobre o remetente (Microsoft Defender para Office 365).
 - Mensagens semelhantes que vimos em seu locatário do mesmo remetente.
 
 ### <a name="about-allowed-spoofed-senders"></a>Sobre os envios de spoofed permitidos
 
-Um remetente com spoofed permitido em **domínios** não suspeitos no insight de inteligência falsa ou um remetente bloqueado em **domínios** suspeitos que você alterou manualmente para Permitido a  **spoof** somente permite mensagens da combinação do domínio e da infraestrutura de envio. Ele não permite emails do domínio spoofed de qualquer origem, nem permite emails da infraestrutura de envio para qualquer domínio.
+Um remetente spoofed permitido no insight de inteligência falsa ou um remetente com spoofed bloqueado que você alterou manualmente para Permitir  a **spoof** somente permite mensagens da combinação do domínio e da infraestrutura de envio. Ele não permite emails do domínio spoofed de qualquer origem, nem permite emails da infraestrutura de envio para qualquer domínio.
 
 Por exemplo, o remetente spoofed a seguir tem permissão para fazer a spoof:
 

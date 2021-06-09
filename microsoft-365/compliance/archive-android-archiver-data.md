@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector teleMessage para importar e arquivar SMS, MMS e chamadas de voz de celulares Android. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que você possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 92dcfbebaeb9f138b5a057d36e328967c43c9544
-ms.sourcegitcommit: b169f6ad3e44a7fcebf77f43be9eb5edd84ea5ef
+ms.openlocfilehash: 6a70d57c5728b5e69df09a523f865d7e8beb8130
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52077226"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822221"
 ---
 # <a name="set-up-a-connector-to-archive-android-mobile-data"></a>Configurar um conector para arquivar dados móveis do Android
 
@@ -39,7 +39,7 @@ A visão geral a seguir explica o processo de uso de um conector para arquivar d
 
 4. O conector importa os itens de comunicação móvel para a caixa de correio de um usuário específico. Uma nova pasta chamada Android Archiver é criada na caixa de correio do usuário específico e os itens são importados para ela. O conector faz o mapeamento usando o valor da *propriedade endereço email do* usuário. Cada mensagem de email contém essa propriedade, que é preenchida com o endereço de email de cada participante da mensagem de email. Além do mapeamento automático do usuário usando o valor da propriedade endereço *email* do usuário, você também pode definir um mapeamento personalizado carregando um arquivo de mapeamento CSV. Esse arquivo de mapeamento deve conter o número do celular e o endereço Microsoft 365 caixa de correio correspondente para cada usuário. Se você habilitar o mapeamento automático do usuário e fornecer um mapeamento personalizado, para cada item de email, o conector procurará primeiro o arquivo de mapeamento personalizado. Se ele não encontrar um usuário Microsoft 365 que corresponda ao número de celular de um usuário, o conector usará a propriedade endereço de email do usuário do item de email. Se o conector não encontrar um usuário Microsoft 365 no arquivo de mapeamento personalizado ou na propriedade endereço de *email* do usuário do item de email, o item não será importado.
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="before-you-set-up-a-connector"></a>Antes de configurar um conector
 
 Algumas das etapas de implementação necessárias para arquivar dados de comunicação do Android são externas Microsoft 365 e devem ser concluídas antes que você possa criar o conector no centro de conformidade.
 
@@ -50,6 +50,8 @@ Algumas das etapas de implementação necessárias para arquivar dados de comuni
 - Instale e ative o aplicativo Arquivar Android teleMessage nos telefones celulares de seus funcionários.
 
 - O usuário que cria um conector do Arquivo Mortor android deve receber a função de Exportação de Importação de Caixa de Correio Exchange Online. Isso é necessário para adicionar conectores na página **Conectores** de dados no Microsoft 365 de conformidade. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função Exportar Importação de Importação de Caixa de Correio ao grupo de função Gerenciamento da Organização Exchange Online. Ou você pode criar um grupo de funções, atribuir a função Exportar Importação de Caixa de Correio e adicionar os usuários apropriados como membros. Para obter mais informações, consulte as seções Criar grupos de [função](/Exchange/permissions-exo/role-groups#create-role-groups) ou [Modificar](/Exchange/permissions-exo/role-groups#modify-role-groups) grupos de função no artigo "Gerenciar grupos de funções em Exchange Online".
+
+- Esse conector de dados está disponível em GCC ambientes na nuvem Microsoft 365 Us Government. Aplicativos e serviços de terceiros podem envolver o armazenamento, a transmissão e o processamento dos dados do cliente da sua organização em sistemas de terceiros que estão fora da infraestrutura do Microsoft 365 e, portanto, não são cobertos pelos compromissos de conformidade e proteção de dados do Microsoft 365. A Microsoft não faz nenhuma representação de que o uso desse produto para se conectar a aplicativos de terceiros implica que esses aplicativos de terceiros são compatíveis com FEDRAMP.
 
 ## <a name="create-an-android-archiver-connector"></a>Criar um conector de arquivamento do Android
 

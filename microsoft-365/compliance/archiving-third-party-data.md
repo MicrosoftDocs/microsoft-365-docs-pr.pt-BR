@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como importar dados de terceiros de plataformas de mídia social, plataformas de mensagens instantâneas e plataformas de colaboração de documentos para Microsoft 365 caixas de correio.
-ms.openlocfilehash: 22a2e6dbadc3c259896348fc89754882db85cfb4
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 17172daa60721523bbfb97ab81f7a57078eb1b1c
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764106"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822148"
 ---
 # <a name="archive-third-party-data"></a>Arquivar dados de terceiros
 
@@ -86,7 +86,7 @@ A tabela a seguir lista os conectores de dados de terceiros disponíveis no Micr
 ||||||||
 
 > [!NOTE]
-> <sup>1</sup> Conector de dados fornecido pelo TeleMessage. Antes de poder arquivar dados Microsoft 365, você precisa trabalhar com o TeleMessage para configurar o serviço de arquivamento para sua organização. Para obter mais informações, consulte a seção pré-requisito nas instruções passo a passo para esse tipo de dados.<br/><br/><sup>2</sup> Conector de dados fornecido pela Veritas. Antes de poder arquivar dados Microsoft 365, você precisa trabalhar com a Veritas para configurar o serviço de arquivamento para sua organização. Para obter mais informações, consulte a seção pré-requisito nas instruções passo a passo para esse tipo de dados.
+> <sup>1</sup> Conector de dados fornecido pelo TeleMessage. Antes de poder arquivar dados Microsoft 365, você precisa trabalhar com o TeleMessage para configurar o serviço de arquivamento para sua organização. Para obter mais informações, consulte a seção pré-requisito nas instruções passo a passo para esse tipo de dados. Os conectores de dados teleMessage também estão disponíveis GCC ambientes na nuvem Microsoft 365 Us Government. Para obter mais informações, consulte [a seção Conectores de dados na nuvem do Governo](#data-connectors-in-the-us-government-cloud) dos EUA neste artigo. <br/><br/><sup>2</sup> Conector de dados fornecido pela Veritas. Antes de poder arquivar dados Microsoft 365, você precisa trabalhar com a Veritas para configurar o serviço de arquivamento para sua organização. Para obter mais informações, consulte a seção pré-requisito nas instruções passo a passo para esse tipo de dados.
 
 Os dados de terceiros listados na tabela anterior (exceto dados de RH e dados de danos físicos) são importados para caixas de correio de usuário. As soluções de conformidade correspondentes que suportam dados de terceiros são aplicadas à caixa de correio do usuário onde os dados são armazenados.
 
@@ -118,13 +118,29 @@ Você pode aplicar uma [política](retention.md) de retenção às caixas de cor
 
 O [recurso de gerenciamento](records-management.md) de registros Microsoft 365 permite declarar dados de terceiros como um registro. Isso pode ser feito manualmente por usuários que aplicam um rótulo de retenção que marca dados de terceiros em suas caixas de correio como registro. Ou você pode aplicar rótulos de retenção automaticamente identificando informações confidenciais, palavras-chave ou tipos de conteúdo em dados de terceiros.
 
-### <a name="communication-compliance"></a>Conformidade em comunicações
+### <a name="communication-compliance"></a>Conformidade de comunicações
 
 Você pode usar [a conformidade de comunicação](communication-compliance.md) para examinar dados de terceiros para garantir que eles estão em conformidade com os padrões de dados da sua organização. Você pode fazer isso detectando, capturando e tomando ações de correção para mensagens inadequadas em sua organização. Por exemplo, você pode monitorar os dados de terceiros que você importa para linguagem ofensiva, informações confidenciais e conformidade regulamentar.
 
 ### <a name="insider-risk-management"></a>Gerenciamento de risco interno
 
 Sinais de dados de terceiros, como dados de RH seletivos, podem ser usados pela solução de gerenciamento de riscos [do Insider](insider-risk-management.md) para minimizar riscos internos, deixando você detectar, investigar e agir em atividades arriscadas em sua organização. Por exemplo, os dados importados pelo conector de dados de RH são usados como indicadores de risco para ajudar a detectar o roubo de dados de funcionários.
+
+## <a name="data-connectors-in-the-us-government-cloud"></a>Conectores de dados na nuvem do Governo dos EUA
+
+Como mencionado anteriormente, os conectores de dados fornecidos pelo TeleMessage estão disponíveis na nuvem do Governo dos EUA. A tabela a seguir indica os ambientes governamentais específicos que suportam cada conector de dados teleMessage. Para obter mais informações sobre nuvens do Governo dos EUA, [consulte Microsoft 365 Us Government](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/microsoft-365-government-how-to-buy).
+
+|Conector de dados teleMessage  |CCG  |CCG Alto  |DoD  |
+|:---------|:---------|:---------|:---------|
+|Android Archiver | Sim | Não | Não |
+|AT&T SMS/MMS Network Archiver | Sim | Não | Não |
+|Bell SMS/MMS Network Archiver | Sim | Não | Não |
+|Enterprise Arquivo mortor de números | Sim | Não | Não |
+|O2 SMS e o Arquivo Mortor de Rede de Voz | Sim         | Não | Não |
+|TELUS SMS de Rede | Sim | Não | Não |
+|Verizon SMS/MMS Network Archiver | Sim | Não | Não |
+|WhatsApp Archiver | Sim | Não | Não |
+|||||
 
 ## <a name="working-with-a-microsoft-partner-to-archive-third-party-data"></a>Trabalhar com um parceiro da Microsoft para arquivar dados de terceiros
 
