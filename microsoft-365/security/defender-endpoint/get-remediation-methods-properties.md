@@ -61,7 +61,7 @@ completerEmail | Cadeia de caracteres | Se a atividade de correção foi conclu�
 completerId | Cadeia de caracteres | Se a atividade de correção foi concluída manualmente por alguém, esta coluna contém sua id de objeto
 completionMethod | Cadeia de caracteres | Uma atividade de correção pode ser concluída "automaticamente" (se todos os dispositivos são remendados) ou "manualmente" por uma pessoa que seleciona "marcar como concluída".
 createdOn | DateTime | Hora em que essa atividade de correção foi criada
-description | Cadeia de caracteres | Descrição dessa atividade de correção
+descrição | Cadeia de caracteres | Descrição dessa atividade de correção
 dueOn | DateTime | Data de vencimento do conjunto de criadores para essa atividade de correção
 fixedDevices |  | O número de dispositivos que foram corrigidos
 id | Cadeia de caracteres | ID dessa atividade de correção

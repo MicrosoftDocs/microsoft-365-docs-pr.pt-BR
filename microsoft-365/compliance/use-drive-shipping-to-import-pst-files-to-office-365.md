@@ -79,7 +79,7 @@ Para perguntas frequentes sobre como usar o envio de unidade para importar arqui
     
 - O envio de unidade está disponível por meio de um Microsoft Enterprise Agreement (EA). O envio de unidade não está disponível por meio de um Contrato de Produtos e Serviços da Microsoft (MPSA).
     
-- O custo para importar arquivos PST para Microsoft 365 caixas de correio usando o envio de unidade é DE $2 USD por GB de dados. Por exemplo, se você enviar um disco rígido contendo 1.000 GB (1 TB) de arquivos PST, o custo será de US$ 2.000. Você pode trabalhar com um parceiro para pagar a taxa de importação. Para obter mais informações sobre como encontrar um parceiro, confira [Encontrar seu parceiro ou revendedor do Microsoft 365](../admin/manage/find-your-partner-or-reseller.md).
+- O custo de importação dos arquivos PST para as caixas de correio do Microsoft 365 usando o envio de unidade é de US$ 2 por GB de dados. Por exemplo, se você enviar um disco rígido contendo 1.000 GB (1 TB) de arquivos PST, o custo será de US$ 2.000. Você pode trabalhar com um parceiro para pagar a taxa de importação. Para obter mais informações sobre como encontrar um parceiro, confira [Encontrar seu parceiro ou revendedor do Microsoft 365](../admin/manage/find-your-partner-or-reseller.md).
     
 - Você ou a organização devem ter uma conta da FedEx ou da DHL. 
     
@@ -124,7 +124,7 @@ A primeira etapa é baixar a chave de armazenamento seguro e a ferramenta e que 
     > [!NOTE]
     > Conforme mencionado anteriormente, você precisa ter as permissões apropriadas para acessar a página **Importar** no centro de conformidade Microsoft 365 de segurança. 
   
-3. Na guia **Importar,** clique em ![ Adicionar Ícone Novo trabalho de ](../media/ITPro-EAC-AddIcon.gif) **importação.**
+3. Na guia **Importar**, clique em ![Adicionar Ícone](../media/ITPro-EAC-AddIcon.gif) **Novo trabalho de importação**.
     
 4. No assistente de trabalho de importação, digite um nome para o trabalho de importação PST e clique em **Próximo**. Use letras minúsculas, números, hifens e sublinhados. Não é possível usar letras maiúsculas ou incluir espaços no nome.
     
@@ -255,7 +255,7 @@ A etapa a seguir consiste em criar o trabalho de Importação de PST no serviço
 
 2. No painel de navegação esquerdo do centro de conformidade Microsoft 365, clique em **Importar governança de** \> **informações.**
 
-3. Na guia **Importar,** clique em ![ Adicionar Ícone Novo trabalho de ](../media/ITPro-EAC-AddIcon.gif) **importação.**
+3. Na guia **Importar**, clique em ![Adicionar Ícone](../media/ITPro-EAC-AddIcon.gif) **Novo trabalho de importação**.
 
     > [!NOTE]
     > Conforme mencionado anteriormente, você precisa ter as permissões apropriadas para acessar a página **Importar** no centro de conformidade Microsoft 365 de segurança.
@@ -402,9 +402,9 @@ Para instalar o Gerenciador de Armazenamento do Azure e se conectar à sua área
 
 1. Vá para <https://compliance.microsoft.com> e entre usando as credenciais de uma conta de administrador em sua organização.
 
-2. No painel esquerdo do centro de conformidade Microsoft 365, clique em **Governança de informações > Importar**.
+2. No painel esquerdo do Centro de Conformidade do Microsoft 365, clique em **controle de informações > Importar**.
 
-3. Na guia **Importar,** clique em ![ Adicionar Ícone Novo trabalho de ](../media/ITPro-EAC-AddIcon.gif) **importação.**
+3. Na guia **Importar**, clique em ![Adicionar Ícone](../media/ITPro-EAC-AddIcon.gif) **Novo trabalho de importação**.
 
 4. No assistente de trabalho de importação, digite um nome para o trabalho de importação PST e clique em **Próximo**. Use letras minúsculas, números, hifens e sublinhados. Não é possível usar letras maiúsculas ou incluir espaços no nome.
 

@@ -1,6 +1,6 @@
 ---
-title: Integrar tíquetes serviceNow ao centro de segurança e ao centro de conformidade do Microsoft 365
-description: Saiba como criar e rastrear tíquetes no ServiceNow no centro de segurança e no centro de conformidade do Microsoft 365.
+title: Integrar tíquetes serviceNow ao centro Microsoft 365 segurança e ao centro de conformidade
+description: Saiba como criar e rastrear tíquetes no ServiceNow a partir do centro Microsoft 365 de segurança e do centro de conformidade.
 keywords: security, Microsoft 365, M365, compliance, compliance center, security center, ServiceNow, tickets, tasks, SNOW, connection
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -27,7 +27,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51569858"
 ---
-# <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>Integrar tíquetes serviceNow ao centro de segurança e ao centro de conformidade do Microsoft 365
+# <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>Integrar tíquetes serviceNow ao centro Microsoft 365 segurança e ao centro de conformidade
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 

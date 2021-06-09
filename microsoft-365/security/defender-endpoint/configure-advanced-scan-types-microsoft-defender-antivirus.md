@@ -58,17 +58,17 @@ Consulte [Como criar e implantar políticas antimalware: Verificar configuraçõ
 
 | Item e local da política | Configuração padrão (se não estiver configurada) | Parâmetro PowerShell `Set-MpPreference` ou propriedade WMI para `MSFT_MpPreference` classe |
 |---|---|---|
-| Verificação de email <p> **Verificação**  >  **Ativar a verificação de email**<p>Consulte [Limitações de verificação de email](#email-scanning-limitations) (neste artigo) | Desabilitada | `-DisableEmailScanning` |
-|Verificar [pontos de repare](/windows/win32/fileio/reparse-points) <p> **Verificação**  >  **Ativar a verificação de ponto de repare** | Desabilitada | Não disponível <p>Consulte [Pontos de repare](/windows/win32/fileio/reparse-points)  |
-| Examinar unidades de rede mapeadas <p> **Verificação**  >  **Executar a verificação completa em unidades de rede mapeadas** | Desabilitada | `-DisableScanningMappedNetworkDrivesForFullScan`|
+| Verificação de email <p> **Verificação**  >  **Ativar a verificação de email**<p>Consulte [Limitações de verificação de email](#email-scanning-limitations) (neste artigo) | Desabilitado | `-DisableEmailScanning` |
+|Verificar [pontos de repare](/windows/win32/fileio/reparse-points) <p> **Verificação**  >  **Ativar a verificação de ponto de repare** | Desabilitado | Não disponível <p>Consulte [Pontos de repare](/windows/win32/fileio/reparse-points)  |
+| Examinar unidades de rede mapeadas <p> **Verificação**  >  **Executar a verificação completa em unidades de rede mapeadas** | Desabilitado | `-DisableScanningMappedNetworkDrivesForFullScan`|
 | Examinar arquivos arquivados (como arquivos .zip ou .rar arquivos).  <p> **Verificação**  >  **Examinar arquivos arquivados** | Habilitado | `-DisableArchiveScanning` <p>A [lista de exclusão de extensões](configure-extension-file-exclusions-microsoft-defender-antivirus.md) terá precedência sobre essa configuração.|
-| Examinar arquivos na rede <p> **Verificação**  >  **Examinar arquivos de rede** | Desabilitada | `-DisableScanningNetworkFiles` |
+| Examinar arquivos na rede <p> **Verificação**  >  **Examinar arquivos de rede** | Desabilitado | `-DisableScanningNetworkFiles` |
 | Examinar executáveis empacotados <p> **Verificação**  >  **Examinar executáveis empacotados** | Habilitado | Não disponível |
-| Examinar unidades removíveis somente durante verificações completas <p> **Verificação**  >  **Examinar unidades removíveis** | Desabilitada | `-DisableRemovableDriveScanning` |
+| Examinar unidades removíveis somente durante verificações completas <p> **Verificação**  >  **Examinar unidades removíveis** | Desabilitado | `-DisableRemovableDriveScanning` |
 | Especificar o nível de subpastas em uma pasta de arquivo morto a ser digitalizada <p>**Verificação**  >  **Especificar a profundidade máxima para examinar arquivos arquivados** | 0 | Não disponível |
 | Especifique a carga máxima da CPU (como porcentagem) durante uma verificação. <p> **Verificação**  >  **Especifique o percentual máximo de utilização da CPU durante uma verificação** | 50 |  `-ScanAvgCPULoadFactor` <p>**OBSERVAÇÃO**: a carga máxima da CPU não é um limite rígido, mas é orientação para que o mecanismo de verificação não exceda o máximo em média. As verificações de executar manualmente ignorarão essa configuração e serão executados sem limites de CPU. |
 | Especifique o tamanho máximo (em quilobytes) dos arquivos de arquivo morto que devem ser verificados. <p> **Verificação**  >  **Especificar o tamanho máximo de arquivos arquivados a serem verificados** | Sem limite | Não disponível <p>O valor padrão de 0 não aplica limite |
-| Configurar baixa prioridade de CPU para verificações agendadas <p> **Verificação**  >  **Configurar baixa prioridade de CPU para verificações agendadas** | Desabilitada | Não disponível |
+| Configurar baixa prioridade de CPU para verificações agendadas <p> **Verificação**  >  **Configurar baixa prioridade de CPU para verificações agendadas** | Desabilitado | Não disponível |
  
 > [!NOTE]
 > Se a proteção em tempo real estiver acessível, os arquivos serão verificados antes que sejam acessados e executados. O escopo de verificação inclui todos os arquivos, incluindo arquivos em mídia removível montada, como unidades USB. Se o dispositivo que executa a verificação tiver proteção em tempo real ou proteção no acesso, a verificação também incluirá compartilhamentos de rede.

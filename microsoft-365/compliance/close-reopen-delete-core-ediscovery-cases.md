@@ -36,7 +36,7 @@ Quando o caso legal ou a investigação com suporte de um caso core de Descobert
 
 - Fechar um caso apenas fecha as retenções que estão associadas a esse caso. Se outras retenções são colocadas em um local de conteúdo (como uma Retenção de Litígio, uma política de retenção ou uma retenção de um caso de Descoberta eDiscovery Principal diferente), essas retenções ainda serão mantidas.
 
-- O caso ainda está listado na página Descoberta Principal da Descoberta Microsoft 365 de conformidade. Os detalhes, retenções, pesquisas e membros de uma ocorrência fechada são mantidos.
+- O caso ainda está listado na página Descoberta Principal da Descoberta Microsoft 365 de conformidade. Os detalhes, retenções, pesquisas e membros de um caso fechado são retidos.
 
 - Você pode editar uma ocorrência depois que ela for fechada. Por exemplo, você pode adicionar ou remover membros, criar pesquisas e exportar resultados de pesquisa. A principal diferença entre os casos ativos e fechados é que os ressarcedores de Descoberta e São desligados quando um caso é fechado.
 

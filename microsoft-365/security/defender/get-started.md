@@ -1,7 +1,7 @@
 ---
 title: Comece a usar o Microsoft 365 Defender
 ms.reviewer: ''
-description: Saiba quais etapas você precisa seguir para começar a trabalhar com o Microsoft 365 Defender
+description: Saiba quais etapas você precisa seguir para começar a Microsoft 365 Defender
 keywords: get started, microsoft 365 defender, turn on, onboard, deploy
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -26,18 +26,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/13/2021
 ms.locfileid: "51759817"
 ---
-# <a name="get-started-with-microsoft-365-for-defender"></a>Começar com o Microsoft 365 para Defender
+# <a name="get-started-with-microsoft-365-for-defender"></a>Começar com o Microsoft 365 para o Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-O Microsoft 365 Defender é uma experiência unificada em que você pode monitorar e gerenciar a segurança em toda a sua empresa. Com os alertas integrados entre identidades, pontos de extremidade, dados, aplicativos, email e ferramentas de colaboração - a investigação e a resposta a ameaças agora ocorrem em um local central. 
+Microsoft 365 O Defender é uma experiência unificada em que você pode monitorar e gerenciar a segurança em toda a sua empresa. Com os alertas integrados entre identidades, pontos de extremidade, dados, aplicativos, email e ferramentas de colaboração - a investigação e a resposta a ameaças agora ocorrem em um local central. 
 
-Se você é novo no pacote de produtos de segurança da Microsoft ou familiarizado com fluxos de trabalho individuais, este tópico o guiará nas etapas simples necessárias para começar com o Microsoft 365 Defender.
+Se você é novo no pacote de produtos de segurança da Microsoft ou familiarizado com fluxos de trabalho individuais, este tópico o guiará nas etapas simples que você precisa seguir para começar com o Microsoft 365 Defender.
 
-![Imagem de como começar com as etapas do Microsoft 365 Defender](../../media/mtp/get-started-m365d.png)
+![Imagem de como começar a Microsoft 365 etapas do Defender](../../media/mtp/get-started-m365d.png)
 
 Em geral, você precisará seguir as seguintes etapas para começar:
 
@@ -47,17 +47,17 @@ Em geral, você precisará seguir as seguintes etapas para começar:
     Em seguida, você vai passar por algumas configurações simples e, em seguida, pode confirmar se o serviço está em.
 
 - **[Etapa 2: Implantar serviços com suporte](deploy-supported-services.md)** <br>
-    Após concluir as etapas iniciais, você precisará implantar os serviços com suporte que vêm com o Microsoft 365 Defender. A implantação de serviços aumenta efetivamente sua visibilidade nos sinais de ativos em toda a rede.
+    Após concluir as etapas iniciais, você precisará implantar os serviços com suporte que vêm com Microsoft 365 Defender. A implantação de serviços aumenta efetivamente sua visibilidade nos sinais de ativos em toda a rede.
 
 
 ## <a name="key-capabilities"></a>Principais recursos
-A acionar o Microsoft 365 Defender e implantar serviços lhe dará acesso aos seguintes recursos principais:
+A a Microsoft 365 o Defender e a implantação de serviços lhe darão acesso aos seguintes recursos principais:
 
 
 | Funcionalidade | Descrição |
 | ------ | ------ |
 | Microsoft Defender para Ponto de Extremidade | Pacote de proteção de ponto de extremidade criado em torno de sensores comportamentais poderosos, análise de nuvem e inteligência contra ameaças |
-|Obter o Microsoft Defender para Office 365 | Proteção avançada para seus aplicativos e dados no Office 365, incluindo email e outras ferramentas de colaboração |
+|Microsoft Defender para Office 365 | Proteção avançada para seus aplicativos e dados em Office 365, incluindo email e outras ferramentas de colaboração |
 | Microsoft Defender para Identidade? | Defender contra ameaças avançadas, identidades comprometidas e insiders mal-intencionados usando sinais correlacionados do Active Directory |
 | Microsoft Cloud App Security | Identificar e combater ameaças cibernéticas em seus serviços de nuvem da Microsoft e de terceiros |
 

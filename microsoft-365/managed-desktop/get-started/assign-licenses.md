@@ -18,14 +18,14 @@ ms.locfileid: "50925782"
 ---
 # <a name="assign-licenses"></a>Atribua licenças
 
-Como parte da preparação para se inscrever na Área de Trabalho Gerenciada da Microsoft, você precisará ter certeza de que obteve as licenças necessárias. Se você ainda não obteve as licenças, consulte [Mais sobre licenças](../get-ready/prerequisites.md#more-about-licenses) para obter detalhes sobre exatamente de que licenças você precisa.
+Como parte da preparação para se inscrever no Área de Trabalho Gerenciada da Microsoft, você precisará ter certeza de que obteve as licenças necessárias. Se você ainda não obteve as licenças, consulte [Mais sobre licenças](../get-ready/prerequisites.md#more-about-licenses) para obter detalhes sobre exatamente de que licenças você precisa.
 
 
-Se suas licenças estão alinhadas, agora é hora de atribuí-las aos usuários. Para atribuir licenças, recomendamos que você tire proveito do recurso de licenciamento baseado em grupo [do](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal) Azure Active Directory.
+Se suas licenças estão alinhadas, agora é hora de atribuí-las aos usuários. Para atribuir licenças, recomendamos que você tire proveito do [recurso](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal) de licenciamento baseado em grupo de Azure Active Directory.
 
 Se você tiver alguma dificuldade com a atribuição de licença, entre em contato com o suporte do [administrador](../working-with-managed-desktop/admin-support.md).
 
-## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Etapas para começar com a Área de Trabalho Gerenciada da Microsoft
+## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Etapas para começar a Área de Trabalho Gerenciada da Microsoft
 
 1. [Adicionar e verificar contatos do administrador no portal de Administração](add-admin-contacts.md)
 2. [Ajustar o acesso condicional](conditional-access.md)

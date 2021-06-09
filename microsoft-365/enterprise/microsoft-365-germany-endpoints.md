@@ -1,5 +1,5 @@
 ---
-title: Pontos de extremidade do Office 365 para Alemanha
+title: Office 365 pontos de extremidade para a Alemanha
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -18,7 +18,7 @@ ms.custom:
 - seo-marvel-apr2020
 search.appverid: MOE150
 ms.assetid: 8a113a50-0071-4155-bb8e-eba5a8dbd4c8
-description: Neste artigo, você encontrará pontos de extremidade acessíveis para clientes que usam o Office 365 na Alemanha.
+description: Neste artigo, você encontrará pontos de extremidade acessíveis para clientes que usam Office 365 na Alemanha.
 hideEdit: true
 ms.openlocfilehash: 0d96300e77c67ac05ea18ab23d63c01d4f840dfb
 ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
@@ -29,12 +29,12 @@ ms.locfileid: "51759889"
 ---
 # <a name="office-365-germany-endpoints"></a>Pontos de extremidade do Office 365 Alemanha
 
- *Aplica-se a: Administrador do Office 365*
+ *Aplica-se a: Office 365 Admin*
 
-O Office 365 requer conectividade com a Internet. Os pontos de extremidade abaixo devem ser acessíveis somente para clientes que usam planos do **Office 365 Germany.**
+Office 365 requer conectividade com a Internet. Os pontos de extremidade abaixo devem ser acessíveis para clientes que usam **Office 365 apenas** planos da Alemanha.
 
 > [!NOTE]
-> Para os clientes, que estão na transição para a nova região do datacenter do Microsoft 365 na Alemanha, os pontos de extremidade mudarão.
+> Para clientes, que estão na transição para a nova região Microsoft 365 datacenter na Alemanha, os pontos de extremidade mudarão.
 > Para obter informações adicionais, consulte [Migration from Microsoft Cloud Deutschland to Office 365 services in the new German datacenter regions](ms-cloud-germany-transition.md).
   
  **Pontos de extremidade do Office 365:** [global (incluindo GCC)](urls-and-ip-address-ranges.md)  | [Office 365 operado pela 21 Vianet](urls-and-ip-address-ranges-21vianet.md)  | *Office 365 Alemanha*  |  [Office 365 Governo dos E.U.A. Departamento de Defesa](microsoft-365-u-s-government-dod-endpoints.md) | [GCC High do Office 365 Governo dos E.U.A.](microsoft-365-u-s-government-gcc-high-endpoints.md)  |
@@ -47,7 +47,7 @@ Comece com [Gerenciando pontos de extremidade do Office 365 ](managing-office-36
 
 Os dados mostrados nesta página a seguir são todos gerados a partir dos serviços da web baseados em REST. Se estiver usando um script ou um dispositivo de rede para acessar esses dados, você deve ir para o [serviço da Web ](microsoft-365-ip-web-service.md) diretamente.
 
-Os dados do ponto de extremidade abaixo listam os requisitos de conectividade do computador de um usuário para o Office 365. Ele não inclui conexões de rede da Microsoft em uma rede do cliente, às vezes chamadas de conexões de rede híbridas ou de entrada.
+Os dados do ponto de extremidade abaixo listam os requisitos de conectividade do computador de um usuário para Office 365. Ele não inclui conexões de rede da Microsoft em uma rede do cliente, às vezes chamadas de conexões de rede híbridas ou de entrada.
 
 Os pontos de extremidade são agrupados em quatro áreas de serviço. As primeiras três áreas de serviço podem ser selecionadas independentemente de conectividade. A quarta área de serviço é uma dependência comum (chamada de Microsoft 365 Common and Office) e deve ter sempre conectividade de rede.
 

@@ -180,7 +180,7 @@ Lembre-se dos seguintes limites ao excluir dados espalhados:
 
 - O número máximo de caixas de correio em uma pesquisa que você pode usar para excluir itens fazendo uma ação de pesquisa e limpeza é 50.000. Se a pesquisa que você criar na Etapa 3 pesquisar mais de 50.000 caixas de correio, a ação de limpeza falhará. Pesquisar mais de 50.000 caixas de correio em uma única pesquisa pode normalmente acontecer quando você configura a pesquisa para incluir todas as caixas de correio em sua organização. Essa restrição ainda se aplica mesmo quando menos de 50.000 caixas de correio contiverem itens que correspondam à consulta de pesquisa.
 
-- Só é possível remover no máximo dez itens de cada vez por caixa de correio. Como o recurso de pesquisa e remoção de mensagens tem como objetivo ser uma ferramenta de resposta a incidentes, esse limite ajuda a garantir que as mensagens sejam rapidamente removidas das caixas de correio. Este recurso não tem como objetivo limpar as caixas de correio do usuário.
+- No máximo 10 itens por caixa de correio podem ser removidos de uma só vez. Como a capacidade de pesquisar e remover mensagens tem o objetivo de ser uma ferramenta de resposta a incidentes, esse limite ajuda a garantir que as mensagens sejam removidas rapidamente das caixas de correio. Este recurso não tem como objetivo a limpar as caixas de correio do usuários.
 
 > [!IMPORTANT]
 > Os itens de e-mail em um conjunto de revisões em um caso de Descoberta eletrônica avançada não podem ser excluídos usando os procedimentos deste artigo. Isso porque os itens em um conjunto de revisão são cópias de itens no serviço ao vivo que são copiados e armazenados em um local Armazenamento Azure. Isso significa que eles não serão retornados por uma pesquisa de conteúdo que você criar na Etapa 3. Para excluir itens em um conjunto de revisões, é necessário excluir o caso de Descoberta eletrônica avançada que contém o conjunto de revisões. Para obter mais informações, consulte [Fechar ou excluir um caso de descoberta eletrônica avançado](close-or-delete-case.md).
@@ -205,7 +205,7 @@ Se as palavras-chave na consulta de pesquisa que você criou e usou na Etapa 3 c
 
 ### <a name="auditing-the-data-spillage-investigation-process"></a>Auditoria do processo de investigação de vazamento de dados
 
-Você pode pesquisar no log de auditoria para as atividades de Descoberta e-Descoberta que foram executadas durante a investigação. Você também pode pesquisar o log de auditoria para retornar os registros de auditoria para o comando **New-ComplianceSearchAction -Purge** que você realizou na Etapa 7 para excluir os dados excluídos. Para mais informações, confira:
+Você pode pesquisar no log de auditoria para as atividades de Descoberta e-Descoberta que foram executadas durante a investigação. Você também pode pesquisar o log de auditoria para retornar os registros de auditoria para o comando **New-ComplianceSearchAction -Purge** que você realizou na Etapa 7 para excluir os dados excluídos. Para saber mais, confira:
 
 - [Pesquisas o log de auditoria](search-the-audit-log-in-security-and-compliance.md)
 

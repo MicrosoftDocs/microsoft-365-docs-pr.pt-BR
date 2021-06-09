@@ -26,7 +26,7 @@ ms.locfileid: "50926027"
 ---
 # <a name="simulated-cross-premises-virtual-network-in-a-microsoft-365-test-environment"></a>Rede virtual simulada entre instalações em um ambiente de teste do Microsoft 365
 
-*Este Guia de Laboratório de Teste pode ser usado para ambientes de teste do Microsoft 365 para empresas e office 365 Enterprise.*
+*Este Guia de Laboratório de Teste pode ser usado para Microsoft 365 ambientes de teste corporativos e Office 365 Enterprise de teste.*
 
 Este artigo ajuda você a criar um ambiente simulado de nuvem híbrida com o Microsoft Azure usando duas redes virtuais do Azure. Veja a configuração resultante. 
   
@@ -59,12 +59,12 @@ Há três fases principais para configurar esse ambiente de teste:
 > [!NOTE]
 > Essa configuração requer uma assinatura paga do Azure. 
 
-Você pode usar o ambiente resultante para testar os recursos e a [](m365-enterprise-test-lab-guides.md) funcionalidade do [Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise) para empresas com guias de laboratório de teste adicionais ou por conta própria.
+Você pode usar o ambiente resultante para testar os recursos e a funcionalidade do [Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise) para empresas com guias de laboratório de teste adicionais [ou](m365-enterprise-test-lab-guides.md) por conta própria.
 
 ![Guias de Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Vá para [o Microsoft 365 for enterprise Test Lab Guide Stack](../downloads/Microsoft365EnterpriseTLGStack.pdf) para um mapa visual para todos os artigos na pilha guia de laboratório de teste do Microsoft 365 para empresas.
+> Vá para [Microsoft 365 para](../downloads/Microsoft365EnterpriseTLGStack.pdf) a pilha de guias de laboratório de teste empresarial para um mapa visual para todos os artigos no Microsoft 365 para pilha do Guia de Laboratório de Teste corporativo.
 
 ## <a name="phase-1-configure-the-testlab-virtual-network"></a>Fase 1: configurar a rede virtual TestLab
 
@@ -205,7 +205,7 @@ Essa é sua configuração atual.
   
 Seu ambiente simulado de nuvem híbrida do Azure já está pronto para testes.
   
-Agora você está pronto para experimentar recursos adicionais do [Microsoft 365 para empresas.](https://www.microsoft.com/microsoft-365/enterprise)
+Agora você está pronto para experimentar recursos adicionais de [Microsoft 365 para empresas.](https://www.microsoft.com/microsoft-365/enterprise)
   
 ## <a name="next-steps"></a>Próximas etapas
 

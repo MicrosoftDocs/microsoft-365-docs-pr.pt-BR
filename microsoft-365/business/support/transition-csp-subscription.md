@@ -1,6 +1,6 @@
 ---
 title: Fazer a transição de uma assinatura de CSP do Microsoft 365 Business
-description: Descubra como você pode fazer a transição de uma assinatura de CSP do Microsoft 365 Business da visualização para a disponibilidade geral (GA).
+description: Descubra como fazer a transição de uma assinatura Microsoft 365 Business CSP da visualização para a disponibilidade geral (GA).
 author: jasongroce
 f1.keywords:
 - NOCSH
@@ -34,35 +34,35 @@ Se você tiver uma assinatura CSP do Microsoft 365 Business Preview, siga este g
 
     ![Assinaturas do cliente no Partner Center](../../media/pc_customer_subscriptions_1.png)
     
-3. Na página **Assinaturas da** empresa, selecione **Adicionar assinatura.**
-4. Na página **Nova assinatura,** selecione **Small business** e, em seguida, selecione **Microsoft 365 Business** na lista.
+3. Na página **Assinaturas da** empresa, selecione **Adicionar assinatura**.
+4. Na página **Nova assinatura,** selecione **Pequenas Empresas** e selecione **Microsoft 365 Business** na lista.
 5. Adicione o número de licenças e então selecione **Próximo: Revisão** para revisar a assinatura e então escolha **Enviar**.
 
     ![Examine a nova assinatura do Microsoft 365 Business](../../media/pc_customer_reviewnewsubscription.png)
 
-    As **Assinaturas baseadas em licença** mostrarão **Microsoft 365 Business Preview** e **Microsoft 365 Business**. Você suspenderá a assinatura de visualização em seguida.
+    As **Assinaturas baseadas em licença** mostrarão **Microsoft 365 Business Preview** e **Microsoft 365 Business**. Você suspenderá a assinatura De visualização em seguida.
 
 6. Selecione **Microsoft 365 Business Preview**.
-7. Na página **Microsoft 365 Business Preview,** selecione **Suspensa** para suspender a assinatura de visualização.
+7. Na página **Microsoft 365 Business Visualização,** selecione **Suspenso** para suspender a assinatura de visualização.
 
     ![Suspender a assinatura do Microsoft 365 Business Preview](../../media/pc_customer_m365bpreview_suspend.png)
 
 8. Selecione **Enviar** para confirmar.
 
-    Na página **Assinaturas,** confirme se o status do **Microsoft 365 Business Preview** é suspenso. 
+    Na página **Assinaturas,** confirme se o status **Microsoft 365 Business Visualização** mostra **Suspended**.
 
     ![Confirmar se o status da assinatura de versão prévia é suspensa](../../media/pc_customer_m365bpreview_suspend_confirm.png)
 
 9. Opcionalmente, você também pode validar o contrato de licença. Para fazer isso, execute estas etapas:
     1. Selecione **Usuários e licenças** da página **Assinaturas** da empresa.
     2. Na página **Usuários e licenças,** selecione um usuário.
-    3. Na página do usuário, verifique a **seção Atribuir licenças** e confirme se ela mostra **o Microsoft 365 Business.**
+    3. Na página do usuário, verifique a seção **Atribuir licenças** e confirme se ela **mostra** Microsoft 365 Business .
 
         ![Confirmar se a licença do Microsoft 365 Business foi atribuída ao usuário](../../media/pc_customer_userslicenses_m365b_validate.png)
 
 ## <a name="impact-to-customers-and-users-during-and-after-transition"></a>Impacto nos clientes e usuários durante e após a transição
 
-Não há impacto nos clientes e usuários durante a transição e pós-transição.
+Não há impacto para clientes e usuários durante a transição e pós-transição.
 
 ## <a name="impact-to-customers-who-dont-transition"></a>Impacto nos clientes que não fizerem a transição
 
@@ -77,11 +77,11 @@ A tabela a seguir resume o impacto nos clientes que não fizerem a transição d
 | **Serviços de nuvem (SharePoint Online, Exchange Online, Skype, Teams e muito mais)** | Nenhum impacto no usuário final | Nenhum impacto no usuário final | Os usuários finais e os administradores não têm acesso aos dados na nuvem. | A assinatura do cliente e todos os dados são excluídos. |
 | **Componentes do EM+S** | Não há impacto no administrador</br> Nenhum impacto no usuário final | Não há impacto no administrador</br> Nenhum impacto no usuário final | A funcionalidade não é mais imposta.</br> Consulte [Impactos no dispositivo móvel após a expiração da assinatura](#mobile-device-impacts-upon-subscription-expiration) e [Impactos no computador com Windows 10 após a expiração da assinatura](#windows-10-pc-impacts-upon-subscription-expiration) para obter mais informações. | A funcionalidade não é mais imposta.</br> Consulte [Impactos no dispositivo móvel após a expiração da assinatura](#mobile-device-impacts-upon-subscription-expiration) e [Impactos no computador com Windows 10 após a expiração da assinatura](#windows-10-pc-impacts-upon-subscription-expiration) para obter mais informações. |
 | **Windows 10 Business** | Não há impacto no administrador</br> Nenhum impacto no usuário final | Não há impacto no administrador</br> Nenhum impacto no usuário final | A funcionalidade não é mais imposta.</br> Consulte [Impactos no dispositivo móvel após a expiração da assinatura](#mobile-device-impacts-upon-subscription-expiration) e [Impactos no computador com Windows 10 após a expiração da assinatura](#windows-10-pc-impacts-upon-subscription-expiration) para obter mais informações. | A funcionalidade não é mais imposta.</br> Consulte [Impactos no dispositivo móvel após a expiração da assinatura](#mobile-device-impacts-upon-subscription-expiration) e [Impactos no computador com Windows 10 após a expiração da assinatura](#windows-10-pc-impacts-upon-subscription-expiration) para obter mais informações. |
-| **Logon do Azure AD em um computador com o Windows 10** | Não há impacto no administrador</br> Nenhum impacto no usuário final | Não há impacto no administrador</br> Nenhum impacto no usuário final | Não há impacto no administrador</br> Nenhum impacto no usuário final | Depois que o locatário é excluído, um usuário pode entrar apenas com credenciais locais. Recrie a imagem do dispositivo se não houver nenhuma credencial local. |
+| **Logon do Azure AD em um computador com o Windows 10** | Não há impacto no administrador</br> Nenhum impacto no usuário final | Não há impacto no administrador</br> Nenhum impacto no usuário final | Não há impacto no administrador</br> Nenhum impacto no usuário final | Depois que o locatário for excluído, um usuário só poderá entrar com credenciais locais. Recrie a imagem do dispositivo se não houver nenhuma credencial local. |
 
 ## <a name="mobile-device-impacts-upon-subscription-expiration"></a>Impactos no dispositivo móvel após a expiração da assinatura
 
-A tabela a seguir resume o impacto nas políticas de gerenciamento de aplicativos em dispositivos móveis.
+A tabela a seguir resume o impacto para as políticas de gerenciamento de aplicativos em dispositivos móveis.
 
 |                            | Experiência totalmente licenciada                      | T+60 dias após a expiração          |
 |----------------------------|------------------------------------------------|------------------------------------|
@@ -91,8 +91,8 @@ A tabela a seguir resume o impacto nas políticas de gerenciamento de aplicativo
 | **Exigir PIN ou impressão digital para acessar os aplicativos do Office** | Acesso restrito a apps | Não há restrição de acesso no nível do aplicativo |
 | **Redefinir o PIN quando o logon falhar** | Acesso restrito a apps | Não há restrição de acesso no nível do aplicativo |
 | **Exigir que os usuários entrem novamente depois que os aplicativos do Office ficarem ociosos** | É necessário entrar | Não é necessário entrar |
-| **Negar o acesso a arquivos de trabalho em dispositivos com jailbreak ou desbloqueados por rooting** | Os arquivos de trabalho não podem ser acessados em dispositivos com jailbroken/rooted | Os arquivos de trabalho podem ser acessados em dispositivos com jailbreak ou desbloqueados por rooting |
-| **Permitir que os usuários copiem conteúdo de aplicativos do Office para aplicativos pessoais** | Copiar/colar restrito aos aplicativos disponíveis como parte da assinatura do Microsoft 365 | Copiar/colar disponível para todos os apps |
+| **Negar o acesso a arquivos de trabalho em dispositivos com jailbreak ou desbloqueados por rooting** | Arquivos de trabalho não podem ser acessados em dispositivos jailbroken/rooted | Os arquivos de trabalho podem ser acessados em dispositivos com jailbreak ou desbloqueados por rooting |
+| **Permitir que os usuários copiem conteúdo de aplicativos do Office para aplicativos pessoais** | Copiar/colar restrito aos aplicativos disponíveis como parte Microsoft 365 assinatura | Copiar/colar disponível para todos os apps |
 
 ## <a name="windows-10-pc-impacts-upon-subscription-expiration"></a>Impactos no computador com Windows 10 após a expiração da assinatura
 
@@ -100,10 +100,10 @@ A tabela a seguir resume o impacto nas políticas de configuração de dispositi
 
 |                            | Experiência totalmente licenciada                      | T+60 dias após a expiração          |
 |----------------------------|------------------------------------------------|------------------------------------|
-| **Ajudar a proteger os computadores contra ameaças usando o Windows Defender** | Ativar/desativar está fora do controle do usuário | O usuário pode ativar/desativar o Windows Defender no computador com Windows 10 |
-| **Ajudar a proteger os computadores contra ameaças baseadas na Web no Microsoft Edge** | Proteção do computador no Microsoft Edge | O usuário pode ativar/desativar a proteção do computador no Microsoft Edge |
+| **Ajudar a proteger os computadores contra ameaças usando o Windows Defender** | Ativar/desativar está fora do controle do usuário | O usuário pode ativar/desativar Windows Defender no computador Windows 10 computador |
+| **Ajudar a proteger os computadores contra ameaças baseadas na Web no Microsoft Edge** | Proteção do computador no Microsoft Edge | O usuário pode ativar/desativar a proteção do computador Microsoft Edge |
 | **Desativar a tela do dispositivo quando ocioso** | O administrador define a política de intervalo de tempo limite da tela | O tempo limite da tela pode ser configurado pelo usuário final |
 | **Permitir que os usuários baixem apps da Microsoft Store** | O administrador define se um usuário pode baixar apps da Microsoft Store | O usuário podem baixar apps da Microsoft Store em qualquer ocasião |
 | **Permitir que usuários acessem a Cortana** | O administrador define a política de acesso de usuário para a Cortana | Dispositivos de usuário para ativar/desativar a Cortana |
 | **Permitir que os usuários recebam dicas e anúncios da Microsoft** | O administrador define a política sobre o usuário receber dicas e anúncios da Microsoft | O usuário pode ativar/desativar dicas e anúncios da Microsoft |
-| **Permitir que os usuários copiem conteúdo de aplicativos do Office para aplicativos pessoais** | O administrador define a política para manter os dispositivos Windows 10 atualizados | Os usuários podem decidir quando atualizar o Windows |
+| **Permitir que os usuários copiem conteúdo de aplicativos do Office para aplicativos pessoais** | O administrador define a política para manter Windows 10 dispositivos atualizados | Os usuários podem decidir quando atualizar o Windows |

@@ -44,11 +44,11 @@ Você pode personalizar a lista de dispositivos usados para executar a descobert
 
 
 > [!IMPORTANT]
-> Para visualizar, primeiro você precisará ativar os recursos de visualização no Centro de Segurança do Microsoft Defender.
-> Em seguida, você pode acessar a configuração de descoberta de dispositivo no Centro de segurança do Microsoft 365. A lista de dispositivos não administrativos e recomendações de segurança estará disponível no Centro de Segurança do Microsoft Defender e no Centro de Segurança do Microsoft 365, enquanto os blocos do painel estarão disponíveis apenas no Centro de segurança do Microsoft 365.
+> Para visualizar, primeiro você precisará ativar os recursos de visualização no Central de Segurança do Microsoft Defender.
+> Em seguida, você pode acessar a configuração de descoberta de dispositivo Microsoft 365 centro de segurança. A lista de dispositivos não administrativos e recomendações de segurança estará disponível no centro de segurança do Central de Segurança do Microsoft Defender e do Microsoft 365, enquanto os blocos do painel estarão disponíveis apenas no centro de segurança Microsoft 365.
 
 
-Tome as seguintes etapas de configuração no Centro de segurança do Microsoft 365:
+Tome as seguintes etapas de configuração no Microsoft 365 de segurança:
 
 1.  Navegue **até Configurações > Descoberta de dispositivo.**
 2.  Selecione o modo de descoberta a ser usado em seus dispositivos conectados. 
@@ -86,7 +86,7 @@ Você controla onde ocorre a descoberta do dispositivo. Redes monitoradas são o
 
 Escolher a classificação de descoberta inicial significa aplicar o estado padrão do monitor de rede feito pelo sistema. Selecionar o estado padrão do monitor de rede feito pelo sistema significa que as redes identificadas como corporativas serão monitoradas e as identificadas como não corporativas serão ignoradas automaticamente.
  
-1. Selecione **Configurações > Descoberta de dispositivo.**
+1. Selecione **Configurações > Descoberta de dispositivo**.
 2. Selecione **Redes monitoradas**. 
 3. Exibir a lista de redes. 
 4. Selecione os três pontos ao lado do nome da rede. 

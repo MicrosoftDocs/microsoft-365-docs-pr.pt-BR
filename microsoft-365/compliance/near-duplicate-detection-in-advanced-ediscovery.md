@@ -1,5 +1,5 @@
 ---
-title: Detecção duplicada próxima - Descoberta Automática
+title: Detecção quase duplicada - Descoberta Automática
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,7 +15,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Use a detecção quase duplicada para agrupar textually documentos semelhantes ao analisar dados de caso na Descoberta Eletrônica Avançada.
+description: Use a detecção quase duplicada para agrupar documentos textuamente semelhantes ao analisar dados de caso em Advanced eDiscovery.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 255531897a1706904005034c56cab00d0032b7f3
 ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
@@ -24,10 +24,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 09/26/2020
 ms.locfileid: "48286017"
 ---
-# <a name="near-duplicate-detection-in-advanced-ediscovery"></a>Detecção quase duplicada na Descoberta Automática Avançada
+# <a name="near-duplicate-detection-in-advanced-ediscovery"></a>Detecção quase duplicada no Advanced eDiscovery
 
-Considere um conjunto de documentos a serem revisados no qual um subconjunto é baseado no mesmo modelo e tem principalmente o mesmo idioma clichê, com algumas diferenças aqui e ali. Se um revisador puder identificar esse subconjunto, revisar um deles exaustivamente e analisar as diferenças para o restante, ele não teria perdido nenhuma informação exclusiva enquanto ocupava apenas uma fração de tempo que o levaria a ler todos os documentos decodificáveis. Documentos semelhantes textuicamente próximos a grupos de detecção duplicados para ajudar você a tornar o processo de revisão mais eficiente.
+Considere um conjunto de documentos a serem revisados no qual um subconjunto se baseia no mesmo modelo e tem principalmente o mesmo idioma clichê, com algumas diferenças aqui e ali. Se um revistor pudesse identificar esse subconjunto, revisar um deles completamente e revisar as diferenças para o restante, ele não teria perdido nenhuma informação exclusiva enquanto levaria apenas uma fração de tempo que os levaria a ler todos os documentos de capa a capa. Detecção de duplicata próxima agrupa documentos textualmente similares para deixar seu processo de avaliação mais eficiente.
 
 ## <a name="how-does-it-work"></a>Como funciona?
 
-Quando a detecção quase duplicada é executado, o sistema analisará cada documento com texto. Em seguida, ele compara cada documento entre si para determinar se sua semelhança é maior do que o limite definido. Se for, os documentos serão agrupados. Depois que todos os documentos são comparados e agrupados, um documento de cada grupo é marcado como o "pivô"; ao revisar seus documentos, você pode revisar um pivô primeiro e revisar os outros documentos no mesmo conjunto quase duplicado, concentrando-se na diferença entre o pivô e o documento que está em revisão.
+Quando a detecção de duplicatas próximas é executada, o sistema analisa cada documento com texto. Depois, ela compara os documento entre si para determinar se suas semelhanças são maiores que o limite definido.  Se forem maiores, os documentos são agrupados. Depois de todos os documentos serem comparados e agrupados, um documento de cada grupo é marcado como o “original”. Ao analisar seus documentos, você pode analisar primeiro o original e analisar os outros documentos no mesmo conjunto de duplicatas próximas, focando na diferença entre o original e o documento que está sendo analisado.

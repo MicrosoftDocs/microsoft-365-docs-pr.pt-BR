@@ -1,5 +1,5 @@
 ---
-title: Saiba mais sobre o painel alertas de prevenção contra perda de dados
+title: Saiba mais sobre o painel de alertas de prevenção contra perda de dados
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -27,7 +27,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/13/2021
 ms.locfileid: "51760688"
 ---
-# <a name="learn-about-the-data-loss-prevention-alerts-dashboard"></a>Saiba mais sobre o painel alertas de prevenção contra perda de dados
+# <a name="learn-about-the-data-loss-prevention-alerts-dashboard"></a>Saiba mais sobre o painel de alertas de prevenção contra perda de dados
 
 Quando os critérios em uma política de prevenção contra perda de dados (DLP) são corresponderem às ações que um usuário está fazendo em um item sensível, a política pode gerar um alerta. Isso pode resultar em um alto volume de alertas. Os alertas DLP são coletados no painel de alertas. O painel de alertas oferece um único local para você ir para executar uma investigação profunda de todos os detalhes sobre a combinação de política.  
 
@@ -35,7 +35,7 @@ Quando os critérios em uma política de prevenção contra perda de dados (DLP)
 
 ## <a name="workloads"></a>Cargas de trabalho
 
-O painel de gerenciamento de alertas DLP , no centro de conformidade do [Microsoft 365,](https://compliance.microsoft.com/)mostra alertas para políticas de [DLP](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts)nessas cargas de trabalho:
+O painel de gerenciamento de alertas DLP , no centro de conformidade [Microsoft 365,](https://compliance.microsoft.com/)mostra alertas para políticas de [DLP](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts)nessas cargas de trabalho:
 
 - Exchange
 - SharePoint
@@ -44,7 +44,7 @@ O painel de gerenciamento de alertas DLP , no centro de conformidade do [Microso
 - Dispositivos Windows 10 
 
 > [!TIP]
-> Os clientes que usam [a DLP](endpoint-dlp-learn-about.md) do Ponto de Extremidade que estão qualificados para a DLP do Teams verão seus alertas de política de [DLP](dlp-microsoft-teams.md) de ponto de extremidade e alertas de política de DLP do Teams no painel de gerenciamento de alertas DLP.
+> Os clientes que usam a [DLP](endpoint-dlp-learn-about.md) de ponto de extremidade qualificados para Teams DLP verão seus alertas de política [DLP](dlp-microsoft-teams.md) de ponto de extremidade e alertas de política de DLP do Teams no painel de gerenciamento de alertas DLP.
 
 ## <a name="single-alert-and-aggregate-alert"></a>Alerta único e alerta agregado
 
@@ -63,7 +63,7 @@ Aqui estão alguns dos eventos associados a um alerta. Na interface do usuário,
 |Nome da propriedade  |Descrição  |Tipos de eventos  |
 |---------|---------|---------|
 |ID |ID exclusiva associada ao evento |todos os eventos |
-|Local |de carga de trabalho em que o evento foi detectado|todos os eventos |
+|Localização |de carga de trabalho em que o evento foi detectado|todos os eventos |
 |tempo de atividade     |tempo da atividade do usuário que corresponderam aos critérios da política DLP |
 
 ### <a name="impacted-entities"></a>Entidades impactadas
@@ -75,18 +75,18 @@ Aqui estão alguns dos eventos associados a um alerta. Na interface do usuário,
 |Endereço IP | Endereço IP do computador em que ocorreu a corresponder à política de DLP | eventos de dispositivo|
 |sha1 |Hash SHA-1 do arquivo | eventos de dispositivo|
 |sha256 | Hash sha-256 do arquivo | eventos de dispositivo|
-|ID do dispositivo MDATP | ID MDATP do dispositivo de ponto de extremidade|
-|tamanho do arquivo | tamanho do arquivo| Eventos do SharePoint, do OneDrive e do dispositivo|
-|caminho do arquivo | o caminho absoluto do item envolvido com a combinação de política de DLP | Eventos do SharePoint, OneDrive e dispositivos|
-|destinatários de email |se um email fosse o item sensível que corresponderia à política DLP, esse campo incluiria os destinatários desse email| Eventos do Exchange|
-|assunto de email |assunto do email que corresponderam à política DLP |Eventos do Exchange|
-|anexos de email | nomes dos anexos no email que corresponderam à política DLP| Eventos do Exchange|
-|proprietário do site |nome do proprietário do site| Eventos do SharePoint e do OneDrive|
-|URL do site |cheia da URL do site do SharePoint ou do OneDrive em que ocorreu a match de política de DLP |Eventos do SharePoint e do OneDrive|
-|arquivo criado |tempo de criação do arquivo que corresponderam à política DLP |Eventos do SharePoint e do OneDrive|
-|arquivo modificado pela última vez | a última vez que o arquivo que correspondera à política DLP foi alterado | Eventos do SharePoint e do OneDrive|
-|tamanho do arquivo | tamanho do arquivo que corresponderam à política DLP |Eventos do SharePoint e do OneDrive|
-|proprietário do arquivo |proprietário do arquivo que corresponderam à política DLP |Eventos do SharePoint e do OneDrive|  
+|MDATP ID do dispositivo | endpoint device MDATP ID|
+|tamanho do arquivo | tamanho do arquivo| SharePoint, OneDrive e eventos de dispositivo|
+|caminho do arquivo | o caminho absoluto do item envolvido com a combinação de política de DLP | SharePoint, OneDrive e dispositivos|
+|destinatários de email |se um email fosse o item sensível que corresponderia à política DLP, esse campo incluiria os destinatários desse email| Exchange eventos|
+|assunto de email |assunto do email que corresponderam à política DLP |Exchange eventos|
+|anexos de email | nomes dos anexos no email que corresponderam à política DLP| Exchange eventos|
+|proprietário do site |nome do proprietário do site| SharePoint e OneDrive eventos|
+|URL do site |cheia da URL do site de SharePoint ou OneDrive onde ocorreu a corresponder à política de DLP |SharePoint e OneDrive eventos|
+|arquivo criado |tempo de criação do arquivo que corresponderam à política DLP |SharePoint e OneDrive eventos|
+|arquivo modificado pela última vez | a última vez que o arquivo que correspondera à política DLP foi alterado | SharePoint e OneDrive eventos|
+|tamanho do arquivo | tamanho do arquivo que corresponderam à política DLP |SharePoint e OneDrive eventos|
+|proprietário do arquivo |proprietário do arquivo que corresponderam à política DLP |SharePoint e OneDrive eventos|  
 
 ### <a name="policy-details"></a>Detalhes da política
 
@@ -102,5 +102,5 @@ Aqui estão alguns dos eventos associados a um alerta. Na interface do usuário,
 
 ## <a name="see-also"></a>Confira também
 
-- [Começar com o painel de alertas de prevenção contra perda de dados](dlp-alerts-dashboard-get-started.md)
+- [Comece com o painel de alerta de prevenção contra perda de dados](dlp-alerts-dashboard-get-started.md)
 - [Onde começar com a prevenção contra perda de dados](create-test-tune-dlp-policy.md#where-to-start-with-data-loss-prevention)

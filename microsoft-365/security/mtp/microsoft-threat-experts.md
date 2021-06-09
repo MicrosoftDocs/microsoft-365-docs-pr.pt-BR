@@ -1,8 +1,8 @@
 ---
-title: Visão geral dos Especialistas em Ameaças da Microsoft no Microsoft 365 Defender
+title: Especialistas em Ameaças da Microsoft no Microsoft 365 Do Defender
 ms.reviewer: ''
-description: Os Especialistas em Ameaças da Microsoft fornece uma camada extra de experiência para o Microsoft 365 Defender.
-keywords: serviço de busca de ameaças gerenciada, busca de ameaças gerenciadas, serviço de detecção e resposta gerenciada (MDR), MTE, Especialistas em Ameaças da Microsoft
+description: Especialistas em Ameaças da Microsoft fornece uma camada extra de experiência para Microsoft 365 Defender.
+keywords: serviço de busca de ameaças gerenciado, busca de ameaças gerenciadas, serviço de detecção e resposta gerenciada (MDR), MTE, Especialistas em Ameaças da Microsoft
 search.product: Windows 10
 search.appverid: met150
 ms.prod: m365-security
@@ -22,7 +22,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/14/2021
 ms.locfileid: "51764418"
 ---
-# <a name="microsoft-threat-experts-in-microsoft-365-overview"></a>Visão geral dos Especialistas em Ameaças da Microsoft no Microsoft 365
+# <a name="microsoft-threat-experts-in-microsoft-365-overview"></a>Especialistas em Ameaças da Microsoft em Microsoft 365 visão geral
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -33,27 +33,27 @@ ms.locfileid: "51764418"
 
 [!INCLUDE [Prerelease](../includes/prerelease.md)]
 
-Especialistas em ameaças da Microsoft - Notificações de Ataque Direcionado é um serviço gerenciado de busca de ameaças. Depois de aplicar e ser aceito, você receberá notificações de ataque direcionadas de especialistas em ameaças da Microsoft, para que você não perca ameaças críticas ao seu ambiente. Essas notificações ajudarão você a proteger os pontos de extremidade, email e identidades da sua organização.
-Especialistas em Ameaças da Microsoft – Especialistas sob Demanda permitem que você receba conselhos de especialistas sobre ameaças que sua organização está enfrentando. Você pode pedir ajuda em ameaças que sua organização está enfrentando. Ele está disponível como um serviço de assinatura.
+Especialistas em Ameaças da Microsoft - Notificações de Ataque Direcionado é um serviço gerenciado de busca de ameaças. Depois de aplicar e ser aceito, você receberá notificações de ataque direcionadas de especialistas em ameaças da Microsoft, para que você não perca ameaças críticas ao seu ambiente. Essas notificações ajudarão você a proteger os pontos de extremidade, email e identidades da sua organização.
+Especialistas em Ameaças da Microsoft – Especialistas sob Demanda permite que você receba conselhos de especialistas sobre ameaças que sua organização está enfrentando. Você pode pedir ajuda em ameaças que sua organização está enfrentando. Ele está disponível como um serviço de assinatura.
 
-## <a name="apply-for-microsoft-threat-experts--targeted-attack-notifications"></a>Aplicar para especialistas em ameaças da Microsoft – Notificações de ataque direcionadas
+## <a name="apply-for-microsoft-threat-experts--targeted-attack-notifications"></a>Aplicar para Especialistas em Ameaças da Microsoft – Notificações de Ataque Direcionados
 
 > [!IMPORTANT]
-> Antes de aplicar, certifique-se de discutir os requisitos de qualificação para Especialistas em Ameaças da Microsoft – Notificações de Ataque Direcionadas com seu provedor de Serviços Técnicos da Microsoft e sua equipe de conta.
+> Antes de aplicar, certifique-se de discutir os requisitos de qualificação para o Especialistas em Ameaças da Microsoft – Notificações de Ataque Direcionados com seu provedor de Serviços Técnicos da Microsoft e a equipe de conta.
 
-Se você já tiver o Microsoft Defender para o Ponto de Extremidade e o Microsoft 365 Defender, você pode solicitar especialistas em ameaças da Microsoft – Notificações de Ataque Direcionadas por meio do portal do Microsoft 365 Defender. Vá **para Configurações > Pontos** de Extremidade > recursos > Recursos avançados > Especialistas em Ameaças da Microsoft – Notificações de Ataque Direcionados e selecione **Aplicar**. Consulte [Configure Microsoft Threat Experts capabilities](./configure-microsoft-threat-experts.md) for a full description.
+Se você já tiver o Microsoft Defender para o Ponto de Extremidade e o Microsoft 365 Defender, você poderá solicitar Especialistas em Ameaças da Microsoft – Notificações de Ataque Direcionadas por meio do portal Microsoft 365 Defender. Vá para **Configurações > Endpoints > recursos**> recursos avançados > Especialistas em Ameaças da Microsoft – Notificações de Ataque Direcionadas e selecione **Aplicar**. Consulte [Configurar Especialistas em Ameaças da Microsoft recursos para](./configure-microsoft-threat-experts.md) uma descrição completa.
 
 ![Captura de tela da página do aplicativo MTE](../../media/mte/mte-collaboratewithmte.png)
 
 Depois que seu aplicativo for aprovado, você começará a receber notificações de ataque direcionadas sempre que especialistas em ameaças detectarem uma ameaça ao seu ambiente.
 
-## <a name="subscribe-to-microsoft-threat-experts---experts-on-demand"></a>Inscrever-se em Especialistas em Ameaças da Microsoft - Especialistas sob Demanda
+## <a name="subscribe-to-microsoft-threat-experts---experts-on-demand"></a>Inscrever-Especialistas em Ameaças da Microsoft - Especialistas sob Demanda
 
-Entre em contato com seu representante da Microsoft para se inscrever em Especialistas sob Demanda.  Consulte [Configure Microsoft Threat Experts capabilities for](./configure-microsoft-threat-experts.md) full details.
+Entre em contato com seu representante da Microsoft para se inscrever em Especialistas sob Demanda.  Consulte [Configurar Especialistas em Ameaças da Microsoft recursos para](./configure-microsoft-threat-experts.md) obter detalhes completos.
 
 ## <a name="receive-targeted-attack-notification"></a>Receber notificação de ataque direcionado
 
-O recurso Especialistas em Ameaças da Microsoft – Recurso de Notificação de Ataque Direcionado fornece a busca proativa das ameaças mais importantes à sua rede. Nossos especialistas em ameaças caçam invasões de adversários humanos, ataques hands-on-keyboard e ataques avançados, como cyberespionage. Essas notificações aparecerão como um novo alerta. O serviço de busca gerenciada inclui:
+O Especialistas em Ameaças da Microsoft – Recurso de Notificação de Ataque Direcionado fornece busca proativa para as ameaças mais importantes à sua rede. Nossos especialistas em ameaças caçam invasões de adversários humanos, ataques hands-on-keyboard e ataques avançados, como cyberespionage. Essas notificações aparecerão como um novo alerta. O serviço de busca gerenciada inclui:
 
 - Monitoramento e análise de ameaças, reduzindo o tempo de vida e o risco para sua empresa
 - Inteligência artificial treinado pelo Caçador para descobrir e direcionar ataques conhecidos e ameaças emergentes
@@ -62,7 +62,7 @@ O recurso Especialistas em Ameaças da Microsoft – Recurso de Notificação de
 
 ## <a name="collaborate-with-experts-on-demand"></a>Colaborar com especialistas sob demanda
 
-Você também pode entrar em contato com especialistas em ameaças da Microsoft diretamente no portal de segurança do Microsoft 365 para uma resposta rápida e precisa contra ameaças.  Os especialistas podem fornecer informações para entender melhor as ameaças complexas que sua organização pode enfrentar.  Consulte um especialista para:
+Você também pode entrar em contato com especialistas em ameaças da Microsoft diretamente no portal Microsoft 365 segurança, para uma resposta rápida e precisa contra ameaças.  Os especialistas podem fornecer informações para entender melhor as ameaças complexas que sua organização pode enfrentar.  Consulte um especialista para:
 
 - Coletar informações adicionais sobre alertas e incidentes, incluindo causas raiz e escopo
 - Obtenha clareza em dispositivos, alertas ou incidentes suspeitos e obtenha as próximas etapas se enfrentar um invasor avançado
@@ -86,7 +86,7 @@ A opção de **consultar um especialista em ameaças** está disponível em vár
 ![Captura de tela da opção de menu MTE-EOD na página inventário de incidentes](../../media/mte/incidents-inventory-mte-highlighted.png)
 
 > [!NOTE]
-> Se você tiver a assinatura do Suporte Premier mapeada para sua licença do Microsoft Defender para Office 365, poderá acompanhar o status dos casos especialistas em demanda por meio do Microsoft Services Hub.
+> Se você tiver a assinatura de Suporte Premier mapeada para sua licença do Microsoft Defender para Office 365, você poderá acompanhar o status de seus casos especialistas em demanda por meio do Microsoft Services Hub.
 
 Assista a este vídeo para uma visão geral rápida do Microsoft Services Hub.
 
@@ -94,4 +94,4 @@ Assista a este vídeo para uma visão geral rápida do Microsoft Services Hub.
 
 ## <a name="see-also"></a>Confira também
 
-- [Configurar recursos de Especialistas em Ameaças da Microsoft](./configure-microsoft-threat-experts.md)
+- [Configurar Especialistas em Ameaças da Microsoft recursos](./configure-microsoft-threat-experts.md)

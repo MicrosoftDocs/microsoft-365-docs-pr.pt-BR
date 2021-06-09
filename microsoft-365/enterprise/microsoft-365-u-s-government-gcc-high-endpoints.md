@@ -1,5 +1,5 @@
 ---
-title: Office 365 Pontos de extremidade do governo dos EUA GCC pontos de extremidade altos
+title: Pontos de extremidade elevados do GCC do Office 365 do Governo dos EUA
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -27,7 +27,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/03/2021
 ms.locfileid: "52730157"
 ---
-# <a name="office-365-us-government-gcc-high-endpoints"></a>Office 365 Pontos de extremidade do governo dos EUA GCC pontos de extremidade altos
+# <a name="office-365-us-government-gcc-high-endpoints"></a>Pontos de extremidade elevados do GCC do Office 365 do Governo dos EUA
 
  *Aplica-se a: Office 365 Admin*
 
@@ -37,7 +37,7 @@ Office 365 requer conectividade com a Internet. Os pontos de extremidade abaixo 
   
 |||
 |:-----|:-----|
-|**Última atualização:** 28/05/2021 - Assinatura do Log de Alterações ![ ](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [do](https://endpoints.office.com/version/USGOVGCCHigh?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) RSS <br/> |**Baixar:** a lista completa no [formato JSON](https://endpoints.office.com/endpoints/USGOVGCCHigh?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |
+|**Última atualização:** 28/05/2021 - ![RSS](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Alterar assinatura do Log](https://endpoints.office.com/version/USGOVGCCHigh?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |**Baixar:** a lista completa no [formato JSON](https://endpoints.office.com/endpoints/USGOVGCCHigh?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |
 
  Comece com [Gerenciando pontos de extremidade do Office 365 ](managing-office-365-endpoints.md) para entender nossas recomendações para gerenciar a conectividade de rede usando esses dados. Os dados dos terminais são atualizados conforme necessário no início de cada mês com novos endereços IP e URLs publicados 30 dias antes de serem ativados. Isso permite que os clientes que ainda não tenham atualizações automatizadas concluam seus processos antes que a nova conectividade seja necessária. Os endpoints também podem ser atualizados durante o mês, se necessário, para lidar com escalações de suporte, incidentes de segurança ou outros requisitos operacionais imediatos. Os dados mostrados nesta página a seguir são todos gerados a partir dos serviços da web baseados em REST. Se estiver usando um script ou um dispositivo de rede para acessar esses dados, você deve ir para o [serviço da Web ](microsoft-365-ip-web-service.md) diretamente.
 

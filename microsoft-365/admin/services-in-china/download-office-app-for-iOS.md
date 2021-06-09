@@ -1,5 +1,5 @@
 ---
-title: Baixar o aplicativo do Office para iOS para Office 365 operado pela 21Vianet
+title: Baixar Aplicativo do Office para iOS para Office 365 operado pela 21Vianet
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -29,28 +29,28 @@ ms.locfileid: "48644790"
 ---
 # <a name="office-app-for-ios-for-office-365-operated-by-21vianet"></a>Aplicativo do Office para iOS para Office 365 operado pela 21Vianet
 
-O aplicativo do Microsoft Office para iOS combina aplicativos móveis do Word, Excel e PowerPoint em um único aplicativo disponível para download para telefones iOS. Com o aplicativo do Office para iOS, você pode se conectar ao Office 365 da mesma forma que faria com os aplicativos móveis do Word, Excel e PowerPoint. O download do aplicativo do Office para iOS não afetará as instalações existentes do Word, Excel e PowerPoint.
+O Microsoft Office para iOS combina o Word, Excel e PowerPoint aplicativos móveis em um único aplicativo disponível para download para telefones iOS. Com o Aplicativo do Office para iOS, você pode se conectar Office 365 como faria com o Word, Excel e PowerPoint aplicativos móveis. O Aplicativo do Office para download do iOS não afetará as instalações existentes do Word, Excel e PowerPoint.
 
-Alguns recursos do aplicativo do Office para iOS não estão disponíveis para o Office 365 operado por clientes da 21Vianet:
+Alguns Aplicativo do Office para recursos iOS não estão disponíveis para Office 365 operados por clientes da 21Vianet:
 
-- Imagem em texto e imagem em tabela 
+- Imagem para texto e Imagem para tabela 
 - Converter fotos em documentos do Word do Lens 
-- Ação de transferir arquivos 
-- As anotações permanecem locais e não são sincronizadas com o servidor
+- Ação Transferir arquivos 
+- As anotações permanecem locais e não sincronizam com o servidor
 - Visualização de link em QR de verificação
-- Cartões persona ao vivo na seção Eu
+- Cartões de persona ao vivo na seção Eu
 - Classificação, rotulagem e proteção (CLP)
 
 
-## <a name="download-the-office-app-for-ios"></a>Baixar o aplicativo do Office para iOS
+## <a name="download-the-office-app-for-ios"></a>Baixar o Aplicativo do Office para iOS
 
-- Baixe o aplicativo do Office para iPhones na [App Store.](https://products.office.com/mobile/office?rtc=2) 
+- Baixe o Aplicativo do Office para iPhones na [App Store](https://products.office.com/mobile/office?rtc=2). 
 
 > [!NOTE]
-> O aplicativo do Office para iOS está disponível apenas para iPhone. O suporte para iPad será adicionado posteriormente. 
+> O Aplicativo do Office para iOS está disponível apenas para iPhone. O suporte iPad será adicionado posteriormente. 
 
 ## <a name="security-considerations"></a>Considerações de segurança
 
-Se sua organização leva aplicativos para dispositivos móveis de funcionários, sugerimos substituir os aplicativos word, Excel e PowerPoint pelo aplicativo do Office para iOS.  
+Se sua organização pressionar aplicativos para dispositivos móveis de funcionários, sugerimos substituir os aplicativos word, Excel e PowerPoint pelo Aplicativo do Office para iOS.  
 
 

@@ -17,7 +17,7 @@ ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
-description: Use este Guia de Laboratório de Teste para criar um ambiente de teste empresarial simulado para o Microsoft 365 para empresas.
+description: Use este Guia de Laboratório de Teste para criar um ambiente de teste empresarial simulado para Microsoft 365 para empresas.
 ms.openlocfilehash: 8df63e1a580b57aa263c11dccaed947f46f2cbb9
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,9 +27,9 @@ ms.locfileid: "50926039"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>A configuração base corporativa simulada
 
-*Este Guia de Laboratório de Teste pode ser usado para ambientes de teste do Microsoft 365 para empresas e office 365 Enterprise.*
+*Este Guia de Laboratório de Teste pode ser usado para Microsoft 365 ambientes de teste corporativos e Office 365 Enterprise de teste.*
 
-Este artigo descreve como criar um ambiente simplificado para o Microsoft 365 para empresas que inclua:
+Este artigo descreve como criar um ambiente simplificado para Microsoft 365 para empresas que inclua:
 
 - Uma assinatura de avaliação ou assinatura paga do Microsoft 365 E5.
 - Uma intranet de organização simplificada conectada à Internet, que consiste em três máquinas virtuais em uma rede virtual do Azure (DC1, APP1 e CLIENT1).
@@ -40,18 +40,18 @@ A criação de um ambiente de teste simplificado envolve duas fases:
 - [Fase 1: criar uma intranet simulada](#phase-1-create-a-simulated-intranet)
 - [Fase 2: criar sua assinatura do Microsoft 365 E5](#phase-2-create-your-microsoft-365-e5-subscription)
 
-Você pode usar o ambiente resultante para testar os recursos e a [](m365-enterprise-test-lab-guides.md) funcionalidade do [Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise) para empresas com guias de laboratório de teste adicionais ou por conta própria.
+Você pode usar o ambiente resultante para testar os recursos e a funcionalidade do [Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise) para empresas com guias de laboratório de teste adicionais [ou](m365-enterprise-test-lab-guides.md) por conta própria.
 
 ![Guias de Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Para um mapa visual de todos os artigos na pilha guia de laboratório de teste do Microsoft 365 para empresas, vá para [o Microsoft 365 for enterprise Test Lab Guide Stack](../downloads/Microsoft365EnterpriseTLGStack.pdf).
+> Para um mapa visual de todos os artigos na pilha Microsoft 365 guia do laboratório de teste empresarial, vá para o Microsoft 365 para a pilha de guias de laboratório [de teste corporativos.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
 ## <a name="phase-1-create-a-simulated-intranet"></a>Fase 1: criar uma intranet simulada
 
 Nesta fase, crie uma intranet simulada nos serviços de infraestrutura do Azure que inclua um controlador de domínio dos Serviços de Domínio do Active Directory (AD DS), um servidor de aplicativos e um computador cliente.
 
-Você usará esses computadores em guias adicionais do [Microsoft 365](m365-enterprise-test-lab-guides.md) para laboratórios de teste corporativos para configurar e demonstrar a identidade híbrida e outros recursos.
+Você usará esses computadores [](m365-enterprise-test-lab-guides.md) em outras Microsoft 365 guias de laboratório de teste corporativos para configurar e demonstrar a identidade híbrida e outros recursos.
 
 ### <a name="method-1-build-your-simulated-intranet-with-an-azure-resource-manager-template"></a>Método 1: criar sua intranet simulada com um modelo do Azure Resource Manager
 
@@ -160,19 +160,19 @@ Será solicitado que você insira um nome de usuário e uma senha para a conta d
   
 Em seguida, conecte-se à máquina virtual DC1:
   
-1. No portal [do Azure,](https://portal.azure.com)selecione **Grupos** de Recursos > <o nome do seu novo grupo de recursos ***_> > _* DC1**  >  **Connect**.
+1. No [portal do Azure,](https://portal.azure.com)selecione **Grupos** de Recursos > <o nome do seu novo grupo de recursos ***_> > _* DC1**  >  **Conexão**.
     
-2. No painel aberto, selecione **Baixar arquivo RDP**. Abra o arquivo DC1.rdp baixado e selecione **Conectar**.
+2. No painel aberto, selecione **Baixar arquivo RDP**. Abra o arquivo DC1.rdp baixado e selecione **Conexão**.
     
 3. Especifique o nome da conta de administrador local na DC1:
     
    - No Windows 7:
     
-     Na caixa de diálogo Segurança do **Windows,** selecione **Usar outra conta**. Em **Nome do usuário,** insira o nome da conta de administrador local **\\ DC1** < *>.*
+     Na caixa **Segurança do Windows** caixa de diálogo, selecione **Usar outra conta**. Em **Nome do usuário,** insira o nome da conta de administrador local **\\ DC1** < *>.*
     
    - No Windows 8 ou Windows 10:
     
-     Na caixa de diálogo Segurança do **Windows,** selecione **Mais opções** e, em seguida, **selecione Usar uma conta diferente**. Em **Nome do usuário,** insira o nome da conta de administrador local **\\ DC1** < *>.*
+     Na caixa **Segurança do Windows** caixa de diálogo, selecione **Mais opções** e selecione Usar uma **conta diferente.** Em **Nome do usuário,** insira o nome da conta de administrador local **\\ DC1** < *>.*
     
 4. Em **Senha,** insira a senha da conta de administrador local e selecione **OK**.
     
@@ -197,9 +197,9 @@ Esses comandos podem levar alguns minutos para serem concluídos.
   
 Após a reinicialização da DC1, reconecte-se à máquina virtual DC1.
   
-1. No portal [do Azure,](https://portal.azure.com)selecione **Grupos** de Recursos > <nome do *grupo* de recursos> > **DC1**  >  **Connect**.
+1. No portal [do Azure,](https://portal.azure.com)selecione **Grupos** de Recursos > <nome do *grupo* de recursos> > **DC1**  >  **Conexão**.
     
-2. Execute o arquivo DC1.rdp baixado e selecione **Conectar**.
+2. Execute o arquivo DC1.rdp baixado e selecione **Conexão**.
     
 3. Em **Segurança do Windows,** selecione **Usar outra conta**. Em **Nome do usuário,** digite **TESTLAB \\** local administrator account name < *>.*
     
@@ -379,13 +379,13 @@ Para configurar sua nova assinatura de avaliação do Office 365 E5, siga as ins
 
 #### <a name="using-an-office-365-e5-test-environment"></a>Usando um ambiente de teste do Office 365 E5
 
-Se você precisar apenas de um ambiente de teste do Office 365, não precisará ler o restante deste artigo.
+Se você precisar apenas de um Office 365 de teste, não precisará ler o restante deste artigo.
 
-Para obter guias de laboratório de teste adicionais que se aplicam ao Microsoft 365 e ao Office 365, consulte [Microsoft 365 for enterprise Test Lab Guides](m365-enterprise-test-lab-guides.md).
+Para obter guias de laboratório de teste adicionais que se aplicam a Microsoft 365 e Office 365, consulte Microsoft 365 guias de laboratório [de teste corporativos.](m365-enterprise-test-lab-guides.md)
 
 ### <a name="add-a-microsoft-365-e5-trial-subscription"></a>Adicionar uma assinatura de avaliação do Microsoft 365 E5
 
-Para adicionar uma assinatura de avaliação do Microsoft 365 E5 e configurar suas contas de usuários com licenças, execute as instruções na Fase [3](lightweight-base-configuration-microsoft-365-enterprise.md#phase-3-add-a-microsoft-365-e5-trial-subscription) do Guia de Laboratório de Teste de configuração de base leve.
+Para adicionar uma assinatura de Microsoft 365 E5 de avaliação e configurar suas contas de usuários com licenças, execute as instruções na [Fase 3](lightweight-base-configuration-microsoft-365-enterprise.md#phase-3-add-a-microsoft-365-e5-trial-subscription) do Guia de Laboratório de Teste de configuração base leve.
 
   
 ## <a name="results"></a>Resultados
@@ -400,7 +400,7 @@ Sua configuração final tem esta aparência:
   
 ![Fase 2 da configuração base corporativa simulada](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
   
-Agora você está pronto para experimentar recursos adicionais do [Microsoft 365 para empresas.](https://www.microsoft.com/microsoft-365/enterprise)
+Agora você está pronto para experimentar recursos adicionais de [Microsoft 365 para empresas.](https://www.microsoft.com/microsoft-365/enterprise)
   
 ## <a name="next-steps"></a>Próximas etapas
 

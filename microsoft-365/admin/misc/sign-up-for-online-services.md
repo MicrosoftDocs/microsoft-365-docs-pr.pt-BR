@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 4f374dc7-b96c-49c7-80ed-554716ba0138
-description: 'Aprenda a usar emails do trabalho ou da escola para se inscrever nos serviços online da Microsoft sem envolver o departamento de TI. '
+description: 'Aprenda a usar emails de trabalho ou de estudante para se inscrever nos serviços online da Microsoft sem envolver seu departamento de TI. '
 ms.openlocfilehash: ad46d698398da32d88d0c1617499b326e8fcb163
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
