@@ -288,6 +288,9 @@
 ##### [Usar cmdlets do PowerShell para gerenciar o Microsoft Defender Antivírus](use-powershell-cmdlets-microsoft-defender-antivirus.md)
 ##### [Usar a Instrumentação de Gerenciamento do Windows para gerenciar o Microsoft Defender Antivírus](use-wmi-microsoft-defender-antivirus.md)
 ##### [Usar a ferramenta mpcmdrun.exe para gerenciar o Microsoft Defender Antivírus](command-line-arguments-microsoft-defender-antivirus.md)
+##### [Configurar as notificações exibidas nos pontos de extremidade](configure-notifications-microsoft-defender-antivirus.md)
+##### [Especificar se os usuários podem modificar localmente as configurações da política do Microsoft Defender Antivirus](configure-local-policy-overrides-microsoft-defender-antivirus.md)
+##### [Especificar se os usuários podem ver ou interagir com a interface de usuário do Microsoft Defender Antivirus](prevent-end-user-interaction-microsoft-defender-antivirus.md)
 
 #### [Implantar e relatar o Microsoft Defender Antivírus](deploy-manage-report-microsoft-defender-antivirus.md)
 ##### [Implantar e habilitar o Microsoft Defender Antivírus](deploy-microsoft-defender-antivirus.md)
@@ -480,10 +483,10 @@
 ####### [Obter informações de usuário relacionadas ao alerta](get-alert-related-user-info.md)
 
 ###### [Avaliações de vulnerabilidades e configurações seguras]()
-####### [Exportar propriedades e métodos de avaliação](get-assessmnt-1methods-properties.md)
-####### [Exportar avaliação de configuração segura](get-assessmnt-secure-cfg.md)
-####### [Exportar avaliação de inventário de software](get-assessmnt-software-inventory.md)
-####### [Exportar avaliação de vulnerabilidades de software](get-assessmnt-software-vulnerabilities.md)
+####### [Exportar propriedades e métodos de avaliação](get-assessment-methods-properties.md)
+####### [Exportar avaliação de configuração segura](get-assessment-secure-config.md)
+####### [Exportar avaliação de inventário de software](get-assessment-software-inventory.md)
+####### [Exportar avaliação de vulnerabilidades de software](get-assessment-software-vulnerabilities.md)
 
 ###### [Investigação automatizada]()
 ####### [Métodos e propriedades de investigação](investigation.md)

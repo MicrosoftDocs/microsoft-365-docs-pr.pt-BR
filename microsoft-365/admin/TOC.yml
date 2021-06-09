@@ -326,7 +326,7 @@
             - name: Configure os recursos de conformidade
               href: ../business/set-up-compliance.md
         - name: Classificação de segurança
-          href: 'https://docs.microsoft.com/microsoft-365/security/defender/microsoft-secure-score'
+          href: /microsoft-365/security/defender/microsoft-secure-score
         - name: Guia para a conformidade com o RGPD
           href: security-and-compliance/gdpr-compliance.md
     - name: Gerenciar dispositivos e dados de aplicativos
@@ -358,7 +358,7 @@
             - name: Editar ou criar configurações de proteção de dispositivos para PCs com Windows 10
               href: ../business/protection-settings-for-windows-10-pcs.md
               items:
-                - name: "Valide as configurações em computadores com Windows\_10"
+                - name: Valide as configurações em computadores com Windows 10
                   href: ../business/validate-settings-on-windows-10-pcs.md
             - name: Autopilot
               items:

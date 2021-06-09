@@ -349,4 +349,4 @@
     - name: Microsoft Defender para Ponto de Extremidade
       href: ../defender-endpoint/index.yml
     - name: Microsoft Defender para Identidade?
-      href: 'https://docs.microsoft.com/defender-for-identity/'
+      href: /defender-for-identity/
