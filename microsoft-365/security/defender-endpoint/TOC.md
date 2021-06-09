@@ -242,6 +242,8 @@
 
 ### [Dispositivos de rede](network-devices.md)
 
+### [Relatórios de firewall de host no Microsoft Defender para Ponto de Extremidade](host-firewall-reporting.md)
+
 ### [Redução de superfície de ataque]()
 #### [Visão geral da redução da superfície de ataque](overview-attack-surface-reduction.md)
 #### [Configurar os recursos de redução da superfície de ataque](configure-attack-surface-reduction.md)
@@ -278,6 +280,8 @@
 #### [Obter atualizações de antivírus e antimalware](manage-updates-baselines-microsoft-defender-antivirus.md)
 ##### [Gerenciar as fontes das atualizações de proteção do Microsoft Defender Antivírus](manage-protection-updates-microsoft-defender-antivirus.md)
 ##### [Gerenciar o cronograma para quando as atualizações de proteção devem ser baixadas e aplicadas](manage-protection-update-schedule-microsoft-defender-antivirus.md)
+#####  [Gerenciar o processo de distribuição gradual para atualizações do Microsoft Defender](updates.md)
+#####  [Configurar o processo de distribuição gradual para atualizações do Microsoft Defender](configure-updates.md)
 ##### [Gerenciar atualizações do Microsoft Defender Antivírus e verifica se há pontos de extremidade que estão desatualizados](manage-outdated-endpoints-microsoft-defender-antivirus.md)
 ##### [Gerenciar atualizações aplicadas com base em evento](manage-event-based-updates-microsoft-defender-antivirus.md)
 ##### [Gerenciar atualizações para dispositivos móveis e máquinas virtuais (VMs)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
@@ -351,6 +355,7 @@
 ##### [Controlar dispositivos USB](control-usb-devices-using-intune.md)
 ##### [Proteção de Armazenamento Removível](device-control-removable-storage-protection.md)
 ##### [Controle de Acesso de Armazenamento Removível](device-control-removable-storage-access-control.md)
+##### [Proteção da Impressora de Controle de Dispositivos](printer-protection.md)
 
 #### [Bloqueio e contenção comportamental]()
 ##### [Bloqueio e contenção comportamental](behavioral-blocking-containment.md)
