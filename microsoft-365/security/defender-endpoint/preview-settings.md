@@ -23,29 +23,29 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/16/2021
 ms.locfileid: "51861078"
 ---
-# <a name="turn-on-the-preview-experience-in-microsoft-defender-for-endpoint"></a><span data-ttu-id="00af7-104">Ativar a experiência de visualização no Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="00af7-104">Turn on the preview experience in Microsoft Defender for Endpoint</span></span>
+# <a name="turn-on-the-preview-experience-in-microsoft-defender-for-endpoint"></a><span data-ttu-id="93436-104">Ativar a experiência de visualização no Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="93436-104">Turn on the preview experience in Microsoft Defender for Endpoint</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="00af7-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="00af7-105">**Applies to:**</span></span>
-- [<span data-ttu-id="00af7-106">Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="00af7-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="00af7-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="00af7-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="93436-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="93436-105">**Applies to:**</span></span>
+- [<span data-ttu-id="93436-106">Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="93436-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="93436-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="93436-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-><span data-ttu-id="00af7-108">Deseja experimentar o Defender para Ponto de Extremidade?</span><span class="sxs-lookup"><span data-stu-id="00af7-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="00af7-109">Inscreva-se para uma avaliação gratuita.</span><span class="sxs-lookup"><span data-stu-id="00af7-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-previewsettings-abovefoldlink)
+><span data-ttu-id="93436-108">Deseja experimentar o Defender para Ponto de Extremidade?</span><span class="sxs-lookup"><span data-stu-id="93436-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="93436-109">Inscreva-se para uma avaliação gratuita.</span><span class="sxs-lookup"><span data-stu-id="93436-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-previewsettings-abovefoldlink)
 
-<span data-ttu-id="00af7-110">Ative a configuração de experiência de visualização para ser uma das primeiras pessoas a experimentar os recursos futuros.</span><span class="sxs-lookup"><span data-stu-id="00af7-110">Turn on the preview experience setting to be among the first to try upcoming features.</span></span>
+<span data-ttu-id="93436-110">Ative a configuração de experiência de visualização para ser uma das primeiras pessoas a experimentar os recursos futuros.</span><span class="sxs-lookup"><span data-stu-id="93436-110">Turn on the preview experience setting to be among the first to try upcoming features.</span></span>
 
-1. <span data-ttu-id="00af7-111">No painel de navegação, selecione **Configurações**  >  **Recursos avançados**.</span><span class="sxs-lookup"><span data-stu-id="00af7-111">In the navigation pane, select **Settings** > **Advanced features**.</span></span>
+1. <span data-ttu-id="93436-111">No painel de navegação, **selecione** Configurações  >  **recursos avançados**.</span><span class="sxs-lookup"><span data-stu-id="93436-111">In the navigation pane, select **Settings** > **Advanced features**.</span></span>
 
     ![Imagem de configurações e experiência de visualização](images/atp-preview-features.png)
 
 
-2. <span data-ttu-id="00af7-113">Alterne a configuração **entre On** e **Off** e selecione **Salvar preferências**.</span><span class="sxs-lookup"><span data-stu-id="00af7-113">Toggle the setting between **On** and **Off** and select **Save preferences**.</span></span>
+2. <span data-ttu-id="93436-113">Alterne a configuração **entre On** e **Off** e selecione **Salvar preferências**.</span><span class="sxs-lookup"><span data-stu-id="93436-113">Toggle the setting between **On** and **Off** and select **Save preferences**.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="00af7-114">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="00af7-114">Related topics</span></span>
-- [<span data-ttu-id="00af7-115">Atualizar configurações gerais no Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="00af7-115">Update general settings in Microsoft Defender for Endpoint</span></span>](data-retention-settings.md)
-- [<span data-ttu-id="00af7-116">Ativar recursos avançados no Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="00af7-116">Turn on advanced features in Microsoft Defender for Endpoint</span></span>](advanced-features.md)
-- [<span data-ttu-id="00af7-117">Configurar notificações de email no Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="00af7-117">Configure email notifications in Microsoft Defender for Endpoint</span></span>](configure-email-notifications.md)
-- [<span data-ttu-id="00af7-118">Habilitar a integração do SIEM no Microsoft Defender para Endpoint</span><span class="sxs-lookup"><span data-stu-id="00af7-118">Enable SIEM integration in Microsoft Defender for Endpoint</span></span>](enable-siem-integration.md)
+## <a name="related-topics"></a><span data-ttu-id="93436-114">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="93436-114">Related topics</span></span>
+- [<span data-ttu-id="93436-115">Atualizar configurações gerais no Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="93436-115">Update general settings in Microsoft Defender for Endpoint</span></span>](data-retention-settings.md)
+- [<span data-ttu-id="93436-116">Ativar recursos avançados no Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="93436-116">Turn on advanced features in Microsoft Defender for Endpoint</span></span>](advanced-features.md)
+- [<span data-ttu-id="93436-117">Configurar notificações de email no Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="93436-117">Configure email notifications in Microsoft Defender for Endpoint</span></span>](configure-email-notifications.md)
+- [<span data-ttu-id="93436-118">Habilitar a integração do SIEM no Microsoft Defender para Endpoint</span><span class="sxs-lookup"><span data-stu-id="93436-118">Enable SIEM integration in Microsoft Defender for Endpoint</span></span>](enable-siem-integration.md)
 
