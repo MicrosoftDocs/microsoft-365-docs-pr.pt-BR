@@ -17,55 +17,55 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/24/2018
 ms.technology: mde
-ms.openlocfilehash: 9913d1b0b0d5d0462fdee0b9c576a590bd3ddbc9
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ef6d05bb27018bb72f731da2e8b7837c9d9f0127
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198313"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842057"
 ---
-# <a name="microsoft-defender-for-endpoint-apis-using-powershell"></a><span data-ttu-id="f1cbf-104">Microsoft Defender para APIs de ponto de extremidade usando o PowerShell</span><span class="sxs-lookup"><span data-stu-id="f1cbf-104">Microsoft Defender for Endpoint APIs using PowerShell</span></span>
+# <a name="microsoft-defender-for-endpoint-apis-using-powershell"></a><span data-ttu-id="880f8-104">Microsoft Defender para APIs de ponto de extremidade usando o PowerShell</span><span class="sxs-lookup"><span data-stu-id="880f8-104">Microsoft Defender for Endpoint APIs using PowerShell</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="f1cbf-105">**Aplica-se a:** [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="f1cbf-105">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
+<span data-ttu-id="880f8-105">**Aplica-se a:** [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="880f8-105">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
 
-> <span data-ttu-id="f1cbf-106">Deseja experimentar o Microsoft Defender para Ponto de Extremidade?</span><span class="sxs-lookup"><span data-stu-id="f1cbf-106">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="f1cbf-107">Inscreva-se para uma avaliação gratuita.</span><span class="sxs-lookup"><span data-stu-id="f1cbf-107">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> <span data-ttu-id="880f8-106">Deseja experimentar o Microsoft Defender para Ponto de Extremidade?</span><span class="sxs-lookup"><span data-stu-id="880f8-106">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="880f8-107">Inscreva-se para uma avaliação gratuita.</span><span class="sxs-lookup"><span data-stu-id="880f8-107">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-><span data-ttu-id="f1cbf-108">Deseja experimentar o Microsoft Defender para Ponto de Extremidade?</span><span class="sxs-lookup"><span data-stu-id="f1cbf-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="f1cbf-109">Inscreva-se para uma avaliação gratuita.</span><span class="sxs-lookup"><span data-stu-id="f1cbf-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
+><span data-ttu-id="880f8-108">Deseja experimentar o Microsoft Defender para Ponto de Extremidade?</span><span class="sxs-lookup"><span data-stu-id="880f8-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="880f8-109">Inscreva-se para uma avaliação gratuita.</span><span class="sxs-lookup"><span data-stu-id="880f8-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
-<span data-ttu-id="f1cbf-110">Cenário completo usando várias APIs do Microsoft Defender para Ponto de Extremidade.</span><span class="sxs-lookup"><span data-stu-id="f1cbf-110">Full scenario using multiple APIs from Microsoft Defender for Endpoint.</span></span>
+<span data-ttu-id="880f8-110">Cenário completo usando várias APIs do Microsoft Defender para Ponto de Extremidade.</span><span class="sxs-lookup"><span data-stu-id="880f8-110">Full scenario using multiple APIs from Microsoft Defender for Endpoint.</span></span>
 
-<span data-ttu-id="f1cbf-111">Nesta seção, compartilharemos exemplos do PowerShell para</span><span class="sxs-lookup"><span data-stu-id="f1cbf-111">In this section, we share PowerShell samples to</span></span> 
-- <span data-ttu-id="f1cbf-112">Recuperar um token</span><span class="sxs-lookup"><span data-stu-id="f1cbf-112">Retrieve a token</span></span> 
-- <span data-ttu-id="f1cbf-113">Usar token para recuperar os alertas mais recentes no Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="f1cbf-113">Use token to retrieve the latest alerts in Microsoft Defender for Endpoint</span></span>
-- <span data-ttu-id="f1cbf-114">Para cada alerta, se o alerta tiver prioridade média ou alta e ainda estiver em andamento, verifique quantas vezes o dispositivo se conectou a URL suspeita.</span><span class="sxs-lookup"><span data-stu-id="f1cbf-114">For each alert, if the alert has medium or high priority and is still in progress, check how many times the device has connected to suspicious URL.</span></span>
+<span data-ttu-id="880f8-111">Nesta seção, compartilharemos exemplos do PowerShell para</span><span class="sxs-lookup"><span data-stu-id="880f8-111">In this section, we share PowerShell samples to</span></span> 
+- <span data-ttu-id="880f8-112">Recuperar um token</span><span class="sxs-lookup"><span data-stu-id="880f8-112">Retrieve a token</span></span> 
+- <span data-ttu-id="880f8-113">Usar token para recuperar os alertas mais recentes no Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="880f8-113">Use token to retrieve the latest alerts in Microsoft Defender for Endpoint</span></span>
+- <span data-ttu-id="880f8-114">Para cada alerta, se o alerta tiver prioridade média ou alta e ainda estiver em andamento, verifique quantas vezes o dispositivo se conectou a URL suspeita.</span><span class="sxs-lookup"><span data-stu-id="880f8-114">For each alert, if the alert has medium or high priority and is still in progress, check how many times the device has connected to suspicious URL.</span></span>
 
-<span data-ttu-id="f1cbf-115">**Pré-requisito:** primeiro você precisa [criar um aplicativo](apis-intro.md).</span><span class="sxs-lookup"><span data-stu-id="f1cbf-115">**Prerequisite**: You first need to [create an app](apis-intro.md).</span></span>
+<span data-ttu-id="880f8-115">**Pré-requisito:** primeiro você precisa [criar um aplicativo](apis-intro.md).</span><span class="sxs-lookup"><span data-stu-id="880f8-115">**Prerequisite**: You first need to [create an app](apis-intro.md).</span></span>
 
-## <a name="preparation-instructions"></a><span data-ttu-id="f1cbf-116">Instruções de preparação</span><span class="sxs-lookup"><span data-stu-id="f1cbf-116">Preparation instructions</span></span>
+## <a name="preparation-instructions"></a><span data-ttu-id="880f8-116">Instruções de preparação</span><span class="sxs-lookup"><span data-stu-id="880f8-116">Preparation instructions</span></span>
 
-- <span data-ttu-id="f1cbf-117">Abra uma janela do PowerShell.</span><span class="sxs-lookup"><span data-stu-id="f1cbf-117">Open a PowerShell window.</span></span>
-- <span data-ttu-id="f1cbf-118">Se sua política não permitir que você execute os comandos do PowerShell, você poderá executar o comando abaixo:</span><span class="sxs-lookup"><span data-stu-id="f1cbf-118">If your policy does not allow you to run the PowerShell commands, you can run the below command:</span></span>
+- <span data-ttu-id="880f8-117">Abra uma janela do PowerShell.</span><span class="sxs-lookup"><span data-stu-id="880f8-117">Open a PowerShell window.</span></span>
+- <span data-ttu-id="880f8-118">Se sua política não permitir que você execute os comandos do PowerShell, você poderá executar o comando abaixo:</span><span class="sxs-lookup"><span data-stu-id="880f8-118">If your policy does not allow you to run the PowerShell commands, you can run the below command:</span></span>
   ```
   Set-ExecutionPolicy -ExecutionPolicy Bypass
   ```
 
-<span data-ttu-id="f1cbf-119">Para obter mais informações, consulte [Documentação do PowerShell](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy)</span><span class="sxs-lookup"><span data-stu-id="f1cbf-119">For more information, see [PowerShell documentation](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy)</span></span>
+<span data-ttu-id="880f8-119">Para obter mais informações, consulte [Documentação do PowerShell](/powershell/module/microsoft.powershell.security/set-executionpolicy)</span><span class="sxs-lookup"><span data-stu-id="880f8-119">For more information, see [PowerShell documentation](/powershell/module/microsoft.powershell.security/set-executionpolicy)</span></span>
 
-## <a name="get-token"></a><span data-ttu-id="f1cbf-120">Obter token</span><span class="sxs-lookup"><span data-stu-id="f1cbf-120">Get token</span></span>
+## <a name="get-token"></a><span data-ttu-id="880f8-120">Obter token</span><span class="sxs-lookup"><span data-stu-id="880f8-120">Get token</span></span>
 
-<span data-ttu-id="f1cbf-121">Execute o abaixo:</span><span class="sxs-lookup"><span data-stu-id="f1cbf-121">Run the below:</span></span>
+<span data-ttu-id="880f8-121">Execute o abaixo:</span><span class="sxs-lookup"><span data-stu-id="880f8-121">Run the below:</span></span>
 
-- <span data-ttu-id="f1cbf-122">$tenantId: ID do locatário em nome do qual você deseja executar a consulta (ou seja, a consulta será executado nos dados desse locatário)</span><span class="sxs-lookup"><span data-stu-id="f1cbf-122">$tenantId: ID of the tenant on behalf of which you want to run the query (i.e., the query will be run on the data of this tenant)</span></span>
-- <span data-ttu-id="f1cbf-123">$appId: ID do seu aplicativo AAD (o aplicativo deve ter permissão 'Executar consultas avançadas' para o Defender para o Ponto de Extremidade)</span><span class="sxs-lookup"><span data-stu-id="f1cbf-123">$appId: ID of your AAD app (the app must have 'Run advanced queries' permission to Defender for Endpoint)</span></span>
-- <span data-ttu-id="f1cbf-124">$appSecret: Segredo do seu aplicativo do Azure AD</span><span class="sxs-lookup"><span data-stu-id="f1cbf-124">$appSecret: Secret of your Azure AD app</span></span>
+- <span data-ttu-id="880f8-122">$tenantId: ID do locatário em nome do qual você deseja executar a consulta (ou seja, a consulta será executado nos dados desse locatário)</span><span class="sxs-lookup"><span data-stu-id="880f8-122">$tenantId: ID of the tenant on behalf of which you want to run the query (i.e., the query will be run on the data of this tenant)</span></span>
+- <span data-ttu-id="880f8-123">$appId: ID do seu aplicativo AAD (o aplicativo deve ter permissão 'Executar consultas avançadas' para o Defender para o Ponto de Extremidade)</span><span class="sxs-lookup"><span data-stu-id="880f8-123">$appId: ID of your AAD app (the app must have 'Run advanced queries' permission to Defender for Endpoint)</span></span>
+- <span data-ttu-id="880f8-124">$appSecret: Segredo do seu aplicativo do Azure AD</span><span class="sxs-lookup"><span data-stu-id="880f8-124">$appSecret: Secret of your Azure AD app</span></span>
 
-- <span data-ttu-id="f1cbf-125">$suspiciousUrl: a URL</span><span class="sxs-lookup"><span data-stu-id="f1cbf-125">$suspiciousUrl: The URL</span></span>
+- <span data-ttu-id="880f8-125">$suspiciousUrl: a URL</span><span class="sxs-lookup"><span data-stu-id="880f8-125">$suspiciousUrl: The URL</span></span>
 
 
 ```
@@ -129,7 +129,7 @@ $response
 ```
 
 
-## <a name="see-also"></a><span data-ttu-id="f1cbf-126">Confira também</span><span class="sxs-lookup"><span data-stu-id="f1cbf-126">See also</span></span>
-- [<span data-ttu-id="f1cbf-127">APIs do Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="f1cbf-127">Microsoft Defender for Endpoint APIs</span></span>](apis-intro.md)
-- [<span data-ttu-id="f1cbf-128">API de Busca Avançada</span><span class="sxs-lookup"><span data-stu-id="f1cbf-128">Advanced Hunting API</span></span>](run-advanced-query-api.md)
-- [<span data-ttu-id="f1cbf-129">Busca Avançada usando Python</span><span class="sxs-lookup"><span data-stu-id="f1cbf-129">Advanced Hunting using Python</span></span>](run-advanced-query-sample-python.md)
+## <a name="see-also"></a><span data-ttu-id="880f8-126">Confira também</span><span class="sxs-lookup"><span data-stu-id="880f8-126">See also</span></span>
+- [<span data-ttu-id="880f8-127">APIs do Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="880f8-127">Microsoft Defender for Endpoint APIs</span></span>](apis-intro.md)
+- [<span data-ttu-id="880f8-128">API de Busca Avançada</span><span class="sxs-lookup"><span data-stu-id="880f8-128">Advanced Hunting API</span></span>](run-advanced-query-api.md)
+- [<span data-ttu-id="880f8-129">Busca avançada usando Python</span><span class="sxs-lookup"><span data-stu-id="880f8-129">Advanced Hunting using Python</span></span>](run-advanced-query-sample-python.md)
