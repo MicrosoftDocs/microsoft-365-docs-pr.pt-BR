@@ -1,5 +1,5 @@
 ---
-title: Exibir usuários licenciados e não licenciados do Microsoft 365 com o PowerShell
+title: Exibir usuários licenciados e não licenciados Microsoft 365 com o PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,7 +19,7 @@ ms.custom:
 - PowerShell
 - seo-marvel-apr2020
 ms.assetid: e4ee53ed-ed36-4993-89f4-5bec11031435
-description: Este artigo explica como usar o PowerShell para exibir contas de usuário licenciadas e não licenciadas do Microsoft 365.
+description: Este artigo explica como usar o PowerShell para exibir contas de usuário licenciadas e não licenciadas Microsoft 365 usuário.
 ms.openlocfilehash: b38ee7674abaea6b63d0661ba79a9814f8c54229
 ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
 ms.translationtype: MT
@@ -27,15 +27,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48651379"
 ---
-# <a name="view-licensed-and-unlicensed-microsoft-365-users-with-powershell"></a>Exibir usuários licenciados e não licenciados do Microsoft 365 com o PowerShell
+# <a name="view-licensed-and-unlicensed-microsoft-365-users-with-powershell"></a>Exibir usuários licenciados e não licenciados Microsoft 365 com o PowerShell
 
 *Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-As contas de usuário em sua organização do Microsoft 365 podem ter algumas, todas ou nenhuma das licenças disponíveis atribuídas a elas nos planos de licenciamento disponíveis em sua organização. Você pode usar o PowerShell para o Microsoft 365 para encontrar rapidamente os usuários licenciados e não licenciados em sua organização.
+As contas de usuário em sua organização Microsoft 365 podem ter algumas, todas ou nenhuma das licenças disponíveis atribuídas a elas a partir dos planos de licenciamento que estão disponíveis em sua organização. Você pode usar o PowerShell para Microsoft 365 para encontrar rapidamente os usuários licenciados e não licenciados em sua organização.
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Use o PowerShell do Azure Active Directory para o módulo do gráfico
 
-Primeiro, [conecte-se ao locatário do Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+Primeiro, [conecte-se ao seu Microsoft 365 locatário](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
  
 Para exibir a lista de todas as contas de usuário em sua organização que NÃO foram atribuídas a nenhum dos seus planos de licenciamento (usuários não licenciados), execute o seguinte comando:
   
@@ -55,7 +55,7 @@ Get-AzureAdUser | ForEach { $licensed=$True ; For ($i=0; $i -le ($_.AssignedLice
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Use o Módulo Microsoft Azure Active Directory para Windows PowerShell.
 
-Primeiro, [conecte-se ao locatário do Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+Primeiro, [conecte-se ao seu Microsoft 365 locatário](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
 Para exibir a lista de todas as contas de usuário e seu status de licenciamento em sua organização, execute o seguinte comando no PowerShell:
   

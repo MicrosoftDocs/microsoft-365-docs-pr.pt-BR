@@ -58,7 +58,7 @@ Depois de identificar o destinatário apropriado, certifique-se de que ele tenha
 
 3. Selecione **Salvar e fechar**. O usuário atribuído receberá um email explicando que a ação de melhoria foi atribuída a ele, com um link direto para a ação de melhoria. 
 > [!NOTE]
-> Os clientes do Us Government Community (GCC) High e Department of Defense (DoD) não receberão um email quando as ações de melhoria são atribuídas a eles.
+> Os clientes Community (GCC) High e Department of Defense (DoD) não receberão um email quando as ações de melhoria são atribuídas a eles.
 
 Em seguida, o usuário atribuído pode executar as ações recomendadas.
 
@@ -171,4 +171,4 @@ Observe que, ao retornar à página ações de melhoria, você poderá ver uma m
 
 ## <a name="export-a-report"></a>Exportar um relatório
 
-Selecione **Exportar** no canto superior esquerdo da tela para baixar uma planilha do Excel contendo todas as suas ações de melhoria e as categorias de filtro mostradas na página ações de melhoria.
+Selecione **Exportar** no canto superior esquerdo da tela para baixar uma planilha Excel que contém todas as suas ações de melhoria e as categorias de filtro mostradas na página ações de melhoria.

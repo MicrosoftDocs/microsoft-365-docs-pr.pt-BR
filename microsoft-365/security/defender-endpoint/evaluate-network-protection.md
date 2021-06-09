@@ -54,9 +54,9 @@ Habilita a proteção de rede no modo de auditoria para ver quais endereços IP 
 
 A conexão de rede será permitida e uma mensagem de teste será exibida.
 
-![Notificação de exemplo que diz Conexão bloqueada: o administrador de IT fez com que o Windows Security bloqueava essa conexão de rede. Entre em contato com seu help desk de IT.](/microsoft-365/security/defender-endpoint/images/np-notif)
+![Notificação de exemplo que diz Conexão bloqueada: seu administrador de Segurança do Windows <2> <8> bloquear essa conexão de rede. Entre em contato com seu help desk de IT.](/microsoft-365/security/defender-endpoint/images/np-notif)
 
-## <a name="review-network-protection-events-in-windows-event-viewer"></a>Revisar eventos de proteção de rede no Visualizador de Eventos do Windows
+## <a name="review-network-protection-events-in-windows-event-viewer"></a>Revisar eventos de proteção de rede Windows Visualizador de Eventos
 
 Para revisar aplicativos que teriam sido bloqueados, abra o Visualizador de Eventos e filtre a ID do Evento 1125 no log Microsoft-Windows-Windows-Defender/Operational. A tabela a seguir lista todos os eventos de proteção de rede.
 

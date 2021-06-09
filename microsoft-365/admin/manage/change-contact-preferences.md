@@ -16,7 +16,7 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 6f70de1b-a64d-4498-bfbd-be8c83a9c0fc
-description: Atualize as informações de contato da sua organização e escolha as comunicações relacionadas ao produto do Microsoft 365 que você deseja receber.
+description: Atualize as informações de contato da sua organização e escolha as Microsoft 365 comunicações relacionadas ao produto que você deseja receber.
 ms.openlocfilehash: afb69c52ba89c2a9e6ff7af014a74b0abfda4e5e
 ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
 ms.translationtype: MT
@@ -26,17 +26,17 @@ ms.locfileid: "44407927"
 ---
 # <a name="change-your-contact-preferences-for-communications-from-microsoft"></a>Alterar suas preferências de contato para comunicações da Microsoft
 
-Use a **página Preferências de** contato para atualizar as informações de contato da sua organização e escolha as comunicações relacionadas ao produto do Microsoft 365 que você deseja receber.
+Use a **página Preferências de** contato para atualizar as informações de contato de suas organizações e escolha as Microsoft 365 comunicações relacionadas ao produto que você deseja receber.
   
-Leia Atualizar seu número de telefone e endereço de email do administrador no [Microsoft 365](update-phone-number-and-email-address.md) para saber mais sobre como alterar o número de telefone celular do administrador e o endereço de email.
+Leia [Atualizar o número de telefone](update-phone-number-and-email-address.md) do administrador e o endereço de email no Microsoft 365 para obter informações sobre como alterar o número de telefone celular do administrador e o endereço de email.
   
 Se você estiver procurando saber como alterar informações de perfil da empresa, como nome e endereço da organização, número de telefone principal da empresa e informações do contato técnico, confira [Alterar o endereço da sua organização, o email do contato técnico e outras informações](change-address-contact-and-more.md).
   
 ## <a name="to-update-your-information"></a>Para atualizar suas informações
   
-1. No centro de administração, selecione **o ícone Configurações** no canto superior direito do header.
+1. No centro de administração, selecione o **Configurações** no canto superior direito do header.
 
-2. Selecione **preferências de contato.**
+2. Selecione **Preferências de contato**.
 
 3. Escolha os tipos de informações relacionadas ao produto que você deseja receber.
 
@@ -45,10 +45,10 @@ Se você estiver procurando saber como alterar informações de perfil da empres
 
 5. Escolha **Salvar**.
   
-Para o Office 365 Enterprise, o Microsoft 365 Business Standard e o Microsoft 365 Business Basic, quando você se inscreveu pela primeira vez como administrador do Microsoft 365, dependendo do país ou região dos usuários em sua organização, seus usuários podem ser automaticamente inscrentes para receber comunicações relacionadas ao produto.
+Para Office 365 Enterprise, Microsoft 365 Business Standard e Microsoft 365 Business Basic, quando você se inscreveu pela primeira vez como administrador do Microsoft 365, dependendo do país ou região dos usuários em sua organização, seus usuários podem ser automaticamente inscrentes para receber comunicações relacionadas ao produto.
   
 Para obter respostas para perguntas de cobrança, confira:
   
-- [Alterar seus endereços de cobrança do Microsoft 365 para empresas](../../commerce/billing-and-payments/change-your-billing-addresses.md)
+- [Alterar seus endereços de cobrança para Microsoft 365 para empresas](../../commerce/billing-and-payments/change-your-billing-addresses.md)
 
 - [Gerenciar métodos de pagamento](../../commerce/billing-and-payments/manage-payment-methods.md)

@@ -41,7 +41,7 @@ Aqui está um guia de início rápido que quebra a configuração do Defender pa
 > [!IMPORTANT]
 > **As configurações recomendadas** iniciais são incluídas para cada tipo de política; no entanto, muitas opções estão disponíveis e você pode ajustar suas configurações para atender às necessidades de sua organização específica. Permita aproximadamente 30 minutos para que suas políticas ou alterações funcionem por meio do datacenter.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 ### <a name="subscriptions"></a>Assinaturas
 

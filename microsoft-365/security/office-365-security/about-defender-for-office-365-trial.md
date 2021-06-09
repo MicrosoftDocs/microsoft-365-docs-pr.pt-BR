@@ -1,5 +1,5 @@
 ---
-title: Sobre a avaliação do Microsoft Defender para Office 365
+title: Sobre a avaliação do Microsoft Defender Office 365
 f1.keywords: ''
 ms.author: chrisda
 author: chrisda
@@ -25,27 +25,27 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/15/2021
 ms.locfileid: "51768741"
 ---
-# <a name="about-the-microsoft-defender-for-office-365-trial"></a>Sobre a avaliação do Microsoft Defender para Office 365
+# <a name="about-the-microsoft-defender-for-office-365-trial"></a>Sobre a avaliação do Microsoft Defender Office 365
 
 O Microsoft Defender para Office 365 protege sua organização contra ameaças mal-intencionadas que são colocadas por mensagens de email, links (URLs) e ferramentas de colaboração. O Defender for Office 365 inclui:
 
 - **Políticas de proteção contra ameaças**: defina políticas de proteção contra ameaças para definir o nível de proteção apropriado para a sua organização.
-- **Relatórios**: Exibir relatórios em tempo real para monitorar o desempenho do Defender para Office 365 em sua organização.
+- **Relatórios**: Exibir relatórios em tempo real para monitorar o Defender Office 365 desempenho em sua organização.
 - **Recursos de investigação e resposta de ameaças**: use as ferramentas de ponta para investigar, compreender, simular e prevenir ameaças.
 - **Recursos de investigação e resposta automatizadas**: poupe tempo e esforço, investigando e reduzindo as ameaças.
 
-Uma avaliação do Microsoft Defender para Office 365 é a maneira mais fácil de experimentar os recursos do Defender para o Office 365, e a configuração dele leva apenas alguns cliques. Depois que a configuração de avaliação for concluída, todos os recursos do Defender for Office 365 Plan 1 e Plan 2 estarão disponíveis na organização por até 90 dias.
+Uma avaliação do Microsoft Defender para Office 365 é a maneira mais fácil de experimentar os recursos do Defender para Office 365, e a configuração dele requer apenas alguns cliques. Depois que a configuração de avaliação for concluída, todos os recursos do Defender para Office 365 Plano 1 e Plano 2 estarão disponíveis na organização por até 90 dias.
 
 > [!NOTE]
 > A configuração automatizada descrita neste artigo está atualmente na Visualização Pública e pode não estar disponível em seu local.
 
 ## <a name="terms-and-conditions"></a>Termos e condições
 
-A avaliação do Defender para Office 365 está disponível por 90 dias e pode ser iniciada para todos os seus usuários. Para obter mais informações, consulte [Microsoft Defender for Office 365 Trial Terms & Conditions](defender-for-office-365-trial-terms-and-conditions.md).
+A avaliação do Defender Office 365 está disponível por 90 dias e pode ser iniciada para todos os usuários. Para obter mais informações, consulte [Microsoft Defender for Office 365 Trial Terms & Conditions](defender-for-office-365-trial-terms-and-conditions.md).
 
-## <a name="set-up-a-defender-for-office-365-trial"></a>Configurar uma avaliação do Defender para o Office 365
+## <a name="set-up-a-defender-for-office-365-trial"></a>Configurar um Defender para Office 365 avaliação
 
-Uma avaliação permite que as organizações configurem facilmente e configurem os recursos do Defender for Office 365. Durante a instalação, as políticas que são exclusivas do Defender para Office 365 (especificamente, Anexos Seguros, [Links](safe-links.md)Seguros e proteção de representação em políticas [anti-spam](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)) são [aplicadas](safe-attachments.md)usando o modelo Padrão para políticas de segurança predefinidas. [](preset-security-policies.md)
+Uma avaliação permite que as organizações configurem e configurem facilmente o Defender para Office 365 recursos. Durante a instalação, as políticas que são exclusivas do Defender para Office 365 (especificamente, anexos do Cofre, links [Cofre e proteção de](safe-links.md)representação em políticas [anti-spam](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)) são [aplicadas](safe-attachments.md)usando o modelo Padrão para políticas de segurança predefinidas. [](preset-security-policies.md)
 
 Por padrão, essas políticas têm escopo para todos os usuários da organização, mas os administradores podem personalizar as políticas durante ou após a instalação, para que se apliquem somente a usuários específicos.
 
@@ -53,11 +53,11 @@ Durante a instalação, a funcionalidade de resposta do MDO (encontrada no MDO P
 
 ## <a name="licensing"></a>Licenciamento
 
-Como parte da configuração de avaliação, as licenças do Defender for Office 365 são aplicadas automaticamente à organização. As licenças são gratuitas nos primeiros 90 dias.
+Como parte da configuração de avaliação, o Defender para Office 365 licenças são aplicadas automaticamente à organização. As licenças são gratuitas nos primeiros 90 dias.
 
 ## <a name="permissions"></a>Permissões
 
-Para iniciar ou encerrar a avaliação, você precisa  ser membro das funções **Administrador Global** ou Administrador de Segurança no Azure Active Directory. Para obter detalhes, consulte [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+Para iniciar ou encerrar a avaliação, você precisa  ser membro das funções Administrador **Global** ou Administrador de Segurança no Azure Active Directory. Para obter detalhes, consulte [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 
 ## <a name="additional-information"></a>Informações adicionais
 
@@ -67,15 +67,15 @@ Os administradores podem desabilitar a avaliação a qualquer momento, indo para
 
 ## <a name="availability"></a>Disponibilidade
 
-A avaliação do Defender para Office 365 está gradualmente sendo implantada para clientes existentes que atendem a critérios específicos (incluindo geografia) e que não têm licenças existentes do Defender para o Office 365 Plano 1 ou Plano 2 (incluídas em sua assinatura ou como complemento).
+A avaliação do Defender para Office 365 está sendo implantada gradualmente para clientes existentes que atendem a critérios específicos (incluindo geografia) e que não têm licenças existentes do Defender para o Plano 1 ou Plano 2 do Office 365 (incluídos na assinatura ou como complemento).
 
 ## <a name="learn-more-about-defender-for-office-365"></a>Saiba mais sobre o Defender para Office 365
 
-O Defender para o Office 365 ajuda as organizações a proteger sua empresa oferecendo uma lista abrangente de recursos.
+O Defender para Office 365 ajuda as organizações a proteger sua empresa oferecendo uma lista abrangente de recursos.
 
-Você também pode saber mais sobre o Defender para Office 365 neste [guia interativo.](https://techcommunity.microsoft.com/t5/video-hub/protect-your-organization-with-microsoft-365-defender/m-p/1671189)
+Você também pode saber mais sobre o Defender para Office 365 neste [guia interativo](https://techcommunity.microsoft.com/t5/video-hub/protect-your-organization-with-microsoft-365-defender/m-p/1671189).
 
-![Diagrama conceitual do Microsoft Defender para Office 365](../../media/microsoft-defender-for-office-365.png)
+![Microsoft Defender para Office 365 diagrama conceitual](../../media/microsoft-defender-for-office-365.png)
 
 ### <a name="prevention"></a>Prevenção
 
@@ -93,12 +93,12 @@ A IA líder do setor detecta conteúdo mal-intencionado e suspeito e correlacion
 
 ### <a name="investigation-and-hunting"></a>Investigação e busca
 
-Experiências avançadas ajudam a identificar, priorizar e investigar ameaças, com recursos avançados de busca para rastrear ataques no Office 365.
+Experiências avançadas ajudam a identificar, priorizar e investigar ameaças, com recursos avançados de busca para rastrear ataques em Office 365.
 
 - [Explorador de Ameaças e Detecções em tempo real](threat-explorer.md)
 - [Relatórios em tempo real no Defender para Office 365](view-reports-for-mdo.md)
 - [Rastreadores de Ameaças - Novo e Notável](threat-trackers.md)
-- Integração com [o Microsoft 365 Defender](../defender/microsoft-365-defender.md)
+- Integração [com Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 ### <a name="response-and-remediation"></a>Resposta e correção
 

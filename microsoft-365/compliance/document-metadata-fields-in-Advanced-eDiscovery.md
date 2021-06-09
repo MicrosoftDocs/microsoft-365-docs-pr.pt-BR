@@ -57,7 +57,7 @@ A tabela a seguir lista os campos de metadados para documentos em um conjunto de
 |||Converted_file_path|O caminho do arquivo de exportação convertido. Somente para uso interno da Microsoft.|
 |Data de documento criada|CreatedTime|Doc_date_created|Criar data a partir de metadados de documento.|
 |Custodian|Custodian|Custodian|Nome do custodiado ao item associado.|
-|Data|Data|Data|Date é um campo calculado que depende do tipo de arquivo.<br /><br />Email: Data de envio<br />Anexos de email: Data da última modificação do documento; se não estiver disponível, a data de envio do pai<br />Documentos incorporados: Data da última modificação do documento; se não estiver disponível, a última data modificada do pai<br />Documentos SPO (inclui anexos modernos): SharePoint última data modificada; se não estiver disponível, a data da última modificação dos documentos<br />Documentos não Office 365: Data da última modificação<br />Reuniões: Data de início da reunião<br />VoiceMail: Data de enviado<br />IM: Data de enviado|
+|Date|Date|Date|Date é um campo calculado que depende do tipo de arquivo.<br /><br />Email: Data de envio<br />Anexos de email: Data da última modificação do documento; se não estiver disponível, a data de envio do pai<br />Documentos incorporados: Data da última modificação do documento; se não estiver disponível, a última data modificada do pai<br />Documentos SPO (inclui anexos modernos): SharePoint última data modificada; se não estiver disponível, a data da última modificação dos documentos<br />Documentos não Office 365: Data da última modificação<br />Reuniões: Data de início da reunião<br />VoiceMail: Data de enviado<br />IM: Data de enviado|
 |Outros caminhos|Dedupedcompoundpath|Deduped_compound_path|Lista de caminhos compostos de documentos que são duplicatas exatas (email: com base no conteúdo, documentos: com base no hash).|
 |Outros custodiantes|DedupedCustodians|Deduped_custodians|Lista de custodiantes de documentos que são duplicatas exatas (para email, com base no conteúdo; para documentos, com base no hash).|
 |Outras IDs de arquivo|DedupedFileIds|Deduped_file_IDs|Lista de IDs de arquivo de documentos que são duplicatas exatas (para email, com base no conteúdo; para documentos, com base no hash).|
@@ -113,7 +113,7 @@ A tabela a seguir lista os campos de metadados para documentos em um conjunto de
 |Classe Item|ItemClass|Item_class|Classe item fornecida pelo servidor exchange; por exemplo, **IPM. Observação**|
 |Last modified date|LastModifiedDate|Doc_date_modified|Data da última modificação dos metadados do documento.|
 |ID de carga|LoadId|Load_ID|A ID do conjunto de carga no qual o item foi adicionado a um conjunto de revisão.|
-|Location|Location|Location|Cadeia de caracteres que indica o tipo de local do qual os documentos foram fonte.<br /><br />**Dados Importados** - Dados não Office 365 dados<br />**Teams** - Microsoft Teams<br />**Exchange** - Exchange caixas de correio<br />**SharePoint** - SharePoint sites<br />**OneDrive** - OneDrive contas|
+|Localização|Localização|Localização|Cadeia de caracteres que indica o tipo de local do qual os documentos foram fonte.<br /><br />**Dados Importados** - Dados não Office 365 dados<br />**Teams** - Microsoft Teams<br />**Exchange** - Exchange caixas de correio<br />**SharePoint** - SharePoint sites<br />**OneDrive** - OneDrive contas|
 |Nome do local|LocationName|Location_name|Cadeia de caracteres que identifica a origem do item. Para o exchange, esse será o endereço SMTP da caixa de correio; para SharePoint e OneDrive, a URL do conjunto de sites.|
 |||Marked_as_pivot|Este arquivo é o pivô em um conjunto quase duplicado.|
 |Marcado como representativo|MarkAsRepresentative||Um documento de cada conjunto de duplicatas exatas é marcado como representantes.|
@@ -160,7 +160,7 @@ A tabela a seguir lista os campos de metadados para documentos em um conjunto de
 |Definir ID||Set_ID|Documentos de conteúdo semelhante (ND_set) ou emails no mesmo thread de email (Email_set) compartilham o mesmo Set_ID.|
 |SimilarityPercent||Similarity_percent|Indica como um documento é semelhante ao pivô do conjunto duplicado próximo.|
 |Tamanho do arquivo nativo|Size|Native_size|Número de bytes do item nativo.|
-|Subject|Subject|Email_subject|Assunto da mensagem.|
+|Assunto|Assunto|Email_subject|Assunto da mensagem.|
 |Assunto/Título|SubjectTitle||Campo calculado composto pelo assunto ou título do item.|
 |Tags|Tags|Tags|Marcas aplicadas em um conjunto de revisão.|
 |Lista de temas|ThemesList|Themes_list|Lista de temas conforme calculado para análise.|

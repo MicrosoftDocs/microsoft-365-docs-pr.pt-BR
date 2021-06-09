@@ -1,5 +1,5 @@
 ---
-title: Usar as classes do Microsoft Teams em seu Sistema de Gerenciamento de Aprendizagem
+title: Usar Microsoft Teams classes com quadro-preto
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -12,26 +12,26 @@ f1.keywords:
 ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-description: Integrar as classes do Microsoft Teams em seu Sistema de Gerenciamento de Aprendizagem
-ms.openlocfilehash: 18d33225dd57932af20421c6b3b5dc4fe3b397b8
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+description: Integrar Microsoft Teams aulas no sistema de gerenciamento de aprendizagem
+ms.openlocfilehash: 287b9f1cadfdcf3adafdca91f4a351865bbcf3bc
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327687"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821266"
 ---
-# <a name="use-microsoft-teams-classes-in-your-learning-management-system"></a>Usar as classes do Microsoft Teams em seu Sistema de Gerenciamento de Aprendizagem
+# <a name="use-microsoft-teams-classes-with-blackboard"></a>Usar Microsoft Teams classes com quadro-preto
 
 > [!IMPORTANT]
 > Algumas informações estão relacionadas a produtos pré-lançados que podem ser substancialmente modificados antes de seu lançamento comercial. A Microsoft não faz garantias, expressas ou implícitas, quanto às informações fornecidas aqui.
 
-As equipes de classe do Microsoft Teams é um aplicativo de Interoperabilidade de Ferramentas de Aprendizagem (LTI) que ajuda educadores e alunos a navegar facilmente entre seu LmS (Sistema de Gerenciamento de Aprendizagem) e o Teams. Os usuários podem acessar suas equipes de classe associadas ao curso diretamente de dentro do LMS.
+Microsoft Teams classes é um aplicativo de Interoperabilidade de Ferramentas de Aprendizagem (LTI) que ajuda educadores e alunos a navegar facilmente entre seu LMS (Sistema de Gerenciamento de Aprendizagem) e Teams. Os usuários podem acessar suas equipes de classe associadas ao curso diretamente de dentro do LMS.
 
-## <a name="approve-the-app-in-the-microsoft-azure-tenant"></a>Aprovar o aplicativo no locatário do Microsoft Azure
+## <a name="approve-the-app-in-the-microsoft-azure-tenant"></a>Aprovar o aplicativo no locatário Microsoft Azure locatário
 
 As tarefas a seguir são concluídas pelo administrador Microsoft Office 365 e o administrador Learn Ultra do Quadro Preto.
 
-Antes de gerenciar a integração no Blackboard Learn Ultra, o administrador do Microsoft Office 365 deve aprovar o aplicativo Blackboard **MSFT Teams for Learn Ultra Azure** para o locatário do Microsoft Azure da instituição.
+Antes de gerenciar Microsoft Office 365 integração no Blackboard Learn Ultra, o administrador do Microsoft Office 365 deve aprovar o MSFT Teams de quadro preto para o aplicativo **Learn Ultra Azure** para o locatário Microsoft Azure da instituição.
 
 1. Encontre sua ID do Locatário da Microsoft. Veja [como encontrar o locatário](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant).
 
@@ -46,9 +46,9 @@ Antes de gerenciar a integração no Blackboard Learn Ultra, o administrador do 
 
 Como administrador do Blackboard Learn Ultra, você precisará registrar 2 aplicativos de integração LTI 1.3 em seu ambiente de teste:
 
-- A integração do Blackboard Learn Class Teams para dar suporte à sincronização de lista de participantes
+- A integração de Classe de Aprendizado de Quadro Teams para dar suporte à sincronização de lista de escalas
 
-- O aplicativo LTI da equipe de classe do Microsoft Teams
+- O Microsoft Teams lti da equipe de classe
 
 1. Anote as seguintes IDs de cliente LTI para ambos os Aplicativos:
 
@@ -80,7 +80,7 @@ Conclua o seguinte para configurar o aplicativo REST
 
 1. Acesse a seção Aprender Ferramentas de Administração e selecione **Integrações da API REST** na **seção Integrações.**
 
-2. Selecione **Criar integrações** e insira a mesma ID de Aplicativo/Cliente que você ingressou para a ferramenta LTI de Integração de Equipes de Classe Do Quadro De Aprendizado.
+2. Selecione **Criar integrações** e insira a mesma ID de Aplicativo/Cliente inserida para a ferramenta LTI de Integração Teams Classe de Aprendizado de Quadro Preto.
 
 3. Insira o Usuário de Aprendizado (pode ser seu próprio nome de usuário de administrador de aprendizado) ou selecione **Procurar** para localizar.
 
@@ -104,19 +104,19 @@ Conclua o seguinte para configurar o aplicativo REST
 
 6. Selecione **Enviar uma** vez concluído.
 
-## <a name="enable-class-teams-in-blackboard-learn"></a>Habilitar equipes de classe no quadro-preto Aprender
+## <a name="enable-class-teams-in-blackboard-learn"></a>Habilitar Teams classe em Blackboard Learn
 
-Depois de habilitar as ferramentas LTI, sua próxima etapa será configurar a integração do Microsoft Class Teams do seu próprio locatário Microsoft Office 365. Você pode fazer isso seguindo estas etapas como administrador do Blackboard Learn Ultra.
+Depois de habilitar as ferramentas LTI, a próxima etapa será configurar a integração do Microsoft Class Teams do seu próprio locatário Microsoft Office 365. Você pode fazer isso seguindo estas etapas como administrador do Blackboard Learn Ultra.
 
-1. Em **Aprender Ferramentas de** Administração e  >  **Utilitários,** selecione Administrador de **Integração do Microsoft Teams.**
+1. Em **Aprender Ferramentas de** Administração e  >  **Utilitários,** selecione Microsoft Teams Administrador de **Integração.**
 
    ![a caixa de diálogo ferramentas e utilitários com uma lista de ferramentas disponíveis](../media/lti-media/tools-utilities.png)
 
-2. Selecione a caixa de seleção **Habilitar o Microsoft Teams**.
+2. Selecione a caixa de seleção **Habilitar Microsoft Teams**.
 
 3. Insira sua ID de locatário conforme referenciado na seção em Administrador do Microsoft O365
 
  > [!NOTE]
- > Você não poderá salvar as configurações até que o aplicativo tenha sido aprovado pelo administrador do O365. Consulte [Aprovar o aplicativo no locatário do Microsoft Azure.](#approve-the-app-in-the-microsoft-azure-tenant)
+ > Você não poderá salvar as configurações até que o aplicativo tenha sido aprovado pelo administrador do O365. Consulte [Aprovar o aplicativo no Microsoft Azure locatário](#approve-the-app-in-the-microsoft-azure-tenant).
 
-4. Quando o administrador global do O365 tiver aprovado o aplicativo Blackboard Teams em seu Locatário da Microsoft, selecione **Enviar**.
+4. Quando o administrador global do O365 tiver aprovado o aplicativo Teams quadro-preto no locatário da Microsoft, selecione **Enviar**.

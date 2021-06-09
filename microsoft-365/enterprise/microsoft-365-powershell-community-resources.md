@@ -15,7 +15,7 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: ebe0f5ff-fd17-487f-bbb6-271b5ea270bb
-description: Este artigo fornece recursos da comunidade para se conectar aos seus colegas e obter ajuda para o PowerShell para o Microsoft 365.
+description: Este artigo fornece recursos da comunidade para se conectar aos seus pares e obter ajuda para o PowerShell para Microsoft 365.
 ms.openlocfilehash: 36130d3e0f32f73836698cfb276e2aca5d20de83
 ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
@@ -25,11 +25,11 @@ ms.locfileid: "48754687"
 ---
 # <a name="microsoft-365-community-resources-for-powershell"></a>Recursos da comunidade Microsoft 365 para PowerShell
 
-Conecte-se a essas comunidades para alcançar seus colegas e obter respostas para suas perguntas sobre o PowerShell para Microsoft 365. 
+Conexão para essas comunidades para alcançar seus pares e obter respostas para seu PowerShell para Microsoft 365 perguntas. 
   
 - [Microsoft 365 Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-365/ct-p/microsoft365)
     
-- [Fórum da comunidade techNet do Exchange Server](https://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrgeneral)
+- [Exchange Server Fórum da comunidade TechNet](https://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrgeneral)
     
 ## <a name="see-also"></a>Confira também
 

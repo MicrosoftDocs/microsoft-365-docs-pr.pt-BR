@@ -1,5 +1,5 @@
 ---
-title: Bloquear contas de usuário do Microsoft 365 com o PowerShell
+title: Bloquear Microsoft 365 contas de usuário com o PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -18,7 +18,7 @@ ms.custom:
 - PowerShell
 - seo-marvel-apr2020
 ms.assetid: 04e58c2a-400b-496a-acd4-8ec5d37236dc
-description: Como usar o PowerShell para bloquear e desbloquear o acesso às contas do Microsoft 365.
+description: Como usar o PowerShell para bloquear e desbloquear o acesso a Microsoft 365 contas.
 ms.openlocfilehash: c1a79d925965fafd796033182098e68e26a81473
 ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
@@ -26,15 +26,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/24/2020
 ms.locfileid: "48754675"
 ---
-# <a name="block-microsoft-365-user-accounts-with-powershell"></a>Bloquear contas de usuário do Microsoft 365 com o PowerShell
+# <a name="block-microsoft-365-user-accounts-with-powershell"></a>Bloquear Microsoft 365 contas de usuário com o PowerShell
 
 *Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-Ao bloquear o acesso a uma conta do Microsoft 365, você impede que qualquer pessoa use a conta para entrar e acessar os serviços e dados em sua organização do Microsoft 365. Você pode usar o PowerShell para bloquear o acesso a contas de usuário individuais ou múltiplas.
+Quando você bloqueia o acesso a uma conta Microsoft 365, impede que qualquer pessoa use a conta para entrar e acessar os serviços e dados em sua Microsoft 365 organização. Você pode usar o PowerShell para bloquear o acesso a contas de usuário individuais ou múltiplas.
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Use o PowerShell do Azure Active Directory para o módulo do gráfico
 
-Primeiro, [conecte-se ao locatário do Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+Primeiro, [conecte-se ao seu Microsoft 365 locatário](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
  
 ### <a name="block-access-to-individual-user-accounts"></a>Bloquear o acesso a contas de usuário individuais
 
@@ -45,7 +45,7 @@ Set-AzureADUser -ObjectID <sign-in name of the user account> -AccountEnabled $fa
 ```
 
 > [!NOTE]
-> O *parâmetro -ObjectID* no cmdlet **Set-AzureAD** aceita o nome de entrada da conta, também conhecido como Nome Principal do Usuário, ou a ID de objeto da conta.
+> O *parâmetro -ObjectID* no cmdlet **Set-AzureAD** aceita o nome de entrada da conta, também conhecido como Nome principal do usuário ou a ID do objeto da conta.
   
 Este exemplo bloqueia o acesso à conta de *usuário fabricec@litwareinc.com*.
   
@@ -67,7 +67,7 @@ Write-Host (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipa
 
 ```
 
-Este exemplo exibe o UPN da conta de usuário para o usuário *Paulo Alsão.*
+Este exemplo exibe o UPN da conta de usuário para o usuário  *Caleb Sills*.
   
 ```powershell
 $userName="Caleb Sills"
@@ -90,7 +90,7 @@ Get-AzureADUser -UserPrincipalName <UPN of user account> | Select DisplayName,Ac
 
 ### <a name="block-multiple-user-accounts"></a>Bloquear várias contas de usuário
 
-Para bloquear o acesso de várias contas de usuário, crie um arquivo de texto que contenha um nome de entrada de conta em cada linha da forma a seguir:
+Para bloquear o acesso a várias contas de usuário, crie um arquivo de texto que contenha um nome de entrada de conta em cada linha como esta:
     
   ```powershell
 akol@contoso.com
@@ -98,7 +98,7 @@ tjohnston@contoso.com
 kakers@contoso.com
   ```
 
-Nos comandos a seguir, o arquivo de texto de exemplo *é C:\My Documents\Accounts.txt*. Substitua esse nome de arquivo pelo caminho e pelo nome do arquivo de texto.
+Nos comandos a seguir, o arquivo de texto de *exemplo é C:\My Documents\Accounts.txt*. Substitua esse nome de arquivo pelo caminho e o nome do arquivo de texto.
   
 Para bloquear o acesso às contas listadas no arquivo de texto, execute o seguinte comando:
     
@@ -114,20 +114,20 @@ Get-Content "C:\My Documents\Accounts.txt" | ForEach { Set-AzureADUSer -ObjectID
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Use o Módulo Microsoft Azure Active Directory para Windows PowerShell.
 
-Primeiro, [conecte-se ao locatário do Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+Primeiro, [conecte-se ao seu Microsoft 365 locatário](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
     
 ### <a name="block-individual-user-accounts"></a>Bloquear contas de usuário individuais
 
-Use a seguinte sintaxe para bloquear o acesso de uma conta de usuário individual:
+Use a seguinte sintaxe para bloquear o acesso a uma conta de usuário individual:
   
 ```powershell
 Set-MsolUser -UserPrincipalName <sign-in name of user account>  -BlockCredential $true
 ```
 
 >[!Note]
->O PowerShell Core não dá suporte ao módulo Microsoft Azure Active Directory para módulo e cmdlets do Windows PowerShell que têm *o Msol* no nome. Você precisa executar esses cmdlets do Windows PowerShell.
+>O PowerShell Core não dá suporte ao módulo Microsoft Azure Active Directory para Windows PowerShell e cmdlets que têm *Msol* em seu nome. Você precisa executar esses cmdlets de Windows PowerShell.
 
-Este exemplo bloqueia o acesso à conta de usuário *do fabricec \@ litwareinc.com*.
+Este exemplo bloqueia o acesso ao fabricec da conta *de \@ usuário litwareinc.com*.
   
 ```powershell
 Set-MsolUser -UserPrincipalName fabricec@litwareinc.com -BlockCredential $true
@@ -145,9 +145,9 @@ Para verificar o status bloqueado de uma conta de usuário, execute o seguinte c
 Get-MsolUser -UserPrincipalName <sign-in name of user account> | Select DisplayName,BlockCredential
 ```
 
-### <a name="block-access-for-multiple-user-accounts"></a>Bloquear o acesso para várias contas de usuário
+### <a name="block-access-for-multiple-user-accounts"></a>Bloquear o acesso a várias contas de usuário
 
-Primeiro, crie um arquivo de texto que contenha uma conta em cada linha da forma a seguir:
+Primeiro, crie um arquivo de texto que contenha uma conta em cada linha como esta:
     
 ```powershell
 akol@contoso.com
@@ -155,9 +155,9 @@ tjohnston@contoso.com
 kakers@contoso.com
 ```
 
-Nos comandos a seguir, o arquivo de texto de exemplo *é C:\My Documents\Accounts.txt*. Substitua esse nome de arquivo pelo caminho e pelo nome do arquivo de texto.
+Nos comandos a seguir, o arquivo de texto de *exemplo é C:\My Documents\Accounts.txt*. Substitua esse nome de arquivo pelo caminho e o nome do arquivo de texto.
     
-Para bloquear o acesso das contas listadas no arquivo de texto, execute o seguinte comando:
+Para bloquear o acesso às contas listadas no arquivo de texto, execute o seguinte comando:
     
   ```powershell
   Get-Content "C:\My Documents\Accounts.txt" | ForEach { Set-MsolUser -UserPrincipalName $_ -BlockCredential $true }

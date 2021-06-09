@@ -52,7 +52,7 @@ Você também pode exportar os dados do relatório para um arquivo Excel .csv se
 |:-----|:-----|
 |**Indicador**|**Definição**|
 |URL do site  <br/> |A URL completa do site. <br/> |
-|Deleted  <br/> |O status de exclusão do site. Leva pelo menos sete dias para os sites serem marcados como excluídos.  <br/> |
+|Excluída  <br/> |O status de exclusão do site. Leva pelo menos sete dias para os sites serem marcados como excluídos.  <br/> |
 |Proprietário do site  <br/> |O nome de usuário do proprietário principal do site.   <br/> |
 |Nome principal do proprietário do site  <br/> |O endereço de email do proprietário do site. <br/> |
 |Data da última atividade (UTC)  <br/> | A data da última atividade de arquivo foi detectada ou uma página foi exibida no site.  <br/> |

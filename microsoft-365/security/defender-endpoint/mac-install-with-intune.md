@@ -52,10 +52,10 @@ A tabela a seguir resume as etapas necessárias para implantar e gerenciar o Mic
 | Etapa | Exemplo de nomes de arquivo | BundleIdentifier |
 |-|-|-|
 | [Baixar o pacote de integração](#download-the-onboarding-package) | WindowsDefenderATPOnboarding__MDATP_wdav.atp.xml | com.microsoft.wdav.atp |
-| [Aprovar Extensão do Sistema para o Microsoft Defender para Ponto de Extremidade](#approve-system-extensions) | MDATP_SysExt.xml | N/D |
-| [Aprovar Extensão de Kernel para o Microsoft Defender para Ponto de Extremidade](#download-the-onboarding-package) | MDATP_KExt.xml | N/D |
+| [Aprovar Extensão do Sistema para o Microsoft Defender para Ponto de Extremidade](#approve-system-extensions) | MDATP_SysExt.xml | N/A |
+| [Aprovar Extensão de Kernel para o Microsoft Defender para Ponto de Extremidade](#download-the-onboarding-package) | MDATP_KExt.xml | N/A |
 | [Conceder acesso em disco completo ao Microsoft Defender para Ponto de Extremidade](#full-disk-access) | MDATP_tcc_Catalina_or_newer.xml | com.microsoft.wdav.tcc |
-| [Política de Extensão de Rede](#network-filter) | MDATP_NetExt.xml | N/D |
+| [Política de Extensão de Rede](#network-filter) | MDATP_NetExt.xml | N/A |
 | [Configurar o Microsoft AutoUpdate (MAU)](mac-updates.md#intune) | MDATP_Microsoft_AutoUpdate.xml | com.microsoft.autoupdate2 |
 | [Configurações do Microsoft Defender para Ponto de Extremidade](mac-preferences.md#intune-profile-1)<br/><br/> **Observação:** Se você estiver planejando executar um AV de terceiros para macOS, de acordo `passiveMode` com `true` . | MDATP_WDAV_and_exclusion_settings_Preferences.xml | com.microsoft.wdav |
 | [Configurar notificações do Microsoft Defender para Endpoint e MS AutoUpdate (MAU)](mac-updates.md) | MDATP_MDAV_Tray_and_AutoUpdate2.mobileconfig | com.microsoft.autoupdate2 ou com.microsoft.wdav.tray |

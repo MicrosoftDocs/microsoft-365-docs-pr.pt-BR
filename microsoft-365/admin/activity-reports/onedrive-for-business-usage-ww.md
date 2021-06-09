@@ -53,7 +53,7 @@ Você também pode exportar os dados do relatório para um arquivo Excel .csv se
 |:-----|:-----|
 |**Indicador**|**Definição**|
 |URL  <br/> |O endereço da Web para a OneDrive. <br/> |
-|Deleted  <br/> |O status de exclusão do OneDrive. Demora pelo menos 7 dias para as contas serem marcadas como excluídas.  <br/> |
+|Excluída  <br/> |O status de exclusão do OneDrive. Demora pelo menos 7 dias para as contas serem marcadas como excluídas.  <br/> |
 |Proprietário  <br/> |O nome de usuário do administrador principal do OneDrive.   <br/> |
 |Nome principal do proprietário  <br/> |O endereço de email do proprietário do OneDrive. <br/> |
 |Data da última atividade (UTC)  <br/> | A data mais recente em que uma atividade de arquivo foi executada no OneDrive. Se o OneDrive não teve atividade de arquivo, o valor ficará em branco.  <br/> |
