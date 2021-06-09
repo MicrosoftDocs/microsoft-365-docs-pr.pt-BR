@@ -19,12 +19,12 @@ ms.custom:
 description: Os administradores podem aprender a configurar a filtragem de conexão no Proteção do Exchange Online (EOP) para permitir ou bloquear emails de servidores de email.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 27c8cbbc70a4844e11bf85003215d2798a57a7ff
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: b5eb24377dd9f9ac304e1df7b2902d29e4a738b9
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52792975"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821956"
 ---
 # <a name="configure-connection-filtering"></a>Configurar a filtragem de conexão
 
@@ -51,7 +51,7 @@ Este artigo descreve como configurar a política de filtro de conexão padrão n
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Abra o centro de segurança em <https://security.microsoft.com/>. Para ir diretamente à página de **Políticas antispam**, use <https://security.microsoft.com/antispam>.
+- Abra o centro de segurança em <https://security.microsoft.com>. Para ir diretamente à página de **Políticas antispam**, use <https://security.microsoft.com/antispam>.
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 

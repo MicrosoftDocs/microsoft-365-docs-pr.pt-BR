@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3fd58ee17b2cb86c0bcc858b9b0fd57c12ac501e
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: dccc623bfa6c3f5e8fe4d88ccfafd66d3e53482a
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932806"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52840893"
 ---
 # <a name="ensure-your-devices-are-configured-properly"></a>Verificar se os dispositivos estão configurados corretamente
 
@@ -44,7 +44,7 @@ Clique **em Gerenciamento de configuração** no menu de navegação para abrir 
 ![Página de gerenciamento de configuração de segurança](images/secconmgmt_main.png)<br>
 *Página de gerenciamento de configuração de dispositivo*
 
-Você pode acompanhar o status da configuração em um nível organizacional e tomar medidas rapidamente em resposta à cobertura de integração ruim, problemas de conformidade e mitigações de superfície de ataque mal otimizadas por meio de links diretos e profundos para páginas de gerenciamento de dispositivos no Centro de segurança do Microsoft Intune e do Microsoft 365.
+Você pode rastrear o status de configuração em um nível organizacional e tomar medidas rapidamente em resposta à cobertura de integração ruim, problemas de conformidade e mitigações de superfície de ataque mal otimizadas por meio de links diretos e profundos para páginas de gerenciamento de dispositivos no centro de segurança Microsoft Intune e Microsoft 365.
 
 Ao fazer isso, você se beneficia de:
 - Visibilidade abrangente dos eventos em seus dispositivos
@@ -54,15 +54,15 @@ Ao fazer isso, você se beneficia de:
 
 ## <a name="enroll-devices-to-intune-management"></a>Registrar dispositivos no gerenciamento do Intune
 
-O gerenciamento de configuração de dispositivo funciona de perto com o gerenciamento de dispositivos do Intune para estabelecer o inventário dos dispositivos em sua organização e a configuração de segurança da linha de base. Você poderá rastrear e gerenciar problemas de configuração em dispositivos Windows 10 gerenciados pelo Intune.
+O gerenciamento de configuração de dispositivo funciona de perto com o gerenciamento de dispositivos do Intune para estabelecer o inventário dos dispositivos em sua organização e a configuração de segurança da linha de base. Você poderá rastrear e gerenciar problemas de configuração em dispositivos Windows 10 intune.
 
-Antes de garantir que seus dispositivos estão configurados corretamente, inscreva-os no gerenciamento do Intune. O registro do Intune é robusto e tem várias opções de registro para dispositivos Windows 10. Para obter mais informações sobre as opções de registro do Intune, leia sobre como [configurar o registro para dispositivos Windows](https://docs.microsoft.com/intune/windows-enroll).
+Antes de garantir que seus dispositivos estão configurados corretamente, inscreva-os no gerenciamento do Intune. O registro do Intune é robusto e tem várias opções de registro para Windows 10 dispositivos. Para obter mais informações sobre as opções de registro do Intune, leia sobre como configurar o registro [para Windows dispositivos](/intune/windows-enroll).
 
 >[!NOTE]
->Para registrar dispositivos Windows no Intune, os administradores já devem ter sido atribuídos licenças. [Leia sobre a atribuição de licenças para registro de dispositivo.](https://docs.microsoft.com/intune/licenses-assign)
+>Para registrar Windows dispositivos no Intune, os administradores já devem ter sido atribuídos licenças. [Leia sobre a atribuição de licenças para registro de dispositivo.](/intune/licenses-assign)
 
 >[!TIP] 
->Para otimizar o gerenciamento de dispositivos por meio do Intune, [conecte o Intune ao Defender para Ponto de Extremidade.](https://docs.microsoft.com/intune/advanced-threat-protection#enable-windows-defender-atp-in-intune)
+>Para otimizar o gerenciamento de dispositivos por meio do Intune, [conecte o Intune ao Defender para Ponto de Extremidade.](/intune/advanced-threat-protection#enable-windows-defender-atp-in-intune)
 
 ## <a name="obtain-required-permissions"></a>Obter permissões necessárias
 Por padrão, somente os usuários que foram atribuídos à função Administrador Global ou Administrador de Serviço do Intune no Azure AD podem gerenciar e atribuir os perfis de configuração de dispositivo necessários para a integração de dispositivos e a implantação da linha de base de segurança.
@@ -78,13 +78,13 @@ Se você tiver sido atribuído a outras funções, certifique-se de ter as permi
 *Permissões de configuração de dispositivo no Intune*
 
 >[!TIP] 
->Para saber mais sobre a atribuição de permissões no Intune, [leia sobre a criação de funções personalizadas.](https://docs.microsoft.com/intune/create-custom-role#to-create-a-custom-role)
+>Para saber mais sobre a atribuição de permissões no Intune, [leia sobre a criação de funções personalizadas.](/intune/create-custom-role#to-create-a-custom-role)
 
 ## <a name="in-this-section"></a>Nesta seção
 Tópico | Descrição
 :---|:---
 [Obter dispositivos conectados ao Defender para Ponto de Extremidade](configure-machines-onboarding.md)| Acompanhe o status de integração de dispositivos gerenciados pelo Intune e aborde mais dispositivos por meio do Intune. 
 [Aumentar a conformidade com a linha de base de segurança do Defender para Ponto de Extremidade](configure-machines-security-baseline.md) | Acompanhe a conformidade e o descumprimento da linha de base. Implante a linha de base de segurança em mais dispositivos gerenciados pelo Intune.
-[Otimizar a implantação e as detecções de regras ASR](configure-machines-asr.md) | Revise a implantação de regras e ajuste as detecções usando ferramentas de análise de impacto no Centro de segurança do Microsoft 365.
+[Otimizar a implantação e as detecções de regras ASR](configure-machines-asr.md) | Revise a implantação de regras e ajuste as detecções usando ferramentas de análise de impacto Microsoft 365 centro de segurança.
 
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)

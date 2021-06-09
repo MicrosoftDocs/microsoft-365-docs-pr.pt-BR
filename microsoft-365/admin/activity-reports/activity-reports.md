@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Obtenha um relatório periódico de como as pessoas em sua organização estão usando os serviços Microsoft 365 e analise cada gráfico para obter mais informações.
-ms.openlocfilehash: 917a44f4b6f7458c50ac193b95c7751c66c9e7cd
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 66cb3436fe6903c429e3c1950eee040b21c6dc9d
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52530965"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52808994"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Relatórios do Microsoft 365 no centro de administração
 
@@ -33,7 +33,7 @@ Você pode ver facilmente como as pessoas da sua empresa estão usando os servi�
   
 Os relatórios estão disponíveis para os últimos 7 dias, 30 dias, 90 dias e 180 dias. Não existirão dados para todos os períodos de relatórios imediatamente. Os relatórios ficam disponíveis a partir de 48 horas.
   
-Assista a este vídeo para obter uma visão geral: sobre como você pode usar os relatórios:
+## <a name="watch-act-on-a-usage-report-in-office-365"></a>Assista: agir em um relatório de uso no Office 365
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/fb726f8e-aead-43b2-ba0f-53ba5b886bf7?autoplay=false]
   
@@ -88,52 +88,30 @@ De acordo com a sua assinatura, aqui estão os relatórios disponíveis.
 - [Microsoft browser usage](browser-usage-report.md) 
   
 - [Atividade de email](email-activity-ww.md)
-
-- [Atividade de email para o governo dos EUA](email-activity.md)
     
 - [Uso de caixa de correio](mailbox-usage.md)
     
 - [Ativações do Office](microsoft-office-activations-ww.md)
 
-- [Ativações do Office para o Governo dos EUA](microsoft-office-activations.md)
-
-- [Usuários Ativos](active-users-ww.md)
-
-- [Usuários Ativos para o Governo dos EUA](active-users.md)
+- [Usuários ativos](active-users-ww.md)
   
 - [Uso de aplicativos de email](email-apps-usage-ww.md)
 
-- [Uso de aplicativos de email para o governo dos EUA](email-apps-usage.md)
-
 - [Atividade do Forms](forms-activity-ww.md)
 
-- [Atividade do Forms para o Governo dos EUA](forms-activity.md)
-
-- [Atividade do Dynamics 365 Customer Voice](forms-pro-activity-ww.md)
-  
-- [Atividade do Dynamics 365 Customer Voice para o Governo dos EUA](forms-pro-activity.md)
+- [Atividade da Voz do Cliente Dynamics 365](forms-pro-activity-ww.md)
 
 - [Grupos do Microsoft 365](office-365-groups-ww.md)
-
-- [Grupos do Microsoft 365 para o Governo dos EUA](office-365-groups.md)
   
 - [Atividade de usuários do OneDrive for Business](onedrive-for-business-activity-ww.md)
 
-- [OneDrive for Business para atividades de usuários do Governo dos EUA](onedrive-for-business-activity.md)
-
 - [Uso do OneDrive for Business](onedrive-for-business-usage-ww.md)
 
-- [Utilização do OneDrive for Business pelo Governo dos EUA](onedrive-for-business-usage.md)
-
-- [Uso do Microsoft 365 Apps](microsoft365-apps-usage-ww.md)
+- [Uso dos Aplicativos do Microsoft 365](microsoft365-apps-usage-ww.md)
   
-- [Uso do site do Microsoft Office SharePoint Online](sharepoint-site-usage-ww.md)
-
-- [Utilização do site do SharePoint pelo Governo dos EUA](sharepoint-site-usage.md)
+- [Uso do site do SharePoint](sharepoint-site-usage-ww.md)
   
 - [Atividade do SharePoint](sharepoint-activity-ww.md)
-
-- [Atividade do SharePoint para o Governo dos EUA](sharepoint-activity.md)
   
 - [Atividade do Skype for Business Online](/SkypeForBusiness/skype-for-business-online-reporting/activity-report)
   
@@ -145,23 +123,13 @@ De acordo com a sua assinatura, aqui estão os relatórios disponíveis.
 
 - [Atividade do Yammer](yammer-activity-report-ww.md)
 
-- [Atividade do Yammer para o Governo dos EUA](yammer-activity-report.md)
+- [Uso do dispositivo do Yammer](yammer-device-usage-report-ww.md)
 
-- [Uso do dispositivo Yammer](yammer-device-usage-report-ww.md)
-
-- [Uso de dispositivo Yammer para o Governo dos EUA](yammer-device-usage-report.md)
-
-- [Relatório de atividades de grupos do Yammer](yammer-groups-activity-report-ww.md)
-
-- [Relatório de atividades de grupos do Yammer para o Governo dos EUA](yammer-groups-activity-report.md)
+- [Relatório de atividade de grupos do Yammer](yammer-groups-activity-report-ww.md)
 
 - [Atividade de usuários do Microsoft Teams](microsoft-teams-user-activity-preview.md)
 
-- [Atividade de usuários do Microsoft Teams para o Governo dos Estados Unidos](microsoft-teams-user-activity.md)
-
 - [Uso do dispositivo do Microsoft Teams](microsoft-teams-device-usage-preview.md)
-
-- [Uso do dispositivo do Microsoft Teams para o Governo dos Estados Unidos](microsoft-teams-device-usage.md)
 
 ## <a name="how-to-view-licensing-information"></a>Como exibir informações de licenciamento
 
@@ -201,8 +169,6 @@ No entanto, quando você seleciona um determinado dia (Veja o número 3), até 2
   
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Relatórios no Centro&amp; de Conformidade de Segurança](../../compliance/reports-in-security-and-compliance.md) (artigo)
-
-[Análise de uso do Microsoft 365](../usage-analytics/usage-analytics.md) (artigo)
-
+[Relatórios no Centro&amp; de Conformidade de Segurança](../../compliance/reports-in-security-and-compliance.md) (artigo)\
+[Análise de uso do Microsoft 365](../usage-analytics/usage-analytics.md) (artigo)\
 [Personalizar os relatórios na análise de uso do Microsoft 365](../usage-analytics/customize-reports.md) (artigo)

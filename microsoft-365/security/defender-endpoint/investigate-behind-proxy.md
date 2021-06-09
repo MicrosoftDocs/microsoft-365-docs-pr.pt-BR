@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 47be07759a72a080a3687ed3bb50cef9d0a959b7
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 55c001781ff016d7a23dc5db286d454b39fac5de
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904041"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841049"
 ---
 # <a name="investigate-connection-events-that-occur-behind-forward-proxies"></a>Investigar eventos de conexão que ocorrem por meio de proxies de encaminhamento
 
@@ -45,11 +45,11 @@ O monitoramento da conexão de rede por trás de um proxy de encaminhamento é p
 
 A proteção de rede pode ser controlada usando os seguintes modos:
 
-- **Bloquear** <br> Os usuários ou aplicativos serão impedidos de se conectar a domínios perigosos. Você poderá ver essa atividade no Centro de Segurança do Microsoft Defender.
-- **Auditoria** <br> Os usuários ou aplicativos não serão impedidos de se conectar a domínios perigosos. No entanto, você ainda verá essa atividade no Centro de Segurança do Microsoft Defender.
+- **Bloquear** <br> Os usuários ou aplicativos serão impedidos de se conectar a domínios perigosos. Você poderá ver essa atividade no Central de Segurança do Microsoft Defender.
+- **Auditoria** <br> Os usuários ou aplicativos não serão impedidos de se conectar a domínios perigosos. No entanto, você ainda verá essa atividade no Central de Segurança do Microsoft Defender.
 
 
-Se você desativar a proteção de rede, os usuários ou aplicativos não serão impedidos de se conectar a domínios perigosos. Você não verá nenhuma atividade de rede no Centro de Segurança do Microsoft Defender.
+Se você desativar a proteção de rede, os usuários ou aplicativos não serão impedidos de se conectar a domínios perigosos. Você não verá nenhuma atividade de rede no Central de Segurança do Microsoft Defender.
 
 Se você não configurá-lo, o bloqueio de rede será desligado por padrão.
 
@@ -94,4 +94,4 @@ DeviceNetworkEvents
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Aplicando proteção de rede com GP - CSP de política](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection)
+- [Aplicando proteção de rede com GP - CSP de política](/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection)

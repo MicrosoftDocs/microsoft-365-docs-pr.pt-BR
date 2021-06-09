@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Como implementar o túnel dividido de VPN para o Office 365
-ms.openlocfilehash: 49d64a40a39a6f8b1f8ea585b2915c26bd1115c6
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: c2195eb9e3af3c591ff59d0b0f87583455b9b119
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114231"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843645"
 ---
 # <a name="implementing-vpn-split-tunneling-for-office-365"></a>Implementando o túnel dividido de VPN para Office 365
 
@@ -328,7 +328,7 @@ A porta 80 só é usada para itens como redirecionar para uma sessão de porta 4
 
 ### <a name="does-split-tunnel-configuration-work-for-teams-running-in-a-browser"></a>A configuração de túnel dividido funciona para Teams em execução em um navegador?
 
-Sim, ele faz, por meio de navegadores com suporte, que estão listados em [Obter clientes para Microsoft Teams](https://docs.microsoft.com/microsoftteams/get-clients#web-client).
+Sim, ele faz, por meio de navegadores com suporte, que estão listados em [Obter clientes para Microsoft Teams](/microsoftteams/get-clients#web-client).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

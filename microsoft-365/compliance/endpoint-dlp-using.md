@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba como configurar as políticas de prevenção contra perda de dados (DLP) para usar os locais de prevenção contra perda de dados do Ponto de extremidade (EPDLP) do Microsoft 365.
-ms.openlocfilehash: cbd95ed3ee70b69b395f73c83852a9f37a269f0b
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 1a0297271c3e0e8fb94a476982f146aa8c221e7a
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259482"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52809126"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>Usando a prevenção contra perda de dados do Endpoint
 
@@ -70,6 +70,9 @@ Quando a configuração de **Acesso a uma política por meio de aplicativos e na
 > [!IMPORTANT]
 > Não inclua o caminho para o executável, apenas o nome do executável (por exemplo, browser.exe).
 
+### <a name="unallowed-bluetooth-apps"></a>Aplicativos Bluetooth não permitidos
+
+Evite que as pessoas transfiram arquivos protegidos por suas políticas por meio dos aplicativos Bluetooth específicos.
 
 ### <a name="browser-and-domain-restrictions"></a>Restrições de navegador e domínio
 Restringir arquivos confidenciais que correspondam a suas políticas contra domínios de serviço de nuvem irrestritos.
@@ -97,6 +100,11 @@ Você pode controlar como os usuários interagem com a opção de justificativa 
 - Os usuários podem selecionar apenas uma justificativa embutida.
 - Os usuários só podem inserir sua própria justificativa.
 
+### <a name="always-audit-file-activity-for-devices"></a>Sempre auditar a atividade dos arquivos para os dispositivos
+
+Por padrão, quando os dispositivos são integrados, a atividade dos arquivos Office, PDF e CSV é auditada automaticamente e fica disponível para análise no explorador de atividades. Desative o recurso se desejar que esta atividade seja auditada apenas quando os dispositivos integrados estiverem incluídos em uma política ativa.
+
+A atividade do arquivo sempre será auditada para os dispositivos integrados, independentemente de eles estarem incluídos em uma política ativa.
 
 ## <a name="tying-dlp-settings-together"></a>Como ligar as configurações da DLP
 

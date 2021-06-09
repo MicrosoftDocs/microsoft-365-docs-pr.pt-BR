@@ -454,7 +454,7 @@
         - name: Skype for Business
           href: /SkypeForBusiness/skype-for-business-online
         - name: Microsoft Teams
-          href: 'https://docs.microsoft.com/microsoftteams/upgrade-monitor-quality'
+          href: /microsoftteams/upgrade-monitor-quality
         - name: Yammer
           href: 'https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe'
         - name: Desempenho e ajuste
@@ -481,7 +481,7 @@
 - name: Windows 10
   items:
     - name: Como verificar a integridade da versão
-      href: 'https://docs.microsoft.com/windows/deployment/update/check-release-health'
+      href: /windows/deployment/update/check-release-health
     - name: Implantar e atualizar
       href: /windows/deployment/
 - name: Microsoft 365 Apps para Grandes Empresas

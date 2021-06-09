@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a037b9070fff2a208e7ee0a0602ce60cf3e042bf
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 8297fac0f733b93b1d8e3eabb25eeee7b1e07acb
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770008"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821968"
 ---
 # <a name="supported-operating-systems-platforms-and-capabilities---for-threat-and-vulnerability-management"></a>Sistemas operacionais, plataformas e recursos suportados - para Gerenciamento de Ameaças e Vulnerabilidades
 
@@ -60,7 +60,7 @@ macOS 10.14 "Mojave" e acima | Sim | Sim | Sim (visualização) | Sim (visualiza
 Red Hat Enterprise Linux 7.2 ou superior **(visualização)** ( \* Consulte Aviso "Importante" abaixo) | Sim | Sim | Sim | Sim | Sim
 CentOS 7.2 ou superior **(visualização)** | Sim | Sim | Sim | Sim | Sim
 Ubuntu 16.04 LTS ou LTS superior **(visualização)** | Sim | Sim | Sim | Sim | Sim
-Oracle Linux 7.2 ou superior | Sim | Sim | Sim | Sim | Sim
+Oracle Linux 7.2 ou superior **(visualização)** | Sim | Sim | Sim | Sim | Sim
 
 >[!IMPORTANT]
 > \*Red Hat Enterprise Linux: "Os dados de vulnerabilidade fornecidos e mostrados como parte de seus serviços do Microsoft Defender para Ponto de Extremidade são disponibilizados em sua forma bruta, "AS IS", da Red Hat, Inc., e podem não estar atualizados. Os dados acessíveis na API de Dados de Segurança do Red Hat são licenciados sob a Licença Internacional de Atribuição do Creative Commons 4.0. Você corre o risco de usar esses dados. A Microsoft e seus fornecedores de terceiros isentam toda e qualquer responsabilidade por danos indiretos e indiretos e garantias implícitas, incluindo garantias implícitas de não violação, comercialização e adequação a uma finalidade específica. © 2020 Red Hat. Todos os direitos reservados. © 2020 Microsoft. Todos os direitos reservados."

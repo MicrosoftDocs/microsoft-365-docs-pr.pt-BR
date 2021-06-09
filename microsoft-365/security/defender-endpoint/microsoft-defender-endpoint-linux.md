@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2242d195f4a4ea4b8f0c345d82fa0ad1f947bfa2
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: bd9d42ed85e9a489107a72ccbe841537a7e524d4
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730757"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843513"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender para Ponto de Extremidade para Linux
 
@@ -140,7 +140,7 @@ A planilha baixável a seguir lista os serviços e as URLs associadas às quais 
 |![Imagem em miniatura da planilha URLs do Microsoft Defender para Endpoint](images/mdatp-urls.png)<br/>  | Planilha de registros DNS específicos para locais de serviço, localizações geográficas e sistema operacional. <br><br>[Baixe a planilha aqui.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)
 
 > [!NOTE]
-> Para obter uma lista de URL mais específica, consulte [Configure proxy and internet connectivity settings](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-proxy-internet#enable-access-to-microsoft-defender-atp-service-urls-in-the-proxy-server).
+> Para obter uma lista de URL mais específica, consulte [Configure proxy and internet connectivity settings](/microsoft-365/security/defender-endpoint/configure-proxy-internet#enable-access-to-microsoft-defender-atp-service-urls-in-the-proxy-server).
 
 O Defender for Endpoint pode descobrir um servidor proxy usando os seguintes métodos de descoberta:
 - Proxy transparente
@@ -159,7 +159,7 @@ Para etapas de solução de problemas, consulte Solucionar problemas de conectiv
 
 A Microsoft publica regularmente atualizações de software para melhorar o desempenho, a segurança e fornecer novos recursos. Para atualizar o Microsoft Defender para Ponto de Extremidade no Linux, consulte [Deploy updates for Microsoft Defender for Endpoint on Linux](linux-updates.md).
 
-## <a name="how-to-configure-microsoft-defender-for-endpoint-on-linux"></a>Como configurar o Microsoft Defender para Ponto de Extremidade no Linux
+## <a name="how-to-configure-microsoft-defender-for-endpoint-on-linux"></a>Como configurar o Microsoft Defender para Ponto de Extremidade para Linux
 
 As diretrizes sobre como configurar o produto em ambientes corporativos estão disponíveis em [Definir preferências](linux-preferences.md)do Microsoft Defender para Ponto de Extremidade no Linux .
 

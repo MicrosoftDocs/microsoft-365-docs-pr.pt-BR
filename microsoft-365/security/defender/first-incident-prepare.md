@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4fc124bf8787d5880d78a4f5208bd66329da07a0
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: da9147955c5da9ea727854420b3d4d160583ef73
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539030"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52840929"
 ---
 # <a name="prepare-your-security-posture-for-your-first-incident"></a>Preparar sua postura de segurança para o primeiro incidente
 
@@ -40,14 +40,14 @@ A preparação para o tratamento de incidentes envolve a configuração de prote
 
 Microsoft 365 O Defender pode ajudar a resolver vários aspectos da prevenção de incidentes: 
 
-- Implementando uma [estrutura de Confiança](https://docs.microsoft.com/security/zero-trust/) Zero
+- Implementando uma [estrutura de Confiança](/security/zero-trust/) Zero
 - Determinando sua postura de segurança atribuindo uma pontuação com a [Pontuação Segura da Microsoft](microsoft-secure-score.md)
 - Prevenção de ameaças por meio de avaliações de vulnerabilidade no [Gerenciamento de Ameaças e Vulnerabilidades](../defender-endpoint/next-gen-threat-and-vuln-mgt.md)
 - Noções básicas sobre as ameaças de segurança mais recentes para que você possa se preparar para elas
 
 ## <a name="step-1-implement-zero-trust"></a>Etapa 1. Implementar Confiança Zero
 
-[A](https://docs.microsoft.com/security/zero-trust/) Confiança Zero é uma filosofia de segurança integrada e uma estratégia de ponta a ponta que considera a natureza complexa de qualquer ambiente moderno, incluindo a força de trabalho móvel e os usuários, dispositivos, aplicativos e dados, onde quer que estejam localizados. Ao fornecer um único painel de vidro para gerenciar todas as detecções de forma consistente, o Microsoft 365 [](https://docs.microsoft.com/security/zero-trust/#guiding-principles-of-zero-trust) Defender pode facilitar para sua equipe de operações de segurança implementar os princípios orientadores do Zero Trust. 
+[A](/security/zero-trust/) Confiança Zero é uma filosofia de segurança integrada e uma estratégia de ponta a ponta que considera a natureza complexa de qualquer ambiente moderno, incluindo a força de trabalho móvel e os usuários, dispositivos, aplicativos e dados, onde quer que estejam localizados. Ao fornecer um único painel de vidro para gerenciar todas as detecções de forma consistente, o Microsoft 365 [](/security/zero-trust/#guiding-principles-of-zero-trust) Defender pode facilitar para sua equipe de operações de segurança implementar os princípios orientadores do Zero Trust. 
 
 Os componentes do Microsoft 365 Defender podem exibir violações de regras implementadas para estabelecer políticas de Acesso Condicional para Confiança Zero integrando dados do Microsoft Defender para Ponto de Extremidade (MDE) ou outros fornecedores de segurança móvel como fonte de informações para políticas de conformidade de dispositivo e implementação de políticas de Acesso Condicional baseadas em dispositivo. 
 

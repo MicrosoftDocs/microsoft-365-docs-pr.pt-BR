@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: how-to
 ms.date: 01/29/2021
 ms.technology: mde
-ms.openlocfilehash: b0c983f4ba939cee6485570af774c8a728c73944
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 410972bd823c3a3c4fda53cacc225014d83f3457
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274923"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844005"
 ---
 # <a name="review-remediation-actions-following-an-automated-investigation"></a>Revisar ações de correção após uma investigação automatizada
 
@@ -39,7 +39,7 @@ Dependendo
 
 - o tipo de ameaça, 
 - o veredito resultante e 
-- como os grupos de [dispositivos da](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups) sua organização são configurados, 
+- como os grupos de [dispositivos da](/microsoft-365/security/defender-endpoint/machine-groups) sua organização são configurados, 
 
 As ações de correção podem ocorrer automaticamente ou somente após a aprovação pela equipe de operações de segurança da sua organização. 
 
@@ -49,7 +49,7 @@ Veja alguns exemplos:
 
 - **Exemplo 2**: Os dispositivos da Contoso estão incluídos em um grupo de dispositivos definido para Semi - exige aprovação **para qualquer correção**. Nesse caso, a equipe de operações de segurança da Contoso deve revisar e aprovar todas as ações de correção após uma investigação automatizada (consulte [Review pending actions](#review-pending-actions)).
 
-- **Exemplo 3:** Tailspin Toys tem seus grupos de dispositivos definidos como **Nenhuma resposta automatizada** (não recomendada). Nesse caso, investigações automatizadas não ocorrem. Nenhuma ação de correção é realizada ou pendente e [](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/auto-investigation-action-center#the-action-center) nenhuma ação é registrada no Centro de Ações para seus dispositivos (consulte [Gerenciar grupos de dispositivos](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups#manage-device-groups)).
+- **Exemplo 3:** Tailspin Toys tem seus grupos de dispositivos definidos como **Nenhuma resposta automatizada** (não recomendada). Nesse caso, investigações automatizadas não ocorrem. Nenhuma ação de correção é realizada ou pendente e [](/microsoft-365/security/defender-endpoint/auto-investigation-action-center#the-action-center) nenhuma ação é registrada no Centro de Ações para seus dispositivos (consulte [Gerenciar grupos de dispositivos](/microsoft-365/security/defender-endpoint/machine-groups#manage-device-groups)).
 
 Seja realizada automaticamente ou após a aprovação, uma investigação automatizada pode resultar em uma ou mais ações de correção:
 - Colocar em quarentena um arquivo
@@ -111,8 +111,8 @@ Os níveis de automação afetam se determinadas ações de correção são real
 |**Semi - exigir aprovação para correção de pastas principais** |Um veredito de *Suspicious* é atingido para uma evidência. <br/><br/>As ações de correção estão pendentes de aprovação.  |[Aprovar (ou rejeitar) ações pendentes](#review-pending-actions).|
 |**Semi - exigir aprovação para correção de pastas não temporárias** |Um veredito de *Mal-intencionado* é atingido por uma evidência. <br/><br/>Se o artefato for um arquivo ou executável que não esteja em uma pasta temporária, como a pasta de downloads do usuário ou pasta temporária, as ações de correção estão pendentes de aprovação. <br/><br/>Se o artefato for um arquivo ou executável que *esteja* em uma pasta temporária, as ações de correção serão executadas automaticamente.  |1. [Aprovar (ou rejeitar) ações pendentes](#review-pending-actions)<br/><br/>2. [Revisar ações concluídas](#review-completed-actions)  |
 |**Semi - exigir aprovação para correção de pastas não temporárias** |Um veredito de *Suspicious* é atingido para uma evidência. <br/><br/>As ações de correção estão pendentes de aprovação. |[Aprovar (ou rejeitar) ações pendentes](#review-pending-actions)  | 
-|Qualquer um dos níveis **de automação Completo** ou **Semi** |Um veredito de *Nenhuma ameaça encontrada* é alcançado para uma evidência. <br/><br/>Nenhuma ação de correção é tomada e nenhuma ação está pendente de aprovação. |[Exibir detalhes e resultados das investigações automatizadas](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/auto-investigation-action-center) |
-|**Nenhuma resposta automatizada** (não recomendada)|Nenhuma investigação automatizada é realizada, portanto, nenhum veredito é atingido e nenhuma ação de correção é tomada ou aguarda aprovação. |[Considere configurar ou alterar seus grupos de dispositivos para usar **automação completa** ou **semi**](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups) |
+|Qualquer um dos níveis **de automação Completo** ou **Semi** |Um veredito de *Nenhuma ameaça encontrada* é alcançado para uma evidência. <br/><br/>Nenhuma ação de correção é tomada e nenhuma ação está pendente de aprovação. |[Exibir detalhes e resultados das investigações automatizadas](/microsoft-365/security/defender-endpoint/auto-investigation-action-center) |
+|**Nenhuma resposta automatizada** (não recomendada)|Nenhuma investigação automatizada é realizada, portanto, nenhum veredito é atingido e nenhuma ação de correção é tomada ou aguarda aprovação. |[Considere configurar ou alterar seus grupos de dispositivos para usar **automação completa** ou **semi**](/microsoft-365/security/defender-endpoint/machine-groups) |
 
 No Microsoft Defender para Ponto de Extremidade, todos os vereditos são rastreados no [Centro de Ações](auto-investigation-action-center.md#new-a-unified-action-center).
 

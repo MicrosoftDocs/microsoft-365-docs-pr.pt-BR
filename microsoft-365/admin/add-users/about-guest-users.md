@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como a lista de usuários convidados é preenchida no Microsoft 365 de administração.
-ms.openlocfilehash: 7c0fbfb57c9710103d1b670eb09024501071d602
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: f7a337b3ce4eb659cb4269f516345d7a24168ecc
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683386"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841037"
 ---
 # <a name="guest-users-in-microsoft-365-admin-center"></a>Usuários convidados no Microsoft 365 de administração
 
@@ -48,12 +48,12 @@ Você deve ser um administrador global para executar essa tarefa.
 
 ## <a name="steps-add-guests-in-azure-active-directory"></a>Etapas: Adicionar convidados Azure Active Directory
 
-Para adicionar convidados no Azure Active Directory, consulte [adicionar usuários convidados](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
+Para adicionar convidados no Azure Active Directory, consulte [adicionar usuários convidados](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
 Depois de adicionar um usuário, você também pode atribuí-lo a um grupo ou dar a ele acesso a um aplicativo em sua organização. Depois de adicionar um usuário no portal do Azure AD,  esse usuário também será listado na página Usuários convidados no centro de administração Microsoft 365.
 Depois que um usuário é adicionado à lista **De** usuários convidados, eles podem ser adicionados a [Grupos](../create-groups/manage-guest-access-in-groups.md#add-guests-to-a-microsoft-365-group-from-the-admin-center) no Microsoft 365 de administração.
 
-Consulte [adicionar convidados em massa para](https://docs.microsoft.com/azure/active-directory/b2b/tutorial-bulk-invite) convidar vários convidados para colaborar com sua organização.
+Consulte [adicionar convidados em massa para](/azure/active-directory/b2b/tutorial-bulk-invite) convidar vários convidados para colaborar com sua organização.
 
 ## <a name="next-steps-remove-a-guest"></a>Próximas etapas: Remover um convidado
 
@@ -62,7 +62,7 @@ Depois de terminar de colaborar com um usuário convidado, você poderá removê
 1. No centro de administração Microsoft 365, **expanda Usuários** e escolha **Usuários convidados**.
 1. Na página **Usuários convidados,** escolha o usuário que você deseja remover e escolha **Excluir um usuário**.
 
-Para remover usuários no portal do Azure AD, consulte [remove a guest user and resources](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal#clean-up-resources).
+Para remover usuários no portal do Azure AD, consulte [remove a guest user and resources](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal#clean-up-resources).
 
 ## <a name="related-content"></a>Conteúdo relacionado
 

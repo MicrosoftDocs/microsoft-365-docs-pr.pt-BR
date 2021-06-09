@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: eed486120673abc513490f4892069ee8fd9bba21
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: e258a7fec21bd3499553fe726730ac685ff990b5
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636153"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821374"
 ---
 # <a name="get-started-with-communication-compliance"></a>Introdução à conformidade de comunicação
 
@@ -133,7 +133,7 @@ Use o gráfico a seguir para ajudá-lo a configurar grupos em sua organização 
   
 Quando você atribui um grupo de distribuição à política, a política monitora todos os emails e Teams chats de cada usuário no grupo de distribuição. Quando você atribui um grupo Microsoft 365 na política, a política monitora todos os emails e chats Teams enviados a esse grupo, não os emails e chats individuais recebidos por cada membro do grupo.
 
-Se você é uma organização com uma implantação Exchange local ou um provedor de email externo e deseja monitorar chats de Microsoft Teams para seus usuários, você deve criar um grupo de distribuição para os usuários com caixas de correio locais ou externas para monitorar. Posteriormente, nessas etapas, você atribuirá esse grupo de distribuição como a seleção usuários supervisionados e **grupos** no assistente de política.
+Se você é uma organização com uma implantação Exchange local ou um provedor de email externo e deseja monitorar chats de Microsoft Teams para seus usuários, você deve criar um grupo de distribuição para os usuários com caixas de correio locais ou externas para monitorar. Posteriormente, nessas etapas, você atribuirá esse grupo de distribuição como a seleção usuários supervisionados e **grupos** no assistente de política. Para obter mais informações sobre os requisitos e limitações para habilenciar o armazenamento baseado em nuvem e o suporte Teams usuários locais, consulte Search for Teams chat data for [on-premises users](search-cloud-based-mailboxes-for-on-premises-users.md).
 
 Para gerenciar usuários supervisionados em grandes organizações empresariais, talvez seja necessário monitorar todos os usuários em grupos grandes. Você pode usar o PowerShell para configurar um grupo de distribuição para uma política de conformidade de comunicação global para o grupo atribuído. Isso permite monitorar milhares de usuários com uma única política e manter a política de conformidade de comunicação atualizada à medida que novos funcionários ingressarem em sua organização.
 

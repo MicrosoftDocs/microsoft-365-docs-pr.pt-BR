@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: argani
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,16 +16,16 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_licensing
-ms.reviewer: argani
 search.appverid:
 - MET150
 description: Saiba como gerenciar licenças para aplicativos de terceiros no Microsoft 365 de administração.
-ms.openlocfilehash: 91c2a75aefe28b3525996522f7fdd55d22524d43
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.date: 04/30/2021
+ms.openlocfilehash: 2b74c8a43f759ca2cdcecac6a59fca5c0952b44f
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107710"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821398"
 ---
 # <a name="manage-third-party-app-licenses-in-the-microsoft-365-admin-center"></a>Gerenciar licenças de aplicativo de terceiros no Microsoft 365 de administração
 

@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: Saiba mais sobre a Advanced eDiscovery de Microsoft 365. Este artigo fornece uma visão geral do Advanced eDiscovery em Microsoft 365, uma ferramenta para ajudá-lo a gerenciar investigações internas e externas. Ele também enquadra os motivos comerciais para usar Advanced eDiscovery gerenciar suas investigações legais.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ec5ea7b32abb03edd31ab69abc7b8d3044b1d353
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 16f597fdbbbad89116af73fdd0a607f3f03116ad
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782784"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52840833"
 ---
 # <a name="overview-of-microsoft-365-advanced-ediscovery"></a>Visão geral do Microsoft 365 Advanced eDiscovery
 
@@ -105,7 +105,7 @@ O licenciamento para Advanced eDiscovery requer a assinatura da organização ap
 
   - Microsoft 365 Education Assinatura A5 ou Office 365 Education A5
 
-   Se você não tiver um plano de Microsoft 365 E5 existente e quiser tentar [](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) Advanced eDiscovery, poderá adicionar Microsoft 365 à [](https://www.microsoft.com/microsoft-365/enterprise) sua assinatura existente ou inscrever-se para uma avaliação de Microsoft 365 E5.
+   Se você não tiver um plano de Microsoft 365 E5 existente e quiser tentar [](/office365/admin/try-or-buy-microsoft-365) Advanced eDiscovery, poderá adicionar Microsoft 365 à [](https://www.microsoft.com/microsoft-365/enterprise) sua assinatura existente ou inscrever-se para uma avaliação de Microsoft 365 E5.
 
 - **Licenciamento por usuário:** Para adicionar um usuário como um custodiante em um caso de Descoberta Antecipada, esse usuário deve ter uma das seguintes licenças, dependendo da assinatura da sua organização:
 
@@ -113,7 +113,7 @@ O licenciamento para Advanced eDiscovery requer a assinatura da organização ap
 
   - Office 365: os usuários devem ter uma licença Office 365 E5 ou Office 365 Education A5.
 
-   Para obter informações sobre como atribuir licenças, consulte [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+   Para obter informações sobre como atribuir licenças, consulte [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 > [!NOTE]
 > Os usuários só precisam de uma licença E5 ou A5 (ou a licença de complemento apropriada) para serem adicionados como custodiantes a uma Advanced eDiscovery caso. Os administradores de TIs, gerentes de Descoberta De eDiscovery, advogados, paralegales ou investigadores que usam o Advanced eDiscovery para gerenciar casos e revisar dados de caso não precisam de uma licença E5, A5 ou complemento.

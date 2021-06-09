@@ -1,6 +1,6 @@
 ---
 title: Integração usando o Microsoft Endpoint Configuration Manager
-description: Saiba como integrar o Microsoft Defender para Ponto de Extremidade usando o Microsoft Endpoint Configuration Manager
+description: Saiba como fazer a integração com o Microsoft Defender para Ponto de Extremidade usando Microsoft Endpoint Configuration Manager
 keywords: integração, configuração, implantação, implantação, gerenciador de configuração de ponto de extremidade, Microsoft Defender para Ponto de Extremidade, criação de coleção, resposta de detecção de ponto de extremidade, proteção de próxima geração, redução de superfície de ataque, microsoft endpoint configuration manager
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 84273ce3e060eb86ee246a5cc6a8cae3cba743b5
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: eab23ddeb9011e80cf2835b8d38b2d3fad4b7089
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934484"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843501"
 ---
 # <a name="onboarding-using-microsoft-endpoint-configuration-manager"></a>Integração usando o Microsoft Endpoint Configuration Manager
 
@@ -49,73 +49,73 @@ Embora o Defender para Ponto de Extremidade suporte à integração de vários p
 
 
 Este tópico orienta os usuários em:
-- Etapa 1: Integrando dispositivos Windows ao serviço 
+- Etapa 1: Integrando Windows dispositivos ao serviço 
 - Etapa 2: Configurando o Defender para recursos do Ponto de Extremidade
 
-Essas diretrizes de integração orientarão você pelas seguintes etapas básicas que você precisa seguir ao usar o Microsoft Endpoint Configuration Manager:
-- **Criando uma coleção no Microsoft Endpoint Configuration Manager**
-- **Configurando o Microsoft Defender para recursos de ponto de extremidade usando o Microsoft Endpoint Configuration Manager**
+Essas diretrizes de integração orientarão você pelas seguintes etapas básicas que você precisa seguir ao usar Microsoft Endpoint Configuration Manager:
+- **Criando uma coleção em Microsoft Endpoint Configuration Manager**
+- **Configurando o Microsoft Defender para recursos de ponto de extremidade usando Microsoft Endpoint Configuration Manager**
 
 >[!NOTE]
->Somente dispositivos Windows são abordados nesta implantação de exemplo. 
+>Somente Windows dispositivos são abordados nesta implantação de exemplo. 
 
 
 
-## <a name="step-1-onboard-windows-devices-using-microsoft-endpoint-configuration-manager"></a>Etapa 1: Integração de dispositivos Windows usando o Microsoft Endpoint Configuration Manager
+## <a name="step-1-onboard-windows-devices-using-microsoft-endpoint-configuration-manager"></a>Etapa 1: integração Windows dispositivos usando Microsoft Endpoint Configuration Manager
 
 ### <a name="collection-creation"></a>Criação de coleção
-Para a integração de dispositivos Windows 10 com o Microsoft Endpoint Configuration Manager, a implantação pode direcionar uma coleção existente ou uma nova coleção pode ser criada para testes. 
+Para integrar Windows 10 dispositivos com Microsoft Endpoint Configuration Manager, a implantação pode direcionar uma coleção existente ou uma nova coleção pode ser criada para testes. 
 
 A integração usando ferramentas como política de grupo ou método manual não instala nenhum agente no sistema. 
 
-No console do Microsoft Endpoint Configuration Manager, o processo de integração será configurado como parte das configurações de conformidade no console.
+No console Microsoft Endpoint Configuration Manager o processo de integração será configurado como parte das configurações de conformidade no console.
 
 Qualquer sistema que receber essa configuração necessária manterá essa configuração enquanto o cliente do Configuration Manager continuar a receber essa política do ponto de gerenciamento. 
 
-Siga as etapas abaixo para os pontos de extremidade de integração usando o Microsoft Endpoint Configuration Manager.
+Siga as etapas abaixo para os pontos de extremidade de integração usando Microsoft Endpoint Configuration Manager.
 
-1. No console do Microsoft Endpoint Configuration Manager, navegue até **Assets and Compliance Overview Device \> \> Collections**.            
+1. No Microsoft Endpoint Configuration Manager console, navegue até **Assets and Compliance Overview Device \> \> Collections**.            
 
-    ![Imagem do Assistente do Microsoft Endpoint Configuration Manager1](images/configmgr-device-collections.png)
+    ![Imagem do Microsoft Endpoint Configuration Manager wizard1](images/configmgr-device-collections.png)
 
 2. Clique com **o botão direito do mouse em Conjunto de Dispositivos** e selecione Criar Coleção de **Dispositivos**.
 
-    ![Imagem do Assistente do Microsoft Endpoint Configuration Manager2](images/configmgr-create-device-collection.png)
+    ![Imagem do Microsoft Endpoint Configuration Manager wizard2](images/configmgr-create-device-collection.png)
 
 3. Forneça uma **coleção Name** and **Limiting**, em seguida, selecione **Next**.
 
-    ![Imagem do Assistente do Microsoft Endpoint Configuration Manager3](images/configmgr-limiting-collection.png)
+    ![Imagem do Microsoft Endpoint Configuration Manager assistente3](images/configmgr-limiting-collection.png)
 
 4. Selecione **Adicionar Regra** e escolha Regra de **Consulta**.
 
-    ![Imagem do Assistente do Microsoft Endpoint Configuration Manager4](images/configmgr-query-rule.png)
+    ![Imagem do Microsoft Endpoint Configuration Manager wizard4](images/configmgr-query-rule.png)
 
 5.  Clique **em Próximo** no Assistente de Associação **Direta** e clique em **Editar instrução De consulta**.
 
-     ![Imagem do Assistente do Microsoft Endpoint Configuration Manager5](images/configmgr-direct-membership.png)
+     ![Imagem do Microsoft Endpoint Configuration Manager assistente5](images/configmgr-direct-membership.png)
 
 6. Selecione **Critérios** e escolha o ícone de estrela.
 
-     ![Imagem do Assistente do Microsoft Endpoint Configuration Manager6](images/configmgr-criteria.png)
+     ![Imagem do Microsoft Endpoint Configuration Manager wizard6](images/configmgr-criteria.png)
 
 7. Mantenha o tipo de critério como valor simples **,** escolha  onde como Sistema Operacional **-** número de com build , operador maior ou igual a e **valor 14393** e clique em **OK**.
 
-    ![Imagem do Assistente do Microsoft Endpoint Configuration Manager7](images/configmgr-simple-value.png)
+    ![Imagem do Microsoft Endpoint Configuration Manager assistente7](images/configmgr-simple-value.png)
 
 8. Selecione **Próximo** e **Fechar**.
 
-    ![Imagem do Assistente do Microsoft Endpoint Configuration Manager8](images/configmgr-membership-rules.png)
+    ![Imagem do Microsoft Endpoint Configuration Manager wizard8](images/configmgr-membership-rules.png)
 
 9. Selecione **Avançar**.
 
-    ![Imagem do Assistente do Microsoft Endpoint Configuration Manager9](images/configmgr-confirm.png)
+    ![Imagem do Microsoft Endpoint Configuration Manager wizard9](images/configmgr-confirm.png)
 
 
-Depois de concluir essa tarefa, agora você tem uma coleção de dispositivos com todos os pontos de extremidade do Windows 10 no ambiente. 
+Depois de concluir essa tarefa, agora você tem uma coleção de dispositivos com todos os Windows 10 de extremidade no ambiente. 
 
 
 ## <a name="step-2-configure-microsoft-defender-for-endpoint-capabilities"></a>Etapa 2: Configurar o Microsoft Defender para recursos do Ponto de Extremidade 
-Esta seção orienta você na configuração dos seguintes recursos usando o Microsoft Endpoint Configuration Manager em dispositivos Windows:
+Esta seção orienta você na configuração dos seguintes recursos usando Microsoft Endpoint Configuration Manager em Windows dispositivos:
 
 - [**Detecção de ponto de extremidade e resposta**](#endpoint-detection-and-response)
 - [**Proteção de próxima geração**](#next-generation-protection)
@@ -124,13 +124,13 @@ Esta seção orienta você na configuração dos seguintes recursos usando o Mic
 
 ### <a name="endpoint-detection-and-response"></a>Detecção de ponto de extremidade e resposta
 #### <a name="windows-10"></a>Windows 10
-De dentro do Centro de Segurança do Microsoft Defender, é possível baixar a política '.onboarding' que pode ser usada para criar a política no System Center Configuration Manager e implantar essa política em dispositivos Windows 10.
+De dentro do Central de Segurança do Microsoft Defender é possível baixar a política '.onboarding' que pode ser usada para criar a política no System Center Configuration Manager e implantar essa política em dispositivos Windows 10.
 
-1. Em um Portal do Centro de Segurança do Microsoft Defender, selecione [Configurações e, em seguida, Integrando](https://securitycenter.windows.com/preferences2/onboarding).
+1. Em um Central de Segurança do Microsoft Defender Portal, selecione [Configurações e, em seguida, Integrando](https://securitycenter.windows.com/preferences2/onboarding).
 
 
 
-2. Em Método deployment, selecione a versão suportada do **Microsoft Endpoint Configuration Manager**.
+2. Em Método deployment, selecione a versão suportada **do Microsoft Endpoint Configuration Manager**.
 
     ![Imagem do Assistente de integração do Microsoft Defender para Ponto de Extremidade10](images/mdatp-onboarding-wizard.png)
 
@@ -139,15 +139,15 @@ De dentro do Centro de Segurança do Microsoft Defender, é possível baixar a p
     ![Imagem do Assistente de integração do Microsoft Defender para Ponto de Extremidade11](images/mdatp-download-package.png)
 
 4. Salve o pacote em um local acessível.
-5. No Microsoft Endpoint Configuration Manager, navegue até: **Assets and Compliance > Overview > Endpoint Protection > Microsoft Defender ATP Policies**.
+5. Em Microsoft Endpoint Configuration Manager, navegue até: **Assets and Compliance > Overview > Endpoint Protection > Microsoft Defender ATP Policies**.
 
-6. Clique com o botão direito do **mouse em Políticas do Microsoft Defender ATP** e selecione Criar Política do Microsoft Defender **ATP**.
+6. Clique com o botão **direito Microsoft Defender ATP Políticas** e selecione Criar Microsoft Defender ATP **Política**.
 
-    ![Imagem do Assistente de Configuração do Microsoft Endpoint12](images/configmgr-create-policy.png)
+    ![Imagem do Microsoft Endpoint Configuration Manager assistente12](images/configmgr-create-policy.png)
 
 7. Insira o nome e a descrição, verifique **se a integração** está selecionada e selecione **Next**.
 
-    ![Imagem do Assistente de Configuração do Microsoft Endpoint13](images/configmgr-policy-name.png)
+    ![Imagem do Microsoft Endpoint Configuration Manager assistente13](images/configmgr-policy-name.png)
 
 
 8. Clique em **Procurar**.
@@ -169,7 +169,7 @@ De dentro do Centro de Segurança do Microsoft Defender, é possível baixar a p
 
 15. Clique **em Fechar** quando o Assistente for concluído.
 
-16.  No console do Microsoft Endpoint Configuration Manager, clique com o botão direito do mouse na política Defender para Ponto de Extremidade que você acabou de criar e selecione **Implantar**.
+16.  No console Microsoft Endpoint Configuration Manager, clique com o botão direito do mouse na política Defender para Ponto de Extremidade que você acabou de criar e selecione **Implantar**.
 
      ![Imagem das configurações4](images/configmgr-deploy.png)
 
@@ -181,7 +181,7 @@ De dentro do Centro de Segurança do Microsoft Defender, é possível baixar a p
 #### <a name="previous-versions-of-windows-client-windows-7-and-windows-81"></a>Versões anteriores do Windows Client (Windows 7 e Windows 8.1)
 Siga as etapas a seguir para identificar a ID do Espaço de Trabalho do Defender para Ponto de Extremidade e a Chave do Espaço de Trabalho, que serão necessárias para a integração de versões anteriores do Windows.
 
-1. Em um Portal do Centro de Segurança do Microsoft Defender, selecione **Configurações > Integração**.
+1. Em um Central de Segurança do Microsoft Defender Portal, selecione **Configurações > Integração**.
 
 2. Em sistema operacional, **escolha Windows 7 SP1 e 8.1**.
 
@@ -190,13 +190,13 @@ Siga as etapas a seguir para identificar a ID do Espaço de Trabalho do Defender
     ![Imagem da integração](images/91b738e4b97c4272fd6d438d8c2d5269.png)
 
 4. Instale o Microsoft Monitoring Agent (MMA). <br>
-    Atualmente, o MMA (a partir de janeiro de 2019) tem suporte nos seguintes Sistemas Operacionais Windows:
+    Atualmente, o MMA (a partir de janeiro de 2019) tem suporte nos seguintes Windows Operacionais:
 
     -   SKUs de servidor: Windows Server 2008 SP1 ou Newer
 
-    -   SKUs cliente: Windows 7 SP1 e posterior
+    -   SKUs do cliente: Windows 7 SP1 e posteriores
 
-    O agente MMA precisará ser instalado em dispositivos Windows. Para instalar o agente, alguns sistemas precisarão baixar o Update para experiência do cliente e [a telemetria](https://support.microsoft.com/help/3080149/update-for-customer-experience-and-diagnostic-telemetry) de diagnóstico para coletar os dados com o MMA. Essas versões do sistema incluem, mas podem não se limitar a:
+    O agente MMA precisará ser instalado em Windows dispositivos. Para instalar o agente, alguns sistemas precisarão baixar o Update para experiência do cliente e [a telemetria](https://support.microsoft.com/help/3080149/update-for-customer-experience-and-diagnostic-telemetry) de diagnóstico para coletar os dados com o MMA. Essas versões do sistema incluem, mas podem não se limitar a:
 
     -   Windows 8.1
 
@@ -208,7 +208,7 @@ Siga as etapas a seguir para identificar a ID do Espaço de Trabalho do Defender
 
     -   Windows Server 2008 R2
 
-    Especificamente, para o Windows 7 SP1, os seguintes patches devem ser instalados:
+    Especificamente, para Windows 7 SP1, os seguintes patches devem ser instalados:
 
     -   Instalar [KB4074598](https://support.microsoft.com/help/4074598/windows-7-update-kb4074598)
 
@@ -223,7 +223,7 @@ Depois de concluído, você deverá ver pontos de extremidade integrados no port
 ### <a name="next-generation-protection"></a>Proteção de próxima geração 
 O Windows Defender Antivírus é uma solução antimalware interna que oferece proteção de próxima geração para computadores desktop, computadores portáteis e servidores.
 
-1. No console do Microsoft Endpoint Configuration Manager, navegue até **Assets and Compliance Overview \> \> Endpoint Protection \> Antimalware Polices** e escolha **Criar Política antimalware**.
+1. No console Microsoft Endpoint Configuration Manager, navegue até **Assets and Compliance Overview Endpoint Protection \> \> \> Antimalware Polices** e escolha **Criar Política antimalware**.
 
     ![Imagem da política antimalware](images/9736e0358e86bc778ce1bd4c516adb8b.png)
 
@@ -234,9 +234,9 @@ O Windows Defender Antivírus é uma solução antimalware interna que oferece p
     Em determinados setores ou alguns clientes corporativos selecionados podem ter necessidades específicas sobre como o Antivírus é configurado.
 
   
-    [Verificação rápida versus verificação completa e verificação personalizada](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/scheduled-catch-up-scans-microsoft-defender-antivirus#quick-scan-versus-full-scan-and-custom-scan)
+    [Verificação rápida versus verificação completa e verificação personalizada](/windows/security/threat-protection/microsoft-defender-antivirus/scheduled-catch-up-scans-microsoft-defender-antivirus#quick-scan-versus-full-scan-and-custom-scan)
 
-    Para obter mais detalhes, consulte [Estrutura de configuração do Windows Security](https://docs.microsoft.com/windows/security/threat-protection/windows-security-configuration-framework/windows-security-configuration-framework)
+    Para obter mais detalhes, [consulte Segurança do Windows de configuração](/windows/security/threat-protection/windows-security-configuration-framework/windows-security-configuration-framework)
   
     ![Imagem do painel de proteção de próxima geração2](images/cd7daeb392ad5a36f2d3a15d650f1e96.png)
 
@@ -262,18 +262,18 @@ O Windows Defender Antivírus é uma solução antimalware interna que oferece p
 
      ![Imagem do painel de proteção de próxima geração11](images/configmgr-select-collection.png)
 
-Depois de concluir essa tarefa, você agora configurou com êxito o Windows Defender Antivírus.
+Depois de concluir essa tarefa, você agora configurou com êxito Windows Defender Antivírus.
 
 ### <a name="attack-surface-reduction"></a>Redução de superfície de ataque
 O pilar de redução de superfície de ataque do Defender para Ponto de Extremidade inclui o conjunto de recursos que está disponível em Exploit Guard. Regras de redução de superfície de ataque (ASR), Acesso Controlado a Pastas, Proteção de Rede e Proteção contra Exploração. 
 
-Todos esses recursos fornecem um modo de auditoria e um modo de bloqueio. No modo de auditoria, não há impacto no usuário final. Tudo o que ele faz é coletar telemetria adicional e torná-la disponível no Centro de Segurança do Microsoft Defender. O objetivo com uma implantação é mover passo a passo os controles de segurança para o modo de bloqueio.
+Todos esses recursos fornecem um modo de auditoria e um modo de bloqueio. No modo de auditoria, não há impacto no usuário final. Tudo o que ele faz é coletar telemetria adicional e torná-la disponível no Central de Segurança do Microsoft Defender. O objetivo com uma implantação é mover passo a passo os controles de segurança para o modo de bloqueio.
 
 Para definir regras ASR no modo de auditoria:
 
-1. No console do Microsoft Endpoint Configuration Manager, navegue até **Assets and Compliance Overview \> \> Endpoint Protection Windows Defender Exploit \> Guard** e escolha **Criar Política do Exploit Guard**.
+1. No console Microsoft Endpoint Configuration Manager, navegue até **Assets and Compliance Overview Endpoint Protection Windows Defender Exploit \> \> \> Guard** e escolha **Criar Política do Exploit Guard.**
 
-   ![Imagem do Microsoft Endpoint Configuration Manager console0](images/728c10ef26042bbdbcd270b6343f1a8a.png)
+   ![Imagem de Microsoft Endpoint Configuration Manager console0](images/728c10ef26042bbdbcd270b6343f1a8a.png)
 
 2.  Selecione **Redução de Superfície de Ataque**.
    
@@ -281,27 +281,27 @@ Para definir regras ASR no modo de auditoria:
 3. De definir regras como **Auditoria e** clique em **Próximo**.
 
 
-    ![Imagem do console do Microsoft Endpoint Configuration Manager1](images/d18e40c9e60aecf1f9a93065cb7567bd.png)
+    ![Imagem do Microsoft Endpoint Configuration Manager console1](images/d18e40c9e60aecf1f9a93065cb7567bd.png)
 
 4. Confirme a nova política do Exploit Guard clicando em **Next**.
 
-    ![Imagem do console do Microsoft Endpoint Configuration Manager2](images/0a6536f2c4024c08709cac8fcf800060.png)
+    ![Imagem do Microsoft Endpoint Configuration Manager console2](images/0a6536f2c4024c08709cac8fcf800060.png)
 
     
 5. Depois que a política for criada, clique em **Fechar**.
 
-    ![Imagem do console do Microsoft Endpoint Configuration Manager3](images/95d23a07c2c8bc79176788f28cef7557.png)
+    ![Imagem do Microsoft Endpoint Configuration Manager console3](images/95d23a07c2c8bc79176788f28cef7557.png)
 
-    ![Imagem do console do Microsoft Endpoint Manager1](images/95d23a07c2c8bc79176788f28cef7557.png)
+    ![Imagem do Microsoft Endpoint Manager console1](images/95d23a07c2c8bc79176788f28cef7557.png)
    
 
 6.  Clique com o botão direito do mouse na política recém-criada e escolha **Implantar**.
     
-    ![Imagem do console do Microsoft Endpoint Configuration Manager4](images/8999dd697e3b495c04eb911f8b68a1ef.png)
+    ![Imagem do Microsoft Endpoint Configuration Manager console4](images/8999dd697e3b495c04eb911f8b68a1ef.png)
 
-7. Destino da política para a coleção recém-criada do Windows 10 e clique em **OK**.
+7. Direcionar a política para a coleção Windows 10 recém-criada e clique em **OK**.
 
-    ![Imagem do console do Microsoft Endpoint Configuration Manager5](images/0ccfe3e803be4b56c668b220b51da7f7.png)
+    ![Imagem do Microsoft Endpoint Configuration Manager console5](images/0ccfe3e803be4b56c668b220b51da7f7.png)
 
 Depois de concluir essa tarefa, agora você configurou com êxito as regras ASR no modo de auditoria.  
   
@@ -324,19 +324,19 @@ A seguir estão etapas adicionais para verificar se as regras ASR são aplicadas
 
     ![Uma captura de tela de relatórios de regras de redução de superfície de ataque2](images/24bfb16ed561cbb468bd8ce51130ca9d.png)
 
-Confira [Otimizar a implantação e as detecções de regras ASR](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-machines-asr)   para obter mais detalhes.  
+Confira [Otimizar a implantação e as detecções de regras ASR](/microsoft-365/security/defender-endpoint/configure-machines-asr)   para obter mais detalhes.  
 
 
 #### <a name="set-network-protection-rules-in-audit-mode"></a>Definir regras de Proteção de Rede no modo de auditoria:
-1. No console do Microsoft Endpoint Configuration Manager, navegue até **Assets and Compliance Overview \> \> Endpoint Protection Windows Defender Exploit \> Guard** e escolha **Criar Política do Exploit Guard**.
+1. No console Microsoft Endpoint Configuration Manager, navegue até **Assets and Compliance Overview Endpoint Protection Windows Defender Exploit \> \> \> Guard** e escolha **Criar Política do Exploit Guard.**
 
-    ![Um Gerenciador de Configuração do System Center de captura de tela1](images/728c10ef26042bbdbcd270b6343f1a8a.png)
+    ![Uma captura de tela System Center Configuration Manager1](images/728c10ef26042bbdbcd270b6343f1a8a.png)
 
 2. Selecione **Proteção de rede**.
 
 3. De definir a configuração como **Auditoria** e clique em **Próximo**. 
 
-    ![Uma captura de tela Do System Center Confirugatiom Manager2](images/c039b2e05dba1ade6fb4512456380c9f.png)
+    ![Uma captura de tela System Center Confirugatiom Manager2](images/c039b2e05dba1ade6fb4512456380c9f.png)
 
 4. Confirme a nova Política do Exploit Guard clicando em **Next**.
     
@@ -350,7 +350,7 @@ Confira [Otimizar a implantação e as detecções de regras ASR](https://docs.m
 
     ![Uma captura de tela do Microsoft Endpoint Configuration Manager1](images/8999dd697e3b495c04eb911f8b68a1ef.png)
 
-7. Selecione a política para a coleção recém-criada do Windows 10 e escolha **OK**.
+7. Selecione a política para a coleção Windows 10 recém-criada e escolha **OK**.
 
     ![Uma captura de tela do Microsoft Endpoint Configuration Manager2](images/0ccfe3e803be4b56c668b220b51da7f7.png)
 
@@ -360,7 +360,7 @@ Depois de concluir essa tarefa, você agora configurou com êxito a Proteção d
 
 #### <a name="to-set-controlled-folder-access-rules-in-audit-mode"></a>Para definir regras de Acesso Controlado a Pastas no modo de auditoria:
 
-1. No console do Microsoft Endpoint Configuration Manager, navegue até **Assets and Compliance Overview \> \> Endpoint Protection Windows Defender Exploit \> Guard** e escolha **Criar Política do Exploit Guard**.
+1. No console Microsoft Endpoint Configuration Manager, navegue até **Assets and Compliance Overview Endpoint Protection Windows Defender Exploit \> \> \> Guard** e escolha **Criar Política do Exploit Guard.**
 
     ![Captura de tela do Microsoft Endpoint Configuration Manager3](images/728c10ef26042bbdbcd270b6343f1a8a.png)
 
@@ -382,7 +382,7 @@ Depois de concluir essa tarefa, você agora configurou com êxito a Proteção d
 
     ![Captura de tela do Microsoft Endpoint Configuration Manager7](images/8999dd697e3b495c04eb911f8b68a1ef.png)
 
-7.  Destino da política para a coleção recém-criada do Windows 10 e clique em **OK**.
+7.  Direcionar a política para a coleção Windows 10 recém-criada e clique em **OK**.
 
     ![Captura de tela do Microsoft Endpoint Configuration Manager8](images/0ccfe3e803be4b56c668b220b51da7f7.png)
 

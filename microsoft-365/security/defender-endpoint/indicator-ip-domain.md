@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d468a77d2c1ab4f1b363e2e91b6e8507a5390d93
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: e7dc11fe709a6d04b6309706df90f0ebbc177e25
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198478"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841061"
 ---
 # <a name="create-indicators-for-ips-and-urlsdomains"></a>Criar indicadores para IPs e URLs/domínios 
 
@@ -51,14 +51,14 @@ Ao criar indicadores para IPs e URLs ou domínios, agora você pode permitir ou 
 É importante entender os seguintes pré-requisitos antes da criação de indicadores para IPS, URLs ou domínios:
 - A URL/IP permite e bloqueia depende da Proteção de Rede do componente Defender for Endpoint a ser habilitada no modo de bloqueio. Para obter mais informações sobre as instruções de configuração e proteção de rede, consulte [Enable network protection](enable-network-protection.md).
 - A versão do cliente Antimalware deve ser 4.18.1906.x ou posterior. 
-- Suportado em computadores no Windows 10, versão 1709 ou posterior. 
-- Verifique se **os indicadores de rede personalizados** estão habilitados no Centro de Segurança do **Microsoft Defender > Configurações > recursos avançados.** Para obter mais informações, consulte [Recursos avançados](advanced-features.md).
-- Para dar suporte a indicadores no iOS, consulte [Configure custom indicators](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/ios-configure-features#configure-custom-indicators).
+- Com suporte em máquinas Windows 10, versão 1709 ou posterior. 
+- Verifique se **os indicadores de rede personalizados** estão habilitados **Central de Segurança do Microsoft Defender > Configurações > recursos avançados.** Para obter mais informações, consulte [Recursos avançados](advanced-features.md).
+- Para dar suporte a indicadores no iOS, consulte [Configure custom indicators](/microsoft-365/security/defender-endpoint/ios-configure-features#configure-custom-indicators).
 
 
 > [!IMPORTANT]
 > Somente IPs externos podem ser adicionados à lista de indicadores. Os indicadores não podem ser criados para IPs internos.
-> Para cenários de proteção da Web, recomendamos usar os recursos integrados no Microsoft Edge. O Microsoft Edge aproveita a [Proteção de Rede](network-protection.md) para inspecionar o tráfego de rede e permite blocos para TCP, HTTP e HTTPS (TLS). Se houver políticas de indicador de URL conflitantes, o caminho mais longo será aplicado. Por exemplo, a política de indicador de URL `https:\\support.microsoft.com/en-us/office` tem precedência sobre a política de indicador de URL `https:\\support.microsoft.com` .
+> Para cenários de proteção da Web, recomendamos usar os recursos integrados no Microsoft Edge. Microsoft Edge aproveita a Proteção de [Rede](network-protection.md) para inspecionar o tráfego de rede e permite blocos para TCP, HTTP e HTTPS (TLS). Se houver políticas de indicador de URL conflitantes, o caminho mais longo será aplicado. Por exemplo, a política de indicador de URL `https:\\support.microsoft.com/en-us/office` tem precedência sobre a política de indicador de URL `https:\\support.microsoft.com` .
 
 > [!NOTE]
 > Para todos os outros processos, os cenários de proteção da Web aproveitam a Proteção de Rede para inspeção e imposição: 
@@ -73,7 +73,7 @@ Ao criar indicadores para IPs e URLs ou domínios, agora você pode permitir ou 
 
 ### <a name="create-an-indicator-for-ips-urls-or-domains-from-the-settings-page"></a>Criar um indicador para IPs, URLs ou domínios na página de configurações
 
-1. No painel de navegação, selecione **Indicadores de**  >  **Configurações**.  
+1. No painel de navegação, selecione **Configurações**  >  **Indicadores**.  
 
 2. Selecione a **guia Endereços IP ou URLs/Domínios.**
 

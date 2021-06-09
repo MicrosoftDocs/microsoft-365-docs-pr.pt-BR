@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9b838071-94aa-4b8e-8d84-d17ece1ee951
 description: Saiba como redefinir a senha e enviar um email para um novo Microsoft 365 usuário.
-ms.openlocfilehash: 17db9a61dc12c349f0aea032655b56c2a448653f
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 916ac2f92f8cd6a7236525c733d4b5061368b0ef
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244039"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52840857"
 ---
 # <a name="resend-a-users-password---admin-help"></a>Reenviar a senha de um usuário – ajuda para administradores
 
@@ -33,7 +33,7 @@ Este artigo explica como re-enviar o email de notificação a um novo usuário n
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Este artigo é destinado às pessoas que definem a política de expiração de senhas para uma empresa, escola ou entidade sem fins lucrativos. Para concluir essas etapas, você precisa entrar com a sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview).
+Este artigo é destinado às pessoas que definem a política de expiração de senhas para uma empresa, escola ou entidade sem fins lucrativos. Para concluir essas etapas, você precisa entrar com a sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](/microsoft-365/business-video/admin-center-overview).
 
 Você deve ser um [administrador global ou administrador de senha](about-admin-roles.md) para executar essas etapas.
 

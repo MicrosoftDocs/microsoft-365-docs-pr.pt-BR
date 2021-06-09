@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 57d4506e32db5defe29f2d0e59f72bd4c1998310
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 3bab9d0248a2ed8e83807f3c38215e653cba26eb
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935924"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843549"
 ---
 # <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender para Ponto de Extremidade
 
@@ -33,19 +33,19 @@ ms.locfileid: "51935924"
 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-> Para obter mais informações sobre recursos e funcionalidade do Windows 10 Enterprise Edition, consulte [Windows 10 Enterprise edition](https://www.microsoft.com/WindowsForBusiness/buy).
+> Para obter mais informações sobre Windows 10 Enterprise e funcionalidades do Windows 10 Enterprise Edition, [consulte Windows 10 Enterprise edição](https://www.microsoft.com/WindowsForBusiness/buy).
 
 O Microsoft Defender for Endpoint é uma plataforma de segurança de ponto de extremidade empresarial projetada para ajudar as redes corporativas a evitar, detectar, investigar e responder a ameaças avançadas.
 <p></p>
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wDob]
 
-O Defender para Ponto de Extremidade usa a seguinte combinação de tecnologia criada no Windows 10 e no serviço de nuvem robusto da Microsoft:
+O Defender para Ponto de Extremidade usa a seguinte combinação de tecnologia Windows 10 e o serviço de nuvem robusto da Microsoft:
 
--   **Sensores comportamentais** de ponto de extremidade : incorporados no Windows 10, esses sensores coletam e processam sinais comportamentais do sistema operacional e enviam esses dados de sensor para sua instância privada, isolada e de nuvem do Microsoft Defender para Ponto de Extremidade.
+-   **Sensores comportamentais** de ponto de extremidade : incorporados Windows 10, esses sensores coletam e processam sinais comportamentais do sistema operacional e enviam esses dados de sensor para sua instância privada, isolada e de nuvem do Microsoft Defender para Ponto de Extremidade.
 
 
--   Análise de segurança na nuvem **:** aproveitando big-data, aprendizado de dispositivo e óptica exclusiva da Microsoft no ecossistema do Windows, produtos de nuvem empresarial (como o Office 365) e ativos online, sinais comportamentais são convertidos em insights, detecções e respostas recomendadas a ameaças avançadas.
+-   Análise de segurança na nuvem **:** aproveitando big-data, aprendizado de dispositivo e óptica exclusiva da Microsoft no ecossistema do Windows, produtos de nuvem empresarial (como Office 365) e ativos online, sinais comportamentais são convertidos em insights, detecções e respostas recomendadas a ameaças avançadas.
 
 -   **Inteligência** contra ameaças : gerada por caçadores da Microsoft, equipes de segurança e aumentadas pela inteligência contra ameaças fornecidas por parceiros, a inteligência contra ameaças permite que o Defender para o Ponto de Extremidade identifique ferramentas, técnicas e procedimentos do invasor e gere alertas quando eles são observados nos dados do sensor coletados.
 
@@ -57,7 +57,7 @@ O Defender para Ponto de Extremidade usa a seguinte combinação de tecnologia c
 <td><center><a href="#ngp"><img src="images/ngp-icon.png" alt="Next-generation protection"><br> <b>Proteção de última geração</b></a></center></td>
 <td><center><a href="#edr"><img src="images/edr-icon.png" alt="Endpoint detection and response"><br> <b>Detecção e resposta do ponto de extremidade</b></a></center></td>
 <td><center><a href="#ai"><img src="images/air-icon.png" alt="Automated investigation and remediation"><br> <b>Investigação e correção automatizadas</b></a></center></td>
-<td><center><a href="#mte"><img src="images/mte-icon.png" alt="Microsoft Threat Experts"><br> <b>Especialistas em ameaças da Microsoft</b></a></center></td>
+<td><center><a href="#mte"><img src="images/mte-icon.png" alt="Microsoft Threat Experts"><br> <b>Especialistas em Ameaças da Microsoft</b></a></center></td>
 </tr>
 <tr>
 <td colspan="7">
@@ -89,7 +89,7 @@ O conjunto de recursos de redução de superfície de ataque fornece a primeira 
 
 <a name="ngp"></a>
 
-**[Proteção de próxima geração](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)**<br>
+**[Proteção de próxima geração](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)**<br>
 Para reforçar ainda mais o perímetro de segurança da sua rede, o Microsoft Defender for Endpoint usa proteção de última geração projetada para capturar todos os tipos de ameaças emergentes.
 
 <a name="edr"></a>
@@ -114,8 +114,8 @@ O Defender for Endpoint inclui a Pontuação Segura da Microsoft para Dispositiv
 O novo serviço gerenciado de busca de ameaças do Microsoft Defender for Endpoint fornece busca proativa, priorização e contexto adicional e percepções que capacitam ainda mais os Centros de Operação de Segurança (SOCs) a identificar e responder a ameaças de forma rápida e precisa.
 
 >[!IMPORTANT]
->Os clientes do Defender para Ponto de Extremidade precisam solicitar o serviço de busca de ameaças gerenciado por especialistas em ameaças da Microsoft para obter notificações de ataque direcionadas proativas e colaborar com especialistas sob demanda. Especialistas sob Demanda é um serviço de complemento. Notificações de ataque direcionadas são sempre incluídas depois que você foi aceito no serviço de busca de ameaças gerenciado por especialistas em ameaças da Microsoft.<p>
-><p>Se você ainda não estiver inscrito e quiser experimentar seus benefícios, acesse <b>Configurações</b> > <b>Gerais</b> > <b></b> Recursos avançados > <b>da Microsoft Threat Experts</b> para aplicar. Depois de aceitar, você receberá os benefícios das Notificações de Ataque Direcionado e iniciará uma avaliação de 90 dias de Especialistas sob Demanda. Entre em contato com seu representante da Microsoft para obter uma assinatura completa especialistas sob demanda.
+>Os clientes do Defender para Ponto de Extremidade precisam solicitar o serviço de Especialistas em Ameaças da Microsoft de busca de ameaças gerenciadas para obter notificações de ataque direcionadas proativas e colaborar com especialistas sob demanda. Especialistas sob Demanda é um serviço de complemento. Notificações de ataque direcionadas são sempre incluídas depois que você é aceito no Especialistas em Ameaças da Microsoft de busca de ameaças gerenciadas.<p>
+><p>Se você ainda não estiver inscrito e quiser experimentar <b></b> seus benefícios, acesse Configurações > <b>recursos</b> > <b></b> avançados > <b>gerais</b> Especialistas em Ameaças da Microsoft aplicar. Depois de aceitar, você receberá os benefícios das Notificações de Ataque Direcionado e iniciará uma avaliação de 90 dias de Especialistas sob Demanda. Entre em contato com seu representante da Microsoft para obter uma assinatura completa especialistas sob demanda.
 
 <a name="apis"></a>
 
@@ -134,8 +134,8 @@ O Defender para Ponto de Extremidade integra-se diretamente a várias soluções
 - Microsoft Defender para Office
 - Skype for Business
 
-**[Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-threat-protection)**<br>
-Com o Microsoft 365 Defender, o Defender for Endpoint e várias soluções de segurança da Microsoft formam um pacote unificado de defesa empresarial de pré e pós-violação que se integra na verdade entre o ponto de extremidade, a identidade, o email e os aplicativos para detectar, impedir, investigar e responder automaticamente a ataques sofisticados.
+**[Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-threat-protection)**<br>
+Com o Microsoft 365 Defender, o Defender para o Ponto de Extremidade e várias soluções de segurança da Microsoft formam um pacote de defesa empresarial unificado de pré e pós-violação que se integra na verdade ao ponto de extremidade, identidade, email e aplicativos para detectar, impedir, investigar e responder automaticamente a ataques sofisticados.
 
 
 ## <a name="related-topic"></a>Tópicos relacionados

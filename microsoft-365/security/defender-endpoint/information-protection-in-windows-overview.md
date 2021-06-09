@@ -1,7 +1,7 @@
 ---
 title: Visão geral da proteção de informações no Windows
 ms.reviewer: ''
-description: Saiba como funciona a proteção de informações no Windows para identificar e proteger informações confidenciais
+description: Saiba mais sobre como a proteção de informações funciona Windows identificar e proteger informações confidenciais
 keywords: information, protection, dlp, data, loss, prevention, protect
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 65c5161f110e95008f2dc56aa3a2d17266ac1cb1
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 9d68f879fe8fd9379b286c106ed9229895f91b9a
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933344"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841099"
 ---
 # <a name="information-protection-in-windows-overview"></a>Visão geral da proteção de informações no Windows
 
@@ -37,16 +37,16 @@ ms.locfileid: "51933344"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-A proteção de informações é uma parte integrante do pacote do Microsoft 365 Enterprise, fornecendo proteção inteligente para manter dados confidenciais seguros enquanto habilita a produtividade no local de trabalho.
+A proteção de informações é uma parte integrante do Microsoft 365 Enterprise, fornecendo proteção inteligente para manter dados confidenciais seguros enquanto permite a produtividade no local de trabalho.
 
 
 >[!TIP]
-> Leia nossa postagem no blog sobre como o Microsoft Defender for Endpoint se integra à Proteção de Informações da Microsoft para descobrir, proteger e monitorar dados confidenciais [em dispositivos Windows.](https://cloudblogs.microsoft.com/microsoftsecure/2019/01/17/windows-defender-atp-integrates-with-microsoft-information-protection-to-discover-protect-and-monitor-sensitive-data-on-windows-devices/)
+> Leia nossa postagem no blog sobre como o Microsoft Defender for Endpoint se integra à Proteção de Informações da Microsoft para descobrir, proteger e monitorar dados confidenciais em Windows [dispositivos](https://cloudblogs.microsoft.com/microsoftsecure/2019/01/17/windows-defender-atp-integrates-with-microsoft-information-protection-to-discover-protect-and-monitor-sensitive-data-on-windows-devices/).
 
 O Defender for Endpoint aplica os seguintes métodos para descobrir, classificar e proteger dados:
 
-- **Descoberta de dados** - Identificar dados confidenciais em dispositivos Windows em risco
-- **Classificação de** dados - Classifique automaticamente os dados com base em políticas comuns de Proteção de Informações da Microsoft (MIP) gerenciadas no Centro de Conformidade & Segurança do Office 365. A classificação automática permite proteger dados confidenciais, mesmo que o usuário final não os tenha classificado manualmente.
+- **Descoberta de dados** - Identificar dados confidenciais em Windows dispositivos em risco
+- **Classificação de** dados - Classifique automaticamente os dados com base em políticas comuns de Proteção de Informações da Microsoft (MIP) gerenciadas Office 365 Centro de Conformidade & Segurança. A classificação automática permite proteger dados confidenciais, mesmo que o usuário final não os tenha classificado manualmente.
 
 
 ## <a name="data-discovery-and-data-classification"></a>Descoberta de dados e classificação de dados
@@ -55,14 +55,14 @@ O Defender for Endpoint descobre automaticamente arquivos com rótulos de sensib
 
 Rótulos de sensibilidade classificam e ajudam a proteger conteúdos confidenciais.
 
-Os tipos de informações confidenciais na implementação de prevenção contra perda de dados (DLP) do Office 365 estão em duas categorias:
+Os tipos de informações confidenciais na implementação Office 365 de prevenção contra perda de dados (DLP) estão em duas categorias:
 
 - Padrão
 - Personalizado
 
-Os tipos de informações confidenciais padrão incluem informações como números de contas bancárias, números de previdência social ou IDs nacionais. Para obter mais informações, consulte [What the sensitive information type look for](https://docs.microsoft.com/office365/securitycompliance/what-the-sensitive-information-types-look-for).
+Os tipos de informações confidenciais padrão incluem informações como números de contas bancárias, números de previdência social ou IDs nacionais. Para obter mais informações, consulte [What the sensitive information type look for](/office365/securitycompliance/what-the-sensitive-information-types-look-for).
 
-Tipos personalizados são aqueles que você define e é projetado para proteger um tipo diferente de informações confidenciais (por exemplo, IDs de funcionários ou números de projeto). Para obter mais informações, [consulte Create a custom sensitive information type](https://docs.microsoft.com/office365/securitycompliance/create-a-custom-sensitive-information-type).
+Tipos personalizados são aqueles que você define e é projetado para proteger um tipo diferente de informações confidenciais (por exemplo, IDs de funcionários ou números de projeto). Para obter mais informações, [consulte Create a custom sensitive information type](/office365/securitycompliance/create-a-custom-sensitive-information-type).
 
 Quando um arquivo é criado ou editado em um dispositivo Windows, o Defender for Endpoint verifica o conteúdo para avaliar se ele contém informações confidenciais.
 
@@ -87,9 +87,9 @@ Clique em um dispositivo para exibir uma lista de arquivos observados neste disp
 
 ## <a name="log-analytics"></a>Análise de Log
 
-A descoberta de dados baseada no Defender for Endpoint também está disponível no [Azure Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview), onde você pode realizar consultas complexas sobre os dados brutos.
+A descoberta de dados baseada no Defender for Endpoint também está disponível no [Azure Log Analytics](/azure/log-analytics/log-analytics-overview), onde você pode realizar consultas complexas sobre os dados brutos.
 
-Para obter mais informações sobre a análise da Proteção de Informações do Azure, consulte [Relatório Central para a Proteção de Informações do Azure.](https://docs.microsoft.com/azure/information-protection/reports-aip)
+Para obter mais informações sobre a análise da Proteção de Informações do Azure, consulte [Relatório Central para a Proteção de Informações do Azure.](/azure/information-protection/reports-aip)
 
 Abra o Azure Log Analytics no portal do Azure e abra um construtor de consultas (padrão ou clássico).
 
@@ -103,8 +103,8 @@ InformationProtectionLogs_CL
 **Pré-requisitos:**
 
 - Os clientes devem ter uma assinatura para a Proteção de Informações do Azure.
-- Habilitar a integração da Proteção de Informações do Azure no Centro de Segurança do Microsoft Defender:
-    - Vá para **Configurações no** Centro de Segurança do Microsoft Defender, clique em **Configurações Avançadas** em **Geral**.
+- Habilitar a integração da Proteção de Informações do Azure Central de Segurança do Microsoft Defender:
+    - Vá para **Configurações** em Central de Segurança do Microsoft Defender, clique em **Avançado Configurações** em **Geral**.
 
 
 

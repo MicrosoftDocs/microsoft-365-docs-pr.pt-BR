@@ -21,12 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 description: 'Remova uma licença de uma caixa de correio compartilhada para atribuí-la a outro usuário ou retorne a licença para que você não esteja pagando por ela. '
-ms.openlocfilehash: d33487879506402c5f0de2f7942c3299c5698b73
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.date: 05/11/2021
+ms.openlocfilehash: dd2d99d762a4a68a9b0400353d64dabb536a891c
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706281"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821423"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>Remover uma licença de uma caixa de correio compartilhada
 

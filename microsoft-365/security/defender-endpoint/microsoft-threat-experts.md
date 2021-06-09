@@ -1,7 +1,7 @@
 ---
-title: Especialistas em ameaças da Microsoft
+title: Especialistas em Ameaças da Microsoft
 ms.reviewer: ''
-description: Os Especialistas em Ameaças da Microsoft fornece uma camada adicional de experiência para o Microsoft Defender para o Ponto de Extremidade.
+description: Especialistas em Ameaças da Microsoft fornece uma camada adicional de experiência para o Microsoft Defender para Ponto de Extremidade.
 keywords: serviço de busca de ameaças gerenciada, busca de ameaças gerenciadas, serviço de detecção e resposta gerenciada (MDR), MTE, Especialistas em Ameaças da Microsoft, MTE-TAN, notificação de ataque direcionado, Notificação de Ataque Direcionado
 search.product: Windows 10
 search.appverid: met150
@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 466e67bb4649f8cf87e4152a07122d57c5071b79
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: ebde023db5196117a02a2372784a3110839c51fa
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185570"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843525"
 ---
-# <a name="microsoft-threat-experts"></a>Especialistas em ameaças da Microsoft
+# <a name="microsoft-threat-experts"></a>Especialistas em Ameaças da Microsoft
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -37,7 +37,7 @@ ms.locfileid: "51185570"
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 
-Os Especialistas em Ameaças da Microsoft são um serviço gerenciado de busca de ameaças que fornece aos seus Centros de Operação de Segurança (SOCs) monitoramento e análise de nível especializado para ajudá-los a garantir que ameaças críticas em seus ambientes exclusivos não se esmaeçam.
+Especialistas em Ameaças da Microsoft é um serviço gerenciado de busca de ameaças que fornece aos Seus Centros de Operação de Segurança (SOCs) monitoramento e análise de nível especializado para ajudá-los a garantir que ameaças críticas em seus ambientes exclusivos não se esmaeçam.
   
 Esse serviço gerenciado de busca de ameaças fornece informações e dados orientados por especialistas por meio desses dois recursos: notificação de ataque direcionada e acesso a especialistas sob demanda.
 
@@ -45,23 +45,23 @@ Esse serviço gerenciado de busca de ameaças fornece informações e dados orie
 > [!NOTE]
 > Discuta os requisitos de qualificação com seu provedor de serviços técnicos da Microsoft e a equipe de conta antes de aplicar ao serviço de busca de ameaças gerenciado.
 
-Se você for um cliente do Microsoft Defender para Ponto de Extremidade, precisará aplicar-se aos Especialistas em Ameaças da Microsoft - Notificações de Ataque Direcionadas para obter informações e análises especiais que ajudam a identificar as ameaças mais **críticas** em seu ambiente para que você possa responder rapidamente a elas
+Se você for um cliente do Microsoft Defender para Ponto de Extremidade, será necessário solicitar o Especialistas em Ameaças da Microsoft - Notificações de Ataque Direcionados para obter informações e análises especiais que ajudam a identificar as ameaças mais **críticas** em seu ambiente para que você possa responder a elas rapidamente
 
-Para se inscrever nos Especialistas em Ameaças da Microsoft - Benefícios de Notificações de Ataques **Direcionados,** acesse Configurações Recursos avançados gerais Microsoft Threat Experts - Notificações de Ataque  >    >    >  **Direcionadas** a aplicar. Uma vez aceito, você receberá os benefícios das Notificações de Ataque Direcionados.
+Para se inscrever no Especialistas em Ameaças da Microsoft - Benefícios de Notificações de Ataques Direcionados, acesse Configurações Recursos Avançados Gerais Especialistas em Ameaças da Microsoft - Notificações de Ataque  >    >    >  **Direcionadas** a aplicar. Uma vez aceito, você receberá os benefícios das Notificações de Ataque Direcionados.
 
-Entre em contato com sua equipe de conta ou representante da Microsoft para se inscrever no **Microsoft Threat Experts -** Especialistas sob Demanda para consultar nossos especialistas em ameaças sobre detecções e adversários relevantes que sua organização está enfrentando.
+Entre em contato com sua equipe de conta ou representante da Microsoft para assinar o **Especialistas em Ameaças da Microsoft -** Especialistas sob Demanda para consultar nossos especialistas em ameaças sobre detecções e adversários relevantes que sua organização está enfrentando.
 
-Confira [Configurar recursos de Especialistas em Ameaças da Microsoft](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-microsoft-threat-experts#before-you-begin) para obter detalhes. 
+Consulte [Configurar Especialistas em Ameaças da Microsoft recursos para](/microsoft-365/security/defender-endpoint/configure-microsoft-threat-experts#before-you-begin) obter detalhes. 
 
-## <a name="microsoft-threat-experts---targeted-attack-notification"></a>Especialistas em ameaças da Microsoft - Notificação de ataque direcionada 
-Especialistas em ameaças da Microsoft - A notificação de ataque direcionada fornece a busca proativa das ameaças mais importantes à sua rede, incluindo invasões de adversários humanos, ataques de teclado ou ataques avançados, como a ciber-espionagem. Essas notificações são um novo alerta. O serviço de busca gerenciada inclui:  
+## <a name="microsoft-threat-experts---targeted-attack-notification"></a>Especialistas em Ameaças da Microsoft - Notificação de ataque direcionado 
+Especialistas em Ameaças da Microsoft - A notificação de ataque direcionada fornece a busca proativa das ameaças mais importantes à sua rede, incluindo invasões de adversários humanos, ataques hands-on-keyboard ou ataques avançados, como a ciber-espionagem. Essas notificações são um novo alerta. O serviço de busca gerenciada inclui:  
 - Monitoramento e análise de ameaças, reduzindo o tempo de vida e o risco para os negócios 
 - Inteligência artificial treinado pelo caçador para descobrir e priorizar ataques conhecidos e desconhecidos  
 - Identificar os riscos mais importantes, ajudando os SOCs a maximizar o tempo e a energia 
 - Escopo de comprometimento e o máximo de contexto que pode ser entregue rapidamente para habilitar a resposta rápida do SOC. 
  
-## <a name="microsoft-threat-experts---experts-on-demand"></a>Especialistas em ameaças da Microsoft - Especialistas sob demanda
-Os clientes podem envolver nossos especialistas em segurança diretamente de dentro do Centro de Segurança do Microsoft Defender para uma resposta o tempo e a precisão. Os especialistas fornecem informações necessárias para entender melhor as ameaças complexas que afetam sua organização, desde consultas de alerta, dispositivos potencialmente comprometidos, causa raiz de uma conexão de rede suspeita, até informações adicionais sobre ameaças em relação a campanhas avançadas de ameaças persistentes em andamento. Com essa funcionalidade, você pode:
+## <a name="microsoft-threat-experts---experts-on-demand"></a>Especialistas em Ameaças da Microsoft - Especialistas sob Demanda
+Os clientes podem envolver nossos especialistas em segurança diretamente de dentro Central de Segurança do Microsoft Defender para uma resposta o tempo e a precisão. Os especialistas fornecem informações necessárias para entender melhor as ameaças complexas que afetam sua organização, desde consultas de alerta, dispositivos potencialmente comprometidos, causa raiz de uma conexão de rede suspeita, até informações adicionais sobre ameaças em relação a campanhas avançadas de ameaças persistentes em andamento. Com essa funcionalidade, você pode:
 - Obter esclarecimento adicional sobre alertas, incluindo a causa raiz ou o escopo do incidente 
 - Obtenha clareza no comportamento do dispositivo suspeito e nas próximas etapas se enfrentar um invasor avançado  
 - Determinar riscos e proteção em relação a atores de ameaças, campanhas ou técnicas de invasores emergentes 
@@ -89,4 +89,4 @@ Assista a este vídeo para uma visão geral rápida do Microsoft Services Hub.
 
    
 ## <a name="related-topic"></a>Tópicos relacionados
-- [Configurar recursos de Especialistas em Ameaças da Microsoft](configure-microsoft-threat-experts.md)
+- [Configurar Especialistas em Ameaças da Microsoft recursos](configure-microsoft-threat-experts.md)

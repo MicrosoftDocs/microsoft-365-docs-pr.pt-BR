@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 5c76784d78837c324922ffc25539746a4921e426
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 0ddb38e713f08c101639976b9f2c8c1ee32e63a3
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769698"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843777"
 ---
 # <a name="create-custom-reports-using-power-bi"></a>Criar relatórios personalizados usando Power BI
 
@@ -142,7 +142,7 @@ O primeiro exemplo demonstra como conectar o Power BI à API de Busca Avançada 
 Para obter mais informações, consulte [os Power BI de relatório](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI).
 
 ## <a name="sample-reports"></a>Relatórios de exemplo
-Exibir os exemplos de relatório do Microsoft Defender for Endpoint Power BI endpoint. Para obter mais informações, consulte [Procurar exemplos de código](https://docs.microsoft.com/samples/browse/?products=mdatp).
+Exibir os exemplos de relatório do Microsoft Defender for Endpoint Power BI endpoint. Para obter mais informações, consulte [Procurar exemplos de código](/samples/browse/?products=mdatp).
 
 
 ## <a name="related-topic"></a>Tópicos relacionados

@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: dd0cc3c2da134750f905b1f80746d6ec65cc70b2
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: a0718f8e3aba27e6fbfc92a4308278f4c629275f
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769696"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843789"
 ---
 # <a name="microsoft-power-automate-formerly-microsoft-flow-and-azure-functions"></a>Microsoft Power Automate (anteriormente Microsoft Flow) e funções do Azure
 
@@ -42,7 +42,7 @@ A API do Microsoft Defender tem um conector Flow oficial com muitos recursos.
 ![Imagem de credenciais de edição1](images/api-flow-0.png)
 
 > [!NOTE]
-> Para obter mais detalhes sobre os pré-requisitos de licenciamento de conectores premium, consulte [Licensing for premium connectors](https://docs.microsoft.com/power-automate/triggers-introduction#licensing-for-premium-connectors).
+> Para obter mais detalhes sobre os pré-requisitos de licenciamento de conectores premium, consulte [Licensing for premium connectors](/power-automate/triggers-introduction#licensing-for-premium-connectors).
 
 
 ## <a name="usage-example"></a>Exemplo de uso

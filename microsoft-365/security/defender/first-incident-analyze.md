@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 83889123067897483478aec3d881a5a7b6ec14cc
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 8eb36ca630a9748de07c5cbe84f0e43ef23a47cf
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297219"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841073"
 ---
 # <a name="step-1-triage-and-analyze-your-first-incident"></a>Etapa 1. Triagem e analise seu primeiro incidente
 
@@ -45,10 +45,10 @@ Depois que um incidente de segurança for detectado, Microsoft 365 Defender apre
 Microsoft 365 O Defender recebe alertas e eventos de várias plataformas de segurança da Microsoft como fontes de detecção para criar uma imagem holística e um contexto de atividade mal-intencionada. Estas são as possíveis fontes de detecção:
 
 - [O Microsoft Defender for Endpoint](../defender-endpoint/microsoft-defender-endpoint.md) é uma solução detecção e resposta de ponto de extremidade (EDR) que usa o antivírus do Microsoft Defender, bem como proteção avançada contra ameaças habilitada para nuvem usando o Microsoft Security Graph. O Defender for Endpoint é uma plataforma unificada para proteção preventiva, detecção pós-violação, investigação automatizada e resposta. Ele protege os pontos de extremidade contra ameaças cibernéticas, detecta ataques avançados e violações de dados, automatiza incidentes de segurança e melhora a postura de segurança. 
-- O [Microsoft Defender for Identity](https://docs.microsoft.com/defender-for-identity/what-is) é uma solução de segurança baseada em nuvem que usa seus sinais locais dos Serviços de Domínio do Active Directory (AD DS) para identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações internas mal-intencionadas direcionadas à sua organização. 
-- [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/) atua como um gatekeeper para intermediar o acesso em tempo real entre seus usuários corporativos e os recursos de nuvem que eles usam, onde quer que seus usuários estejam localizados e independentemente do dispositivo que estejam usando. 
+- O [Microsoft Defender for Identity](/defender-for-identity/what-is) é uma solução de segurança baseada em nuvem que usa seus sinais locais dos Serviços de Domínio do Active Directory (AD DS) para identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações internas mal-intencionadas direcionadas à sua organização. 
+- [Microsoft Cloud App Security](/cloud-app-security/) atua como um gatekeeper para intermediar o acesso em tempo real entre seus usuários corporativos e os recursos de nuvem que eles usam, onde quer que seus usuários estejam localizados e independentemente do dispositivo que estejam usando. 
 - [O Microsoft Defender para Office 365](../office-365-security/overview.md) protege sua organização contra ameaças mal-intencionadas em mensagens de email, links (URLs) e ferramentas de colaboração. 
-- O Centro de Segurança do [Azure](https://docs.microsoft.com/azure/security-center/security-center-introduction) é um sistema de gerenciamento de segurança de infraestrutura unificado que reforça a postura de segurança de seus data centers e fornece proteção avançada contra ameaças em suas cargas de trabalho híbridas na nuvem, bem como no local. 
+- O Centro de Segurança do [Azure](/azure/security-center/security-center-introduction) é um sistema de gerenciamento de segurança de infraestrutura unificado que reforça a postura de segurança de seus data centers e fornece proteção avançada contra ameaças em suas cargas de trabalho híbridas na nuvem, bem como no local. 
 
 No Microsoft 365 Defender, [os incidentes](incidents-overview.md) são identificados pela correlação de alertas dessas diferentes fontes de detecção. Em vez de gastar recursos em conjunto ou distinguir vários alertas em seus respectivos incidentes, você pode começar com a fila de incidentes no Microsoft 365 Defender imediatamente. Isso permite triagem de incidentes de maneira eficiente entre pontos de extremidade, identidades, email e aplicativos e reduzir os danos de um ataque.
 

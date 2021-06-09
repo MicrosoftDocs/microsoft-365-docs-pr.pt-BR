@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Prepare-se e implante a Extensão de Conformidade da Microsoft.
-ms.openlocfilehash: 084d8fea1bffb012b4a4685dd28ec93df8e29b19
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 5a2fa5958117d14715292245924dce2ff63b09a0
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730505"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843825"
 ---
 # <a name="get-started-with-microsoft-compliance-extension"></a>Comece a usar a Extensão de Conformidade da Microsoft
 
@@ -55,7 +55,7 @@ Antes de começar, você deve confirmar sua [assinatura do Microsoft 365](https:
 - Governança e Proteção de Informações do Microsoft 365 E5
 - Governança e Proteção de Informações do Microsoft 365 A5
 
-Para obter orientações de licenciamento detalhadas, confira as [orientações de licenciamento do Microsoft 365 para segurança e conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection).
+Para obter orientações de licenciamento detalhadas, confira as [orientações de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection).
 
 - Sua organização deve ser licenciada para ponto de extremidade da DLP
 - Seus dispositivos devem estar executando o Windows 10 x64 build 1809 ou posterior.
@@ -169,7 +169,7 @@ Antes de adicionar a extensão de Conformidade da Microsoft à lista de Extensõ
 
 Se não quiser usar o Microsoft Endpoint Manager, você pode usar políticas de grupo para implantar a Extensão de Conformidade da Microsoft em sua organização
 
-1. Seus dispositivos devem ser gerenciáveis por meio da Política de Grupo e você precisa importar todos os ADMXs do Chrome para o Armazenamento Central de Política de Grupo. Para obter mais informações, confira [Como criar e gerenciar o Repositório Central para Modelos Administrativos de Política de Grupo no Windows](https://docs.microsoft.com/troubleshoot/windows-client/group-policy/create-and-manage-central-store).
+1. Seus dispositivos devem ser gerenciáveis por meio da Política de Grupo e você precisa importar todos os ADMXs do Chrome para o Armazenamento Central de Política de Grupo. Para obter mais informações, confira [Como criar e gerenciar o Repositório Central para Modelos Administrativos de Política de Grupo no Windows](/troubleshoot/windows-client/group-policy/create-and-manage-central-store).
 
 2.  Crie um script do PowerShell usando este comando do PowerShell:
 
@@ -276,8 +276,8 @@ Agora que você tem dispositivos integrados e pode exibir os dados de atividade 
 - [Saiba mais sobre prevenção contra perda de dados](dlp-learn-about-dlp.md)
 - [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
 - [Começar a usar o Explorador de atividades](data-classification-activity-explorer.md)
-- [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/)
-- [Ferramentas e métodos de integração para computadores Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
+- [Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/)
+- [Ferramentas e métodos de integração para computadores Windows 10](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 - [Assinatura do Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
-- [Dispositivos associados ao Microsoft Azure AD](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)
+- [Dispositivos associados ao Microsoft Azure AD](/azure/active-directory/devices/concept-azure-ad-join)
 - [Baixar o novo Microsoft Edge baseado em Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)

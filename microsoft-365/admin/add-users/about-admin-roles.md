@@ -22,16 +22,16 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: As funções de administrador como a Administração de serviços fazem mapeamento para as funções de negócios e dão permissões para realizar tarefas específicas no centro de administração.
-ms.openlocfilehash: 3163b7a4037a923122d2da170ac5ea9e8c2d0185
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 68a5c92faa6f5cdbbd56678649441a45a600ed04
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634191"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52809030"
 ---
 # <a name="about-admin-roles"></a>Sobre funções de administrador
 
-Sua assinatura do Microsoft 365 ou do Office 365 acompanha um conjunto de funções de administrador que você pode atribuir aos usuários em sua organização usando o Centro de administração do Microsoft 365. Cada função de administrador é mapeada para uma função de negócios comum da empresa e concede permissões para a realização de tarefas específicas nos centros de administração.
+A assinatura do Microsoft 365 ou do Office 365 vem com um conjunto de funções administrativas que você pode atribuir aos usuários em sua organização usando o Centro de administração do Microsoft 365. Cada função administrativa é mapeada para funções de negócios comuns e concede às pessoas em sua organização permissões para realizar tarefas específicas nos centros administrativos.
 
 O Centro de administração do Microsoft 365 permite gerenciar as funções do Azure AD e do Microsoft Intune. No entanto, essas funções são um subconjunto das funções disponíveis no portal do Azure AD e no centro de administração do Intune.
 
@@ -76,14 +76,17 @@ Provavelmente, você só precisará atribuir as funções a seguir em sua organi
 |Administrador de licença    |   Atribua a função Administrador de licença a usuários que precisam atribuir e remover licenças de usuários, e edite o local de uso. <br/><br/> Os administradores de licenças também podem: <br> - Reprocessar as atribuições de licença para licenciamento baseado em grupo <br> - Atribuir licenças de produto a grupos para licenciamento baseado em grupo  |
 |Administrador de aplicativos do Office    |   Atribua a função de administrador de aplicativos do Office aos usuários que precisam fazer o seguinte: <br> - Use o serviço de política de nuvem do Office para criar e gerenciar políticas baseadas em nuvem para o Office <br> - Criar e gerenciar solicitações de serviço <br> – Gerenciar o conteúdo Novidades que os usuários veem em seus aplicativos do Office   <br> - Monitorar a integridade do serviço  |
 |Administrador de senha  |   Atribua a função de administrador de senha a um usuário que precisa redefinir senhas para não-administradores e administradores de senhas.   |
-|Administrador de suporte do serviço   |   Atribua a função de administrador do Suporte de serviço como uma função adicional para administradores ou usuários precisam fazer o seguinte, além da sua função de administrador normal: <br> - Abrir e gerenciar solicitações de serviço <br> - Exibir e compartilhar postagens do centro de mensagens <br> - Monitorar a integridade do serviço   |
+|Leitor do centro de mensagens |   Atribua a função de Leitor de relatórios aos usuários que precisam fazer o seguinte: <br> - Monitorar as notificações do centro de mensagens <br> - Obter os resumos semanais por email das postagens e atualizações do centro de mensagens <br> - Compartilhar as postagens do centro de mensagens <br> - Ter acesso somente leitura aos serviços do Azure Active Directory, como usuários e grupos|
+|Administrador do Power Platform |   Atribua a função de Leitor de relatórios aos usuários que precisam fazer o seguinte: <br> - Gerenciar todos os recursos de administração para PowerApps, Microsoft Flow e prevenção contra perda de dados <br> - Criar e gerenciar as solicitações do serviço <br> - Monitorar a integridade do serviço  |
+|Leitor de relatórios |   Atribua a função de Leitor de relatórios aos usuários que precisam fazer o seguinte: <br> - Exibir os dados do uso e os relatórios de atividades no Centro de administração do Microsoft 365 <br> - Obter acesso ao pacote de conteúdo de adoção do Power BI <br> - Obter acesso a relatórios de entrada e atividades no Azure Active Directory <br> - Exibir os dados retornados pela API dos relatórios do Microsoft Graph|
+|Administrador do Suporte do Serviço   |   Atribua a função do administrador do Suporte do Serviço como uma função adicional para administradores ou usuários que precisam fazer o seguinte, além de sua função de administrador normal: <br> - Abrir e gerenciar solicitações de serviço <br> - Exibir e compartilhar postagens do centro de mensagens <br> - Monitorar a integridade do serviço   |
 |Administrador do SharePoint    |   Atribua a função de administrador do SharePoint aos usuários que precisam acessar e gerenciar o centro de administração do SharePoint Online. <br><br>Os administradores do SharePoint também podem: <br> - Criar e excluir sites <br> - Gerenciar conjuntos de sites e configurações globais do SharePoint   |
 |Administrador do serviço do Teams    |   Atribua a função de administrador do serviço do Teams aos usuários que precisam acessar e gerenciar o centro de administração do Teams. <br><br>Os administradores do serviço do Teams também podem: <br> - Gerenciar reuniões <br> - Gerenciar pontes de conferência <br> - Gerenciar todas as configurações de toda a organização, inclusive federação, atualizar equipes e configurações de cliente de equipes   |
 |Administrador de usuários     |    Atribua a função de administrador de usuários aos usuários que precisam fazer o seguinte para todos os usuários: <br> - Adicionar usuários ou grupos <br> - Atribuir licenças <br> - Gerenciar a maioria das propriedades dos usuários <br> - Criar e gerenciar exibições de usuário <br> - Atualizar políticas de expiração de senha <br> - Gerenciar solicitações de serviço <br> - Monitorar a integridade do serviço <br><br>  O administrador do usuário também pode realizar as seguintes ações para os usuários que não são administradores e para os usuários com as seguintes funções: leitor de diretório, emissor de convite, administrador de help desk, leitor de centro de mensagens, leitor de relatórios: <br> - Gerenciar nomes de usuários<br> - Excluir e restaurar usuários<br> - Redefinir senhas <br> - Forçar os usuários a sair <br> - Atualizar teclas de dispositivo (FIDO)   |
 
 ## <a name="delegated-administration-for-microsoft-partners"></a>Administração delegada para parceiros da Microsoft
 
-Se você está trabalhando com um parceiro da Microsoft, pode atribua funções administrativas a ele. Eles, por sua vez, podem atribuir funções administrativas a usuários em sua empresa (ou nas empresas deles). Isso pode ser conveniente, por exemplo, se ele estiver configurando e gerenciando a sua organização online para você.
+Se estiver trabalhando com um parceiro Microsoft, você pode atribuir a ele funções de administrador. Eles, por sua vez, podem atribuir as funções administrativas a usuários em sua empresa ou na empresa. Você pode querer que eles façam isso, por exemplo, se estiverem configurando e gerenciando a sua organização online para você.
   
 Um parceiro pode atribuir estas funções: 
   

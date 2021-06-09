@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Use um script local para implantar o pacote de configuração em dispositivos para que eles sejam integrados ao serviço.
-ms.openlocfilehash: e9efa76af72f9169bdec1acf35d72066ac0a776e
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 55109d8fda52db6651d4398cd84ffd6668b4d871
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893302"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843441"
 ---
 # <a name="onboard-windows-10-devices-using-a-local-script"></a>Integrar dispositivos Windows 10 usando um script local
 
@@ -34,7 +34,7 @@ Você também pode integrar manualmente dispositivos individuais para Microsoft 
 >
 > Para implantar em escala, use [outras opções de implantação.](dlp-configure-endpoints.md) Por exemplo, você pode implantar um script de integração em mais de 10 dispositivos em produção com o script disponível em Windows 10 de integração usando a Política [de Grupo](dlp-configure-endpoints-gp.md).
 
-## <a name="onboard-devices"></a>Dispositivos de integração
+## <a name="onboard-devices"></a>Integração de dispositivos
  
 1.  Abra o arquivo de pacote de configuração da GP .zip (*DeviceComplianceOnboardingPackage.zip*) que você baixou do assistente de integração do serviço. Você também pode obter o pacote do [Centro de Conformidade da Microsoft](https://compliance.microsoft.com)
 
@@ -93,7 +93,7 @@ Por motivos de segurança, o pacote usado para dispositivos offboard expirará 3
 
 
 ## <a name="monitor-device-configuration"></a>Monitorar a configuração do dispositivo
-Você pode seguir as diferentes etapas de verificação no [Solucionar problemas de integração](( para verificar se o script foi concluído com êxito e https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding) se o agente está em execução.
+Você pode seguir as diferentes etapas de verificação no [Solucionar problemas de integração](((/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding) para verificar se o script foi concluído com êxito e se o agente está em execução.
 
 O monitoramento também pode ser feito diretamente no portal ou usando as diferentes ferramentas de implantação.
 

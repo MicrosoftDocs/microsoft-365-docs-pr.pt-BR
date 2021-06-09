@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: c028289a58247075c33e85d6d6f3797b3ddad7b4
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 204530b8b4a87215053ddcb0434e40e45271da3d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297183"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841001"
 ---
 # <a name="example-of-an-identity-based-attack"></a>Exemplo de um ataque baseado em identidade
 
@@ -44,7 +44,7 @@ Microsoft 365 O Defender permite que os analistas filtrem alertas por fonte de d
 
 :::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-mdi-filter.png" alt-text="Exemplo de filtragem da fonte de detecção do Defender for Identity":::
 
-Selecionar o alerta de ataque de passagem suspeita **de hash** vai para uma página no Microsoft Cloud App Security que exibe informações mais detalhadas. Você sempre pode saber mais sobre um alerta ou ataque selecionando [](https://docs.microsoft.com/defender-for-identity/lateral-movement-alerts#suspected-overpass-the-hash-attack-kerberos-external-id-2002) **Saber** mais sobre esse tipo de alerta para ler uma descrição do ataque, bem como sugestões de correção.
+Selecionar o alerta de ataque de passagem suspeita **de hash** vai para uma página no Microsoft Cloud App Security que exibe informações mais detalhadas. Você sempre pode saber mais sobre um alerta ou ataque selecionando [](/defender-for-identity/lateral-movement-alerts#suspected-overpass-the-hash-attack-kerberos-external-id-2002) **Saber** mais sobre esse tipo de alerta para ler uma descrição do ataque, bem como sugestões de correção.
  
 :::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-alert-example.png" alt-text="Exemplo de um alerta de ataque do overpass-the-hash suspeito"::: 
 

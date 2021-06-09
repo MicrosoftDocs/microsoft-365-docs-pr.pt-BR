@@ -15,12 +15,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: ca62db922a13ab2cb3226eaf0efb92bfaf8c572b
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: ab987089c20d0a1d0baed152e7ddcfdd2878cc65
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274887"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843453"
 ---
 # <a name="troubleshoot-microsoft-defender-antivirus-reporting-in-update-compliance"></a>Solucionar problemas de relatórios do Microsoft Defender Antivírus em Conformidade de Atualização
 
@@ -32,18 +32,18 @@ ms.locfileid: "52274887"
 - [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
 
 > [!IMPORTANT]
-> Em 31 de março de 2020, o recurso de relatório do Microsoft Defender Antivírus de Conformidade de Atualização será removido. Você pode continuar a definir e revisar políticas de conformidade de segurança usando o [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager), o que permite um controle mais preciso sobre recursos e atualizações de segurança.
+> Em 31 de março de 2020, o recurso Microsoft Defender Antivírus relatório de Conformidade de Atualização será removido. Você pode continuar a definir e revisar políticas de conformidade de segurança usando [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager), o que permite um controle mais preciso sobre recursos e atualizações de segurança.
 
-Você pode usar o Microsoft Defender Antivírus com Conformidade de Atualização. Você verá status para licenças E3, B, F1, VL e Pro. No entanto, para licenças do E5, você precisa usar o [portal do Microsoft Defender para Ponto de Extremidade.](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints) Para saber mais sobre opções de licenciamento, consulte Opções de licenciamento [de produto do Windows 10.](https://www.microsoft.com/licensing/product-licensing/windows10.aspx)
+Você pode usar Microsoft Defender Antivírus conformidade de atualização. Você verá status para licenças E3, B, F1, VL e Pro. No entanto, para licenças do E5, você precisa usar o [portal do Microsoft Defender para Ponto de Extremidade.](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints) Para saber mais sobre opções de licenciamento, [consulte Windows 10 de licenciamento de produto.](https://www.microsoft.com/licensing/product-licensing/windows10.aspx)
 
-Quando você usa a Conformidade de Atualização do Windows Analytics para obter relatórios sobre o status de proteção de [dispositivos](/windows/deployment/update/update-compliance-using#wdav-assessment) ou pontos de extremidade em sua rede que estão usando o Microsoft Defender Antivírus, você pode encontrar problemas ou problemas.
+Quando você usa Windows Conformidade de Atualização de Análise para obter relatórios sobre o status de proteção de [dispositivos](/windows/deployment/update/update-compliance-using#wdav-assessment) ou pontos de extremidade em sua rede que estão usando Microsoft Defender Antivírus, você pode encontrar problemas ou problemas.
 
 Normalmente, os indicadores mais comuns de um problema são:
 - Você só vê um pequeno número ou subconjunto de todos os dispositivos que você estava esperando ver
 - Você não vê nenhum dispositivo
 - Os relatórios e informações que você vê estão desatualizados (mais antigos do que alguns dias)
 
-Para códigos de erro comuns e IDs de evento relacionadas ao serviço Microsoft Defender Antivírus que não estão relacionados à Conformidade de Atualização, consulte Eventos do [Microsoft Defender Antivírus](troubleshoot-microsoft-defender-antivirus.md). 
+Para códigos de erro comuns e IDs de evento relacionadas ao serviço Microsoft Defender Antivírus que não estão relacionados à Conformidade de Atualização, consulte [Microsoft Defender Antivírus eventos](troubleshoot-microsoft-defender-antivirus.md). 
 
 Há três etapas para solucionar esses problemas:
 
@@ -57,16 +57,16 @@ Há três etapas para solucionar esses problemas:
 
 ## <a name="confirm-prerequisites"></a>Confirmar pré-requisitos
 
-Para que os dispositivos mostrem corretamente em Conformidade de Atualização, você precisa atender a determinados pré-requisitos para o serviço de Conformidade de Atualização e para o Microsoft Defender Antivírus:
+Para que os dispositivos mostrem corretamente em Conformidade de Atualização, você precisa atender a determinados pré-requisitos para o serviço de Conformidade de Atualização e para Microsoft Defender Antivírus:
 
 >[!div class="checklist"]
->- Os pontos de extremidade estão usando o Microsoft Defender Antivírus como o único aplicativo de proteção antivírus. [O uso de qualquer outro aplicativo antivírus](microsoft-defender-antivirus-compatibility.md) fará com que o Microsoft Defender AV se desabilite e o ponto de extremidade não será relatado em Conformidade de Atualização.
+>- Os pontos de extremidade estão usando Microsoft Defender Antivírus como o único aplicativo de proteção antivírus. [O uso de qualquer outro aplicativo antivírus](microsoft-defender-antivirus-compatibility.md) fará com que o Microsoft Defender AV se desabilite e o ponto de extremidade não será relatado em Conformidade de Atualização.
 > - [A proteção entregue na nuvem está habilitada](enable-cloud-protection-microsoft-defender-antivirus.md).
 > - Os pontos de extremidade podem [se conectar à nuvem do Microsoft Defender AV](configure-network-connections-microsoft-defender-antivirus.md#validate-connections-between-your-network-and-the-cloud)
-> - Se o ponto de extremidade estiver executando o Windows 10 versão 1607 ou anterior, os dados de diagnóstico do Windows 10 devem ser definidos para [o nível aprimorado](/windows/configuration/configure-windows-diagnostic-data-in-your-organization#enhanced-level).
+> - Se o ponto de extremidade estiver executando Windows 10 versão 1607 ou anterior, Windows 10 dados de diagnóstico devem ser definidos para o [nível Enhanced](/windows/configuration/configure-windows-diagnostic-data-in-your-organization#enhanced-level).
 > - Faz três dias que todos os requisitos foram atendidos
 
-"Você pode usar o Microsoft Defender Antivírus com Conformidade de Atualização. Você verá status para licenças E3, B, F1, VL e Pro. No entanto, para licenças do E5, você precisa usar o portal do Microsoft Defender para Ponto de Extremidade ( https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints) . Para saber mais sobre opções de licenciamento, consulte Opções de licenciamento de produtos do Windows 10"
+"Você pode usar Microsoft Defender Antivírus conformidade de atualização. Você verá status para licenças E3, B, F1, VL e Pro. No entanto, para licenças do E5, você precisa usar o portal do Microsoft Defender for Endpoint (/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Para saber mais sobre opções de licenciamento, consulte Windows 10 de licenciamento de produto"
 
 Se todos os pré-requisitos acima foram atendidos, talvez seja necessário prosseguir para a próxima etapa para coletar informações de diagnóstico e enviá-la para nós.
 
@@ -75,5 +75,5 @@ Se todos os pré-requisitos acima foram atendidos, talvez seja necessário pross
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
-- [Implantar o Microsoft Defender Antivírus](deploy-manage-report-microsoft-defender-antivirus.md)
+- [Microsoft Defender Antivirus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Implantar Microsoft Defender Antivírus](deploy-manage-report-microsoft-defender-antivirus.md)

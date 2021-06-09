@@ -1,5 +1,5 @@
 ---
-title: Começar com o painel de alertas de prevenção contra perda de dados
+title: Comece com o painel de alerta de prevenção contra perda de dados
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -20,16 +20,16 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Começar a definir e gerenciar alertas para políticas de prevenção contra perda de dados.
-ms.openlocfilehash: 7f070dd960cc00ad7899c75117cd2a3fcf679973
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.openlocfilehash: ad117eb0c5460b90c92c664f0c233b81d1882327
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51760681"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843861"
 ---
-# <a name="get-started-with-the-data-loss-prevention-alert-dashboard"></a>Começar com o painel de alertas de prevenção contra perda de dados
+# <a name="get-started-with-the-data-loss-prevention-alert-dashboard"></a>Comece com o painel de alerta de prevenção contra perda de dados
 
-As políticas de prevenção contra perda de dados (DLP) podem tomar ações de proteção para evitar o compartilhamento não intencional de itens confidenciais. Quando uma ação é realizada em um item sensível, você pode ser notificado configurando alertas para DLP. Este artigo mostra como definir políticas de alerta rich que estão vinculadas às políticas de prevenção contra perda de dados (DLP). Você verá como usar o painel de gerenciamento de alertaS [DLP](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts) no centro de conformidade do [Microsoft 365](https://compliance.microsoft.com/) para exibir alertas, eventos e metadados associados para violações de política DLP.
+As políticas de prevenção contra perda de dados (DLP) podem tomar ações de proteção para evitar o compartilhamento não intencional de itens confidenciais. Quando uma ação é realizada em um item sensível, você pode ser notificado configurando alertas para DLP. Este artigo mostra como definir políticas de alerta rich que estão vinculadas às políticas de prevenção contra perda de dados (DLP). Você verá como usar o painel de gerenciamento [](https://compliance.microsoft.com/) de alertas [DLP](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts) no centro de conformidade Microsoft 365 para exibir alertas, eventos e metadados associados para violações de política DLP.
 
 Se você for novo em alertas de DLP, revise Saiba mais sobre o [painel de alertas](dlp-alerts-dashboard-learn.md) de prevenção contra perda de dados
 
@@ -43,16 +43,16 @@ Antes de começar, certifique-se de ter os pré-requisitos necessários:
 
 ### <a name="licensing-for-the-dlp-alert-management-dashboard"></a>Licenciamento para o painel de gerenciamento de alertas DLP
 
-Todos os locatários qualificados para a DLP do Office 365 podem acessar o painel de gerenciamento de alertas DLP. Para começar, você deve estar qualificado para o Office 365 DLP para Exchange Online, SharePoint Online e OneDrive for Business. Para obter mais informações sobre os requisitos de licenciamento para a DLP do Office 365, consulte Quais licenças fornecem os direitos para um usuário se [beneficiar do serviço?](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-licenses-provide-the-rights-for-a-user-to-benefit-from-the-service-16).
+Todos os locatários qualificados para Office 365 DLP podem acessar o painel de gerenciamento de alertas DLP. Para começar, você deve estar qualificado para Office 365 DLP para Exchange Online, SharePoint Online e OneDrive for Business. Para obter mais informações sobre os requisitos de licenciamento para Office 365 DLP, consulte Quais licenças fornecem os direitos para um usuário se [beneficiar do serviço?](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-licenses-provide-the-rights-for-a-user-to-benefit-from-the-service-16).
 
-Os clientes que usam [a DLP](endpoint-dlp-learn-about.md) do Ponto de Extremidade que estão qualificados para a DLP do Teams verão seus alertas de política de [DLP](dlp-microsoft-teams.md) de ponto de extremidade e alertas de política de DLP do Teams no painel de gerenciamento de alertas DLP.
+Os clientes que usam a [DLP](endpoint-dlp-learn-about.md) de ponto de extremidade qualificados para Teams DLP verão seus alertas de política [DLP](dlp-microsoft-teams.md) de ponto de extremidade e alertas de política de DLP do Teams no painel de gerenciamento de alertas DLP.
 
 O **recurso de visualização** de conteúdo está disponível apenas para essas licenças:
 
 - Microsoft 365 (E5)
 - Office 365 (E5)
 - Complemento de Conformidade Avançada (E5)
-- Proteção e Governança de Informações do Microsoft 365 E5/A5
+- Microsoft 365 E5/A5 Proteção e Governança de Informações
 - Conformidade com o Microsft 365 E5/A5
 
 ### <a name="licensing-for-alert-configuration-options"></a>Licenciamento para opções de configuração de alerta
@@ -65,7 +65,7 @@ O **recurso de visualização** de conteúdo está disponível apenas para essas
 - Uma assinatura E1, F1 ou G1 ou uma assinatura E3 ou G3 que inclui um dos seguintes recursos:
     - Plano 2 de proteção avançada contra ameaças do Office 365
     - Conformidade do Microsoft 365 E5
-    - Licença de complemento descoberta e auditoria do Microsoft 365
+    - Microsoft 365 eDiscovery and Audit add-on license
 
 ### <a name="roles"></a>Funções
 
@@ -115,7 +115,7 @@ Se sua organização estiver licenciada para opções de configuração de alert
 
 Para trabalhar com o painel de gerenciamento de alertas DLP:
 
-1. No Centro de conformidade do [Microsoft 365,](https://www.compliance.microsoft.com)acesse **Prevenção** contra Perda de Dados .
+1. No centro [Microsoft 365 de conformidade,](https://www.compliance.microsoft.com)vá para **Prevenção contra Perda de Dados**.
 2. Selecione a **guia Alertas** para exibir o painel de alertas DLP.
 3. Selecione um alerta para ver detalhes:
 
