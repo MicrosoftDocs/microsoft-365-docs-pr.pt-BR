@@ -1,5 +1,5 @@
 ---
-title: Gerenciar locatários do Microsoft 365 com o Windows PowerShell para parceiros DAP
+title: Gerenciar Microsoft 365 locatários com Windows PowerShell para parceiros DAP
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -16,7 +16,7 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 ms.assetid: f92d5116-5b66-4150-ad20-1452fc3dd712
-description: Neste artigo, saiba como usar o PowerShell para o Microsoft 365 para gerenciar as gestões do cliente.
+description: Neste artigo, saiba como usar o PowerShell para Microsoft 365 gerenciar as suas seções de cliente.
 ms.openlocfilehash: 14290f04159e3ba0ce46971d204b71d3bb1600d9
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -24,16 +24,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46687047"
 ---
-# <a name="manage-microsoft-365-tenants-with-windows-powershell-for-delegated-access-permissions-dap-partners"></a>Gerenciar locatários do Microsoft 365 com o Windows PowerShell para parceiros com permissões de acesso delegado (DAP)
+# <a name="manage-microsoft-365-tenants-with-windows-powershell-for-delegated-access-permissions-dap-partners"></a>Gerenciar Microsoft 365 locatários com Windows PowerShell para parceiros da DAP (Permissões de Acesso Delegado)
 
 *Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-O Windows PowerShell permite que os parceiros de Aplicação e Provedor de Soluções na Nuvem (CSP) administrem e reportem facilmente as configurações de local do cliente que não estão disponíveis no Centro de administração do Microsoft 365. Observe que as permissões "Administrar em Nome de" (AOBO) são necessárias para a conta de administrador do parceiro para se conectar às locações dos clientes.
+Windows PowerShell permite que os parceiros Syndication e Provedor de Soluções na Nuvem (CSP) administrem e reportem facilmente as configurações de enancy do cliente que não estão disponíveis no centro de administração Microsoft 365 do Microsoft 365. Observe que as permissões "Administrar em Nome de" (AOBO) são necessárias para a conta de administrador do parceiro para se conectar às locações dos clientes.
   
-Os Parceiros com Permissão de Acesso Delegada (DAP) são parceiros da Agregação e dos Provedores de Soluções em Nuvem (CSP). Muitas vezes, eles são provedores de rede ou de telecomunicações para outras empresas. Eles agrupam assinaturas do Microsoft 365 em suas ofertas de serviço para seus clientes. Quando eles vendem uma assinatura do Microsoft 365, eles são automaticamente concedidos permissões administrar em nome de (AOBO) para as empresas do cliente para que possam administrar e relatar as permissões do cliente.
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+Os Parceiros com Permissão de Acesso Delegada (DAP) são parceiros da Agregação e dos Provedores de Soluções em Nuvem (CSP). Muitas vezes, eles são provedores de rede ou de telecomunicações para outras empresas. Eles agrupam Microsoft 365 assinaturas em suas ofertas de serviço para seus clientes. Quando eles vendem uma assinatura de Microsoft 365, eles são automaticamente concedidos permissões Administer On Behalf Of (AOBO) para as empresas de cliente, para que possam administrar e relatar as permissões do cliente.
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-Os procedimentos neste tópico exigem que você se conecte ao [Microsoft 365 com o PowerShell.](connect-to-microsoft-365-powershell.md)
+Os procedimentos neste tópico exigem que você se conecte ao Conexão [para Microsoft 365 com o PowerShell](connect-to-microsoft-365-powershell.md).
   
 Você também precisa ter as credenciais de administrador de locatários do parceiro.
   
@@ -76,7 +76,7 @@ Se você registrou domínios adicionais, serão retornados todos os domínios as
   
 ### <a name="get-a-mapping-of-all-tenants-and-registered-domains"></a>Obter um mapeamento de todos os locatários e domínios registrados
 
-Os comandos anteriores do PowerShell para Microsoft 365 mostravam como recuperar IDs de locatário ou domínios, mas não ambos ao mesmo tempo e sem nenhum mapeamento claro entre todos eles. Esse comando gera uma lista de todas as IDs de Locatários do cliente e os respectivos domínios.
+Os comandos anteriores do PowerShell para Microsoft 365 mostraram como recuperar IDs de locatários ou domínios, mas não ambos ao mesmo tempo e sem mapeamento claro entre todos eles. Esse comando gera uma lista de todas as IDs de Locatários do cliente e os respectivos domínios.
   
 ```
 $Tenants = Get-MsolPartnerContract -All; $Tenants | foreach {$Domains = $_.TenantId; Get-MsolDomain -TenantId $Domains | fl @{Label="TenantId";Expression={$Domains}},name}
@@ -100,7 +100,7 @@ Get-MsolUser -TenantId <customer TenantId value> -UserPrincipalName <user princi
 
 ### <a name="add-users-set-options-and-assign-licenses"></a>Adicionar usuários, definir opções e atribuir licenças
 
-A criação, configuração e licenciamento em massa de usuários do Microsoft 365 é particularmente eficiente ao usar o PowerShell para o Microsoft 365. Nesse processo de duas etapas, você primeiro cria entradas para todos os usuários que deseja adicionar em um arquivo de valores separados por vírgula (CSV) e, em seguida, importa esse arquivo usando o PowerShell para Microsoft 365. 
+A criação, configuração e licenciamento em massa de Microsoft 365 usuários é particularmente eficiente usando o PowerShell para Microsoft 365. Nesse processo de duas etapas, primeiro você cria entradas para todos os usuários que deseja adicionar em um arquivo CSV (valor separado por vírgula) e depois importa esse arquivo usando o PowerShell para Microsoft 365. 
   
 #### <a name="create-a-csv-file"></a>Criar um arquivo CSV
 

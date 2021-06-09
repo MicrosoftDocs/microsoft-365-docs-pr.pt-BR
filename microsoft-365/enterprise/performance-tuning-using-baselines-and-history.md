@@ -32,19 +32,19 @@ ms.locfileid: "50928139"
 ---
 # <a name="office-365-performance-tuning-using-baselines-and-performance-history"></a>Ajuste de desempenho do Office 365 usando linhas de base e histórico de desempenho
 
-Há algumas maneiras simples de verificar o desempenho da conexão entre o Office 365 e sua empresa que permitirão que você estabeleça uma linha de base aproximada de sua conectividade. Conhecer o histórico de desempenho de suas conexões de computador cliente pode ajudá-lo a detectar problemas emergentes no início, identificar e prever problemas.
+Existem algumas maneiras simples de verificar o desempenho da conexão entre Office 365 e sua empresa que permitirão que você estabeleça uma linha de base aproximada de sua conectividade. Conhecer o histórico de desempenho de suas conexões de computador cliente pode ajudá-lo a detectar problemas emergentes no início, identificar e prever problemas.
   
-Se você não estiver acostumado a trabalhar em problemas de desempenho, este artigo foi projetado para ajudá-lo a considerar algumas perguntas comuns, como Como você sabe que o problema que você está vendo é um problema de desempenho e não um incidente de serviço do Office 365? Como planejar um bom desempenho, a longo prazo? Como você pode manter um olho no desempenho? Se sua equipe ou clientes estão vendo um desempenho lento ao usar o Office 365 e você se pergunta sobre qualquer uma dessas perguntas, continue a leitura.
+Se você não estiver acostumado a trabalhar em problemas de desempenho, este artigo foi projetado para ajudá-lo a considerar algumas perguntas comuns, como Como você sabe que o problema que você está vendo é um problema de desempenho e não um incidente de serviço Office 365? Como planejar um bom desempenho, a longo prazo? Como você pode manter um olho no desempenho? Se sua equipe ou clientes estão vendo um desempenho lento durante o uso Office 365 e você se pergunta sobre qualquer uma dessas perguntas, continue a leitura.
   
 > [!IMPORTANT]
-> **Tem um problema de desempenho entre seu cliente e o Office 365 agora?** Siga as etapas descritas no plano de solução de problemas [de desempenho do Office 365](performance-troubleshooting-plan.md). 
+> **Tem um problema de desempenho entre seu cliente e Office 365 agora?** Siga as etapas descritas no [plano de solução](performance-troubleshooting-plan.md)de problemas de desempenho para Office 365 . 
     
-## <a name="something-you-should-know-about-office-365-performance"></a>Algo que você deve saber sobre o desempenho do Office 365
+## <a name="something-you-should-know-about-office-365-performance"></a>Algo que você deve saber sobre Office 365 desempenho
 
-O Office 365 mora dentro de uma rede da Microsoft dedicada de alta capacidade que é monitorada de forma constante não apenas pela automação, mas por pessoas reais. Parte da função de manter a nuvem do Office 365 é criar ajuste de desempenho e alinhamento de onde for possível. Como os clientes da nuvem do Office 365 têm que se conectar pela Internet, há um esforço contínuo para ajustar o desempenho nos serviços do Office 365 também. As melhorias de desempenho nunca param na nuvem, e há muita experiência acumulada com a manutenção da nuvem saudável e rápida. Caso você tenha um problema de desempenho ao se conectar de sua localização ao Office 365, é melhor não começar e aguardar um caso de Suporte. Em vez disso, você deve começar a investigar o problema de "de dentro para fora". Ou seja, comece dentro de sua rede e trabalhe até o Office 365. Antes de abrir um caso com o Suporte do Office 365, você pode coletar dados e tomar ações que explorarão e poderão resolver seu problema.
+Office 365 vive dentro de uma rede da Microsoft dedicada de alta capacidade que é monitorada de forma constante não apenas pela automação, mas por pessoas reais. Parte da função de manter a nuvem Office 365 é criar ajuste de desempenho e alinhamento de onde é possível. Como os clientes da nuvem Office 365 têm que se conectar pela Internet, há um esforço contínuo para ajustar o desempenho em todos os serviços Office 365 também. As melhorias de desempenho nunca param na nuvem, e há muita experiência acumulada com a manutenção da nuvem saudável e rápida. Caso você tenha um problema de desempenho ao se conectar do seu local ao Office 365, é melhor não começar com e aguardar um caso de Suporte. Em vez disso, você deve começar a investigar o problema de "de dentro para fora". Ou seja, comece dentro de sua rede e trabalhe até Office 365. Antes de abrir um caso com Office 365 Suporte, você pode coletar dados e tomar ações que explorarão e poderão resolver seu problema.
   
 > [!IMPORTANT]
-> Esteja ciente do planejamento de capacidade e dos limites no Office 365. Essas informações o colocarão à frente da curva ao tentar resolver um problema de desempenho. Aqui está um link para as descrições de serviço [do Microsoft 365 e do Office 365.](/office365/servicedescriptions/office-365-service-descriptions-technet-library) Esse é um hub central e todos os serviços oferecidos pelo Office 365 têm um link que vai para suas próprias Descrições de Serviço a partir daqui. Isso significa que, se você precisar ver os limites padrão do SharePoint Online, por exemplo, você clicaria em Descrição do Serviço do [SharePoint Online](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description) e localizaria sua seção Limites [do SharePoint Online.](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) 
+> Esteja ciente do planejamento de capacidade e dos limites Office 365. Essas informações o colocarão à frente da curva ao tentar resolver um problema de desempenho. Aqui está um link para as descrições Microsoft 365 [e Office 365 serviço.](/office365/servicedescriptions/office-365-service-descriptions-technet-library) Este é um hub central e todos os serviços oferecidos pela Office 365 têm um link que vai para suas próprias Descrições de Serviço a partir daqui. Isso significa que, se você precisar ver os limites padrão para o SharePoint Online, por exemplo, você clicaria em [SharePoint Descrição](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description) do Serviço Online e [localizaria sua seção](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)Limites do SharePoint Online. 
   
 Certifique-se de entrar em sua solução de problemas com a compreensão de que o desempenho é uma escala de deslizamento, não se trata de alcançar um valor idealizado e mantê-lo permanentemente (se você acredita que isso seja isso, então tarefas ocasionais de alta largura de banda, como ao abordar um grande número de usuários ou fazer grandes migrações de dados, será muito estressante. Portanto, planeje os impactos no desempenho em seguida). Você pode e deve ter uma ideia aproximada de suas metas de desempenho, mas muitas variáveis têm desempenho, portanto, o desempenho varia. Essa é a natureza do desempenho. 
   
@@ -52,15 +52,15 @@ A solução de problemas de desempenho não se trata de cumprir metas específic
   
 ## <a name="okay-what-does-a-performance-problem-look-like"></a>Ok, qual é a aparência de um problema de desempenho?
 
-Primeiro, você precisa certificar-se de que o que você está enfrentando é realmente um problema de desempenho e não um incidente de serviço. Um problema de desempenho é diferente de um incidente de serviço no Office 365. Veja como diferencia-los.
+Primeiro, você precisa certificar-se de que o que você está enfrentando é realmente um problema de desempenho e não um incidente de serviço. Um problema de desempenho é diferente de um incidente de serviço Office 365. Veja como diferencia-los.
   
-Se o serviço do Office 365 estiver com problemas, será um incidente de serviço. Você verá ícones vermelhos  ou amarelos em Estado de saúde atual no Centro de administração do Microsoft 365, você também pode notar um desempenho lento em computadores cliente que se conectam ao Office 365. Por exemplo, se a saúde atual  relata um ícone vermelho e você vê Investigando ao lado do Exchange, você também pode receber um monte de chamadas de pessoas em sua organização que reclamam que as caixas de correio do cliente que usam o Exchange Online estão com um desempenho ruim. Nesse caso, é razoável supor que seu desempenho do Exchange Online acabou de se tornar uma vítima de problemas dentro do Serviço. 
+Se o Office 365 serviço estiver com problemas, será um incidente de serviço. Você verá ícones vermelhos  ou amarelos em Saúde atual no centro de administração Microsoft 365, você também pode notar um desempenho lento em computadores cliente que se conectam a Office 365. Por exemplo, se a saúde atual  relata um ícone vermelho e você vê Investigando ao lado do Exchange, você também pode receber um monte de chamadas de pessoas em sua organização que reclamam que as caixas de correio do cliente que usam Exchange Online estão com um desempenho ruim. Nesse caso, é razoável supor que seu desempenho Exchange Online acabou de se tornar uma vítima de problemas dentro do Serviço. 
   
-![O painel De saúde do Office 365 com todas as cargas de trabalho mostrando verde, exceto o Exchange, que mostra o Serviço Restaurado.](../media/ec7f0325-9e61-4e1a-bec0-64b87f4469be.PNG)
+![O Office 365 health com todas as cargas de trabalho mostrando verde, exceto Exchange, que mostra Service Restored.](../media/ec7f0325-9e61-4e1a-bec0-64b87f4469be.PNG)
   
-Neste ponto, você, o administrador do Office  365, deve verificar a saúde atual e exibir detalhes e histórico **,** com frequência, para manter atualizado a manutenção que realizamos no sistema. O **painel de saúde** atual foi feito para atualizá-lo sobre alterações e problemas no serviço. As anotações e explicações escritas no histórico de saúde, administrador para administrador, estão lá para ajudá-lo a medir seu impacto e para mantê-lo postado sobre o trabalho contínuo. 
+Neste ponto, você, o administrador Office 365,  deve verificar a saúde atual e, em seguida, Exibir detalhes e histórico **,** com frequência, para manter atualizado sobre a manutenção que realizamos no sistema. O **painel de saúde** atual foi feito para atualizá-lo sobre alterações e problemas no serviço. As anotações e explicações escritas no histórico de saúde, administrador para administrador, estão lá para ajudá-lo a medir seu impacto e para mantê-lo postado sobre o trabalho contínuo. 
   
-![Uma imagem do painel de saúde do Office 365 explicando que o serviço do Exchange Online foi restaurado e por quê.](../media/66609554-426a-4448-8be6-ea09817f41ba.PNG)
+![Uma imagem do painel de Office 365 de saúde explicando que o serviço Exchange Online foi restaurado e por quê.](../media/66609554-426a-4448-8be6-ea09817f41ba.PNG)
   
 Um problema de desempenho não é um incidente de serviço, mesmo que os incidentes possam causar um desempenho lento. Um problema de desempenho tem esta aparência:
   
@@ -70,7 +70,7 @@ Um problema de desempenho não é um incidente de serviço, mesmo que os inciden
     
 - Você também pode replicar o problema ou, pelo menos, você sabe que isso acontecerá se você fizer a série correta de etapas.
     
--  Se o problema for intermitente, ainda há um padrão, por exemplo, você sabe que, às 10:00, você terá chamadas de usuários que não podem acessar o Office 365 de forma confiável e que as chamadas terão baixa por volta do meio-dia. 
+-  Se o problema for intermitente, ainda haverá um padrão, por exemplo, você sabe que, às 10:00, você terá chamadas de usuários que não podem acessar o Office 365 e que as chamadas serão baixadas por volta do meio-dia. 
     
 Isso provavelmente parece familiar; talvez muito familiar. Depois que você sabe que é um problema de desempenho, a pergunta se torna: "O que você fará em seguida?" O restante deste artigo ajuda você a determinar exatamente isso.
   
@@ -80,7 +80,7 @@ Problemas de desempenho geralmente surgem ao longo do tempo, portanto, pode ser 
   
 - Mudar da minha Caixa de Entrada para o meu Calendário era algo que eu não tinha notado e agora é uma pausa para café. Você pode fazer com que ele aja como antes?
     
-- Carregar meus arquivos no SharePoint Online está demorando muito. Por que é lento à tarde, mas a qualquer outro momento, é rápido? Não pode ser rápido?
+- Carregar meus arquivos para SharePoint Online está demorando muito. Por que é lento à tarde, mas a qualquer outro momento, é rápido? Não pode ser rápido?
     
 Há vários grandes desafios colocados pelas instruções de problema acima. Especificamente, há muitas ambiguidades para lidar. por exemplo:
   
@@ -108,19 +108,19 @@ Quando os usuários relatam um problema de desempenho, há muitas informações 
     
 - Onde no mundo você está localizado?
     
-Algumas dessas perguntas são mais óbvias do que outras. A maioria das pessoas compreenderá que um solucionador de problemas precisa das etapas exatas para reproduzir o problema. Afinal, de que outra forma você pode registrar o que há de errado e como testar se o problema foi corrigido? Menos óbvias são as coisas como "Qual data e hora você viu o problema?", e "Onde no mundo você está localizado?", informações que podem ser usadas em tandem. Dependendo de quando o usuário estava trabalhando, algumas horas de diferença de tempo podem significar que a manutenção já está em andamento em partes da rede da sua empresa. Se, por exemplo, sua empresa tiver uma implementação híbrida, como uma Pesquisa híbrida do SharePoint, que pode consultar índices de pesquisa no SharePoint Online e em uma instância local do SharePoint Server 2013, as atualizações podem estar em andamento no farm local. Se a sua empresa estiver toda na nuvem, a manutenção do sistema pode incluir a adição ou remoção de hardware de rede, a implantação de atualizações em toda a empresa ou a fazer alterações no DNS ou em outra infraestrutura principal.
+Algumas dessas perguntas são mais óbvias do que outras. A maioria das pessoas compreenderá que um solucionador de problemas precisa das etapas exatas para reproduzir o problema. Afinal, de que outra forma você pode registrar o que há de errado e como testar se o problema foi corrigido? Menos óbvias são as coisas como "Qual data e hora você viu o problema?", e "Onde no mundo você está localizado?", informações que podem ser usadas em tandem. Dependendo de quando o usuário estava trabalhando, algumas horas de diferença de tempo podem significar que a manutenção já está em andamento em partes da rede da sua empresa. Se, por exemplo, sua empresa tiver uma implementação híbrida, como uma Pesquisa de SharePoint híbrida, que pode consultar índices de pesquisa no SharePoint Online e em uma instância local do SharePoint Server 2013, as atualizações podem estar em andamento no farm local. Se a sua empresa estiver toda na nuvem, a manutenção do sistema pode incluir a adição ou remoção de hardware de rede, a implantação de atualizações em toda a empresa ou a fazer alterações no DNS ou em outra infraestrutura principal.
   
 Quando você está solucionando um problema de desempenho, é um pouco como uma cena de crime, você precisa ser preciso e observador para tirar conclusões das evidências. Para fazer isso, você deve obter uma boa declaração de problema coletando evidências. Ele deve incluir o contexto do computador, o contexto do usuário, quando o problema começou e as etapas exatas que expusem o problema de desempenho. Esta instrução de problema deve ser, e permanecer, a página mais alta em suas anotações. Ao passar pela instrução problem novamente depois de trabalhar na resolução, você está tomando as etapas para testar e provar se as ações realizadas resolveram o problema. Isso é fundamental para saber quando seu trabalho, lá, é feito.
   
 ## <a name="do-you-know-how-performance-used-to-look-when-it-was-good"></a>Você sabe como o desempenho era quando era bom?
 
-Se você não tiver sorte, ninguém saberá. Ninguém tinha números. Isso significa que ninguém pode responder à pergunta simples "Sobre quantos segundos foi usado para abrir uma Caixa de Entrada no Office 365?", ou "Quanto tempo decorria quando os Executivos tinham uma reunião do Lync Online?", que é um cenário comum para muitas empresas.
+Se você não tiver sorte, ninguém saberá. Ninguém tinha números. Isso significa que ninguém pode responder à pergunta simples "Sobre quantos segundos foi usado para trazer uma Caixa de Entrada no Office 365?", ou "Quanto tempo demorava quando os Executivos tinham uma reunião do Lync Online?", que é um cenário comum para muitas empresas.
   
 O que está faltando aqui é uma linha de base de desempenho.
   
-As linhas de base dão a você um contexto para seu desempenho. Você deve fazer uma linha de base ocasionalmente com frequência, dependendo das necessidades da sua empresa. Se você for uma empresa maior, sua equipe de Operações poderá ter linhas de base para seu ambiente local. Por exemplo, se você corrigir todos os servidores do Exchange na primeira segunda-feira do mês e todos os servidores do SharePoint na terceira segunda-feira, sua equipe de Operações provavelmente terá uma lista de tarefas e cenários em que ele executa o pós-patch, para provar que as funções críticas estão operacionais. Por exemplo, abrindo a Caixa de Entrada, clicando em Enviar/Receber e fazendo com que as pastas atualizem ou, no SharePoint, navegando pela página principal do site, entrando na página de Pesquisa corporativa e fazendo uma pesquisa que retorna resultados.
+As linhas de base dão a você um contexto para seu desempenho. Você deve fazer uma linha de base ocasionalmente com frequência, dependendo das necessidades da sua empresa. Se você for uma empresa maior, sua equipe de Operações poderá ter linhas de base para seu ambiente local. Por exemplo, se você corrigir todos os servidores Exchange na primeira segunda-feira do mês e todos os servidores SharePoint na terceira segunda-feira, sua equipe de Operações provavelmente terá uma lista de tarefas e cenários que executa após o patch, para provar que as funções críticas estão operacionais. Por exemplo, abrindo a Caixa de Entrada, clicando em Enviar/Receber e fazendo com que as pastas atualizem ou, em SharePoint, navegando pela página principal do site, entrando na página de Pesquisa corporativa e fazendo uma pesquisa que retorna resultados.
   
-Se seus aplicativos estão no Office 365, algumas das linhas de base mais fundamentais você pode medir o tempo (em milissegundos) de um computador cliente dentro de sua rede, até um ponto de saída, ou o ponto em que você sai da rede e sai para o Office 365. Aqui estão algumas linhas de base úteis que você pode investigar e registrar:
+Se seus aplicativos estão em Office 365, algumas das linhas de base mais fundamentais que você pode medir o tempo (em milissegundos) de um computador cliente dentro de sua rede, até um ponto de saída, ou o ponto em que você sai da rede e sai para Office 365. Aqui estão algumas linhas de base úteis que você pode investigar e registrar:
   
 - Identifique os dispositivos entre seu computador cliente e seu ponto de saída, por exemplo, seu servidor proxy.
     
@@ -138,9 +138,9 @@ Aqui estão algumas linhas de base que testes simples com ferramentas podem calc
   
 - Tempo do computador cliente para o ponto de saída em milissegundos
     
-- Hora da saída apontar para o Office 365 em milissegundos
+- O tempo de saída aponta para Office 365 milissegundos
     
-- Local no mundo do servidor que resolve as URLS do Office 365 quando você navega
+- Local no mundo do servidor que resolve as URLS para Office 365 quando você navega
     
 - A velocidade da resolução DNS do SEU ISP em milissegundos, inconsistências na chegada de pacotes (tremida de rede), tempos de carregamento e download em milissegundos
     
@@ -150,9 +150,9 @@ Se você não estiver familiarizado com como executar essas etapas, entraremos e
 
 Você conhecerá o impacto quando ele ficar ruim, mas se você não conhecer seus dados de desempenho histórico, não será possível ter um contexto de quão ruim ele pode ter se tornado e quando. Portanto, sem uma linha de base, você está perdendo a dica-chave para resolver o quebra-cabeça: a imagem na caixa do quebra-cabeça. Na solução de problemas de desempenho, você precisa de um ponto de  *comparação*  . Linhas de base de desempenho simples não são difíceis de aceitar. Sua equipe de Operações pode ter a tarefa de realizar isso em um cronograma. Por exemplo, digamos que sua conexão seja assim: 
   
-![Um gráfico de rede básico mostrando o cliente, o proxy e a nuvem do Office 365.](../media/c6ca7140-09f9-4c2d-a775-dbf2820eaa0c.PNG)
+![Um gráfico de rede básico mostrando cliente, proxy e Office 365 nuvem.](../media/c6ca7140-09f9-4c2d-a775-dbf2820eaa0c.PNG)
   
-Isso significa que você verificou com sua equipe de rede e descobriu que você deixou sua empresa para a Internet por meio de um servidor proxy e que o proxy lida com todas as solicitações que seu computador cliente envia para a nuvem. Nesse caso, você deve desenhar uma versão simplificada da sua conexão que lista todos os dispositivos interveniáveis. Agora, insira ferramentas que você pode usar para testar o desempenho entre o cliente, o ponto de saída (onde você deixa sua rede para a Internet) e a nuvem do Office 365.
+Isso significa que você verificou com sua equipe de rede e descobriu que você deixou sua empresa para a Internet por meio de um servidor proxy e que o proxy lida com todas as solicitações que seu computador cliente envia para a nuvem. Nesse caso, você deve desenhar uma versão simplificada da sua conexão que lista todos os dispositivos interveniáveis. Agora, insira ferramentas que você pode usar para testar o desempenho entre o cliente, o ponto de saída (onde você deixa sua rede para a Internet) e a Office 365 nuvem.
   
 ![A rede básica com cliente, proxy e nuvem e sugestões de ferramentas PSPing, TraceTCP e rastreamentos de rede.](../media/627bfb77-abf7-4ef1-bbe8-7f8cbe48e1d2.png)
   
@@ -178,7 +178,7 @@ Você precisa ter uma maneira organizada de manter suas linhas de base históric
   
 ## <a name="why-collect-performance-data-during-a-pilot"></a>Por que coletar dados de desempenho durante um piloto?
 
-Não há tempo melhor para começar a fazer linhas de base do que durante um piloto do serviço do Office 365. Seu escritório pode ter milhares de usuários, centenas de milhares ou pode ter cinco, mas mesmo com um pequeno número de usuários, você pode realizar testes para medir flutuações no desempenho. No caso de uma grande empresa, um exemplo representativo de várias centenas de usuários que pilotam o Office 365 pode ser projetado para fora para vários milhares para que você saiba onde podem surgir problemas antes que eles ocorram.
+Não há tempo melhor para começar a fazer linhas de base do que durante um piloto do Office 365 serviço. Seu escritório pode ter milhares de usuários, centenas de milhares ou pode ter cinco, mas mesmo com um pequeno número de usuários, você pode realizar testes para medir flutuações no desempenho. No caso de uma grande empresa, um exemplo representativo de várias centenas de usuários pilotando Office 365 pode ser projetado para fora para vários milhares para que você saiba onde podem surgir problemas antes que eles aconteçam.
   
 No caso de uma pequena empresa, em que a abordagem significa que todos os usuários vão para o serviço ao mesmo tempo e não há piloto, mantenha medidas de desempenho para que você tenha dados para mostrar a qualquer pessoa que possa ter que solucionar problemas de uma operação com mau desempenho. Por exemplo, se você observar que, de repente, você pode dar a volta ao seu edifício no tempo necessário para carregar um gráfico de tamanho médio onde ele costumava acontecer muito rapidamente.
   
@@ -198,16 +198,16 @@ Esta seção é dividida em ferramentas e métodos simples de linha de comando e
   
 ### <a name="simple-methods"></a>Métodos simples
 
-O objetivo desses métodos simples é aprender a tomar, entender e armazenar adequadamente as linhas de base de desempenho simples ao longo do tempo para que você seja informado sobre o desempenho do Office 365. Aqui está o diagrama muito simples para simples, como você já viu antes:
+O objetivo desses métodos simples é aprender a tomar, entender e armazenar adequadamente linhas de base de desempenho simples ao longo do tempo para que você seja informado sobre Office 365 desempenho. Aqui está o diagrama muito simples para simples, como você já viu antes:
   
 ![A rede básica com cliente, proxy e nuvem e sugestões de ferramentas PSPing, TraceTCP e rastreamentos de rede.](../media/627bfb77-abf7-4ef1-bbe8-7f8cbe48e1d2.png)
   
 > [!NOTE]
-> TraceTCP está incluído nesta captura de tela porque é uma ferramenta útil para mostrar, em milissegundos, quanto tempo uma solicitação leva para processar e quantos saltos de rede ou conexões de um computador para o próximo, que a solicitação leva para chegar a um destino. TraceTCP também pode dar os nomes dos servidores usados durante saltos, o que pode ser útil para um Microsoft Office 365 no Support. > comandos TraceTCP podem ser muito simples, como: >> Lembre-se de incluir  `tracetcp.exe outlook.office365.com:443` o número da porta no comando! > [TraceTCP](https://simulatedsimian.github.io/tracetcp_download.html) é um download gratuito, mas depende do Wincap. O Wincap é uma ferramenta que também é usada e instalada pelo Netmon. Também usamos Netmon na seção métodos avançados. 
+> TraceTCP está incluído nesta captura de tela porque é uma ferramenta útil para mostrar, em milissegundos, quanto tempo uma solicitação leva para processar e quantos saltos de rede ou conexões de um computador para o próximo, que a solicitação leva para chegar a um destino. TraceTCP também pode dar os nomes dos servidores usados durante saltos, o que pode ser útil para um Microsoft Office 365 solução de problemas em Support. > comandos TraceTCP podem ser muito simples, como: >> Lembre-se de incluir  `tracetcp.exe outlook.office365.com:443` o número da porta no comando! > [TraceTCP](https://simulatedsimian.github.io/tracetcp_download.html) é um download gratuito, mas depende do Wincap. O Wincap é uma ferramenta que também é usada e instalada pelo Netmon. Também usamos Netmon na seção métodos avançados. 
   
- Se você tiver vários escritórios, também precisará manter um conjunto de dados de um cliente em cada um desses locais. Este teste mede a latência, que, nesse caso, é um valor de número que descreve a quantidade de tempo entre um cliente que envia uma solicitação para o Office 365 e o Office 365 respondendo à solicitação. O teste se origina dentro do seu domínio em um computador cliente e procura medir uma viagem de ida e volta de dentro de sua rede, através de um ponto de saída, através da Internet para o Office 365 e de volta. 
+ Se você tiver vários escritórios, também precisará manter um conjunto de dados de um cliente em cada um desses locais. Este teste mede a latência, que, nesse caso, é um valor de número que descreve a quantidade de tempo entre um cliente que envia uma solicitação para Office 365 e Office 365 respondendo à solicitação. O teste se origina dentro do seu domínio em um computador cliente e procura medir uma viagem de ida e volta de dentro de sua rede, através de um ponto de saída, através da Internet para Office 365 e voltar. 
   
-Há algumas maneiras de lidar com o ponto de saída, nesse caso, o servidor proxy. Você pode rastrear de 1 a 2 e, em seguida, de 2 a 3 e, em seguida, adicionar os números em milissegundos para obter um total final à borda da rede. Ou você pode configurar a conexão para ignorar o proxy para endereços do Office 365. Em uma rede maior com um firewall, proxy reverso ou alguma combinação dos dois, talvez seja necessário fazer exceções no servidor proxy que permitirão que o tráfego passe por muitas URLs. Para ver a lista de pontos de extremidade usados pelo Office 365, consulte [URLs do Office 365 e intervalos de endereços IP.](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) Se você tiver um proxy de autenticação, comece testando exceções para o seguinte:
+Há algumas maneiras de lidar com o ponto de saída, nesse caso, o servidor proxy. Você pode rastrear de 1 a 2 e, em seguida, de 2 a 3 e, em seguida, adicionar os números em milissegundos para obter um total final à borda da rede. Ou, você pode configurar a conexão para ignorar o proxy para Office 365 endereços. Em uma rede maior com um firewall, proxy reverso ou alguma combinação dos dois, talvez seja necessário fazer exceções no servidor proxy que permitirão que o tráfego passe por muitas URLs. Para ver a lista de pontos de extremidade usados pelo Office 365, [consulte Office 365 URLs e intervalos de endereços IP.](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) Se você tiver um proxy de autenticação, comece testando exceções para o seguinte:
   
 - Portas 80 e 443
     
@@ -233,13 +233,13 @@ Para adicioná-los à sua lista de desvios de proxy no Internet Explorer, acesse
   
 \*.microsoftonline.com; \*.sharepoint.com
   
-Depois de ignorar seu proxy, você poderá usar ping ou PsPing diretamente em uma URL do Office 365. A próxima etapa será testar o ping **outlook.office365.com**. Ou, se você estiver usando PsPing ou outra ferramenta que permitirá fornecer um número de porta para o comando, psPing contra **portal.microsoftonline.com:443** para ver o tempo médio de viagem de ida e volta em milissegundos. 
+Depois de ignorar seu proxy, você poderá usar ping ou PsPing diretamente em uma URL Office 365. A próxima etapa será testar o ping **outlook.office365.com**. Ou, se você estiver usando PsPing ou outra ferramenta que permitirá fornecer um número de porta para o comando, psPing contra **portal.microsoftonline.com:443** para ver o tempo médio de viagem de ida e volta em milissegundos. 
   
 O tempo de ida e volta, ou RTT, é um valor de número que mede quanto tempo leva para enviar uma solicitação HTTP para um servidor como outlook.office365.com e obter uma resposta de volta que confirme que o servidor sabe que você fez isso. Às vezes, você verá isso abreviado como RTT. Esse deve ser um período de tempo relativamente curto.
   
-Você precisa usar [pSPing](/sysinternals/downloads/psping) ou outra ferramenta que não use pacotes ICMP bloqueados pelo Office 365 para fazer esse teste. 
+Você precisa usar [PSPing](/sysinternals/downloads/psping) ou outra ferramenta que não use pacotes ICMP bloqueados por Office 365 para fazer esse teste. 
   
- **Como usar o PsPing para obter um tempo geral de ida e volta em milissegundos diretamente de uma URL do Office 365**
+ **Como usar o PsPing para obter um tempo geral de viagem de ida e volta em milissegundos diretamente de uma URL Office 365 url**
   
 1. Execute um prompt de comando com elevação concluindo estas etapas:
     
@@ -249,7 +249,7 @@ Você precisa usar [pSPing](/sysinternals/downloads/psping) ou outra ferramenta 
     
 3. Se a **caixa de diálogo** Controle de Conta de Usuário for exibida, confirme se a ação exibida é o que você deseja e clique em **Continuar**.
     
-2. Navegue até a pasta onde a ferramenta (neste caso, PsPing) está instalada e teste essas URLs do Office 365:
+2. Navegue até a pasta onde a ferramenta (neste caso, PsPing) está instalada e teste essas URLs Office 365:
     
   - psping portal.office.com:443
     
@@ -261,7 +261,7 @@ Você precisa usar [pSPing](/sysinternals/downloads/psping) ou outra ferramenta 
     
     ![O comando PSPing microsoft-my.sharepoint.com porta 443.](../media/3258f620-4513-4e82-95c9-06b387fc3a82.PNG)
   
-Certifique-se de incluir o número de porta 443. Lembre-se de que o Office 365 funciona em um canal criptografado. Se você PsPing sem o número da porta, sua solicitação falhará. Depois de fazer o ping da sua lista curta, procure o tempo médio em milissegundos (ms). Isso é o que você deseja gravar!
+Certifique-se de incluir o número de porta 443. Lembre-se Office 365 funciona em um canal criptografado. Se você PsPing sem o número da porta, sua solicitação falhará. Depois de fazer o ping da sua lista curta, procure o tempo médio em milissegundos (ms). Isso é o que você deseja gravar!
   
 ![Gráfico que mostra uma ilustração do cliente para proxy PSPing com um tempo de ida e volta de 2,8 milissegundos.](../media/96901aea-1093-4f1b-b5a3-6078e9035e6c.png)
   
@@ -299,33 +299,33 @@ Talvez você tenha feito um rastreamento no início da manhã e seu cliente poss
   
 ![Gráfico que mostra o tempo de ida e volta de um cliente para um proxy de 2,8 milissegundos.](../media/1bd03544-23fc-47d4-bbae-c1feb466a5d8.PNG)
   
-Se o computador cliente for um dos poucos selecionados com acesso ao servidor proxy (ou saída), você poderá executar a próxima etapa do teste conectando-se remotamente a esse computador, executando o prompt de comando para PsPing para uma URL do Office 365 a partir daí. Se você não tiver acesso a esse computador, entre em contato com seus recursos de rede para obter ajuda com a próxima etapa e obter números exatos dessa forma. Se isso não for possível, leve um PsPing contra a URL do Office 365 em questão e compare-o com o tempo de PsPing ou Ping em relação ao seu servidor proxy. 
+Se o computador cliente for um dos poucos selecionados com acesso ao servidor proxy (ou saída), você poderá executar a próxima etapa do teste conectando-se remotamente a esse computador, executando o prompt de comando para PsPing para uma URL de Office 365 a partir daí. Se você não tiver acesso a esse computador, entre em contato com seus recursos de rede para obter ajuda com a próxima etapa e obter números exatos dessa forma. Se isso não for possível, leve um PsPing contra a URL Office 365 em questão e compare-a com o tempo de PsPing ou Ping em relação ao seu servidor proxy. 
   
-Por exemplo, se você tiver 51,84 milissegundos do cliente para a URL do Office 365 e tiver 2,8 milissegundos do cliente para o proxy (ou ponto de saída), terá 49,04 milissegundos da saída para o Office 365. Da mesma forma, se você tiver um PsPing de 12,25 milissegundos do cliente para o proxy durante a altura do dia e 62,01 milissegundos do cliente para a URL do Office 365, o valor médio da saída do proxy para a URL do Office 365 é de 49,76 milissegundos.
+Por exemplo, se você tiver 51,84 milissegundos do cliente para a URL do Office 365 e tiver 2,8 milissegundos do cliente para o proxy (ou ponto de saída), você terá 49,04 milissegundos da saída para Office 365. Da mesma forma, se você tiver um PsPing de 12,25 milissegundos do cliente para o proxy durante a altura do dia e 62,01 milissegundos do cliente para a URL do Office 365, seu valor médio para o proxy egressar para a URL do Office 365 é 49,76 milissegundos.
   
-![Gráfico adicional que mostra o ping em milissegundos de cliente para proxy ao lado do cliente para o Office 365 para que os valores possam ser subtraídos.](../media/cd764e77-5154-44ba-a5cd-443a628eb2d9.PNG)
+![Gráfico adicional que mostra o ping em milissegundos de cliente para proxy ao lado do cliente Office 365 para que os valores possam ser subtraídos.](../media/cd764e77-5154-44ba-a5cd-443a628eb2d9.PNG)
   
-Em termos de solução de problemas, você pode encontrar algo interessante apenas por manter essas linhas de base. Por exemplo, se você descobrir que geralmente tem cerca de 40 a 59 milissegundos de latência do proxy ou ponto de saída para a URL do Office 365, e ter um cliente para proxy ou latência de ponto de saída de cerca de 3 a 7 milissegundos (dependendo da quantidade de tráfego de rede que você está vendo durante essa hora do dia), então você certamente saberá que algo é problemático se seus últimos três clientes para proxy ou linhas de base de saída mostrarem uma latência de 45 milissegundos.
+Em termos de solução de problemas, você pode encontrar algo interessante apenas por manter essas linhas de base. Por exemplo, se você descobrir que geralmente tem cerca de 40 a 59 milissegundos de latência do proxy ou ponto de saída para a URL Office 365, e ter um cliente para proxy ou latência de ponto de saída de cerca de 3 a 7 milissegundos (dependendo da quantidade de tráfego de rede que você está vendo durante essa hora do dia), então você certamente saberá que algo é problemático se seus últimos três clientes para proxy ou linhas de base de saída mostrarem uma latência de 45 milissegundos.
   
 ### <a name="advanced-methods"></a>Métodos avançados
 
-Se você realmente quiser saber o que está acontecendo com suas solicitações de Internet para o Office 365, você precisa se familiarizar com rastreamentos de rede. Não importa quais ferramentas você prefere para esses rastreamentos, HTTPWatch, Netmon, Analisador de Mensagens, Wireshark, Fiddler, Ferramenta de Painel de Desenvolvedor ou qualquer outra, contanto que essa ferramenta possa capturar e filtrar o tráfego de rede. Você verá nesta seção que é útil executar mais de uma dessas ferramentas para obter uma imagem mais completa do problema. Quando você está testando, algumas dessas ferramentas também agem como proxies por conta própria. Ferramentas usadas no artigo anterior, Plano de solução de problemas de desempenho para [o Office 365](performance-troubleshooting-plan.md), incluem [Netmon 3.4](https://www.microsoft.com/download/details.aspx?id=4865), [HTTPWatch](https://www.httpwatch.com/download/)ou [WireShark](https://www.wireshark.org/).
+Se você realmente quiser saber o que está acontecendo com suas solicitações de Internet para Office 365, você precisa se familiarizar com rastreamentos de rede. Não importa quais ferramentas você prefere para esses rastreamentos, HTTPWatch, Netmon, Analisador de Mensagens, Wireshark, Fiddler, Ferramenta de Painel de Desenvolvedor ou qualquer outra, contanto que essa ferramenta possa capturar e filtrar o tráfego de rede. Você verá nesta seção que é útil executar mais de uma dessas ferramentas para obter uma imagem mais completa do problema. Quando você está testando, algumas dessas ferramentas também agem como proxies por conta própria. Ferramentas usadas no artigo de parceiro, [Plano](performance-troubleshooting-plan.md)de solução de problemas de desempenho para Office 365 , incluem [Netmon 3.4](https://www.microsoft.com/download/details.aspx?id=4865), [HTTPWatch](https://www.httpwatch.com/download/)ou [WireShark](https://www.wireshark.org/).
   
-Fazer uma linha de base de desempenho é a parte simples deste método, e muitas das etapas são as mesmas que quando você soluciona um problema de desempenho. Os métodos mais avançados de criação de linhas de base para desempenho exigem que você pegue e armazene rastreamentos de rede. A maioria dos exemplos neste artigo usa o SharePoint Online, mas você deve desenvolver uma lista de ações comuns nos serviços do Office 365 aos quais você se inscreve para testar e gravar. Aqui está um exemplo de linha de base:
+Fazer uma linha de base de desempenho é a parte simples deste método, e muitas das etapas são as mesmas que quando você soluciona um problema de desempenho. Os métodos mais avançados de criação de linhas de base para desempenho exigem que você pegue e armazene rastreamentos de rede. A maioria dos exemplos neste artigo usa o SharePoint Online, mas você deve desenvolver uma lista de ações comuns nos serviços Office 365 aos quais você se inscreve para testar e gravar. Aqui está um exemplo de linha de base:
   
 - Lista de linha de base para SPO - ** Etapa 1: ** Navegue pela home page do site do SPO e faça um rastreamento de rede. Salve o rastreamento. 
     
-- Lista de linha de base para SPO - Etapa **2:** Pesquisar um termo (como o nome da sua empresa) por meio da Pesquisa empresarial e fazer um rastreamento de rede. Salve o rastreamento. 
+- Lista de linha de base para SPO - Etapa **2:** Pesquisar um termo (como o nome da sua empresa) por meio Enterprise Pesquisar e fazer um rastreamento de rede. Salve o rastreamento. 
     
-- Lista de linha de base para SPO - Etapa **3:** Carregar um arquivo grande em uma biblioteca de documentos do SharePoint Online e fazer um rastreamento de rede. Salve o rastreamento. 
+- Lista de linha de base para SPO - Etapa **3:** Upload um arquivo grande para uma biblioteca de documentos SharePoint Online e faça um rastreamento de rede. Salve o rastreamento. 
     
-- Lista de linha de base para SPO - Etapa **4:** procurar a home page do site do OneDrive e fazer um rastreamento de rede. Salve o rastreamento. 
+- Lista de linha de base para SPO - Etapa **4:** navegue pela home page do site OneDrive site e faça um rastreamento de rede. Salve o rastreamento. 
     
-Essa lista deve incluir as ações comuns mais importantes que os usuários têm contra o SharePoint Online. Observe que a última etapa, para rastrear indo para o OneDrive for Business, cria uma comparação entre a carga da home page do SharePoint Online (que geralmente é personalizada por empresas) e a home page do OneDrive for Business, que raramente é personalizada. Este é um teste muito básico quando se trata de um site do SharePoint Online de carregamento lento. Você pode criar um registro dessa diferença em seu teste.
+Essa lista deve incluir as ações comuns mais importantes que os usuários têm contra SharePoint Online. Observe que a última etapa, para rastrear indo para OneDrive for Business, cria uma comparação entre a carga da home page do SharePoint Online (que geralmente é personalizada pelas empresas) e OneDrive for Business home page, que raramente é personalizada. Este é um teste muito básico quando se trata de um site SharePoint Online de carregamento lento. Você pode criar um registro dessa diferença em seu teste.
   
 Se você estiver no meio de um problema de desempenho, muitas das etapas serão as mesmas ao fazer uma linha de base. Os rastreamentos de rede tornam-se críticos, portanto, trataremos  *como*  seguir os rastreamentos importantes. 
   
-Para resolver um problema de  *desempenho,*  agora , você precisa fazer um rastreamento no momento em que está enfrentando o problema de desempenho. Você precisa ter as ferramentas adequadas disponíveis para coletar logs e precisa de um plano de ação, ou seja, uma lista de ações de solução de problemas a ser tomada para coletar as melhores informações que puder. A primeira coisa a fazer é gravar a data e a hora do teste para que os arquivos possam ser salvos em uma pasta que reflita o tempo. Em seguida, reduza as etapas do problema por conta própria. Estas são as etapas exatas que você usará para testes. Não se esqueça das noções básicas: se o problema for apenas com o Outlook, certifique-se de registrar que o comportamento do problema acontece em apenas um serviço do Office 365. Restringir o escopo desse problema ajudará você a se concentrar em algo que você pode resolver. 
+Para resolver um problema de  *desempenho,*  agora , você precisa fazer um rastreamento no momento em que está enfrentando o problema de desempenho. Você precisa ter as ferramentas adequadas disponíveis para coletar logs e precisa de um plano de ação, ou seja, uma lista de ações de solução de problemas a ser tomada para coletar as melhores informações que puder. A primeira coisa a fazer é gravar a data e a hora do teste para que os arquivos possam ser salvos em uma pasta que reflita o tempo. Em seguida, reduza as etapas do problema por conta própria. Estas são as etapas exatas que você usará para testes. Não se esqueça das noções básicas: se o problema estiver apenas com Outlook, certifique-se de registrar que o comportamento do problema acontece em apenas um serviço Office 365. Restringir o escopo desse problema ajudará você a se concentrar em algo que você pode resolver. 
   
 ## <a name="see-also"></a>Confira também
 

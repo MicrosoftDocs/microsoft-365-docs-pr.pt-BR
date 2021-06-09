@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 ms.assetid: 8c3a913c-2247-4519-894d-b6263eeb9920
-description: Use o Centro de administração do Microsoft 365 ou Windows PowerShell excluir calendários do Bookings.
+description: Use o Microsoft 365 de administração ou Windows PowerShell excluir calendários do Bookings.
 ms.openlocfilehash: 21fc7b9994ffd7f76ed04000a50bd0ee8f7f167e
 ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: MT
@@ -18,10 +18,10 @@ ms.locfileid: "51034086"
 ---
 # <a name="delete-a-booking-calendar-in-bookings"></a>Excluir um calendário de reserva no Bookings
 
-Este artigo explica como você pode excluir um calendário de reserva indesejado. Você pode excluir o calendário de reserva no centro de administração do Microsoft 365 ou pode usar o PowerShell. O calendário do Bookings é uma caixa de correio no Exchange Online, portanto, você exclui a conta de usuário correspondente para excluir o calendário de reserva.
+Este artigo explica como você pode excluir um calendário de reserva indesejado. Você pode excluir o calendário de reserva no centro de administração Microsoft 365 ou pode usar o PowerShell. O calendário do Bookings é uma caixa de correio no Exchange Online para que você exclua a conta de usuário correspondente para excluir o calendário de reserva.
 
 > [!IMPORTANT]
-> Todos os calendários de reserva criados em 2017 ou anterior devem ser excluídos usando as instruções do PowerShell neste tópico. Todos os calendários de reserva criados em 2018 ou posterior podem ser excluídos no Centro de administração do Microsoft 365.
+> Todos os calendários de reserva criados em 2017 ou anterior devem ser excluídos usando as instruções do PowerShell neste tópico. Todos os calendários de reserva criados em 2018 ou posteriores podem ser excluídos no Microsoft 365 de administração.
 
 O calendário de reserva é onde todas as informações relevantes sobre esse calendário de reserva e dados são armazenadas, incluindo:
 
@@ -32,21 +32,21 @@ O calendário de reserva é onde todas as informações relevantes sobre esse ca
 > [!WARNING]
 > Depois que um calendário de reserva é excluído, essas informações adicionais também são excluídas permanentemente e não podem ser recuperadas.
 
-## <a name="delete-a-booking-calendar-in-the-microsoft-365-admin-center"></a>Excluir um calendário de reserva no centro de administração do Microsoft 365
+## <a name="delete-a-booking-calendar-in-the-microsoft-365-admin-center"></a>Excluir um calendário de reserva no Microsoft 365 de administração
 
 1. Vá para o centro de administração do Microsoft 365.
 
 1. No Centro de administração, selecione **Usuários**.
 
-   ![Imagem da interface do usuário de usuários no centro de administração do Microsoft 365](../media/bookings-admin-center-users.png)
+   ![Imagem da interface do usuário de usuários no Microsoft 365 de administração](../media/bookings-admin-center-users.png)
 
 1. Na página **Usuários Ativos**, escolha os nomes dos usuários que você deseja excluir e escolha **Excluir usuário**.
 
-   ![Imagem de excluir a interface do usuário no centro de administração do Microsoft 365](../media/bookings-delete-user.png)
+   ![Imagem da interface do usuário excluir no Microsoft 365 de administração](../media/bookings-delete-user.png)
 
-## <a name="delete-a-booking-calendar-using-exchange-online-powershell"></a>Excluir um calendário de reserva usando o PowerShell do Exchange Online
+## <a name="delete-a-booking-calendar-using-exchange-online-powershell"></a>Excluir um calendário de reserva usando Exchange Online PowerShell
 
-Consulte [Connect to Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) for prerequisites and guidance for connecting to Exchange Online PowerShell.
+Consulte [Conexão para Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) para obter pré-requisitos e diretrizes para se conectar ao Exchange Online PowerShell.
 
 Para executar essas etapas, você deve estar usando uma janela de comando ativa do Microsoft PowerShell que você executava escolhendo a opção "Executar como administrador".
 
@@ -67,7 +67,7 @@ Para executar essas etapas, você deve estar usando uma janela de comando ativa 
 
    - _\<UPN\>_ é a sua conta no formato de nome principal do usuário (por exemplo, `john@contoso.com`).
 
-3. Quando for solicitado, faça logoff com credenciais de administrador de locatários para o locatário do Microsoft 365 que hospeda o calendário de reserva que você deseja excluir permanentemente.
+3. Quando você for solicitado, faça logoff com credenciais de administrador de locatário para o locatário Microsoft 365 que hospeda o calendário de reserva que você deseja excluir permanentemente.
 
 4. Depois que esse comando terminar de processar, insira o seguinte comando para obter uma lista das caixas de correio de reserva em seu locatário:
 

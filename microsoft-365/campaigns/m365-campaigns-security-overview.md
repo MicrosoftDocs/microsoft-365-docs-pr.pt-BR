@@ -1,5 +1,5 @@
 ---
-title: Up security protection for your campaign or business
+title: Aumento da proteção de segurança para sua campanha ou negócios
 f1.keywords:
 - NOCSH
 ms.author: samanro
@@ -23,7 +23,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como proteger sua campanha ou negócios aumentando sua segurança com o Microsoft 365.
+description: Saiba como proteger sua campanha ou negócios aumentando sua segurança com Microsoft 365.
 ms.openlocfilehash: d2486f7160bef57a91d76fba756ff75ba319b8fa
 ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/29/2021
 ms.locfileid: "50044367"
 ---
-# <a name="bump-up-security-protection-for-your-campaign-or-business"></a>Up security protection for your campaign or business
+# <a name="bump-up-security-protection-for-your-campaign-or-business"></a>Aumento da proteção de segurança para sua campanha ou negócios
 
 
 ## <a name="overview"></a>Visão Geral 
@@ -44,7 +44,7 @@ Assista a este vídeo para ver como você pode proteger sua campanha ou negócio
 Em seguida, siga as etapas para:
 
 - [Proteger contra malware e outras ameaças](m365-campaigns-increase-protection.md)
-- [Proteger o acesso aos dados da campanha](m365-campaigns-conditional-access.md) protegendo suas contas e aplicativos
+- [Proteger o acesso aos dados de sua campanha](m365-campaigns-conditional-access.md) protegendo suas contas e aplicativos
 - [Proteger contas administrativas](m365-campaigns-protect-admin-accounts.md)
 - [Configurar dispositivos móveis](../business/set-up-mobile-devices.md?toc=/microsoft-365/campaigns/toc.json)
 - [Treinar os usuários](m365-campaigns-users.md)

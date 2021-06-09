@@ -1,5 +1,5 @@
 ---
-title: Gerenciar permissões de tópico nos tópicos do Microsoft Viva
+title: Gerenciar permissões de tópicos em Tópicos do Microsoft Viva
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
-description: Saiba como administrar permissões de tópico nos tópicos do Microsoft Viva.
+description: Saiba como administrar permissões de tópicos em Tópicos do Microsoft Viva.
 ms.openlocfilehash: 6592103526a86671a3ff42c698c1243f63be7fef
 ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
 ms.translationtype: MT
@@ -17,21 +17,21 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 02/04/2021
 ms.locfileid: "50107370"
 ---
-# <a name="manage-topic-permissions-in-microsoft-viva-topics"></a>Gerenciar permissões de tópico nos tópicos do Microsoft Viva
+# <a name="manage-topic-permissions-in-microsoft-viva-topics"></a>Gerenciar permissões de tópicos em Tópicos do Microsoft Viva
 
-Você pode gerenciar as configurações de permissões de tópico no Centro [de administração do Microsoft 365.](https://admin.microsoft.com) Você deve ser um administrador global ou administrador do SharePoint para executar essas tarefas.
+Você pode gerenciar as configurações de permissões de tópicos no Microsoft 365 [de administração.](https://admin.microsoft.com) Você deve ser um administrador global ou um SharePoint para executar essas tarefas.
 
-Com as configurações de permissões de tópico, você pode escolher:
+Com as configurações de permissões de tópicos, você pode escolher:
 
 - Quais usuários podem criar e editar tópicos: Criar novos tópicos que não foram encontrados durante a descoberta ou editar detalhes de tópicos existentes.
-- Quais usuários podem gerenciar tópicos: Acessar o centro de gerenciamento de tópicos e exibir comentários sobre tópicos, bem como mover tópicos ao longo do ciclo de vida.
+- Quais usuários podem gerenciar tópicos: Acessar o centro de gerenciamento de tópicos e exibir comentários sobre tópicos, bem como mover tópicos pelo ciclo de vida.
 
 ## <a name="to-access-topics-management-settings"></a>Para acessar as configurações de gerenciamento de tópicos:
 
-1. No centro de administração do Microsoft 365, clique em **Configurações** e, em seguida, **nas configurações da organização.**
-2. Na guia **Serviços,** clique em Experiências **de Tópico.**
+1. No centro Microsoft 365 de administração, clique **em Configurações**, em seguida, **Configurações de organização**.
+2. Na guia **Serviços,** clique em **Experiências de tópico.**
 
-    ![Conectar as pessoas ao conhecimento](../media/admin-org-knowledge-options-completed.png) 
+    ![Conexão pessoas para conhecimento](../media/admin-org-knowledge-options-completed.png) 
 
 3. Selecione a **guia Permissões de** tópico. Consulte as seções a seguir para obter informações sobre cada configuração.
 
@@ -41,10 +41,10 @@ Com as configurações de permissões de tópico, você pode escolher:
 
 Para atualizar quem tem permissões para criar e editar tópicos:
 
-1. Na guia **Permissões de tópico,** em **Quem pode criar e editar tópicos,** selecione **Editar**.
-2. Na página **Quem pode criar e editar tópicos,** você pode selecionar:
+1. Na guia **Permissões de tópico,** em Who **pode criar e editar tópicos,** selecione **Editar**.
+2. Na página **Who pode criar e editar tópicos,** você pode selecionar:
     - **Todos em sua organização**
-    - **Somente pessoas ou grupos de segurança selecionados**
+    - **Somente pessoas selecionadas ou grupos de segurança**
     - **Ninguém**
 
     ![Criar e editar tópicos](../media/k-manage-who-can-create-and-edit.png)  
@@ -53,8 +53,8 @@ Para atualizar quem tem permissões para criar e editar tópicos:
 
 Para atualizar quem tem permissões para gerenciar tópicos:
 
-1. Na guia **Permissões de tópico,** em **Quem pode gerenciar tópicos,** selecione **Editar**.
-2. Na página **Quem pode gerenciar tópicos,** você pode selecionar:
+1. Na guia **Permissões de tópico,** em Who **pode gerenciar tópicos,** selecione **Editar**.
+2. Na página **Who pode gerenciar tópicos,** você pode selecionar:
     - **Todos em sua organização**
     - **Pessoas ou grupos de segurança selecionados**
 
@@ -64,8 +64,8 @@ Para atualizar quem tem permissões para gerenciar tópicos:
 
 ## <a name="see-also"></a>Confira também
 
-[Gerenciar a descoberta de tópicos nos tópicos do Microsoft Viva](topic-experiences-discovery.md)
+[Gerenciar a descoberta de tópicos em Tópicos do Microsoft Viva](topic-experiences-discovery.md)
 
-[Gerenciar visibilidade de tópicos nos tópicos do Microsoft Viva](topic-experiences-knowledge-rules.md)
+[Gerenciar visibilidade de tópicos em Tópicos do Microsoft Viva](topic-experiences-knowledge-rules.md)
 
-[Alterar o nome do centro de tópicos nos tópicos do Microsoft Viva](topic-experiences-administration.md)
+[Alterar o nome do centro de tópicos em Tópicos do Microsoft Viva](topic-experiences-administration.md)

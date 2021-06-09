@@ -1,6 +1,6 @@
 ---
-title: Definir como os dispositivos móveis são atualizados pelo Microsoft Defender Antivírus
-description: Gerencie como dispositivos móveis, como laptops, devem ser atualizados com atualizações de proteção do Microsoft Defender Antivírus.
+title: Definir como os dispositivos móveis são atualizados por Microsoft Defender Antivírus
+description: Gerencie como dispositivos móveis, como laptops, devem ser atualizados com Microsoft Defender Antivírus de proteção.
 keywords: atualizações, proteção, agendar atualizações, bateria, dispositivo móvel, laptop, bloco de anotações, aceitação, microsoft update, wsus, override
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -45,7 +45,7 @@ Os artigos a seguir também podem ser úteis nessas situações:
 
 ## <a name="opt-in-to-microsoft-update-on-mobile-computers-without-a-wsus-connection"></a>Optar pelo Microsoft Update em computadores móveis sem uma conexão WSUS
 
-Você pode usar o Microsoft Update para manter a inteligência de segurança em dispositivos móveis executando o Microsoft Defender Antivírus atualizada quando eles não estão conectados à rede corporativa ou não têm uma conexão WSUS. 
+Você pode usar o Microsoft Update para manter a inteligência de segurança em dispositivos móveis Microsoft Defender Antivírus atualizada quando eles não estão conectados à rede corporativa ou não têm uma conexão WSUS. 
 
 Isso significa que as atualizações de proteção podem ser entregues a dispositivos (por meio do Microsoft Update) mesmo que você tenha definido o WSUS para substituir o Microsoft Update.
 
@@ -53,7 +53,7 @@ Você pode optar pelo Microsoft Update no dispositivo móvel de uma das seguinte
 
 - Altere a configuração com a Política de Grupo.
 - Use um VBScript para criar um script e execute-o em cada computador em sua rede.
-- Opte manualmente por todos os computadores em sua rede por meio do menu **Configurações.**
+- Opte manualmente por todos os computadores em sua rede por meio **do menu Configurações.**
 
 ### <a name="use-group-policy-to-opt-in-to-microsoft-update"></a>Usar a Política de Grupo para optar pelo Microsoft Update
 
@@ -63,7 +63,7 @@ Você pode optar pelo Microsoft Update no dispositivo móvel de uma das seguinte
 
 3. Selecione **Políticas** e **modelos administrativos.**
 
-4. Expanda a árvore para **componentes do Windows** Atualizações de Assinatura do  >  **Microsoft Defender**  >  **Antivírus.**
+4. Expanda a árvore para **Windows**  >  **componentes Microsoft Defender Antivírus**  >  **Atualizações de Assinatura.**
 
 5. Definir **Permitir atualizações de inteligência de segurança do Microsoft Update** como **Habilitado** e selecione  **OK**.
 
@@ -76,11 +76,11 @@ Você pode optar pelo Microsoft Update no dispositivo móvel de uma das seguinte
 
 ### <a name="manually-opt-in-to-microsoft-update"></a>Optar manualmente pelo Microsoft Update
 
-1. Abra **o Windows Update** no Update **&** configurações de segurança no computador em que você deseja optar.
+1. Abra **Windows Atualização** em Atualizar **&** configurações de segurança no computador em que você deseja optar.
 
 2. Selecione **Opções** avançadas.
 
-3. Marque a caixa de seleção Para **me atualizar para outros produtos Microsoft quando atualizar o Windows**.
+3. Marque a caixa de seleção para **Dar-me atualizações para outros produtos Microsoft quando eu atualizar Windows**.
 
 ## <a name="prevent-security-intelligence-updates-when-running-on-battery-power"></a>Impedir atualizações de inteligência de segurança ao executar na energia da bateria
 
@@ -94,11 +94,11 @@ Você pode configurar o Microsoft Defender Antivírus para baixar apenas atualiz
 
 3.  Selecione **Políticas** e **modelos administrativos.**
 
-4.  Expanda a árvore para **componentes** do Windows Atualizações de Assinatura do  >  **Microsoft Defender**  >  **Antivírus** e,  em seguida, de definir Permitir atualizações de inteligência de segurança ao executar a energia da bateria como **Desabilitado**. Em seguida, selecione **OK**. 
+4.  Expanda a árvore para **Windows componentes** Microsoft Defender Antivírus Atualizações de Assinatura e, em seguida, de definir Permitir atualizações de inteligência de segurança ao executar a energia da bateria  >    >  como **Desabilitada**.  Em seguida, selecione **OK**. 
 
 Essa ação impede que as atualizações de proteção baixem quando o computador está com bateria.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Gerenciar atualizações do Microsoft Defender Antivírus e aplicar linhas de base](manage-updates-baselines-microsoft-defender-antivirus.md)
-- [Atualizar e gerenciar o Microsoft Defender Antivírus no Windows 10](deploy-manage-report-microsoft-defender-antivirus.md)
+- [Gerenciar Microsoft Defender Antivírus e aplicar linhas de base](manage-updates-baselines-microsoft-defender-antivirus.md)
+- [Atualizar e gerenciar Microsoft Defender Antivírus no Windows 10](deploy-manage-report-microsoft-defender-antivirus.md)

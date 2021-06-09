@@ -14,7 +14,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPO_Content
 localization_priority: Normal
-description: Saiba mais sobre as cotas de armazenamento do SharePoint em ambientes multi-geo e como as cotas podem ser gerenciadas pelo administrador do SharePoint Online.
+description: Saiba mais SharePoint cotas de armazenamento em ambientes multi-geo e como as cotas podem ser gerenciadas pelo administrador SharePoint Online.
 ms.openlocfilehash: ec736a6bd6061f8b028fca7a1c34d5278a84db89
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT

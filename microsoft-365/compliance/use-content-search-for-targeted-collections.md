@@ -35,7 +35,7 @@ A ferramenta de pesquisa de conteúdo no centro de conformidade do Microsoft 365
 
 ## <a name="before-you-run-a-targeted-collection"></a>Antes de executar uma coleção direcionada
 
-- Você precisa ser membro do grupo de funções do Gerenciador de Descobertas e No Centro de Conformidade & Segurança para executar o script na Etapa 1. Para obter mais informações, confira [Atribuir permissões de descoberta eletrônica](assign-ediscovery-permissions.md).
+- Você precisa ser membro do grupo de funções do Gerenciador de Descobertas e No Centro de Conformidade & Segurança para executar o script na Etapa 1. Para obter mais informações, confira [Atribuir permissões de Descoberta eletrônica](assign-ediscovery-permissions.md).
 
 - Você também precisa receber a função Destinatários de Email em sua Exchange Online organização. Isso é necessário para executar o cmdlet **Get-MailboxFolderStatistics,** que está incluído no script. Por padrão, a função Destinatários de Email é atribuída aos grupos de função Gerenciamento da Organização e Gerenciamento de Destinatários Exchange Online. Para obter mais informações sobre a atribuição de permissões Exchange Online, consulte [Gerenciar membros do grupo de função](/exchange/manage-role-group-members-exchange-2013-help). Você também pode criar um grupo de função personalizado, atribuir a função Destinatários de Email a ele e, em seguida, adicionar os membros que precisam executar o script na Etapa 1. Para obter mais informações, consulte [Manage role groups](/Exchange/permissions-exo/role-groups).
 

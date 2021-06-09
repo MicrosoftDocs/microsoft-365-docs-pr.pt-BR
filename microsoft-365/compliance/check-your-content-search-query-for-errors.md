@@ -1,5 +1,5 @@
 ---
-title: Verificar se há erros na sua consulta
+title: Verificar se há erros na sua consulta de pesquisa
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -23,7 +23,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/11/2021
 ms.locfileid: "52311683"
 ---
-# <a name="check-your-search-query-for-errors"></a>Verificar se há erros na sua consulta
+# <a name="check-your-search-query-for-errors"></a>Verificar se há erros na sua consulta de pesquisa
   
 Aqui está uma lista dos caracteres sem suporte que verificamos nas consultas de pesquisa para Pesquisa de Conteúdo e Descoberta Principal da Descoberta. Caracteres sem suporte geralmente são ocultos e normalmente causam um erro de pesquisa ou retornam resultados não intencionados.
   

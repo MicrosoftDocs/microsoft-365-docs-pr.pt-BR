@@ -75,7 +75,7 @@ Para pesquisar o nome do alerta em uma palavra específica, selecione o controle
 
 Para triagem de um alerta de risco interno, conclua as seguintes etapas:
 
-1. No Centro de conformidade do [Microsoft 365,](https://compliance.microsoft.com)vá para Gerenciamento de riscos **do Insider** e selecione a **guia Alertas.**
+1. No centro [Microsoft 365 de conformidade,](https://compliance.microsoft.com)vá para Gerenciamento de riscos **do Insider** e selecione a **guia Alertas.**
 2. No painel **Alertas,** selecione o alerta que você deseja triagem.
 3. No painel **de detalhes Alertas,** você pode revisar as seguintes guias e triagem do alerta:
     - **Resumo**: esta guia contém informações gerais sobre o alerta e permite que você confirme o alerta e crie um novo caso ou permita que você descarte o alerta. Ele inclui o status atual do alerta e o nível de gravidade do risco de alerta, listado como *Alto,* *Médio* ou *Baixo.* O nível de gravidade pode aumentar ou diminuir ao longo do tempo se o alerta não for triaged.
@@ -100,7 +100,7 @@ O Explorador de Atividades fornece aos investigadores e analistas de risco uma f
 
 Para usar o **explorador de atividades,** conclua as seguintes etapas:
 
-1. No Centro de conformidade do Microsoft 365, acesse Gerenciamento de riscos **do Insider** e selecione **a guia Alertas.**
+1. No centro Microsoft 365 de conformidade, vá para Gerenciamento de riscos **do Insider** e selecione a **guia Alertas.**
 2. No painel **Alertas,** selecione o alerta que você deseja triagem.
 3. No painel **de detalhes Alertas,** selecione **Abrir exibição expandida**.
 4. Na página do alerta selecionado, selecione a guia **Explorador de** atividades.
@@ -113,7 +113,7 @@ Ao revisar atividades no explorador de atividades, os investigadores e analistas
 
 À medida que o alerta é revisado e triaged, você pode criar um novo caso para investigar ainda mais a atividade de risco. Para criar um caso para um alerta, siga estas etapas:
 
-1. No Centro de conformidade do [Microsoft 365,](https://compliance.microsoft.com)vá para Gerenciamento de riscos **do Insider** e selecione a **guia Alertas.**
+1. No centro [Microsoft 365 de conformidade,](https://compliance.microsoft.com)vá para Gerenciamento de riscos **do Insider** e selecione a **guia Alertas.**
 2. No painel **Alertas,** selecione o alerta para o que você deseja confirmar e crie um novo caso.
 3. No painel **de detalhes alertas,** selecione **Ações**  >  **Confirmar alertas & criar caso**.
 4. Na caixa **de diálogo** Confirmar alerta e criar caso de risco interno, insira um nome para o caso, selecione usuários para adicionar como colaboradores e adicione comentários conforme aplicável. Os comentários são adicionados automaticamente ao caso como uma observação de caso.

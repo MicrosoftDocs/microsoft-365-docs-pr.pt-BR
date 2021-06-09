@@ -37,7 +37,7 @@ Quando você exporta um relatório, os arquivos de relatório são baixados para
 
 ## <a name="before-you-export-a-search-report"></a>Antes de exportar um relatório de pesquisa
 
-- Para exportar um relatório de pesquisa, você precisa ter a função de gerenciamento de Pesquisa de Conformidade no Centro de Conformidade & Segurança. Essa função é atribuída por padrão aos grupos de função de Gerenciamento de Descoberta e Gerenciamento de Organização integrados. Para obter mais informações, confira [Atribuir permissões de descoberta eletrônica](assign-ediscovery-permissions.md).
+- Para exportar um relatório de pesquisa, você precisa ter a função de gerenciamento de Pesquisa de Conformidade no Centro de Conformidade & Segurança. Essa função é atribuída por padrão aos grupos de função de Gerenciamento de Descoberta e Gerenciamento de Organização integrados. Para obter mais informações, confira [Atribuir permissões de Descoberta eletrônica](assign-ediscovery-permissions.md).
 
 - Quando você exporta um relatório, os dados são temporariamente armazenados em um local Armazenamento do Azure na nuvem da Microsoft antes de ser baixado para o computador local. Certifique-se de que sua organização possa se conectar ao ponto de extremidade no Azure, que é **\* .blob.core.windows.net** (o caractere curinga representa um identificador exclusivo para sua exportação). Os dados de resultados da pesquisa são excluídos do local de Armazenamento do Azure duas semanas após a criação.
 

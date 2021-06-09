@@ -19,7 +19,7 @@ ms.locfileid: "52768940"
 
 A página Equipe no Bookings é onde você cria sua lista de funcionários e gerencia os detalhes do membro da equipe, como nome, número de telefone e endereço de email. Você também pode definir horários de trabalho para cada membro da equipe a partir daqui.
 
-## <a name="before-you-begin"></a>Antes de você começar
+## <a name="before-you-begin"></a>Antes de começar
 
 Embora o Bookings seja um recurso Microsoft 365, nem todos os membros da sua equipe precisam ter uma conta Microsoft 365. Todos os membros da equipe devem ter um endereço de email válido para que possam receber reservas e agendar alterações.
 

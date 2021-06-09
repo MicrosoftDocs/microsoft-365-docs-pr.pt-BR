@@ -31,9 +31,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/29/2021
 ms.locfileid: "50044391"
 ---
-# <a name="infographic-help-protect-yourself-and-your-campaign-from-digital-threats"></a>Infográfico: Ajude a proteger você mesmo e sua campanha contra ameaças digitais
+# <a name="infographic-help-protect-yourself-and-your-campaign-from-digital-threats"></a>Infográfico: Ajude a proteger a si mesmo e sua campanha contra ameaças digitais
 
-Os links a seguir para PowerPoint e PDF podem ser baixados e impressos em formato tabloide (também conhecido por ledger, 11 x 17 ou A3).
+Os links a seguir para PowerPoint e PDF podem ser baixados e impressos no formato tabloide (também conhecido como ledger, 11 x 17 ou A3).
 
 [![Imagem para proteger sua ajuda para proteger o gráfico de informações da campanha](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)
 

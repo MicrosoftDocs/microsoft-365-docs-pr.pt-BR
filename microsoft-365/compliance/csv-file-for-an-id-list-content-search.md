@@ -35,7 +35,7 @@ Aqui está uma visão geral rápida do processo para criar uma pesquisa de lista
 
 1. Crie e execute uma nova pesquisa no Microsoft 365 de conformidade.
 
-2. Exporte os resultados da pesquisa de conteúdo ou o relatório de pesquisa de conteúdo. Para saber mais, veja:
+2. Exporte os resultados da pesquisa de conteúdo ou o relatório de pesquisa de conteúdo. Para saber mais, confira:
 
     - [Exportar resultados de Pesquisa de conteúdo](export-search-results.md)
 

@@ -1,7 +1,7 @@
 ---
 title: Ferramentas e métodos de integração para computadores Windows 10
-description: Integrando dispositivos Windows 10 para que eles possam enviar dados do sensor para o sensor do Microsoft Defender para Ponto de Extremidade
-keywords: Integração de dispositivos Windows 10, política de grupo, gerenciador de configuração de ponto de extremidade, gerenciamento de dispositivo móvel, script local, gp, sccm, mdm, intune
+description: Integração Windows 10 dispositivos para que eles possam enviar dados do sensor para o sensor do Microsoft Defender para Ponto de Extremidade
+keywords: Integração Windows 10, política de grupo, gerenciador de configuração de ponto de extremidade, gerenciamento de dispositivo móvel, script local, gp, sccm, mdm, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -30,8 +30,8 @@ ms.locfileid: "51892821"
 **Aplica-se a:**
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
-- [Prevenção contra perda de dados do Microsoft 365 Endpoint (DLP)](/microsoft-365/compliance/endpoint-dlp-learn-about)
-- [Gerenciamento de riscos do Microsoft 365 Insider](/microsoft-365/compliance/insider-risk-management)
+- [Microsoft 365 Prevenção contra perda de dados do ponto de extremidade (DLP)](/microsoft-365/compliance/endpoint-dlp-learn-about)
+- [Microsoft 365 Gerenciamento de riscos insider](/microsoft-365/compliance/insider-risk-management)
 
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
@@ -40,16 +40,16 @@ Os dispositivos em sua organização devem ser configurados para que o serviço 
 As seguintes ferramentas de implantação e métodos são suportados:
 
 - Política de Grupo
-- Gerenciador de Configuração do Microsoft Endpoint
-- Gerenciamento de dispositivo móvel (incluindo o Microsoft Intune)
+- Microsoft Endpoint Configuration Manager
+- Gerenciamento de dispositivo móvel (incluindo Microsoft Intune)
 - Script local
 
 ## <a name="in-this-section"></a>Nesta seção
 Tópico | Descrição
 :---|:---
-[Integração de dispositivos Windows 10 usando a Política de Grupo](configure-endpoints-gp.md) | Use a Política de Grupo para implantar o pacote de configuração em dispositivos.
-[Integração de dispositivos Windows usando o Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) | Você pode usar o Microsoft Endpoint Manager (branch atual) versão 1606 ou o Microsoft Endpoint Manager (branch atual) versão 1602 ou anterior para implantar o pacote de configuração em dispositivos.
-[Integrar dispositivo Windows 10 usando as ferramentas de Gerenciamento de Dispositivo Móvel](configure-endpoints-mdm.md) | Use as ferramentas de Gerenciamento de Dispositivo Móvel ou o Microsoft Intune para implantar o pacote de configuração no dispositivo.
+[Integração Windows 10 usando a Política de Grupo](configure-endpoints-gp.md) | Use a Política de Grupo para implantar o pacote de configuração em dispositivos.
+[Integração Windows dispositivos usando Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) | Você pode usar o Microsoft Endpoint Manager versão 1606 ou Microsoft Endpoint Manager versão 1602 (filial atual) ou anterior para implantar o pacote de configuração em dispositivos.
+[Integrar dispositivo Windows 10 usando as ferramentas de Gerenciamento de Dispositivo Móvel](configure-endpoints-mdm.md) | Use ferramentas de Gerenciamento de Dispositivo Móvel ou Microsoft Intune para implantar o pacote de configuração no dispositivo.
 [Integrar dispositivos Windows 10 usando um script local](configure-endpoints-script.md) | Saiba como usar o script local para implantar o pacote de configuração nos pontos de extremidade.
 [Dispositivos integrados de VDI (Virtual Desktop Infrastructure) não persistente](configure-endpoints-vdi.md) | Saiba como usar o pacote de configuração para configurar dispositivos VDI.
 

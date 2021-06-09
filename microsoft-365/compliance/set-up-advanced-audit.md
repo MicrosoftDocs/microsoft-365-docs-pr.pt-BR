@@ -70,7 +70,7 @@ Se o comando para habilitar a auditoria de consultas de pesquisa foi executado a
 
 ## <a name="step-3-set-up-audit-retention-policies"></a>Etapa 3: Configurar políticas de retenção de auditoria
 
-Além da política padrão que mantém os registros de auditoria Exchange, SharePoint e Azure AD por um ano, você pode criar políticas de retenção de log de auditoria adicionais para atender aos requisitos das operações de segurança, TI e equipes de conformidade da sua organização. Para saber mais, confira [Gerenciar políticas de retenção de log de auditoria](audit-log-retention-policies.md).
+Além da política padrão que retém os registros de auditoria do Exchange, SharePoint e Azure AD por um ano, você pode criar políticas adicionais de retenção do log de auditoria para atender aos requisitos das operações de segurança, TI e das equipes de conformidade de sua organização. Para saber mais, confira [Gerenciar políticas de retenção de log de auditoria](audit-log-retention-policies.md).
 
 ## <a name="step-4-search-for-crucial-events"></a>Etapa 4: Pesquisar eventos cruciais
 

@@ -1,5 +1,5 @@
 ---
-title: Criar um novo caso na descoberta eletrônica avançada
+title: Criar um novo caso em Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -23,41 +23,41 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 02/15/2020
 ms.locfileid: "42077053"
 ---
-# <a name="create-tag-groups"></a>Criar grupos de marcas
+# <a name="create-tag-groups"></a>Criar grupos de marca
 
-Antes que você ou outras pessoas possam marcar documentos em um conjunto de revisão, as marcas devem ser criadas. Você pode fazer isso criando grupos de marcas que contenham marcas filhas. As marcas são exibidas no painel de marcação ao revisar documentos em um conjunto de revisão.
+Antes que você ou outras pessoas possam marcar documentos em um conjunto de revisão, as marcas devem ser criadas. Você pode fazer isso criando grupos de marcas que contêm marcas filho. As marcas são exibidas no painel de marcação ao revisar documentos em um conjunto de revisão.
 
-Para criar um grupo de marcas:
+Para criar um grupo de marca:
 
-1.  Em um conjunto de revisão, clique em **gerenciar análise definida**.
+1.  Em um conjunto de revisão, clique em **Gerenciar conjunto de revisão**.
 
-    ![Clique em gerenciar o conjunto de revisão](../media/ED-managews.png)
+    ![Clique em Gerenciar conjunto de revisão](../media/ED-managews.png)
 
-2.  No bloco **marcas** , clique em **gerenciar marcas**.
+2.  No **tile Marcas,** clique em **Gerenciar marcas**.
 
-    ![Clique em gerenciar marcas no bloco marcas](../media/ED-managetags.png)
+    ![Clique em Gerenciar marcas no azulejo Marcas](../media/ED-managetags.png)
 
-Uma vez dentro do gerenciamento de marca, as marcas podem ser criadas para atender aos requisitos de seu caso. Você pode começar criando um grupo de marcas.
+Uma vez dentro do gerenciamento de marca, as marcas podem ser criadas para atender aos requisitos do seu caso. Você pode começar criando um grupo de marca.
 
-1.  Clique em **Adicionar seção**.
+1.  Clique **em Adicionar seção**.
 
-    ![Adicionando um grupo de marcas](../media/ED-addtagsection.png)
+    ![Adicionar um grupo de marca](../media/ED-addtagsection.png)
 
-    A tela de visualização será atualizada quando você salvar para que possa visualizar o painel de marcas sem ter que fechar a tela de gerenciamento de marca e voltar para o conjunto de trabalho.
+    A tela de visualização será atualizada ao salvar para que você possa visualizar o painel de marca sem precisar fechar a tela de gerenciamento de marca e voltar para o conjunto de trabalho.
 
 2. Insira um título e uma descrição opcional. 
 
-3. Para criar uma marca dentro desse grupo, clique nas reticências no novo grupo de marcações para criar marcas nessa nova seção.
+3. Para criar uma marca dentro desse grupo, clique nas releições no novo grupo de marcas para criar marcas nessa nova seção.
     
-    ![Criar marcas em um grupo de marcas](../media/ED-createtag.png)
+    ![Criando marcas em um grupo de marcas](../media/ED-createtag.png)
 
-   - **Marcas de opção** forçarão os usuários a selecionar uma marca de um grupo de marcas.
+   - **As marcas de** opção forçarão os usuários a selecionar uma marca de um grupo de marcas.
    
-   - As **marcas de caixa de seleção** permitirão que os usuários selecionem qualquer combinação de marcas. |
+   - **As marcas de caixa de** seleção permitirão que os usuários selecionem qualquer combinação de marcas. |
 
 ## <a name="nested-tags"></a>Marcas aninhadas
 
-Para aninhar marcas, clique nas reticências ao lado de uma marca e selecione uma nova marca para adicionar.
+Para aninhar marcas, clique nas releições ao lado de uma marca e selecione uma nova marca para adicionar.
 
-![Aninhar marcas](../media/ED-tagnesting.png)
+![Marcas de aninhamento](../media/ED-tagnesting.png)
 

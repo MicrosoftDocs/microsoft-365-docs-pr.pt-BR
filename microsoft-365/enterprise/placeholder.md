@@ -1,5 +1,5 @@
 ---
-title: Artigo de espaço reservado
+title: Artigo placeholder
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -20,6 +20,6 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46687174"
 ---
-# <a name="placeholder-article"></a>Artigo de espaço reservado
+# <a name="placeholder-article"></a>Artigo placeholder
 
 Este artigo é um espaço reservado por enquanto.

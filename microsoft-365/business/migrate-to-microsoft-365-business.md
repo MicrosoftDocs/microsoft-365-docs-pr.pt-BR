@@ -46,7 +46,7 @@ Saiba mais sobre Microsoft 365 Business Premium no [Microsoft.com](https://www.m
 
 Adicionamos uma comparação lado a lado desses dois planos à descrição [Microsoft 365 Business Premium Serviço.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) 
 
-## <a name="before-you-begin"></a>Antes de você começar
+## <a name="before-you-begin"></a>Antes de começar
 
 - **Quando devo optar por atualizar?** A atualização é a escolha certa quando você deseja atualizar todos os **usuários** atribuídos a um único plano. Quando você escolhe atualizar, todos os usuários do plano são trocados para outro plano ao mesmo tempo. Se você não quiser atualizar todos os atribuídos a um único plano, compre licenças para o novo plano (nesse caso, Microsoft 365 Business Premium) e atribua essas [licenças individualmente](../admin/manage/assign-licenses-to-users.md) a cada usuário que você deseja atualizar.
 

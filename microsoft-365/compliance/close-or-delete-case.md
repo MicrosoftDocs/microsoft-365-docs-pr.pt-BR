@@ -36,7 +36,7 @@ Veja o que acontece quando você fecha um Advanced eDiscovery caso:
 
 - Fechar um caso apenas fecha as retenções que estão associadas a esse caso. Se outras retenções ocorrerem em um local de conteúdo (como uma responsabilidade por litígio, uma retenção de Descoberta Principal ou uma retenção de um caso Advanced eDiscovery caso diferente), essas retenções ainda serão mantidas.
 
-- O caso ainda está listado na página Descoberta e-descoberta no centro Microsoft 365 conformidade. Os detalhes, retenções, pesquisas e membros de uma ocorrência fechada são mantidos.
+- O caso ainda está listado na página Descoberta e-descoberta no centro Microsoft 365 conformidade. Os detalhes, retenções, pesquisas e membros de um caso fechado são retidos.
 
 - Você pode editar uma ocorrência depois que ela for fechada. Por exemplo, você pode adicionar ou remover membros, criar pesquisas, exportar resultados de pesquisa e preparar resultados de pesquisa para análise em Advanced eDiscovery. A principal diferença entre caso ativo ou fechado é que as retenções são desativadas quando um caso é fechado.
 

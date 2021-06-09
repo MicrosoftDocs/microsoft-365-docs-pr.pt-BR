@@ -29,14 +29,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49928253"
 ---
-# <a name="cancel-google-workspace-subscription"></a>Cancelar a assinatura do Google Workspace
+# <a name="cancel-google-workspace-subscription"></a>Cancelar assinatura do Google Workspace
 
-1. Entre no [Google Admin e](https://admin.google.com/) vá para **Cobrança.**
-1. Na lista **Assinaturas,** escolha sua assinatura do G Suite, **Cancelar assinatura** e, em seguida, escolha **Continuar**.
+1. Entre no [Administrador do Google e](https://admin.google.com/) vá para **Cobrança**.
+1. Na lista **Assinaturas,** escolha sua assinatura do G Suite, **Cancel subscription** e escolha **Continuar**.
 
     > [!IMPORTANT]
     > sua assinatura será cancelada imediatamente e você não poderá desfazer essa ação.
 
-    :::image type="content" source="../../media/cancelgoogleworspace.png" alt-text="Captura de tela da página de Cobrança do Administrador do Google.":::
+    :::image type="content" source="../../media/cancelgoogleworspace.png" alt-text="Captura de tela da página Cobrança do Administrador do Google.":::
 
-Observe que você pode não ver o Registro de Domínio em sua lista de Assinaturas se seu provedor de host DNS não for domínios do Google.
+Observe que você pode não ver Registro de Domínio em sua lista de Assinaturas se o provedor de host DNS não for domínios do Google.

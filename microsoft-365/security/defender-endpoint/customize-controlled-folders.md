@@ -31,7 +31,7 @@ ms.locfileid: "52326518"
 > [!TIP]
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-O acesso controlado a pastas ajuda você a proteger dados valiosos contra aplicativos mal-intencionados e ameaças, como ransomware. O acesso controlado a pastas é suportado nos clientes do Windows Server 2019 e do Windows 10. Este artigo descreve como personalizar recursos de acesso controlado a pastas e inclui as seguintes seções:
+O acesso controlado a pastas ajuda você a proteger dados valiosos contra aplicativos mal-intencionados e ameaças, como ransomware. O acesso controlado a pastas é suportado no Windows Server 2019 e Windows 10 clientes. Este artigo descreve como personalizar recursos de acesso controlado a pastas e inclui as seguintes seções:
 
 - [Proteger pastas adicionais](#protect-additional-folders)
 - [Adicionar aplicativos que devem ter permissão para acessar pastas protegidas](#allow-specific-apps-to-make-changes-to-controlled-folders)
@@ -45,15 +45,15 @@ O acesso controlado a pastas ajuda você a proteger dados valiosos contra aplica
 
 O acesso controlado a pastas se aplica a várias pastas do sistema e locais padrão, incluindo pastas como **Documentos,** **Imagens** e **Filmes.** Você pode adicionar outras pastas a serem protegidas, mas não pode remover as pastas padrão na lista padrão.
 
-Adicionar outras pastas ao acesso controlado a pastas pode ser útil para casos em que você não armazena arquivos nas bibliotecas padrão do Windows ou alterou o local padrão de suas bibliotecas.
+Adicionar outras pastas ao acesso controlado a pastas pode ser útil para os casos em que você não armazena arquivos nas bibliotecas de Windows padrão ou alterou o local padrão de suas bibliotecas.
 
 Você também pode especificar compartilhamentos de rede e unidades mapeadas. Há suporte para variáveis de ambiente e curingas. Para obter informações sobre como usar caracteres curinga, consulte Use curingas no nome do arquivo e no caminho da pasta ou listas de [exclusão de extensão.](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 
-Você pode usar o aplicativo segurança do Windows, Política de Grupo, cmdlets do PowerShell ou provedores de serviço de configuração de gerenciamento de dispositivo móvel para adicionar e remover pastas protegidas.
+Você pode usar o aplicativo Segurança do Windows, a Política de Grupo, os cmdlets do PowerShell ou os provedores de serviço de configuração de gerenciamento de dispositivo móvel para adicionar e remover pastas protegidas.
 
-### <a name="use-the-windows-security-app-to-protect-additional-folders"></a>Usar o aplicativo segurança do Windows para proteger pastas adicionais
+### <a name="use-the-windows-security-app-to-protect-additional-folders"></a>Use o Segurança do Windows para proteger pastas adicionais
 
-1. Abra o aplicativo segurança do Windows selecionando o ícone de escudo na barra de tarefas ou procurando *segurança* no menu Iniciar.
+1. Abra o Segurança do Windows aplicativo selecionando o ícone de escudo na barra de tarefas ou pesquisando por *segurança* no menu Iniciar.
 
 2. Selecione **Proteção contra & contra vírus** e, em seguida, role para baixo até a seção proteção **ransomware.**
 
@@ -73,7 +73,7 @@ Você pode usar o aplicativo segurança do Windows, Política de Grupo, cmdlets 
 
 3. No Editor **de Gerenciamento de Política de Grupo,** acesse Políticas de **configuração** do computador  >    >  **Modelos administrativos.**
 
-4. Expanda a árvore para **componentes do Windows**  >  **O Microsoft Defender**  >  **Antivírus Windows Defender acesso controlado** à  >  **pasta do** Exploit Guard . <br/>**OBSERVAÇÃO**: Em versões mais antigas do Windows, você pode ver Windows Defender **Antivírus** em vez **do Microsoft Defender Antivírus**.
+4. Expanda a árvore para **Windows componentes Microsoft Defender Antivírus** Windows Defender acesso controlado à pasta  >    >  **exploit guard**  >  . <br/>**OBSERVAÇÃO**: Em versões mais antigas Windows, você pode ver Windows Defender Antivírus **em** vez de **Microsoft Defender Antivírus**.
 
 5. Clique duas vezes **em Configurações de pastas protegidas** e, em seguida, de definir a opção **como Habilitado**. Selecione **Mostrar** e especifique cada pasta que você deseja proteger.
 
@@ -88,7 +88,7 @@ Você pode usar o aplicativo segurança do Windows, Política de Grupo, cmdlets 
     ```PowerShell
     Add-MpPreference -ControlledFolderAccessProtectedFolders "<the folder to be protected>"
     ```
-3. Repita a etapa 2 para cada pasta que você deseja proteger. As pastas protegidas ficam visíveis no aplicativo segurança do Windows.
+3. Repita a etapa 2 para cada pasta que você deseja proteger. As pastas protegidas ficam visíveis no aplicativo Segurança do Windows.
 
    :::image type="content" source="images/cfa-allow-folder-ps.png" alt-text="Janela do PowerShell com cmdlet mostrado":::
 
@@ -104,7 +104,7 @@ Use o provedor de serviços de configuração [./Vendor/MSFT/Policy/Config/Defen
 Você pode especificar se determinados aplicativos são sempre considerados seguros e dar acesso de gravação a arquivos em pastas protegidas. Permitir aplicativos pode ser útil se um aplicativo específico que você conhece e confiança estiver sendo bloqueado pelo recurso de acesso controlado a pastas.
 
 > [!IMPORTANT]
-> Por padrão, o Windows adiciona aplicativos considerados amigáveis à lista permitida. Esses aplicativos adicionados automaticamente não são registrados na lista mostrada no aplicativo segurança do Windows ou usando os cmdlets associados do PowerShell. Não é necessário adicionar a maioria dos aplicativos. Adicione apenas aplicativos se eles estão sendo bloqueados e você pode verificar sua confiabilidade.
+> Por padrão, Windows adiciona aplicativos que são considerados amigáveis à lista permitida. Esses aplicativos adicionados automaticamente não são registrados na lista mostrada no aplicativo Segurança do Windows ou usando os cmdlets associados do PowerShell. Não é necessário adicionar a maioria dos aplicativos. Adicione apenas aplicativos se eles estão sendo bloqueados e você pode verificar sua confiabilidade.
 
 Ao adicionar um aplicativo, você precisa especificar o local do aplicativo. Somente o aplicativo nesse local terá acesso permitido às pastas protegidas. Se o aplicativo (com o mesmo nome) estiver em um local diferente, ele não será adicionado à lista de autorizações e poderá ser bloqueado pelo acesso controlado a pastas.
 
@@ -112,7 +112,7 @@ Um aplicativo ou serviço permitido só tem acesso de gravação a uma pasta con
 
 ### <a name="use-the-windows-defender-security-app-to-allow-specific-apps"></a>Use o aplicativo Windows Defender Segurança para permitir aplicativos específicos
 
-1. Abra o aplicativo segurança do Windows pesquisando o menu iniciar para **Segurança**.
+1. Abra o Segurança do Windows aplicativo pesquisando o menu iniciar para **Segurança**.
 
 2. Selecione o **&** de proteção contra ameaças (ou o ícone de escudo na barra de menus esquerda) e selecione Gerenciar proteção **de ransomware**.
 
@@ -128,7 +128,7 @@ Um aplicativo ou serviço permitido só tem acesso de gravação a uma pasta con
 
 2. No **Editor de Gerenciamento de Política de Grupo**, acesse **Configuração do Computador** e selecione **Modelos Administrativos**.
 
-3. Expanda a árvore para **componentes do Windows**  >  **O Microsoft Defender**  >  **Antivírus Windows Defender acesso controlado** à  >  **pasta do** Exploit Guard .
+3. Expanda a árvore para **Windows componentes Microsoft Defender Antivírus** Windows Defender acesso controlado à pasta  >    >  **exploit guard**  >  .
 
 4. Clique duas vezes na **configuração Configurar aplicativos permitidos** e de definir a opção **como Habilitado**. Selecione **Mostrar** e insira cada aplicativo.
 
@@ -147,7 +147,7 @@ Um aplicativo ou serviço permitido só tem acesso de gravação a uma pasta con
     Add-MpPreference -ControlledFolderAccessAllowedApplications "c:\apps\test.exe"
     ```
 
-   Continue a usar `Add-MpPreference -ControlledFolderAccessAllowedApplications` para adicionar mais aplicativos à lista. Os aplicativos adicionados usando esse cmdlet aparecerão no aplicativo segurança do Windows.
+   Continue a usar `Add-MpPreference -ControlledFolderAccessAllowedApplications` para adicionar mais aplicativos à lista. Os aplicativos adicionados usando esse cmdlet serão exibidos no Segurança do Windows app.
 
    :::image type="content" source="images/cfa-allow-app-ps.png" alt-text="Cmdlet do PowerShell para permitir um aplicativo":::
 

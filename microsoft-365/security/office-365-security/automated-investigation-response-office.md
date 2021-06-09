@@ -1,5 +1,5 @@
 ---
-title: Como funciona a investigação e a resposta automatizadas no Microsoft Defender para Office 365
+title: Como a investigação e a resposta automatizadas funcionam no Microsoft Defender para Office 365
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -29,7 +29,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/07/2021
 ms.locfileid: "52269631"
 ---
-# <a name="how-automated-investigation-and-response-works-in-microsoft-defender-for-office-365"></a>Como funciona a investigação e a resposta automatizadas no Microsoft Defender para Office 365
+# <a name="how-automated-investigation-and-response-works-in-microsoft-defender-for-office-365"></a>Como a investigação e a resposta automatizadas funcionam no Microsoft Defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -45,7 +45,7 @@ Este artigo descreve como o AIR funciona por meio de vários exemplos. Quando vo
 
 - [Exemplo 1: uma mensagem de phishing relatada pelo usuário inicia um manual de investigação](#example-a-user-reported-phish-message-launches-an-investigation-playbook)
 - [Exemplo 2: um administrador de segurança dispara uma investigação do Explorador de Ameaças](#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)
-- [Exemplo 3: uma equipe de operações de segurança integra o AIR com seu SIEM usando a API de Atividade de Gerenciamento do Office 365](#example-a-security-operations-team-integrates-air-with-their-siem-using-the-office-365-management-activity-api)
+- [Exemplo 3: uma equipe de operações de segurança integra o AIR com seu SIEM usando a API Office 365 De Atividade de Gerenciamento](#example-a-security-operations-team-integrates-air-with-their-siem-using-the-office-365-management-activity-api)
 
 ## <a name="example-a-user-reported-phish-message-launches-an-investigation-playbook"></a>Exemplo: uma mensagem de phishing relatada pelo usuário inicia um manual de investigação
 
@@ -54,7 +54,7 @@ Suponha que um usuário em sua organização receba um email que ele acha que é
 Durante a fase de investigação raiz, vários aspectos do email são avaliados. Esses aspectos incluem:
 
 - Uma determinação sobre o tipo de ameaça que pode ser;
-- Quem o enviou;
+- Who enviou;
 - De onde o email foi enviado (enviando infraestrutura);
 - Se outras instâncias do email foram entregues ou bloqueadas;
 - Uma avaliação de nossos analistas;
@@ -68,8 +68,8 @@ Em seguida, várias etapas de investigação e busca de ameaças são executadas
 - Mensagens de email semelhantes são identificadas por meio de pesquisas de cluster de email.
 - O sinal é compartilhado com outras plataformas, como [o Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection).
 - Uma determinação é feita sobre se os usuários clicaram em links mal-intencionados em mensagens de email suspeitas.
-- Uma verificação é feita no Exchange Online Protection ([EOP](exchange-online-protection-overview.md)) e ([Microsoft Defender para Office 365](defender-for-office-365.md)) para ver se há outras mensagens semelhantes relatadas pelos usuários.
-- Uma verificação é feita para ver se um usuário foi comprometido. Essa verificação aproveita sinais no Office 365, [no Microsoft Cloud App Security](/cloud-app-security)e no [Azure Active Directory,](/azure/active-directory)correlacionando quaisquer anomalias relacionadas à atividade do usuário.
+- Uma verificação é feita Proteção do Exchange Online ([EOP](exchange-online-protection-overview.md)) e ([Microsoft Defender para](defender-for-office-365.md)Office 365 ) para ver se há outras mensagens semelhantes relatadas pelos usuários.
+- Uma verificação é feita para ver se um usuário foi comprometido. Essa verificação aproveita sinais entre Office 365, [Microsoft Cloud App Security](/cloud-app-security)e [Azure Active Directory](/azure/active-directory), correlacionando quaisquer anomalias relacionadas à atividade do usuário.
 
 Durante a fase de busca, riscos e ameaças são atribuídos a várias etapas de busca.
 
@@ -89,11 +89,11 @@ Usando o menu **Ações,** você pode selecionar **Disparar investigação**.
 
 Semelhante às playbooks disparadas por um alerta, as investigações automáticas disparadas de um modo de exibição no Explorer incluem uma investigação raiz, etapas para identificar e correlacionar ameaças e ações recomendadas para mitigar essas ameaças.
 
-## <a name="example-a-security-operations-team-integrates-air-with-their-siem-using-the-office-365-management-activity-api"></a>Exemplo: uma equipe de operações de segurança integra o AIR com o SIEM usando a API de Atividade de Gerenciamento do Office 365
+## <a name="example-a-security-operations-team-integrates-air-with-their-siem-using-the-office-365-management-activity-api"></a>Exemplo: uma equipe de operações de segurança integra o AIR com o SIEM usando a API Office 365 De Atividade de Gerenciamento
 
-Os recursos air no Microsoft Defender para Office 365 incluem relatórios & [detalhes](air-view-investigation-results.md) que as equipes de operações de segurança podem usar para monitorar e lidar com ameaças. Mas você também pode integrar recursos AIR com outras soluções. Exemplos incluem um sistema de gerenciamento de informações de segurança e eventos (SIEM), um sistema de gerenciamento de caso ou uma solução de relatório personalizada. Esses tipos de integrações podem ser feitas usando a API de Atividade de Gerenciamento do [Office 365.](/office/office-365-management-api/office-365-management-activity-api-reference)
+Os recursos air no Microsoft Defender para Office 365 incluem relatórios & [detalhes](air-view-investigation-results.md) que as equipes de operações de segurança podem usar para monitorar e resolver ameaças. Mas você também pode integrar recursos AIR com outras soluções. Exemplos incluem um sistema de gerenciamento de informações de segurança e eventos (SIEM), um sistema de gerenciamento de caso ou uma solução de relatório personalizada. Esses tipos de integrações podem ser feitas usando a API Office 365 [Atividade de Gerenciamento.](/office/office-365-management-api/office-365-management-activity-api-reference)
 
-Por exemplo, recentemente, uma organização definiu uma maneira de sua equipe de operações de segurança exibir alertas de phishing relatados pelo usuário que já foram processados pelo AIR. Sua solução integra alertas relevantes com o servidor SIEM da organização e seu sistema de gerenciamento de caso. A solução reduz consideravelmente o número de falsos positivos para que sua equipe de operações de segurança possa concentrar seu tempo e esforço em ameaças reais. Para saber mais sobre essa solução personalizada, consulte Blog da Comunidade Técnica: Melhorar a eficácia do SOC com o Microsoft Defender para Office 365 e a API de Gerenciamento [do O365.](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185)
+Por exemplo, recentemente, uma organização definiu uma maneira de sua equipe de operações de segurança exibir alertas de phishing relatados pelo usuário que já foram processados pelo AIR. Sua solução integra alertas relevantes com o servidor SIEM da organização e seu sistema de gerenciamento de caso. A solução reduz consideravelmente o número de falsos positivos para que sua equipe de operações de segurança possa concentrar seu tempo e esforço em ameaças reais. Para saber mais sobre essa solução personalizada, consulte o blog tecnologia Community: Melhorar a eficácia do soc com o Microsoft Defender para Office 365 e a API de Gerenciamento [do O365.](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185)
 
 ## <a name="next-steps"></a>Próximas etapas
 

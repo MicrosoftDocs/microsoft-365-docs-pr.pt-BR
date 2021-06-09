@@ -100,7 +100,7 @@ Os atributos que você precisa preparar estão listados aqui:
   - Se o atributo existir no objeto user, ele será sincronizado com o Microsoft 365, mas Microsoft 365 não exigir ou usá-lo.
   - Número máximo de caracteres: 64
 
-- **Email**
+- **email**
 
   - O valor do atributo deve ser exclusivo no diretório.
 

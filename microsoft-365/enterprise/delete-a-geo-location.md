@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom: seo-marvel-mar2020
 ms.collection: Strat_SP_gtc
 localization_priority: Normal
-description: Aprenda a excluir uma localização por satélite no Microsoft 365 Multi-Geo. Quando uma localização por satélite é excluída, todos os dados do usuário também são excluídos permanentemente.
+description: Aprenda a excluir uma localização por satélite no Microsoft 365 Multi-Geo. Quando um local de satélite é excluído, todos os dados do usuário também são excluídos permanentemente.
 ms.openlocfilehash: 7a58ed91a0bb801fc41ed0a89889ede5e65b4a21
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
