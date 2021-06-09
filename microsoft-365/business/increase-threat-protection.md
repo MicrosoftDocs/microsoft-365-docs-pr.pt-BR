@@ -89,7 +89,7 @@ Para criar uma regra de transporte de email:
 |Faça o seguinte . . .|Notificar o destinatário com uma mensagem|
 |Fornecer texto de mensagem|Não abra esses tipos de arquivos de pessoas que você não conhece porque elas podem conter macros com código mal-intencionado.|
 
-Para saber mais, veja:
+Para saber mais, confira:
 
 - [Ransomware: como reduzir o risco](https://www.microsoft.com/security/blog/2020/04/28/ransomware-groups-continue-to-target-healthcare-critical-services-heres-how-to-reduce-risk/)
 

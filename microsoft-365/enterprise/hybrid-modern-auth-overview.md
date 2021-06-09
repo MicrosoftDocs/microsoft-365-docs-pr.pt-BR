@@ -15,7 +15,7 @@ ms.collection:
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-description: Neste artigo, você aprenderá sobre a Autenticação Moderna Híbrida e os pré-requisitos para uso com servidores locais do Skype for Business e do Exchange.
+description: Neste artigo, você aprenderá sobre a Autenticação Moderna Híbrida e os pré-requisitos para uso com servidores Skype for Business e Exchange locais.
 ms.openlocfilehash: 33bcf9bde2cda0388160337d3ffe6b81ab94eb12
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -48,7 +48,7 @@ O gerenciamento das identidades de usuário com a autenticação moderna proporc
 
 Esteja ciente de que, devido ao fato de que o Skype for Business funciona em proximidade com o Exchange, o comportamento de login visto pelos usuários do cliente Skype for Business será afetado pelo status da autenticação moderna do Exchange. Isso também ocorrerá se você tiver uma arquitetura híbrida do Skype for Business com _domínio dividido_, na qual você tenha tanto o Skype for Business Online quanto o Skype for Business no local, com os usuários abrigados em ambos os locais.
 
-Para obter mais informações sobre autenticação moderna no Office 365, consulte Suporte a aplicativos cliente do [Office 365 - Autenticação multifatório.](microsoft-365-client-support-multi-factor-authentication.md)
+Para obter mais informações sobre a autenticação moderna no Office 365, [consulte Office 365 Suporte ao Aplicativo cliente - Autenticação multifa factor](microsoft-365-client-support-multi-factor-authentication.md).
 
 > [!IMPORTANT]
 > A partir de agosto de 2017, todos os locatários do novo Office 365 que incluíam o Skype for Business online e o Exchange online passaram a ter a autenticação moderna habilitada por padrão. Os locatários pré-existentes não tiveram uma alteração no seu estado de AM padrão, mas todos os novos locatários são compatíveis automaticamente com o conjunto de recursos de identidade ampliados que você pode ver listado acima. Para verificar seu status de AM, confira a seção [Verificar o status da autenticação moderna do seu ambiente no local](hybrid-modern-auth-overview.md#BKMK_CheckStatus).
@@ -149,7 +149,7 @@ Verifique e marque esses itens na sua lista de verificação antes de continuar:
 
     A disponibilidade da autenticação moderna é determinada pela combinação do cliente, protocolo e configuração. Se a autenticação moderna não for suportada pelo cliente, protocolo e/ou configuração, o cliente continuará a utilizar a autenticação herdada.
   
-    Os seguintes clientes e protocolos suportam autenticação moderna com o Exchange local quando a autenticação moderna está habilitada no ambiente:
+    Os seguintes clientes e protocolos suportam autenticação moderna com Exchange local quando a autenticação moderna está habilitada no ambiente:
 
   |**Clientes**|**Protocolo principal**|**Observações**|
   |:-----|:-----|:-----|

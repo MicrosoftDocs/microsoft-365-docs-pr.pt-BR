@@ -43,9 +43,9 @@ As configurações a seguir estão disponíveis para proteger os arquivos de tra
   
 |||
 |:-----|:-----|
-|Setting  <br/> |Descrição  <br/> |
+|Configuração  <br/> |Descrição  <br/> |
 |Excluir arquivos de trabalho de um dispositivo inativo após determinada quantidade de dias  <br/> |Se um dispositivo não for usado para o número de dias especificado aqui, todos os arquivos de trabalho armazenados no dispositivo serão excluídos automaticamente.  <br/> |
-|Forçar os usuários a salvar todos os arquivos de trabalho no OneDrive for Business  <br/> |Se essa configuração for **On**, o único local de salvação disponível para arquivos de trabalho será o OneDrive for Business.  <br/> |
+|Forçar os usuários a salvar todos os arquivos de trabalho no OneDrive for Business  <br/> |Se essa configuração for **On**, o único local de salvação disponível para arquivos de trabalho será OneDrive for Business.  <br/> |
 |Criptografar arquivos de trabalho  <br/> |Mantenha essa configuração **Ativada** para que os arquivos de trabalho sejam protegidos por criptografia. Mesmo que o dispositivo seja perdido ou roubado, ninguém poderá ler os dados da empresa.  <br/> |
    
 

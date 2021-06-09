@@ -46,7 +46,7 @@ Assista a um breve vídeo sobre como instalar Office aplicativos.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/acce002c-0756-4b64-ac5d-2198ee96a9b1] 
 
-Se você achou este vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades para o Microsoft 365](../business-video/index.yml).
+Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](../business-video/index.yml).
 
 ## <a name="manage-office-deployments"></a>Gerenciar as implantações do Office
 

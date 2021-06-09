@@ -140,8 +140,8 @@ A opção a seguir pode impedir que os usuários acessem seus Microsoft 365 emai
 |Bloquear backup em nuvem |Sim|Não|Não|
 |Bloquear sincronização de documento |Sim|Não|Não|
 |Bloquear sincronização de fotos  |Sim|Não|Não|
-|Permitir backup do Google  |N/D|Não|Sim|
-|Permitir sincronização automática de conta do Google  |N/D|Não|Sim|
+|Permitir backup do Google  |N/A|Não|Sim|
+|Permitir sincronização automática de conta do Google  |N/A|Não|Sim|
 
 ## <a name="system-settings"></a>Configurações do sistema
 

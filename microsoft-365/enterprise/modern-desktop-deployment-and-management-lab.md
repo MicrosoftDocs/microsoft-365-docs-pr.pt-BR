@@ -1,5 +1,5 @@
 ---
-title: Windows 10 e Office 365 kit de laboratório de implantação
+title: Kit de laboratório de implantação do Windows 10 e Office 365
 f1.keywords:
 - NOCSH
 ms.author: greglin
@@ -22,7 +22,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/04/2021
 ms.locfileid: "52770668"
 ---
-# <a name="windows-10-and-office-365-deployment-lab-kit"></a>Windows 10 e Office 365 kit de laboratório de implantação
+# <a name="windows-10-and-office-365-deployment-lab-kit"></a>Kit de laboratório de implantação do Windows 10 e Office 365
 
 O Windows 10 e o Office 365 de implantação foram projetados para ajudá-lo a planejar, testar e validar sua implantação e gerenciamento de áreas de trabalho executando Windows 10 Enterprise e Microsoft 365 Apps para Grandes Empresas. Os laboratórios na capa do kit usando Microsoft Endpoint Configuration Manager, Análise de Área de Trabalho, a Ferramenta de Personalização Office, OneDrive, Windows Autopilot e muito mais.
 

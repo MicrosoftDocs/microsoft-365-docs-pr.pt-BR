@@ -81,7 +81,7 @@ Atualmente, há recomendações para os seguintes produtos:
 - Azure Active Directory
 - Microsoft Defender para Ponto de Extremidade
 - Microsoft Defender para Identidade?
-- Segurança no Aplicativo na Nuvem
+- Microsoft Cloud App Security
 - Microsoft Teams
 
 Recomendações outros produtos de segurança chegarão em breve. As recomendações não abrangem todas as superfícies de ataque associadas a cada produto, mas são uma boa linha de base. Você também pode marcar as ações de melhoria como cobertas por terceiros ou mitigação alternativa.
@@ -117,7 +117,7 @@ Com o acesso de leitura e gravação, você pode fazer alterações e interagir 
 
 Com o acesso somente leitura, você não é capaz de editar status ou anotações para uma ação de melhoria, editar zonas de pontuação ou editar comparações personalizadas.
 
-* Administrador da assistência técnica
+* Administrador do Helpdesk
 * Administrador de usuários
 * Administrador de serviço
 * Leitor de segurança

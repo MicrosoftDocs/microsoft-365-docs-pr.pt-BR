@@ -1,5 +1,5 @@
 ---
-title: Cadeias de criptografia do Microsoft 365
+title: Microsoft 365 de criptografia
 f1.keywords:
 - NOCSH
 ms.author: kvice
@@ -16,7 +16,7 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
-description: Exibir uma lista completa de certificados raiz e autoridades de certificados (CAs) no Microsoft 365.
+description: Exibir uma lista completa de certificados raiz e autoridades de certificados (CAs) em Microsoft 365.
 ms.openlocfilehash: c5b00a3a663c2ae4862cfa3d11f92015c0331e59
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -24,23 +24,23 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50907715"
 ---
-# <a name="microsoft-365-encryption-chains"></a>Cadeias de criptografia do Microsoft 365
+# <a name="microsoft-365-encryption-chains"></a>Microsoft 365 de criptografia
 
-O Microsoft 365 aproveita vários provedores de certificados diferentes. A seguir descreve a lista completa de certificados raiz conhecidos do Microsoft 365 que os clientes podem encontrar ao acessar o Microsoft 365. Para obter informações sobre os certificados que você pode precisar instalar em sua própria infraestrutura, consulte [Plan for third-party SSL certificates for Microsoft 365](../enterprise/plan-for-third-party-ssl-certificates.md). As informações de certificado a seguir se aplicam a todas as instâncias de nuvem nacionais e mundiais do Microsoft 365.
+Microsoft 365 aproveita vários provedores de certificados diferentes. A seguir descreve a lista completa de certificados Microsoft 365 raiz conhecidos que os clientes podem encontrar ao acessar Microsoft 365. Para obter informações sobre os certificados que você pode precisar instalar em sua própria infraestrutura, consulte [Plan for third-party SSL certificates for Microsoft 365](../enterprise/plan-for-third-party-ssl-certificates.md). As informações de certificado a seguir se aplicam a todas as instâncias de nuvem nacionais e mundiais de Microsoft 365.
 
 Última atualização: **16/10/2020**
 
 >[!NOTE]
->Para obter informações de certificado que se apliquem a clientes do DOD e **GCC High,** consulte Cadeias de criptografia do [Microsoft 365 - DOD e GCC High](encryption-office-365-certificate-chains-itar.md).
+>Para obter informações de certificado que se apliquem ao **DOD** e GCC clientes high, consulte Microsoft 365 cadeias de criptografia [- DOD e GCC High](encryption-office-365-certificate-chains-itar.md).
 
 | **Tipo de certificado** | **Download P7b** | **Pontos de extremidade CRL** | **Pontos de extremidade OCSP** | **Pontos de extremidade do AIA** |
 | --- | --- | --- | --- | --- |
-| Certificados raiz confiáveis publicamente | [Pacote de certificados raiz do Microsoft 365 (P7B)](https://download.microsoft.com/download/4/a/b/4ab1c940-826b-444b-b287-b7a902e68da0/m365_root_certs_20201012.p7b) | crl.globalsign.net<br>www.d-trust.net | N/D | N/D |
-| Certificados Intermediários Confiáveis Publicamente | [Pacote de certificados intermediários do Microsoft 365 (P7B)](https://download.microsoft.com/download/1/4/7/14777f28-3fde-4958-aebf-bd192a4a7fac/m365_intermediate_certs_20201013.p7b) | cdp1.public-trust.com<br>crl.cnnic.cn<br>crl.entrust.net<br>crl.globalsign.com<br>crl.globalsign.net<br>crl.identrust.com<br>crl.thawte.com<br>crl3.digicert.com<br>crl4.digicert.com<br>s1.symcb.com<br>www.d-trust.net | isrg.trustid.ocsp.identrust.com<br>ocsp.digicert.com<br>ocsp.entrust.net<br>ocsp.globalsign.com<br>ocsp.omniroot.com<br>ocsp.startssl.com<br>ocsp.thawte.com<br>ocsp2.globalsign.com<br>ocspcnnicroot.cnnic.cn<br>root-c3-ca2-2009.ocsp.d-trust.net<br>root-c3-ca2-ev-2009.ocsp.d-trust.net<br>s2.symcb.com | aia.startssl.com<br>apps.identrust.com<br>cacert.omniroot.com<br>www.cnnic.cn |
+| Certificados raiz confiáveis publicamente | [Microsoft 365 Pacote de certificado raiz (P7B)](https://download.microsoft.com/download/4/a/b/4ab1c940-826b-444b-b287-b7a902e68da0/m365_root_certs_20201012.p7b) | crl.globalsign.net<br>www.d-trust.net | N/D | N/D |
+| Certificados Intermediários Confiáveis Publicamente | [Microsoft 365 Pacote de Certificado Intermediário (P7B)](https://download.microsoft.com/download/1/4/7/14777f28-3fde-4958-aebf-bd192a4a7fac/m365_intermediate_certs_20201013.p7b) | cdp1.public-trust.com<br>crl.cnnic.cn<br>crl.entrust.net<br>crl.globalsign.com<br>crl.globalsign.net<br>crl.identrust.com<br>crl.thawte.com<br>crl3.digicert.com<br>crl4.digicert.com<br>s1.symcb.com<br>www.d-trust.net | isrg.trustid.ocsp.identrust.com<br>ocsp.digicert.com<br>ocsp.entrust.net<br>ocsp.globalsign.com<br>ocsp.omniroot.com<br>ocsp.startssl.com<br>ocsp.thawte.com<br>ocsp2.globalsign.com<br>ocspcnnicroot.cnnic.cn<br>root-c3-ca2-2009.ocsp.d-trust.net<br>root-c3-ca2-ev-2009.ocsp.d-trust.net<br>s2.symcb.com | aia.startssl.com<br>apps.identrust.com<br>cacert.omniroot.com<br>www.cnnic.cn |
 
 Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais sobre os provedores de certificados.
 
-## <a name="microsoft-365-root-certificate-details"></a>**Detalhes do certificado raiz do Microsoft 365**
+## <a name="microsoft-365-root-certificate-details"></a>**Microsoft 365 Detalhes do certificado raiz**
 
 ### <a name="baltimore-cybertrust-root"></a>**Baltimore CyberTrust Root**
 
@@ -245,7 +245,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 | **Impressão digital (SHA-256)** | 9ACFAB7E43C8D880D06B262A94DEEEE4B465989C3D0CAF19BAF6405E41AB7DF |
 | **Pin (SHA-256)** | JbQbUG5JMJUoI6brnx0x3vZF6jilxsapbXGVfjhN8Fg= |
 
-## <a name="microsoft-365-intermediate-certificate-details"></a>**Detalhes do certificado intermediário do Microsoft 365**
+## <a name="microsoft-365-intermediate-certificate-details"></a>**Microsoft 365 Detalhes intermediários do certificado**
 
 ### <a name="cnnic-sha256-ssl"></a>**SSL SHA256 DA SSL**
 
@@ -607,7 +607,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="microsoft-azure-tls-issuing-ca-01"></a>**Microsoft Azure TLS Emissão de CA 01**
 
-| **Assunto** | CN=Microsoft Azure TLS Issuing CA 01<br>O=Microsoft Corporation<br>C=US |
+| **Assunto** | CN=Microsoft Azure TLS Emissão de CA 01<br>O=Microsoft Corporation<br>C=US |
 | --- | --- |
 | **Emissor** | CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **Número de série** | 0A:AF:A6:C5:CA:63:C4:51:41:EA:3B:E1:F7:C7:53:17 |
@@ -658,7 +658,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="microsoft-azure-tls-issuing-ca-06"></a>**Microsoft Azure TLS Emissão de CA 06**
 
-| **Assunto** | CN=Microsoft Azure TLS Issuing CA 06<br>O=Microsoft Corporation<br>C=US |
+| **Assunto** | CN=Microsoft Azure TLS Emissão de CA 06<br>O=Microsoft Corporation<br>C=US |
 | --- | --- |
 | **Emissor** | CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **Número de série** | 02:E7:91:71:FB:80:21:E9:3F:E2:D9:83:83:4C:50:C0 |
@@ -838,7 +838,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="verizon-akamai-sureserver-ca-g14-sha2"></a>**Verizon Akamai SureServer CA G14-SHA2**
 
-| **Assunto** | CN=Verizon Akamai SureServer CA G14-SHA2<br>OU=Cybertrust<br>Soluções empresariais O=Verizon<br>L=Amsterdã<br>C=NL |
+| **Assunto** | CN=Verizon Akamai SureServer CA G14-SHA2<br>OU=Cybertrust<br>O=Verizon Enterprise Solutions<br>L=Amsterdã<br>C=NL |
 | --- | --- |
 | **Emissor** | CN=Baltimore CyberTrust Root<br>OU=CyberTrust<br>O=Baltimore<br>C=IE |
 | **Número de série** | 07:27:A4:6B |

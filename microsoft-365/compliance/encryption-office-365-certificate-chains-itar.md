@@ -1,5 +1,5 @@
 ---
-title: Cadeias de criptografia do Microsoft 365 - DOD e GCC High
+title: Microsoft 365 de criptografia - DOD e GCC Alta
 f1.keywords:
 - NOCSH
 ms.author: kvice
@@ -16,7 +16,7 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
-description: Exibir uma lista completa de certificados raiz e autoridades de certificados (CAs) do DOD e GCC High no Microsoft 365.
+description: Exibir uma lista completa do DOD e GCC certificados e autoridades de certificados (CAs) de alta raiz no Microsoft 365.
 ms.openlocfilehash: 016c7d6b4c5557b7930763c2628525cc3c2c409f
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -24,24 +24,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50927801"
 ---
-# <a name="microsoft-365-encryption-chains---dod-and-gcc-high"></a>Cadeias de criptografia do Microsoft 365 - DOD e GCC High
+# <a name="microsoft-365-encryption-chains---dod-and-gcc-high"></a>Microsoft 365 de criptografia - DOD e GCC Alta
 
-O Microsoft 365 aproveita vários provedores de certificados diferentes. A seguir descreve a lista completa de certificados raiz conhecidos do Microsoft 365 que os clientes do DOD e **GCC High** podem encontrar ao acessar o Microsoft 365. Para obter informações sobre os certificados que você pode precisar instalar em sua própria infraestrutura, consulte [Plan for third-party SSL certificates for Microsoft 365](../enterprise/plan-for-third-party-ssl-certificates.md).
+Microsoft 365 aproveita vários provedores de certificados diferentes. A seguir descreve a lista completa de certificados Microsoft 365 raiz conhecidos que o **DOD** e GCC high customers podem encontrar ao acessar Microsoft 365. Para obter informações sobre os certificados que você pode precisar instalar em sua própria infraestrutura, consulte [Plan for third-party SSL certificates for Microsoft 365](../enterprise/plan-for-third-party-ssl-certificates.md).
 
-As informações de certificado a seguir se aplicam a **todos os clientes do DOD e GCC High.**
+As informações de certificado a seguir se aplica a **todos os clientes do DOD e GCC High.**
 
 Última atualização: **16/10/2020**
 
 >[!NOTE]
->Para obter informações de certificado que se apliquem a clientes em todo **o mundo,** consulte Cadeias de criptografia [do Microsoft 365.](encryption-office-365-certificate-chains.md)
+>Para obter informações de certificado que se apliquem a clientes em todo o **mundo,** [consulte Microsoft 365 cadeias de criptografia](encryption-office-365-certificate-chains.md).
 
 | **Tipo de certificado** | **Download P7b** | **Pontos de extremidade CRL** | **Pontos de extremidade OCSP** |
 | --- | --- | --- | --- | --- |
-| Certificados raiz e intermediários confiáveis publicamente | [Pacote de certificados ITAR do Microsoft 365 (P7B)](https://download.microsoft.com/download/b/3/a/b3ae08a2-516c-46a9-8723-6256e4fd6383/m365_chain_certs_itar20201012.p7b) | crl.entrust.net<br>crl3.digicert.com<br>crl4.digicert.com | ocsp.digicert.com<br>ocsp.entrust.net |
+| Certificados raiz e intermediários confiáveis publicamente | [Microsoft 365 Pacote de certificados ITAR (P7B)](https://download.microsoft.com/download/b/3/a/b3ae08a2-516c-46a9-8723-6256e4fd6383/m365_chain_certs_itar20201012.p7b) | crl.entrust.net<br>crl3.digicert.com<br>crl4.digicert.com | ocsp.digicert.com<br>ocsp.entrust.net |
 
 Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais sobre os provedores de certificados.
 
-## <a name="microsoft-365-certificate-details"></a>**Detalhes do certificado do Microsoft 365**
+## <a name="microsoft-365-certificate-details"></a>**Microsoft 365 Detalhes do certificado**
 
 ### <a name="baltimore-cybertrust-root"></a>**Baltimore CyberTrust Root**
 
@@ -316,7 +316,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="microsoft-azure-tls-issuing-ca-01"></a>**Microsoft Azure TLS Emissão de CA 01**
 
-| **Assunto** | CN=Microsoft Azure TLS Issuing CA 01<br>O=Microsoft Corporation<br>C=US |
+| **Assunto** | CN=Microsoft Azure TLS Emissão de CA 01<br>O=Microsoft Corporation<br>C=US |
 | --- | --- |
 | **Emissor** | CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **Número de série** | 0A:AF:A6:C5:CA:63:C4:51:41:EA:3B:E1:F7:C7:53:17 |
@@ -367,7 +367,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="microsoft-azure-tls-issuing-ca-06"></a>**Microsoft Azure TLS Emissão de CA 06**
 
-| **Assunto** | CN=Microsoft Azure TLS Issuing CA 06<br>O=Microsoft Corporation<br>C=US |
+| **Assunto** | CN=Microsoft Azure TLS Emissão de CA 06<br>O=Microsoft Corporation<br>C=US |
 | --- | --- |
 | **Emissor** | CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **Número de série** | 02:E7:91:71:FB:80:21:E9:3F:E2:D9:83:83:4C:50:C0 |

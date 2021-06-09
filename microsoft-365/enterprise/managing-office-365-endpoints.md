@@ -17,7 +17,7 @@ ms.custom:
 - seo-marvel-apr2020
 search.appverid: MOE150
 ms.assetid: 99cab9d4-ef59-4207-9f2b-3728eb46bf9a
-description: Saiba como gerenciar os pontos de extremidade do Office 365 para que eles trabalhem com a arquitetura de rede da organização corporativa.
+description: Saiba como gerenciar Office 365 pontos de extremidade para que eles trabalhem com a arquitetura de rede da sua organização corporativa.
 ms.openlocfilehash: ea89c263b1d2c89ff49ec7263269afc6030292e8
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,17 +27,17 @@ ms.locfileid: "50905111"
 ---
 # <a name="managing-office-365-endpoints"></a>Gerenciar pontos de extremidade do Office 365
 
-A maioria das organizações corporativas que possuem vários locais de escritório e uma WAN de conexão precisará de configuração para a conectividade de rede do Office 365. Você pode otimizar a rede enviando solicitações de rede confiáveis do Office 365 diretamente por meio do firewall, ignorando toda a inspeção de nível de pacote adicional ou o processamento. Isso reduz a latência e os seus requisitos de capacidade de perímetro. Identificar o tráfego de rede do Office 365 é o primeiro passo para fornecer o desempenho ideal para seus usuários. Para obter mais informações, consulte Princípios de Conectividade de Rede do [Office 365.](microsoft-365-network-connectivity-principles.md)
+A maioria das organizações corporativas que possuem vários locais de escritório e uma WAN de conexão precisará de configuração para a conectividade de rede do Office 365. Você pode otimizar a rede enviando solicitações de rede confiáveis do Office 365 diretamente por meio do firewall, ignorando toda a inspeção de nível de pacote adicional ou o processamento. Isso reduz a latência e os seus requisitos de capacidade de perímetro. Identificar o tráfego de rede do Office 365 é o primeiro passo para fornecer o desempenho ideal para seus usuários. Para obter mais informações, [consulte Office 365 Princípios de Conectividade de Rede](microsoft-365-network-connectivity-principles.md).
 
-A Microsoft recomenda que você acesse os pontos de extremidade de rede do Office 365 e alterações contínuas neles usando o Endereço IP do [Office 365](microsoft-365-ip-web-service.md)e o Serviço Web de URL.
+A Microsoft recomenda que você acesse os pontos de extremidade Office 365 de rede e alterações contínuas neles usando o endereço IP Office 365 endereço IP e [o Serviço Web de URL.](microsoft-365-ip-web-service.md)
 
 Independentemente de como você gerencia um tráfego de rede vital do Office 365, o Office 365 requer conectividade com a Internet. Outros pontos de extremidade de rede onde a conectividade é necessária são listados em [Pontos de extremidade adicionais não incluídos na URL do serviço Web e o endereço IP do Office 365](additional-office365-ip-addresses-and-urls.md).
 
-A maneira como você usa os pontos de extremidade de rede do Office 365 dependerá da arquitetura de rede de sua empresa. Este artigo descreve várias maneiras pelas quais as arquiteturas de rede corporativas podem se integrar usando os endereços IP e URLs do Office 365. A maneira mais fácil de escolher em quais solicitações de rede confiar é usar dispositivos SD-WAN que suportam a configuração automatizada do Office 365 em cada um dos locais do seu escritório.
+A maneira como você usa os pontos de extremidade de rede do Office 365 dependerá da arquitetura de rede de sua empresa. Este artigo descreve várias maneiras pelas quais as arquiteturas de rede corporativas podem se integrar usando os endereços IP e URLs do Office 365. A maneira mais fácil de escolher em quais solicitações de rede confiar é usar dispositivos SD-WAN que suportam a configuração Office 365 automática em cada um dos locais do seu escritório.
 
-## <a name="sd-wan-for-local-branch-egress-of-vital-office-365-network-traffic"></a>SD-WAN para saída de filial local do tráfego de rede vital do Office 365
+## <a name="sd-wan-for-local-branch-egress-of-vital-office-365-network-traffic"></a>SD-WAN para saída de filial local de tráfego Office 365 rede vitais
 
-Em cada local da filial, você pode fornecer um dispositivo SD-WAN configurado para rotear o tráfego para a categoria de pontos de extremidade do Office 365 Optimize ou Otimizar e Permitir categorias diretamente para a rede da Microsoft. Outro tráfego de rede, incluindo o tráfego no local do datacenter, o tráfego de sites gerais da Internet e o tráfego para os pontos de extremidade da categoria padrão do Office 365, são enviados para outro local onde você tem um perímetro de rede mais substancial.
+Em cada local da filial, você pode fornecer um dispositivo SD-WAN configurado para rotear o tráfego para Office 365 Otimizar categoria de pontos de extremidade, ou otimizar e permitir categorias, diretamente para a rede da Microsoft. Outro tráfego de rede, incluindo o tráfego no local do datacenter, o tráfego de sites gerais da Internet e o tráfego para os pontos de extremidade da categoria padrão do Office 365, são enviados para outro local onde você tem um perímetro de rede mais substancial.
 
 A Microsoft está trabalhando com provedores SD-WAN para habilitar a configuração automatizada. Para saber mais, confira [Programa de Parceiros de Redes do Office 365](microsoft-365-networking-partner-program.md).
 
@@ -76,7 +76,7 @@ Há muitos parâmetros que você pode passar para o script:
 | Parâmetro | Descrição |
 |:-----|:-----|
 |**ClientRequestId** <br/> |Isso é obrigatório e é uma GUID passada para o serviço Web que representa o computador cliente que faz a chamada. <br/> |
-|**Instance** <br/> |A instância de serviço do Office 365, que é padrão em Todo o Mundo. Isso também é passado para o serviço Web. <br/> |
+|**Instance** <br/> |A Office 365 de serviço, que é padrão em Todo o Mundo. Isso também é passado para o serviço Web. <br/> |
 |**TenantName** <br/> |Seu nome de locatário do Office 365. Transmitido para o serviço Web e usado como um parâmetro substituível em algumas URLs do Office 365. <br/> |
 |**Type** <br/> |O tipo de Arquivo PAC de proxy que você deseja gerar. <br/> |
 
@@ -90,7 +90,7 @@ Get-PacFile -Type 2 -Instance Worldwide -TenantName Contoso -ClientRequestId b10
 
 Quando os arquivos PAC não são usados para tráfego de saída direto, você ainda deve ignorar o processamento no perímetro de rede configurando o servidor proxy. Alguns fornecedores de servidor proxy habilitaram a configuração automática deste, conforme descrito no [Programa de Parceiros de Redes do Office 365](microsoft-365-networking-partner-program.md).
 
-Se você estiver fazendo isso manualmente, precisará obter os dados da categoria Otimizar e Permitir pontos de extremidade do Endereço IP do Office 365 e do Serviço Web de URL e configurar seu servidor proxy para ignorar o processamento para eles. É importante evitar a Interrupção e Inspeção de SSL e autenticação de proxy para os pontos de extremidade da categoria Otimizar e Permitir.
+Se você estiver fazendo isso manualmente, precisará obter os dados da categoria Otimizar e Permitir pontos de extremidade do endereço IP e do Serviço Web de URL do Office 365 e configurar seu servidor proxy para ignorar o processamento para eles. É importante evitar a Interrupção e Inspeção de SSL e autenticação de proxy para os pontos de extremidade da categoria Otimizar e Permitir.
   
 <a name="bkmk_changes"> </a>
 ## <a name="change-management-for-office-365-ip-addresses-and-urls"></a>Alterar o gerenciamento de endereços IP e URLs do Office 365
@@ -120,7 +120,7 @@ Para mais informações sobre a amostra e modelo do Microsoft Flow, consulte [Us
 <a name="FAQ"> </a>
 ## <a name="office-365-network-endpoints-faq"></a>Perguntas frequentes sobre pontos de extremidade de rede do Office 365
 
-Consulte estas perguntas frequentes sobre a conectividade de rede do Office 365.
+Consulte estas perguntas frequentes sobre Office 365 conectividade de rede.
   
 ### <a name="how-do-i-submit-a-question"></a>Como enviar uma pergunta?
 
@@ -146,7 +146,7 @@ Há um IP associado ao Office 365 sobre o qual você deseja obter mais informaç
 1. Verifique se o endereço IP está incluído em um intervalo publicado maior usando uma calculadora CIDR como essas para o [IPv4](https://www.ipaddressguide.com/cidr)ou[IPv6](https://www.ipaddressguide.com/ipv6-cidr). Por exemplo, 40.96.0.0/13 inclui o endereço IP 40.103.0.1 apesar de 40.96 não corresponder a 40.103.
 2. Ver se um parceiro é responsável pelo IP com uma [consulta whois](https://dnsquery.org/). Se for de propriedade da Microsoft, pode ser um parceiro interno. Muitos pontos de extremidade de rede de parceiro são listados como pertencentes à categoria _Padrão_, para a qual os endereços IP não são publicados.
 3. O endereço IP pode não fazer parte do Office 365 ou uma dependência. A publicação do ponto de extremidade de rede do Office 365 não inclui todos os pontos de extremidade de rede da Microsoft.
-4. Verifique o certificado. Com um navegador, conecte-se *\<IP_ADDRESS\>* ao endereço IP usando HTTPS:// e verifique os domínios listados no certificado para entender quais domínios estão associados ao endereço IP. Se for um endereço IP da Microsoft e não estiver na lista de endereços IP do Office 365, é provável que o endereço IP seja associado a uma CDN da Microsoft, como  *MSOCDN.NET*  ou outro domínio da Microsoft sem informações IP publicadas. Se você descobrir que o domínio do certificado é um domínio onde podemos solicitar que seja listado o endereço IP, informe-nos.
+4. Verifique o certificado. Com um navegador, conecte-se *\<IP_ADDRESS\>* ao endereço IP usando HTTPS:// e verifique os domínios listados no certificado para entender quais domínios estão associados ao endereço IP. Se for um endereço IP da Microsoft e não estiver na lista de endereços IP Office 365, é provável que o endereço IP seja associado a um microsoft CDN, como *MSOCDN.NET* ou outro domínio da Microsoft sem informações IP publicadas. Se você descobrir que o domínio do certificado é um domínio onde podemos solicitar que seja listado o endereço IP, informe-nos.
 
 <a name="bkmk_cname"> </a>
 ### <a name="some-office-365-urls-point-to-cname-records-instead-of-a-records-in-the-dns-what-do-i-have-to-do-with-the-cname-records"></a>Algumas URLs do Office 365 apontam para registros CNAME em vez de registros A no DNS. O que preciso fazer com os registros CNAME?
@@ -159,14 +159,14 @@ serviceA.office.com -> CNAME: serviceA.domainA.com -> CNAME: serviceA.domainB.co
 
 Esses redirecionamentos CNAME são uma parte normal do DNS e são transparentes para o computador cliente e transparentes para os servidores proxy. Eles são usados para balancear a carga, redes de distribuição de conteúdo, alta disponibilidade e mitigação de incidentes de serviço. A Microsoft não publica os registros CNAME intermediários, pois eles estão sujeitos a alterações a qualquer momento, e você não deve configurá-los como permitido no servidor proxy.
 
-Um servidor proxy valida a URL inicial, que no exemplo acima é serviceA.office.com, e essa URL seria incluída na publicação do Office 365. O servidor proxy solicita a resolução de DNS dessa URL para um endereço IP e receberá IP_1 novamente. Ela não valida os registros de redirecionamento de CNAME intermediário.
+Um servidor proxy valida a URL inicial, que no exemplo acima é serviceA.office.com, e essa URL seria incluída Office 365 publicação. O servidor proxy solicita a resolução de DNS dessa URL para um endereço IP e receberá IP_1 novamente. Ela não valida os registros de redirecionamento de CNAME intermediário.
 
-Configurações codificadas ou whitelisting baseadas em FQDNs indiretos do Office 365 não são recomendadas, não são suportadas pela Microsoft e são conhecidas por causar problemas de conectividade do cliente. As soluções DNS que bloqueiam o redirecionamento CNAME ou que, de outra forma, resolvem incorretamente as entradas DNS do Office 365 podem ser resolvidas por meio de encaminhadores DNS com recursão DNS habilitada ou usando dicas raiz DNS. Muitos produtos de perímetro de rede de terceiros integram de forma nativa a lista branca recomendada do Ponto de Extremidade do Office 365 em sua configuração usando o Endereço IP do [Office 365](microsoft-365-ip-web-service.md)e o serviço Web de URL.
+Configurações codificadas ou whitelisting baseadas em FQDNs indiretos Office 365 não são recomendadas, não são suportadas pela Microsoft e são conhecidas por causar problemas de conectividade do cliente. As soluções DNS que bloqueiam o redirecionamento CNAME ou que, de outra forma, resolvem incorretamente Office 365 entradas DNS, podem ser resolvidas por meio de encaminhadores DNS com recursão DNS habilitada ou usando dicas raiz DNS. Muitos produtos de perímetro de rede de terceiros integram Office 365 lista de pontos de extremidade recomendadas em sua configuração usando o endereço IP Office 365 e o [serviço Web de URL.](microsoft-365-ip-web-service.md)
 
 <a name="bkmk_akamai"> </a>
 ### <a name="why-do-i-see-names-such-as-nsatcnet-or-akadnsnet-in-the-microsoft-domain-names"></a>Por que vejo nomes como nsatc.net ou akadns.net em nomes de domínio da Microsoft?
 
-O Office 365 e outros serviços da Microsoft usam vários serviços de terceiros como Akamai e MarkMonitor para melhorar a experiência do Office 365. Para continuar a oferecer a melhor experiência possível, podemos alterar esses serviços no futuro. Domínios de terceiros podem hospedar conteúdo, como uma CDN, ou podem hospedar um serviço, como um serviço de gerenciamento de tráfego geográfico. Alguns dos serviços em uso no momento incluem:
+O Office 365 e outros serviços da Microsoft usam vários serviços de terceiros como Akamai e MarkMonitor para melhorar a experiência do Office 365. Para continuar a oferecer a melhor experiência possível, podemos alterar esses serviços no futuro. Domínios de terceiros podem hospedar conteúdo, como um CDN, ou podem hospedar um serviço, como um serviço de gerenciamento de tráfego geográfico. Alguns dos serviços em uso no momento incluem:
   
 [MarkMonitor](https://www.markmonitor.com/) está em uso quando você vê solicitações que incluem *\* .nsatc.net*. Esse serviço fornece proteção de nome de domínio e monitoramento para proteção contra comportamentos mal intencionados.
   
@@ -200,9 +200,9 @@ O pacote do Office 365 é dividido nas áreas principais de serviço. Elas podem
 |**Skype for Business Online e Microsoft Teams** <br/> |Skype for Business Online e Microsoft Teams <br/> |
 |**Comum** <br/> |Office 365 Pro Plus, Office em um navegador, Azure AD e outros pontos de extremidade de rede comuns <br/> |
 
-Além dos serviços básicos de internet, há serviços de terceiros que são usados somente para integrar funcionalidade. Embora sejam necessários para integração, eles são marcados como opcionais no artigo pontos de extremidade do Office 365, o que significa que a funcionalidade principal do serviço continuará a funcionar se o ponto de extremidade não estiver acessível. Qualquer ponto de extremidade de rede necessário terá o atributo necessário definido como true. Qualquer ponto de extremidade de rede opcional terá o atributo necessário definido como false e o atributo notes detalha a funcionalidade ausente que você deve esperar se a conectividade for bloqueada.
+Além dos serviços básicos de internet, há serviços de terceiros que são usados somente para integrar funcionalidade. Embora sejam necessários para integração, eles são marcados como opcionais no artigo Office 365 pontos de extremidade do Office 365, o que significa que a funcionalidade principal do serviço continuará a funcionar se o ponto de extremidade não estiver acessível. Qualquer ponto de extremidade de rede necessário terá o atributo necessário definido como true. Qualquer ponto de extremidade de rede opcional terá o atributo necessário definido como false e o atributo notes detalha a funcionalidade ausente que você deve esperar se a conectividade for bloqueada.
   
-Se você estiver tentando usar o Office 365 e estiver encontrando serviços de terceiros que não estão acessíveis, certifique-se de que todos os [FQDNs](urls-and-ip-address-ranges.md)marcados como obrigatórios ou opcionais neste artigo sejam permitidos por meio do proxy e do firewall .
+Se você estiver tentando usar o Office 365 e estiver encontrando serviços de terceiros que não estão acessíveis, certifique-se de que todos os [FQDNs](urls-and-ip-address-ranges.md)marcados como obrigatórios ou opcionais neste artigo sejam permitidos por meio do proxy e do firewall.
   
 <a name="bkmk_consumer"> </a>
 ### <a name="how-do-i-block-access-to-microsofts-consumer-services"></a>Como bloqueio o acesso aos serviços do consumidor da Microsoft?
@@ -214,7 +214,7 @@ Tenha em mente que apenas bloquear o acesso aos serviços do consumidor da Micro
 <a name="bkmk_IPOnlyFirewall"> </a>
 ### <a name="my-firewall-requires-ip-addresses-and-cannot-process-urls-how-do-i-configure-it-for-office-365"></a>O firewall exige endereços IP e não processa URLs. Como configurar o para o Office 365?
 
-O Office 365 não fornece endereços IP de todos os pontos de extremidade de rede necessários. Alguns são fornecidos somente como URLs e são categorizados como padrão. AS URLs na categoria padrão que são necessárias devem ser permitidas por meio de um servidor proxy. Se você não tiver um servidor proxy, veja como configurou solicitações da Web para URLs que os usuários digitam na barra de endereços de um navegador da Web; o usuário também não fornece um endereço IP. As URLs de categoria padrão do Office 365 que não fornecem endereços IP devem ser configuradas da mesma maneira.
+O Office 365 não fornece endereços IP de todos os pontos de extremidade de rede necessários. Alguns são fornecidos somente como URLs e são categorizados como padrão. AS URLs na categoria padrão que são necessárias devem ser permitidas por meio de um servidor proxy. Se você não tiver um servidor proxy, veja como configurou solicitações da Web para URLs que os usuários digitam na barra de endereços de um navegador da Web; o usuário também não fornece um endereço IP. As OFFICE 365 de categoria padrão que não fornecem endereços IP devem ser configuradas da mesma maneira.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

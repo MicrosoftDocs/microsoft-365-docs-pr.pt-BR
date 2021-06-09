@@ -67,7 +67,7 @@ O status da política para políticas pausadas pode indicar vários estados:
 
 Para retomar uma política, navegue até a página **Política,** selecione uma política e selecione **Retomar política** na barra de ferramentas de ações. No painel **Retomar política,** confirme se você gostaria de retomar a política selecionando **Retomar**. Em alguns casos, pode levar até 24 horas para que uma política seja retomada. Depois que a política for retomada, os alertas para mensagens correspondentes à política serão criados e estarão disponíveis para investigação, revisão e correção.
 
-## <a name="permissions"></a>Permissions
+## <a name="permissions"></a>Permissões
 
 >[!Important]
 >Por padrão, os Administradores Globais não têm acesso aos recursos de conformidade de comunicação. As funções atribuídas nesta etapa são necessárias para que todos os recursos de conformidade de comunicação sejam acessíveis.

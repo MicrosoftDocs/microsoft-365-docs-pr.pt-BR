@@ -37,7 +37,7 @@ Depois que o livro de receitas for criado, crie uma pasta de arquivos dentro da 
 
 `mkdir mdatp/files`
 
-Transfira o arquivo zip de Integração do Servidor Linux que pode ser baixado do portal do Centro de Segurança do Microsoft Defender para essa nova pasta de arquivos.
+Transfira o arquivo zip de Integração do Servidor Linux que pode ser baixado do portal Central de Segurança do Microsoft Defender para essa nova pasta de arquivos.
 
 Na Estação de Trabalho do Chefe, navegue até a pasta mdatp/recipes. Essa pasta é criada quando o livro de receitas foi gerado. Use seu editor de texto preferencial (como vi ou nano) para adicionar as seguintes instruções ao final do arquivo default.rb:
 -   include_recipe '::onboard_mdatp'
@@ -127,7 +127,7 @@ end
 Para incluir essa etapa como parte da receita, basta adicionar include_recipe ':: settings_mdatp' ao seu arquivo default.rb na pasta de receita.
 Você também pode usar o crontab para agendar atualizações automáticas Agendar uma atualização do Microsoft Defender para Ponto de [Extremidade (Linux)](linux-update-MDE-Linux.md).
 
-Desinstale o livro de receitaS MDATP:
+Desinstale MDATP cookbook:
 
 ```powershell
 #Uninstall the Defender package

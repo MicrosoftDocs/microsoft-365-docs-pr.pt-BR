@@ -71,7 +71,7 @@ Quando SharePoint Online é movido, os dados dos seguintes serviços também sã
     
 - Office em um navegador
     
-- Microsoft 365 Apps para Grandes Empresas
+- Microsoft 365 Apps para empresas
     
 - Visio Pro para Microsoft 365
     
@@ -85,7 +85,7 @@ Após concluirmos a movimentação dos dados SharePoint online, você poderá ve
     
 - Estamos removendo as cópias em código trans do datacenter anterior e transcodificando-as novamente no novo datacenter.
     
-### <a name="search"></a>Pesquisa
+### <a name="search"></a>Pesquisar
 
 Ao mover seus dados SharePoint Online, migramos seu índice de pesquisa e configurações de pesquisa para um novo local. Até concluirmos a **movimentação** de seus dados SharePoint Online, continuaremos a atender seus usuários do índice no local original. No novo local, a pesquisa começa automaticamente a rastrear seu conteúdo após concluirmos a movimentação dos dados SharePoint Online. A partir deste ponto e em diante, atendemos seus usuários do índice migrado. As alterações no conteúdo que ocorreram após a migração não são incluídas no índice migrado até que o rastreamento os escolha. A maioria dos clientes não percebe que os resultados são menos recentes logo após concluirmos a movimentação dos dados do SharePoint Online, mas alguns clientes podem ter uma redução de frescor nas primeiras 24 a 48 horas 
   

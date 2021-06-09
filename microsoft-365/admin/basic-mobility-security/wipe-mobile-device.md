@@ -29,7 +29,7 @@ ms.locfileid: "52706137"
 
 Você pode usar o Basic Mobility and Security integrado para Microsoft 365 remover apenas informações organizacionais ou para executar uma redefinição de fábrica para excluir todas as informações de um dispositivo móvel e restaurá-la para as configurações de fábrica.
 
-## <a name="before-you-begin"></a>Antes de você começar
+## <a name="before-you-begin"></a>Antes de começar
 
 Os dispositivos móveis podem armazenar informações organizacionais confidenciais e fornecer acesso aos recursos Microsoft 365 da sua organização. Para ajudar a proteger as informações da sua organização, você pode redefinir Fábrica ou Remover dados da empresa:
 

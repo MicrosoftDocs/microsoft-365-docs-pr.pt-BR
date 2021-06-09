@@ -29,7 +29,7 @@ ms.locfileid: "50908405"
 ---
 # <a name="create-a-report-on-holds-in-ediscovery-cases"></a>Criar um relatório sobre retenções em ocorrências de Descoberta eletrônica
 
-O script neste artigo permite que os administradores de Descobertas e Descobertas Públicas gerenciem um relatório que contém informações sobre todas as resvasões associadas a casos de Descoberta eDiscovery no centro de conformidade no Office 365 ou no Microsoft 365. O relatório contém informações como o nome do caso ao que uma hold está associada, os locais de conteúdo que são colocados em espera e se a espera é baseada em consulta. Se houver casos que não tenham qualquer ressução, o script criará um relatório adicional com uma lista de casos sem ressál.
+O script deste artigo permite que os administradores de Descobertas EDiscovery e gerentes de Descobertas Públicas gerenciem um relatório que contém informações sobre todas as resvasões associadas aos casos de Descoberta eDiscovery no centro de conformidade no Office 365 ou Microsoft 365. O relatório contém informações como o nome do caso ao que uma hold está associada, os locais de conteúdo que são colocados em espera e se a espera é baseada em consulta. Se houver casos que não tenham qualquer ressução, o script criará um relatório adicional com uma lista de casos sem ressál.
 
 Consulte a [seção Mais informações](#more-information) para obter uma descrição detalhada das informações incluídas no relatório.
 
@@ -41,9 +41,9 @@ Consulte a [seção Mais informações](#more-information) para obter uma descri
 
 - Os scripts de exemplo fornecidos neste tópico não são compatíveis com nenhum serviço ou programa de suporte padrão da Microsoft. Os scripts de exemplo são fornecidos COMO ESTÃO sem qualquer tipo de garantia. A Microsoft também se isenta de todas as garantias implícitas, incluindo sem limitações quaisquer garantias aplicáveis de padrões de comercialização ou de adequação a uma finalidade específica. Todos os riscos decorrentes do uso ou da execução da documentação ou scripts de exemplo serão de sua responsabilidade. De modo algum a Microsoft, seus autores ou qualquer outra pessoa envolvida na criação, produção ou veiculação dos scripts serão considerados responsáveis por quaisquer danos (incluindo sem limitações danos por perda de lucros comerciais, interrupção de negócios, perda de informações comerciais ou outras perdas pecuniárias) resultantes do uso ou da incapacidade de uso da documentação ou scripts de exemplo, mesmo que a Microsoft tenha sido alertada sobre a possibilidade de tais danos.
 
-## <a name="step-1-connect-to-the-security--compliance-center-powershell"></a>Etapa 1: Conectar-se ao Centro de Conformidade & Segurança do PowerShell
+## <a name="step-1-connect-to-the-security--compliance-center-powershell"></a>Etapa 1: Conexão ao Centro de Conformidade e Segurança & PowerShell
 
-A primeira etapa é conectar-se ao Centro de Conformidade & Segurança do PowerShell para sua organização. Para obter instruções passo a passo, confira [Conectar-se ao Centro de Segurança e Conformidade no PowerShell](/powershell/exchange/connect-to-scc-powershell).
+A primeira etapa é conectar-se ao PowerShell do Centro de Conformidade e Segurança da sua organização. Para obter instruções passo a passo, consulte [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](/powershell/exchange/connect-to-scc-powershell).
 
 ## <a name="step-2-run-the-script-to-report-on-holds-associated-with-ediscovery-cases"></a>Etapa 2: executar o script para relatar sobre ressarcições associadas a casos de Descoberta e
 
@@ -154,7 +154,7 @@ Depois de se conectar ao Centro de Conformidade & Segurança do PowerShell, a pr
    > [!TIP]
    > Para salvar o relatório na mesma pasta em que o script está localizado, digite um ponto (".") quando solicitado a uma pasta de destino. Para salvar o relatório em uma subpasta na pasta onde o script está localizado, basta digitar o nome da subpasta.
 
-   O script começa a coletar informações sobre todos os casos de Descoberta eDiscovery em sua organização. Não acesse o arquivo de relatório enquanto o script estiver em execução. Depois que o script for concluído, uma mensagem de confirmação será exibida na sessão Windows PowerShell de confirmação. Depois que essa mensagem for exibida, você poderá acessar o relatório na pasta especificada na Etapa 4. O nome do arquivo do relatório é `CaseHoldsReport<DateTimeStamp>.csv` .
+   O script começa a coletar informações sobre todos os casos de Descoberta eDiscovery em sua organização. Não acesse o arquivo de relatório enquanto o script estiver em execução. Depois que o script for concluído, uma mensagem de confirmação será exibida na Windows PowerShell sessão. Depois que essa mensagem for exibida, você poderá acessar o relatório na pasta especificada na Etapa 4. O nome do arquivo do relatório é `CaseHoldsReport<DateTimeStamp>.csv` .
 
    Em termos adicionais, o script também cria um relatório com uma lista de casos que não têm nenhuma ressalção. O nome do arquivo para este relatório é `CaseswithNoHolds<DateTimeStamp>.csv` .
 
@@ -178,7 +178,7 @@ O relatório de caso contém o relatório criado quando você executar o script 
 
 - Se um caso for fechado, a pessoa que o fechou e a hora e a data foram fechadas.
 
-- As caixas de correio do Exchange e locais de sites do SharePoint que estão em espera.
+- As Exchange caixas de correio e SharePoint locais de sites que estão em espera.
 
 - Se a espera for baseada em consulta, a sintaxe de consulta.
 

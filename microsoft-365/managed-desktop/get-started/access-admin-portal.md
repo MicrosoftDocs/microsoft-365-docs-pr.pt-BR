@@ -34,8 +34,8 @@ Sua conta administrativa precisará de permissões específicas para acessar os 
 
 |Função do Azure AD  |Área de Trabalho Gerenciada da Microsoft permissões  |
 |---------|---------|
-|Administrador Global     | Os administradores com essa função terão **permissões de leitura e** gravação para todos os recursos no portal Área de Trabalho Gerenciada da Microsoft Administrador.         |
-|Leitor Global     | Os administradores com essa função terão permissões somente leitura **para todos os recursos** no portal Área de Trabalho Gerenciada da Microsoft Administrador.         |
+|Administrador global     | Os administradores com essa função terão **permissões de leitura e** gravação para todos os recursos no portal Área de Trabalho Gerenciada da Microsoft Administrador.         |
+|Leitor global     | Os administradores com essa função terão permissões somente leitura **para todos os recursos** no portal Área de Trabalho Gerenciada da Microsoft Administrador.         |
 |Administrador de Serviço do Intune     |  Os administradores com essa função terão **permissões de** leitura e gravação para recursos não relacionados à segurança no portal Área de Trabalho Gerenciada da Microsoft Admin.       |
 |Administrador de Suporte ao Serviço     | Os administradores com  essa função terão permissões somente leitura  para recursos não relacionados à segurança e permissões de gravação para gerenciar solicitações de suporte no portal Área de Trabalho Gerenciada da Microsoft Admin.         |
 |Administrador de Segurança | Os administradores com essa função terão permissões somente  leitura **para** todos os recursos e permissões de gravação para recursos relacionados à segurança Área de Trabalho Gerenciada da Microsoft no portal de administração. |

@@ -22,7 +22,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Sincronizar usuários controlados por domínio com o Microsoft 365 para empresas.
+description: Sincronizar usuários controlados por domínio com Microsoft 365 para empresas.
 ms.openlocfilehash: b477b8a1f35a790d6c49937c973c141ad9f90ad4
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -38,15 +38,15 @@ Antes de sincronizar seus usuários e computadores do Domínio Local do Active D
 
    - Certifique-se de que não existam duplicatas no diretório para os seguintes atributos: **email,** **proxyAddresses** e **userPrincipalName**. Esses valores devem ser exclusivos e quaisquer duplicatas devem ser removidas.
    
-   - Recomendamos que você configure o **atributo userPrincipalName** (UPN) para cada conta de usuário local para corresponder ao endereço de email principal que corresponde ao usuário licenciado do Microsoft 365. Por exemplo: *mary.shelley@contoso.com* em vez *de mary@contoso.local*
+   - Recomendamos que você configure o **atributo userPrincipalName** (UPN) para cada conta de usuário local para corresponder ao endereço de email principal que corresponde ao usuário Microsoft 365 licenciado. Por exemplo: *mary.shelley@contoso.com* em vez *de mary@contoso.local*
    
    - Se o domínio do Active Directory terminar em um sufixo não rouável como *.local* ou *.lan*, em vez de um sufixo de tabela de internet como *.com* ou *.org*, ajuste o sufixo UPN das contas de usuário locais primeiro, conforme descrito em [Prepare a non-routable domain for directory synchronization](../enterprise/prepare-a-non-routable-domain-for-directory-synchronization.md). 
 
 O **IdFix** de Executar na etapa quatro (4) abaixo também garantirá que o Active Directory local esteja pronto para sincronização de diretórios.
 
-## <a name="2-install-and-configure-azure-ad-connect"></a>2. Instalar e configurar o Azure AD Connect
+## <a name="2-install-and-configure-azure-ad-connect"></a>2. Instalar e configurar o Azure AD Conexão
 
-Para sincronizar seus usuários, grupos e contatos do Active Directory local no Azure Active Directory, instale o Azure Active Directory Connect e configurar a sincronização de diretórios. 
+Para sincronizar seus usuários, grupos e contatos do Active Directory local em Azure Active Directory, instale o Azure Active Directory Conexão e configurar a sincronização de diretórios. 
 
  1. No centro [de administração,](https://go.microsoft.com/fwlink/p/?linkid=2024339)selecione **Instalação** na nav esquerda.
 
@@ -56,14 +56,14 @@ Para sincronizar seus usuários, grupos e contatos do Active Directory local no 
 
  4. Na primeira etapa, execute a ferramenta IdFix para se preparar para a sincronização de diretórios.
 
- 5. Siga as etapas do assistente para baixar o Azure AD Connect e usá-lo para sincronizar seus usuários controlados pelo domínio com o Microsoft 365.
+ 5. Siga as etapas do assistente para baixar o Conexão do Azure AD e usá-lo para sincronizar seus usuários controlados por domínio para Microsoft 365.
 
 
-Consulte [Configurar a sincronização de diretórios do Microsoft 365](../enterprise/set-up-directory-synchronization.md) para saber mais.
+Consulte [Configurar a sincronização de diretórios Microsoft 365](../enterprise/set-up-directory-synchronization.md) para saber mais.
 
-Ao configurar suas opções para o Azure AD Connect, recomendamos que você habilita a Sincronização de **Senha,** o Logon Único Contínuo e o recurso de **writeback** de senha, que também é suportado no Microsoft 365 para empresas.
+Ao configurar suas opções para o Azure AD Conexão, recomendamos que você habilita a Sincronização de **Senha,** o **Logon** Único Contínuo e o recurso de **writeback** de senha, que também é suportado no Microsoft 365 para empresas.
 
 > [!NOTE]
-> Há algumas etapas adicionais para write-back de senha além da caixa de seleção no Azure AD Connect. Para obter mais informações, consulte [How-to: configure password writeback](/azure/active-directory/authentication/howto-sspr-writeback). 
+> Há algumas etapas adicionais para writeback de senha além da caixa de seleção no Azure AD Conexão. Para obter mais informações, consulte [How-to: configure password writeback](/azure/active-directory/authentication/howto-sspr-writeback). 
 
-Se você também deseja gerenciar dispositivos Windows 10 ingressados no domínio, consulte [Enable domain-joined Windows 10 devices](manage-windows-devices.md) to be managed by Microsoft 365 Business Premium to set up a hybrid Azure AD Join.
+Se você também deseja gerenciar dispositivos de Windows 10 de domínio, consulte [Habilitar](manage-windows-devices.md) dispositivos Windows 10 de domínio a serem gerenciados pelo Microsoft 365 Business Premium para configurar uma Junção Híbrida do Azure AD.

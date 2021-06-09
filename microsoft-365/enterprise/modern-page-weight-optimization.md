@@ -20,7 +20,7 @@ ms.custom:
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: Saiba como usar a ferramenta Diagnóstico de Página para otimizar o peso da página em páginas de site modernas do SharePoint Online.
+description: Saiba como usar a ferramenta Diagnóstico de Página para otimizar o peso da página SharePoint páginas de site modernas online.
 ms.openlocfilehash: 780d8ca0debbc5efb834f8f3543b9a5a8d168108
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT

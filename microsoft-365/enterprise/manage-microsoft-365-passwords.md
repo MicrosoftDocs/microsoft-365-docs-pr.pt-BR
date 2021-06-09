@@ -1,5 +1,5 @@
 ---
-title: Gerenciar senhas de conta de usuário do Microsoft 365
+title: Gerenciar Microsoft 365 senhas de conta de usuário
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -21,7 +21,7 @@ search.appverid:
 - MED150
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
-description: Saiba mais sobre como gerenciar senhas de conta de usuário do Microsoft 365.
+description: Saiba mais sobre como gerenciar Microsoft 365 senhas de conta de usuário.
 ms.openlocfilehash: 2062da49310121ec18f7ce21f523531f10d6df9b
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -29,15 +29,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50905087"
 ---
-# <a name="manage-microsoft-365-user-account-passwords"></a>Gerenciar senhas de conta de usuário do Microsoft 365
+# <a name="manage-microsoft-365-user-account-passwords"></a>Gerenciar Microsoft 365 senhas de conta de usuário
 
-*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
+*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-Você pode gerenciar senhas de conta de usuário do Microsoft 365 de várias maneiras diferentes, dependendo de sua configuração de identidade. Você pode gerenciar contas de usuário no Centro de administração do [Microsoft 365](../admin/add-users/index.yml), no AD DS (Serviços de Domínio do Active Directory) ou no centro de administração do Azure Active Directory (Azure AD).
+Você pode gerenciar Microsoft 365 senhas de conta de usuário de várias maneiras diferentes, dependendo de sua configuração de identidade. Você pode gerenciar contas de usuário no centro de administração do Microsoft 365 [,](../admin/add-users/index.yml)nos Serviços de Domínio do Active Directory (AD DS) ou no centro de administração Azure Active Directory (Azure AD).
 
 ## <a name="plan-for-where-and-how-you-will-manage-your-user-account-passwords"></a>Planejar onde e como você gerenciará suas senhas de conta de usuário
 
-Onde e como você pode gerenciar suas contas de usuário depende do modelo de identidade que você deseja usar para o Microsoft 365. Os dois modelos são somente na nuvem e híbridos.
+Onde e como você pode gerenciar suas contas de usuário depende do modelo de identidade que você deseja usar para sua Microsoft 365. Os dois modelos são somente na nuvem e híbridos.
   
 ### <a name="cloud-only"></a>Apenas Nuvem
 

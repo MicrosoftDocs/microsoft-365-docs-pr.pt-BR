@@ -36,7 +36,7 @@ ms.locfileid: "52770656"
 
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-## <a name="before-you-begin"></a>Antes de você começar 
+## <a name="before-you-begin"></a>Antes de começar 
 > [!NOTE]
 > Discutir os requisitos de qualificação com seu provedor de serviços técnicos da Microsoft e a equipe de conta antes de aplicar ao Especialistas em Ameaças da Microsoft - Serviço gerenciado de busca de ameaças de Notificação de Ataque Direcionado.
 

@@ -27,15 +27,15 @@ ms.locfileid: "50928001"
 Caso as pessoas se desdoem com problemas inesperados depois que as barreiras de informações estão em vigor, existem algumas etapas que você pode executar para resolver esses problemas. Use este artigo como um guia.
 
 > [!IMPORTANT]
-> Para executar as tarefas descritas neste artigo, você deve ter uma função apropriada, como uma das seguintes:<br/>– Administrador Global do Microsoft 365 Enterprise<br/>- administrador global<br/>- Administrador de Conformidade<br/>- Gerenciamento de Conformidade do IB (esta é uma nova função!)<p>Para saber mais sobre os pré-requisitos para barreiras de informações, consulte [Prerequisites (para políticas de](information-barriers-policies.md#prerequisites)barreira de informações) .<p>Certifique-se de se conectar ao Centro de [Conformidade & Segurança do PowerShell](/powershell/exchange/connect-to-scc-powershell).
+> Para executar as tarefas descritas neste artigo, você deve ter uma função apropriada, como uma das seguintes:<br/>- Microsoft 365 Enterprise Administrador Global<br/>- administrador global<br/>- Administrador de Conformidade<br/>- Gerenciamento de Conformidade do IB (esta é uma nova função!)<p>Para saber mais sobre os pré-requisitos para barreiras de informações, consulte [Prerequisites (para políticas de](information-barriers-policies.md#prerequisites)barreira de informações) .<p>Certifique-se de se conectar ao Centro de [Conformidade & Segurança do PowerShell](/powershell/exchange/connect-to-scc-powershell).
 
 ## <a name="issue-users-are-unexpectedly-blocked-from-communicating-with-others-in-microsoft-teams"></a>Problema: os usuários são impedidos inesperadamente de se comunicar com outras pessoas no Microsoft Teams 
 
-Nesse caso, as pessoas estão relatando problemas inesperados de comunicação com outras pessoas no Microsoft Teams. Alguns exemplos:
+Nesse caso, as pessoas estão relatando problemas inesperados de comunicação com outras pessoas Microsoft Teams. Alguns exemplos:
 
 - Um usuário procura, mas não consegue encontrar outro usuário no Microsoft Teams.
 - Um usuário pode encontrar, mas não pode selecionar outro usuário no Microsoft Teams.
-- Um usuário pode ver outro usuário, mas não pode enviar mensagens para outro usuário no Microsoft Teams.
+- Um usuário pode ver outro usuário, mas não pode enviar mensagens para outro usuário Microsoft Teams.
 
 ### <a name="what-to-do"></a>O que fazer
 
@@ -79,9 +79,9 @@ Determine se os usuários são afetados por uma política de barreira de informa
 
     **Se você ainda estiver tendo problemas com sua política** de barreira de informações, contate o suporte .
 
-## <a name="issue-communications-are-allowed-between-users-who-should-be-blocked-in-microsoft-teams"></a>Problema: as comunicações são permitidas entre usuários que devem ser bloqueados no Microsoft Teams
+## <a name="issue-communications-are-allowed-between-users-who-should-be-blocked-in-microsoft-teams"></a>Problema: as comunicações são permitidas entre usuários que devem ser bloqueados Microsoft Teams
 
-Nesse caso, embora as barreiras de informações sejam definidas, ativas e aplicadas, as pessoas que devem ser impedidas de se comunicar entre si podem conversar e se chamar no Microsoft Teams.
+Nesse caso, embora as barreiras de informações sejam definidas, ativas e aplicadas, as pessoas que devem ser impedidas de se comunicar entre si podem conversar e chamar umas às outras Microsoft Teams.
 
 ### <a name="what-to-do"></a>O que fazer
 
@@ -102,7 +102,7 @@ Verifique se os usuários em questão estão incluídos em uma política de barr
 
     |**Resultados**|**O que fazer em seguida**|
     |:----------|:------------------|
-    | Nenhum segmento está listado para os usuários selecionados | Siga um destes procedimentos:<br/>- Atribua usuários a um segmento existente editando seus perfis de usuário no Azure Active Directory. (Consulte [Configurar propriedades de conta de usuário com o Office 365 PowerShell](../enterprise/configure-user-account-properties-with-microsoft-365-powershell.md).)<br/>- Definir um segmento usando um atributo com suporte [para barreiras de informações.](information-barriers-attributes.md) Em seguida, [defina uma nova política](information-barriers-policies.md#part-2-define-information-barrier-policies) ou [edite uma política existente](information-barriers-edit-segments-policies.md#edit-a-policy) para incluir esse segmento. |
+    | Nenhum segmento está listado para os usuários selecionados | Siga um destes procedimentos:<br/>- Atribua usuários a um segmento existente editando seus perfis de usuário em Azure Active Directory. (Consulte [Configure user account properties with Office 365 PowerShell](../enterprise/configure-user-account-properties-with-microsoft-365-powershell.md).)<br/>- Definir um segmento usando um atributo com suporte [para barreiras de informações.](information-barriers-attributes.md) Em seguida, [defina uma nova política](information-barriers-policies.md#part-2-define-information-barrier-policies) ou [edite uma política existente](information-barriers-edit-segments-policies.md#edit-a-policy) para incluir esse segmento. |
     | Os segmentos são listados, mas nenhuma política de barreira de informações é atribuída a esses segmentos | Siga um destes procedimentos:<br/>- [Definir uma nova política de barreira de informações](information-barriers-policies.md#part-2-define-information-barrier-policies) para cada segmento em questão <br/>- [Editar uma política de barreira de informações existente](information-barriers-edit-segments-policies.md#edit-a-policy) para atribuí-la ao segmento correto |
     | Os segmentos são listados e cada um deles está incluído em uma política de barreira de informações | - Execute o `Get-InformationBarrierPolicy` cmdlet para verificar se as políticas de barreira de informações estão ativas<br/>- Execute o `Get-InformationBarrierPoliciesApplicationStatus` cmdlet para confirmar se as políticas são aplicadas<br/>- Execute o `Start-InformationBarrierPoliciesApplication` cmdlet para aplicar todas as políticas de barreira de informações ativas |
 
@@ -119,11 +119,11 @@ As políticas de barreira de informações são atribuídas a segmentos de usuá
     |**Sintaxe**|**Exemplo**|
     |:---------|:----------|
     | `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> Você pode usar qualquer valor que identifique exclusivamente cada usuário, como nome, alias, nome diferenciado, nome de domínio canônico, endereço de email ou GUID. | `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> Neste exemplo, nos referimos a duas contas de usuário no Office 365: *meganb* para *Megan* e *alexw* para *Alex*.          |
-    | `Get-InformationBarrierRecipientStatus -Identity <value>` <p> Você pode usar qualquer valor que identifique exclusivamente o usuário, como nome, alias, nome diferenciado, nome de domínio canônico, endereço de email ou GUID.|`Get-InformationBarrierRecipientStatus -Identity jeanp`<p> Neste exemplo, nos referimos a uma única conta no Office 365: *jeanp*. |
+    | `Get-InformationBarrierRecipientStatus -Identity <value>` <p> Você pode usar qualquer valor que identifique exclusivamente o usuário, como nome, alias, nome diferenciado, nome de domínio canônico, endereço de email ou GUID.|`Get-InformationBarrierRecipientStatus -Identity jeanp`<p> Neste exemplo, nos referimos a uma única conta no *Office 365:* |
 
 2. Revise os resultados para ver se as políticas de barreira de informações são atribuídas e a quais segmentos os usuários pertencem.
 
-3. Para remover um usuário de um segmento afetado por barreiras de informações, atualize as informações de perfil do usuário [no Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal).
+3. Para remover um usuário de um segmento afetado por barreiras de informações, [atualize](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)as informações de perfil do usuário em Azure Active Directory .
 
 4. Aguarde cerca de 30 minutos para que FwdSync ocorra. Ou execute o `Start-InformationBarrierPoliciesApplication` cmdlet para aplicar todas as políticas de barreira de informações ativas.
 
@@ -157,15 +157,15 @@ Nesse caso, você definiu segmentos, definiu políticas de barreira de informaç
 
 ### <a name="what-to-do"></a>O que fazer
 
-Certifique-se de que sua organização não tenha políticas de livro [de endereços](/exchange/address-books/address-book-policies/address-book-policies) do Exchange no local. Essas políticas impedirão a aplicação de políticas de barreira de informações.
+Certifique-se de que sua organização não tenha Exchange [de agenda de endereços](/exchange/address-books/address-book-policies/address-book-policies) no local. Essas políticas impedirão a aplicação de políticas de barreira de informações.
 
-1. Conecte-se [ao PowerShell do Exchange Online.](/powershell/exchange/connect-to-exchange-online-powershell)
+1. Conexão para [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Execute o cmdlet [Get-AddressBookPolicy](/powershell/module/exchange/get-addressbookpolicy) e revise os resultados.
 
     |**Resultados**|**Próxima etapa**|
     |:----------|:------------|
-    | As políticas do livro de endereços do Exchange estão listadas | [Remover políticas do livro de endereços](/exchange/address-books/address-book-policies/remove-an-address-book-policy) |
+    | Exchange de agenda de endereços estão listadas | [Remover políticas do livro de endereços](/exchange/address-books/address-book-policies/remove-an-address-book-policy) |
     | Nenhuma política de livro de endereços existe |Revise seus logs de auditoria para descobrir por que o aplicativo de política está falhando |
 
 3. [Exibir o status de contas de usuário, segmentos, políticas ou aplicativo de política.](information-barriers-policies.md#view-status-of-user-accounts-segments-policies-or-policy-application)

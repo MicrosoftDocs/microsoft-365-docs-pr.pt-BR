@@ -22,7 +22,7 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Saiba como proteger computadores do Windows 10 depois de configurar o Microsoft 365 Business Premium.
+description: Saiba como proteger Windows 10 PCs depois de configurar Microsoft 365 Business Premium.
 ms.openlocfilehash: a45e941ebc407eea5defdccbbe3f06e6eb1e7dea
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -32,21 +32,21 @@ ms.locfileid: "51578178"
 ---
 # <a name="secure-windows-10-computers"></a>Proteger computadores com Windows 10
 
-Este artigo se aplica ao Microsoft 365 Business Premium.
+Este artigo se aplica a Microsoft 365 Business Premium.
 
-Depois de [configurar](set-up.md) o Microsoft 365 Business Premium, é hora de proteger os computadores do Windows 10 em sua organização contra roubo e ameaças mal-intencionadas, como vírus e malware.
+Depois de configurar [o](set-up.md) Microsoft 365 Business Premium, é hora de proteger os computadores Windows 10 em sua organização contra roubos e ameaças mal-intencionadas, como vírus e malware.
 
-## <a name="to-secure-your-windows-10-computers"></a>Para proteger seus computadores windows 10
+## <a name="to-secure-your-windows-10-computers"></a>Para proteger seus computadores Windows 10 de segurança
 
 1. Acesse [Centro de administração do Microsoft 365](https://admin.microsoft.com) usando as credenciais de administrador global. 
-2. À esquerda, selecione  Instalação e, em Logon e **segurança,** escolha **Proteger seus computadores do Windows 10**. Escolha **Exibir** para começar.
-3. Na página **Proteger seus computadores do Windows 10,** leia todas as informações para entender o que você está ligando e qual é o impacto do usuário.
+2. À esquerda, selecione  Instalação e, em Logon e **segurança,** escolha Proteger seus computadores **Windows 10 .** Escolha **Exibir** para começar.
+3. Na página **Proteger seus computadores Windows 10,** leia todas as informações para entender o que você está ligando e qual é o impacto do usuário.
 
     Na parte superior da página, escolha **Começar**.
 
-4. No painel **Proteger seus computadores windows 10,** selecione as opções que deseja ativar. Para obter mais informações sobre as configurações, consulte [Secure Windows 10 devices](secure-windows-10-devices.md). 
+4. No painel **Proteger seus computadores Windows 10,** selecione as opções que deseja ativar. Para obter mais informações sobre as configurações, consulte [Secure Windows 10 devices](secure-windows-10-devices.md). 
     
-    Para a maioria das organizações, as opções aqui oferecem um bom nível de segurança, no entanto, se sua organização tiver necessidades de segurança mais complexas, você também pode usar linhas de base de segurança pré-definidas para proteger seus dispositivos Windows 10. Para obter mais informações, consulte [linhas de base de segurança para dispositivos Windows 10](/mem/intune/protect/security-baselines).   
+    Para a maioria das organizações, as opções aqui oferecem um bom nível de segurança, no entanto, se sua organização tiver necessidades de segurança mais complexas, você também pode usar linhas de base de segurança pré-definidas para proteger seus dispositivos Windows 10 de segurança. Para obter mais informações, consulte [linhas de base de segurança para Windows 10 dispositivos](/mem/intune/protect/security-baselines).   
 
 1. Escolha **Aplicar configurações**.
 

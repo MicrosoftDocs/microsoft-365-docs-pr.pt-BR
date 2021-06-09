@@ -17,7 +17,7 @@ ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: e9b8e065-2750-4534-9d39-aafd51a2a4e2
-description: Fornece uma lista de links para informações úteis para implantar cargas de trabalho do Office Server no Microsoft Azure.
+description: Fornece uma lista de links para informações úteis para a implantação de cargas de trabalho Office Server em Microsoft Azure.
 ms.openlocfilehash: 47e885d3db7d9211b917414d03efdc5b716dcd1e
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,13 +27,13 @@ ms.locfileid: "50907487"
 ---
 # <a name="hybrid-solutions"></a>Soluções híbridas
 
-Com o Microsoft Azure, você pode implantar algumas cargas de trabalho do Office Server que normalmente foram implantadas no local nos serviços de infraestrutura do Azure.
+Com Microsoft Azure, você pode implantar algumas cargas de trabalho do Office Server que normalmente foram implantadas no local nos serviços de infraestrutura do Azure.
   
-Para a infraestrutura de identidade do Microsoft 365 no Azure:
+Para Microsoft 365 de identidade no Azure:
 
 - [Usar o Azure AD para a autenticação do SharePoint Server](/azure/active-directory/saas-apps/sharepoint-on-premises-tutorial)
 
-- [Implantar a Sincronização de Diretórios do Microsoft 365 no Microsoft Azure](deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md)
+- [Implantar Microsoft 365 Sincronização de Diretórios no Microsoft Azure](deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md)
   
 - [Conectar uma rede local a uma rede virtual do Microsoft Azure](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md)
     

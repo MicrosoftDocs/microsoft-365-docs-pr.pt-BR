@@ -1,5 +1,5 @@
 ---
-title: Criar sites do SharePoint Online e adicionar usuários com o PowerShell
+title: Criar SharePoint online e adicionar usuários com o PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -18,7 +18,7 @@ ms.custom:
 - SPO_Content
 - seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
-description: 'Resumo: use o PowerShell para criar novos sites do SharePoint Online e adicionar usuários e grupos a esses sites.'
+description: 'Resumo: use o PowerShell para criar novos sites SharePoint Online e, em seguida, adicionar usuários e grupos a esses sites.'
 ms.openlocfilehash: eb6c2817c8760ca222da8a7c2b14cbfcda4eb4b8
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -26,19 +26,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50907613"
 ---
-# <a name="create-sharepoint-online-sites-and-add-users-with-powershell"></a>Criar sites do SharePoint Online e adicionar usuários com o PowerShell
+# <a name="create-sharepoint-online-sites-and-add-users-with-powershell"></a>Criar SharePoint online e adicionar usuários com o PowerShell
 
-*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
+*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-Quando você usa o PowerShell para o Microsoft 365 para criar sites do SharePoint Online e adicionar usuários, você pode executar tarefas de forma rápida e repetida muito mais rápida do que pode no centro de administração do Microsoft 365. Você também pode executar tarefas que não são possíveis de executar no Centro de administração do Microsoft 365. 
+Quando você usa o PowerShell para Microsoft 365 para criar sites SharePoint Online e adicionar usuários, você pode executar tarefas rapidamente e repetidamente muito mais rápido do que no centro de administração do Microsoft 365. Você também pode executar tarefas que não são possíveis de executar no Microsoft 365 de administração. 
 
 ## <a name="connect-to-sharepoint-online"></a>Conectar ao SharePoint Online
 
-Os procedimentos neste tópico exigem que você se conecte ao SharePoint Online. Para obter instruções, [consulte Conectar-se ao PowerShell do SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+Os procedimentos neste tópico exigem que você se conecte ao SharePoint Online. Para obter instruções, [consulte Conexão para SharePoint PowerShell Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
 ## <a name="step-1-create-new-site-collections-using-powershell"></a>Etapa 1: Criar novos conjunto de sites usando o PowerShell
 
-Crie vários sites usando o PowerShell e um arquivo .csv que você criar usando o código de exemplo fornecido e o Bloco de Notas. Para este procedimento, você substituirá as informações de espaço reservado mostradas em colchetes por suas próprias informações específicas do site e do locatário. Esse processo permite que você crie um único arquivo e execute um único comando do PowerShell que usa esse arquivo. Isso torna as ações realizadas repetitivas e portáteis e elimina muitos, se não todos, erros que podem vir da digitação de comandos longos no Shell de Gerenciamento do SharePoint Online. Há duas partes para este procedimento. Primeiro, você criará um arquivo .csv e, em seguida, fará referência a esse arquivo .csv usando o PowerShell, que usará seu conteúdo para criar os sites.
+Crie vários sites usando o PowerShell e um arquivo .csv que você criar usando o código de exemplo fornecido e Bloco de notas. Para este procedimento, você substituirá as informações de espaço reservado mostradas em colchetes por suas próprias informações específicas do site e do locatário. Esse processo permite que você crie um único arquivo e execute um único comando do PowerShell que usa esse arquivo. Isso torna as ações realizadas repetitivas e portáteis e elimina muitos, se não todos, erros que podem vir da digitação de comandos longos no Shell de Gerenciamento SharePoint Online. Há duas partes para este procedimento. Primeiro você criará um arquivo .csv e, em seguida, fará referência a esse arquivo .csv usando o PowerShell, que usará seu conteúdo para criar os sites.
 
 O cmdlet do PowerShell importa o arquivo .csv e o canalização para um loop dentro dos colchetes curvados que lê a primeira linha do arquivo como headers de coluna. O cmdlet do PowerShell, em seguida, itera pelos registros restantes, cria um novo conjunto de sites para cada registro e atribui propriedades do conjunto de sites de acordo com os headers da coluna.
 
@@ -56,7 +56,7 @@ owner@tenant.onmicrosoft.com,100,https://tenant.sharepoint.com/sites/Blog01,25,B
 owner@tenant.onmicrosoft.com,150,https://tenant.sharepoint.com/sites/Project01,25,PROJECTSITE#0,10,Project Alpha
 owner@tenant.onmicrosoft.com,150,https://tenant.sharepoint.com/sites/Community01,25,COMMUNITY#0,10,Community Site
 ```
-<br/>Onde *locatário* é o nome  do seu locatário e proprietário é o nome de usuário do usuário em seu locatário ao qual você deseja conceder a função de administrador principal do conjunto de sites.<br/>(Você pode pressionar Ctrl+H ao usar o Bloco de Notas para substituir em massa mais rapidamente.)<br/>
+<br/>Onde *locatário* é o nome  do seu locatário e proprietário é o nome de usuário do usuário em seu locatário ao qual você deseja conceder a função de administrador principal do conjunto de sites.<br/>(Você pode pressionar Ctrl+H ao usar Bloco de notas substituir em massa mais rapidamente.)<br/>
 
 2. Salve o arquivo em sua área de trabalho como **SiteCollections.csv**.<br/>
 
@@ -73,7 +73,7 @@ Import-Csv C:\users\MyAlias\desktop\SiteCollections.csv | ForEach-Object {New-SP
 
 2. Aguarde o prompt Windows PowerShell reaparecer. Pode demorar um minuto ou dois.<br/>
 
-3. No prompt Windows PowerShell, digite ou copie e copie o seguinte cmdlet e pressione Enter:<br/>
+3. No prompt Windows PowerShell, digite ou copie e colar o seguinte cmdlet e pressione Enter:<br/>
 
 ```powershell
 Get-SPOSite -Detailed | Format-Table -AutoSize
@@ -82,7 +82,7 @@ Get-SPOSite -Detailed | Format-Table -AutoSize
 
 4. Observe os novos conjuntos de sites na lista. Usando nosso arquivo CSV de exemplo, você verá os seguintes conjunto de sites: **TeamSite01**, **Blog01**, **Project01** e **Community01**
 
-É isso. Você criou vários conjunto de sites usando o arquivo .csv criado e um único comando Windows PowerShell. Agora você está pronto para criar e alocar usuários nestes sites.
+É isso. Você criou vários conjunto de sites usando o arquivo .csv que você criou e um único Windows PowerShell comando. Agora você está pronto para criar e alocar usuários nestes sites.
 
 ## <a name="step-2-add-users-and-groups"></a>Etapa 2: Adicionar usuários ou grupos
 
@@ -162,7 +162,7 @@ c:\users\MyAlias\desktop\UsersAndGroups.ps1
 
 [Conectar ao PowerShell do SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
-[Gerenciar grupos de sites do SharePoint Online com o PowerShell](manage-sharepoint-site-groups-with-powershell.md)
+[Gerenciar SharePoint sites online com o PowerShell](manage-sharepoint-site-groups-with-powershell.md)
 
 [Gerenciar o Microsoft 365 com o PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   

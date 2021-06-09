@@ -34,7 +34,7 @@ ms.locfileid: "51904159"
 
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-checksensor-abovefoldlink)
 
-O **painel Dispositivos com problemas** de sensor é encontrado no painel Operações de Segurança. Esse tile fornece informações sobre a capacidade do dispositivo individual de fornecer dados do sensor e se comunicar com o serviço Defender para Ponto de Extremidade. Ele relata quantos dispositivos exigem atenção e ajuda você a identificar dispositivos problemáticos e a tomar medidas para corrigir problemas conhecidos.
+O **painel Dispositivos com problemas** de sensor é encontrado no painel Operações de Segurança. Este bloco fornece informações sobre a capacidade do dispositivo individual de fornecer dados do sensor e se comunicar com o serviço Ponto de Extremidade. Ele relata quantos dispositivos requerem atenção e ajuda a identificar dispositivos problemáticos e tomar medidas para corrigir os problemas conhecidos.
 
 Há dois indicadores de status no azulejo que fornecem informações sobre o número de dispositivos que não estão relatando corretamente para o serviço:
 - **Configuração incorretamente** - Esses dispositivos podem estar relatando parcialmente dados do sensor para o serviço Defender para Ponto de Extremidade e podem ter erros de configuração que precisam ser corrigidos.
@@ -47,8 +47,8 @@ Clicar em qualquer um dos grupos direciona você para a lista **Dispositivos**, 
 Na **lista Dispositivos,** você pode filtrar a lista de estado de saúde pelo seguinte status:
 - **Ativo** - Dispositivos que estão relatando ativamente para o serviço Defender para Ponto de Extremidade.
 - **Configuração incorretamente** - Esses dispositivos podem estar relatando parcialmente dados do sensor para o serviço Defender para Ponto de Extremidade, mas têm erros de configuração que precisam ser corrigidos. Dispositivos mal configurados podem ter um ou uma combinação dos seguintes problemas:
-  - **Sem dados do sensor** - Os dispositivos pararam de enviar dados do sensor. Alertas limitados podem ser disparados do dispositivo.
-  - **Comunicações prejudicadas** - A capacidade de se comunicar com o dispositivo está prejudicada. O envio de arquivos para análise profunda, bloqueio de arquivos, isolamento do dispositivo da rede e outras ações que exigem comunicação com o dispositivo pode não funcionar.
+  - **Sem dados do sensor** - Os dispositivos pararam de enviar dados do sensor. Alertas limitados podem ser acionados a partir do dispositivo.
+  - **Comunicações prejudicadas** - A capacidade de se comunicar com o dispositivo está prejudicada. O envio de arquivos para análise profunda, bloqueio de arquivos, isolamento do dispositivo da rede e outras ações que exigem comunicação com o dispositivo podem não funcionar.
 - **Inativo -** Dispositivos que pararam de relatar para o serviço Defender para Ponto de Extremidade.
 
 Você também pode baixar a lista inteira no formato CSV usando o **recurso Exportar.** Para obter mais informações sobre filtros, [consulte Exibir e organizar a lista Dispositivos](machines-view-overview.md).

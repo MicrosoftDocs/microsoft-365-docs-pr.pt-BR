@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: As políticas de retenção de log de auditoria fazem parte dos novos recursos Avançados de Auditoria no Microsoft 365. Uma política de retenção de log de auditoria permite especificar por quanto tempo reter os logs de auditoria em sua organização.
-ms.openlocfilehash: 2ac95d9bb9c13b6bf0c0e31d17b4fb46c30c492a
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b3534f5d0572b2656711850b483651270b9e3315
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687354"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822136"
 ---
 # <a name="manage-audit-log-retention-policies"></a>Gerenciar políticas de retenção de log de auditoria
 
@@ -77,7 +77,7 @@ A Auditoria Avançada no Microsoft 365 fornece uma política de retenção de lo
 
    5. **Duração:** O tempo necessário para manter os logs de auditoria que atendam aos critérios da política.
 
-   6. **Prioridade:** esse valor determinar a ordem na qual as políticas de retenção de log de auditoria são processadas na sua organização. Um valor mais alto indica uma prioridade mais alta. Por exemplo, uma política com um valor de prioridade de **5** teria prioridade sobre uma política com um valor de prioridade **0**. Como explicado anteriormente, qualquer política de retenção de log de auditoria personalizada tem prioridade sobre a política padrão da sua organização.
+   6. **Prioridade:** esse valor determinar a ordem na qual as políticas de retenção de log de auditoria são processadas na sua organização. Um valor mais baixo indica uma prioridade mais alta. As prioridades válidas são valores numéricos entre **1** e **10.000**. Um valor de **1** é a prioridade mais alta e um valor de **10000** é a prioridade mais baixa. Por exemplo, uma política com valor **5** tem prioridade sobre uma política com valor **10**. Como explicado anteriormente, qualquer política de retenção de log de auditoria personalizada tem prioridade sobre a política padrão da sua organização.
 
 5. Clique em **Salvar** para criar a nova política de retenção.
 

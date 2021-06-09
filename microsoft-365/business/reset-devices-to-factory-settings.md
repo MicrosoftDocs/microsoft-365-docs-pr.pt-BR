@@ -23,7 +23,7 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
-description: Saiba como usar o Microsoft 365 para empresas para redefinir de fábrica os dispositivos Windows 10 que você gerencia, revertendo-os para suas configurações originais na compra.
+description: Saiba como usar o Microsoft 365 para empresas para redefinir de fábrica Windows 10 dispositivos que você gerencia, revertendo-os para suas configurações originais na compra.
 ms.openlocfilehash: 29d5b8758ef7d86c7ac283460d0a1a87bffaf5f3
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -33,9 +33,9 @@ ms.locfileid: "51578198"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Restaurar dispositivos com o Windows 10 para as configurações de fábrica
 
-Este artigo se aplica ao Microsoft 365 Business Premium.
+Este artigo se aplica a Microsoft 365 Business Premium.
 
-Uma restauração de fábrica retorna um dispositivo às configurações originais que ele tinha quando o dispositivo foi comprado. Todos os aplicativos e dados do dispositivo que foram instalados após a compra serão removidos. Você pode usar o Microsoft 365 para empresas para redefinir de fábrica os dispositivos Windows 10 que você gerencia.
+Uma restauração de fábrica retorna um dispositivo às configurações originais que ele tinha quando o dispositivo foi comprado. Todos os aplicativos e dados do dispositivo que foram instalados após a compra serão removidos. Você pode usar o Microsoft 365 para empresas para redefinir de fábrica Windows 10 dispositivos que gerencia.
   
 1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
     
