@@ -28,62 +28,62 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52244939"
 ---
-# <a name="employee-quick-setup"></a><span data-ttu-id="2de42-103">Configuração rápida para funcionários</span><span class="sxs-lookup"><span data-stu-id="2de42-103">Employee quick setup</span></span>
+# <a name="employee-quick-setup"></a><span data-ttu-id="516b7-103">Configuração rápida para funcionários</span><span class="sxs-lookup"><span data-stu-id="516b7-103">Employee quick setup</span></span>
 
-<span data-ttu-id="2de42-104">Você é novo no Microsoft 365 para empresas?</span><span class="sxs-lookup"><span data-stu-id="2de42-104">Are you new to Microsoft 365 for business?</span></span> :::image type="icon" source="../media/video-call-icon.png" border="false":::[Assista a este vídeo](../business/microsoft-365-business-start.md) para saber mais sobre ele. <span data-ttu-id="2de42-106">Depois disso, siga estas etapas.</span><span class="sxs-lookup"><span data-stu-id="2de42-106">Then follow these steps.</span></span>
+<span data-ttu-id="516b7-104">Você é novo no Microsoft 365 para empresas?</span><span class="sxs-lookup"><span data-stu-id="516b7-104">Are you new to Microsoft 365 for business?</span></span> :::image type="icon" source="../media/video-call-icon.png" border="false":::[Assista a este vídeo](../business/microsoft-365-business-start.md) para saber mais sobre ele. <span data-ttu-id="516b7-106">Depois disso, siga estas etapas.</span><span class="sxs-lookup"><span data-stu-id="516b7-106">Then follow these steps.</span></span>
 
 :::image type="content" source="../media/m365-employee-quick-setup.png" alt-text="Imagem mostrando etapas de configuração rápidas de funcionários.":::
 
-## <a name="1-sign-in-to-office"></a><span data-ttu-id="2de42-108">1. Entre no Office</span><span class="sxs-lookup"><span data-stu-id="2de42-108">1. Sign in to Office</span></span>
+## <a name="1-sign-in-to-office"></a><span data-ttu-id="516b7-108">1. Entre no Office</span><span class="sxs-lookup"><span data-stu-id="516b7-108">1. Sign in to Office</span></span>
 
-1. <span data-ttu-id="2de42-109">Vá para o site [Office.com](https://office.com) e escolha **Entrar**.</span><span class="sxs-lookup"><span data-stu-id="2de42-109">Go to [Office.com](https://office.com) and choose **Sign in**.</span></span>
-1. <span data-ttu-id="2de42-110">Digite seu Microsoft 365 email e senha e, em seguida, **entre**.</span><span class="sxs-lookup"><span data-stu-id="2de42-110">Type your Microsoft 365 email and password, then **Sign in**.</span></span>
+1. <span data-ttu-id="516b7-109">Vá para o site [Office.com](https://office.com) e escolha **Entrar**.</span><span class="sxs-lookup"><span data-stu-id="516b7-109">Go to [Office.com](https://office.com) and choose **Sign in**.</span></span>
+1. <span data-ttu-id="516b7-110">Digite seu Microsoft 365 email e senha e, em seguida, **entre**.</span><span class="sxs-lookup"><span data-stu-id="516b7-110">Type your Microsoft 365 email and password, then **Sign in**.</span></span>
 
-## <a name="2-download-and-install-office-apps"></a><span data-ttu-id="2de42-111">2. Baixar e instalar Office aplicativos</span><span class="sxs-lookup"><span data-stu-id="2de42-111">2. Download and install Office apps</span></span>
+## <a name="2-download-and-install-office-apps"></a><span data-ttu-id="516b7-111">2. Baixar e instalar Office aplicativos</span><span class="sxs-lookup"><span data-stu-id="516b7-111">2. Download and install Office apps</span></span>
 
-1. <span data-ttu-id="2de42-112">Escolha **Instalar Office** no canto superior direito.</span><span class="sxs-lookup"><span data-stu-id="2de42-112">Choose **Install Office** in the upper right.</span></span>
-    - <span data-ttu-id="2de42-113">No navegador Chrome, vá para o download na parte inferior da página e escolha **Abrir**.</span><span class="sxs-lookup"><span data-stu-id="2de42-113">In Chrome, go to the download on the bottom of the page and choose **Open**.</span></span>
-    - <span data-ttu-id="2de42-114">No Microsoft Edge ou Internet Explorer, escolha **Salvar** e **Executar**.</span><span class="sxs-lookup"><span data-stu-id="2de42-114">In Microsoft Edge/IE, choose **Save** then **Run**.</span></span>
+1. <span data-ttu-id="516b7-112">Escolha **Instalar Office** no canto superior direito.</span><span class="sxs-lookup"><span data-stu-id="516b7-112">Choose **Install Office** in the upper right.</span></span>
+    - <span data-ttu-id="516b7-113">No navegador Chrome, vá para o download na parte inferior da página e escolha **Abrir**.</span><span class="sxs-lookup"><span data-stu-id="516b7-113">In Chrome, go to the download on the bottom of the page and choose **Open**.</span></span>
+    - <span data-ttu-id="516b7-114">No Microsoft Edge ou Internet Explorer, escolha **Salvar** e **Executar**.</span><span class="sxs-lookup"><span data-stu-id="516b7-114">In Microsoft Edge/IE, choose **Save** then **Run**.</span></span>
     
-        <span data-ttu-id="2de42-p102">Se for solicitado a permitir que o aplicativo faça alterações, escolha **Sim**. Deixe a instalação do Office começar.</span><span class="sxs-lookup"><span data-stu-id="2de42-p102">If asked to allow the app to make changes, choose **Yes**. Let Office setup begin.</span></span>
-    - <span data-ttu-id="2de42-117">Em um Mac, abra o Microsoft **Office_2016_Installer.pkg**</span><span class="sxs-lookup"><span data-stu-id="2de42-117">On a Mac, open Microsoft **Office_2016_Installer.pkg**</span></span>
+        <span data-ttu-id="516b7-p102">Se for solicitado a permitir que o aplicativo faça alterações, escolha **Sim**. Deixe a instalação do Office começar.</span><span class="sxs-lookup"><span data-stu-id="516b7-p102">If asked to allow the app to make changes, choose **Yes**. Let Office setup begin.</span></span>
+    - <span data-ttu-id="516b7-117">Em um Mac, abra o Microsoft **Office_2016_Installer.pkg**</span><span class="sxs-lookup"><span data-stu-id="516b7-117">On a Mac, open Microsoft **Office_2016_Installer.pkg**</span></span>
 
-## <a name="3-open-outlook-and-add-your-account"></a><span data-ttu-id="2de42-118">3. Abra Outlook e adicione sua conta</span><span class="sxs-lookup"><span data-stu-id="2de42-118">3. Open Outlook and add your account</span></span>
+## <a name="3-open-outlook-and-add-your-account"></a><span data-ttu-id="516b7-118">3. Abra Outlook e adicione sua conta</span><span class="sxs-lookup"><span data-stu-id="516b7-118">3. Open Outlook and add your account</span></span>
 
-1. <span data-ttu-id="2de42-119">Abra o **Outlook** em seu computador.</span><span class="sxs-lookup"><span data-stu-id="2de42-119">Open **Outlook** on your computer.</span></span> <span data-ttu-id="2de42-120">No campo Diga-me, digite **conta** e **Adicionar Conta**.</span><span class="sxs-lookup"><span data-stu-id="2de42-120">In the Tell me field, type **account** then **Add Account**.</span></span>
+1. <span data-ttu-id="516b7-119">Abra o **Outlook** em seu computador.</span><span class="sxs-lookup"><span data-stu-id="516b7-119">Open **Outlook** on your computer.</span></span> <span data-ttu-id="516b7-120">No campo Diga-me, digite **conta** e **Adicionar Conta**.</span><span class="sxs-lookup"><span data-stu-id="516b7-120">In the Tell me field, type **account** then **Add Account**.</span></span>
 
     :::image type="content" source="../media/add-outlook-account.png" alt-text="Uma figura mostrando como adicionar uma conta a Outlook.":::
 
-1. <span data-ttu-id="2de42-122">Digite seu nome, email e senha; em seguida, escolha **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="2de42-122">Type your name, email, and password then **Next**.</span></span>
+1. <span data-ttu-id="516b7-122">Digite seu nome, email e senha; em seguida, escolha **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="516b7-122">Type your name, email, and password then **Next**.</span></span>
 
 > [!TIP]
-> <span data-ttu-id="2de42-123">Para importar os emails antigos, exporte-os para um arquivo PST e importe-os da seguinte maneira.</span><span class="sxs-lookup"><span data-stu-id="2de42-123">To import your old email, export it to a PST file, then import it, like this.</span></span>
+> <span data-ttu-id="516b7-123">Para importar os emails antigos, exporte-os para um arquivo PST e importe-os da seguinte maneira.</span><span class="sxs-lookup"><span data-stu-id="516b7-123">To import your old email, export it to a PST file, then import it, like this.</span></span>
 
-## <a name="4-save-or-copy-files-to-onedrive"></a><span data-ttu-id="2de42-124">4. Salve ou copie arquivos para OneDrive</span><span class="sxs-lookup"><span data-stu-id="2de42-124">4. Save or copy files to OneDrive</span></span>
+## <a name="4-save-or-copy-files-to-onedrive"></a><span data-ttu-id="516b7-124">4. Salve ou copie arquivos para OneDrive</span><span class="sxs-lookup"><span data-stu-id="516b7-124">4. Save or copy files to OneDrive</span></span>
 
-- <span data-ttu-id="2de42-125">Salve documentos para **OneDrive** do menu **Salvar como** em Office aplicativos.</span><span class="sxs-lookup"><span data-stu-id="2de42-125">Save documents to **OneDrive** from the **Save As** menu in Office apps.</span></span>
+- <span data-ttu-id="516b7-125">Salve documentos para **OneDrive** do menu **Salvar como** em Office aplicativos.</span><span class="sxs-lookup"><span data-stu-id="516b7-125">Save documents to **OneDrive** from the **Save As** menu in Office apps.</span></span>
     :::image type="content" source="../media/save-onedrive.png" alt-text="Imge that who's how to Save As to OneDrive.":::
 
-- <span data-ttu-id="2de42-127">Mas se preferir, copie arquivos da área de trabalho ou da pasta Documentos para o **OneDrive**.</span><span class="sxs-lookup"><span data-stu-id="2de42-127">Or copy files from your Desktop or Documents to **OneDrive**.</span></span>
+- <span data-ttu-id="516b7-127">Mas se preferir, copie arquivos da área de trabalho ou da pasta Documentos para o **OneDrive**.</span><span class="sxs-lookup"><span data-stu-id="516b7-127">Or copy files from your Desktop or Documents to **OneDrive**.</span></span>
 
     :::image type="content" source="../media/save-to-onedrive-from-docs.png" alt-text="Imagem mostrando como salvar para OneDrive da pasta Documentos.":::
 
     > [!TIP]
-    > <span data-ttu-id="2de42-129">Você também pode armazenar arquivos em [sites](https://support.microsoft.com/office/d18d21a0-1f9f-4f6c-ac45-d52afa0a4a2e) Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="2de42-129">You can also store files on [sites](https://support.microsoft.com/office/d18d21a0-1f9f-4f6c-ac45-d52afa0a4a2e) in Microsoft 365.</span></span>
+    > <span data-ttu-id="516b7-129">Você também pode armazenar arquivos em [sites](https://support.microsoft.com/office/d18d21a0-1f9f-4f6c-ac45-d52afa0a4a2e) Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="516b7-129">You can also store files on [sites](https://support.microsoft.com/office/d18d21a0-1f9f-4f6c-ac45-d52afa0a4a2e) in Microsoft 365.</span></span>
 
-## <a name="5-share-documents"></a><span data-ttu-id="2de42-130">5. Compartilhar Documentos</span><span class="sxs-lookup"><span data-stu-id="2de42-130">5. Share Documents</span></span>
+## <a name="5-share-documents"></a><span data-ttu-id="516b7-130">5. Compartilhar Documentos</span><span class="sxs-lookup"><span data-stu-id="516b7-130">5. Share Documents</span></span>
 
-1. <span data-ttu-id="2de42-131">Para compartilhar documentos com outras pessoas, escolha **Compartilhar**.</span><span class="sxs-lookup"><span data-stu-id="2de42-131">Share your documents with others by choosing **Share**.</span></span>
+1. <span data-ttu-id="516b7-131">Para compartilhar documentos com outras pessoas, escolha **Compartilhar**.</span><span class="sxs-lookup"><span data-stu-id="516b7-131">Share your documents with others by choosing **Share**.</span></span>
 
     :::image type="content" source="../media/share-office-doc.png" alt-text="Compartilhar ícone em um Aplicativo do Office.":::
 
-1. <span data-ttu-id="2de42-133">Digite os endereços de email, escolha permissões para ler ou editar, inclua uma mensagem e escolha **Compartilhar**.</span><span class="sxs-lookup"><span data-stu-id="2de42-133">Type their email address, choose read or edit, include a message and **Share**.</span></span>
-1. <span data-ttu-id="2de42-134">Se preferir, escolha **Obter um link**, na parte inferior da tela.</span><span class="sxs-lookup"><span data-stu-id="2de42-134">Or choose **Get sharing link** on the bottom of the screen.</span></span>
+1. <span data-ttu-id="516b7-133">Digite os endereços de email, escolha permissões para ler ou editar, inclua uma mensagem e escolha **Compartilhar**.</span><span class="sxs-lookup"><span data-stu-id="516b7-133">Type their email address, choose read or edit, include a message and **Share**.</span></span>
+1. <span data-ttu-id="516b7-134">Se preferir, escolha **Obter um link**, na parte inferior da tela.</span><span class="sxs-lookup"><span data-stu-id="516b7-134">Or choose **Get sharing link** on the bottom of the screen.</span></span>
 
-## <a name="6-get-outlook-on-your-phone"></a><span data-ttu-id="2de42-135">6. Obter Outlook em seu telefone</span><span class="sxs-lookup"><span data-stu-id="2de42-135">6. Get Outlook on your phone</span></span>
+## <a name="6-get-outlook-on-your-phone"></a><span data-ttu-id="516b7-135">6. Obter Outlook em seu telefone</span><span class="sxs-lookup"><span data-stu-id="516b7-135">6. Get Outlook on your phone</span></span>
 
-- <span data-ttu-id="2de42-136">Obter **Outlook** em seu telefone na Loja de Aplicativos ou na Google Play Store.</span><span class="sxs-lookup"><span data-stu-id="2de42-136">Get **Outlook** on your phone from App store or Google Play store.</span></span> <span data-ttu-id="2de42-137">Abra-o e escolha **Introdução** e adicione seu email e senha.</span><span class="sxs-lookup"><span data-stu-id="2de42-137">Open it, and choose **Get Started** and add your email and password.</span></span>
-- <span data-ttu-id="2de42-138">ou abra o Outlook em um dispositivo Android ou iOS e vá para **Configurações**.</span><span class="sxs-lookup"><span data-stu-id="2de42-138">Or, open Outlook on an iOS or Android device and go to **Settings**.</span></span>
+- <span data-ttu-id="516b7-136">Obter **Outlook** em seu telefone na Loja de Aplicativos ou na Google Play Store.</span><span class="sxs-lookup"><span data-stu-id="516b7-136">Get **Outlook** on your phone from App store or Google Play store.</span></span> <span data-ttu-id="516b7-137">Abra-o e escolha **Introdução** e adicione seu email e senha.</span><span class="sxs-lookup"><span data-stu-id="516b7-137">Open it, and choose **Get Started** and add your email and password.</span></span>
+- <span data-ttu-id="516b7-138">ou abra o Outlook em um dispositivo Android ou iOS e vá para **Configurações**.</span><span class="sxs-lookup"><span data-stu-id="516b7-138">Or, open Outlook on an iOS or Android device and go to **Settings**.</span></span>
 
-    <span data-ttu-id="2de42-139">Escolha **Adicionar conta**, **Adicionar conta de email** e digite o email e a senha.</span><span class="sxs-lookup"><span data-stu-id="2de42-139">Choose **Add Account** then **Add Email Account** then type your email and password.</span></span>
-- <span data-ttu-id="2de42-140">Em um **Windows Phone,** escolha **Configurações,** **Email + contas,** **Adicionar** uma conta e, em seguida, **Exchange**.</span><span class="sxs-lookup"><span data-stu-id="2de42-140">On a **Windows Phone**, choose **Settings**, **Email + accounts**, **Add an account**, and then **Exchange**.</span></span>
+    <span data-ttu-id="516b7-139">Escolha **Adicionar conta**, **Adicionar conta de email** e digite o email e a senha.</span><span class="sxs-lookup"><span data-stu-id="516b7-139">Choose **Add Account** then **Add Email Account** then type your email and password.</span></span>
+- <span data-ttu-id="516b7-140">Em um **Windows Phone,** escolha **Configurações,** **Email + contas,** **Adicionar** uma conta e, em seguida, **Exchange**.</span><span class="sxs-lookup"><span data-stu-id="516b7-140">On a **Windows Phone**, choose **Settings**, **Email + accounts**, **Add an account**, and then **Exchange**.</span></span>
