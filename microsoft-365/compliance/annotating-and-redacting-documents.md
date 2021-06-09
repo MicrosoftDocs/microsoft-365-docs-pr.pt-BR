@@ -1,5 +1,5 @@
 ---
-title: Exibindo documentos em um conjunto de revisão na Descoberta Avançada
+title: Exibindo documentos em um conjunto de revisão em Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,7 +16,7 @@ search.appverid:
 - MET150
 ms.assetid: ''
 ms.custom: seo-marvel-mar2020
-description: Você pode anotar e reexecur documentos em um conjunto de revisão na Descoberta eDiscovery Avançada.
+description: Você pode anotar e rediscar documentos em um conjunto de revisão em Advanced eDiscovery.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 664045a3df50cdceb650208459c122049dba7c7c
 ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
@@ -25,6 +25,6 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 09/26/2020
 ms.locfileid: "48285537"
 ---
-# <a name="annotate-and-redact-documents-in-a-review-set-in-advanced-ediscovery"></a><span data-ttu-id="6e094-103">Anotar e reexecur documentos em um conjunto de revisão na Descoberta Avançada</span><span class="sxs-lookup"><span data-stu-id="6e094-103">Annotate and redact documents in a review set in Advanced eDiscovery</span></span>
+# <a name="annotate-and-redact-documents-in-a-review-set-in-advanced-ediscovery"></a><span data-ttu-id="86e1b-103">Anotar e rediscar documentos em um conjunto de revisão em Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="86e1b-103">Annotate and redact documents in a review set in Advanced eDiscovery</span></span>
 
-<span data-ttu-id="6e094-104">Conteúdo em breve.</span><span class="sxs-lookup"><span data-stu-id="6e094-104">Content coming soon.</span></span>
+<span data-ttu-id="86e1b-104">Conteúdo em breve.</span><span class="sxs-lookup"><span data-stu-id="86e1b-104">Content coming soon.</span></span>

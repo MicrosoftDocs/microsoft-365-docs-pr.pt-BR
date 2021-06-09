@@ -1,6 +1,6 @@
 ---
-title: Modelos e ícones de arquitetura do Microsoft 365
-description: Ícones para uso na criação de diagramas de arquitetura para o Microsoft 365.
+title: Microsoft 365 e modelos de arquitetura
+description: Ícones para uso na criação de diagramas de arquitetura para Microsoft 365.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -17,34 +17,34 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 12/16/2020
 ms.locfileid: "49688691"
 ---
-# <a name="microsoft-365-architecture-icons-and-templates"></a><span data-ttu-id="75690-103">Modelos e ícones de arquitetura do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="75690-103">Microsoft 365 architecture icons and templates</span></span>
+# <a name="microsoft-365-architecture-icons-and-templates"></a><span data-ttu-id="ad964-103">Microsoft 365 e modelos de arquitetura</span><span class="sxs-lookup"><span data-stu-id="ad964-103">Microsoft 365 architecture icons and templates</span></span>
 
-<span data-ttu-id="75690-104">Ajudar nossos parceiros e clientes a projetar e projetar novas soluções é importante.</span><span class="sxs-lookup"><span data-stu-id="75690-104">Helping our partners and customers design and architect new solutions is important.</span></span> <span data-ttu-id="75690-105">Diagramas de arquitetura como aqueles incluídos em nossa orientação podem ajudar a comunicar decisões de design e as relações entre componentes em um ambiente.</span><span class="sxs-lookup"><span data-stu-id="75690-105">Architecture diagrams like those included in our guidance can help communicate design decisions and the relationships between components in an environment.</span></span> <span data-ttu-id="75690-106">Usamos um conjunto de símbolos e ícones junto com os modelos do Visio para criar os diagramas de arquitetura que criamos e fornecemos essas ferramentas aqui para ajudá-lo a criar um diagrama de arquitetura personalizado para sua próxima solução.</span><span class="sxs-lookup"><span data-stu-id="75690-106">We use a set of symbols and icons along with Visio templates to create the architecture diagrams we product and are providing these tools here to help you build a custom architecture diagram for your next solution.</span></span>
+<span data-ttu-id="ad964-104">Ajudar nossos parceiros e clientes a projetar e projetar novas soluções é importante.</span><span class="sxs-lookup"><span data-stu-id="ad964-104">Helping our partners and customers design and architect new solutions is important.</span></span> <span data-ttu-id="ad964-105">Diagramas de arquitetura como os incluídos em nossas diretrizes podem ajudar a comunicar decisões de design e as relações entre componentes em um ambiente.</span><span class="sxs-lookup"><span data-stu-id="ad964-105">Architecture diagrams like those included in our guidance can help communicate design decisions and the relationships between components in an environment.</span></span> <span data-ttu-id="ad964-106">Usamos um conjunto de símbolos e ícones juntamente com Visio para criar os diagramas de arquitetura que criamos e estamos fornecendo essas ferramentas aqui para ajudá-lo a criar um diagrama de arquitetura personalizado para sua próxima solução.</span><span class="sxs-lookup"><span data-stu-id="ad964-106">We use a set of symbols and icons along with Visio templates to create the architecture diagrams we product and are providing these tools here to help you build a custom architecture diagram for your next solution.</span></span>
 
-<span data-ttu-id="75690-107">Você pode ver esses ícones, símbolos e modelos em ação nos arquivos baixáveis disponíveis nas seguintes páginas:</span><span class="sxs-lookup"><span data-stu-id="75690-107">You can see these icons, symbols, and templates in action in downloadable files available on the following pages:</span></span>
+<span data-ttu-id="ad964-107">Você pode ver esses ícones, símbolos e modelos em ação em arquivos baixáveis disponíveis nas seguintes páginas:</span><span class="sxs-lookup"><span data-stu-id="ad964-107">You can see these icons, symbols, and templates in action in downloadable files available on the following pages:</span></span>
 
-- [<span data-ttu-id="75690-108">Ilustrações de produtividade</span><span class="sxs-lookup"><span data-stu-id="75690-108">Productivity illustrations</span></span>](productivity-illustrations.md)
-- [<span data-ttu-id="75690-109">Modelos de arquitetura em nuvem da Microsoft</span><span class="sxs-lookup"><span data-stu-id="75690-109">Microsoft cloud architecture models</span></span>](cloud-architecture-models.md)
+- [<span data-ttu-id="ad964-108">Ilustrações de produtividade</span><span class="sxs-lookup"><span data-stu-id="ad964-108">Productivity illustrations</span></span>](productivity-illustrations.md)
+- [<span data-ttu-id="ad964-109">Modelos de arquitetura em nuvem da Microsoft</span><span class="sxs-lookup"><span data-stu-id="ad964-109">Microsoft cloud architecture models</span></span>](cloud-architecture-models.md)
 
-## <a name="terms-and-download"></a><span data-ttu-id="75690-110">Termos e download</span><span class="sxs-lookup"><span data-stu-id="75690-110">Terms and download</span></span>
+## <a name="terms-and-download"></a><span data-ttu-id="ad964-110">Termos e download</span><span class="sxs-lookup"><span data-stu-id="ad964-110">Terms and download</span></span>
 
-<span data-ttu-id="75690-111">A Microsoft permite o uso desses ícones em diagramas de arquitetura, materiais de treinamento ou documentação.</span><span class="sxs-lookup"><span data-stu-id="75690-111">Microsoft permits the use of these icons in architectural diagrams, training materials, or documentation.</span></span> <span data-ttu-id="75690-112">Você pode copiar, distribuir e exibir os ícones somente para o uso permitido, a menos que tenha permissão explícita concedida pela Microsoft.</span><span class="sxs-lookup"><span data-stu-id="75690-112">You may copy, distribute, and display the icons only for the permitted use unless granted explicit permission by Microsoft.</span></span> <span data-ttu-id="75690-113">Microsoft reserves all other rights.</span><span class="sxs-lookup"><span data-stu-id="75690-113">Microsoft reserves all other rights.</span></span>
+<span data-ttu-id="ad964-111">A Microsoft permite o uso desses ícones em diagramas de arquitetura, materiais de treinamento ou documentação.</span><span class="sxs-lookup"><span data-stu-id="ad964-111">Microsoft permits the use of these icons in architectural diagrams, training materials, or documentation.</span></span> <span data-ttu-id="ad964-112">Você pode copiar, distribuir e exibir os ícones somente para o uso permitido, a menos que a Microsoft conceda permissão explícita.</span><span class="sxs-lookup"><span data-stu-id="ad964-112">You may copy, distribute, and display the icons only for the permitted use unless granted explicit permission by Microsoft.</span></span> <span data-ttu-id="ad964-113">Microsoft reserves all other rights.</span><span class="sxs-lookup"><span data-stu-id="ad964-113">Microsoft reserves all other rights.</span></span>
 
-
- > [!div class="button"]
- > [<span data-ttu-id="75690-114">Baixar ícones SVG e PNG</span><span class="sxs-lookup"><span data-stu-id="75690-114">Download SVG and PNG icons</span></span>](https://go.microsoft.com/fwlink/?linkid=869455)
 
  > [!div class="button"]
- > [<span data-ttu-id="75690-115">Baixar modelos e estencil do Visio</span><span class="sxs-lookup"><span data-stu-id="75690-115">Download Visio templates and stencils</span></span>](https://go.microsoft.com/fwlink/?linkid=2056186)
+ > [<span data-ttu-id="ad964-114">Baixar ícones SVG e PNG</span><span class="sxs-lookup"><span data-stu-id="ad964-114">Download SVG and PNG icons</span></span>](https://go.microsoft.com/fwlink/?linkid=869455)
 
-## <a name="example-architecture-diagrams"></a><span data-ttu-id="75690-116">Exemplos de diagramas de arquitetura</span><span class="sxs-lookup"><span data-stu-id="75690-116">Example architecture diagrams</span></span>
+ > [!div class="button"]
+ > [<span data-ttu-id="ad964-115">Baixar Visio modelos e estêncils</span><span class="sxs-lookup"><span data-stu-id="ad964-115">Download Visio templates and stencils</span></span>](https://go.microsoft.com/fwlink/?linkid=2056186)
 
-<span data-ttu-id="75690-117">Você pode usar esses ícones e modelos para criar diagramas como os exemplos a seguir:</span><span class="sxs-lookup"><span data-stu-id="75690-117">You can use these icons and templates to create diagrams like the following examples:</span></span>
+## <a name="example-architecture-diagrams"></a><span data-ttu-id="ad964-116">Exemplos de diagramas de arquitetura</span><span class="sxs-lookup"><span data-stu-id="ad964-116">Example architecture diagrams</span></span>
 
-1. <span data-ttu-id="75690-118">Exemplo de diagrama de arquitetura de pesquisa para o SharePoint:</span><span class="sxs-lookup"><span data-stu-id="75690-118">Example search architecture diagram for SharePoint:</span></span>
+<span data-ttu-id="ad964-117">Você pode usar esses ícones e modelos para criar diagramas como os seguintes exemplos:</span><span class="sxs-lookup"><span data-stu-id="ad964-117">You can use these icons and templates to create diagrams like the following examples:</span></span>
 
-    ![Exemplo de arquitetura de pesquisa para o SharePoint](../media/configure-search-for-multi-geo-image1-1.png)
+1. <span data-ttu-id="ad964-118">Exemplo de diagrama de arquitetura de pesquisa para SharePoint:</span><span class="sxs-lookup"><span data-stu-id="ad964-118">Example search architecture diagram for SharePoint:</span></span>
 
-2. <span data-ttu-id="75690-120">Diagrama de arquitetura do ciclo de vida de retenção do Teams:</span><span class="sxs-lookup"><span data-stu-id="75690-120">Teams retention lifecycle architecture diagram:</span></span>
+    ![Exemplo de arquitetura de pesquisa para SharePoint](../media/configure-search-for-multi-geo-image1-1.png)
 
-    ![Ciclo de vida de retenção do Teams](../media/TeamsRetentionLifecycle.png)
+2. <span data-ttu-id="ad964-120">Teams diagrama de arquitetura do ciclo de vida de retenção:</span><span class="sxs-lookup"><span data-stu-id="ad964-120">Teams retention lifecycle architecture diagram:</span></span>
+
+    ![Teams ciclo de vida de retenção](../media/TeamsRetentionLifecycle.png)
