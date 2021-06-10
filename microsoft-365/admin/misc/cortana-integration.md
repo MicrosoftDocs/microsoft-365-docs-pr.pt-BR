@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: Os usuários com contas corporativas ou de estudante válidas podem obter a Cortana em Microsoft 365 experiências que atendem Office 365 promessas de segurança no nível empresarial.
-ms.openlocfilehash: f626ba0d0295655dcdb3d4df2b332dcf05f1a6b5
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: e4b934a8991837637869074d43df89e70b09924d
+ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635793"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52866614"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana no Microsoft 365
 
@@ -89,19 +89,17 @@ A assistência de voz da Cortana no aplicativo móvel Teams Microsoft Teams e em
 
 **Controle de administrador**
 
-A assistência de voz da Cortana será habilitada por padrão para locatários. Os administradores podem controlar quem em seu locatário pode usar a assistência de voz da Cortana Teams por meio de uma política (TeamsCortanaPolicy). Essa política pode ser definida em um nível de conta de usuário ou de locatário. Os administradores também podem usar o campo CortanaVoiceInvocationMode nesse controle de política para determinar se a Cortana está desabilitada, habilitada somente com invocação de botão de push ou habilitada com invocação de palavra de alerta também (aplicável a dispositivos que a suportam, como a exibição Microsoft Teams). Observe que, no momento da versão inicial para Microsoft 365 Enterprise usuários nos EUA em inglês, o aplicativo móvel Teams não dará suporte à ativação de palavra de alerta, mas ele terá suporte no futuro.
+A assistência de voz da Cortana será habilitada por padrão para locatários. Os administradores podem controlar quem em seu locatário pode usar a assistência de voz da Cortana Teams por meio de uma política (TeamsCortanaPolicy). Essa política pode ser definida em um nível de conta de usuário ou de locatário. Os administradores também podem usar o campo CortanaVoiceInvocationMode nesse controle de política para determinar se a Cortana está desabilitada, habilitada somente com invocação de botão de push ou habilitada com invocação de palavra de alerta também (aplicável a dispositivos que a suportam, como a exibição Microsoft Teams). 
 
 **Controle do usuário**
 
-Usuários individuais podem experimentar a assistência de voz da Cortana Teams aplicativo móvel clicando no botão microfone. Eles podem experimentar a assistência de voz da Cortana em dispositivos de exibição Microsoft Teams simplesmente dizendo &#8220;Cortana.&#8221; Eles também podem controlar se a Cortana no Teams está habilitada para seu dispositivo por meio de uma configuração no aplicativo móvel Teams ou na exibição Microsoft Teams: 
+Usuários individuais podem experimentar a assistência de voz da Cortana Teams aplicativo móvel clicando no botão microfone. Eles podem experimentar a assistência de voz da Cortana em dispositivos de exibição Microsoft Teams simplesmente dizendo &#8220;Cortana.&#8221; Eles também podem controlar se a Cortana responde à invocação de palavra de alerta. 
 
-1. Abra o Teams aplicativo móvel ou vá para a tela ambiente (home) do Microsoft Teams display.
+1.  Abrir Teams celular
+2.  Vá para Configurações
+3.  Selecione Cortana
+4.  Alternar a alternância de ativação de voz
 
-2. No aplicativo Teams móvel, vá para **Configurações**. Na tela Microsoft Teams, selecione o avatar do usuário e selecione Configurações. Se a Cortana estiver habilitada, &#8220;cortana, vá para Configurações.&#8221;
-
-3. Selecione **Cortana**.
-
-4. Mova a alternância **para On** ou **Off,** dependendo se você deseja assistência de voz da Cortana no dispositivo.
 
 [Saiba mais sobre a assistência de voz da Cortana em Teams](/microsoftteams/cortana-in-teams)
 

@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 00ed505b153e5af4d89038bdc53e988ee763827b
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: a6271c1bd3714cfdffc606b7ada9b027e394216d
+ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845637"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52866722"
 ---
 # <a name="behavioral-blocking-and-containment"></a>Bloqueio e contenção comportamental
 
@@ -46,11 +46,11 @@ Os recursos de bloqueio e contenção comportamentais podem ajudar a identificar
 
 Os recursos de bloqueio comportamental e de contenção funcionam com vários componentes e recursos do Defender for Endpoint para interromper os ataques imediatamente e impedir que os ataques avancem.
 
-- [A proteção de próxima geração](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) (que inclui Microsoft Defender Antivírus) pode detectar ameaças analisando comportamentos e interromper ameaças que começaram a ser executados.
+- [A proteção de próxima geração](microsoft-defender-antivirus-in-windows-10.md) (que inclui Microsoft Defender Antivírus) pode detectar ameaças analisando comportamentos e interromper ameaças que começaram a ser executados.
 
-- [A detecção e resposta](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) do ponto de extremidade (EDR) recebe sinais de segurança em toda a rede, dispositivos e comportamento do kernel. À medida que as ameaças são detectadas, os alertas são criados. Vários alertas do mesmo tipo são agregados em incidentes, o que facilita que sua equipe de operações de segurança investigue e responda.
+- [A detecção e resposta](overview-endpoint-detection-response.md) do ponto de extremidade (EDR) recebe sinais de segurança em toda a rede, dispositivos e comportamento do kernel. À medida que as ameaças são detectadas, os alertas são criados. Vários alertas do mesmo tipo são agregados em incidentes, o que facilita que sua equipe de operações de segurança investigue e responda.
 
-- [O Defender para Ponto](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) de Extremidade tem uma ampla variedade de óticas entre identidades, emails, dados e aplicativos, além dos sinais de comportamento de rede, ponto de extremidade e kernel recebidos por meio de EDR. Um componente do [Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-threat-protection), o Defender for Endpoint processa e correlaciona esses sinais, gera alertas de detecção e conecta alertas relacionados em incidentes.
+- [O Defender para Ponto](overview-endpoint-detection-response.md) de Extremidade tem uma ampla variedade de óticas entre identidades, emails, dados e aplicativos, além dos sinais de comportamento de rede, ponto de extremidade e kernel recebidos por meio de EDR. Um componente do [Microsoft 365 Defender](../defender/microsoft-365-defender.md), o Defender for Endpoint processa e correlaciona esses sinais, gera alertas de detecção e conecta alertas relacionados em incidentes.
 
 Com esses recursos, mais ameaças podem ser impedidas ou bloqueadas, mesmo que comecem a ser executados. Sempre que um comportamento suspeito é detectado, a ameaça é contida, alertas são criados e as ameaças são interrompidas em seus caminhos. 
 
@@ -60,7 +60,7 @@ A imagem a seguir mostra um exemplo de alerta que foi disparado por recursos de 
 
 ## <a name="components-of-behavioral-blocking-and-containment"></a>Componentes de bloqueio comportamental e contenção
 
-- **Regras de redução [](/microsoft-365/security/defender-endpoint/attack-surface-reduction)** de superfície de ataque orientadas por política no cliente Comportamentos de ataque comuns predefinidos são impedidos de executar, de acordo com suas regras de redução de superfície de ataque. Quando esses comportamentos tentam ser executados, eles podem ser vistos no Central de Segurança do Microsoft Defender [https://securitycenter.windows.com](https://securitycenter.windows.com) como alertas informacionais. (As regras de redução de superfície de ataque não estão habilitadas por padrão; você configura suas políticas no Central de Segurança do Microsoft Defender.)
+- **Regras de redução [](attack-surface-reduction.md)** de superfície de ataque orientadas por política no cliente Comportamentos de ataque comuns predefinidos são impedidos de executar, de acordo com suas regras de redução de superfície de ataque. Quando esses comportamentos tentam ser executados, eles podem ser vistos no Central de Segurança do Microsoft Defender [https://securitycenter.windows.com](https://securitycenter.windows.com) como alertas informacionais. (As regras de redução de superfície de ataque não estão habilitadas por padrão; você configura suas políticas no Central de Segurança do Microsoft Defender.)
 
 - **[Bloqueio comportamental do cliente](client-behavioral-blocking.md)** As ameaças nos pontos de extremidade são detectadas por meio do aprendizado de máquina e, em seguida, são bloqueadas e corrigidas automaticamente. (O bloqueio comportamental do cliente está habilitado por padrão.) 
 
@@ -93,6 +93,7 @@ A seguir estão dois exemplos reais de bloqueio comportamental e contenção em 
 Conforme descrito em Em busca ativa de ameaças ilusórios: o bloqueio baseado em comportamento baseado em [AI](https://www.microsoft.com/security/blog/2019/10/08/in-hot-pursuit-of-elusive-threats-ai-driven-behavior-based-blocking-stops-attacks-in-their-tracks)interrompe ataques em suas faixas , um ataque de roubo de credenciais contra 100 organizações em todo o mundo foi interrompido por recursos de bloqueio comportamental e de contenção. As mensagens de email de phishing que continham um documento de adução foram enviadas para as organizações direcionadas. Se um destinatário abrisse o anexo, um documento remoto relacionado poderia executar o código no dispositivo do usuário e carregar malware do Lokibot, que roubava credenciais, dados roubados exfiltrados e aguardava mais instruções de um servidor de comando e controle. 
 
 Modelos de aprendizado de dispositivo baseado em comportamento no Defender para Ponto de Extremidade foram capturados e pararam as técnicas do invasor em dois pontos da cadeia de ataque:
+
 - A primeira camada de proteção detectou o comportamento de exploração. Os classificadores de aprendizado de dispositivo na nuvem identificaram corretamente a ameaça como e imediatamente instruiram o dispositivo cliente a bloquear o ataque.
 - A segunda camada de proteção, que ajudou a parar os casos em que o ataque passou pela primeira camada, detectou o esvaziamento do processo, interrompeu esse processo e removeu os arquivos correspondentes (como o Desbot). 
 
@@ -120,7 +121,7 @@ Este exemplo mostra que, com recursos de bloqueio e contenção comportamentais,
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Saiba mais sobre o Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response)
+- [Saiba mais sobre o Defender para Ponto de Extremidade](overview-endpoint-detection-response.md)
 
 - [Configurar suas regras de redução de superfície de ataque](attack-surface-reduction.md)
 
@@ -128,4 +129,4 @@ Este exemplo mostra que, com recursos de bloqueio e contenção comportamentais,
 
 - [Consulte atividade de ameaça global recente](https://www.microsoft.com/wdsi/threats)
 
-- [Obter uma visão geral do Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-threat-protection)
+- [Obter uma visão geral do Microsoft 365 Defender](../defender/microsoft-365-defender.md)

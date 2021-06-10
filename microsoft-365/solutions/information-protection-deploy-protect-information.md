@@ -140,7 +140,7 @@ Ao criar [rótulos de sensibilidade](../compliance/sensitivity-labels-teams-grou
 
 - Microsoft Teams sites
 - Microsoft 365 grupos (anteriormente Office 365 grupos)
-- Sites do Microsoft Office SharePoint Online
+- Sites do SharePoint
 
 Use as configurações de rótulo a seguir para ajudar a proteger o conteúdo desses contêineres:
 
@@ -197,7 +197,7 @@ Para obter instruções de configuração, consulte Como configurar políticas d
 
 Para privacidade de dados em sites de preocupação, pressione rótulos de sensibilidade para criptografia automática de conteúdo contendo informações pessoais confidenciais.
 
-## <a name="data-loss-prevention"></a>Prevenção contra a perda de dados 
+## <a name="data-loss-prevention"></a>Prevenção contra perda de dados 
 
 Você pode usar a prevenção contra perda de dados [(DLP)](../compliance/dlp-learn-about-dlp.md) no Microsoft 365 para detectar, avisar e bloquear compartilhamentos arriscados, inadvertentes ou inadequados, como o compartilhamento de dados contendo informações pessoais, interna e externamente.
 

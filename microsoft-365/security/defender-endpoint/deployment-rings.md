@@ -81,7 +81,7 @@ A tabela a seguir mostra os pontos de extremidade com suporte e a ferramenta cor
 
 | Ponto de extremidade     | Ferramenta de implantação                       |
 |--------------|------------------------------------------|
-| **Windows**  |  [Script local (até 10 dispositivos)](configure-endpoints-script.md) <br> OBSERVAÇÃO: se você quiser implantar mais de 10 dispositivos em um ambiente de produção, use o método de Política de Grupo ou as outras ferramentas com suporte listadas abaixo.<br>  [Política de grupo](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Gerenciador de Dispositivos Móveis](configure-endpoints-mdm.md) <br>   [Gerenciador de Configuração do Microsoft Endpoint](configure-endpoints-sccm.md) <br> [Scripts VDI](configure-endpoints-vdi.md)   |
+| **Windows**  |  [Script local (até 10 dispositivos)](configure-endpoints-script.md) <br> OBSERVAÇÃO: se você quiser implantar mais de 10 dispositivos em um ambiente de produção, use o método de Política de Grupo ou as outras ferramentas com suporte listadas abaixo.<br>  [Política de grupo](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Gerenciador de Dispositivos Móveis](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [Scripts VDI](configure-endpoints-vdi.md)   |
 | **macOS**    | [Script local](mac-install-manually.md) <br> [Microsoft Endpoint Manager](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [Gerenciamento de dispositivo móvel](mac-install-with-other-mdm.md) |
 | **Servidor Linux** | [Script local](linux-install-manually.md) <br> [Puppet](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
 | **iOS**      | [Baseado em aplicativos](ios-install.md)                                |
@@ -108,7 +108,7 @@ Use o material a seguir para selecionar a arquitetura apropriada do Microsoft De
 ### <a name="windows-endpoints"></a>Windows pontos de extremidade
 Para Windows e/ou servidores Windows, selecione vários máquinas para testar com antecedência (antes do patch terça-feira) usando o programa **DEP (Validação** de Atualização de Segurança) .
 
-Para saber mais, veja:
+Para saber mais, confira:
 - [O que é o Programa de Validação de Atualizações de Segurança](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/what-is-the-security-update-validation-program/ba-p/275767)
 - [Programa de Validação de Atualização de Software e Centro de Proteção contra Malware da Microsoft Estabelecimento - TwC Interactive Timeline Part 4](https://www.microsoft.com/security/blog/2012/03/28/software-update-validation-program-and-microsoft-malware-protection-center-establishment-twc-interactive-timeline-part-4/)
 

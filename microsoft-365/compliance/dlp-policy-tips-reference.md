@@ -392,7 +392,7 @@ Observe que os tipos de informações confidenciais personalizados também serã
 
 ## <a name="support-matrix-for-dlp-policy-tips-across-microsoft-apps"></a>Matriz de Suporte para dicas de política de DLP em aplicativos microsoft
 
-|**Aplicativo e plataforma**|**Suporte à dica de política DLP**|**Tipos de informações confidenciais suportados**|**Predicados e ações com suporte**|**Comentário**|
+|**Aplicativo e plataforma**|**Suporte à dica de política DLP**|**Tipos de informações confidenciais suportados**|**Predicados e ações com suporte**|**Comments**|
 |:--|:--|:--|:--|:--|
 |**Outlook Web Access**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Todos|Subset|Consulte [Referência de dicas de política de prevenção contra](#data-loss-prevention-policy-tips-reference) perda de dados|
 |**Outlook Win32 (Outlook 2013 e além)**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Subset|Subset|Consulte [o Outlook 2013](#outlook-2013-and-later-supports-showing-policy-tips-for-only-some-conditions-and-exceptions) e, posteriormente, oferece suporte para mostrar dicas de política apenas para algumas condições e exceções e o [Outlook 2013](#outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types) e posteriores e aplicativos do Office na Área de Trabalho mostrando dicas de política para apenas alguns tipos de informações confidenciais para obter detalhes sobre o suporte a tipos de informações confidenciais e condições de DLP e ações com suporte para mostrar dicas de política de DLP no Outlook Win32.|

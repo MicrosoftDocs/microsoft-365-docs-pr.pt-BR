@@ -38,7 +38,7 @@ Esses Microsoft 365 recursos ajudam você a atender aos critérios de proteção
 
 | Capcidade ou recurso | Descrição | Licenças |
 |:-------|:-----|:-------|
-| Gerenciador de Conformidade | Gerenciar atividades de conformidade regulamentar, obter uma pontuação geral da configuração de conformidade atual e encontrar recomendações de melhoria. Esta é uma ferramenta de avaliação de risco baseada em fluxo de trabalho no centro Microsoft 365 conformidade. | Microsoft 365 E3 e E5 |
+| Gerente de Conformidade | Gerenciar atividades de conformidade regulamentar, obter uma pontuação geral da configuração de conformidade atual e encontrar recomendações de melhoria. Esta é uma ferramenta de avaliação de risco baseada em fluxo de trabalho no centro Microsoft 365 conformidade. | Microsoft 365 E3 e E5 |
 | Microsoft Defender para Office 365 | Proteja seus aplicativos e dados da Microsoft 365— como mensagens de email, documentos do Office e ferramentas de colaboração—de um ataque. | Microsoft 365 E3 e E5 | 
 | Rótulos de confidencialidade | Classifique e proteja os dados da sua organização sem prejudicar a produtividade dos usuários e sua capacidade de colaborar. Coloque rótulos com vários níveis de proteção em emails, arquivos ou sites. | Microsoft 365 E3 e E5 |
 | Proteção contra Perda de Dados (DLP)  | Detectar, avisar e bloquear o compartilhamento arriscado, inadvertido ou inadequado de dados que contenham informações pessoais, internas e externamente. | Microsoft 365 E3 e E5 | 

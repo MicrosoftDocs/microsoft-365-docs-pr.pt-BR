@@ -152,7 +152,7 @@ Para saber mais, confira [Solicitar manualmente o rastreamento e a reindexação
 
 ## <a name="more-information"></a>Mais informações
 
-- [Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade](dlp-learn-about-dlp.md)
+- [Saiba mais sobre a prevenção contra perda de dados](dlp-learn-about-dlp.md)
 
 - [Criar uma política DLP a partir de um modelo](create-a-dlp-policy-from-a-template.md)
 

@@ -137,7 +137,7 @@ Faça logoff no provedor DNS, navegue até as configurações DNS do domínio e 
 
 Baixe e instale o cliente de rotulagem unificada do AIP no [Centro de Download da Microsoft.](https://www.microsoft.com/download/details.aspx?id=53018)
 
-Para mais informações, confira:
+Para saber mais, confira:
 
 - [Documentação do AIP](/azure/information-protection/)
 - [Política de suporte e histórico de versão do AIP](/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)
@@ -281,7 +281,7 @@ A tabela a seguir lista os cmdlets do PowerShell relevantes para instalar o scan
 | [Set-AIPScannerRepository](/powershell/module/azureinformationprotection/set-aipscannerrepository) | Define configurações para um repositório existente em seu trabalho de verificação de conteúdo. |
 | | |
 
-Para mais informações, confira:
+Para saber mais, confira:
 
 - [O que é o scanner unificado de rotulagem da Proteção de Informações do Azure?](/azure/information-protection/deploy-aip-scanner)
 - [Configurando e instalando o scanner unificado de rotulagem da Proteção de Informações do Azure (AIP)](/azure/information-protection/deploy-aip-scanner-configure-install?tabs=powershell-only)

@@ -100,12 +100,12 @@ Para obter orientações passo a passo para planejar e configurar a conformidade
 
 Rótulos de sensibilidade, tipos de informações confidenciais, rótulos e políticas de retenção e classificadores de treinamento podem ser usados para classificar e rotular itens confidenciais entre Exchange, SharePoint e OneDrive como você viu nas tarefas anteriores. A última etapa em sua jornada rápida de tarefas é ver quais itens foram rotulados e quais ações seus usuários estão fazendo nesses itens confidenciais. [O explorador de](data-classification-content-explorer.md) conteúdo [e o explorador](data-classification-activity-explorer.md) de atividades fornecem essa visibilidade.
 
-### <a name="content-explorer"></a>Explorador de conteúdos
+### <a name="content-explorer"></a>Explorador de conteúdo
  O explorador de conteúdo permite que você veja, no formato nativo, todos os itens que foram classificados como um tipo de informação confidencial ou pertencentes a uma determinada classificação por um classificador treinável, bem como todos os itens que tenham confidencialidade ou rótulo de retenção aplicados.
 
 Para obter orientações passo a passo sobre como usar o explorador de conteúdo, consulte Know your [data - data classification overview](data-classification-overview.md), and Get started with content [explorer](data-classification-content-explorer.md).
 
-### <a name="activity-explorer"></a>Explorador de atividade 
+### <a name="activity-explorer"></a>Explorador de atividades
 O Explorador de Atividades ajuda você a monitorar o que está sendo feito com seus itens confidenciais classificados e rotulados em:
 - SharePoint
 - Exchange

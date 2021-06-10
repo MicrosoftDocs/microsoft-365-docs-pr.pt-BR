@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.date: 06/02/2021
 ms.topic: article
-ms.openlocfilehash: 10351d97ba72945f929e042dc72a37724a1df291
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: e78b21b751aa398ed4449fb398f12b60f1929873
+ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769600"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52866671"
 ---
 # <a name="test-attack-surface-reduction-in-microsoft-defender-for-endpoint"></a>Testar a redução de superfície de ataque no Microsoft Defender para Ponto de Extremidade
 
@@ -46,7 +46,7 @@ Você pode usar a Política de Grupo, o PowerShell e os provedores de serviços 
 > [!TIP]
 > Você também pode visitar o site Windows Defender [](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) Testground no demo.wd.microsoft.com para confirmar se os recursos estão funcionando e ver como eles funcionam.
 
- **Opções de auditoria** | **Como habilitar o modo de auditoria** | **Como exibir eventos**
+| Opções de auditoria | Como habilitar o modo de auditoria | Como exibir eventos |
 |---------|---------|---------|
 | Auditoria se aplica a todos os eventos | [Habilitar o acesso controlado a pastas](enable-controlled-folders.md) | [Eventos de acesso controlado a pastas](evaluate-controlled-folder-access.md#review-controlled-folder-access-events-in-windows-event-viewer)
 | Auditoria se aplica a regras individuais | [Habilitar regras da redução da superfície de ataque](enable-attack-surface-reduction.md) | [Eventos de regra de redução de superfície de ataque](evaluate-attack-surface-reduction.md#review-attack-surface-reduction-events-in-windows-event-viewer)

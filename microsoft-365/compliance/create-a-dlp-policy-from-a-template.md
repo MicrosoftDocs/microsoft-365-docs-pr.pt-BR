@@ -186,7 +186,7 @@ Além disso, você pode desativar cada regra individualmente editando a polític
   
 ## <a name="more-information"></a>Mais informações
 
-- [Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade](dlp-learn-about-dlp.md)
+- [Saiba mais sobre a prevenção contra perda de dados](dlp-learn-about-dlp.md)
 - [Enviar notificações e exibir dicas de políticas para as políticas DLP](use-notifications-and-policy-tips.md)
 - [Criar uma política DLP para proteger documentos com FCI ou outras propriedades](protect-documents-that-have-fci-or-other-properties.md)
 - [O que os modelos de política DLP incluem](what-the-dlp-policy-templates-include.md)

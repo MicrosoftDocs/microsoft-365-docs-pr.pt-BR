@@ -283,7 +283,7 @@ Você pode personalizar o texto para dicas de política separadamente da notific
   
 ## <a name="more-information"></a>Mais informações
 
-- [Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade](dlp-learn-about-dlp.md)    
+- [Saiba mais sobre a prevenção contra perda de dados](dlp-learn-about-dlp.md)    
 - [Criar uma política DLP a partir de um modelo](create-a-dlp-policy-from-a-template.md)
 - [Condições de política de DLP, exceções e ações (visualização)](./dlp-microsoft-teams.md) 
 - [Criar uma política DLP para proteger documentos com FCI ou outras propriedades](protect-documents-that-have-fci-or-other-properties.md)

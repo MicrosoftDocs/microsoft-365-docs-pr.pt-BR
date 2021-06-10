@@ -74,7 +74,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão | Permissão | Nome de exibição de permissão
 ---|---|---
 Aplicativo | Vulnerability.Read.All | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
-Delegada (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
+Delegado (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades\'
 
 ### <a name="13-url"></a>URL 1.3
 
@@ -235,7 +235,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão | Permissão | Nome de exibição de permissão
 ---|---|---
 Aplicativo | Vulnerability.Read.All | \'Ler informações de vulnerabilidade "Gerenciamento de Ameaças e Vulnerabilidades"\'
-Delegada (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade "Gerenciamento de Ameaças e Vulnerabilidades"\'
+Delegado (conta corporativa ou de estudante) | Vulnerability.Read | \'Ler informações de vulnerabilidade "Gerenciamento de Ameaças e Vulnerabilidades"\'
 
 ### <a name="23-url"></a>URL 2.3
 

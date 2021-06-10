@@ -74,7 +74,7 @@ Microsoft 365 vem com cinco classificadores pré-treinados:
 - **Código-fonte**: detecta itens que contêm um conjunto de instruções e instruções escritas nas 25 principais linguagens de programação de computador usadas em GitHub
     - ActionScript
     - C
-    - C #
+    - C#
     - C++
     - Clojure
     - CoffeeScript
@@ -136,7 +136,7 @@ Você pode ajudar a melhorar a precisão de todos os classificadores personaliza
 ## <a name="see-also"></a>Confira também
 
 - [Rótulos de retenção](retention.md)
-- [Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade](dlp-learn-about-dlp.md)
+- [Saiba mais sobre prevenção contra perda de dados](dlp-learn-about-dlp.md)
 - [Rótulos de confidencialidade](sensitivity-labels.md)
 - [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
 - [Impressão digital de documento](document-fingerprinting.md)

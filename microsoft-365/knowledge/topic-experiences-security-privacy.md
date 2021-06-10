@@ -42,7 +42,7 @@ Quando um tópico é descoberto pela primeira vez, os gerentes de conhecimento p
 
 Os tópicos podem conter informações geradas pela IA e informações adicionadas ou editadas por colaboradores de tópicos ou gerentes de conhecimento.
 
-- As informações em um tópico adicionado pela AI só são visíveis para as pessoas que têm acesso ao conteúdo de origem.
+- As informações de um tópico adicionado pela AI só são visíveis para as pessoas que têm acesso ao conteúdo da origem.
 - O texto adicionado manualmente ou editado por um colaborador de tópicos ou gerente de conhecimento fica visível para todos os que podem ver o tópico.
 
 Os visualizadores de tópicos e colaboradores podem ver a lista de tópicos confirmados e publicados no centro de tópicos, mas os detalhes do tópico que uma determinada pessoa pode ver dependem das permissões que elas têm para o material de origem e se o tópico foi editado manualmente.
@@ -84,7 +84,7 @@ Embora você possa alterar as permissões em páginas de tópicos individuais pa
 
 ## <a name="see-also"></a>Confira também
 
-[Configure equipes com três níveis de proteção](../solutions/configure-teams-three-tiers-protection.md)
+[Configure o Teams com três camadas de proteção](../solutions/configure-teams-three-tiers-protection.md)
 
 [Planejar Experiências de tópico](plan-topic-experiences.md)
 

@@ -49,7 +49,7 @@ Ao enviar uma mensagem de email, você receberá:
 
 Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, consulte [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **Envio,** use <https://protection.office.com/reportsubmission> .
 

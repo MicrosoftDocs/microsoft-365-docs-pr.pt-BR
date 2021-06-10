@@ -21,13 +21,13 @@ search.appverid:
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 ms.custom:
 - seo-marvel-apr2020
-description: Saiba mais sobre propriedades de arquivo e email que você pode pesquisar usando as ferramentas de pesquisa de Descoberta Microsoft 365.
-ms.openlocfilehash: 390477012c6a2a57c5e305641ba5b79ff10f4ea7
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Saiba mais sobre as propriedades de email e documento que você pode pesquisar usando as ferramentas de pesquisa de Descoberta Microsoft 365.
+ms.openlocfilehash: 1e6612d658ff2fbcbee36b64dab9d352663f75b2
+ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538430"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52866698"
 ---
 # <a name="keyword-queries-and-search-conditions-for-ediscovery"></a>Consultas de palavra-chave e condições de pesquisa para Descoberta e Descoberta
 
@@ -72,10 +72,10 @@ A tabela a seguir lista as propriedades de mensagem de email que podem ser pesqu
 |Tipo| O tipo de mensagem de email a ser pesquisada. Valores possíveis:  <br/>  contacts  <br/>  docs  <br/>  email  <br/>  externaldata  <br/>  faxes  <br/>  im  <br/>  diários  <br/>  meetings  <br/>  microsoftteams (retorna itens de chats, reuniões e chamadas em Microsoft Teams)  <br/>  notes  <br/>  postagens  <br/>  rssfeeds  <br/>  tarefas  <br/>  voicemail|`kind:email`  <br/> `kind:email OR kind:im OR kind:voicemail`  <br/> `kind:externaldata`|O primeiro exemplo retorna mensagens de email que atendem aos critérios de pesquisa. O segundo exemplo retorna mensagens de email, conversas de mensagens instantâneas (incluindo Skype for Business conversas e chats no Microsoft Teams) e mensagens de voz que atendem aos critérios de pesquisa. O terceiro exemplo retorna itens importados para caixas de correio em Microsoft 365 de fontes de dados de terceiros, como Twitter, Facebook e Cisco Jabber, que atendem aos critérios de pesquisa. Para obter mais informações, [consulte Archiving third-party data in Office 365](https://www.microsoft.com/?ref=go).|
 |Participantes|Todos os campos de pessoas em uma mensagem de email. Esses campos são From, To, Cc e<sup>Cc. 1</sup>|`participants:garthf@contoso.com`  <br/> `participants:contoso.com`|Mensagens enviadas por ou para pauloa@contoso.com. O segundo exemplo retorna todas as mensagens enviadas por ou para um usuário no domínio contoso.com.|
 |Received|A data em que uma mensagem de email foi recebida pelo destinatário.|`received:04/15/2016`  <br/> `received>=01/01/2016 AND received<=03/31/2016`|Mensagens recebidas em 15 de abril de 2016. O segundo exemplo retorna todas as mensagens recebidas entre 1º de janeiro de 2016 e 31 de março de 2016.|
-|Recipients|Todos os campos de destinatário em uma mensagem de email. Esses campos são To, Cc e<sup>Cc. 1</sup>|`recipients:garthf@contoso.com`  <br/> `recipients:contoso.com`|Mensagens enviadas para pauloa@contoso.com. O segundo exemplo retorna mensagens enviadas para qualquer destinatário no domínio contoso.com.|
+|Destinatários|Todos os campos de destinatário em uma mensagem de email. Esses campos são To, Cc e<sup>Cc. 1</sup>|`recipients:garthf@contoso.com`  <br/> `recipients:contoso.com`|Mensagens enviadas para pauloa@contoso.com. O segundo exemplo retorna mensagens enviadas para qualquer destinatário no domínio contoso.com.|
 |Sent|A data em que uma mensagem de email foi enviada pelo remetente.|`sent:07/01/2016`  <br/> `sent>=06/01/2016 AND sent<=07/01/2016`|Mensagens que foram enviadas na data especificada ou dentro do intervalo de datas especificado.|
 |Size|O tamanho de um item, em bytes.|`size>26214400`  <br/> `size:1..1048567`|Mensagens com mais de 25 MB. O segundo exemplo retorna mensagens de 1 a 1.048.567 bytes (1 MB) de tamanho.|
-|Subject|O texto na linha de assunto de uma mensagem de email.  <br/> **Observação:** Quando você usa a propriedade Subject em uma consulta, a pesquisa retorna todas as mensagens nas quais a linha de assunto contém o texto que você está procurando. Em outras palavras, a consulta não retorna apenas as mensagens que têm uma combinação exata. Por exemplo, se você pesquisar , seus resultados incluirão mensagens com o assunto "Finanças Trimestrais  `subject:"Quarterly Financials"` 2018".|`subject:"Quarterly Financials"`  <br/> `subject:northwind`|Mensagens que contêm a frase "Finanças Trimestrais" em qualquer lugar no texto da linha de assunto. O segundo exemplo retorna todas as mensagens que contêm a palavra northwind na linha de assunto.|
+|Assunto|O texto na linha de assunto de uma mensagem de email.  <br/> **Observação:** Quando você usa a propriedade Subject em uma consulta, a pesquisa retorna todas as mensagens nas quais a linha de assunto contém o texto que você está procurando. Em outras palavras, a consulta não retorna apenas as mensagens que têm uma combinação exata. Por exemplo, se você pesquisar , seus resultados incluirão mensagens com o assunto "Finanças Trimestrais  `subject:"Quarterly Financials"` 2018".|`subject:"Quarterly Financials"`  <br/> `subject:northwind`|Mensagens que contêm a frase "Finanças Trimestrais" em qualquer lugar no texto da linha de assunto. O segundo exemplo retorna todas as mensagens que contêm a palavra northwind na linha de assunto.|
 |Para|O campo Para de uma mensagem de email. <sup>1</sup>|`to:annb@contoso.com`  <br/> `to:annb ` <br/> `to:"Ann Beebe"`|Todos os exemplos retornam mensagens em que Clara Barbosa é especificada na linha Para:.|
 |||||
    
@@ -130,7 +130,7 @@ A tabela a seguir lista as propriedades de contato indexadas e que você pode pe
 |BusinessAddress|O endereço na **propriedade Endereço** Comercial. A propriedade também é chamada de **Endereço de** trabalho na página propriedades de contato.|
 |BusinessPhone|O número de telefone em qualquer uma das **propriedades de número de** Telefone Business.|
 |CompanyName|O nome na **propriedade Company.**|
-|Departamento|O nome na **propriedade Department.**|
+|Department|O nome na **propriedade Department.**|
 |DisplayName|O nome de exibição do contato. Esse é o nome na **propriedade Nome** Completo do contato.|
 |EmailAddress|O endereço de qualquer propriedade de endereço de email do contato. Os usuários podem adicionar vários endereços de email para um contato. Usar essa propriedade retornaria contatos que corresponderiam a qualquer um dos endereços de email do contato.|
 |FileAs|A **propriedade File como.** Essa propriedade é usada para especificar como o contato é listado na lista de contatos do usuário. Por exemplo, um contato pode ser listado como  *FirstName,LastName*  ou  *LastName,FirstName*.|
@@ -235,10 +235,10 @@ Crie uma condição usando propriedades de email ao pesquisar caixas de correio 
 |Participantes|Todos os campos de pessoas em uma mensagem de email. Esses campos são From, To, Cc e Cc.|
 |Tipo|A propriedade de classe de mensagem para um item de email. Essa é a mesma propriedade que a propriedade de email ItemClass. Também é uma condição de vários valores. Portanto, para selecionar várias classes de mensagem, segure a tecla **CTRL** e clique em duas ou mais classes de mensagem na lista suspensa que você deseja adicionar à condição. Cada classe de mensagem selecionada na lista será conectada logicamente pelo operador **OR** na consulta de pesquisa correspondente.  <br/> Para uma lista das classes de mensagem (e sua ID da classe de mensagem correspondente) que são usadas pelo Exchange e que você pode selecionar na lista de classe Mensagem, consulte Tipos de Item e Classes de [Mensagem](/office/vba/outlook/Concepts/Forms/item-types-and-message-classes). |
 |Received|A data em que uma mensagem de email foi recebida pelo destinatário. Essa propriedade é igual à propriedade de email Received.|
-|Recipients|Todos os campos de destinatário em uma mensagem de email. Esses campos são To, Cc e Cc.|
+|Destinatários|Todos os campos de destinatário em uma mensagem de email. Esses campos são To, Cc e Cc.|
 |Remetente|O remetente de uma mensagem de email.|
 |Sent|A data em que uma mensagem de email foi enviada pelo remetente. Essa propriedade é igual à propriedade de email Sent.|
-|Subject|O texto na linha de assunto de uma mensagem de email.|
+|Assunto|O texto na linha de assunto de uma mensagem de email.|
 |Para|O destinatário de uma mensagem de email no campo Para.|
 |||
   
@@ -252,7 +252,7 @@ Crie uma condição usando propriedades de documento ao pesquisar documentos em 
 |Título|O título do documento. A propriedade Title consiste em metadados que são especificados em documentos do Office. É diferente do nome do arquivo do documento.|
 |Created|A data em que um documento foi criado.|
 |Última modificação|A data em que um documento foi alterado pela última vez.|
-|Tipo de arquivo|A extensão de um arquivo; por exemplo, docx, um, pptx ou xlsx. Essa propriedade é igual à propriedade de site FileExtension.|
+|Tipo de arquivo|A extensão de um arquivo; por exemplo, docx, um, pptx ou xlsx. Essa propriedade é igual à propriedade de site FileExtension. <br/><br/> **Observação:** Se você incluir uma condição  de tipo de arquivo usando Igual ou **Igual** a qualquer operador em uma consulta de pesquisa, não será possível usar uma pesquisa de prefixo (incluindo o caractere curinga ( * ) no final do tipo de arquivo) para retornar todas as versões de um tipo de arquivo. Se fizer isso, o curinga será ignorado. Por exemplo, se você incluir a condição `Equals any of doc*` , somente os arquivos com uma extensão serão `.doc` retornados. Os arquivos com uma extensão `.docx` de não serão retornados. Para retornar todas as versões de um tipo de arquivo, usou o *par property:value* em uma consulta de palavra-chave; por exemplo, `filetype:doc*` .|
 |||
   
 ### <a name="operators-used-with-conditions"></a>Operadores usados com condições
@@ -283,21 +283,21 @@ Ao adicionar uma condição, você pode selecionar um operador que é relevante 
 
 Lembre-se do seguinte ao usar condições de pesquisa.
   
-- Uma condição está logicamente conectada à consulta de palavra-chave (especificada na caixa de palavra-chave) pelo operador **AND**. Isso significa que os itens precisam atender à consulta de palavra-chave e à condição para serem incluídos nos resultados. É assim que as condições ajudam a restringir os resultados. 
-    
-- Se você adicionar duas ou mais condições exclusivas a uma consulta de pesquisa (condições que especificam propriedades diferentes), essas condições serão logicamente conectadas pelo operador **AND**. Isso significa que apenas os itens que atenderem a todas as condições (além de qualquer consulta de palavra-chave) serão retornados. 
-    
+- Uma condição está logicamente conectada à consulta de palavra-chave (especificada na caixa de palavra-chave) pelo operador **AND**. Isso significa que os itens precisam atender à consulta de palavra-chave e à condição para serem incluídos nos resultados. É assim que as condições ajudam a restringir os resultados.
+  
+- Se você adicionar duas ou mais condições exclusivas a uma consulta de pesquisa (condições que especificam propriedades diferentes), essas condições serão logicamente conectadas pelo operador **AND**. Isso significa que apenas os itens que atenderem a todas as condições (além de qualquer consulta de palavra-chave) serão retornados.
+  
 - Se você adicionar mais de uma condição à mesma propriedade, as condições serão logicamente conectadas pelo operador **OR**. Isso significa que os itens que atenderem à consulta de palavra-chave e a qualquer uma das condições serão retornados. Portanto, grupos das mesmas condições são conectados uns aos outros pelo operador **OR**, e conjuntos de condições exclusivas são conectados pelo operador **AND**. 
-    
+  
 - Se você adicionar vários valores (separados por vírgulas ou ponto-e-vírgula) a uma única condição, os valores serão conectados pelo operador **OR**. Isso significa que os itens serão retornados se contiverem qualquer um dos valores especificados para a propriedade na condição. 
-    
-- A consulta de pesquisa criada usando a caixa de palavras-chave e as condições é exibida na página Pesquisa, no painel de detalhes da pesquisa selecionada.  Em uma consulta, tudo à direita da notação indica condições que  `(c:c)` são adicionadas à consulta. 
-    
-- As condições apenas adicionam propriedades à consulta de pesquisa; elas não adicionam operadores. É por isso que a consulta exibida no painel de detalhes não mostra operadores à direita da  `(c:c)` notação. A KQL adiciona os operadores lógicos (de acordo com as regras explicadas anteriormente) ao executar a consulta. 
-    
+  
+- A consulta de pesquisa criada usando a caixa de palavras-chave e as condições é exibida na página Pesquisa, no painel de detalhes da pesquisa selecionada.  Em uma consulta, tudo à direita da notação indica condições que  `(c:c)` são adicionadas à consulta.
+  
+- As condições apenas adicionam propriedades à consulta de pesquisa; elas não adicionam operadores. É por isso que a consulta exibida no painel de detalhes não mostra operadores à direita da  `(c:c)` notação. A KQL adiciona os operadores lógicos (de acordo com as regras explicadas anteriormente) ao executar a consulta.
+  
 - Você pode usar o controle arrastar e soltar para resequência da ordem das condições. Clique no controle para uma condição e movê-la para cima ou para baixo.
-    
-- Conforme explicado anteriormente, algumas propriedades de condição permitem que você digite vários valores (separados por e vírgulas). Cada valor é conectado logicamente pelo operador **OR** e resulta na consulta `(filetype:docx) OR (filetype:pptx) OR (filetype:xlsx)` . A ilustração a seguir mostra um exemplo de uma condição com vários valores.
+  
+- Conforme explicado anteriormente, algumas propriedades de condição permitem que você digite vários valores (separados por e vírgulas). Cada valor é conectado logicamente pelo operador **OR** e resulta na consulta `(filetype=docx) OR (filetype=pptx) OR (filetype=xlsx)` . A ilustração a seguir mostra um exemplo de uma condição com vários valores.
 
     ![Uma mensagem deve atender a todas as condições da regra. Se você precisar combinar uma condição ou outra, use regras separadas para cada condição. Por exemplo, se quiser adicionar o mesmo aviso de isenção legal a mensagens com anexos e mensagens com conteúdo que corresponde a um padrão, crie uma regra para cada condição. Você pode facilmente copiar uma regra.](../media/SearchConditions1.png)
   
