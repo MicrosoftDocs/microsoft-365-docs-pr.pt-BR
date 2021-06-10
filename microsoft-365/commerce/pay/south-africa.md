@@ -20,16 +20,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52534997"
 ---
-# <a name="payment-information-for-south-africa"></a><span data-ttu-id="aed29-103">Informações de pagamento para a África do Sul</span><span class="sxs-lookup"><span data-stu-id="aed29-103">Payment information for South Africa</span></span>
+# <a name="payment-information-for-south-africa"></a><span data-ttu-id="d2b6a-103">Informações de pagamento para a África do Sul</span><span class="sxs-lookup"><span data-stu-id="d2b6a-103">Payment information for South Africa</span></span>
 
-<span data-ttu-id="aed29-104">[Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="aed29-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="d2b6a-104">[Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="d2b6a-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="aed29-105">Por favor, pague somente em ZAR e faça referência aos números da fatura na remessa de pagamento.</span><span class="sxs-lookup"><span data-stu-id="aed29-105">Please pay in ZAR only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="d2b6a-105">Por favor, pague somente em ZAR e faça referência aos números da fatura na remessa de pagamento.</span><span class="sxs-lookup"><span data-stu-id="d2b6a-105">Please pay in ZAR only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="aed29-106">Transferência Eletrônica de Fundos</span><span class="sxs-lookup"><span data-stu-id="aed29-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="d2b6a-106">Transferência Eletrônica de Fundos</span><span class="sxs-lookup"><span data-stu-id="d2b6a-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="aed29-107">**Banco:** Citibank</span><span class="sxs-lookup"><span data-stu-id="aed29-107">**Bank:** Citibank</span></span>  
-<span data-ttu-id="aed29-108">**Branch:** Joanesburgo</span><span class="sxs-lookup"><span data-stu-id="aed29-108">**Branch:** Johannesburg</span></span>  
-<span data-ttu-id="aed29-109">**Código SWIFT:** CITIZAJ</span><span class="sxs-lookup"><span data-stu-id="aed29-109">**SWIFT Code:** CITIZAJ</span></span>  
-<span data-ttu-id="aed29-110">**Número da conta:** 0201419034</span><span class="sxs-lookup"><span data-stu-id="aed29-110">**Account Number:** 0201419034</span></span>  
-<span data-ttu-id="aed29-111">**Nome da conta:** Pagamentos da Microsoft</span><span class="sxs-lookup"><span data-stu-id="aed29-111">**Account Name:** Microsoft Payments</span></span>
+<span data-ttu-id="d2b6a-107">**Banco:** Citibank</span><span class="sxs-lookup"><span data-stu-id="d2b6a-107">**Bank:** Citibank</span></span>  
+<span data-ttu-id="d2b6a-108">**Branch:** Joanesburgo</span><span class="sxs-lookup"><span data-stu-id="d2b6a-108">**Branch:** Johannesburg</span></span>  
+<span data-ttu-id="d2b6a-109">**Código SWIFT:** CITIZAJ</span><span class="sxs-lookup"><span data-stu-id="d2b6a-109">**SWIFT Code:** CITIZAJ</span></span>  
+<span data-ttu-id="d2b6a-110">**Número da conta:** 0201419034</span><span class="sxs-lookup"><span data-stu-id="d2b6a-110">**Account Number:** 0201419034</span></span>  
+<span data-ttu-id="d2b6a-111">**Nome da conta:** Pagamentos da Microsoft</span><span class="sxs-lookup"><span data-stu-id="d2b6a-111">**Account Name:** Microsoft Payments</span></span>

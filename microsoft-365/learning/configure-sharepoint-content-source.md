@@ -22,10 +22,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/05/2021
 ms.locfileid: "52782772"
 ---
-# <a name="configure-sharepoint-as-a-learning-content-source-for-microsoft-viva-learning-preview"></a><span data-ttu-id="6ddab-103">Configurar SharePoint como uma fonte de conteúdo de aprendizagem para o Microsoft Viva Learning (Visualização)</span><span class="sxs-lookup"><span data-stu-id="6ddab-103">Configure SharePoint as a learning content source for Microsoft Viva Learning (Preview)</span></span>
+# <a name="configure-sharepoint-as-a-learning-content-source-for-microsoft-viva-learning-preview"></a><span data-ttu-id="8df04-103">Configurar SharePoint como uma fonte de conteúdo de aprendizagem para o Microsoft Viva Learning (Visualização)</span><span class="sxs-lookup"><span data-stu-id="8df04-103">Configure SharePoint as a learning content source for Microsoft Viva Learning (Preview)</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="6ddab-104">Esse recurso ainda não está disponível na visualização do produto.</span><span class="sxs-lookup"><span data-stu-id="6ddab-104">This feature is not yet available in product preview.</span></span> 
+> <span data-ttu-id="8df04-104">Esse recurso ainda não está disponível na visualização do produto.</span><span class="sxs-lookup"><span data-stu-id="8df04-104">This feature is not yet available in product preview.</span></span> 
 
 
 
