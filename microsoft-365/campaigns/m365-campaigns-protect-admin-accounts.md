@@ -40,7 +40,7 @@ Ao se inscrever no Microsoft 365 e inserir suas informações, você se tornará
 
 ## <a name="create-additional-admin-accounts"></a>Criar contas de administrador adicionais
 
-Use contas de administrador somente para administração. Os administradores devem ter uma conta de usuário separada para uso regular de aplicativos do Office e usar apenas sua conta administrativa quando necessário para gerenciar contas e dispositivos e enquanto trabalham em outras funções de administrador. Também é uma boa ideia remover a licença do Microsoft 365 das contas de administrador para que você não tenha que pagar por elas.
+Use contas de administrador somente para administração. Os administradores devem ter uma conta de usuário separada para uso regular de aplicativos Office e usar apenas sua conta administrativa quando necessário para gerenciar contas e dispositivos e enquanto trabalham em outras funções de administrador. Também é uma boa ideia remover a licença de Microsoft 365 das contas de administrador para que você não tenha que pagar por elas.
 
 Você vai querer configurar pelo menos uma conta de administrador global adicional para dar acesso ao administrador a outro funcionário confiável. Você também pode criar contas de administrador separadas para gerenciamento de usuários (essa função é chamada **de Administrador de gerenciamento de usuário**). Para obter mais informações, consulte [sobre funções de administrador](/office365/admin/add-users/about-admin-roles).
 
@@ -57,7 +57,7 @@ Para criar contas de administrador adicionais:
 
     ![Escolha a função de administrador](../media/adminroles.png)
 
- 4. Na seção **Licenças do produto,** mova o seletor do **Microsoft 365 Business** para **Desligado** e o usuário Criar sem licença **de produto** para **On**.
+ 4. Na seção **Licenças do produto,**  mova o seletor para Microsoft 365 Business **para Off** e o usuário Criar sem licença **de produto** para **On**.
 
     ![Escolha a licença do produto](../media/productlicense.png)
 
@@ -74,7 +74,7 @@ Para criar uma nova conta de usuário:
 1. Vá para o <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">centro de administração</a> e escolha **Usuários** \> **Usuários ativos** na nav esquerda.
 2. Na página **Usuários ativos,** selecione **Adicionar** um usuário na parte superior da página e, no painel **Novo** usuário, insira o nome e outras informações.
 3. Expanda **a seção Funções** e escolha Usuário **(sem acesso administrativo)**.
-4. Na seção **Licenças de produto,** mova o seletor do **Microsoft 365 Business** para **On**.
+4. Na seção **Licenças do produto,** mova o seletor para **Microsoft 365 Business** para **On**.
 
 ## <a name="turn-on-security-defaults"></a>Ativar padrões de segurança
 

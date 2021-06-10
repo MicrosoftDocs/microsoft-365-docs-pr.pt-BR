@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Visão geral dos Tópicos do Viva.
-ms.openlocfilehash: c7a5af9d2a038c2b9cc5f26d851eb3776a00c71f
-ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
+ms.openlocfilehash: c95e611a98609ff13a41854a6fb25b6ae88b43d8
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/10/2021
-ms.locfileid: "52866686"
+ms.locfileid: "52877807"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Visão geral dos Tópicos do Microsoft Viva 
 
@@ -70,7 +70,7 @@ Quando um tópico é identificado e a IA determina que há informações suficie
 
 Os administradores de conhecimento podem optar por rastrear todos os sites do SharePoint em seu locatário para tópicos ou apenas selecionar tópicos determinados.
 
-Consulte [Descoberta e cura de tópicos.](./topic-experiences-discovery-curation.md)
+Para obter mais informações, consulte [Descoberta e cura de tópicos.](./topic-experiences-discovery-curation.md)
 
 ## <a name="roles"></a>Funções
 
@@ -80,7 +80,7 @@ Ao usar os Tópicos do Viva no seu ambiente do Microsoft 365, os usuários terã
 
 - Colaboradores: usuários com direitos para editar tópicos existentes ou criar novos. Os administradores de conhecimento atribuem permissões de colaborador aos usuários por meio das configurações dos Tópicos do Viva no Centro de administração do Microsoft 365. Observe que você também pode optar por dar a todos os participantes do tópico a permissão para editar e criar tópicos para que todos possam contribuir com os tópicos que eles vejam.
 
-- Gerentes de conhecimento: usuários que orientam tópicos no ciclo de vida do tópico. Os gerentes de conhecimento usam a página Gerenciar **tópicos** na central de tópicos para confirmar tópicos sugeridos pela IA, remover tópicos que não são mais relevantes, bem como editar tópicos existentes ou criar novos e são os únicos usuários que têm acesso a ele. Os administradores de conhecimento atribuem permissões de gerente de conhecimento aos usuários por meio das configurações de administração dos Tópicos do Viva, no Centro de administração do Microsoft 365. 
+- Gerentes de conhecimento: usuários que orientam tópicos no ciclo de vida do tópico. Os gerentes de conhecimento usam a página Gerenciar **tópicos** no centro de tópicos para confirmar os tópicos sugeridos pela IA, remover tópicos que não são mais relevantes, bem como editar tópicos existentes ou criar novos e são os únicos usuários que têm acesso a ele. Os administradores de conhecimento atribuem permissões de gerente de conhecimento aos usuários por meio das configurações de administração dos Tópicos do Viva, no Centro de administração do Microsoft 365. 
 
 - Administradores de conhecimento: os administradores configuram Tópicos do Viva e gerenciam-os por meio dos controles de administrador no Microsoft 365 de administração. Atualmente, um administrador global do Microsoft 365 ou do SharePoint pode servir como administrador de conhecimento.
 
@@ -90,15 +90,15 @@ Para obter mais informações, consulte [Funções de Tópicos do Viva.](topic-e
 
 O gerenciamento de tópicos é feito na página **Gerenciar tópicos** no centro de tópicos *da sua organização.* O centro de tópicos é criado durante a instalação e serve como centro de conhecimento para sua organização. 
 
-Embora todos os usuários licenciados possam ver tópicos com os que estão conectados no Centro de Tópicos, somente os usuários com permissões Gerenciar tópicos *(gerentes* de conhecimento) podem exibir e usar a página Gerenciar **tópicos.**
+Embora todos os usuários licenciados possam ver tópicos com os que estão conectados no centro de tópicos, somente os usuários com permissões Gerenciar tópicos *(gerentes* de conhecimento) podem exibir e usar a página Gerenciar **tópicos.**
 
 Os gerentes de conhecimento podem:
 
 - Confirmar ou remover tópicos que foram descobertos em seu locatário.
 - Criar novos tópicos manualmente conforme necessário (por exemplo, se não foram fornecidas informações suficientes para que sejam descobertas através da IA).
-- Editar páginas de tópicos existentes.<br/>
+- Editar páginas de tópicos existentes.
 
-Para obter mais informações, [consulte Manage topics in the Topic center](manage-topics.md).  
+Para obter mais informações, [consulte Gerenciar tópicos no centro de tópicos](manage-topics.md).  
 
 ## <a name="admin-controls"></a>Controles de administrador
 

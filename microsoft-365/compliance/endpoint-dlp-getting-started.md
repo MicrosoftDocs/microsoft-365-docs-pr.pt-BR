@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 07/21/2020
+ms.date: ''
 audience: ITPro
 ms.topic: conceptual
 f1_keywords:
@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Configure a prevenção contra perda de dados de ponto de extremidade do Microsoft 365 para monitorar atividades de arquivo e implementar ações de proteção para esses arquivos para pontos de extremidade.
-ms.openlocfilehash: 34355a25283207929a12a7bc504b929fbf3041a0
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: bf607890fcae34e95da15954349e7190bdbb19ac
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683650"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878095"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Introdução à Prevenção contra perda de dados do ponto de extremidade
 

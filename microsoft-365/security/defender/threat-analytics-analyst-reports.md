@@ -73,21 +73,21 @@ Além dessas mitigações controladas, o relatório do analista também aborda m
 Embora você possa usar a guia **Mitigações** para avaliar sua postura de segurança contra uma ameaça, essas recomendações permitem que você tome medidas adicionais para melhorar sua postura de segurança. Leia cuidadosamente todas as diretrizes de mitigação no relatório do analista e aplique-as sempre que possível.
 
 ## <a name="understand-how-each-threat-can-be-detected"></a>Entender como cada ameaça pode ser detectada
-O relatório de analista também fornece as detecções do Microsoft Defender para recursos de detecção e resposta _de_ antivírus e ponto de extremidade (EDR).
+O relatório de analista também fornece as detecções do Microsoft Defender para recursos de antivírus e _detecção e resposta de ponto de extremidade_ (EDR).
 
 ### <a name="antivirus-detections"></a>Detecções antivírus
-Essas detecções estão disponíveis em dispositivos com [o Microsoft Defender Antivírus](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) ligado. Quando essas detecções ocorrem em dispositivos que foram integrados ao Microsoft Defender para Ponto de Extremidade, eles também disparam alertas que acendem os gráficos no relatório.
+Essas detecções estão disponíveis em dispositivos [com Microsoft Defender Antivírus](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) ativas. Quando essas detecções ocorrem em dispositivos que foram integrados ao Microsoft Defender para Ponto de Extremidade, eles também disparam alertas que acendem os gráficos no relatório.
 
 >[!NOTE]
 >O relatório do analista também lista detecções **genéricas** que podem identificar uma ampla variedade de ameaças, além de componentes ou comportamentos específicos da ameaça controlada. Essas detecções genéricas não refletem nos gráficos.
 
-### <a name="endpoint-detection-and-response-edr-alerts"></a>Alertas de detecção e resposta de ponto de extremidade (EDR)
-Alertas de EDR são gerados para [dispositivos conectados ao Microsoft Defender para Ponto de Extremidade.](/windows/security/threat-protection/microsoft-defender-atp/onboard-configure) Esses alertas geralmente dependem de sinais de segurança coletados pelo sensor do Microsoft Defender para Ponto de Extremidade e outros recursos de ponto de extremidade, como antivírus, proteção de rede, proteção contra adulteração, que servem como fontes de sinal poderosas.
+### <a name="endpoint-detection-and-response-edr-alerts"></a>Alertas de detecção e resposta do ponto de extremidade (EDR)
+EDR alertas são gerados para dispositivos [conectados ao Microsoft Defender para Ponto de Extremidade.](/windows/security/threat-protection/microsoft-defender-atp/onboard-configure) Esses alertas geralmente dependem de sinais de segurança coletados pelo sensor do Microsoft Defender para Ponto de Extremidade e outros recursos de ponto de extremidade, como antivírus, proteção de rede, proteção contra adulteração, que servem como fontes de sinal poderosas.
 
-Como a lista de detecções de antivírus, alguns alertas de EDR são projetados para sinalizar genericamente comportamentos suspeitos que podem não estar associados à ameaça controlada. Nesses casos, o relatório identificará claramente o alerta como "genérico" e não influenciará nenhum dos gráficos no relatório.
+Como a lista de detecções de antivírus, alguns alertas EDR foram projetados para sinalizar genericamente comportamentos suspeitos que podem não estar associados à ameaça controlada. Nesses casos, o relatório identificará claramente o alerta como "genérico" e não influenciará nenhum dos gráficos no relatório.
 
 ### <a name="email-related-detections-and-mitigations"></a>Detecções e mitigações relacionadas a email
-As detecções e mitigações relacionadas a email do Microsoft Defender para Office 365 são incluídas em relatórios de analistas, além dos dados de ponto de extremidade já disponíveis do Microsoft Defender para Ponto de Extremidade. 
+As detecções e mitigações relacionadas a email do Microsoft Defender para Office 365, estão incluídas em relatórios de analistas, além dos dados de ponto de extremidade já disponíveis do Microsoft Defender para Ponto de Extremidade. 
 
 As informações de tentativa de email evitadas dão informações sobre se sua organização era um alvo da ameaça abordada no relatório do analista, mesmo que o ataque tenha sido efetivamente bloqueado antes da entrega ou entrega à pasta de lixo eletrônico.
 
@@ -100,7 +100,7 @@ Consultas de busca avançadas nos relatórios de analistas foram vetada por anal
 
 
 >[!NOTE]
-> A análise de ameaças também está disponível no [Microsoft Defender para Ponto de Extremidade.](/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) No entanto, ele não tem a integração de dados entre o Microsoft Defender para Office e o Microsoft Defender para o Ponto de Extremidade que a análise de ameaças do Microsoft 365 Defender tem.
+> A análise de ameaças também está disponível no [Microsoft Defender para Ponto de Extremidade.](/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) No entanto, ele não tem a integração de dados entre o Microsoft Defender para Office e o Microsoft Defender para Ponto de Extremidade que Microsoft 365 análise de ameaças do Defender tem.
 
 
 ## <a name="related-topics"></a>Tópicos relacionados

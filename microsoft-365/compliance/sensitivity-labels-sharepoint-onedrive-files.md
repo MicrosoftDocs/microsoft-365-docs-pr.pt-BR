@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de sensibilidade para arquivos word, Excel e PowerPoint no SharePoint e OneDrive.
-ms.openlocfilehash: 8007f085e7bcba7f055f616954e2f0549f6f125a
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 695084443ee10de87f091d358b63fad079e03093
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770392"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861510"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
 
@@ -220,7 +220,11 @@ Use a propriedade gerenciada **InformationProtectionLabelId** para encontrar tod
 
 Por exemplo, para pesquisar todos os documentos que foram rotulados como "Confidencial", e esse rótulo tem um GUID de "8faca7b8-8d20-48a3-8ea2-0f96310a848e", na caixa de pesquisa, digite:
 
-`InformationProtectionLabelId: 8faca7b8-8d20-48a3-8ea2-0f96310a848e`    
+```
+InformationProtectionLabelId:8faca7b8-8d20-48a3-8ea2-0f96310a848e
+```
+
+A pesquisa não encontrará documentos rotulados em um arquivo compactado, como um arquivo .zip.
 
 Para obter os GUIDs para seus rótulos de sensibilidade, use o cmdlet [Get-Label:](/powershell/module/exchange/get-label)    
 

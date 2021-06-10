@@ -12,12 +12,12 @@ ms.author: jaimeo
 ms.topic: article
 audience: Admin, ITPro
 ms.localizationpriority: normal
-ms.openlocfilehash: 3f1a251d98be5b3a9fefa5c1f6d5d5562516d5d5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3de39e8d10f949856862095ebd204fac1a4d694e
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908169"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861678"
 ---
 # <a name="privacy-and-personal-data"></a>Privacidade e dados pessoais
 
@@ -109,10 +109,8 @@ Para obter mais informações sobre a coleção de dados de diagnóstico de Wind
 O acesso direto aos Área de Trabalho Gerenciada da Microsoft de dados internos do Área de Trabalho Gerenciada da Microsoft é restrito de várias maneiras:
 
 - Requer aprovação de nível de líder de engenharia.
-- Ele é auditado e limitado por tempo.
-- Exige o uso de uma estação de trabalho altamente protegida e restrita.
+- Ele está limitado ao tempo e é auditado.
 - Todos os dados são criptografados enquanto são armazenados.
-- Não há acesso permanente.
 - O acesso ao portal de gerenciamento interno do Área de Trabalho Gerenciada da Microsoft requer uma estação de trabalho altamente protegida e restrita.
 
 ## <a name="processing-personal-data-in-a-compliant-manner"></a>Processamento de dados pessoais de maneira compatível

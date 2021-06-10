@@ -19,7 +19,7 @@ ms.assetid: 5c47c07d-f9b6-4b78-a329-bfdc1b6da7a0
 ms.custom: seo-marvel-apr2020
 f1.keywords:
 - NOCSH
-description: Este artigo lista as URLs e intervalos de endereços IP do Office 365 quando operado pela 21Vianet na China.
+description: Este artigo lista as URLs e intervalos de endereços IP para Office 365 quando operado pela 21Vianet na China.
 hideEdit: true
 ms.openlocfilehash: ed9b6fdbef1ca121ccf53b635768ebdaab89763a
 ms.sourcegitcommit: b56a8ff9bb496bf2bc1991000afca3d251f45b72
@@ -40,7 +40,7 @@ ms.locfileid: "51418039"
 |:-----|:-----|
 |**Última atualização:** 29/03/2021 - Assinatura do Log de Alterações ![ ](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [do](https://endpoints.office.com/version/China?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) RSS|**Baixar:** todos os destinos obrigatórios e opcionais em uma lista [no formato em JSON](https://endpoints.office.com/endpoints/China?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7).  <br/> |
 
-Comece com [Gerenciando pontos de extremidade do Office 365 ](managing-office-365-endpoints.md) para entender nossas recomendações para gerenciar a conectividade de rede usando esses dados. Os dados dos terminais são atualizados conforme necessário no início de cada mês com novos endereços IP e URLs publicados 30 dias antes de serem ativados. Isso permite que os clientes que ainda não possuem atualizações automatizadas concluam seus processos antes que uma nova conectividade seja necessária. Os endpoints também podem ser atualizados durante o mês, se necessário, para lidar com escalações de suporte, incidentes de segurança ou outros requisitos operacionais imediatos. Os dados mostrados nesta página a seguir são todos gerados a partir dos serviços da web baseados em REST. Se estiver usando um script ou um dispositivo de rede para acessar esses dados, você deve ir para o [serviço da Web ](microsoft-365-ip-web-service.md) diretamente.
+Comece com [Gerenciar os pontos de extremidade do Office 365](managing-office-365-endpoints.md) para entender nossas recomendações para gerenciar a conectividade de rede usando estes dados. Os dados dos pontos de extremidade são atualizados, conforme necessário, no início de cada mês com novos endereços IP e URLs publicadas 30 dias antes de se tornarem ativas. Isso permite que os clientes que ainda não têm atualizações automáticas completem seus processos antes que uma nova conectividade seja necessária. Os pontos de extremidade também podem ser atualizados durante o mês, se necessário, para tratar de escalações de suporte, incidentes de segurança ou outros requisitos operacionais imediatos. Todos os dados exibidos abaixo nesta página são gerados a partir dos serviços Web baseados em REST. Se estiver usando um script ou dispositivo de rede para acessar esses dados, vá diretamente para o [serviço Web](microsoft-365-ip-web-service.md).
 
 Os dados dos pontos de extremidade abaixo listam requisitos de conectividade do computador de um usuário para o Office 365. Eles não incluem conexões de rede da Microsoft com uma rede de clientes, que são algumas vezes chamadas conexões de rede híbridas ou de entrada.
 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 3d7564b5d509190c8c8e799c541bb0ca583097f1
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 3f05cc8c9b2509f8c95b802f56905e2859221cd2
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636225"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861594"
 ---
 # <a name="turn-on-microsoft-365-defender"></a>Ativar o Microsoft 365 Defender
 
@@ -65,7 +65,7 @@ Microsoft 365 O Defender armazenará e processará dados no [mesmo local usado p
 Selecione **Precisa de ajuda?** no centro de segurança Microsoft 365 para entrar em contato com o suporte da Microsoft sobre o provisionamento Microsoft 365 Defender em um local diferente do data center.
 
 > [!NOTE]
-> O Microsoft Defender para Ponto de Extremidade provisiona automaticamente em data centers da União Europeia (UE) quando ativado por meio do Azure Defender. Microsoft 365 O Defender provisiona automaticamente no mesmo data center da UE para clientes que provisionam o Defender para o Ponto de Extremidade dessa maneira.
+> No passado, o Microsoft Defender para Ponto de Extremidade era provisionado automaticamente nos data centers da União Europeia (UE) quando ativado por meio do Azure Defender. Microsoft 365 O Defender provisiona automaticamente no mesmo data center da UE para clientes que provisionam o Defender para o Ponto de Extremidade dessa maneira no passado.
 
 ### <a name="confirm-that-the-service-is-on"></a>Confirmar se o serviço está ativado
 

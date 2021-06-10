@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 4be87e296739020c80babb864c57bc803f10d3e0
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 6def1b64430ad70dc4b4898ba2b914288826873e
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843681"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861486"
 ---
 # <a name="list-vulnerabilities"></a>Listar vulnerabilidades
 
@@ -39,7 +39,7 @@ ms.locfileid: "52843681"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-Recupera uma lista de todas as vulnerabilidades que afetam a organização.
+Recupera uma lista de todas as vulnerabilidades.
 
 ## <a name="permissions"></a>Permissões
 Uma das seguintes permissões é necessária para chamar essa API. Para saber mais, incluindo como escolher permissões, consulte [Use Microsoft Defender for Endpoint APIs](apis-intro.md) para obter detalhes.
@@ -47,7 +47,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   Vulnerability.Read.All |    'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades'
-Delegado (conta corporativa ou de estudante) | Vulnerability.Read |   'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades'
+Delegada (conta corporativa ou de estudante) | Vulnerability.Read |   'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades'
 
 ## <a name="http-request"></a>Solicitação HTTP
 ```

@@ -2,7 +2,7 @@
 title: Rastrear e responder a ameaças emergentes com análise de ameaças
 ms.reviewer: ''
 description: Saiba mais sobre ameaças e técnicas de ataque emergentes e como impedi-las. Avalie o impacto deles em sua organização e avalie sua resiliência organizacional.
-keywords: análise de ameaças, avaliação de risco, Microsoft 365 Defender, M365D, status de mitigação, configuração segura, Microsoft Defender para Office 365, Análise de ameaças do Microsoft Defender para Office 365, análise de ameaças MDO, dados integrados de análise de ameaças MDE e MDO, integração de dados de análise de ameaças, análise integrada de ameaças do Microsoft 365 Defender
+keywords: análise de ameaças, avaliação de risco, Microsoft 365 Defender, M365D, status de mitigação, configuração segura, Microsoft Defender para Office 365, Microsoft Defender para análise de ameaças do Office 365, análise de ameaças do MDO, dados integrados de análise de ameaças MDE e MDO, integração de dados de análise de ameaças, análise integrada de ameaças Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -53,7 +53,7 @@ Assista a este breve vídeo para saber mais sobre como a análise de ameaças po
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwJfU]
 
-Você pode acessar a análise de ameaças do lado superior esquerdo da barra de navegação do portal de segurança do Microsoft 365 ou de um cartão de painel dedicado que mostra as principais ameaças em sua organização. Obter visibilidade sobre campanhas ativas ou em andamento e saber o que fazer por meio da análise de ameaças pode ajudar a equipar sua equipe de operações de segurança com decisões informadas. 
+Você pode acessar a análise de ameaças do lado superior esquerdo da barra de navegação Microsoft 365 do portal de segurança ou de um cartão de painel dedicado que mostra as principais ameaças em sua organização. Obter visibilidade sobre campanhas ativas ou em andamento e saber o que fazer por meio da análise de ameaças pode ajudar a equipar sua equipe de operações de segurança com decisões informadas. 
 
 ![Imagem do painel de análise de ameaças](../../media/threat-analytics/ta_inlandingpage_mtp.png)
 
@@ -131,7 +131,7 @@ _Seção Incidentes relacionados de um relatório de análise de ameaças_
 ### <a name="impacted-assets-get-list-of-impacted-devices-and-mailboxes"></a>Ativos afetados: Obter lista de dispositivos e caixas de correio afetados
 Um ativo será considerado afetado se for afetado por um alerta ativo não resolvido. A **guia Ativos afetados** lista os seguintes tipos de ativos afetados:
 - **Dispositivos afetados**— pontos de extremidade que não resolveram os alertas do Microsoft Defender para o Ponto de Extremidade. Esses alertas normalmente disparam em avistamentos de indicadores e atividades de ameaças conhecidos.
-- **Caixas de correio impactadas**— caixas de correio que receberam mensagens de email que dispararam alertas do Microsoft Defender para o Office 365. Embora a maioria das mensagens que disparam alertas geralmente sejam bloqueadas, as políticas no nível do usuário ou da organização podem substituir filtros.
+- **Caixas de correio impactadas**— caixas de correio que receberam mensagens de email que dispararam o Microsoft Defender para Office 365 alertas. Embora a maioria das mensagens que disparam alertas geralmente sejam bloqueadas, as políticas no nível do usuário ou da organização podem substituir filtros.
 
 ![Imagem da seção ativos afetados de um relatório de análise de ameaças](../../media/threat-analytics/ta_impacted_assets_mtp.png)
 
@@ -151,11 +151,11 @@ Na seção **Mitigações,** revise a lista de recomendações ativas específic
 
 - **Atualizações de segurança**— implantação de atualizações de segurança de software com suporte para vulnerabilidades encontradas em dispositivos conectados
 - **Configurações de segurança com suporte**
-  - Proteção entregue na nuvem  
+  - Proteção fornecida na nuvem  
   - Proteção de aplicativo potencialmente indesejado (PUA)
   - Proteção em tempo real
  
-As informações de mitigação nesta seção incorporam dados do gerenciamento de ameaças e vulnerabilidades [,](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)que também fornece informações detalhadas de detalhamento de vários links no relatório.
+As informações de mitigação nesta seção incorporam dados [do Gerenciamento de Ameaças e Vulnerabilidades](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt), que também fornece informações detalhadas de detalhamento de vários links no relatório.
 
 ![Imagem da seção mitigações de um relatório de análise de ameaças mostrando detalhes de configuração segura Imagem da seção mitigações de um relatório de análise de ameaças mostrando ](../../media/threat-analytics/ta_mitigations_mtp.png)
  ![ detalhes de vulnerabilidade](../../media/threat-analytics/ta_mitigations_mtp2.png)
@@ -164,19 +164,19 @@ _Seção Mitigações de um relatório de análise de ameaças_
 
 ## <a name="additional-report-details-and-limitations"></a>Detalhes e limitações adicionais do relatório
 >[!NOTE]
->Como parte da experiência de segurança unificada, a análise de ameaças agora está disponível não apenas para o Microsoft Defender para Ponto de Extremidade, mas também para os proprietários de licença do Microsoft Defender para Office E5.
->Se você não estiver usando o portal de segurança do Microsoft 365 (Microsoft 365 Defender), também poderá ver os detalhes do relatório (sem os dados do Microsoft Defender para Office) no portal do Centro de Segurança do Microsoft Defender (Microsoft Defender para Ponto de Extremidade). 
+>Como parte da experiência de segurança unificada, a análise de ameaças agora está disponível não apenas para o Microsoft Defender para Ponto de Extremidade, mas também para o Microsoft Defender para proprietários de licença Office E5.
+>Se você não estiver usando o portal de segurança do Microsoft 365 (Microsoft 365 Defender), também poderá ver os detalhes do relatório (sem o Microsoft Defender para dados Office) no portal do Central de Segurança do Microsoft Defender (Microsoft Defender para Ponto de Extremidade). 
 
-Para acessar o relatório de análise de ameaças, você precisa de determinadas funções e permissões. Consulte Funções personalizadas no controle de acesso [baseado em função para o Microsoft 365 Defender](custom-roles.md) para obter detalhes.
+Para acessar o relatório de análise de ameaças, você precisa de determinadas funções e permissões. Consulte [Funções personalizadas no controle de](custom-roles.md) acesso baseado em função para obter Microsoft 365 Defender para obter detalhes.
   - Para exibir alertas, incidentes ou dados de ativos afetados, você precisa ter permissões para o Microsoft Defender para Office ou o Microsoft Defender para dados de alertas de ponto de extremidade ou ambos.
-  - Para exibir tentativas de email impedidas, você precisa ter permissões para os dados de busca do Microsoft Defender para Office. 
-  - Para exibir mitigações, você precisa ter permissões para dados de gerenciamento de ameaças e vulnerabilidades no Microsoft Defender para Ponto de Extremidade.
+  - Para exibir tentativas de email impedidas, você precisa ter permissões para o Microsoft Defender para Office dados de busca. 
+  - Para exibir mitigações, você precisa ter permissões para Gerenciamento de Ameaças e Vulnerabilidades dados no Microsoft Defender para Ponto de Extremidade.
 
 Ao ver os dados de análise de ameaças, lembre-se dos seguintes fatores:
 - Os gráficos refletem apenas mitigações controladas. Verifique a visão geral do relatório para obter mitigações adicionais que não são mostradas nos gráficos.
 - Mitigações não garantem resiliência completa. As mitigações fornecidas refletem as melhores ações possíveis necessárias para melhorar a resiliência.
 - Os dispositivos serão contados como "indisponíveis" se não transmitirem dados para o serviço.
-- As estatísticas relacionadas ao antivírus são baseadas nas configurações do Microsoft Defender Antivírus. Dispositivos com soluções antivírus de terceiros podem aparecer como "expostos".
+- Estatísticas relacionadas a antivírus são baseadas em Microsoft Defender Antivírus configurações. Dispositivos com soluções antivírus de terceiros podem aparecer como "expostos".
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Encontrar proativamente ameaças com busca avançada](advanced-hunting-overview.md) 

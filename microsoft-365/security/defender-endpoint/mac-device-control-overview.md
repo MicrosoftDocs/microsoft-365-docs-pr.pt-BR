@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 39f8367c34e98c5e9dd11e9716f08e6c9e7fd9c0
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 682f59729e06c63818491ad7540528d574380c8b
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935120"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877831"
 ---
 # <a name="device-control-for-macos"></a>Controle de dispositivo para macOS
 
@@ -330,7 +330,7 @@ Você pode exibir eventos de montagem, desmontagem e alteração de volume prove
 
 ```
 DeviceEvents 
-    | where ActionType == "UsbDriveMount" or ActionType == "UsbDriveUnmount" or ActionType == "UsbDriveDriveLetterChanged"
+    | where ActionType == "UsbDriveMounted" or ActionType == "UsbDriveUnmounted" or ActionType == "UsbDriveDriveLetterChanged"
     | where DeviceId == "<device ID>"
 ```
 

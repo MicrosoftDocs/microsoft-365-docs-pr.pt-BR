@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Yammer.
-ms.openlocfilehash: 1b99d0915cfb159f821818fb1425d7191a011351
-ms.sourcegitcommit: cebbdd393dcfd93ff43a1ab66ad70115853f83e7
+ms.openlocfilehash: a8d047845b986029d393816982e6bede3db71485
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "52710701"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861558"
 ---
 # <a name="learn-about-retention-for-yammer"></a>Saiba mais sobre a retenção para o Yammer
 
@@ -55,6 +55,9 @@ As mensagens do Yammer não são afetadas pelas políticas de retenção configu
 > Se um usuário estiver incluído em uma política de retenção ativa que retém dados do Yammer e você excluir uma caixa de correio de um usuário incluído nessa política, para reter os dados do Yammer, a caixa de correio será convertida em uma [caixa de correio inativa](inactive-mailboxes-in-office-365.md). Se você não precisar reter esses dados do Yammer para o usuário, exclua a conta de usuário da política de retenção antes de excluir a caixa de correio.
 
 Depois que uma política de retenção for configurada para mensagens do Yammer, um trabalho de temporizador do serviço do Exchange avaliará periodicamente os itens na pasta oculta em que essas mensagens do Yammer são armazenadas. O trabalho de temporizador leva até sete dias para ser executado. Quando o período de retenção desses itens expira, eles são movidos para a pasta SubstrateHolds, uma pasta oculta que toda caixa de correio de usuário ou grupo possui para armazenar itens “excluídos temporariamente” antes de serem excluídos permanentemente.
+
+> [!NOTE]
+> Por causa do [primeiro princípio de retenção](retention.md#the-principles-of-retention-or-what-takes-precedence), a eliminação permanente é sempre suspensa se o mesmo item tiver que ser retido por causa de outra política de retenção, ou se estiver sob Descoberta Eletrônica por motivos legais ou de investigação.
 
 Depois que uma política de retenção for configurada para mensagens do Yammer, os caminhos que o conteúdo tomará vão depender se a política de retenção for para reter e excluir, somente reter ou somente excluir.
 

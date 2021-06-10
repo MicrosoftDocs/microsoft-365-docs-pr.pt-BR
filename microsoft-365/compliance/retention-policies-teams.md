@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Microsoft Teams.
-ms.openlocfilehash: db167894f32bcc1e30054b9cc4738af300b6d704
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 607fbdd02cfaccfee79df67c4946c178ff3eb383
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280794"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861570"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Saiba mais sobre retenção para o Microsoft Teams
 
@@ -76,6 +76,9 @@ Embora esses dados dos chats e das mensagens de canal do Teams sejam armazenadas
 Depois que uma política de retenção for configurada para mensagens de chat e de canal, um trabalho de temporizador do serviço do Exchange avaliará periodicamente os itens na pasta oculta em que essas mensagens do Teams são armazenadas. O trabalho de temporizador leva de 1 a 7 dias para ser executado. Quando esses itens expiraram o período de retenção, eles são movidos para a pasta SubstrateHolds, outra pasta oculta que todo usuário ou caixa de correio de grupo possui para armazenar itens “excluídos temporariamente” antes de serem permanentemente excluídos. 
 
 As mensagens permanecem na pasta SubstrateHolds por pelo menos 1 dia e, se forem qualificadas para exclusão, o trabalho de temporalizador as excluirá permanentemente na próxima vez que for executado.
+
+> [!NOTE]
+> Por causa do [primeiro princípio de retenção](retention.md#the-principles-of-retention-or-what-takes-precedence), a eliminação permanente é sempre suspensa se o mesmo item tiver que ser retido por causa de outra política de retenção, ou se estiver sob Descoberta Eletrônica por motivos legais ou de investigação.
 
 Depois que uma política de retenção for configurada para mensagens de chat ou canal, os caminhos que o conteúdo tomará vão depender se a política de retenção for para reter e excluir, somente reter ou somente excluir.
 

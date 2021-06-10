@@ -42,13 +42,13 @@ Após concluir a integração, você pode verificar sua seleção na página de 
 ## <a name="verify-data-storage-location"></a>Verificar o local de armazenamento de dados
 Durante a [fase Configurar](production-deployment.md), você teria selecionado o local para armazenar seus dados. 
 
-Você pode verificar o local dos dados navegando até **Configurações**  >  **Retenção de dados.**
+Você pode verificar o local dos dados navegando para Configurações  >  **Retenção de dados.**
 
 ## <a name="update-data-retention-settings"></a>Atualizar configurações de retenção de dados
 
 Você pode atualizar as configurações de retenção de dados. Por padrão, o período de retenção é de 180 dias. 
 
-1. No painel de navegação, selecione **Configurações**  >  **Retenção de dados**.
+1. No painel de navegação, **selecione** Configurações  >  **Retenção de dados**.
 
 2. Selecione a duração da retenção de dados na lista lista listada.
 

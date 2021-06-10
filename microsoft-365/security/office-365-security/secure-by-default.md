@@ -17,12 +17,12 @@ ms.collection:
 description: Saiba mais sobre a configuração segura por padrão no Proteção do Exchange Online (EOP)
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2d5cdc8f8faa9c2d5772fd1572134ea49cdd77da
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: f197556426171b867b49781b38ea5f5116f80aa2
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624044"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861522"
 ---
 # <a name="secure-by-default-in-office-365"></a>Proteger por padrão em Office 365
 
@@ -58,7 +58,7 @@ Como a Microsoft deseja manter nossos clientes seguros por padrão, algumas subs
 Mais informações sobre essas substituições podem ser encontradas em [Criar listas de remetentes seguros.](create-safe-sender-lists-in-office-365.md)
 
 > [!NOTE]
-> Estamos no processo de preterindo  a ação Mover mensagem para Lixo Eletrônico para um veredito de email de **phishing** de alta confiança em políticas anti-spam do EOP. Políticas anti-spam que usam essa ação para mensagens de phishing de alta confiança serão convertidas em **mensagem de quarentena**. A **ação Redirecionar mensagem para endereço de email** para mensagens de phishing de alta confiança não é afetada.
+> Preterimos a ação **Mover** mensagem para Lixo Eletrônico para um veredito de email de **phishing** de alta confiança nas políticas anti-spam do EOP. Políticas anti-spam que usam essa ação para mensagens de phishing de alta confiança serão convertidas em **mensagem de quarentena**. A **ação Redirecionar mensagem para endereço de email** para mensagens de phishing de alta confiança não é afetada.
 
 A segurança por padrão não é uma configuração que pode ser ativas ou desligadas, mas é a maneira como nossa filtragem funciona fora da caixa para manter mensagens potencialmente perigosas ou indesejadas fora de suas caixas de correio. As mensagens de malware e phishing de alta confiança devem ser colocadas em quarentena. Somente os administradores podem gerenciar mensagens que estão em quarentena como malware ou phishing de alta confiança e também podem relatar falsos positivos para a Microsoft a partir daí. Para obter mais informações, consulte [Manage quarantined messages and files as an admin in EOP](manage-quarantined-messages-and-files.md)
 

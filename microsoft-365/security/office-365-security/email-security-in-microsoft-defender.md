@@ -16,12 +16,12 @@ description: Exibir e investigar tentativas de phishing de malware.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a2a6d3d10cfa21c0ad2da948bff130cb9336ebd8
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: f0326a51f14b402b9a579e8668ef2c026f9de789
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297615"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877891"
 ---
 # <a name="email-security-with-threat-explorer-in-microsoft-defender-for-office-365"></a>Segurança de email com o Explorador de Ameaças no Microsoft Defender para Office 365
 
@@ -45,7 +45,9 @@ Este artigo explica como exibir e investigar tentativas de malware e phishing de
 
 Para ver malware detectado em emails organizados pela tecnologia Microsoft 365, use o > [Detecções](threat-explorer-views.md#email--malware) de Malware de Email do Explorer (ou detecções em tempo real). Malware é o modo de exibição padrão, portanto, ele pode ser selecionado assim que você abrir o Explorer.
 
-1. No Centro de Conformidade & segurança ( ), escolha Explorador de gerenciamento de ameaças <https://protection.office.com>  \>  (ou **detecções em tempo real).** (Este exemplo usa o Explorer.) Se você estiver no centro de segurança Microsoft 365 convergido ( role para https://security.microsoft.com/) **Email & collaboration**  >  **Explorer**.
+1. No Centro de Conformidade & segurança ( ), escolha Explorador de gerenciamento de ameaças <https://protection.office.com>  \>  (ou **detecções em tempo real).** (Este exemplo usa o Explorer.)
+
+   Se você estiver no portal convergido Microsoft 365 Defender ( ) role para <https://security.microsoft.com> **Email & colaboração**  >  **Explorer**.
 
    A partir daqui, comece no View, escolha um determinado período de tempo para investigar (se necessário) e concentre seus filtros, conforme a passagem [do Explorer](threat-hunting-in-threat-explorer.md#threat-explorer-walk-through).
 

@@ -33,12 +33,12 @@ ms.locfileid: "51398200"
 ---
 # <a name="set-up-multifactor-authentication"></a>Configurar a autenticação multifator
 
-A autenticação multifafação oferece mais segurança para sua empresa. Depois que o administrador exigir que você use o MFA, você pode configurar o aplicativo Microsoft Authenticator para permitir que você faça logon em aplicativos importantes com segurança com seu telefone. 
+A autenticação multifafação oferece mais segurança para sua empresa. Depois que o administrador exigir que você use o MFA, você poderá configurar o aplicativo Microsoft Authenticator para permitir que você faça logoff em aplicativos importantes com segurança com seu telefone. 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MmQR]
 
-Consulte mais em [Configurar autenticação multifator no Microsoft 365](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)
+Consulte mais em [Configurar autenticação multifator em Microsoft 365](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)
 
-## <a name="use-the-outlook-app-in-your-devices"></a>Usar o aplicativo do Outlook em seus dispositivos
+## <a name="use-the-outlook-app-in-your-devices"></a>Usar o Outlook em seus dispositivos
 
-Depois que o administrador exigir que você use o MFA e você configurar um aplicativo autenticador como uma segunda forma de autenticação, recomendamos que você instale e use apenas o aplicativo do Outlook para acessar seu email do Microsoft 365. Consulte [Configurar dispositivos móveis para](../business/set-up-mobile-devices.md) saber como instalar aplicativos do Office, incluindo o Outlook, em seu telefone.
+Depois que o administrador exigir que você use o MFA e você configurar um aplicativo autenticador como uma segunda forma de autenticação, recomendamos que você instale e use apenas o aplicativo Outlook para acessar seu email de Microsoft 365. Consulte [Configurar dispositivos móveis](../business/set-up-mobile-devices.md) para saber como instalar Office aplicativos, incluindo Outlook, em seu telefone.

@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Saiba como usar limites de conformidade para criar limites lógicos que controlam os locais de conteúdo do usuário que um gerente de Descoberta Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 02e2e2f048ab521ad5640003cb127ed7bfa19641
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 1a84bc77cb78a9da3cfe873849a4148e55501137
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706601"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878023"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Configurar limites de conformidade para investigações de Descobertas EDiscovery
 
@@ -92,6 +92,9 @@ Aqui está uma lista de atributos de usuário do Azure AD que você pode usar pa
 Embora mais atributos de usuário estão disponíveis, especialmente para caixas de correio Exchange, os atributos listados acima são os únicos atualmente suportados pelo OneDrive.
   
 ## <a name="step-2-file-a-request-with-microsoft-support-to-synchronize-the-user-attribute-to-onedrive-accounts"></a>Etapa 2: arquivar uma solicitação com o Suporte da Microsoft para sincronizar o atributo do usuário com OneDrive contas
+
+> [!IMPORTANT]
+> Esta etapa não é mais necessária. A partir de junho de 2021, os filtros de caixa de correio serão aplicados a OneDrive for Business. As solicitações de suporte para sincronizar o atributo OneDrive serão recusadas porque não é mais necessário. Este artigo será atualizado em um futuro próximo.
 
 A próxima etapa é arquivar uma solicitação com o Suporte da Microsoft para sincronizar o atributo do Azure AD que você escolheu na Etapa 1 para todas as OneDrive de sua organização. Depois que essa sincronização ocorrer, o atributo (e seu valor) escolhido na Etapa 1 será mapeado para uma propriedade gerenciada oculta chamada `ComplianceAttribute` . Use esse atributo para criar o filtro de permissões de pesquisa para OneDrive na Etapa 4.
   
@@ -293,7 +296,7 @@ Tenha em mente as seguintes limitações ao gerenciar casos e investigações de
 
 - Filtros de permissões de pesquisa não são aplicados a pastas públicas do Exchange.
 
-## <a name="more-information"></a>Mais informações
+## <a name="more-information"></a>Mais Informações
 
 - Se uma caixa de correio for des licenciada ou excluída de forma suave, os atributos do Azure AD não serão mais sincronizados com a caixa de correio. Se uma espera foi colocada na caixa de correio quando foi excluída, o conteúdo preservado na caixa de correio ainda está sujeito a um limite de conformidade ou filtro de permissões de pesquisa com base na última vez em que os atributos do Azure AD foram sincronizados antes da caixa de correio ser excluída. 
 

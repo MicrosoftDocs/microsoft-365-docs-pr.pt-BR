@@ -39,17 +39,17 @@ Para obter mais informações sobre os padrões de segurança e as políticas qu
 
 Se sua assinatura foi criada em ou após 22 de outubro de 2019, os padrões de segurança podem ter sido habilitados automaticamente para você, você deve verificar suas configurações para &mdash; confirmar.
 
-Para habilitar os padrões de segurança no Azure Active Directory (Azure AD) ou para verificar se eles já estão habilitados:
+Para habilitar os padrões de segurança em seu Azure Active Directory (Azure AD) ou para verificar se eles já estão habilitados:
 
-1. Entre no Centro de administração do <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365</a> com credenciais de administrador global.
+1. Entre no centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 com</a> credenciais de administrador global.
 
 2. No painel esquerdo, selecione **Mostrar Tudo e,** em Centros **de administração,** selecione **Azure Active Directory**.
 
-3. No painel esquerdo do centro de administração do **Azure Active Directory,** selecione **Azure Active Directory**.
+3. No painel esquerdo do centro de administração **Azure Active Directory,** selecione **Azure Active Directory**.
 
 4. No menu esquerdo do Painel, na seção **Gerenciar,** selecione **Propriedades**.
 
-    :::image type="content" source="../media/m365-campaigns-conditional-access/azure-ad-properties.png" alt-text="Captura de tela do centro de administração do Azure Active Directory mostrando o local do item de menu Propriedades.":::
+    :::image type="content" source="../media/m365-campaigns-conditional-access/azure-ad-properties.png" alt-text="Captura de tela do Azure Active Directory de administração mostrando o local do item de menu Propriedades.":::
 
 5. Na parte inferior da página **Propriedades,** selecione **Gerenciar padrões de segurança**.
 
@@ -71,15 +71,15 @@ Os padrões de segurança estão disponíveis para todos os clientes, enquanto o
 - Azure Active Directory Premium P1 ou P2
 - Microsoft 365 Business Premium
 - Microsoft 365 E3 ou E5
-- Enterprise Mobility & Segurança E3 ou E5
+- Enterprise Mobility & Security E3 ou E5
 
 Se você quiser usar o Acesso Condicional para configurar políticas equivalentes às habilitadas por padrões de segurança, confira os seguintes guias passo a passo:
 
 - [Exigir MFA para administradores](/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa)
 - [Exigir MFA para gerenciamento do Azure](/azure/active-directory/conditional-access/howto-conditional-access-policy-azure-management)
-- [Bloquear autenticação herdda](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
+- [Bloquear autenticação herdada](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
 - [Exigir MFA para todos os usuários](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
-- [Exigir o registro MFA do Azure AD](/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy) - Requer a Proteção de Identidade do Azure AD, que faz parte do Azure Active Directory Premium P2
+- [Exigir o registro MFA do Azure AD](/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy) - Requer a Proteção de Identidade do Azure AD, que faz parte Azure Active Directory Premium P2
 
 Para saber mais sobre o Acesso Condicional, consulte [O que é o Acesso Condicional?](/azure/active-directory/conditional-access/overview) Para obter mais informações sobre como criar políticas de Acesso Condicional, consulte [Create a Conditional Access policy](/azure/active-directory/authentication/tutorial-enable-azure-mfa#create-a-conditional-access-policy).
 

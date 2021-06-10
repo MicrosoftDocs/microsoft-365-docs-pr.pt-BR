@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre funciona a retenção para o SharePoint e o OneDrive.
-ms.openlocfilehash: 90e94f4ff94b65860890ab65b451107d1d02963f
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 14b3bebab8b73b7b45c79a34903fed5d0f6ec9ca
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625240"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861582"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>Saiba mais sobre retenção para o SharePoint e o OneDrive
 
@@ -91,6 +91,9 @@ Quando as configurações de retenção são reter e excluir:
     > Para ajudar a evitar a perda de dados acidental, não excluímos mais permanentemente o conteúdo da biblioteca de Retenção para Preservação. Em vez disso, excluímos permanentemente somente o conteúdo da lixeira, portanto, todo o conteúdo da Biblioteca de Retenção para Preservação agora passará pela lixeira de segundo estágio.
     
 2. **Se o conteúdo não for modificado ou excluído** durante o período de retenção, o trabalho do temporizador move o conteúdo para a lixeira de primeiro estágio no final do período de retenção. Se um usuário excluir o conteúdo da lixeira ou esvaziá-la (processo também conhecido como limpeza), o documento será movido para a lixeira de segundo estágio. Um período de retenção de 93 dias abrange as lixeiras do primeiro e do segundo estágio. No final de 93 dias, o documento é excluído permanentemente de onde estiver, na Lixeira de primeiro ou de segundo estágio. Como a lixeira não está indexada, ela não está disponível para pesquisa. Como resultado, uma pesquisa de descoberta eletrônica não encontra conteúdos da lixeira para colocar uma retenção.
+
+> [!NOTE]
+> Devido ao [primeiro princípio de retenção](retention.md#the-principles-of-retention-or-what-takes-precedence), a eliminação permanente é sempre suspensa se o mesmo item tiver que ser retido por causa de outra política de retenção ou etiqueta de retenção, ou se estiver sob Descoberta Eletrônica por motivos legais ou de investigação.
 
 Quando as configurações forem reter somente ou excluir somente, os caminhos de conteúdo serão variações de reter e excluir:
 

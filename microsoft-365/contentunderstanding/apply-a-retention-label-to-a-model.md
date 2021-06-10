@@ -10,14 +10,14 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-syntex
-localization_priority: Priority
+localization_priority: Normal
 description: Este artigo descreve como aplicar um rótulo de retenção a um modelo no SharePoint Syntex
-ms.openlocfilehash: 796130bfa967663b5696f49279154cfe9b16f703
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
-ms.translationtype: HT
+ms.openlocfilehash: 00a8d255b3274af3cd96527e0dcd2ae2644226ac
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925363"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861606"
 ---
 # <a name="apply-a-retention-label-to-a-model-in-sharepoint-syntex"></a>Aplicar um rótulo de retenção a um modelo no SharePoint Syntex
 

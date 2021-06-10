@@ -13,7 +13,7 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Entenda como usar e gerenciar modelos para criar avaliações no Microsoft Compliance Manager. Crie e modifique modelos usando um arquivo do Excel formatado.
+description: Entenda como usar e gerenciar modelos para criar avaliações no Microsoft Compliance Manager. Crie e modifique modelos usando um arquivo Excel formatado.
 ms.openlocfilehash: ac5fe5f0a62c3b20021a9829499d8cec9339f72a
 ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "51499018"
 ---
 # <a name="working-with-assessment-templates-in-compliance-manager"></a>Trabalhar com modelos de avaliação no Gerenciador de Conformidade
 
-**Neste artigo:** Entenda **como os modelos funcionam** e como **gerenciá-los** na página de modelos de avaliação. Obter instruções para **criar novos** **modelos,** modificar modelos existentes, **formatar** seus dados de modelo com o Excel e exportar relatórios de **modelos.**
+**Neste artigo:** Entenda **como os modelos funcionam** e como **gerenciá-los** na página de modelos de avaliação. Obter instruções para **criar novos** **modelos,** modificar modelos existentes, **formatar** seus dados de modelo com Excel e exportar relatórios de **modelo.**
 
 > [!IMPORTANT]
 > Os modelos de avaliação disponíveis para sua organização dependem do contrato de licenciamento. [Revise os detalhes](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
@@ -41,7 +41,7 @@ Um modelo é uma estrutura de controles para criar uma avaliação no Gerenciado
 Os modelos disponíveis para uso são baseados no contrato de licenciamento da sua organização ([exibir detalhes de licenciamento).](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager) Há duas categorias de modelos: incluídas e premium.
 
 1. **Modelos incluídos** estão disponíveis para uso como parte do contrato de licenciamento da sua organização.
-2. **Modelos premium devem** ser comprados para criar avaliações a partir deles. Depois de comprado, você pode criar o máximo de avaliações de um modelo conforme necessário. [Saiba como comprar modelos premium.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
+2. **Premium modelos devem** ser comprados para criar avaliações a partir deles. Depois de comprado, você pode criar o máximo de avaliações de um modelo conforme necessário. [Saiba como comprar modelos premium.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
 
 #### <a name="active-and-inactive-templates"></a>Modelos ativos e inativos
 
@@ -66,11 +66,11 @@ Consulte [Diretrizes de licenciamento do Gerenciador de Conformidade](/office365
 
 A página modelos de avaliação no Gerenciador de Conformidade exibe uma lista de modelos e detalhes importantes. A lista inclui modelos fornecidos pelo Gerenciador de Conformidade, bem como todos os modelos que sua organização modificou ou criou. Você pode aplicar filtros para encontrar um modelo com base na certificação, escopo do produto, país, setor, quem o criou e se o modelo está habilitado para criação de avaliação.
 
-Selecione um modelo em sua linha para trazer sua página de detalhes. Esta página contém uma descrição do modelo e informações adicionais sobre detalhes de certificação, escopo e controles. Nesta página, você pode selecionar os botões apropriados para criar uma avaliação, exportar os dados do modelo para o Excel ou modificar o modelo.
+Selecione um modelo em sua linha para trazer sua página de detalhes. Esta página contém uma descrição do modelo e informações adicionais sobre detalhes de certificação, escopo e controles. Nesta página, você pode selecionar os botões apropriados para criar uma avaliação, exportar os dados do modelo para Excel ou modificar o modelo.
 
 ## <a name="creating-and-modifying-templates-overview"></a>Visão geral de criação e modificação de modelos
 
-Para modificar um modelo existente ou para criar seu próprio novo modelo, você usará uma planilha do Excel especialmente formatada ([baixe](https://go.microsoft.com/fwlink/?linkid=2124865)um exemplo ) para montar os dados de controle necessários. Depois de concluir a planilha, você a importa para o Gerenciador de Conformidade durante o processo de criação ou modificação de um modelo.
+Para modificar um modelo existente ou para criar seu próprio novo modelo, você usará uma planilha de Excel especialmente formatada ([baixe](https://go.microsoft.com/fwlink/?linkid=2124865)um exemplo ) para montar os dados de controle necessários. Depois de concluir a planilha, você a importa para o Gerenciador de Conformidade durante o processo de criação ou modificação de um modelo.
 
 > [!NOTE]
 > A planilha tem um formato e esquema específicos que devem ser usados ou não serão importados corretamente para o Gerenciador de Conformidade. As [instruções de formatação estão](#formatting-your-template-data-with-excel) abaixo.
@@ -86,17 +86,17 @@ Para criar seu próprio novo modelo (usado para criar avaliações personalizada
 1. Vá para a página **modelos de avaliação** no Gerenciador de Conformidade.
 2. Selecione **Criar novo modelo**. Um assistente de criação de modelo será aberto.
 3. Escolha o tipo de modelo que você deseja criar. Nesse caso, selecione **Criar um modelo personalizado** e selecione **Próximo**.
-4. Na tela **Carregar arquivo,** selecione **Procurar** para encontrar e carregar seu arquivo do Excel formatado contendo todos os dados de modelo necessários (consulte instruções para [formatar](#formatting-your-template-data-with-excel)corretamente seu arquivo ).
-5. Se não houver problemas com seu arquivo, o nome do arquivo carregado será exibido. Selecione **Próximo** para continuar. (Se você precisar alterar o arquivo, selecione **Carregar um arquivo diferente**).
+4. Na tela **Upload** arquivo, selecione  Procurar para encontrar e carregar seu arquivo Excel formatado contendo todos os dados de modelo necessários (consulte instruções para formatar corretamente seu [arquivo](#formatting-your-template-data-with-excel)).
+5. Se não houver problemas com seu arquivo, o nome do arquivo carregado será exibido. Selecione **Avançar** para continuar. (Se você precisar alterar o arquivo, selecione **Upload um arquivo diferente**).
     - Se houver um erro com seu arquivo, uma mensagem de erro na parte superior explica o que está errado. Você precisará corrigir seu arquivo e carregar novamente. Os erros resultarão se sua planilha for formatada incorretamente ou se houver informações inválidas em determinados campos (consulte novamente as instruções [de formatação](#formatting-your-template-data-with-excel)).  
     
 6. A **tela Revisar e concluir** mostra o número de ações de melhoria e controles e a pontuação máxima do modelo. Quando estiver pronto para aprovar, selecione **Criar modelo.** (Se precisar fazer alterações, selecione **Voltar**.)
 7. A última tela confirma que um novo modelo foi criado. Selecione **Feito** para sair do assistente.
 8. Você chegará à página de detalhes do novo modelo, onde poderá [criar sua avaliação.](compliance-manager-assessments.md#create-your-own-custom-assessment)
 
-## <a name="formatting-your-template-data-with-excel"></a>Formatando seus dados de modelo com o Excel
+## <a name="formatting-your-template-data-with-excel"></a>Formatando os dados do modelo com Excel
 
-A planilha do Excel usada para criar modelos contém quatro guias, das quais três são necessárias:
+A Excel usada para criar modelos contém quatro guias, das quais três são necessárias:
 
 1. [Modelo](#template-tab) (obrigatório)
 2. [ControlFamily](#controlfamily-tab) (obrigatório)
@@ -107,7 +107,7 @@ Ao preencher sua planilha com dados de modelo, a planilha deve incluir as guias 
 
 ##### <a name="template-tab"></a>Guia Modelo
 
-A **guia** Modelo é necessária. As informações nesta guia fornece metadados sobre o modelo. Há quatro colunas necessárias. As colunas devem manter a ordem na planilha do Excel conforme listado abaixo. Você pode adicionar sua própria coluna **após** as quatro colunas para fornecer suas próprias dimensões. Se você fizer isso, certifique-se de adicioná-los à guia **Dimensões** usando as [instruções abaixo](#dimensions-tab).
+A **guia** Modelo é necessária. As informações nesta guia fornece metadados sobre o modelo. Há quatro colunas necessárias. As colunas devem manter a ordem na Excel conforme listado abaixo. Você pode adicionar sua própria coluna **após** as quatro colunas para fornecer suas próprias dimensões. Se você fizer isso, certifique-se de adicioná-los à guia **Dimensões** usando as [instruções abaixo](#dimensions-tab).
 
 - **title**: Este é o título do seu modelo, que deve ser exclusivo. Ele não pode compartilhar um nome com outro modelo que você tenha no Gerenciador de Conformidade, incluindo seus próprios modelos ou um modelo do Gerenciador de Conformidade.
 
@@ -115,7 +115,7 @@ A **guia** Modelo é necessária. As informações nesta guia fornece metadados 
 
 - **certification**: Esta é a regulamentação que você está usando para o modelo.
 
-- **inScopeServices**: Esses são os serviços dentro do produto que essa avaliação aborda (por exemplo, se você listou o Office 365 como o produto, o Microsoft Teams poderia ser um serviço no escopo). Você pode listar vários serviços separados por dois pontos e vírgulas.
+- **inScopeServices**: esses são os serviços dentro do produto que essa avaliação aborda (por exemplo, se você listou Office 365 como o produto, Microsoft Teams poderia ser um serviço no escopo). Você pode listar vários serviços separados por dois pontos e vírgulas.
 
 > [!NOTE]
 > Os dados inseridos nas  células **de** produto e certificação não podem ser editados depois de importar a planilha para criar ou personalizar um modelo. Além disso, um grupo não pode conter duas avaliações que tenham a mesma **combinação de produto/certificação.** Você pode ter vários modelos com a mesma combinação de produto/certificação.
@@ -160,13 +160,13 @@ A **guia Ações** é necessária.  Ele designa ações de melhoria gerenciadas 
 A **guia Dimensões** é opcional. No entanto, se você fizer referência a uma dimensão em outro lugar, precisará especificá-la aqui se ela não existir em um modelo que você já criou ou em um modelo da Microsoft. As colunas desta guia estão listadas abaixo:
 
 - **dimensionKey**: lista como "produto", "certificações", "finalidade de ação"
-- **dimensionValue**: exemplos: Office 365, HIPPA, Preventative, Detective
+- **dimensionValue**: exemplos: Office 365, HIPPA, Preventivo, Detetive
 
 Você pode exibir suas dimensões existentes indo para Gerenciamento de **Locatários** e selecionando a **guia** Dimensões. Além disso, sempre que você exportar um modelo existente, a planilha exportada terá a guia **Dimensões,** que lista todas as dimensões usadas no modelo.
 
 ## <a name="modify-a-template"></a>Modificar um modelo
 
-Talvez você queira modificar um modelo que já criou, como adicionar controles ou adicionar ou remover ações de melhoria. O processo é semelhante ao processo de criação de modelo no momento em que você carregará o arquivo formatado do Excel com os dados do modelo.
+Talvez você queira modificar um modelo que já criou, como adicionar controles ou adicionar ou remover ações de melhoria. O processo é semelhante ao processo de criação de modelo, em que você carregará um arquivo Excel formatado com os dados do modelo.
 
 No entanto, há detalhes específicos a serem cientes à medida que você formatar seu arquivo com alterações nos dados de modelo existentes. **Recomendamos que você revise essas instruções cuidadosamente para garantir que você não sobrescreva quaisquer dados existentes que você deseja reter.**
 
@@ -175,12 +175,12 @@ No entanto, há detalhes específicos a serem cientes à medida que você format
 Para modificar um modelo, siga as etapas abaixo:
 
 1. Na página **modelos de avaliação,** selecione o modelo que você deseja modificar, o que mostrará sua página de detalhes.
-2. Selecione **Exportar para Excel**. Um arquivo do Excel com todos os dados do modelo será baixado. Salve o arquivo no computador local.
-3. Faça alterações no modelo [modificando o arquivo do Excel usando as instruções abaixo](#formatting-your-excel-file-to-modify-a-template).
-4. Quando terminar de fazer alterações no arquivo do Excel, salve o arquivo.
+2. Selecione **Exportar para Excel**. Um Excel com todos os dados do modelo será baixado. Salve o arquivo no computador local.
+3. Faça alterações no modelo [modificando o arquivo Excel usando as instruções abaixo](#formatting-your-excel-file-to-modify-a-template).
+4. Quando terminar de fazer alterações no arquivo Excel, salve o arquivo.
 5. Na página de detalhes do modelo, selecione **Modificar modelo** para iniciar o assistente de modificação. 
-6. Na tela **Carregar arquivo,** selecione **Procurar para** encontrar e carregar o arquivo do Excel.
-7. Se não houver problemas com seu arquivo, a próxima tela mostrará o nome do arquivo carregado. Selecione **Próximo** para continuar (se você precisar alterar o arquivo, selecione **Carregar um arquivo diferente**).
+6. Na tela **Upload arquivo,** selecione **Procurar** para encontrar e carregar seu arquivo Excel arquivo.
+7. Se não houver problemas com seu arquivo, a próxima tela mostrará o nome do arquivo carregado. Selecione **Próximo** para continuar (se você precisar alterar o arquivo, selecione **Upload um arquivo diferente**).
     - Se houver um problema com seu arquivo, uma mensagem de erro na parte superior explica o que há de errado. Você precisará corrigir seu arquivo e carregar novamente. Os erros resultarão se sua planilha for formatada incorretamente ou se houver informações inválidas em determinados campos.
 
 8. A **tela Revisar e concluir** mostra o número de ações de melhoria e controles e a pontuação máxima do modelo. Quando estiver pronto para aprovar, selecione **Próximo**.
@@ -189,9 +189,9 @@ Para modificar um modelo, siga as etapas abaixo:
 Seu modelo agora incluirá as alterações feitas. Todas as avaliações que usam esse modelo modificado agora mostrarão atualizações pendentes e você precisará aceitar as atualizações das avaliações para refletir as alterações feitas no modelo. Saiba mais sobre [atualizações para avaliações.](compliance-manager-assessments.md#accepting-updates-to-assessments)
 
 > [!NOTE]
-> Se você usar o Gerenciador de Conformidade em um idioma diferente do inglês, você notará que algum texto aparece em inglês ao exportar um modelo para o Excel. Os títulos das ações (suas ações de melhoria e ações da Microsoft) devem estar em inglês para serem reconhecidos pelos controles. Se você fizer alterações em um título de ação, certifique-se de escrevê-lo em inglês para que o arquivo importe corretamente.
+> Se você usar o Gerenciador de Conformidade em um idioma diferente do inglês, você notará que algum texto aparece em inglês ao exportar um modelo para Excel. Os títulos das ações (suas ações de melhoria e ações da Microsoft) devem estar em inglês para serem reconhecidos pelos controles. Se você fizer alterações em um título de ação, certifique-se de escrevê-lo em inglês para que o arquivo importe corretamente.
 
-### <a name="formatting-your-excel-file-to-modify-a-template"></a>Formatando seu arquivo do Excel para modificar um modelo
+### <a name="formatting-your-excel-file-to-modify-a-template"></a>Formatando seu arquivo Excel para modificar um modelo
 
 Pule para uma seção abaixo para encontrar rapidamente as instruções de que você precisa:
 
@@ -256,8 +256,8 @@ Quando você importar sua planilha de volta para o modelo, seu controle será re
 
 ## <a name="export-a-template"></a>Exportar um modelo
 
-Você pode exportar um arquivo do Excel que contém todos os dados de um modelo. Você precisará exportar um modelo para modificar o modelo, pois este será o arquivo do Excel editado e carregado no processo [de modificação.](#modify-a-template)
+Você pode exportar um arquivo Excel que contém todos os dados de um modelo. Você precisará exportar um modelo para modificar o modelo, pois esse será o arquivo Excel que você editar e carregar no processo [de modificação.](#modify-a-template)
 
-Para exportar seu modelo, vá para a página de detalhes do modelo e selecione o **botão Exportar para Excel.**
+Para exportar seu modelo, vá até a página de detalhes do modelo e selecione **o botão Exportar para Excel.**
 
 Observe que, ao exportar um modelo estendido de um modelo do Gerenciador de Conformidade, o arquivo exportado conterá apenas os atributos adicionados ao modelo. O arquivo exportado não incluirá os dados do modelo original fornecidos pela Microsoft. Para obter esse relatório, consulte as instruções para [exportar um relatório de avaliação.](compliance-manager-assessments.md#export-an-assessment-report)

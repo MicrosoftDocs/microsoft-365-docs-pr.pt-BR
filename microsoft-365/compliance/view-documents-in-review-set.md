@@ -1,5 +1,5 @@
 ---
-title: Exibir documentos em um conjunto de revisão em Descoberta Avançada
+title: Exibir documentos em um conjunto de revisão em Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -13,7 +13,7 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Escolha como exibir conteúdo na Descoberta Automática Avançada, como texto, anotação, conversão ou exibição nativa.
+description: Escolha como exibir o conteúdo em Advanced eDiscovery, como texto, anotação, conversão ou exibição nativa.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: aa8e8e9ea22469ab6d0b223c1bcc9285e2c2ef40
 ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
@@ -22,34 +22,34 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/31/2021
 ms.locfileid: "51471064"
 ---
-# <a name="view-documents-in-a-review-set-in-advanced-ediscovery"></a>Exibir documentos em um conjunto de revisão em Descoberta Avançada
+# <a name="view-documents-in-a-review-set-in-advanced-ediscovery"></a>Exibir documentos em um conjunto de revisão em Advanced eDiscovery
 
-A Descoberta Avançada exibe conteúdo por meio de vários visualizadores, cada um com finalidades diferentes. Os vários visualizadores podem ser usados clicando em qualquer documento dentro de um conjunto de revisão. Os visualizadores atualmente fornecidos são:
+A Descoberta E avançada exibe o conteúdo por meio de vários visualizadores cada um com finalidades diferentes. Os vários visualizadores podem ser usados clicando em qualquer documento dentro de um conjunto de revisão. Os visualizadores atualmente fornecidos são:
 
-- Metadados de arquivo
+- Metadados de arquivos
 - Exibição nativa
 - Exibição de texto
 - Exibição de anotações
 
-## <a name="file-metadata"></a>Metadados de arquivo
+## <a name="file-metadata"></a>Metadados de arquivos
 
-Esse painel pode ser alternado para exibir vários metadados associados ao documento. Embora a grade de resultados da pesquisa possa ser personalizada para exibir metadados específicos, há instâncias em que a rolagem horizontal pode ser difícil durante a revisão de dados. O painel De metadados de arquivo permite que um usuário alterne em um exibição dentro do visualizador.
+Esse painel pode ser alternado para exibir vários metadados associados ao documento. Embora a grade de resultados da pesquisa possa ser personalizada para exibir metadados específicos, há instâncias em que rolar horizontalmente pode ser difícil ao revisar dados. O painel De metadados de arquivo permite que um usuário alterne em um exibição dentro do visualizador.
 
 ![Painel de metadados de arquivo
 ](../media/Reviewimage2.png)
 
 ## <a name="native-view"></a>Exibição nativa
 
-O visualizador nativo exibe a exibição mais rica de um documento. Ele dá suporte a centenas de tipos de arquivo e deve exibir a experiência nativa mais verdadeira possível. Para Microsoft Office arquivos, o visualizador usa a versão web dos aplicativos do Office para exibir conteúdo como comentários de documentos, fórmulas do Excel, linhas/colunas ocultas e notas do PowerPoint.
+O visualizador nativo exibe a exibição mais rica de um documento. Ele dá suporte a centenas de tipos de arquivos e tem como objetivo exibir a experiência mais verdadeira para a nativa possível. Para arquivos do Microsoft Office, o visualizador usa a versão Web dos aplicativos do Office para exibir conteúdo como comentários do documento, fórmulas do Excel, linhas/colunas ocultas e anotações do PowerPoint.
 
 ![Exibição nativa
 ](../media/Reviewimage3.png)
 
 ## <a name="text-view"></a>Exibição de texto
 
-O visualizador texto fornece uma exibição do texto extraído de um arquivo. Ele ignora qualquer imagem incorporada e formatação, mas é muito eficaz se você estiver tentando entender o conteúdo rapidamente. O exibição de texto também inclui esses recursos:
+O visualizador de Texto fornece uma exibição do texto extraído de um arquivo. Ele ignora quaisquer imagens inseridas e formatação, mas é muito eficaz se você está tentando entender o conteúdo rapidamente. O visualização de texto também inclui estes recursos:
 
-  - O contador de linhas facilita a referência de partes específicas de um documento
+  - O conta-linhas facilita a referência de partes específicas de um documento
 
   - Realçamento de acerto de pesquisa que realça os termos dentro do documento, bem como a barra de rolagem
 

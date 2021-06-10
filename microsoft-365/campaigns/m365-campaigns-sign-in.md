@@ -1,5 +1,5 @@
 ---
-title: Entrar no Microsoft 365
+title: Entre no Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -30,14 +30,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/27/2021
 ms.locfileid: "51398157"
 ---
-# <a name="sign-in-to-microsoft-365"></a>Entrar no Microsoft 365
+# <a name="sign-in-to-microsoft-365"></a>Entre no Microsoft 365
 
 ## <a name="for-business-or-campaign-admins"></a>Para administradores de empresas ou campanhas
 
-Se você se inscreveu no Microsoft 365, será o administrador do Microsoft 365. Veja como entrar:
+Se você se inscreveu no Microsoft 365, será o administrador Microsoft 365. Veja como entrar:
 
 1. Encontre o nome de usuário e a senha que enviamos para o endereço de email que você nos deu na etapa 2 de [Etapas para se inscrever](m365-campaigns-sign-up.md#steps-to-sign-up).
-2. No navegador, vá para o Centro de administração do Microsoft 365 em <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
+2. No navegador, vá para o centro de administração Microsoft 365 em <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
 3. Digite seu nome de usuário e senha. Selecione **Entrar**. 
 4. Na parte superior direita da página, encontre o **controle Visualizar no** controle. Selecione **Visualizar em** para que você possa usar todos os controles descritos em Bump up protection for your [campaign](m365-campaigns-security-overview.md).
 

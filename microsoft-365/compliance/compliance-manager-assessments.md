@@ -38,9 +38,9 @@ Todas as avaliações estão listadas na página avaliações. Saiba mais sobre 
 
 ## <a name="data-protection-baseline-default-assessment"></a>Avaliação padrão da Linha de Base de Proteção de Dados
 
-Para começar, **a** Microsoft fornece uma avaliação padrão no Gerenciador de Conformidade para a linha de base de proteção de dados do **Microsoft 365.** Essa avaliação de linha de base tem um conjunto de controles para os principais regulamentos e padrões para proteção de dados e governança geral de dados. Essa linha de base desenha elementos principalmente do NIST CSF (National Institute of Standards and Technology Cybersecurity Framework) e ISO (International Organization for Standardization), bem como do FedRAMP (Programa Federal de Gerenciamento de Riscos e Autorizações) e do RGPD (Regulamento Geral de Proteção de Dados da União Europeia).
+Para começar, **a** Microsoft fornece uma avaliação padrão no Gerenciador de Conformidade para a linha Microsoft 365 de proteção **de dados.** Essa avaliação de linha de base tem um conjunto de controles para os principais regulamentos e padrões para proteção de dados e governança geral de dados. Essa linha de base desenha elementos principalmente do NIST CSF (National Institute of Standards and Technology Cybersecurity Framework) e ISO (International Organization for Standardization), bem como do FedRAMP (Programa Federal de Gerenciamento de Riscos e Autorizações) e do RGPD (Regulamento Geral de Proteção de Dados da União Europeia).
 
-Essa avaliação é usada para calcular sua pontuação inicial de conformidade na primeira vez que você vem ao Gerenciador de Conformidade, antes de configurar quaisquer outras avaliações. O Gerenciador de Conformidade coleta sinais iniciais de suas soluções do Microsoft 365. Você verá rapidamente como sua organização está se portando em relação aos principais padrões e regulamentos de proteção de dados e verá ações de melhoria sugeridas a executar.
+Essa avaliação é usada para calcular sua pontuação inicial de conformidade na primeira vez que você vem ao Gerenciador de Conformidade, antes de configurar quaisquer outras avaliações. O Gerenciador de Conformidade coleta sinais iniciais de suas Microsoft 365 soluções. Você verá rapidamente como sua organização está se portando em relação aos principais padrões e regulamentos de proteção de dados e verá ações de melhoria sugeridas a executar.
 
 O Gerenciador de Conformidade se torna mais útil à medida que você cria e gerencia suas próprias avaliações para atender às necessidades específicas da sua organização.
 
@@ -96,7 +96,7 @@ Os grupos não podem ser criados como entidades autônomas. Um grupo deve conter
 - Depois de adicionar uma avaliação a um grupo, o grupo não pode ser alterado.
 - Controles de avaliação relacionados em avaliações diferentes dentro do mesmo grupo são atualizados automaticamente quando concluídos.
 - Se você adicionar uma nova avaliação a um grupo existente, as informações comuns de avaliações nesse grupo serão copiadas para a nova avaliação.
-- Os grupos podem conter avaliações para a mesma certificação ou regulamentação, mas cada grupo só pode conter uma avaliação para um par específico de certificação de produto. Por exemplo, um grupo não pode conter duas avaliações para o Office 365 e o NIST CSF. Um grupo pode conter várias avaliações para o mesmo produto somente se a certificação ou a regulamentação correspondente para cada uma delas for diferente.
+- Os grupos podem conter avaliações para a mesma certificação ou regulamentação, mas cada grupo só pode conter uma avaliação para um par específico de certificação de produto. Por exemplo, um grupo não pode conter duas avaliações para Office 365 E NIST CSF. Um grupo pode conter várias avaliações para o mesmo produto somente se a certificação ou a regulamentação correspondente para cada uma delas for diferente.
 - Excluir uma avaliação quebra a relação entre essa avaliação e o grupo.
 - Os grupos não podem ser excluídos.
 - Quando uma alteração é feita para uma melhoria que aparece em vários grupos, essa alteração é refletida em todas as instâncias dessa ação de melhoria.
@@ -143,7 +143,7 @@ Você concluirá esse processo iniciando na página modelos de **avaliação** e
 
 **Antes de começar**
 
-Para se preparar para esse processo, primeiro você precisará montar uma planilha do Excel especialmente formatada para importar os dados de modelo necessários. Há requisitos especiais para os [arquivos formatados do Excel](compliance-manager-templates.md#formatting-your-template-data-with-excel) usados no processo de extensão. Confira estes pontos adicionais para ajudar a evitar erros no processo de importação:
+Para se preparar para esse processo, primeiro você precisará montar uma planilha de Excel formatada especialmente para importar os dados de modelo necessários. Há requisitos especiais para os arquivos [Excel formatados](compliance-manager-templates.md#formatting-your-template-data-with-excel) usados no processo de extensão. Confira estes pontos adicionais para ajudar a evitar erros no processo de importação:
 
 - Sua planilha deve conter apenas as ações e controles que você deseja adicionar à avaliação. 
 - A planilha não pode conter nenhum dos controles ou ações que já existem na avaliação que você deseja modificar.
@@ -165,13 +165,13 @@ Depois de formatar sua planilha, siga as etapas abaixo.
 
 6. A próxima tela mostra o modelo selecionado. Se estiver correto, selecione **Next**. (Se estiver incorreto, escolha **Selecionar um modelo diferente** para escolher novamente.)
 
-7. Na tela **Carregar arquivo,** selecione **Procurar para** encontrar e carregar seu arquivo do Excel formatado contendo todos os dados de modelo necessários.
+7. Na tela **Upload arquivo,** selecione **Procurar** para encontrar e carregar seu arquivo Excel formatado contendo todos os dados de modelo necessários.
 
-8. Se não houver problemas com seu arquivo, a próxima tela mostrará o nome do arquivo carregado. Selecione **Próximo** para continuar (se você precisar alterar o arquivo, selecione **Carregar um arquivo diferente**).
+8. Se não houver problemas com seu arquivo, a próxima tela mostrará o nome do arquivo carregado. Selecione **Próximo** para continuar (se você precisar alterar o arquivo, selecione **Upload um arquivo diferente**).
 
     - Se houver um problema com seu arquivo, uma mensagem de erro na parte superior explica o que há de errado. Você precisará corrigir e carregar seu arquivo. Os erros resultarão se sua planilha for formatada incorretamente ou se houver informações inválidas em determinados campos.
  
-9. A **tela Revisar e concluir** mostra o número de ações de melhoria e controles e a pontuação máxima do modelo. Quando estiver pronto para aprovar, selecione **Próximo**. (Se você precisar fazer alterações, selecione **Carregar um arquivo diferente**.)
+9. A **tela Revisar e concluir** mostra o número de ações de melhoria e controles e a pontuação máxima do modelo. Quando estiver pronto para aprovar, selecione **Próximo**. (Se você precisar fazer alterações, selecione **Upload um arquivo diferente**.)
 
 10. A última tela confirma que um novo modelo foi criado. Selecione **Feito** para sair do assistente.
 
@@ -179,11 +179,11 @@ Depois de formatar sua planilha, siga as etapas abaixo.
 
 ## <a name="create-your-own-custom-assessment"></a>Criar sua própria avaliação personalizada
 
-Criar uma avaliação personalizada no Gerenciador de Conformidade exige que você crie seu próprio modelo. Para criar seu próprio modelo, primeiro você montará uma planilha formatada do Excel para importar os dados de modelo necessários. Ele também ajuda a decidir com antecedência qual grupo você atribuirá sua avaliação ao criar (saiba mais [sobre](#what-are-groups)grupos).
+Criar uma avaliação personalizada no Gerenciador de Conformidade exige que você crie seu próprio modelo. Para criar seu próprio modelo, você primeiro montará uma planilha Excel formatada para importar os dados de modelo necessários. Ele também ajuda a decidir com antecedência qual grupo você atribuirá sua avaliação ao criar (saiba mais [sobre](#what-are-groups)grupos).
 
 **Siga as etapas abaixo para criar sua avaliação personalizada:**
 
-1. **Formatar seu arquivo do Excel.** Comece formatando os dados do modelo em uma planilha do Excel usando [estas instruções.](compliance-manager-templates.md#formatting-your-template-data-with-excel)
+1. **Formatar seu Excel arquivo.** Comece formatando os dados do modelo em uma planilha Excel usando [estas instruções](compliance-manager-templates.md#formatting-your-template-data-with-excel).
 
 2. **Crie seu modelo** seguindo [estas instruções](compliance-manager-templates.md#create-a-new-template).
 
@@ -291,7 +291,7 @@ Depois de **selecionar Revisar atualização** na página de detalhes da avalia�
 - Uma visão geral explicando a atualização
 - Detalhes específicos sobre as alterações, incluindo o impacto na pontuação de conformidade, a quantidade de progresso na conclusão da avaliação e o número específico de alterações nas ações e controles de melhoria.
 
-Selecionar o link **Modelo Atualizado** baixará um arquivo do Excel contendo dados de controle para a versão do modelo com as atualizações pendentes. Selecionar o **link Modelo** Atual baixa um arquivo do modelo existente sem as alterações.
+Selecionar o link **Modelo** Atualizado baixará um arquivo Excel que contém dados de controle para a versão do modelo com as atualizações pendentes. Selecionar o **link Modelo** Atual baixa um arquivo do modelo existente sem as alterações.
 
 Para aceitar a atualização e fazer as alterações na sua avaliação, selecione **Aceitar atualização**. As alterações aceitas são permanentes.
 
@@ -307,6 +307,6 @@ Se você estiver no meio da conclusão de uma avaliação, talvez queira garanti
 
 ## <a name="export-an-assessment-report"></a>Exportar um relatório de avaliação
 
-Você pode exportar uma avaliação para um arquivo do Excel para participantes de conformidade em sua organização ou para auditores externos e reguladores. Na página detalhes da avaliação, selecione o botão **Gerar relatório** próximo à parte superior da página, que cria um arquivo do Excel que você pode salvar e compartilhar.
+Você pode exportar uma avaliação para um arquivo Excel para participantes de conformidade em sua organização ou para auditores externos e reguladores. Na página detalhes da avaliação, selecione o botão **Gerar relatório** próximo à parte superior da página, que cria um arquivo Excel que você pode salvar e compartilhar.
 
 O relatório é um instantâneo da avaliação a partir da data e hora da exportação. Ele contém os detalhes dos controles gerenciados por você e pela Microsoft, incluindo o status da implementação, a data do teste e os resultados do teste.

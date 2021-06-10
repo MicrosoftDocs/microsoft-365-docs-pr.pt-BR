@@ -1,5 +1,5 @@
 ---
-title: Atualizar a API de incidentes
+title: Atualizar API de incidentes
 description: Saiba como atualizar incidentes usando Microsoft 365 API do Defender
 keywords: update, api, incident
 search.product: eADQiWindows 10XVcnh
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e3b445b2f9612f0113f353450ca7bf0b8a1a2bb2
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: b50fe4672dd4cd721464c7414297efcc4a4921b7
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730853"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861498"
 ---
 # <a name="update-incidents-api"></a>Atualizar a API de incidentes
 
@@ -56,7 +56,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão | Permissão | Nome de exibição de permissão
 -|-|-
 Aplicativo | Incident.ReadWrite.All | Ler e gravar todos os incidentes
-Delegado (conta corporativa ou de estudante) | Incident.ReadWrite | Incidentes de leitura e gravação
+Delegada (conta corporativa ou de estudante) | Incident.ReadWrite | Incidentes de leitura e gravação
 
 > [!NOTE]
 > Ao obter um token usando credenciais de usuário, o usuário precisa ter permissão para atualizar o incidente no portal.

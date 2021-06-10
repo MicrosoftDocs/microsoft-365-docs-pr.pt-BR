@@ -40,7 +40,7 @@ ms.locfileid: "51222330"
 >- [O Microsoft Defender para Detecção de Ponto](api-portal-mapping.md) de Extremidade é composto do evento suspeito ocorrido no Dispositivo e seus detalhes de Alerta relacionados.
 >-A API de alerta do Microsoft Defender for Endpoint é a API mais recente para consumo de alerta e contém uma lista detalhada de evidências relacionadas para cada alerta. Para obter mais informações, consulte [Métodos de alerta e propriedades](alerts.md) e [Alertas de lista.](get-alerts.md)
 
-O Defender for Endpoint oferece suporte a ferramentas de gerenciamento de informações de segurança e de eventos (SIEM) para detectar detecções. O Defender for Endpoint expõe alertas por meio de um ponto de extremidade HTTPS hospedado no Azure. O ponto de extremidade pode ser configurado para puxar detecções do seu locatário corporativo no Azure Active Directory (AAD) usando o protocolo de autenticação OAuth 2.0 para um aplicativo AAD que representa o conector SIEM específico instalado em seu ambiente.
+O Defender for Endpoint oferece suporte a ferramentas de gerenciamento de informações de segurança e de eventos (SIEM) para detectar detecções. O Defender for Endpoint expõe alertas por meio de um ponto de extremidade HTTPS hospedado no Azure. O ponto de extremidade pode ser configurado para puxar detecções do seu locatário empresarial no Azure Active Directory (AAD) usando o protocolo de autenticação OAuth 2.0 para um aplicativo AAD que representa o conector SIEM específico instalado em seu ambiente.
 
 O Defender for Endpoint atualmente dá suporte às seguintes ferramentas de solução SIEM específicas por meio de um modelo de integração SIEM dedicado:
 
