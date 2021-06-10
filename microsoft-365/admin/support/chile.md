@@ -19,22 +19,22 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52299923"
 ---
-# <a name="contact-support-for-chile"></a><span data-ttu-id="d0fa7-103">Contatar o suporte para o Chile</span><span class="sxs-lookup"><span data-stu-id="d0fa7-103">Contact support for Chile</span></span>
+# <a name="contact-support-for-chile"></a><span data-ttu-id="36ccc-103">Contatar o suporte para o Chile</span><span class="sxs-lookup"><span data-stu-id="36ccc-103">Contact support for Chile</span></span>
 
-<span data-ttu-id="d0fa7-104">[Encontre outro país ou região](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="d0fa7-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="36ccc-104">[Encontre outro país ou região](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="36ccc-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="d0fa7-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="d0fa7-105">Phone number</span></span>
-<span data-ttu-id="d0fa7-106">800 226 826</span><span class="sxs-lookup"><span data-stu-id="d0fa7-106">800 226 826</span></span>
+## <a name="phone-number"></a><span data-ttu-id="36ccc-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="36ccc-105">Phone number</span></span>
+<span data-ttu-id="36ccc-106">800 226 826</span><span class="sxs-lookup"><span data-stu-id="36ccc-106">800 226 826</span></span>
 
-## <a name="hours"></a><span data-ttu-id="d0fa7-107">Horas</span><span class="sxs-lookup"><span data-stu-id="d0fa7-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="d0fa7-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="d0fa7-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="36ccc-107">Horas</span><span class="sxs-lookup"><span data-stu-id="36ccc-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="36ccc-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="36ccc-108">Billing Support:</span></span>
 
-<span data-ttu-id="d0fa7-109">Espanhol: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="d0fa7-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="36ccc-109">Espanhol: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="36ccc-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="d0fa7-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="d0fa7-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="36ccc-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="36ccc-110">Technical Support:</span></span>
 
-<span data-ttu-id="d0fa7-111">Espanhol: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="d0fa7-111">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="36ccc-111">Espanhol: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="36ccc-111">Spanish: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="d0fa7-112">Número Telefone alternativo: 123 002 000 05</span><span class="sxs-lookup"><span data-stu-id="d0fa7-112">Alternative Phone Number: 123 002 000 05</span></span>
+<span data-ttu-id="36ccc-112">Número Telefone alternativo: 123 002 000 05</span><span class="sxs-lookup"><span data-stu-id="36ccc-112">Alternative Phone Number: 123 002 000 05</span></span>
 
-<span data-ttu-id="d0fa7-113">Cobranças de chamada locais são aplicadas</span><span class="sxs-lookup"><span data-stu-id="d0fa7-113">Local call charges apply</span></span>
+<span data-ttu-id="36ccc-113">Cobranças de chamada locais são aplicadas</span><span class="sxs-lookup"><span data-stu-id="36ccc-113">Local call charges apply</span></span>

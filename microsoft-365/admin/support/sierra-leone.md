@@ -19,20 +19,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297723"
 ---
-# <a name="contact-support-for-sierra-leone"></a><span data-ttu-id="a28ca-103">Contatar o suporte para a Serra Leoa</span><span class="sxs-lookup"><span data-stu-id="a28ca-103">Contact support for Sierra Leone</span></span>
+# <a name="contact-support-for-sierra-leone"></a><span data-ttu-id="10262-103">Contatar o suporte para a Serra Leoa</span><span class="sxs-lookup"><span data-stu-id="10262-103">Contact support for Sierra Leone</span></span>
 
-<span data-ttu-id="a28ca-104">[Encontre outro país ou região](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="a28ca-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="10262-104">[Encontre outro país ou região](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="10262-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="a28ca-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="a28ca-105">Phone number</span></span>
-<span data-ttu-id="a28ca-106">+1 312 843 5151</span><span class="sxs-lookup"><span data-stu-id="a28ca-106">+1 312 843 5151</span></span>
+## <a name="phone-number"></a><span data-ttu-id="10262-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="10262-105">Phone number</span></span>
+<span data-ttu-id="10262-106">+1 312 843 5151</span><span class="sxs-lookup"><span data-stu-id="10262-106">+1 312 843 5151</span></span>
 
-## <a name="hours"></a><span data-ttu-id="a28ca-107">Horas</span><span class="sxs-lookup"><span data-stu-id="a28ca-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="a28ca-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="a28ca-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="10262-107">Horas</span><span class="sxs-lookup"><span data-stu-id="10262-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="10262-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="10262-108">Billing Support:</span></span>
 
-<span data-ttu-id="a28ca-109">Inglês: Segunda a sexta, das 9h às 17h</span><span class="sxs-lookup"><span data-stu-id="a28ca-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="10262-109">Inglês: Segunda a sexta, das 9h às 17h</span><span class="sxs-lookup"><span data-stu-id="10262-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="a28ca-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="a28ca-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="10262-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="10262-110">Technical Support:</span></span>
 
-<span data-ttu-id="a28ca-111">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="a28ca-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="10262-111">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="10262-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="a28ca-112">Cobranças de chamada internacionais são aplicadas</span><span class="sxs-lookup"><span data-stu-id="a28ca-112">International call charges apply</span></span>
+<span data-ttu-id="10262-112">Cobranças de chamada internacionais são aplicadas</span><span class="sxs-lookup"><span data-stu-id="10262-112">International call charges apply</span></span>

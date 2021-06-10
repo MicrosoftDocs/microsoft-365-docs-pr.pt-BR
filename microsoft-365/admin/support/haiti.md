@@ -19,24 +19,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52298666"
 ---
-# <a name="contact-support-for-haiti"></a><span data-ttu-id="78ffa-103">Contatar o suporte para o Haiti</span><span class="sxs-lookup"><span data-stu-id="78ffa-103">Contact support for Haiti</span></span>
+# <a name="contact-support-for-haiti"></a><span data-ttu-id="820e3-103">Contatar o suporte para o Haiti</span><span class="sxs-lookup"><span data-stu-id="820e3-103">Contact support for Haiti</span></span>
 
-<span data-ttu-id="78ffa-104">[Encontre outro país ou região](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="78ffa-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="820e3-104">[Encontre outro país ou região](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="820e3-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="78ffa-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="78ffa-105">Phone number</span></span>
-<span data-ttu-id="78ffa-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="78ffa-106">+1 312 843 5147</span></span>
+## <a name="phone-number"></a><span data-ttu-id="820e3-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="820e3-105">Phone number</span></span>
+<span data-ttu-id="820e3-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="820e3-106">+1 312 843 5147</span></span>
 
-## <a name="hours"></a><span data-ttu-id="78ffa-107">Horas</span><span class="sxs-lookup"><span data-stu-id="78ffa-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="78ffa-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="78ffa-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="820e3-107">Horas</span><span class="sxs-lookup"><span data-stu-id="820e3-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="820e3-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="820e3-108">Billing Support:</span></span>
 
-<span data-ttu-id="78ffa-109">Francês: Mon-Fri 3:00 AM-11</span><span class="sxs-lookup"><span data-stu-id="78ffa-109">French: Mon-Fri 3 AM-11 AM</span></span>
+<span data-ttu-id="820e3-109">Francês: Mon-Fri 3:00 AM-11</span><span class="sxs-lookup"><span data-stu-id="820e3-109">French: Mon-Fri 3 AM-11 AM</span></span>
 
-<span data-ttu-id="78ffa-110">Inglês: Mon-Fri 3:11 AM</span><span class="sxs-lookup"><span data-stu-id="78ffa-110">English: Mon-Fri 3 AM-11 AM</span></span>
+<span data-ttu-id="820e3-110">Inglês: Mon-Fri 3:11 AM</span><span class="sxs-lookup"><span data-stu-id="820e3-110">English: Mon-Fri 3 AM-11 AM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="78ffa-111">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="78ffa-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="820e3-111">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="820e3-111">Technical Support:</span></span>
 
-<span data-ttu-id="78ffa-112">Francês: Mon-Fri 14:00 às 15:00</span><span class="sxs-lookup"><span data-stu-id="78ffa-112">French: Mon-Fri 2 AM-3 PM</span></span>
+<span data-ttu-id="820e3-112">Francês: Mon-Fri 14:00 às 15:00</span><span class="sxs-lookup"><span data-stu-id="820e3-112">French: Mon-Fri 2 AM-3 PM</span></span>
 
-<span data-ttu-id="78ffa-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="78ffa-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="820e3-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="820e3-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="78ffa-114">Cobranças de chamada internacionais são aplicadas</span><span class="sxs-lookup"><span data-stu-id="78ffa-114">International call charges apply</span></span>
+<span data-ttu-id="820e3-114">Cobranças de chamada internacionais são aplicadas</span><span class="sxs-lookup"><span data-stu-id="820e3-114">International call charges apply</span></span>

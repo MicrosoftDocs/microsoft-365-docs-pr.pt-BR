@@ -19,20 +19,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52298777"
 ---
-# <a name="contact-support-for-grenada"></a><span data-ttu-id="97649-103">Entrar em contato com o suporte para a Granada</span><span class="sxs-lookup"><span data-stu-id="97649-103">Contact support for Grenada</span></span>
+# <a name="contact-support-for-grenada"></a><span data-ttu-id="dabed-103">Entrar em contato com o suporte para a Granada</span><span class="sxs-lookup"><span data-stu-id="dabed-103">Contact support for Grenada</span></span>
 
-<span data-ttu-id="97649-104">[Encontre outro país ou região](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="97649-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="dabed-104">[Encontre outro país ou região](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="dabed-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="97649-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="97649-105">Phone number</span></span>
-<span data-ttu-id="97649-106">+1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="97649-106">+1 312 843 5145</span></span>
+## <a name="phone-number"></a><span data-ttu-id="dabed-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="dabed-105">Phone number</span></span>
+<span data-ttu-id="dabed-106">+1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="dabed-106">+1 312 843 5145</span></span>
 
-## <a name="hours"></a><span data-ttu-id="97649-107">Horas</span><span class="sxs-lookup"><span data-stu-id="97649-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="97649-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="97649-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="dabed-107">Horas</span><span class="sxs-lookup"><span data-stu-id="dabed-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="dabed-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="dabed-108">Billing Support:</span></span>
 
-<span data-ttu-id="97649-109">Inglês: Segunda a sexta, das 9h às 17h</span><span class="sxs-lookup"><span data-stu-id="97649-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="dabed-109">Inglês: Segunda a sexta, das 9h às 17h</span><span class="sxs-lookup"><span data-stu-id="dabed-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="97649-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="97649-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="dabed-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="dabed-110">Technical Support:</span></span>
 
-<span data-ttu-id="97649-111">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="97649-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="dabed-111">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="dabed-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="97649-112">Cobranças de chamada internacionais são aplicadas</span><span class="sxs-lookup"><span data-stu-id="97649-112">International call charges apply</span></span>
+<span data-ttu-id="dabed-112">Cobranças de chamada internacionais são aplicadas</span><span class="sxs-lookup"><span data-stu-id="dabed-112">International call charges apply</span></span>
