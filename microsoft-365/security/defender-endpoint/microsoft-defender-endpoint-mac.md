@@ -91,7 +91,7 @@ Não há suporte para dispositivos macOS com processadores M1.
 
 Depois de habilitar o serviço, talvez seja necessário configurar sua rede ou firewall para permitir conexões de saída entre ele e seus pontos de extremidade.
 
-### <a name="licensing-requirements"></a>Requisitos de licença
+### <a name="licensing-requirements"></a>Requisitos de licenciamento
 
 O Microsoft Defender para Ponto de Extremidade no Mac requer uma das seguintes ofertas de Licenciamento por Volume da Microsoft:
 

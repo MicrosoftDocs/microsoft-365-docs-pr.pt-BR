@@ -4,6 +4,7 @@ keywords: Acesso controlado a pastas, windows 10, windows defender, ransomware, 
 description: Saiba como proteger seus arquivos importantes habilitando o acesso controlado a pastas
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
+ms.topic: article
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
@@ -14,12 +15,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 1d09eaf04999478a0cd0b4907667a522a23fb39f
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 5a90a12457597fa38c648fd44bf194d2322a26af
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841973"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861214"
 ---
 # <a name="enable-controlled-folder-access"></a>Habilitar o acesso controlado a pastas
 
@@ -36,7 +37,7 @@ ms.locfileid: "52841973"
 Você pode habilitar o acesso controlado a pastas usando qualquer um desses métodos:
 
 * [Segurança do Windows app](#windows-security-app)
-* [Microsoft Intune](#intune)
+* [Microsoft Endpoint Manager](#endpoint-manager)
 * [Gerenciamento de Dispositivo Móvel (MDM)](#mobile-device-management-mdm)
 * [Microsoft Endpoint Configuration Manager](#microsoft-endpoint-configuration-manager)
 * [Política de grupo](#group-policy)
@@ -64,24 +65,30 @@ Para obter mais informações sobre como desabilitar a mesclação de listas loc
 > Se o recurso for definido como **Modo de** Auditoria com qualquer uma dessas ferramentas, o aplicativo Segurança do Windows mostrará o estado como **Off**.
 > Se você estiver protegendo dados de perfil de usuário, recomendamos que o perfil de usuário deve estar na unidade de instalação Windows padrão.
 
-## <a name="intune"></a>Intune
+## <a name="endpoint-manager"></a>Gerenciador de Pontos de Extremidade
 
-1. Entre no [portal do Azure e](https://portal.azure.com) abra o Intune.
+1. Entre no Endpoint Manager [e](https://endpoint.microsoft.com) abra a Segurança do Ponto de **Extremidade.**
 
-2. Vá para **Configuração do dispositivo**  >  **Perfis**  >  **Criar perfil**.
+2. Vá para **Política de Redução de Superfície de**  >  **Ataque**.
 
-3. Nomee o perfil, escolha **Windows 10 e posterior e** Proteção de Ponto de **Extremidade.** <br/> ![Criar perfil de proteção de ponto de extremidade](/microsoft-365/security/defender-endpoint/images/create-endpoint-protection-profile) <br/>
+3. Selecione **Plataforma,** escolha **Windows 10 e posterior** e selecione o perfil Regras de Redução de Superfície de **Ataque**  >  **Criar**.
 
-4. Vá para **Configurar Windows Defender** acesso controlado de pasta  >  do Exploit **Guard**  >    >  **Enable**.
+4.  Nomeia a política e adicione uma descrição. Selecione **Avançar**.
 
-5. Digite o caminho para cada aplicativo que tenha acesso a pastas protegidas e o caminho para qualquer pasta adicional que precise de proteção. Selecione **Adicionar**.<br/> ![Habilitar o acesso controlado a pastas no Intune](/microsoft-365/security/defender-endpoint/images/enable-cfa-intune)<br/>
+5.  Role para baixo até a parte inferior, selecione o menu drop-down **Habilitar Proteção** de Pasta e escolha **Habilitar**.
+
+6.  Selecione **Lista de pastas adicionais que precisam ser protegidas** e adicione as pastas que precisam ser protegidas.
+
+7.  Selecione **Lista de aplicativos que têm acesso** a pastas protegidas e adicione os aplicativos que têm acesso a pastas protegidas.
+
+8.  Selecione **Excluir arquivos e caminhos das regras** de redução de superfície de ataque e adicione os arquivos e caminhos que precisam ser excluídos das regras de redução de superfície de ataque.
+
+9.  Selecione as **atribuições de perfil,** atribua a Todos os **Usuários & Todos os** Dispositivos e selecione **Salvar**.
+
+10.  Selecione **Próximo para** salvar cada folha aberta **e,** em seguida, Criar .
 
    > [!NOTE]
-   > O Wilcard é suportado para aplicativos, mas não para pastas. As subpastas não estão protegidas. Os aplicativos permitidos continuarão a disparar eventos até que sejam reiniciados.
-
-6. Selecione **OK** para salvar cada folha aberta e **Criar**.
-
-7. Selecione as **atribuições de perfil,** atribua a Todos os **Usuários & Todos os** Dispositivos e **Salve**.
+   > Os curingas são suportados para aplicativos, mas não para pastas. As subpastas não estão protegidas. Os aplicativos permitidos continuarão a disparar eventos até que sejam reiniciados.
 
 ## <a name="mobile-device-management-mdm"></a>Gerenciamento de Dispositivo Móvel (MDM)
 

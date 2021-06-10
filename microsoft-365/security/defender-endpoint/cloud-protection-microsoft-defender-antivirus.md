@@ -1,5 +1,5 @@
 ---
-title: Proteção fornecida na nuvem e Microsoft Defender Antivírus
+title: Proteção fornecida pela nuvem e o Microsoft Defender Antivírus
 description: Saiba mais sobre proteção entregue na nuvem e Microsoft Defender Antivírus
 keywords: Microsoft Defender Antivírus, tecnologias de última geração, av de última geração, aprendizado de máquina, antimalware, segurança, defensor, nuvem, proteção entregue na nuvem
 search.product: eADQiWindows 10XVcnh
@@ -14,14 +14,15 @@ manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 836025b42bbe6142f462ee31f266a636f5101fe9
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.date: 06/03/2021
+ms.openlocfilehash: ce54f8205e62b953022fd2518caac058f4f9bab2
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52783000"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788794"
 ---
-# <a name="cloud-delivered-protection-and-microsoft-defender-antivirus"></a>Proteção fornecida na nuvem e Microsoft Defender Antivírus
+# <a name="cloud-delivered-protection-and-microsoft-defender-antivirus"></a>Proteção fornecida pela nuvem e o Microsoft Defender Antivírus
 
 **Aplica-se a:**
 

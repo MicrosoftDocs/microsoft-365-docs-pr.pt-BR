@@ -40,7 +40,7 @@ Ao configurar o Microsoft 365 para sua empresa, você pode criar um endereço de
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyVVA?autoplay=false]
 
-Compre um novo nome de domínio para seu endereço de email e configurar os endereços de email com o Microsoft 365. 
+Compre um novo nome de domínio para seu endereço de email e configurar os endereços de email com Microsoft 365. 
 
 ## <a name="try-it"></a>Experimente!
  
@@ -61,4 +61,4 @@ Use um nome de domínio que você já possui se o está usando para um endereço
 1. Personalize o endereço de email ou deixe-o como está. 
 1. Saia do Microsoft 365 e entre novamente com seu novo endereço de email. Os endereços de email dos funcionários são atualizados com o novo domínio. 
 1. Compartilhe os novos endereços de email com seus funcionários exportando a lista.
-1. Conecte seu domínio ao Microsoft 365 repetindo a Etapa 1 acima. 
+1. Conexão seu domínio para Microsoft 365 repetindo a Etapa 1 acima. 

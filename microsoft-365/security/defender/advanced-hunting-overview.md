@@ -46,14 +46,14 @@ A busca avançada é uma ferramenta de busca de ameaças baseada em consultas qu
 
 Você pode usar as mesmas consultas de busca de ameaças para criar regras de detecção personalizadas. Essas regras são executados automaticamente para verificar e responder a atividades suspeitas de violação, máquinas mal configuradas e outras descobertas.
 
-Esse recurso é semelhante à busca [avançada no Microsoft Defender para Ponto de Extremidade.](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) Disponível no Centro de segurança do Microsoft 365, esse recurso oferece suporte a consultas que verificam um conjunto de dados mais amplo de:
+Esse recurso é semelhante à busca [avançada no Microsoft Defender para Ponto de Extremidade.](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) Disponível no Microsoft 365 de segurança, esse recurso oferece suporte a consultas que verificam um conjunto de dados mais amplo de:
 
 - Microsoft Defender para Ponto de Extremidade
 - Microsoft Defender para Office 365
 - Microsoft Cloud App Security
 - Microsoft Defender para Identidade?
 
-Para usar a busca avançada, [a ligue o Microsoft 365 Defender](m365d-enable.md).
+Para usar a busca avançada, [a Microsoft 365 Defender](m365d-enable.md).
 
 ## <a name="get-started-with-advanced-hunting"></a>Introdução à busca avançada
 
@@ -69,7 +69,7 @@ Recomendamos passar por várias etapas para começar rapidamente com a busca ava
 | **Criar regras de detecção personalizadas** | Entenda como você pode usar consultas de busca avançadas para disparar alertas e tomar ações de resposta automaticamente. | - [Visão geral de detecções personalizadas](custom-detections-overview.md) <br />- [Regras de detecção personalizadas](custom-detection-rules.md) |
 
 ## <a name="get-access"></a>Obter acesso
-Para usar a busca avançada ou outros recursos do [Microsoft 365 Defender,](microsoft-365-defender.md) você precisa de uma função apropriada no Azure Active Directory. Leia sobre funções e permissões necessárias [para a busca avançada.](custom-roles.md)
+Para usar recursos avançados de Microsoft 365 [defender,](microsoft-365-defender.md) você precisa de uma função apropriada Azure Active Directory. Leia sobre funções e permissões necessárias [para a busca avançada.](custom-roles.md)
 
 Além disso, o acesso aos dados do ponto de extremidade é determinado pelas configurações de controle de acesso baseado em função (RBAC) no Microsoft Defender para Ponto de Extremidade. [Leia sobre como gerenciar o acesso ao Microsoft 365 Defender](m365d-permissions.md).
 

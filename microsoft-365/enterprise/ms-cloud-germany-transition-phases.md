@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: entenda as ações de fases de migração e os impactos da migração do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para Office 365 serviços na nova região do datacenter alemão.'
-ms.openlocfilehash: 3a5b95bac74ae405f4e1d6fa91ba4ab51e4a9d05
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: 28d5eebbe63db13edfb1bfc297bdd6ad0c13536c
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796037"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861235"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>Ações e impactos de fases de migração para a migração do Microsoft Cloud Deutschland
 
@@ -315,6 +315,11 @@ Microsoft Azure clientes devem fazer a transição de suas cargas de trabalho do
 | Atualizar pontos de extremidade do aplicativo do Azure AD | Você deve atualizar autenticação, Azure Active Directory (Azure AD) Graph e pontos de extremidade do MS Graph para seus aplicativos para os do serviço Microsoft Worldwide. | 30 dias após a finalização da migração, os pontos de extremidade do Microsoft Cloud Deutschland param de receber solicitações; o tráfego de cliente ou aplicativo falhará. |
 | Migrar cargas de trabalho do Azure | Os clientes de serviços do Azure devem provisionr novas assinaturas em todo o mundo para os serviços do Azure e executar a migração de acordo com o playbook de migração [do Azure.](/azure/germany/germany-migration-main) | Quando estiver totalmente em transição para o serviço mundial (Fase 10), os clientes não poderão mais acessar cargas de trabalho do Azure presentes no portal do Microsoft Cloud Deutschland Azure. |
 ||||
+
+**Aplica-se a:** Clientes com dispositivos registrados ou ingressados no Azure AD
+
+Após a conclusão da fase 9, os dispositivos registrados e ingressados no Azure AD devem ser conectados à instância transitada do Azure AD na nova região do datacenter alemão.
+Os dispositivos que não estão ingressados no Azure AD podem não operar mais no final da fase 10. Para obter instruções detalhadas e mais detalhes, consulte [as informações adicionais sobre dispositivos](ms-cloud-germany-transition-add-devices.md).
 
 ### <a name="azure-ad-connect"></a>Azure AD Connect
 **Aplica-se a:** Todos os clientes sincronizando identidades com a conexão do Azure AD

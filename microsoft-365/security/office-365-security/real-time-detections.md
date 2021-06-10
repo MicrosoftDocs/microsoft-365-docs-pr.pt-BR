@@ -23,7 +23,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52300092"
 ---
-# <a name="threat-explorer-and-real-time-detections-basics"></a>Noções básicas sobre o Explorador de Ameaças e Detecções em Tempo Real
+# <a name="threat-explorer-and-real-time-detections-basics"></a>Noções básicas sobre o Explorador de Ameaças e detecção em tempo real
 
 Neste artigo:
 

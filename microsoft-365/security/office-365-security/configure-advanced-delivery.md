@@ -71,7 +71,7 @@ As mensagens identificadas pela política de entrega avançada não são ameaça
   Para obter mais informações, consulte [Permissions in the Microsoft 365 security center](permissions-microsoft-365-security-center.md) and [Permissions in Exchange Online](/exchange/permissions-exo/permissions-exo).
 
   > [!NOTE]
-  > Adicionar usuários à função Azure Active Directory correspondente fornece aos usuários as permissões  necessárias no centro de segurança e permissões para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+  > Adicionar usuários à função Azure Active Directory correspondente fornece aos usuários as permissões  necessárias no centro de segurança e permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 
 ## <a name="use-the-security-center-to-configure-secops-mailboxes-in-the-advanced-delivery-policy"></a>Use o centro de segurança para configurar caixas de correio SecOps na política de entrega avançada
 
