@@ -32,12 +32,12 @@ ms.locfileid: "51580481"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FVVP?autoplay=false]
 
-No Microsoft 365 para empresas, você pode redefinir senhas para usuários. Você também pode permitir que os funcionários redefinir suas próprias senhas. Consulte [Configurar a redefinição de senha de autoatendados](set-up-self-serve-password-reset.md) para obter mais informações.
+Em Microsoft 365 para empresas, você pode redefinir senhas para usuários. Você também pode permitir que os funcionários redefinir suas próprias senhas. Consulte [Configurar a redefinição de senha de autoatendados](set-up-self-serve-password-reset.md) para obter mais informações.
 
 ## <a name="try-it"></a>Experimente!
 
 1. Quando um usuário solicitar uma nova senha, você receberá uma solicitação de redefinição de senha por email. Para redefinir a senha, abra o launcher do aplicativo e selecione **Admin**.
-1. No Centro de administração do Microsoft 365, selecione **Usuários**  **,** Usuários ativos e selecione o ícone de chave ao lado do usuário que solicitou a redefinição.
+1. No centro Microsoft 365 de administração, selecione **Usuários** **,** Usuários ativos e selecione o ícone de chave ao lado do usuário que solicitou a redefinição.
 1. Selecione **Gerar senha automaticamente para** ter uma senha aleatória criada automaticamente.
 1. Selecione **Redefinir**.
 1. Marque a **caixa de seleção Enviar senha no email.**

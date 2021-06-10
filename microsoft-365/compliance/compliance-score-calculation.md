@@ -1,5 +1,5 @@
 ---
-title: Cálculo de pontuação de conformidade
+title: Cálculo da pontuação de conformidade
 f1.keywords:
 - NOCSH
 ms.author: chvukosw
@@ -22,12 +22,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51052109"
 ---
-# <a name="compliance-score-calculation"></a>Cálculo de pontuação de conformidade
+# <a name="compliance-score-calculation"></a>Cálculo da pontuação de conformidade
 
 **Neste artigo:** Saiba como o Gerenciador de Conformidade calcula uma pontuação de conformidade para sua organização. Este artigo explica como **interpretar** sua pontuação , o que a avaliação da Linha de **Base** de Proteção de Dados **inclui,** monitoramento contínuo e como diferentes tipos de ações são gerenciados e **pontuados.**
 
 > [!IMPORTANT]
-> As recomendações do Gerenciador de Conformidade não devem ser interpretadas como uma garantia de conformidade. Você deve avaliar e validar a eficácia dos controles do cliente de acordo com seu ambiente regulatório. Esses serviços estão sujeitos aos termos e condições nos Termos [de Serviços Online.](https://go.microsoft.com/fwlink/?linkid=2108910) Consulte também as diretrizes de licenciamento do [Microsoft 365 para segurança e conformidade.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+> As recomendações do Gerenciador de Conformidade não devem ser interpretadas como uma garantia de conformidade. Você deve avaliar e validar a eficácia dos controles do cliente de acordo com seu ambiente regulatório. Esses serviços estão sujeitos aos termos e condições nos Termos [de Serviços Online.](https://go.microsoft.com/fwlink/?linkid=2108910) Consulte também [Microsoft 365 de licenciamento para segurança e conformidade.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 ## <a name="how-to-read-your-compliance-score"></a>Como ler sua pontuação de conformidade
 
@@ -45,17 +45,17 @@ Um valor de pontuação é atribuído a três níveis:
 
 A pontuação geral de conformidade é calculada usando pontuações de ação, onde cada ação da Microsoft é contada uma vez, cada ação técnica gerenciada é contada uma vez e cada ação não técnica gerenciada é contada uma vez por grupo. Essa lógica foi projetada para fornecer a contabilidade mais precisa de como as ações são implementadas e testadas em sua organização. Você pode observar que isso pode fazer com que sua pontuação geral de conformidade seja diferente da média de suas pontuações de avaliação. Leia mais abaixo sobre [como as ações são pontuadas.](#action-types-and-points)
 
-## <a name="initial-score-based-on-microsoft-365-data-protection-baseline"></a>Pontuação inicial com base na linha de base de proteção de dados do Microsoft 365
+## <a name="initial-score-based-on-microsoft-365-data-protection-baseline"></a>Pontuação inicial com base Microsoft 365 de proteção de dados
   
-O Gerenciador de Conformidade fornece uma pontuação inicial com base na linha de base de proteção de dados do Microsoft 365. Essa linha de base é um conjunto de controles que inclui os principais regulamentos e padrões para proteção de dados e governança geral de dados. Essa linha de base desenha elementos principalmente do NIST CSF (National Institute of Standards and Technology Cybersecurity Framework) e ISO (International Organization for Standardization), bem como do FedRAMP (Programa Federal de Gerenciamento de Riscos e Autorizações) e do RGPD (Regulamento Geral de Proteção de Dados da União Europeia).
+O Gerenciador de Conformidade fornece uma pontuação inicial com base na linha de base Microsoft 365 proteção de dados. Essa linha de base é um conjunto de controles que inclui os principais regulamentos e padrões para proteção de dados e governança geral de dados. Essa linha de base desenha elementos principalmente do NIST CSF (National Institute of Standards and Technology Cybersecurity Framework) e ISO (International Organization for Standardization), bem como do FedRAMP (Programa Federal de Gerenciamento de Riscos e Autorizações) e do RGPD (Regulamento Geral de Proteção de Dados da União Europeia).
 
-Sua pontuação inicial é calculada de acordo com a avaliação padrão da Linha de Base de Proteção de Dados fornecida a todas as organizações. Na primeira visita, o Gerenciador de Conformidade já está coletando sinais de suas soluções do Microsoft 365. Você verá rapidamente como sua organização está se portando em relação aos principais padrões e regulamentos de proteção de dados e verá ações de melhoria sugeridas a executar.
+Sua pontuação inicial é calculada de acordo com a avaliação padrão da Linha de Base de Proteção de Dados fornecida a todas as organizações. Na primeira visita, o Gerenciador de Conformidade já está coletando sinais de suas soluções Microsoft 365 de segurança. Você verá rapidamente como sua organização está se portando em relação aos principais padrões e regulamentos de proteção de dados e verá ações de melhoria sugeridas a executar.
 
 Como todas as organizações têm necessidades específicas, o Gerenciador de Conformidade depende de você para configurar e gerenciar avaliações para ajudar a minimizar e reduzir o risco da forma mais abrangente possível.
 
 ## <a name="how-compliance-manager-continuously-assesses-controls"></a>Como o Gerenciador de Conformidade avalia continuamente os controles
 
-O Gerenciador de Conformidade verifica automaticamente seu ambiente do Microsoft 365 e detecta as configurações do sistema, atualizando continuamente e automaticamente seu status de ação técnica. A Pontuação Segura da Microsoft é o mecanismo subjacente que executa o monitoramento.
+O Gerenciador de Conformidade verifica automaticamente seu ambiente de Microsoft 365 e detecta as configurações do sistema, atualizando continuamente e automaticamente seu status de ação técnica. A Pontuação Segura da Microsoft é o mecanismo subjacente que executa o monitoramento.
 
 Seu status de ação é atualizado no painel a cada 24 horas. Depois de seguir uma recomendação para implementar um controle, normalmente você verá o status de controle atualizado no dia seguinte.
 
@@ -98,25 +98,25 @@ As ações são atribuídas a um valor de pontuação com base em se elas são o
 
  - **As ações obrigatórias** não podem ser ignoradas, intencionalmente ou acidentalmente. Um exemplo de uma ação obrigatória é uma política de senha gerenciada centralmente que define os requisitos de comprimento, complexidade e expiração da senha. Os usuários devem seguir estes requisitos para acessar o sistema.
   
- - **As ações discricionárias** dependem dos usuários para entender e aderir a uma política. Por exemplo, uma política que exige que os usuários bloqueiem o computador quando o deixam é uma ação discricionária porque depende do usuário.
+ - **As ações discricionárias** dependem dos usuários para entender e aderir a uma política. Por exemplo, uma política que exige o bloqueio do computador pelo usuário quando ele se ausenta é um controle opcional porque depende do usuário.
   
 ### <a name="preventative-detective-and-corrective-actions"></a>Ações preventivas, de detetives e corretivas
   
- - **As ações preventivas** abordam riscos específicos. Por exemplo, proteger informações em repouso usando criptografia é uma ação preventiva contra ataques e violações. A separação de direitos é uma ação preventiva para gerenciar conflitos de interesse e proteger contra fraude.
+ - **Ações preventivas** abordam riscos específicos. Por exemplo, proteger as informações em repouso usando criptografia é um controle preventivo contra ataques e violações. A separação de funções é uma ação preventiva para gerenciar conflitos de interesse e proteger contra fraudes.
   
  - **Ações de detetive** monitoram ativamente sistemas para identificar condições irregulares ou comportamentos que representam riscos ou que podem ser usados para detectar invasões ou violações. Exemplos incluem auditoria de acesso ao sistema e ações administrativas privilegiadas. As auditorias de conformidade regulamentar são um tipo de ação de detetive usada para encontrar problemas de processo.
   
-- **As ações corretivas** tentam manter os efeitos adversos de um incidente de segurança no mínimo, tomar medidas corretivas para reduzir o efeito imediato e reverter os danos, se possível. A resposta a incidentes de privacidade é uma ação corretiva para limitar danos e restaurar sistemas a um estado operacional após uma violação.
+- **As ações corretivas** tentam manter os efeitos adversos de um incidente de segurança no mínimo, tomar medidas corretivas para reduzir o efeito imediato e reverter os danos, se possível. A resposta a incidentes de privacidade é uma ação corretiva para limitar os danos e restaurar os sistemas a um estado operacional após uma violação.
   
 Cada ação tem um valor atribuído no Gerenciador de Conformidade com base no risco que representa:
 
 |**Tipo**|**Pontuação atribuída**|
 |:-----|:-----|
 | Preventivo obrigatório | 27 |
-| Discricionário preventivo | 9  |
+| Discricionárias preventivas | 9  |
 | Detetive obrigatório | 3 |
 | Detetive discricionário | 1 |
-| Obrigatório corretivo | 3 |
+| Obrigatória corretiva | 3 |
 | Discricionário corretivo | 1 |
   
 ![Valores de ponto de ação do Gerenciador de Conformidade](../media/compliance-score-action-scoring.png "Valores de ponto de ação do Gerenciador de Conformidade")

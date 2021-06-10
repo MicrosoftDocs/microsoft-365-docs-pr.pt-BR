@@ -37,17 +37,17 @@ Você também pode usar TLGs para criar ambientes representativos para desenvolv
   
 ![Guias de Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
-Para um mapa visual de todos os artigos na pilha guia do Laboratório de Teste do Microsoft 365 para empresas, expanda o gráfico a seguir ou vá para [o Microsoft 365](../downloads/Microsoft365EnterpriseTLGStack.pdf)para a pilha de guias de laboratório de teste corporativos.
+Para um mapa visual de todos os artigos na pilha Microsoft 365 guia de laboratório de teste empresarial, expanda o gráfico a seguir ou vá para o Microsoft 365 para a pilha de guias de laboratório de [teste empresarial](../downloads/Microsoft365EnterpriseTLGStack.pdf).
 
 [![A pilha da Guia do Laboratório de Teste do Microsoft 365 para empresas](../media/m365-enterprise-test-lab-guides/microsoft-365-enterprise-tlg-stack.png)](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
 ## <a name="base-configuration"></a>Configuração base
 
-Primeiro, crie um ambiente de teste [para o Microsoft 365 para empresas.](/microsoft-365-enterprise/) Você pode criar dois tipos diferentes de configurações base:
+Primeiro, crie um ambiente de teste para Microsoft 365 [para empresas.](/microsoft-365-enterprise/) Você pode criar dois tipos diferentes de configurações base:
 
-- [Configuração base](lightweight-base-configuration-microsoft-365-enterprise.md) leve - Use isso quando quiser configurar e demonstrar o Microsoft 365 para recursos e recursos corporativos em um ambiente somente na nuvem, que não inclui nenhum componente local.
+- [Configuração base](lightweight-base-configuration-microsoft-365-enterprise.md) leve - Use isso quando quiser configurar e demonstrar Microsoft 365 recursos corporativos em um ambiente somente na nuvem, que não inclui componentes locais.
 
-- [Configuração](simulated-ent-base-configuration-microsoft-365-enterprise.md) de base corporativa simulada - Use isso quando quiser configurar e demonstrar o Microsoft 365 para recursos e recursos corporativos em um ambiente de nuvem híbrido, que usa componentes locais, como um domínio do AD DS (Serviços de Domínio do Active Directory).
+- [Configuração](simulated-ent-base-configuration-microsoft-365-enterprise.md) de base empresarial simulada - Use isso quando quiser configurar e demonstrar o Microsoft 365 para recursos e recursos corporativos em um ambiente de nuvem híbrido, que usa componentes locais, como um domínio do AD DS (Serviços de Domínio do Active Directory).
 
 Você também pode criar ambientes de teste do Office 365 E5, não adicionando a licença da Microsoft 365 E5 ao seu ambiente de avaliação ou produção.
     

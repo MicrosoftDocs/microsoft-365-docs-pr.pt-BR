@@ -1,6 +1,6 @@
 ---
 title: Visão geral da Central de Segurança do Microsoft Defender
-description: Saiba mais sobre os recursos no Centro de Segurança do Microsoft Defender, incluindo como os alertas funcionam e sugestões sobre como investigar possíveis violações e ataques.
+description: Saiba mais sobre os recursos Central de Segurança do Microsoft Defender, incluindo como os alertas funcionam e sugestões sobre como investigar possíveis violações e ataques.
 keywords: painel, fila de alertas, gerenciar alertas, investigação, investigar alertas, investigar dispositivos, enviar arquivos, análise profunda, alto, médio, baixo, gravidade, ioc, ioa
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -35,7 +35,7 @@ ms.locfileid: "51581089"
 
 >Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-usewdatp-abovefoldlink)
 
-O Centro de Segurança do Microsoft Defender é o portal onde você pode acessar os recursos do Microsoft Defender para o Ponto de Extremidade.
+Central de Segurança do Microsoft Defender é o portal onde você pode acessar o Microsoft Defender para recursos do Ponto de Extremidade.
 
 Use o **painel operações de** segurança para obter informações sobre os vários alertas em dispositivos e usuários em sua rede.
 
@@ -46,7 +46,7 @@ Use o **painel de análise** de ameaças para avaliar e controlar continuamente 
 ## <a name="microsoft-defender-for-endpoint-interactive-guide"></a>Guia interativo do Microsoft Defender para Ponto de Extremidade
 Neste guia interativo, você aprenderá a investigar ameaças à sua organização com o Microsoft Defender para o Ponto de Extremidade. Você verá como o Microsoft Defender para Ponto de Extremidade pode ajudá-lo a identificar atividades suspeitas, investigar riscos para sua organização e correção de ameaças.
 
-[Confira o guia interativo](https://aka.ms/MSDE-IG)
+[Conferir o guia interativo](https://aka.ms/MSDE-IG)
 
 ### <a name="in-this-section"></a>Nesta seção
 

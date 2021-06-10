@@ -1,5 +1,5 @@
 ---
-title: Proteger seus computadores do Windows 10
+title: Proteger seus Windows 10 PCs
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -19,7 +19,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como configurar políticas de proteção do Windows 10 com o Microsoft 365 Business Premium.
+description: Saiba como configurar políticas de Windows 10 proteção com Microsoft 365 Business Premium.
 ms.openlocfilehash: a7049f96ecba317bd58fee9f9dc6b7e124f5f9d2
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -33,14 +33,14 @@ ms.locfileid: "51580445"
  
 ## <a name="try-it"></a>Experimente!  
 
-Depois de configurar a proteção de dispositivos no Microsoft 365 Business, siga estas etapas para proteger seus computadores Windows 10.
+Depois de configurar a proteção de dispositivos Microsoft 365 Business, siga estas etapas para proteger seus Windows 10 computadores.
 
-1. No Centro de administração do Microsoft 365, escolha  **Configurar**.
-2. Em  **Proteger seus computadores Windows,** selecione  **Exibir**.
-3. Revise as informações na página Proteger seus computadores  **do Windows 10**  para que você entenda as políticas e como elas afetam seus usuários.
+1. No centro Microsoft 365 de administração, escolha **Configurar**.
+2. Em **Proteger seus computadores Windows,** selecione **Exibir**.
+3. Revise as informações na página **Proteger seus computadores** Windows 10 para que você entenda as políticas e como elas afetam seus usuários.
 4. Selecione  **Iniciar**.
-5. No painel de configurações do  **Windows 10,**  revise as opções e ajuste se necessário. Passe o mouse sobre a dica de ferramenta para saber mais sobre uma política.
-6. Em  **Quem a política deve ser aplicada?** , escolha se suas seleções serão aplicadas a todos em sua organização ou a grupos de segurança específicos.
+5. No painel **Windows 10 configurações,** revise as opções e ajuste se necessário. Passe o mouse sobre a dica de ferramenta para saber mais sobre uma política.
+6. Em **Who a política deve ser aplicada?** , escolha se suas seleções serão aplicadas a todos em sua organização ou a grupos de segurança específicos.
 7. Selecione  **Salvar alterações**.
 
-O Microsoft 365 Business agora está ajudando a proteger seus computadores Windows 10.
+Microsoft 365 Business agora está ajudando a proteger seus Windows 10 computadores.

@@ -27,9 +27,9 @@ ms.locfileid: "51052089"
 ---
 # <a name="create-activity-alerts"></a>Criar alertas de atividade
 
-Você pode criar um alerta de atividade que enviará uma notificação de email quando os usuários executarem atividades específicas no Office 365. Alertas de atividade são semelhantes à pesquisa de eventos no log de auditoria, exceto que você será enviado uma mensagem de email quando um evento para uma atividade que você criou um alerta acontecer. 
+Você pode criar um alerta de atividade que enviará uma notificação de email quando os usuários executarem atividades específicas Office 365. Alertas de atividade são semelhantes à pesquisa de eventos no log de auditoria, exceto que você será enviado uma mensagem de email quando um evento para uma atividade que você criou um alerta acontecer. 
   
- **Por que usar alertas de atividade em vez de pesquisar o log de auditoria?** Pode haver certos tipos de atividade ou atividade executadas por usuários específicos que você realmente deseja conhecer. Em vez de ter que lembrar de pesquisar no log de auditoria para essas atividades, você pode usar alertas de atividade para que o Microsoft 365 envie uma mensagem de email quando os usuários executarem essas atividades. Por exemplo, você pode criar um alerta de atividade para notificá-lo quando um usuário excluir arquivos no SharePoint ou você pode criar um alerta para notificá-lo quando um usuário excluir permanentemente mensagens de sua caixa de correio. A notificação de email enviada a você inclui informações sobre qual atividade foi executada e o usuário que a realizou.
+ **Por que usar alertas de atividade em vez de pesquisar o log de auditoria?** Pode haver certos tipos de atividade ou atividade executadas por usuários específicos que você realmente deseja conhecer. Em vez de ter que lembrar de pesquisar no log de auditoria para essas atividades, você pode usar alertas de atividade para enviar Microsoft 365 mensagem de email quando os usuários executarem essas atividades. Por exemplo, você pode criar um alerta de atividade para notificá-lo quando um usuário excluir arquivos no SharePoint ou você pode criar um alerta para notificá-lo quando um usuário excluir permanentemente mensagens de sua caixa de correio. A notificação de email enviada a você inclui informações sobre qual atividade foi executada e o usuário que a realizou.
 
 > [!NOTE]
 > Os alertas de atividade estão sendo preterido. Recomendamos que você comece a usar políticas de alerta no centro de segurança e conformidade em vez de criar novos alertas de atividade. As políticas de alerta fornecem funcionalidade de adição, como a capacidade de criar uma política de alerta que dispara um alerta quando qualquer usuário executa uma atividade especificada e exibe alertas na página Exibir **alertas** no centro de conformidade e segurança. Para obter mais informações, consulte [Políticas de alerta.](alert-policies.md)
@@ -108,7 +108,7 @@ Para ativar novamente um alerta de atividade, repita estas etapas e clique no bo
     > [!TIP]
     > Talvez você queira criar um alerta de atividade para apenas uma atividade executada por qualquer usuário. Ou talvez você queira criar um alerta de atividade que acompanhe várias atividades executadas por um ou mais usuários. 
   
-    A tabela a seguir lista algumas atividades comuns relacionadas a documentos no SharePoint ou no OneDrive for Business.
+    A tabela a seguir lista algumas atividades comuns relacionadas a documentos SharePoint ou OneDrive for Business.
     
     |**Quando um usuário faz isso...**|**Criar um alerta para essa atividade**|**Grupo de atividades**|
     |:-----|:-----|:-----|
@@ -118,7 +118,7 @@ Para ativar novamente um alerta de atividade, repita estas etapas e clique no bo
     |Carrega ou baixa um documento.  <br/> |Arquivo carregado  <br/> E/ou  <br/> Arquivo baixado  <br/> |Atividades de arquivo e pasta  <br/> |
     |Altera as permissões de acesso para um site.  <br/> |Permissões de site modificadas  <br/> |Atividades de administração do site  <br/> |
 
-    A tabela a seguir lista algumas atividades comuns relacionadas a email no Exchange Online.
+    A tabela a seguir lista algumas atividades comuns relacionadas a email Exchange Online.
 
     |**Quando um usuário faz isso...**|**Criar um alerta para essa atividade**|**Grupo de atividades**|
     |:-----|:-----|:-----|

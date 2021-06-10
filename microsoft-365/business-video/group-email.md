@@ -35,10 +35,10 @@ Quando você cria um grupo, cria um endereço de email central e um local para c
 
 ## <a name="try-it"></a>Experimente!
 
-1. No Outlook, na guia  **Página** Principal, escolha  **Novo Grupo**.
+1. Em Outlook, na guia **Página** Principal, escolha **Novo Grupo**.
 2. Na caixa  **Criar Grupo,**  insira um nome de grupo, um endereço de email mais curto, como informações e uma descrição.
 3. Abra a lista de menus suspensos de privacidade e escolha  **Private**.
 4. Marque a  **caixa de seleção Enviar todos os emails e eventos**  de grupo para as caixas de entrada dos membros.
 5. Em  **Adicionar Membros,** selecione os funcionários que deseja receber os emails e escolha  **Adicionar Membros**.
-6. Na guia  **Página**  Principal no Outlook, selecione  **Configurações de Grupo** e Edit **Group**.
+6. Na guia **Página** Outlook, selecione **Grupo Configurações**, em **seguida, Edit Group**.
 7. Na caixa  **Editar Grupo,**  selecione a caixa de seleção Permitir que pessoas de fora da organização  **enviem emails**  para o grupo e escolha  **OK**.

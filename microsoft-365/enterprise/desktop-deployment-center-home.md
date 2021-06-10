@@ -26,7 +26,7 @@ O corpo do conteúdo que compunha o Centro de Implantação da Área de Trabalho
 
 Use esses recursos para implantar áreas de trabalho modernas:
 
-- [Implantação do Windows 10](/windows/deployment/)
+- [Windows 10 implantação](/windows/deployment/)
 - [Implantar os aplicativos do Microsoft 365.](/deployoffice/deployment-guide-microsoft-365-apps)
 - [Microsoft Intune](/mem/intune/fundamentals/planning-guide)
 - [Políticas de acesso de dispositivos e identidades](../security/defender-365-security/microsoft-365-policies-configurations.md)
@@ -37,6 +37,6 @@ Você também pode encontrar ajuda para a implantação da área de trabalho dos
 
 ## <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Office e do Windows
 
-Esse kit ajuda você a planejar, testar e validar sua implantação e gerenciamento de áreas de trabalho que executam o Windows 10 Enterprise e o Microsoft 365 Apps para empresas. Os laboratórios abrangem o Uso do Microsoft Endpoint Configuration Manager, Análise de Área de Trabalho, Ferramenta de Personalização do Office, OneDrive, Windows Autopilot e muito mais.
+Esse kit ajuda você a planejar, testar e validar sua implantação e gerenciamento de áreas de trabalho que executam Windows 10 Enterprise e Microsoft 365 Apps para Grandes Empresas. Os laboratórios abrangem Microsoft Endpoint Configuration Manager, Análise de Área de Trabalho, Office Personalização, OneDrive, Windows Autopilot e muito mais.
 
-Consulte [Windows and Office Deployment Lab Kit](modern-desktop-deployment-and-management-lab.md) para obter os detalhes.
+Consulte Windows e Office Kit de Laboratório de [Implantação](modern-desktop-deployment-and-management-lab.md) para obter os detalhes.

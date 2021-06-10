@@ -15,7 +15,7 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
-description: Como administrador e remetente de mensagem, você pode revogar determinados emails que foram criptografados com a Criptografia Avançada de Mensagens do Office 365.
+description: Como administrador e remetente de mensagem, você pode revogar determinados emails que foram criptografados com Criptografia de Mensagem Avançada do Office 365.
 ms.openlocfilehash: 340a9e73dba50e28223ee561db749a089c649df6
 ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
@@ -25,25 +25,25 @@ ms.locfileid: "51051713"
 ---
 # <a name="revoke-email-encrypted-by-advanced-message-encryption"></a>Revogar emails criptografados pela Criptografia Avançada de Mensagens
 
-A revogação de email é oferecida como parte da Criptografia Avançada de Mensagens do Office 365. A Criptografia Avançada de Mensagens do Office 365 está incluída no [Microsoft 365 Enterprise E5](https://www.microsoft.com/microsoft-365/enterprise/home), no Office 365 E5, no Microsoft 365 E5 (Preços de Funcionários sem fins lucrativos), no Office 365 Enterprise E5 (Preços de Funcionários sem fins lucrativos) e no Office 365 Education A5. Se sua organização tiver uma assinatura que não inclua a Criptografia Avançada de Mensagens do Office 365, você pode compra-lo com o complemento SKU de Conformidade do Microsoft 365 E5 para o Microsoft 365 E3, o Microsoft 365 E3 (Preços de Equipe sem fins lucrativos) ou o complemento SKU de Conformidade Avançada do Office 365 para o Microsoft 365 E3, o Microsoft 365 E3 (Preços da Equipe Sem Fins Lucrativos) ou o SKUs do Office 365.
+A revogação de email é oferecida como parte Criptografia de Mensagem Avançada do Office 365. Criptografia de Mensagem Avançada do Office 365 está incluído no [Microsoft 365 Enterprise E5](https://www.microsoft.com/microsoft-365/enterprise/home), Office 365 E5, Microsoft 365 E5 (Preços de Funcionários sem fins lucrativos), Office 365 Enterprise E5 (Preços de Funcionários sem fins lucrativos) e Office 365 Education A5. Se sua organização tiver uma assinatura que não inclua o Criptografia de Mensagem Avançada do Office 365, você poderá compre-la com o complemento SKU do Microsoft 365 E5 Compliance para Microsoft 365 E3, Microsoft 365 E3 (Preços de Funcionários sem fins lucrativos) ou o complemento SKU do Conformidade Avançada do Office 365 para Microsoft 365 E3, Microsoft 365 E3 (Preços de Funcionários sem fins lucrativos) ou Office 365 SKUs.
 
-Este artigo faz parte de uma série maior de artigos sobre a Criptografia de Mensagens do [Office 365.](ome.md)
+Este artigo faz parte de uma série maior de artigos sobre [Criptografia de Mensagens do Office 365](ome.md).
 
-Se uma mensagem foi criptografada usando a Criptografia Avançada de Mensagens do Office 365 e você é um administrador do Microsoft 365 ou você é o remetente da mensagem, você pode revogar a mensagem em determinadas condições. Os administradores revogam mensagens usando o PowerShell. Como remetente, você revoga uma mensagem enviada diretamente do Outlook na Web. Este artigo descreve as circunstâncias em que a revogação é possível e como fazê-la.
+Se uma mensagem foi criptografada usando Criptografia de Mensagem Avançada do Office 365, e você for um administrador Microsoft 365 ou você for o remetente da mensagem, poderá revogar a mensagem em determinadas condições. Os administradores revogam mensagens usando o PowerShell. Como remetente, você revoga uma mensagem enviada diretamente do Outlook na Web. Este artigo descreve as circunstâncias em que a revogação é possível e como fazê-la.
   
 ## <a name="encrypted-emails-that-you-can-revoke"></a>Emails criptografados que você pode revogar
 
-Os administradores e os destinatários de mensagens podem revogar emails criptografados se o destinatário recebeu um email criptografado baseado em link com a marca. Se o destinatário recebeu uma experiência em linha nativa em um cliente do Outlook com suporte, você não pode revogar a mensagem.
+Os administradores e os destinatários de mensagens podem revogar emails criptografados se o destinatário recebeu um email criptografado baseado em link com a marca. Se o destinatário recebeu uma experiência em linha nativa em um cliente Outlook com suporte, você não poderá revogar a mensagem.
 
-Se um destinatário recebe uma experiência baseada em link ou uma experiência em linha depende do tipo de identidade do destinatário: os destinatários de contas do Office 365 e da Microsoft (por exemplo, outlook.com usuários) recebem uma experiência em linha nos clientes do Outlook com suporte. Todos os outros tipos de destinatários, como destinatários do Gmail e do Yahoo, obterão uma experiência baseada em link.
+Se um destinatário recebe uma experiência baseada em link ou uma experiência em linha depende do tipo de identidade do destinatário: Office 365 e destinatários de conta da Microsoft (por exemplo, usuários outlook.com) obter uma experiência em linha em clientes Outlook com suporte. Todos os outros tipos de destinatários, como destinatários do Gmail e do Yahoo, obterão uma experiência baseada em link.
 
 Os administradores e os envios de mensagens podem revogar mensagens criptografadas usando criptografia aplicada diretamente do Outlook na Web. Por exemplo, mensagens criptografadas com a opção Criptografar Somente.
 
-:::image type="content" source="../media/adhocencryptionrevoke.png" alt-text="Captura de tela mostrando a opção Criptografar Somente no Outlook na Web.":::
+:::image type="content" source="../media/adhocencryptionrevoke.png" alt-text="Captura de tela mostrando a opção Criptografar Somente Outlook na Web.":::
 
 ## <a name="recipient-experience-for-revoked-encrypted-emails"></a>Experiência do destinatário para emails criptografados revogados
 
-Depois que um email é revogado, o destinatário recebe um erro ao acessar o email criptografado por meio do portal de Criptografia de Mensagens do Office 365: "A mensagem foi revogada pelo remetente".
+Depois que um email é revogado, o destinatário recebe um erro ao acessar o email criptografado por meio do portal Criptografia de Mensagens do Office 365: "A mensagem foi revogada pelo remetente".
 
 ![Captura de tela que mostra um email criptografado revogado.](../media/revoked-encrypted-email.png)
 
@@ -51,25 +51,25 @@ Depois que um email é revogado, o destinatário recebe um erro ao acessar o ema
 
 Você pode revogar um email enviado para um único destinatário que usa uma conta social como gmail.com ou yahoo.com. Em outras palavras, você pode revogar um email enviado para um único destinatário que recebeu a experiência baseada em link.
 
-Não é possível revogar um email enviado a um destinatário que usa uma conta de estudante ou de trabalho do Office 365 ou do Microsoft 365 ou de um usuário que usa uma conta da Microsoft, por exemplo, uma conta outlook.com. 
+Não é possível revogar um email enviado a um destinatário que usa uma conta de estudante ou trabalho do Office 365 ou Microsoft 365 ou um usuário que usa uma conta da Microsoft, por exemplo, uma conta outlook.com. 
 
 Para revogar uma mensagem criptografada enviada, conclua estas etapas
 
-1. No Outlook na Web, em sua **pasta Enviada,** navegue até a mensagem que você deseja revogar.
+1. Em Outlook na Web, em sua pasta **Enviada,** navegue até a mensagem que você deseja revogar.
 
    Se o email for revogado, você verá o link "Remover acesso externo" na parte superior da mensagem.
 
-    :::image type="content" source="../media/infoprotect-email-encryption/adhocencryptionrevokesentmsg.png" alt-text="Captura de tela mostrando emails criptografados que você deseja revogar no Outlook na Web.":::
+    :::image type="content" source="../media/infoprotect-email-encryption/adhocencryptionrevokesentmsg.png" alt-text="Captura de tela mostrando emails criptografados que você deseja revogar Outlook na Web.":::
 
 2. Clique **em Remover acesso externo** para revogar a mensagem.
 
    A mensagem mostra que seu status foi revogado.
 
-   :::image type="content" source="../media/adhocencryptionrevokedmsg.png" alt-text="Captura de tela mostrando a mensagem criptografada revogada no Outlook na Web.":::
+   :::image type="content" source="../media/adhocencryptionrevokedmsg.png" alt-text="Captura de tela mostrando a mensagem criptografada revogada Outlook na Web.":::
 
 ## <a name="how-to-revoke-an-encrypted-message-as-an-administrator"></a>Como revogar uma mensagem criptografada como administrador
 
-Os administradores do Microsoft 365 seguem estas etapas gerais para revogar um email criptografado qualificado:
+Microsoft 365 administradores seguem estas etapas gerais para revogar um email criptografado qualificado:
 
 - Obter a ID da mensagem do email.
 - Verifique se você pode revogar a mensagem.
@@ -89,7 +89,7 @@ Há várias maneiras de encontrar a ID da mensagem do email que você deseja rev
 
 2. Depois de localizar o email, selecione-o para trazer o painel Detalhes de **rastreamento de** mensagens. Expanda **Mais Informações** para localizar a ID da Mensagem.
 
-#### <a name="to-identify-the-message-id-of-the-email-you-want-to-revoke-by-using-office-message-encryption-reports-in-the-security-amp-compliance-center"></a>Para identificar a ID da mensagem do email que você deseja revogar usando relatórios de Criptografia de Mensagens do Office no Centro &amp; de Conformidade de Segurança
+#### <a name="to-identify-the-message-id-of-the-email-you-want-to-revoke-by-using-office-message-encryption-reports-in-the-security-amp-compliance-center"></a>Para identificar a ID da mensagem do email que você deseja revogar usando Office de Criptografia de Mensagens no Centro de &amp; Conformidade e Segurança
 
 1. No Centro de &amp; Conformidade de Segurança, navegue até o **relatório de criptografia de mensagem**. Para obter informações sobre este relatório, consulte [Exibir relatórios de segurança de email no Centro de Conformidade de &amp; Segurança.](../security/defender-365-security/view-email-security-reports.md)
 
@@ -103,7 +103,7 @@ Para verificar se você pode revogar uma mensagem, verifique se o campo Status  
 
 Para verificar se você pode revogar uma mensagem de email específica usando Windows PowerShell, conclua estas etapas.
 
-1. Usando uma conta de estudante ou de trabalho que tenha permissões globais de administrador em sua organização, inicie uma sessão Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
+1. Usando uma conta de estudante ou de trabalho que tenha permissões globais de administrador em sua organização, inicie uma sessão de Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Execute o Get-OMEMessageStatus cmdlet da seguinte forma:
 
@@ -129,9 +129,9 @@ Para revogar a mensagem usando o Centro de &amp; Conformidade e Segurança
 
 2. No relatório **criptografia**, na tabela **Detalhes** da mensagem, escolha **Revogar mensagem**.
 
-Para revogar um email usando o Windows PowerShell, use o cmdlet Set-OMEMessageRevocation.
+Para revogar um email usando o Windows PowerShell, use o cmdlet Set-OMEMessageRevocation usuário.
 
-1. Usando uma conta de trabalho ou de estudante que tenha permissões globais de administrador em sua organização, [Conecte-se ao PowerShell do Exchange Online.](/powershell/exchange/connect-to-exchange-online-powershell)
+1. Usando uma conta de estudante ou de trabalho que tenha permissões globais de administrador em sua organização, Conexão [para Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Execute o Set-OMEMessageRevocation cmdlet da seguinte forma:
 
@@ -151,10 +151,10 @@ Para revogar um email usando o Windows PowerShell, use o cmdlet Set-OMEMessageRe
      Revoked: True
      ```
 
-## <a name="more-information-about-office-365-advanced-message-encryption"></a>Mais informações sobre a Criptografia Avançada de Mensagens do Office 365
+## <a name="more-information-about-office-365-advanced-message-encryption"></a>Mais informações sobre Criptografia de Mensagem Avançada do Office 365
 
 - [Criptografia de Mensagem Avançada do 365 Office](ome-advanced-message-encryption.md)
 
-- [Criptografia avançada de mensagens do Office 365 - expiração de email](ome-advanced-expiration.md)
+- [Criptografia de Mensagem Avançada do Office 365 - expiração de email](ome-advanced-expiration.md)
 
 - [Descrição do serviço de conformidade e política de mensagem](/office365/servicedescriptions/exchange-online-service-description/message-policy-and-compliance)

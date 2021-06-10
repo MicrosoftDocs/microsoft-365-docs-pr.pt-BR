@@ -1,5 +1,5 @@
 ---
-title: Modelo de dados de análise de uso do Microsoft 365
+title: Microsoft 365 de dados de análise de uso
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
-description: 'Saiba como a análise de uso se conecta a uma API e fornece tendência mensal de uso de vários serviços do Microsoft 365.  '
+description: 'Saiba como a análise de uso se conecta a uma API e fornece tendência mensal de uso de vários Microsoft 365 serviços.  '
 ms.openlocfilehash: 877ad005e3ff7f7537247963fafcab5fb1ff6c74
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -28,18 +28,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51580745"
 ---
-# <a name="microsoft-365-usage-analytics-data-model"></a>Modelo de dados de análise de uso do Microsoft 365
+# <a name="microsoft-365-usage-analytics-data-model"></a>Microsoft 365 de dados de análise de uso
 
-## <a name="data-for-the-microsoft-365-usage-analytics-tables"></a>Dados para as tabelas de análise de uso do Microsoft 365
+## <a name="data-for-the-microsoft-365-usage-analytics-tables"></a>Dados para as tabelas Microsoft 365 análise de uso
 
-A análise de uso do Microsoft 365 se conecta a uma API que expõe um modelo de dados multidimensional. As APIs que a análise de uso do Microsoft 365 usa para gerar seus dados são de várias APIs do Graph, geralmente disponíveis. A função da API de análise de uso do Microsoft 365 por si só não está geralmente disponível.
+Microsoft 365 análise de uso se conecta a uma API que expõe um modelo de dados multidimensional. As APIs que Microsoft 365 de uso usam para gerar seus dados são de várias APIs disponíveis Graph. A função da API de análise Microsoft 365 uso por si só não está geralmente disponível.
   
 > [!NOTE]
-> Para obter mais informações, consulte Trabalhando com relatórios de [uso do Microsoft 365 no Microsoft Graph](/graph/api/resources/report). 
+> Para obter mais informações, consulte [Working with Microsoft 365 usage reports in Microsoft Graph](/graph/api/resources/report). 
   
-Esta API fornece informações sobre a tendência mensal de uso dos vários serviços do Microsoft 365. Para saber exatamente quais são os dados retornados pela API, confira a tabela na seção a seguir.
+Esta API fornece informações sobre a tendência mensal de uso dos vários serviços Microsoft 365 serviços. Para saber exatamente quais são os dados retornados pela API, confira a tabela na seção a seguir.
   
-## <a name="data-tables-returned-by-the-microsoft-365-reporting-api"></a>Tabelas de dados retornadas pela API de Relatórios do Microsoft 365
+## <a name="data-tables-returned-by-the-microsoft-365-reporting-api"></a>Tabelas de dados retornadas pela API Microsoft 365 Reporting
 
 |**Nome da tabela**|**Informações na tabela**|**Intervalo de datas**|
 |:-----|:-----|:-----|
@@ -50,8 +50,8 @@ Esta API fornece informações sobre a tendência mensal de uso dos vários serv
 |Uso do Cliente do Locatário  <br/> |Contém os dados sobre o número de usuários que usam ativamente clientes/dispositivos específicos para conectarem-se ao Exchange Online, ao Skype for Business e ao Yammer.  <br/> |Contém dados agregados mensalmente por um período de 12 meses sem interrupção, incluindo o mês parcial corrente.  <br/> |
 |Uso Online do SharePoint do Locatário  <br/> |Contém dados sobre os sites do SharePoint, incluindo sites de Equipe ou de Grupo, como o número total de sites, o número de documentos no site, o número de arquivos por tipo de atividade e armazenamento usado.  <br/> |Contém dados de estado de fim de mês para um período de 12 meses de rolagem, incluindo o mês parcial atual.  <br/> |
 |Uso do OneDrive for Business do Locatário  <br/> |Contém dados sobre as contas do OneDrive, como o número de contas, o número de documentos em OneDrives, o armazenamento usado, a contagem de arquivos por tipo de atividade.  <br/> |Contém dados de estado de fim de mês para um período de 12 meses de rolagem, incluindo o mês parcial atual.  <br/> |
-|Uso de grupos de locatários do Microsoft 365  <br/> |Contém dados sobre o uso de Grupos do Microsoft 365, incluindo Caixa de Correio, SharePoint e Yammer.  <br/> |Contém dados de estado de fim de mês para um período de 12 meses de rolagem, incluindo o mês parcial atual.  <br/> |
-|Ativação do Office do Locatário  <br/> |Contém dados sobre o número de ativações de assinatura do Office, contagem de ativação por dispositivo (Android/iOS/Mac/PC), ativações por plano de serviço, por exemplo, Aplicativos do Microsoft 365 para empresas, Visio, Project.  <br/> |Contém dados de estado de fim de mês para um período de 12 meses de rolagem, incluindo o mês parcial atual.  <br/> |
+|Uso Microsoft 365 grupos de locatários  <br/> |Contém dados sobre o uso Microsoft 365 Grupos, incluindo Caixa de Correio, SharePoint e Yammer.  <br/> |Contém dados de estado de fim de mês para um período de 12 meses de rolagem, incluindo o mês parcial atual.  <br/> |
+|Ativação do Office do Locatário  <br/> |Contém dados sobre o número de ativações de assinatura Office, contagem de ativação por dispositivo (Android/iOS/Mac/PC), ativações por plano de serviço, por exemplo, Microsoft 365 Apps para Grandes Empresas, Visio, Project.  <br/> |Contém dados de estado de fim de mês para um período de 12 meses de rolagem, incluindo o mês parcial atual.  <br/> |
 |Estado do Usuário  <br/> |Contém metadados sobre os usuários, incluindo o nome de exibição do usuário, os produtos atribuídos, o local, o departamento, o título, a empresa. Esses dados são sobre usuários que foram atribuídos a uma licença durante o último mês completo. Cada usuário é representado exclusivamente por uma ID de usuário.  <br/> |Esses dados referem-se aos usuários que tinham uma licença atribuída durante o último mês completo.  <br/> |
 |Atividade do Usuário  <br/> |Contém informações de nível de cada usuário sobre as atividades executadas por usuários licenciados.  <br/> Veja [definição de usuário ativo](active-user-in-usage-reports.md) para saber mais sobre as atividades em um produto que são retornadas nesta tabela de dados.  <br/> |Esses dados referem-se aos usuários que executaram uma atividade em qualquer um dos serviços durante o último mês completo.  <br/> |
    
@@ -67,13 +67,13 @@ Esta tabela fornece detalhes de nível de usuário para todos os usuários que t
 |Período de tempo  <br/> |Valor do mês para o qual esta tabela tem dados.  <br/> |
 |UPN  <br/> |Nome UPN, identifica exclusivamente o usuário para que possa ingressar com outras fontes de dados externas.  <br/> |
 |DisplayName  <br/> |Nome de exibição do usuário.  <br/> |
-|IDType  <br/> |O tipo de ID será definido como 1 se o usuário for um usuário do Yammer que se conectar usando sua ID do Yammer ou 0 se ele se conectar ao Yammer usando sua ID do Microsoft 365.  <br/> O valor é 1 para representar que esse usuário se conecta ao Yammer com sua ID do Yammer e não sua ID do Microsoft 365  <br/> |
+|IDType  <br/> |O tipo de ID será definido como 1 se o usuário for um usuário Yammer que se conectar usando sua ID do Yammer ou 0 se ele se conectar ao Yammer usando sua ID Microsoft 365 de Microsoft 365.  <br/> O valor é 1 para representar que esse usuário se conecta ao Yammer com sua ID de Yammer e não sua ID de Microsoft 365 de usuário  <br/> |
 |HasLicenseEXO  <br/> |Defina como verdadeiro se o usuário tiver recebido uma licença e tiver sido habilitado para usar o Exchange.  <br/> |
 |HasLicenseODB  <br/> |Defina como verdadeiro se o usuário tiver recebido uma licença e tiver sido habilitado para usar o OneDrive for Business.  <br/> |
 |HasLicenseSPO  <br/> |Defina como verdadeiro se o usuário tiver recebido uma licença e tiver sido habilitado para usar o SharePoint Online.  <br/> |
 |HasLicenseYAM  <br/> |Defina como verdadeiro se o usuário tiver recebido uma licença e tiver sido habilitado para usar o Yammer.  <br/> |
 |HasLicenseSFB  <br/> |Defina como verdadeiro se o usuário tiver recebido uma licença e tiver sido habilitado para usar o Skype For Business.  <br/> |
-|HasLicenseTeams  <br/> |De definir como true se o usuário tiver uma licença atribuída e habilitar o uso do Microsoft Teams.  <br/> |
+|HasLicenseTeams  <br/> |De definir como true se o usuário tiver uma licença atribuída e habilitar o uso Microsoft Teams.  <br/> |
 |Empresa  <br/> |Os dados da empresa representados no Azure Active Directory para este usuário.  <br/> |
 |Departamento  <br/> |Os dados do departamento representados no Azure Active Directory para este usuário.  <br/> |
 |LocationCity  <br/> |Os dados da cidade representados no Azure Active Directory para este usuário.  <br/> |
@@ -83,7 +83,7 @@ Esta tabela fornece detalhes de nível de usuário para todos os usuários que t
 |Título  <br/> |Os dados do título representados no Azure Active Directory para este usuário.  <br/> |
 |Excluído  <br/> |True se o usuário tiver sido excluído do Microsoft 365 no último mês completo.  <br/> |
 |DeletedDate  <br/> |Data em que o usuário foi excluído do Microsoft 365.  <br/> |
-|YAM_State  <br/> |Os estados do usuário no sistema do Yammer podem ser ativos, excluídos ou suspensos.  <br/> |
+|YAM_State  <br/> |Estados do usuário no sistema Yammer, podem ser ativos, excluídos ou suspensos.  <br/> |
 |YAM_ActivationDate  <br/> |Data em que o usuário inseriu o estado de ativo no Yammer.  <br/> |
 |YAM_DeletionDate  <br/> |Data em que o usuário inseriu o estado de excluído no Yammer.  <br/> |
 |YAM_SuspensionDate  <br/> |Data em que o usuário inseriu o estado de suspenso no Yammer.  <br/> |
@@ -95,7 +95,7 @@ Essa tabela contém dados sobre cada usuário que tinha uma atividade em qualque
 |**Nome da coluna**|**Descrição da coluna**|
 |:-----|:-----|
 |UserID  <br/> |ID de usuário exclusiva que representa um usuário e permite a junção com outras tabelas de dados no conjunto de dados.  <br/> |
-|IDType  <br/> |O tipo de ID será definido como 1 se o usuário for um usuário do Yammer que se conectar usando sua ID do Yammer ou 0 se ele se conectar ao Yammer usando sua ID do Microsoft 365.  <br/> O valor é 1 para representar que esse usuário se conecta ao Yammer com sua ID do Yammer e não sua ID do Microsoft 365  <br/> |
+|IDType  <br/> |O tipo de ID será definido como 1 se o usuário for um usuário Yammer que se conectar usando sua ID do Yammer ou 0 se ele se conectar ao Yammer usando sua ID Microsoft 365 de Microsoft 365.  <br/> O valor é 1 para representar que esse usuário se conecta ao Yammer com sua ID de Yammer e não sua ID de Microsoft 365 de usuário  <br/> |
 |Período de tempo  <br/> |Valor do mês para o qual esta tabela representa dados.  <br/> |
 |EXO_EmailSent  <br/> |Número de emails enviados.  <br/> |
 |EXO_EmailReceived  <br/> |Número de emails recebidos.  <br/> |
@@ -133,10 +133,10 @@ Essa tabela contém dados sobre cada usuário que tinha uma atividade em qualque
 |Teams_ChannelMessage  <br/> |Número de mensagens postadas em canais.  <br/> |
 |Teams_CallParticipate  <br/> |Número de chamadas que o usuário participou.  <br/> |
 |Teams_MeetingParticipate  <br/> |Número de reuniões que o usuário ingressou.  <br/> |
-|Teams_HasOtherAction  <br/> |Valor booleano se o usuário realizou outras ações no Microsoft Teams.  <br/> |
-|YAM_MessagePost  <br/> |Número de mensagens do Yammer que esse usuário postou.  <br/> |
-|YAM_MessageLiked  <br/> |Número de mensagens do Yammer que esse usuário gostou.  <br/> |
-|YAM_MessageRead  <br/> |Número de mensagens do Yammer que esse usuário leu.  <br/> |
+|Teams_HasOtherAction  <br/> |Valor booleano se o usuário realizou outras ações Microsoft Teams.  <br/> |
+|YAM_MessagePost  <br/> |Número de Yammer mensagens que esse usuário postou.  <br/> |
+|YAM_MessageLiked  <br/> |Número de Yammer mensagens que esse usuário gostou.  <br/> |
+|YAM_MessageRead  <br/> |Número de Yammer mensagens que esse usuário leu.  <br/> |
 |SFB_P2PSummary  <br/> |Número de sessões de ponto a ponto das quais este usuário participou.  <br/> |
 |SFB_ConfOrgSummary  <br/> |Número de sessões de conferência organizadas por este usuário.  <br/> |
 |SFB_ConfPartSummary  <br/> |Número de sessões de conferência das quais este usuário participou.  <br/> |
@@ -146,11 +146,11 @@ Essa tabela contém dados sobre cada usuário que tinha uma atividade em qualque
    
 ### <a name="data-table---tenant-product-usage"></a>Tabela de dados - Uso de Produto do Locatário
 
-Esta tabela fornece dados de adoção mensal em termos de usuários habilitados, ativos, de retorno e de primeira para cada produto no Microsoft 365. Os valores do Microsoft 365 representam o uso ativo em qualquer um dos produtos.
+Esta tabela fornece dados de adoção mensalmente em termos de usuários habilitados, ativos, retornando e de primeira vez para cada produto dentro Microsoft 365. Os Microsoft 365 representam o uso ativo em qualquer um dos produtos.
   
 |**Nome da coluna**|**Descrição da coluna**|
 |:-----|:-----|
-|Produto  <br/> |Nome dos produtos para os quais as informações de uso são resumidas. O valor do Microsoft 365 na coluna do produto representa a atividade em qualquer um dos produtos  <br/> |
+|Produto  <br/> |Nome dos produtos para os quais as informações de uso são resumidas. Microsoft 365 valor na coluna do produto representa a atividade em qualquer um dos produtos  <br/> |
 |Período de tempo  <br/> |Valor do mês. Haverá uma linha por produto por mês nos últimos 12 meses, incluindo o mês corrente parcial.  <br/> |
 |EnabledUsers  <br/> |Número de usuários habilitados para usar o produto para o valor de quadro de tempo, se um usuário foi habilitado por parte do mês, eles ainda serão contados.  <br/> |
 |ActiveUsers  <br/> |Número de usuários que realizaram uma atividade intencional no produto para o valor de quadro de tempo.  <br/> Um usuário é contado como ativo para um produto em um mês específico se ele tiver executado uma das principais atividades no produto. As principais atividades estão disponíveis na tabela **Atividade de produtos do locatário**.  <br/> |
@@ -175,11 +175,11 @@ Esta tabela fornece totais mensais de atividade e contagem de usuários ativos p
    
 ### <a name="data-table---tenant-mailbox-usage"></a>Tabela de dados - Uso da Caixa de Correio do Locatário
 
-Esta tabela consiste em dados resumidos em todos os usuários licenciados do Exchange Online que têm uma caixa de correio de usuário. Ela contém o estado de fim do mês em todas as caixas de correio de usuário. Os dados nessa tabela não são aditivos em vários meses. Os dados do último mês nesta tabela representam o estado mais recente.
+Esta tabela consiste em dados resumidos em todos os usuários licenciados Exchange Online que têm uma caixa de correio de usuário. Ela contém o estado de fim do mês em todas as caixas de correio de usuário. Os dados nessa tabela não são aditivos em vários meses. Os dados do último mês nesta tabela representam o estado mais recente.
   
 |**Nome da coluna**|**Descrição da coluna**|
 |:-----|:-----|
-|TotalMailboxes  <br/> |Número de caixas de correio de usuário para assinatura do Microsoft 365.  <br/> |
+|TotalMailboxes  <br/> |Número de caixas de correio de usuário para Microsoft 365 assinatura.  <br/> |
 |IssueWarningQuota  <br/> |Cota total para a emissão de aviso em todas as caixas de correio dos usuários.  <br/> |
 |ProhibitSendQuota  <br/> |Cota total para proibir envio em todas as caixas de correio de usuário.  <br/> |
 |ProhibitSendReceiveQuota  <br/> |Cota total para cota de proibir Envio/Recebimento em todas as caixas de correio de usuário.  <br/> |
@@ -194,7 +194,7 @@ Esta tabela consiste em dados resumidos em todos os usuários licenciados do Exc
    
 ### <a name="data-table---tenant-client-usage"></a>Tabela de dados - Uso do Cliente do Locatário
 
-Esta tabela fornece dados de resumo mensal sobre os clientes que os usuários estão usando para se conectar ao Exchange Online, Skype for Business e Yammer. Esta tabela ainda não tem dados de uso de cliente para o SharePoint Online e o OneDrive for Business.
+Esta tabela fornece dados de resumo mensal sobre os clientes que os usuários estão usando para se conectar Exchange Online, Skype for Business e Yammer. Esta tabela ainda não tem dados de uso de cliente para o SharePoint Online e o OneDrive for Business.
   
 |**Nome da coluna**|**Descrição da coluna**|
 |:-----|:-----|
@@ -206,7 +206,7 @@ Esta tabela fornece dados de resumo mensal sobre os clientes que os usuários es
    
 ### <a name="data-table---tenant-sharepoint-online-usage"></a>Tabela de dados - Uso do SharePoint Online do Locatário
 
-Essa tabela consiste em dados de resumo mensal sobre o uso ou a atividade de sites do SharePoint Online. Isso só abrange os sites de equipe e os sites de grupo. O estado final do mês dos sites do SharePoint Online é representado nesta coluna, por exemplo, se um usuário criou cinco documentos e usou 10 MB para armazenamento total e, em seguida, excluiu alguns arquivos e adicionou mais arquivos para que, no final do mês, o estado dos arquivos seja sete no total que usam cinco MB de armazenamento, o valor representado nesta tabela é o estado de fim do mês. Essa tabela está oculta para evitar a dupla contagem das agregações e é usada como uma fonte para a criação de duas tabelas de referência.
+Essa tabela consiste em dados de resumo mensal sobre o uso ou a atividade de sites do SharePoint Online. Isso só abrange os sites de equipe e os sites de grupo. O estado do fim do mês dos sites online do SharePoint é representado nesta coluna, por exemplo, se um usuário criou cinco documentos e usou 10 MB para armazenamento total e, em seguida, excluiu alguns arquivos e adicionou mais arquivos para que, no final do mês, o estado dos arquivos seja sete no total que usam cinco MB de armazenamento, o valor representado nesta tabela é o estado de fim do mês. Essa tabela está oculta para evitar a dupla contagem das agregações e é usada como uma fonte para a criação de duas tabelas de referência.
   
 |**Nome da coluna**|**Descrição da coluna**|
 |:-----|:-----|
@@ -221,7 +221,7 @@ Essa tabela consiste em dados de resumo mensal sobre o uso ou a atividade de sit
 |Período de tempo  <br/> |Esta coluna tem o valor de data. Usada como relação Muitos para um para a tabela Calendário.  <br/> |
 |Data do Conteúdo  <br/> |Se o prazo mostrar o mês atual, esse valor representará a última data do mês atual para o qual os dados estão disponíveis.  <br/> Se o prazo mostrar o mês anterior, esse valor representará a última data do mês do prazo.  <br/> |
    
-### <a name="data-table---tenant-onedrive-usage"></a>Tabela de dados - Uso do Locatário do OneDrive
+### <a name="data-table---tenant-onedrive-usage"></a>Tabela de dados - Locatário OneDrive Uso
 
 Essa tabela fornece dados sobre as contas do OneDrive, como o número de contas, o número de documentos em contas do OneDrive, o armazenamento usado, a contagem de arquivos por tipo de atividade. O estado de fim do mês para contas do OneDrive for Business é representado nesta tabela. Por exemplo, se um usuário criou um Cinco documentos que usavam 10 MB de armazenamento e, em seguida, excluiu alguns e adicionou mais arquivos para que, no final do mês, ele tenha sete arquivos que usam Cinco MB de armazenamento, o valor final do mês será representado nesta tabela no final do mês.
   
@@ -230,7 +230,7 @@ Essa tabela fornece dados sobre as contas do OneDrive, como o número de contas,
 |SiteType  <br/> |O valor é "OneDrive".  <br/> |
 |TotalSites  <br/> |Número de contas do OneDrive for Business existentes ao fim do prazo.  <br/> |
 |DocumentCount  <br/> |Número total de documentos existentes em todas as contas do OneDrive for Business ao fim do prazo  <br/> |
-|Diplansed  <br/> |O armazenamento total usado resumido em toda a conta do OneDrive no final do período de tempo.  <br/> |
+|Diplansed  <br/> |O armazenamento total usado resumido em todas OneDrive conta no final do período de tempo.  <br/> |
 |ActivityType  <br/> |Número de contas que gravaram os vários tipos de atividade do arquivo (qualquer/arquivos ativos/arquivos compartilhados EXT/INT/arquivos sincronizados).  <br/> Qualquer representa qualquer atividade de arquivo realizada  <br/> |
 |SitesWithOwnerActivities  <br/> |Número de contas ativas do OneDrive for Business, onde o proprietário da conta executou uma determinada atividade de arquivo em sua própria conta.  <br/> |
 |SitesWithNonOwnerActivities  <br/> |Número de contas do OneDrive for Business em que a atividade do arquivo foi realizada por usuários que não o proprietário da conta.  <br/> |
@@ -238,9 +238,9 @@ Essa tabela fornece dados sobre as contas do OneDrive, como o número de contas,
 |Período de tempo  <br/> |Esta coluna tem o valor de data. Usada como relação Muitos para um para a tabela Calendário.  <br/> |
 |Data do Conteúdo  <br/> |Se o prazo mostrar o mês atual, esse valor representará a última data do mês atual para o qual os dados estão disponíveis.  <br/> Se o prazo mostrar o mês anterior, esse valor representará a última data do mês do prazo.  <br/> |
    
-### <a name="data-table---tenant-microsoft-365-groups-usage"></a>Tabela de dados - Uso de grupos do Locatário do Microsoft 365
+### <a name="data-table---tenant-microsoft-365-groups-usage"></a>Tabela de dados - Uso Microsoft 365 grupos de locatários
 
-Esta tabela fornece dados sobre como os Grupos do Microsoft 365 são usados em toda a organização.
+Esta tabela fornece dados sobre como Microsoft 365 grupos é usado em toda a organização.
   
 ****
 
@@ -255,33 +255,33 @@ Esta tabela fornece dados sobre como os Grupos do Microsoft 365 são usados em t
 |MBX_TotalActivities  <br/> |Número de atividades de caixa de correio.  <br/> |
 |MBX_TotalItems  <br/> |Número de itens de caixa de correio.  <br/> |
 |MBX_StorageUsed  <br/> |Quantidade de armazenamento de caixa de correio usada.  <br/> |
-|SPO_TotalGroups  <br/> |Número de grupos do SharePoint.  <br/> |
-|SPO_ActiveGroups  <br/> |Número de grupos ativos do SharePoint.  <br/> |
-|SPO_FileAccessedActiveGroups  <br/> |Número de grupos do SharePoint que têm atividades acessadas por arquivo.  <br/> |
-|SPO_FileSyncedActiveGroups  <br/> |Número de grupos do SharePoint que têm atividades sincronizadas de arquivos.  <br/> |
-|SPO_FileSharedInternallyActiveGroups  <br/> |Número de grupos do SharePoint que compartilharam atividades internamente ou com grupos (que podem incluir usuários externos).  <br/> |
-|SPO_FileSharedExternallyActiveGroups  <br/> |Número de grupos do SharePoint que compartilharam atividades externas.  <br/> |
-|SPO_TotalActivities  <br/> |Número de atividades do SharePoint.  <br/> |
-|SPO_FileAccessedActivities  <br/> |Número de atividades acessadas por arquivo do SharePoint.  <br/> |
-|SPO_FileSyncedActivities  <br/> |Número de atividades sincronizadas de arquivo do SharePoint.  <br/> |
-|SPO_FileSharedInternallyActivities  <br/> |Número de atividades compartilhadas de arquivos do SharePoint internamente ou com grupos (que podem incluir membros externos).  <br/> |
-|SPO_FileSharedExternallyActivities  <br/> |Número de arquivos do SharePoint compartilhados externamente.  <br/> |
-|SPO_TotalFiles  <br/> |Número de arquivos do SharePoint.  <br/> |
-|SPO_ActiveFiles  <br/> |Número de arquivos ativos do SharePoint.  <br/> |
-|SPO_StorageUsed  <br/> |Quantidade de armazenamento do SharePoint usada.  <br/> |
-|YAM_TotalGroups  <br/> |Número de grupos do Yammer.  <br/> |
-|YAM_ActiveGroups  <br/> |Número de grupos ativos do Yammer.  <br/> |
-|YAM_LikedActiveGroups  <br/> |Número de grupos do Yammer que têm atividades como.  <br/> |
-|YAM_PostedActiveGroups  <br/> |Número de grupos do Yammer que têm atividades de postagem.  <br/> |
-|YAM_ReadActiveGroups  <br/> |Número de grupos do Yammer que têm atividades de leitura.  <br/> |
-|YAM_TotalActivities  <br/> |Número de atividades do Yammer.  <br/> |
-|YAM_LikedActivities  <br/> |Número de atividades do Yammer como.  <br/> |
-|YAM_PostedActivties  <br/> |Número de atividades de postagem do Yammer.  <br/> |
-|YAM_ReadActivites  <br/> |Número de atividades de leitura do Yammer.  <br/> |
+|SPO_TotalGroups  <br/> |Número de SharePoint grupos.  <br/> |
+|SPO_ActiveGroups  <br/> |Número de grupos SharePoint ativos.  <br/> |
+|SPO_FileAccessedActiveGroups  <br/> |Número de SharePoint grupos que têm atividades acessadas por arquivo.  <br/> |
+|SPO_FileSyncedActiveGroups  <br/> |Número de grupos SharePoint que têm atividades sincronizadas de arquivos.  <br/> |
+|SPO_FileSharedInternallyActiveGroups  <br/> |Número de SharePoint grupos que compartilharam atividades internamente ou com grupos (que podem incluir usuários externos).  <br/> |
+|SPO_FileSharedExternallyActiveGroups  <br/> |Número de SharePoint que compartilharam atividades externas.  <br/> |
+|SPO_TotalActivities  <br/> |Número de SharePoint atividades.  <br/> |
+|SPO_FileAccessedActivities  <br/> |Número de atividades SharePoint acesso a arquivos.  <br/> |
+|SPO_FileSyncedActivities  <br/> |Número de SharePoint de arquivos sincronizados.  <br/> |
+|SPO_FileSharedInternallyActivities  <br/> |Número de SharePoint de arquivos compartilhados internamente ou com grupos (que podem incluir membros externos).  <br/> |
+|SPO_FileSharedExternallyActivities  <br/> |Número de SharePoint de arquivo compartilhado externamente.  <br/> |
+|SPO_TotalFiles  <br/> |Número de SharePoint arquivos.  <br/> |
+|SPO_ActiveFiles  <br/> |Número de arquivos SharePoint ativos.  <br/> |
+|SPO_StorageUsed  <br/> |Quantidade de armazenamento SharePoint usado.  <br/> |
+|YAM_TotalGroups  <br/> |Número de Yammer grupos.  <br/> |
+|YAM_ActiveGroups  <br/> |Número de grupos Yammer ativos.  <br/> |
+|YAM_LikedActiveGroups  <br/> |Número de Yammer grupos que têm atividades como.  <br/> |
+|YAM_PostedActiveGroups  <br/> |Número de grupos Yammer que têm atividades de postagem.  <br/> |
+|YAM_ReadActiveGroups  <br/> |Número de Yammer grupos que têm atividades de leitura.  <br/> |
+|YAM_TotalActivities  <br/> |Número de Yammer atividades.  <br/> |
+|YAM_LikedActivities  <br/> |Número de Yammer como atividades.  <br/> |
+|YAM_PostedActivties  <br/> |Número de atividades Yammer postagem.  <br/> |
+|YAM_ReadActivites  <br/> |Número de Yammer de leitura.  <br/> |
    
 ### <a name="data-table---tenant-office-activation"></a>Tabela de dados - Ativação do Office do Locatário
 
-A tabela fornece dados sobre o número de ativações de assinatura do Office nos planos de serviço, por exemplo, Aplicativos do Microsoft 365 para empresas, Visio, Project. Ela também fornece dados sobre o número de ativações por dispositivo (Android/iOS/Mac/PC).
+A tabela fornece dados sobre o número de Office de assinatura nos planos de serviço, por exemplo, Microsoft 365 Apps para empresas, Visio, Project. Ela também fornece dados sobre o número de ativações por dispositivo (Android/iOS/Mac/PC).
   
 |**Nome da coluna**|**Descrição da coluna**|
 |:-----|:-----|

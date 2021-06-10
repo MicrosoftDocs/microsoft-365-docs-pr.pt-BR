@@ -33,14 +33,14 @@ ms.locfileid: "51580529"
 
 ## <a name="try-it"></a>Experimente!
 
-Crie uma equipe de toda a organização no Microsoft Teams da que todos em sua empresa podem fazer parte. À medida que você adiciona mais usuários ao Microsoft 365, eles serão adicionados automaticamente a essa equipe.
+Crie uma equipe em toda a organização Microsoft Teams que todos em sua empresa possam fazer parte. À medida que você adiciona mais usuários Microsoft 365, eles serão adicionados automaticamente a essa equipe.
 
-1. No Microsoft Teams, selecione  **Teams**, em **seguida, Criar equipe.**
+1. Em Microsoft Teams, selecione **Teams**, em **seguida, Criar equipe.**
 2. Escolha  **Criar uma equipe do zero**.
 3. Selecione **Criar uma equipe em toda a organização.**
 
 > [!NOTE]
-> Você deve ser um administrador do Microsoft 365 para exibir essa opção.
+> Você deve ser um administrador Microsoft 365 para exibir essa opção.
 
 1. Dê um nome à sua equipe, adicione uma descrição e selecione  **Criar**.
 
@@ -49,6 +49,6 @@ Dentro de sua equipe há canais. O canal Geral é criado automaticamente. Você 
 Tente qualquer um dos seguintes:
 
 - Use a  **guia Postagens** para conversas e comunicados em toda a organização, como uma mensagem de boas-vindas para todos.
-- Na guia  **Arquivos,** você pode criar novos documentos para os que todos podem contribuir, como um documento do Microsoft Word. Ou arraste e solte documentos existentes na guia **Arquivos.**
+- Na guia **Arquivos,** você pode criar novos documentos para os que todos podem contribuir, como um Microsoft Word documento. Ou arraste e solte documentos existentes na guia **Arquivos.**
 - Use a  **guia Wiki** para fazer anotações rápidas. E selecione o sinal de a mais ( **+** ) para adicionar aplicativos ou arquivos como guias adicionais.
 - Com as guias à esquerda, você pode exibir atividades recentes, conversar com outros membros da equipe, exibir as equipes às que você pertence e seu calendário. Você pode fazer chamadas de voz e vídeo para outros usuários de equipe e exibir arquivos em que você trabalhou recentemente.

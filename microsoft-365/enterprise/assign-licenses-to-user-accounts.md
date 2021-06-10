@@ -1,5 +1,5 @@
 ---
-title: Atribuir licenças do Microsoft 365 a contas de usuário
+title: Atribuir Microsoft 365 licenças a contas de usuário
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -25,7 +25,7 @@ search.appverid:
 - MOE150
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
-description: Descreve como atribuir licenças do Microsoft 365 a contas de usuário, individualmente ou com base na associação ao grupo.
+description: Descreve como atribuir Microsoft 365 licenças a contas de usuário, individualmente ou com base na associação ao grupo.
 ms.openlocfilehash: 2fe1e2f959fae8b0bc82a7dcd4f65f33b21c368a
 ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
@@ -33,19 +33,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51051527"
 ---
-# <a name="assign-microsoft-365-licenses-to-user-accounts"></a>Atribuir licenças do Microsoft 365 a contas de usuário
+# <a name="assign-microsoft-365-licenses-to-user-accounts"></a>Atribuir Microsoft 365 licenças a contas de usuário
 
-*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
+*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-Para o modelo de identidade somente na nuvem, você pode atribuir licenças do Microsoft 365 às contas de usuário à medida que elas são criadas, dependendo de como você as cria.
+Para o modelo de identidade somente na nuvem, você pode atribuir Microsoft 365 licenças a contas de usuário à medida que elas são criadas, dependendo de como você as cria.
 
-Para o modelo de identidade híbrida, quando as contas de usuário do Active Directory Domain Services (AD DS) são sincronizadas pela primeira vez, elas não são atribuídas automaticamente a um local ou uma licença do Microsoft 365. **Você deve configurar cada conta de usuário com um local de usuário antes ou com a atribuição de uma licença.**
+Para o modelo de identidade híbrida, quando as contas de usuário do Active Directory Domain Services (AD DS) são sincronizadas pela primeira vez, elas não são atribuídas automaticamente a um local ou uma licença de Microsoft 365. **Você deve configurar cada conta de usuário com um local de usuário antes ou com a atribuição de uma licença.**
 
-Em ambos os casos, você deve atribuir uma licença a contas de usuário para que seus usuários possam acessar serviços do Microsoft 365, como email e Microsoft Teams.
+Em ambos os casos, você deve atribuir uma licença a contas de usuário para que os usuários possam acessar Microsoft 365 serviços, como email e Microsoft Teams.
 
 Você pode atribuir licenças a contas de usuário individualmente ou automaticamente por meio da associação ao grupo.
 
-Para atribuir licenças do Microsoft 365 a contas de usuário individuais, você pode usar:
+Para atribuir Microsoft 365 licenças a contas de usuário individuais, você pode usar:
 
 - [O Centro de administração do Microsoft 365](../admin/manage/assign-licenses-to-users.md)
 - [PowerShell](assign-licenses-to-user-accounts-with-microsoft-365-powershell.md)
@@ -68,6 +68,6 @@ Para obter mais informações, consulte [licenciamento baseado em grupo no Azure
 Com o conjunto apropriado de contas de usuário que foram atribuídas licenças, agora você está pronto para:
 
 - [Implementar segurança](../security/defender-365-security/security-roadmap.md)
-- [Implantar software cliente, como o Microsoft 365 Apps](/DeployOffice/deployment-guide-microsoft-365-apps)
+- [Implantar software cliente, como Microsoft 365 Apps](/DeployOffice/deployment-guide-microsoft-365-apps)
 - [Configurar o gerenciamento de dispositivos](device-management-roadmap-microsoft-365.md)
 - [Configurar serviços e aplicativos](configure-services-and-applications.md)

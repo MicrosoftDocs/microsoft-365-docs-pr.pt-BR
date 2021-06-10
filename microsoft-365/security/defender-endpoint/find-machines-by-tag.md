@@ -77,7 +77,7 @@ Autorização | Cadeia de caracteres | Portador {token}. **Obrigatório**.
 Nome | Tipo | Descrição
 :---|:---|:---
 tag | Cadeia de caracteres | O nome da marca. **Obrigatório**.
-useStartsWithFilter | Booliano | Quando definida como true, a pesquisa encontrará todos os dispositivos com o nome da marca que começa com a marca determinada na consulta. O padão é falso. **Opcional**.
+useStartsWithFilter | Boolean | Quando definida como true, a pesquisa encontrará todos os dispositivos com o nome da marca que começa com a marca determinada na consulta. O padão é falso. **Opcional**.
 
 ## <a name="request-body"></a>Corpo da solicitação
 Vazio

@@ -31,47 +31,47 @@ ms.locfileid: "51580913"
 
 O RGPD (Regulamento Geral de Proteção de Dados) é uma regulamentação da União Europeia que entra em vigor em 25 de maio de 2018. Ele dá aos usuários direitos e proteção de seus dados. Um dos aspectos do RGPD é que os menores não podem ter seus dados pessoais enviados às partes que seu pai ou responsável não aprovou. A idade específica definida como secundária depende da região onde o indivíduo está localizado.
   
-As regiões que têm regulamentos estatutários sobre o consentimento dos pais incluem os Estados Unidos, a Coreia do Sul, o Reino Unido e a União Europeia. Para essas regiões, um secundário será bloqueado (por meio do Azure Active Directory) de obter novos complementos do Office na Loja e executar os complementos que foram adquiridos anteriormente. Para países sem regulamentos estatutários, não haverá restrições de download.
+As regiões que têm regulamentos estatutários sobre o consentimento dos pais incluem os Estados Unidos, a Coreia do Sul, o Reino Unido e a União Europeia. Para essas regiões, um secundário será bloqueado (por Azure Active Directory) de obter novos Office novos Office da Loja e executar os complementos que foram adquiridos anteriormente. Para países sem regulamentos estatutários, não haverá restrições de download.
   
-Um usuário é determinado como um secundário com base nos dados especificados no Azure Active Directory. O administrador da organização é responsável por declarar a faixa etária legal e o consentimento dos pais para esse usuário.
+Um usuário é determinado como um secundário com base nos dados especificados em Azure Active Directory. O administrador da organização é responsável por declarar a faixa etária legal e o consentimento dos pais para esse usuário.
   
 Se o pai/responsável consentir com um menor usando um complemento específico, o administrador da organização poderá usar a implantação centralizada para implantar esse complemento em todos os menores que tenham consentimento.
   
-Para ser compatível com o RGPD para menores, você precisa garantir que uma das seguintes builds do Office seja implantada em sua escola/organização.
+Para ser compatível com o RGPD para menores, você precisa garantir que uma das seguintes builds de Office seja implantada em sua escola/organização.
  
- **Para Word, Excel, PowerPoint e Project:** 
+ **Para Word, Excel, PowerPoint e Project**: 
 
 |**Plataforma** <br/> |**Número de compilação** <br/> |
 |:-----|:-----|
-|Aplicativos do Microsoft 365 para empresas (Canal Atual)  <br/> |9001.2138   <br/> |
-|Aplicativos do Microsoft 365 para empresas (Canal Empresarial Semestais)  <br/> |8431.2159  <br/> |
+|Microsoft 365 Apps para Grandes Empresas (Canal Atual)  <br/> |9001.2138   <br/> |
+|Microsoft 365 Apps para Grandes Empresas (Canal de Enterprise Semes Enterprise)  <br/> |8431.2159  <br/> |
 |Office 2016 para Windows  <br/> |16.0.4672.1000  <br/> |
 |Office 2013 para Windows  <br/> |15.0.5023.1000  <br/> |
 |Office 2016 para Mac  <br/> |16.11.18020200  <br/> |
-|Office na Web  <br/> |N/D  <br/> |
+|Office na Web  <br/> |N/A  <br/> |
    
- **Para o Outlook**: 
+ **Para Outlook**: 
   
 |**Plataforma** <br/> |**Número de compilação** <br/> |
 |:-----|:-----|
 |Outlook 2016 para Windows (MSI)  <br/> |Build No TBD  <br/> |
 |Outlook 2016 para Windows (C2R)  <br/> |16.0.9323.1000  <br/> |
 |Office 2016 para Mac  <br/> |16.0.9318.1000  <br/> |
-|Outlook mobile para iOS  <br/> |2.75.0  <br/> |
-|Outlook mobile para Android  <br/> |2.2.145  <br/> |
-|Outlook.com  <br/> |N/D  <br/> |
+|Outlook celular para iOS  <br/> |2.75.0  <br/> |
+|Outlook celular para Android  <br/> |2.2.145  <br/> |
+|Outlook.com  <br/> |N/A  <br/> |
 
- **Requisitos do Office 2013**
+ **Office requisitos de 2013**
   
 Word, Excel e PowerPoint 2013 para Windows darão suporte às mesmas verificações secundárias se a Biblioteca de Autenticação do Active Directory (ADAL) estiver habilitada. Há duas opções de conformidade, conforme explicado em seguida.
   
-- **Habilitar a ADAL**. Este artigo explica como habilitar o ADAL para o Office 2013: usando a autenticação moderna do [Microsoft 365 com clientes do Office.](../../enterprise/modern-auth-for-office-2013-and-2016.md)<br/>Você também precisa definir as chaves do Registro para habilitar o ADAL conforme explicado em Habilitar Autenticação Moderna para [Office 2013 em dispositivos Windows](../security-and-compliance/enable-modern-authentication.md).<br/>Além disso, você precisa instalar as seguintes atualizações de abril para o Office 2013:
+- **Habilitar a ADAL**. Este artigo explica como habilitar o ADAL para Office 2013: usando Microsoft 365 [autenticação](../../enterprise/modern-auth-for-office-2013-and-2016.md)moderna com Office clientes .<br/>Você também precisa definir as chaves do Registro para habilitar o ADAL, conforme explicado em [Enable Modern Authentication for Office 2013 em Windows dispositivos](../security-and-compliance/enable-modern-authentication.md).<br/>Além disso, você precisa instalar as seguintes atualizações de abril para Office 2013:
     
-  - [Descrição da atualização de segurança do Office 2013: 10 de abril de 2018](https://support.microsoft.com/help/4018330/description-of-the-security-update-for-office-2013-april-10-2018)
+  - [Descrição da atualização de segurança Office 2013: 10 de abril de 2018](https://support.microsoft.com/help/4018330/description-of-the-security-update-for-office-2013-april-10-2018)
     
-  - [3 de abril de 2018, atualização para o Office 2013 (KB4018333)](https://support.microsoft.com/help/4018333/april-3-2018-update-for-office-2013-kb4018333)
+  - [3 de abril de 2018, atualização para Office 2013 (KB4018333)](https://support.microsoft.com/help/4018333/april-3-2018-update-for-office-2013-kb4018333)
     
-- **Não habilita o ADAL**. Se você não conseguir habilitar o ADAL no Office 2013, nossa recomendação é usar a Política de Grupo para desativar a Loja para os clientes do Office. Informações sobre como desativar o aplicativo para configurações do Office estão localizadas [aqui](/previous-versions/office/office-2013-resource-kit/cc178992(v=office.15)).
+- **Não habilita o ADAL**. Se você não conseguir habilitar o ADAL no Office 2013, nossa recomendação é usar a Política de Grupo para desativar a Loja para os clientes Office. Informações sobre como desativar o aplicativo para Office configurações estão localizadas [aqui](/previous-versions/office/office-2013-resource-kit/cc178992(v=office.15)).
 
 ## <a name="related-articles"></a>Artigos relacionados
 

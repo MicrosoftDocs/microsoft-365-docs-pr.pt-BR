@@ -1,5 +1,5 @@
 ---
-title: Personalizar os relatórios na análise de uso do Microsoft 365
+title: Personalizar os relatórios na análise Microsoft 365 uso
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9b76065f-29b9-4b89-8059-c5f9db9ddbf6
-description: Aprenda a personalizar relatórios no navegador e na Área de Trabalho do Power BI.
+description: Aprenda a personalizar relatórios no navegador e Power BI Desktop.
 ms.openlocfilehash: 0ef2364c82318dfea93e8df4e64d53a66caa8d74
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -27,9 +27,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51580769"
 ---
-# <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>Personalizar os relatórios na análise de uso do Microsoft 365
+# <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>Personalizar os relatórios na análise Microsoft 365 uso
 
-A análise de uso do Microsoft 365 fornece um painel no Power BI que oferece informações sobre como os usuários adotam e usam o Microsoft 365. O painel é apenas um ponto de partida para interagir com os dados de uso. Os relatórios podem ser personalizados para informações mais personalizadas.
+Microsoft 365 análise de uso fornece um painel em Power BI que oferece informações sobre como os usuários adotam e usam Microsoft 365. O painel é apenas um ponto de partida para interagir com os dados de uso. Os relatórios podem ser personalizados para informações mais personalizadas.
   
 Você também pode usar a área de trabalho do Power BI para personalizar ainda mais seus relatórios conectando-os a outras fontes de dados para obter informações mais detalhadas sobre sua empresa.
   
@@ -43,7 +43,7 @@ Este exemplo mostra como modificar a guia **Ativação** no relatório **de Ativ
   
 1. No relatório **Ativação/Licenciamento,** selecione a **guia Ativação.**
     
-2. Insira o modo de edição escolhendo o **botão Editar** na parte superior por meio do botão Mais página no botão ![ Power ](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) BI. 
+2. Insira o modo de edição escolhendo o **botão Editar** na parte superior por meio do botão Mais página ![ Power BI ](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) botão. 
     
     ![Click Edit report on the top right navigation](../../media/e2c16663-1fbd-4d7f-887c-0cbb891d3b3d.png)
   
@@ -61,9 +61,9 @@ Este exemplo mostra como modificar a guia **Ativação** no relatório **de Ativ
 
 O exemplo a seguir mostra como criar um novo visual para rastrear novos usuários do Yammer mensalmente.
   
-1. Vá para o **relatório uso do** produto usando a navegação esquerda e selecione a guia **Yammer.**
+1. Vá para o **relatório uso do** produto usando a navegação à esquerda e selecione a guia **Yammer.**
     
-2. Alternar para o modo de edição escolhendo ![ O botão mais página no Power BI e ](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) **Editar**. 
+2. Alternar para o modo de edição escolhendo O botão mais página no Power BI ![ ](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) e **Editar**. 
     
 3. Na parte inferior da página, selecione o ![O botão adicionar página no Power BI](../../media/d3b8c117-17d4-4f53-b078-8fefc2155b24.png) para criar uma nova página.
   
@@ -87,9 +87,9 @@ O exemplo a seguir mostra como criar um novo visual para rastrear novos usuário
 
 11. Na área **Tipo de filtro** que aparece, selecione a caixa de seleção **Yammer**.
 
-    ![Marque a caixa de seleção do Yammer](../../media/82e99730-0de9-42da-928a-76aab0c3e609.png)
+    ![Selecione Yammer caixa de seleção](../../media/82e99730-0de9-42da-928a-76aab0c3e609.png)
   
-12. Logo abaixo da lista de visualizações, escolha o ícone **Formatar** ![ ícone Formatar ícone No Power BI Visualizaions ](../../media/ee0602f3-3df5-4930-b862-db1d90ae4ae2.png) .
+12. Logo abaixo da lista de visualizações, escolha o ícone **Formatar** ícone Formatar ícone Em Power BI ![ Visualizações ](../../media/ee0602f3-3df5-4930-b862-db1d90ae4ae2.png) .
 
 13. Expanda o título e altere o valor do **Título do Texto** para **Usuários do Yammer pela primeira vez por mês**.
     
@@ -105,7 +105,7 @@ Para a maioria dos clientes, modificar os relatórios e os gráficos visuais na 
   
 ### <a name="use-the-reporting-apis"></a>Use as APIs de relatórios
 
-Você pode começar conectando-se diretamente às APIs de relatório ODATA do Microsoft 365 que ligam esses relatórios.
+Você pode começar conectando-se diretamente às APIs de relatório ODATA Microsoft 365 que ligam esses relatórios.
   
 1. Vá até **obter dados** \> **Outros** \> **Feed ODATA** \> **Conectar**.
     
@@ -115,9 +115,9 @@ Você pode começar conectando-se diretamente às APIs de relatório ODATA do Mi
   
     ![OData feed URL for Power BI desktop](../../media/c0ef967e-a454-4eba-bc8e-61e113170053.png)
   
-3. Insira suas credenciais de administrador do Microsoft 365 (organização ou escola) para autenticar no Microsoft 365 quando solicitado.
+3. Insira suas Microsoft 365 de administrador (organização ou escola) para autenticar para Microsoft 365 quando solicitado.
     
-    Consulte as [Perguntas Frequentes](usage-analytics.md#faq) para obter mais informações sobre quem tem permissão para acessar os relatórios do aplicativo de modelo de adoção do Microsoft 365. 
+    Consulte as [Perguntas Frequentes](usage-analytics.md#faq) para obter mais informações sobre quem tem permissão para acessar os relatórios do aplicativo de modelo Microsoft 365 Adoção. 
     
 4. Uma vez que a conexão é autorizada, você verá a janela do Navegador que mostra os conjuntos de dados disponíveis para se conectar.
     
@@ -127,11 +127,11 @@ Você pode começar conectando-se diretamente às APIs de relatório ODATA do Mi
     
     ![Valores ODATA disponíveis na API de relatórios](../../media/545b4d17-dbbd-4cfc-b75a-a8b27283d438.png)
   
-### <a name="use-the-microsoft-365-usage-analytics-template"></a>Usar o modelo de análise de uso do Microsoft 365
+### <a name="use-the-microsoft-365-usage-analytics-template"></a>Usar o modelo Microsoft 365 análise de uso
 
-Você também pode usar o arquivo de modelo do Power BI que corresponde aos relatórios de análise de uso do Microsoft 365 como ponto de partida para se conectar aos dados. A vantagem de usar o arquivo .pbit é que ele possui a sequência de conexão já estabelecida. Você também pode aproveitar todas as medidas personalizadas que são criadas, em cima dos dados que o esquema base retorna e criar ainda mais.
+Você também pode usar o arquivo Power BI de modelo que corresponde aos relatórios Microsoft 365 análise de uso como ponto de partida para se conectar aos dados. A vantagem de usar o arquivo .pbit é que ele possui a sequência de conexão já estabelecida. Você também pode aproveitar todas as medidas personalizadas que são criadas, em cima dos dados que o esquema base retorna e criar ainda mais.
   
-Você pode baixar o arquivo de modelo do Power BI no [Centro de Download da Microsoft.](https://download.microsoft.com/download/7/8/2/782ba8a7-8d89-4958-a315-dab04c3b620c/Microsoft%20365%20Usage%20Analytics.pbit) Depois de baixar o arquivo de modelo do Power BI, siga estas etapas para começar:
+Você pode baixar o arquivo Power BI de modelo do [Centro de Download da Microsoft.](https://download.microsoft.com/download/7/8/2/782ba8a7-8d89-4958-a315-dab04c3b620c/Microsoft%20365%20Usage%20Analytics.pbit) Depois de baixar o arquivo Power BI modelo, siga estas etapas para começar:
   
 1. Abra o arquivo .pbit.
     
@@ -139,9 +139,9 @@ Você pode baixar o arquivo de modelo do Power BI no [Centro de Download da Micr
     
     ![Enter your tenant ID to open the pbit file](../../media/071ed0bf-8b9d-49c6-81fc-fd4c6cc85bd3.png)
   
-3. Insira suas credenciais de administrador para autenticar no Microsoft 365 quando solicitado.
+3. Insira suas credenciais de administrador para autenticar para Microsoft 365 quando solicitado.
     
-     para obter mais informações sobre quem tem permissão para acessar os relatórios de análise de uso do Microsoft 365. 
+     para obter mais informações sobre quem tem permissão para acessar os relatórios Microsoft 365 análise de uso. 
     
     Uma vez autorizado, os dados serão atualizados no arquivo Power BI.
     

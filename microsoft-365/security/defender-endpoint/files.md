@@ -58,13 +58,13 @@ Método|Tipo de retorno |Descrição
 |globalLastObserved | DateTimeOffset | Última vez que o arquivo foi observado |
 |size | Long anulado | Tamanho do arquivo |
 |fileType | Cadeia de caracteres | Tipo do arquivo |
-|isPeFile | Booliano | true se o arquivo for executável portátil (por exemplo, "DLL", "EXE", etc.) |
+|isPeFile | Boolean | true se o arquivo for executável portátil (por exemplo, "DLL", "EXE", etc.) |
 |filePublisher | Cadeia de caracteres | Editor de arquivos |
 |fileProductName | Cadeia de caracteres | Nome do produto |
 |signer | Cadeia de caracteres | Signante de arquivo |
 |emissor | Cadeia de caracteres | Emissor de arquivo |
 |signerHash | Cadeia de caracteres | Hash do certificado de assinatura |
-|isValidCertificate | Booliano | Foi verificado com êxito o certificado de assinatura pelo Microsoft Defender para agente do Ponto de Extremidade |
+|isValidCertificate | Boolean | Foi verificado com êxito o certificado de assinatura pelo Microsoft Defender para agente do Ponto de Extremidade |
 |determinationType | Cadeia de caracteres | O tipo de determinação do arquivo |
 |determinationValue | Cadeia de caracteres | Valor de determinação |
 

@@ -39,17 +39,17 @@ As políticas de prevenção contra perda de dados ajudam a identificar e proteg
 1. Para começar, vá para o centro [de administração](https://admin.microsoft.com)e selecione **Configurar**.
 1. Role para baixo **até Configurar a prevenção** contra perda de dados e selecione **Exibir** e, em seguida, **Gerenciar**.
 1. Para editar uma política, selecione-a, escolha **Editar política** e selecione o que alterar. Por exemplo, selecione **Locais** para alterar o que é verificado.
-1. Para habilitar a verificação de conteúdo no Microsoft Teams, alterne a opção de alternância para a posição **Ativado** e selecione **Salvar**.
+1. Para habilitar a verificação de conteúdo Microsoft Teams, alterne a opção de alternância para a posição **Ativado** e selecione **Salvar**.
 1. Para editar configurações de política, selecione **Editar**.
 1. Você precisará definir regras separadas que se aplicam a pequenas e grandes quantidades de conteúdos confidenciais detectados. Expanda sua regra de baixo volume. Escolha **Editar regra**.
 1. Revise suas configurações e ajuste-as conforme necessário. Por exemplo, você pode optar por **Personalizar o texto de email** e Personalizar o texto da dica de **política.** Selecione **Salvar**.
 1. Repita para a regra de alto volume. Selecione **Salvar** e, em **seguida, Fechar**.
 1. Para criar uma nova política, selecione **Criar uma política**.
-1. Você pode criar uma política personalizada ou começar com um modelo. Por exemplo, para criar uma política  HIPAA, selecione o modelo médico e de saúde e selecione a Lei de Seguro de Saúde dos EUA **(HIPAA)**. Selecione **Próximo**.
-1. Insira um nome e uma descrição para sua política. Selecione **Próximo**.
-1. Escolha os locais a examinar. Selecione **Próximo**.
-1. Escolha o tipo de conteúdo que você deseja proteger. Selecione **Próximo**.
-1. Escolha o que você deseja que aconteça se informações confidenciais são detectadas. Selecione **Próximo**.
-1. Personalize seu acesso e substitua permissões. Selecione **Próximo**.
-1. Escolha quando quiser que a política entre em vigor. Selecione **Próximo**.
+1. Você pode criar uma política personalizada ou começar com um modelo. Por exemplo, para criar uma política  HIPAA, selecione o modelo médico e de saúde e selecione a Lei de Seguro de Saúde dos EUA **(HIPAA)**. Selecione **Avançar**.
+1. Insira um nome e uma descrição para a política. Selecione **Avançar**.
+1. Escolha os locais a examinar. Selecione **Avançar**.
+1. Escolha o tipo de conteúdo que você deseja proteger. Selecione **Avançar**.
+1. Escolha o que você deseja que aconteça se informações confidenciais são detectadas. Selecione **Avançar**.
+1. Personalize seu acesso e substitua permissões. Selecione **Avançar**.
+1. Escolha quando quiser que a política entre em vigor. Selecione **Avançar**.
 1. Revise suas configurações e selecione **Criar**. Depois que sua política entrar em vigor, os emails que contêm as informações confidenciais descritas serão bloqueados e o remetente que tentou enviar essas informações verá uma mensagem de aviso.

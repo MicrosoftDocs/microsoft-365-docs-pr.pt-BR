@@ -1,5 +1,5 @@
 ---
-title: Participar de uma reunião do Microsoft Teams com convidados
+title: Participar de uma Microsoft Teams com convidados
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -19,7 +19,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como participar de uma reunião do Teams com convidados.
+description: Saiba como participar de uma reunião Teams com convidados.
 ms.openlocfilehash: 781e1aa242270588ba50a025ca0dd71c06354ad0
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -31,15 +31,15 @@ ms.locfileid: "51580541"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYWn?autoplay=false]
 
-Com o Microsoft Teams, você pode participar facilmente de reuniões com usuários internos e externos.
+Com Microsoft Teams, você pode facilmente participar e participar de reuniões com usuários internos e externos.
 
 ## <a name="try-it"></a>Experimente!
 
-1. No Microsoft Teams, escolha **Calendário** e encontre sua reunião.
+1. Em Microsoft Teams, escolha **Calendário** e encontre sua reunião.
 1. Selecione **Ingressar**, decida se deseja que sua câmera e microfone acionem ou acionem e selecione **Ingressar agora**.
-1. Se você for um convidado externo, abra o email recebido sobre a reunião e selecione **Ingressar na Reunião do Microsoft Teams.**
+1. Se você for um convidado externo, abra o email recebido sobre a reunião e selecione **Ingressar Microsoft Teams Reunião**.
 
     Se você não quiser baixar o aplicativo, escolha **Ingressar na Web.**
 1. Insira seu nome e selecione **Ingressar agora**.
-1. Depois que todos chegarem, você poderá iniciar sua reunião compartilhando sua área de trabalho, um monitor ou um aplicativo como o PowerPoint.
+1. Depois que todos chegarem, você poderá iniciar sua reunião compartilhando sua área de trabalho, um monitor ou um aplicativo como PowerPoint.
 1. Quando a reunião for final, selecione **Desligar**.

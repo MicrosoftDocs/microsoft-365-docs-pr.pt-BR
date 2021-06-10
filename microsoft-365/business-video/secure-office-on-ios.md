@@ -20,7 +20,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como proteger aplicativos do Office no iOS com o Microsoft 365 Business Premium.
+description: Saiba como proteger Office aplicativos no iOS com Microsoft 365 Business Premium.
 ms.openlocfilehash: 5a5f52f87fe63fdec6df9611a5ea44a2ecf4466b
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -36,16 +36,16 @@ Você pode configurar uma política de acesso ao usuário que exige que os usuá
 
 ## <a name="try-it"></a>Experimente!
 
-1. Acesse o centro de administração do Microsoft 365.
+1. Entre no Centro de administração do Microsoft 365.
 1. Em **Políticas,** escolha **Adicionar política**.
 1. No painel **Adicionar política,** insira um nome em **Nome** da Política e escolha o tipo de política que você deseja em **Tipo de política**.
-1. Ativar Gerenciar **como os usuários acessam** arquivos do Office em dispositivos móveis e, em seguida, certifique-se de que as três configurações a seguir estão ativas:
+1. Ativar Gerenciar **como os usuários acessam Office arquivos** em dispositivos móveis e, em seguida, certifique-se de que as três configurações a seguir estão ativas:
     - **Exigir um PIN ou uma impressão digital para acessar aplicativos do Office**
     - **Proteger arquivos de trabalho quando dispositivos são perdidos ou roubados**
     - **Criptografar arquivos de trabalho**
 
-1. Em **Arquivos nesses aplicativos serão protegidos**, selecione os aplicativos do Office que você deseja proteger em dispositivos móveis.
-1. Em **Quem obterá essas configurações?**, todos os usuários são selecionados por padrão, mas você pode escolher **Alterar** para selecionar todos os grupos de segurança criados.
+1. Em **Arquivos nesses aplicativos serão protegidos,** selecione o Office aplicativos que você deseja proteger em dispositivos móveis.
+1. Em Who obterão essas **configurações?**, todos os usuários são selecionados por padrão, mas você pode escolher **Alterar** para selecionar qualquer grupo de segurança criado.
 1. Para concluir a criação da política, escolha **Adicionar**.
 1. Na página **Adicionar política,** escolha **Fechar**.
 1. Na home page do Centro de administração, confirme se sua nova política foi adicionada escolhendo **Políticas** e revendo sua política na **página Políticas.**

@@ -1,5 +1,5 @@
 ---
-title: Colaborar usando o Outlook e o Teams
+title: Colaborar usando Outlook e Teams
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -19,7 +19,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como usar o Outlook e o Microsoft Teams para colaborar.
+description: Saiba como usar Outlook e Microsoft Teams colaborar.
 ms.openlocfilehash: dc0eaf1b47796becf62222fb93ccd071cc197a1c
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -29,7 +29,7 @@ ms.locfileid: "51580661"
 ---
 # <a name="use-outlook-and-teams-together"></a>Usar o Outlook e o Teams juntos
 
-Ao se comunicar com seus funcionários, parceiros, clientes e outras pessoas em sua pequena empresa, use o Outlook e o Teams no Microsoft 365. No Outlook, você encontrará emails, calendários, contatos e tarefas, enquanto no Teams você encontrará conversas, arquivos, reuniões e acesso rápido à Microsoft e aplicativos de terceiros. Aqui está um resumo de como você pode usar cada um em sua empresa.
+Quando você se comunicar com seus funcionários, parceiros, clientes e outras pessoas em sua pequena empresa, use Outlook e Teams em Microsoft 365. No Outlook, você encontrará emails, calendários, contatos e tarefas, enquanto no Teams você encontrará conversas, arquivos, reuniões e acesso rápido à Microsoft e aplicativos de terceiros. Aqui está um resumo de como você pode usar cada um em sua empresa.
 
 ## <a name="microsoft-outlook"></a>Microsoft Outlook
 
@@ -45,13 +45,13 @@ Ao se comunicar com seus funcionários, parceiros, clientes e outras pessoas em 
 - Tenha conversas ricas e em tempo real com sua equipe e convide clientes ou convidados para a conversa.
 - Tenha chats privados ou chamadas e compartilhe sua tela umas com as outras.
 - Agende e participe de reuniões com funcionários e convidados.
-- Adicione ou compartilhe arquivos do site do SharePoint associado ou do OneDrive for Business.
-- Adicione mais aplicativos como Planner, Power BI ou GitHub ao Teams.
+- Adicione ou compartilhe arquivos do site SharePoint ou OneDrive for Business.
+- Adicione mais aplicativos como Planner, Power BI ou GitHub para Teams.
 
-:::image type="content" source="../media/teams-model.png" alt-text="Uma imagem estilizada da home page do Microsoft Teams."::: 
+:::image type="content" source="../media/teams-model.png" alt-text="Uma imagem estilizada da Microsoft Teams home page."::: 
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[O que é o Outlook?](https://support.microsoft.com/office10f1fa35-f33a-4cb7-838c-a7f3e6228b20)
+[O que é Outlook?](https://support.microsoft.com/office10f1fa35-f33a-4cb7-838c-a7f3e6228b20)
 
-[Visão geral do Teams](/MicrosoftTeams/Teams-overview)
+[Teams visão geral](/MicrosoftTeams/Teams-overview)

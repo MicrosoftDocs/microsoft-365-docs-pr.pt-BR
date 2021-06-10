@@ -33,11 +33,11 @@ ms.locfileid: "51580637"
 
 ## <a name="try-it"></a>Experimente!
 
-O Microsoft 365 não inclui um site público para sua empresa. Para configurar um, considere usar uma empresa de hospedagem da Web como GoDaddy, Wix ou WordPress.
+Microsoft 365 não inclui um site público para sua empresa. Para configurar um, considere usar uma empresa de hospedagem da Web como GoDaddy, Wix ou WordPress.
 
 1. Pesquise um provedor de hospedagem da Web onde você pode criar seu site.
 
      Você pode achar mais fácil escolher o construtor de sites na mesma empresa em que seu nome de domínio está registrado.
 1. Projete seu site de negócios, certifique-se de incluir seu logotipo da empresa, finalidade comercial, texto, imagens e links.
-1. Para integrar o site com o Microsoft 365, você pode adicionar seu email comercial ao site e um link para o Microsoft Teams, SharePoint ou outra ferramenta de colaboração.
-1. Certifique-se de conectar seu site ao seu nome de domínio, que você&#39;também está usando para email no Microsoft 365.
+1. Para integrar o site com Microsoft 365, você pode adicionar seu email comercial ao site e um link para Microsoft Teams, SharePoint ou outra ferramenta de colaboração.
+1. Certifique-se de conectar seu site ao seu nome de domínio, que você&#39;também está usando para email em Microsoft 365.
