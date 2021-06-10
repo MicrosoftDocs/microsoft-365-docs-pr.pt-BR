@@ -98,7 +98,7 @@ para este aplicativo, a menos que outros termos acompanhem esses itens. Em caso 
 
     2.  O respectivo provedor de armazenamento de aplicativos e suas subsidiárias são beneficiários de terceiros desses Termos e, após a aceitação desses Termos, os provedores de armazenamento de aplicativos terão o direito de impor e depender diretamente de qualquer disposição desses Termos que lhes conceda um benefício ou direitos.
 
-9.  **AVISOS DE MARCA REGISTRADA.** Microsoft, Microsoft Defender for Endpoint e Microsoft 365 são marcas comerciais registradas ou comuns da Microsoft Corporation nos Estados Unidos e/ou em outros países.
+9.  **AVISOS DE MARCA REGISTRADA.** Microsoft, Microsoft Defender para Ponto de Extremidade e Microsoft 365 são marcas comerciais registradas ou comuns da Microsoft Corporation nos Estados Unidos e/ou em outros países.
 
 10. **ENTIRE AGREEMENT.** Este contrato e os termos para suplementos, atualizações, serviços baseados na Internet e serviços de suporte que você usa são o contrato inteiro para os serviços de aplicativo e suporte.
 

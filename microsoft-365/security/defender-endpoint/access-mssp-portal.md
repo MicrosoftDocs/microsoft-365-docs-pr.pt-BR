@@ -1,6 +1,6 @@
 ---
-title: Acessar o portal do cliente do Centro de Segurança do Microsoft Defender MSSP
-description: Acessar o portal do cliente do Centro de Segurança do Microsoft Defender MSSP
+title: Acessar o portal Central de Segurança do Microsoft Defender cliente MSSP
+description: Acessar o portal Central de Segurança do Microsoft Defender cliente MSSP
 keywords: provedor de serviços de segurança gerenciado, mssp, configurar, integração
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -23,7 +23,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/24/2021
 ms.locfileid: "51164852"
 ---
-# <a name="access-the-microsoft-defender-security-center-mssp-customer-portal"></a>Acessar o portal do cliente do Centro de Segurança do Microsoft Defender MSSP
+# <a name="access-the-microsoft-defender-security-center-mssp-customer-portal"></a>Acessar o portal Central de Segurança do Microsoft Defender cliente MSSP
 
 **Aplica-se a:**
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -44,7 +44,7 @@ ms.locfileid: "51164852"
 >[!NOTE] 
 >Esses conjunto de etapas são direcionados para o MSSP. 
 
-Por padrão, os clientes MSSP acessam seu locatário do Centro de Segurança do Microsoft Defender por meio da seguinte URL: `https://securitycenter.windows.com` .
+Por padrão, os clientes MSSP acessam seus Central de Segurança do Microsoft Defender locatários por meio da seguinte URL: `https://securitycenter.windows.com` .
  
 
 No entanto, os MSSPs precisarão usar uma URL específica do locatário no seguinte formato: para acessar  `https://securitycenter.windows.com?tid=customer_tenant_id` o portal do cliente MSSP. 
@@ -58,7 +58,7 @@ Use as etapas a seguir para obter a ID do locatário do cliente MSSP e, em segui
 
 2. Alternar o diretório para o locatário do cliente MSSP.
 
-3.  Selecione **Propriedades do Azure Active Directory >**. Você encontrará a ID do locatário no campo ID do Diretório. 
+3.  Selecione **Azure Active Directory > Propriedades**. Você encontrará a ID do locatário no campo ID do Diretório. 
 
 4. Acesse o portal do cliente MSSP substituindo `customer_tenant_id` o valor na seguinte URL: `https://securitycenter.windows.com?tid=customer_tenant_id` .
 

@@ -68,7 +68,7 @@ A maioria das soluções MDM usa o mesmo modelo para gerenciar dispositivos macO
 
 ### <a name="package"></a>Pacote
 
-Configurar a implantação [de um pacote de](mac-install-with-jamf.md)aplicativos necessário , com o pacote de instalação (wdav.pkg) baixado do Centro de Segurança do Microsoft [Defender](mac-install-with-jamf.md).
+Configurar a implantação [de um pacote de aplicativos](mac-install-with-jamf.md)necessário , com o pacote de instalação (wdav.pkg) baixado do [Central de Segurança do Microsoft Defender](mac-install-with-jamf.md).
 
 Para implantar o pacote em sua empresa, use as instruções associadas à sua solução MDM.
 
@@ -76,9 +76,9 @@ Para implantar o pacote em sua empresa, use as instruções associadas à sua so
 
 Configurar um [perfil de configuração do sistema.](mac-install-with-jamf.md) 
 
-Sua solução MDM pode chamá-la de algo como "Perfil de Configurações Personalizadas", pois o Microsoft Defender para Ponto de Extremidade no macOS não faz parte do macOS.
+Sua solução MDM pode chamá-la de algo como "Perfil Configurações personalizado", pois o Microsoft Defender para Ponto de Extremidade no macOS não faz parte do macOS.
 
-Use a lista de propriedades, jamf/WindowsDefenderATPOnboarding.plist, que pode ser extraída de um pacote de integração baixado do Centro de Segurança do [Microsoft Defender.](mac-install-with-jamf.md)
+Use a lista de propriedades, jamf/WindowsDefenderATPOnboarding.plist, que pode ser extraída de um pacote de integração baixado do [Central de Segurança do Microsoft Defender](mac-install-with-jamf.md).
 Seu sistema pode dar suporte a uma lista de propriedades arbitrárias no formato XML. Você pode carregar o arquivo jamf/WindowsDefenderATPOnboarding.plist como está nesse caso.
 Como alternativa, pode exigir que você converta a lista de propriedades em um formato diferente primeiro.
 
@@ -116,7 +116,7 @@ Conceda acesso em disco completo aos seguintes componentes:
 
 ### <a name="network-extension-policy"></a>Política de extensão de rede
 
-Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Microsoft Defender para Ponto de Extremidade no macOS inspeciona o tráfego de soquete e relata essas informações ao portal do Centro de Segurança do Microsoft Defender. A política a seguir permite que a extensão de rede execute essa funcionalidade.
+Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Microsoft Defender para Ponto de Extremidade no macOS inspeciona o tráfego de soquete e relata essas informações ao portal Central de Segurança do Microsoft Defender. A política a seguir permite que a extensão de rede execute essa funcionalidade.
 
 - Tipo de filtro: Plug-in
 - Identificador do pacote de plug-in: `com.microsoft.wdav`

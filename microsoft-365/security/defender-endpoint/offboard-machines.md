@@ -1,6 +1,6 @@
 ---
 title: Dispositivos offboard do serviço Microsoft Defender para Ponto de Extremidade
-description: Onboard Windows 10 devices, servers, non-Windows devices from the Microsoft Defender for Endpoint service
+description: Integração Windows 10, servidores, dispositivos que não Windows do serviço Microsoft Defender para Ponto de Extremidade
 keywords: offboarding, Microsoft Defender for Endpoint offboarding, offboarding
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -45,10 +45,10 @@ Siga as instruções correspondentes, dependendo do método de implantação pre
 >[!NOTE]
 > O status de um dispositivo será alternado para [Inativo](fix-unhealthy-sensors.md#inactive-devices) 7 dias após o offboard. <br> Os dados dos dispositivos de fora (como Linha do Tempo, Alertas, Vulnerabilidades etc.) permanecerão no portal até que o período de retenção configurado [expire.](data-storage-privacy.md#how-long-will-microsoft-store-my-data-what-is-microsofts-data-retention-policy) <br>
 > O perfil do dispositivo (sem dados) [](machines-view-overview.md) permanecerá na Lista de Dispositivos por não mais de 180 dias.
-> Além disso, os dispositivos que não estão ativos nos últimos 30 dias não são fatorados [](tvm-exposure-score.md) nos dados que refletem a pontuação de exposição a ameaças e vulnerabilidades da sua organização e a Pontuação Segura da Microsoft para Dispositivos. <br>
+> Além disso, os dispositivos que não estão ativos nos últimos 30 dias não são fatorados nos dados que refletem [a](tvm-exposure-score.md) pontuação de exposição Gerenciamento de Ameaças e Vulnerabilidades da sua organização e a Pontuação Segura da Microsoft para Dispositivos. <br>
 > Para exibir somente dispositivos ativos, você pode filtrar por estado de [saúde,](machines-view-overview.md#health-state)marcas [de dispositivo](machine-tags.md) ou grupos [de máquinas.](machine-groups.md) 
 
-## <a name="offboard-windows-10-devices"></a>Offboard dispositivos Windows 10
+## <a name="offboard-windows-10-devices"></a>Dispositivos Windows 10 offboard
 - [Dispositivos offboard usando um script local](configure-endpoints-script.md#offboard-devices-using-a-local-script)
 - [Dispositivos offboard usando a Política de Grupo](configure-endpoints-gp.md#offboard-devices-using-group-policy)
 - [Dispositivos offboard usando ferramentas de Gerenciamento de Dispositivo Móvel](configure-endpoints-mdm.md#offboard-and-monitor-devices-using-mobile-device-management-tools)
@@ -56,6 +56,6 @@ Siga as instruções correspondentes, dependendo do método de implantação pre
 ## <a name="offboard-servers"></a>Servidores offboard
 - [Servidores offboard](configure-server-endpoints.md#offboard-windows-servers)
 
-## <a name="offboard-non-windows-devices"></a>Offboard de dispositivos que não são windows
-- [Offboard de dispositivos que não são windows](configure-endpoints-non-windows.md#offboard-non-windows-devices)
+## <a name="offboard-non-windows-devices"></a>Dispositivos que não Windows offboard
+- [Dispositivos que não Windows offboard](configure-endpoints-non-windows.md#offboard-non-windows-devices)
 

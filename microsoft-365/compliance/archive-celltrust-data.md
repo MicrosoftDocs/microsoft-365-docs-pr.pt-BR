@@ -1,5 +1,5 @@
 ---
-title: Configurar um conector para arquivar dados cellTrust no Microsoft 365
+title: Configurar um conector para arquivar dados cellTrust em Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -11,7 +11,7 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: Os administradores podem configurar um conector para importar e arquivar dados cellTrust da Veritas para o Microsoft 365. Esse conector permite arquivar dados de fontes de dados de terceiros no Microsoft 365. Depois de arquivar esses dados, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros.
+description: Os administradores podem configurar um conector para importar e arquivar dados CellTrust da Veritas para Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros em Microsoft 365. Depois de arquivar esses dados, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros.
 ms.openlocfilehash: 855d48303c7c35c32951105799aa117675820420
 ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
@@ -21,13 +21,13 @@ ms.locfileid: "51164380"
 ---
 # <a name="set-up-a-connector-to-archive-celltrust-data"></a>Configurar um conector para arquivar dados cellTrust
 
-Use um conector Veritas no centro de conformidade do Microsoft 365 para importar e arquivar dados da plataforma CellTrust para caixas de correio de usuário em sua organização do Microsoft 365. A Veritas fornece um [conector CellTrust](https://globanet.com/celltrust/) que captura itens da fonte de dados de terceiros e importa esses itens para o Microsoft 365. O conector converte o conteúdo de mensagens SMS de contas CellTrust em um formato de mensagem de email e importa esses itens para a caixa de correio do usuário no Microsoft 365.
+Use um conector Veritas no centro de conformidade Microsoft 365 para importar e arquivar dados da plataforma CellTrust para caixas de correio de usuário em sua Microsoft 365 organização. A Veritas fornece um [conector CellTrust](https://globanet.com/celltrust/) que captura itens da fonte de dados de terceiros e importa esses itens para Microsoft 365. O conector converte o conteúdo de mensagens SMS de contas CellTrust em um formato de mensagem de email e importa esses itens para a caixa de correio do usuário em Microsoft 365.
 
-Depois que os dados cellTrust são armazenados em caixas de correio de usuário, você pode aplicar recursos de conformidade do Microsoft 365, como Retenção de Litígio, Descoberta Eletrônico, políticas de retenção e rótulos de retenção e conformidade de comunicação. Usar um conector CellTrust para importar e arquivar dados no Microsoft 365 pode ajudar sua organização a se manter em conformidade com políticas governamentais e regulatórias.
+Depois que os dados cellTrust são armazenados em caixas de correio de usuário, você pode aplicar Microsoft 365 de conformidade, como Retenção de Litígio, Descoberta Eletrônico, políticas de retenção e rótulos de retenção e conformidade de comunicação. Usar um conector CellTrust para importar e arquivar dados no Microsoft 365 pode ajudar sua organização a manter-se em conformidade com políticas governamentais e regulatórias.
 
 ## <a name="overview-of-archiving-celltrust-data"></a>Visão geral dos dados cellTrust de arquivamento
 
-A visão geral a seguir explica o processo de uso de um conector para arquivar dados cellTrust no Microsoft 365.
+A visão geral a seguir explica o processo de uso de um conector para arquivar dados cellTrust em Microsoft 365.
 
 ![Fluxo de trabalho de arquivamento para dados CellTrust](../media/CellTrustConnectorWorkflow.png)
 
@@ -35,7 +35,7 @@ A visão geral a seguir explica o processo de uso de um conector para arquivar d
 
 2. Uma vez a cada 24 horas, os itens CellTrust são copiados para o site Veritas Merge1. O conector também converte o conteúdo de uma mensagem em um formato de mensagem de email.
 
-3. O conector CellTrust que você cria no centro de conformidade do Microsoft 365 conecta-se ao site Veritas Merge1 todos os dias e transfere as mensagens para um local seguro de Armazenamento do Azure na nuvem da Microsoft.
+3. O conector CellTrust que você cria no centro de conformidade do Microsoft 365 conecta-se ao site do Veritas Merge1 todos os dias e transfere as mensagens para um local seguro do Azure Armazenamento na nuvem da Microsoft.
 
 4. O mapeamento automático do usuário como conector importa itens para as caixas de correio de usuários específicos usando o valor da propriedade *Email* do descrito [na Etapa 3](#step-3-map-users-and-complete-the-connector-setup). Uma subpasta na pasta Caixa de Entrada chamada **CellTrust** é criada nas caixas de correio do usuário e os itens de mensagem são importados para essa pasta. O conector determina para qual caixa de correio importar itens usando o valor da *propriedade Email.* Cada item CellTrust contém essa propriedade, que é preenchida com o endereço de email de cada participante.
 
@@ -43,11 +43,11 @@ A visão geral a seguir explica o processo de uso de um conector para arquivar d
 
 - Crie uma conta Merge1 para conectores da Microsoft. Para criar uma conta, entre em contato com [o Suporte ao Cliente veritas.](https://www.veritas.com/content/support/) Você precisa entrar nessa conta ao criar o conector na Etapa 1.
 
-- O usuário que cria o conector CellTrust na Etapa 1 (e o conclui na Etapa 3) deve ser atribuído à função De exportação de importação de caixa de correio no Exchange Online. Essa função é necessária para adicionar conectores na página **Conectores de** dados no centro de conformidade do Microsoft 365. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função Exportar Importação de Caixa de Correio ao grupo de função Gerenciamento da Organização no Exchange Online. Ou você pode criar um grupo de funções, atribuir a função Exportar Importação de Caixa de Correio e adicionar os usuários apropriados como membros. Para obter mais informações, consulte as seções Criar grupos de [função](/Exchange/permissions-exo/role-groups#create-role-groups) ou [Modificar](/Exchange/permissions-exo/role-groups#modify-role-groups) grupos de função no artigo "Gerenciar grupos de função no Exchange Online".
+- O usuário que cria o conector CellTrust na Etapa 1 (e o conclui na Etapa 3) deve ser atribuído à função De exportação de importação de caixa de correio no Exchange Online. Essa função é necessária para adicionar conectores na página **Conectores** de dados no Microsoft 365 de conformidade. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função Exportar Importação de Importação de Caixa de Correio ao grupo de função Gerenciamento da Organização Exchange Online. Ou você pode criar um grupo de funções, atribuir a função Exportar Importação de Caixa de Correio e adicionar os usuários apropriados como membros. Para obter mais informações, consulte as seções Criar grupos de [função](/Exchange/permissions-exo/role-groups#create-role-groups) ou [Modificar](/Exchange/permissions-exo/role-groups#modify-role-groups) grupos de função no artigo "Gerenciar grupos de funções em Exchange Online".
 
 ## <a name="step-1-set-up-the-celltrust-connector"></a>Etapa 1: Configurar o conector CellTrust
 
-A primeira etapa é acessar os **Conectores** de Dados no centro de conformidade do Microsoft 365 e criar um conector para dados CellTrust.
+A primeira etapa é acessar os **Conectores** de Dados no centro de conformidade Microsoft 365 e criar um conector para dados CellTrust.
 
 1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique em **Conectores de dados** \> **CellTrust**.
 
@@ -63,19 +63,19 @@ A primeira etapa é acessar os **Conectores** de Dados no centro de conformidade
 
 A segunda etapa é configurar o conector CellTrust no site Veritas Merge1. Para obter informações sobre como configurar o conector CellTrust, consulte [Merge1 Third-Party Connectors User Guide](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20CellTrust%20User%20Guide%20.pdf).
 
-Depois de clicar em Salvar &  **Concluir**, a página de mapeamento do usuário no assistente de conector no centro de conformidade do Microsoft 365 será exibida.
+Depois de clicar em Salvar &  **Concluir**, a página de mapeamento do usuário no assistente de conector no Microsoft 365 de conformidade será exibida.
 
 ## <a name="step-3-map-users-and-complete-the-connector-setup"></a>Etapa 3: mapear usuários e concluir a configuração do conector
 
-Para mapear usuários e concluir a configuração do conector no centro de conformidade do Microsoft 365, siga estas etapas:
+Para mapear usuários e concluir a configuração do conector no Microsoft 365 de conformidade, siga estas etapas:
 
-1. Na página **Mapear usuários cellTrust para usuários do Microsoft 365,** habilita o mapeamento automático do usuário. Os itens CellTrust incluem uma propriedade chamada *Email*, que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens serão importados para a caixa de correio desse usuário.
+1. Na página **Mapear usuários cellTrust para Microsoft 365 usuários,** habilita o mapeamento automático do usuário. Os itens CellTrust incluem uma propriedade chamada *Email*, que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um Microsoft 365 usuário, os itens serão importados para a caixa de correio desse usuário.
 
 2. Clique **em Avançar,** revise suas configurações e vá até a página **Conectores** de dados para ver o andamento do processo de importação do novo conector.
 
 ## <a name="step-4-monitor-the-celltrust-connector"></a>Etapa 4: Monitorar o conector CellTrust
 
-Depois de criar o conector CellTrust, você poderá exibir o status do conector no centro de conformidade do Microsoft 365.
+Depois de criar o conector CellTrust, você poderá exibir o status do conector no Microsoft 365 de conformidade.
 
 1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique **em Conectores de dados** na nav esquerda.
 

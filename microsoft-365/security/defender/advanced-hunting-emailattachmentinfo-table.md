@@ -37,14 +37,14 @@ ms.locfileid: "51935492"
 
 
 
-A tabela no esquema de busca avançado contém informações sobre anexos em emails processados pelo `EmailAttachmentInfo` Microsoft Defender para Office 365. [](advanced-hunting-overview.md) Use essa referência para criar consultas que retornam informações dessa tabela.
+A tabela no esquema de busca avançada contém informações sobre anexos em emails processados pelo `EmailAttachmentInfo` Microsoft Defender para Office 365. [](advanced-hunting-overview.md) Use essa referência para criar consultas que retornam informações dessa tabela.
 
 Para obter informações sobre outras tabelas no esquema de busca avançada, [confira a referência de busca avançada](advanced-hunting-schema-tables.md).
 
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `NetworkMessageId` | cadeia de caracteres | Identificador exclusivo do email, gerado pelo Microsoft 365 |
+| `NetworkMessageId` | cadeia de caracteres | Identificador exclusivo do email, gerado por Microsoft 365 |
 | `SenderFromAddress` | cadeia de caracteres | Endereço de email do remetente no cabeçalho DE, visível para os destinatários dos seus clientes de email |
 | `SenderDisplayName` | cadeia de caracteres | Nome do remetente exibido no livro de endereços, normalmente uma combinação de um nome ou nome determinado, uma inicial do meio e um sobrenome ou sobrenome |
 | `SenderObjectId` | cadeia de caracteres | Identificador exclusivo da conta do remetente no Azure AD |

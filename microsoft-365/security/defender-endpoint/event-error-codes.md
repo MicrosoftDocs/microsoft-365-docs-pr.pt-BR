@@ -46,7 +46,7 @@ Por exemplo, se os dispositivos não aparecerem na lista **Dispositivos,** talve
 
 2. Na lista de log, em **Resumo de Log,** role até ver **Microsoft-Windows-SENSE/Operational**. Clique duas vezes no item para abrir o log.
 
-   a.  Você também pode acessar o log expandindo Aplicativos **e Serviços Registra o**  >  **Microsoft**  >  **Windows**  >  **SENSE** e clique em **Operacional**.
+   a.  Você também pode acessar o log expandindo Os Logs **de** Aplicativos e Serviços da  >  **Microsoft**  >  **Windows**  >  **SENSE** e clique em **Operacional**.
 
    > [!NOTE]
    > SENSE é o nome interno usado para se referir ao sensor comportamental que alimenta o Microsoft Defender para o Ponto de Extremidade.
@@ -150,7 +150,7 @@ Pode levar várias horas para que o dispositivo apareça no portal.</td>
 <td>Notificação operacional normal; nenhuma ação necessária.</td>
 </tr>
 <tr>
-<td>15 </td>
+<td>15</td>
 <td>O Microsoft Defender para Ponto de Extremidade não pode iniciar o canal de comando com URL: <code>variable</code> .</td>
 <td>Variável = URL dos servidores de processamento do Defender for Endpoint.<br>
 O serviço não pôde entrar em contato com os servidores de processamento externos nessa URL.</td>
@@ -159,29 +159,29 @@ O serviço não pôde entrar em contato com os servidores de processamento exter
 <tr>
 <td>17 </td>
 <td>O serviço do Microsoft Defender para Ponto de Extremidade falhou ao alterar o local do serviço Experiências do Usuário Conectado e Telemetria. Código de falha: <code>variable</code> .</td>
-<td>Ocorreu um erro com o serviço de telemetria do Windows.</td>
+<td>Ocorreu um erro com o serviço Windows telemetria.</td>
 <td><a href="troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy" data-raw-source="[Ensure the diagnostic data service is enabled](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)">Verifique se o serviço de dados de diagnóstico está habilitado</a>.<br>
 Verifique se as configurações e scripts de integração foram implantados corretamente. Tente reimplantar os pacotes de configuração.<br>
 Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 devices</a>.</td>
 </tr>
 <tr>
 <td>18 </td>
-<td>OOBE (Boas-vindas do Windows) está concluído.</td>
-<td>O serviço só será iniciar depois que todas as atualizações do Windows terminarem de instalar.</td>
+<td>OOBE (Windows Bem-vindo) é concluído.</td>
+<td>O serviço só será a partir Windows as atualizações terminarem de instalar.</td>
 <td>Notificação operacional normal; nenhuma ação necessária.</td>
 </tr>
 <tr>
 <td>19</td>
-<td>OOBE (Boas-vindas do Windows) ainda não foi concluído.</td>
-<td>O serviço só será iniciar depois que todas as atualizações do Windows terminarem de instalar.</td>
+<td>OOBE (Windows Bem-vindo) ainda não foi concluído.</td>
+<td>O serviço só será a partir Windows as atualizações terminarem de instalar.</td>
 <td>Notificação operacional normal; nenhuma ação necessária.<br>
-Se esse erro persistir após uma reinicialização do sistema, certifique-se de que todas as atualizações do Windows tenham sido instaladas.</td>
+Se esse erro persistir após uma reinicialização do sistema, certifique-se de que todas as Windows atualizações tenham sido instaladas.</td>
 </tr>
 <tr>
 <td>20</td>
-<td>Não é possível aguardar a conclusão do OOBE (Boas-vindas do Windows). Código de falha: <code>variable</code> .</td>
+<td>Não é possível aguardar a conclusão do OOBE (Windows Bem-vindo). Código de falha: <code>variable</code> .</td>
 <td>Erro interno.</td>
-<td>Se esse erro persistir após uma reinicialização do sistema, certifique-se de que todas as atualizações do Windows tenham sido instaladas.</td>
+<td>Se esse erro persistir após uma reinicialização do sistema, certifique-se de que todas as Windows atualizações tenham sido instaladas.</td>
 </tr>
 <tr>
 <td>25</td>
@@ -201,8 +201,8 @@ Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 d
 </tr>
 <tr>
 <td>27</td>
-<td>O serviço do Microsoft Defender para Ponto de Extremidade falhou ao habilitar o modo de conhecimento SENSE no Microsoft Defender Antivírus. Falha no processo de integração. Código de falha: <code>variable</code> .</td>
-<td>Normalmente, o Microsoft Defender Antivírus entrará em um estado passivo especial se outro produto antimalware em tempo real estiver sendo executado corretamente no dispositivo e o dispositivo estiver relatando ao Defender para o Ponto de Extremidade.</td>
+<td>O serviço do Microsoft Defender para Ponto de Extremidade falhou ao habilitar o modo de conhecimento SENSE Microsoft Defender Antivírus. Falha no processo de integração. Código de falha: <code>variable</code> .</td>
+<td>Normalmente, Microsoft Defender Antivírus um estado passivo especial se outro produto antimalware em tempo real estiver sendo executado corretamente no dispositivo e o dispositivo estiver relatando para o Defender para Ponto de Extremidade.</td>
 <td>Verifique se as configurações e scripts de integração foram implantados corretamente. Tente reimplantar os pacotes de configuração.<br>
 Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 devices</a>.<br>
 Verifique se a proteção antimalware em tempo real está sendo executado corretamente.</td>
@@ -210,7 +210,7 @@ Verifique se a proteção antimalware em tempo real está sendo executado corret
 <tr>
 <td>28</td>
 <td>Falha no registro do serviço de Telemetria e experiências de usuário conectados do Microsoft Defender for Endpoint. Código de falha: <code>variable</code> .</td>
-<td>Ocorreu um erro com o serviço de telemetria do Windows.</td>
+<td>Ocorreu um erro com o serviço Windows telemetria.</td>
 <td><a href="troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy" data-raw-source="[Ensure the diagnostic data service is enabled](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)">Verifique se o serviço de dados de diagnóstico está habilitado</a>.<br>
 Verifique se as configurações e scripts de integração foram implantados corretamente. Tente reimplantar os pacotes de configuração.<br>
 Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 devices</a>.</td>
@@ -223,8 +223,8 @@ Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 d
 </tr>
 <tr>
 <td>30</td>
-<td>O serviço do Microsoft Defender para Ponto de Extremidade falhou ao desabilitar o modo de conhecimento do SENSE no Microsoft Defender Antivírus. Código de falha: <code>variable</code> .</td>
-<td>Normalmente, o Microsoft Defender Antivírus entrará em um estado passivo especial se outro produto antimalware em tempo real estiver sendo executado corretamente no dispositivo e o dispositivo estiver relatando ao Defender para o Ponto de Extremidade.</td>
+<td>O serviço do Microsoft Defender para Ponto de Extremidade falhou ao desabilitar o modo de conhecimento SENSE Microsoft Defender Antivírus. Código de falha: <code>variable</code> .</td>
+<td>Normalmente, Microsoft Defender Antivírus um estado passivo especial se outro produto antimalware em tempo real estiver sendo executado corretamente no dispositivo e o dispositivo estiver relatando para o Defender para Ponto de Extremidade.</td>
 <td>Verifique se as configurações e scripts de integração foram implantados corretamente. Tente reimplantar os pacotes de configuração.<br>
 Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 devices</a><br>
 Verifique se a proteção antimalware em tempo real está sendo executado corretamente.</td>
@@ -232,8 +232,8 @@ Verifique se a proteção antimalware em tempo real está sendo executado corret
 <tr>
 <td>31</td>
 <td>Falha no microsoft defender para experiências de usuário conectados e serviço de telemetria. Código de falha: <code>variable</code> .</td>
-<td>Ocorreu um erro com o serviço de telemetria do Windows durante a integração. O processo de offboarding continua.</td>
-<td><a href="troubleshoot-onboarding.md#ensure-the-diagnostic-data-service-is-enabled" data-raw-source="[Check for errors with the Windows telemetry service](troubleshoot-onboarding.md#ensure-the-diagnostic-data-service-is-enabled)">Verifique se há erros com o serviço de telemetria do Windows.</a></td>
+<td>Ocorreu um erro com o serviço Windows telemetria durante a integração. O processo de offboarding continua.</td>
+<td><a href="troubleshoot-onboarding.md#ensure-the-diagnostic-data-service-is-enabled" data-raw-source="[Check for errors with the Windows telemetry service](troubleshoot-onboarding.md#ensure-the-diagnostic-data-service-is-enabled)">Verifique se há erros com o serviço Windows telemetria</a>.</td>
 </tr>
 <tr>
 <td>32</td>
@@ -251,7 +251,7 @@ Se o identificador não persistir, o mesmo dispositivo poderá aparecer duas vez
 <tr>
 <td>34</td>
 <td>O serviço do Microsoft Defender para Ponto de Extremidade falhou ao adicionar a si mesmo como uma dependência do serviço Experiências de Usuário Conectado e Telemetria, causando falha no processo de integração. Código de falha: <code>variable</code> .</td>
-<td>Ocorreu um erro com o serviço de telemetria do Windows.</td>
+<td>Ocorreu um erro com o serviço Windows telemetria.</td>
 <td><a href="troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy" data-raw-source="[Ensure the diagnostic data service is enabled](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)">Verifique se o serviço de dados de diagnóstico está habilitado</a>.<br>
 Verifique se as configurações e scripts de integração foram implantados corretamente. Tente reimplantar os pacotes de configuração.<br>
 Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 devices</a>.</td>
@@ -259,9 +259,9 @@ Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 d
 <tr>
 <td>35</td>
 <td>O serviço do Microsoft Defender para Ponto de Extremidade falhou ao se remover como uma dependência do serviço Experiências de Usuário Conectado e Telemetria. Código de falha: <code>variable</code> .</td>
-<td>Ocorreu um erro com o serviço de telemetria do Windows durante o offboard. O processo de offboarding continua.
+<td>Ocorreu um erro com o Windows de telemetria durante o offboard. O processo de offboarding continua.
 </td>
-<td>Verifique se há erros com o serviço de dados de diagnóstico do Windows.</td>
+<td>Verifique se há erros com o serviço de Windows de diagnóstico.</td>
 </tr>
 <tr>
 <td>36</td>
@@ -494,7 +494,7 @@ Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 d
 </tr>
 <tr>
    <td>84</td>
-   <td>Definir Windows Defender modo de execução antivírus. Forçar o modo passivo: %1, código de resultado: %2.</td>
+   <td>De Windows Defender Antivírus modo de execução. Forçar o modo passivo: %1, código de resultado: %2.</td>
    <td>Definir o modo de execução do defender (ativo ou passivo).</td>
    <td>Notificação operacional normal; nenhuma ação necessária.</td>
 </tr>
@@ -613,5 +613,5 @@ Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 d
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Dispositivos integrados do Windows 10](configure-endpoints.md)
-- [Configurar configurações de proxy de dispositivo e conectividade com a Internet](configure-proxy-internet.md)
+- [Definir as configurações de proxy de dispositivo e conectividade com a Internet](configure-proxy-internet.md)
 - [Solucionar problemas do Microsoft Defender para Ponto de Extremidade](troubleshoot-onboarding.md)

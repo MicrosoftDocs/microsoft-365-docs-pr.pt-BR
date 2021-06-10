@@ -59,13 +59,13 @@ Você pode aplicar os filtros a seguir para limitar a lista de alertas e obter u
 Gravidade do alerta | Descrição
 :---|:---
 Alto </br>(Vermelho) | Alertas comumente vistos associados a ameaças persistentes avançadas (APT). Esses alertas indicam um alto risco devido à gravidade dos danos que podem causar em dispositivos. Alguns exemplos são: atividades de ferramentas de roubo de credenciais, atividades de ransomware não associadas a nenhum grupo, adulteração de sensores de segurança ou atividades mal-intencionadas indicando um adversário humano.
-Médio </br>(Laranja) | Alertas de comportamentos pós-violação de detecção e resposta do ponto de extremidade que podem fazer parte de uma ameaça persistente avançada (APT). Isso inclui comportamentos observados típicos de estágios de ataque, alteração anômala do registro, execução de arquivos suspeitos e assim por diante. Embora alguns possam fazer parte de testes internos de segurança, ele requer investigação, pois também pode fazer parte de um ataque avançado.
+Médio </br>(Laranja) | Alertas de detecção e resposta de ponto de extremidade comportamentos pós-violação que podem fazer parte de uma ameaça persistente avançada (APT). Isso inclui comportamentos observados típicos de estágios de ataque, alteração anômala do registro, execução de arquivos suspeitos e assim por diante. Embora alguns possam fazer parte de testes internos de segurança, ele requer investigação, pois também pode fazer parte de um ataque avançado.
 Baixo </br>(Amarelo) | Alertas sobre ameaças associadas ao malware predominante. Por exemplo, ferramentas de hack, ferramentas de hack não malware, como a execução de comandos de exploração, a limpeza de logs, etc., que muitas vezes não indicam uma ameaça avançada visando a organização. Ele também pode vir de um teste de ferramenta de segurança isolado por um usuário em sua organização.
 Informativo </br>(Cinza) | Alertas que podem não ser considerados prejudiciais para a rede, mas podem impulsionar a conscientização de segurança organizacional sobre possíveis problemas de segurança.
 
 #### <a name="understanding-alert-severity"></a>Noções básicas sobre a gravidade do alerta
 
-As gravidades de alerta do Microsoft Defender Antivírus (Microsoft Defender AV) e do Defender for Endpoint são diferentes porque representam escopos diferentes.
+Microsoft Defender Antivírus (Microsoft Defender AV) e gravidades de alerta do Defender for Endpoint são diferentes porque representam escopos diferentes.
 
 A gravidade da ameaça av do Microsoft Defender representa a gravidade absoluta da ameaça detectada (malware) e é atribuída com base no risco potencial para o dispositivo individual, se infectado.
 
@@ -100,7 +100,7 @@ A tabela abaixo lista as categorias atuais e como elas geralmente mapeiam para c
 | Persistência          | Persistência         | Criando pontos de extensibilidade de início automático (ASEPs) para permanecer ativo e sobreviver a reinicializações do sistema                                        |
 | Escalonamento de privilégios | PrivilegeEscalation | Obtendo níveis de permissão mais altos para código executando-o no contexto de um processo privilegiado ou conta                         |
 | Ransomware           | Ransomware          | Malware que criptografa arquivos e extortas pagamento para restaurar o acesso                                                                     |
-| Atividade suspeita  | SuspiciousActivity  | Atividade atípica que pode ser atividade de malware ou parte de um ataque                                                                 |
+| Atividade Suspeita  | SuspiciousActivity  | Atividade atípica que pode ser atividade de malware ou parte de um ataque                                                                 |
 | Software indesejado    | UnwantedSoftware    | Aplicativos e aplicativos de baixa reputação que impactam a produtividade e a experiência do usuário; detectados como aplicativos potencialmente indesejados (PUAs) |
 
 ### <a name="status"></a>Status
@@ -121,10 +121,10 @@ Você pode escolher entre mostrar alertas atribuídos a você ou automação.
 
 ### <a name="detection-source"></a>Fonte de detecção
 
-Selecione a origem que disparou a detecção de alerta. Os participantes de visualização do Microsoft Threat Experts agora podem filtrar e ver detecções do novo serviço de busca gerenciado por especialistas em ameaças.
+Selecione a origem que disparou a detecção de alerta. Especialistas em Ameaças da Microsoft participantes de visualização agora podem filtrar e ver detecções do novo serviço de busca gerenciado por especialistas em ameaças.
 
 >[!NOTE]
->O filtro Antivírus só aparecerá se os dispositivos estão usando o Microsoft Defender Antivírus como o produto antimalware de proteção em tempo real padrão.
+>O filtro Antivírus só aparecerá se os dispositivos estão usando Microsoft Defender Antivírus como o produto antimalware de proteção em tempo real padrão.
 
 | Fonte de detecção                  | Valor da API                  |
 |-----------------------------------|----------------------------|

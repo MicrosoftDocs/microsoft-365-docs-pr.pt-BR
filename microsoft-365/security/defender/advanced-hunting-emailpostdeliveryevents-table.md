@@ -1,6 +1,6 @@
 ---
 title: Tabela EmailPostDeliveryEvents no esquema de busca avançado
-description: Saiba mais sobre ações pós-entrega realizadas em emails do Microsoft 365 na tabela EmailPostDeliveryEvents do esquema de busca avançado
+description: Saiba mais sobre ações pós-entrega realizadas em Microsoft 365 emails na tabela EmailPostDeliveryEvents do esquema de busca avançado
 keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, EmailPostDeliveryEvents, id de mensagem de rede, remetente, destinatário, id de anexo, nome do anexo, veredito de malware, veredito de phishing, contagem de anexos, contagem de links, contagem de url
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -35,7 +35,7 @@ ms.locfileid: "51935468"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-A tabela no esquema de busca avançado contém informações sobre ações pós-entrega realizadas em mensagens de email processadas `EmailPostDeliveryEvents` pelo Microsoft [](advanced-hunting-overview.md) 365. Use essa referência para criar consultas que retornam informações dessa tabela.
+A tabela no esquema de busca avançada contém informações sobre ações pós-entrega realizadas em mensagens `EmailPostDeliveryEvents` de email processadas por Microsoft 365. [](advanced-hunting-overview.md) Use essa referência para criar consultas que retornam informações dessa tabela.
 
 >[!TIP]
 > Para obter informações detalhadas sobre os tipos de eventos ( valores) suportados por uma tabela, use a referência de `ActionType` esquema interna disponível no centro de segurança.
@@ -45,7 +45,7 @@ Para obter mais informações sobre mensagens de email individuais, você també
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `NetworkMessageId` | cadeia de caracteres | Identificador exclusivo do email, gerado pelo Microsoft 365 |
+| `NetworkMessageId` | cadeia de caracteres | Identificador exclusivo do email, gerado por Microsoft 365 |
 | `InternetMessageId` | cadeia de caracteres | Identificador público do email definido pelo seu sistema de envio |
 | `Action` | cadeia de caracteres | Ação realizada na entidade |
 | `ActionType` | cadeia de caracteres | Tipo de atividade que disparou o evento: Correção manual, PHISH ZAP, MALWARE ZAP |

@@ -35,14 +35,14 @@ ms.locfileid: "51935456"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-A tabela no esquema de busca avançado contém informações sobre URLs sobre emails e `EmailUrlInfo` anexos processados pelo Microsoft Defender para Office 365. [](advanced-hunting-overview.md) Use essa referência para criar consultas que retornam informações dessa tabela. 
+A tabela no esquema de busca avançada contém informações sobre URLs sobre emails e `EmailUrlInfo` anexos processados pelo Microsoft Defender para Office 365. [](advanced-hunting-overview.md) Use essa referência para criar consultas que retornam informações dessa tabela. 
 
 Para obter informações sobre outras tabelas no esquema de busca avançada, [confira a referência de busca avançada](advanced-hunting-schema-tables.md).
 
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `NetworkMessageId` | cadeia de caracteres | Identificador exclusivo do email, gerado pelo Microsoft 365 |
+| `NetworkMessageId` | cadeia de caracteres | Identificador exclusivo do email, gerado por Microsoft 365 |
 | `Url` | string | URL completa no assunto, no corpo ou no anexo de email |
 | `UrlDomain` | cadeia de caracteres | Nome de domínio ou nome de host da URL |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp |

@@ -165,7 +165,7 @@ Para criar uma regra de transporte de email, veja um [vídeo de](../../business-
 > [!TIP]
 > Você também pode adicionar os arquivos que deseja bloquear à lista Anti-malware na [etapa 4](#4-raise-the-level-of-protection-against-malware-in-mail).
 
-Para mais informações, confira:
+Para saber mais, confira:
 
 - [Ransomware: como reduzir o risco](https://www.microsoft.com/security/blog/2020/04/28/ransomware-groups-continue-to-target-healthcare-critical-services-heres-how-to-reduce-risk/)
 

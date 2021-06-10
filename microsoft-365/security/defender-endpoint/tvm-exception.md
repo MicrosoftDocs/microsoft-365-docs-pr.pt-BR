@@ -1,7 +1,7 @@
 ---
-title: Criar e exibir exceções para recomendações de segurança - gerenciamento de ameaças e vulnerabilidades
-description: Crie e monitore exceções para recomendações de segurança no gerenciamento de ameaças e vulnerabilidades.
-keywords: Microsoft Defender for Endpoint tvm corretion, Microsoft Defender for Endpoint tvm, gerenciamento de ameaças e vulnerabilidades, gerenciamento de vulnerabilidades & ameaça, correção de gerenciamento de vulnerabilidades & ameaça, intune de correção de tvm, sccm de correção de tvm
+title: Criar e exibir exceções para recomendações de segurança - Gerenciamento de Ameaças e Vulnerabilidades
+description: Crie e monitore exceções para recomendações de segurança Gerenciamento de Ameaças e Vulnerabilidades.
+keywords: Microsoft Defender for Endpoint tvm remediation, Microsoft Defender for Endpoint tvm, Gerenciamento de Ameaças e Vulnerabilidades, threat & Gerenciamento de Vulnerabilidades, threat & Gerenciamento de Vulnerabilidades remediation, tvm remediation intune, tvm remediation sccm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -25,14 +25,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933740"
 ---
-# <a name="create-and-view-exceptions-for-security-recommendations---threat-and-vulnerability-management"></a>Criar e exibir exceções para recomendações de segurança - gerenciamento de ameaças e vulnerabilidades
+# <a name="create-and-view-exceptions-for-security-recommendations---threat-and-vulnerability-management"></a>Criar e exibir exceções para recomendações de segurança - Gerenciamento de Ameaças e Vulnerabilidades
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Ameaça e Gerenciamento de Vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -62,9 +62,9 @@ Aplique a exceção a todos os grupos de dispositivos atuais ou escolha grupos d
 
 #### <a name="filtered-views"></a>Exibições filtradas
 
-Se você tiver filtrado por grupo de dispositivos em qualquer uma das páginas de gerenciamento de ameaças e vulnerabilidades, somente os grupos de dispositivos filtrados aparecerão como opções.
+Se você tiver filtrado por grupo de dispositivos em qualquer uma das páginas Gerenciamento de Ameaças e Vulnerabilidades, somente os grupos de dispositivos filtrados aparecerão como opções.
 
-Este é o botão para filtrar por grupo de dispositivos em qualquer uma das páginas de gerenciamento de ameaças e vulnerabilidades: 
+Este é o botão para filtrar por grupo de dispositivos em qualquer uma das páginas Gerenciamento de Ameaças e Vulnerabilidades: 
 
 ![Mostrando filtro de grupos de dispositivos selecionados.](images/tvm-selected-device-groups.png)
 
@@ -128,7 +128,7 @@ Selecione o grupo de dispositivos específico para cancelar a exceção para ele
 
 ## <a name="view-impact-after-exceptions-are-applied"></a>Exibir impacto após a aplicação de exceções
 
-Na página Recomendações de Segurança, selecione Personalizar **colunas** e marque as caixas para dispositivos expostos **(após exceções)** e **Impacto (após exceções)**.
+Na página Segurança Recomendações, selecione Personalizar **colunas** e marque as caixas para dispositivos Expostos **(após exceções)** e **Impacto (após exceções)**.
 
 ![Mostrando opções de personalizar colunas.](images/tvm-after-exceptions.png)
 
@@ -140,7 +140,7 @@ O impacto (após exceções) mostra o impacto restante na pontuação de exposi�
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Visão geral do gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Visão geral Gerenciamento de Vulnerabilidades ameaça](next-gen-threat-and-vuln-mgt.md)
 - [Correção de vulnerabilidades](tvm-remediation.md)
 - [Recomendações de segurança](tvm-security-recommendation.md)
 - [Pontuação de exposição](tvm-exposure-score.md)

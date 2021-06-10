@@ -1,5 +1,5 @@
 ---
-title: Fases de implantação
+title: Fases da implementação
 description: Saiba como implantar o Microsoft Defender para Ponto de Extremidade preparando, configurando e integrando pontos de extremidade para esse serviço
 keywords: implantar, preparar, configurar, integração, fase, implantação, implantação, adoção, configuração
 search.product: eADQiWindows 10XVcnh
@@ -25,7 +25,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/24/2021
 ms.locfileid: "51165160"
 ---
-# <a name="deployment-phases"></a>Fases de implantação
+# <a name="deployment-phases"></a>Fases da implementação
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -50,8 +50,8 @@ Cada seção corresponde a um artigo separado nesta solução.
 |Fase | Descrição | 
 |:-------|:-----|
 | [Fase 1: Preparar](prepare-deployment.md)| Saiba mais sobre o que você precisa considerar ao implantar o Defender para o Ponto de Extremidade, como aprovações de participantes, considerações de ambiente, permissões de acesso e ordem de adoção de recursos. 
-| [Fase 2: Instalação](production-deployment.md)|  Receba orientações sobre as etapas iniciais necessárias para que você possa acessar o portal, como validar o licenciamento, concluir o assistente de instalação e a configuração de rede. 
-| [Fase 3: Onboard](onboarding.md) | Saiba como usar anéis de implantação, ferramentas de integração com suporte com base no tipo de ponto de extremidade e configurando os recursos disponíveis. 
+| [Fase 2: Configurar](production-deployment.md)|  Receba orientações sobre as etapas iniciais necessárias para que você possa acessar o portal, como validar o licenciamento, concluir o assistente de instalação e a configuração de rede. 
+| [Fase 3: Integrar](onboarding.md) | Saiba como usar anéis de implantação, ferramentas de integração com suporte com base no tipo de ponto de extremidade e configurando os recursos disponíveis. 
 
 
 Depois de concluir este guia, você será configurado com as permissões de acesso corretas, seus pontos de extremidade serão integrados e os dados do sensor de relatório para o serviço, e recursos como proteção de próxima geração e redução de superfície de ataque estarão no local.
@@ -75,9 +75,9 @@ Embora o Microsoft Defender para Ponto de Extremidade fornece muitos recursos, o
 
 Funcionalidade | Descrição 
 :---|:---
-Detecção e resposta do terminal. | Os recursos de detecção e resposta do ponto de extremidade são colocados para detectar, investigar e responder a tentativas de invasão e violações ativas.
-Proteção de última geração | Para reforçar ainda mais o perímetro de segurança da sua rede, o Microsoft Defender for Endpoint usa proteção de última geração projetada para capturar todos os tipos de ameaças emergentes.
-Redução da superfície do ataque. |  Forneça a primeira linha de defesa na pilha. Ao garantir que as configurações sejam definidas corretamente e que as técnicas de mitigação de exploração sejam aplicadas, esse conjunto de recursos resistem a ataques e exploração.
+Detecção de ponto de extremidade e resposta | Os recursos de detecção e resposta do ponto de extremidade são colocados para detectar, investigar e responder a tentativas de invasão e violações ativas.
+Proteção de próxima geração | Para reforçar ainda mais o perímetro de segurança da sua rede, o Microsoft Defender for Endpoint usa proteção de última geração projetada para capturar todos os tipos de ameaças emergentes.
+Redução de superfície de ataque |  Forneça a primeira linha de defesa na pilha. Ao garantir que as configurações sejam definidas corretamente e que as técnicas de mitigação de exploração sejam aplicadas, esse conjunto de recursos resistem a ataques e exploração.
 
 Todos esses recursos estão disponíveis para o Microsoft Defender para titulares de licença do Ponto de Extremidade. Para obter mais informações, consulte [Requisitos de licenciamento](minimum-requirements.md#licensing-requirements).
 
@@ -85,15 +85,15 @@ Todos esses recursos estão disponíveis para o Microsoft Defender para titulare
 
 ### <a name="in-scope"></a>No escopo
 
--   Uso do Microsoft Endpoint Manager e do Microsoft Endpoint Manager para integração de pontos de extremidade no serviço e configuração de recursos
+-   Uso de Microsoft Endpoint Manager e Microsoft Endpoint Manager para pontos de extremidade de integração no serviço e configurar recursos
 
--   Habilitando o Defender para recursos de detecção e resposta de ponto de extremidade de ponto de extremidade (EDR)
+-   Habilitando o Defender para detecção e resposta de ponto de extremidade (EDR)
 
 -   Habilitando os recursos da Plataforma de Proteção de Ponto de Extremidade (EPP) do Defender para Pontos de Extremidade
 
-    -   Proteção de última geração
+    -   Proteção de próxima geração
 
-    -   Redução da superfície do ataque.
+    -   Redução de superfície de ataque
 
 
 ### <a name="out-of-scope"></a>Fora do escopo
@@ -110,5 +110,5 @@ Os seguintes estão fora do escopo deste guia de implantação:
 ## <a name="see-also"></a>Confira também
 - [Fase 1: Preparar](prepare-deployment.md)
 - [Fase 2: Configurar](production-deployment.md)
-- [Fase 3: Onboard](onboarding.md)
+- [Fase 3: Integrar](onboarding.md)
 - [Planejar a implantação](deployment-strategy.md)

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Secure Score para dispositivos
 description: Sua pontuação para dispositivos mostra o estado de configuração de segurança coletiva de seus dispositivos em aplicativos, sistema operacional, rede, contas e controles de segurança.
-keywords: Microsoft Secure Score for Devices, Microsoft Defender for Endpoint Microsoft Secure Score for Devices, secure score, configuration score, threat and vulnerability management, security controls, improvement opportunities, security configuration score over time, security posture, baseline
+keywords: Microsoft Secure Score for Devices, Microsoft Defender for Endpoint Microsoft Secure Score for Devices, secure score, configuration score, Gerenciamento de Ameaças e Vulnerabilidades, security controls, improvement opportunities, security configuration score over time, security posture, baseline
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -32,16 +32,16 @@ ms.locfileid: "51934076"
 **Aplica-se a:**
 
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Ameaça e Gerenciamento de Vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
 
 
 >[!NOTE]
-> A pontuação de configuração agora faz parte do gerenciamento de ameaças e vulnerabilidades como Pontuação Segura da Microsoft para Dispositivos.
+> A pontuação de configuração agora faz parte Gerenciamento de Ameaças e Vulnerabilidades como Pontuação Segura da Microsoft para Dispositivos.
 
-Sua pontuação para dispositivos está visível no painel de gerenciamento de ameaças e [vulnerabilidades](tvm-dashboard-insights.md) do Centro de Segurança do Microsoft Defender. Uma pontuação segura da Microsoft mais alta para dispositivos significa que seus pontos de extremidade são mais resilientes contra ataques de ameaças de segurança cibernética. Ele reflete o estado de configuração de segurança coletiva de seus dispositivos nas seguintes categorias:
+Sua pontuação para dispositivos está visível [no painel Gerenciamento de Ameaças e Vulnerabilidades do](tvm-dashboard-insights.md) Central de Segurança do Microsoft Defender. Uma pontuação segura da Microsoft mais alta para dispositivos significa que seus pontos de extremidade são mais resilientes contra ataques de ameaças de segurança cibernética. Ele reflete o estado de configuração de segurança coletiva de seus dispositivos nas seguintes categorias:
 
 - Aplicativo
 - Sistema operacional
@@ -57,7 +57,7 @@ Encaminhe o Microsoft Defender para sinais de ponto de extremidade, dando visibi
 
 As alterações podem levar até algumas horas para refletir no painel.
 
-1. No painel de navegação, acesse **Configurações**  >  **Recursos avançados** 
+1. No painel de navegação, vá **para** Configurações  >  **recursos avançados** 
 
 2. Role para baixo até **Microsoft Secure Score** e alterne a configuração para **On**.
 
@@ -79,7 +79,7 @@ Os dados no cartão Microsoft Secure Score for Devices são o produto do process
 
 Aprimora sua configuração de segurança, remediando problemas da lista de recomendações de segurança. À medida que você faz isso, a Pontuação Segura da Microsoft para Dispositivos melhora e sua organização se torna mais resiliente contra ameaças e vulnerabilidades de segurança cibernética.
 
-1. No cartão Pontuação Segura da Microsoft para Dispositivos no painel de gerenciamento de ameaças e vulnerabilidades, selecione uma das categorias. Você exibirá a lista de recomendações relacionadas a essa categoria. Ele levará você para a página [**Recomendações de**](tvm-security-recommendation.md) segurança. Se você quiser ver todas as recomendações de segurança, depois de chegar à página Recomendações de segurança, desempure o campo de pesquisa.
+1. No cartão Pontuação Segura da Microsoft para Dispositivos no painel Gerenciamento de Ameaças e Vulnerabilidades, selecione uma das categorias. Você exibirá a lista de recomendações relacionadas a essa categoria. Ele levará você para a página [**Recomendações de**](tvm-security-recommendation.md) segurança. Se você quiser ver todas as recomendações de segurança, depois de chegar à página Recomendações de segurança, desempure o campo de pesquisa.
 
 2. Selecione um item na lista. O painel de sobremenu será aberto com detalhes relacionados à recomendação. Selecione **Opções de correção**.
 
@@ -110,7 +110,7 @@ Aprimora sua configuração de segurança, remediando problemas da lista de reco
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Visão geral do gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Visão geral Gerenciamento de Vulnerabilidades ameaça](next-gen-threat-and-vuln-mgt.md)
 - [Painel](tvm-dashboard-insights.md)
 - [Pontuação de exposição](tvm-exposure-score.md)
 - [Recomendações de segurança](tvm-security-recommendation.md)

@@ -1,7 +1,7 @@
 ---
 title: Tabela AlertInfo no esquema de busca avançado
 description: Saiba mais sobre eventos de geração de alertas na tabela AlertInfo do esquema de busca avançado
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, AlertInfo, alerta, gravidade, categoria, MITRE, ATT&CK, Microsoft Defender para Endpoint, Microsoft Defender para Office 365, Microsoft Cloud App Security, MCAS e Microsoft Defender for Identity
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, AlertInfo, alerta, gravidade, categoria, MITRE, ATT&CK, Microsoft Defender para Endpoint, Microsoft Defender para Office 365, Microsoft Cloud App Security, MCAS e Microsoft Defender para Identidade
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -37,7 +37,7 @@ ms.locfileid: "51933692"
 
 
 
-A tabela no esquema de busca avançada contém informações sobre alertas do Microsoft Defender para Ponto de `AlertInfo` Extremidade, Microsoft Defender para Office 365, Microsoft Cloud App Security e Microsoft Defender for Identity. [](advanced-hunting-overview.md) Use essa referência para criar consultas que retornam informações dessa tabela.
+A tabela no esquema de busca avançada contém informações sobre alertas do Microsoft Defender para Ponto de `AlertInfo` Extremidade, Microsoft Defender para Office 365, Microsoft Cloud App Security e Microsoft Defender para [](advanced-hunting-overview.md) Identidade. Use essa referência para criar consultas que retornam informações dessa tabela.
 
 Para obter informações sobre outras tabelas no esquema de busca avançada, [confira a referência de busca avançada](advanced-hunting-schema-tables.md).
 

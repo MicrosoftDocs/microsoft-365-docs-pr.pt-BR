@@ -1,7 +1,7 @@
 ---
 title: Gerenciamento de ameaças e vulnerabilidades
 description: Esse novo recurso usa uma abordagem baseada em risco que altera o jogo para a descoberta, priorização e correção de vulnerabilidades de ponto de extremidade e configurações in-loco.
-keywords: gerenciamento de vulnerabilidades de &, gerenciamento de ameaças e vulnerabilidades, Microsoft Defender para ENDPOINT TVM, Microsoft Defender para Endpoint-TVM, gerenciamento de vulnerabilidades, avaliação de vulnerabilidade, verificação de ameaças e vulnerabilidades, avaliação de configuração segura, Microsoft Defender para Ponto de Extremidade, vulnerabilidades de ponto de extremidade, próxima geração
+keywords: threat & Gerenciamento de Vulnerabilidades, Gerenciamento de Ameaças e Vulnerabilidades, Microsoft Defender for Endpoint TVM, Microsoft Defender for Endpoint-TVM, Gerenciamento de Vulnerabilidades, vulnerability assessment, threat and vulnerability scanning, secure configuration assessment, Microsoft Defender for Endpoint, endpoint vulnerabilities, next generation
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -38,19 +38,19 @@ Identificar, avaliar e remediar efetivamente as deficiências do ponto de extrem
 
 Descubra vulnerabilidades e configurações inconfigurações em tempo real com sensores e sem a necessidade de agentes ou verificações periódicas. Prioriza vulnerabilidades com base no cenário de ameaças, detecções em sua organização, informações confidenciais sobre dispositivos vulneráveis e contexto comercial.
 
-Assista a este vídeo para uma visão geral rápida do gerenciamento de ameaças e vulnerabilidades.
+Assista a este vídeo para uma visão geral rápida do Gerenciamento de Ameaças e Vulnerabilidades.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4mLsn]
 
 ## <a name="bridging-the-workflow-gaps"></a>Ponte de intervalos de fluxo de trabalho
 
-O gerenciamento de ameaças e vulnerabilidades é integrado, em tempo real e alimentado por nuvem. Ele é totalmente integrado à pilha de segurança do ponto de extremidade da Microsoft, ao Microsoft Intelligent Security Graph e à base de dados de conhecimento de análise de aplicativos.  
+Ameaça e Gerenciamento de Vulnerabilidades é integrado, em tempo real e alimentado por nuvem. Ele é totalmente integrado à pilha de segurança do ponto de extremidade da Microsoft, ao microsoft intelligent security Graph e à base de dados de conhecimento de análise de aplicativos.  
 
-O gerenciamento de vulnerabilidades é a primeira solução no setor a fazer a ponte entre a administração de segurança e a administração de IT durante o processo de correção. Crie uma tarefa de segurança ou tíquete integrando-se ao Microsoft Intune e ao Microsoft Endpoint Configuration Manager.
+O gerenciamento de vulnerabilidades é a primeira solução no setor a fazer a ponte entre a administração de segurança e a administração de IT durante o processo de correção. Crie uma tarefa de segurança ou tíquete integrando-se Microsoft Intune e Microsoft Endpoint Configuration Manager.
 
 ### <a name="real-time-discovery"></a>Descoberta em tempo real
 
-Para descobrir vulnerabilidades de ponto de extremidade e configuração insatisfação, o gerenciamento de ameaças e vulnerabilidades usa o mesmo Defender integrado sem agente para sensores de ponto de extremidade para reduzir verificações de rede e sobrecarga de IT complicadas.
+Para descobrir vulnerabilidades de ponto de extremidade e configuração insatisfacional, o Gerenciamento de Ameaças e Vulnerabilidades usa o mesmo Defender integrado sem agente para sensores de ponto de extremidade para reduzir verificações de rede e sobrecarga de IT complicadas.
 
 Ele também fornece:
 
@@ -61,23 +61,23 @@ Ele também fornece:
 
 ### <a name="intelligence-driven-prioritization"></a>Priorização orientada por inteligência
 
-O gerenciamento de ameaças e vulnerabilidades ajuda os clientes a priorizar e a se concentrar nas fraquezas que representam o mais urgente e o maior risco para a organização. Ele combina as recomendações de segurança com o contexto dinâmico de ameaças e negócios:
+A ameaça e Gerenciamento de Vulnerabilidades ajuda os clientes a priorizar e a se concentrar nas fraquezas que representam o mais urgente e o maior risco para a organização. Ele combina as recomendações de segurança com o contexto dinâmico de ameaças e negócios:
 
-- **Expor ataques emergentes em ambientes curinga** - alinha dinamicamente a priorização de recomendações de segurança. O gerenciamento de ameaças e vulnerabilidades concentra-se nas vulnerabilidades que estão sendo exploradas atualmente nas ameaças selvagens e emergentes que representam o maior risco.
-- **Localizando violações ativas** - correlaciona o gerenciamento de ameaças e vulnerabilidades e as percepções de EDR para priorizar as vulnerabilidades que estão sendo exploradas em uma violação ativa dentro da organização.
+- **Expor ataques emergentes em ambientes curinga** - alinha dinamicamente a priorização de recomendações de segurança. A ameaça Gerenciamento de Vulnerabilidades se concentra nas vulnerabilidades que estão sendo exploradas atualmente nas ameaças selvagens e emergentes que representam o maior risco.
+- **Localizando violações ativas** - correlaciona Gerenciamento de Ameaças e Vulnerabilidades e EDR informações para priorizar vulnerabilidades que estão sendo exploradas em uma violação ativa dentro da organização.
 - **Protegendo ativos de alto** valor - Identifique os dispositivos expostos com aplicativos críticos para os negócios, dados confidenciais ou usuários de alto valor.
 
 ### <a name="seamless-remediation"></a>Correção perfeita
 
-O gerenciamento de ameaças e vulnerabilidades permite que administradores de segurança e administradores de IT colaborem perfeitamente para resolver problemas.
+A ameaça e Gerenciamento de Vulnerabilidades permite que administradores de segurança e administradores de IT colaborem perfeitamente para resolver problemas.
 
-- **Solicitações de correção enviadas** para IT - Crie uma tarefa de correção no Microsoft Intune a partir de uma recomendação de segurança específica. Planejamos expandir esse recurso para outras plataformas de gerenciamento de segurança de TI.
+- **Solicitações de correção enviadas** para IT - Crie uma tarefa de correção no Microsoft Intune de uma recomendação de segurança específica. Planejamos expandir esse recurso para outras plataformas de gerenciamento de segurança de TI.
 - **Mitigações alternativas** - Obtenha informações sobre mitigações adicionais, como alterações de configuração que podem reduzir o risco associado a vulnerabilidades de software.
 - **Status de correção** em tempo real - Monitoramento em tempo real do status e do andamento das atividades de correção em toda a organização.
 
-## <a name="threat-and-vulnerability-management-walk-through"></a>Passo a passo do gerenciamento de ameaças e vulnerabilidades
+## <a name="threat-and-vulnerability-management-walk-through"></a>Ameaças e Gerenciamento de Vulnerabilidades passo a passo
 
-Assista a este vídeo para um passo a passo abrangente do gerenciamento de ameaças e vulnerabilidades.
+Assista a este vídeo para um passo a passo abrangente de Gerenciamento de Ameaças e Vulnerabilidades.
 
 >[!VIDEO https://aka.ms/MDATP-TVM-Interactive-Guide]
 
@@ -86,7 +86,7 @@ Assista a este vídeo para um passo a passo abrangente do gerenciamento de amea�
 Área | Descrição
 :---|:---
 **Painel**   | Obter uma exibição de alto nível da pontuação de exposição da organização, Pontuação Segura da Microsoft para Dispositivos, distribuição de exposição de dispositivos, recomendações de segurança principais, softwares principais vulneráveis, principais atividades de correção e principais dados de dispositivo expostos.
-[**Recomendações de segurança**](tvm-security-recommendation.md) | Consulte a lista de recomendações de segurança e informações relacionadas a ameaças. Quando você seleciona um item na lista, um painel de sobremenuso é aberto com detalhes de vulnerabilidade, um link para abrir a página de software e opções de correção e exceção. Você também pode abrir um tíquete no Intune se seus dispositivos ingressarem por meio do Azure Active Directory e você tiver habilitado suas conexões do Intune no Defender para Ponto de Extremidade.
+[**Recomendações de segurança**](tvm-security-recommendation.md) | Consulte a lista de recomendações de segurança e informações relacionadas a ameaças. Quando você seleciona um item na lista, um painel de sobremenuso é aberto com detalhes de vulnerabilidade, um link para abrir a página de software e opções de correção e exceção. Você também pode abrir um tíquete no Intune se seus dispositivos estão ingressados Azure Active Directory e você tiver habilitado suas conexões do Intune no Defender para Ponto de Extremidade.
 [**Correção**](tvm-remediation.md) | Consulte as atividades de correção que você criou e exceções de recomendação.
 [**Inventário de software**](tvm-software-inventory.md) | Consulte a lista de softwares vulneráveis em sua organização, juntamente com informações de fraqueza e ameaças.
 [**Pontos fracos**](tvm-weaknesses.md) | Consulte a lista de vulnerabilidades e exposições comuns (CVEs) em sua organização.
@@ -94,7 +94,7 @@ Assista a este vídeo para um passo a passo abrangente do gerenciamento de amea�
 
 ## <a name="apis"></a>APIs
 
-Execute chamadas de API relacionadas a ameaças e vulnerabilidades para automatizar fluxos de trabalho de gerenciamento de vulnerabilidades. Saiba mais nesta [postagem de blog do Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/threat-amp-vulnerability-management-apis-are-now-generally/ba-p/1304615).
+Execute Gerenciamento de Ameaças e Vulnerabilidades de API relacionadas para automatizar Gerenciamento de Vulnerabilidades fluxos de trabalho. Saiba mais nesta [postagem](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/threat-amp-vulnerability-management-apis-are-now-generally/ba-p/1304615)de blog do Microsoft Tech Community .
 
 Consulte os seguintes artigos para APIs relacionadas:
 
@@ -109,5 +109,5 @@ Consulte os seguintes artigos para APIs relacionadas:
 ## <a name="see-also"></a>Confira também
 
 - [Sistemas operacionais e plataformas com suporte](tvm-supported-os.md)
-- [Painel de gerenciamento de ameaças e vulnerabilidades](tvm-dashboard-insights.md)
+- [Painel de ameaças e Gerenciamento de Vulnerabilidades de segurança](tvm-dashboard-insights.md)
 - [BLOG: O Gerenciamento de Vulnerabilidades & Ameaças da Microsoft agora ajuda milhares de clientes a descobrir, priorizar e correção de vulnerabilidades em tempo real](https://www.microsoft.com/security/blog/2019/07/02/microsofts-threat-vulnerability-management-now-helps-thousands-of-customers-to-discover-prioritize-and-remediate-vulnerabilities-in-real-time/)

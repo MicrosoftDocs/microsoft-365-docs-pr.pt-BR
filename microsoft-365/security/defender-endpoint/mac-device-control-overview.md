@@ -79,9 +79,9 @@ No perfil de configuração, a política de controle de dispositivo é definida 
 |Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Tecla** | deviceControl |
+| **Chave** | deviceControl |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
-| **Comentário** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
+| **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
 
 A política de controle de dispositivo pode ser usada para:
 
@@ -99,9 +99,9 @@ Quando os usuários finais clicam nessa notificação, uma página da Web é abe
 |Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Tecla** | navigationTarget |
+| **Chave** | navigationTarget |
 | **Tipo de dados** | Cadeia de caracteres |
-| **Comentário** | Se não estiver definido, o produto usará uma URL padrão apontando para uma página genérica explicando a ação tomada pelo produto. |
+| **Comments** | Se não estiver definido, o produto usará uma URL padrão apontando para uma página genérica explicando a ação tomada pelo produto. |
 
 ### <a name="allow-or-block-removable-devices"></a>Permitir ou bloquear dispositivos removíveis
 
@@ -113,9 +113,9 @@ A seção mídia removível da política de controle de dispositivo é usada par
 |Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Tecla** | removableMediaPolicy |
+| **Chave** | removableMediaPolicy |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
-| **Comentário** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
+| **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
 
 Esta seção da política é hierárquica, permitindo a máxima flexibilidade e abrangendo uma ampla variedade de casos de uso. No nível superior estão fornecedores, identificados por uma ID de fornecedor. Para cada fornecedor, há produtos, identificados por uma ID do produto. Por fim, para cada produto, há números de série que denotam dispositivos específicos.
 
@@ -146,7 +146,7 @@ Na seção mídia removível, há uma opção para definir o nível de imposiç�
 |Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Tecla** | enforcementLevel |
+| **Chave** | enforcementLevel |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | audit (padrão) <br/> block |
 
@@ -171,7 +171,7 @@ Essa configuração pode ser definida como:
 |Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Tecla** | permission |
+| **Chave** | permission |
 | **Tipo de dados** | Matriz de cadeias de caracteres |
 | **Valores possíveis** | nenhuma <br/> leitura <br/> gravação <br/> execute |
 
@@ -186,7 +186,7 @@ O `vendors` dicionário contém uma ou mais entradas, com cada entrada sendo ide
 |Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Tecla** | vendors |
+| **Chave** | vendors |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
 
 Para cada fornecedor, você pode especificar o nível de permissão desejado para dispositivos desse fornecedor.
@@ -194,7 +194,7 @@ Para cada fornecedor, você pode especificar o nível de permissão desejado par
 |Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Tecla** | permission |
+| **Chave** | permission |
 | **Tipo de dados** | Matriz de cadeias de caracteres |
 | **Valores possíveis** | Mesmo nível [de permissão padrão](#default-permission-level) |
 
@@ -203,7 +203,7 @@ Além disso, opcionalmente, você pode especificar o conjunto de produtos perten
 |Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Tecla** | products |
+| **Chave** | products |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
 
 Para cada produto, você pode especificar o nível de permissão desejado para esse produto.
@@ -211,7 +211,7 @@ Para cada produto, você pode especificar o nível de permissão desejado para e
 |Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Tecla** | permission |
+| **Chave** | permission |
 | **Tipo de dados** | Matriz de cadeias de caracteres |
 | **Valores possíveis** | Mesmo nível [de permissão padrão](#default-permission-level) |
 
@@ -222,7 +222,7 @@ O `serialNumbers` dicionário contém uma ou mais entradas, com cada entrada sen
 |Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Tecla** | serialNumbers |
+| **Chave** | serialNumbers |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
 
 Para cada número de série, você pode especificar o nível de permissão desejado.
@@ -230,7 +230,7 @@ Para cada número de série, você pode especificar o nível de permissão desej
 |Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Tecla** | permission |
+| **Chave** | permission |
 | **Tipo de dados** | Matriz de cadeias de caracteres |
 | **Valores possíveis** | Mesmo nível [de permissão padrão](#default-permission-level) |
 

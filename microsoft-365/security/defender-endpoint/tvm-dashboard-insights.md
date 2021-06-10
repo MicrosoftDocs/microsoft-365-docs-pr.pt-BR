@@ -1,7 +1,7 @@
 ---
-title: Insights do painel - gerenciamento de ameaças e vulnerabilidades
-description: O painel de gerenciamento de ameaças e vulnerabilidades pode ajudar os administradores de Segurança e SecOps a lidar com ameaças de segurança cibernética e criar a resiliência de segurança de sua organização.
-keywords: Microsoft Defender para Endpoint-tvm, Painel do Microsoft Defender para Endpoint-tvm, gerenciamento de vulnerabilidades & ameaças, gerenciamento de ameaças e vulnerabilidades, gerenciamento de ameaças baseadas em risco & gerenciamento de vulnerabilidades, configuração de segurança, Pontuação Segura da Microsoft para Dispositivos, pontuação de exposição
+title: Insights do painel - Gerenciamento de Ameaças e Vulnerabilidades
+description: O Gerenciamento de Ameaças e Vulnerabilidades painel pode ajudar os administradores de segurança e SecOps a lidar com ameaças de segurança cibernética e criar a resiliência de segurança de sua organização.
+keywords: Microsoft Defender para Endpoint-tvm, Painel do Microsoft Defender para Endpoint-tvm, ameaças & Gerenciamento de Vulnerabilidades, Gerenciamento de Ameaças e Vulnerabilidades, ameaças baseadas em risco & Gerenciamento de Vulnerabilidades, configuração de segurança, Pontuação Segura da Microsoft para Dispositivos, pontuação de exposição
 search.appverid: met150
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -25,46 +25,46 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51934136"
 ---
-# <a name="dashboard-insights---threat-and-vulnerability-management"></a>Insights do painel - gerenciamento de ameaças e vulnerabilidades
+# <a name="dashboard-insights---threat-and-vulnerability-management"></a>Insights do painel - Gerenciamento de Ameaças e Vulnerabilidades
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Ameaça e Gerenciamento de Vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
-O gerenciamento de ameaças e vulnerabilidades é um componente do Defender para Ponto de Extremidade e fornece aos administradores de segurança e equipes de operações de segurança um valor exclusivo, incluindo:
+A ameaça e Gerenciamento de Vulnerabilidades é um componente do Defender para Ponto de Extremidade e fornece aos administradores de segurança e equipes de operações de segurança um valor exclusivo, incluindo:
 
 
 - Percepções de detecção e resposta do ponto de extremidade (EDR) em tempo real correlacionados a vulnerabilidades de ponto de extremidade
 - Contexto de vulnerabilidade de dispositivo inestimável durante investigações de incidentes
-- Processos internos de correção por meio do Microsoft Intune e do Microsoft Endpoint Configuration Manager  
+- Processos internos de correção por meio Microsoft Intune e Microsoft Endpoint Configuration Manager  
   
-Você pode usar o recurso de gerenciamento de ameaças e vulnerabilidades no [Centro de Segurança](https://securitycenter.windows.com/) do Microsoft Defender para:
+Você pode usar o recurso Gerenciamento de Ameaças e Vulnerabilidades [de](https://securitycenter.windows.com/) Central de Segurança do Microsoft Defender para:
 
 - Exibir a pontuação de exposição e a Pontuação Segura da Microsoft para Dispositivos, juntamente com as principais recomendações de segurança, vulnerabilidade de software, atividades de correção e dispositivos expostos
-- Correlacionar percepções de EDR com vulnerabilidades de ponto de extremidade e processá-las
+- Correlacionar EDR informações com vulnerabilidades de ponto de extremidade e processá-las
 - Selecione opções de correção para triagem e rastrear as tarefas de correção
 - Selecione opções de exceção e acompanhe exceções ativas
 
 > [!NOTE]
-> Os dispositivos que não estão ativos nos últimos 30 dias não são fatorados nos dados que refletem a pontuação de exposição de gerenciamento de ameaças e vulnerabilidades da sua organização e a Pontuação Segura da Microsoft para Dispositivos.
+> Os dispositivos que não estão ativos nos últimos 30 dias não são fatorados nos dados que refletem a pontuação de exposição Gerenciamento de Ameaças e Vulnerabilidades da sua organização e a Pontuação Segura da Microsoft para Dispositivos.
 
-Assista a este vídeo para uma visão geral rápida do que está no painel de gerenciamento de ameaças e vulnerabilidades.
+Assista a este vídeo para uma visão geral rápida do que está no painel Gerenciamento de Ameaças e Vulnerabilidades painel.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4r1nv]
 
-## <a name="threat-and-vulnerability-management-dashboard"></a>Painel de gerenciamento de ameaças e vulnerabilidades
+## <a name="threat-and-vulnerability-management-dashboard"></a>Painel de ameaças e Gerenciamento de Vulnerabilidades de segurança
 
  ![Portal do Microsoft Defender para Ponto de Extremidade](images/tvm-dashboard-devices.png)
 
 Área | Descrição
 :---|:---
-**Grupos de dispositivos selecionados (#/#)**   | Filtre os dados de gerenciamento de ameaças e vulnerabilidades que você deseja ver no painel e cartões por grupos de dispositivos. O que você selecionar no filtro se aplica em todas as páginas de gerenciamento de ameaças e vulnerabilidades.
+**Grupos de dispositivos selecionados (#/#)**   | Filtre os Gerenciamento de Ameaças e Vulnerabilidades dados que você deseja ver no painel e cartões por grupos de dispositivos. O que você selecionar no filtro se aplica a todas as Gerenciamento de Ameaças e Vulnerabilidades.
 [**Pontuação de exposição**](tvm-exposure-score.md)   | Consulte o estado atual da exposição de dispositivos da sua organização a ameaças e vulnerabilidades. Vários fatores afetam a pontuação de exposição da sua organização: pontos fracos descobertos em seus dispositivos, probabilidade de que seus dispositivos sejam violados, o valor dos dispositivos para sua organização e alertas relevantes descobertos com seus dispositivos. O objetivo é reduzir a pontuação de exposição da sua organização para ser mais segura. Para reduzir a pontuação, você precisa resolver os problemas de configuração de segurança relacionados listados nas recomendações de segurança.
 [**Microsoft Secure Score para dispositivos**](tvm-microsoft-secure-score-devices.md) | Consulte a postura de segurança do sistema operacional, aplicativos, rede, contas e controles de segurança da sua organização. O objetivo é resolver os problemas de configuração de segurança relacionados para aumentar sua pontuação para dispositivos. Selecionar as barras o levará à página **Recomendação de** segurança.
 **Distribuição de exposição de dispositivo** | Veja quantos dispositivos são expostos com base no nível de exposição. Selecione uma seção no gráfico de  roscas para ir até a página de lista Dispositivos e exibir os nomes de dispositivo afetados, o nível de exposição, o nível de risco e outros detalhes, como domínio, plataforma do sistema operacional, seu estado de saúde, quando foi visto pela última vez e suas marcas.
@@ -78,7 +78,7 @@ Para obter mais informações sobre os ícones usados em todo o portal, consulte
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Visão geral do gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Visão geral Gerenciamento de Vulnerabilidades ameaça](next-gen-threat-and-vuln-mgt.md)
 - [Pontuação de exposição](tvm-exposure-score.md)
 - [Microsoft Secure Score para dispositivos](tvm-microsoft-secure-score-devices.md)
 - [Recomendações de segurança](tvm-security-recommendation.md)

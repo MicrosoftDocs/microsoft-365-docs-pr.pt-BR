@@ -42,9 +42,9 @@ Consulte a [seção Mais informações](#more-information) neste artigo para obt
 
 ## <a name="requirements-to-restore-an-inactive-mailbox"></a>Requisitos para restaurar uma caixa de correio inativa
 
-- Você precisa usar o PowerShell do Exchange Online para restaurar uma caixa de correio inativa. Você não pode usar o Centro de Administração do Exchange (EAC). Para obter instruções passo a passo, confira [Conectar-se ao Exchange Online Windows PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
+- Você precisa usar o Exchange Online PowerShell para restaurar uma caixa de correio inativa. Você não pode usar o Centro de Administração do Exchange (EAC). Para obter instruções passo a passo, confira [Conectar-se ao Exchange Online Windows PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
-- Execute o seguinte comando no PowerShell do Exchange Online para obter informações de identidade para as caixas de correio inativas em sua organização.
+- Execute o seguinte comando no Exchange Online PowerShell para obter informações de identidade para as caixas de correio inativas em sua organização.
 
   ```powershell
   Get-Mailbox -InactiveMailboxOnly | Format-List Name,DistinguishedName,ExchangeGuid,PrimarySmtpAddress
@@ -52,7 +52,7 @@ Consulte a [seção Mais informações](#more-information) neste artigo para obt
 
   Use as informações retornadas por este comando para restaurar uma caixa de correio inativa específica.
 
-- Para obter mais informações sobre caixas de correio inativas, consulte Caixas de correio [inativas no Office 365](inactive-mailboxes-in-office-365.md).
+- Para obter mais informações sobre caixas de correio inativas, consulte Caixas de correio [inativas em Office 365](inactive-mailboxes-in-office-365.md).
 
 ## <a name="restore-inactive-mailboxes"></a>Restaurar caixas de correio inativas
 
@@ -110,7 +110,7 @@ Se uma caixa de correio inativa tiver uma caixa de correio de arquivo morto, voc
   Get-Mailbox -InactiveMailboxOnly | Format-List Name,PrimarySMTPAddress,DistinguishedName,ExchangeGUID,LegacyExchangeDN,ArchiveStatus
   ```
 
-- **Use uma retenção de litígio ou uma política de retenção do Microsoft 365 para reter o conteúdo inativo da caixa de correio.** Se você quiser manter o estado de uma caixa de correio inativa depois [](create-a-litigation-hold.md) de restaurada, coloque a caixa de correio de destino em Retenção de Litígio ou aplique uma política de retenção do [Microsoft 365](retention.md) antes de restaurar a caixa de correio inativa. Isso impedirá a exclusão permanente de todos os itens da caixa de correio inativa depois que eles são restaurados para a caixa de correio de destino.
+- **Use uma política de retenção de litígio ou Microsoft 365 para reter o conteúdo inativo da caixa de correio.** Se você quiser manter o estado de uma caixa de correio inativa depois [](create-a-litigation-hold.md) de restaurada, coloque a caixa de correio de destino em Retenção de Litígio ou aplique uma política de retenção Microsoft 365 antes de restaurar [a](retention.md) caixa de correio inativa. Isso impedirá a exclusão permanente de todos os itens da caixa de correio inativa depois que eles são restaurados para a caixa de correio de destino.
 
 - **Habilita a retenção na caixa de correio de destino antes de restaurar uma caixa de correio inativa.** Como os itens de caixa de correio de uma caixa de correio inativa podem ser antigos, você pode considerar habilenciar a retenção na caixa de correio de destino antes de restaurar uma caixa de correio inativa. Quando você coloca uma caixa de correio em retenção, a política de retenção atribuída a ela não será processada até que a retenção seja removida ou até que o período de retenção expire. Isso dá ao proprietário do tempo de caixa de correio de destino para gerenciar mensagens antigas da caixa de correio inativa. Caso contrário, a política de retenção poderá excluir itens antigos (ou mover itens para a caixa de correio de arquivo morto, se estiver habilitada) que tenham expirado com base nas configurações de retenção configuradas para a caixa de correio de destino. Para obter mais informações, [consulte Place a mailbox on retention hold in Exchange Online](/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold).
 

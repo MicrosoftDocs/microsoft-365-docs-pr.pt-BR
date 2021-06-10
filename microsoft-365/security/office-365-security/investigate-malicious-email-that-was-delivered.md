@@ -1,5 +1,5 @@
 ---
-title: Investigar emails mal-intencionados que foram entregues no Office 365, encontrar e investigar emails mal-intencionados
+title: Investigar emails mal-intencionados que foram entregues Office 365, encontrar e investigar emails mal-intencionados
 keywords: TIMailData-Inline, Incidente de segurança, incidente, Microsoft Defender para PowerShell do Ponto de Extremidade, malware de email, usuários comprometidos, phishing de email, malware de email, ler os headers de email, ler os headers, abrir os headers de email, ações especiais
 f1.keywords:
 - NOCSH
@@ -27,7 +27,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933368"
 ---
-# <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Investigar emails mal-intencionados que foram entregues no Office 365
+# <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Investigar emails mal-intencionados que foram entregues Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -36,7 +36,7 @@ ms.locfileid: "51933368"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-[O Microsoft Defender para Office 365](defender-for-office-365.md) permite investigar atividades que colocam pessoas em sua organização em risco e tomar medidas para proteger sua organização. Por exemplo, se você faz parte da equipe de segurança da sua organização, pode encontrar e investigar mensagens de email suspeitas que foram entregues. Você pode fazer isso usando [o Explorador de Ameaças (ou detecções em tempo real)](threat-explorer.md).
+[O Microsoft Defender para Office 365](defender-for-office-365.md) permite investigar atividades que colocam as pessoas em sua organização em risco e tomar medidas para proteger sua organização. Por exemplo, se você faz parte da equipe de segurança da sua organização, pode encontrar e investigar mensagens de email suspeitas que foram entregues. Você pode fazer isso usando [o Explorador de Ameaças (ou detecções em tempo real)](threat-explorer.md).
 
 > [!NOTE]
 > Pule para o artigo de correção [aqui](remediate-malicious-email-delivered-office-365.md).
@@ -45,11 +45,11 @@ ms.locfileid: "51933368"
 
 Verifique se os seguintes requisitos são atendidos:
 
-- Sua organização tem [o Microsoft Defender para Office 365](defender-for-office-365.md) e as [licenças são atribuídas aos usuários.](../../admin/manage/assign-licenses-to-users.md)
+- Sua organização tem [o Microsoft Defender para Office 365](defender-for-office-365.md) e [licenças são atribuídas aos usuários.](../../admin/manage/assign-licenses-to-users.md)
 
 - [O log de](../../compliance/turn-audit-log-search-on-or-off.md) auditoria está ligado para sua organização.
 
-- Sua organização tem políticas definidas para anti-spam, anti-malware, anti-phishing e assim por diante. Consulte [Proteger contra ameaças no Office 365](protect-against-threats.md).
+- Sua organização tem políticas definidas para anti-spam, anti-malware, anti-phishing e assim por diante. Consulte [Proteger contra ameaças em Office 365](protect-against-threats.md).
 
 - Você é um administrador global ou tem o Administrador de Segurança ou a função de Pesquisa e Limpeza atribuída no Centro de Conformidade & Segurança. Consulte Permissões no Centro de [Conformidade & Segurança.](permissions-in-the-security-and-compliance-center.md) Para algumas ações, você também deve ter uma nova função de Visualização atribuída.
 
@@ -61,16 +61,16 @@ Para executar determinadas ações, como exibir os headers de mensagens ou baixa
 
 |Atividade|Grupo de função|Função de visualização necessária?|
 |---|---|---|
-|Usar o Explorador de Ameaças (e detecções em tempo real) para analisar ameaças |Administrador Global <p> Administrador de Segurança <p> Leitor de segurança|Não|
-|Use o Explorador de Ameaças (e detecções em tempo real) para exibir os headers para mensagens de email, bem como visualizar e baixar mensagens de email em quarentena|Administrador Global <p> Administrador de Segurança <p> Leitor de segurança|Não|
-|Use o Explorador de Ameaças para exibir os headers, visualizar email (somente na página entidade de email) e baixar mensagens de email entregues às caixas de correio|Administrador Global <p> Administrador de Segurança <p> Leitor de segurança <p> Visualização|Sim|
+|Usar o Explorador de Ameaças (e detecções em tempo real) para analisar ameaças |Administrador global <p> Administrador de Segurança <p> Leitor de segurança|Não|
+|Use o Explorador de Ameaças (e detecções em tempo real) para exibir os headers para mensagens de email, bem como visualizar e baixar mensagens de email em quarentena|Administrador global <p> Administrador de Segurança <p> Leitor de segurança|Não|
+|Use o Explorador de Ameaças para exibir os headers, visualizar email (somente na página entidade de email) e baixar mensagens de email entregues às caixas de correio|Administrador global <p> Administrador de Segurança <p> Leitor de segurança <p> Visualização|Sim|
 |
 
 > [!NOTE]
-> *A* visualização é uma função e não um grupo de funções; a função Preview deve ser adicionada a um grupo de funções existente para o Office 365 (em <https://protection.office.com> ). Vá para **Permissões** e edite um grupo de funções existente ou adicione um novo grupo de funções com a **função Visualização** atribuída.
-> A função administrador global é atribuída ao Centro de administração do Microsoft 365 ( ), e as funções de Administrador de Segurança e Leitor de Segurança são atribuídas no Centro de Conformidade & Segurança <https://admin.microsoft.com> ( <https://protection.office.com> ). Para saber mais sobre funções e permissões, consulte [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).
+> *A* visualização é uma função e não um grupo de funções; a função Preview deve ser adicionada a um grupo de funções existente para Office 365 (em <https://protection.office.com> ). Vá para **Permissões** e edite um grupo de funções existente ou adicione um novo grupo de funções com a **função Visualização** atribuída.
+> A função administrador global é atribuída ao centro de administração do Microsoft 365 ( ), e as funções de Administrador de Segurança e Leitor de Segurança são atribuídas no Centro de Conformidade & Segurança <https://admin.microsoft.com> ( <https://protection.office.com> ). Para saber mais sobre funções e permissões, consulte [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).
 
-Entendemos que visualizar e baixar emails são atividades confidenciais e, portanto, a auditoria está habilitada para isso. Depois que um administrador executa essas atividades em emails, os logs de auditoria são gerados para o mesmo e podem ser vistos no Centro de Conformidade & Segurança do Office 365 ( <https://protection.office.com> ). Vá para **Pesquisar**  >  **pesquisa de log de auditoria** e filtre o nome do administrador na seção Pesquisa. Os resultados filtrados mostrarão a **atividade AdminMailAccess**. Selecione uma linha para exibir detalhes na seção **Mais informações** sobre emails visualizados ou baixados.
+Entendemos que visualizar e baixar emails são atividades confidenciais e, portanto, a auditoria está habilitada para isso. Depois que um administrador executa essas atividades em emails, os logs de auditoria são gerados para o mesmo e podem ser vistos no Centro de Conformidade Office 365 Segurança & ( <https://protection.office.com> ). Vá para **Pesquisar**  >  **pesquisa de log de auditoria** e filtre o nome do administrador na seção Pesquisa. Os resultados filtrados mostrarão a **atividade AdminMailAccess**. Selecione uma linha para exibir detalhes na seção **Mais informações** sobre emails visualizados ou baixados.
 
 ## <a name="find-suspicious-email-that-was-delivered"></a>Encontrar emails suspeitos que foram entregues
 
@@ -79,7 +79,7 @@ O Explorador de Ameaças é um relatório poderoso que pode atender a várias fi
 > [!NOTE]
 > As pesquisas padrão no Explorer atualmente não incluem itens Descarados.  Isso se aplica a todas as exibições, por exemplo, exibições de malware ou phishing. Para incluir itens Desarmados, você precisa adicionar um conjunto de ações **de** entrega para incluir **Removido pelo ZAP**. Se você incluir todas as opções, você verá todos os resultados da ação de entrega, incluindo itens Descarados.
 
-1. **Navegue até o Explorador** de Ameaças: acesse e entre usando sua conta de trabalho ou <https://protection.office.com> de estudante para o Office 365. Isso o leva ao Centro de Conformidade & Segurança.
+1. **Navegue até o Explorador** de Ameaças : acesse e entre usando sua conta de trabalho ou <https://protection.office.com> de estudante para Office 365. Isso o leva ao Centro de Conformidade & Segurança.
 
 2. No início rápido de navegação à esquerda, escolha **Explorador de gerenciamento de** \> **ameaças**.
 
@@ -93,7 +93,7 @@ O Explorador de Ameaças é um relatório poderoso que pode atender a várias fi
 
     O *modo de* exibição Malware atualmente é o padrão e captura emails em que uma ameaça de malware é detectada. O *modo de* exibição Phish opera da mesma maneira, para Phish.
 
-    No entanto, *Todas as exibições de email* listam todos os emails recebidos pela organização, se as ameaças foram detectadas ou não. Como você pode imaginar, são muitos dados, e é por isso que essa exibição mostra um espaço reservado que solicita que um filtro seja aplicado. (Esta exibição só está disponível para clientes do Defender para Office 365 P2.)
+    No entanto, *Todas as exibições de email* listam todos os emails recebidos pela organização, se as ameaças foram detectadas ou não. Como você pode imaginar, são muitos dados, e é por isso que essa exibição mostra um espaço reservado que solicita que um filtro seja aplicado. (Esta exibição só está disponível para o Defender para clientes Office 365 P2.)
 
     *O exibição* de envios mostra todos os emails enviados pelo administrador ou usuário que foram relatados à Microsoft.
 
@@ -122,7 +122,7 @@ O Explorador de Ameaças é um relatório poderoso que pode atender a várias fi
     - **Entregue** – o email foi entregue na caixa de entrada ou pasta de um usuário e o usuário pode acessá-lo diretamente.
     - **Lixo eletrônico** (Entregue ao lixo eletrônico)– o email foi enviado para a pasta de lixo eletrônico do usuário ou a pasta excluída, e o usuário tem acesso a mensagens de email em sua pasta Lixo Eletrônico ou Excluído.
     - **Bloqueado** – todas as mensagens de email que estão em quarentena, que falharam ou foram retiradas. (Isso é completamente inacessível pelo usuário.)
-    - **Substituído –** qualquer email em que anexos mal-intencionados são substituídos por arquivos .txt que afirmam que o anexo foi mal-intencionado
+    - **Substituído –** qualquer email em que anexos mal-intencionados são substituídos por arquivos .txt que estado o anexo foi mal-intencionado
 
     **Local de** entrega : o filtro de local de entrega está disponível para ajudar os administradores a entender onde o email suspeito foi parar e quais ações foram tomadas nele. Os dados resultantes podem ser exportados para planilha. Os locais de entrega possíveis são:
 
@@ -206,10 +206,10 @@ O local de entrega mostra os resultados de políticas e detecções que são exe
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Correção de emails mal-intencionados entregues no Office 365](remediate-malicious-email-delivered-office-365.md)
+[Correção de emails mal-intencionados entregues Office 365](remediate-malicious-email-delivered-office-365.md)
 
 [Obter o Microsoft Defender para Office 365](office-365-ti.md)
 
-[Proteger contra ameaças no Office 365](protect-against-threats.md)
+[Proteger contra ameaças em Office 365](protect-against-threats.md)
 
 [Exibir relatórios do Defender para Office 365](view-reports-for-mdo.md)

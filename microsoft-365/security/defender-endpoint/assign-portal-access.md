@@ -1,5 +1,5 @@
 ---
-title: Atribuir acesso do usuário ao Centro de Segurança do Microsoft Defender
+title: Atribuir acesso de usuário a Central de Segurança do Microsoft Defender
 description: Atribua acesso somente leitura e gravação ou leitura ao portal do Microsoft Defender para Ponto de Extremidade.
 keywords: atribuir funções de usuário, atribuir acesso de leitura e gravação, atribuir acesso somente leitura, usuário, funções de usuário, funções
 search.product: eADQiWindows 10XVcnh
@@ -24,7 +24,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/24/2021
 ms.locfileid: "51164741"
 ---
-# <a name="assign-user-access-to-microsoft-defender-security-center"></a>Atribuir acesso do usuário ao Centro de Segurança do Microsoft Defender
+# <a name="assign-user-access-to-microsoft-defender-security-center"></a>Atribuir acesso de usuário a Central de Segurança do Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -53,4 +53,4 @@ O Defender para Ponto de Extremidade oferece suporte a duas maneiras de gerencia
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Usar permissões básicas para acessar o portal](basic-permissions.md)
-- [Gerenciar o acesso ao portal usando o RBAC](rbac.md)
+- [Gerenciar o acesso ao portal usando RBAC](rbac.md)

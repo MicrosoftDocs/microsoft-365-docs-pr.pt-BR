@@ -1,6 +1,6 @@
 ---
 title: Integração de dispositivos para o serviço do Microsoft Defender para Ponto de Extremidade
-description: Onboard Windows 10 devices, servers, non-Windows devices and learn how to run a detection test.
+description: Integração Windows 10, servidores, dispositivos que não Windows e saiba como executar um teste de detecção.
 keywords: integração, integração do Microsoft Defender para Ponto de Extremidade, sccm, política de grupo, mdm, script local, teste de detecção
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -51,7 +51,7 @@ A tabela a seguir lista as ferramentas disponíveis com base no ponto de extremi
 
 | Ponto de extremidade     | Opções de ferramenta                       |
 |--------------|------------------------------------------|
-| **Windows**  |  [Script local (até 10 dispositivos)](configure-endpoints-script.md) <br>  [Política de grupo](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Mobile Device Manager](configure-endpoints-mdm.md) <br>   [Gerenciador de Configuração do Microsoft Endpoint](configure-endpoints-sccm.md) <br> [Scripts VDI](configure-endpoints-vdi.md)   |
+| **Windows**  |  [Script local (até 10 dispositivos)](configure-endpoints-script.md) <br>  [Política de grupo](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Gerenciador de Dispositivos Móveis](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [Scripts VDI](configure-endpoints-vdi.md)   |
 | **macOS**    | [Scripts locais](mac-install-manually.md) <br> [Microsoft Endpoint Manager](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [Gerenciamento de dispositivo móvel](mac-install-with-other-mdm.md) |
 | **Servidor Linux** | [Script local](linux-install-manually.md) <br> [Puppet](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
 | **iOS**      | [Baseado em aplicativos](ios-install.md)                                |
@@ -63,10 +63,10 @@ A tabela a seguir lista as ferramentas disponíveis com base no ponto de extremi
 ## <a name="in-this-section"></a>Nesta seção
 Tópico | Descrição
 :---|:---
-[Versões anteriores integradas do Windows](onboard-downlevel.md)| Integração de dispositivos Windows 7 e Windows 8.1 para Defender para Ponto de Extremidade. 
+[Versões anteriores integradas do Windows](onboard-downlevel.md)| Integração Windows 7 e Windows 8.1 no Defender para Ponto de Extremidade. 
 [Dispositivos integrados do Windows 10](configure-endpoints.md) | Você precisará integrar dispositivos para que ele se reporte ao serviço Defender para Ponto de Extremidade. Saiba mais sobre as ferramentas e métodos que você pode usar para configurar dispositivos em sua empresa.
-[Servidores de integração](configure-server-endpoints.md) |  Integrando o Windows Server 2008 R2 SP1, o Windows Server 2012 R2, o Windows Server 2016, o Windows Server (SAC) versão 1803 e posterior, o Windows Server 2019 e posterior e a edição principal do Windows Server 2019 para o Defender para Ponto de Extremidade.
-[Dispositivos Windows não integrados](configure-endpoints-non-windows.md) | O Defender for Endpoint fornece uma experiência centralizada de operações de segurança para o Windows, bem como para plataformas que não são do Windows. Você poderá ver alertas de vários sistemas operacionais com suporte (SO) no Centro de Segurança do Microsoft Defender e proteger melhor a rede da sua organização. Essa experiência aproveita os dados do sensor de produtos de segurança de terceiros. 
+[Servidores de integração](configure-server-endpoints.md) |  Integrando o Windows Server 2008 R2 SP1, Windows Server 2012 R2, Windows Server 2016, Windows Server (SAC) versão 1803 e posterior, Windows Server 2019 e posterior, e a edição principal do Windows Server 2019 para Defender para Ponto de Extremidade.
+[Dispositivos Windows não integrados](configure-endpoints-non-windows.md) | O Defender for Endpoint fornece uma experiência centralizada de operações de segurança para Windows, bem como plataformas que não Windows. Você poderá ver alertas de vários sistemas operacionais com suporte (SO) no Central de Segurança do Microsoft Defender e proteger melhor a rede da sua organização. Essa experiência aproveita os dados do sensor de produtos de segurança de terceiros. 
 [Executar um teste de detecção em um dispositivo recém-integrado](run-detection-test.md) | Execute um script em um dispositivo recém-conectado para verificar se ele está relatando corretamente para o serviço Defender para Ponto de Extremidade.
 [Configurar configurações de proxy e Internet](configure-proxy-internet.md)| Habilita a comunicação com o serviço de nuvem do Defender para Ponto de Extremidade configurando as configurações de conectividade proxy e Internet.
 [Solucionar problemas de integração](troubleshoot-onboarding.md) | Saiba mais sobre como resolver problemas que podem surgir durante a integração.

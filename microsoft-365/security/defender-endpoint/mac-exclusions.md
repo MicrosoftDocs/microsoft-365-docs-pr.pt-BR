@@ -39,7 +39,7 @@ ms.locfileid: "51935024"
 Este artigo fornece informações sobre como definir exclusões que se aplicam a verificações sob demanda e proteção e monitoramento em tempo real.
 
 >[!IMPORTANT]
->As exclusões descritas neste artigo não se aplicam a outros recursos do Defender for Endpoint no Mac, incluindo a detecção e a resposta do ponto de extremidade (EDR). Os arquivos excluídos usando os métodos descritos neste artigo ainda podem disparar alertas de EDR e outras detecções.
+>As exclusões descritas neste artigo não se aplicam a outros recursos do Defender for Endpoint no Mac, incluindo detecção e resposta de ponto de extremidade (EDR). Os arquivos que você excluir usando os métodos descritos neste artigo ainda podem disparar EDR alertas e outras detecções.
 
 Você pode excluir determinados arquivos, pastas, processos e arquivos abertos por processo do Defender para Ponto de Extremidade em verificações do Mac.
 
@@ -55,8 +55,8 @@ A tabela a seguir mostra os tipos de exclusão suportados pelo Defender para Pon
 Exclusão | Definição | Exemplos
 ---|---|---
 Extensão de arquivo | Todos os arquivos com a extensão, em qualquer lugar no computador | `.test`
-File | Um arquivo específico identificado pelo caminho completo | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`
-Folder | Todos os arquivos na pasta especificada (recursivamente) | `/var/log/`<br/>`/var/*/`
+Arquivo | Um arquivo específico identificado pelo caminho completo | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`
+Pasta | Todos os arquivos na pasta especificada (recursivamente) | `/var/log/`<br/>`/var/*/`
 Processo | Um processo específico (especificado pelo caminho completo ou nome do arquivo) e todos os arquivos abertos por ele | `/bin/cat`<br/>`cat`<br/>`c?t`
 
 As exclusões de arquivo, pasta e processo suportam os seguintes caracteres curinga:

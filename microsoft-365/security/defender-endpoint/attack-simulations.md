@@ -72,5 +72,5 @@ Leia o documento passo a passo fornecido com cada cenário de ataque. Cada docum
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Dispositivos de integração](onboard-configure.md)
+- [Integração de dispositivos](onboard-configure.md)
 - [Dispositivos integrados do Windows 10](configure-endpoints.md)

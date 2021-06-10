@@ -1,7 +1,7 @@
 ---
-title: Atribuir valor de dispositivo - gerenciamento de ameaças e vulnerabilidades
+title: Atribuir valor de dispositivo - Gerenciamento de Ameaças e Vulnerabilidades
 description: Saiba como atribuir um valor baixo, normal ou alto a um dispositivo para ajudá-lo a diferenciar entre prioridades de ativos.
-keywords: Valor do dispositivo Microsoft Defender para Ponto de Extremidade, valor do dispositivo de gerenciamento de ameaças e vulnerabilidades, dispositivos de alto valor, pontuação de exposição do valor do dispositivo
+keywords: Valor do dispositivo Do Microsoft Defender para Ponto de Extremidade, Gerenciamento de Ameaças e Vulnerabilidades de dispositivo, dispositivos de alto valor, pontuação de exposição do valor do dispositivo
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -25,21 +25,21 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51935192"
 ---
-# <a name="assign-device-value---threat-and-vulnerability-management"></a>Atribuir valor de dispositivo - gerenciamento de ameaças e vulnerabilidades
+# <a name="assign-device-value---threat-and-vulnerability-management"></a>Atribuir valor de dispositivo - Gerenciamento de Ameaças e Vulnerabilidades
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Ameaça e Gerenciamento de Vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-Definir o valor de um dispositivo ajuda você a diferenciar entre prioridades de ativos. O valor do dispositivo é usado para incorporar o desejo de risco de um ativo individual ao cálculo de pontuação de exposição de gerenciamento de ameaças e vulnerabilidades. Os dispositivos atribuídos como "alto valor" receberão mais peso.
+Definir o valor de um dispositivo ajuda você a diferenciar entre prioridades de ativos. O valor do dispositivo é usado para incorporar o desejo de risco de um ativo individual ao cálculo Gerenciamento de Ameaças e Vulnerabilidades de pontuação de exposição. Os dispositivos atribuídos como "alto valor" receberão mais peso.
 
 Você também pode usar a [API de valor de dispositivo definido.](set-device-value.md)
 
@@ -78,6 +78,6 @@ A pontuação de exposição é uma média ponderada em todos os dispositivos. S
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Visão geral do gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Visão geral Gerenciamento de Vulnerabilidades ameaça](next-gen-threat-and-vuln-mgt.md)
 - [Pontuação de Exposição](tvm-exposure-score.md)
 - [APIs](next-gen-threat-and-vuln-mgt.md#apis)

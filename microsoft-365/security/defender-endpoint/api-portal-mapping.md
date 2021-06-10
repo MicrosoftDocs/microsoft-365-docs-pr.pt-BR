@@ -1,6 +1,6 @@
 ---
 title: Campos da API do Microsoft Defender para Detecções de Ponto de Extremidade
-description: Entenda como os campos da API de Detecções mapeiam para os valores no Centro de Segurança do Microsoft Defender
+description: Entenda como os campos da API de Detecções são mapeados para os valores em Central de Segurança do Microsoft Defender
 keywords: detecções, campos de detecções, campos, api, campos, pull Detections, api de repouso, solicitação, resposta
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -33,11 +33,11 @@ ms.locfileid: "51933632"
 
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-apiportalmapping-abovefoldlink)
 
-Entenda quais campos de dados são expostos como parte da API de detecções e como eles mapeiam para o Centro de Segurança do Microsoft Defender.
+Entenda quais campos de dados são expostos como parte da API de detecções e como eles mapeiam para Central de Segurança do Microsoft Defender.
 
 >[!Note]
 >- [O Alerta do Defender para Ponto](alerts.md) de Extremidade é composto por uma ou mais detecções.
->- **A Detecção do Microsoft Defender ATP** é composta do evento suspeito ocorrido no Dispositivo e seus detalhes **de Alerta relacionados.**
+>- **Microsoft Defender ATP Detecção** é composta do evento suspeito ocorrido no Device e seus detalhes **de Alerta** relacionados.
 >- A API de Alerta do Microsoft Defender para Ponto de Extremidade é a API mais recente para consumo de alerta e contém uma lista detalhada de evidências relacionadas para cada alerta. Para obter mais informações, consulte [Métodos de alerta e propriedades](alerts.md) e [Alertas de lista.](get-alerts.md)
 
 ## <a name="detections-api-fields-and-portal-mapping"></a>Campos de API de detecções e mapeamento de portal
@@ -65,7 +65,7 @@ Os números de campo combinam com os números nas imagens abaixo.
 > | 12                | Md5                       | deviceCustomString5 | db979c04a99b96d370988325bb5a8b21                                                   | Disponível para detecções do Microsoft Defender AV.                                                                                                                                    |
 > | 13               | ThreatName                | deviceCustomString1  | HackTool:Win32/Mikatz!dha                                                         | Disponível para detecções do Microsoft Defender AV.                                                                                                                                    |
 > | 14                | IpAddress                 | sourceAddress       | 218.90.204.141                                                                     | Disponível para detecções associadas a eventos de rede. Por exemplo, "Comunicação com um destino de rede mal-intencionado".                                                        |
-> | 15                | Url                       | requestUrl          | down.esales360.cn                                                                  | Disponível para detecções associadas a eventos de rede. Por exemplo, "Comunicação com um destino de rede mal-intencionado".                                                         |
+> | 15               | Url                       | requestUrl          | down.esales360.cn                                                                  | Disponível para detecções associadas a eventos de rede. Por exemplo, "Comunicação com um destino de rede mal-intencionado".                                                         |
 > | 16                | RemediationIsSuccess      | deviceCustomNumber2 | TRUE                                                                               | Disponível para detecções do Microsoft Defender AV. O valor ArcSight é 1 quando VERDADEIRO e 0 quando FALSE.                                                                                    |
 > | 17                | WasExecutingWhileDetected | deviceCustomNumber1 | FALSE                                                                              | Disponível para detecções do Microsoft Defender AV. O valor ArcSight é 1 quando VERDADEIRO e 0 quando FALSE.                                                                                    |
 > | 18                | AlertId                   | externalId          | 636210704265059241_673569822                                                       | Valor disponível para cada Detecção.                                                                                                                                               |
@@ -74,7 +74,7 @@ Os números de campo combinam com os números nas imagens abaixo.
 > |  21                | MachineDomain             | sourceDnsDomain     | contoso.com                                                                        | Nome de domínio não relevante para dispositivos ingressados no AAD. Valor disponível para cada Detecção.                                                                                           |
 > | 22               | Actor                     | deviceCustomString4 | BORON                                                                                   | Disponível para alertas relacionados a um grupo de atores conhecido.                                                                                                                         |
 > | 21+5             | ComputerDnsName           | Sem mapeamento          | liz-bean.contoso.com                                                               | O nome de domínio totalmente qualificado do dispositivo. Valor disponível para cada Detecção.                                                                                                    |
-> |                  | LogOnUsers                | sourceUserId        | contoso\liz-bean;   contoso\jay-hardee                                             | O domínio e o usuário do usuário/s de logon interativo no momento do evento. Observação: para dispositivos no Windows 10 versão 1607, as informações de domínio não estarão disponíveis. |
+> |                  | LogOnUsers                | sourceUserId        | contoso\liz-bean;   contoso\jay-hardee                                             | O domínio e o usuário do usuário/s de logon interativo no momento do evento. Observação: para dispositivos Windows 10 versão 1607, as informações de domínio não estarão disponíveis. |
 > |                  | InternalIPv4List          | Sem mapeamento          | 192.168.1.7, 10.1.14.1                                                             | Lista de IPs internos IPV4 para interfaces de rede ativas.                                                                                                                                                                               |
 > |                  | InternalIPv6List          | Sem mapeamento          | fd30:0000:0000:0001:ff4e:003e:0009:000e, FE80:CD00:0000:0CDE:1257:0000:211E:729C | Lista de IPs internos IPV6 para interfaces de rede ativas.                                                                                                                                                                               |
 | | LinkToMTP | Sem mapeamento | `https://security.microsoft.com/alert/da637370718981685665_16349121` | Valor disponível para cada Detecção.

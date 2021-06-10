@@ -57,11 +57,11 @@ Em ambos os casos, a assinatura MFA está usando o método "algo que você tem c
 
 Essas maneiras se baseiam no seu Microsoft 365 plano.
 
-|Planejar|Recomendação|Tipo de cliente|
+|Plano|Recomendação|Tipo de cliente|
 |---|---|---|
 |Todos os Microsoft 365 planos|Use padrões de segurança, que exigem MFA para todas as contas de usuário. <p> Você também pode configurar o MFA por usuário em contas de usuário individuais, mas isso não é recomendado.|Pequena empresa|
 |Microsoft 365 Business Premium <p> Microsoft 365 E3 <p> Azure Active Directory (Azure AD) Premium P1|Use políticas de Acesso Condicional para exigir MFA para contas de usuário com base em associação a grupos, aplicativos ou outros critérios.|Pequenas empresas para empresas|
-|Microsoft 365 E5 <p> Licenças do Azure AD Premium P2|Use a Proteção de Identidade do Azure AD para exigir MFA com base nos critérios de risco de login.|Empresa|
+|Microsoft 365 E5 <p> Licenças do Azure AD Premium P2|Use a Proteção de Identidade do Azure AD para exigir MFA com base nos critérios de risco de login.|Corporativo|
 ||||
 
 ### <a name="security-defaults"></a>Padrões de segurança
@@ -121,7 +121,7 @@ As empresas devem usar [políticas comuns de Acesso Condicional](/azure/active-d
 
 - [Exigir MFA para administradores](/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa)
 - [Exigir MFA para todos os usuários](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
-- [Bloquear autenticação herdda](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
+- [Bloquear autenticação herdada](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
 
 Para mais informações, confira esta [visão geral do Acesso Condicional](/azure/active-directory/conditional-access/overview).
 
@@ -176,5 +176,5 @@ No centro Microsoft 365 de administração, você pode configurar as configuraç
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Ativar a autenticação multifa factor](../../business-video/turn-on-mfa.md) (vídeo)\
+[Ativar a autenticação multifator](../../business-video/turn-on-mfa.md) (vídeo)\
 [Ativar a autenticação multifator para seu telefone](../../business-video/set-up-mfa.md) (vídeo)

@@ -1,5 +1,5 @@
 ---
-title: Definir o fuso horário para recursos do Microsoft 365 Defender
+title: Definir o fuso horário para Microsoft 365 recursos do Defender
 description: Saiba como escolher o fuso horário para as informações de data e hora associadas a incidentes, investigação e correção automatizadas e busca avançada
 keywords: fuso horário, data, hora, Microsoft 365 Defender, M365, segurança, incidentes, investigação e resposta automatizadas, AIR, busca avançada
 search.product: eADQiWindows 10XVcnh
@@ -27,7 +27,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51934412"
 ---
-# <a name="set-the-time-zone-for-microsoft-365-defender"></a>Definir o fuso horário do Microsoft 365 Defender
+# <a name="set-the-time-zone-for-microsoft-365-defender"></a>Definir o fuso horário para Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -37,9 +37,9 @@ ms.locfileid: "51934412"
 
 
 
-O Microsoft 365 Defender pode exibir informações de data e hora usando seu fuso horário local ou UTC. O fuso horário escolhido será aplicado a todas as informações de data e hora exibidas nos seguintes recursos no centro de segurança do Microsoft 365:
+Microsoft 365 O Defender pode exibir informações de data e hora usando seu fuso horário local ou UTC. O fuso horário escolhido será aplicado a todas as informações de data e hora exibidas nos seguintes recursos no centro de segurança do Microsoft 365:
 - Incidentes
 - Investigação e correção automatizadas, incluindo a central de ação
 - Busca avançada
 
-Para definir o fuso horário desses recursos, acesse **Configurações** do Fuso Horário do  >  **Microsoft 365**  >  Defender.
+Para definir o fuso horário desses recursos, vá **para Configurações** Microsoft 365 Fuso Horário do  >    >  **Defender.**

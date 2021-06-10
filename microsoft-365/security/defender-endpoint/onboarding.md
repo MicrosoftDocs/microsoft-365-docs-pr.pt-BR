@@ -71,7 +71,7 @@ A tabela a seguir lista as ferramentas disponíveis com base no ponto de extremi
 
 | Ponto de extremidade     | Opções de ferramenta                       |
 |--------------|------------------------------------------|
-| **Windows**  |  [Script local (até 10 dispositivos)](configure-endpoints-script.md) <br>  [Política de grupo](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Mobile Device Manager](configure-endpoints-mdm.md) <br> [Gerenciador de Configuração do Microsoft Endpoint](configure-endpoints-sccm.md) <br> [Scripts VDI](configure-endpoints-vdi.md) <br> [Integração com o Azure Defender](configure-server-endpoints.md#integration-with-azure-defender) |
+| **Windows**  |  [Script local (até 10 dispositivos)](configure-endpoints-script.md) <br>  [Política de grupo](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Gerenciador de Dispositivos Móveis](configure-endpoints-mdm.md) <br> [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [Scripts VDI](configure-endpoints-vdi.md) <br> [Integração com o Azure Defender](configure-server-endpoints.md#integration-with-azure-defender) |
 | **macOS**    | [Scripts locais](mac-install-manually.md) <br> [Microsoft Endpoint Manager](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [Gerenciamento de dispositivo móvel](mac-install-with-other-mdm.md) |
 | **Servidor Linux** | [Script local](linux-install-manually.md) <br> [Puppet](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
 | **iOS**      | [Baseado em aplicativos](ios-install.md)                                |
@@ -79,7 +79,7 @@ A tabela a seguir lista as ferramentas disponíveis com base no ponto de extremi
 
 
 ## <a name="step-2-configure-capabilities"></a>Etapa 2: Configurar recursos
-Após a integração dos pontos de extremidade, você configurará os vários recursos, como detecção e resposta do ponto de extremidade, proteção de próxima geração e redução de superfície de ataque. 
+Após a integração dos pontos de extremidade, você configurará os vários recursos, como detecção e resposta de ponto de extremidade, proteção de próxima geração e redução de superfície de ataque. 
 
 
 ## <a name="example-deployments"></a>Exemplo de implantações

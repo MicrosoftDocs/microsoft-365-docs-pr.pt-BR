@@ -45,15 +45,15 @@ Esses aplicativos podem aumentar o risco de sua rede ser infectado por malware, 
 
 O Defender para Ponto de Extremidade no Linux pode detectar e relatar arquivos PUA. Quando configurados no modo de bloqueio, os arquivos PUA são movidos para a quarentena.
 
-Quando um PUA é detectado em um ponto de extremidade, o Defender for Endpoint no Linux mantém um registro da infecção no histórico de ameaças. O histórico pode ser visualizado no portal do Centro de Segurança do Microsoft Defender ou por meio da `mdatp` ferramenta de linha de comando. O nome da ameaça conterá a palavra "Application".
+Quando um PUA é detectado em um ponto de extremidade, o Defender for Endpoint no Linux mantém um registro da infecção no histórico de ameaças. O histórico pode ser visualizado a partir do portal Central de Segurança do Microsoft Defender ou por meio da ferramenta `mdatp` de linha de comando. O nome da ameaça conterá a palavra "Application".
 
 ## <a name="configure-pua-protection"></a>Configurar a proteção pua
 
 A proteção PUA no Defender para Ponto de Extremidade no Linux pode ser configurada de uma das seguintes maneiras:
 
 - **Desativado**: a proteção pua está desabilitada.
-- **Auditoria**: os arquivos PUA são relatados nos logs do produto, mas não no Centro de Segurança do Microsoft Defender. Nenhum registro da infecção é armazenado no histórico de ameaças e nenhuma ação é tomada pelo produto.
-- **Bloquear**: os arquivos PUA são relatados nos logs do produto e no Centro de Segurança do Microsoft Defender. Um registro da infecção é armazenado no histórico de ameaças e a ação é tomada pelo produto.
+- **Auditoria**: os arquivos PUA são relatados nos logs do produto, mas não Central de Segurança do Microsoft Defender. Nenhum registro da infecção é armazenado no histórico de ameaças e nenhuma ação é tomada pelo produto.
+- **Bloquear**: os arquivos PUA são relatados nos logs do produto e Central de Segurança do Microsoft Defender. Um registro da infecção é armazenado no histórico de ameaças e a ação é tomada pelo produto.
 
 >[!WARNING]
 >Por padrão, a proteção pua é configurada no **modo auditoria.**

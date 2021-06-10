@@ -47,7 +47,7 @@ Executar verificação de antivírus | Inicie remotamente uma verificação anti
 Interromper e colocar o arquivo em quarentena |  Execute essa chamada para interromper a execução de processos, arquivos de quarentena e excluir a persistência, como chaves do Registro.
 Exemplo de solicitação | Execute essa chamada para solicitar um exemplo de um arquivo de um dispositivo específico. O arquivo será coletado do dispositivo e carregado em um armazenamento seguro.
 Bloquear arquivo | Execute essa API para evitar a propagação de um ataque em sua organização, proibindo arquivos potencialmente mal-intencionados ou suspeitas de malware. 
-Desbloquear arquivo | Permitir que um arquivo seja executado na organização usando o Microsoft Defender Antivírus.
+Desbloquear arquivo | Permitir que um arquivo seja executado na organização usando Microsoft Defender Antivírus.
 Obter URI do SAS do pacote | Execute essa API para obter um URI que permita baixar um pacote de investigação.
 Obter objeto MachineAction | Execute essa API para obter o objeto MachineAction.
 Obter coleção MachineActions | Execute isso para obter a coleção MachineAction.

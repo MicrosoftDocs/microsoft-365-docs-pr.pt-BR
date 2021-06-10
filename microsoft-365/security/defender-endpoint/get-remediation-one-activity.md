@@ -68,7 +68,7 @@ completerEmail | Cadeia de caracteres | Se a atividade de correção foi conclu�
 completerId | Cadeia de caracteres | Se a atividade de correção foi concluída manualmente por alguém, esta coluna contém sua id de objeto | null
 completionMethod | Cadeia de caracteres | Uma atividade de correção pode ser concluída "automaticamente" (se todos os dispositivos são remendados) ou "manualmente" por uma pessoa que seleciona "marcar como concluída" | Automático
 createdOn | DateTime | Hora em que essa atividade de correção foi criada | 2021-01-12T18:54:11.5499478Z
-description | Cadeia de caracteres | Descrição dessa atividade de correção | Atualize o Microsoft Silverlight para uma versão posterior para atenuar vulnerabilidades conhecidas que afetam seus dispositivos.
+descrição | Cadeia de caracteres | Descrição dessa atividade de correção | Atualize o Microsoft Silverlight para uma versão posterior para atenuar vulnerabilidades conhecidas que afetam seus dispositivos.
 dueOn | DateTime | Data de vencimento do conjunto de criadores para essa atividade de correção | 2021-01-13T00:00:00Z
 fixedDevices |  | O número de dispositivos que foram corrigidos | 2
 id | Cadeia de caracteres | ID dessa atividade de correção | 097d9735-5479-4899-b1b7-77398899df92
@@ -85,7 +85,7 @@ requesterEmail | Cadeia de caracteres | Endereço de email do criador | globalad
 requesterId | Cadeia de caracteres | ID do objeto Creator | r647211f-2e16-43f2-a480-16ar3a2a796r
 requesterNotes | Cadeia de caracteres | As anotações (texto livre) que o criador adicionou para essa atividade de correção | null
 scid | Cadeia de caracteres | SCID da recomendação de segurança relacionada | null
-status | Cadeia de caracteres | Status da atividade de correção (Ativo/Concluído) | Ativa
+status | Cadeia de caracteres | Status da atividade de correção (Ativo/Concluído) | Ativo
 statusLastModifiedOn | DateTime | Data em que o campo de status foi atualizado | 2021-01-12T18:54:11.5499487Z
 targetDevices | Longo | Número de dispositivos expostos a que essa correção é aplicável | 43
 title | Cadeia de caracteres | Título dessa atividade de correção | Microsoft Silverlight

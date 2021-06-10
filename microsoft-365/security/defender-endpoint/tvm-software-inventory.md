@@ -1,7 +1,7 @@
 ---
-title: Inventário de software no gerenciamento de ameaças e vulnerabilidades
-description: A página de inventário de software do Microsoft Defender para o gerenciamento de ameaças e vulnerabilidades do Endpoint mostra quantas deficiências e vulnerabilidades foram detectadas no software.
-keywords: gerenciamento de ameaças e vulnerabilidades, Microsoft Defender para Ponto de Extremidade, Inventário de software do Microsoft Defender para Ponto de Extremidade, Microsoft Defender para Ameaças de Ponto de Extremidade & gerenciamento de vulnerabilidades, Microsoft Defender para Endpoint threat & inventário de software de gerenciamento de vulnerabilidades, inventário de software do Microsoft Defender para Endpoint tvm, inventário de software tvm
+title: Inventário de software em Gerenciamento de Ameaças e Vulnerabilidades
+description: A página de inventário de software do Microsoft Defender para o Gerenciamento de Ameaças e Vulnerabilidades do Endpoint mostra quantas fraquezas e vulnerabilidades foram detectadas no software.
+keywords: Gerenciamento de Ameaças e Vulnerabilidades, Microsoft Defender para Ponto de Extremidade, Inventário de software do Microsoft Defender para Ponto de Extremidade, Microsoft Defender for Endpoint threat & Gerenciamento de Vulnerabilidades, Microsoft Defender for Endpoint threat & Gerenciamento de Vulnerabilidades software inventory, Microsoft Defender for Endpoint tvm software inventory, inventário de software tvm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -25,18 +25,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933716"
 ---
-# <a name="software-inventory---threat-and-vulnerability-management"></a>Inventário de software - gerenciamento de ameaças e vulnerabilidades
+# <a name="software-inventory---threat-and-vulnerability-management"></a>Inventário de software - Gerenciamento de Ameaças e Vulnerabilidades
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Ameaça e Gerenciamento de Vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
-O inventário de software no gerenciamento de ameaças e vulnerabilidades é uma lista de softwares conhecidos em sua organização com enumerações de [plataformas comuns (CPE)](https://nvd.nist.gov/products/cpe)oficiais. Os produtos de software sem uma CPE oficial não têm vulnerabilidades publicadas. Ele também inclui detalhes como o nome do fornecedor, número de pontos fracos, ameaças e número de dispositivos expostos.
+O inventário de software no Gerenciamento de Ameaças e Vulnerabilidades é uma lista de softwares conhecidos em sua organização com enumerações de [plataformas comuns oficiais (CPE)](https://nvd.nist.gov/products/cpe). Os produtos de software sem uma CPE oficial não têm vulnerabilidades publicadas. Ele também inclui detalhes como o nome do fornecedor, número de pontos fracos, ameaças e número de dispositivos expostos.
 
 ## <a name="how-it-works"></a>Como funciona
 
@@ -46,7 +46,7 @@ Como é em tempo real, em questão de minutos, você verá informações de vuln
 
 ## <a name="navigate-to-the-software-inventory-page"></a>Navegue até a página Inventário de software
 
-Acesse a página Inventário de software selecionando **Inventário de software** no menu de navegação de gerenciamento de ameaças e vulnerabilidades no Centro de Segurança do Microsoft [Defender.](portal-overview.md)
+Acesse a página Inventário de software selecionando **Inventário de software** Gerenciamento de Ameaças e Vulnerabilidades menu de navegação no [Central de Segurança do Microsoft Defender](portal-overview.md).
 
 Exibir software em dispositivos específicos nas páginas de dispositivos individuais da lista [de dispositivos](machines-view-overview.md).
 
@@ -65,7 +65,7 @@ Selecione o software que você deseja investigar. Um painel de sobrevoo será ab
 
 ### <a name="software-that-isnt-supported"></a>Software que não tem suporte
 
-Softwares que não são suportados atualmente por ameaças & gerenciamento de vulnerabilidades podem estar presentes na página Inventário de software. Como não há suporte, apenas dados limitados estarão disponíveis. Filtrar por software sem suporte com a opção "Não disponível" na seção "Fraqueza".
+Softwares que não são suportados atualmente por ameaças & Gerenciamento de Vulnerabilidades podem estar presentes na página Inventário de software. Como não há suporte, apenas dados limitados estarão disponíveis. Filtrar por software sem suporte com a opção "Não disponível" na seção "Fraqueza".
 
 ![Filtro de software sem suporte.](images/tvm-unsupported-software-filter.png)
 
@@ -80,9 +80,9 @@ Atualmente, os produtos sem um CPE não são mostrados na página de inventário
 
 ## <a name="software-inventory-on-devices"></a>Inventário de software em dispositivos
 
-No painel de navegação do Centro de Segurança do Microsoft Defender, vá para a lista **[Dispositivos](machines-view-overview.md)**. Selecione o nome de um dispositivo para abrir a página do dispositivo (como Computador1) e selecione a guia Inventário de **software** para ver uma lista de todos os softwares conhecidos presentes no dispositivo. Selecione uma entrada de software específica para abrir o sobrevoo com mais informações.
+No painel Central de Segurança do Microsoft Defender de navegação, vá para a lista **[Dispositivos](machines-view-overview.md)**. Selecione o nome de um dispositivo para abrir a página do dispositivo (como Computador1) e selecione a guia Inventário de **software** para ver uma lista de todos os softwares conhecidos presentes no dispositivo. Selecione uma entrada de software específica para abrir o sobrevoo com mais informações.
 
-O software pode estar visível no nível do dispositivo, mesmo que não tenha suporte no momento pelo gerenciamento de ameaças e vulnerabilidades. No entanto, apenas dados limitados estarão disponíveis. Você saberá se o software não tem suporte porque ele dirá "Não disponível" na coluna "Fraqueza".
+O software pode estar visível no nível do dispositivo, mesmo que ele não tenha suporte no momento por Gerenciamento de Ameaças e Vulnerabilidades. No entanto, apenas dados limitados estarão disponíveis. Você saberá se o software não tem suporte porque ele dirá "Não disponível" na coluna "Fraqueza".
 
 Software sem CPE também pode aparecer no inventário de software específico deste dispositivo.
 
@@ -92,7 +92,7 @@ Consulte evidências de onde detectamos um software específico em um dispositiv
 
 Selecione um nome de software para abrir o sobrevoo e procure a seção chamada "Evidência de Software".
 
-![Exemplo de evidência de software do Windows 10 da lista de dispositivos, mostrando o caminho do registro de evidências de software.](images/tvm-software-evidence.png)
+![Exemplo de evidência de software Windows 10 da lista de dispositivos, mostrando o caminho do registro de evidências de software.](images/tvm-software-evidence.png)
 
 ## <a name="software-pages"></a>Páginas de software
 
@@ -121,11 +121,11 @@ Reporte um falso positivo quando vir qualquer informação vagas, impreciso ou i
 1. Abra o sobrevoo de software na página Inventário de software.
 2. Selecione **Relatório impreciso**.
 3. No painel submenu, selecione a categoria impreciso no menu suspenso, preencha seu endereço de email e detalhes sobre a imprecisão.
-4. Selecione **Enviar**. Seus comentários são enviados imediatamente para os especialistas em gerenciamento de ameaças e vulnerabilidades.
+4. Selecione **Enviar**. Seus comentários são enviados imediatamente aos especialistas Gerenciamento de Ameaças e Vulnerabilidades segurança.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Visão geral do gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Visão geral Gerenciamento de Vulnerabilidades ameaça](next-gen-threat-and-vuln-mgt.md)
 - [Recomendações de segurança](tvm-security-recommendation.md)
 - [Cronograma do evento](threat-and-vuln-mgt-event-timeline.md)
 - [Exibir e organizar a lista do Microsoft Defender for Endpoint Devices](machines-view-overview.md)

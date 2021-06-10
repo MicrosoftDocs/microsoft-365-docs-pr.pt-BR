@@ -51,7 +51,7 @@ A notificação por email inclui informações básicas sobre o alerta e um link
 Você pode criar regras que determinam os dispositivos e as gravidades de alerta para enviar notificações por email e para os destinatários de notificação.
 
 
-1. No painel de navegação, selecione **Configurações**  >  **Notificações de email.**
+1. No painel de navegação, **selecione** Configurações  >  **Notificações de email.**
 
 2. Clique **em Adicionar item**.
 

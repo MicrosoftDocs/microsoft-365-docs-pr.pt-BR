@@ -58,9 +58,9 @@ preinstall com.microsoft.wdav end [2020-03-11 13:08:49 -0700] 804 => 1
 Neste exemplo, o motivo real é prefixado com `[ERROR]` .
 A instalação falhou porque não há suporte para uma rebaixamento entre essas versões.
 
-## <a name="mdatp-install-log-missing-or-not-updated"></a>Log de instalação MDATP ausente ou não atualizado
+## <a name="mdatp-install-log-missing-or-not-updated"></a>MDATP log de instalação ausente ou não atualizado
 
-Em casos raros, a instalação não deixa nenhum rastreamento no arquivo /Library/Logs/Microsoft/mdatp/install.log do MDATP.
+Em casos raros, a instalação não deixa nenhum rastreamento MDATP arquivo /Library/Logs/Microsoft/mdatp/install.log.
 Você pode verificar se ocorreu uma instalação e analisar possíveis erros consultando logs macOS (isso é útil na implantação do MDM, quando não há interface do usuário do cliente). Recomendamos que você use uma janela de tempo estreita para executar uma consulta e filtre pelo nome do processo de registro em log, pois haverá uma grande quantidade de informações.
 
 ```bash

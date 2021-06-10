@@ -32,7 +32,7 @@ ms.locfileid: "51934688"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
-[O Plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2) inclui recursos avançados de investigação [e](office-365-air.md) resposta automatizadas (AIR). Esses recursos podem economizar muito tempo e esforço com a equipe de operações de segurança lidando com ameaças. A Microsoft continua a melhorar os recursos de segurança. Recentemente, os recursos AIR foram aprimorados para incluir um playbook de segurança do usuário comprometido (atualmente na visualização). Leia este artigo para saber mais sobre o playbook de segurança do usuário comprometido. Confira a postagem do blog Acelere o tempo para detectar e responder ao comprometimento do usuário e limitar o escopo de violação com o [Microsoft Defender para Office 365](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) para obter detalhes adicionais.
+[O Microsoft Defender para Office 365 Plano 2](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2) inclui poderosos recursos automatizados de investigação [e](office-365-air.md) resposta (AIR). Esses recursos podem economizar muito tempo e esforço com a equipe de operações de segurança lidando com ameaças. A Microsoft continua a melhorar os recursos de segurança. Recentemente, os recursos AIR foram aprimorados para incluir um playbook de segurança do usuário comprometido (atualmente na visualização). Leia este artigo para saber mais sobre o playbook de segurança do usuário comprometido. E consulte a postagem do blog [Acelere](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) o tempo para detectar e responder ao comprometimento do usuário e limitar o escopo de violação com o Microsoft Defender Office 365 para obter detalhes adicionais.
 
 ![Investigação automatizada para um usuário comprometido](/microsoft-365/media/office365atp-compduserinvestigation.jpg)
 
@@ -46,7 +46,7 @@ O playbook de segurança do usuário comprometido permite que a equipe de segura
 
 ## <a name="compromised-user-alerts"></a>Alertas de usuário comprometidos
 
-Quando uma conta de usuário é comprometida, ocorrem comportamentos atípicos ou anômalos. Por exemplo, mensagens de phishing e spam podem ser enviadas internamente de uma conta de usuário confiável. O Defender para o Office 365 pode detectar essas anomalias em padrões de email e atividades de colaboração no Office 365. Quando isso acontece, os alertas são disparados e o processo de mitigação de ameaças começa.
+Quando uma conta de usuário é comprometida, ocorrem comportamentos atípicos ou anômalos. Por exemplo, mensagens de phishing e spam podem ser enviadas internamente de uma conta de usuário confiável. O Defender para Office 365 pode detectar essas anomalias nos padrões de email e na atividade de colaboração dentro Office 365. Quando isso acontece, os alertas são disparados e o processo de mitigação de ameaças começa.
 
 Por exemplo, aqui está um alerta que foi disparado devido ao envio de emails suspeitos:
 
@@ -103,8 +103,8 @@ Para saber mais, confira [Exibir detalhes de uma investigação](air-view-invest
 
 - [Revise as permissões necessárias para usar recursos AIR](office-365-air.md#required-permissions-to-use-air-capabilities)
 
-- [Encontrar e investigar emails mal-intencionados no Office 365](investigate-malicious-email-that-was-delivered.md)
+- [Encontre e investigue emails mal-intencionados Office 365](investigate-malicious-email-that-was-delivered.md)
 
 - [Saiba mais sobre AIR no Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 
-- [Visite o Roteiro do Microsoft 365 para ver o que está chegando em breve e sendo implantada](https://www.microsoft.com/microsoft-365/roadmap?filters=)
+- [Visite o Microsoft 365 mapa do Microsoft 365 para ver o que está por vir em breve e a ser implantada](https://www.microsoft.com/microsoft-365/roadmap?filters=)

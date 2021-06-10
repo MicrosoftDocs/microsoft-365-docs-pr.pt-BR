@@ -3,7 +3,7 @@ title: Visão geral do painel de segurança
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: denisebmsft
+author: siosulli
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 description: Use o novo Painel de Segurança para analisar Office 365 Status da Proteção contra Ameaças e exibir e agir em alertas de segurança.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 71c077853c8dbb68b78c8073f650bcb2df4d1b9a
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 8c9a49b9b8fc1edd9b2928250e8cae135acb75f4
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246448"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274407"
 ---
 # <a name="security-dashboard"></a>Painel de Segurança
 

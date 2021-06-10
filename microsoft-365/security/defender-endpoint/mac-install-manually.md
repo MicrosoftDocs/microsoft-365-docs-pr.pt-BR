@@ -47,14 +47,14 @@ Antes de começar, consulte a página principal do Microsoft Defender para Ponto
 
 ## <a name="download-installation-and-onboarding-packages"></a>Baixar pacotes de instalação e integração
 
-Baixe os pacotes de instalação e integração do Centro de Segurança do Microsoft Defender:
+Baixe os pacotes de instalação e integração Central de Segurança do Microsoft Defender:
 
-1. No Centro de Segurança do Microsoft Defender, acesse **Configurações > Gerenciamento de Dispositivos > Integração**.
+1. Em Central de Segurança do Microsoft Defender, vá para Configurações > Gerenciamento de **Dispositivos > Integração**.
 2. Na Seção 1 da página, de definir o sistema operacional como **macOS** e o método Deployment como **script local**.
 3. Na Seção 2 da página, selecione **Baixar pacote de instalação**. Salve-o como wdav.pkg em um diretório local.
 4. Na Seção 2 da página, selecione **Baixar pacote de integração**. Salve-o como WindowsDefenderATPOnboardingPackage.zip no mesmo diretório.
 
-    ![Captura de tela do Centro de Segurança do Microsoft Defender](images/atp-portal-onboarding-page.png)
+    ![Central de Segurança do Microsoft Defender captura de tela](images/atp-portal-onboarding-page.png)
 
 5. Em um prompt de comando, verifique se você tem os dois arquivos.
     
@@ -107,11 +107,11 @@ Para concluir esse processo, você deve ter privilégios de administrador no dis
 
 5. Repita as etapas 3 & 4 para todas as extensões do sistema distribuídas com o Microsoft Defender para Ponto de Extremidade no Mac.
 
-6. Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Microsoft Defender para Ponto de Extremidade no Mac inspeciona o tráfego de soquete e relata essas informações ao portal do Centro de Segurança do Microsoft Defender. Quando solicitado a conceder permissões do Microsoft Defender para o Ponto de Extremidade para filtrar o tráfego de rede, selecione **Permitir**.
+6. Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Microsoft Defender para Ponto de Extremidade no Mac inspeciona o tráfego de soquete e relata essas informações ao portal Central de Segurança do Microsoft Defender. Quando solicitado a conceder permissões do Microsoft Defender para o Ponto de Extremidade para filtrar o tráfego de rede, selecione **Permitir**.
 
     ![Preferências de segurança de extensão do sistema2](images/big-sur-install-4.png)
 
-7. Abra **Preferências do** Sistema Segurança & Privacidade e navegue até a guia Privacidade. Conceda permissão de Acesso em Disco Completo para o Microsoft Defender ATP e a Extensão de Segurança do Ponto de Extremidade do  >   Microsoft Defender **ATP.**   
+7. Abra **Preferências do** Sistema Segurança & Privacidade e navegue até a guia  >   Privacidade.  Conceda  permissão de Acesso total ao disco para Microsoft Defender ATP e Microsoft Defender ATP Extensão de Segurança do Ponto de **Extremidade.** 
 
     ![Acesso em disco completo](images/big-sur-install-5.png)
 
@@ -170,11 +170,11 @@ Para concluir esse processo, você deve ter privilégios de administrador no dis
         mdatp threat list
         ```
 
-3. Execute um teste de detecção de EDR para verificar se o dispositivo está corretamente conectado e relatando ao serviço. Execute as seguintes etapas no dispositivo recém-integrado:
+3. Execute um EDR de detecção para verificar se o dispositivo está corretamente conectado e relatando ao serviço. Execute as seguintes etapas no dispositivo recém-integrado:
 
-   1. No navegador, como o Microsoft Edge para Mac ou Safari.
+   1. No navegador, como Microsoft Edge para Mac ou Safari.
 
-   1. Baixe o MDATP MacOS DIY.zip https://aka.ms/mdatpmacosdiy e extraia.
+   1. Baixe MDATP do MacOS DIY.zip https://aka.ms/mdatpmacosdiy e extraia.
 
       Você pode ser solicitado:
 
@@ -190,13 +190,13 @@ Para concluir esse processo, você deve ter privilégios de administrador no dis
    > [!TIP]
    > Se você clicar duas vezes, receberá a seguinte mensagem:
    > 
-   > > **"MDATP MacOS DIY" não pode ser aberto porque o desenvolvedor não pode ser verificador.**<br/>
+   > > **"MDATP MACOS DIY" não pode ser aberto porque o desenvolvedor não pode ser verificador.**<br/>
    > > O macOS não pode verificar se esse aplicativo está livre de malware.<br/>
    > > **\[ Mover para \] o Cancelamento de** **\[ Lixo \]** 
   
 7. Clique em **Cancelar**.
 
-8. Clique com o botão direito do **mouse em MDATP MacOS DIY** e clique em **Abrir**. 
+8. Clique com o botão **direito MDATP MacOS DIY** e clique em **Abrir**. 
 
     O sistema deve exibir a seguinte mensagem:
 
@@ -207,18 +207,18 @@ Para concluir esse processo, você deve ter privilégios de administrador no dis
 
     O sistema deve exibir a seguinte mensagem:
 
-    > Microsoft Defender para Ponto de Extremidade - arquivo de teste macOS EDR DIY<br/>
-    > O alerta correspondente estará disponível no portal MDATP.
+    > Microsoft Defender para Ponto de Extremidade - macOS EDR arquivo de teste DIY<br/>
+    > O alerta correspondente estará disponível no portal MDATP portal.
 
 11. Clique em **Abrir**. 
 
-    Em alguns minutos, um alerta chamado "alerta de teste EDR do macOS" deve ser a gerado.
+    Em alguns minutos, um alerta chamado "macOS EDR Test Alert" deve ser a gerado.
 
-12. Vá para o Centro de Segurança do Microsoft Defender ( https://SecurityCenter.microsoft.com) .
+12. Vá para Central de Segurança do Microsoft Defender ( https://SecurityCenter.microsoft.com) .
 
 13. Vá para a Fila de Alertas.
 
-    :::image type="content" source="images/b8db76c2-c368-49ad-970f-dcb87534d9be.png" alt-text="Exemplo de um alerta de teste EDR do macOS que mostra gravidade, categoria, fonte de detecção e um menu de ações recolhido.":::
+    :::image type="content" source="images/b8db76c2-c368-49ad-970f-dcb87534d9be.png" alt-text="Exemplo de um alerta de teste do macOS EDR que mostra gravidade, categoria, fonte de detecção e um menu de ações recolhido.":::
     
     Veja os detalhes do alerta e a linha do tempo do dispositivo e execute as etapas de investigação regulares.
 

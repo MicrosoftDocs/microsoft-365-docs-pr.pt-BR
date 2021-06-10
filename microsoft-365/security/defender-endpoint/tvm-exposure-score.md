@@ -1,7 +1,7 @@
 ---
-title: Pontuação de exposição no gerenciamento de ameaças e vulnerabilidades
-description: A pontuação de exposição ao gerenciamento de ameaças e vulnerabilidades reflete como sua organização está vulnerável a ameaças de segurança cibernética.
-keywords: pontuação de exposição, pontuação de exposição do Microsoft Defender para Ponto de Extremidade, pontuação de exposição de TV do Microsoft Defender para Endpoint, pontuação de exposição da organização, pontuação de exposição da organização de tvm, gerenciamento de ameaças e vulnerabilidades, Microsoft Defender para Ponto de Extremidade
+title: Pontuação de exposição em Gerenciamento de Ameaças e Vulnerabilidades
+description: A Gerenciamento de Ameaças e Vulnerabilidades de exposição reflete como sua organização está vulnerável a ameaças de segurança cibernética.
+keywords: pontuação de exposição, pontuação de exposição do Microsoft Defender for Endpoint, pontuação de exposição de tv do Microsoft Defender para Endpoint, pontuação de exposição da organização, pontuação de exposição da organização de tvm, Gerenciamento de Ameaças e Vulnerabilidades, Microsoft Defender para Ponto de Extremidade
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -25,19 +25,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51934100"
 ---
-# <a name="exposure-score---threat-and-vulnerability-management"></a>Pontuação de exposição - gerenciamento de ameaças e vulnerabilidades
+# <a name="exposure-score---threat-and-vulnerability-management"></a>Pontuação de exposição - Gerenciamento de Ameaças e Vulnerabilidades
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Ameaça e Gerenciamento de Vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
-Sua pontuação de exposição está visível no painel de gerenciamento de ameaças e [vulnerabilidades](tvm-dashboard-insights.md) do Centro de Segurança do Microsoft Defender. Ele reflete como sua organização está vulnerável a ameaças de segurança cibernética. Baixa pontuação de exposição significa que seus dispositivos são menos vulneráveis de exploração.
+Sua pontuação de exposição é visível no [painel Ameaça e Gerenciamento de Vulnerabilidades](tvm-dashboard-insights.md) do Central de Segurança do Microsoft Defender. Ele reflete como sua organização está vulnerável a ameaças de segurança cibernética. Baixa pontuação de exposição significa que seus dispositivos são menos vulneráveis de exploração.
 
 - Compreenda e identifique rapidamente as informações de alto nível sobre o estado de segurança em sua organização.
 - Detectar e responder a áreas que exigem investigação ou ação para melhorar o estado atual.
@@ -59,11 +59,11 @@ Você pode resolver os problemas com base em recomendações de [segurança prio
 
 ## <a name="reduce-your-threat-and-vulnerability-exposure"></a>Reduzir sua exposição a ameaças e vulnerabilidades
 
-Reduza sua exposição a ameaças e vulnerabilidades ao remediar recomendações [de segurança.](tvm-security-recommendation.md) Faça o maior impacto na sua pontuação de exposição, remediando as principais recomendações de segurança, que podem ser exibidas no painel de gerenciamento de ameaças e [vulnerabilidades.](tvm-dashboard-insights.md)
+Reduza sua exposição a ameaças e vulnerabilidades ao remediar recomendações [de segurança.](tvm-security-recommendation.md) Faça o maior impacto na sua pontuação de exposição, remediando as principais recomendações de segurança, que podem ser exibidas no painel Gerenciamento de Ameaças e Vulnerabilidades [.](tvm-dashboard-insights.md)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Visão geral do gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Visão geral Gerenciamento de Vulnerabilidades ameaça](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft Secure Score para dispositivos](tvm-microsoft-secure-score-devices.md)
 - [Recomendações de segurança](tvm-security-recommendation.md)
 - [Cronograma do evento](threat-and-vuln-mgt-event-timeline.md)

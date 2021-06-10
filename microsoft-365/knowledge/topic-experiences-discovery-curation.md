@@ -22,7 +22,7 @@ ms.locfileid: "50917423"
 ---
 # <a name="microsoft-viva-topics-discovery-and-curation"></a>Descoberta e seleção de Tópicos do Microsoft Viva 
 
-Os Tópicos do Viva organizam informações para conhecimento em seu ambiente do Microsoft 365. Todos passamos pela leitura por meio de documentos e páginas de site em que encontramos termos que não estão familiarizados. Muitas vezes, paramos o que estamos fazendo para gastar um tempo valioso procurando mais informações.
+Os Tópicos do Viva organizam informações para conhecimento em seu Microsoft 365 ambiente. Todos passamos pela leitura por meio de documentos e páginas de site em que encontramos termos que não estão familiarizados. Muitas vezes, paramos o que estamos fazendo para gastar um tempo valioso procurando mais informações.
 
 Os Tópicos do Viva usam o Microsoft Graph e a AI para identificar **tópicos** em sua organização.  Um tópico é uma frase ou termo que tem um significado específico para a organização e tem recursos relacionados a ele que podem ajudar as pessoas a entender o que é e encontrar mais informações sobre ela. Há vários tipos diferentes de tópicos que serão importantes para sua organização. Inicialmente, os seguintes tipos de tópicos podem ser identificados:
 - Project
@@ -43,23 +43,23 @@ As propriedades são identificadas dos arquivos e páginas que fazem parte das e
 
 Nem todos os tópicos identificados serão úteis para sua organização. Ele pode não ter identificado nenhum dos nomes alternativos corretos, descrições, as pessoas apropriadas ou o conteúdo. Portanto, a capacidade de adicionar tópicos que não são identificados, manter tópicos sugeridos e tópicos de cura é fundamental para melhorar a qualidade dos tópicos que podem ser descobertos em sua organização.
 
-Em seguida, os tópicos do Viva, quando o contexto for apropriado, sugerirão que esses tópicos sejam realçados em todas as páginas de site modernas do SharePoint em seu locatário. O tópico também pode ser referenciado diretamente na página de site moderno do SharePoint por um autor de página. Quando um usuário está curioso para saber mais sobre um tópico, ele pode selecionar o tópico realçado para exibir um **cartão de** resumo tópico que fornece uma breve descrição. E se eles quiserem saber mais, eles podem selecionar um link **de** detalhes de tópico no resumo para abrir a página de tópico detalhada.
+Em seguida, os tópicos do Viva, quando o contexto for apropriado, sugerirão que esses tópicos sejam realçados em todas as SharePoint de site modernas em seu locatário. O tópico também pode ser referenciado diretamente na página SharePoint site moderno por um autor de página. Quando um usuário está curioso para saber mais sobre um tópico, ele pode selecionar o tópico realçado para exibir um **cartão de** resumo tópico que fornece uma breve descrição. E se eles quiserem saber mais, eles podem selecionar um link **de** detalhes de tópico no resumo para abrir a página de tópico detalhada.
 
 ![Destaques de tópicos](../media/knowledge-management/saturn.png) </br>
 
 Além disso, os usuários também poderão encontrar tópicos por meio da Pesquisa da Microsoft.
 
-## <a name="topic-curation-and-feedback"></a>Curadoria de tópicos e comentários
+## <a name="topic-curation-and-feedback&quot;></a>Curadoria de tópicos e comentários
 
 Os Tópicos do Viva recebem a contribuição humana para melhorar a qualidade de seus tópicos. Embora inicialmente a AI identifique e sugira tópicos, as edições manualmente feitas para o conteúdo de colaboradores, tópicos adicionados manualmente, confirmação de usuários para propriedades e conteúdo descobertos pela IA e comentários sobre a utilidade dos tópicos são essenciais.
 
-- Os tópicos podem ser revisados pelos **gerentes de conhecimento** em sua organização. O gerente de conhecimento pode revisar tópicos que eles têm permissões para ver. Na página Gerenciar Tópicos na Central de Tópicos, eles podem optar por confirmar tópicos gerados por AI ("tópicos sugeridos") como válidos, rejeitar tópicos para impedir que o conteúdo seja exibido como um tópico, criar tópicos que não foram descobertos pela AI ou identificar tópicos que podem se beneficiar de algumas edições por especialistas em assuntos para serem mais úteis ou precisos. Para obter mais informações, [consulte Manage topics in the Topic center](manage-topics.md).
+- Os tópicos podem ser revisados pelos **gerentes de conhecimento** em sua organização. O gerente de conhecimento pode revisar tópicos que eles têm permissões para ver. Na página Gerenciar Tópicos na Central de Tópicos, eles podem optar por confirmar tópicos gerados por AI (&quot;tópicos sugeridos") como válidos, rejeitar tópicos para impedir que o conteúdo seja exibido como um tópico, criar tópicos que não foram descobertos pela AI ou identificar tópicos que podem se beneficiar de algumas edições por especialistas em assuntos para serem mais úteis ou precisos. Para obter mais informações, [consulte Manage topics in the Topic center](manage-topics.md).
 
 - Você pode atribuir permissões Criar e *editar tópicos* a qualquer um dos usuários licenciados para que eles possam fazer alterações nos tópicos existentes ou criar novos tópicos. Isso permite que os usuários que têm conhecimento sobre o tópico atualizem a página do tópico diretamente para fazer correções ou adicionar informações adicionais. Eles também podem adicionar novos tópicos que a IA não pôde identificar. Se houver informações suficientes sobre esses tópicos adicionados manualmente e a AI for capaz de identificar esse tipo de tópico, sugestões adicionais da AI podem aprimorar esses tópicos adicionados manualmente. Juntos, os humanos e a IA podem manter o conhecimento preciso ao longo do tempo e não ter esse repouso em uma única pessoa. Para obter mais informações, [consulte Create a new topic and](./create-a-topic.md) Edit a [topic](./edit-a-topic.md).
 
 - Mesmo os usuários que só têm acesso de leitura ao tópico (visualizadores de tópicos) serão solicitados a verificar a utilidade de tópicos específicos. Perguntas de comentários são feitas no **cartão de** resumo tópico para melhorar o valor do tópico e suas informações. Perguntas sobre a qualidade e a utilidade das sugestões de IA são apresentadas aos usuários uma de cada vez. As perguntas incluem:</br>
 
-    1. Se a identificação do tópico na página do SharePoint foi útil. Há uma oportunidade de remover o destaque se ele não for preciso ou útil. Se pessoas suficientes indicarem que um tópico não foi identificado corretamente em uma página específica, esse destaque será removido para todos os usuários. 
+    1. Se a identificação do tópico na página SharePoint foi útil. Há uma oportunidade de remover o destaque se ele não for preciso ou útil. Se pessoas suficientes indicarem que um tópico não foi identificado corretamente em uma página específica, esse destaque será removido para todos os usuários. 
 
     2. Se o tópico sugerido é valioso para a organização. Se pessoas suficientes indicarem que o tópico sugerido é valioso, o tópico é confirmado automaticamente. Como alternativa, se o tópico sugerido não for valioso, o tópico será automaticamente rejeitado. O Gerenciador de Conhecimento pode observar essa atividade no exibição Gerenciar Tópicos.
 

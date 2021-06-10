@@ -1,8 +1,8 @@
 ---
-title: Visão geral dos recursos de detecção e resposta do ponto de extremidade
+title: Visão geral dos detecção e resposta de ponto de extremidade recursos
 ms.reviewer: ''
-description: Saiba mais sobre os recursos de detecção e resposta do ponto de extremidade no Microsoft Defender para Ponto de Extremidade
-keywords: Microsoft Defender para Ponto de Extremidade, detecção e resposta do ponto de extremidade, resposta, detecção, segurança cibernética, proteção
+description: Saiba mais sobre os detecção e resposta de ponto de extremidade no Microsoft Defender para Ponto de Extremidade
+keywords: Microsoft Defender para Ponto de Extremidade, detecção e resposta de ponto de extremidade, resposta, detecção, segurança cibernética, proteção
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -24,7 +24,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933512"
 ---
-# <a name="overview-of-endpoint-detection-and-response"></a>Visão geral da detecção e resposta do ponto de extremidade
+# <a name="overview-of-endpoint-detection-and-response"></a>Visão geral do detecção e resposta de ponto de extremidade
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "51933512"
 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-Os recursos de detecção e resposta de ponto de extremidade do Defender para pontos de extremidade fornecem detecções avançadas de ataque que são quase em tempo real e ativas. Os analistas de segurança podem priorizar alertas de maneira eficaz, obter visibilidade de todo o escopo de uma violação e executar ações de resposta para remediar ameaças.
+Os recursos do Defender for Endpoint detecção e resposta de ponto de extremidade fornecem detecções avançadas de ataque que são quase em tempo real e ativas. Os analistas de segurança podem priorizar alertas de maneira eficaz, obter visibilidade de todo o escopo de uma violação e executar ações de resposta para remediar ameaças.
 
 Quando uma ameaça é detectada, os alertas são criados no sistema para um analista investigar. Alertas com as mesmas técnicas de ataque ou atribuídos ao mesmo invasor são agregados a uma entidade chamada de _incidente_. Agregar alertas dessa maneira ajuda os analistas a investigar e responder a ameaças coletivamente.
 

@@ -1,7 +1,7 @@
 ---
-title: Recomendações de segurança por gerenciamento de ameaças e vulnerabilidades
-description: Obter recomendações de segurança ativas priorizadas por ameaça, probabilidade de violação e valor, no gerenciamento de ameaças e vulnerabilidades.
-keywords: gerenciamento de ameaças e vulnerabilidades, recomendação de segurança de TV do Microsoft Defender para Endpoint, recomendação de segurança cibernética, recomendação de segurança a ação
+title: Recomendações de segurança por Gerenciamento de Ameaças e Vulnerabilidades
+description: Obter recomendações de segurança ativas priorizadas por ameaça, probabilidade de violação e valor, em Gerenciamento de Ameaças e Vulnerabilidades.
+keywords: Gerenciamento de Ameaças e Vulnerabilidades, recomendação de segurança de TV do Microsoft Defender para Endpoint, recomendação de segurança cibernética, recomendação de segurança a ação
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -25,21 +25,21 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933728"
 ---
-# <a name="security-recommendations---threat-and-vulnerability-management"></a>Recomendações de segurança - gerenciamento de ameaças e vulnerabilidades
+# <a name="security-recommendations---threat-and-vulnerability-management"></a>Recomendações de segurança - Gerenciamento de Ameaças e Vulnerabilidades
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Ameaça e Gerenciamento de Vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 As deficiências de segurança cibernética identificadas em sua organização são mapeadas para recomendações de segurança ativas e priorizadas pelo impacto. Recomendações priorizadas ajudam a reduzir o tempo para mitigar ou remediar vulnerabilidades e impulsionar a conformidade.
 
-Cada recomendação de segurança inclui etapas de correção ativas. Para ajudar no gerenciamento de tarefas, a recomendação também pode ser enviada usando o Microsoft Intune e o Microsoft Endpoint Configuration Manager. Quando o cenário de ameaças muda, a recomendação também muda conforme coleta informações continuamente do seu ambiente.
+Cada recomendação de segurança inclui etapas de correção ativas. Para ajudar no gerenciamento de tarefas, a recomendação também pode ser enviada usando Microsoft Intune e Microsoft Endpoint Configuration Manager. Quando o cenário de ameaças muda, a recomendação também muda conforme coleta informações continuamente do seu ambiente.
 
 >[!TIP]
 >Para obter emails sobre novos eventos de vulnerabilidade, consulte [Configure vulnerability email notifications in Microsoft Defender for Endpoint](configure-vulnerability-email-notifications.md)
@@ -58,8 +58,8 @@ Cada dispositivo na organização é pontuado com base em três fatores importan
 
 Acesse a página Recomendações de segurança de algumas maneiras diferentes:
 
-- Menu de navegação de gerenciamento de ameaças e vulnerabilidades no [Centro de Segurança do Microsoft Defender](portal-overview.md)
-- Principais recomendações de segurança no painel de gerenciamento de ameaças [e vulnerabilidades](tvm-dashboard-insights.md)
+- Menu de Gerenciamento de Vulnerabilidades de navegação no [Central de Segurança do Microsoft Defender](portal-overview.md)
+- Principais recomendações de segurança no painel [Gerenciamento de Ameaças e Vulnerabilidades painel](tvm-dashboard-insights.md)
 
 Exibir recomendações de segurança relacionadas nos seguintes locais:
 
@@ -68,11 +68,11 @@ Exibir recomendações de segurança relacionadas nos seguintes locais:
 
 ### <a name="navigation-menu"></a>Menu de navegação
 
-Vá para o menu de navegação de gerenciamento de ameaças e vulnerabilidades e selecione **Recomendações de segurança.** A página contém uma lista de recomendações de segurança para as ameaças e vulnerabilidades encontradas em sua organização.
+Vá para o menu Gerenciamento de Ameaças e Vulnerabilidades de navegação e selecione **Recomendações de segurança.** A página contém uma lista de recomendações de segurança para as ameaças e vulnerabilidades encontradas em sua organização.
 
-### <a name="top-security-recommendations-in-the-threat-and-vulnerability-management-dashboard"></a>Principais recomendações de segurança no painel de gerenciamento de ameaças e vulnerabilidades
+### <a name="top-security-recommendations-in-the-threat-and-vulnerability-management-dashboard"></a>Principais recomendações de segurança no painel Gerenciamento de Ameaças e Vulnerabilidades painel
 
-Em um determinado dia como Administrador de Segurança, [](tvm-dashboard-insights.md) você pode dar uma [](tvm-exposure-score.md) olhada no painel de gerenciamento de ameaças e vulnerabilidades para ver sua pontuação de exposição lado a lado com sua Pontuação Segura da [Microsoft para Dispositivos.](tvm-microsoft-secure-score-devices.md) O objetivo é **reduzir** a exposição da sua  organização contra vulnerabilidades e aumentar a segurança do dispositivo da sua organização para ser mais resiliente contra ataques de ameaças de segurança cibernética. A lista de recomendações de segurança principais pode ajudá-lo a atingir essa meta.
+Em um determinado dia como Administrador de Segurança, [](tvm-dashboard-insights.md) você pode dar uma [](tvm-exposure-score.md) olhada no painel Gerenciamento de Ameaças e Vulnerabilidades para ver sua pontuação de exposição lado a lado com sua Pontuação Segura da [Microsoft para Dispositivos.](tvm-microsoft-secure-score-devices.md) O objetivo é **reduzir** a exposição da sua  organização contra vulnerabilidades e aumentar a segurança do dispositivo da sua organização para ser mais resiliente contra ataques de ameaças de segurança cibernética. A lista de recomendações de segurança principais pode ajudá-lo a atingir essa meta.
 
 ![Exemplo de cartão de principais recomendações de segurança, com quatro recomendações de segurança.](images/top-security-recommendations350.png)
 
@@ -85,7 +85,7 @@ Recomendações de exibição, o número de pontos fracos encontrados, component
 A cor do gráfico **de dispositivos expostos** muda conforme a tendência muda. Se o número de dispositivos expostos estiver em alta, a cor será muda para vermelho. Se houver uma diminuição no número de dispositivos expostos, a cor do gráfico mudará para verde.
 
 >[!NOTE]
->O gerenciamento de ameaças e vulnerabilidades mostra dispositivos que estavam em uso até **30 dias** atrás. Isso é diferente do restante do Microsoft Defender para Ponto de Extremidade, onde se um dispositivo não estiver em uso há mais de 7 dias, ele terá um status 'Inativo'.
+>A ameaça e Gerenciamento de Vulnerabilidades mostra dispositivos que estavam em uso até **30 dias** atrás. Isso é diferente do restante do Microsoft Defender para Ponto de Extremidade, onde se um dispositivo não estiver em uso há mais de 7 dias, ele terá um status 'Inativo'.
 
 ![Exemplo da página inicial para recomendações de segurança.](images/tvmsecrec-updated.png)
 
@@ -111,7 +111,7 @@ No sobrevoo, você pode escolher qualquer uma das seguintes opções:
 - [**Opções de**](tvm-exception.md) exceção - Envie uma exceção, forneça justificativa e desembaixe a duração da exceção se você ainda não puder remediar o problema.
 
 >[!NOTE]
->Quando uma alteração de software é feita em um dispositivo, normalmente leva 2 horas para que os dados sejam refletidos no portal de segurança. No entanto, às vezes, pode levar mais tempo. As alterações de configuração podem levar de 4 a 24 horas.
+>Quando uma alteração de software é feita em um dispositivo, normalmente leva 2 horas para que os dados sejam refletidos no portal de segurança. No entanto, às vezes isso pode levar mais tempo. As alterações de configuração podem levar de 4 a 24 horas.
 
 ### <a name="investigate-changes-in-device-exposure-or-impact"></a>Investigar alterações na exposição ou impacto do dispositivo
 
@@ -123,7 +123,7 @@ Se houver um grande salto no número de dispositivos expostos ou um aumento acen
 
 ## <a name="request-remediation"></a>Solicitar correção
 
-O recurso de correção de ameaças e vulnerabilidades faz a ponte entre os administradores de Segurança e DES por meio do fluxo de trabalho de solicitação de correção. Os administradores de segurança como você podem solicitar que o Administrador de TI correção de uma vulnerabilidade da página de recomendação **de** segurança para o Intune. [Saiba mais sobre opções de correção](tvm-remediation.md)
+O Gerenciamento de Ameaças e Vulnerabilidades de correção faz a ponte entre os administradores de Segurança e DES por meio do fluxo de trabalho de solicitação de correção. Os administradores de segurança como você podem solicitar que o Administrador de TI correção de uma vulnerabilidade da página de recomendação **de** segurança para o Intune. [Saiba mais sobre opções de correção](tvm-remediation.md)
 
 ### <a name="how-to-request-remediation"></a>Como solicitar correção
 
@@ -157,11 +157,11 @@ Você pode relatar um falso positivo quando vir qualquer informação de recomen
 
 3. No painel submenu, selecione a categoria impreciso no menu suspenso, preencha seu endereço de email e detalhes sobre a imprecisão.
 
-4. Selecione **Enviar**. Seus comentários são enviados imediatamente para os especialistas em gerenciamento de ameaças e vulnerabilidades.
+4. Selecione **Enviar**. Seus comentários são enviados imediatamente aos especialistas Gerenciamento de Ameaças e Vulnerabilidades segurança.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Visão geral do gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Visão geral Gerenciamento de Vulnerabilidades ameaça](next-gen-threat-and-vuln-mgt.md)
 - [Painel](tvm-dashboard-insights.md)
 - [Pontuação de exposição](tvm-exposure-score.md)
 - [Microsoft Secure Score para dispositivos](tvm-microsoft-secure-score-devices.md)

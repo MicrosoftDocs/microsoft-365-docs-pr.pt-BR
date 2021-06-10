@@ -89,7 +89,7 @@ reportId | Cadeia de caracteres | O reportId do evento, conforme obtido da busca
 machineId | Cadeia de caracteres | ID do dispositivo no qual o evento foi identificado. **Obrigatório**.
 severity | Cadeia de caracteres | Gravidade do alerta. Os valores da propriedade são: 'Low', 'Medium' e 'High'. **Obrigatório**.
 title | Cadeia de caracteres | Título do alerta. **Obrigatório**.
-description | Cadeia de caracteres | Descrição do alerta. **Obrigatório**.
+descrição | Cadeia de caracteres | Descrição do alerta. **Obrigatório**.
 recommendedAction| Cadeia de caracteres | Ação recomendada pelo agente de segurança ao analisar o alerta. **Obrigatório**.
 category| Cadeia de caracteres | Categoria do alerta. Os valores da propriedade são: "Geral", "CommandAndControl", "Collection", "CredentialAccess", "DefenseEvasion", "Discovery", "Exfiltração", "Exploit", "Execution", "InitialAccess", "LateralMovement", "Malware", "Persistência", "PrivilegeEscalation", "Ransomware", "SuspiciousActivity" **Required**.
 

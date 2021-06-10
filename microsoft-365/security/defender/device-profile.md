@@ -1,7 +1,7 @@
 ---
-title: Perfil de dispositivo no portal de segurança do Microsoft 365
+title: Perfil de dispositivo no Microsoft 365 portal de segurança
 description: Exibir níveis de risco e exposição para um dispositivo em sua organização. Analise as ameaças passadas e presentes e proteja o dispositivo com as atualizações mais recentes.
-keywords: segurança, malware, Microsoft 365, M365, Microsoft 365 Defender, central de segurança, Microsoft Defender para Ponto de Extremidade, Microsoft Defender para Office 365, Microsoft Defender para Identidade, página de dispositivo, perfil de dispositivo, página de máquina, perfil de máquina
+keywords: segurança, malware, Microsoft 365, M365, Microsoft 365 Defender, central de segurança, Microsoft Defender para Ponto de Extremidade, Microsoft Defender para Office 365, Microsoft Defender para Identidade, página de dispositivo, perfil de dispositivo, página de máquina, perfil de máquina, perfil de máquina
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -25,7 +25,7 @@ ms.locfileid: "51935660"
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-O portal de segurança do Microsoft 365 fornece páginas de perfil de dispositivo, para que você possa avaliar rapidamente a saúde e o status dos dispositivos em sua rede.
+O Microsoft 365 de segurança fornece páginas de perfil de dispositivo, para que você possa avaliar rapidamente a saúde e o status dos dispositivos em sua rede.
 
 > [!IMPORTANT]
 > A página de perfil de dispositivo pode parecer um pouco diferente, dependendo se o dispositivo está inscrito no Microsoft Defender para Ponto de Extremidade, No Microsoft Defender para Identidade ou ambos.
@@ -75,10 +75,10 @@ As ações de resposta oferecem uma maneira rápida de se defender e analisar am
 As ações disponíveis na página de perfil do dispositivo incluem:
 
 * **Gerenciar marcas** - Atualiza marcas personalizadas que você aplicou a este dispositivo.
-* **Isolar o** dispositivo - isola o dispositivo da rede da sua organização enquanto o mantém conectado ao Microsoft Defender para o Ponto de Extremidade. Você pode optar por permitir que o Outlook, o Teams e o Skype for Business executem enquanto o dispositivo está isolado, para fins de comunicação.
+* **Isolar o** dispositivo - isola o dispositivo da rede da sua organização enquanto o mantém conectado ao Microsoft Defender para o Ponto de Extremidade. Você pode optar por permitir que Outlook, Teams e Skype for Business seja executado enquanto o dispositivo está isolado, para fins de comunicação.
 * **Centro de ações** - Exibir o status das ações enviadas. Disponível somente se outra ação já tiver sido selecionada.
 * **Restringir a execução do** aplicativo - impede que aplicativos que não são assinados pela Microsoft sejam executados.
-* **Executar a verificação antivírus** - atualiza Windows Defender definições do Antivírus e executa imediatamente uma verificação antivírus. Escolha entre Verificação Rápida ou Verificação Completa.
+* **Executar a verificação antivírus** - atualiza Windows Defender Antivírus definições e executa imediatamente uma verificação antivírus. Escolha entre Verificação Rápida ou Verificação Completa.
 * **Coletar pacote de investigação** - Coleta informações sobre o dispositivo. Quando a investigação for concluída, você poderá baixá-la.
 * **Iniciar Sessão de Resposta Ao Vivo** - Carrega um shell remoto no dispositivo para [investigações detalhadas de segurança.](/microsoft-365/security/defender-endpoint/live-response)
 * **Iniciar investigação automatizada** - Investiga e corrigi automaticamente [ameaças.](../office-365-security/office-365-air.md) Embora você possa disparar manualmente investigações automatizadas para executar a partir desta [página,](../../compliance/alert-policies.md?view=o365-worldwide#default-alert-policies) determinadas políticas de alerta disparam investigações automáticas por conta própria.
@@ -180,7 +180,7 @@ Selecionar um item abrirá um flyout que se vincula à atualização.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-* [Visão geral do Microsoft 365 Defender](microsoft-365-defender.md)
+* [Microsoft 365 Visão geral do Defender](microsoft-365-defender.md)
 * [Ativar o Microsoft 365 Defender](m365d-enable.md)
 * [Investigar entidades em dispositivos usando a resposta ao vivo](../defender-endpoint/live-response.md)
-* [Investigação e resposta automatizadas (AIR) no Office 365](../office-365-security/office-365-air.md)
+* [Investigação e resposta automatizadas (AIR) em Office 365](../office-365-security/office-365-air.md)

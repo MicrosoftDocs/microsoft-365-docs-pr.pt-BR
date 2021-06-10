@@ -45,7 +45,7 @@ Um dispositivo inativo não é necessariamente sinalizado devido a um problema. 
 Se o dispositivo não estiver em uso por mais de sete dias por qualquer motivo, ele permanecerá em um status 'Inativo' no portal.
 
 ### <a name="device-was-reinstalled-or-renamed"></a>O dispositivo foi reinstalado ou renomeado
-Um dispositivo reinstalado ou renomeado gerará uma nova entidade de dispositivo no Centro de Segurança do Microsoft Defender. A entidade de dispositivo anterior permanecerá com um status 'Inativo' no portal. Se você reinstalou um dispositivo e implantou o pacote do Defender for Endpoint, procure o novo nome do dispositivo para verificar se o dispositivo está relatando normalmente.
+Um dispositivo reinstalado ou renomeado gerará uma nova entidade de dispositivo no Central de Segurança do Microsoft Defender. A entidade de dispositivo anterior permanecerá com um status 'Inativo' no portal. Se você reinstalou um dispositivo e implantou o pacote do Defender for Endpoint, procure o novo nome do dispositivo para verificar se o dispositivo está relatando normalmente.
 
 ### <a name="device-was-offboarded"></a>O dispositivo foi desligado
 Se o dispositivo foi desligado, ele ainda aparecerá na lista de dispositivos. Após sete dias, o estado de saúde do dispositivo deve mudar para inativo.
@@ -86,8 +86,8 @@ Siga estas ações para corrigir problemas conhecidos relacionados a um disposit
 - [Verifique se o serviço de dados de diagnóstico está habilitado](troubleshoot-onboarding.md#ensure-the-diagnostics-service-is-enabled)</br>
 Se os dispositivos não estão relatando corretamente, talvez seja necessário verificar se o serviço de dados de diagnóstico do Windows 10 está definido para iniciar automaticamente e está sendo executado no ponto de extremidade.
 
-- [Verifique se o Microsoft Defender Antivírus não está desabilitado por política](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)</br>
-Se seus dispositivos estão executando um cliente antimalware de terceiros, o agente defender para ponto de extremidade precisa do driver antimalware de início antecipado do Microsoft Defender Antivírus (ELAM) para ser habilitado.
+- [Verifique se o Microsoft Defender Antivírus não está desabilitado pela política](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)</br>
+Se seus dispositivos estão executando um cliente antimalware de terceiros, o agente defender Microsoft Defender Antivírus para ponto de extremidade precisa do driver de antimalware de início antecipado (ELAM) para ser habilitado.
 
 Se você tiver ações corretivas e o status do dispositivo ainda estiver configurado incorretamente, [abra um tíquete de suporte](https://go.microsoft.com/fwlink/?LinkID=761093&clcid=0x409).
 

@@ -25,10 +25,10 @@ ms.locfileid: "51164936"
 ---
 # <a name="work-with-a-partner-to-archive-third-party-data"></a>Trabalhar com um parceiro para arquivar dados de terceiros
 
-Você pode trabalhar com um Microsoft Partner para importar e arquivar dados de uma fonte de dados de terceiros para o Microsoft 365. Um parceiro pode fornecer um conector personalizado configurado para extrair itens da fonte de dados de terceiros (regularmente) e importar esses itens. O conector de parceiro converte o conteúdo de um item da fonte de dados para um formato de mensagem de email e armazena os itens em caixas de correio. Depois que os dados de terceiros são importados, você pode aplicar recursos de conformidade do Microsoft 365, como Retenção de Litígio, Descoberta e Descoberta In-Place arquivamento, auditoria e políticas de retenção do Microsoft 365 a esses dados.
+Você pode trabalhar com um Microsoft Partner para importar e arquivar dados de uma fonte de dados de terceiros para Microsoft 365. Um parceiro pode fornecer um conector personalizado configurado para extrair itens da fonte de dados de terceiros (regularmente) e importar esses itens. O conector de parceiro converte o conteúdo de um item da fonte de dados para um formato de mensagem de email e armazena os itens em caixas de correio. Depois que os dados de terceiros são importados, você pode aplicar Microsoft 365 recursos de conformidade, como Retenção de Litígio, Descoberta In-Place, Arquivamento de In-Place, Auditoria e políticas de retenção Microsoft 365 a esses dados.
 
 >[!IMPORTANT]
->A [solução de conformidade](communication-compliance.md) de comunicação no Microsoft 365 não pode ser aplicada aos dados de terceiros importados por conectores de parceiros mencionados neste artigo. 
+>A [solução de conformidade](communication-compliance.md) de comunicação Microsoft 365 não pode ser aplicada aos dados de terceiros importados por conectores de parceiros mencionados neste artigo. 
 
 Aqui está uma visão geral do processo e as etapas necessárias para trabalhar com um Microsoft Partner para importar dados de terceiros.
 
@@ -48,11 +48,11 @@ A ilustração e a descrição a seguir explicam como o processo de importação
   
 ![Como funciona o processo de importação de dados de terceiros](../media/5d4cf8e9-b4cc-4547-90c8-d12d04a9f0e7.png)
   
-1. O cliente trabalha com seu parceiro de escolha para configurar um conector que extrairá itens da fonte de dados de terceiros e importará esses itens para o Microsoft 365.
+1. O cliente trabalha com seu parceiro de preferência para configurar um conector que extrairá itens da fonte de dados de terceiros e importará esses itens para Microsoft 365.
     
 2. O conector do parceiro se conecta a fontes de dados de terceiros por meio de uma API de terceiros (em uma base agendada ou configurada) e extrai itens da fonte de dados. O conector do parceiro converte o conteúdo de um item em um formato de mensagem de email. Consulte a [seção Mais informações](#more-information) para obter uma descrição do esquema de formato de mensagem. 
     
-3. O conector de parceiro se conecta ao serviço do Azure no Microsoft 365 usando o Exchange Web Service (EWS) por meio de um ponto de extremidade conhecido.
+3. O conector de parceiro se conecta ao serviço do Azure no Microsoft 365 Exchange usando o serviço Web (EWS) por meio de um ponto de extremidade conhecido.
     
 4. Os itens são importados para a caixa de correio de um usuário específico ou para uma caixa de correio de dados de terceiros "pega-tudo". Os critérios a seguir definem se um item será importado para a caixa de correio de um usuário específico ou para a caixa de correio de dados de terceiros:
     
@@ -62,9 +62,9 @@ A ilustração e a descrição a seguir explicam como o processo de importação
  
 ## <a name="step-1-find-a-third-party-data-partner"></a>Etapa 1: encontrar um parceiro de dados de terceiros
 
-Um componente importante para o arquivamento de dados de terceiros no Microsoft 365 é localizar e trabalhar com um parceiro da Microsoft especializado em capturar dados de uma fonte de dados de terceiros e importá-los para o Microsoft 365. Depois que os dados são importados, eles podem ser arquivados e preservados juntamente com outros dados da Microsoft da sua organização, como emails do Exchange e documentos do SharePoint e do OneDrive for Business. Um parceiro cria um conector que extrai dados de fontes de dados de terceiros da sua organização (como BlackBerry, Facebook, Google+, Thomson Reuters, Twitter e YouTube) e passa esses dados para uma API do Microsoft 365 que importa itens para caixas de correio do Exchange como mensagens de email.
+Um componente importante para o arquivamento de dados de terceiros no Microsoft 365 é localizar e trabalhar com um parceiro da Microsoft especializado em capturar dados de uma fonte de dados de terceiros e importá-los para Microsoft 365. Depois que os dados são importados, eles podem ser arquivados e preservados juntamente com outros dados da Microsoft da sua organização, como emails do Exchange e documentos do SharePoint e OneDrive for Business. Um parceiro cria um conector que extrai dados de fontes de dados de terceiros da sua organização (como BlackBerry, Facebook, Google+, Thomson Reuters, Twitter e YouTube) e passa esses dados para uma API de Microsoft 365 que importa itens para Exchange caixas de correio como mensagens de email.
   
-As seções a seguir listam os parceiros da Microsoft (e as fontes de dados de terceiros que eles suportam) que estão participando do programa de arquivamento de dados de terceiros no Microsoft 365.
+As seções a seguir listam os parceiros da Microsoft (e as fontes de dados de terceiros que eles suportam) que estão participando do programa para arquivamento de dados de terceiros no Microsoft 365.
 
 [17a-4 LLC](#17a-4-llc)
   
@@ -160,7 +160,7 @@ As seções a seguir listam os parceiros da Microsoft (e as fontes de dados de t
     
 - Bloomberg Mail
     
-- Caixa
+- Box
     
 - CipherCloud for Salesforce Chatter
     
@@ -198,7 +198,7 @@ As seções a seguir listam os parceiros da Microsoft (e as fontes de dados de t
     
 - Mobile Guard
     
-- Dinamizar
+- Pivot
     
 - Salesforce Chatter
 
@@ -368,11 +368,11 @@ As seções a seguir listam os parceiros da Microsoft (e as fontes de dados de t
     
 - Microsoft 365 Lync Dedicado
     
-- IM compartilhada do Microsoft 365
+- Microsoft 365 IM compartilhada
     
 - Pinterest
     
-- Dinamizar
+- Pivot
     
 - QQ
     
@@ -471,20 +471,20 @@ As seções a seguir listam os parceiros da Microsoft (e as fontes de dados de t
     
 - Windows Desktop Computer Screen
   
-## <a name="step-2-create-and-configure-a-third-party-data-mailbox-in-microsoft-365"></a>Etapa 2: criar e configurar uma caixa de correio de dados de terceiros no Microsoft 365
+## <a name="step-2-create-and-configure-a-third-party-data-mailbox-in-microsoft-365"></a>Etapa 2: Criar e configurar uma caixa de correio de dados de terceiros no Microsoft 365
 
-Aqui estão as etapas para criar e configurar uma caixa de correio de dados de terceiros para importar dados para o Microsoft 365. Como explicado anteriormente, os itens serão importados para essa caixa de correio se o conector do parceiro não puder mapear a ID do usuário do item para uma conta de usuário.
+Aqui estão as etapas para criar e configurar uma caixa de correio de dados de terceiros para importar dados para Microsoft 365. Como explicado anteriormente, os itens serão importados para essa caixa de correio se o conector do parceiro não puder mapear a ID do usuário do item para uma conta de usuário.
   
- **Conclua essas tarefas no centro de administração do Microsoft 365**
+ **Conclua essas tarefas no Microsoft 365 de administração**
   
-1. Criar uma conta de usuário e atribuí-la uma licença do Plano 2 do Exchange Online; consulte [Adicionar usuários ao Microsoft 365](../admin/add-users/add-users.md). Uma licença do Plano 2 é necessária para colocar a caixa de correio em Contencioso ou habilitar uma caixa de correio de arquivo morto com uma cota de armazenamento ilimitada.
+1. Crie uma conta de usuário e atribua uma licença Exchange Online Plano 2; consulte [Adicionar usuários a Microsoft 365](../admin/add-users/add-users.md). Uma licença do Plano 2 é necessária para colocar a caixa de correio em Contencioso ou habilitar uma caixa de correio de arquivo morto com uma cota de armazenamento ilimitada.
     
-2. Adicione a conta de usuário da caixa de correio de dados de terceiros à função de administrador do **Exchange** no Microsoft 365; consulte [Atribuir funções de administrador no Microsoft 365](../admin/add-users/assign-admin-roles.md).
+2. Adicione a conta de usuário da caixa de correio de dados de terceiros à função **de administrador Exchange administrador** em Microsoft 365; consulte [Atribuir funções de administrador Microsoft 365](../admin/add-users/assign-admin-roles.md).
     
     > [!TIP]
     > Anote as credenciais da conta do usuário. Você precisa enviá-las para o seu parceiro, conforme descrito na Etapa 4. 
   
- **Conclua essas tarefas no centro de administração do Exchange**
+ **Conclua essas tarefas no Exchange de administração**
   
 1. Ocultar a caixa de correio de dados de terceiros do livro de endereços e outras listas de endereços em sua organização; consulte [Gerenciar caixas de correio de usuário](/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes). Como alternativa, você pode executar o seguinte comando do PowerShell:
     
@@ -492,13 +492,13 @@ Aqui estão as etapas para criar e configurar uma caixa de correio de dados de t
     Set-Mailbox -Identity <identity of third-party data mailbox> -HiddenFromAddressListsEnabled $true
     ```
 
-2. Atribua a **permissão FullAccess** à caixa de correio de dados de terceiros para que administradores ou responsáveis pela conformidade possam abrir a caixa de correio de dados de terceiros no cliente da área de trabalho do Outlook; consulte [Gerenciar permissões para destinatários](https://go.microsoft.com/fwlink/p/?LinkId=692104).
+2. Atribua a **permissão FullAccess** à caixa de correio de dados de terceiros para que administradores ou responsáveis pela conformidade possam abrir a caixa de correio de dados de terceiros no cliente de área de trabalho Outlook de terceiros; consulte [Gerenciar permissões para destinatários](https://go.microsoft.com/fwlink/p/?LinkId=692104).
     
 3. Habilita os seguintes recursos relacionados à conformidade para a caixa de correio de dados de terceiros:
     
     - Habilitar a caixa de correio de arquivo morto; consulte [Habilitar caixas de correio de arquivo](enable-archive-mailboxes.md) morto e [Habilitar arquivamento ilimitado.](enable-unlimited-archiving.md) Isso permite liberar espaço de armazenamento na caixa de correio principal configurando uma política de arquivo morto que move itens de dados de terceiros para a caixa de correio de arquivo morto. Isso fornece armazenamento ilimitado para dados de terceiros.
     
-    - Colocar a caixa de correio de dados de terceiros em Retenção de Litígio. Você também pode aplicar uma política de retenção do Microsoft 365 no centro de segurança e conformidade. Colocar essa caixa de correio em espera retém itens de dados de terceiros (indefinidamente ou por uma duração especificada) e impede que eles sejam limpos da caixa de correio. Consulte um dos seguintes tópicos:
+    - Colocar a caixa de correio de dados de terceiros em Retenção de Litígio. Você também pode aplicar uma Microsoft 365 de retenção no centro de segurança e conformidade. Colocar essa caixa de correio em espera retém itens de dados de terceiros (indefinidamente ou por uma duração especificada) e impede que eles sejam limpos da caixa de correio. Consulte um dos seguintes tópicos:
     
       - [Colocar uma caixa de correio em Retenção de Litígio](./create-a-litigation-hold.md)
     
@@ -508,11 +508,11 @@ Aqui estão as etapas para criar e configurar uma caixa de correio de dados de t
 
 ## <a name="step-3-configure-user-mailboxes-for-third-party-data"></a>Etapa 3: configurar caixas de correio de usuário para dados de terceiros
 
-A próxima etapa é configurar as caixas de correio do usuário para oferecer suporte a dados de terceiros. Conclua essas tarefas usando o centro de administração do Exchange ou usando os cmdlets Windows PowerShell correspondentes.
+A próxima etapa é configurar as caixas de correio do usuário para oferecer suporte a dados de terceiros. Conclua essas tarefas usando o Exchange de administração ou usando os cmdlets Windows PowerShell correspondentes.
   
 1. Habilitar a caixa de correio de arquivo morto para cada usuário; consulte [Habilitar caixas de correio de arquivo](enable-archive-mailboxes.md) morto e [Habilitar arquivamento ilimitado.](enable-unlimited-archiving.md)
     
-2. Colocar caixas de correio de usuário em Retenção de Litígio ou aplicar uma política de retenção do Microsoft 365; consulte um dos seguintes tópicos: 
+2. Colocar caixas de correio de usuário em Retenção de Litígio ou aplicar uma Microsoft 365 de retenção; consulte um dos seguintes tópicos: 
     
     - [Colocar uma caixa de correio em Retenção de Litígio](./create-a-litigation-hold.md)
     
@@ -524,19 +524,19 @@ A próxima etapa é configurar as caixas de correio do usuário para oferecer su
 
 A etapa final é fornecer ao seu parceiro as seguintes informações para que eles possam configurar o conector para se conectar à sua organização para importar dados para caixas de correio de usuário e para a caixa de correio de dados de terceiros. 
   
-- O ponto de extremidade usado para se conectar ao serviço do Azure no Microsoft 365:
+- O ponto de extremidade usado para se conectar ao serviço do Azure Microsoft 365:
 
     ```http
     https://office365ingestionsvc.gble1.protection.outlook.com/service/ThirdPartyIngestionService.svc
     ```
 
-- As credenciais de entrada (ID de usuário e senha do Microsoft 365) da caixa de correio de dados de terceiros que você criou na Etapa 2. Essas credenciais são necessárias para que o conector do parceiro possa acessar e importar itens para a caixa de correio do usuário e a caixa de correio de dados de terceiros.
+- As credenciais de entrada (Microsoft 365 ID de usuário e senha) da caixa de correio de dados de terceiros que você criou na Etapa 2. Essas credenciais são necessárias para que o conector do parceiro possa acessar e importar itens para a caixa de correio do usuário e a caixa de correio de dados de terceiros.
  
 ## <a name="step-5-register-the-third-party-data-connector-in-azure-active-directory"></a>Etapa 5: Registrar o conector de dados de terceiros no Azure Active Directory
 
 A partir de 30 de setembro de 2018, o serviço do Azure no Microsoft 365 começará a usar a autenticação moderna no Exchange Online para autenticar conectores de dados de terceiros que tentam se conectar à sua organização para importar dados. O motivo dessa alteração é que a autenticação moderna fornece mais segurança do que o método atual, que se baseou em uma lista de autorizações para conectores de terceiros que usam o ponto de extremidade descrito anteriormente para se conectar ao serviço do Azure.
 
-Para permitir que um conector de dados de terceiros se conecte ao Microsoft 365 usando o novo método de autenticação moderno, um administrador em sua organização deve consentir em registrar o conector como um aplicativo de serviço confiável no Azure Active Directory. Isso é feito aceitando uma solicitação de permissão para permitir que o conector acesse os dados da sua organização no Azure Active Directory. Depois de aceitar essa solicitação, o conector de dados de terceiros é adicionado como um aplicativo empresarial ao Azure Active Directory e representado como uma entidade de serviço. Para obter mais informações sobre o processo de consentimento, consulte  [Tenant Admin Consent](/skype-sdk/trusted-application-api/docs/tenantadminconsent).
+Para permitir que um conector de dados de terceiros se conecte ao Microsoft 365 usando o novo método de autenticação moderno, um administrador em sua organização deve consentir em registrar o conector como um aplicativo de serviço confiável no Azure Active Directory. Isso é feito aceitando uma solicitação de permissão para permitir que o conector acesse os dados da sua organização em Azure Active Directory. Depois de aceitar essa solicitação, o conector de dados de terceiros é adicionado como um aplicativo empresarial para Azure Active Directory e representado como uma entidade de serviço. Para obter mais informações sobre o processo de consentimento, consulte  [Tenant Admin Consent](/skype-sdk/trusted-application-api/docs/tenantadminconsent).
 
 Aqui estão as etapas para acessar e aceitar a solicitação para registrar o conector:
 
@@ -548,20 +548,20 @@ Aqui estão as etapas para acessar e aceitar a solicitação para registrar o co
 
 2. Clique em **Aceitar**.
 
-Depois de aceitar a solicitação, o [portal do Azure](https://portal.azure.com) será exibido. Para exibir a lista de aplicativos para sua organização, clique em **Aplicativos do Azure Active Directory**  >  **Enterprise**. O conector de dados de terceiros do Microsoft 365 está listado na folha **aplicativos Enterprise.**
+Depois de aceitar a solicitação, o [portal do Azure](https://portal.azure.com) será exibido. Para exibir a lista de aplicativos para sua organização, clique **em Azure Active Directory**  >  **Enterprise aplicativos**. O Microsoft 365 de dados de terceiros está listado na folha Enterprise **aplicativos.**
 
 > [!IMPORTANT]
 > Após 30 de setembro de 2018, os dados de terceiros não serão mais importados para caixas de correio em sua organização se você não registrar um conector de dados de terceiros no Azure Active Directory. Observe que os conectores de dados de terceiros existentes (aqueles criados antes de 30 de setembro de 2018) também devem ser registrados no Azure Active Directory seguindo o procedimento na Etapa 5.
 
 ### <a name="revoking-consent-for-a-third-party-data-connector"></a>Revogar consentimento para um conector de dados de terceiros
 
-Depois que sua organização consentir com a solicitação de permissões para registrar um conector de dados de terceiros no Azure Active Directory, sua organização poderá revogar esse consentimento a qualquer momento. No entanto, revogar o consentimento de um conector significa que os dados da fonte de dados de terceiros não serão mais importados para o Microsoft 365.
+Depois que sua organização consentir com a solicitação de permissões para registrar um conector de dados de terceiros no Azure Active Directory, sua organização poderá revogar esse consentimento a qualquer momento. No entanto, revogar o consentimento de um conector significa que os dados da fonte de dados de terceiros não serão mais importados para Microsoft 365.
 
 Para revogar o consentimento para um conector de dados de terceiros, você pode excluir o aplicativo (excluindo a entidade de serviço correspondente) do Azure Active Directory usando a folha aplicativos **Enterprise** no portal do Azure ou usando o [Remove-MsolServicePrincipal](/powershell/module/msonline/remove-msolserviceprincipal) no Microsoft 365 PowerShell. Você também pode usar o cmdlet [Remove-AzureADServicePrincipal](/powershell/module/azuread/remove-azureadserviceprincipal) no Azure Active Directory PowerShell.
   
 ## <a name="more-information"></a>Mais informações
 
-- Conforme explicado anteriormente, os itens de fontes de dados de terceiros são importados para caixas de correio do Exchange como mensagens de email. O conector do parceiro importa o item usando um esquema exigido pela API do Microsoft 365. A tabela a seguir descreve as propriedades de mensagem de um item de uma fonte de dados de terceiros após importá-lo para uma caixa de correio do Exchange como uma mensagem de email. A tabela também indica se a propriedade da mensagem é obrigatória. As propriedades obrigatórias devem ser preenchidas. Se um item estiver faltando uma propriedade obrigatória, ele não será importado para o Microsoft 365. O processo de importação retorna uma mensagem de erro explicando por que um item não foi importado e qual propriedade está ausente.<br/><br/>
+- Conforme explicado anteriormente, os itens de fontes de dados de terceiros são importados para caixas de correio do Exchange como mensagens de email. O conector do parceiro importa o item usando um esquema exigido pela API Microsoft 365. A tabela a seguir descreve as propriedades de mensagem de um item de uma fonte de dados de terceiros após importá-lo para uma caixa de correio do Exchange como uma mensagem de email. A tabela também indica se a propriedade da mensagem é obrigatória. As propriedades obrigatórias devem ser preenchidas. Se um item estiver faltando uma propriedade obrigatória, ele não será importado para Microsoft 365. O processo de importação retorna uma mensagem de erro explicando por que um item não foi importado e qual propriedade está ausente.<br/><br/>
     
     |**Propriedade da mensagem**|**Obrigatório?**|**Descrição**|**Valor de Exemplo**|
     |:-----|:-----|:-----|:-----|
@@ -573,7 +573,7 @@ Para revogar o consentimento para um conector de dados de terceiros, você pode 
     |**ATTACHMENT** <br/> |Não  <br/> |Se um item na fonte de dados (como um tweet no Twitter ou uma conversa de mensagens instantâneas) tiver um arquivo anexado ou incluir imagens, a conexão do parceiro tentará primeiro incluir anexos na propriedade **BODY.** Se isso não for possível, ele será adicionado à propriedade ** ATTACHMENT **. Outros exemplos de anexos incluem Curtidas no Facebook, metadados da fonte de conteúdo e respostas a uma mensagem ou publicação.  <br/> | `image.gif` <br/> |
     |**MESSAGECLASS** <br/> |Sim  <br/> | Esta é uma propriedade com múltiplos valores, que é criada e preenchida pelo conector parceiro. O formato dessa propriedade é  `IPM.NOTE.Source.Event` . (Essa propriedade deve começar com  `IPM.NOTE` . Esse formato é semelhante ao da classe  `IPM.NOTE.X` message.) Esta propriedade inclui as seguintes informações:  <br/><br/>`Source`: Indica a fonte de dados de terceiros; por exemplo, Twitter, Facebook ou BlackBerry.  <br/> <br/>  `Event`: Indica o tipo de atividade que foi realizada na fonte de dados de terceiros que produziu os itens; por exemplo, um tweet no Twitter ou uma postagem no Facebook. Eventos são específicos à fonte de dados.  <br/> <br/>  Uma finalidade dessa propriedade é filtrar itens específicos com base na fonte de dados na qual um item teve origem ou com base no tipo de evento. Por exemplo, em uma pesquisa de Descoberta Eletrônica você poderia criar uma consulta de pesquisa para encontrar todos os tweets publicados por um usuário específico.  <br/> | `IPM.NOTE.Twitter.Tweet` <br/> |
    
-- Quando os itens são importados com êxito para caixas de correio no Microsoft 365, um identificador exclusivo é retornado ao chamador como parte da resposta HTTP. Esse identificador, chamado , pode ser usado para fins de solução de problemas subsequentes pelos parceiros para acompanhamento de itens de ponta a  `x-IngestionCorrelationID` ponta. É recomendável que os parceiros capturem essas informações e as registrem de acordo no lado deles. Veja aqui um exemplo de uma resposta HTTP que mostra esse identificador:
+- Quando itens são importados com êxito para caixas de correio em Microsoft 365, um identificador exclusivo é retornado ao chamador como parte da resposta HTTP. Esse identificador, chamado , pode ser usado para fins de solução de problemas subsequentes pelos parceiros para acompanhamento de itens de ponta a  `x-IngestionCorrelationID` ponta. É recomendável que os parceiros capturem essas informações e as registrem de acordo no lado deles. Veja aqui um exemplo de uma resposta HTTP que mostra esse identificador:
 
     ```http
     HTTP/1.1 200 OK
@@ -591,7 +591,7 @@ Para revogar o consentimento para um conector de dados de terceiros, você pode 
     
   - **`itemclass:ipm.externaldata.<third-party data type>`**: Use esse par de valores de propriedade para pesquisar apenas um tipo de especificação de dados de terceiros. Por exemplo, para pesquisar apenas dados do Facebook que contenham a palavra "contoso" na propriedade Subject, você usaria a consulta de palavra-chave  `itemclass:ipm.externaldata.Facebook* AND subject:contoso` . 
 
-  Para uma lista completa de valores a ser usado para tipos de dados de terceiros para a propriedade, consulte Use Content Search to search third-party data that was imported  `itemclass` [to Microsoft 365](use-content-search-to-search-third-party-data-that-was-imported.md).
+  Para uma lista completa de valores a ser usado para tipos de dados de terceiros para a propriedade, consulte Use Content Search to search `itemclass` [third-party data](use-content-search-to-search-third-party-data-that-was-imported.md)that was imported to Microsoft 365 .
     
    Veja mais informações sobre como usar a Pesquisa de Conteúdo e criar consultas de pesquisa de palavra-chave em:
     

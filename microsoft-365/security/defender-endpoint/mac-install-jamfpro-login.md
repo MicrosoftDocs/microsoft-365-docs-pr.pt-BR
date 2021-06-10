@@ -37,15 +37,15 @@ ms.locfileid: "51935576"
 
 1. Insira suas credenciais.
 
-    ![Imagem do painel do Jamf Pro1](images/jamf-pro-portal1.png)
+    ![Imagem de Jamf Pro painel1](images/jamf-pro-portal1.png)
 
 2. Selecione **Computadores**.
 
-    ![Imagem do painel do Jamf Pro2](images/jamf-pro-dashboard.png)
+    ![Imagem de Jamf Pro painel2](images/jamf-pro-dashboard.png)
 
 3. Você verá as configurações disponíveis.
 
-     ![Imagem do painel do Jamf Pro3](images/jamfpro-settings.png)
+     ![Imagem do painel de Pro Jamf3](images/jamfpro-settings.png)
 
 
 ## <a name="next-step"></a>Próxima etapa

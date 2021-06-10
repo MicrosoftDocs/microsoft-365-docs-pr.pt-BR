@@ -1,7 +1,7 @@
 ---
 title: Fornecer acesso ao MSSP (provedor de serviços de segurança gerenciado)
-description: Saiba mais sobre as alterações do Centro de Segurança do Microsoft Defender para o centro de segurança do Microsoft 365
-keywords: Iniciando com o Centro de Segurança do Microsoft 365, Microsoft Defender para Office 365, Microsoft Defender para Ponto de Extremidade, MDO, MDE, painel único de vidro, portal convergido, portal de segurança, portal de segurança do defender
+description: Saiba mais sobre as alterações do Central de Segurança do Microsoft Defender para o Microsoft 365 de segurança
+keywords: Iniciando com o centro de segurança do Microsoft 365, Microsoft Defender para Office 365, Microsoft Defender para Ponto de Extremidade, MDO, MDE, painel único de vidro, portal convergido, portal de segurança, portal de segurança do defender
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -38,26 +38,26 @@ ms.locfileid: "51935348"
 
 Para implementar uma solução de acesso delegado de vários locatários, tome as seguintes etapas:
 
-1. Habilita o controle de acesso baseado em função no Defender for Endpoint no Centro de segurança do Microsoft 365 e [conecte-se](/windows/security/threat-protection/microsoft-defender-atp/rbac) aos grupos do Azure Active Directory (Azure AD).
+1. Habilita o controle de acesso baseado em função no Defender para Ponto de Extremidade no centro de segurança Microsoft 365 e [conecte-se](/windows/security/threat-protection/microsoft-defender-atp/rbac) com grupos Azure Active Directory (Azure AD).
 
 2. Configurar [Pacotes de Acesso à Governança](/azure/active-directory/governance/identity-governance-overview) para solicitação e provisionamento de acesso.
 
 3. Gerenciar solicitações e auditorias de acesso no [Microsoft Myaccess](/azure/active-directory/governance/entitlement-management-request-approve).
 
-## <a name="enable-role-based-access-controls-in-microsoft-defender-for-endpoint-in-microsoft-365-security-center"></a>Habilitar controles de acesso baseados em função no Microsoft Defender para Ponto de Extremidade no Centro de segurança do Microsoft 365
+## <a name="enable-role-based-access-controls-in-microsoft-defender-for-endpoint-in-microsoft-365-security-center"></a>Habilitar controles de acesso baseados em função no Microsoft Defender para Ponto de Extremidade no Microsoft 365 central de segurança
 
 1. **Criar grupos de acesso para recursos MSSP no AAD do Cliente: Grupos**
 
-    Esses grupos serão vinculados às funções que você criar no Defender for Endpoint no Centro de segurança do Microsoft 365. Para fazer isso, no locatário do AD do cliente, crie três grupos. Em nossa abordagem de exemplo, criamos os seguintes grupos:
+    Esses grupos serão vinculados às Funções que você criar no Defender para Ponto de Extremidade no Microsoft 365 de segurança. Para fazer isso, no locatário do AD do cliente, crie três grupos. Em nossa abordagem de exemplo, criamos os seguintes grupos:
 
     - Analista de Camada 1 
     - Analista de Camada 2 
     - Aprovadores do analista MSSP  
 
 
-2. Crie funções do Defender para Ponto de Extremidade para níveis de acesso apropriados no Customer Defender for Endpoint em funções e grupos do Centro de Segurança do Microsoft 365.
+2. Crie funções do Defender para Ponto de Extremidade para níveis de acesso apropriados no Customer Defender for Endpoint em Microsoft 365 de centro de segurança e grupos.
 
-    Para habilitar o RBAC no centro de segurança do Microsoft 365 do cliente, acesse Permissões > Funções de Pontos de Extremidade & **grupos > Funções** com uma conta de usuário com direitos de Administrador Global ou Administrador de Segurança.
+    Para habilitar o RBAC no centro de segurança Microsoft 365 cliente, acesse Permissões > Funções de Pontos de Extremidade & grupos **> Funções** com uma conta de usuário com direitos de Administrador Global ou Administrador de Segurança.
 
     ![Imagem do acesso ao MSSP](../../media/mssp-access.png)
 
@@ -130,9 +130,9 @@ Para implementar uma solução de acesso delegado de vários locatários, tome a
     Exemplo:  `https://myaccess.microsoft.com/@M365x440XXX.onmicrosoft.com#/`   
 2. Aprovar ou negar solicitações na seção **Aprovações** da interface do usuário.
 
-     Neste ponto, o acesso de analistas foi provisionado e cada analista deve poder acessar o Centro de Segurança do Microsoft 365 do cliente: 
+     Neste ponto, o acesso de analistas foi provisionado e cada analista deve ser capaz de acessar o Centro de Segurança Microsoft 365 cliente: 
 
     `https://security.microsoft.com/?tid=<CustomerTenantId>` com as permissões e funções que foram atribuídas.
 
 > [!IMPORTANT]
-> O acesso delegado ao Microsoft Defender para Ponto de Extremidade no centro de segurança do Microsoft 365 atualmente permite o acesso a um único locatário por janela do navegador.
+> O acesso delegado ao Microsoft Defender para Ponto de Extremidade no centro de segurança Microsoft 365 atualmente permite o acesso a um único locatário por janela do navegador.

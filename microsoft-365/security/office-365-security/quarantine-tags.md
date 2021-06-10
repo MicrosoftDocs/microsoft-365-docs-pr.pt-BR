@@ -29,7 +29,7 @@ ms.locfileid: "52274455"
 > [!NOTE]
 > Os recursos descritos neste artigo estão atualmente em Visualização, não estão disponíveis para todos e estão sujeitos a alterações.
 
-As marcas de quarentena no Exchange Online Protection (EOP) permitem que os administradores controlem o que os usuários são capazes de fazer com suas mensagens em quarentena com base em como a mensagem chegou em quarentena.
+As marcas de quarentena no Proteção do Exchange Online (EOP) permitem que os administradores controlem o que os usuários são capazes de fazer com suas mensagens em quarentena com base em como a mensagem chegou em quarentena.
 
 O EOP tradicionalmente permitiu ou impediu determinados [](find-and-release-quarantined-messages-as-a-user.md) níveis de interatividade para mensagens em quarentena e em notificações de [spam do usuário final.](use-spam-notifications-to-release-and-report-quarantined-messages.md) Por exemplo, os usuários finais podem exibir e liberar mensagens que foram colocadas em quarentena pela filtragem anti-spam como spam ou em massa, mas não podem exibir ou liberar mensagens que estavam em quarentena como phishing de alta confiança.
 
@@ -59,9 +59,9 @@ As permissões individuais disponíveis e o que está incluído ou não nos grup
 
 Se você não gostar das permissões padrão nos grupos de permissões predefinidos, poderá usar permissões personalizadas ao criar ou modificar marcas de quarentena personalizadas. Para obter mais informações sobre o que cada permissão faz, consulte a seção Detalhes da permissão [de marca](#quarantine-tag-permission-details) de quarentena posteriormente neste artigo.
 
-Você cria e atribui marcas de quarentena no Centro de Conformidade & Segurança ou no PowerShell (Exchange Online PowerShell para organizações do Microsoft 365 com Caixas de Correio do Exchange Online; PowerShell autônomo do EOP em organizações do EOP sem caixas de correio do Exchange Online).
+Você cria e atribui marcas de quarentena no Centro de Conformidade & Segurança ou no PowerShell (Exchange Online PowerShell para organizações Microsoft 365 com caixas de correio do Exchange Online; EOP PowerShell autônomo em organizações do EOP sem Exchange Online caixas de correio).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **Marcas de quarentena,** abra <https://protection.office.com/quarantineTags> .
 
@@ -75,7 +75,7 @@ Você cria e atribui marcas de quarentena no Centro de Conformidade & Segurança
 
 2. Na página **Marcas de quarentena,** selecione **Adicionar marca personalizada**.
 
-3. O **assistente nova marca** é aberto. Na página **Nome da** marca, insira um nome breve, mas exclusivo no campo **Nome da** marca. Você precisará identificar e selecionar a marca pelo nome nas próximas etapas. Quando terminar, clique em **Avançar**.
+3. O **assistente nova marca** é aberto. Na página **Nome da** marca, insira um nome breve, mas exclusivo no campo **Nome da** marca. Você precisará identificar e selecionar a marca pelo nome nas próximas etapas. Ao terminar, clique em **Avançar**.
 
 4. Na página **Acesso à** mensagem de destinatário, selecione um dos seguintes valores:
    - **Sem acesso**
@@ -99,7 +99,7 @@ Você cria e atribui marcas de quarentena no Centro de Conformidade & Segurança
 
    Essas permissões e seus efeitos nas mensagens em quarentena e nas notificações de spam do usuário final são descritos na seção Detalhes da permissão de [marca](#quarantine-tag-permission-details) de quarentena posteriormente neste artigo.
 
-   Quando terminar, clique em **Avançar**.
+   Ao terminar, clique em **Avançar**.
 
 5. Na página **Resumo** exibida, revise suas configurações. Você pode clicar **em Editar** em cada configuração para modificá-la.
 
@@ -111,7 +111,7 @@ Agora você está pronto para atribuir a marca de quarentena a um recurso de qua
 
 ### <a name="create-quarantine-tags-in-powershell"></a>Criar marcas de quarentena no PowerShell
 
-Se preferir usar o PowerShell para criar marcas de quarentena, conecte-se ao PowerShell do Exchange Online ou ao PowerShell de Proteção do Exchange Online e use o cmdlet **New-QuarantineTag.** Você tem dois métodos diferentes para escolher:
+Se preferir usar o PowerShell para criar marcas de quarentena, conecte-se Exchange Online PowerShell ou Proteção do Exchange Online PowerShell e use o cmdlet **New-QuarantineTag.** Você tem dois métodos diferentes para escolher:
 
 - Use o _parâmetro EndUserQuarantinePermissionsValue._
 - Use o _parâmetro EndUserQuarantinePermissions._
@@ -245,7 +245,7 @@ Nos _recursos de proteção_ com suporte que as mensagens ou arquivos de quarent
 |[Regras de fluxo de emails](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) (também conhecidas como regras de transporte) com a ação: Entregar a mensagem à **quarentena** hospedada (_Quarentena_).|Não|n/d|
 |
 
-<sup>\*</sup> As configurações de proteção de representação estão disponíveis somente em políticas anti-phishing no Microsoft Defender para Office 365.
+<sup>\*</sup>As configurações de proteção de representação estão disponíveis somente em políticas anti-phishing no Microsoft Defender para Office 365.
 
 Se você estiver satisfeito com as permissões do usuário final fornecidas pelas marcas de quarentena padrão, você não precisa fazer nada. Se você quiser personalizar os recursos do usuário final (botões disponíveis) em notificações de spam do usuário final ou em detalhes de mensagem em quarentena, você pode atribuir uma marca de quarentena personalizada.
 
@@ -269,7 +269,7 @@ Instruções completas para criar e modificar políticas anti-spam são descrita
 
 #### <a name="assign-quarantine-tags-in-anti-spam-policies-in-powershell"></a>Atribuir marcas de quarentena em políticas anti-spam no PowerShell
 
-Se você preferir usar o PowerShell para atribuir marcas de quarentena em políticas anti-spam, conecte-se ao PowerShell do Exchange Online ou ao PowerShell de Proteção do Exchange Online e use a seguinte sintaxe:
+Se você preferir usar o PowerShell para atribuir marcas de quarentena em políticas anti-spam, conecte-se ao Exchange Online PowerShell ou ao Proteção do Exchange Online PowerShell e use a seguinte sintaxe:
 
 ```powershell
 <New-HostedContentFilterPolicy -Name "<Unique name>" | Set-HostedContentFilterPolicy -Identity "<Policy name>">  [-SpamAction Quarantine] [-SpamQuarantineTag <QuarantineTagName>] [-HighConfidenceSpamAction Quarantine] [-HighConfidenceSpamQuarantineTag <QuarantineTagName>] [-PhishSpamAction Quarantine] [-PhishQuarantineTag <QuarantineTagName>] [-HighConfidencePhishQuarantineTag <QuarantineTagName>] [-BulkSpamAction Quarantine] [-BulkQuarantineTag <QuarantineTagName>] ...
@@ -320,7 +320,7 @@ As configurações globais para marcas de quarentena permitem personalizar as no
 
 3. No **sobrevoo de configurações** de notificação de quarentena que é aberto, configure algumas ou todas as seguintes configurações:
 
-   - **Use o logotipo da minha empresa**: selecione essa opção para substituir o logotipo padrão da Microsoft que é usado na parte superior das notificações de spam do usuário final. Antes de fazer isso, você precisa seguir as instruções em Personalizar o tema do [Microsoft 365](../../admin/setup/customize-your-organization-theme.md) para sua organização carregar seu logotipo personalizado.
+   - **Use o logotipo da minha empresa**: selecione essa opção para substituir o logotipo padrão da Microsoft que é usado na parte superior das notificações de spam do usuário final. Antes de fazer isso, você precisa seguir as instruções em Personalizar o tema [Microsoft 365 para](../../admin/setup/customize-your-organization-theme.md) sua organização carregar seu logotipo personalizado.
 
      A captura de tela a seguir mostra um logotipo personalizado em uma notificação de spam do usuário final:
 
@@ -465,7 +465,7 @@ Se a marca de quarentena atribuir as **permissões** de acesso total (todas as p
 
 - **Notificações de spam do usuário final:** Os seguintes botões estão disponíveis:
   - **Bloquear remetente**
-  - **Liberar**
+  - **Lançar**
   - **Análise**
 
   ![Botões disponíveis na notificação de spam do usuário final se a marca de quarentena der ao usuário permissões de acesso total](../../media/quarantine-tags-esn-full-access.png)
@@ -477,7 +477,7 @@ Se a marca de quarentena atribuir as **permissões** de acesso total (todas as p
 
 #### <a name="allow-sender-permission"></a>Permitir permissão de remetente
 
-A **permissão Permitir remetente** (_PermissionToAllowSender_) controla o acesso ao botão que permite que os usuários adicionem convenientemente o remetente de mensagem em quarentena à lista de Remetentes Seguros.
+A **permissão Permitir remetente** (_PermissionToAllowSender_) controla o acesso ao botão que permite que os usuários adicionem convenientemente o remetente de mensagem em quarentena à sua lista Cofre Remetentes.
 
 - **Detalhes da mensagem em quarentena:**
   - **Permitir permissão de remetente** habilitada: o **botão Permitir remetente** está disponível.
@@ -485,7 +485,7 @@ A **permissão Permitir remetente** (_PermissionToAllowSender_) controla o acess
 
 - **Notificações de spam do usuário final**: Sem efeito.
 
-Para obter mais informações sobre a lista De envios confiáveis, consulte [Prevent trusted senders](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379666) from being blocked and [Use Exchange Online PowerShell to configure the safelist collection on a mailbox](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox).
+Para obter mais informações sobre Cofre de envios, consulte Prevent [trusted senders](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379666) from being blocked and [Use Exchange Online PowerShell to configure](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox)the safelist collection on a mailbox .
 
 #### <a name="block-sender-permission"></a>Bloquear permissão de remetente
 
@@ -499,7 +499,7 @@ A **permissão bloquear remetente** (_PermissionToBlockSender_) controla o acess
   - **Bloquear a permissão de** remetente desabilitada: o **botão Bloquear remetente** não está disponível.
   - **Bloquear a permissão de** remetente habilitada: o **botão Bloquear remetente** está disponível.
 
-Para obter mais informações sobre a lista De envios bloqueados, consulte [Bloquear](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379667) mensagens de alguém e Usar o PowerShell do Exchange Online para configurar o conjunto de listas [seguras em uma caixa de correio](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox).
+Para obter mais informações sobre a lista De envios bloqueados, consulte [Bloquear](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379667) mensagens de alguém e Usar Exchange Online PowerShell para configurar o conjunto de listas [seguras em uma caixa de correio](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox).
 
 #### <a name="delete-permission"></a>Permissão de exclusão
 

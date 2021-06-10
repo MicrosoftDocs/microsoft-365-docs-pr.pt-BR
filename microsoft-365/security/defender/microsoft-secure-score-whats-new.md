@@ -1,6 +1,6 @@
 ---
 title: Novidades na Pontuação Segura da Microsoft
-description: Descreve quais novas alterações aconteceram com a Pontuação Segura da Microsoft no centro de segurança do Microsoft 365.
+description: Descreve quais novas alterações aconteceram com a Pontuação Segura da Microsoft no centro de Microsoft 365 segurança.
 keywords: microsoft secure score, secure score, office 365 secure score, microsoft security score, microsoft 365 security center
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -34,19 +34,19 @@ ms.locfileid: "51933860"
 
 Para tornar a Pontuação Segura da Microsoft um representante melhor da sua postura de segurança, fizemos algumas alterações. Para saber mais sobre as alterações planejadas, consulte [O que está por vir na Pontuação Segura da Microsoft?](microsoft-secure-score-whats-coming.md)
 
-A Pontuação Segura da Microsoft pode ser encontrada no centro de segurança https://security.microsoft.com/securescore [do Microsoft 365.](overview-security-center.md)
+A Pontuação Segura da Microsoft pode ser https://security.microsoft.com/securescore encontrada no centro de Microsoft 365 [segurança.](overview-security-center.md)
     
 ## <a name="february-2021"></a>Fevereiro de 2021
 
-### <a name="compatibility-with-graph-api"></a>Compatibilidade com a API do Graph
+### <a name="compatibility-with-graph-api"></a>Compatibilidade com Graph API
 
-As recomendações de Pontuação Segura da Microsoft entregues por meio da API do Graph serão ponderadas da mesma forma que as recomendações que você vê no centro de segurança do Microsoft 365.
+As recomendações de Pontuação Segura da Microsoft entregues por meio da API Graph serão ponderadas da mesma forma que as recomendações que você vê no Microsoft 365 de segurança.
 
 ## <a name="january-2021"></a>Janeiro de 2021
 
-### <a name="added-our-first-security-recommendation-for-microsoft-teams"></a>Adicionada nossa primeira recomendação de segurança para o Microsoft Teams
+### <a name="added-our-first-security-recommendation-for-microsoft-teams"></a>Adicionada nossa primeira recomendação de segurança para Microsoft Teams
 
-Os clientes do Microsoft Teams verão "Restringir usuários anônimos de participar de reuniões" como uma nova ação de melhoria na Pontuação Segura.
+Microsoft Teams os clientes verão "Restringir usuários anônimos de ingressar em reuniões" como uma nova ação de melhoria na Pontuação Segura.
 
 ## <a name="december-2020"></a>Dezembro de 2020
 
@@ -67,7 +67,7 @@ A capacidade de criar tíquetes serviceNow por meio da Pontuação Segura indo *
 
 ### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint"></a>Adicionadas três ações de melhoria relacionadas a serviços para o Microsoft Defender para Ponto de Extremidade:
 
-- Corrigir o caminho de serviço não citado para serviços do Windows
+- Corrigir o caminho de serviço não Windows serviços
 - Alterar o caminho executável do serviço para um local protegido comum
 - Alterar a conta de serviço para evitar senha armazenada em cache no Registro do Windows
 
@@ -75,11 +75,11 @@ A capacidade de criar tíquetes serviceNow por meio da Pontuação Segura indo *
 
 ### <a name="remove-improvement-action-related-to-microsoft-defender-for-endpoint"></a>Remover a ação de melhoria relacionada ao Microsoft Defender para Ponto de Extremidade
 
-- Definir a verificação de conteúdo do aplicativo Web do Microsoft Defender SmartScreen da Windows Store para avisar
+- Definir Microsoft Defender SmartScreen Windows verificação de conteúdo da Web do aplicativo da Loja para avisar
 
 ## <a name="august-2020"></a>Agosto de 2020
 
-### <a name="updated-improvement-action-for-azure-active-directory"></a>Ação de aperfeiçoamento atualizada para o Azure Active Directory
+### <a name="updated-improvement-action-for-azure-active-directory"></a>Ação de melhoria atualizada para Azure Active Directory
 
 - Habilitar a política para bloquear a autenticação herdado
 
@@ -91,7 +91,7 @@ Com o tempo, a Pontuação Segura de Identidade adotará o novo modelo de pontua
 
 ## <a name="updated-improvement-actions"></a>Ações de melhoria atualizadas
 
-- Adicionadas ações de melhoria do Azure Active Directory
+- Adicionadas Azure Active Directory de melhoria
 - Adicionadas ações de melhoria de identidade do Microsoft Defender
 - Suporte para o Microsoft Defender para Ameaças [de Ponto de Extremidade & recomendações](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) de segurança do Gerenciamento de Vulnerabilidades
     - Todas as recomendações de segurança lançadas fornecidas pela TVM agora estão disponíveis

@@ -1,7 +1,7 @@
 ---
-title: Linha do tempo do evento no gerenciamento de ameaças e vulnerabilidades
+title: Linha do tempo do evento Gerenciamento de Ameaças e Vulnerabilidades
 description: A linha do tempo do evento é um feed de notícias de risco que ajuda você a interpretar como o risco é introduzido na organização e quais mitigações aconteceram para reduzi-lo.
-keywords: linha do tempo do evento, linha do tempo do evento do Microsoft Defender for Endpoint, linha do tempo do evento tvm do Microsoft Defender para Endpoint, gerenciamento de ameaças e vulnerabilidades, Microsoft Defender para Ponto de Extremidade
+keywords: linha do tempo do evento, linha do tempo do evento do Microsoft Defender for Endpoint, linha do tempo do evento tvm do Microsoft Defender para Endpoint, Gerenciamento de Ameaças e Vulnerabilidades, Microsoft Defender para Ponto de Extremidade
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -25,7 +25,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933476"
 ---
-# <a name="event-timeline---threat-and-vulnerability-management"></a>Linha do tempo do evento - gerenciamento de ameaças e vulnerabilidades
+# <a name="event-timeline---threat-and-vulnerability-management"></a>Linha do tempo do evento - Gerenciamento de Ameaças e Vulnerabilidades
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -45,7 +45,7 @@ A linha do tempo [](tvm-exposure-score.md) do evento também conta a história d
 
 ## <a name="navigate-to-the-event-timeline-page"></a>Navegue até a página linha do tempo do evento
 
-Há também três pontos de entrada do painel de gerenciamento de ameaças [e vulnerabilidades:](tvm-dashboard-insights.md)
+Há também três pontos de entrada do painel [de Gerenciamento de Ameaças e Vulnerabilidades](tvm-dashboard-insights.md):
 
 - **Cartão de pontuação de** exposição da organização : passe o mouse sobre os pontos de evento no gráfico "Pontuação de Exposição ao longo do tempo" e selecione "Ver todos os eventos deste dia". Os eventos representam vulnerabilidades de software.
 - **Pontuação segura da Microsoft para dispositivos**: passe o mouse sobre os pontos de evento no gráfico "Sua pontuação para dispositivos ao longo do tempo" e selecione "Ver todos os eventos deste dia". Os eventos representam novas avaliações de configuração.
@@ -53,7 +53,7 @@ Há também três pontos de entrada do painel de gerenciamento de ameaças [e vu
 
 ### <a name="exposure-score-and-microsoft-secure-score-for-devices-graphs"></a>Pontuação de exposição e Pontuação Segura da Microsoft para Dispositivos gráficos
 
-No painel de gerenciamento de ameaças e vulnerabilidades, passe o mouse sobre o gráfico de pontuação de exposição para exibir os principais eventos de vulnerabilidade de software desse dia que afetaram seus dispositivos. Passe o mouse sobre o gráfico Microsoft Secure Score for Devices para exibir novas avaliações de configuração de segurança que afetam sua pontuação.
+No painel Gerenciamento de Ameaças e Vulnerabilidades, passe o mouse sobre o gráfico de pontuação de exposição para exibir os principais eventos de vulnerabilidade de software desse dia que afetaram seus dispositivos. Passe o mouse sobre o gráfico Microsoft Secure Score for Devices para exibir novas avaliações de configuração de segurança que afetam sua pontuação.
 
 Se não houver eventos que afetem seus dispositivos ou sua pontuação para dispositivos, nenhum será mostrado.
 
@@ -132,7 +132,7 @@ Navegue até a guia linha do tempo do evento para exibir todos os eventos relaci
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Visão geral do gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Visão geral Gerenciamento de Vulnerabilidades ameaça](next-gen-threat-and-vuln-mgt.md)
 - [Painel](tvm-dashboard-insights.md)
 - [Pontuação de exposição](tvm-exposure-score.md)
 - [Recomendações de segurança](tvm-security-recommendation.md)

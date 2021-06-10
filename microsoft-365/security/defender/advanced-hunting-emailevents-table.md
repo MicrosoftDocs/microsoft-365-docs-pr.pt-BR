@@ -1,6 +1,6 @@
 ---
 title: Tabela EmailEvents no esquema de busca avançada
-description: Saiba mais sobre eventos associados aos emails do Microsoft 365 na tabela EmailEvents do esquema de busca avançada
+description: Saiba mais sobre eventos associados Microsoft 365 emails na tabela EmailEvents do esquema de busca avançado
 keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, EmailEvents, id de mensagem de rede, remetente, destinatário, id de anexo, nome do anexo, veredito de malware, veredito de phishing, contagem de anexos, contagem de links, contagem de url
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -45,7 +45,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `NetworkMessageId` | cadeia de caracteres | Identificador exclusivo do email, gerado pelo Microsoft 365 |
+| `NetworkMessageId` | cadeia de caracteres | Identificador exclusivo do email, gerado por Microsoft 365 |
 | `InternetMessageId` | cadeia de caracteres | Identificador público do email definido pelo seu sistema de envio |
 | `SenderMailFromAddress` | cadeia de caracteres | Endereço de email do remetente no cabeçalho EMAIL DE, também conhecido como remetente do envelope ou endereço do caminho de retorno |
 | `SenderFromAddress` | cadeia de caracteres | Endereço de email do remetente no cabeçalho DE, visível para os destinatários dos seus clientes de email |

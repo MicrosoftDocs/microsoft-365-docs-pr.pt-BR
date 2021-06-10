@@ -53,8 +53,8 @@ Quando um PUA é detectado em um ponto de extremidade, o Microsoft Defender para
 A proteção PUA no Microsoft Defender para Ponto de Extremidade no macOS pode ser configurada de uma das seguintes maneiras:
 
 - **Desativado**: a proteção pua está desabilitada.
-- **Auditoria**: os arquivos PUA são relatados nos logs do produto, mas não no Centro de Segurança do Microsoft Defender. Nenhuma notificação é apresentada ao usuário e nenhuma ação é tomada pelo produto.
-- **Bloquear**: os arquivos PUA são relatados nos logs do produto e no Centro de Segurança do Microsoft Defender. O usuário recebe uma notificação e a ação é tomada pelo produto.
+- **Auditoria**: os arquivos PUA são relatados nos logs do produto, mas não Central de Segurança do Microsoft Defender. Nenhuma notificação é apresentada ao usuário e nenhuma ação é tomada pelo produto.
+- **Bloquear**: os arquivos PUA são relatados nos logs do produto e Central de Segurança do Microsoft Defender. O usuário recebe uma notificação e a ação é tomada pelo produto.
 
 >[!WARNING]
 >Por padrão, a proteção pua é configurada no **modo auditoria.**

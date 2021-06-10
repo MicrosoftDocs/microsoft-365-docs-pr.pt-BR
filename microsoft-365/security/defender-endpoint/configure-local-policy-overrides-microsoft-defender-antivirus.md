@@ -56,9 +56,9 @@ Para configurar essas configurações:
 
 5. Implante o objeto de Política de Grupo como de costume.
 
-Location | Setting | Artigo
+Localização | Configuração | Artigo
 ---|---|---|---
-MAPS | Configurar a substituição de configuração local para relatórios para o Microsoft MAPS | [Habilitar a proteção entregue na nuvem](enable-cloud-protection-microsoft-defender-antivirus.md)
+MAPS | Configurar a substituição de configuração local para relatórios para o Microsoft MAPS | [Ativar proteção fornecida pela nuvem](enable-cloud-protection-microsoft-defender-antivirus.md)
 Quarentena | Configurar substituição de configuração local para a remoção de itens da pasta Quarentena | [Configurar correção para verificações](configure-remediation-microsoft-defender-antivirus.md)
 Proteção em tempo real | Configurar a substituição de configuração local para monitoramento de atividade de arquivo e programa no computador | [Habilitar e configurar Microsoft Defender Antivírus proteção e monitoramento always-on](configure-real-time-protection-microsoft-defender-antivirus.md)
 Proteção em tempo real | Configurar a substituição de configuração local para monitoramento para atividade de arquivo de entrada e saída | [Habilitar e configurar Microsoft Defender Antivírus proteção e monitoramento always-on](configure-real-time-protection-microsoft-defender-antivirus.md)
@@ -97,5 +97,5 @@ Você pode desabilitar essa configuração para garantir que apenas listas defin
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Microsoft Defender Antivirus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
 - [Configurar a interação do usuário final com Microsoft Defender Antivírus](configure-end-user-interaction-microsoft-defender-antivirus.md)

@@ -51,13 +51,13 @@ Além disso, para a implantação do Puppet, você precisa estar familiarizado c
 
 ## <a name="download-the-onboarding-package"></a>Baixar o pacote de integração
 
-Baixe o pacote de integração do Centro de Segurança do Microsoft Defender:
+Baixe o pacote de integração Central de Segurança do Microsoft Defender:
 
-1. No Centro de Segurança do Microsoft Defender, acesse **Configurações > Gerenciamento de Dispositivos > Integração**.
+1. Em Central de Segurança do Microsoft Defender, vá para Configurações > Gerenciamento de **Dispositivos > Integração**.
 2. No primeiro menu suspenso, selecione **Servidor Linux como** o sistema operacional. No segundo menu suspenso, selecione Sua ferramenta de gerenciamento de configuração **do Linux preferencial** como o método de implantação.
 3. Selecione **Baixar pacote de integração**. Salve o arquivo como WindowsDefenderATPOnboardingPackage.zip.
 
-    ![Captura de tela do Centro de Segurança do Microsoft Defender](images/atp-portal-onboarding-linux-2.png)
+    ![Central de Segurança do Microsoft Defender captura de tela](images/atp-portal-onboarding-linux-2.png)
 
 4. Em um prompt de comando, verifique se você tem o arquivo. 
 

@@ -45,7 +45,7 @@ Método|Tipo de retorno |Descrição
 :---|:---|:---
 [Listar computadores](get-machines.md) | [coleção machine](machine.md) | Listar o conjunto [de](machine.md) entidades do computador na organização.
 [Obter máquina](get-machine-by-id.md) | [machine](machine.md) | Obter uma [máquina](machine.md) por sua identidade.
-[Obter usuários conectados](get-machine-log-on-users.md) | Coleção [usuário](user.md) | Obter o conjunto de [Usuários](user.md) conectado ao [computador](machine.md).
+[Obter usuários conectados](get-machine-log-on-users.md) | Coleção [user](user.md) | Obter o conjunto de [Usuários](user.md) conectado ao [computador](machine.md).
 [Obter alertas relacionados](get-machine-related-alerts.md) | conjunto [alerta](alerts.md)  | Obter o conjunto de [entidades](alerts.md) de alerta que foram criadas no [computador](machine.md).
 [Obter o software instalado](get-installed-software.md) | [coleção de software](software.md) | Recupera um conjunto de softwares instalados relacionados a uma determinada ID de máquina.
 [Obter vulnerabilidades descobertas](get-discovered-vulnerabilities.md) | [conjunto de vulnerabilidades](vulnerability.md) | Recupera uma coleção de vulnerabilidades descobertas relacionadas a uma determinada ID do computador.
@@ -75,7 +75,7 @@ rbacGroupName | Cadeia de caracteres | Nome do grupo de máquinas.
 riskScore | Núm anulado | Pontuação de risco avaliada pelo Microsoft Defender para Ponto de Extremidade. Os valores possíveis são: 'None', 'Informational', 'Low', 'Medium' e 'High'.
 exposureScore | Núm anulado | [Pontuação de exposição](tvm-exposure-score.md) avaliada pelo Microsoft Defender para Ponto de Extremidade. Os valores possíveis são: 'None', 'Low', 'Medium' e 'High'.
 aadDeviceId | Guid de representação anulada | ID do dispositivo AAD (quando [o computador](machine.md) está ingressado no AAD).
-machineTags | Coleção de cadeias de caracteres | Conjunto de [marcas de](machine.md) máquina.
+machineTags | Coleção String | Conjunto de [marcas de](machine.md) máquina.
 exposureLevel | Núm anulado | Nível de exposição conforme avaliado pelo Microsoft Defender para Ponto de Extremidade. Os valores possíveis são: 'None', 'Low', 'Medium' e 'High'.
 deviceValue | Núm anulado | O [valor do dispositivo](tvm-assign-device-value.md). Os valores possíveis são: 'Normal', 'Baixo' e 'Alto'.
 ipAddresses | Coleção IpAddress | Conjunto de ***objetos IpAddress.*** Consulte [Obter API de máquinas](get-machines.md).

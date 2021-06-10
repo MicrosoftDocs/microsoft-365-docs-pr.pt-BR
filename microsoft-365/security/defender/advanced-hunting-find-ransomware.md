@@ -34,7 +34,7 @@ ms.locfileid: "51934808"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-O ransomware evoluiu rapidamente de ser um malware de commodity simples que afeta usuários de computador individuais para uma ameaça corporativa que está afetando gravemente setores e instituições governamentais. Embora [o Microsoft 365 Defender](microsoft-365-defender.md) fornece muitos recursos que detectem e bloqueiem o ransomware e atividades de intrusão associadas, a realização de verificações proativas para sinais de comprometimento pode ajudar a manter sua rede protegida.
+O ransomware evoluiu rapidamente de ser um malware de commodity simples que afeta usuários de computador individuais para uma ameaça corporativa que está afetando gravemente setores e instituições governamentais. Enquanto [Microsoft 365 o Defender](microsoft-365-defender.md) fornece muitos recursos que detectam e bloqueiam ransomware e atividades de intrusão associadas, a execução de verificações proativas para sinais de comprometimento pode ajudar a manter sua rede protegida.
 
 > [Ler sobre ransomware operado por humanos](https://www.microsoft.com/security/blog/2020/03/05/human-operated-ransomware-attacks-a-preventable-disaster/)
 
@@ -43,7 +43,7 @@ Com [a busca avançada](advanced-hunting-overview.md) no Microsoft 365 Defender,
 ## <a name="signs-of-ransomware-activity"></a>Sinais de atividade de ransomware
 Os pesquisadores de segurança da Microsoft observaram vários artefatos comuns, mas sutis, em muitas campanhas de ransomware lançadas por invasores sofisticados. Esses sinais envolvem principalmente o uso de ferramentas do sistema para se preparar para criptografia, impedir a detecção e limpar evidências forenses.
 
-| Atividade ransomware | Ferramentas comuns | Intent |
+| Atividade de ransomware | Ferramentas comuns | Intent |
 |--|--|--|
 | Interromper processos | _taskkill.exe_, _parada líquida_ | Verifique se os arquivos direcionados para criptografia não estão bloqueados por vários aplicativos. |
 | Desativar serviços | _sc.exe_ | - Verifique se os arquivos direcionados para criptografia não são bloqueados por vários aplicativos.<br>- Impedir que o software de segurança atrapalmente a criptografia e outras atividades de ransomware.<br>- Pare o software de backup de criar cópias recuperáveis.  |

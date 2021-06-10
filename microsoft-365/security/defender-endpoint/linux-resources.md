@@ -52,7 +52,7 @@ Se você puder reproduzir um problema, primeiro aumente o nível de registro em 
 
 2. Reproduza o problema.
 
-3. Execute o seguinte comando para fazer o back-up do Defender para logs do Endpoint. Os arquivos serão armazenados dentro de um arquivo .zip.
+3. Execute o seguinte comando para fazer o back-up do Defender para logs do Endpoint. Os arquivos serão armazenados dentro de um arquivo .zip arquivo morto.
 
    ```bash
    sudo mdatp diagnostic create
@@ -79,7 +79,7 @@ Se ocorrer um erro durante a instalação, o instalador relatará apenas uma fal
 
 O log detalhado será salvo em `/var/log/microsoft/mdatp_install.log` . Se você tiver problemas durante a instalação, envie-nos esse arquivo para que possamos ajudar a diagnosticar a causa.
 
-## <a name="uninstall"></a>Uninstall
+## <a name="uninstall"></a>Desinstalar
 
 Há várias maneiras de desinstalar o Defender para o Ponto de Extremidade no Linux. Se você estiver usando uma ferramenta de configuração como o Puppet, siga as instruções de desinstalação do pacote para a ferramenta de configuração.
 
@@ -120,8 +120,8 @@ A tabela a seguir lista comandos para alguns dos cenários mais comuns. Execute 
 |Configuração         |Ativar a proteção pua                                  |`mdatp threat policy set --type potentially_unwanted_application --action block` |
 |Configuração         |Desativar a proteção PUA                                 |`mdatp threat policy set --type potentially_unwanted_application --action off` |
 |Configuração         |Ativar o modo de auditoria para proteção pua                   |`mdatp threat policy set --type potentially_unwanted_application --action audit` |
-|Diagnóstico           |Alterar o nível de log                                    |`mdatp log level set --level verbose [error|warning|info|verbose]`     |
-|Diagnóstico           |Gerar logs de diagnóstico                                |`mdatp diagnostic create --path [directory]`                           |
+|Diagnostics           |Alterar o nível de log                                    |`mdatp log level set --level verbose [error|warning|info|verbose]`     |
+|Diagnostics           |Gerar logs de diagnóstico                                |`mdatp diagnostic create --path [directory]`                           |
 |Integridade                |Verificar a saúde do produto                              |`mdatp health`                                                         |
 |Proteção            |Examinar um caminho                                             |`mdatp scan custom --path [path] [--ignore-exclusions]`                |
 |Proteção            |Fazer uma verificação rápida                                         |`mdatp scan quick`                                                     |
@@ -163,8 +163,8 @@ No portal Defender para Ponto de Extremidade, você verá duas categorias de inf
 
 ### <a name="known-issues"></a>Problemas conhecidos
 
-- Você pode ver "Sem dados do sensor, comunicações prejudicadas" na página de informações do computador do portal do Centro de Segurança do Microsoft Defender, mesmo que o produto está funcionando conforme esperado. Estamos trabalhando para resolver esse problema.
-- Usuários conectados não aparecem no portal do Centro de Segurança do Microsoft Defender.
+- Você pode ver "Sem dados do sensor, comunicações prejudicadas" na página de informações do computador do portal Central de Segurança do Microsoft Defender, mesmo que o produto está funcionando conforme esperado. Estamos trabalhando para resolver esse problema.
+- Usuários conectados não aparecem no portal Central de Segurança do Microsoft Defender.
 - Em distribuições SUSE, se a instalação de *liúndice1* falhar, você deve validar que seu sistema operacional está registrado:
 
    ```bash

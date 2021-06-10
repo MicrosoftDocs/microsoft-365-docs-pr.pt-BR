@@ -1,7 +1,7 @@
 ---
-title: Executar suas simulações de ataque do Microsoft 365 Defender
-description: Execute simulações de ataque para seu projeto piloto do Microsoft 365 Defender para ver como ele se desenvolve e é rapidamente remediado.
-keywords: Simulação de ataque piloto do Microsoft 365 Defender, executar simulação de ataque piloto do Microsoft 365 Defender, simular ataque no Microsoft 365 Defender, projeto piloto do Microsoft 365 Defender, segurança cibernética, ameaça persistente avançada, segurança corporativa, dispositivos, dispositivos, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, busca avançada
+title: Execute suas simulações Microsoft 365 de ataque do Defender
+description: Execute simulações de ataque para seu Microsoft 365 projeto piloto do Defender para ver como ele se desenvolve e é rapidamente remediado.
+keywords: Microsoft 365 Simulação de ataque piloto do Defender, execute Microsoft 365 simulação de ataque piloto do Defender, simular ataque no defender do Microsoft 365, projeto piloto do Microsoft 365 Defender, segurança cibernética, ameaça persistente avançada, segurança corporativa, dispositivos, dispositivos, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, busca avançada
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -28,7 +28,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51934472"
 ---
-# <a name="run-your-microsoft-365-defender-attack-simulations"></a>Executar suas simulações de ataque do Microsoft 365 Defender
+# <a name="run-your-microsoft-365-defender-attack-simulations"></a>Execute suas simulações Microsoft 365 de ataque do Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -39,7 +39,7 @@ ms.locfileid: "51934472"
 
 No momento, você está na fase de simulação de ataque.
 
-Depois de preparar seu ambiente piloto, é hora de testar o gerenciamento de incidentes do Microsoft 365 Defender e os recursos automatizados de investigação e correção. Ajudaremos você a simular um ataque sofisticado que utiliza técnicas avançadas para ocultar da detecção. O ataque enumera sessões SMB (Bloqueio de Mensagens do Servidor) abertas em controladores de domínio e recupera endereços IP recentes dos dispositivos dos usuários. Essa categoria de ataques geralmente não inclui arquivos descartados no dispositivo da vítima— eles ocorrem apenas na memória. Eles "vivem da terra" usando o sistema e as ferramentas administrativas existentes e injetam seu código em processos do sistema para ocultar sua execução, Esse comportamento permite que eles evadam a detecção e persistam no dispositivo.
+Depois de preparar seu ambiente piloto, é hora de testar o gerenciamento Microsoft 365 incidentes do Defender e os recursos automatizados de investigação e correção. Ajudaremos você a simular um ataque sofisticado que utiliza técnicas avançadas para ocultar da detecção. O ataque enumera sessões SMB (Bloqueio de Mensagens do Servidor) abertas em controladores de domínio e recupera endereços IP recentes dos dispositivos dos usuários. Essa categoria de ataques geralmente não inclui arquivos descartados no dispositivo da vítima— eles ocorrem apenas na memória. Eles "vivem da terra" usando o sistema e as ferramentas administrativas existentes e injetam seu código em processos do sistema para ocultar sua execução, Esse comportamento permite que eles evadam a detecção e persistam no dispositivo.
 
 Nesta simulação, nosso cenário de exemplo começa com um script do PowerShell. Um usuário pode ser enganoso para executar um script. Ou o script pode ser executado de uma conexão remota com outro computador de um dispositivo infectado anteriormente, o invasor tentando se mover lateralmente na rede. A detecção desses scripts pode ser difícil porque os administradores também costumam executar scripts remotamente para realizar várias atividades administrativas.
 
@@ -54,22 +54,22 @@ Durante a simulação, o ataque injeta o shellcode em um processo aparentemente 
 
 Como você já configurou seu ambiente piloto durante a fase de preparação, verifique se você tem dois dispositivos para esse cenário: um dispositivo de teste e um controlador de domínio.
 
-1. Verifique se o locatário [habilitar o Microsoft 365 Defender](m365d-enable.md#confirm-that-the-service-is-on).
+1. Verifique se o locatário [habilita Microsoft 365 Defender](m365d-enable.md#confirm-that-the-service-is-on).
 
 2. Verifique a configuração do controlador de domínio de teste:
 
-   - O dispositivo é executado com o Windows Server 2008 R2 ou uma versão posterior.
+   - O dispositivo é executado com Windows Server 2008 R2 ou uma versão posterior.
    - O controlador de domínio de teste [para o Microsoft Defender for Identity](/azure/security-center/security-center-wdatp) e habilitar o gerenciamento [remoto](/windows-server/administration/server-manager/configure-remote-management-in-server-manager).
-   - Verifique se [a integração do Microsoft Defender for Identity e](/cloud-app-security/mdi-integration) do Microsoft Cloud App Security foi habilitada.
+   - Verifique se [a integração do Microsoft Defender para Identidade e](/cloud-app-security/mdi-integration) Microsoft Cloud App Security foi habilitada.
    - Um usuário de teste é criado em seu domínio – nenhuma permissão de administrador necessária.
 
 3. Verifique a configuração do dispositivo de teste:
 
-   1. O dispositivo é executado com o Windows 10 versão 1903 ou uma versão posterior.
+   1. O dispositivo é executado Windows 10 versão 1903 ou posterior.
 
    1. O dispositivo de teste é ingressado no domínio de teste.
 
-   1. [A Windows Defender Antivírus](/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features). Se você estiver com problemas para habil Windows Defender Antivírus, consulte este tópico [de solução de problemas.](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding#ensure-that-windows-defender-antivirus-is-not-disabled-by-a-policy)
+   1. [A Windows Defender Antivírus](/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features). Se você estiver com problemas para habil Windows Defender Antivírus, consulte este tópico [de solução de problemas](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding#ensure-that-windows-defender-antivirus-is-not-disabled-by-a-policy).
 
    1. Verifique se o dispositivo de teste está [conectado ao Microsoft Defender para Ponto de Extremidade)](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints).
 
@@ -99,9 +99,9 @@ Para executar a simulação de cenário de ataque:
 4. No prompt, colar e executar o script copiado.
 
 > [!NOTE]
-> Se você estiver executando o PowerShell usando o protocolo de área de trabalho remota (RDP), use o comando Texto da Área de Transferência de Tipo no cliente RDP porque a tecla de atalho **CTRL-V** ou o método clique com o botão direito do mouse pode não funcionar. As versões recentes do PowerShell às vezes também não aceitarão esse método, talvez seja preciso copiar para o Bloco de Notas na memória primeiro, copiá-lo na máquina virtual e, em seguida, colar no PowerShell.
+> Se você estiver executando o PowerShell usando o protocolo de área de trabalho remota (RDP), use o comando Texto da Área de Transferência de Tipo no cliente RDP porque a tecla de atalho **CTRL-V** ou o método clique com o botão direito do mouse pode não funcionar. As versões recentes do PowerShell às vezes também não aceitarão esse método, talvez seja preciso copiar para Bloco de notas memória primeiro, copiá-lo na máquina virtual e, em seguida, colar no PowerShell.
 
-Alguns segundos depois, <i>notepad.exe</i> abrirá. Um código de ataque simulado será injetado no notepad.exe. Mantenha a instância do Bloco de Notas gerada automaticamente aberta para experimentar o cenário completo.
+Alguns segundos depois, <i>notepad.exe</i> abrirá. Um código de ataque simulado será injetado no notepad.exe. Mantenha a instância Bloco de notas gerada automaticamente aberta para experimentar o cenário completo.
 
 O código de ataque simulado tentará se comunicar com um endereço IP externo (simulando o servidor C2) e tentará reconhecimento contra o controlador de domínio por meio de SMB.
 
@@ -111,7 +111,7 @@ Você verá uma mensagem exibida no console do PowerShell quando esse script for
 ran NetSessionEnum against [DC Name] with return code result 0
 ```
 
-Para ver o recurso Incidente Automatizado e Resposta em ação, mantenha o processo notepad.exe aberto. Você verá Incidente Automatizado e Resposta interromper o processo do Bloco de Notas.
+Para ver o recurso Incidente Automatizado e Resposta em ação, mantenha o processo notepad.exe aberto. Você verá Incidente Automatizado e Resposta interromper o processo de Bloco de notas.
 
 ## <a name="investigate-an-incident"></a>Investigar um incidente
 
@@ -120,13 +120,13 @@ Para ver o recurso Incidente Automatizado e Resposta em ação, mantenha o proce
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bzwz?]
 
-Mudando para o ponto de vista do analista SOC, agora você pode começar a investigar o ataque no portal da Central de Segurança do Microsoft 365.
+Alternando para o ponto de vista do analista SOC, agora você pode começar a investigar o ataque no portal Microsoft 365 Central de Segurança.
 
-1. Abra a fila de incidentes do portal do Centro de Segurança do [Microsoft 365](https://security.microsoft.com/incidents) de qualquer dispositivo.
+1. Abra a [fila Microsoft 365 de incidentes do portal do Centro](https://security.microsoft.com/incidents) de Segurança de qualquer dispositivo.
 
 2. Navegue **até Incidentes** no menu.
 
-    ![Captura de tela de incidentes, conforme mostrado no menu esquerdo do Centro de Segurança do Microsoft 365](../../media/mtp/fig1.png)
+    ![Captura de tela de incidentes, conforme mostrado no menu Microsoft 365 lado esquerdo do Centro de Segurança do Centro de Segurança](../../media/mtp/fig1.png)
 
 3. O novo incidente do ataque simulado aparecerá na fila de incidentes.
 
@@ -134,7 +134,7 @@ Mudando para o ponto de vista do analista SOC, agora você pode começar a inves
 
 ### <a name="investigate-the-attack-as-a-single-incident"></a>Investigar o ataque como um único incidente
 
-O Microsoft 365 Defender correlaciona a análise e agrega todos os alertas e investigações relacionados de diferentes produtos em uma entidade de incidente. Ao fazer isso, o Microsoft 365 Defender mostra uma história de ataque mais ampla, permitindo que o analista soc compreenda e responda a ameaças complexas.
+Microsoft 365 O Defender correlaciona análises e agrega todos os alertas e investigações relacionados de diferentes produtos em uma entidade de incidente. Ao fazer isso, Microsoft 365 Defender mostra uma história de ataque mais ampla, permitindo que o analista soc compreenda e responda a ameaças complexas.
 
 Os alertas gerados durante essa simulação são associados à mesma ameaça e, como resultado, são automaticamente agregados como um único incidente.
 
@@ -148,11 +148,11 @@ Para exibir o incidente:
 
    ![Captura de tela da página de incidentes em que alertas gerados são agregados durante a simulação](../../media/mtp/fig4.png)
 
-   Os alertas que aparecem no painel podem ser filtrados com base nos recursos de serviço: Microsoft Defender for Identity, Microsoft Cloud App Security, Microsoft Defender for Endpoint, Microsoft 365 Defender e Microsoft Defender para Office 365.
+   Os alertas que aparecem no painel podem ser filtrados com base nos recursos de serviço: Microsoft Defender para Identidade, Microsoft Cloud App Security, Microsoft Defender para Ponto de Extremidade, Microsoft 365 Defender e Microsoft Defender para Office 365.
 
 3. Selecione **Abrir página de incidentes** para obter mais informações sobre o incidente.
 
-   Na página **Incidente,** você pode ver todos os alertas e informações relacionadas ao incidente. As informações incluem as entidades e ativos envolvidos no alerta, a fonte de detecção dos alertas (Microsoft Defender para Identidade, EDR) e o motivo pelo qual foram vinculados juntos. Analisar a lista de alertas de incidentes mostra a progressão do ataque. Neste ponto de vista, você pode ver e investigar os alertas individuais.
+   Na página **Incidente,** você pode ver todos os alertas e informações relacionadas ao incidente. As informações incluem as entidades e ativos envolvidos no alerta, a fonte de detecção dos alertas (Microsoft Defender para Identidade, EDR) e o motivo pelo qual eles foram vinculados juntos. Analisar a lista de alertas de incidentes mostra a progressão do ataque. Neste ponto de vista, você pode ver e investigar os alertas individuais.
 
    Você também pode clicar em **Gerenciar incidentes** no menu à direita, para marcar o incidente, atribuí-lo a si mesmo e adicionar comentários.
 
@@ -165,11 +165,11 @@ Para exibir o incidente:
 Vamos ver alguns dos alertas gerados durante o ataque simulado.
 
 > [!NOTE]
-> Vamos passar por apenas alguns dos alertas gerados durante o ataque simulado. Dependendo da versão do Windows e dos produtos do Microsoft 365 Defender em execução em seu dispositivo de teste, você pode ver mais alertas que aparecem em uma ordem ligeiramente diferente.
+> Vamos passar por apenas alguns dos alertas gerados durante o ataque simulado. Dependendo da versão do Windows e dos produtos Microsoft 365 Defender em execução em seu dispositivo de teste, você pode ver mais alertas que aparecem em uma ordem ligeiramente diferente.
 
 ![Captura de tela de alertas gerados](../../media/mtp/fig6.png)
 
-#### <a name="alert-suspicious-process-injection-observed-source-microsoft-defender-for-endpoint-edr"></a>Alerta: injeção de processo suspeito observada (Fonte: Microsoft Defender para EDR do Ponto de Extremidade)
+#### <a name="alert-suspicious-process-injection-observed-source-microsoft-defender-for-endpoint-edr"></a>Alerta: injeção de processo suspeito observada (Fonte: Microsoft Defender para EDR)
 
 Invasores avançados usam métodos sofisticados e furtivos para persistir na memória e se ocultar das ferramentas de detecção. Uma técnica comum é operar de dentro de um processo de sistema confiável, em vez de um executável mal-intencionado, tornando difícil para as ferramentas de detecção e as operações de segurança detectarem o código mal-intencionado.
 
@@ -177,7 +177,7 @@ Para permitir que os analistas soc detectem esses ataques avançados, os sensore
 
 ![Captura de tela do alerta para injeção de código potencialmente mal-intencionado](../../media/mtp/fig7.png)
 
-#### <a name="alert-unexpected-behavior-observed-by-a-process-run-with-no-command-line-arguments-source-microsoft-defender-for-endpoint-edr"></a>Alerta: comportamento inesperado observado por um processo executado sem argumentos de linha de comando (Fonte: Microsoft Defender para EDR do Ponto de Extremidade)
+#### <a name="alert-unexpected-behavior-observed-by-a-process-run-with-no-command-line-arguments-source-microsoft-defender-for-endpoint-edr"></a>Alerta: comportamento inesperado observado por um processo executado sem argumentos de linha de comando (Fonte: Microsoft Defender para EDR)
 
 As detecções do Microsoft Defender para Ponto de Extremidade geralmente visam o atributo mais comum de uma técnica de ataque. Esse método garante a durabilidade e eleva a barra para que os invasores alternem para táticas mais novas.
 
@@ -227,7 +227,7 @@ Na página incidente, selecione a guia **Usuários** para exibir a lista de usu�
 
 Selecione o nome de usuário para abrir a página de perfil do usuário onde uma investigação posterior pode ser conduzida. [Leia mais sobre a investigação de usuários arriscados.](/cloud-app-security/tutorial-ueba#identify)
 
-![Captura de tela da página do usuário segurança do aplicativo na nuvem](../../media/mtp/fig13.png)
+![Captura de tela Cloud App Security página do usuário](../../media/mtp/fig13.png)
 
 ## <a name="automated-investigation-and-remediation"></a>Investigação e correção automatizadas
 
@@ -236,7 +236,7 @@ Selecione o nome de usuário para abrir a página de perfil do usuário onde uma
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4BzwB]
 
-Navegue até o incidente no portal da Central de Segurança do Microsoft 365. A **guia Investigações** na página **Incidente** mostra as investigações automatizadas que foram disparadas pelo Microsoft Defender for Identity e pelo Microsoft Defender para Ponto de Extremidade. A captura de tela abaixo exibe apenas a investigação automatizada disparada pelo Defender para Ponto de Extremidade. Por padrão, o Defender para Ponto de Extremidade remedia automaticamente os artefatos encontrados na fila, o que requer correção.
+Navegue até o incidente no portal Microsoft 365 Central de Segurança. A **guia Investigações** na página **Incidente** mostra as investigações automatizadas que foram disparadas pelo Microsoft Defender for Identity e pelo Microsoft Defender para Ponto de Extremidade. A captura de tela abaixo exibe apenas a investigação automatizada disparada pelo Defender para Ponto de Extremidade. Por padrão, o Defender para Ponto de Extremidade remedia automaticamente os artefatos encontrados na fila, o que requer correção.
 
 ![Captura de tela de investigações automatizadas relacionadas ao incidente](../../media/mtp/fig14.png)
 
@@ -262,7 +262,7 @@ Após a conclusão da investigação e confirmação da correção, feche o inci
 
 Selecione **Gerenciar incidente**. De definir o status como **Resolver incidente e** selecione a classificação relevante.
 
-Quando o incidente é resolvido, ele fecha todos os alertas associados no Centro de Segurança do Microsoft 365 e nos portais relacionados.
+Quando o incidente é resolvido, ele fecha todos os alertas associados Microsoft 365 Central de Segurança e nos portais relacionados.
 
 ![Captura de tela da página incidentes com o painel Gerenciar incidentes aberto, onde você pode clicar na opção para resolver incidentes](../../media/mtp/fig16.png)
 
@@ -279,17 +279,17 @@ Isso encerra a simulação de ataque para o gerenciamento de incidentes e cenár
 
 Há uma única caixa de correio interna e um dispositivo necessários para esse cenário. Você também precisará de uma conta de email externa para enviar a mensagem de teste.
 
-1. Verifique se seu locatário [habilitar o Microsoft 365 Defender](m365d-enable.md#confirm-that-the-service-is-on).
+1. Verifique se seu locatário [habilitar Microsoft 365 Defender](m365d-enable.md#confirm-that-the-service-is-on).
 2. Identifique uma caixa de correio de destino a ser usada para receber emails.
-    a. Essa caixa de correio deve ser monitorada pelo Microsoft Defender para Office 365 b. O dispositivo do requisito 3 precisa acessar essa caixa de correio
-3. Configurar um dispositivo de teste: a. Certifique-se de que você está usando o Windows 10 versão 1903 ou versão posterior.
+    a. Essa caixa de correio deve ser monitorada pelo Microsoft Defender Office 365 b. O dispositivo do requisito 3 precisa acessar essa caixa de correio
+3. Configurar um dispositivo de teste: a. Certifique-se de que você está usando Windows 10 versão 1903 ou posterior.
     b. Junte o dispositivo de teste ao domínio de teste.
-    c. [A Windows Defender Antivírus](/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features). Se você estiver com problemas para habil Windows Defender antivírus, [consulte este tópico de solução de problemas.](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding#ensure-that-windows-defender-antivirus-is-not-disabled-by-a-policy)
+    c. [A Windows Defender Antivírus](/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features). Se você estiver com problemas para habil Windows Defender Antivírus, [consulte este tópico de solução de problemas.](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding#ensure-that-windows-defender-antivirus-is-not-disabled-by-a-policy)
     d. [Onboard to Microsoft Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints).
 
 ### <a name="run-the-simulation"></a>Executar a simulação
 
-1. De uma conta de email externa, envie um email para a caixa de correio identificada na etapa 2 da seção requisitos do ambiente de teste. Inclua um anexo que será permitido por meio de quaisquer políticas de filtro de email existentes. Esse arquivo não precisa ser mal-intencionado ou executável. Os tipos de arquivo sugeridos <i>são .pdf,</i> <i>.exe</i> (se permitido) ou documento do Office, como um arquivo do Word.
+1. De uma conta de email externa, envie um email para a caixa de correio identificada na etapa 2 da seção requisitos do ambiente de teste. Inclua um anexo que será permitido por meio de quaisquer políticas de filtro de email existentes. Esse arquivo não precisa ser mal-intencionado ou executável. Os tipos de arquivo <i>sugeridos.pdf</i>, <i>.exe</i> (se permitido) ou Office documento, como um arquivo do Word.
 2. Abra o email enviado do dispositivo configurado conforme definido na etapa 3 da seção requisitos do ambiente de teste. Abra o anexo ou salve o arquivo no dispositivo.
 
 #### <a name="go-hunting"></a>Ir à caça
@@ -435,7 +435,7 @@ As detecções personalizadas executarão a consulta de acordo com a frequência
 Para saber mais sobre a busca avançada, os webcasts a seguir o acompanharão pelos recursos de busca avançada no Microsoft 365 Defender para criar consultas entre pilares, pivotar para entidades e criar detecções personalizadas e ações de correção.
 
 > [!NOTE]
-> Prepare-se com sua própria conta do GitHub para executar as consultas de busca em seu ambiente de laboratório de teste piloto.
+> Prepare-se com sua própria GitHub para executar as consultas de busca em seu ambiente de laboratório de teste piloto.
 
 |Título|Descrição|Baixar MP4|Assista no YouTube|Arquivo CSL a ser usado|
 |---|---|---|---|---|
@@ -447,5 +447,5 @@ Para saber mais sobre a busca avançada, os webcasts a seguir o acompanharão pe
 
 ## <a name="next-step"></a>Próxima etapa
 
-|![Fase de fechamento e resumo](../../media/mtp/close.png) <br>[Fase de fechamento e resumo](m365d-pilot-close.md)|Analise o resultado piloto do Microsoft 365 Defender, apresente-os aos participantes e dê a próxima etapa.
+|![Fase de fechamento e resumo](../../media/mtp/close.png) <br>[Fase de fechamento e resumo](m365d-pilot-close.md)|Analise seu Microsoft 365 piloto do Defender, apresente-os aos participantes e dê a próxima etapa.
 |:-----|:-----|
