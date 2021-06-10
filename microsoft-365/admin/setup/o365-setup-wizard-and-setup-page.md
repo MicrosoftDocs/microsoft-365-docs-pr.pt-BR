@@ -29,36 +29,36 @@ ms.locfileid: "51579105"
 ---
 # <a name="difference-between-the-setup-wizard-and-the-setup-page"></a>Diferença entre o assistente de instalação e a página de Instalação
 
-O Microsoft 365 fornece duas experiências de instalação: 
+Microsoft 365 oferece duas experiências de instalação: 
 
 - Instalação inicial usando o assistente de instalação
 - Configuração contínua e avançada usando a página **De instalação**
 
-O assistente de instalação fornece um passo a passo guiado para configurar a configuração básica do Microsoft 365. Depois de concluir a configuração inicial, você pode ir até a página Instalação para concluir a configuração e a configuração dos serviços que vêm com suas assinaturas. 
+O assistente de instalação fornece um passo a passo guiado para configurar a configuração básica Microsoft 365 configuração. Depois de concluir a configuração inicial, você pode ir até a página Instalação para concluir a configuração e a configuração dos serviços que vêm com suas assinaturas. 
 
 ## <a name="use-the-setup-wizard-to-complete-initial-setup-tasks"></a>Use o assistente de instalação para concluir tarefas iniciais de instalação
 
 Para configurar sua conta, vá para o centro de [administração,](https://go.microsoft.com/fwlink/p/?linkid=2024339)selecione **Instalação** no painel de navegação esquerdo e selecione **Configuração** guiada na página **Instalação.**
 
-![Iniciar o assistente de configuração do Microsoft 365 Apps for Business](../../media/o365b-guided-setup.png)
+![Iniciar o assistente de Microsoft 365 Apps para Pequenos e Médios negócios configuração](../../media/o365b-guided-setup.png)
 
 O assistente de instalação orienta você pelas seguintes etapas:
 
-1. Instale os aplicativos do Microsoft 365 em seu computador.
+1. Instale os Microsoft 365 aplicativos em seu computador.
 
 2. Escolha e verifique seu domínio, como contoso.com.
 
-3. Adicione novos usuários e atribua licenças a eles para que eles possam baixar e instalar aplicativos do Microsoft 365.
+3. Adicione novos usuários e atribua licenças a eles para que eles possam baixar e instalar Microsoft 365 aplicativos.
 
-4. Conecte seu domínio.
+4. Conexão seu domínio.
 
 ## <a name="use-the-setup-page-to-complete-and-manage-your-configuration"></a>Use a página De instalação para concluir e gerenciar sua configuração
 
-Para acessar a **página Instalação** no centro [de administração,](https://go.microsoft.com/fwlink/p/?linkid=2024339)selecione **Configurar** no painel de navegação. Com base nos produtos que você comprou, os recursos que você definiu e sua função de administrador, tarefas e informações relacionadas de todo o Microsoft 365 são divulgados aqui.
+Para acessar a **página Instalação** no centro [de administração,](https://go.microsoft.com/fwlink/p/?linkid=2024339)selecione **Configurar** no painel de navegação. Com base nos produtos que você comprou, os recursos que você definiu e sua função de administrador, tarefas e informações relacionadas de todas as Microsoft 365 são a tona aqui.
 
 Você verá a lista completa de tarefas de instalação organizadas em categorias lógicas, incluindo as que você concluiu no assistente de instalação.
 
-![Página de Instalação do Microsoft 365 para empresas](../../media/o365b-setup-page.png)
+![Microsoft 365 página configuração para empresas](../../media/o365b-setup-page.png)
 
 Escolha **Exibir** para qualquer tarefa para obter informações rápidas, como descrição da tarefa, impacto do usuário, pré-requisitos, esforço para implementar e estatísticas de segurança e adoção para ajudá-lo a entender as consequências e o impacto antes de prosseguir.
 

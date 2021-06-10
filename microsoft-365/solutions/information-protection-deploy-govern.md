@@ -16,7 +16,7 @@ ms.collection:
 - m365solution-infoprotection
 - m365solution-scenario
 ms.custom: ''
-description: Use rótulos e políticas de retenção do Microsoft 365 para gerenciar dados pessoais em seu ambiente do Microsoft 365.
+description: Use Microsoft 365 e políticas de retenção para gerenciar dados pessoais em seu Microsoft 365 ambiente.
 ms.openlocfilehash: 62c2386ac8f9c5b31650df8be2c2a411d8b75959
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -49,12 +49,12 @@ Para obter mais informações sobre esses regulamentos, consulte o artigo avalia
 
 Para governança de informações, os regulamentos de privacidade de dados normalmente chamam o seguinte:
 
-- Você deve empregar um esquema técnico para retenção e exclusão de dados pessoais armazenados no Microsoft 365.
+- Você deve empregar um esquema técnico para retenção e exclusão de dados pessoais armazenados Microsoft 365.
 - Se você vai armazenar dados pessoais, informe o assunto de quanto tempo os dados serão armazenados, que é uma prática padrão agora em sistemas Web front-end.
 - Os dados pessoais devem ser protegidos contra processamento acidental, perda ou alteração usando métodos verificáveis.
 - Qualquer ação executada contra dados pessoais deve ser documentada e essa documentação deve ser mantida por um período especificado.
 
-Como os regulamentos de privacidade de dados não são muito específicos quando se trata de retenção e exclusão de dados, outros fatores precisam ser considerados que podem ditar diretrizes de governança de informações para informações pessoais armazenadas em sua assinatura do Microsoft 365. Veja alguns exemplos:
+Como os regulamentos de privacidade de dados não são muito específicos quando se trata de retenção e exclusão de dados, outros fatores precisam ser levados em consideração que podem ditar diretrizes de governança de informações para informações pessoais armazenadas em sua assinatura Microsoft 365 de dados. Veja alguns exemplos:
 
 - O apagamento das contas de consumidor após 5 anos de inatividade e requer exclusão ou anonimização dos dados da conta após esse ponto, exigindo a orquestração entre o sistema que armazenará os dados e fluxos de trabalho relacionados a notificações e outras automações.
 - Configurar regras para manter políticas e procedimentos relacionados ao RGPD por três anos após a superação, que se alinha ao cronograma de retenção da organização para políticas e procedimentos.
@@ -64,9 +64,9 @@ Uma pergunta importante a ser respondeda é:
 
 - Por quanto tempo as informações que contêm dados pessoais precisam ser mantidas por motivos comerciais válidos para evitar práticas de "mantê-los para sempre"? Isso deve ser balanceado com as necessidades de retenção para a continuidade dos negócios.
 
-Independentemente dos motivos legais e comerciais para manter informações pessoais ou excluí-los, a Microsoft fornece vários recursos para implementar seu esquema de governança de dados no Microsoft 365.
+Independentemente dos motivos legais e comerciais para manter informações pessoais ou excluí-los, a Microsoft fornece vários recursos para implementar seu esquema de governança de dados em Microsoft 365.
 
-## <a name="managing-information-governance-in-microsoft-365"></a>Gerenciando a governança de informações no Microsoft 365
+## <a name="managing-information-governance-in-microsoft-365"></a>Gerenciando a governança de informações em Microsoft 365
 
 Para começar, consulte [Manage information governance and](../compliance/manage-information-governance.md) Data [Retention, Deletion and Destruction in Microsoft 365](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview).
 
@@ -84,10 +84,10 @@ Lembre-se do seguinte:
 
 ### <a name="retention-policies-and-retention-labels"></a>Políticas de retenção e rótulos de retenção
 
-Use [políticas de retenção e rótulos](../compliance/retention.md) de retenção para reter ou excluir conteúdo no Microsoft 365 que contém ou deve conter dados pessoais.
+Use [políticas de retenção e rótulos](../compliance/retention.md) de retenção para reter ou excluir conteúdo em Microsoft 365 que contenham ou que devem conter dados pessoais.
 
 ### <a name="records-management"></a>Gerenciamento de registros
 
-Use rótulos de retenção que declarem um registro de conteúdo para implementar [uma](../compliance/records-management.md) solução de gerenciamento de registros para dados no Microsoft 365.
+Use rótulos de retenção que declarem um registro de conteúdo para implementar uma solução [de](../compliance/records-management.md) gerenciamento de registros para dados em Microsoft 365.
 
 Para privacidade de dados, as solicitações de entidades de dados (DSRs) recebidas pelo departamento jurídico são declaradas um registro e podem ser armazenadas indefinidamente ou descartadas com prova, para aderir às especificações de retenção de atividades regulamentares.

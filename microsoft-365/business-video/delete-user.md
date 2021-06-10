@@ -40,7 +40,7 @@ Quando um funcionário sair da empresa, você precisará removê-los do Microsof
 1. Selecione o usuário que você deseja remover e selecione **Excluir usuário**.
 1. Marque a caixa para remover sua licença e marque a caixa para remover seus aliases de email.
 1. Se o usuário tiver permissões de caixa de correio de representante, você poderá removê-los aqui.
-1. Marque a caixa para dar acesso a outro usuário ao OneDrive do ex-funcionário e procure por esse usuário.
+1. Marque a caixa para dar acesso a outro usuário à OneDrive do ex-funcionário e procure por esse usuário.
 1. Selecione seu nome.
 1. Esse usuário agora terá 30 dias para mover os arquivos para um novo local.
 1. Marque a caixa para dar a outro usuário acesso ao email do ex-funcionário e escolha Selecionar um usuário **e definir opções de email**.

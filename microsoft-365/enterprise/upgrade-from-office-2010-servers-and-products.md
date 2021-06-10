@@ -21,7 +21,7 @@ search.appverid:
 ms.assetid: b2acaeca-4986-40f4-92b7-a1bdd06e549d
 f1.keywords:
 - NOCSH
-description: Comece a planejar sua atualização dos servidores do Office 2010 e aplicativos cliente, pois o suporte terminará em breve e os contratos de suporte personalizados não estarão disponíveis.
+description: Comece a planejar sua atualização Office servidores e aplicativos cliente 2010, pois o suporte terminará em breve e os contratos de suporte personalizados não estarão disponíveis.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 85a6efac9c7e622157b01b02c5d9c38a1e74d5e4
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
@@ -34,21 +34,21 @@ ms.locfileid: "50909293"
 
 *Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-O Office 2010 e o Exchange 2010 chegaram ao fim do suporte em 13 de outubro de **2020**.
+Office 2010 e Exchange 2010 chegaram ao fim do suporte em 13 de outubro de **2020**.
 
 O encerramento do suporte para o SharePoint 2010 e o Project Server 2010 será no dia **13 de abril de 2021**.
 
-Enquanto você planeja sua atualização, considere mudar para o Microsoft 365.
+Enquanto você planeja sua atualização, considere a mudança para Microsoft 365.
 
-- O Microsoft 365 tem serviços baseados em nuvem para produtos de servidor do Office 2010, como Exchange Server e SharePoint Server, e serviços, como Teams e OneDrive for Business.
+- Microsoft 365 tem serviços baseados em nuvem para produtos de servidor Office 2010, como Exchange Server e SharePoint Server, e serviços, como Teams e OneDrive for Business.
 
-- O Microsoft 365 Apps for enterprise (anteriormente chamado *office 365 ProPlus*), que está incluído no Microsoft 365 E3 e no E5, é o conjunto de aplicativos cliente do Office que você instala em seu dispositivo local. Eles são atualizados regularmente com novos recursos de produtividade e segurança da nuvem da Microsoft.
+- Microsoft 365 Apps para Grandes Empresas (anteriormente chamado *Office 365 ProPlus*), que está incluído no Microsoft 365 E3 e no E5, é o conjunto de aplicativos cliente Office que você instala em seu dispositivo local. Eles são atualizados regularmente com novos recursos de produtividade e segurança da nuvem da Microsoft.
 
-Para um resumo visual das opções de atualização, migração e movimentação para a nuvem para clientes e servidores do Office 2010 e windows 7, consulte o final do cartaz de [suporte](../downloads/Office2010Windows7EndOfSupport.pdf).
+Para um resumo visual das opções de atualização, migração e movimentação para a nuvem para clientes e servidores Office 2010 e Windows 7, consulte o final do cartaz de [suporte](../downloads/Office2010Windows7EndOfSupport.pdf).
 
-[![Fim do suporte para clientes e servidores do Office 2010 e cartaz do Windows 7](../media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
+[![Fim do suporte para clientes e servidores Office 2010 e Windows cartaz 7](../media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
 
-Este cartaz de uma página resume os vários caminhos que você pode seguir para lidar com os produtos de cliente e servidor do Office 2010 e o Windows 7 de chegar ao fim do suporte. Caminhos preferenciais e suporte a opções no Microsoft 365 Enterprise são realçados.
+Este cartaz de uma página resume os vários caminhos que você pode seguir para lidar com Office produtos de cliente e servidor 2010 e Windows 7 de chegar ao fim do suporte. Caminhos preferenciais e suporte a opções Microsoft 365 Enterprise são realçados.
 
 Você também pode [baixar](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Office2010Windows7EndOfSupport.pdf) esse cartaz e imprimi-lo em formato de carta, legal ou tablóide (11 x 17).
 
@@ -64,7 +64,7 @@ Você também pode [baixar](https://github.com/MicrosoftDocs/microsoft-365-docs/
 
 ## <a name="im-a-home-user-what-do-i-do"></a>Sou um usuário doméstico. O que eu faço?
 
-Se você usar produtos e aplicativos do Office 2010 em casa, consulte [essas informações](plan-upgrade-previous-versions-office.md#im-a-home-user-what-do-i-do).
+Se você usar Office 2010 produtos e aplicativos em casa, consulte [essas informações](plan-upgrade-previous-versions-office.md#im-a-home-user-what-do-i-do).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

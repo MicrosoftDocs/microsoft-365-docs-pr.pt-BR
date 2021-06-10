@@ -34,7 +34,7 @@ ms.locfileid: "51580285"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Defina configurações de proteção de aplicativo para dispositivos Android ou iOS
 
-Este artigo se aplica ao Microsoft 365 Business Premium.
+Este artigo se aplica a Microsoft 365 Business Premium.
 
 ## <a name="create-an-app-management-policy"></a>Criar uma política de gerenciamento de aplicativos
 
@@ -46,7 +46,7 @@ Este artigo se aplica ao Microsoft 365 Business Premium.
     
 4. Em **Tipo de Política**, escolha Gerenciamento de **Aplicativos para Android** ou Gerenciamento de Aplicativos para **iOS,** dependendo do conjunto de políticas que você deseja criar. 
     
-5. Expanda **Proteger arquivos de trabalho quando dispositivos são perdidos ou roubados** e Gerenciar como os usuários acessam arquivos do Office em **dispositivos móveis**. Configure as configurações como você gostaria. **Gerencie como os usuários**  acessam arquivos do Office em  dispositivos móveis está Desligado por padrão, mas recomendamos que você a a ligue e aceite os valores padrão. Para obter mais informações, consulte [Configurações disponíveis](#available-settings). 
+5. Expanda **Proteger arquivos de trabalho quando dispositivos são perdidos ou roubados** e Gerenciar como os usuários **acessam Office arquivos em dispositivos móveis**. Configure as configurações como você gostaria. **Gerenciar como os usuários acessam Office**  arquivos em dispositivos móveis está  Desligado por padrão, mas recomendamos que você a a ligue e aceite os valores padrão. Para obter mais informações, consulte [Configurações disponíveis](#available-settings). 
     
     Você sempre poderá usar o link **Redefinir as configurações padrão** para voltar para a configuração padrão. 
     
@@ -74,9 +74,9 @@ Este artigo se aplica ao Microsoft 365 Business Premium.
     
 ## <a name="available-settings"></a>Configurações disponíveis
 
-As tabelas a seguir dão informações detalhadas sobre as configurações disponíveis para proteger arquivos de trabalho em dispositivos e as configurações que controlam como os usuários acessam arquivos do Office de seus dispositivos móveis.
+As tabelas a seguir dão informações detalhadas sobre as configurações disponíveis para proteger arquivos de trabalho em dispositivos e as configurações que controlam como os usuários acessam Office arquivos de seus dispositivos móveis.
   
- Para obter mais informações, consulte [Como os recursos de proteção no Microsoft 365 Business Premium mapeiam para configurações do Intune.](map-protection-features-to-intune-settings.md) 
+ Para obter mais informações, consulte [How do protection features in Microsoft 365 Business Premium map to Intune settings](map-protection-features-to-intune-settings.md). 
   
 ### <a name="settings-that-protect-work-files"></a>Configurações que protegem os arquivos de trabalho
 
@@ -84,9 +84,9 @@ As configurações a seguir estão disponíveis para proteger os arquivos de tra
   
 |||
 |:-----|:-----|
-|Setting  <br/> |Descrição  <br/> |
+|Configuração  <br/> |Descrição  <br/> |
 |Excluir arquivos de trabalho de um dispositivo inativo após determinada quantidade de dias  <br/> |Se um dispositivo não for usado para o número de dias especificado aqui, todos os arquivos de trabalho armazenados no dispositivo serão excluídos automaticamente.  <br/> |
-|Forçar os usuários a salvar todos os arquivos de trabalho no OneDrive for Business  <br/> |Se essa configuração for **On**, o único local de salvação disponível para arquivos de trabalho será o OneDrive for Business.  <br/> |
+|Forçar os usuários a salvar todos os arquivos de trabalho no OneDrive for Business  <br/> |Se essa configuração for **On**, o único local de salvação disponível para arquivos de trabalho será OneDrive for Business.  <br/> |
 |Criptografar arquivos de trabalho  <br/> |Mantenha essa configuração **Ativada** para que os arquivos de trabalho sejam protegidos por criptografia. Mesmo que o dispositivo seja perdido ou roubado, ninguém poderá ler os dados da empresa.  <br/> |
    
 ### <a name="settings-that-control-how-users-access-office-files-on-mobile-devices"></a>Configurações que controlam como os usuários acessam arquivos do Office em dispositivos móveis
@@ -95,9 +95,9 @@ As configurações a seguir estão disponíveis para gerenciar como os usuários
   
 |||
 |:-----|:-----|
-|Setting  <br/> |Descrição  <br/> |
-|Exigir um PIN ou uma impressão digital para acessar aplicativos do Office  <br/> |Se essa configuração for **On,** os usuários devem fornecer outra forma de autenticação, além de seu nome de usuário e senha, para que possam usar aplicativos do Office em seus dispositivos móveis.<br/> |
+|Configuração  <br/> |Descrição  <br/> |
+|Exigir um PIN ou uma impressão digital para acessar aplicativos do Office  <br/> |Se essa configuração for **On,** os usuários devem fornecer outra forma de autenticação, além de seu nome de usuário e senha, para que eles possam usar Office aplicativos em seus dispositivos móveis.<br/> |
 |Redefinir o PIN quando houver muitas falhas de logon  <br/> |Para impedir que um usuário não autorizado adivinhe um PIN, o PIN será redefinido após determinado número de tentativas incorretas.  <br/> |
 |Exigir que os usuários entrem novamente depois que os aplicativos do Office ficarem ociosos  <br/> |Essa configuração determina por quanto tempo um usuário pode ficar ocioso antes de ser solicitado a entrar novamente.  <br/> |
 |Negar o acesso aos arquivos de trabalho em dispositivos com jailbreak ou com acesso raiz  <br/> |Os usuários inteligentes podem ter dispositivos com jailbreak ou com acesso raiz. Isso significa que o usuário pode modificar o sistema operacional, deixando o dispositivo mais sujeito a malware. Os dispositivos são bloqueados quando essa configuração está **Ativada**.  <br/> |
-|Não permita que os usuários copiem conteúdo de aplicativos do Office em aplicativos pessoais  <br/> |Permitimos isso por padrão, mas se a configuração estiver **Ativada**, o usuário poderá copiar informações de uma pasta de trabalho para um arquivo pessoal. Quando a configuração está **Desativada**, o usuário não pode copiar informações de uma conta corporativa para um aplicativo pessoal ou uma conta pessoal.  <br/> |
+|Não permita que os usuários copiem conteúdo de aplicativos Office aplicativos pessoais  <br/> |Permitimos isso por padrão, mas se a configuração estiver **Ativada**, o usuário poderá copiar informações de uma pasta de trabalho para um arquivo pessoal. Quando a configuração está **Desativada**, o usuário não pode copiar informações de uma conta corporativa para um aplicativo pessoal ou uma conta pessoal.  <br/> |

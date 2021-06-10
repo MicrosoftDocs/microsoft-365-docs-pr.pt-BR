@@ -26,7 +26,7 @@ ms.locfileid: "50928419"
 ---
 # <a name="monitor-and-respond-to-data-privacy-incidents-in-your-organization"></a>Monitorar e responder a incidentes de privacidade de dados em sua organização
 
-Os recursos do Microsoft 365 estão disponíveis para ajudá-lo a monitorar, investigar e responder a incidentes de privacidade de dados em sua organização à medida que você operacionaliza os recursos relacionados. Ter processos, procedimentos e outras documentações para cada um deles também pode ser importante para demonstrar a conformidade com os órgãos regulatórios.
+Microsoft 365 recursos estão disponíveis para ajudá-lo a monitorar, investigar e responder a incidentes de privacidade de dados em sua organização à medida que você operacionaliza os recursos relacionados. Ter processos, procedimentos e outras documentações para cada um deles também pode ser importante para demonstrar a conformidade com os órgãos regulatórios.
 
 Entre eles: 
 
@@ -80,4 +80,4 @@ Para o Microsoft Stream, quando um usuário é excluído do Azure Active Directo
 
 ## <a name="insider-risk-management-as-an-investigative-tool"></a>Gerenciamento de riscos insider como uma ferramenta de investigação
 
-O gerenciamento de riscos internos no [Microsoft 365](../compliance/insider-risk-management.md) é um recurso do Centro de administração de Conformidade da Microsoft para ajudá-lo a minimizar o risco interno, permitindo que você detecte, investigue e tome medidas sobre atividades arriscadas em sua organização.
+[O gerenciamento de](../compliance/insider-risk-management.md) riscos internos no Microsoft 365 é um recurso do Centro de administração de Conformidade da Microsoft para ajudá-lo a minimizar o risco interno, permitindo que você detecte, investigue e tome medidas sobre atividades arriscadas em sua organização.

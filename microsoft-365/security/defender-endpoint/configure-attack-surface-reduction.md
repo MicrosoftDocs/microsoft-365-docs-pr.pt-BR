@@ -1,5 +1,5 @@
 ---
-title: Configurar recursos de redução de superfície de ataque
+title: Configurar os recursos de redução da superfície de ataque
 description: Use Microsoft Intune, Microsoft Endpoint Configuration Manager, cmdlets do PowerShell e Política de Grupo para configurar a redução de superfície de ataque.
 keywords: asr, redução de superfície de ataque, windows defender, microsoft defender, antivírus, av
 search.product: eADQiWindows 10XVcnh
@@ -24,7 +24,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/04/2021
 ms.locfileid: "52770956"
 ---
-# <a name="configure-attack-surface-reduction-capabilities"></a>Configurar recursos de redução de superfície de ataque
+# <a name="configure-attack-surface-reduction-capabilities"></a>Configurar os recursos de redução da superfície de ataque
 
 **Aplica-se a:**
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)

@@ -544,7 +544,7 @@ Para exibir e usar os relatórios descritos neste artigo, você precisa ser memb
 
 - **Organization Management**
 - **Administrador de Segurança**
-- **Leitor de Segurança**
+- **Leitor de segurança**
 - **Leitor Global**
 
 Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).

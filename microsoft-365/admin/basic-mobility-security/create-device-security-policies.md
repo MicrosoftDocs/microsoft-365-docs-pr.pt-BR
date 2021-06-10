@@ -29,7 +29,7 @@ ms.locfileid: "52706317"
 
 Você pode usar o Basic Mobility and Security para criar políticas de dispositivo que ajudam a proteger as informações da sua organização Microsoft 365 acesso não autorizado. Você pode aplicar políticas a qualquer dispositivo móvel em sua organização em que o usuário do dispositivo tenha uma licença de Microsoft 365 aplicável e tenha inscrito o dispositivo em Mobilidade Básica e Segurança.
 
-## <a name="before-you-begin"></a>Antes de você começar
+## <a name="before-you-begin"></a>Antes de começar
 
 > [!IMPORTANT]
 > Antes de criar uma política de dispositivo móvel, você deve ativar e configurar o Basic Mobility and Security. Para obter mais informações, consulte Overview of Basic Mobility and Security.

@@ -32,7 +32,7 @@ ms.locfileid: "51578706"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtn3I?autoplay=false]
 
-O Microsoft Defender para Office 365 , anteriormente chamado de Microsoft 365 ATP ou Proteção Avançada contra Ameaças, ajuda a proteger seus negócios contra arquivos que contenham conteúdo mal-intencionado no Outlook, OneDrive, SharePoint e Teams.
+O Microsoft Defender para Office 365 , anteriormente chamado de Microsoft 365 ATP ou Proteção Avançada contra Ameaças, ajuda a proteger sua empresa contra arquivos que contenham conteúdo mal-intencionado no Outlook, OneDrive, SharePoint e Teams.
 
 ## <a name="try-it"></a>Experimente!
 
@@ -47,6 +47,6 @@ O Microsoft Defender para Office 365 , anteriormente chamado de Microsoft 365 AT
 
 Sua regra de anexos seguros atp foi atualizada.
 
-Agora que a proteção está em ação, você não poderá abrir um arquivo mal-intencionado do Outlook, do OneDrive, do SharePoint ou do Teams. Os arquivos afetados terão escudos vermelhos ao lado deles. Se alguém tentar abrir um arquivo bloqueado, ele receberá uma mensagem de aviso.
+Agora que a proteção está em uso, você não poderá abrir um arquivo mal-intencionado Outlook, OneDrive, SharePoint ou Teams. Os arquivos afetados terão escudos vermelhos ao lado deles. Se alguém tentar abrir um arquivo bloqueado, ele receberá uma mensagem de aviso.
 
 Depois que sua política estiver em uso por um tempo, visite a página Relatórios para ver o que foi verificado.

@@ -21,7 +21,7 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Personalize sua página de login com um aviso de privacidade e consentimento para o Microsoft 365.
+description: Personalize sua página de login com um aviso de privacidade e consentimento para Microsoft 365.
 ms.openlocfilehash: 652566ca1caf46cd224e5205da3bebfd7b25cefa
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -33,7 +33,7 @@ ms.locfileid: "51579801"
 
 Sua empresa ou campanha pode tornar mais fácil para as agências de aplicação da lei registrarem cobranças legais contra criminosos online adicionando um aviso de privacidade e consentimento à sua página de login.
 
-Você pode personalizar sua página de login com sua identidade visual. Você também pode adicionar texto para ajudar seus usuários a entrar ou para apontar requisitos legais ou restrições para obter acesso aos recursos do Microsoft 365.
+Você pode personalizar sua página de login com sua identidade visual. Você também pode adicionar texto para ajudar seus usuários a entrar ou para apontar requisitos legais ou restrições para obter acesso Microsoft 365 recursos.
 
 ## <a name="design-customization-the-text-on-your-sign-in-page"></a>Personalização do design do texto na página de login
 

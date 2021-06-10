@@ -20,7 +20,7 @@ ms.custom:
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: Saiba como usar o Diagnóstico de Página para otimizar o desempenho das Web Parts nas páginas de site modernas do SharePoint Online.
+description: Saiba como usar o Diagnóstico de Página para otimizar o desempenho das Web Parts SharePoint páginas de site modernas online.
 ms.openlocfilehash: 2a72ecd8bc1f6dee4166809f72ce5f9bce422dc9
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT

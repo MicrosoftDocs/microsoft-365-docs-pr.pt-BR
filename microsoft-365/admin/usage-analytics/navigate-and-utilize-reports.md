@@ -65,13 +65,13 @@ O usuário que tiver instaurou o aplicativo de modelo terá a capacidade de pers
 
 Para compartilhar seus relatórios, basta selecionar o botão compartilhar ![Power BI Share icon](../../media/dbb0569d-2013-4f9d-ab9d-d01b09631b92.png) na parte superior da página.
 
-Para saber como personalizar os relatórios, consulte Personalização dos relatórios na análise de [uso do Microsoft 365.](customize-reports.md)
+Para saber como personalizar os relatórios, consulte [Personalização dos relatórios em Microsoft 365 análise de uso.](customize-reports.md)
 
 Você pode encontrar muitas informações adicionais na documentação de ajuda do Power BI:
 
-- [Conceitos básicos do Power BI](/power-bi/service-basic-concepts)
+- [Power BI conceitos básicos](/power-bi/service-basic-concepts)
 
-    Saiba mais sobre painel, conjuntos de dados, relatórios e outros conceitos do Power BI.
+    Saiba mais sobre painel, conjuntos de dados, relatórios e outros Power BI conceitos.
 
 - [Introdução ao Power BI](/power-bi/service-get-started?wt.mc_id=O365_Reports_PBI_contentpack)
 

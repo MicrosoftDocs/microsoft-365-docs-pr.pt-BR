@@ -27,7 +27,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: da60e08e-2547-491a-9c97-94ac6d715623
-description: Saiba mais sobre como configurar políticas de dispositivo para o Windows 10 que se aplicam a todos os usuários em sua organização, garantindo que eles se conectem de forma segura.
+description: Saiba mais sobre como configurar políticas de dispositivo para Windows 10 que se aplicam a todos os usuários em sua organização, garantindo que eles se conectem de forma segura.
 ms.openlocfilehash: c7d27b903734f9348471bb7765b88650caeed9d5
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -37,7 +37,7 @@ ms.locfileid: "51580265"
 ---
 # <a name="configure-windows-10-devices"></a>Configurar dispositivos Windows 10
 
-Durante a instalação, você cria uma política de dispositivo para o Windows 10 que se aplica a todos os usuários em sua organização. Quando um usuário se conecta a um aplicativo do Office em seu dispositivo Windows 10 com sua conta de trabalho ou de estudante, as configurações configuradas são aplicadas automaticamente para garantir que o usuário está se conectando de forma segura.
+Durante a instalação, você cria uma política de dispositivo para Windows 10 que se aplica a todos os usuários em sua organização. Quando um usuário se conecta a um Aplicativo do Office em seu dispositivo Windows 10 com sua conta de trabalho ou de estudante, as configurações configuradas são aplicadas automaticamente para garantir que o usuário está se conectando de forma segura.
   
 Recomendamos aceitar a configuração padrão durante a instalação. Após a instalação, você pode criar mais políticas e direciona-las para grupos específicos de usuários.
   

@@ -40,7 +40,7 @@ ms.locfileid: "51580245"
 
 Um perfil aplica-se a um dispositivo ou a um grupo de dispositivos,
   
-1. No centro de administração do Microsoft 365, escolha **Dispositivos** \> **AutoPilot**.
+1. No centro Microsoft 365 de administração, escolha **Dispositivos** \> **AutoPilot**.
   
 2. Na página **AutoPilot,** escolha a guia **Perfis** \> **Criar perfil**.
     

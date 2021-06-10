@@ -41,7 +41,7 @@ ms.locfileid: "52706449"
 
 Microsoft 365 para empresas é um conjunto abrangente de ferramentas de produtividade e colaboração de negócios, como Outlook, Word, Excel e outros produtos Office, que estão sempre atualizados. Você pode proteger seus arquivos de trabalho em todos os dispositivos iOS, Android e Windows 10 com segurança de nível empresarial simples de gerenciar.
 
-## <a name="watch-what-is-microsoft-365-business-premium"></a>Assista: o que é Microsoft 365 Business Premium
+## <a name="watch-what-is-microsoft-365-business-premium"></a>O que é o Microsoft 365 Business Premium?
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   

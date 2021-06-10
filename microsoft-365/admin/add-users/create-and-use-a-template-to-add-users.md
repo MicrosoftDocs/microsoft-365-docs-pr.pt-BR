@@ -43,8 +43,8 @@ Quando você cria um modelo depois de adicionar um usuário, os valores escolhid
 - Local da licença
 - Opções de licença
 - Opções de aplicativo
-- Role
-- A maioria das informações de perfil, como **Perfil de Trabalho,** **Departamento,** **Office,** **Telefone do Office** e endereço **Street** 
+- Função
+- A maioria das informações de perfil, como **Perfil de** Trabalho, **Departamento,** **Office,** **Office telefone** e **endereço street** 
 
 As informações a seguir são específicas do usuário e não são salvas no modelo:
 

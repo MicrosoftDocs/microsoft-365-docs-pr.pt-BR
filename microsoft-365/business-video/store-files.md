@@ -31,18 +31,18 @@ ms.locfileid: "51580361"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FTHX?autoplay=false]
 
-No Microsoft 365, você pode armazenar seu trabalho no OneDrive for Business ou em sites do SharePoint. Cada pessoa em sua organização tem sua própria biblioteca do OneDrive for Business para armazenar arquivos de trabalho pessoais. Quando você cria e salva arquivos em uma pasta do OneDrive, eles sincronizam com a nuvem para que você possa acessá-los de qualquer lugar— um navegador da Web, um computador ou um dispositivo móvel. Para armazenamento de arquivos compartilhados e colaboração em equipe, use um site do SharePoint. Os sites do SharePoint também sincronizam com a nuvem para facilitar o acesso de qualquer lugar.
+Em Microsoft 365, você pode armazenar seu trabalho em sites OneDrive for Business ou SharePoint sites. Cada pessoa em sua organização tem sua própria biblioteca OneDrive for Business para armazenar arquivos de trabalho pessoais. Quando você cria e salva arquivos em uma pasta OneDrive, eles sincronizam com a nuvem para que você possa acessá-los de qualquer lugar— um navegador da Web, um computador ou um dispositivo móvel. Para armazenamento de arquivos compartilhados e colaboração em equipe, use um SharePoint site. SharePoint também sincronizam com a nuvem para facilitar o acesso de qualquer lugar.
 
 ## <a name="try-it"></a>Experimente!
 
-### <a name="store-or-share-files-with-onedrive"></a>Armazenar ou compartilhar arquivos com o OneDrive
+### <a name="store-or-share-files-with-onedrive"></a>Armazenar ou compartilhar arquivos com OneDrive
 
-1. No seu computador, use o Explorador de Arquivos para abrir o OneDrive. Ou, a partir [do Office 365,](https://www.office.com/)abra  **o OneDrive**  a partir do launcher de aplicativos.
+1. No seu computador, use o Explorador de Arquivos para abrir o OneDrive. Ou, a [partir Office 365](https://www.office.com/), abra **OneDrive** do launcher do aplicativo.
 2. Exibir e carregar arquivos pessoais ou compartilhar documentos ou pastas clicando em  **Compartilhar**  e convidando outras pessoas para exibir os documentos ou enviando um link para eles. [Saiba mais](https://support.microsoft.com/office/9fcc2f7d-de0c-4cec-93b0-a82024800c07#os_type=onedrive_-_business).
 
-### <a name="collaborate-with-a-sharepoint-site"></a>Colaborar com um site do SharePoint
+### <a name="collaborate-with-a-sharepoint-site"></a>Colaborar com um SharePoint site
 
-1. No [Office 365,](https://www.office.com/)abra  **o SharePoint**  no launcher do aplicativo e selecione o Site de Equipe.
+1. No [Office 365,](https://www.office.com/)abra **SharePoint** do launcher do aplicativo e selecione o Site de Equipe.
 2. Adicione arquivos ao local padrão Documents ou crie mais locais de documentos, chamados Bibliotecas.
 
-Você pode personalizar seu site do SharePoint criando subs sites para projetos, equipes ou clientes específicos. Você também pode adicionar o nome, o logotipo e a aparência da empresa, transformando o site em uma intranet de negócios. [Saiba mais](https://support.microsoft.com/office/06bbadc3-6b04-4a60-9d14-894f6a170818).
+Você pode personalizar seu site SharePoint criando subs sites para projetos, equipes ou clientes específicos. Você também pode adicionar o nome, o logotipo e a aparência da empresa, transformando o site em uma intranet de negócios. [Saiba mais](https://support.microsoft.com/office/06bbadc3-6b04-4a60-9d14-894f6a170818).

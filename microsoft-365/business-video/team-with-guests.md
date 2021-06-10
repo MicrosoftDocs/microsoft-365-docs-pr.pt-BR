@@ -19,7 +19,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como criar uma equipe com convidados no Microsoft Teams.
+description: Saiba como criar uma equipe com convidados em Microsoft Teams.
 ms.openlocfilehash: a6d30684bed3a750a11e311f4e47d88940adbd0f
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -33,15 +33,15 @@ ms.locfileid: "51578586"
 
 ## <a name="try-it"></a>Experimente!
 
-Você pode usar o Microsoft Teams para trabalhar em conjunto em um projeto com seus funcionários e pessoas fora da empresa, como seus clientes.
+Você pode usar Microsoft Teams para trabalhar em conjunto em um projeto com seus funcionários e pessoas fora da empresa, como seus clientes.
 
-1. No Teams, escolha  **Teams**  na navegação à esquerda e escolha  **Criar equipe**.
+1. Em Teams, escolha **Teams** na navegação à esquerda e escolha **Criar equipe**.
 2. Na caixa  **Criar sua equipe,**  insira um nome de equipe, forneça uma breve descrição, escolha uma configuração de privacidade e escolha  **Next**.
 3. Na caixa  **Adicionar membros,**  insira os nomes de outros funcionários em sua organização. Para convidados externos, insira seu endereço de email.
 
-    Se você receber uma mensagem de que não pode adicionar um convidado, visite o Centro de administração do Teams e do Skype para ativar o acesso de convidados.
+    Se você receber uma mensagem de que não pode adicionar um convidado, visite o centro de administração Teams e Skype para ativar o acesso de convidados.
 
 1. Escolha  **Adicionar** e, em seguida, escolha  **Fechar**.
 2. Na parte inferior da página, insira uma breve mensagem de boas-vindas à sua nova equipe e escolha **Enviar** :::image type="icon" source="../media/teams-send-icon.png" border="false"::: .   
 
-Seu cliente receberá um convite por email do Teams, que informará que ele precisa de uma conta gratuita da Microsoft para ingressar na equipe. Eles podem criar uma conta usando seu endereço de email existente seguindo as instruções fornecidas. Em seguida, eles podem usar o Teams na Web ou instalar o aplicativo do Teams em seu computador.
+Seu cliente receberá um convite de email do Teams, que informará a eles que eles precisam de uma conta gratuita da Microsoft para ingressar na equipe. Eles podem criar uma conta usando seu endereço de email existente seguindo as instruções fornecidas. Em seguida, eles podem Teams na Web ou instalar o aplicativo Teams no computador.

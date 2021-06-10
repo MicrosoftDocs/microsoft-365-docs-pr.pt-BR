@@ -22,7 +22,7 @@ search.appverid:
 - MOE150
 ms.assetid: 932e3676-2491-49f0-9177-d893d2f5276e
 ROBOTS: NOINDEX
-description: Saiba como fazer um arquivo CSV para AutoPilot no Microsoft 365 para empresas.
+description: Saiba como fazer um arquivo CSV para o AutoPilot no Microsoft 365 para empresas.
 ms.openlocfilehash: 13d7fbffd8d6fbe1af0dde55a4e98688060d9da8
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -32,9 +32,9 @@ ms.locfileid: "51579213"
 ---
 # <a name="device-list-csv-file"></a>Arquivo CSV da lista de dispositivos
 
-## <a name="device-list-csv-file-format"></a>Formato de arquivo .csv da lista de dispositivos
+## <a name="device-list-csv-file-format"></a>Formato de arquivo .csv lista de dispositivos
 
-Para gerenciar e implantar dispositivos por meio do Windows Autopilot, você precisará de um arquivo .csv que contenha informações específicas sobre os dispositivos.
+Para gerenciar e implantar dispositivos Windows autopilot, você precisará de um arquivo .csv que contenha informações específicas sobre os dispositivos.
   
 As colunas no arquivo de lista de dispositivos devem ter os seguintes headers na ordem especificada:
   
@@ -50,8 +50,8 @@ Ao adicionar dispositivos, você também precisa adicioná-los a um Perfil. Um p
   
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Recursos e documentação do Microsoft 365 para empresas](../../business/index.yml)
+[Microsoft 365 para recursos e documentação de negócios](../../business/index.yml)
   
 [Começar com o Microsoft 365 para empresas](../../business/microsoft-365-business-overview.md)
   
-[Gerenciar o Microsoft 365 para empresas](../../business/manage.md)
+[Gerenciar Microsoft 365 para empresas](../../business/manage.md)

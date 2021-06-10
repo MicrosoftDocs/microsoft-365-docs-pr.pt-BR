@@ -36,7 +36,7 @@ Os tipos de informações confidenciais são classificadores baseados em padrão
 ## <a name="sensitive-information-types-are-used-in"></a>Tipos de informações confidenciais são usados em
 
 - [Políticas de prevenção contra perda de dados](dlp-learn-about-dlp.md) 
-- [Rótulos de confidencialidade ](sensitivity-labels.md)
+- [Rótulos de confidencialidade](sensitivity-labels.md)
 - [Rótulos de retenção](retention.md)
 - [Gerenciamento de riscos insider](insider-risk-management.md)
 - [Conformidade em comunicações](communication-compliance.md)

@@ -27,11 +27,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51578550"
 ---
-# <a name="what-is-a-microsoft-365-admin"></a>O que é um administrador do Microsoft 365?
+# <a name="what-is-a-microsoft-365-admin"></a>O que é um Microsoft 365 administrador?
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SRc0?autoplay=false]
 
-Em cada assinatura do Microsoft 365 Business, deve haver pelo menos uma conta de administrador. O administrador gerencia o serviço, contas de usuário e dispositivos. Se você tiver se inscrito na assinatura, será o administrador global da sua assinatura. Você também pode se tornar um administrador se outro administrador fizer um.
+Em cada Microsoft 365 Business assinatura, deve haver pelo menos uma conta de administrador. O administrador gerencia o serviço, contas de usuário e dispositivos. Se você tiver se inscrito na assinatura, será o administrador global da sua assinatura. Você também pode se tornar um administrador se outro administrador fizer um.
 
 Embora você sempre precise de pelo menos uma função de administrador para sua assinatura, pode ser um risco de segurança se a conta de administrador for comprometida por uma parte externa. Recomendamos que você atribua apenas a função de administrador àqueles que realmente precisam dela e atribua a função de usuário à maioria das pessoas.
 
@@ -41,8 +41,8 @@ Embora você sempre precise de pelo menos uma função de administrador para sua
 
 Veja como alterar uma função de usuário para uma função de administrador:
 
-1. Ao entrar no Microsoft 365, selecione o launcher do aplicativo. Se você vir o botão Administrador, será um administrador.
-1. Selecione **Administrador** para ir para o Centro de administração do Microsoft 365.
+1. Enquanto estiver Microsoft 365, selecione o launcher do aplicativo. Se você vir o botão Administrador, será um administrador.
+1. Selecione **Administrador** para ir para o Microsoft 365 de administração.
 1. No painel de navegação esquerdo, selecione **Usuários**, em **seguida, Usuários ativos**.
 1. Selecione a pessoa que você deseja tornar um administrador. Os detalhes do usuário aparecem na caixa de diálogo direita.
 1. Escolha **Gerenciar funções**.
@@ -53,13 +53,13 @@ Veja como alterar uma função de usuário para uma função de administrador:
 
 Você também pode criar uma conta de administrador dedicada para uma pessoa ou serviço de TI:
 
-1. Ao entrar no Microsoft 365, selecione o launcher do aplicativo.
-1. Selecione **Administrador** para ir para o Centro de administração do Microsoft 365.
+1. Enquanto estiver Microsoft 365, selecione o launcher do aplicativo.
+1. Selecione **Administrador** para ir para o Microsoft 365 de administração.
 1. No painel de navegação esquerdo, selecione **Usuários**, em **seguida, Usuários ativos**.
 1. Selecione **Adicionar um usuário**.
 1. Insira o Nome do usuário **e** **Sobrenome,** **Nome** de exibição e Nome de Usuário **e** selecione **Next**.
-1. Escolha **Criar usuário sem licença de produto.** Isso adiciona um novo usuário, mas você não precisa pagar por uma assinatura mensal. Selecione **Próximo**.
+1. Escolha **Criar usuário sem licença de produto.** Isso adiciona um novo usuário, mas você não precisa pagar por uma assinatura mensal. Selecione **Avançar**.
 1. Funções **abertas**.
-1. Desempure a caixa de seleção e selecione uma das funções de administrador. Selecione **Próximo**.
+1. Desempure a caixa de seleção e selecione uma das funções de administrador. Selecione **Avançar**.
 1. Revise as informações e selecione **Concluir a adição**.
 1. Selecione **Fechar**.

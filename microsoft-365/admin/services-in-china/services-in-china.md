@@ -129,11 +129,11 @@ Para organizações que executam versões mais antigas ou misturadas de Exchange
 | 2013 SP1  <br/> | 2013 SP1  <br/> | Sim  <br/> | Todos  <br/> |
 | Sp1/2010 SP3 misto 2013  <br/> | 2013 CU5  <br/> | Sim  <br/> | Todos, exceto Descoberta eDiscoveria/Arquivamento in-loco, acesso ao OWA (consulte a tabela abaixo)  <br/> |
 | Sp1/2010 SP3 misto 2013  <br/> | 2013 SP1  <br/> | Sim  <br/> | Somente livre/ocupado configurado manualmente  <br/> |
-| 2010 SP3  <br/> | 2010 SP3  <br/> | Não  <br/> | Nenhuma  <br/> |
+| 2010 SP3  <br/> | 2010 SP3  <br/> | Não  <br/> | Nenhum  <br/> |
 | 2007  <br/> | 2013 CU5  <br/> | Sim  <br/> | Somente livre/ocupado  <br/> |
 | 2007  <br/> | 2013 SP1 ou 2010 SP3No  <br/> | N/D  <br/> | Sem suporte  <br/> |
 | 2003  <br/> | 2013 SP1/CU5  <br/> | N/D  <br/> | Sem suporte  <br/> |
-| 2003  <br/> | 2010 SP3  <br/> | Não  <br/> | Nenhuma  <br/> |
+| 2003  <br/> | 2010 SP3  <br/> | Não  <br/> | Nenhum  <br/> |
 
    
 > [!IMPORTANT]

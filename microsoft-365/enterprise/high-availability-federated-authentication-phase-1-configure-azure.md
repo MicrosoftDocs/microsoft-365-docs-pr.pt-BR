@@ -13,7 +13,7 @@ f1.keywords:
 - CSH
 ms.custom: Ent_Solutions
 ms.assetid: 91266aac-4d00-4b5f-b424-86a1a837792c
-description: 'Resumo: Configure a infraestrutura do Microsoft Azure para hospedar a autenticação federada de alta disponibilidade para o Microsoft 365.'
+description: 'Resumo: configure a infraestrutura Microsoft Azure para hospedar a autenticação federada de alta disponibilidade para Microsoft 365.'
 ms.openlocfilehash: 7f9a935648fedd2c6235c443f7398f97c0a06e06
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -106,10 +106,10 @@ Para o conjunto de espaços de endereço da rede local, preencha a Tabela L. Obs
    
  **Tabela L: Prefixos de endereço para a rede local**
   
-Agora vamos começar a criar a infraestrutura do Azure para hospedar sua autenticação federada para o Microsoft 365.
+Agora vamos começar a criar a infraestrutura do Azure para hospedar sua autenticação federada para Microsoft 365.
   
 > [!NOTE]
-> [!OBSERVAçãO] O comando a seguir define o uso da versão mais recente do Azure PowerShell. Consulte [Começar com o Azure PowerShell](/powershell/azure/get-started-azureps). 
+> [!OBSERVAçãO] O comando a seguir define o uso da versão mais recente do Azure PowerShell. Consulte [Get started with Azure PowerShell](/powershell/azure/get-started-azureps). 
   
 Primeiro, inicie um prompt do Azure PowerShell e faça logon na sua conta.
   
@@ -118,7 +118,7 @@ Connect-AzAccount
 ```
 
 > [!TIP]
-> Para gerar blocos de comando prontos para execução do PowerShell com base em suas configurações personalizadas, use esta planilha de configuração [do Microsoft Excel](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx). 
+> Para gerar blocos de comando prontos para execução do PowerShell com base em suas configurações personalizadas, use esta Microsoft Excel de trabalho [de configuração](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx). 
 
 Para obter o nome de sua assinatura, use este comando.
   
@@ -126,13 +126,13 @@ Para obter o nome de sua assinatura, use este comando.
 Get-AzSubscription | Sort Name | Select Name
 ```
 
-Para versões mais antigas do Azure PowerShell, use este comando em vez disso.
+Para versões mais antigas Azure PowerShell, use este comando.
   
 ```powershell
 Get-AzSubscription | Sort Name | Select SubscriptionName
 ```
 
-Defina sua assinatura do Azure. Substitua tudo entre aspas, incluindo os \< and > caracteres, pelo nome correto.
+Defina sua assinatura do Azure. Substitua tudo o que está entre aspas, incluindo os \< and > caracteres com os nomes corretos.
   
 ```powershell
 $subscrName="<subscription name>"
@@ -159,25 +159,25 @@ Preencha a tabela a seguir para o conjunto de nomes de grupos de recursos exclus
 Crie os novos grupos de recursos com estes comandos.
   
 ```powershell
-$locName="<an Azure location, such as West US>"
-$rgName="<Table R - Item 1 - Name column>"
+$locName="<an Azure location, such as West US>&quot;
+$rgName=&quot;<Table R - Item 1 - Name column>&quot;
 New-AzResourceGroup -Name $rgName -Location $locName
-$rgName="<Table R - Item 2 - Name column>"
+$rgName=&quot;<Table R - Item 2 - Name column>&quot;
 New-AzResourceGroup -Name $rgName -Location $locName
-$rgName="<Table R - Item 3 - Name column>"
+$rgName=&quot;<Table R - Item 3 - Name column>&quot;
 New-AzResourceGroup -Name $rgName -Location $locName
-$rgName="<Table R - Item 4 - Name column>"
+$rgName=&quot;<Table R - Item 4 - Name column>&quot;
 New-AzResourceGroup -Name $rgName -Location $locName
 ```
 
 Em seguida, você criará a rede virtual do Azure e suas sub-redes.
   
 ```powershell
-$rgName="<Table R - Item 4 - Resource group name column>"
-$locName="<your Azure location>"
-$vnetName="<Table V - Item 1 - Value column>"
-$vnetAddrPrefix="<Table V - Item 4 - Value column>"
-$dnsServers=@( "<Table D - Item 1 - DNS server IP address column>", "<Table D - Item 2 - DNS server IP address column>" )
+$rgName=&quot;<Table R - Item 4 - Resource group name column>&quot;
+$locName=&quot;<your Azure location>&quot;
+$vnetName=&quot;<Table V - Item 1 - Value column>&quot;
+$vnetAddrPrefix=&quot;<Table V - Item 4 - Value column>&quot;
+$dnsServers=@( &quot;<Table D - Item 1 - DNS server IP address column>&quot;, &quot;<Table D - Item 2 - DNS server IP address column>" )
 # Get the shortened version of the location
 $locShortName=(Get-AzResourceGroup -Name $rgName).Location
 
@@ -300,9 +300,9 @@ New-AzAvailabilitySet -ResourceGroupName $rgName -Name $avName -Location $locNam
 
 Esta é a configuração resultante da conclusão bem-sucedida dessa fase.
   
-**Fase 1: a infraestrutura do Azure para autenticação federada de alta disponibilidade para o Microsoft 365**
+**Fase 1: a infraestrutura do Azure para autenticação federada de alta disponibilidade para Microsoft 365**
 
-![Fase 1 da autenticação federada do Microsoft 365 de alta disponibilidade no Azure com a infraestrutura do Azure](../media/4e7ba678-07df-40ce-b372-021bf7fc91fa.png)
+![Fase 1 da autenticação federada Microsoft 365 alta disponibilidade no Azure com a infraestrutura do Azure](../media/4e7ba678-07df-40ce-b372-021bf7fc91fa.png)
   
 ## <a name="next-step"></a>Próxima etapa
 
@@ -312,8 +312,8 @@ Use [a Fase 2: Configurar controladores de domínio para](high-availability-fede
 
 [Implantar a autenticação federada de alta disponibilidade para o Microsoft 365 no Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
   
-[Identidade federada para seu ambiente de dev/test do Microsoft 365](federated-identity-for-your-microsoft-365-dev-test-environment.md)
+[Identidade federada para seu ambiente Microsoft 365 dev/test](federated-identity-for-your-microsoft-365-dev-test-environment.md)
   
 [Centro de soluções e arquitetura do Microsoft 365](../solutions/index.yml)
 
-[Noções básicas sobre a identidade do Microsoft 365 e o Azure Active Directory](about-microsoft-365-identity.md)
+[Noções básicas Microsoft 365 identidade e Azure Active Directory](about-microsoft-365-identity.md)

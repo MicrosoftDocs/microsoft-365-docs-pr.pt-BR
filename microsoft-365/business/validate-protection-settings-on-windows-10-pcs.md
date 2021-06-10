@@ -22,7 +22,7 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: Valide as configurações de proteção de aplicativo do Microsoft 365 Business Premium em dispositivos Windows 10 e verifique se os usuários não podem copiar dados da empresa para arquivos pessoais ou aplicativos não gerenciados.
+description: Valide Microsoft 365 Business Premium configurações de proteção de aplicativos em dispositivos Windows 10 e verifique se os usuários não podem copiar dados da empresa para arquivos pessoais ou aplicativos não gerenciados.
 ms.openlocfilehash: e319ffa5149f055b5de45078facc8899acffc223
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -34,11 +34,11 @@ ms.locfileid: "51579853"
 
 ## <a name="verify-that-users-cannot-copy-company-data-to-personal-files-on-corporate-devices"></a>Verifique se os usuários não podem copiar dados da empresa para arquivos pessoais em dispositivos corporativos
 
-Depois de [configurar políticas de proteção do aplicativo](protection-settings-for-windows-10-devices.md), pode levar algumas horas para que a política entre em vigor nos dispositivos dos usuários. Se você  tiver a opção Impedir que os usuários copiem dados da empresa em arquivos pessoais e force-os a salvar arquivos de trabalho na configuração **do OneDrive for Business** para dispositivos de propriedade da empresa, você poderá verificar isso no dispositivo do usuário depois que eles se conectarem ao Azure AD e se conectarem. 
+Depois de [configurar políticas de proteção do aplicativo](protection-settings-for-windows-10-devices.md), pode levar algumas horas para que a política entre em vigor nos dispositivos dos usuários. Se você  tiver a opção Impedir que os usuários copiem dados da empresa em arquivos pessoais e **forcem-os a** salvar arquivos de trabalho na configuração OneDrive for Business dispositivos de propriedade da empresa, você poderá verificar isso no dispositivo do usuário depois que eles se conectarem ao Azure AD e se conectarem. 
   
  **Verificar configurações de conexão**
   
-1. Depois de entrar com as credenciais do Microsoft 365 Business Premium e se conectar ao Azure AD conforme descrito em Configurar dispositivos Windows para usuários do [Microsoft 365 Business Premium,](set-up-windows-devices.md)acesse **Windows Settings** \> **Accounts** \> **Access work or school**. Escolha **Conectado ao \<tenant name\> Azure AD** e escolha **Informações**.
+1. Depois de entrar com Microsoft 365 Business Premium credenciais e conectar-se ao Azure AD, conforme descrito em [Configurar](set-up-windows-devices.md)dispositivos Windows para usuários Microsoft 365 Business Premium, acesse Windows Configurações  \> **Contas** \> **access work or school**. Escolha **Conectado ao \<tenant name\> Azure AD** e escolha **Informações**.
     
     ![Click or tap Info on the Connected to Azure AD dialog.](../media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
@@ -48,7 +48,7 @@ Depois de [configurar políticas de proteção do aplicativo](protection-setting
   
  **Verifique se não é possível colar dados da empresa em um aplicativo não gerenciado**
   
-1. Abra o Outlook 2016 que foi instalado pelo Microsoft 365 Business Premium.
+1. Abra Outlook 2016 que foi instalado pelo Microsoft 365 Business Premium.
     
 2. Abra um email e copie algum conteúdo dele.
     
@@ -64,11 +64,11 @@ Depois de [configurar políticas de proteção do aplicativo](protection-setting
 
  **Verificar configurações de conexão**
   
-1. Em seu dispositivo pessoal do Windows 10 em que você está conectado como usuário local, acesse Configurações do **Windows** e clique ou toque em **Contas** Acessar o trabalho \> **ou escola**.
+1. Em seu Windows 10 dispositivo pessoal em que você está conectado como um usuário local, vá para Windows Configurações **,** e clique ou toque em **Contas** Acessar o trabalho ou a \> **escola**.
     
 2. Em **Acessar trabalho ou escola**, escolha **Conectar**.
     
-3. Insira sua credencial do Microsoft 365 Business Premium na caixa de diálogo **Configurar uma** conta de trabalho ou de estudante \> **Entre**.
+3. Insira sua Microsoft 365 Business Premium na caixa de diálogo **Configurar uma** conta de trabalho ou de estudante \> **Entre**.
     
 4. Na página **Acessar trabalho ou escola**, escolha a **Conta corporativa ou de estudante** e escolha **Informações**.
     
@@ -80,7 +80,7 @@ Depois de [configurar políticas de proteção do aplicativo](protection-setting
   
  **Verifique se não é possível colar dados da empresa em um aplicativo não gerenciado**
   
-1. Abra o Outlook 2016 e adicione sua conta do Microsoft 365 Business Premium, se necessário, e entre com suas credenciais do Microsoft 365 Business Premium.
+1. Abra Outlook 2016 e adicione sua conta Microsoft 365 Business Premium se necessário e entre com suas Microsoft 365 Business Premium credenciais.
     
 2. Abra um email e copie algum conteúdo dele.
     
