@@ -19,39 +19,39 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/24/2021
 ms.locfileid: "52636249"
 ---
-# <a name="step-3-use-power-automate-to-create-your-flow-to-process-your-contracts"></a><span data-ttu-id="0b1cf-104">Etapa 3.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-104">Step 3.</span></span> <span data-ttu-id="0b1cf-105">Use Power Automate para criar seu fluxo para processar seus contratos</span><span class="sxs-lookup"><span data-stu-id="0b1cf-105">Use Power Automate to create your flow to process your contracts</span></span>
+# <a name="step-3-use-power-automate-to-create-your-flow-to-process-your-contracts"></a><span data-ttu-id="51469-104">Etapa 3.</span><span class="sxs-lookup"><span data-stu-id="51469-104">Step 3.</span></span> <span data-ttu-id="51469-105">Use Power Automate para criar seu fluxo para processar seus contratos</span><span class="sxs-lookup"><span data-stu-id="51469-105">Use Power Automate to create your flow to process your contracts</span></span>
 
-<span data-ttu-id="0b1cf-106">Você criou seu canal de Gerenciamento de Contratos e anexou sua SharePoint de documentos.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-106">You've created your Contract Management channel and have attached your SharePoint document library.</span></span> <span data-ttu-id="0b1cf-107">A próxima etapa é criar um fluxo Power Automate para processar seus contratos que seu modelo SharePoint Syntex identifica e classifica.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-107">The next step is to create a Power Automate flow to process your contracts that your SharePoint Syntex model identifies and classifies.</span></span> <span data-ttu-id="0b1cf-108">Você pode fazer essa etapa criando [um fluxo Power Automate na biblioteca SharePoint de documentos.](https://support.microsoft.com/office/create-a-flow-for-a-list-or-library-in-sharepoint-or-onedrive-a9c3e03b-0654-46af-a254-20252e580d01)</span><span class="sxs-lookup"><span data-stu-id="0b1cf-108">You can do this step by [creating a Power Automate flow in your SharePoint document library](https://support.microsoft.com/office/create-a-flow-for-a-list-or-library-in-sharepoint-or-onedrive-a9c3e03b-0654-46af-a254-20252e580d01).</span></span>
+<span data-ttu-id="51469-106">Você criou seu canal de Gerenciamento de Contratos e anexou sua SharePoint de documentos.</span><span class="sxs-lookup"><span data-stu-id="51469-106">You've created your Contract Management channel and have attached your SharePoint document library.</span></span> <span data-ttu-id="51469-107">A próxima etapa é criar um fluxo Power Automate para processar seus contratos que seu modelo SharePoint Syntex identifica e classifica.</span><span class="sxs-lookup"><span data-stu-id="51469-107">The next step is to create a Power Automate flow to process your contracts that your SharePoint Syntex model identifies and classifies.</span></span> <span data-ttu-id="51469-108">Você pode fazer essa etapa criando [um fluxo Power Automate na biblioteca SharePoint de documentos.](https://support.microsoft.com/office/create-a-flow-for-a-list-or-library-in-sharepoint-or-onedrive-a9c3e03b-0654-46af-a254-20252e580d01)</span><span class="sxs-lookup"><span data-stu-id="51469-108">You can do this step by [creating a Power Automate flow in your SharePoint document library](https://support.microsoft.com/office/create-a-flow-for-a-list-or-library-in-sharepoint-or-onedrive-a9c3e03b-0654-46af-a254-20252e580d01).</span></span>
 
-<span data-ttu-id="0b1cf-109">Para a solução de gerenciamento de contratos, você deseja criar um fluxo Power Automate para fazer as seguintes ações:</span><span class="sxs-lookup"><span data-stu-id="0b1cf-109">For your contracts management solution, you want to create a Power Automate flow to do the following actions:</span></span>
+<span data-ttu-id="51469-109">Para a solução de gerenciamento de contratos, você deseja criar um fluxo Power Automate para fazer as seguintes ações:</span><span class="sxs-lookup"><span data-stu-id="51469-109">For your contracts management solution, you want to create a Power Automate flow to do the following actions:</span></span>
 
--  <span data-ttu-id="0b1cf-110">Depois que um contrato tiver sido classificado pelo seu modelo SharePoint Syntex, altere o status do contrato para **Em revisão.**</span><span class="sxs-lookup"><span data-stu-id="0b1cf-110">After a contract has been classified by your SharePoint Syntex model, change the contract status to **In review**.</span></span>
-- <span data-ttu-id="0b1cf-111">Em seguida, o contrato é revisado e aprovado ou rejeitado.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-111">The contract is then reviewed and is either approved or rejected.</span></span>
-- <span data-ttu-id="0b1cf-112">Para contratos aprovados, as informações do contrato são postadas em uma guia para processamento de pagamento.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-112">For approved contracts, the contract information is posted to a tab for payment processing.</span></span>
-- <span data-ttu-id="0b1cf-113">Para contratos rejeitados, a equipe é notificada para análise posterior.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-113">For rejected contracts, the team is notified for further analysis.</span></span> 
+-  <span data-ttu-id="51469-110">Depois que um contrato tiver sido classificado pelo seu modelo SharePoint Syntex, altere o status do contrato para **Em revisão.**</span><span class="sxs-lookup"><span data-stu-id="51469-110">After a contract has been classified by your SharePoint Syntex model, change the contract status to **In review**.</span></span>
+- <span data-ttu-id="51469-111">Em seguida, o contrato é revisado e aprovado ou rejeitado.</span><span class="sxs-lookup"><span data-stu-id="51469-111">The contract is then reviewed and is either approved or rejected.</span></span>
+- <span data-ttu-id="51469-112">Para contratos aprovados, as informações do contrato são postadas em uma guia para processamento de pagamento.</span><span class="sxs-lookup"><span data-stu-id="51469-112">For approved contracts, the contract information is posted to a tab for payment processing.</span></span>
+- <span data-ttu-id="51469-113">Para contratos rejeitados, a equipe é notificada para análise posterior.</span><span class="sxs-lookup"><span data-stu-id="51469-113">For rejected contracts, the team is notified for further analysis.</span></span> 
 
-<span data-ttu-id="0b1cf-114">O diagrama a seguir mostra o fluxo Power Automate para a solução de gerenciamento de contratos.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-114">The following diagram shows the Power Automate flow for the contract management solution.</span></span>
+<span data-ttu-id="51469-114">O diagrama a seguir mostra o fluxo Power Automate para a solução de gerenciamento de contratos.</span><span class="sxs-lookup"><span data-stu-id="51469-114">The following diagram shows the Power Automate flow for the contract management solution.</span></span>
 
 ![Flow diagrama mostrando a solução inteira.](../media/content-understanding/flow-entire-process.png)
 
-## <a name="prepare-your-contract-for-review"></a><span data-ttu-id="0b1cf-116">Preparar seu contrato para revisão</span><span class="sxs-lookup"><span data-stu-id="0b1cf-116">Prepare your contract for review</span></span>
+## <a name="prepare-your-contract-for-review"></a><span data-ttu-id="51469-116">Preparar seu contrato para revisão</span><span class="sxs-lookup"><span data-stu-id="51469-116">Prepare your contract for review</span></span>
 
-<span data-ttu-id="0b1cf-117">Quando um contrato é identificado e classificado pelo seu modelo de SharePoint de entendimento do documento Syntex, o fluxo de Power Automate primeiro alterará o status para **Em revisão**.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-117">When a contract is identified and classified by your SharePoint Syntex document understanding model, the Power Automate flow will first change the status to **In review**.</span></span>
+<span data-ttu-id="51469-117">Quando um contrato é identificado e classificado pelo seu modelo de SharePoint de entendimento do documento Syntex, o fluxo de Power Automate primeiro alterará o status para **Em revisão**.</span><span class="sxs-lookup"><span data-stu-id="51469-117">When a contract is identified and classified by your SharePoint Syntex document understanding model, the Power Automate flow will first change the status to **In review**.</span></span>
 
 ![Status da atualização.](../media/content-understanding/flow-overview.png)
 
-<span data-ttu-id="0b1cf-119">Depois de fazer check-out do arquivo, altere o valor de status para **Em revisão**.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-119">After checking out the file, change the status value to **In review**.</span></span>
+<span data-ttu-id="51469-119">Depois de fazer check-out do arquivo, altere o valor de status para **Em revisão**.</span><span class="sxs-lookup"><span data-stu-id="51469-119">After checking out the file, change the status value to **In review**.</span></span>
 
 ![Em status de revisão.](../media/content-understanding/in-review.png)
 
-<span data-ttu-id="0b1cf-121">A próxima etapa é criar um cartão adaptável informando que o contrato está aguardando revisão e postagem no canal gerenciamento de contratos.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-121">The next step is to create an adaptive card stating that the contract is waiting for review and posting it to the Contract Management channel.</span></span>
+<span data-ttu-id="51469-121">A próxima etapa é criar um cartão adaptável informando que o contrato está aguardando revisão e postagem no canal gerenciamento de contratos.</span><span class="sxs-lookup"><span data-stu-id="51469-121">The next step is to create an adaptive card stating that the contract is waiting for review and posting it to the Contract Management channel.</span></span>
 
 ![Postagem de revisão de contrato.](../media/content-understanding/contract-approval-post.png)
 
 
 ![Criar cartão adaptável para revisão.](../media/content-understanding/adaptive-card.png)
 
-<span data-ttu-id="0b1cf-124">O código a seguir é o JSON usado para esta etapa no Power Automate fluxo.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-124">The following code is the JSON used for this step in the Power Automate flow.</span></span>
+<span data-ttu-id="51469-124">O código a seguir é o JSON usado para esta etapa no Power Automate fluxo.</span><span class="sxs-lookup"><span data-stu-id="51469-124">The following code is the JSON used for this step in the Power Automate flow.</span></span>
 
 ```JSON
 {
@@ -127,40 +127,40 @@ ms.locfileid: "52636249"
 ```
 
 
-## <a name="conditional"></a><span data-ttu-id="0b1cf-125">Condicional</span><span class="sxs-lookup"><span data-stu-id="0b1cf-125">Conditional</span></span>
+## <a name="conditional"></a><span data-ttu-id="51469-125">Condicional</span><span class="sxs-lookup"><span data-stu-id="51469-125">Conditional</span></span>
 
-<span data-ttu-id="0b1cf-126">Em seu fluxo, em seguida, você precisa criar uma condição na qual seu contrato será aprovado ou rejeitado.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-126">In your flow, next you need to create a condition in which your contract will be either  approved or rejected.</span></span>
+<span data-ttu-id="51469-126">Em seu fluxo, em seguida, você precisa criar uma condição na qual seu contrato será aprovado ou rejeitado.</span><span class="sxs-lookup"><span data-stu-id="51469-126">In your flow, next you need to create a condition in which your contract will be either  approved or rejected.</span></span>
 
 ![Condicional.](../media/content-understanding/condition.png)
 
-## <a name="if-the-contract-is-approved"></a><span data-ttu-id="0b1cf-128">Se o contrato for aprovado</span><span class="sxs-lookup"><span data-stu-id="0b1cf-128">If the contract is approved</span></span>
+## <a name="if-the-contract-is-approved"></a><span data-ttu-id="51469-128">Se o contrato for aprovado</span><span class="sxs-lookup"><span data-stu-id="51469-128">If the contract is approved</span></span>
 
-<span data-ttu-id="0b1cf-129">Quando um contrato é aprovado, ocorrem as seguintes coisas:</span><span class="sxs-lookup"><span data-stu-id="0b1cf-129">When a contract has been approved, the following things occur:</span></span>
+<span data-ttu-id="51469-129">Quando um contrato é aprovado, ocorrem as seguintes coisas:</span><span class="sxs-lookup"><span data-stu-id="51469-129">When a contract has been approved, the following things occur:</span></span>
 
-- <span data-ttu-id="0b1cf-130">Na guia **Contratos,** o status no cartão de contrato mudará para **Aprovado**.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-130">On the **Contracts** tab, the status in the contract card will change to **Approved**.</span></span>
+- <span data-ttu-id="51469-130">Na guia **Contratos,** o status no cartão de contrato mudará para **Aprovado**.</span><span class="sxs-lookup"><span data-stu-id="51469-130">On the **Contracts** tab, the status in the contract card will change to **Approved**.</span></span>
 
    ![Status do cartão aprovado.](../media/content-understanding/approved-contracts-tab.png)
 
-- <span data-ttu-id="0b1cf-132">Em seu fluxo, o status é alterado para **Aprovado**.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-132">In your flow, the status is changed to **Approved**.</span></span>
+- <span data-ttu-id="51469-132">Em seu fluxo, o status é alterado para **Aprovado**.</span><span class="sxs-lookup"><span data-stu-id="51469-132">In your flow, the status is changed to **Approved**.</span></span>
 
    ![Flow status aprovado.](../media/content-understanding/status-approved.png)
 
-- <span data-ttu-id="0b1cf-134">Nesta solução, os dados do contrato serão adicionados à guia **Para** Pagamento para que os pagamentos possam ser gerenciados.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-134">In this solution, the contract data will be added to the **For Payout** tab so that the payouts can be managed.</span></span> <span data-ttu-id="0b1cf-135">Esse processo pode ser estendido para permitir que o fluxo envie os contratos para pagamento por um aplicativo financeiro de terceiros (por exemplo, Dynamics CRM).</span><span class="sxs-lookup"><span data-stu-id="0b1cf-135">This process can be extended to allow the flow to submit the contracts for payment by a third-party financial application (for example, Dynamics CRM).</span></span>
+- <span data-ttu-id="51469-134">Nesta solução, os dados do contrato serão adicionados à guia **Para** Pagamento para que os pagamentos possam ser gerenciados.</span><span class="sxs-lookup"><span data-stu-id="51469-134">In this solution, the contract data will be added to the **For Payout** tab so that the payouts can be managed.</span></span> <span data-ttu-id="51469-135">Esse processo pode ser estendido para permitir que o fluxo envie os contratos para pagamento por um aplicativo financeiro de terceiros (por exemplo, Dynamics CRM).</span><span class="sxs-lookup"><span data-stu-id="51469-135">This process can be extended to allow the flow to submit the contracts for payment by a third-party financial application (for example, Dynamics CRM).</span></span>
 
    ![Contrato movido para Pagamento.](../media/content-understanding/for-payout.png)
 
-- <span data-ttu-id="0b1cf-137">No fluxo, você cria o item a seguir para mover contratos aprovados para a **guia Para Pagamento.**</span><span class="sxs-lookup"><span data-stu-id="0b1cf-137">In the flow, you create the following item to move approved contracts to the **For Payout** tab.</span></span>
+- <span data-ttu-id="51469-137">No fluxo, você cria o item a seguir para mover contratos aprovados para a **guia Para Pagamento.**</span><span class="sxs-lookup"><span data-stu-id="51469-137">In the flow, you create the following item to move approved contracts to the **For Payout** tab.</span></span>
 
    ![Flow item para mover para Pagar.](../media/content-understanding/ready-for-payout.png)
 
-- <span data-ttu-id="0b1cf-139">Um cartão adaptável informando que o contrato foi aprovado é criado e postado no canal Gerenciamento de Contratos.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-139">An adaptive card stating that the contract has been approved is created and posted to the Contract Management channel.</span></span>
+- <span data-ttu-id="51469-139">Um cartão adaptável informando que o contrato foi aprovado é criado e postado no canal Gerenciamento de Contratos.</span><span class="sxs-lookup"><span data-stu-id="51469-139">An adaptive card stating that the contract has been approved is created and posted to the Contract Management channel.</span></span>
 
    ![Aprovação de contrato postada.](../media/content-understanding/adaptive-card-approval.png)
 
    ![Aprovação de cartão adaptável.](../media/content-understanding/adaptive-card.png)
 
 
-   <span data-ttu-id="0b1cf-142">O código a seguir é o JSON usado para esta etapa no Power Automate fluxo.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-142">The following code is the JSON used for this step in the Power Automate flow.</span></span>
+   <span data-ttu-id="51469-142">O código a seguir é o JSON usado para esta etapa no Power Automate fluxo.</span><span class="sxs-lookup"><span data-stu-id="51469-142">The following code is the JSON used for this step in the Power Automate flow.</span></span>
 
 ```JSON
 { 
@@ -240,23 +240,23 @@ ms.locfileid: "52636249"
 }
 ```
 
-## <a name="if-the-contract-is-rejected"></a><span data-ttu-id="0b1cf-143">Se o contrato for rejeitado</span><span class="sxs-lookup"><span data-stu-id="0b1cf-143">If the contract is rejected</span></span>
+## <a name="if-the-contract-is-rejected"></a><span data-ttu-id="51469-143">Se o contrato for rejeitado</span><span class="sxs-lookup"><span data-stu-id="51469-143">If the contract is rejected</span></span>
 
-<span data-ttu-id="0b1cf-144">Quando um contrato é rejeitado, ocorrem as seguintes coisas:</span><span class="sxs-lookup"><span data-stu-id="0b1cf-144">When a contract has been rejected, the following things occur:</span></span>
+<span data-ttu-id="51469-144">Quando um contrato é rejeitado, ocorrem as seguintes coisas:</span><span class="sxs-lookup"><span data-stu-id="51469-144">When a contract has been rejected, the following things occur:</span></span>
 
-- <span data-ttu-id="0b1cf-145">Na guia **Contratos,** o status no cartão de contrato mudará para **Rejeitado**.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-145">On the **Contracts** tab, the status in the contract card will change to **Rejected**.</span></span>
+- <span data-ttu-id="51469-145">Na guia **Contratos,** o status no cartão de contrato mudará para **Rejeitado**.</span><span class="sxs-lookup"><span data-stu-id="51469-145">On the **Contracts** tab, the status in the contract card will change to **Rejected**.</span></span>
 
    ![Status do cartão rejeitado.](../media/content-understanding/rejected-contracts-tab.png)
 
-- <span data-ttu-id="0b1cf-147">Em seu fluxo, você faz check-out do arquivo de contrato, altera o status para **Rejeitado** e, em seguida, faz check-in do arquivo novamente.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-147">In your flow, you check out the contract file, change the status to **Rejected**, and then check the file back in.</span></span>
+- <span data-ttu-id="51469-147">Em seu fluxo, você faz check-out do arquivo de contrato, altera o status para **Rejeitado** e, em seguida, faz check-in do arquivo novamente.</span><span class="sxs-lookup"><span data-stu-id="51469-147">In your flow, you check out the contract file, change the status to **Rejected**, and then check the file back in.</span></span>
 
    ![Flow status rejeitado.](../media/content-understanding/reject-flow.png)
 
-- <span data-ttu-id="0b1cf-149">Em seu fluxo, você cria um cartão adaptável informando que o contrato foi rejeitado.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-149">In your flow, you create an adaptive card stating that the contract has been rejected.</span></span>
+- <span data-ttu-id="51469-149">Em seu fluxo, você cria um cartão adaptável informando que o contrato foi rejeitado.</span><span class="sxs-lookup"><span data-stu-id="51469-149">In your flow, you create an adaptive card stating that the contract has been rejected.</span></span>
 
    ![Flow status rejeitado.](../media/content-understanding/reject-flow-item.png)
 
-<span data-ttu-id="0b1cf-151">O código a seguir é o JSON usado para esta etapa no Power Automate fluxo.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-151">The following code is the JSON used for this step in the Power Automate flow.</span></span>
+<span data-ttu-id="51469-151">O código a seguir é o JSON usado para esta etapa no Power Automate fluxo.</span><span class="sxs-lookup"><span data-stu-id="51469-151">The following code is the JSON used for this step in the Power Automate flow.</span></span>
 
 ```JSON
 { 
@@ -336,6 +336,6 @@ ms.locfileid: "52636249"
 }
 ```
 
-- <span data-ttu-id="0b1cf-152">O cartão é postado no canal Gerenciamento de Contratos.</span><span class="sxs-lookup"><span data-stu-id="0b1cf-152">The card is posted in the Contract Management channel.</span></span>
+- <span data-ttu-id="51469-152">O cartão é postado no canal Gerenciamento de Contratos.</span><span class="sxs-lookup"><span data-stu-id="51469-152">The card is posted in the Contract Management channel.</span></span>
 
    ![Flow cartão adaptável a ser rejeitado.](../media/content-understanding/rejected.png)
