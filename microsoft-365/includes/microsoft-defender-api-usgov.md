@@ -22,4 +22,4 @@ ms.lasthandoff: 03/25/2021
 ms.locfileid: "51197777"
 ---
 >[!NOTE]
-><span data-ttu-id="ddadd-104">Se você for um cliente do Governo dos EUA, use os URIs listados no [Microsoft Defender for Endpoint para clientes do Governo dos EUA.](/microsoft-365/security/defender-endpoint/gov#api)</span><span class="sxs-lookup"><span data-stu-id="ddadd-104">If you are a US Government customer, please use the URIs listed in [Microsoft Defender for Endpoint for US Government customers](/microsoft-365/security/defender-endpoint/gov#api).</span></span>
+><span data-ttu-id="ecb57-104">Se você for um cliente do Governo dos EUA, use os URIs listados no [Microsoft Defender for Endpoint para clientes do Governo dos EUA.](/microsoft-365/security/defender-endpoint/gov#api)</span><span class="sxs-lookup"><span data-stu-id="ecb57-104">If you are a US Government customer, please use the URIs listed in [Microsoft Defender for Endpoint for US Government customers](/microsoft-365/security/defender-endpoint/gov#api).</span></span>

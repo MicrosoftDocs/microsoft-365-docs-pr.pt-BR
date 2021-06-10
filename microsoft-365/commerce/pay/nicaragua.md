@@ -20,16 +20,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52535321"
 ---
-# <a name="payment-information-for-nicaragua"></a><span data-ttu-id="11a01-103">Informações de pagamento para Nicarágua</span><span class="sxs-lookup"><span data-stu-id="11a01-103">Payment information for Nicaragua</span></span>
+# <a name="payment-information-for-nicaragua"></a><span data-ttu-id="9aacd-103">Informações de pagamento para Nicarágua</span><span class="sxs-lookup"><span data-stu-id="9aacd-103">Payment information for Nicaragua</span></span>
 
-<span data-ttu-id="11a01-104">[Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="11a01-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="9aacd-104">[Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="9aacd-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="11a01-105">Por favor, pague somente em USD e faça referência aos números da fatura em sua remessa de pagamento.</span><span class="sxs-lookup"><span data-stu-id="11a01-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="9aacd-105">Por favor, pague somente em USD e faça referência aos números da fatura em sua remessa de pagamento.</span><span class="sxs-lookup"><span data-stu-id="9aacd-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="11a01-106">Transferência Eletrônica de Fundos</span><span class="sxs-lookup"><span data-stu-id="11a01-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="9aacd-106">Transferência Eletrônica de Fundos</span><span class="sxs-lookup"><span data-stu-id="9aacd-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="11a01-107">**Banco:** Bank of America</span><span class="sxs-lookup"><span data-stu-id="11a01-107">**Bank:** Bank of America</span></span>  
-<span data-ttu-id="11a01-108">**Branch:** Dallas</span><span class="sxs-lookup"><span data-stu-id="11a01-108">**Branch:** Dallas</span></span>  
-<span data-ttu-id="11a01-109">**Código SWIFT:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="11a01-109">**SWIFT Code:** BOFAUS3N</span></span>  
-<span data-ttu-id="11a01-110">**Número da conta:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="11a01-110">**Account Number:** 4426587954</span></span>  
-<span data-ttu-id="11a01-111">**Nome da conta:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="11a01-111">**Account Name:** Microsoft</span></span>
+<span data-ttu-id="9aacd-107">**Banco:** Bank of America</span><span class="sxs-lookup"><span data-stu-id="9aacd-107">**Bank:** Bank of America</span></span>  
+<span data-ttu-id="9aacd-108">**Branch:** Dallas</span><span class="sxs-lookup"><span data-stu-id="9aacd-108">**Branch:** Dallas</span></span>  
+<span data-ttu-id="9aacd-109">**Código SWIFT:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="9aacd-109">**SWIFT Code:** BOFAUS3N</span></span>  
+<span data-ttu-id="9aacd-110">**Número da conta:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="9aacd-110">**Account Number:** 4426587954</span></span>  
+<span data-ttu-id="9aacd-111">**Nome da conta:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="9aacd-111">**Account Name:** Microsoft</span></span>
