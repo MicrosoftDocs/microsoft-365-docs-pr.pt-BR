@@ -14,7 +14,7 @@ search.appverid:
 ms.assetid: ac11edd9-2da3-462d-8ea3-bbf9dbc6f948
 ms.collection:
 - M365-security-compliance
-description: Saiba como os pools de entrega são usados para proteger a reputação dos servidores de email nos datacenters do Microsoft 365.
+description: Saiba como os pools de entrega são usados para proteger a reputação dos servidores de email nos Microsoft 365 datacenters.
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: ac3469150ef5cf5c1040fcddf7f0bc95e7a18805
@@ -33,12 +33,12 @@ ms.locfileid: "51599906"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Os servidores de email nos datacenters do Microsoft 365 podem ser temporariamente considerados como os que enviam spam. Por exemplo, um ataque de malware ou spam mal-intencionado em uma organização de email local que envia emails de saída por meio do Microsoft 365 ou contas comprometidas do Microsoft 365. Os invasores também tentam evitar a detecção retransmitindo mensagens por meio do encaminhamento do Microsoft 365.
+Os servidores de email Microsoft 365 datacenters podem ser temporariamente considerados como os que enviam spam. Por exemplo, um ataque de malware ou spam mal-intencionado em uma organização de email local que envia emails de saída por meio de Microsoft 365 ou contas Microsoft 365 comprometidas. Os invasores também tentam evitar a detecção retransmitindo mensagens Microsoft 365 encaminhamento.
 
-Esses cenários podem resultar no endereço IP dos servidores de datacenter do Microsoft 365 afetados que aparecem em listas de bloqueios de terceiros. As organizações de email de destino que usam essas listas de bloqueio rejeitarão emails dessas fontes de mensagens.
+Esses cenários podem resultar no endereço IP dos servidores Microsoft 365 datacenter afetados que aparecem em listas de bloqueio de terceiros. As organizações de email de destino que usam essas listas de bloqueio rejeitarão emails dessas fontes de mensagens.
 
 ## <a name="high-risk-delivery-pool"></a>Pool de entrega de alto risco
-Para evitar isso, todas as mensagens de saída dos servidores de datacenter do Microsoft 365 que são determinadas como spam ou que excedem os limites de envio do serviço ou das políticas de [spam](configure-the-outbound-spam-policy.md) de saída são enviadas por meio do _pool_ de entrega de alto risco. [](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)
+Para evitar isso, todas as mensagens de saída de servidores de datacenter Microsoft 365 que são [](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) determinadas como spam ou que excedem os limites de envio do serviço ou das políticas de [spam](configure-the-outbound-spam-policy.md) de saída são enviadas por meio do _pool_ de entrega de alto risco.
 
 O pool de entrega de alto risco é um pool de endereços IP separado para email de saída que é usado apenas para enviar mensagens de "baixa qualidade" (por exemplo, spam e [backscatter](backscatter-messages-and-eop.md)). O uso do pool de entrega de alto risco ajuda a impedir que o pool de endereços IP normal para email de saída envie spam. O pool de endereços IP normal para email de saída mantém a reputação de envio de mensagens de "alta qualidade", o que reduz a probabilidade de que esses endereços IP apareçam em listas de bloqueios de IP.
 

@@ -28,7 +28,7 @@ ms.locfileid: "51615490"
 ---
 # <a name="policies-for-allowing-guest-access-and-b2b-external-user-access"></a>Políticas para permitir acesso de convidados e acesso de usuário externo B2B
 
-Este artigo discute o ajuste das políticas recomendadas de acesso a dispositivos e identidades para permitir o acesso a convidados e usuários externos que tenham uma conta do Azure Active Directory (Azure AD) Business-to-Business (B2B). Essa orientação se baseia nas políticas [comuns de identidade e acesso a dispositivos.](identity-access-policies.md)
+Este artigo aborda o ajuste das políticas recomendadas de acesso a dispositivos e identidades para permitir o acesso a convidados e usuários externos que tenham uma conta do Azure Active Directory (Azure AD) Business-to-Business (B2B). Essa orientação se baseia nas políticas [comuns de identidade e acesso a dispositivos.](identity-access-policies.md)
 
 Essas recomendações foram projetadas para se aplicar à camada **de linha** de base de proteção. Mas você também pode ajustar as recomendações com base em suas necessidades específicas para **proteção** sensível **e altamente regulamentada.**
 
@@ -54,9 +54,9 @@ Para incluir ou excluir convidados e usuários externos em políticas de Acesso 
 
 ## <a name="more-information"></a>Mais informações
 
-### <a name="guests-and-external-user-access-with-microsoft-teams"></a>Convidados e acesso de usuário externo com o Microsoft Teams
+### <a name="guests-and-external-user-access-with-microsoft-teams"></a>Convidados e acesso de usuário externo com Microsoft Teams
 
-O Microsoft Teams define os seguintes usuários:
+Microsoft Teams define os seguintes usuários:
 
 - **O acesso de** convidados usa uma conta B2B do Azure AD que pode ser adicionada como membro de uma equipe e ter acesso às comunicações e recursos da equipe.
 
@@ -64,7 +64,7 @@ O Microsoft Teams define os seguintes usuários:
 
 Para obter mais informações, consulte a [comparação entre convidados e acesso de usuário externo para equipes](/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access).
 
-Para obter mais informações sobre como proteger políticas de acesso de identidade e dispositivo para o Teams, consulte Recomendações de política para proteger [chats,](teams-access-policies.md)grupos e arquivos do Teams.
+Para obter mais informações sobre como proteger políticas de identidade e acesso a dispositivos para Teams, consulte Recomendações de política para proteger Teams [chats,](teams-access-policies.md)grupos e arquivos.
 
 ### <a name="require-mfa-always-for-guest-and-external-users"></a>Exigir MFA sempre para usuários convidados e externos
 
@@ -82,7 +82,7 @@ Somente uma organização pode gerenciar um dispositivo. Se você não excluir c
 
 ## <a name="next-step"></a>Próxima etapa
 
-![Etapa 4: Políticas para aplicativos de nuvem do Microsoft 365 e Segurança do Microsoft Cloud App](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
+![Etapa 4: Políticas para aplicativos Microsoft 365 nuvem e Microsoft Cloud App Security](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
 
 Configurar políticas de Acesso Condicional para:
 

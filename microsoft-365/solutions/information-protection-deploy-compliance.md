@@ -31,14 +31,14 @@ O Microsoft Compliance Manager pode ajudá-lo a gerenciar melhorias relacionadas
 Este artigo fornece orientações sobre o uso dessa ferramenta para fins de privacidade de dados.
 
 >[!Note]
->As recomendações do Gerenciador de Conformidade não devem ser interpretadas como uma garantia de conformidade. Você deve avaliar e validar a eficácia dos controles do cliente de acordo com seu ambiente regulatório. Esses serviços estão sujeitos aos termos e condições nos Termos [de Serviços Online.](https://go.microsoft.com/fwlink/?linkid=2108910) Consulte também diretrizes de licenciamento do [Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
+>As recomendações do Gerenciador de Conformidade não devem ser interpretadas como uma garantia de conformidade. Você deve avaliar e validar a eficácia dos controles do cliente de acordo com seu ambiente regulatório. Esses serviços estão sujeitos aos termos e condições nos Termos [de Serviços Online.](https://go.microsoft.com/fwlink/?linkid=2108910) Consulte também [Microsoft 365 diretrizes de licenciamento para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
 >
 
 ## <a name="getting-started-with-compliance-manager"></a>Iniciando com o Gerenciador de Conformidade
 
 #### <a name="what-is-compliance-manager"></a>O que é o Gerenciador de Conformidade
 
-[O Gerenciador de](../compliance/compliance-manager.md) Conformidade é uma ferramenta de avaliação de risco baseada em fluxo de trabalho no centro de conformidade do Microsoft 365 para gerenciar atividades de conformidade regulamentar relacionadas aos serviços de nuvem da Microsoft. Como parte de sua assinatura do Microsoft 365 ou do Azure Active Directory (Azure AD), o Gerenciador de Conformidade ajuda você a gerenciar a conformidade regulamentar no modelo de responsabilidade compartilhada para serviços de nuvem da Microsoft.
+[O Gerenciador de](../compliance/compliance-manager.md) Conformidade é uma ferramenta de avaliação de risco baseada em fluxo de trabalho no centro de conformidade Microsoft 365 gerenciamento de atividades de conformidade regulamentar relacionadas aos serviços de nuvem da Microsoft. Como parte de sua assinatura Microsoft 365 ou Azure Active Directory (Azure AD), o Gerenciador de Conformidade ajuda você a gerenciar a conformidade regulamentar no modelo de responsabilidade compartilhada para os serviços de nuvem da Microsoft.
 
 **Pronto para usar avaliações**
 
@@ -66,7 +66,7 @@ O [guia de início rápido do Gerenciador](../compliance/compliance-manager-quic
     - Executar a implementação e o teste funcionam em ações de melhoria para concluir controles em suas avaliações
     - Noções básicas sobre como ações diferentes impactam sua pontuação de conformidade
 - [Dimensionamento: use a funcionalidade avançada para atender às suas necessidades personalizadas](../compliance/compliance-manager-quickstart.md#scaling-up-use-advanced-functionality-to-meet-your-custom-needs)
-    - Criar avaliações personalizadas para rastrear produtos que não são do Microsoft 365
+    - Criando suas avaliações personalizadas para rastrear produtos que não Microsoft 365 produtos
     - Modificar modelos existentes para adicionar ou remover controles
     - Configuração de testes automatizados de ações de melhoria
 

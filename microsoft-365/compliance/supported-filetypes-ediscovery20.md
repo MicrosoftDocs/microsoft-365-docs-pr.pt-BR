@@ -1,5 +1,5 @@
 ---
-title: Tipos de arquivo com suporte na Descoberta Avançada da Descoberta
+title: Tipos de arquivo com suporte em Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,7 +14,7 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Uma lista de tipos de arquivos com suporte na Descoberta eDiscoverIa Avançada do Microsoft 365, incluindo tipos de arquivo de imagem suportados pela funcionalidade OCR na Descoberta eDiscoveria Avançada.
+description: Uma lista de tipos de arquivo com suporte Microsoft 365 Advanced eDiscovery, incluindo tipos de arquivo de imagem com suporte da funcionalidade OCR no Advanced eDiscovery.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 719a0474d45825114cf4ea3fbd19082bb8df7622
 ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
@@ -23,9 +23,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/06/2021
 ms.locfileid: "51599826"
 ---
-# <a name="supported-file-types-in-advanced-ediscovery"></a>Tipos de arquivo com suporte na Descoberta Avançada da Descoberta
+# <a name="supported-file-types-in-advanced-ediscovery"></a>Tipos de arquivo com suporte em Advanced eDiscovery
 
-A Descoberta Avançada oferece suporte a muitos tipos de arquivo em vários níveis diferentes. Os tipos de arquivos de suporte são descritos nas tabelas a seguir neste artigo. Esta lista não foi finalizada e adicionaremos novos tipos de arquivo à medida que continuarmos nossos testes de validação. Essas tabelas indicam se há suporte para um tipo de arquivo para extração de texto (e reconhecimento óptico de caracteres ou extração de texto OCR para arquivos de imagem), visualização no visualizador nativo e também suporte no visualizador Anotado na Descoberta Avançada.
+Advanced eDiscovery dá suporte a muitos tipos de arquivo em vários níveis diferentes. Os tipos de arquivos de suporte são descritos nas tabelas a seguir neste artigo. Esta lista não foi finalizada e adicionaremos novos tipos de arquivo à medida que continuarmos nossos testes de validação. Essas tabelas indicam se há suporte para um tipo de arquivo para extração de texto (e reconhecimento óptico de caracteres ou extração de texto OCR para arquivos de imagem), que pode ser visualizado no visualizador nativo e também suporte no visualizador Anotado no Advanced eDiscovery.
 
 ## <a name="archive--container"></a>Arquivo morto/contêiner
 
@@ -49,7 +49,7 @@ A Descoberta Avançada oferece suporte a muitos tipos de arquivo em vários nív
 |video/x-m4v | Sim | Sim | Não | Sim | Não | .m4v |
 ||||||||
 
-## <a name="database"></a>Database
+## <a name="database"></a>Banco de dados
 
 | Tipo mime | Identificação de arquivo | Extração de metadados | Extração de texto | Visualizador nativo | Visualizador de anotações | Extensões Possíveis |
 |:------| :------| :------| :------| :------| :------| :------|

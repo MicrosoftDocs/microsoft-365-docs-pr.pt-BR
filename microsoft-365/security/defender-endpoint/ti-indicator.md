@@ -66,7 +66,7 @@ expirationTime | DateTimeOffset | O tempo de expiração do indicador.
 lastUpdateTime | DateTimeOffset | A última vez que o indicador foi atualizado.
 severity | Enum | A gravidade do indicador. os valores possíveis são: "Informacional", "Baixo", "Médio" e "Alto".
 title | Cadeia de caracteres | Título do indicador.
-description | Cadeia de caracteres | Descrição do indicador.
+descrição | Cadeia de caracteres | Descrição do indicador.
 recommendedActions | Cadeia de caracteres | Ações recomendadas para o indicador.
 rbacGroupNames | Lista de cadeias de caracteres | Nomes de grupo de dispositivos RBAC onde o indicador é exposto e ativo. Lista vazia caso ela seja exposta a todos os dispositivos.
 

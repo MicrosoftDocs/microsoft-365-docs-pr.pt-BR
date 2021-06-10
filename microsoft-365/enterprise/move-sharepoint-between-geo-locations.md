@@ -13,7 +13,7 @@ ms.collection:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Saiba como mover um site do SharePoint para uma localização geográfica diferente em seu ambiente multi-geo e comunicar as expectativas das alterações aos seus usuários.
+description: Saiba como mover um site SharePoint para uma localização geográfica diferente em seu ambiente multi-geo e comunicar as expectativas das alterações aos seus usuários.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: eed323b2e2b8f68a4a603052657e17495bb17690
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
@@ -74,13 +74,13 @@ A hora deve ser especificada no Tempo Universal Coordenado (UTC) para ambos os p
 
 A movimentação geográfica do site do SharePoint requer que você se conecte e realize a movimentação da URL de Administrador do SharePoint na localização geográfica onde está o site.
 
-Por exemplo, se a URL do site for , conecte-se à URL do Administrador do <https://contosohealthcare.sharepoint.com/sites/Turbines> SharePoint em <https://contosohealthcare-admin.sharepoint.com> :
+Por exemplo, se a URL do site for <https://contosohealthcare.sharepoint.com/sites/Turbines> , conecte-se à URL SharePoint Admin em <https://contosohealthcare-admin.sharepoint.com> :
 
 ```powershell
 Connect-SPOService -Url https://contosohealthcare-admin.sharepoint.com
 ```
 
-![Janela do Shell de Gerenciamento do SharePoint Online mostrando o Connect-SPOService comando](../media/move-onedrive-between-geo-locations-image1.png)
+![SharePoint Janela do Shell de Gerenciamento Online mostrando o Connect-SPOService comando](../media/move-onedrive-between-geo-locations-image1.png)
 
 ### <a name="validating-the-environment"></a>Validar o ambiente
 

@@ -21,7 +21,7 @@ search.appverid:
 - MED150
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
-description: Saiba como gerenciar grupos do Microsoft 365.
+description: Saiba mais sobre como gerenciar Microsoft 365 grupos.
 ms.openlocfilehash: 529bdb874661329497b103a1207b90625ad33a4b
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -31,13 +31,13 @@ ms.locfileid: "50911002"
 ---
 # <a name="manage-microsoft-365-groups"></a>Gerenciar grupos do Microsoft 365
 
-*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
+*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-Você pode gerenciar grupos do Microsoft 365 de várias maneiras diferentes, dependendo da configuração. Você pode gerenciar contas de usuário no Centro de administração do [Microsoft 365](../admin/add-users/index.yml), PowerShell, nos Serviços de Domínio do Active Directory (AD DS) ou no centro de administração do [Azure Active Directory (Azure AD).](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) 
+Você pode gerenciar Microsoft 365 grupos de várias maneiras diferentes, dependendo da configuração. Você pode gerenciar contas de usuário no centro de administração [do](../admin/add-users/index.yml)Microsoft 365 , PowerShell, nos Serviços de Domínio do Active Directory (AD DS) ou no centro de administração do [Azure Active Directory (Azure AD).](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) 
 
 ## <a name="plan-for-where-and-how-you-will-manage-your-groups"></a>Planejar onde e como você gerenciará seus grupos
 
-Onde e como você pode gerenciar suas contas de usuário depende do modelo de identidade que você deseja usar para o Microsoft 365. Os dois modelos gerais são somente na nuvem e híbridos.
+Onde e como você pode gerenciar suas contas de usuário depende do modelo de identidade que você deseja usar para sua Microsoft 365. Os dois modelos gerais são somente na nuvem e híbridos.
   
 ### <a name="cloud-only"></a>Apenas Nuvem
 
@@ -49,7 +49,7 @@ Você cria e gerencia grupos com:
     
 ### <a name="hybrid"></a>Híbrido
 
-Os grupos do AD DS são sincronizados com o Microsoft 365 a partir do AD DS, portanto, você deve usar as ferramentas locais do AD DS para gerenciar esses grupos.
+Os grupos do AD DS são sincronizados com Microsoft 365 do AD DS, portanto, você deve usar as ferramentas locais do AD DS para gerenciar esses grupos.
 
 Você também pode criar e gerenciar grupos do Azure AD separados de grupos do AD DS, mas que podem conter usuários e grupos do AD DS. Nesse caso, você pode usar:
 

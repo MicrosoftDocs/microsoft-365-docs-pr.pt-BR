@@ -15,7 +15,7 @@ ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: 202b76ff-74a6-4486-ada1-a9bf099dab8f
-description: Saiba como criar e configurar os servidores do AD FS para sua autenticação federada de alta disponibilidade para o Microsoft 365 no Microsoft Azure.
+description: Saiba como criar e configurar os servidores do AD FS para sua autenticação federada de alta disponibilidade para Microsoft 365 em Microsoft Azure.
 ms.openlocfilehash: 388a99aa496c4ecd9145759d4dfb1b9441b4fb2c
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "50909793"
 ---
 # <a name="high-availability-federated-authentication-phase-3-configure-ad-fs-servers"></a>Autenticação federada de alta disponibilidade Fase 3: configurar servidores de AD FS
 
-Nesta fase de implantação de alta disponibilidade para autenticação federada do Microsoft 365 nos serviços de infraestrutura do Azure, você cria um balanceador de carga interno e dois servidores AD FS.
+Nesta fase de implantação de alta disponibilidade para Microsoft 365 autenticação federada nos serviços de infraestrutura do Azure, você cria um balanceador de carga interno e dois servidores AD FS.
   
 Você deve concluir essa fase antes de passar para a [Fase 4: Configurar proxies de](high-availability-federated-authentication-phase-4-configure-web-application-pro.md)aplicativo Web. Consulte [Deploy high availability federated authentication for Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) for all of the phases.
   
@@ -48,12 +48,12 @@ Use o seguinte bloco de comandos do PowerShell para criar as máquinas virtuais 
 Lembre-se de que você definiu a Tabela M na Fase [2: Configurar](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) controladores de domínio e Tabelas R, V, S, I e A na Fase [1: Configurar o Azure](high-availability-federated-authentication-phase-1-configure-azure.md).
   
 > [!NOTE]
-> [!OBSERVAçãO] O comando a seguir define o uso da versão mais recente do Azure PowerShell. Consulte [Começar com o Azure PowerShell](/powershell/azure/get-started-azureps). 
+> [!OBSERVAçãO] O comando a seguir define o uso da versão mais recente do Azure PowerShell. Consulte [Get started with Azure PowerShell](/powershell/azure/get-started-azureps). 
   
 Em primeiro lugar, crie um balanceador de carga interno do Azure para os dois servidores do AD FS. Especifique os valores das variáveis, removendo os \< and > caracteres. Quando tiver fornecido todos os valores apropriados, execute o bloco resultante no prompt de comando do Azure PowerShell ou no ISE do PowerShell.
   
 > [!TIP]
-> Para gerar blocos de comando prontos para execução do PowerShell com base em suas configurações personalizadas, use esta planilha de configuração [do Microsoft Excel](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx). 
+> Para gerar blocos de comando prontos para execução do PowerShell com base em suas configurações personalizadas, use esta Microsoft Excel de trabalho [de configuração](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx). 
 
 ```powershell
 # Set up key variables
@@ -148,7 +148,7 @@ Veja a seguir a configuração resultante da conclusão bem-sucedida dessa fase,
   
 **Fase 3: Os servidores do AD FS e o balanceador de carga interno para a sua infraestrutura de autenticação federada de alta disponibilidade no Azure**
 
-![Fase 3 da infraestrutura de autenticação federada do Microsoft 365 de alta disponibilidade no Azure com os servidores do AD FS](../media/f39b2d2f-8a5b-44da-b763-e1f943fcdbc4.png)
+![Fase 3 da infraestrutura de autenticação federada Microsoft 365 alta disponibilidade no Azure com os servidores do AD FS](../media/f39b2d2f-8a5b-44da-b763-e1f943fcdbc4.png)
   
 ## <a name="next-step"></a>Próxima etapa
 
@@ -158,4 +158,4 @@ Use [a Fase 4: Configurar proxies de](high-availability-federated-authentication
 
 [Implantar a autenticação federada de alta disponibilidade para o Microsoft 365 no Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
   
-[Identidade federada para seu ambiente de dev/test do Microsoft 365](federated-identity-for-your-microsoft-365-dev-test-environment.md)
+[Identidade federada para seu ambiente Microsoft 365 dev/test](federated-identity-for-your-microsoft-365-dev-test-environment.md)

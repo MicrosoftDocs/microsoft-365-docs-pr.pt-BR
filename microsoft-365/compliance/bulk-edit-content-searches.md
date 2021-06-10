@@ -26,7 +26,7 @@ ms.locfileid: "50918227"
 ---
 # <a name="bulk-edit-content-searches"></a>Pesquisas de conteúdo de edição em massa
 
-Você pode usar o Editor de Pesquisa em Massa na ferramenta Pesquisa de Conteúdo para editar várias pesquisas ao mesmo tempo. Usar essa ferramenta permite alterar rapidamente os locais de consulta e conteúdo para uma ou mais pesquisas. Em seguida, você pode reprisar as pesquisas e obter novos resultados de pesquisa estimados para as pesquisas revisadas. O editor também permite copiar e colar consultas e locais de conteúdo de um arquivo ou arquivo de texto do Microsoft Excel. Isso significa que você pode usar a ferramenta Estatísticas de Pesquisa para exibir as estatísticas de uma ou mais pesquisas, exportar as estatísticas para um arquivo CSV, onde você pode editar as consultas e locais de conteúdo no Excel. Em seguida, use o Editor de Pesquisa em Massa para adicionar as consultas revisadas e os locais de conteúdo às pesquisas. Depois de revisar uma ou mais pesquisas, você pode reiniciá-las e obter novos resultados estimados de pesquisa.
+Você pode usar o Editor de Pesquisa em Massa na ferramenta Pesquisa de Conteúdo para editar várias pesquisas ao mesmo tempo. Usar essa ferramenta permite alterar rapidamente os locais de consulta e conteúdo para uma ou mais pesquisas. Em seguida, você pode reprisar as pesquisas e obter novos resultados de pesquisa estimados para as pesquisas revisadas. O editor também permite copiar e colar consultas e locais de conteúdo de um arquivo Microsoft Excel ou arquivo de texto. Isso significa que você pode usar a ferramenta Estatísticas de Pesquisa para exibir as estatísticas de uma ou mais pesquisas, exportar as estatísticas para um arquivo CSV, onde você pode editar as consultas e locais de conteúdo em Excel. Em seguida, use o Editor de Pesquisa em Massa para adicionar as consultas revisadas e os locais de conteúdo às pesquisas. Depois de revisar uma ou mais pesquisas, você pode reiniciá-las e obter novos resultados estimados de pesquisa.
   
 Para obter mais informações sobre como usar a ferramenta Estatísticas de Pesquisa, consulte Exibir estatísticas [de palavra-chave para resultados da Pesquisa de Conteúdo](view-keyword-statistics-for-content-search.md).
   
@@ -52,7 +52,7 @@ Para obter mais informações sobre como usar a ferramenta Estatísticas de Pesq
     
       Ou
     
-    - Colar uma nova consulta na célula. Isso supõe que você copiou o texto de consulta de um arquivo, como um arquivo de texto ou um arquivo do Excel.
+    - Colar uma nova consulta na célula. Isso supõe que você copiou o texto de consulta de um arquivo, como um arquivo de texto ou um arquivo Excel arquivo.
     
 4. Depois de editar uma ou mais consultas na página **Consultas,** selecione **Salvar**.
     
@@ -66,7 +66,7 @@ Aqui estão algumas dicas para editar consultas usando o Editor de Pesquisa em M
   
 - Copie a consulta existente (usando **Ctrl C** ) para um arquivo de texto. Edite a consulta no arquivo de texto e copie a consulta revisada e a colar (usando **Ctrl V** ) de volta para a célula na página **Consultas.** 
     
-- Você também pode copiar consultas de outros aplicativos (como o Microsoft Word ou o Microsoft Excel). No entanto, você pode adicionar inadvertidamente caracteres sem suporte a uma consulta usando o Editor de Pesquisa em Massa. A melhor maneira de evitar caracteres sem suporte é apenas digitar a consulta em uma célula na página **Consultas.** Ou você pode copiar uma consulta do Word ou excel e, em seguida, colar em um arquivo em um editor de texto simples, como o Bloco de Notas da Microsoft. Em seguida, salve o arquivo de  texto e selecione **ANSI** na lista drop-down de Codificação. Isso remove qualquer formatação e caracteres sem suporte. Em seguida, você pode copiar e colar a consulta do arquivo de texto para **a página Consultas.** 
+- Você também pode copiar consultas de outros aplicativos (como Microsoft Word ou Microsoft Excel). No entanto, você pode adicionar inadvertidamente caracteres sem suporte a uma consulta usando o Editor de Pesquisa em Massa. A melhor maneira de evitar caracteres sem suporte é apenas digitar a consulta em uma célula na página **Consultas.** Ou você pode copiar uma consulta do Word ou Excel e, em seguida, colar em um arquivo em um editor de texto simples, como o Microsoft Bloco de notas. Em seguida, salve o arquivo de  texto e selecione **ANSI** na lista drop-down de Codificação. Isso remove qualquer formatação e caracteres sem suporte. Em seguida, você pode copiar e colar a consulta do arquivo de texto para **a página Consultas.** 
     
   
 ## <a name="use-the-bulk-search-editor-to-change-content-locations"></a>Usar o Editor de Pesquisa em Massa para alterar locais de conteúdo
@@ -79,7 +79,7 @@ Aqui estão algumas dicas para editar consultas usando o Editor de Pesquisa em M
   
     a. **Caixas de correio para pesquisa** Esta seção exibe uma coluna para cada Pesquisa de Conteúdo selecionada e uma linha para cada caixa de correio incluída na pesquisa. Uma marca de seleção indica que a caixa de correio está incluída na pesquisa. Você pode adicionar caixas de correio a uma pesquisa digitando o endereço de email da caixa de correio em uma linha em branco e selecionando a caixa de seleção para a Pesquisa de Conteúdo à que você deseja adicioná-la. Ou você pode remover uma caixa de correio de uma pesquisa limpando a caixa de seleção.
     
-    b. **Sites do SharePoint para pesquisa** Esta seção exibe uma linha para cada site do SharePoint e do OneDrive incluído em cada Pesquisa de Conteúdo selecionada. Uma marca de verificação indica que o site está incluído na pesquisa. Você pode adicionar sites a uma pesquisa digitando a URL do site em uma linha em branco e selecionando a caixa de seleção para a Pesquisa de Conteúdo à que você deseja adicioná-la. Ou você pode remover um site de uma pesquisa limpando a caixa de seleção.
+    b. **SharePoint para pesquisar** Esta seção exibe uma linha para cada SharePoint e OneDrive que está incluída em cada Pesquisa de Conteúdo selecionada. Uma marca de verificação indica que o site está incluído na pesquisa. Você pode adicionar sites a uma pesquisa digitando a URL do site em uma linha em branco e selecionando a caixa de seleção para a Pesquisa de Conteúdo à que você deseja adicioná-la. Ou você pode remover um site de uma pesquisa limpando a caixa de seleção.
     
     c. **Outras opções de pesquisa** Esta seção indica se itens não indexados e pastas públicas estão incluídos na pesquisa. Para incluí-los, verifique se a caixa de seleção está selecionada. Para removê-los, desempure a caixa de seleção.
     
@@ -93,11 +93,11 @@ Aqui estão algumas dicas para editar consultas usando o Editor de Pesquisa em M
     
 Aqui estão algumas dicas para editar locais de conteúdo usando o Editor de Pesquisa em Massa:
   
-- Você pode editar Pesquisas de Conteúdo para pesquisar todas as caixas de correio  ou sites na organização digitando **Tudo** em branco nas Caixas de Correio para pesquisar ou sites do **SharePoint** na seção de pesquisa e, em seguida, selecionando a caixa de seleção. 
+- Você pode editar Pesquisas de Conteúdo para pesquisar todas as caixas de correio  ou sites na organização digitando **Tudo** em uma linha em branco nas Caixas de Correio para pesquisar ou SharePoint sites para pesquisar e, em seguida, selecionar **a** caixa de seleção. 
     
-- Você pode adicionar vários locais de conteúdo a uma ou mais pesquisas copiando várias linhas de um arquivo de texto ou de um arquivo do Excel e, em seguida, colar em uma seção na página **Locais.** Depois de adicionar novos locais, marque a caixa de seleção para cada pesquisa à que deseja adicionar o local. 
+- Você pode adicionar vários locais de conteúdo a uma ou mais pesquisas copiando várias linhas de um arquivo de texto ou um arquivo Excel e, em seguida, colar-os em uma seção na página **Locais.** Depois de adicionar novos locais, marque a caixa de seleção para cada pesquisa à que deseja adicionar o local. 
     
     > [!TIP]
-    > Para gerar uma lista de endereços de email para todos os usuários em sua organização, execute o comando do PowerShell na Etapa 2 na Etapa [2: Gerar](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md#step-2-generate-a-list-of-users)uma lista de usuários . Ou siga as etapas em Obter uma lista de todas as [URLs](/onedrive/list-onedrive-urls) do OneDrive de usuário em sua organização para gerar uma lista de todos os sites do OneDrive for Business em sua organização. Observe que você terá que anexar a URL para o domínio MySite da sua organização (por exemplo, para os sites do OneDrive for Business criados https://contoso-my.sharepoint.com) pelo script. Depois de ter uma lista de endereços de email ou sites do OneDrive for Business, você pode copiá-los e colar na página **Locais** no Editor de Pesquisa em Massa. 
+    > Para gerar uma lista de endereços de email para todos os usuários em sua organização, execute o comando do PowerShell na Etapa 2 na Etapa [2: Gerar](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md#step-2-generate-a-list-of-users)uma lista de usuários . Ou siga as etapas em Obter uma lista de todas as [URLs](/onedrive/list-onedrive-urls) de OneDrive de usuário em sua organização para gerar uma lista de todos os sites OneDrive for Business em sua organização. Observe que você terá que anexar a URL para o domínio MySite da sua organização (por exemplo, para os sites OneDrive for Business criados https://contoso-my.sharepoint.com) pelo script. Depois de ter uma lista de endereços de email ou OneDrive for Business sites, você pode copiá-los e colar na página **Locais** no Editor de Pesquisa em Massa. 
   
 - Depois de selecionar **Salvar para** salvar alterações no Editor de Pesquisa em Massa, o endereço de email das caixas de correio que você adicionou a uma pesquisa será validado. Se o endereço de email não existir, uma mensagem de erro será exibida dizendo que a caixa de correio não pode ser localizada. URLs para sites não são validadas. 

@@ -17,7 +17,7 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Um classificador do Microsoft 365 é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo, dando a ele exemplos para ver. Este artigo mostra como criar e treinar um classificador personalizado e como retreiná-los para aumentar a precisão.
+description: Um Microsoft 365 classificador é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo, dando a ele exemplos para ver. Este artigo mostra como criar e treinar um classificador personalizado e como retreiná-los para aumentar a precisão.
 ms.openlocfilehash: 90e47ec94528bbadeb98dc9eb590929e25ae6ff1
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.locfileid: "50918175"
 ---
 # <a name="get-started-with-trainable-classifiers"></a>Comece com classificadores treináveis
 
-Um classificador de treinamento do Microsoft 365 é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo, dando a ele exemplos para ver. Depois de treinado, você pode usá-lo para identificar o item para a aplicação de rótulos de sensibilidade do Office, políticas de conformidade de comunicações e políticas de rótulo de retenção.
+Um Microsoft 365 classificador treinável é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo, dando a ele exemplos para ver. Depois de treinado, você pode usá-lo para identificar o item para a aplicação de rótulos de Office de sensibilidade, políticas de conformidade de comunicações e políticas de rótulo de retenção.
 
 A criação de um classificador treinável personalizado primeiro envolve dar a ele exemplos que são escolhidos por humanos e que corresponderão positivamente à categoria. Em seguida, depois de processá-los, você testa a capacidade dos classificadores de prever, dando a ele uma mistura de exemplos positivos e negativos. Este artigo mostra como criar e treinar um classificador personalizado e como melhorar o desempenho de classificadores treinados personalizados e classificadores pré-treinados ao longo da vida através da retreinamento.
 
@@ -42,9 +42,9 @@ Assista a este vídeo para um resumo rápido da criação de um classificador tr
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-### <a name="licensing-requirements"></a>Requisitos de licença
+### <a name="licensing-requirements"></a>Requisitos de licenciamento
 
-Classificadores são um recurso de Conformidade do Microsoft 365 E5 ou E5. Você deve ter uma dessas assinaturas para usá-las.
+Classificadores são um recurso de conformidade Microsoft 365 E5 ou E5. Você deve ter uma dessas assinaturas para usá-las.
 
 ### <a name="permissions"></a>Permissões
 
@@ -73,7 +73,7 @@ Essa linha do tempo reflete uma implantação de exemplo de classificadores trei
 ![trainable-classifier-timeline](../media/trainable-classifier-deployment-timeline_border.png)
 
 > [!TIP]
-> A aceitação é necessária pela primeira vez para classificadores que podem treinar. Leva doze dias para o Microsoft 365 concluir uma avaliação de linha de base do conteúdo de suas organizações. Entre em contato com o administrador global para dar início ao processo de aceitação.
+> A aceitação é necessária pela primeira vez para classificadores que podem treinar. Leva doze dias para Microsoft 365 uma avaliação de linha de base do conteúdo de suas organizações. Entre em contato com o administrador global para dar início ao processo de aceitação.
 
 ### <a name="overall-workflow"></a>Fluxo de trabalho geral
 
@@ -103,12 +103,12 @@ Depois que o classificador treinável tiver processado amostras positivas sufici
    > [!IMPORTANT]
    > Certifique-se de que os itens no conjunto de sementes sejam **exemplos** fortes da categoria. O classificador treinável cria inicialmente seu modelo com base no que você o semeou. O classificador supõe que todos os exemplos de semente são positivos fortes e não têm como saber se uma amostra é uma combinação fraca ou negativa com a categoria.
 
-2. Coloque o conteúdo de semente em uma pasta do SharePoint Online dedicada a manter o *conteúdo de semente somente*. Anote a URL do site, biblioteca e pasta.
+2. Coloque o conteúdo de semente em uma pasta SharePoint Online dedicada a manter o *conteúdo de semente somente*. Anote a URL do site, biblioteca e pasta.
 
    > [!TIP]
    > Se você criar um novo site e pasta para seus dados de semente, permita pelo menos uma hora para que esse local seja indexado antes de criar o classificador treinável que usará esses dados de semente.
 
-3. Entre no Centro de conformidade do Microsoft 365 com acesso a funções de administrador de conformidade ou de administrador de segurança e abra o Centro de conformidade do **Microsoft 365** ou a classificação de dados do Centro de Segurança do **Microsoft 365.**  >  
+3. Entre no Microsoft 365 de conformidade com o administrador de conformidade ou acesso **à** função de administrador de segurança e abra Microsoft 365 centro de conformidade ou Microsoft 365 **classificação** de dados do centro de  >  **segurança.**
 
 4. Escolha a **guia Classificadores treináveis.**
 
@@ -116,7 +116,7 @@ Depois que o classificador treinável tiver processado amostras positivas sufici
 
 6. Preencha os valores apropriados para os campos e da categoria de itens que você deseja que esse `Name` `Description` classificador treinável identifique.
 
-7. Escolha a URL de site, biblioteca e pasta do SharePoint Online para o site de conteúdo de semente na etapa 2. Escolha `Add` .
+7. Escolha o SharePoint site online, biblioteca e URL de pasta para o site de conteúdo de semente na etapa 2. Escolha `Add` .
 
 8. Revise as configurações e escolha `Create trainable classifier` .
 
@@ -132,14 +132,14 @@ Depois que o classificador treinável tiver processado amostras positivas sufici
     > [!IMPORTANT]
     > Os itens de exemplo não devem ser criptografados e devem estar em inglês.
 
-12. Coloque o conteúdo de teste em uma pasta do SharePoint Online dedicada a manter *o conteúdo de teste somente*. Anote a URL de site, biblioteca e pasta do SharePoint Online.
+12. Coloque o conteúdo de teste em uma pasta SharePoint Online dedicada a manter *o conteúdo de teste somente*. Anote a URL SharePoint site, biblioteca e pasta do SharePoint Online.
 
     > [!TIP]
     > Se você criar um novo site e uma pasta para seus dados de teste, permita pelo menos uma hora para que esse local seja indexado antes de criar o classificador treinável que usará esses dados de semente.
 
 13. Escolha `Add items to test` .
 
-14. Escolha a URL de site, biblioteca e pasta do SharePoint Online para o site de conteúdo de teste na etapa 12. Escolha `Add` .
+14. Escolha a URL SharePoint site, biblioteca e pasta online do site de conteúdo de teste na etapa 12. Escolha `Add` .
 
 15. Termine o assistente escolhendo `Done` . O classificador treinável levará até uma hora para processar os arquivos de teste.
 
@@ -150,7 +150,7 @@ Depois que o classificador treinável tiver processado amostras positivas sufici
 
 17. Escolha `Tested items to review` a guia para revisar itens.
 
-18. O Microsoft 365 apresentará 30 itens por vez. Revise-os `We predict this item is "Relevant". Do you agree?` e, na caixa, escolha `Yes` um ou ou `No` `Not sure, skip to next item` . A precisão do modelo é atualizada automaticamente após cada 30 itens.
+18. Microsoft 365 apresentará 30 itens por vez. Revise-os `We predict this item is "Relevant". Do you agree?` e, na caixa, escolha `Yes` um ou ou `No` `Not sure, skip to next item` . A precisão do modelo é atualizada automaticamente após cada 30 itens.
 
     > [!div class="mx-imgBorder"]
     > ![caixa de itens de revisão](../media/classifier-trainable-review-detail.png)
@@ -162,4 +162,4 @@ Depois que o classificador treinável tiver processado amostras positivas sufici
 
 20. Publique o classificador.
 
-21. Depois de publicado, o classificador estará disponível como uma condição na rotulagem automática do [Office](apply-sensitivity-label-automatically.md)com rótulos de [sensibilidade,](apply-retention-labels-automatically.md#configuring-conditions-for-auto-apply-retention-labels) aplicar automaticamente a política de rótulo de retenção com base em uma condição e em Conformidade com [a comunicação.](communication-compliance.md)
+21. Depois de publicado, o classificador estará disponível como uma condição na rotulagem [](apply-retention-labels-automatically.md#configuring-conditions-for-auto-apply-retention-labels) automática Office rótulos de [sensibilidade,](apply-sensitivity-label-automatically.md)aplicar automaticamente a política de rótulo de retenção com base em uma condição e em Conformidade com a [comunicação.](communication-compliance.md)

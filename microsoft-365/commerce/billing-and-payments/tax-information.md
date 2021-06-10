@@ -14,7 +14,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 search.appverid: MET150
-description: 'Descubra quanto imposto será cobrado pela assinatura do Microsoft 365 para empresas em diferentes regiões. '
+description: 'Descubra quanto imposto você será cobrado por sua assinatura Microsoft 365 para empresas em diferentes regiões. '
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
@@ -29,7 +29,7 @@ ms.locfileid: "52332013"
 ---
 # <a name="tax-information"></a>Informação de imposto
 
-Quando você compra produtos e serviços do Microsoft 365, os impostos que você paga são determinados por uma das duas coisas: seu endereço comercial ou seu endereço de envio, se for diferente. Se sua organização estiver nos Estados Unidos, você deverá fornecer um FEIN (Número de Identificação do Empregador Federal).
+Quando você compra Microsoft 365 produtos e serviços, os impostos que você paga são determinados por uma das duas coisas: seu endereço comercial ou seu endereço de envio, se for diferente. Se sua organização estiver nos Estados Unidos, você deverá fornecer um FEIN (Número de Identificação do Empregador Federal).
 
 As empresas nos seguintes países podem fornecer seu número de IVA ou equivalente local:
 
@@ -100,13 +100,13 @@ As empresas nos seguintes países podem fornecer seu número de IVA ou equivalen
 
 ## <a name="europe-the-middle-east-and-africa-emea"></a>Europa, Oriente Médio e África (EMEA)
 
-Quando você compra serviços do Microsoft 365 na região do EMEA, essa compra pode estar sujeita Value-Added Tax (IVA).
+Quando você compra Microsoft 365 serviços na região do EMEA, essa compra pode estar sujeita a Value-Added Tax (IVA).
   
 - Se você estiver localizado em um Estado Membro da União Europeia, Armenia, Bielorrússia, Noruega, Turquia ou Emirados Árabes Unidos e não fornecer sua ID de IVA local válida, a Microsoft Ireland Operations Ltd. aplicará a taxa de IVA local atual, com base no país de cobrança em que sua conta está definida.
 
 - Se você estiver localizado em Liechtenstein, Rússia, Sérvia, África do Sul ou Suíça, o IVA será aplicado, independentemente de você fornecer sua ID do IVA ou não.
 
-- Para clientes da UE, antes de validarmos a ID do IVA, ela deve estar disponível para verificação no VIES (Sistema de Troca de Informações do IVA). Se a ID do IVA não puder ser verificada, contate sua autoridade fiscal local.
+- Para clientes da UE, antes de validarmos a ID do IVA, ela deve estar disponível para verificação no VIES (Sistema de Informações Exchange IVA). Se a ID do IVA não puder ser verificada, contate sua autoridade fiscal local.
 
 Você pode se qualificar para a classificação zero do IVA se:
   
@@ -132,7 +132,7 @@ Se você for cobrado de um dos seguintes locais, o imposto local atual será apl
 
 Nos Estados Unidos, Canadá, México, Chile e Colômbia, várias taxas de imposto se aplicam dependendo da natureza do produto e da sua localização.
   
-Se sua cobrança for feita pela Microsoft Corporation[(](view-your-bill-or-invoice.md)consulte sua fatura ) e você se inscreveu no Microsoft 365 fora dos Estados Unidos, Canadá, Porto Rico, Chile e Colômbia, o imposto geralmente não é cobrado.
+Se sua cobrança for feita pela Microsoft Corporation[(](view-your-bill-or-invoice.md)consulte sua fatura ), e você se inscreveu para Microsoft 365 fora dos Estados Unidos, Canadá, Porto Rico, Chile e Colômbia, o imposto geralmente não é cobrado.
 
 ## <a name="add-your-vat-id"></a>Adicionar sua ID do IVA
 

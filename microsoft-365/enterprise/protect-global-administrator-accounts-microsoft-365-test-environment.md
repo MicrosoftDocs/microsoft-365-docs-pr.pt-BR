@@ -1,5 +1,5 @@
 ---
-title: Proteger contas de administrador global em seu ambiente de teste do Microsoft 365 para empresas
+title: Proteger contas de administrador global em seu Microsoft 365 para ambiente de teste empresarial
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,7 +14,7 @@ ms.collection: M365-identity-device-management
 ms.custom:
 - TLG
 - Ent_TLGs
-description: Use estas etapas para proteger contas de administrador global em seu ambiente de teste do Microsoft 365 para empresas.
+description: Use estas etapas para proteger contas de administrador global em seu Microsoft 365 ambiente de teste empresarial.
 ms.openlocfilehash: 3eab538b59e460857e2fa195aaacf51051f94d6b
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -22,24 +22,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50918877"
 ---
-# <a name="protect-global-administrator-accounts-in-your-microsoft-365-for-enterprise-test-environment"></a>Proteger contas de administrador global em seu ambiente de teste do Microsoft 365 para empresas
+# <a name="protect-global-administrator-accounts-in-your-microsoft-365-for-enterprise-test-environment"></a>Proteger contas de administrador global em seu Microsoft 365 para ambiente de teste empresarial
 
-*Este Guia de Laboratório de Teste só pode ser usado para o Microsoft 365 para ambientes de teste corporativos.*
+*Este Guia de Laboratório de Teste só pode ser usado para Microsoft 365 ambientes de teste corporativos.*
 
 Você pode impedir ataques digitais em sua organização garantindo que suas contas de administrador sejam o mais seguras possível. 
 
-Este artigo descreve como usar as políticas de acesso condicional do Azure Active Directory (Azure AD) para proteger contas de administrador global.
+Este artigo descreve como usar políticas de acesso condicional Azure Active Directory (Azure AD) para proteger contas de administrador global.
 
-A proteção de contas de administrador global em seu ambiente de teste do Microsoft 365 para empresas envolve duas fases:
-- [Fase 1: criar seu ambiente de teste do Microsoft 365 para empresas](#phase-1-build-out-your-microsoft-365-for-enterprise-test-environment)
+Proteger contas de administrador global em seu Microsoft 365 ambiente de teste corporativo envolve duas fases:
+- [Fase 1: criar seu Microsoft 365 para ambiente de teste empresarial](#phase-1-build-out-your-microsoft-365-for-enterprise-test-environment)
 - [Fase 2: Configurar políticas de acesso condicional](#phase-2-configure-conditional-access-policies)
 
 ![Guias de Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Para um mapa visual de todos os artigos na pilha guia de laboratório de teste do Microsoft 365 para empresas, vá para [o Microsoft 365 for enterprise Test Lab Guide Stack](../downloads/Microsoft365EnterpriseTLGStack.pdf).
+> Para um mapa visual de todos os artigos na pilha Microsoft 365 guia do laboratório de teste empresarial, vá para o Microsoft 365 para a pilha de guias de laboratório [de teste corporativos.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
-## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Fase 1: criar seu ambiente de teste do Microsoft 365 para empresas
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Fase 1: criar seu Microsoft 365 para ambiente de teste empresarial
 
 Se você quiser testar a proteção da conta de administrador global de forma leve com os requisitos mínimos, siga as instruções em [Configuração base leve.](lightweight-base-configuration-microsoft-365-enterprise.md)
   
@@ -52,7 +52,7 @@ Se você quiser testar a proteção de conta de administrador global em uma empr
 
 Primeiro, crie uma nova conta de usuário como um administrador global dedicado.
 
-1. Em uma guia separada, abra o Centro de administração [do Microsoft 365](https://admin.microsoft.com/).
+1. Em uma guia separada, abra o [Microsoft 365 de administração](https://admin.microsoft.com/).
 2. Selecione **Usuários**  >  **Usuários ativos** e selecione Adicionar um **usuário**.
 3. No painel **Adicionar usuário,** insira **DedicatedAdmin** nas caixas **Nome,** **Nome** de exibição e Nome **de** Usuário.
 4. Selecione **Senha**, selecione **Deixe-me criar** a senha e insira uma senha forte. Grave a senha dessa nova conta em um local seguro.
@@ -63,7 +63,7 @@ Primeiro, crie uma nova conta de usuário como um administrador global dedicado.
 
 Em seguida, crie um novo grupo chamado GlobalAdmins e adicione a conta DedicatedAdmin a ela.
 
-1. Na guia Centro de administração do **Microsoft 365,** selecione **Grupos** na navegação à esquerda e selecione **Grupos**.
+1. Na guia **Microsoft 365 centro de** administração, selecione **Grupos** na navegação à esquerda e selecione **Grupos**.
 2. Selecione **Adicionar um grupo**.
 3. No painel **Escolher um tipo de** grupo, selecione **Segurança** e, em seguida, selecione **Próximo**.
 4. No painel **Configurar as noções básicas,** selecione **Criar grupo** e selecione **Fechar**.
@@ -77,7 +77,7 @@ Em seguida, crie políticas de acesso condicional para exigir autenticação mul
 Esta primeira política exige que todas as contas de administrador global usem MFA.
 
 1. Em uma nova guia do navegador, vá para [https://portal.azure.com](https://portal.azure.com) .
-2. Clique em Acesso Condicional de Segurança do **Azure Active**  >    >  Directory.
+2. Clique **Azure Active Directory**  >  **Acesso Condicional** de  >  **Segurança.**
 3. No painel **Acesso condicional – Políticas,** selecione Política de linha de **base: Exigir MFA para administradores (visualização)**.
 4. No painel **Política de** Linha de Base, selecione Usar política imediatamente **> Salvar**.
 
@@ -93,7 +93,7 @@ Esta segunda política bloqueia o acesso à autenticação de conta de administr
 8. Na seção **Controles de** acesso do **painel Novo,** selecione **Conceder**.
 9. No painel **Conceder,** selecione **Bloquear acesso** e selecione **Selecionar**.
 10. No painel **Novo,** selecione **Ativar para** **Habilitar política** e selecione **Criar**.
-11. Feche as **guias do portal do Azure** e do Centro de administração do Microsoft **365.**
+11. Feche o **portal do Azure** e **Microsoft 365 de centro de** administração.
 
 Para testar a primeira política, saia e entre com a conta DedicatedAdmin. Você deve ser solicitado a configurar o MFA. Isso demonstra que a primeira política está sendo aplicada.
 

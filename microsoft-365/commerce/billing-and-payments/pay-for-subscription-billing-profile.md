@@ -219,7 +219,7 @@ Se seu perfil de cobrança tiver o suporte de uma fatura, você recebe um email 
 
 ## <a name="can-i-pay-my-invoice-online"></a>Posso pagar minha fatura online?
 
-Se a cobrança recorrente estiver desligada para seu perfil de cobrança, você poderá usar um cartão de crédito para pagar sua fatura online. Para fazer um pagamento, use o **botão Pagar agora** em sua fatura no Centro de administração do Microsoft 365. Para encontrar sua fatura, consulte [Exibir sua fatura ou fatura](view-your-bill-or-invoice.md).
+Se a cobrança recorrente estiver desligada para seu perfil de cobrança, você poderá usar um cartão de crédito para pagar sua fatura online. Para fazer um pagamento, use o botão **Pagar agora** em sua fatura no Microsoft 365 de administração. Para encontrar sua fatura, consulte [Exibir sua fatura ou fatura](view-your-bill-or-invoice.md).
 
 ## <a name="can-i-change-from-my-current-payment-method-to-paying-by-invoice"></a>Posso mudar do meu método de pagamento atual para o pagamento por fatura?
 

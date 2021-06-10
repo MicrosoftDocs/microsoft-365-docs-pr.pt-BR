@@ -29,7 +29,7 @@ ms.locfileid: "51599506"
 > [!NOTE]
 > Os recursos descritos neste artigo estão atualmente em Visualização, não estão disponíveis para todos e estão sujeitos a alterações.
 
-Os usuários podem gerenciar mensagens em quarentena em que são um dos destinatários, conforme descrito em [Find and release quarantined messages as a user in EOP](find-and-release-quarantined-messages-as-a-user.md). Mas e as caixas de correio compartilhadas em que o usuário tem permissões de Acesso Total e Enviar como ou Enviar em Nome para a caixa de correio, conforme descrito em Caixas de correio [compartilhadas no Exchange Online?](/exchange/collaboration-exo/shared-mailboxes)
+Os usuários podem gerenciar mensagens em quarentena em que são um dos destinatários, conforme descrito em [Find and release quarantined messages as a user in EOP](find-and-release-quarantined-messages-as-a-user.md). Mas e as caixas de correio compartilhadas em que o usuário tem permissões de Acesso Total e Enviar como ou Enviar em Nome para a caixa de correio, conforme descrito em Caixas de correio compartilhadas em [Exchange Online?](/exchange/collaboration-exo/shared-mailboxes)
 
 Anteriormente, a capacidade dos usuários de gerenciar mensagens em quarentena enviadas a uma caixa de correio compartilhada exigia que os administradores deixassem a automação habilitada para a caixa de correio compartilhada (ela é habilitada por padrão quando um administrador dá acesso ao usuário a outra caixa de correio). No entanto, dependendo do tamanho e do número de caixas de correio às  que o usuário tem acesso, o desempenho pode sofrer à medida que o Outlook tenta abrir todas as caixas de correio às que o usuário tem acesso. Por esse motivo, muitos administradores optam por [remover o automapping para caixas de correio compartilhadas.](/outlook/troubleshoot/profiles-and-accounts/remove-automapping-for-shared-mailbox)
 
@@ -53,7 +53,7 @@ Independentemente do método, os usuários podem evitar confusão incluindo a **
 
 - Em relação às operações de quarentena para caixas de correio compartilhadas, se você usar grupos de segurança aninhados para conceder acesso a uma caixa de correio compartilhada, recomendamos não mais do que dois níveis de grupos aninhados. Por exemplo, o Grupo A é membro do Grupo B, que é membro do Grupo C. Para atribuir permissões a uma caixa de correio compartilhada, não adicione o usuário ao Grupo A e atribua o Grupo C à caixa de correio compartilhada.  
 
-- Para gerenciar mensagens em quarentena para a caixa de correio compartilhada no PowerShell do [Exchange Online,](/powershell/exchange/connect-to-exchange-online-powershell)o usuário final precisará usar o cmdlet [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) com o endereço de email de caixa de correio compartilhado para o valor do parâmetro _RecipientAddress_ para identificar as mensagens. Por exemplo:
+- Para gerenciar mensagens em quarentena para a caixa de correio compartilhada no [Exchange Online PowerShell,](/powershell/exchange/connect-to-exchange-online-powershell)o usuário final precisará usar o cmdlet [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) com endereço de email de caixa de correio compartilhado para o valor do parâmetro _RecipientAddress_ para identificar as mensagens. Por exemplo:
 
   ```powershell
   Get-QuarantinedMessage -RecipientAddress officeparty@contoso.com

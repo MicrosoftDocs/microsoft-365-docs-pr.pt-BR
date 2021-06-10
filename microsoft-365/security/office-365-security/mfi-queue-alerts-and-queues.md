@@ -33,7 +33,7 @@ Quando as mensagens não podem ser enviadas da sua organização para seus servi
 - O conector está configurado incorretamente.
 - Houve alterações de rede ou firewall em seu ambiente local.
 
-O Microsoft 365 continuará a tentar novamente a entrega por 24 horas. Após 24 horas, as mensagens expiram e serão retornadas para os envios em relatórios de não entrega (também conhecidos como NDRs ou mensagens de rejeição).
+Microsoft 365 continuará a tentar novamente a entrega por 24 horas. Após 24 horas, as mensagens expiram e serão retornadas para os envios em relatórios de não entrega (também conhecidos como NDRs ou mensagens de rejeição).
 
 Se o volume de email em fila exceder o limite pré-definido (o valor padrão é 200 mensagens), as informações estarão disponíveis nos seguintes locais:
 
@@ -81,7 +81,7 @@ Mesmo que o volume da mensagem enfileirada não tenha excedido o limite e [](mai
 Se você clicar no número de  mensagens no widget, um sobrevoo de mensagens em fila aparecerá com as seguintes informações:
 
 - **Número de mensagens em fila**
-- **Nome do** conector : clique no nome do conector para gerenciar o conector no Centro de administração do Exchange (EAC).
+- **Nome do** conector : clique no nome do conector para gerenciar o conector no centro de administração Exchange (EAC).
 - **Hora de início da fila**
 - **Mensagens mais antigas expiradas**
 - **Servidor de destino**

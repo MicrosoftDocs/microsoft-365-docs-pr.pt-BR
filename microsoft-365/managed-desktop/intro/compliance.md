@@ -1,6 +1,6 @@
 ---
 title: Conformidade
-description: Este artigo lista os padrões de conformidade relevantes para a Área de Trabalho Gerenciada da Microsoft.
+description: Este artigo lista os padrões de conformidade relevantes para Área de Trabalho Gerenciada da Microsoft.
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
@@ -18,11 +18,11 @@ ms.locfileid: "50918425"
 ---
 # <a name="compliance"></a>Conformidade
 
-Quando você usa a Área de Trabalho Gerenciada da Microsoft, a Microsoft fornece um conjunto abrangente de ofertas de conformidade. Esse esforço ajuda sua organização a estar em conformidade com os vários requisitos de conformidade.
+Quando você usa Área de Trabalho Gerenciada da Microsoft, a Microsoft fornece um conjunto abrangente de ofertas de conformidade. Esse esforço ajuda sua organização a estar em conformidade com os vários requisitos de conformidade.
 
 ## <a name="compliance-coverage"></a>Cobertura de conformidade
 
-A Área de Trabalho Gerenciada da Microsoft atingiu as seguintes certificações:
+Área de Trabalho Gerenciada da Microsoft obteve as seguintes certificações:
 
 - [ISO 27001 Information Security Management Standards (ISMS)](/compliance/regulatory/offering-ISO-27001)
 - [ISO 27701 Privacy Information Management System (PIMS)](/compliance/regulatory/offering-iso-27701)
@@ -45,7 +45,7 @@ A Área de Trabalho Gerenciada da Microsoft atingiu as seguintes certificações
 Você pode encontrar informações relevantes, incluindo requisitos técnicos e de controle, no Portal de Confiança do Serviço [(STP),](https://servicetrust.microsoft.com/)o repositório central para essas informações sobre ofertas do Microsoft Cloud Service. Você pode baixar relatórios de auditores, certificados de conformidade e muito mais na seção [Relatórios](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide) de Auditoria do STP.
 
 > [!NOTE]
-> Como a Área de Trabalho Gerenciada da Microsoft é executado no Azure, documentos relevantes geralmente têm nomes de arquivo como "Microsoft Azure, Dynamics 365 e outros Serviços Online". Nesses documentos, você geralmente pode encontrar a Área de Trabalho Gerenciada da Microsoft na categoria "Microsoft Online Services" ou "Monitoramento + Gerenciamento".
+> Como Área de Trabalho Gerenciada da Microsoft é executado no Azure, documentos relevantes geralmente têm nomes de arquivo como "Microsoft Azure, Dynamics 365 e outros Serviços Online". Nesses documentos, você geralmente pode encontrar Área de Trabalho Gerenciada da Microsoft na categoria "Microsoft Online Services" ou "Monitoramento + Gerenciamento".
 
 ## <a name="shared-responsibility"></a>Responsabilidade compartilhada
 

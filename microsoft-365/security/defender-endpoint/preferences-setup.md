@@ -1,5 +1,5 @@
 ---
-title: Configurar configurações do Centro de Segurança do Microsoft Defender
+title: Configurar Central de Segurança do Microsoft Defender configurações
 description: Use a página de configurações para definir configurações gerais, permissões, apis e regras.
 keywords: configurações, configurações gerais, permissões, apis, regras
 search.product: eADQiWindows 10XVcnh
@@ -23,7 +23,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/07/2021
 ms.locfileid: "51604340"
 ---
-# <a name="configure-microsoft-defender-security-center-settings"></a>Configurar configurações do Centro de Segurança do Microsoft Defender
+# <a name="configure-microsoft-defender-security-center-settings"></a>Configurar Central de Segurança do Microsoft Defender configurações
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -33,7 +33,7 @@ ms.locfileid: "51604340"
 
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-prefsettings-abovefoldlink)
 
-Use o menu **Configurações** para modificar configurações gerais, recursos avançados, habilitar a experiência de visualização, notificações por email e o recurso de inteligência de ameaças personalizada.
+Use o **menu Configurações** para modificar configurações gerais, recursos avançados, habilitar a experiência de visualização, notificações por email e o recurso de inteligência de ameaças personalizada.
 
 ## <a name="in-this-section"></a>Nesta seção
 

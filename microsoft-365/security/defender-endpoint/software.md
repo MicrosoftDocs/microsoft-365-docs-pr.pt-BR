@@ -61,7 +61,7 @@ id | Cadeia de caracteres | Software ID
 Nome | Cadeia de caracteres | Nome do software
 Fornecedor | Cadeia de caracteres | Nome do fornecedor de software
 Pontos fracos | Longo | Número de vulnerabilidades descobertas
-publicExploit | Booliano | A exploração pública existe para algumas das vulnerabilidades
-activeAlert | Booliano | Alerta ativo está associado a este software
+publicExploit | Boolean | A exploração pública existe para algumas das vulnerabilidades
+activeAlert | Boolean | Alerta ativo está associado a este software
 exposedMachines | Longo | Número de dispositivos expostos
 impactScore | Duplo | Impacto da pontuação de exposição deste software

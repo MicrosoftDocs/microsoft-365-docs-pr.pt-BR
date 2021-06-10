@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Os administradores podem aprender como o treinamento de simulação de ataque no centro de segurança do Microsoft 365 afeta os funcionários e podem obter informações sobre resultados de simulação e treinamento.
+description: Os administradores podem aprender como o treinamento de simulação de ataque no centro de segurança Microsoft 365 afeta os funcionários e podem obter informações sobre resultados de simulação e treinamento.
 ms.technology: mdo
 ms.openlocfilehash: 0fcb88406558f73b587d8452375c33dbbec1c78b
 ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
@@ -23,7 +23,7 @@ ms.locfileid: "51600002"
 
 No treinamento de simulação de ataque, a Microsoft fornece informações com base nos resultados de simulações e treinamentos pelos funcionários. Essas informações ajudarão a mantê-lo informado sobre o progresso da preparação de ameaças de seus funcionários, bem como recomendar as próximas etapas para preparar melhor seus funcionários e seu ambiente para ataques.
 
-Estamos trabalhando continuamente para expandir as percepções que estão disponíveis para você. O impacto no comportamento e as ações recomendadas estão disponíveis no momento. Para começar, vá para Treinamento de simulação de ataque no centro de segurança [do Microsoft 365.](https://security.microsoft.com/attacksimulator?viewid=overview)
+Estamos trabalhando continuamente para expandir as percepções que estão disponíveis para você. O impacto no comportamento e as ações recomendadas estão disponíveis no momento. Para começar, vá para Treinamento [de simulação de ataque no centro Microsoft 365 segurança.](https://security.microsoft.com/attacksimulator?viewid=overview)
 
 ## <a name="behavior-impact-on-compromise-rate"></a>Impacto de comportamento na taxa de comprometimento
 
@@ -31,7 +31,7 @@ Na guia **Visão geral** do treinamento de simulação de ataque, você encontra
 
 No gráfico, você pode ver:
 
-- **Taxa de comprometimento prevista** que reflete a taxa média de comprometimento para simulações usando o mesmo tipo de carga em outros locatários do Microsoft 365 que usam treinamento de simulação de ataque.
+- **Taxa de comprometimento prevista** que reflete a taxa média de comprometimento para simulações usando o mesmo tipo de carga em outros locatários Microsoft 365 que usam treinamento de simulação de ataque.
 - **A taxa de comprometimento real** reflete a porcentagem de funcionários que caiu na simulação.
 
 Além disso, reflete a diferença entre o número real de funcionários comprometidos pelo ataque e a taxa `<number> less susceptible to phishing` de comprometimento prevista. Esse número de funcionários é menos provável de ser comprometido por ataques semelhantes no futuro, enquanto indica como os funcionários fizeram em geral, em contraste com a taxa de comprometimento `<percent%> better than predicted rate` prevista.

@@ -16,7 +16,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
-description: Os usuários precisam ter permissões atribuídas no Centro de Conformidade e Segurança do Microsoft 36 & 5 antes de gerenciar qualquer um dos seus recursos de segurança ou conformidade.
+description: Os usuários precisam ter permissões atribuídas no Centro de Conformidade Microsoft 365 Segurança & antes que possam gerenciar qualquer um de seus recursos de segurança ou conformidade.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
@@ -40,11 +40,11 @@ Os usuários precisam ter permissões atribuídas no Centro de Conformidade & se
 
 Para obter mais informações sobre as diferentes permissões que você pode dar aos usuários no Centro de Conformidade & Segurança, confira Permissões no Centro de Conformidade & [Segurança.](permissions-in-the-security-and-compliance-center.md)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Você precisa ser um administrador global ou membro do grupo de função OrganizationManage & ment no Centro de Conformidade e Segurança, para concluir as etapas deste artigo.
 
-- Os grupos de função do Centro de Conformidade e Segurança & podem ter nomes semelhantes aos grupos de função no Exchange Online, mas eles não são os mesmos.
+- Os grupos de função do Centro de Conformidade & segurança podem ter nomes semelhantes aos grupos de função no Exchange Online, mas eles não são os mesmos.
 
 - As associações do grupo de funções não são compartilhadas entre o Exchange Online e o Centro de Conformidade & Segurança.
 
@@ -64,7 +64,7 @@ Para obter mais informações sobre as diferentes permissões que você pode dar
 
 ## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>Use o & de Conformidade do PowerShell para dar a outro usuário acesso ao Centro de Conformidade & Segurança
 
-1. [Conectar ao Centro de Conformidade e Segurança do PowerShell](/powershell/exchange/connect-to-scc-powershell).
+1. [Conectar-se ao Windows PowerShell do Centro de Conformidade e Segurança](/powershell/exchange/connect-to-scc-powershell).
 
 2. Use a seguinte sintaxe:
 
