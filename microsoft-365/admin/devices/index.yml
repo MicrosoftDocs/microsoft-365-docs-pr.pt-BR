@@ -24,7 +24,7 @@ landingContent:
     links:
     - text: Revisar opções de proteção de dados de dispositivos e aplicativos
       url: choose-device-security.md
-- title: Gerenciar dispositivos e dados de aplicativo com o Microsoft Intune
+- title: Gerenciar dispositivos e dados de aplicativos com Microsoft Intune
   linkLists:
   - linkListType: overview
     links:
@@ -32,13 +32,13 @@ landingContent:
       url: /mem/intune/enrollment/device-enrollment
   - linkListType: how-to-guide
     links:
-    - text: Configurar o registro automático para dispositivos Windows 10
+    - text: Configurar o registro automático para Windows 10 dispositivos
       url: /mem/intune/enrollment/quickstart-setup-auto-enrollment
     - text: Configurar registro no Android
       url: /mem/intune/enrollment/android-enroll
     - text: Configurar o registro do iOS/iPadOS
       url: /mem/intune/enrollment/ios-enroll
-- title: Gerenciar dispositivos e dados de aplicativo com o Microsoft 365 Business Premium
+- title: Gerenciar dispositivos e dados de aplicativos com Microsoft 365 Business Premium
   linkLists:
   - linkListType: how-to-guide
     links:
@@ -46,15 +46,15 @@ landingContent:
       url: ../../business/view-policies-and-devices.md
     - text: Remover dados da empresa de dispositivos
       url: ../../business/remove-company-data.md
-    - text: Redefinir dispositivos Windows para configurações de fábrica
+    - text: Redefinir Windows dispositivos para configurações de fábrica
       url: ../../business/reset-devices-to-factory-settings.md
-- title: Gerenciar dispositivos e dados de aplicativo com o Microsoft 365 para empresas
+- title: Gerenciar dispositivos e dados de aplicativos com Microsoft 365 para empresas
   linkLists:
   - linkListType: overview
     links:
     - text: Visão geral do Microsoft 365 para empresas
       url: ../../enterprise/microsoft-365-overview.md
-    - text: Mapa de gerenciamento de dispositivos para o Microsoft 365 para empresas
+    - text: Mapa de gerenciamento de dispositivos para Microsoft 365 para empresas
       url: ../../enterprise/device-management-roadmap-microsoft-365.md
 - title: Gerenciar dispositivos e dados de aplicativos com mobilidade básica e segurança
   linkLists:

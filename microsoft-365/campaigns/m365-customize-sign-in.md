@@ -21,7 +21,7 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Personalize sua página de login com um aviso de privacidade e consentimento para o Microsoft 365.
+description: Personalize sua página de login com um aviso de privacidade e consentimento para Microsoft 365.
 ms.openlocfilehash: 652566ca1caf46cd224e5205da3bebfd7b25cefa
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -29,21 +29,21 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51579801"
 ---
-# <a name="customize-your-sign-in-page-with-a-privacy-and-consent-notice"></a><span data-ttu-id="797bf-103">Personalizar sua página de login com um aviso de privacidade e consentimento</span><span class="sxs-lookup"><span data-stu-id="797bf-103">Customize your sign-in page with a privacy and consent notice</span></span>
+# <a name="customize-your-sign-in-page-with-a-privacy-and-consent-notice"></a><span data-ttu-id="59b6f-103">Personalizar sua página de login com um aviso de privacidade e consentimento</span><span class="sxs-lookup"><span data-stu-id="59b6f-103">Customize your sign-in page with a privacy and consent notice</span></span>
 
-<span data-ttu-id="797bf-104">Sua empresa ou campanha pode tornar mais fácil para as agências de aplicação da lei registrarem cobranças legais contra criminosos online adicionando um aviso de privacidade e consentimento à sua página de login.</span><span class="sxs-lookup"><span data-stu-id="797bf-104">Your business or campaign can make it easier for law enforcement agencies to file legal charges against online criminals by adding a privacy and consent notice to your sign-in page.</span></span>
+<span data-ttu-id="59b6f-104">Sua empresa ou campanha pode tornar mais fácil para as agências de aplicação da lei registrarem cobranças legais contra criminosos online adicionando um aviso de privacidade e consentimento à sua página de login.</span><span class="sxs-lookup"><span data-stu-id="59b6f-104">Your business or campaign can make it easier for law enforcement agencies to file legal charges against online criminals by adding a privacy and consent notice to your sign-in page.</span></span>
 
-<span data-ttu-id="797bf-105">Você pode personalizar sua página de login com sua identidade visual.</span><span class="sxs-lookup"><span data-stu-id="797bf-105">You can customize your sign-in page with your branding.</span></span> <span data-ttu-id="797bf-106">Você também pode adicionar texto para ajudar seus usuários a entrar ou para apontar requisitos legais ou restrições para obter acesso aos recursos do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="797bf-106">You can also add text to help your users sign in, or to point out legal requirements or restrictions for getting access to Microsoft 365 resources.</span></span>
+<span data-ttu-id="59b6f-105">Você pode personalizar sua página de login com sua identidade visual.</span><span class="sxs-lookup"><span data-stu-id="59b6f-105">You can customize your sign-in page with your branding.</span></span> <span data-ttu-id="59b6f-106">Você também pode adicionar texto para ajudar seus usuários a entrar ou para apontar requisitos legais ou restrições para obter acesso Microsoft 365 recursos.</span><span class="sxs-lookup"><span data-stu-id="59b6f-106">You can also add text to help your users sign in, or to point out legal requirements or restrictions for getting access to Microsoft 365 resources.</span></span>
 
-## <a name="design-customization-the-text-on-your-sign-in-page"></a><span data-ttu-id="797bf-107">Personalização do design do texto na página de login</span><span class="sxs-lookup"><span data-stu-id="797bf-107">Design customization the text on your sign-in page</span></span>
+## <a name="design-customization-the-text-on-your-sign-in-page"></a><span data-ttu-id="59b6f-107">Personalização do design do texto na página de login</span><span class="sxs-lookup"><span data-stu-id="59b6f-107">Design customization the text on your sign-in page</span></span>
 
-<span data-ttu-id="797bf-108">Para atualizar os elementos personalizáveis na página de entrada, você precisa ser um administrador global. Para obter instruções específicas, [consulte adicionar artigo de identidade visual da](/azure/active-directory/fundamentals/customize-branding) empresa.</span><span class="sxs-lookup"><span data-stu-id="797bf-108">To update the customizable elements on the sign-in page, you have to be a global admin. For specific instructions, see [add company branding](/azure/active-directory/fundamentals/customize-branding) article.</span></span>
+<span data-ttu-id="59b6f-108">Para atualizar os elementos personalizáveis na página de entrada, você precisa ser um administrador global. Para obter instruções específicas, [consulte adicionar artigo de identidade visual da](/azure/active-directory/fundamentals/customize-branding) empresa.</span><span class="sxs-lookup"><span data-stu-id="59b6f-108">To update the customizable elements on the sign-in page, you have to be a global admin. For specific instructions, see [add company branding](/azure/active-directory/fundamentals/customize-branding) article.</span></span>
 
-<span data-ttu-id="797bf-109">Os elementos que você pode atualizar são:</span><span class="sxs-lookup"><span data-stu-id="797bf-109">The elements you can update are:</span></span>
+<span data-ttu-id="59b6f-109">Os elementos que você pode atualizar são:</span><span class="sxs-lookup"><span data-stu-id="59b6f-109">The elements you can update are:</span></span>
 
-- <span data-ttu-id="797bf-110">**Texto da página de login** Um lugar fácil para adicionar a declaração de privacidade e consentimento.</span><span class="sxs-lookup"><span data-stu-id="797bf-110">**Sign-in page text** An easy place to add the privacy and consent statement.</span></span>
-- <span data-ttu-id="797bf-111">Imagem em segundo plano da página de login</span><span class="sxs-lookup"><span data-stu-id="797bf-111">Sign-in page background image</span></span>
-- <span data-ttu-id="797bf-112">Logotipo da faixa</span><span class="sxs-lookup"><span data-stu-id="797bf-112">Banner logo</span></span>
-- <span data-ttu-id="797bf-113">Dica de nome de usuário</span><span class="sxs-lookup"><span data-stu-id="797bf-113">Username hint</span></span>
+- <span data-ttu-id="59b6f-110">**Texto da página de login** Um lugar fácil para adicionar a declaração de privacidade e consentimento.</span><span class="sxs-lookup"><span data-stu-id="59b6f-110">**Sign-in page text** An easy place to add the privacy and consent statement.</span></span>
+- <span data-ttu-id="59b6f-111">Imagem em segundo plano da página de login</span><span class="sxs-lookup"><span data-stu-id="59b6f-111">Sign-in page background image</span></span>
+- <span data-ttu-id="59b6f-112">Logotipo da faixa</span><span class="sxs-lookup"><span data-stu-id="59b6f-112">Banner logo</span></span>
+- <span data-ttu-id="59b6f-113">Dica de nome de usuário</span><span class="sxs-lookup"><span data-stu-id="59b6f-113">Username hint</span></span>
 
-<span data-ttu-id="797bf-114">Para obter exemplos de avisos de privacidade e consentimento, consulte Apêndice A em Pesquisar e Redução de Computadores e Obtenção de Evidências [Eletrônicas em Investigações Criminais.](https://www.justice.gov/sites/default/files/criminal-ccips/legacy/2015/01/14/ssmanual2009.pdf)</span><span class="sxs-lookup"><span data-stu-id="797bf-114">For examples of privacy and consent notices, see Appendix A in [Searching and Seizing Computers and Obtaining Electronic Evidence in Criminal Investigations](https://www.justice.gov/sites/default/files/criminal-ccips/legacy/2015/01/14/ssmanual2009.pdf).</span></span>
+<span data-ttu-id="59b6f-114">Para obter exemplos de avisos de privacidade e consentimento, consulte Apêndice A em Pesquisar e Redução de Computadores e Obtenção de Evidências [Eletrônicas em Investigações Criminais.](https://www.justice.gov/sites/default/files/criminal-ccips/legacy/2015/01/14/ssmanual2009.pdf)</span><span class="sxs-lookup"><span data-stu-id="59b6f-114">For examples of privacy and consent notices, see Appendix A in [Searching and Seizing Computers and Obtaining Electronic Evidence in Criminal Investigations](https://www.justice.gov/sites/default/files/criminal-ccips/legacy/2015/01/14/ssmanual2009.pdf).</span></span>
