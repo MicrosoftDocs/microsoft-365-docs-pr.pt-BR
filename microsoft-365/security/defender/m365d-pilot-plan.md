@@ -1,7 +1,7 @@
 ---
-title: Planejando seu projeto piloto do Microsoft 365 Defender
-description: Planeje seu projeto piloto do Microsoft 365 Defender com as partes interessadas para gerenciar as expectativas e garantir um resultado bem-sucedido.
-keywords: Piloto do Microsoft 365 Defender, planejar projeto piloto do Microsoft 365 Defender, avaliar o Microsoft 365 Defender em produção, projeto piloto do Microsoft 365 Defender, segurança cibernética, ameaça persistente avançada, segurança corporativa, dispositivos, dispositivos, identidade, usuários, dados, aplicativos, incidentes, investigação automatizada e correção, busca avançada
+title: Planejando seu projeto piloto Microsoft 365 Defender
+description: Planeje seu projeto piloto Microsoft 365 Defender com as partes interessadas para gerenciar as expectativas e garantir um resultado bem-sucedido.
+keywords: Microsoft 365 Piloto do Defender, planeje o projeto piloto Microsoft 365 Defender, avalie Microsoft 365 Defender em produção, projeto piloto do Microsoft 365 Defender, segurança cibernética, ameaças persistentes avançadas, segurança corporativa, dispositivos, dispositivos, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, busca avançada
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -28,7 +28,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51932542"
 ---
-# <a name="planning-your-pilot-microsoft-365-defender-project"></a>Planejando seu projeto piloto do Microsoft 365 Defender 
+# <a name="planning-your-pilot-microsoft-365-defender-project"></a>Planejando seu projeto piloto Microsoft 365 Defender 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -54,12 +54,12 @@ Este guia orienta você sobre como planejar seu projeto piloto.
 
 O escopo do piloto determinará a amplitude do teste, com base no seu ambiente e nos métodos de teste aceitáveis. Aqui estão alguns escopos de exemplo a considerar:
 - Ambiente de desenvolvimento ou teste que inclui pontos de extremidade, servidores, controladores de domínio.
-- Ambiente de produção com o Microsoft 365, Azure, serviços do Active Directory, pontos de extremidade e servidores
+- Ambiente de produção com Microsoft 365, Azure, serviços do Active Directory, pontos de extremidade e servidores
 
 >[!NOTE]
->Se você ainda não tiver as licenças completas, poderá obter licenças de avaliação para avaliar o [Microsoft 365 Defender](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) – planejar, preparar, configurar, configurar e executar seu projeto piloto. Seus participantes terão um papel importante para ajudar a facilitar o processo do início ao fim.
+>Se você ainda não tiver as licenças completas, poderá obter licenças de avaliação para avaliar Microsoft 365 [Defender](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) – planejar, preparar, configurar, configurar e executar seu projeto piloto. Seus participantes terão um papel importante para ajudar a facilitar o processo do início ao fim.
 
-Os tipos de sistemas operacionais a serem avaliados também devem ser definidos com base na composição organizacional. Isso pode incluir os seguintes pontos de extremidade [do Mac,](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-mac#system-requirements)Servidores [Linux,](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-linux#system-requirements)pontos de extremidade [do Windows 10,](/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements#supported-windows-versions) [Windows Server 2016](/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements#supported-windows-versions).
+Os tipos de sistemas operacionais a serem avaliados também devem ser definidos com base na composição organizacional. Isso pode incluir os seguintes pontos de extremidade [do Mac,](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-mac#system-requirements)Servidores [Linux,](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-linux#system-requirements)Windows 10 [pontos](/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements#supported-windows-versions)de extremidade, [Windows Server 2016](/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements#supported-windows-versions).
 
 ## <a name="use-cases"></a>Casos de uso
 
@@ -68,7 +68,7 @@ Os casos de uso representam instruções de como a ferramenta que está sendo te
 - Como analista soc, preciso ter a ferramenta e o processo para investigar e responder automaticamente a eventos mal-intencionados na minha rede. [IR automático]
 - Como analista soc, preciso pesquisar dados do meu ambiente para encontrar ameaças conhecidas e potenciais e atividades suspeitas. [Busca Avançada]
 
-Lembre-se de que esses casos de uso devem ser criados dentro dos parâmetros do escopo definido. Se, por exemplo, o escopo do teste não incluir uma avaliação de ferramentas como o Microsoft Cloud App Security, use casos que dependem disso como uma fonte de dados não deve ser criado.
+Lembre-se de que esses casos de uso devem ser criados dentro dos parâmetros do escopo definido. Se, por exemplo, o escopo de teste não incluir uma avaliação de ferramentas como Microsoft Cloud App Security, use casos que dependem disso como uma fonte de dados não deve ser criado.
 
 ## <a name="requirements"></a>Requisitos
 
@@ -80,7 +80,7 @@ Dependendo dos requisitos, diferentes métodos de teste podem ser apropriados. P
 
 ## <a name="success-criteria"></a>Critérios de sucesso
 
-Os critérios de sucesso são, em última análise, o conjunto de barras a ser medido em relação ao que você está testando. Se você está testando o Microsoft 365 Defender (ou qualquer outra tecnologia para esse assunto) em relação a outras ferramentas ou por si só, deve haver alguns critérios quantificáveis para determinar o valor que a ferramenta fornece. Com base no escopo, requisitos e plano de teste, os critérios de sucesso determinarão como marcar o teste. Isso deve ser menos de uma passagem ou falha e mais de uma pontuação ponderada com base em suas necessidades. Por exemplo, para ter êxito, uma ferramenta pode precisar pontuar acima de 80% em determinadas áreas críticas identificadas.
+Os critérios de sucesso são, em última análise, o conjunto de barras a ser medido em relação ao que você está testando. Se você está testando Microsoft 365 Defender (ou qualquer outra tecnologia para esse assunto) em relação a outras ferramentas ou por si só, deve haver alguns critérios quantificáveis para determinar o valor que a ferramenta fornece. Com base no escopo, requisitos e plano de teste, os critérios de sucesso determinarão como marcar o teste. Isso deve ser menos de uma passagem ou falha e mais de uma pontuação ponderada com base em suas necessidades. Por exemplo, para ter êxito, uma ferramenta pode precisar pontuar acima de 80% em determinadas áreas críticas identificadas.
 
 ## <a name="scorecard"></a>Scorecard
 
@@ -88,7 +88,7 @@ Uma maneira de reunir todos os elementos do seu plano pode ser criar um scorecar
 
 | Caso de uso | Requisitos | Requisitos de configuração | Plano de teste | Resultado esperado | Status do teste | Pontuação | Observações |
 |:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
-|Gestão de incidentes|- Microsoft 365 Defender  </br></br>- Microsoft Defender para Identidade </br></br>- Microsoft Defender para Ponto de Extremidade </br></br>– Microsoft Cloud App Security (opcional)|Consulte os [pré-requisitos para](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) preparação, configuração e configuração para obter detalhes |[Simular ameaças](m365d-pilot-simulate.md) <br></br>[Investigar o incidente](./m365d-pilot-simulate.md#investigate-an-incident) |Os investigadores podem entender o escopo e o impacto do incidente e gerenciar o incidente||||
+|Gestão de incidentes|- Microsoft 365 Defender  </br></br>- Microsoft Defender para Identidade </br></br>- Microsoft Defender para Ponto de Extremidade </br></br>- Microsoft Cloud App Security (opcional)|Consulte os [pré-requisitos para](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) preparação, configuração e configuração para obter detalhes |[Simular ameaças](m365d-pilot-simulate.md) <br></br>[Investigar o incidente](./m365d-pilot-simulate.md#investigate-an-incident) |Os investigadores podem entender o escopo e o impacto do incidente e gerenciar o incidente||||
 |AutoIR|- Microsoft 365 Defender </br></br>- Microsoft Defender para Identidade </br></br>- Microsoft Defender para Ponto de Extremidade |Consulte os [pré-requisitos para](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) preparação, configuração e configuração para obter detalhes <br>Habilitar o AutoIR  |[Simular ameaças](m365d-pilot-simulate.md) <br></br>[Investigação automatizada](m365d-pilot-simulate.md#automated-investigation-and-remediation) |Alertas e incidentes são automaticamente remediados pelo Microsoft 365 Defender||||
 |Busca avançada|- Microsoft 365 Defender </br></br>- Microsoft Defender para Ponto de Extremidade </br></br>-Microsoft Defender para Office 365 |Consulte os [pré-requisitos para](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) preparação, configuração e configuração para obter detalhes|[Cenário de busca avançada](./m365d-pilot-simulate.md#advanced-hunting-scenario) |Os investigadores podem encontrar dados por meio de busca avançada, pivô para entidades impactadas e criação de detecções personalizadas||||
 

@@ -144,8 +144,8 @@ Se você optar por não mostrar a caixa de correio compartilhada na lista de end
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Sobre caixas de correio compartilhadas](about-shared-mailboxes.md) (artigo)\
+[Sobre as caixas de correio compartilhadas](about-shared-mailboxes.md) (artigo)\
 [Criar uma caixa de correio compartilhada](create-a-shared-mailbox.md) (artigo)\
-[Converter uma caixa de correio de usuário em uma caixa de correio compartilhada](convert-user-mailbox-to-shared-mailbox.md) (artigo)\
+[Converter uma caixa de correio do usuário em uma caixa de correio compartilhada](convert-user-mailbox-to-shared-mailbox.md) (artigo)\
 [Remover uma licença de uma caixa de correio compartilhada](remove-license-from-shared-mailbox.md) (artigo)\
 [Resolver problemas com caixas de correio compartilhadas](resolve-issues-with-shared-mailboxes.md) (artigo)

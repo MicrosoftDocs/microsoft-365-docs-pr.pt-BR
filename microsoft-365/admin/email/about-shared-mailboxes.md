@@ -69,6 +69,6 @@ Antes de [criar uma caixa de correio compartilhada,](create-a-shared-mailbox.md)
 
 [Criar uma caixa de correio compartilhada](create-a-shared-mailbox.md) (artigo)\
 [Configurar uma caixa de correio compartilhada](configure-a-shared-mailbox.md) (artigo)\
-[Converter uma caixa de correio de usuário em uma caixa de correio compartilhada](convert-user-mailbox-to-shared-mailbox.md) (artigo)\
+[Converter uma caixa de correio do usuário em uma caixa de correio compartilhada](convert-user-mailbox-to-shared-mailbox.md) (artigo)\
 [Remover uma licença de uma caixa de correio compartilhada](remove-license-from-shared-mailbox.md) (artigo)\
 [Resolver problemas com caixas de correio compartilhadas](resolve-issues-with-shared-mailboxes.md) (artigo)

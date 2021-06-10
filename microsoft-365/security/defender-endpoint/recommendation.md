@@ -61,9 +61,9 @@ recommendedVersion | Cadeia de caracteres | Versão recomendada
 recommendationCategory | Cadeia de caracteres | Categoria de recomendação. Os valores possíveis são: "Accounts", "Application", "Network", "OS", "SecurityStack
 subCategory | Cadeia de caracteres | Sub-categoria de recomendação
 severityScore | Duplo | Impacto potencial da configuração para a Pontuação Segura da Microsoft para Dispositivos da organização (1-10)
-publicExploit | Booliano | Exploração pública está disponível 
-activeAlert | Booliano | Alerta ativo está associado a essa recomendação
-associatedThreats | Coleção de cadeias de caracteres | O relatório de análise de ameaças está associado a essa recomendação
+publicExploit | Boolean | Exploração pública está disponível 
+activeAlert | Boolean | Alerta ativo está associado a essa recomendação
+associatedThreats | Coleção String | O relatório de análise de ameaças está associado a essa recomendação
 remediationType | Cadeia de caracteres | Tipo de correção. Os valores possíveis são: "ConfigurationChange","Update","Upgrade","Uninstall"
 Status | Enum | Status de exceção de recomendação. Os valores possíveis são: "Active" e "Exception"
 configScoreImpact | Duplo | Impacto da Pontuação Segura da Microsoft para Dispositivos

@@ -44,7 +44,7 @@ Uma das melhores maneiras de configurar o compartilhamento e armazenamento de ar
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FTHX] 
 
-Se você achou esse vídeo útil, confira as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](../../business-video/index.yml).
+Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](../../business-video/index.yml).
 
 ## <a name="microsoft-365-document-storage-and-management"></a>Microsoft 365 gerenciamento e armazenamento de documentos
 

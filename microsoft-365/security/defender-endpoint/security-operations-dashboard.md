@@ -1,5 +1,5 @@
 ---
-title: Painel de operações do Centro de Segurança do Microsoft Defender
+title: Central de Segurança do Microsoft Defender Painel de operações de segurança
 description: Use o painel para identificar dispositivos em risco, acompanhar o status do serviço e ver estatísticas e informações sobre dispositivos e alertas.
 keywords: painel, alertas, novo, em andamento, resolvido, risco, dispositivos em risco, infecções, relatórios, estatísticas, gráficos, gráficos, saúde, detecções de malware ativo, categoria de ameaças, categorias, roubo de senha, ransomware, exploração, ameaça, baixa gravidade, malware ativo
 search.product: eADQiWindows 10XVcnh
@@ -23,7 +23,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51053573"
 ---
-# <a name="microsoft-defender-security-center-security-operations-dashboard"></a>Painel de operações do Centro de Segurança do Microsoft Defender
+# <a name="microsoft-defender-security-center-security-operations-dashboard"></a>Central de Segurança do Microsoft Defender Painel de operações de segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -33,7 +33,7 @@ ms.locfileid: "51053573"
 
 >Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-secopsdashboard-abovefoldlink) 
 
-O **painel operações de segurança** é onde os recursos de detecção e resposta do ponto de extremidade são a superfície. Ele fornece uma visão geral de alto nível de onde as detecções foram vistas e realça onde as ações de resposta são necessárias. 
+O **painel de operações de segurança** é onde os recursos detecção e resposta de ponto de extremidade são a superfície. Ele fornece uma visão geral de alto nível de onde as detecções foram vistas e realça onde as ações de resposta são necessárias. 
 
 O painel exibe um instantâneo de:
 

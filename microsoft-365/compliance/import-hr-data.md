@@ -13,7 +13,7 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
-description: Os administradores podem configurar um conector de dados para importar dados de funcionários do sistema de recursos humanos (RH) de sua organização para o Microsoft 365. Isso permite que você use dados de RH em políticas de gerenciamento de riscos internos para ajudá-lo a detectar atividades por usuários específicos que podem representar uma ameaça interna à sua organização.
+description: Os administradores podem configurar um conector de dados para importar dados de funcionários do sistema de recursos humanos (RH) de sua organização para Microsoft 365. Isso permite que você use dados de RH em políticas de gerenciamento de riscos internos para ajudá-lo a detectar atividades por usuários específicos que podem representar uma ameaça interna à sua organização.
 ms.openlocfilehash: eb11eb5790ca9c585db8bbb95b41747a72e5c8f1
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -25,21 +25,21 @@ ms.locfileid: "50911371"
 
 Você pode configurar um conector de dados no centro de conformidade do Microsoft 365 para importar dados de recursos humanos (RH) relacionados a eventos como a demissão de um usuário ou uma alteração no nível de trabalho de um usuário. Os dados de RH podem ser usados pela solução de gerenciamento de riscos [insider](insider-risk-management.md) para gerar indicadores de risco que podem ajudá-lo a identificar possíveis atividades mal-intencionadas ou roubo de dados por usuários dentro de sua organização.
 
-Configurar um conector para dados de RH que as políticas de gerenciamento de riscos insider podem usar para gerar indicadores de risco consistem em criar um arquivo CSV que contém os dados de RH, criar um aplicativo no Azure Active Directory usado para autenticação, criar um conector de dados de RH no centro de conformidade do Microsoft 365 e, em seguida, executar um script (agendado) que ingere os dados de RH em arquivos CSV para a nuvem da Microsoft para que ele seja disponibilizado para o insider solução de gerenciamento de riscos.
+Configurar um conector para dados de RH que as políticas de gerenciamento de riscos insider podem usar para gerar indicadores de risco consiste em criar um arquivo CSV que contenha os dados de RH, criar um aplicativo no Azure Active Directory usado para autenticação, criar um conector de dados de RH no centro de conformidade do Microsoft 365 e, em seguida, executar um script (agendado) que ingere os dados de RH em arquivos CSV para a nuvem da Microsoft para que ele seja disponibilizado para a solução de gerenciamento de riscos interna.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Determine quais cenários de RH e dados serão importados para o Microsoft 365. Isso ajudará a determinar quantos arquivos CSV e conectores de RH você precisará criar e como gerar e estruturar os arquivos CSV. Os dados de RH que você importa são determinados pelas políticas de gerenciamento de riscos internas que você deseja implementar. Para obter mais informações, consulte Etapa 1.
+- Determine quais cenários e dados de RH serão importados para Microsoft 365. Isso ajudará a determinar quantos arquivos CSV e conectores de RH você precisará criar e como gerar e estruturar os arquivos CSV. Os dados de RH que você importa são determinados pelas políticas de gerenciamento de riscos internas que você deseja implementar. Para obter mais informações, consulte Etapa 1.
 
 - Determine como recuperar ou exportar os dados do sistema de RH da sua organização (e regularmente) e adicioná-los aos arquivos CSV que você criar na Etapa 1. O script executado na Etapa 4 carregará os dados de RH nos arquivos CSV para a nuvem da Microsoft.
 
-- O usuário que cria o conector de RH na Etapa 3 deve receber a função de Exportação de Importação de Caixa de Correio no Exchange Online. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função Exportar Importação de Caixa de Correio ao grupo de função Gerenciamento da Organização no Exchange Online. Ou você pode criar um novo grupo de funções, atribuir a função De Exportação de Importação de Caixa de Correio e adicionar os usuários apropriados como membros. Para obter mais informações, consulte as seções Criar grupos de [função](/Exchange/permissions-exo/role-groups#create-role-groups) ou [Modificar](/Exchange/permissions-exo/role-groups#modify-role-groups) grupos de função no artigo "Gerenciar grupos de função no Exchange Online".
+- O usuário que cria o conector de RH na Etapa 3 deve receber a função de Exportação de Importação de Caixa de Correio Exchange Online. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função Exportar Importação de Importação de Caixa de Correio ao grupo de função Gerenciamento da Organização Exchange Online. Ou você pode criar um novo grupo de funções, atribuir a função De Exportação de Importação de Caixa de Correio e adicionar os usuários apropriados como membros. Para obter mais informações, consulte as seções Criar grupos de [função](/Exchange/permissions-exo/role-groups#create-role-groups) ou [Modificar](/Exchange/permissions-exo/role-groups#modify-role-groups) grupos de função no artigo "Gerenciar grupos de funções em Exchange Online".
 
 - O script de exemplo executado na Etapa 4 carregará seus dados de RH na nuvem da Microsoft para que possam ser usados pela solução de gerenciamento de riscos insider. Este script de exemplo não é suportado em nenhum programa ou serviço de suporte padrão da Microsoft. O script de amostra é fornecido COMO ESTÁ, sem garantia de nenhum tipo. A Microsoft também se isenta de todas as garantias implícitas, incluindo, sem limitação, quaisquer garantias implícitas de comercialização ou adequação a uma finalidade específica. Todo o risco decorrente do uso ou desempenho do script de amostra e da documentação permanece com você. De modo algum a Microsoft, seus autores ou qualquer outra pessoa envolvida na criação, produção ou veiculação dos scripts serão considerados responsáveis por quaisquer danos (incluindo sem limitações danos por perda de lucros comerciais, interrupção de negócios, perda de informações comerciais ou outras perdas pecuniárias) resultantes do uso ou da incapacidade de uso da documentação ou scripts de exemplo, mesmo que a Microsoft tenha sido alertada sobre a possibilidade de tais danos.
 
 ## <a name="step-1-prepare-a-csv-file-with-your-hr-data"></a>Etapa 1: preparar um arquivo CSV com seus dados de RH
 
-A primeira etapa é criar um arquivo CSV que contenha os dados de RH que o conector importará para o Microsoft 365. Esses dados serão usados pela solução de risco insider para gerar indicadores de risco em potencial. Os dados para os seguintes cenários de RH podem ser importados para o Microsoft 365:
+A primeira etapa é criar um arquivo CSV que contenha os dados de RH que o conector importará para Microsoft 365. Esses dados serão usados pela solução de risco insider para gerar indicadores de risco em potencial. Os dados dos seguintes cenários de RH podem ser importados para Microsoft 365:
 
 - Renúncia de funcionários. Informações sobre usuários que deixaram sua organização.
 
@@ -53,15 +53,15 @@ O tipo de dados de RH a ser importado depende da política de gerenciamento de r
 
 |  Modelo de política |  Tipo de dados de RH |
 |:-----------------------------------------------|:---------------------------------------------------------------------|
-| Roubo de dados ao separar usuários                   | Renúncias de funcionários                                                 |
-| Vazamentos gerais de dados                              | Não aplicável                                                        |
-| Vazamentos de dados por usuários prioritários                    | Não aplicável                                                        |
-| Vazamentos de dados por usuários insatisfeitos                 | Alterações no nível do trabalho, avaliações de desempenho, planos de melhoria de desempenho |
+| Furto de dados por usuários em processo de desligamento                   | Renúncias de funcionários                                                 |
+| Vazamento de dados gerais                              | Não aplicável                                                        |
+| - Vazamento de dados por usuários prioritários                    | Não aplicável                                                        |
+| - Vazamento de dados por usuários insatisfeitos                 | Alterações no nível do trabalho, avaliações de desempenho, planos de melhoria de desempenho |
 | Violações gerais da política de segurança              | Não aplicável                                                        |
-| Violações de política de segurança ao separar usuários   | Renúncias de funcionários                                                 |
-| Violações de política de segurança por usuários prioritários    | Não aplicável                                                        |
-| Violações de política de segurança por usuários insatisfeitos | Alterações no nível do trabalho, avaliações de desempenho, planos de melhoria de desempenho |
-| Idioma ofensivo no email                     | Não aplicável                                                        |
+| Violações da política de segurança por usuários em processo de desligamento   | Renúncias de funcionários                                                 |
+| Violações da política de segurança por usuários prioritários    | Não aplicável                                                        |
+| Violações da política de segurança por usuários insatisfeitos | Alterações no nível do trabalho, avaliações de desempenho, planos de melhoria de desempenho |
+| Linguagem ofensiva no email                     | Não aplicável                                                        |
 
 Para obter mais informações sobre modelos de política para gerenciamento de riscos insider, consulte Políticas de gerenciamento de riscos [do Insider.](insider-risk-management-policies.md#policy-templates)
 
@@ -70,7 +70,7 @@ Para cada cenário de RH, você precisará fornecer os dados de RH correspondent
 Depois de criar o arquivo CSV com os dados de RH necessários, armazene-o no computador local em que você executará o script na Etapa 4. Você também deve implementar uma estratégia de atualização para garantir que o arquivo CSV sempre contenha as informações mais atuais para que, independentemente da execução do script, os dados de RH mais atuais sejam carregados na nuvem da Microsoft e acessíveis à solução de gerenciamento de riscos internas.
 
 > [!IMPORTANT]
-> Os nomes de coluna descritos nas seções a seguir não são parâmetros necessários, mas apenas exemplos. Você pode usar qualquer nome de coluna em seus arquivos CSV. No entanto, os nomes de coluna  que você usa em um arquivo CSV devem ser mapeados para o tipo de dados ao criar o conector de RH na Etapa 3. Observe também que os arquivos CSV de exemplo nas seções a seguir são show no exibição Bloco de Notas. É muito mais fácil exibir e editar arquivos CSV no Microsoft Excel.
+> Os nomes de coluna descritos nas seções a seguir não são parâmetros necessários, mas apenas exemplos. Você pode usar qualquer nome de coluna em seus arquivos CSV. No entanto, os nomes de coluna  que você usa em um arquivo CSV devem ser mapeados para o tipo de dados ao criar o conector de RH na Etapa 3. Observe também que os arquivos CSV de exemplo nas seções a seguir são show no exibição Bloco de Notas. É muito mais fácil exibir e editar arquivos CSV em Microsoft Excel.
 
 As seções a seguir descrevem os dados CSV necessários para cada cenário de RH.
 
@@ -207,11 +207,11 @@ A próxima etapa é criar e registrar um novo aplicativo no Azure Active Directo
 
 - ID do locatário (também chamada de *ID de diretório*)
 
-Para obter instruções passo a passo para criar um aplicativo no Azure AD, consulte [Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).
+Para obter instruções passo a passo para criar um aplicativo no Azure AD, consulte [Register an application with the plataforma de identidade da Microsoft](/azure/active-directory/develop/quickstart-register-app).
 
 ## <a name="step-3-create-the-hr-connector"></a>Etapa 3: Criar o conector de RH
 
-A próxima etapa é criar um conector de RH no centro de conformidade do Microsoft 365. Depois de executar o script na Etapa 4, o conector de RH criado ingerirá os dados de RH do arquivo CSV para sua organização do Microsoft 365. Antes de criar um conector, certifique-se de ter uma lista dos cenários de RH e dos nomes de coluna CSV correspondentes para cada um deles. Você precisa mapear os dados necessários para cada cenário para os nomes de coluna reais no arquivo CSV ao configurar o conector. Como alternativa, você pode carregar um arquivo CSV de exemplo ao configurar o conector e o assistente o ajudará a mapear o nome das colunas para os tipos de dados necessários.
+A próxima etapa é criar um conector de RH no Microsoft 365 de conformidade. Depois de executar o script na Etapa 4, o conector de RH que você criar ingerirá os dados de RH do arquivo CSV para sua Microsoft 365 organização. Antes de criar um conector, certifique-se de ter uma lista dos cenários de RH e dos nomes de coluna CSV correspondentes para cada um deles. Você precisa mapear os dados necessários para cada cenário para os nomes de coluna reais no arquivo CSV ao configurar o conector. Como alternativa, você pode carregar um arquivo CSV de exemplo ao configurar o conector e o assistente o ajudará a mapear o nome das colunas para os tipos de dados necessários.
 
 Depois de concluir essa etapa, copie a ID do trabalho gerada ao criar o conector. Você usará a ID do trabalho quando executar o script.
 
@@ -231,7 +231,7 @@ Depois de concluir essa etapa, copie a ID do trabalho gerada ao criar o conector
 
 6. Na página método de mapeamento de arquivos, selecione uma das seguintes opções e clique em **Próximo**.
 
-   - **Carregar um arquivo de exemplo**. Se você selecionar essa opção, clique em Carregar arquivo **de** exemplo para carregar o arquivo CSV que você preparou na Etapa 1. Essa opção permite selecionar rapidamente nomes de coluna no arquivo CSV de uma listada para mapeá-los para os tipos de dados dos cenários de RH selecionados anteriormente.
+   - **Upload um arquivo de exemplo**. Se você selecionar essa opção, clique **Upload arquivo de** exemplo para carregar o arquivo CSV que você preparou na Etapa 1. Essa opção permite selecionar rapidamente nomes de coluna no arquivo CSV de uma listada para mapeá-los para os tipos de dados dos cenários de RH selecionados anteriormente.
 
    OU
 
@@ -251,7 +251,7 @@ Depois de concluir essa etapa, copie a ID do trabalho gerada ao criar o conector
 
    1. **ID do trabalho.** Você precisará dessa ID de trabalho para executar o script na próxima etapa. Você pode copiá-lo desta página ou da página de sobrevoo do conector.
 
-   1. **Link para script de exemplo.** Clique no link **aqui** para acessar o site do GitHub para acessar o script de exemplo (o link abre uma nova janela). Mantenha essa janela aberta para que você possa copiar o script na Etapa 4. Como alternativa, você pode marcar o destino ou copiar a URL para poder acessá-la novamente ao executar o script. Esse link também está disponível na página de sobrevoo do conector.
+   1. **Link para script de exemplo.** Clique no link **aqui** para ir até o site GitHub para acessar o script de exemplo (o link abre uma nova janela). Mantenha essa janela aberta para que você possa copiar o script na Etapa 4. Como alternativa, você pode marcar o destino ou copiar a URL para poder acessá-la novamente ao executar o script. Esse link também está disponível na página de sobrevoo do conector.
 
 9. Clique em **Concluído**.
 
@@ -267,9 +267,9 @@ Você também pode clicar em **Editar** para alterar a ID do Aplicativo do Azure
 
 ## <a name="step-4-run-the-sample-script-to-upload-your-hr-data"></a>Etapa 4: Executar o script de exemplo para carregar seus dados de RH
 
-A última etapa na configuração de um conector de RH é executar um script de exemplo que carregará os dados de RH no arquivo CSV (criado na Etapa 1) para a nuvem da Microsoft. Especificamente, o script carrega os dados no conector de RH. Depois de executar o script, o conector de RH criado na Etapa 3 importa os dados de RH para sua organização do Microsoft 365, onde ele pode ser acessado por outras ferramentas de conformidade, como a solução de gerenciamento de riscos do Insider. Depois de executar o script, considere agendar uma tarefa para que ela seja executado automaticamente diariamente para que os dados de rescisão do funcionário mais atuais são carregados na nuvem da Microsoft. Consulte [Agendar o script para ser executado automaticamente](#optional-step-6-schedule-the-script-to-run-automatically).
+A última etapa na configuração de um conector de RH é executar um script de exemplo que carregará os dados de RH no arquivo CSV (criado na Etapa 1) para a nuvem da Microsoft. Especificamente, o script carrega os dados no conector de RH. Depois de executar o script, o conector de RH criado na Etapa 3 importa os dados de RH para sua organização Microsoft 365 onde ele pode ser acessado por outras ferramentas de conformidade, como a solução de gerenciamento de riscos do Insider. Depois de executar o script, considere agendar uma tarefa para que ela seja executado automaticamente diariamente para que os dados de rescisão do funcionário mais atuais são carregados na nuvem da Microsoft. Consulte [Agendar o script para ser executado automaticamente](#optional-step-6-schedule-the-script-to-run-automatically).
 
-1. Vá para a janela que você deixou aberta na etapa anterior para acessar o site do GitHub com o script de exemplo. Como alternativa, abra o site com indicador ou use a URL copiada.
+1. Vá para a janela que você deixou aberta na etapa anterior para acessar o site GitHub com o script de exemplo. Como alternativa, abra o site com indicador ou use a URL copiada.
 
 2. Clique no **botão Bruto** para exibir o script no exibição de texto.
 
@@ -291,8 +291,8 @@ A última etapa na configuração de um conector de RH é executar um script de 
 
    | Parâmetro | Descrição |
    |:-----|:-----|:-----|
-   |`tenantId`|Esta é a ID da sua organização do Microsoft 365 obtida na Etapa 2. Você também pode obter a ID do locatário para sua organização na folha **Visão** geral no centro de administração do Azure AD. Isso é usado para identificar sua organização.|
-   |`appId` |Esta é a ID do aplicativo do Azure AD para o aplicativo que você criou no Azure AD na Etapa 2. Isso é usado pelo Azure AD para autenticação quando o script tenta acessar sua organização do Microsoft 365. | 
+   |`tenantId`|Esta é a ID da sua Microsoft 365 que você obteve na Etapa 2. Você também pode obter a ID do locatário para sua organização na folha **Visão** geral no centro de administração do Azure AD. Isso é usado para identificar sua organização.|
+   |`appId` |Esta é a ID do aplicativo do Azure AD para o aplicativo que você criou no Azure AD na Etapa 2. Isso é usado pelo Azure AD para autenticação quando o script tenta acessar sua Microsoft 365 organização. | 
    |`appSecret`|Este é o segredo do aplicativo do Azure AD para o aplicativo que você criou no Azure AD na Etapa 2. Isso também é usado para autenticação.|
    |`jobId`|Esta é a ID do trabalho para o conector de RH que você criou na Etapa 3. Isso é usado para associar os dados de RH carregados na nuvem da Microsoft com o conector de RH.|
    |`csvFilePath`|Esse é o caminho do arquivo CSV (armazenado no mesmo sistema que o script) que você criou na Etapa 1. Tente evitar espaços no caminho do arquivo; caso contrário, use aspas simples.|
@@ -304,14 +304,14 @@ A última etapa na configuração de um conector de RH é executar um script de 
     .\HRConnector.ps1 -tenantId d5723623-11cf-4e2e-b5a5-01d1506273g9 -appId 29ee526e-f9a7-4e98-a682-67f41bfd643e -appSecret MNubVGbcQDkGCnn -jobId b8be4a7d-e338-43eb-a69e-c513cd458eba -csvFilePath 'C:\Users\contosoadmin\Desktop\Data\employee_termination_data.csv'
     ```
 
-   Se o carregamento for bem-sucedido, o script exibirá a **mensagem Carregar bem-sucedida.**
+   Se o carregamento for bem-sucedido, o script exibirá a mensagem Upload **Bem-sucedida.**
 
    > [!NOTE]
    > Se você tiver problemas para executar o comando anterior por causa de políticas de execução, consulte [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies) e [Set-ExecutionPolicy](/powershell/module/microsoft.powershell.security/set-executionpolicy) para obter orientações sobre como definir políticas de execução.
 
 ## <a name="step-5-monitor-the-hr-connector"></a>Etapa 5: Monitorar o conector de RH
 
-Depois de criar o conector de RH e executar o script para carregar seus dados de RH, você poderá exibir o conector e carregar o status no centro de conformidade do Microsoft 365. Se você agendar o script para ser executado automaticamente regularmente, você também poderá exibir o status atual após a última vez em que o script foi executado.
+Depois de criar o conector de RH e executar o script para carregar seus dados de RH, você pode exibir o conector e o status de carregamento no centro de conformidade Microsoft 365. Se você agendar o script para ser executado automaticamente regularmente, você também poderá exibir o status atual após a última vez em que o script foi executado.
 
 1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com) e clique **em Conectores de dados** na nav esquerda.
 
@@ -331,9 +331,9 @@ Se você não tiver executado o script na Etapa 4, um link para baixar o script 
 
 Para garantir que os dados de RH mais recentes da sua organização estão disponíveis para ferramentas como a solução de gerenciamento de riscos insider, recomendamos que você agende o script para ser executado automaticamente de forma recorrente, como uma vez por dia. Isso também exige que você atualize os dados de RH no arquivo CSV em um cronograma semelhante (se não o mesmo) para que ele contenha as informações mais recentes sobre os funcionários que saem da sua organização. O objetivo é carregar os dados de RH mais atuais para que o conector de RH possa torná-los disponíveis para a solução de gerenciamento de riscos insider.
 
-Você pode usar o aplicativo Agendador de Tarefas no Windows para executar automaticamente o script todos os dias.
+Você pode usar o aplicativo Agendador de Tarefas Windows executar automaticamente o script todos os dias.
 
-1. No computador local, clique no botão **Iniciar** do Windows e digite **Agendador de Tarefas.**
+1. No computador local, clique no botão Iniciar Windows **e** digite **Agendador de Tarefas.**
 
 2. Clique no **aplicativo Agendador de** Tarefas para abri-lo.
 
@@ -349,7 +349,7 @@ Você pode usar o aplicativo Agendador de Tarefas no Windows para executar autom
 
 6. Selecione a **guia Gatilhos,** clique em **Novo** e faça o seguinte:
 
-   1. Em **Configurações,** selecione **a opção Diário** e escolha uma data e hora para executar o script pela primeira vez. O script será todos os dias no mesmo horário especificado.
+   1. Em **Configurações**, selecione a **opção Diário** e escolha uma data e hora para executar o script pela primeira vez. O script será todos os dias no mesmo horário especificado.
 
    1. Em **Configurações avançadas,** verifique se a caixa **de seleção** Habilitado está selecionada.
 

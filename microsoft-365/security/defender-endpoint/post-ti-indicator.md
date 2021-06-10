@@ -79,7 +79,7 @@ indicatorType | Enum | Tipo do indicador. Os valores possíveis são: "FileSha1"
 ação | Enum | A ação que será tomada se o indicador for descoberto na organização. Os valores possíveis são: "Alert", "AlertAndBlock" e "Allowed". **Required**
 aplicação | Cadeia de caracteres | O aplicativo associado ao indicador. **Opcional**
 title | Cadeia de caracteres | Título de alerta de indicador. **Required**
-description | Cadeia de caracteres | Descrição do indicador. **Required**
+descrição | Cadeia de caracteres | Descrição do indicador. **Required**
 expirationTime | DateTimeOffset | O tempo de expiração do indicador. **Opcional**
 severity | Enum | A gravidade do indicador. os valores possíveis são: "Informacional", "Baixo", "Médio" e "Alto". **Opcional**
 recommendedActions | Cadeia de caracteres | Ações recomendadas do alerta de ti. **Opcional**

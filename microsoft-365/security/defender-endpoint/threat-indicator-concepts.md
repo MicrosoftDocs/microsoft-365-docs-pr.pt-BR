@@ -23,7 +23,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51053865"
 ---
-# <a name="understand-threat-intelligence-concepts"></a>Compreender conceitos de inteligência contra ameaças
+# <a name="understand-threat-intelligence-concepts"></a>Entender os conceitos de inteligência contra ameaças
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -64,12 +64,12 @@ Os IOCs têm uma relação de muitos para um com definições de alerta para que
 Tópico | Descrição
 :---|:---
 [Pull detections to your SIEM tools](configure-siem.md)| Saiba mais sobre diferentes maneiras de puxar detecções.
-[Habilitar a integração do SIEM no Microsoft Defender para Endpoint](enable-siem-integration.md)| Saiba mais sobre a habilitação do  recurso de integração siem na página Configurações do portal para que você possa usar e gerar as informações necessárias para configurar as ferramentas SIEM suportadas.
+[Habilitar a integração do SIEM no Microsoft Defender para Endpoint](enable-siem-integration.md)| Saiba mais sobre como habiltar o recurso de integração **siem** na página Configurações no portal para que você possa usar e gerar as informações necessárias para configurar as ferramentas SIEM suportadas.
 [Configurar o Splunk para puxar o Microsoft Defender para detecções de ponto de extremidade](configure-siem.md)| Saiba mais sobre como instalar o Aplicativo de Entrada Modular da API REST e outras configurações para habilitar o Splunk a puxar o Microsoft Defender para detecções de ponto de extremidade.
 [Configurar o HP ArcSight para puxar o Microsoft Defender para detecções de ponto de extremidade](configure-arcsight.md)| Saiba mais sobre como instalar o pacote HP ArcSight REST FlexConnector e os arquivos que você precisa configurar arcSight para puxar o Microsoft Defender para detecções de ponto de extremidade.
-[Campos de Detecção de Ponto de Extremidade do Microsoft Defender](api-portal-mapping.md) | Entenda quais campos de dados são expostos como parte da API de alertas e como eles mapeiam para o Centro de Segurança do Microsoft Defender.
+[Campos de Detecção de Ponto de Extremidade do Microsoft Defender](api-portal-mapping.md) | Entenda quais campos de dados são expostos como parte da API de alertas e como eles mapeiam para Central de Segurança do Microsoft Defender.
 [Puxar o Microsoft Defender para detecções de ponto de extremidade usando a API REST](pull-alerts-using-rest-api.md) | Use o fluxo de credenciais do cliente OAuth 2.0 para puxar detecções do Microsoft Defender para Ponto de Extremidade usando a API REST.
-[Solucionar problemas de integração de ferramentas SIEM](troubleshoot-siem.md) | Solucionar problemas que você pode encontrar ao usar o recurso de integração SIEM.
+[Solucionar problemas de integração da ferramenta SIEM](troubleshoot-siem.md) | Solucionar problemas que você pode encontrar ao usar o recurso de integração SIEM.
 
 
 

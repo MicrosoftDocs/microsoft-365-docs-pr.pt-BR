@@ -117,7 +117,7 @@ Para trabalhar com o painel de gerenciamento de alertas DLP:
     |-------------------|-------------------------------|----------------------------------------------------------------------------|------------------------------------------|
     |*Detalhes do evento*||
     |      | Id                            | ID exclusiva associada ao evento                                        | Todos os eventos                               |
-    |                   | Local                      | Carga de trabalho em que o evento foi detectado                                      | Todos os eventos                               |
+    |                   | Localização                      | Carga de trabalho em que o evento foi detectado                                      | Todos os eventos                               |
     |                   | Hora da atividade              | Hora da atividade do usuário que causou a violação de DLP                    | Todos os eventos                               |
     |*Entidades impactadas*||
     |  | Usuário                          | Usuário que causou a violação de DLP                                          | Todos os eventos                               |

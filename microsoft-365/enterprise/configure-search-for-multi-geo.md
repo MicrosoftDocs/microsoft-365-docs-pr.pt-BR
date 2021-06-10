@@ -12,7 +12,7 @@ ms.collection: Strat_SP_gtc
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Saiba como configurar a pesquisa em um ambiente multi-geo. Somente alguns clientes, como o OneDrive for Business, podem retornar resultados em um ambiente multi-geo.
+description: Saiba como configurar a pesquisa em um ambiente multi-geo. Somente alguns clientes, como OneDrive for Business, podem retornar resultados em um ambiente multi-geo.
 ms.openlocfilehash: b3a96b1d0652cb954c58ae410583befa078460d9
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -44,7 +44,7 @@ Assim que o ambiente multigeográfico for configurado, os usuários que pesquisa
 
 Assim que o ambiente multigeográfico for configurado, os usuários que pesquisam no Delve obtêm resultados de todas as localizações geográficas.
 
-O feed do Delve e o cartão de perfil mostram apenas as visualizações dos arquivos que estão armazenadas em uma localização central. Para arquivos que estão armazenados em localizações de satélite, o ícone para o tipo de arquivo é mostrado em vez disso.
+O feed do Delve e o cartão de perfil mostram apenas as visualizações de arquivos armazenados no local central. Para os arquivos armazenados em localizações satélites, é mostrado o ícone para o tipo de arquivo.
 
 ### <a name="the-sharepoint-home-page"></a>A home page do SharePoint
 
@@ -131,7 +131,7 @@ Alguns dos recursos de pesquisa que talvez você conheça não são suportados e
 
 Todos os clientes de pesquisa usam as APIs REST de Pesquisa existentes do SharePoint para interagir com os índices de pesquisa.
 
-![Diagrama mostrando como as APIs REST de Pesquisa do SharePoint interagem com os índices de pesquisa](../media/configure-search-for-multi-geo-image1-1.png)
+![Diagrama mostrando como SharePoint APIs REST de Pesquisa interagem com os índices de pesquisa](../media/configure-search-for-multi-geo-image1-1.png)
 
 1. Um cliente pesquisa chama o ponto de extremidade da API REST com a propriedade de consulta EnableMultiGeoSearch= true.
 2. A consulta é enviada a todas as localizações geográficas no locatário.
@@ -168,7 +168,7 @@ Cada centro de pesquisa tem vários verticais e você precisará configurar cada
 <span id="_Get_custom_search" class="anchor"><span id="_Ref501388387" class="anchor"></span></span>
 ## <a name="get-custom-search-applications-to-show-results-from-all-or-some-geo-locations"></a>Obter aplicativos de pesquisa personalizada para mostrar resultados de todas ou algumas localizações geográficas
 
-Os aplicativos de pesquisa personalizados têm resultados de todas as localizações geográficas, especificando parâmetros de consulta com a solicitação para a API REST de Pesquisa do SharePoint. Dependendo dos parâmetros de consulta, a consulta é ampliada para todas as localizações geográficas ou para algumas localizações geográficas. Por exemplo, se você precisar consultar apenas um subconjunto de localizações geográficas para encontrar informações relevantes, poderá controlar o fan para apenas estes. Se a solicitação for bem-sucedida, a API REST de Pesquisa do SharePoint retornará dados de resposta.
+Os aplicativos de pesquisa personalizada obtêm resultados de todas ou algumas localizações geográficas, especificando-se os parâmetros de consulta com a solicitação para a API REST de pesquisa do SharePoint. Dependendo dos parâmetros de consulta, realiza-se fan-out da consulta para todas ou algumas localizações geográficas. Por exemplo, se você apenas precisar consultar um subconjunto de localizações geográficas para encontrar informações relevantes, você pode controlar o fan-out apenas de acordo com elas. Se a solicitação for concluída, a API REST de pesquisa do SharePoint retorna dados de resposta.
 
 ### <a name="requirement"></a>Requisito
 

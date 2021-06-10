@@ -69,7 +69,7 @@ Adicione a seguinte carga JAMF para conceder Acesso total em disco ao Microsoft 
 
 ### <a name="network-extension-policy"></a>Política de Extensão de Rede
 
-Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Microsoft Defender para Ponto de Extremidade no macOS inspeciona o tráfego de soquete e relata essas informações ao portal do Centro de Segurança do Microsoft Defender. A política a seguir permite que a extensão de rede execute essa funcionalidade.
+Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Microsoft Defender para Ponto de Extremidade no macOS inspeciona o tráfego de soquete e relata essas informações ao portal Central de Segurança do Microsoft Defender. A política a seguir permite que a extensão de rede execute essa funcionalidade.
 
 >[!NOTE]
 >O JAMF não tem suporte integrado para políticas de filtragem de conteúdo, que são um pré-requisito para habilitar as extensões de rede que o Microsoft Defender para Ponto de Extremidade instala no macOS no dispositivo. Além disso, o JAMF às vezes altera o conteúdo das políticas que estão sendo implantadas.
@@ -170,7 +170,7 @@ Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Micr
     $ security cms -S -N "SigningCertificate" -i ~/Documents/com.microsoft.network-extension.mobileconfig -o ~/Documents/com.microsoft.network-extension.signed.mobileconfig
     ```
     
-5. No portal JAMF, navegue até **Perfis de Configuração** e clique no **botão Carregar.** Selecione `com.microsoft.network-extension.signed.mobileconfig` quando solicitado para o arquivo.
+5. No portal JAMF, navegue até **Perfis de Configuração** e clique **no** botão Upload de configuração. Selecione `com.microsoft.network-extension.signed.mobileconfig` quando solicitado para o arquivo.
 
 ## <a name="intune"></a>Intune
 

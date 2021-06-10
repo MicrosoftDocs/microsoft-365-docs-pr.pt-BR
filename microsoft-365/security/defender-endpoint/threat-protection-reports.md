@@ -61,7 +61,7 @@ Por padrão, as tendências de alerta exibem informações de alerta do período
 ## <a name="alert-summary"></a>Resumo do alerta
 Embora as tendências de alerta mostrem informações de alerta tendência, o resumo de alerta mostra informações de alerta com escopo para o dia atual.
 
- O resumo do alerta permite que você faça uma pesquisa em uma fila de alertas específica com o filtro correspondente aplicado a ela. Por exemplo, clicar na barra EDR no cartão Detecção de fontes trará a fila de alertas com resultados mostrando apenas alertas gerados a partir de detecções de EDR. 
+ O resumo do alerta permite que você faça uma pesquisa em uma fila de alertas específica com o filtro correspondente aplicado a ela. Por exemplo, clicar na barra EDR no cartão Detecção de fontes trará a fila de alertas com resultados mostrando apenas alertas gerados EDR detecções. 
 
 >[!NOTE]
 >Os dados refletidos na seção resumo são escopos para 180 dias antes da data atual. Por exemplo, se a data de hoje for 5 de novembro de 2019, os dados da seção de resumo refletirão números que começam de 5 de maio de 2019 a 5 de novembro de 2019.<br>

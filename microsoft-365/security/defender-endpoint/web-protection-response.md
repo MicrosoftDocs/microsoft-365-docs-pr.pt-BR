@@ -1,7 +1,7 @@
 ---
 title: Responder a ameaças da Web no Microsoft Defender para Ponto de Extremidade
-description: Responder a alertas relacionados a sites mal-intencionados e indesejados. Entenda como a proteção contra ameaças da Web informa os usuários finais por meio de seus navegadores da Web e notificações do Windows
-keywords: proteção da Web, proteção contra ameaças da Web, navegação na Web, alertas, resposta, segurança, phishing, malware, exploração, sites, proteção de rede, Edge, Internet Explorer, Chrome, Firefox, navegador da Web, notificações, usuários finais, notificações do Windows, página de bloqueio,
+description: Responder a alertas relacionados a sites mal-intencionados e indesejados. Entenda como a proteção contra ameaças da Web informa os usuários finais por meio de seus navegadores da Web e Windows notificações
+keywords: proteção da Web, proteção contra ameaças da Web, navegação na Web, alertas, resposta, segurança, phishing, malware, exploração, sites, proteção de rede, Edge, Internet Explorer, Chrome, Firefox, navegador da Web, notificações, usuários finais, notificações Windows, página de bloqueio,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -66,14 +66,14 @@ Você também pode verificar o dispositivo que tentou acessar uma URL bloqueada.
 
 [Saiba mais sobre páginas de entidade de dispositivo](investigate-machines.md)
 
-## <a name="web-browser-and-windows-notifications-for-end-users"></a>Navegador da Web e notificações do Windows para usuários finais
+## <a name="web-browser-and-windows-notifications-for-end-users"></a>Navegador da Web e Windows notificações para usuários finais
 
-Com a proteção da Web no Microsoft Defender para Ponto de Extremidade, seus usuários finais serão impedidos de visitar sites mal-intencionados ou indesejados usando o Microsoft Edge ou outros navegadores. Como o bloqueio é realizado pela proteção [de rede,](network-protection.md)eles verão um erro genérico do navegador da Web. Eles também verão uma notificação do Windows.
+Com a proteção da Web no Microsoft Defender para Ponto de Extremidade, seus usuários finais serão impedidos de visitar sites mal-intencionados ou indesejados usando Microsoft Edge ou outros navegadores. Como o bloqueio é realizado pela proteção [de rede,](network-protection.md)eles verão um erro genérico do navegador da Web. Eles também verão uma notificação do Windows.
 
-![Imagem do Microsoft Edge mostrando um erro 403 e a ameaça web de notificação do Windows ](images/wtp-browser-blocking-page.png)
+![Imagem de Microsoft Edge mostrando um erro 403 e a ameaça web de notificação Windows ](images/wtp-browser-blocking-page.png)
  *bloqueada no Microsoft Edge*
 
-![Imagem do navegador da Web do Chrome mostrando um aviso de conexão segura e a ameaça web de notificação do Windows ](images/wtp-chrome-browser-blocking-page.png)
+![Imagem do navegador da Web do Chrome mostrando um aviso de conexão segura e a ameaça Windows Web de notificação ](images/wtp-chrome-browser-blocking-page.png)
  *bloqueada no Chrome*
 
 ## <a name="related-topics"></a>Tópicos relacionados

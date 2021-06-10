@@ -64,7 +64,7 @@ Use o método a seguir na API do Microsoft Defender para Ponto de Extremidade pa
 >[!NOTE]
 >Central de Segurança do Microsoft Defender mescla detecções de alerta semelhantes em um único alerta. Essa API puxa detecções de alerta em sua forma bruta com base nos parâmetros de consulta que você definiu, permitindo que você aplique seu próprio grupo e filtragem. 
 
-## <a name="before-you-begin"></a>Antes de você começar
+## <a name="before-you-begin"></a>Antes de começar
 - Antes de chamar o ponto de extremidade do Microsoft Defender para Endpoint para detectar, você precisará habilitar o aplicativo de integração siem no Azure Active Directory (AAD). Para obter mais informações, consulte [Enable SIEM integration in Microsoft Defender for Endpoint](enable-siem-integration.md).
 
 - Anote os valores a seguir no registro do seu aplicativo Azure. Você precisa desses valores para configurar o fluxo OAuth em seu aplicativo de serviço ou daemon:

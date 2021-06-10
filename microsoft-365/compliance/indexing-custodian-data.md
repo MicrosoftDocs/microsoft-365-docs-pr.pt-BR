@@ -15,7 +15,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Quando um custodiante é adicionado a um caso de Descoberta Avançada, qualquer conteúdo considerado parcialmente indexado é reprocessado para torná-lo totalmente pesquisável.
+description: Quando um custodiante é adicionado a um caso Advanced eDiscovery, qualquer conteúdo considerado parcialmente indexado é reprocessado para torná-lo totalmente pesquisável.
 ms.openlocfilehash: 904c8fe626ce8ece8f4b48bd5504e4011e9f4fb2
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -25,11 +25,11 @@ ms.locfileid: "50911205"
 ---
 # <a name="advanced-indexing-of-custodian-data"></a>Indexação de dados custodiante avançados
 
-Quando um custodiante é adicionado a um caso de Descoberta Avançada, qualquer conteúdo considerado parcialmente indexado é reprocessado para torná-lo totalmente pesquisável.  Esse processo é chamado *de indexação avançada*. O conteúdo pode ser parcialmente indexado por vários motivos, incluindo a existência de imagens, tipos de arquivo sem suporte ou quando os limites de tamanho do arquivo de indexação são encontrados.
+Quando um custodiante é adicionado a um caso Advanced eDiscovery, qualquer conteúdo considerado parcialmente indexado é reprocessado para torná-lo totalmente pesquisável.  Esse processo é chamado *de indexação avançada*. O conteúdo pode ser parcialmente indexado por vários motivos, incluindo a existência de imagens, tipos de arquivo sem suporte ou quando os limites de tamanho do arquivo de indexação são encontrados.
 
 Para saber mais sobre o suporte ao processamento e itens parcialmente indexados, consulte:
 
-- [Tipos de arquivo com suporte na Descoberta Avançada da Descoberta](supported-filetypes-ediscovery20.md)
+- [Tipos de arquivo com suporte em Advanced eDiscovery](supported-filetypes-ediscovery20.md)
 
 - [Itens parcialmente indexados na Pesquisa de Conteúdo do Office 365](partially-indexed-items-in-content-search.md)
 
@@ -39,9 +39,9 @@ Para saber mais sobre o suporte ao processamento e itens parcialmente indexados,
 
 ## <a name="viewing-advanced-indexing-results"></a>Exibindo resultados avançados de indexação
 
-Depois que o processo de indexação avançada for concluído, você poderá obter uma compreensão da eficácia do reprocessamento.  No modo de exibição De resultados de indexação avançada na guia **Processamento** de uma ocorrência, o gráfico lista o número de itens adicionados ao *índice híbrido*.  O índice híbrido é onde a Descoberta Virtual Avançada armazena o conteúdo reprocessado.
+Depois que o processo de indexação avançada for concluído, você poderá obter uma compreensão da eficácia do reprocessamento.  No modo de exibição De resultados de indexação avançada na guia **Processamento** de uma ocorrência, o gráfico lista o número de itens adicionados ao *índice híbrido*.  O índice híbrido é onde Advanced eDiscovery armazena o conteúdo reprocessado.
 
-Essa exibição também inclui o número de itens que exigem correção e outro gráfico de erros por tipo de arquivo. Para mais informações, confira:
+Essa exibição também inclui o número de itens que exigem correção e outro gráfico de erros por tipo de arquivo. Para saber mais, confira:
 
 - [Correção de erros durante o processamento de dados](error-remediation-when-processing-data-in-advanced-ediscovery.md)
 
@@ -49,7 +49,7 @@ Essa exibição também inclui o número de itens que exigem correção e outro 
 
 ## <a name="updating-the-advanced-index-for-custodians"></a>Atualizando o índice avançado para custodiantes
 
-Quando um custodiante é adicionado a um caso de Descoberta Avançada, todos os itens parcialmente indexados são reprocessados. No entanto, com o passar do tempo, itens indexados mais parcialmente podem ser adicionados à caixa de correio de um usuário ou à conta do OneDrive.  Se necessário, você pode atualizar o índice para o custodiante específico. Para obter mais informações, consulte [Manage custodians in an Advanced eDiscovery case](manage-new-custodians.md#re-index-custodian-data). Você também pode atualizar o índice para todos os custodiantes em um caso clicando no índice **Atualizar** na guia **Processamento.**
+Quando um custodiante é adicionado a uma Advanced eDiscovery, todos os itens parcialmente indexados são reprocessados. No entanto, à medida que o tempo passa, itens indexados mais parcialmente podem ser adicionados à caixa de correio ou OneDrive de um usuário.  Se necessário, você pode atualizar o índice para o custodiante específico. Para obter mais informações, consulte [Manage custodians in an Advanced eDiscovery case](manage-new-custodians.md#re-index-custodian-data). Você também pode atualizar o índice para todos os custodiantes em um caso clicando no índice **Atualizar** na guia **Processamento.**
 
 > [!NOTE]
 > A atualização dos índices de custodiante é um processo em execução longa. É recomendável que você não atualize índices mais de uma vez por dia em um caso.

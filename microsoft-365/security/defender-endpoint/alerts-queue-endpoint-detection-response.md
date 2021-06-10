@@ -1,7 +1,7 @@
 ---
-title: Fila de alertas no Centro de Segurança do Microsoft Defender
+title: Fila de alertas em Central de Segurança do Microsoft Defender
 ms.reviewer: ''
-description: Exibir e gerenciar os alertas que surgiram no Centro de Segurança do Microsoft Defender
+description: Exibir e gerenciar os alertas que surgiram em Central de Segurança do Microsoft Defender
 keywords: ''
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -25,7 +25,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51054195"
 ---
-# <a name="alerts-queue-in-microsoft-defender-security-center"></a>Fila de alertas no Centro de Segurança do Microsoft Defender
+# <a name="alerts-queue-in-microsoft-defender-security-center"></a>Fila de alertas em Central de Segurança do Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -39,7 +39,7 @@ Saiba como você pode exibir e gerenciar a fila para que você possa investigar 
 ## <a name="in-this-section"></a>Nesta seção
 Tópico | Descrição 
 :---|:---
-[Exibir e organizar a fila de alertas](alerts-queue.md) | Mostra uma lista de alertas que foram sinalizados em sua rede.
+[Exibir e organizar a Fila de alertas](alerts-queue.md) | Mostra uma lista de alertas que foram sinalizados em sua rede.
 [Gerenciar alertas](manage-alerts.md) | Saiba mais sobre como gerenciar alertas, como alterar seu status, atribuí-lo a um membro de operações de segurança e ver o histórico de um alerta.
 [Investigar alertas](investigate-alerts.md)| Investigue alertas que estão afetando sua rede, entenda o que significam e como resolvê-los.
 [Investigar arquivos](investigate-files.md)| Investigue os detalhes de um arquivo associado a um alerta, comportamento ou evento específico. 

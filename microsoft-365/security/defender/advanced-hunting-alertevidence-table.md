@@ -35,7 +35,7 @@ ms.locfileid: "51932578"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-A tabela no esquema de busca avançada contém informações sobre várias `AlertEvidence` entidades, arquivos, endereços IP, URLs, usuários ou dispositivos, associados a alertas do Microsoft Defender para Ponto de Extremidade, Microsoft Defender para Office 365, Segurança de Aplicativos na Nuvem da [](advanced-hunting-overview.md) Microsoft e Microsoft Defender para Identidade. Use essa referência para criar consultas que retornam informações dessa tabela.
+A tabela no esquema de busca avançada contém informações sobre várias entidades, `AlertEvidence` arquivos, endereços [](advanced-hunting-overview.md) IP, URLs, usuários ou dispositivos, associadas a alertas do Microsoft Defender para Ponto de Extremidade, Microsoft Defender para Office 365, Microsoft Cloud App Security e Microsoft Defender para Identidade. Use essa referência para criar consultas que retornam informações dessa tabela.
 
 Para obter informações sobre outras tabelas no esquema de busca avançada, [confira a referência de busca avançada](advanced-hunting-schema-tables.md).
 

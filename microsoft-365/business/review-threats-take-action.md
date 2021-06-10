@@ -14,7 +14,7 @@ ms.collection:
 - Adm_TOC
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
-description: Saiba como revisar e gerenciar ameaças detectadas pelo Microsoft Defender Antivírus em seus dispositivos Windows 10.
+description: Saiba como analisar e gerenciar ameaças detectadas por Microsoft Defender Antivírus em seus Windows 10 dispositivos.
 ms.openlocfilehash: 15e99fb75e4a3ac1af842ca7d0b900e02cbc6bd4
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -24,15 +24,15 @@ ms.locfileid: "50912781"
 ---
 # <a name="review-detected-threats-and-take-action"></a>Examine as ameaças detectadas e execute ações
 
-Assim que um arquivo ou software mal-intencionado é detectado, o Microsoft Defender Antivírus o bloqueia e o impede de ser executado. E com a proteção entregue na nuvem, as ameaças recém-detectadas são adicionadas ao mecanismo antivírus e antimalware para que seus outros dispositivos e usuários também sejam protegidos.
+Assim que um arquivo ou software mal-intencionado for detectado, Microsoft Defender Antivírus-lo e impedir que ele seja executado. E com a proteção entregue na nuvem, as ameaças recém-detectadas são adicionadas ao mecanismo antivírus e antimalware para que seus outros dispositivos e usuários também sejam protegidos.
 
-O Microsoft Defender Antivírus detecta e protege contra os seguintes tipos de ameaças:
+Microsoft Defender Antivírus detecta e protege contra os seguintes tipos de ameaças:
 
 - Vírus, malware e ameaças baseadas na Web em dispositivos
 - Tentativas de phishing
 - Tentativas de roubo de dados
 
-Como um profissional/administrador de TI, você pode exibir informações sobre detecções de ameaças em dispositivos [Windows 10](/mem/intune/enrollment/device-enrollment) que estão inscritos no Intune no centro de administração do Microsoft 365. Você verá informações resumidas, como:
+Como um profissional/administrador de TI, você pode exibir informações sobre detecções de ameaças em Windows 10 dispositivos que estão inscritos no [Intune](/mem/intune/enrollment/device-enrollment) no centro de administração Microsoft 365 de segurança. Você verá informações resumidas, como:
 
 - Quantos dispositivos precisam de proteção antivírus
 - Quantos dispositivos não estão em conformidade com as políticas de segurança
@@ -40,17 +40,17 @@ Como um profissional/administrador de TI, você pode exibir informações sobre 
 
 Você tem várias opções para exibir informações específicas sobre detecções de ameaças e dispositivos:
 
-- A **página Dispositivos ativos** no Centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">do Microsoft 365</a>. Consulte [Gerenciar detecções de ameaças na página Dispositivos ativos](#manage-threat-detections-on-the-active-devices-page) neste artigo.
-- A **página Ameaças ativas** no Centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">do Microsoft 365</a>. Consulte [Gerenciar detecções de ameaças na página Ameaças ativas](#manage-threat-detections-on-the-active-threats-page) neste artigo.
-- A **página Antivírus** no <a href="https://go.microsoft.com/fwlink/p/?linkid=2150463" target="_blank">Microsoft Endpoint Manager</a>. Consulte [Gerenciar detecções de ameaças no Microsoft Endpoint Manager](#manage-threat-detections-in-microsoft-endpoint-manager) neste artigo.
+- A **página Dispositivos ativos** no <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 de administração</a>. Consulte [Gerenciar detecções de ameaças na página Dispositivos ativos](#manage-threat-detections-on-the-active-devices-page) neste artigo.
+- A **página Ameaças ativas** no Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">de administração</a>. Consulte [Gerenciar detecções de ameaças na página Ameaças ativas](#manage-threat-detections-on-the-active-threats-page) neste artigo.
+- A **página Antivírus** <a href="https://go.microsoft.com/fwlink/p/?linkid=2150463" target="_blank">em Microsoft Endpoint Manager</a>. Consulte [Gerenciar detecções de ameaças Microsoft Endpoint Manager](#manage-threat-detections-in-microsoft-endpoint-manager) neste artigo.
 
-Para saber mais, confira [Ameaças detectadas pelo Microsoft Defender Antivírus](threats-detected-defender-av.md).
+Para saber mais, confira [Ameaças detectadas por Microsoft Defender Antivírus](threats-detected-defender-av.md).
 
 ## <a name="manage-threat-detections-on-the-active-devices-page"></a>Gerenciar detecções de ameaças na página **Dispositivos** ativos
 
-O procedimento a seguir se aplica aos clientes que têm o Microsoft 365 Business Premium.
+O procedimento a seguir se aplica aos clientes que têm Microsoft 365 Business Premium.
 
-1. Vá para o Centro de administração do Microsoft 365 em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> e entre.
+1. Vá para o Microsoft 365 de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> e entre.
 
 2. Na página de navegação, selecione **Dispositivos**  >  **Ativos dispositivos**. Você verá uma lista de dispositivos ativos e detalhes, como status de proteção, estado de proteção antivírus (AV) e o número de ameaças ativas detectadas.
 
@@ -58,12 +58,12 @@ O procedimento a seguir se aplica aos clientes que têm o Microsoft 365 Business
 
 ## <a name="manage-threat-detections-on-the-active-threats-page"></a>Gerenciar detecções de ameaças na página **Ameaças ativas**
 
-O procedimento a seguir se aplica aos clientes que têm o Microsoft 365 Business Premium. [Os dispositivos Windows 10 devem ser protegidos](./secure-win-10-pcs.md) [e inscritos no Intune](/mem/intune/enrollment/windows-enrollment-methods).
+O procedimento a seguir se aplica aos clientes que têm Microsoft 365 Business Premium. [Windows 10 dispositivos devem ser protegidos](./secure-win-10-pcs.md) [e inscritos no Intune](/mem/intune/enrollment/windows-enrollment-methods).
 
 > [!NOTE]
-> O cartão Do  Microsoft **Defender Antivírus** e a página ameaças ativas estão sendo lançados em fases, portanto, talvez você não tenha acesso imediato a eles.
+> A **Microsoft Defender Antivírus** e **a página** Ameaças ativas estão sendo roladas em fases, portanto, talvez você não tenha acesso imediato a eles.
 
-1. Vá para o Centro de administração do Microsoft 365 em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> e entre.
+1. Vá para o Microsoft 365 de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> e entre.
 
 2. No cartão **Microsoft Defender Antivírus,** selecione **Exibir ameaças ativas**. (Como alternativa, no painel de navegação, selecione **Saúde**  >  **Ameaças & antivírus**.)
 
@@ -77,34 +77,34 @@ Quando você exibir detalhes sobre ameaças ou dispositivos específicos, você 
 
 | Ação | Descrição |
 |--|--|
-| Configurar proteção | Suas políticas de proteção contra ameaças precisam ser configuradas. Selecione o link para ir para a página de configuração de política.<br><br>Precisa de ajuda? Consulte Gerenciar a segurança do dispositivo com políticas de segurança de ponto de [extremidade no Microsoft Intune](/mem/intune/protect/endpoint-security-policy). |
-| Atualizar política | Suas políticas de proteção antivírus e em tempo real precisam ser atualizadas ou configuradas. Selecione o link para ir para a página de configuração de política.<br><br>Precisa de ajuda? Consulte Gerenciar a segurança do dispositivo com políticas de segurança de ponto de [extremidade no Microsoft Intune](/mem/intune/protect/endpoint-security-policy). |
-| Executar uma verificação rápida | Inicia uma verificação rápida de antivírus no dispositivo, concentrando-se em locais comuns onde o malware pode ser registrado, como chaves do Registro e pastas de inicialização conhecidas do Windows. |
-| Executar a verificação completa | Inicia uma verificação completa de antivírus no dispositivo, concentrando-se em locais comuns onde o malware pode ser registrado e incluindo todos os arquivos e pastas no dispositivo. Os resultados são enviados para [o Microsoft Endpoint Manager.](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) |
+| Configurar proteção | Suas políticas de proteção contra ameaças precisam ser configuradas. Selecione o link para ir para a página de configuração de política.<br><br>Precisa de ajuda? Consulte [Gerenciar a segurança do dispositivo com políticas de segurança de](/mem/intune/protect/endpoint-security-policy)ponto de extremidade em Microsoft Intune . |
+| Atualizar política | Suas políticas de proteção antivírus e em tempo real precisam ser atualizadas ou configuradas. Selecione o link para ir para a página de configuração de política.<br><br>Precisa de ajuda? Consulte [Gerenciar a segurança do dispositivo com políticas de segurança de](/mem/intune/protect/endpoint-security-policy)ponto de extremidade em Microsoft Intune . |
+| Executar uma verificação rápida | Inicia uma verificação rápida de antivírus no dispositivo, concentrando-se em locais comuns onde o malware pode ser registrado, como chaves do Registro e pastas de inicialização Windows conhecidas. |
+| Executar a verificação completa | Inicia uma verificação completa de antivírus no dispositivo, concentrando-se em locais comuns onde o malware pode ser registrado e incluindo todos os arquivos e pastas no dispositivo. Os resultados são enviados para [Microsoft Endpoint Manager](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager). |
 | Atualizar antivírus | Requer que o dispositivo receba atualizações [de inteligência de segurança](https://go.microsoft.com/fwlink/?linkid=2149926) para proteção antivírus e antimalware. |
-| Reiniciar dispositivo | Força um dispositivo Windows 10 a ser reiniciado em cinco minutos.<br><br>**IMPORTANTE:** O proprietário ou usuário do dispositivo não é notificado automaticamente sobre a reinicialização e pode perder o trabalho não saved. |
+| Reiniciar dispositivo | Força um Windows 10 a ser reiniciado dentro de cinco minutos.<br><br>**IMPORTANTE:** O proprietário ou usuário do dispositivo não é notificado automaticamente sobre a reinicialização e pode perder o trabalho não saved. |
 
-## <a name="manage-threat-detections-in-microsoft-endpoint-manager"></a>Gerenciar detecções de ameaças no Microsoft Endpoint Manager
+## <a name="manage-threat-detections-in-microsoft-endpoint-manager"></a>Gerenciar detecções de ameaças em Microsoft Endpoint Manager
 
-Você pode usar o Microsoft Endpoint Manager para gerenciar detecções de ameaças. Os dispositivos Windows 10 devem estar [inscritos no Intune](/mem/intune/enrollment/windows-enrollment-methods) (parte do Microsoft Endpoint Manager).
+Você pode usar Microsoft Endpoint Manager para gerenciar detecções de ameaças. Windows 10 dispositivos devem [estar inscritos no Intune](/mem/intune/enrollment/windows-enrollment-methods) (parte do Microsoft Endpoint Manager).
 
-1. Vá para o Centro de administração do Microsoft Endpoint Manager em <a href="https://go.microsoft.com/fwlink/p/?linkid=2150463" target="_blank">https://endpoint.microsoft.com</a> e entre.
+1. Vá para o Microsoft Endpoint Manager de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=2150463" target="_blank">https://endpoint.microsoft.com</a> e entre.
 
 2. No painel de navegação, selecione **Segurança do ponto de extremidade**.
 
-3. Em **Gerenciar**, selecione **Antivírus**. Você verá várias guias, como **Resumo,** Pontos de extremidade não ais do **Windows 10** e malware detectado pelo **Windows 10.**
+3. Em **Gerenciar**, selecione **Antivírus**. Você verá várias guias, como **Resumo,** Windows 10 pontos de extremidade não salubres **e** Windows 10 malware **detectado.**
 
 4. Revise as informações nas guias disponíveis e, em seguida, tome qualquer ação necessária.
 
-Por exemplo, suponha que os dispositivos estão listados na guia **Malware detectado do Windows 10.** Ao selecionar um dispositivo, você terá determinadas ações disponíveis, como **Reiniciar,** Verificar **Rapidamente,** Verificação **Completa,** **Sincronização** ou Atualizar **assinaturas**. Selecione uma ação para esse dispositivo.
+Por exemplo, suponha que os dispositivos estão listados **na guia Windows 10 malware** detectado. Ao selecionar um dispositivo, você terá determinadas ações disponíveis, como **Reiniciar,** Verificar **Rapidamente,** Verificação **Completa,** **Sincronização** ou Atualizar **assinaturas**. Selecione uma ação para esse dispositivo.
 
 A tabela a seguir descreve as ações que você pode ver no Microsoft Endpoint Manager.<br><br>
 
 | Ação | Descrição |
 |--|--|
-| Reiniciar | Força um dispositivo Windows 10 a ser reiniciado em cinco minutos.<br><br>**IMPORTANTE:** O proprietário ou usuário do dispositivo não é notificado automaticamente sobre a reinicialização e pode perder o trabalho não saved. |
-| Verificação Rápida | Inicia uma verificação rápida de antivírus no dispositivo, concentrando-se em locais comuns onde o malware pode ser registrado, como chaves do Registro e pastas de inicialização conhecidas do Windows. Os resultados são enviados para [o Microsoft Endpoint Manager.](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) |
-| Verificação completa | Inicia uma verificação completa de antivírus no dispositivo, concentrando-se em locais comuns onde o malware pode ser registrado e incluindo todos os arquivos e pastas no dispositivo. Os resultados são enviados para [o Microsoft Endpoint Manager.](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) |
+| Reiniciar | Força um Windows 10 a ser reiniciado dentro de cinco minutos.<br><br>**IMPORTANTE:** O proprietário ou usuário do dispositivo não é notificado automaticamente sobre a reinicialização e pode perder o trabalho não saved. |
+| Verificação Rápida | Inicia uma verificação rápida de antivírus no dispositivo, concentrando-se em locais comuns onde o malware pode ser registrado, como chaves do Registro e pastas de inicialização Windows conhecidas. Os resultados são enviados para [Microsoft Endpoint Manager](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager). |
+| Verificação completa | Inicia uma verificação completa de antivírus no dispositivo, concentrando-se em locais comuns onde o malware pode ser registrado e incluindo todos os arquivos e pastas no dispositivo. Os resultados são enviados para [Microsoft Endpoint Manager](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager). |
 | Sincronizar | Requer um dispositivo para fazer check-in com o Intune (parte do Microsoft Endpoint Manager). Quando o dispositivo faz o logons, o dispositivo recebe todas as ações ou políticas pendentes atribuídas ao dispositivo. |
 | Atualizar assinaturas | Requer que o dispositivo receba atualizações [de inteligência de segurança](https://go.microsoft.com/fwlink/?linkid=2149926) para proteção antivírus e antimalware. |
 

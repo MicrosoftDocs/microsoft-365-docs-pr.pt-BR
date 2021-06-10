@@ -1,6 +1,6 @@
 ---
-title: Configurações do fuso horário do Centro de Segurança do Microsoft Defender
-description: Use as informações contidas aqui para configurar as configurações do fuso horário do Centro de Segurança do Microsoft Defender e exibir informações de licença.
+title: Central de Segurança do Microsoft Defender de fuso horário
+description: Use as informações contidas aqui para configurar as configurações Central de Segurança do Microsoft Defender fuso horário e exibir informações de licença.
 keywords: configurações, Microsoft Defender, inteligência contra ameaças de segurança cibernética, Microsoft Defender para Ponto de Extremidade, fuso horário, utc, hora local, licença
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -23,7 +23,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51932626"
 ---
-# <a name="microsoft-defender-security-center-time-zone-settings"></a>Configurações do fuso horário do Centro de Segurança do Microsoft Defender
+# <a name="microsoft-defender-security-center-time-zone-settings"></a>Central de Segurança do Microsoft Defender de fuso horário
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -68,12 +68,12 @@ Para definir o fuso horário:
 3. Selecione **UTC de fuso** horário ou seu fuso horário local, por exemplo -7:00.
 
 ### <a name="regional-settings"></a>Configurações regionais
-Para aplicar diferentes formatos de data para o Microsoft Defender para o Ponto de Extremidade, use configurações regionais para o Internet Explorer (IE) e o Microsoft Edge (Edge). Se você estiver usando outro navegador, como o Google Chrome, siga as etapas necessárias para alterar as configurações de data e hora desse navegador. 
+Para aplicar diferentes formatos de data para o Microsoft Defender para Ponto de Extremidade, use configurações regionais para o Internet Explorer (IE) e Microsoft Edge (Borda). Se você estiver usando outro navegador, como o Google Chrome, siga as etapas necessárias para alterar as configurações de data e hora desse navegador. 
 
 
 **Internet Explorer (IE) e Microsoft Edge**
 
-O IE e o Microsoft Edge usam **as** configurações Região configuradas na opção **Relógios,** Idioma e Região no painel controle. 
+O IE e Microsoft Edge  as configurações região configuradas na opção **Relógios,** Idioma e Região no painel Controle. 
 
 
 #### <a name="known-issues-with-regional-formats"></a>Problemas conhecidos com formatos regionais

@@ -104,7 +104,7 @@ Para obter mais informações sobre como converter uma caixa de correio de usuá
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Sobre caixas de correio compartilhadas](about-shared-mailboxes.md) (artigo)\
+[Sobre as caixas de correio compartilhadas](about-shared-mailboxes.md) (artigo)\
 [Criar uma caixa de correio compartilhada](create-a-shared-mailbox.md) (artigo)\
 [Configurar uma caixa de correio compartilhada](configure-a-shared-mailbox.md) (artigo)\
 [Remover uma licença de uma caixa de correio compartilhada](remove-license-from-shared-mailbox.md) (artigo)\

@@ -1,6 +1,6 @@
 ---
 title: Criar e gerenciar funções para controle de acesso baseado em função
-description: Criar funções e definir as permissões atribuídas à função como parte da implementação do controle de acesso baseado em função no Centro de Segurança do Microsoft Defender
+description: Crie funções e defina as permissões atribuídas à função como parte da implementação do controle de acesso baseado em função no Central de Segurança do Microsoft Defender
 keywords: funções de usuário, funções, rbac de acesso
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -35,13 +35,13 @@ ms.locfileid: "51053832"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-## <a name="create-roles-and-assign-the-role-to-an-azure-active-directory-group"></a>Criar funções e atribuir a função a um grupo do Azure Active Directory
+## <a name="create-roles-and-assign-the-role-to-an-azure-active-directory-group"></a>Criar funções e atribuir a função a um Azure Active Directory grupo
 
-As etapas a seguir o orientam sobre como criar funções no Centro de Segurança do Microsoft Defender. Ele supõe que você já tenha criado grupos de usuários do Azure Active Directory.
+As etapas a seguir orientam você sobre como criar funções em Central de Segurança do Microsoft Defender. Ele supõe que você já tenha criado Azure Active Directory grupos de usuários.
 
-1. Faça logoff no [Centro de Segurança](https://securitycenter.windows.com/) do Microsoft Defender usando conta com um administrador de segurança ou função de administrador global atribuída.
+1. Faça logoff [Central de Segurança do Microsoft Defender](https://securitycenter.windows.com/) conta usando uma função de administrador de segurança ou administrador global atribuída.
 
-2. No painel de navegação, selecione **Configurações > Funções**.
+2. No painel de navegação, selecione Configurações > **Funções**.
 
 3. Selecione **Adicionar item**.
 
@@ -62,12 +62,12 @@ As etapas a seguir o orientam sobre como criar funções no Centro de Segurança
 
 - **Exibir dados**
     - **Operações de segurança** - Exibir todos os dados de operações de segurança no portal
-    - **Gerenciamento de ameaças e vulnerabilidades** - Exibir dados de gerenciamento de ameaças e vulnerabilidades no portal
+    - **Ameaça e Gerenciamento de Vulnerabilidades** - Exibir Gerenciamento de Ameaças e Vulnerabilidades dados no portal
 
 - **Ações de correção ativas**
     - **Operações de segurança** - Realizar ações de resposta, aprovar ou descartar ações pendentes de correção, gerenciar listas permitidas/bloqueadas para automação e indicadores
-    - **Gerenciamento de ameaças e vulnerabilidades - Tratamento de exceções** - Criar novas exceções e gerenciar exceções ativas
-    - **Gerenciamento de ameaças e vulnerabilidades - Tratamento** de correção - Enviar novas solicitações de correção, criar tíquetes e gerenciar atividades de correção existentes
+    - **Ameaça e Gerenciamento de Vulnerabilidades - Tratamento de exceções** - Criar novas exceções e gerenciar exceções ativas
+    - **Ameaças e Gerenciamento de Vulnerabilidades - Tratamento de** correção - Enviar novas solicitações de correção, criar tíquetes e gerenciar atividades de correção existentes
 
 - **Investigação de alertas** - Gerenciar alertas, iniciar investigações automatizadas, executar verificações, coletar pacotes de investigação, gerenciar marcas de dispositivo e baixar somente arquivos executáveis portáteis (PE) 
 
@@ -85,7 +85,7 @@ As etapas a seguir o orientam sobre como criar funções no Centro de Segurança
     - **Comandos** avançados:
         - Baixar um arquivo do dispositivo remoto por meio de resposta ao vivo
         - Baixar arquivos PE e não-PE da página de arquivo
-        - Carregar um arquivo no dispositivo remoto
+        - Upload um arquivo para o dispositivo remoto
         - Exibir um script da biblioteca de arquivos
         - Executar um script no dispositivo remoto da biblioteca de arquivos
 
@@ -93,9 +93,9 @@ Para obter mais informações sobre os comandos disponíveis, consulte [Investig
   
 ## <a name="edit-roles"></a>Editar funções
 
-1. Faça logoff no [Centro de Segurança](https://securitycenter.windows.com/) do Microsoft Defender usando conta com o administrador de segurança ou a função de administrador global atribuída.
+1. Faça [logoff](https://securitycenter.windows.com/) Central de Segurança do Microsoft Defender conta usando a função administrador de segurança ou administrador global atribuída.
 
-2. No painel de navegação, selecione **Configurações > Funções**.
+2. No painel de navegação, selecione Configurações > **Funções**.
 
 3. Selecione a função que você gostaria de editar.
 
@@ -107,9 +107,9 @@ Para obter mais informações sobre os comandos disponíveis, consulte [Investig
 
 ## <a name="delete-roles"></a>Excluir funções
 
-1. Faça logoff no [Centro de Segurança](https://securitycenter.windows.com/) do Microsoft Defender usando conta com o administrador de segurança ou a função de administrador global atribuída.
+1. Faça [logoff](https://securitycenter.windows.com/) Central de Segurança do Microsoft Defender conta usando a função administrador de segurança ou administrador global atribuída.
 
-2. No painel de navegação, selecione **Configurações > Funções**.
+2. No painel de navegação, selecione Configurações > **Funções**.
 
 3. Selecione a função que você gostaria de excluir.
 

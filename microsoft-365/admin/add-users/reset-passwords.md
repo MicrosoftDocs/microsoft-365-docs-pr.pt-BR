@@ -50,7 +50,7 @@ Assista a um breve vídeo sobre como redefinir senhas de usuário.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FVVP]
 
-Se você achou esse vídeo útil, confira as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](../../business-video/index.yml).
+Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](../../business-video/index.yml).
   
 ## <a name="steps-reset-a-business-password-for-a-user"></a>Etapas: Redefinir uma senha comercial para um usuário
 
@@ -122,7 +122,7 @@ Experimente os procedimentos deste artigo: [Eu esqueci o nome de usuário ou a s
   
 ## <a name="related-content"></a>Conteúdo relacionado
   
-[Permitir que os usuários redefinir suas próprias senhas](../add-users/let-users-reset-passwords.md) (artigo)\
+[Permitir que os usuários redefinim suas próprias senhas](../add-users/let-users-reset-passwords.md) (artigo)\
 [Redefinir senhas](../add-users/reset-passwords.md) (artigo)\
 [Definir a senha de um usuário individual para nunca expirar](set-password-to-never-expire.md) (artigo)\
 [Definir a política de expiração de senha para sua](../manage/set-password-expiration-policy.md) organização (artigo)\

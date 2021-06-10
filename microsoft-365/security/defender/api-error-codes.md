@@ -1,6 +1,6 @@
 ---
-title: Códigos de erro comuns da API REST do Microsoft 365 Defender
-description: Saiba mais sobre os códigos de erro comuns da API REST do Microsoft 365 Defender
+title: Códigos de Microsoft 365 de erro da API REST do Defender
+description: Saiba mais sobre os códigos de erro comuns Microsoft 365 API REST do Defender
 keywords: api, erro, códigos, erros comuns, Microsoft 365 Defender, códigos de erro de api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -27,7 +27,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51932876"
 ---
-# <a name="common-microsoft-365-defender-rest-api-error-codes"></a>Códigos de erro comuns da API REST do Microsoft 365 Defender
+# <a name="common-microsoft-365-defender-rest-api-error-codes"></a>Códigos de Microsoft 365 de erro da API REST do Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -38,7 +38,7 @@ ms.locfileid: "51932876"
 > [!IMPORTANT]
 > Algumas informações estão relacionadas a produtos pré-lançados que podem ser substancialmente modificados antes de seu lançamento comercial. A Microsoft não faz garantias, expressas ou implícitas, quanto às informações fornecidas aqui.
 
-Os códigos de erro podem ser retornados por uma operação em qualquer uma das APIs do Microsoft 365 Defender. Cada resposta de erro conterá uma mensagem de erro, o que pode ajudar a resolver o problema. A coluna mensagem de erro na seção tabela fornece algumas mensagens de exemplo. O conteúdo das mensagens reais variará com base nos fatores que dispararam a resposta. O conteúdo variável é indicado na tabela por colchetes de ângulo.
+Os códigos de erro podem ser retornados por uma operação em qualquer uma das APIs Microsoft 365 Defender. Cada resposta de erro conterá uma mensagem de erro, o que pode ajudar a resolver o problema. A coluna mensagem de erro na seção tabela fornece algumas mensagens de exemplo. O conteúdo das mensagens reais variará com base nos fatores que dispararam a resposta. O conteúdo variável é indicado na tabela por colchetes de ângulo.
 
 ## <a name="error-codes"></a>Códigos de erro
 
@@ -99,7 +99,7 @@ Cada resposta de erro contém um parâmetro de ID exclusivo para rastreamento. O
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Visão geral das APIs do Microsoft 365 Defender](api-overview.md)
+- [Microsoft 365 Visão geral das APIs do Defender](api-overview.md)
 - [APIs com suporte do Microsoft 365 Defender](api-supported.md)
-- [Acessar as APIs do Microsoft 365 Defender](api-access.md)
+- [Acessar as APIs Microsoft 365 Defender](api-access.md)
 - [Saiba mais sobre limites de API e licenciamento](api-terms.md)

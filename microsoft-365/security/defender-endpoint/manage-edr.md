@@ -1,5 +1,5 @@
 ---
-title: Gerenciar recursos de detecção e resposta do ponto de extremidade
+title: Gerenciar detecção e resposta de ponto de extremidade recursos
 ms.reviewer: ''
 description: ''
 keywords: ''
@@ -25,7 +25,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51053588"
 ---
-# <a name="manage-endpoint-detection-and-response-capabilities"></a>Gerenciar recursos de detecção e resposta do ponto de extremidade
+# <a name="manage-endpoint-detection-and-response-capabilities"></a>Gerenciar detecção e resposta de ponto de extremidade recursos
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,7 +36,7 @@ Gerencie a fila de alertas, investigue dispositivos na lista de dispositivos, to
 ## <a name="in-this-section"></a>Nesta seção
 Tópico | Descrição 
 :---|:---
-[Fila de alertas](alerts-queue-endpoint-detection-response.md)| Exibir os alertas que surgiram no Centro de Segurança do Microsoft Defender.
+[Fila de alertas](alerts-queue-endpoint-detection-response.md)| Exibir os alertas que surgiram Central de Segurança do Microsoft Defender.
 [Lista de dispositivos](machines-view-overview.md) | Saiba como você pode exibir e gerenciar a lista de dispositivos, gerenciar grupos de dispositivos e investigar alertas relacionados ao dispositivo. 
-[Tomar ações de resposta](respond-machine-alerts.md)| Tome ações de resposta em dispositivos e arquivos para responder rapidamente a ataques detectados e conter ameaças.
+[Executar ações de resposta](respond-machine-alerts.md)| Tome ações de resposta em dispositivos e arquivos para responder rapidamente a ataques detectados e conter ameaças.
 [Dados de consulta usando a busca avançada](advanced-hunting-query-language.md)| Pesquise proativamente possíveis ameaças em toda a sua organização usando uma ferramenta de pesquisa e consulta poderosa.

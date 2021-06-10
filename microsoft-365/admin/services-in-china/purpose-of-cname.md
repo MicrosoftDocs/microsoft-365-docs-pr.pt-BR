@@ -39,8 +39,8 @@ Detalhes técnicos: ao executar um aplicativo cliente que funciona com o Office 
   
 Se o registro CNAME estiver faltando em seu domínio, esses aplicativos usarão um ponto final de autenticação padrão nos Estados Unidos, e a autenticação pode ficar mais lenta. Se este registro CNAME não estiver configurado adequadamente, estes aplicativos não poderão fazer a autenticação; por exemplo se houver um erro de digitação em **Pontos de endereçamento**.
   
- **Se o Office 365 gerenciar os registros DNS do seu domínio,** O Office 365 configura esse registro CNAME para você. 
+ **Se Office 365 gerencia os** registros DNS do seu domínio, Office 365 configura esse registro CNAME para você. 
   
  **Se você estiver gerenciando registros DNS para** seu domínio em seu host DNS, crie esse registro por conta própria seguindo as instruções para seu [host DNS](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
   
-Se você estiver planejando uma implantação do Office 365 e quiser saber mais sobre todos os registros DNS que talvez seja necessário adicionar ou atualizar, leia sobre eles em Referência: Registros do Sistema de Nomes de Domínio Externo para [o Office 365](../../enterprise/external-domain-name-system-records.md).
+Se você estiver planejando uma implantação de Office 365 e quiser saber mais sobre todos os registros DNS que talvez seja necessário adicionar ou atualizar, leia sobre eles em [Referência:](../../enterprise/external-domain-name-system-records.md)Registros do Sistema de Nomes de Domínio Externo para Office 365 .

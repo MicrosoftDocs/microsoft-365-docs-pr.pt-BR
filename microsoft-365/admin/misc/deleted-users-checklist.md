@@ -20,7 +20,7 @@ search.appverid:
 - MOE150
 ms.assetid: 6016b50e-2b6e-4164-b565-2fde401fda3a
 ROBOTS: NOINDEX
-description: Siga essa lista de verificação ao excluir a conta do Microsoft 365 de um usuário.
+description: Siga essa lista de verificação ao excluir a conta Microsoft 365 usuário.
 ms.openlocfilehash: de0c69c0a785787491d60f5fe6d17c0129b929db
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -32,7 +32,7 @@ ms.locfileid: "50914757"
 
 Portanto, você decidiu excluir um usuário da sua organização. Por exemplo, você pode excluir um usuário depois que essa pessoa sair da sua organização. Há algumas coisas que você deve fazer antes e depois de excluir esse usuário. Essa lista de verificação rápida ajuda você com as etapas.
   
-## <a name="remove-the-microsoft-365-license-from-the-user"></a>Remover a licença do Microsoft 365 do usuário
+## <a name="remove-the-microsoft-365-license-from-the-user"></a>Remover a Microsoft 365 do usuário
 
 Você pode remover uma licença de um usuário pesquisando o usuário  na home page ou na página Usuários ativos e selecionando-o. Na guia **Licenças e Aplicativos,** desempure a caixa de seleção da licença que você deseja remover do usuário. [Leia o artigo completo](../manage/remove-licenses-from-users.md).
   
@@ -50,7 +50,7 @@ Você pode excluir o usuário pesquisando o usuário na home page ou na **págin
   
 ## <a name="what-to-do-with-the-unassigned-license"></a>O que fazer com a licença não atribuída
 
-Se você tiver um novo funcionário ou uma pessoa que ingressará em sua organização, poderá atribuir essa licença para que eles possam usar o Microsoft 365. Você pode pesquisar o usuário na home page ou na página **Usuários** ativos e, em seguida, selecioná-lo. Na guia **Licenças e Aplicativos,** marque a caixa de seleção da licença que você deseja adicionar ao novo usuário. [Leia o artigo completo](../manage/assign-licenses-to-users.md).
+Se você tiver um novo funcionário ou uma pessoa que está in joining sua organização, você pode atribuir a eles essa licença para que eles possam usar Microsoft 365. Você pode pesquisar o usuário na home page ou na página **Usuários** ativos e, em seguida, selecioná-lo. Na guia **Licenças e Aplicativos,** marque a caixa de seleção da licença que você deseja adicionar ao novo usuário. [Leia o artigo completo](../manage/assign-licenses-to-users.md).
   
 ## <a name="remove-license-so-you-dont-have-to-pay-for-it"></a>Remover licença para que você não tenha que pagar por ela
 

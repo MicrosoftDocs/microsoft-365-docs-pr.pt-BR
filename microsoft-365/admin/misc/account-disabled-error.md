@@ -1,5 +1,5 @@
 ---
-title: Obter um erro de conta desabilitada no Outlook na Web?
+title: Obter um erro de conta desabilitada Outlook na Web?
 f1.keywords:
 - CSH
 ms.author: pebaum
@@ -24,8 +24,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50914937"
 ---
-# <a name="getting-an-account-disabled-error-in-outlook-on-the-web"></a>Obter um erro de conta desabilitada no Outlook na Web
+# <a name="getting-an-account-disabled-error-in-outlook-on-the-web"></a>Obter um erro de conta desabilitada Outlook na Web
 
-Se você receber  o erro Sua conta foi desabilitada quando você tenta abrir o Outlook na Web (anteriormente conhecido como Outlook Web App), seu administrador pode ter desabilitado seu acesso ao `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` Outlook na Web.
+Se você receber  o erro Sua conta foi desabilitada quando você tenta abrir o Outlook na Web (anteriormente conhecido como Outlook Web App), seu administrador pode ter desabilitado seu acesso ao Outlook `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` na Web.
 
-O administrador pode corrigir esse erro seguindo as etapas no tópico [Habilitar ou desabilitar](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)o Outlook Web App para uma caixa de correio.
+O administrador pode corrigir esse erro seguindo as etapas no tópico Habilitar ou [desabilitar](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)Outlook Web App para uma caixa de correio .

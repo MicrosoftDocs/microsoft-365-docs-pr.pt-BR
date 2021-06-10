@@ -1,7 +1,7 @@
 ---
-title: Vulnerabilidades na minha organização - gerenciamento de ameaças e vulnerabilidades
-description: Lista a ID de vulnerabilidades e exposições comuns (CVE) de pontos fracos encontrados no software em execução em sua organização. Descoberto pelo Microsoft Defender para o recurso de gerenciamento de ameaças e vulnerabilidades do Ponto de Extremidade.
-keywords: Microsoft Defender for Endpoint threat & vulnerability management, threat and vulnerability management, Microsoft Defender for Endpoint tvm weaknesses page, finding weaknesses through tvm, tvm vulnerability list, vulnerability details in tvm
+title: Vulnerabilidades na minha organização - Gerenciamento de Ameaças e Vulnerabilidades
+description: Lista a ID de vulnerabilidades e exposições comuns (CVE) de pontos fracos encontrados no software em execução em sua organização. Descoberto pelo recurso de Gerenciamento de Ameaças e Vulnerabilidades do Microsoft Defender for Endpoint.
+keywords: Página de fraquezas do Microsoft Defender for Endpoint & Gerenciamento de Vulnerabilidades, Gerenciamento de Ameaças e Vulnerabilidades, Microsoft Defender for Endpoint tvm, encontrando pontos fracos por meio de tvm, lista de vulnerabilidades de tvm, detalhes de vulnerabilidade no tvm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -25,23 +25,23 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933068"
 ---
-# <a name="vulnerabilities-in-my-organization---threat-and-vulnerability-management"></a>Vulnerabilidades na minha organização - gerenciamento de ameaças e vulnerabilidades
+# <a name="vulnerabilities-in-my-organization---threat-and-vulnerability-management"></a>Vulnerabilidades na minha organização - Gerenciamento de Ameaças e Vulnerabilidades
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Ameaça e Gerenciamento de Vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
-O gerenciamento de ameaças e vulnerabilidades usa os mesmos sinais no Defender for Endpoint's endpoint protection para verificar e detectar vulnerabilidades.
+A ameaça e Gerenciamento de Vulnerabilidades usa os mesmos sinais na proteção do Ponto de Extremidade do Defender para o Ponto de Extremidade para examinar e detectar vulnerabilidades.
 
 A **página Fraquezas** lista as vulnerabilidades de software às que seus dispositivos são expostos listando a ID de Vulnerabilidades Comuns e Exposições (CVE). Você também pode exibir a gravidade, a classificação do Sistema de Pontuação de Vulnerabilidade Comum (CVSS), a prevalência em sua organização, a violação correspondente, as informações sobre ameaças e muito mais.
 
 >[!NOTE]
->Se não houver nenhuma CVE-ID oficial atribuída a uma vulnerabilidade, o nome da vulnerabilidade será atribuído pelo gerenciamento de ameaças e vulnerabilidades.
+>Se não houver uma CVE-ID oficial atribuída a uma vulnerabilidade, o nome da vulnerabilidade será atribuído por Gerenciamento de Ameaças e Vulnerabilidades.
 
 >[!TIP]
 >Para obter emails sobre novos eventos de vulnerabilidade, consulte [Configure vulnerability email notifications in Microsoft Defender for Endpoint](configure-vulnerability-email-notifications.md)
@@ -50,12 +50,12 @@ A **página Fraquezas** lista as vulnerabilidades de software às que seus dispo
 
 Acesse a página Pontos Fracos de algumas maneiras diferentes:
 
-- Selecionando **pontos fracos** no menu de navegação de gerenciamento de ameaças e vulnerabilidades no [Centro de Segurança do Microsoft Defender](portal-overview.md)
+- Selecionando **pontos fracos** Gerenciamento de Ameaças e Vulnerabilidades menu de navegação no [Central de Segurança do Microsoft Defender](portal-overview.md)
 - Pesquisa global
 
 ### <a name="navigation-menu"></a>Menu de navegação
 
-Vá para o menu de navegação de gerenciamento de ameaças e vulnerabilidades e selecione **Pontos Fracos** para abrir a lista de CVEs.
+Vá para o menu Gerenciamento de Ameaças e Vulnerabilidades de navegação e selecione **Pontos Fracos** para abrir a lista de CVEs.
 
 ### <a name="vulnerabilities-in-global-search"></a>Vulnerabilidades na pesquisa global
 
@@ -97,7 +97,7 @@ Se você selecionar um CVE, um painel de sobremenu será aberto com mais informa
 
 ### <a name="software-that-isnt-supported"></a>Software que não tem suporte
 
-As CVEs para softwares que não são suportadas atualmente pelo gerenciamento de vulnerabilidades & ameaças ainda estão presentes na página Pontos Fracos. Como o software não tem suporte, somente dados limitados estarão disponíveis.
+CVEs para softwares que não são suportados atualmente por ameaças & Gerenciamento de Vulnerabilidades ainda está presente na página Pontos Fracos. Como o software não tem suporte, somente dados limitados estarão disponíveis.
 
 As informações do dispositivo expostos não estarão disponíveis para CVEs com software sem suporte. Filtrar por software sem suporte selecionando a opção "Não disponível" na seção "Dispositivos expostos".
 
@@ -107,7 +107,7 @@ As informações do dispositivo expostos não estarão disponíveis para CVEs co
 
 ### <a name="top-vulnerable-software-in-the-dashboard"></a>Principais softwares vulneráveis no painel
 
-1. Vá para o painel de gerenciamento de ameaças e [vulnerabilidades](tvm-dashboard-insights.md) e role para baixo até o widget de **software principal vulnerável.** Você verá o número de vulnerabilidades encontradas em cada software, juntamente com informações de ameaça e uma exibição de alto nível da exposição do dispositivo ao longo do tempo.
+1. Vá para o painel [Gerenciamento de Ameaças e Vulnerabilidades e](tvm-dashboard-insights.md) role para baixo até o widget de **software vulnerável** Superior. Você verá o número de vulnerabilidades encontradas em cada software, juntamente com informações de ameaça e uma exibição de alto nível da exposição do dispositivo ao longo do tempo.
 
     ![Principal cartão de software vulnerável com quatro colunas: software, pontos fracos, ameaças, dispositivos expostos.](images/tvm-top-vulnerable-software500.png)
 
@@ -115,13 +115,13 @@ As informações do dispositivo expostos não estarão disponíveis para CVEs co
 3. Selecione a **guia Vulnerabilidades Descobertas.**
 4. Selecione a vulnerabilidade que você deseja investigar para obter mais informações sobre detalhes de vulnerabilidade
 
-    ![Visão geral de detalhamento do Windows Server 2019.](images/windows-server-drilldown.png)
+    ![Windows Visão geral de detalhamento do Server 2019.](images/windows-server-drilldown.png)
 
 ### <a name="discover-vulnerabilities-in-the-device-page"></a>Descobrir vulnerabilidades na página do dispositivo
 
 Exibir informações de pontos fracos relacionados na página do dispositivo.
 
-1. Vá até a barra de menus do Centro de Segurança do Microsoft Defender e selecione o ícone do dispositivo. A **página de lista Dispositivos** é aberta.
+1. Vá para a barra Central de Segurança do Microsoft Defender menu de navegação e selecione o ícone do dispositivo. A **página de lista Dispositivos** é aberta.
 2. Na página **lista Dispositivos,** selecione o nome do dispositivo que você deseja investigar.
 
     ![Lista de dispositivos com dispositivo selecionado para investigar.](images/tvm_machinetoinvestigate.png)
@@ -137,7 +137,7 @@ Exibir informações de pontos fracos relacionados na página do dispositivo.
 
 Semelhante à evidência de software, agora mostramos a lógica de detecção que aplicamos em um dispositivo para dizer que ele está vulnerável. A nova seção é chamada de "Lógica de Detecção" (em qualquer vulnerabilidade descoberta na página do dispositivo) e mostra a lógica de detecção e a origem.
 
-A categoria "Recurso do sistema operacional" também é mostrada em cenários relevantes. Um CVE afetaria dispositivos que executem um sistema operacional vulnerável somente se um componente do sistema operacional específico estiver habilitado. Digamos que o Windows Server 2019 tenha vulnerabilidade em seu componente DNS. Com esse novo recurso, só anexamos esse CVE aos dispositivos Windows Server 2019 com a funcionalidade DNS habilitada em seu sistema operacional.
+A categoria "Recurso do sistema operacional" também é mostrada em cenários relevantes. Um CVE afetaria dispositivos que executem um sistema operacional vulnerável somente se um componente do sistema operacional específico estiver habilitado. Digamos que o Windows Server 2019 tenha vulnerabilidade em seu componente DNS. Com esse novo recurso, só anexamos esse CVE aos dispositivos do Windows Server 2019 com a funcionalidade DNS habilitada em seu sistema operacional.
 
 ![Exemplo de Lógica de Detecção que lista o software detectado no dispositivo e nos KBs.](images/tvm-cve-detection-logic.png)
 
@@ -148,11 +148,11 @@ Reporte um falso positivo quando vir qualquer informação vagas, impreciso ou i
 1. Abra o CVE na página Fraquezas.
 2. Selecione **Relatório impreciso** e um painel de sub-subfalsão será aberto.
 3. Selecione a categoria impreciso no menu suspenso e preencha seu endereço de email e detalhes impreciso.
-4. Selecione **Enviar**. Seus comentários são enviados imediatamente para os especialistas em gerenciamento de ameaças e vulnerabilidades.
+4. Selecione **Enviar**. Seus comentários são enviados imediatamente aos especialistas Gerenciamento de Ameaças e Vulnerabilidades segurança.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Visão geral do gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
+- [Visão geral Gerenciamento de Vulnerabilidades ameaça](next-gen-threat-and-vuln-mgt.md)
 - [Recomendações de segurança](tvm-security-recommendation.md)
 - [Inventário de software](tvm-software-inventory.md)
 - [Painel de insights](tvm-dashboard-insights.md)

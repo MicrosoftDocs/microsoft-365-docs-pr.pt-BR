@@ -33,7 +33,7 @@ ms.locfileid: "51687418"
 
 >Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
 
-A proteção da Web permite monitorar a segurança de navegação na Web da sua organização por meio de relatórios em Relatórios > **Proteção Da Web** no Centro de Segurança do Microsoft Defender. O relatório contém cartões que fornecem estatísticas de detecção de ameaças da Web.
+A proteção da Web permite monitorar a segurança de navegação na Web da sua organização por meio de relatórios em Relatórios > **Proteção da Web** no Central de Segurança do Microsoft Defender. O relatório contém cartões que fornecem estatísticas de detecção de ameaças da Web.
 
 - **Detecções** de proteção contra ameaças da Web ao longo do tempo - esse cartão de tendência exibe o número de ameaças da Web detectadas por tipo durante o período de tempo selecionado (Últimos 30 dias, Últimos 3 meses, Últimos 6 meses)
  

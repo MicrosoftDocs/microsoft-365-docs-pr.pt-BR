@@ -1,5 +1,5 @@
 ---
-title: Usar o controle de acesso baseado em função para conceder acesso fino ao Centro de Segurança do Microsoft Defender
+title: Use o controle de acesso baseado em função para conceder acesso fino a Central de Segurança do Microsoft Defender
 description: Crie funções e grupos em suas operações de segurança para conceder acesso ao portal.
 keywords: rbac, role, based, access, control, groups, control, tier, aad
 search.product: eADQiWindows 10XVcnh
@@ -51,7 +51,7 @@ O Defender for Endpoint RBAC foi projetado para dar suporte ao seu modelo de esc
   - Crie funções personalizadas e controle quais recursos do Defender for Endpoint podem acessar com granularidade.
  
 - **Controlar quem pode ver informações sobre grupos ou grupos específicos de dispositivos**
-  - [Crie grupos](machine-groups.md) de dispositivos por critérios específicos, como nomes, marcas, domínios e outros, em seguida, conceda acesso a função a eles usando um grupo de usuários específico do Azure Active Directory (Azure AD).
+  - [Crie grupos](machine-groups.md) de dispositivos por critérios específicos, como nomes, marcas, domínios e outros, em seguida, conceda acesso a função a eles usando um grupo de usuários Azure Active Directory (Azure AD).
 
 Para implementar o acesso baseado em função, você precisará definir funções de administrador, atribuir permissões correspondentes e atribuir grupos de usuários do Azure AD atribuídos às funções.
 
@@ -63,12 +63,12 @@ Antes de usar o RBAC, é importante que você entenda as funções que podem con
 > [!WARNING]
 > Antes de ativar o recurso, é importante que você tenha uma função de Administrador Global ou uma função de Administrador de Segurança no Azure AD e que você tenha seus grupos do Azure AD prontos para reduzir o risco de ser bloqueado fora do portal. 
 
-Quando você faz logon pela primeira vez no Centro de Segurança do Microsoft Defender, você tem acesso total ou somente leitura. Direitos de acesso completo são concedidos aos usuários com funções de Administrador de Segurança ou Administrador Global no Azure AD. O acesso somente leitura é concedido aos usuários com uma função de Leitor de Segurança no Azure AD. 
+Quando você faz logon pela Central de Segurança do Microsoft Defender, você tem acesso total ou somente leitura. Direitos de acesso completo são concedidos aos usuários com funções de Administrador de Segurança ou Administrador Global no Azure AD. O acesso somente leitura é concedido aos usuários com uma função de Leitor de Segurança no Azure AD. 
 
 Alguém com uma função de administrador do Defender para Ponto de Extremidade Global tem acesso irrestrito a todos os dispositivos, independentemente da associação do grupo de dispositivos e das atribuições de grupos de usuários do Azure AD
 
 > [!WARNING]
-> Inicialmente, somente aqueles com direitos de Administrador Global do Azure AD ou Administrador de Segurança poderão criar e atribuir funções no Centro de Segurança do Microsoft Defender, portanto, é importante ter os grupos certos prontos no Azure AD.
+> Inicialmente, somente aqueles com direitos de Administrador Global do Azure AD ou Administrador de Segurança poderão criar e atribuir funções no Central de Segurança do Microsoft Defender, portanto, é importante ter os grupos certos prontos no Azure AD.
 >
 > **A ação do controle de acesso baseado em função fará com que os usuários com permissões somente leitura (por exemplo, usuários atribuídos à função de leitor de Segurança do Azure AD) percam acesso até que sejam atribuídos a uma função.** 
 >

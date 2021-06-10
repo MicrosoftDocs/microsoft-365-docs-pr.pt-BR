@@ -1,5 +1,5 @@
 ---
-title: Configurar propriedades de conta de usuário do Microsoft 365 com o PowerShell
+title: Configurar Microsoft 365 de conta de usuário com o PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -17,7 +17,7 @@ ms.custom:
 - Ent_Office_Other
 - PowerShell
 ms.assetid: 30813f8d-b08d-444b-98c1-53df7c29b4d7
-description: Use o PowerShell para o Microsoft 365 para configurar propriedades de contas de usuário individuais ou múltiplas em seu locatário do Microsoft 365.
+description: Use o PowerShell para Microsoft 365 para configurar propriedades de contas de usuário individuais ou várias no seu Microsoft 365 locatário.
 ms.openlocfilehash: 6b674641842f89fd8c8e22dc26350cdd53734b9e
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -25,17 +25,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50911079"
 ---
-# <a name="configure-microsoft-365-user-account-properties-with-powershell"></a>Configurar propriedades de conta de usuário do Microsoft 365 com o PowerShell
+# <a name="configure-microsoft-365-user-account-properties-with-powershell"></a>Configurar Microsoft 365 de conta de usuário com o PowerShell
 
-*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
+*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-Você pode usar o Centro de administração do Microsoft 365 para configurar propriedades para as contas de usuário do locatário do Microsoft 365. No PowerShell, você também pode fazer isso, além de outras coisas que não pode fazer no centro de administração.
+Você pode usar o Microsoft 365 de administração para configurar propriedades para as contas de usuário do seu Microsoft 365 locatário. No PowerShell, você também pode fazer isso, além de outras coisas que não pode fazer no centro de administração.
   
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Use o PowerShell do Azure Active Directory para o módulo do gráfico
 
-Para configurar propriedades para contas de usuário no módulo PowerShell do Azure Active Directory para Graph, use o cmdlet [**Set-AzureADUser**](/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) e especifique as propriedades para definir ou alterar.
+Para configurar propriedades para contas de usuário no módulo Azure Active Directory PowerShell para Graph, use o cmdlet [**Set-AzureADUser**](/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) e especifique as propriedades para definir ou alterar.
 
-Primeiro, [conecte-se ao locatário do Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+Primeiro, [conecte-se ao seu Microsoft 365 locatário](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
    
 ### <a name="change-properties-for-a-specific-user-account"></a>Alterar propriedades para uma conta de usuário específica
 
@@ -149,9 +149,9 @@ Este comando instrui o PowerShell a:
     
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Use o Módulo Microsoft Azure Active Directory para Windows PowerShell.
 
-Para configurar propriedades para contas de usuário com o Módulo do Microsoft Azure Active Directory para Windows PowerShell, use o cmdlet **Set-MsolUser** e especifique as propriedades para definir ou alterar.
+Para configurar propriedades para contas de usuário com o módulo Microsoft Azure Active Directory para Windows PowerShell, use o cmdlet **Set-MsolUser** e especifique as propriedades para definir ou alterar.
 
-Primeiro, [conecte-se ao locatário do Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+Primeiro, [conecte-se ao seu Microsoft 365 locatário](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
   
 >[!Note]
 >O PowerShell Core não oferece suporte ao Módulo Microsoft Azure Active Directory para Windows PowerShell para o módulo do Windows PowerShell e cmdlets com *Msol* em seus nomes. Execute esses cmdlets do Windows PowerShell.
@@ -179,7 +179,7 @@ Você identifica a conta com o *parâmetro -UserPrincipalName* e definir ou alte
     
 - -MobilePhone \<mobile phone number> " "
     
-- -Office \<office location> "
+- -Office \<office location> " "
     
 - -PhoneNumber " \<office phone number> "
     

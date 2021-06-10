@@ -99,13 +99,13 @@ Vá até a **seção Relatório** de Analistas para ler o relatório detalhado d
 Na seção **Mitigações,** revise a lista de recomendações ativas específicas que podem ajudá-lo a aumentar sua resiliência organizacional em relação à ameaça. A lista de mitigações controladas inclui:
 
 - **Atualizações de segurança**— implantação de atualizações de segurança ou patches para vulnerabilidades
-- **Configurações do Microsoft Defender Antivírus**
+- **Microsoft Defender Antivírus configurações**
   - Versão de inteligência de segurança
-  - Proteção entregue na nuvem  
+  - Proteção fornecida na nuvem  
   - Proteção de aplicativo potencialmente indesejado (PUA)
   - Proteção em tempo real
  
-As informações de mitigação nesta seção incorporam dados do gerenciamento de ameaças e vulnerabilidades [,](next-gen-threat-and-vuln-mgt.md)que também fornece informações detalhadas de detalhamento de vários links no relatório.
+As informações de mitigação nesta seção incorporam dados [do Gerenciamento de Ameaças e Vulnerabilidades](next-gen-threat-and-vuln-mgt.md), que também fornece informações detalhadas de detalhamento de vários links no relatório.
 
 ![Imagem da seção mitigações de um relatório de análise de ameaças ](images/ta-mitigations.png)
  _Seção Mitigações de um relatório de análise de ameaças_
@@ -117,7 +117,7 @@ Ao usar os relatórios, lembre-se do seguinte:
 - Os gráficos refletem apenas mitigações controladas. Verifique a visão geral do relatório para obter mitigações adicionais que não são mostradas nos gráficos.
 - Mitigações não garantem resiliência completa. As mitigações fornecidas refletem as melhores ações possíveis necessárias para melhorar a resiliência.
 - Os dispositivos serão contados como "indisponíveis" se não transmitirem dados para o serviço.
-- As estatísticas relacionadas ao antivírus são baseadas nas configurações do Microsoft Defender Antivírus. Dispositivos com soluções antivírus de terceiros podem aparecer como "expostos".
+- Estatísticas relacionadas a antivírus são baseadas em Microsoft Defender Antivírus configurações. Dispositivos com soluções antivírus de terceiros podem aparecer como "expostos".
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Encontrar proativamente ameaças com busca avançada](advanced-hunting-overview.md) 

@@ -40,7 +40,7 @@ Para habilitar a autenticação moderna para qualquer dispositivo com Windows co
   
 Para habilitar a autenticação moderna para os dispositivos com Windows (por exemplo em laptops e tablets), que têm o Microsoft Office 2013 instalado, você precisa definir as seguintes chaves do Registro. As teclas precisam ser definidas em cada dispositivo que você deseja habilitar para autenticação moderna:
   
-|**Chave do Registro**|**Type**|**Valor** |
+|**Chave do Registro**|**Tipo**|**Valor** |
 |:-------|:------:|--------:|
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL  |REG_DWORD  |1  |
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version |REG_DWORD |1 |
@@ -53,7 +53,7 @@ Se você estiver conectado no momento a qualquer um dos aplicativos cliente, voc
 
 Para desabilitar a autenticação moderna em um dispositivo, defina as seguintes chaves do Registro no dispositivo:
   
-|**Chave do Registro**|**Type**|**Valor**|
+|**Chave do Registro**|**Tipo**|**Valor**|
 |:-------|:------:|--------:|
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL |REG_DWORD|0|
    

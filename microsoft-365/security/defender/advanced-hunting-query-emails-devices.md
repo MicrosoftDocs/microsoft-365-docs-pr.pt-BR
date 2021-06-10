@@ -35,10 +35,10 @@ ms.locfileid: "51932960"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-[A busca avançada](advanced-hunting-overview.md) no Microsoft 365 Defender permite que você cace proativamente ameaças em:
+[A busca](advanced-hunting-overview.md) avançada no Microsoft 365 Defender permite que você cace proativamente ameaças em:
 - Dispositivos gerenciados pelo Microsoft Defender para Ponto de Extremidade
-- Emails processados pelo Microsoft 365
-- Atividades de aplicativo na nuvem, eventos de autenticação e atividades de controlador de domínio controladas pelo Microsoft Cloud App Security e pelo Microsoft Defender for Identity
+- Emails processados por Microsoft 365
+- Atividades de aplicativo na nuvem, eventos de autenticação e atividades de controlador de domínio controladas pelo Microsoft Cloud App Security e o Microsoft Defender for Identity
 
 Com esse nível de visibilidade, você pode procurar rapidamente por ameaças que atravessam seções da sua rede, incluindo invasões sofisticadas que chegam ao email ou à Web, elevam privilégios locais, adquirem credenciais de domínio privilegiado e se movem lateralmente para seus dispositivos. 
 

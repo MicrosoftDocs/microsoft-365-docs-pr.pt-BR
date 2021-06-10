@@ -32,7 +32,7 @@ ms.locfileid: "50912229"
 ---
 # <a name="create-a-communications-site"></a>Criar um site de comunicação
 
-Uma ótima maneira de comunicar prioridades, compartilhar documentos estratégicos e realçar eventos futuros é usar um site de comunicações no SharePoint. Sites de comunicação são para compartilhar coisas amplamente em toda a sua empresa ou campanha; é seu site de estratégia interna.
+Uma ótima maneira de comunicar prioridades, compartilhar documentos estratégicos e realçar os eventos futuros é usar um site de comunicações SharePoint. Sites de comunicação são para compartilhar coisas amplamente em toda a sua empresa ou campanha; é seu site de estratégia interna.
 
 ## <a name="best-practices"></a>Práticas recomendadas
 
@@ -44,7 +44,7 @@ Inclua os seguintes elementos em seu site de Comunicações:
 4. Adicione eventos a uma **Web Part eventos para** que todos possam ver o que está chegando.
 5. Adicionar fotos que as pessoas podem usar ou compartilhar a uma **Web Part de galeria de imagens.**
 
-![Diagrama de uma página de Comunicações do SharePoint com espaço para elementos comuns que uma campanha precisaria](../media/m365-democracy-comms-site.png)
+![Diagrama de uma página SharePoint comunicações com espaço para elementos comuns que uma campanha precisaria](../media/m365-democracy-comms-site.png)
 
 ## <a name="infographic-create-a-communications-site-infographic"></a>Infográfico: Criar um infográfico do Site de Comunicações
 
@@ -57,11 +57,11 @@ Os links a seguir para PowerPoint e PDF podem ser baixados e impressos no format
 ## <a name="set-it-up"></a>Configuração
 
 1. Entre no https://Office.com.
-2. No canto superior esquerdo da página, selecione o ícone do iniciador de aplicativos e selecione o azulejo do **SharePoint.** Se você não vir o azulejo do **SharePoint,** clique no **tile Sites** ou **Em** Todos se o SharePoint não estiver visível.
-3. Na parte superior da home page do SharePoint, clique **em + Criar site** e escolha a opção Site **de** Comunicação.
+2. No canto superior esquerdo da página, selecione o ícone do iniciador de aplicativos e selecione o SharePoint **de** usuário. Se você não vir o **SharePoint** de SharePoint, clique no **tile Sites** ou **Todos** se SharePoint não estiver visível.
+3. Na parte superior da home page SharePoint, clique em **+ Criar site** e escolha a opção Site **de** Comunicação.
 
-Saiba tudo [sobre sites de comunicação](https://support.office.com/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732) e como criar um site de comunicação no [SharePoint Online](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-online-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
+Saiba tudo [sobre sites de comunicações](https://support.office.com/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732) e como criar um site de [comunicação no SharePoint Online.](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-online-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb)
 
 ## <a name="admin-settings"></a>Configurações do administrador
 
-Se você não vir o link **+ Criar** site, a criação de site de autoatendém pode não estar disponível no Microsoft 365. Para criar um site de equipe, entre em contato com a pessoa que está administrando o Microsoft 365 em sua organização. Se você for um administrador do Microsoft 365, consulte Gerenciar a criação de site no [SharePoint Online](/sharepoint/manage-site-creation) para habilitar a criação de sites de autoatendido para sua organização ou Gerenciar sites no novo centro de administração do [SharePoint](/sharepoint/manage-sites-in-new-admin-center) para criar um site a partir do centro de administração do SharePoint Online.
+Se você não vir o link **+ Criar** site, a criação de site de autoatend Microsoft 365. Para criar um site de equipe, contate a pessoa que está administrando Microsoft 365 em sua organização. Se você for um administrador do Microsoft 365, consulte Gerenciar a criação de site no [SharePoint Online para](/sharepoint/manage-site-creation) habilitar a criação de sites de autoatendencial para sua organização ou Gerenciar sites no novo centro de administração do [SharePoint](/sharepoint/manage-sites-in-new-admin-center) para criar um site a partir do centro de administração do SharePoint Online.

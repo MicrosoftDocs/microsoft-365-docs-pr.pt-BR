@@ -1,7 +1,7 @@
 ---
-title: Resumindo os resultados do projeto piloto do Microsoft 365 Defender
-description: Conclua seu projeto piloto do Microsoft 365 Defender concluindo seu scorecard, analisando suas descobertas do relatório e decidindo como seguir em frente.
-keywords: Piloto do Microsoft 365 Defender, decida o que fazer depois do projeto piloto do Microsoft 365 Defender, o que fazer após avaliar o Microsoft 365 Defender em produção, transição do piloto do Microsoft 365 Defender para implantação, segurança cibernética, ameaça persistente avançada, segurança corporativa, dispositivos, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, busca avançada
+title: Resumindo os resultados do projeto do Microsoft 365 Defender
+description: Conclua seu projeto piloto Microsoft 365 Defender concluindo seu scorecard, analisando suas descobertas do relatório e decidindo como seguir em frente.
+keywords: Microsoft 365 Piloto do Defender, decida o que fazer depois do projeto piloto do Microsoft 365 Defender, o que fazer depois de avaliar o Microsoft 365 defender em produção, a transição do piloto do Microsoft 365 Defender para a implantação, a segurança cibernética, a ameaça persistente avançada, a segurança corporativa, dispositivos, dispositivos, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, busca avançada
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -28,7 +28,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51932864"
 ---
-# <a name="closing-and-summarizing-your-microsoft-365-defender-pilot"></a>Fechar e resumir seu piloto do Microsoft 365 Defender  
+# <a name="closing-and-summarizing-your-microsoft-365-defender-pilot"></a>Fechar e resumir seu Microsoft 365 piloto do Defender  
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -45,7 +45,7 @@ ms.locfileid: "51932864"
 
 No momento, você está na fase de fechamento e resumo.
 
-Você acabou de executar uma simulação de ataque avançada somente de memória que executou o código remotamente em um controlador de domínio. Você viu como o Microsoft Defender para Ponto de Extremidade e o Microsoft Defender para Identidade detectam e criam alertas sobre atividades mal-intencionadas furtivas. Você também viu como alertas de fontes diferentes são entregues juntamente com outras informações contextuais em um único incidente no portal do Centro de Segurança do Microsoft 365. Experimentar essa integração permite que os analistas soc investiguem e tomem as medidas necessárias. Você também criou uma consulta de busca avançada que identificará emails de entrada onde o usuário abriu ou salvou o anexo e criou a detecção com base nessa consulta.
+Você acabou de executar uma simulação de ataque avançada somente de memória que executou o código remotamente em um controlador de domínio. Você viu como o Microsoft Defender para Ponto de Extremidade e o Microsoft Defender para Identidade detectam e criam alertas sobre atividades mal-intencionadas furtivas. Você também viu como os alertas de fontes diferentes são entregues juntamente com outras informações contextuais em um único incidente no portal da Central de Segurança Microsoft 365 Segurança. Experimentar essa integração permite que os analistas soc investiguem e tomem as medidas necessárias. Você também criou uma consulta de busca avançada que identificará emails de entrada onde o usuário abriu ou salvou o anexo e criou a detecção com base nessa consulta.
 
 Você chegou ao final do processo depois que todos os testes foram concluídos.
 
@@ -60,8 +60,8 @@ Apresente os relatórios de sua saída final para as partes [](./prepare-m365d-e
 Esperamos que você tenha curtido essa simulação. Comece a implementar o que você aprendeu em uma escala maior em sua organização para obter o máximo da solução de segurança integrada.
 
 ## <a name="next-step"></a>Próxima etapa
-Saiba mais sobre os pilares do Microsoft 365 Defender por meio dos seguintes guias interativos:
-- [Proteger sua organização com o Microsoft Defender para Office 365](https://aka.ms/O365ATP-Interactive-Guide)
+Saiba mais sobre os pilares Microsoft 365 Defender por meio dos seguintes guias interativos:
+- [Proteja sua organização com o Microsoft Defender para Office 365](https://aka.ms/O365ATP-Interactive-Guide)
 - [Detecção de atividades suspeitas e possíveis ataques com o Microsoft Defender para Identidade](https://aka.ms/AATP-Interactive-Guide)
-- [Detectar ameaças e gerenciar alertas com o Microsoft Cloud App Security](https://aka.ms/DetectThreatsAndAlertsMCAS-InteractiveGuide)
+- [Detectar ameaças e gerenciar alertas com Microsoft Cloud App Security](https://aka.ms/DetectThreatsAndAlertsMCAS-InteractiveGuide)
 - [Investigar e remediar ameaças com o Microsoft Defender para Ponto de Extremidade](https://aka.ms/MDATP-IR-Interactive-Guide)

@@ -33,20 +33,20 @@ ms.locfileid: "51688940"
 
 >Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
 
-A proteção contra ameaças da Web faz parte da [proteção da Web](web-protection-overview.md) no Defender for Endpoint. Ele usa [a proteção de rede](network-protection.md) para proteger seus dispositivos contra ameaças da Web. Ao integrar-se ao Microsoft Edge e aos navegadores populares de terceiros, como o Chrome e o Firefox, a proteção contra ameaças da Web interrompe as ameaças da Web sem um proxy da Web e pode proteger dispositivos enquanto eles estão fora ou no local. A proteção contra ameaças da Web interrompe o acesso a sites de phishing, vetores de malware, sites de exploração, sites não falsos ou de baixa reputação, bem como sites bloqueados em sua lista de indicadores [personalizados.](manage-indicators.md)
+A proteção contra ameaças da Web faz parte da [proteção da Web](web-protection-overview.md) no Defender for Endpoint. Ele usa [a proteção de rede](network-protection.md) para proteger seus dispositivos contra ameaças da Web. Ao integrar-se Microsoft Edge navegadores de terceiros populares, como o Chrome e o Firefox, a proteção contra ameaças da Web interrompe as ameaças da Web sem um proxy da Web e pode proteger dispositivos enquanto eles estão fora ou no local. A proteção contra ameaças da Web interrompe o acesso a sites de phishing, vetores de malware, sites de exploração, sites não falsos ou de baixa reputação, bem como sites bloqueados em sua lista de indicadores [personalizados.](manage-indicators.md)
 
 >[!Note]
 >Pode levar até uma hora para que os dispositivos recebam novos indicadores personalizados.
 
 ## <a name="prerequisites"></a>Pré-requisitos
-A proteção da Web usa a proteção de rede para fornecer segurança de navegação na Web no Microsoft Edge e em navegadores da Web de terceiros.
+A proteção da Web usa a proteção de rede para fornecer segurança de navegação na Web Microsoft Edge e navegadores da Web de terceiros.
 
 Para ativar a proteção de rede em seus dispositivos:
 - Edite a linha de base de segurança do Defender para Ponto de Extremidade em Proteção de Rede **& Web** para habilitar a proteção de rede antes de implantá-la ou reimplantá-la. [Saiba mais sobre como revisar e atribuir a linha de base de segurança do Defender for Endpoint](configure-machines-security-baseline.md#review-and-assign-the-microsoft-defender-for-endpoint-security-baseline)
 - Adeque a proteção de rede usando a configuração de dispositivo do Intune, SCCM, Política de Grupo ou sua solução MDM. [Leia mais sobre a habilitação da proteção de rede](enable-network-protection.md)  
 
 >[!Note]
->Se você definir a proteção de rede como **Somente Auditoria,** o bloqueio ficará indisponível. Além disso, você poderá detectar e registrar tentativas de log para acessar sites mal-intencionados e indesejados apenas no Microsoft Edge.
+>Se você definir a proteção de rede como **Somente Auditoria,** o bloqueio ficará indisponível. Além disso, você poderá detectar e registrar tentativas de log para acessar sites mal-intencionados e indesejados Microsoft Edge apenas.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

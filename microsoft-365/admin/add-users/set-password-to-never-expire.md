@@ -128,6 +128,6 @@ Execute um dos seguintes comandos:
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Permitir que os usuários redefinir suas próprias senhas](../add-users/let-users-reset-passwords.md) (artigo)\
+[Permitir que os usuários redefinim suas próprias senhas](../add-users/let-users-reset-passwords.md) (artigo)\
 [Redefinir senhas](../add-users/reset-passwords.md) (artigo)\
 [Definir a política de expiração de senha para sua organização](../manage/set-password-expiration-policy.md) (artigo)
