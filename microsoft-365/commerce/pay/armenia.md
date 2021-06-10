@@ -20,16 +20,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52537230"
 ---
-# <a name="payment-information-for-armenia"></a><span data-ttu-id="d9dd5-103">Informações de pagamento para Armenia</span><span class="sxs-lookup"><span data-stu-id="d9dd5-103">Payment information for Armenia</span></span>
+# <a name="payment-information-for-armenia"></a><span data-ttu-id="54c33-103">Informações de pagamento para Armenia</span><span class="sxs-lookup"><span data-stu-id="54c33-103">Payment information for Armenia</span></span>
 
-<span data-ttu-id="d9dd5-104">[Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="d9dd5-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="54c33-104">[Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="54c33-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="d9dd5-105">Por favor, pague apenas em USD e faça referência aos seus números de fatura na remessa da fatura.</span><span class="sxs-lookup"><span data-stu-id="d9dd5-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="54c33-105">Por favor, pague apenas em USD e faça referência aos seus números de fatura na remessa da fatura.</span><span class="sxs-lookup"><span data-stu-id="54c33-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="d9dd5-106">Transferência Eletrônica de Fundos</span><span class="sxs-lookup"><span data-stu-id="d9dd5-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="54c33-106">Transferência Eletrônica de Fundos</span><span class="sxs-lookup"><span data-stu-id="54c33-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="d9dd5-107">**Banco:** Citibank, Londres</span><span class="sxs-lookup"><span data-stu-id="d9dd5-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="d9dd5-108">**Código SWIFT:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="d9dd5-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="d9dd5-109">**Número IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="d9dd5-109">**IBAN Number:** GB95CITI18500812510049</span></span>  
-<span data-ttu-id="d9dd5-110">**Número da conta:** 12510049</span><span class="sxs-lookup"><span data-stu-id="d9dd5-110">**Account Number:** 12510049</span></span>  
-<span data-ttu-id="d9dd5-111">**Nome da conta:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="d9dd5-111">**Account Name:** Microsoft</span></span>
+<span data-ttu-id="54c33-107">**Banco:** Citibank, Londres</span><span class="sxs-lookup"><span data-stu-id="54c33-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="54c33-108">**Código SWIFT:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="54c33-108">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="54c33-109">**Número IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="54c33-109">**IBAN Number:** GB95CITI18500812510049</span></span>  
+<span data-ttu-id="54c33-110">**Número da conta:** 12510049</span><span class="sxs-lookup"><span data-stu-id="54c33-110">**Account Number:** 12510049</span></span>  
+<span data-ttu-id="54c33-111">**Nome da conta:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="54c33-111">**Account Name:** Microsoft</span></span>
