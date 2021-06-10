@@ -1,5 +1,5 @@
 ---
-title: Configurar políticas de Anexos Seguros no Microsoft Defender para Office 365
+title: Configurar políticas Cofre anexos no Microsoft Defender para Office 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,7 +14,7 @@ search.appverid:
 ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 ms.collection:
 - M365-security-compliance
-description: Saiba como definir políticas de Anexos Seguros para proteger sua organização contra arquivos mal-intencionados no email.
+description: Saiba como definir as Cofre de anexos para proteger sua organização contra arquivos mal-intencionados no email.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
@@ -25,7 +25,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/25/2021
 ms.locfileid: "51203319"
 ---
-# <a name="set-up-safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas de Anexos Seguros no Microsoft Defender para Office 365
+# <a name="set-up-safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas Cofre anexos no Microsoft Defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -36,37 +36,37 @@ ms.locfileid: "51203319"
 > [!IMPORTANT]
 > Este artigo se destina a clientes empresariais que possuem o [Microsoft Defender para Office 365](whats-new-in-defender-for-office-365.md). Se você for um usuário de residência procurando informações sobre a verificação de anexos no Outlook, consulte [Advanced Outlook.com security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
-Anexos Seguros é um recurso do [Microsoft Defender para Office 365](whats-new-in-defender-for-office-365.md) que usa um ambiente virtual para verificar anexos em mensagens de email de entrada depois que eles foram verificados pela proteção anti-malware no Exchange Online Protection [(EOP),](anti-malware-protection.md)mas antes da entrega aos destinatários. Para obter mais informações, consulte [Anexos Seguros no Microsoft Defender para Office 365](safe-attachments.md).
+Cofre Os anexos são um recurso do [Microsoft Defender](whats-new-in-defender-for-office-365.md) para Office 365 que usa um ambiente virtual para verificar anexos em mensagens de email de entrada depois que eles foram verificados pela proteção anti-malware no [Proteção do Exchange Online (EOP),](anti-malware-protection.md)mas antes da entrega aos destinatários. Para obter mais informações, [consulte Cofre Anexos no Microsoft Defender para Office 365](safe-attachments.md).
 
-Não há política interna ou padrão de Anexos Seguros. Para obter a verificação de Anexos Seguros de anexos de mensagens de email, você precisa criar uma ou mais políticas de Anexos Seguros, conforme descrito neste artigo.
+Não há política de anexos interna ou Cofre padrão. Para obter Cofre de Anexos de anexos de mensagem de email, você precisa criar uma ou mais Cofre políticas de anexos, conforme descrito neste artigo.
 
-Você pode configurar políticas de Anexos Seguros no Centro de Conformidade & Segurança ou no PowerShell (Exchange Online PowerShell para organizações qualificadas do Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem caixas de correio do Exchange Online, mas com assinaturas de complemento do Defender para Office 365).
+Você pode configurar políticas de anexos do Cofre no Centro de Conformidade de Segurança & ou no PowerShell (Exchange Online PowerShell para organizações de Microsoft 365 qualificadas com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem caixas de correio Exchange Online, mas com o Defender para assinaturas de complemento de Office 365).
 
-Os elementos básicos de uma política de Anexos Seguros são:
+Os elementos básicos de uma política Cofre Attachments são:
 
-- A **política** de anexo seguro : especifica as ações para detecções de malware desconhecidas, se enviar mensagens com anexos de malware para um endereço de email especificado e se deve entregar mensagens se a verificação de Anexos Seguros não puder ser concluída.
+- A **política** de anexo seguro : especifica as ações para detecções de malware desconhecidas, se o envio de mensagens com anexos de malware para um endereço de email especificado e se a entrega de mensagens se Cofre verificação de anexos não puder ser concluída.
 - **A regra de anexo seguro**: especifica a prioridade e os filtros de destinatário (a quem a política se aplica).
 
-A diferença entre esses dois elementos não é óbvia quando você gerencia as polícias de Anexos Seguros no Centro de Conformidade & Segurança:
+A diferença entre esses dois elementos não é óbvia quando você gerencia as Cofre de anexos no Centro de Conformidade & segurança:
 
-- Ao criar uma política de Anexos Seguros, você está realmente criando uma regra de anexo seguro e a política de anexo seguro associada ao mesmo tempo usando o mesmo nome para ambos.
-- Quando você modifica uma política de Anexos Seguros, as configurações relacionadas ao nome, prioridade, habilitado ou desabilitado e filtros de destinatário modificam a regra de anexo seguro. Todas as outras configurações modificam a política de anexo seguro associada.
-- Quando você remove uma política de Anexos Seguros, a regra de anexo seguro e a política de anexo seguro associada são removidas.
+- Quando você cria uma política de Cofre de anexos, você está realmente criando uma regra de anexo seguro e a política de anexo segura associada ao mesmo tempo usando o mesmo nome para ambos.
+- Quando você modifica uma Cofre de anexos, as configurações relacionadas ao nome, prioridade, habilitado ou desabilitado e filtros de destinatário modificam a regra de anexo seguro. Todas as outras configurações modificam a política de anexo seguro associada.
+- Quando você remove uma Cofre de anexos, a regra de anexo seguro e a política de anexo seguro associada são removidas.
 
-No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política e a regra são gerenciadas separadamente. Para obter mais informações, consulte a seção Usar o PowerShell do Exchange Online ou [o EOP PowerShell](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-attachments-policies) autônomo para configurar políticas de Anexos Seguros posteriormente neste artigo.
+No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política e a regra são gerenciadas separadamente. Para obter mais informações, consulte a seção Usar Exchange Online PowerShell ou [EOP PowerShell](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-attachments-policies) autônomo para configurar Cofre políticas de anexos posteriormente neste artigo.
 
 > [!NOTE]
-> Na área de configurações globais de configurações de Anexos Seguros, você configura recursos que não dependem das políticas de Anexos Seguros. Para obter instruções, consulte Ativar Anexos Seguros [para SharePoint, OneDrive e Microsoft Teams](turn-on-mdo-for-spo-odb-and-teams.md) e Documentos Seguros no Microsoft [365 E5](safe-docs.md).
+> Na área de configurações globais de Cofre De anexos, você configura recursos que não dependem de políticas Cofre Anexos. Para obter instruções, consulte Ativar Cofre anexos para [SharePoint, OneDrive e Microsoft Teams](turn-on-mdo-for-spo-odb-and-teams.md) e Cofre documentos [Microsoft 365 E5](safe-docs.md).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **Anexos Seguros,** use <https://protection.office.com/safeattachmentv2> .
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **Cofre Anexos,** use <https://protection.office.com/safeattachmentv2> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - Você precisa ter permissões atribuídas antes de poder fazer os procedimentos neste artigo:
-  - Para criar, modificar e excluir políticas de Anexos Seguros  &, você precisa ser membro dos grupos de função Gerenciamento  da Organização ou Administrador de Segurança no Centro de Conformidade e Segurança e membro do grupo de função Gerenciamento da Organização no Exchange Online.  
-  - Para acesso somente leitura a políticas de Anexos Seguros, você  precisa ser membro dos grupos de função Leitor **Global** ou Leitor de Segurança no Centro de Conformidade & Segurança.
+  - Para criar, modificar e excluir políticas de anexos do Cofre,  você  precisa ser membro dos grupos de função  Gerenciamento da  Organização ou Administrador de Segurança no Centro de Conformidade & Segurança e membro do grupo de função Gerenciamento da Organização no Exchange Online.
+  - Para acessar somente leitura Cofre políticas de Anexos, você precisa ser membro  dos grupos de função Leitor **Global** ou Leitor de Segurança no Centro de Conformidade & Segurança.
 
   Para obter mais informações, consulte [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md) and [Permissions in Exchange Online](/exchange/permissions-exo/permissions-exo).
 
@@ -75,45 +75,45 @@ No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política 
   - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
   - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
-- Para nossas configurações recomendadas para políticas de Anexos Seguros, consulte [Configurações de Anexos Seguros.](recommended-settings-for-eop-and-office365.md#safe-attachments-settings)
+- Para nossas configurações recomendadas para Cofre de anexos, [consulte Cofre Configurações de anexos](recommended-settings-for-eop-and-office365.md#safe-attachments-settings).
 
 - Permitir até 30 minutos para que uma política nova ou atualizada seja aplicada.
 
-## <a name="use-the-security--compliance-center-to-create-safe-attachments-policies"></a>Use o Centro de Conformidade & segurança para criar políticas de Anexos Seguros
+## <a name="use-the-security--compliance-center-to-create-safe-attachments-policies"></a>Use o Centro de Conformidade & segurança para criar Cofre de anexos
 
-Criar uma política de Anexos Seguros personalizado & s no Centro de Conformidade e Segurança cria a regra de anexo seguro e a política de anexo seguro associada ao mesmo tempo usando o mesmo nome para ambos.
+Criar uma política de Cofre anexos personalizado & s no Centro de Conformidade e Segurança cria a regra de anexo seguro e a política de anexo seguro associada ao mesmo tempo usando o mesmo nome para ambos.
 
-1. No Centro de Conformidade & Segurança, vá para **Política** de Gerenciamento de \> **Ameaças** \> **AtP Anexos Seguros**.
+1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP Cofre Anexos**.
 
-2. Na página **Anexos Seguros,** clique em **Criar**.
+2. Na página **Cofre Anexos,** clique em **Criar**.
 
-3. O **assistente de política Novos Anexos Seguros** é aberto. Na página **Nomear sua política,** configure as seguintes configurações:
+3. O **assistente de Cofre nova política anexos** é aberto. Na página **Nomear sua política,** configure as seguintes configurações:
 
    - **Nome**: insira um nome exclusivo e descritivo para a política.
 
-   - **Descrição**: digite uma descrição opcional para a política.
+   - **Descrição**: insira uma descrição opcional para a política.
 
-   Quando terminar, clique em **Avançar**.
+   Ao terminar, clique em **Avançar**.
 
-4. Na página **Configurações** exibida, configure as seguintes configurações:
+4. Na página **Configurações** que aparece, configure as seguintes configurações:
 
-   - **Resposta de malware desconhecido anexos seguros**: selecione um dos seguintes valores:
+   - Cofre resposta de **malware desconhecido anexos**: selecione um dos seguintes valores:
 
      - **Off**: Normalmente, não recomendamos esse valor.
-     - **Monitor**
+     - **Monitorar**
      - **Bloquear**: esse é o valor padrão e o valor recomendado em Políticas de segurança predefinidas padrão [e estritas.](preset-security-policies.md)
-     - **Substituir**
+     - **Replace**
      - **Entrega Dinâmica (Recurso de Visualização)**
 
-     Esses valores são explicados nas configurações da política [Anexos Seguros.](safe-attachments.md#safe-attachments-policy-settings)
+     Esses valores são explicados [Cofre configurações de política de anexos.](safe-attachments.md#safe-attachments-policy-settings)
 
    - Envie o anexo para o seguinte endereço de **email**: Para os  valores de ação **Bloquear,** **Monitorar** ou Substituir **,** você pode selecionar Habilitar redirecionamento para enviar mensagens que contenham anexos de malware para o endereço de email interno ou externo especificado para análise e investigação.
 
-     A recomendação para configurações de política padrão e estrita é habilitar o redirecionamento. Para obter mais informações, consulte [Configurações de Anexos Seguros.](recommended-settings-for-eop-and-office365.md#safe-attachments-settings)
+     A recomendação para configurações de política padrão e estrita é habilitar o redirecionamento. Para obter mais informações, [consulte Cofre Configurações de anexos](recommended-settings-for-eop-and-office365.md#safe-attachments-settings).
 
-   - Aplique a seleção acima se a verificação de malware para **anexos** for concluída ou ocorrer um erro : a ação especificada por **Anexos** Seguros resposta de malware desconhecida é tomada em mensagens mesmo quando a verificação de Anexos Seguros não pode ser concluída. Se você selecionou essa opção, sempre selecione **Redirecionamento habilitado**. Caso contrário, as mensagens podem ser perdidas.
+   - Aplicar a seleção acima se a verificação de malware para **anexos** for concluída ou ocorrer um erro : a ação especificada pelo **Cofre Anexos** resposta de malware desconhecido é tomada em mensagens mesmo quando Cofre verificação de anexos não pode ser concluída. Se você selecionou essa opção, sempre selecione **Redirecionamento habilitado**. Caso contrário, as mensagens podem ser perdidas.
 
-   Quando terminar, clique em **Avançar**.
+   Ao terminar, clique em **Avançar**.
 
 5. Na página **Aplicada à** que aparece, identifique os destinatários internos aos quais a política se aplica.
 
@@ -137,35 +137,35 @@ Criar uma política de Anexos Seguros personalizado & s no Centro de Conformidad
 
    Para adicionar exceções, clique em **Adicionar uma condição** e selecione uma exceção em Except **if**. As configurações e o comportamento são exatamente como as condições.
 
-   Quando terminar, clique em **Avançar**.
+   Ao terminar, clique em **Avançar**.
 
 6. Na página **Revisar suas configurações** que aparece, revise suas configurações. Você pode clicar **em Editar** em cada configuração para modificá-la.
 
    Quando terminar, clique em **Concluir**.
 
-## <a name="use-the-security--compliance-center-to-view-safe-attachments-policies"></a>Use o Centro de Conformidade & segurança para exibir políticas de Anexos Seguros
+## <a name="use-the-security--compliance-center-to-view-safe-attachments-policies"></a>Use o Centro de Conformidade & segurança para exibir Cofre de anexos
 
-1. No Centro de Conformidade & Segurança, vá para **Política** de Gerenciamento de \> **Ameaças** \> **AtP Anexos Seguros**.
+1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP Cofre Anexos**.
 
-2. Na página **Anexos Seguros,** selecione uma política na lista e clique nele (não selecione a caixa de seleção).
+2. Na página **Cofre Anexos,** selecione uma política na lista e clique nele (não selecione a caixa de seleção).
 
    Os detalhes da política aparecem em um fly-out
 
-## <a name="use-the-security--compliance-center-to-modify-safe-attachments-policies"></a>Use o Centro de Conformidade & segurança para modificar políticas de Anexos Seguros
+## <a name="use-the-security--compliance-center-to-modify-safe-attachments-policies"></a>Use o Centro de Conformidade & segurança para modificar Cofre de anexos
 
-1. No Centro de Conformidade & Segurança, vá para **Política** de Gerenciamento de \> **Ameaças** \> **AtP Anexos Seguros**.
+1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP Cofre Anexos**.
 
-2. Na página **Anexos Seguros,** selecione uma política na lista e clique nele (não selecione a caixa de seleção).
+2. Na página **Cofre Anexos,** selecione uma política na lista e clique nele (não selecione a caixa de seleção).
 
 3. Nos detalhes da política exibidos, clique em **Editar política**.
 
-As configurações disponíveis no sobrevoo que aparece são idênticas às descritas na seção Usar o Centro de Conformidade & Segurança para criar políticas [de Anexos Seguros.](#use-the-security--compliance-center-to-create-safe-attachments-policies)
+As configurações disponíveis no sobrevoo que aparece são idênticas às descritas na seção Usar o Centro de Conformidade & Segurança para criar políticas Cofre [Anexos.](#use-the-security--compliance-center-to-create-safe-attachments-policies)
 
 Para habilitar ou desabilitar uma política ou definir a ordem de prioridade da política, consulte as seções a seguir.
 
-### <a name="enable-or-disable-safe-attachments-policies"></a>Habilitar ou desabilitar políticas de Anexos Seguros
+### <a name="enable-or-disable-safe-attachments-policies"></a>Habilitar ou desabilitar Cofre de anexos
 
-1. No Centro de Conformidade & Segurança, vá para **Política** de Gerenciamento de \> **Ameaças** \> **AtP Anexos Seguros**.
+1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP Cofre Anexos**.
 
 2. Observe o valor na coluna **Status:**
 
@@ -173,45 +173,45 @@ Para habilitar ou desabilitar uma política ou definir a ordem de prioridade da 
 
    - Mover a alternância para a direita ![Ativar a política](../../media/scc-toggle-on.png) para habilitar a política.
 
-### <a name="set-the-priority-of-safe-attachments-policies"></a>Definir a prioridade das políticas de Anexos Seguros
+### <a name="set-the-priority-of-safe-attachments-policies"></a>Definir a prioridade das políticas de Cofre Anexos
 
-Por padrão, as políticas de Anexos Seguros têm uma prioridade baseada na ordem em que foram criadas (as políticas mais novas têm prioridade menor do que as políticas mais antigas). Um número de prioridade menor indica uma maior prioridade para a política (0 é a maior), e as políticas são processadas por ordem de prioridade (políticas com maior prioridade são processadas antes das políticas com menor prioridade). Duas políticas não podem ter a mesma prioridade, e o processamento da política será interrompido após a primeira política ser aplicada.
+Por padrão, Cofre de anexos recebe uma prioridade baseada na ordem em que foram criadas (as políticas mais novas têm prioridade menor do que as políticas mais antigas). Um número de prioridade menor indica uma maior prioridade para a política (0 é a maior), e as políticas são processadas por ordem de prioridade (políticas com maior prioridade são processadas antes das políticas com menor prioridade). Duas políticas não podem ter a mesma prioridade, e o processamento da política será interrompido após a primeira política ser aplicada.
 
 Para obter mais informações sobre a ordem de precedência e como várias políticas são avaliadas e aplicadas, confira [Ordem e precedência da proteção de email](how-policies-and-protections-are-combined.md).
 
-As políticas de Anexos Seguros são exibidas na ordem em que são processadas (a primeira política tem **o valor Priority** 0).
+Cofre As políticas de anexos são exibidas na ordem em que são processadas (a primeira política tem o **valor Priority** 0).
 
-**Observação**: no Centro de Conformidade & segurança, você só pode alterar a prioridade da política anexos seguros após a criação. No PowerShell, você pode substituir a prioridade padrão ao criar a regra de anexo seguro (que pode afetar a prioridade das regras existentes).
+**Observação**: no Centro de Conformidade & segurança, você só pode alterar a prioridade da política de Cofre Anexos após a criação. No PowerShell, você pode substituir a prioridade padrão ao criar a regra de anexo seguro (que pode afetar a prioridade das regras existentes).
 
 Para alterar a prioridade de uma política, mova a política para cima ou para baixo na lista (não é possível modificar diretamente o número de **Prioridade** no Centro de Conformidade e Segurança).
 
-1. No Centro de Conformidade & Segurança, vá para **Política** de Gerenciamento de \> **Ameaças** \> **AtP Anexos Seguros**.
+1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP Cofre Anexos**.
 
-2. Na página **Anexos Seguros,** selecione uma política na lista e clique nele (não selecione a caixa de seleção).
+2. Na página **Cofre Anexos,** selecione uma política na lista e clique nele (não selecione a caixa de seleção).
 
 3. Nos detalhes da política exibidos, clique no botão de prioridade disponível.
 
-   - A política Anexos Seguros com o **valor Prioridade** **0** tem apenas o **botão Diminuir** prioridade disponível.
+   - A Cofre de anexos com o **valor Prioridade** **0** tem apenas o **botão Diminuir** prioridade disponível.
 
-   - A política Anexos Seguros com o menor valor **priority** (por exemplo, **3**) tem apenas o **botão Aumentar** prioridade disponível.
+   - A Cofre de anexos com o menor valor **priority** (por exemplo, **3**) tem apenas o **botão Aumentar** prioridade disponível.
 
-   - Se você tiver três ou mais políticas de Anexos Seguros, as políticas  entre os valores de prioridade mais alto e mais baixo terão os botões **Aumentar** prioridade e Diminuir prioridade disponíveis.
+   - Se você tiver três ou mais Cofre políticas de Anexos, as políticas entre  os valores de prioridade mais alta e mais baixa terão os botões **Aumentar** prioridade e Diminuir prioridade disponíveis.
 
 4. Clique **em Aumentar prioridade** ou Diminuir **prioridade** para alterar o **valor Priority.**
 
 5. Quando terminar, clique em **Fechar**.
 
-## <a name="use-the-security--compliance-center-to-remove-safe-attachments-policies"></a>Use o Centro de Conformidade & segurança para remover políticas de Anexos Seguros
+## <a name="use-the-security--compliance-center-to-remove-safe-attachments-policies"></a>Use o Centro de Conformidade & segurança para remover Cofre de anexos
 
-1. No Centro de Conformidade & Segurança, vá para **Política** de Gerenciamento de \> **Ameaças** \> **AtP Anexos Seguros**.
+1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP Cofre Anexos**.
 
-2. Na página **Anexos Seguros,** selecione uma política na lista e clique nele (não selecione a caixa de seleção).
+2. Na página **Cofre Anexos,** selecione uma política na lista e clique nele (não selecione a caixa de seleção).
 
 3. Nos detalhes da política exibidos, clique em **Excluir política** e clique em **Sim** na caixa de diálogo de aviso exibida.
 
-## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-attachments-policies"></a>Use o PowerShell do Exchange Online ou o EOP PowerShell autônomo para configurar políticas de Anexos Seguros
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-attachments-policies"></a>Use Exchange Online PowerShell ou EOP PowerShell autônomo para configurar Cofre de anexos
 
-Conforme descrito anteriormente, uma política de Anexos Seguros consiste em uma política de anexo seguro e uma regra de anexo seguro.
+Conforme descrito anteriormente, uma política Cofre Attachments consiste em uma política de anexo seguro e uma regra de anexo seguro.
 
 No PowerShell, a diferença entre políticas de anexo seguro e regras de anexo seguro é aparente. Você gerencia políticas de anexo seguro usando os cmdlets **\* -SafeAttachmentPolicy** e gerencia regras de anexo segura usando os cmdlets **\* -SafeAttachmentRule.**
 
@@ -219,9 +219,9 @@ No PowerShell, a diferença entre políticas de anexo seguro e regras de anexo s
 - No PowerShell, você modifica as configurações na política de anexo seguro e a regra de anexo seguro separadamente.
 - Quando você remove uma política de anexo seguro do PowerShell, a regra de anexo seguro correspondente não é removida automaticamente e vice-versa.
 
-### <a name="use-powershell-to-create-safe-attachments-policies"></a>Usar o PowerShell para criar políticas de Anexos Seguros
+### <a name="use-powershell-to-create-safe-attachments-policies"></a>Usar o PowerShell para criar Cofre de anexos
 
-Criar uma política de Anexos Seguros no PowerShell é um processo de duas etapas:
+Criar uma Cofre de anexos no PowerShell é um processo de duas etapas:
 
 1. Crie a política de anexo seguro.
 2. Crie a regra de anexo seguro que especifica a política de anexo seguro à qual a regra se aplica.
@@ -246,9 +246,9 @@ New-SafeAttachmentPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [
 
 Este exemplo cria uma política de anexo seguro chamada Contoso All com os seguintes valores:
 
-- Bloquear mensagens que são encontradas para conter malware pela verificação de Documentos Seguros (não estamos usando o parâmetro _Action_ e o valor padrão é `Block` ).
+- Bloquear mensagens que são encontradas para conter malware Cofre verificação de documentos (não estamos usando o parâmetro _Action_ e o valor padrão é `Block` ).
 - O redirecionamento está habilitado e as mensagens que são encontradas com malware são enviadas sec-ops@contoso.com análise e investigação.
-- Se a verificação de Anexos Seguros não estiver disponível ou encontrar erros, não entregue a mensagem (não estamos usando o parâmetro _ActionOnError_ e o valor padrão é `$true` ).
+- Se Cofre verificação de anexos não estiver disponível ou encontrar erros, não entregue a mensagem (não estamos usando o parâmetro _ActionOnError_ e o valor padrão é `$true` ).
 
 ```PowerShell
 New-SafeAttachmentPolicy -Name "Contoso All" -Redirect $true -RedirectAddress sec-ops@contoso.com
@@ -333,7 +333,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Get-
 
 ### <a name="use-powershell-to-modify-safe-attachment-policies"></a>Usar o PowerShell para modificar políticas de anexo seguro
 
-Não é possível renomear uma política de anexo seguro no PowerShell (o cmdlet **Set-SafeAttachmentPolicy** não tem _parâmetro Name)._ Ao renomear uma política de Anexos Seguros no Centro de Conformidade & segurança, você só está renomeando a regra de anexo _seguro._
+Não é possível renomear uma política de anexo seguro no PowerShell (o cmdlet **Set-SafeAttachmentPolicy** não tem _parâmetro Name)._ Ao renomear uma política Cofre Anexo & s no Centro de Conformidade e Segurança, você só renomeia a regra de anexo _seguro._
 
 Caso contrário, as mesmas configurações estarão disponíveis quando você criar uma política de anexo seguro, conforme descrito na Etapa [1: Usar](#step-1-use-powershell-to-create-a-safe-attachment-policy) o PowerShell para criar uma seção de política de anexo seguro anteriormente neste artigo.
 
@@ -361,7 +361,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-
 
 ### <a name="use-powershell-to-enable-or-disable-safe-attachment-rules"></a>Usar o PowerShell para habilitar ou desabilitar regras de anexo seguro
 
-Habilitar ou desabilitar uma regra de anexo seguro no PowerShell habilita ou desabilita toda a política de Anexos Seguros (a regra de anexo seguro e a política de anexo seguro atribuída).
+Habilitar ou desabilitar uma regra de anexo seguro no PowerShell habilita ou desabilita toda a política Cofre Anexos do Cofre (a regra de anexo seguro e a política de anexo seguro atribuída).
 
 Para habilitar ou desabilitar uma regra de anexo seguro no PowerShell, use esta sintaxe:
 
@@ -441,11 +441,11 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, [consulte Remo
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Como saber se esses procedimentos funcionaram?
 
-Para verificar se você criou, modificou ou removeu políticas de Anexos Seguros com êxito, faça uma das seguintes etapas:
+Para verificar se você criou, modificou ou removeu com êxito Cofre políticas de Anexos, faça qualquer uma das seguintes etapas:
 
-- No Centro de Conformidade & Segurança, vá para **Política** de Gerenciamento de \> **Ameaças** \> **AtP Anexos Seguros**. Verifique a lista de políticas, seus **valores de Status** e seus valores **priority.** Para exibir mais detalhes, selecione a política na lista e veja os detalhes no fly-out.
+- No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças \>  \> **ATP Cofre Anexos**. Verifique a lista de políticas, seus **valores de Status** e seus valores **priority.** Para exibir mais detalhes, selecione a política na lista e veja os detalhes no fly-out.
 
-- No PowerShell do Exchange Online ou no PowerShell da Proteção do Exchange Online, substitua pelo nome da política ou regra, execute o seguinte comando e \<Name\> verifique as configurações:
+- Em Exchange Online PowerShell ou Proteção do Exchange Online PowerShell, substitua pelo nome da política ou regra, execute o seguinte comando e verifique \<Name\> as configurações:
 
   ```PowerShell
   Get-SafeAttachmentPolicy -Identity "<Name>" | Format-List
@@ -455,4 +455,4 @@ Para verificar se você criou, modificou ou removeu políticas de Anexos Seguros
   Get-SafeAttachmentRule -Identity "<Name>" | Format-List
   ```
 
-Para verificar se anexos seguros estão verificando mensagens, verifique os relatórios disponíveis do Defender para Office 365. Para obter mais informações, consulte [View reports for Defender for Office 365](view-reports-for-mdo.md) and Use Explorer in the Security & Compliance [Center](threat-explorer.md).
+Para verificar se Cofre anexos está verificando mensagens, verifique o Defender disponível para Office 365 relatórios. Para obter mais informações, [consulte View reports for Defender for Office 365](view-reports-for-mdo.md) and Use Explorer in the Security & Compliance [Center](threat-explorer.md).

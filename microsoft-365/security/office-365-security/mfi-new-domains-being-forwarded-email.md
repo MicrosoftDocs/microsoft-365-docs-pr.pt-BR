@@ -44,7 +44,7 @@ Quando você clica no widget, um sobrevoo aparece onde você pode encontrar mais
 
 Você também pode acessar **essa** página de detalhes  quando selecionar o insight depois de clicar em Exibir tudo na área Principais & recomendações em (**Painel** de Relatórios \>  ou <https://protection.office.com/insightdashboard> ).
 
-Para impedir o encaminhamento automático de mensagens para domínios externos, configure um domínio remoto para alguns ou todos os domínios externos. Para obter mais informações, consulte [Gerenciar domínios remotos no Exchange Online](/Exchange/mail-flow-best-practices/remote-domains/manage-remote-domains).
+Para impedir o encaminhamento automático de mensagens para domínios externos, configure um domínio remoto para alguns ou todos os domínios externos. Para obter mais informações, consulte [Gerenciar domínios remotos em Exchange Online](/Exchange/mail-flow-best-practices/remote-domains/manage-remote-domains).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

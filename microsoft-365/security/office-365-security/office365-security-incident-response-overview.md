@@ -14,7 +14,7 @@ ms.collection:
 localization_priority: Normal
 search.appverid:
 - MET150
-description: Esta solução informa como os ataques de segurança cibernética mais comuns podem ser no Microsoft 365 e como responder a eles
+description: Esta solução informa como os ataques de segurança cibernética mais comuns podem ser Microsoft 365 e como responder a eles
 ms.custom:
 - seo-marvel-apr2020
 ms.technology: mdo
@@ -41,7 +41,7 @@ ms.locfileid: "51203079"
 
 Nem todos os ataques cibernéticos podem ser frustrados. Os invasores estão constantemente procurando por novas fraquezas em sua estratégia defensiva ou estão explorando as antigas. Saber como reconhecer um ataque permite que você responda a ele mais rapidamente, o que reduz a duração do incidente de segurança.
 
-Esta série de artigos ajuda você a entender a aparência de um determinado tipo de ataque no Microsoft 365 e fornece etapas que você pode tomar para responder. Eles são pontos de entrada rápidas para entender:
+Esta série de artigos ajuda você a entender a aparência de um determinado tipo de ataque no Microsoft 365 e fornece etapas que você pode seguir para responder. Eles são pontos de entrada rápidas para entender:
 
 - O que é o ataque e como ele funciona.
 
@@ -67,7 +67,7 @@ Verifique aqui mensalmente como mais artigos serão adicionados ao longo do temp
 
 ## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Proteja o Microsoft 365 como um profissional de segurança cibernética
 
-Sua assinatura do Microsoft 365 vem com um poderoso conjunto de recursos de segurança que você pode usar para proteger seus dados e seus usuários.  Use o roteiro de segurança do Microsoft 365 - Principais prioridades para os primeiros [30 dias, 90](security-roadmap.md) dias e além para implementar as práticas recomendadas recomendadas pela Microsoft para proteger sua organização do Microsoft 365.
+Sua assinatura do Microsoft 365 vem com um poderoso conjunto de recursos de segurança que você pode usar para proteger seus dados e seus usuários.  Use o Microsoft 365 de segurança - Principais prioridades para os primeiros [30 dias, 90](security-roadmap.md) dias e além para implementar as práticas recomendadas recomendadas pela Microsoft para proteger sua organização Microsoft 365.
 
 - Tarefas a realizar nos primeiros 30 dias.  Estas têm efeito imediato e baixo impacto para seus usuários.
 

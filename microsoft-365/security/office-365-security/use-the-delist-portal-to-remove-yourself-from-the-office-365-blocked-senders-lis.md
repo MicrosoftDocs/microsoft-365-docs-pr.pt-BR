@@ -17,7 +17,7 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: Neste artigo, você aprenderá a usar o portal de lista para remover a si mesmo da lista de envios bloqueados do Microsoft 365.
+description: Neste artigo, você aprenderá a usar o portal de lista para remover a si mesmo da lista Microsoft 365 de envios bloqueados.
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: c4488f5e5607d71da35b2921e863fb02195467e2
@@ -36,11 +36,11 @@ ms.locfileid: "51203113"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Você está recebendo uma mensagem de erro ao tentar enviar um email para um destinatário cujo endereço de email está no Microsoft 365? Se você acha que não deve receber a mensagem de erro, pode usar o portal de lista de listas para remover a si mesmo da lista de envios bloqueados.
+Você está recebendo uma mensagem de erro ao tentar enviar um email para um destinatário cujo endereço de email está Microsoft 365? Se você acha que não deve receber a mensagem de erro, pode usar o portal de lista de listas para remover a si mesmo da lista de envios bloqueados.
 
 ## <a name="what-is-the-blocked-senders-list"></a>O que é a lista de envios bloqueados?
 
-A Microsoft usa a lista de remetentes bloqueados para proteger seus clientes contra spam, falsificação e ataques de phishing. O endereço IP do servidor de email, ou seja, o endereço que seu servidor de email usa para se identificar na Internet, foi marcado como uma possível ameaça ao Microsoft 365 por uma das várias razões. Quando o Microsoft 365 adiciona o endereço IP à lista, ele impede toda a comunicação entre o endereço IP e qualquer um de nossos clientes por meio de nossos datacenters.
+A Microsoft usa a lista de remetentes bloqueados para proteger seus clientes contra spam, falsificação e ataques de phishing. O endereço IP do seu servidor de email, ou seja, o endereço que seu servidor de email usa para se identificar na Internet, foi marcado como uma possível ameaça para Microsoft 365 por um dos vários motivos. Quando Microsoft 365 adiciona o endereço IP à lista, impede toda a comunicação entre o endereço IP e qualquer um de nossos clientes por meio de nossos datacenters.
 
 Você saberá que foi adicionado à lista quando receber uma resposta a uma mensagem de email que inclui um erro parecido com o seguinte:
 
@@ -64,7 +64,7 @@ em que  _IP address_ é o endereço IP do computador no qual o servidor de email
 
 5. No portal de remoção da lista, clique em **remover IP da lista**.
 
-    Depois que o endereço IP for removido da lista de remetentes bloqueados, as mensagens de email desse endereço IP serão entregues aos destinatários que usam o Microsoft 365. Portanto, certifique-se de que os emails enviados a partir desse endereço IP não sejam ofensivos ou mal-intencionados; caso contrário, o endereço IP pode ser bloqueado novamente.
+    Depois que o endereço IP for removido da lista de remetentes bloqueados, as mensagens de email desse endereço IP serão entregues aos destinatários que usam Microsoft 365. Portanto, certifique-se de que os emails enviados a partir desse endereço IP não sejam ofensivos ou mal-intencionados; caso contrário, o endereço IP pode ser bloqueado novamente.
 
     > [!NOTE]
     > Pode levar até 24 horas ou os resultados podem variar bastante antes que as restrições sejam removidas.

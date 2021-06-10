@@ -33,30 +33,30 @@ ms.locfileid: "51187584"
 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-Adicione marcas em dispositivos para criar uma afiliação de grupo lógica. As marcas de dispositivo dão suporte ao mapeamento correto da rede, permitindo que você anexe marcas diferentes para capturar contexto e habilitar a criação dinâmica de lista como parte de um incidente. As marcas podem ser usadas como filtro no **exibição de** lista Dispositivos ou para agrupar dispositivos. Para obter mais informações sobre o grupo de dispositivos, consulte [Create and manage device groups](machine-groups.md).
+Adicionar marcas em dispositivos para criar uma afiliação de grupo lógico. As marcas de dispositivo oferecem suporte ao mapeamento correto da rede, permitindo anexar marcas diferentes para capturar contexto e habilitar a criação de lista dinâmica como parte de um incidente. As marcas podem ser usadas como filtro no **exibição de** lista Dispositivos ou para agrupar dispositivos. Para obter mais informações sobre o grupo de dispositivos, consulte [Create and manage device groups](machine-groups.md).
 
 Você pode adicionar marcas em dispositivos usando as seguintes maneiras:
 
-- Usando o portal
-- Definindo um valor de chave do Registro
+- Usar o portal
+- Definir um valor de chave de registro
 
 > [!NOTE]
 > Pode haver alguma latência entre o momento em que uma marca é adicionada a um dispositivo e sua disponibilidade na lista de dispositivos e na página do dispositivo.  
 
-Para adicionar marcas de dispositivo usando API, consulte [Add or remove device tags API](add-or-remove-machine-tags.md).
+Para adicionar marcas de dispositivo usando a API, veja a [API Adicionar ou remover marcas de dispositivo](add-or-remove-machine-tags.md).
 
 ## <a name="add-and-manage-device-tags-using-the-portal"></a>Adicionar e gerenciar marcas de dispositivo usando o portal
 
-1. Selecione o dispositivo em que você deseja gerenciar marcas. Você pode selecionar ou pesquisar um dispositivo de qualquer uma das seguintes exibições:
+1. Selecione o dispositivo o qual você deseja gerenciar as marcas. Você pode selecionar ou procurar um dispositivo a partir de qualquer uma dos modos de exibição a seguir:
 
    - **Painel de operações de segurança** - Selecione o nome do dispositivo na seção Principais dispositivos com alertas ativos.
    - **Fila de alertas** - Selecione o nome do dispositivo ao lado do ícone do dispositivo na fila de alertas.
    - **Lista de dispositivos** - Selecione o nome do dispositivo na lista de dispositivos.
-   - **Caixa de** pesquisa - Selecione Dispositivo no menu suspenso e insira o nome do dispositivo.
+   - **Caixa de pesquisa** - Selecione Dispositivo no menu suspenso e insira o nome do dispositivo.
 
-     Você também pode chegar à página de alerta por meio dos exibições de arquivo e IP.
+     Você também pode acessar a página de alertas através do modo de exibição de arquivo e IP.
 
-2. Selecione **Gerenciar Marcas** na linha de ações de resposta.
+2. Selecione **Gerenciar Marcas** na linha de ações de Resposta.
 
     ![Imagem do botão gerenciar marcas](images/manage-tags.png)
 
@@ -79,7 +79,7 @@ Você também pode excluir marcas deste exibição.
 >[!NOTE]
 > Aplicável somente nos seguintes dispositivos:
 >- Windows 10, versão 1709 ou posterior
->- Windows Server, versão 1803 ou posterior
+>- Windows Servidor, versão 1803 ou posterior
 >- Windows Server 2016
 >- Windows Server 2012 R2
 >- Windows Server 2008 R2 SP1

@@ -35,21 +35,21 @@ ms.locfileid: "51203302"
 
 ![Explorador de Ameaças](../../media/ThreatExplorerFirstOpened.png)
 
-[O Explorador](threat-explorer.md) de Ameaças (e o relatório de detecções em tempo real) é uma ferramenta poderosa e quase em tempo real para ajudar as equipes de Operações de Segurança a investigar e responder a ameaças no Centro de Conformidade & Segurança. O Explorer (e o relatório de detecções em tempo real) exibe informações sobre suspeita de malware e phishing em emails e arquivos no Office 365, bem como outras ameaças e riscos de segurança à sua organização.
+[O Explorador](threat-explorer.md) de Ameaças (e o relatório de detecções em tempo real) é uma ferramenta poderosa e quase em tempo real para ajudar as equipes de Operações de Segurança a investigar e responder a ameaças no Centro de Conformidade & Segurança. O Explorer (e o relatório de detecções em tempo real) exibe informações sobre suspeita de malware e phishing em email e arquivos no Office 365, bem como outras ameaças e riscos de segurança à sua organização.
 
 - Se você tiver [o Microsoft Defender para Office 365](defender-for-office-365.md) Plano 2, terá o Explorer.
 - Se você tiver o Microsoft Defender para Office 365 Plano 1, terá detecções em tempo real.
 
-Quando você abre o Explorer pela primeira vez (ou o relatório de detecções em tempo real), o modo de exibição padrão mostra detecções de malware de email nos últimos 7 dias. Este relatório também pode mostrar detecções do Microsoft Defender para Office 365, como URLs mal-intencionadas detectadas por Links Seguros [e](safe-links.md)arquivos mal-intencionados detectados por [Anexos Seguros.](safe-attachments.md) Este relatório pode ser modificado para mostrar dados dos últimos 30 dias (com uma assinatura paga do Microsoft Defender para Office 365 P2). As assinaturas de avaliação incluirão dados apenas nos últimos sete dias.
+Quando você abre o Explorer pela primeira vez (ou o relatório de detecções em tempo real), o modo de exibição padrão mostra detecções de malware de email nos últimos 7 dias. Este relatório também pode mostrar o Microsoft Defender para detecções Office 365, como URLs mal-intencionadas detectadas por links do [Cofre e](safe-links.md)arquivos mal-intencionados detectados por [Cofre Attachments](safe-attachments.md). Este relatório pode ser modificado para mostrar dados dos últimos 30 dias (com uma assinatura paga do Microsoft Defender para Office 365 P2). As assinaturas de avaliação incluirão dados apenas nos últimos sete dias.
 
 ****
 
 |Assinatura|Utilitário|Dias de Dados|
 |---|---|---|
-|Avaliação do Microsoft Defender para Office 365 P1|Detecções em tempo real|7 |
+|Avaliação do Microsoft Defender Office 365 P1|Detecções em tempo real|7 |
 |Microsoft Defender para Office 365 P1 pago|Detecções em tempo real|30|
-|Avaliação paga do Microsoft Defender para Office 365 P1 para Office 365 P2|Explorador de Ameaças|7 |
-|Avaliação do Microsoft Defender para Office 365 P2|Explorador de Ameaças|7 |
+|Microsoft Defender para Office 365 P1 pago testando o Defender para Office 365 avaliação P2|Explorador de Ameaças|7 |
+|Avaliação do Microsoft Defender Office 365 P2|Explorador de Ameaças|7 |
 |Microsoft Defender para Office 365 P2 pago|Explorador de Ameaças|30|
 |
 
@@ -131,7 +131,7 @@ Abaixo do gráfico, confira mais detalhes sobre mensagens de email específicas,
 
 ## <a name="content--malware"></a>Malware > conteúdo
 
-Para exibir este relatório, no Explorer (ou detecções em tempo real), escolha **Exibir** \> **Malware de** \> **Conteúdo**. Esta exibição mostra arquivos identificados como mal-intencionados pelo [Microsoft Defender para Office 365 no SharePoint Online, No OneDrive for Business e no Microsoft Teams.](mdo-for-spo-odb-and-teams.md)
+Para exibir este relatório, no Explorer (ou detecções em tempo real), escolha **Exibir** \> **Malware de** \> **Conteúdo**. Esta exibição mostra arquivos que foram identificados como mal-intencionados pelo Microsoft Defender para Office 365 [no SharePoint Online, OneDrive for Business e Microsoft Teams](mdo-for-spo-odb-and-teams.md).
 
 Exibir informações por família de malware, tecnologia de detecção (como o malware foi detectado) e carga de trabalho (OneDrive, SharePoint ou Teams).
 
@@ -147,9 +147,9 @@ Com o Explorer (e detecções em tempo real), você pode aplicar um filtro em um
 
 Clicar em **Detonação ATP** neste gráfico resulta em uma exibição como esta:
 
-![Explorer filtrado para exibir apenas os resultados de Detonação do Defender para Office 365](../../media/7241d7dd-27bc-467d-9db8-6e806c49df14.png)
+![Explorer filtrado para exibir somente o Defender para Office 365 resultados de Detonação](../../media/7241d7dd-27bc-467d-9db8-6e806c49df14.png)
 
-Neste ponto de vista, agora estamos procurando dados para arquivos que foram detonados por [Anexos Seguros.](safe-attachments.md) Abaixo do gráfico, podemos ver detalhes sobre mensagens de email específicas que tinham anexos detectados por Anexos Seguros.
+Neste ponto de vista, agora estamos procurando dados para arquivos que foram detonados por Cofre [Anexos](safe-attachments.md). Abaixo do gráfico, podemos ver detalhes sobre mensagens de email específicas que tinham anexos que foram detectados por Cofre Anexos.
 
 ![Detalhes específicos sobre mensagens de email com anexos detectados](../../media/c91fb05c-d1d4-4085-acc6-f7008a415c2a.png)
 

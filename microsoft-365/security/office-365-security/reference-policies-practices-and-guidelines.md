@@ -39,15 +39,15 @@ Se você não estiver em conformidade com essas políticas e diretrizes, talvez 
 
 ## <a name="general-microsoft-policies"></a>Políticas gerais da Microsoft
 
-Os emails enviados aos usuários do Microsoft 365 devem estar em conformidade com todas as políticas da Microsoft que regem a transmissão de email e o uso do Microsoft 365.
+Os emails enviados para Microsoft 365 usuários devem estar em conformidade com todas as políticas da Microsoft que regem a transmissão de email e o uso de Microsoft 365.
 
-- Termos de Serviços aplicáveis ao Microsoft 365; em particular, a proibição de usar o serviço para spam ou distribuição de malware.
+- Termos de Serviços aplicáveis a Microsoft 365; em particular, a proibição de usar o serviço para spam ou distribuição de malware.
 
 - [Contrato do Microsoft Services](https://www.microsoft.com/servicesagreement/)
 
 ## <a name="governmental-regulations"></a>Regulamentações governamentais
 
-Os emails enviados aos usuários do Microsoft 365 devem aderir a todas as leis e regulamentos aplicáveis que regem as comunicações de email na jurisdição aplicável.
+Os emails enviados Microsoft 365 usuários devem seguir todas as leis e regulamentos aplicáveis que regem as comunicações de email na jurisdição aplicável.
 
 - [Can-SPAM Act: Um Guia de Conformidade para Empresas](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business)
 
@@ -55,13 +55,13 @@ Os emails enviados aos usuários do Microsoft 365 devem aderir a todas as leis e
 
 ## <a name="technical-guidelines"></a>Diretrizes técnicas
 
-Os emails enviados para o Microsoft 365 devem estar em conformidade com as recomendações aplicáveis listadas nos documentos abaixo (alguns links estão disponíveis apenas em inglês).
+Os emails enviados Microsoft 365 devem estar em conformidade com as recomendações aplicáveis listadas nos documentos abaixo (alguns links estão disponíveis apenas em inglês).
 
-- [RFC 2505: Recomendações anti-spam para MTAs SMTP](https://www.ietf.org/rfc/rfc2505.txt)
+- [RFC 2505: anti-spam Recomendações para MTAs SMTP](https://www.ietf.org/rfc/rfc2505.txt)
 
 - [RFC 2920: Extensão de Serviço SMTP para Pipelining de Comando](https://www.ietf.org/rfc/rfc2920.txt)
 
-Além disso, os servidores de email que se conectam ao Microsoft 365 devem seguir os seguintes requisitos:
+Além disso, os servidores de email que se conectam Microsoft 365 devem seguir os seguintes requisitos:
 
 - Espera-se que o remetente cumpra todos os padrões técnicos para a transmissão de emails da Internet, conforme publicado pela Força de Tarefa de Engenharia da Internet (IETF), incluindo RFC 5321, RFC 5322 e outros.
 
@@ -81,9 +81,9 @@ Além disso, os servidores de email que se conectam ao Microsoft 365 devem segui
 
 Os envios, ISP e outros provedores de serviços devem gerenciar ativamente a reputação de seus endereços IP de saída.
 
-## <a name="microsoft-365-limits"></a>Limites do Microsoft 365
+## <a name="microsoft-365-limits"></a>Microsoft 365 limites
 
-Os envios devem seguir os limites do Microsoft 365 listados em Limites de Proteção [do Exchange Online.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits)
+Os envios devem seguir Microsoft 365 limites listados [em Proteção do Exchange Online Limites](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits).
 
 ## <a name="email-delivery-resources-and-organizations"></a>Recursos e organizações de entrega de email
 
@@ -101,4 +101,4 @@ Para relatar emails ilegais, abusivas, indesejados ou mal-intencionados, consult
 
 ## <a name="law-enforcement"></a>Aplicação da lei
 
-Se você é membro da aplicação da lei e deseja atender a Microsoft Corporation com documentação legal sobre o Office 365 ou se tiver dúvidas sobre a documentação legal enviada à Microsoft, chame (1) (425) 722-1299.
+Se você é membro da aplicação da lei e deseja atender a Microsoft Corporation com documentação legal sobre Office 365, ou se tiver dúvidas sobre a documentação legal enviada à Microsoft, ligue para (1) (425) 722-1299.

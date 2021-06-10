@@ -47,14 +47,14 @@ Você pode usar essa notificação para ajudá-lo a identificar e ajustar as reg
 
 Quando você clica **em Exibir detalhes** no widget, um sobremenu aparece com mais informações:
 
-- **Regra:** você pode passar o mouse sobre o resumo para ver todas as condições, exceções e ações da regra. Você pode clicar no resumo para editar a regra no Centro de administração do Exchange (EAC).
+- **Regra:** você pode passar o mouse sobre o resumo para ver todas as condições, exceções e ações da regra. Você pode clicar no resumo para editar a regra no centro de administração Exchange (EAC).
 - **Número de mensagens avaliadas:** você pode [](message-trace-scc.md) clicar em Exibir mensagens **de** exemplo para ver os resultados do rastreamento de mensagens para um exemplo das mensagens que foram afetadas pela regra.
 - **Tempo médio gasto em cada mensagem**
 - **Tempo médio gasto em uma mensagem**: o valor intermediário que separa a metade superior dos dados de metade inferior do tempo.
 
 ![Detalhes do sobrevoo que aparecem depois de clicar em Exibir detalhes no insight Corrigir regras de fluxo de emails lentos](../../media/mfi-fix-slow-mail-flow-rules-details.png)
 
-Para obter mais informações sobre condições e exceções em regras de fluxo de emails, consulte [Mail flow rule conditions and exceptions (predicates) in Exchange Online](/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions).
+Para obter mais informações sobre condições e exceções em regras de fluxo de emails, consulte Condições de regra de fluxo de email e exceções [(predicados) em Exchange Online](/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions).
 
 ## <a name="see-also"></a>Confira também
 

@@ -1,7 +1,7 @@
 ---
 title: Tabela DeviceEvents no esquema de busca avançado
 description: Saiba mais sobre antivírus, firewall e outros tipos de evento na tabela eventos de dispositivo diversos (DeviceEvents) do esquema de busca avançado
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, eventos de segurança, antivírus, firewall, exploit guard, DeviceEvents
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, eventos de segurança, antivírus, firewall, proteção de exploração, DeviceEvents
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -35,7 +35,7 @@ ms.locfileid: "52023192"
 - Microsoft 365 Defender
 - Microsoft Defender para Ponto de Extremidade
 
-Os diversos eventos de dispositivo ou tabela no esquema de busca avançada contêm informações sobre vários tipos de eventos, incluindo eventos disparados por controles de segurança, como Windows Defender Antivírus e proteção `DeviceEvents` de exploração. [](advanced-hunting-overview.md) Use essa referência para criar consultas que retornam informações dessa tabela.
+Os diversos eventos de dispositivo ou tabela no esquema de busca avançada contêm informações sobre vários tipos de eventos, incluindo eventos disparados por controles de segurança, como Windows Defender Antivírus e `DeviceEvents` proteção de [](advanced-hunting-overview.md) exploração. Use essa referência para criar consultas que retornam informações dessa tabela.
 
 >[!TIP]
 > Para obter informações detalhadas sobre os tipos de eventos ( valores) suportados por uma tabela, use a referência de `ActionType` esquema interna disponível no centro de segurança.

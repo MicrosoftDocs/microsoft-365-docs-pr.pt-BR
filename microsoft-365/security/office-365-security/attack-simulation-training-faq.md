@@ -17,7 +17,7 @@ ms.collection:
 - m365initiative-m365-defender
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem aprender sobre considerações de implantação e perguntas frequentes sobre simulação de ataque e treinamento nas organizações do Microsoft 365 E5 ou do Microsoft Defender para Office 365 Plan 2.
+description: Os administradores podem aprender sobre considerações de implantação e perguntas frequentes sobre simulação de ataque e treinamento no Microsoft 365 E5 ou no Microsoft Defender para organizações Office 365 Plano 2.
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: f404e2a47756a611135fc70026bf0cce3eec62c4
@@ -29,7 +29,7 @@ ms.locfileid: "51202960"
 ---
 # <a name="attack-simulation-training-deployment-considerations-and-faq"></a>Considerações de implantação de treinamento de simulação de ataque e perguntas frequentes
 
-O treinamento de simulação de ataque [agora está geralmente disponível](https://techcommunity.microsoft.com/t5/microsoft-security-and/attack-simulation-training-in-microsoft-defender-for-office-365/ba-p/2037291). O treinamento de simulação de ataque permite que as organizações do Microsoft 365 E5 ou do Microsoft Defender for Office 365 Plan 2 medam e gerenciem o risco de engenharia social, permitindo a criação e o gerenciamento de simulações de phishing que são movidas por cargas de phishing desarmadas no mundo real. O treinamento hiper-direcionado, fornecido em parceria com a segurança do Terranova, ajuda a melhorar o conhecimento e alterar o comportamento dos funcionários.
+O treinamento de simulação de ataque [agora está geralmente disponível](https://techcommunity.microsoft.com/t5/microsoft-security-and/attack-simulation-training-in-microsoft-defender-for-office-365/ba-p/2037291). O treinamento de simulação de ataque permite que Microsoft 365 E5 ou o Microsoft Defender para organizações do plano 2 do Office 365 medem e gerenciem o risco de engenharia social, permitindo a criação e o gerenciamento de simulações de phishing que são movidas por cargas de phishing desarmadas no mundo real. O treinamento hiper-direcionado, fornecido em parceria com a segurança do Terranova, ajuda a melhorar o conhecimento e alterar o comportamento dos funcionários.
 
 Para obter mais informações sobre como começar com o treinamento de simulação de ataque, consulte [Get started using Attack simulation training](attack-simulation-training-get-started.md).
 
@@ -37,15 +37,15 @@ Embora toda a experiência de criação e agendamento de simulação tenha sido 
 
 ## <a name="issues-with-end-user-experiences"></a>Problemas com experiências de usuário final
 
-### <a name="phishing-simulation-urls-blocked-by-google-safe-browsing"></a>URLs de simulação de phishing bloqueadas pela Navegação Segura do Google
+### <a name="phishing-simulation-urls-blocked-by-google-safe-browsing"></a>URLs de simulação de phishing bloqueadas pelo Google Cofre Navegação
 
-Um serviço de reputação de URL pode identificar uma ou mais URLs usadas pelo treinamento de simulação de ataque como não seguras. A Navegação Segura do Google no Google Chrome bloqueia algumas das URLs de phishing simuladas com uma **mensagem de site enganoso à** frente. Embora trabalhemos com muitos fornecedores de reputação de URL para sempre permitir nossas URLs de simulação, nem sempre temos cobertura completa.
+Um serviço de reputação de URL pode identificar uma ou mais URLs usadas pelo treinamento de simulação de ataque como não seguras. O Google Cofre navegação no Google Chrome bloqueia algumas das URLs de phishing simuladas com uma mensagem de site enganoso **à** frente. Embora trabalhemos com muitos fornecedores de reputação de URL para sempre permitir nossas URLs de simulação, nem sempre temos cobertura completa.
 
 ![Aviso de site enganoso no Google Chrome](../../media/attack-sim-chrome-deceptive-site-message.png)
 
-Observe que esse problema não afeta o Microsoft Edge.
+Observe que esse problema não afeta Microsoft Edge.
 
-Como parte da fase de planejamento, verifique a disponibilidade da URL em seus navegadores da Web com suporte antes de usar a URL em uma campanha de phishing. Se as URLs são bloqueadas pela Navegação Segura do [Google,](https://support.google.com/chrome/a/answer/7532419) siga essas diretrizes do Google para permitir o acesso às URLs.
+Como parte da fase de planejamento, verifique a disponibilidade da URL em seus navegadores da Web com suporte antes de usar a URL em uma campanha de phishing. Se as URLs são bloqueadas pelo Google Cofre [Navegação,](https://support.google.com/chrome/a/answer/7532419) siga esta orientação do Google para permitir o acesso às URLs.
 
 Consulte [Get started using Attack simulation training](attack-simulation-training-get-started.md) for the list of URLs that are currently used by Attack simulation training.
 
@@ -72,7 +72,7 @@ Embora vimos poucos clientes sendo bloqueados nessa camada, isso acontece. Se vo
 - Usuários convidados.
 - Usuários que não estão mais ativos no Azure Active Directory (Azure AD).
 
-Somente usuários não convidados válidos com uma caixa de correio válida serão incluídos em simulações. Se você usar grupos de distribuição ou grupos de segurança habilitados para email para direcionar usuários, poderá usar o cmdlet [Get-DistributionGroupMember](/powershell/module/exchange/get-distributiongroupmember) no [PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) do Exchange Online para exibir e validar membros do grupo de distribuição.
+Somente usuários não convidados válidos com uma caixa de correio válida serão incluídos em simulações. Se você usar grupos de distribuição ou grupos de segurança habilitados para email para direcionar usuários, poderá usar o cmdlet [Get-DistributionGroupMember](/powershell/module/exchange/get-distributiongroupmember) no [Exchange Online PowerShell para](/powershell/exchange/connect-to-exchange-online-powershell) exibir e validar membros do grupo de distribuição.
 
 ## <a name="issues-with-attack-simulation-training-reporting"></a>Problemas com relatórios de treinamento de simulação de ataque
 
@@ -124,7 +124,7 @@ Relatórios de simulação no treinamento do simulador de ataque fornecem detalh
 - Usuários que abriram mão de suas credenciais.
 - Usuários que relataram a mensagem como phishing.
 
-Se as mensagens relatadas pelos usuários como phishing não são capturadas nos relatórios de simulação de simulação de ataque, pode haver uma regra de fluxo de emails do Exchange (também conhecida como regra de transporte) que está bloqueando a entrega das mensagens relatadas para a Microsoft. Verifique se as regras de fluxo de emails não estão bloqueando a entrega para os seguintes endereços de email:
+Se as mensagens relatadas pelos usuários como phishing não são capturadas nos relatórios de simulação de simulação de ataque Exchange, pode haver uma regra de fluxo de emails (também conhecida como regra de transporte) que está bloqueando a entrega das mensagens relatadas para a Microsoft. Verifique se as regras de fluxo de emails não estão bloqueando a entrega para os seguintes endereços de email:
 
 - junk@office365.microsoft.com
 - abuse@messaging.microsoft.com
@@ -160,7 +160,7 @@ Dito isso, você pode criar sua própria carga no idioma de sua escolha usando a
 
 ### <a name="q-how-can-i-switch-to-other-languages-for-my-admin-portal-and-training-experience"></a>P: Como posso alternar para outros idiomas para meu portal de administração e experiência de treinamento?
 
-R: No Microsoft 365 ou Office 365, a configuração de idioma é específica e centralizada para cada conta de usuário. Para obter instruções sobre como alterar sua configuração de idioma, consulte Alterar seu idioma de exibição e fuso [horário no Microsoft 365 for Business](https://support.microsoft.com/office/6f238bff-5252-441e-b32b-655d5d85d15b).
+R: em Microsoft 365 ou Office 365, a configuração de idioma é específica e centralizada para cada conta de usuário. Para obter instruções sobre como alterar a configuração do idioma, consulte [Change your display language and time zone in Microsoft 365 for Business](https://support.microsoft.com/office/6f238bff-5252-441e-b32b-655d5d85d15b).
 
 Observe que a alteração de configuração pode levar até 30 minutos para ser sincronizada em todos os serviços.
 

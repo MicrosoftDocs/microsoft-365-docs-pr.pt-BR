@@ -23,7 +23,7 @@ ms.locfileid: "51199544"
 ---
 # <a name="identity-and-device-access-prerequisites-for-cloud-only-in-your-microsoft-365-test-environment"></a>Pré-requisitos de acesso ao dispositivo e identidade somente nuvem no seu ambiente de teste do Microsoft 365.
 
-*Este Guia de Laboratório de Teste só pode ser usado para o Microsoft 365 para ambientes de teste corporativos.*
+*Este Guia de Laboratório de Teste só pode ser usado para Microsoft 365 ambientes de teste corporativos.*
 
 [Configurações de identidade](../security/office-365-security/microsoft-365-policies-configurations.md) e acesso a dispositivos são um conjunto de configurações recomendadas e políticas de acesso condicional para proteger o acesso a todos os serviços integrados ao Azure Active Directory (Azure AD).
 
@@ -35,7 +35,7 @@ Existem oito fases para configurar este ambiente de teste:
 2. Configurar localizações nomeadas
 3. Configurar a redefinição de senha de autoatendimento
 4. Configurar autenticação multifatorial
-5. Habilitar o registro automático de dispositivo de computadores Windows ingressados no domínio
+5. Habilitar o registro automático de dispositivos de computadores Windows ingressados no domínio
 6. Configurar a proteção de senha do Azure AD 
 7. Habilitar o Azure AD Identity Protection
 8. Habilitar a autenticação moderna do Exchange Online e Skype for Business Online
@@ -79,7 +79,7 @@ Teste a autenticação multifator apenas para a conta de Usuário 2.
 
 ## <a name="phase-5-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>Fase 5: Habilitar o registro automático de dispositivos de computadores Windows ingressados no domínio 
 
-Siga [estas instruções para](/azure/active-directory/devices/hybrid-azuread-join-plan) habilitar o registro automático de dispositivos de computadores Windows ingressados no domínio.
+Siga [estas instruções para](/azure/active-directory/devices/hybrid-azuread-join-plan) habilitar o registro automático de dispositivos de computadores Windows de domínio.
 
 ## <a name="phase-6-configure-azure-ad-password-protection"></a>Fase 6: Configurar a proteção de senha do Azure AD 
 

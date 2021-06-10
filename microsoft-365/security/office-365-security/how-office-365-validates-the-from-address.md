@@ -15,7 +15,7 @@ search.appverid:
 ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 ms.collection:
 - M365-security-compliance
-description: Os administradores podem aprender sobre os tipos de endereços de email aceitos ou rejeitados pela Proteção do Exchange Online (EOP) e Outlook.com ajudar a evitar phishing.
+description: Os administradores podem aprender sobre os tipos de endereços de email aceitos ou rejeitados pelo Proteção do Exchange Online (EOP) e Outlook.com para ajudar a evitar phishing.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
@@ -35,7 +35,7 @@ ms.locfileid: "51202993"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Ataques de phishing são uma ameaça constante para qualquer organização de email. Além de usar endereços de email falsificados [(falsificados),](anti-spoofing-protection.md)os invasores geralmente usam valores no endereço From que violam os padrões da Internet. Para ajudar a evitar esse tipo de phishing, o Exchange Online Protection (EOP) e o Outlook.com agora exigem mensagens de entrada para incluir um endereço From compatível com RFC, conforme descrito neste artigo. Essa imposição foi habilitada em novembro de 2017.
+Ataques de phishing são uma ameaça constante para qualquer organização de email. Além de usar endereços de email falsificados [(falsificados),](anti-spoofing-protection.md)os invasores geralmente usam valores no endereço From que violam os padrões da Internet. Para ajudar a evitar esse tipo de phishing, o Proteção do Exchange Online (EOP) e o Outlook.com agora exigem mensagens de entrada para incluir um endereço From compatível com RFC conforme descrito neste artigo. Essa imposição foi habilitada em novembro de 2017.
 
 **Observações**:
 
@@ -90,7 +90,7 @@ Os seguintes endereços de email from são válidos:
 
 Os seguintes endereços de email são inválidos:
 
-- **Não Endereço De**: Algumas mensagens automatizadas não incluem um endereço From. No passado, quando o Microsoft 365 ou Outlook.com recebia uma mensagem sem um endereço From, o serviço adicionou o seguinte endereço padrão De: para tornar a mensagem entregue:
+- **Não Endereço De**: Algumas mensagens automatizadas não incluem um endereço From. No passado, quando Microsoft 365 ou Outlook.com recebia uma mensagem sem um endereço From, o serviço adicionou o seguinte endereço Padrão De: para tornar a mensagem entregue:
 
   `From: <>`
 
@@ -130,10 +130,10 @@ Para obter mais informações sobre como publicar um MX nulo, consulte [RFC 7505
 
 ## <a name="override-from-address-enforcement"></a>Substituir a imposição de endereço
 
-Para ignorar os requisitos de endereço From para email de entrada, você pode usar a Lista de IDs (filtragem de conexão) ou as regras de fluxo de emails (também conhecidas como regras de transporte), conforme descrito em Criar listas de remetentes seguros no [Microsoft 365](create-safe-sender-lists-in-office-365.md).
+Para ignorar os requisitos de endereço From para email de entrada, você pode usar a Lista de IDs (filtragem de conexão) ou as regras de fluxo de email (também conhecidas como regras de transporte) conforme descrito em Criar listas de remetentes seguros [no Microsoft 365](create-safe-sender-lists-in-office-365.md).
 
-Não é possível substituir os requisitos de endereço From para emails de saída que você envia do Microsoft 365. Além disso, Outlook.com permitirá substituições de qualquer tipo, mesmo por meio do suporte.
+Não é possível substituir os requisitos de endereço From para emails de saída que você envia de Microsoft 365. Além disso, Outlook.com não permitirá substituições de qualquer tipo, mesmo por meio do suporte.
 
-## <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-microsoft-365"></a>Outras maneiras de evitar e proteger contra crimes cibernéticos no Microsoft 365
+## <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-microsoft-365"></a>Outras maneiras de evitar e proteger contra crimes cibernéticos Microsoft 365
 
-Para obter mais informações sobre como fortalecer sua organização contra phishing, spam, violações de dados e outras ameaças, consulte [Top 10 ways to secure Microsoft 365 for business plans](../../admin/security-and-compliance/secure-your-business-data.md).
+Para obter mais informações sobre como fortalecer sua organização contra phishing, spam, violações de dados e outras ameaças, consulte Top [10 ways](../../admin/security-and-compliance/secure-your-business-data.md)to secure Microsoft 365 for business plans .

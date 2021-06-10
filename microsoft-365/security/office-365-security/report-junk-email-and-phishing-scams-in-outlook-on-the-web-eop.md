@@ -35,7 +35,7 @@ ms.locfileid: "52788302"
 
 Em organizações com caixas de correio em Exchange Online ou caixas [](../../enterprise/hybrid-modern-auth-overview.md)de correio locais usando autenticação moderna híbrida, você pode enviar falsos positivos (emails bons marcados como spam), falsos negativos (email ruim permitido) e mensagens de phishing para Proteção do Exchange Online (EOP). Microsoft 365
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 > [!IMPORTANT]
 > Recomendamos o complemento Mensagem de Relatório ou o complemento Relatar Phishing para envios de usuários. Para obter mais informações, [consulte Enable the Report Message or the Report Phishing add-ins](./enable-the-report-message-add-in.md). Não recomendamos a experiência interna de relatório no Outlook porque ela não pode usar a [política de envio do usuário.](./user-submission.md)
@@ -52,7 +52,7 @@ Em organizações com caixas de correio em Exchange Online ou caixas [](../../en
 
 Por padrão, os usuários podem relatar falsos positivos de spam, falsos negativos e mensagens de phishing para a Microsoft para análise Outlook na Web. Os administradores podem configurar Outlook nas políticas de caixa de correio da Web no Exchange Online PowerShell para impedir que os usuários reportem falsos positivos de spam e falsos negativos de spam para a Microsoft. Não é possível desabilitar a capacidade de os usuários relatarem mensagens de phishing à Microsoft.
 
-### <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+### <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
 

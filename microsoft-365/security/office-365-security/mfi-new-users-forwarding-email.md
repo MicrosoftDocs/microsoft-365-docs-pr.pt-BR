@@ -102,11 +102,11 @@ Se você selecionar uma linha da tabela, um **sobremenu de Detalhes** aparecerá
 
 - **Nome**: Este é o endereço de email do remetente (de Mostrar dados **para:** nova exibição de usuários de encaminhamento) ou o domínio de email do remetente (de Mostrar dados para: Novo exibição de **domínios** de encaminhamento).
 - **Tipo de encaminhamento**
-- **Recipient**
+- **Recipiente**
 - **Detalhes**
 - **Count**
 - **Data de início**
-- **Recomendação**: a partir daqui, você pode clicar no link para gerenciar o usuário no Centro de administração do Microsoft 365.
+- **Recomendação**: a partir daqui, você pode clicar no link para gerenciar o usuário no Microsoft 365 de administração.
 
 ![Detalhes do sobrevoo da tabela de detalhes da exibição Novos usuários de encaminhamento no relatório de modificações de encaminhamento](../../media/mfi-forwarding-modifications-report-new-forwarding-users-view-details-table-details.png)
 

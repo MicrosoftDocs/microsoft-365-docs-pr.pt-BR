@@ -31,7 +31,7 @@ ms.locfileid: "50925667"
 
 Este artigo descreve como funciona a des duplicação dos resultados da pesquisa de Descoberta EDiscovery e explica as limitações do algoritmo de des duplicação.
   
-Ao usar ferramentas de Descoberta Online para exportar os resultados de uma pesquisa de Descoberta Online, você tem a opção de des duplicar os resultados exportados. Cenário Quando você habilita a des duplicação (por padrão, a de duplicação não está habilitada), apenas uma cópia de uma mensagem de email é exportada, mesmo que várias instâncias da mesma mensagem possam ter sido encontradas nas caixas de correio que foram pesquisadas. A des duplicação ajuda você a economizar tempo reduzindo o número de itens que você precisa revisar e analisar depois que os resultados da pesquisa são exportados. Mas é importante entender como a duplicação funciona e estar ciente de que há limitações para o algoritmo que podem fazer com que um item exclusivo seja marcado como uma duplicata durante o processo de exportação.
+Ao usar ferramentas de Descoberta Online para exportar os resultados de uma pesquisa de Descoberta Online, você tem a opção de des duplicar os resultados exportados. O que isso significa? Quando você habilita a des duplicação (por padrão, a de duplicação não está habilitada), apenas uma cópia de uma mensagem de email é exportada, mesmo que várias instâncias da mesma mensagem possam ter sido encontradas nas caixas de correio que foram pesquisadas. A des duplicação ajuda você a economizar tempo reduzindo o número de itens que você precisa revisar e analisar depois que os resultados da pesquisa são exportados. Mas é importante entender como a duplicação funciona e estar ciente de que há limitações para o algoritmo que podem fazer com que um item exclusivo seja marcado como uma duplicata durante o processo de exportação.
   
 ## <a name="how-duplicate-messages-are-identified"></a>Como as mensagens duplicadas são identificadas
 
@@ -41,17 +41,17 @@ As ferramentas de Descoberta Eletrônico usam uma combinação das seguintes pro
 
 - **ConversationTopic** - Essa propriedade especifica o assunto do thread de conversa de uma mensagem. O valor da **propriedade ConversationTopic** é a cadeia de caracteres que descreve o tópico geral da conversa. Uma conservação consiste em uma mensagem inicial e todas as mensagens enviadas em resposta à mensagem inicial. As mensagens na mesma conversa têm o mesmo valor para a **propriedade ConversationTopic.** O valor dessa propriedade normalmente é a linha Subject da mensagem inicial que gerou a conversa. 
 
-- **BodyTagInfo** - Essa é uma propriedade interna do Exchange Store. O valor dessa propriedade é calculado verificando vários atributos no corpo da mensagem. Essa propriedade é usada para identificar diferenças no corpo das mensagens. 
+- **BodyTagInfo** - Essa é uma propriedade Exchange store interna. O valor dessa propriedade é calculado verificando vários atributos no corpo da mensagem. Essa propriedade é usada para identificar diferenças no corpo das mensagens. 
 
 Durante o processo de exportação da Descoberta EDiscovery, essas três propriedades são comparadas para cada mensagem que corresponde aos critérios de pesquisa. Se essas propriedades são idênticas para duas (ou mais) mensagens, essas mensagens são determinadas como duplicatas e o resultado é que apenas uma cópia da mensagem será exportada se a des duplicação estiver habilitada. A mensagem exportada é conhecida como "item de origem". As informações sobre mensagens duplicadas são incluídas nos relatórios **Results.csv** e **Manifest.xml** que estão incluídos nos resultados da pesquisa exportada. No arquivo **Results.csv,** uma mensagem duplicada é identificada por ter um valor na coluna **Duplicar para Item.** O valor nesta coluna corresponde ao valor na coluna **Identidade do Item** da mensagem que foi exportada. 
   
-Os gráficos a seguir mostram como  as mensagens duplicadas são exibidas nos relatóriosResults.csve **Manifest.xml** que são exportadas com os resultados da pesquisa. Esses relatórios não incluem as propriedades de email descritas anteriormente, que são usadas no algoritmo de des duplicação. Em vez disso, os relatórios **incluem** a propriedade Identidade do Item atribuída a itens pelo armazenamento do Exchange. 
+Os gráficos a seguir mostram como  as mensagens duplicadas são exibidas nos relatóriosResults.csve **Manifest.xml** que são exportadas com os resultados da pesquisa. Esses relatórios não incluem as propriedades de email descritas anteriormente, que são usadas no algoritmo de des duplicação. Em vez disso, os relatórios **incluem** a propriedade Identidade do Item atribuída aos itens pelo Exchange store. 
   
- ### <a name="resultscsv-report-viewed-in-excel"></a>Results.csv relatório (exibido no Excel)
+ ### <a name="resultscsv-report-viewed-in-excel"></a>Results.csv relatório (exibido em Excel)
   
 ![Exibindo informações sobre itens duplicados no Results.csv relatório](../media/e3d64004-3b91-4cba-b6f3-934b46cbdcdb.png)
   
- ### <a name="manifestxml-report-viewed-in-excel"></a>Manifest.xml relatório (exibido no Excel)
+ ### <a name="manifestxml-report-viewed-in-excel"></a>Manifest.xml relatório (exibido em Excel)
   
 ![Exibindo informações sobre itens duplicados no Manifest.xml relatório](../media/69aa4786-9883-46ff-bcae-b35e0daf4a6d.png)
   
@@ -72,7 +72,7 @@ As mensagens exclusivas também podem ser marcadas como duplicatas quando o recu
 
 - As informações neste artigo são aplicáveis ao exportar resultados de pesquisa usando uma das seguintes ferramentas de Descoberta e:
 
-  - Pesquisa de conteúdo no centro de conformidade no Office 365
+  - Pesquisa de conteúdo no centro de conformidade Office 365
 
   - Descoberta Eletrônica In-loco no Exchange Online
 

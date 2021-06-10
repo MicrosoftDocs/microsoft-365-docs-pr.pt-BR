@@ -45,14 +45,14 @@ ms.locfileid: "51187376"
 | [Listar MachineActions](get-machineactions-collection.md)           | [Ação do Computador](machineaction.md) | Listar [entidades de ação](machineaction.md) do computador.           |
 | [Obter MachineAction](get-machineaction-object.md)                  | [Ação do Computador](machineaction.md) | Obter uma única [entidade ação do](machineaction.md) computador.     |
 | [Coletar pacote de investigação](collect-investigation-package.md) | [Ação do Computador](machineaction.md) | Coletar pacote de investigação de um [computador](machine.md). |
-| [Obter URI do pacote de investigação SAS](get-package-sas-uri.md)       | [Ação do Computador](machineaction.md) | Obter URI para baixar o pacote de investigação.          |
-| [Isolar máquina](isolate-machine.md)                             | [Ação do Computador](machineaction.md) | Isolar [o computador](machine.md) da rede.                 |
-| [Liberar máquina de isolamento](unisolate-machine.md)            | [Ação do Computador](machineaction.md) | Liberar [máquina](machine.md) do Isolamento.               |
-| [Restringir a execução do aplicativo](restrict-code-execution.md)              | [Ação do Computador](machineaction.md) | Restringir a execução do aplicativo.                             |
+| [Obter URI SAS do pacote de investigação](get-package-sas-uri.md)       | [Ação do Computador](machineaction.md) | Obter URI para baixar o pacote de investigação.          |
+| [Isolar computador](isolate-machine.md)                             | [Ação do Computador](machineaction.md) | Isolar [o computador](machine.md) da rede.                 |
+| [Liberar computador do isolamento](unisolate-machine.md)            | [Ação do Computador](machineaction.md) | Liberar [máquina](machine.md) do Isolamento.               |
+| [Restringir execução de aplicativo](restrict-code-execution.md)              | [Ação do Computador](machineaction.md) | Restringir a execução do aplicativo.                             |
 | [Remover restrição de aplicativo](unrestrict-code-execution.md)            | [Ação do Computador](machineaction.md) | Remover restrição de execução do aplicativo.                   |
-| [Executar verificação antivírus](run-av-scan.md)                              | [Ação do Computador](machineaction.md) | Execute uma verificação av usando Windows Defender (quando aplicável).    |
-| [Máquina de offboard](offboard-machine-api.md)                       | [Ação do Computador](machineaction.md) | Máquina de [offboard](machine.md) do Microsoft Defender para Ponto de Extremidade. |
-| [Arquivo stop and quarantine](stop-and-quarantine-file.md)           | [Ação do Computador](machineaction.md) | Pare a execução de um arquivo em um computador e exclua-o.        |
+| [Executar verificação de antivírus](run-av-scan.md)                              | [Ação do Computador](machineaction.md) | Execute uma verificação av usando Windows Defender (quando aplicável).    |
+| [Remover computador](offboard-machine-api.md)                       | [Ação do Computador](machineaction.md) | Máquina de [offboard](machine.md) do Microsoft Defender para Ponto de Extremidade. |
+| [Interromper e colocar o arquivo em quarentena](stop-and-quarantine-file.md)           | [Ação do Computador](machineaction.md) | Pare a execução de um arquivo em um computador e exclua-o.        |
 
 <br>
 

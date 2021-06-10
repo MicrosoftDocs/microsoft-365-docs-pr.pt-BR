@@ -1,7 +1,7 @@
 ---
 title: Tabela DeviceProcessEvents no esquema de busca avançado
 description: Saiba mais sobre os eventos de desova ou criação de processos no DeviceProcessEventstable do esquema de busca avançado
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, processcreationevents, DeviceProcessEvents, id de processo, linha de comando, DeviceProcessEvents
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, processcreationevents, DeviceProcessEvents, id do processo, linha de comando, DeviceProcessEvents
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -65,7 +65,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `ProcessVersionInfoFileDescription` | cadeia de caracteres | Descrição das informações de versão do processo recém-criado |
 | `ProcessId` | int | ID do processo (PID) do processo recém-criado |
 | `ProcessCommandLine` | cadeia de caracteres | Linha de comando usada para criar o novo processo |
-| `ProcessIntegrityLevel` | cadeia de caracteres | Nível de integridade do processo recém-criado. O Windows atribui níveis de integridade a processos com base em determinadas características, como se eles foram lançados de uma internet baixada. Esses níveis de integridade influenciam permissões para recursos |
+| `ProcessIntegrityLevel` | cadeia de caracteres | Nível de integridade do processo recém-criado. Windows atribui níveis de integridade a processos com base em determinadas características, como se eles foram lançados de uma internet baixada. Esses níveis de integridade influenciam permissões para recursos |
 | `ProcessTokenElevation` | cadeia de caracteres | Indica o tipo de elevação de token aplicada ao processo recém-criado. Valores possíveis: TokenElevationTypeLimited (restrito), TokenElevationTypeDefault (padrão) e TokenElevationTypeFull (elevado) |
 | `ProcessCreationTime` | datetime | Data e hora em que o processo foi criado |
 | `AccountDomain` | cadeia de caracteres | Domínio da conta |
@@ -80,7 +80,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `InitiatingProcessAccountUpn` | cadeia de caracteres | Nome principal do usuário (UPN) da conta que correu o processo responsável pelo evento |
 | `InitiatingProcessAccountObjectId` | cadeia de caracteres | ID do objeto do Azure AD da conta de usuário que correu o processo responsável pelo evento |
 | `InitiatingProcessLogonId` | cadeia de caracteres | Identificador de uma sessão de logon do processo que iniciou o evento. Esse identificador é exclusivo no mesmo computador somente entre reinicializações. |
-| `InitiatingProcessIntegrityLevel` | cadeia de caracteres | Nível de integridade do processo que iniciou o evento. O Windows atribui níveis de integridade a processos com base em determinadas características, como se eles foram lançados a partir de um download da Internet. Esses níveis de integridade influenciam permissões para recursos |
+| `InitiatingProcessIntegrityLevel` | cadeia de caracteres | Nível de integridade do processo que iniciou o evento. Windows atribui níveis de integridade a processos com base em determinadas características, como se eles foram lançados de um download da Internet. Esses níveis de integridade influenciam permissões para recursos |
 | `InitiatingProcessTokenElevation` | cadeia de caracteres | Tipo de token que indica a presença ou ausência da elevação de privilégio de Controle de Acesso para Usuário (UAC) aplicada ao processo que iniciou o evento |
 | `InitiatingProcessSHA1` | cadeia de caracteres | SHA-1 do processo (arquivo de imagem) que iniciou o evento |
 | `InitiatingProcessSHA256` | cadeia de caracteres | SHA-256 do processo (arquivo de imagem) que iniciou o evento. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |

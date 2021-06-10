@@ -25,11 +25,11 @@ Depois de definir [políticas](information-barriers-policies.md)de barreira de i
 
 ## <a name="what-do-you-want-to-do"></a>O que você deseja fazer?
 
-|**Ação**|**Descrição**|
+|**Action**|**Descrição**|
 |:---------|:--------------|
-| [Editar atributos de conta de usuário](#edit-user-account-attributes) | Preencha atributos no Azure Active Directory que podem ser usados para definir segmentos.<br/>Edite atributos de conta de usuário quando os usuários não estão incluídos em segmentos em que devem estar, para alterar em quais segmentos os usuários estão ou para definir segmentos usando atributos diferentes. |
-| [Editar um segmento](#edit-a-segment) | Edite segmentos quando quiser alterar como um segmento é definido. <br/>Por exemplo, você pode ter definido originalmente segmentos usando *o Departamento* e agora deseja usar outro atributo, como *MemberOf*. |
-| [Editar uma política](#edit-a-policy) | Edite uma política de barreira de informações quando quiser alterar como uma política funciona.<br/>Por exemplo, em vez de bloquear comunicações entre dois segmentos, você pode decidir que deseja permitir que as comunicações ocorram apenas entre determinados segmentos. |
+| [Editar atributos de conta do usuário](#edit-user-account-attributes) | Preencha atributos em Azure Active Directory que podem ser usados para definir segmentos.<br/>Editar atributos de conta do usuário quando os usuários não estão incluídos em segmentos nos quais deveriam estar, alterar os segmentos em que os usuários estão ou definir segmentos usando atributos diferentes. |
+| [Editar um segmento](#edit-a-segment) | Editar segmentos quando você deseja alterar a definição de um segmento. <br/>Por exemplo, você pode ter definido originalmente segmentos usando *o Departamento* e agora deseja usar outro atributo, como *MemberOf*. |
+| [Editar uma política](#edit-a-policy) | Editar uma política de barreira de informações quando você deseja alterar como uma política funciona.<br/>Por exemplo, em vez de bloquear comunicações entre dois segmentos, você pode decidir que deseja permitir que as comunicações ocorram apenas entre determinados segmentos. |
 | [Definir uma política como status inativo](#set-a-policy-to-inactive-status) |De definir uma política como status inativo quando você quiser fazer alterações em uma política ou quando você não quiser que uma política entre em vigor. |
 | [Remover uma política](#remove-a-policy) | Remova uma política de barreira de informações quando você não precisar mais de uma política específica. |
 | [Interromper um aplicativo de política](#stop-a-policy-application) | Tome essa ação quando quiser interromper o processo de aplicação de políticas de barreira de informações.<br/> Parar um aplicativo de política não é instantâneo e não desfaz políticas que já são aplicadas aos usuários. |
@@ -37,9 +37,9 @@ Depois de definir [políticas](information-barriers-policies.md)de barreira de i
 | [Solução de problemas de barreiras de informações](information-barriers-troubleshooting.md) | Consulte este artigo quando você tem problemas inesperados com barreiras de informações. |
 
 > [!IMPORTANT]
-> Para executar as tarefas descritas neste artigo, você deve ter uma função apropriada, como uma das seguintes:<br/>– Administrador Global do Microsoft 365 Enterprise<br/>- Administrador Global<br/>- Administrador de Conformidade<br/>- Gerenciamento de Conformidade do IB (esta é uma nova função!)<br><br>Para saber mais sobre os pré-requisitos para barreiras de informações, consulte [Prerequisites (para políticas de](information-barriers-policies.md#prerequisites)barreira de informações) .<br><br> Certifique-se [de se conectar ao Centro de Conformidade & Segurança do PowerShell](/powershell/exchange/connect-to-scc-powershell).
+> Para executar as tarefas descritas neste artigo, você deve ter uma função apropriada, como uma das seguintes:<br/>- Microsoft 365 Enterprise Administrador Global<br/>- Administrador Global<br/>- Administrador de Conformidade<br/>- Gerenciamento de Conformidade do IB (esta é uma nova função!)<br><br>Para saber mais sobre os pré-requisitos para barreiras de informações, consulte [Prerequisites (para políticas de](information-barriers-policies.md#prerequisites)barreira de informações) .<br><br> Certifique-se [de se conectar ao Centro de Conformidade & Segurança do PowerShell](/powershell/exchange/connect-to-scc-powershell).
 
-## <a name="edit-user-account-attributes"></a>Editar atributos de conta de usuário
+## <a name="edit-user-account-attributes"></a>Editar atributos de conta do usuário
 
 Use este procedimento para editar atributos usados para segmentar usuários. Por exemplo, se você estiver usando um atributo Department e uma ou mais contas de usuário não tiver valores listados para o Departamento, você deverá editar essas contas de usuário para incluir informações do Departamento. Os atributos da conta de usuário são usados para definir segmentos para que as políticas de barreira de informações possam ser atribuídas.
 

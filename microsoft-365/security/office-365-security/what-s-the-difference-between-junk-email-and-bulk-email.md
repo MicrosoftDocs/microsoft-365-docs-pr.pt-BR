@@ -16,7 +16,7 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem aprender sobre as diferenças entre lixo eletrônico (spam) e email em massa (email cinza) no Exchange Online Protection (EOP).
+description: Os administradores podem aprender sobre as diferenças entre lixo eletrônico (spam) e email em massa (email cinza) no Proteção do Exchange Online (EOP).
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: fc9c94946c3da2f9a14f45070a86c557a5c7dc85
@@ -35,7 +35,7 @@ ms.locfileid: "51203413"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Em organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, os clientes às vezes perguntam: "Qual é a diferença entre lixo eletrônico e email em massa?" Este tópico explica a diferença e descreve os controles disponíveis no EOP.
+Em organizações Microsoft 365 com caixas de correio em organizações Exchange Online ou autônomas do Proteção do Exchange Online (EOP) sem caixas de correio Exchange Online, os clientes às vezes questionam: "Qual é a diferença entre lixo eletrônico e email em massa?" Este tópico explica a diferença e descreve os controles disponíveis no EOP.
 
 - **Lixo eletrônico** é spam, que são mensagens não solicitadas e universalmente indesejadas (quando identificadas corretamente). Por padrão, o EOP rejeita spam com base na reputação do servidor de email de origem. Se uma mensagem passar na inspeção de IP de origem, ela será enviada para filtragem de spam. Se a mensagem for classificada como spam por filtragem de spam, a mensagem será (por padrão) entregue aos destinatários pretendido e movida para sua pasta Lixo Eletrônico.
 

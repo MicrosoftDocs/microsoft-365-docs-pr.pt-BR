@@ -69,12 +69,12 @@ O painel de fluxo de emails está disponível para membros dos seguintes grupos 
 
 - **Gerenciamento da** organização no Centro de Conformidade & segurança (administradores globais).
 
-- **[Administrador do Exchange](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** no Azure Active Directory.
+- **[Exchange Administrador](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** em Azure Active Directory.
 
-- **Administrador do MailFlow** no Centro de Conformidade & Segurança. Se a conta também não for membro dos grupos de função Gerenciamento da Organização ou Administrador do Exchange, considere os seguintes problemas:
+- **Administrador do MailFlow** no Centro de Conformidade & Segurança. Se a conta também não for membro dos grupos de função gerenciamento da organização ou Exchange administrador, considere os seguintes problemas:
   - O usuário deve entrar no Centro de Conformidade & segurança diretamente em <https://protection.office.com> .
   - O usuário só terá permissão somente leitura para o painel de fluxo de email.
-  - O usuário não terá acesso ao centro de administração do Microsoft 365.
+  - O usuário não terá acesso ao Microsoft 365 de administração.
 
 Para obter mais informações sobre permissões, consulte [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md) and Give users access to the Security & Compliance [Center](grant-access-to-the-security-and-compliance-center.md).
 

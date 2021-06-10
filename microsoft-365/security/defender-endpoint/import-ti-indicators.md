@@ -51,7 +51,7 @@ Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   Ti.ReadWrite |  'Indicadores de leitura e gravação'
 Aplicativo |   Ti.ReadWrite.All |  'Ler e gravar Todos os Indicadores'
-Delegada (conta corporativa ou de estudante) |    Ti.ReadWrite |  'Indicadores de leitura e gravação'
+Delegado (conta corporativa ou de estudante) |    Ti.ReadWrite |  'Indicadores de leitura e gravação'
 
 
 ## <a name="http-request"></a>Solicitação HTTP

@@ -21,18 +21,18 @@ ms.locfileid: "52023256"
 ---
 # <a name="localize-the-user-experience"></a>Localizar a experiência do usuário
 
-Os usuários de dispositivos da Área de Trabalho Gerenciada da Microsoft podem selecionar o idioma de sua escolha durante o processo de instalação (a "experiência fora da caixa") ou posteriormente.
+Os usuários Área de Trabalho Gerenciada da Microsoft dispositivos podem selecionar o idioma de sua escolha durante o processo de instalação (a "experiência fora da caixa") ou depois.
 
 ## <a name="during-setup-the-out-of-box-experience"></a>Durante a instalação (a "experiência fora da caixa")
 
 Durante o processo de conclusão da instalação, os usuários podem selecionar o idioma de sua escolha. Essa seleção afeta esses atributos:
 
-- Recursos de idioma do Windows 10:
+- Windows 10 recursos de idioma:
     - Idioma de exibição
     - Idioma do teclado
     - Recursos relacionados ao idioma sob demanda
 
-- Recursos de idioma do Microsoft 365 Apps for Enterprise:
+- Microsoft 365 Apps para recursos Enterprise idioma:
     - Idioma de exibição
     - Revisa e ferramentas de autoria
 
@@ -41,17 +41,17 @@ Durante o processo de conclusão da instalação, os usuários podem selecionar 
 
 ## <a name="after-completing-setup"></a>Depois de concluir a instalação
 
-Os usuários podem selecionar o idioma de sua escolha para o Windows 10 e o Microsoft 365 Apps para Empresas a qualquer momento após a conclusão do processo de instalação. Especificamente:
+Os usuários podem selecionar o idioma de sua escolha para Windows 10 e Microsoft 365 Apps para Enterprise a qualquer momento após a conclusão do processo de instalação. Especificamente:
 
-- Recursos de idioma do Windows 10:
+- Windows 10 recursos de idioma:
     - Idioma de exibição
     - Idioma do teclado
 
-- Recursos de idioma do Microsoft 365 Apps for Enterprise:
+- Microsoft 365 Apps para recursos Enterprise idioma:
     - Idioma de exibição
     - Revisa e ferramentas de autoria
 
-Para disponibilizar os idiomas com suporte para o Microsoft 365 Apps for Enterprise para os usuários, adicione os usuários ao grupo Moderno **Workplace-Office-Language_Packs.** [](#supported-languages) Os idiomas estarão disponíveis no Portal da Empresa do Intune.
+Para disponibilizar os idiomas com suporte para Microsoft 365 Apps para Enterprise para os usuários instalarem, adicione os usuários ao grupo **Moderno workplace-Office-Language_Packs.** [](#supported-languages) Os idiomas estarão disponíveis no Portal da Empresa do Intune.
 
 
 ## <a name="supported-languages"></a>Idiomas compatíveis
@@ -60,7 +60,7 @@ Para novos dispositivos, o fabricante deve fornecer imagens de dispositivo que i
 
 Se você estiver reutilando dispositivos existentes, talvez seja necessário trabalhar com seu representante de conta da Microsoft para obter imagens apropriadas. Para obter mais informações, consulte [Imagens do dispositivo](../service-description/device-images.md).
 
-A [imagem universal](../service-description/device-images.md#universal-image) fornecida pela Área de Trabalho Gerenciada da Microsoft inclui esses idiomas e para o Windows 10:
+A [imagem universal](../service-description/device-images.md#universal-image) fornecida pelo Área de Trabalho Gerenciada da Microsoft inclui esses idiomas e Windows 10:
 
 - Árabe
 - Búlgaro
@@ -100,18 +100,18 @@ A [imagem universal](../service-description/device-images.md#universal-image) fo
 - Ucraniano
 - Vietnamita
 
-O Microsoft 365 Apps for Enterprise pode dar suporte a uma lista ligeiramente diferente.
+Microsoft 365 Apps para Enterprise pode dar suporte a uma lista ligeiramente diferente.
 
 Se os usuários precisarem de um idioma diferente dos listados aqui, arquivar uma solicitação de [suporte](../working-with-managed-desktop/admin-support.md) usando o [portal administrador](access-admin-portal.md).
 
 ## <a name="languages-for-support-and-operations"></a>Idiomas para suporte e operações
 
 ### <a name="user-support"></a>Suporte ao usuário
-A Área de Trabalho Gerenciada da Microsoft oferece suporte somente em inglês. Se os usuários escolherem outro idioma no aplicativo Obter Ajuda, eles receberão suporte dos canais de suporte gerais da Microsoft, em vez de suportar diretamente da Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, consulte [Obter ajuda para usuários](../working-with-managed-desktop/end-user-support.md).
+Área de Trabalho Gerenciada da Microsoft oferece suporte somente em inglês. Se os usuários escolherem outro idioma no aplicativo Obter Ajuda, eles receberão suporte dos canais de suporte gerais da Microsoft, em vez de dar suporte diretamente Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, consulte [Obter ajuda para usuários](../working-with-managed-desktop/end-user-support.md).
 
 Se os usuários precisarem de suporte em outros idiomas, você precisará fornecer isso por meio de fontes de suporte que não são da Microsoft ou de sua própria organização.
 
 ### <a name="admin-support-and-operations"></a>Suporte e operações do administrador
-A Área de Trabalho Gerenciada da Microsoft fornece suporte ao administrador somente em inglês. Isso inclui o portal de administração e todas as comunicações com as Operações de Área de Trabalho Gerenciadas da Microsoft. Você deve presumir que todas as interações e interfaces relacionadas ao administrador estarão em inglês, a menos que especificado de outra forma.
+Área de Trabalho Gerenciada da Microsoft oferece suporte ao administrador somente em inglês. Isso inclui o portal administrador e todas as comunicações com Área de Trabalho Gerenciada da Microsoft Operations. Você deve presumir que todas as interações e interfaces relacionadas ao administrador estarão em inglês, a menos que especificado de outra forma.
 
 

@@ -53,7 +53,7 @@ Quando você clica no número de mensagens no widget, um painel de sub-texto é 
 
 ![Submenu de detalhes para o relatório de mensagens encaminhadas automaticamente no Centro de Conformidade & Segurança](../../media/mfi-auto-forwarded-messages-details.png)
 
-## <a name="insights"></a>Percepções
+## <a name="insights"></a>Insights
 
 Duas percepções são geradas com base nos dados do relatório:
 

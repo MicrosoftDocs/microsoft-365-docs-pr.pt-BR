@@ -16,7 +16,7 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Este artigo fornece informações de solução de problemas para problemas de envio de email para caixas de entrada no Microsoft 365 & práticas recomendadas para envio em massa para clientes do Microsoft 365.
+description: Este artigo fornece informações de solução de problemas para problemas com o envio de emails para caixas de entrada em Microsoft 365 & práticas recomendadas para envio em massa para Microsoft 365 clientes.
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: c3017b0e7d0c583c9038f695f9f47010ff92c18a
@@ -34,11 +34,11 @@ ms.locfileid: "51203127"
 - [Proteção do Exchange Online](exchange-online-protection-overview.md)
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 
-Este artigo fornece informações de solução de problemas para os envios que estão enfrentando problemas ao tentar enviar emails para caixas de entrada no Microsoft 365 e práticas recomendadas para envio em massa para clientes.
+Este artigo fornece informações de solução de problemas para os envios que estão enfrentando problemas ao tentar enviar emails para caixas de entrada em Microsoft 365 e práticas recomendadas para envio em massa para clientes.
 
 ## <a name="are-you-managing-your-ip-and-domains-sending-reputation"></a>Você está gerenciando a reputação de envio de IP e domínio?
 
-As tecnologias de filtragem do EOP foram projetadas para fornecer proteção anti-spam para o Microsoft 365, bem como para outros produtos da Microsoft, como Exchange Server. Também aproveitamos SPF, DKIM e DMARC; tecnologias de autenticação de email que ajudam a resolver o problema de spoofing e phishing verificando se o domínio que está enviando o email está autorizado a fazer isso. A filtragem de EOP é influenciada por vários fatores relacionados ao envio de IP, domínio, autenticação, precisão de lista, taxas de reclamações, conteúdo e muito mais. Destes, um dos principais fatores para derrubar a reputação de um remetente e sua capacidade de entregar emails é a taxa de reclamações de lixo eletrônico.
+As tecnologias de filtragem do EOP foram projetadas para fornecer proteção anti-spam para Microsoft 365, bem como outros produtos da Microsoft, como Exchange Server. Também aproveitamos SPF, DKIM e DMARC; tecnologias de autenticação de email que ajudam a resolver o problema de spoofing e phishing verificando se o domínio que está enviando o email está autorizado a fazer isso. A filtragem de EOP é influenciada por vários fatores relacionados ao envio de IP, domínio, autenticação, precisão de lista, taxas de reclamações, conteúdo e muito mais. Destes, um dos principais fatores para derrubar a reputação de um remetente e sua capacidade de entregar emails é a taxa de reclamações de lixo eletrônico.
 
 ## <a name="are-you-sending-email-from-new-ip-addresses"></a>Você está enviando emails de novos endereços IP?
 
@@ -58,11 +58,11 @@ Podemos não aceitar emails de senders que falham em uma olhada dns reversa. Em 
 - 10.0.0.0/8 (ou 10.0.0.0 - 10.255.255.255)
 - 172.16.0.0/11 (ou 172.16.0.0 - 172.31.255.255)
 
-## <a name="you-received-a-non-delivery-report-ndr-when-sending-email-to-a-user-in-office-365"></a>Você recebeu um relatório de não entrega (NDR) ao enviar emails para um usuário no Office 365
+## <a name="you-received-a-non-delivery-report-ndr-when-sending-email-to-a-user-in-office-365"></a>Você recebeu um relatório de não entrega (NDR) ao enviar emails para um usuário em Office 365
 
 Alguns problemas de entrega são o resultado do endereço IP do remetente ser bloqueado pela Microsoft ou porque a conta de usuário é identificada como remetente proibido devido à atividade de spam anterior. Se você acredita que recebeu a NDR por erro, primeiro siga as instruções na mensagem NDR para resolver o problema.
 
-Para obter mais informações sobre o erro recebido, consulte a lista de códigos de erro em Relatórios de email que não são de [entrega no Exchange Online](/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online).
+Para obter mais informações sobre o erro recebido, consulte a lista de códigos de erro em Relatórios de não entrega de email [em Exchange Online](/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online).
 
  Por exemplo, se você receber a seguinte NDR, ele indicará que o endereço IP de envio foi bloqueado pela Microsoft:
 
@@ -82,13 +82,13 @@ Se você receber uma NDR do EOP que indica que seu endereço IP está sendo acel
 
 Você recebeu a NDR porque atividades suspeitas foram detectadas a partir do endereço IP e ela foi temporariamente restrita enquanto ela está sendo avaliada ainda mais. Se a suspeita for limpa por meio da avaliação, essa restrição será suspensa em breve.
 
-## <a name="i-cant-receive-email-from-senders-in-microsoft-365"></a>Não posso receber emails de envios no Microsoft 365
+## <a name="i-cant-receive-email-from-senders-in-microsoft-365"></a>Não posso receber emails de Microsoft 365
 
- Para receber mensagens de nossos usuários, certifique-se de que sua rede permita conexões dos endereços IP que o EOP usa em nossos datacenters. Para obter mais informações, consulte [Endereços IP da Proteção do Exchange Online](../../enterprise/urls-and-ip-address-ranges.md).
+ Para receber mensagens de nossos usuários, certifique-se de que sua rede permita conexões dos endereços IP que o EOP usa em nossos datacenters. Para obter mais informações, [consulte Proteção do Exchange Online endereços IP](../../enterprise/urls-and-ip-address-ranges.md).
 
-## <a name="best-practices-for-bulk-emailing-to-microsoft-365-users"></a>Práticas recomendadas para envio em massa de emails para usuários do Microsoft 365
+## <a name="best-practices-for-bulk-emailing-to-microsoft-365-users"></a>Práticas recomendadas para envio em massa de emails para Microsoft 365 usuários
 
-Se você geralmente conduz campanhas de email em massa para usuários do Microsoft 365 e deseja garantir que seus emails cheguem de forma segura e em tempo hábil, siga as dicas nesta seção.
+Se você geralmente conduz campanhas de email em massa para Microsoft 365 usuários e deseja garantir que seus emails cheguem de forma segura e em tempo hábil, siga as dicas nesta seção.
 
 ### <a name="ensure-that-the-from-name-reflects-who-is-sending-the-message"></a>Verifique se o nome De reflete quem está enviando a mensagem
 

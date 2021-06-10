@@ -30,9 +30,9 @@ ms.locfileid: "51203285"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-O  relatório de domínio não [](mail-flow-insights-v2.md) aceito no painel fluxo de emails no Centro de Conformidade e Segurança exibe informações sobre mensagens da sua organização de email local onde o domínio do remetente não está configurado como um domínio aceito em sua organização do Microsoft 365. [&](https://protection.office.com)
+O  relatório de domínio não [](mail-flow-insights-v2.md) aceito no painel de fluxo de emails no Centro de Conformidade e Segurança exibe informações sobre mensagens da sua organização de email local onde o domínio do remetente não está configurado como um domínio aceito em sua organização Microsoft 365 local. [&](https://protection.office.com)
 
-O Microsoft 365 pode acelerar essas mensagens se temos dados para provar que a intenção dessas mensagens é mal-intencionada. Portanto, é importante que você entenda o que está acontecendo e corrige o problema.
+Microsoft 365 pode acelerar essas mensagens se temos dados para provar que a intenção dessas mensagens é mal-intencionada. Portanto, é importante que você entenda o que está acontecendo e corrige o problema.
 
 ![Widget de domínio não aceito no painel de fluxo de emails no Centro de Conformidade & Segurança](../../media/mfi-non-accepted-domain-report-widget.png)
 

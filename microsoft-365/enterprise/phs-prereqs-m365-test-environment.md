@@ -23,11 +23,11 @@ ms.locfileid: "51199436"
 ---
 # <a name="identity-and-device-access-prerequisites-for-password-hash-synchronization-in-your-microsoft-365-test-environment"></a>Pré-requisitos de acesso a identidades e dispositivos para sincronização de hash de senha no seu ambiente de teste do Microsoft 365
 
-*Este Guia de Laboratório de Teste só pode ser usado para o Microsoft 365 para ambientes de teste corporativos.*
+*Este Guia de Laboratório de Teste só pode ser usado para Microsoft 365 ambientes de teste corporativos.*
 
-Configurações de identidade e acesso a dispositivos são um conjunto de configurações e políticas de acesso condicional para proteger o acesso a todos os serviços no Microsoft 365 para empresas [integrados](../security/office-365-security/microsoft-365-policies-configurations.md) ao Azure Active Directory (Azure AD).
+[Configurações de](../security/office-365-security/microsoft-365-policies-configurations.md) identidade e acesso a dispositivos são um conjunto de configurações e políticas de acesso condicional para proteger o acesso a todos os serviços no Microsoft 365 para empresas integrados ao Azure Active Directory (Azure AD).
 
-Este artigo descreve como configurar um ambiente de teste do Microsoft 365 que atenda aos requisitos do híbrido com configuração de [pré-requisito](../security/office-365-security/identity-access-prerequisites.md#prerequisites) de autenticação de sincronização de hash de senha para acesso à identidade e ao dispositivo.
+Este artigo descreve como configurar um ambiente de teste Microsoft 365 que atenda aos requisitos do híbrido com a configuração de [pré-requisito](../security/office-365-security/identity-access-prerequisites.md#prerequisites) de autenticação de sincronização de hash de senha para acesso à identidade e ao dispositivo.
 
 Há dez fases para configurar esse ambiente de teste:
 
@@ -37,7 +37,7 @@ Há dez fases para configurar esse ambiente de teste:
 4. Configurar o write-back de senha
 5. Configurar redefinição de senha de autoatendimento para todas as contas de usuário
 6. Configurar autenticação multifator para todas as contas de usuário
-7. Habilitar o registro automático de dispositivo de computadores Windows ingressados no domínio
+7. Habilitar o registro automático de dispositivos de computadores Windows ingressados no domínio
 8. Configurar a proteção de senha do Azure AD 
 9. Habilitar o Azure AD Identity Protection
 10. Habilite a autenticação moderna para o Exchange Online e o Skype for Business Online
@@ -89,7 +89,7 @@ Teste a autenticação multifator apenas para a conta de Usuário 2.
 
 ## <a name="phase-7-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>Fase 7: Habilitar o registro automático de dispositivos de computadores Windows ingressados no domínio 
 
-Siga [estas instruções para](/azure/active-directory/devices/hybrid-azuread-join-plan) habilitar o registro automático de dispositivos de computadores Windows ingressados no domínio.
+Siga [estas instruções para](/azure/active-directory/devices/hybrid-azuread-join-plan) habilitar o registro automático de dispositivos de computadores Windows de domínio.
 
 ## <a name="phase-8-configure-azure-ad-password-protection"></a>Fase 8: Configurar a proteção de senha do Azure AD 
 
@@ -99,7 +99,7 @@ Siga [estas instruções para](/azure/active-directory/authentication/concept-pa
 
 Siga as instruções em [Fase 2 Azure AD Identity Protection do Guia do Laboratório de Teste](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection). 
 
-## <a name="phase-10-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>Fase 10: Habilitar a autenticação moderna para o Exchange Online e o Skype for Business Online
+## <a name="phase-10-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>Fase 10: Habilitar a autenticação moderna para Exchange Online e Skype for Business Online
 
 Para o Exchange Online, siga [estas instruções](/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online#enable-or-disable-modern-authentication-in-exchange-online-for-client-connections-in-outlook-2013-or-later). 
 

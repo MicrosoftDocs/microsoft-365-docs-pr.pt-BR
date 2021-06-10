@@ -1,5 +1,5 @@
 ---
-title: Colocar uma In-Place em uma caixa de correio excluída de forma suave no Exchange Online
+title: Colocar uma In-Place em uma caixa de correio excluída de forma Exchange Online
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -21,21 +21,21 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50925517"
 ---
-# <a name="put-an-in-place-hold-on-a-soft-deleted-mailbox-in-exchange-online"></a>Colocar uma In-Place em uma caixa de correio excluída de forma suave no Exchange Online
+# <a name="put-an-in-place-hold-on-a-soft-deleted-mailbox-in-exchange-online"></a>Colocar uma In-Place em uma caixa de correio excluída de forma Exchange Online
 
 Saiba como criar um In-Place para uma caixa de correio excluída de forma suave para torná-la inativa e preservar seu conteúdo. Em seguida, você pode usar as ferramentas de Descoberta Eletrônico da Microsoft para pesquisar a caixa de correio inativa.
 
 > [!IMPORTANT]
-> À medida que continuamos a investir em diferentes maneiras de preservar o conteúdo da caixa de correio, anunciamos a In-Place Detém no Centro de administração do Exchange (EAC). A partir de 1º de julho de 2020, você não poderá criar novos In-Place no Exchange Online. Mas você ainda poderá gerenciar o In-Place no EAC ou usando o cmdlet **Set-MailboxSearch** no PowerShell do Exchange Online. No entanto, a partir de 1º de outubro de 2020, você não poderá gerenciar In-Place Holds. Você só os removerá no EAC ou usando o cmdlet **Remove-MailboxSearch.** Para obter mais informações sobre a aposentadoria de In-Place Detém, consulte A aposentadoria de ferramentas [de Descoberta eDiscovery herdado.](legacy-ediscovery-retirement.md)
+> À medida que continuamos a investir em diferentes maneiras de preservar o conteúdo da caixa de correio, anunciamos a ressarção do In-Place Holds no centro de administração Exchange (EAC). A partir de 1º de julho de 2020, você não poderá criar novos In-Place de Exchange Online. Mas você ainda poderá gerenciar os In-Place no EAC ou usando o cmdlet **Set-MailboxSearch** no Exchange Online PowerShell. No entanto, a partir de 1º de outubro de 2020, você não poderá gerenciar In-Place Holds. Você só os removerá no EAC ou usando o cmdlet **Remove-MailboxSearch.** Para obter mais informações sobre a aposentadoria de In-Place Detém, consulte A aposentadoria de ferramentas [de Descoberta eDiscovery herdado.](legacy-ediscovery-retirement.md)
   
-Você pode ter uma situação em que uma pessoa tenha deixado sua organização e sua conta de usuário e caixa de correio correspondentes tenham sido excluídas. Depois, você percebe que há informações na caixa de correio que precisam ser preservadas. O que você pode fazer? Se o período de retenção de caixa de correio excluído não tiver expirado, você poderá colocar uma retenção de In-Place na caixa de correio excluída (chamada de caixa de correio excluída de forma suave) e torná-la uma caixa de correio inativa. Uma  *caixa de correio inativa*  é usada para preservar o email de um ex-funcionário depois que ele sai da sua organização. O conteúdo de uma caixa de correio inativa é preservado durante a duração do In-Place Que foi colocado na caixa de correio excluída quando ela foi inativa. Depois que a caixa de correio for inativa, você poderá pesquisar In-Place caixa de correio usando In-Place Descoberta eDiscovery no Exchange Online, Pesquisa de Conteúdo no Centro de Conformidade & Segurança ou no Centro de Descoberta Eletrônico no SharePoint Online. 
+Você pode ter uma situação em que uma pessoa tenha deixado sua organização e sua conta de usuário e caixa de correio correspondentes tenham sido excluídas. Depois, você percebe que há informações na caixa de correio que precisam ser preservadas. O que você pode fazer? Se o período de retenção de caixa de correio excluído não tiver expirado, você poderá colocar uma retenção de In-Place na caixa de correio excluída (chamada de caixa de correio excluída de forma suave) e torná-la uma caixa de correio inativa. Uma  *caixa de correio inativa*  é usada para preservar o email de um ex-funcionário depois que ele sai da sua organização. O conteúdo de uma caixa de correio inativa é preservado durante a duração do In-Place Que foi colocado na caixa de correio excluída quando ela foi inativa. Depois que a caixa de correio for inativa, você poderá pesquisar a caixa de correio usando In-Place Descoberta eDiscovery no Exchange Online, Pesquisa de Conteúdo no Centro de Conformidade de Segurança & ou no Centro de Descoberta Eletrônico no SharePoint Online. 
   
 > [!NOTE]
-> No Exchange Online, uma caixa de correio excluída de forma suave é uma caixa de correio que foi excluída, mas pode ser recuperada em um período de retenção específico. O período de retenção de caixa de correio excluído no Exchange Online é de 30 dias. Isso significa que a caixa de correio pode ser recuperada (ou feita uma caixa de correio inativa) dentro de 30 dias após a exclusão. Após 30 dias, uma caixa de correio excluída de forma suave é marcada para exclusão permanente e não pode ser recuperada ou inativa. 
+> No Exchange Online, uma caixa de correio excluída de forma suave é uma caixa de correio que foi excluída, mas pode ser recuperada em um período de retenção específico. O período de retenção de caixa de correio excluídos de forma Exchange Online é de 30 dias. Isso significa que a caixa de correio pode ser recuperada (ou feita uma caixa de correio inativa) dentro de 30 dias após a exclusão. Após 30 dias, uma caixa de correio excluída de forma suave é marcada para exclusão permanente e não pode ser recuperada ou inativa. 
   
 ## <a name="requirements-for-in-place-holds"></a>Requisitos para In-Place Detém
 
-- Você precisa usar o cmdlet **New-MailboxSearch** no Windows PowerShell para colocar um In-Place em uma caixa de correio excluída de forma suave. Não é possível usar o Centro de administração do Exchange (EAC) ou o Centro de Descoberta Virtual no SharePoint Online. 
+- Você precisa usar o cmdlet **New-MailboxSearch** no Windows PowerShell para colocar um In-Place em uma caixa de correio excluída de forma suave. Não é possível usar o centro de administração Exchange (EAC) ou o Centro de Descoberta SharePoint Online. 
 
 - Para saber como usar o Windows PowerShell para se conectar ao Exchange Online, confira o artigo [Conectar-se ao Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -45,7 +45,7 @@ Você pode ter uma situação em que uma pessoa tenha deixado sua organização 
   Get-Mailbox -SoftDeletedMailbox | FL Name,WhenSoftDeleted,DistinguishedName,ExchangeGuid,PrimarySmtpAddress
   ```
 
-- Para obter mais informações sobre caixas de correio inativas, consulte [Overview of inactive mailboxes in office 365](inactive-mailboxes-in-office-365.md).
+- Para obter mais informações sobre caixas de correio inativas, consulte [Overview of inactive mailboxes in Office 365](inactive-mailboxes-in-office-365.md).
 
 ## <a name="put-an-in-place-hold-on-a-soft-deleted-mailbox-to-make-it-an-inactive-mailbox"></a>Colocar uma In-Place em uma caixa de correio excluída de forma suave para torná-la uma caixa de correio inativa
 
@@ -86,7 +86,7 @@ Use o cmdlet **New-MailboxSearch** para tornar uma caixa de correio excluída de
 
 ## <a name="more-information"></a>Mais informações
 
-Depois de tornar uma caixa de correio excluída de forma suave uma caixa de correio inativa, há várias maneiras de gerenciar a caixa de correio. Para mais informações, confira:
+Depois de tornar uma caixa de correio excluída de forma suave uma caixa de correio inativa, há várias maneiras de gerenciar a caixa de correio. Para saber mais, confira:
   
 - [Alterar a duração de retenção de uma caixa de correio inativa](change-the-hold-duration-for-an-inactive-mailbox.md)
 

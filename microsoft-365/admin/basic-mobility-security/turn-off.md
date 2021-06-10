@@ -55,4 +55,4 @@ Essas opções removem a imposição básica de mobilidade e segurança para dis
 3.  Na caixa de diálogo Aviso, selecione **Sim**.
 
 >[!NOTE]
->Para obter mais etapas para desbloquear dispositivos se os dispositivos da sua organização ainda estão bloqueados, consulte a postagem do blog Removendo o Controle de Acesso do Gerenciamento de Dispositivo Móvel para [o Office 365](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Removing-Access-Control-from-Mobile-Device-Management-for-Office/ba-p/279934).
+>Para obter mais etapas para desbloquear dispositivos se os dispositivos da sua organização ainda estão bloqueados, consulte a postagem do blog [Removendo](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Removing-Access-Control-from-Mobile-Device-Management-for-Office/ba-p/279934)o Controle de Acesso do Gerenciamento de Dispositivo Móvel do Office 365 .

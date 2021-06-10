@@ -35,11 +35,11 @@ O widget exibe a criptografia TLS usada para a conexão quando as mensagens são
 
 ![Widget de fluxo de emails de saída e de entrada no painel fluxo de email no Centro de Conformidade & Segurança](../../media/mfi-outbound-and-inbound-mail-flow-report-widget.png)
 
-As informações no widget estão relacionadas a conectores e proteção de mensagens TLS no Microsoft 365. Para obter mais informações, consulte estes tópicos:
+As informações no widget estão relacionadas a conectores e proteção de mensagens TLS em Microsoft 365. Para obter mais informações, consulte estes tópicos:
 
-- [Configurar o fluxo de emails usando conectores](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)
+- [Configurar o fluxo de e-mails usando conectores](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)
 - [Como o Exchange Online usa TLS para proteger conexões de e-mail](../../compliance/exchange-online-uses-tls-to-secure-email-connections.md)
-- [Detalhes de referência técnica sobre criptografia no Microsoft 365](../../compliance/technical-reference-details-about-encryption.md)
+- [Detalhes de referência técnica sobre criptografia em Microsoft 365](../../compliance/technical-reference-details-about-encryption.md)
 
 ## <a name="message-protected-in-transit-by-tls"></a>Mensagem protegida em trânsito (por TLS)
 
@@ -49,9 +49,9 @@ Quando você clica em **Exibir Detalhes** no widget, o flyout **Message protecte
 
 Atualmente, o TLS 1.2 é a versão mais segura do TLS oferecida pelo Microsoft 365. Muitas vezes, você precisará saber a criptografia TLS que está sendo usada para auditorias de conformidade. Você provavelmente não tem uma relação direta com a maioria dos servidores de email de origem e destino (você não os possui e nem a Microsoft), portanto, você não tem muitas opções para melhorar a criptografia TLS usada por esses servidores.
 
-No entanto, você pode usar [conectores](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) para garantir a melhor proteção TLS disponível para mensagens enviadas entre seus servidores de email e o Microsoft 365. O fluxo de emails entre o Microsoft 365 e seus próprios servidores de email ou servidores que pertencem aos seus parceiros geralmente é mais importante e sensível do que as mensagens regulares, portanto, você vai querer aplicar segurança extra e segurança a essas mensagens.
+Porém, você pode usar [conectores](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) para garantir a melhor proteção TLS disponível para mensagens enviadas entre seus servidores de email e Microsoft 365. O fluxo de emails entre Microsoft 365 e seus próprios servidores de email ou servidores que pertencem aos seus parceiros geralmente é mais importante e sensível do que as mensagens regulares, portanto, você vai querer aplicar segurança extra e segurança a essas mensagens.
 
-Você pode atualizar ou corrigir seus próprios servidores de email para melhorar a criptografia TLS que está sendo usada ou contatar seus parceiros para fazer o mesmo. O **Relatório do Conector** exibe o volume de fluxo de emails e a criptografia TLS para mensagens que usam seus conectores do Microsoft 365.
+Você pode atualizar ou corrigir seus próprios servidores de email para melhorar a criptografia TLS que está sendo usada ou contatar seus parceiros para fazer o mesmo. O **Relatório do Conector** exibe o volume de fluxo de emails e a criptografia TLS para mensagens que usam seus conectores Microsoft 365 de email.
 
 Você pode clicar no link **relatório conector** para ir para o [relatório conector](view-mail-flow-reports.md#connector-report). As informações a seguir podem estar disponíveis na página relatório **conector** se a condição associada tiver sido detectada:
 
