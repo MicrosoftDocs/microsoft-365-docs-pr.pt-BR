@@ -1,5 +1,5 @@
 ---
-title: Começar a Teams
+title: Introdução ao Teams
 f1.keywords:
 - NOCSH
 ms.author: twerner
@@ -27,7 +27,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52537362"
 ---
-# <a name="get-started-with-teams"></a>Começar a Teams
+# <a name="get-started-with-teams"></a>Introdução ao Teams
 
 Se você está apenas começando a mudar sua empresa para funcionar remotamente, você veio para o lugar certo. Com Microsoft 365, você pode gerenciar uma empresa virtualmente e manter contato com seus funcionários, parceiros e clientes por meio de reuniões online, [chats,](https://www.microsoft.com/microsoft-teams/instant-messaging?ocid=oo_support_mix_marvel_ups_support_smcteamsmb_inline)compartilhamento de arquivos e chamadas Microsoft Teams. 
 

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente um rótulo a arquivos e emails, ou você pode solicitar aos usuários que selecionem o rótulo que você recomenda.
-ms.openlocfilehash: 4c39e5895c3315d77d7bfc211f0ba3e65f06659b
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: ad095db005421a58806d2775d4958cf3be5f474e
+ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769288"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52866734"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -60,7 +60,8 @@ Há dois métodos diferentes para aplicar automaticamente um rótulo de confiden
     
     Específico para rotulagem automática para o SharePoint e OneDrive:
     - Há suporte para arquivos do Office para Word, PowerPoint e Excel. Há suporte para o formato Open XML (como .docx e .xlsx), mas não para o formato Microsoft Office 97-2003 (como .doc e .xls).
-        - Esses arquivos podem ser rotulados automaticamente em repouso, antes ou depois da criação das políticas de rotulagem automática. Note que os arquivos não podem ser rotulados automaticamente se fizerem parte de uma sessão aberta (o arquivo está aberto).
+        - Esses arquivos podem ser rotulados automaticamente em repouso, antes ou depois da criação das políticas de rotulagem automática. Os arquivos não podem ser rotulados automaticamente se fizerem parte de uma sessão aberta (o arquivo está aberto).
+        - Atualmente, anexos em itens de lista não são suportados e não são rotulados automaticamente.
     - Máximo de 25.000 arquivos rotulados automaticamente no seu locatário por dia.
     - Máximo de 10 políticas de rotulagem automática por locatário, cada uma visando até 10 sites (SharePoint ou OneDrive).
     - Os valores existentes para modificado, modificado por e a data não são alterados como resultado das políticas de rotulagem automática - tanto para o modo de simulação e quanto quando os rótulos são aplicados.
@@ -189,7 +190,7 @@ Específico para rotulagem interna:
 
 - Para obter os rótulos recomendados nas versões de área de trabalho do Word, o conteúdo confidencial que disparou a recomendação é sinalizado para que os usuários podem analisar e remover o conteúdo confidencial, em vez de aplicar o rótulo de confidencialidade recomendado.
 
-- Para saber mais sobre como esses rótulos são aplicados aos aplicativos do Office, capturas de tela de exemplo e como as informações confidenciais são detectadas, confira [Aplicar ou recomendar rótulos de confidencialidade automaticamente aos seus arquivos e emails no Office](https://support.office.com/en-us/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1).
+- Para saber mais sobre como esses rótulos são aplicados aos aplicativos do Office, capturas de tela de exemplo e como as informações confidenciais são detectadas, confira [Aplicar ou recomendar rótulos de confidencialidade automaticamente aos seus arquivos e emails no Office](https://support.office.com/pt-BR/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1).
 
 Específico para o cliente de rotulagem unificada da Proteção de Informações do Azure:
 

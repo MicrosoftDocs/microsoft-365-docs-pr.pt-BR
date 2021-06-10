@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 06/08/2021
-ms.openlocfilehash: ccbb57d781196e352e0fed456a1f7cb43eb17300
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.date: 06/09/2021
+ms.openlocfilehash: 05b2b2af87e423058d18651571d52a97ac387506
+ms.sourcegitcommit: 3584c1fe59d12512d67faf3efc955e1d67e2baa0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822269"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52862142"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Gerenciar Microsoft Defender Antivírus e aplicar linhas de base
 
@@ -86,7 +86,7 @@ Todas as nossas atualizações contêm
 <summary> Maio-2021 (plataforma: 4.18.2105.4 | Mecanismo: 1.1.18200.4)</summary>
 
 &ensp;Versão de atualização de inteligência de segurança: **1.341.8.0**  
-&ensp;Lançado: **4 de junho de 2021**  
+&ensp;Lançado: **3 de junho de 2021**  
 &ensp;Plataforma: **4.18.2105.4**  
 &ensp;Mecanismo: **1.1.18200.4**  
 &ensp;Fase de suporte: **Segurança e Atualizações Críticas**
@@ -102,15 +102,13 @@ Nenhum problema conhecido
 <summary> Abril-2021 (Plataforma: 4.18.2104.14 | Mecanismo: 1.1.18100.5)</summary>
 
 &ensp;Versão de atualização de inteligência de segurança: **1.337.2.0**  
-&ensp;Lançado: **1º de abril de 2021**  
-&ensp;Plataforma: **4.18.2104.14**  
+&ensp;Lançado: 26 de abril de **2021**  (Engine: 1.1.18100.6 lançado em 5 de maio de 2021) &ensp; Plataforma: **4.18.2104.14**  
 &ensp;Mecanismo: **1.1.18100.5**  
 &ensp;Fase de suporte: **Segurança e Atualizações Críticas**
     
 ### <a name="whats-new"></a>Novidades
 - Lógica adicional de monitoramento de comportamento
 - Detecção aprimorada do keylogger do modo kernel
-- Adicionados novos controles para gerenciar o processo de lançamento gradual para [atualizações do Microsoft Defender](updates.md)
 
 ### <a name="known-issues"></a>Problemas Conhecidos
 Nenhum problema conhecido  
@@ -119,7 +117,7 @@ Nenhum problema conhecido
 <summary> Março-2021 (Plataforma: 4.18.2103.7 | Mecanismo: 1.1.18000.5)</summary>
 
 &ensp;Versão de atualização de inteligência de segurança: **1.335.36.0**  
-&ensp;Lançado: **1º de abril de 2021**  
+&ensp;Lançado: **2 de abril de 2021**  
 &ensp;Plataforma: **4.18.2103.7**  
 &ensp;Mecanismo: **1.1.18000.5**  
 &ensp;Fase de suporte: **Segurança e Atualizações Críticas**

@@ -75,7 +75,7 @@ Os resultados proporcionam uma maneira de navegar rapidamente até uma página e
 
 :::image type="content" source="../../media/search-for-navigation-mac.png" alt-text="Captura de tela: resultados da pesquisa mostrando o caminho de navegação no centro de administração":::
 
-## <a name="settings"></a>Settings
+## <a name="settings"></a>Configurações
 
 Pesquise as configurações de nível de aplicativo com suporte relacionadas à sua organização, os serviços aos quais você se inscreve e as configurações de segurança e privacidade.
 
@@ -93,7 +93,7 @@ Uma pesquisa de documentação fornece documentação de ajuda relevante com bas
 
 :::image type="content" source="../../media/search-for-docs-mac.png" alt-text="Captura de tela: Pesquisa mostrando resultados da documentação no centro de administração":::
 
-## <a name="send-us-feedback"></a>Enviar comentários
+## <a name="send-us-feedback"></a>Envie-nos o seu feedback
 
 Use esta seção para enviar comentários sobre a experiência de pesquisa. Não podemos responder a todos os comentários, mas lemos todos eles e usamos seus comentários para melhorar a experiência de pesquisa. Certifique-se de fornecer o máximo de detalhes possível em seus comentários.
 

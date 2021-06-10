@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: fba74990d8e4465f957acda83e66e1dc43a317e8
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: cf8e74a6886d7086da062d6258e3e1e1a1cbd730
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841181"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861714"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control Removível Armazenamento Access Control
 
@@ -42,13 +42,17 @@ O Microsoft Defender for Endpoint Device Control Removível Armazenamento Contro
 ## <a name="prepare-your-endpoints"></a>Preparar seus pontos de extremidade
 
 Implantar controle de acesso Armazenamento removível em dispositivos Windows 10 que tenham o Cliente Anti-malware Versão **4.18.2103.3 ou posterior**.
-1. **4.18.2104 ou** posterior : Adicionar SerialNumberId, VID_PID, suporte a GPO baseado em filepath
+1. **4.18.2104 ou** posterior : Adicionar SerialNumberId, VID_PID, suporte a GPO baseado em filepath, ComputerSid
 
 2. **4.18.2105** ou posterior : Adicione suporte a curinga para HardwareId/DeviceId/InstancePathId/FriendlyNameId/SerialNumberId, a combinação de usuário específico em máquina específica, SSD removêvel (um SSD do SanDisk Extreme)/suporte A USB Attached SCSI (UAS)
 
 :::image type="content" source="images/powershell.png" alt-text="A interface do PowerShell":::
 
+   > [!NOTE]
+   > Nenhum dos Segurança do Windows componentes precisa estar ativo, você pode executar o Controle de Acesso Removível Armazenamento independentemente do status Segurança do Windows.
+
 ## <a name="policy-properties"></a>Propriedades de política
+
 
 Você pode usar as seguintes propriedades para criar um grupo de armazenamento removível:
 
@@ -87,6 +91,8 @@ Para cada propriedade de dispositivo, consulte **a seção Propriedades do Dispo
 
     - MatchAny: Os atributos no DescriptorIdList serão **Ou** relação; por exemplo, se o administrador colocar DeviceID e InstancePathID, para cada USB conectado, o sistema fará a imposição desde que a USB tenha um valor **DeviceID** idêntico ou **InstanceID.**
 
+
+
 A seguir estão as propriedades da política de controle de acesso:
 
 **Nome da propriedade: PolicyRuleId**
@@ -108,7 +114,7 @@ O exemplo a seguir mostra o uso de GroupID:
 1. Descrição: os grupos aos que a política não será aplicada.
 1. Opções: a ID/GUID do grupo deve ser usada nesta instância.
 
-**Nome da propriedade: ID de entrada**
+**Nome da propriedade: Id de entrada**
 
 1. Descrição: Um PolicyRule pode ter várias entradas; cada entrada com um GUID exclusivo informa ao Controle de Dispositivo uma restrição.
 
@@ -124,6 +130,14 @@ O exemplo a seguir mostra o uso de GroupID:
     - AuditDenied: define a notificação e o evento quando o acesso é negado; tem que trabalhar em conjunto com **a entrada Negar.**
 
 Quando houver tipos de conflito para a mesma mídia, o sistema aplicará o primeiro na política. Um exemplo de tipo de conflito é **Permitir** e **Negar.**
+
+**Nome da propriedade: Sid**
+
+1. Descrição: define se essa política se aplica a um usuário ou grupo de usuários específico; uma entrada pode ter no máximo um Sid e uma entrada sem qualquer Sid significa aplicar a política no computador.
+
+**Nome da propriedade: ComputerSid**
+
+1. Descrição: define se essa política será aplicada a um grupo específico de máquina ou máquina; uma entrada pode ter no máximo um ComputerSid e uma entrada sem qualquer ComputerSid significa aplicar a política no computador. Se você quiser aplicar uma Entrada a um usuário específico e a um computador específico, adicione Sid e ComputerSid à mesma Entrada.
 
 **Nome da propriedade: Opções**
 

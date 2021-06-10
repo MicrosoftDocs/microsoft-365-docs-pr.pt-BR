@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 29505a6e975fdfa2283efe3391c615e40e678164
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 00f6bdac66ae286bf55a875599f7097b14b06cb3
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346373"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861546"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-linux"></a>Definir preferências para o Microsoft Defender para Ponto de Extremidade no Linux
 
@@ -139,7 +139,7 @@ Usado para excluir conteúdo da verificação por caminho de arquivo completo.
 
 **Tipo de caminho (arquivo/diretório)**
 
-Indica se a *propriedade path* se refere a um arquivo ou diretório. 
+Indica se a *propriedade path* se refere a um arquivo ou diretório.
 
 |||
 |:---|:---|
@@ -397,7 +397,7 @@ O perfil de configuração a seguir contém entradas para todas as configuraçõ
          },
          {
             "$type":"excludedFileExtension",
-            "extension":"pdf"
+            "extension":".pdf"
          },
          {
             "$type":"excludedFileName",
@@ -444,7 +444,7 @@ python -m json.tool mdatp_managed.json
 Se o JSON for bem formado, o comando acima o retornará ao Terminal e retornará um código de saída de `0` . Caso contrário, um erro que descreve o problema é exibido e o comando retorna um código de saída de `1` .
 
 ## <a name="verifying-that-the-mdatp_managedjson-file-is-working-as-expected"></a>Verificar se o arquivo mdatp_managed.json está funcionando conforme o esperado
-Para verificar se o /etc/opt/microsoft/mdatp/managed/mdatp_managed.json está funcionando corretamente, você deve ver "[gerenciado]" ao lado dessas configurações:  
+Para verificar se o /etc/opt/microsoft/mdatp/managed/mdatp_managed.json está funcionando corretamente, você deve ver "[gerenciado]" ao lado dessas configurações:
 - cloud_enabled
 - cloud_automatic_sample_submission_consent
 - passice_mode_enabled

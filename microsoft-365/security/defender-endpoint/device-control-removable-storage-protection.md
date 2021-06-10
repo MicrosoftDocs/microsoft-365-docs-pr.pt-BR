@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c9b97c2157ba8090628af23b2ab54cf38f04d8c6
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 55171429d3ea447de32eb7e2ec12b8b2c3542e95
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538382"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861702"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-protection"></a>Microsoft Defender for Endpoint Device Control Removable Armazenamento Protection
 
@@ -35,7 +35,7 @@ O Microsoft Defender for Endpoint Device Control Removível Armazenamento Prote�
 
 **Recursos** - Impedir a instalação com ou sem exclusão com base em várias propriedades de dispositivo.
 
-**Descrição**
+**Windows 10 de suporte**
 - Aplicado no nível do computador: a mesma política se aplica a qualquer usuário conectado.
 - Oferece suporte a MEM e GPO.
 - Suporte para '[Propriedades do dispositivo](#device-properties)' conforme listado.
@@ -43,7 +43,7 @@ O Microsoft Defender for Endpoint Device Control Removível Armazenamento Prote�
 
 **Plataforma com suporte** - Windows 10
 
-**Descrição**
+**Detalhes de suporte do macOS**
 - Aplicado no nível do computador: a mesma política se aplica a qualquer usuário conectado
 - Para obter informações específicas do macOS, consulte [Controle de dispositivo para macOS](mac-device-control-overview.md).
  
@@ -55,7 +55,7 @@ O Microsoft Defender for Endpoint Device Control Removível Armazenamento Prote�
 - *Auditoria* Acesso de leitura ou gravação ou execução ao armazenamento removível com base em várias propriedades de dispositivo, com ou sem exclusão.
 - *Impedir* Acesso de leitura ou gravação ou execução com ou sem exclusão - Permitir dispositivo específico com base em várias propriedades de dispositivo.
 
-**Descrição**
+**Windows 10 de suporte**
 - Aplicado em máquina ou usuário ou ambos – permite apenas que pessoas específicas que executam o acesso de Leitura/Gravação/Execução a armazenamento removível específico em máquina específica.
 - Suporte a MEM OMA-URI e GPO.
 - Suporte para '[Propriedades do dispositivo](#device-properties)' conforme listado.
@@ -63,7 +63,7 @@ O Microsoft Defender for Endpoint Device Control Removível Armazenamento Prote�
 
 **Plataforma com suporte** - Windows 10
 
-**Descrição**
+**Detalhes de suporte do macOS**
 - Aplicado no nível do computador: a mesma política se aplica a qualquer usuário conectado.
 - Para obter informações específicas do macOS, consulte [Controle de dispositivo para macOS](mac-device-control-overview.md).
  

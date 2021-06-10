@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Aprenda como usar o assistente do esquema de correspondência exata de dados e tipo de informação confidencial.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d9d6f870239b963ee7483b9f08e93e40b10f4f0b
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 5fdf289c403d8c09342a1eac1434c4219bb7b13c
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52877999"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861654"
 ---
 # <a name="use-the-exact-data-match-schema-and-sensitive-information-type-wizard"></a>Use o Assistente de Correspondência Exata de Dados e Tipo de Informação Confidencial
 
@@ -42,7 +42,7 @@ etapas na [Parte 1: configurar a classificação baseada em EDM](create-custom-s
 
 1. Familiarize-se com as etapas para criar um tipo personalizado de informações confidenciais com o EDM [fluxo de trabalho em um relance](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md#the-work-flow-at-a-glance).
 
-2. Execute as etapas em [Salvar dados confidenciais no formato .csv ou .tsv.](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md#save-sensitive-data-in-csv-or-tsv-format)
+2. Execute as etapas na seção [Salvar dados confidenciais no formato .csv](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md#save-sensitive-data-in-csv-format).
 
 ## <a name="use-the-exact-data-match-schema-and-sensitive-information-type-pattern-wizard"></a>Use o esquema exato de correspondência de dados e o assistente do padrão do tipo de informações confidenciais
 
