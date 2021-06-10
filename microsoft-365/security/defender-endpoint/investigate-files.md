@@ -117,4 +117,4 @@ A **guia Nomes de** arquivo lista todos os nomes que o arquivo foi observado par
 - [Investigar um endereço IP associado a um alerta do Microsoft Defender para Ponto de Extremidade](investigate-ip.md)
 - [Investigar um domínio associado a um alerta do Microsoft Defender para Ponto de Extremidade](investigate-domain.md)
 - [Investigar uma conta de usuário no Microsoft Defender para Ponto de Extremidade](investigate-user.md)
-- [Tomar ações de resposta em um arquivo](respond-file-alerts.md)
+- [Executar ações de resposta em um arquivo](respond-file-alerts.md)

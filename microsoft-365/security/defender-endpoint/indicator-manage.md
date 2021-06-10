@@ -37,7 +37,7 @@ ms.locfileid: "51185940"
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
 
 
-1. No painel de navegação, selecione **Indicadores de**  >  **Configurações**.
+1. No painel de navegação, selecione **Configurações**  >  **Indicadores**.
 
 2. Selecione a guia do tipo de entidade que você gostaria de gerenciar.  
 
@@ -49,7 +49,7 @@ Você também pode optar por carregar um arquivo CSV que define os atributos dos
 
 Baixe o CSV de exemplo para saber os atributos de coluna com suporte.
 
-1. No painel de navegação, selecione **Indicadores de**  >  **Configurações**.
+1. No painel de navegação, selecione **Configurações**  >  **Indicadores**.
 
 2. Selecione a guia do tipo de entidade para o qual você gostaria de importar indicadores.
 
@@ -73,7 +73,7 @@ severity | Enum | A gravidade do indicador. Os valores possíveis são: "Informa
 recommendedActions | Cadeia de caracteres | Ações recomendadas do alerta de ti. **Opcional**
 rbacGroupNames | Cadeia de caracteres | Lista separada por vírgulas de nomes de grupo do RBAC aos que o indicador seria aplicado. **Opcional**
 category | Cadeia de caracteres | Categoria do alerta. Exemplos incluem: execução e acesso de credenciais. **Opcional**
-mitretechniques| Cadeia de caracteres | Código/id de técnicas MITRE (vírgula separada). Para obter mais informações, consulte [Enterprise tactics](https://attack.mitre.org/tactics/enterprise/). **Opcional** É recomendável adicionar um valor na categoria quando uma técnica MITRE.
+mitretechniques| Cadeia de caracteres | Código/id de técnicas MITRE (vírgula separada). Para obter mais informações, [consulte Enterprise táticas](https://attack.mitre.org/tactics/enterprise/). **Opcional** É recomendável adicionar um valor na categoria quando uma técnica MITRE.
 
 Para obter mais informações, consulte Categorias de alerta do Microsoft Defender for Endpoint agora estão alinhadas com [o MITRE ATT&CK!](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/microsoft-defender-atp-alert-categories-are-now-aligned-with/ba-p/732748).
 

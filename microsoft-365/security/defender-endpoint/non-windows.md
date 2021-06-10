@@ -1,6 +1,6 @@
 ---
 title: Microsoft Defender para Ponto de Extremidade para plataformas que não são Windows
-description: Saiba mais sobre os recursos do Microsoft Defender para Endpoint para plataformas que não são do Windows
+description: Saiba mais sobre os recursos do Microsoft Defender for Endpoint para plataformas Windows não Windows
 keywords: não windows, mac, macos, linux, android
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -35,15 +35,15 @@ ms.locfileid: "51957498"
 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-A Microsoft está em uma jornada para estender seus principais recursos de segurança do ponto de extremidade do setor além do Windows e do Windows Server para macOS, Linux, Android e em breve iOS.
+A Microsoft está em uma jornada para estender seus principais recursos de segurança do ponto de extremidade do setor além Windows e Windows Server para macOS, Linux, Android e em breve iOS.
 
 As organizações enfrentam ameaças em várias plataformas e dispositivos. Nossas equipes se comprometeram a criar soluções de segurança não apenas para a *Microsoft,* mas também para permitir que nossos clientes protejam e protejam seus ambientes heterogêneos.  Estamos escutando os comentários dos clientes e fazendo parcerias com nossos clientes para criar soluções que atendem às suas necessidades.
 
-Com o Microsoft Defender para Ponto de Extremidade, os clientes se beneficiam de uma visão unificada de todas as ameaças e alertas no Centro de Segurança do Microsoft Defender, em plataformas windows e não-Windows, permitindo que eles recebam uma visão completa do que está acontecendo em seu ambiente, o que os capacita a avaliar e responder mais rapidamente a ameaças.
+Com o Microsoft Defender para Ponto de Extremidade, os clientes se beneficiam de uma visão unificada de todas as ameaças e alertas no Central de Segurança do Microsoft Defender, em plataformas Windows e não Windows, permitindo que eles recebam uma visão completa do que está acontecendo em seu ambiente, o que os capacita a avaliar e responder mais rapidamente a ameaças.
 
 ## <a name="microsoft-defender-for-endpoint-on-macos"></a>Microsoft Defender para Ponto de Extremidade no macOS 
 
-O Microsoft Defender para Ponto de Extremidade no macOS oferece recursos de detecção e resposta de antivírus e ponto de extremidade (EDR) para as três versões mais recentes lançadas do macOS. Os clientes podem implantar e gerenciar a solução por meio do Microsoft Endpoint Manager e do Jamf. Assim como com Microsoft Office aplicativos no macOS, o Microsoft Auto Update é usado para gerenciar o Microsoft Defender para Endpoint em atualizações do Mac. Para obter informações sobre os principais recursos e benefícios, leia nossos [comunicados](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/macOS).
+O Microsoft Defender para Ponto de Extremidade no macOS oferece recursos antivírus e detecção e resposta de ponto de extremidade (EDR) para as três versões mais recentes lançadas do macOS. Os clientes podem implantar e gerenciar a solução por meio Microsoft Endpoint Manager e Jamf. Assim como com Microsoft Office aplicativos no macOS, o Microsoft Auto Update é usado para gerenciar o Microsoft Defender para Endpoint em atualizações do Mac. Para obter informações sobre os principais recursos e benefícios, leia nossos [comunicados](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/macOS).
 
 Para obter mais detalhes sobre como começar, visite o Defender for Endpoint na documentação do [macOS](microsoft-defender-endpoint-mac.md).
 
@@ -55,7 +55,7 @@ Para obter mais detalhes sobre como começar, visite o Microsoft Defender for En
 
 ## <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender para Ponto de Extremidade para Android
 
-O Microsoft Defender para Ponto de Extremidade no Android é nossa solução de defesa contra ameaças móveis para dispositivos que executam o Android 6.0 e superior. Os modos Android Enterprise (Perfil de Trabalho) e Administrador de Dispositivos são suportados. No Android, oferecemos proteção da Web, que inclui anti-phishing, bloqueio de conexões não seguras e configuração de indicadores personalizados. A solução verifica se há malware e aplicativos potencialmente indesejados (PUA) e oferece recursos adicionais de prevenção de violações por meio da integração com o Microsoft Endpoint Manager e o Conditional Access. Para obter informações sobre os principais recursos e benefícios, leia nossos [comunicados](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/Android).
+O Microsoft Defender para Ponto de Extremidade no Android é nossa solução de defesa contra ameaças móveis para dispositivos que executam o Android 6.0 e superior. Os modos Android Enterprise (Perfil de Trabalho) e Administrador de Dispositivos são suportados. No Android, oferecemos proteção da Web, que inclui anti-phishing, bloqueio de conexões não seguras e configuração de indicadores personalizados. A solução verifica se há malware e aplicativos potencialmente indesejados (PUA) e oferece recursos adicionais de prevenção de violações por meio da integração com o Microsoft Endpoint Manager e o Acesso Condicional. Para obter informações sobre os principais recursos e benefícios, leia nossos [comunicados](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/Android).
 
 Para obter mais detalhes sobre como começar, visite o Microsoft Defender for Endpoint na documentação [do](microsoft-defender-endpoint-android.md)Android .
 
@@ -65,11 +65,11 @@ O Microsoft Defender para Ponto de Extremidade no iOS é nossa solução de defe
 
 Para obter mais detalhes sobre como começar, visite o Microsoft Defender for Endpoint na documentação do [iOS.](microsoft-defender-endpoint-ios.md)
 
-## <a name="licensing-requirements"></a>Requisitos de licença 
+## <a name="licensing-requirements"></a>Requisitos de licenciamento 
 
 Usuários licenciados qualificados podem usar o Microsoft Defender para Ponto de Extremidade em até cinco dispositivos simultâneos. O Microsoft Defender para Ponto de Extremidade também está disponível para compra de um Provedor de Soluções na Nuvem (CSP).
 
-Os clientes podem obter o Microsoft Defender para Ponto de Extremidade no macOS por meio de uma licença autônoma do Microsoft Defender para Ponto de Extremidade, como parte do Microsoft 365 A5/E5 ou segurança do Microsoft 365.
+Os clientes podem obter o Microsoft Defender para Ponto de Extremidade no macOS por meio de uma licença autônoma do Microsoft Defender para Ponto de Extremidade, como parte do Microsoft 365 A5/E5 ou Microsoft 365 Security.
 
 Os recursos anunciados recentemente do Microsoft Defender para Ponto de Extremidade no Android e iOS estão incluídos nas ofertas acima mencionadas como parte dos cinco dispositivos qualificados para usuários licenciados qualificados.
 

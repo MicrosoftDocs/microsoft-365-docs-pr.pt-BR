@@ -69,7 +69,7 @@ O arquivo JSON deve estar em conformidade com a definição de esquema exigida p
 |AssetId|A ID de referência do ativo físico ou ponto de acesso físico.|Cadeia de caracteres alfanumérico|
 |AssetName|O nome amigável do ativo físico ou ponto de acesso físico.|Cadeia de caracteres alfanumérico|
 |EventTime|O carimbo de data/hora do acesso.|Data e hora, no formato UTC|
-|AccessStatus|Valor `Success` de ou `Failed`|String|
+|AccessStatus|Valor `Success` de ou `Failed`|Cadeia de caracteres|
 |||
 
 Aqui está um exemplo de um arquivo JSON que está em conformidade com o esquema necessário:

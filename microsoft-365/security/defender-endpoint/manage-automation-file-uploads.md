@@ -1,5 +1,5 @@
 ---
-title: Gerenciar carregamentos de arquivos de automação
+title: Gerenciar uploads de arquivo de automação
 description: Habilitar a análise de conteúdo e configurar a extensão de arquivo e as extensões de anexo de email que serão enviadas para análise
 keywords: automação, arquivo, carregamentos, conteúdo, análise, arquivo, extensão, email, anexo
 search.product: eADQiWindows 10XVcnh
@@ -23,7 +23,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/24/2021
 ms.locfileid: "51185844"
 ---
-# <a name="manage-automation-file-uploads"></a>Gerenciar carregamentos de arquivos de automação
+# <a name="manage-automation-file-uploads"></a>Gerenciar uploads de arquivo de automação
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -41,7 +41,7 @@ Por exemplo, se você adicionar *exe* e *bat* como nomes de extensão de arquivo
 
 ## <a name="add-file-extension-names-and-attachment-extension-names"></a>Adicione nomes de extensão de arquivo e nomes de extensão de anexo.
 
-1. No painel de navegação, selecione **Configurações Carregamentos** de arquivo  >  **de automação**. 
+1. No painel de navegação, **selecione** Configurações  >  **de automação carrega**. 
 
 2. Alterne a configuração de análise de conteúdo **entre On** e **Off**.
 
@@ -50,4 +50,4 @@ Por exemplo, se você adicionar *exe* e *bat* como nomes de extensão de arquivo
   
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Gerenciar exclusões de pastas de automação](manage-automation-folder-exclusions.md)
+- [Gerenciar exclusões de pasta de automação](manage-automation-folder-exclusions.md)

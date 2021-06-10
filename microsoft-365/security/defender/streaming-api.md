@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fad3dd64c9acf079bd8da778d417240c44031569
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 21a83c4876a90a231eb2a78d10a290be2dca2fa0
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772408"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782472"
 ---
 # <a name="streaming-api"></a>Streaming API
 
@@ -34,7 +34,7 @@ ms.locfileid: "52772408"
 
 ## <a name="stream-advanced-hunting-events-to-event-hubs-andor-azure-storage-account"></a>Transmitir eventos de Busca Avançada para Hubs de Eventos e/ou conta de armazenamento do Azure.
 
-Microsoft 365 O Defender dá suporte ao streaming de todos os eventos disponíveis por meio da [Busca](../defender/advanced-hunting-overview.md) Avançada para [hubs](/azure/event-hubs/) de eventos e/ou conta de armazenamento do [Azure.](/azure/event-hubs/)
+Microsoft 365 O Defender dá suporte a eventos de streaming por meio [da Busca Avançada](../defender/advanced-hunting-overview.md) para [hubs de](/azure/event-hubs/) eventos e/ou conta de armazenamento do [Azure.](/azure/event-hubs/)
 
 
 

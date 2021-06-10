@@ -1,5 +1,5 @@
 ---
-title: Manipular erros na busca avançada do Microsoft 365 Defender
+title: Manipular erros na busca avançada por Microsoft 365 Defender
 description: Compreender erros exibidos ao usar a busca avançada
 keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, esquema, kusto, tempo limite, recursos, erros, erro desconhecido, limites, cota, parâmetro, alocação
 search.product: eADQiWindows 10XVcnh

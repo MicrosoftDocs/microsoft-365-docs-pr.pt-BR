@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Se ele está adicionando novas soluções ao centro de conformidade, atualizando recursos existentes com base em seus comentários ou implantando documentação atualizada e atualizada, Microsoft 365 ajuda você a se manter no topo do cenário de conformidade em constante mudança. Descubra o que estamos fazendo este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f249108dba279e255efd57ecd56159d3c71dcb4b
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: d312b3ac3c2cb43e05a09936f1e5c07b32c22ef1
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706613"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843241"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Novidades na Conformidade do Microsoft 365
 
@@ -75,7 +75,7 @@ Aqui estão algumas das alterações nas soluções Microsoft 365 conformidade e
 
 ### <a name="advanced-ediscovery"></a>Descoberta Eletrônica Avançada
 
-- **Advanced eDiscovery coleções agora** suportam a [nova ferramenta e fluxo de trabalho de coleções.](/microsoft-365/compliance/collections-overview) Outros novos tópicos incluem [criar um conjunto de rascunhos,](https://docs.microsoft.com/microsoft-365/compliance/create-draft-collection)comprometer uma coleção de [rascunhos em](/microsoft-365/compliance/commit-draft-collection)um conjunto de revisão e estatísticas e relatórios de [coleção.](/microsoft-365/compliance/collection-statistics-reports)
+- **Advanced eDiscovery coleções agora** suportam a [nova ferramenta e fluxo de trabalho de coleções.](/microsoft-365/compliance/collections-overview) Outros novos tópicos incluem [criar um conjunto de rascunhos,](/microsoft-365/compliance/create-draft-collection)comprometer uma coleção de [rascunhos em](/microsoft-365/compliance/commit-draft-collection)um conjunto de revisão e estatísticas e relatórios de [coleção.](/microsoft-365/compliance/collection-statistics-reports)
 - **Exportar documentos** em um conjunto de revisão para uma [conta do Azure Armazenamento.](/microsoft-365/compliance/download-export-jobs)
 - **Módulo de codificação preditiva para Advanced eDiscovery**. Primeiro, veja a nova [funcionalidade de codificação](/microsoft-365/compliance/predictive-coding-overview) preditiva que substitui o módulo de relevância retirado.
 
@@ -131,7 +131,7 @@ Os tópicos a seguir foram atualizados ou adicionados para dar suporte a esses n
 - **Melhorias no plano de arquivos**. Uma atualização para [o plano de arquivos](file-plan-manager.md) remove ou melhora as restrições de comprimento anteriores para importação.
 - **Excluir rótulos de retenção para registros**. Uma versão de visualização dá suporte à capacidade de [excluir rótulos de retenção](create-apply-retention-labels.md#deleting-retention-labels) que marcam itens como registros.
 
-### <a name="sensitive-information-types"></a>Tipos de informações confidenciais
+### <a name="sensitive-information-types"></a>Tipos de informação sensível
 
 O conteúdo foi adicionado ou atualizado nos seguintes tópicos:
 
@@ -169,22 +169,22 @@ O conteúdo foi adicionado ou atualizado nos seguintes tópicos:
 
 O conteúdo foi adicionado ou atualizado nos seguintes tópicos:
 
-- [Saiba mais sobre a DLP do Ponto de Extremidade](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-learn-about)
-- [Enviar notificações por email e mostrar dicas para políticas de DLP](https://docs.microsoft.com/microsoft-365/compliance/use-notifications-and-policy-tips)
-- [Saiba mais sobre o Microsoft 365 de prevenção de perda de dados local](https://docs.microsoft.com/microsoft-365/compliance/dlp-on-premises-scanner-learn)
-- [Começar com o scanner local de prevenção contra perda de dados](https://docs.microsoft.com/microsoft-365/compliance/dlp-on-premises-scanner-get-started)
-- [Criar uma política DLP para proteger documentos com FCI ou outras propriedades](https://docs.microsoft.com/microsoft-365/compliance/protect-documents-that-have-fci-or-other-properties)
-- [Usando a Prevenção contra perda de dados de ponto de extremidade](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-using)
-- [Introdução à Prevenção contra perda de dados do ponto de extremidade](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-getting-started)
+- [Saiba mais sobre a DLP do Ponto de Extremidade](/microsoft-365/compliance/endpoint-dlp-learn-about)
+- [Enviar notificações por email e mostrar dicas para políticas de DLP](/microsoft-365/compliance/use-notifications-and-policy-tips)
+- [Saiba mais sobre o Microsoft 365 de prevenção de perda de dados local](/microsoft-365/compliance/dlp-on-premises-scanner-learn)
+- [Começar com o scanner local de prevenção contra perda de dados](/microsoft-365/compliance/dlp-on-premises-scanner-get-started)
+- [Criar uma política DLP para proteger documentos com FCI ou outras propriedades](/microsoft-365/compliance/protect-documents-that-have-fci-or-other-properties)
+- [Usando a Prevenção contra perda de dados de ponto de extremidade](/microsoft-365/compliance/endpoint-dlp-using)
+- [Introdução à Prevenção contra perda de dados do ponto de extremidade](/microsoft-365/compliance/endpoint-dlp-getting-started)
 
 ### <a name="ediscovery"></a>Descoberta eletrônica
 
 O conteúdo foi adicionado ou atualizado nos seguintes tópicos:
 
-- [Descriptografia em Microsoft 365 ferramentas de Descoberta e](https://docs.microsoft.com/microsoft-365/compliance/ediscovery-decryption)
-- [Consultas de palavra-chave e condições da pesquisa](https://docs.microsoft.com/microsoft-365/compliance/keyword-queries-and-search-conditions#limitations-for-searching-sensitive-data-types)
-- [Ressalção do módulo De relevância no Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/relevance-module-retirement)
-- [Usar um script para adicionar usuários a uma responsabilidade em um caso de Descoberta Interna Principal](https://docs.microsoft.com/microsoft-365/compliance/use-a-script-to-add-users-to-a-hold-in-ediscovery)
+- [Descriptografia em Microsoft 365 ferramentas de Descoberta e](/microsoft-365/compliance/ediscovery-decryption)
+- [Consultas de palavra-chave e condições da pesquisa](/microsoft-365/compliance/keyword-queries-and-search-conditions#limitations-for-searching-sensitive-data-types)
+- [Ressalção do módulo De relevância no Advanced eDiscovery](/microsoft-365/compliance/relevance-module-retirement)
+- [Usar um script para adicionar usuários a uma responsabilidade em um caso de Descoberta Interna Principal](/microsoft-365/compliance/use-a-script-to-add-users-to-a-hold-in-ediscovery)
 
 ### <a name="encryption"></a>Criptografia
 
@@ -192,30 +192,30 @@ O conteúdo foi adicionado ou atualizado nos seguintes tópicos:
 
 #### <a name="azure-rights-management-service-rms"></a>Serviço de Gerenciamento de Direitos do Azure (RMS)
 
-- [Recursos de criptografia de gerenciamento de cliente](https://docs.microsoft.com/microsoft-365/compliance/office-365-customer-managed-encryption-features)
-- [Exchange Online criptografia de email com o AD RMS](https://docs.microsoft.com/microsoft-365/compliance/information-rights-management-in-exchange-online). O suporte para esse serviço foi preterido. Você não pode mais usar o AD RMS em um ambiente Exchange híbrido. Em vez disso, migre para o Azure RMS.
+- [Recursos de criptografia de gerenciamento de cliente](/microsoft-365/compliance/office-365-customer-managed-encryption-features)
+- [Exchange Online criptografia de email com o AD RMS](/microsoft-365/compliance/information-rights-management-in-exchange-online). O suporte para esse serviço foi preterido. Você não pode mais usar o AD RMS em um ambiente Exchange híbrido. Em vez disso, migre para o Azure RMS.
 
 #### <a name="customer-key"></a>Chave de Cliente
 
-- [Chave do cliente para Microsoft 365 no nível do locatário](https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level)
-- [Visão geral da segurança e conformidade](https://docs.microsoft.com/microsoftteams/security-compliance-overview)
+- [Chave do cliente para Microsoft 365 no nível do locatário](/microsoft-365/compliance/customer-key-tenant-level)
+- [Visão geral da segurança e conformidade](/microsoftteams/security-compliance-overview)
 
 #### <a name="information-rights-management-irm"></a>Gerenciamento de Direitos de Informação (IRM)
 
-- [Aplicar o IRM (Gerenciamento de Direitos de Informação) a uma lista ou biblioteca.](https://docs.microsoft.com/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) Essas nuvens nacionais não suportam essa configuração:
+- [Aplicar o IRM (Gerenciamento de Direitos de Informação) a uma lista ou biblioteca.](/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) Essas nuvens nacionais não suportam essa configuração:
     - Microsoft Cloud para o Governo dos EUA
     - Microsoft Cloud Germany
     - Azure e Microsoft 365 operados pela 21Vianet na China)
-- [Configure o IRM para usar um servidor AD RMS local.](https://docs.microsoft.com/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) O suporte a esse serviço em um ambiente Exchange híbrido foi preterido.
+- [Configure o IRM para usar um servidor AD RMS local.](/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) O suporte a esse serviço em um ambiente Exchange híbrido foi preterido.
 
 ### <a name="sensitive-information-types"></a>Tipos de informações confidenciais
 
 O conteúdo foi adicionado ou atualizado nos seguintes tópicos:
 
-- [Aprenda sobre os tipos de informações confidenciais](https://docs.microsoft.com/microsoft-365/compliance/sensitive-information-type-learn-about)
-- [Criar um tipo de informação confidencial personalizado usando o PowerShell](https://docs.microsoft.com/microsoft-365/compliance/create-a-custom-sensitive-information-type-in-scc-powershell)
-- [Criar tipos de informações confidenciais personalizados com classificação baseada em Exact Data Match](https://docs.microsoft.com/microsoft-365/compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification)
-- [Definições da entidade do tipo de informações confidenciais](https://docs.microsoft.com/microsoft-365/compliance/sensitive-information-type-entity-definitions)
+- [Aprenda sobre os tipos de informações confidenciais](/microsoft-365/compliance/sensitive-information-type-learn-about)
+- [Criar um tipo de informação confidencial personalizado usando o PowerShell](/microsoft-365/compliance/create-a-custom-sensitive-information-type-in-scc-powershell)
+- [Criar tipos de informações confidenciais personalizados com classificação baseada em Exact Data Match](/microsoft-365/compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification)
+- [Definições da entidade do tipo de informações confidenciais](/microsoft-365/compliance/sensitive-information-type-entity-definitions)
 
 
 ### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
@@ -255,7 +255,7 @@ O primeiro é o conteúdo que une nossas soluções de risco insider: conformida
 - [Nova página de aterrissagem para soluções de risco insider.](insider-risk-solution-overview.md) Inclui detalhes sobre os riscos que as soluções podem ajudar a reduzir, requisitos de licenciamento, sequência de implantação, ilustrações de arquitetura, recursos de treinamento e muito mais.
 - Novos artigos de visão geral para cada solução de risco interno. Diretrizes e links para artigos que ajudam você a aprender sobre, planejar, implantar e gerenciar cada solução:
   - [Conformidade em comunicações](communication-compliance-solution-overview.md)
-  - [Gerenciamento de risco interno](insider-risk-management-solution-overview.md)
+  - [Gerenciamento de riscos insider](insider-risk-management-solution-overview.md)
   - [Barreiras de informações](information-barriers-solution-overview.md)
   - [Gerenciamento de acesso privilegiado](privileged-access-management-solution-overview.md)
   

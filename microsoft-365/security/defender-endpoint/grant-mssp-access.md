@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 320355f838db5dbb1540350e95e4cc0645acd805
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 311903cdd1409f4ab997641cc842ff199ce2500d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932746"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843101"
 ---
 # <a name="grant-managed-security-service-provider-mssp-access-preview"></a>Conceder acesso ao MSSP (provedor de serviços de segurança gerenciado) (visualização)
 
@@ -41,9 +41,9 @@ Para implementar uma solução de acesso delegado de vários locatários, tome a
 
 1. Habilita o controle de acesso baseado em função no Defender para Ponto de Extremidade e [conecte-se](rbac.md) com grupos do Active Directory (AD).
 
-2. Configurar [Pacotes de Acesso à Governança](https://docs.microsoft.com/azure/active-directory/governance/identity-governance-overview) para solicitação e provisionamento de acesso.
+2. Configurar [Pacotes de Acesso à Governança](/azure/active-directory/governance/identity-governance-overview) para solicitação e provisionamento de acesso.
 
-3. Gerenciar solicitações e auditorias de acesso no [Microsoft Myaccess](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-request-approve).
+3. Gerenciar solicitações e auditorias de acesso no [Microsoft Myaccess](/azure/active-directory/governance/entitlement-management-request-approve).
 
 ## <a name="enable-role-based-access-controls-in-microsoft-defender-for-endpoint"></a>Habilitar controles de acesso baseados em função no Microsoft Defender para Ponto de Extremidade
 
@@ -58,7 +58,7 @@ Para implementar uma solução de acesso delegado de vários locatários, tome a
 
 2. Crie funções do Defender para Ponto de Extremidade para níveis de acesso apropriados no Customer Defender for Endpoint.
 
-    Para habilitar o RBAC no Centro de Segurança do Microsoft Defender do cliente, acesse Configurações > Permissões > **Funções** e "Ativar funções", de uma conta de usuário com direitos de Administrador Global ou Administrador de Segurança.
+    Para habilitar o RBAC no cliente Central de Segurança do Microsoft Defender, acesse Configurações > Permissões > **Funções** e "Ativar funções", de uma conta de usuário com direitos de Administrador Global ou Administrador de Segurança.
 
     ![Imagem do acesso ao MSSP](images/mssp-access.png)
 
@@ -92,7 +92,7 @@ Para implementar uma solução de acesso delegado de vários locatários, tome a
 
     ![Imagem do novo catálogo](images/goverance-catalog.png)
 
-    Mais informações em [Criar um catálogo de recursos.](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-catalog-create)
+    Mais informações em [Criar um catálogo de recursos.](/azure/active-directory/governance/entitlement-management-catalog-create)
 
 
 3. **Criar pacotes de acesso para recursos MSSP Customer AAD: Identity Governance**
@@ -109,7 +109,7 @@ Para implementar uma solução de acesso delegado de vários locatários, tome a
     > [!div class="mx-imgBorder"]
     > ![Imagem do novo pacote de acesso](images/new-access-package.png)
 
-    Para obter mais informações, [consulte Create a new access package](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-access-package-create).
+    Para obter mais informações, [consulte Create a new access package](/azure/active-directory/governance/entitlement-management-access-package-create).
 
 
 4. **Fornecer link de solicitação de acesso aos recursos do MSSP do AAD do Cliente: Governança de Identidade**
@@ -132,7 +132,7 @@ Para implementar uma solução de acesso delegado de vários locatários, tome a
     Exemplo:  `https://myaccess.microsoft.com/@M365x440XXX.onmicrosoft.com#/`   
 2. Aprovar ou negar solicitações na seção **Aprovações** da interface do usuário.
 
-    Neste ponto, o acesso ao analista foi provisionado e cada analista deve poder acessar o Centro de Segurança do Microsoft Defender do cliente: `https://securitycenter.Microsoft.com/?tid=<CustomerTenantId>`
+    Neste ponto, o acesso de analistas foi provisionado, e cada analista deve ser capaz de acessar o cliente Central de Segurança do Microsoft Defender:`https://securitycenter.Microsoft.com/?tid=<CustomerTenantId>`
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Acessar o portal do cliente MSSP](access-mssp-portal.md)

@@ -1,7 +1,7 @@
 ---
 title: Práticas recomendadas de consulta de busca avançada no Microsoft 365 Defender
 description: Saiba como construir consultas de busca de ameaças rápidas, eficientes e sem erros com a busca avançada
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, esquema, kusto, evitar tempo de espera, linhas de comando, id do processo, otimizar, prática, análise, participar, resumir
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, esquema, kusto, evitar tempo de espera, linhas de comando, id do processo, otimizar, prática prática melhor, analisar, participar, resumir
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -265,7 +265,7 @@ Há várias funções que você pode usar para lidar com cadeias de caracteres c
 Para saber mais sobre todas as funções de análise com suporte, [leia sobre as funções de cadeia de caracteres kusto](/azure/data-explorer/kusto/query/scalarfunctions#string-functions). 
 
 >[!NOTE]
->Algumas tabelas neste artigo podem não estar disponíveis no Microsoft Defender para Ponto de Extremidade. [A turn on Microsoft 365 Defender](m365d-enable.md) to hunt for threats using more data sources. Você pode mover seus fluxos de trabalho de busca avançados do Microsoft Defender para o Endpoint para o Microsoft 365 Defender seguindo as etapas em Migrar consultas de busca avançadas do Microsoft Defender para o Ponto de [Extremidade.](advanced-hunting-migrate-from-mde.md)
+>Algumas tabelas neste artigo podem não estar disponíveis no Microsoft Defender para Ponto de Extremidade. [A Microsoft 365 Defender para](m365d-enable.md) procurar ameaças usando mais fontes de dados. Você pode mover seus fluxos de trabalho de busca avançados do Microsoft Defender para o Endpoint para o Microsoft 365 Defender seguindo as etapas em Migrar consultas de busca avançadas do Microsoft Defender para o Ponto de [Extremidade.](advanced-hunting-migrate-from-mde.md)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Documentação de idioma de consulta kusto](/azure/data-explorer/kusto/query/)

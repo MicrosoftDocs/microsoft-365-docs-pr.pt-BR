@@ -56,7 +56,7 @@ Uma notificação de spam do usuário final contém as seguintes informações p
 
 - **Data**: a data e a hora (em UTC) em que a mensagem foi colocada em quarentena.
 
-- **Bloquear Remetente**: clique neste link para adicionar o remetente à lista Remetentes Bloqueados em sua caixa de correio. Para obter mais informações, consulte [Bloquear um remetente de email](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4).
+- **Bloquear Remetente**: clique neste link para adicionar o remetente à lista Remetentes Bloqueados em sua caixa de correio. Para obter mais informações, consulte [Bloquear um remetente](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4).
 
 - **Versão**: para mensagens de spam (não phishing), você pode liberar a mensagem aqui sem ir para Quarentena do Centro de Conformidade & Segurança.
 

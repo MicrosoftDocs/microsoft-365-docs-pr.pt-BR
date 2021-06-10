@@ -1,5 +1,5 @@
 ---
-title: Avaliar o Microsoft Defender para o Ponto de Extremidade
+title: Avaliar o Microsoft Defender para Ponto de Extremidade
 ms.reviewer: ''
 description: Avalie os diferentes recursos de segurança no Microsoft Defender para Ponto de Extremidade.
 keywords: redução de superfície de ataque, avaliação, próxima, geração, proteção
@@ -17,14 +17,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d13f13872954978a14454d8f3c0e66970606bd21
-ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
+ms.openlocfilehash: e7f065c5f42b62885c3c0fde7b402490f86ec2ba
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51218767"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843193"
 ---
-# <a name="evaluate-microsoft-defender-for-endpoint"></a>Avaliar o Microsoft Defender para o Ponto de Extremidade 
+# <a name="evaluate-microsoft-defender-for-endpoint"></a>Avaliar o Microsoft Defender para Ponto de Extremidade 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -48,14 +48,14 @@ Esses recursos ajudam a impedir que ataques e explorações infectem sua organiz
 - [Avaliar a proteção de exploração](./evaluate-exploit-protection.md)
 - [Avaliar a proteção de rede](./evaluate-exploit-protection.md)
 - [Avaliar o acesso controlado a pastas](./evaluate-controlled-folder-access.md)
-- [Avaliar o application guard](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/test-scenarios-md-app-guard)
-- [Avaliar firewall de rede](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/evaluating-windows-firewall-with-advanced-security-design-examples)
+- [Avaliar o application guard](/windows/security/threat-protection/microsoft-defender-application-guard/test-scenarios-md-app-guard)
+- [Avaliar firewall de rede](/windows/security/threat-protection/windows-firewall/evaluating-windows-firewall-with-advanced-security-design-examples)
 
 ## <a name="evaluate-next-generation-protection"></a>Avaliar a proteção de última geração
 
 As proteções de próxima geração ajudam a detectar e bloquear as ameaças mais recentes.
 
-- [Avaliar antivírus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/evaluate-microsoft-defender-antivirus)
+- [Avaliar antivírus](/windows/security/threat-protection/microsoft-defender-antivirus/evaluate-microsoft-defender-antivirus)
 
 ## <a name="see-also"></a>Confira também
 

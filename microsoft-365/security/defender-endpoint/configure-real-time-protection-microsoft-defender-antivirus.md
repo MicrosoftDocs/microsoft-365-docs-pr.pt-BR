@@ -56,7 +56,7 @@ Para habilitar e configurar a proteção always-on:
 
     1. No painel **Microsoft Defender Antivírus** detalhes à direita, clique duas vezes na configuração de política, conforme especificado na tabela a seguir:
 
-       | Setting | Descrição | Configuração padrão |
+       | Configuração | Descrição | Configuração padrão |
        |-----------------------------|------------------------|-------------------------------|
        | Permitir que o serviço antimalware seja inicializado com prioridade normal | Você pode reduzir a prioridade do mecanismo Microsoft Defender Antivírus, o que pode ser útil em implantações leves onde você deseja ter o mais enxuto possível de um processo de inicialização. Isso pode afetar a proteção no ponto de extremidade. | Habilitado
        | Permitir que o serviço antimalware permaneça em execução sempre | Se as atualizações de proteção foram desabilitadas, você pode definir Microsoft Defender Antivírus a ser executado. Isso reduz a proteção no ponto de extremidade. | Desabilitado |
@@ -71,7 +71,7 @@ Para habilitar e configurar a proteção always-on:
     
     1. No painel **Detalhes da Proteção** em Tempo Real à direita, clique duas vezes na configuração de política, conforme especificado na tabela a seguir:  
 
-       | Setting | Descrição | Configuração padrão |
+       | Configuração | Descrição | Configuração padrão |
        |-----------------------------|------------------------|-------------------------------|
        | Ativar o monitoramento de comportamento | O mecanismo AV monitorará processos de arquivo, alterações de arquivo e registro e outros eventos em seus pontos de extremidade para atividades mal-intencionadas suspeitas e conhecidas. | Habilitado |
        | Examinar todos os arquivos e anexos baixados | Arquivos baixados e anexos são verificados automaticamente. Isso funciona além do filtro Windows Defender SmartScreen, que verifica arquivos antes e durante o download. | Habilitado |
@@ -98,7 +98,7 @@ Para habilitar e configurar a proteção always-on:
 
     1. No painel **Verificar** detalhes à direita, clique duas vezes na configuração de política conforme especificado na tabela a seguir:
 
-       | Setting | Descrição | Configuração padrão |
+       | Configuração | Descrição | Configuração padrão |
        |-----------------------------|------------------------|-------------------------------|    
        | Ativar heurística | A proteção heurística desabilitará ou bloqueará atividades suspeitas imediatamente antes que o mecanismo Microsoft Defender Antivírus seja solicitado a detectar a atividade. | Habilitado |
 
@@ -139,4 +139,4 @@ Para desabilitar a proteção em tempo real na política de grupo:
 ## <a name="related-articles"></a>Artigos relacionados
 
 - [Configurar a proteção comportamental, heurística e em tempo real](configure-protection-features-microsoft-defender-antivirus.md)
-- [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Microsoft Defender Antivirus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)

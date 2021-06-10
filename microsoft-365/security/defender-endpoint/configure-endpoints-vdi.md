@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/16/2020
 ms.technology: mde
-ms.openlocfilehash: 3872be343e51c4e28f946192256932b048a23791
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d09967a18848365702f52f65a7f0624d2b2ae3d6
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933896"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843205"
 ---
 # <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>Integrar dispositivos não persistentes de VDI (virtual desktop infrastructure)
 
@@ -63,7 +63,7 @@ As etapas a seguir orientarão você através da integração de dispositivos VD
 
 ### <a name="for-windows-10-or-windows-server-2019"></a>Para Windows 10 ou Windows Server 2019
 
-1.  Abra o arquivo .zip do pacote de configuração da VDI *(WindowsDefenderATPOnboardingPackage.zip*) que você baixou do assistente de integração do serviço. Você também pode obter o pacote do [Centro de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
+1.  Abra o arquivo de pacote de configuração .zip *VDI*(WindowsDefenderATPOnboardingPackage.zip) que você baixou do assistente de integração do serviço. Você também pode obter o pacote de [Central de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
 
     1.  No painel de navegação, selecione **Configurações**  >  **Integração**.
 
@@ -71,7 +71,7 @@ As etapas a seguir orientarão você através da integração de dispositivos VD
 
     1.  No campo **Método de implantação,** selecione scripts de **integração VDI para pontos de extremidade** não persistentes .
 
-    1. Clique **em Baixar pacote** e salve o arquivo .zip.
+    1. Clique **em Baixar pacote** e salve o .zip arquivo.
 
 2. Copie os arquivos da pasta WindowsDefenderATPOnboardingPackage extraída do arquivo .zip para a imagem `golden/master` sob o caminho `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` . 
 
@@ -82,7 +82,7 @@ As etapas a seguir orientarão você através da integração de dispositivos VD
     > [!NOTE]
     > Se você não vir a `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` pasta, ela poderá estar oculta. Você precisará escolher a opção Mostrar arquivos **e pastas ocultos** no Explorador de Arquivos.
 
-3. Abra uma janela Editor de Política de Grupo Local e navegue até **Configuração** do  >  **Computador Configuração** do Windows  >  **Scripts**  >  **Inicialização**.
+3. Abra uma janela Editor de Política de Grupo Local e navegue até **Configuração** do  >  **Computador Windows Configurações**  >  **Inicialização de**  >  **Scripts**.
 
    > [!NOTE]
    > A Política de Grupo de Domínio também pode ser usada para a integração de dispositivos VDI não persistentes.
@@ -91,11 +91,11 @@ As etapas a seguir orientarão você através da integração de dispositivos VD
 
    - Para entrada única para cada dispositivo:
    
-     Selecione a **guia Scripts** do PowerShell e clique em **Adicionar** (o Windows Explorer abrirá diretamente no caminho onde você copiou o script de integração anteriormente). Navegue até o script do PowerShell de `Onboard-NonPersistentMachine.ps1` integração. Não é necessário especificar o outro arquivo, pois ele será disparado automaticamente.
+     Selecione a **guia Scripts** do PowerShell e clique em **Adicionar** (Windows Explorer abrirá diretamente no caminho onde você copiou o script de integração anteriormente). Navegue até o script do PowerShell de `Onboard-NonPersistentMachine.ps1` integração. Não é necessário especificar o outro arquivo, pois ele será disparado automaticamente.
    
    - Para várias entradas para cada dispositivo:
    
-     Selecione a **guia Scripts** e clique em **Adicionar** (o Windows Explorer abrirá diretamente no caminho onde você copiou o script de integração anteriormente). Navegue até o script bash de `WindowsDefenderATPOnboardingScript.cmd` integração.
+     Selecione a **guia Scripts** e clique em **Adicionar** (Windows Explorer abrirá diretamente no caminho onde você copiou o script de integração anteriormente). Navegue até o script bash de `WindowsDefenderATPOnboardingScript.cmd` integração.
 
 5. Teste sua solução:
 
@@ -111,11 +111,11 @@ As etapas a seguir orientarão você através da integração de dispositivos VD
    
       - Para entrada única para cada dispositivo: 
     
-        Verifique apenas uma entrada no Centro de Segurança do Microsoft Defender.
+        Verifique apenas uma entrada no Central de Segurança do Microsoft Defender.
 
       - Para várias entradas para cada dispositivo: 
        
-        Verifique várias entradas no Centro de Segurança do Microsoft Defender.
+        Verifique várias entradas no Central de Segurança do Microsoft Defender.
 
 6. Clique **na lista Dispositivos** no painel De navegação.
 
@@ -155,9 +155,9 @@ DISM /Unmount-Image /MountDir:"C:\Temp\OfflineServicing" /commit
 ```
 
 Para obter mais informações sobre comandos DISM e manutenção offline, consulte os artigos abaixo:
-- [Modificar uma imagem do Windows usando o DISM](https://docs.microsoft.com/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism)
-- [Opções de gerenciamento de imagens Command-Line DISM](https://docs.microsoft.com/windows-hardware/manufacture/desktop/dism-image-management-command-line-options-s14)
-- [Reduzir o tamanho do Armazenamento de Componentes em uma imagem offline do Windows](https://docs.microsoft.com/windows-hardware/manufacture/desktop/reduce-the-size-of-the-component-store-in-an-offline-windows-image)
+- [Modificar uma Windows usando DISM](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism)
+- [Opções de gerenciamento de imagens Command-Line DISM](/windows-hardware/manufacture/desktop/dism-image-management-command-line-options-s14)
+- [Reduzir o tamanho do Armazenamento de Componentes em uma imagem Windows Offline](/windows-hardware/manufacture/desktop/reduce-the-size-of-the-component-store-in-an-offline-windows-image)
 
 Se a manutenção offline não for uma opção viável para seu ambiente VDI não persistente, as etapas a seguir devem ser tomadas para garantir a consistência e a saúde do sensor:
 
@@ -184,8 +184,8 @@ Se a manutenção offline não for uma opção viável para seu ambiente VDI nã
 5. Sele a imagem dourada/mestra como normalmente faria.
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Integração de dispositivos Windows 10 usando a Política de Grupo](configure-endpoints-gp.md)
-- [Integração de dispositivos Windows 10 usando o Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
+- [Integração Windows 10 usando a Política de Grupo](configure-endpoints-gp.md)
+- [Integração Windows 10 dispositivos usando Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [Integrar dispositivo Windows 10 usando as ferramentas de Gerenciamento de Dispositivo Móvel](configure-endpoints-mdm.md)
 - [Integrar dispositivos Windows 10 usando um script local](configure-endpoints-script.md)
 - [Solucionar problemas de integração do Microsoft Defender para pontos de extremidade](troubleshoot-onboarding.md)

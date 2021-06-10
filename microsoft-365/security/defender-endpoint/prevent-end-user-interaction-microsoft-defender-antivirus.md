@@ -1,6 +1,6 @@
 ---
-title: Ocultar a interface do Microsoft Defender Antivírus
-description: Você pode ocultar o tile de proteção contra vírus e ameaças no aplicativo Segurança do Windows.
+title: Ocultar a Microsoft Defender Antivírus interface
+description: Você pode ocultar o tile de proteção contra vírus e ameaças no Segurança do Windows aplicativo.
 keywords: bloqueio da interface do usuário, modo sem cabeça, ocultar aplicativo, ocultar configurações, ocultar interface
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -23,7 +23,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/07/2021
 ms.locfileid: "52274911"
 ---
-# <a name="prevent-users-from-seeing-or-interacting-with-the-microsoft-defender-antivirus-user-interface"></a>Impedir que os usuários vejam ou interajam com a interface do usuário do Microsoft Defender Antivírus
+# <a name="prevent-users-from-seeing-or-interacting-with-the-microsoft-defender-antivirus-user-interface"></a>Impedir que os usuários vejam ou interajam com a Microsoft Defender Antivírus do usuário
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -32,26 +32,26 @@ ms.locfileid: "52274911"
 
 - [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
 
-Você pode usar a Política de Grupo para impedir que os usuários nos pontos de extremidade possam ver a interface do Microsoft Defender Antivírus. Você também pode impedi-los de pausar verificações.
+Você pode usar a Política de Grupo para impedir que os usuários nos pontos de extremidade possam ver a Microsoft Defender Antivírus interface. Você também pode impedi-los de pausar verificações.
 
-## <a name="hide-the-microsoft-defender-antivirus-interface"></a>Ocultar a interface do Microsoft Defender Antivírus
+## <a name="hide-the-microsoft-defender-antivirus-interface"></a>Ocultar a Microsoft Defender Antivírus interface
 
-No Windows 10, versões 1703, ocultar a interface ocultará as notificações do Microsoft Defender Antivírus e impedirá que o & proteção contra vírus apareça no aplicativo segurança do Windows.
+No Windows 10, versões 1703, ocultar Microsoft Defender Antivírus interface ocultará as notificações do Microsoft Defender Antivírus e impedirá que o & de proteção contra & vírus apareça no aplicativo Segurança do Windows.
 
 Com a configuração definida como **Habilitado:**
 
-![Captura de tela do Windows Security sem o ícone de escudo e a seção proteção contra vírus e ameaças](images/defender/wdav-headless-mode-1703.png)
+![Captura de tela de Segurança do Windows sem o ícone de escudo e a seção proteção contra vírus e ameaças](images/defender/wdav-headless-mode-1703.png)
 
 Com a configuração definida como **Desabilitada** ou não configurada:
 
-![Captura de tela do Windows Security mostrando o ícone de escudo e a seção proteção contra vírus e ameaças](images/defender/wdav-headless-mode-off-1703.png)
+![Captura de tela Segurança do Windows o ícone de escudo e a seção proteção contra vírus e ameaças](images/defender/wdav-headless-mode-off-1703.png)
 
 >[!NOTE]
->Ocultar a interface também impedirá que as notificações do Microsoft Defender Antivírus apareçam no ponto de extremidade. As notificações do Microsoft Defender para Ponto de Extremidade ainda serão exibidas. Você também pode configurar individualmente [as notificações que aparecem nos pontos de extremidade](configure-notifications-microsoft-defender-antivirus.md)
+>Ocultar a interface também impedirá que Microsoft Defender Antivírus notificações apareçam no ponto de extremidade. As notificações do Microsoft Defender para Ponto de Extremidade ainda serão exibidas. Você também pode configurar individualmente [as notificações que aparecem nos pontos de extremidade](configure-notifications-microsoft-defender-antivirus.md)
 
-Em versões anteriores do Windows 10, a configuração ocultará a interface Windows Defender cliente. Se o usuário tentar abri-lo, ele receberá um aviso informando: "O administrador do sistema tem acesso restrito a esse aplicativo".
+Em versões anteriores Windows 10, a configuração ocultará a interface Windows Defender cliente. Se o usuário tentar abri-lo, ele receberá um aviso informando: "O administrador do sistema tem acesso restrito a esse aplicativo".
 
-![Mensagem de aviso quando o modo sem cabeça está habilitado no Windows 10, versões anteriores a 1703](images/defender/wdav-headless-mode-1607.png)
+![Mensagem de aviso quando o modo sem cabeça estiver habilitado Windows 10, versões anteriores a 1703](images/defender/wdav-headless-mode-1607.png)
 
 ## <a name="use-group-policy-to-hide-the-microsoft-defender-av-interface-from-users"></a>Usar a Política de Grupo para ocultar a interface do Microsoft Defender AV dos usuários
 
@@ -61,7 +61,7 @@ Em versões anteriores do Windows 10, a configuração ocultará a interface Win
 
 3. Clique **em Modelos Administrativos**.
 
-4. Expanda a árvore para componentes do Windows > interface do Cliente do **Microsoft Defender Antivírus >.**
+4. Expanda a árvore para **Windows componentes > Microsoft Defender Antivírus > Interface do Cliente.**
 
 5. Clique duas vezes na **configuração Habilitar modo de interface** do usuário sem cabeça e de definir a opção **como Habilitado**. Clique em **OK**. 
 
@@ -82,14 +82,14 @@ Você pode impedir que os usuários pausem verificações, o que pode ser útil 
 
 3. Clique **em Modelos Administrativos**.
 
-4. Expanda a árvore para **componentes do Windows**  >  **Microsoft Defender**  >  **Antivírus Scan**.
+4. Expanda a árvore para **Windows componentes**  >  **Microsoft Defender Antivírus**  >  **Scan**.
 
 5. Clique duas vezes na **configuração Permitir que os usuários pausem a verificação** e de definir a opção como **Desabilitada**. Clique em **OK**. 
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Configurar as notificações que aparecem nos pontos de extremidade](configure-notifications-microsoft-defender-antivirus.md)
+- [Configurar as notificações exibidas nos pontos de extremidade](configure-notifications-microsoft-defender-antivirus.md)
 
-- [Configurar a interação do usuário final com o Microsoft Defender Antivírus](configure-end-user-interaction-microsoft-defender-antivirus.md)
+- [Configurar a interação do usuário final com Microsoft Defender Antivírus](configure-end-user-interaction-microsoft-defender-antivirus.md)
 
-- [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Microsoft Defender Antivirus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)

@@ -19,7 +19,7 @@ f1.keywords:
 ms.assetid: 94f4e86d-b8e5-42dd-b558-e6092f830ec9
 ms.custom:
 - seo-marvel-apr2020
-description: Use os cmdlets do PowerShell de Implantação Centralizada para ajudá-lo a implantar e gerenciar os complementos do Office para sua organização do Microsoft 365.
+description: Use os cmdlets do PowerShell de Implantação Centralizada para ajudá-lo Office a implantar e gerenciar os Office para sua Microsoft 365 organização.
 ms.openlocfilehash: 7872deedfcfe058f0a4ac63c489bbed139699d18
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -29,7 +29,7 @@ ms.locfileid: "50924667"
 ---
 # <a name="use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins"></a>Usar os cmdlets do PowerShell de Implantação Centralizada para gerenciar suplementos
 
-Como administrador global do Microsoft 365, você pode implantar os complementos do Office para usuários por meio do recurso Implantação Centralizada (consulte [Deploy Office Add-ins in the admin center](../admin/manage/manage-deployment-of-add-ins.md)). Além de implantar os complementos do Office por meio do Centro de administração do Microsoft 365, você também pode usar o Microsoft PowerShell. Instale o Módulo de Implantação centralizado [Add-In O365 para Windows PowerShell](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment). 
+Como administrador Microsoft 365 global, você pode implantar Office de usuários por meio do recurso Implantação Centralizada (consulte [Deploy Office Add-ins in the admin center](../admin/manage/manage-deployment-of-add-ins.md)). Além de implantar Office por meio do centro de administração Microsoft 365, você também pode usar o Microsoft PowerShell. Instale o Módulo de Implantação centralizado [Add-In O365 para Windows PowerShell](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment). 
 
 Depois de baixar o módulo, abra uma janela Windows PowerShell regular e execute o seguinte cmdlet:
 
@@ -37,19 +37,19 @@ Depois de baixar o módulo, abra uma janela Windows PowerShell regular e execute
  Import-Module -Name O365CentralizedAddInDeployment
 ```
     
-## <a name="connect-using-your-admin-credentials"></a>Conectar-se usando suas credenciais de administrador
+## <a name="connect-using-your-admin-credentials"></a>Conexão usando suas credenciais de administrador
 
 Antes de poder usar os cmdlets de Implantação Centralizada, você precisa entrar.
   
 1. Inicie o PowerShell.
     
-2. Conecte-se ao PowerShell usando as credenciais de administrador da sua empresa. Execute o cmdlet a seguir.
+2. Conexão ao PowerShell usando as credenciais de administrador da sua empresa. Execute o cmdlet a seguir.
     
   ```powershell
   Connect-OrganizationAddInService
   ```
 
-3. Na página **Inserir Credenciais,** insira suas credenciais de administrador global do Microsoft 365. Como alternativa, você pode inserir suas credenciais diretamente no cmdlet. 
+3. Na página **Inserir Credenciais,** insira suas credenciais de administrador Microsoft 365 globais. Como alternativa, você pode inserir suas credenciais diretamente no cmdlet. 
     
     Execute o cmdlet a seguir especificando as credenciais de administrador da empresa como um objeto PSCredential.
     
@@ -60,9 +60,9 @@ Antes de poder usar os cmdlets de Implantação Centralizada, você precisa entr
   ```
 
 > [!NOTE]
-> Para obter mais informações sobre como usar o PowerShell, consulte [Connect to Microsoft 365 with PowerShell](./connect-to-microsoft-365-powershell.md). 
+> Para obter mais informações sobre como usar o PowerShell, [consulte Conexão Microsoft 365 com o PowerShell](./connect-to-microsoft-365-powershell.md). 
   
-## <a name="upload-an-add-in-manifest"></a>Carregar um manifesto do add-in
+## <a name="upload-an-add-in-manifest"></a>Upload um manifesto de um complemento
 
 Execute o cmdlet **New-OrganizationAdd-In** para carregar um manifesto do complemento de um caminho, que pode ser um local de arquivo ou URL. O exemplo a seguir mostra um local de arquivo para o valor do _parâmetro ManifestPath._ 
   
@@ -76,7 +76,7 @@ Você também pode executar o cmdlet **New-OrganizationAdd-In** para carregar um
 New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale 'en-US' -Members  'KathyBonner@contoso.com', 'MaxHargrave@contoso.com'
 ```
 
-## <a name="upload-an-add-in-from-the-office-store"></a>Carregar um complemento da Office Store
+## <a name="upload-an-add-in-from-the-office-store"></a>Upload um complemento da Office Store
 
 Execute o cmdlet **New-OrganizationAddIn** para carregar um manifesto da Office Store.
   
@@ -86,7 +86,7 @@ No exemplo a seguir, o cmdlet **New-OrganizationAddIn** especifica a AssetId par
 New-OrganizationAddIn -AssetId 'WA104099688' -Locale 'en-US' -ContentMarket 'en-US'
 ```
 
-Para determinar o valor do parâmetro  _AssetId,_ você pode copiá-lo da URL da página da Web da Office Store para o complemento. AssetIds sempre começam com "WA" seguido por um número. Por exemplo, no exemplo anterior, a origem do valor AssetId de WA104099688 é a URL da página da Web da Office Store para o complemento: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688) .
+Para determinar o valor do parâmetro _AssetId,_ você pode copiá-lo da URL da página da Office Store para o complemento. AssetIds sempre começam com "WA" seguido por um número. Por exemplo, no exemplo anterior, a origem do valor AssetId de WA104099688 é Office URL da página da Web da Loja do Office para o complemento: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688) .
   
 Os valores do parâmetro  _Locale_ e do  _parâmetro ContentMarket_ são idênticos e indicam o país/região de onde você está tentando instalar o complemento. O formato é en-US, fr-FR. e assim por diante. 
   

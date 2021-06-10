@@ -110,10 +110,10 @@ Recomendamos que você inclua o Local de Dados Preferencial do usuário na confi
 
 ## <a name="onedrive-provisioning-and-the-effect-of-pdl"></a>Provisionamento do OneNote e efeito de PDL
 
-Se o usuário já tiver um site do OneDrive criado no locatário, configurar o PDL não moverá automaticamente o OneDrive existente. Para mover o OneDrive de um usuário, consulte [OneDrive for Business Geo Move](move-onedrive-between-geo-locations.md).
+Se o usuário já tiver um site do OneDrive criado no locatário, configurar o PDL não moverá automaticamente o OneDrive existente. Para mover a OneDrive de um usuário, [consulte OneDrive for Business Geo Move](move-onedrive-between-geo-locations.md).
 
 > [!NOTE]
-> O Exchange Online realoca automaticamente a caixa de correio do usuário se o PLD mudar e MailboxRegion não corresponde mais ao código de Localização Geográfica do Banco de Dados de Caixa de Correio. Para obter mais informações, consulte [Administering Exchange Online mailboxes in a multi-geo environment](./administering-exchange-online-multi-geo.md).
+> Exchange Online realoca automaticamente a caixa de correio do usuário se o PLD mudar e MailboxRegion não mais corresponde ao código de Localização Geográfica do Banco de Dados de Caixa de Correio. Para obter mais informações, consulte [Administering Exchange Online mailboxes in a multi-geo environment](./administering-exchange-online-multi-geo.md).
 
 Se o usuário não tiver um site do OneDrive no locatário, o OneDrive será provisionado para ele de acordo com o valor do PDL, supondo que o PDL do usuário corresponda a um dos locais de satélites da empresa.
 

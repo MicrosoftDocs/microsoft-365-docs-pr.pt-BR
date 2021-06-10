@@ -69,4 +69,4 @@ Use o [ **método Get** das **classes MSFT_MpThreat** e **MSFT_MpThreatDetection
 ## <a name="related-articles"></a>Artigos relacionados
 
 - [Personalizar, iniciar e revisar os resultados de Microsoft Defender Antivírus e correção](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
-- [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Microsoft Defender Antivirus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)

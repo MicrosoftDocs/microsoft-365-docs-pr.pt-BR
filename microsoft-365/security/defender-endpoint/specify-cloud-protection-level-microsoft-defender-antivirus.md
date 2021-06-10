@@ -1,7 +1,7 @@
 ---
-title: Especificar o nível de proteção fornecido na nuvem para o Microsoft Defender Antivírus
-description: De definir seu nível de proteção entregue na nuvem para o Microsoft Defender Antivírus.
-keywords: Microsoft Defender Antivírus, antimalware, segurança, defender, nuvem, agressividade, nível de proteção
+title: Especifique o nível de proteção fornecido na nuvem para Microsoft Defender Antivírus
+description: De definir seu nível de proteção entregue na nuvem para Microsoft Defender Antivírus.
+keywords: Microsoft Defender Antivírus, antimalware, segurança, defensor, nuvem, agressividade, nível de proteção
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 ms.prod: m365-security
@@ -35,12 +35,12 @@ ms.locfileid: "52274899"
 Você pode especificar seu nível de proteção entregue na nuvem oferecido pelo Microsoft Defender Antivírus usando o Microsoft Endpoint Manager (recomendado) ou a Política de Grupo.
 
 > [!TIP]
-> A proteção em nuvem não é simplesmente proteção para arquivos armazenados na nuvem. O serviço de nuvem do Microsoft Defender Antivírus é um mecanismo para fornecer proteção atualizada para sua rede e dispositivos (também chamados de pontos de extremidade). A proteção na nuvem com o Microsoft Defender Antivírus usa recursos distribuídos e aprendizado de máquina para oferecer proteção aos seus pontos de extremidade em uma taxa muito mais rápida do que as atualizações tradicionais de inteligência de segurança. O Microsoft Intune e o Microsoft Endpoint Manager agora fazem parte do [Microsoft Endpoint Manager.](/mem/endpoint-manager-overview) 
+> A proteção em nuvem não é simplesmente proteção para arquivos armazenados na nuvem. O Microsoft Defender Antivírus de nuvem é um mecanismo para fornecer proteção atualizada para sua rede e dispositivos (também chamados de pontos de extremidade). A proteção na nuvem com Microsoft Defender Antivírus usa recursos distribuídos e aprendizado de máquina para oferecer proteção aos seus pontos de extremidade em uma taxa muito mais rápida do que as atualizações tradicionais de inteligência de segurança. Microsoft Intune e Microsoft Endpoint Manager agora fazem parte [do Microsoft Endpoint Manager](/mem/endpoint-manager-overview). 
 
 
-## <a name="use-microsoft-endpoint-manager-to-specify-the-level-of-cloud-delivered-protection"></a>Usar o Microsoft Endpoint Manager para especificar o nível de proteção entregue na nuvem
+## <a name="use-microsoft-endpoint-manager-to-specify-the-level-of-cloud-delivered-protection"></a>Use Microsoft Endpoint Manager para especificar o nível de proteção entregue na nuvem
 
-1. Vá para o Centro de administração do Microsoft Endpoint Manager ( [https://endpoint.microsoft.com](https://endpoint.microsoft.com) ) e entre.
+1. Vá para o Microsoft Endpoint Manager de administração ( [https://endpoint.microsoft.com](https://endpoint.microsoft.com) ) e entre.
 
 2. Escolha **Endpoint security**  >  **Antivírus**.
 
@@ -58,7 +58,7 @@ Você pode especificar seu nível de proteção entregue na nuvem oferecido pelo
 
 > [!TIP]
 > Precisa de ajuda? Consulte os seguintes recursos:
-> - [Configurar a Proteção de Ponto de Extremidade](/mem/configmgr/protect/deploy-use/endpoint-protection-configure)
+> - [Configurar Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection-configure)
 > - [Adicionar configurações de proteção de ponto de extremidade no Intune](/mem/intune/protect/endpoint-protection-configure)
   
 
@@ -70,7 +70,7 @@ Você pode especificar seu nível de proteção entregue na nuvem oferecido pelo
 
 3.  No Editor **de Gerenciamento de Política de Grupo,** vá para **Configuração** do Computador  >  **Modelos administrativos.**
 
-4.  Expanda a árvore para **Componentes do Windows**  >  **Microsoft Defender**  >  **Antivírus MpEngine**.
+4.  Expanda a árvore para **Windows**  >  **Componentes Microsoft Defender Antivírus**  >  **MpEngine**.
 
 5.  Clique duas vezes na **configuração Selecionar nível** de proteção na nuvem e des ajuste-o **como Habilitado**. Selecione o nível de proteção:
     - **O nível de bloqueio padrão** fornece uma detecção forte sem aumentar o risco de detectar arquivos legítimos.
@@ -87,10 +87,10 @@ Você pode especificar seu nível de proteção entregue na nuvem oferecido pelo
 7. Implante seu objeto de Política de Grupo atualizado. Consulte [Console de Gerenciamento de Política de Grupo](/windows/win32/srvnodes/group-policy)
 
 > [!TIP]
-> Você está usando Objetos de Política de Grupo no local? Veja como eles se traduzem na nuvem. Analisar seus objetos de política de grupo local usando análise de Política de Grupo [no Microsoft Endpoint Manager - Visualização](/mem/intune/configuration/group-policy-analytics). 
+> Você está usando Objetos de Política de Grupo no local? Veja como eles se traduzem na nuvem. [Analisar seus objetos de política de grupo local usando a análise da](/mem/intune/configuration/group-policy-analytics)Política de Grupo em Microsoft Endpoint Manager - Visualização . 
   
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
-- [Habilitar a proteção entregue na nuvem](enable-cloud-protection-microsoft-defender-antivirus.md)
+- [Microsoft Defender Antivirus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Ativar proteção fornecida pela nuvem](enable-cloud-protection-microsoft-defender-antivirus.md)
 - [Como criar e implantar políticas antimalware: serviço de proteção na nuvem](/configmgr/protect/deploy-use/endpoint-antimalware-policies#cloud-protection-service)

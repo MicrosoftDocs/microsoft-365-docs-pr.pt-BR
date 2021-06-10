@@ -142,4 +142,4 @@ Microsoft Defender Offline os resultados da verificação serão listados na se�
 ## <a name="related-articles"></a>Artigos relacionados
 
 - [Personalizar, iniciar e revisar os resultados de verificações e correção](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
-- [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Microsoft Defender Antivirus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)

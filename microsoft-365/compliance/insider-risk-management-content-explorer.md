@@ -1,7 +1,7 @@
 ---
 title: Insider risk management Explorador de conteúdo
 description: Saiba mais sobre o gerenciamento de risco interno Explorador de conteúdo no Microsoft 365
-keywords: Microsoft 365, gerenciamento de risco interno, gerenciamento de riscos, conformidade
+keywords: Microsoft 365, gerenciamento de risco interno, gerenciamento de risco, conformidade
 localization_priority: Normal
 ms.prod: microsoft-365-enterprise
 ms.topic: article

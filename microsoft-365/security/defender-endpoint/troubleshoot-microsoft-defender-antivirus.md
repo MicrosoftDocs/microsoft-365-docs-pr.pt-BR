@@ -1204,7 +1204,7 @@ Ação do usuário:
 O Microsoft Defender Antivírus cliente encontrou esse erro devido a problemas críticos. O ponto de extremidade pode não estar protegido. Revise a descrição do erro e siga as etapas <b>de ação do usuário</b> relevantes abaixo.
 <table>
 <tr>
-<th>Ação</th>
+<th>Action</th>
 <th>Ação do usuário</th>
 </tr>
 <tr>
@@ -1353,20 +1353,20 @@ Descrição:
 Relatório de saúde do cliente antivírus.
 <dl>
 <dt>Versão da plataforma: &lt; &gt;</dt>Versão do mecanismo da plataforma
-<dt>atual: versão &lt; &gt; </dt>do mecanismo de inspeção em tempo real de rede da Antimalware Engine versão: Versão do mecanismo de inspeção em tempo
-<dt> &lt; real &gt; </dt>de rede Versão de assinatura antivírus
-<dt> &lt; &gt; Versão</dt>de assinatura
-<dt>antispyware Versão da assinatura do &lt; Antispyware &gt; </dt>Versão da assinatura de Inspeção real de
-<dt>Rede: Estado da versão RTP da assinatura de Inspeção em Tempo &lt; Real &gt; </dt>da Rede: Estado do OA de proteção em tempo real
-<dt> &lt; &gt; (habilitado</dt>ou desabilitado) estado do OA: Estado do IOAV no acesso
-<dt> &lt; &gt; (habilitado</dt>ou desabilitado) estado do IOAV: IE Download Estado BM
-<dt>dos &lt; Anexos Expressos &gt; e</dt>do
-<dt>Outlook: Estado BM: Estado do Monitoramento de Comportamento (Habilitado ou &lt; Desabilitado) &gt; </dt>Idade da assinatura do antivírus: Idade da assinatura do antivírus
-<dt> &lt; &gt; (em dias)</dt>Idade da assinatura do Antispyware: idade da assinatura do
-<dt> &lt; Antispyware &gt; (em dias)</dt>Idade da última verificação rápida: Idade da última verificação rápida
-<dt> &lt; &gt; (em dias)</dt>Última idade de verificação completa: Última idade de verificação completa
-<dt> &lt; &gt; (em dias)</dt>Tempo de criação da assinatura do Antivírus:
-<dt>? &lt; Tempo de &gt; criação de assinatura antivírus</dt>Hora de criação da assinatura do
+<dt>atual: versão do mecanismo &lt; &gt; </dt>de inspeção em tempo real de rede da Antimalware Engine: versão do mecanismo de inspeção em tempo
+<dt> &lt; &gt; real</dt>de rede Versão de assinatura antivírus
+<dt>Versão &lt; &gt; </dt>de assinatura do antivírus Versão de assinatura do
+<dt> &lt; Antispyware: &gt; versão</dt>de assinatura de Inspeção em Tempo Real da Rede Versão
+<dt>da &lt; &gt; </dt>assinatura de Inspeção de Rede Estado RTP: Estado da proteção em tempo real
+<dt> &lt; &gt; (Habilitar Estado</dt>OA do OD ou desabilitado: estado do IOAV no access
+<dt> &lt; &gt; (habilitado</dt>ou desabilitado) estado: IE Downloads e Outlook estado de
+<dt> &lt; anexos expressos &gt; (habilitados</dt>ou desabilitados) estado BM: Estado de Monitoramento de Comportamento (Habilitado ou
+<dt> &lt; &gt; Desabilitado)</dt>Idade da assinatura do antivírus: Idade da assinatura do antivírus
+<dt> &lt; &gt; (em dias) </dt>Idade da assinatura do antispyware: idade da assinatura do 
+<dt> &lt; Antispyware &gt; (em dias)</dt>Idade da verificação rápida última: idade da última verificação rápida
+<dt> &lt; &gt; (em dias)</dt>Idade da última verificação completa: Última idade de verificação completa
+<dt> &lt; &gt; (em dias) Tempo</dt>de criação de assinatura
+<dt>antivírus: ? &lt; Tempo de &gt; criação de assinatura antivírus</dt>Hora de criação da assinatura do
 <dt>Antispyware: ? &lt; Tempo de criação de &gt; assinatura antispyware</dt>Última hora de início
 <dt>da verificação rápida: ? &lt; Última hora de &gt; início da verificação rápida</dt>Última hora de término da verificação
 <dt>rápida: ? &lt; Última &gt; hora</dt>de término da verificação rápida Última fonte de verificação rápida: Última fonte de verificação rápida (0 = verificação&#39;não foi executado, 1 = iniciado pelo
@@ -3116,4 +3116,4 @@ Este é um erro interno. Ele pode ter disparado quando uma verificação não é
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Relatório sobre Microsoft Defender Antivírus proteção](report-monitor-microsoft-defender-antivirus.md)
-- [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Microsoft Defender Antivirus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)

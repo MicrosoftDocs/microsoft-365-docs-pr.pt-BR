@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: article
 ms.date: 09/22/2020
 ms.reviewer: chventou
-ms.openlocfilehash: 0cd52388feb987b4231d911cd3c3fd10babba017
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 71ad8f52fd9347abdf0146969bb84a19d8883262
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933200"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843053"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-configuration-manager"></a>Gerenciar o Microsoft Defender para Ponto de Extremidade com o Configuration Manager
 
@@ -38,35 +38,35 @@ ms.locfileid: "51933200"
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 
-Recomendamos usar o [Microsoft Endpoint Manager](https://docs.microsoft.com/mem), que inclui o Microsoft [Intune (Intune)](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) e o [Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/understand/introduction) (Configuration Manager) para gerenciar os recursos de proteção contra ameaças da sua organização para dispositivos (também chamados de pontos de extremidade). 
-- [Saiba mais sobre o Endpoint Manager](https://docs.microsoft.com/mem/endpoint-manager-overview)
-- [Co-gerenciar o Microsoft Defender para Ponto de Extremidade em dispositivos Windows 10 com o Configuration Manager e o Intune](manage-atp-post-migration-intune.md)
+Recomendamos o uso do [Microsoft Endpoint Manager](/mem), que inclui o [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) (Intune) e [o Microsoft Endpoint Configuration Manager](/mem/configmgr/core/understand/introduction) (Configuration Manager) para gerenciar os recursos de proteção contra ameaças da sua organização para dispositivos (também chamados de pontos de extremidade). 
+- [Saiba mais sobre Endpoint Manager](/mem/endpoint-manager-overview)
+- [Co-gerenciar o Microsoft Defender para Ponto de Extremidade em Windows 10 dispositivos com o Configuration Manager e o Intune](manage-atp-post-migration-intune.md)
 
 ## <a name="configure-microsoft-defender-for-endpoint-with-configuration-manager"></a>Configurar o Microsoft Defender para Ponto de Extremidade com o Configuration Manager
 
-|Tarefas  |Recursos para saber mais  |
+|Tarefa  |Recursos para saber mais  |
 |---------|---------|
-|**Instale o console do Configuration Manager** se você ainda não o tiver<br/><br/>*Se você ainda não tiver o console do Configuration Manger, use esses recursos para obter os bits e instalá-lo.* |[Obter a mídia de instalação](https://docs.microsoft.com/mem/configmgr/core/servers/deploy/install/get-install-media)<br/><br/>[Instalar o console do Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/servers/deploy/install/install-consoles)  |
-|**Usar o Configuration Manager para integração de dispositivos** no Microsoft Defender para Ponto de Extremidade <br/><br/> *Se você tiver dispositivos (ou pontos de extremidade) ainda não conectados ao Microsoft Defender para Ponto de Extremidade, poderá fazer isso com o Configuration Manager.*   |[Integração ao Microsoft Defender para Ponto de Extremidade com o Configuration Manager](https://docs.microsoft.com/mem/configmgr/protect/deploy-use/defender-advanced-threat-protection#about-onboarding-to-atp-with-configuration-manager)      |
-|**Gerenciar políticas antimalware e segurança do Firewall do Windows** para computadores cliente (pontos de extremidade)<br/><br/>*Configure os recursos de proteção de ponto de extremidade, incluindo o Microsoft Defender para Ponto de Extremidade, proteção de exploração, controle de aplicativos, antimalware, configurações de firewall e muito mais.*  |[Gerenciador de Configurações: Proteção do Ponto de Extremidade](https://docs.microsoft.com/mem/configmgr/protect/deploy-use/endpoint-protection)       |
-|**Escolher métodos para atualizar atualizações de antimalware nos dispositivos** da sua organização <br/><br/>*Com a Proteção de Ponto de Extremidade no Configuration Manager, você pode escolher entre vários métodos para manter as definições antimalware atualizadas nos dispositivos da sua organização.* |[Configurar atualizações de definição para a Proteção do Ponto de Extremidade](https://docs.microsoft.com/mem/configmgr/protect/deploy-use/endpoint-definition-updates) <br/><br/>[Usar o Configuration Manager para fornecer atualizações de definição](https://docs.microsoft.com/mem/configmgr/protect/deploy-use/endpoint-definitions-configmgr) |
-|**Habilitar a Proteção** de Rede para ajudar a impedir que os funcionários usem aplicativos com conteúdo mal-intencionado na Internet <br/><br/>*É recomendável usar [o modo de](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/evaluate-network-protection) auditoria primeiro para proteção de rede em um ambiente de teste para ver quais aplicativos seriam bloqueados antes de ser implantada.* |[Ativar a proteção de rede com o Configuration Manager](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/enable-network-protection#microsoft-endpoint-configuration-manager)  |
-|**Configurar o acesso controlado a pastas** para proteger contra ransomware <br/><br/>*O acesso controlado a pastas também é conhecido como proteção antiransomware.*   |[Proteção de ponto de extremidade: Acesso controlado a pastas](https://docs.microsoft.com/mem/intune/protect/endpoint-protection-windows-10#controlled-folder-access) <br/><br/>[Habilitar o acesso controlado a pastas no Microsoft Endpoint Configuration Manage](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/enable-controlled-folders#microsoft-endpoint-configuration-manager) |
+|**Instale o console do Configuration Manager** se você ainda não o tiver<br/><br/>*Se você ainda não tiver o console do Configuration Manger, use esses recursos para obter os bits e instalá-lo.* |[Obter a mídia de instalação](/mem/configmgr/core/servers/deploy/install/get-install-media)<br/><br/>[Instalar o console do Configuration Manager](/mem/configmgr/core/servers/deploy/install/install-consoles)  |
+|**Usar o Configuration Manager para integração de dispositivos** no Microsoft Defender para Ponto de Extremidade <br/><br/> *Se você tiver dispositivos (ou pontos de extremidade) ainda não conectados ao Microsoft Defender para Ponto de Extremidade, poderá fazer isso com o Configuration Manager.*   |[Integração ao Microsoft Defender para Ponto de Extremidade com o Configuration Manager](/mem/configmgr/protect/deploy-use/defender-advanced-threat-protection#about-onboarding-to-atp-with-configuration-manager)      |
+|**Gerenciar políticas antimalware e Windows segurança do Firewall** para computadores cliente (pontos de extremidade)<br/><br/>*Configure os recursos de proteção de ponto de extremidade, incluindo o Microsoft Defender para Ponto de Extremidade, proteção de exploração, controle de aplicativos, antimalware, configurações de firewall e muito mais.*  |[Configuration Manager: Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection)       |
+|**Escolher métodos para atualizar atualizações de antimalware nos dispositivos** da sua organização <br/><br/>*Com Endpoint Protection no Configuration Manager, você pode escolher entre vários métodos para manter as definições antimalware atualizadas nos dispositivos da sua organização.* |[Configurar atualizações de definição para Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-definition-updates) <br/><br/>[Usar o Configuration Manager para fornecer atualizações de definição](/mem/configmgr/protect/deploy-use/endpoint-definitions-configmgr) |
+|**Habilitar a Proteção** de Rede para ajudar a impedir que os funcionários usem aplicativos com conteúdo mal-intencionado na Internet <br/><br/>*É recomendável usar [o modo de](/microsoft-365/security/defender-endpoint/evaluate-network-protection) auditoria primeiro para proteção de rede em um ambiente de teste para ver quais aplicativos seriam bloqueados antes de ser implantada.* |[Ativar a proteção de rede com o Configuration Manager](/microsoft-365/security/defender-endpoint/enable-network-protection#microsoft-endpoint-configuration-manager)  |
+|**Configurar o acesso controlado a pastas** para proteger contra ransomware <br/><br/>*O acesso controlado a pastas também é conhecido como proteção antiransomware.*   |[Proteção de ponto de extremidade: Acesso controlado a pastas](/mem/intune/protect/endpoint-protection-windows-10#controlled-folder-access) <br/><br/>[Habilitar o acesso controlado a pastas no Microsoft Endpoint Configuration Manage](/microsoft-365/security/defender-endpoint/enable-controlled-folders#microsoft-endpoint-configuration-manager) |
 
-## <a name="configure-your-microsoft-defender-security-center"></a>Configurar seu Centro de Segurança do Microsoft Defender
+## <a name="configure-your-microsoft-defender-security-center"></a>Configure seu Central de Segurança do Microsoft Defender
 
-Se você ainda não fez isso, configure o Centro de Segurança do **Microsoft Defender** ( ) para exibir alertas, configurar recursos de proteção contra ameaças e exibir informações detalhadas sobre a postura geral de segurança da sua [https://securitycenter.windows.com](https://securitycenter.windows.com) organização. 
+Se você ainda não fez **isso,** configure seu Central de Segurança do Microsoft Defender ( ) para exibir alertas, configurar recursos de proteção contra ameaças e exibir informações detalhadas sobre a postura geral de segurança da [https://securitycenter.windows.com](https://securitycenter.windows.com) sua organização. 
 
-Você também pode configurar se e quais recursos os usuários finais podem ver no Centro de Segurança do Microsoft Defender.
+Você também pode configurar se e quais recursos os usuários finais podem ver no Central de Segurança do Microsoft Defender.
 
-- [Visão geral do Centro de Segurança do Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/use)
+- [Visão geral do Central de Segurança do Microsoft Defender](/microsoft-365/security/defender-endpoint/use)
 
-- [Proteção de ponto de extremidade: Centro de Segurança do Microsoft Defender](https://docs.microsoft.com/mem/intune/protect/endpoint-protection-windows-10#microsoft-defender-security-center)
+- [Proteção de ponto de extremidade: Central de Segurança do Microsoft Defender](/mem/intune/protect/endpoint-protection-windows-10#microsoft-defender-security-center)
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Obter uma visão geral do gerenciamento de ameaças e vulnerabilidades](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [Obter uma visão geral do Gerenciamento de Ameaças e Vulnerabilidades](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
 
-- [Visite o painel de operações de segurança do Centro de Segurança do Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/security-operations-dashboard)
+- [Visite o painel de Central de Segurança do Microsoft Defender de operações de segurança](/microsoft-365/security/defender-endpoint/security-operations-dashboard)
 
 - [Gerenciar o Microsoft Defender para Ponto de Extremidade com o Intune](manage-atp-post-migration-intune.md)

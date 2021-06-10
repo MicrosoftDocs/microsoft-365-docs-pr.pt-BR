@@ -20,43 +20,43 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
-description: Saiba como obter acesso a recursos locais, como aplicativos de linha de negócios, compartilhamentos de arquivos e impressoras de um dispositivo do Azure Active Directory ingressado no Windows 10.
-ms.openlocfilehash: 27549d6c3b03413f2f05c69845caad155333ca97
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Saiba como obter acesso a recursos locais, como aplicativos de linha de negócios, compartilhamentos de arquivos e impressoras de um Azure Active Directory ingressado Windows 10 dispositivo.
+ms.openlocfilehash: 72b3c5ae538cad24fc12e25717dedccb2fdc9017
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580305"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843313"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Acessar recursos locais de um dispositivo ingressado no Azure AD no Microsoft 365 Business Premium
 
-Este artigo se aplica ao Microsoft 365 Business Premium.
+Este artigo se aplica a Microsoft 365 Business Premium.
 
-Qualquer dispositivo Windows 10 ingressado no Azure Active Directory tem acesso a todos os recursos baseados em nuvem, como seus aplicativos do Microsoft 365, e pode ser protegido pelo Microsoft 365 Business Premium. Você também pode permitir o acesso a recursos locais, como aplicativos de linha de negócios (LOB), compartilhamentos de arquivos e impressoras. Para permitir o acesso, use [o Azure AD Connect](/azure/active-directory/connect/active-directory-aadconnect) para sincronizar seu Active Directory local com o Azure Active Directory. 
+Qualquer Windows 10 dispositivo Azure Active Directory ingressado tem acesso a todos os recursos baseados em nuvem, como seus aplicativos Microsoft 365, e pode ser protegido por Microsoft 365 Business Premium. Você também pode permitir o acesso a recursos locais, como aplicativos de linha de negócios (LOB), compartilhamentos de arquivos e impressoras. Para permitir o acesso, use [o Azure AD Conexão](/azure/active-directory/connect/active-directory-aadconnect) sincronizar seu Active Directory local com Azure Active Directory.
 
-Para saber mais, confira [Introdução ao gerenciamento de dispositivos no Azure Active Directory](/azure/active-directory/device-management-introduction).
+Para saber mais, confira [Introdução ao gerenciamento de dispositivos Azure Active Directory](/azure/active-directory/device-management-introduction).
 As etapas também são resumidas nas seções a seguir.
- 
-## <a name="run-azure-ad-connect"></a>Executar o Azure AD Connect
+
+## <a name="run-azure-ad-connect"></a>Executar o Azure AD Conexão
 
 Conclua as etapas a seguir para habilitar os dispositivos ingressados no Azure AD da sua organização para acessar recursos locais.
-  
-1. Para sincronizar seus usuários, grupos e contatos do Active Directory local no Azure Active Directory, execute o assistente de sincronização de diretórios e o Azure AD Connect, conforme descrito em Configurar a sincronização de diretórios para [o Office 365](../enterprise/set-up-directory-synchronization.md).
-    
-2. Depois que a sincronização de diretórios for concluída, certifique-se de que os dispositivos Windows 10 da sua organização estejam ingressados no Azure AD. Esta etapa é feita individualmente em cada dispositivo Windows 10. Consulte [Configurar dispositivos Windows para usuários do Microsoft 365 Business Premium](set-up-windows-devices.md) para obter detalhes. 
-    
-3. Depois que os dispositivos Windows 10 ingressarem no Azure AD, cada usuário deverá reiniciar seus dispositivos e entrar com suas credenciais do Microsoft 365 Business Premium. Todos os dispositivos agora têm acesso a recursos locais também.
-    
-Nenhuma etapa adicional é necessária para obter acesso a recursos locais para dispositivos ingressados no Azure AD. Essa funcionalidade é criada no Windows 10. 
 
-Se você tiver planos de fazer logon no dispositivo AADJ que não seja o método de senha Como PIN/Biométrica por meio do logon de credencial WHFB e, em seguida, acessar recursos locais (compartilhamentos,impressoras.. etc), siga https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
-  
+1. Para sincronizar seus usuários, grupos e contatos do Active Directory local no Azure Active Directory, execute o assistente de sincronização de diretórios e o Conexão do Azure AD conforme descrito em Configurar a sincronização de diretórios [para](../enterprise/set-up-directory-synchronization.md)Office 365 .
+
+2. Depois que a sincronização de diretórios for concluída, certifique-se de que os dispositivos Windows 10 da sua organização estejam ingressados no Azure AD. Esta etapa é feita individualmente em cada Windows 10 dispositivo. Consulte [Configurar dispositivos Windows para Microsoft 365 Business Premium usuários para](set-up-windows-devices.md) obter detalhes.
+
+3. Depois que os Windows 10 do Azure AD ingressarem, cada usuário deverá reiniciar seus dispositivos e entrar com suas credenciais Microsoft 365 Business Premium de segurança. Todos os dispositivos agora têm acesso a recursos locais também.
+
+Nenhuma etapa adicional é necessária para obter acesso a recursos locais para dispositivos ingressados no Azure AD. Essa funcionalidade é criada em Windows 10.
+
+Se você tiver planos de fazer logon no dispositivo AADJ diferente do método de senha Como PIN/Biométrica por meio do logon de credencial WHFB e, em seguida, acessar recursos locais (compartilhamentos, impressoras, etc.), siga [este artigo](/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base).
+
 Se sua organização não estiver pronta para implantar na configuração de dispositivo ingressada no Azure AD descrita acima, considere configurar a configuração de dispositivo ingressada no [Azure AD híbrido.](manage-windows-devices.md)
-  
-### <a name="considerations-when-you-join-windows-devices-to-azure-ad"></a>Considerações ao ingressar dispositivos Windows no Azure AD
 
-Se o dispositivo Windows que você ingressou no Azure-AD foi ingressado anteriormente no domínio ou em um grupo de trabalho, considere as seguintes limitações:
-  
+### <a name="considerations-when-you-join-windows-devices-to-azure-ad"></a>Considerações ao ingressar Windows dispositivos no Azure AD
+
+Se o Windows que você ingressou no Azure-AD foi ingressado anteriormente no domínio ou em um grupo de trabalho, considere as seguintes limitações:
+
 - Quando um dispositivo do Azure AD entra, ele cria um novo usuário sem fazer referência a um perfil existente. Os perfis devem ser migrados manualmente. Um perfil de usuário contém informações como favoritos, arquivos locais, configurações do navegador e configurações de menu Iniciar. Uma melhor abordagem é encontrar uma ferramenta de terceiros para mapear arquivos e configurações existentes para o novo perfil.
 
 - Se o dispositivo estiver usando Objetos de Política de Grupo (GPO), alguns GPOs podem não ter um CSP [(Provedor](/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) de Serviços de Configuração) comparável no Intune. Execute a [ferramenta MMAT](https://www.microsoft.com/download/details.aspx?id=45520) para encontrar CSPs comparáveis para GPOs existentes.
@@ -67,4 +67,4 @@ Se o dispositivo Windows que você ingressou no Azure-AD foi ingressado anterior
 
 ### <a name="related-articles"></a>Artigos relacionados
 
-[Pré-requisitos para o Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-prerequisites)
+[Pré-requisitos do Azure AD Conexão](/azure/active-directory/hybrid/how-to-connect-install-prerequisites)

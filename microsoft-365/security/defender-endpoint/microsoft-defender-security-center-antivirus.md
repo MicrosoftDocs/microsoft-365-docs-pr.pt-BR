@@ -48,7 +48,7 @@ O Segurança do Windows app é uma interface do cliente Windows 10, versão 1703
 
 ## <a name="review-virus-and-threat-protection-settings-in-the-windows-security-app"></a>Revisar configurações de proteção contra vírus e ameaças no Segurança do Windows app
 
-![Captura de tela do rótulo de configurações de proteção contra & vírus no Segurança do Windows app](images/defender/wdav-protection-settings-wdsc.png)
+![Captura de tela do rótulo de configurações da Proteção contra vírus e ameaças no aplicativo de segurança do Windows](images/defender/wdav-protection-settings-wdsc.png)
 
 1. Abra o Segurança do Windows aplicativo clicando no ícone de escudo na barra de tarefas ou pesquisando o menu inicial do **Defender**.
 
@@ -57,7 +57,7 @@ O Segurança do Windows app é uma interface do cliente Windows 10, versão 1703
 As seções a seguir descrevem como executar algumas das tarefas mais comuns ao revisar ou interagir com a proteção contra ameaças fornecida pelo Microsoft Defender Antivírus no aplicativo Segurança do Windows.
 
 > [!NOTE]
-> Se essas configurações são configuradas e implantadas usando a Política de Grupo, as configurações descritas nesta seção serão acinzenadas e indisponíveis para uso em pontos de extremidade individuais. As alterações feitas por meio de um Objeto de Política de Grupo devem primeiro ser implantadas em pontos de extremidade individuais antes que a configuração seja atualizada Windows Configurações. O [tópico Configurar interação do usuário](configure-end-user-interaction-microsoft-defender-antivirus.md) final com Microsoft Defender Antivírus descreve como as configurações de substituição de política local podem ser configuradas.
+> Se essas configurações são configuradas e implantadas usando a Política de Grupo, as configurações descritas nesta seção serão acinzenadas e indisponíveis para uso em pontos de extremidade individuais. As alterações feitas por meio de um Objeto de Política de Grupo devem primeiro ser implantadas em pontos de extremidade individuais antes que a configuração seja atualizada nas configurações do Windows. O [tópico Configurar interação do usuário](configure-end-user-interaction-microsoft-defender-antivirus.md) final com Microsoft Defender Antivírus descreve como as configurações de substituição de política local podem ser configuradas.
 
 ## <a name="run-a-scan-with-the-windows-security-app"></a>Executar uma verificação com o Segurança do Windows aplicativo
 
@@ -109,8 +109,8 @@ A tabela a seguir resume os tipos de exclusão e o que acontece:
 
 |Tipo de exclusão  |Definido por  |O que acontece  |
 |---------|---------|---------|
-|**Arquivo** |Location <br/>Exemplo: `c:\sample\sample.test` |O arquivo específico é ignorado por Microsoft Defender Antivírus. |
-|**Folder**    |Location <br/>Exemplo: `c:\test\sample`       |Todos os itens na pasta especificada são ignorados por Microsoft Defender Antivírus.         |
+|**Arquivo** |Localização <br/>Exemplo: `c:\sample\sample.test` |O arquivo específico é ignorado por Microsoft Defender Antivírus. |
+|**Folder**    |Localização <br/>Exemplo: `c:\test\sample`       |Todos os itens na pasta especificada são ignorados por Microsoft Defender Antivírus.         |
 |**Tipo de arquivo**   |Extensão de arquivo <br/>Exemplo: `.test` |Todos os arquivos com a extensão em qualquer lugar do `.test` dispositivo são ignorados por Microsoft Defender Antivírus.         |
 |**Processo**     |Caminho do arquivo executável <br>Exemplo: `c:\test\process.exe`         |O processo específico e todos os arquivos abertos por esse processo são ignorados por Microsoft Defender Antivírus.         |
 

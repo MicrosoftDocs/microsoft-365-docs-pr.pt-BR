@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Determine se o locatário e os usuários atendem aos requisitos, para que você possa usar a Implantação Centralizada para implantar Office de complementos.
-ms.openlocfilehash: 531281eba6accfb2e1ffdab1e662a03b077869bd
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: 63775ed6bab2d595ae87085e1607be5818b355e2
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779753"
+ms.locfileid: "52782481"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Determinar se a Implantação Centralizada de complementos funciona para sua organização
 
@@ -43,7 +43,7 @@ A Implantação Centralizada dá suporte a três plataformas de área de trabalh
 
 Pode levar até 24 horas para um complemento aparecer para cliente para todos os usuários.
   
-## <a name="before-you-begin"></a>Antes de você começar
+## <a name="before-you-begin"></a>Antes de começar
 
 A implantação centralizada de complementos exige que os usuários usem SKUs do Microsoft 365 Enterprise: E3/E5/F3 ou SKUs De Negócios: Business Basic, Business Standard, Business Premium (e estão Office no Office usando sua ID organizacional) e possuem caixas de correio Exchange Online e Exchange Online ativas. Seu diretório de assinatura deve estar ou federado para Azure Active Directory.
 Você pode exibir requisitos específicos para Office e Exchange abaixo ou usar o [Verificador de](#centralized-deployment-compatibility-checker)Compatibilidade de Implantação Centralizado .
@@ -121,7 +121,7 @@ Quando a ferramenta conclui a execução, ela gera um arquivo de saída no forma
 - Caixa de correio com suporte - Se ele usa uma caixa de correio habilitada para OAuth
 
 > [!NOTE]
-> A autenticação multifator não é suportada ao usar o módulo PowerShell de Implantação Central.
+> A autenticação multifator não é suportada ao usar o módulo PowerShell de Implantação Central. O módulo só funciona com autenticação básica.
   
 ## <a name="user-and-group-assignments"></a>Atribuições de usuário e grupo
 

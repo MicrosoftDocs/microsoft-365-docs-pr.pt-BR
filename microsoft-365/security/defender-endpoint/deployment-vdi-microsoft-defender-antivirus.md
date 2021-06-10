@@ -1,5 +1,5 @@
 ---
-title: Guia de implantação Virtual Desktop Infrastructure microsoft defender antivírus
+title: Microsoft Defender Antivírus Virtual Desktop Infrastructure guia de implantação
 description: Saiba como implantar o Microsoft Defender Antivírus em um ambiente de área de trabalho virtual para o melhor equilíbrio entre proteção e desempenho.
 keywords: vdi, hyper-v, vm, máquina virtual, windows defender, antivírus, av, área de trabalho virtual, rds, área de trabalho remota
 search.product: eADQiWindows 10XVcnh
@@ -31,9 +31,9 @@ ms.locfileid: "52275247"
 
 - [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
 
-Além das configurações locais ou de hardware padrão, você também pode usar o Microsoft Defender Antivírus em um ambiente de área de trabalho remota (RDS) ou VDI (infraestrutura de área de trabalho virtual).
+Além das configurações locais ou de hardware padrão, você também pode usar o Microsoft Defender Antivírus em um ambiente de infraestrutura de área de trabalho remota (RDS) ou de área de trabalho virtual (VDI).
 
-Consulte [a Documentação da Área de](/azure/virtual-desktop) Trabalho Virtual do Windows para obter mais detalhes sobre os Serviços de Área de Trabalho Remota da Microsoft e suporte à VDI.
+Consulte [Windows Documentação da Área de Trabalho Virtual](/azure/virtual-desktop) para obter mais detalhes sobre Área de Trabalho Remota da Microsoft Serviços e suporte À VDI.
 
 Para máquinas virtuais baseadas no Azure, consulte [Install Endpoint Protection in Azure Defender](/azure/security-center/security-center-install-endpoint-protection).
 
@@ -49,14 +49,14 @@ Este guia descreve como configurar suas VMs para proteção e desempenho ideais,
 - [Examinar máquinas ou máquinas desatentas que estão offline há algum tempo](#scan-vms-that-have-been-offline)
 - [Aplicar exclusões](#exclusions)
 
-Você também pode baixar o whitepaper [Microsoft Defender Antivírus](https://demo.wd.microsoft.com/Content/wdav-testing-vdi-ssu.pdf)no Virtual Desktop Infrastructure , que analisa o novo recurso de atualização de inteligência de segurança compartilhada, além de testes de desempenho e orientações sobre como testar o desempenho do antivírus em sua própria VDI.
+Você também pode baixar o whitepaper Microsoft Defender Antivírus no [Virtual Desktop Infrastructure](https://demo.wd.microsoft.com/Content/wdav-testing-vdi-ssu.pdf), que analisa o novo recurso de atualização de inteligência de segurança compartilhada, além de testes de desempenho e orientações sobre como testar o desempenho do antivírus em sua própria VDI.
 
 > [!IMPORTANT]
-> Embora a VDI possa ser hospedada no Windows Server 2012 ou no Windows Server 2016, as máquinas virtuais (VMs) devem estar executando o Windows 10, 1607 no mínimo, devido ao aumento das tecnologias e recursos de proteção que não estão disponíveis em versões anteriores do Windows.<br/>Há melhorias de desempenho e recursos na forma como o Microsoft Defender AV opera em máquinas virtuais no Windows 10 Insider Preview, build 18323 (e posterior). Identificaremos neste guia se você precisar usar uma com build do Insider Preview; se não for especificado, a versão mínima necessária para a melhor proteção e desempenho é o Windows 10 1607.
+> Embora a VDI possa ser hospedada no Windows Server 2012 ou Windows Server 2016, as máquinas virtuais (VMs) devem estar executando o Windows 10, 1607 no mínimo, devido a tecnologias e recursos de proteção maiores que não estão disponíveis em versões anteriores do Windows.<br/>Há melhorias de desempenho e recursos na forma como o Microsoft Defender AV opera em máquinas virtuais no Windows 10 Insider Preview, build 18323 (e posterior). Identificaremos neste guia se você precisar usar uma com build do Insider Preview; se não for especificado, a versão mínima necessária para a melhor proteção e desempenho será Windows 10 1607.
 
 ## <a name="set-up-a-dedicated-vdi-file-share"></a>Configurar um compartilhamento de arquivos VDI dedicado
 
-No Windows 10, versão 1903, introduzimos o recurso de inteligência de segurança compartilhada, que descarrega a descompactação de atualizações de inteligência de segurança baixadas em uma máquina host, salvando recursos de CPU, disco e memória anteriores em computadores individuais. Esse recurso foi reportada e agora funciona no Windows 10 versão 1703 ou superior. Você pode definir esse recurso com uma Política de Grupo ou o PowerShell.
+No Windows 10, versão 1903, introduzimos o recurso de inteligência de segurança compartilhada, que descarrega a descompactação de atualizações de inteligência de segurança baixadas em uma máquina host, salvando recursos de CPU, disco e memória anteriores em máquinas individuais. Esse recurso foi reportado e agora funciona Windows 10 versão 1703 ou superior. Você pode definir esse recurso com uma Política de Grupo ou o PowerShell.
 
 ### <a name="use-group-policy-to-enable-the-shared-security-intelligence-feature"></a>Use a Política de Grupo para habilitar o recurso de inteligência de segurança compartilhada:
 
@@ -66,7 +66,7 @@ No Windows 10, versão 1903, introduzimos o recurso de inteligência de seguran�
 
 3. Clique **em Modelos Administrativos**.
 
-4. Expanda a árvore para **componentes do Windows** Atualizações de Inteligência de Segurança do Microsoft Defender  >    >  **Antivírus.**
+4. Expanda a árvore para **Windows componentes**  >  **Microsoft Defender Antivírus**  >  **Atualizações de Inteligência de Segurança.**
 
 5. Clique duas vezes em Definir local de inteligência de segurança para **clientes VDI** e defina a opção **como Habilitado**. Um campo é exibido automaticamente.
 
@@ -145,7 +145,7 @@ Veja um exemplo: `c:\wdav_update\{00000000-0000-0000-0000-000000000000}`
 
 Verificações agendadas são executados além da proteção e verificação em tempo [real.](configure-real-time-protection-microsoft-defender-antivirus.md)
 
-A hora de início da verificação em si ainda é baseada na política de verificação agendada (**ScheduleDay**, **ScheduleTime** e **ScheduleQuickScanTime**). A randomização fará com que o Microsoft Defender Antivírus inicie uma verificação em cada máquina dentro de uma janela de 4 horas a partir do tempo definido para a verificação agendada.
+A hora de início da verificação em si ainda é baseada na política de verificação agendada (**ScheduleDay**, **ScheduleTime** e **ScheduleQuickScanTime**). A randomização fará Microsoft Defender Antivírus iniciar uma verificação em cada máquina dentro de uma janela de 4 horas a partir do tempo definido para a verificação agendada.
 
 Consulte [Agendar verificações](scheduled-catch-up-scans-microsoft-defender-antivirus.md) para outras opções de configuração disponíveis para verificações agendadas.
 
@@ -153,7 +153,7 @@ Consulte [Agendar verificações](scheduled-catch-up-scans-microsoft-defender-an
 
 Você pode especificar o tipo de verificação que deve ser executada durante uma verificação agendada. As verificações rápidas são a abordagem preferencial, pois foram projetadas para procurar em todos os locais onde o malware precisa residir para estar ativo. O procedimento a seguir descreve como configurar verificações rápidas usando a Política de Grupo.
 
-1. No Editor de Política de Grupo, vá para **Modelos Administrativos Componentes**  >  **do Windows** Microsoft Defender  >    >  **Antivírus Scan**.
+1. No Editor de Política de Grupo, vá para **Modelos administrativos**  >  **Windows componentes**  >  **Microsoft Defender Antivírus**  >  **Verificar**.
 
 2. Selecione **Especificar o tipo de verificação a ser usado para uma verificação agendada** e edite a configuração de política.
 
@@ -161,21 +161,21 @@ Você pode especificar o tipo de verificação que deve ser executada durante um
 
 4. Selecione **OK**. 
 
-5. Implante seu objeto de Política de Grupo como você costuma fazer.
+5. Implante seu objeto de Política de Grupo como de costume.
 
 ## <a name="prevent-notifications"></a>Impedir notificações
 
-Às vezes, as notificações do Microsoft Defender Antivírus podem ser enviadas ou persistir em várias sessões. Para minimizar esse problema, você pode bloquear a interface de usuário do Microsoft Defender Antivírus. O procedimento a seguir descreve como suprimir notificações com a Política de Grupo.
+Às vezes, Microsoft Defender Antivírus as notificações podem ser enviadas ou persistir em várias sessões. Para minimizar esse problema, você pode bloquear a interface Microsoft Defender Antivírus usuário. O procedimento a seguir descreve como suprimir notificações com a Política de Grupo.
 
-1. No Editor de Política de Grupo, acesse **Componentes do Windows**  >  **Microsoft Defender**  >  **Antivírus Interface do Cliente**.
+1. No Editor de Política de Grupo, vá para Windows **componentes**  >  **Microsoft Defender Antivírus**  >  **Interface do Cliente.**
 
 2. Selecione **Suprimir todas as notificações** e edite as configurações de política. 
 
 3. De definir a política **como Habilitado** e, em seguida, selecione **OK**.
 
-4. Implante seu objeto de Política de Grupo como você costuma fazer.
+4. Implante seu objeto de Política de Grupo como de costume.
 
-A supressão de notificações impede que as notificações do Microsoft Defender Antivírus sejam aparecendo no Centro de Ações no Windows 10 quando as verificações são feitas ou ações de correção são tomadas. No entanto, sua equipe de operações de segurança verá os resultados da verificação no Centro de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ).
+A supressão de notificações impede que as notificações Microsoft Defender Antivírus sejam aparecendo no Centro de Ações no Windows 10 quando as verificações são feitas ou ações de correção são tomadas. No entanto, sua equipe de operações de segurança verá os resultados da verificação no Central de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ).
 
 > [!TIP]
 > Para abrir o Centro de Ações Windows 10, dê uma das seguintes etapas:
@@ -198,7 +198,7 @@ Desabilitar uma verificação após uma atualização impedirá que uma verifica
 
 4. Selecione **OK**.
 
-5. Implante seu objeto de Política de Grupo como você costuma fazer.
+5. Implante seu objeto de Política de Grupo como de costume.
 
 Essa política impede que uma verificação seja executado imediatamente após uma atualização.
 

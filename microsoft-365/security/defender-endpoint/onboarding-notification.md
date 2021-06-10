@@ -1,5 +1,5 @@
 ---
-title: Criar uma regra de notificação de integração ou de offboarding
+title: Criar uma regra de notificação de remoção ou de integração
 description: Receba uma notificação quando um script de integração ou de offboard local é usado.
 keywords: integração, offboarding, local, script, notificação, regra
 search.product: eADQiWindows 10XVcnh
@@ -44,8 +44,8 @@ Crie uma regra de notificação para que, quando um script local de integração
 
 ## <a name="before-you-begin"></a>Antes de começar
 Você precisará ter acesso a:
- - Microsoft Flow (Plano de Fluxo 1 no mínimo). Para obter mais informações, consulte [a página Preços de fluxo.](https://flow.microsoft.com/pricing/)
- - Tabela do Azure ou Lista do SharePoint ou Biblioteca/SQL DB
+ - Microsoft Flow (Flow Plano 1 no mínimo). Para obter mais informações, [consulte Flow página de preços](https://flow.microsoft.com/pricing/).
+ - Tabela do Azure ou SharePoint ou Biblioteca/SQL DB
 
 ## <a name="create-the-notification-flow"></a>Criar o fluxo de notificação
 
@@ -63,7 +63,7 @@ Você precisará ter acesso a:
 
     ![Imagem do fluxo de notificação](images/build-flow.png)
 
-4. Selecione o botão + para adicionar uma nova ação. A nova ação será uma solicitação HTTP para a API do Defender for Endpoint security center device(s). Você também pode substituí-lo pelo "Conector WDATP" (ação: "Máquinas - Obter lista de máquinas"). 
+4. Selecione o botão + para adicionar uma nova ação. A nova ação será uma solicitação HTTP para a API do Defender for Endpoint security center device(s). Você também pode substituí-lo pelo "Conector WDATP&quot; (ação: &quot;Máquinas - Obter lista de máquinas"). 
 
     ![Imagem de recorrência e adicionar ação](images/recurrence-add.png)
 
@@ -73,11 +73,11 @@ Você precisará ter acesso a:
    - Método: "GET" como um valor para obter a lista de dispositivos.
    - URI: Insira `https://api.securitycenter.microsoft.com/api/machines` .
    - Autenticação: selecione "Active Directory OAuth".
-   - Locatário: entre e navegue até https://portal.azure.com **o Azure Active Directory > Aplicativos** e obter o valor da ID do Locatário.
+   - Locatário: entre e navegue até https://portal.azure.com Azure Active Directory > Registros de **Aplicativos** e obter o valor da ID do Locatário.
    - Público-alvo: `https://securitycenter.onmicrosoft.com/windowsatpservice\`
-   - ID do cliente: entre e navegue até o Azure Active Directory > Registros de https://portal.azure.com **Aplicativos** e receba o valor de ID do Cliente.
+   - ID do cliente: entre e navegue até Azure Active Directory > https://portal.azure.com **Aplicativos** e obter o valor da ID do Cliente.
    - Tipo de credencial: selecione "Segredo".
-   - Segredo: entre e navegue até https://portal.azure.com **o Azure Active Directory** > Aplicativos e obter o valor da ID do locatário.
+   - Segredo: entre e navegue até https://portal.azure.com Azure Active Directory > **registros de aplicativos** e obter o valor da ID do locatário.
 
     ![Imagem das condições HTTP](images/http-conditions.png)
 
@@ -176,9 +176,9 @@ Você precisará ter acesso a:
 
     ```
 
-10.  Extraia os valores da chamada JSON e verifique se o(s) dispositivo(s) de integração (s) já está registrado na lista do SharePoint como um exemplo:
+10.  Extraia os valores da chamada JSON e verifique se os dispositivos(s) conectados (s) já estão registrados na lista de SharePoint como exemplo:
 - Se sim, nenhuma notificação será disparada
-- Se não, registrará os novos dispositivos integrados na lista do SharePoint e uma notificação será enviada ao administrador do Defender for Endpoint
+- Se não, registrará os novos dispositivos SharePoint na lista de SharePoint e uma notificação será enviada ao administrador do Defender for Endpoint
 
     ![Imagem de aplicar a cada](images/flow-apply.png)
 

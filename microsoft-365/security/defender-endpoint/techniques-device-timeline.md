@@ -96,7 +96,7 @@ Para exibir apenas eventos ou técnicas, selecione **Filtros** na linha do tempo
 
 
 ## <a name="see-also"></a>Confira também
-- [Exibir e organizar a lista Dispositivos](machines-view-overview.md)
+- [Exibir e organizar a lista de dispositivos](machines-view-overview.md)
 - [Sinalizadores de eventos de linha do tempo do dispositivo do Microsoft Defender for Endpoint](device-timeline-event-flag.md) 
 
 

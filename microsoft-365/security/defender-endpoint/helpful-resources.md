@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender útil para recursos de ponto de extremidade
 description: Acessar recursos úteis, como links para blogs e outros recursos relacionados ao Microsoft Defender para Ponto de Extremidade
-keywords: Centro de Segurança do Microsoft Defender, breve do produto, breve, recursos, licenciamento
+keywords: Central de Segurança do Microsoft Defender, breve, breve, recursos, licenciamento
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 727576ab75d77d12be0595c081586f411887da49
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 5ecee4a71ef0b6f607a284766163a90f16bc27dc
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165436"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843056"
 ---
 # <a name="helpful-microsoft-defender-for-endpoint-resources"></a>Microsoft Defender útil para recursos de ponto de extremidade
 
@@ -37,7 +37,7 @@ ms.locfileid: "51165436"
 Acesse recursos úteis, como links para blogs e outros recursos relacionados ao Microsoft Defender para Ponto de Extremidade.
 
 ## <a name="endpoint-protection-platform"></a>Plataforma de proteção de ponto de extremidade
-- [Pontuação superior em testes do setor](https://docs.microsoft.com/windows/security/threat-protection/intelligence/top-scoring-industry-antivirus-tests)
+- [Pontuação superior em testes do setor](/windows/security/threat-protection/intelligence/top-scoring-industry-antivirus-tests)
 
 - [De dentro para fora: Conheça as tecnologias avançadas no núcleo da proteção do Defender para Ponto de Extremidade da próxima geração](https://www.microsoft.com/security/blog/2019/06/24/inside-out-get-to-know-the-advanced-technologies-at-the-core-of-microsoft-defender-atp-next-generation-protection/)
 
@@ -61,4 +61,4 @@ Acesse recursos úteis, como links para blogs e outros recursos relacionados ao 
 
 - [Como a automação traz valor para suas equipes de segurança](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/How-automation-brings-value-to-your-security-teams/ba-p/729297)
 
-- [Resolver falsos positivos/negativos no Microsoft Defender para Ponto de Extremidade](defender-endpoint-false-positives-negatives.md)
+- [Endereços falsos positivos/negativos no Microsoft Defender para Ponto de Extremidade](defender-endpoint-false-positives-negatives.md)

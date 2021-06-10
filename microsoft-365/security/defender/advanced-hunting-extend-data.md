@@ -1,6 +1,6 @@
 ---
 title: Estender a cobertura de busca avançada com as configurações corretas
-description: Verifique as configurações de auditoria em dispositivos Windows e outras configurações para ajudar a garantir que você receba os dados mais abrangentes na busca avançada
+description: Verifique as configurações de auditoria em Windows dispositivos e outras configurações para ajudar a garantir que você receba os dados mais abrangentes na busca avançada
 keywords: busca avançada, incidente, pivô, entidade, configurações de auditoria, gerenciamento de conta de usuário, gerenciamento de grupo de segurança, busca de ameaças, busca de ameaças cibernéticas, pesquisa, consulta, telemetria, Microsoft 365, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -36,9 +36,9 @@ ms.locfileid: "51952663"
 - Microsoft 365 Defender
 - Microsoft Defender para Ponto de Extremidade
 
-[A busca avançada](advanced-hunting-overview.md) depende de dados provenientes de várias fontes, incluindo seus dispositivos, seus espaços de trabalho do Office 365, o Azure AD e o Microsoft Defender para Identidade. Para obter os dados mais abrangentes possíveis, verifique se você tem as configurações corretas nas fontes de dados correspondentes.
+[A busca avançada](advanced-hunting-overview.md) depende de dados provenientes de várias fontes, incluindo seus dispositivos, seus Office 365 de trabalho, o Azure AD e o Microsoft Defender para Identidade. Para obter os dados mais abrangentes possíveis, verifique se você tem as configurações corretas nas fontes de dados correspondentes.
 
-## <a name="advanced-security-auditing-on-windows-devices"></a>Auditoria avançada de segurança em dispositivos Windows
+## <a name="advanced-security-auditing-on-windows-devices"></a>Auditoria avançada de segurança em Windows dispositivos
 A opção Ativar essas configurações avançadas de auditoria para garantir que você receba dados sobre atividades em seus dispositivos, incluindo gerenciamento de contas locais, gerenciamento de grupo de segurança local e criação de serviço.
 
 | Data | Descrição | Tabela de esquema | Como configurar |
@@ -52,10 +52,10 @@ Se você estiver executando o Active Directory no local, precisará instalar o s
 
 | Data | Descrição | Tabela de esquema | Como configurar |
 | --- | --- | --- | --- |
-| Controlador de domínio | Dados do Active Directory local enviados ao Microsoft Defender para Identidade, enriquecendo informações relacionadas à identidade, como detalhes da conta, atividade de logon e consultas do Active Directory | Várias tabelas, incluindo [IdentityInfo,](advanced-hunting-identityinfo-table.md) [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)e [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)  | - [Instalar o sensor do Microsoft Defender for Identity](/azure-advanced-threat-protection/install-atp-step4)<br>- [Ativar eventos relevantes do Windows](/azure-advanced-threat-protection/configure-event-collection) |
+| Controlador de domínio | Dados do Active Directory local enviados ao Microsoft Defender para Identidade, enriquecendo informações relacionadas à identidade, como detalhes da conta, atividade de logon e consultas do Active Directory | Várias tabelas, incluindo [IdentityInfo,](advanced-hunting-identityinfo-table.md) [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)e [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)  | - [Instalar o sensor do Microsoft Defender for Identity](/azure-advanced-threat-protection/install-atp-step4)<br>- [Ativar eventos Windows relevantes](/azure-advanced-threat-protection/configure-event-collection) |
 
 >[!NOTE]
->Algumas tabelas neste artigo podem não estar disponíveis no Microsoft Defender para Ponto de Extremidade. [A turn on Microsoft 365 Defender](m365d-enable.md) to hunt for threats using more data sources. Você pode mover seus fluxos de trabalho de busca avançados do Microsoft Defender para o Endpoint para o Microsoft 365 Defender seguindo as etapas em Migrar consultas de busca avançadas do Microsoft Defender para o Ponto de [Extremidade.](advanced-hunting-migrate-from-mde.md)
+>Algumas tabelas neste artigo podem não estar disponíveis no Microsoft Defender para Ponto de Extremidade. [A Microsoft 365 Defender para](m365d-enable.md) procurar ameaças usando mais fontes de dados. Você pode mover seus fluxos de trabalho de busca avançados do Microsoft Defender para o Endpoint para o Microsoft 365 Defender seguindo as etapas em Migrar consultas de busca avançadas do Microsoft Defender para o Ponto de [Extremidade.](advanced-hunting-migrate-from-mde.md)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

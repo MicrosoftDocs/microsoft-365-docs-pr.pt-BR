@@ -1,5 +1,5 @@
 ---
-title: Usar rótulos de sensibilidade para priorizar a resposta a incidentes
+title: Usar rótulos de confidencialidade para priorizar a resposta a incidentes
 description: Saiba como usar rótulos de sensibilidade para priorizar e investigar incidentes
 keywords: informações, proteção, dados, perda, prevenção,rótulos, dlp, incidente, investigação, investigação
 search.product: eADQiWindows 10XVcnh
@@ -22,7 +22,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/24/2021
 ms.locfileid: "51186120"
 ---
-# <a name="use-sensitivity-labels-to-prioritize-incident-response"></a>Usar rótulos de sensibilidade para priorizar a resposta a incidentes  
+# <a name="use-sensitivity-labels-to-prioritize-incident-response"></a>Usar rótulos de confidencialidade para priorizar a resposta a incidentes  
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -41,9 +41,9 @@ O Defender for Endpoint ajuda a simplificar a priorização de incidentes de seg
 Saiba como usar rótulos de sensibilidade de dados para priorizar a investigação de incidentes.
 
 >[!NOTE]
->Os rótulos são detectados para o Windows 10, versão 1809 ou posterior.
+>Os rótulos são detectados Windows 10 versão 1809 ou posterior.
 
-1. No Centro de Segurança do Microsoft Defender, selecione **Incidentes**. 
+1. Em Central de Segurança do Microsoft Defender, selecione **Incidentes**. 
 
 2. Role para a direita para ver a **coluna De sensibilidade de** dados. Esta coluna reflete rótulos de sensibilidade que foram observados em dispositivos relacionados aos incidentes, fornecendo uma indicação de se arquivos confidenciais podem ser afetados pelo incidente.
 

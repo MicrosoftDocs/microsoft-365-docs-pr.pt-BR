@@ -1,6 +1,6 @@
 ---
 title: Guias de migração para fazer a opção para o Microsoft Defender para o Ponto de Extremidade
-description: Saiba como fazer a mudança de uma solução que não seja do Microsoft 365 Defender para o Microsoft Defender para Ponto de Extremidade
+description: Saiba como fazer a troca de uma solução que não Microsoft 365 Defender para o Microsoft Defender para Ponto de Extremidade
 search.appverid: MET150
 author: denisebmsft
 ms.author: deniseb
@@ -17,14 +17,14 @@ ms.reviewer: chriggs, depicker, yongrhee
 f1.keywords: NOCSH
 ms.date: 09/24/2020
 ms.technology: mde
-ms.openlocfilehash: f834ab371b9d860c451c89bb1a4e7d64bdd6ec1f
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 7d6d92f3abc79552406c80a46a8c3390b91e31d0
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934436"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843005"
 ---
-# <a name="make-the-switch-to-microsoft-defender-for-endpoint-and-microsoft-defender-antivirus"></a>Alternar para o Microsoft Defender para Ponto de Extremidade e o Microsoft Defender Antivírus
+# <a name="make-the-switch-to-microsoft-defender-for-endpoint-and-microsoft-defender-antivirus"></a>Alternar para o Microsoft Defender para Ponto de Extremidade e Microsoft Defender Antivírus
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,16 +36,16 @@ ms.locfileid: "51934436"
 
 ## <a name="migration-guides"></a>Guias de migração
 
-Se você estiver pensando em mudar de uma solução que não seja do Microsoft 365 Defender para o Microsoft Defender para Ponto de Extremidade com o Microsoft Defender Antivírus, confira nossas diretrizes de migração. Selecione o cenário que melhor representa onde você está no processo de implantação e consulte as diretrizes.
+Se você estiver pensando em mudar de uma solução não Microsoft 365 Defender para o Microsoft Defender para Ponto de Extremidade com Microsoft Defender Antivírus, confira nossas diretrizes de migração. Selecione o cenário que melhor representa onde você está no processo de implantação e consulte as diretrizes.
 
 |Cenário |Orientação |
 |:--|:--|
-|Você ainda não tem uma solução de proteção de ponto de extremidade e deseja saber mais sobre como o Microsoft Defender para Ponto de Extremidade & o Microsoft Defender Antivírus funciona.  |[Laboratório de avaliação do Microsoft Defender para Ponto de Extremidade](evaluation-lab.md)   |
+|Você ainda não tem uma solução de proteção de ponto de extremidade e deseja saber mais sobre como o Microsoft Defender for Endpoint & Microsoft Defender Antivírus funciona.  |[Laboratório de avaliação do Microsoft Defender para Ponto de Extremidade](evaluation-lab.md)   |
 |Você tem o Microsoft Defender para Endpoint & Microsoft Defender Antivírus e precisa de ajuda para configurar e configurar tudo.  |[Guia de implantação do Microsoft Defender para Ponto de Extremidade](deployment-phases.md)  |
-|Você está planejando migrar do McAfee Endpoint Security (McAfee) para o Microsoft Defender para o Ponto de Extremidade & Microsoft Defender Antivírus. |[Migrar do McAfee para o Microsoft Defender para Ponto de Extremidade](mcafee-to-microsoft-defender-migration.md) |
-|Você está planejando migrar do Symantec Endpoint Protection (Symantec) para o Microsoft Defender para o & Microsoft Defender Antivírus. |[Migrar do Symantec para o Microsoft Defender para Ponto de Extremidade](symantec-to-microsoft-defender-endpoint-migration.md) |
-|Você está planejando migrar de uma solução de proteção de ponto de extremidade que não seja a Microsoft (diferente da McAfee ou da Symantec) para o Microsoft Defender para o & Microsoft Defender Antivírus. |[Alternar para o Microsoft Defender para Ponto de Extremidade](switch-to-microsoft-defender-migration.md)   |
-|Você migrou para o Microsoft Defender para Endpoint & Microsoft Defender Antivírus e precisa de ajuda com as próximas etapas, como configurar recursos adicionais ou ajustar suas configurações de segurança. | [Gerenciar o Microsoft Defender para Ponto de Extremidade, pós-migração](manage-atp-post-migration.md) |
+|Você está planejando migrar da McAfee Endpoint Security (McAfee) para o Microsoft Defender para o & Microsoft Defender Antivírus. |[Migrar do McAfee para o Microsoft Defender para Ponto de Extremidade](mcafee-to-microsoft-defender-migration.md) |
+|Você está planejando migrar da Symantec Endpoint Protection (Symantec) para o Microsoft Defender para o & Microsoft Defender Antivírus. |[Migrar do Symantec para o Microsoft Defender para Ponto de Extremidade](symantec-to-microsoft-defender-endpoint-migration.md) |
+|Você está planejando migrar de uma solução de proteção de ponto de extremidade não Microsoft (diferente da McAfee ou da Symantec) para o Microsoft Defender para o & Microsoft Defender Antivírus. |[Alternar para o Microsoft Defender para Ponto de Extremidade](switch-to-microsoft-defender-migration.md)   |
+|Você migrou para o Microsoft Defender para & Microsoft Defender Antivírus endpoint e precisa de ajuda com as próximas etapas, como configurar recursos adicionais ou ajustar suas configurações de segurança. | [Gerenciar o Microsoft Defender para Ponto de Extremidade, pós-migração](manage-atp-post-migration.md) |
 
 
 ## <a name="got-feedback"></a>Tem comentários?
@@ -54,6 +54,6 @@ Envie-nos suas sugestões! Envie seus comentários na parte inferior da página.
 
 ## <a name="see-also"></a>Confira também
 
-- [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection)
-- [Microsoft Defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
-- [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-threat-protection?) 
+- [Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection)
+- [Microsoft Defender para Office 365](/microsoft-365/security/office-365-security/office-365-atp)
+- [Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-threat-protection?) 

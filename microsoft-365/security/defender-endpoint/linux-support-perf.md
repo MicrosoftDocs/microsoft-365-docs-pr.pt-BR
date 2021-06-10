@@ -147,7 +147,7 @@ As etapas a seguir podem ser usadas para solucionar problemas e atenuar esses pr
 
 5. Configure o Microsoft Defender para Ponto de Extremidade no Linux com exclusões para os processos ou locais de disco que contribuem para os problemas de desempenho e rehabilitam a proteção em tempo real.
 
-    Para obter mais informações, [consulte Configure and validate exclusions for Microsoft Defender for Endpoint on Linux](linux-exclusions.md).
+    Para mais informações, confira [Configurar e validar exclusões no Microsoft Defender para Ponto de Extremidade no Linux](linux-exclusions.md).
 
 ## <a name="see-also"></a>Confira também
-- [Investigar problemas de saúde do agente](health-status.md)
+- [Investigar problemas de integridade do agente](health-status.md)

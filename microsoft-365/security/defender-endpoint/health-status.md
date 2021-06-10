@@ -1,5 +1,5 @@
 ---
-title: Investigar problemas de saúde do agente
+title: Investigar problemas de integridade do agente
 description: Saiba mais sobre os valores retornados ao executar o comando de saúde mdatp
 keywords: mdatp health, command, health, status, command, onboarding status
 search.product: eADQiWindows 10XVcnh
@@ -23,7 +23,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/07/2021
 ms.locfileid: "52281049"
 ---
-# <a name="investigate-agent-health-issues"></a>Investigar problemas de saúde do agente
+# <a name="investigate-agent-health-issues"></a>Investigar problemas de integridade do agente
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

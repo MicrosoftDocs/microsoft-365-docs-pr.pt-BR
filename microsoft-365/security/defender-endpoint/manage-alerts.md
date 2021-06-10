@@ -50,7 +50,7 @@ Se um alerta ainda não estiver atribuído, você poderá selecionar **Atribuir 
 
 
 ## <a name="suppress-alerts"></a>Suprimir alertas
-Pode haver cenários em que você precisa suprimir alertas de aparecer no Centro de Segurança do Microsoft Defender. O Defender for Endpoint permite que você crie regras de supressão para alertas específicos que são conhecidos como ferramentas ou processos conhecidos em sua organização.
+Pode haver cenários em que você precisa suprimir alertas de aparecer em Central de Segurança do Microsoft Defender. O Defender for Endpoint permite que você crie regras de supressão para alertas específicos que são conhecidos como ferramentas ou processos conhecidos em sua organização.
 
 As regras de supressão podem ser criadas a partir de um alerta existente. Eles podem ser desabilitados e reenvelizáveis, se necessário.
 
@@ -65,7 +65,7 @@ O contexto da regra permite adaptar o que é feito no portal e garantir que apen
 
 Você pode usar os exemplos na tabela a seguir para ajudá-lo a escolher o contexto de uma regra de supressão:
 
-| **Context**                           | **Definição**                                                                                                                                              | **Exemplos de cenários**                                                                                                                                                                                                  |
+| **Context**                           | **Definição**                                                                                                                                              | **Cenários de exemplo**                                                                                                                                                                                                  |
 |:--------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Suprimir alerta neste dispositivo**    | Os alertas com o mesmo título de alerta e nesse dispositivo específico serão suprimidos. <br /><br />Todos os outros alertas nesse dispositivo não serão suprimidos. | <ul><li>Um pesquisador de segurança está investigando um script mal-intencionado que foi usado para atacar outros dispositivos em sua organização.</li><li>Um desenvolvedor cria regularmente scripts do PowerShell para sua equipe.</li></ul> |
 | **Suprimir alerta na minha organização** | Alertas com o mesmo título de alerta em qualquer dispositivo serão suprimidos.                                                                                         | <ul><li>Uma ferramenta administrativa benigna é usada por todos em sua organização.</li></ul>                                                                                                                               |
@@ -98,7 +98,7 @@ Crie regras personalizadas para controlar quando os alertas são suprimidos ou r
 
 #### <a name="view-the-list-of-suppression-rules"></a>Exibir a lista de regras de supressão
 
-1. No painel de navegação, selecione **Configurações**  >  **Supressão de alerta**.
+1. No painel de navegação, **selecione** Configurações  >  **supressão de alerta.**
 
 2. A lista de regras de supressão mostra todas as regras que os usuários em sua organização criaram.
 

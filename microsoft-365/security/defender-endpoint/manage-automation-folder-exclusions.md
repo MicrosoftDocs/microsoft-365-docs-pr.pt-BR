@@ -1,5 +1,5 @@
 ---
-title: Gerenciar exclusões de pastas de automação
+title: Gerenciar exclusões de pasta de automação
 description: Adicione exclusões de pastas de automação para controlar os arquivos excluídos de uma investigação automatizada.
 keywords: gerenciar, automação, exclusão, bloquear, limpar, mal-intencionado
 search.product: eADQiWindows 10XVcnh
@@ -23,7 +23,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/24/2021
 ms.locfileid: "51185832"
 ---
-# <a name="manage-automation-folder-exclusions"></a>Gerenciar exclusões de pastas de automação 
+# <a name="manage-automation-folder-exclusions"></a>Gerenciar exclusões de pasta de automação 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -37,7 +37,7 @@ ms.locfileid: "51185832"
 As exclusões de pastas de automação permitem que você especifique pastas que a investigação automatizada ignorará. 
 
 Você pode controlar os seguintes atributos sobre a pasta que você gostaria de ser ignorada:
-- Folders 
+- Pastas 
 - Extensões dos arquivos
 - Nomes de arquivos
 
@@ -59,13 +59,13 @@ Você pode especificar os nomes de arquivo que deseja excluir em um diretório e
 
 
 ## <a name="add-an-automation-folder-exclusion"></a>Adicionar uma exclusão de pasta de automação
-1. No painel de navegação, selecione **Configurações**  >  **Exclusões de pasta de automação.**  
+1. No painel de navegação, **selecione** Configurações  >  **exclusões de pasta de automação.**  
 
 2. Clique **em Nova exclusão de pasta**.  
 
 3. Insira os detalhes da pasta:
 
-    - Folder
+    - Pasta
     - Extensões
     - Nomes de arquivos
     - Descrição
@@ -77,17 +77,17 @@ Você pode especificar os nomes de arquivo que deseja excluir em um diretório e
 > Comandos de Resposta Ao Vivo para coletar ou examinar arquivos excluídos falharão com o erro: "O arquivo é excluído". Além disso, as investigações automatizadas ignorarão os itens excluídos.
 
 ## <a name="edit-an-automation-folder-exclusion"></a>Editar uma exclusão de pasta de automação 
-1. No painel de navegação, selecione **Configurações**  >  **Exclusões de pasta de automação.** 
+1. No painel de navegação, **selecione** Configurações  >  **exclusões de pasta de automação.** 
 
 2. Clique **em Editar** na exclusão de pasta.  
 
 3. Atualize os detalhes da regra e clique em **Salvar**.
 
 ## <a name="remove-an-automation-folder-exclusion"></a>Remover uma exclusão de pasta de automação 
-1. No painel de navegação, selecione **Configurações**  >  **Exclusões de pasta de automação.**  
+1. No painel de navegação, **selecione** Configurações  >  **exclusões de pasta de automação.**  
 2. Clique **em Remover exclusão**. 
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Gerenciar listas permitidas/bloqueadas de automação](manage-indicators.md)
-- [Gerenciar carregamentos de arquivos de automação](manage-automation-file-uploads.md)
+- [Gerenciar uploads de arquivo de automação](manage-automation-file-uploads.md)

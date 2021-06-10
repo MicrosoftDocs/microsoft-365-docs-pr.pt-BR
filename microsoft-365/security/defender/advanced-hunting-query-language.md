@@ -40,7 +40,7 @@ A caça avançada baseia-se na [linguagem de consulta Kusto](/azure/kusto/query/
 
 ## <a name="try-your-first-query"></a>Experimente a primeira consulta
 
-No Centro de segurança do Microsoft 365, vá até **Hunting** para executar sua primeira consulta. Use o seguinte exemplo:
+No Microsoft 365 de segurança, vá até **Hunting** para executar sua primeira consulta. Use o seguinte exemplo:
 
 ```kusto
 // Finds PowerShell execution events that could involve a download
@@ -176,14 +176,14 @@ A seção **introdução** fornece algumas consultas simples usando operadores u
 ![Imagem da janela de caça avançada](../../media/advanced-hunting-get-started.png)
 
 >[!NOTE]
->Além das amostras básicas de consulta, você também pode acessar [consultas compartilhadas](advanced-hunting-shared-queries.md) para cenários específicos de busca de ameaças. Explore as consultas compartilhadas no lado esquerdo da página ou no [repositório de consulta do GitHub.](https://aka.ms/hunting-queries)
+>Além das amostras básicas de consulta, você também pode acessar [consultas compartilhadas](advanced-hunting-shared-queries.md) para cenários específicos de busca de ameaças. Explore as consultas compartilhadas no lado esquerdo da página ou o GitHub [de consulta](https://aka.ms/hunting-queries).
 
 ## <a name="access-query-language-documentation"></a>Documentação da linguagem de consulta do Access
 
 Para obter mais informações sobre a linguagem de consulta Kusto e os operadores com suporte, confira [documentação da linguagem de consulta do Kusto](/azure/kusto/query/).
 
 >[!NOTE]
->Algumas tabelas neste artigo podem não estar disponíveis no Microsoft Defender para Ponto de Extremidade. [A turn on Microsoft 365 Defender](m365d-enable.md) to hunt for threats using more data sources. Você pode mover seus fluxos de trabalho de busca avançados do Microsoft Defender para o Endpoint para o Microsoft 365 Defender seguindo as etapas em Migrar consultas de busca avançadas do Microsoft Defender para o Ponto de [Extremidade.](advanced-hunting-migrate-from-mde.md)
+>Algumas tabelas neste artigo podem não estar disponíveis no Microsoft Defender para Ponto de Extremidade. [A Microsoft 365 Defender para](m365d-enable.md) procurar ameaças usando mais fontes de dados. Você pode mover seus fluxos de trabalho de busca avançados do Microsoft Defender para o Endpoint para o Microsoft 365 Defender seguindo as etapas em Migrar consultas de busca avançadas do Microsoft Defender para o Ponto de [Extremidade.](advanced-hunting-migrate-from-mde.md)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)
