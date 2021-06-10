@@ -1,5 +1,5 @@
 ---
-title: Atribuir licenças do Microsoft 365 a contas de usuário
+title: Atribuir Microsoft 365 licenças a contas de usuário
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -25,7 +25,7 @@ search.appverid:
 - MOE150
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
-description: Descreve como atribuir licenças do Microsoft 365 a contas de usuário, individualmente ou com base na associação ao grupo.
+description: Descreve como atribuir Microsoft 365 licenças a contas de usuário, individualmente ou com base na associação ao grupo.
 ms.openlocfilehash: 2fe1e2f959fae8b0bc82a7dcd4f65f33b21c368a
 ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
@@ -33,41 +33,41 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51051527"
 ---
-# <a name="assign-microsoft-365-licenses-to-user-accounts"></a><span data-ttu-id="6dfeb-103">Atribuir licenças do Microsoft 365 a contas de usuário</span><span class="sxs-lookup"><span data-stu-id="6dfeb-103">Assign Microsoft 365 licenses to user accounts</span></span>
+# <a name="assign-microsoft-365-licenses-to-user-accounts"></a><span data-ttu-id="3bea1-103">Atribuir Microsoft 365 licenças a contas de usuário</span><span class="sxs-lookup"><span data-stu-id="3bea1-103">Assign Microsoft 365 licenses to user accounts</span></span>
 
-<span data-ttu-id="6dfeb-104">*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*</span><span class="sxs-lookup"><span data-stu-id="6dfeb-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
+<span data-ttu-id="3bea1-104">*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*</span><span class="sxs-lookup"><span data-stu-id="3bea1-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
 
-<span data-ttu-id="6dfeb-105">Para o modelo de identidade somente na nuvem, você pode atribuir licenças do Microsoft 365 às contas de usuário à medida que elas são criadas, dependendo de como você as cria.</span><span class="sxs-lookup"><span data-stu-id="6dfeb-105">For the cloud-only identity model, you can assign Microsoft 365 licenses to user accounts as they are created, depending on how you create them.</span></span>
+<span data-ttu-id="3bea1-105">Para o modelo de identidade somente na nuvem, você pode atribuir Microsoft 365 licenças a contas de usuário à medida que elas são criadas, dependendo de como você as cria.</span><span class="sxs-lookup"><span data-stu-id="3bea1-105">For the cloud-only identity model, you can assign Microsoft 365 licenses to user accounts as they are created, depending on how you create them.</span></span>
 
-<span data-ttu-id="6dfeb-106">Para o modelo de identidade híbrida, quando as contas de usuário do Active Directory Domain Services (AD DS) são sincronizadas pela primeira vez, elas não são atribuídas automaticamente a um local ou uma licença do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="6dfeb-106">For the hybrid identity model, when Active Directory Domain Services (AD DS) user accounts are synchronized for the first time, they are not automatically assigned a location or a Microsoft 365 license.</span></span> <span data-ttu-id="6dfeb-107">**Você deve configurar cada conta de usuário com um local de usuário antes ou com a atribuição de uma licença.**</span><span class="sxs-lookup"><span data-stu-id="6dfeb-107">**You must configure each user account with a user location prior to or along with assigning a license.**</span></span>
+<span data-ttu-id="3bea1-106">Para o modelo de identidade híbrida, quando as contas de usuário do Active Directory Domain Services (AD DS) são sincronizadas pela primeira vez, elas não são atribuídas automaticamente a um local ou uma licença de Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="3bea1-106">For the hybrid identity model, when Active Directory Domain Services (AD DS) user accounts are synchronized for the first time, they are not automatically assigned a location or a Microsoft 365 license.</span></span> <span data-ttu-id="3bea1-107">**Você deve configurar cada conta de usuário com um local de usuário antes ou com a atribuição de uma licença.**</span><span class="sxs-lookup"><span data-stu-id="3bea1-107">**You must configure each user account with a user location prior to or along with assigning a license.**</span></span>
 
-<span data-ttu-id="6dfeb-108">Em ambos os casos, você deve atribuir uma licença a contas de usuário para que seus usuários possam acessar serviços do Microsoft 365, como email e Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="6dfeb-108">In either case, you must assign a license to user accounts so your users can access Microsoft 365 services, such as email and Microsoft Teams.</span></span>
+<span data-ttu-id="3bea1-108">Em ambos os casos, você deve atribuir uma licença a contas de usuário para que os usuários possam acessar Microsoft 365 serviços, como email e Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="3bea1-108">In either case, you must assign a license to user accounts so your users can access Microsoft 365 services, such as email and Microsoft Teams.</span></span>
 
-<span data-ttu-id="6dfeb-109">Você pode atribuir licenças a contas de usuário individualmente ou automaticamente por meio da associação ao grupo.</span><span class="sxs-lookup"><span data-stu-id="6dfeb-109">You can assign licenses to user accounts either individually or automatically through group membership.</span></span>
+<span data-ttu-id="3bea1-109">Você pode atribuir licenças a contas de usuário individualmente ou automaticamente por meio da associação ao grupo.</span><span class="sxs-lookup"><span data-stu-id="3bea1-109">You can assign licenses to user accounts either individually or automatically through group membership.</span></span>
 
-<span data-ttu-id="6dfeb-110">Para atribuir licenças do Microsoft 365 a contas de usuário individuais, você pode usar:</span><span class="sxs-lookup"><span data-stu-id="6dfeb-110">To assign Microsoft 365 licenses to individual user accounts, you can use:</span></span>
+<span data-ttu-id="3bea1-110">Para atribuir Microsoft 365 licenças a contas de usuário individuais, você pode usar:</span><span class="sxs-lookup"><span data-stu-id="3bea1-110">To assign Microsoft 365 licenses to individual user accounts, you can use:</span></span>
 
-- [<span data-ttu-id="6dfeb-111">O Centro de administração do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="6dfeb-111">The Microsoft 365 admin center</span></span>](../admin/manage/assign-licenses-to-users.md)
-- [<span data-ttu-id="6dfeb-112">PowerShell</span><span class="sxs-lookup"><span data-stu-id="6dfeb-112">PowerShell</span></span>](assign-licenses-to-user-accounts-with-microsoft-365-powershell.md)
-- <span data-ttu-id="6dfeb-113">Centro de administração do Azure AD</span><span class="sxs-lookup"><span data-stu-id="6dfeb-113">The Azure AD admin center</span></span>
+- [<span data-ttu-id="3bea1-111">O Centro de administração do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="3bea1-111">The Microsoft 365 admin center</span></span>](../admin/manage/assign-licenses-to-users.md)
+- [<span data-ttu-id="3bea1-112">PowerShell</span><span class="sxs-lookup"><span data-stu-id="3bea1-112">PowerShell</span></span>](assign-licenses-to-user-accounts-with-microsoft-365-powershell.md)
+- <span data-ttu-id="3bea1-113">Centro de administração do Azure AD</span><span class="sxs-lookup"><span data-stu-id="3bea1-113">The Azure AD admin center</span></span>
 
-## <a name="group-based-licensing"></a><span data-ttu-id="6dfeb-114">Licenciamento com base em grupo</span><span class="sxs-lookup"><span data-stu-id="6dfeb-114">Group-based licensing</span></span>
+## <a name="group-based-licensing"></a><span data-ttu-id="3bea1-114">Licenciamento com base em grupo</span><span class="sxs-lookup"><span data-stu-id="3bea1-114">Group-based licensing</span></span>
 
-<span data-ttu-id="6dfeb-115">Você pode configurar grupos de segurança no Azure AD para atribuir automaticamente licenças de um conjunto de assinaturas a todos os membros do grupo.</span><span class="sxs-lookup"><span data-stu-id="6dfeb-115">You can configure security groups in Azure AD to automatically assign licenses from a set of subscriptions to all the members of the group.</span></span> <span data-ttu-id="6dfeb-116">Isso é conhecido como *licenciamento baseado em grupo*.</span><span class="sxs-lookup"><span data-stu-id="6dfeb-116">This is known as *group-based licensing*.</span></span> <span data-ttu-id="6dfeb-117">Se uma conta de usuário for adicionada ou removida do grupo, as licenças das assinaturas do grupo serão automaticamente atribuídas ou não atribuídas à conta do usuário.</span><span class="sxs-lookup"><span data-stu-id="6dfeb-117">If a user account is added to or removed from the group, the licenses for the group's subscriptions will be automatically assigned or unassigned from the user account.</span></span>
+<span data-ttu-id="3bea1-115">Você pode configurar grupos de segurança no Azure AD para atribuir automaticamente licenças de um conjunto de assinaturas a todos os membros do grupo.</span><span class="sxs-lookup"><span data-stu-id="3bea1-115">You can configure security groups in Azure AD to automatically assign licenses from a set of subscriptions to all the members of the group.</span></span> <span data-ttu-id="3bea1-116">Isso é conhecido como *licenciamento baseado em grupo*.</span><span class="sxs-lookup"><span data-stu-id="3bea1-116">This is known as *group-based licensing*.</span></span> <span data-ttu-id="3bea1-117">Se uma conta de usuário for adicionada ou removida do grupo, as licenças das assinaturas do grupo serão automaticamente atribuídas ou não atribuídas à conta do usuário.</span><span class="sxs-lookup"><span data-stu-id="3bea1-117">If a user account is added to or removed from the group, the licenses for the group's subscriptions will be automatically assigned or unassigned from the user account.</span></span>
 
-<span data-ttu-id="6dfeb-118">Verifique se você tem licenças suficientes para todos os membros do grupo.</span><span class="sxs-lookup"><span data-stu-id="6dfeb-118">Make sure you have enough licenses for all the group members.</span></span> <span data-ttu-id="6dfeb-119">Se você ficar sem licenças, os novos usuários não receberão licenças até que as licenças estejam disponíveis.</span><span class="sxs-lookup"><span data-stu-id="6dfeb-119">If you run out of licenses, new users won't be assigned licenses until licenses become available.</span></span>
+<span data-ttu-id="3bea1-118">Verifique se você tem licenças suficientes para todos os membros do grupo.</span><span class="sxs-lookup"><span data-stu-id="3bea1-118">Make sure you have enough licenses for all the group members.</span></span> <span data-ttu-id="3bea1-119">Se você ficar sem licenças, os novos usuários não receberão licenças até que as licenças estejam disponíveis.</span><span class="sxs-lookup"><span data-stu-id="3bea1-119">If you run out of licenses, new users won't be assigned licenses until licenses become available.</span></span>
 
 >[!Note]
-><span data-ttu-id="6dfeb-120">Você não deve configurar o licenciamento baseado em grupo para grupos que contenham contas do Azure para empresas (B2B).</span><span class="sxs-lookup"><span data-stu-id="6dfeb-120">You should not configure group-based licensing for groups that contain Azure business to business (B2B) accounts.</span></span>
+><span data-ttu-id="3bea1-120">Você não deve configurar o licenciamento baseado em grupo para grupos que contenham contas do Azure para empresas (B2B).</span><span class="sxs-lookup"><span data-stu-id="3bea1-120">You should not configure group-based licensing for groups that contain Azure business to business (B2B) accounts.</span></span>
 >
 
-<span data-ttu-id="6dfeb-121">Para obter mais informações, consulte [licenciamento baseado em grupo no Azure AD](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal).</span><span class="sxs-lookup"><span data-stu-id="6dfeb-121">For more informaion, see [group-based licensing in Azure AD](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal).</span></span>
+<span data-ttu-id="3bea1-121">Para obter mais informações, consulte [licenciamento baseado em grupo no Azure AD](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal).</span><span class="sxs-lookup"><span data-stu-id="3bea1-121">For more informaion, see [group-based licensing in Azure AD](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal).</span></span>
 
-## <a name="next-steps"></a><span data-ttu-id="6dfeb-122">Próximas etapas</span><span class="sxs-lookup"><span data-stu-id="6dfeb-122">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="3bea1-122">Próximas etapas</span><span class="sxs-lookup"><span data-stu-id="3bea1-122">Next steps</span></span>
 
-<span data-ttu-id="6dfeb-123">Com o conjunto apropriado de contas de usuário que foram atribuídas licenças, agora você está pronto para:</span><span class="sxs-lookup"><span data-stu-id="6dfeb-123">With the appropriate set of user accounts that have been assigned licenses, you are now ready to:</span></span>
+<span data-ttu-id="3bea1-123">Com o conjunto apropriado de contas de usuário que foram atribuídas licenças, agora você está pronto para:</span><span class="sxs-lookup"><span data-stu-id="3bea1-123">With the appropriate set of user accounts that have been assigned licenses, you are now ready to:</span></span>
 
-- [<span data-ttu-id="6dfeb-124">Implementar segurança</span><span class="sxs-lookup"><span data-stu-id="6dfeb-124">Implement security</span></span>](../security/defender-365-security/security-roadmap.md)
-- [<span data-ttu-id="6dfeb-125">Implantar software cliente, como o Microsoft 365 Apps</span><span class="sxs-lookup"><span data-stu-id="6dfeb-125">Deploy client software, such as Microsoft 365 Apps</span></span>](/DeployOffice/deployment-guide-microsoft-365-apps)
-- [<span data-ttu-id="6dfeb-126">Configurar o gerenciamento de dispositivos</span><span class="sxs-lookup"><span data-stu-id="6dfeb-126">Set up device management</span></span>](device-management-roadmap-microsoft-365.md)
-- [<span data-ttu-id="6dfeb-127">Configurar serviços e aplicativos</span><span class="sxs-lookup"><span data-stu-id="6dfeb-127">Configure services and applications</span></span>](configure-services-and-applications.md)
+- [<span data-ttu-id="3bea1-124">Implementar segurança</span><span class="sxs-lookup"><span data-stu-id="3bea1-124">Implement security</span></span>](../security/defender-365-security/security-roadmap.md)
+- [<span data-ttu-id="3bea1-125">Implantar software cliente, como Microsoft 365 Apps</span><span class="sxs-lookup"><span data-stu-id="3bea1-125">Deploy client software, such as Microsoft 365 Apps</span></span>](/DeployOffice/deployment-guide-microsoft-365-apps)
+- [<span data-ttu-id="3bea1-126">Configurar o gerenciamento de dispositivos</span><span class="sxs-lookup"><span data-stu-id="3bea1-126">Set up device management</span></span>](device-management-roadmap-microsoft-365.md)
+- [<span data-ttu-id="3bea1-127">Configurar serviços e aplicativos</span><span class="sxs-lookup"><span data-stu-id="3bea1-127">Configure services and applications</span></span>](configure-services-and-applications.md)
