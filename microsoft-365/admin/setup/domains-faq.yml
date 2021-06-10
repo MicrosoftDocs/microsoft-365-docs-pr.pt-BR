@@ -52,7 +52,7 @@ sections:
   - question: Como faço para transferir um domínio do Microsoft 365 para outro host?
     answer: >
       Para que o procedimento transfira um domínio, consulte [Transfer a domain from Microsoft to another host](../get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host.md).
-  - question: Piloto do Microsoft 365 a partir do meu domínio personalizado
+  - question: Piloto do Microsoft 365 do meu domínio personalizado
     answer: >
       Para que o procedimento piloto Microsoft 365 funcionalidade de email de um domínio personalizado para uma caixa de correio Microsoft 365, consulte [Pilot Microsoft 365 do meu domínio personalizado](../misc/pilot-microsoft-365-from-my-custom-domain.md).
   - question: Por que eu tenho um domínio "onmicrosoft.com" ?

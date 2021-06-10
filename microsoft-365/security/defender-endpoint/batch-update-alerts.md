@@ -53,7 +53,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   Alerts.ReadWrite.All |  'Ler e gravar todos os alertas'
-Delegada (conta corporativa ou de estudante) | Alert.ReadWrite | 'Alertas de leitura e gravação'
+Delegado (conta corporativa ou de estudante) | Alert.ReadWrite | 'Alertas de leitura e gravação'
 
 >[!Note]
 > Ao obter um token usando credenciais de usuário:

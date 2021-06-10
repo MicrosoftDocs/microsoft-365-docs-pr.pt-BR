@@ -1,6 +1,6 @@
 ---
 title: Atributos das políticas de barreira de informações
-description: Este artigo é uma referência para os atributos de conta de usuário do Azure Active Directory que você pode usar para definir segmentos de barreira de informações.
+description: Este artigo é uma referência para os atributos Azure Active Directory conta de usuário que você pode usar para definir segmentos de barreira de informações.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -22,7 +22,7 @@ ms.locfileid: "50919727"
 ---
 # <a name="attributes-for-information-barrier-policies"></a>Atributos das políticas de barreira de informações
 
-Determinados atributos no Azure Active Directory podem ser usados para segmentar usuários. Depois que os segmentos são definidos, esses segmentos podem ser usados como filtros para políticas de barreira de informações. Por exemplo, você pode usar **o Department** para definir segmentos de usuários por departamento em sua organização (supondo que nenhum único funcionário funcione para dois departamentos ao mesmo tempo).
+Determinados atributos Azure Active Directory podem ser usados para segmentar usuários. Depois que os segmentos são definidos, esses segmentos podem ser usados como filtros para políticas de barreira de informações. Por exemplo, você pode usar **o Department** para definir segmentos de usuários por departamento em sua organização (supondo que nenhum único funcionário funcione para dois departamentos ao mesmo tempo).
 
 Este artigo descreve como usar atributos com barreiras de informações e fornece uma lista de atributos que podem ser usados. Para saber mais sobre as barreiras de informações, consulte os seguintes recursos:
 
@@ -57,7 +57,7 @@ Os atributos listados neste artigo podem ser usados para definir ou editar segme
 
 A tabela a seguir lista os atributos que você pode usar com barreiras de informações.
 
-|**Nome da propriedade Azure Active Directory (nome de exibição <br/> LDAP)**|**Nome da propriedade Exchange**|
+|**Azure Active Directory nome da propriedade (nome de exibição <br/> LDAP)**|**Exchange nome da propriedade**|
 |:---------------------------------------------------------------|:-------------------------|
 | Co | Co |
 | Empresa | Empresa |
@@ -85,7 +85,7 @@ A tabela a seguir lista os atributos que você pode usar com barreiras de inform
 | MailNickname | Alias |
 | PhysicalDeliveryOfficeName | Office |
 | PostalCode | PostalCode |
-| ProxyAddresses | EmailAddresses |
+| ProxyAddresses | EndereçosEmail |
 | StreetAddress | StreetAddress |
 | TargetAddress | ExternalEmailAddress |
 | UsageLocation | UsageLocation |

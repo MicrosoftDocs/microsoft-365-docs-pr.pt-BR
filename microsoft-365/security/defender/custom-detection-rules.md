@@ -42,14 +42,14 @@ Regras de detecção personalizadas são regras que você pode projetar e ajusta
 
 Para gerenciar detecções personalizadas, você precisa ter uma dessas funções:
 
-- **Administrador de** segurança — os usuários com essa função do [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) podem gerenciar configurações de segurança no Centro de segurança do Microsoft 365 e em outros portais e serviços.
+- **Administrador de** segurança — os usuários com [essa função Azure Active Directory podem](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) gerenciar configurações de segurança Microsoft 365 centro de segurança e outros portais e serviços.
 
-- **Operador de** segurança — os usuários com essa função do [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) podem gerenciar alertas e ter acesso global somente leitura a recursos relacionados à segurança, incluindo todas as informações no Centro de segurança do Microsoft 365. Essa função é suficiente para gerenciar detecções personalizadas somente se o controle de acesso baseado em função (RBAC) estiver desligado no Microsoft Defender para Ponto de Extremidade. Se você tiver o RBAC configurado, também precisará da permissão gerenciar configurações **de segurança** para o Defender para o Ponto de Extremidade.
+- **Operador de** segurança [](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) — os usuários com essa função Azure Active Directory podem gerenciar alertas e ter acesso global somente leitura a recursos relacionados à segurança, incluindo todas as informações no centro de segurança Microsoft 365. Essa função é suficiente para gerenciar detecções personalizadas somente se o controle de acesso baseado em função (RBAC) estiver desligado no Microsoft Defender para Ponto de Extremidade. Se você tiver o RBAC configurado, também precisará da permissão gerenciar configurações **de segurança** para o Defender para o Ponto de Extremidade.
 
 Para gerenciar permissões necessárias, um **administrador global** pode:
 
-- Atribua **a função de administrador de** segurança ou operador **de** segurança no Centro de administração do [Microsoft 365](https://admin.microsoft.com/) em **Roles**  >  **Security admin**.
-- Verifique as configurações do RBAC para o Microsoft Defender para Ponto de Extremidade no Centro de Segurança do [Microsoft Defender](https://securitycenter.windows.com/) em **Funções de** Permissões  >  **de**  >  **Configurações.** Selecione a função correspondente para atribuir a **permissão gerenciar configurações de** segurança.
+- Atribua **a função de administrador de** segurança ou operador de **segurança** Microsoft 365 centro de [administração](https://admin.microsoft.com/) em **Roles**  >  **Security admin**.
+- Verifique as configurações do RBAC para o Microsoft Defender para o Ponto de Extremidade [no Central de Segurança do Microsoft Defender](https://securitycenter.windows.com/) em **Configurações**  >  **Funções de**  >  **Permissões**. Selecione a função correspondente para atribuir a **permissão gerenciar configurações de** segurança.
 
 > [!NOTE]
 > Para gerenciar detecções **personalizadas,** os operadores de segurança precisarão da permissão gerenciar configurações de **segurança** no Microsoft Defender para Ponto de Extremidade se o RBAC estiver ligado.
@@ -57,7 +57,7 @@ Para gerenciar permissões necessárias, um **administrador global** pode:
 ## <a name="create-a-custom-detection-rule"></a>Criar uma regra de detecção personalizada
 ### <a name="1-prepare-the-query"></a>1. Preparar a consulta.
 
-No Centro de segurança do Microsoft 365, vá para **Busca** Avançada e selecione uma consulta existente ou crie uma nova consulta. Ao usar uma nova consulta, execute a consulta para identificar erros e compreender possíveis resultados.
+No Microsoft 365 de segurança, vá para **Busca** Avançada e selecione uma consulta existente ou crie uma nova consulta. Ao usar uma nova consulta, execute a consulta para identificar erros e compreender possíveis resultados.
 
 >[!IMPORTANT]
 >Para impedir que o serviço retorne alertas demais, cada regra é limitada à geração de apenas 100 alertas sempre que ele é executado. Antes de criar uma regra, ajuste sua consulta para evitar alertas para atividades normais do dia a dia.
@@ -145,7 +145,7 @@ Sua regra de detecção personalizada pode tomar ações automaticamente em disp
 Essas ações são aplicadas a dispositivos na `DeviceId` coluna dos resultados da consulta:
 - **Isolar dispositivo** usa o Microsoft Defender para Endpoint para aplicar isolamento total de rede, impedindo que o dispositivo se conecte a qualquer aplicativo ou serviço. [Saiba mais sobre o isolamento de máquina do Microsoft Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-devices-from-the-network)
 - **Coletar pacote de investigação**— coleta informações do dispositivo em um arquivo ZIP. [Saiba mais sobre o pacote de investigação do Microsoft Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)
-- **Executar a verificação antivírus**— executa uma verificação completa Windows Defender antivírus no dispositivo
+- **Executar a verificação antivírus** executa uma verificação Windows Defender Antivírus completa no dispositivo
 - **Iniciar investigação**— inicia uma investigação [automatizada](m365d-autoir.md) no dispositivo
 - **Restringir a execução de** aplicativos define restrições no dispositivo para permitir que apenas arquivos assinados com um certificado emitido pela Microsoft sejam executados. [Saiba mais sobre restrições de aplicativo com o Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/respond-machine-alerts#restrict-app-execution)
 
@@ -153,17 +153,17 @@ Essas ações são aplicadas a dispositivos na `DeviceId` coluna dos resultados 
 Quando selecionado, você pode  optar por aplicar a ação de arquivo de quarentena em arquivos na coluna , , ou nos `SHA1` resultados da `InitiatingProcessSHA1` `SHA256` `InitiatingProcessSHA256` consulta. Essa ação exclui o arquivo de seu local atual e coloca uma cópia em quarentena.
 
 #### <a name="actions-on-users"></a>Ações em usuários
-Quando selecionado, o **usuário Mark como ação** comprometida é tomada em usuários na coluna , ou nos resultados da `AccountObjectId` `InitiatingProcessAccountObjectId` `RecipientObjectId` consulta. Essa ação define o nível de risco dos usuários como "alto" no Azure Active Directory, disparando as políticas de proteção [de identidade correspondentes.](/azure/active-directory/identity-protection/overview-identity-protection)
+Quando selecionado, o **usuário Mark como ação** comprometida é tomada em usuários na coluna , ou nos resultados da `AccountObjectId` `InitiatingProcessAccountObjectId` `RecipientObjectId` consulta. Essa ação define o nível de risco dos usuários como "alto" Azure Active Directory, disparando políticas de proteção [de identidade correspondentes.](/azure/active-directory/identity-protection/overview-identity-protection)
 
 > [!NOTE]
-> No momento, a ação permitir ou bloquear regras de detecção personalizadas não é suportada no Microsoft 365 Defender.
+> Atualmente, a ação permitir ou bloquear regras de detecção personalizadas não é suportada no Microsoft 365 Defender.
 
 ### <a name="5-set-the-rule-scope"></a>5. De definir o escopo da regra.
 De definir o escopo para especificar quais dispositivos são cobertos pela regra. O escopo influencia regras que verificam dispositivos e não afetam regras que verificam apenas caixas de correio e contas de usuário ou identidades.
 
 Ao definir o escopo, você pode selecionar:
 
-- Todos os dispositivos
+- Todos os dispositivos.
 - Grupos de dispositivos específicos
 
 Somente os dados de dispositivos no escopo serão consultados. Além disso, as ações serão realizadas somente nesses dispositivos.
@@ -181,7 +181,7 @@ Você mantém o controle sobre a ampla ou a especificidade de suas detecções p
 Você pode exibir a lista de regras de detecção personalizadas existentes, verificar suas versões anteriores e revisar os alertas disparados. Você também pode executar uma regra sob demanda e modificá-la.
 
 >[!TIP]
-> Alertas gerados por detecções personalizadas estão disponíveis por meio de alertas e APIs de incidentes. Para obter mais informações, consulte APIs do [Microsoft 365 Defender com suporte.](api-supported.md)
+> Alertas gerados por detecções personalizadas estão disponíveis por meio de alertas e APIs de incidentes. Para obter mais informações, consulte [Supported Microsoft 365 Defender APIs](api-supported.md).
 
 ### <a name="view-existing-rules"></a>Exibir regras existentes
 
@@ -222,7 +222,7 @@ Na tela de detalhes da regra (**Hunting**  >  **Custom detections**  >  **[Nome*
 >Para exibir rapidamente informações e tomar medidas em um item em uma tabela, use a coluna de seleção [&#10003;] à esquerda da tabela.
 
 >[!NOTE]
->Algumas colunas neste artigo podem não estar disponíveis no Microsoft Defender para Ponto de Extremidade. [A turn on Microsoft 365 Defender](m365d-enable.md) to hunt for threats using more data sources. Você pode mover seus fluxos de trabalho de busca avançados do Microsoft Defender para o Endpoint para o Microsoft 365 Defender seguindo as etapas em Migrar consultas de busca avançadas do Microsoft Defender para o Ponto de [Extremidade.](advanced-hunting-migrate-from-mde.md)
+>Algumas colunas neste artigo podem não estar disponíveis no Microsoft Defender para Ponto de Extremidade. [A Microsoft 365 Defender para](m365d-enable.md) procurar ameaças usando mais fontes de dados. Você pode mover seus fluxos de trabalho de busca avançados do Microsoft Defender para o Endpoint para o Microsoft 365 Defender seguindo as etapas em Migrar consultas de busca avançadas do Microsoft Defender para o Ponto de [Extremidade.](advanced-hunting-migrate-from-mde.md)
 
 ## <a name="see-also"></a>Confira também
 - [Visão geral de detecções personalizadas](custom-detections-overview.md)

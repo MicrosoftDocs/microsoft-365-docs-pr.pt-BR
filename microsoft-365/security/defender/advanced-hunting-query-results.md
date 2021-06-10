@@ -1,5 +1,5 @@
 ---
-title: Trabalhar com resultados de consulta de busca avançada no Microsoft 365 Defender
+title: Trabalhar com resultados avançados de consulta de busca no Microsoft 365 Defender
 description: Fazer o máximo dos resultados da consulta retornados pela busca avançada no Microsoft 365 Defender
 keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, detecções personalizadas, esquema, kusto, visualização, gráfico, filtros, drill-down
 search.product: eADQiWindows 10XVcnh
@@ -122,7 +122,7 @@ O gráfico de linha abaixo realça claramente os períodos de tempo com mais ati
 ## <a name="export-tables-and-charts"></a>Exportar tabelas e gráficos
 Depois de executar uma consulta, selecione **Exportar** para salvar os resultados no arquivo local. Sua exibição escolhida determina como os resultados são exportados:
 
-- **Exibição de** tabela — os resultados da consulta são exportados no formato tabular como uma planilha do Microsoft Excel
+- **Exibição de** tabela — os resultados da consulta são exportados no formato tabular como uma Microsoft Excel de trabalho
 - **Qualquer gráfico** — os resultados da consulta são exportados como uma imagem JPEG do gráfico renderizado
 
 ## <a name="drill-down-from-query-results"></a>Detalhar a partir dos resultados da consulta
@@ -155,7 +155,7 @@ Refine sua consulta selecionando os botões ou nos valores que você deseja incl
 Depois de aplicar o filtro para modificar e executar a consulta, os resultados serão atualizados de acordo.
 
 >[!NOTE]
->Algumas tabelas neste artigo podem não estar disponíveis no Microsoft Defender para Ponto de Extremidade. [A turn on Microsoft 365 Defender](m365d-enable.md) to hunt for threats using more data sources. Você pode mover seus fluxos de trabalho de busca avançados do Microsoft Defender para o Endpoint para o Microsoft 365 Defender seguindo as etapas em Migrar consultas de busca avançadas do Microsoft Defender para o Ponto de [Extremidade.](advanced-hunting-migrate-from-mde.md)
+>Algumas tabelas neste artigo podem não estar disponíveis no Microsoft Defender para Ponto de Extremidade. [A Microsoft 365 Defender para](m365d-enable.md) procurar ameaças usando mais fontes de dados. Você pode mover seus fluxos de trabalho de busca avançados do Microsoft Defender para o Endpoint para o Microsoft 365 Defender seguindo as etapas em Migrar consultas de busca avançadas do Microsoft Defender para o Ponto de [Extremidade.](advanced-hunting-migrate-from-mde.md)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

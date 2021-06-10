@@ -35,7 +35,7 @@ A Pontuação de Produtividade fornece informações sobre a jornada de transfor
 Para começar a obter informações de colaboração de conteúdo, as pessoas em sua organização precisam ser licenciadas para:
 
 - OneDrive for Business
-- Microsoft Office SharePoint Online
+- SharePoint
 - Exchange Online
 
 Para obter mais informações, [consulte atribuir licenças aos usuários](../manage/assign-licenses-to-users.md).

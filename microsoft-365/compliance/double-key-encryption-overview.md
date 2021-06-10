@@ -1,6 +1,6 @@
 ---
 title: Visão geral e perguntas frequentes sobre criptografia de chave dupla
-description: Perguntas frequentes sobre Criptografia de Chave Dupla para o Microsoft 365.
+description: Perguntas frequentes sobre Criptografia de Chave Dupla para Microsoft 365.
 author: kccross
 ms.author: krowley
 manager: laurawi
@@ -23,9 +23,9 @@ ms.locfileid: "50922045"
 
 Tem uma pergunta sobre como funciona a Criptografia de Chave Dupla? Verifique se há uma resposta aqui.
 
-## <a name="what-is-double-key-encryption-for-microsoft-365-dke"></a>O que é Criptografia de Chave Dupla para o Microsoft 365 (DKE)?
+## <a name="what-is-double-key-encryption-for-microsoft-365-dke"></a>O que é Criptografia de Chave Dupla para Microsoft 365 (DKE)?
 
-A Criptografia de Chave Dupla para o Microsoft 365 permite que os clientes protejam seus dados altamente confidenciais para atender aos requisitos especializados. Ele ajuda os clientes a manter o controle total de suas chaves de criptografia. Ele usa duas chaves para proteger dados; uma chave em seu controle e uma segunda chave armazenada com segurança no Microsoft Azure. A exibição de dados protegidos com Criptografia de Chave Dupla requer acesso a ambas as chaves. Como a Microsoft pode acessar apenas uma dessas chaves, os dados protegidos permanecem inacessíveis para a Microsoft, garantindo que você tenha controle total sobre sua privacidade e segurança de dados.  
+A Criptografia de Chave Dupla Microsoft 365 permite que os clientes protejam seus dados altamente confidenciais para atender aos requisitos especializados. Ele ajuda os clientes a manter o controle total de suas chaves de criptografia. Ele usa duas chaves para proteger dados; uma chave em seu controle e uma segunda chave armazenada com segurança no Microsoft Azure. A exibição de dados protegidos com Criptografia de Chave Dupla requer acesso a ambas as chaves. Como a Microsoft pode acessar apenas uma dessas chaves, os dados protegidos permanecem inacessíveis para a Microsoft, garantindo que você tenha controle total sobre sua privacidade e segurança de dados.  
 
 Você pode hospedar o serviço de Criptografia de Chave Dupla usado para solicitar sua chave, em um local de sua escolha (servidor de gerenciamento de chaves local ou na nuvem). Você mantém o serviço como faria com qualquer outro aplicativo. A Criptografia de Chave Dupla permite controlar o acesso ao serviço de Criptografia de Chave Dupla. Você pode armazenar seus dados altamente confidenciais no local ou movê-los para a nuvem. Você pode ter certeza sobre como impedir o acesso de terceiros porque mantém o controle total da chave. A Criptografia de Chave Dupla permite que você armazene seus dados e chaves no mesmo local.
 
@@ -33,11 +33,11 @@ O DKE ajuda você a atender aos requisitos regulatórios em vários regulamentos
 
 ## <a name="can-i-use-double-key-encryption-with-microsoft-office-built-in-sensitivity-labeling"></a>Posso usar a Criptografia de Chave Dupla com Microsoft Office rótulo de sensibilidade integrado?
 
-Você precisará usar o cliente de rotulagem unificada da Proteção de Informações do Azure para proteger documentos com Criptografia de Chave Dupla. Atualmente, você não pode usar Microsoft Office rótulo de sensibilidade integrado.
+Você precisará usar o cliente de rotulagem unificada da Proteção de Informações do Azure para proteger documentos com Criptografia de Chave Dupla. Atualmente, você não pode usar Microsoft Office rotulagem de sensibilidade integrado.
 
-## <a name="what-microsoft-365-apps-can-i-use-with-dke"></a>Quais aplicativos do Microsoft 365 posso usar com o DKE?
+## <a name="what-microsoft-365-apps-can-i-use-with-dke"></a>Quais Microsoft 365 Apps posso usar com o DKE?
 
-Você pode usar rótulos DKE para proteger documentos usando as versões da área de trabalho do Word, Excel e PowerPoint no Windows. Verifique se você está usando *.12711 ou posterior (versões desktop do Word, PowerPoint e Excel) no Windows.
+Você pode usar rótulos DKE para proteger documentos usando as versões da área de trabalho do Word, Excel e PowerPoint no Windows. Verifique se você está usando *.12711 ou posterior (versões da área de trabalho do Word, PowerPoint e Excel) no Windows.
 
 ## <a name="how-is-double-key-encryption-different-from-the-existing-hold-your-own-key-hyok-solution"></a>Como a Criptografia de Chave Dupla é diferente da solução hyok (chave de segurança) existente?
 
@@ -49,7 +49,7 @@ Você pode compartilhar documentos criptografados com chave dupla com usuários 
 
 - Tenha a permissão necessária para acessar sua chave em seu serviço de Criptografia de Chave Dupla.
 
-- Tenha a permissão necessária para acessar sua chave no Microsoft Azure.
+- Tenha a permissão necessária para acessar sua chave em Microsoft Azure.
 
 ## <a name="what-happens-to-documents-that-are-protected-with-hyok"></a>O que acontece com documentos protegidos com HYOK?
 
@@ -57,11 +57,11 @@ A implantação da Criptografia de Chave Dupla não afetará sua configuração 
 
 ## <a name="can-i-run-double-key-encryption-in-my-non-microsoft-air-gapped-environment"></a>Posso executar a Criptografia de Chave Dupla em meu ambiente não mapeado para ar da Microsoft?
 
-O DKE não dá suporte a esses ambientes porque o serviço exige acesso ao Microsoft Azure.
+O DKE não dá suporte a esses ambientes porque o serviço exige acesso a Microsoft Azure.
 
 ## <a name="where-can-i-store-double-key-encrypted-documents"></a>Onde posso armazenar documentos criptografados por chave dupla?
 
-Você pode armazenar documentos criptografados de chave dupla no local ou na nuvem. Na nuvem, você pode mover o conteúdo criptografado para o SharePoint Online e o OneDrive for Business. Como a Microsoft não tem acesso à sua chave privada, os dados criptografados permanecem opacos para a Microsoft. Isso também significa que você não pode exibir os documentos criptografados online no Office Web Apps.
+Você pode armazenar documentos criptografados de chave dupla no local ou na nuvem. Na nuvem, você pode mover o conteúdo criptografado para SharePoint Online e OneDrive for Business. Como a Microsoft não tem acesso à sua chave privada, os dados criptografados permanecem opacos para a Microsoft. Isso também significa que você não pode exibir os documentos criptografados online em Office Web Apps.
 
 ## <a name="what-regions-and-languages-is-double-key-encryption-available-in-is-double-key-encryption-available-worldwide"></a>Em quais regiões e idiomas está disponível a Criptografia de Chave Dupla? A Criptografia de Chave Dupla está disponível em todo o mundo?
 

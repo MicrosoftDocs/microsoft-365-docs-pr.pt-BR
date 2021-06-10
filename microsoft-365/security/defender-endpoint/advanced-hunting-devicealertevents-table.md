@@ -35,7 +35,7 @@ ms.locfileid: "51939643"
 
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-advancedhuntingref-abovefoldlink)
 
-A `DeviceAlertEvents` tabela no esquema de busca [avançado](advanced-hunting-overview.md) contém informações sobre alertas no Centro de Segurança do Microsoft Defender. Use esta referência para criar consultas quer retiram informações desta tabela.
+A `DeviceAlertEvents` tabela no esquema de [busca](advanced-hunting-overview.md) avançada contém informações sobre alertas em Central de Segurança do Microsoft Defender. Use esta referência para criar consultas quer retiram informações desta tabela.
 
 Para obter informações sobre outras tabelas no esquema de busca avançado, consulte [a referência avançada do esquema de busca](advanced-hunting-schema-reference.md).
 

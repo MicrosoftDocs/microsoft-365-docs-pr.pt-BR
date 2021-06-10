@@ -34,7 +34,7 @@ ms.locfileid: "52780160"
 
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
 
-## <a name="before-you-begin"></a>Antes de você começar
+## <a name="before-you-begin"></a>Antes de começar
 
 1. Crie um [hub de eventos](/azure/event-hubs/) em seu locatário.
 

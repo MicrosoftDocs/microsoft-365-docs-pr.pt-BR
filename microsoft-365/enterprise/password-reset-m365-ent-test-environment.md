@@ -27,11 +27,11 @@ ms.locfileid: "50921487"
 ---
 # <a name="password-reset-for-your-microsoft-365-test-environment"></a>Redefinição de senha do ambiente de teste do Microsoft 365
 
-*Este Guia de Laboratório de Teste só pode ser usado para o Microsoft 365 para ambientes de teste corporativos.*
+*Este Guia de Laboratório de Teste só pode ser usado para Microsoft 365 ambientes de teste corporativos.*
 
 A redefinição de senha de autoatendimento (SSPR) do Azure Active Directory (Azure AD) permite que os usuários redefinam ou desbloqueiem suas senhas ou contas.
 
-Este artigo descreve como configurar e testar redefinições de senha em seu ambiente de teste do Microsoft 365.
+Este artigo descreve como configurar e testar redefinições de senha em seu ambiente Microsoft 365 teste.
 
 A configuração do SSPR envolve três fases:
 - [Fase 1: configurar a sincronização de hash de senha do ambiente de teste do Microsoft 365](#phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment)
@@ -41,7 +41,7 @@ A configuração do SSPR envolve três fases:
 ![Guias de Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Para um mapa visual de todos os artigos na pilha guia de laboratório de teste do Microsoft 365 para empresas, vá para [o Microsoft 365 for enterprise Test Lab Guide Stack](../downloads/Microsoft365EnterpriseTLGStack.pdf).
+> Para um mapa visual de todos os artigos na pilha Microsoft 365 guia do laboratório de teste empresarial, vá para o Microsoft 365 para a pilha de guias de laboratório [de teste corporativos.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Fase 1: configurar a sincronização de hash de senha do ambiente de teste do Microsoft 365
 
@@ -70,11 +70,11 @@ Nesta fase, configure a redefinição de senha no locatário do Azure AD por mei
 Primeiro, habilite a redefinição de senhas para as contas em um grupo específico do Azure AD.
 
 1. Abra o [https://portal.azure.com](https://portal.azure.com) em uma instância privada do navegador e entre com as credenciais da conta de administrador global.
-2. No portal do Azure, selecione Grupos do **Azure Active Directory**  >    >  **Novo grupo**.
+2. No portal do Azure, selecione **Azure Active Directory**  >  **Grupos**  >  **Novo grupo**.
 3. Defina o **Tipo de grupo** como **Segurança**, **Nome do grupo** como **PWReset** e o **Tipo de associação** como **Atribuído**.
 4. Selecione **Membros,** encontre e selecione **Usuário 3,** selecione **Selecionar** e selecione **Criar**.
 5. Feche o painel de **Grupos**.
-6. No painel do Azure Active Directory, selecione **Redefinição de senha** na navegação à esquerda.
+6. No painel Azure Active Directory, selecione **Redefinição de senha** na navegação à esquerda.
 7. No painel **Redefinição de senha-Propriedades**, vá até a opção **Redefinição da Senha de Autoatendimento Habilitada** e escolha **Selecionado**.
 8. Selecione **Selecionar grupo,** selecione o **grupo PWReset** e selecione **Selecionar**  >  **Salvar**.
 9. Feche a instância privada do navegador.

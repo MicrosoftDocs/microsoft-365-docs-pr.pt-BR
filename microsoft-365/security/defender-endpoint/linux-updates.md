@@ -1,5 +1,5 @@
 ---
-title: Implantar atualizações do Microsoft Defender para Ponto de Extremidade no Linux
+title: Implantar atualizações para o Microsoft Defender para Ponto de Extremidade para Linux
 ms.reviewer: ''
 description: Descreve como implantar atualizações do Microsoft Defender para Ponto de Extremidade no Linux em ambientes corporativos.
 keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, atualizações, deploy
@@ -26,7 +26,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/07/2021
 ms.locfileid: "52274719"
 ---
-# <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-linux"></a>Implantar atualizações do Microsoft Defender para Ponto de Extremidade no Linux
+# <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-linux"></a>Implantar atualizações para o Microsoft Defender para Ponto de Extremidade para Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

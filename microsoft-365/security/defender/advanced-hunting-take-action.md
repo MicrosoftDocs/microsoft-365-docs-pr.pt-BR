@@ -1,5 +1,5 @@
 ---
-title: Tomar medidas em resultados avançados da consulta de busca no Microsoft 365 Defender
+title: Tomar medidas em resultados de consulta de busca avançada no Microsoft 365 Defender
 description: Resolver rapidamente ameaças e ativos afetados em seus resultados de consulta de busca avançada
 keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, tomar medidas
 search.product: eADQiWindows 10XVcnh
@@ -46,7 +46,7 @@ Você pode conter rapidamente ameaças ou resolver ativos comprometidos que voc�
 ## <a name="required-permissions"></a>Permissões obrigatórias
 Para poder realizar ações por meio da busca avançada, você precisa de uma função no Microsoft Defender para Ponto de Extremidade com permissões para enviar ações de [correção em dispositivos](/windows/security/threat-protection/microsoft-defender-atp/user-roles#permission-options). Se você não puder tomar uma ação, contate um administrador global sobre como obter a seguinte permissão:
 
-*Ações de correção ativas > gerenciamento de ameaças e vulnerabilidades - Tratamento de correção*
+*Ações de correção ativas > Ameaças e Gerenciamento de Vulnerabilidades - Tratamento de correção*
 
 ## <a name="take-various-actions-on-devices"></a>Tomar várias ações em dispositivos
 Você pode tomar as seguintes ações em dispositivos identificados pela `DeviceId` coluna em seus resultados de consulta:
@@ -72,7 +72,7 @@ Para saber mais sobre como as ações de quarentena são tomadas e como os arqui
 >[!NOTE]
 >Para localizar arquivos e colocar em quarentena, os resultados da consulta também devem incluir `DeviceId` valores como identificadores de dispositivo.  
 
-## <a name="take-action"></a>Tomar uma ação
+## <a name="take-action"></a>Tomar medidas
 Para tomar qualquer uma das ações descritas, selecione um ou mais registros nos resultados da consulta e selecione **Tomar ações**. Um assistente o guiará pelo processo de seleção e, em seguida, enviará suas ações preferenciais.
 
 ![Imagem do registro selecionado com painel para inspecionar o registro](../../media/mtp-ah/ah-take-actions.png)
@@ -81,7 +81,7 @@ Para tomar qualquer uma das ações descritas, selecione um ou mais registros no
 Cada ação é registrada individualmente no centro [de](m365d-action-center.md) ações em **Histórico do Centro** de Ações (  >   [security.microsoft.com/action-center/history](https://security.microsoft.com/action-center/history)). Vá para o centro de ações para verificar o status de cada ação.
  
 >[!NOTE]
->Algumas tabelas neste artigo podem não estar disponíveis no Microsoft Defender para Ponto de Extremidade. [A turn on Microsoft 365 Defender](m365d-enable.md) to hunt for threats using more data sources. Você pode mover seus fluxos de trabalho de busca avançados do Microsoft Defender para o Endpoint para o Microsoft 365 Defender seguindo as etapas em Migrar consultas de busca avançadas do Microsoft Defender para o Ponto de [Extremidade.](advanced-hunting-migrate-from-mde.md)
+>Algumas tabelas neste artigo podem não estar disponíveis no Microsoft Defender para Ponto de Extremidade. [A Microsoft 365 Defender para](m365d-enable.md) procurar ameaças usando mais fontes de dados. Você pode mover seus fluxos de trabalho de busca avançados do Microsoft Defender para o Endpoint para o Microsoft 365 Defender seguindo as etapas em Migrar consultas de busca avançadas do Microsoft Defender para o Ponto de [Extremidade.](advanced-hunting-migrate-from-mde.md)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

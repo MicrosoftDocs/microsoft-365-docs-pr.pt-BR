@@ -27,11 +27,11 @@ ms.locfileid: "50921475"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Write-back de senha do ambiente de teste do Microsoft 365
 
-*Este Guia de Laboratório de Teste só pode ser usado para o Microsoft 365 para ambientes de teste corporativos.*
+*Este Guia de Laboratório de Teste só pode ser usado para Microsoft 365 ambientes de teste corporativos.*
 
-Os usuários podem usar o writeback de senha para atualizar suas senhas por meio do Azure Active Directory (Azure AD), que é replicado para seus Serviços de Domínio local do Active Directory (AD DS). Com o writeback de senha, os usuários não têm que atualizar suas senhas por meio do AD DS local onde suas contas de usuário originais são armazenadas. Isso ajuda usuários de roaming ou remotos que não têm uma conexão de acesso remoto à rede local.
+Os usuários podem usar o writeback de senha para atualizar suas senhas por meio do Azure Active Directory (Azure AD), que é replicado para os Serviços de Domínio local do Active Directory (AD DS). Com o writeback de senha, os usuários não têm que atualizar suas senhas por meio do AD DS local onde suas contas de usuário originais são armazenadas. Isso ajuda usuários de roaming ou remotos que não têm uma conexão de acesso remoto à rede local.
 
-Este artigo descreve como configurar seu ambiente de teste do Microsoft 365 para writeback de senha.
+Este artigo descreve como configurar seu ambiente de teste Microsoft 365 para writeback de senha.
 
 Configurar seu ambiente de teste para writeback de senha envolve duas fases:
 - [Fase 1: configurar a sincronização de hash de senha do ambiente de teste do Microsoft 365](#phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment)
@@ -40,7 +40,7 @@ Configurar seu ambiente de teste para writeback de senha envolve duas fases:
 ![Guias de Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Para um mapa visual de todos os artigos na pilha guia de laboratório de teste do Microsoft 365 para empresas, vá para [o Microsoft 365 for enterprise Test Lab Guide Stack](../downloads/Microsoft365EnterpriseTLGStack.pdf).
+> Para um mapa visual de todos os artigos na pilha Microsoft 365 guia do laboratório de teste empresarial, vá para o Microsoft 365 para a pilha de guias de laboratório [de teste corporativos.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Fase 1: configurar a sincronização de hash de senha do ambiente de teste do Microsoft 365
 
@@ -109,9 +109,9 @@ Configure o Azure AD Connect em APP1 para write-back de senha.
 
 4. Na página **Tarefas adicionais,** selecione **Personalizar opções de** sincronização e selecione **Próximo**.
 
-5. Na página **Conectar-se ao Azure AD,** insira suas credenciais de conta de administrador global e selecione **Next**.
+5. Na página **Conexão para o Azure AD,** insira suas credenciais de conta de administrador global e selecione **Next**.
 
-6. Nas páginas **de filtragem Conectar diretórios** **e Domínio/OU,** selecione **Próximo**.
+6. Nos **diretórios Conexão e** páginas de filtragem **domínio/UO,** selecione **Próximo**.
 
 7. Na página **Recursos opcionais,** selecione **Writeback de senha** e selecione **Next**.
 
@@ -127,7 +127,7 @@ Sua configuração resultante tem esta aparência:
 
 Esta configuração consiste em:
 
-- Uma avaliação do Microsoft 365 E5 ou assinaturas pagas com o domínio DNS TESTLAB.\<*your domain name*> registrado.
+- Uma Microsoft 365 E5 de avaliação ou assinaturas pagas com o domínio DNS TESTLAB.\<*your domain name*> registrado.
 - Uma intranet de organização simplificada conectada à Internet, que consiste nas máquinas virtuais DC1, APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure.
 - O Azure AD Connect é executado no APP1 para sincronizar a lista de contas e grupos do locatário do Azure AD da sua assinatura do Microsoft 365 no domínio TESTLAB AD DS.
 - O write-back de senha está habilitado para que os usuários possam alterar as próprias senhas pelo Azure AD sem precisar se conectar à intranet simplificada.

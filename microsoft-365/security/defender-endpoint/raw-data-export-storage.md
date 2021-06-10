@@ -33,7 +33,7 @@ ms.locfileid: "52780172"
 
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
 
-## <a name="before-you-begin"></a>Antes de você começar
+## <a name="before-you-begin"></a>Antes de começar
 
 1. Crie uma [Armazenamento em](/azure/storage/common/storage-account-overview) seu locatário.
 

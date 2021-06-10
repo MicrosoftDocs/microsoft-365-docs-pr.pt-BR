@@ -40,7 +40,7 @@ Para saber mais sobre como gerenciar os complementos após a implantação, cons
 > [!NOTE]
 >  Para o Word, Excel e PowerPoint usam um Catálogo de Aplicativos do [SharePoint](/office/dev/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog) para implantar os complementos para usuários em um ambiente local sem conexão com o Microsoft 365 e/ou suporte para os SharePoint complementos necessários. Para Outlook use Exchange painel de controle para implantar em um ambiente local sem uma conexão com Microsoft 365.
   
-## <a name="recommended-approach-for-deploying-office-add-ins"></a>Abordagem recomendada para a implantação de complementos do Office
+## <a name="recommended-approach-for-deploying-office-add-ins"></a>Abordagem recomendada para a implantação de suplementos do Office
 
 Para lançar os complementos usando uma abordagem em fases, recomendamos o seguinte:
   

@@ -38,7 +38,7 @@ ms.locfileid: "51935744"
 > [!IMPORTANT]
 > Algumas informações estão relacionadas a produtos pré-lançados que podem ser substancialmente modificados antes de seu lançamento comercial. A Microsoft não faz garantias, expressas ou implícitas, quanto às informações fornecidas aqui.
 
-Os recursos a seguir fornecem mais informações sobre APIs disponíveis para outras soluções de segurança da Microsoft, além da API do Microsoft 365 Defender.
+Os recursos a seguir fornecem mais informações sobre APIs disponíveis para outras soluções de segurança da Microsoft, além da API Microsoft 365 Defender.
 
 - [Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/microsoft-defender-atp/apis-intro)
 - [Microsoft Defender para Office 365](/office/office-365-management-api/)

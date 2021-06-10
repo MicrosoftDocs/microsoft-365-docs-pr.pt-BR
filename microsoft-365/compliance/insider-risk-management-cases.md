@@ -1,7 +1,7 @@
 ---
 title: Casos de gerenciamento de riscos insider
 description: Saiba mais sobre os casos de gerenciamento de riscos insider em Microsoft 365
-keywords: Microsoft 365, gerenciamento de risco interno, gerenciamento de riscos, conformidade
+keywords: Microsoft 365, gerenciamento de risco interno, gerenciamento de risco, conformidade
 localization_priority: Normal
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -206,9 +206,9 @@ Para enviar um aviso ao usuário atribuído a uma ocorrência:
 4. Revise os campos de aviso e atualize conforme apropriado. Os valores inseridos aqui substituirão os valores no modelo.
 5. Selecione **Enviar** para enviar o aviso ao usuário ou selecione **Cancelar** fechar a caixa de diálogo sem enviar o aviso ao usuário. Todos os avisos enviados são adicionados à fila de anotações de caso no painel **Anotações de** Caso.
 
-### <a name="escalate-for-investigation"></a>Escalar para investigação
+### <a name="escalate-for-investigation"></a>Escalonar para investigação
 
-Agilizar o caso da investigação do usuário em situações em que a revisão jurídica adicional é necessária para a atividade de risco do usuário. Esse escalonamento abre um novo caso de descoberta eletrônica avançada em sua organização Microsoft 365. A Descoberta Eletrônico Avançada fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, revisar, analisar e exportar conteúdo responsivo às investigações jurídicas internas e externas da sua organização. Ele também permite que sua equipe jurídica gerencie todo o fluxo de trabalho de notificação de responsabilidade para se comunicar com pessoas envolvidas no caso. Atribuir um revistor como um suário em um caso de Descoberta Pública Avançada criado a partir de um caso de gerenciamento de riscos do insider ajuda sua equipe jurídica a tomar as medidas apropriadas e gerenciar a preservação do conteúdo. Para saber mais sobre os casos de Descoberta Eletrônica Avançada, consulte [Visão Geral da Descoberta Eletrônica Avançada do Microsoft 365](overview-ediscovery-20.md).
+Agilizar o caso da investigação do usuário em situações em que a revisão jurídica adicional é necessária para a atividade de risco do usuário. Essa escalonamento abre um novo caso de Descoberta Avançada na sua organização do Microsoft 365. A Descoberta Eletrônico Avançada fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, revisar, analisar e exportar conteúdo responsivo às investigações jurídicas internas e externas da sua organização. Ele também permite que sua equipe jurídica gerencie todo o fluxo de trabalho de notificação de responsabilidade para se comunicar com pessoas envolvidas no caso. Atribuir um revistor como um suário em um caso de Descoberta Pública Avançada criado a partir de um caso de gerenciamento de riscos do insider ajuda sua equipe jurídica a tomar as medidas apropriadas e gerenciar a preservação do conteúdo. Para saber mais sobre os casos de Descoberta Eletrônica Avançada, consulte [Visão Geral da Descoberta Eletrônica Avançada do Microsoft 365](overview-ediscovery-20.md).
 
 Para escalonar um caso para uma investigação de usuário:
 
@@ -247,7 +247,7 @@ Quando um caso é resolvido, a Equipe da Microsoft associada será arquivada aut
 
 Para saber mais sobre Microsoft Teams gerenciamento de riscos insider, consulte [Getting started with insider risk management settings](insider-risk-management-settings.md#microsoft-teams-preview).
 
-### <a name="resolve-the-case"></a>Resolva o caso
+### <a name="resolve-the-case"></a>Resolver o caso
 
 Depois que os analistas de risco e os investigadores concluíram sua revisão e investigação, um caso pode ser resolvido para agir em todos os alertas atualmente incluídos no caso. A resolução de um caso adiciona uma classificação de resolução, altera o status do caso para *Closed* e os motivos da ação de resolução são adicionados automaticamente à fila de anotações de caso no painel **Anotações de** caso. Os casos são resolvidos como:
 

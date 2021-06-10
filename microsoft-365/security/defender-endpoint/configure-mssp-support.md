@@ -44,20 +44,20 @@ Você precisará seguir as etapas de configuração a seguir para habilitar a in
 
 A integração permitirá que os MSSPs tomem as seguintes ações:
 
-- Obter acesso ao portal do Microsoft Defender Security Center do cliente MSSP
+- Obter acesso ao portal de Central de Segurança do Microsoft Defender do cliente MSSP
 - Obter notificações por email e 
 - Buscar alertas por meio de informações de segurança e ferramentas de gerenciamento de eventos (SIEM)
 
 Antes que os MSSPs possam tomar essas ações, o cliente MSSP precisará conceder acesso ao locatário do Defender para Ponto de Extremidade para que o MSSP possa acessar o portal. 
  
 
-Normalmente, os clientes do MSSP levam as etapas iniciais de configuração para conceder acesso aos MSSPs ao seu locatário Windows Defender Central de Segurança. Depois que o acesso é concedido, outras etapas de configuração podem ser feitas pelo cliente MSSP ou pelo MSSP.
+Normalmente, os clientes do MSSP têm as etapas iniciais de configuração para conceder acesso aos MSSPs ao seu locatário Windows Defender Central de Segurança. Depois que o acesso é concedido, outras etapas de configuração podem ser feitas pelo cliente MSSP ou pelo MSSP.
 
 
 Em geral, as etapas de configuração a seguir precisam ser tomadas:
 
 
-- **Conceder ao MSSP acesso ao Centro de Segurança do Microsoft Defender** <br>
+- **Conceda o acesso do MSSP ao Central de Segurança do Microsoft Defender** <br>
 Essa ação precisa ser feita pelo cliente MSSP. Ele concede ao MSSP acesso ao locatário defender para ponto de extremidade do cliente MSSP.
  
 

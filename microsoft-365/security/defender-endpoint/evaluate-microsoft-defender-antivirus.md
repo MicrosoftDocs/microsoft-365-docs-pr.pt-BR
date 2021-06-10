@@ -58,5 +58,5 @@ Você também pode baixar um PowerShell que habilita todas as configurações de
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Microsoft Defender Antivirus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
 - [Implantar Microsoft Defender Antivírus](deploy-manage-report-microsoft-defender-antivirus.md)

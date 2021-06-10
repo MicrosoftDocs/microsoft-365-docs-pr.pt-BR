@@ -62,7 +62,7 @@ Você pode desabilitar as listas de exclusão automáticas com Política de Grup
 
 ### <a name="use-group-policy-to-disable-the-auto-exclusions-list-on-windows-server-2016-and-windows-server-2019"></a>Usar a Política de Grupo para desabilitar a lista de exclusões automáticas no Windows Server 2016 e Windows Server 2019
 
-1. No computador de gerenciamento de Política de Grupo, abra o Console de Gerenciamento de Política [de Grupo.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725752(v=ws.11)) Clique com o botão direito do mouse no Objeto de Política de Grupo que você deseja configurar e clique em **Editar**.
+1. No computador de gerenciamento de Política de Grupo, abra o [Console de Gerenciamento de Política de Grupo](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725752(v=ws.11)). Clique com o botão direito do mouse no Objeto de Política de Grupo que você deseja configurar e clique em **Editar**.
 2. No Editor **de Gerenciamento de Política de Grupo,** vá para **Configuração** do computador e clique em **Modelos Administrativos.**
 3. Expanda a árvore para **Windows componentes**  >  **Microsoft Defender Antivírus**  >  **Exclusões**.
 4. Clique duas **vezes em Desativar Exclusões Automáticas** e de definir a opção como **Habilitado**. Clique em **OK**. 
@@ -342,4 +342,4 @@ Esta seção lista as exclusões de pasta que são entregues automaticamente qua
 - [Configurar e validar exclusões para arquivos abertos por processos](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
 - [Erros comuns a evitar ao definir exclusões](common-exclusion-mistakes-microsoft-defender-antivirus.md)
 - [Personalizar, iniciar e revisar os resultados de Microsoft Defender Antivírus e correção](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
-- [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Microsoft Defender Antivirus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)

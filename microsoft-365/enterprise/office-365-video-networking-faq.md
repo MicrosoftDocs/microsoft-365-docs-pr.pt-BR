@@ -1,5 +1,5 @@
 ---
-title: Redes de vídeo do Office 365 perguntas frequentes
+title: Office 365 Redes de vídeo perguntas frequentes
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -27,15 +27,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50921565"
 ---
-# <a name="office-365-video-networking-frequently-asked-questions"></a>Redes de vídeo do Office 365 perguntas frequentes
+# <a name="office-365-video-networking-frequently-asked-questions"></a>Office 365 Redes de vídeo perguntas frequentes
 
-O repositório de vídeo e serviços de streaming do Office 365 torna simples o armazenamento e a transmissão de vídeos em sua organização. Há muitas informações excelentes [sobre o Vídeo do Office 365;](https://support.office.com/article/Find-help-about-Office-365-Video-b435f99a-f47e-4ebd-a946-f5c965844f50) essa perguntas [frequentes](content-delivery-networks.md) de rede foi projetada para responder às perguntas mais comuns sobre planejamento de largura de banda, criptografia e como o serviço aproveita as CDNs (Redes de Entrega de Conteúdo).
+Os Office 365 de vídeo e serviços de streaming fazem com que o armazenamento e streaming de vídeos em sua organização seja simples. Há muitas informações excelentes sobre o [Office 365 Vídeo;](https://support.office.com/article/Find-help-about-Office-365-Video-b435f99a-f47e-4ebd-a946-f5c965844f50) essa perguntas [frequentes](content-delivery-networks.md) de rede foi projetada para responder às perguntas mais comuns sobre planejamento de largura de banda, criptografia e como o serviço aproveita as CDNs (Redes de Entrega de Conteúdo).
   
-Se você ainda não tiver uma compreensão completa do que acontece quando um vídeo é carregado ou tocado de volta, confira este vídeo que juntamos, o que acontece com um arquivo de vídeo quando carregado no [Vídeo do Office 365](https://www.youtube.com/watch?v=HXSZ0jYBKlM).
+Se você ainda não tiver uma compreensão completa do que acontece quando um vídeo é carregado ou tocado de volta, confira este vídeo que juntamos, o que acontece com um arquivo de vídeo quando carregado no [vídeo Office 365 Vídeo](https://www.youtube.com/watch?v=HXSZ0jYBKlM).
   
-## <a name="what-are-the-office-365-video-bandwidth-requirements"></a>Quais são os requisitos de largura de banda do Office 365 Video?
+## <a name="what-are-the-office-365-video-bandwidth-requirements"></a>Quais são os requisitos Office 365 largura de banda de vídeo?
 
-Há vários formatos de vídeo com suporte que podem ser [carregados](https://support.office.com/article/dd1af01c-fd8e-4640-b17b-93ee02b9b817) no Office 365. Cada arquivo de vídeo é codificado em um formato padrão com várias qualidades de vídeo diferentes para reprodução. O Vídeo do Office 365 usa streaming de taxa de bits adaptável para selecionar a melhor qualidade de reprodução de vídeo com base na largura de banda de rede disponível e no tamanho do player de vídeo. Para fazer isso, o jogador solicita inicialmente a menor qualidade de reprodução. Em seguida, o serviço começa a enviar segmentos de vídeo de 2 segundos para o player de vídeo. Em seguida, o jogador pode solicitar uma qualidade de reprodução maior ou menor com base na rapidez com que cada segmento é entregue.
+Há vários formatos de vídeo com suporte que podem ser [carregados](https://support.office.com/article/dd1af01c-fd8e-4640-b17b-93ee02b9b817) para Office 365. Cada arquivo de vídeo é codificado em um formato padrão com várias qualidades de vídeo diferentes para reprodução. Office 365 O vídeo usa streaming de taxa de bits adaptável para selecionar a melhor qualidade de reprodução de vídeo com base na largura de banda de rede disponível e no tamanho do player de vídeo. Para fazer isso, o jogador solicita inicialmente a menor qualidade de reprodução. Em seguida, o serviço começa a enviar segmentos de vídeo de 2 segundos para o player de vídeo. Em seguida, o jogador pode solicitar uma qualidade de reprodução maior ou menor com base na rapidez com que cada segmento é entregue.
   
 O streaming de bitrate adaptável faz tudo isso em segundo plano enquanto o vídeo é reproduzindo com a menor quantidade de interrupção ou buffer. Durante a reprodução de vídeo, o player de vídeo permite que o visualizador substitua manualmente a qualidade de reprodução automática, para selecionar uma qualidade específica de reprodução de vídeo.
   
@@ -52,9 +52,9 @@ Aqui está uma tabela rápida que descreve os requisitos de rede para cada uma d
   
 ## <a name="how-do-content-delivery-networks-cdns-help-video-playback"></a>Como as CDNs (Redes de Entrega de Conteúdo) ajudam a reprodução de vídeo?
 
-Se várias pessoas da mesma organização dentro da mesma localização geográfica estão transmitindo os mesmos vídeos, as CDNs armazenarão uma cópia desses vídeos em um local mais próximo dessa região geográfica. Com o vídeo armazenado ou armazenado em cache no local mais próximo, cada pessoa transmite o vídeo do local mais próximo a eles, em vez de um local mais distante. O Vídeo do Office 365 usa os Serviços de Mídia do Azure para gerenciar o que é armazenado em cache nas CDNs do Azure e por quanto tempo. Os Serviços de Mídia do Azure podem usar qualquer um dos locais da CDN do [Azure](/azure/cdn/cdn-pop-locations) para armazenar em cache fragmentos de vídeo e manifestos por alguns dias. Se as pessoas em sua organização continuarem a assistir aos vídeos armazenados em cache, elas permanecerão no cache. Se ninguém acessar o vídeo por vários dias, o vídeo será descartado do cache. Na próxima vez que alguém tentar assistir ao vídeo, ele será novamente armazenado em cache no local da CDN mais próximo.
+Se várias pessoas da mesma organização dentro da mesma localização geográfica estão transmitindo os mesmos vídeos, as CDNs armazenarão uma cópia desses vídeos em um local mais próximo dessa região geográfica. Com o vídeo armazenado ou armazenado em cache no local mais próximo, cada pessoa transmite o vídeo do local mais próximo a eles, em vez de um local mais distante. Office 365 O vídeo usa Serviços de Mídia do Azure para gerenciar o que é armazenado em cache nas CDNs do Azure e por quanto tempo. Serviços de Mídia do Azure pode usar qualquer um dos locais [CDN do Azure para](/azure/cdn/cdn-pop-locations) armazenar em cache fragmentos de vídeo e manifestos por alguns dias. Se as pessoas em sua organização continuarem a assistir aos vídeos armazenados em cache, elas permanecerão no cache. Se ninguém acessar o vídeo por vários dias, o vídeo será descartado do cache. Na próxima vez que alguém tentar assistir ao vídeo, ele será armazenado novamente em cache no local CDN próximo.
   
-Todos os que tentarem assistir ao vídeo enquanto o conteúdo é armazenado em cache em uma CDN próxima se beneficiam de o vídeo estar mais próximo e, na maioria dos casos, menos saltos, de distância. Isso melhora a velocidade de reprodução de vídeo; no entanto, ele não altera o requisito de rede para reproduzir o vídeo.
+Todos os que tentarem assistir ao vídeo enquanto o conteúdo é armazenado em cache em um local próximo CDN benefícios de o vídeo estar mais próximo e, na maioria dos casos, menos saltos, de distância. Isso melhora a velocidade de reprodução de vídeo; no entanto, ele não altera o requisito de rede para reproduzir o vídeo.
   
 > [!NOTE]
 > Há algumas circunstâncias, como o limite de capacidade que está sendo atingido, em que o vídeo pode ser removido antes que os três dias sejam atingidos.
@@ -63,23 +63,23 @@ Todos os que tentarem assistir ao vídeo enquanto o conteúdo é armazenado em c
   
 ## <a name="can-i-cache-the-videos-locally-for-faster-playback"></a>Posso armazenar em cache os vídeos localmente para reprodução mais rápida?
 
-Sim. O Office 365 não impedirá que você use uma CDN local ou um proxy de cache para trazer vídeo ou outro conteúdo do Office 365 para sua rede local para acesso mais rápido. Há várias maneiras de implementar uma solução de cache local em sua rede, o método mais comum é usar uma solução proxy que armazena em cache o conteúdo localmente. Depois que um proxy ou CDN privado armazena em cache os fragmentos e manifestos de vídeo, as solicitações futuras para os arquivos que roteiam pelo proxy ou pela CDN privada são retiradas do cache local e não são retiradas de um local da Internet. Considere a simultância de largura de banda, capacidade e reprodução de vídeo durante o planejamento de uma solução como esta.
+Sim. Office 365 impedirá que você use um CDN local ou um proxy de cache para trazer vídeo ou outro conteúdo Office 365 para sua rede local para acesso mais rápido. Há várias maneiras de implementar uma solução de cache local em sua rede, o método mais comum é usar uma solução proxy que armazena em cache o conteúdo localmente. Depois que um proxy ou um servidor CDN tiver armazenado em cache os fragmentos e manifestos de vídeo, as solicitações futuras para esses arquivos que roteiam pelo proxy ou CDN privada são retiradas do cache local e não são retiradas de um local da Internet. Considere a simultância de largura de banda, capacidade e reprodução de vídeo durante o planejamento de uma solução como esta.
   
 ([Voltar para cima](office-365-video-networking-faq.md))
   
 ## <a name="how-videos-are-encrypted-and-secured"></a>Como os vídeos são criptografados e protegidos?
 
-O Vídeo do Office 365 sabe o quanto é importante manter seus dados seguros e privados. [A Central de Confiações da Microsoft](https://products.office.com/business/office-365-trust-center-welcome) descreve nosso compromisso com a privacidade e a segurança de seu conteúdo. Com a reprodução de vídeo, a velocidade é importante para uma boa experiência; no entanto, não comprometemos sua segurança ou privacidade em troca da velocidade. Veja como acomodamos velocidade, segurança e privacidade.
+Office 365 O vídeo sabe como é importante manter seus dados seguros e privados. [A Central de Confiações da Microsoft](https://products.office.com/business/office-365-trust-center-welcome) descreve nosso compromisso com a privacidade e a segurança de seu conteúdo. Com a reprodução de vídeo, a velocidade é importante para uma boa experiência; no entanto, não comprometemos sua segurança ou privacidade em troca da velocidade. Veja como acomodamos velocidade, segurança e privacidade.
   
-Quando você ou alguém em sua organização carrega um novo vídeo, esse vídeo é transcodificado, criptografado com criptografia do AES-128 e armazenado no Azure Media Services. Isso significa que os vídeos são criptografados em trânsito e em repouso.
+Quando você ou alguém em sua organização carrega um novo vídeo, esse vídeo é transcodificado, criptografado com criptografia do AES-128 e armazenado Serviços de Mídia do Azure. Isso significa que os vídeos são criptografados em trânsito e em repouso.
   
 Quando alguém em sua organização tenta assistir a um novo vídeo, ele segue estas etapas:
   
-1. Pergunte ao SharePoint Online se eles têm permissão para exibir o vídeo.
+1. Pergunte SharePoint Online se eles têm permissão para exibir o vídeo.
 
-2. O SharePoint Online usa as permissões de arquivo para determinar se a pessoa pode assistir ao vídeo.
+2. SharePoint Online usa as permissões de arquivo para determinar se a pessoa pode assistir ao vídeo.
 
-3. Se eles são permitidos, o SharePoint Online recupera um token do Azure para dar ao player de vídeo.
+3. Se eles são permitidos, SharePoint Online recupera um token do Azure para dar ao player de vídeo.
 
 4. Em seguida, o player de vídeo usa o token para solicitar a chave de descriptografia do Azure.
 
@@ -89,39 +89,39 @@ Quando alguém em sua organização tenta assistir a um novo vídeo, ele segue e
   
 ([Voltar para cima](office-365-video-networking-faq.md))
   
-## <a name="what-are-the-requirements-to-playback-office-365-video"></a>Quais são os requisitos para reproduzir o Vídeo do Office 365?
+## <a name="what-are-the-requirements-to-playback-office-365-video"></a>Quais são os requisitos para reproduzir Office 365 Vídeo?
 
-Os sistemas operacionais e navegadores da Web com suporte do Office 365 Video são os mesmos dos requisitos do SharePoint Online nos requisitos do sistema [do Office 365.](https://support.office.com/article/Office-365-system-requirements-719254c0-2671-4648-9c84-c6a3d4f3be45) Dependendo da configuração do sistema operacional e do navegador da Web, você determinará as necessidades específicas do player de vídeo. Veja mais informações sobre os [requisitos de reprodução de vídeo.](https://support.office.com/article/ca1cc1a9-a615-46e1-b6a3-40dbd99939a6)
+Office 365 Os sistemas operacionais e navegadores da Web com suporte em vídeo são os mesmos que os requisitos SharePoint Online em Office 365 [do sistema.](https://support.office.com/article/Office-365-system-requirements-719254c0-2671-4648-9c84-c6a3d4f3be45) Dependendo da configuração do sistema operacional e do navegador da Web, você determinará as necessidades específicas do player de vídeo. Veja mais informações sobre os [requisitos de reprodução de vídeo.](https://support.office.com/article/ca1cc1a9-a615-46e1-b6a3-40dbd99939a6)
   
 ([Voltar para cima](office-365-video-networking-faq.md))
   
-## <a name="i-cant-get-office-365-video-to-work-where-should-i-start"></a>Não consigo fazer com que o vídeo do Office 365 funcione, por onde devo começar?
+## <a name="i-cant-get-office-365-video-to-work-where-should-i-start"></a>Não consigo fazer com que Office 365 vídeo funcione, por onde devo começar?
 
-A solução de problemas de conectividade com o Vídeo do Office 365 envolve a solução de problemas de sua rede, seus ISP(s) e sua configuração do Office 365. O primeiro lugar para iniciar é o painel de saúde do serviço. Isso dirá que o Vídeo do Office 365 está com um problema ou não. Se tudo estiver ótimo lá, aqui estão alguns recursos adicionais para ajudá-lo.
+A solução de problemas de conectividade Office 365 Vídeo envolve a solução de problemas de sua rede, seus ISP(s) e sua configuração de Office 365. O primeiro lugar para iniciar é o painel de saúde do serviço. Isso lhe dirá Office 365 vídeo está com um problema ou não. Se tudo estiver ótimo lá, aqui estão alguns recursos adicionais para ajudá-lo.
   
-- Certifique-se de que você pode se conectar aos pontos de extremidade de [rede necessários para o Vídeo do Office 365.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)
+- Certifique-se de que você pode se conectar aos pontos de extremidade de rede [necessários para Office 365 Vídeo](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2).
 
-- Verifique a conectividade de rede usando nosso guia de solução de problemas de rede do [Office 365.](https://support.office.com/article/Office-365-performance-tuning-and-troubleshooting-Admin-and-IT-Pro-1492cb94-bd62-43e6-b8d0-2a61ed88ebae)
+- Verifique a conectividade de rede usando nosso guia Office 365 solução de problemas [de rede.](https://support.office.com/article/Office-365-performance-tuning-and-troubleshooting-Admin-and-IT-Pro-1492cb94-bd62-43e6-b8d0-2a61ed88ebae)
 
-- Consulte nossas [práticas recomendadas para usar o Office 365 em uma rede lenta.](https://support.office.com/article/Best-practices-for-using-Office-365-on-a-slow-network-fd16c8d2-4799-4c39-8fd7-045f06640166)
+- Consulte nossas [práticas recomendadas para usar Office 365 em uma rede lenta.](https://support.office.com/article/Best-practices-for-using-Office-365-on-a-slow-network-fd16c8d2-4799-4c39-8fd7-045f06640166)
 
-- Encontre ajuda sobre a configuração de vídeo do [Office 365.](https://support.office.com/article/Find-help-about-Office-365-Video-b435f99a-f47e-4ebd-a946-f5c965844f50)
+- [Encontre ajuda sobre Office 365 configuração de vídeo.](https://support.office.com/article/Find-help-about-Office-365-Video-b435f99a-f47e-4ebd-a946-f5c965844f50)
 
 ([Voltar para cima](office-365-video-networking-faq.md))
   
-## <a name="office-365-video-resources"></a>Recursos de vídeo do Office 365
+## <a name="office-365-video-resources"></a>Office 365 Recursos de vídeo
 
-Aqui estão alguns outros recursos para ajudá-lo a implantar e usar o Vídeo do Office 365 com êxito:
+Aqui estão alguns outros recursos para ajudá-lo a implantar e usar com êxito Office 365 Vídeo:
   
-[Encontre ajuda sobre a configuração de vídeo do Office 365](https://support.office.com/article/Find-help-about-Office-365-Video-b435f99a-f47e-4ebd-a946-f5c965844f50)
+[Encontre ajuda sobre Office 365 configuração de vídeo](https://support.office.com/article/Find-help-about-Office-365-Video-b435f99a-f47e-4ebd-a946-f5c965844f50)
   
 [Conheça o Vídeo do Office 365](https://support.office.com/article/Meet-Office-365-Video-ca1cc1a9-a615-46e1-b6a3-40dbd99939a6)
   
-[Criar e gerenciar um canal no Vídeo do Office 365](https://support.office.com/article/Create-and-manage-a-channel-in-Office-365-Video-1fede4cc-13c0-435a-b585-e7fbf1c83bb2)
+[Criar e gerenciar um canal em Office 365 Vídeo](https://support.office.com/article/Create-and-manage-a-channel-in-Office-365-Video-1fede4cc-13c0-435a-b585-e7fbf1c83bb2)
   
 [Gerenciar portal de Vídeo do Office 365](https://support.office.com/article/Manage-your-Office-365-Video-portal-c059465b-eba9-44e1-b8c7-8ff7793ff5da)
   
-[Formatos de vídeo que funcionam no Vídeo do Office 365](https://support.office.com/article/Video-formats-that-work-in-Office-365-Video-dd1af01c-fd8e-4640-b17b-93ee02b9b817)
+[Formatos de vídeo que funcionam em Office 365 Vídeo](https://support.office.com/article/Video-formats-that-work-in-Office-365-Video-dd1af01c-fd8e-4640-b17b-93ee02b9b817)
   
 ([Voltar para cima](office-365-video-networking-faq.md))
   

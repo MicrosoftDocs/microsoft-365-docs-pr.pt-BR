@@ -54,11 +54,11 @@ Para acessar rapidamente a referência de esquema, selecione a ação **Exibir r
 
 A referência a seguir lista todas as tabelas no esquema de busca avançado. Cada nome de tabela se vincula a uma página que descreve os nomes das colunas da tabela.
 
-Os nomes de tabela e coluna também são listados no Centro de Segurança do Microsoft Defender, na representação do esquema na tela de busca avançada.
+Os nomes de tabela e coluna também são listados no Central de Segurança do Microsoft Defender, na representação de esquema na tela de busca avançada.
 
 | Nome da tabela | Descrição |
 |------------|-------------|
-| **[DeviceAlertEvents](advanced-hunting-devicealertevents-table.md)** | Alertas no Centro de Segurança do Microsoft Defender |
+| **[DeviceAlertEvents](advanced-hunting-devicealertevents-table.md)** | Alertas no Central de Segurança do Microsoft Defender |
 | **[DeviceInfo](advanced-hunting-deviceinfo-table.md)** | Informações do dispositivo, incluindo informações do sistema operacional |
 | **[DeviceNetworkInfo](advanced-hunting-devicenetworkinfo-table.md)** | Propriedades de rede de dispositivos, incluindo adaptadores, endereços IP e MAC, bem como redes e domínios conectados |
 | **[DeviceProcessEvents](advanced-hunting-deviceprocessevents-table.md)** | Criação de processos e eventos relacionados |
@@ -67,7 +67,7 @@ Os nomes de tabela e coluna também são listados no Centro de Segurança do Mic
 | **[DeviceRegistryEvents](advanced-hunting-deviceregistryevents-table.md)** | Criação e modificação de entradas do registro |
 | **[DeviceLogonEvents](advanced-hunting-devicelogonevents-table.md)** | Entradas e outros eventos de autenticação |
 | **[DeviceImageLoadEvents](advanced-hunting-deviceimageloadevents-table.md)** | Carregamento de eventos DLL |
-| **[Eventos do dispositivo](advanced-hunting-deviceevents-table.md)** | Vários tipos de eventos, incluindo eventos disparados por controles de segurança, como o Microsoft Defender Antivírus e a proteção de exploração |
+| **[Eventos do dispositivo](advanced-hunting-deviceevents-table.md)** | Vários tipos de eventos, incluindo eventos disparados por controles de segurança, como Microsoft Defender Antivírus e proteção de exploração |
 | **[DeviceFileCertificateInfo](advanced-hunting-devicefilecertificateinfo-table.md)** | Informações de certificado de arquivos assinados obtidos de eventos de verificação de certificado em pontos de extremidade |
 | **[DeviceTvmSoftwareInventory](advanced-hunting-devicetvmsoftwareinventory-table.md)** | Inventário de software instalado em dispositivos, incluindo suas informações de versão e status de fim de suporte |
 | **[DeviceTvmSoftwareVulnerabilities](advanced-hunting-devicetvmsoftwarevulnerabilities-table.md)** | Vulnerabilidades de software encontradas em dispositivos e a lista de atualizações de segurança disponíveis que abordam cada vulnerabilidade |
@@ -76,8 +76,8 @@ Os nomes de tabela e coluna também são listados no Centro de Segurança do Mic
 | **[DeviceTvmSecureConfigurationAssessmentKB](advanced-hunting-devicetvmsecureconfigurationassessmentkb-table.md)** | Base de dados de conhecimento de várias configurações de segurança usadas pelo Gerenciamento de Vulnerabilidades e Ameaças para avaliar dispositivos; Inclui mapeamentos para vários padrões e benchmarks |
 
 >[!TIP]
->Use a busca avançada no [Microsoft 365 Defender](/microsoft-365/security/defender/advanced-hunting-overview) para procurar ameaças usando dados do Defender para Ponto de Extremidade, do Microsoft Defender para Office 365, do Microsoft Cloud App Security e do Microsoft Defender para Identidade. [Ativar o Microsoft 365 Defender](/microsoft-365/security/defender/m365d-enable)<br><br>
-Saiba mais sobre como mover seus fluxos de trabalho de busca avançados do Microsoft Defender para o Endpoint para o Microsoft 365 Defender em [Migrar](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde)consultas de busca avançadas do Microsoft Defender para o Ponto de Extremidade .
+>Use a busca avançada no [Microsoft 365 Defender](/microsoft-365/security/defender/advanced-hunting-overview) para procurar ameaças usando dados do Defender para Ponto de Extremidade, do Microsoft Defender para Office 365, Microsoft Cloud App Security e do Microsoft Defender para Identidade. [Ativar o Microsoft 365 Defender](/microsoft-365/security/defender/m365d-enable)<br><br>
+Saiba mais sobre como mover seus fluxos de trabalho de busca avançados do Microsoft Defender para o Endpoint para o Microsoft 365 Defender em Migrar consultas de busca avançadas do Microsoft Defender para o Ponto de [Extremidade.](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

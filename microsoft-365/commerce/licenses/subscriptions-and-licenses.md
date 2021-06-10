@@ -77,7 +77,7 @@ Diferentes tipos de administradores podem trabalhar com licenças de diferentes 
 |Administrador de cobrança  <br/> |Não  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |
 |Administrador global  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
 |Administrador de licença <br/> |Sim <br/>|Sim <br/> |Não <br/> |Não <br/> |
-|Administrador de Suporte do Serviço  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |
+|Administrador do Suporte do Serviço  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |
 |Administrador de usuários  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |
 
 ## <a name="related-content"></a>Conteúdo relacionado

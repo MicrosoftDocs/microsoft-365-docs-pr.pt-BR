@@ -37,7 +37,7 @@ ms.locfileid: "51935864"
 
 
 
-A tabela no esquema de busca avançado contém informações sobre atividades em vários aplicativos e serviços de nuvem `CloudAppEvents` cobertos pelo Microsoft Cloud App Security. [](advanced-hunting-overview.md) Para uma lista completa, pule para [Aplicativos e serviços abordados](#apps-and-services-covered). Use essa referência para criar consultas que retornam informações dessa tabela. 
+A tabela no esquema de busca avançado contém informações sobre atividades em vários aplicativos e serviços de nuvem `CloudAppEvents` cobertos por [](advanced-hunting-overview.md) Microsoft Cloud App Security. Para uma lista completa, pule para [Aplicativos e serviços abordados](#apps-and-services-covered). Use essa referência para criar consultas que retornam informações dessa tabela. 
 
 >[!IMPORTANT]
 >Esta tabela inclui informações que costumavam estar disponíveis na `AppFileEvents` tabela. A partir de 7 de março de 2021, os usuários que pesquisam atividades relacionadas a arquivos em serviços de nuvem dentro e fora dessa data devem usar a `CloudAppEvents` tabela. <br><br>Procure por consultas e regras de detecção personalizadas que ainda usem a tabela e `AppFileEvents` edite-as para usar a `CloudAppEvents` tabela. Mais orientações sobre a conversão de consultas afetadas podem ser encontradas em [Hunt across cloud app activities with Microsoft 365 Defender advanced hunting](https://techcommunity.microsoft.com/t5/microsoft-365-defender/hunt-across-cloud-app-activities-with-microsoft-365-defender/ba-p/1893857).
@@ -55,7 +55,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `AccountDisplayName` | cadeia de caracteres | Nome do usuário da conta exibido no livro de endereços. Normalmente, uma combinação de um nome ou nome determinado, uma iniciação intermediária e um sobrenome ou sobrenome. |
 | `IsAdminOperation` | cadeia de caracteres | Indica se a atividade foi executada por um administrador |
 | `DeviceType` | cadeia de caracteres | Tipo de dispositivo com base na finalidade e funcionalidade, como "Dispositivo de rede", "Estação de Trabalho", "Servidor", "Mobile", "Console de Jogos" ou "Impressora" | 
-| `OSPlatform` | cadeia de caracteres | Plataforma do sistema operacional em execução no dispositivo. Esta coluna indica sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7. |
+| `OSPlatform` | cadeia de caracteres | Plataforma do sistema operacional em execução no dispositivo. Esta coluna indica sistemas operacionais específicos, incluindo variações na mesma família, como Windows 10 e Windows 7. |
 | `IPAddress` | cadeia de caracteres | Endereço IP atribuído ao ponto de extremidade e usado durante comunicações de rede relacionadas |
 | `IsAnonymousProxy` | cadeia de caracteres | Indica se o endereço IP pertence a um proxy anônimo conhecido |
 | `CountryCode` | cadeia de caracteres | Código de duas letras indicando o país onde o endereço IP do cliente está geolocado |

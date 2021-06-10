@@ -1,6 +1,6 @@
 ---
-title: Infográficos do Microsoft 365 para usuários
-description: Esses infográficos do Microsoft 365 podem ajudar os usuários em sua organização a entender as práticas recomendadas para trabalhar no Microsoft 365.
+title: Microsoft 365 infográficos para usuários
+description: Esses Microsoft 365 infográficos podem ajudar os usuários em sua organização a entender as práticas recomendadas para trabalhar em Microsoft 365.
 ms.author: samanro
 author: samanro
 manager: pamgreen
@@ -19,11 +19,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/22/2021
 ms.locfileid: "51939773"
 ---
-# <a name="microsoft-365-infographics-for-your-users"></a>Infográficos do Microsoft 365 para seus usuários
+# <a name="microsoft-365-infographics-for-your-users"></a>Microsoft 365 infográficos para seus usuários
 
-Esses infográficos representam as práticas recomendadas para trabalhar e colaborar no Microsoft 365. Compartilhe-os com seus usuários para ajudar a garantir que eles aproveitem o armazenamento seguro e o compartilhamento de arquivos, a realização de reuniões colaborativas e muito mais.
+Esses infográficos representam práticas recomendadas para trabalhar e colaborar em Microsoft 365. Compartilhe-os com seus usuários para ajudar a garantir que eles aproveitem o armazenamento seguro e o compartilhamento de arquivos, a realização de reuniões colaborativas e muito mais.
 
-Encontre mais [infográficos do Office baixáveis](https://support.microsoft.com/office/great-ways-to-work-with-office-6fe70269-b9a4-4ef0-a96e-7a5858b3bd5a) no site de treinamento [do Microsoft 365.](https://support.microsoft.com/training)
+Encontre mais [infográficos Office download no](https://support.microsoft.com/office/great-ways-to-work-with-office-6fe70269-b9a4-4ef0-a96e-7a5858b3bd5a) site Microsoft 365 [treinamento.](https://support.microsoft.com/training)
 
 <a name="securitytips"></a>
 ## <a name="security-tips"></a>Dicas de segurança
@@ -32,7 +32,7 @@ Baixe este infográfico com dicas de segurança para os membros da sua equipe - 
 
 | Item | Descrição |
 |:-----|:-----|
-|[![A ajuda para proteger o gráfico de informações da campanha](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](../campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pdf) <br/> [Baixar como um PDF](../campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)  \  [Baixar como um PowerPoint](../campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx)| Compartilhe essas práticas recomendadas para manter as informações da sua organização seguras. Esse infográfico foi criado para dar suporte à equipe de campanhas políticas porque eles são direcionados por hackers sofisticados. Você pode usar o PowerPoint para personalizar esse infográfico para sua própria organização. Artigo relacionado: [como as recomendações de segurança para o Microsoft 365 afetam seus usuários](../campaigns/m365-campaigns-users.md)|
+|[![A ajuda para proteger o gráfico de informações da campanha](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](../campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pdf) <br/> [Baixar como um PDF](../campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)  \  [Baixar como um PowerPoint](../campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx)| Compartilhe essas práticas recomendadas para manter as informações da sua organização seguras. Esse infográfico foi criado para dar suporte à equipe de campanhas políticas porque eles são direcionados por hackers sofisticados. Você pode usar o PowerPoint para personalizar esse infográfico para sua própria organização. Artigo relacionado: [como as recomendações de segurança para Microsoft 365 afetar seus usuários](../campaigns/m365-campaigns-users.md)|
 
 <a name="sharefiles"></a>
 ## <a name="share-your-business-files"></a>Compartilhar seus arquivos de negócios
@@ -46,11 +46,11 @@ Baixe um infográfico para obter uma visão geral rápida das maneiras de compar
 <a name="onlinemeeting"></a>
 ## <a name="host-online-meetings"></a>Hospedar reuniões online
 
-Baixe um infográfico para obter uma visão geral rápida de como ingressar ou hospedar uma reunião online com o Microsoft Teams:
+Baixe um infográfico para obter uma visão geral rápida de como ingressar ou hospedar uma reunião online com Microsoft Teams:
 
 | Item | Descrição |
 |:-----|:-----|
-|[![Imagem em miniatura para o infográfico de reuniões online do Host](../media/solutions-architecture-center/m365-smbscenarios-hostteammeetings-square.png)](https://go.microsoft.com/fwlink/?linkid=2078712) <br/> [Baixar como um PDF](https://go.microsoft.com/fwlink/?linkid=2078712)  \  [Baixar como um PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515) | Uma introdução rápida sobre como hospedar ou ingressar em uma reunião online com o Microsoft Teams. Artigo relacionado: [Hospedar reuniões online para sua empresa](../business-video/overview-online-meetings.md)|
+|[![Imagem em miniatura para o infográfico de reuniões online do Host](../media/solutions-architecture-center/m365-smbscenarios-hostteammeetings-square.png)](https://go.microsoft.com/fwlink/?linkid=2078712) <br/> [Baixar como um PDF](https://go.microsoft.com/fwlink/?linkid=2078712)  \  [Baixar como um PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515) | Uma introdução rápida sobre como hospedar ou ingressar em uma reunião online com Microsoft Teams. Artigo relacionado: [Hospedar reuniões online para sua empresa](../business-video/overview-online-meetings.md)|
 
 <a name="workfromanywhere"></a>
 ## <a name="work-from-anywhere"></a>Trabalhe em praticamente qualquer lugar

@@ -1,6 +1,6 @@
 ---
 title: Configurar e validar exclusões com base em extensão, nome ou local
-description: Exclua arquivos do Microsoft Defender Antivírus verifica com base em sua extensão de arquivo, nome de arquivo ou local.
+description: Exclua arquivos Microsoft Defender Antivírus verificações com base em sua extensão de arquivo, nome de arquivo ou local.
 keywords: exclusões, arquivos, extensão, tipo de arquivo, nome da pasta, nome do arquivo, verificações
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -31,17 +31,17 @@ ms.locfileid: "52274527"
 - [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
 
 > [!IMPORTANT]
-> As exclusões do Microsoft Defender Antivírus não se aplicam a outros recursos do Microsoft Defender para Endpoint, incluindo a detecção e resposta do ponto de extremidade [(EDR),](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response)regras de redução de superfície de ataque [(ASR)](/microsoft-365/security/defender-endpoint/attack-surface-reduction)e acesso controlado a pastas [.](/microsoft-365/security/defender-endpoint/controlled-folders) Os arquivos excluídos usando os métodos descritos neste artigo ainda podem disparar alertas de EDR e outras detecções. Para excluir arquivos amplamente, adicione-os aos indicadores personalizados do Microsoft Defender for [Endpoint.](/microsoft-365/security/defender-endpoint/manage-indicators)
+> Microsoft Defender Antivírus exclusões não se aplicam a outros recursos do Microsoft Defender para Pontos de Extremidade, incluindo [detecção e resposta de ponto de extremidade (EDR),](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response)regras de redução de superfície de ataque [(ASR)](/microsoft-365/security/defender-endpoint/attack-surface-reduction)e acesso controlado a pastas [.](/microsoft-365/security/defender-endpoint/controlled-folders) Os arquivos que você excluir usando os métodos descritos neste artigo ainda podem disparar EDR alertas e outras detecções. Para excluir arquivos amplamente, adicione-os aos indicadores personalizados do Microsoft Defender for [Endpoint.](/microsoft-365/security/defender-endpoint/manage-indicators)
 
 ## <a name="exclusion-lists"></a>Listas de exclusão
 
-Você pode excluir determinados arquivos das verificações do Microsoft Defender Antivírus modificando listas de exclusão. **Geralmente, não é necessário aplicar exclusões.** O Microsoft Defender Antivírus inclui muitas exclusões automáticas com base em comportamentos conhecidos do sistema operacional e arquivos de gerenciamento típicos, como aqueles usados no gerenciamento empresarial, gerenciamento de banco de dados e outros cenários e situações empresariais.
+Você pode excluir determinados arquivos Microsoft Defender Antivírus verificações modificando listas de exclusão. **Geralmente, não é necessário aplicar exclusões.** Microsoft Defender Antivírus inclui muitas exclusões automáticas com base em comportamentos conhecidos do sistema operacional e arquivos de gerenciamento típicos, como aqueles usados no gerenciamento empresarial, gerenciamento de banco de dados e outros cenários e situações empresariais.
 
 > [!NOTE]
 > As exclusões também se aplicam a detecções de Aplicativos Potencialmente Indesejados (PUA).
 
 > [!NOTE]
-> As exclusões automáticas aplicam-se somente ao Windows Server 2016 e acima. Essas exclusões não são visíveis no aplicativo segurança do Windows e no PowerShell.
+> Exclusões automáticas aplicam-se somente Windows Server 2016 e acima. Essas exclusões não são visíveis no aplicativo Segurança do Windows e no PowerShell.
 
 Este artigo descreve como configurar listas de exclusão para os arquivos e pastas. Consulte [Recomendações para definir exclusões antes](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions) de definir suas listas de exclusão.
 
@@ -60,15 +60,15 @@ As listas de exclusão têm as seguintes características:
 > [!IMPORTANT]
 > - O uso de caracteres curinga, como o asterisco ( ) alterará como as regras de \* exclusão são interpretadas. Consulte a [seção Usar curingas no nome](#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists) do arquivo e no caminho da pasta ou listas de exclusão de extensão para obter informações importantes sobre como os curingas funcionam.
 > - Não é possível excluir unidades de rede mapeadas. Você deve especificar o caminho de rede real.
-> - Pastas que são pontos de nova análise criados após o início do serviço Microsoft Defender Antivírus e que foram adicionadas à lista de exclusão não serão incluídas. Você deve reiniciar o serviço (reiniciando o Windows) para que novos pontos de nova análise sejam reconhecidos como um destino de exclusão válido.
+> - Pastas que são pontos de nova análise criados após o início do serviço Microsoft Defender Antivírus e que foram adicionados à lista de exclusão não serão incluídas. Você deve reiniciar o serviço (reiniciando Windows) para que novos pontos de nova análise sejam reconhecidos como um destino de exclusão válido.
 
 Para excluir arquivos abertos por um processo específico, consulte [Configure and validate exclusions for files opened by processes](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md).
 
 As exclusões se aplicam a [verificações agendadas,](scheduled-catch-up-scans-microsoft-defender-antivirus.md)verificações [sob demanda](run-scan-microsoft-defender-antivirus.md)e proteção em [tempo real.](configure-real-time-protection-microsoft-defender-antivirus.md)
 
 > [!IMPORTANT]
-> As alterações de lista de exclusão feitas com a Política de **Grupo** serão mostrar nas listas no aplicativo [segurança do Windows](microsoft-defender-security-center-antivirus.md).
-> As alterações feitas no aplicativo de Segurança do Windows **não aparecerão** nas listas de Política de Grupo.
+> As alterações de lista de exclusão feitas com a Política de **Grupo** serão mostrar nas listas no Segurança do Windows [app](microsoft-defender-security-center-antivirus.md).
+> As alterações feitas no Segurança do Windows **aplicativo não aparecerão** nas listas de Política de Grupo.
 
 Por padrão, as alterações locais feitas nas listas (por usuários com privilégios de administrador, incluindo as alterações feitas com o PowerShell e o WMI) serão mescladas com as listas como definidas (e implantadas) pela Política de Grupo, Pelo Configuration Manager ou pelo Intune. As listas de Política de Grupo têm precedência quando há conflitos.
 
@@ -79,12 +79,12 @@ Você pode [configurar como listas de exclusões definidas local](configure-loca
 ### <a name="use-intune-to-configure-file-name-folder-or-file-extension-exclusions"></a>Usar o Intune para configurar exclusões de nome de arquivo, pasta ou extensão de arquivo
 
 Confira os seguintes artigos:
-- [Configurar configurações de restrição de dispositivo no Microsoft Intune](/intune/device-restrictions-configure)
-- [Configurações de restrição de dispositivo do Microsoft Defender Antivírus para Windows 10 no Intune](/intune/device-restrictions-windows-10#microsoft-defender-antivirus)
+- [Configurar configurações de restrição de dispositivos Microsoft Intune](/intune/device-restrictions-configure)
+- [Microsoft Defender Antivírus configurações de restrição de dispositivo para Windows 10 no Intune](/intune/device-restrictions-windows-10#microsoft-defender-antivirus)
 
 ### <a name="use-configuration-manager-to-configure-file-name-folder-or-file-extension-exclusions"></a>Use o Configuration Manager para configurar exclusões de nome de arquivo, pasta ou extensão de arquivo
 
-Consulte [Como criar e implantar políticas antimalware: Configurações de](/configmgr/protect/deploy-use/endpoint-antimalware-policies#exclusion-settings) exclusão para obter detalhes sobre como configurar o Microsoft Endpoint Manager (branch atual).
+Consulte [Como criar e implantar políticas antimalware: Configurações de](/configmgr/protect/deploy-use/endpoint-antimalware-policies#exclusion-settings) exclusão para obter detalhes sobre como configurar Microsoft Endpoint Manager (branch atual).
 
 ### <a name="use-group-policy-to-configure-folder-or-file-extension-exclusions"></a>Usar a Política de Grupo para configurar exclusões de pasta ou extensão de arquivo
 
@@ -95,7 +95,7 @@ Consulte [Como criar e implantar políticas antimalware: Configurações de](/co
 
 2. No Editor **de Gerenciamento de Política de Grupo,** acesse **Configuração do** computador e selecione Modelos **administrativos.**
 
-3. Expanda a árvore para **componentes do Windows**  >  **Exclusões do Microsoft Defender**  >  **Antivírus.**
+3. Expanda a árvore para **Windows componentes**  >  **Microsoft Defender Antivírus**  >  **Exclusões**.
 
 4. Abra a **configuração Exclusões de** Caminho para edição e adicione suas exclusões.
 
@@ -144,15 +144,15 @@ Os seguintes são permitidos como `<exclusion list>` :
 > [!IMPORTANT]
 > Se você tiver criado uma lista, com ou , usando o cmdlet novamente substituirá `Set-MpPreference` `Add-MpPreference` a lista `Set-MpPreference` existente.
 
-Por exemplo, o trecho de código a seguir faria com que as verificações do Microsoft Defender Antivírus excluisse qualquer arquivo com a `.test` extensão de arquivo:
+Por exemplo, o trecho de código a seguir faria com que Microsoft Defender Antivírus verificações excluisse qualquer arquivo com a `.test` extensão de arquivo:
 
 ```PowerShell
 Add-MpPreference -ExclusionExtension ".test"
 ```
 
-Para obter mais informações, [consulte Usar cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) do PowerShell para configurar e executar os [cmdlets](/powershell/module/defender/)do Microsoft Defender Antivírus e do Defender.
+Para obter mais informações, confira [Usar cmdlets do PowerShell para configurar e executar o Microsoft Defender Antivírus](use-powershell-cmdlets-microsoft-defender-antivirus.md) e [cmdlets do Defender](/powershell/module/defender/).
 
-### <a name="use-windows-management-instruction-wmi-to-configure-file-name-folder-or-file-extension-exclusions"></a>Use a Instrução de Gerenciamento do Windows (WMI) para configurar exclusões de nome de arquivo, pasta ou extensão de arquivo
+### <a name="use-windows-management-instruction-wmi-to-configure-file-name-folder-or-file-extension-exclusions"></a>Use Windows Instrução de Gerenciamento (WMI) para configurar exclusões de nome de arquivo, pasta ou extensão de arquivo
 
 Use os [ **métodos Definir,** **Adicionar** e **Remover** da classe **MSFT_MpPreference**](/previous-versions/windows/desktop/legacy/dn455323(v=vs.85)) para as seguintes propriedades:
 
@@ -167,7 +167,7 @@ Para obter mais informações, [consulte Windows Defender APIs WMIv2](/previous-
 
 <a id="man-tools"></a>
 
-### <a name="use-the-windows-security-app-to-configure-file-name-folder-or-file-extension-exclusions"></a>Use o aplicativo segurança do Windows para configurar exclusões de nome de arquivo, pasta ou extensão de arquivo
+### <a name="use-the-windows-security-app-to-configure-file-name-folder-or-file-extension-exclusions"></a>Use o Segurança do Windows para configurar exclusões de nome de arquivo, pasta ou extensão de arquivo
 
 Consulte [Adicionar exclusões no aplicativo Segurança do Windows para](microsoft-defender-security-center-antivirus.md) obter instruções.
 
@@ -272,7 +272,7 @@ A tabela a seguir lista e descreve as variáveis do ambiente de conta do sistema
 
 Você pode recuperar os itens na lista de exclusão usando um dos seguintes métodos:
 - [Intune](/intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune)
-- [Gerenciador de Configuração do Microsoft Endpoint](/configmgr/protect/deploy-use/endpoint-antimalware-policies)
+- [Microsoft Endpoint Configuration Manager](/configmgr/protect/deploy-use/endpoint-antimalware-policies)
 - MpCmdRun
 - PowerShell
 - [Segurança do Windows app](microsoft-defender-security-center-antivirus.md)
@@ -313,7 +313,7 @@ No exemplo a seguir, os itens contidos na `ExclusionExtension` lista são realç
 
 ![Saída do PowerShell para Get-MpPreference mostrando a lista de exclusão juntamente com outras preferências](images/defender/wdav-powershell-get-exclusions-all.png)
 
-Para obter mais informações, [consulte Usar cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) do PowerShell para configurar e executar [cmdlets](/powershell/module/defender/)Microsoft Defender Antivírus e Defender.
+Para obter mais informações, confira [Usar cmdlets do PowerShell para configurar e executar o Microsoft Defender Antivírus](use-powershell-cmdlets-microsoft-defender-antivirus.md) e [cmdlets do Defender](/powershell/module/defender/).
 
 ### <a name="retrieve-a-specific-exclusions-list-by-using-powershell"></a>Recuperar uma lista de exclusões específica usando o PowerShell
 
@@ -329,7 +329,7 @@ No exemplo a seguir, a lista é dividida em novas linhas para cada uso do `Add-M
 
 ![Saída do PowerShell mostrando apenas as entradas na lista de exclusão](images/defender/wdav-powershell-get-exclusions-variable.png)
 
-Para obter mais informações, [consulte Usar cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) do PowerShell para configurar e executar [cmdlets](/powershell/module/defender/)Microsoft Defender Antivírus e Defender.
+Para obter mais informações, confira [Usar cmdlets do PowerShell para configurar e executar o Microsoft Defender Antivírus](use-powershell-cmdlets-microsoft-defender-antivirus.md) e [cmdlets do Defender](/powershell/module/defender/).
 
 <a id="validate"></a>
 

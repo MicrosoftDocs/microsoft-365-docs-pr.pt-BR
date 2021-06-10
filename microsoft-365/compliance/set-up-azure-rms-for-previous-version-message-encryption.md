@@ -14,7 +14,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 2cba47b3-f09e-4911-9207-ac056fcb9db7
-description: A versão anterior da Criptografia de Mensagens do Office 365 depende do Microsoft Azure Rights Management (anteriormente conhecido como Windows Azure Gerenciamento de Direitos do Active Directory).
+description: A versão anterior do Criptografia de Mensagens do Office 365 depende Microsoft Azure Gerenciamento de Direitos (anteriormente conhecido como gerenciamento de direitos Windows Azure Active Directory direitos).
 ms.openlocfilehash: 978a8027c79de574b80aeedabcbbd51fa6f9e2a0
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -24,22 +24,22 @@ ms.locfileid: "50919487"
 ---
 # <a name="set-up-azure-rights-management-for-the-previous-version-of-message-encryption"></a>Configurar o Gerenciamento de Direitos do Azure para a versão anterior da Criptografia de Mensagens
 
-Este tópico descreve as etapas que você precisa seguir para ativar e configurar o Azure Rights Management (RMS), parte da Proteção de Informações do Azure, para uso com a versão anterior da Criptografia de Mensagens do Office 365 (OME).
+Este tópico descreve as etapas que você precisa seguir para ativar e configurar o Azure Rights Management (RMS), parte da Proteção de Informações do Azure, para uso com a versão anterior do Criptografia de Mensagens do Office 365 (OME).
 
 ## <a name="this-article-only-applies-to-the-previous-version-of-ome"></a>Este artigo só se aplica à versão anterior do OME
 
-Se você ainda não moveu sua organização para os novos recursos OME, mas já implantou o OME, as informações neste artigo se aplicarão à sua organização. A Microsoft recomenda que você faça um plano para mover para os novos recursos OME assim que for razoável para sua organização. Para obter instruções, consulte Configurar novos recursos de Criptografia de Mensagens do [Office 365.](set-up-new-message-encryption-capabilities.md) Se você quiser saber mais sobre como os novos recursos funcionam primeiro, consulte Criptografia de Mensagem do [Office 365.](ome.md) O restante deste artigo refere-se ao comportamento OME antes da versão dos novos recursos OME.
+Se você ainda não moveu sua organização para os novos recursos OME, mas já implantou o OME, as informações neste artigo se aplicarão à sua organização. A Microsoft recomenda que você faça um plano para mover para os novos recursos OME assim que for razoável para sua organização. Para obter instruções, [consulte Set up new Criptografia de Mensagens do Office 365 capabilities](set-up-new-message-encryption-capabilities.md). Se você quiser saber mais sobre como os novos recursos funcionam primeiro, [consulte Criptografia de Mensagens do Office 365](ome.md). O restante deste artigo refere-se ao comportamento OME antes da versão dos novos recursos OME.
 
-## <a name="prerequisites-for-using-the-previous-version-of-office-365-message-encryption"></a>Pré-requisitos para usar a versão anterior da Criptografia de Mensagens do Office 365
+## <a name="prerequisites-for-using-the-previous-version-of-office-365-message-encryption"></a>Pré-requisitos para usar a versão anterior do Criptografia de Mensagens do Office 365
 <a name="warmprereqs"> </a>
 
-A Criptografia de Mensagens do Office 365 (OME), incluindo o IRM, depende do Azure Rights Management (Azure RMS). O Azure RMS é a tecnologia de proteção usada pela Proteção de Informações do Azure. Para usar o OME, sua organização deve incluir uma assinatura do Exchange Online ou do Exchange Online Protection que, por sua vez, inclui uma assinatura de Gerenciamento de Direitos do Azure.
+Criptografia de Mensagens do Office 365 (OME), incluindo IRM, depende do Azure Rights Management (Azure RMS). O Azure RMS é a tecnologia de proteção usada pela Proteção de Informações do Azure. Para usar o OME, sua organização deve incluir uma assinatura Exchange Online ou Proteção do Exchange Online que, por sua vez, inclui uma assinatura de Gerenciamento de Direitos do Azure.
   
-- Se você não tiver certeza do que sua assinatura inclui, consulte as descrições de serviço do Exchange Online para [Política de Mensagens,](/office365/servicedescriptions/exchange-online-service-description/message-policy-and-compliance)Recuperação e Conformidade.
+- Se você não tiver certeza do que sua assinatura inclui, consulte as descrições Exchange Online de serviço para Política de Mensagem, Recuperação [e Conformidade.](/office365/servicedescriptions/exchange-online-service-description/message-policy-and-compliance)
 
-- Se você tiver o Azure Rights Management, mas ele não estiver definido para o Exchange Online ou o Exchange Online Protection, este artigo explica como ativar o Gerenciamento de Direitos do Azure e, em seguida, descreve a melhor maneira de configurar o OME para trabalhar com o Gerenciamento de Direitos do Azure.
+- Se você tiver o Azure Rights Management, mas ele não estiver definido para o Exchange Online ou Proteção do Exchange Online, este artigo explica como ativar o Gerenciamento de Direitos do Azure e, em seguida, descreve a melhor maneira de configurar o OME para trabalhar com o Gerenciamento de Direitos do Azure.
 
-- Se você já definiu o OME para trabalhar com o Gerenciamento de Direitos do Azure para o Exchange Online ou a Proteção do Exchange Online, dependendo de como você a configura, você pode estar pronto para começar a usar o OME e seus novos recursos imediatamente. Este artigo explica como determinar se você definiu o OME corretamente, o que fazer se precisar alterar sua configuração e o que acontece se você optar por não alterar sua configuração. Por exemplo, para usar os novos recursos, você deve usar o Azure RMS com o OME. Não é possível usar os novos recursos com um RMS do Active Directory local.
+- Se você já definiu o OME para trabalhar com o Gerenciamento de Direitos do Azure para Exchange Online ou Proteção do Exchange Online, dependendo de como você a configurar, talvez esteja pronto para começar a usar o OME e seus novos recursos imediatamente. Este artigo explica como determinar se você definiu o OME corretamente, o que fazer se precisar alterar sua configuração e o que acontece se você optar por não alterar sua configuração. Por exemplo, para usar os novos recursos, você deve usar o Azure RMS com o OME. Não é possível usar os novos recursos com um RMS do Active Directory local.
 
 ## <a name="activate-azure-rights-management-for--the-previous-version-of-ome-in-office-365"></a>Ativar o Gerenciamento de Direitos do Azure para a versão anterior do OME no Office 365
 
@@ -54,7 +54,7 @@ Um TPD é um arquivo XML que contém informações sobre as configurações de g
   
  **Para importar TPDs do Azure RMS**
   
-1. [Conectar-se ao Exchange Online usando o PowerShell Remoto.](/powershell/exchange/connect-to-exchange-online-powershell)
+1. [Conexão usar Exchange Online PowerShell Remoto.](/powershell/exchange/connect-to-exchange-online-powershell)
 
 2. Escolha a URL de compartilhamento de chaves que corresponde à localização geográfica da sua organização:
 
@@ -64,7 +64,7 @@ Um TPD é um arquivo XML que contém informações sobre as configurações de g
 |União Europeia  <br/> |https://sp-rms.eu.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
 |Ásia  <br/> |https://sp-rms.ap.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
 |América do Sul  <br/> |https://sp-rms.sa.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
-|Office 365 para agências governamentais (Nuvem de Comunidade Governamental)  <br/> Esse local de compartilhamento de chaves RMS é reservado para clientes que compraram o Office 365 para SKUs governamentais.  <br/> |https://sp-rms.govus.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
+|Office 365 para agências governamentais (Nuvem de Comunidade Governamental)  <br/> Esse local de compartilhamento de chaves RMS é reservado para clientes que compraram Office 365 SKUs do Governo.  <br/> |https://sp-rms.govus.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
   
 3. Configure o local de compartilhamento de chaves executando o cmdlet [Set-IRMConfiguration](/powershell/module/exchange/set-irmconfiguration) da seguinte forma: 
 
@@ -94,7 +94,7 @@ Um TPD é um arquivo XML que contém informações sobre as configurações de g
 
    Entre outras coisas, este cmdlet verifica a conectividade com o serviço de Gerenciamento de Direitos do Azure, baixa o TPD e verifica sua validade.
 
-6. Execute o cmdlet [Set-IRMConfiguration](/powershell/module/exchange/set-irmconfiguration) da seguinte forma para desabilitar os modelos de Gerenciamento de Direitos do Azure de estarem disponíveis no Outlook na Web e no Outlook: 
+6. Execute o cmdlet [Set-IRMConfiguration](/powershell/module/exchange/set-irmconfiguration) da seguinte forma para desabilitar os modelos de Gerenciamento de Direitos do Azure de estarem disponíveis no Outlook na Web e Outlook: 
 
    ```powershell
    Set-IRMConfiguration -ClientAccessServerEnabled $false
@@ -111,12 +111,12 @@ Um TPD é um arquivo XML que contém informações sobre as configurações de g
 ## <a name="i-have-the-previous-version-of-ome-set-up-with-active-directory-rights-management-not-azure-information-protection-what-do-i-do"></a>Tenho a versão anterior do OME configurada com o Gerenciamento de Direitos do Active Directory e não a Proteção de Informações do Azure, o que faço?
 <a name="importTPDs"> </a>
 
-Você pode continuar a usar as regras de fluxo de email de criptografia de mensagens existentes do Office 365 com o Gerenciamento de Direitos do Active Directory, mas não pode configurar ou usar os novos recursos OME. Em vez disso, você precisa migrar para a Proteção de Informações do Azure. Para obter informações sobre migração e o que isso significa para sua organização, consulte [Migrating from AD RMS to Azure Information Protection](/information-protection/deploy-use/prepare-environment-adrms).
+Você pode continuar a usar suas regras de fluxo de email Criptografia de Mensagens do Office 365 existentes com o Gerenciamento de Direitos do Active Directory, mas não pode configurar ou usar os novos recursos OME. Em vez disso, você precisa migrar para a Proteção de Informações do Azure. Para obter informações sobre migração e o que isso significa para sua organização, consulte [Migrating from AD RMS to Azure Information Protection](/information-protection/deploy-use/prepare-environment-adrms).
   
 ## <a name="next-steps"></a>Próximas etapas
 <a name="importTPDs"> </a>
 
-Depois de concluir a configuração do Gerenciamento de Direitos do Azure, se quiser habilitar os novos recursos OME, consulte Configurar novos recursos de Criptografia de Mensagens do [Office 365](./set-up-new-message-encryption-capabilities.md) com base na Proteção de Informações do Azure.
+Depois de concluir a instalação do Gerenciamento de Direitos do Azure, se quiser habilitar os novos recursos OME, consulte Configurar novos recursos Criptografia de Mensagens do Office 365 do Azure com base na Proteção de Informações do [Azure.](./set-up-new-message-encryption-capabilities.md)
   
 Depois de configurar sua organização para usar os novos recursos OME, você estará pronto para Definir regras de fluxo de emails para proteger mensagens de email com novos recursos [OME.](define-mail-flow-rules-to-encrypt-email.md)
   

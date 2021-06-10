@@ -35,7 +35,7 @@ ms.locfileid: "51935816"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-A tabela no esquema de busca avançado contém informações sobre contas de usuário obtidas de vários `IdentityInfo` serviços, incluindo o Azure Active Directory. [](advanced-hunting-overview.md) Use essa referência para criar consultas que retornam informações dessa tabela.
+A tabela no esquema de busca avançada contém informações sobre contas de usuário obtidas de vários `IdentityInfo` serviços, incluindo [](advanced-hunting-overview.md) Azure Active Directory. Use essa referência para criar consultas que retornam informações dessa tabela.
 
 >[!NOTE]
 >Esta tabela foi renomeada de `AccountInfo` . Durante os renomeados, todas as consultas salvas no portal são atualizadas automaticamente. Verifique consultas salvas em outro lugar.

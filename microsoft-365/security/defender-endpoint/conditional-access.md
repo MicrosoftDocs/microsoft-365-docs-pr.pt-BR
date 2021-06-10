@@ -41,7 +41,7 @@ Com o Acesso Condicional, você pode controlar o acesso às informações corpor
 
 Você pode definir condições de segurança em quais dispositivos e aplicativos podem executar e acessar informações de sua rede, impondo políticas para impedir a execução de aplicativos até que um dispositivo retorne a um estado compatível. 
 
-A implementação do Acesso Condicional no Defender para Ponto de Extremidade baseia-se nas políticas de conformidade de dispositivos do Microsoft Intune (Intune) e políticas de acesso condicional do Azure Active Directory (Azure AD). 
+A implementação do Acesso Condicional no Defender para Ponto de Extremidade baseia-se em políticas de conformidade de dispositivo Microsoft Intune (Intune) e políticas de acesso condicional Azure Active Directory (Azure AD). 
 
 A política de conformidade é usada com o Acesso Condicional para permitir que apenas dispositivos que cumprem uma ou mais regras de política de conformidade de dispositivo acessem aplicativos. 
 

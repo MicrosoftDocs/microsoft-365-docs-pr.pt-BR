@@ -28,7 +28,7 @@ ms.locfileid: "51165652"
 # <a name="ad-fs-migration-steps-for-the-migration-from-microsoft-cloud-deutschland"></a>Etapas de migração do AD FS para a migração do Microsoft Cloud Deutschland
 
 Essa alteração de configuração precisa ser aplicada a qualquer momento antes do início da fase 2.
-Depois que a fase 2 for concluída, a alteração de configuração funcionará e você poderá entrar por meio de pontos de extremidade globais do Office 365, como `https://portal.office.com` . Se você estiver implementando a alteração de configuração antes da fase  2, os pontos de extremidade globais do Office 365 ainda não funcionarão, mas a nova confiança de parte confiável ainda faz parte da configuração dos Serviços de Federação do Active Directory (AD FS).
+Depois que a fase 2 for concluída, a alteração de configuração funcionará e você poderá entrar Office 365 pontos de extremidade globais, como `https://portal.office.com` . Se você estiver implementando a alteração de configuração antes da fase  2, os pontos de extremidade globais do Office 365 ainda não funcionarão, mas a nova confiança de parte confiável ainda faz parte da configuração dos Serviços de Federação do Active Directory (AD FS).
 
 Os clientes que usam autenticação federada com os Serviços de Federação do Active Directory (AD FS) não devem fazer alterações nas URIs do emissor que são usadas para todas as autenticações com os Serviços de Domínio do Active Directory (AD DS) locais durante a migração. Alterar URIs do emissor levará a falhas de autenticação para usuários no domínio. URIs do emissor podem ser alteradas diretamente no AD  FS ou quando um domínio é convertido de gerenciado para _federado_ e vice-versa. Recomendamos que você não adicione, remova ou converta um domínio federado no locatário do Azure AD que foi migrado. As URIs do emissor podem ser alteradas depois que a migração estiver completa.
 
@@ -37,13 +37,13 @@ Para preparar seu farm do AD FS para a migração do Microsoft Cloud Deutschland
 1. Fazer o back up your AD FS settings, including the existing Microsoft Cloud Deutschland Relying Party trust, with [these steps](#backup). Nomeia o backup **do MicrosoftCloudDeutschlandOnly** para indicar que ele tem apenas as informações de locatário do Microsoft Cloud Deutschland.
 
    > [!NOTE]
-   > O backup conterá não apenas a Confiança de Parte Confiável do Office 365 existente para o Microsoft Cloud Deutschland, mas também todas as outras Confianças de Parte Confiável presentes no respectivo farm do AD FS.
+   > O backup conterá não apenas a confiança de Office 365 de terceiros confiável para o Microsoft Cloud Deutschland, mas também todas as outras Confianças de Parte Confiável presentes no respectivo farm do AD FS.
 
 2. Teste a restauração usando o backup do MicrosoftCloudDeutschlandOnly, o farm do AD FS deve continuar a operar como Microsoft Cloud Deutschland somente.
 
 Depois de concluir e testar o backup do AD FS, execute as etapas a seguir para adicionar uma nova confiança de terceiros confiável à configuração do ADFS:
 
-1. Abra o console de gerenciamento do AD FS.
+1. Abra o de gerenciamento AD FS.
 
 2. No painel esquerdo do console de gerenciamento do ADFS, navegue até o menu **Confianças da Parte Confiável.**
 
@@ -53,9 +53,9 @@ Depois de concluir e testar o backup do AD FS, execute as etapas a seguir para a
 
 5. Na página **Selecionar Fonte de** Dados, selecione Importar dados sobre a parte confiável publicada online ou em uma rede **local.** O **valor do endereço de metadados de** federação (nome do host ou URL) deve ser definido como `https://nexus.microsoftonline-p.com/federationmetadata/2007-06/federationmetadata.xml` . Clique em **Avançar**.
 
-6. Na página **Especificar Nome de Exibição,** digite o nome de exibição como **Microsoft Office 365 Identity Platform WorldWide**. Clique em **Avançar**.
+6. Na página **Especificar Nome de Exibição,** digite o nome de exibição como Microsoft Office 365 Identity **Platform WorldWide**. Clique em **Avançar**.
 
-7. Se você estiver usando o ADFS no Windows Server 2012, na página assistente Configurar Autenticação **Multifator Agora?**, selecione a escolha apropriada de acordo com seus requisitos de autenticação. Se você permanecer com o padrão, selecione Não quero configurar configurações de autenticação multifator para essa confiança de parte confiável **neste momento**. Você pode alterar essa configuração mais tarde, se quiser.
+7. Se você estiver usando o ADFS no Windows Server 2012, na página do assistente Configurar Autenticação **Multifator Agora?**, selecione a escolha apropriada de acordo com seus requisitos de autenticação. Se você permanecer com o padrão, selecione Não quero configurar configurações de autenticação multifator para essa confiança de parte confiável **neste momento**. Você pode alterar essa configuração mais tarde, se quiser.
 
 8. Para o AD FS 2012: na opção Escolher  Regras de Autorização de Emissão, mantenha Permitir que todos os usuários acessem essa parte de confiança selecionada e clique em **Próximo**.
 
@@ -65,12 +65,12 @@ Depois de concluir e testar o backup do AD FS, execute as etapas a seguir para a
 
 11. Clique **em Fechar** na página Concluir. 
 
-Ao fechar o assistente, a Confiança de Parte Confiável com o serviço Global do Office 365 é estabelecida. No entanto, nenhuma regra de Transformação de Emissão ainda está configurada.
+Ao fechar o assistente, a Confiança de Parte Confiável com o Office 365 Global é estabelecida. No entanto, nenhuma regra de Transformação de Emissão ainda está configurada.
 
 Você pode usar [a Ajuda do AD FS](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) para gerar as regras corretas de Transformação de Emissão. As regras de declaração geradas criadas com a Ajuda do AD FS podem ser adicionadas manualmente por meio do console de gerenciamento do AD FS ou com o PowerShell. A Ajuda do AD FS gerará os scripts necessários do PowerShell que precisam ser executados.  
 
 > [!NOTE]
-> [A Ajuda do AD FS](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) gerará as regras padrão de transformação de emissão que são fornecidas com o produto. No entanto, se as regras de transformação de emissão personalizadas estão em vigor na Microsoft Cloud Deutschland Relying Party Trust (por exemplo, URIs de emissor personalizado, IDs imutáveis não padrão ou qualquer outra personalização), as regras geradas pela ajuda do AD FS devem ser modificadas de forma que elas se ajustem à lógica personalizada atualmente em vigor para a confiança da parte confiável do Microsoft Cloud Deutschland. Se essas personalizações não são integradas às regras geradas por meio da Ajuda do [AD FS,](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator)a autenticação para Microsoft Office **365 Identity Platform WorldWide** provavelmente não funcionará para suas identidades federadas. 
+> [A Ajuda do AD FS](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) gerará as regras padrão de transformação de emissão que são fornecidas com o produto. No entanto, se as regras de transformação de emissão personalizadas estão em vigor na Microsoft Cloud Deutschland Relying Party Trust (por exemplo, URIs de emissor personalizado, IDs imutáveis não padrão ou qualquer outra personalização), as regras geradas pela ajuda do AD FS devem ser modificadas de forma que elas se ajustem à lógica personalizada atualmente em vigor para a confiança da parte confiável do Microsoft Cloud Deutschland. Se essas personalizações não são integradas às regras geradas por meio da Ajuda do  [AD FS,](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator)a autenticação para Microsoft Office 365 **Identity Platform WorldWide** provavelmente não funcionará para suas identidades federadas.
 
 1. Execute **Gerar Declarações** na Ajuda [do AD FS](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) e copie o script do PowerShell usando a opção Copiar no canto superior direito do script. 
 
@@ -88,7 +88,7 @@ Você pode usar [a Ajuda do AD FS](https://adfshelp.microsoft.com/AadTrustClaims
    Set-AdfsRelyingPartyTrust -TargetIdentifier urn:federation:MicrosoftOnline -IssuanceTransformRules $RuleSet.ClaimRulesString;
    ```
 
-3. Verifique se duas PartyTtrusts De base estão presentes; um para o Microsoft Cloud Deutschland e outro para o serviço Global do Office 365. O comando a seguir pode ser aproveitado para a verificação. Ele deve retornar duas linhas e os respectivos nomes e identificadores.
+3. Verifique se duas PartyTtrusts De base estão presentes; um para o Microsoft Cloud Deutschland e outro para o serviço Office 365 Global. O comando a seguir pode ser aproveitado para a verificação. Ele deve retornar duas linhas e os respectivos nomes e identificadores.
 
    ```powershell
    Get-AdfsRelyingPartyTrust | Where-Object {$_.Identifier -like 'urn:federation:MicrosoftOnline*'} | Select-Object Name, Identifier
@@ -140,7 +140,7 @@ Se o farm falhou completamente e não há como retornar ao farm antigo, faça o 
 
 Como começar:
 
-- [Migração do Microsoft Cloud Deutschland para serviços do Office 365 nas novas regiões do datacenter alemão](ms-cloud-germany-transition.md)
+- [Migração do Microsoft Cloud Deutschland para serviços Office 365 nas novas regiões do datacenter alemão](ms-cloud-germany-transition.md)
 - [Assistência de Migração do Microsoft Cloud Deutschland](https://aka.ms/germanymigrateassist)
 - [Como aceitar a migração](ms-cloud-germany-migration-opt-in.md)
 - [Experiência do cliente durante a migração](ms-cloud-germany-transition-experience.md)
