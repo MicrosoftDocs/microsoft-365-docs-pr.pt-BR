@@ -1,5 +1,5 @@
 ---
-title: Obter um erro de conta desabilitada no Outlook na Web?
+title: Obter um erro de conta desabilitada Outlook na Web?
 f1.keywords:
 - CSH
 ms.author: pebaum
@@ -24,8 +24,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50914937"
 ---
-# <a name="getting-an-account-disabled-error-in-outlook-on-the-web"></a><span data-ttu-id="842ec-103">Obter um erro de conta desabilitada no Outlook na Web</span><span class="sxs-lookup"><span data-stu-id="842ec-103">Getting an account disabled error in Outlook on the web</span></span>
+# <a name="getting-an-account-disabled-error-in-outlook-on-the-web"></a><span data-ttu-id="c617c-103">Obter um erro de conta desabilitada Outlook na Web</span><span class="sxs-lookup"><span data-stu-id="c617c-103">Getting an account disabled error in Outlook on the web</span></span>
 
-<span data-ttu-id="842ec-104">Se você receber  o erro Sua conta foi desabilitada quando você tenta abrir o Outlook na Web (anteriormente conhecido como Outlook Web App), seu administrador pode ter desabilitado seu acesso ao `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` Outlook na Web.</span><span class="sxs-lookup"><span data-stu-id="842ec-104">If you get the error **Your account has been disabled** with `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` when you try to open Outlook on the web (formerly known as Outlook Web App), your admin might have disabled your access to Outlook on the web.</span></span>
+<span data-ttu-id="c617c-104">Se você receber  o erro Sua conta foi desabilitada quando você tenta abrir o Outlook na Web (anteriormente conhecido como Outlook Web App), seu administrador pode ter desabilitado seu acesso ao Outlook `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` na Web.</span><span class="sxs-lookup"><span data-stu-id="c617c-104">If you get the error **Your account has been disabled** with `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` when you try to open Outlook on the web (formerly known as Outlook Web App), your admin might have disabled your access to Outlook on the web.</span></span>
 
-<span data-ttu-id="842ec-105">O administrador pode corrigir esse erro seguindo as etapas no tópico [Habilitar ou desabilitar](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)o Outlook Web App para uma caixa de correio.</span><span class="sxs-lookup"><span data-stu-id="842ec-105">Your admin can fix this error by following the steps in the topic [Enable or disable Outlook Web App for a mailbox](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app).</span></span>
+<span data-ttu-id="c617c-105">O administrador pode corrigir esse erro seguindo as etapas no tópico Habilitar ou [desabilitar](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)Outlook Web App para uma caixa de correio .</span><span class="sxs-lookup"><span data-stu-id="c617c-105">Your admin can fix this error by following the steps in the topic [Enable or disable Outlook Web App for a mailbox](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app).</span></span>

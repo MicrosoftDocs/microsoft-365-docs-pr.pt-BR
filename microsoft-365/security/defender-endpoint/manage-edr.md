@@ -1,5 +1,5 @@
 ---
-title: Gerenciar recursos de detecção e resposta do ponto de extremidade
+title: Gerenciar detecção e resposta de ponto de extremidade recursos
 ms.reviewer: ''
 description: ''
 keywords: ''
@@ -25,18 +25,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51053588"
 ---
-# <a name="manage-endpoint-detection-and-response-capabilities"></a><span data-ttu-id="cc297-102">Gerenciar recursos de detecção e resposta do ponto de extremidade</span><span class="sxs-lookup"><span data-stu-id="cc297-102">Manage endpoint detection and response capabilities</span></span>
+# <a name="manage-endpoint-detection-and-response-capabilities"></a><span data-ttu-id="48a85-102">Gerenciar detecção e resposta de ponto de extremidade recursos</span><span class="sxs-lookup"><span data-stu-id="48a85-102">Manage endpoint detection and response capabilities</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="cc297-103">Gerencie a fila de alertas, investigue dispositivos na lista de dispositivos, tome ações de resposta e cace possíveis ameaças em sua organização usando a busca avançada.</span><span class="sxs-lookup"><span data-stu-id="cc297-103">Manage the alerts queue, investigate devices in the devices list, take response actions, and hunt for possible threats in your organization using advanced hunting.</span></span>
+<span data-ttu-id="48a85-103">Gerencie a fila de alertas, investigue dispositivos na lista de dispositivos, tome ações de resposta e cace possíveis ameaças em sua organização usando a busca avançada.</span><span class="sxs-lookup"><span data-stu-id="48a85-103">Manage the alerts queue, investigate devices in the devices list, take response actions, and hunt for possible threats in your organization using advanced hunting.</span></span>
 
 
-## <a name="in-this-section"></a><span data-ttu-id="cc297-104">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="cc297-104">In this section</span></span>
-<span data-ttu-id="cc297-105">Tópico</span><span class="sxs-lookup"><span data-stu-id="cc297-105">Topic</span></span> | <span data-ttu-id="cc297-106">Descrição</span><span class="sxs-lookup"><span data-stu-id="cc297-106">Description</span></span> 
+## <a name="in-this-section"></a><span data-ttu-id="48a85-104">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="48a85-104">In this section</span></span>
+<span data-ttu-id="48a85-105">Tópico</span><span class="sxs-lookup"><span data-stu-id="48a85-105">Topic</span></span> | <span data-ttu-id="48a85-106">Descrição</span><span class="sxs-lookup"><span data-stu-id="48a85-106">Description</span></span> 
 :---|:---
-[<span data-ttu-id="cc297-107">Fila de alertas</span><span class="sxs-lookup"><span data-stu-id="cc297-107">Alerts queue</span></span>](alerts-queue-endpoint-detection-response.md)| <span data-ttu-id="cc297-108">Exibir os alertas que surgiram no Centro de Segurança do Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="cc297-108">View the alerts surfaced in Microsoft Defender Security Center.</span></span>
-[<span data-ttu-id="cc297-109">Lista de dispositivos</span><span class="sxs-lookup"><span data-stu-id="cc297-109">Devices list</span></span>](machines-view-overview.md) | <span data-ttu-id="cc297-110">Saiba como você pode exibir e gerenciar a lista de dispositivos, gerenciar grupos de dispositivos e investigar alertas relacionados ao dispositivo.</span><span class="sxs-lookup"><span data-stu-id="cc297-110">Learn how you can view and manage the devices list, manage device groups, and investigate device related alerts.</span></span> 
-[<span data-ttu-id="cc297-111">Tomar ações de resposta</span><span class="sxs-lookup"><span data-stu-id="cc297-111">Take response actions</span></span>](respond-machine-alerts.md)| <span data-ttu-id="cc297-112">Tome ações de resposta em dispositivos e arquivos para responder rapidamente a ataques detectados e conter ameaças.</span><span class="sxs-lookup"><span data-stu-id="cc297-112">Take response actions on devices and files to quickly respond to detected attacks and contain threats.</span></span>
-[<span data-ttu-id="cc297-113">Dados de consulta usando a busca avançada</span><span class="sxs-lookup"><span data-stu-id="cc297-113">Query data using advanced hunting</span></span>](advanced-hunting-query-language.md)| <span data-ttu-id="cc297-114">Pesquise proativamente possíveis ameaças em toda a sua organização usando uma ferramenta de pesquisa e consulta poderosa.</span><span class="sxs-lookup"><span data-stu-id="cc297-114">Proactively hunt for possible threats across your organization using a powerful search and query tool.</span></span>
+[<span data-ttu-id="48a85-107">Fila de alertas</span><span class="sxs-lookup"><span data-stu-id="48a85-107">Alerts queue</span></span>](alerts-queue-endpoint-detection-response.md)| <span data-ttu-id="48a85-108">Exibir os alertas que surgiram Central de Segurança do Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="48a85-108">View the alerts surfaced in Microsoft Defender Security Center.</span></span>
+[<span data-ttu-id="48a85-109">Lista de dispositivos</span><span class="sxs-lookup"><span data-stu-id="48a85-109">Devices list</span></span>](machines-view-overview.md) | <span data-ttu-id="48a85-110">Saiba como você pode exibir e gerenciar a lista de dispositivos, gerenciar grupos de dispositivos e investigar alertas relacionados ao dispositivo.</span><span class="sxs-lookup"><span data-stu-id="48a85-110">Learn how you can view and manage the devices list, manage device groups, and investigate device related alerts.</span></span> 
+[<span data-ttu-id="48a85-111">Executar ações de resposta</span><span class="sxs-lookup"><span data-stu-id="48a85-111">Take response actions</span></span>](respond-machine-alerts.md)| <span data-ttu-id="48a85-112">Tome ações de resposta em dispositivos e arquivos para responder rapidamente a ataques detectados e conter ameaças.</span><span class="sxs-lookup"><span data-stu-id="48a85-112">Take response actions on devices and files to quickly respond to detected attacks and contain threats.</span></span>
+[<span data-ttu-id="48a85-113">Dados de consulta usando a busca avançada</span><span class="sxs-lookup"><span data-stu-id="48a85-113">Query data using advanced hunting</span></span>](advanced-hunting-query-language.md)| <span data-ttu-id="48a85-114">Pesquise proativamente possíveis ameaças em toda a sua organização usando uma ferramenta de pesquisa e consulta poderosa.</span><span class="sxs-lookup"><span data-stu-id="48a85-114">Proactively hunt for possible threats across your organization using a powerful search and query tool.</span></span>

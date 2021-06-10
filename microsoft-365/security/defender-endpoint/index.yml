@@ -78,11 +78,11 @@ landingContent:
     links:
     - text: Microsoft Defender para Ponto de Extremidade no Mac
       url: microsoft-defender-endpoint-mac.md
-    - text: Microsoft Defender para Ponto de Extremidade no iOS
+    - text: Microsoft Defender para Ponto de Extremidade para iOS
       url: microsoft-defender-endpoint-ios.md
-    - text: Microsoft Defender para Ponto de Extremidade no Linux
+    - text: Microsoft Defender para Ponto de Extremidade para Linux
       url: microsoft-defender-endpoint-linux.md
-    - text: Microsoft Defender para Ponto de Extremidade no Android
+    - text: Microsoft Defender para Ponto de Extremidade para Android
       url: microsoft-defender-endpoint-android.md
 - title: Referência
   linkLists:

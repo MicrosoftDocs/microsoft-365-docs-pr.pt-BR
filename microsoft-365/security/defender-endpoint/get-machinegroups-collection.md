@@ -23,58 +23,58 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51932770"
 ---
-# <a name="get-kb-collection-api"></a><span data-ttu-id="79b76-104">Obter API de coleção KB</span><span class="sxs-lookup"><span data-stu-id="79b76-104">Get KB collection API</span></span>
+# <a name="get-kb-collection-api"></a><span data-ttu-id="6c060-104">Obter API de coleção KB</span><span class="sxs-lookup"><span data-stu-id="6c060-104">Get KB collection API</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="79b76-105">**Aplica-se a:** [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="79b76-105">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)</span></span>
+<span data-ttu-id="6c060-105">**Aplica-se a:** [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="6c060-105">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)</span></span>
 
-- <span data-ttu-id="79b76-106">Deseja experimentar o Microsoft Defender para Ponto de Extremidade?</span><span class="sxs-lookup"><span data-stu-id="79b76-106">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="79b76-107">Inscreva-se para uma avaliação gratuita.</span><span class="sxs-lookup"><span data-stu-id="79b76-107">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- <span data-ttu-id="6c060-106">Deseja experimentar o Microsoft Defender para Ponto de Extremidade?</span><span class="sxs-lookup"><span data-stu-id="6c060-106">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="6c060-107">Inscreva-se para uma avaliação gratuita.</span><span class="sxs-lookup"><span data-stu-id="6c060-107">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
 
-<span data-ttu-id="79b76-108">Recupera uma coleção de grupos de dispositivos RBAC.</span><span class="sxs-lookup"><span data-stu-id="79b76-108">Retrieves a collection of RBAC device groups.</span></span>
+<span data-ttu-id="6c060-108">Recupera uma coleção de grupos de dispositivos RBAC.</span><span class="sxs-lookup"><span data-stu-id="6c060-108">Retrieves a collection of RBAC device groups.</span></span>
 
-## <a name="permissions"></a><span data-ttu-id="79b76-109">Permissões</span><span class="sxs-lookup"><span data-stu-id="79b76-109">Permissions</span></span>
-<span data-ttu-id="79b76-110">O usuário precisa de permissões de leitura.</span><span class="sxs-lookup"><span data-stu-id="79b76-110">User needs read permissions.</span></span>
+## <a name="permissions"></a><span data-ttu-id="6c060-109">Permissões</span><span class="sxs-lookup"><span data-stu-id="6c060-109">Permissions</span></span>
+<span data-ttu-id="6c060-110">O usuário precisa de permissões de leitura.</span><span class="sxs-lookup"><span data-stu-id="6c060-110">User needs read permissions.</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="79b76-111">Solicitação HTTP</span><span class="sxs-lookup"><span data-stu-id="79b76-111">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="6c060-111">Solicitação HTTP</span><span class="sxs-lookup"><span data-stu-id="6c060-111">HTTP request</span></span>
 ```
 GET /testwdatppreview/machinegroups
 ```
 
-## <a name="request-headers"></a><span data-ttu-id="79b76-112">Cabeçalhos de solicitação</span><span class="sxs-lookup"><span data-stu-id="79b76-112">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="6c060-112">Cabeçalhos de solicitação</span><span class="sxs-lookup"><span data-stu-id="6c060-112">Request headers</span></span>
 
-<span data-ttu-id="79b76-113">Cabeçalho</span><span class="sxs-lookup"><span data-stu-id="79b76-113">Header</span></span> | <span data-ttu-id="79b76-114">Valor</span><span class="sxs-lookup"><span data-stu-id="79b76-114">Value</span></span> 
+<span data-ttu-id="6c060-113">Cabeçalho</span><span class="sxs-lookup"><span data-stu-id="6c060-113">Header</span></span> | <span data-ttu-id="6c060-114">Valor</span><span class="sxs-lookup"><span data-stu-id="6c060-114">Value</span></span> 
 :---|:---
-<span data-ttu-id="79b76-115">Autorização</span><span class="sxs-lookup"><span data-stu-id="79b76-115">Authorization</span></span> | <span data-ttu-id="79b76-116">Portador {token}.</span><span class="sxs-lookup"><span data-stu-id="79b76-116">Bearer {token}.</span></span> <span data-ttu-id="79b76-117">**Obrigatório**.</span><span class="sxs-lookup"><span data-stu-id="79b76-117">**Required**.</span></span>
-<span data-ttu-id="79b76-118">Tipo de conteúdo</span><span class="sxs-lookup"><span data-stu-id="79b76-118">Content type</span></span> | <span data-ttu-id="79b76-119">application/json</span><span class="sxs-lookup"><span data-stu-id="79b76-119">application/json</span></span>
+<span data-ttu-id="6c060-115">Autorização</span><span class="sxs-lookup"><span data-stu-id="6c060-115">Authorization</span></span> | <span data-ttu-id="6c060-116">Portador {token}.</span><span class="sxs-lookup"><span data-stu-id="6c060-116">Bearer {token}.</span></span> <span data-ttu-id="6c060-117">**Obrigatório**.</span><span class="sxs-lookup"><span data-stu-id="6c060-117">**Required**.</span></span>
+<span data-ttu-id="6c060-118">Tipo de conteúdo</span><span class="sxs-lookup"><span data-stu-id="6c060-118">Content type</span></span> | <span data-ttu-id="6c060-119">application/json</span><span class="sxs-lookup"><span data-stu-id="6c060-119">application/json</span></span>
 
-## <a name="request-body"></a><span data-ttu-id="79b76-120">Corpo da solicitação</span><span class="sxs-lookup"><span data-stu-id="79b76-120">Request body</span></span>
-<span data-ttu-id="79b76-121">Vazio</span><span class="sxs-lookup"><span data-stu-id="79b76-121">Empty</span></span>
+## <a name="request-body"></a><span data-ttu-id="6c060-120">Corpo da solicitação</span><span class="sxs-lookup"><span data-stu-id="6c060-120">Request body</span></span>
+<span data-ttu-id="6c060-121">Vazio</span><span class="sxs-lookup"><span data-stu-id="6c060-121">Empty</span></span>
 
-## <a name="response"></a><span data-ttu-id="79b76-122">Resposta</span><span class="sxs-lookup"><span data-stu-id="79b76-122">Response</span></span>
-<span data-ttu-id="79b76-123">Se bem-sucedido - 200 OK.</span><span class="sxs-lookup"><span data-stu-id="79b76-123">If successful - 200 OK.</span></span>
+## <a name="response"></a><span data-ttu-id="6c060-122">Resposta</span><span class="sxs-lookup"><span data-stu-id="6c060-122">Response</span></span>
+<span data-ttu-id="6c060-123">Se bem-sucedido - 200 OK.</span><span class="sxs-lookup"><span data-stu-id="6c060-123">If successful - 200 OK.</span></span>
 
-## <a name="example"></a><span data-ttu-id="79b76-124">Exemplo</span><span class="sxs-lookup"><span data-stu-id="79b76-124">Example</span></span>
+## <a name="example"></a><span data-ttu-id="6c060-124">Exemplo</span><span class="sxs-lookup"><span data-stu-id="6c060-124">Example</span></span>
 
-<span data-ttu-id="79b76-125">**Solicitação**</span><span class="sxs-lookup"><span data-stu-id="79b76-125">**Request**</span></span>
+<span data-ttu-id="6c060-125">**Solicitação**</span><span class="sxs-lookup"><span data-stu-id="6c060-125">**Request**</span></span>
 
-<span data-ttu-id="79b76-126">Este é um exemplo da solicitação.</span><span class="sxs-lookup"><span data-stu-id="79b76-126">Here is an example of the request.</span></span>
+<span data-ttu-id="6c060-126">Este é um exemplo da solicitação.</span><span class="sxs-lookup"><span data-stu-id="6c060-126">Here is an example of the request.</span></span>
 
 ```
 GET https://graph.microsoft.com/testwdatppreview/machinegroups
 Content-type: application/json
 ```
 
-<span data-ttu-id="79b76-127">**Response**</span><span class="sxs-lookup"><span data-stu-id="79b76-127">**Response**</span></span>
+<span data-ttu-id="6c060-127">**Response**</span><span class="sxs-lookup"><span data-stu-id="6c060-127">**Response**</span></span>
 
-<span data-ttu-id="79b76-128">Veja a seguir um exemplo da resposta.</span><span class="sxs-lookup"><span data-stu-id="79b76-128">Here is an example of the response.</span></span>
-<span data-ttu-id="79b76-129">A id de campo contém **id** do grupo de dispositivos e igual ao campo **rbacGroupId** em informações de dispositivos.</span><span class="sxs-lookup"><span data-stu-id="79b76-129">Field id contains device group **id** and equal to field **rbacGroupId** in devices info.</span></span> <span data-ttu-id="79b76-130">O **campo desagrupado** só é verdadeiro para um grupo para todos os dispositivos que não foram atribuídos a nenhum grupo.</span><span class="sxs-lookup"><span data-stu-id="79b76-130">Field **ungrouped** is true only for one group for all devices that have not been assigned to any group.</span></span> <span data-ttu-id="79b76-131">Esse grupo, como de costume, tem o nome "UnassignedGroup".</span><span class="sxs-lookup"><span data-stu-id="79b76-131">This group as usual has name "UnassignedGroup".</span></span>
+<span data-ttu-id="6c060-128">Veja a seguir um exemplo da resposta.</span><span class="sxs-lookup"><span data-stu-id="6c060-128">Here is an example of the response.</span></span>
+<span data-ttu-id="6c060-129">A id de campo contém **id** do grupo de dispositivos e igual ao campo **rbacGroupId** em informações de dispositivos.</span><span class="sxs-lookup"><span data-stu-id="6c060-129">Field id contains device group **id** and equal to field **rbacGroupId** in devices info.</span></span> <span data-ttu-id="6c060-130">O **campo desagrupado** só é verdadeiro para um grupo para todos os dispositivos que não foram atribuídos a nenhum grupo.</span><span class="sxs-lookup"><span data-stu-id="6c060-130">Field **ungrouped** is true only for one group for all devices that have not been assigned to any group.</span></span> <span data-ttu-id="6c060-131">Esse grupo, como de costume, tem o nome "UnassignedGroup".</span><span class="sxs-lookup"><span data-stu-id="6c060-131">This group as usual has name "UnassignedGroup".</span></span>
 
 ```
 HTTP/1.1 200 OK

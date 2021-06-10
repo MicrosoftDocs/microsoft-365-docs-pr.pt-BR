@@ -27,18 +27,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51053509"
 ---
-# <a name="whats-new-in-microsoft-365-security"></a><span data-ttu-id="66f8c-104">O que há de novo no Microsoft 365 Security</span><span class="sxs-lookup"><span data-stu-id="66f8c-104">What's new in Microsoft 365 Security</span></span>
+# <a name="whats-new-in-microsoft-365-security"></a><span data-ttu-id="4606c-104">O que há de novo no Microsoft 365 Security</span><span class="sxs-lookup"><span data-stu-id="4606c-104">What's new in Microsoft 365 Security</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="66f8c-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="66f8c-105">**Applies to:**</span></span>
-- <span data-ttu-id="66f8c-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="66f8c-106">Microsoft 365 Defender</span></span>
+<span data-ttu-id="4606c-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="4606c-105">**Applies to:**</span></span>
+- <span data-ttu-id="4606c-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="4606c-106">Microsoft 365 Defender</span></span>
 
 
 
-<span data-ttu-id="66f8c-107">Este tópico abordará os recursos que estão disponíveis para o mercado (GA), na versão mais recente do Microsoft 365 Security.</span><span class="sxs-lookup"><span data-stu-id="66f8c-107">This topic will cover capabilities that are generally available (GA) in the latest release of Microsoft 365 Security.</span></span> 
+<span data-ttu-id="4606c-107">Este tópico abordará os recursos que estão disponíveis para o mercado (GA), na versão mais recente do Microsoft 365 Security.</span><span class="sxs-lookup"><span data-stu-id="4606c-107">This topic will cover capabilities that are generally available (GA) in the latest release of Microsoft 365 Security.</span></span> 
 
-<span data-ttu-id="66f8c-108">Para obter mais informações sobre a visualização prévia de recursos, confira [Visualização prévia de recursos](preview.md)</span><span class="sxs-lookup"><span data-stu-id="66f8c-108">For more information on preview features, see [Preview features](preview.md)</span></span>
+<span data-ttu-id="4606c-108">Para obter mais informações sobre a visualização prévia de recursos, confira [Visualização prévia de recursos](preview.md)</span><span class="sxs-lookup"><span data-stu-id="4606c-108">For more information on preview features, see [Preview features](preview.md)</span></span>
 
 
