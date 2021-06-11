@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Um requisito para todas as soluções de Proteção de Informações da Microsoft: Criar, configurar e publicar rótulos de confidencialidade para classificar e proteger os dados da sua organização.'
-ms.openlocfilehash: fc7debbe2fe1d59d4d172fd23587d0b2a1e6705e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 328bf7bdac3a8de23820d861932ee20d71e911b4
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244619"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878179"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Criar e configurar rótulos de confidencialidade e suas políticas
 
@@ -181,6 +181,9 @@ Para editar uma política de rótulo existente, selecione-a e, em seguida, selec
 Esse botão dá início ao assistente **Criar política**, que permite editar quais rótulos estão incluídos e as configurações de rótulo. Quando você concluir o assistente, todas as alterações serão replicadas automaticamente para os usuários e serviços selecionados.
 
 Quando você usa rótulos integrados para aplicativos do Office no Windows, macOS, iOS e Android, os usuários veem os novos rótulos em quatro horas e em uma hora para Word, Excel e PowerPoint na web quando você atualiza o navegador. No entanto, aguarde até 24 horas para que as alterações sejam replicadas em todos os aplicativos e serviços.
+
+> [!NOTE]
+> Outros aplicativos e serviços com rótulos de confidencialidade podem atualizar com mais frequência do que 24 horas com seus próprios agendamentos de atualização e acionamentos para atualizações de política. Consulte a documentação para obter mais detalhes. Por exemplo, para o cliente de rótulo unificado da Proteção de Informações do Azure, consulte [**linha de atualização de política do** na tabela comparações detalhadas dos clientes da tabela Proteção de Informações do Azure](/azure/information-protection/rms-client/use-client#detailed-comparisons-for-the-azure-information-protection-clients).
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>Configurações adicionais de políticas de rótulo com o PowerShell do Centro de Conformidade e Segurança
 
