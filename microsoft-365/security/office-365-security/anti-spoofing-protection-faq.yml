@@ -16,7 +16,7 @@ metadata:
   ms.collection:
   - M365-security-compliance
   - m365initiative-defender-office365
-  description: Os administradores podem exibir perguntas e respostas frequentes sobre a proteção anti-spoofing no Exchange Online Protection (EOP).
+  description: Os administradores podem exibir perguntas e respostas frequentes sobre a proteção anti-spoofing no Proteção do Exchange Online (EOP).
   ms.technology: mdo
   ms.prod: m365-security
   ms.openlocfilehash: cab4af2dd359b878cdf417a2378c05d2aa706107
@@ -39,7 +39,7 @@ summary: >
   - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
-  Este artigo fornece perguntas e respostas frequentes sobre a proteção anti-spoofing para organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online.
+  Este artigo fornece perguntas e respostas frequentes sobre a proteção anti-spoofing para organizações de Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas Proteção do Exchange Online (EOP) sem Exchange Online caixas de correio.
 
 
   Para obter perguntas e respostas sobre a proteção anti-spam, consulte Perguntas frequentes sobre proteção [anti-spam.](anti-spam-protection-faq.yml)
@@ -61,9 +61,9 @@ sections:
 
       A própria Microsoft adotou pela primeira vez os novos requisitos de autenticação de email várias semanas antes de implantá-lo aos clientes. Embora tenha havido dificuldades no início, elas diminuíram gradualmente.
   - question: >
-      A inteligência de spoof está disponível para clientes do Microsoft 365 sem o Defender para Office 365?
+      A inteligência de spoof está disponível para clientes Microsoft 365 sem o Defender para Office 365?
     answer: >
-      Sim. A partir de outubro de 2018, a inteligência de spoof está disponível para todas as organizações com caixas de correio no Exchange Online e organizações EOP autônomas sem caixas de correio do Exchange Online.
+      Sim. A partir de outubro de 2018, a inteligência de spoof está disponível para todas as organizações com caixas de correio no Exchange Online e organizações EOP autônomas sem Exchange Online caixas de correio.
   - question: >
       Como relatar mensagens de spam ou não spam para a Microsoft?
     answer: >

@@ -16,261 +16,233 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem aprender a usar o portal Envios no Centro de Conformidade de Segurança & para enviar emails suspeitos, emails suspeitos de phishing, spam e outras mensagens potencialmente prejudiciais, URLs e arquivos para a Microsoft para verificação.
+description: Os administradores podem aprender a usar o portal Envios no portal do Microsoft 365 Defender para enviar emails suspeitos, emails suspeitos de phishing, spam e outras mensagens potencialmente prejudiciais, URLs e anexos de email para a Microsoft para análise de novo.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d0b91808aa9008f467f66b8200f2c05a120fbcd9
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 5e2fc859ea7df5e85ef65d1ad6f2a09f8806dd58
+ms.sourcegitcommit: d0c160e89e17f451199bc4a85699effd2d935213
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107225"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52893747"
 ---
-# <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a><span data-ttu-id="5f1b3-103">Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft</span><span class="sxs-lookup"><span data-stu-id="5f1b3-103">Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft</span></span>
+# <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a><span data-ttu-id="70972-103">Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft</span><span class="sxs-lookup"><span data-stu-id="70972-103">Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-<span data-ttu-id="5f1b3-104">**Aplica-se a**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-104">**Applies to**</span></span>
-- [<span data-ttu-id="5f1b3-105">Proteção do Exchange Online</span><span class="sxs-lookup"><span data-stu-id="5f1b3-105">Exchange Online Protection</span></span>](exchange-online-protection-overview.md)
-- [<span data-ttu-id="5f1b3-106">Plano 1 e plano 2 do Microsoft Defender para Office 365</span><span class="sxs-lookup"><span data-stu-id="5f1b3-106">Microsoft Defender for Office 365 plan 1 and plan 2</span></span>](defender-for-office-365.md)
+<span data-ttu-id="70972-104">**Aplica-se a**</span><span class="sxs-lookup"><span data-stu-id="70972-104">**Applies to**</span></span>
+- [<span data-ttu-id="70972-105">Proteção do Exchange Online</span><span class="sxs-lookup"><span data-stu-id="70972-105">Exchange Online Protection</span></span>](exchange-online-protection-overview.md)
+- [<span data-ttu-id="70972-106">Plano 1 e plano 2 do Microsoft Defender para Office 365</span><span class="sxs-lookup"><span data-stu-id="70972-106">Microsoft Defender for Office 365 plan 1 and plan 2</span></span>](defender-for-office-365.md)
 
 
-<span data-ttu-id="5f1b3-107">Em Microsoft 365 organizações com caixas de correio no Exchange Online, os administradores podem usar o portal Envios no Centro de Conformidade & Segurança para enviar mensagens de email, URLs e anexos à Microsoft para verificação.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-107">In Microsoft 365 organizations with mailboxes in Exchange Online, admins can use the Submissions portal in the Security & Compliance Center to submit email messages, URLs, and attachments to Microsoft for scanning.</span></span>
+<span data-ttu-id="70972-107">Em Microsoft 365 organizações com caixas de correio Exchange Online, os administradores podem usar o portal Envios no portal do Microsoft 365 Defender para enviar mensagens de email, URLs e anexos à Microsoft para verificação.</span><span class="sxs-lookup"><span data-stu-id="70972-107">In Microsoft 365 organizations with Exchange Online mailboxes, admins can use the Submissions portal in the Microsoft 365 Defender portal to submit email messages, URLs, and attachments to Microsoft for scanning.</span></span>
 
-<span data-ttu-id="5f1b3-108">Ao enviar uma mensagem de email, você receberá:</span><span class="sxs-lookup"><span data-stu-id="5f1b3-108">When you submit an email message, you will get:</span></span>
+<span data-ttu-id="70972-108">Ao enviar uma mensagem de email, você receberá:</span><span class="sxs-lookup"><span data-stu-id="70972-108">When you submit an email message, you will get:</span></span>
 
-1. <span data-ttu-id="5f1b3-109">**Verificação de autenticação de** email : Detalhes sobre se a autenticação de email passou ou falhou quando ela foi entregue.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-109">**Email authentication check**: Details on whether email authentication passed or failed when it was delivered.</span></span>
-2. <span data-ttu-id="5f1b3-110">**Visitas de política**: informações sobre quaisquer políticas que possam ter permitido ou bloqueado o email de entrada em seu locatário, substituindo nossos vereditos de filtro de serviço.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-110">**Policy hits**: Information about any policies that may have allowed or blocked the incoming email into your tenant, overriding our service filter verdicts.</span></span>
-3. <span data-ttu-id="5f1b3-111">**Reputação/detonação** de carga : Exame de quaisquer URLs e anexos na mensagem.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-111">**Payload reputation/detonation**: Examination of any URLs and attachments in the message.</span></span>
-4. <span data-ttu-id="5f1b3-112">**Análise de notas**: Revisão feita por alunos de nível humano para confirmar se as mensagens são mal-intencionadas ou não.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-112">**Grader analysis**: Review done by human graders in order to confirm whether or not messages are malicious.</span></span>
+- <span data-ttu-id="70972-109">**Verificação de autenticação de** email : Detalhes sobre se a autenticação de email passou ou falhou quando ela foi entregue.</span><span class="sxs-lookup"><span data-stu-id="70972-109">**Email authentication check**: Details on whether email authentication passed or failed when it was delivered.</span></span>
+- <span data-ttu-id="70972-110">**Visitas de política**: informações sobre quaisquer políticas que possam ter permitido ou bloqueado o email de entrada em seu locatário, substituindo nossos vereditos de filtro de serviço.</span><span class="sxs-lookup"><span data-stu-id="70972-110">**Policy hits**: Information about any policies that may have allowed or blocked the incoming email into your tenant, overriding our service filter verdicts.</span></span>
+- <span data-ttu-id="70972-111">**Reputação/detonação** de carga : Exame de quaisquer URLs e anexos na mensagem.</span><span class="sxs-lookup"><span data-stu-id="70972-111">**Payload reputation/detonation**: Examination of any URLs and attachments in the message.</span></span>
+- <span data-ttu-id="70972-112">**Análise de notas**: Revisão feita por alunos de nível humano para confirmar se as mensagens são mal-intencionadas ou não.</span><span class="sxs-lookup"><span data-stu-id="70972-112">**Grader analysis**: Review done by human graders in order to confirm whether or not messages are malicious.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="5f1b3-113">A análise de reputação/detonação e classificação de carga não é feita em todos os locatários.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-113">Payload reputation/detonation and grader analysis are not done in all tenants.</span></span> <span data-ttu-id="5f1b3-114">As informações são impedidas de sair da organização quando os dados não devem sair do limite do locatário para fins de conformidade.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-114">Information is blocked from going outside the organization when data is not supposed to leave the tenant boundary for compliance purposes.</span></span>
+> <span data-ttu-id="70972-113">A análise de reputação/detonação e classificação de carga não é feita em todos os locatários.</span><span class="sxs-lookup"><span data-stu-id="70972-113">Payload reputation/detonation and grader analysis are not done in all tenants.</span></span> <span data-ttu-id="70972-114">As informações são impedidas de sair da organização quando os dados não devem sair do limite do locatário para fins de conformidade.</span><span class="sxs-lookup"><span data-stu-id="70972-114">Information is blocked from going outside the organization when data is not supposed to leave the tenant boundary for compliance purposes.</span></span>
 
-<span data-ttu-id="5f1b3-115">Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, consulte [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).</span><span class="sxs-lookup"><span data-stu-id="5f1b3-115">For other ways to submit email messages, URLs, and attachments to Microsoft, see [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).</span></span>
+<span data-ttu-id="70972-115">Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, consulte [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).</span><span class="sxs-lookup"><span data-stu-id="70972-115">For other ways to submit email messages, URLs, and attachments to Microsoft, see [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).</span></span>
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="5f1b3-116">Do que você precisa saber para começar?</span><span class="sxs-lookup"><span data-stu-id="5f1b3-116">What do you need to know before you begin?</span></span>
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="70972-116">Do que você precisa saber para começar?</span><span class="sxs-lookup"><span data-stu-id="70972-116">What do you need to know before you begin?</span></span>
 
-- <span data-ttu-id="5f1b3-117">Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-117">You open the Security & Compliance Center at <https://protection.office.com/>.</span></span> <span data-ttu-id="5f1b3-118">Para ir diretamente para a página **Envio,** use <https://protection.office.com/reportsubmission> .</span><span class="sxs-lookup"><span data-stu-id="5f1b3-118">To go directly to the **Submission** page, use <https://protection.office.com/reportsubmission>.</span></span>
+- <span data-ttu-id="70972-117">Você abre o portal Microsoft 365 Defender em <https://security.microsoft.com/> .</span><span class="sxs-lookup"><span data-stu-id="70972-117">You open the Microsoft 365 Defender portal at <https://security.microsoft.com/>.</span></span> <span data-ttu-id="70972-118">Para ir diretamente para a página **Envios,** use <https://security.microsoft.com/reportsubmission> .</span><span class="sxs-lookup"><span data-stu-id="70972-118">To go directly to the **Submissions** page, use <https://security.microsoft.com/reportsubmission>.</span></span>
 
-- <span data-ttu-id="5f1b3-119">Para enviar mensagens e arquivos para a Microsoft, você precisa ser membro de um dos seguintes grupos de função:</span><span class="sxs-lookup"><span data-stu-id="5f1b3-119">To submit messages and files to Microsoft, you need to be a member of one of the following role groups:</span></span>
+- <span data-ttu-id="70972-119">Para enviar mensagens e arquivos para a Microsoft, você precisa ser membro de um dos seguintes grupos de função:</span><span class="sxs-lookup"><span data-stu-id="70972-119">To submit messages and files to Microsoft, you need to be a member of one of the following role groups:</span></span>
+  - <span data-ttu-id="70972-120">**Gerenciamento da** organização **ou leitor de** segurança no portal Microsoft 365 [Defender](permissions-microsoft-365-security-center.md).</span><span class="sxs-lookup"><span data-stu-id="70972-120">**Organization Management** or **Security Reader** in the [Microsoft 365 Defender portal](permissions-microsoft-365-security-center.md).</span></span>
+  - <span data-ttu-id="70972-121">**Gerenciamento de organização** em [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).</span><span class="sxs-lookup"><span data-stu-id="70972-121">**Organization Management** in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).</span></span>
 
-  - <span data-ttu-id="5f1b3-120">**Gerenciamento da** organização **ou leitor de segurança** no Centro de Conformidade & [Segurança.](permissions-in-the-security-and-compliance-center.md)</span><span class="sxs-lookup"><span data-stu-id="5f1b3-120">**Organization Management** or **Security Reader** in the [Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span>
+    <span data-ttu-id="70972-122">Observe que a associação neste grupo de funções é necessária para Exibir [envios](#view-user-submissions-to-microsoft) de usuário para a caixa de correio personalizada conforme descrito posteriormente neste artigo.</span><span class="sxs-lookup"><span data-stu-id="70972-122">Note that membership in this role group is required to [View user submissions to the custom mailbox](#view-user-submissions-to-microsoft) as described later in this article.</span></span>
 
-  - <span data-ttu-id="5f1b3-121">**Gerenciamento de organização** em [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).</span><span class="sxs-lookup"><span data-stu-id="5f1b3-121">**Organization Management** in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).</span></span>
+- <span data-ttu-id="70972-123">Para obter mais informações sobre como os usuários podem enviar mensagens e arquivos para a Microsoft, consulte [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).</span><span class="sxs-lookup"><span data-stu-id="70972-123">For more information about how users can submit messages and files to Microsoft, see [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).</span></span>
 
-    <span data-ttu-id="5f1b3-122">Observe que a associação neste grupo de funções é necessária para Exibir [envios](#view-user-submissions-to-the-custom-mailbox) de usuário para a caixa de correio personalizada conforme descrito posteriormente neste artigo.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-122">Note that membership in this role group is required to [View user submissions to the custom mailbox](#view-user-submissions-to-the-custom-mailbox) as described later in this article.</span></span>
+## <a name="report-suspicious-content-to-microsoft"></a><span data-ttu-id="70972-124">Relatar conteúdo suspeito à Microsoft</span><span class="sxs-lookup"><span data-stu-id="70972-124">Report suspicious content to Microsoft</span></span>
 
-- <span data-ttu-id="5f1b3-123">Para obter mais informações sobre como os usuários podem enviar mensagens e arquivos para a Microsoft, consulte [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).</span><span class="sxs-lookup"><span data-stu-id="5f1b3-123">For more information about how users can submit messages and files to Microsoft, see [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).</span></span>
+1. <span data-ttu-id="70972-125">No portal Microsoft 365 Defender, acesse **Email &** \> **envios de colaboração.**</span><span class="sxs-lookup"><span data-stu-id="70972-125">In the Microsoft 365 Defender portal, go to **Email & collaboration** \> **Submissions**.</span></span>
 
-## <a name="report-suspicious-content-to-microsoft"></a><span data-ttu-id="5f1b3-124">Relatar conteúdo suspeito à Microsoft</span><span class="sxs-lookup"><span data-stu-id="5f1b3-124">Report suspicious content to Microsoft</span></span>
+2. <span data-ttu-id="70972-126">Na página **Envios,** verifique se a guia **Enviado** para análise está selecionada e clique em Ícone de ad Enviar para ![ a Microsoft para ](../../media/m365-cc-sc-create-icon.png) **análise**.</span><span class="sxs-lookup"><span data-stu-id="70972-126">On the **Submissions** page, verify that the **Submitted for analysis** tab is selected, and then click ![Ad icon](../../media/m365-cc-sc-create-icon.png) **Submit to Microsoft for analysis**.</span></span>
 
-1. <span data-ttu-id="5f1b3-125">Na Central de Conformidade & segurança,  vá para Envios de gerenciamento de ameaças , verifique se você está na guia \>  **Envios de** administrador e clique em **Novo envio**.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-125">In the Security & Compliance Center, go to **Threat management** \> **Submissions**, verify that you're on the **Admin submissions** tab, and then click **New submission**.</span></span>
+3. <span data-ttu-id="70972-127">Use o sub-sub-texto Enviar para **a Microsoft** para revisão que parece enviar a mensagem, a URL ou o anexo de email, conforme descrito nas seções a seguir.</span><span class="sxs-lookup"><span data-stu-id="70972-127">Use the **Submit to Microsoft for review** flyout that appears to submit the message, URL, or email attachment as described in the following sections.</span></span>
 
-2. <span data-ttu-id="5f1b3-126">Use Novo sub-sub-sub-texto de envio que aparece para enviar a mensagem, a URL ou o anexo, conforme descrito nas seções a seguir. </span><span class="sxs-lookup"><span data-stu-id="5f1b3-126">Use **New submission** flyout that appears to submit the message, URL, or attachment as described in the following sections.</span></span>
+### <a name="submit-a-questionable-email-to-microsoft"></a><span data-ttu-id="70972-128">Enviar um email questionável à Microsoft</span><span class="sxs-lookup"><span data-stu-id="70972-128">Submit a questionable email to Microsoft</span></span>
 
-### <a name="submit-a-questionable-email-to-microsoft"></a><span data-ttu-id="5f1b3-127">Enviar um email questionável à Microsoft</span><span class="sxs-lookup"><span data-stu-id="5f1b3-127">Submit a questionable email to Microsoft</span></span>
+1. <span data-ttu-id="70972-129">Na caixa **Selecionar o tipo de** envio, verifique se **Email** está selecionado na lista lista listada.</span><span class="sxs-lookup"><span data-stu-id="70972-129">In the **Select the submission type** box, verify that **Email** is selected in the drop down list.</span></span>
 
-1. <span data-ttu-id="5f1b3-128">Na seção **Tipo de** objeto, selecione **Email**.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-128">In the **Object type** section, select **Email**.</span></span> <span data-ttu-id="5f1b3-129">Na seção **Formato de envio,** use uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="5f1b3-129">In the **Submission format** section, use one of the following options:</span></span>
-
-   - <span data-ttu-id="5f1b3-130">**ID** da mensagem de rede : este é um valor GUID que está disponível no header **X-MS-Exchange-Organization-Network-Message-Id** na mensagem ou no header **X-MS-Office365-Filtering-Correlation-Id** em mensagens em quarentena.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-130">**Network Message ID**: This is a GUID value that's available in the **X-MS-Exchange-Organization-Network-Message-Id** header in the message, or in the **X-MS-Office365-Filtering-Correlation-Id** header in quarantined messages.</span></span>
-
-   - <span data-ttu-id="5f1b3-131">**Arquivo**: clique **em Escolher arquivo**.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-131">**File**: Click **Choose file**.</span></span> <span data-ttu-id="5f1b3-132">Na caixa de diálogo que é aberta, encontre e selecione o arquivo .eml ou .msg e clique em **Abrir**.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-132">In the dialog that opens, find and select the .eml or .msg file, and then click **Open**.</span></span>
+2. <span data-ttu-id="70972-130">Na seção **Adicionar a ID da** mensagem de rede ou carregar o arquivo de email, use uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="70972-130">In the **Add the network message ID or upload the email file** section, use one of the following options:</span></span>
+   - <span data-ttu-id="70972-131">Adicionar a **ID** da mensagem de rede de email : Este é um valor GUID que está disponível no header **X-MS-Exchange-Organization-Network-Message-Id** na mensagem ou no **header X-MS-Office365-Filtering-Correlation-Id** em mensagens em quarentena.</span><span class="sxs-lookup"><span data-stu-id="70972-131">**Add the email network message ID**: This is a GUID value that's available in the **X-MS-Exchange-Organization-Network-Message-Id** header in the message or in the **X-MS-Office365-Filtering-Correlation-Id** header in quarantined messages.</span></span>
+   - <span data-ttu-id="70972-132">**Upload arquivo de email (.msg ou .eml)**: Clique em **Procurar arquivos**.</span><span class="sxs-lookup"><span data-stu-id="70972-132">**Upload the email file (.msg or .eml)**: Click **Browse files**.</span></span> <span data-ttu-id="70972-133">Na caixa de diálogo que é aberta, encontre e selecione o arquivo .eml ou .msg e clique em **Abrir**.</span><span class="sxs-lookup"><span data-stu-id="70972-133">In the dialog that opens, find and select the .eml or .msg file, and then click **Open**.</span></span>
 
    > [!NOTE]
-   > <span data-ttu-id="5f1b3-133">A capacidade de enviar mensagens com até 30 dias foi temporariamente suspensa para o Defender Office 365 clientes.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-133">The ability to submit messages as old as 30 days has been temporarily suspended for Defender for Office 365 customers.</span></span> <span data-ttu-id="5f1b3-134">Os administradores só poderão voltar 7 dias.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-134">Admins will only be able to go back 7 days.</span></span>
+   > <span data-ttu-id="70972-134">A capacidade de enviar mensagens com até 30 dias foi temporariamente suspensa para o Defender Office 365 clientes.</span><span class="sxs-lookup"><span data-stu-id="70972-134">The ability to submit messages as old as 30 days has been temporarily suspended for Defender for Office 365 customers.</span></span> <span data-ttu-id="70972-135">Os administradores só poderão voltar 7 dias.</span><span class="sxs-lookup"><span data-stu-id="70972-135">Admins will only be able to go back 7 days.</span></span>
 
-2. <span data-ttu-id="5f1b3-135">Na seção **Destinatários,** especifique um ou mais destinatários com os quais você gostaria de executar uma verificação de política.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-135">In the **Recipients** section, specify one or more recipients that you would like to run a policy check against.</span></span> <span data-ttu-id="5f1b3-136">A verificação de política determinará se o email foi ignorado devido a políticas de usuário ou organização.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-136">The policy check will determine if the email bypassed scanning due to user or organization policies.</span></span>
+3. <span data-ttu-id="70972-136">Na caixa **Escolher um destinatário que tinha um** problema, especifique o destinatário com o qual você gostaria de executar uma verificação de política.</span><span class="sxs-lookup"><span data-stu-id="70972-136">In the **Choose a recipient who had an issue** box, specify the recipient that you would like to run a policy check against.</span></span> <span data-ttu-id="70972-137">A verificação de política determinará se o email foi ignorado devido a políticas de usuário ou organização.</span><span class="sxs-lookup"><span data-stu-id="70972-137">The policy check will determine if the email bypassed scanning due to user or organization policies.</span></span>
 
-3. <span data-ttu-id="5f1b3-137">Na seção **Motivo do envio,** selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="5f1b3-137">In the **Reason for submission** section, select one of the following options:</span></span>
+4. <span data-ttu-id="70972-138">Na seção **Selecionar um motivo para enviar à Microsoft,** selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="70972-138">In the **Select a reason for submitting to Microsoft** section, select one of the following options:</span></span>
+   - <span data-ttu-id="70972-139">**Não deve ter sido bloqueado (falso positivo)**</span><span class="sxs-lookup"><span data-stu-id="70972-139">**Should not have been blocked (false positive)**</span></span>
+   - <span data-ttu-id="70972-140">**Deve ter sido** bloqueado : Na seção O email deve ter sido **categorizado** como exibido, selecione um dos seguintes valores (se você não tiver certeza, use seu melhor julgamento):</span><span class="sxs-lookup"><span data-stu-id="70972-140">**Should have been blocked**: In the **The email should have been categorized as** section that appears, select one of the following values (if you're not sure, use your best judgement):</span></span>
+     - <span data-ttu-id="70972-141">**Golpe**</span><span class="sxs-lookup"><span data-stu-id="70972-141">**Phish**</span></span>
+     - <span data-ttu-id="70972-142">**Spam**</span><span class="sxs-lookup"><span data-stu-id="70972-142">**Spam**</span></span>
+     - <span data-ttu-id="70972-143">**Malware**</span><span class="sxs-lookup"><span data-stu-id="70972-143">**Malware**</span></span>
 
-   - <span data-ttu-id="5f1b3-138">**Não deve ter sido bloqueado**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-138">**Should not have been blocked**</span></span>
-
-   - <span data-ttu-id="5f1b3-139">**Deve ter sido bloqueado**: Selecione **Spam,** **Phishing** ou **Malware**.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-139">**Should have been blocked**: Select **Spam**, **Phishing**, or **Malware**.</span></span> <span data-ttu-id="5f1b3-140">Se você não tiver certeza, use seu melhor julgamento.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-140">If you're not sure, use your best judgment.</span></span>
-
-4. <span data-ttu-id="5f1b3-141">Quando terminar, clique no **botão Enviar.**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-141">When you're finished, click the **Submit** button.</span></span>
+5. <span data-ttu-id="70972-144">Quando terminar, clique no **botão Enviar.**</span><span class="sxs-lookup"><span data-stu-id="70972-144">When you're finished, click the **Submit** button.</span></span>
 
    ![Novo exemplo de envio de URL](../../media/submission-flyout-email.PNG)
 
-### <a name="send-a-suspect-url-to-microsoft"></a><span data-ttu-id="5f1b3-143">Enviar uma URL suspeita para a Microsoft</span><span class="sxs-lookup"><span data-stu-id="5f1b3-143">Send a suspect URL to Microsoft</span></span>
+### <a name="send-a-suspect-url-to-microsoft"></a><span data-ttu-id="70972-146">Enviar uma URL suspeita para a Microsoft</span><span class="sxs-lookup"><span data-stu-id="70972-146">Send a suspect URL to Microsoft</span></span>
 
-1. <span data-ttu-id="5f1b3-144">Na seção **Tipo de** objeto, selecione **URL**.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-144">In the **Object type** section, select **URL**.</span></span> <span data-ttu-id="5f1b3-145">Na caixa exibida, insira a URL completa (por exemplo, `https://www.fabrikam.com/marketing.html` ).</span><span class="sxs-lookup"><span data-stu-id="5f1b3-145">In the box that appears, enter the full URL (for example, `https://www.fabrikam.com/marketing.html`).</span></span>
+1. <span data-ttu-id="70972-147">Na caixa **Selecionar o tipo de** envio, selecione **URL** na lista lista listada.</span><span class="sxs-lookup"><span data-stu-id="70972-147">In the **Select the submission type** box, select **URL** from the drop down list.</span></span>
 
-2. <span data-ttu-id="5f1b3-146">Na seção **Motivo do envio,** selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="5f1b3-146">In the **Reason for submission** section, select one of the following options:</span></span>
+2. <span data-ttu-id="70972-148">Na caixa **URL** exibida, insira a URL completa (por exemplo, `https://www.fabrikam.com/marketing.html` ).</span><span class="sxs-lookup"><span data-stu-id="70972-148">In the **URL** box that appears, enter the full URL (for example, `https://www.fabrikam.com/marketing.html`).</span></span>
 
-   - <span data-ttu-id="5f1b3-147">**Não deve ter sido bloqueado**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-147">**Should not have been blocked**</span></span>
+3. <span data-ttu-id="70972-149">Na seção **Selecionar um motivo para enviar à Microsoft,** selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="70972-149">In the **Select a reason for submitting to Microsoft** section, select one of the following options:</span></span>
+   - <span data-ttu-id="70972-150">**Não deve ter sido bloqueado (falso positivo)**</span><span class="sxs-lookup"><span data-stu-id="70972-150">**Should not have been blocked (false positive)**</span></span>
+   - <span data-ttu-id="70972-151">**Deve ter sido bloqueado**: Na seção Essa URL deve ter sido **categorizada** como exibida, selecione **Phish** ou **Malware**.</span><span class="sxs-lookup"><span data-stu-id="70972-151">**Should have been blocked**: In the **This URL should have been categorized as** section that appears, select **Phish** or **Malware**.</span></span>
 
-   - <span data-ttu-id="5f1b3-148">**Deve ter sido bloqueado**: Selecione **Phishing** ou **Malware.**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-148">**Should have been blocked**: Select **Phishing** or **Malware**.</span></span>
-
-3. <span data-ttu-id="5f1b3-149">Quando terminar, clique no **botão Enviar.**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-149">When you're finished, click the **Submit** button.</span></span>
+4. <span data-ttu-id="70972-152">Quando terminar, clique no **botão Enviar.**</span><span class="sxs-lookup"><span data-stu-id="70972-152">When you're finished, click the **Submit** button.</span></span>
 
    ![Novo exemplo de envio de email](../../media/submission-url-flyout.png)
 
-### <a name="submit-a-suspected-file-to-microsoft"></a><span data-ttu-id="5f1b3-151">Enviar um arquivo suspeito à Microsoft</span><span class="sxs-lookup"><span data-stu-id="5f1b3-151">Submit a suspected file to Microsoft</span></span>
+### <a name="submit-a-suspected-email-attachment-to-microsoft"></a><span data-ttu-id="70972-154">Enviar um anexo de email suspeito à Microsoft</span><span class="sxs-lookup"><span data-stu-id="70972-154">Submit a suspected email attachment to Microsoft</span></span>
 
-1. <span data-ttu-id="5f1b3-152">Na seção **Tipo de** objeto, selecione **Anexo**.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-152">In the **Object type** section, select **Attachment**.</span></span>
+1. <span data-ttu-id="70972-155">Na caixa **Selecionar o tipo de** envio, selecione **Arquivo** na lista lista listada.</span><span class="sxs-lookup"><span data-stu-id="70972-155">In the **Select the submission type** box, select **File** from the drop down list.</span></span>
 
-2. <span data-ttu-id="5f1b3-153">Clique **em Escolher Arquivo**.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-153">Click **Choose File**.</span></span> <span data-ttu-id="5f1b3-154">Na caixa de diálogo que é aberta, encontre e selecione o arquivo e clique em **Abrir**.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-154">In the dialog that opens, find and select the file, and then click **Open**.</span></span>
+2. <span data-ttu-id="70972-156">Na seção **Arquivo** que aparece, clique em **Procurar arquivos**.</span><span class="sxs-lookup"><span data-stu-id="70972-156">In the **File** section that appears, click **Browse files**.</span></span> <span data-ttu-id="70972-157">Na caixa de diálogo que é aberta, encontre e selecione o arquivo e clique em **Abrir**.</span><span class="sxs-lookup"><span data-stu-id="70972-157">In the dialog that opens, find and select the file, and then click **Open**.</span></span>
 
-3. <span data-ttu-id="5f1b3-155">Na seção **Motivo do envio,** selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="5f1b3-155">In the **Reason for submission** section, select one of the following options:</span></span>
+3. <span data-ttu-id="70972-158">Na seção **Selecionar um motivo para enviar à Microsoft,** selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="70972-158">In the **Select a reason for submitting to Microsoft** section, select one of the following options:</span></span>
+   - <span data-ttu-id="70972-159">**Não deve ter sido bloqueado (falso positivo)**</span><span class="sxs-lookup"><span data-stu-id="70972-159">**Should not have been blocked (false positive)**</span></span>
+   - <span data-ttu-id="70972-160">**Deve ter sido bloqueado**: Na seção Essa URL deve ter sido **categorizada** como exibida, **Malware** é a única opção e é selecionado automaticamente.</span><span class="sxs-lookup"><span data-stu-id="70972-160">**Should have been blocked**: In the **This URL should have been categorized as** section that appears, **Malware** is the only choice, and is automatically selected.</span></span>
 
-   - <span data-ttu-id="5f1b3-156">**Não deve ter sido bloqueado**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-156">**Should not have been blocked**</span></span>
-
-   - <span data-ttu-id="5f1b3-157">**Deve ter sido bloqueado**: **Malware** é a única opção e é selecionado automaticamente..</span><span class="sxs-lookup"><span data-stu-id="5f1b3-157">**Should have been blocked**: **Malware** is the only choice, and is automatically selected..</span></span>
-
-4. <span data-ttu-id="5f1b3-158">Quando terminar, clique no **botão Enviar.**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-158">When you're finished, click the **Submit** button.</span></span>
+4. <span data-ttu-id="70972-161">Quando terminar, clique no **botão Enviar.**</span><span class="sxs-lookup"><span data-stu-id="70972-161">When you're finished, click the **Submit** button.</span></span>
 
    ![Novo exemplo de envio de anexo](../../media/submission-file-flyout.PNG)
 
-## <a name="view-items-submitted-for-analysis"></a><span data-ttu-id="5f1b3-160">Exibir itens enviados para análise</span><span class="sxs-lookup"><span data-stu-id="5f1b3-160">View items Submitted for analysis</span></span>
+## <a name="view-admin-submissions-to-microsoft"></a><span data-ttu-id="70972-163">Exibir envios de administrador para a Microsoft</span><span class="sxs-lookup"><span data-stu-id="70972-163">View admin submissions to Microsoft</span></span>
 
-<span data-ttu-id="5f1b3-161">No Centro de Conformidade & segurança,  vá para \> **Envios** de gerenciamento de ameaças , verifique se você está na guia **Enviado para** análise</span><span class="sxs-lookup"><span data-stu-id="5f1b3-161">In the Security & Compliance Center, go to **Threat management** \> **Submissions**, verify that you're on the **Submitted for analysis** tab</span></span>
+1. <span data-ttu-id="70972-164">No portal Microsoft 365 Defender, acesse **Email &** \> **envios de colaboração.**</span><span class="sxs-lookup"><span data-stu-id="70972-164">In the Microsoft 365 Defender portal, go to **Email & collaboration** \> **Submissions**.</span></span>
 
-<span data-ttu-id="5f1b3-162">Na parte superior da página, você pode inserir uma data de início, uma data de término e (por padrão) você pode filtrar pela **ID** do Envio (um valor GUID atribuído a cada envio) inserindo um valor na caixa e clicando em Atualizar botão ![ ](../../media/scc-quarantine-refresh.png) .</span><span class="sxs-lookup"><span data-stu-id="5f1b3-162">Near the top of the page, you can enter a start date, an end date, and (by default) you can filter by **Submission ID** (a GUID value that's assigned to every submission) by entering a value in the box and clicking ![Refresh button](../../media/scc-quarantine-refresh.png).</span></span> <span data-ttu-id="5f1b3-163">Update</span><span class="sxs-lookup"><span data-stu-id="5f1b3-163">You can enter multiple values separated by commas.</span></span>
+2. <span data-ttu-id="70972-165">Na página **Envios,** verifique se a **guia Enviado para** análise está selecionada.</span><span class="sxs-lookup"><span data-stu-id="70972-165">On the **Submissions** page, verify that the **Submitted for analysis** tab is selected.</span></span>
 
-<span data-ttu-id="5f1b3-164">Para alterar os critérios de filtro, clique no botão **ID do** Envio e escolha um dos seguintes valores:</span><span class="sxs-lookup"><span data-stu-id="5f1b3-164">To change the filter criteria, click the **Submission ID** button and choose one of the following values:</span></span>
+   - <span data-ttu-id="70972-166">Você pode classificar as entradas clicando em um header de coluna disponível.</span><span class="sxs-lookup"><span data-stu-id="70972-166">You can sort the entries by clicking on an available column header.</span></span> <span data-ttu-id="70972-167">Clique **em Personalizar colunas** para mostrar no máximo sete colunas.</span><span class="sxs-lookup"><span data-stu-id="70972-167">Click **Customize columns** to show a maximum of seven columns.</span></span> <span data-ttu-id="70972-168">Os valores padrão são marcados com um asterisco (<sup>\*</sup>):</span><span class="sxs-lookup"><span data-stu-id="70972-168">The default values are marked with an asterisk (<sup>\*</sup>):</span></span>
+     - <span data-ttu-id="70972-169">**Nome do envio**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="70972-169">**Submission name**<sup>\*</sup></span></span>
+     - <span data-ttu-id="70972-170">**Remetente**<su>\*</sup></span><span class="sxs-lookup"><span data-stu-id="70972-170">**Sender**<su>\*</sup></span></span>
+     - <span data-ttu-id="70972-171">**Data enviada**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="70972-171">**Date submitted**<sup>\*</sup></span></span>
+     - <span data-ttu-id="70972-172">**Tipo de envio**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="70972-172">**Submission type**<sup>\*</sup></span></span>
+     - <span data-ttu-id="70972-173">**Motivo para o envio**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="70972-173">**Reason for submitting**<sup>\*</sup></span></span>
+     - <span data-ttu-id="70972-174">**Status da varredura novamente**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="70972-174">**Rescan status**<sup>\*</sup></span></span>
+     - <span data-ttu-id="70972-175">**Rescan result**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="70972-175">**Rescan result**<sup>\*</sup></span></span>
+     - <span data-ttu-id="70972-176">**Veredito de filtro**</span><span class="sxs-lookup"><span data-stu-id="70972-176">**Filter verdict**</span></span>
+     - <span data-ttu-id="70972-177">**Motivo de entrega/bloqueio**</span><span class="sxs-lookup"><span data-stu-id="70972-177">**Delivery/Block reason**</span></span>
+     - <span data-ttu-id="70972-178">**ID do envio**</span><span class="sxs-lookup"><span data-stu-id="70972-178">**Submission ID**</span></span>
+     - <span data-ttu-id="70972-179">**ID de mensagem de rede/ID do objeto**</span><span class="sxs-lookup"><span data-stu-id="70972-179">**Network Message ID/Object ID**</span></span>
+     - <span data-ttu-id="70972-180">**Direção**</span><span class="sxs-lookup"><span data-stu-id="70972-180">**Direction**</span></span>
+     - <span data-ttu-id="70972-181">**IP do remetente**</span><span class="sxs-lookup"><span data-stu-id="70972-181">**Sender IP**</span></span>
+     - <span data-ttu-id="70972-182">**Nível compatível com massa (BCL)**</span><span class="sxs-lookup"><span data-stu-id="70972-182">**Bulk compliant level (BCL)**</span></span>
+     - <span data-ttu-id="70972-183">**Destino**</span><span class="sxs-lookup"><span data-stu-id="70972-183">**Destination**</span></span>
+     - <span data-ttu-id="70972-184">**Ação de política**</span><span class="sxs-lookup"><span data-stu-id="70972-184">**Policy action**</span></span>
+     - <span data-ttu-id="70972-185">**Enviado por**</span><span class="sxs-lookup"><span data-stu-id="70972-185">**Submitted by**</span></span>
 
-- <span data-ttu-id="5f1b3-165">**Sender**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-165">**Sender**</span></span>
-- <span data-ttu-id="5f1b3-166">**Assunto/URL/Nome do arquivo**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-166">**Subject/URL/File name**</span></span>
-- <span data-ttu-id="5f1b3-167">**Enviado por**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-167">**Submitted by**</span></span>
-- <span data-ttu-id="5f1b3-168">**Tipo de envio**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-168">**Submission type**</span></span>
-- <span data-ttu-id="5f1b3-169">**Status**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-169">**Status**</span></span>
+     <span data-ttu-id="70972-186">Quando terminar, clique em **Aplicar**.</span><span class="sxs-lookup"><span data-stu-id="70972-186">When you're finished, click **Apply**.</span></span>
 
-![Novas opções de Filtro para envios de administrador](../../media/admin-submission-email-filter-options.png)
+   - <span data-ttu-id="70972-187">Para filtrar as entradas, clique em **Filtrar**.</span><span class="sxs-lookup"><span data-stu-id="70972-187">To filter the entries, click **Filter**.</span></span> <span data-ttu-id="70972-188">Os filtros disponíveis são:</span><span class="sxs-lookup"><span data-stu-id="70972-188">The available filters are:</span></span>
+     - <span data-ttu-id="70972-189">**Data enviada**: **Data de início** e data de **término.**</span><span class="sxs-lookup"><span data-stu-id="70972-189">**Date submitted**: **Start date** and **End date**.</span></span>
+     - <span data-ttu-id="70972-190">**Tipo de envio**: **Email,** **URL** ou **Arquivo.**</span><span class="sxs-lookup"><span data-stu-id="70972-190">**Submission type**: **Email**, **URL**, or **File**.</span></span>
+     - <span data-ttu-id="70972-191">**ID do envio:** um valor GUID atribuído a cada envio.</span><span class="sxs-lookup"><span data-stu-id="70972-191">**Submission ID**: A GUID value that's assigned to every submission.</span></span>
+     - <span data-ttu-id="70972-192">**ID da mensagem de rede**</span><span class="sxs-lookup"><span data-stu-id="70972-192">**Network Message ID**</span></span>
+     - <span data-ttu-id="70972-193">**Sender**</span><span class="sxs-lookup"><span data-stu-id="70972-193">**Sender**</span></span>
 
-<span data-ttu-id="5f1b3-171">Para exportar os resultados, clique em **Exportar** próximo à parte superior da página e selecione **Dados de gráfico** ou **Tabela**.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-171">To export the results, click **Export** near the top of the page and select **Chart data** or **Table**.</span></span> <span data-ttu-id="5f1b3-172">Na caixa de diálogo exibida, salve o arquivo .csv arquivo.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-172">In the dialog that appears, save the .csv file.</span></span>
+     <span data-ttu-id="70972-194">Quando terminar, clique em **Aplicar**.</span><span class="sxs-lookup"><span data-stu-id="70972-194">When you're finished, click **Apply**.</span></span>
 
-<span data-ttu-id="5f1b3-173">Abaixo do gráfico, há três guias: **Email** (padrão), **URL** e **Anexo.**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-173">Below the graph, there are three tabs: **Email** (default), **URL**, and **Attachment**.</span></span>
+     ![Novas opções de Filtro para envios de administrador](../../media/admin-submission-email-filter-options.png)
 
-### <a name="view-admin-email-submissions"></a><span data-ttu-id="5f1b3-174">Exibir envios de email do administrador</span><span class="sxs-lookup"><span data-stu-id="5f1b3-174">View admin email submissions</span></span>
+   - <span data-ttu-id="70972-196">Para agrupar as entradas, clique em **Grupo** e selecione um dos seguintes valores na listada:</span><span class="sxs-lookup"><span data-stu-id="70972-196">To group the entries, click **Group** and select one of the following values from the drop down list:</span></span>
+     - <span data-ttu-id="70972-197">**Nenhum**</span><span class="sxs-lookup"><span data-stu-id="70972-197">**None**</span></span>
+     - <span data-ttu-id="70972-198">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="70972-198">**Type**</span></span>
+     - <span data-ttu-id="70972-199">**Motivo**</span><span class="sxs-lookup"><span data-stu-id="70972-199">**Reason**</span></span>
+     - <span data-ttu-id="70972-200">**Status**</span><span class="sxs-lookup"><span data-stu-id="70972-200">**Status**</span></span>
+     - <span data-ttu-id="70972-201">**Rescan result**</span><span class="sxs-lookup"><span data-stu-id="70972-201">**Rescan result**</span></span>
 
-<span data-ttu-id="5f1b3-175">Clique na **guia Email.**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-175">Click the **Email** tab.</span></span>
+   - <span data-ttu-id="70972-202">Para exportar as entradas, clique em **Exportar**.</span><span class="sxs-lookup"><span data-stu-id="70972-202">To export the entries, click **Export**.</span></span> <span data-ttu-id="70972-203">Na caixa de diálogo exibida, salve o arquivo .csv arquivo.</span><span class="sxs-lookup"><span data-stu-id="70972-203">In the dialog that appears, save the .csv file.</span></span>
 
-<span data-ttu-id="5f1b3-176">Você pode clicar no **botão Opções de** coluna perto da parte inferior da página para adicionar ou remover colunas do exibição:</span><span class="sxs-lookup"><span data-stu-id="5f1b3-176">You can click the **Column options** button near the bottom of the page to add or remove columns from the view:</span></span>
+### <a name="admin-submission-rescan-details"></a><span data-ttu-id="70972-204">Detalhes da verificação de envio de administrador</span><span class="sxs-lookup"><span data-stu-id="70972-204">Admin submission rescan details</span></span>
 
-- <span data-ttu-id="5f1b3-177">**Date**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-177">**Date**</span></span>
-- <span data-ttu-id="5f1b3-178">**ID do envio:** um valor GUID atribuído a cada envio.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-178">**Submission ID**: A GUID value that's assigned to every submission.</span></span>
-- <span data-ttu-id="5f1b3-179">**Enviado por**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="5f1b3-179">**Submitted by**<sup>\*</sup></span></span>
-- <span data-ttu-id="5f1b3-180">**Assunto**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="5f1b3-180">**Subject**<sup>\*</sup></span></span>
-- <span data-ttu-id="5f1b3-181">**Sender**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-181">**Sender**</span></span>
-- <span data-ttu-id="5f1b3-182">**IP do remetente**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="5f1b3-182">**Sender IP**<sup>\*</sup></span></span>
-- <span data-ttu-id="5f1b3-183">**Tipo de envio**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-183">**Submission type**</span></span>
-- <span data-ttu-id="5f1b3-184">**Motivo da entrega**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-184">**Delivery reason**</span></span>
-- <span data-ttu-id="5f1b3-185">**Status**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="5f1b3-185">**Status**<sup>\*</sup></span></span>
+<span data-ttu-id="70972-205">As mensagens enviadas em envios de administrador são exibidas novamente e os resultados mostrados no submenu de detalhes de envios:</span><span class="sxs-lookup"><span data-stu-id="70972-205">Messages that are submitted in admin submissions are rescanned and results shown in the submissions detail flyout:</span></span>
 
-  <span data-ttu-id="5f1b3-186"><sup>\*</sup> Se você clicar nesse valor, informações detalhadas serão exibidas em um sobremenu.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-186"><sup>\*</sup> If you click this value, detailed information is displayed in a flyout.</span></span>
+- <span data-ttu-id="70972-206">Se houve falha na autenticação do email do remetente no momento da entrega.</span><span class="sxs-lookup"><span data-stu-id="70972-206">If there was a failure in the sender's email authentication at the time of delivery.</span></span>
+- <span data-ttu-id="70972-207">Informações sobre quaisquer acessos à política que possam ter afetado ou substituído o veredicto de uma mensagem.</span><span class="sxs-lookup"><span data-stu-id="70972-207">Information about any policy hits that could have affected or overridden the verdict of a message.</span></span>
+- <span data-ttu-id="70972-208">Resultados de detonação atuais para ver se os URLs ou arquivos contidos na mensagem eram maliciosos ou não.</span><span class="sxs-lookup"><span data-stu-id="70972-208">Current detonation results to see if the URLs or files contained in the message were malicious or not.</span></span>
+- <span data-ttu-id="70972-209">Comentários dos alunos.</span><span class="sxs-lookup"><span data-stu-id="70972-209">Feedback from graders.</span></span>
 
-#### <a name="admin-submission-rescan-details"></a><span data-ttu-id="5f1b3-187">Detalhes da verificação de envio de administrador</span><span class="sxs-lookup"><span data-stu-id="5f1b3-187">Admin submission rescan details</span></span>
+<span data-ttu-id="70972-210">Se uma substituição for encontrada, a nova varredura deve ser concluída em alguns minutos.</span><span class="sxs-lookup"><span data-stu-id="70972-210">If an override was found, the rescan should complete in several minutes.</span></span> <span data-ttu-id="70972-211">Se não houve um problema na autenticação ou na entrega de email não foi afetado por uma substituição, os comentários dos alunos podem levar até um dia.</span><span class="sxs-lookup"><span data-stu-id="70972-211">If there wasn't a problem in email authentication or delivery wasn't affected by an override, then the feedback from graders could take up to a day.</span></span>
 
-<span data-ttu-id="5f1b3-188">As mensagens enviadas em envios de administrador são rescanned e os resultados mostrados no submenu de detalhes:</span><span class="sxs-lookup"><span data-stu-id="5f1b3-188">Messages that are submitted in admin submissions are rescanned and results shown in the details flyout:</span></span>
+## <a name="view-user-submissions-to-microsoft"></a><span data-ttu-id="70972-212">Exibir envios de usuários para a Microsoft</span><span class="sxs-lookup"><span data-stu-id="70972-212">View user submissions to Microsoft</span></span>
 
-- <span data-ttu-id="5f1b3-189">Se houve falha na autenticação do email do remetente no momento da entrega.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-189">If there was a failure in the sender's email authentication at the time of delivery.</span></span>
-- <span data-ttu-id="5f1b3-190">Informações sobre quaisquer acessos à política que possam ter afetado ou substituído o veredicto de uma mensagem.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-190">Information about any policy hits that could have affected or overridden the verdict of a message.</span></span>
-- <span data-ttu-id="5f1b3-191">Resultados de detonação atuais para ver se os URLs ou arquivos contidos na mensagem eram maliciosos ou não.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-191">Current detonation results to see if the URLs or files contained in the message were malicious or not.</span></span>
-- <span data-ttu-id="5f1b3-192">Comentários dos alunos.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-192">Feedback from graders.</span></span>
+<span data-ttu-id="70972-213">Se você tiver implantado o [add-in](enable-the-report-message-add-in.md)De Mensagem de Relatório, o complemento Relatar [Phishing](enable-the-report-phish-add-in.md)ou as pessoas usarem o relatório integrado  no Outlook na [Web,](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)você poderá ver quais usuários estão relatando na guia Mensagem relatada pelo usuário.</span><span class="sxs-lookup"><span data-stu-id="70972-213">If you've deployed the [Report Message add-in](enable-the-report-message-add-in.md), the [Report Phishing add-in](enable-the-report-phish-add-in.md), or people use the [built-in reporting in Outlook on the web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md), you can see what users are reporting on the **User reported message** tab.</span></span>
 
-<span data-ttu-id="5f1b3-193">Se uma substituição for encontrada, a nova varredura deve ser concluída em alguns minutos.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-193">If an override was found, the rescan should complete in several minutes.</span></span> <span data-ttu-id="5f1b3-194">Se não houve um problema na autenticação ou na entrega de email não foi afetado por uma substituição, os comentários dos alunos podem levar até um dia.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-194">If there wasn't a problem in email authentication or delivery wasn't affected by an override, then the feedback from graders could take up to a day.</span></span>
+1. <span data-ttu-id="70972-214">No portal Microsoft 365 Defender, acesse **Email &** \> **envios de colaboração.**</span><span class="sxs-lookup"><span data-stu-id="70972-214">In the Microsoft 365 Defender portal, go to **Email & collaboration** \> **Submissions**.</span></span>
 
-### <a name="view-admin-url-submissions"></a><span data-ttu-id="5f1b3-195">Exibir envios de URL do administrador</span><span class="sxs-lookup"><span data-stu-id="5f1b3-195">View admin URL submissions</span></span>
+2. <span data-ttu-id="70972-215">Na página **Envios,** selecione a **guia Mensagens relatadas pelo** usuário.</span><span class="sxs-lookup"><span data-stu-id="70972-215">On the **Submissions** page, select the **User reported messages** tab.</span></span>
 
-<span data-ttu-id="5f1b3-196">Clique na **guia URL.**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-196">Click the **URL** tab.</span></span>
+   - <span data-ttu-id="70972-216">Você pode classificar as entradas clicando em um header de coluna disponível.</span><span class="sxs-lookup"><span data-stu-id="70972-216">You can sort the entries by clicking on an available column header.</span></span> <span data-ttu-id="70972-217">Clique **em Personalizar colunas** para mostrar no máximo sete colunas.</span><span class="sxs-lookup"><span data-stu-id="70972-217">Click **Customize columns** to show a maximum of seven columns.</span></span> <span data-ttu-id="70972-218">Os valores padrão são marcados com um asterisco (<sup>\*</sup>):</span><span class="sxs-lookup"><span data-stu-id="70972-218">The default values are marked with an asterisk (<sup>\*</sup>):</span></span>
 
-<span data-ttu-id="5f1b3-197">Você pode clicar no **botão Opções de** coluna perto da parte inferior da página para adicionar ou remover colunas do exibição:</span><span class="sxs-lookup"><span data-stu-id="5f1b3-197">You can click the **Column options** button near the bottom of the page to add or remove columns from the view:</span></span>
+     - <span data-ttu-id="70972-219">**Assunto de email**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="70972-219">**Email subject**<sup>\*</sup></span></span>
+     - <span data-ttu-id="70972-220">**Relatado por**<su>\*</sup></span><span class="sxs-lookup"><span data-stu-id="70972-220">**Reported by**<su>\*</sup></span></span>
+     - <span data-ttu-id="70972-221">**Data relatada**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="70972-221">**Date reported**<sup>\*</sup></span></span>
+     - <span data-ttu-id="70972-222">**Remetente**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="70972-222">**Sender**<sup>\*</sup></span></span>
+     - <span data-ttu-id="70972-223">**Motivo relatado**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="70972-223">**Reported reason**<sup>\*</sup></span></span>
+     - <span data-ttu-id="70972-224">**Rescan result**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="70972-224">**Rescan result**<sup>\*</sup></span></span>
+     - <span data-ttu-id="70972-225">**ID da mensagem relatada**</span><span class="sxs-lookup"><span data-stu-id="70972-225">**Message reported ID**</span></span>
+     - <span data-ttu-id="70972-226">**ID da mensagem de rede**</span><span class="sxs-lookup"><span data-stu-id="70972-226">**Network Message ID**</span></span>
+     - <span data-ttu-id="70972-227">**IP do remetente**</span><span class="sxs-lookup"><span data-stu-id="70972-227">**Sender IP**</span></span>
+     - <span data-ttu-id="70972-228">**Simulação de phishing**</span><span class="sxs-lookup"><span data-stu-id="70972-228">**Phish simulation**</span></span>
 
-- <span data-ttu-id="5f1b3-198">**Date**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-198">**Date**</span></span>
-- <span data-ttu-id="5f1b3-199">**ID do envio**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-199">**Submission ID**</span></span>
-- <span data-ttu-id="5f1b3-200">**Enviado por**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="5f1b3-200">**Submitted by**<sup>\*</sup></span></span>
-- <span data-ttu-id="5f1b3-201">**URL**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="5f1b3-201">**URL**<sup>\*</sup></span></span>
-- <span data-ttu-id="5f1b3-202">**Tipo de envio**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-202">**Submission type**</span></span>
-- <span data-ttu-id="5f1b3-203">**Status**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="5f1b3-203">**Status**<sup>\*</sup></span></span>
+     <span data-ttu-id="70972-229">Quando terminar, clique em **Aplicar**.</span><span class="sxs-lookup"><span data-stu-id="70972-229">When you're finished, click **Apply**.</span></span>
 
-  <span data-ttu-id="5f1b3-204"><sup>\*</sup> Se você clicar nesse valor, informações detalhadas serão exibidas em um sobremenu.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-204"><sup>\*</sup> If you click this value, detailed information is displayed in a flyout.</span></span>
+   - <span data-ttu-id="70972-230">Para filtrar as entradas, clique em **Filtrar**.</span><span class="sxs-lookup"><span data-stu-id="70972-230">To filter the entries, click **Filter**.</span></span> <span data-ttu-id="70972-231">Os filtros disponíveis são:</span><span class="sxs-lookup"><span data-stu-id="70972-231">The available filters are:</span></span>
+     - <span data-ttu-id="70972-232">**Data relatada**: **Data de início** e data de **término.**</span><span class="sxs-lookup"><span data-stu-id="70972-232">**Date reported**: **Start date** and **End date**.</span></span>
+     - <span data-ttu-id="70972-233">**Relatado por**</span><span class="sxs-lookup"><span data-stu-id="70972-233">**Reported by**</span></span>
+     - <span data-ttu-id="70972-234">**Assunto do email**</span><span class="sxs-lookup"><span data-stu-id="70972-234">**Email subject**</span></span>
+     - <span data-ttu-id="70972-235">**ID da mensagem relatada**</span><span class="sxs-lookup"><span data-stu-id="70972-235">**Message reported ID**</span></span>
+     - <span data-ttu-id="70972-236">**ID da mensagem de rede**</span><span class="sxs-lookup"><span data-stu-id="70972-236">**Network Message ID**</span></span>
+     - <span data-ttu-id="70972-237">**Sender**</span><span class="sxs-lookup"><span data-stu-id="70972-237">**Sender**</span></span>
+     - <span data-ttu-id="70972-238">**Motivo relatado:** **não lixo eletrônico,** **phishing** ou **spam.**</span><span class="sxs-lookup"><span data-stu-id="70972-238">**Reported reason**: **Not junk**, **Phish**, or **Spam**.</span></span>
+     - <span data-ttu-id="70972-239">**Simulação de phishing**: **Sim** ou **Não**</span><span class="sxs-lookup"><span data-stu-id="70972-239">**Phish simulation**: **Yes** or **No**</span></span>
 
-### <a name="view-admin-attachment-submissions"></a><span data-ttu-id="5f1b3-205">Exibir envios de anexos de administrador</span><span class="sxs-lookup"><span data-stu-id="5f1b3-205">View admin attachment submissions</span></span>
+     <span data-ttu-id="70972-240">Quando terminar, clique em **Aplicar**.</span><span class="sxs-lookup"><span data-stu-id="70972-240">When you're finished, click **Apply**.</span></span>
 
-<span data-ttu-id="5f1b3-206">Clique na **guia Anexos.**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-206">Click the **Attachments** tab.</span></span>
+    ![Novas opções de Filtro para envios de usuários](../../media/user-submissions-filter-options.png)
 
-<span data-ttu-id="5f1b3-207">Você pode clicar no **botão Opções de** coluna perto da parte inferior da página para adicionar ou remover colunas do exibição:</span><span class="sxs-lookup"><span data-stu-id="5f1b3-207">You can click the **Column options** button near the bottom of the page to add or remove columns from the view:</span></span>
+   - <span data-ttu-id="70972-242">Para agrupar as entradas, clique em **Grupo** e selecione um dos seguintes valores na listada:</span><span class="sxs-lookup"><span data-stu-id="70972-242">To group the entries, click **Group** and select one of the following values from the drop down list:</span></span>
+     - <span data-ttu-id="70972-243">**Nenhum**</span><span class="sxs-lookup"><span data-stu-id="70972-243">**None**</span></span>
+     - <span data-ttu-id="70972-244">**Motivo**</span><span class="sxs-lookup"><span data-stu-id="70972-244">**Reason**</span></span>
+     - <span data-ttu-id="70972-245">**Sender**</span><span class="sxs-lookup"><span data-stu-id="70972-245">**Sender**</span></span>
+     - <span data-ttu-id="70972-246">**Relatado por**</span><span class="sxs-lookup"><span data-stu-id="70972-246">**Reported by**</span></span>
+     - <span data-ttu-id="70972-247">**Rescan result**</span><span class="sxs-lookup"><span data-stu-id="70972-247">**Rescan result**</span></span>
+     - <span data-ttu-id="70972-248">**Simulação de phishing**</span><span class="sxs-lookup"><span data-stu-id="70972-248">**Phish simulation**</span></span>
 
-- <span data-ttu-id="5f1b3-208">**Date**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-208">**Date**</span></span>
-- <span data-ttu-id="5f1b3-209">**ID do envio**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-209">**Submission ID**</span></span>
-- <span data-ttu-id="5f1b3-210">**Enviado por**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="5f1b3-210">**Submitted by**<sup>\*</sup></span></span>
-- <span data-ttu-id="5f1b3-211">**Nome do arquivo**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="5f1b3-211">**File name**<sup>\*</sup></span></span>
-- <span data-ttu-id="5f1b3-212">**Tipo de envio**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-212">**Submission type**</span></span>
-- <span data-ttu-id="5f1b3-213">**Status**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="5f1b3-213">**Status**<sup>\*</sup></span></span>
-
-  <span data-ttu-id="5f1b3-214"><sup>\*</sup> Se você clicar nesse valor, informações detalhadas serão exibidas em um sobremenu.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-214"><sup>\*</sup> If you click this value, detailed information is displayed in a flyout.</span></span>
-
-## <a name="view-user-submissions-to-microsoft"></a><span data-ttu-id="5f1b3-215">Exibir envios de usuários para a Microsoft</span><span class="sxs-lookup"><span data-stu-id="5f1b3-215">View user submissions to Microsoft</span></span>
-
-<span data-ttu-id="5f1b3-216">Se você tiver implantado o [add-in](enable-the-report-message-add-in.md)De Mensagem de Relatório, o complemento Relatar [Phishing](enable-the-report-phish-add-in.md)ou as pessoas usarem o relatório integrado no Outlook na [Web,](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)você poderá ver o que os usuários estão relatando na guia **Envios do** usuário.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-216">If you've deployed the [Report Message add-in](enable-the-report-message-add-in.md), the [Report Phishing add-in](enable-the-report-phish-add-in.md), or people use the [built-in reporting in Outlook on the web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md), you can see what users are reporting on the **User submissions** tab.</span></span>
-
-1. <span data-ttu-id="5f1b3-217">No Centro de Conformidade & segurança, vá para **Envios de gerenciamento** \> **de ameaças.**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-217">In the Security & Compliance Center, go to **Threat management** \> **Submissions**.</span></span>
-
-2. <span data-ttu-id="5f1b3-218">Selecione a **guia Envios de usuário** e clique em Novo **envio**.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-218">Select the **User submissions** tab, and then click **New submission**.</span></span>
-
-<span data-ttu-id="5f1b3-219">Você pode clicar no **botão Opções de** coluna perto da parte inferior da página para adicionar ou remover colunas do exibição:</span><span class="sxs-lookup"><span data-stu-id="5f1b3-219">You can click the **Column options** button near the bottom of the page to add or remove columns from the view:</span></span>
-
-- <span data-ttu-id="5f1b3-220">**Enviado em**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-220">**Submitted on**</span></span>
-- <span data-ttu-id="5f1b3-221">**Enviado por**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="5f1b3-221">**Submitted by**<sup>\*</sup></span></span>
-- <span data-ttu-id="5f1b3-222">**Assunto**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="5f1b3-222">**Subject**<sup>\*</sup></span></span>
-- <span data-ttu-id="5f1b3-223">**Sender**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-223">**Sender**</span></span>
-- <span data-ttu-id="5f1b3-224">**IP do remetente**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="5f1b3-224">**Sender IP**<sup>\*</sup></span></span>
-- <span data-ttu-id="5f1b3-225">**Tipo de envio**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-225">**Submission type**</span></span>
-
-<span data-ttu-id="5f1b3-226"><sup>\*</sup> Se você clicar nesse valor, informações detalhadas serão exibidas em um sobremenu.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-226"><sup>\*</sup> If you click this value, detailed information is displayed in a flyout.</span></span>
-
-<span data-ttu-id="5f1b3-227">Na parte superior da página, você pode inserir uma data de início, uma data de término e (por padrão) você pode filtrar por **Remetente** inserindo um valor na caixa e clicando em ![ Atualizar botão ](../../media/scc-quarantine-refresh.png) .</span><span class="sxs-lookup"><span data-stu-id="5f1b3-227">Near the top of the page, you can enter a start date, an end date, and (by default) you can filter by **Sender** by entering a value in the box and clicking ![Refresh button](../../media/scc-quarantine-refresh.png).</span></span> <span data-ttu-id="5f1b3-228">Update</span><span class="sxs-lookup"><span data-stu-id="5f1b3-228">You can enter multiple values separated by commas.</span></span>
-
-<span data-ttu-id="5f1b3-229">Para alterar os critérios de filtro, clique no botão **Remetente** e escolha um dos seguintes valores:</span><span class="sxs-lookup"><span data-stu-id="5f1b3-229">To change the filter criteria, click the **Sender** button and choose one of the following values:</span></span>
-
-- <span data-ttu-id="5f1b3-230">**Domínio do remetente**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-230">**Sender domain**</span></span>
-- <span data-ttu-id="5f1b3-231">**Assunto**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-231">**Subject**</span></span>
-- <span data-ttu-id="5f1b3-232">**Enviado por**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-232">**Submitted by**</span></span>
-- <span data-ttu-id="5f1b3-233">**Tipo de envio**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-233">**Submission type**</span></span>
-- <span data-ttu-id="5f1b3-234">**IP do remetente**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-234">**Sender IP**</span></span>
-
-![Novas opções de Filtro para envios de usuários](../../media/user-submissions-filter-options.png)
-
-<span data-ttu-id="5f1b3-236">Para exportar os resultados, clique em **Exportar** próximo à parte superior da página e selecione **Dados de gráfico** ou **Tabela**.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-236">To export the results, click **Export** near the top of the page and select **Chart data** or **Table**.</span></span> <span data-ttu-id="5f1b3-237">Na caixa de diálogo exibida, salve o arquivo .csv arquivo.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-237">In the dialog that appears, save the .csv file.</span></span>
-
-## <a name="view-user-submissions-to-the-custom-mailbox"></a><span data-ttu-id="5f1b3-238">Exibir envios de usuário para a caixa de correio personalizada</span><span class="sxs-lookup"><span data-stu-id="5f1b3-238">View user submissions to the custom mailbox</span></span>
-
-<span data-ttu-id="5f1b3-239">**Se** você configurou [uma caixa](user-submission.md) de correio personalizada para receber mensagens relatadas pelo usuário, você pode exibir e também enviar mensagens que foram entregues à caixa de correio de relatório.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-239">**If** you've [configured a custom mailbox](user-submission.md) to receive user reported messages, you can view and also submit messages that were delivered to the reporting mailbox.</span></span>
-
-1. <span data-ttu-id="5f1b3-240">No Centro de Conformidade & segurança, vá para **Envios de gerenciamento** \> **de ameaças.**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-240">In the Security & Compliance Center, go to **Threat management** \> **Submissions**.</span></span>
-
-2. <span data-ttu-id="5f1b3-241">Selecione a **guia Caixa de correio** Personalizada.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-241">Select the **Custom mailbox** tab.</span></span>
-
-<span data-ttu-id="5f1b3-242">Você pode clicar no **botão Opções de** coluna perto da parte inferior da página para adicionar ou remover colunas do exibição:</span><span class="sxs-lookup"><span data-stu-id="5f1b3-242">You can click the **Column options** button near the bottom of the page to add or remove columns from the view:</span></span>
-
-- <span data-ttu-id="5f1b3-243">**Enviado em**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-243">**Submitted on**</span></span>
-- <span data-ttu-id="5f1b3-244">**Enviado por**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="5f1b3-244">**Submitted by**<sup>\*</sup></span></span>
-- <span data-ttu-id="5f1b3-245">**Assunto**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="5f1b3-245">**Subject**<sup>\*</sup></span></span>
-- <span data-ttu-id="5f1b3-246">**Sender**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-246">**Sender**</span></span>
-- <span data-ttu-id="5f1b3-247">**IP do remetente**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="5f1b3-247">**Sender IP**<sup>\*</sup></span></span>
-- <span data-ttu-id="5f1b3-248">**Tipo de envio**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-248">**Submission type**</span></span>
-
-<span data-ttu-id="5f1b3-249">Na parte superior da página, você pode inserir uma data de  início, uma data de término e filtrar enviando inserindo um valor na caixa e clicando em ![ Atualizar botão ](../../media/scc-quarantine-refresh.png) .</span><span class="sxs-lookup"><span data-stu-id="5f1b3-249">Near the top of the page, you can enter a start date, an end date, and you can filter by **Submitted by** by entering a value in the box and clicking ![Refresh button](../../media/scc-quarantine-refresh.png).</span></span> <span data-ttu-id="5f1b3-250">Update</span><span class="sxs-lookup"><span data-stu-id="5f1b3-250">You can enter multiple values separated by commas.</span></span>
-
-<span data-ttu-id="5f1b3-251">Para exportar os resultados, clique em **Exportar** próximo à parte superior da página e selecione **Dados de gráfico** ou **Tabela**.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-251">To export the results, click **Export** near the top of the page and select **Chart data** or **Table**.</span></span> <span data-ttu-id="5f1b3-252">Na caixa de diálogo exibida, salve o arquivo .csv arquivo.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-252">In the dialog that appears, save the .csv file.</span></span>
+   - <span data-ttu-id="70972-249">Para exportar as entradas, clique em **Exportar**.</span><span class="sxs-lookup"><span data-stu-id="70972-249">To export the entries, click **Export**.</span></span> <span data-ttu-id="70972-250">Na caixa de diálogo exibida, salve o arquivo .csv arquivo.</span><span class="sxs-lookup"><span data-stu-id="70972-250">In the dialog that appears, save the .csv file.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="5f1b3-253">Se as organizações estão configuradas para enviar somente para a caixa de correio personalizada, as mensagens relatadas não serão enviadas para análise novamente e os resultados no portal de mensagens relatadas pelo usuário sempre estarão vazios.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-253">If organizations are configured to send to custom mailbox only, reported messages will not be sent for rescan and results in the User reported messages portal will always be empty.</span></span>
+> <span data-ttu-id="70972-251">Se as organizações estão configuradas para enviar mensagens relatadas pelo usuário apenas para  a caixa de correio personalizada, as mensagens relatadas não serão enviadas para análise novamente e os resultados nas mensagens relatadas pelo usuário sempre estarão vazios.</span><span class="sxs-lookup"><span data-stu-id="70972-251">If organizations are configured to send user reported messages to the custom mailbox only, reported messages will not be sent for rescan and the results in **User reported messages** will always be empty.</span></span>
 
-## <a name="undo-user-submissions"></a><span data-ttu-id="5f1b3-254">Desfazer envios de usuário</span><span class="sxs-lookup"><span data-stu-id="5f1b3-254">Undo user submissions</span></span>
+### <a name="undo-user-submissions"></a><span data-ttu-id="70972-252">Desfazer envios de usuário</span><span class="sxs-lookup"><span data-stu-id="70972-252">Undo user submissions</span></span>
 
-<span data-ttu-id="5f1b3-255">Depois que um usuário envia um email suspeito para a caixa de correio personalizada, o usuário e o administrador não têm uma opção para desfazer o envio.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-255">Once a user submits a suspicious email to the custom mailbox, the user and admin don't have an option to undo the submission.</span></span> <span data-ttu-id="5f1b3-256">Se o usuário quiser recuperar o email, ele estará disponível para recuperação nas pastas Itens Excluídos ou Lixo Eletrônico.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-256">If the user would like to recover the email, it will be available for recovery in the Deleted Items or Junk Email folders.</span></span>
+<span data-ttu-id="70972-253">Depois que um usuário envia um email suspeito para a caixa de correio personalizada, o usuário e o administrador não têm uma opção para desfazer o envio.</span><span class="sxs-lookup"><span data-stu-id="70972-253">Once a user submits a suspicious email to the custom mailbox, the user and admin don't have an option to undo the submission.</span></span> <span data-ttu-id="70972-254">Se o usuário quiser recuperar o email, ele estará disponível para recuperação nas pastas Itens Excluídos ou Lixo Eletrônico.</span><span class="sxs-lookup"><span data-stu-id="70972-254">If the user would like to recover the email, it will be available for recovery in the Deleted Items or Junk Email folders.</span></span>
 
-### <a name="submit-messages-to-microsoft-from-the-custom-mailbox"></a><span data-ttu-id="5f1b3-257">Enviar mensagens para a Microsoft da caixa de correio personalizada</span><span class="sxs-lookup"><span data-stu-id="5f1b3-257">Submit messages to Microsoft from the custom mailbox</span></span>
+### <a name="submit-messages-to-microsoft-from-the-custom-mailbox"></a><span data-ttu-id="70972-255">Enviar mensagens para a Microsoft da caixa de correio personalizada</span><span class="sxs-lookup"><span data-stu-id="70972-255">Submit messages to Microsoft from the custom mailbox</span></span>
 
-<span data-ttu-id="5f1b3-258">Se você configurou a caixa de correio personalizada para interceptar mensagens relatadas pelo usuário sem enviar as mensagens para a Microsoft, você poderá encontrar e enviar mensagens específicas para a Microsoft para análise.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-258">If you've configured the custom mailbox to intercept user-reported messages without sending the messages to Microsoft, you can find and send specific messages to Microsoft for analysis.</span></span> <span data-ttu-id="5f1b3-259">Isso move efetivamente um envio de usuário para um envio de administrador.</span><span class="sxs-lookup"><span data-stu-id="5f1b3-259">This effectively moves a user submission to an admin submission.</span></span>
+<span data-ttu-id="70972-256">Se você configurou a caixa de correio personalizada para interceptar mensagens relatadas pelo usuário sem enviar as mensagens para a Microsoft, você poderá encontrar e enviar mensagens específicas para a Microsoft para análise.</span><span class="sxs-lookup"><span data-stu-id="70972-256">If you've configured the custom mailbox to intercept user-reported messages without sending the messages to Microsoft, you can find and send specific messages to Microsoft for analysis.</span></span> <span data-ttu-id="70972-257">Isso move efetivamente um envio de usuário para um envio de administrador.</span><span class="sxs-lookup"><span data-stu-id="70972-257">This effectively moves a user submission to an admin submission.</span></span>
 
-<span data-ttu-id="5f1b3-260">Na guia **Mensagens relatadas pelo** usuário, selecione uma mensagem na lista, clique no botão **Ação** e faça uma das seguintes seleções:</span><span class="sxs-lookup"><span data-stu-id="5f1b3-260">On the **User reported messages** tab, select a message in the list, click the **Action** button, and make one of the following selections:</span></span>
+<span data-ttu-id="70972-258">Na guia **Mensagens relatadas pelo** usuário, selecione uma mensagem na lista, clique em Enviar para a **Microsoft** para análise e selecione um dos seguintes valores na listada:</span><span class="sxs-lookup"><span data-stu-id="70972-258">On the **User reported messages** tab, select a message in the list, click **Submit to Microsoft for analysis**, and then select one of the following values from the drop down list:</span></span>
 
-- <span data-ttu-id="5f1b3-261">**Relatório limpo**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-261">**Report clean**</span></span>
-- <span data-ttu-id="5f1b3-262">**Relatar phishing**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-262">**Report phishing**</span></span>
-- <span data-ttu-id="5f1b3-263">**Relatar malware**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-263">**Report malware**</span></span>
-- <span data-ttu-id="5f1b3-264">**Relatar spam**</span><span class="sxs-lookup"><span data-stu-id="5f1b3-264">**Report spam**</span></span>
+- <span data-ttu-id="70972-259">**Relatório limpo**</span><span class="sxs-lookup"><span data-stu-id="70972-259">**Report clean**</span></span>
+- <span data-ttu-id="70972-260">**Relatar phishing**</span><span class="sxs-lookup"><span data-stu-id="70972-260">**Report phishing**</span></span>
+- <span data-ttu-id="70972-261">**Relatar malware**</span><span class="sxs-lookup"><span data-stu-id="70972-261">**Report malware**</span></span>
+- <span data-ttu-id="70972-262">**Relatar spam**</span><span class="sxs-lookup"><span data-stu-id="70972-262">**Report spam**</span></span>
+- <span data-ttu-id="70972-263">**Investigação de gatilho**</span><span class="sxs-lookup"><span data-stu-id="70972-263">**Trigger investigation**</span></span>
 
 ![Novas opções no botão Ação](../../media/user-submission-custom-mailbox-action-button.png)

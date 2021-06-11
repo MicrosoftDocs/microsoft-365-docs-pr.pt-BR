@@ -19,42 +19,42 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296006"
 ---
-# <a name="contact-support-for-japan"></a><span data-ttu-id="b5aef-103">Contatar o suporte para o Japão</span><span class="sxs-lookup"><span data-stu-id="b5aef-103">Contact support for Japan</span></span>
+# <a name="contact-support-for-japan"></a><span data-ttu-id="63eef-103">Contatar o suporte para o Japão</span><span class="sxs-lookup"><span data-stu-id="63eef-103">Contact support for Japan</span></span>
 
-<span data-ttu-id="b5aef-104">[Encontre outro país ou região](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="b5aef-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="63eef-104">[Encontre outro país ou região](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="63eef-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="b5aef-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="b5aef-105">Phone number</span></span>
-<span data-ttu-id="b5aef-106">0120 996 680 (Office 365 Enterprise)</span><span class="sxs-lookup"><span data-stu-id="b5aef-106">0120 996 680 (Office 365 Enterprise)</span></span>
+## <a name="phone-number"></a><span data-ttu-id="63eef-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="63eef-105">Phone number</span></span>
+<span data-ttu-id="63eef-106">0120 996 680 (Office 365 Enterprise)</span><span class="sxs-lookup"><span data-stu-id="63eef-106">0120 996 680 (Office 365 Enterprise)</span></span>
 
-<span data-ttu-id="b5aef-107">0120 628 860 (Outros Planos)</span><span class="sxs-lookup"><span data-stu-id="b5aef-107">0120 628 860 (Other Plans)</span></span>
+<span data-ttu-id="63eef-107">0120 628 860 (Outros Planos)</span><span class="sxs-lookup"><span data-stu-id="63eef-107">0120 628 860 (Other Plans)</span></span>
 
-## <a name="hours"></a><span data-ttu-id="b5aef-108">Horas</span><span class="sxs-lookup"><span data-stu-id="b5aef-108">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="b5aef-109">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="b5aef-109">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="63eef-108">Horas</span><span class="sxs-lookup"><span data-stu-id="63eef-108">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="63eef-109">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="63eef-109">Billing Support:</span></span>
 
-<span data-ttu-id="b5aef-110">Japonês: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="b5aef-110">Japanese: Mon-Fri 9:00-17:00</span></span>
+<span data-ttu-id="63eef-110">Japonês: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="63eef-110">Japanese: Mon-Fri 9:00-17:00</span></span>
 
-<span data-ttu-id="b5aef-111">(Fechado nos fins de semana e feriados)</span><span class="sxs-lookup"><span data-stu-id="b5aef-111">(Closed on weekends and public holidays)</span></span>
+<span data-ttu-id="63eef-111">(Fechado nos fins de semana e feriados)</span><span class="sxs-lookup"><span data-stu-id="63eef-111">(Closed on weekends and public holidays)</span></span>
 
-<span data-ttu-id="b5aef-112">Inglês: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="b5aef-112">English: Mon-Fri 9:00-17:00</span></span>
+<span data-ttu-id="63eef-112">Inglês: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="63eef-112">English: Mon-Fri 9:00-17:00</span></span>
 
-<span data-ttu-id="b5aef-113">(Fechado nos fins de semana e feriados)</span><span class="sxs-lookup"><span data-stu-id="b5aef-113">(Closed on weekends and public holidays)</span></span>
+<span data-ttu-id="63eef-113">(Fechado nos fins de semana e feriados)</span><span class="sxs-lookup"><span data-stu-id="63eef-113">(Closed on weekends and public holidays)</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="b5aef-114">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="b5aef-114">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="63eef-114">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="63eef-114">Technical Support:</span></span>
 
-<span data-ttu-id="b5aef-115">**Office 365 Enterprise:**</span><span class="sxs-lookup"><span data-stu-id="b5aef-115">**Office 365 Enterprise:**</span></span>
+<span data-ttu-id="63eef-115">**Office 365 Enterprise:**</span><span class="sxs-lookup"><span data-stu-id="63eef-115">**Office 365 Enterprise:**</span></span>
 
-<span data-ttu-id="b5aef-116">Japonês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="b5aef-116">Japanese: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="63eef-116">Japonês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="63eef-116">Japanese: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="b5aef-117">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="b5aef-117">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="63eef-117">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="63eef-117">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="b5aef-118">**Outros planos:**</span><span class="sxs-lookup"><span data-stu-id="b5aef-118">**Other Plans:**</span></span>
+<span data-ttu-id="63eef-118">**Outros planos:**</span><span class="sxs-lookup"><span data-stu-id="63eef-118">**Other Plans:**</span></span>
 
-<span data-ttu-id="b5aef-119">O suporte técnico por telefone está disponível das 9:00 às 17:30 nos dias da semana.</span><span class="sxs-lookup"><span data-stu-id="b5aef-119">Telephone technical support is available from 9:00-17:30 on weekdays.</span></span> <span data-ttu-id="b5aef-120">Para problemas de alta gravidade, o suporte técnico está disponível 24 horas por dia, 7 dias por semana.</span><span class="sxs-lookup"><span data-stu-id="b5aef-120">For high severity issues, technical support is available 24 hours a day, 7 days a week.</span></span>
+<span data-ttu-id="63eef-119">O suporte técnico por telefone está disponível das 9:00 às 17:30 nos dias da semana.</span><span class="sxs-lookup"><span data-stu-id="63eef-119">Telephone technical support is available from 9:00-17:30 on weekdays.</span></span> <span data-ttu-id="63eef-120">Para problemas de alta gravidade, o suporte técnico está disponível 24 horas por dia, 7 dias por semana.</span><span class="sxs-lookup"><span data-stu-id="63eef-120">For high severity issues, technical support is available 24 hours a day, 7 days a week.</span></span>
 
-<span data-ttu-id="b5aef-121">Número de telefone alternativo:</span><span class="sxs-lookup"><span data-stu-id="b5aef-121">Alternative Phone Number:</span></span>
+<span data-ttu-id="63eef-121">Número de telefone alternativo:</span><span class="sxs-lookup"><span data-stu-id="63eef-121">Alternative Phone Number:</span></span>
 
-<span data-ttu-id="b5aef-122">Cobranças de chamada locais são aplicadas</span><span class="sxs-lookup"><span data-stu-id="b5aef-122">Local call charges apply</span></span>
+<span data-ttu-id="63eef-122">Cobranças de chamada locais são aplicadas</span><span class="sxs-lookup"><span data-stu-id="63eef-122">Local call charges apply</span></span>
 
-<span data-ttu-id="b5aef-123">03 4332 5493 (Office 365 Enterprise)</span><span class="sxs-lookup"><span data-stu-id="b5aef-123">03 4332 5493 (Office 365 Enterprise)</span></span>
+<span data-ttu-id="63eef-123">03 4332 5493 (Office 365 Enterprise)</span><span class="sxs-lookup"><span data-stu-id="63eef-123">03 4332 5493 (Office 365 Enterprise)</span></span>
 
-<span data-ttu-id="b5aef-124">03 4332 6257 (Outros Planos)</span><span class="sxs-lookup"><span data-stu-id="b5aef-124">03 4332 6257 (Other Plans)</span></span>
+<span data-ttu-id="63eef-124">03 4332 6257 (Outros Planos)</span><span class="sxs-lookup"><span data-stu-id="63eef-124">03 4332 6257 (Other Plans)</span></span>
