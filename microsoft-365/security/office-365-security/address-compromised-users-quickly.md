@@ -11,20 +11,18 @@ search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
-ms.date: 02/25/2020
+ms.date: 06/10/2021
 description: Saiba como acelerar o processo de detecção e endereçamento de contas de usuário comprometidas com recursos automatizados de investigação e resposta no Microsoft Defender para Office 365 Plano 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c500221a10c00cc3b8d9d99c102ce8ec54fa2a48
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: cd84617230e774b92902ef3d11a365c1965ac814
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934688"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904135"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>Resolver contas de usuário comprometidas com investigação e resposta automatizadas
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
 - [Proteção do Exchange Online](exchange-online-protection-overview.md)
@@ -71,7 +69,7 @@ Quando uma conta de usuário é comprometida, os alertas são disparados. E, em 
 
 Você tem algumas opções para navegar até uma lista de usuários restritos. Por exemplo, no Centro de Conformidade & segurança, você pode ir **para** a Análise de Gerenciamento de Ameaças \>  \> **Usuários Restritos**. O procedimento a seguir descreve a navegação usando o painel **Alertas,** que é uma boa maneira de ver vários tipos de alertas que podem ter sido disparados.
 
-1. Acesse <https://protection.office.com> e entre.
+1. Vá para [https://protection.office.com](https://protection.office.com) e entre.
 
 2. No painel de navegação, escolha **Painel de** \> **Alertas**.
 

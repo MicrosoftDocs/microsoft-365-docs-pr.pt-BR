@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2214baa1c205d4e0f634c5a07f4d55522d2ad6b1
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 78cfef52988e7da611edc0cc4d475e8a4624bc0e
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822016"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879091"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Configurar políticas antispam no EOP
 
@@ -37,14 +37,14 @@ Em organizações do Microsoft 365 com caixas de correio no Exchange Online ou u
 
 Os administradores podem visualizar, editar e configurar (mas não excluir) a política antispam padrão. Para maior granularidade, também é possível criar políticas antispam personalizadas aplicadas a determinados usuários, grupos ou domínios na sua organização. Políticas personalizadas sempre terão prioridade sobre a política padrão, mas você pode alterar a prioridade (ordem de execução) de suas políticas personalizadas.
 
-Configure políticas antispam no Centro de segurança do Microsoft 365 ou no PowerShell (PowerShell do Exchange Online para organizações do Microsoft 365 com caixas de correio no Exchange Online; PowerShell autônomo da EOP para organizações sem caixas de correio no Exchange Online).
+Configure políticas antispam no portal do Microsoft 365 Defender ou no PowerShell (PowerShell do Exchange Online para organizações do Microsoft 365 com caixas de correio no Exchange Online; PowerShell autônomo da EOP para organizações sem caixas de correio no Exchange Online).
 
 Os elementos básicos de uma política antispam são:
 
 - **A política de filtro de spam**: especifica as ações de vereditos de filtragem de spam e as opções de notificação.
 - **A regra de filtro de spam**: especifica a prioridade e os filtros de destinatário (a quem a política se aplica) para uma política de filtro de spam.
 
-A diferença entre esses dois elementos não é óbvia ao gerenciar as políticas antispam no centro de segurança:
+A diferença entre esses dois elementos não é óbvia ao gerenciar as políticas antispam no portal do Microsoft 365 Defender:
 
 - Ao criar uma política antispam, na verdade, você está criando uma regra de filtro de spam e a política de filtro de spam associada ao mesmo tempo, usando o mesmo nome para ambas.
 - Ao modificar uma política antispam, as configurações relacionadas a nome, prioridade, habilitado ou desabilitado, e filtros de destinatário modificam a regra do filtro de spam. Todas as demais configurações modificam a política de filtro de spam associada.
@@ -62,7 +62,7 @@ Para aumentar a eficácia da filtragem de spam, crie políticas antispam persona
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Abra o centro de segurança em <https://security.microsoft.com>. Para ir diretamente à página de **Políticas antispam**, use <https://security.microsoft.com/antispam>.
+- Abra o portal do Microsoft 365 Defender em <https://security.microsoft.com>. Para ir diretamente à página de **Políticas antispam**, use <https://security.microsoft.com/antispam>.
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -79,11 +79,11 @@ Para aumentar a eficácia da filtragem de spam, crie políticas antispam persona
 
 - Para nossas configurações recomendadas para políticas antispam, confira [Configurações da política antispam EOP](recommended-settings-for-eop-and-office365.md#eop-anti-spam-policy-settings).
 
-## <a name="use-the-security-center-to-create-anti-spam-policies"></a>Usar o centro de segurança para criar políticas antispam
+## <a name="use-the-microsoft-365-defender-portal-to-create-anti-spam-policies"></a>Usar o portal do Microsoft 365 Defender para criar políticas anti-spam
 
-Ao criar uma política antispam personalizada no centro de segurança é gerado, ao mesmo tempo, uma regra de filtro de spam e a política de filtro de spam associada com o mesmo nome para ambas.
+Ao criar uma política antispam personalizada no Microsoft 365 Defender é gerado, ao mesmo tempo, uma regra de filtro de spam e a política de filtro de spam associada com o mesmo nome para ambas.
 
-1. No centro de segurança, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **seção** Políticas \> **Anti-spam**.
+1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
 
 2. Na página **Políticas anti-spam**, clique em ![Criar ícone](../../media/m365-cc-sc-create-icon.png) **Criar política** e selecione **Entrada** na lista suspensa.
 
@@ -240,9 +240,9 @@ Ao criar uma política antispam personalizada no centro de segurança é gerado,
 
 9. Na mensagem de confirmação exibida, clique em **Concluído**.
 
-## <a name="use-the-security-center-to-view-anti-spam-policies"></a>Usar o centro de segurança para exibir políticas antispam
+## <a name="use-the-microsoft-365-defender-portal-to-view-anti-spam-policies"></a>Usar o portal do Microsoft 365 Defender para visualizar políticas anti-spam
 
-1. No centro de segurança, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **seção** Políticas \> **Anti-spam**.
+1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
 
 2. Na página **Políticas anti-spam**, procure um dos seguintes valores:
    - O valor **Tipo** é a **Política antispam personalizada** 
@@ -257,15 +257,15 @@ Ao criar uma política antispam personalizada no centro de segurança é gerado,
 
 3. Ao selecionar uma política antispam clicando no nome, as configurações da política serão exibidas em um submenu.
 
-## <a name="use-the-security-center-to-modify-anti-spam-policies"></a>Usar o centro de segurança para modificar políticas antispam
+## <a name="use-the-microsoft-365-defender-portal-to-modify-anti-spam-policies"></a>Usar o portal do Microsoft 365 Defender para modificar políticas anti-spam
 
-1. No centro de segurança, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **seção** Políticas \> **Anti-spam**.
+1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
 
 2. Na página **Políticas antispam**, selecione uma política antispam da lista clicando no nome:
    - Uma política personalizada que você criou em que o valor da coluna **Tipo** é **Política antispam personalizada**.
    - A política padrão denominada **Política de entrada antispam (Padrão)**.
 
-3. No submenu de detalhes da política exibido, selecione **Editar** em cada seção para modificar as configurações da seção. Para mais informações sobre as configurações, confira a seção anterior [Usar o centro de segurança para criar políticas antispam](#use-the-security-center-to-create-anti-spam-policies) neste artigo.
+3. No submenu de detalhes da política exibido, selecione **Editar** em cada seção para modificar as configurações da seção. Para mais informações sobre as configurações, confira a seção anterior [Usar o portal Microsoft 365 Defender para criar políticas antispam](#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) neste artigo.
 
    Para a política antispam padrão, a seção **Aplicada a** não está disponível (a política se aplica a todos), e não é possível renomear a política.
 
@@ -275,7 +275,7 @@ Para habilitar ou desabilitar uma política, definir a ordem de prioridade da po
 
 Não é possível desabilitar a política antispam padrão.
 
-1. No centro de segurança, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **seção** Políticas \> **Anti-spam**.
+1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
 
 2. Na página **Políticas antispam**, selecione uma política com o **Valor de tipo** da **Política antispam personalizada** na lista clicando no nome.
 
@@ -293,14 +293,14 @@ De volta à página da política principal, o valor **Status** da política ser�
 
 Por padrão, as políticas antispam recebem uma prioridade baseada na ordem em que elas foram criadas (as políticas mais recentes são de prioridade mais baixa do que as políticas mais antigas). Um número de prioridade menor indica uma maior prioridade para a política (0 é a maior), e as políticas são processadas por ordem de prioridade (políticas com maior prioridade são processadas antes das políticas com menor prioridade). Duas políticas não podem ter a mesma prioridade, e o processamento da política será interrompido após a primeira política ser aplicada.
 
-Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou **Diminuir prioridade** nas propriedades da política (não é possível modificar diretamente o número da **Prioridade** no centro de segurança). Alterar a prioridade de uma política só faz sentido se você tiver várias políticas.
+Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou **Diminuir prioridade** nas propriedades da política (não é possível modificar diretamente o número da **Prioridade** no portal Microsoft 365 Defender). Alterar a prioridade de uma política só faz sentido se você tiver várias políticas.
 
  **Observações**:
 
-- No centro de segurança, só é possível alterar a prioridade da política antispam depois de criá-la. No PowerShell, é possível substituir a prioridade padrão ao criar a regra de filtro de spam (o que pode afetar a prioridade das regras existentes).
+- No portal Microsoft 365 Defender, só é possível alterar a prioridade da política antispam depois de criá-la. No PowerShell, é possível substituir a prioridade padrão ao criar a regra de filtro de spam (o que pode afetar a prioridade das regras existentes).
 - As políticas antispam são processadas na ordem em que são exibidas (a primeira política tem o valor de **Prioridade** 0). A política antispam padrão tem o valor de prioridade **Mais baixo**, e isso não pode ser alterado.
 
-1. No centro de segurança, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **seção** Políticas \> **Anti-spam**.
+1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
 
 2. Na página **Políticas antispam**, selecione uma política com o **Valor de tipo** da **Política antispam personalizada** na lista clicando no nome.
 
@@ -317,7 +317,7 @@ Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou
 
 Quando um veredito de filtragem de spam coloca uma mensagem em quarentena, é possível configurar as notificações de spam para usuário final de modo que os destinatários saibam o que houve com as mensagens que foram enviadas para eles. Para obter mais informações sobre essas notificações, confira [Notificações de spam para usuário final no EOP](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
-1. No centro de segurança, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **seção** Políticas \> **Anti-spam**.
+1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
 
 2. Na página **Políticas antispam**, selecione uma política antispam da lista clicando no nome:
    - Uma política personalizada que você criou em que o valor da coluna **Tipo** é **Política antispam personalizada**.
@@ -340,11 +340,11 @@ Quando um veredito de filtragem de spam coloca uma mensagem em quarentena, é po
 
 4. De volta ao submenu de detalhes da política, clique em **Fechar**.
 
-## <a name="use-the-security-center-to-remove-custom-anti-spam-policies"></a>Usar o centro de segurança para remover políticas anti-spam
+## <a name="use-the-microsoft-365-defender-portal-to-remove-custom-anti-spam-policies"></a>Usar o portal do Microsoft 365 Defender para remover políticas anti-spam personalizadas
 
-Quando você usa o centro de segurança para remover uma política anti-spam, a regra de filtro de spam e a política de filtro de spam correspondente são excluídas. Você não pode remover a política antispam padrão.
+Quando você usa o portal do Microsoft 365 Defender para remover uma política anti-spam, a regra de filtro de spam e a política de filtro de spam correspondente são excluídas. Você não pode remover a política antispam padrão.
 
-1. No centro de segurança, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **seção** Políticas \> **Anti-spam**.
+1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
 
 2. Na página **Políticas antispam**, selecione uma política com o **Valor de tipo** da **Política antispam personalizada** na lista clicando no nome. Na parte superior do submenu de detalhes da política exibido, clique no ![ícone Mais ações](../../media/m365-cc-sc-more-actions-icon.png) **Mais ações** \> ![ícone Excluir política](../../media/m365-cc-sc-delete-icon.png) **Excluir política**.
 
@@ -362,7 +362,7 @@ No Exchange Online PowerShell ou no EOP PowerShell autônomo, a diferença entre
 
 As seguintes configurações de política antispam só estão disponíveis no PowerShell:
 
-- O parâmetro _MarkAsSpamBulkMail_ que é `On` por padrão. Os efeitos dessa configuração foram explicados anteriormente na seção [Usar o centro de segurança para criar políticas antispam](#use-the-security-center-to-create-anti-spam-policies) deste tópico.
+- O parâmetro _MarkAsSpamBulkMail_ que é `On` por padrão. Os efeitos dessa configuração foram explicados anteriormente na seção [Usar o portal do Microsoft 365 Defender para criar políticas antispam](#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) deste tópico.
 
 - As seguintes configurações de notificações da quarentena de spam para usuário final:
   - O parâmetro _DownloadLink_, que mostra ou oculta o link para a Ferramenta de Relatórios de Lixo Eletrônico para Outlook.
@@ -378,11 +378,11 @@ A criação de uma política antispam no PowerShell é um processo de duas etapa
  **Observações**:
 
 - você pode criar uma nova regra de filtro de spam e atribuir uma política de filtro de spam existente e não associada a ela. Não é possível associar uma regra de filtro de spam a mais de uma política de filtro de spam.
-- Defina as seguintes configurações nas novas políticas de filtro de spam no PowerShell que não estão disponíveis no centro de segurança até que você crie a política:
+- Defina as seguintes configurações nas novas políticas de filtro de spam no PowerShell que não estão disponíveis no portal do Microsoft 365 Defender até que você crie a política:
   - Crie a nova política como desabilitada (_Habilitada_ `$false` no cmdlet **New-HostedContentFilterRule**).
   - Defina a prioridade da política durante a criação (_Prioridade__\<Number\>_) no cmdlet **New-HostedContentFilterRule**).
 
-- Uma nova política de filtro de spam criada no PowerShell não ficará visível no centro de segurança até você atribua a política a uma regra de filtro de spam.
+- Uma nova política de filtro de spam criada no PowerShell não ficará visível no portal do Microsoft 365 Defender até você atribua a política a uma regra de filtro de spam.
 
 #### <a name="step-1-use-powershell-to-create-a-spam-filter-policy"></a>Etapa 1: usar o PowerShell para criar uma política de filtro de spam
 
@@ -487,7 +487,7 @@ Para obter mais informações detalhadas de sintaxe e parâmetro, confira [Get-H
 Além dos itens a seguir, as mesmas configurações estão disponíveis quando você modifica uma política de filtro de spam no Windows PowerShell, como ao criar a política conforme descrito anteriormente na seção [Etapa 1: usar o PowerShell para criar uma política de filtro de spam](#step-1-use-powershell-to-create-a-spam-filter-policy) deste tópico.
 
 - A opção _MakeDefault_ que transforma a política especificada em política padrão (aplicada a todos, sempre com a **Menor** prioridade, e que pode ser excluída) só está disponível quando você modifica uma política de filtro de spam no PowerShell.
-- Não é possível renomear uma política de filtro de spam (o cmdlet **Set-HostedContentFilterPolicy** não tem o parâmetro _Name_). Quando você renomeia uma política antispam no centro de segurança, só é possível renomear a _regra_ do filtro de spam.
+- Não é possível renomear uma política de filtro de spam (o cmdlet **Set-HostedContentFilterPolicy** não tem o parâmetro _Name_). Quando você renomeia uma política antispam no portal do Microsoft 365 Defender, só é possível renomear a _regra_ do filtro de spam.
 
 Para modificar uma política de filtro de spam, use esta sintaxe:
 

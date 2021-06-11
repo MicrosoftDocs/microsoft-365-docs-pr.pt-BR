@@ -11,18 +11,18 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 audience: ITPro
-ms.date: 02/03/2021
+ms.date: 06/10/2021
 ms.reviewer: v-maave
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 7c471dc99a5deafcc60177812f60f1f884b10ee1
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: c60620d2a589c8473764b810d1fcb0e24f674451
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845565"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904051"
 ---
 # <a name="protect-important-folders-with-controlled-folder-access"></a>Proteger pastas importantes com acesso controlado a pastas
 
@@ -89,9 +89,9 @@ Windows do sistema são protegidas por padrão, juntamente com várias outras pa
 
 O acesso controlado a pastas [requer Microsoft Defender Antivírus proteção em tempo real.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)
 
-## <a name="review-controlled-folder-access-events-in-the-microsoft-defender-security-center"></a>Revisar eventos de acesso controlado a pastas no Central de Segurança do Microsoft Defender
+## <a name="review-controlled-folder-access-events-in-the-microsoft-365-defender-portal"></a>Revisar eventos de acesso controlado a pastas no portal Microsoft 365 Defender
 
-O Defender for Endpoint fornece relatórios detalhados sobre eventos e blocos como parte de seus [cenários de investigação de alerta.](investigate-alerts.md)
+O Defender for Endpoint fornece relatórios detalhados sobre eventos e blocos como parte de seus [cenários](investigate-alerts.md) de investigação de alerta no portal Microsoft 365 Defender. (Consulte [Microsoft Defender for Endpoint in Microsoft 365 Defender](../defender/microsoft-365-security-center-mde.md).)
 
 Você pode consultar dados do Microsoft Defender para o Ponto de Extremidade usando [a busca avançada](/microsoft-365/security/defender-endpoint/advanced-hunting-windows-defender-advanced-threat-protection). Se você estiver usando o modo [](advanced-hunting-overview.md) [de](audit-windows-defender.md)auditoria, poderá usar a busca avançada para ver como as configurações de acesso controlado a pastas afetariam seu ambiente se elas fossem habilitadas.
 
@@ -135,8 +135,4 @@ Você pode usar o aplicativo Segurança do Windows para exibir a lista de pastas
 > [!NOTE]
 > [Windows do sistema](#windows-system-folders-are-protected-by-default) são protegidas por padrão e você não pode removê-las da lista.
 
-## <a name="see-also"></a>Confira também
 
-- [Avaliar o acesso controlado a pastas](evaluate-controlled-folder-access.md)
-- [Personalizar o acesso controlado a pastas](customize-controlled-folders.md)
-- [Proteger mais pastas](customize-controlled-folders.md#protect-additional-folders)

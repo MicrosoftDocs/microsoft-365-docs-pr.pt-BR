@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: ccf6da0e1bc91a29865868305b5333f7ef9c47cc
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 7686f28646135986a78b4c269e41e2fc3a70dff9
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274767"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904039"
 ---
 # <a name="collect-microsoft-defender-av-diagnostic-data"></a>Coletar dados de diagnóstico do Microsoft Defender AV
 
@@ -43,9 +43,9 @@ Em pelo menos dois dispositivos que estão enfrentando o mesmo problema, obtenha
 
     a. Abra o menu **Iniciar.**
 
-    b. Digite **cmd**. Clique com o botão direito do mouse **no Prompt de** Comando e clique em Executar como **administrador**.
+    b. Digite **cmd**. Clique com o botão direito do mouse **no Prompt** de Comando e selecione Executar **como administrador**.
 
-    c. Insira credenciais de administrador ou aprove o prompt.
+    c. Especifique credenciais de administrador ou aprove o prompt.
 
 2. Navegue até o diretório do Microsoft Defender. Por padrão, é `C:\Program Files\Windows Defender`
 

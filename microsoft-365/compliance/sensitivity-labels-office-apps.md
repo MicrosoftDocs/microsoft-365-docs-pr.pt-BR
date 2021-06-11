@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informações para administradores de TI para gerenciar rótulos de confidencialidade em aplicativos do Office para área de trabalho, dispositivos móveis e Web.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3da3d971a1ef55d343ac1b61e6457981022c4c92
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 6e22ca460acf96151ff54e3b2bbbe03ad1a97a27
+ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770369"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52888392"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Gerenciar rótulos de confidencialidade em aplicativos do Office
 
@@ -61,7 +61,7 @@ Os números listados são as versão mínima do aplicativo do Office necessária
 |[Exigir uma justificativa para alterar um rótulo](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [Sim – aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Fornecer um link de ajuda para uma página de ajuda personalizada](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [Sim – aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Marcar o conteúdo](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [Sim – aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
-|[Marcações dinâmicas com variáveis](#dynamic-markings-with-variables)                                              | 2010+           | 16.42+     | 2.42+ | 16.0.13328+ | Em revisão |
+|[Marcações dinâmicas com variáveis](#dynamic-markings-with-variables)                                              | 2010+           | 16.42+     | 2.42+ | 16.0.13328+ | Em implantação |
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [Sim – aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Permitir que usuários atribuam permissões: <br /> – Solicitar aos usuários](encryption-sensitivity-labels.md#let-users-assign-permissions)                     |2004+ | 16.35+   | Em revisão   | Em revisão         | Em revisão                                                        |
 |[Atividade do usuário relacionada a rótulos de auditoria](data-classification-activity-explorer.md)                      | 2011+ | 16.43+ | 2.46+ | Em implantação: 16.0.13628+ | Sim <sup>\*</sup>                                                        |

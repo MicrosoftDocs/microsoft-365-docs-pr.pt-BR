@@ -16,23 +16,21 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 2aaf3d1c650713a7f6cfb7b9abb9f2232013d6db
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 9fbe2b624bec6bbe17bcf6bc8d3f842ba1e43ad7
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274791"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903727"
 ---
-# <a name="collect-update-compliance-diagnostic-data-for-microsoft-defender-av-assessment"></a>Coletar dados de diagnóstico de Conformidade de Atualização para Avaliação do Microsoft Defender AV
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+# <a name="collect-update-compliance-diagnostic-data-for-microsoft-defender-antivirus-assessment"></a>Coletar dados de diagnóstico de conformidade de atualização para Microsoft Defender Antivírus avaliação
 
 
 **Aplica-se a:**
 
 - [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
 
-Este artigo descreve como coletar dados de diagnóstico que podem ser usados pelas equipes de suporte e engenharia da Microsoft para ajudar a solucionar problemas que você pode encontrar ao usar a seção Avaliação do Microsoft Defender AV no complemento Conformidade de Atualização.
+Este artigo descreve como coletar dados de diagnóstico que podem ser usados pelas equipes de suporte e engenharia da Microsoft para ajudar a solucionar problemas que você pode encontrar ao usar Microsoft Defender Antivírus seção Avaliação do Microsoft Defender Antivírus no complemento Conformidade de Atualização.
 
 Antes de tentar esse processo, certifique-se de ler Solucionar problemas Microsoft Defender Antivírus [relatórios,](troubleshoot-reporting.md)todos os pré-requisitos necessários e tomar quaisquer outras etapas sugeridas de solução de problemas.
 
@@ -42,9 +40,9 @@ Em pelo menos dois dispositivos que não estão relatando ou aparecendo em Confo
         
     a. Abra o menu **Iniciar.**
 
-    b. Digite **cmd**. Clique com o botão direito do mouse **no Prompt de** Comando e clique em Executar como **administrador**.
+    b. Digite **cmd**. Clique com o botão direito do mouse **no Prompt** de Comando e selecione Executar **como administrador**.
 
-    c. Insira credenciais de administrador ou aprove o prompt.
+    c. Especifique credenciais de administrador ou aprove o prompt.
         
 2. Navegue até o Windows Defender diretório. Por padrão, é `C:\Program Files\Windows Defender`
 
@@ -58,7 +56,7 @@ Em pelo menos dois dispositivos que não estão relatando ou aparecendo em Confo
 
 5. Copie esses .cab para um local que pode ser acessado pelo suporte da Microsoft. Um exemplo pode ser uma pasta de OneDrive protegida por senha que você pode compartilhar conosco.
 
-6. Envie um email usando o modelo de email de suporte de Conformidade <a href="mailto:ucsupport@microsoft.com?subject=WDAV assessment issue&body=I%20am%20encountering%20the%20following%20issue%20when%20using%20Windows%20Defender%20AV%20in%20Update%20Compliance%3a%20%0d%0aI%20have%20provided%20at%20least%202%20support%20.cab%20files%20at%20the%20following%20location%3a%20%3Caccessible%20share%2c%20including%20access%20details%20such%20as%20password%3E%0d%0aMy%20OMS%20workspace%20ID%20is%3a%20%0d%0aPlease%20contact%20me%20at%3a">de</a>Atualização e preencha o modelo com as seguintes informações:
+6. Envie um email usando o modelo de email de suporte à conformidade <a href="mailto:ucsupport@microsoft.com?subject=MDAV assessment issue&body=I%20am%20encountering%20the%20following%20issue%20when%20using%20Windows%20Defender%20AV%20in%20Update%20Compliance%3a%20%0d%0aI%20have%20provided%20at%20least%202%20support%20.cab%20files%20at%20the%20following%20location%3a%20%3Caccessible%20share%2c%20including%20access%20details%20such%20as%20password%3E%0d%0aMy%20OMS%20workspace%20ID%20is%3a%20%0d%0aPlease%20contact%20me%20at%3a">de</a>atualização e preencha o modelo com as seguintes informações:
   
     ```
     I am encountering the following issue when using Microsoft Defender Antivirus in Update Compliance:

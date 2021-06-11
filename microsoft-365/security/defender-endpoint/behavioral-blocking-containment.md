@@ -19,16 +19,14 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: a6271c1bd3714cfdffc606b7ada9b027e394216d
-ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
+ms.openlocfilehash: f2de1f6bf35f4454ed6ab286c0bc8004a0d6301b
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52866722"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904063"
 ---
 # <a name="behavioral-blocking-and-containment"></a>Bloqueio e contenção comportamental
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -60,13 +58,13 @@ A imagem a seguir mostra um exemplo de alerta que foi disparado por recursos de 
 
 ## <a name="components-of-behavioral-blocking-and-containment"></a>Componentes de bloqueio comportamental e contenção
 
-- **Regras de redução [](attack-surface-reduction.md)** de superfície de ataque orientadas por política no cliente Comportamentos de ataque comuns predefinidos são impedidos de executar, de acordo com suas regras de redução de superfície de ataque. Quando esses comportamentos tentam ser executados, eles podem ser vistos no Central de Segurança do Microsoft Defender [https://securitycenter.windows.com](https://securitycenter.windows.com) como alertas informacionais. (As regras de redução de superfície de ataque não estão habilitadas por padrão; você configura suas políticas no Central de Segurança do Microsoft Defender.)
+- **Regras de redução [](attack-surface-reduction.md)** de superfície de ataque orientadas por política no cliente Comportamentos de ataque comuns predefinidos são impedidos de executar, de acordo com suas regras de redução de superfície de ataque. Quando esses comportamentos tentam ser executados, eles podem ser vistos no Microsoft 365 Defender ( [https://security.microsoft.com](https://security.microsoft.com) ) como alertas informacionais. As regras de redução de superfície de ataque não estão habilitadas por padrão; você configura suas políticas no [Microsoft 365 Defender](microsoft-defender-security-center.md).
 
 - **[Bloqueio comportamental do cliente](client-behavioral-blocking.md)** As ameaças nos pontos de extremidade são detectadas por meio do aprendizado de máquina e, em seguida, são bloqueadas e corrigidas automaticamente. (O bloqueio comportamental do cliente está habilitado por padrão.) 
 
 - **[Bloqueio de loop de feedback](feedback-loop-blocking.md)** (também conhecido como proteção rápida) As detecções de ameaças são observadas por meio de inteligência comportamental. As ameaças são interrompidas e impedidas de executar em outros pontos de extremidade. (O bloqueio de loop de feedback está habilitado por padrão.) 
 
-- Detecção e resposta do ponto de extremidade **[(EDR) no modo de bloqueio](edr-in-block-mode.md)** Artefatos mal-intencionados ou comportamentos observados por meio da proteção pós-violação são bloqueados e contidos. EDR no modo de bloqueio funciona mesmo que Microsoft Defender Antivírus não seja a solução antivírus principal. (EDR no modo de bloqueio não está habilitado por padrão; você o ativa no Central de Segurança do Microsoft Defender.) 
+- Detecção e resposta do ponto de extremidade **[(EDR) no modo de bloqueio](edr-in-block-mode.md)** Artefatos mal-intencionados ou comportamentos observados por meio da proteção pós-violação são bloqueados e contidos. EDR no modo de bloqueio funciona mesmo que Microsoft Defender Antivírus não seja a solução antivírus principal. (EDR no modo de bloqueio não está habilitado por padrão; você o ativa no Microsoft 365 Defender.) 
 
 Espere mais na área de bloqueio comportamental e contenção, pois a Microsoft continua a melhorar recursos e recursos de proteção contra ameaças. Para ver o que está planejado e a implantação agora, visite o [mapa Microsoft 365 .](https://www.microsoft.com/microsoft-365/roadmap)
 
@@ -97,9 +95,9 @@ Modelos de aprendizado de dispositivo baseado em comportamento no Defender para 
 - A primeira camada de proteção detectou o comportamento de exploração. Os classificadores de aprendizado de dispositivo na nuvem identificaram corretamente a ameaça como e imediatamente instruiram o dispositivo cliente a bloquear o ataque.
 - A segunda camada de proteção, que ajudou a parar os casos em que o ataque passou pela primeira camada, detectou o esvaziamento do processo, interrompeu esse processo e removeu os arquivos correspondentes (como o Desbot). 
 
-Enquanto o ataque era detectado e interrompido, alertas, como um "alerta de acesso inicial", eram disparados e apareciam no Central de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ):
+Enquanto o ataque era detectado e interrompido, alertas, como um "alerta de acesso inicial", eram [disparados](microsoft-defender-security-center.md) e apareciam no portal do Microsoft 365 Defender (anteriormente o Central de Segurança do Microsoft Defender):
 
-:::image type="content" source="images/behavblockcontain-initialaccessalert.png" alt-text="Alerta de acesso inicial no Central de Segurança do Microsoft Defender":::
+:::image type="content" source="images/behavblockcontain-initialaccessalert.png" alt-text="Alerta de acesso inicial no portal Microsoft 365 Defender":::
 
 Este exemplo mostra como os modelos de aprendizado de dispositivos baseados em comportamento na nuvem adicionam novas camadas de proteção contra ataques, mesmo depois de eles iniciarem a execução.
 

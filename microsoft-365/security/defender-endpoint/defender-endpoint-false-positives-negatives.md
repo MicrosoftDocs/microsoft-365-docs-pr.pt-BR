@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: 368de770f772dc75a366b2120c8824fda6a7ba11
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 1cd29c3a631334ee3a2791cca3c7ac1c83a1692f
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933584"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903823"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>Endereços falsos positivos/negativos no Microsoft Defender para Ponto de Extremidade
 
@@ -41,7 +41,7 @@ Em soluções de proteção de ponto de extremidade, um falso positivo é uma en
 
 ![Definição de falsos positivos e negativos no Defender para Ponto de Extremidade](images/false-positives-overview.png)
 
-Felizmente, etapas podem ser tomadas para resolver e reduzir esses tipos de problemas. Se você estiver vendo falsos positivos/negativos em seu Central de Segurança do Microsoft Defender [,](../defender/microsoft-365-security-center-mde.md)suas operações de segurança podem tomar medidas para lidar com eles usando o seguinte processo:
+Felizmente, etapas podem ser tomadas para resolver e reduzir esses tipos de problemas. Se você estiver vendo falsos positivos/negativos no [Microsoft 365 Defender](microsoft-defender-security-center.md) (anteriormente o Central de Segurança do Microsoft Defender), suas operações de segurança podem tomar medidas para lidar com eles usando o seguinte processo:
 
 1.  [Revisar e classificar alertas](#part-1-review-and-classify-alerts) 
 2.  [Revisar ações de correção que foram tomadas](#part-2-review-remediation-actions)
@@ -66,7 +66,7 @@ Gerenciar seus alertas e classificar verdadeiros/falsos positivos ajuda a treina
 
 Antes de classificar ou suprimir um alerta, determine se o alerta é preciso, falso positivo ou benigno.
 
-1. Vá para o Central de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ) e entre.
+1. Vá para o portal Microsoft 365 Defender ( [https://security.microsoft.com](https://security.microsoft.com) ) e entre.
 
 2. No painel de navegação, escolha **Fila de alertas**.
 
@@ -82,9 +82,9 @@ Antes de classificar ou suprimir um alerta, determine se o alerta é preciso, fa
 
 ### <a name="classify-an-alert"></a>Classificar um alerta
 
-Os alertas podem ser classificados como falsos positivos ou verdadeiros positivos no Central de Segurança do Microsoft Defender. Classificar alertas ajuda a treinar o Microsoft Defender para o Ponto de Extremidade para que, ao longo do tempo, você veja mais alertas verdadeiros e menos alertas falsos.
+Os alertas podem ser classificados como falsos positivos ou verdadeiros positivos no Microsoft 365 Defender. Classificar alertas ajuda a treinar o Microsoft Defender para o Ponto de Extremidade para que, ao longo do tempo, você veja mais alertas verdadeiros e menos alertas falsos.
 
-1. Vá para o Central de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ) e entre.
+1. Vá para o portal Microsoft 365 Defender ( [https://security.microsoft.com](https://security.microsoft.com) ) e entre.
 
 2. Selecione **Fila de alertas** e selecione um alerta.
 
@@ -97,9 +97,9 @@ Os alertas podem ser classificados como falsos positivos ou verdadeiros positivo
 
 ### <a name="suppress-an-alert"></a>Suprimir um alerta
 
-Se você tiver alertas que sejam falsos positivos ou que sejam verdadeiros positivos, mas para eventos sem importância, você poderá suprimir esses alertas no Central de Segurança do Microsoft Defender. A supressão de alertas ajuda a reduzir o ruído no painel de operações de segurança. 
+Se você tiver alertas que sejam falsos positivos ou verdadeiros positivos, mas para eventos sem importância, você poderá suprimir esses alertas no Microsoft 365 Defender. A supressão de alertas ajuda a reduzir o ruído no painel de operações de segurança. 
 
-1. Vá para o Central de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ) e entre.
+1. Vá para o portal Microsoft 365 Defender ( [https://security.microsoft.com](https://security.microsoft.com) ) e entre.
 
 2. No painel de navegação, selecione **Fila de alertas**.
 
@@ -135,7 +135,7 @@ Quando terminar de revisar e desfazer as ações que foram tomadas como resultad
 
 ### <a name="review-completed-actions"></a>Revisar ações concluídas
 
-1. Vá para a Central de Ações ( [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) ) e entre. 
+1. Vá para a Central de Ações ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) e entre. 
 
 2. Selecione a **guia Histórico** para exibir uma lista de ações que foram realizadas.  
 
@@ -143,7 +143,7 @@ Quando terminar de revisar e desfazer as ações que foram tomadas como resultad
 
 ### <a name="restore-a-quarantined-file-from-the-action-center"></a>Restaurar um arquivo em quarentena do Centro de Ações
 
-1. Vá para a Central de Ações ( [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) ) e entre.
+1. Vá para a Central de Ações ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) e entre. 
 
 2. Na guia **Histórico,** selecione uma ação que você deseja desfazer.
 
@@ -151,7 +151,7 @@ Quando terminar de revisar e desfazer as ações que foram tomadas como resultad
 
 ### <a name="undo-multiple-actions-at-one-time"></a>Desfazer várias ações ao mesmo tempo
 
-1. Vá para a Central de Ações ( [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) ) e entre.
+1. Vá para a Central de Ações ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) e entre. 
 
 2. Na guia **Histórico,** selecione as ações que você deseja desfazer.
 
@@ -162,7 +162,7 @@ Quando terminar de revisar e desfazer as ações que foram tomadas como resultad
 > [!div class="mx-imgBorder"]
 > ![Arquivo de quarentena](images/autoir-quarantine-file-1.png)
 
-1. Vá para a Central de Ações ( [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) ) e entre.
+1. Vá para a Central de Ações ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) e entre. 
 
 2. Na guia **Histórico,** selecione um arquivo que tenha o arquivo De quarentena tipo **ação.**
 
@@ -184,15 +184,12 @@ Você pode reverter e remover um arquivo da quarentena se tiver determinado que 
     "ProgramFiles%\Windows Defender\MpCmdRun.exe" –Restore –Name EUS:Win32/CustomEnterpriseBlock –All
     ```
 
-    > [!NOTE]
-    > Em alguns cenários, **o ThreatName** pode aparecer como: `EUS:Win32/
-CustomEnterpriseBlock!cl` . O Defender for Endpoint restaurará todos os arquivos bloqueados personalizados que foram colocados em quarentena neste dispositivo nos últimos 30 dias.
-
     > [!IMPORTANT]
+    > Em alguns cenários, **o ThreatName** pode aparecer como `EUS:Win32/
+      CustomEnterpriseBlock!cl` . O Defender for Endpoint restaurará todos os arquivos bloqueados personalizados que foram colocados em quarentena neste dispositivo nos últimos 30 dias.
     > Um arquivo que foi colocado em quarentena como uma possível ameaça de rede pode não ser recuperável. Se um usuário tentar restaurar o arquivo após a quarentena, esse arquivo pode não estar acessível. Isso pode ser devido ao sistema não ter mais credenciais de rede para acessar o arquivo. Normalmente, isso é resultado de um logoff temporário em um sistema ou pasta compartilhada e os tokens de acesso expiraram.
 
 3. No painel no lado direito da tela, selecione Aplicar a X mais **instâncias** deste arquivo e selecione **Desfazer**. 
-
 
 ## <a name="part-3-review-or-define-exclusions"></a>Parte 3: Revisar ou definir exclusões
 
@@ -212,7 +209,7 @@ Os procedimentos nesta seção descrevem como definir exclusões e indicadores.
 Em geral, não é necessário definir exclusões para Microsoft Defender Antivírus. Certifique-se de definir exclusões com moderação e que inclua apenas os arquivos, pastas, processos e arquivos abertos por processo que estão resultando em falsos positivos. Além disso, certifique-se de revisar suas exclusões definidas regularmente. Recomendamos o uso [Microsoft Endpoint Manager](/mem/endpoint-manager-overview) para definir ou editar suas exclusões de antivírus; no entanto, você pode usar outros métodos, como a Política de [Grupo](/azure/active-directory-domain-services/manage-group-policy) (consulte [Manage Microsoft Defender for Endpoint](manage-atp-post-migration.md)).
 
 > [!TIP]
-> Precisa de ajuda com exclusões de antivírus? Consulte [Configure and validate exclusions for Microsoft Defender Antivírus scans](/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus).
+> Precisa de ajuda com exclusões de antivírus? Consulte [Configure and validate exclusions for Microsoft Defender Antivírus scans](configure-exclusions-microsoft-defender-antivirus.md).
 
 #### <a name="use-microsoft-endpoint-manager-to-manage-antivirus-exclusions-for-existing-policies"></a>Use Microsoft Endpoint Manager para gerenciar exclusões de antivírus (para políticas existentes)
 
@@ -250,7 +247,7 @@ Em geral, não é necessário definir exclusões para Microsoft Defender Antiví
 
 [Indicadores](/microsoft-365/security/defender-endpoint/manage-indicators) (especificamente, indicadores de comprometimento ou IoCs) permitem que sua equipe de operações de segurança defina a detecção, prevenção e exclusão de entidades. Por exemplo, você pode especificar determinados arquivos a serem omitidos de verificações e ações de correção no Microsoft Defender para Ponto de Extremidade. Ou, indicadores podem ser usados para gerar alertas para determinados arquivos, endereços IP ou URLs.
 
-Para especificar entidades como exclusões do Microsoft Defender para Ponto de Extremidade, crie indicadores de "permitir" para essas entidades. Esses indicadores de "permitir" no Microsoft Defender para Ponto de Extremidade se aplicam à proteção de próxima [geração,](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)detecção e resposta de ponto de extremidade [e](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response)investigação automatizada & [correção.](/microsoft-365/security/defender-endpoint/automated-investigations)
+Para especificar entidades como exclusões do Microsoft Defender para Ponto de Extremidade, crie indicadores de "permitir" para essas entidades. Esses indicadores de "permitir" no Microsoft Defender para Ponto de Extremidade se aplicam à proteção de próxima [geração,](microsoft-defender-antivirus-in-windows-10.md)detecção e resposta de ponto de extremidade [e](overview-endpoint-detection-response.md)investigação automatizada & [correção.](/microsoft-365/security/defender-endpoint/automated-investigations)
 
 Os indicadores "Permitir" podem ser criados para:
 
@@ -279,14 +276,15 @@ Antes de criar indicadores para endereços IP, URLs ou domínios, certifique-se 
 - A versão do cliente antimalware é 4.18.1906.x ou posterior 
 - Os dispositivos estão executando Windows 10 versão 1709 ou posterior 
 
-Indicadores de rede personalizados são ativos no Central de Segurança do Microsoft Defender (consulte [Recursos avançados](/microsoft-365/security/defender-endpoint/advanced-features))   
+Indicadores de rede personalizados são ativos no [Microsoft 365 Defender](microsoft-defender-security-center.md). Para saber mais, confira [Recursos avançados](/microsoft-365/security/defender-endpoint/advanced-features).
 
 #### <a name="indicators-for-application-certificates"></a>Indicadores para certificados de aplicativo 
 
 Quando você [cria um indicador de "permitir"](/microsoft-365/security/defender-endpoint/indicator-certificates)para um certificado de aplicativo, ele ajuda a impedir que aplicativos, como aplicativos desenvolvidos internamente, que sua organização usa para serem bloqueados. `.CER` ou `.PEM` extensões de arquivo são suportadas.   
 
 Antes de criar indicadores para certificados de aplicativo, certifique-se de que os seguintes requisitos sejam atendidos:
-- Microsoft Defender Antivírus é configurado com a proteção baseada em nuvem habilitada (consulte Gerenciar proteção [baseada em nuvem](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus))
+
+- Microsoft Defender Antivírus é configurado com a proteção baseada em nuvem habilitada (consulte Gerenciar proteção [baseada em nuvem](deploy-manage-report-microsoft-defender-antivirus.md))
 - A versão do cliente antimalware é 4.18.1901.x ou posterior 
 - Os dispositivos estão executando Windows 10 versão 1703 ou posterior; Windows Server 2016; ou Windows Server 2019 
 - As definições de proteção contra vírus e ameaças estão atualizadas  
@@ -444,7 +442,7 @@ Dependendo do [](/microsoft-365/security/defender-endpoint/automation-levels) n�
 
 Se você tiver trabalhado em todas as etapas deste artigo e ainda precisar de ajuda, entre em contato com o suporte técnico.
 
-1. Vá para o Central de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ) e entre.
+1. Vá para o Microsoft 365 Defender ( [https://security.microsoft.com](https://security.microsoft.com) ) e entre.
 
 2. No canto superior direito, selecione o ponto de interrogação (**?**) e selecione **Suporte da Microsoft**.
 
@@ -454,4 +452,4 @@ Se você tiver trabalhado em todas as etapas deste artigo e ainda precisar de aj
 
 [Gerenciar o Microsoft Defender para Ponto de Extremidade](manage-atp-post-migration.md)
 
-[Visão geral da Central de Segurança do Microsoft Defender](/microsoft-365/security/defender-endpoint/use) 
+[Visão geral do Microsoft 365 portal do Defender](/microsoft-365/security/defender-endpoint/use) 

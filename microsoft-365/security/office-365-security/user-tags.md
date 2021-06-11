@@ -16,12 +16,12 @@ ms.collection:
 description: Os administradores podem aprender a identificar grupos específicos de usuários com marcas de usuário no Microsoft Defender para Office 365 Plano 2. A filtragem de marca está disponível em alertas, relatórios e investigações no Microsoft Defender para Office 365 identificar rapidamente os usuários marcados.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1fb948d63f7bc42839d6fae8a2138d4ad48d81f6
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 105e927e50f7b1d1217587587b8d7ee3b7d6bd4c
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879163"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904099"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Marcas de usuário no Microsoft Defender para Office 365
 
@@ -41,7 +41,9 @@ Se sua organização tiver o Defender para Office 365 Plano 2 (incluído na sua 
 Depois de aplicar marcas de sistema ou marcas personalizadas aos usuários, você pode usar essas marcas como filtros em alertas, relatórios e investigações:
 
 - [Alertas](alerts.md)
+- [Políticas de alerta personalizadas](../../compliance/alert-policies.md#viewing-alerts)
 - [Explorador de Ameaças e detecções em tempo real](threat-explorer.md)
+- [Página de entidade de email](mdo-email-entity-page.md#other-innovations)
 - [Relatório de status de proteção contra ameaças](view-email-security-reports.md#threat-protection-status-report)
 - [Modos de Exibição de Campanha](campaigns.md)
 - Para contas prioritárias, você pode usar o [relatório Problemas de email](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) para contas prioritárias no centro de administração Exchange (EAC).
@@ -52,7 +54,7 @@ Para ver como as marcas de usuário fazem parte da estratégia para ajudar a pro
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Você abre o portal Microsoft 365 Defender em <https://security.microsoft.com/> . Para ir diretamente para a **página Marcas de** usuário, abra <https://security.microsoft.com/securitysettings/userTags> .
+- Abra o portal do Microsoft 365 Defender em <https://security.microsoft.com/>. Para ir diretamente para a **página Marcas de** usuário, abra <https://security.microsoft.com/securitysettings/userTags> .
 
 - Você precisa ter permissões atribuídas no portal Microsoft 365 Defender antes de poder fazer os procedimentos neste artigo:
   - Para criar, modificar e excluir marcas de usuário, você precisa ser membro dos grupos de função Gerenciamento da Organização **ou** Administrador **de** Segurança.

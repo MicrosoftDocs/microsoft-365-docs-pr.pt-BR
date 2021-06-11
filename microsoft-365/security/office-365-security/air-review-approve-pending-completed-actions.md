@@ -18,13 +18,13 @@ ms.collection:
 description: Saiba mais sobre ações de correção em recursos automatizados de investigação e resposta no Microsoft Defender para Office 365 Plano 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.date: 01/29/2021
-ms.openlocfilehash: 525f6cf922f80067219f6c33a2c11559e9e58a39
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.date: 06/10/2021
+ms.openlocfilehash: 7894a9aa38239bf661c809cce96ea2a2a96c3725
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878767"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904123"
 ---
 # <a name="review-and-manage-remediation-actions-in-office-365"></a>Analisar e gerenciar ações de correção em Office 365
 
@@ -52,16 +52,16 @@ Essas ações de correção não serão tomadas, a menos que e até que sua equi
    - Selecione **Aprovar** para iniciar uma ação pendente.
    - Selecione **Rejeitar** para impedir que uma ação pendente seja tomada.
 
-## <a name="undo-one-remediation-action"></a>Desfazer uma ação de correção
+## <a name="change-or-undo-one-remediation-action"></a>Alterar ou desfazer uma ação de correção
 
 1. Vá para a Central de Ações ( <https://security.microsoft.com/action-center> ) e entre.
-2. Na guia **Histórico,** selecione uma ação que você deseja desfazer.
+2. Na guia **Histórico,** selecione uma ação que você deseja alterar ou desfazer.
 3. No painel no lado direito da tela, selecione **Desfazer**.
 
-## <a name="undo-multiple-remediation-actions"></a>Desfazer várias ações de correção
+## <a name="change-or-undo-multiple-remediation-actions"></a>Alterar ou desfazer várias ações de correção
 
 1. Vá para a Central de Ações ( <https://security.microsoft.com/action-center> ) e entre.
-2. Na guia **Histórico,** selecione as ações que você deseja desfazer. Certifique-se de selecionar itens que tenham o mesmo tipo de Ação. Um painel de sobrevoo é aberto.
+2. Na guia **Histórico,** selecione as ações que você deseja alterar ou desfazer. Certifique-se de selecionar itens que tenham o mesmo tipo de Ação. Um painel de sobrevoo é aberto.
 3. No painel de sobrevoos, selecione Desfazer.
 
 ## <a name="to-remove-a-file-from-quarantine-across-multiple-devices"></a>Para remover um arquivo da quarentena em vários dispositivos
