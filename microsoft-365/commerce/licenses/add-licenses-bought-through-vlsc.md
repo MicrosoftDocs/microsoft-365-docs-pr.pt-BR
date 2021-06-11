@@ -18,7 +18,7 @@ ms.custom:
 - commerce_licensing
 search.appverid: MET150
 ROBOTS: NOINDEX
-description: Saiba como adicionar licenças à sua assinatura do Microsoft 365 comprada por meio do parceiro de terceiros, reconhecido pela Microsoft.
+description: Saiba como adicionar licenças à sua assinatura Microsoft 365 adquirida por meio do parceiro de terceiros, reconhecido pela Microsoft.
 ms.date: 04/07/2021
 ms.openlocfilehash: 0e2a3779ae7d93eaaea660209bbc86a6843b553c
 ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
@@ -29,7 +29,7 @@ ms.locfileid: "52331749"
 ---
 # <a name="add-licenses-to-a-subscription-purchased-through-the-volume-licensing-service-center"></a>Adicionar licenças a uma assinatura adquirida pelo Centro de Serviços de Licenciamento por Volume
 
-Se você comprou seu plano do Microsoft 365 para empresas ou do Office 365 Enterprise por meio de um parceiro de terceiros, você deve comprar licenças adicionais por meio desse parceiro. Se o parceiro que forneceu a assinatura for conhecido pela Microsoft, você pode descobrir como entrar em contato com seu parceiro usando o procedimento a seguir.
+Se você comprou seu Microsoft 365 para empresas ou Office 365 Enterprise por meio de um parceiro de terceiros, você deve comprar licenças adicionais por meio desse parceiro. Se o parceiro que forneceu a assinatura for conhecido pela Microsoft, você pode descobrir como entrar em contato com seu parceiro usando o procedimento a seguir.
   
 ::: moniker range="o365-worldwide"
 

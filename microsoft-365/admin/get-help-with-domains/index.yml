@@ -3,7 +3,7 @@ title: Gerenciar domínios
 summary: Confira esses recursos com tarefas comuns de domínios ou consulte o painel de navegação à esquerda para uma lista completa.
 metadata:
   title: Gerenciar domínios
-  description: Gerencie todos os aspectos dos domínios no Microsoft 365.
+  description: Gerencie todos os aspectos dos domínios Microsoft 365.
   ms.service: O365-administration
   ms.topic: landing-page
   author: pebaum
@@ -38,7 +38,7 @@ landingContent:
     links:
     - text: Transferir um domínio da Microsoft para outro host
       url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host
-- title: Piloto do Microsoft 365
+- title: Piloto Microsoft 365
   linkLists:
   - linkListType: how-to-guide
     links:

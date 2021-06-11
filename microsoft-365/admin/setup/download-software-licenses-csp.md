@@ -28,7 +28,7 @@ ms.locfileid: "52332397"
 ---
 # <a name="download-perpetual-software-and-product-license-keys"></a>Baixar chaves de licença de produto e software perpétuo
 
-Este artigo explica como baixar chaves de licença de software e produto para softwares perpétuos comprados por meio do programa provedor de soluções na nuvem (CSP).
+Este artigo explica como baixar chaves de licença de software e produto para softwares perpétuos comprados por meio do programa Provedor de Soluções na Nuvem (CSP).
 
 ## <a name="before-you-begin"></a>Antes de começar
 

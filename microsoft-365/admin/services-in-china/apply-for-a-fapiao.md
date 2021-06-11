@@ -109,7 +109,7 @@ Quando Fapiao estiver fora de uso, o sistema exibirá um aviso e indicará o tem
   
 ![A mensagem de erro exibida quando o sistema de gerenciamento do 21Vianet Fapiao está fora de uso.](../../media/effe0796-83aa-4a91-a488-15d6f58c01dc.png)
   
-## <a name="faqs"></a>Perguntas frequentes
+## <a name="faqs"></a>Perguntas Frequentes
 
 ### <a name="what-services-can-i-get-from-online-support"></a>Quais serviços posso obter com o suporte online?
 

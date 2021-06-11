@@ -55,7 +55,7 @@ O restante deste artigo descreve como configurar essas políticas.
 
 Para dar tempo para realizar essas tarefas, recomendamos implementar as políticas de linha de base na ordem listada nesta tabela. No entanto, as políticas de MFA para níveis de proteção confidenciais e altamente regulamentados podem ser implementadas a qualquer momento.
 
-|Nível de Proteção|Políticas|Mais informações|Licenças|
+|Nível de Proteção|Políticas|Mais informações|Licenciamento|
 |---|---|---|---|
 |**Baseline**|[Exigir MFA quando o risco de entrar é *médio* ou *alto*](#require-mfa-based-on-sign-in-risk)||Microsoft 365 E5 ou Microsoft 365 E3 com o complemento segurança do E5|
 ||[Bloquear clientes sem suporte para a autenticação moderna](#block-clients-that-dont-support-multi-factor)|Os clientes que não usam autenticação moderna podem ignorar políticas de Acesso Condicional, portanto, é importante bloqueá-los.|Microsoft 365 E3 ou E5|
@@ -125,7 +125,7 @@ Na seção **Atribuições:**
 
 Aplique as configurações de nível de risco com base no nível de proteção que você está direcionando.
 
-|Nível de proteção|Valores de nível de risco necessários|Ação|
+|Nível de proteção|Valores de nível de risco necessários|Action|
 |---|---|---|
 |Linha de base|Alto, médio|Verifique ambos.|
 |Confidencial|Alto, médio, baixo|Verifique todos os três.|
@@ -134,7 +134,7 @@ Aplique as configurações de nível de risco com base no nível de proteção q
 
 Na seção **Controles do Access:**
 
-|Configuração|Propriedades|Valores|Ação|
+|Configuração|Propriedades|Valores|Action|
 |---|---|---|---|
 |Conceder|**Grant access**||Selecionar|
 |||**Exigir autenticação multifa factor**|Cheque|
@@ -165,7 +165,7 @@ Na seção **Atribuições:**
 
 Na seção **Controles do Access:**
 
-|Configuração|Propriedades|Valores|Ação|
+|Configuração|Propriedades|Valores|Action|
 |---|---|---|---|
 |Conceder|**Bloquear acesso**||Selecionar|
 ||**Exigir todos os controles selecionados**||Selecionar|
@@ -187,7 +187,7 @@ Faça logon no [Portal do Microsoft Azure (https://portal.azure.com)](https://po
 
 Na seção **Atribuições:**
 
-|Tipo|Propriedades|Valores|Ação|
+|Tipo|Propriedades|Valores|Action|
 |---|---|---|---|
 |Usuários|Incluir|**Todos os usuários**|Selecionar|
 |Risco do usuário|**High**||Selecionar|
@@ -195,7 +195,7 @@ Na seção **Atribuições:**
 
 Na segunda seção **Atribuições:**
 
-|Tipo|Propriedades|Valores|Ação|
+|Tipo|Propriedades|Valores|Action|
 |---|---|---|---|
 |Access|**Permitir acesso**||Selecionar|
 |||**Requer a alteração de senha**|Cheque|
@@ -294,7 +294,7 @@ As configurações a seguir são recomendadas para os PCs que executam Windows 1
 
 Para **regras de avaliação** do serviço de atestado de > Windows de saúde do dispositivo, consulte esta tabela.
 
-|Propriedades|Valor|Ação|
+|Propriedades|Valor|Action|
 |---|---|---|
 |Exigir BitLocker|Exigir|Selecionar|
 |Exigir que a inicialização segura seja habilitada no dispositivo|Exigir|Selecionar|
@@ -307,7 +307,7 @@ Para **Conformidade do Configuration Manager,** selecione **Exigir**.
 
 Para **segurança do** sistema, consulte esta tabela.
 
-|Tipo|Propriedades|Valor|Ação|
+|Tipo|Propriedades|Valor|Action|
 |---|---|---|---|
 |Password|Exigir uma senha para desbloquear dispositivos móveis|Exigir|Selecionar|
 ||Senhas simples|Bloquear|Selecionar|
@@ -329,7 +329,7 @@ Para **segurança do** sistema, consulte esta tabela.
 
 #### <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender para Ponto de Extremidade
 
-|Tipo|Propriedades|Valor|Ação|
+|Tipo|Propriedades|Valor|Action|
 |---|---|---|---|
 |Regras do Microsoft Defender para Ponto de Extremidade no Microsoft Endpoint Manager de administração|[Exigir que o dispositivo seja em ou sob a pontuação de risco da máquina](/mem/intune/protect/advanced-threat-protection-configure#create-and-assign-compliance-policy-to-set-device-risk-level)|Médio|Selecionar|
 |

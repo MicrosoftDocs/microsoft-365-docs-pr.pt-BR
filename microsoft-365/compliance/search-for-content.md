@@ -1,5 +1,5 @@
 ---
-title: Procurar conteúdo
+title: Pesquisar conteúdo
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -24,7 +24,7 @@ ms.locfileid: "52333681"
 
 Use a ferramenta Pesquisa de Conteúdo no Centro de Conformidade & Segurança para encontrar rapidamente emails em caixas de correio do Exchange, documentos em sites SharePoint e locais OneDrive e conversas de mensagens instantâneas no Skype for Business. Você pode usar a ferramenta de pesquisa de conteúdo para pesquisar emails, documentos e conversas de mensagens instantâneas em ferramentas de colaboração, como Microsoft Teams e Microsoft 365 Grupos.
   
-## <a name="search-for-content"></a>Procurar conteúdo
+## <a name="search-for-content"></a>Pesquisar conteúdo
 
 A primeira etapa é começar a usar a ferramenta Pesquisa de Conteúdo para escolher locais de conteúdo para pesquisar e configurar uma consulta de palavra-chave para pesquisar itens específicos. Ou você pode deixar a consulta em branco e retornar todos os itens nos locais de destino.
   

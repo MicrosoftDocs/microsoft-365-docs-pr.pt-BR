@@ -61,7 +61,7 @@ Precisa de ajuda? Consulte a documentação do provedor de soluções.
 
 Precisa de ajuda para atualizar os dispositivos da sua organização? Consulte os seguintes recursos:
 
-|SISTEMA OPERACIONAL | Resource |
+|SISTEMA OPERACIONAL | Recurso |
 |:--|:--|
 |Windows |[Microsoft Update](https://www.update.microsoft.com) |
 |macOS | [Como atualizar o software em seu Mac](https://support.apple.com/HT201541)|

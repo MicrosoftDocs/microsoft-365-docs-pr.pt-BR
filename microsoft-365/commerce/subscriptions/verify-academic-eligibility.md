@@ -1,5 +1,5 @@
 ---
-title: Verificar a qualificação acadêmica para assinaturas do Microsoft 365 Education
+title: Verificar a qualificação acadêmica para Microsoft 365 Education assinaturas
 f1.keywords:
 - CSH
 - FWLink-2135711
@@ -18,7 +18,7 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
 search.appverid: MET150
-description: Saiba como verificar a qualificação da sua escola para preços acadêmicos do Microsoft 365 Education.
+description: Saiba como verificar a qualificação da sua escola para Microsoft 365 Education preços acadêmicos.
 ms.date: 07/21/2020
 ms.openlocfilehash: 7da6fbc73ece51c5d9b845487e344bbbdec679cf
 ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
@@ -27,22 +27,22 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/12/2021
 ms.locfileid: "52333081"
 ---
-# <a name="verify-academic-eligibility-for-microsoft-365-education-subscriptions"></a>Verificar a qualificação acadêmica para assinaturas do Microsoft 365 Education
+# <a name="verify-academic-eligibility-for-microsoft-365-education-subscriptions"></a>Verificar a qualificação acadêmica para Microsoft 365 Education assinaturas
 
-Se você faz parte de uma instituição acadêmica, pode inscrever-se para uma avaliação gratuita do Microsoft 365 Education. Depois que a Microsoft verificar a qualificação acadêmica de sua escola, você poderá comprar produtos do Microsoft 365 a preços acadêmicos. Isso inclui produtos que estão disponíveis gratuitamente, como o Office 365 A1 para professores e o Office 365 A1 para alunos. Você tem até o final da avaliação gratuita para convertê-la em uma assinatura paga a preços acadêmicos.
+Se você faz parte de uma instituição acadêmica, pode inscrever-se para uma avaliação gratuita de Microsoft 365 Education. Depois que a Microsoft verificar a qualificação acadêmica da sua escola, você poderá comprar Microsoft 365 produtos a preços acadêmicos. Isso inclui produtos que estão disponíveis gratuitamente, como Office 365 A1 para professores e Office 365 A1 para alunos. Você tem até o final da avaliação gratuita para convertê-la em uma assinatura paga a preços acadêmicos.
 
 Este artigo descreve como verificar a qualificação acadêmica da sua escola, verificar o status de qualificação e comprar assinaturas a preços acadêmicos depois que sua escola for aprovada.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Você já deve ter uma assinatura de avaliação do Microsoft 365 Education. Se você não tiver uma assinatura de avaliação, [visite esta página da Web](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1) e selecione Começar **gratuitamente**.
+Você já deve ter uma assinatura de Microsoft 365 Education de avaliação. Se você não tiver uma assinatura de avaliação, [visite esta página da Web](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1) e selecione Começar **gratuitamente**.
 
 ## <a name="verify-that-you-have-a-trial-subscription"></a>Verifique se você tem uma assinatura de avaliação
 
-Se você não tiver certeza se tem uma assinatura de avaliação do Microsoft 365 Education, use estas etapas para verificar se você tem.
+Se você não tiver certeza se tem uma assinatura de Microsoft 365 Education de avaliação, use estas etapas para verificar se você tem.
 
-1. No Centro de administração do Microsoft 365, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">seus</a> produtos.
-2. Procure o **Office 365 A1 para Avaliação de** Professores e **o Office 365 A1 para Avaliação de alunos.** Se você não encontrar essas assinaturas, visite [esta página da Web](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1) e selecione Começar **gratuitamente**.
+1. No centro Microsoft 365 de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">seus</a> produtos.
+2. Procure por **Office 365 A1 Avaliação de professores** e Office 365 A1 para **Avaliação de alunos.** Se você não encontrar essas assinaturas, visite [esta página da Web](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1) e selecione Começar **gratuitamente**.
 
 ## <a name="verify-your-schools-academic-eligibility"></a>Verificar a qualificação acadêmica da sua escola
 
@@ -57,20 +57,20 @@ Se sua qualificação acadêmica for negada, consulte [Minha escola não está q
 
 ## <a name="check-the-status-of-your-schools-academic-eligibility"></a>Verifique o status da qualificação acadêmica de sua escola
 
-Depois de ter uma avaliação do Microsoft 365 Education, você pode verificar o status da qualificação acadêmica da sua escola a qualquer momento.
+Depois de fazer uma Microsoft 365 Education, você pode verificar o status da qualificação acadêmica da sua escola a qualquer momento.
 
-1. Vá para o Centro de administração [do Microsoft 365.](https://go.microsoft.com/fwlink/p/?linkid=2024339)
+1. Vá para o centro [de administração Microsoft 365.](https://go.microsoft.com/fwlink/p/?linkid=2024339)
 2. Na home page, encontre o **cartão de** cobrança.\
     O **cartão de** cobrança indica o status do processo de verificação. O cartão mostra um dos seguintes status: aprovado, pendente, recusado ou adicionar seu domínio.
 
     > [!NOTE]
-    > Se você não vir um desses status, isso significa que você não tem uma assinatura de avaliação do Microsoft 365 Education. Para iniciar uma avaliação gratuita, [visite esta página da Web](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1) e selecione Começar **gratuitamente**.
+    > Se você não vir um desses status, isso significa que você não tem uma assinatura de Microsoft 365 Education de avaliação. Para iniciar uma avaliação gratuita, [visite esta página da Web](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1) e selecione Começar **gratuitamente**.
 
 ## <a name="buy-subscriptions-at-academic-prices"></a>Comprar assinaturas a preços acadêmicos
 
 Depois que a qualificação da sua escola for verificada, você poderá comprar assinaturas a preços acadêmicos. Você também pode [converter sua avaliação gratuita em uma assinatura paga](../try-or-buy-microsoft-365.md). Se quiser converter sua assinatura de avaliação, faça isso antes do final do período de avaliação.
 
-1. No Centro de administração do Microsoft 365, acesse a página **Serviços de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Compra de</a> Cobrança.
+1. No centro Microsoft 365 de administração, vá para a página **Serviços de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Compra de</a> Cobrança.
 2. Para exibir ofertas acadêmicas, selecione a **guia Educação.**
 
     > [!NOTE]
@@ -83,7 +83,7 @@ Depois que a qualificação da sua escola for verificada, você poderá comprar 
 
 Você pode encontrar a data de expiração para sua assinatura de avaliação gratuita na página **Seus** produtos. Você também pode estender a avaliação.
 
-1. No Centro de administração do Microsoft 365, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">seus</a> produtos.
+1. No centro Microsoft 365 de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">seus</a> produtos.
 2. Encontre a assinatura de avaliação.
 3. Na seção **Cobrança,** em Assinatura **de avaliação gratuita**, a data de expiração é mostrada.
 4. Se você quiser estender a avaliação, selecione **Estender avaliação**. Você só pode fazer isso uma vez por assinatura de avaliação gratuita.
@@ -96,13 +96,13 @@ Se você tiver dúvidas sobre a decisão de qualificação acadêmica da sua [es
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Para saber como implantar o Microsoft 365 para sua escola, visite a documentação e os recursos do [Microsoft 365 Education.](/microsoft-365/education/deploy/) Em seguida, você pode [adicionar usuários e atribuir licenças ao mesmo tempo.](../../admin/add-users/add-users.md) Se precisar, você também pode [comprar mais licenças para sua assinatura.](../licenses/buy-licenses.md)
+Para saber como implantar o Microsoft 365 para sua escola, [visite Microsoft 365 Education documentação e recursos.](/microsoft-365/education/deploy/) Em seguida, você pode [adicionar usuários e atribuir licenças ao mesmo tempo.](../../admin/add-users/add-users.md) Se precisar, você também pode [comprar mais licenças para sua assinatura.](../licenses/buy-licenses.md)
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Documentação do Microsoft 365 Education para administradores de IT](/education/itadmins) (links de artigo)\
-[Microsoft Teams for Education](https://microsoft.com/education/products/teams/default.aspx) (página do produto)\
-[Compreender assinaturas e licenças no Microsoft 365 for business](../licenses/subscriptions-and-licenses.md) (artigo)\
+[Microsoft 365 Education Documentação para Administradores de](/education/itadmins) IT (links de artigo)\
+[Microsoft Teams para Educação](https://microsoft.com/education/products/teams/default.aspx) (página do produto)\
+[Compreender assinaturas e licenças no Microsoft 365 para empresas](../licenses/subscriptions-and-licenses.md) (artigo)\
 [Atribuir licenças aos usuários](../../admin/manage/assign-licenses-to-users.md) (artigo) \
 [Comprar ou remover licenças de assinatura](../licenses/buy-licenses.md) (artigo)\
 [Migrar usuários para uma assinatura diferente](move-users-different-subscription.md) (artigo)

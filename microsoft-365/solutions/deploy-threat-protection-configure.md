@@ -158,7 +158,7 @@ Com o Microsoft Defender para Office 365, as pessoas em toda a sua organização
 
 Depois de configurar e implantar seus serviços e recursos de proteção contra ameaças, a próxima etapa é monitorar detecções de ameaças e tomar as ações apropriadas. Seu melhor ponto de partida é o Microsoft 365 de segurança ( ), onde você pode monitorar e gerenciar a segurança em suas [https://security.microsoft.com](https://security.microsoft.com) identidades, dados, dispositivos, aplicativos e infraestrutura da Microsoft. 
 
-![Centro de segurança do Microsoft 365](../media/solutions-architecture-center/m365-security-center.png)
+![Central de segurança do Microsoft 365](../media/solutions-architecture-center/m365-security-center.png)
 
 O Microsoft 365 de segurança é destinado a administradores de segurança e equipes de operações de segurança. No centro Microsoft 365 segurança, você pode:
 - Exibir a saúde geral da segurança da sua organização com [a Pontuação Segura.](/microsoft-365/security/defender/microsoft-secure-score)

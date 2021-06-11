@@ -1,5 +1,5 @@
 ---
-title: Usar Interoperabilidade de Ferramentas de Aprendizagem do OneDrive
+title: Usar OneDrive interoperabilidade de ferramentas de aprendizagem
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -12,7 +12,7 @@ f1.keywords:
 ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-description: Crie e grade atribuições, crie e crie e crie conteúdo do curso de cura e colabore em arquivos em tempo real com o novo Aplicativo de Interoperabilidade de Ferramentas de Aprendizagem do OneDrive.
+description: Crie e grade atribuições, crie e crie e crie conteúdo do curso e colabore em arquivos em tempo real com o novo aplicativo de interoperabilidade de ferramentas de aprendizagem OneDrive de aprendizagem.
 ms.openlocfilehash: 97baf3e524e483e879d00f5e0c8495b450e13c92
 ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
@@ -20,16 +20,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/11/2021
 ms.locfileid: "52327677"
 ---
-# <a name="use-microsoft-onedrive-with-your-learning-management-system"></a>Usar o Microsoft OneDrive com seu Sistema de Gerenciamento de Aprendizagem
+# <a name="use-microsoft-onedrive-with-your-learning-management-system"></a>Use Microsoft OneDrive com seu Sistema de Gerenciamento de Aprendizagem
 
 > [!IMPORTANT]
 > Algumas informações estão relacionadas a produtos pré-lançados que podem ser substancialmente modificados antes de seu lançamento comercial. A Microsoft não faz garantias, expressas ou implícitas, quanto às informações fornecidas aqui.
 
-Saiba os benefícios de usar o Microsoft OneDrive com seu Sistema de Gerenciamento de Aprendizagem (LMS).
+Saiba os benefícios de usar Microsoft OneDrive com seu Sistema de Gerenciamento de Aprendizagem (LMS).
 
 **Traz Microsoft Office 365 diretamente para seus fluxos de trabalho**
 
-O aplicativo Microsoft OneDrive Learning Tools Interoperability (LTI) integra-se com seu LMS para trazer o Microsoft OneDrive e o Microsoft Office 365 diretamente para seus fluxos de trabalho mais importantes que incluem:
+O Microsoft OneDrive aplicativo de Interoperabilidade de Ferramentas de Aprendizagem (LTI) integra-se ao seu LMS para trazer Microsoft OneDrive e Microsoft Office 365 diretamente para seus fluxos de trabalho mais importantes que incluem:
 
 - Anexando recursos e organizando conteúdo.
 - Iniciando documentos colaborativos.
@@ -41,29 +41,29 @@ O Microsoft OneDrive LTI App é compatível com LTI 1.3 e LTI Advantage. Essa va
 
 **Experiência do usuário moderna e rica**
 
-O Aplicativo LTI do Microsoft OneDrive traz o melhor da Microsoft para sua experiência LMS. Estamos melhorando a integração existente do Office 365 em seu LMS, fornecendo uma experiência de usuário mais moderna, completa com um selador de arquivos do Microsoft OneDrive novo e expandido e experiências de edição mais ricas para arquivos do Office. A Microsoft também será totalmente a propriedade do Microsoft OneDrive LTI App daqui para frente, o que significa que você sempre receberá o mais recente e o melhor da Microsoft automaticamente.
+O Microsoft OneDrive LTI app traz o melhor da Microsoft para sua experiência lms. Estamos melhorando a integração de Office 365 existente em seu LMS, fornecendo uma experiência de usuário mais moderna, completa com um selador de arquivos Microsoft OneDrive novo e expandido e experiências de edição mais ricas para arquivos Office. A Microsoft também será totalmente a Microsoft OneDrive aplicativo LTI daqui para frente, o que significa que você sempre receberá o mais recente e o melhor da Microsoft automaticamente.
 
-O Aplicativo LTI do Microsoft OneDrive permite que você:
+O Microsoft OneDrive LTI App permite que você:
 
-- Anexe arquivos do Office 365, incluindo documentos do Word, apresentações do PowerPoint e o Excel do Editor de Conteúdo Avançado.
+- Anexe Office 365 arquivos, incluindo documentos do Word, PowerPoint apresentações e Excel do Editor de Conteúdo Rico.
 
-- Distribuir atribuições de nuvem do Office 365.
+- Distribua Office 365 de nuvem.
 
-- Exibir e organizar seus arquivos pessoais e claros do Microsoft OneDrive.
+- Exibir e organizar seus arquivos pessoais e Microsoft OneDrive curso.
 
 - Crie colaborações nas quais os membros do curso possam trabalhar juntos em documentos compartilhados em tempo real.
 
-- Acesse várias contas do Microsoft OneDrive, incluindo contas pessoais e de estudante.
+- Acesse várias Microsoft OneDrive, incluindo contas pessoais e de estudante.
 
-- Integre arquivos do Office 365 aos módulos do curso.
+- Integre Office 365 arquivos com seus módulos de curso.
 
 - Use sua conta da Microsoft para fazer o login único com seu LMS.
 
 ## <a name="integrate-with-canvas"></a>Integrar-se ao Canvas
 
-A pessoa que realiza essa integração deve ser um administrador do Canvas e um administrador do locatário do Microsoft 365.
+A pessoa que executa essa integração deve ser um administrador do Canvas e um administrador do Microsoft 365 locatário.
 
-1. Entre no portal do Microsoft Azure com a conta de administrador do locatário. O administrador de locatários do Azure também deve ter a função de administrador de grupo.
+1. Entre no portal Microsoft Azure com a conta de administrador do locatário. O administrador de locatários do Azure também deve ter a função de administrador de grupo.
 
     ![administrador de grupo realçada](../media/lti-media/lti-group-admin.png)
 
@@ -110,9 +110,9 @@ A pessoa que realiza essa integração deve ser um administrador do Canvas e um 
    ![As chaves de desenvolvedor criadas no modo desligado](../media/lti-media/lti-copy-developer-keys.png)
 
 4. Copie o texto realçado.
-    Isso serve como ID do Cliente no portal LTI do Microsoft OneDrive.
+    Isso serve como ID do Cliente no Microsoft OneDrive lti portal.
 
-5. Colar o texto no campo **ID do** Cliente no portal LTI do Microsoft OneDrive e selecione **Next**.
+5. Colar o texto no campo **ID do** Cliente Microsoft OneDrive portal LTI e selecione **Next**.
 
 6. Selecione **Salvar**.
 

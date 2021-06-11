@@ -21,13 +21,13 @@ search.appverid:
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 ms.custom:
 - seo-marvel-apr2020
-description: Saiba mais sobre as propriedades de email e documento que você pode pesquisar usando as ferramentas de pesquisa de Descoberta Microsoft 365.
-ms.openlocfilehash: 1e6612d658ff2fbcbee36b64dab9d352663f75b2
-ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
+description: Saiba mais sobre propriedades de arquivo e email que você pode pesquisar usando as ferramentas de pesquisa de Descoberta Microsoft 365.
+ms.openlocfilehash: 390477012c6a2a57c5e305641ba5b79ff10f4ea7
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52866698"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538430"
 ---
 # <a name="keyword-queries-and-search-conditions-for-ediscovery"></a>Consultas de palavra-chave e condições de pesquisa para Descoberta e Descoberta
 
@@ -252,7 +252,7 @@ Crie uma condição usando propriedades de documento ao pesquisar documentos em 
 |Título|O título do documento. A propriedade Title consiste em metadados que são especificados em documentos do Office. É diferente do nome do arquivo do documento.|
 |Created|A data em que um documento foi criado.|
 |Última modificação|A data em que um documento foi alterado pela última vez.|
-|Tipo de arquivo|A extensão de um arquivo; por exemplo, docx, um, pptx ou xlsx. Essa propriedade é igual à propriedade de site FileExtension. <br/><br/> **Observação:** Se você incluir uma condição  de tipo de arquivo usando Igual ou **Igual** a qualquer operador em uma consulta de pesquisa, não será possível usar uma pesquisa de prefixo (incluindo o caractere curinga ( * ) no final do tipo de arquivo) para retornar todas as versões de um tipo de arquivo. Se fizer isso, o curinga será ignorado. Por exemplo, se você incluir a condição `Equals any of doc*` , somente os arquivos com uma extensão serão `.doc` retornados. Os arquivos com uma extensão `.docx` de não serão retornados. Para retornar todas as versões de um tipo de arquivo, usou o *par property:value* em uma consulta de palavra-chave; por exemplo, `filetype:doc*` .|
+|Tipo de arquivo|A extensão de um arquivo; por exemplo, docx, um, pptx ou xlsx. Essa propriedade é igual à propriedade de site FileExtension.|
 |||
   
 ### <a name="operators-used-with-conditions"></a>Operadores usados com condições
@@ -283,21 +283,21 @@ Ao adicionar uma condição, você pode selecionar um operador que é relevante 
 
 Lembre-se do seguinte ao usar condições de pesquisa.
   
-- Uma condição está logicamente conectada à consulta de palavra-chave (especificada na caixa de palavra-chave) pelo operador **AND**. Isso significa que os itens precisam atender à consulta de palavra-chave e à condição para serem incluídos nos resultados. É assim que as condições ajudam a restringir os resultados.
-  
-- Se você adicionar duas ou mais condições exclusivas a uma consulta de pesquisa (condições que especificam propriedades diferentes), essas condições serão logicamente conectadas pelo operador **AND**. Isso significa que apenas os itens que atenderem a todas as condições (além de qualquer consulta de palavra-chave) serão retornados.
-  
+- Uma condição está logicamente conectada à consulta de palavra-chave (especificada na caixa de palavra-chave) pelo operador **AND**. Isso significa que os itens precisam atender à consulta de palavra-chave e à condição para serem incluídos nos resultados. É assim que as condições ajudam a restringir os resultados. 
+    
+- Se você adicionar duas ou mais condições exclusivas a uma consulta de pesquisa (condições que especificam propriedades diferentes), essas condições serão logicamente conectadas pelo operador **AND**. Isso significa que apenas os itens que atenderem a todas as condições (além de qualquer consulta de palavra-chave) serão retornados. 
+    
 - Se você adicionar mais de uma condição à mesma propriedade, as condições serão logicamente conectadas pelo operador **OR**. Isso significa que os itens que atenderem à consulta de palavra-chave e a qualquer uma das condições serão retornados. Portanto, grupos das mesmas condições são conectados uns aos outros pelo operador **OR**, e conjuntos de condições exclusivas são conectados pelo operador **AND**. 
-  
+    
 - Se você adicionar vários valores (separados por vírgulas ou ponto-e-vírgula) a uma única condição, os valores serão conectados pelo operador **OR**. Isso significa que os itens serão retornados se contiverem qualquer um dos valores especificados para a propriedade na condição. 
-  
-- A consulta de pesquisa criada usando a caixa de palavras-chave e as condições é exibida na página Pesquisa, no painel de detalhes da pesquisa selecionada.  Em uma consulta, tudo à direita da notação indica condições que  `(c:c)` são adicionadas à consulta.
-  
-- As condições apenas adicionam propriedades à consulta de pesquisa; elas não adicionam operadores. É por isso que a consulta exibida no painel de detalhes não mostra operadores à direita da  `(c:c)` notação. A KQL adiciona os operadores lógicos (de acordo com as regras explicadas anteriormente) ao executar a consulta.
-  
+    
+- A consulta de pesquisa criada usando a caixa de palavras-chave e as condições é exibida na página Pesquisa, no painel de detalhes da pesquisa selecionada.  Em uma consulta, tudo à direita da notação indica condições que  `(c:c)` são adicionadas à consulta. 
+    
+- As condições apenas adicionam propriedades à consulta de pesquisa; elas não adicionam operadores. É por isso que a consulta exibida no painel de detalhes não mostra operadores à direita da  `(c:c)` notação. A KQL adiciona os operadores lógicos (de acordo com as regras explicadas anteriormente) ao executar a consulta. 
+    
 - Você pode usar o controle arrastar e soltar para resequência da ordem das condições. Clique no controle para uma condição e movê-la para cima ou para baixo.
-  
-- Conforme explicado anteriormente, algumas propriedades de condição permitem que você digite vários valores (separados por e vírgulas). Cada valor é conectado logicamente pelo operador **OR** e resulta na consulta `(filetype=docx) OR (filetype=pptx) OR (filetype=xlsx)` . A ilustração a seguir mostra um exemplo de uma condição com vários valores.
+    
+- Conforme explicado anteriormente, algumas propriedades de condição permitem que você digite vários valores (separados por e vírgulas). Cada valor é conectado logicamente pelo operador **OR** e resulta na consulta `(filetype:docx) OR (filetype:pptx) OR (filetype:xlsx)` . A ilustração a seguir mostra um exemplo de uma condição com vários valores.
 
     ![Uma mensagem deve atender a todas as condições da regra. Se você precisar combinar uma condição ou outra, use regras separadas para cada condição. Por exemplo, se quiser adicionar o mesmo aviso de isenção legal a mensagens com anexos e mensagens com conteúdo que corresponde a um padrão, crie uma regra para cada condição. Você pode facilmente copiar uma regra.](../media/SearchConditions1.png)
   

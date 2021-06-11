@@ -19,16 +19,18 @@ ms.custom:
 search.appverid: MET150
 description: Saiba como ativar e gerenciar aplicativos de terceiros no Microsoft 365 de administração.
 ms.date: 04/15/2021
-ms.openlocfilehash: f061137270416d13db1f1cd32aa17f50f2f8c5d2
-ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
+ms.openlocfilehash: 5a486dba03fbd34fe2e409bba8ba41c1f9873141
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52866602"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331617"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>Gerenciar assinaturas de aplicativos de terceiros para sua organização
 
 Você pode gerenciar licenças e cobranças para aplicativos de terceiros no novo Microsoft 365 de administração. Os recursos atualizados incluem gerenciamento aprimorado de assinatura, acesso aprimorado às informações de cobrança e flexibilidade aprimorada para gerenciar contas. O gerenciamento de assinatura se baseia na plataforma de comércio atualizada da Microsoft. Isso se aplica a aplicativos de software como serviço que os clientes compram diretamente ou de um provedor de terceiros.
+
+Você pode gerenciar licenças e cobranças para aplicativos de terceiros Microsoft 365 centro de administração com o modo de visualização ligado. Os recursos atualizados incluem gerenciamento aprimorado de assinatura, acesso aprimorado às informações de cobrança e flexibilidade aprimorada para gerenciar contas. O gerenciamento de assinatura se baseia na plataforma de comércio atualizada da Microsoft. Isso se aplica a aplicativos de software como serviço que os clientes compram diretamente ou de provedores de terceiros.
 
 ## <a name="how-to-get-software-as-a-service-apps"></a>Como obter aplicativos de software como serviço
 
@@ -84,7 +86,7 @@ Veja o que você pode fazer em cada portal.
 
 Depois que o aplicativo é ativado, ele permanece ativo, a menos que seja cancelado, expire ou se o pagamento não for mantido atual. Esses eventos alteram o status do aplicativo para desabilitado. Depois que um aplicativo é desabilitado, ele não pode ser reativado. Para continuar usando o aplicativo, compre outra cópia dele.
 
-## <a name="assign-licenses"></a>Atribuir licenças
+## <a name="assign-licenses"></a>Atribua licenças
 
 Os administradores precisam ativar aplicativos de terceiros antes de atribuí-los aos usuários. Eles são ativados no portal do editor de terceiros. Na página do aplicativo, em **Configurações &**, selecione o link para atribuir licenças.
 

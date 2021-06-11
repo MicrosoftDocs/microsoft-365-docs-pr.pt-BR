@@ -39,13 +39,13 @@ Você deve atender aos requisitos de licenciamento para [licenciamento baseado e
 
 Você pode usar loteamentos com qualquer produto disponível para os usuários:
 
-- Pacote do Office e produtos autônomos
-- Produtos Enterprise e Mobility
+- Office e produtos autônomos
+- Enterprise e produtos Mobility
 - Produtos do Dynamics 365
 
 Os seguintes produtos não podem ser usados com loteamentos:
 
-- Aplicativos da Microsoft Store
+- Microsoft Store aplicativos
 - Software perpétuo ou software que é atribuído diretamente a um usuário se não houver nenhuma licença envolvida.
 - Recursos do Azure
 
