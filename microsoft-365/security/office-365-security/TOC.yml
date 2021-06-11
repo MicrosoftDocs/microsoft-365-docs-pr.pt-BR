@@ -14,7 +14,7 @@
           href: office-365-evaluation.md
         - name: Novidades no Defender para Office 365
           href: whats-new-in-defender-for-office-365.md
-        - name: Microsoft Defender para Office 365 no Centro de segurança do Microsoft 365
+        - name: Defender para Office 365 no portal do Microsoft 365 Defender
           href: ../defender/microsoft-365-security-center-mdo.md
         - name: Proteção do Exchange Online
           items:
@@ -26,7 +26,7 @@
               href: quarantine-email-messages.md
         - name: 'Anexos seguros para SharePoint, OneDrive e Microsoft Teams'
           href: turn-on-mdo-for-spo-odb-and-teams.md
-        - name: Visão geral do Centro de segurança do Microsoft 365
+        - name: Visão geral do portal do Microsoft 365 Defender
           href: ../defender/overview-security-center.md
         - name: A página de entidade de email
           href: mdo-email-entity-page.md
@@ -66,7 +66,7 @@
           href: protect-against-threats.md
         - name: Integrar o defender para Office 365 com o Defender para Ponto de Extremidade
           href: integrate-office-365-ti-with-mde.md
-        - name: Permissões no Centro de segurança do Microsoft 365
+        - name: Permissões no portal do Microsoft 365 Defender
           href: permissions-microsoft-365-security-center.md
         - name: Permissões no Centro de Conformidade e Segurança
           href: permissions-in-the-security-and-compliance-center.md
