@@ -19,12 +19,12 @@ ms.custom:
 description: Os administradores podem aprender sobre as configurações do Filtro de Spam Avançado (ASF) disponíveis em políticas anti-spam no Proteção do Exchange Online (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 12f193ef61205e8568341c774b957ce4a9dd7988
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: 77676277678bd6f8dcfade2b6929a9e1e113bf4b
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779417"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878227"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-eop"></a>Configurações avançadas de Filtro de Spam (ASF) no EOP
 
@@ -47,7 +47,7 @@ Em todas as Microsoft 365, as configurações do Filtro de Spam Avançado (ASF) 
 > - A presença de mensagens filtradas em quarentena.
 > - Os campos `X-CustomSpam:` de header X específicos que são adicionados às mensagens conforme descrito neste artigo.
 
-As seções a seguir descrevem as configurações e as opções ASF disponíveis em políticas anti-spam no centro de segurança do Microsoft 365 e no Exchange Online PowerShell ou no EOP PowerShell autônomo ([New-HostedContentFilterPolicy](/powershell/module/exchange/new-hostedcontentfilterpolicy) e [Set-HostedContentFilterPolicy](/powershell/module/exchange/set-hostedcontentfilterpolicy)). Para obter mais informações, consulte [Configure as políticas de anti-spam no EOP](configure-your-spam-filter-policies.md).
+As seções a seguir descrevem as configurações e opções ASF disponíveis em políticas anti-spam no portal do defender do Microsoft 365 e no powershell do Exchange Online ou no EOP PowerShell autônomo ([New-HostedContentFilterPolicy](/powershell/module/exchange/new-hostedcontentfilterpolicy) e [Set-HostedContentFilterPolicy](/powershell/module/exchange/set-hostedcontentfilterpolicy)). Para obter mais informações, consulte [Configure as políticas de anti-spam no EOP](configure-your-spam-filter-policies.md).
 
 ## <a name="enable-disable-or-test-asf-settings"></a>Habilitar, desabilitar ou testar configurações ASF
 
@@ -58,7 +58,7 @@ Para cada configuração ASF, as seguintes opções estão disponíveis em polí
 - **Teste**: ASF adiciona o campo de header X correspondente à mensagem. O que acontece com a mensagem é determinado pelo valor **modo de** teste (*TestModeAction*).
   - **Nenhum**: a entrega de mensagens não é afetada pela detecção ASF. A mensagem ainda está sujeita a outros tipos de filtragem e regras no EOP.
   - **Adicionar texto de header X padrão (*AddXHeader*)**: o valor de header X `X-CustomSpam: This message was filtered by the custom spam filter option` é adicionado à mensagem. Você pode usar esse valor em regras de caixa de entrada ou regras de fluxo de emails (também conhecidas como regras de transporte) para afetar a entrega da mensagem.
-  - **Enviar mensagem Bcc (*BccMessage*)**: Os endereços de email especificados (o valor do parâmetro *TestModeBccToRecipients* no PowerShell) são adicionados ao campo Cc da mensagem e a mensagem é entregue aos destinatários Cc adicionais. No centro de segurança, você separa vários endereços de email por ponto-e-vírgula (;). No PowerShell, você separa vários endereços de email por vírgulas.
+  - **Enviar mensagem Bcc (*BccMessage*)**: Os endereços de email especificados (o valor do parâmetro *TestModeBccToRecipients* no PowerShell) são adicionados ao campo Cc da mensagem e a mensagem é entregue aos destinatários Cc adicionais. No portal Microsoft 365 Defender, você separa vários endereços de email por ponto-e-vírgula (;). No PowerShell, você separa vários endereços de email por vírgulas.
 
   **Observações**:
 

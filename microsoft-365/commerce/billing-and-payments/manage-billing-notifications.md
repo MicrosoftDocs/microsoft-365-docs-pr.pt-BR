@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Saiba como gerenciar quem recebe emails de notificação de cobrança e anexos de fatura.
 ms.date: 03/17/2021
-ms.openlocfilehash: d4083dc5a9d70eb8c20b4107389ec5fec65749ad
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 75c75175930434619a01886b1096757bf04111c5
+ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332133"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52888356"
 ---
 # <a name="manage-billing-notifications-and-invoice-attachments"></a>Gerenciar notificações de faturamento e anexos de fatura
 
@@ -130,5 +130,6 @@ Para receber suas faturas como anexos às notificações de fatura, use as etapa
 ## <a name="related-content"></a>Conteúdo relacionado
 
 [Ver sua conta ou fatura](view-your-bill-or-invoice.md) (artigo)\
+[Informações de cobrança para Microsoft 365 para empresas no México](/microsoft-365/commerce/billing-and-payments/mexico-billing-info) (artigo) \
 [Entenda sua fatura ou fatura para Microsoft 365 para empresas](understand-your-invoice2.md) (artigo)\
 [Adicionar usuários e atribuir licenças ao mesmo tempo](../../admin/add-users/add-users.md) (artigo)

@@ -34,8 +34,8 @@ ms.locfileid: "52572304"
 - Certifique-se de que os usuários em sua organização tenham uma licença válida para um plano comercial Microsoft 365 ou Office 365 EDU que inclua o acesso Office aplicativos de área de trabalho, como um dos seguintes planos:
 
     - Microsoft 365 Business Standard
-    - Microsoft 365 Apps para Pequenos e Médios negócios
-    - Microsoft 365 Apps para Grandes Empresas
+    - Aplicativos do Microsoft 365 para empresas
+    - Microsoft 365 Apps para empresas
     - Office 365 E3
     - Office 365 E5
     - Office 365 A3

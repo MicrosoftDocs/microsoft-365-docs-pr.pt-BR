@@ -23,7 +23,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52572340"
 ---
-# <a name="configure-the-notifications-that-appear-on-endpoints"></a>Configurar as notificações que aparecem nos pontos de extremidade
+# <a name="configure-the-notifications-that-appear-on-endpoints"></a>Configurar as notificações exibidas nos pontos de extremidade
 
 **Aplica-se a:**
 

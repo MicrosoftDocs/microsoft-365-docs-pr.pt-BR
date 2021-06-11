@@ -23,12 +23,12 @@ ms.custom:
 description: Saiba mais sobre o Microsoft Defender para Office 365 arquivos no SharePoint Online, OneDrive for Business e Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cc4157d9f3d2114375d4136fec694250e8fbeb64
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: a74a75f12a758b9b116a3f752624df38f338d0d1
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52821350"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878215"
 ---
 # <a name="safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Anexos seguros para SharePoint, OneDrive e Microsoft Teams
 
@@ -66,7 +66,7 @@ Para saber mais sobre a experiência do usuário quando um arquivo foi detectado
 
 Os arquivos identificados como mal-intencionados por Cofre Anexos para SharePoint, OneDrive e Microsoft Teams serão aparecer em relatórios para o [Microsoft Defender](view-reports-for-mdo.md) para Office 365 e no Explorer (e detecções em tempo [real)](threat-explorer.md).
 
-A partir de maio de 2018, quando um arquivo é identificado como mal-intencionado por Cofre Anexos para SharePoint, OneDrive e Microsoft Teams, o arquivo também está disponível em quarentena. Para obter mais informações, [consulte Use the security center to manage quarantined files in Defender for Office 365](manage-quarantined-messages-and-files.md#use-the-security-center-to-manage-quarantined-files-in-defender-for-office-365).
+A partir de maio de 2018, quando um arquivo é identificado como mal-intencionado por Cofre Anexos para SharePoint, OneDrive e Microsoft Teams, o arquivo também está disponível em quarentena. Para obter mais informações, [consulte Usar o portal Microsoft 365 Defender para gerenciar](manage-quarantined-messages-and-files.md#use-the-microsoft-365-defender-portal-to-manage-quarantined-files-in-defender-for-office-365)arquivos em quarentena no Defender para Office 365 .
 
 ## <a name="keep-these-points-in-mind"></a>Lembre-se desses pontos
 

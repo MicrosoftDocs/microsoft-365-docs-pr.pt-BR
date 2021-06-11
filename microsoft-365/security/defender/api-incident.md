@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 587d6107b0c09b2178311d8da6606968e7fda083
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 0c0c2e280f63076687a0854e25c47577b050a8f7
+ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730925"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52888428"
 ---
 # <a name="microsoft-365-defender-incidents-api-and-the-incidents-resource-type"></a>Microsoft 365 API de incidentes do Defender e o tipo de recurso de incidentes
 
@@ -56,6 +56,7 @@ Método | Tipo de retorno | Descrição
 -|-|-
 [Listar incidentes](api-list-incidents.md) | [Lista de](api-incident.md) incidentes | Obter uma lista de incidentes.
 [Atualizar incidente](api-update-incidents.md) | [Incidente](api-incident.md) | Atualize um incidente específico.
+[Obter incidente](api-get-incident.md) | [Incidente](api-incident.md) | Obter um único incidente.
 
 ## <a name="request-body-response-and-examples"></a>Solicitar corpo, resposta e exemplos
 
@@ -67,10 +68,10 @@ Propriedade | Tipo | Descrição
 -|-|-
 incidentId | long | ID exclusiva do incidente.
 redirectIncidentId | nullable long | A ID do Incidente à que o Incidente atual foi mesclado.
-incidentName | cadeia de caracteres | O nome do Incidente.
+incidentName | string | O nome do Incidente.
 createdTime | DateTimeOffset | A data e a hora (em UTC) que o Incidente foi criado.
 lastUpdateTime | DateTimeOffset | A data e a hora (em UTC) que o Incidente foi atualizado pela última vez.
-assignedTo | cadeia de caracteres | Proprietário do Incidente.
+assignedTo | string | Proprietário do Incidente.
 severity | Enum | Gravidade do Incidente. Os valores possíveis são: ```UnSpecified``` , , , e ```Informational``` ```Low``` ```Medium``` ```High``` .
 status | Enum | Especifica o status atual do incidente. Os valores possíveis são: ```Active``` ```Resolved``` , e ```Redirected``` .
 classificação | Enum | Especificação do incidente. Os valores possíveis são: ```Unknown```, ```FalsePositive```, ```TruePositive```.

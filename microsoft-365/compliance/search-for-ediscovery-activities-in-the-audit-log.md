@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: Saiba quais eventos são registrados quando os usuários com permissões de Descoberta eDiscovery atribuídas executam tarefas de Pesquisa de conteúdo, Descoberta Básica e Advanced eDiscovery no centro de conformidade Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8b1f3f235f3411e2f637e4e32104c6179643757d
-ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
+ms.openlocfilehash: cca0cdc02e2c23231637acf6eba2b07144266e36
+ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52657688"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52888404"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>Procurar atividades de descoberta eletrônica no log de auditoria
 
@@ -48,7 +48,7 @@ Atualmente, você precisa fazer algumas coisas específicas para exibir as ativi
   
 1. Vá até <https://compliance.microsoft.com> e entre usando uma conta corporativa ou de estudante.
 
-2. No painel de navegação esquerdo do centro de conformidade Microsoft 365, clique em **Mostrar tudo** e clique em **Auditoria**.
+2. No painel de navegação esquerdo do centro de conformidade Microsoft 365, clique em **Auditoria**.
 
 3. Na lista **lista** da Atividades, em **Atividades** de Descoberta Advanced eDiscovery atividades, **clique** em uma ou mais atividades para pesquisar.
 
@@ -71,10 +71,10 @@ Atualmente, você precisa fazer algumas coisas específicas para exibir as ativi
 
 ## <a name="ediscovery-activities"></a>Atividades de Descoberta Eletrônica
 
-A tabela a seguir descreve as atividades de Pesquisa de Conteúdo e Descoberta Eletrônica Principal que são registradas quando um administrador ou gerente de Descoberta Eletrônica executa uma atividade relacionada à Descoberta Eletrônica usando o centro de conformidade ou executando o cmdlet correspondente no Centro de Conformidade e Segurança & do PowerShell. Observe também que algumas atividades realizadas Advanced eDiscovery podem ser retornadas quando você pesquisa atividades nesta lista.
+A tabela a seguir descreve as atividades de Pesquisa de Conteúdo e Descoberta Básica de eDiscovery que são registradas quando um administrador ou gerente de Descoberta eDiscovery executa uma atividade relacionada à Descoberta eDiscovery usando o centro de conformidade Microsoft 365. Algumas atividades realizadas Advanced eDiscovery podem ser retornadas quando você pesquisa atividades nesta lista.
   
 > [!NOTE]
-> As atividades de Descoberta Eletrônica descritas nesta seção fornecem informações semelhantes às atividades de cmdlet de Descoberta Eletrônica descritas na próxima seção. Recomendamos que você use as atividades de Descoberta Externa descritas nesta seção porque elas aparecerão nos resultados da pesquisa de log de auditoria dentro de 30 minutos. Leva até 24 horas para que as atividades do cmdlet eDiscovery apareçam nos resultados da pesquisa de log de auditoria.
+> As atividades de Descoberta Eletrônica descritas nesta seção fornecem informações semelhantes às atividades de cmdlet de Descoberta Eletrônica descritas na próxima seção. Recomendamos que você use as atividades de Descoberta Externa descritas nesta seção porque elas aparecerão nos resultados da pesquisa de log de auditoria dentro de 30 minutos. Pode levar até 24 horas para que as atividades de cmdlet de Descoberta Eletrônica apareçam nos resultados da pesquisa de log de auditoria.
   
 |**Nome amigável**|**Operação**|**Cmdlet correspondente**|**Descrição**|
 |:-----|:-----|:-----|:-----|
@@ -85,9 +85,9 @@ A tabela a seguir descreve as atividades de Pesquisa de Conteúdo e Descoberta E
 |Associação de caso de Descoberta E Alterada  <br/> |CaseMemberUpdated  <br/> |Update-ComplianceCaseMember  <br/> |A lista de associação de um caso de Descoberta E foi alterada. Essa atividade é registrada quando todos os membros são substituídos por um grupo de novos usuários. Se um único membro for adicionado ou removido, a operação CaseMemberAdded ou CaseMemberRemoved será registrada.  <br/> |
 |Filtro de permissões de pesquisa alterado  <br/> |SearchPermissionUpdated  <br/> |Set-ComplianceSecurityFilter  <br/> |Um filtro de permissões de pesquisa foi alterado.  <br/> |
 |Consulta de pesquisa alterada para a preensão de caso de Descoberta e  <br/> |HoldUpdated  <br/> |Set-CaseHoldRule  <br/> |Uma responsabilidade baseada em consulta associada a um caso de Descoberta E foi alterada. As alterações possíveis incluem a edição da consulta ou intervalo de datas para uma espera baseada em consulta.  <br/> |
-|Item de visualização de pesquisa de conteúdo baixado  <br/> |PreviewItemDownloaded  <br/> |N/A  <br/> |Um usuário baixou um item no computador local (clicando no link **Baixar item original)** ao visualizar os resultados da pesquisa.  <br/> |
-|Item de visualização de pesquisa de conteúdo listado  <br/> |PreviewItemListed  <br/> |N/A  <br/> |Um usuário clicou em **Visualizar** resultados da pesquisa para exibir a página de resultados da pesquisa de visualização, que lista até 1.000 itens dos resultados de uma Pesquisa de Conteúdo.  <br/> |
-|Item de visualização de pesquisa de conteúdo exibido  <br/> |PreviewItemRendered  <br/> |N/A  <br/> |Um gerente de Descoberta Desdiscovery exibiu um item clicando nele ao visualizar os resultados da pesquisa.  <br/> |
+|Item de visualização de pesquisa de conteúdo baixado  <br/> |PreviewItemDownloaded  <br/> |N/D  <br/> |Um usuário baixou um item no computador local (clicando no link **Baixar item original)** ao visualizar os resultados da pesquisa.  <br/> |
+|Item de visualização de pesquisa de conteúdo listado  <br/> |PreviewItemListed  <br/> |N/D  <br/> |Um usuário clicou em **Visualizar** resultados da pesquisa para exibir a página de resultados da pesquisa de visualização, que lista até 1.000 itens dos resultados de uma pesquisa.  <br/> |
+|Item de visualização de pesquisa de conteúdo exibido  <br/> |PreviewItemRendered  <br/> |N/D  <br/> |Um gerente de Descoberta Desdiscovery exibiu um item clicando nele ao visualizar os resultados da pesquisa.  <br/> |
 |Pesquisa de conteúdo criada  <br/> |SearchCreated  <br/> |New-ComplianceSearch  <br/> |Uma nova pesquisa de conteúdo foi criada.  <br/> |
 |Administrador criado de Descoberta e  <br/> |CaseAdminAdded  <br/> |Add-eDiscoveryCaseAdmin  <br/> |Um usuário foi adicionado como Administrador de Descobertas E Na organização.  <br/> |
 |Caso de Descoberta Desdiscovery criado  <br/> |CaseAdded  <br/> |New-ComplianceCase  <br/> |Foi criado um caso de Descoberta eDiscovery. Quando um caso é criado, você só precisa dar um nome a ele. Outras tarefas relacionadas a casos, como adicionar membros, criar respeções e criar pesquisas de conteúdo associadas ao caso resultam em eventos adicionais sendo registrados.  <br/> |
@@ -98,9 +98,9 @@ A tabela a seguir descreve as atividades de Pesquisa de Conteúdo e Descoberta E
 |Caso de Descoberta EDiscovery excluído  <br/> |CaseRemoved  <br/> |Remove-ComplianceCase  <br/> |Um caso de Descoberta eDiscovery foi excluído. Qualquer responsabilidade associada à ocorrência deve ser removida antes que o caso possa ser excluído.  <br/> |
 |Filtro de permissões de pesquisa excluídas  <br/> |SearchPermissionRemoved  <br/> |Remove-ComplianceSecurityFilter  <br/> |Um filtro de permissões de pesquisa foi excluído.  <br/> |
 |Consulta de pesquisa excluída para a espera de caso de Descoberta e  <br/> |HoldRemoved  <br/> |Remove-CaseHoldRule  <br/> |Uma responsabilidade baseada em consulta associada a um caso de Descoberta eDiscovery foi excluída. Remover a consulta da espera geralmente é o resultado da exclusão de uma remoção. Quando uma consulta de espera ou de espera é excluída, os locais de conteúdo que estavam em espera são liberados.  <br/> |
-|Exportação baixada da pesquisa de conteúdo  <br/> |SearchExportDownloaded  <br/> |N/A  <br/> |Um usuário baixou os resultados de uma pesquisa de conteúdo em seu computador local. Uma **exportação iniciada da atividade de pesquisa** de conteúdo deve ser iniciada antes que os resultados da pesquisa possam ser baixados.  <br/> |
-|Resultados visualizados da pesquisa de conteúdo  <br/> |SearchPreviewed  <br/> |N/A  <br/> |Um usuário visualizava os resultados de uma pesquisa de conteúdo.  <br/> |
-|Resultados limpos da pesquisa de conteúdo  <br/> |SearchResultsPurged  <br/> |New-ComplianceSearchAction  <br/> |Um usuário limpou os resultados de uma Pesquisa de Conteúdo executando o **comando New-ComplianceSearchAction -Purge.**  <br/> |
+|Exportação baixada da pesquisa de conteúdo  <br/> |SearchExportDownloaded  <br/> |N/D  <br/> |Um usuário baixou os resultados de uma pesquisa de conteúdo em seu computador local. Uma **exportação iniciada da atividade de pesquisa** de conteúdo deve ser iniciada antes que os resultados da pesquisa possam ser baixados.  <br/> |
+|Resultados visualizados da pesquisa de conteúdo  <br/> |SearchPreviewed  <br/> |N/D  <br/> |Um usuário visualizava os resultados de uma pesquisa de conteúdo.  <br/> |
+|Resultados limpos da pesquisa de conteúdo  <br/> |SearchResultsPurged  <br/> |New-ComplianceSearchAction  <br/> |Um usuário limpou os resultados de uma pesquisa de conteúdo executando o **comando New-ComplianceSearchAction -Purge.**  <br/> |
 |Análise removida da pesquisa de conteúdo  <br/> |RemovedSearchResultsSentToZoom  <br/> |Remove-ComplianceSearchAction  <br/> |Uma ação de preparação da pesquisa de conteúdo (para preparar os resultados da pesquisa Advanced eDiscovery) foi excluída. Se a ação de preparação tiver menos de duas semanas, os resultados da pesquisa que foram preparados para Advanced eDiscovery foram excluídos da área de Microsoft Azure de armazenamento. Se a ação de preparação tiver mais de 2 semanas, esse evento indicará que somente a ação de preparação correspondente foi excluída.  <br/> |
 |Exportação removida da pesquisa de conteúdo  <br/> |RemovedSearchExported  <br/> |Remove-ComplianceSearchAction  <br/> |Uma ação de exportação de pesquisa de conteúdo foi excluída. Se a ação de exportação tiver menos de duas semanas, os resultados da pesquisa que foram carregados na área de armazenamento Microsoft Azure foram excluídos. Se a ação de exportação tiver mais de 2 semanas, esse evento indicará que somente a ação de exportação correspondente foi excluída.  <br/> |
 |Membro removido do caso de Descoberta E  <br/> |CaseMemberRemoved  <br/> |Remove-ComplianceCaseMember  <br/> |Um usuário foi removido como membro de um caso de Descoberta e.  <br/> |
@@ -108,14 +108,14 @@ A tabela a seguir descreve as atividades de Pesquisa de Conteúdo e Descoberta E
 |Ação de limpeza removida executada na pesquisa de conteúdo  <br/> |RemovedSearchResultsPurged  <br/> |Remove-ComplianceSearchAction  <br/> |Uma ação de limpeza de pesquisa de conteúdo foi excluída.  <br/> |
 |Relatório de pesquisa removido  <br/> |SearchReportRemoved  <br/> |Remove-ComplianceSearchAction  <br/> |Uma ação de relatório de exportação de pesquisa de conteúdo foi excluída.  <br/> |
 |Análise iniciada da pesquisa de conteúdo  <br/> |SearchResultsSentToZoom  <br/> |New-ComplianceSearchAction  <br/> |Os resultados de uma pesquisa de conteúdo foram preparados para análise em Advanced eDiscovery.  <br/> |
-|Pesquisa de conteúdo iniciada  <br/> |SearchStarted  <br/> |Start-ComplianceSearch  <br/> |Uma pesquisa de conteúdo foi iniciada. Quando você cria ou altera uma pesquisa de conteúdo usando a GUI Microsoft 365 centro de conformidade, a pesquisa é iniciada automaticamente. Se você criar ou alterar uma pesquisa usando o cmdlet **New-ComplianceSearch** ou **Set-ComplianceSearch,** será necessário executar o cmdlet **Start-ComplianceSearch** para iniciar a pesquisa.  <br/> |
+|Pesquisa de conteúdo iniciada  <br/> |SearchStarted  <br/> |Start-ComplianceSearch  <br/> |Uma pesquisa de conteúdo foi iniciada. Quando você cria ou altera uma pesquisa de conteúdo usando o Microsoft 365 de conformidade, a pesquisa é iniciada automaticamente.<br/> |
 |Exportação iniciada da pesquisa de conteúdo  <br/> |SearchExported  <br/> |New-ComplianceSearchAction  <br/> |Um usuário exportou os resultados de uma pesquisa de conteúdo.  <br/> |
 |Relatório de exportação iniciado  <br/> |SearchReport  <br/> |New-ComplianceSearchAction  <br/> |Um usuário exportou um relatório de pesquisa de conteúdo.  <br/> |
 |Pesquisa de conteúdo interrompida  <br/> |SearchStopped  <br/> |Stop-ComplianceSearch  <br/> |Um usuário interrompeu uma pesquisa de conteúdo.  <br/> |
-|(nenhum)|CaseViewed|Get-ComplianceCase|Um usuário exibiu a lista de casos na  página **Descoberta** Eletrônica Principal ou na página Advanced eDiscovery no centro de conformidade ou executando o cmdlet Get-ComplianceCase.|
-|(nenhum)|SearchViewed|Get-ComplianceSearch|Um usuário exibiu a lista em  pesquisas de conteúdo (listadas na guia Pesquisas) no centro de conformidade ou executando o cmdlet. Essa atividade também é registrada quando um usuário visualiza a lista de pesquisas de conteúdo  associadas a um caso de Descoberta De eDiscovery (clicando na guia Pesquisas em um caso) ou executando o comando **Get-ComplianceSearch -Case.**|
-|(nenhum)|ViewedSearchExported|Get-ComplianceSearchAction -Export|Um usuário exibiu a lista de trabalhos de exportação de pesquisa de conteúdo (listados na guia **Exportações)** no centro de conformidade ou executando o cmdlet. Essa atividade também é registrada quando um usuário visualiza a lista de trabalhos de exportação em um caso de Descoberta E (listado na guia **Exportações** em um caso) ou executando o comando **Get-ComplianceSearchAction -Case -Export.**|
-|(nenhum)|ViewedSearchPreviewed|Get-ComplianceSearchAction -Preview|Um usuário visualiza os resultados de uma pesquisa de conteúdo no centro de conformidade ou executando o cmdlet.|
+|(nenhum)|CaseViewed|Get-ComplianceCase|Um usuário exibiu um caso core de Descoberta eDiscovery no centro de conformidade. O registro de auditoria para esse evento inclui o nome do caso que foi exibido. |
+|(nenhum)|SearchViewed|Get-ComplianceSearch|Um usuário exibiu uma pesquisa de conteúdo no  centro de conformidade acessando a pesquisa na guia Pesquisas em um caso de Descoberta Interna ou acessando-a na página de pesquisa **de** conteúdo. O registro de auditoria para esse evento inclui a identidade da pesquisa que foi exibida.|
+|(nenhum)|ViewedSearchExported|Get-ComplianceSearchAction -Export|Um usuário exibiu uma exportação de pesquisa de conteúdo no centro de conformidade acessando a exportação na guia **Exportações** na página **Pesquisa de** conteúdo. Essa atividade também é registrada quando um usuário visualiza uma exportação associada a um caso de Descoberta Interna.|
+|(nenhum)|ViewedSearchPreviewed|Get-ComplianceSearchAction -Preview|Um usuário visualizava os resultados de uma pesquisa de conteúdo no centro de conformidade. Essa atividade também é registrada quando um usuário visualiza os resultados de uma pesquisa associada a um caso de Descoberta Interna.|
 |||||
   
 ## <a name="advanced-ediscovery-activities"></a>Atividades de Descoberta Eletrônica Avançada
@@ -153,7 +153,7 @@ A tabela a seguir descreve as Advanced eDiscovery registradas no log de auditori
 
 A tabela a seguir lista os registros de log de auditoria de cmdlet que são registrados quando um administrador ou usuário executa uma atividade relacionada à Descoberta Eletrônica usando o centro de conformidade ou executando o cmdlet correspondente no Centro de Conformidade e Segurança & do PowerShell. As informações detalhadas no registro de log de auditoria são diferentes para as atividades de cmdlet listadas nesta tabela e as atividades de Descoberta Eletrônica descritas na seção anterior.
   
-Como mencionado anteriormente, leva até 24 horas para que as atividades de cmdlet de Descoberta Eletrônica apareçam nos resultados da pesquisa de log de auditoria.
+Conforme mencionado anteriormente, pode levar até 24 horas para que as atividades de cmdlet de Descoberta Eletrônica apareçam nos resultados da pesquisa de log de auditoria.
   
 > [!TIP]
 > Os cmdlets na coluna **Operação** na tabela a seguir são vinculados ao tópico de ajuda de cmdlet correspondente no TechNet. Vá até o tópico de ajuda do cmdlet para ver uma descrição dos parâmetros disponíveis para cada cmdlet. O parâmetro e o valor do parâmetro que foram usados com um cmdlet são incluídos na entrada de log de auditoria para cada atividade de cmdlet de Descoberta Eletrônica registrada. 
@@ -185,6 +185,10 @@ Como mencionado anteriormente, leva até 24 horas para que as atividades de cmdl
 |Administrador criado de Descoberta e  <br/> |[Add-eDiscoveryCaseAdmin](/powershell/module/exchange/add-ediscoverycaseadmin) <br/> |Um usuário foi adicionado como Administrador de Descobertas Esdiscovery em sua organização.  <br/> |
 |Administrador de Descoberta e-Descobrir Excluído  <br/> |[Remove-eDiscoveryCaseAdmin](/powershell/module/exchange/remove-ediscoverycaseadmin) <br/> |Um Administrador de Descoberta e Descoberta Foi excluído da sua organização.  <br/> |
 |Associação de administrador de Descobertas E Alteradas  <br/> |[Update-eDiscoveryCaseAdmin](/powershell/module/exchange/update-ediscoverycaseadmin) <br/> |A lista de Administradores de Descobertas Desdiscovery em sua organização foi alterada. Essa atividade é registrada quando a lista de Administradores de Descoberta Externa é substituída por um grupo de novos usuários. Se um único usuário for adicionado ou removido, a operação **Add-eDiscoveryCaseAdmin** ou **Remove-eDiscoveryCaseAdmin** será registrada.  <br/> |
+|(nenhum)|[Get-ComplianceCase](/powershell/module/exchange/get-compliancecase) <br/>|Essa atividade é registrada quando um usuário visualiza uma lista de principais casos de Descoberta Advanced eDiscovery. Essa atividade também é registrada quando um usuário visualiza um caso específico no Core eDiscovery. Quando um usuário visualiza um caso específico, o registro de auditoria inclui a identidade do caso que foi exibido. Se o usuário exibiu apenas uma lista de casos, o registro de auditoria não contém uma identidade de caso.|
+|(nenhum)|[Get-ComplianceSearch](/powershell/module/exchange/get-compliancesearch)|Essa atividade é registrada quando um usuário visualiza uma lista de pesquisas de conteúdo ou pesquisas associadas a um caso de Descoberta Interna. Essa atividade também é registrada quando um usuário visualiza uma pesquisa de Conteúdo específica ou visualiza uma pesquisa específica associada a um caso de Descoberta Principal. Quando um usuário visualiza uma pesquisa específica, o registro de auditoria inclui a identidade da pesquisa que foi exibida. Se o usuário exibiu apenas uma lista de pesquisas, o registro de auditoria não contém uma identidade de pesquisa.
+|(nenhum)|[Get-ComplianceSearchAction](/powershell/module/exchange/get-compliancesearchaction)|Essa atividade é registrada quando um usuário visualiza uma lista de ações de pesquisa de conformidade (como exportações, visualizações ou limpezas) ou ações associadas a um caso de Descoberta Principal de Descoberta Externa. Essa atividade também é registrada quando um usuário visualiza uma ação de pesquisa de conformidade específica (como uma exportação) ou visualiza uma ação específica associada a um caso core de Descoberta eDiscovery. Quando um usuário visualiza uma ação de pesquisa, o registro de auditoria inclui a identidade da ação de pesquisa que foi exibida. Se o usuário exibiu apenas uma lista de ações, o registro de auditoria não contém uma identidade de ação.|
+||||
 
 ## <a name="detailed-properties-for-ediscovery-activities"></a>Propriedades detalhadas para atividades de Descoberta e
 
@@ -207,7 +211,7 @@ A tabela a seguir descreve as propriedades  incluídas  quando você clica em Ma
 |ExtendedProperties  <br/> |Propriedades adicionais de uma pesquisa de conteúdo, de uma ação de pesquisa de conteúdo ou de uma ocorrência de Descoberta Eletrônica, como o GUID do objeto e os parâmetros de cmdlet e cmdlet correspondentes que foram usados quando a atividade foi executada.  <br/> |
 |Id  <br/> |A ID da entrada do relatório. A ID identifica exclusivamente a entrada do log de auditoria.  <br/> |
 |NonPIIParameters  <br/> |Uma lista dos parâmetros (sem nenhum valor) que foram usados com o cmdlet identificado na propriedade Operation. Os parâmetros listados nesta propriedade são os mesmos listados na propriedade Parameters.  <br/> |
-|ObjectId  <br/> |O GUID ou o nome do objeto (por exemplo, uma Pesquisa de Conteúdo ou um caso de Descoberta De Conteúdo) que foi criado, alterado ou excluído pela atividade listada na propriedade Operation. Esse objeto também é identificado na coluna Item nos resultados da pesquisa de log de auditoria.  <br/> |
+|ObjectId  <br/> |O GUID ou o nome do objeto (por exemplo, uma pesquisa de conteúdo ou um caso de Descoberta Principal) que foi criado, acessado, alterado ou excluído pela atividade listada na propriedade Operation. Esse objeto também é identificado na coluna Item nos resultados da pesquisa de log de auditoria.  <br/> |
 |ObjectType  <br/> |O tipo de objeto eDiscovery que o usuário criou, excluiu ou modificou; por exemplo, uma ação de pesquisa de conteúdo (visualização, exportação ou limpeza), um caso de Descoberta E ou uma pesquisa de conteúdo.  <br/> |
 |Operação  <br/> |O nome da operação que corresponde à atividade de Descoberta e Que foi executada.  <br/> |
 |OrganizationId  <br/> |O GUID para sua Microsoft 365 organização.  <br/> |
@@ -224,4 +228,4 @@ A tabela a seguir descreve as propriedades  incluídas  quando você clica em Ma
 |UserServicePlan  <br/> |A assinatura usada pela sua organização. Para atividades de Descoberta Livre, essa propriedade normalmente está em branco.  <br/> |
 |UserType  <br/> |O tipo de usuário que executou a operação. Os valores a seguir indicam o tipo de usuário.  <br/> 0 Um usuário normal. 2 Um administrador em sua organização. 3 Um administrador de datacenter da Microsoft ou uma conta do sistema de datacenter. 4 Uma conta do sistema. 5 Um aplicativo. 6 Uma entidade de serviço. |
 |Versão  <br/> |Indica o número da versão da atividade (identificada pela propriedade Operation) que está registrada.  <br/> |
-|Workload  <br/> |Oserviço em que a atividade ocorreu. Para atividades de Descoberta Digital, o valor **é SecurityComplianceCenter**.  <br/> |
+|Workload  <br/> |O serviço em que a atividade ocorreu. Para atividades de Descoberta Digital, o valor **é SecurityComplianceCenter**.  <br/> |

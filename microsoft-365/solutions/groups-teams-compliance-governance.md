@@ -41,7 +41,7 @@ A tabela a seguir fornece uma referência rápida para os controles de conformid
 |Proteção de informações|||
 ||Impedir a perda de informações confidenciais|[Saiba mais sobre prevenção contra perda de dados](../compliance/dlp-learn-about-dlp.md)|
 ||Proteja informações confidenciais no chat.|[Prevenção contra perda de dados e Microsoft Teams](../compliance/dlp-microsoft-teams.md)|
-||Definir as informações confidenciais da sua organização|[Tipos personalizados de informações confidenciais](../compliance/sensitive-information-type-learn-about.md)|
+||Definir as informações confidenciais da sua organização|[Personalizar tipos de informação confidencial](../compliance/sensitive-information-type-learn-about.md)|
 |Segmentação de usuário|||
 ||Restringir a comunicação entre segmentos de usuário|[Barreiras de informações](../compliance/information-barriers.md)|
 |Residência de dados|||
@@ -104,7 +104,7 @@ A DLP no Teams pode ajudar a proteger informações confidenciais Teams mensagen
 
 Se você tiver informações confidenciais exclusivas da sua organização, como nomes de código do projeto, poderá criar seus próprios tipos de informações confidenciais e aplicá-los a políticas de DLP para proteger o conteúdo em grupos, equipes e Sharepoint.
 
-- [Tipos personalizados de informações confidenciais](../compliance/sensitive-information-type-learn-about.md)
+- [Personalizar tipos de informação confidencial](../compliance/sensitive-information-type-learn-about.md)
 
 ## <a name="user-segmentation"></a>Segmentação de usuário
 
@@ -112,7 +112,7 @@ Com barreiras de informações, você pode segmentar seus dados e usuários para
 
 - [Barreiras de informações](../compliance/information-barriers.md)
 
-- [Barreiras de informação no Microsoft Teams](/microsoftteams/information-barriers-in-teams)
+- [Barreiras de informações no Microsoft Teams](/microsoftteams/information-barriers-in-teams)
 
 - [Usar barreiras de informações com SharePoint](/sharepoint/information-barriers)
 

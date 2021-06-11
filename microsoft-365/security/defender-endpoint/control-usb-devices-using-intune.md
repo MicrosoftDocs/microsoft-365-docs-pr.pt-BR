@@ -52,7 +52,7 @@ Modelos Power BI de relatório de exemplo estão disponíveis para o Microsoft D
 ## <a name="allow-or-block-removable-devices"></a>Permitir ou bloquear dispositivos removíveis
 A tabela a seguir descreve as maneiras como o Microsoft Defender para Ponto de Extremidade pode permitir ou bloquear dispositivos removíveis com base na configuração granular.
 
-| Control  | Descrição |
+| Controle  | Descrição |
 |----------|-------------|
 | [Restringir unidades USB e outros periféricos](#restrict-usb-drives-and-other-peripherals) | Você pode permitir/impedir que os usuários instalem apenas as unidades USB e outros periféricos incluídos em uma lista de dispositivos autorizados/não autorizados ou tipos de dispositivos. |
 | [Bloquear a instalação e o uso do armazenamento removível](#block-installation-and-usage-of-removable-storage) | Não é possível instalar ou usar armazenamento removível. |
@@ -67,7 +67,7 @@ A tabela a seguir descreve as maneiras como o Microsoft Defender para Ponto de E
 
 Para evitar infecções por malware ou perda de dados, uma organização pode restringir unidades USB e outros periféricos. A tabela a seguir descreve as maneiras como o Microsoft Defender para Ponto de Extremidade pode ajudar a impedir a instalação e o uso de unidades USB e outros periféricos.
 
-| Control  | Descrição
+| Controle  | Descrição
 |----------|-------------|
 | [Permitir a instalação e o uso de unidades USB e outros periféricos](#allow-installation-and-usage-of-usb-drives-and-other-peripherals) | Permitir que os usuários instalem apenas as unidades USB e outros periféricos incluídos em uma lista de dispositivos ou tipos de dispositivo autorizados |
 | [Impedir a instalação e o uso de unidades USB e outros periféricos](#prevent-installation-and-usage-of-usb-drives-and-other-peripherals) | Impedir que os usuários instalem unidades USB e outros periféricos incluídos em uma lista de dispositivos e tipos de dispositivo não autorizados |
@@ -253,7 +253,7 @@ A tabela a seguir descreve as maneiras como o Microsoft Defender para Ponto de E
 
 Para obter mais informações sobre como controlar dispositivos USB, consulte o [blog do Microsoft Defender for Endpoint](https://aka.ms/devicecontrolblog).
 
-| Control  | Descrição |
+| Controle  | Descrição |
 |----------|-------------|
 | [Habilitar Microsoft Defender Antivírus verificação](#enable-microsoft-defender-antivirus-scanning) | Habilita Microsoft Defender Antivírus verificação de proteção em tempo real ou verificações agendadas.|
 | [Bloquear processos não assinados e não assinados em periféricos USB](#block-untrusted-and-unsigned-processes-on-usb-peripherals) | Bloquear arquivos USB que não são assinados ou não são confidenciais. |
