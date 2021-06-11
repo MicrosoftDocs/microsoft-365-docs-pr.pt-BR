@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Os clientes do Microsoft Defender Office 365 E5 e P1 e P2 agora podem obter uma exibição de 360 graus de cada página de email com entidade de email.
-ms.openlocfilehash: aa5d7effb66c4805f6983fa1afac19255bc996e4
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: c45b45101c27e92dd0fa8776ca5d8ee9eb3af5b7
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539090"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878455"
 ---
 # <a name="the-email-entity-page"></a>A página de entidade de email
 
@@ -34,12 +34,17 @@ Os administradores do Microsoft Defender para Office 365 (ou MDO) E5 e MDO P1 e 
 
 ## <a name="reach-the-email-entity-page"></a>Alcançar a página da entidade de email
 
-Um dos & de Conformidade (protection.office.com) existente ou o novo centro de segurança Microsoft 365 (security.microsoft.com) permitirá que você veja e use a página de entidade de email..
+O centro de conformidade & segurança existente ou o novo portal Microsoft 365 Defender permitirão que você veja e use a página da entidade de email.
+
+<br>
+
+****
 
 |Centro|URL|Navegação|
 |---|---|---|
-|Conformidade e Segurança |protection.office.com|Explorador de Gerenciamento de \> Ameaças|
-|Central de segurança do Microsoft 365 |security.microsoft.com|Explorador de colaboração & \> email|
+|Centro de Conformidade e Segurança|<https://protection.office.com>|Explorador de Gerenciamento de \> Ameaças|
+|Microsoft 365 Portal do Defender|<https://security.microsoft.com>|Explorador de colaboração & \> email|
+|
 
 No Explorador de Ameaças, selecione o assunto de um email que você está investigando. Uma barra de ouro será exibida na parte superior do sub-envio de email para esse email. Este convite para a nova página, lê 'Experimente nossa nova página de entidade de email com dados enriquecidos...'. Selecione para exibir a nova página.
 
@@ -89,17 +94,20 @@ Os administradores podem visualizar emails em caixas de correio de nuvem, ***se*
 
 ### <a name="detonation-details"></a>Detalhes da detonação
 
-Esses detalhes são específicos para anexos de email e URLs.
+Esses detalhes são específicos para anexos de email e URLs. Os usuários podem ver esses detalhes indo  para o Explorer e aplicando o filtro de tecnologia de detecção definido como detonação de arquivo ou detonação de URL. Os emails filtrados para a detonação de arquivos conterão um arquivo mal-intencionado com detalhes de detonação, e aqueles filtrados para URLs contêm uma URL mal-intencionada e seus detalhes de detonação.
 
-Os usuários verão detalhes de detonação enriquecidos para anexos ou hiperlinks mal-intencionados conhecidos encontrados em suas caixas de correio, incluindo a cadeia de detonação, resumo de detonação, captura de tela e detalhes de comportamento observados para ajudar os clientes a entender por que o anexo ou URL foi considerado mal-intencionado e detonado.
+Os usuários verão detalhes de detonação enriquecidos para anexos mal-intencionados conhecidos ou URLs encontrados em seus emails, que foram detonados para seu locatário específico. Ele será composto pelos detalhes de comportamento de Detonação, Detonação, Captura de Tela e Comportamento Observado para ajudar os clientes a entender por que o anexo ou a URL foi considerado mal-intencionado e detonado.
 
-- *Cadeia de detonação*: um único arquivo ou uma detonação de URL pode disparar várias detonações. A cadeia de detonação rastreia o caminho das detonações, incluindo o arquivo mal-intencionado original ou a URL que causou o veredito, e todos os outros arquivos ou URLs efetivados pela detonação. Essas URLs ou arquivos anexados podem não estar diretamente presentes no email, mas incluir essa análise é importante para determinar por que o arquivo ou URL foi considerado mal-intencionado.
-- *Resumo da detonação*: isso fornece informações sobre:
-  - Intervalo de tempo de detonação.
-  - Veredito do arquivo anexado ou URL.
-  - Informações relacionadas (número de arquivo, URLs, IPs ou Domínios), que são outras entidades examinadas durante a detonação.
-- *Captura de tela de* detonação : isso mostra capturas de tela feitas durante o processo de detonação.
-- *Detalhes da* detonação : Estes são os detalhes exatos do comportamento de cada processo que ocorreu durante a detonação.
+1. *Cadeia de detonação*. Uma única detonação de arquivo ou URL pode disparar várias detonações. A cadeia de detonação rastreia o caminho das detonações, incluindo o arquivo mal-intencionado original ou a URL que causou o veredito, e todos os outros arquivos ou URLs efetivados pela detonação. Essas URLs ou arquivos anexados podem não estar diretamente presentes no email, mas incluir essa análise é importante para determinar por que o arquivo ou URL foi considerado mal-intencionado.  
+    > [!NOTE]
+    > Isso pode mostrar apenas o item de nível superior se nenhuma das entidades vinculadas a ele foi encontrada problemática ou foi detonada.
+
+1. *O Resumo de* Detonação fornece um resumo básico para a detonação, como o tempo de análise *,* a hora em que ocorreu a detonação, o sistema operacional e o aplicativo, o sistema operacional e o aplicativo no qual ocorreu a detonação, o tamanho do arquivo e o motivo do veredito.
+1. *Capturas de tela* mostram as capturas de tela capturadas durante a detonação. Pode haver várias capturas de tela durante a detonação. Nenhuma captura de tela é capturada para
+    - Arquivos de tipo contêiner como .zip ou .rar.
+    - Se uma URL for aberta em um link que baixe diretamente um arquivo. No entanto, você verá o arquivo baixado na cadeia de detonação.
+1. *Detalhes* de comportamento são uma exportação que mostra detalhes de comportamento, como eventos exatos que ocorreram durante a detonação e observações que contêm URLs, IPs, domínios e arquivos que foram encontrados durante a detonação (e podem ser problemáticos ou benignos). Esteja ciente de que pode não haver detalhes de comportamento para:
+    - Arquivos de contêiner como .zip ou .rar que estão segurando outros arquivos.
 
 :::image type="content" source="../../media/email-entities-6-detonation-page.png" alt-text="Captura de tela do resumo de detonação mostrando a cadeia, resumo, detalhes de detonação e captura de tela sob o título *Análise Profunda*.":::
 

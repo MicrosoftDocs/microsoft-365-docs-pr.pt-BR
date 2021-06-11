@@ -13,12 +13,12 @@ ms.collection:
 description: Saiba como revisar as mensagens relatadas e fazer comentários aos usuários.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 217f5ebb1692d68b5dc70988888bf78d4bd36a0c
-ms.sourcegitcommit: d0c160e89e17f451199bc4a85699effd2d935213
+ms.openlocfilehash: 9e6969b6dee38135ee2d1d41bbcdb2561943d1fe
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52893723"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878707"
 ---
 # <a name="admin-review-for-reported-messages"></a>Análise do administrador de mensagens relatadas
 
@@ -39,11 +39,13 @@ Você só poderá marcar e notificar os usuários dos resultados da revisão se 
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Você abre o portal Microsoft 365 Defender em <https://security.microsoft.com/> . Para ir diretamente para a página **Envios,** use <https://security.microsoft.com/reportsubmission> .
+
+- Você abre o Microsoft 365 de segurança em <https://security.microsoft.com/> . Para ir diretamente para a página **Envios,** use <https://security.microsoft.com/reportsubmission> .
 
 - Para modificar a configuração para envios do usuário, você precisa ser membro de um dos seguintes grupos de função:
-  - Gerenciamento da organização ou Administrador de Segurança [no portal Microsoft 365 Defender.](permissions-microsoft-365-security-center.md)
+  - Gerenciamento da organização ou Administrador de Segurança [no Microsoft 365 de segurança.](permissions-microsoft-365-security-center.md)
   - Gerenciamento de organização em [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).
+
 
 - Você também precisará de acesso ao Exchange Online PowerShell. Se a conta que você está tentando usar não tiver acesso ao Exchange Online PowerShell, você receberá um erro que diz Especificar um endereço de email em *seu domínio*. Para obter mais informações sobre a habilitação ou desabilitação do acesso ao Exchange Online PowerShell, consulte os seguintes tópicos:
   - [Habilitar ou desabilitar o acesso Exchange Online PowerShell](/powershell/exchange/disable-access-to-exchange-online-powershell)

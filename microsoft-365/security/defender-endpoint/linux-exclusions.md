@@ -54,7 +54,7 @@ A tabela a seguir mostra os tipos de exclusão suportados pelo Defender para Pon
 Exclusão | Definição | Exemplos
 ---|---|---
 Extensão de arquivo | Todos os arquivos com a extensão, em qualquer lugar do dispositivo | `.test`
-File | Um arquivo específico identificado pelo caminho completo | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`
+Arquivo | Um arquivo específico identificado pelo caminho completo | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`
 Pasta | Todos os arquivos na pasta especificada (recursivamente) | `/var/log/`<br/>`/var/*/`
 Processo | Um processo específico (especificado pelo caminho completo ou nome do arquivo) e todos os arquivos abertos por ele | `/bin/cat`<br/>`cat`<br/>`c?t`
 
