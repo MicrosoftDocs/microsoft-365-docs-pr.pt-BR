@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 hideEdit: true
 description: Entenda o número máximo de políticas e itens por política para políticas de retenção e políticas de rótulos de retenção
-ms.openlocfilehash: 1ee2d07a42aaf4dff45ae22e9dfc005b3c4593d9
-ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
+ms.openlocfilehash: 2dac852342c080c4f8334562dc76449d6963facc
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52698959"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878047"
 ---
 # <a name="limits-for-retention-policies-and-retention-label-policies"></a>Limites para políticas de retenção e políticas de rótulo de retenção
 
@@ -82,3 +82,13 @@ Exemplo do SharePoint:
 - **Solução**: criar 20 políticas de retenção para o SharePoint com um período de retenção de 10 anos que inclui 100 sites específicos e criar 80 políticas de retenção para o SharePoint com um período de retenção de 4 anos que inclui 100 sites específicos.
     
     Como não é necessário manter todos os sites do SharePoint, você deve criar políticas de retenção que especificam os sites específicos. Como uma política de retenção não dá suporte a mais de 100 sites especificados, você deve criar várias políticas para os dois períodos de retenção. Essas políticas de retenção têm o número máximo de sites incluídos, para que o próximo novo site que precise da retenção exija uma nova política, independentemente do período de retenção.
+
+## <a name="maximum-number-of-items-for-disposition"></a>Número máximo de itens para disposição
+
+Para a [disposição do conteúdo](disposition.md), existem alguns limites a serem cientes:
+
+- 1.000.000 itens pendentes de disposição por estágio para cada rótulo de retenção
+
+- Prova de disposição por até sete anos após o item ser descartado, com um limite de 1.000.000 itens por rótulo de retenção para esse período. 
+    
+    Se você precisar da prova de disposição maior do que esse limite de 1.000.000 para itens marcados como registros, entre em contato com o [Suporte da Microsoft](../business-video/get-help-support.md).
