@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Os membros do grupo do Microsoft 365 receberão um email do grupo e um espaço de trabalho compartilhado para conversas, arquivos e eventos do calendário, como o Stream e um Planner.
-ms.openlocfilehash: 3e4fa36520247179b653f799f7b2a061b9d9f4a9
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 038c4b9f6d9d28e62c0fb9b8f117db96ac42ddfb
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635589"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903835"
 ---
 # <a name="compare-groups"></a>Comparar grupos
 
@@ -89,7 +89,7 @@ As caixas de correio compartilhadas incluem um calendário que pode ser usado pa
 
 Os usuários com permissões para a caixa de correio do grupo podem enviar como ou enviar em nome do endereço de email da caixa de correio, se o administrador tiver dado permissões para isso. Isso é particularmente útil para caixas de correio de ajuda e suporte, pois os usuários podem enviar emails de "Suporte da Contoso" ou "Criar uma Mesa de Recepção".
 
-Atualmente, não é possível migrar uma caixa de correio compartilhada para um grupo do Microsoft 365. Era disso que você estava precisando? Fale conosco. **[Vote aqui](https://go.microsoft.com/fwlink/?linkid=871518)**.
+Não é possível migrar uma caixa de correio compartilhada para um grupo do Microsoft 365. 
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
