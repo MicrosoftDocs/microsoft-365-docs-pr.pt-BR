@@ -22,12 +22,12 @@ description: Use rótulos de confidencialidade da MIP (Proteção de Informaçõ
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 42ac45fcea72d0ccdae69f6b7315cf31d38121d7
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 5c54b9c9b9046a1c410418a9ae5a922bdad9c442
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730241"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878071"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -196,8 +196,7 @@ Ao configurar uma política de rótulo, você pode:
 
     ![Aviso no Outlook pedindo ao usuário para aplicar o rótulo necessário](../media/sensitivity-labels-mandatory-prompt-aipv2-outlook.PNG)
     
-    > [!NOTE]
-    > A rotulagem obrigatória para documentos e emails não se encontra disponível para todos os aplicativos ou todas as plataformas. Para mais informações, consulte [Exigir que os usuários apliquem um rótulo em seus emails e documentos](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents).
+    Para obter mais informações sobre rótulos obrigatórios para documentos e emails, consulte [Exigir que os usuários apliquem um rótulo aos emails e documentos](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents).
     
     Para contêineres, um rótulo deve ser atribuído no momento em que o grupo ou local é criado.
     

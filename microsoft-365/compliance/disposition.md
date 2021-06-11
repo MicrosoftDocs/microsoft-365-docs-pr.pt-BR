@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a disposição do conteúdo para quando você usar uma revisão de disposição ou itens marcados como registros forem excluídos automaticamente de acordo com as configurações definidas.
-ms.openlocfilehash: 99ab789b99385af9ad2677995606d21ece54705c
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 577cf25ffc8735be19434496bd16202a8e383761
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52594068"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878119"
 ---
 # <a name="disposition-of-content"></a>Disposição de conteúdo
 
@@ -38,7 +38,7 @@ Use a página **Disposição** do **Gerenciamento de Registros** no Centro de co
 
 ## <a name="prerequisites-for-viewing-content-dispositions"></a>Pré-requisitos para exibir disposições de conteúdo
 
-Para gerenciar as revisões de disposição e confirmar que os registros foram excluídos, você deve ter permissões suficientes e a auditoria deve ser habilitada.
+Para gerenciar as revisões de disposição e confirmar que os registros foram excluídos, você deve ter permissões suficientes e a auditoria deve ser habilitada. Esteja ciente também de quaisquer [limitações](retention-limits.md#maximum-number-of-items-for-disposition) para disposição.
 
 ### <a name="permissions-for-disposition"></a>Permissões para disposição
 
@@ -215,8 +215,6 @@ Use a guia **Disposição** da página **Gerenciamento de Registros** para ident
 Esses itens exibem **Registros Descartados** na coluna **Tipo**. Por exemplo:
 
 ![Itens que foram descartados sem uma revisão de disposição](../media/records-disposed2.png)
-
-Itens mostrados na guia **Itens Dispostos** são mantidos por até sete anos após o item ser descartado, com um limite de um milhão de itens por registro para aquele período. Se você vir que o número de **Contagem** se aproxima desse limite de 1 milhão e precisar de prova de disposição para seus registros, contate o [Suporte da Microsoft](../business-video/get-help-support.md).
 
 > [!NOTE]
 > Esta funcionalidade usa informações do [log de auditoria unificado](search-the-audit-log-in-security-and-compliance.md) e, portanto, requer que a auditoria seja [habilitada e pesquisável](turn-audit-log-search-on-or-off.md) para que os eventos correspondentes sejam capturados.
