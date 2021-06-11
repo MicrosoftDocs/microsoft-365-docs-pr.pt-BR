@@ -19,20 +19,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52294942"
 ---
-# <a name="contact-support-for-zambia"></a><span data-ttu-id="7c726-103">Contatar o suporte para a Zâmbia</span><span class="sxs-lookup"><span data-stu-id="7c726-103">Contact support for Zambia</span></span>
+# <a name="contact-support-for-zambia"></a><span data-ttu-id="d529c-103">Contatar o suporte para a Zâmbia</span><span class="sxs-lookup"><span data-stu-id="d529c-103">Contact support for Zambia</span></span>
 
-<span data-ttu-id="7c726-104">[Encontre outro país ou região](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="7c726-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="d529c-104">[Encontre outro país ou região](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="d529c-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="7c726-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="7c726-105">Phone number</span></span>
-<span data-ttu-id="7c726-106">+27 21 427 3315</span><span class="sxs-lookup"><span data-stu-id="7c726-106">+27 21 427 3315</span></span>
+## <a name="phone-number"></a><span data-ttu-id="d529c-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="d529c-105">Phone number</span></span>
+<span data-ttu-id="d529c-106">+27 21 427 3315</span><span class="sxs-lookup"><span data-stu-id="d529c-106">+27 21 427 3315</span></span>
 
-## <a name="hours"></a><span data-ttu-id="7c726-107">Horas</span><span class="sxs-lookup"><span data-stu-id="7c726-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="7c726-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="7c726-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="d529c-107">Horas</span><span class="sxs-lookup"><span data-stu-id="d529c-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="d529c-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="d529c-108">Billing Support:</span></span>
 
-<span data-ttu-id="7c726-109">Inglês: Segunda a sexta, das 9h às 17h</span><span class="sxs-lookup"><span data-stu-id="7c726-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="d529c-109">Inglês: Segunda a sexta, das 9h às 17h</span><span class="sxs-lookup"><span data-stu-id="d529c-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="7c726-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="7c726-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="d529c-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="d529c-110">Technical Support:</span></span>
 
-<span data-ttu-id="7c726-111">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="7c726-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="d529c-111">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="d529c-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="7c726-112">Cobranças de chamada internacionais são aplicadas</span><span class="sxs-lookup"><span data-stu-id="7c726-112">International call charges apply</span></span>
+<span data-ttu-id="d529c-112">Cobranças de chamada internacionais são aplicadas</span><span class="sxs-lookup"><span data-stu-id="d529c-112">International call charges apply</span></span>

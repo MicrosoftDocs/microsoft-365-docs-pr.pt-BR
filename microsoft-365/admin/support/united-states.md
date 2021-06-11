@@ -19,18 +19,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52295014"
 ---
-# <a name="contact-support-for-united-states"></a><span data-ttu-id="4b0df-103">Entrar em contato com o suporte para Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="4b0df-103">Contact support for United States</span></span>
+# <a name="contact-support-for-united-states"></a><span data-ttu-id="6f4bb-103">Entrar em contato com o suporte para Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="6f4bb-103">Contact support for United States</span></span>
 
-<span data-ttu-id="4b0df-104">[Encontre outro país ou região](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="4b0df-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="6f4bb-104">[Encontre outro país ou região](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="6f4bb-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="4b0df-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="4b0df-105">Phone number</span></span>
-<span data-ttu-id="4b0df-106">1 800 865 9408</span><span class="sxs-lookup"><span data-stu-id="4b0df-106">1 800 865 9408</span></span>
+## <a name="phone-number"></a><span data-ttu-id="6f4bb-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="6f4bb-105">Phone number</span></span>
+<span data-ttu-id="6f4bb-106">1 800 865 9408</span><span class="sxs-lookup"><span data-stu-id="6f4bb-106">1 800 865 9408</span></span>
 
-## <a name="hours"></a><span data-ttu-id="4b0df-107">Horas</span><span class="sxs-lookup"><span data-stu-id="4b0df-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="4b0df-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="4b0df-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="6f4bb-107">Horas</span><span class="sxs-lookup"><span data-stu-id="6f4bb-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="6f4bb-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="6f4bb-108">Billing Support:</span></span>
 
-<span data-ttu-id="4b0df-109">Inglês: Segunda a sexta, das 9h às 17h</span><span class="sxs-lookup"><span data-stu-id="4b0df-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="6f4bb-109">Inglês: Segunda a sexta, das 9h às 17h</span><span class="sxs-lookup"><span data-stu-id="6f4bb-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="4b0df-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="4b0df-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="6f4bb-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="6f4bb-110">Technical Support:</span></span>
 
-<span data-ttu-id="4b0df-111">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="4b0df-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="6f4bb-111">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="6f4bb-111">English: 24 hours a day, 7 days a week</span></span>
