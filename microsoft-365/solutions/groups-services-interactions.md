@@ -335,7 +335,7 @@ Não, no entanto, copiar um plano cria um novo grupo.
 
 Sim, a exclusão do plano excluirá o conteúdo e os serviços associados ao grupo e ao grupo.
 
-## <a name="power-apps"></a>Power Apps
+## <a name="power-apps"></a>Aplicativos de energia
 
 Power Apps fornece uma tela para desenvolvimento de aplicativos sem código.
 

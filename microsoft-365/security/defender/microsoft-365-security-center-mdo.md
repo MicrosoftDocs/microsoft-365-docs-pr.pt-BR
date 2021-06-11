@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: 95471f444117e1a44abe8de76c95cda52d5f7930
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 3629df6dd88176f66ec6e0f1eeedb78771cc36ec
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842597"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879223"
 ---
 # <a name="microsoft-defender-for-office-365-in-microsoft-365-defender"></a>Microsoft Defender para Office 365 no Microsoft 365 Defender
 
@@ -56,7 +56,7 @@ A imagem e a tabela a seguir lista as alterações na navegação entre o Office
 |Privacidade de dados||Consulte [Microsoft 365 de conformidade](https://compliance.microsoft.com/homepage)||
 |Pesquisar|Pesquisar|||
 |Relatórios|Relatório|||
-|Garantia do serviço|Configurações|||
+|Garantia do serviço|Settings|||
 |
 
 [Microsoft 365 Defender](./overview-security-center.md) at combina recursos de segurança de portais de segurança existentes da Microsoft, incluindo o Central de Segurança do Microsoft Defender e o Centro de Conformidade Office 365 <https://security.microsoft.com> Segurança & Segurança. Este centro aprimorado ajuda as equipes de segurança a proteger suas organizações de ameaças de maneira mais eficaz e eficiente.
@@ -78,7 +78,7 @@ Esta tabela é uma referência rápida de áreas de Email e Colaboração onde a
 |Área|Descrição da alteração|
 |---|---|
 |[Página de entidade de email](../office-365-security/mdo-email-entity-page.md)|Esta página **unifica** as informações de email que foram espalhadas por diferentes páginas ou exibições no passado. A investigação de email para ameaças e tendências é *centralizada*. As informações do cabeçalho e a visualização do email são acessíveis através da mesma página de email, juntamente com outras informações úteis relacionadas ao email. Da mesma forma, o status de detonação para anexos de arquivos ou URLs mal-intencionados pode ser encontrado em uma guia da mesma página. A página de entidade de email empodera os administradores e as equipes de operações de segurança para entender uma ameaça de email e seu status e age rapidamente para determinar o tratamento.|
-|[Investigação](../office-365-security/office-365-air.md#changes-are-coming-soon-in-your-security-center)|Reúne os recursos de AIR em [Defender para Office 365](/microsoft-365/security/office-365-security/defender-for-office-365) e [Defender para Ponto de Extremidade](../defender-endpoint/automated-investigations.md). Com essas atualizações e melhorias, sua equipe de operações de segurança poderá exibir detalhes sobre investigações automatizadas e ações de remediação em todo o seu email, conteúdo de colaboração, contas de usuário e dispositivos, tudo em um só lugar.|
+|[Investigação](../office-365-security/office-365-air.md#changes-are-coming-soon-in-your-microsoft-365-defender-portal)|Reúne os recursos de AIR em [Defender para Office 365](/microsoft-365/security/office-365-security/defender-for-office-365) e [Defender para Ponto de Extremidade](../defender-endpoint/automated-investigations.md). Com essas atualizações e melhorias, sua equipe de operações de segurança poderá exibir detalhes sobre investigações automatizadas e ações de remediação em todo o seu email, conteúdo de colaboração, contas de usuário e dispositivos, tudo em um só lugar.|
 |[Exibição de alerta](../../compliance/alert-policies.md)|O **painel de avisos** exibir alertas no centro Office Segurança e Conformidade agora inclui links para o Microsoft 365 Defender. Clique no link **Abrir Página de Alerta e** Microsoft 365 Defender será aberto. Você pode acessar a página **Exibir alertas** clicando em qualquer alerta do Office 365 na fila de Alertas.|
 |[Treinamento de Simulação de Ataque](../office-365-security/attack-simulation-training-insights.md)|Use o treinamento de Simulação de Ataque para executar cenários de ataque realistas em sua organização. Esses ataques simulados podem ajudar a treinar a sua força de trabalho antes que um ataque real afete a sua organização. O treinamento de simulação de ataque inclui mais opções, relatórios avançados e fluxos de treinamento aprimorados que ajudam a tornar a simulação de ataque e os cenários de treinamento fáceis de realizar e gerenciar.|
 |

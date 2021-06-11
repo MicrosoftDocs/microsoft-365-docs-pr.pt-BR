@@ -20,12 +20,12 @@ ms.custom:
 description: Este tópico orienta você sobre a configuração recomendada para configurações em todo o locatário que afetam a segurança do seu ambiente Microsoft 365 local.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8a449d9647ae5a8b892967116f28aa6203a5e815
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: fd9d07388386ecc3d5877736e588393cdc38e7bb
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684166"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879211"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>Configure o locatário do Microsoft 365 para aumentar a segurança 
 
@@ -42,9 +42,9 @@ Este tópico orienta você sobre a configuração recomendada para configuraçõ
 
 Office 365 A Pontuação Segura analisa a segurança da sua organização com base em suas atividades regulares e configurações de segurança e atribui uma pontuação. Comece anotando sua pontuação atual. Ajustar algumas configurações de todo o locatário aumentará sua pontuação. O objetivo não é atingir a pontuação máxima, mas estar ciente das oportunidades de proteger seu ambiente que não afetam negativamente a produtividade de seus usuários. Consulte [Microsoft Secure Score](../defender/microsoft-secure-score.md).
 
-## <a name="tune-threat-management-policies-in-the-microsoft-365-security-center"></a>Ajustar políticas de gerenciamento de ameaças no Microsoft 365 de segurança
+## <a name="tune-threat-management-policies-in-the-microsoft-365-defender-portal"></a>Ajustar políticas de gerenciamento de ameaças no portal Microsoft 365 Defender
 
-O Microsoft 365 de segurança inclui recursos que protegem seu ambiente. Ele também inclui relatórios e painéis que você pode usar para monitorar e tomar medidas. Algumas áreas vêm com configurações de política padrão. Algumas áreas não incluem políticas ou regras padrão. Visite essas políticas em gerenciamento de ameaças para ajustar as configurações de gerenciamento de ameaças para um ambiente mais seguro.
+O Microsoft 365 do Defender inclui recursos que protegem seu ambiente. Ele também inclui relatórios e painéis que você pode usar para monitorar e tomar medidas. Algumas áreas vêm com configurações de política padrão. Algumas áreas não incluem políticas ou regras padrão. Visite essas políticas em gerenciamento de ameaças para ajustar as configurações de gerenciamento de ameaças para um ambiente mais seguro.
 
 <br>
 
@@ -57,7 +57,7 @@ O Microsoft 365 de segurança inclui recursos que protegem seu ambiente. Ele tam
 |**Cofre Anexos no Microsoft Defender para Office 365**|Não|Na página principal para Cofre anexos, clique em **Configurações globais** e a opção Ativar esta configuração: <ul><li>**Ativar o Defender para Office 365, para SharePoint, OneDrive e Microsoft Teams.**</li></ul> <p> Crie uma Cofre de anexos com estas configurações: <ul><li> **Bloquear**: Selecione **Bloquear** como a resposta de malware desconhecida.</li><li>**Habilitar redirecionamento**: marque essa caixa e insira um endereço de email, como uma conta de administrador ou quarentena.</li><li>**Aplique a seleção acima se a verificação de malware** para anexos for o tempo de saída ou se ocorrer um erro : Marque esta caixa.</li><li>**_Aplicado a_*: **O domínio do destinatário é** selecionar seu \> domínio.</li></ul> <p> Mais informações: Cofre anexos para [SharePoint, OneDrive e Microsoft Teams](mdo-for-spo-odb-and-teams.md) e Configurar políticas de Cofre [Anexos](set-up-safe-attachments-policies.md)|
 |**Cofre Links no Microsoft Defender para Office 365**|Sim|Na página principal para Cofre Links, clique em **Configurações globais**: <ul><li>**Use Cofre Links em: Office 365 aplicativos**: Verifique se essa configuração está conexões.</li><li>**Não rastreia quando os usuários clicam Cofre Links**: Desativar essa configuração para controlar os cliques do usuário.</li></ul> <p> Crie uma Cofre de links com estas configurações: <ul><li>**Selecione a ação para URLs mal-intencionadas desconhecidas em mensagens**: Verifique se essa configuração está **em**.</li><li>**Selecione a ação para URLs desconhecidas** ou potencialmente mal-intencionadas Microsoft Teams : Verifique se essa configuração está **em**.</li><li>**Aplicar verificação de URL** em tempo real para links suspeitos e links que apontam para arquivos : Marque esta caixa.</li><li>**Aguarde a conclusão da verificação de URL antes de entregar a mensagem**: Marque esta caixa.</li><li>**Aplicar Cofre links para mensagens de email enviadas dentro da organização**: Marque esta caixa</li><li>**Não permita que os usuários cliquem na URL original**: Marque esta caixa.</li><li>**Aplicado a**: **O domínio do destinatário é** selecionar seu \> domínio.</li></ul> <p> Mais informações: [Configurar políticas Cofre Links.](set-up-safe-links-policies.md)|
 |**Anti-Spam (Filtragem de email)**|Sim| O que assistir: spam em de mais — Escolha as configurações personalizadas e edite a política de filtro de spam padrão. Mais informações: Microsoft 365 [Email Anti-Spam Protection](anti-spam-protection.md).|
-|***Autenticação de Email***|Sim|A autenticação de email usa um DNS (Sistema de Nomes de Domínio) para adicionar informações verificáveis a mensagens de email sobre o remetente de um email. Microsoft 365 configura a autenticação de email para seu domínio padrão (onmicrosoft.com), mas Microsoft 365 administradores também podem usar a autenticação de email para domínios personalizados. Três métodos de autenticação são usados: <ul><li>Estrutura de Política de Remetente (ou SPF).</li><ul><li>Para configurar, consulte [Configurar o SPF no Microsoft 365 para ajudar a evitar a spoofing](set-up-spf-in-office-365-to-help-prevent-spoofing.md).</li></ul> <li>DomainKeys Identified Mail (DKIM).</li><ul><li>Consulte [Usar DKIM para validar emails de saída enviados do seu domínio personalizado.](use-dkim-to-validate-outbound-email.md)</li><li>Depois de configurar o DKIM, habilita-o no centro de segurança.</li></ul><li>Autenticação, Relatório e Conformidade (DMARC) baseado em domínio.</li><ul><li>Para configuração DMARC [Use DMARC para validar emails em Microsoft 365](use-dmarc-to-validate-email.md).</li></ul></ul>|
+|***Autenticação de Email***|Sim|A autenticação de email usa um DNS (Sistema de Nomes de Domínio) para adicionar informações verificáveis a mensagens de email sobre o remetente de um email. Microsoft 365 configura a autenticação de email para seu domínio padrão (onmicrosoft.com), mas Microsoft 365 administradores também podem usar a autenticação de email para domínios personalizados. Três métodos de autenticação são usados: <ul><li>Estrutura de Política de Remetente (ou SPF).</li><ul><li>Para configurar, consulte [Configurar o SPF no Microsoft 365 para ajudar a evitar a spoofing](set-up-spf-in-office-365-to-help-prevent-spoofing.md).</li></ul> <li>DomainKeys Identified Mail (DKIM).</li><ul><li>Consulte [Usar DKIM para validar emails de saída enviados do seu domínio personalizado.](use-dkim-to-validate-outbound-email.md)</li><li>Depois de configurar o DKIM, habilita-o no portal Microsoft 365 Defender.</li></ul><li>Autenticação, Relatório e Conformidade (DMARC) baseado em domínio.</li><ul><li>Para configuração DMARC [Use DMARC para validar emails em Microsoft 365](use-dmarc-to-validate-email.md).</li></ul></ul>|
 |
 
 > [!NOTE]
@@ -73,16 +73,16 @@ Visite esses relatórios e painéis para saber mais sobre a saúde do seu ambien
 
 |Painel|Descrição|
 |---|---|
-|[Painel de gerenciamento de ameaças](security-dashboard.md)|Na  seção Gerenciamento de ameaças do centro de segurança, use este painel para ver as ameaças que já foram manipuladas e como uma ferramenta útil para relatar aos tomadores de decisão comerciais sobre quais recursos de investigação e resposta de ameaças já fizeram para proteger sua empresa.|
-|[Explorador de Ameaças (ou detecções em tempo real)](threat-explorer.md)|Isso também está na seção **Gerenciamento de** ameaças do centro de segurança. Se você estiver investigando ou enfrentando um ataque contra seu locatário, use o Explorer (ou detecções em tempo real) para analisar ameaças. O Explorer (e o relatório de detecções em tempo real) mostra o volume de ataques ao longo do tempo e você pode analisar esses dados por famílias de ameaças, infraestrutura de invasores e muito mais. Você também pode marcar qualquer email suspeito para a lista Incidentes.|
-|Relatórios — Painel|Na seção **Relatórios** do Centro de Segurança, consulte relatórios de auditoria para suas organizações SharePoint Online e Exchange Online. Você também pode acessar Azure Active Directory relatórios de entrada do usuário (Azure AD), relatórios de atividades do usuário e o log de auditoria do Azure AD na página **Exibir relatórios.**|
+|[Painel de gerenciamento de ameaças](security-dashboard.md)|Na  seção Gerenciamento de ameaças do portal do Microsoft 365 Defender, use este painel para ver as ameaças que já foram manipuladas e como uma ferramenta útil para relatar aos tomadores de decisão comerciais sobre quais recursos de investigação e resposta de ameaças já fizeram para proteger sua empresa.|
+|[Explorador de Ameaças (ou detecções em tempo real)](threat-explorer.md)|Isso também está na seção **Gerenciamento de ameaças** do portal Microsoft 365 Defender. Se você estiver investigando ou enfrentando um ataque contra seu locatário, use o Explorer (ou detecções em tempo real) para analisar ameaças. O Explorer (e o relatório de detecções em tempo real) mostra o volume de ataques ao longo do tempo e você pode analisar esses dados por famílias de ameaças, infraestrutura de invasores e muito mais. Você também pode marcar qualquer email suspeito para a lista Incidentes.|
+|Relatórios — Painel|Na seção **Relatórios** do portal Microsoft 365 Defender, consulte relatórios de auditoria para suas organizações SharePoint Online e Exchange Online. Você também pode acessar Azure Active Directory relatórios de entrada do usuário (Azure AD), relatórios de atividades do usuário e o log de auditoria do Azure AD na página **Exibir relatórios.**|
 |
 
-![Painel do Centro de Segurança](../../media/870ab776-36d2-49c7-b615-93b2bc42fce5.png)
+![Microsoft 365 Painel do portal do Defender](../../media/870ab776-36d2-49c7-b615-93b2bc42fce5.png)
 
 ## <a name="configure-additional-exchange-online-tenant-wide-settings"></a>Configurar configurações Exchange Online de locatários adicionais
 
-Muitos dos controles de segurança e proteção no centro de administração Exchange também estão incluídos no centro de segurança. Você não precisa configurá-los em ambos os lugares. Aqui estão algumas configurações adicionais que são recomendadas.
+Aqui estão algumas configurações adicionais que são recomendadas.
 
 <br>
 

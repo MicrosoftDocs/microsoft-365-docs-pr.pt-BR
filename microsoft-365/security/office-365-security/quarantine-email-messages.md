@@ -19,7 +19,7 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem aprender sobre a quarentena no Exchange Online Protection (EOP) que contém mensagens potencialmente perigosas ou indesejadas.
+description: Os administradores podem aprender sobre a quarentena no Proteção do Exchange Online (EOP) que contém mensagens potencialmente perigosas ou indesejadas.
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: b2a11f5f9e1e730a3b0cc09625ec8e8cb592d869
@@ -38,7 +38,7 @@ ms.locfileid: "52333801"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, a quarentena está disponível para manter mensagens potencialmente perigosas ou indesejadas.
+Em organizações Microsoft 365 com caixas de correio em organizações Exchange Online ou autônomas Proteção do Exchange Online (EOP) sem Exchange Online caixas de correio, a quarentena está disponível para manter mensagens potencialmente perigosas ou indesejadas.
 
 As políticas anti-malware colocarão automaticamente uma mensagem em quarentena se *algum* anexo for encontrado com malware. Para obter mais informações, consulte [Configure anti-malware policies in EOP](configure-anti-malware-policies.md).
 

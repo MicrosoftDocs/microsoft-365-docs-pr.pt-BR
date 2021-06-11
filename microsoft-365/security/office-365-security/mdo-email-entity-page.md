@@ -39,7 +39,7 @@ Um dos & de Conformidade (protection.office.com) existente ou o novo centro de s
 |Centro|URL|Navegação|
 |---|---|---|
 |Conformidade e Segurança |protection.office.com|Explorador de Gerenciamento de \> Ameaças|
-|Centro de segurança do Microsoft 365 |security.microsoft.com|Explorador de colaboração & \> email|
+|Central de segurança do Microsoft 365 |security.microsoft.com|Explorador de colaboração & \> email|
 
 No Explorador de Ameaças, selecione o assunto de um email que você está investigando. Uma barra de ouro será exibida na parte superior do sub-envio de email para esse email. Este convite para a nova página, lê 'Experimente nossa nova página de entidade de email com dados enriquecidos...'. Selecione para exibir a nova página.
 

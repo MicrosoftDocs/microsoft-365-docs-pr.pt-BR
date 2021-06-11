@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: bd9d42ed85e9a489107a72ccbe841537a7e524d4
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 4175d3bedff86dc7f8cdafc1ff2366ca1c9cffc4
+ms.sourcegitcommit: d0c160e89e17f451199bc4a85699effd2d935213
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843513"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52893735"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender para Ponto de Extremidade para Linux
 
@@ -101,7 +101,9 @@ Se você tiver alguma falha de instalação, consulte [Troubleshooting installat
 
 - /opt/microsoft/mdatp/sbin/wdavdaemon requer permissão executável. Para obter mais informações, consulte "Certifique-se de que o daemon tenha permissão executável" em Solucionar problemas de instalação do [Microsoft Defender para Ponto de](/microsoft-365/security/defender-endpoint/linux-support-install)Extremidade no Linux .
 
-- Memória: 1 GB
+- Núcleos: 2 mínimos, 4 preferenciais
+
+- Memória: 1 GB mínimo, 4 preferencial
 
     > [!NOTE]
     > Verifique se você tem espaço livre em disco no /var.

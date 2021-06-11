@@ -15,12 +15,12 @@ ms.collection:
 description: Os administradores podem aprender a aplicar configurações de política padrão e estrita nos recursos de proteção do Proteção do Exchange Online (EOP) e do Microsoft Defender para Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 244364b423ee633a9131aabf93b5fc1e7cf756c0
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 24fe67a7465ec71451b649dbc5963c28e0dc7cf3
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822281"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879007"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Políticas de segurança predefinidas no EOP e no Microsoft Defender para Office 365
 
@@ -105,7 +105,7 @@ Em outras palavras, as  configurações da política de  proteção estrita subs
 
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Você abre o Microsoft 365 de segurança em <https://security.microsoft.com> . Para ir diretamente para a página **Políticas de segurança** predefinidas, use <https://security.microsoft.com/presetSecurityPolicies> .
+- Você abre o portal Microsoft 365 Defender em <https://security.microsoft.com> . Para ir diretamente para a página **Políticas de segurança** predefinidas, use <https://security.microsoft.com/presetSecurityPolicies> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -117,9 +117,9 @@ Em outras palavras, as  configurações da política de  proteção estrita subs
 
   **Observação**: a adição de usuários à função Azure Active Directory correspondente no centro de  administração Microsoft 365 oferece aos usuários as permissões e permissões necessárias para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 
-### <a name="use-the-security-center-to-assign-preset-security-policies-to-users"></a>Usar o centro de segurança para atribuir políticas de segurança predefinidas aos usuários
+### <a name="use-the-microsoft-365-defender-portal-to-assign-preset-security-policies-to-users"></a>Use o portal Microsoft 365 Defender para atribuir políticas de segurança predefinidas aos usuários
 
-1. No centro de segurança, vá para **Email & políticas** de colaboração & políticas de ameaças De regras Modelo de políticas de segurança \>  \>  \>  \> **predefinidas**.
+1. No portal Microsoft 365 Defender, acesse **Email & de** colaboração & Políticas de Ameaças de Regras Seção Políticas de \>  \>  \>  \> **segurança predefinidas**.
 
 2. Em **Proteção padrão ou** proteção **estrita,** clique em **Editar**.
 
@@ -144,9 +144,9 @@ Em outras palavras, as  configurações da política de  proteção estrita subs
 
 5. Na página **Revisar e confirmar suas alterações,** verifique suas seleções e clique em **Confirmar**.
 
-### <a name="use-the-security-center-to-modify-the-assignments-of-preset-security-policies"></a>Usar o centro de segurança para modificar as atribuições de políticas de segurança predefinidas
+### <a name="use-the-microsoft-365-defender-portal-to-modify-the-assignments-of-preset-security-policies"></a>Use o portal Microsoft 365 Defender para modificar as atribuições de políticas de segurança predefinidas
 
-As etapas para modificar  a atribuição da política de segurança proteção padrão ou proteção estrita são as mesmas de quando você atribuiu inicialmente as políticas de segurança predefinidas [aos usuários](#use-the-security-center-to-assign-preset-security-policies-to-users). 
+As etapas para modificar  a atribuição da política de segurança proteção padrão ou proteção estrita são as mesmas de quando você atribuiu inicialmente as políticas de segurança predefinidas [aos usuários](#use-the-microsoft-365-defender-portal-to-assign-preset-security-policies-to-users). 
 
 Para desabilitar as  **políticas** de segurança de proteção padrão ou de proteção estrita enquanto ainda preserva as condições e exceções existentes, deslize a alternância para **Desabilitado** ![ Desativar a Alternância ](../../media/scc-toggle-off.png) . Para habilitar as políticas, deslize a alternância **para Habilitado** ![ para ](../../media/scc-toggle-on.png) Ativar.
 

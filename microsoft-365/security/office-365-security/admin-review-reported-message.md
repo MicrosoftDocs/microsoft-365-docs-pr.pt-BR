@@ -13,12 +13,12 @@ ms.collection:
 description: Saiba como revisar as mensagens relatadas e fazer comentários aos usuários.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7386f5b283e2bfabb76eee91d33dfda0e42ec7b1
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 217f5ebb1692d68b5dc70988888bf78d4bd36a0c
+ms.sourcegitcommit: d0c160e89e17f451199bc4a85699effd2d935213
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769120"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52893723"
 ---
 # <a name="admin-review-for-reported-messages"></a>Análise do administrador de mensagens relatadas
 
@@ -39,9 +39,11 @@ Você só poderá marcar e notificar os usuários dos resultados da revisão se 
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
+- Você abre o portal Microsoft 365 Defender em <https://security.microsoft.com/> . Para ir diretamente para a página **Envios,** use <https://security.microsoft.com/reportsubmission> .
+
 - Para modificar a configuração para envios do usuário, você precisa ser membro de um dos seguintes grupos de função:
-  - Gerenciamento da organização ou Administrador de Segurança [no Microsoft 365 de segurança.](permissions-microsoft-365-security-center.md)
-  - Gerenciamento de organização em [Exchange Online](/Exchange/permissions-exo/permissions-exo).
+  - Gerenciamento da organização ou Administrador de Segurança [no portal Microsoft 365 Defender.](permissions-microsoft-365-security-center.md)
+  - Gerenciamento de organização em [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).
 
 - Você também precisará de acesso ao Exchange Online PowerShell. Se a conta que você está tentando usar não tiver acesso ao Exchange Online PowerShell, você receberá um erro que diz Especificar um endereço de email em *seu domínio*. Para obter mais informações sobre a habilitação ou desabilitação do acesso ao Exchange Online PowerShell, consulte os seguintes tópicos:
   - [Habilitar ou desabilitar o acesso Exchange Online PowerShell](/powershell/exchange/disable-access-to-exchange-online-powershell)
@@ -49,9 +51,9 @@ Você só poderá marcar e notificar os usuários dos resultados da revisão se 
 
 ## <a name="configure-the-messages-used-to-notify-users"></a>Configurar as mensagens usadas para notificar os usuários
 
-1. No centro [de Microsoft 365 de segurança](../defender/overview-security-center.md), vá para Políticas & **políticas** de ameaça As configurações de mensagem \>  \> **relatadas pelo usuário.**
+1. No portal Microsoft 365 Defender, acesse **Email & políticas** de colaboração & políticas de ameaça Outras seção Configurações de mensagem \>  \>  \>  \> **relatadas pelo usuário**.
 
-2. Se você quiser especificar o nome de exibição do remetente, marque Office 365 caixa especificar um endereço de **email** para usar como remetente na seção Notificações de **email** para resultados de revisão de administrador e insira o nome que deseja usar. Este é o endereço de email que ficará visível no Outlook e para onde as respostas serão.
+2. Na página **Envios** de usuário, se você quiser especificar o nome de exibição do remetente **Office 365,** marque a caixa para Especificar um endereço de email para usar como remetente na seção Notificações de email para resultados de revisão de administrador e insira o nome que deseja usar.  Este é o endereço de email que ficará visível no Outlook e para onde as respostas serão.
 
 3. Se você quiser personalizar qualquer um dos modelos, clique em **Personalizar notificação de email**. Neste sobrevoo, você poderá personalizar apenas o seguinte:
     - Phishing

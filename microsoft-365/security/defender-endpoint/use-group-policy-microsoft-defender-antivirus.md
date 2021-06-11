@@ -57,12 +57,12 @@ A tabela a seguir neste tópico lista as configurações da Política de Grupo d
 > [!TIP]
 > Baixe a Planilha de Referência Configurações Política de Grupo para Windows 10 atualização de maio de [2020 (2004)](https://www.microsoft.com/download/101451). Esta planilha lista as configurações de política para configurações do computador e do usuário incluídas nos arquivos de modelo administrativo fornecidos para Windows 10 atualização de maio de 2020 (2004). Você pode configurar consulte a planilha ao editar Objetos de Política de Grupo.
 
-| Local | Configuração | Artigo |
+| Localização | Configuração | Artigo |
 |:---|:---|:---|
 | Interface do cliente | Habilitar o modo de interface do usuário sem cabeça | [Impedir que os usuários vejam ou interajam com a Microsoft Defender Antivírus do usuário](prevent-end-user-interaction-microsoft-defender-antivirus.md) |
-| Interface do cliente | Exibir texto adicional para clientes quando eles precisam executar uma ação | [Configurar as notificações que aparecem nos pontos de extremidade](configure-notifications-microsoft-defender-antivirus.md) |
-| Interface do cliente | Suprimir todas as notificações | [Configurar as notificações que aparecem nos pontos de extremidade](configure-notifications-microsoft-defender-antivirus.md) |
-| Interface do cliente | Suprime notificações de reinicialização | [Configurar as notificações que aparecem nos pontos de extremidade](configure-notifications-microsoft-defender-antivirus.md) |
+| Interface do cliente | Exibir texto adicional para clientes quando eles precisam executar uma ação | [Configurar as notificações exibidas nos pontos de extremidade](configure-notifications-microsoft-defender-antivirus.md) |
+| Interface do cliente | Suprimir todas as notificações | [Configurar as notificações exibidas nos pontos de extremidade](configure-notifications-microsoft-defender-antivirus.md) |
+| Interface do cliente | Suprime notificações de reinicialização | [Configurar as notificações exibidas nos pontos de extremidade](configure-notifications-microsoft-defender-antivirus.md) |
 | Exclusões | Exclusões de extensão | [Configurar e validar exclusões em Microsoft Defender Antivírus verificações](configure-exclusions-microsoft-defender-antivirus.md) |
 | Exclusões | Exclusões de caminho | [Configurar e validar exclusões em Microsoft Defender Antivírus verificações](configure-exclusions-microsoft-defender-antivirus.md) |
 | Exclusões | Exclusões de processo | [Configurar e validar exclusões em Microsoft Defender Antivírus verificações](configure-exclusions-microsoft-defender-antivirus.md) | 
@@ -94,7 +94,7 @@ A tabela a seguir neste tópico lista as configurações da Política de Grupo d
 | Correção | Configurar a substituição de configuração local para a hora do dia para executar uma verificação completa agendada para concluir a correção | [Impedir ou permitir que os usuários modifiquem localmente as configurações de política](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
 | Correção | Especificar o dia da semana para executar uma verificação completa agendada para concluir a correção | [Configurar verificações Microsoft Defender Antivírus agendadas](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
 | Correção | Especificar a hora do dia para executar uma verificação completa agendada para concluir a correção | [Configurar verificações Microsoft Defender Antivírus agendadas](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
-| Reporting | Desativar notificações aprimoradas | [Configurar as notificações que aparecem nos pontos de extremidade](configure-notifications-microsoft-defender-antivirus.md)
+| Reporting | Desativar notificações aprimoradas | [Configurar as notificações exibidas nos pontos de extremidade](configure-notifications-microsoft-defender-antivirus.md)
 | Root | Desativar Microsoft Defender Antivírus | Não usado (Essa configuração deve ser definida como **Não configurada** para garantir que os aplicativos antivírus de terceiros instalados funcionem corretamente)
 | Root | Definir endereços para ignorar o servidor proxy | Não usado |
 | Root | Definir configuração automática de proxy (.pac) para se conectar à rede | Não usado |

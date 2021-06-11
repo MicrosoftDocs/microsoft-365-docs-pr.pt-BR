@@ -19,12 +19,12 @@ ms.collection:
 description: Saiba mais sobre exibições de campanha no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 04e3d76271e95d36d73dd473076029cb60c06900
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: ba619c5341913190bfb84dbc34b938deee8f42ca
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779430"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879127"
 ---
 # <a name="campaign-views-in-microsoft-defender-for-office-365"></a>Exibições de campanha no Microsoft Defender para Office 365
 
@@ -33,7 +33,7 @@ ms.locfileid: "52779430"
 **Aplica-se a**
 - [Plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 
-Exibições de campanha é um recurso no Microsoft Defender para Office 365 Plano 2 (por exemplo, Microsoft 365 E5 ou organizações com um complemento defender para Office 365 Plano 2). Exibições de campanha no centro Microsoft 365 de segurança identifica e categoriza ataques de phishing no serviço. Os Modos de Exibição de Campanhas podem ajudá-lo a:
+Exibições de campanha é um recurso no Microsoft Defender para Office 365 Plano 2 (por exemplo, Microsoft 365 E5 ou organizações com um complemento defender para Office 365 Plano 2). Exibições de campanha no Microsoft 365 portal do Defender identifica e categoriza ataques de phishing no serviço. Os Modos de Exibição de Campanhas podem ajudá-lo a:
 
 - Investigar e responder de forma eficiente os ataques de phishing.
 - Entender melhor o escopo do ataque.
@@ -54,11 +54,11 @@ A Microsoft aproveita as grandes quantidades de dados anti-phishing, anti-spam e
 
 Uma campanha pode ter curta duração ou pode abranger vários dias, semanas ou meses com períodos ativos e inativos. Uma campanha pode ser lançada contra sua organização específica, ou sua organização pode fazer parte de uma campanha maior em várias empresas.
 
-## <a name="campaign-views-in-the-security-center"></a>Exibições de campanha no centro de segurança
+## <a name="campaign-views-in-the-microsoft-365-defender-portal"></a>Exibições de campanha no portal Microsoft 365 Defender
 
-Os exibições de campanha estão disponíveis no centro de segurança [Microsoft 365](https://security.microsoft.com) email **&** \> **campanhas** de colaboração, ou diretamente em <https://security.microsoft.com/campaigns> .
+Os exibições de campanha estão disponíveis no portal Microsoft 365 Defender ( ) em <https://security.microsoft.com>  \> **Campanhas** de colaboração & email ou diretamente em <https://security.microsoft.com/campaigns> .
 
-![Visão geral das campanhas no centro Microsoft 365 segurança](../../media/campaigns-overview.png)
+![Visão geral das campanhas no portal Microsoft 365 Defender](../../media/campaigns-overview.png)
 
 Você também pode chegar a Exibições de Campanha a partir de:
 
@@ -67,7 +67,7 @@ Você também pode chegar a Exibições de Campanha a partir de:
 - **Colaboração &** \> email **Explorer** \> **Exibir** \> **Phish** \> **Guia Campanha**
 - **Colaboração &** \> email **Explorer** \> **Exibir** \> **Malware** \> **Guia Campanha**
 
-Para acessar exibições de campanha, você precisa ser membro  dos grupos de função Gerenciamento da **Organização,** Administrador de Segurança ou Leitor de Segurança no centro de segurança. Para obter mais informações, consulte Permissões no centro de conformidade [Microsoft 365 e Microsoft 365 de segurança.](permissions-microsoft-365-security-center.md)
+Para acessar exibições de campanha, você precisa ser membro  dos grupos de função Gerenciamento da **Organização,** Administrador de Segurança ou Leitor de Segurança no portal Microsoft 365 Defender. Para obter mais informações, consulte [Permissões no portal Microsoft 365 Defender](permissions-microsoft-365-security-center.md).
 
 ## <a name="campaigns-overview"></a>Visão geral das campanhas
 

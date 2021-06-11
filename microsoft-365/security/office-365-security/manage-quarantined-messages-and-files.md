@@ -19,12 +19,12 @@ ms.custom:
 description: Os administradores podem aprender a exibir e gerenciar mensagens em quarentena para todos os usuários no Proteção do Exchange Online (EOP). Os administradores em organizações com o Microsoft Defender para Office 365 também podem gerenciar arquivos em quarentena no SharePoint Online, OneDrive for Business e Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7b484cc3a8462115b5151b34ba93ba0c041e16b4
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 01d5011248d1c0fc0daab0d04e1cca39e26e34bd
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822293"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878887"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Gerenciar arquivos e mensagens em quarentena como administrador no EOP
 
@@ -41,11 +41,11 @@ Os administradores podem exibir, liberar e excluir todos os tipos de mensagens e
 
 Os administradores em organizações com o Microsoft Defender para Office 365 também podem exibir, baixar e excluir arquivos em quarentena no SharePoint Online, OneDrive for Business e Microsoft Teams.
 
-Você visualiza e gerencia mensagens em quarentena no centro de segurança do Microsoft 365 ou no PowerShell (Exchange Online PowerShell para organizações Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem Exchange Online caixas de correio).
+Você visualiza e gerencia mensagens em quarentena no portal do Microsoft 365 Defender ou no PowerShell (Exchange Online PowerShell para organizações Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem Exchange Online caixas de correio).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Para abrir o centro de segurança, vá para <https://security.microsoft.com> . Para abrir a página Quarentena imediatamente, vá para <https://security.microsoft.com/quarantine>.
+- Para abrir o portal Microsoft 365 Defender, vá para <https://security.microsoft.com> . Para abrir a página Quarentena imediatamente, vá para <https://security.microsoft.com/quarantine>.
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -68,11 +68,11 @@ Você visualiza e gerencia mensagens em quarentena no centro de segurança do Mi
 
   Quando uma mensagem expira da quarentena, você não pode recuperá-la.
 
-## <a name="use-the-security-center-to-manage-quarantined-email-messages"></a>Usar o centro de segurança para gerenciar mensagens de email em quarentena
+## <a name="use-the-microsoft-365-defender-portal-to-manage-quarantined-email-messages"></a>Usar o portal Microsoft 365 Defender para gerenciar mensagens de email em quarentena
 
 ### <a name="view-quarantined-email"></a>Exibir email em quarentena
 
-1. No centro de segurança, vá para **Email & colaboração Analisar** \>  \> **Quarentena**.
+1. No portal Microsoft 365 Defender, acesse **Email & colaboração** \> **Analisar** \> **Quarentena**.
 
 2. Na página **Quarentena,** verifique se **o Modo de** Exibição em quarentena está definido como o email de valor **padrão.**
 
@@ -195,7 +195,7 @@ Quando você seleciona várias mensagens em quarentena na lista (até 100), o **
 
 Quando terminar, clique em **Fechar**.
 
-## <a name="use-the-security-center-to-manage-quarantined-files-in-defender-for-office-365"></a>Use o centro de segurança para gerenciar arquivos em quarentena no Defender para Office 365
+## <a name="use-the-microsoft-365-defender-portal-to-manage-quarantined-files-in-defender-for-office-365"></a>Use o portal Microsoft 365 Defender para gerenciar arquivos em quarentena no Defender para Office 365
 
 > [!NOTE]
 > Os procedimentos para arquivos em quarentena nesta seção estão disponíveis apenas para assinantes do Microsoft Defender Office 365 Plano 1 e Plano 2.
@@ -204,7 +204,7 @@ Em organizações com o Defender para Office 365, os administradores podem geren
 
 ### <a name="view-quarantined-files"></a>Exibir arquivos em quarentena
 
-1. No centro de segurança, vá para **Email & colaboração Analisar** \>  \> **Quarentena**.
+1. No portal Microsoft 365 Defender, acesse **Email & colaboração** \> **Analisar** \> **Quarentena**.
 
 2. Na página **Quarentena,** **altere Exibir em quarentena** para os arquivos de **valor**. Você pode classificar em um campo clicando em um header de coluna disponível.
 

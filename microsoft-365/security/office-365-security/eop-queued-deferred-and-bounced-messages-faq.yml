@@ -13,7 +13,7 @@ metadata:
   ms.assetid: 9d015a0d-52a0-484d-9a08-121d04f973d3
   ms.custom:
   - seo-marvel-apr2020
-  description: Encontre respostas para as perguntas mais comuns sobre mensagens que foram enluadas, adiadas ou recuperadas durante o processo de filtragem do Exchange Online Protection (EOP).
+  description: Encontre respostas para as perguntas mais comuns sobre mensagens que foram enluadas, adiadas ou recuperadas durante o processo de filtragem Proteção do Exchange Online (EOP).
   ms.technology: mdo
   ms.prod: m365-security
   ms.openlocfilehash: c9c3343de6e61d660cf07e920661af8d996c3039
@@ -36,7 +36,7 @@ summary: >
   - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
-  Este tópico fornece respostas para perguntas frequentes sobre mensagens que foram enluadas, adiadas ou recuperadas durante o processo de filtragem do Exchange Online Protection (EOP).
+  Este tópico fornece respostas para perguntas frequentes sobre mensagens que foram enluadas, adiadas ou recuperadas durante o processo de filtragem Proteção do Exchange Online (EOP).
 sections:
 - name: Ignorado
   questions:

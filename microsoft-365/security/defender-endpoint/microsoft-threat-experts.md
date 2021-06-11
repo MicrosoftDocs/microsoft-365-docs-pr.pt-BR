@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ebde023db5196117a02a2372784a3110839c51fa
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 956fb591154df374c8010d875645e1122f3419b2
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843525"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879235"
 ---
 # <a name="microsoft-threat-experts"></a>Especialistas em Ameaças da Microsoft
 
@@ -45,9 +45,9 @@ Esse serviço gerenciado de busca de ameaças fornece informações e dados orie
 > [!NOTE]
 > Discuta os requisitos de qualificação com seu provedor de serviços técnicos da Microsoft e a equipe de conta antes de aplicar ao serviço de busca de ameaças gerenciado.
 
-Se você for um cliente do Microsoft Defender para Ponto de Extremidade, será necessário solicitar o Especialistas em Ameaças da Microsoft - Notificações de Ataque Direcionados para obter informações e análises especiais que ajudam a identificar as ameaças mais **críticas** em seu ambiente para que você possa responder a elas rapidamente
+Se você for um cliente do Microsoft Defender para Ponto de Extremidade, será necessário solicitar o Especialistas em Ameaças da Microsoft - Notificações de Ataque Direcionados para obter informações e análises especiais que ajudam a identificar as ameaças mais **críticas** em seu ambiente para que você possa responder a elas rapidamente.
 
-Para se inscrever no Especialistas em Ameaças da Microsoft - Benefícios de Notificações de Ataques Direcionados, acesse Configurações Recursos Avançados Gerais Especialistas em Ameaças da Microsoft - Notificações de Ataque  >    >    >  **Direcionadas** a aplicar. Uma vez aceito, você receberá os benefícios das Notificações de Ataque Direcionados.
+Para se inscrever no Especialistas em Ameaças da Microsoft - Benefícios de Notificações de Ataque Direcionados, acesse **Configurações**  >  **Endpoints** Gerais Recursos avançados Especialistas em Ameaças da Microsoft - Notificações de Ataque  >    >    >  **Direcionadas** a aplicar. Uma vez aceito, você receberá os benefícios das Notificações de Ataque Direcionados.
 
 Entre em contato com sua equipe de conta ou representante da Microsoft para assinar o **Especialistas em Ameaças da Microsoft -** Especialistas sob Demanda para consultar nossos especialistas em ameaças sobre detecções e adversários relevantes que sua organização está enfrentando.
 

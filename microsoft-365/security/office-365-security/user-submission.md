@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender a configurar uma caixa de correio para coletar emails de spam e phishing relatados pelos usuários.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 719bd2b86cae1c6a951cb34408ecb9d2b8da699a
-ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
+ms.openlocfilehash: f4337b29e0718e23f43b441526232ec6ef66be1d
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52696581"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879199"
 ---
 # <a name="user-submissions-policy"></a>Política de envios de usuários
 
@@ -56,9 +56,9 @@ Use os seguintes artigos para configurar os pré-requisitos necessários para qu
 
 - Desativar a verificação de URL em mensagens na caixa de correio personalizada. Use [Configurar políticas Cofre links](set-up-safe-links-policies.md) no Defender para Office 365 para criar uma política  de links Cofre com a configuração Off para Selecionar a ação para **URLs** potencialmente mal-intencionadas desconhecidas em mensagens .
 
-- Crie uma política anti-malware para desativar o Malware Zero-hour Auto Purge. Consulte Usar o Centro de Conformidade & segurança para criar políticas [anti-malware](configure-your-spam-filter-policies.md#use-the-security-center-to-create-anti-spam-policies) para definir a Limpeza **Automática de Hora Zero** de Malware como **Desligada.**
+- Crie uma política anti-malware para desativar o Malware Zero-hour Auto Purge. Consulte Usar o Centro de Conformidade & segurança para criar políticas [anti-malware](configure-your-spam-filter-policies.md#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) para definir a Limpeza **Automática de Hora Zero** de Malware como **Desligada.**
 
-- Crie uma política de filtro de spam para desabilitar a limpeza automática de hora zero (ZAP) para spam e phishing na caixa de correio personalizada. Consulte Usar o Centro de Conformidade & segurança para  criar políticas [anti-spam](configure-your-spam-filter-policies.md#use-the-security-center-to-create-anti-spam-policies) e limpar as caixas de seleção On para **SPAM ZAP** e **Phish ZAP**.
+- Crie uma política de filtro de spam para desabilitar a limpeza automática de hora zero (ZAP) para spam e phishing na caixa de correio personalizada. Consulte Usar o Centro de Conformidade & segurança para  criar políticas [anti-spam](configure-your-spam-filter-policies.md#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) e limpar as caixas de seleção On para **SPAM ZAP** e **Phish ZAP**.
 
 - Desabilite a regra de lixo eletrônico na caixa de correio personalizada. Use [Configure junk email settings on Exchange Online mailboxes](configure-junk-email-settings-on-exo-mailboxes.md) to disable the junk email rule. Depois de desabilitado, o EOP não pode mover mensagens para a pasta Lixo Eletrônico com base na ação de veredito de filtragem de spam **Mover** mensagem para a pasta Lixo Eletrônico ou o conjunto de listas seguras na caixa de correio.
 

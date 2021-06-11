@@ -16,12 +16,12 @@ ms.collection:
 description: Os administradores podem aprender a identificar grupos específicos de usuários com marcas de usuário no Microsoft Defender para Office 365 Plano 2. A filtragem de marca está disponível em alertas, relatórios e investigações no Microsoft Defender para Office 365 identificar rapidamente os usuários marcados.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 44b925840700c00c6b2d28c445ac26abd6624d1c
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 1fb948d63f7bc42839d6fae8a2138d4ad48d81f6
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782856"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879163"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Marcas de usuário no Microsoft Defender para Office 365
 
@@ -40,33 +40,30 @@ Se sua organização tiver o Defender para Office 365 Plano 2 (incluído na sua 
 
 Depois de aplicar marcas de sistema ou marcas personalizadas aos usuários, você pode usar essas marcas como filtros em alertas, relatórios e investigações:
 
-- [Alertas no Centro de Conformidade & Segurança](alerts.md)
+- [Alertas](alerts.md)
 - [Explorador de Ameaças e detecções em tempo real](threat-explorer.md)
 - [Relatório de status de proteção contra ameaças](view-email-security-reports.md#threat-protection-status-report)
 - [Modos de Exibição de Campanha](campaigns.md)
 - Para contas prioritárias, você pode usar o [relatório Problemas de email](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) para contas prioritárias no centro de administração Exchange (EAC).
 
-Este artigo explica como configurar marcas de usuário no Centro de Conformidade & Segurança. Não há cmdlets no Centro de Conformidade & segurança para gerenciar marcas de usuário.
+Este artigo explica como configurar marcas de usuário no portal Microsoft 365 Defender. Não há cmdlets no portal Microsoft 365 Defender para gerenciar marcas de usuário.
 
 Para ver como as marcas de usuário fazem parte da estratégia para ajudar a proteger contas de usuário de alto impacto, consulte [Recomendações](security-recommendations-for-priority-accounts.md)de segurança para contas de prioridade em Microsoft 365 .
 
-> [!NOTE]
-> Se você usar o centro de Microsoft 365 de segurança unificado, poderá definir marcas aqui: https://security.microsoft.com/securitysettings/userTags .
-
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a **página Marcas de** usuário, abra <https://protection.office.com/userTags> .
+- Você abre o portal Microsoft 365 Defender em <https://security.microsoft.com/> . Para ir diretamente para a **página Marcas de** usuário, abra <https://security.microsoft.com/securitysettings/userTags> .
 
-- Você precisa de permissões no Centro de Conformidade e Segurança antes de poder realizar os procedimentos deste artigo:
+- Você precisa ter permissões atribuídas no portal Microsoft 365 Defender antes de poder fazer os procedimentos neste artigo:
   - Para criar, modificar e excluir marcas de usuário, você precisa ser membro dos grupos de função Gerenciamento da Organização **ou** Administrador **de** Segurança.
   - Para adicionar e remover membros de marcas de usuário existentes, você precisa ser membro dos grupos de função Gerenciamento da **Organização,** Administrador de Segurança ou Operador **de** Segurança
   - Para acesso somente leitura a marcas de usuário, você precisa ser membro dos grupos de função Leitor **Global** ou **Leitor de** Segurança.
 
-  Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
+  Para obter mais informações, consulte [Permissões no portal Microsoft 365 Defender](permissions-in-the-security-and-compliance-center.md).
 
   > [!NOTE]
   >
-  > - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+  > - Adicionar usuários à função de Azure Active Directory correspondente no centro de administração Microsoft 365 fornece aos usuários as permissões necessárias no _portal_ do Microsoft 365 Defender e permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
   >
   > - O gerenciamento de marca de usuário é controlado pelas funções **Leitor de Marca e** Gerenciador de **Marca.**
 
@@ -74,62 +71,71 @@ Para ver como as marcas de usuário fazem parte da estratégia para ajudar a pro
 
 - Para obter informações sobre como proteger contas _privilegiadas_ (contas de administrador), consulte [este tópico](/azure/architecture/framework/security/critical-impact-accounts).
 
-## <a name="use-the-security--compliance-center-to-create-user-tags"></a>Use o Centro de Conformidade & segurança para criar marcas de usuário
+## <a name="use-the-microsoft-365-defender-portal-to-create-user-tags"></a>Usar o portal Microsoft 365 Defender para criar marcas de usuário
 
-1. No Centro de Conformidade & segurança, acesse Marcas **de** usuário de gerenciamento \> **de ameaças.**
+1. No portal Microsoft 365 Defender, acesse **Configurações** \> **Email & de** usuário de \> **colaboração.**
 
-2. Na página **Marcas de usuário** abertas, clique em Criar **marca**.
+2. Na página **Marcas de usuário,** clique em ![ Criar ícone de marca Criar ](../../media/m365-cc-sc-create-icon.png) **marca**.
 
-3. O **assistente Criar marca** é aberto em um novo fly out. Na página **Definir marca,** configure as seguintes configurações:
-   - **Nome**: insira um nome exclusivo e descritivo para a marca. Esse é o valor que você verá e usará.
+3. O **assistente Criar marca** é aberto em um novo sobrevoo. Na página **Definir marca,** configure as seguintes configurações:
+   - **Nome**: insira um nome exclusivo e descritivo para a marca. Esse é o valor que você verá e usará. Observe que você não pode renomear uma marca depois de criar.
    - **Descrição**: insira uma descrição opcional para a marca.
 
    Ao terminar, clique em **Avançar**.
 
-4. Na página **Atribuir usuários,** faça uma das seguintes etapas:
-
-   - Clique **em Adicionar usuários**. No fly out que aparece, faça qualquer uma das etapas a seguir para adicionar usuários ou grupos individuais:
+4. Na página **Atribuir membros,** faça uma das seguintes etapas:
+   - Clique ![ em Adicionar ícone de membros Adicionar ](../../media/m365-cc-sc-create-icon.png) **membros**. No fly out que aparece, faça qualquer uma das etapas a seguir para adicionar usuários ou grupos individuais:
      - Clique na caixa e role a lista para selecionar um usuário ou grupo.
      - Clique na caixa e comece a digitar para filtrar a lista e selecionar um usuário ou grupo.
      - Para adicionar valores adicionais, clique em uma área vazia na caixa.
-     - Para remover entradas individuais da caixa, clique em **Remover** ícone Remover no ![ usuário ou grupo na ](../../media/scc-remove-icon.png) caixa.
-     - Para remover entradas existentes da lista abaixo da caixa, clique em **Remover** ![ ícone Remover da ](../../media/scc-remove-icon.png) entrada.
+     - Para remover entradas individuais, clique em ![Remover ícone de entrada](../../media/m365-cc-sc-remove-selection-icon.png) ao lado da entrada na caixa.
+     - Para remover todas as entradas, clique em Remover ícone de entrada no item Usuários de nn selecionados e grupos ![ ](../../media/m365-cc-sc-remove-selection-icon.png) de **nn** abaixo da caixa.
 
      Quando terminar, clique em **Adicionar**.
+
+     De volta à **página Atribuir membros,** você também pode remover entradas clicando em ![ Excluir ícone ao lado da ](../../media/m365-cc-sc-delete-icon.png) entrada.
 
    - Clique **em Importar** para selecionar um arquivo de texto que contém os endereços de email dos usuários ou grupos. Certifique-se de que o arquivo de texto contenha uma entrada por linha.
 
    Ao terminar, clique em **Avançar**.
 
-5. Na página **Revisar marca,** revise suas configurações. Você pode clicar **em Editar** na seção específica para fazer alterações.
+5. Na página **Revisar marca** que aparece, revise suas configurações. Você pode selecionar **Editar** em cada seção para modificar as configurações da seção. Ou você pode clicar em **Voltar** ou selecionar a página específica no assistente.
 
-   Quando terminar, clique em **Enviar**.
+   Quando terminar, clique em **Enviar** e clique em **Concluído**.
 
-## <a name="use-the-security--compliance-center-to-view-user-tags"></a>Use o Centro de Conformidade & segurança para exibir marcas de usuário
+## <a name="use-the-microsoft-365-defender-portal-to-view-user-tags"></a>Usar o portal Microsoft 365 Defender para exibir marcas de usuário
 
-1. No Centro de Conformidade & segurança, acesse Marcas **de** usuário de gerenciamento \> **de ameaças.**
+1. No portal Microsoft 365 Defender, acesse **Configurações** \> **Email & de** usuário de \> **colaboração.**
 
-2. Na página **Marcas de** usuário abertas, selecione a marca de usuário que você deseja exibir (não clique na caixa de seleção).
+2. Na página **Marcas de usuário,** as seguintes propriedades são exibidas na lista de marcas de usuário:
 
-3. Nos detalhes somente leitura exibidos, revise as configurações.
+   - **Tag**: O nome da marca do usuário. Observe que isso inclui a marca do sistema de conta **de prioridade** integrado.
+   - **Aplicado a**: O número de membros
+   - **Última modificação**
+   - **Criado em**
 
-   Quando terminar, clique em **Fechar**.
+3. Quando você seleciona uma marca de usuário clicando no nome, os detalhes são exibidos em um sobremenu.
 
-## <a name="use-the-security--compliance-center-to-modify-user-tags"></a>Use o Centro de Conformidade & segurança para modificar marcas de usuário
+## <a name="use-the-microsoft-365-defender-portal-to-modify-user-tags"></a>Usar o portal Microsoft 365 Defender para modificar marcas de usuário
 
-1. No Centro de Conformidade & segurança, acesse Marcas **de** usuário de gerenciamento \> **de ameaças.**
+1. No portal Microsoft 365 Defender, acesse **Configurações** \> **Email & de** usuário de \> **colaboração.**
 
-2. Na página **Marcas de usuário** abertas, selecione a marca de usuário que você deseja exibir e clique em Editar **marca**.
+2. Na página **Marcas de usuário,** selecione a marca do usuário na lista e clique em Editar ícone ![ de marca Editar ](../../media/m365-cc-sc-edit-icon.png) **marca**.
 
-3. O assistente de política é aberto em uma **marca Editar.** Clique **em Próximo** para revisar e modificar as configurações.
+3. No sobremenu de detalhes que aparece, o mesmo assistente e configurações estão disponíveis conforme descrito no portal Usar o [Microsoft 365 Defender](#use-the-microsoft-365-defender-portal-to-create-user-tags) para criar a seção de marcas de usuário anteriormente neste artigo.
 
-   Quando terminar, clique em **Enviar**.
+   **Observações**:
 
-## <a name="use-the-security--compliance-center-to-remove-user-tags"></a>Use o Centro de Conformidade & segurança para remover marcas de usuário
+   - A **página Definir marca** não está disponível para a marca do sistema de conta **De** prioridade, portanto, você não pode renomear essa marca ou alterar a descrição.
+   - Você não pode renomear uma marca personalizada, mas pode alterar a descrição.
+
+## <a name="use-the-microsoft-365-defender-portal-to-remove-user-tags"></a>Usar o portal Microsoft 365 Defender para remover marcas de usuário
 
 > [!NOTE]
-> Não é possível remover a marca da conta **De prioridade.**
+> Não é possível remover a marca do sistema de conta **De prioridade** integrado.
 
-1. No Centro de Conformidade & segurança, acesse Marcas **de** usuário de gerenciamento \> **de ameaças.**
+1. No portal Microsoft 365 Defender, acesse **Configurações** \> **Email & de** usuário de \> **colaboração.**
 
-2. Na página **Marcas de** usuário abertas, selecione a marca de usuário que você deseja remover, clique em Excluir **marca** e selecione **Sim, remova** no aviso exibido.
+2. Na página **Marcas de usuário,** selecione a marca do usuário na lista e clique em Excluir ícone ![ de marca Excluir ](../../media/m365-cc-sc-delete-icon.png) **marca**.
+
+3. Leia o aviso na caixa de diálogo de confirmação exibida e clique em **Sim, remova**.

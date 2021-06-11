@@ -17,12 +17,12 @@ ms.custom: ''
 description: Os administradores podem aprender a usar a política de entrega avançada no Proteção do Exchange Online (EOP) para identificar mensagens que não devem ser filtradas em cenários com suporte específico (simulações de phishing de terceiros e mensagens entregues às caixas de correio de operações de segurança (SecOps).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a9c1c6f7635b87e25adcb121db79f67d4ec1988f
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: deaad11b6397cd53017c0972a624b67a9623887f
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788986"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879103"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>Configurar a entrega de simulações de phishing de terceiros para usuários e mensagens não filtradas para caixas de correio SecOps
 
@@ -62,20 +62,20 @@ As mensagens identificadas pela política de entrega avançada não são ameaça
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Abra o centro de segurança em <https://security.microsoft.com>. Para ir diretamente para a **página Entrega** Avançada, abra <https://security.microsoft.com/advanceddelivery> .
+- Você abre o portal Microsoft 365 Defender em <https://security.microsoft.com> . Para ir diretamente para a **página Entrega** Avançada, abra <https://security.microsoft.com/advanceddelivery> .
 
 - Você precisa ter permissões atribuídas antes de poder fazer os procedimentos neste artigo:
-  - Para criar, modificar ou remover configurações configuradas na política de entrega  avançada, você precisa  ser membro do  grupo de função Administrador de Segurança no centro de segurança e membro do grupo de função Gerenciamento da Organização no Exchange Online **.**  
+  - Para criar, modificar ou remover configurações configuradas na política de entrega  avançada, você precisa ser membro do grupo de  função Administrador de Segurança no **portal do Microsoft 365 Defender** e membro do grupo de função Gerenciamento da Organização no Exchange Online .   
   - Para acesso somente leitura à política de entrega avançada, você precisa ser membro dos grupos de função Leitor **Global** ou **Leitor de** Segurança.
 
-  Para obter mais informações, consulte [Permissions in the Microsoft 365 security center](permissions-microsoft-365-security-center.md) and [Permissions in Exchange Online](/exchange/permissions-exo/permissions-exo).
+  Para obter mais informações, consulte [Permissões no portal Microsoft 365 Defender](permissions-microsoft-365-security-center.md) e Permissões em [Exchange Online](/exchange/permissions-exo/permissions-exo).
 
   > [!NOTE]
-  > Adicionar usuários à função Azure Active Directory correspondente fornece aos usuários as permissões  necessárias no centro de segurança e permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+  > Adicionar usuários à função Azure Active Directory correspondente fornece aos usuários as permissões necessárias no _portal_ Microsoft 365 Defender e permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 
-## <a name="use-the-security-center-to-configure-secops-mailboxes-in-the-advanced-delivery-policy"></a>Use o centro de segurança para configurar caixas de correio SecOps na política de entrega avançada
+## <a name="use-the-microsoft-365-defender-portal-to-configure-secops-mailboxes-in-the-advanced-delivery-policy"></a>Use o portal Microsoft 365 Defender para configurar caixas de correio SecOps na política de entrega avançada
 
-1. No centro de segurança, acesse **Email & políticas** de colaboração & Regras de ameaças seção \>  \>  \>  \> **Entrega avançada**.
+1. No portal Microsoft 365 Defender, acesse **Email & políticas** de colaboração & regras regras de ameaça \>  \>  \>  seção \> **Entrega avançada**.
 
 2. Na página **Entrega Avançada,** verifique se a guia caixa de correio **SecOps** está selecionada e, em seguida, faça uma das seguintes etapas:
    - Clique ![ em Editar ícone ](../../media/m365-cc-sc-edit-icon.png) **Editar**.
@@ -93,9 +93,9 @@ As mensagens identificadas pela política de entrega avançada não são ameaça
 
 As entradas de caixa de correio SecOps que você configurou são exibidas na guia caixa de **correio SecOps.** Para fazer alterações, clique em ![ Editar ícone ](../../media/m365-cc-sc-edit-icon.png) **Editar** na guia.
 
-## <a name="use-the-security-center-to-configure-third-party-phishing-simulations-in-the-advanced-delivery-policy"></a>Use o centro de segurança para configurar simulações de phishing de terceiros na política de entrega avançada
+## <a name="use-the-microsoft-365-defender-portal-to-configure-third-party-phishing-simulations-in-the-advanced-delivery-policy"></a>Use o Microsoft 365 do Defender para configurar simulações de phishing de terceiros na política de entrega avançada
 
-1. No centro de segurança, acesse **Email & políticas** de colaboração & Regras de ameaças seção \>  \>  \>  \> **Entrega avançada**.
+1. No portal Microsoft 365 Defender, acesse **Email & políticas** de colaboração & regras regras de ameaça \>  \>  \>  seção \> **Entrega avançada**.
 
 2. Na página **Entrega Avançada,** selecione a guia **Simulação de Phishing** e, em seguida, faça uma das seguintes etapas:
    - Clique ![ em Editar ícone ](../../media/m365-cc-sc-edit-icon.png) **Editar**.

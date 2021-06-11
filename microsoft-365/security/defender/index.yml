@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: b10d9eebf8ed98e06e98c1e73722f7b3b0d7ba87
-  ms.sourcegitcommit: ddf6c25d1ed6387d07614f7042e033bad7f406f9
+  ms.openlocfilehash: 68909caf8844b5ea4d20029a04d1b7d81ca25e66
+  ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/25/2021
-  ms.locfileid: "52639386"
+  ms.lasthandoff: 06/10/2021
+  ms.locfileid: "52878443"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
@@ -59,32 +59,32 @@ landingContent:
   - linkListType: overview
     links:
     - text: O que é o Microsoft Defender para Identidade?
-      url: /azure-advanced-threat-protection/what-is-atp
+      url: /defender-for-identity/what-is
     - text: Arquitetura do Microsoft Defender para Identidade
-      url: /azure-advanced-threat-protection/atp-architecture
+      url: /defender-for-identity/architecture
 - title: Microsoft Defender para Office 365
   linkLists:
   - linkListType: overview
     links:
     - text: O que é o Defender para Office 365?
-      url: /office-365-security/defender-for-office-365
+      url: ../office-365-security/defender-for-office-365.md
     - text: Descrição do serviço do Defender para Office 365
       url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
     - text: Defender para Office 365 no Microsoft 365 Defender
-      url: /defender/microsoft-365-security-center-mdo
+      url: microsoft-365-security-center-mdo.md
     - text: Redirecionando o Defender para Office 365 no Microsoft 365 Defender
-      url: /defender/microsoft-365-security-mdo-redirection
+      url: microsoft-365-security-mdo-redirection.md
 - title: Microsoft Defender para Ponto de Extremidade
   linkLists:
   - linkListType: overview
     links:
     - text: O que é o Microsoft Defender para Ponto de Extremidade?
-      url: /defender-endpoint/microsoft-defender-endpoint
+      url: ../defender-endpoint/microsoft-defender-endpoint.md
     - text: Defender para Ponto de Extremidade no Microsoft 365 Defender
-      url: /defender/microsoft-365-security-cente
+      url: microsoft-365-security-center-mde.md
     - text: Redirecionando o Defender para o Ponto de Extremidade no Microsoft 365 Defender
-      url: /defender/microsoft-365-security-mde-redirection
-- title: Central de segurança do Microsoft 365
+      url: ../defender/microsoft-365-security-mde-redirection.md
+- title: Centro de segurança do Microsoft 365
   linkLists:
   - linkListType: overview
     links:

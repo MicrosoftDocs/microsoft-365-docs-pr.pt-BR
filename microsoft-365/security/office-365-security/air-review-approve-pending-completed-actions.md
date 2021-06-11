@@ -19,16 +19,21 @@ description: Saiba mais sobre ações de correção em recursos automatizados de
 ms.technology: mdo
 ms.prod: m365-security
 ms.date: 01/29/2021
-ms.openlocfilehash: f0c42bef1b090412a7a6422fe029323b645e90df
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 525f6cf922f80067219f6c33a2c11559e9e58a39
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275067"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878767"
 ---
 # <a name="review-and-manage-remediation-actions-in-office-365"></a>Analisar e gerenciar ações de correção em Office 365
 
+**Aplica-se a**
+- [Plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
+- [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
+
 À medida que investigações automatizadas no email & conteúdo  de colaboração resultam em vereditos, como Mal-intencionados ou *suspeitos,* determinadas ações de correção são criadas. No Microsoft Defender para Office 365, as ações de correção podem incluir:
+
 - Bloqueando uma URL (hora do clique)
 - Exclusão suave de mensagens de email ou clusters
 - Quarantining email or email attachments
@@ -36,13 +41,9 @@ ms.locfileid: "52275067"
 
 Essas ações de correção não serão tomadas, a menos que e até que sua equipe de operações de segurança as aprove. Recomendamos revisar e aprovar todas as ações pendentes assim que possível para que suas investigações automatizadas concluam em tempo hábil. Em alguns casos, você pode desfazer uma ação de correção.
 
-**Aplica-se a**
-- [Plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
-- [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
-
 ## <a name="approve-or-reject-pending-actions"></a>Aprovar (ou rejeitar) ações pendentes
 
-1. Vá para o Microsoft 365 de segurança ( <https://security.microsoft.com> ) e entre.
+1. Vá para o portal Microsoft 365 Defender ( <https://security.microsoft.com> ) e entre.
 2. No painel de navegação, selecione **Centro de ações**.
 3. Na guia **Pendente,** revise a lista de ações que estão aguardando aprovação.
 4. Selecione um item na lista. Seu painel de sobrevoo é aberto. 

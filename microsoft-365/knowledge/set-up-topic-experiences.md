@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Saiba como configurar tópicos do Microsoft Viva
-ms.openlocfilehash: 19395cf3a9ecc991f08f375425803cb81a2a1d35
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c6997e5f5a6793468dfe3392ffc2037b319844ad
+ms.sourcegitcommit: d0c160e89e17f451199bc4a85699effd2d935213
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51930216"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52893759"
 ---
 # <a name="set-up-microsoft-viva-topics"></a>Configurar tópicos do Microsoft Viva
 
@@ -37,7 +37,7 @@ Este vídeo mostra o processo de configuração de Tópicos no Microsoft 365.
 
 <br>
 
-## <a name="assign-licenses"></a>Atribua licenças
+## <a name="assign-licenses"></a>Atribuir licenças
 
 Você deve atribuir licenças para os usuários que usarão Tópicos. Somente usuários com uma licença podem ver informações sobre tópicos, incluindo destaques, cartões de tópicos, páginas de tópicos e o centro de tópicos. 
 
@@ -60,8 +60,10 @@ Pode levar até uma hora para que os usuários tenham acesso a Tópicos depois q
 
 ## <a name="set-up-topics"></a>Configurar tópicos
 
-Para configurar tópicos
+> [!Note]
+> A primeira descoberta de tópicos é habilitada, pode levar até duas semanas para que todos os tópicos sugeridos apareçam no modo de exibição Gerenciar Tópicos. A descoberta de tópicos continua à medida que novos conteúdos ou atualizações para o conteúdo são feitos. É normal ter flutuações no número de tópicos sugeridos em sua organização à medida que o Viva Topics avalia novas informações.
 
+Para configurar tópicos
 1. No centro [Microsoft 365 de administração,](https://admin.microsoft.com)selecione **Configurar** e, em seguida, exibir a seção **Arquivos e** conteúdo.
 2. Na seção **Arquivos e conteúdo,** clique Conexão **pessoas para saber**.
 
@@ -143,8 +145,6 @@ Para configurar tópicos
 12. Você será retornado ao seu Conexão **para a página de** conhecimento. A partir desta página, é possível selecionar **Gerenciar** para fazer quaisquer alterações em suas configurações. 
 
     ![Configurações aplicado](../media/ksetup7.png)    
-
-Observe que a primeira descoberta de tópicos está habilitada, pode levar até duas semanas para que todos os tópicos sugeridos apareçam no modo de exibição Gerenciar Tópicos. A descoberta de tópicos continua à medida que novos conteúdos ou atualizações para o conteúdo são feitos. É normal ter flutuações no número de tópicos sugeridos em sua organização à medida que o Viva Topics avalia novas informações.
 
 ## <a name="manage-topic-experiences"></a>Gerenciar experiências de tópico
 

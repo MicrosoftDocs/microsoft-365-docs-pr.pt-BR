@@ -19,12 +19,12 @@ description: Os administradores podem aprender como o insight de representação
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1b539cc50d3cf6ad637a749faa9d2cb5b2033b81
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: e1b99590d7ae96ad8371eb2a2fab5fb7e8f94d07
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52821315"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879031"
 ---
 # <a name="impersonation-insight-in-defender-for-office-365"></a>Visão de representação no Defender para Office 365
 
@@ -46,27 +46,27 @@ A representação de domínio é diferente [da spoofing](anti-spoofing-protectio
 
 A proteção contra representação faz parte das configurações de política anti-phishing que são exclusivas do Microsoft Defender para Office 365. Para obter mais informações sobre essas configurações, consulte [Impersonation settings in anti-phishing policies in Microsoft Defender for Office 365](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365).
 
-Você pode usar o insight de representação no centro de segurança Microsoft 365 para identificar rapidamente mensagens de remetentes ou domínios de remetente personificados que você configurou para proteção de representação.
+Você pode usar o insight de representação no portal do Microsoft 365 Defender para identificar rapidamente mensagens de remetentes ou domínios de remetentes personificados que você configurou para proteção de representação.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Abra o centro de segurança em <https://security.microsoft.com>. Para ir diretamente ao insight de representação na página **Anti-phishing,** use <https://security.microsoft.com/antiphishing> . Para ir diretamente para a página **de visão de representação,** use <https://security.microsoft.com/impersonationinsight> .
+- Você abre o portal Microsoft 365 Defender em <https://security.microsoft.com> . Para ir diretamente ao insight de representação na página **Anti-phishing,** use <https://security.microsoft.com/antiphishing> . Para ir diretamente para a página **de visão de representação,** use <https://security.microsoft.com/impersonationinsight> .
 
-- Você precisa ter permissões atribuídas no centro de segurança antes de poder fazer os procedimentos neste artigo:
+- Você precisa ter permissões atribuídas no portal Microsoft 365 Defender antes de poder fazer os procedimentos neste artigo:
   - **Organization Management**
   - **Administrador de Segurança**
   - **Leitor de segurança**
   - **Leitor Global**
 
-  Para obter mais informações, consulte [Permissões no centro de segurança](permissions-in-the-security-and-compliance-center.md).
+  Para obter mais informações, consulte [Permissões no portal Microsoft 365 Defender](permissions-in-the-security-and-compliance-center.md).
 
-  **Observação**: Adicionar usuários à função Azure Active Directory correspondente no centro de administração Microsoft 365 fornece aos  usuários as permissões necessárias no centro de segurança e permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+  **Observação**: a adição de usuários à função de Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no _portal_ do Microsoft 365 Defender e permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 
 - Você habilita e configura a proteção de representação em políticas anti-phishing no Microsoft Defender para Office 365. A proteção de representação não está habilitada por padrão. Para obter mais informações, consulte [Configure anti-phishing policies in Microsoft Defender for Office 365](configure-atp-anti-phishing-policies.md).
 
-## <a name="open-the-impersonation-insight-in-the-security-center"></a>Abra o insight de representação no centro de segurança
+## <a name="open-the-impersonation-insight-in-the-microsoft-365-defender-portal"></a>Abra o insight de representação no portal Microsoft 365 Defender
 
-1. No centro de segurança, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
 
 2. Na página **Anti-phishing,** o insight de representação tem a seguinte aparência:
 

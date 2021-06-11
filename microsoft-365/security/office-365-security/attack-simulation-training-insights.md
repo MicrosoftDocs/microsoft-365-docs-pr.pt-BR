@@ -10,20 +10,22 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Os administradores podem aprender como o treinamento de simulação de ataque no centro de segurança Microsoft 365 afeta os funcionários e podem obter informações sobre resultados de simulação e treinamento.
+description: Os administradores podem aprender como o treinamento de simulação de ataque no portal do Microsoft 365 Defender afeta os funcionários e podem obter informações sobre resultados de simulação e treinamento.
 ms.technology: mdo
-ms.openlocfilehash: 0fcb88406558f73b587d8452375c33dbbec1c78b
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: e189864a42d025bb5ce720a6edb6c1c2c8c84623
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51600002"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878371"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>Obter insights por meio do treinamento de simulação de Ataque
 
+**Aplica-se ao** [Microsoft Defender para Office 365 plano 2](defender-for-office-365.md)
+
 No treinamento de simulação de ataque, a Microsoft fornece informações com base nos resultados de simulações e treinamentos pelos funcionários. Essas informações ajudarão a mantê-lo informado sobre o progresso da preparação de ameaças de seus funcionários, bem como recomendar as próximas etapas para preparar melhor seus funcionários e seu ambiente para ataques.
 
-Estamos trabalhando continuamente para expandir as percepções que estão disponíveis para você. O impacto no comportamento e as ações recomendadas estão disponíveis no momento. Para começar, vá para Treinamento [de simulação de ataque no centro Microsoft 365 segurança.](https://security.microsoft.com/attacksimulator?viewid=overview)
+Estamos trabalhando continuamente para expandir as percepções que estão disponíveis para você. O impacto no comportamento e as ações recomendadas estão disponíveis no momento. Para começar, vá para Treinamento [de simulação de ataque no portal Microsoft 365 Defender.](https://security.microsoft.com/attacksimulator?viewid=overview)
 
 ## <a name="behavior-impact-on-compromise-rate"></a>Impacto de comportamento na taxa de comprometimento
 

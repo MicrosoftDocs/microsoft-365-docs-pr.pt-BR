@@ -19,12 +19,12 @@ description: Use o Microsoft Defender para Office 365 com o Microsoft Defender p
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e6ad81102a9702a725f40fcdb5421a2b19b0086d
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 3f1d92d2433267b89398c7f7f582a8d1ee8cdba5
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934028"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878599"
 ---
 # <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>Usar o Microsoft Defender para Office 365 com o Microsoft Defender para Ponto de Extremidade
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8973a78787345532055161507e2d30f75b3b2cf1
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: aeb6d93017f138ce898d25f7d76e05cdcf3e90c5
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844965"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878563"
 ---
 # <a name="microsoft-defender-for-endpoint-and-other-microsoft-solutions"></a>Microsoft Defender para Ponto de Extremidade e outras soluções da Microsoft
 
@@ -68,7 +68,7 @@ A Skype for Business oferece uma maneira para os analistas se comunicarem com um
 ## <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 Com o Microsoft 365 Defender, o Microsoft Defender para Ponto de Extremidade e várias soluções de segurança da Microsoft formam um pacote unificado de defesa empresarial de pré e pós-violação que se integra de forma nativa no ponto de extremidade, identidade, email e aplicativos para detectar, impedir, investigar e responder automaticamente a ataques sofisticados. 
  
-[Saiba mais sobre o Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-threat-protection)
+[Saiba mais sobre o Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-365-defender)
 
 
 ## <a name="related-topics"></a>Tópicos relacionados

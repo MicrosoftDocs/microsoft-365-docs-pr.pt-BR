@@ -20,12 +20,12 @@ ms.custom:
 description: Os administradores podem aprender a usar o Simulador de Ataques para executar ataques simulados de phishing e senha em suas Microsoft 365 E5 ou no Microsoft Defender para organizações do Office 365 Plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 73ad3501ed9818261c9fbec6ba12b4dc884da84f
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 03e6c0077f13c85bfd20ac0583b64ce29e2535a1
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624820"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878671"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Simulador de Ataque no Microsoft Defender para Office 365
 
@@ -37,9 +37,9 @@ Se sua organização tiver o Microsoft Defender para Office 365 Plano 2, que inc
 
 > [!NOTE]
 >
-> O Simulador de Ataque, conforme descrito neste artigo,  agora é somente leitura e foi substituído pelo treinamento de simulação de ataque no nó de colaboração **Email &** no centro de segurança [do Microsoft 365.](https://security.microsoft.com) Para obter mais informações, consulte [Começar a usar o treinamento de simulação de ataque](attack-simulation-training-get-started.md).
+> Simulador de Ataque conforme descrito neste artigo agora é  somente leitura e foi substituído pelo treinamento de simulação de ataque no nó de colaboração **email &** no portal do Microsoft 365 Defender em <https://security.microsoft.com> . Para obter mais informações, consulte [Começar a usar o treinamento de simulação de ataque](attack-simulation-training-get-started.md).
 >
-> A capacidade de iniciar novas simulações dessa versão do Simulador de Ataque foi desabilitada. No entanto, você ainda pode acessar relatórios por até 90 dias a partir de 24 de janeiro de 2021.
+> A capacidade de iniciar novas simulações dessa versão do Simulador de Ataque foi desabilitada. No entanto, você ainda pode acessar relatórios até 24 de abril de 2021.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f08f20753a1f0926abbbce01fe97f20ef1c07f2c
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 389d9ad4a3e5fc876e7bded89389202e95bfda45
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689084"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879115"
 ---
 # <a name="live-response-command-examples"></a>Exemplos de comando de Resposta ao vivo
 
@@ -41,67 +41,67 @@ Dependendo da função que foi concedida a você, você pode executar comandos b
 
 ## <a name="analyze"></a>analyze 
 
-```
+```console
 # Analyze the file malware.txt
 analyze file c:\Users\user\Desktop\malware.txt
 ```
 
-```
+```console
 # Analyze the process by PID
 analyze process 1234
 ```
 
 ## <a name="connections"></a>connections
 
-```
+```console
 # List active connections in json format using parameter name
 connections -output json
 ```
 
-```
+```console
 # List active connections in json format without parameter name
 connections json
 ```
 
 ## <a name="dir"></a>dir
 
-```
+```console
 # List files and sub-folders in the current folder
 dir
 ```
 
-```
+```console
 # List files and sub-folders in a specific folder
 dir C:\Users\user\Desktop\
 ```
 
-```
+```console
 # List files and subfolders in the current folder in json format
 dir -output json
 ```
 
 ## <a name="fileinfo"></a>fileinfo
 
-```
+```console
 # Display information about a file
 fileinfo C:\Windows\notepad.exe
 ```
 
 ## <a name="findfile"></a>findfile
 
-```
+```console
 # Find file by name
 findfile test.txt
 ```
 
 ## <a name="getfile"></a>getfile
 
-```
+```console
 # Download a file from a machine
 getfile c:\Users\user\Desktop\work.txt
 ```
 
-```
+```console
 # Download a file from a machine, automatically run prerequisite commands
 getfile c:\Users\user\Desktop\work.txt -auto
 ```
@@ -120,51 +120,51 @@ getfile c:\Users\user\Desktop\work.txt -auto
 > Use o PowerShell como uma alternativa, se você tiver problemas ao usar esse comando de dentro do Live Response.
 
 ## <a name="processes"></a>processos
-```
+```console
 # Show all processes
 processes
 ```
 
-```
+```console
 # Get process by pid
 processes 123
 ```
 
-```
+```console
 # Get process by pid with argument name
 processes -pid 123
 ```
 
-```
+```console
 # Get process by name
 processes -name notepad.exe
 ```
 
 ## <a name="putfile"></a>putfile
 
-```
+```console
 # Upload file from library
 putfile get-process-by-name.ps1
 ```
 
-```
+```console
 # Upload file from library, overwrite file if it exists
 putfile get-process-by-name.ps1 -overwrite
 ```
 
-```
+```console
 # Upload file from library, keep it on the machine after a restart
 putfile get-process-by-name.ps1 -keep
 ```
 
 ## <a name="registry"></a>registro
 
-```
+```console
 # Show information about the values in a registry key
 registry HKEY_CURRENT_USER\Console
 ```
 
-```
+```console
 # Show information about a specific registry value
 registry HKEY_CURRENT_USER\Console\\ScreenBufferSize
 ```
@@ -172,29 +172,29 @@ registry HKEY_CURRENT_USER\Console\\ScreenBufferSize
 
 ## <a name="remediate"></a>correção
 
-```
+```console
 # Remediate file in specific path
 remediate file c:\Users\user\Desktop\malware.exe
 ```
 
-```
+```console
 # Remediate process with specific PID
 remediate process 7960
 ```
 
-```
+```console
 # See list of all remediated entities
 remediate list
 ```
 
 ## <a name="run"></a>executar
 
-```
+```console
 # Run PowerShell script from the library without arguments
 run script.ps1
 ```
 
-```
+```console
 # Run PowerShell script from the library with arguments
 run get-process-by-name.ps1 -parameters "-processName Registry"
 ```
@@ -205,17 +205,17 @@ run get-process-by-name.ps1 -parameters "-processName Registry"
 >
 ## <a name="scheduledtask"></a>scheduledtask
 
-```
+```console
 # Get all scheduled tasks
 scheduledtasks
 ```
 
-```
+```console
 # Get specific scheduled task by location and name
 scheduledtasks Microsoft\Windows\Subscription\LicenseAcquisition
 ```
 
-```
+```console
 # Get specific scheduled task by location and name with spacing
 scheduledtasks "Microsoft\Configuration Manager\Configuration Manager Health Evaluation"
 ```
@@ -223,18 +223,30 @@ scheduledtasks "Microsoft\Configuration Manager\Configuration Manager Health Eva
 
 ## <a name="undo"></a>undo
 
-```
+```console
 # Restore remediated registry
 undo registry HKEY_CURRENT_USER\Console\ScreenBufferSize
 ```
 
-```
+```console
 # Restore remediated scheduledtask
 undo scheduledtask Microsoft\Windows\Subscription\LicenseAcquisition
 ```
 
-```
+```console
 # Restore remediated file
 undo file c:\Users\user\Desktop\malware.exe
 ```
 
+
+## <a name="library"></a>library
+
+```console
+# List files in the library
+library
+```
+
+```console
+# Delete a file from the library
+library delete script.ps1
+```

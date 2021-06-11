@@ -12,24 +12,26 @@ ms.collection:
 - m365initiative-defender-office365
 description: Os administradores podem aprender a simular ataques de phishing e treinar seus usuários na prevenção contra phishing usando treinamento de simulação de ataque no Microsoft Defender para Office 365.
 ms.technology: mdo
-ms.openlocfilehash: 27279f927a15ea94ae84112ffdc23d88ea42d2ff
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: d82e7544e6795e4514cf1949645107c53fc69c61
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203141"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878359"
 ---
 # <a name="simulate-a-phishing-attack"></a>Simular um ataque de phishing
+
+**Aplica-se ao** [Microsoft Defender para Office 365 plano 2](defender-for-office-365.md)
 
 O treinamento de simulação de ataque no Microsoft Defender Office 365 permite que você execute simulações de ataques cibernéticos benignos em sua organização para testar suas políticas e práticas de segurança, bem como treinar seus funcionários para aumentar sua conscientização e diminuir sua suscetibilidade a ataques. Este artigo orienta você a criar um ataque de phishing simulado usando treinamento de simulação de ataque.
 
 Para obter informações sobre o treinamento de simulação de ataque, consulte [Começar a usar o treinamento de simulação de ataque.](attack-simulation-training-get-started.md)
 
-Para iniciar um ataque de phishing simulado, abra o centro de segurança [Microsoft 365,](https://security.microsoft.com/)acesse **Email &** treinamento de simulação de ataque de colaboração e alternar para a guia \>  [**Simulações.**](https://security.microsoft.com/attacksimulator?viewid=simulations)
+Para iniciar um ataque de phishing simulado, abra o portal do Microsoft 365 Defender ( ), acesse Email & colaboração Treinamento de simulação de ataque e alternar para a guia <https://security.microsoft.com/>  \>  **[Simulações.](https://security.microsoft.com/attacksimulator?viewid=simulations)**
 
 Em **Simulações,** selecione **+ Iniciar uma simulação.**
 
-![Iniciar um botão de simulação no Microsoft 365 de segurança](../../media/attack-sim-preview-launch.png)
+![Iniciar um botão de simulação no portal Microsoft 365 Defender](../../media/attack-sim-preview-launch.png)
 
 > [!NOTE]
 > A qualquer momento durante a criação da simulação, você pode salvar e fechar para continuar configurando a simulação posteriormente.
@@ -47,7 +49,7 @@ Selecione de 4 técnicas diferentes, com a curadoria da estrutura [MITRE ATT&CK�
 > [!TIP]
 > Clicar em **Exibir detalhes na** descrição de cada técnica exibirá mais informações e as etapas de simulação da técnica.
 >
-> ![Etapas de simulação para coleta de credenciais no treinamento de simulação de ataque Microsoft 365 centro de segurança](../../media/attack-sim-preview-sim-steps.png)
+> ![Etapas de simulação para coleta de credenciais no treinamento de simulação de ataque no portal Microsoft 365 Defender](../../media/attack-sim-preview-sim-steps.png)
 
 Depois de selecionar a técnica e clicar em **Next,** dê um nome à simulação e, opcionalmente, uma descrição.
 
@@ -63,7 +65,7 @@ Os carregadores têm vários pontos de dados para ajudá-lo a escolher:
 - **A complexidade**, disponível por **meio** de filtros, é calculada com base no número de indicadores dentro da carga que a pista direciona para ele como um ataque. Mais indicadores levam à menor complexidade.
 - **Source**, disponível por meio **de** filtros , indica se a carga foi criada em seu locatário ou faz parte do catálogo de carga pré-existente da Microsoft (global).
 
-![Carga selecionada no treinamento de simulação de ataque no Microsoft 365 de segurança](../../media/attack-sim-preview-select-payload.png)
+![Carga selecionada no treinamento de simulação de ataque no portal Microsoft 365 Defender](../../media/attack-sim-preview-select-payload.png)
 
 Selecione uma carga na lista para ver uma visualização da carga com informações adicionais sobre ele.
 
@@ -76,7 +78,9 @@ Agora é hora de selecionar a audiência dessa simulação. Você pode optar por
 Ao optar por **incluir apenas usuários e grupos específicos,** você pode:
 
 - **Adicione usuários**, o que permite aproveitar a pesquisa para seu locatário, bem como recursos avançados de pesquisa e filtragem, como direcionar usuários que não foram direcionados por uma simulação nos últimos três meses.
-  ![Filtragem do usuário no treinamento de simulação de ataque no Microsoft 365 de segurança](../../media/attack-sim-preview-user-targeting.png)
+
+  ![Filtragem do usuário no treinamento de simulação de ataque no portal Microsoft 365 Defender](../../media/attack-sim-preview-user-targeting.png)
+
 - **A importação de CSV** permite importar um conjunto predefinido de usuários para essa simulação.
 
 ## <a name="assigning-training"></a>Atribuindo treinamento
@@ -90,7 +94,7 @@ Selecione a **data de vencimento do treinamento** para garantir que os funcioná
 > [!NOTE]
 > Se você optar por selecionar cursos e módulos por conta própria, ainda poderá ver o conteúdo recomendado, bem como todos os cursos e módulos disponíveis.
 >
-> ![Adicionando treinamento recomendado no treinamento de simulação de ataque no Microsoft 365 de segurança](../../media/attack-sim-preview-add-training.png)
+> ![Adicionando treinamento recomendado no treinamento de simulação de ataque no portal Microsoft 365 Defender](../../media/attack-sim-preview-add-training.png)
 
 Nas próximas etapas, você precisará adicionar **treinamentos** se você optou por selecioná-lo por conta própria e personalizar sua página inicial de treinamento. Você poderá visualizar a página de aterrissagem do treinamento, bem como alterar o header e o corpo dela.
 

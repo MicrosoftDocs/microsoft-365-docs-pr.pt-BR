@@ -198,7 +198,7 @@ Se você precisar do relatório depois que o grupo ou a equipe for excluído, el
 
 Em vez disso, se o relatório não precisar mais estar ativo, mas os dados precisarem ser mantidos, ele poderá ser [exportado](/power-bi/visuals/power-bi-visualization-export-data)para Excel .
 
-## <a name="project"></a>Projeto
+## <a name="project"></a>Project
 
 Projetos e roteiros criados no Project para a Web são associados a grupos Microsoft 365 e têm abordagens para o off-boarding semelhante ao Power BI.
 

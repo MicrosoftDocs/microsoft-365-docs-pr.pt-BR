@@ -15,12 +15,12 @@ ms.collection:
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing avançadas disponíveis em organizações com o Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bc7575b87b8c5e512116f60ae98b700071e2bbd0
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 8337e25fb6328a2492e2e033e80efcdee8352f6f
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822377"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878923"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas anti-phishing no Microsoft Defender para Office 365
 
@@ -34,7 +34,7 @@ As políticas anti-phishing no [Microsoft Defender](defender-for-office-365.md) 
 
 Os administradores podem exibir, editar e configurar (mas não excluir) a política anti-phishing padrão. Para maior granularidade, você também pode criar políticas anti-phishing personalizadas que se aplicam a usuários, grupos ou domínios específicos em sua organização. Políticas personalizadas sempre terão prioridade sobre a política padrão, mas você pode alterar a prioridade (ordem de execução) de suas políticas personalizadas.
 
-Você pode configurar políticas anti-phishing no Defender para Office 365 no centro de segurança Microsoft 365 ou no Exchange Online PowerShell.
+Você pode configurar políticas anti-phishing no Defender para Office 365 no portal Microsoft 365 Defender ou Exchange Online PowerShell.
 
 Para obter informações sobre como configurar o mais limitado em políticas anti-phishing disponíveis no Proteção do Exchange Online (ou seja, organizações sem o Defender para Office 365), consulte [Configure anti-phishing policies in EOP](configure-anti-phishing-policies-eop.md).
 
@@ -43,7 +43,7 @@ Os elementos básicos de uma política anti-phishing são:
 - **A política anti-phishing**: especifica as proteções de phishing para habilitar ou desabilitar e as ações para aplicar opções.
 - **A regra anti-phishing**: especifica a prioridade e os filtros de destinatário (a quem a política se aplica) para uma política anti-phishing.
 
-A diferença entre esses dois elementos não é óbvia quando você gerencia políticas anti-phishing no centro de segurança:
+A diferença entre esses dois elementos não é óbvia ao gerenciar políticas anti-phishing no portal Microsoft 365 Defender:
 
 - Ao criar uma política, você está criando uma regra anti-phishing e a política anti-phishing associada ao mesmo tempo usando o mesmo nome para ambos.
 - Quando você modifica uma política, as configurações relacionadas ao nome, prioridade, habilitado ou desabilitado e filtros de destinatário modificam a regra anti-phishing. Todas as outras configurações modificam a política anti-phishing associada.
@@ -61,7 +61,7 @@ Para aumentar a eficácia da proteção anti-phishing no Defender para Office 36
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Abra o centro de segurança em <https://security.microsoft.com>. Para ir diretamente para a página **Anti-phishing,** use <https://security.microsoft.com/antiphishing> .
+- Você abre o portal Microsoft 365 Defender em <https://security.microsoft.com> . Para ir diretamente para a página **Anti-phishing,** use <https://security.microsoft.com/antiphishing> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -82,11 +82,11 @@ Para aumentar a eficácia da proteção anti-phishing no Defender para Office 36
 
 - Para obter informações sobre onde as políticas anti-phishing são aplicadas no pipeline de filtragem, consulte [Order and precedence of email protection](how-policies-and-protections-are-combined.md).
 
-## <a name="use-the-security-center-to-create-anti-phishing-policies"></a>Usar o centro de segurança para criar políticas anti-phishing
+## <a name="use-the-microsoft-365-defender-portal-to-create-anti-phishing-policies"></a>Usar o Microsoft 365 do Defender para criar políticas anti-phishing
 
-A criação de uma política anti-phishing personalizada no centro de segurança cria a regra anti-phishing e a política anti-phishing associada ao mesmo tempo usando o mesmo nome para ambos.
+Criar uma política anti-phishing personalizada no portal do Microsoft 365 Defender cria a regra anti-phishing e a política anti-phishing associada ao mesmo tempo usando o mesmo nome para ambos.
 
-1. No centro de segurança, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
 
 2. Na página **Anti-phishing,** clique em ![ Criar ícone ](../../media/m365-cc-sc-create-icon.png) **Criar**.
 
@@ -249,9 +249,9 @@ A criação de uma política anti-phishing personalizada no centro de segurança
 
 8. Na mensagem de confirmação exibida, clique em **Concluído**.
 
-## <a name="use-the-security-center-to-view-anti-phishing-policies"></a>Usar o centro de segurança para exibir políticas anti-phishing
+## <a name="use-the-microsoft-365-defender-portal-to-view-anti-phishing-policies"></a>Usar o portal Microsoft 365 Defender para exibir políticas anti-phishing
 
-1. No centro de segurança, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
 
 2. Na página **Anti-phishing,** as seguintes propriedades são exibidas na lista de políticas anti-phishing:
 
@@ -262,13 +262,13 @@ A criação de uma política anti-phishing personalizada no centro de segurança
 
 3. Quando você seleciona uma política clicando no nome, as configurações de política são exibidas em um sobrevoo.
 
-## <a name="use-the-security-center-to-modify-anti-phishing-policies"></a>Usar o centro de segurança para modificar políticas anti-phishing
+## <a name="use-the-microsoft-365-defender-portal-to-modify-anti-phishing-policies"></a>Usar o portal Microsoft 365 Defender para modificar políticas anti-phishing
 
-1. No centro de segurança, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
 
 2. Na página **Anti-phishing,** selecione uma política na lista clicando no nome.
 
-3. No submenu de detalhes da política exibido, selecione **Editar** em cada seção para modificar as configurações da seção. Para obter mais informações sobre as configurações, consulte a seção Usar o centro de segurança para criar políticas [anti-phishing](#use-the-security-center-to-create-anti-phishing-policies) anteriormente neste artigo.  
+3. No submenu de detalhes da política exibido, selecione **Editar** em cada seção para modificar as configurações da seção. Para obter mais informações sobre as configurações, consulte a seção Usar o portal Microsoft 365 Defender para criar políticas [anti-phishing](#use-the-microsoft-365-defender-portal-to-create-anti-phishing-policies) anteriormente neste artigo.  
 
    Para a política anti-phishing padrão, a seção Usuários, grupos e **domínios** não está disponível (a política se aplica a todos) e você não pode renomear a política.
 
@@ -278,7 +278,7 @@ Para habilitar ou desabilitar uma política ou definir a ordem de prioridade da 
 
 Não é possível desabilitar a política anti-phishing padrão.
 
-1. No centro de segurança, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
 
 2. Na página **Anti-phishing,** selecione uma política personalizada na lista clicando no nome.
 
@@ -296,14 +296,14 @@ De volta à página da política principal, o valor **Status** da política ser�
 
 Por padrão, as políticas anti-phishing têm uma prioridade baseada na ordem em que foram criadas (as políticas mais novas têm prioridade menor do que as políticas mais antigas). Um número de prioridade menor indica uma maior prioridade para a política (0 é a maior), e as políticas são processadas por ordem de prioridade (políticas com maior prioridade são processadas antes das políticas com menor prioridade). Duas políticas não podem ter a mesma prioridade, e o processamento da política será interrompido após a primeira política ser aplicada.
 
-Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou **Diminuir prioridade** nas propriedades da política (não é possível modificar diretamente o número da **Prioridade** no centro de segurança). Alterar a prioridade de uma política só faz sentido se você tiver várias políticas.
+Para alterar a prioridade de  uma política, clique em Aumentar prioridade ou Diminuir prioridade nas propriedades da política (não é possível modificar diretamente o número **priority** no portal Microsoft 365 Defender).  Alterar a prioridade de uma política só faz sentido se você tiver várias políticas.
 
  **Observações**:
 
-- No centro de segurança, você só pode alterar a prioridade da política anti-phishing depois de a criar. No PowerShell, você pode substituir a prioridade padrão ao criar a regra anti-phish (que pode afetar a prioridade das regras existentes).
+- No portal Microsoft 365 Defender, você só pode alterar a prioridade da política anti-phishing após a criação. No PowerShell, você pode substituir a prioridade padrão ao criar a regra anti-phish (que pode afetar a prioridade das regras existentes).
 - As políticas anti-phishing são processadas na ordem em que são exibidas (a primeira política tem o **valor priority** 0). A política anti-phishing padrão tem o valor de prioridade **Mais** Baixo e você não pode alterá-la.
 
-1. No centro de segurança, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
 
 2. Na página **Anti-phishing,** selecione uma política personalizada na lista clicando no nome.
 
@@ -316,11 +316,11 @@ Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou
 
 4. Quando terminar, clique em **Fechar** no submenu de detalhes da política.
 
-## <a name="use-the-security-center-to-remove-custom-anti-phishing-policies"></a>Usar o centro de segurança para remover políticas anti-phishing personalizadas
+## <a name="use-the-microsoft-365-defender-portal-to-remove-custom-anti-phishing-policies"></a>Usar o portal Microsoft 365 Defender para remover políticas anti-phishing personalizadas
 
-Quando você usa o centro de segurança para remover uma política anti-phishing personalizada, a regra anti-phishing e a política anti-phishing correspondente são excluídas. Não é possível remover a política anti-phishing padrão.
+Quando você usa o portal Microsoft 365 Defender para remover uma política anti-phishing personalizada, a regra anti-phishing e a política anti-phishing correspondente são excluídas. Não é possível remover a política anti-phishing padrão.
 
-1. No centro de segurança, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
 
 2. Selecione uma política personalizada na lista clicando no nome da política. Na parte superior do submenu de detalhes da política exibido, clique no ![ícone Mais ações](../../media/m365-cc-sc-more-actions-icon.png) **Mais ações** \> ![ícone Excluir política](../../media/m365-cc-sc-delete-icon.png) **Excluir política**.
 
@@ -346,10 +346,10 @@ Criar uma política anti-phishing no PowerShell é um processo de duas etapas:
  **Observações**:
 
 - Você pode criar uma nova regra anti-phishing e atribuir uma política anti-phishing existente e nãossociada a ela. Uma regra anti-phishing não pode ser associada a mais de uma política anti-phishing.
-- Você pode definir as seguintes configurações em novas políticas anti-phishing no PowerShell que não estão disponíveis no centro de segurança até depois de criar a política:
+- Você pode definir as seguintes configurações em novas políticas anti-phishing no PowerShell que não estão disponíveis no portal do Microsoft 365 Defender até depois de criar a política:
   - Crie a nova política como desabilitada (_Habilitado_ `$false` no cmdlet **New-AntiPhishRule).**
   - De definir a prioridade da política durante a criação (_Prioridade_ _\<Number\>_ ) no cmdlet **New-AntiPhishRule).**
-- Uma nova política anti-phishing que você cria no PowerShell não fica visível no centro de segurança até que você atribua a política a uma regra anti-phishing.
+- Uma nova política anti-phishing que você cria no PowerShell não fica visível no portal Microsoft 365 Defender até que você atribua a política a uma regra anti-phishing.
 
 #### <a name="step-1-use-powershell-to-create-an-anti-phish-policy"></a>Etapa 1: Usar o PowerShell para criar uma política anti-phishing
 
@@ -455,7 +455,7 @@ Além dos itens a seguir, as mesmas configurações estão disponíveis quando v
 
 - A _opção MakeDefault_ que transforma a política especificada na política  padrão (aplicada a todos, sempre prioridade mais baixa e você não pode excluí-la) só está disponível quando você modifica uma política anti-phishing no PowerShell.
 
-- Não é possível renomear uma política anti-phish (o cmdlet **Set-AntiPhishPolicy** não tem _parâmetro Name)._ Ao renomear uma política anti-phishing no centro de segurança, você só está renomeando a regra _anti-phishing._
+- Não é possível renomear uma política anti-phish (o cmdlet **Set-AntiPhishPolicy** não tem _parâmetro Name)._ Ao renomear uma política anti-phishing no portal Microsoft 365 Defender, você está renomeando apenas a regra _anti-phishing._
 
 Para modificar uma política anti-phishing, use esta sintaxe:
 
@@ -565,7 +565,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, [consulte Remo
 
 Para verificar se você configurou com êxito políticas anti-phishing no Defender para Office 365, faça uma das seguintes etapas:
 
-- No centro de segurança, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**. Verifique a lista de políticas, seus **valores de Status** e seus valores **priority.** Para exibir mais detalhes, selecione a política na lista clicando no nome e exibindo os detalhes no sobremenu que aparece.
+- No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**. Verifique a lista de políticas, seus **valores de Status** e seus valores **priority.** Para exibir mais detalhes, selecione a política na lista clicando no nome e exibindo os detalhes no sobremenu que aparece.
 
 - No Exchange Online PowerShell, substitua pelo nome da política ou regra e execute o seguinte comando e \<Name\> verifique as configurações:
 

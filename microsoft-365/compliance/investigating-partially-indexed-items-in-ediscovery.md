@@ -183,6 +183,6 @@ Veja um exemplo para a saída retornada pelo script.
 > 
 > - Uma lista de marcas de erro e os tipos de arquivo correspondentes para os quais o erro ocorreu.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 [Itens parcialmente indexados na Descoberta eDiscovery](partially-indexed-items-in-content-search.md)

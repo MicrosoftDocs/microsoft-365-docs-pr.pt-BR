@@ -59,7 +59,7 @@ Microsoft 365 grupos incluem um pacote de recursos vinculados que os usuários p
 |[Calendar](https://support.office.com/article/schedule-a-meeting-on-a-group-calendar-in-outlook-0cf1ad68-1034-4306-b367-d75e9818376a)|Para agendar eventos relacionados ao grupo|
 |[Caixa de Entrada](https://support.office.com/article/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22)|Para conversas por email entre membros do grupo. Essa caixa de entrada tem um endereço de email e pode ser definida para aceitar mensagens de pessoas de fora do grupo e até fora da sua organização, bem como uma lista de distribuição tradicional.|
 |[Bloco de anotações do OneNote](https://support.office.com/article/get-started-with-onenote-e768fafa-8f9b-4eac-8600-65aa10b2fe97)|Para reunir ideias, pesquisas e informações|
-|[Planejador](https://support.office.com/article/microsoft-planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc)|Para atribuir e gerenciar tarefas de projeto entre os membros do grupo|
+|[Planner](https://support.office.com/article/microsoft-planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc)|Para atribuir e gerenciar tarefas de projeto entre os membros do grupo|
 |[Power BI Espaço de trabalho](/power-bi/collaborate-share/service-new-workspaces)|Um espaço de colaboração de dados com painéis e relatórios|
 |[Project e Roteiro](https://support.microsoft.com/project)|Ferramentas de gerenciamento de projetos baseadas na Web|
 |[Site de equipe do SharePoint](https://support.office.com/article/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e)|Um repositório central para informações, links e conteúdo relacionado ao seu grupo|
