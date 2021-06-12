@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: As funções de administrador como a Administração de serviços fazem mapeamento para as funções de negócios e dão permissões para realizar tarefas específicas no centro de administração.
-ms.openlocfilehash: 68a5c92faa6f5cdbbd56678649441a45a600ed04
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 1fea8720b174846dd95d9dd6aeee91f7ecfbc7fa
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809030"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908048"
 ---
 # <a name="about-admin-roles"></a>Sobre funções de administrador
 
@@ -100,4 +100,5 @@ Antes que o parceiro possa atribuir funções aos usuários, é preciso adicion�
 
 [Atribuir funções de administrador](assign-admin-roles.md) (artigo)
 [Funções de Azure Active Directory no Centro de administração do Microsoft 365](azure-ad-roles-in-the-mac.md) (artigo)\
-[Função de administrador do Exchange Online](about-exchange-online-admin-role.md) (artigo)\ [Relatórios de atividades no Centro de administração do Microsoft 365](../activity-reports/activity-reports.md) (artigo)
+[Relatórios de atividades no Centro de administração do Microsoft 365](../activity-reports/activity-reports.md) (artigo)\
+[Função de administrador do Exchange Online](about-exchange-online-admin-role.md) (artigo)

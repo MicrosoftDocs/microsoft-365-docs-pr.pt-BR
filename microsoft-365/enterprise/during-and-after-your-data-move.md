@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: As movimentações de dados são operações de back-end que ocorrem quando a Microsoft move serviços e dados associados para seu locatário para um novo datacenter geo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d3d44ffc1650989e5c39f5f79cb6a07065f9e9f1
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: c0ea94a80de993d4d1341b8f9b19850d7149583f
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625252"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908108"
 ---
 # <a name="during-and-after-your-data-move"></a>Durante e após a migração dos dados
 
@@ -122,7 +122,7 @@ Skype for Business movimentações não estão mais disponíveis.  [Skype for Bu
  
 [Como solicitar a migração dos dados](request-your-data-move.md)
     
-[Perguntas frequentes gerais sobre migração de dados](data-move-faq.md)
+[Perguntas frequentes gerais sobre migração de dados](data-move-faq.yml)
   
 [Novos geos do datacenter para Microsoft Dynamics CRM Online](/power-platform/admin/new-datacenter-regions)
   

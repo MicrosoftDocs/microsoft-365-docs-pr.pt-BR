@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 - m365solution-scenario
 ms.topic: article
-ms.date: 09/22/2020
+ms.date: 06/11/2021
 ms.reviewer: chventou
-ms.openlocfilehash: a8c5f5e04c629eb82a7e6f63f92d61030c544de4
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: ccbcbcb71d60dadf24b6f94bab126a1f1ca1c322
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841901"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908276"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-intune"></a>Gerenciar o Microsoft Defender para Ponto de Extremidade com o Intune
 
@@ -81,9 +81,7 @@ A tabela a seguir lista várias tarefas que você pode executar para configurar 
 
 ## <a name="configure-your-microsoft-defender-security-center"></a>Configure seu Central de Segurança do Microsoft Defender
 
-Se você ainda não fez **isso,** configure seu Central de Segurança do Microsoft Defender ( ) para exibir alertas, configurar recursos de proteção contra ameaças e exibir informações detalhadas sobre a postura geral de segurança da [https://securitycenter.windows.com](https://securitycenter.windows.com) sua organização. 
-
-Você também pode configurar se e quais recursos os usuários finais podem ver no Central de Segurança do Microsoft Defender.
+Se você ainda não fez isso, configure seu portal do Microsoft 365 Defender para exibir alertas, configurar recursos de proteção contra ameaças e exibir informações detalhadas sobre a postura geral de segurança da sua organização. Consulte [Central de Segurança do Microsoft Defender](microsoft-defender-security-center.md). Você também pode configurar se e quais recursos os usuários finais podem ver no portal Microsoft 365 Defender.
 
 - [Visão geral do Central de Segurança do Microsoft Defender](/microsoft-365/security/defender-endpoint/use)
 

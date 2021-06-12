@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: fcf2310929937d1dacfc9c101d3e14414bad262b
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: b85c0c63cc7c72ad555d80bd8ce6c07c95b4b97b
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2021
-ms.locfileid: "52903739"
+ms.locfileid: "52908072"
 ---
 # <a name="client-behavioral-blocking"></a>Bloqueio comportamental do cliente
 
@@ -46,7 +46,7 @@ A proteção antivírus funciona melhor quando emparelhada com a proteção de n
 
 [Microsoft Defender Antivírus](microsoft-defender-antivirus-in-windows-10.md) pode detectar comportamento suspeito, código mal-intencionado, ataques sem arquivo e na memória e muito mais em um dispositivo. Quando comportamentos suspeitos são detectados, Microsoft Defender Antivírus monitora e envia esses comportamentos suspeitos e suas árvores de processo para o serviço de proteção na nuvem. O aprendizado de máquina diferencia entre aplicativos mal-intencionados e bons comportamentos em milissegundos e classifica cada artefato. Em tempo quase real, assim que um artefato é considerado mal-intencionado, ele é bloqueado no dispositivo. 
 
-Sempre que um comportamento suspeito é detectado, um [alerta](alerts-queue.md) é gerado e fica visível [Microsoft 365 Defender](microsoft-defender-security-center.md) (anteriormente o Central de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) )).
+Sempre que um comportamento suspeito [](alerts-queue.md) é detectado, um alerta é gerado e fica visível no portal Microsoft 365 [Defender](microsoft-defender-security-center.md) (anteriormente o Central de Segurança do Microsoft Defender).
 
 O bloqueio comportamental do cliente é eficaz porque não só ajuda a impedir que um ataque seja iniciado, como também pode ajudar a parar um ataque que começou a ser executado. E, com [o bloqueio de loop](feedback-loop-blocking.md) de feedback (outra funcionalidade de bloqueio comportamental e contenção), os ataques são impedidos em outros dispositivos em sua organização.
 

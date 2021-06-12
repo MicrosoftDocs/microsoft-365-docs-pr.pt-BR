@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 description: Saiba como pesquisar tópicos no Microsoft Viva.
-ms.openlocfilehash: bce9309d27b76854b927922f39389c18e1c09449
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 3bd247bfacc6a85bb19c8f4eeedb5aad8662e60e
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844726"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908060"
 ---
 # <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Usar a Pesquisa da Microsoft para encontrar tópicos em Tópicos do Microsoft Viva
 
@@ -23,9 +23,10 @@ Embora os usuários do Viva Topics possam encontrar tópicos por meio de destaqu
 
 ## <a name="topic-answer"></a>Resposta de tópico
 
-Quando você pesquisa um tópico específico na Pesquisa da Microsoft (por exemplo, "Saturno"), se um tópico existir e for encontrado, ele exibirá o resultado no formato de sugestão de resposta do tópico.
+Quando você pesquisa um tópico específico na página inicial do SharePoint, em Office.com ou em um site do SharePoint que tenha sido escopo para sua organização, se um tópico existir e for encontrado, ele exibirá o resultado no formato de sugestão de resposta do tópico.
 
 A resposta do tópico será exibida:
+
 - Nome do tópico
 - Nomes alternativos: nomes alternativos ou acrônimos para o tópico.
 - Definição: Descrição do tópico fornecido por AI ou adicionado manualmente por uma pessoa.
@@ -38,10 +39,9 @@ A página de tópico pode ser exibida nos resultados da pesquisa, mesmo que o ca
 
 Os resultados da pesquisa no Word, PowerPoint, Outlook e Excel também mostrarão a resposta do tópico quando uma for encontrada.
 
-
 ## <a name="acronyms"></a>Acrônimos
 
-Em Tópicos do Viva, você pode editar manualmente um tópico para incluir um acrônimo para ele como <b>um Nome Alternativo</b>. Isso permite que um usuário que está pesquisando apenas o acrônimo do tópico encontre a resposta do tópico por meio da Pesquisa da Microsoft.
+Em Tópicos do Viva, você pode editar manualmente um tópico para incluir um acrônimo para ele como *um Nome Alternativo*. Isso permite que um usuário que está pesquisando apenas o acrônimo do tópico encontre a resposta do tópico por meio da Pesquisa da Microsoft.
 
 [As Respostas de](/microsoftsearch/manage-acronyms) Acrônimo são um recurso fornecido pela Pesquisa da Microsoft e são gerenciados separadamente dos Tópicos do Viva.
 
@@ -52,8 +52,13 @@ Em Tópicos do Viva, você pode editar manualmente um tópico para incluir um ac
 Para usuários que estão procurando informações sobre como reservar uma viagem para trabalhar:
 
 - Se alguns usuários conhecem o nome da ferramenta de viagem (por exemplo, "Concur"), é mais fácil criar um indicador para ir diretamente para o site externo.
+
 - Para usuários que pesquisam geralmente por "viagem", crie um tópico sobre "Viagem" que tenha as informações que eles esperam ver. Considere adicionar um link ao site externo Concur na descrição do tópico. Se o link for, em vez disso, para um site de reserva de viagem interno hospedado no Microsoft 365 locatário, você poderá adicioná-lo ao "Recursos Fixados".
  
 ### <a name="search-results-priority"></a>Prioridade de resultados da pesquisa 
 
 Na experiência de pesquisa do usuário, quando um usuário pesquisa um termo como "viagem", um indicador aparecerá no lugar de um tópico, se um indicador estiver disponível.
+
+## <a name="see-also"></a>Confira também
+
+[Visão geral dos tópicos do Viva](topic-experiences-overview.md)

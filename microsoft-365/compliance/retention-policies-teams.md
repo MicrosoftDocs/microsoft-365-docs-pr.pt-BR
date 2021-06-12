@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Microsoft Teams.
-ms.openlocfilehash: 607fbdd02cfaccfee79df67c4946c178ff3eb383
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: 908c6a1482761815995330b71f0d2d2f96677b64
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861570"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908264"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Saiba mais sobre retenção para o Microsoft Teams
 
@@ -44,9 +44,6 @@ Para outras cargas de trabalho, confira:
 ## <a name="whats-included-for-retention-and-deletion"></a>O que está incluído para retenção e exclusão
 
 As mensagens de chat e as mensagens de canal do Teams podem ser excluídas usando políticas de retenção para o Teams e, além do texto nas mensagens, os seguintes itens podem ser mantidos por razões de conformidade: imagens incorporadas, tabelas, links de hipertexto, links para outras mensagens e arquivos do Teams e [conteúdo do cartão](/microsoftteams/platform/task-modules-and-cards/what-are-cards). As mensagens do chat incluem todos os nomes das pessoas no chat e as mensagens do canal incluem o nome da equipe e o título da mensagem (se fornecido). 
-
-> [!NOTE]
-> Incluir conteúdo de cartão em uma política de retenção para o Teams é uma adição relativamente recente. Para obter mais informações, confira [Recursos do centro de conformidade do Microsoft 365 para conteúdo do Cartão Adaptável por meio de aplicativos no Teams agora disponíveis](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869).
 
 Atualmente, as mensagens do Teams em canais privados não possuem suporte para políticas de retenção. Trechos de código, memorandos de voz gravados a partir do cliente móvel do Teams, miniaturas, imagens de anúncios e reações de outras pessoas na forma de emoticons não são mantidos quando você usa políticas de retenção para o Teams.
 
@@ -71,7 +68,7 @@ O Teams utiliza um serviço de chat alimentado pelo Azure como seu principal arm
 Embora esses dados dos chats e das mensagens de canal do Teams sejam armazenadas em caixas de correio, você deve configurar uma política de retenção para os locais **Mensagens de canal do Teams** e **Chats do Teams**. Os chats do Teams e as mensagens do canal não são incluídas nas políticas de retenção configuradas para caixas de correio de usuário ou grupo do Exchange.
 
 > [!NOTE]
-> Se um usuário estiver incluído em uma política de retenção ativa que retenha as mensagens do Teams e você excluir uma caixa de correio de um usuário incluído nesta política, a caixa de correio será convertida em uma [caixa de correio inativa](inactive-mailboxes-in-office-365.md) para reter os dados do Teams. Se você não precisar reter esses dados do Teams para o usuário, exclua o usuário da política de retenção antes de excluir a caixa de correio.
+> Se um usuário estiver incluído em uma política de retenção ativa que retenha as mensagens do Teams e você exclui uma caixa de correio de um usuário incluído nesta política, a caixa de correio será convertida em uma [caixa de correio inativa](inactive-mailboxes-in-office-365.md) para reter os dados do Teams. Se você não precisar reter esses dados do Teams para o usuário, exclua o usuário da política de retenção antes de excluir a caixa de correio.
 
 Depois que uma política de retenção for configurada para mensagens de chat e de canal, um trabalho de temporizador do serviço do Exchange avaliará periodicamente os itens na pasta oculta em que essas mensagens do Teams são armazenadas. O trabalho de temporizador leva de 1 a 7 dias para ser executado. Quando esses itens expiraram o período de retenção, eles são movidos para a pasta SubstrateHolds, outra pasta oculta que todo usuário ou caixa de correio de grupo possui para armazenar itens “excluídos temporariamente” antes de serem permanentemente excluídos. 
 

@@ -10,22 +10,19 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 12/28/2020
+ms.date: 06/11/2021
 ms.reviewer: jesquive
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 4ecd14e055646804d81e22da7c192988cf1e6f6f
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: ce200ca12bacc3ae8d9f7b48d36274ca54322586
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275247"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908024"
 ---
 # <a name="deployment-guide-for-microsoft-defender-antivirus-in-a-virtual-desktop-infrastructure-vdi-environment"></a>Guia de implantação do Microsoft Defender Antivírus em um ambiente virtual de área de trabalho (VDI)
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **Aplica-se a:**
 
@@ -175,7 +172,7 @@ Você pode especificar o tipo de verificação que deve ser executada durante um
 
 4. Implante seu objeto de Política de Grupo como de costume.
 
-A supressão de notificações impede que as notificações Microsoft Defender Antivírus sejam aparecendo no Centro de Ações no Windows 10 quando as verificações são feitas ou ações de correção são tomadas. No entanto, sua equipe de operações de segurança verá os resultados da verificação no Central de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ).
+A supressão de notificações impede que as notificações Microsoft Defender Antivírus sejam aparecendo no Centro de Ações no Windows 10 quando as verificações são feitas ou ações de correção são tomadas. No entanto, sua equipe de operações de segurança verá os resultados da verificação no portal [Microsoft 365 Defender.](microsoft-defender-security-center.md)
 
 > [!TIP]
 > Para abrir o Centro de Ações Windows 10, dê uma das seguintes etapas:
