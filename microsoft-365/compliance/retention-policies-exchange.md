@@ -40,7 +40,7 @@ Os itens de Calendário do Outlook com data de término têm suporte para polít
 
 Contatos e quaisquer tarefas e itens de calendário que não tenham uma data de término não são suportados.
 
-Outros itens armazenados em uma caixa de correio, como mensagens Skype e Teams, não estão incluídos nas políticas de retenção ou rótulos para troca. Estes itens têm suas próprias políticas de retenção.
+Outros itens armazenados em uma caixa de correio, como mensagens Skype e Teams, não estão incluídos nas políticas de retenção ou rótulos para troca. Esses itens têm suas próprias políticas de retenção.
 
 ## <a name="how-retention-works-for-exchange"></a>Saiba como a retenção funciona para o Exchange.
 
@@ -48,14 +48,14 @@ Tanto uma caixa de correio quanto uma pasta pública usam a [pasta Itens Recuper
   
 Quando uma pessoa apaga uma mensagem em uma pasta diferente da pasta Itens Excluídos, por padrão, a mensagem se move para a pasta Itens Excluídos. Quando uma pessoa exclui um item na pasta Itens Excluídos, a mensagem é movida para a pasta Itens recuperáveis. Entretanto, um usuário pode exclusão temporária de um item (Shift+Delete) em qualquer pasta, que ultrapassa a pasta Itens Excluídos e move o item diretamente para a pasta Itens Recuperáveis.
   
-Quando você aplica configurações de retenção a um dado do Exchange, um trabalho do temporizador avalia periodicamente os itens na pasta Itens Recuperáveis. Se um item não corresponder às regras de pelo menos uma política ou etiqueta de retenção para reter o item, ele é permanentemente excluído (também chamado de exclusão irreversível) da pasta Itens Recuperáveis.
+Quando você aplica configurações de retenção a um dado do Exchange, um trabalho do temporizador avalia periodicamente os itens na pasta Itens Recuperáveis. Se um item não corresponder às regras de pelo menos uma política ou etiqueta de retenção para reter o item, ele será permanentemente excluído (também chamado de exclusão irreversível) da pasta Itens Recuperáveis.
 
 > [!NOTE]
-> Devido ao [primeiro princípio de retenção](retention.md#the-principles-of-retention-or-what-takes-precedence), a eliminação permanente é sempre suspensa se o mesmo item tiver que ser retido por causa de outra política de retenção ou etiqueta de retenção, ou se estiver sob Descoberta Eletrônica por motivos legais ou de investigação.
+> Devido ao [primeiro princípio de retenção](retention.md#the-principles-of-retention-or-what-takes-precedence), a eliminação permanente será sempre suspensa se o mesmo item tiver que ser retido por causa de outra política de retenção ou etiqueta de retenção, ou se estiver sob Descoberta Eletrônica por motivos legais ou de investigação.
 
-O trabalho do temporizador pode levar até sete dias para ser executado e o local do Exchange deve conter pelo menos 10 MB
+O trabalho do temporizador pode levar até sete dias para ser executado e o local do Exchange deve conter pelo menos 10 MB.
   
-Quando um usuário tenta mudar as propriedades de um item da caixa postal - como o assunto, corpo, anexos, remetentes e destinatários, ou data enviada ou recebida para uma mensagem - uma cópia do item original é salva na pasta Itens Recuperáveis antes que a mudança seja comprometida. Esta ação acontece para cada mudança subsequente. Ao final do período de retenção, as cópias na pasta Itens Recuperáveis são permanentemente excluídas.
+Quando um usuário tenta mudar as propriedades de um item da caixa postal — como o assunto, corpo, anexos, remetentes e destinatários, ou data enviada ou recebida para uma mensagem — uma cópia do item original é salva na pasta Itens Recuperáveis antes que a mudança seja comprometida. Essa ação acontece para cada mudança subsequente. Ao final do período de retenção, as cópias na pasta Itens Recuperáveis são permanentemente excluídas.
 
 Depois que configurações de retenção são atribuídas ao conteúdo do Exchange, os caminhos que o conteúdo assume dependem se as configurações forem para reter e excluir, somente reter ou somente excluir.
 
@@ -65,7 +65,7 @@ Quando as configurações de retenção são reter e excluir:
 
 1. **Se o item for modificado ou excluído permanentemente** pelo usuário (usando SHIFT+DELETE ou excluído de Itens Excluídos) durante o período de retenção: ele será movido (ou copiado, no caso de uma edição) para a pasta Itens Recuperáveis. Lá, um trabalho de temporizador é executado periodicamente e identifica itens cujo período de retenção expirou, que então são permanentemente excluídos em até 14 dias após o fim do período de retenção. Observe que 14 dias é a configuração padrão, podendo ser estendida para até 30 dias.
 
-2. **Se o item não for modificado ou excluído** durante o período de retenção: O mesmo processo é executado periodicamente em todas as pastas da caixa postal e identificar os itens cujo período de retenção expirou, e esses itens são permanentemente excluídos dentro de 14 dias após o final do período de retenção. Note que 14 dias é a configuração padrão, mas pode ser configurada até 30 dias. 
+2. **Se o item não for modificado ou excluído** durante o período de retenção: o mesmo processo será executado periodicamente em todas as pastas da caixa postal e identificará os itens cujo período de retenção expirou, e esses itens serão permanentemente excluídos dentro de 14 dias após o final do período de retenção. Note que 14 dias é a configuração padrão, mas pode ser configurada até 30 dias. 
 
 Quando as configurações forem reter somente ou excluir somente, os caminhos de conteúdo serão variações de reter e excluir:
 

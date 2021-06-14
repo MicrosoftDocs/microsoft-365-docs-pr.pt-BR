@@ -57,7 +57,7 @@ As mensagens do Yammer não são afetadas pelas políticas de retenção configu
 Depois que uma política de retenção for configurada para mensagens do Yammer, um trabalho de temporizador do serviço do Exchange avaliará periodicamente os itens na pasta oculta em que essas mensagens do Yammer são armazenadas. O trabalho de temporizador leva até sete dias para ser executado. Quando o período de retenção desses itens expira, eles são movidos para a pasta SubstrateHolds, uma pasta oculta que toda caixa de correio de usuário ou grupo possui para armazenar itens “excluídos temporariamente” antes de serem excluídos permanentemente.
 
 > [!NOTE]
-> Por causa do [primeiro princípio de retenção](retention.md#the-principles-of-retention-or-what-takes-precedence), a eliminação permanente é sempre suspensa se o mesmo item tiver que ser retido por causa de outra política de retenção, ou se estiver sob Descoberta Eletrônica por motivos legais ou de investigação.
+> Devido ao [primeiro princípio de retenção](retention.md#the-principles-of-retention-or-what-takes-precedence), a eliminação permanente será sempre suspensa se o mesmo item tiver que ser retido por causa de outra política de retenção, ou se estiver sob Descoberta Eletrônica por motivos legais ou de investigação.
 
 Depois que uma política de retenção for configurada para mensagens do Yammer, os caminhos que o conteúdo tomará vão depender se a política de retenção for para reter e excluir, somente reter ou somente excluir.
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Declarar registros usando rótulos de retenção. '
-ms.openlocfilehash: fed988d2f880e4c0af1321cfb6ef4a873bd4e7ab
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: b5114253c99533e890d66248529b4713700b9016
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730541"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903895"
 ---
 # <a name="declare-records-by-using-retention-labels"></a>Declarar registros usando rótulos de retenção
 
@@ -79,6 +79,18 @@ Quando os rótulos de retenção que marcam itens como registro ou registro regu
 Exemplo de um documento marcado como registro usando um rótulo de retenção:
 
 ![Painel de detalhes do documento marcado como um registro](../media/recordversioning7.png)
+
+## <a name="searching-the-audit-log-for-labeled-items-that-were-declared-records"></a>Pesquisando o log de auditoria em itens rotulados que foram declarados registros
+
+As ações de rotulação para declarar itens como registros são registradas no log de auditoria.
+
+Para itens do SharePoint: 
+- Nas **Atividades de arquivo e páginas**, selecione **Rótulo de retenção alterado para um arquivo**. Esse evento de auditoria é para rótulos de retenção que marcam itens como registros, registros regulamentais ou que são rótulos de retenção padrão.
+
+Para itens do Exchange:
+- Nas **Atividades de correio do Exchange**, selecione **Mensagem rotulada como um registro**. Esse evento de auditoria é para rótulos de retenção que marcam itens como registros ou registros regulamentais.
+
+Para obter mais informações sobre a pesquisa desses eventos, confira [Pesquisar o log de auditoria no Centro de Conformidade e Segurança](search-the-audit-log-in-security-and-compliance.md#file-and-page-activities).
 
 ## <a name="next-steps"></a>Próximas etapas
 

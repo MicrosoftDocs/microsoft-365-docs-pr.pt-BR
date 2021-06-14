@@ -93,7 +93,7 @@ Quando as configurações de retenção são reter e excluir:
 2. **Se o conteúdo não for modificado ou excluído** durante o período de retenção, o trabalho do temporizador move o conteúdo para a lixeira de primeiro estágio no final do período de retenção. Se um usuário excluir o conteúdo da lixeira ou esvaziá-la (processo também conhecido como limpeza), o documento será movido para a lixeira de segundo estágio. Um período de retenção de 93 dias abrange as lixeiras do primeiro e do segundo estágio. No final de 93 dias, o documento é excluído permanentemente de onde estiver, na Lixeira de primeiro ou de segundo estágio. Como a lixeira não está indexada, ela não está disponível para pesquisa. Como resultado, uma pesquisa de descoberta eletrônica não encontra conteúdos da lixeira para colocar uma retenção.
 
 > [!NOTE]
-> Devido ao [primeiro princípio de retenção](retention.md#the-principles-of-retention-or-what-takes-precedence), a eliminação permanente é sempre suspensa se o mesmo item tiver que ser retido por causa de outra política de retenção ou etiqueta de retenção, ou se estiver sob Descoberta Eletrônica por motivos legais ou de investigação.
+> Devido ao [primeiro princípio de retenção](retention.md#the-principles-of-retention-or-what-takes-precedence), a eliminação permanente será sempre suspensa se o mesmo item tiver que ser retido por causa de outra política de retenção ou etiqueta de retenção, ou se estiver sob Descoberta Eletrônica por motivos legais ou de investigação.
 
 Quando as configurações forem reter somente ou excluir somente, os caminhos de conteúdo serão variações de reter e excluir:
 

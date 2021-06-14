@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 hideEdit: true
 description: Entenda o número máximo de políticas e itens por política para políticas de retenção e políticas de rótulos de retenção
-ms.openlocfilehash: 2dac852342c080c4f8334562dc76449d6963facc
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 92647911cfc3435c2d88ce5caa0624a34467a60f
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878047"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908096"
 ---
 # <a name="limits-for-retention-policies-and-retention-label-policies"></a>Limites para políticas de retenção e políticas de rótulo de retenção
 
@@ -37,7 +37,7 @@ Um único locatário pode ter no máximo 10.000 políticas (qualquer configuraç
 
 Dentro desse limite de 10.000 políticas, também existem alguns limites no número máximo de políticas para retenção por carga de trabalho:
 
-- Exchange Online (qualquer configuração): 1.800
+- Exchange (qualquer configuração): 1.800
 - SharePoint ou OneDrive: (todos os sites incluídos automaticamente): 13
 - SharePoint ou OneDrive (locais específicos incluídos ou excluídos): 2.600
 
@@ -49,10 +49,16 @@ Se você usar a configuração opcional para definir o escopo de suas configura�
 
 Número máximo de itens por política de retenção:
 
-  - 1.000 caixas de correio (caixas de correio do usuário ou de grupos)
-  - 1.000 grupos do Microsoft 365
-  - 1.000 usuários para conversas privadas do Teams
-  - 100 sites (OneDrive ou SharePoint)
+- Caixas de correio do Exchange: 1.000
+- Grupos do Microsoft 365: 1.000
+- Mensagens do canal do Teams: 1.000
+- Chats do Teams: 1.000
+- Mensagens da comunidade do Yammer: 1.000
+- Mensagens de usuário do Yammer: 1.000
+- Sites do SharePoint: 100
+- Contas do OneDrive: 100
+
+O Skype for Business deve ter escopo para usuários específicos, e o número máximo com suporte por política é de 1.000.
 
 Como essas limitações são por política, se você precisar usar inclusões ou exclusões específicas que resultem em passar por esses números, você poderá criar políticas de retenção adicionais que tenham as mesmas configurações de retenção. Confira a próxima seção com alguns [cenários de exemplo e soluções](#examples-of-using-multiple-policies-to-avoid-exceeding-maximum-numbers) que usam várias políticas de retenção por esse motivo.
 
@@ -91,4 +97,4 @@ Para a [disposição do conteúdo](disposition.md), existem alguns limites a ser
 
 - Prova de disposição por até sete anos após o item ser descartado, com um limite de 1.000.000 itens por rótulo de retenção para esse período. 
     
-    Se você precisar da prova de disposição maior do que esse limite de 1.000.000 para itens marcados como registros, entre em contato com o [Suporte da Microsoft](../business-video/get-help-support.md).
+Se você precisar da prova de disposição maior do que esse limite de 1.000.000 para itens marcados como registros, entre em contato com o [Suporte da Microsoft](../business-video/get-help-support.md).

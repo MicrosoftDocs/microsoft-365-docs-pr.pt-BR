@@ -20,12 +20,12 @@ ms.custom:
 description: Os usuários podem aprender como exibir e gerenciar mensagens em quarentena no Exchange Online Protection (EOP) que deveriam ter sido entregues a eles.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 68656d21b8c10157ebae5d030e56293ba1ce07f7
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 60b319b81362b9d88afcd734021db227969b04d0
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539114"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877867"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Localizar e liberar mensagens em quarentena como usuário no EOP
 
@@ -38,13 +38,26 @@ ms.locfileid: "52539114"
 
 Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou em organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, a quarentena retém mensagens potencialmente perigosas ou indesejadas. Para obter mais informações, consulte [Quarentena no EOP](quarantine-email-messages.md).
 
-Como usuário, você pode exibir, liberar e excluir mensagens em quarentena em que você é um destinatário, e a mensagem foi colocada em quarentena como spam ou email em massa. A partir de abril de 2020, você pode exibir ou excluir mensagens de phishing em quarentena (phishing sem alta confiança) em que você é um destinatário. Você visualiza e gerencia suas mensagens em quarentena no Centro de Conformidade e Segurança ou (se um administrador configurou isso) em [notificações de spam do usuário final](use-spam-notifications-to-release-and-report-quarantined-messages.md).
+Como destinatário de uma mensagem em quarentena, o que você pode fazer com a mensagem como um usuário comum está descrito na tabela a seguir:
+
+<br>
+
+****
+
+|Motivo da quarentena:|Exibir|Liberar|Excluir|
+|---|:---:|:---:|:---:|
+|Em massa|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|
+|Spam|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|
+|Phishing (não phishing de alta confiança)|![Marca de seleção](../../media/checkmark.png)||![Marca de seleção](../../media/checkmark.png)|
+|
+
+Você exibe e gerencia as mensagens em quarentena no portal do Microsoft 365 Defender ou (se um administrador configurou isso) em [notificações de spam do usuário final](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Para abrir o Centro de Conformidade e Segurança, acesse <https://protection.office.com>. Para abrir a página Quarentena imediatamente, vá para <https://protection.office.com/quarantine>.
+- Para abrir o portal do Microsoft 365 Defender, vá para <https://security.microsoft.com>. Para abrir a página Quarentena diretamente, vá para <https://security.microsoft.com/quarantine>.
 
-- Os administradores conseguem configurar pelo tempo que as mensagens forem mantidas em quarentena antes de serem excluídas permanentemente (políticas anti-spam). As mensagens que saíram da quarentena se tornam irrecuperáveis. Para obter mais informações, consulte [Configure as políticas de anti-spam no EOP](configure-your-spam-filter-policies.md).
+- Os administradores podem configurar por quanto tempo as mensagens são mantidas em quarentena antes de serem excluídas permanentemente nas políticas anti-spam. As mensagens que saíram da quarentena se tornam irrecuperáveis. Para obter mais informações, consulte [Configure as políticas de anti-spam no EOP](configure-your-spam-filter-policies.md).
 
 - Os administradores também podem [habilitar as notificações de spam do usuário final](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications) na políticas anti-spam. Os usuários podem liberar as mensagens de spam na quarentena, diretamente a partir dessas notificações. Os usuários podem revisar as mensagens de phishing na quarentena (menos as mensagens de phishing de alta confiança), diretamente a partir dessas notificações. Para obter mais informações, consulte [Notificações de spam do usuário final no EOP](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
@@ -54,7 +67,7 @@ Como usuário, você pode exibir, liberar e excluir mensagens em quarentena em q
 
 ## <a name="view-your-quarantined-messages"></a>Visualizar suas mensagens em quarentena
 
-1. No Centro de Conformidade e Segurança, vá para **Gerenciamento de ameaças** \> **Análise** \> **Quarentena**.
+1. No portal do Microsoft 365 Defender, acesse **Email e colaboração** \>**Analisar** \> **Quarentena**.
 
 2. Você pode classificar os resultados clicando em um cabeçalho de coluna disponível. Clique em **Modificar colunas** para exibir um máximo de sete colunas. Os valores padrão são marcados com um asterisco (<sup>\*</sup>):
 
@@ -89,21 +102,22 @@ Como usuário, você pode exibir, liberar e excluir mensagens em quarentena em q
      - **Golpe**
 
    - **Tipo de Política**: Filtre mensagens por tipo de política:
+     - **Política anti-malware**
+     - **Política de Anexos seguros** (Microsoft Defender para Office 365)
      - **Política Anti-phish**:
      - **Política de filtro de conteúdo hospedado** (política antispam)
+     - **Regra de transporte**
+
+     <sup>\*</sup>
 
    Para limpar o filtro, clique em **Limpar**. Para ocultar o submenu do filtro, clique novamente em **Filtro**.
 
 4. Use **Classificar resultados por** (o botão **ID da mensagem** por padrão) e um valor correspondente para localizar mensagens específicas. Os curingas não possuem suporte. Você pode pesquisar pelos seguintes valores:
 
    - **ID da mensagem**: o identificador globalmente exclusivo da mensagem. Se você selecionar uma mensagem na lista, o valor da **ID da mensagem** será exibido no painel **Detalhes** que é exibido. Os administradores podem usar [Rastreamento da mensagem](message-trace-scc.md) para localizar mensagens e seus valores da ID da mensagem correspondentes.
-
    - **Endereço de e-mail do remetente**: o endereço de e-mail de um único remetente.
-
    - **Nome da política**: Use o nome completo da política da mensagem. A pesquisa não diferencia maiúsculas de minúsculas.
-
    - **Endereço de e-mail do destinatário**: o endereço de e-mail de um único destinatário.
-
    - **Assunto**: use todo o assunto da mensagem. A pesquisa não diferencia maiúsculas de minúsculas.
 
    Depois de ter inserido os critérios da pesquisa, clique em ![Atualizar botão](../../media/scc-quarantine-refresh.png) **Atualizar** para filtrar os resultados.
@@ -123,21 +137,13 @@ Depois de encontrar uma mensagem específica em quarentena, selecione a mensagem
 Quando você clica em uma mensagem de e-mail na lista, os seguintes detalhes de mensagem são exibidos no painel de submenu **Detalhes**:
 
 - **ID da mensagem**: o identificador globalmente exclusivo da mensagem.
-
 - **Endereço do remetente**.
-
 - **Recebido**: a data e a hora em que a mensagem foi recebida.
-
 - **Assunto**
-
 - **Motivo da quarentena**: Exibe se a mensagem foi identificada como **Spam**, **Em massa** ou **Golpe**.
-
 - **Destinatários**: se a mensagem contiver vários destinatários, você precisará clicar em **Visualizar mensagem** ou **Exibir o cabeçalho da mensagem** para visualizar a lista completa dos destinatários.
-
 - **Expira**: a data/hora em que a mensagem será excluída de forma automática e permanente da quarentena.
-
 - **Liberação para**: todos os endereços de e-mail (se houver) para os quais a mensagem foi liberada.
-
 - **Sem liberação para**: todos os endereços de e-mail (se houver) para os quais a mensagem não foi liberada.
 
 ### <a name="take-action-on-quarantined-email"></a>Tomar medidas quanto aos e-mails em quarentena
@@ -169,7 +175,6 @@ Se você não liberar ou remover a mensagem, ela será excluída após o términ
 Quando você seleciona várias mensagens que estão em quarentena na lista (até 100), o painel de submenu **Ações em massa** é exibido em que você pode realizar as seguintes ações:
 
 - **Mensagens de lançamento**: as opções são as mesmas de quando você libera uma única mensagem, mas não é possível clicar em **Liberar mensagens para destinatários específicos**; você só pode clicar em **Mensagem de lançamento a todos os destinatários** ou **Liberar mensagens para outras pessoas**.
-
 - **Excluir mensagens**: depois de clicar em **Sim** no aviso que é exibido, a mensagem é imediatamente excluída sem ser enviada aos destinatários originais.
 
 Quando terminar, clique em **Fechar**.

@@ -19,12 +19,12 @@ search.appverid:
 description: Conheça três ferramentas disponíveis para monitorar o vazamento de dados pessoais.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0976c0d1c0c8d3ebb25ebf423f1d9df2f71fc852
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 05d31ac36fbdc687c60ec3c03efac9be43da9c39
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538274"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878479"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Monitorar o vazamento de dados pessoais
 
@@ -50,33 +50,27 @@ Após criar as políticas DLP (prevenção contra perda de dados), convém verif
 Você pode usar os relatórios DLP para:
 
 - Se concentrar em períodos de tempo específicos e entender os motivos para picos e tendências.
-
 - Descobrir processos empresariais que violam as políticas DLP da organização.
-
 - Compreender qualquer impacto nos negócios das políticas de DLP.
-
 - Exiba as justificativas enviadas pelos usuários quando eles resolverem uma dica de política substituindo a política ou relatando um falso positivo.
-
 - Verificar a conformidade com uma determinada política DLP mostrando as correspondências dessa política.
-
 - Exibir uma lista de arquivos com dados confidenciais que correspondem às políticas DLP no painel de detalhes.
 
 Além disso, você pode usar os relatórios de DLP para ajustar suas políticas DLP conforme as executa no modo de teste.
 
-Os relatórios DLP estão no centro de segurança e o no centro de conformidade. Navegue até Relatórios \> Exibir relatórios. Em prevenção de perda de dados (DLP), vá para correspondências de políticas e regras DLP ou substituições e falsos positivos DLP.
+Os relatórios da DLP estão no Centro de conformidade do Microsoft 365. Vá para a seção **Relatórios** \> de **dados organizacionais** para localizar as **correspondências de política da DLP**, **incidentes de DLP** e **falsos positivos e relatórios de substituições da DLP**.
 
 Para saber mais, confira o artigo [Exibir o relatório de prevenção contra perda de dados](../../compliance/view-the-dlp-reports.md).
 
 ![Relatório mostrando correspondências de política DLP](../../media/Monitor-for-leaks-of-personal-data-image2.png)
 
-## <a name="audit-log-and-alert-policies"></a>políticas de log de auditoria e alerta
+## <a name="audit-log-and-alert-policies"></a>Log de Auditoria e políticas de alerta
 
 O log de auditoria contém os eventos do Exchange Online, do Microsoft Office SharePoint Online, do OneDrive for Business, do Azure Active Directory, do Microsoft Teams, do Power BI, do Sway e de outros serviços.
 
-O centro de conformidade e o centro de segurança oferecem duas maneiras de monitorar e gerar relatórios no log de auditoria:
+O portal do Microsoft 365 Defender e o Centro de conformidade do Microsoft 365 fornecem duas maneiras de monitorar e relatar o log de auditoria:
 
-- Configurar políticas de alerta, exibir alertas e monitorar tendências – Use as ferramentas painel de alerta e política de alerta no centro de conformidade ou no centro segurança.
-
+- Configure as políticas de alerta, exiba os alertas e monitore as tendências - use a política de alerta e as ferramentas do painel de alerta no portal do Microsoft 365 Defender ou no Centro de conformidade do Microsoft 365.
 - Pesquisar diretamente no log de auditoria – você pode pesquisar todos os eventos em um intervalo de datas especificado ou filtrar os resultados com base em determinados critérios; por exemplo, o usuário que executou a ação, a ação ou o objeto de destino.
 
 As equipes de segurança e conformidade das informações podem usar essas ferramentas para analisar proativamente as atividades realizadas pelos usuários finais e administradores em vários serviços. Os alertas automáticos podem ser configurados para enviar notificações por email quando determinadas atividades ocorrerem em conjuntos de sites específicos, por exemplo, quando o conteúdo é compartilhado de sites conhecidos por conter informações relacionadas ao GDPR é compartilhado. Isso permite que essas equipes acompanhem os usuários para garantir que as políticas de segurança corporativa sejam seguidas ou para fornecer treinamento adicional.
@@ -88,15 +82,10 @@ Existem soluções disponíveis, com as quais é possível inscrever-se nos logs
 Clique nos links abaixo para saber mais sobre as políticas de alerta e como pesquisar no log de auditoria.
 
 - [Políticas de alerta no Microsoft 365](../../compliance/alert-policies.md)
-
 - [Pesquisar as atividades do administrador e dos usuários no log de auditoria do Office 365](../../compliance/search-the-audit-log-in-security-and-compliance.md) (introdução)
-
 - [Ativar ou desativar a pesquisa de log de auditoria](../../compliance/turn-audit-log-search-on-or-off.md)
-
 - [Pesquisas o log de auditoria](../../compliance/search-the-audit-log-in-security-and-compliance.md)
-
 - [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) (cmdlet)
-
 - [Propriedades detalhadas no log de auditoria](../../compliance/detailed-properties-in-the-office-365-audit-log.md)
 
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
@@ -124,16 +113,15 @@ Em breve, os seguintes tipos de atributos estarão disponíveis para o Cloud App
 
 Se ainda não começou a usar o Cloud App Security, o primeiro passo é iniciá-lo. Acesse o Cloud App Security em <https://portal.cloudappsecurity.com>.
 
-Observação: não deixe de habilitar a opção "Examinar automaticamente os arquivos com rótulos de classificação da Proteção de Informações do Azure" (nas Configurações Gerais) quando começar a usar o Cloud App Security ou antes de atribuir rótulos. Depois de configurar o Cloud App Security, ele não examinará os arquivos existentes novamente até eles serem modificados.
+> [!NOTE]
+> Certifique-se de habilitar 'Verificar os arquivos automaticamente para os rótulos de classificação da Proteção de Informações do Azure' (em Configurações gerais) ao começar a usar o Cloud App Security ou antes de atribuir os rótulos. Após a configuração, o Cloud App Security não verifica os arquivos existentes novamente até que sejam modificados.
 
 ![Painel mostrando informações sobre alertas](../../media/Monitor-for-leaks-of-personal-data-image4.png)
 
 Mais informações:
 
 - [Implantar o Cloud App Security](/cloud-app-security/getting-started-with-cloud-app-security)
-
 - [Mais informações sobre o Microsoft Cloud App Security](https://www.microsoft.com/cloud-platform/cloud-app-security)
-
 - [Bloqueando downloads de informações confidenciais usando o proxy do Microsoft Cloud App Security](/cloud-app-security/use-case-proxy-block-session-aad)
 
 ## <a name="example-file-and-activity-policies-to-detect-sharing-of-personal-data"></a>Políticas de atividade e arquivo de exemplo para detectar o compartilhamento de dados pessoais
@@ -141,6 +129,8 @@ Mais informações:
 ### <a name="detect-sharing-of-files-containing-pii--credit-card-number"></a>Detectar compartilhamento de arquivos que contêm informações de identificação pessoal: número de cartão de crédito
 
 Alerta quando um arquivo que contém um número de cartão de crédito é compartilhado em um aplicativo de nuvem aprovado.
+
+<br>
 
 ****
 
@@ -170,6 +160,8 @@ Observações:
 
 - o monitoramento do Box exige configurar um conector com o SDK do conector de API.
 - Essa política exige funcionalidades que estão atualmente em visualização privada.
+
+<br>
 
 ****
 
