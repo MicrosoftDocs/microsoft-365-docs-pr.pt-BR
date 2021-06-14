@@ -70,3 +70,23 @@
       href: push-content-type-to-hub.md
     - name: Relatórios do repositório de termos
       href: term-store-analytics.md
+- name: API do REST
+  items:
+    - name: Visão geral
+      href: rest-api/syntex-model-rest-api.md
+    - name: Criar um modelo
+      href: rest-api/rest-createmodel-method.md
+    - name: GetByUniqueId
+      href: rest-api/rest-getbyuniqueid-method.md
+    - name: GetByTitle
+      href: rest-api/rest-getbytitle-method.md
+    - name: Aplicar modelo
+      href: rest-api/rest-applymodel-method.md
+    - name: Obter informações sobre modelo e biblioteca
+      href: rest-api/rest-getmodelandlibraryinfo.md
+    - name: UpdateModelSettings
+      href: rest-api/rest-updatemodelsettings-method.md
+    - name: BatchDelete
+      href: rest-api/rest-batchdelete-method.md
+    - name: Criar solicitação de classificação
+      href: rest-api/rest-createclassificationrequest.md
