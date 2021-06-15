@@ -51,7 +51,7 @@
 
 
 ## [Configurar e integrar dispositivos]()
-### [Microsoft Defender para Ponto de Extremidade no Windows e no Windows Server]().
+### [Microsoft Defender para Ponto de Extremidade no Windows e no Windows Server]()
 #### [Dispositivos integrados ao Microsoft Defender para Ponto de Extremidade](onboard-configure.md)
 #### [Versões anteriores integradas do Windows](onboard-downlevel.md)
 #### [Dispositivos integrados do Windows 10]()
@@ -83,7 +83,7 @@
 ####### [Implantação do Microsoft Defender para Ponto de Extremidade para macOS usando o Jamf Pro](mac-install-with-jamf.md)
 ####### [Fazer logon no Jamf Pro](mac-install-jamfpro-login.md)
 ####### [Configurar grupos de dispositivos](mac-jamfpro-device-groups.md)
-####### [Configurar políticas](mac-jamfpro-policies.md).
+####### [Configurar políticas](mac-jamfpro-policies.md)
 ####### [Registrar dispositivos](mac-jamfpro-enroll-devices.md)
  
 ###### [Implantação com outro sistema de MDM (Gerenciamento de Dispositivo Móvel)](mac-install-with-other-mdm.md)
