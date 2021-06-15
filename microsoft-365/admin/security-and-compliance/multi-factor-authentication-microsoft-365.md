@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: A autenticação multifato (MFA) usa uma senha, que deve ser forte, e um método de verificação adicional.
-ms.openlocfilehash: 6e1c43bdd66849a0043c0a1a927f48d925e0806e
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: d9af486cf5e53609557b519612f185a20729cf76
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635769"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924726"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Autenticação multifator para Microsoft 365
 
@@ -57,7 +57,7 @@ Em ambos os casos, a assinatura MFA está usando o método "algo que você tem c
 
 Essas maneiras se baseiam no seu Microsoft 365 plano.
 
-|Plano|Recomendação|Tipo de cliente|
+|Planejar|Recomendação|Tipo de cliente|
 |---|---|---|
 |Todos os Microsoft 365 planos|Use padrões de segurança, que exigem MFA para todas as contas de usuário. <p> Você também pode configurar o MFA por usuário em contas de usuário individuais, mas isso não é recomendado.|Pequena empresa|
 |Microsoft 365 Business Premium <p> Microsoft 365 E3 <p> Azure Active Directory (Azure AD) Premium P1|Use políticas de Acesso Condicional para exigir MFA para contas de usuário com base em associação a grupos, aplicativos ou outros critérios.|Pequenas empresas para empresas|
@@ -150,7 +150,7 @@ Depois de habilitado, na próxima vez que o usuário entrar, ele será solicitad
 
 Esta tabela mostra os resultados da ativação da MFA com padrões de segurança, políticas de Acesso Condicional e configurações de conta por usuário.
 
-||Habilitado|Desabilitado|Método de autenticação secundária|
+|*Item*|Habilitado|Desabilitado|Método de autenticação secundária|
 |---|---|---|---|
 |**Padrões de segurança**|Não é possível usar políticas de Acesso Condicional|Pode usar políticas de Acesso Condicional|Aplicativo Microsoft Authenticator|
 |**Políticas de Acesso Condicional**|Se algum estiver habilitado, você não poderá habilitar os padrões de segurança|Se todas estiverem desabilitadas, você poderá habilitar os padrões de segurança|Especificado pelo usuário durante o registro da MFA|

@@ -7,14 +7,16 @@ author: jaimeo
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
+manager: laurawi
+ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 5961ac4eb16928754849f5f32ecd06d4d2e4650d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6d93bf492f7cfea5a1ff863205085d853c4bbadb
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917711"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925426"
 ---
 # <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Como as atualizações são tratadas Área de Trabalho Gerenciada da Microsoft
 
@@ -38,7 +40,7 @@ Para obter mais informações, [consulte Windows Update for Business: Tipos de a
 - **Broad**: Último grupo a ter atualizações de recursos e qualidade disponíveis. Esse grupo contém a maioria dos usuários no locatário e, portanto, favorece a estabilidade sobre a velocidade na implantação. Os testes de aplicativos devem ser feitos aqui, pois o ambiente é mais estável. 
 
 ### <a name="moving-devices-between-update-groups"></a>Mover dispositivos entre grupos de atualização
-Você pode querer que alguns dispositivos recebam atualizações por último e outros que você deseja primeiro. Para mover esses dispositivos para o grupo de atualizações apropriado, [envie](../working-with-managed-desktop/admin-support.md?view=o365-worldwide) uma solicitação de suporte ao administrador e moveremos os dispositivos para você. 
+Você pode querer que alguns dispositivos recebam atualizações por último e outros que você deseja primeiro. Para mover esses dispositivos para o grupo de atualizações apropriado, [envie](../working-with-managed-desktop/admin-support.md) uma solicitação de suporte ao administrador e moveremos os dispositivos para você. 
 
 > [!NOTE]
 > Se você precisar mover um usuário para um grupo de atualização diferente, envie uma solicitação de suporte. Não mova os dispositivos entre os grupos de atualização por conta própria. Há sérias consequências se um dispositivo for movido incorretamente. O dispositivo pode ser atualizado inesperadamente e as políticas podem conflitar, alterando a configuração do dispositivo.

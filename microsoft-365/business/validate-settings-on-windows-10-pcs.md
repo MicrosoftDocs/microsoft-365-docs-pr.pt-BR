@@ -1,5 +1,5 @@
 ---
-title: Validar as configurações de proteção de aplicativo em computadores Windows 10
+title: Validar configurações de proteção de aplicativo para Windows 10 PCs
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -26,14 +26,14 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Saiba como verificar se as configurações Microsoft 365 de proteção de aplicativos comerciais entrou em vigor nos dispositivos Windows 10 dos usuários.
-ms.openlocfilehash: fcb463fd98f692f7d4802689e0c03fe4e3e648a1
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 464a246a0da65dcffeb70946287ce4fa0e67ae7c
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579833"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925250"
 ---
-# <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Validar configurações de proteção de dispositivo em Windows 10 PCs
+# <a name="validate-device-protection-settings-for-windows-10-pcs"></a>Validar configurações de proteção de dispositivo para Windows 10 PCs
 
 ## <a name="verify-that-windows-10-device-policies-are-set"></a>Verifique se as Windows 10 de dispositivo estão definidas
 

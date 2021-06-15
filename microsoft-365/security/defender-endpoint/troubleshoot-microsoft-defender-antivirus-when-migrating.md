@@ -7,6 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: normal
+ms.topic: article
 author: martyav
 ms.author: v-maave
 ms.custom: nextgen
@@ -14,12 +15,12 @@ ms.date: 09/11/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 3fcc79e767edb533a20402a2f92ba4abc7d8386a
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 3eb4d01957383efc8df47e9fee6eb6394c80015a
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764586"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924378"
 ---
 # <a name="troubleshoot-microsoft-defender-antivirus-while-migrating-from-a-third-party-solution"></a>Solucionar problemas do Microsoft Defender Antivírus durante a migração de uma solução de terceiros
 
@@ -48,9 +49,9 @@ Esse problema pode se manifesto na forma de várias IDs de evento diferentes, to
 
 ### <a name="associated-event-ids"></a>IDs de eventos associados
 
- ID de evento | Nome do log | Descrição | Source
+ ID de evento | Nome do log | Descrição | Origem
 -|-|-|-
-15 | Aplicativo | Atualizou Windows Defender status com êxito para SECURITY_PRODUCT_STATE_OFF. | Central de Segurança
+15 | Application | Atualizou Windows Defender status com êxito para SECURITY_PRODUCT_STATE_OFF. | Central de Segurança
 5007 | Microsoft-Windows-Windows Defender/Operacional | Windows Defender Antivírus A configuração foi alterada.  Se esse for um evento inesperado, você deverá revisar as configurações, pois isso pode ser o resultado de malware.<br /><br />**Valor antigo:** Default\IsServiceRunning = 0x0<br />**Novo valor:** HKLM\SOFTWARE\Microsoft\Windows Defender\IsServiceRunning = 0x1 | Windows Defender
 5010 | Microsoft-Windows-Windows Defender/Operacional | Windows Defender Antivírus verificação de spyware e outros softwares potencialmente indesejados está desabilitado. | Windows Defender
 
@@ -87,7 +88,7 @@ Isso gerará um relatório localizado em *./gpresult.html*. Abra esse arquivo e 
 
 No relatório GPResults, sob o título, *Windows Components/Windows Defender Antivírus*, você pode ver algo como a entrada a seguir, indicando que o Microsoft Defender Antivírus está desligado.
 
-Política | Configuração | GpO vencedor
+Política | Setting | GpO vencedor
 -|-|-
 Desativar Windows Defender Antivírus | Habilitado | Win10-Workstations
 
@@ -100,7 +101,7 @@ DisableAntiSpyware | -
 GpO vencedor | Win10-Workstations
 Resultado: Sucesso | 
 **Geral** | 
-Action | Atualizar
+Ação | Atualizar
 **Properties** | 
 Hive | HKEY_LOCAL_MACHINE
 Caminho da chave | SOFTWARE\Policies\Microsoft\Windows Defender

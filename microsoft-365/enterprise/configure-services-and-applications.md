@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
-ms.topic: deployment
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: Configure Microsoft 365 Enterprise serviços e aplicativos, como SharePoint, Exchange e Skype for Business.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4f4a84d5093ce40004234eadca15c6d838d7e07
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 86033532dfd08e45a10bb5b2d7caf2db139f7e6a
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625084"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924946"
 ---
 # <a name="configure-microsoft-365-enterprise-services-and-applications"></a>Configurar Microsoft 365 Enterprise serviços e aplicativos
 

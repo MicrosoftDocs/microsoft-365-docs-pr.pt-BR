@@ -13,15 +13,15 @@ author: denisebmsft
 ms.author: deniseb
 ms.reviewer: ''
 manager: dansimp
+ms.topic: article
 ms.technology: mde
 ms.date: 06/02/2021
-ms.topic: article
-ms.openlocfilehash: e78b21b751aa398ed4449fb398f12b60f1929873
-ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
+ms.openlocfilehash: c2ff6eac3254e855d4858edc218ae5df034352e4
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52866671"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925646"
 ---
 # <a name="test-attack-surface-reduction-in-microsoft-defender-for-endpoint"></a>Testar a redução de superfície de ataque no Microsoft Defender para Ponto de Extremidade
 

@@ -8,14 +8,15 @@ author: jaimeo
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
+manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: f8dd666c41863192d866693c6860a64064f846e6
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: c3928b5814332f2585adc613e1e84cbe5cc883a0
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904847"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925606"
 ---
 # <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365 Apps para empresas
 
@@ -28,7 +29,7 @@ ms.locfileid: "50904847"
 - PowerPoint
 - Outlook
 - Publisher
-- Access
+- Acesso
 - Skype for Business
 - OneNote
 

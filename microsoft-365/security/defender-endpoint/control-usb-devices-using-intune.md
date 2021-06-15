@@ -11,13 +11,14 @@ author: dansimp
 ms.reviewer: dansimp
 manager: dansimp
 audience: ITPro
+ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: eb7043451c4d80e3eca8b0703703ac6d7a459161
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: ec5cd489cae21b9140463d4ede72813ec014b3bb
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52302083"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926350"
 ---
 # <a name="how-to-control-usb-devices-and-other-removable-media-using-microsoft-defender-for-endpoint"></a>Como controlar dispositivos USB e outras mídias removíveis usando o Microsoft Defender para Ponto de Extremidade
 

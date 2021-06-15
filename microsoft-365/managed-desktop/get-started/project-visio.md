@@ -5,15 +5,17 @@ keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, Microsoft Pr
 ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
+manager: laurawi
+ms.topic: article
 ms.localizationpriority: normal
 ms.date: 03/07/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: c04bcdf846bafaa7838ef5932c8de595f5035992
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 9fd46410877012d92e847ba7ff8b60cd5acceb1e
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950527"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925534"
 ---
 # <a name="install-microsoft-project-or-microsoft-visio-on-microsoft-managed-desktop-devices"></a>Instalar Microsoft Project microsoft Visio em Área de Trabalho Gerenciada da Microsoft dispositivos
 

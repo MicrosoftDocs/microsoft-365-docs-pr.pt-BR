@@ -27,12 +27,12 @@ search.appverid:
 - MOE150
 ms.assetid: aa31319c-9196-48c9-a90b-4057e0494c7a
 description: Saiba mais sobre políticas de proteção que permitem gerenciar como os usuários acessam Office aplicativos e arquivos de trabalho de dispositivos móveis.
-ms.openlocfilehash: a48aa241c9e70cf087da3f1701e859dae7238024
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 7602b712f2dfc3ba369fd76979baaaa8d5da5c5c
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578378"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925270"
 ---
 # <a name="manage-how-users-access-office-documents-on-mobile-devices"></a>Gerenciar como os usuários acessam documentos do Office em dispositivos móveis
 
@@ -43,10 +43,9 @@ As configurações de política que controlam como os usuários acessam arquivos
 ## <a name="settings-that-control-how-users-access-office-files-on-mobile-devices"></a>Configurações que controlam como os usuários acessam arquivos do Office em dispositivos móveis
 
 As configurações a seguir estão disponíveis para gerenciar como os usuários acessam arquivos de trabalho do Office:
-  
-|||
+
+|Setting  <br/> |Descrição  <br/> |
 |:-----|:-----|
-|Configuração  <br/> |Descrição  <br/> |
 |Exigir um PIN ou uma impressão digital para acessar aplicativos do Office  <br/> |Se essa configuração for **On**, os usuários devem fornecer outra forma de autenticação, além de seu nome de usuário e senha, para que possam usar Office aplicativos em seu dispositivo móvel.  <br/> |
 |Redefinir o PIN quando houver muitas falhas de logon  <br/> |Para impedir que um usuário não autorizado adivinhe um PIN, o PIN será redefinido após determinado número de tentativas incorretas.  <br/> |
 |Exigir que os usuários entrem novamente depois que os aplicativos do Office ficarem ociosos  <br/> |Essa configuração determina por quanto tempo um usuário pode ficar ocioso antes de ser solicitado a entrar novamente.  <br/> |

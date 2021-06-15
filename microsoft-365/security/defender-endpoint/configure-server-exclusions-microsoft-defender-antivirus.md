@@ -6,26 +6,25 @@ description: Windows O servidor inclui exclusões automáticas, com base na fun�
 keywords: exclusões, servidor, exclusões automáticas, automáticas, personalizadas, verificações, Microsoft Defender Antivírus
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
+ms.technology: mde
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
 localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
-ms.custom: nextgen
-ms.technology: mde
-ms.date: 02/10/2021
 ms.topic: article
-ms.openlocfilehash: f82da8eb0dcba39404c2b7f191e166aa78357cee
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.custom: nextgen
+ms.date: 02/10/2021
+ms.openlocfilehash: 31d5c22d11a28c9604b2be3145ebd46715a6e5b3
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274755"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925510"
 ---
 # <a name="configure-microsoft-defender-antivirus-exclusions-on-windows-server"></a>Configurar Microsoft Defender Antivírus exclusões no Windows Server
 
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 

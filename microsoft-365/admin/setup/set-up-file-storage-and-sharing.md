@@ -29,12 +29,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: Saiba como usar o OneDrive e um site de equipe para armazenamento no Microsoft 365 e compartilhamento de arquivos no Microsoft 365.
-ms.openlocfilehash: f94ff8a60b1b4691b36ec2e1bd04088d96b1af8c
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 3ededbf2899ffd45915ad25370d5e5c93906c862
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635637"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924606"
 ---
 # <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>Configurar o compartilhamento e o armazenamento de arquivos no Microsoft 365
 
@@ -56,12 +56,12 @@ Tanto o OneDrive quanto os sites da equipe oferecem acesso em qualquer lugar par
   
 ![Um diagrama que mostra como os produtos Microsoft 365 podem usar o OneDrive ou Sites de equipe](../../media/7493131e-665f-4dbd-9a60-f5612aea7e42.png)
   
-Aqui estão as recomendações sobre o que armazenar em cada local quando você usa o OneDrive e os sites de equipe juntos:
+Aqui estão as recomendações sobre o que armazenar em cada local quando você usa o OneDrive e os sites de equipe juntos:<br/>
+
   
-||||
+|Local de armazenamento|O que é isso para|O que armazenar aqui|
 |:-----|:-----|:-----|
-|**Local de armazenamento** <br/> |**Para que serve** <br/> |**O que armazenar aqui** <br/> |
-|**OneDrive** <br/> |Armazenar conteúdo no OneDrive é como armazenar arquivos em seu computador; ninguém mais pode acessá-los facilmente.  <br/> Para mais informações, confira [O que é o OneDrive for Business?](https://support.microsoft.com/office/187f90af-056f-47c0-9656-cc0ddca7fdc2) <br/> |Arquivos empresariais que outros membros da equipe não precisarão colaborar ou acessar regularmente.  <br/> |
+|**OneDrive** |Armazenar conteúdo no OneDrive é como armazenar arquivos em seu computador; ninguém mais pode acessá-los facilmente.<br/> Para mais informações, confira [O que é o OneDrive for Business?](https://support.microsoft.com/office/187f90af-056f-47c0-9656-cc0ddca7fdc2) <br/> |Arquivos empresariais que outros membros da equipe não precisarão colaborar ou acessar regularmente.<br/> |
 |**Sites de equipe do SharePoint** <br/> |Colaboração. Quando você cria um grupo do Microsoft 365 (por exemplo, no Centro de administração do Microsoft 365, no Outlook, ou criando uma equipe no Microsoft Teams), é criado um site de equipe do SharePoint para esse grupo. Da mesma forma, quando você cria um novo site de equipe do SharePoint a partir do home page do SharePoint ou do novo Centro de administração do SharePoint, também cria um grupo do Microsoft 365. Para mais informações, confira [O que é um site de equipe do SharePoint?](https://support.microsoft.com/office/75545757-36c3-46a7-beed-0aaa74f0401e) e [Criar um site de equipe no SharePoint Online](https://support.microsoft.com/office/ef10c1e7-15f3-42a3-98aa-b5972711777d).  <br/> |Arquivos que têm propriedade compartilhada. Recomendamos sites de equipe separados para cada unidade de trabalho em sua organização. Por exemplo, para manter documentos financeiros e pessoais privados para uma pequena equipe, crie um site de equipe separado.  <br/> |
 
 > [!NOTE]

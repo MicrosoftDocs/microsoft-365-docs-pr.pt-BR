@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Saiba como planejar a segurança e a privacidade dos Tópicos do Microsoft Viva
-ms.openlocfilehash: 587b6a2921e7d1a3cc8d4ab663ff199fdd36871d
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: b8c82b1914df739ea9086a4ce1585733a7b6d854
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114057"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925486"
 ---
 # <a name="microsoft-viva-topics-security-and-privacy"></a>Segurança e privacidade dos Tópicos do Microsoft Viva
 
@@ -57,6 +57,10 @@ A tabela a seguir descreve o que os usuários - visualizadores de tópicos, cola
 |Arquivos|Os arquivos só ficam visíveis para os usuários que têm permissões para o conteúdo de origem.|
 |Páginas|As páginas só ficam visíveis para os usuários que têm permissões para o conteúdo de origem.|
 |Sites|Os sites só ficam visíveis para os usuários que têm permissões para o conteúdo de origem.|
+
+## <a name="users-personal-and-private-data"></a>Dados pessoais e privados dos usuários
+
+Os Tópicos do Viva só descobrirão tópicos no SharePoint que você especificar. O armazenamento pessoal dos usuários, como emails pessoais ou OneDrive não está incluído.
 
 ## <a name="best-practices"></a>Práticas recomendadas
 

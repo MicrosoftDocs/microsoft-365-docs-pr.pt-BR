@@ -1,6 +1,6 @@
 ---
-title: Executar e personalizar verificações agendadas e sob demanda
-description: Personalizar e iniciar Microsoft Defender Antivírus verificações em pontos de extremidade em toda a sua rede.
+title: Execute e personalize verificações agendadas e sob demanda.
+description: Personalizar e iniciar Microsoft Defender Antivírus verificações em pontos de extremidade em toda a sua rede
 keywords: scan, schedule, customize, exclusions, exclude files, remediation, scan results, quarantine, remove threat, quick scan, full scan, Microsoft Defender Antivírus
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 31dbfa2ac6d5537f6d42c0bad612be5ef059368d
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: bce3fe1b6490803cb571a1a8a2387c19cc589114
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275271"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926230"
 ---
 # <a name="customize-initiate-and-review-the-results-of-microsoft-defender-antivirus-scans-and-remediation"></a>Personalizar, iniciar e revisar os resultados de Microsoft Defender Antivírus e correção
 

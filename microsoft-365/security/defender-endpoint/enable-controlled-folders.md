@@ -15,12 +15,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 5a90a12457597fa38c648fd44bf194d2322a26af
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: ed0859e6018d171b48aac83d394eacbd2163c37b
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861214"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924678"
 ---
 # <a name="enable-controlled-folder-access"></a>Habilitar o acesso controlado a pastas
 
@@ -50,7 +50,7 @@ As configurações da Política de Grupo que desabilitam a mesclação de listas
 * Microsoft Defender Antivírus configurar **o comportamento de mesclagem de administrador local para listas**
 * System Center Endpoint Protection permitir **que os usuários adicionem exclusões e substituições**
 
-Para obter mais informações sobre como desabilitar a mesclação de listas locais, consulte Prevent or allow users [to locally modify Microsoft Defender AV policy settings](/windows/security/threat-protection/microsoft-defender-antivirus/configure-local-policy-overrides-microsoft-defender-antivirus#configure-how-locally-and-globally-defined-threat-remediation-and-exclusions-lists-are-merged).
+Para obter mais informações sobre como desabilitar a mesclação de listas locais, consulte Prevent or allow users [to locally modify Microsoft Defender AV policy settings](/windows/security/threat-protection/microsoft-defender-antivirus/configure-local-policy-overrides-microsoft-defender-antivirus).
 
 ## <a name="windows-security-app"></a>Segurança do Windows app
 
@@ -92,7 +92,7 @@ Para obter mais informações sobre como desabilitar a mesclação de listas loc
 
 ## <a name="mobile-device-management-mdm"></a>Gerenciamento de Dispositivo Móvel (MDM)
 
-Use o provedor de serviços de configuração [./Vendor/MSFT/Policy/Config/ControlledFolderAccessProtectedFolders](/windows/client-management/mdm/policy-csp-defender#defender-controlledfolderaccessprotectedfolders) (CSP) para permitir que os aplicativos façam alterações em pastas protegidas.
+Use o provedor de serviços de configuração [./Vendor/MSFT/Policy/Config/ControlledFolderAccessProtectedFolders](/windows/client-management/mdm/policy-csp-defender) (CSP) para permitir que os aplicativos façam alterações em pastas protegidas.
 
 ## <a name="microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager
 

@@ -18,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: As funções de administrador são mapeadas para as funções de negócios e oferecem permissões para realizar tarefas específicas no centro de administração. Por exemplo, o administrador do serviço abre tíquetes de suporte da Microsoft.
-ms.openlocfilehash: c1baf7fcd9189973864929550b19ca6e32d499ae
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+description: As funções de administrador mapeiam para funções comerciais e fornecem permissões para realizar tarefas específicas no centro de administração. Por exemplo, o administrador do serviço abre tíquetes de suporte da Microsoft.
+ms.openlocfilehash: 4e2b1db207a2a590855f7fb2d0bf2019d4b57ea5
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706197"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924558"
 ---
 # <a name="get-started-with-the-roles-page"></a>Começar com a página de funções
 
@@ -41,11 +41,12 @@ Você pode exportar a lista de administradores, bem como pesquisar e filtrar por
 
 ![Filtrar ou importar funções de administrador](../../media/admin-role-page-options.png)
 
-|||
-|:-----|:-----|
-|  <br/> |Use **Exportar lista de administradores** para obter uma lista completa de todos os usuários de administração em sua organização. A lista é armazenada em um arquivo Excel .csv arquivo.   <br/> |
-|  <br/> |Use **a Pesquisa** para pesquisar uma função de administrador e consulte seus usuários que são atribuídos a essa função.   <br/> |
-|  <br/> |Use **Filter** para alterar sua exibição de funções de administrador exibidas.   <br/> |
+- Use Exportar lista de administradores para obter uma lista completa de todos os usuários de administração em sua organização. A lista é armazenada em um arquivo Excel .csv arquivo.
+
+- Use a Pesquisa para pesquisar uma função de administrador e consulte seus usuários que são atribuídos a essa função.
+
+- Use Filter para alterar sua exibição de funções de administrador exibidas.
+
 
 ## <a name="get-the-most-out-of-the-roles"></a>Obter o máximo das funções
 

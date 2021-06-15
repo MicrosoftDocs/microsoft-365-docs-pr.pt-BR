@@ -23,12 +23,13 @@ ms.custom:
 - AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: Saiba como atualizar o Microsoft Office para o cliente Office mais recente para usuários em sua organização.
-ms.openlocfilehash: 3d2d5e54506d06662c6c2feef0d142f1e195163f
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.topic: article
+ms.openlocfilehash: 877659e420079ed607adc13e5bbe44bdc979f5ac
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860566"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924690"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>Atualize seu Microsoft 365 para usuários comerciais para o cliente Office mais recente
 

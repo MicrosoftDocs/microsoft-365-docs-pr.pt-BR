@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
-description: Proteja seus emails e dados de negócios contra ameaças cibernéticas, incluindo ransomware, phishing e anexos mal-intencionados.
-ms.openlocfilehash: b274bb6bcdf71641ff8b196921a501bae9cbba28
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+description: Como proteger seus emails e dados comerciais contra ameaças cibernéticas, incluindo ransomware, phishing e anexos mal-intencionados.
+ms.openlocfilehash: a5d87c907d47be2d8edc12642ad4e93afb0eb142
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635957"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924618"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Top 10 maneiras de proteger Microsoft 365 para planos de negócios
 
@@ -35,7 +35,7 @@ Se você for uma organização de pequeno ou médio porte usando um dos planos d
 
 A Microsoft recomenda que você conclua as tarefas listadas na tabela a seguir que se aplicam ao seu plano de serviço.
 
-||Tarefa|Microsoft 365 Business Standard|Microsoft 365 Business Premium|
+|*Número*|Tarefa|Microsoft 365 Business Standard|Microsoft 365 Business Premium|
 |---|---|---|---|
 |1|[Configurar autenticação multifatorial](secure-your-business-data.md#setup)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |2|[Treinar os usuários](secure-your-business-data.md#train)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -154,7 +154,7 @@ Para criar uma regra de transporte de email, veja um [vídeo de](../../business-
 
 6. Selecione **Salvar**.
     
-| Configuração | Avisar os usuários antes de abrir anexos Office arquivos | Bloquear tipos de arquivo que podem conter ransomware ou outro código mal-intencionado |
+| Setting | Avisar os usuários antes de abrir anexos Office arquivos | Bloquear tipos de arquivo que podem conter ransomware ou outro código mal-intencionado |
 |:-----|:-----|:-----|
 |Nome  <br/> |Regra anti-ransomware: avisar os usuários  <br/> |Regra anti-ransomware: bloquear tipos de arquivo  <br/> |
 |Aplicar essa regra se . . .  <br/> |Qualquer anexo . . . extensão de arquivo corresponde . . .  <br/> |Qualquer anexo . . . extensão de arquivo corresponde . . .  <br/> |
@@ -190,7 +190,7 @@ Para criar uma regra de transporte de email:
 
 6. Selecione **Salvar**.
 
-|Configuração|Rejeitar emails de encaminhamento automático para domínios externos|
+|Setting|Rejeitar emails de encaminhamento automático para domínios externos|
 |---|---|
 |Nome|Impedir o encaminhamento automático de emails para domínios externos|
 |Aplicar essa regra se ...|O remetente . . . é externo/interno . . . Dentro da organização|

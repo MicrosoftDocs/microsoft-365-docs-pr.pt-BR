@@ -7,20 +7,20 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: Normal
+localization_priority: normal
+ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.topic: article
-ms.openlocfilehash: 52fe64b096b24dfc52a97fb664e408c5aeb701f4
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 35873b371e773e793ae966a338150e2e5e256a42
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624204"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926026"
 ---
 # <a name="manage-the-sources-for-microsoft-defender-antivirus-protection-updates"></a>Gerenciar as fontes das atualizações de proteção do Microsoft Defender Antivírus
 
@@ -73,7 +73,7 @@ Para garantir o melhor nível de proteção, o Microsoft Update permite versões
 
 Cada fonte tem cenários típicos que dependem de como sua rede é configurada, além da frequência com que publicam atualizações, conforme descrito na tabela a seguir:
 
-|Localização | Cenário de exemplo |
+|Local | Cenário de exemplo |
 |---|---|
 |Windows Serviço de Atualização do Servidor | Você está usando o Windows De Atualização do Servidor para gerenciar atualizações para sua rede.|
 |Microsoft Update | Você deseja que seus pontos de extremidade se conectem diretamente ao Microsoft Update. Isso pode ser útil para pontos de extremidade que se conectam irregularmente à sua rede corporativa ou se você não usar o Serviço de Atualização do Servidor Windows para gerenciar suas atualizações.|

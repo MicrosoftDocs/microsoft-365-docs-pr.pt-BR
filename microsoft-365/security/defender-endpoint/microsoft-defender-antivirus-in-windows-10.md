@@ -8,19 +8,19 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
 localization_priority: Priority
+ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.topic: article
-ms.openlocfilehash: c4a0e40f3f6e6728af3d8c7a6da29485f1fad3fd
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: cd7fe43fafc587c21fb28b53e0084ccb8c3e5c17
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52269595"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925990"
 ---
 # <a name="next-generation-protection"></a>Proteção de última geração
 

@@ -6,7 +6,8 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: Normal
+localization_priority: normal
+ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -14,13 +15,12 @@ ms.date: 09/11/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.topic: article
-ms.openlocfilehash: cd222760f3a5cc005c679bf28365237cc70e8950
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: cba7a9d6ed23ac1dc72ef6cbcecfdfc7a0f4c60b
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275343"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926278"
 ---
 # <a name="review-event-logs-and-error-codes-to-troubleshoot-issues-with-microsoft-defender-antivirus"></a>Revise logs de eventos e códigos de erro para solucionar problemas com o Microsoft Defender Antivírus
 
@@ -361,7 +361,7 @@ Para obter mais informações, confira o seguinte:
 <dt> Ameaça: &lt; &gt; Severidade, por exemplo:<ul>
 <li>Baixo</li>
 <li>Moderado</li>
-<li>Alto</li>
+<li>Alta</li>
 <li>Grave</li>
 </ul>
 </dt>
@@ -433,7 +433,7 @@ Microsoft Defender Antivírus tomou medidas para proteger esse computador contra
 <dt> Ameaça: &lt; &gt; Severidade , por exemplo:<ul>
 <li>Baixo</li>
 <li>Moderado</li>
-<li>Alto</li>
+<li>Alta</li>
 <li>Grave</li>
 </ul>
 </dt>
@@ -485,7 +485,7 @@ Microsoft Defender Antivírus encontrou um erro ao tomar medidas sobre malware o
 <dt> Ameaça: &lt; &gt; Severidade , por exemplo:<ul>
 <li>Baixo</li>
 <li>Moderado</li>
-<li>Alto</li>
+<li>Alta</li>
 <li>Grave</li>
 </ul>
 </dt>
@@ -539,7 +539,7 @@ Microsoft Defender Antivírus restaurou um item da quarentena. Para obter mais i
 <dt> Ameaça: &lt; &gt; Severidade, por exemplo:<ul>
 <li>Baixo</li>
 <li>Moderado</li>
-<li>Alto</li>
+<li>Alta</li>
 <li>Grave</li>
 </ul>
 </dt>
@@ -581,7 +581,7 @@ Microsoft Defender Antivírus encontrou um erro ao tentar restaurar um item da q
 <dt> Ameaça: &lt; &gt; Severidade, por exemplo:<ul>
 <li>Baixo</li>
 <li>Moderado</li>
-<li>Alto</li>
+<li>Alta</li>
 <li>Grave</li>
 </ul>
 </dt>
@@ -625,7 +625,7 @@ Microsoft Defender Antivírus excluiu um item da quarentena.<br/>Para obter mais
 <dt> Ameaça: &lt; &gt; Severidade, por exemplo:<ul>
 <li>Baixo</li>
 <li>Moderado</li>
-<li>Alto</li>
+<li>Alta</li>
 <li>Grave</li>
 </ul>
 </dt>
@@ -668,7 +668,7 @@ Para obter mais informações, confira o seguinte:
 <dt> Ameaça: &lt; &gt; Severidade, por exemplo:<ul>
 <li>Baixo</li>
 <li>Moderado</li>
-<li>Alto</li>
+<li>Alta</li>
 <li>Grave</li>
 </ul>
 </dt>
@@ -774,7 +774,7 @@ Microsoft Defender Antivírus detectou um comportamento suspeito.<br/>Para obter
 <dt> Ameaça: &lt; &gt; Severidade, por exemplo:<ul>
 <li>Baixo</li>
 <li>Moderado</li>
-<li>Alto</li>
+<li>Alta</li>
 <li>Grave</li>
 </ul>
 </dt>
@@ -849,7 +849,7 @@ Microsoft Defender Antivírus detectou malware ou outro software potencialmente 
 <dt> Ameaça: &lt; &gt; Severidade, por exemplo:<ul>
 <li>Baixo</li>
 <li>Moderado</li>
-<li>Alto</li>
+<li>Alta</li>
 <li>Grave</li>
 </ul>
 </dt>
@@ -928,7 +928,7 @@ Microsoft Defender Antivírus tomou medidas para proteger esse computador contra
 <dt> Ameaça: &lt; &gt; Severidade, por exemplo:<ul>
 <li>Baixo</li>
 <li>Moderado</li>
-<li>Alto</li>
+<li>Alta</li>
 <li>Grave</li>
 </ul>
 </dt>
@@ -1050,7 +1050,7 @@ Microsoft Defender Antivírus encontrou um erro não crítico ao tomar medidas s
 <dt> Ameaça: &lt; &gt; Severidade, por exemplo:<ul>
 <li>Baixo</li>
 <li>Moderado</li>
-<li>Alto</li>
+<li>Alta</li>
 <li>Grave</li>
 </ul>
 </dt>
@@ -1142,7 +1142,7 @@ Microsoft Defender Antivírus encontrou um erro crítico ao tomar medidas sobre 
 <dt> Ameaça: &lt; &gt; Severidade, por exemplo:<ul>
 <li>Baixo</li>
 <li>Moderado</li>
-<li>Alto</li>
+<li>Alta</li>
 <li>Grave</li>
 </ul>
 </dt>
@@ -1204,7 +1204,7 @@ Ação do usuário:
 O Microsoft Defender Antivírus cliente encontrou esse erro devido a problemas críticos. O ponto de extremidade pode não estar protegido. Revise a descrição do erro e siga as etapas <b>de ação do usuário</b> relevantes abaixo.
 <table>
 <tr>
-<th>Action</th>
+<th>Ação</th>
 <th>Ação do usuário</th>
 </tr>
 <tr>
@@ -1769,7 +1769,7 @@ Microsoft Defender Antivírus o <i>Serviço de Assinatura Dinâmica</i> para rec
 <li>Versão</li>
 <li>Carimbo de data/hora</li>
 <li>Sem limite</li>
-<li>Duration</li>
+<li>Duração</li>
 </ul>
 </dt>
 <dt>Caminho de persistência: &lt; Versão &gt; </dt>
@@ -1825,7 +1825,7 @@ Microsoft Defender Antivírus o <i>Serviço de Assinatura Dinâmica</i> para des
 <li>Versão</li>
 <li>Carimbo de data/hora</li>
 <li>Sem limite</li>
-<li>Duration</li>
+<li>Duração</li>
 </ul>
 </dt>
 <dt>Caminho de persistência: &lt; Versão &gt; </dt>
@@ -1892,7 +1892,7 @@ Microsoft Defender Antivírus encontrou um erro ao tentar usar o <i>Serviço de 
 <li>Versão</li>
 <li>Carimbo de data/hora</li>
 <li>Sem limite</li>
-<li>Duration</li>
+<li>Duração</li>
 </ul>
 </dt>
 <dt>Caminho de persistência: &lt; Versão &gt; </dt>

@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: Saiba mais sobre Office 365 operado pela 21Vianet que foi projetado para atender às necessidades de serviços de nuvem seguros, confiáveis e escalonáveis na China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: bc416ca253d26cc5d391d226039223eac02720b0
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 75bf7c7a4d7e453fa2be711c7332878b8a8f1150
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706365"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924714"
 ---
 # <a name="office-365-operated-by-21vianet"></a>Office 365 operado pela 21Vianet
 
@@ -53,7 +53,7 @@ Se você quiser aprender a começar a usar serviços de Office 365 gerais, consu
   
 ## <a name="office-365-suite"></a>Office 365 Suite
 
-|||
+|Função|Disponibilidade|
 |:-----|:-----|
 |Domínios personalizados  <br/> |Os administradores podem criar e/ou usar domínios personalizados registrados por meio de provedores de domínio específicos chineses. Se você não tiver um domínio personalizado, poderá Comprar um nome de domínio [de](../get-help-with-domains/buy-a-domain-name.md) um registrador de nomes de domínio. Se você já tiver um, [encontre seu registrador de domínio ou provedor de hospedagem DNS.](../get-help-with-domains/find-your-domain-registrar.md)  <br/> Além disso, se você criar um site público usando o serviço Office 365 SharePoint Online, a política de conformidade com a Internet da China exigirá que você receba um número ICP (Provedor de Conteúdo da Internet).  **Observação:** A validação automática para palavras não permitidos em nomes de domínio personalizados não está disponível.           |
 |Assinaturas, cobranças e suporte técnico  <br/> |Fornecido pela 21Vianet. Para obter informações sobre como contatar o suporte, consulte [Contact Office 365 for business support](../../business-video/get-help-support.md).  <br/> |
@@ -72,7 +72,7 @@ Se você quiser aprender a começar a usar serviços de Office 365 gerais, consu
   
 ## <a name="sharepoint-online"></a>SharePoint Online
 
-|||
+|Função|Disponibilidade|
 |:-----|:-----|
 |Compartilhar um documento, biblioteca ou site por email com alguém fora da sua organização  <br/> |Esse recurso está disponível, mas desligado por padrão, pois usá-lo poderia tornar os arquivos compartilhados acessíveis fora do seu país. Os administradores têm a capacidade de habilitar esse recurso, mas recebem uma mensagem de aviso indicando que isso pode fazer com que os arquivos compartilhados possam ser acessados de fora do país de origem. Os usuários que tentarem compartilhar com alguém de fora da organização também receberão um aviso. Para obter mais informações, [consulte Share SharePoint files or folders in Office 365](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c).  <br/> |
 |Serviços do Access  <br/> |Há suporte para o Access 2013, mas a adição de novos aplicativos do Access pode não estar disponível, pois esse recurso será retirado do Office 365 e SharePoint Online. A criação de novos aplicativos Web baseados no Access e bancos de dados da Web do Access no Office 365 e no SharePoint Online interromperá a partir de junho de 2017 e de quaisquer aplicativos Web e bancos de dados web restantes até abril de 2018. Além disso, a funcionalidade do Access 2010 não é suportada e a tentativa de usar um banco de dados do Access 2010 resultará em erros e possíveis perdas de dados.  <br/> |
@@ -91,7 +91,7 @@ Se você quiser aprender a começar a usar serviços de Office 365 gerais, consu
   
 ## <a name="outlook-web-app"></a>Outlook Web App
 
-|||
+|Função|Disponibilidade|
 |:-----|:-----|
 |Blackberry Business Cloud Services (BBCS)  <br/> |Não está disponível, mas você pode usar Exchange ActiveSync ou uma oferta do Research in Motion (RIM, a solução de email sem fio BlackBerry) para executar o Blackberry Enterprise Server (BES).  <br/> |
 |Gerenciamento de Direitos de Informação  <br/> |Em breve.  <br/> |
@@ -167,8 +167,8 @@ Para saber mais sobre como configurar uma implantação híbrida com Office 365 
 > [!IMPORTANT]
 >  O [Exchange Server](https://go.microsoft.com/fwlink/?LinkId=506768) de Implantação é uma ferramenta gratuita baseada na Web que ajuda você a configurar uma implantação híbrida entre sua organização local e o Office 365, ou para migrar completamente para Office 365. A ferramenta faz algumas perguntas simples e, com base nas respostas, cria uma lista de verificação personalizada com instruções para configurar sua implantação híbrida. É recomendável usar o Assistente de Implantação para configurar uma implantação híbrida. > Para organizações que não desejam atualizar ou adicionar servidores CU5 do Exchange 2013, as organizações do Exchange 2013 SP1 podem configurar o compartilhamento de livre/ocupado do calendário compartilhado entre suas organizações locais e Exchange Online. Para configurar esse recurso de implantação híbrida, consulte Configuring Exchange de implantação híbrida com Office 365 [operado pela 21Vianet](https://support.microsoft.com/office/26e7cc26-c980-4cc5-a082-c333de544b6d). 
 
-|||  
-|---|---|
+|Função|Disponibilidade|
+|:-----|:-----|
 |Coexistência e Compartilhamento de Livre/Ocupado|Não há suporte para o compartilhamento de informações de livre/ocupado do calendário entre duas ou mais organizações Exchange locais ou o compartilhamento entre dois locatários da 21Vianet Office 365. Esse recurso está chegando em breve! | 
 |Compartilhamento de calendário|Exchange 2013 SP1 e maior oferece suporte à configuração manual do compartilhamento de calendários da Internet com outras organizações Exchange ou Exchange Online locais. Para obter mais detalhes sobre como configurar esse recurso manualmente, consulte [Enable Internet Calendar Publishing](/exchange/enable-internet-calendar-publishing-exchange-2013-help). | 
 Compartilhamento Exchange dados de contato em dispositivos móveis apple para o Apple iCloud. |Essa configuração/recurso é habilitada por padrão. Os administradores devem desativar esse recurso para ajudar a impedir que os usuários compartilhem Exchange dados fora da sua organização. |
@@ -177,7 +177,7 @@ Compartilhamento Exchange dados de contato em dispositivos móveis apple para o 
    
 ## <a name="office"></a>Office
 
-|||
+|Função|Disponibilidade|
 |:-----|:-----|
 |Abra um Office aplicativo do **Arquivo** \> **Aberto em**... botão  <br/> |Disponível. A capacidade de fazer isso durante o roaming está chegando em breve.  <br/> |
 |Salvar em OneDrive for Business ao entrar com uma conta da Microsoft  <br/> |Para manter seus dados em seu país, você não pode salvar um documento no site da sua organização (OneDrive for Business) quando estiver Office com uma conta da Microsoft.  <br/> |
@@ -185,13 +185,13 @@ Compartilhamento Exchange dados de contato em dispositivos móveis apple para o 
    
 ## <a name="office-client"></a>Cliente Office
 
-|||
+|Função|Disponibilidade|
 |:-----|:-----|
 |Gerenciar conta (de dentro do Office cliente)  <br/> |Esse recurso e outros como ele que se destinam a ir para seu portal Office 365, apontam para o portal de Office 365 em todo o mundo e você não pode entrar com sua conta Office 365 operada pela 21Vianet. Esse é um problema conhecido que está sendo corrigido. Enquanto isso, você pode usar a URL para entrar em sua conta https://portal.partner.microsoftonline.cn/ e gerenciar configurações a partir daí. Para obter mais informações, consulte [Manage your Microsoft 365 Apps para Grandes Empresas account for Office 365 operated by 21Vianet](https://support.microsoft.com/office/fbe473d3-69de-4d0c-aecb-b9c2d0d45bc8).  <br/> |
    
 ## <a name="onenote"></a>OneNote
 
-|||
+|Função|Disponibilidade|
 |:-----|:-----|
 |Inserir e reproduzir vídeo online  <br/> |Indisponível.  <br/> |
 |Integração de painel de pesquisa para Bing serviços  <br/> |Indisponível.  <br/> |
@@ -209,7 +209,7 @@ Compartilhamento Exchange dados de contato em dispositivos móveis apple para o 
    
 ## <a name="skype-for-business"></a>Skype for Business
 
-|||
+|Função|Disponibilidade|
 |:-----|:-----|
 |Provedores de domínio para dar suporte a Skype for Business  <br/> |Você precisará registrar seu domínio com um provedor de domínio específico chinês que suporte registros SRV. Para obter mais informações sobre como registrar domínios, consulte [Find your domain registrar or DNS hosting provider](../get-help-with-domains/find-your-domain-registrar.md).  <br/> |
 |Conferência discda (a capacidade de adicionar acesso telefônico a reuniões para usuários que não conseguem acessar um computador)  <br/> |Você pode ver opções no Skype for Business e no Centro de Administração Skype for Business para conferência discar e provedores, mas esses recursos ainda não estão disponíveis. Eles estão chegando em breve.  <br/> |

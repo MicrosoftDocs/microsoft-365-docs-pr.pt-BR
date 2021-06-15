@@ -7,15 +7,17 @@ author: jaimeo
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
+manager: laurawi
+ms.topic: article
 ms.localizationpriority: normal
 ms.date: 01/18/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1a6b91ab5b4523f4b980dab0c25af41a9d614189
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b016d8458b4b4cc9f6b684d3b8a3c0a1e1322fef
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600678"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925402"
 ---
 # <a name="manage-line-of-business-apps-in-microsoft-managed-desktop"></a>Gerenciar aplicativos da linha empresarial na Área de Trabalho Gerenciada da Microsoft
 

@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Configurar o Microsoft Defender para Office 365 e proteger dados confidenciais contra phishing, malware e outras ameaças.
-ms.openlocfilehash: 4b5142efbf4392f017cd9b96f6a9c36ef2000bb7
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: a995063cef6fdc42ad62079d49d58edc9d07b52c
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245135"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924310"
 ---
 # <a name="increase-threat-protection"></a>Aumente a proteção contra ameaças
 
@@ -81,8 +81,8 @@ Para criar uma regra de transporte de email:
 
 6. Selecione **Salvar**.
 
-|Configuração|Avisar os usuários antes de abrir anexos Office arquivos||
-|---|---|---|
+|Setting|Avisar os usuários antes de abrir anexos Office arquivos|
+|---|---|
 |Nome|Regra anti-ransomware: avisar os usuários|
 |Aplicar essa regra se . . .|Qualquer anexo . . . extensão de arquivo corresponde . . .|
 |Especificar palavras ou frases|Adicione esses tipos de arquivo:  <br/> dotm, docm, xlsm, sltm, xla, xlam, xll, pptm, potm, ppam, ppsm, sldm|
@@ -113,7 +113,7 @@ Para criar uma regra de transporte de email, assista [a este vídeo curto](../bu
 
 6. Selecione **Salvar**.
 
-|Configuração|Avisar os usuários antes de abrir anexos Office arquivos|
+|Setting|Avisar os usuários antes de abrir anexos Office arquivos|
 |---|---|
 |Nome|Impedir o encaminhamento automático de emails para domínios externos|
 |Aplicar essa regra se ...|O remetente . . . é externo/interno . . . Dentro da organização|

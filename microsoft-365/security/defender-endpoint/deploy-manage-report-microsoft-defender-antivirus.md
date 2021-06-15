@@ -7,7 +7,8 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: Normal
+localization_priority: normal
+ms.topic: conceptual
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,13 +16,12 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.topic: article
-ms.openlocfilehash: 089a16bb76956cfb0441f8c3eeb5e70d80059845
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 4be9116b83c2ee4eec410f3d8d68c289f3c8b9a5
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275175"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925822"
 ---
 # <a name="deploy-manage-and-report-on-microsoft-defender-antivirus"></a>Implantar, gerenciar e relatar Microsoft Defender Antivírus
 

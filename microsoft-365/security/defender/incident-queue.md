@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: df2d2660267c38dccf5ef09fa4955615d3a78141
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 07a49fcdcfa7ea401b16b293b4831244253d2b28
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636261"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925882"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Priorizar incidentes no Microsoft 365 Defender
 
@@ -82,6 +82,23 @@ Esta tabela lista os nomes de filtro disponíveis.
 | Severity | A gravidade de um incidente indica o impacto que ele pode ter em seus ativos. Quanto maior a gravidade, maior o impacto e normalmente exige a atenção mais imediata. |
 | Status | Você pode optar por limitar a lista de incidentes exibidos com base em seu status para ver quais estão ativos ou resolvidos. |
 |||
+
+## <a name="save-defined-filters-as-urls"></a>Salvar filtros definidos como URLs
+
+Depois de configurar um filtro útil na fila de incidentes, você pode marcar a URL da guia do navegador ou salvá-la como um link em uma página da Web, um documento do Word ou um local de sua escolha. Isso lhe dará acesso de clique único aos principais pontos de exibição da fila de incidentes, como:
+
+- Novos incidentes
+- Incidentes de alta gravidade
+- Incidentes não atribuídos
+- Incidentes de alta gravidade e não atribuídos
+- Incidentes atribuídos a mim
+- Incidentes atribuídos a mim e ao Microsoft Defender para Ponto de Extremidade
+- Incidentes com uma marca ou marcas específicas
+- Incidentes com uma categoria de ameaça específica
+- Incidentes com uma ameaça associada específica
+- Incidentes com um ator específico
+
+Depois de compilar e armazenar sua lista de exibições de filtro úteis como URLs, você [](manage-incidents.md) pode usá-la rapidamente para processar e priorizar os incidentes em sua fila e gerenciá-los para análise subsequente.
 
 ## <a name="next-steps"></a>Próximas etapas
 

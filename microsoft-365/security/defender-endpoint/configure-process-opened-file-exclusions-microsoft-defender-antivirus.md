@@ -4,27 +4,25 @@ description: Você pode excluir arquivos de verificações se eles foram abertos
 keywords: Microsoft Defender Antivírus, processo, exclusão, arquivos, verificações
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
+ms.technology: mde
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
 localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
+ms.topic: article
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.technology: mde
-ms.topic: article
-ms.openlocfilehash: 2fdc646cf616ff6a6fa36a83be3d2b1dd0432fbe
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 0470f4f03ba5fd6fc768a1e652f51b8c44207107
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274595"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925546"
 ---
 # <a name="configure-exclusions-for-files-opened-by-processes"></a>Configurar exclusões para arquivos abertos por processos
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**

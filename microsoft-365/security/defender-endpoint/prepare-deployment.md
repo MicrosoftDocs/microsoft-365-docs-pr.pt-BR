@@ -1,6 +1,6 @@
 ---
 title: Preparar o Microsoft Defender para implantação do Ponto de Extremidade
-description: Preparar aprovação, cronogramas, considerações de ambiente e ordem de adoção ao implantar o Microsoft Defender para o Ponto de Extremidade
+description: Preparar aprovação de stakeholders, cronogramas, considerações de ambiente e ordem de adoção para implantar o Microsoft Defender para o Ponto de Extremidade
 keywords: implantar, preparar, stakeholder, linha do tempo, ambiente, ponto de extremidade, servidor, gerenciamento, adoção
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 13748662f6e53db86352b903828978729f78e6a8
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: fb10e65258f6264b21851f8325b97b1bad19bf16
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842429"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925642"
 ---
 # <a name="prepare-microsoft-defender-for-endpoint-deployment"></a>Preparar o Microsoft Defender para implantação do Ponto de Extremidade
 
@@ -60,7 +60,7 @@ Adicione participantes à tabela abaixo conforme apropriado para sua organizaç�
 
 -   I = Informado deste projeto
 
-| Nome                 | Função                                                                                                                                                                                                          | Action |
+| Nome                 | Função                                                                                                                                                                                                          | Ação |
 |----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
 | Inserir nome e email | Diretor de Segurança da Informação **(CISO)** Um representante executivo que serve como patrocinador dentro da organização para a *implantação da nova tecnologia.*                                                  | Então     |
 | Inserir nome e email | **Head of Cyber Defense Operations Center (CDOC)** Um representante da equipe do CDOC responsável por definir como essa alteração é alinhada com os processos na equipe de operações de *segurança dos clientes.*       | Então     |
@@ -105,7 +105,7 @@ O Defender para Ponto de Extremidade oferece suporte a duas maneiras de gerencia
 
 A Microsoft recomenda aproveitar o RBAC para garantir que somente os usuários que têm uma justificativa comercial possam acessar o Defender para o Ponto de Extremidade.
 
-Você pode encontrar detalhes sobre diretrizes de permissão [aqui](/microsoft-365/security/defender-endpoint/user-roles#create-roles-and-assign-the-role-to-an-azure-active-directory-group).
+Você pode encontrar detalhes sobre diretrizes de permissão aqui: Criar funções e [atribuir a função a](/microsoft-365/security/defender-endpoint/user-roles#create-roles-and-assign-the-role-to-an-azure-active-directory-group)um Azure Active Directory grupo .
 
 A tabela de exemplo a seguir serve para identificar a estrutura do Centro de Operações de Defesa Cibernética em seu ambiente que o ajudará a determinar a estrutura do RBAC necessária para seu ambiente.
 
@@ -135,5 +135,6 @@ Escolha o componente do Defender para o Ponto de Extremidade a ser usado e remov
 
 ## <a name="next-step"></a>Próxima etapa
 
-![Fase 2: Configurar](images/setup.png) <br>[Fase 2: Configuração](production-deployment.md) | Configurar o Microsoft Defender para implantação do Ponto de Extremidade
-
+|||
+|:-------|:-----|
+|![Fase 2: Configurar](images/setup.png) <br>[Fase 2: Configurar](production-deployment.md) | Configurar o Microsoft Defender para implantação do Ponto de Extremidade |

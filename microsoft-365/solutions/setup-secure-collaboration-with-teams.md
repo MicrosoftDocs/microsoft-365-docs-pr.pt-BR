@@ -17,12 +17,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: Saiba como configurar a colaboração de conteúdo seguro Teams proteger seus dados com base em sua sensibilidade.
-ms.openlocfilehash: 12c8bfd2c7c59e1cc4dcf149e394d2c7dc456530
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 7a5b8f58cc5e4a23d2d143419f99ecdd87b949c1
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539054"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924354"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365-and-microsoft-teams"></a>Configurar a colaboração segura com Microsoft 365 e Microsoft Teams
 
@@ -178,7 +178,7 @@ Esses módulos de treinamento podem ajudar os usuários a usarem Teams, grupos e
 |:---|:---|
 |![Configurar e personalizar o ícone de treinamento de equipe](../media/set-up-customize-team-training.png)<br>**[Configurar e personalizar sua equipe](https://support.microsoft.com/office/702a2977-e662-4038-bef5-bdf8ee47b17b)**|![SharePoint ícone de treinamento de compartilhamento e sincronização](../media/sharepoint-share-sync-training.png)<br>**[Compartilhar e sincronizar](https://support.microsoft.com/office/98cb2ff2-c27e-42ea-b055-c2d895f8a5de)**|
 |![Teams carregar e encontrar ícone de treinamento de arquivos](../media/smc-teams-upload-find-files-training.png)<br>**[Upload e encontrar arquivos](https://support.microsoft.com/office/57b669db-678e-424e-b0a0-15d19215cb12)**||
-|![Colaborar no ícone de equipes e canais](../media/teams-collaborate-channels-training.png)<br>**[Colaborar em equipes e canais](https://support.microsoft.com/office/c3d63c10-77d5-4204-a566-53ddcf723b46)**|||
+|![Colaborar no ícone de equipes e canais](../media/teams-collaborate-channels-training.png)<br>**[Colaborar em equipes e canais](https://support.microsoft.com/office/c3d63c10-77d5-4204-a566-53ddcf723b46)**||
 
 ## <a name="illustrations"></a>Ilustrações
 

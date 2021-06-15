@@ -1,7 +1,7 @@
 ---
-title: Compreender a seção relatório de analistas na análise de ameaças
+title: Entenda a seção relatório de analistas na análise de ameaças.
 ms.reviewer: ''
-description: Saiba mais sobre a seção relatório de analistas de cada relatório de análise de ameaças. Entenda como ele fornece informações sobre ameaças, mitigações, detecções, consultas avançadas de busca e muito mais.
+description: Como a seção de relatório de relatórios de análise de ameaças fornece informações sobre ameaças, mitigação, detecções, consultas de busca avançadas e muito mais.
 keywords: relatório de analista, análise de ameaças, detecções, consultas avançadas de busca, mitigações,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,14 +17,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2a442a642a71bd6bf3a52dbf3901c4367c2c10d8
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: e791249418503ada5d98b74c8ae273664851cc8e
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844989"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926434"
 ---
-# <a name="understand-the-analyst-report-in-threat-analytics"></a>Compreender o relatório do analista na análise de ameaças
+# <a name="the-analyst-report-in-threat-analytics"></a>O relatório do analista na análise de ameaças
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

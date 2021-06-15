@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 53cdb60c-a6b2-4848-b3ff-e7b75dc3fd1f
 description: Neste artigo, você aprenderá sobre as ferramentas e técnicas que você pode usar para monitorar e manter Microsoft 365 conectividade.
-ms.openlocfilehash: dfba158085e6642856049d7894b4156f42353236
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 8fa0820cf9b7778001be5184041e5c96930a29dd
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538802"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924194"
 ---
 # <a name="monitor-microsoft-365-connectivity"></a>Monitorar a conectividade do Microsoft 365
 
@@ -33,7 +33,7 @@ Depois de Microsoft 365, você pode manter Microsoft 365 conectividade usando al
   
 ## <a name="monitoring-microsoft-365-connectivity"></a>Monitoramento Microsoft 365 Conectividade
 
-|||
+|Tipo de monitoramento |Descrição |
 |:-----|:-----|
 |**Recebendo notificado de novos Microsoft 365 de extremidade** <br/> |Se você estiver gerenciando [Microsoft 365 pontos](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)de extremidade, receberá notificações quando publicarmos novos pontos de extremidade, você pode assinar nosso feed RSS usando seu leitor RSS favorito. Veja como se inscrever [por meio Outlook](https://go.microsoft.com/fwlink/p/?LinkId=532416) ou você pode enviar as atualizações de feed [RSS por email para você.](https://go.microsoft.com/fwlink/p/?LinkId=532417)  <br/> |
 |**Use System Center monitore Microsoft 365** <br/> |Se você estiver usando o Microsoft System Center, poderá baixar o System Center [Management Pack](https://www.microsoft.com/download/details.aspx?id=43708) para Office 365 começar a monitorar Microsoft 365 hoje. Para obter orientações mais detalhadas, consulte o guia de operações do pacote de gerenciamento. <br/> |

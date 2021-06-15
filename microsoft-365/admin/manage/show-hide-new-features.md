@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Decida quais recursos Office mostrar ou ocultar quando um usuário escolher a Ajuda > Novidades no Aplicativo do Office no Windows usando o recurso "Novidades no Office" no centro de administração Microsoft 365.
-ms.openlocfilehash: b9d20e3df4a2de540316dce0e6a6905c07e65176
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 319d5c0aabb0a61b01872acaeeb3ad362b72de37
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915021"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924830"
 ---
 # <a name="manage-which-office-features-appear-in-whats-new"></a>Gerenciar quais Office recursos aparecem no What's New
 
@@ -60,9 +60,8 @@ Você pode filtrar quais recursos aparecem na página Gerenciar quais Office **r
 
 Novos recursos aparecem na página com base na seguinte agenda:
 
-||||
+|Canal|Date|Tomar medidas|
 |:-----|:-----|:-----|
-|**Canal** <br/> |**Date** <br/> |**Tomar medidas** <br/> |
 |**Current** <br/> |15º do mês  <br/> |1 - 3 semanas antes do lançamento mensal <br/> |
 |**Empresarial Mensal** <br/> |Primeiro do mês  <br/> |Duas semanas antes da versão principal que traz novos recursos |
 |**Semi-anual Enterprise (Visualização)** <br/> |1º de setembro e 1º de março <br/> | 2 semanas antes da versão principal que traz novos recursos|

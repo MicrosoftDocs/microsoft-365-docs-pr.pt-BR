@@ -7,7 +7,8 @@ ms.pagetype: security
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: Normal
+localization_priority: normal
+ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.date: 10/26/2020
@@ -15,13 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.topic: article
-ms.openlocfilehash: f441b1bd444cd70fb5b00dfcb5ebcddadf62b220
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: fb4dd3114c411385f1a38cf7b0fd391a1b159b99
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274899"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924462"
 ---
 # <a name="specify-the-cloud-delivered-protection-level"></a>Especificar o nível de proteção fornecida na nuvem
 
