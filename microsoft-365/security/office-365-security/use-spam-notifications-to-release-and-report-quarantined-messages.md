@@ -21,12 +21,12 @@ ms.custom:
 description: Os administradores podem aprender sobre notificações de spam do usuário final para mensagens em quarentena Proteção do Exchange Online (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 30f82abc245a2f6022bd1a75b57e9d20e3e32a32
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 71f2a33ad83f94895c396f92c18753bfca7f2905
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929882"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52933162"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>Usar notificações de spam do usuário para liberar e relatar mensagens em quarentena
 
@@ -51,16 +51,11 @@ A notificação de Spam do Usuário Final não é suportada para grupos.
 Uma notificação de spam do usuário final contém as seguintes informações para cada mensagem em quarentena:
 
 - **Remetente**: o nome de envio e o endereço de email da mensagem em quarentena.
-
 - **Assunto**: O texto da linha de assunto da mensagem em quarentena.
-
 - **Data**: a data e a hora (em UTC) em que a mensagem foi colocada em quarentena.
-
 - **Bloquear Remetente**: clique neste link para adicionar o remetente à lista Remetentes Bloqueados em sua caixa de correio. Para obter mais informações, consulte [Bloquear um remetente](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4).
-
-- **Versão**: para mensagens de spam (não phishing), você pode liberar a mensagem aqui sem ir para Quarentena do portal Microsoft 365 Defender.
-
-- **Revisão**: clique neste link para ir para Quarentena no portal Microsoft 365 Defender, onde você pode (dependendo do motivo pelo qual a mensagem foi colocada em quarentena), liberar, excluir ou relatar suas mensagens em quarentena. Para obter mais informações, [consulte Find and release quarantined messages as a user in EOP](find-and-release-quarantined-messages-as-a-user.md).
+- **Versão**: para mensagens de spam (não phishing), você pode liberar a mensagem aqui sem ir para Quarentena **do** portal Microsoft 365 Defender.
+- **Revisão**: clique neste  link para ir para Quarentena no portal do Microsoft 365 Defender, onde você pode (dependendo do motivo pelo qual a mensagem foi colocada em quarentena), liberar, excluir ou relatar suas mensagens em quarentena. Para obter mais informações, [consulte Find and release quarantined messages as a user in EOP](find-and-release-quarantined-messages-as-a-user.md).
 
 ![Exemplo de notificação de spam do usuário final](../../media/end-user-spam-notification.png)
 

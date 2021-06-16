@@ -16,12 +16,12 @@ ms.collection:
 description: Os administradores podem aprender a configurar as permites e os bloqueios na Lista de Locatários de Permitir/Bloquear no portal de Segurança.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4228bb8abb70bbd96605a7d0f021a1a483e8715c
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 67c3badb86f1cfb9bf644cc202ed67e3163a6772
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929726"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52933150"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>Gerenciar a lista de Permissões/Bloqueios do Locatário
 
@@ -92,44 +92,36 @@ Este artigo descreve como configurar entradas na Lista de Locatários Permitir/B
 
 ## <a name="use-the-microsoft-365-defender-portal-to-create-block-url-entries-in-the-tenant-allowblock-list"></a>Use o portal Microsoft 365 Defender para criar entradas de URL de bloqueio na Lista de Locatários de Permitir/Bloquear
 
-1. No portal Microsoft 365 Defender, vá para **Políticas** & regras de locatários de políticas de ameaça listas de \>  \> **locatários.**
+1. No portal Microsoft 365 Defender, vá para Políticas & **Regras** de Políticas de Ameaças seção \>  \>  Locatário \> Listas de locatários. 
 
-2. Na página Lista de Locatários **Permitir/Bloquear,** verifique se a **guia URLs** está selecionada e clique em **Bloquear**
+2. Na página **Lista de Locatários Permitir/Bloquear,** verifique se a **guia URLs** está selecionada e clique em ![ Bloquear ícone ](../../media/m365-cc-sc-create-icon.png) **Bloquear**.
 
 3. No **sobrevoo Bloquear URLs** que aparece, configure as seguintes configurações:
-
-   - **Adicionar URLs para bloquear**: Insira uma URL por linha, até um máximo de 20. Para obter detalhes sobre a sintaxe para entradas de [URL,](#url-syntax-for-the-tenant-allowblock-list) consulte a sintaxe de URL para a seção Lista de Locatários/Bloqueios posteriormente neste artigo.
-
+   - **Adicionar URLs com caracteres curinga**: Insira uma URL por linha, até um máximo de 20. Para obter detalhes sobre a sintaxe para entradas de [URL,](#url-syntax-for-the-tenant-allowblock-list) consulte a sintaxe de URL para a seção Lista de Locatários/Bloqueios posteriormente neste artigo.
    - **Nunca expire**: Faça uma das seguintes etapas:
-
-     - Verifique se a configuração está desligada ( Alternar ) e use a caixa Expira na caixa para especificar a data de ![ ](../../media/scc-toggle-off.png) expiração para as entradas. 
+     - Verifique se a configuração está desligada ( Alternar ) e use a caixa Remover on para especificar a data de ![ ](../../media/scc-toggle-off.png) expiração para as entradas. 
 
        ou
 
      - Mova a alternância para a direita para configurar as entradas para nunca expirar: ![Ativar](../../media/scc-toggle-on.png).
-
    - **Observação opcional**: insira texto descritivo para as entradas.
 
 4. Quando terminar, clique em **Adicionar**.
 
 ## <a name="use-the-microsoft-365-defender-portal-to-create-block-file-entries-in-the-tenant-allowblock-list"></a>Use o Microsoft 365 do Defender para criar entradas de arquivo de bloqueio na Lista de Locatários Permitir/Bloquear
 
-1. No portal Microsoft 365 Defender, acesse Políticas & **políticas de ameaça** Listas de \>  \> **locatários de locatários.**
+1. No portal Microsoft 365 Defender, vá para Políticas & **Regras** de Políticas de Ameaças seção \>  \>  Locatário \> Listas de locatários. 
 
-2. Na página **Lista de Locatários Permitir/Bloquear,** selecione a guia **Arquivos** e clique em **Bloquear**.
+2. Na página **Lista de Locatários Permitir/Bloquear,** selecione a guia **Arquivos** e clique em Bloquear ![ ícone ](../../media/m365-cc-sc-create-icon.png) **Bloquear**.
 
-3. No menu **Adicionar arquivos para bloquear o** sobrevoo que aparece, configure as seguintes configurações:
-
+3. No **sobrevoo Bloquear arquivos** que aparece, configure as seguintes configurações:
    - **Adicionar hashes de arquivo**: insira um valor de hash SHA256 por linha, até um máximo de 20.
-
    - **Nunca expire**: Faça uma das seguintes etapas:
-
-     - Verifique se a configuração está desligada ( Alternar ) e use a caixa Expira na caixa para especificar a data de ![ ](../../media/scc-toggle-off.png) expiração para as entradas. 
+     - Verifique se a configuração está desligada ( Alternar ) e use a caixa Remover on para especificar a data de ![ ](../../media/scc-toggle-off.png) expiração para as entradas. 
 
      ou
 
      - Mova a alternância para a direita para configurar as entradas para nunca expirar: ![Ativar](../../media/scc-toggle-on.png).
-
    - **Observação opcional**: insira texto descritivo para as entradas.
 
 4. Quando terminar, clique em **Adicionar**.
@@ -142,42 +134,37 @@ Este artigo descreve como configurar entradas na Lista de Locatários Permitir/B
 - Quando você configura uma entrada de permitir ou bloquear para um par de domínios, as mensagens desse par de domínios não aparecem mais no insight de inteligência falsa.
 - As entradas para os envios com spoofed nunca expiram.
 
-1. No portal Microsoft 365 Defender, acesse Políticas & **políticas de ameaça** Listas de \>  \> **locatários de locatários.**
+1. No portal Microsoft 365 Defender, vá para Políticas & **Regras** de Políticas de Ameaças seção \>  \>  Locatário \> Listas de locatários. 
 
-2. Na página **Lista de Locatários Permitir/Bloquear,** selecione a guia **Spoofing** e clique em **Adicionar**.
+2. Na página **Lista de Locatários Permitir/Bloquear,** selecione a guia **Spoofing** e clique em ![ Bloquear ícone ](../../media/m365-cc-sc-create-icon.png) **Adicionar**.
 
 3. No **flyout Adicionar novos pares de** domínio que aparece, configure as seguintes configurações:
-
    - **Adicionar novos pares de domínio com caracteres curinga**: Insira um par de domínios por linha, até um máximo de 20. Para obter detalhes sobre a sintaxe para entradas de remetentes com spoofed, consulte a sintaxe de par de domínios para entradas de remetentes com [spoofed](#domain-pair-syntax-for-spoofed-sender-entries-in-the-tenant-allowblock-list) na seção Lista de Locatários Permitir/Bloquear mais adiante neste artigo.
-
    - **Tipo de spoof**: selecione um dos seguintes valores:
      - **Interno**: o remetente spoofed está em um domínio que pertence à sua organização [(um domínio aceito](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)).
      - **Externo**: o remetente spoofed está em um domínio externo.
-
    - **Ação**: Selecione **Permitir** ou **Bloquear**.
 
 4. Quando terminar, clique em **Adicionar**.
 
 ## <a name="use-the-microsoft-365-defender-portal-to-view-entries-in-the-tenant-allowblock-list"></a>Use o Microsoft 365 do Defender para exibir entradas na Lista de Locatários Permitir/Bloquear
 
-1. No portal Microsoft 365 Defender, acesse Políticas & **políticas de ameaça** Listas de \>  \> **locatários de locatários.**
+1. No portal Microsoft 365 Defender, vá para Políticas & **Regras** de Políticas de Ameaças seção \>  \>  Locatário \> Listas de locatários. 
 
 2. Selecione a guia que você deseja. As colunas disponíveis dependem da guia selecionada:
 
    - **URLs**:
      - **Valor**: A URL.
      - **Ação**: o valor **Bloquear**.
-     - **Data da última atualização**
-     - **Data de expiração**
-     - **Observação**
-
+     - **Última atualização**
+     - **Remover em**
+     - **Anotações**
    - **Files**
      - **Valor**: o hash do arquivo.
      - **Ação**: o valor **Bloquear**.
-     - **Data da última atualização**
-     - **Data de expiração**
-     - **Observação**
-
+     - **Última atualização**
+     - **Remover em**
+     - **Anotações**
    - **Spoofing**
      - **Usuário com spoofed**
      - **Enviando infraestrutura**
@@ -190,10 +177,9 @@ Este artigo descreve como configurar entradas na Lista de Locatários Permitir/B
 
    - **URLs**: Você pode agrupar os resultados por **Ação**.
    - **Arquivos**: Você pode agrupar os resultados por **Ação**.
-   - **Domínios de remetente para bypass BCL**: **O** grupo não está disponível nesta guia.
    - **Spoofing**: Você pode agrupar os resultados por **ação** ou tipo **Spoof**.
 
-   Clique **em Pesquisar**, insira todo ou parte de um valor e pressione ENTER para encontrar um valor específico. Quando terminar, clique em Limpar o **ícone de pesquisa** Limpar pesquisa ![ ](../../media/b6512677-5e7b-42b0-a8a3-3be1d7fa23ee.gif) .
+   Clique **em Pesquisar**, insira todo ou parte de um valor e pressione ENTER para encontrar um valor específico. Quando terminar, clique em Limpar ícone ![ de pesquisa Limpar ](../../media/m365-cc-sc-close-icon.png) **pesquisa**.
 
    Clique **em Filtrar** para filtrar os resultados. Os valores disponíveis no flyout **Filter** que aparece dependem da guia selecionada:
 
@@ -201,19 +187,12 @@ Este artigo descreve como configurar entradas na Lista de Locatários Permitir/B
      - **Action**
      - **Nunca expirar**
      - **Data da última atualização**
-     - **Data de expiração**
-
+     - **Remover em**
    - **Files**
      - **Action**
      - **Nunca expirar**
-     - **Data da última atualização**
-     - **Data de expiração**
-
-   - **Domínios de remetente para bypass BCL**
-     - **Nunca expirar**
-     - **Data da última atualização**
-     - **Data de expiração**
-
+     - **Última atualização**
+     - **Remover em**
    - **Spoofing**
      - **Action**
      - **Tipo de spoof**
@@ -222,43 +201,34 @@ Este artigo descreve como configurar entradas na Lista de Locatários Permitir/B
 
 ## <a name="use-the-microsoft-365-defender-portal-to-modify-entries-in-the-tenant-allowblock-list"></a>Use o Microsoft 365 do Defender para modificar entradas na Lista de Locatários de Permitir/Bloquear
 
-1. No portal Microsoft 365 Defender, acesse Políticas & **políticas de ameaça** Listas de \>  \> **locatários de locatários.**
+1. No portal Microsoft 365 Defender, vá para Políticas & **Regras** de Políticas de Ameaças seção \>  \>  Locatário \> Listas de locatários. 
 
 2. Selecione a guia que contém o tipo de entrada que você deseja modificar:
    - **URLs**
    - **Files**
-   - **Domínios de remetente para bypass BCL**
    - **Spoofing**
 
-3. Selecione a entrada que você deseja modificar e clique em **Editar** ![ ícone ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) editar. Os valores que você pode modificar no sobrevoo que aparece dependem da guia selecionada na etapa anterior:
-
+3. Selecione a entrada que você deseja modificar e clique em ![ Editar ícone ](../../media/m365-cc-sc-edit-icon.png) **Editar**. Os valores que você pode modificar no sobrevoo que aparece dependem da guia selecionada na etapa anterior:
    - **URLs**
      - **Nunca expira** e/ou data de expiração.
      - **Observação opcional**
-
    - **Files**
      - **Nunca expira** e/ou data de expiração.
      - **Observação opcional**
-
-   - **Domínios de remetente para bypass BCL**
-     - **Nunca expira** e/ou data de expiração.
-
    - **Spoofing**
      - **Ação**: você pode alterar o valor para **Permitir** ou **Bloquear**.
-
 4. Quando concluir, clique em **Salvar**.
 
 ## <a name="use-the-microsoft-365-defender-portal-to-remove-entries-from-the-tenant-allowblock-list"></a>Usar o portal Microsoft 365 Defender para remover entradas da lista De locatários de permitir/bloquear
 
-1. No portal Microsoft 365 Defender, acesse **Listas** de Locatários de Política de Gerenciamento de \>  \> **Ameaças/Listas de Bloqueio.**
+1. No portal Microsoft 365 Defender, vá para Políticas & **Regras** de Políticas de Ameaças seção \>  \>  Locatário \> Listas de locatários. 
 
 2. Selecione a guia que contém o tipo de entrada que você deseja remover:
    - **URLs**
    - **Files**
-   - **Domínios de remetente para bypass BCL**
    - **Spoofing**
 
-3. Selecione a entrada que você deseja remover e clique em **Excluir** ![ ícone ](../../media/87565fbb-5147-4f22-9ed7-1c18ce664392.png) .
+3. Selecione a entrada que você deseja remover e clique em ![ Excluir ícone ](../../media/m365-cc-sc-delete-icon.png) **Excluir**.
 
 4. Na caixa de diálogo de aviso exibida, clique em **Excluir**.
 
@@ -662,7 +632,7 @@ Aqui estão alguns exemplos de pares de domínio válidos para identificar os en
 - `chris@contoso.com, fabrikam.com`
 - `*, contoso.net`
 
-O número máximo de entradas de remetentes com spoofed é 1000. 
+O número máximo de entradas de remetentes com spoofed é 1000.
 
 Adicionar um par de domínios  só permite ou bloqueia a combinação do usuário e da *infraestrutura* de envio. Ele não permite emails do usuário com spoofed de qualquer origem, nem permite emails da fonte de infraestrutura de envio para qualquer usuário com spoofed. 
 

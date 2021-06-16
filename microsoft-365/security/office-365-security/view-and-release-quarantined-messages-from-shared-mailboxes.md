@@ -17,26 +17,25 @@ ROBOTS: NOINDEX
 description: Os usuários podem aprender a exibir e agir em mensagens em quarentena enviadas a caixas de correio compartilhadas às quais eles têm permissões.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4d6aed4a6e3bc725635558a5e8394b671d11f47c
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 4b958bb07660f4e0c93865300e190c713148a21d
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929846"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52933042"
 ---
 # <a name="view-and-release-quarantined-messages-from-shared-mailboxes"></a>Exibir e liberar mensagens em quarentena de caixas de correio compartilhadas
 
 > [!NOTE]
 > Os recursos descritos neste artigo estão atualmente em Visualização, não estão disponíveis para todos e estão sujeitos a alterações.
 
-Os usuários podem gerenciar mensagens em quarentena em que são um dos destinatários, conforme descrito em [Find and release quarantined messages as a user in EOP](find-and-release-quarantined-messages-as-a-user.md). Mas e as caixas de correio compartilhadas em que o usuário tem permissões de Acesso Total e Enviar como ou Enviar em Nome para a caixa de correio, conforme descrito em Caixas de correio compartilhadas em [Exchange Online?](/exchange/collaboration-exo/shared-mailboxes)
+Os usuários podem gerenciar mensagens em quarentena em que são um dos destinatários, conforme descrito em [Find and release quarantined messages as a user in EOP](find-and-release-quarantined-messages-as-a-user.md). Mas e as caixas de correio **compartilhadas** em que o usuário tem permissões de Acesso Total e Enviar como ou Enviar em Nome para a caixa de correio, conforme descrito em Caixas de correio compartilhadas em [Exchange Online?](/exchange/collaboration-exo/shared-mailboxes)
 
 Anteriormente, a capacidade dos usuários de gerenciar mensagens em quarentena enviadas a uma caixa de correio compartilhada exigia que os administradores deixassem a automação habilitada para a caixa de correio compartilhada (ela é habilitada por padrão quando um administrador dá acesso ao usuário a outra caixa de correio). No entanto, dependendo do tamanho e do número de caixas de correio às  que o usuário tem acesso, o desempenho pode sofrer à medida que o Outlook tenta abrir todas as caixas de correio às que o usuário tem acesso. Por esse motivo, muitos administradores optam por [remover o automapping para caixas de correio compartilhadas.](/outlook/troubleshoot/profiles-and-accounts/remove-automapping-for-shared-mailbox)
 
 Agora, a automação não é mais necessária para que os usuários gerenciem mensagens em quarentena enviadas para caixas de correio compartilhadas. Ele só funciona. Há dois métodos diferentes para acessar mensagens em quarentena enviadas a uma caixa de correio compartilhada:
 
 - Se o administrador habilitar notificações de spam do usuário final em políticas [anti-spam](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications), qualquer usuário que  tenha acesso às notificações de spam do usuário final na caixa de correio compartilhada poderá clicar no botão Revisar na notificação para ir para a quarentena no portal Microsoft 365 Defender. Observe que esse método só permite que os usuários gerenciem mensagens em quarentena enviadas para a caixa de correio compartilhada. Os usuários não podem gerenciar suas próprias mensagens de quarentena neste contexto.
-
 - O usuário pode [ir para a quarentena no portal Microsoft 365 Defender.](find-and-release-quarantined-messages-as-a-user.md) Por padrão, apenas as mensagens enviadas ao usuário são mostradas. No entanto, o usuário pode alterar os resultados de classificação (o botão **ID** da mensagem  por padrão) para o endereço de **email** do destinatário, inserir o endereço de email da caixa de correio compartilhada e clicar em Atualizar para ver as mensagens em quarentena que foram enviadas para a caixa de correio compartilhada. 
 
   ![Classificação de mensagens em quarentena por endereço de email do destinatário.](../../media/quarantine-sort-results-by-recipient-email-address.png)
