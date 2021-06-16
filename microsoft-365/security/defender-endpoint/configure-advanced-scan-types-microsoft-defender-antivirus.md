@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.date: 05/26/2021
 ms.topic: how-to
-ms.openlocfilehash: 34f423222068236271afdda13afb95cffa58b709
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 96e4dab96f8ceb149916c908991079bb2dfa866f
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683806"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964892"
 ---
 # <a name="configure-microsoft-defender-antivirus-scanning-options"></a>Configurar opções de verificação do Microsoft Defender Antivírus
 
@@ -31,14 +31,11 @@ ms.locfileid: "52683806"
 
 ## <a name="use-microsoft-intune-to-configure-scanning-options"></a>Usar Microsoft Intune para configurar opções de verificação
 
-Consulte os seguintes recursos: 
-
-- [Configurar configurações de restrição de dispositivos Microsoft Intune](/intune/device-restrictions-configure) 
-- [Microsoft Defender Antivírus configurações de restrição de dispositivo para Windows 10 no Intune](/intune/device-restrictions-windows-10#microsoft-defender-antivirus)
+Para obter mais informações, consulte [Configure device restriction settings in Microsoft Intune](/intune/device-restrictions-configure) and Microsoft Defender Antivírus device restriction [settings for Windows 10 in Intune](/intune/device-restrictions-windows-10#microsoft-defender-antivirus). 
 
 ## <a name="use-microsoft-endpoint-manager-to-configure-scanning-options"></a>Usar Microsoft Endpoint Manager para configurar opções de verificação
 
-Consulte [Como criar e implantar políticas antimalware: Verificar configurações](/configmgr/protect/deploy-use/endpoint-antimalware-policies#scan-settings).
+Para obter detalhes sobre como configurar Microsoft Endpoint Manager (branch atual), consulte Como criar e implantar políticas [antimalware: Verificar configurações](/configmgr/protect/deploy-use/endpoint-antimalware-policies#scan-settings).
 
 ## <a name="use-group-policy-to-configure-scanning-options"></a>Usar a Política de Grupo para configurar opções de verificação
 
@@ -49,6 +46,7 @@ Consulte [Como criar e implantar políticas antimalware: Verificar configuraçõ
 3. No Editor **de Gerenciamento de Política de Grupo,** acesse **Configuração do** computador e clique em Modelos **administrativos.**
 
 4. Expanda a árvore para **Windows componentes** Microsoft Defender Antivírus e selecione um local (consulte Configurações  >   [e locais](#settings-and-locations) neste artigo).
+
 
 5. Edite o objeto policy. 
 
@@ -69,13 +67,15 @@ Consulte [Como criar e implantar políticas antimalware: Verificar configuraçõ
 | Especifique a carga máxima da CPU (como porcentagem) durante uma verificação. <p> **Verificação**  >  **Especifique o percentual máximo de utilização da CPU durante uma verificação** | 50 |  `-ScanAvgCPULoadFactor` <p>**OBSERVAÇÃO**: a carga máxima da CPU não é um limite rígido, mas é orientação para que o mecanismo de verificação não exceda o máximo em média. As verificações de executar manualmente ignorarão essa configuração e serão executados sem limites de CPU. |
 | Especifique o tamanho máximo (em quilobytes) dos arquivos de arquivo morto que devem ser verificados. <p> **Verificação**  >  **Especificar o tamanho máximo de arquivos arquivados a serem verificados** | Sem limite | Não disponível <p>O valor padrão de 0 não aplica limite |
 | Configurar baixa prioridade de CPU para verificações agendadas <p> **Verificação**  >  **Configurar baixa prioridade de CPU para verificações agendadas** | Desabilitado | Não disponível |
+
  
 > [!NOTE]
 > Se a proteção em tempo real estiver acessível, os arquivos serão verificados antes que sejam acessados e executados. O escopo de verificação inclui todos os arquivos, incluindo arquivos em mídia removível montada, como unidades USB. Se o dispositivo que executa a verificação tiver proteção em tempo real ou proteção no acesso, a verificação também incluirá compartilhamentos de rede.
 
 ## <a name="use-powershell-to-configure-scanning-options"></a>Usar o PowerShell para configurar opções de verificação
 
-Consulte os seguintes recursos:
+
+Para obter mais informações sobre como usar o PowerShell com Microsoft Defender Antivírus, consulte
 
 - [Gerenciar Microsoft Defender Antivírus com cmdlets do PowerShell](use-powershell-cmdlets-microsoft-defender-antivirus.md)
 - [Cmdlets defender](/powershell/module/defender/)
@@ -99,7 +99,13 @@ Se Microsoft Defender Antivírus detectar uma ameaça dentro de uma mensagem de 
 - Assunto do email
 - Nome do anexo
 
+
+## <a name="scanning-mapped-network-drives"></a>Verificação de unidades de rede mapeadas
+
+Em qualquer sistema operacional, apenas as unidades de rede mapeadas no nível do sistema são verificados. As unidades de rede mapeadas no nível do usuário não são verificados. As unidades de rede mapeadas no nível do usuário são aquelas mapeadas manualmente em suas sessões e usando suas próprias credenciais.
+
 ## <a name="see-also"></a>Confira também
+
 
 - [Personalizar, iniciar e revisar os resultados de Microsoft Defender Antivírus e correção](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
 - [Configurar e executar verificações do Microsoft Defender Antivírus sob demanda](run-scan-microsoft-defender-antivirus.md)

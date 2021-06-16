@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fb10e65258f6264b21851f8325b97b1bad19bf16
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 7841197594941354b21bd2104cd27ef37a1a25c9
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925642"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964591"
 ---
 # <a name="prepare-microsoft-defender-for-endpoint-deployment"></a>Preparar o Microsoft Defender para implantação do Ponto de Extremidade
 
@@ -85,7 +85,7 @@ Esta seção é usada para garantir que seu ambiente seja profundamente compreen
 
 ## <a name="role-based-access-control"></a>Controle de acesso baseado em função
 
-A Microsoft recomenda usar o conceito de privilégios mínimos. O Defender para Ponto de Extremidade aproveita funções in-lo como Azure Active Directory. A Microsoft recomenda [revisar as diferentes funções](/azure/active-directory/active-directory-assign-admin-roles-azure-portal) disponíveis e escolher a correta para resolver suas necessidades para cada persona para este aplicativo. Algumas funções podem precisar ser aplicadas temporariamente e removidas após a conclusão da implantação.
+A Microsoft recomenda usar o conceito de privilégios mínimos. O Defender para Ponto de Extremidade aproveita funções in-lo Active Directory do Azure. A Microsoft recomenda [revisar as diferentes funções](/azure/active-directory/active-directory-assign-admin-roles-azure-portal) disponíveis e escolher a correta para resolver suas necessidades para cada persona para este aplicativo. Algumas funções podem precisar ser aplicadas temporariamente e removidas após a conclusão da implantação.
 
 | Personas                     | Funções | Função do Azure AD (se necessário) | Atribuir a |
 |------------------------------|-------|-----------------------------|-----------|
@@ -99,13 +99,13 @@ A Microsoft recomenda o uso [Privileged Identity Management](/azure/active-direc
 
 O Defender para Ponto de Extremidade oferece suporte a duas maneiras de gerenciar permissões:
 
--   **Gerenciamento de permissões básicas**: definir permissões para acesso total ou somente leitura. No caso de permissões básicas, os usuários de gerenciamento com a função administrador global ou administrador de segurança Azure Active Directory têm acesso total enquanto a função de leitor de segurança tem acesso somente leitura.
+-   **Gerenciamento de permissões básicas**: definir permissões para acesso total ou somente leitura. No caso de usuários de gerenciamento de permissões básicas com a função administrador global ou administrador de segurança Active Directory do Azure têm acesso total enquanto a função de leitor de segurança tem acesso somente leitura.
 
 -   Controle de acesso baseado em função **(RBAC)**: definir permissões granulares definindo funções, atribuindo grupos de usuários do Azure AD às funções e concedendo aos grupos de usuários acesso a grupos de dispositivos. Para obter mais informações. consulte [Gerenciar o acesso ao portal usando o controle de acesso baseado em função](rbac.md).
 
 A Microsoft recomenda aproveitar o RBAC para garantir que somente os usuários que têm uma justificativa comercial possam acessar o Defender para o Ponto de Extremidade.
 
-Você pode encontrar detalhes sobre diretrizes de permissão aqui: Criar funções e [atribuir a função a](/microsoft-365/security/defender-endpoint/user-roles#create-roles-and-assign-the-role-to-an-azure-active-directory-group)um Azure Active Directory grupo .
+Você pode encontrar detalhes sobre diretrizes de permissão aqui: Criar funções e [atribuir a função a um Active Directory do Azure grupo](/microsoft-365/security/defender-endpoint/user-roles#create-roles-and-assign-the-role-to-an-azure-active-directory-group).
 
 A tabela de exemplo a seguir serve para identificar a estrutura do Centro de Operações de Defesa Cibernética em seu ambiente que o ajudará a determinar a estrutura do RBAC necessária para seu ambiente.
 
@@ -135,6 +135,7 @@ Escolha o componente do Defender para o Ponto de Extremidade a ser usado e remov
 
 ## <a name="next-step"></a>Próxima etapa
 
-|||
-|:-------|:-----|
-|![Fase 2: Configurar](images/setup.png) <br>[Fase 2: Configurar](production-deployment.md) | Configurar o Microsoft Defender para implantação do Ponto de Extremidade |
+
+![Fase 2: Configurar](images/setup.png) <br>[Fase 2: Configurar](production-deployment.md) 
+ 
+Configurar o Microsoft Defender para implantação do Ponto de Extremidade 

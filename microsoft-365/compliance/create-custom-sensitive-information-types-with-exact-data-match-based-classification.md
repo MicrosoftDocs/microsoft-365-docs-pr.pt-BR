@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Criar tipos personalizados de informações confidenciais com classificação baseada em Correspondência Exata de Dados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6839401bc1dd00acc45992f902a6360eb7f20120
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 05d5889ba690bdf61fd51044b3c059f1476342af
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878191"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964651"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match
 
@@ -612,7 +612,7 @@ Estes locais são compatíveis com os tipos de informações confidenciais do ED
 - Microsoft Teams (conversas)
 - DLP para SharePoint (arquivos)
 - Políticas DLP de Segurança de Aplicativos do Microsoft Cloud
-- Políticas de rotulagem automática do lado do servidor - disponíveis para clientes de nuvem comercial <!--, UNCOMMENT THIS ON 6/15 and government cloud customers-->
+- Políticas de rotulagem automática do lado do servidor - disponíveis para clientes de nuvem comercial e clientes de nuvem governamental
 
 #### <a name="to-create-a-dlp-policy-with-edm"></a>Criação de uma política DLP com o EDM
 

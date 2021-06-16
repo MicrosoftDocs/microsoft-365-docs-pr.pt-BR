@@ -14,16 +14,16 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Visão geral dos Tópicos do Viva.
-ms.openlocfilehash: 89f35062009372c2a44dddcb4e4d2934e494282f
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: 60c276e8850ed1b824810131a13bed19424a87fa
+ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908312"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52950018"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Visão geral dos Tópicos do Microsoft Viva 
 
-Os Tópicos do Viva usam tecnologia de AI da Microsoft, Microsoft 365, Microsoft Graph, Pesquisa e outros componentes e serviços para trazer conhecimento aos usuários nos aplicativos do Microsoft 365 que eles usam diariamente SharePoint, começando com páginas modernas, Pesquisa da Microsoft e Pesquisa no Word, PowerPoint, Outlook e Excel.
+O Viva Topics usa a tecnologia microsoft AI, Microsoft 365, Microsoft Graph, Pesquisa e outros componentes e serviços para levar conhecimento aos usuários nos aplicativos do Microsoft 365 que eles usam diariamente SharePoint, começando com páginas modernas, Pesquisa da Microsoft e Pesquisar no Word, PowerPoint, Outlook e Excel.
 
 <br/>
 
@@ -103,7 +103,7 @@ Ao usar os Tópicos do Viva no seu ambiente do Microsoft 365, os usuários terã
 
 - Gerentes de conhecimento: usuários que orientam tópicos no ciclo de vida do tópico. Os gerentes de conhecimento usam a página Gerenciar **tópicos** no centro de tópicos para confirmar os tópicos sugeridos pela IA, remover tópicos que não são mais relevantes, bem como editar tópicos existentes ou criar novos e são os únicos usuários que têm acesso a ele. Os administradores de conhecimento atribuem permissões de gerente de conhecimento aos usuários por meio das configurações de administração dos Tópicos do Viva, no Centro de administração do Microsoft 365. 
 
-- Administradores de conhecimento: os administradores configuram Tópicos do Viva e gerenciam-os por meio dos controles de administrador no Microsoft 365 de administração. Atualmente, um administrador global do Microsoft 365 ou do SharePoint pode servir como administrador de conhecimento.
+- Administradores de conhecimento: os administradores configuram Tópicos do Viva e gerenciam-os por meio dos controles de administrador no Centro de administração do Microsoft 365. Atualmente, um administrador global do Microsoft 365 ou do SharePoint pode servir como administrador de conhecimento.
 
 Para obter mais informações, consulte [Funções de Tópicos do Viva.](topic-experiences-roles.md)
 
@@ -123,7 +123,7 @@ Para obter mais informações, [consulte Gerenciar tópicos no centro de tópico
 
 ## <a name="admin-controls"></a>Controles de administrador
 
-Os controles de administrador no Microsoft 365 de administração permitem que você gerencie Tópicos do Viva. Eles permitem que um administrador global do Microsoft 365 ou do SharePoint:
+Os controles de administrador no Centro de administração do Microsoft 365 permitem que você gerencie Tópicos do Viva. Eles permitem que um administrador global do Microsoft 365 ou do SharePoint:
 
 - Controle quais usuários em sua organização têm permissão para ver tópicos nas páginas modernas do SharePoint ou nos resultados de pesquisa do SharePoint.
 - Controle quais sites do SharePoint serão rastreados para identificar tópicos.
@@ -142,10 +142,8 @@ Os usuários com permissões para editar ou criar tópicos podem fazer atualiza�
 
 Os usuários aos quais você permitir o acesso aos tópicos no trabalho diário podem ser indagados se o tópico foi útil para eles. O sistema analisa essas respostas e as usa para melhorar o destaque do tópico e ajudar a determinar o que é mostrado nos resumos de tópicos e detalhes do tópico.
 
-Além disso, os usuários com permissões adequadas podem marcar itens como uma conversa do Yammer relevante para um tópico e adicioná-los a um tópico específico. 
-
 Para obter mais informações, consulte [Descoberta e cura de tópicos.](./topic-experiences-discovery-curation.md)
 
 ## <a name="see-also"></a>Confira também
 
-[Usar a Pesquisa da Microsoft para encontrar tópicos em Tópicos do Viva](./search.md)
+[Use Pesquisa da Microsoft para encontrar tópicos em Tópicos do Viva](./search.md)

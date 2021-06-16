@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a4714ad9a4388654cbf865ed54afe260a67d724f
-ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
+ms.openlocfilehash: dc5710a73685c67eff17c0f281bd14e48707e60f
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51957498"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964783"
 ---
 # <a name="microsoft-defender-for-endpoint-for-non-windows-platforms"></a>Microsoft Defender para Ponto de Extremidade para plataformas que não são Windows
 
@@ -47,11 +47,26 @@ O Microsoft Defender para Ponto de Extremidade no macOS oferece recursos antiví
 
 Para obter mais detalhes sobre como começar, visite o Defender for Endpoint na documentação do [macOS](microsoft-defender-endpoint-mac.md).
 
+>[!NOTE]
+>No momento, os seguintes recursos não são suportados nos pontos de extremidade do macOS:
+>- Prevenção contra perda de dados
+>- Resposta ao vivo
+>- SIEM
+
+
 ## <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender para Ponto de Extremidade para Linux
 
 O Microsoft Defender para Ponto de Extremidade no Linux oferece recursos preventivos (AV) para servidores Linux. Isso inclui uma experiência de linha de comando completa para configurar e gerenciar o agente, iniciar verificações e gerenciar ameaças. Suportamos versões recentes das seis distribuições mais comuns do Linux Server: RHEL 7.2+, CentOS Linux 7.2+, Ubuntu 16 LTS ou LTS superior, SLES 12+, Debian 9+, e Oracle Linux 7.2. O Microsoft Defender para Ponto de Extremidade no Linux pode ser implantado e configurado usando o Puppet, Ansible ou usando a ferramenta de gerenciamento de configuração do Linux existente. Para obter informações sobre os principais recursos e benefícios, leia nossos [comunicados](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/Linux).
 
 Para obter mais detalhes sobre como começar, visite o Microsoft Defender for Endpoint na [documentação](microsoft-defender-endpoint-linux.md)do Linux.
+
+>[!NOTE]
+>No momento, os seguintes recursos não são suportados em pontos de extremidade do Linux:
+>- Prevenção contra perda de dados
+>- Resposta ao vivo
+>- SIEM
+
+
 
 ## <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender para Ponto de Extremidade para Android
 
@@ -69,7 +84,7 @@ Para obter mais detalhes sobre como começar, visite o Microsoft Defender for En
 
 Usuários licenciados qualificados podem usar o Microsoft Defender para Ponto de Extremidade em até cinco dispositivos simultâneos. O Microsoft Defender para Ponto de Extremidade também está disponível para compra de um Provedor de Soluções na Nuvem (CSP).
 
-Os clientes podem obter o Microsoft Defender para Ponto de Extremidade no macOS por meio de uma licença autônoma do Microsoft Defender para Ponto de Extremidade, como parte do Microsoft 365 A5/E5 ou Microsoft 365 Security.
+Os clientes podem obter o Microsoft Defender para Ponto de Extremidade no macOS por meio de uma licença autônoma do Microsoft Defender para Ponto de Extremidade, como parte do Microsoft 365 A5/E5 ou Microsoft 365 Segurança.
 
 Os recursos anunciados recentemente do Microsoft Defender para Ponto de Extremidade no Android e iOS estão incluídos nas ofertas acima mencionadas como parte dos cinco dispositivos qualificados para usuários licenciados qualificados.
 

@@ -15,21 +15,17 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.date: 05/17/2021
-ms.openlocfilehash: d10343538c995534878196cc57092c37fd2dcf7b
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.date: 06/15/2021
+ms.openlocfilehash: f9ca83fcfba4b79898a0fed527e38947a4c230d6
+ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538058"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52950126"
 ---
 # <a name="common-mistakes-to-avoid-when-defining-exclusions"></a>Erros comuns a evitar ao definir exclusões
 
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
-Você pode definir uma lista de exclusão para itens que não deseja Microsoft Defender Antivírus examinar. Esses itens excluídos podem conter ameaças que torna seu dispositivo vulnerável. 
-
-Este artigo descreve alguns erros comuns que você deve evitar ao definir exclusões. 
+Você pode definir uma lista de exclusão para itens que não deseja Microsoft Defender Antivírus examinar. Esses itens excluídos podem conter ameaças que torna seu dispositivo vulnerável. Este artigo descreve alguns erros comuns que você deve evitar ao definir exclusões. 
 
 Antes de definir suas listas de exclusão, [consulte Recomendações para definir exclusões](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions).
 
@@ -231,7 +227,9 @@ Em geral, não defina exclusões para os seguintes processos:
 
 `dbgsvc.exe`  
 
-`dnx.exe`  
+`dnx.exe`
+
+`dotnet.exe`
 
 `fsi.exe`  
 
@@ -272,9 +270,3 @@ Microsoft Defender Antivírus O serviço é executado no contexto do sistema usa
 
 Consulte [Usar curingas no nome](configure-extension-file-exclusions-microsoft-defender-antivirus.md#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists) do arquivo e no caminho da pasta ou listas de exclusão de extensão para obter informações sobre como usar curingas em listas de exclusão.
 
-## <a name="related-articles"></a>Artigos relacionados
-
-- [Configurar e validar exclusões em Microsoft Defender Antivírus verificações](configure-exclusions-microsoft-defender-antivirus.md)
-- [Configurar e validar exclusões com base na extensão de arquivo e no local da pasta](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
-- [Configurar e validar exclusões para arquivos abertos por processos](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
-- [Configurar Microsoft Defender Antivírus exclusões no Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)

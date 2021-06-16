@@ -19,17 +19,17 @@ ms.custom:
 search.appverid: MET150
 description: Se você tiver menos de 25 licenças de usuário, poderá cancelar sua avaliação do Microsoft 365 Business ou uma assinatura paga online no Centro de Administração.
 ms.date: 04/08/2021
-ms.openlocfilehash: 5c4ce1c00bfde4a895710d737fab0836998836c6
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 18e7ca5cec91e1614808f2087ce0394f33a45c7a
+ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929450"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52950078"
 ---
 # <a name="cancel-your-subscription"></a>Cancelar sua assinatura
 
 > [!IMPORTANT]
-> Esse artigo se aplica apenas as assinaturas do Microsoft 365 para empresas. Se você tiver o Microsoft 365 Family ou Personal, confira [Cancelar uma assinatura do Microsoft 365](https://support.microsoft.com/pt-BR/office/cancel-a-microsoft-365-subscription-46e2634c-c64b-4c65-94b9-2cc9c960e91b).
+> Esse artigo se aplica apenas as assinaturas do Microsoft 365 para empresas. Se você tiver o Microsoft 365 Family ou Personal, confira [Cancelar uma assinatura do Microsoft 365](https://support.microsoft.com/en-us/office/cancel-a-microsoft-365-subscription-46e2634c-c64b-4c65-94b9-2cc9c960e91b?OCID=M365_DocsCancel_Link).
 
 *Qualificação:* Se você tiver menos de 25 licenças atribuídas aos usuários, poderá cancelar sua avaliação do Microsoft 365 Business ou uma assinatura paga online no Centro de Administração do Microsoft 365 a qualquer momento. Se você tiver mais de 25 licenças atribuídas aos usuários, reduza-a para menos de 25 ou [ligue para o suporte para cancelar sua assinatura](../../business-video/get-help-support.md).
 

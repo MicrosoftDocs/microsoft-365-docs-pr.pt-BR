@@ -17,12 +17,12 @@ ms.custom:
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Proteção do Exchange Online (EOP) e no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 205fd5cd40d187eada4f6b87edf64c0d35f7e3b3
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 0a0c7e9ffa37c5154b8a10b9642d484011674d6a
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788410"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964880"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
@@ -209,10 +209,14 @@ As seguintes configurações de representação só estão disponíveis em polí
   - **Dica para** caracteres incomuns : O endereço From contém conjuntos de caracteres incomuns (por exemplo, símbolos matemáticos e texto ou uma mistura de letras maiúsculas e minúsculas) em um remetente ou domínio protegido.
 
   > [!IMPORTANT]
+  > Mesmo que as dicas de segurança  de representação sejam desligadas, recomendamos que você use uma regra de fluxo de emails (também conhecida como regra de transporte) para adicionar um seguinte header de mensagem às mensagens:
   >
-  > Mesmo quando as dicas de segurança de representação estão desligadas, recomendamos que você use uma regra de fluxo de emails (também conhecida como regra de transporte) para adicionar um header de mensagem chamado **X-MS-Exchange-EnableFirstContactSafetyTip** com valor habilitado para mensagens.   Um dica de segurança notificará os destinatários na primeira vez que receberem uma mensagem do remetente ou se não receberem mensagens do remetente. Esse recurso adiciona uma camada extra de proteção de segurança contra possíveis ataques de representação.
+  > - Nome do header: **X-MS-Exchange-EnableFirstContactSafetyTip**
+  > - Valor do header: **Enable**
   >
-  > :::image type="content" source="../../media/safety-tip-first-contact-multiple-recipients.png" alt-text="O texto do dica de segurança para proteção de representação com vários destinatários.":::
+  > Um dica de segurança notificará os destinatários na primeira vez que receberem uma mensagem do remetente ou se não receberem mensagens do remetente. Esse recurso adiciona uma camada extra de proteção de segurança contra possíveis ataques de representação.
+  >
+  > ![O texto do dica de segurança para proteção de representação com vários destinatários.](../../media/safety-tip-first-contact-multiple-recipients.png)
 
 - **Inteligência de caixa** de correio : Habilita ou desabilita a inteligência artificial (AI) que determina padrões de email do usuário com seus contatos frequentes. Essa configuração ajuda a AI a distinguir entre mensagens de senders legítimos e personificados.
 

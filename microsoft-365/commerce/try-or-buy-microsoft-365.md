@@ -16,19 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_purchase
-search.appverid: MET150
-description: Inscreva-se para uma avaliação gratuita de 30 dias para Microsoft 365 Business Standard, Microsoft 365 Business Premium ou Microsoft 365 Apps para Pequenos e Médios negócios.
+search.appverid: GEA150
+description: Inscreva-se para uma avaliação gratuita de 30 dias para Microsoft 365 Business Standard, Microsoft 365 Business Premium ou Aplicativos do Microsoft 365 para negócios.
 ms.date: 08/07/2020
-ms.openlocfilehash: 20ceb683c6224e572a1c532330d45fa8fa5c8416
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: c53f9eb64463eeb7c647bc63123aaac02598fd4c
+ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583443"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52950042"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>Experimente ou compre uma assinatura Microsoft 365 para empresas
 
-Microsoft 365 para empresas é um serviço de assinatura que permite que você execute sua organização na nuvem enquanto a Microsoft cuida da TI para você. A Microsoft gerencia dispositivos, protege contra ameaças do mundo real e fornece à sua organização o software de negócios mais recente. Você pode se inscrever para uma assinatura de avaliação gratuita para Microsoft 365 Business Standard, Microsoft 365 Business Premium ou Microsoft 365 Apps para Pequenos e Médios negócios e experimentar por 30 dias.
+Microsoft 365 para empresas é um serviço de assinatura que permite que você execute sua organização na nuvem enquanto a Microsoft cuida da TI para você. A Microsoft gerencia dispositivos, protege contra ameaças do mundo real e fornece à sua organização o software de negócios mais recente. Você pode se inscrever para uma assinatura de avaliação gratuita para Microsoft 365 Business Standard, Microsoft 365 Business Premium ou Aplicativos do Microsoft 365 para negócios e experimentar por 30 dias.
 
 > [!NOTE]
 > Você deve usar um cartão de crédito ao se inscrever para uma avaliação gratuita. No final do período de avaliação gratuita, sua assinatura de avaliação é convertida automaticamente em uma assinatura paga. Seu cartão de crédito não é cobrado até o final do período de avaliação.
@@ -49,20 +49,20 @@ Você não precisa de uma conta da Microsoft existente para se inscrever em uma 
 
 ## <a name="try-a-free-trial-subscription"></a>Experimente uma assinatura de avaliação gratuita
 
-Você é um novo cliente e ainda não tem uma conta com a Microsoft? Use estas etapas para criar uma conta e inscrever-se para uma assinatura de avaliação gratuita de Microsoft 365 Business Standard, Microsoft 365 Business Premium ou Microsoft 365 Apps para Pequenos e Médios negócios.
+Você é um novo cliente e ainda não tem uma conta com a Microsoft? Use estas etapas para criar uma conta e inscrever-se para uma assinatura de avaliação gratuita de Microsoft 365 Business Standard, Microsoft 365 Business Premium ou Aplicativos do Microsoft 365 para negócios.
 
 1. Vá para o <a href="https://www.aka.ms/office365signup" target="_blank">site Microsoft 365 Produtos.</a>
 2. Selecione o plano em que você deseja se inscrever, como **Microsoft 365 Business Standard,** role a página para baixo e selecione **Experimentar gratuitamente por 1 mês**.
 3. Na próxima página, siga as etapas para configurar sua conta.
 4. O processo de assinatura pode levar alguns minutos para ser concluído. Depois que \' ele for concluído, você estará pronto para iniciar o assistente de instalação para sua assinatura. Para obter mais informações sobre como configurar sua assinatura, consulte [Próximas etapas](#next-steps).
 
-## <a name="buy-a-subscription-from-your-free-trial"></a>Comprar uma assinatura da sua avaliação gratuita
+## <a name="buy-a-subscription-from-your-free-trial"></a>Comprar uma assinatura a partir da sua avaliação gratuita
 
 No final do período de avaliação gratuito, sua assinatura de avaliação se converte automaticamente em uma assinatura paga. A assinatura paga padrão do plano que você tem no momento. Você pode comprar um plano diferente seguindo as etapas em [Comprar uma assinatura diferente.](#buy-a-different-subscription)
 
 Se você quiser comprar sua assinatura antes de sua avaliação acabar, use estas etapas:
 
-1. No centro Microsoft 365 de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">seus</a> produtos.
+1. No Centro de administração do Microsoft 365, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">seus</a> produtos.
 2. Na página **Seus produtos,** encontre a assinatura que você deseja comprar.
 3. Na seção **Licenças,** selecione **Comprar assinatura**.
 4. Escolha um compromisso mensal ou anual para sua assinatura e selecione **Checkout**.
@@ -83,13 +83,13 @@ Quando estiver pronto para comprar, consulte [Comprar sua versão de avaliação
 
 ## <a name="cancel-your-free-trial-subscription"></a>Cancelar sua assinatura de avaliação gratuita
 
-Se você decidir cancelar sua assinatura de avaliação antes do final do período de avaliação gratuito, vá para o centro de administração Microsoft 365 e desativar a [cobrança recorrente](subscriptions/renew-your-subscription.md#turn-recurring-billing-off-or-on). A avaliação expirará automaticamente quando o mês terminar, e seu cartão de crédito \' não será cobrado.
+Se você decidir cancelar sua assinatura de avaliação antes do final do período de avaliação gratuito, vá para o Centro de administração do Microsoft 365 e desativar a [cobrança recorrente](subscriptions/renew-your-subscription.md#turn-recurring-billing-off-or-on). A avaliação expirará automaticamente quando o mês terminar, e seu cartão de crédito \' não será cobrado.
 
 ## <a name="try-a-different-subscription"></a>Experimente uma assinatura diferente
 
-Se você já tiver uma assinatura Microsoft 365 para empresas, poderá usar o Microsoft 365 de administração para tentar uma assinatura diferente.
+Se você já tiver uma assinatura Microsoft 365 para empresas, poderá usar o Centro de administração do Microsoft 365 para tentar uma assinatura diferente.
 
-Quando você adiciona uma assinatura por meio do Microsoft 365 de administração, a nova assinatura é associada à mesma organização (namespace de domínio) que sua assinatura existente. Essa associação facilita a movimentação de usuários em sua organização entre assinaturas ou a atribuição de uma licença para os produtos adicionais de que precisam.
+Quando você adiciona uma assinatura por meio do Centro de administração do Microsoft 365, a nova assinatura é associada à mesma organização (namespace de domínio) que sua assinatura existente. Essa associação facilita a movimentação de usuários em sua organização entre assinaturas ou a atribuição de uma licença para os produtos adicionais de que precisam.
 
 1. No centro de administração, vá para a página **Serviços de** Compra \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">de</a> Cobrança.
 2. Na página **Serviços de** Compra, você vê os planos que estão disponíveis para sua organização. Escolha o Microsoft 365 plano que você deseja experimentar.
@@ -101,7 +101,7 @@ Quando você adiciona uma assinatura por meio do Microsoft 365 de administraçã
 
 ## <a name="buy-a-different-subscription"></a>Comprar uma assinatura diferente
 
-Se você já tiver uma assinatura Microsoft 365 para empresas, poderá passar pelo centro de administração Microsoft 365 para comprar uma assinatura diferente para sua organização.
+Se você já tiver uma assinatura Microsoft 365 para empresas, poderá passar pelo Centro de administração do Microsoft 365 para comprar uma assinatura diferente para sua organização.
 
 Quando você compra outra assinatura por meio do centro de administração, a nova assinatura é associada à mesma organização (espaço de nome de domínio) que sua assinatura existente. Isso facilita a movimentação de usuários em sua organização entre assinaturas ou a atribuição de uma licença para a assinatura adicional de que precisam.
 
