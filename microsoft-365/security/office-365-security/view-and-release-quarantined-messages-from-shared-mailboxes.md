@@ -17,12 +17,12 @@ ROBOTS: NOINDEX
 description: Os usuários podem aprender a exibir e agir em mensagens em quarentena enviadas a caixas de correio compartilhadas às quais eles têm permissões.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cb915ad6ad6e6130d8704339559f4c370cef3a20
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 4d6aed4a6e3bc725635558a5e8394b671d11f47c
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599506"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929846"
 ---
 # <a name="view-and-release-quarantined-messages-from-shared-mailboxes"></a>Exibir e liberar mensagens em quarentena de caixas de correio compartilhadas
 
@@ -35,9 +35,9 @@ Anteriormente, a capacidade dos usuários de gerenciar mensagens em quarentena e
 
 Agora, a automação não é mais necessária para que os usuários gerenciem mensagens em quarentena enviadas para caixas de correio compartilhadas. Ele só funciona. Há dois métodos diferentes para acessar mensagens em quarentena enviadas a uma caixa de correio compartilhada:
 
-- Se o administrador habilitar notificações de spam do usuário final em políticas [anti-spam](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications), qualquer usuário que  tenha acesso às notificações de & spam do usuário final na caixa de correio compartilhada poderá clicar no botão Revisar na notificação para ir para a quarentena no Centro de Conformidade e Segurança. Observe que esse método só permite que os usuários gerenciem mensagens em quarentena enviadas para a caixa de correio compartilhada. Os usuários não podem gerenciar suas próprias mensagens de quarentena neste contexto.
+- Se o administrador habilitar notificações de spam do usuário final em políticas [anti-spam](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications), qualquer usuário que  tenha acesso às notificações de spam do usuário final na caixa de correio compartilhada poderá clicar no botão Revisar na notificação para ir para a quarentena no portal Microsoft 365 Defender. Observe que esse método só permite que os usuários gerenciem mensagens em quarentena enviadas para a caixa de correio compartilhada. Os usuários não podem gerenciar suas próprias mensagens de quarentena neste contexto.
 
-- O usuário pode [ir para a quarentena no Centro de Conformidade & Segurança.](find-and-release-quarantined-messages-as-a-user.md) Por padrão, apenas as mensagens enviadas ao usuário são mostradas. No entanto, o usuário pode alterar os resultados de classificação (o botão **ID** da mensagem  por padrão) para o endereço de **email** do destinatário, inserir o endereço de email da caixa de correio compartilhada e clicar em Atualizar para ver as mensagens em quarentena que foram enviadas para a caixa de correio compartilhada. 
+- O usuário pode [ir para a quarentena no portal Microsoft 365 Defender.](find-and-release-quarantined-messages-as-a-user.md) Por padrão, apenas as mensagens enviadas ao usuário são mostradas. No entanto, o usuário pode alterar os resultados de classificação (o botão **ID** da mensagem  por padrão) para o endereço de **email** do destinatário, inserir o endereço de email da caixa de correio compartilhada e clicar em Atualizar para ver as mensagens em quarentena que foram enviadas para a caixa de correio compartilhada. 
 
   ![Classificação de mensagens em quarentena por endereço de email do destinatário.](../../media/quarantine-sort-results-by-recipient-email-address.png)
 

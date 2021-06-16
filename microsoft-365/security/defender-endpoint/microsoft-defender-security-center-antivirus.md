@@ -7,20 +7,20 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: Normal
+localization_priority: normal
+ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.topic: article
-ms.openlocfilehash: ccb0d4cf168bbb4d3c1575c1e6611829909d0817
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 48ab72e9700e45cd4eab520a43d6f3d9ef18e227
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275403"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926518"
 ---
 # <a name="microsoft-defender-antivirus-in-the-windows-security-app"></a>Microsoft Defender Antivírus no aplicativo Segurança do Windows aplicativo
 
@@ -109,8 +109,8 @@ A tabela a seguir resume os tipos de exclusão e o que acontece:
 
 |Tipo de exclusão  |Definido por  |O que acontece  |
 |---------|---------|---------|
-|**Arquivo** |Localização <br/>Exemplo: `c:\sample\sample.test` |O arquivo específico é ignorado por Microsoft Defender Antivírus. |
-|**Folder**    |Localização <br/>Exemplo: `c:\test\sample`       |Todos os itens na pasta especificada são ignorados por Microsoft Defender Antivírus.         |
+|**Arquivo** |Local <br/>Exemplo: `c:\sample\sample.test` |O arquivo específico é ignorado por Microsoft Defender Antivírus. |
+|**Folder**    |Local <br/>Exemplo: `c:\test\sample`       |Todos os itens na pasta especificada são ignorados por Microsoft Defender Antivírus.         |
 |**Tipo de arquivo**   |Extensão de arquivo <br/>Exemplo: `.test` |Todos os arquivos com a extensão em qualquer lugar do `.test` dispositivo são ignorados por Microsoft Defender Antivírus.         |
 |**Processo**     |Caminho do arquivo executável <br>Exemplo: `c:\test\process.exe`         |O processo específico e todos os arquivos abertos por esse processo são ignorados por Microsoft Defender Antivírus.         |
 

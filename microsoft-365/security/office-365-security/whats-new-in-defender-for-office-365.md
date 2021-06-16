@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2895598c8d891b08229f072b7bff6b6549639093
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: 0aa8e10545b43f6e0ee985ac11b161a3b21c3a91
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796061"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929546"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Novidades do Microsoft Defender para Office 365
 
@@ -89,7 +89,7 @@ Saiba mais assistindo a [este vídeo](https://www.youtube.com/watch?v=Tdz6KfruDG
   - Filtros NOT avançados (são opções avançadas de filtragem que incluem não contêm, não incluem, etc.)
   - Filtros de hora granulares (dia, hora, meia hora)
 
-- O **widget Incidentes** agora é o widget **do Centro de Ações.** (Para exibir seus widgets de segurança, no Centro de Conformidade & segurança, acesse **Gerenciamento de ameaças** \> **Revisar**.) (Microsoft Defender para Office 365 Plano 2)
+- O **widget Incidentes** agora é o widget **do Centro de Ações.** (Para exibir seus widgets de segurança, no portal Microsoft 365 Defender, acesse **Email & colaboração** \> **Revisar**.) (Microsoft Defender para Office 365 Plano 2)
 
 - [Cofre Documentos no Microsoft 365](safe-docs.md) **(visualização)**
 

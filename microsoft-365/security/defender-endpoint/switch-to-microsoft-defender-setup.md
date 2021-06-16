@@ -17,16 +17,18 @@ audience: ITPro
 ms.collection:
 - M365-security-compliance
 - m365solution-migratetomdatp
+- m365solution-mcafeemigrate
+- m365solution-symantecmigrate
 ms.topic: article
 ms.custom: migrationguides
-ms.date: 05/20/2021
+ms.date: 06/14/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 2ea8cc323220024406a49eda8d6a7c0b42ca71a4
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 82c734d8a394be048f9be862be114fae7f90e6b3
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52594044"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930470"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-2-setup"></a>Alternar para o Microsoft Defender para o Ponto de Extremidade - Fase 2: Instalação
 
@@ -93,14 +95,15 @@ A chave do Registro [DisableAntiSpyware](/windows-hardware/customize/desktop/una
 1. Como administrador local no ponto de extremidade ou dispositivo, abra Windows PowerShell.
 
 2. Execute os seguintes cmdlets do PowerShell: <br/>   
+
    `Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features` <p>
    `Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender` <br/>
  
-   > [!NOTE]
-   > Ao usar o comando DISM em uma sequência de tarefas executando o PS, o caminho a seguir para cmd.exe é necessário.
-   > Exemplo:<br/>
-   > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features`<p>
-   > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender`<br/>
+   Ao usar o comando DISM em uma sequência de tarefas executando o PS, o caminho a seguir para cmd.exe é necessário.
+   Exemplo:<br/>
+   
+   `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features`<p>
+   `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender`<br/>
 
 3. Para verificar Microsoft Defender Antivírus está em execução, use o seguinte cmdlet do PowerShell: <br/>
    `Get-Service -Name windefend`
@@ -113,6 +116,7 @@ A chave do Registro [DisableAntiSpyware](/windows-hardware/customize/desktop/una
    `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`.
 
 2. Edite (ou crie) uma entrada DWORD chamada **ForcePassiveMode** e especifique as seguintes configurações:
+
    - De definir o valor do DWORD como **1**.
    - Em **Base,** selecione **Hexadecimal**.
 

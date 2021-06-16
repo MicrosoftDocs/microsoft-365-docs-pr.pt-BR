@@ -20,12 +20,12 @@ ms.custom:
 description: Aprenda a usar o e-mail Identificado DomainKeys (DKIM) com o Microsoft 365 para garantir que as mensagens enviadas de seu domínio personalizado sejam confiadas pelos sistemas de e-mail de destino.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2cd04911e3663bb6b9fa00d4946b26086dc8094d
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 12c7609635d9140f2e8efda3f6f1397619ce4790
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538262"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929894"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>Usar o DKIM para validar emails enviados de seu domínio personalizado
 
@@ -213,18 +213,16 @@ Depois de publicar os registros CNAME no DNS, você estará pronto para habilita
 
 1. [Entre no Microsoft 365](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4) com a sua conta corporativa ou de estudante.
 
-2. Vá para [protection.office.com](https://protection.office.com) ou [security.microsoft.com](https://security.microsoft.com) dependendo de qual portal você usa, e siga o caminho abaixo.
+2. Vá para [security.microsoft.com](https://security.microsoft.com) e siga o caminho abaixo.
 
-|protection.office.com  |security.microsoft.com  |
-|---------|---------|
-| Gerenciamento de ameaças > Política > Políticas adicionais > DKIM     | Email e colaboração > Políticas e regras > Políticas de ameaças > Políticas adicionais > DKIM        | 
+3. Vá para **Email e colaboração > Políticas e regras > Políticas de ameaças > DKIM**.
 
-3. Selecione o domínio para o qual você deseja habilitar o DKIM e, para **Assinar mensagens deste domínio com assinaturas DKIM**, escolha **Habilitar**. Repita essa etapa para cada domínio personalizado.
+4. Selecione o domínio para o qual você deseja habilitar o DKIM e, para **Assinar mensagens deste domínio com assinaturas DKIM**, escolha **Habilitar**. Repita essa etapa para cada domínio personalizado.
 
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-by-using-powershell"></a>Para habilitar a assinatura DKIM para o seu domínio personalizado usando o PowerShell
 
 > [!IMPORTANT]
->:::image type="content" source="../../media/DKIMNoKeysSavedForThisDomain.PNG" alt-text="O erro &quot;Nenhuma tecla DKIM salva para este domínio&quot;.":::
+>:::image type="content" source="../../media/dkim.png" alt-text="O erro &quot;Nenhuma tecla DKIM salva para este domínio&quot;.":::
 > Se você estiver configurando o DKIM pela primeira vez e vir o erro "Nenhuma tecla DKIM salva para este domínio". Conclua o comando na etapa 2 abaixo (por exemplo, *Set-DkimSigningConfig -Identity contoso.com -Enabled $true*) para ver a chave.
 
 1. [Conectar-se ao Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).

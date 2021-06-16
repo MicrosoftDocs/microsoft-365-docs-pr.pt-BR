@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 06/09/2021
-ms.openlocfilehash: 05b2b2af87e423058d18651571d52a97ac387506
-ms.sourcegitcommit: 3584c1fe59d12512d67faf3efc955e1d67e2baa0
+ms.date: 06/14/2021
+ms.openlocfilehash: 1c7ff52398e048aa34fd9c5ab3d8edd1004ea5ec
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52862142"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929438"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Gerenciar Microsoft Defender Antivírus e aplicar linhas de base
 
@@ -31,17 +31,13 @@ ms.locfileid: "52862142"
 - [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
 - Microsoft Defender Antivírus
 
-Há dois tipos de atualizações relacionadas à Microsoft Defender Antivírus atualizadas:
+Manter Microsoft Defender Antivírus atualizado é fundamental para garantir que seus dispositivos tenham a tecnologia e os recursos mais recentes necessários para proteger contra novas técnicas de malware e ataque. Certifique-se de atualizar sua proteção antivírus, mesmo que Microsoft Defender Antivírus está sendo executado no [modo passivo](microsoft-defender-antivirus-compatibility.md). Há dois tipos de atualizações relacionadas à Microsoft Defender Antivírus atualizadas:
 
 - Atualizações de inteligência de segurança
 - Atualizações de produtos
 
-> [!IMPORTANT]
-> Manter Microsoft Defender Antivírus atualizado é fundamental para garantir que seus dispositivos tenham a tecnologia e os recursos mais recentes necessários para proteger contra novas técnicas de malware e ataque.
-> 
-> Certifique-se de atualizar sua proteção antivírus mesmo que Microsoft Defender Antivírus está sendo executado no [modo passivo](./microsoft-defender-antivirus-compatibility.md).
-> 
-> Para ver o mecanismo, a plataforma e a data de assinatura mais atuais, visite as atualizações de inteligência de segurança para Microsoft Defender Antivírus e outros [antimalware](https://www.microsoft.com/en-us/wdsi/defenderupdates)da Microsoft.
+> [!TIP]
+> Para ver o mecanismo, a plataforma e a data de assinatura mais atuais, visite as atualizações de inteligência de segurança para Microsoft Defender Antivírus [e outros antimalware](https://www.microsoft.com/en-us/wdsi/defenderupdates) da Microsoft
 
 ## <a name="security-intelligence-updates"></a>Atualizações de inteligência de segurança
 
@@ -81,7 +77,7 @@ Todas as nossas atualizações contêm
 - melhorias de desempenho;
 - melhorias de capacidade de serviço; e 
 - melhorias de integração (Cloud, [Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-365-defender)).
-<br/>
+<br/><br/>
 <details>
 <summary> Maio-2021 (plataforma: 4.18.2105.4 | Mecanismo: 1.1.18200.4)</summary>
 
@@ -91,7 +87,7 @@ Todas as nossas atualizações contêm
 &ensp;Mecanismo: **1.1.18200.4**  
 &ensp;Fase de suporte: **Segurança e Atualizações Críticas**
     
-### <a name="whats-new"></a>Novidades
+### <a name="whats-new"></a>O que há de novo
 - Melhorias [no monitoramento de comportamento](client-behavioral-blocking.md) 
 - Recurso [de filtragem de notificação](network-protection.md) de proteção de rede fixa
 
@@ -106,7 +102,7 @@ Nenhum problema conhecido
 &ensp;Mecanismo: **1.1.18100.5**  
 &ensp;Fase de suporte: **Segurança e Atualizações Críticas**
     
-### <a name="whats-new"></a>Novidades
+### <a name="whats-new"></a>O que há de novo
 - Lógica adicional de monitoramento de comportamento
 - Detecção aprimorada do keylogger do modo kernel
 
@@ -122,7 +118,7 @@ Nenhum problema conhecido
 &ensp;Mecanismo: **1.1.18000.5**  
 &ensp;Fase de suporte: **Segurança e Atualizações Críticas**
     
-### <a name="whats-new"></a>Novidades
+### <a name="whats-new"></a>O que há de novo
 
 - Melhoria no mecanismo de Monitoramento de Comportamento 
 - Mitigações de ataques de força bruta de rede expandida 
@@ -146,7 +142,7 @@ Depois que uma nova versão de pacote é lançada, o suporte para as duas versõ
 &ensp;Mecanismo: **1.1.17900.7**  
 &ensp;Fase de suporte: **Suporte técnico de atualização (somente)**
     
-### <a name="whats-new"></a>Novidades
+### <a name="whats-new"></a>O que há de novo
 
 - Recuperação aprimorada do serviço por meio [da proteção contra violações](prevent-changes-to-security-settings-with-tamper-protection.md)
 - Estender escopo de proteção contra violações
@@ -163,7 +159,7 @@ Nenhum problema conhecido
 &ensp;Mecanismo: **1.1.17800.5**  
 &ensp;Fase de suporte: **Suporte técnico de atualização (somente)**
     
-### <a name="whats-new"></a>Novidades
+### <a name="whats-new"></a>O que há de novo
 
 - Melhorias na detecção de exploração de shellcode
 - Maior visibilidade para tentativas de roubo de credenciais
@@ -183,7 +179,7 @@ Nenhum problema conhecido
 &ensp;Mecanismo: **1.1.17700.4**  
 &ensp;Fase de suporte: **Suporte técnico de atualização (somente)**
     
-### <a name="whats-new"></a>Novidades
+### <a name="whats-new"></a>O que há de novo
 
 - Registro em log de suporte ao status [do SmartScreen](/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview) aprimorado
 
@@ -199,7 +195,7 @@ Nenhum problema conhecido
 &ensp;Mecanismo: **1.1.17600.5**  
 &ensp;Fase de suporte: **Suporte técnico de atualização (somente)**
     
-### <a name="whats-new"></a>Novidades
+### <a name="whats-new"></a>O que há de novo
 
 - Novas descrições para categorias de ameaças especiais
 - Recursos de emulação aprimorados
@@ -219,7 +215,7 @@ Nenhum problema conhecido
 &ensp;Mecanismo: **1.1.17500.4**  
 &ensp;Fase de suporte: **Suporte técnico de atualização (somente)**
     
-### <a name="whats-new"></a>Novidades
+### <a name="whats-new"></a>O que há de novo
 
 - Permissões de administrador são necessárias para restaurar arquivos em quarentena
 - Eventos formatados xml agora são suportados
@@ -245,7 +241,7 @@ Nenhum problema conhecido
 &ensp;Mecanismo: **1.1.17400.5**  
 &ensp;Fase de suporte: **Suporte técnico de atualização (somente)**
 
-### <a name="whats-new"></a>Novidades
+### <a name="whats-new"></a>O que há de novo
 
 - Adicionar mais eventos de telemetria
 - Telemetria de eventos de verificação aprimorada
@@ -269,7 +265,7 @@ Nenhum problema conhecido
 &ensp;Mecanismo: **1.1.17300.4**  
 &ensp;Fase de suporte: **Suporte técnico de atualização (somente)**
     
-### <a name="whats-new"></a>Novidades
+### <a name="whats-new"></a>O que há de novo
 
 - Telemetria aprimorada para BITS
 - Validação aprimorada de certificado de assinatura de código Authenticode
@@ -288,7 +284,7 @@ Nenhum problema conhecido
 &ensp;Mecanismo: **1.1.17200.2**  
 &ensp;Fase de suporte: **Suporte técnico de atualização (somente)**
     
-### <a name="whats-new"></a>Novidades
+### <a name="whats-new"></a>O que há de novo
 
 - Possibilidade de especificar o [local dos logs de suporte](./collect-diagnostic-data.md)
 - Ignorar a verificação de captura agressiva no modo Passivo.
@@ -311,7 +307,7 @@ Nenhum problema conhecido
 &ensp;Mecanismo: **1.1.17100.2**  
 &ensp;Fase de suporte: **Suporte técnico de atualização (somente)**
     
-### <a name="whats-new"></a>Novidades
+### <a name="whats-new"></a>O que há de novo
 
 - Registro em log aprimorado para eventos de verificação
 - Melhor tratamento de falhas no modo de usuário.
@@ -334,7 +330,7 @@ Nenhum problema conhecido
 &ensp;Mecanismo: **1.1.17000.2**  
 &ensp;Fase de suporte: **Suporte técnico de atualização (somente)**
     
-### <a name="whats-new"></a>Novidades
+### <a name="whats-new"></a>O que há de novo
 - Melhorias do WDfilter
 - Adicionar mais dados de evento acionáveis para atacar eventos de detecção de redução de superfície
 - Informações de versão fixas em dados de diagnóstico e WMI
@@ -357,7 +353,7 @@ Nenhum problema conhecido
 &ensp;Mecanismo: **1.1.16900.4**  
 &ensp;Fase de suporte: **Suporte técnico de atualização (somente)**
     
-### <a name="whats-new"></a>Novidades
+### <a name="whats-new"></a>O que há de novo
 
 - Opção de throttling de CPU adicionada ao [MpCmdRun](./command-line-arguments-microsoft-defender-antivirus.md)
 - Melhorar a funcionalidade de diagnóstico
@@ -382,7 +378,7 @@ Nenhum problema conhecido
 &ensp;Mecanismo: **1.1.16800.2**  
 &ensp;Fase de suporte: **Suporte técnico de atualização (somente)**
      
-### <a name="whats-new"></a>Novidades
+### <a name="whats-new"></a>O que há de novo
 
   
 ### <a name="known-issues"></a>Problemas Conhecidos
@@ -400,7 +396,7 @@ Plataforma/Cliente: **4.18.2001.10**
 Mecanismo: **1.1.16700.2**  
 &ensp;Fase de suporte: **Suporte técnico de atualização (somente)**
      
-### <a name="whats-new"></a>Novidades
+### <a name="whats-new"></a>O que há de novo
 
 - BSOD fixo no WS2016 com Exchange
 - Atualizações da plataforma de suporte quando o TMP é redirecionado para o caminho da rede
@@ -431,7 +427,7 @@ Plataforma: **4.18.1911.3**
 Mecanismo: **1.1.17000.7**  
 Fase de suporte: **sem suporte**  
      
-### <a name="whats-new"></a>Novidades
+### <a name="whats-new"></a>O que há de novo
 
 - Nível de rastreamento De MpCmdRun fixo
 - Informações de versão fixas do WDFilter

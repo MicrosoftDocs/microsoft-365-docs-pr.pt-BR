@@ -20,12 +20,12 @@ ms.custom:
 description: Este tópico orienta você sobre a configuração recomendada para configurações em todo o locatário que afetam a segurança do seu ambiente Microsoft 365 local.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fd9d07388386ecc3d5877736e588393cdc38e7bb
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 623ea316d1ad92790b8818504970a1d35401f617
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879211"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929570"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>Configure o locatário do Microsoft 365 para aumentar a segurança 
 
@@ -63,9 +63,9 @@ O Microsoft 365 do Defender inclui recursos que protegem seu ambiente. Ele tamb�
 > [!NOTE]
 > Para implantações não padrão de SPF, implantações híbridas e solução de problemas: como o Microsoft 365 usa a Estrutura de Política do Remetente (SPF) para impedir a [spoofing](how-office-365-uses-spf-to-prevent-spoofing.md).
 
-## <a name="view-dashboards-and-reports-in-the-security--compliance-center"></a>Exibir painéis e relatórios no Centro de Conformidade & Segurança
+## <a name="view-dashboards-and-reports-in-the-microsoft-365-defender-portal"></a>Exibir painéis e relatórios no portal Microsoft 365 Defender
 
-Visite esses relatórios e painéis para saber mais sobre a saúde do seu ambiente. Os dados nesses relatórios se tornarão mais ricos à medida que sua organização usa Office 365 serviços. Por enquanto, conheça o que você pode monitorar e tomar medidas. Para obter mais informações, consulte [Reports in the Security & Compliance Center](../../compliance/reports-in-security-and-compliance.md).
+Visite esses relatórios e painéis para saber mais sobre a saúde do seu ambiente. Os dados nesses relatórios se tornarão mais ricos à medida que sua organização usa Office 365 serviços. Por enquanto, conheça o que você pode monitorar e tomar medidas. Para obter mais informações, consulte [Relatórios no portal Microsoft 365 Defender](../../compliance/reports-in-security-and-compliance.md).
 
 <br>
 

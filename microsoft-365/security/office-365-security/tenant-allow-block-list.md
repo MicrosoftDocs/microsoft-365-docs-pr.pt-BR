@@ -16,12 +16,12 @@ ms.collection:
 description: Os administradores podem aprender a configurar as permites e os bloqueios na Lista de Locatários de Permitir/Bloquear no portal de Segurança.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 12139708fc5cde133819713fd7185435e594a1a9
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 4228bb8abb70bbd96605a7d0f021a1a483e8715c
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809174"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929726"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>Gerenciar a lista de Permissões/Bloqueios do Locatário
 
@@ -40,17 +40,17 @@ ms.locfileid: "52809174"
 
 Em organizações Microsoft 365 com caixas de correio em organizações Exchange Online ou autônomas Proteção do Exchange Online (EOP) sem Exchange Online caixas de correio, talvez você não concorde com o veredito de filtragem do EOP. Por exemplo, uma boa mensagem pode ser marcada como ruim (um falso positivo) ou uma mensagem ruim pode ser permitida através (um falso negativo).
 
-A Lista de Locatários de & de Conformidade oferece uma maneira de substituir manualmente os Microsoft 365 de filtragem. A Lista de Locatários Permite/Bloquear é usada durante o fluxo de emails e no momento dos cliques do usuário. Você pode especificar os seguintes tipos de substituições:
+A Lista de locatários de Microsoft 365 portal do Defender oferece uma maneira de substituir manualmente os Microsoft 365 de filtragem. A Lista de Locatários Permite/Bloquear é usada durante o fluxo de emails e no momento dos cliques do usuário. Você pode especificar os seguintes tipos de substituições:
 
 - URLs a bloquear.
 - Arquivos a bloquear.
 - Envios com spoofed para permitir ou bloquear. Se você substituir o veredito de permitir ou bloquear no insight de inteligência de spoof , o remetente [spoofed](learn-about-spoof-intelligence.md)se tornará uma entrada manual de permitir ou bloquear que só aparece na guia **Spoof** na Lista de Locatários De Permitir/Bloquear. Você também pode criar manualmente entradas de permitir ou bloquear para os envios de spoofed aqui antes que eles são detectados pela inteligência spoof.
 
-Este artigo descreve como configurar entradas na Lista de Permitir/Bloquear Locatários no Centro de Conformidade de Segurança & ou no PowerShell (Exchange Online PowerShell para organizações Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem Exchange Online caixas de correio).
+Este artigo descreve como configurar entradas na Lista de Locatários Permitir/Bloquear no portal do defender do Microsoft 365 ou no PowerShell (Exchange Online PowerShell para organizações Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem Exchange Online caixas de correio).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **Lista de Locatários Permitir/Bloquear,** use <https://protection.office.com/tenantAllowBlockList> .
+- Abra o portal do Microsoft 365 Defender em <https://security.microsoft.com/>. Para ir diretamente para a página **Listas de Locatários/Bloqueios,** use <https://security.microsoft.com/tenantAllowBlockList> .
 
 - Você especifica arquivos usando o valor de hash SHA256 do arquivo. Para encontrar o valor de hash SHA256 de um arquivo Windows, execute o seguinte comando em um Prompt de Comando:
 
@@ -90,9 +90,9 @@ Este artigo descreve como configurar entradas na Lista de Permitir/Bloquear Loca
   >
   > - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
-## <a name="use-the-security--compliance-center-to-create-block-url-entries-in-the-tenant-allowblock-list"></a>Use o Centro de Conformidade & segurança para criar entradas de URL de bloqueio na Lista de Locatários de Permitir/Bloquear
+## <a name="use-the-microsoft-365-defender-portal-to-create-block-url-entries-in-the-tenant-allowblock-list"></a>Use o portal Microsoft 365 Defender para criar entradas de URL de bloqueio na Lista de Locatários de Permitir/Bloquear
 
-1. No Centro de Conformidade & Segurança, vá para **Lista** de Locatários de Política de Gerenciamento de \>  \> **Ameaças/Listas de Bloqueio.**
+1. No portal Microsoft 365 Defender, vá para **Políticas** & regras de locatários de políticas de ameaça listas de \>  \> **locatários.**
 
 2. Na página Lista de Locatários **Permitir/Bloquear,** verifique se a **guia URLs** está selecionada e clique em **Bloquear**
 
@@ -112,9 +112,9 @@ Este artigo descreve como configurar entradas na Lista de Permitir/Bloquear Loca
 
 4. Quando terminar, clique em **Adicionar**.
 
-## <a name="use-the-security--compliance-center-to-create-block-file-entries-in-the-tenant-allowblock-list"></a>Use o Centro de Conformidade & segurança para criar entradas de arquivo de bloqueio na lista De permitir/bloquear locatários
+## <a name="use-the-microsoft-365-defender-portal-to-create-block-file-entries-in-the-tenant-allowblock-list"></a>Use o Microsoft 365 do Defender para criar entradas de arquivo de bloqueio na Lista de Locatários Permitir/Bloquear
 
-1. No Centro de Conformidade & Segurança, vá para **Lista** de Locatários de Política de Gerenciamento de \>  \> **Ameaças/Listas de Bloqueio.**
+1. No portal Microsoft 365 Defender, acesse Políticas & **políticas de ameaça** Listas de \>  \> **locatários de locatários.**
 
 2. Na página **Lista de Locatários Permitir/Bloquear,** selecione a guia **Arquivos** e clique em **Bloquear**.
 
@@ -134,7 +134,7 @@ Este artigo descreve como configurar entradas na Lista de Permitir/Bloquear Loca
 
 4. Quando terminar, clique em **Adicionar**.
 
-## <a name="use-the-security--compliance-center-to-create-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a>Use o Centro de Conformidade & segurança para criar entradas de remetentes que permitem ou bloqueiem spoofed na Lista de Locatários de Permitir/Bloquear
+## <a name="use-the-microsoft-365-defender-portal-to-create-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a>Use o Microsoft 365 do Defender para criar entradas de remetentes com spoofed ou de permitir ou bloquear na Lista de Locatários Permitir/Bloquear
 
 **Observações**:
 
@@ -142,7 +142,7 @@ Este artigo descreve como configurar entradas na Lista de Permitir/Bloquear Loca
 - Quando você configura uma entrada de permitir ou bloquear para um par de domínios, as mensagens desse par de domínios não aparecem mais no insight de inteligência falsa.
 - As entradas para os envios com spoofed nunca expiram.
 
-1. No Centro de Conformidade & Segurança, vá para **Lista** de Locatários de Política de Gerenciamento de \>  \> **Ameaças/Listas de Bloqueio.**
+1. No portal Microsoft 365 Defender, acesse Políticas & **políticas de ameaça** Listas de \>  \> **locatários de locatários.**
 
 2. Na página **Lista de Locatários Permitir/Bloquear,** selecione a guia **Spoofing** e clique em **Adicionar**.
 
@@ -158,9 +158,9 @@ Este artigo descreve como configurar entradas na Lista de Permitir/Bloquear Loca
 
 4. Quando terminar, clique em **Adicionar**.
 
-## <a name="use-the-security--compliance-center-to-view-entries-in-the-tenant-allowblock-list"></a>Use o Centro de Conformidade & segurança para exibir entradas na Lista de Locatários Permitir/Bloquear
+## <a name="use-the-microsoft-365-defender-portal-to-view-entries-in-the-tenant-allowblock-list"></a>Use o Microsoft 365 do Defender para exibir entradas na Lista de Locatários Permitir/Bloquear
 
-1. No Centro de Conformidade & Segurança, vá para **Lista** de Locatários de Política de Gerenciamento de \>  \> **Ameaças/Listas de Bloqueio.**
+1. No portal Microsoft 365 Defender, acesse Políticas & **políticas de ameaça** Listas de \>  \> **locatários de locatários.**
 
 2. Selecione a guia que você deseja. As colunas disponíveis dependem da guia selecionada:
 
@@ -220,9 +220,9 @@ Este artigo descreve como configurar entradas na Lista de Permitir/Bloquear Loca
 
    Quando terminar, clique em **Aplicar**. Para limpar os filtros existentes,  clique em **Filtrar** e, no sobrevoo Filtro que aparece, clique em **Limpar filtros**.
 
-## <a name="use-the-security--compliance-center-to-modify-entries-in-the-tenant-allowblock-list"></a>Use o Centro de Conformidade & segurança para modificar entradas na lista De permitir/bloquear locatários
+## <a name="use-the-microsoft-365-defender-portal-to-modify-entries-in-the-tenant-allowblock-list"></a>Use o Microsoft 365 do Defender para modificar entradas na Lista de Locatários de Permitir/Bloquear
 
-1. No Centro de Conformidade & Segurança, vá para **Lista** de Locatários de Política de Gerenciamento de \>  \> **Ameaças/Listas de Bloqueio.**
+1. No portal Microsoft 365 Defender, acesse Políticas & **políticas de ameaça** Listas de \>  \> **locatários de locatários.**
 
 2. Selecione a guia que contém o tipo de entrada que você deseja modificar:
    - **URLs**
@@ -248,9 +248,9 @@ Este artigo descreve como configurar entradas na Lista de Permitir/Bloquear Loca
 
 4. Quando concluir, clique em **Salvar**.
 
-## <a name="use-the-security--compliance-center-to-remove-entries-from-the-tenant-allowblock-list"></a>Use o Centro de Conformidade & segurança para remover entradas da lista de locatários permitir/bloquear
+## <a name="use-the-microsoft-365-defender-portal-to-remove-entries-from-the-tenant-allowblock-list"></a>Usar o portal Microsoft 365 Defender para remover entradas da lista De locatários de permitir/bloquear
 
-1. No Centro de Conformidade & Segurança, vá para **Lista** de Locatários de Política de Gerenciamento de \>  \> **Ameaças/Listas de Bloqueio.**
+1. No portal Microsoft 365 Defender, acesse **Listas** de Locatários de Política de Gerenciamento de \>  \> **Ameaças/Listas de Bloqueio.**
 
 2. Selecione a guia que contém o tipo de entrada que você deseja remover:
    - **URLs**

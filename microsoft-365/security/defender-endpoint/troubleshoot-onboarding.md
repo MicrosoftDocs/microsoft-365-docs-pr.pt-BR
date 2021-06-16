@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: b9d6cd374a107a403269bc3babbe4220d69e1cce
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: cb4bebe3f6998b81a00d7fd15bc919f70381a933
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844869"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929690"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>Solucionar problemas de integração do Microsoft Defender para pontos de extremidade
 
@@ -136,7 +136,7 @@ Nome do canal: Admin
 
 ID | Severity | Descrição do Evento | Etapas para a solução de problemas
 :---|:---|:---|:---
-1819 | Error | CSP do Microsoft Defender para Ponto de Extremidade: Falha ao definir o valor do nó. NodeId: (%1), TokenName: (%2), Resultado: (%3). | Baixe a [Atualização Cumulativa para Windows 10, 1607](https://go.microsoft.com/fwlink/?linkid=829760).
+1819 | Erro | CSP do Microsoft Defender para Ponto de Extremidade: Falha ao definir o valor do nó. NodeId: (%1), TokenName: (%2), Resultado: (%3). | Baixe a [Atualização Cumulativa para Windows 10, 1607](https://go.microsoft.com/fwlink/?linkid=829760).
 
 ## <a name="troubleshoot-onboarding-issues-on-the-device"></a>Solucionar problemas de integração no dispositivo
 
@@ -334,6 +334,8 @@ As etapas a seguir fornecem orientações para o seguinte cenário:
 - O dispositivo é desligado ou reiniciado antes que o usuário final execute um primeiro logon
 - Nesse cenário, o serviço SENSE não iniciará automaticamente, mesmo que o pacote de integração tenha sido implantado
 
+<div class="alert"><b>OBSERVAÇÃO:</b> Logon do usuário após o OOBE não é mais necessário para que o serviço SENSE inicie as seguintes ou mais recentes versões do Windows: Windows 10, versão 1809 ou Windows Server 2019 com 22 de abril de [2021.](https://support.microsoft.com/kb/5001384) </br> Windows 10 versão 1909 com [a atualização de abril de 2021](https://support.microsoft.com/kb/5001396) </br> Windows 10, versão 2004/20H2 com acúmulo de atualizações de 28 de abril de [2021](https://support.microsoft.com/kb/5001391) </div> 
+<br></br>
 > [!NOTE]
 > As etapas a seguir só são relevantes ao usar Microsoft Endpoint Configuration Manager. Para obter mais detalhes sobre a integração usando Microsoft Endpoint Configuration Manager, consulte [Microsoft Defender for Endpoint](/mem/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection).
 

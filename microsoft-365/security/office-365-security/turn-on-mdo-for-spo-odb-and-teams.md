@@ -20,12 +20,12 @@ description: Os administradores podem aprender a ativar Cofre anexos para ShareP
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 07aea9551faa280cd51bda1d57f017e0a24028ea
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 374e67626eab07cc8ab89a52554658a31e661eec
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203124"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929942"
 ---
 # <a name="turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Ative os anexos seguros para SharePoint, OneDrive e Microsoft Teams
 
@@ -41,9 +41,9 @@ Este artigo contém as etapas para habilenciar e configurar Cofre anexos para Sh
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Abra o Centro de Conformidade e Segurança em <https://protection.office.com>. Para ir diretamente para a **página anexos Cofre ATP,** abra <https://protection.office.com/safeattachmentv2> .
+- Abra o portal do Microsoft 365 Defender em <https://security.microsoft.com>. Para ir diretamente para a página **Cofre Anexos,** abra <https://security.microsoft.com/safeattachmentv2> .
 
-- Para ativar Cofre anexos para SharePoint, OneDrive e Microsoft Teams, você precisa ser membro dos grupos  de função  Gerenciamento da Organização ou Administrador de Segurança no Centro de Conformidade & Segurança. Para saber mais, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
+- Para ativar Cofre anexos para SharePoint, OneDrive e Microsoft Teams, você precisa ser membro dos grupos  de função  Gerenciamento da Organização ou Administrador de Segurança no portal do Microsoft 365 Defender. Para obter mais informações, consulte [Permissões no portal Microsoft 365 Defender](permissions-in-the-security-and-compliance-center.md).
 
 - Para usar SharePoint PowerShell Online para impedir que as pessoas baixem arquivos mal-intencionados, você precisa ser membro das funções Administrador [Global](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator) ou SharePoint [Administrador](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#sharepoint-administrator) no Azure AD.
 
@@ -51,9 +51,9 @@ Este artigo contém as etapas para habilenciar e configurar Cofre anexos para Sh
 
 - Permitir até 30 minutos para que as configurações entre em vigor.
 
-## <a name="step-1-use-the-security--compliance-center-to-turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Etapa 1: Usar o Centro de Conformidade & segurança para ativar Cofre anexos para SharePoint, OneDrive e Microsoft Teams
+## <a name="step-1-use-the-microsoft-365-defender-portal-to-turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Etapa 1: use o portal Microsoft 365 Defender para ativar Cofre anexos para SharePoint, OneDrive e Microsoft Teams
 
-1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças ATP Cofre Anexos e clique em \>  \>  **Configurações Globais**.
+1. No portal Microsoft 365 Defender, acesse **Políticas** & regras Políticas de ameaça Cofre anexos e clique em \>  \>  **Configurações globais**.
 
 2. Na **configuração Global** que aparece, vá para a configuração Ativar o Defender para Office 365 **para SharePoint, OneDrive e Microsoft Teams.** Mova a alternância para a direita Para ativar a Cofre anexos para ![ ](../../media/scc-toggle-on.png) SharePoint, OneDrive e Microsoft Teams.
 
@@ -86,20 +86,20 @@ Set-SPOTenant -DisallowInfectedFileDownload $true
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant).
 
-## <a name="step-3-recommended-use-the-security--compliance-center-to-create-an-alert-policy-for-detected-files"></a>Etapa 3 (Recomendado) Use o Centro de Conformidade & segurança para criar uma política de alerta para arquivos detectados
+## <a name="step-3-recommended-use-the-microsoft-365-defender-portal-to-create-an-alert-policy-for-detected-files"></a>Etapa 3 (Recomendado) Use o portal Microsoft 365 Defender para criar uma política de alerta para arquivos detectados
 
-Você pode criar uma política de alerta que notifica você e outros administradores quando Cofre anexos para SharePoint, OneDrive e Microsoft Teams detecta um arquivo mal-intencionado. Para saber mais sobre alertas, consulte [Create activity alerts in the Security & Compliance Center](../../compliance/create-activity-alerts.md).
+Você pode criar uma política de alerta que notifica você e outros administradores quando Cofre anexos para SharePoint, OneDrive e Microsoft Teams detecta um arquivo mal-intencionado. Para saber mais sobre alertas, consulte [Create activity alerts in the Microsoft 365 Defender portal](../../compliance/create-activity-alerts.md).
 
-1. No Centro [de Conformidade & segurança,](https://protection.office.com)acesse **Políticas de** \> **Alertas ou** abra <https://protection.office.com/alertpolicies> .
+1. No portal [Microsoft 365 Defender,](https://security.microsoft.com)vá para **Políticas** & política \> **de alerta** ou abra <https://security.microsoft.com/alertpolicies> .
 
-2. Na página **Políticas de alerta,** clique em **Nova política de alerta.**
+2. Na página **Política de alerta,** clique em **Nova política de alerta.**
 
 3. O **assistente nova política de alerta** é aberto em uma saída de emergência. Na página **Nomear seu alerta,** configure as seguintes configurações:
 
    - **Nome**: Digite um nome exclusivo e descritivo. Por exemplo, Arquivos Mal-intencionados em bibliotecas.
    - **Descrição**: digite uma descrição opcional. Por exemplo, Notifica os administradores quando arquivos mal-intencionados são detectados no SharePoint Online, OneDrive ou Microsoft Teams.
    - **Severidade**: deixe o valor padrão **Baixo** selecionado ou selecione **Médio** ou **Alto**.
-   - **Selecione uma categoria**: Selecionar **Gerenciamento de ameaças.**
+   - **Categoria**: Selecione **Gerenciamento de ameaças**.
 
    Ao terminar, clique em **Avançar**.
 
@@ -139,7 +139,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [New-
 
 - Para verificar se você a Cofre anexos para SharePoint, OneDrive e Microsoft Teams, use uma das seguintes etapas:
 
-  - No Centro de Conformidade & [Segurança,](https://protection.office.com)vá para Política de Gerenciamento de Ameaças  \>  \> **Atp Cofre Anexos,** selecione Configurações globais e verifique o valor da configuração Ativar o Defender para Office 365 para **SharePoint, OneDrive** e Microsoft Teams.
+  - No [portal do Microsoft 365 Defender,](https://security.microsoft.com)  vá para Políticas & regras Políticas de ameaças Cofre \>  \> **anexos,** selecione Configurações globais e verifique o valor da configuração Ativar o Defender para Office 365 para **SharePoint, OneDrive e Microsoft Teams.**
 
   - No Exchange Online PowerShell, execute o seguinte comando para verificar a configuração da propriedade:
 
@@ -159,9 +159,9 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [New-
 
 - Para verificar se você configurou com êxito uma política de alerta para arquivos detectados, use qualquer uma das seguintes etapas:
 
-  - No Centro de Conformidade & segurança, acesse Políticas de **Alertas** De alerta selecione a política de alerta e \>  \> verifique as configurações.
+  - No portal Microsoft 365 Defender, acesse **Políticas** & Política de alerta selecione a política de alerta e \>  \> verifique as configurações.
 
-  - No Centro de Conformidade & segurança do PowerShell, substitua pelo nome da política de alerta, execute o seguinte comando e \<AlertPolicyName\> verifique os valores da propriedade:
+  - No Microsoft 365 portal do Defender PowerShell, substitua pelo nome da política de alerta, execute o seguinte comando e \<AlertPolicyName\> verifique os valores da propriedade:
 
     ```powershell
     Get-ActivityAlert -Identity "<AlertPolicyName>"

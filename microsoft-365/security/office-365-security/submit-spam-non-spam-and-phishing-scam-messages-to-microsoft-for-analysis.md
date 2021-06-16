@@ -18,12 +18,12 @@ description: Os administradores e usuários finais podem aprender como enviar me
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9c3a02c710472a996245a38d996ff4485efd1748
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 4d277df764ce2fb135f11c6320bc990e4d4142d6
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624020"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929762"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Enviar mensagens manualmente à Microsoft para análise
 
@@ -35,7 +35,7 @@ ms.locfileid: "52624020"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 > [!NOTE]
-> Se você for um administrador em uma organização com Exchange Online caixas de correio, recomendamos que você use o portal Envios no Centro de Conformidade & Segurança. Para obter mais informações, [consulte Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](admin-submission.md).
+> Se você for um administrador em uma organização com Exchange Online caixas de correio, recomendamos que você use o portal Envios no portal Microsoft 365 Defender. Para obter mais informações, [consulte Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](admin-submission.md).
 
 Pode ser frustrante quando os usuários em sua organização recebem mensagens de lixo eletrônico (spam) ou mensagens de phishing em sua Caixa de Entrada ou se eles não recebem uma mensagem de email legítima porque ela é marcada como lixo eletrônico. Estamos constantemente ajustando nossos filtros de spam para ser mais preciso.
 

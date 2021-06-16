@@ -8,17 +8,18 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
+ms.topic: conceptual
 author: dansimp
 ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: ade50e85dbfcf5f59921a65d5b97bb47d21e5b12
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 03d05966401c8f3a8bdcec413e85c9a6d2a3ec5c
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570919"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926566"
 ---
 # <a name="evaluate-network-protection"></a>Avaliar a proteção de rede
 

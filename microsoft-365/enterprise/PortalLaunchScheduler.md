@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: Este artigo descreve como você pode iniciar seu portal usando o agendador de início do portal
-ms.openlocfilehash: bf01f6ae93b424543a6a509f89961a1b7a0c9ad7
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: fb092ea2500aaa139a34e511d224ec4419e04cb5
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841661"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930254"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>Iniciar seu portal usando o agendador de SharePoint portal
 
@@ -116,7 +116,10 @@ Anteriormente, os lançamentos de portal só podiam ser agendados por meio Share
 7. Determine quem precisa exibir o site imediatamente e insira suas informações no **campo Usuários isentos de** ondas. Esses usuários são excluídos das ondas e não serão redirecionados antes, durante ou após o início.
 
     > [!NOTE]
-    > Até 50 usuários ou grupos de segurança distintos no máximo podem ser adicionados. Use grupos de segurança quando precisar de mais de 50 pessoas para obter acesso ao portal antes que as ondas comecem a ser lançadas.
+    > Até 50 usuários ou grupos de segurança distintos no máximo podem ser usados para todo o lançamento. Cada lançamento é independente um do outro, portanto, se você agendar um lançamento em outro portal, poderá usar até 50 usuários/grupos de segurança para esse lançamento. Além disso, você pode usar até 20 usuários ou grupos de segurança distintos por onda. 
+
+>O agendador de início do portal dá suporte a grupos de segurança e grupos de segurança habilitados para email. 
+
 
 8. Confirme os detalhes de início do portal e selecione **Agendar**. Depois que o lançamento tiver sido agendado, quaisquer alterações na home page do portal SharePoint precisarão receber um resultado de diagnóstico saudável antes que o início do portal seja retomado.
 

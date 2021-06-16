@@ -15,12 +15,12 @@ ms.collection:
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing avançadas disponíveis em organizações com o Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8337e25fb6328a2492e2e033e80efcdee8352f6f
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: c5810439a7ed3177949d2c0c8a4551f4515ce72c
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878923"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52933138"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas anti-phishing no Microsoft Defender para Office 365
 
@@ -61,7 +61,7 @@ Para aumentar a eficácia da proteção anti-phishing no Defender para Office 36
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Você abre o portal Microsoft 365 Defender em <https://security.microsoft.com> . Para ir diretamente para a página **Anti-phishing,** use <https://security.microsoft.com/antiphishing> .
+- Abra o portal do Microsoft 365 Defender em <https://security.microsoft.com>. Para ir diretamente para a página **Anti-phishing,** use <https://security.microsoft.com/antiphishing> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -296,7 +296,7 @@ De volta à página da política principal, o valor **Status** da política ser�
 
 Por padrão, as políticas anti-phishing têm uma prioridade baseada na ordem em que foram criadas (as políticas mais novas têm prioridade menor do que as políticas mais antigas). Um número de prioridade menor indica uma maior prioridade para a política (0 é a maior), e as políticas são processadas por ordem de prioridade (políticas com maior prioridade são processadas antes das políticas com menor prioridade). Duas políticas não podem ter a mesma prioridade, e o processamento da política será interrompido após a primeira política ser aplicada.
 
-Para alterar a prioridade de  uma política, clique em Aumentar prioridade ou Diminuir prioridade nas propriedades da política (não é possível modificar diretamente o número **priority** no portal Microsoft 365 Defender).  Alterar a prioridade de uma política só faz sentido se você tiver várias políticas.
+Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou **Diminuir prioridade** nas propriedades da política (não é possível modificar diretamente o número da **Prioridade** no portal Microsoft 365 Defender). Alterar a prioridade de uma política só faz sentido se você tiver várias políticas.
 
  **Observações**:
 
@@ -308,9 +308,9 @@ Para alterar a prioridade de  uma política, clique em Aumentar prioridade ou Di
 2. Na página **Anti-phishing,** selecione uma política personalizada na lista clicando no nome.
 
 3. Na parte superior do submenu de detalhes da política exibido, você verá **Aumentar a prioridade** ou **Diminuir a prioridade** com base no valor de prioridade atual e no número de políticas personalizadas:
-   - A política anti-phishing com **o valor Priority** **0** tem apenas a **opção Diminuir** prioridade disponível.
-   - A política anti-phishing com o menor valor **priority** (por exemplo, **3**) tem apenas a **opção Aumentar** prioridade disponível.
-   - Se você tiver três ou mais políticas anti-phishing, as políticas entre os valores de prioridade mais alta e mais baixa terão as opções **Aumentar** prioridade e Diminuir **prioridade** disponíveis.
+   - A política com o **valor Priority** **0** tem apenas a **opção Diminuir prioridade** disponível.
+   - A política com o menor **valor priority** (por exemplo, **3**) tem apenas a **opção Aumentar** prioridade disponível.
+   - Se você tiver três ou mais políticas, as políticas entre os valores de prioridade mais alto e mais baixo terão as opções **Aumentar** prioridade e Diminuir **prioridade** disponíveis.
 
    Clique no ![ícone Aumentar prioridade](../../media/m365-cc-sc-increase-icon.png) **Aumentar prioridade** ou no ![ícone Diminuir prioridade](../../media/m365-cc-sc-decrease-icon.png) **Diminuir prioridade** para alterar o valor da **Prioridade**.
 

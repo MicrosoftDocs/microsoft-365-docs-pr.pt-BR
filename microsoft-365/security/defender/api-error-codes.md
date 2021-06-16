@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e621b79d37a2c3a22394bd51e0493334eff461c7
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: de24856e8ea7555a96de18cabca5ccadfe71b431
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932876"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930266"
 ---
 # <a name="common-microsoft-365-defender-rest-api-error-codes"></a>Códigos de Microsoft 365 de erro da API REST do Defender
 
@@ -62,7 +62,7 @@ DisabledFeature | Proibido (403) | O recurso locatário não está habilitado.
 DisallowedOperation | Proibido (403) | \<the disallowed operation and the reason\>.
 NotFound | Não encontrado (404) | Mensagem de erro Geral Não Encontrada.
 ResourceNotFound | Não encontrado (404) | O \<the requested resource\> recurso não foi encontrado.
-InternalServerError | Erro interno do servidor (500) | *Observação: nenhuma mensagem de erro, repetir a operação ou entrar em contato com a Microsoft se ela não for resolvida*
+InternalServerError | Erro interno do servidor (500) | *Observação: nenhuma mensagem de erro, repetir a operação ou entrar em contato com a [Microsoft](/microsoft-365/business-video/get-help-support) se ela não for resolvida*
 
 ## <a name="examples"></a>Exemplos
 

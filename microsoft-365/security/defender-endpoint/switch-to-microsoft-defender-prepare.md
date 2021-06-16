@@ -17,16 +17,18 @@ audience: ITPro
 ms.collection:
 - M365-security-compliance
 - m365solution-migratetomdatp
+- m365solution-mcafeemigrate
+- m365solution-symantecmigrate
 ms.topic: article
 ms.custom: migrationguides
-ms.date: 05/20/2021
+ms.date: 06/14/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 92dfc279344b003ab651110375982b0f065dfb0d
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 56a63c09690e28f0ca4990dcbcbcb6cfff7d5eef
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52594164"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929498"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-1-prepare"></a>Alternar para o Microsoft Defender para o Ponto de Extremidade - Fase 1: Preparar
 
@@ -61,7 +63,7 @@ Precisa de ajuda? Consulte a documentação do provedor de soluções.
 
 Precisa de ajuda para atualizar os dispositivos da sua organização? Consulte os seguintes recursos:
 
-|SISTEMA OPERACIONAL | Recurso |
+|SISTEMA OPERACIONAL | Resource |
 |:--|:--|
 |Windows |[Microsoft Update](https://www.update.microsoft.com) |
 |macOS | [Como atualizar o software em seu Mac](https://support.apple.com/HT201541)|

@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: Neste artigo, os administradores podem aprender sobre a proteção Cofre Links no Defender para Office 365 proteger sua organização contra phishing e outros ataques que usam URLs mal-intencionadas.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 406450752085817cb49e3cf08a90c0087af3d94b
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 9775c67a35d45595f68cd364dc4d70e9985b7e9e
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879283"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930518"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Cofre Links no Microsoft Defender para Office 365
 
@@ -294,7 +294,7 @@ Exemplos dos valores que você pode inserir e seus resultados são descritos na 
 
 Cada Cofre de links contém uma lista Não reescrever a lista de **URLs** a seguir que você pode usar para especificar URLs que não são regravadas pela verificação de links Cofre links. Em outras palavras, a lista permite que os usuários incluídos na política acessem as URLs especificadas que seriam bloqueadas por links Cofre. Você pode configurar listas diferentes em políticas Cofre Links diferentes. O processamento de política é interrompido após a primeira (provavelmente, a política de prioridade mais alta) ser aplicada ao usuário. Portanto, apenas um Não reescreva a lista **de URLs** a seguir é aplicada a um usuário que está incluído em várias políticas Cofre Links ativas.
 
-Para adicionar entradas à lista em políticas Cofre Links novas ou existentes, consulte [Create Cofre Links policies](set-up-safe-links-policies.md#use-the-security--compliance-center-to-create-safe-links-policies) ou Modify Cofre Links [policies](set-up-safe-links-policies.md#use-the-security--compliance-center-to-modify-safe-links-policies).
+Para adicionar entradas à lista em políticas de Links do [Cofre](set-up-safe-links-policies.md#use-the-microsoft-365-defender-portal-to-create-safe-links-policies) novas ou existentes, consulte Usar o portal do Microsoft 365 Defender para criar políticas de Links do Cofre ou Usar o portal do Microsoft 365 Defender para modificar as políticas Cofre [Links.](set-up-safe-links-policies.md#use-the-microsoft-365-defender-portal-to-modify-safe-links-policies)
 
 **Observações**:
 

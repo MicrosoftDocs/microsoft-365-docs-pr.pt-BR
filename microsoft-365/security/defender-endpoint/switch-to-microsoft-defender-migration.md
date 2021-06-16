@@ -17,29 +17,27 @@ ms.collection:
 - M365-security-compliance
 - m365solution-migratetomdatp
 - m365solution-overview
+- m365solution-mcafeemigrate
+- m365solution-symantecmigrate
 ms.topic: conceptual
 ms.custom: migrationguides
-ms.date: 05/20/2021
+ms.date: 06/14/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
 ms.technology: mde
-ms.openlocfilehash: 2a2b78089486b432ebf9492de26396b2bb96f94d
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 2953103cb3812103740f98a6db5b8f4d369731e3
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593496"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930302"
 ---
 # <a name="make-the-switch-from-non-microsoft-endpoint-protection-to-microsoft-defender-for-endpoint"></a>Fazer a opção de proteção de ponto de extremidade que não seja da Microsoft para o Microsoft Defender para Ponto de Extremidade
 
-Se você estiver pensando em mudar de sua proteção de ponto de extremidade não Microsoft para [o Microsoft Defender para Ponto](microsoft-defender-endpoint.md) de Extremidade (Defender para Ponto de Extremidade), você está no lugar certo. Use este artigo como um guia.
+Se você estiver pensando em mudar de uma solução de proteção de ponto de extremidade que não seja da Microsoft para o [Microsoft Defender para](microsoft-defender-endpoint.md) Ponto de Extremidade (Defender para Ponto de Extremidade), você está no lugar certo. Use este artigo como um guia.
 
 :::image type="content" source="images/nonms-mde-migration.png" alt-text="Visão geral da migração para o Defender para Ponto de Extremidade":::
 
-Quando você faz a opção para Defender para Ponto de Extremidade, você começa com sua solução não Microsoft operando no modo ativo, configura o Defender para Ponto de Extremidade no modo passivo, integra o Defender para Ponto de Extremidade, define o Defender para o Ponto de Extremidade como modo ativo e remove a solução que não é da Microsoft.
-
-> [!TIP]
-> - Se você estiver usando o McAfee Endpoint Security (McAfee), consulte [Migrate from McAfee to Defender for Endpoint](mcafee-to-microsoft-defender-migration.md).
-> - Se você estiver usando a Symantec Endpoint Protection (Symantec), consulte Migrate from [Symantec to Defender for Endpoint](symantec-to-microsoft-defender-endpoint-migration.md).
+Quando você faz a opção para Defender para Ponto de Extremidade, você começa com sua solução não Microsoft operando no modo ativo. Em seguida, você configura o Defender para Ponto de Extremidade no modo passivo e integra seus dispositivos ao Defender para Ponto de Extremidade. Em seguida, você definirá o Defender para o Ponto de Extremidade como modo ativo. Por fim, você remove a solução que não é da Microsoft.
 
 ## <a name="the-migration-process"></a>O processo de migração
 

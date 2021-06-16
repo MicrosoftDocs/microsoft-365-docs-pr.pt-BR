@@ -19,14 +19,17 @@ ms.custom:
 search.appverid: MET150
 description: Se você tiver menos de 25 licenças de usuário, poderá cancelar sua avaliação do Microsoft 365 Business ou uma assinatura paga online no Centro de Administração.
 ms.date: 04/08/2021
-ms.openlocfilehash: 583433e2c2cc939724f772c1cd699cc5763cb21c
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 5c4ce1c00bfde4a895710d737fab0836998836c6
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536113"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929450"
 ---
 # <a name="cancel-your-subscription"></a>Cancelar sua assinatura
+
+> [!IMPORTANT]
+> Esse artigo se aplica apenas as assinaturas do Microsoft 365 para empresas. Se você tiver o Microsoft 365 Family ou Personal, confira [Cancelar uma assinatura do Microsoft 365](https://support.microsoft.com/pt-BR/office/cancel-a-microsoft-365-subscription-46e2634c-c64b-4c65-94b9-2cc9c960e91b).
 
 *Qualificação:* Se você tiver menos de 25 licenças atribuídas aos usuários, poderá cancelar sua avaliação do Microsoft 365 Business ou uma assinatura paga online no Centro de Administração do Microsoft 365 a qualquer momento. Se você tiver mais de 25 licenças atribuídas aos usuários, reduza-a para menos de 25 ou [ligue para o suporte para cancelar sua assinatura](../../business-video/get-help-support.md).
 
@@ -47,7 +50,7 @@ Se você tiver adicionado seu próprio nome de domínio para usar com a sua assi
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 2. Encontre a assinatura que deseja cancelar. Selecione os três pontos (mais ações) e selecione **Cancelar assinatura**.
-3. No painel **Cancelar assinatura**, escolha um motivo pelo qual você está cancelando. Opcionalmente, forneça qualquer comentário.
+3. No painel **Cancelar assinatura**, escolha um motivo pelo qual você está cancelando. Se optar, forneça comentários.
 4. Selecione **Salvar**.
 
 Sua assinatura aparecerá com um estado **Desabilitado** e terá funcionalidade reduzida até que seja excluída. Para obter mais informações sobre o que você pode esperar quando uma assinatura paga do Microsoft 365 Business é cancelada, confira [O que acontece com meus dados e acesso quando minha assinatura do Microsoft 365 Business termina?](what-if-my-subscription-expires.md)
@@ -70,7 +73,7 @@ Sua assinatura aparecerá com um estado **Desabilitado** e terá funcionalidade 
 
 2. Selecione a guia **Produtos**.
 3. Encontre a assinatura que deseja cancelar. Selecione os três pontos (mais ações) e selecione **Cancelar assinatura**.
-4. No painel **Cancelar assinatura**, escolha um motivo pelo qual você está cancelando. Opcionalmente, forneça qualquer comentário.
+4. No painel **Cancelar assinatura**, escolha um motivo pelo qual você está cancelando. Se optar, forneça comentários.
 5. Selecione **Salvar**.
 
 Sua assinatura aparecerá com um estado **Desabilitado** e terá funcionalidade reduzida até que seja excluída. Para obter mais informações sobre o que você pode esperar quando uma assinatura paga do Microsoft 365 Business é cancelada, confira [O que acontece com meus dados e acesso quando minha assinatura do Microsoft 365 Business termina?](what-if-my-subscription-expires.md)

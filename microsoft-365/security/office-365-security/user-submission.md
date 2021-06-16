@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender a configurar uma caixa de correio para coletar emails de spam e phishing relatados pelos usuários.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f4337b29e0718e23f43b441526232ec6ef66be1d
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 4827ce149632d0e37dbe9c3dc5fc8325dbfa8afa
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879199"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929870"
 ---
 # <a name="user-submissions-policy"></a>Política de envios de usuários
 
@@ -56,21 +56,21 @@ Use os seguintes artigos para configurar os pré-requisitos necessários para qu
 
 - Desativar a verificação de URL em mensagens na caixa de correio personalizada. Use [Configurar políticas Cofre links](set-up-safe-links-policies.md) no Defender para Office 365 para criar uma política  de links Cofre com a configuração Off para Selecionar a ação para **URLs** potencialmente mal-intencionadas desconhecidas em mensagens .
 
-- Crie uma política anti-malware para desativar o Malware Zero-hour Auto Purge. Consulte Usar o Centro de Conformidade & segurança para criar políticas [anti-malware](configure-your-spam-filter-policies.md#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) para definir a Limpeza **Automática de Hora Zero** de Malware como **Desligada.**
+- Crie uma política anti-malware para desativar o Malware Zero-hour Auto Purge. Consulte Usar o portal Microsoft 365 Defender para criar políticas [anti-spam](configure-your-spam-filter-policies.md#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) para definir **Malware Zero-hour Auto Purge** como **Off**.
 
-- Crie uma política de filtro de spam para desabilitar a limpeza automática de hora zero (ZAP) para spam e phishing na caixa de correio personalizada. Consulte Usar o Centro de Conformidade & segurança para  criar políticas [anti-spam](configure-your-spam-filter-policies.md#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) e limpar as caixas de seleção On para **SPAM ZAP** e **Phish ZAP**.
+- Crie uma política de filtro de spam para desabilitar a limpeza automática de hora zero (ZAP) para spam e phishing na caixa de correio personalizada. Consulte Usar o portal Microsoft 365 Defender para criar políticas  [anti-spam](configure-your-spam-filter-policies.md#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) e limpar as caixas de seleção On para **SPAM ZAP** e **Phish ZAP**.
 
 - Desabilite a regra de lixo eletrônico na caixa de correio personalizada. Use [Configure junk email settings on Exchange Online mailboxes](configure-junk-email-settings-on-exo-mailboxes.md) to disable the junk email rule. Depois de desabilitado, o EOP não pode mover mensagens para a pasta Lixo Eletrônico com base na ação de veredito de filtragem de spam **Mover** mensagem para a pasta Lixo Eletrônico ou o conjunto de listas seguras na caixa de correio.
 
-Depois de verificar se sua caixa de correio atende a todos os pré-requisitos aplicáveis, & use o Centro de Conformidade e Segurança para configurar a caixa de correio de [envios](#use-the-security--compliance-center-to-configure-the-user-submissions-mailbox) do usuário (neste artigo).
+Depois de verificar se sua caixa de correio atende a todos os pré-requisitos aplicáveis, implemente o procedimento especificado em Usar o portal do Microsoft 365 Defender para configurar a caixa de correio de [envios do usuário.](#use-the-microsoft-365-defender-portal-to-configure-the-user-submissions-mailbox)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a **página Envios de** usuário, use <https://protection.office.com/userSubmissionsReportMessage> .
+- Abra o portal do Microsoft 365 Defender em <https://security.microsoft.com/>. Para ir diretamente para a página **Envios,** use <https://security.microsoft.com/reportsubmission> .
 
 - Para modificar a configuração para envios do usuário, você precisa ser membro de um dos seguintes grupos de função:
 
-  - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
+  - **Gerenciamento da** organização **ou Administrador de Segurança** no portal Microsoft 365 [Defender.](permissions-in-the-security-and-compliance-center.md)
   - **Gerenciamento de organização** em [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).
 
 - Você precisa acessar o Exchange Online PowerShell. Se a conta que você está tentando usar não tiver acesso ao Exchange Online PowerShell, você receberá um erro com esta aparência ao especificar a caixa de correio de envios:
@@ -82,9 +82,9 @@ Depois de verificar se sua caixa de correio atende a todos os pré-requisitos ap
   - [Habilitar ou desabilitar o acesso Exchange Online PowerShell](/powershell/exchange/disable-access-to-exchange-online-powershell) 
   - [Regras de Acesso para Cliente no Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
 
-## <a name="use-the-security--compliance-center-to-configure-the-user-submissions-mailbox"></a>Use o Centro de Conformidade & segurança para configurar a caixa de correio de envios do usuário
+## <a name="use-the-microsoft-365-defender-portal-to-configure-the-user-submissions-mailbox"></a>Usar o portal Microsoft 365 Defender para configurar a caixa de correio de envios do usuário
 
-1. No Centro de Conformidade & segurança, acesse **Envios** de usuário da Política de Gerenciamento \>  \> **de Ameaças.**
+1. No portal Microsoft 365 Defender, acesse **Políticas** & políticas de ameaças Configurações de mensagem \>  \> **relatadas** pelo \> usuário.
 
 2. Na página **Envios de** usuário exibida, selecione uma das seguintes opções:
 

@@ -21,12 +21,12 @@ ms.custom:
 description: Os administradores podem aprender sobre notificações de spam do usuário final para mensagens em quarentena Proteção do Exchange Online (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3f5eafbb51cd0ff32c69fa0cff85729ef95d3d1f
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 30f82abc245a2f6022bd1a75b57e9d20e3e32a32
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274983"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929882"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>Usar notificações de spam do usuário para liberar e relatar mensagens em quarentena
 
@@ -58,9 +58,9 @@ Uma notificação de spam do usuário final contém as seguintes informações p
 
 - **Bloquear Remetente**: clique neste link para adicionar o remetente à lista Remetentes Bloqueados em sua caixa de correio. Para obter mais informações, consulte [Bloquear um remetente](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4).
 
-- **Versão**: para mensagens de spam (não phishing), você pode liberar a mensagem aqui sem ir para Quarentena do Centro de Conformidade & Segurança.
+- **Versão**: para mensagens de spam (não phishing), você pode liberar a mensagem aqui sem ir para Quarentena do portal Microsoft 365 Defender.
 
-- **Revisão**: clique neste link para ir para Quarentena no Centro de Conformidade de Segurança &, onde você pode (dependendo do motivo pelo qual a mensagem foi colocada em quarentena), liberar, excluir ou relatar suas mensagens em quarentena. Para obter mais informações, [consulte Find and release quarantined messages as a user in EOP](find-and-release-quarantined-messages-as-a-user.md).
+- **Revisão**: clique neste link para ir para Quarentena no portal Microsoft 365 Defender, onde você pode (dependendo do motivo pelo qual a mensagem foi colocada em quarentena), liberar, excluir ou relatar suas mensagens em quarentena. Para obter mais informações, [consulte Find and release quarantined messages as a user in EOP](find-and-release-quarantined-messages-as-a-user.md).
 
 ![Exemplo de notificação de spam do usuário final](../../media/end-user-spam-notification.png)
 

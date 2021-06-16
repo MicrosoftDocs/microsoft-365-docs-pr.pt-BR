@@ -4,28 +4,25 @@ description: Habilitar e configurar Microsoft Defender Antivírus recursos de pr
 keywords: antivírus, proteção em tempo real, rtp, aprendizado de máquina, monitoramento de comportamento, heurística
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
+ms.technology: mde
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
 localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
+ms.topic: article
 ms.date: 12/16/2019
-ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
-ms.technology: mde
-ms.topic: article
-ms.openlocfilehash: 1e39e42b79a2a767473c4473434da249a0d07228
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 313646c69417082583b27bcfbab540131043ce76
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275127"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926662"
 ---
 # <a name="enable-and-configure-microsoft-defender-antivirus-always-on-protection-in-group-policy"></a>Habilitar e configurar a proteção do Microsoft Defender Antivírus sempre ativa na Política de Grupo
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
@@ -56,7 +53,7 @@ Para habilitar e configurar a proteção always-on:
 
     1. No painel **Microsoft Defender Antivírus** detalhes à direita, clique duas vezes na configuração de política, conforme especificado na tabela a seguir:
 
-       | Configuração | Descrição | Configuração padrão |
+       | Setting | Descrição | Configuração padrão |
        |-----------------------------|------------------------|-------------------------------|
        | Permitir que o serviço antimalware seja inicializado com prioridade normal | Você pode reduzir a prioridade do mecanismo Microsoft Defender Antivírus, o que pode ser útil em implantações leves onde você deseja ter o mais enxuto possível de um processo de inicialização. Isso pode afetar a proteção no ponto de extremidade. | Habilitado
        | Permitir que o serviço antimalware permaneça em execução sempre | Se as atualizações de proteção foram desabilitadas, você pode definir Microsoft Defender Antivírus a ser executado. Isso reduz a proteção no ponto de extremidade. | Desabilitado |
@@ -71,7 +68,7 @@ Para habilitar e configurar a proteção always-on:
     
     1. No painel **Detalhes da Proteção** em Tempo Real à direita, clique duas vezes na configuração de política, conforme especificado na tabela a seguir:  
 
-       | Configuração | Descrição | Configuração padrão |
+       | Setting | Descrição | Configuração padrão |
        |-----------------------------|------------------------|-------------------------------|
        | Ativar o monitoramento de comportamento | O mecanismo AV monitorará processos de arquivo, alterações de arquivo e registro e outros eventos em seus pontos de extremidade para atividades mal-intencionadas suspeitas e conhecidas. | Habilitado |
        | Examinar todos os arquivos e anexos baixados | Arquivos baixados e anexos são verificados automaticamente. Isso funciona além do filtro Windows Defender SmartScreen, que verifica arquivos antes e durante o download. | Habilitado |
@@ -98,7 +95,7 @@ Para habilitar e configurar a proteção always-on:
 
     1. No painel **Verificar** detalhes à direita, clique duas vezes na configuração de política conforme especificado na tabela a seguir:
 
-       | Configuração | Descrição | Configuração padrão |
+       | Setting | Descrição | Configuração padrão |
        |-----------------------------|------------------------|-------------------------------|    
        | Ativar heurística | A proteção heurística desabilitará ou bloqueará atividades suspeitas imediatamente antes que o mecanismo Microsoft Defender Antivírus seja solicitado a detectar a atividade. | Habilitado |
 

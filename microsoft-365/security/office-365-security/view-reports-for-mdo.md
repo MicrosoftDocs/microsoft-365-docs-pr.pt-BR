@@ -16,18 +16,18 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Encontre e use relatórios para o Microsoft Defender para Office 365 no Centro de Conformidade & Segurança.
+description: Encontre e use relatórios do Microsoft Defender para Office 365 no portal Microsoft 365 Defender.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0b3e1ddf48ccd74b36c594d232c6761b921dee8c
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: a5c45f58ee83de11712b198c85a8e423314289bf
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599894"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930196"
 ---
-# <a name="view-defender-for-office-365-reports-in-the-reports-dashboard-in-the-security--compliance-center"></a>Exibir o Defender para Office 365 relatórios no painel Relatórios no Centro de Conformidade & Segurança
+# <a name="view-defender-for-office-365-reports-in-the-reports-dashboard-in-the-microsoft-365-defender-portal"></a>Exibir o Defender para Office 365 relatórios no painel Relatórios no portal Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -35,9 +35,9 @@ ms.locfileid: "51599894"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-O Microsoft Defender para organizações Office 365 (por exemplo, assinaturas do Microsoft 365 E5 ou o Microsoft Defender para o Plano 1 do Office 365 ou o Microsoft Defender para complementos do Plano 2 do Office 365) contém uma variedade de relatórios relacionados à segurança. Se você tiver as [permissões necessárias,](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)poderá exibir esses relatórios no Centro de Conformidade e Segurança & indo para **Painel de** \> **Relatórios.** Para ir diretamente para o painel Relatórios, abra <https://protection.office.com/insightdashboard> .
+O Microsoft Defender para organizações Office 365 (por exemplo, assinaturas do Microsoft 365 E5 ou o Microsoft Defender para o Plano 1 do Office 365 ou o Microsoft Defender para complementos do Plano 2 do Office 365) contém uma variedade de relatórios relacionados à segurança. Se você tiver [as](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)permissões necessárias, poderá exibir esses relatórios no portal  Microsoft 365 Defender, indo para Relatórios de colaboração \> **de email** Relatórios de colaboração de \> **email**. Para ir diretamente para o painel Relatórios, abra <https://security.microsoft.com/emailandcollabreport> .
 
-![O painel Relatórios no Centro de Conformidade & Segurança](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
+![O painel Relatórios no portal Microsoft 365 Defender](../../media/user-reported-messages.png)
 
 ## <a name="defender-for-office-365-file-types-report"></a>Relatório de tipos de arquivo do Defender for Office 365
 
@@ -45,7 +45,7 @@ O **relatório de Office 365** de tipos de arquivo do Defender mostra o tipo de 
 
  A exibição agregada do relatório permite 90 dias de filtragem, enquanto a exibição de detalhes permite apenas 10 dias de filtragem.
 
-Para exibir o relatório, abra o [Centro](https://protection.office.com)de  Conformidade & Segurança, vá para Painel de Relatórios e selecione Defender para Office 365 \>  tipos **de arquivo**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ATPFileReport> .
+Para exibir o relatório, abra o [portal Microsoft 365 Defender,](https://security.microsoft.com)vá para Painel de Relatórios e selecione Defender para Office 365  \>  tipos **de arquivo**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ATPFileReport> .
 
 ![Defender para Office 365 de tipos de arquivo no painel Relatórios](../../media/atp-file-types-report-widget.png)
 
@@ -127,7 +127,7 @@ Para voltar à exibição de relatórios, clique em **Exibir relatório**.
 
 O **relatório disposição de mensagens atp** mostra as ações que foram tomadas para mensagens de email que foram detectadas como tendo conteúdo mal-intencionado.
 
-Para exibir o relatório, abra o [Centro](https://protection.office.com)de  Conformidade & segurança, vá para Painel de Relatórios e selecione Defender para Office 365 \>  disposição **da mensagem.** Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ATPMessageReport> .
+Para exibir o relatório, abra o [portal Microsoft 365 Defender,](https://security.microsoft.com)acesse **Relatórios** Email & colaboração Email & relatórios de colaboração e selecione Defender para Office 365 \>  \>  disposição **de mensagem**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ATPMessageReport> .
 
 ![Defender para Office 365 de disposição de mensagens no painel Relatórios](../../media/atp-message-disposition-report-widget.png)
 
@@ -215,7 +215,7 @@ O **relatório de latência de email** mostra uma exibição agregada da entrega
 
 O lado do cliente e a latência de rede não estão incluídos.
 
-Para exibir o relatório, abra o [Centro](https://protection.office.com)de  Conformidade & segurança, vá para Painel de Relatórios e \>  selecione Relatório **de latência de email.** Para ir diretamente para o relatório, abra <https://protection.office.com/mailLatencyReport?viewid=P50> .
+Para exibir o relatório, abra o [portal Microsoft 365 Defender,](https://security.microsoft.com)acesse **Relatórios** Email & colaboração Email & relatórios de colaboração e clique em Exibir detalhes em Relatório de \>  \>  **latência**  de email . Para ir diretamente para o relatório, abra <https://security.microsoft.com/mailLatencyReport> .
 
 ![Widget de relatório de latência de email no painel Relatórios](../../media/mail-latency-report-widget.png)
 
@@ -268,7 +268,7 @@ O relatório de **status** de proteção contra ameaças é uma exibição únic
 
 O **relatório de proteção contra** ameaças de URL fornece exibições de resumo e tendência para ameaças detectadas e ações realizadas em cliques de URL como parte Cofre [Links](safe-links.md). Este relatório não terá os dados de clique de usuários nos quais a política de links Cofre aplicada tem a opção Não rastrear **cliques do** usuário selecionada.
 
-Para exibir o relatório, abra o [Centro](https://protection.office.com)de Conformidade & segurança, vá **para** Painel de Relatórios e selecione Relatório de proteção \>  **de URL.** Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=URLProtectionActionReport> .
+Para exibir o relatório, abra o [portal](https://security.microsoft.com)Microsoft 365 Defender , acesse **Relatórios** Email & colaboração \>  \> **Email &**  colaboração e clique em Exibir detalhes em **Relatório** de proteção de URL . Para ir diretamente para o relatório, abra <https://security.microsoft.com/reports/URLProtectionActionReport> .
 
 ![Widget de relatório de proteção de URL no painel Relatórios](../../media/url-protection-report-widget.png)
 
@@ -336,8 +336,8 @@ Além dos relatórios descritos neste artigo, vários outros relatórios estão 
 |Relatório|Tópico|
 |---|---|
 |**Explorer** (Microsoft Defender para Office 365 Plano 2) ou detecções em tempo **real** (Microsoft Defender para Office 365 Plano 1)|[Explorador de Ameaças (e detecções em tempo real)](threat-explorer.md)|
-|**Relatórios de segurança de** email , como o relatório principais remetentes e destinatários, o relatório de email Spoof e o relatório de detecções de spam.|[Exibir relatórios de segurança de email no Centro de Conformidade & Segurança](view-email-security-reports.md)|
-|**Relatórios de fluxo de** emails , como o relatório de encaminhamento, o relatório de status de fluxo de emails e o relatório de principais destinatários e destinatários.|[Exibir relatórios de fluxo de emails no Centro de Conformidade & Segurança](view-mail-flow-reports.md)|
+|**Relatórios de segurança de** email , como o relatório principais remetentes e destinatários, o relatório de email Spoof e o relatório de detecções de spam.|[Exibir relatórios de segurança de email no portal Microsoft 365 Defender](view-email-security-reports.md)|
+|**Relatórios de fluxo de** emails , como o relatório de encaminhamento, o relatório de status de fluxo de emails e o relatório de principais destinatários e destinatários.|[Exibir relatórios de fluxo de emails no portal Microsoft 365 Defender](view-mail-flow-reports.md)|
 |**Rastreamento de URL para Cofre Links** (somente PowerShell). A saída deste cmdlet mostra os resultados das ações Cofre Links nos últimos sete dias.|[Get-UrlTrace](/powershell/module/exchange/get-urltrace)|
 |**Resultados do tráfego de email para o EOP e o Microsoft Defender para Office 365** (somente o PowerShell). A saída deste cmdlet contém informações sobre Domínio, Data, Tipo de Evento, Direção, Ação e Contagem de Mensagens.|[Get-MailTrafficATPReport](/powershell/module/exchange/get-mailtrafficatpreport)|
 |**Relatórios de detalhes de email do EOP e do Defender para Office 365 detecções** (somente do PowerShell). A saída deste cmdlet contém detalhes sobre arquivos mal-intencionados ou URLs, tentativas de phishing, representação e outras possíveis ameaças em emails ou arquivos.|[Get-MailDetailATPReport](/powershell/module/exchange/get-maildetailatpreport)|
@@ -345,16 +345,16 @@ Além dos relatórios descritos neste artigo, vários outros relatórios estão 
 
 ## <a name="what-permissions-are-needed-to-view-the-defender-for-office-365-reports"></a>Quais permissões são necessárias para exibir o Defender para Office 365 relatórios?
 
-Para exibir e usar os relatórios descritos neste artigo, você precisa ser membro de um dos seguintes grupos de funções no Centro de Conformidade & Segurança:
+Para exibir e usar os relatórios descritos neste artigo, você precisa ser membro de um dos seguintes grupos de função no portal Microsoft 365 Defender:
 
 - **Organization Management**
 - **Administrador de Segurança**
-- **Leitor de segurança**
+- **Leitor de Segurança**
 - **Leitor Global**
 
-Para saber mais, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
+Para obter mais informações, consulte [Permissões no portal Microsoft 365 Defender](permissions-in-the-security-and-compliance-center.md).
 
-**Observação**: a adição de usuários à função de Azure Active Directory correspondente no centro de administração Microsoft 365 fornece  aos usuários as permissões necessárias no Centro de Conformidade & segurança e permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+**Observação**: a adição de usuários à função de Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no _portal_ do Microsoft 365 Defender e permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>E se os relatórios não mostrarem dados?
 
@@ -362,6 +362,6 @@ Se você não estiver vendo dados em seus relatórios do Defender Office 365, ve
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Relatórios inteligentes e insights no Centro de Conformidade e Segurança](reports-and-insights-in-security-and-compliance.md)
+[Relatórios inteligentes e insights no portal Microsoft 365 Defender](reports-and-insights-in-security-and-compliance.md)
 
 [Permissões de função (Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#role-permissions)

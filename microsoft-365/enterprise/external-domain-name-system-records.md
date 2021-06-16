@@ -22,18 +22,24 @@ search.appverid:
 - BCS160
 ms.assetid: c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0
 description: Uma lista de referências de registros do Sistema de Nomes de Domínio externos para serem usados ao planejar uma implantação do Office 365.
-ms.openlocfilehash: 3aa6bf3362005eb0dae5bca40322fe2178d5d69f
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 2cbbbcb6105feccdaed1f7b6ce05a84b374024c0
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051373"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926258"
 ---
 # <a name="external-domain-name-system-records-for-office-365"></a>Registros de Sistema de Nomes de Domínio Externos para o Office 365
 
-|||
-|:-----|:-----|
-|![Domínio](../media/e05b1c78-1df0-4200-ba40-6e26b7ead68f.png)|**Deseja ver uma lista personalizada de registros DNS para sua organização do Office 365?** Encontre [ as informações necessárias para criar registros DNS do Office 365](https://support.office.microsoft.com/article/Gather-the-information-you-need-to-create-Office-365-DNS-records-77f90d4a-dc7f-4f09-8972-c1b03ea85a67) para seu domínio no Office 365.  <br/> **Precisa de ajuda passo a passo para adicionar esses registros ao host de DNS de seu domínio, como GoDaddy ou eNom?** [Encontre links de instruções passo a passo para vários hosts DNS conhecidos](../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md). <br/>  **Ainda deseja usar a lista de referências para sua implantação personalizada?** A lista abaixo deve ser usada como uma referência para sua implantação personalizada do Office 365. Será necessário selecionar quais registros se aplicam à sua organização e preencher os valores apropriados. <br/> **Volte para o** [Planejamento de rede e ajuste de desempenho para o Office 365](./network-planning-and-performance.md).  <br/> |
+![Domínio](../media/e05b1c78-1df0-4200-ba40-6e26b7ead68f.png)
+
+**Deseja ver uma lista personalizada de registros DNS para sua organização do Office 365?** Encontre [ as informações necessárias para criar registros DNS do Office 365](https://support.office.microsoft.com/article/Gather-the-information-you-need-to-create-Office-365-DNS-records-77f90d4a-dc7f-4f09-8972-c1b03ea85a67) para seu domínio no Office 365.  
+
+**Precisa de ajuda passo a passo para adicionar esses registros ao host de DNS de seu domínio, como GoDaddy ou eNom?** [Encontre links de instruções passo a passo para vários hosts DNS conhecidos](../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md). 
+
+**Ainda deseja usar a lista de referências para sua implantação personalizada?** A lista abaixo deve ser usada como uma referência para sua implantação personalizada do Office 365. Será necessário selecionar quais registros se aplicam à sua organização e preencher os valores apropriados. 
+
+**Volte para o** [Planejamento de rede e ajuste de desempenho para o Office 365](./network-planning-and-performance.md).
 
 Geralmente, os registros SPF e MX são os mais difíceis de entender. Atualizamos nossa orientação para registros SPF no final deste artigo. O mais importante é lembrar que _você pode ter apenas um único registro SPF para seu domínio_. Você pode ter vários registros MX, mas isso costuma causar problemas de entrega de emails. Ter um único registro MX que direciona os emails para um sistema de email elimina muitos desses possíveis problemas.
   
@@ -44,9 +50,8 @@ As seções abaixo são organizadas por serviço no Office 365. Para ver uma lis
 
 Cada cliente do Office 365 precisa adicionar dois registros ao seu DNS externo. O primeiro CNAME garante que o Office 365 possa direcionar estações de trabalho à plataforma de identidade apropriada. O segundo registro necessário é um registro para comprovar que você possui o nome de domínio.
   
-||||
-|:-----|:-----|:-----|
 |**Registro DNS** <br/> |**Objetivo** <br/> |**Valor a ser usado** <br/> |
+|----------|-----------|------------|
 |**CNAME** <br/> **(Suite)** <br/> |Usado pelo Office 365 para direcionar a autenticação para a plataforma de identificação correta. [Mais informações](../admin/services-in-china/purpose-of-cname.md?viewFallbackFrom=o365-worldwide) <br/> **Observação:** Este CNAME só se aplica ao Office 365 operado pela 21Vianet. [Mais informações](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet)  |**Alias:** msoid  <br/> **Destino:** clientconfig.partner.microsoftonline-p.net.cn  <br/> |
 |**TXT** <br/> **(Verificação de domínio)** <br/> |Usado pelo Office 365 somente para verificar se você é o proprietário do seu domínio. Não afeta nada mais.  <br/> |**Host:** @ (ou, para alguns provedores de hospedagem DNS, o nome do seu domínio)  <br/> **Valor do TXT:** _uma cadeia de texto fornecida pelo_ Office 365  <br/> O **assistente de configuração de domínio** do Office 365 fornece os valores usados para criar esse recurso.  <br/> |
 
@@ -65,9 +70,8 @@ Você só quer migrar alguns endereços de email para o Office 365? Você pode [
 
 Os clientes de email que estão usando a Federação do Exchange também terão um registro CNAME e TXT adicional listado no final da tabela.
   
-||||
-|:-----|:-----|:-----|
 |**Registro DNS** <br/> |**Objetivo** <br/> |**Valor a ser usado** <br/> |
+|----------|-----------|------------|
 |**CNAME** <br/> **(Exchange Online)** <br/> |Ajuda os clientes do Outlook a se conectarem com facilidade ao serviço do Exchange Online usando o serviço de Descoberta Automática. A Descoberta Automática encontra automaticamente o host correto do Exchange Server e configura o Outlook para os usuários.  <br/> |**Alias:** descoberta automática  <br/> **Destino:** autodiscover.outlook.com  <br/> |
 |**MX** <br/> **(Exchange Online)** <br/> |Envia emails de entrada de seu domínio para o serviço Exchange Online no Office 365.  <br/> [!NOTE] Quando os emails estão sendo enviados para o Exchange Online, você deve remover os registros MX que apontam para o sistema antigo.   |**Domínio:** por exemplo, contoso.com  <br/> **Servidor de email de destino:**\<MX token\>.mail.protection.outlook.com  <br/> **Preferência/Prioridade:** menor do que outros registros MX (isso garante que o email seja entregue ao Exchange Online), por exemplo, 1 ou “baixa”  <br/>  Encontre o seu \<MX token\> seguindo estas etapas:  <br/>  Entre no Office 365, vá para o administrador do Office 365 \>Domínios.  <br/>  Na coluna Ação de seu domínio, escolha Corrigir problemas.  <br/>  Na seção de registros MX, escolha O que corrigir?  <br/>  Siga as instruções nesta página para atualizar seu registro MX.  <br/> [O que é prioridade MX?](../admin/setup/domains-faq.yml) <br/> |
 |**SPF (TXT)** <br/> **(Exchange Online)**  <br/> |Ajuda a impedir que outras pessoas usem seu domínio para enviar spam ou outros emails mal-intencionados. Os registros SPF (sender policy framework) identificam os servidores autorizados a enviar email de seu domínio.  <br/> |[Registros DNS externos necessários para SPF](external-domain-name-system-records.md#BKMK_SPFrecords) <br/> |
@@ -83,9 +87,8 @@ Há etapas específicas a serem seguidas quando você usa [URLs e intervalos de 
 > [!NOTE]
 > Esses registros DNS também se aplicam ao Teams, especialmente em um cenário híbrido do Teams e do Skype for Business, onde podem surgir certos problemas de federação.
   
-||||
-|:-----|:-----|:-----|
 |**Registro DNS** <br/> |**Objetivo** <br/> |**Valor a ser usado** <br/> |
+|----------|-----------|------------|
 |**SRV** <br/> **(Skype for Business Online)** <br/> |Permite que o domínio do Office 365 compartilhe recursos de mensagens instantâneas (IM) com clientes externos habilitando a federação SIP. Leia mais sobre [URLs e intervalos de endereços IP do Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO).  <br/> |**Serviço:** sipfederationtls  <br/> **Protocolo:** TCP  <br/> **Priority:** 100  <br/> **Peso:** 1  <br/> **Porta:** 5061  <br/> **Destino:** sipfed.online.lync.com  <br/> **Observação:** Se o firewall ou o servidor proxy bloquearem pesquisas SRV em um DNS externo, você deverá adicionar esse registro ao registro DNS interno.   |
 |**SRV** <br/> **(Skype for Business Online)** <br/> |Usado pelo Skype for Business para coordenar o fluxo de informações entre clientes do Lync.  <br/> |**Serviço:** sip  <br/> **Protocolo:** TLS  <br/> **Priority:** 100  <br/> **Peso:** 1  <br/> **Porta:** 443  <br/> **Destino:** sipdir.online.lync.com  <br/> |
 |**CNAME** <br/> **(Skype for Business Online)** <br/> |Usado pelo cliente do Lync para ajudar a localizar o serviço do Skype for Business Online e entrar.  <br/> |**Alias:** sip  <br/> **Destino:** sipdir.online.lync.com  <br/> Para obter mais informações, confira [URLs e intervalos de endereços IP do Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO).  <br/> |
@@ -94,16 +97,15 @@ Há etapas específicas a serem seguidas quando você usa [URLs e intervalos de 
 ## <a name="external-dns-records-required-for-office-365-single-sign-on"></a>Registros DNS externos exigidos para Acesso por Logon Único ao Office 365
 <a name="BKMK_ReqdCore"> </a>
 
-||||
-|:-----|:-----|:-----|
 |**Registro DNS** <br/> |**Objetivo** <br/> |**Valor a ser usado** <br/> |
+|----------|-----------|------------|
 |**Host (A)** <br/> |Usado para logon único (SSO). Fornece o ponto de extremidade para que seus usuários externos (e usuários locais, se você quiser) se conectem aos proxies do servidor de federação dos Serviços de Federação do Active Directory (AD FS) ou ao IP virtual com balanceamento de carga (VIP).  <br/> |**Destino:** por exemplo, sts.contoso.com  <br/> |
 
 ## <a name="external-dns-records-required-for-spf"></a>Registros DNS externos necessários para SPF
 <a name="BKMK_SPFrecords"> </a>
 
 > [!IMPORTANT]
-> A SPF foi projetada para ajudar a evitar a falsificação, mas existem técnicas de falsificação que a SPF não ajuda a proteger. Para proteger contra essas técnicas, depois de configurar a SPF, você também deve configurar o DKIM e o DMARC para o Office 365. Para começar, confira [Use DKIM to validate outbound email sent from your domain in Office 365](../security/defender-365-security/use-dkim-to-validate-outbound-email.md). A seguir, veja [Use DMARC to validate email in Office 365](../security/defender-365-security/use-dmarc-to-validate-email.md).
+> A SPF foi projetada para ajudar a evitar a falsificação, mas existem técnicas de falsificação que a SPF não ajuda a proteger. Para proteger contra essas técnicas, depois de configurar a SPF, você também deve configurar o DKIM e o DMARC para o Office 365. Para começar, confira [Use DKIM to validate outbound email sent from your domain in Office 365](../security/office-365-security/use-dkim-to-validate-outbound-email.md). A seguir, veja [Use DMARC to validate email in Office 365](../security/office-365-security/use-dmarc-to-validate-email.md).
   
 Os registros SPF são registros TXT que ajudam a impedir que outras pessoas usem seu domínio para enviar spam ou outros emails mal-intencionados. Os registros SPF (sender policy framework) identificam os servidores autorizados a enviar emails de seu domínio.
   
@@ -118,14 +120,14 @@ TXT Name @
 Values: v=spf1 include:spf.protection.outlook.com -all
 ```
 
-Um sistema de emails que recebe um email do seu domínio analisa o registro SPF. Se o servidor de email que enviou a mensagem era um servidor do Office 365, a mensagem é aceita. Se o servidor que enviou a mensagem era o seu antigo sistema de emails ou um sistema mal-intencionado na Internet, por exemplo, a verificação de SPF pode falhar, e a mensagem não ser enviada. Verificações como esta ajudam a evitar mensagens de falsificação e phishing.
+Um sistema de email que recebe um email do seu domínio analisa o registro SPF, e se o servidor de email que enviou a mensagem for um servidor do Office 365, a mensagem é aceita. Se o servidor que enviou a mensagem fosse seu antigo sistema de email ou um sistema mal-intencionado na Internet, por exemplo, a verificação de SPF poderia falhar e a mensagem não seria entregue. Verificações como esta ajudam a evitar mensagens de falsificação e de phishing.
   
 ### <a name="choose-the-spf-record-structure-you-need"></a>Escolha a estrutura de registro de SPF que precisar
 
 Para cenários em que você não está usando apenas o email do Exchange Online no Office 365 (por exemplo, quando você também usa o email proveniente do SharePoint Online), use a tabela a seguir para determinar o que incluir no valor do registro.
   
 > [!NOTE]
-> Se você tiver um cenário complicado que inclui, por exemplo, servidores de email de borda para o gerenciamento de tráfego de email em seu firewall, você terá um registro SPF mais detalhado para configurar. Saiba como: [Configurar registros SPF no Office 365 para ajudar a evitar falsificação](../security/defender-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md). Você também pode aprender muito mais sobre como o SPF funciona com o Office 365 lendo [Como o Office 365 usa Sender Policy Framework (SPF) para ajudar a evitar falsificação](../security/defender-365-security/how-office-365-uses-spf-to-prevent-spoofing.md).
+> Se você tiver um cenário complicado que inclui, por exemplo, servidores de email de borda para o gerenciamento de tráfego de email em seu firewall, você terá um registro SPF mais detalhado para configurar. Saiba como: [Configurar registros SPF no Office 365 para ajudar a evitar falsificação](../security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md). Você também pode aprender muito mais sobre como o SPF funciona com o Office 365 lendo [Como o Office 365 usa Sender Policy Framework (SPF) para ajudar a evitar falsificação](../security/office-365-security/how-office-365-uses-spf-to-prevent-spoofing.md).
   
 | Número|Se você estiver usando...  <br/> |Finalidade  <br/> |Adicionar isso inclui  <br/> |
 |:-----|:-----|:-----|:-----|
@@ -145,7 +147,7 @@ TXT Name @
 Values: v=spf1 ip4:60.200.100.30 include:smtp.adatum.com -all
 ```
 
-Agora, você está atualizando seu registro SPF do Office 365. Edite o registro atual para que você tenha um registro SPF que inclua os valores de que você precisa. Para o Office 365, "spf.protection.outlook.com".
+Agora você está atualizando seu registro SPF para o Office 365. Você editará seu registro atual para ter um registro SPF que inclua os valores que você precisa. Para o Office 365, "spf.protection.outlook.com".
   
 Correto:
   
@@ -167,7 +169,7 @@ Values: v=spf1 include:spf.protection.outlook.com -all
 ### <a name="more-examples-of-common-spf-values"></a>Mais exemplos de valores de SPF comuns
 <a name="bkmk_addtospf"> </a>
 
-Se você estiver usando o pacote completo do Office 365 e estiver usando MailChimp para enviar emails de marketing em seu nome, seu registro SPF em contoso.com poderá se parecer com o seguinte, que usa as linhas 1, 3 e 5 da tabela acima. Lembre-se de que as linhas 1 e 5 são necessárias.
+Se você estiver usando o pacote completo do Office 365 e estiver usando MailChimp para enviar emails de marketing em seu nome, seu registro SPF em contoso.com pode se parecer com o seguinte, que usa as linhas 1, 3 e 5 da tabela acima. Lembre-se, as linhas 1 e 5 são necessárias.
   
 ``` dns
 TXT Name @
@@ -181,6 +183,6 @@ TXT Name @
 Values: v=spf1 include:spf.protection.outlook.com include:mail.contoso.com -all
 ```
 
-Existem alguns exemplos comuns que podem ajudar você a adaptar seu registro SPF existente quando você adicionar seu domínio ao Office 365 para emails. Se você tiver um cenário complicado que inclua, por exemplo, servidores de email de borda para o gerenciamento de tráfego de email em seu firewall, você terá um registro SPF mais detalhado para configurar. Saiba como: [Configurar registros SPF no Office 365 para evitar a falsificação](../security/defender-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md).
+Existem alguns exemplos comuns que podem ajudar você a adaptar seu registro SPF existente quando você adicionar seu domínio ao Office 365 para emails. Se você tiver um cenário complicado que inclua, por exemplo, servidores de email de borda para o gerenciamento de tráfego de email em seu firewall, você terá um registro SPF mais detalhado para configurar. Saiba como: [Configurar registros SPF no Office 365 para evitar a falsificação](../security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md).
   
 Aqui está um link curto que você pode usar para voltar: [https://aka.ms/o365edns]()

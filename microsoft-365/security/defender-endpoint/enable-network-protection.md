@@ -8,17 +8,18 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
 localization_priority: Normal
+ms.topic: conceptual
 author: dansimp
 ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: b62659360e990467524ec632968dfea313d0b164
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: bde97638a39eef4561b898b2cf49e51bed6e77a5
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861666"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926650"
 ---
 # <a name="turn-on-network-protection"></a>Ativar a proteção de rede
 
@@ -81,7 +82,7 @@ Habilita a proteção de rede usando qualquer um desses métodos:
 
 ### <a name="mobile-device-management-mdm"></a>Gerenciamento de dispositivos móveis (MDM)
 
-Use o provedor de serviço de configuração [./Vendor/MSFT/Policy/Config/Defender/EnableNetworkProtection](/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection) (CSP) para habilitar ou desabilitar a proteção de rede ou habilitar o modo de auditoria.
+Use o provedor de serviço de configuração [./Vendor/MSFT/Policy/Config/Defender/EnableNetworkProtection](/windows/client-management/mdm/policy-csp-defender) (CSP) para habilitar ou desabilitar a proteção de rede ou habilitar o modo de auditoria.
 
 ### <a name="microsoft-endpoint-manager-formerly-intune"></a>Microsoft Endpoint Manager (anteriormente Intune)
 

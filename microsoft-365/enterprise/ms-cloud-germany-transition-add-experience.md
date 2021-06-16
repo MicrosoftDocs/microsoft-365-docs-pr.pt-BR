@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: atividades pós-migração depois de mudar do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para Office 365 serviços na nova região do datacenter alemão.'
-ms.openlocfilehash: ee8dedf7ffaf6bfc4246b1a8cc2522c15d763cd1
-ms.sourcegitcommit: 1c53f114a810e7aaa2dc876b84d66348492ea36c
+ms.openlocfilehash: 3659ce8ffa3424c3521c8f8954be88c7d53d0a51
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899359"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930410"
 ---
 # <a name="post-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>Atividades pós-migração para a migração do Microsoft Cloud Deutschland
 
@@ -53,7 +53,7 @@ The following table provides an overview about which endpoints will replace the 
 
 | Step(s) | Descrição | Impacto |
 |:-------|:-------|:-------|
-| Remova as confianças de terceiros confiável do Microsoft Cloud Deutschland AD FS. | Após a conclusão do corte no Azure AD, a organização está usando totalmente os serviços Office 365 e não está mais conectada ao Microsoft Cloud Deutschland. Neste ponto, o cliente precisa remover a confiança da parte confiável para os pontos de extremidade do Microsoft Cloud Deutschland. Isso só pode ser feito quando nenhum dos aplicativos do cliente aponta para os pontos de extremidade do Microsoft Cloud Deutschland quando o Azure AD é aproveitado como um Provedor de Identidade (IdP). | Organizações de Autenticação Federada | Nenhum. |
+| Remova as confianças de terceiros confiável do Microsoft Cloud Deutschland AD FS. | Após a conclusão do corte no Azure AD, a organização está usando totalmente os serviços Office 365 e não está mais conectada ao Microsoft Cloud Deutschland. Neste ponto, o cliente precisa remover a confiança da parte confiável para os pontos de extremidade do Microsoft Cloud Deutschland. Isso só pode ser feito quando nenhum dos aplicativos do cliente aponta para os pontos de extremidade do Microsoft Cloud Deutschland quando o Azure AD é aproveitado como um Provedor de Identidade (IdP). | Organizações de Autenticação Federada | 
 ||||
 
 <!--
@@ -68,16 +68,12 @@ The following table provides an overview about which endpoints will replace the 
 | As solicitações para ingressar em um grupo do Azure AD nos últimos 30 dias antes da migração precisarão ser solicitadas novamente se a solicitação original não tiver sido aprovada. | Os clientes do usuário final precisarão usar o painel do Access para enviar uma solicitação para ingressar em um grupo do Azure AD novamente se essas solicitações não foram aprovadas nos últimos 30 dias antes da migração. |  Como usuário final: <ol><li>Navegue até [o painel do Access](https://account.activedirectory.windowsazure.com/r#/joinGroups).</li><li>Encontre um grupo do Azure AD para o qual a aprovação de associação estava pendente durante os 30 dias antes da migração.</li><li>Solicitação para ingressar no grupo do Azure AD novamente.</li></ol> As solicitações para ingressar em um grupo que estão ativos menos de 30 dias antes da migração não podem ser aprovadas, a menos que sejam solicitadas novamente após a migração. |
 ||||
 
-<!--
-    Question from ckinder
-    The following paragraph is not clear
--->
 ## <a name="custom-dns-updates"></a>Atualizações DNS personalizadas
 **Aplica-se a:**  Todos os clientes gerenciando suas próprias zonas DNS
 
 | Step(s) | Descrição | Impacto |
 |:------|:-------|:-------|
-| Atualize os serviços DNS locais para Office 365 de serviços. | As entradas DNS gerenciadas pelo cliente que apontam para o Microsoft Cloud Deutschland precisam ser atualizadas para apontar para os pontos de extremidade Office 365 serviços globais. | A falha ao fazer isso pode resultar em falha do serviço ou de clientes de software. |
+| Atualize os serviços DNS locais para Office 365 de serviços. | As entradas DNS gerenciadas pelo cliente que apontam para o Microsoft Cloud Deutschland precisam ser atualizadas para apontar para os pontos de extremidade Office 365 serviços globais. Consulte [Domínios no centro de](https://admin.microsoft.com/Adminportal/Home#/Domains) administração Microsoft 365 e aplique as alterações em sua configuração DNS. | A falha ao fazer isso pode resultar em falha do serviço ou de clientes de software. |
 ||||
 
 ## <a name="third-party-services"></a>Serviços de terceiros
@@ -87,19 +83,3 @@ The following table provides an overview about which endpoints will replace the 
 |:-------|:-------|:-------|
 | Atualize parceiros e serviços de terceiros para Office 365 de serviços. | <ul><li>Os serviços e parceiros de terceiros que apontam para Office 365 Alemanha precisam ser atualizados para apontar para os pontos de extremidade Office 365 serviços. Exemplo: registre-se de novo, em alinhamento com seus fornecedores e parceiros, a versão do aplicativo de galeria de aplicativos, se disponível. </li><li>Aponte todos os aplicativos personalizados que aproveitam Graph API de `graph.microsoft.de` `graph.microsoft.com` para . Outras APIs com pontos de extremidade alterados também precisam ser atualizadas, se usadas. </li><li>Altere todos os aplicativos corporativos não de primeira parte para redirecionar para os pontos de extremidade em todo o mundo. </li></ul>| Ação necessária. A falha ao fazer isso pode resultar em falha do serviço ou de clientes de software. |
 ||||
-
-## <a name="sharepoint-online"></a>SharePoint Online
-**Aplica-se a**: clientes usando SharePoint fluxos de trabalho 2013
-
-| Step(s) | Descrição | Impacto |
-|:-------|:-------|:-------|
-| Republicar SharePoint fluxos de trabalho 2013. | No trabalho de pré-migração, reduzimos o número de fluxos de trabalho SharePoint 2013. Agora, com a migração concluída, o cliente pode republicar os fluxos de trabalho. | Esta é uma ação necessária. A falha ao fazer isso pode resultar em confusão do usuário e chamadas de help desk. |
-| Compartilhar itens por Outlook | O compartilhamento de itens no SharePoint Online e OneDrive for Business via Outlook não funciona mais após a recortação de locatários. |<ul><li>No SharePoint Online e OneDrive for Business, você pode compartilhar itens por meio Outlook. Depois de pressionar o botão Outlook, um link compartilhável é criado e pressionado para uma nova mensagem no Outlook Web App.</li><li>Após a recorte do locatário, esse método de compartilhamento não funcionará. Reconhecemos que esse é um problema conhecido. No entanto, como Outlook recurso de Outlook está no caminho da deprecação, a correção do problema não é planejada até que a depreciação seja aplicada. </li></ul>|
-||||
-
-## <a name="exchange-online"></a>Exchange Online
-**Aplica-se a**: clientes usando uma configuração Exchange híbrida
-
-| Step(s) | Descrição | Impacto |
-|:-------|:-------|:-------|
-| Rerun Hybrid Configuration wizard (HCW) against Office 365 services. | A configuração do HCW existente deve dar suporte ao Microsoft Cloud Deutschland. Com a migração Exchange serviços concluídos, desaparecemos a configuração local do Microsoft Cloud Deutschland. |<ul><li>Ação necessária. A falha ao fazer isso pode resultar em falha do serviço ou de clientes de software. Antes Exchange a migração de caixa de correio começar (com 5 ou mais dias de aviso), notifique os clientes de que eles devem parar e excluir quaisquer movimentações de integração ou de offboard de suas caixas de correio.  Se não o fazem, eles verão erros em suas solicitações de movimentação. </li><li>Depois Exchange a migração de caixa de correio for concluída, notifique os clientes de que eles podem retomar as movimentações de integração e de offboard. <br> Executar **Test-MigrationServerAvailabiilty**, um cmdlet do PowerShell, durante a migração do Exchange do Microsoft Cloud Deutschland para Office 365 serviços pode não funcionar. No entanto, ele funcionará corretamente depois que a migração for concluída. </li><li>Se os clientes se derem com problemas com credenciais ou autorização após a migração das caixas de correio, os usuários poderão reinserer suas credenciais de administrador local no ponto de extremidade de migração executando ou definindo o mesmo usando o ECP (Painel de Controle do `Set-MigrationEndpoint endpointName -Credential $(Get-Credential)` Exchange). </li></ul>|

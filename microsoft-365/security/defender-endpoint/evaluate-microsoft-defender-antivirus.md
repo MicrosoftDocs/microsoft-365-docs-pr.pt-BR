@@ -6,7 +6,8 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: Normal
+localization_priority: normal
+ms.topic: conceptual
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -14,13 +15,12 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.topic: article
-ms.openlocfilehash: 4f789ab80d48966d4cf922811d05d74882d728fe
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 5c558a7799bff61a0ee80db31ee476ad611053c0
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274731"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926614"
 ---
 # <a name="evaluate-microsoft-defender-antivirus"></a>Avaliar o Microsoft Defender Antivírus
 

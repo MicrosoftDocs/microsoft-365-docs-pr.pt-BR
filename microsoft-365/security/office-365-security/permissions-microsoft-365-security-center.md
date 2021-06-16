@@ -19,12 +19,12 @@ description: Os administradores podem aprender a gerenciar permissões no portal
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e810b0146803d22246db6d4248d7d4a6a203834b
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 4ed1d90bdc6e222d44179a77e9617d05909a4258
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879019"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926458"
 ---
 # <a name="permissions-in-the-microsoft-365-defender-portal"></a>Permissões no portal do Microsoft 365 Defender
 

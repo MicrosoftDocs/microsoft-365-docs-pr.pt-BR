@@ -1,5 +1,5 @@
 ---
-title: Segurança do Office 365, Microsoft Defender para Office 365, EOP, MSDO
+title: Office 365 Visão geral de segurança, Microsoft Defender para Office 365, EOP, MSDO
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
@@ -13,17 +13,18 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Segurança no Office 365, do EOP aos planos 1 e 2 do Defender para Office 365, Configurações de segurança padrão versus estritas e muito mais. Entenda o que você tem e como proteger suas propriedades.
+description: Segurança no Office 365, do EOP aos planos 1 e 2 do Defender para Office 365, Configurações de segurança padrão versus estritas e muito mais. Entenda o que você tem e saiba como proteger suas propriedades.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: db37718ce2feae9c79ff6b323eb22e30f24e72b2
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8040a6b7758e271d68af872bc2acf9ebac3af9d4
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203077"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926482"
 ---
-# <a name="office-365-security-overview"></a>Visão geral da Segurança do Office 365
+# <a name="office-365-security"></a>Segurança do Office 365
+
 
 **Aplica-se a**
 - [Proteção do Exchange Online](exchange-online-protection-overview.md)

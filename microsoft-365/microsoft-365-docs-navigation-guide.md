@@ -9,12 +9,13 @@ ms.custom: ''
 ms.topic: conceptual
 author: samanro
 ms.author: samanro
-ms.openlocfilehash: 07f406a0470c1cdf64ed4dd2b4acee3b793a8a15
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+manager: pamgreen
+ms.openlocfilehash: 99f4018a0fe5fdd7d3d6acdad0fa19c443412023
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922419"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926674"
 ---
 # <a name="microsoft-365-docs-navigation-guide"></a>Microsoft 365 guia de navegação de documentos
 

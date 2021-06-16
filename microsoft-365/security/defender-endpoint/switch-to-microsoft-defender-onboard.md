@@ -17,16 +17,18 @@ audience: ITPro
 ms.collection:
 - M365-security-compliance
 - m365solution-migratetomdatp
+- m365solution-mcafeemigrate
+- m365solution-symantecmigrate
 ms.custom: migrationguides
 ms.topic: article
-ms.date: 05/20/2021
+ms.date: 06/14/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 939fea5b815827f5afbe6cdf78fd9335da6337e8
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 832414e9b2a88114cafafbba78e22ea656cc7949
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52594056"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930458"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-3-onboard"></a>Alternar para o Microsoft Defender para o Ponto de Extremidade - Fase 3: Onboard
 

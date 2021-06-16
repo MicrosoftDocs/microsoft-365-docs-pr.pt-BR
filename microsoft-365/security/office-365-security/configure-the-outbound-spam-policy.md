@@ -19,12 +19,12 @@ ms.custom:
 description: Os administradores podem aprender a exibir, criar, modificar e excluir políticas de spam de saída no Proteção do Exchange Online (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 13b25300b6e5b42c860c58546f9c084a244b5f1f
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 9dadea740267225ff2df316b96ba7ccef92fe01e
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878911"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52933126"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>Configurar a filtragem de spam de saída no EOP
 
@@ -68,7 +68,7 @@ Para aumentar a eficácia da filtragem de spam de saída, você pode criar polí
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Você abre o portal Microsoft 365 Defender em <https://security.microsoft.com> . Para ir diretamente à página de **Configurações antispam**, use <https://security.microsoft.com/antispam>.
+- Abra o portal do Microsoft 365 Defender em <https://security.microsoft.com>. Para ir diretamente à página de **Configurações antispam**, use <https://security.microsoft.com/antispam>.
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -91,7 +91,7 @@ Para aumentar a eficácia da filtragem de spam de saída, você pode criar polí
 
 A criação de uma política de spam de saída personalizada no portal Microsoft 365 Defender cria a regra de filtro de spam e a política de filtro de spam associada ao mesmo tempo usando o mesmo nome para ambos.
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-spam**.
+1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
 
 2. Na página **Políticas anti-spam,** clique em Criar ícone Criar política e ![ selecione ](../../media/m365-cc-sc-create-icon.png)  **Saída** na listada.
 
@@ -177,7 +177,7 @@ A criação de uma política de spam de saída personalizada no portal Microsoft
 
 ## <a name="use-the-microsoft-365-defender-portal-to-view-outbound-spam-policies"></a>Usar o portal Microsoft 365 Defender para exibir políticas de spam de saída
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-spam**.
+1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
 
 2. Na página **Políticas anti-spam**, procure um dos seguintes valores:
    - O **valor Type** é Política de spam de saída **personalizada**
@@ -194,7 +194,7 @@ A criação de uma política de spam de saída personalizada no portal Microsoft
 
 ## <a name="use-the-microsoft-365-defender-portal-to-modify-outbound-spam-policies"></a>Usar o portal Microsoft 365 Defender para modificar políticas de spam de saída
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-spam**.
+1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
 
 2. Na página **Políticas anti-spam,** selecione uma política de spam de saída na lista clicando no nome:
    - Uma política personalizada criada onde o valor na coluna **Tipo** é Política de spam de **saída personalizada.**
@@ -210,7 +210,7 @@ Para habilitar ou desabilitar uma política, definir a ordem de prioridade da po
 
 Não é possível desabilitar a política de spam de saída padrão.
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-spam**.
+1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
 
 2. Na página **Políticas anti-spam,** selecione uma política com o valor **Tipo** da política de **spam** de saída personalizada na lista clicando no nome.
 
@@ -228,21 +228,21 @@ De volta à página da política principal, o valor **Status** da política ser�
 
 Por padrão, as políticas de spam de saída têm uma prioridade baseada na ordem em que foram criadas (as políticas mais novas têm prioridade menor do que as políticas mais antigas). Um número de prioridade menor indica uma maior prioridade para a política (0 é a maior), e as políticas são processadas por ordem de prioridade (políticas com maior prioridade são processadas antes das políticas com menor prioridade). Duas políticas não podem ter a mesma prioridade, e o processamento da política será interrompido após a primeira política ser aplicada.
 
-Para alterar a prioridade de  uma política, clique em Aumentar prioridade ou Diminuir prioridade nas propriedades da política (não é possível modificar diretamente o número **priority** no portal Microsoft 365 Defender).  Alterar a prioridade de uma política só faz sentido se você tiver várias políticas.
+Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou **Diminuir prioridade** nas propriedades da política (não é possível modificar diretamente o número da **Prioridade** no portal Microsoft 365 Defender). Alterar a prioridade de uma política só faz sentido se você tiver várias políticas.
 
  **Observações**:
 
 - No portal Microsoft 365 Defender, você só pode alterar a prioridade da política de spam de saída após a criação. No PowerShell, é possível substituir a prioridade padrão ao criar a regra de filtro de spam (o que pode afetar a prioridade das regras existentes).
 - As políticas de spam de saída são processadas na ordem em que são exibidas (a primeira política tem o **valor priority** 0). A política de spam de saída padrão tem o valor de prioridade **Mais** Baixo e você não pode alterá-la.
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-spam**.
+1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
 
 2. Na página **Políticas anti-spam,** selecione uma  política de seleção com o valor Tipo da política de **spam** de saída personalizada na lista clicando no nome.
 
 3. Na parte superior do submenu de detalhes da política exibido, você verá **Aumentar a prioridade** ou **Diminuir a prioridade** com base no valor de prioridade atual e no número de políticas personalizadas:
    - A política de spam de saída com **o valor Prioridade** **0** tem apenas a **opção Diminuir** prioridade disponível.
    - A política de spam de saída com o menor valor **priority** (por exemplo, **3**) tem apenas a **opção Aumentar prioridade** disponível.
-   - Se você tiver três ou mais políticas de spam de saída, as políticas entre os valores de prioridade mais alto e mais baixo terão as opções **Aumentar** prioridade e Diminuir **prioridade** disponíveis.
+   - Se você tiver três ou mais políticas de spam de saída, as políticas entre os valores de prioridade mais alta e mais baixa terão as opções **Aumentar** prioridade e Diminuir **prioridade** disponíveis.
 
    Clique no ![ícone Aumentar prioridade](../../media/m365-cc-sc-increase-icon.png) **Aumentar prioridade** ou no ![ícone Diminuir prioridade](../../media/m365-cc-sc-decrease-icon.png) **Diminuir prioridade** para alterar o valor da **Prioridade**.
 
@@ -252,7 +252,7 @@ Para alterar a prioridade de  uma política, clique em Aumentar prioridade ou Di
 
 Quando você usa o portal Microsoft 365 Defender para remover uma política de spam de saída personalizada, a regra de filtro de spam e a política de filtro de spam correspondente são excluídas. Não é possível remover a política de spam de saída padrão.
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-spam**.
+1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
 
 2. Na página **Políticas anti-spam,** selecione uma política com o valor **Tipo** da política de **spam** de saída personalizada na lista clicando no nome. Na parte superior do submenu de detalhes da política exibido, clique no ![ícone Mais ações](../../media/m365-cc-sc-more-actions-icon.png) **Mais ações** \> ![ícone Excluir política](../../media/m365-cc-sc-delete-icon.png) **Excluir política**.
 

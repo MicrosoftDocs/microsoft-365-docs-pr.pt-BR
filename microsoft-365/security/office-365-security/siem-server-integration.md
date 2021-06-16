@@ -18,12 +18,12 @@ ms.custom:
 description: Obter uma visão geral da integração do servidor SIEM (Gerenciamento de Informações e Eventos de Segurança) com seus Microsoft 365 de nuvem e aplicativos
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bea8aa3914da4b813f3928eddbb6df9c98ef6605
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 8b9c17ba2dcefa65b60a53ab8bff405de4850fc0
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599942"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929786"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Integração do servidor SIEM (Gerenciamento de Informações de Segurança e Gerenciamento de Eventos) com Microsoft 365 serviços e aplicativos
 
@@ -58,7 +58,7 @@ Um servidor SIEM pode receber dados de uma ampla variedade de serviços Microsof
 |Microsoft 365 Serviço ou Aplicativo|Entradas/métodos do servidor SIEM|Recursos para saber mais|
 |---|---|---|
 |[Obter o Microsoft Defender para Office 365](defender-for-office-365.md)|Logs de auditoria|[Integração siem com o Microsoft Defender para Office 365](siem-integration-with-office-365-ti.md)|
-|[Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/)|Ponto de extremidade HTTPS hospedado no Azure <p> API REST|[Puxar alertas para suas ferramentas SIEM](../defender-endpoint/configure-siem.md)|
+|[Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/)|Ponto de extremidade HTTPS hospedado no Azure <p> API do REST|[Puxar alertas para suas ferramentas SIEM](../defender-endpoint/configure-siem.md)|
 |[Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)|Integração de log|[Integração do SIEM com Microsoft Cloud App Security](/cloud-app-security/siem)|
 |
 
@@ -69,7 +69,7 @@ Um servidor SIEM pode receber dados de uma ampla variedade de serviços Microsof
 
 Certifique-se de que o log de auditoria está ligado antes de configurar a integração do servidor SIEM.
 
-- Para SharePoint Online, OneDrive for Business e Azure Active Directory, o log de auditoria está ligado no Centro de Conformidade & [Segurança.](../../compliance/turn-audit-log-search-on-or-off.md)
+- Para SharePoint Online, OneDrive for Business e Azure Active Directory, o log de auditoria está ligado [no portal Microsoft 365 Defender](../../compliance/turn-audit-log-search-on-or-off.md).
 
 - Para Exchange Online, consulte [Gerenciar auditoria de caixa de correio](../../compliance/enable-mailbox-auditing.md).
 

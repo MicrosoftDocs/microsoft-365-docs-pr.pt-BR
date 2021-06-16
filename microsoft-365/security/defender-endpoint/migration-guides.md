@@ -15,18 +15,16 @@ ms.collection:
 ms.custom: migrationguides
 ms.reviewer: chriggs, depicker, yongrhee
 f1.keywords: NOCSH
-ms.date: 09/24/2020
+ms.date: 06/14/2021
 ms.technology: mde
-ms.openlocfilehash: 7d6d92f3abc79552406c80a46a8c3390b91e31d0
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 4d10de35358d528f004ee11e931fc6f41ce20482
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843005"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930494"
 ---
 # <a name="make-the-switch-to-microsoft-defender-for-endpoint-and-microsoft-defender-antivirus"></a>Alternar para o Microsoft Defender para Ponto de Extremidade e Microsoft Defender Antivírus
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -42,13 +40,11 @@ Se você estiver pensando em mudar de uma solução não Microsoft 365 Defender 
 |:--|:--|
 |Você ainda não tem uma solução de proteção de ponto de extremidade e deseja saber mais sobre como o Microsoft Defender for Endpoint & Microsoft Defender Antivírus funciona.  |[Laboratório de avaliação do Microsoft Defender para Ponto de Extremidade](evaluation-lab.md)   |
 |Você tem o Microsoft Defender para Endpoint & Microsoft Defender Antivírus e precisa de ajuda para configurar e configurar tudo.  |[Guia de implantação do Microsoft Defender para Ponto de Extremidade](deployment-phases.md)  |
-|Você está planejando migrar da McAfee Endpoint Security (McAfee) para o Microsoft Defender para o & Microsoft Defender Antivírus. |[Migrar do McAfee para o Microsoft Defender para Ponto de Extremidade](mcafee-to-microsoft-defender-migration.md) |
-|Você está planejando migrar da Symantec Endpoint Protection (Symantec) para o Microsoft Defender para o & Microsoft Defender Antivírus. |[Migrar do Symantec para o Microsoft Defender para Ponto de Extremidade](symantec-to-microsoft-defender-endpoint-migration.md) |
-|Você está planejando migrar de uma solução de proteção de ponto de extremidade não Microsoft (diferente da McAfee ou da Symantec) para o Microsoft Defender para o & Microsoft Defender Antivírus. |[Alternar para o Microsoft Defender para Ponto de Extremidade](switch-to-microsoft-defender-migration.md)   |
+|Você está planejando migrar de uma solução de proteção de ponto de extremidade que não seja da Microsoft para o Microsoft Defender para endpoint & Microsoft Defender Antivírus. |[Alternar para o Microsoft Defender para Ponto de Extremidade](switch-to-microsoft-defender-migration.md)   |
 |Você migrou para o Microsoft Defender para & Microsoft Defender Antivírus endpoint e precisa de ajuda com as próximas etapas, como configurar recursos adicionais ou ajustar suas configurações de segurança. | [Gerenciar o Microsoft Defender para Ponto de Extremidade, pós-migração](manage-atp-post-migration.md) |
 
 
-## <a name="got-feedback"></a>Tem comentários?
+## <a name="do-you-have-feedback-for-us"></a>Você tem comentários para nós?
 
 Envie-nos suas sugestões! Envie seus comentários na parte inferior da página. Levaremos seus comentários em consideração à medida que continuarmos a melhorar e adicionar nossas diretrizes de migração.
 

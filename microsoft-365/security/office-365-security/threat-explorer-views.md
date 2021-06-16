@@ -13,16 +13,16 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Saiba como usar o Explorador de Ameaças e o relatório de detecções em tempo real para investigar e responder a ameaças no Centro de Conformidade & Segurança.
+description: Saiba como usar o Explorador de Ameaças e o relatório de detecções em tempo real para investigar e responder a ameaças no portal Microsoft 365 Defender.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 78c03b45063f4bc34b47ab003bcf00d2befab886
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 1c79cc717a2dbe345627f99830590c674fa02f09
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203302"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929606"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Exibições no Explorador de Ameaças e detecções em tempo real
 
@@ -33,9 +33,9 @@ ms.locfileid: "51203302"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
-![Explorador de Ameaças](../../media/ThreatExplorerFirstOpened.png)
+![Explorador de Ameaças](../../media/explorer.png)
 
-[O Explorador](threat-explorer.md) de Ameaças (e o relatório de detecções em tempo real) é uma ferramenta poderosa e quase em tempo real para ajudar as equipes de Operações de Segurança a investigar e responder a ameaças no Centro de Conformidade & Segurança. O Explorer (e o relatório de detecções em tempo real) exibe informações sobre suspeita de malware e phishing em email e arquivos no Office 365, bem como outras ameaças e riscos de segurança à sua organização.
+[O Explorador](threat-explorer.md) de Ameaças (e o relatório de detecções em tempo real) é uma ferramenta poderosa e quase em tempo real para ajudar as equipes de Operações de Segurança a investigar e responder a ameaças no portal Microsoft 365 Defender. O Explorer (e o relatório de detecções em tempo real) exibe informações sobre suspeita de malware e phishing em email e arquivos no Office 365, bem como outras ameaças e riscos de segurança à sua organização.
 
 - Se você tiver [o Microsoft Defender para Office 365](defender-for-office-365.md) Plano 2, terá o Explorer.
 - Se você tiver o Microsoft Defender para Office 365 Plano 1, terá detecções em tempo real.
@@ -58,7 +58,7 @@ Quando você abre o Explorer pela primeira vez (ou o relatório de detecções e
 
 Use o menu **Exibir** para alterar quais informações são exibidas. As dicas de ferramentas ajudam a determinar qual exibição usar.
 
-![Menu De exibição do Explorador de Ameaças](../../media/ThreatExplorerViewMenu.png)
+![Menu De exibição do Explorador de Ameaças](../../media/all-email.png)
 
 Depois de selecionar um exibição, você pode aplicar filtros e configurar consultas para realizar mais análises. As seções a seguir fornecem uma breve visão geral das várias exibições disponíveis no Explorer (ou detecções em tempo real).
 
@@ -66,7 +66,7 @@ Depois de selecionar um exibição, você pode aplicar filtros e configurar cons
 
 Para exibir esse relatório, no Explorer (ou detecções em tempo real), escolha **Exibir** \> **Malware de** \> **Email**. Esta exibição mostra informações sobre mensagens de email identificadas como contendo malware.
 
-![Exibir dados sobre email identificados como malware](../../media/ExplorerEmailMalwareMenu.png)
+![Exibir dados sobre email identificados como malware](../../media/detection-technology.png)
 
 Clique **em Remetente** para abrir sua lista de opções de exibição. Use essa lista para exibir dados por remetente, destinatários, domínio do remetente, assunto, tecnologia de detecção, status de proteção e muito mais.
 
@@ -82,13 +82,13 @@ Abaixo do gráfico, confira mais detalhes sobre mensagens específicas. Quando v
 
 Para exibir esse relatório, no Explorer (ou detecções em tempo real), escolha **Exibir** \> **Phishing de** \> **Email.** Esta exibição mostra mensagens de email identificadas como tentativas de phishing.
 
-![Exibir dados sobre email identificados como tentativas de phishing](../../media/ThreatExplorerEmailPhish.png)
+![Exibir dados sobre email identificados como tentativas de phishing](../../media/phish.png)
 
 Clique **em Remetente** para abrir sua lista de opções de exibição. Use essa lista para exibir dados por remetente, destinatários, domínio do remetente, IP do remetente, domínio de URL, veredito de clique e muito mais.
 
 Por exemplo, para ver quais ações foram tomadas quando as pessoas clicaram  em URLs identificadas como tentativas de phishing, escolha Clique em Veredito na lista, selecione uma ou mais opções e clique no botão Atualizar.
 
-![Clique em opções de veredito para o relatório phishing](../../media/ThreatExplorerEmailPhishClickVerdictOptions.png)
+![Clique em opções de veredito para o relatório phishing](../../media/click-verdict.png)
 
 Abaixo do gráfico, confira mais detalhes sobre mensagens específicas, cliques de URL, URLs e origem do email.
 
@@ -135,7 +135,7 @@ Para exibir este relatório, no Explorer (ou detecções em tempo real), escolha
 
 Exibir informações por família de malware, tecnologia de detecção (como o malware foi detectado) e carga de trabalho (OneDrive, SharePoint ou Teams).
 
-![Exibir dados sobre malware detectado](../../media/d11dc568-b091-4159-b261-df13d76b520b.png)
+![Exibir dados sobre malware detectado](../../media/malware-family.png)
 
 Abaixo do gráfico, confira mais detalhes sobre arquivos específicos, como nome do arquivo de anexo, carga de trabalho, tamanho do arquivo, quem modificou o arquivo pela última vez e muito mais.
 
