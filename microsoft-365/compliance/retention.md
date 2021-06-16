@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: ab02559a439899fe25a560aa52718045b730ebd4
-ms.sourcegitcommit: cebbdd393dcfd93ff43a1ab66ad70115853f83e7
+ms.openlocfilehash: 04c485db5f250dfc852faeeaeae669956b95a8c4
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "52710713"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52932861"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -263,9 +263,16 @@ Use a tabela a seguir para ajudá-lo a identificar se deseja usar uma política 
 |Revisão de disposição | Não| Sim |
 |Prova de disposição por até 7 anos | Não |Sim, quando você usa a revisão de disposição ou o item é marcado como um registro|
 |Auditoria de atividades administrativas| Sim | Sim|
+|Ações de retenção de Auditoria| Não | Sim <sup>\*</sup> |
 |Identifique os itens sujeitos à retenção: <br /> - Pesquisa de Conteúdo <br /> - Página de classificação de dados, explorador de conteúdo, explorador de atividades | <br /> Não <br /> Não | <br /> Sim <br /> Sim|
 
-Observe que você pode usar políticas de retenção e rótulos de retenção como métodos de retenção complementares. Por exemplo:
+**Rodapé:**
+
+<sup>\*</sup> Para rótulos de retenção que não marcam o conteúdo como um registro ou registro regulatório, os eventos de auditoria são limitados a quando um item no SharePoint tem um rótulo aplicado, alterado ou removido. Para obter detalhes da auditoria para rótulos de retenção, consulte a seção [Ações de retenção de Auditoria ](#auditing-retention-actions) nesta página.
+
+### <a name="combining-retention-policies-and-retention-labels"></a>Combinando políticas de retenção e rótulos de retenção
+
+Você não precisa escolher entre usar apenas políticas de retenção ou apenas rótulos de retenção. Ambos os métodos podem ser usados juntos e, na verdade, complementares um ao outro para uma solução mais abrangente. Por exemplo:
 
 1. Você cria e configura uma política de retenção que exclui automaticamente o conteúdo cinco anos após a última modificação, e aplica a política a todas as contas do OneDrive.
 
@@ -374,9 +381,31 @@ Para saber mais sobre a biblioteca de Retenção para Preservação, confira [Co
 
 Devido ao comportamento durante o período de carência, se você habilitar novamente a política ou mudar o status de local para dentro de 30 dias, a política retornará sem qualquer perda permanente de dados durante esse período.
 
-## <a name="auditing-retention-configuration"></a>Configuração de retenção de auditoria
+## <a name="auditing-retention-configuration-and-actions"></a>Configuração e ações de retenção de auditoria
 
-As ações de administrador para as políticas de retenção e os rótulos de retenção são salvas no log de auditoria quando a [auditoria está habilitada](turn-audit-log-search-on-or-off.md). Por exemplo, um evento de auditoria é criado quando uma política de retenção ou um rótulo é criado, configurado ou excluído. Para a lista completa, confira [Política de retenção e atividades do rótulo de retenção](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities).
+Quando a [auditoria está habilitada](turn-audit-log-search-on-or-off.md), os eventos de auditoria para retenção são suportados para configuração de administração (políticas de retenção e rótulos de retenção) e ações de retenção (apenas rótulos de retenção).
+
+### <a name="auditing-retention-configuration"></a>Configuração de retenção de auditoria
+
+A configuração do administrador para políticas de retenção e rótulos de retenção será registrada como eventos de auditoria quando uma política de retenção ou rótulo for criado, reconfigurado ou excluído.
+
+Para obter a lista completa de eventos de auditoria, consulte [Política de retenção e atividades de rótulo de retenção](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities).
+
+### <a name="auditing-retention-actions"></a>Ações de retenção de Auditoria
+
+As ações de retenção que são registradas como eventos de auditoria estão disponíveis apenas para rótulos de retenção e não para políticas de retenção:
+
+- Quando um rótulo de retenção é aplicado, alterado ou removido de um item no SharePoint:
+    - Em **Atividades de arquivo e página**, selecione **Rótulo de retenção alterado para um arquivo** 
+
+- Quando um item rotulado no SharePoint é marcado como um registro e é desbloqueado ou bloqueado por um usuário:
+    - Em **Atividades de arquivo e página**, selecione **Status do registro alterado para desbloqueado** e **Status do registro alterado para bloqueado**
+
+- Quando um rótulo de retenção que marca o conteúdo como um registro ou registro regulatório é aplicado a um item no Exchange:
+    - Em **Atividades da caixa de correio do Exchange**, selecione **Mensagem rotulada como um registro**
+
+- Quando um item rotulado no SharePoint ou Exchange é marcado como um registro ou registro regulatório e é excluído permanentemente:
+    - Em **Atividades de arquivo e página**, selecione **Arquivo excluído marcado como um registro**
 
 ## <a name="powershell-cmdlets-for-retention-policies-and-retention-labels"></a>Cmdlets do Windows PowerShell para políticas de retenção e rótulos de retenção
 
