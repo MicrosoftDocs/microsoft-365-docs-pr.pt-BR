@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Saiba como gerenciar quem recebe emails de notificação de cobrança e anexos de fatura.
 ms.date: 03/17/2021
-ms.openlocfilehash: 75c75175930434619a01886b1096757bf04111c5
-ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
+ms.openlocfilehash: a0c7de8638a227d432ff2c5a0d4839fa8f66582c
+ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52888356"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52998759"
 ---
 # <a name="manage-billing-notifications-and-invoice-attachments"></a>Gerenciar notificações de faturamento e anexos de fatura
 
@@ -43,7 +43,7 @@ Você deve ser um administrador global para fazer as etapas descritas neste arti
 
 Os emails de notificação de cobrança são enviados no idioma preferencial da sua organização. Para alterar o idioma preferencial, use as etapas a seguir.
 
-1. No centro Microsoft 365 de administração, vá para a **página** Notificações  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">de</a> cobrança.
+1. Na Centro de administração do Microsoft 365, vá para a página **Notificações** de  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank"></a> Cobrança.
 2. Na seção **Configurações de notificação de cobrança,** selecione **Editar configurações de notificação**.
 3. No painel **Configurações de notificação de** cobrança, em **Idioma** preferencial, selecione o idioma que você deseja usar e selecione **Salvar**.
 
@@ -88,9 +88,6 @@ Além dos administradores global e de cobrança, enviamos notificações de cobr
 
 ## <a name="receive-your-organizations-invoices-as-email-attachments"></a>Receber as faturas da sua organização como anexos de email
 
-> [!NOTE]
-> Os administradores de cobrança também podem fazer as etapas nesta seção.
-
 Você pode ter uma cópia da fatura da sua organização anexada como um arquivo PDF para faturar emails de notificação quando uma nova fatura estiver pronta. Use as etapas a seguir para receber faturas como anexos.
 
 1. No centro de administração, vá para a página **Fatura** > <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Notificações de fatura</a>.
@@ -130,6 +127,6 @@ Para receber suas faturas como anexos às notificações de fatura, use as etapa
 ## <a name="related-content"></a>Conteúdo relacionado
 
 [Ver sua conta ou fatura](view-your-bill-or-invoice.md) (artigo)\
-[Informações de cobrança para Microsoft 365 para empresas no México](/microsoft-365/commerce/billing-and-payments/mexico-billing-info) (artigo) \
+[Informações de faturamento do Microsoft 365 para empresas no México](/microsoft-365/commerce/billing-and-payments/mexico-billing-info) (artigo) \
 [Entenda sua fatura ou fatura para Microsoft 365 para empresas](understand-your-invoice2.md) (artigo)\
 [Adicionar usuários e atribuir licenças ao mesmo tempo](../../admin/add-users/add-users.md) (artigo)

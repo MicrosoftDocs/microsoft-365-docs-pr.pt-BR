@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 55bf10d01093c17ba2d186ce0a1d1313db2c3a75
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 4919f082c115d8a57960ec49532b6cda6a63833f
+ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770080"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52998723"
 ---
 # <a name="get-ip-statistics-api"></a>Obter API de estatísticas IP
 
@@ -99,7 +99,7 @@ Veja a seguir um exemplo da resposta.
 {
     "@odata.context": "https://api.securitycenter.microsoft.com/api/$metadata#microsoft.windowsDefenderATP.api.InOrgIPStats",
     "ipAddress": "10.209.67.177",
-    "orgPrevalence": "63515",
+    "organizationPrevalence": 63515,
     "orgFirstSeen": "2017-07-30T13:36:06Z",
     "orgLastSeen": "2017-08-29T13:32:59Z"
 }
@@ -108,7 +108,7 @@ Veja a seguir um exemplo da resposta.
 
 | Nome | Descrição |
 | :--- | :---------- |
-| Prevalência de organização | a contagem distinta de dispositivos que abriram a conexão de rede a esse IP. |
+| Prevalência da organização | a contagem distinta de dispositivos que abriram a conexão de rede a esse IP. |
 | Org visto pela primeira vez | a primeira conexão para esse IP na organização. |
 | Org visto pela última vez  | a última conexão para esse IP na organização. |
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: Aprenda a alterar o tema padrão para a parte superior da barra de navegação Microsoft 365 personalizá-lo para corresponder ao logotipo ou cor da sua empresa.
-ms.openlocfilehash: 130fda016961433342969c90e309e7d8b6a7051f
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: 908a815346485066b7208d0ff791db813540485f
+ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908156"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52998795"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Personalizar o Microsoft 365 da sua organização
 
@@ -82,16 +82,13 @@ Você pode criar até quatro temas de grupo adicionais.
 
 Na página **Logos,** você pode adicionar seus logotipos e especificar a URL para a qual os usuários navegarão quando selecionarem o logotipo.
 
-- **Logotipo padrão**: Adicione um local de URL que aponta para seu logotipo. Certifique-se de que a URL use HTTPS. Se você estiver carregando um logotipo, certifique-se de que seja menor que 10kb. Seu logotipo padrão pode estar no formato JPG, PNG, GIF ou SVG. Para imagens SVG, elas serão resized para caber 24 pixels verticalmente. As imagens JPG, PNG, GIF serão dimensionados para caber 200 x 48 pixels.
+- **Logotipo padrão**: Adicione um local de URL que aponta para seu logotipo. Certifique-se de que a URL use HTTPS. Adicione uma URL de imagem HTTPS que permite acesso anônimo e não exige autenticação. Para o tema padrão, você também tem uma opção para carregar uma imagem de logotipo com menos de 10kb. Seu logotipo padrão pode estar no formato JPG, PNG, GIF ou SVG. Para imagens SVG, elas serão resized para caber 24 pixels verticalmente. As imagens JPG, PNG, GIF serão dimensionados para caber 200 x 48 pixels. A proporção de logotipo sempre será preservada.
 - **Logotipo alternativo**: Adicione um local de URL que aponta para seu logotipo. Seu logotipo alternativo deve ser otimizado para uso em Office temas escuros. Os mesmos requisitos do logotipo padrão.
 - **Link ao clicar**: Adicione um local de URL que aponta para seu logotipo. Você pode usar seu logotipo como um link para qualquer recurso da empresa, por exemplo, o site da sua empresa.
 
 Selecione **Salvar** para salvar suas alterações.
 
 Você pode remover seus logotipos a qualquer momento. Basta retornar à página **Logos** e selecione **Remover**.
-
-> [!NOTE]
-> Por padrão, primeiro mostramos seleções de logotipo que a maioria das organizações usa. A opção de carregamento só é aplicável a temas padrão e não temas de grupo.
   
 ## <a name="colors-choose-theme-colors"></a>Cores: escolher cores de tema
 
@@ -140,7 +137,7 @@ O tema padrão só pode ser excluído depois que todos os temas do grupo são ex
 
 ### <a name="why-am-i-receiving-an-error-message-every-time-i-uploadalogo-url"></a>Por que estou recebendo uma mensagem de erro sempre que carrego uma URL de logotipo.  
 
-Certifique-se de que o logotipo que você está usando seja especificado como uma URL publicamente acessível. Siga estas etapas para [carregar logotipos no Azure Blob](/azure/storage/blobs/storage-upload-process-images?tabs=dotnet) Armazenamento ou no Office 365 Rede de Distribuição de Conteúdo [com SharePoint Online.](../../enterprise/use-microsoft-365-cdn-with-spo.md)
+Certifique-se de que o logotipo que você está usando seja especificado como uma URL publicamente acessível. Siga estas etapas para carregar logotipos no [Azure Blob](/azure/storage/blobs/storage-upload-process-images?tabs=dotnet) Armazenamento ou no Office 365 Rede de Fornecimento de Conteúdo [com SharePoint Online.](../../enterprise/use-microsoft-365-cdn-with-spo.md)
 
 ### <a name="why-am-i-receiving-themessagedoesnt-meet-minimum-color-contrast-ratio-of-451"></a>Por que estou recebendo a mensagem "Não encontra taxa mínima de contraste de cor de 4,5:1"?
 
