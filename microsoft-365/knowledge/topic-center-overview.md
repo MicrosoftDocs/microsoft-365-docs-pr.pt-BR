@@ -1,6 +1,5 @@
 ---
-title: Visão geral do centro de tópicos em Tópicos do Microsoft Viva
-description: Saiba mais sobre a Central de Tópicos no Microsoft Viva Topics.
+title: Visão geral do centro de tópicos Tópicos do Microsoft Viva
 author: chuckedmonson
 ms.author: chucked
 manager: pamgreen
@@ -14,16 +13,17 @@ ms.collection:
 - m365initiative-viva-topics
 ROBOTS: ''
 localization_priority: None
-ms.openlocfilehash: 073c14f84f4858a1853da062bf87ae9e78c05cbd
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+description: Saiba mais sobre o centro de tópicos Tópicos do Microsoft Viva.
+ms.openlocfilehash: f782be90e6cd6fa12e57df87ebb1057e58bdca19
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583587"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984923"
 ---
-# <a name="topic-center-overview-in-microsoft-viva-topics"></a>Visão geral do centro de tópicos em Tópicos do Microsoft Viva
+# <a name="topic-center-overview-in-microsoft-viva-topics"></a>Visão geral do centro de tópicos Tópicos do Microsoft Viva
 
-Em Tópicos do Microsoft Viva, o centro de tópicos é um site SharePoint moderno que serve como um centro de conhecimento para sua organização. Ele é criado durante a instalação [de Tópicos do Viva](set-up-topic-experiences.md) no centro de Microsoft 365 de administração.
+Em Tópicos do Microsoft Viva, o centro de tópicos é um site SharePoint moderno que serve como um centro de conhecimento para sua organização. Ele é criado durante a instalação [de Tópicos](set-up-topic-experiences.md) do Viva no Centro de administração do Microsoft 365.
 
 O centro de tópicos tem uma home page padrão com a Web Part **Tópicos** onde todos os usuários licenciados podem ver os tópicos aos quais eles têm uma conexão. 
 
@@ -34,7 +34,7 @@ Embora todos os usuários licenciados que possam exibir tópicos tenham acesso �
 O centro de tópicos é criado durante a instalação de Tópicos do Viva. Após a conclusão da instalação, um administrador pode encontrar a URL na página [Gerenciamento do Centro de Tópicos.](./topic-experiences-administration.md#to-access-topics-management-settings)
 
 
-1. No centro Microsoft 365 de administração, selecione **Configurações** e, em seguida, selecione **Configurações de organização**.
+1. No Centro de administração do Microsoft 365, selecione **Configurações** e, em seguida, selecione **Configurações de organização**.
 2. Na guia **Serviços,** selecione **Experiências de Tópico**.
 
     ![Conexão pessoas para conhecimento](../media/admin-org-knowledge-options-completed.png) 
@@ -69,7 +69,7 @@ Depois que um usuário confirmar sua conexão com um tópico, o usuário poderá
 
 ## <a name="manage-topics-page"></a>Gerenciar página de tópicos
 
-Para trabalhar na página **Gerenciar tópicos** do centro de tópicos, você precisa ter as permissões necessárias Gerenciar tópicos necessários para a função de gerente de conhecimento. O administrador pode atribuir essas permissões aos usuários durante a configuração de gerenciamento de conhecimento [ou](set-up-topic-experiences.md)novos usuários podem ser [adicionados](topic-experiences-knowledge-rules.md) posteriormente por um administrador por meio do Microsoft 365 de administração.
+Para trabalhar na página **Gerenciar tópicos** do centro de tópicos, você precisa ter as permissões necessárias Gerenciar tópicos necessários para a função de gerente de conhecimento. O administrador pode atribuir essas permissões aos usuários durante a instalação do [Viva Topics](set-up-topic-experiences.md)ou novos usuários podem ser [adicionados](topic-experiences-knowledge-rules.md) posteriormente por um administrador por meio do Centro de administração do Microsoft 365.
 
 Na página **Gerenciar tópicos,** o painel de tópicos mostra todos os tópicos aos que você tem acesso, que foram identificados de seus locais de origem especificados. Cada tópico mostrará a data em que o tópico foi descoberto. Um usuário que foi atribuído Gerenciar permissões de tópicos pode revisar os tópicos não confirmados e optar por:
 

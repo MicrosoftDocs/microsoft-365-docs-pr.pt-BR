@@ -16,31 +16,52 @@ search.appverid:
 ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
-description: Se ele está adicionando novas soluções ao centro de conformidade, atualizando recursos existentes com base em seus comentários ou implantando documentação atualizada e atualizada, Microsoft 365 ajuda você a se manter no topo do cenário de conformidade em constante mudança. Descubra o que estamos fazendo este mês.
+description: Se ele está adicionando novas soluções ao centro de conformidade, atualizando recursos existentes com base em seus comentários ou implantando documentação atualizada e atualizada, o Microsoft 365 ajuda você a se manter no topo do cenário de conformidade em constante mudança. Descubra o que estamos fazendo este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d312b3ac3c2cb43e05a09936f1e5c07b32c22ef1
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 1884989abba56a7da68a2a1372132015a81f5e03
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843241"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52985007"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Novidades na Conformidade do Microsoft 365
 
-Seja adicionando novas soluções ao centro de conformidade do [Microsoft 365,](microsoft-365-compliance-center.md)atualizando recursos existentes com base em seus comentários ou implantando documentação atualizada e atualizada, o Microsoft 365 ajuda você a se manter no topo do cenário de conformidade em constante mudança. Confira abaixo o que há de novo na conformidade Microsoft 365 hoje.
+Seja adicionando novas soluções ao centro de conformidade do [Microsoft 365,](microsoft-365-compliance-center.md)atualizando recursos existentes com base em seus comentários ou implantando documentação atualizada e atualizada, o Microsoft 365 ajuda você a manter-se no topo do cenário de conformidade em constante mudança. Confira abaixo o que há de novo na conformidade com o Microsoft 365 hoje.
 
 > [!NOTE]
 > Alguns recursos de conformidade são lançados em velocidades diferentes para nossos clientes. Se você ainda não estiver vendo um recurso, tente adicionar a si mesmo à [versão direcionada](/office365/admin/manage/release-options-in-office-365).
 
 > [!TIP]
-> Interessado no que está acontecendo em outros centros de administração? Confira estes artigos:<br>[Novidades no centro de Microsoft 365 de administração](/office365/admin/whats-new-in-preview)<br>[Novidades no centro de SharePoint de administração](/sharepoint/what-s-new-in-admin-center)<br>[Novidades no Microsoft 365 Defender](../security/defender/whats-new.md)<br><br>
-E visite o [roteiro Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap) para saber mais sobre Microsoft 365 recursos que foram lançados, estão sendo lançados, estão em desenvolvimento, foram cancelados ou lançados anteriormente.
+> Interessado no que está acontecendo em outros centros de administração? Confira estes artigos:<br>[Novidades no centro de administração do Microsoft 365](/office365/admin/whats-new-in-preview)<br>[Novidades no Centro de administração do SharePoint](/sharepoint/what-s-new-in-admin-center)<br>[Novidades no Microsoft 365 Defender](../security/defender/whats-new.md)<br><br>
+E visite o Roteiro do [Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap) para saber mais sobre os recursos do Microsoft 365 que foram lançados, estão sendo lançados, estão em desenvolvimento, foram cancelados ou lançados anteriormente.
+
+## <a name="may-2021"></a>Maio de 2021
+
+### <a name="data-loss-prevention"></a>Prevenção contra Perda de Dados
+
+- Novas diretrizes para [planejar sua estratégia de Prevenção contra Perda de](dlp-overview-plan-for-dlp.md) Dados.
+
+### <a name="retention-and-records-management"></a>Gerenciamento de retenção e registros
+
+- Se você liberar uma política de retenção de um site do SharePoint ou conta do OneDrive, não será mais necessário aguardar o período de carência de 30 dias antes de poder excluir o site ou a conta. Uma solicitação popular dos clientes, essa alteração agora está concluída para todos os locatários.
+- Na **visualização,** revisão de disposição em vários estágios : [](disposition.md) agora, um administrador pode adicionar até cinco estágios consecutivos de revisão de disposição para um rótulo de retenção, e os revisadores podem adicionar outros usuários ao estágio de revisão de disposição. Você também pode personalizar as notificações e lembretes por email.
+
+### <a name="sensitive-information-types"></a>Tipos de informações confidenciais
+
+- Novas informações adicionadas para ajudá-lo [a modificar um dicionário de palavras-chave](sit-modify-keyword-dictionary.md).
+
+### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
+
+- Na visualização, uma nova configuração **para** o contexto de autenticação agora está disponível quando você configura um rótulo de sensibilidade para grupos [e sites.]( sensitivity-labels-teams-groups-sites.md) Essa opção funciona em conjunto com políticas de Acesso Condicional do Azure AD para impor condições mais rigorosas quando os usuários acessam sites do SharePoint que têm o rótulo aplicado. Leia as [dependências e limitações antes](sensitivity-labels-teams-groups-sites.md#more-information-about-the-dependencies-for-the-authentication-context-option) de configurar essa configuração.
+- [As políticas de rotulagem](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) automática que estão configuradas apenas para o Exchange agora suportam **rótulos** de sensibilidade que aplicam criptografia com Permitir que os usuários atribuam permissões para as opções Não Encaminhar ou Encrypt-Only.
+- [A rotulagem obrigatória](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents) agora está geralmente disponível para todos os aplicativos do Office, em todas as plataformas.
 
 ## <a name="april-2021"></a>Abril de 2021
 
 ### <a name="advanced-ediscovery"></a>Descoberta Eletrônica Avançada
 
-- [Limites em Advanced eDiscovery](/microsoft-365/compliance/limits-ediscovery20#export-limits---final-export-out-of-review-set). As organizações agora podem exportar até 5 milhões de itens ou 500 MB, o que for menor, em uma única exportação de itens de um conjunto de revisão.
+- [Limites na Descoberta Avançada de EDiscovery](/microsoft-365/compliance/limits-ediscovery20#export-limits---final-export-out-of-review-set). As organizações agora podem exportar até 5 milhões de itens ou 500 MB, o que for menor, em uma única exportação de itens de um conjunto de revisão.
 
 ### <a name="data-classification"></a>Classificação de Dados
 
@@ -59,25 +80,25 @@ E visite o [roteiro Microsoft 365](https://www.microsoft.com/microsoft-365/roadm
 
 ### <a name="retention-policies-and-retention-label-policies"></a>Políticas de retenção e políticas de rótulo de retenção
 
-- O local Microsoft 365 Groups agora dá suporte à aplicação das configurações de retenção apenas Microsoft 365 caixas de correio ou apenas aos sites SharePoint conectados usando o cmdlet [Set-RetentionCompliancePolicy PowerShell](/powershell/module/exchange/set-retentioncompliancepolicy) com o parâmetro *Applications.*
+- O local dos Grupos do Microsoft 365 agora dá suporte à aplicação das configurações de retenção a apenas caixas de correio do Microsoft 365 ou apenas aos sites conectados do SharePoint usando o cmdlet [Set-RetentionCompliancePolicy PowerShell](/powershell/module/exchange/set-retentioncompliancepolicy) com o parâmetro *Applications.*
 
 ### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 
-Outlook e atualizações:
+Atualizações e versões do Outlook:
 - [Configurações diferentes para o rótulo padrão](sensitivity-labels-office-apps.md#outlook-specific-options-for-default-label-and-mandatory-labeling) e rotulagem obrigatória agora são suportadas para rotulagem in-locar. Anteriormente, essas configurações eram suportadas apenas pelo cliente de rotulagem unificada do AIP.
 - [Somente criptografia](encryption-sensitivity-labels.md#let-users-assign-permissions) agora é suportado por macOS, iOS e Android.
 - [A rotulagem obrigatória](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents) está sendo implantada nas plataformas restantes.
-- [As marcações dinâmicas com todas as variáveis](sensitivity-labels-office-apps.md#dynamic-markings-with-variables) são suportadas em todos os Outlook clientes.
+- [As marcações dinâmicas com todas as variáveis](sensitivity-labels-office-apps.md#dynamic-markings-with-variables) são suportadas em todos os clientes do Outlook.
 
 ## <a name="march-2021"></a>Março de 2021
 
-Aqui estão algumas das alterações nas soluções Microsoft 365 conformidade e conteúdo do mês de março.
+Aqui estão algumas das alterações nas soluções de conformidade e conteúdo do Microsoft 365 para o mês de março.
 
 ### <a name="advanced-ediscovery"></a>Descoberta Eletrônica Avançada
 
-- **Advanced eDiscovery coleções agora** suportam a [nova ferramenta e fluxo de trabalho de coleções.](/microsoft-365/compliance/collections-overview) Outros novos tópicos incluem [criar um conjunto de rascunhos,](/microsoft-365/compliance/create-draft-collection)comprometer uma coleção de [rascunhos em](/microsoft-365/compliance/commit-draft-collection)um conjunto de revisão e estatísticas e relatórios de [coleção.](/microsoft-365/compliance/collection-statistics-reports)
-- **Exportar documentos** em um conjunto de revisão para uma [conta do Azure Armazenamento.](/microsoft-365/compliance/download-export-jobs)
-- **Módulo de codificação preditiva para Advanced eDiscovery**. Primeiro, veja a nova [funcionalidade de codificação](/microsoft-365/compliance/predictive-coding-overview) preditiva que substitui o módulo de relevância retirado.
+- **As coleções avançadas de Descoberta Eletrônico** agora suportam a [nova ferramenta e fluxo de trabalho de coleções.](/microsoft-365/compliance/collections-overview) Outros novos tópicos incluem [criar um conjunto de rascunhos,](/microsoft-365/compliance/create-draft-collection)comprometer uma coleção de [rascunhos em](/microsoft-365/compliance/commit-draft-collection)um conjunto de revisão e estatísticas e relatórios de [coleção.](/microsoft-365/compliance/collection-statistics-reports)
+- **Exportar documentos** em um conjunto de revisão para uma [conta de Armazenamento do Azure.](/microsoft-365/compliance/download-export-jobs)
+- **Módulo de codificação preditiva para Descoberta Avançada de EDiscovery**. Primeiro, veja a nova [funcionalidade de codificação](/microsoft-365/compliance/predictive-coding-overview) preditiva que substitui o módulo de relevância retirado.
 
 ### <a name="data-classification"></a>Classificação de dados
 
@@ -89,13 +110,13 @@ Aqui estão algumas das alterações nas soluções Microsoft 365 conformidade e
 
 ### <a name="data-loss-prevention"></a>Prevenção contra perda de dados
 
-- **Microsoft Teams suporte**. Suporte à prevenção contra perda de dados estendido [para Microsoft Teams](/microsoft-365/compliance/dlp-teams-default-policy).
+- **Suporte do Microsoft Teams**. Suporte à prevenção contra perda de dados estendido ao [Microsoft Teams](/microsoft-365/compliance/dlp-teams-default-policy).
 - **Extensão de Conformidade da Microsoft**. Começar com a extensão [de Conformidade da Microsoft](/microsoft-365/compliance/dlp-chrome-get-started).
 
 ### <a name="encryption"></a>Criptografia
 
-- **Chave do cliente para Microsoft 365**. [Visão geral da Chave do Cliente](/microsoft-365/compliance/customer-key-tenant-level) para Microsoft 365 no nível do locatário (visualização pública).
-- **Criptografia de Chave Dupla**. Saiba mais sobre a habilitação do suporte para documentos rotulados e [protegidos](/microsoft-365/compliance/double-key-encryption) SharePoint e OneDrive for Business.
+- **Chave do cliente para o Microsoft 365**. [Visão geral da Chave do](/microsoft-365/compliance/customer-key-tenant-level) Cliente do Microsoft 365 no nível do locatário (visualização pública).
+- **Criptografia de Chave Dupla**. Saiba mais sobre a habilitação do suporte para documentos rotulados [e protegidos](/microsoft-365/compliance/double-key-encryption) no SharePoint e no OneDrive for Business.
 
 ### <a name="insider-risk-management"></a>Gerenciamento de risco interno
 
@@ -131,7 +152,7 @@ Os tópicos a seguir foram atualizados ou adicionados para dar suporte a esses n
 - **Melhorias no plano de arquivos**. Uma atualização para [o plano de arquivos](file-plan-manager.md) remove ou melhora as restrições de comprimento anteriores para importação.
 - **Excluir rótulos de retenção para registros**. Uma versão de visualização dá suporte à capacidade de [excluir rótulos de retenção](create-apply-retention-labels.md#deleting-retention-labels) que marcam itens como registros.
 
-### <a name="sensitive-information-types"></a>Tipos de informação sensível
+### <a name="sensitive-information-types"></a>Tipos de informações confidenciais
 
 O conteúdo foi adicionado ou atualizado nos seguintes tópicos:
 
@@ -146,12 +167,12 @@ O conteúdo foi adicionado ou atualizado nos seguintes tópicos:
 ### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 
 - **Suporte a DoD**. Suporte para locatários do governo dos EUA com ambientes DoD.
-- **Criptografar somente para Outlook**. As opções de criptografia para Outlook agora incluem Encrypt-Only quando você seleciona Permitir que os usuários [atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions).
-- **Impor rótulos integrados em Office aplicativos**. Diretrizes [atualizadas](sensitivity-labels-office-apps.md#office-built-in-labeling-client-and-the-azure-information-protection-client) sobre como impor rótulos integrados em aplicativos Office quando você tiver o cliente de rotulagem unificado da Proteção de Informações do Azure instalado.
+- **Criptografar somente para o Outlook**. As opções de criptografia para o Outlook agora incluem Encrypt-Only quando você seleciona Permitir que [os usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions).
+- **Impor rótulos integrados em aplicativos do Office.** Diretrizes [atualizadas](sensitivity-labels-office-apps.md#office-built-in-labeling-client-and-the-azure-information-protection-client) sobre como impor rótulos integrados em aplicativos do Office quando você tiver o cliente de rotulagem unificado da Proteção de Informações do Azure instalado.
 
 ## <a name="february-2021"></a>Fevereiro de 2021
 
-Aqui estão algumas das alterações nas soluções Microsoft 365 conformidade e conteúdo do mês de fevereiro.
+Aqui estão algumas das alterações nas soluções de conformidade e conteúdo do Microsoft 365 para o mês de fevereiro.
 
 ### <a name="auditing"></a>Auditoria
 
@@ -171,7 +192,7 @@ O conteúdo foi adicionado ou atualizado nos seguintes tópicos:
 
 - [Saiba mais sobre a DLP do Ponto de Extremidade](/microsoft-365/compliance/endpoint-dlp-learn-about)
 - [Enviar notificações por email e mostrar dicas para políticas de DLP](/microsoft-365/compliance/use-notifications-and-policy-tips)
-- [Saiba mais sobre o Microsoft 365 de prevenção de perda de dados local](/microsoft-365/compliance/dlp-on-premises-scanner-learn)
+- [Saiba mais sobre o scanner local de prevenção contra perda de dados do Microsoft 365](/microsoft-365/compliance/dlp-on-premises-scanner-learn)
 - [Começar com o scanner local de prevenção contra perda de dados](/microsoft-365/compliance/dlp-on-premises-scanner-get-started)
 - [Criar uma política DLP para proteger documentos com FCI ou outras propriedades](/microsoft-365/compliance/protect-documents-that-have-fci-or-other-properties)
 - [Usando a Prevenção contra perda de dados de ponto de extremidade](/microsoft-365/compliance/endpoint-dlp-using)
@@ -181,9 +202,9 @@ O conteúdo foi adicionado ou atualizado nos seguintes tópicos:
 
 O conteúdo foi adicionado ou atualizado nos seguintes tópicos:
 
-- [Descriptografia em Microsoft 365 ferramentas de Descoberta e](/microsoft-365/compliance/ediscovery-decryption)
+- [Descriptografia em ferramentas de Descoberta Online do Microsoft 365](/microsoft-365/compliance/ediscovery-decryption)
 - [Consultas de palavra-chave e condições da pesquisa](/microsoft-365/compliance/keyword-queries-and-search-conditions#limitations-for-searching-sensitive-data-types)
-- [Ressalção do módulo De relevância no Advanced eDiscovery](/microsoft-365/compliance/relevance-module-retirement)
+- [Ressalto do módulo De relevância na Descoberta Avançada da Descoberta Eletrônico](/microsoft-365/compliance/relevance-module-retirement)
 - [Usar um script para adicionar usuários a uma responsabilidade em um caso de Descoberta Interna Principal](/microsoft-365/compliance/use-a-script-to-add-users-to-a-hold-in-ediscovery)
 
 ### <a name="encryption"></a>Criptografia
@@ -193,11 +214,11 @@ O conteúdo foi adicionado ou atualizado nos seguintes tópicos:
 #### <a name="azure-rights-management-service-rms"></a>Serviço de Gerenciamento de Direitos do Azure (RMS)
 
 - [Recursos de criptografia de gerenciamento de cliente](/microsoft-365/compliance/office-365-customer-managed-encryption-features)
-- [Exchange Online criptografia de email com o AD RMS](/microsoft-365/compliance/information-rights-management-in-exchange-online). O suporte para esse serviço foi preterido. Você não pode mais usar o AD RMS em um ambiente Exchange híbrido. Em vez disso, migre para o Azure RMS.
+- [Criptografia de email do Exchange Online com AD RMS](/microsoft-365/compliance/information-rights-management-in-exchange-online). O suporte para esse serviço foi preterido. Você não pode mais usar o AD RMS em um ambiente híbrido do Exchange. Em vez disso, migre para o Azure RMS.
 
 #### <a name="customer-key"></a>Chave de Cliente
 
-- [Chave do cliente para Microsoft 365 no nível do locatário](/microsoft-365/compliance/customer-key-tenant-level)
+- [Chave do cliente para o Microsoft 365 no nível do locatário](/microsoft-365/compliance/customer-key-tenant-level)
 - [Visão geral da segurança e conformidade](/microsoftteams/security-compliance-overview)
 
 #### <a name="information-rights-management-irm"></a>Gerenciamento de Direitos de Informação (IRM)
@@ -205,8 +226,8 @@ O conteúdo foi adicionado ou atualizado nos seguintes tópicos:
 - [Aplicar o IRM (Gerenciamento de Direitos de Informação) a uma lista ou biblioteca.](/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) Essas nuvens nacionais não suportam essa configuração:
     - Microsoft Cloud para o Governo dos EUA
     - Microsoft Cloud Germany
-    - Azure e Microsoft 365 operados pela 21Vianet na China)
-- [Configure o IRM para usar um servidor AD RMS local.](/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) O suporte a esse serviço em um ambiente Exchange híbrido foi preterido.
+    - Azure e o Microsoft 365 operados pela 21Vianet na China)
+- [Configure o IRM para usar um servidor AD RMS local.](/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) O suporte a esse serviço em um ambiente híbrido do Exchange foi preterido.
 
 ### <a name="sensitive-information-types"></a>Tipos de informações confidenciais
 
@@ -222,16 +243,16 @@ O conteúdo foi adicionado ou atualizado nos seguintes tópicos:
 
 O conteúdo foi adicionado ou atualizado nos seguintes tópicos:
 
-- **SharePoint compartilhamento externo**. Para [rótulos de contêiner,](sensitivity-labels-teams-groups-sites.md) a opção para compartilhamento externo SharePoint sites agora é lançada como geralmente disponível. Além disso, o Microsoft 365 de administração e o Planner agora suportam a aplicação desses rótulos de sensibilidade. 
+- **Compartilhamento externo do SharePoint**. Para [rótulos de contêiner,](sensitivity-labels-teams-groups-sites.md) a opção para compartilhamento externo de sites do SharePoint agora é lançada como geralmente disponível. Além disso, o Centro de administração do Microsoft 365 e o Planner agora suportam a aplicação desses rótulos de sensibilidade. 
 - **Coautor e AutoSave**. O suporte [para coautor e AutoSave](sensitivity-labels-coauthoring.md) para arquivos criptografados é lançado como visualização para testes em locatários que não são de produção.
 
 ## <a name="january-2021"></a>Janeiro de 2021
 
-### <a name="support-for-card-content-in-teams"></a>Suporte para conteúdo de cartão em Teams
+### <a name="support-for-card-content-in-teams"></a>Suporte para conteúdo de cartão no Teams
 
-As seguintes Microsoft 365 de conformidade agora suportam a detecção de conteúdo de cartão [gerado](/microsoftteams/platform/task-modules-and-cards/what-are-cards) por meio de aplicativos Teams mensagens:
+As seguintes soluções de conformidade do Microsoft 365 agora suportam a detecção de conteúdo de cartão [gerado](/microsoftteams/platform/task-modules-and-cards/what-are-cards) por meio de aplicativos em mensagens do Teams:
 
-- **Core e Advanced eDiscovery**. O conteúdo do cartão agora pode [ser colocado em espera](create-ediscovery-holds.md#preserve-card-content) ou incluído em pesquisas (também se aplica à pesquisa de conteúdo). [](/microsoftteams/ediscovery-investigation#search-for-card-content)
+- **Descoberta Básica e Avançada.** O conteúdo do cartão agora pode [ser colocado em espera](create-ediscovery-holds.md#preserve-card-content) ou incluído em pesquisas (também se aplica à pesquisa de conteúdo). [](/microsoftteams/ediscovery-investigation#search-for-card-content)
 - **Auditoria**. A atividade do cartão agora [está registrada no log de auditoria.](/microsoftteams/audit-log-events#teams-activities)
 - **Políticas de retenção**. Agora é possível usar políticas de retenção para [reter e excluir conteúdo de cartão.](retention-policies-teams.md#whats-included-for-retention-and-deletion)
 
@@ -248,14 +269,14 @@ As seguintes Microsoft 365 de conformidade agora suportam a detecção de conte�
 
 ### <a name="spotlight-new-content-for-insider-risk-solutions"></a>Destaque: novo conteúdo para soluções de risco internas
 
-A Microsoft 365 de conteúdo de conformidade é difícil criar documentos de "solução de conteúdo" para promover como os recursos de conformidade podem ser usados juntos para ajudar a cumprir suas metas de conformidade.
+A equipe de conteúdo de conformidade do Microsoft 365 está trabalhando duro ao criar documentos de "solução de conteúdo" para promover como os recursos de conformidade podem ser usados juntos para ajudar a cumprir suas metas de conformidade.
 
 O primeiro é o conteúdo que une nossas soluções de risco insider: conformidade de comunicação, gerenciamento de riscos insider, barreiras de informações e gerenciamento de acesso privilegiado. Veja aqui o que você encontrará:
 
 - [Nova página de aterrissagem para soluções de risco insider.](insider-risk-solution-overview.md) Inclui detalhes sobre os riscos que as soluções podem ajudar a reduzir, requisitos de licenciamento, sequência de implantação, ilustrações de arquitetura, recursos de treinamento e muito mais.
 - Novos artigos de visão geral para cada solução de risco interno. Diretrizes e links para artigos que ajudam você a aprender sobre, planejar, implantar e gerenciar cada solução:
   - [Conformidade em comunicações](communication-compliance-solution-overview.md)
-  - [Gerenciamento de riscos insider](insider-risk-management-solution-overview.md)
+  - [Gerenciamento de risco interno](insider-risk-management-solution-overview.md)
   - [Barreiras de informações](information-barriers-solution-overview.md)
   - [Gerenciamento de acesso privilegiado](privileged-access-management-solution-overview.md)
   
@@ -277,7 +298,7 @@ Apresentando [a Chave do Cliente para Microsoft 365 no nível do locatário.](cu
 - Teams de mídia (imagens, trechos de código, vídeos, imagens wiki)
 - Teams de chamada e reuniões armazenadas no Teams armazenamento
 - Teams de chat
-- Teams sugestões de chat da Cortana
+- Teams sugestões de chat por Cortana
 - Teams de status
 - Informações de usuário e sinal para Exchange Online
 

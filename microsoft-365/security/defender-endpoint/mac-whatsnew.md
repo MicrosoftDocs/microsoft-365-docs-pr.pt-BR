@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6348d688103c51176fbed36c923a660c77a2258d
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: a6415ec7d39bceeb4b68de164bbdcf6ef34755ff
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842777"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984767"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Novidades do Microsoft Defender para Ponto de Extremidade no Mac
 
@@ -37,6 +37,10 @@ ms.locfileid: "52842777"
 
 > [!IMPORTANT]
 > No macOS 11 (Big Sur), o Microsoft Defender para Endpoint requer perfis de configuração adicionais. Se você for um cliente existente atualizando de versões anteriores do macOS, certifique-se de implantar os perfis de configuração adicionais listados [nesta página](mac-sysext-policies.md).
+
+## <a name="1013269-20121042132690"></a>101.32.69 (20.121042.13269.0)
+
+- Resolvido um problema em que o acesso simultâneo ao chaveiro do Microsoft Defender para Ponto de Extremidade e outros aplicativos pode levar a corrupção de chaveiro.
 
 ## <a name="1012964-20121042129640"></a>101.29.64 (20.121042.12964.0)
 
@@ -186,9 +190,9 @@ ms.locfileid: "52842777"
 ## <a name="1008691"></a>100.86.91
 
 > [!CAUTION]
-> Para garantir a proteção mais completa para seus dispositivos macOS e em alinhamento com a Apple interrompendo a entrega de atualizações de segurança nativas do macOS para versões do sistema operacional anteriores [atual – 2], o MDATP para implantação e atualizações do Mac não terá mais suporte no macOS Sierra [10.12]. MDATP atualizações e aprimoramentos do Mac serão entregues aos dispositivos que executam as versões Catalina [10.15], Mojave [10.14], e High Sierra [10.13]. 
+> Para garantir a proteção mais completa para seus dispositivos macOS e em alinhamento com a Apple interrompendo a entrega de atualizações de segurança nativas do macOS para versões do sistema operacional anteriores [atual – 2], a implantação e as atualizações do MDATP para Mac não terão mais suporte no macOS Sierra [10.12]. As atualizações e aprimoramentos do MDATP para Mac serão entregues aos dispositivos que executam as versões Catalina [10.15], Mojave [10.14], e High Sierra [10.13]. 
 >
-> Se você já tiver MDATP para Mac implantados em seus dispositivos Sierra [10.12], atualize para a versão mais recente do macOS para eliminar os riscos de perda de proteção.
+> Se você já tiver o MDATP para Mac implantado em seus dispositivos Sierra [10.12], atualize para a versão mais recente do macOS para eliminar os riscos de perda de proteção.
 
 - Melhorias de desempenho & correções de bugs
 

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 7b95fc487a8ee3e82e0f215b34aa564e063534af
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 5ca147c9e69168b2f15aa69bba8728567b782fa9
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772072"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984455"
 ---
 # <a name="machine-resource-type"></a>Tipo de recurso do computador
 
@@ -45,7 +45,7 @@ Método|Tipo de retorno |Descrição
 :---|:---|:---
 [Listar computadores](get-machines.md) | [coleção machine](machine.md) | Listar o conjunto [de](machine.md) entidades do computador na organização.
 [Obter máquina](get-machine-by-id.md) | [machine](machine.md) | Obter uma [máquina](machine.md) por sua identidade.
-[Obter usuários conectados](get-machine-log-on-users.md) | Coleção [user](user.md) | Obter o conjunto de [Usuários](user.md) conectado ao [computador](machine.md).
+[Obter usuários conectados](get-machine-log-on-users.md) | Coleção [usuário](user.md) | Obter o conjunto de [Usuários](user.md) conectado ao [computador](machine.md).
 [Obter alertas relacionados](get-machine-related-alerts.md) | conjunto [alerta](alerts.md)  | Obter o conjunto de [entidades](alerts.md) de alerta que foram criadas no [computador](machine.md).
 [Obter o software instalado](get-installed-software.md) | [coleção de software](software.md) | Recupera um conjunto de softwares instalados relacionados a uma determinada ID de máquina.
 [Obter vulnerabilidades descobertas](get-discovered-vulnerabilities.md) | [conjunto de vulnerabilidades](vulnerability.md) | Recupera uma coleção de vulnerabilidades descobertas relacionadas a uma determinada ID do computador.
@@ -55,6 +55,7 @@ Método|Tipo de retorno |Descrição
 [Localizar os computadores por marca](find-machines-by-tag.md) | [coleção machine](machine.md) | Encontre máquinas por [Marca](machine-tags.md).
 [Obter KBs ausentes](get-missing-kbs-machine.md) | Coleção KB | Obter uma lista de KBs ausentes associados à ID do computador
 [Definir valor do dispositivo](set-device-value.md)| [coleção machine](machine.md) | De definir [o valor de um dispositivo](tvm-assign-device-value.md).
+[Atualizar máquina](update-machine-method.md) |[coleção machine](machine.md) | Obter o status de atualização de um computador.
 
 ## <a name="properties"></a>Propriedades
 
@@ -75,7 +76,7 @@ rbacGroupName | Cadeia de caracteres | Nome do grupo de máquinas.
 riskScore | Núm anulado | Pontuação de risco avaliada pelo Microsoft Defender para Ponto de Extremidade. Os valores possíveis são: 'None', 'Informational', 'Low', 'Medium' e 'High'.
 exposureScore | Núm anulado | [Pontuação de exposição](tvm-exposure-score.md) avaliada pelo Microsoft Defender para Ponto de Extremidade. Os valores possíveis são: 'None', 'Low', 'Medium' e 'High'.
 aadDeviceId | Guid de representação anulada | ID do dispositivo AAD (quando [o computador](machine.md) está ingressado no AAD).
-machineTags | Coleção String | Conjunto de [marcas de](machine.md) máquina.
+machineTags | Conjunto de cadeias de caracteres | Conjunto de [marcas de](machine.md) máquina.
 exposureLevel | Núm anulado | Nível de exposição conforme avaliado pelo Microsoft Defender para Ponto de Extremidade. Os valores possíveis são: 'None', 'Low', 'Medium' e 'High'.
 deviceValue | Núm anulado | O [valor do dispositivo](tvm-assign-device-value.md). Os valores possíveis são: 'Normal', 'Baixo' e 'Alto'.
 ipAddresses | Coleção IpAddress | Conjunto de ***objetos IpAddress.*** Consulte [Obter API de máquinas](get-machines.md).

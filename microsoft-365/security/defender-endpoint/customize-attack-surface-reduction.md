@@ -14,16 +14,17 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: c03bc2a61ba2dae1b5db34c6b48d623c58c0c613
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 6b9814180df2cad2553c4565ebb65891b5cf9bf5
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782868"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52985415"
 ---
 # <a name="customize-attack-surface-reduction-rules"></a>Personalizar regras da redução da superfície de ataque
 
 **Aplica-se a:**
+
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -37,6 +38,7 @@ ms.locfileid: "52782868"
 Saiba como personalizar regras de [](#exclude-files-and-folders) redução de superfície [](#customize-the-notification) de ataque excluindo arquivos e pastas ou adicionando texto personalizado ao alerta de notificação que aparece no computador de um usuário.
 
 Você pode definir regras de redução de superfície de ataque para dispositivos que executam qualquer uma das seguintes edições e versões de Windows:
+
 - Windows 10 Pro, versão [1709](/windows/whats-new/whats-new-windows-10-version-1709) ou posterior
 - Windows 10 Enterprise, versão [1709](/windows/whats-new/whats-new-windows-10-version-1709) ou posterior
 - Windows Servidor, [versão 1803 (Canal Semesanuais)](/windows-server/get-started/whats-new-in-windows-server-1803) ou posterior
@@ -44,11 +46,11 @@ Você pode definir regras de redução de superfície de ataque para dispositivo
 
 ## <a name="exclude-files-and-folders"></a>Excluir arquivos e pastas
 
-Você pode optar por excluir arquivos e pastas de serem avaliados pelas regras de redução de superfície de ataque. Depois de excluído, o arquivo não será impedido de ser executado mesmo que uma regra de redução de superfície de ataque detecte que o arquivo contém comportamento mal-intencionado.
+Você pode optar por excluir arquivos e pastas de serem avaliados pelas regras de redução de superfície de ataque. Quando excluído, o arquivo não será impedido de ser executado mesmo que uma regra de redução de superfície de ataque detecte que o arquivo contém comportamento mal-intencionado.
 
 Por exemplo, considere a regra de ransomware:
 
-A regra de ransomware foi projetada para ajudar os clientes corporativos a reduzir os riscos de ataques de ransomware, garantindo a continuidade dos negócios. Por padrão, a regra de ransomware errou por precaução e protege contra arquivos que ainda não atingiram reputação e confiança suficientes. Para reemphasize, a regra de ransomware dispara apenas em arquivos que não ganharam reputação e prevalência positivas suficientes, com base nas métricas de uso de milhões de nossos clientes. Normalmente, os blocos são auto-resolvidos, porque os valores de "reputação e confiança" de cada arquivo são atualizados incrementalmente à medida que o uso não problemático aumenta.
+A regra de ransomware foi projetada para ajudar os clientes corporativos a reduzir os riscos de ataques de ransomware, garantindo a continuidade dos negócios. Por padrão, os erros de regra de ransomware por precaução e proteção contra arquivos que ainda não atingiram reputação e confiança suficientes. Para reemphasize, a regra de ransomware dispara apenas em arquivos que não ganharam reputação e prevalência positivas suficientes, com base nas métricas de uso de milhões de nossos clientes. Normalmente, os blocos são auto-resolvidos, porque os valores de "reputação e confiança" de cada arquivo são atualizados incrementalmente à medida que o uso não problemático aumenta.
 
 Nos casos em que os blocos não são auto-resolvidos em tempo hábil, os clientes podem _-_ por seu próprio risco - usar o mecanismo de autoatendenciamento ou um recurso de "lista de autorização" baseado em Indicadores de Comprometimento (IOC) baseados para desbloquear os arquivos por conta própria.  
 
@@ -119,7 +121,7 @@ Você pode personalizar a notificação para quando uma regra é disparada e blo
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-* [Reduzir superfícies de ataque com regras de redução de superfície de ataque](attack-surface-reduction.md)
-* [Habilitar regras da redução da superfície de ataque](enable-attack-surface-reduction.md)
-* [Avaliar as regras da redução da superfície de ataque](evaluate-attack-surface-reduction.md)
-* [Perguntas frequentes sobre a redução da superfície de ataque](attack-surface-reduction.md)
+- [Reduzir superfícies de ataque com regras de redução de superfície de ataque](attack-surface-reduction.md)
+- [Habilitar regras da redução da superfície de ataque](enable-attack-surface-reduction.md)
+- [Avaliar as regras da redução da superfície de ataque](evaluate-attack-surface-reduction.md)
+- [Perguntas frequentes sobre a redução da superfície de ataque](attack-surface-reduction.md)

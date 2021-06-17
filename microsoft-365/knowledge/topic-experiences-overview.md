@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Visão geral dos Tópicos do Viva.
-ms.openlocfilehash: 60c276e8850ed1b824810131a13bed19424a87fa
-ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
+ms.openlocfilehash: 785fddb7c951bb6f7c170971f0af4eb7ac8f9a83
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52950018"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984899"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Visão geral dos Tópicos do Microsoft Viva 
 
@@ -39,14 +39,14 @@ Os Tópicos do Viva usam IA para pesquisar e identificar *tópicos* na sua organ
 
 Os tópicos são exibidos para os usuários por meio de:
 
-- [Destaques de tópicos](topic-experiences-overview.md#topic-highlights) em SharePoint páginas
+- [Tópicos realçados](topic-experiences-overview.md#sharepoint-highlights) em SharePoint páginas
 - Respostas de tópico nos [resultados da pesquisa](topic-experiences-overview.md#search-results)
 - Pesquisar em [aplicativos do office](topic-experiences-overview.md#office-application-search)
 - [Home page do Centro de](topic-experiences-overview.md#topic-center) Tópicos
 
-### <a name="topic-highlights"></a>Destaques de tópicos
+### <a name="sharepoint-highlights"></a>SharePoint realçadas
 
-Quando um tópico for mencionado no conteúdo de notícias e páginas do SharePoint, você o verá realçado. Você pode abrir o resumo do tópico no destaque. Abra os detalhes do tópico do título do resumo para exibir a página de tópico completo. O tópico mencionado pode ser identificado automaticamente ou pode ter sido adicionado à página com uma referência direta ao tópico pelo autor da página. 
+Quando um tópico for mencionado no conteúdo de notícias e páginas do SharePoint, você o verá realçado. Você pode abrir o resumo do tópico no destaque. Abra os detalhes do tópico do título do resumo para exibir a página de tópico completo. O tópico mencionado pode ser identificado automaticamente ou pode ter sido referenciado diretamente pelo autor da página. 
 
    ![Captura de tela mostrando os destaques do tópico.](../media/knowledge-management/saturn.png) 
 

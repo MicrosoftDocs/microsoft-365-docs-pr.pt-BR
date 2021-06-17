@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: how-to
 ms.date: 06/02/2021
-ms.openlocfilehash: 5bdb7ed46bdf01d4fb6075f310b98dcdb98a5a7f
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: b4040a60e59f3256b69f90d33af6f7543e50784e
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771916"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984791"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>Habilitar regras da redução da superfície de ataque
 
@@ -54,7 +54,7 @@ Cada regra ASR contém uma das quatro configurações:
 > [!IMPORTANT]
 > Atualmente, o modo de aviso não é suportado para três regras ASR quando você configura regras ASR em Microsoft Endpoint Manager (MEM). Para saber mais, consulte [Cases where warn mode is not supported](attack-surface-reduction.md#cases-where-warn-mode-is-not-supported).
 
-É altamente recomendável usar regras ASR com uma licença Windows E5 (ou SKU de licenciamento semelhante) para aproveitar os recursos avançados de monitoramento e relatório disponíveis no [Microsoft Defender para Ponto](microsoft-defender-endpoint.md) de Extremidade (Defender para Ponto de Extremidade). No entanto, se você tiver outra licença, como o Windows Professional ou o Windows E3 que não incluam recursos avançados de monitoramento e relatório, você poderá desenvolver suas próprias ferramentas de monitoramento e relatório, além dos eventos gerados em cada ponto de extremidade quando as regras ASR são acionadas (por exemplo, Encaminhamento de Eventos).
+É altamente recomendável usar regras ASR com uma licença Windows E5 (ou SKU de licenciamento semelhante) para aproveitar os recursos avançados de monitoramento e relatório disponíveis no [Microsoft Defender para Ponto](microsoft-defender-endpoint.md) de Extremidade (Defender para Ponto de Extremidade). No entanto, se você tiver outra licença, como o Windows Professional ou o Windows E3 que não incluem recursos avançados de monitoramento e relatório, você poderá desenvolver suas próprias ferramentas de monitoramento e relatório, além dos eventos gerados em cada ponto de extremidade quando as regras ASR são acionadas (por exemplo, Encaminhamento de Eventos).
 
 > [!TIP]
 > Para saber mais sobre Windows licenciamento, consulte [Windows 10 Licenciamento](https://www.microsoft.com/licensing/product-licensing/windows10?activetab=windows10-pivot:primaryr5) e obter o [guia licenciamento por volume para Windows 10](https://download.microsoft.com/download/2/D/1/2D14FE17-66C2-4D4C-AF73-E122930B60F6/Windows-10-Volume-Licensing-Guide.pdf).
@@ -63,7 +63,7 @@ Você pode habilitar regras de redução de superfície de ataque usando qualque
 
 - [Microsoft Intune](#intune)
 - [Gerenciamento de Dispositivo Móvel (MDM)](#mdm)
-- [Microsoft Endpoint Configuration Manager](#microsoft-endpoint-configuration-manager)
+- [Gerenciador de Configuração do Microsoft Endpoint](#microsoft-endpoint-configuration-manager)
 - [Política de grupo](#group-policy)
 - [PowerShell](#powershell)
 
@@ -172,9 +172,9 @@ Você pode usar Microsoft Endpoint Manager (MEM) OMA-URI para configurar regras 
 
 >[!NOTE]
 > Tratamento de conflitos:
-> 
+>
 > Se você atribuir a um dispositivo duas políticas ASR diferentes, a maneira como o conflito é tratado são regras que são atribuídas a estados diferentes, não há gerenciamento de conflitos no local e o resultado é um erro.
-> 
+>
 > Regras não conflitantes não resultarão em um erro, e a regra será aplicada corretamente. O resultado é que a primeira regra é aplicada e as regras subsequentes não conflitantes são mescladas à política.
 
 ## <a name="mdm"></a>MDM
@@ -205,7 +205,7 @@ Exemplo:
 > [!NOTE]
 > Insira valores OMA-URI sem espaços.
 
-## <a name="microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager
+## <a name="microsoft-endpoint-configuration-manager"></a>Gerenciador de Configuração do Microsoft Endpoint
 
 1. Em Microsoft Endpoint Configuration Manager, acesse **Assets and Compliance**  >  **Endpoint Protection**  >  **Windows Defender Exploit Guard.**
 
@@ -251,7 +251,7 @@ Exemplo:
 > [!WARNING]
 > Se você gerenciar seus computadores e dispositivos com o Intune, o Configuration Manager ou outra plataforma de gerenciamento de nível empresarial, o software de gerenciamento substituirá as configurações conflitantes do PowerShell na inicialização. Para permitir que os usuários definam o valor usando o PowerShell, use a opção "Definido pelo Usuário" para a regra na plataforma de gerenciamento.
 
-1. Digite **o powershell** no menu Iniciar, clique com o botão direito do **mouse Windows PowerShell** e selecione Executar como **administrador**.
+1. Digite **o powershell** no menu Iniciar, clique com o botão direito **do mouse Windows PowerShell** e selecione Executar como **administrador**.
 
 2. Digite o seguinte cmdlet:
 

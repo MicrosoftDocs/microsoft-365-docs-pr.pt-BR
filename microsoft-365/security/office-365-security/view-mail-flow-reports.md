@@ -19,12 +19,12 @@ description: Os administradores podem aprender sobre os relatórios de fluxo de 
 ms.custom: ''
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 38beac44af191a027db722ade25ca7fd0e505d9b
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: fd8f6c3da1c195fbd540638ae73674deccf2762a
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245667"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52985499"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>Exibir relatórios de fluxo de emails no painel Relatórios no Centro de Conformidade & Segurança
 
@@ -35,7 +35,7 @@ ms.locfileid: "52245667"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Além dos relatórios de fluxo de emails [](mail-flow-insights-v2.md) que estão disponíveis no painel de fluxo de email no Centro de Conformidade e segurança, uma variedade de relatórios de fluxo de emails adicionais estão disponíveis no painel Relatórios para ajudá-lo a monitorar sua organização Microsoft 365. &
+Além dos relatórios de fluxo de emails [](mail-flow-insights-v2.md) que estão disponíveis no painel fluxo de email no Centro de Conformidade e segurança, uma variedade de relatórios de fluxo de emails adicionais estão disponíveis no painel Relatórios para ajudá-lo & a monitorar sua organização do Microsoft 365.
 
 Se você tiver as [permissões](#what-permissions-are-needed-to-view-these-reports)necessárias, poderá exibir esses relatórios no Centro de Conformidade e Segurança [&](https://protection.office.com) indo para **Painel de** \> **Relatórios.** Para ir diretamente para o painel Relatórios, abra <https://protection.office.com/insightdashboard> .
 
@@ -95,29 +95,29 @@ Se você clicar **em Filtros** em um exibição de tabela de detalhes, poderá e
 
 Para voltar à exibição de relatório, clique em **Exibir relatório**.
 
-## <a name="exchange-transport-rule-report"></a>Exchange relatório de regra de transporte
+## <a name="exchange-transport-rule-report"></a>Relatório de regra de transporte do Exchange
 
-O **Exchange** de regra de transporte mostra o efeito das regras de fluxo de emails (também conhecidas como regras de transporte) em mensagens de entrada e saída em sua organização.
+O **relatório de regra de transporte** do Exchange mostra o efeito das regras de fluxo de emails (também conhecidas como regras de transporte) em mensagens de entrada e saída em sua organização.
 
-Para exibir o relatório, abra o [Centro](https://protection.office.com)de  Conformidade & Segurança, vá para Painel de Relatórios e \>  selecione Exchange Regra **de Transporte.** Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ETRRuleReport> .
+Para exibir o relatório, abra o [Centro](https://protection.office.com)de  Conformidade & segurança, vá para Painel de Relatórios \>  e selecione Regra de Transporte **do Exchange.** Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ETRRuleReport> .
 
-![Exchange de regra de transporte no painel Relatórios](../../media/transport-rule-report-widget.png)
+![Widget de regra de transporte do Exchange no painel Relatórios](../../media/transport-rule-report-widget.png)
 
-### <a name="report-view-for-the-exchange-transport-rule-report"></a>Exibição de relatório para o relatório Exchange regra de transporte
+### <a name="report-view-for-the-exchange-transport-rule-report"></a>Exibição de relatório para o relatório de regra de transporte do Exchange
 
 Os gráficos a seguir estão disponíveis no relatório:
 
-- **Exibir dados por: Exchange de transporte** \> **Break down by: Direction**: This chart shows the number of **Inbound** and **Outbound** messages that were affected by transport rules.
+- **Exibir dados por: Regras de transporte do** \> Exchange **Break down by: Direction**: This chart shows the number of **Inbound** and **Outbound** messages that were affected by transport rules.
 
-- **Exibir dados por: Exchange de transporte** \> **Break down by: Severity**: This chart shows the number of **High severity** and **Medium severity**, and **Low severity** messages. Você definirá o nível de gravidade como uma ação na regra (**Audite essa** regra com nível de gravidade ou _SetAuditSeverity_). Para obter mais informações, consulte [Ações de regra de fluxo de email em Exchange Online](//Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
+- **Exibir dados por: Regras de transporte do** \> Exchange **Break down by: Severity**: This chart shows the number of **High severity** and **Medium severity**, and **Low severity** messages. Você definirá o nível de gravidade como uma ação na regra (**Audite essa** regra com nível de gravidade ou _SetAuditSeverity_). Para obter mais informações, consulte [Ações de regra de fluxo de email no Exchange Online](//Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
-- **Exibir dados por: DLP Exchange de transporte** \> **Break down by: Direction**: This chart shows the number of **Inbound** and **Outbound** messages that were affected by data loss prevention (DLP) transport rules. Você pode refinar ainda mais o gráfico selecionando as seguintes opções:
+- **Exibir dados por: regras de transporte do Exchange** \> DLP **Break down by: Direction**: This chart shows the number of **Inbound** and **Outbound** messages that were affected by data loss prevention (DLP) transport rules. Você pode refinar ainda mais o gráfico selecionando as seguintes opções:
 
   - **Mostrar dados para: Todas as regras de transporte de DLP**
   - **Mostrar dados para: usuários comprometidos**
   - **Mostrar dados para: Baixo volume de conteúdo detectado na Lei Patriot Dos EUA**
 
-- **Exibir dados por: DLP Exchange de transporte** \> **Break down by: Direction**: This view shows the number of **High severity** and **Medium severity**, and **Low severity** messages that were affected by DLP transport rules. Você pode refinar ainda mais o gráfico selecionando as seguintes opções:
+- **Exibir dados por: regras de transporte do Exchange** \> DLP **Break down by: Direction**: This view shows the number of **High severity** and **Medium severity**, and **Low severity** messages that were affected by DLP transport rules. Você pode refinar ainda mais o gráfico selecionando as seguintes opções:
 
   - **Mostrar dados para: Todas as regras de transporte de DLP**
   - **Mostrar dados para: usuários comprometidos**
@@ -129,13 +129,13 @@ Se você clicar **em Filtros** em um exibição de relatório, poderá modificar
 - Valores de direção
 - Valores de severidade
 
-![Exibir relatório no relatório Exchange regra de transporte](../../media/transport-rule-report-report-view.png)
+![Exibição de relatório no relatório de regra de transporte do Exchange](../../media/transport-rule-report-report-view.png)
 
-### <a name="details-table-view-for-the-exchange-transport-rule-report"></a>Exibição de tabela de detalhes para o relatório Exchange regra de transporte
+### <a name="details-table-view-for-the-exchange-transport-rule-report"></a>Exibição de tabela de detalhes para o relatório de regra de transporte do Exchange
 
 Se você clicar **em Exibir tabela de** detalhes, as informações mostradas dependerão do gráfico que você estava olhando:
 
-- **Exibir dados por: Exchange Regras de Transporte**:
+- **Exibir dados por: Regras de Transporte do Exchange**:
 
   - **Date**
   - **Regra de transporte**
@@ -145,7 +145,7 @@ Se você clicar **em Exibir tabela de** detalhes, as informações mostradas dep
   - **Gravidade**
   - **Direção**
 
-- **Exibir dados por: DLP Exchange de transporte**:
+- **Exibir dados por: regras de transporte do Exchange DLP:**
 
   - **Date**
   - **Política DLP**
@@ -166,7 +166,7 @@ Para voltar à exibição de relatório, clique em **Exibir relatório**.
 
 ## <a name="forwarding-report"></a>Relatório de encaminhamento
 
-O **relatório de encaminhamento** mostra as mensagens encaminhadas automaticamente da sua organização para domínios externos Exchange Online caixas de correio. As mensagens encaminhadas podem representar um risco de segurança ou conformidade e podem indicar uma conta comprometida.
+O **relatório de encaminhamento** mostra as mensagens encaminhadas automaticamente para domínios externos de caixas de correio do Exchange Online. As mensagens encaminhadas podem representar um risco de segurança ou conformidade e podem indicar uma conta comprometida.
 
 Para exibir o relatório, abra o [Centro](https://protection.office.com)de  Conformidade & Segurança, vá para Painel de \>  Relatórios e selecione Relatório **de Encaminhamento.** Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=MailFlowForwarding> .
 
@@ -450,7 +450,7 @@ Os gráficos a seguir estão disponíveis na exibição de relatório:
 
   ![Exibição de direção no relatório de email enviado e recebido](../../media/sent-and-received-email-report-direction-view.png)
 
-- **Detalhar por** \> **Malware (anti-malware)**: essa seleção leva você para as detecções [de malware no relatório de email.](view-email-security-reports.md#malware-detections-in-email-report)
+- **Detalhar por** \> **Malware (anti-malware)**: essa seleção leva você ao relatório de [detecções de malware.](view-email-security-reports.md#malware-detections-report)
 
 - **Detalhar por** \> **Detecções de spam)**: essa seleção o leva ao relatório de [Detecções de Spam.](view-email-security-reports.md#spam-detections-report)
 
@@ -544,7 +544,7 @@ Para exibir e usar os relatórios descritos neste artigo, você precisa ser memb
 
 - **Organization Management**
 - **Administrador de Segurança**
-- **Leitor de segurança**
+- **Leitor de Segurança**
 - **Leitor Global**
 
 Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).

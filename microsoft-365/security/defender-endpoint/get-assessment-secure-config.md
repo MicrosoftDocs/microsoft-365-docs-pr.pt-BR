@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: fe6a4604852965bdcc563ac0e410ca165bc5a088
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 5742c121b73eb8709e770c9b2c4da6dbfd942276
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789328"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984851"
 ---
 # <a name="export-secure-configuration-assessment-per-device"></a>Exportar avaliação de configuração segura por dispositivo
 
@@ -34,8 +34,6 @@ ms.locfileid: "52789328"
 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-[!include[Prerelease information](../../includes/prerelease.md)]
->
 >
 Retorna todas as configurações e seu status, por dispositivo.
 
@@ -43,7 +41,7 @@ Há diferentes chamadas de API para obter diferentes tipos de dados. Como a quan
 
 - [Exportar **OData** de avaliação](#1-export-secure-configuration-assessment-odata)de configuração segura : a API coleta todos os dados em sua organização como respostas Json, seguindo o protocolo OData. Esse método é melhor para _organizações pequenas com menos de 100 K dispositivos_. A resposta é paginada, portanto, você pode usar o campo odata.nextLink da resposta para \@ buscar os próximos resultados.
 
-- [Exportar a avaliação de configuração](#2-export-secure-configuration-assessment-via-files)segura por meio de arquivos : essa solução de API permite a retirada de quantidades maiores de dados de forma mais rápida e confiável. Portanto, é recomendado para grandes organizações, com mais de 100 K dispositivos. Essa API puxa todos os dados da sua organização como arquivos de download. A resposta contém URLs para baixar todos os dados do Azure Armazenamento. Essa API permite baixar todos os dados do Azure Armazenamento a seguir:
+- [Exportar a avaliação de configuração](#2-export-secure-configuration-assessment-via-files)segura por meio de arquivos : essa solução de API permite a retirada de quantidades maiores de dados de forma mais rápida e confiável. Portanto, é recomendado para grandes organizações, com mais de 100 K dispositivos. Essa API puxa todos os dados da sua organização como arquivos de download. A resposta contém URLs para baixar todos os dados do Armazenamento do Azure. Essa API permite baixar todos os dados do Armazenamento do Azure da seguinte forma:
 
   - Chame a API para obter uma lista de URLs de download com todos os dados da sua organização.
 
@@ -104,15 +102,15 @@ ConfigurationId | string | Identificador exclusivo para uma configuração espec
 ConfigurationImpact | string | Impacto avaliado da configuração na classificação total (1-10) | 9 
 ConfigurationName | string | Exibir o nome da configuração | Dispositivos integrados ao Microsoft Defender para Ponto de Extremidade
 ConfigurationSubcategory | string | Subcategoria ou subgrupo ao qual a configuração pertence. Em muitos casos, isso descreve capacidades ou recursos específicos. | Dispositivos de integração
-DeviceId | cadeia de caracteres | Identificador exclusivo do dispositivo no serviço. | 9eaf3a8b5962e0e6b1af9ec756664a9b823df2d1
-DeviceName | cadeia de caracteres | Nome de domínio totalmente qualificado (FQDN) do dispositivo. | johnlaptop.europe.contoso.com
+DeviceId | string | Identificador exclusivo do dispositivo no serviço. | 9eaf3a8b5962e0e6b1af9ec756664a9b823df2d1
+DeviceName | string | Nome de domínio totalmente qualificado (FQDN) do dispositivo. | johnlaptop.europe.contoso.com
 IsApplicable | bool | Indica se a configuração ou a política é aplicável | verdadeiro
 IsCompliant | bool | Indica se a configuração ou política está configurada corretamente | falso
 IsExpectedUserImpact | bool | Indica se haverá impacto do usuário se a configuração será aplicada | verdadeiro
-OSPlatform | cadeia de caracteres | Plataforma do sistema operacional em execução no dispositivo. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7. Confira sistemas operacionais e plataformas com suporte para TVM para obter detalhes. | Windows10
-RbacGroupName | cadeia de caracteres | O grupo controle de acesso baseado em função (RBAC). Se esse dispositivo não for atribuído a nenhum grupo RBAC, o valor será "Não atribuído". Se a organização não tiver nenhum grupo RBAC, o valor será "None". | Servidores
-RecommendationReference | cadeia de caracteres | Uma referência à ID de recomendação relacionada a este software. | sca-_-scid-20000
-Carimbo de data/hora | cadeia de caracteres | Última vez que a configuração foi vista no dispositivo | 2020-11-03 10:13:34.8476880
+OSPlatform | string | Plataforma do sistema operacional em execução no dispositivo. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7. Confira sistemas operacionais e plataformas com suporte para TVM para obter detalhes. | Windows10
+RbacGroupName | string | O grupo controle de acesso baseado em função (RBAC). Se esse dispositivo não for atribuído a nenhum grupo RBAC, o valor será "Não atribuído". Se a organização não tiver nenhum grupo RBAC, o valor será "None". | Servidores
+RecommendationReference | string | Uma referência à ID de recomendação relacionada a este software. | sca-_-scid-20000
+Carimbo de data/hora | string | Última vez que a configuração foi vista no dispositivo | 2020-11-03 10:13:34.8476880
 
 ### <a name="16-examples"></a>1.6 Exemplos
 
@@ -260,7 +258,7 @@ GET /api/machines/SecureConfigurationsAssessmentExport
 Propriedade (ID) | Tipo de dados | Descrição | Exemplo de um valor retornado
 :---|:---|:---|:---
 Exportar arquivos | cadeia de \[ caracteres de matriz\] | Uma lista de URLs de download para arquivos que segurando o instantâneo atual da organização | [  Https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...1”, “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...2” ]
-GeneratedTime | cadeia de caracteres | A hora em que a exportação foi gerada. | 2021-05-20T08:00:00Z ]
+GeneratedTime | string | A hora em que a exportação foi gerada. | 2021-05-20T08:00:00Z ]
 
 ### <a name="26-examples"></a>2.6 Exemplos
 

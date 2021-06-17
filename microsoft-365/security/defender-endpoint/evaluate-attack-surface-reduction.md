@@ -14,17 +14,16 @@ ms.author: deniseb
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 5d3cd7893af4c91807782c269231a280b413733e
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: a5fa8e46de0a6561d3377ce77e38bd59aa97f3c4
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861210"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984719"
 ---
 # <a name="evaluate-attack-surface-reduction-rules"></a>Avaliar as regras da redução da superfície de ataque
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **Aplica-se a:**
 
@@ -33,7 +32,7 @@ ms.locfileid: "52861210"
 
 >Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
-As regras de redução de superfície de ataque ajudam a evitar ações normalmente usadas pelo malware para comprometer dispositivos ou redes. As regras de redução de superfície de ataque ajudam a fechar muitos dos pontos de entrada comuns usados por malware e ransomware. 
+As regras de redução de superfície de ataque ajudam a evitar ações normalmente usadas pelo malware para comprometer dispositivos ou redes. As regras de redução de superfície de ataque ajudam a fechar muitos dos pontos de entrada comuns usados por malware e ransomware.
 
 Definir regras de redução de superfície de ataque para dispositivos que executam qualquer uma das seguintes edições e versões de Windows:
 
@@ -45,7 +44,7 @@ Definir regras de redução de superfície de ataque para dispositivos que execu
 > [!WARNING]
 > Habilitando regras de redução de serviço de ataque Windows Server 2016 pode levar a resultados inesperados e afetar o desempenho do servidor. Não recomendamos a habilitação ou a implantação de regras de redução de superfície de ataque em plataformas sem suporte.
 
-Saiba como avaliar as regras de redução de superfície de ataque habilitando o modo de auditoria para testar o recurso diretamente em sua organização.
+Saiba como avaliar as regras de redução de superfície de ataque [habilitando o](audit-windows-defender.md) modo de auditoria para testar o recurso diretamente em sua organização.
 
 > [!TIP]
 > Você também pode visitar o site de [](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) cenário de demonstração do Microsoft Defender para Ponto de Extremidade no demo.wd.microsoft.com para confirmar se o recurso está funcionando e ver como ele funciona.
@@ -77,7 +76,7 @@ Você também pode usar a Política de Grupo, o Intune ou os provedores de servi
 
 Para revisar aplicativos que teriam sido bloqueados, abra o Visualizador de Eventos e filtre a ID do Evento 1121 no log Microsoft-Windows-Windows Defender/Operacional. A tabela a seguir lista todos os eventos de proteção de rede.
 
-ID de evento | Descrição
+ID do Evento | Descrição
 -|-
  5007 | Evento quando as configurações são alteradas
  1121 | Evento quando uma regra de redução de superfície de ataque dispara no modo de bloqueio
@@ -91,6 +90,6 @@ Consulte [Personalizar regras de redução de superfície de](customize-attack-s
 
 ## <a name="see-also"></a>Confira também
 
-* [Reduzir superfícies de ataque com regras de redução de superfície de ataque](attack-surface-reduction.md)
-* [Usar o modo de auditoria para avaliar Windows Defender](audit-windows-defender.md)
-* [Perguntas frequentes sobre a redução da superfície de ataque](attack-surface-reduction.md)
+- [Reduzir superfícies de ataque com regras de redução de superfície de ataque](attack-surface-reduction.md)
+- [Usar o modo de auditoria para avaliar Windows Defender](audit-windows-defender.md)
+- [Perguntas frequentes sobre a redução da superfície de ataque](attack-surface-reduction.md)

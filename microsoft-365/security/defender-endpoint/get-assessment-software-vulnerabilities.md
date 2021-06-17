@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 849d1ab2bbc3b8f6d883d6041adda5fe4577741d
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: ea05d37ebcd0953dd109f524775a55cf8d6b3683
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789325"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984959"
 ---
 # <a name="export-software-vulnerabilities-assessment-per-device"></a>Exportar a avaliação de vulnerabilidades de software por dispositivo
 
@@ -34,20 +34,21 @@ ms.locfileid: "52789325"
 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-[!include[Prerelease information](../../includes/prerelease.md)]
->
 >
 Retorna todas as vulnerabilidades de software conhecidas e seus detalhes para todos os dispositivos, por dispositivo.
 
-Há diferentes chamadas de API para obter diferentes tipos de dados. Como a quantidade de dados pode ser grande, há duas maneiras de recuperá-las:
+Há diferentes chamadas de API para obter diferentes tipos de dados. Como a quantidade de dados pode ser muito grande, há duas maneiras de recuperá-las:
 
-- [Exportar a avaliação de vulnerabilidades de software OData](#1-export-software-vulnerabilities-assessment-odata)  A API puxa todos os dados da sua organização como respostas Json, seguindo o protocolo OData. Esse método é melhor para _organizações pequenas com menos de 100 K dispositivos_. A resposta é paginada, portanto, você pode usar o campo odata.nextLink da resposta para \@ buscar os próximos resultados.
+1. [Exportar a avaliação de vulnerabilidades de software OData](#1-export-software-vulnerabilities-assessment-odata)  A API puxa todos os dados da sua organização como respostas Json, seguindo o protocolo OData. Esse método é melhor para _organizações pequenas com menos de 100 K dispositivos_. A resposta é paginada, portanto, você pode usar o campo odata.nextLink da resposta para \@ buscar os próximos resultados.
 
-- [Exportar a avaliação de vulnerabilidades de software por meio de arquivos](#2-export-software-vulnerabilities-assessment-via-files) Essa solução de API permite a retirada de quantidades maiores de dados de forma mais rápida e confiável. Portanto, é recomendado para grandes organizações, com mais de 100 K dispositivos. Essa API puxa todos os dados da sua organização como arquivos de download. A resposta contém URLs para baixar todos os dados do Azure Armazenamento. Essa API permite baixar todos os dados do Azure Armazenamento a seguir:
+2. [Exportar a avaliação de vulnerabilidades de software por meio de arquivos](#2-export-software-vulnerabilities-assessment-via-files) Essa solução de API permite a retirada de quantidades maiores de dados de forma mais rápida e confiável. Os arquivos via são recomendados para grandes organizações, com mais de 100 K dispositivos. Essa API puxa todos os dados da sua organização como arquivos de download. A resposta contém URLs para baixar todos os dados do Armazenamento do Azure. Essa API permite baixar todos os dados do Armazenamento do Azure da seguinte forma:
 
-  - Chame a API para obter uma lista de URLs de download com todos os dados da sua organização.
+   - Chame a API para obter uma lista de URLs de download com todos os dados da sua organização.
 
-  - Baixe todos os arquivos usando as URLs de download e processe os dados conforme quiser.
+   - Baixe todos os arquivos usando as URLs de download e processe os dados conforme quiser.
+
+3. [Avaliação de vulnerabilidades de software de exportação delta OData](#3-delta-export-software-vulnerabilities-assessment-odata)  Retorna uma tabela com uma entrada para cada combinação exclusiva de: DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId e EventTimestamp.
+A API coleta dados em sua organização como respostas Json, seguindo o protocolo OData. A resposta é paginada, portanto, você pode usar o campo @odata.nextLink da resposta para buscar os próximos resultados. <br><br> Ao contrário da avaliação completa de vulnerabilidades de software (OData) - que é usada para obter um instantâneo inteiro da avaliação de vulnerabilidades de software da sua organização por dispositivo - a chamada da API OData de exportação delta é usada para buscar apenas as alterações que aconteceram entre uma data selecionada e a data atual (a chamada da API "delta"). Em vez de obter uma exportação completa com uma grande quantidade de dados sempre, você só obterá informações específicas sobre vulnerabilidades novas, fixas e atualizadas. A chamada de API OData de exportação delta também pode ser usada para calcular KPIs diferentes, como "quantas vulnerabilidades foram corrigidas?" ou "quantas novas vulnerabilidades foram adicionadas à minha organização?" <br><br> Como a chamada da API OData de exportação delta para vulnerabilidades de software retorna dados apenas para um intervalo de datas direcionado, ela não é considerada uma _exportação completa._
 
 Os dados coletados (usando _OData_ ou _por_ meio de arquivos ) são o instantâneo atual do estado atual e não contêm dados históricos. Para coletar dados históricos, os clientes devem salvar os dados em seus próprios armazenamentos de dados.
 
@@ -100,25 +101,25 @@ GET /api/machines/SoftwareVulnerabilitiesByMachine
 
 Propriedade (ID) | Tipo de dados | Descrição | Exemplo de um valor retornado
 :---|:---|:---|:---
-CveId | cadeia de caracteres | Identificador exclusivo atribuído à vulnerabilidade de segurança no sistema CVE (Common Vulnerabilities and Exposures). | CVE-2020-15992
-CvssScore | cadeia de caracteres | A pontuação CVSS do CVE. | 6.2
-DeviceId | cadeia de caracteres | Identificador exclusivo do dispositivo no serviço. | 9eaf3a8b5962e0e6b1af9ec756664a9b823df2d1
-DeviceName | cadeia de caracteres | Nome de domínio totalmente qualificado (FQDN) do dispositivo. | johnlaptop.europe.contoso.com
+CveId | string | Identificador exclusivo atribuído à vulnerabilidade de segurança no sistema CVE (Common Vulnerabilities and Exposures). | CVE-2020-15992
+CvssScore | string | A pontuação CVSS do CVE. | 6.2
+DeviceId | string | Identificador exclusivo do dispositivo no serviço. | 9eaf3a8b5962e0e6b1af9ec756664a9b823df2d1
+DeviceName | string | Nome de domínio totalmente qualificado (FQDN) do dispositivo. | johnlaptop.europe.contoso.com
 DiskPaths  | Cadeia de \[ caracteres de matriz\] | Evidência em disco de que o produto está instalado no dispositivo. | [ "C:\Arquivos de Programas (x86)\Microsoft\Silverlight\Application\silverlight.exe" ]
-ExploitabilityLevel | cadeia de caracteres | O nível de exploração dessa vulnerabilidade (NoExploit, ExploitIsPublic, ExploitIsVerified, ExploitIsInKit) | ExploitIsInKit
-FirstSeenTimestamp | cadeia de caracteres | Primeira vez que o CVE deste produto foi visto no dispositivo. | 2020-11-03 10:13:34.8476880
+ExploitabilityLevel | string | O nível de exploração dessa vulnerabilidade (NoExploit, ExploitIsPublic, ExploitIsVerified, ExploitIsInKit) | ExploitIsInKit
+FirstSeenTimestamp | string | Primeira vez que o CVE deste produto foi visto no dispositivo. | 2020-11-03 10:13:34.8476880
 Id | cadeia de caracteres | Identificador exclusivo do registro. | 123ABG55_573AG&mnp!
-LastSeenTimestamp | cadeia de caracteres | A última vez que o CVE foi visto no dispositivo. | 2020-11-03 10:13:34.8476880
-OSPlatform | cadeia de caracteres | Plataforma do sistema operacional em execução no dispositivo. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7. Confira sistemas operacionais e plataformas com suporte para TVM para obter detalhes. | Windows10
-RbacGroupName  | cadeia de caracteres | O grupo controle de acesso baseado em função (RBAC). Se esse dispositivo não for atribuído a nenhum grupo RBAC, o valor será "Não atribuído". Se a organização não tiver nenhum grupo RBAC, o valor será "None". | Servidores
-RecommendationReference | cadeia de caracteres | Uma referência à ID de recomendação relacionada a este software. | va-_-microsoft-_-silverlight
-RecommendedSecurityUpdate (opcional) | cadeia de caracteres | Nome ou descrição da atualização de segurança fornecida pelo fornecedor de software para resolver a vulnerabilidade. | Atualizações de segurança de abril de 2020
-RecommendedSecurityUpdateId (opcional) | cadeia de caracteres | Identificador das atualizações de segurança ou identificador aplicáveis para os artigos de base de conhecimento ou orientação correspondentes (KB) | 4550961
+LastSeenTimestamp | string | A última vez que o CVE foi visto no dispositivo. | 2020-11-03 10:13:34.8476880
+OSPlatform | string | Plataforma do sistema operacional em execução no dispositivo. Essa propriedade indica sistemas operacionais específicos, incluindo variações na mesma família, como Windows 10 e Windows 7. Confira sistemas operacionais e plataformas com suporte para TVM para obter detalhes. | Windows10
+RbacGroupName  | string | O grupo controle de acesso baseado em função (RBAC). Se esse dispositivo não for atribuído a nenhum grupo RBAC, o valor será "Não atribuído". Se a organização não tiver nenhum grupo RBAC, o valor será "None". | Servidores
+RecommendationReference | string | Uma referência à ID de recomendação relacionada a este software. | va-_-microsoft-_-silverlight
+RecommendedSecurityUpdate (opcional) | string | Nome ou descrição da atualização de segurança fornecida pelo fornecedor de software para resolver a vulnerabilidade. | Atualizações de segurança de abril de 2020
+RecommendedSecurityUpdateId (opcional) | string | Identificador das atualizações de segurança ou identificador aplicáveis para os artigos de base de conhecimento ou orientação correspondentes (KB) | 4550961
 RegistryPaths  | Cadeia de \[ caracteres de matriz\] | Evidência do Registro de que o produto está instalado no dispositivo. | [ "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\MicrosoftSilverlight" ]
-SoftwareName | cadeia de caracteres | Nome do produto de software. | chrome
-SoftwareVendor | cadeia de caracteres | Nome do fornecedor de software. | google
-SoftwareVersion | cadeia de caracteres | Número da versão do produto de software. | 81.0.4044.138
-VulnerabilitySeverityLevel  | cadeia de caracteres | Nível de severidade atribuído à vulnerabilidade de segurança com base na pontuação cvss e fatores dinâmicos influenciados pelo cenário de ameaças. | Médio
+SoftwareName | string | Nome do produto de software. | chrome
+SoftwareVendor | string | Nome do fornecedor de software. | google
+SoftwareVersion | string | Número da versão do produto de software. | 81.0.4044.138
+VulnerabilitySeverityLevel  | string | Nível de severidade atribuído à vulnerabilidade de segurança com base na pontuação cvss e fatores dinâmicos influenciados pelo cenário de ameaças. | Médio
 
 ### <a name="16-examples"></a>1.6 Exemplos
 
@@ -310,7 +311,7 @@ GET /api/machines/SoftwareVulnerabilitiesExport
 Propriedade (ID) | Tipo de dados | Descrição | Exemplo de um valor retornado
 :---|:---|:---|:---
 Exportar arquivos | cadeia de \[ caracteres de matriz\]  | Uma lista de URLs de download para arquivos que segurando o instantâneo atual da organização. | [  “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...1”, “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...2”  ]
-GeneratedTime | cadeia de caracteres | A hora em que a exportação foi gerada. | 2021-05-20T08:00:00Z
+GeneratedTime | string | A hora em que a exportação foi gerada. | 2021-05-20T08:00:00Z
 
 ### <a name="26-examples"></a>2.6 Exemplos
 
@@ -332,6 +333,249 @@ GET https://api-us.securitycenter.contoso.com/api/machines/SoftwareVulnerabiliti
     ],
     "generatedTime": "2021-01-11T11:01:00Z"
 }
+```
+
+## <a name="3-delta-export-software-vulnerabilities-assessment-odata"></a>3. Avaliação de vulnerabilidades de software de exportação delta (OData)
+
+### <a name="31-api-method-description"></a>Descrição do método API 3.1
+
+Retorna uma tabela com uma entrada para cada combinação exclusiva de DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId. A API coleta dados em sua organização como respostas Json, seguindo o protocolo OData. A resposta é paginada, portanto, você pode usar o campo @odata.nextLink da resposta para buscar os próximos resultados. Ao contrário da avaliação completa de vulnerabilidades de software (OData) - que é usada para obter um instantâneo inteiro da avaliação de vulnerabilidades de software da sua organização por dispositivo - a chamada da API OData de exportação delta é usada para buscar apenas as alterações que aconteceram entre uma data selecionada e a data atual (a chamada da API "delta"). Em vez de obter uma exportação completa com uma grande quantidade de dados sempre, você só obterá informações específicas sobre vulnerabilidades novas, fixas e atualizadas. A chamada de API OData de exportação delta também pode ser usada para calcular KPIs diferentes, como "quantas vulnerabilidades foram corrigidas?" ou "quantas novas vulnerabilidades foram adicionadas à minha organização?"
+
+>[!NOTE]
+>
+>É altamente recomendável que você use a avaliação completa de vulnerabilidades de software de exportação por chamada de API de dispositivo pelo menos uma vez por semana, e essa exportação adicional de vulnerabilidades de software muda por api de dispositivo (delta) chamar todos os outros dias da semana.  Ao contrário da outra API OData de Avaliações, a "exportação delta" não é uma exportação completa. A exportação delta inclui apenas as alterações que aconteceram entre uma data selecionada e a data atual (a chamada da API "delta").
+
+#### <a name="limitations"></a>Limitações
+
+- O tamanho máximo da página é 200.000.
+
+- O parâmetro sinceTime tem no máximo 14 dias.
+
+- As limitações de taxa para essa API são 30 chamadas por minuto e 1.000 chamadas por hora.
+
+### <a name="32-permissions"></a>3.2 Permissões
+
+Uma das seguintes permissões é necessária para chamar essa API. Para saber mais, incluindo como escolher permissões, consulte [Use Microsoft Defender for Endpoint APIs para obter detalhes.](apis-intro.md)
+
+Tipo de permissão | Permissão | Nome de exibição de permissão
+---|---|---
+Aplicativo | Vulnerability.Read.All | 'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades'
+Delegado (conta corporativa ou de estudante) | Vulnerability.Read | 'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades'
+
+### <a name="33-url"></a>URL 3.3
+
+```http
+GET /api/machines/SoftwareVulnerabilityChangesByMachine 
+```
+
+### <a name="34-parameters"></a>Parâmetros 3.4
+
+- sinceTime (obrigatório) – Os dados entre uma hora selecionada e hoje.
+- pageSize (padrão = 50.000) – número de resultados em resposta
+- $top – número de resultados a retornar (não retorna @odata.nextLink e, portanto, não puxa todos os dados)
+
+### <a name="35-properties"></a>Propriedades 3.5
+
+Cada registro retornado contém todos os dados da avaliação completa de vulnerabilidades de software de exportação pela API OData do dispositivo, além de dois campos adicionais:  _**EventTimestamp**_ e _**Status**_.
+
+>[!NOTE]
+>-Algumas colunas adicionais podem ser retornadas na resposta. Essas colunas são temporárias e podem ser removidas, portanto, use apenas as colunas documentadas.
+>
+>-As propriedades definidas na tabela a seguir são listadas em ordem alfabética, por ID da propriedade.  Ao executar essa API, a saída resultante não será necessariamente retornada na mesma ordem listada nesta tabela.
+<br>
+
+Propriedade (ID) | Tipo de dados | Descrição | Exemplo de valor retornado
+:---|:---|:---|:---
+CveId | string | Identificador exclusivo atribuído à vulnerabilidade de segurança no sistema CVE (Common Vulnerabilities and Exposures). | CVE-2020-15992  
+CvssScore | string | A pontuação CVSS do CVE. | 6.2  
+DeviceId | string | Identificador exclusivo do dispositivo no serviço. | 9eaf3a8b5962e0e6b1af9ec756664a9b823df2d1  
+DeviceName | string | Nome de domínio totalmente qualificado (FQDN) do dispositivo. | johnlaptop.europe.contoso.com  
+DiskPaths | Array[string] | Evidência em disco de que o produto está instalado no dispositivo. | [ "C:\Arquivos de Programas (x86)\Microsoft\Silverlight\Application\silverlight.exe" ]  
+EventTimestamp | Cadeia de caracteres | A hora em que esse evento delta foi encontrado. | 2021-01-11T11:06:08.291Z
+ExploitabilityLevel | string | O nível de exploração dessa vulnerabilidade (NoExploit, ExploitIsPublic, ExploitIsVerified, ExploitIsInKit) | ExploitIsInKit  
+FirstSeenTimestamp | string | Primeira vez que o CVE deste produto foi visto no dispositivo. | 2020-11-03 10:13:34.8476880  
+Id | cadeia de caracteres | Identificador exclusivo do registro. | 123ABG55_573AG&mnp!  
+LastSeenTimestamp | string | A última vez que o CVE foi visto no dispositivo. | 2020-11-03 10:13:34.8476880  
+OSPlatform | string | Plataforma do sistema operacional em execução no dispositivo. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7. Confira sistemas operacionais e plataformas com suporte para TVM para obter detalhes. | Windows10  
+RbacGroupName | string | O grupo controle de acesso baseado em função (RBAC). Se esse dispositivo não for atribuído a nenhum grupo RBAC, o valor será "Não atribuído". Se a organização não tiver nenhum grupo RBAC, o valor será "None". | Servidores  
+RecommendationReference | string | Uma referência à ID de recomendação relacionada a este software. | va--microsoft--silverlight  
+RecommendedSecurityUpdate  | string | Nome ou descrição da atualização de segurança fornecida pelo fornecedor de software para resolver a vulnerabilidade. | Atualizações de segurança de abril de 2020  
+RecommendedSecurityUpdateId  | string | Identificador das atualizações de segurança ou identificador aplicáveis para os artigos de base de conhecimento ou orientação correspondentes (KB) | 4550961  
+RegistryPaths  | Array[string] | Evidência do Registro de que o produto está instalado no dispositivo. | [ "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Google Chrome" ]  
+SoftwareName | string | Nome do produto de software. | chrome  
+SoftwareVendor | string | Nome do fornecedor de software. | google  
+SoftwareVersion | string | Número da versão do produto de software. | 81.0.4044.138  
+Status | Cadeia de caracteres | **Novo**   (para uma nova vulnerabilidade introduzida em um dispositivo)  (1) **Corrigido**(se essa vulnerabilidade não existir mais no dispositivo, o que significa   que foi corrigida). (2)  **Atualizado**   (se uma vulnerabilidade em um dispositivo tiver sido alterada. As alterações possíveis são: pontuação CVSS, nível de exploração, nível de gravidade, DiskPaths, RegistryPaths, RecommendedSecurityUpdate). | Fixed
+VulnerabilitySeverityLevel | string | Nível de severidade atribuído à vulnerabilidade de segurança com base na pontuação cvss e fatores dinâmicos influenciados pelo cenário de ameaças. | Médio  
+
+#### <a name="clarifications"></a>Esclarecimentos
+
+- Se o software foi atualizado da versão 1.0 para a versão 2.0 e ambas as versões são expostas ao CVE-A, você receberá dois eventos separados:  
+   a. Fixo – CVE-A na versão 1.0 foi corrigido  
+   b. Novo – A CVE-A na versão 2.0 foi adicionada
+
+- Se uma vulnerabilidade específica (por exemplo, CVE-A) foi vista pela primeira vez em um momento específico (por exemplo, 10 de janeiro) em software com a versão 1.0 e alguns dias depois esse software foi atualizado para a versão 2.0 que também foi exposto ao mesmo CVE-A, você receberá estes dois eventos separados:  
+   a. Fixo – CVE-X, FirstSeenTimestamp 10 de janeiro, versão 1,0.  
+   b. Novo – CVE-X, FirstSeenTimestamp 10 de janeiro, versão 2.0.
+
+### <a name="36-examples"></a>3.6 Exemplos
+
+#### <a name="361-request-example"></a>Exemplo de solicitação 3.6.1
+
+```http
+GET https://api.securitycenter.microsoft.com/api/machines/SoftwareVulnerabilityChangesByMachine?pageSize=5&sinceTime=2021-05-19T18%3A35%3A49.924Z
+```
+
+#### <a name="362-response-example"></a>Exemplo de resposta 3.6.2
+
+```json
+{ 
+    "@odata.context": "https://api.securitycenter.microsoft.com/api/$metadata#Collection(microsoft.windowsDefenderATP.api.DeltaAssetVulnerability)", 
+    "value": [ 
+        { 
+            "id": "008198251234544f7dfa715e278d4cec0c16c171_chrome_87.0.4280.88__", 
+            "deviceId": "008198251234544f7dfa715e278b4cec0c19c171",  
+            "rbacGroupName": "hhh", 
+            "deviceName": "ComputerPII_1c8fee370690ca24b6a0d3f34d193b0424943a8b8.DomainPII_0dc1aee0fa366d175e514bd91a9e7a5b2b07ee8e.corp.contoso.com", 
+            "osPlatform": "Windows10", 
+            "osVersion": "10.0.19042.685", 
+            "osArchitecture": "x64", 
+            "softwareVendor": "google", 
+            "softwareName": "chrome", 
+            "softwareVersion": "87.0.4280.88", 
+            "cveId": null, 
+            "vulnerabilitySeverityLevel": null, 
+            "recommendedSecurityUpdate": null, 
+            "recommendedSecurityUpdateId": null, 
+            "recommendedSecurityUpdateUrl": null, 
+            "diskPaths": [ 
+                "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe" 
+            ], 
+            "registryPaths": [ 
+                "HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Google Chrome" 
+            ], 
+            "lastSeenTimestamp": "2021-01-04 00:29:42", 
+            "firstSeenTimestamp": "2020-11-06 03:12:44", 
+            "exploitabilityLevel": "NoExploit", 
+            "recommendationReference": "va-_-google-_-chrome", 
+            "status": "Fixed", 
+            "eventTimestamp": "2021-01-11T11:06:08.291Z" 
+        }, 
+        { 
+            "id": "00e59c61234533860738ecf488eec8abf296e41e_onedrive_20.64.329.3__", 
+            "deviceId": "00e56c91234533860738ecf488eec8abf296e41e",  
+            "rbacGroupName": "hhh", 
+            "deviceName": "ComputerPII_82c13a8ad8cf3dbaf7bf34fada9fa3aebc124116.DomainPII_21eeb80d086e79dbfa178eadfa25e8de9acfa346.corp.contoso.com", 
+            "osPlatform": "Windows10", 
+            "osVersion": "10.0.18363.1256", 
+            "osArchitecture": "x64", 
+            "softwareVendor": "microsoft", 
+            "softwareName": "onedrive", 
+            "softwareVersion": "20.64.329.3", 
+            "cveId": null, 
+            "vulnerabilitySeverityLevel": null, 
+            "recommendedSecurityUpdate": null, 
+            "recommendedSecurityUpdateId": null, 
+            "recommendedSecurityUpdateUrl": null, 
+            "diskPaths": [], 
+            "registryPaths": [ 
+                "HKEY_USERS\\S-1-5-21-2127521184-1604012920-1887927527-24918864\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\OneDriveSetup.exe" 
+            ], 
+            "lastSeenTimestamp": "2020-12-11 19:49:48", 
+            "firstSeenTimestamp": "2020-12-07 18:25:47", 
+            "exploitabilityLevel": "NoExploit", 
+            "recommendationReference": "va-_-microsoft-_-onedrive", 
+            "status": "Fixed", 
+            "eventTimestamp": "2021-01-11T11:06:08.291Z" 
+        }, 
+        { 
+            "id": "01aa8c73095bb12345918663f3f94ce322107d24_firefox_83.0.0.0_CVE-2020-26971_", 
+            "deviceId": "01aa8c73065bb12345918693f3f94ce322107d24", 
+            "rbacGroupName": "hhh", 
+            "deviceName": "ComputerPII_42684eb981bea2d670027e7ad2caafd3f2b381a3.DomainPII_21eed80b086e76dbfa178eabfa25e8de9acfa346.corp.contoso.com", 
+            "osPlatform": "Windows10", 
+            "osVersion": "10.0.19042.685", 
+            "osArchitecture": "x64", 
+            "softwareVendor": "mozilla", 
+            "softwareName": "firefox", 
+            "softwareVersion": "83.0.0.0", 
+            "cveId": "CVE-2020-26971", 
+            "vulnerabilitySeverityLevel": "High", 
+            "recommendedSecurityUpdate": "193220", 
+            "recommendedSecurityUpdateId": null, 
+            "recommendedSecurityUpdateUrl": null, 
+            "diskPaths": [ 
+                "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" 
+            ], 
+            "registryPaths": [ 
+                "HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Mozilla Firefox 83.0 (x86 en-US)" 
+            ], 
+            "lastSeenTimestamp": "2021-01-05 17:04:30", 
+            "firstSeenTimestamp": "2020-05-06 12:42:19", 
+            "exploitabilityLevel": "NoExploit", 
+            "recommendationReference": "va-_-mozilla-_-firefox", 
+            "status": "Fixed", 
+            "eventTimestamp": "2021-01-11T11:06:08.291Z" 
+        }, 
+        { 
+            "id": "026f0fcb12345fbd2decd1a339702131422d362e_project_16.0.13701.20000__", 
+            "deviceId": "029f0fcb13245fbd2decd1a336702131422d392e", 
+            "rbacGroupName": "hhh", 
+            "deviceName": "ComputerPII_a5706750acba75f15d69cd17f4a7fcd268d6422c.DomainPII_f290e982685f7e8eee168b4332e0ae5d2a069cd6.corp.contoso.com", 
+            "osPlatform": "Windows10", 
+            "osVersion": "10.0.19042.685", 
+            "osArchitecture": "x64", 
+            "softwareVendor": "microsoft", 
+            "softwareName": "project", 
+            "softwareVersion": "16.0.13701.20000", 
+            "cveId": null, 
+            "vulnerabilitySeverityLevel": null, 
+            "recommendedSecurityUpdate": null, 
+            "recommendedSecurityUpdateId": null, 
+            "recommendedSecurityUpdateUrl": null, 
+            "diskPaths": [], 
+            "registryPaths": [ 
+                "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\ProjectProRetail - en-us" 
+            ], 
+            "lastSeenTimestamp": "2021-01-03 23:38:03", 
+            "firstSeenTimestamp": "2019-08-01 22:56:12", 
+            "exploitabilityLevel": "NoExploit", 
+            "recommendationReference": "va-_-microsoft-_-project", 
+            "status": "Fixed", 
+            "eventTimestamp": "2021-01-11T11:06:08.291Z" 
+        }, 
+        { 
+            "id": "038df381234510b357ac19d0113ef622e4e212b3_chrome_81.0.4044.138_CVE-2020-16011_", 
+            "deviceId": "038df381234510d357ac19b0113ef922e4e212b3",  
+            "rbacGroupName": "hhh", 
+            "deviceName": "ComputerPII_365f5c0bb7202c163937dad3d017969b2d760eb4.DomainPII_29596a43a2ef2bbfa00f6a16c0cb1d108bc63e32.DomainPII_3c5fefd2e6fda2f36257359404f6c1092aa6d4b8.net", 
+            "osPlatform": "Windows10", 
+            "osVersion": "10.0.18363.1256", 
+            "osArchitecture": "x64", 
+            "softwareVendor": "google", 
+            "softwareName": "chrome", 
+            "softwareVersion": "81.0.4044.138", 
+            "cveId": "CVE-2020-16011", 
+            "vulnerabilitySeverityLevel": "High", 
+            "recommendedSecurityUpdate": "ADV 200002", 
+            "recommendedSecurityUpdateId": null, 
+            "recommendedSecurityUpdateUrl": null, 
+            "diskPaths": [ 
+                "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe" 
+            ], 
+            "registryPaths": [ 
+                "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{C4EBFDFD-0C55-3E5F-A919-E3C54949024A}" 
+            ], 
+            "lastSeenTimestamp": "2020-12-10 22:45:41", 
+            "firstSeenTimestamp": "2020-07-26 02:13:43", 
+            "exploitabilityLevel": "NoExploit", 
+            "recommendationReference": "va-_-google-_-chrome", 
+            "status": "Fixed", 
+            "eventTimestamp": "2021-01-11T11:06:08.291Z" 
+        } 
+    ], 
+    "@odata.nextLink": "https://wpatdadi-eus-stg.cloudapp.net/api/machines/SoftwareVulnerabilitiesTimeline?sincetime=2021-01-11&pagesize=5&$skiptoken=eyJFeHBvcnREZWZpbml0aW9uIjp7IlRpbWVQYXRoIjoiMjAyMS0wMS0xMS8xMTAxLyJ9LCJFeHBvcnRGaWxlSW5kZXgiOjAsIkxpbmVTdG9wcGVkQXQiOjV9" 
+} 
 ```
 
 ## <a name="see-also"></a>Confira também

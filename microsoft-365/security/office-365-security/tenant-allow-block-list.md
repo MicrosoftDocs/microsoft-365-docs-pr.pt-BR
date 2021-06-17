@@ -16,12 +16,12 @@ ms.collection:
 description: Os administradores podem aprender a configurar as permites e os bloqueios na Lista de Locatários de Permitir/Bloquear no portal de Segurança.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 67c3badb86f1cfb9bf644cc202ed67e3163a6772
-ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
+ms.openlocfilehash: 1548eda760b7b6b19214cb834d7fc43357dc0357
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52933150"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52985487"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>Gerenciar a lista de Permissões/Bloqueios do Locatário
 
@@ -40,13 +40,13 @@ ms.locfileid: "52933150"
 
 Em organizações Microsoft 365 com caixas de correio em organizações Exchange Online ou autônomas Proteção do Exchange Online (EOP) sem Exchange Online caixas de correio, talvez você não concorde com o veredito de filtragem do EOP. Por exemplo, uma boa mensagem pode ser marcada como ruim (um falso positivo) ou uma mensagem ruim pode ser permitida através (um falso negativo).
 
-A Lista de locatários de Microsoft 365 portal do Defender oferece uma maneira de substituir manualmente os Microsoft 365 de filtragem. A Lista de Locatários Permite/Bloquear é usada durante o fluxo de emails e no momento dos cliques do usuário. Você pode especificar os seguintes tipos de substituições:
+A Lista de Locatários de Microsoft 365 Defender no portal de Microsoft 365 Defender oferece uma maneira de substituir manualmente os Microsoft 365 de filtragem. A Lista de Locatários Permite/Bloquear é usada durante o fluxo de emails e no momento dos cliques do usuário. Você pode especificar os seguintes tipos de substituições:
 
 - URLs a bloquear.
 - Arquivos a bloquear.
 - Envios com spoofed para permitir ou bloquear. Se você substituir o veredito de permitir ou bloquear no insight de inteligência de spoof , o remetente [spoofed](learn-about-spoof-intelligence.md)se tornará uma entrada manual de permitir ou bloquear que só aparece na guia **Spoof** na Lista de Locatários De Permitir/Bloquear. Você também pode criar manualmente entradas de permitir ou bloquear para os envios de spoofed aqui antes que eles são detectados pela inteligência spoof.
 
-Este artigo descreve como configurar entradas na Lista de Locatários Permitir/Bloquear no portal do defender do Microsoft 365 ou no PowerShell (Exchange Online PowerShell para organizações Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem Exchange Online caixas de correio).
+Este artigo descreve como configurar entradas na Lista de Locatários Permitir/Bloquear no portal do Microsoft 365 Defender ou no PowerShell (Exchange Online PowerShell para organizações Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem Exchange Online caixas de correio).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
@@ -92,7 +92,7 @@ Este artigo descreve como configurar entradas na Lista de Locatários Permitir/B
 
 ## <a name="use-the-microsoft-365-defender-portal-to-create-block-url-entries-in-the-tenant-allowblock-list"></a>Use o portal Microsoft 365 Defender para criar entradas de URL de bloqueio na Lista de Locatários de Permitir/Bloquear
 
-1. No portal Microsoft 365 Defender, vá para Políticas & **Regras** de Políticas de Ameaças seção \>  \>  Locatário \> Listas de locatários. 
+1. No portal Microsoft 365 Defender, vá para Políticas & **Regras de** Políticas de Ameaças seção \>  \>  \> **Locatário Listas de Locatários/Listas de Bloqueio.**
 
 2. Na página **Lista de Locatários Permitir/Bloquear,** verifique se a **guia URLs** está selecionada e clique em ![ Bloquear ícone ](../../media/m365-cc-sc-create-icon.png) **Bloquear**.
 
@@ -108,9 +108,9 @@ Este artigo descreve como configurar entradas na Lista de Locatários Permitir/B
 
 4. Quando terminar, clique em **Adicionar**.
 
-## <a name="use-the-microsoft-365-defender-portal-to-create-block-file-entries-in-the-tenant-allowblock-list"></a>Use o Microsoft 365 do Defender para criar entradas de arquivo de bloqueio na Lista de Locatários Permitir/Bloquear
+## <a name="use-the-microsoft-365-defender-portal-to-create-block-file-entries-in-the-tenant-allowblock-list"></a>Usar o portal Microsoft 365 Defender para criar entradas de arquivo de bloqueio na Lista de Locatários de Permitir/Bloquear
 
-1. No portal Microsoft 365 Defender, vá para Políticas & **Regras** de Políticas de Ameaças seção \>  \>  Locatário \> Listas de locatários. 
+1. No portal Microsoft 365 Defender, vá para Políticas & **Regras de** Políticas de Ameaças seção \>  \>  \> **Locatário Listas de Locatários/Listas de Bloqueio.**
 
 2. Na página **Lista de Locatários Permitir/Bloquear,** selecione a guia **Arquivos** e clique em Bloquear ![ ícone ](../../media/m365-cc-sc-create-icon.png) **Bloquear**.
 
@@ -126,7 +126,7 @@ Este artigo descreve como configurar entradas na Lista de Locatários Permitir/B
 
 4. Quando terminar, clique em **Adicionar**.
 
-## <a name="use-the-microsoft-365-defender-portal-to-create-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a>Use o Microsoft 365 do Defender para criar entradas de remetentes com spoofed ou de permitir ou bloquear na Lista de Locatários Permitir/Bloquear
+## <a name="use-the-microsoft-365-defender-portal-to-create-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a>Use o portal Microsoft 365 Defender para criar entradas de remetentes com spoofed ou de permitir ou bloquear na Lista de Locatários Permitir/Bloquear
 
 **Observações**:
 
@@ -134,7 +134,7 @@ Este artigo descreve como configurar entradas na Lista de Locatários Permitir/B
 - Quando você configura uma entrada de permitir ou bloquear para um par de domínios, as mensagens desse par de domínios não aparecem mais no insight de inteligência falsa.
 - As entradas para os envios com spoofed nunca expiram.
 
-1. No portal Microsoft 365 Defender, vá para Políticas & **Regras** de Políticas de Ameaças seção \>  \>  Locatário \> Listas de locatários. 
+1. No portal Microsoft 365 Defender, vá para Políticas & **Regras de** Políticas de Ameaças seção \>  \>  \> **Locatário Listas de Locatários/Listas de Bloqueio.**
 
 2. Na página **Lista de Locatários Permitir/Bloquear,** selecione a guia **Spoofing** e clique em ![ Bloquear ícone ](../../media/m365-cc-sc-create-icon.png) **Adicionar**.
 
@@ -147,9 +147,9 @@ Este artigo descreve como configurar entradas na Lista de Locatários Permitir/B
 
 4. Quando terminar, clique em **Adicionar**.
 
-## <a name="use-the-microsoft-365-defender-portal-to-view-entries-in-the-tenant-allowblock-list"></a>Use o Microsoft 365 do Defender para exibir entradas na Lista de Locatários Permitir/Bloquear
+## <a name="use-the-microsoft-365-defender-portal-to-view-entries-in-the-tenant-allowblock-list"></a>Use o portal Microsoft 365 Defender para exibir entradas na Lista de Locatários Permitir/Bloquear
 
-1. No portal Microsoft 365 Defender, vá para Políticas & **Regras** de Políticas de Ameaças seção \>  \>  Locatário \> Listas de locatários. 
+1. No portal Microsoft 365 Defender, vá para Políticas & **Regras de** Políticas de Ameaças seção \>  \>  \> **Locatário Listas de Locatários/Listas de Bloqueio.**
 
 2. Selecione a guia que você deseja. As colunas disponíveis dependem da guia selecionada:
 
@@ -199,9 +199,9 @@ Este artigo descreve como configurar entradas na Lista de Locatários Permitir/B
 
    Quando terminar, clique em **Aplicar**. Para limpar os filtros existentes,  clique em **Filtrar** e, no sobrevoo Filtro que aparece, clique em **Limpar filtros**.
 
-## <a name="use-the-microsoft-365-defender-portal-to-modify-entries-in-the-tenant-allowblock-list"></a>Use o Microsoft 365 do Defender para modificar entradas na Lista de Locatários de Permitir/Bloquear
+## <a name="use-the-microsoft-365-defender-portal-to-modify-entries-in-the-tenant-allowblock-list"></a>Usar o portal Microsoft 365 Defender para modificar entradas na Lista de Locatários de Permitir/Bloquear
 
-1. No portal Microsoft 365 Defender, vá para Políticas & **Regras** de Políticas de Ameaças seção \>  \>  Locatário \> Listas de locatários. 
+1. No portal Microsoft 365 Defender, vá para Políticas & **Regras de** Políticas de Ameaças seção \>  \>  \> **Locatário Listas de Locatários/Listas de Bloqueio.**
 
 2. Selecione a guia que contém o tipo de entrada que você deseja modificar:
    - **URLs**
@@ -219,9 +219,9 @@ Este artigo descreve como configurar entradas na Lista de Locatários Permitir/B
      - **Ação**: você pode alterar o valor para **Permitir** ou **Bloquear**.
 4. Quando concluir, clique em **Salvar**.
 
-## <a name="use-the-microsoft-365-defender-portal-to-remove-entries-from-the-tenant-allowblock-list"></a>Usar o portal Microsoft 365 Defender para remover entradas da lista De locatários de permitir/bloquear
+## <a name="use-the-microsoft-365-defender-portal-to-remove-entries-from-the-tenant-allowblock-list"></a>Use o portal Microsoft 365 Defender para remover entradas da Lista de Locatários Permitir/Bloquear
 
-1. No portal Microsoft 365 Defender, vá para Políticas & **Regras** de Políticas de Ameaças seção \>  \>  Locatário \> Listas de locatários. 
+1. No portal Microsoft 365 Defender, vá para Políticas & **Regras de** Políticas de Ameaças seção \>  \>  \> **Locatário Listas de Locatários/Listas de Bloqueio.**
 
 2. Selecione a guia que contém o tipo de entrada que você deseja remover:
    - **URLs**
@@ -245,7 +245,7 @@ New-TenantAllowBlockListItems -ListType <FileHash | Url> -Block -Entries "Value1
 Este exemplo adiciona uma entrada de arquivo de bloqueio para os arquivos especificados que nunca expiram.
 
 ```powershell
-New-TenantAllowBlockListItem -ListType FileHash -Block -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
+New-TenantAllowBlockListItems -ListType FileHash -Block -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
 ```
 
 Este exemplo adiciona uma entrada de URL de bloco para contoso.com e todos os subdomas (por exemplo, contoso.com, www.contoso.com e xyz.abc.contoso.com). Como não usamos os parâmetros ExpirationDate ou NoExpiration, a entrada expira após 30 dias.

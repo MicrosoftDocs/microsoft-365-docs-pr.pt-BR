@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente um rótulo a arquivos e emails, ou você pode solicitar aos usuários que selecionem o rótulo que você recomenda.
-ms.openlocfilehash: ad095db005421a58806d2775d4958cf3be5f474e
-ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
+ms.openlocfilehash: 4215e6618c1cc6359755c2af1e7b9e93ca07b58d
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52866734"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984803"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -74,7 +74,7 @@ Há dois métodos diferentes para aplicar automaticamente um rótulo de confiden
     - Se você possui regras de fluxo de correio do Exchange ou políticas de prevenção contra perda de dados (DLP) que aplicam a criptografia de IRM: Quando o conteúdo é identificado por essas regras ou políticas e por uma política de rotulagem automática, o rótulo é aplicado. Se esse rótulo aplicar a criptografia, as configurações de IRM das regras de fluxo de email do Exchange ou políticas DLP serão ignoradas. No entanto, se esse rótulo não aplicar criptografia, as configurações de IRM das regras de fluxo de email ou políticas DLP serão aplicadas além do rótulo.
     - Um email com criptografia de IRM sem rótulo será substituído por um rótulo com todas as configurações de criptografia quando houver uma correspondência usando rotulagem automática.
     - Os emails de entrada são rotulados quando houver uma correspondência com as condições de rotulagem automática:
-        - Se o rótulo estiver configurado para [criptografia](encryption-sensitivity-labels.md), essa criptografia será aplicada. No entanto, essa configuração não é compatível no momento.
+        - Rolando para fora: Se a etiqueta estiver configurada para [criptografia](encryption-sensitivity-labels.md), essa criptografia não é aplicada.
         - Se o rótulo estiver configurado para aplicar [marcações dinâmicas](sensitivity-labels-office-apps.md#dynamic-markings-with-variables), saiba que isso pode resultar no nome de pessoas fora da sua organização.
     - Quando o rótulo aplica criptografia, o [emissor do Gerenciamento de direitos e proprietário do Gerenciamento de direitos](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) é a pessoa que envia o e-mail. Atualmente, não há uma maneira de definir um proprietário do Rights Manager para todas as mensagens de email recebidas que sejam criptografadas automaticamente.
     
