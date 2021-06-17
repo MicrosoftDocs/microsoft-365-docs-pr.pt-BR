@@ -5,13 +5,15 @@ keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
+manager: laurawi
+ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 49cf658c7d146f75d54d1f74f0034db64c3cc5dc
-ms.sourcegitcommit: d3c1b08b3a8af29ef19ffe77da063920f28fe290
+ms.openlocfilehash: 0eaadeb36b3a042fd4028db6ceffd183abe0f55d
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50572547"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924922"
 ---
 # <a name="get-started-with-microsoft-managed-desktop"></a>Introdução à Área de Trabalho Gerenciada da Microsoft
 

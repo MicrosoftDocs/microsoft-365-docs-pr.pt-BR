@@ -7,17 +7,17 @@ metadata:
   ms.service: O365-administration
   ms.subservice: subservice
   ms.topic: landing-page
-  author: cmcatee
-  ms.author: cmcatee-MSFT
+  author: cmcatee-MSFT
+  ms.author: cmcatee
   ms.date: 01/27/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 49465f3800f7ce9962fef58568082b687428c4d0
-  ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+  ms.openlocfilehash: f9f6726bd432678326d5427affe176ea0364a849
+  ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/02/2021
-  ms.locfileid: "51579369"
+  ms.lasthandoff: 06/16/2021
+  ms.locfileid: "52964519"
 landingContent:
 - title: Gerenciamento de usuários
   linkLists:

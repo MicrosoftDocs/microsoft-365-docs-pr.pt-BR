@@ -19,12 +19,12 @@ ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 ms.custom:
 - seo-marvel-apr2020
 description: Crie políticas de alerta no centro de conformidade e segurança no Office 365 e Microsoft 365 para monitorar possíveis ameaças, perda de dados e problemas de permissões.
-ms.openlocfilehash: 2fe23f3e6d6889c3fc80b94be6a07095e06d3d68
-ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
+ms.openlocfilehash: 4bca7bb15900dbdd7caadb74ce7938b9483be03e
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52950114"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964723"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>Políticas de alerta no centro de conformidade e segurança
 
@@ -285,11 +285,11 @@ Depois que os alertas foram **gerados** e exibidos na página Exibir alertas no 
 
   - O número de vezes que a atividade controlada pelo alerta foi executada. Esse número pode não corresponder ao número real de alertas relacionados listados na página Exibir alertas porque mais alertas podem ter sido disparados.
 
-  - Um link para uma lista de atividades que inclui um item para cada atividade executada que disparou o alerta. Cada entrada nesta lista identifica quando a atividade ocorreu, o nome da operação real (como "FileDeleted") e o usuário que realizou a atividade, o objeto (como um arquivo, um caso de Descoberta Eletrônica ou uma caixa de correio) em que a atividade foi executada e o endereço IP do computador do usuário. Para alertas relacionados a malware, isso é links para uma lista de mensagens.
+  - Um link para uma lista de atividades que inclui um item para cada atividade executada que disparou o alerta. Cada entrada nesta lista identifica quando a atividade ocorreu, o nome da operação real (como "FileDeleted"), o usuário que realizou a atividade, o objeto (como um arquivo, um caso de Descoberta Eletrônica ou uma caixa de correio) em que a atividade foi executada e o endereço IP do computador do usuário. Para alertas relacionados a malware, isso é links para uma lista de mensagens.
 
   - O nome (e o link) da política de alerta correspondente.
 
-- **Suprimir notificações por email.** Você pode desativar (ou suprimir) notificações de email da página de sobrevoo para um alerta. Quando você suprimir notificações por email, a Microsoft não enviará notificações quando atividades ou eventos que corresponderem às condições da política de alerta. Mas os alertas serão disparados quando as atividades executadas pelos usuários corresponderem às condições da política de alerta. Você também pode desativar notificações por email editando a política de alerta.
+- **Suprimir notificações por email.** Você pode desativar (ou suprimir) notificações de email da página de sobrevoo para um alerta. Quando você suprimir notificações por email, a Microsoft não enviará notificações quando atividades ou eventos que corresponderem às condições da política de alerta ocorrerem. Mas os alertas serão disparados quando as atividades executadas pelos usuários corresponderem às condições da política de alerta. Você também pode desativar notificações por email editando a política de alerta.
 
 - **Resolver alertas.** Você pode marcar um alerta conforme resolvido na página de sobrevoo para um alerta (que define o status do alerta como **Resolvido).** A menos que você altere o filtro, os alertas resolvidos não serão exibidos na página **Exibir alertas.**
 
