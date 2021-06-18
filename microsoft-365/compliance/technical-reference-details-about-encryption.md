@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
 description: Saiba mais sobre os vários certificados, tecnologias e pacote de codificação TLS (Transport Layer Security) usados para criptografia em Office 365 e Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e7e50ea399cd694f512e0538de3f7e67c63ee0e3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2b2257338ab214ccdaa08f1aa8f322aad98d7c8b
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919347"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007544"
 ---
 # <a name="technical-reference-details-about-encryption"></a>Detalhes de referência técnica sobre criptografia
 
@@ -52,6 +52,9 @@ Todos os pacote de codificação suportados por Office 365 usam algoritmos aceit
 TLS e SSL que vieram antes do TLS são protocolos criptográficos que garantem a comunicação em uma rede usando certificados de segurança para criptografar uma conexão entre computadores. Office 365 dá suporte ao TLS versão 1.2 (TLS 1.2).
 
 No momento, não há suporte para TLS versão 1.3 (TLS 1.3).
+
+> [!IMPORTANT]
+> Esteja ciente de que as versões TLS são  preteridas e que as versões preteridas não devem ser usadas onde as versões mais recentes estão disponíveis. Se seus serviços herdado não exigirem TLS 1.0 ou 1.1, você deverá desabilitá-los.
   
 ## <a name="support-for-tls-10-and-11-deprecation"></a>Suporte para depreciação TLS 1.0 e 1.1
 
@@ -73,30 +76,29 @@ O TLS usa *pacote de codificação*, coleções de algoritmos de criptografia, p
 
 Office 365 responde a uma solicitação de conexão primeiro tentando se conectar usando o pacote de codificação mais seguro. Se a conexão não funcionar, Office 365 o segundo pacote de codificação mais seguro da lista e assim por diante. O serviço continua na lista até que a conexão seja aceita. Da mesma forma, quando Office 365 solicita uma conexão, o serviço de recebimento escolhe se o TLS será usado e qual pacote de codificação usar.
 
-> [!IMPORTANT]
-> Esteja ciente de que as versões TLS são  preteridas e que as versões preteridas não devem ser usadas onde as versões mais recentes estão disponíveis. No momento, o TLS 1.3 não tem suporte. Se seus serviços herdado não exigirem TLS 1.0 ou 1.1, você deverá desabilitá-los.
-
-| Pacote de codificação | Algoritmo/força de troca de chaves | Encaminhar Segredo | Codificação/força | Algoritmo de autenticação |
+| Nome do conjunto de codificações | Algoritmo/força de troca de chaves | Encaminhar sigilo | Codificação/força | Algoritmo/força de autenticação |
 |:-----|:-----|:-----|:-----|:-----|
-|TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 <br/>     |ECDH/192 <br/>|Sim <br/>|AES/256 <br/>|RSA/112 <br/> |
-|TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 <br/>     |ECDH/128 <br/>|Sim <br/>|AES/128 <br/>|RSA/112 <br/> |
-|TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 <br/>     |ECDH/192 <br/>|Sim <br/>|AES/256 <br/>|RSA/112 <br/> |
-|TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 <br/>     |ECDH/128 <br/>|Sim <br/>|AES/128 <br/>|RSA/112 <br/> |
-|TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA <br/>        |ECDH/192 <br/>|Sim <br/>|AES/256 <br/>|RSA/112 <br/> |
-|TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA <br/>        |ECDH/128 <br/>|Sim <br/>|AES/128 <br/>|RSA/112 <br/> |
-|TLS_RSA_WITH_AES_256_GCM_SHA384 <br/>           |RSA/112 <br/> |Não <br/> |AES/256 <br/>|RSA/112 <br/> |
-|TLS_RSA_WITH_AES_128_GCM_SHA256 <br/>           |RSA/112 <br/> |Não <br/> |AES/256 <br/>|RSA/112 <br/> |
+| TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384  <br/> | ECDH/192  <br/> | Sim  <br/> | AES/256  <br/> | RSA/112  <br/> |
+| TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256  <br/> | ECDH/128  <br/> | Sim  <br/> | AES/128  <br/> | RSA/112  <br/> |
+| TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384  <br/> | ECDH/192  <br/> | Sim  <br/> | AES/256  <br/> | RSA/112  <br/> |
+| TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256  <br/> | ECDH/128  <br/> | Sim  <br/> | AES/128  <br/> | RSA/112  <br/> |
+| TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA     <br/> | ECDH/192  <br/> | Sim  <br/> | AES/256  <br/> | RSA/112  <br/> |
+| TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA     <br/> | ECDH/128  <br/> | Sim  <br/> | AES/128  <br/> | RSA/112  <br/> |
+| TLS_RSA_WITH_AES_256_GCM_SHA384        <br/> | RSA/112   <br/> | Não   <br/> | AES/256  <br/> | RSA/112  <br/> |
+| TLS_RSA_WITH_AES_128_GCM_SHA256        <br/> | RSA/112   <br/> | Não   <br/> | AES/256  <br/> | RSA/112  <br/> |
 
-Esses pacote de codificação suportam protocolos TLS 1.0 e 1.1 até a data de deprecação. Para GCC ambientes High e DoD que deprecation datam de 15 de janeiro de 2020 e para ambientes de nível mundial e GCC data de 15 de outubro de 2020.
+Os seguintes pacote de codificação suportam protocolos TLS 1.0 e 1.1 até a data de deprecação. Para GCC ambientes High e DoD que deprecation data de 15 de janeiro de 2020. Para ambientes GCC em todo o mundo e que datam de 15 de outubro de 2020.
 
-| Protocolos | Nome do conjunto de codificações | Algoritmo/força de troca de chaves | Suporte ao Encaminhamento de Segredo | Algoritmo/força de autenticação | Cipher/Strength |
+| Protocolos | Nome do conjunto de codificações | Algoritmo/força de troca de chaves | Encaminhar sigilo | Codificação/força | Algoritmo/força de autenticação | 
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA  <br/> |ECDH/192  <br/> |Sim  <br/> |RSA/112  <br/> |AES/256  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA  <br/> |ECDH/128  <br/> |Sim  <br/> |RSA/112  <br/> |AES/128  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA        <br/> |RSA/112  <br/>  |Não  <br/>  |RSA/112  <br/> |AES/256  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA        <br/> |RSA/112  <br/>  |Não  <br/>  |RSA/112  <br/> |AES/128  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA256     <br/> |RSA/112  <br/>  |Não   <br/> |RSA/112  <br/> |AES/256  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA256     <br/> |RSA/112  <br/>  |Não   <br/> |RSA/112  <br/> |AES/256  <br/> |
+| TLS 1.0, 1.1, 1.2  <br/> | TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA  <br/> | ECDH/192  <br/> | Sim  <br/> | AES/256  <br/> | RSA/112  <br/> |
+| TLS 1.0, 1.1, 1.2  <br/> | TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA  <br/> | ECDH/128  <br/> | Sim  <br/> | AES/128  <br/> | RSA/112  <br/> |
+| TLS 1.0, 1.1, 1.2  <br/> | TLS_RSA_WITH_AES_256_CBC_SHA        <br/> | RSA/112   <br/> | Não   <br/> | AES/256  <br/> | RSA/112  <br/> |
+| TLS 1.0, 1.1, 1.2  <br/> | TLS_RSA_WITH_AES_128_CBC_SHA        <br/> | RSA/112   <br/> | Não   <br/> | AES/128  <br/> | RSA/112  <br/> |
+| TLS 1.0, 1.1, 1.2  <br/> | TLS_RSA_WITH_AES_256_CBC_SHA256     <br/> | RSA/112   <br/> | Não   <br/> | AES/256  <br/> | RSA/112  <br/> |
+| TLS 1.0, 1.1, 1.2  <br/> | TLS_RSA_WITH_AES_128_CBC_SHA256     <br/> | RSA/112   <br/> | Não   <br/> | AES/256  <br/> | RSA/112  <br/> |
+
+Determinados Office 365 (incluindo Microsoft Teams) usam a Porta Frontal do [Azure](/azure/frontdoor/front-door-overview) para encerrar conexões TLS e rotear o tráfego de rede de forma eficiente. Pelo menos um dos suites de codificação suportados pelo Porta Frontal do [Azure sobre o TLS 1.2](/azure/frontdoor/front-door-faq#what-are-the-current-cipher-suites-supported-by-azure-front-door-) deve estar habilitado para se conectar com êxito a esses produtos. Para Windows 10 e acima, recomendamos habilenciar um ou ambos os pacote de codificação ECDHE para melhor segurança. Windows 7, 8 e 8.1 não são compatíveis com os pacote de codificação ECDHE do Azure Front Door e os suites de codificação DHE foram fornecidos para compatibilidade com esses sistemas operacionais.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
@@ -111,3 +113,5 @@ Esses pacote de codificação suportam protocolos TLS 1.0 e 1.1 até a data de d
 [Aprimoramentos criptográficos TLS/SSL (Windows Centro de IT)](/previous-versions/windows/it-pro/windows-vista/cc766285(v=ws.10))
   
 [Preparação para o TLS 1.2 no Office 365 e no Office 365 GCC](/office365/troubleshoot/security/prepare-tls-1.2-in-office-365)
+
+[Quais são os pacote de codificação atuais suportados pelo Porta Da Frente do Azure?](/azure/frontdoor/front-door-faq#what-are-the-current-cipher-suites-supported-by-azure-front-door-)

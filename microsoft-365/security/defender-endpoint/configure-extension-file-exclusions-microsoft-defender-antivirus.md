@@ -14,16 +14,14 @@ ms.topic: article
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 71df43639a719acb9436f64deba6b6c5cc9317f5
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 386e4499fec30bf1c564c1e0dc81cb8aaa5912a5
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924274"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007509"
 ---
 # <a name="configure-and-validate-exclusions-based-on-file-extension-and-folder-location"></a>Configurar e validar exclusões com base na extensão de arquivo e no local da pasta
-
-
 
 **Aplica-se a:**
 
@@ -271,7 +269,7 @@ A tabela a seguir lista e descreve as variáveis do ambiente de conta do sistema
 
 Você pode recuperar os itens na lista de exclusão usando um dos seguintes métodos:
 - [Intune](/intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune)
-- [Microsoft Endpoint Configuration Manager](/configmgr/protect/deploy-use/endpoint-antimalware-policies)
+- [Gerenciador de Configuração do Microsoft Endpoint](/configmgr/protect/deploy-use/endpoint-antimalware-policies)
 - MpCmdRun
 - PowerShell
 - [Segurança do Windows app](microsoft-defender-security-center-antivirus.md)
@@ -310,7 +308,7 @@ Get-MpPreference
 
 No exemplo a seguir, os itens contidos na `ExclusionExtension` lista são realçados:
 
-![Saída do PowerShell para Get-MpPreference mostrando a lista de exclusão juntamente com outras preferências](images/defender/wdav-powershell-get-exclusions-all.png)
+:::image type="content" source="../../media/wdav-powershell-get-exclusions-variable.png" alt-text="Saída do PowerShell para Get-MpPreference":::
 
 Para obter mais informações, confira [Usar cmdlets do PowerShell para configurar e executar o Microsoft Defender Antivírus](use-powershell-cmdlets-microsoft-defender-antivirus.md) e [cmdlets do Defender](/powershell/module/defender/).
 
@@ -326,7 +324,7 @@ $WDAVprefs.ExclusionPath
 
 No exemplo a seguir, a lista é dividida em novas linhas para cada uso do `Add-MpPreference` cmdlet:
 
-![Saída do PowerShell mostrando apenas as entradas na lista de exclusão](images/defender/wdav-powershell-get-exclusions-variable.png)
+:::image type="content" source="../../media/wdav-powershell-get-exclusions-variable.png" alt-text="Saída do PowerShell mostrando apenas as entradas na lista de exclusão":::
 
 Para obter mais informações, confira [Usar cmdlets do PowerShell para configurar e executar o Microsoft Defender Antivírus](use-powershell-cmdlets-microsoft-defender-antivirus.md) e [cmdlets do Defender](/powershell/module/defender/).
 

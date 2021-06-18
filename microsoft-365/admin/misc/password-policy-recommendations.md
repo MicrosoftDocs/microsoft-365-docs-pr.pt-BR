@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Deixe a sua organização mais segura contra ataques de senha, vete senhas comuns e habilite a autenticação multifator baseada em risco.
-ms.openlocfilehash: f42905c6bf7769e558581338fd122f26d530423e
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: f580ed957b8231bc68c5f21ea9af990808478382
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635969"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53006920"
 ---
 # <a name="password-policy-recommendations"></a>Recomendações de política de senha
 
-Como administrador de uma organização, você é responsável por definir a política de senha para usuários em sua organização. Definir a política de senha pode ser complicado e confuso, e este artigo fornece recomendações para tornar a sua organização mais segura contra ataques de senha.
+Como administrador de uma organização, você é responsável por definir a política de senha para os usuários em sua organização. Definir a política de senhas pode ser complicado e confuso, e este artigo fornece recomendações para tornar sua organização mais segura contra ataques de senhas.
   
 Para determinar a frequência com que as senhas do Microsoft 365 expiram em sua organização, confira [Definir política de expiração de senha para o Office 365](../manage/set-password-expiration-policy.md).
 
@@ -112,7 +112,7 @@ Por outro lado, aqui estão algumas recomendações para o incentivo à diversid
   
 ### <a name="ban-common-passwords"></a>Bloquear senhas comuns
 
-O requisito de senha mais importante que você deve colocar para os usuários ao criar senhas é proibir o uso de senhas comuns para reduzir a suscetibilidade da sua organização a ataques de senha de força bruta. As senhas de usuário comuns incluem, **abcdefg**, **senha**, **macaco**.
+O requisito de senha mais importante que você deve colocar para os usuários ao criar senhas é proibir o uso de senhas comuns para reduzir a suscetibilidade da sua organização a ataques de senha de força bruta. As senhas comuns de usuários incluem: **abcdefg**, **password**, **monkey**.
   
 ### <a name="educate-users-to-not-re-use-organization-passwords-anywhere-else"></a>Instrua os usuários a não reutilizar senhas da organização em outro local
 
@@ -131,6 +131,8 @@ A autenticação multifatorial baseada em risco garante que, quando o sistema de
 ## <a name="next-steps"></a>Próximas etapas
 
 Quer saber mais sobre o gerenciamento de senhas? Veja algumas leituras recomendadas:
+
+- [Diretrizes de senha da Microsoft](https://www.microsoft.com/research/wp-content/uploads/2016/06/Microsoft_Password_Guidance-1.pdf)
 
 - [Senhas Fortes da Web Realizam Qualquer Coisa?](https://go.microsoft.com/fwlink/p/?linkid=861008)
 

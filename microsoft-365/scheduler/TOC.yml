@@ -1,10 +1,10 @@
-- name: Agendador de Microsoft 365
+- name: Agendador para Microsoft 365
   href: scheduler-overview.md
 - name: Confiança e Privacidade
   href: scheduler-trust-privacy.md
-- name: Configurando o Agendador para Microsoft 365
+- name: Configurando o Agendador para o Microsoft 365
   href: scheduler-setup.md
-- name: Como usar o Agendador para Microsoft 365
+- name: Como usar o Agendador para o Microsoft 365
   href: scheduler-using.md
-- name: Agendador para Microsoft 365 perguntas frequentes
+- name: Agendador para o Microsoft 365 FAQ's
   href: scheduler-faqs.md

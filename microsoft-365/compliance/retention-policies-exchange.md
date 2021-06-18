@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como a retenção funciona para o Exchange.
-ms.openlocfilehash: efb95b22355bff292ef63c77fb77fb5a15d66722
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: 29a07ca9c819939c32f9ec13205a821a45e03883
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861126"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52985427"
 ---
 # <a name="learn-about-retention-for-exchange"></a>Saiba mais sobre a retenção para o Exchange
 
@@ -34,7 +34,7 @@ As informações contidas neste artigo complementam [Saiba mais sobre retenção
 
 ## <a name="whats-included-for-retention-and-deletion"></a>O que está incluído para retenção e exclusão
 
-Os seguintes itens do Exchange podem ser retidos e excluídos usando políticas de retenção e rótulos de retenção: Email do Outlook (inclui rascunhos) com quaisquer anexos, tarefas quando eles têm uma data de término e notas. 
+Os seguintes itens do Exchange de caixas de correio de usuário e caixas de correio compartilhadas podem ser mantidos e excluídos usando políticas de retenção e rótulos de retenção: mensagens de email (inclui mensagens recebidas, rascunhos, mensagens enviadas) com anexos, tarefas quando têm uma data de término e anotações. 
 
 Os itens de Calendário do Outlook com data de término têm suporte para políticas de retenção, mas não para rótulos de retenção.
 

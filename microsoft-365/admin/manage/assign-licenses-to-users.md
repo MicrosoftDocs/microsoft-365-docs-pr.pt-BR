@@ -23,12 +23,12 @@ ms.custom:
 search.appverid: MET150
 description: Atribua licenças dependendo se você deseja atribuir licenças de produto a usuários específicos ou atribuir licenças de usuários a um produto específico.
 ms.date: 04/26/2021
-ms.openlocfilehash: 707c1c952aa737f0aa91d886e9fa304eabe26321
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: c8e5c6a648f08aaba97fe05e19a5cfa0cada2174
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537530"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007004"
 ---
 # <a name="assign-licenses-to-users"></a>Atribuir licenças aos usuários
 
@@ -129,11 +129,12 @@ Ao usar a página **Usuários ativos** para atribuir licenças, você atribui li
 
 
 2. Selecione os círculos ao lado dos nomes dos usuários aos quais você quer atribuir licenças.
-3. Na parte superior, selecione os três pontos (mais ações) e selecione **Gerenciar licenças de produto**.
-4. No painel **Gerenciar licenças de produtos**, selecione **Adicionar a atribuições de licença de produto existentes** \> **.Avançar**.
-5. No painel **Adicionar a produtos existentes**, alterne o botão para a posição **Ativado** nas licenças que você quer que os usuários selecionados tenham.\
-    Por padrão, todos os serviços associados a essa licença são atribuídos automaticamente ao usuário. Você pode limitar quais serviços estão disponíveis para os usuários. Alterne o botão a posição **Desativado** para os serviços que você não deseja que os usuários tenham.
-6. Na parte inferior do painel, selecione **Adicionar** \> **Fechar**.  
+3. Na parte superior, selecione **Gerenciar licenças de produtos**.
+4. No painel **Gerenciar licenças de produtos**, selecione **Atribuir mais: manter as licenças existentes e atribuir mais** \> **Avançar**.
+5. Em **Licenças**, selecione a caixa para as licenças que você deseja que os usuários selecionados tenham.\
+    Por padrão, todos os serviços associados a essa licença são atribuídos automaticamente ao usuário. Você pode limitar quais serviços estão disponíveis para os usuários. Desmarque as caixas para os serviços que você não deseja que os usuários tenham.
+6. Na parte inferior do painel, selecione **Salvar mudanças**.  
+    Talvez seja necessário comprar licenças adicionais se você não tiver licenças suficientes para todos.
 
 
 > [!NOTE]

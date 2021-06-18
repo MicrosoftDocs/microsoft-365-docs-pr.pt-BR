@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: fafd3eed63e077ded41259d25f0d8a1a89802925
-ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
+ms.openlocfilehash: 6884ec3b2bc7c24e4f7f6e62d9b24add3aeee2c0
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52998735"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007340"
 ---
 # <a name="plan-for-insider-risk-management"></a>Planejar o gerenciamento de riscos internos
 
@@ -48,8 +48,8 @@ Dependendo da estrutura da sua equipe de gerenciamento de conformidade, você te
 
 | **Default management role assignments for this role** | **Permissões de função** |
 | :------------- | :------------------- |
-| **Gerenciamento de riscos do Insider** | Use este grupo de função para gerenciar o gerenciamento de risco inerno da sua organização em um único grupo. Ao adicionar todas as contas de usuário para administradores designados, analistas, investigadores e auditores, você pode configurar permissões de gerenciamento de riscos internas em um único grupo. Este grupo de funções contém todas as funções de permissão de gerenciamento de risco interno e permissões associadas. Essa configuração é a maneira mais fácil de começar rapidamente com o gerenciamento de riscos insider e é um bom ajuste para organizações que não precisam de permissões separadas definidas para grupos separados de usuários. Ao usar essa configuração, você deve ter sempre pelo menos um usuário atribuído a essa função para garantir que suas políticas funcionem conforme o esperado e para que o usuário possa criar e editar políticas, configurar configurações de solução e revisar os avisos de saúde da política. |
-| **Administrador de Gerenciamento de Riscos do Insider** | Use esse grupo de funções para configurar inicialmente o gerenciamento de riscos insider e posteriormente para segregar administradores de riscos insider em um grupo definido. Os usuários neste grupo de funções podem habilitar e exibir insights de análise e criar, ler, atualizar e excluir políticas de gerenciamento de riscos insider, configurações globais e atribuições de grupo de função. Ao usar essa configuração, você deve ter sempre pelo menos um usuário atribuído a essa função para garantir que suas políticas funcionem conforme o esperado e para que o usuário possa criar e editar políticas, configurar configurações de solução e revisar os avisos de saúde da política. |
+| **Gerenciamento de riscos do Insider** | Use este grupo de função para gerenciar o gerenciamento de risco inerno da sua organização em um único grupo. Ao adicionar todas as contas de usuário para administradores designados, analistas, investigadores e auditores, você pode configurar permissões de gerenciamento de riscos internas em um único grupo. Este grupo de funções contém todas as funções de permissão de gerenciamento de risco interno e permissões associadas. Essa configuração é a maneira mais fácil de começar rapidamente com o gerenciamento de riscos insider e é um bom ajuste para organizações que não precisam de permissões separadas definidas para grupos separados de usuários. Ao usar essa configuração, você deve ter sempre pelo menos um usuário atribuído a esse grupo de funções para garantir que suas políticas funcionem conforme o esperado e para que o usuário possa criar e editar políticas, definir configurações de solução e revisar os avisos de saúde da política. |
+| **Administrador de Gerenciamento de Riscos do Insider** | Use esse grupo de funções para configurar inicialmente o gerenciamento de riscos insider e, posteriormente, separar administradores de risco interno em um grupo definido. Os usuários neste grupo de funções podem habilitar e exibir insights de análise e criar, ler, atualizar e excluir políticas de gerenciamento de riscos insider, configurações globais e atribuições de grupo de função. Ao usar essa configuração, você deve ter sempre pelo menos um usuário atribuído a esse grupo de funções para garantir que suas políticas funcionem conforme o esperado e para que o usuário possa criar e editar políticas, definir configurações de solução e revisar os avisos de saúde da política. |
 | **Analistas do Gerenciamento de Risco Interno** | Use este grupo para atribuir permissões aos usuários que atuarão como analistas de casos de risco internos. Os usuários neste grupo de funções podem acessar e exibir todos os alertas de gerenciamento de riscos insider, casos, insights de análise e modelos de avisos. Eles não podem acessar o explorador de conteúdo de risco interno. |
 | **Investigadores do Gerenciamento de Risco Interno** | Use este grupo para atribuir permissões aos usuários que atuarão como investigadores de dados do risco interno. Os usuários neste grupo de funções podem acessar todos os alertas, casos, modelos de avisos e o explorador de conteúdo para todos os casos. |
 | **Auditores de Gerenciamento de Riscos do Insider** | Use esse grupo para atribuir permissões aos usuários que auditarão atividades de gerenciamento de riscos insider. Os usuários neste grupo de funções podem acessar o log de auditoria de risco interno. |

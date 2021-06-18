@@ -13,12 +13,12 @@ ms.author: shmehta
 ms.reviewer: krowley
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: 708e5dc68b777db42696c6791124b2a8dd1d3b87
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: cbd1ff5f2baf17e9a45a64e46d2e9f9f02e1fb68
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927947"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007424"
 ---
 # <a name="preparing-for-tls-12-in-office-365-and-office-365-gcc"></a>Preparação para o TLS 1.2 no Office 365 e no Office 365 GCC
 
@@ -70,6 +70,7 @@ Se estiver usando qualquer infraestrutura local para cenários híbridos ou Serv
 Os seguintes recursos fornecem instruções para ajudar a verificar se seus clientes estão usando TLS 1.2, ou uma versão posterior, e como desabilitar o TLS 1.0 e 1.1.
 
 - Caso tenha clientes Windows 7 conectados ao Office 365, verifique se o TLS 1.2 é o protocolo seguro padrão do WinHTTP no Windows. Para obter mais informações, consulte [KB 3140245 – Atualização para habilitar o TLS 1.1 e TLS 1.2 como protocolos seguros padrão no WinHTTP no Windows](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in).
+- [Pacote de codificação TLS com suporte Office 365](/microsoft-365/compliance/technical-reference-details-about-encryption?view=o365-worldwide#tls-cipher-suites-supported-by-office-365)
 - Para começar a solucionar problemas de pouco uso de TLS ao remover a dependência do TLS 1.0 e 1.1, consulte [Suporte para TLS 1.2 na Microsoft](https://cloudblogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/).
 - A [nova funcionalidade de IIS](https://cloudblogs.microsoft.com/microsoftsecure/2017/09/07/new-iis-functionality-to-help-identify-weak-tls-usage/) facilita a descoberta de clientes no [Windows Server 2012 R2](https://support.microsoft.com/help/4025335/windows-8-1-windows-server-2012-r2-update-kb4025335) e no [Windows Server 2016](https://support.microsoft.com/help/4025334/windows-10-update-kb4025334) que se conectam ao serviço usando protocolos de segurança fracos.
 - Obter mais informações sobre como [resolver o problema TLS 1.0](https://www.microsoft.com/download/details.aspx?id=55266).

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Obter uma visão geral de como sua organização está adotando serviços Microsoft 365 para se comunicar e colaborar.
-ms.openlocfilehash: db61ed4d4c087b76895d08e43f6b1a2c00ed8172
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: da2ac5f68bedd064e426531a9cd3c6cbc33f8277
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635385"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007160"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 análise de uso
 
@@ -68,7 +68,7 @@ O Microsoft 365 de visão geral contém os relatórios a seguir. Você pode exib
 
 A página de ativação e licença oferece relatórios sobre Microsoft 365 ativação; ou seja, quantos usuários baixaram e ativaram Office aplicativos e quantas licenças foram atribuídas pela sua organização. O valor do mês em direção à parte superior refere-se ao mês atual e as métricas refletem valores agregados do início do mês até a data atual.
 
-- **Ativação** &ndash; Acompanhe as ativações do plano de serviço (por exemplo, Microsoft 365 Apps para Grandes Empresas, Project e Visio) em sua organização. Cada pessoa com uma licença Office pode instalar produtos em até cinco dispositivos. Você também pode usar relatórios nesta seção para ver os dispositivos nos quais as pessoas instalaram Office aplicativos. Observe que, para ativar um plano, um usuário deve instalar o aplicativo e entrar com sua conta.
+- **Ativação** &ndash; Acompanhe as ativações do plano de serviço (por exemplo, Aplicativos do Microsoft 365 para empresas, Project e Visio) em sua organização. Cada pessoa com uma licença Office pode instalar produtos em até cinco dispositivos. Você também pode usar relatórios nesta seção para ver os dispositivos nos quais as pessoas instalaram Office aplicativos. Observe que, para ativar um plano, um usuário deve instalar o aplicativo e entrar com sua conta.
 
 - **Licenciamento** &ndash; Este relatório contém uma visão geral dos tipos de licença, a contagem de usuários que foram atribuídos a cada tipo de licença e a distribuição de atribuição de licença para cada mês. O valor do mês em direção à parte superior refere-se ao mês atual e as métricas refletem valores agregados do início do mês até a data atual.
 
@@ -80,7 +80,7 @@ Este relatório contém um relatório separado para cada serviço Microsoft 365,
 
 Os relatórios de atividades do usuário estão disponíveis para determinados serviços individuais. Esses relatórios fornecem dados de uso de detalhes no nível do usuário ingressados nos atributos do Active Directory. Além disso, o relatório de Adoção do Departamento permite fatiar os atributos do Active Directory para que você possa ver usuários ativos em todos os serviços individuais. Todas as métricas são agregadas para o mês completo mais recente.
 
-## <a name="faq"></a>Perguntas frequentes
+## <a name="faq"></a>Perguntas Frequentes
 
 ### <a name="is-this-template-app-going-to-be-available-through-purchase-or-will-it-be-free"></a>Esse aplicativo de modelo estará disponível por meio da compra ou ele será gratuito?
 
@@ -105,7 +105,7 @@ Além de personalizar os relatórios da interface da Web Power BI, os usuários 
 
 ### <a name="how-can-i-get-the-pbit-file-that-this-dashboard-is-associated-with"></a>Como posso obter o arquivo pbit ao qual esse painel está associado?
 
-Você pode acessar o arquivo pbit do Centro [de Download da Microsoft.](https://download.microsoft.com/download/7/8/2/782ba8a7-8d89-4958-a315-dab04c3b620c/Microsoft%20365%20Usage%20Analytics.pbit)
+Você pode acessar o arquivo pbit do Centro [de Download da Microsoft.](https://download.microsoft.com/download/7/8/2/782ba8a7-8d89-4958-a315-dab04c3b620c/Microsoft%20365%20Usage%20Analytics.pbit) 
 
 ### <a name="who-can-view-the-dashboards-and-reports"></a>Who pode exibir os painéis e relatórios?
 
@@ -129,7 +129,7 @@ Os dados no aplicativo de modelo atualmente abrangem o mesmo conjunto de métric
 
 ### <a name="how-does-the-data-in-the-template-app-differ-from-the-data-in-the-usage-reports"></a>Como os dados no aplicativo de modelo diferem dos dados nos relatórios de uso?
 
-Os dados subjacentes que você vê no aplicativo de modelo coincidem com os dados que você vê nos relatórios de atividade no Microsoft 365 de administração. As principais diferenças são que os dados do centro de administração estão disponíveis para os últimos 30/7/90/180 dias, enquanto o aplicativo de modelo apresenta dados mensalmente por até 12 meses.
+Os dados subjacentes que você vê no aplicativo de modelo coincidem com os dados que você vê nos relatórios de atividade no Centro de administração do Microsoft 365. As principais diferenças são que os dados do centro de administração estão disponíveis para os últimos 30/7/90/180 dias, enquanto o aplicativo de modelo apresenta dados mensalmente por até 12 meses.
 
 Além disso, os detalhes de nível do usuário no aplicativo de modelo estão disponíveis apenas para o último mês completo para usuários que foram atribuídos a uma licença de produto e realizaram uma atividade.
 
@@ -175,7 +175,7 @@ As informações da empresa são incluídas em um dos campos do Active Directory
 
 ### <a name="is-it-possible-to-bring-in-additional-fields-from-active-directory"></a>É possível trazer campos adicionais do Active Directory?
 
-A personalização adicional sobre esses dados é possível conectando-se às [APIs](https://go.microsoft.com/fwlink/p/?linkid=848843) de relatório do Microsoft Graph para puxar campos adicionais do Azure Active Directory e ingressar no conjuntos de dados. 
+A personalização adicional sobre esses dados é possível conectando-se às [APIs](https://go.microsoft.com/fwlink/p/?linkid=848843) de relatório do Microsoft Graph para puxar campos adicionais do Active Directory do Azure e ingressar no conjuntos de dados. 
 
 ### <a name="is-it-possible-to-aggregate-the-information-in-the-template-app-across-multiple-subscriptions"></a>É possível agregar as informações no aplicativo de modelo em várias assinaturas?
 

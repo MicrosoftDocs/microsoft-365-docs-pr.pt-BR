@@ -11,17 +11,17 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 09/28/2020
+ms.date: 06/17/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: ec3dd2edc09d504af0ed76b17577130b1cdce1b7
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: bc7c84e089b08c440512f8a8bf7583f41394f2ca
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275367"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007617"
 ---
 # <a name="review-microsoft-defender-antivirus-scan-results"></a>Examinar Microsoft Defender Antivírus resultados da verificação
 
@@ -47,7 +47,7 @@ O cmdlet a seguir retornará cada detecção no ponto de extremidade. Se houver 
 Get-MpThreatDetection
 ```
 
-![captura de tela de cmdlets e saídas do PowerShell](images/defender/wdav-get-mpthreatdetection.png)
+:::image type="content" source="../../media/wdav-get-mpthreatdetection.png" alt-text="captura de tela de cmdlets e saídas do PowerShell":::
 
 Você pode especificar `-ThreatID` para limitar a saída para mostrar apenas as detecções de uma ameaça específica.
 
@@ -57,7 +57,7 @@ Se você quiser listar detecções de ameaças, mas combinar detecções da mesm
 Get-MpThreat
 ```
 
-![captura de tela do PowerShell](images/defender/wdav-get-mpthreat.png)
+:::image type="content" source="../../media/wdav-get-mpthreat.png" alt-text="Código do PowerShell":::
 
 Consulte [Usar cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) do PowerShell para configurar e executar [cmdlets](/powershell/module/defender/) Microsoft Defender Antivírus e Defender para obter mais informações sobre como usar o PowerShell com Microsoft Defender Antivírus.
 

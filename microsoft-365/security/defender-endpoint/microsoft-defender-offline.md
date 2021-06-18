@@ -15,12 +15,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: a25a2ec513cd7c25f9f6ddf3d5e328928837bf2d
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: b2a6ee7c3f3ea2fb31b31d2f1db178bfd9847fbc
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275139"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007460"
 ---
 # <a name="run-and-review-the-results-of-a-microsoft-defender-offline-scan"></a>Executar e revisar os resultados de uma verificação do Microsoft Defender Offline
 
@@ -69,7 +69,7 @@ A necessidade de executar uma verificação offline também será revelada Micro
 
 O prompt pode ocorrer por meio de uma notificação, semelhante ao seguinte:
 
-![Windows notificação mostrando o requisito para executar Microsoft Defender Offline](images/defender/notification.png)
+:::image type="content" source="../../media/notification.png" alt-text="Notificação para executar Microsoft Defender Offline":::
 
 O usuário também será notificado dentro do Windows Defender cliente.
 
@@ -77,7 +77,7 @@ No Configuration Manager, você pode identificar o status dos pontos de extremid
 
 Microsoft Defender Offline as verificações são indicadas em **Status de correção de malware** conforme a verificação offline **necessária**.
 
-![Microsoft Endpoint Manager indicando que uma Microsoft Defender Offline de verificação é necessária](images/defender/sccm-wdo.png)
+:::image type="content" source="../../media/sccm-wdo.png" alt-text="Microsoft Defender Offline verificação é necessária":::
 
 ## <a name="configure-notifications"></a>Configurar notificações
 

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 44761199eea1cf2649a15b6a36ccc08eda99c570
-ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
+ms.openlocfilehash: 65c9216e30c2db04b1981a17d73b3a9f0b5f1594
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52950054"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007496"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -373,9 +373,11 @@ Você aplica o Bloqueio de Preservação depois que a política de retenção ou
 
 ## <a name="releasing-a-policy-for-retention"></a>Lançar uma política de retenção
 
-Caso as suas políticas para retenção não tenham um Bloqueio de Preservação, você pode excluir suas políticas a qualquer momento, o que desabilita eficazmente as configurações de retenção aplicadas anteriormente. Você também pode manter a política, mas remover um site do SharePoint ou uma conta do OneDrive, alterar o status de local para desativá-la ou desabilitar a política.
+Caso as suas políticas para retenção não tenham um Bloqueio de Preservação, você pode excluir suas políticas a qualquer momento, o que desabilita eficazmente as configurações de retenção aplicadas anteriormente. Você também pode manter a política, mas alterar o status de local para desativá-lo ou desabilitar a política. Se sua política estiver configurada para incluir sites específicos do SharePoint ou contas do OneDrive, você também poderá editar a política para remover uma ou mais dessas entradas para liberar a política para esses sites ou contas.
  
 Quando você realiza qualquer uma dessas ações, qualquer conteúdo do SharePoint ou do OneDrive que estiver sujeito à retenção da política continuará a ser retido por 30 dias para evitar a perda inadvertida de dados. Durante esse período de cortesia de 30 dias, os arquivos excluídos ainda são retidos (os arquivos continuam a ser adicionados à biblioteca de retenção para preservação), mas o trabalho de timer que limpa periodicamente a biblioteca de Retenção para Preservação é suspenso para esses arquivos para que você possa restaurá-los se necessário.
+
+Uma exceção a esse período de cortesia de 30 dias é quando você atualiza a política para excluir um ou mais sites do SharePoint ou contas do OneDrive; neste caso, o trabalho de temporizador exclui arquivos para esses locais na biblioteca de Retenção para Preservação sem o atraso de 30 dias.
 
 Para saber mais sobre a biblioteca de Retenção para Preservação, confira [Como funciona a retenção no SharePoint e no OneDrive](retention-policies-sharepoint.md#how-retention-works-for-sharepoint-and-onedrive).
 

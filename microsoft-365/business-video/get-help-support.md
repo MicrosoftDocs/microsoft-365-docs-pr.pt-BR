@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Adm_O365
 ms.custom:
@@ -18,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Você deve ser um administrador de uma assinatura comercial para obter ajuda de administrador ou suporte online ou por telefone Microsoft 365 Business Premium.
-ms.openlocfilehash: e1250d5c291832e5a337f34e49ce0b7cf68fb08d
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
-ms.translationtype: MT
+description: Você deve ser um administrador de uma assinatura comercial para obter ajuda do administrador ou suporte online ou por telefone no Microsoft 365 Business Premium.
+ms.openlocfilehash: 254e01894f430bdf6a8f666d1425af8705968647
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635897"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984743"
 ---
 # <a name="get-support"></a>Obter suporte
 
@@ -258,6 +258,6 @@ Você também pode [pesquisar nos fóruns de comunidade do Microsoft 365 para pe
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Encontre documentos e treinamento](find-help-answers.md) (artigo)\
-[Configuração rápida do funcionário](employee-quick-setup.md) (artigo)\
-[Visão geral da Microsoft 365 Business Premium](setup-overview.md) (vídeo)
+[Localizar documentos e treinamento](find-help-answers.md) (artigo)\
+[Configuração rápida para funcionários](employee-quick-setup.md) (artigo)\
+[Visão geral da configuração do Microsoft 365 Business Premium](setup-overview.md) (video)

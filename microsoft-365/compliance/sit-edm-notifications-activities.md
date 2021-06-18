@@ -1,5 +1,5 @@
 ---
-title: Criar notificações para atividades de correspondência exata de dados (pré-visualização)
+title: Criar notificações para atividades de correspondência exata de dados
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,16 +15,16 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Aprenda a criar notificações para atividades de correspondência exata de dados.
+description: Aprenda como criar notificações para atividades de correspondência exata de dados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e2f67ef0f276211483519bd5e246e4e041b2b15
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 15aa8f2bda76d56d3e35af8e884193193bb78d40
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919357"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007556"
 ---
-# <a name="create-notifications-for-exact-data-match-activities-preview"></a>Criar notificações para atividades de correspondência exata de dados (pré-visualização)
+# <a name="create-notifications-for-exact-data-match-activities"></a>Criar notificações para atividades de correspondência exata de dados
 
 Ao [criar tipos de informações confidenciais personalizadas com correspondência exata de dados (EDM)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md), uma série de atividades são criadas no [log de auditoria](search-the-audit-log-in-security-and-compliance.md#requirements-to-search-the-audit-log). Você pode usar o cmdlet do PowerShell [New-ProtectionAlert](/powershell/module/exchange/new-protectionalert?view=exchange-ps) para criar notificações que o informam quando estas atividades ocorrem:
 
@@ -33,9 +33,6 @@ Ao [criar tipos de informações confidenciais personalizadas com correspondênc
 - RemoveSchema
 - UploadDataFailed
 - UploadDataCompleted
-
-> [!NOTE]
-> A capacidade de criar notificações para atividades de EDM está disponível apenas para as nuvens de World Wide e de GCC.
 
 ## <a name="pre-requisites"></a>Pré-requisitos
 

@@ -1,6 +1,6 @@
 ---
 title: Proteger as configurações de segurança com proteção contra adulteração
-ms.reviewer: shwjha, hayhov
+ms.reviewer: pahuijbr, hayhov, oogunrinde
 manager: dansimp
 description: Use a proteção contra violações para impedir que aplicativos mal-intencionados alterem configurações de segurança importantes.
 keywords: malware, defender, antivírus, proteção contra adulteração
@@ -16,13 +16,13 @@ author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
-ms.date: 05/17/2021
-ms.openlocfilehash: f6217cccf79b951c3103e1024ac74669d68645cd
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.date: 06/17/2021
+ms.openlocfilehash: 7050a1588b71ac106d5364f29c76d379072e9511
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925930"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007412"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>Proteger as configurações de segurança com proteção contra adulteração
 
@@ -37,7 +37,7 @@ A proteção contra adulteração está disponível para dispositivos que execut
 - Windows Servidor, versão 1803 ou posterior
 - Windows Server 2016
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Durante alguns tipos de ataques cibernéticos, os atores ruins tentam desabilitar recursos de segurança, como proteção antivírus, em seus computador. Os atores ruins gostam de desabilitar seus recursos de segurança para obter acesso mais fácil aos seus dados, instalar malware ou explorar seus dados, identidade e dispositivos. A proteção contra adulteração ajuda a impedir que esses tipos de coisas ocorram.
 
@@ -80,8 +80,8 @@ A tabela a seguir fornece detalhes sobre os métodos, ferramentas e dependência
 |:----|:----|
 | Microsoft Intune  | Não |
 | Microsoft Endpoint Configuration Manager + Anexação de Locatário  |     Não  |
-| Central de Segurança do Microsoft Defender ( [https://securitycenter.microsoft.com](https://securitycenter.microsoft.com) )    |     Sim |
-| Microsoft 365 de segurança ( [https://security.microsoft.com](https://security.microsoft.com) )  |     Sim  |
+| Central de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) )    |     Sim |
+| Microsoft 365 Defender portal ( [https://security.microsoft.com](https://security.microsoft.com) )  |     Sim  |
 
 ## <a name="manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center"></a>Gerenciar a proteção contra violações para sua organização usando o Central de Segurança do Microsoft Defender
 
@@ -100,6 +100,7 @@ A proteção contra adulteração pode ser 1 ou 2016 para seu locatário usando 
 - Você deve ter permissões [apropriadas,](/microsoft-365/security/defender-endpoint/assign-portal-access)como administrador global, administrador de segurança ou operações de segurança.
 
 - Seus Windows devem estar executando uma das seguintes versões do Windows:
+
    - Windows 10
    - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
    - Windows Servidor, versão [1803](/windows/release-health/status-windows-10-1803) ou posterior
@@ -147,6 +148,7 @@ Se você faz parte da equipe de segurança da sua organização e sua assinatura
 2. Selecione   >  **Perfis de Configuração de Dispositivos**.
 
 3. Crie um perfil que inclua as seguintes configurações:
+
     - **Plataforma: Windows 10 e posterior**
     - **Tipo de perfil: Proteção de ponto de extremidade**
     - **Categoria: Central de Segurança do Microsoft Defender**
@@ -154,17 +156,19 @@ Se você faz parte da equipe de segurança da sua organização e sua assinatura
 
 4. Atribua o perfil a um ou mais grupos.
 
-### <a name="are-you-using-windows-os-1709-1803-or-1809"></a>Você está usando Windows OS 1709, 1803 ou 1809?
+### <a name="are-you-using-windows-server-2016-or-windows-version-1709-1803-or-1809"></a>Você está usando Windows Server 2016, ou Windows versão 1709, 1803 ou 1809?
 
-Se você estiver usando o Windows 10 OS [1709](/windows/release-health/status-windows-10-1709), [1803](/windows/release-health/status-windows-10-1803)ou [1809](/windows/release-health/status-windows-10-1809-and-windows-server-2019), não verá a Proteção contra Adulteração no aplicativo Segurança do Windows.  Em vez disso, você pode usar o PowerShell para determinar se a proteção contra violações está habilitada.
-
-#### <a name="use-powershell-to-determine-whether-tamper-protection-is-turned-on"></a>Use o PowerShell para determinar se a proteção contra violações está 100% 100% 1000.
+Se você estiver usando Windows Server 2016, Windows 10 versão 1709, 1803 ou [1809](/windows/release-health/status-windows-10-1809-and-windows-server-2019), não verá **a Proteção** contra Violações no aplicativo Segurança do Windows. Em vez disso, você pode usar o PowerShell para determinar se a proteção contra violações está habilitada. 
+   
+No Windows Server 2016, o Configurações aplicativo não refletirá com precisão o status da proteção em tempo real quando a proteção contra violações estiver habilitada.
+   
+#### <a name="use-powershell-to-determine-whether-tamper-protection-andor-real-time-protection-are-turned-on"></a>Use o PowerShell para determinar se a proteção contra violações e/ou proteção em tempo real está 1ada
 
 1. Abra o Windows PowerShell app.
 
 2. Use o cmdlet [Get-MpComputerStatus](/powershell/module/defender/get-mpcomputerstatus?preserve-view=true&view=win10-ps) PowerShell.
 
-3. Na lista de resultados, procure `IsTamperProtected` . (Um valor verdadeiro *significa que a* proteção contra adulteração está habilitada.)
+3. Na lista de resultados, procure `IsTamperProtected` . (Um valor verdadeiro *significa que a* proteção contra adulteração está habilitada.) Na lista de resultados, procure `RealTimeProtectionEnabled` . (Um valor verdadeiro significa que a proteção contra adulteração está habilitada.)
 
 ## <a name="manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006"></a>Gerenciar a proteção contra violações para sua organização com o Configuration Manager, versão 2006
 
@@ -223,11 +227,7 @@ Usando [detecção e resposta de ponto de extremidade](/microsoft-365/security/d
 
 ## <a name="review-your-security-recommendations"></a>Revise suas recomendações de segurança
 
-A proteção contra adulteração se integra [aos recursos & Gerenciamento de](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt) Vulnerabilidades. [As recomendações de segurança](/microsoft-365/security/defender-endpoint/tvm-security-recommendation) incluem certificar-se de que a proteção contra violações está 100% ativas. Por exemplo, você pode pesquisar em *adulteração*, conforme mostrado na imagem a seguir:
-
-![A proteção contra adulteração resulta em recomendações de segurança](/images/securityrecs-tamperprotect.jpg)
-
-Nos resultados, você pode selecionar Ativar a Proteção **contra Adulteração** para saber mais e acioná-la.
+A proteção contra adulteração se integra [aos recursos & Gerenciamento de](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt) Vulnerabilidades. [As recomendações de segurança](/microsoft-365/security/defender-endpoint/tvm-security-recommendation) incluem certificar-se de que a proteção contra violações está 100% ativas. Por exemplo, você pode pesquisar em *tamper*. Nos resultados, você pode selecionar Ativar a Proteção **contra Adulteração** para saber mais e acioná-la.
 
 ![Ativar a proteção contra adulteração](images/tamperprotectsecurityrecos.png)
 

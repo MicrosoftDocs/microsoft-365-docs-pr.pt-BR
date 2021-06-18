@@ -12,15 +12,15 @@ ms.author: deniseb
 ms.reviewer: marcmcc
 manager: dansimp
 ms.custom: nextgen
-ms.date: 06/15/2021
+ms.date: 06/17/2021
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 3a5f766e21afcb29d3503345a49637061b5f0e38
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: a6bcc023571e544819ae7f276e6c3af5c1fc1335
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964694"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007388"
 ---
 # <a name="turn-on-block-at-first-sight"></a>Ativar o recurso bloquear à primeira vista
 
@@ -82,7 +82,7 @@ O Microsoft Defender Antivirus utiliza várias tecnologias de detecção e preve
    - **Extensão de tempo para verificação de arquivos pela nuvem**: 50
    - **Avisar os usuários antes do envio da amostra**: Enviar todos os dados sem avisar
 
-   ![Configuração do Intune](images/defender/intune-block-at-first-sight.png)
+   :::image type="content" source="../../media/intune-block-at-first-sight.png" alt-text="Bloco de configuração do Intune à primeira vista":::
 
 4. Salvar suas configurações.
 
@@ -136,7 +136,7 @@ Você pode confirmar se o recurso bloquear à primeira vista está habilitado no
 
 2. Selecione **Proteção contra vírus e ameaças** e, em **Configurações de proteção contra vírus e ameaças**, selecione **Gerenciar Configurações**.
 
-   ![Captura de tela do rótulo de configurações da Proteção contra vírus e ameaças no aplicativo de segurança do Windows](images/defender/wdav-protection-settings-wdsc.png)
+   :::image type="content" source="../../media/wdav-protection-settings-wdsc.png" alt-text="Captura de tela da etiqueta de configurações de proteção contra vírus e ameaças no aplicativo de Segurança do Windows":::
 
 3. Confirme se a **Proteção fornecida pela nuvem** e o **Envio automático de amostra** estão ativados.
 

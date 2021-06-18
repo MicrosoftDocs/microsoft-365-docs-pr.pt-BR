@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: O método que você usa para desasignar licenças de produto depende se você desa desa desemarcar licenças de usuários específicos ou de um produto específico.
 ms.date: 07/01/2020
-ms.openlocfilehash: f7624432590a5731b57c45c25e7e7dc458a5b8f5
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: f79ffecc22fe4531076ccacd83c25e44b81052a6
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623584"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53006968"
 ---
 # <a name="unassign-licenses-from-users"></a>Cancelar a atribuição de licenças de usuários
 
@@ -117,14 +117,14 @@ Quando você usa a **página Usuários ativos** para desaignar licenças, você 
 ::: moniker-end
 
 2. Selecione os círculos ao lado dos nomes dos usuários para os que você deseja desasinalhar licenças.
-3. Na parte superior, selecione os três pontos (mais ações) e selecione **Gerenciar licenças de produto**.
-4. No painel **Gerenciar licenças de produtos**, selecione **Substituir atribuições de licença de produto existentes** \> **Avançar**.
-5. Na parte inferior do painel **Substituir produtos** existentes, marque a caixa de seleção Remover todas **as licenças** de produto da caixa de seleção Usuários e, em seguida, selecione **Substituir** \> **Fechar**.
+3. Na parte superior, selecione **Gerenciar licenças de produto**.
+4. No painel **Gerenciar licenças de** produto, selecione **Unassign all** Save  >  **changes**.
+5. Na parte inferior do painel, selecione **Feito**.  
 
 ## <a name="what-happens-to-a-users-data-when-you-remove-their-license"></a>O que acontece com os dados de um usuário ao remover a licença?
 
 - Quando uma licença é removida de um usuário, Exchange dados online associados a essa conta são mantidos por 30 dias. Após o período de carência de 30 dias, os dados são excluídos e não podem ser recuperados.
-- Os arquivos salvos OneDrive for Business não são excluídos, a menos que o usuário seja excluído do centro de administração Microsoft 365 ou seja removido por meio da sincronização do Active Directory. Para obter mais informações, [consulte OneDrive retenção e exclusão.](/onedrive/retention-and-deletion)
+- Os arquivos salvos OneDrive for Business não são excluídos, a menos que o usuário seja excluído do Centro de administração do Microsoft 365 ou seja removido por meio da sincronização do Active Directory. Para obter mais informações, [consulte OneDrive retenção e exclusão.](/onedrive/retention-and-deletion)
 - Quando a licença é removida, a caixa de correio do usuário não é mais pesquisável usando uma ferramenta de Descoberta Eletrônico, como Pesquisa de Conteúdo ou Advanced eDiscovery. Para obter mais informações, consulte "Pesquisar caixas de correio desconectadas ou des licenciadas" em Pesquisa de [Conteúdo em Microsoft 365](../../compliance/content-search.md).
 - Se você tiver uma assinatura Enterprise, como Office 365 Enterprise E3, Exchange Online permite preservar os dados de caixa de correio de uma conta de usuário excluída usando caixas de correio [inativas](../../compliance/inactive-mailboxes-in-office-365.md). Para obter mais informações, [consulte Create and manage inactive mailboxes in Exchange Online](../../compliance/create-and-manage-inactive-mailboxes.md).
 - Para saber como bloquear o acesso de um usuário a Microsoft 365 dados após a remoção da licença e como obter acesso aos dados posteriormente, consulte [Remove a former employee](../add-users/remove-former-employee.md).
