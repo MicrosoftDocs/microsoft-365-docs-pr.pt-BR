@@ -255,7 +255,7 @@
           href: manage/pin-apps-to-app-launcher.md
         - name: Atualizar os usuários para os aplicativos mais recentes
           href: setup/upgrade-users-to-latest-office-client.md
-        - name: Teste e implante Microsoft 365 Apps no Centro de administração do Microsoft 365
+        - name: Aplicativos integrados
           href: manage/test-and-deploy-microsoft-365-apps.md
         - name: Implantação centralizada de suplementos
           items:

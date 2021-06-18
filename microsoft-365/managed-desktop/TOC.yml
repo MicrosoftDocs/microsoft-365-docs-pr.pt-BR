@@ -34,6 +34,8 @@
           href: service-description/device-services.md
         - name: Perfis do dispositivo
           href: service-description/profiles.md
+        - name: Grupos de implantação de dispositivos
+          href: service-description/deployment-groups.md
         - name: Configuração do dispositivo
           href: service-description/device-policies.md
         - name: Tecnologias de segurança
@@ -157,6 +159,8 @@
           href: working-with-managed-desktop/work-with-app-control.md
         - name: Alterar perfil do dispositivo
           href: working-with-managed-desktop/change-device-profile.md
+        - name: Atribuir dispositivos para implantação
+          href: working-with-managed-desktop/assign-deployment-group.md
         - name: Remover dispositivos
           href: working-with-managed-desktop/remove-devices.md
         - name: Configurações configuráveis

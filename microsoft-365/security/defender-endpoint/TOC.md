@@ -530,6 +530,8 @@
 ####### [Localizar os computadores por marca](find-machines-by-tag.md)
 ####### [Obter KBs ausentes](get-missing-kbs-machine.md)
 ####### [Definir valor do dispositivo](set-device-value.md)
+####### [Atualizar computador](update-machine-method.md)
+
 
 
 ###### [Ação do Computador]()
