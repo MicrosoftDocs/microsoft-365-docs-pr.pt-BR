@@ -15,12 +15,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: a49fb83f9186541094910ec8842a09b5121ffb5b
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d7625c5a577ff01544a2602092c4ee34875efdb6
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934388"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028494"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Melhor pontuação nos testes do setor
 
@@ -43,7 +43,7 @@ O núcleo da abordagem de testes da MITRE é emular ataques em cenário real par
 
 - Avaliação baseada na ATT&CK do Microsoft 365 Defender - Maio de 2020: [Liderança na detecção em cenário real](https://www.microsoft.com/security/blog/2020/05/01/microsoft-threat-protection-leads-real-world-detection-mitre-attck-evaluation/)
 
-    O Microsoft 365 Defender forneceu quase 100% de cobertura em todos os estágios da cadeia de ataques. Ele proporcionou uma visibilidade imediata para atividades de invasores. A visibilidade reduz drasticamente o trabalho manual para o centro de operações de segurança e soluções de fornecedores que se basearam em alterações específicas de configuração. O Microsoft 365 Defender também teve as menores lacunas de visibilidade, diminuindo a capacidade do invasor de operar sem ser detectado.
+ O Microsoft 365 Defender forneceu quase 100% de cobertura em todos os estágios da cadeia de ataques. Ele proporcionou uma visibilidade imediata para atividades de invasores. A visibilidade reduz drasticamente o trabalho manual para o centro de operações de segurança e soluções de fornecedores que se basearam em alterações específicas de configuração. O Microsoft 365 Defender também teve as menores lacunas de visibilidade, diminuindo a capacidade do invasor de operar sem ser detectado.
 
 ## <a name="next-generation-protection"></a>Proteção de última geração
 
@@ -89,7 +89,7 @@ O SE Labs testa uma variedade de soluções usadas por produtos e serviços para
 
 - Proteção de ponto de extremidade empresarial (outubro - dezembro de 2020): [Prêmio AAA](https://selabs.uk/reports/enterprise-endpoint-protection-2020-q4/) <sup>**Mais recente**</sup>
 
-    O produto de proteção de última geração da Microsoft interrompeu todos os ataques públicos e direcionados. O Microsoft Defender Antivírus obteve tão bons resultados com sua capacidade de bloquear URLs mal-intencionados, lidar com explorações e classificar corretamente aplicações e sites legítimos.
+    O produto de proteção de última geração da Microsoft interrompeu todos os ataques públicos e direcionados. O Microsoft Defender Antivírus obteve ótimos resultados com sua capacidade de bloquear URLs mal-intencionados, lidar com explorações e classificar corretamente aplicações e sites legítimos.
 
 - Proteção de ponto de extremidade empresarial (julho - setembro de 2020): [Prêmio AAA](https://selabs.uk/reports/epp-enterprise-20q3-security-testing/)
 

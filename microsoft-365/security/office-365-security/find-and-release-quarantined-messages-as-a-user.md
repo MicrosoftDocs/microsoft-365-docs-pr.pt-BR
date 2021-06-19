@@ -20,12 +20,12 @@ ms.custom:
 description: Os usuários podem aprender como exibir e gerenciar mensagens em quarentena no Exchange Online Protection (EOP) que deveriam ter sido entregues a eles.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 02119130df847da48f0c25ba13cbb321c83f59dd
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: c0f95561977c453d7040d84ba0c779c3d33e07f0
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028386"
+ms.locfileid: "53029820"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Localizar e liberar mensagens em quarentena como usuário no EOP
 
@@ -38,6 +38,18 @@ ms.locfileid: "53028386"
 
 Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou em organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, a quarentena retém mensagens potencialmente perigosas ou indesejadas. Para obter mais informações, consulte [Quarentena no EOP](quarantine-email-messages.md).
 
+Como destinatário de uma mensagem em quarentena, o que você pode fazer com a mensagem como um usuário não administrador está descrito na tabela a seguir:
+
+<br>
+
+****
+
+|Motivo da quarentena:|Exibir|Liberar|Excluir|
+|---|:---:|:---:|:---:|
+|Em massa|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|
+|Spam|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|
+|Phishing (não phishing de alta confiança)|![Marca de seleção](../../media/checkmark.png)||![Marca de seleção](../../media/checkmark.png)|
+|
 
 Você exibe e gerencia as mensagens em quarentena no portal do Microsoft 365 Defender ou (se um administrador configurou isso) em [notificações de spam do usuário final](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 

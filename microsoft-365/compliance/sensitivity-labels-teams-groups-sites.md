@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint, Microsoft Teams e grupos do Microsoft 365.
-ms.openlocfilehash: 6baca2e24e50bd3ee418da994adcfbe7fca8338c
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: 8c19853730376e36ffe7ac136e7fc6036b8b5f12
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694396"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028974"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint
 
@@ -163,20 +163,6 @@ Nem todos os aplicativos suportam contextos de autenticação. Se um usuário co
     - Android: ainda sem suportado
 
 Limitações conhecidas para esta prévia:
-
-- Esse novo recurso ainda está sendo distribuído aos locatários. Se a política de acesso condicional com o seu contexto de autenticação não tem efeito quando um usuário acessa o site, você pode usar o PowerShell para confirmar que a sua configuração está correta e que todos os pré-requisitos são atendidos. Você precisará remover o rótulo de sensibilidade do site e configurar o site para o contexto de autenticação usando o cmdlet [set-SPOSite](/powershell/module/sharepoint-online/set-sposite) do atual [Shell de Gerenciamento do SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online). Se esse método funcionar, aguarde mais alguns dias antes de tentar aplicar o rótulo de sensibilidade novamente.
-    
-    Para testar o contexto de autenticação usando o PowerShell:
-    
-    ```powershell
-    Set-SPOSite -Identity <site url> -ConditionalAccessPolicy AuthenticationContext -AuthenticationContextName "Name of authentication context"
-    ```
-    
-    Para remover o contexto de autenticação para que você possa tentar aplicar o rótulo de sensibilidade novamente:
-    
-    ```powershell
-    Set-SPOSite -Identity <site url> -ConditionalAccessPolicy AuthenticationContext -AuthenticationContextName ""
-    ```
 
 - Para o aplicativo de Sincronização do Microsoft OneDrive, compatível apenas com OneDrive e não para outros sites.
 
@@ -429,13 +415,19 @@ Para ajudar você a gerenciar a coexistência de rótulos de sensibilidade e cla
 
 Se alguém enviar um documento para um site protegido por um rótulo de confidencialidade e o documento tiver um rótulo de confidencialidade com [prioridade mais alta](sensitivity-labels.md#label-priority-order-matters) que o rótulo de confidencialidade aplicado ao site, essa ação não será bloqueada. Por exemplo, você aplicou o rótulo **Geral** a um site do SharePoint e alguém carrega neste site um documento chamado **Confidencial**. Como um rótulo de confidencialidade com prioridade mais alta identifica o conteúdo que é mais confidencial do que o conteúdo com ordem de prioridade mais baixa, essa situação pode ser um problema de segurança.
 
-Embora a ação não seja bloqueada, ela é auditada e gera automaticamente um email para a pessoa que carregou o documento e para o administrador do site. Como resultado, tanto o usuário como os administradores podem identificar documentos que tenham esse desalinhamento da prioridade do rótulo e tomar medidas, se necessário. Por exemplo, excluir ou mover o documento carregado do site.
+Embora a ação não seja bloqueada, ela é auditada e, por padrão, gera automaticamente um email para a pessoa que carregou o documento e para o administrador do site. Como resultado, tanto o usuário como os administradores podem identificar documentos que tenham esse desalinhamento da prioridade do rótulo e tomar medidas, se necessário. Por exemplo, excluir ou mover o documento carregado do site.
 
 Não seria um problema de segurança se o documento tivesse um rótulo de confidencialidade de prioridade mais baixa que o rótulo de confidencialidade aplicado ao site. Por exemplo, um documento chamado **Geral** é carregado em um site chamado **Confidencial**. Neste cenário, um evento de auditoria e email não são gerados.
 
 Para pesquisar o log de auditoria para esse evento, procure por **Incompatibilidade de confidencialidade em documento detectada** na categoria **Atividades de arquivo e página**.
 
 O email gerado automaticamente tem o assunto **Rótulo de confidencialidade incompatível detectado** e a mensagem do email explica a incompatibilidade de rótulo com um link para o documento e o site carregados. Ele também contém um link de documentação que explica como os usuários podem alterar o rótulo de confidencialidade. Atualmente, não é possível desabilitar ou personalizar esses emails.
+
+Para evitar esse email gerado automaticamente, use o seguinte comando do PowerShell [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite):
+
+```PowerShell
+Set-SPOTenant -BlockSendLabelMismatchEmail $True
+```
 
 Quando alguém adiciona ou remove um rótulo de confidencialidade para ou de um site ou grupo, essas atividades também são auditadas, mas não geram um email automático.
 
