@@ -20,12 +20,12 @@ ms.custom:
 description: Os administradores podem aprender sobre o insight de inteligência de Proteção do Exchange Online (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 280743e87ce6039f456cec0b89bff57a31d75691
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 94dc1e438f913c1103154afb8803ef4cf89f64af
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52877819"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028806"
 ---
 # <a name="spoof-intelligence-insight-in-eop"></a>Spoof intelligence insight in EOP
 
@@ -53,13 +53,16 @@ Quando um remetente faz a spoofes de um endereço de email, ele parece ser um us
   - O remetente está em uma lista de email (também conhecida como lista de discussão), e a lista de emails retransmite emails do remetente original para todos os participantes na lista de email.
   - Uma empresa externa envia emails em nome de outra empresa (por exemplo, um relatório automatizado ou uma empresa de software como serviço).
 
-Você pode  usar o insight de inteligência falsa no portal do Microsoft 365 Defender para identificar rapidamente os envios falsos que estão enviando emails não autenticados (mensagens de domínios que não passam verificações SPF, DKIM ou DMARC) e permitir manualmente esses envios.
+
+Você pode  usar o insight de inteligência falsa no portal do Microsoft 365 Defender para identificar rapidamente os envios falsos que estão enviando emails não autenticados de forma legítima (mensagens de domínios que não passam verificações SPF, DKIM ou DMARC) e permitir manualmente esses envios.
+
 
 Ao permitir que os envios conhecidos enviem mensagens falsas de locais conhecidos, você pode reduzir falsos positivos (emails bons marcados como ruins). Monitorando os envios permitidos, você fornece uma camada adicional de segurança para impedir que mensagens não seguras chegam à sua organização.
 
 Da mesma forma, você pode revisar os envios de spoofed que foram permitidos pela inteligência de spoof e bloquear manualmente esses envios do insight de inteligência de spoof.
 
 O restante deste artigo explica como usar o insight de inteligência de spoof no portal do Microsoft 365 Defender e no PowerShell (Exchange Online PowerShell para organizações Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem Exchange Online caixas de correio).
+
 
 > [!NOTE]
 >
@@ -71,7 +74,7 @@ O restante deste artigo explica como usar o insight de inteligência de spoof no
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Você abre o portal Microsoft 365 Defender em <https://security.microsoft.com/> . Para ir diretamente para a página **Anti-phishing,** use <https://security.microsoft.com/antiphishing> . Para ir diretamente para a página **Spoof intelligence insight,** use <https://security.microsoft.com/spoofintelligence> .
+- Abra o portal do Microsoft 365 Defender em <https://security.microsoft.com/>. Para ir diretamente para a página **Anti-phishing,** use <https://security.microsoft.com/antiphishing> . Para ir diretamente para a página **Spoof intelligence insight,** use <https://security.microsoft.com/spoofintelligence> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -90,7 +93,7 @@ O restante deste artigo explica como usar o insight de inteligência de spoof no
 
 - Para nossas configurações recomendadas para a inteligência de spoof, consulte Configurações de política [anti-phishing do EOP.](recommended-settings-for-eop-and-office365-atp.md#eop-anti-phishing-policy-settings)
 
-## <a name="open-the-spoof-intelligence-insight-in-the-microsoft-365-defender-portal"></a>Abra o insight de inteligência de spoof no portal Microsoft 365 Defender
+## <a name="open-the-spoof-intelligence-insight-in-the-microsoft-365-defender-portal"></a>Abra o insight de inteligência de spoof no portal de Microsoft 365 Defender
 
 1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
 

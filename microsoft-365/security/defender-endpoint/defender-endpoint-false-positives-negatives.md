@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: 1cd29c3a631334ee3a2791cca3c7ac1c83a1692f
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: b8060952960f89e274361bb6382f03d482346e0d
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52903823"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028844"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>Endereços falsos positivos/negativos no Microsoft Defender para Ponto de Extremidade
 
@@ -41,7 +41,7 @@ Em soluções de proteção de ponto de extremidade, um falso positivo é uma en
 
 ![Definição de falsos positivos e negativos no Defender para Ponto de Extremidade](images/false-positives-overview.png)
 
-Felizmente, etapas podem ser tomadas para resolver e reduzir esses tipos de problemas. Se você estiver vendo falsos positivos/negativos no [Microsoft 365 Defender](microsoft-defender-security-center.md) (anteriormente o Central de Segurança do Microsoft Defender), suas operações de segurança podem tomar medidas para lidar com eles usando o seguinte processo:
+Felizmente, etapas podem ser tomadas para resolver e reduzir esses tipos de problemas. Se você estiver vendo falsos positivos/negativos no Microsoft 365 Defender [(anteriormente](microsoft-defender-security-center.md) o Central de Segurança do Microsoft Defender), suas operações de segurança podem tomar medidas para lidar com eles usando o seguinte processo:
 
 1.  [Revisar e classificar alertas](#part-1-review-and-classify-alerts) 
 2.  [Revisar ações de correção que foram tomadas](#part-2-review-remediation-actions)
@@ -82,7 +82,7 @@ Antes de classificar ou suprimir um alerta, determine se o alerta é preciso, fa
 
 ### <a name="classify-an-alert"></a>Classificar um alerta
 
-Os alertas podem ser classificados como falsos positivos ou verdadeiros positivos no Microsoft 365 Defender. Classificar alertas ajuda a treinar o Microsoft Defender para o Ponto de Extremidade para que, ao longo do tempo, você veja mais alertas verdadeiros e menos alertas falsos.
+Os alertas podem ser classificados como falsos positivos ou verdadeiros positivos Microsoft 365 Defender. Classificar alertas ajuda a treinar o Microsoft Defender para o Ponto de Extremidade para que, ao longo do tempo, você veja mais alertas verdadeiros e menos alertas falsos.
 
 1. Vá para o portal Microsoft 365 Defender ( [https://security.microsoft.com](https://security.microsoft.com) ) e entre.
 
@@ -97,7 +97,7 @@ Os alertas podem ser classificados como falsos positivos ou verdadeiros positivo
 
 ### <a name="suppress-an-alert"></a>Suprimir um alerta
 
-Se você tiver alertas que sejam falsos positivos ou verdadeiros positivos, mas para eventos sem importância, você poderá suprimir esses alertas no Microsoft 365 Defender. A supressão de alertas ajuda a reduzir o ruído no painel de operações de segurança. 
+Se você tiver alertas que sejam falsos positivos ou que sejam verdadeiros positivos, mas para eventos sem importância, você poderá suprimir esses alertas no Microsoft 365 Defender. A supressão de alertas ajuda a reduzir o ruído no painel de operações de segurança. 
 
 1. Vá para o portal Microsoft 365 Defender ( [https://security.microsoft.com](https://security.microsoft.com) ) e entre.
 
@@ -442,7 +442,7 @@ Dependendo do [](/microsoft-365/security/defender-endpoint/automation-levels) n�
 
 Se você tiver trabalhado em todas as etapas deste artigo e ainda precisar de ajuda, entre em contato com o suporte técnico.
 
-1. Vá para o Microsoft 365 Defender ( [https://security.microsoft.com](https://security.microsoft.com) ) e entre.
+1. Vá para Microsoft 365 Defender ( [https://security.microsoft.com](https://security.microsoft.com) ) e entre.
 
 2. No canto superior direito, selecione o ponto de interrogação (**?**) e selecione **Suporte da Microsoft**.
 
@@ -452,4 +452,4 @@ Se você tiver trabalhado em todas as etapas deste artigo e ainda precisar de aj
 
 [Gerenciar o Microsoft Defender para Ponto de Extremidade](manage-atp-post-migration.md)
 
-[Visão geral do Microsoft 365 portal do Defender](/microsoft-365/security/defender-endpoint/use) 
+[Visão geral do Microsoft 365 Defender portal](/microsoft-365/security/defender-endpoint/use) 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 1240fbb8fb24b7231733db25e9a1859b2a84fd41
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: 4d793d49d669510b722a72160ae396ee73ab9699
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022722"
+ms.locfileid: "53028506"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Priorizar incidentes em Microsoft 365 Defender
 
@@ -98,7 +98,7 @@ Depois de configurar um filtro útil na fila de incidentes, você pode marcar a 
 - Incidentes com uma ameaça associada específica
 - Incidentes com um ator específico
 
-Depois de compilar e armazenar sua lista de exibições de filtro úteis como URLs, você [](manage-incidents.md) pode usá-la rapidamente para processar e priorizar os incidentes em sua fila e gerenciá-los para análise subsequente.
+Depois de compilar e armazenar sua lista de exibições de filtro úteis como URLs, você [](manage-incidents.md) pode usá-la para processar e priorizar rapidamente os incidentes em sua fila e gerenciá-los para atribuição e análise subsequentes.
 
 ## <a name="next-steps"></a>Próximas etapas
 

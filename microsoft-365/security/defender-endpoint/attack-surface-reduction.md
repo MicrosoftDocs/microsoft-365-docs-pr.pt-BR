@@ -16,19 +16,18 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 409f6d0bbbcf9f8b50119e35bdb7852c4323bbf9
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 7360087e1863e81e4dc9e8acc2817e1320d6f4d8
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984983"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028782"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Usar regras de redução de superfície de ataque para evitar infecção por malware
 
 **Aplica-se a:**
 
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)
-
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 ## <a name="why-attack-surface-reduction-rules-are-important"></a>Por que as regras de redução de superfície de ataque são importantes
@@ -160,7 +159,7 @@ A "versão do mecanismo" listada para eventos de redução de superfície de ata
 
 ## <a name="attack-surface-reduction-rules"></a>Regras de redução de superfície de ataque
 
-A tabela e as subseções a seguir descrevem cada uma das 15 regras de redução de superfície de ataque. As regras de redução de superfície de ataque são listadas em ordem alfabética, pelo nome da regra.
+A tabela e as subseções a seguir descrevem cada uma das 16 regras de redução de superfície de ataque. As regras de redução de superfície de ataque são listadas em ordem alfabética, pelo nome da regra.
 
 Se você estiver configurando regras de redução de superfície de ataque usando a Política de Grupo ou o PowerShell, precisará dos GUIDs. Por outro lado, se você usar Microsoft Endpoint Manager ou Microsoft Intune, não precisará dos GUIDs.
 

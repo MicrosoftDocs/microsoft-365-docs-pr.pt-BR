@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 3dac22afb074a58ea2afdf842a9a62c6cee77dcc
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: b6830c77a0c5cc93ea202844a8793c5f69f07650
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022759"
+ms.locfileid: "53028518"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>Incidentes em Microsoft 365 Defender
 
@@ -144,9 +144,11 @@ Em uma base contínua, identifique os incidentes de maior prioridade para análi
 
 Se você for novo na [](incidents-overview.md) análise de segurança, consulte a introdução para responder ao seu primeiro incidente para obter informações adicionais e passar por um incidente de exemplo.
 
+Para obter mais informações sobre a resposta a incidentes em todos os produtos Microsoft, [consulte este artigo](/security/compass/incident-response-overview).
+
 ## <a name="example-security-operations-for-microsoft-365-defender"></a>Exemplo de operações de segurança para Microsoft 365 Defender
 
-Aqui está um exemplo de operações de segurança para Microsoft 365 Defender.
+Veja um exemplo de operações de segurança (SecOps) para Microsoft 365 Defender.
 
 :::image type="content" source="../../media/incidents-overview/incidents-example-operations.png" alt-text="Um exemplo de operações de segurança para Microsoft 365 Defender":::
 
@@ -169,11 +171,19 @@ As tarefas anuais podem incluir a realização de um grande incidente ou exercí
 
 Tarefas diárias, mensais, trimestrais e anuais podem ser usadas para atualizar ou refinar processos, políticas e configurações de segurança.
 
+### <a name="secops-resources-across-microsoft-products"></a>Recursos SecOps em produtos Microsoft
+
+Para obter mais informações sobre o SecOps em todos os produtos da Microsoft, consulte estes recursos:
+
+- [Capabilities](/security/compass/security-operations-capabilities)
+- [Práticas recomendadas](/security/compass/security-operations)
+- [Vídeos e slides](/security/compass/security-operations-videos-and-decks)
+
 ## <a name="next-steps"></a>Próximas etapas
 
 **Se você for novo na** análise de segurança e na resposta a incidentes:
 
-- Consulte o [passo](first-incident-overview.md) a passo Responder ao seu primeiro incidente para obter um tour guiado por um processo típico de análise, correção e revisão pós-incidente no portal Microsoft 365 Defender com um exemplo de ataque.
+- Consulte o [passo](first-incident-overview.md) a passo Responder ao seu primeiro incidente para obter uma visita guiada de um processo típico de análise, correção e revisão pós-incidente no portal Microsoft 365 Defender com um exemplo de ataque.
 
 **Se você tiver experiência com** análise de segurança e resposta a incidentes:
 
@@ -181,7 +191,7 @@ Tarefas diárias, mensais, trimestrais e anuais podem ser usadas para atualizar 
 
   - Confira quais incidentes devem ser [priorizados](incident-queue.md) com base na gravidade e em outros fatores. 
 
-  - [Gerencie incidentes](manage-incidents.md), que inclui renomeação, atribuição, classificação e adição de marcas e comentários com base no fluxo de trabalho de gerenciamento de incidentes.
+  - [Gerenciar incidentes](manage-incidents.md), que inclui renomear, atribuir, classificar e adicionar marcas e comentários com base no fluxo de trabalho de gerenciamento de incidentes.
 
   - Realize [investigações](investigate-incidents.md) de incidentes.
 

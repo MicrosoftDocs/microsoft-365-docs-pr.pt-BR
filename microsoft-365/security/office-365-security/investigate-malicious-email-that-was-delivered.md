@@ -20,12 +20,12 @@ description: Saiba como usar recursos de investigação e resposta contra ameaç
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 02e396cac060f2b8431b2b70e89c18950596d9c2
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: ef29493bd68166b88bba3ef5905f0427823b4015
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933368"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028842"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Investigar emails mal-intencionados que foram entregues Office 365
 
@@ -51,7 +51,7 @@ Verifique se os seguintes requisitos são atendidos:
 
 - Sua organização tem políticas definidas para anti-spam, anti-malware, anti-phishing e assim por diante. Consulte [Proteger contra ameaças em Office 365](protect-against-threats.md).
 
-- Você é um administrador global ou tem o Administrador de Segurança ou a função de Pesquisa e Limpeza atribuída no Centro de Conformidade & Segurança. Consulte Permissões no Centro de [Conformidade & Segurança.](permissions-in-the-security-and-compliance-center.md) Para algumas ações, você também deve ter uma nova função de Visualização atribuída.
+- Você é um administrador global ou tem o Administrador de Segurança ou a função De pesquisa e limpeza atribuída Microsoft 365 Defender. Consulte [Permissões no Microsoft 365 Defender](permissions-in-the-security-and-compliance-center.md). Para algumas ações, você também deve ter uma nova função de Visualização atribuída.
 
 ### <a name="preview-role-permissions"></a>Permissões de função de visualização
 
@@ -67,10 +67,10 @@ Para executar determinadas ações, como exibir os headers de mensagens ou baixa
 |
 
 > [!NOTE]
-> *A* visualização é uma função e não um grupo de funções; a função Preview deve ser adicionada a um grupo de funções existente para Office 365 (em <https://protection.office.com> ). Vá para **Permissões** e edite um grupo de funções existente ou adicione um novo grupo de funções com a **função Visualização** atribuída.
-> A função administrador global é atribuída ao centro de administração do Microsoft 365 ( ), e as funções de Administrador de Segurança e Leitor de Segurança são atribuídas no Centro de Conformidade & Segurança <https://admin.microsoft.com> ( <https://protection.office.com> ). Para saber mais sobre funções e permissões, consulte [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).
+> *A* visualização é uma função e não um grupo de funções; a função Preview deve ser adicionada a um grupo de funções existente para Office 365 (em <https://security.microsoft.com> ). Vá para **Permissões** e edite um grupo de funções existente ou adicione um novo grupo de funções com a **função Visualização** atribuída.
+> A função Administrador Global recebe a Centro de administração do Microsoft 365 ( ), e as funções administrador de segurança e leitor de segurança são <https://admin.microsoft.com> atribuídas Microsoft 365 Defender ( <https://security.microsoft.com> ). Para saber mais sobre funções e permissões, consulte [Permissões no](permissions-in-the-security-and-compliance-center.md)Microsoft 365 Defender .
 
-Entendemos que visualizar e baixar emails são atividades confidenciais e, portanto, a auditoria está habilitada para isso. Depois que um administrador executa essas atividades em emails, os logs de auditoria são gerados para o mesmo e podem ser vistos no Centro de Conformidade Office 365 Segurança & ( <https://protection.office.com> ). Vá para **Pesquisar**  >  **pesquisa de log de auditoria** e filtre o nome do administrador na seção Pesquisa. Os resultados filtrados mostrarão a **atividade AdminMailAccess**. Selecione uma linha para exibir detalhes na seção **Mais informações** sobre emails visualizados ou baixados.
+Entendemos que visualizar e baixar emails são atividades confidenciais e, portanto, a auditoria está habilitada para isso. Depois que um administrador executa essas atividades em emails, os logs de auditoria são gerados para o mesmo e podem ser vistos no Office 365 Microsoft 365 Defender ( <https://security.microsoft.com> ). Vá para **Pesquisar**  >  **pesquisa de log de auditoria** e filtre o nome do administrador na seção Pesquisa. Os resultados filtrados mostrarão a **atividade AdminMailAccess**. Selecione uma linha para exibir detalhes na seção **Mais informações** sobre emails visualizados ou baixados.
 
 ## <a name="find-suspicious-email-that-was-delivered"></a>Encontrar emails suspeitos que foram entregues
 
@@ -79,13 +79,11 @@ O Explorador de Ameaças é um relatório poderoso que pode atender a várias fi
 > [!NOTE]
 > As pesquisas padrão no Explorer atualmente não incluem itens Descarados.  Isso se aplica a todas as exibições, por exemplo, exibições de malware ou phishing. Para incluir itens Desarmados, você precisa adicionar um conjunto de ações **de** entrega para incluir **Removido pelo ZAP**. Se você incluir todas as opções, você verá todos os resultados da ação de entrega, incluindo itens Descarados.
 
-1. **Navegue até o Explorador** de Ameaças : acesse e entre usando sua conta de trabalho ou <https://protection.office.com> de estudante para Office 365. Isso o leva ao Centro de Conformidade & Segurança.
+1. **Navegue até o Explorador** de Ameaças : acesse e entre usando sua conta de trabalho ou <https://security.microsoft.com> de estudante para Office 365. Isso leva você a Microsoft 365 Defender.
 
-2. No início rápido de navegação à esquerda, escolha **Explorador de gerenciamento de** \> **ameaças**.
+2. No início rápido de navegação à esquerda, escolha **Email & colaboração** \> **Explorer**.
 
-    ![Explorer com campos Ação de Entrega e Local de Entrega.](../../media/ThreatExFields.PNG)
-
-    Você pode observar a nova **coluna Ações especiais.** Esse recurso destina-se a dizer aos administradores o resultado do processamento de um email. A **coluna Ações Especiais** pode ser acessada no mesmo local que a ação **entrega** e o local **de entrega.** Ações especiais podem ser atualizadas no final da linha do tempo de email do Explorador de Ameaças, que é um novo recurso destinado a melhorar a experiência de busca para administradores.
+      Você pode observar a nova **coluna Ações especiais.** Esse recurso destina-se a dizer aos administradores o resultado do processamento de um email. A **coluna Ações Especiais** pode ser acessada no mesmo local que a ação **entrega** e o local **de entrega.** Ações especiais podem ser atualizadas no final da linha do tempo de email do Explorador de Ameaças, que é um novo recurso destinado a melhorar a experiência de busca para administradores.
 
 3. **Exibições no Explorador de** Ameaças : no menu **Exibir,** escolha **Todos os emails**.
 

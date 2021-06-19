@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: v-smandalika
-author: v-smandalika
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cf8e74a6886d7086da062d6258e3e1e1a1cbd730
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: cb23987600a5f87a99449510f7651c4fdcd45f66
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861714"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028398"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control Removível Armazenamento Access Control
 
@@ -41,18 +41,18 @@ O Microsoft Defender for Endpoint Device Control Removível Armazenamento Contro
 
 ## <a name="prepare-your-endpoints"></a>Preparar seus pontos de extremidade
 
-Implantar controle de acesso Armazenamento removível em dispositivos Windows 10 que tenham o Cliente Anti-malware Versão **4.18.2103.3 ou posterior**.
-1. **4.18.2104 ou** posterior : Adicionar SerialNumberId, VID_PID, suporte a GPO baseado em filepath, ComputerSid
+Implantar controle de acesso Armazenamento removível em dispositivos Windows 10 que tenham cliente antimalware versão **4.18.2103.3 ou posterior**.
 
-2. **4.18.2105** ou posterior : Adicione suporte a curinga para HardwareId/DeviceId/InstancePathId/FriendlyNameId/SerialNumberId, a combinação de usuário específico em máquina específica, SSD removêvel (um SSD do SanDisk Extreme)/suporte A USB Attached SCSI (UAS)
+- **4.18.2104 ou** posterior : Adicionar SerialNumberId, VID_PID, suporte a GPO baseado em filepath, ComputerSid
+
+- **4.18.2105** ou posterior : Adicione suporte a curinga para HardwareId/DeviceId/InstancePathId/FriendlyNameId/SerialNumberId, a combinação de usuário específico em máquina específica, SSD removêvel (um SSD do SanDisk Extreme)/suporte A USB Attached SCSI (UAS)
 
 :::image type="content" source="images/powershell.png" alt-text="A interface do PowerShell":::
 
-   > [!NOTE]
-   > Nenhum dos Segurança do Windows componentes precisa estar ativo, você pode executar o Controle de Acesso Removível Armazenamento independentemente do status Segurança do Windows.
+> [!NOTE]
+> Nenhum dos Segurança do Windows componentes precisa estar ativo, você pode executar o Controle de Acesso Removível Armazenamento independentemente do status Segurança do Windows.
 
 ## <a name="policy-properties"></a>Propriedades de política
-
 
 Você pode usar as seguintes propriedades para criar um grupo de armazenamento removível:
 
@@ -67,6 +67,7 @@ Listar as propriedades do dispositivo que você deseja usar para cobrir no grupo
 Para cada propriedade de dispositivo, consulte **a seção Propriedades do Dispositivo** acima para obter mais detalhes.
 
 1. Opções:
+
     - ID principal
         - RemovableMediaDevices
         - CdRomDevices
@@ -87,11 +88,9 @@ Para cada propriedade de dispositivo, consulte **a seção Propriedades do Dispo
 1. Descrição: quando há várias propriedades de dispositivo sendo usadas no DescriptorIDList, MatchType define a relação.
 
 1. Opções:
+
     - MatchAll: Quaisquer atributos sob o DescritorIdList serão **e** relação; por exemplo, se o administrador colocar DeviceID e InstancePathID, para cada USB conectado, o sistema verificará se a USB atende aos dois valores.
-
     - MatchAny: Os atributos no DescriptorIdList serão **Ou** relação; por exemplo, se o administrador colocar DeviceID e InstancePathID, para cada USB conectado, o sistema fará a imposição desde que a USB tenha um valor **DeviceID** idêntico ou **InstanceID.**
-
-
 
 A seguir estão as propriedades da política de controle de acesso:
 
@@ -101,9 +100,9 @@ A seguir estão as propriedades da política de controle de acesso:
 
 **Nome da propriedade: IncludedIdList**
 
-1. Descrição: os grupos ao que a política será aplicada. Se vários grupos são adicionados, a política será aplicada a qualquer mídia em todos esses grupos.
+2. Descrição: os grupos ao que a política será aplicada. Se vários grupos são adicionados, a política será aplicada a qualquer mídia em todos esses grupos.
 
-1. Opções: a ID/GUID do grupo deve ser usada nesta instância.
+3. Opções: a ID/GUID do grupo deve ser usada nesta instância.
 
 O exemplo a seguir mostra o uso de GroupID:
 
@@ -111,8 +110,9 @@ O exemplo a seguir mostra o uso de GroupID:
 
 **Nome da propriedade: ExcludedIDList**
 
-1. Descrição: os grupos aos que a política não será aplicada.
-1. Opções: a ID/GUID do grupo deve ser usada nesta instância.
+Descrição: os grupos aos que a política não será aplicada.
+
+Opções: a ID/GUID do grupo deve ser usada nesta instância.
 
 **Nome da propriedade: Id de entrada**
 
@@ -123,7 +123,9 @@ O exemplo a seguir mostra o uso de GroupID:
 1. Descrição: define a ação para os grupos de armazenamento removíveis em IncludedIDList.
     - Imposição: Permitir ou Negar
     - Auditoria: AuditAllowed ou AuditDenied 
-1. Opções:
+
+2. Opções:
+
     - Permitir
     - Negar
     - AuditAllowed: define notificação e evento quando o acesso é permitido
@@ -133,19 +135,19 @@ Quando houver tipos de conflito para a mesma mídia, o sistema aplicará o prime
 
 **Nome da propriedade: Sid**
 
-1. Descrição: define se essa política se aplica a um usuário ou grupo de usuários específico; uma entrada pode ter no máximo um Sid e uma entrada sem qualquer Sid significa aplicar a política no computador.
+Descrição: define se essa política se aplica a um usuário ou grupo de usuários específico; uma entrada pode ter no máximo um Sid e uma entrada sem qualquer Sid significa aplicar a política no computador.
 
 **Nome da propriedade: ComputerSid**
 
-1. Descrição: define se essa política será aplicada a um grupo específico de máquina ou máquina; uma entrada pode ter no máximo um ComputerSid e uma entrada sem qualquer ComputerSid significa aplicar a política no computador. Se você quiser aplicar uma Entrada a um usuário específico e a um computador específico, adicione Sid e ComputerSid à mesma Entrada.
+Descrição: define se essa política será aplicada a um grupo específico de máquina ou máquina; uma entrada pode ter no máximo um ComputerSid e uma entrada sem qualquer ComputerSid significa aplicar a política no computador. Se você quiser aplicar uma Entrada a um usuário específico e a um computador específico, adicione Sid e ComputerSid à mesma Entrada.
 
 **Nome da propriedade: Opções**
 
-1. Descrição: define se a notificação deve ser exibida ou não.
+Descrição: define se a notificação deve ser exibida ou não.
 
    :::image type="content" source="images/device-status.png" alt-text="A tela na qual o status do dispositivo pode ser visto":::
 
-1. Opções: 0-4. Quando Type Allow ou Deny estiver selecionado:
+Opções: 0-4. Quando Type Allow ou Deny estiver selecionado:
 
    - 0: nothing
    - 4: **desabilite AuditAllowed** e **AuditDenied** para esta Entrada. Mesmo que **Block** aconteça e **AuditDenied** estiver configurada, o sistema não mostrará a notificação.
@@ -159,16 +161,16 @@ Quando houver tipos de conflito para a mesma mídia, o sistema aplicará o prime
 
 **Nome da propriedade: AccessMask**
 
-1. Descrição: define o acesso.
+Descrição: define o acesso.
 
-1. Opções: 1 a 7:
-    - 1: Leitura
-    - 2: Gravar
-    - 3: Leitura e gravação
-    - 4: Execute
-    - 5: Leitura e execução
-    - 6: Gravar e executar
-    - 7: Leitura e gravação e execução
+Opções 1 a 7:
+  - 1: Leitura
+  - 2: Gravar
+  - 3: Leitura e gravação
+  - 4: Execute
+  - 5: Leitura e execução
+  - 6: Gravar e executar
+  - 7: Leitura e gravação e execução
 
 ## <a name="common-removable-storage-access-control-scenarios"></a>Cenários comuns de controle de acesso Armazenamento removível
 
@@ -177,6 +179,7 @@ Para ajudar a familiarizá-lo com o Microsoft Defender for Endpoint Removable Ar
 ### <a name="scenario-1-prevent-write-and-execute-access-to-all-but-allow-specific-approved-usbs"></a>Cenário 1: Impedir o acesso de Gravação e Execução a todos, mas permitir USBs aprovados específicos
 
 1. Criar grupos
+
     1. Grupo 1: Qualquer armazenamento removível e CD/DVD. Um exemplo de armazenamento removível e CD/DVD é: Grupo **9b28fae8-72f7-4267-a1a5-685f747a7146** no exemplo [Any Removable Armazenamento and CD-DVD Group.xml](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) file.
     
     2. Grupo 2: USBs aprovados com base nas propriedades do dispositivo. Um exemplo para este caso de uso é: ID de instância – Grupo **65fa649a-a111-4912-9294-fb6337a25038** no exemplo [usbs aprovados Group.xml](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) arquivo.
@@ -185,13 +188,15 @@ Para ajudar a familiarizá-lo com o Microsoft Defender for Endpoint Removable Ar
     > Você precisa substituir `&` `&amp;` no valor.
 
 2. Criar uma política
-    1. Política 1: Bloquear o Acesso de Gravação e Execução, mas permitir USBs aprovados. Um exemplo para este caso de uso é: PolicyRule **c544a991-5786-4402-949e-a032cb790d0e** no exemplo Cenário 1 Bloquear Gravação e Executar Acesso, mas permitir [USBs aprovados .xml](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) arquivo.
+
+    1. Política 1: Bloquear o Acesso de Gravação e Execução, mas permitir USBs aprovados. Um exemplo para este caso de uso é: PolicyRule **c544a991-5786-4402-949e-a032cb790d0e** no exemplo [Cenário 1 Bloquear](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) Gravação e Executar Acesso, mas permitir arquivo USBs.xmlaprovado.
     
     2. Política 2: Auditar o acesso de Gravação e Execução a USBs permitidos. Um exemplo para este caso de uso é: PolicyRule **36ae1037-a639-4cff-946b-b36c53089a4c** no exemplo [Cenário 1 Audit Write and Execute access to approved USBs.xml](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) file.
 
 ### <a name="scenario-2-audit-write-and-execute-access-to-all-but-block-specific-unapproved-usbs"></a>Cenário 2: AuditAr o acesso de Gravação e Execução a todos, mas bloquear USBs não aprovados específicos
 
 1. Criar grupos
+
     1. Grupo 1: Qualquer armazenamento removível e CD/DVD. Um exemplo para este caso de uso é: Grupo **9b28fae8-72f7-4267-a1a5-685f747a7146** no exemplo [Any Removable Armazenamento and CD-DVD Group.xml](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) file.
     
     2. Grupo 2: USBs não aprovados com base nas propriedades do dispositivo, por exemplo, ID do fornecedor/ID do produto, Nome Amigável – **Grupo 65fa649a-a111-4912-9294-fb6337a25038 no** exemplo de [usbs Group.xmlnão aprovados.](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) 
@@ -200,6 +205,7 @@ Para ajudar a familiarizá-lo com o Microsoft Defender for Endpoint Removable Ar
     > Você precisa substituir `&` `&amp;` no valor.
 
 2. Criar uma política
+
     1. Política 1: Bloquear o acesso de Gravação e Execução a todos, mas bloquear USBs não aprovados específicos. Um exemplo desse caso de uso é: PolicyRule **23b8e437-66ac-4b32-b3d7-24044637fc98** no exemplo Scenario 2 Audit Write and Execute access to all but block specific [unapproved USBs.xml](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) file.
     
     2. Política 2: Auditar o acesso de gravação e execução a outras pessoas. Um exemplo desse caso de uso é: PolicyRule **b58ab853-9a6f-405c-a194-740e69422b48** no exemplo [Scenario 2 Audit Write and Execute access to others.xml](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) file.
@@ -314,3 +320,31 @@ DeviceEvents
 ```
 
 :::image type="content" source="images/block-removable-storage.png" alt-text="A tela que representa o bloqueio do armazenamento removível":::
+
+## <a name="frequently-asked-questions"></a>Perguntas frequentes
+**Qual é a limitação de mídia de armazenamento removível para o número máximo de USBs?**
+
+Validamos um grupo USB com 100.000 mídias - até 7 MB de tamanho. A política funciona no Intune e no GPO sem problemas de desempenho.
+
+**Por que a política não funciona?**
+
+O motivo mais comum é que não há nenhuma versão de cliente [antimalware necessária.](/microsoft-365/security/defender-endpoint/device-control-removable-storage-access-control?view=o365-worldwide#prepare-your-endpoints)
+
+Outro motivo pode ser que o arquivo XML não está formatado corretamente, por exemplo, não usando a formatação de marcação correta para o caractere "&" no arquivo XML, ou o editor de texto pode adicionar uma marca de ordem de byte (BOM) 0xEF 0xBB 0xBF no início dos arquivos que faz com que a análise XML não funcione. Uma solução simples é baixar o arquivo [de exemplo](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) (selecione **Raw** e, em **seguida, Salvar como**) e atualizar.
+
+Se houver um valor e a política for gerenciada por meio da Política de Grupo, verifique se o dispositivo cliente pode acessar o caminho XML da política.
+
+**Como posso saber qual máquina está usando a versão do cliente antimalware desacordo na organização?**
+
+Você pode usar a seguinte consulta para obter a versão do cliente antimalware no portal Microsoft 365 segurança:
+```kusto
+//check the antimalware client version
+DeviceFileEvents
+| where FileName == "MsMpEng.exe"
+| where FolderPath contains @"C:\ProgramData\Microsoft\Windows Defender\Platform\"
+| extend PlatformVersion=tostring(split(FolderPath, "\\", 5))
+//| project DeviceName, PlatformVersion // check which machine is using legacy platformVersion
+| summarize dcount(DeviceName) by PlatformVersion // check how many machines are using which platformVersion
+| order by PlatformVersion desc
+```
+

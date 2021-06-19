@@ -18,12 +18,12 @@ description: Saiba como reconhecer e remediar o consentimento ilícito concede a
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e5675a7a83bb62bae80f20e8e7c86fde38599ec6
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 4c3c3c06974feb2dab3985a60938fe7d543543c3
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538298"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028914"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>Detectar e remediar concessões de consentimento ilícito
 
@@ -50,7 +50,7 @@ Você precisa pesquisar no **log de auditoria para** encontrar sinais, também c
 
 ### <a name="steps-for-finding-signs-of-this-attack"></a>Etapas para encontrar sinais desse ataque
 
-1. Abra o **Centro de Conformidade & segurança** em <https://protection.office.com> .
+1. Abra o **Microsoft 365 Defender** portal em <https://security.microsoft.com> .
 
 2. Navegue até **Pesquisar** e selecione **Pesquisa de log de auditoria.**
 
@@ -72,7 +72,7 @@ Você precisa pesquisar no **log de auditoria para** encontrar sinais, também c
 
 Se você tiver uma ou mais instâncias dos IOCs listados acima, será necessário fazer uma investigação posterior para confirmar positivamente que o ataque ocorreu. Você pode usar qualquer um desses três métodos para confirmar o ataque:
 
-- Aplicativos de inventário e suas permissões usando o Azure Active Directory portal. Esse método é completo, mas você só pode verificar um usuário por vez, o que pode levar muito tempo se você tiver muitos usuários para verificar.
+- Aplicativos de inventário e suas permissões usando o Active Directory do Azure portal. Esse método é completo, mas você só pode verificar um usuário por vez, o que pode levar muito tempo se você tiver muitos usuários para verificar.
 
 - Aplicativos de inventário e suas permissões usando o PowerShell. Esse é o método mais rápido e completo, com a menor quantidade de sobrecarga.
 
@@ -80,15 +80,15 @@ Se você tiver uma ou mais instâncias dos IOCs listados acima, será necessári
 
 ## <a name="inventory-apps-with-access-in-your-organization"></a>Inventário de aplicativos com acesso em sua organização
 
-Você pode fazer isso para seus usuários com o portal Azure Active Directory ou o PowerShell ou fazer com que seus usuários enumeram individualmente o acesso ao aplicativo.
+Você pode fazer isso para seus usuários com o portal Active Directory do Azure ou o PowerShell ou fazer com que seus usuários enumeram individualmente o acesso ao aplicativo.
 
-### <a name="steps-for-using-the-azure-active-directory-portal"></a>Etapas para usar o Azure Active Directory Portal
+### <a name="steps-for-using-the-azure-active-directory-portal"></a>Etapas para usar o Active Directory do Azure Portal
 
-Você pode procurar os aplicativos aos quais qualquer usuário individual concedeu permissões usando o [Azure Active Directory Portal](https://portal.azure.com/).
+Você pode procurar os aplicativos aos quais qualquer usuário individual concedeu permissões usando o [portal Active Directory do Azure portal](https://portal.azure.com/).
 
 1. Entre no portal do Azure com direitos administrativos.
 
-2. Selecione a Azure Active Directory.
+2. Selecione a Active Directory do Azure.
 
 3. Selecione **Usuários**.
 
@@ -143,7 +143,7 @@ O script produz um arquivo chamado Permissions.csv. Siga estas etapas para procu
 
 ## <a name="determine-the-scope-of-the-attack"></a>Determinar o escopo do ataque
 
-Depois de terminar o inventário do acesso ao aplicativo, revise o log de **auditoria** para determinar o escopo completo da violação. Pesquise os usuários afetados, os períodos em que o aplicativo ilícito teve acesso à sua organização e as permissões que o aplicativo tinha. Você pode pesquisar **o log de auditoria** no Centro de Conformidade & [Segurança.](../../compliance/search-the-audit-log-in-security-and-compliance.md)
+Depois de terminar o inventário do acesso ao aplicativo, revise o log de **auditoria** para determinar o escopo completo da violação. Pesquise os usuários afetados, os períodos em que o aplicativo ilícito teve acesso à sua organização e as permissões que o aplicativo tinha. Você pode pesquisar **o log de auditoria** no [Microsoft 365 Defender](../../compliance/search-the-audit-log-in-security-and-compliance.md).
 
 > [!IMPORTANT]
 > [A auditoria de caixa](../../compliance/enable-mailbox-auditing.md) de correio e a [auditoria](../../compliance/turn-audit-log-search-on-or-off.md) de atividade para administradores e usuários devem ter sido habilitadas antes do ataque para que você receba essas informações.
@@ -152,9 +152,9 @@ Depois de terminar o inventário do acesso ao aplicativo, revise o log de **audi
 
 Depois de identificar um aplicativo com permissões ilícitas, você tem várias maneiras de remover esse acesso.
 
-- Você pode revogar a permissão do aplicativo no portal Azure Active Directory por:
+- Você pode revogar a permissão do aplicativo no portal Active Directory do Azure por:
 
-  - Navegue até o usuário afetado na **folha Azure Active Directory Usuário.**
+  - Navegue até o usuário afetado na **folha Active Directory do Azure Usuário.**
 
   - Selecione **Aplicativos**.
 
@@ -184,10 +184,10 @@ Sua assinatura do Microsoft 365 vem com um poderoso conjunto de recursos de segu
 
 - [O aplicativo inesperado em minha lista de](/azure/active-directory/application-access-unexpected-application) aplicativos orienta os administradores por meio de várias ações que podem ser tomadas depois de perceber que há aplicativos inesperados com acesso a dados.
 
-- [Integrar aplicativos com Azure Active Directory](/azure/active-directory/active-directory-apps-permissions-consent) é uma visão geral de alto nível de consentimento e permissões.
+- [Integrar aplicativos com Active Directory do Azure](/azure/active-directory/active-directory-apps-permissions-consent) é uma visão geral de alto nível de consentimento e permissões.
 
 - [Problemas no desenvolvimento do meu aplicativo](/azure/active-directory/active-directory-application-dev-development-content-map) fornece links para vários artigos relacionados ao consentimento.
 
-- Os objetos principais de aplicativos e serviços [no Azure Active Directory (Azure AD)](/azure/active-directory/develop/active-directory-application-objects) fornece uma visão geral dos objetos principais aplicativo e serviço que são fundamentais para o modelo de aplicativo.
+- Os objetos principais de aplicativos e serviços [no Active Directory do Azure (Azure AD)](/azure/active-directory/develop/active-directory-application-objects) fornece uma visão geral dos objetos principais de Aplicativo e Serviço que são fundamentais para o modelo de aplicativo.
 
 - [Gerenciar o acesso a aplicativos](/azure/active-directory/active-directory-managing-access-to-apps) é uma visão geral dos recursos que os administradores têm para gerenciar o acesso do usuário aos aplicativos.

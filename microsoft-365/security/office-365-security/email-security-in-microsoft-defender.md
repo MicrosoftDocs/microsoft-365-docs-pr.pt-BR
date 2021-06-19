@@ -16,12 +16,12 @@ description: Exibir e investigar tentativas de phishing de malware.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f0326a51f14b402b9a579e8668ef2c026f9de789
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 917ad3caf96a982df8b88058ff1c394b3d21dd75
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52877891"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028530"
 ---
 # <a name="email-security-with-threat-explorer-in-microsoft-defender-for-office-365"></a>Segurança de email com o Explorador de Ameaças no Microsoft Defender para Office 365
 
@@ -45,28 +45,22 @@ Este artigo explica como exibir e investigar tentativas de malware e phishing de
 
 Para ver malware detectado em emails organizados pela tecnologia Microsoft 365, use o > [Detecções](threat-explorer-views.md#email--malware) de Malware de Email do Explorer (ou detecções em tempo real). Malware é o modo de exibição padrão, portanto, ele pode ser selecionado assim que você abrir o Explorer.
 
-1. No Centro de Conformidade & segurança ( ), escolha Explorador de gerenciamento de ameaças <https://protection.office.com>  \>  (ou **detecções em tempo real).** (Este exemplo usa o Explorer.)
-
-   Se você estiver no portal convergido Microsoft 365 Defender ( ) role para <https://security.microsoft.com> **Email & colaboração**  >  **Explorer**.
+1. No portal Microsoft 365 Defender ( <https://security.microsoft.com> ), escolha Email & de **colaboração** \> **explorer** (ou **detecções em tempo real**). (Este exemplo usa o Explorer.) Se você estiver no portal de Microsoft 365 Defender convergido ( role para https://security.microsoft.com/) **Email & Colaboração**  >  **Explorer**.
 
    A partir daqui, comece no View, escolha um determinado período de tempo para investigar (se necessário) e concentre seus filtros, conforme a passagem [do Explorer](threat-hunting-in-threat-explorer.md#threat-explorer-walk-through).
 
-2. No menu **Exibir,** escolha **Malware de** \> **Email**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Menu Exibir para Explorer](../../media/ExplorerViewEmailMalwareMenu.png)
+2. No menu **Exibir,** escolha **Malware** em **Email**.
 
 3. Clique **em Remetente** e, em seguida, escolha Tecnologia de **Detecção** \> **Básica**.
 
-   Suas tecnologias de detecção agora estão disponíveis como filtros para o relatório.
+   
+   :::image type="content" source="../../media/exploreremailmalwaredetectiontech-newimg.png" alt-text="tecnologia de detecção de malware":::
 
-   > [!div class="mx-imgBorder"]
-   > ![Tecnologias de detecção de malware](../../media/ExplorerEmailMalwareDetectionTech.png)
+   Suas tecnologias de detecção agora estão disponíveis como filtros para o relatório.
 
 4. Escolha uma opção. Em seguida, selecione **o botão** Atualizar para aplicar esse filtro.
 
-   > [!div class="mx-imgBorder"]
-   > ![Tecnologia de detecção selecionada](../../media/ExplorerEmailMalwareDetectionTechATP.png)
+   :::image type="content" source="../../media/exploreremailmalwaredetectiontech2-new.png" alt-text="tecnologia de detecção selecionada"::: 
 
    O relatório é atualizado para mostrar os resultados que o malware detectou no email, usando a opção de tecnologia selecionada. A partir daqui, você pode realizar uma análise mais detalhada. 
 
@@ -76,7 +70,7 @@ Você pode exibir tentativas de phishing por meio de URLs por email, incluindo u
 
 Para revisar URLs de phishing em mensagens e cliques em URLs em mensagens de phishing, use a exibição [   >  **phishing**](threat-explorer-views.md#email--phish) de email do Explorer ou detecções em tempo real.
 
-1. No Centro de Conformidade & segurança ( ), escolha Explorador de gerenciamento de ameaças <https://protection.office.com>  \>  (ou **detecções em tempo real).** (Este exemplo usa o Explorer.)
+1. No portal Microsoft 365 Defender ( <https://security.microsoft.com> ), escolha Email & de **colaboração** \> **explorer** (ou **detecções em tempo real**). (Este exemplo usa o Explorer.)
 
 2. No menu **Exibir,** escolha **Email** \> **Phish**.
 
@@ -87,8 +81,7 @@ Para revisar URLs de phishing em mensagens e cliques em URLs em mensagens de phi
 
 4. Selecione uma ou mais opções, como **Bloqueado** e Bloqueado  **substituído,** e selecione o botão Atualizar na mesma linha que as opções para aplicar esse filtro. (Não atualize a janela do navegador.)
 
-   > [!div class="mx-imgBorder"]
-   > ![URLs e clique em vereditos](../../media/ThreatExplorerEmailPhishClickVerdictOptions.png)
+    :::image type="content" source="../../media/threatexploreremailphishclickverdict-new.png" alt-text="URLs e clique em vereditos":::
 
    O relatório é atualizado para mostrar duas tabelas de URL diferentes na guia URL no relatório:
 
