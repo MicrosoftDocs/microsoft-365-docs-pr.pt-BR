@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: ad774fc36f4f167cb7a4e695b9f572ceb55b968b
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 9ee2f0402e8cfd184e59dce5a382f835b706d6aa
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274671"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022542"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Detalhes e resultados de uma investigação automatizada
 
@@ -35,9 +35,9 @@ ms.locfileid: "52274671"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-Com Microsoft 365 Defender, quando [](m365d-autoir.md) uma investigação automatizada é executado, detalhes sobre essa investigação ficam disponíveis durante e após o processo de investigação automatizado. Se você tiver as [permissões necessárias](m365d-action-center.md#required-permissions-for-action-center-tasks), poderá exibir esses detalhes na exibição de detalhes da investigação. Essa exibição fornece o status atualizado e a capacidade de aprovar ações pendentes. 
+Com Microsoft 365 Defender, quando uma [](m365d-autoir.md) investigação automatizada é executado, detalhes sobre essa investigação ficam disponíveis durante e após o processo de investigação automatizado. Se você tiver as [permissões necessárias](m365d-action-center.md#required-permissions-for-action-center-tasks), poderá exibir esses detalhes na exibição de detalhes da investigação. Essa exibição fornece o status atualizado e a capacidade de aprovar ações pendentes. 
 
-![Detalhes da investigação](../../media/mtp-air-investdetails.png)
+:::image type="content" source="../../media/mtp-air-investdetails.png" alt-text="Detalhes da investigação":::
 
 ## <a name="new-unified-investigation-page"></a>(NEW!) Página de investigação unificada
 
@@ -45,7 +45,7 @@ A página de investigação foi atualizada recentemente para incluir informaçõ
 
 - Qualquer página de investigação no Office 365 Segurança & Centro de Conformidade ( [https://protection.office.com](https://protection.office.com) )
 - Qualquer página de investigação no Central de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) )
-- Qualquer incidente ou experiência do Centro de Ações no Microsoft 365 de segurança ( [https://security.microsoft.com](https://security.microsoft.com) )
+- Qualquer incidente ou experiência do Centro de Ações no portal Microsoft 365 Defender ( [https://security.microsoft.com](https://security.microsoft.com) )
 
 ## <a name="open-the-investigation-details-view"></a>Abrir a exibição de detalhes da investigação
 
@@ -89,13 +89,13 @@ Use uma página de detalhes do incidente para exibir informações detalhadas so
 
 Veja um exemplo.
 
-![Detalhes do incidente](../../media/mtp-incidentdetails-tabs.png)
+:::image type="content" source="../../media/mtp-incidentdetails-tabs.png" alt-text="Detalhes do incidente":::
 
 ## <a name="investigation-details"></a>Detalhes da investigação
 
 Use o modo de exibição de detalhes da investigação para ver as atividades antigas, atuais e pendentes referentes a uma investigação. Veja um exemplo.
 
-![Detalhes da investigação](../../media/mtp-air-investdetails.png)
+:::image type="content" source="../../media/mtp-air-investdetails.png" alt-text="Detalhes da investigação":::
 
 Na exibição de detalhes da investigação, você pode ver as informações nas guias **Gráfico de Investigação**, **Alertas**, **Dispositivos**, **Identidades**, **Principais descobertas**, **Entidades**,**Log** e **Ações pendentes**, descritas na tabela a seguir.
 
@@ -105,10 +105,10 @@ Na exibição de detalhes da investigação, você pode ver as informações nas
 | Guia | Descrição |
 |:--------|:--------|
 | **Gráficos de investigação**   | Oferece uma representação visual da investigação. Descreve entidades e lista as ameaças encontradas, juntamente com os alertas, e se as ações estão aguardando aprovação.<br/>Você pode selecionar um item no gráfico para exibir mais detalhes. Por exemplo, selecionar **o ícone**  Evidência o leva à guia Evidências, onde você pode ver entidades detectadas e seus vereditos. |
-| **Alertas**    | Lista os alertas associados à investigação. Os alertas podem vir de recursos de proteção contra ameaças no dispositivo de um usuário, em Office aplicativos, Microsoft Cloud App Security e outros recursos Microsoft 365 Defender.|
+| **Alertas**    | Lista os alertas associados à investigação. Os alertas podem vir de recursos de proteção contra ameaças no dispositivo de um usuário, em Office aplicativos, Microsoft Cloud App Security e outros recursos Microsoft 365 Defender segurança.|
 | **Dispositivos** | Lista os dispositivos incluídos na investigação juntamente com seu nível de correção. (Os níveis de correção correspondem [ao nível de automação para grupos de dispositivos](m365d-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups).) |
 | **Caixas de correio** |Lista caixas de correio que são impactadas por ameaças detectadas.  |
-| **Usuários**  | Lista contas de usuário que são impactadas por ameaças detectadas. |
+| **Usuários**   | Lista contas de usuário que são impactadas por ameaças detectadas. |
 | **Evidências** | Lista partes de evidências levantadas por alertas ou investigações. Inclui vereditos (*Mal-intencionados,*  *suspeitos,* desconhecidos ou *nenhuma* ameaça encontrada ) e status de correção. |
 | **Entities**  | Fornece detalhes sobre cada entidade analisada, incluindo um veredito para cada tipo de entidade (*Mal-intencionado,* *suspeito* ou *nenhuma ameaça encontrada*).|
 |**Log**    | Fornece uma exibição cronológica e detalhada de todas as ações de investigação realizadas após a acionamento de um alerta.|

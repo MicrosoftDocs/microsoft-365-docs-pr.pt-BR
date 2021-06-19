@@ -1,6 +1,6 @@
 ---
-title: Resolver falsos positivos ou falsos negativos no Microsoft 365 Defender
-description: Algo falhou ou errou ao ser detectado pelo AIR no Microsoft 365 Defender? Saiba como enviar falsos positivos ou falsos negativos à Microsoft para análise.
+title: Resolver falsos positivos ou falsos negativos em Microsoft 365 Defender
+description: Algo falhou ou errou ao ser detectado pelo AIR Microsoft 365 Defender? Saiba como enviar falsos positivos ou falsos negativos à Microsoft para análise.
 keywords: automatizado, investigação, alerta, correção, falso positivo, falso negativo
 search.appverid: met150
 ms.prod: m365-security
@@ -21,21 +21,21 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 3cffa97d26b2b28de8d9e45d7030e0931a7ba072
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: f60208b06e66c1e9803e05ee1fc41376824e9b56
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52269571"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022529"
 ---
-# <a name="address-false-positives-or-false-negatives-in-microsoft-365-defender"></a>Resolver falsos positivos ou falsos negativos no Microsoft 365 Defender
+# <a name="address-false-positives-or-false-negatives-in-microsoft-365-defender"></a>Resolver falsos positivos ou falsos negativos em Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-Falsos positivos ou negativos podem ocorrer ocasionalmente com qualquer solução de proteção contra ameaças. Se [os recursos automatizados de](m365d-autoir.md) investigação e resposta no Microsoft 365 Defender detectaram ou detectaram algo incorretamente, há etapas que sua equipe de operações de segurança pode seguir:
+Falsos positivos ou negativos podem ocorrer ocasionalmente com qualquer solução de proteção contra ameaças. Se [os recursos automatizados de investigação](m365d-autoir.md) e resposta Microsoft 365 Defender algo perdido ou detectado incorretamente, há etapas que sua equipe de operações de segurança pode seguir:
 
 - [Relatar um falso positivo/negativo para a Microsoft](#report-a-false-positivenegative-to-microsoft-for-analysis)
 - [Ajustar seus alertas](#adjust-an-alert-to-prevent-false-positives-from-recurring) (se necessário)
@@ -72,5 +72,4 @@ Se uma ação de correção tiver sido tomada em uma entidade (como um dispositi
 ## <a name="see-also"></a>Confira também
 
 - [Exibir os detalhes e resultados de uma investigação automatizada](m365d-autoir-results.md)
-- [Busca proativamente por ameaças com busca avançada no Microsoft 365 Defender](advanced-hunting-overview.md)
-- [Endereços falsos positivos/negativos no Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/microsoft-defender-atp/defender-endpoint-false-positives-negatives)
+- [Busca proativamente por ameaças com busca avançada em Microsoft 365 Defender](advanced-hunting-overview.md)
