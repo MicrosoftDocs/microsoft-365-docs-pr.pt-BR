@@ -19,12 +19,12 @@ ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: 'Resumo: crie sites de equipe do SharePoint Online públicos, privados, confidenciais e altamente confidenciais em um ambiente de desenvolvimento/teste de campanha política.'
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ba0eb1e3ff0539f9aec6993fb25fe576f08f84d5
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: fcba6e2f3939115d6dfbaae80d322246bdeadee9
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028770"
+ms.locfileid: "53029892"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>Criar sites de equipe em um ambiente de desenvolvimento/teste de campanha política
 
@@ -34,8 +34,8 @@ ms.locfileid: "53028770"
 
 - [Plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 
- **Resumo:** crie sites de equipe do SharePoint Online públicos, privados, confidenciais e altamente confidenciais em um ambiente de desenvolvimento/teste de campanha política. 
-   
+ **Resumo:** crie sites de equipe do SharePoint Online públicos, privados, confidenciais e altamente confidenciais em um ambiente de desenvolvimento/teste de campanha política.
+
 Use as instruções deste artigo para criar um ambiente de desenvolvimento/teste com quatro diferentes tipos de sites de equipe do SharePoint Online para a solução de [Diretrizes de segurança da Microsoft para campanhas políticas, instituições sem fins lucrativos e outras organizações Agile](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md). Esses sites são descritos em detalhes no tópico 10, intitulado **SharePoint e OneDrive for Business**.
 
 ## <a name="phase-1-create-your-political-campaign-devtest-environment"></a>Fase 1: Criar seu ambiente de desenvolvimento/teste de campanha política
@@ -46,43 +46,46 @@ Primeiro, siga as instruções em [Configurar grupos e usuários para um ambient
 
 Nesta fase, você deve criar os rótulos para os diferentes níveis de segurança para as pastas e documentos do site da equipe do SharePoint Online.
 
-1. Se necessário, entre no centro de administração com as credenciais da conta de administrador global da sua assinatura de avaliação. Para obter ajuda, consulte [Onde entrar no Microsoft 365](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Se necessário, entre no Centro de administração do Microsoft 365 (<https://admin.microsoft.com>) com as credenciais da conta de administrador global da sua assinatura de avaliação. Para obter ajuda, consulte [Onde entrar no Microsoft 365](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
 
-2. Na guia **Microsoft Office Home**, clique no bloco **Administração**.
+2. Na Página **inicial**, clique em **Mostrar todos**. Na seção **Centro de administração** que aparece, clique em **Conformidade**.
 
-3. Na nova guia **Centro de Administração da Microsoft 365** do navegador, clique em **Centros de administração > Segurança e Conformidade**.
+3. Na página **Home** do Centro de conformidade do Microsoft 365, acesse a seção **Soluções**\> **Proteção de Informações**. Para ir diretamente à página de **Proteção de Informações**, use <https://compliance.microsoft.com//informationprotection>.
 
-4. Na nova guia **Início – Segurança e Conformidade** do navegador, clique em **Classificações > Rótulos**.
+4. Na página de **Proteção de Informações**, verifique se a marca **Rótulo** está selecionada e clique em ![Criar um ícone de rótulo](../../media/m365-cc-sc-create-icon.png) **Criar um rótulo**.
 
-5. No painel **Início > Rótulos**, clique em **Criar um rótulo**.
+5. O assistente de **Novo rótulo de confidencialidade** é aberto. Na etapa **Nome e descrição**, insira os seguintes valores:
+   - **Nome**: Tipo **Interno**.
+   - **Nome de Exibição**
+   - **Descrição para usuários**
 
-6. No painel **Atribuir nome ao seu rótulo**, digite **Interno** e clique em **Avançar**.
+   Ao terminar, clique em **Avançar**.
 
-7. No painel **Configurações do rótulo**, clique em **Avançar**.
+6. No painel **Configurações do rótulo**, clique em **Avançar**.
 
-8. No painel **Examine as configurações**, clique em **Criar este rótulo** e clique em **Fechar**.
+7. No painel **Examine as configurações**, clique em **Criar este rótulo** e clique em **Fechar**.
 
-9. Repita as etapas de 5 a 8 para os rótulos adicionais:
+8. Repita as etapas de 5 a 8 para os rótulos adicionais:
 
    - Private
    - Confidencial
    - Altamente Confidencial
 
-10. No painel **Início > Rótulos**, clique em **Publicar rótulos**.
+9. No painel **Início > Rótulos**, clique em **Publicar rótulos**.
 
-11. No painel **Escolher rótulos para publicar**, clique em **Escolher rótulos para publicar**.
+10. No painel **Escolher rótulos para publicar**, clique em **Escolher rótulos para publicar**.
 
-12. No painel **Escolher rótulos**, clique em **Adicionar** e selecione todos os quatro rótulos.
+11. No painel **Escolher rótulos**, clique em **Adicionar** e selecione todos os quatro rótulos.
 
-13. Clique em **Concluído**.
+12. Clique em **Concluído**.
 
-14. No painel **Escolher rótulos para publicar**, clique em **Avançar**.
+13. No painel **Escolher rótulos para publicar**, clique em **Avançar**.
 
-15. No painel **Escolher locais**, clique em **Avançar**.
+14. No painel **Escolher locais**, clique em **Avançar**.
 
-16. No painel **Nomear sua política**, digite **Campanha** em **Nome** e clique em **Avançar**.
+15. No painel **Nomear sua política**, digite **Campanha** em **Nome** e clique em **Avançar**.
 
-17. No painel **Examine as configurações**, clique em **Publicar rótulos** e clique em **Fechar**.
+16. No painel **Examine as configurações**, clique em **Publicar rótulos** e clique em **Fechar**.
 
 ## <a name="phase-3-create-your-sharepoint-online-team-sites"></a>Fase 3: Criar seus sites de equipe do SharePoint Online
 

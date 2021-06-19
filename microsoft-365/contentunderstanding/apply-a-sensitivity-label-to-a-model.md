@@ -13,18 +13,18 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Este artigo descreve como aplicar um rótulo de confidencialidade a um modelo no SharePoint Syntex.
-ms.openlocfilehash: 2ddfd6ffe11e8e01e32b6e1b5ddf65763e4ae381
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: ebcd398799e7c8addd96d5941427628d3db5ad43
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022409"
+ms.locfileid: "53028938"
 ---
 # <a name="apply-a-sensitivity-label-to-a-model-in-microsoft-sharepoint-syntex"></a>Aplicar um rótulo de confidencialidade a um modelo no Microsoft SharePoint Syntex
 
 Você pode aplicar facilmente um [rótulo de confidencialidade](../compliance/sensitivity-labels.md) a um modelo de compreensão de documentos no Microsoft SharePoint Syntex. Este recurso ainda não está disponível para modelos de processamento de formulário.
 
-Os rótulos de confidencialidade permitem aplicar políticas de criptografia, compartilhamento e acesso condicional aos documentos que seus modelos identificam. Por exemplo, você deseja que seu modelo não apenas identifique documentos financeiros que contenham números de conta bancária ou números de cartão de crédito carregados em sua biblioteca de documentos, mas também para aplicar um rótulo de confidencialidade de *Criptografia* a eles para restringir quem pode acessar esse conteúdo e como ele pode ser usado. Os modelos Syntex honra as regras [da etiqueta](../compliance/apply-sensitivity-label-automatically.md?view=o365-worldwide#how-multiple-conditions-are-evaluated-when-they-apply-to-more-than-one-label) e também não sobrescrevem uma etiqueta existente que foi aplicada manualmente por um usuário ao arquivo. 
+Os rótulos de confidencialidade permitem aplicar políticas de criptografia, compartilhamento e acesso condicional aos documentos que seus modelos identificam. Por exemplo, você deseja que seu modelo não apenas identifique documentos financeiros que contenham números de conta bancária ou números de cartão de crédito carregados em sua biblioteca de documentos, mas também para aplicar um rótulo de confidencialidade de *Criptografia* a eles para restringir quem pode acessar esse conteúdo e como ele pode ser usado. Os modelos SharePoint Syntex honram as [regras da etiqueta](../compliance/apply-sensitivity-label-automatically.md?view=o365-worldwide#how-multiple-conditions-are-evaluated-when-they-apply-to-more-than-one-label) e também não sobrescrevem uma etiqueta existente que foi aplicada manualmente por um usuário ao arquivo. 
 
 Você pode aplicar um rótulo de confidencialidade pré-existente ao seu modelo por meio das configurações do modelo na página inicial do seu modelo. O rótulo já deve estar publicado para estar disponível para seleção a partir das configurações de modelo.
 

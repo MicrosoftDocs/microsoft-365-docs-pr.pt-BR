@@ -15,12 +15,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: d7625c5a577ff01544a2602092c4ee34875efdb6
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 4d49772eb3932ae98840d2be94c447183e94fade
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028494"
+ms.locfileid: "53029616"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Melhor pontuação nos testes do setor
 
@@ -39,7 +39,7 @@ O Microsoft 365 Defender combina as capacidades do [Microsoft Defender para Pont
 
 ### <a name="mitre-demonstrated-real-world-detection-response-and-protection-from-advanced-attacks"></a>MITRE: Detecção, resposta e proteção demonstrada em cenário real contra ataques avançados
 
-O núcleo da abordagem de testes da MITRE é emular ataques em cenário real para entender se as soluções podem detectar e responder adequadamente a eles. Enquanto o teste se concentrava na detecção e resposta de ponto de extremidade, o ataque simulado de APT29 da MITRE abrange vários domínios de ataque, criando oportunidades para capacitar os defensores além da simples proteção do ponto de extremidade. A Microsoft ampliou a visibilidade dos defensores para além do ponto de extremidade com o Microsoft 365 Defender.
+O núcleo da abordagem de teste da MITRE é emular ataques em cenário real para entender se as soluções podem detectar e responder adequadamente a eles. Enquanto o teste se concentrava na detecção e resposta de ponto de extremidade, o ataque simulado de APT29 da MITRE abrange vários domínios de ataque, criando oportunidades para capacitar os defensores além da simples proteção do ponto de extremidade. A Microsoft ampliou a visibilidade dos defensores para além do ponto de extremidade com o Microsoft 365 Defender.
 
 - Avaliação baseada na ATT&CK do Microsoft 365 Defender - Maio de 2020: [Liderança na detecção em cenário real](https://www.microsoft.com/security/blog/2020/05/01/microsoft-threat-protection-leads-real-world-detection-mitre-attck-evaluation/)
 
@@ -79,7 +79,7 @@ O Teste de segurança empresarial consiste em três partes principais: o teste d
 
 - Teste de segurança empresarial 2020 (março - junho): [Taxa de proteção em cenário real 99,7%](https://www.av-comparatives.org/tests/business-security-test-2020-march-june/)
 
-- Teste de segurança empresarial 2019 (agosto - novembro): [Taxa de proteção em cenário real 99,6%](https://www.av-comparatives.org/tests/business-security-test-2019-august-november/) 
+- Teste de segurança empresarial 2019 (agosto - novembro): [Taxa de proteção em cenário real 99,6%](https://www.av-comparatives.org/tests/business-security-test-2019-august-november/)
 
 - Teste de segurança empresarial 2019 (março - junho): [Taxa de proteção em cenário real 99,9%](https://www.av-comparatives.org/tests/business-security-test-2019-march-june/) | [Análises](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
 
