@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para implantar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: c87289fc7017e75db3b8a5b84a8af3a42dc16a10
-ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
+ms.openlocfilehash: 550a1a84df88340de14caff08284ef6a8cadc9e9
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689116"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022481"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -86,7 +86,7 @@ Todos os cenários requerem que você [crie e configure rótulos de confidencial
 |Use a coautoria e o salvamento automático em aplicativos de desktop do Office quando os documentos forem criptografados | [Ativar a coautoria para arquivos criptografados com rótulos de sensibilidade](sensitivity-labels-coauthoring.md)
 |Aplicar rótulos de confidencialidade automaticamente a documentos e emails | [Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)|
 |Usar os rótulos de confidencialidade para proteger o conteúdo do Teams e do SharePoint |[Use etiquetas de sensibilidade com o Microsoft Teams, o Microsoft 365 Groups e sites do SharePoint](sensitivity-labels-teams-groups-sites.md)|
-|Impedir ou alertar os usuários sobre o compartilhamento de arquivos ou emails com um rótulo de confidencialidade |[Utilize rótulos de confidencialidade como condição nas políticas de DLP (visualização)](dlp-sensitivity-label-as-condition.md) |
+|Impedir ou alertar os usuários sobre o compartilhamento de arquivos ou emails com um rótulo de confidencialidade |[Usar rótulos de confidencialidade como condições nas políticas DLP](dlp-sensitivity-label-as-condition.md) |
 |Descobrir, rotular e proteger arquivos armazenados no repositório de dados locais |[Implantação do scanner da Proteção de Informações do Azure para classificar e proteger arquivos automaticamente](/azure/information-protection/deploy-aip-scanner)|
 |Descobrir, rotular e proteger arquivos armazenados no repositório da nuvem|[Descobrir, classificar, rotular e proteger dados regulamentados e confidenciais armazenados na nuvem](/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
 |Aplique e visualize rótulos no Power BI e proteja os dados quando eles forem salvos fora do serviço|[Rótulos de confidencialidade no Power BI](/power-bi/admin/service-security-sensitivity-label-overview)|

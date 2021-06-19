@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 03fd82cd5dc24653b6d67fa47cc225d355bfac45
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 3cbd329c63d7cf1868083c66919773e14ed51156
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028794"
+ms.locfileid: "53029592"
 ---
 # <a name="access-the-microsoft-365-defender-apis"></a>Acessar as APIs Microsoft 365 Defender
 
@@ -59,7 +59,7 @@ Use esse contexto para aplicativos que são executados sem um usuário in-locado
 2. Atribua as permissões desejadas ao aplicativo.
 3. Crie uma chave para o aplicativo.
 4. Obter um token de segurança usando o aplicativo e sua chave.
-5. Use o token para acessar Microsoft 365 Defender API.
+5. Use o token para acessar a MICROSOFT 365 DEFENDER API.
 
 Para obter mais informações, **[consulte Create an app to access Microsoft 365 Defender without a user](api-create-app-web.md)**.
 
@@ -70,7 +70,7 @@ Use esse contexto para executar ações em nome de um único usuário.
 1. Crie um Active Directory do Azure nativo.
 2. Atribua a permissão desejada ao aplicativo.
 3. Obter um token de segurança usando as credenciais do usuário para o aplicativo.
-4. Use o token para acessar Microsoft 365 Defender API.
+4. Use o token para acessar a MICROSOFT 365 DEFENDER API.
 
 Para obter mais informações, **[consulte Create an app to access Microsoft 365 Defender APIs on behalf of a user](api-create-app-user-context.md)**.
 
@@ -82,7 +82,7 @@ Use esse contexto quando precisar fornecer um aplicativo para muitos usuários e
 2. Atribua a permissão desejada ao aplicativo.
 3. Obter [consentimento do administrador](/azure/active-directory/develop/v2-permissions-and-consent#requesting-consent-for-an-entire-tenant) para o aplicativo de cada locatário.
 4. Obter um token de segurança usando credenciais de usuário com base na ID de locatário de um cliente.
-5. Use o token para acessar Microsoft 365 Defender API.
+5. Use o token para acessar a MICROSOFT 365 DEFENDER API.
 
 Para obter mais informações, **[consulte Create an app with partner access to Microsoft 365 Defender APIs](api-partner-access.md)**.
 

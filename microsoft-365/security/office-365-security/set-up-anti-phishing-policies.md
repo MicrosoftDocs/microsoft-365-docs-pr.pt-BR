@@ -17,12 +17,12 @@ ms.custom:
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Proteção do Exchange Online (EOP) e no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0a0c7e9ffa37c5154b8a10b9642d484011674d6a
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: 846043be72be741e60c09c85fba14dbf291612a1
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964880"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029364"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
@@ -62,7 +62,7 @@ Para configurar políticas anti-phishing, consulte os seguintes artigos:
 
 - [Configurar políticas anti-phishing em EOP](configure-anti-phishing-policies-eop.md)
 
-- [Configurar políticas anti-phishing no Microsoft Defender para Office 365](configure-atp-anti-phishing-policies.md)
+- [Configurar políticas anti-phishing no Microsoft Defender para Office 365](configure-mdo-anti-phishing-policies.md)
 
 O restante deste artigo descreve as configurações disponíveis em políticas anti-phishing no EOP e no Defender para Office 365.
 
@@ -131,9 +131,6 @@ As configurações de remetente não autenticadas fazem parte das configuraçõe
 - Habilitar o símbolo de ponto de interrogação de remetente não autenticado **(?) ?**: Quando essa configuração estiver ativada, um ponto de  interrogação será adicionado à foto do remetente na caixa De se a mensagem não passar em verificações SPF ou DKIM e a mensagem não passar DMARC [ou](email-validation-and-authentication.md#composite-authentication)autenticação composta . Quando essa configuração é desligada, o ponto de interrogação não é adicionado à foto do remetente.
 
 - Habilitar a marca **"via"?**: Quando essa configuração estiver ativada, a marca via (chris@contoso.com via fabrikam.com) será adicionada na caixa De se o domínio no endereço From (o remetente da mensagem exibido em clientes de email) for diferente do domínio na assinatura DKIM ou no <sup>\*</sup> **endereço MAIL FROM.** <u></u> Para obter mais informações sobre esses endereços, consulte [Uma visão geral dos padrões de mensagens de email.](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)
-
-> [!NOTE]
-> Atualmente, a **configuração Habilitar "via"** não está disponível em todas as organizações. Se você não tiver a configuração Habilitar a  marca **"via"?,** o ponto de interrogação e a marca via serão controlados pela configuração Habilitar o ponto de interrogação de remetente não autenticado **(?)** na sua organização.
 
 Para impedir que o ponto de interrogação ou por meio da marca seja adicionado a mensagens de senders específicos, você tem as seguintes opções:
 

@@ -21,12 +21,12 @@ ms.custom:
 description: Os administradores podem aprender sobre os recursos de proteção anti-phishing no Proteção do Exchange Online (EOP) e no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 290f5f7797d987fb65a99e3f9e656bfec4cf83f3
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 0e1539153282f14a13ddd9066350cbcdca2a074a
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538334"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029232"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Proteção anti-phishing Microsoft 365
 
@@ -65,7 +65,7 @@ O EOP (ou seja, Microsoft 365 sem o Microsoft Defender para Office 365) contém 
 
 O Microsoft Defender para Office 365 contém recursos anti-phishing adicionais e mais avançados:
 
-- **Políticas anti-phishing** no Microsoft Defender para Office 365 : Configure impersonation protection settings for specific message senders and sender domains, mailbox intelligence settings, and adjustable advanced phishing thresholds. Para obter mais informações, consulte [Configure anti-phishing policies in Microsoft Defender for Office 365](configure-atp-anti-phishing-policies.md). Para obter mais informações sobre as diferenças entre políticas anti-phishing no EOP e políticas anti-phishing no Defender para Office 365, consulte [Políticas anti-phishing em Microsoft 365](set-up-anti-phishing-policies.md).
+- **Políticas anti-phishing** no Microsoft Defender para Office 365 : Configure impersonation protection settings for specific message senders and sender domains, mailbox intelligence settings, and adjustable advanced phishing thresholds. Para obter mais informações, consulte [Configure anti-phishing policies in Microsoft Defender for Office 365](configure-mdo-anti-phishing-policies.md). Para obter mais informações sobre as diferenças entre políticas anti-phishing no EOP e políticas anti-phishing no Defender para Office 365, consulte [Políticas anti-phishing em Microsoft 365](set-up-anti-phishing-policies.md).
 
 - **Exibições de** campanha : Aprendizado de máquina e outras heurísticas identificam e analisam mensagens envolvidas em ataques de phishing coordenados contra todo o serviço e sua organização. Para obter mais informações, consulte [Exibições de campanha no Microsoft Defender para Office 365](campaigns.md).
 

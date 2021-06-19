@@ -19,12 +19,12 @@ description: Os administradores podem aprender a usar a política de inteligênc
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f0e5c83bc50197e30c12f8f7aeedc83930d7ff5e
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: a683ed93e4e483e63fe01281b32661f0b803d1ce
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793203"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029292"
 ---
 # <a name="manage-spoofed-senders-using-the-spoof-intelligence-policy-and-spoof-intelligence-insight-in-eop"></a>Gerenciar envios com spoofed usando a política de inteligência de spoof e o insight de inteligência de spoof no EOP
 
@@ -67,7 +67,7 @@ Você pode gerenciar a inteligência de spoof no Centro de Conformidade & Segura
 - Você pode habilitar, desabilitar e configurar as configurações de inteligência de spoof em políticas anti-phishing. Para obter instruções com base em sua assinatura, consulte um dos seguintes tópicos:
 
   - [Configurar políticas anti-phishing no EOP](configure-anti-phishing-policies-eop.md).
-  - [Configure políticas anti-phishing no Microsoft Defender para Office 365](configure-atp-anti-phishing-policies.md).
+  - [Configure políticas anti-phishing no Microsoft Defender para Office 365](configure-mdo-anti-phishing-policies.md).
 
 - Para nossas configurações recomendadas para a inteligência de spoof, consulte Configurações de política [anti-phishing do EOP.](recommended-settings-for-eop-and-office365.md#eop-anti-phishing-policy-settings)
 

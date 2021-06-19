@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente um rótulo a arquivos e emails, ou você pode solicitar aos usuários que selecionem o rótulo que você recomenda.
-ms.openlocfilehash: 4215e6618c1cc6359755c2af1e7b9e93ca07b58d
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 49f50b99d6c1b46394e26447bd33b6bf93e2917f
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984803"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028998"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -369,3 +369,17 @@ Para mais informações sobre os cmdlets do PowerShell que oferecem suporte a po
 - [Remove-AutoSensitivityLabelRule](/powershell/module/exchange/remove-autosensitivitylabelrule)
 - [Set-AutoSensitivityLabelPolicy](/powershell/module/exchange/set-autosensitivitylabelpolicy)
 - [Set-AutoSensitivityLabelRule](/powershell/module/exchange/set-autosensitivitylabelrule)
+
+## <a name="tips-to-increase-labeling-reach"></a>Dicas para aumentar o alcance da rotulagem
+
+Embora a rotulagem automática seja uma das maneiras mais eficientes de classificar, rotular e proteger arquivos do Office que sua organização possui, verifique se você pode complementá-los com qualquer um dos métodos adicionais para aumentar o alcance da rotulagem:
+
+- Quando você usa o [cliente de rotulagem unificada da Proteção de Informações do Azure](/azure/information-protection/rms-client/aip-clientv2):
+    
+    - Para arquivos em armazenamentos de dados locais, como compartilhamentos de rede e bibliotecas do SharePoint Server: use o [verificador](/azure/information-protection/deploy-aip-scanner) para descobrir informações confidenciais nesses arquivos e rotulá-las adequadamente. Se você estiver planejando migrar ou carregar esses arquivos para o SharePoint no Microsoft 365, use o scanner para rotular os arquivos antes de movê-los para a nuvem.
+    
+    - Se você tiver usado outra solução de rotulagem antes de usar rótulos de confidencialidade: use o PowerShell e [uma configuração avançada para reutilizar rótulos](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#migrate-labels-from-secure-islands-and-other-labeling-solutions) dessas soluções.
+
+- Incentive a [rotulagem manual](https://support.microsoft.com/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9) depois de fornecer aos usuários treinamento sobre quais rótulos de confidencialidade aplicar. Quando você tiver certeza de que os usuários entendem qual rótulo aplicar, considere configurar um rótulo padrão e a rotulagem obrigatória como [configurações de política](sensitivity-labels.md#what-label-policies-can-do). 
+
+Além disso, considere [marcar novos arquivos como confidenciais por padrão](/sharepoint/sensitive-by-default) no SharePoint para impedir que os convidados acessem arquivos recém-adicionados até que pelo menos uma política DLP examine o conteúdo do arquivo.

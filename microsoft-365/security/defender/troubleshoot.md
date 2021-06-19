@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 14033ffeb3d08efad7f45eb4c319ac0401b7df09
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 7891d61de7581a896a6599004eae91a4e47e1581
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028446"
+ms.locfileid: "53029940"
 ---
 # <a name="troubleshoot-microsoft-365-defender-service-issues"></a>Solucionar Microsoft 365 Defender problemas de serviço
 
@@ -56,5 +56,3 @@ Para ativar Microsoft 365 Defender, acesse **Configurações** do painel de nave
 ## <a name="how-do-i-create-an-exception-for-my-fileurl"></a>Como criar uma exceção para meu arquivo/URL?
 
 Um falso positivo é um arquivo ou URL que é detectado como mal-intencionado, mas não é uma ameaça. Você pode criar indicadores e definir exclusões para desbloquear e permitir determinados arquivos/URLs. Consulte [Address false positives/negatives in Defender for Endpoint](/microsoft-365/security/defender-endpoint/defender-endpoint-false-positives-negatives).
-
-

@@ -16,12 +16,12 @@ ms.collection:
 description: Os administradores podem aprender a identificar os motivos e como uma mensagem de phishing foi recebida no Microsoft 365 e o que fazer para evitar mais mensagens de phishing no futuro.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8d8f3f93b3fe1643467a12f90123b839addad2ed
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 5093981c5f0166d3f53c3b6c7d24371312633c99
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537842"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029340"
 ---
 # <a name="tune-anti-phishing-protection"></a>Ajustar a proteção anti-phishing
 
@@ -44,7 +44,7 @@ Se sua assinatura incluir o Microsoft Defender para Office 365, você poderá us
 
 - [Cofre Anexos no Microsoft Defender para Office 365](set-up-safe-attachments-policies.md)
 
-- [Políticas anti-phishing no Microsoft Defender para Office 365](configure-atp-anti-phishing-policies.md). Observe que você pode aumentar temporariamente os limites avançados de **phishing** na política de **Standard** para **Aggressive, More** **aggressive** ou **Most aggressive**.
+- [Políticas anti-phishing no Microsoft Defender para Office 365](configure-mdo-anti-phishing-policies.md). Observe que você pode aumentar temporariamente os limites avançados de **phishing** na política de **Standard** para **Aggressive, More** **aggressive** ou **Most aggressive**.
 
 Verifique se esses recursos do Defender Office 365 estão a turned on.
 
@@ -66,7 +66,7 @@ Especificamente, você deve verificar o campo de header **X-Forefront-Antispam-R
 
 - O email de remetentes com spoofed (o endereço From da mensagem não combina com a origem da mensagem) é classificado como phishing no Defender para Office 365. Às vezes, a spoofing é benigna e, às vezes, os usuários não querem que mensagens de remetentes despojados específicos sejam colocadas em quarentena. Para minimizar o impacto para os usuários, revise periodicamente o insight de inteligência de [spoof](learn-about-spoof-intelligence.md), a guia **Spoof** na Lista de Locatários [Permitir/Bloquear](tenant-allow-block-list.md)e o relatório de [detecções Spoof](view-email-security-reports.md#spoof-detections-report). Depois de revisar os envios permitidos e bloqueados e fazer quaisquer substituições necessárias, você pode ter certeza  de configurar a inteligência falsa em políticas [anti-phishing](set-up-anti-phishing-policies.md#spoof-settings) para colocar em quarentena mensagens suspeitas em vez de entregá-las à pasta Lixo Eletrônico do usuário.
 
-- Você pode repetir a etapa acima para Representação (domínio ou usuário) no Microsoft Defender para Office 365. O relatório de representação é encontrado em Insights do Painel **de Gerenciamento** \> **de** \> **Ameaças.**
+- Você pode repetir a etapa acima para Representação (domínio ou usuário) no Microsoft Defender para Office 365. O relatório de representação é encontrado em **Painel** de Gerenciamento de Ameaças \>  \> **Insights**.
 
 - Revise periodicamente o relatório [de Status da Proteção contra Ameaças.](view-reports-for-mdo.md#threat-protection-status-report)
 

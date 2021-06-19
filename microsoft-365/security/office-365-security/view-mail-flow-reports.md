@@ -19,12 +19,12 @@ description: Os administradores podem aprender sobre os relatórios de fluxo de 
 ms.custom: ''
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fd8f6c3da1c195fbd540638ae73674deccf2762a
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 5f2bdb32d2afde3d0d40261cd3ecf30740dc0ccf
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52985499"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029435"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>Exibir relatórios de fluxo de emails no painel Relatórios no Centro de Conformidade & Segurança
 
@@ -34,6 +34,9 @@ ms.locfileid: "52985499"
 - [Proteção do Exchange Online](exchange-online-protection-overview.md)
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
+
+> [!NOTE]
+> A maioria dos relatórios descritos neste tópico está disponível no Centro de administração do Exchange (EAC). Para obter mais informações, consulte [Relatórios de fluxo de emails no novo centro de administração do Exchange.](/exchange/monitoring/mail-flow-reports/mail-flow-reports) O [relatório de regra de transporte](view-email-security-reports.md#exchange-transport-rule-report) do Exchange está disponível no portal do Microsoft 365 Defender.
 
 Além dos relatórios de fluxo de emails [](mail-flow-insights-v2.md) que estão disponíveis no painel fluxo de email no Centro de Conformidade e segurança, uma variedade de relatórios de fluxo de emails adicionais estão disponíveis no painel Relatórios para ajudá-lo & a monitorar sua organização do Microsoft 365.
 
@@ -166,7 +169,7 @@ Para voltar à exibição de relatório, clique em **Exibir relatório**.
 
 ## <a name="forwarding-report"></a>Relatório de encaminhamento
 
-O **relatório de encaminhamento** mostra as mensagens encaminhadas automaticamente para domínios externos de caixas de correio do Exchange Online. As mensagens encaminhadas podem representar um risco de segurança ou conformidade e podem indicar uma conta comprometida.
+O **relatório de encaminhamento** mostra as mensagens encaminhadas automaticamente da sua organização para domínios externos Exchange Online caixas de correio. As mensagens encaminhadas podem representar um risco de segurança ou conformidade e podem indicar uma conta comprometida.
 
 Para exibir o relatório, abra o [Centro](https://protection.office.com)de  Conformidade & Segurança, vá para Painel de \>  Relatórios e selecione Relatório **de Encaminhamento.** Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=MailFlowForwarding> .
 
@@ -421,7 +424,9 @@ Cada arquivo .csv é limitado a 150.000 linhas. Se os dados contiver mais de 150
 
 ## <a name="sent-and-received-email-report"></a>Relatório de email enviado e recebido
 
-O **relatório de email** enviado e recebido é um relatório inteligente que mostra informações sobre emails de entrada e saída, incluindo detecções de spam, malware e email identificados como "bons". A diferença entre este relatório e o relatório de status de [fluxo](#mailflow-status-report) de emails é: este relatório não inclui dados sobre mensagens bloqueadas pela proteção de borda. É importante entender que, se uma mensagem for enviada a cinco destinatários, a contaremos como uma mensagem.
+O **relatório de email** enviado e recebido é um relatório inteligente que mostra informações sobre emails de entrada e saída, incluindo detecções de spam, malware e email identificados como "bons". A diferença entre este relatório e o relatório de status de [fluxo](#mailflow-status-report) de emails é: este relatório não inclui dados sobre mensagens bloqueadas pela proteção de borda.
+
+**Observação**: é importante entender que, se uma mensagem for enviada a cinco destinatários, a contaremos como uma mensagem.
 
 A exibição agregada e a exibição detalhada do relatório permitem 90 dias de filtragem.
 

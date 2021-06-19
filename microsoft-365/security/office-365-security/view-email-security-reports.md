@@ -19,12 +19,12 @@ description: Os administradores podem saber como encontrar e usar os relatórios
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f3dcf533c232a89adf0dc1ff3fcc7c2ca4fc5d8f
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: ad5a9f0d87902deb1985daebfa61cd733d22cbec
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022892"
+ms.locfileid: "53029531"
 ---
 # <a name="view-email-security-reports-in-the-microsoft-365-defender-portal"></a>Exibir relatórios de segurança de email no portal do Microsoft 365 Defender
 
@@ -157,7 +157,9 @@ Para exibir o relatório no portal do Microsoft 365 Defender, acesse **Relatóri
 
 ### <a name="type-view-for-the-mailflow-status-report"></a>Exibição de tipo para o relatório de status de fluxo de emails
 
-Quando você abre o relatório, a guia **Tipo** é selecionada por padrão. Por padrão, esse modo de exibição contém um gráfico e uma tabela de detalhes configurada com os seguintes filtros:
+![Type view in the Mailflow status report](../../media/mail-flow-status-report-type-view.png)
+
+Na página **Relatório de status de fluxo de** emails, a guia **Tipo** é selecionada por padrão. Por padrão, esse modo de exibição contém um gráfico e uma tabela de detalhes configurada com os seguintes filtros:
 
 - **Data (UTC)** Os últimos 7 dias.
 - **Direção do email**:
@@ -175,7 +177,7 @@ Quando você abre o relatório, a guia **Tipo** é selecionada por padrão. Por 
 
 O gráfico é organizado pelos valores **Type.**
 
-Você pode alterar esses filtros clicando em **Filtrar** ou clicando em um valor na legenda do gráfico.
+Você pode alterar esses filtros clicando em **Filtrar**.
 
 As informações a seguir são mostradas na tabela de detalhes abaixo do gráfico:
 
@@ -200,9 +202,9 @@ Para a exibição de detalhes, você só pode exportar dados por um dia. Portant
 
 Cada arquivo .csv é limitado a 150.000 linhas. Se os dados desse dia contiver mais de 150.000 linhas, vários arquivos .csv serão criados.
 
-![Type view in the Mailflow status report](../../media/mail-flow-status-report-type-view.png)
-
 ### <a name="direction-view-for-the-mailflow-status-report"></a>Exibição de direção para o relatório de status de fluxo de emails
+
+![Exibição de direção no relatório de status de fluxo de emails](../../media/mail-flow-status-report-direction-view.png)
 
 Se você clicar na guia **Direção,** os mesmos filtros padrão do modo de exibição **Tipo** serão usados.
 
@@ -220,11 +222,11 @@ Para a exibição de detalhes, você só pode exportar dados por um dia. Portant
 
 Cada arquivo .csv é limitado a 150.000 linhas. Se os dados desse dia contiver mais de 150.000 linhas, vários arquivos .csv serão criados.
 
-![Exibição de direção no relatório de status de fluxo de emails](../../media/mail-flow-status-report-direction-view.png)
-
 ### <a name="funnel-view-for-the-mailflow-status-report"></a>Exibição de funil para o relatório de status de fluxo de emails
 
 A **exibição** Funil mostra como os recursos de proteção contra ameaças de email da Microsoft filtram emails de entrada e saída em sua organização. Ele fornece detalhes sobre a contagem total de emails e como os recursos de proteção contra ameaças configurados, incluindo proteção de borda, anti-malware, anti-phishing, anti-spam e anti-spoofing afetam essa contagem.
+
+![Exibição de funil no relatório de status de fluxo de emails](../../media/mail-flow-status-report-funnel-view.png)
 
 Se você clicar na guia **Funil,** por padrão, esse modo de exibição conterá um gráfico e uma tabela de detalhes configurada com os seguintes filtros:
 
@@ -289,8 +291,6 @@ Depois de clicar **em Exportar** **em Opções,** selecione um dos seguintes val
 Em **Data**, escolha um intervalo e clique em **Aplicar**. Os dados dos filtros atuais serão exportados para um arquivo .csv.
 
 Cada arquivo .csv é limitado a 150.000 linhas. Se os dados contiver mais de 150.000 linhas, vários arquivos .csv serão criados.
-
-![Exibição de funil no relatório de status de fluxo de emails](../../media/mail-flow-status-report-funnel-view.png)
 
 ### <a name="tech-view-for-the-mailflow-status-report"></a>Exibição técnica do relatório de status mailflow
 
@@ -460,14 +460,23 @@ O gráfico mostra as seguintes informações:
 Na página **Envios,** você pode filtrar o gráfico e a tabela de detalhes clicando em **Filtrar** e selecionando um ou mais dos seguintes valores:
 
 - **Data relatada**: **Hora de início** e hora de **término**
-- **Tipo de envio**: **Email,** **URL** ou **Arquivo**
+- **Tipo de envio**:
+  - **Email**
+  - **URL**
+  - **Arquivo**
 - **ID do envio**
 - **ID da mensagem de rede**
 - **Sender**
 - **Nome**
 - **Enviado por**
-- **Motivo para o envio:** **não lixo** eletrônico, **phishing,** **malware** ou **spam**
-- **Status da varredura novamente**: **Pendente** ou **concluído**
+- **Motivo para enviar**:
+  - **Não é lixo eletrônico**
+  - **Golpe**
+  - **Malware**
+  - **Spam**
+- **Status da varredura novamente:**
+  - **Pending**
+  - **Concluída**
 
 A tabela de detalhes abaixo do gráfico  mostra as mesmas informações e  tem as mesmas opções de colunas Group ou Customize como na guia Enviado para análise em  **Envios** de colaboração de email & \> . Para obter mais informações, consulte [Exibir envios de administrador para a Microsoft](admin-submission.md#view-admin-submissions-to-microsoft).
 
@@ -772,7 +781,7 @@ Se você clicar **em Filtrar,** poderá especificar um intervalo de datas com **
 
 ## <a name="url-threat-protection-report"></a>Relatório de proteção contra ameaças de URL
 
-O **relatório de proteção contra** ameaças de URL está disponível no Microsoft Defender para Office 365. Para obter mais informações, consulte [RELATÓRIO de proteção contra ameaças de URL](view-reports-for-mdo.md#url-threat-protection-report).
+O **relatório de proteção contra** ameaças de URL está disponível apenas no Microsoft Defender para Office 365. Para obter mais informações, consulte [RELATÓRIO de proteção contra ameaças de URL](view-reports-for-mdo.md#url-threat-protection-report).
 
 ## <a name="user-reported-messages-report"></a>Relatório de mensagens relatadas pelo usuário
 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 1ddb6da49e5e9f23aacf73caaeb91302ac9c19c9
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 2ca601c3c68df9f9f1cc4fb90bcfbe907850ce91
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028962"
+ms.locfileid: "53029724"
 ---
 # <a name="overview-of-microsoft-365-defender-apis"></a>Visão geral Microsoft 365 Defender APIs
 
@@ -48,13 +48,10 @@ Use as apIs Microsoft 365 Defender para automatizar fluxos de trabalho com base 
 
 Use a [API de Streaming](../defender-endpoint/raw-data-export.md) para enviar eventos e alertas em tempo real de instâncias conforme eles ocorrem em um único fluxo de dados.
 
-
 Junto com essas APIs Microsoft 365 Defender específicas, cada um dos nossos outros produtos de segurança [expõem APIs](api-articles.md) adicionais para ajudá-lo a tirar proveito de seus recursos exclusivos.
-
 
 > [!NOTE]
 > A transição para o portal unificado não deve afetar os painéis do PowerBi com base nas APIs do Microsoft Defender para Ponto de Extremidade. Você pode continuar a trabalhar com as APIs existentes, independentemente da transição de portal interativo.
-
 
 ## <a name="learn-more"></a>Saiba mais
 

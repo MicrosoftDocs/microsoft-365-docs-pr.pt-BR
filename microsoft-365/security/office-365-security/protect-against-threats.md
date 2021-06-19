@@ -20,12 +20,12 @@ description: Os administradores podem aprender sobre a proteção contra ameaça
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5d61b17fc4575249bb592fc4ca865c34a628361a
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 407838c815a85ce7c73322a0de176970ee93e537
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878323"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029604"
 ---
 # <a name="protect-against-threats"></a>Proteção contra ameaças
 
@@ -41,7 +41,7 @@ Aqui está um guia de início rápido que quebra a configuração do Defender pa
 > [!IMPORTANT]
 > **As configurações recomendadas** iniciais são incluídas para cada tipo de política; no entanto, muitas opções estão disponíveis e você pode ajustar suas configurações para atender às necessidades de sua organização específica. Permita aproximadamente 30 minutos para que suas políticas ou alterações funcionem por meio do datacenter.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 ### <a name="subscriptions"></a>Assinaturas
 
@@ -139,11 +139,12 @@ O procedimento a seguir descreve como configurar a política anti-phishing padr�
        - **Se a inteligência da caixa de** correio detectar um usuário personificado : Selecione Mover mensagem para as pastas de Lixo Eletrônico (Padrão) dos destinatários ou Coloque em quarentena a <sup>\*</sup> **mensagem** (Estrita). 
        - Se a mensagem for detectada como **spoof**: Selecione Mover mensagem para as pastas lixo eletrônico dos **destinatários** (Standard) ou Coloque em quarentena a **mensagem** (Estrita).
      - **Dicas de segurança & seção indicadores:** Configure as seguintes configurações:
+       - **Mostrar o primeiro contato dica de segurança**: Selecione (ativar).
        - **Mostrar a identidade do usuário dica de segurança**: Selecione <sup>\*</sup> (ativar).
        - **Mostrar a representação de domínio dica de segurança**: Selecione <sup>\*</sup> (ativar).
        - **Mostrar caracteres incomuns de** representação do usuário dica de segurança <sup>\*</sup> : Selecione (ativar).
        - **Mostrar (?) para** envios não autenticados para spoof : Selecione (ativar).
-       - **Mostrar a marca "via":** Selecione (ativar) se essa configuração estiver disponível.
+       - **Mostrar a marca "via":** Selecione (ativar).
 
      Quando concluir, clique em **Salvar**.
 
@@ -151,7 +152,7 @@ O procedimento a seguir descreve como configurar a política anti-phishing padr�
 
 4. Clique **em Salvar** e clique em **Fechar**
 
-Para obter instruções detalhadas sobre como configurar políticas anti-phishing, consulte [Configure anti-phishing policies in EOP](configure-anti-phishing-policies-eop.md) and [Configure anti-phishing policies in Microsoft Defender for Office 365](configure-atp-anti-phishing-policies.md).
+Para obter instruções detalhadas sobre como configurar políticas anti-phishing, consulte [Configure anti-phishing policies in EOP](configure-anti-phishing-policies-eop.md) and [Configure anti-phishing policies in Microsoft Defender for Office 365](configure-mdo-anti-phishing-policies.md).
 
 ## <a name="part-3---anti-spam-protection-in-eop"></a>Parte 3 - Proteção anti-spam no EOP
 

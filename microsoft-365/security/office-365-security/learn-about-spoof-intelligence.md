@@ -20,12 +20,12 @@ ms.custom:
 description: Os administradores podem aprender sobre o insight de inteligência de Proteção do Exchange Online (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 94dc1e438f913c1103154afb8803ef4cf89f64af
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 08b9586edf565c4f69c51f732511d3a0956ae500
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028806"
+ms.locfileid: "53029244"
 ---
 # <a name="spoof-intelligence-insight-in-eop"></a>Spoof intelligence insight in EOP
 
@@ -53,16 +53,13 @@ Quando um remetente faz a spoofes de um endereço de email, ele parece ser um us
   - O remetente está em uma lista de email (também conhecida como lista de discussão), e a lista de emails retransmite emails do remetente original para todos os participantes na lista de email.
   - Uma empresa externa envia emails em nome de outra empresa (por exemplo, um relatório automatizado ou uma empresa de software como serviço).
 
-
 Você pode  usar o insight de inteligência falsa no portal do Microsoft 365 Defender para identificar rapidamente os envios falsos que estão enviando emails não autenticados de forma legítima (mensagens de domínios que não passam verificações SPF, DKIM ou DMARC) e permitir manualmente esses envios.
-
 
 Ao permitir que os envios conhecidos enviem mensagens falsas de locais conhecidos, você pode reduzir falsos positivos (emails bons marcados como ruins). Monitorando os envios permitidos, você fornece uma camada adicional de segurança para impedir que mensagens não seguras chegam à sua organização.
 
 Da mesma forma, você pode revisar os envios de spoofed que foram permitidos pela inteligência de spoof e bloquear manualmente esses envios do insight de inteligência de spoof.
 
 O restante deste artigo explica como usar o insight de inteligência de spoof no portal do Microsoft 365 Defender e no PowerShell (Exchange Online PowerShell para organizações Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem Exchange Online caixas de correio).
-
 
 > [!NOTE]
 >
@@ -89,7 +86,7 @@ O restante deste artigo explica como usar o insight de inteligência de spoof no
   - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias _e_ para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
   - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
-- Você habilita e desabilita a inteligência de spoof em políticas anti-phishing no EOP e no Microsoft Defender para Office 365. A inteligência de spoof está habilitada por padrão. Para obter mais informações, consulte [Configure anti-phishing policies in EOP](configure-anti-phishing-policies-eop.md) or [Configure anti-phishing policies in Microsoft Defender for Office 365](configure-atp-anti-phishing-policies.md).
+- Você habilita e desabilita a inteligência de spoof em políticas anti-phishing no EOP e no Microsoft Defender para Office 365. A inteligência de spoof está habilitada por padrão. Para obter mais informações, consulte [Configure anti-phishing policies in EOP](configure-anti-phishing-policies-eop.md) or [Configure anti-phishing policies in Microsoft Defender for Office 365](configure-mdo-anti-phishing-policies.md).
 
 - Para nossas configurações recomendadas para a inteligência de spoof, consulte Configurações de política [anti-phishing do EOP.](recommended-settings-for-eop-and-office365-atp.md#eop-anti-phishing-policy-settings)
 
@@ -126,7 +123,7 @@ Na página **Spoof intelligence insight** que aparece depois de clicar em Exibir
   - **Externo**: o remetente spoofed está em um domínio externo.
 - **Ação**: esse valor é **Permitido** ou **Bloqueado:**
   - **Permitido**: O domínio com falha na autenticação de email explícito verifica [SPF,](how-office-365-uses-spf-to-prevent-spoofing.md) [DKIM](use-dkim-to-validate-outbound-email.md)e [DMARC](use-dmarc-to-validate-email.md)). No entanto, o domínio passou nossas verificações implícitas de autenticação de email ([autenticação composta](email-validation-and-authentication.md#composite-authentication)). Como resultado, nenhuma ação anti-spoofing foi tomada na mensagem.
-  - **Bloqueado**: As mensagens da combinação do  domínio e da infraestrutura de envio falsa são marcadas como ruins pela inteligência falsa. A ação realizada nas mensagens falsas é controlada pela política anti-phishing padrão ou políticas anti-phishing personalizadas (o valor padrão é **Mover** mensagem para a pasta Lixo Eletrônico ). Para obter mais informações, consulte [Configure anti-phishing policies in Microsoft Defender for Office 365](configure-atp-anti-phishing-policies.md).
+  - **Bloqueado**: As mensagens da combinação do  domínio e da infraestrutura de envio falsa são marcadas como ruins pela inteligência falsa. A ação realizada nas mensagens falsas é controlada pela política anti-phishing padrão ou políticas anti-phishing personalizadas (o valor padrão é **Mover** mensagem para a pasta Lixo Eletrônico ). Para obter mais informações, consulte [Configure anti-phishing policies in Microsoft Defender for Office 365](configure-mdo-anti-phishing-policies.md).
 
 Você pode clicar em títulos de coluna selecionados para classificar os resultados.
 

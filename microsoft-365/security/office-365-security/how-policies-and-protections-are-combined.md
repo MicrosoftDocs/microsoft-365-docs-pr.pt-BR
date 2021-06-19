@@ -1,6 +1,6 @@
 ---
 title: Ordem e precedência da proteção de email
-keywords: segurança, malware, Microsoft 365, M365, central de segurança, Microsoft Defender para Ponto de Extremidade, Microsoft Defender para Office 365, Microsoft Defender para Identidade
+keywords: segurança, malware, Microsoft 365, M365, central de segurança, portal Microsoft 365 Defender, Microsoft Defender para Ponto de Extremidade, Microsoft Defender para Office 365, Microsoft Defender para Identidade
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,12 +17,12 @@ ms.custom:
 description: Os administradores podem aprender sobre a ordem de aplicativos de proteções no Proteção do Exchange Online (EOP) e como o valor de prioridade nas políticas de proteção determina qual política é aplicada.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 24d43aeb70e2cdef4bdf65fd3943cdfda9ec3862
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: df40ca6efaed5a1884e6dc453f2053f9bc1a84f1
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539006"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029280"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Ordem e precedência da proteção de email
 
@@ -51,8 +51,8 @@ Há dois fatores principais que determinam qual política é aplicada a uma mens
   |2|Phishing|CAT:PHSH|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |3|Spam de alta confiança|CAT:HSPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |4 |Spoofing|CAT:SPOOF|[Spoof intelligence insight in EOP](learn-about-spoof-intelligence.md)|
-  |5<sup>\*</sup>|Representação do usuário (usuários protegidos)|UIMP|[Configurar políticas anti-phishing no Microsoft Defender para Office 365](configure-atp-anti-phishing-policies.md)|
-  |6<sup>\*</sup>|Representação de domínio (domínios protegidos)|DIMP|[Configurar políticas anti-phishing no Microsoft Defender para Office 365](configure-atp-anti-phishing-policies.md)|
+  |5<sup>\*</sup>|Representação do usuário (usuários protegidos)|UIMP|[Configurar políticas anti-phishing no Microsoft Defender para Office 365](configure-mdo-anti-phishing-policies.md)|
+  |6<sup>\*</sup>|Representação de domínio (domínios protegidos)|DIMP|[Configurar políticas anti-phishing no Microsoft Defender para Office 365](configure-mdo-anti-phishing-policies.md)|
   |7 |Spam|CAT:SPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |8 |Em massa|CAT:BULK|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |
