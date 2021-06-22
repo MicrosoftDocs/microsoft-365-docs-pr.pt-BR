@@ -17,20 +17,20 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de sensibilidade para arquivos word, Excel e PowerPoint no SharePoint e OneDrive.
-ms.openlocfilehash: d4c0f9b4c280394dd63820320ba7ca30e349c361
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: e123dbd523bdaa648ee66b6ef56ee071b917fd86
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878035"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53052970"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
-Habilita a rotulagem interna para arquivos Office com suporte no SharePoint e OneDrive [](sensitivity-labels.md) para que os usuários possam aplicar seus rótulos de sensibilidade no Office para a Web. [](sensitivity-labels-office-apps.md#office-file-types-supported) Quando esse recurso estiver habilitado, os usuários verão o botão **Sensibilidade** na faixa de opções para que possam aplicar rótulos e ver qualquer nome de rótulo aplicado na barra de status.
+Habilita a rotulagem interna para arquivos Office com suporte no SharePoint e OneDrive para [](sensitivity-labels.md) que os usuários possam aplicar seus rótulos de sensibilidade Office para a Web. [](sensitivity-labels-office-apps.md#office-file-types-supported) Quando esse recurso estiver habilitado, os usuários verão o botão **Sensibilidade** na faixa de opções para que possam aplicar rótulos e ver qualquer nome de rótulo aplicado na barra de status.
 
-Habilitando esse recurso também resulta SharePoint e OneDrive ser capaz de processar o conteúdo de arquivos Office que foram criptografados usando um rótulo de sensibilidade. O rótulo pode ser aplicado Office para a Web ou em aplicativos da área de trabalho Office carregados ou salvos em SharePoint e OneDrive. Até você habilitar esse recurso, esses serviços não poderão processar arquivos criptografados, o que significa que a coautoria, a Descoberta Virtual, a Prevenção contra Perda de Dados, a pesquisa e outros recursos colaborativos não funcionarão para esses arquivos.
+Habilitando esse recurso também resulta SharePoint e OneDrive ser capaz de processar o conteúdo de arquivos Office que foram criptografados usando um rótulo de sensibilidade. O rótulo pode ser aplicado em Office para a Web ou em aplicativos da área de trabalho Office carregados ou salvos em SharePoint e OneDrive. Até você habilitar esse recurso, esses serviços não poderão processar arquivos criptografados, o que significa que a coautoria, a Descoberta Virtual, a Prevenção contra Perda de Dados, a pesquisa e outros recursos colaborativos não funcionarão para esses arquivos.
 
 Depois de habilitar rótulos de sensibilidade para arquivos Office no SharePoint e OneDrive, para arquivos novos e alterados que tenham um rótulo de sensibilidade que aplique criptografia com uma chave baseada em nuvem (e não use Criptografia de Chave Dupla [):](double-key-encryption.md)
 
@@ -40,7 +40,7 @@ Depois de habilitar rótulos de sensibilidade para arquivos Office no SharePoint
 
 - Quando os usuários carregam arquivos rotulados e criptografados para SharePoint ou OneDrive, eles devem ter pelo menos direitos de exibição para esses arquivos. Por exemplo, eles podem abrir os arquivos fora SharePoint. Se eles não têm esse direito de uso mínimo, o carregamento é bem-sucedido, mas o serviço não reconhece o rótulo e não pode processar o conteúdo do arquivo.
 
-- Use Office para a Web (Word, Excel, PowerPoint) para abrir e editar arquivos Office que tenham rótulos de sensibilidade que aplicam criptografia. As permissões atribuídas à criptografia são impostas. Você também pode usar [a rotulagem automática](apply-sensitivity-label-automatically.md) para esses documentos.
+- Use Office para a Web (Word, Excel, PowerPoint) para abrir e editar Office arquivos que tenham rótulos de sensibilidade que aplicam criptografia. As permissões atribuídas à criptografia são impostas. Você também pode usar [a rotulagem automática](apply-sensitivity-label-automatically.md) para esses documentos.
 
 - Os usuários externos podem acessar documentos rotulados com criptografia usando contas de convidado. Para obter mais informações, consulte [Suporte para usuários externos e conteúdo rotulado](sensitivity-labels-office-apps.md#support-for-external-users-and-labeled-content). 
 
@@ -64,11 +64,11 @@ Você sempre tem a opção de desabilitar rótulos de sensibilidade para Office 
 
 Se você estiver protegendo documentos no SharePoint usando o IRM (Gerenciamento de Direitos de Informação) do SharePoint, verifique SharePoint seção gerenciamento de direitos de informação [(IRM)](#sharepoint-information-rights-management-irm-and-sensitivity-labels) e rótulos de sensibilidade nesta página. 
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Esses novos recursos funcionam apenas [com rótulos de sensibilidade.](sensitivity-labels.md) Se você atualmente tiver rótulos da Proteção de Informações do Azure, primeiro migre-os para rótulos de sensibilidade para que você possa habilitar esses recursos para novos arquivos carregados. Para obter instruções, consulte[Como migrar os rótulos de Proteção de Informações do Azure para rótulos de confidencialidade unificada](/azure/information-protection/configure-policy-migrate-labels).
 
-Use o aplicativo de sincronização OneDrive versão 19.002.0121.0008 ou posterior no Windows e versão 19.002.0107.0008 ou posterior no Mac. Ambas as versões foram lançadas em 28 de janeiro de 2019 e atualmente são lançadas para todos os anéis. Para obter mais informações, consulte as [OneDrive de versão](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0). Depois de habilitar rótulos de sensibilidade para arquivos Office no SharePoint e OneDrive, os usuários que executarem uma versão mais antiga do aplicativo de sincronização serão solicitados a atualizá-lo.
+Use o aplicativo Sincronização do OneDrive versão 19.002.0121.0008 ou posterior no Windows e versão 19.002.0107.0008 ou posterior no Mac. Ambas as versões foram lançadas em 28 de janeiro de 2019 e atualmente são lançadas para todos os anéis. Para obter mais informações, consulte as [OneDrive de versão](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0). Depois de habilitar rótulos de sensibilidade para arquivos Office no SharePoint e OneDrive, os usuários que executarem uma versão mais antiga do aplicativo de sincronização serão solicitados a atualizá-lo.
 
 ## <a name="limitations"></a>Limitações
 
@@ -78,7 +78,7 @@ Use o aplicativo de sincronização OneDrive versão 19.002.0121.0008 ou posteri
 
 - SharePoint e OneDrive não aplicam automaticamente rótulos de sensibilidade a arquivos existentes que você já criptografou usando rótulos da Proteção de Informações do Azure. Em vez disso, para que os recursos funcionem depois que você habilitar rótulos de sensibilidade para arquivos Office no SharePoint e OneDrive, conclua estas tarefas:
     
-    1. Certifique-se de migrar os rótulos da Proteção [](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) de Informações do [Azure](/azure/information-protection/configure-policy-migrate-labels) para rótulos de sensibilidade e publicá-los Microsoft 365 centro de conformidade.
+    1. Certifique-se de ter [migrado os rótulos](/azure/information-protection/configure-policy-migrate-labels) da [](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) Proteção de Informações do Azure para rótulos de sensibilidade e publicados do Centro de conformidade do Microsoft 365.
     2. Baixe os arquivos rotulados e, em seguida, carregue-os em seu local original SharePoint ou OneDrive.
 
 - SharePoint e OneDrive não podem processar arquivos [criptografados](encryption-sensitivity-labels.md#configure-encryption-settings)quando o rótulo que aplicou a criptografia tem qualquer uma das seguintes configurações para criptografia :
@@ -86,11 +86,11 @@ Use o aplicativo de sincronização OneDrive versão 19.002.0121.0008 ou posteri
     - **O acesso do usuário ao conteúdo expira** é definido como um valor diferente de **Nunca**.
     - **Criptografia de Chave Dupla** é selecionada.
     
-    Para rótulos com qualquer uma dessas configurações de criptografia, os rótulos não são exibidos para os usuários Office para a Web. Além disso, os novos recursos não podem ser usados com documentos rotulados que já têm essas configurações de criptografia. Por exemplo, esses documentos não serão retornados nos resultados da pesquisa, mesmo que sejam atualizados.
+    Para rótulos com qualquer uma dessas configurações de criptografia, os rótulos não são exibidos para os usuários em Office para a Web. Além disso, os novos recursos não podem ser usados com documentos rotulados que já têm essas configurações de criptografia. Por exemplo, esses documentos não serão retornados nos resultados da pesquisa, mesmo que sejam atualizados.
 
 - Por motivos de desempenho, quando você carrega ou salva um documento no SharePoint e o rótulo do arquivo não aplica criptografia, a coluna **Confidencialidade** na biblioteca de documentos pode demorar um pouco para exibir o nome do rótulo. Factor in this delay if you use scripts or automation that depend on the label name in this column.
 
-- Os usuários podem ter atrasos ao serem capazes de abrir documentos criptografados no seguinte cenário Salvar como: Usando uma versão da área de trabalho do Office, um usuário escolhe Salvar como para um documento que tem um rótulo de sensibilidade que aplica criptografia. O usuário seleciona SharePoint ou OneDrive para o local e, em seguida, tenta imediatamente abrir esse documento Office para a Web. Se o serviço ainda estiver processamento da criptografia, o usuário verá uma mensagem de que o documento deve ser aberto em seu aplicativo de área de trabalho. Se eles tentarem novamente em alguns minutos, o documento será aberto com Office para a Web. 
+- Os usuários podem ter atrasos ao serem capazes de abrir documentos criptografados no seguinte cenário Salvar como: Usando uma versão da área de trabalho do Office, um usuário escolhe Salvar como para um documento que tem um rótulo de sensibilidade que aplica criptografia. O usuário seleciona SharePoint ou OneDrive para o local e, em seguida, tenta abrir imediatamente esse documento Office para a Web. Se o serviço ainda estiver processamento da criptografia, o usuário verá uma mensagem de que o documento deve ser aberto em seu aplicativo de área de trabalho. Se eles tentarem novamente em alguns minutos, o documento será aberto com êxito Office para a Web. 
 
 - Para documentos criptografados, não há suporte para impressão.
 
@@ -103,11 +103,9 @@ Use o aplicativo de sincronização OneDrive versão 19.002.0121.0008 ou posteri
 
 - Se um administrador mudar as configurações de um rótulo publicado que já tenha sido aplicado aos arquivos baixados ao cliente de sincronização dos usuários, os usuários poderão não conseguir salvar as alterações feitas no arquivo em sua pasta OneDrive Sync. Esse cenário se aplica a arquivos rotulados com criptografia e também quando a alteração de rótulo é de um rótulo que não aplicou criptografia a um rótulo que aplica criptografia. Os usuários veem um [círculo vermelho com um erro](https://support.office.com/article/what-do-the-onedrive-icons-mean-11143026-8000-44f8-aaa9-67c985aa49b3)de ícone cruzado branco e são solicitados a salvar novas alterações como uma cópia separada. Em vez disso, eles podem fechar e reabrir o arquivo ou usar Office para a Web.
 
-- Se um documento rotulado for carregado no SharePoint ou OneDrive e o rótulo aplicar criptografia usando uma conta de um nome de entidade de serviço, o documento não poderá ser aberto no Office para a Web. Os cenários de exemplo incluem Microsoft Cloud App Security e um arquivo enviado para Teams por email.
-
 - Os usuários podem experimentar salvar problemas depois de ficar offline ou em um modo de compartilhamento quando, em vez de usar o Office para a Web, eles usam os aplicativos de área de trabalho e móveis para Word, Excel ou PowerPoint. Para esses usuários, quando eles retomam a sessão de Aplicativo do Office e tentam salvar as alterações, eles veem uma mensagem de falha de carregamento com a opção de salvar uma cópia em vez de salvar o arquivo original. 
 
-- Os documentos criptografados das seguintes maneiras não podem ser abertos no Office para a Web:
+- Os documentos que foram criptografados das seguintes maneiras não podem ser abertos Office para a Web:
     - Criptografia que usa uma chave local ("mantenha sua própria chave" ou HYOK)
     - Criptografia que foi aplicada usando a [Criptografia de Chave Dupla](double-key-encryption.md)
     - A criptografia aplicada independentemente de um rótulo, por exemplo, aplicando-se diretamente um modelo de proteção de Gerenciamento de Direitos.
@@ -120,13 +118,13 @@ Use o aplicativo de sincronização OneDrive versão 19.002.0121.0008 ou posteri
 
 ## <a name="how-to-enable-sensitivity-labels-for-sharepoint-and-onedrive-opt-in"></a>Como habilitar rótulos de SharePoint e OneDrive (aceitação)
 
-Você pode habilitar os novos recursos usando o Microsoft 365 de conformidade ou usando o PowerShell. Assim como acontece com todas as alterações de configuração no nível do locatário para SharePoint e OneDrive, leva cerca de 15 minutos para que a alteração entre em vigor.
+Você pode habilitar os novos recursos usando o Centro de conformidade do Microsoft 365 ou usando o PowerShell. Assim como acontece com todas as alterações de configuração no nível do locatário para SharePoint e OneDrive, leva cerca de 15 minutos para que a alteração entre em vigor.
 
 ### <a name="use-the-compliance-center-to-enable-support-for-sensitivity-labels"></a>Usar o centro de conformidade para habilitar o suporte a rótulos de sensibilidade
 
 Essa opção é a maneira mais fácil de habilitar rótulos de sensibilidade para SharePoint e OneDrive, mas você deve entrar como um administrador global para seu locatário.
 
-1. Entre no centro de conformidade [Microsoft 365 como](https://compliance.microsoft.com/) administrador global e navegue até **Proteção de** Informações  >  **de Soluções**
+1. Entre no Centro de conformidade do Microsoft 365 [como](https://compliance.microsoft.com/) administrador global e navegue até Proteção **de** Informações  >  **de Soluções**
     
     Se você não vir essa opção imediatamente, selecione primeiro **Mostrar tudo**. 
 
@@ -205,7 +203,7 @@ No entanto, você pode usar soluções de proteção em conjunto e o comportamen
 
 - Se você rotular um arquivo usando Office para a Web, quaisquer configurações de criptografia do rótulo serão impostas. Para esses arquivos, há suporte para coautoria, Descoberta EDiscovery, DLP e pesquisa.
 
-- Se você baixar um arquivo rotulado usando o Office para a Web, o rótulo será mantido e quaisquer configurações de criptografia do rótulo serão impostas em vez das configurações de restrição de IRM.
+- Se você baixar um arquivo rotulado usando Office para a Web, o rótulo será mantido e quaisquer configurações de criptografia do rótulo serão impostas em vez das configurações de restrição de IRM.
 
 - Se você baixar um Office ou arquivo PDF que não seja criptografado com um rótulo de confidencialidade, as configurações do IRM serão aplicadas.
 

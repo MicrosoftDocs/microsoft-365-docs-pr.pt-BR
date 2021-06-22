@@ -1,7 +1,7 @@
 ---
 title: Novidades no Microsoft 365 Defender
 description: Lista os novos recursos e funcionalidades no Microsoft 365 Defender
-keywords: novidades no Defender Microsoft 365, ga, geralmente disponíveis, recursos, disponíveis, novos
+keywords: novidades em Microsoft 365 Defender, ga, geralmente disponíveis, recursos, disponíveis, novos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: c974701b83fbb6dbcac1cc597578a97144b2b482
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 582116047900fc5f28d5580398cf5c065e6a3e23
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845589"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053018"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Novidades no Microsoft 365 Defender
 
@@ -40,10 +40,10 @@ RSS feed: seja notificado quando esta página for atualizada copiando e colar a 
 ```
 
 ## <a name="april-2021"></a>Abril de 2021
-- Centro de Microsoft 365 de segurança aprimorado <br> O aperfeiçoado[Centro de segurança do Microsoft 365](https://security.microsoft.com) está agora disponível em pré-visualização pública. Esta nova experiência traz o Defender para Ponto de Extremidade, Defender para Office 365, Microsoft 365 Defender e muito mais para o Centro de segurança do Microsoft 365. Esta é a nova casa para gerenciar seus controles de segurança. [Conheça as novidades](./overview-security-center.md).
+- Microsoft 365 Defender<br> O portal [Microsoft 365 Defender](https://security.microsoft.com) aprimorado agora está disponível. Essa nova experiência reúne o Defender para Ponto de Extremidade, o Defender para Office 365, o Defender para Identidade e muito mais em um único portal. Esta é a nova casa para gerenciar seus controles de segurança. [Conheça as novidades](./overview-security-center.md).
 
-- [Microsoft 365 Relatório de análise de ameaças do Defender](threat-analytics.md)<br>
- A análise de ameaças ajuda você a responder e minimizar o impacto de ataques ativos. Você também pode aprender sobre tentativas de ataque bloqueadas pelas soluções do Defender Microsoft 365 e tomar ações preventivas que reduzam o risco de exposição e aumentam a resiliência. Como parte da experiência de segurança unificada, a análise de ameaças agora está disponível para o Microsoft Defender para Ponto de Extremidade e o Microsoft Defender para Office proprietários de licença do E5.
+- [Microsoft 365 Defender análise de ameaças](threat-analytics.md)<br>
+ A análise de ameaças ajuda você a responder e minimizar o impacto de ataques ativos. Você também pode aprender sobre tentativas de ataque bloqueadas por soluções Microsoft 365 Defender e tomar ações preventivas que reduzam o risco de exposição e aumentam a resiliência. Como parte da experiência de segurança unificada, a análise de ameaças agora está disponível para o Microsoft Defender para Ponto de Extremidade e o Microsoft Defender para Office proprietários de licença do E5.
 
 ## <a name="march-2021"></a>Março de 2021
 - [Tabela CloudAppEvents](advanced-hunting-cloudappevents-table.md) <br>Encontre informações sobre eventos em vários aplicativos e serviços de nuvem cobertos por Microsoft Cloud App Security. Esta tabela também inclui informações disponíveis anteriormente em `AppFileEvents` .

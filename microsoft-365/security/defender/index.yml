@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Microsoft 365 Defender
-summary: Saiba mais sobre as soluções robustas de segurança no Microsoft 365 Defender para que você possa proteger melhor sua empresa em superfícies de ataque.
+summary: Saiba mais sobre as soluções robustas de segurança Microsoft 365 Defender para que você possa proteger melhor sua empresa em superfícies de ataque.
 metadata:
-  title: Microsoft 365 Documentação do Defender
-  description: Saiba mais sobre as soluções robustas de segurança no Microsoft 365 Defender para que você possa proteger melhor sua empresa em superfícies de ataque.
+  title: Microsoft 365 Defender documentação
+  description: Saiba mais sobre as soluções robustas de segurança Microsoft 365 Defender para que você possa proteger melhor sua empresa em superfícies de ataque.
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -13,22 +13,24 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: 68909caf8844b5ea4d20029a04d1b7d81ca25e66
-  ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+  ms.openlocfilehash: d4fa7ecef5bb132ca23084b5f46af230a3d181aa
+  ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 06/10/2021
-  ms.locfileid: "52878443"
+  ms.lasthandoff: 06/22/2021
+  ms.locfileid: "53053126"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
   - linkListType: overview
     links:
     - text: O que é o Microsoft 365 Defender?
-      url: ../defender/microsoft-365-defender.md
+      url: microsoft-365-defender.md
+    - text: Visão geral do Microsoft 365 Defender
+      url: overview-security-center.md
   - linkListType: whats-new
     links:
-    - text: Novidades do Microsoft 365 Defender
+    - text: Novidades Microsoft 365 Defender
       url: ../defender/whats-new.md
   - linkListType: video
     links:
@@ -62,7 +64,7 @@ landingContent:
       url: /defender-for-identity/what-is
     - text: Arquitetura do Microsoft Defender para Identidade
       url: /defender-for-identity/architecture
-- title: Microsoft Defender para Office 365
+- title: Obter o Microsoft Defender para Office 365
   linkLists:
   - linkListType: overview
     links:
@@ -70,7 +72,7 @@ landingContent:
       url: ../office-365-security/defender-for-office-365.md
     - text: Descrição do serviço do Defender para Office 365
       url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
-    - text: Defender para Office 365 no Microsoft 365 Defender
+    - text: Microsoft Defender para Office 365 no Microsoft 365 Defender
       url: microsoft-365-security-center-mdo.md
     - text: Redirecionando o Defender para Office 365 no Microsoft 365 Defender
       url: microsoft-365-security-mdo-redirection.md
@@ -80,20 +82,10 @@ landingContent:
     links:
     - text: O que é o Microsoft Defender para Ponto de Extremidade?
       url: ../defender-endpoint/microsoft-defender-endpoint.md
-    - text: Defender para Ponto de Extremidade no Microsoft 365 Defender
+    - text: Microsoft Defender para Ponto de Extremidade no Microsoft 365 Defender
       url: microsoft-365-security-center-mde.md
-    - text: Redirecionando o Defender para o Ponto de Extremidade no Microsoft 365 Defender
+    - text: Redirecionando o Defender para o Ponto de Extremidade Microsoft 365 Defender
       url: ../defender/microsoft-365-security-mde-redirection.md
-- title: Centro de segurança do Microsoft 365
-  linkLists:
-  - linkListType: overview
-    links:
-    - text: Visão geral da central de segurança do Microsoft 365
-      url: overview-security-center.md
-    - text: Microsoft Defender para Ponto de Extremidade no centro de Microsoft 365 de segurança
-      url: microsoft-365-security-center-mde.md
-    - text: Microsoft Defender para Office 365 no Centro de segurança do Microsoft 365
-      url: ../defender/microsoft-365-security-center-mdo.md
 - title: Microsoft Cloud App Security
   linkLists:
   - linkListType: overview
@@ -118,5 +110,5 @@ landingContent:
   linkLists:
   - linkListType: reference
     links:
-    - text: Microsoft 365 APIs do Defender (visualização)
+    - text: Microsoft 365 Defender APIs (visualização)
       url: api-overview.md

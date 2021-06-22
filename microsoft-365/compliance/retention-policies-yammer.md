@@ -17,19 +17,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Yammer.
-ms.openlocfilehash: a8d047845b986029d393816982e6bede3db71485
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: d4988eee419a38497d4fa35cdb3e2f7fec103688
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861558"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53052922"
 ---
 # <a name="learn-about-retention-for-yammer"></a>Saiba mais sobre a retenção para o Yammer
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
-> Este recurso está na versão prévia e ainda não está disponível para todos os clientes.
+> Este recurso está em versão prévia e sujeito a alterações.
 
 As informações contidas neste artigo complementam [Saiba mais sobre retenção](retention.md) porque são informações específicas para o Yammer.
 

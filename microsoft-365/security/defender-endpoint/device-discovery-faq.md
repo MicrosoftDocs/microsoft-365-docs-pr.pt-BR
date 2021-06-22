@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 1c61e69b5c8d414ab229fa8bf64eb657a6e40304
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: b2c0b986ef6dbb54cd34e9b4413711cd3e5f9c6d
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245955"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053150"
 ---
 # <a name="device-discovery-frequently-asked-questions"></a>Descoberta de dispositivo perguntas frequentes
 
@@ -65,7 +65,7 @@ Sim, você pode aplicar filtros que excluam dispositivos não gerenciamento da l
  Por padrão, todos os dispositivos conectados em execução no Windows 10 versão 1809 ou posterior estão capturando e analisando os seguintes protocolos: ARP, CDP, DHCP, DHCPv6, IP (headers), LLDP, LLMNR, mDNS, MNDP, NBNS, SSDP, TCP (headers), UDP (headers), WSD
 
 ## <a name="which-protocols-do-you-use-for-active-probing-in-standard-discovery"></a>Quais protocolos você usa para sondagem ativa na descoberta padrão?
- Quando um dispositivo é configurado para executar a descoberta padrão, os serviços expostos estão sendo sondados usando os seguintes protocolos: ARP, FTP, HTTP, ICMP, LLMNR, NBNS, RDP, SIP, SMTP, SNMP, SSH, Telnet, UPNP, WSD, SMB, NBSS, IPP, PJL
+ Quando um dispositivo é configurado para executar a descoberta padrão, os serviços expostos estão sendo sondados usando os seguintes protocolos: ARP, FTP, HTTP, HTTP, ICMP, LLMNR, NBNS, RDP, SIP, SMTP, SNMP, SSH, Telnet, UPNP, WSD, SMB, NBSS, IPP, PJL, RPC, mDNS, DHCP, AFP, CrestonCIP, IphoneSync
 
 ## <a name="how-can-i-exclude-targets-from-being-probed-with-standard-discovery"></a>Como posso excluir destinos de serem sondados com a descoberta padrão?
  Se houver dispositivos em sua rede que não devem ser sondados ativamente, você também pode definir uma lista de exclusões para impedir que eles sejam verificados. A configuração está disponível na página configurações de descoberta de dispositivo.
@@ -91,4 +91,5 @@ Você pode observar diferenças entre o número de dispositivos listados em "pod
 ## <a name="can-i-onboard-unmanaged-devices-that-were-found"></a>Posso fazer a integração de dispositivos nãomanageados que foram encontrados?
  Sim. Os pontos de extremidade nãomanageados em sua rede apresentam vulnerabilidades e riscos à sua rede. A integração deles ao serviço pode aumentar a visibilidade de segurança neles. 
 
-
+## <a name="ive-noticed-that-unmanaged-device-health-state-is-always-active-why-is-that"></a>Notei que o estado de saúde do dispositivo não-manado é sempre "Ativo", por que isso?
+Temporariamente, o estado de saúde do dispositivo não gerenciamento será "Ativo" durante o período de retenção padrão do inventário do dispositivo, independentemente de seu estado real.

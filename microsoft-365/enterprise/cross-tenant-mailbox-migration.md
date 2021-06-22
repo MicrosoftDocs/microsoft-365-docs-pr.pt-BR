@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: f9a4b7679a33d6722336ee5412e4992389ba915f
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: 40ec3887cd37ddb412df3ae78300c1f9e9c60ecc
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694408"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053042"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>Migração de caixa de correio entre locatários (visualização)
 
@@ -53,7 +53,7 @@ Além disso, grupos de segurança habilitados para email no locatário de origem
 
 Você também precisará se comunicar com sua empresa parceira confiável (com a qual você estará movendo caixas de correio) para obter sua ID Microsoft 365 locatário. Essa ID de locatário é usada no campo Relacionamento da `DomainName` Organização.
 
-Para obter a ID do locatário de uma assinatura, entre no centro de administração Microsoft 365 e vá para [https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties) . Clique no ícone de cópia da propriedade ID do locatário para copiá-lo para a área de transferência.
+Para obter a ID do locatário de uma assinatura, entre no Centro de administração do Microsoft 365 e vá para [https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties) . Clique no ícone de cópia da propriedade ID do locatário para copiá-lo para a área de transferência.
 
 Veja como o processo funciona.
 
@@ -122,6 +122,7 @@ Preparar o locatário de origem:
 6. O script pausa e solicita que você aceite ou consenta com o aplicativo Exchange de migração de caixa de correio criado durante esse processo. Veja um exemplo.
 
     ```powershell
+    PS C:\PowerShell\> # Note: the below User.Invite.All permission is optional, and will only be used to retrieve access token to send invitation email to source tenant
     PS C:\PowerShell\> .\SetupCrossTenantRelationshipForTargetTenant.ps1 -ResourceTenantDomain contoso.onmicrosoft.com -ResourceTenantAdminEmail admin@contoso.onmicrosoft.com -TargetTenantDomain fabrikam.onmicrosoft.com -ResourceTenantId ksagjid39-ede2-4d2c-98ae-874709325b00 -SubscriptionId e4ssd05d-a327-49ss-849a-sd0932439023 -ResourceGroup "Cross-TenantMoves" -KeyVaultName "Cross-TenantMovesVault" -CertificateName "Contoso-Fabrikam-cert" -CertificateSubject "CN=Contoso_Fabrikam" -AzureResourceLocation "Brazil Southeast" -AzureAppPermissions Exchange, MSGraph -UseAppAndCertGeneratedForSendingInvitation -KeyVaultAuditStorageAccountName "t2tstorageaccount" -KeyVaultAuditStorageResourceGroup "Demo"
 
     cmdlet Get-Credential at command pipeline position 1
@@ -134,7 +135,7 @@ Preparar o locatário de origem:
     Pay-As-You-Go (ewe23423-a3327-34232-343... Admin@fabrikam... Pay-As-You-Go                           AzureCloud                              dsad938432-dd8e-s9034-bf9a-83984293n43
     Auditing setup successfully for Cross-TenantMovesVault
     Exchange application given access to KeyVault Cross-TenantMovesVault
-    Application fabrikam_Friends_contoso_2520 created successfully in fabrikam.onmicrosoft.com tenant with following permissions. MSGraph - Directory.ReadWrite.All. Exchange - Mailbox.Migration
+    Application fabrikam_Friends_contoso_2520 created successfully in fabrikam.onmicrosoft.com tenant with following permissions. MSGraph - User.Invite.All. Exchange - Mailbox.Migration
     Admin consent URI for fabrikam.onmicrosoft.com tenant admin is -
     https://login.microsoftonline.com/fabrikam.onmicrosoft.com/adminconsent?client_id=6fea6ere-0dwe-404d-ad35-c71a15cers5c&redirect_uri=https://office.com
     Admin consent URI for contoso.onmicrosoft.com tenant admin is -
@@ -175,7 +176,7 @@ A configuração do administrador de destino agora está concluída!
    > [!NOTE]
    > Se você não receber esse email ou não conseguir encontrá-lo, o administrador do locatário de destino recebeu uma URL direta que pode ser dada a você para aceitar o convite. A URL deve estar na transcrição da sessão do PowerShell Remoto do administrador do locatário de destino.
 
-3. No centro de administração do Microsoft 365 ou em uma sessão do PowerShell Remoto, crie um ou mais grupos de segurança habilitados para email para controlar a lista de caixas de correio permitidas pelo locatário de destino para puxar (mover) do locatário de origem para o locatário de destino. Você não precisa preencher esse grupo com antecedência, mas pelo menos um grupo deve ser fornecido para executar as etapas de instalação (script). Não há suporte para grupos de aninhar. 
+3. Na sessão do Centro de administração do Microsoft 365 ou do PowerShell Remoto, crie um ou mais grupos de segurança habilitados para email para controlar a lista de caixas de correio permitidas pelo locatário de destino para puxar (mover) do locatário de origem para o locatário de destino. Você não precisa preencher esse grupo com antecedência, mas pelo menos um grupo deve ser fornecido para executar as etapas de instalação (script). Não há suporte para grupos de aninhar. 
 
 4. Baixe o SetupCrossTenantRelationshipForResourceTenant.ps1 para a configuração do locatário de origem no repositório GitHub aqui: [https://github.com/microsoft/cross-tenant/releases/tag/Preview](https://github.com/microsoft/cross-tenant/releases/tag/Preview) . 
 
@@ -716,7 +717,7 @@ Lembre-se de que esse recurso está atualmente em visualização e o SLA e quais
    | Barreiras de informações                              |
    | Proteção de Informações para o Office 365 – Premium   |
    | Proteção de informações para o Office 365 – Padrão  |
-   | Insights by MyAnalytics                           |
+   | Insights por MyAnalytics                           |
    | Microsoft 365 Auditoria Avançada                   |
    | Microsoft Bookings                                |
    | Microsoft Business Center                         |

@@ -12,20 +12,20 @@ f1.keywords:
 ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-description: Integrar Microsoft Teams aulas no sistema de gerenciamento de aprendizagem
-ms.openlocfilehash: 287b9f1cadfdcf3adafdca91f4a351865bbcf3bc
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+description: Integrar Microsoft Teams classes no seu sistema de gerenciamento Learning de gerenciamento
+ms.openlocfilehash: 047f640befa967b78597c5eba93f9c64f22ec1c2
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52821266"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053246"
 ---
 # <a name="use-microsoft-teams-classes-with-blackboard"></a>Usar Microsoft Teams classes com quadro-preto
 
 > [!IMPORTANT]
 > Algumas informações estão relacionadas a produtos pré-lançados que podem ser substancialmente modificados antes de seu lançamento comercial. A Microsoft não faz garantias, expressas ou implícitas, quanto às informações fornecidas aqui.
 
-Microsoft Teams classes é um aplicativo de Interoperabilidade de Ferramentas de Aprendizagem (LTI) que ajuda educadores e alunos a navegar facilmente entre seu LMS (Sistema de Gerenciamento de Aprendizagem) e Teams. Os usuários podem acessar suas equipes de classe associadas ao curso diretamente de dentro do LMS.
+Microsoft Teams é um aplicativo de interoperabilidade de ferramentas (LTI) do Learning que ajuda educadores e alunos a navegar facilmente entre seu Learning Management System (LMS) e Teams. Os usuários podem acessar suas equipes de classe associadas ao curso diretamente de dentro do LMS.
 
 ## <a name="approve-the-app-in-the-microsoft-azure-tenant"></a>Aprovar o aplicativo no locatário Microsoft Azure locatário
 
@@ -37,7 +37,7 @@ Antes de gerenciar Microsoft Office 365 integração no Blackboard Learn Ultra, 
 
 2. Redirecionar o Ponto de Extremidade de Consentimento do Administrador da Plataforma de Identidade da Microsoft de acordo com o exemplo a seguir:
 
-   `https://login.microsoftonline.com/{tenant}/adminconsent?client\_id=2d94989f-457a-47c1-a637-e75acdb11568`
+   `https://login.microsoftonline.com/{tenant}/adminconsent?client_id=2d94989f-457a-47c1-a637-e75acdb11568`
 
    > [!NOTE]
    > Substitua {tenant} pela ID de locatário da Microsoft da sua organização.

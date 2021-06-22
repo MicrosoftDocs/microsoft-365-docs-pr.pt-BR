@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender a configurar uma caixa de correio para coletar emails de spam e phishing relatados pelos usuários.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a39c6a3b287933ff79f94b00e364d7a45378bd1f
-ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
+ms.openlocfilehash: f565a71b44d27076ea6ff0b25be5d5b3932913c9
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52933078"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53052982"
 ---
 # <a name="user-submissions-policy"></a>Política de envios de usuários
 
@@ -42,7 +42,7 @@ Em Microsoft 365 com caixas de correio Exchange Online, você pode especificar u
 A entrega de mensagens relatadas pelo usuário a uma caixa de correio personalizada, em vez de diretamente à Microsoft, permite que os administradores reportem mensagens de forma seletiva e manual à Microsoft usando [o envio de Administrador.](admin-submission.md)
 
   > [!NOTE]
-  > Se o relatório tiver sido desabilitado Outlook na [Web,](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web)habilitar envios de usuários aqui substituirá essa configuração e permitirá que os usuários reportem mensagens Outlook na Web novamente.
+  > Se o relatório tiver sido [desabilitado Outlook na Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web), habilitar envios de usuários aqui substituirá essa configuração e permitirá que os usuários reportem mensagens Outlook na Web novamente.
 
 ## <a name="custom-mailbox-prerequisites"></a>Pré-requisitos de caixa de correio personalizados
 
@@ -68,7 +68,7 @@ Depois de verificar se sua caixa de correio atende a todos os pré-requisitos ap
 
 - Para modificar a configuração para envios do usuário, você precisa ser membro de um dos seguintes grupos de função:
 
-  - **Gerenciamento da** organização **ou Administrador de Segurança** no portal Microsoft 365 [Defender.](permissions-in-the-security-and-compliance-center.md)
+  - **Gerenciamento da** organização **ou Administrador de** Segurança no portal Microsoft 365 Defender [.](permissions-in-the-security-and-compliance-center.md)
   - **Gerenciamento de organização** em [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).
 
 - Você precisa acessar o Exchange Online PowerShell. Se a conta que você está tentando usar não tiver acesso ao Exchange Online PowerShell, você receberá um erro com esta aparência ao especificar a caixa de correio de envios:
@@ -86,7 +86,7 @@ Depois de verificar se sua caixa de correio atende a todos os pré-requisitos ap
 
 2. Na página **Envios do** usuário, o que você vê é determinado se a configuração do botão Mensagem de Relatório da **Microsoft** Outlook está **Off** ou **On**:
 
-   - **Botão Outlook Mensagem de Relatório** \> da Microsoft **On** ![ Alternar em : selecione essa opção se você usar o complemento Mensagem de Relatório, o complemento Relatar Phishing ou o relatório integrado no Outlook na Web e, em seguida, configurar as seguintes ](../../media/scc-toggle-on.png) configurações:
+   - **Botão Outlook Mensagem de Relatório** \> da Microsoft **On** ![ Alternar em : selecione essa opção se você usar o add-in Mensagem de Relatório, o complemento De relatório phishing ou o relatório integrado no Outlook na Web e, em seguida, configurar as seguintes ](../../media/scc-toggle-on.png) configurações:
      - **Envie as mensagens relatadas para**: Selecione uma das seguintes opções:
        - **Microsoft**: A caixa de correio de envios do usuário não é usada (todas as mensagens relatadas vão para a Microsoft).
        - **Caixa** de correio da Microsoft e da minha organização: na caixa exibida, insira o endereço de email de uma caixa de correio Exchange Online existente. Grupos de distribuição não são permitidos. Os envios do usuário irão para a Microsoft para análise e para a caixa de correio personalizada para sua equipe de operações de segurança ou administrador analisar.
@@ -107,7 +107,7 @@ Depois de verificar se sua caixa de correio atende a todos os pré-requisitos ap
          - **Nunca relatar a mensagem**
 
           > [!CAUTION]
-          > Se você desabilitou o relatório de lixo eletrônico no Outlook na [Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) usando o Outlook nas políticas de caixa de correio da Web, mas configurou qualquer uma das configurações anteriores para relatar mensagens à Microsoft, os usuários poderão relatar mensagens à Microsoft no Outlook na Web usando o complemento Mensagem de Relatório ou o complemento Relatar Phishing.
+          > Se você desabilitou o relatório de lixo eletrônico no [Outlook na Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) usando políticas de caixa de correio do Outlook na Web, mas configurou qualquer uma das configurações anteriores para relatar mensagens à Microsoft, os usuários poderão relatar mensagens à Microsoft no Outlook na Web usando o complemento Mensagem de Relatório ou o complemento Relatar Phishing.
 
      - **Seção Experiência de relatório do usuário**
        - **Antes de relatar**  a  guia: nas caixas de corpo Título e Mensagem, insira o texto descritivo que os usuários veem antes de relatar uma mensagem usando o complemento Mensagem de Relatório ou o complemento Relatar Phishing. Você pode usar a variável %type% para incluir o tipo de envio (lixo eletrônico, não lixo eletrônico, phishing etc.).
@@ -117,14 +117,16 @@ Depois de verificar se sua caixa de correio atende a todos os pré-requisitos ap
 
           > Seu email será enviado como está para a Microsoft para análise. Alguns emails podem conter informações pessoais ou confidenciais.
 
-   - **Botão Outlook Mensagem de Relatório** \> da Microsoft **Off** ![ Alternar fora : selecione essa opção se você usar ferramentas de relatório de terceiros em vez do complemento De mensagem de relatório, o complemento De relatório phishing ou o relatório integrado no Outlook na Web e, em seguida, configurar as seguintes ](../../media/scc-toggle-off.png) configurações:
+   - **Botão Outlook Mensagem de Relatório** \> da Microsoft **Off** ![ Alternar fora : selecione essa opção se você usar ferramentas de relatório de terceiros em vez do add-in Mensagem de Relatório, o add-in De relatório phishing ou o relatório integrado no Outlook na Web e, em seguida, configurar as seguintes ](../../media/scc-toggle-off.png) configurações:
      - Selecione **Usar essa caixa de correio personalizada para receber envios relatados pelo usuário.** Na caixa exibida, insira o endereço de email de uma caixa de correio Exchange Online existente que possa receber emails.
 
    Quando terminar, clique em **Confirmar**. Para limpar esses valores, clique em **Restaurar**
 
 ## <a name="third-party-reporting-tools"></a>Ferramentas de relatórios de terceiros
 
-Você pode configurar ferramentas de relatório de mensagens de terceiros para enviar mensagens relatadas para a caixa de correio personalizada. O único requisito é que a mensagem original seja incluída como um anexo na mensagem enviada à caixa de correio personalizada (não apenas encaminhe a mensagem original para a caixa de correio personalizada).
+Você pode configurar ferramentas de relatório de mensagens de terceiros para enviar mensagens relatadas para a caixa de correio personalizada. Você faria isso definindo a configuração do botão Mensagem de  Relatório do **Microsoft Outlook** como **Desligado** e definindo a caixa de correio minha organização como uma caixa de correio Office 365 de sua escolha.
+
+O único requisito é que a mensagem original seja incluída como . EML ou . Anexo MSG (não compactado) na mensagem que é enviada para a caixa de correio personalizada (não apenas encaminhe a mensagem original para a caixa de correio personalizada).
 
 Os requisitos de formatação de mensagens são descritos na próxima seção. A formatação é opcional, mas se ela não seguir o formato prescrito, os relatórios sempre serão enviados como phishing.
 
