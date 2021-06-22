@@ -19,21 +19,21 @@ ms.custom:
 description: Use o novo Painel de Segurança para analisar Office 365 Status da Proteção contra Ameaças e exibir e agir em alertas de segurança.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8c9a49b9b8fc1edd9b2928250e8cae135acb75f4
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 1504c84f0657dd049b63908d56c4ec6cca4871de
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274407"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055152"
 ---
-# <a name="security-dashboard"></a>Painel de Segurança
+# <a name="security-dashboard-in-the-security--compliance-center"></a>Painel de segurança no Centro de Conformidade & Segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-## <a name="basic-functions-and-how-to-open-security-dashboard"></a>Funções básicas e como abrir o Painel de Segurança
+## <a name="basic-functions-and-how-to-open-security-dashboard"></a>Funções básicas e como abrir o painel de segurança
 
-O [Centro de Conformidade & segurança](../../compliance/microsoft-365-compliance-center.md) permite que sua organização gerencie a proteção e a conformidade de dados. Supondo que você tenha as permissões necessárias, o Painel de Segurança permite que você revise seu Status de Proteção contra Ameaças, bem como exibir e agir em alertas de segurança.
+O Centro de Conformidade & segurança permite que sua organização <https://protection.office.com> gerencie a proteção e a conformidade de dados. Supondo que você tenha as permissões necessárias, o Painel de Segurança permite que você revise seu Status de Proteção contra Ameaças, bem como exibir e agir em alertas de segurança.
 
 Assista ao vídeo para obter uma visão geral e leia este artigo para saber mais.
 
@@ -41,10 +41,10 @@ Assista ao vídeo para obter uma visão geral e leia este artigo para saber mais
 
 Dependendo do que a assinatura da sua organização inclui, o Painel de Segurança inclui vários widgets, como Resumo de Gerenciamento de Ameaças, Status de Proteção contra Ameaças, Detecções Semanais Globais de Ameaças, Malware e muito mais, conforme descrito nas seções a seguir.
 
-Para exibir o Painel de Segurança, no Centro de Conformidade & [segurança,](../../compliance/microsoft-365-compliance-center.md)vá para **Painel de gerenciamento de** \> **ameaças.**
+Para exibir o Painel de Segurança no Centro de Conformidade & segurança, vá para Painel **de gerenciamento de** \> **ameaças.** Para ir diretamente para o painel segurança, use <https://protection.office.com/searchandinvestigation/dashboard> .
 
 > [!NOTE]
-> Você deve ser um administrador global, um administrador de segurança ou um leitor de segurança para exibir o Painel de Segurança. Alguns widgets exigem permissões adicionais para exibição. Para saber mais, confira Permissões no Centro de [Conformidade & Segurança.](permissions-in-the-security-and-compliance-center.md)
+> Você deve ser um administrador global, um administrador de segurança ou um leitor de segurança para exibir o Painel de Segurança. Alguns widgets exigem permissões adicionais para exibição. Para saber mais, confira [Permissões no Centro](permissions-in-the-security-and-compliance-center.md)de Conformidade & Segurança [.
 
 ## <a name="threat-management-summary"></a>Resumo do Gerenciamento de Ameaças
 
@@ -54,9 +54,14 @@ O widget Resumo do Gerenciamento de Ameaças informa rapidamente como sua organi
 
 As informações que você verá no Resumo de Gerenciamento de Ameaças dependem do que sua assinatura inclui. A tabela a seguir descreve quais informações são incluídas para Office 365 E3 e Office 365 E5.
 
+<br>
+
+****
+
 |Office 365 E3|Office 365 E5|
 |---|---|
 |Mensagens de malware bloqueadas<br>Mensagens de phishing bloqueadas<br>Mensagens relatadas por usuários<br><br><br><br>|Mensagens de malware bloqueadas<br>Mensagens de phishing bloqueadas<br>Mensagens relatadas por usuários<br>Malware zero-day bloqueado<br>Mensagens de phishing avançadas detectadas<br>URLs mal-intencionadas bloqueadas|
+|
 
 Para exibir ou acessar o widget Resumo do Gerenciamento de Ameaças, você deve ter permissões para exibir o Defender para Office 365 relatórios. Para saber mais, confira [Quais permissões são necessárias para exibir o Defender para Office 365 relatórios?](view-reports-for-mdo.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports).
 
@@ -68,10 +73,15 @@ O widget Status da Proteção contra Ameaças mostra a eficácia da proteção c
 
 Os detalhes dependem se sua assinatura Microsoft 365 [](exchange-online-protection-overview.md) inclui Proteção do Exchange Online (EOP) com ou sem [o Microsoft Defender para Office 365](defender-for-office-365.md).
 
+<br>
+
+****
+
 |Se sua assinatura incluir...|Você verá esses detalhes|
 |---|---|
 |EOP, mas não o Microsoft Defender para Office 365|Email mal-intencionado detectado e bloqueado pelo EOP.<p> Consulte [Threat Protection Status report (EOP)](view-email-security-reports.md#threat-protection-status-report).|
-|Microsoft Defender para Office 365|Conteúdo mal-intencionado e emails mal-intencionados detectados e bloqueados pelo EOP e pelo Defender para Office 365 <p> Contagem agregada de mensagens de email exclusivas com conteúdo mal-intencionado bloqueado pelo mecanismo anti-malware, limpeza automática de hora [zero](zero-hour-auto-purge.md)e o Defender para recursos Office 365 (incluindo links de [Cofre](safe-links.md), [anexos Cofre](safe-attachments.md)e [anti-phishing](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)no Defender para Office 365 ). <p> Consulte [Relatório de status de proteção contra ameaças.](view-reports-for-mdo.md#threat-protection-status-report)|
+|Obter o Microsoft Defender para Office 365|Conteúdo mal-intencionado e emails mal-intencionados detectados e bloqueados pelo EOP e pelo Defender para Office 365 <p> Contagem agregada de mensagens de email exclusivas com conteúdo mal-intencionado bloqueado pelo mecanismo anti-malware, limpeza automática de hora [zero](zero-hour-auto-purge.md)e o Defender para recursos Office 365 (incluindo links de [Cofre](safe-links.md), [anexos Cofre](safe-attachments.md)e [anti-phishing](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)no Defender para Office 365 ). <p> Consulte [Relatório de status de proteção contra ameaças.](view-reports-for-mdo.md#threat-protection-status-report)|
+|
 
 Para exibir ou acessar o widget Status da Proteção contra Ameaças, você deve ter permissões para exibir o Defender para Office 365 relatórios. Para saber mais, confira [Quais permissões são necessárias para exibir o Defender para Office 365 relatórios?](view-reports-for-mdo.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)
 
@@ -83,12 +93,17 @@ O widget Detecções Semanais Globais de Ameaças mostra quantas ameaças foram 
 
 As métricas são calculadas conforme descrito na tabela a seguir:
 
+<br>
+
+****
+
 |Indicador|Como ele é calculado|
 |---|---|
 |Mensagens examinadas|Número de mensagens de email digitalizada multiplicada pelo número de destinatários|
 |Ameaças interrompidas|Número de mensagens de email identificadas como contendo malware multiplicado pelo número de destinatários|
 |Bloqueado pelo [Defender para Office 365](defender-for-office-365.md)|Número de mensagens de email bloqueadas pelo Defender Office 365 multiplicado pelo número de destinatários|
 |Removido após a entrega|Número de mensagens removidas pela [limpeza automática de hora zero](zero-hour-auto-purge.md) multiplicada pelo número de destinatários|
+|
 
 ## <a name="malware"></a>Malware
 
@@ -98,7 +113,7 @@ Os widgets de malware mostram detalhes sobre tendências de malware e tipos de f
 
 ## <a name="insights"></a>Insights
 
-Insights não apenas problemas de superfície que você deve revisar, eles também incluem recomendações e ações a considerar.
+Insights problemas de superfície que você deve revisar, eles também incluem recomendações e ações a considerar.
 
 ![Insights inteligentes](../../media/smartinsights.png)
 
@@ -122,7 +137,7 @@ Para exibir ou acessar o widget Email Enviado e Recebido, você deve ter permiss
 
 Para exibir ou acessar o widget Alertas de Gerenciamento de Ameaças Recentes, você deve ter permissões para exibir alertas. Para saber mais, confira [permissões do RBAC necessárias para exibir alertas](../../compliance/alert-policies.md#rbac-permissions-required-to-view-alerts).
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [Exibir relatórios de segurança de email no Centro de Conformidade & Segurança](view-email-security-reports.md)
 

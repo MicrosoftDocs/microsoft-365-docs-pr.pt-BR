@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 description: Obter o mais recente no isolamento baseado em hardware. Impedir que ataques atuais e emergentes, como explorações ou links mal-intencionados, atrapalhem a produtividade dos funcionários e a segurança corporativa.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d0fa6ad884c6b21457c8359cf82e32e4b8c100ba
-ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
+ms.openlocfilehash: 39d6a9c3a3c3a5e2c736025a26c22588f9f08bb0
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51488306"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055264"
 ---
 # <a name="application-guard-for-office-for-admins"></a>Application Guard for Office para administradores
 
@@ -83,7 +83,7 @@ Para saber mais sobre Office de atualização, consulte [Visão geral dos canais
 
 Esta etapa garante que os dados necessários para identificar e corrigir problemas estão chegando à Microsoft. Siga estas etapas para habilitar diagnósticos em seu Windows dispositivo:
 
-1. Abra **Configurações** no menu Iniciar.
+1. Abra **Configurações** do menu Iniciar.
 
    ![Menu Iniciar](../../media/ag05-diagnostic.png)
 
@@ -120,7 +120,6 @@ Ao ser aberto, o arquivo deve exibir alguns indicadores visuais que o arquivo fo
 ## <a name="configure-application-guard-for-office"></a>Configurar o Application Guard para Office
 
 Office dá suporte às seguintes políticas para permitir que você configure os recursos do Application Guard para Office. Essas políticas podem ser configuradas por meio de políticas de grupo ou por meio do serviço [Office de política de nuvem.](/DeployOffice/overview-office-cloud-policy-service)
-Consulte configuração definida pelo administrador ao analisar as configurações de política de grupo em Modelos Administrativos de Configuração do **\\ Usuário Microsoft Office \\ 2016 \\ Security Configurações Trust Center Application \\ \\ Guard**.
 
 
 > [!NOTE]
@@ -234,6 +233,9 @@ Quando essa heurística for atendida, Office pré-criará um contêiner do Appli
 ## <a name="known-issues"></a>Problemas conhecidos
 
 * Selecionar links da Web ( `http` ou ) não abre o `https` navegador.
-* Não há suporte para colar conteúdo ou imagens RTF (rich text format) em Office documentos abertos com o Application Guard no momento.
-* A configuração padrão para a política de proteção de tipos de arquivo sem suporte é bloquear a abertura de tipos de arquivos não compatíveis não compatíveis com o IRM (Gerenciamento de Direitos de Informação), CSV ou HTML.
+* A configuração padrão para a política de proteção de colar cópia é habilitar o acesso da área de transferência somente ao texto.
+* A configuração padrão para a política de proteção de tipos de arquivo sem suporte é bloquear a abertura de tipos de arquivo não compatíveis não compatíveis que sejam criptografados ou tenham o IRM (Gerenciamento de Direitos de Informação) definido. Isso inclui arquivos que têm Proteção de Informações da Microsoft de confidencialidade usando criptografia (confidencial ou altamente confidencial).
+* Não há suporte para arquivos CSV e HTML no momento.
+* O Application Guard Office atualmente não funciona com volumes compactados NTFS. Se você estiver vendo um erro "ERROR_VIRTUAL_DISK_LIMITATION" tente descompactar o volume.
 * As atualizações para o .NET podem causar falha na abertura de arquivos no Application Guard. Como solução alternativa, os usuários podem reiniciar o dispositivo quando se deparar com essa falha. Saiba mais sobre o problema em Receber uma mensagem de erro ao tentar abrir Windows Defender Application Guard [ou Windows Área Desarmática.](https://support.microsoft.com/help/4575917/receiving-an-error-message-when-attempting-to-open-windows-defender-ap)
+* Confira [Perguntas frequentes - Microsoft Defender Application Guard para obter informações adicionais.](/windows/security/threat-protection/microsoft-defender-application-guard/faq-md-app-guard) 

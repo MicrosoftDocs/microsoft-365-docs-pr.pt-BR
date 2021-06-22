@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Saiba como gerenciar quem recebe emails de notificação de cobrança e anexos de fatura.
 ms.date: 03/17/2021
-ms.openlocfilehash: a0c7de8638a227d432ff2c5a0d4839fa8f66582c
-ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
+ms.openlocfilehash: f41d93835fed1715803052f1cf79b46f43a1d200
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52998759"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054580"
 ---
 # <a name="manage-billing-notifications-and-invoice-attachments"></a>Gerenciar notificações de faturamento e anexos de fatura
 
@@ -37,9 +37,6 @@ A **página Notificações de** cobrança permite gerenciar quem recebe emails d
 Você deve ser um administrador global para fazer as etapas descritas neste artigo. Os administradores de cobrança podem fazer algumas dessas alterações, conforme o que se pode ver nas seções abaixo. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 
 ## <a name="change-the-language-you-receive-email-in"></a>Alterar o idioma em que você recebe emails
-
-> [!NOTE]
-> Os administradores de cobrança também podem fazer as etapas nesta seção.
 
 Os emails de notificação de cobrança são enviados no idioma preferencial da sua organização. Para alterar o idioma preferencial, use as etapas a seguir.
 
@@ -87,6 +84,9 @@ Além dos administradores global e de cobrança, enviamos notificações de cobr
 3. No painel direito, digite o endereço de email que você deseja usar e selecione **Salvar**.
 
 ## <a name="receive-your-organizations-invoices-as-email-attachments"></a>Receber as faturas da sua organização como anexos de email
+
+> [!NOTE]
+> Os administradores de cobrança também podem fazer as etapas nesta seção.
 
 Você pode ter uma cópia da fatura da sua organização anexada como um arquivo PDF para faturar emails de notificação quando uma nova fatura estiver pronta. Use as etapas a seguir para receber faturas como anexos.
 

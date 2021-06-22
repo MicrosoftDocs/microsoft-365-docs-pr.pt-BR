@@ -12,12 +12,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Saiba como usar o Power Automate para criar seu fluxo para processar seus contratos usando uma solução Microsoft 365.
-ms.openlocfilehash: 0ddcbeff6c8bd119850e3e4ea45db2513e774433
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: e6c1d1e53363f996241efb2394189853d840c6c2
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636249"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054472"
 ---
 # <a name="step-3-use-power-automate-to-create-your-flow-to-process-your-contracts"></a>Etapa 3. Use Power Automate para criar seu fluxo para processar seus contratos
 
@@ -25,7 +25,7 @@ Você criou seu canal de Gerenciamento de Contratos e anexou sua SharePoint de d
 
 Para a solução de gerenciamento de contratos, você deseja criar um fluxo Power Automate para fazer as seguintes ações:
 
--  Depois que um contrato tiver sido classificado pelo seu modelo SharePoint Syntex, altere o status do contrato para **Em revisão.**
+-  Depois que um contrato tiver sido classificado pelo seu modelo SharePoint Syntex, altere o status do contrato para **Em revisão**.
 - Em seguida, o contrato é revisado e aprovado ou rejeitado.
 - Para contratos aprovados, as informações do contrato são postadas em uma guia para processamento de pagamento.
 - Para contratos rejeitados, a equipe é notificada para análise posterior. 
@@ -36,7 +36,7 @@ O diagrama a seguir mostra o fluxo Power Automate para a solução de gerenciame
 
 ## <a name="prepare-your-contract-for-review"></a>Preparar seu contrato para revisão
 
-Quando um contrato é identificado e classificado pelo seu modelo de SharePoint de entendimento do documento Syntex, o fluxo de Power Automate primeiro alterará o status para **Em revisão**.
+Quando um contrato é identificado e classificado pelo seu modelo de SharePoint Syntex de entendimento de documentos, o fluxo de Power Automate primeiro alterará o status para **Em revisão**.
 
 ![Status da atualização.](../media/content-understanding/flow-overview.png)
 
@@ -127,9 +127,9 @@ O código a seguir é o JSON usado para esta etapa no Power Automate fluxo.
 ```
 
 
-## <a name="conditional"></a>Condicional
+## <a name="conditional-context"></a>Contexto condicional
 
-Em seu fluxo, em seguida, você precisa criar uma condição na qual seu contrato será aprovado ou rejeitado.
+Em seu fluxo, em seguida, você precisa criar uma condição na qual seu contrato será aprovado [ou](#if-the-contract-is-approved) [rejeitado.](#if-the-contract-is-rejected)
 
 ![Condicional.](../media/content-understanding/condition.png)
 
@@ -152,6 +152,19 @@ Quando um contrato é aprovado, ocorrem as seguintes coisas:
 - No fluxo, você cria o item a seguir para mover contratos aprovados para a **guia Para Pagamento.**
 
    ![Flow item para mover para Pagar.](../media/content-understanding/ready-for-payout.png)
+
+    Para obter as expressões das informações necessárias do cartão Teams, use os valores mostrados na tabela a seguir.
+ 
+    |Nome     |Expression |
+    |---------|-----------|
+    | Estado de aprovação  | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['submitActionId']         |
+    | Aprovado por     | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['responder'] ['displayName']        |
+    | Data de aprovação     | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['responseTime']         |
+    | Comentário     | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['data'] ['acComments']         |
+    
+    O exemplo a seguir mostra como usar a caixa de fórmula no Power Automate para gravar uma expressão.
+
+   ![Captura de tela em Power Automate mostrando uma fórmula de expressão.](../media/content-understanding/expression-formula-power-automate.png)    
 
 - Um cartão adaptável informando que o contrato foi aprovado é criado e postado no canal Gerenciamento de Contratos.
 
@@ -250,11 +263,11 @@ Quando um contrato é rejeitado, ocorrem as seguintes coisas:
 
 - Em seu fluxo, você faz check-out do arquivo de contrato, altera o status para **Rejeitado** e, em seguida, faz check-in do arquivo novamente.
 
-   ![Flow status rejeitado.](../media/content-understanding/reject-flow.png)
+   ![Flow status rejeitado no arquivo de contrato.](../media/content-understanding/reject-flow.png)
 
 - Em seu fluxo, você cria um cartão adaptável informando que o contrato foi rejeitado.
 
-   ![Flow status rejeitado.](../media/content-understanding/reject-flow-item.png)
+   ![Flow status mostra rejeitado no cartão adaptável.](../media/content-understanding/reject-flow-item.png)
 
 O código a seguir é o JSON usado para esta etapa no Power Automate fluxo.
 

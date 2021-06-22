@@ -12,18 +12,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector teleMessage para importar e arquivar dados do WhatsApp em Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que você possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: a8f588e6bbe5180865a2053b055230e4f35ed96a
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 0f4759eeb26190d7fdfc92cbf986efecd017eda5
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822160"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054783"
 ---
 # <a name="set-up-a-connector-to-archive-whatsapp-data"></a>Configurar um conector para arquivar dados do WhatsApp
 
-Use o conector teleMessage no centro de conformidade Microsoft 365 para importar e arquivar chamadas, chats, anexos, arquivos e mensagens excluídas do WhatsApp. Depois de configurar e configurar um conector, ele se conecta à conta teleMessage da sua organização uma vez por dia e importa a comunicação móvel de funcionários usando o WhatsApp Telefone Archiver ou o Arquivo Mortor de Nuvem do TeleMessage do WhatsApp para caixas de correio no Microsoft 365.
+Use o conector TeleMessage no Centro de conformidade do Microsoft 365 para importar e arquivar chamadas, chats, anexos, arquivos e mensagens excluídas do WhatsApp. Depois de configurar e configurar um conector, ele se conecta à conta teleMessage da sua organização uma vez por dia e importa a comunicação móvel de funcionários usando o WhatsApp Telefone Archiver ou o Arquivo Mortor de Nuvem do TeleMessage do WhatsApp para caixas de correio no Microsoft 365.
 
-Depois que os dados do WhatsApp são armazenados em caixas de correio de usuário, você pode aplicar Microsoft 365 de conformidade, como Retenção de Litígio, Pesquisa de Conteúdo e Microsoft 365 de retenção para dados do WhatsApp. Por exemplo, você pode pesquisar mensagens do WhatsApp usando a Pesquisa de Conteúdo ou associar a caixa de correio que contém mensagens do WhatsApp a um custodiante em um caso Advanced eDiscovery. Usar um conector do WhatsApp para importar e arquivar dados no Microsoft 365 pode ajudar sua organização a manter a conformidade com políticas governamentais e regulatórias.
+Depois que os dados do WhatsApp são armazenados em caixas de correio de usuário, você pode aplicar Microsoft 365 de conformidade, como retenção de litígio, pesquisa de conteúdo e políticas de retenção Microsoft 365 aos dados do WhatsApp. Por exemplo, você pode pesquisar mensagens do WhatsApp usando a pesquisa de conteúdo ou associar a caixa de correio que contém mensagens do WhatsApp a um custodiante em um caso Advanced eDiscovery. Usar um conector do WhatsApp para importar e arquivar dados no Microsoft 365 pode ajudar sua organização a manter a conformidade com políticas governamentais e regulatórias.
 
 ## <a name="overview-of-archiving-whatsapp-data"></a>Visão geral do arquivamento de dados do WhatsApp
 
@@ -35,7 +35,7 @@ A visão geral a seguir explica o processo de uso de um conector para arquivar d
 
 2. Em tempo real, os dados do WhatsApp da sua organização são copiados para o site do TeleMessage.
 
-3. O conector do WhatsApp criado no centro de conformidade do Microsoft 365 conecta-se ao site do TeleMessage todos os dias e transfere dados do WhatsApp das 24 horas anteriores para um local seguro do Azure Armazenamento na nuvem da Microsoft. O conector também converte os dados de conteúdo do WhatsApp em um formato de mensagem de email.
+3. O conector do WhatsApp criado no Centro de conformidade do Microsoft 365 conecta-se ao site do TeleMessage todos os dias e transfere dados do WhatsApp das 24 horas anteriores para um local seguro do Azure Armazenamento na nuvem da Microsoft. O conector também converte os dados de conteúdo do WhatsApp em um formato de mensagem de email.
 
 4. O conector importa dados do WhatsApp para a caixa de correio de um usuário específico. Uma nova pasta chamada **WhatsApp Archiver** é criada na caixa de correio do usuário específico e os itens são importados para ela. O conector faz esse mapeamento usando o valor da *propriedade endereço email do* usuário. Cada mensagem do WhatsApp contém essa propriedade, que é preenchida com o endereço de email de cada participante da mensagem.
 
@@ -51,13 +51,13 @@ Algumas das etapas de implementação necessárias para arquivar dados de comuni
 
 - Instale o aplicativo Telefone [Do WhatsApp](https://www.telemessage.com/mobile-archiver/whatsapp-phone-archiver-2/) de TeleMessage nos telefones celulares de seus funcionários e ative-o. Como alternativa, você pode instalar os aplicativos de WhatsApp ou WhatsApp Business regulares nos telefones celulares de seus funcionários e ativar o serviço WhatsApp Cloud Archiver, digitalizando um código QR no site do TeleMessage. Para obter mais informações, consulte [WhatsApp Cloud Archiver](https://www.telemessage.com/mobile-archiver/whatsapp-archiver/whatsapp-cloud-archiver/).
 
-- O usuário que cria um conector de Rede do Verizon deve receber a função de Exportação de Importação de Caixa de Correio Exchange Online. Isso é necessário para adicionar conectores na página **Conectores** de dados no Microsoft 365 de conformidade. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função Exportar Importação de Importação de Caixa de Correio ao grupo de função Gerenciamento da Organização Exchange Online. Ou você pode criar um grupo de funções, atribuir a função Exportar Importação de Caixa de Correio e adicionar os usuários apropriados como membros. Para obter mais informações, consulte as seções Criar grupos de [função](/Exchange/permissions-exo/role-groups#create-role-groups) ou [Modificar](/Exchange/permissions-exo/role-groups#modify-role-groups) grupos de função no artigo "Gerenciar grupos de funções em Exchange Online".
+- O usuário que cria um conector de Rede do Verizon deve receber a função de Exportação de Importação de Caixa de Correio Exchange Online. Isso é necessário para adicionar conectores na página **Conectores de** dados no Centro de conformidade do Microsoft 365. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função Exportar Importação de Importação de Caixa de Correio ao grupo de função Gerenciamento da Organização Exchange Online. Ou você pode criar um grupo de funções, atribuir a função Exportar Importação de Caixa de Correio e adicionar os usuários apropriados como membros. Para obter mais informações, consulte as seções Criar grupos de [função](/Exchange/permissions-exo/role-groups#create-role-groups) ou [Modificar](/Exchange/permissions-exo/role-groups#modify-role-groups) grupos de função no artigo "Gerenciar grupos de funções em Exchange Online".
 
 - Esse conector de dados está disponível em GCC ambientes na nuvem Microsoft 365 Us Government. Aplicativos e serviços de terceiros podem envolver o armazenamento, a transmissão e o processamento dos dados do cliente da sua organização em sistemas de terceiros que estão fora da infraestrutura do Microsoft 365 e, portanto, não são cobertos pelos compromissos de conformidade e proteção de dados do Microsoft 365. A Microsoft não faz nenhuma representação de que o uso desse produto para se conectar a aplicativos de terceiros implica que esses aplicativos de terceiros são compatíveis com FEDRAMP.
 
 ## <a name="create-a-whatsapp-archiver-connector"></a>Criar um conector de arquivamento do WhatsApp
 
-Depois de concluir os pré-requisitos descritos na seção anterior, você pode criar o conector do WhatsApp no centro de conformidade Microsoft 365 de segurança. O conector usa as informações fornecidas para se conectar ao site do TeleMessage e transferir os dados do WhatsApp para as caixas de correio de usuário correspondentes no Microsoft 365.
+Depois de concluir os pré-requisitos descritos na seção anterior, você pode criar o conector do WhatsApp no Centro de conformidade do Microsoft 365. O conector usa as informações fornecidas para se conectar ao site do TeleMessage e transferir os dados do WhatsApp para as caixas de correio de usuário correspondentes no Microsoft 365.
 
 1. Vá até [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique em **Conectores de dados** do  >  **WhatsApp Archiver**.
 

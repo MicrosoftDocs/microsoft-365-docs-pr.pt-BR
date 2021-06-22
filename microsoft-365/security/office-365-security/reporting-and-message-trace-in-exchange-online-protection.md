@@ -15,12 +15,12 @@ ms.custom:
 description: Neste artigo, você aprenderá sobre relatórios e ferramentas de solução de problemas disponíveis para administradores Microsoft Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 079e2b359f28b0b6bc3d7eac86e69060c65ea250
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: cc49a92d5fb1fb0368b14eef7524638542f38deb
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841433"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054381"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>Rastreamento de relatórios e mensagens no EOP
 
@@ -35,30 +35,17 @@ Em organizações Microsoft 365 com caixas de correio em organizações Exchange
 
 ## <a name="usage-reports"></a>Relatórios de uso
 
-**Microsoft 365 de grupos**: Exibir informações sobre o número de grupos Microsoft 365 que são criados e usados.
+- **Microsoft 365 de grupos**: Exibir informações sobre o número de grupos Microsoft 365 que são criados e usados. Para obter mais informações, [consulte Microsoft 365 Relatórios no centro de administração - Microsoft 365 grupos](../../admin/activity-reports/office-365-groups.md).
+- **Atividade de email**: Exibir informações sobre o número de mensagens enviadas, recebidas e lidas em toda a organização e por usuários específicos. Para obter mais informações, [consulte Microsoft 365 Relatórios no centro de administração - Atividade de email](../../admin/activity-reports/email-activity.md).
+- **Uso do aplicativo de** email : Exibir informações sobre os aplicativos de email usados. Isso inclui o número total de conexões para cada aplicativo e as versões de Outlook que estão se conectando. Para obter mais informações, [consulte Microsoft 365 Relatórios no centro de administração - Uso de aplicativos de email](../../admin/activity-reports/email-apps-usage.md).
+- **Uso da** caixa de correio : Exibir informações sobre armazenamento usado, consumo de cota, contagem de itens e última atividade (atividade de envio ou leitura) para caixas de correio. Para obter mais informações, [consulte Microsoft 365 Relatórios no centro de administração - Uso da caixa de correio](../../admin/activity-reports/mailbox-usage.md).
 
-**Atividade de email**: Exibir informações sobre o número de mensagens enviadas, recebidas e lidas em toda a organização e por usuários específicos.
-
-**Uso do aplicativo de** email : Exibir informações sobre os aplicativos de email usados. Isso inclui o número total de conexões para cada aplicativo, e as versões do Outlook que estão se conectando.
-
-**Uso da** caixa de correio : Exibir informações sobre armazenamento usado, consumo de cota, contagem de itens e última atividade (atividade de envio ou leitura) para caixas de correio.
-
-Veja os seguintes recursos para obter mais informações:
-
-- [Microsoft 365 Relatórios no centro de administração - Microsoft 365 grupos](../../admin/activity-reports/office-365-groups.md)
-- [Microsoft 365 Relatórios no centro de administração - Atividade de email](../../admin/activity-reports/email-activity.md)
-- [Microsoft 365 Relatórios no centro de administração - Uso de aplicativos de email](../../admin/activity-reports/email-apps-usage.md)
-- [Microsoft 365 Relatórios no centro de administração - Uso da caixa de correio](../../admin/activity-reports/mailbox-usage.md)
-
-## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Relatórios & de conformidade de segurança no Microsoft 365 de administração
+## <a name="security-reports-in-the-microsoft-365-defender-portal"></a>Relatórios de segurança no portal Microsoft 365 defender
 
 Esses relatórios aprimorados fornecem uma experiência interativa de relatórios para os administradores do EOP, que inclui informações resumidas e a capacidade de detalhar para obter mais detalhes.
 
-**Defender for Office 365**: Exibir informações sobre Cofre Links e Cofre anexos que fazem parte do Microsoft Defender para Office 365.
-
-**EOP**: Exibir informações sobre detecções de malware, emails empoados, detecções de spam e fluxo de emails de e para sua organização.
-
-[Exibir relatórios do Defender para Office 365](view-reports-for-mdo.md)
+- **Defender for Office 365**: Exibir informações sobre Cofre Links e Cofre anexos que fazem parte do Microsoft Defender para Office 365. Para obter mais informações, [consulte Exibir o Defender para Office 365 relatórios no portal Microsoft 365 Defender .](view-reports-for-mdo.md)
+- **EOP**: Exibir informações sobre detecções de malware, emails empoados, detecções de spam e fluxo de emails de e para sua organização. Para obter mais informações, consulte [Exibir relatórios de segurança de email no portal Microsoft 365 Defender .](view-email-security-reports.md)
 
 ## <a name="custom-reports-using-microsoft-graph"></a>Relatórios personalizados usando o Microsoft Graph
 
@@ -70,7 +57,7 @@ Acompanhe as mensagens enviadas conforme elas circulam através di EOP. Você po
 
 Você pode usar essa informação para responder com eficiência às perguntas dos seus usuários, solucionar problemas de fluxo de email, validar alterações de política e reduzir a necessidade de contatar o suporte técnico para obter assistência.
 
-Consulte [Rastreamento de mensagens no Centro de Conformidade & segurança.](message-trace-scc.md)
+Consulte [Rastreamento de mensagens no portal Microsoft 365 Defender .](message-trace-scc.md)
 
 ## <a name="audit-logging"></a>Registro em log de auditoria
 
@@ -79,6 +66,8 @@ Rastreie alterações específica feitas pelos administradores na sua organizaç
 ## <a name="reporting-and-message-trace-data-availability-and-latency"></a>Disponibilidade e latência de dados de relatórios e rastreamento de mensagens
 
 A tabela a seguir descreve quando dados de relatórios e rastreamento de mensagens do EOP estão disponíveis e por quanto tempo.
+
+<br>
 
 ****
 

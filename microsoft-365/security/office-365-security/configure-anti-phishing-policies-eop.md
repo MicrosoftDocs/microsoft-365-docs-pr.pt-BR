@@ -15,12 +15,12 @@ ms.collection:
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing disponíveis em organizações Proteção do Exchange Online (EOP) com ou sem Exchange Online caixas de correio.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2aaeb10eaa3c06e721df3cf7a00658482e6ffc0c
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 8633644ab0380cf2adcf30c006a7d6d141a6040a
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029916"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054569"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Configurar políticas anti-phishing em EOP
 
@@ -144,7 +144,7 @@ Criar uma política anti-phishing personalizada no portal Microsoft 365 Defender
 
 1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
 
-2. Na página **Anti-phishing,** as seguintes propriedades são exibidas na lista de políticas anti-phishing:
+2. Na página **Anti-phishing,** as seguintes propriedades são exibidas na lista de políticas:
 
    - **Nome**
    - **Status**
@@ -213,9 +213,11 @@ Quando você usa o portal Microsoft 365 Defender para remover uma política anti
 
 1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
 
-2. Selecione uma política personalizada na lista clicando no nome da política. Na parte superior do submenu de detalhes da política exibido, clique no ![ícone Mais ações](../../media/m365-cc-sc-more-actions-icon.png) **Mais ações** \> ![ícone Excluir política](../../media/m365-cc-sc-delete-icon.png) **Excluir política**.
+2. Na página **Anti-phishing,** selecione uma política personalizada na lista clicando no nome.
 
-3. Na caixa de diálogo de confirmação exibida, clique em **Sim**.
+3. Na parte superior do submenu de detalhes da política exibido, clique no ![ícone Mais ações](../../media/m365-cc-sc-more-actions-icon.png) **Mais ações** \> ![ícone Excluir política](../../media/m365-cc-sc-delete-icon.png) **Excluir política**.
+
+4. Na caixa de diálogo de confirmação exibida, clique em **Sim**.
 
 ## <a name="use-exchange-online-powershell-to-configure-anti-phishing-policies"></a>Usar Exchange Online PowerShell para configurar políticas anti-phishing
 

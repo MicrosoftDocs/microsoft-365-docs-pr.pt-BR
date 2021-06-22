@@ -13,12 +13,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Saiba como gerenciar contratos usando uma solução Microsoft 365 de SharePoint Syntex, SharePoint Listas, Microsoft Teams e Power Automate.
-ms.openlocfilehash: 352ebd1b9170aaf7829c414e87f7a79c4f17a1df
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: d3be12dbddabbcddc41f7c9d882db5473350266e
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843765"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054762"
 ---
 # <a name="manage-contracts-using-a-microsoft-365-solution"></a>Gerenciar contratos usando uma solução do Microsoft 365
 
@@ -44,7 +44,7 @@ A primeira etapa no planejamento do sistema de gerenciamento de contratos é ent
 
 Esta orientação de solução de gerenciamento de contratos inclui quatro componentes de Microsoft 365:
 
-- **Microsoft SharePoint Syntex**: crie modelos para identificar e classificar seus arquivos de contrato e, em seguida, extrair os dados apropriados deles.
+- **Microsoft SharePoint Syntex:** crie modelos para identificar e classificar seus arquivos de contrato e, em seguida, extrair os dados apropriados deles.
 
 - **Listas SharePoint** Microsoft : Use a formatação disponível em listas SharePoint modernas para apresentar contratos em um formato amigável para os negócios.
 
@@ -56,7 +56,7 @@ Esta orientação de solução de gerenciamento de contratos inclui quatro compo
 
   ![Diagrama da solução mostrando o fluxo de trabalho para carregar documentos, extrair dados, notificar as partes interessadas e aprovar ou rejeitar o contrato.](../media/content-understanding/syntex-solution-manage-contracts-overview.png)
 
-1. Os documentos são carregados em uma biblioteca SharePoint de documentos. Um SharePoint de entendimento de documentos Syntex foi aplicado à biblioteca de documentos. Ele verifica cada arquivo para ver se algum corresponder a um tipo de conteúdo "contrato" que ele está treinado para procurar. Se encontrar uma combinação, ele classifica o arquivo como um "contrato" e atualiza o tipo de conteúdo do documento.
+1. Os documentos são carregados em uma biblioteca SharePoint de documentos. Um SharePoint Syntex de entendimento de documentos foi aplicado à biblioteca de documentos. Ele verifica cada arquivo para ver se algum corresponder a um tipo de conteúdo "contrato" que ele está treinado para procurar. Se encontrar uma combinação, ele classifica o arquivo como um "contrato" e atualiza o tipo de conteúdo do documento.
 
 2. O modelo também retira dados específicos de cada arquivo de contrato que as partes interessadas em ver, como *o Cliente,* o Prestador *de* Serviços e o valor da *taxa.*
 

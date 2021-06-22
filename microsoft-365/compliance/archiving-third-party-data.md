@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como importar dados de terceiros de plataformas de mídia social, plataformas de mensagens instantâneas e plataformas de colaboração de documentos para Microsoft 365 caixas de correio.
-ms.openlocfilehash: a51b298b934431a1be8a416dac1f831ddaca5ffe
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: a0c4505d3fbd593f5703f4abfb5cba1870c037c5
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861198"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054776"
 ---
 # <a name="archive-third-party-data"></a>Arquivar dados de terceiros
 
@@ -35,7 +35,7 @@ Microsoft 365 permite que os administradores usem conectores de dados para impor
 
 ## <a name="third-party-data-connectors"></a>Conectores de dados de terceiros
 
-A tabela a seguir lista os conectores de dados de terceiros disponíveis no Microsoft 365 de conformidade. A tabela também resume as soluções de conformidade que você pode aplicar a dados de terceiros depois de importar e arquivar Microsoft 365. Consulte a [próxima seção para](#overview-of-compliance-solutions-that-support-third-party-data) obter uma descrição mais detalhada de cada solução de conformidade e como ela pode beneficiar dados de terceiros.
+A tabela a seguir lista os conectores de dados de terceiros disponíveis no Centro de conformidade do Microsoft 365. A tabela também resume as soluções de conformidade que você pode aplicar a dados de terceiros depois de importar e arquivar Microsoft 365. Consulte a [próxima seção para](#overview-of-compliance-solutions-that-support-third-party-data) obter uma descrição mais detalhada de cada solução de conformidade e como ela pode beneficiar dados de terceiros.
 
 > [!TIP]
 > Clique no link na coluna **Dados** de terceiros para seguir as instruções passo a passo para criar um conector para esse tipo de dados.
@@ -69,8 +69,11 @@ A tabela a seguir lista os conectores de dados de terceiros disponíveis no Micr
 |[Reuters FX <sup>2</sup>](archive-reutersfx-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 |[Salesforce Chatter <sup>2</sup>](archive-salesforcechatter-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|||
 |[ServiceNow <sup>2</sup>](archive-servicenow-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|||
+|[Sinal <sup>1</sup>](archive-signal-archiver-data.md)     |![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
+|[Skype for Business <sup>2</sup>](archive-skypeforbusiness-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 |[Descoberta eDiscovery do Slack <sup>2</sup>](archive-slack-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 |[Orquestra <sup>2</sup>](archive-symphony-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
+|[Telegram <sup>1</sup>](archive-telegram-archiver-data.md)     |![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 |[Rede TELUS <sup>1</sup>](archive-telus-network-data.md)    |![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 |[Delimitado por texto <sup>2</sup>](archive-text-delimited-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|||
 |[Twitter](archive-twitter-data-with-sample-connector.md)     |![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|||
@@ -135,10 +138,10 @@ Como mencionado anteriormente, os conectores de dados fornecidos pelo TeleMessag
 |:---------|:---------|:---------|:---------|
 |Android Archiver | Sim | Não | Não |
 |AT&T SMS/MMS Network Archiver | Sim | Não | Não |
-|Bell SMS/MMS Network Archiver | Sim | Não | Não |
+|Carregador de rede SMS/MMS | Sim | Não | Não |
 |Enterprise Arquivo mortor de números | Sim | Não | Não |
 |O2 SMS e o Arquivo Mortor de Rede de Voz | Sim         | Não | Não |
-|TELUS SMS de Rede | Sim | Não | Não |
+|Arquivo mortor de rede SMS TELUS | Sim | Não | Não |
 |Verizon SMS/MMS Network Archiver | Sim | Não | Não |
 |Arquivador do WeChat | Sim | Não | Não |
 |WhatsApp Archiver | Sim | Não | Não |

@@ -20,12 +20,12 @@ ms.collection:
 description: Os administradores podem aprender a elevar as configurações de segurança e usar relatórios, alertas e investigações para contas prioritárias em suas Microsoft 365 organizações.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 73be3832b2391b6f47e4c796daf76c884a17dcdd
-ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
+ms.openlocfilehash: e7617dd5af6a7e3b66fb33818208f01c8d8a338e
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51632216"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055257"
 ---
 # <a name="security-recommendations-for-priority-accounts-in-microsoft-365"></a>Recomendações de segurança para contas prioritárias Microsoft 365
 
@@ -36,6 +36,8 @@ Para invasores, ataques de phishing comuns que lançam uma rede aleatória para 
 Microsoft 365 e o Microsoft Defender para Office 365 contêm vários recursos importantes que fornecem camadas adicionais de segurança para suas contas de prioridade. Este artigo descreve esses recursos e como usá-los.
 
 ![Resumo das recomendações de segurança no formato de ícone](../../media/security-recommendations-for-priority-users.png)
+
+<br>
 
 ****
 
@@ -61,7 +63,7 @@ Para obter instruções, consulte [a Etapa 1. Aumente a segurança de login para
 
 - Você pode [](/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) usar [](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) políticas de autenticação e Regras de Acesso para Cliente no Exchange Online para bloquear ou permitir protocolos básicos de autenticação e autenticação herdada, como POP3, IMAP4 e SMTP autenticado para usuários específicos.
 
-- Você pode desabilitar o acesso POP3 e IMAP4 em caixas de correio individuais. Você pode desabilitar o SMTP autenticado no nível organizacional e habilita-lo em caixas de correio específicas que ainda o exigem. Para obter instruções, consulte os seguintes tópicos:
+- Você pode desabilitar o acesso POP3 e IMAP4 em caixas de correio individuais. Você pode desabilitar o SMTP autenticado no nível organizacional e habilita-lo em caixas de correio específicas que ainda o exigem. Para obter instruções, consulte os seguintes artigos:
   - [Habilitar ou desabilitar o acesso POP3 ou IMAP4 para um usuário](/exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)
   - [Habilitar ou desabilitar o envio SMTP do cliente autenticado (SMTP AUTH)](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission)
 
@@ -85,7 +87,7 @@ As marcas de usuário no Microsoft Defender para Office 365 Plano 2 (como parte 
 
 **As contas de** prioridade são um tipo de marca de usuário interna (conhecida como marca do sistema _)_ que você pode usar para identificar incidentes e alertas que envolvem contas de prioridade. Para obter mais informações sobre **contas de prioridade,** consulte [Manage and monitor priority accounts](../../admin/setup/priority-accounts.md).
 
-Você também pode criar marcas personalizadas para identificar e classificar ainda mais suas contas de prioridade. Para obter mais informações, consulte [Marcas de usuário](user-tags.md). Observe que você pode gerenciar contas **de prioridade** (marcas do sistema) na mesma interface que as marcas de usuário personalizadas.
+Você também pode criar marcas personalizadas para identificar e classificar ainda mais suas contas de prioridade. Para obter mais informações, consulte [Marcas de usuário](user-tags.md). Você pode gerenciar **contas de prioridade** (marcas do sistema) na mesma interface que as marcas de usuário personalizadas.
 
 ## <a name="monitor-priority-accounts-in-alerts-reports-and-detections"></a>Monitorar contas de prioridade em alertas, relatórios e detecções
 
@@ -97,8 +99,8 @@ Depois de proteger e marcar seus usuários prioritários, você pode usar os rel
 
 |Recurso|Descrição|
 |---|---|
-|Alertas|As marcas de usuário dos usuários afetados estão visíveis e disponíveis como filtros na página Exibir **alertas** no Centro de Conformidade & Segurança. Para obter mais informações, consulte [Exibindo alertas](../../compliance/alert-policies.md#viewing-alerts).|
-|Explorador de Ameaças <p> Detecções em tempo real|No **Explorador** de Ameaças (Microsoft Defender para Office 365 Plano 2) ou detecções em tempo **real** (Microsoft Defender para Office 365 Plano 1), as marcas de usuário ficam visíveis na exibição de grade email e no submenu Detalhes de email. As marcas de usuário também estão disponíveis como uma propriedade filtável. Para obter mais informações, consulte  [Tags in Threat Explorer](threat-explorer.md#tags-in-threat-explorer).|
+|Alertas|As marcas de usuário dos usuários afetados estão visíveis e disponíveis como filtros na página **Alertas** no Microsoft 365 Defender portal. Para obter mais informações, consulte [Exibindo alertas](../../compliance/alert-policies.md#viewing-alerts).|
+|Explorador <p> Detecções em tempo real|No **Explorer** (Defender para Office 365 Plano 2) ou detecções em tempo **real** (Defender para Office 365 Plano 1), as marcas de usuário ficam visíveis na exibição de grade email e no submenu Detalhes de email. As marcas de usuário também estão disponíveis como uma propriedade filtável. Para obter mais informações, consulte  [Tags in Explorer](threat-explorer.md#tags-in-threat-explorer).|
 |Modos de Exibição de Campanha|As marcas de usuário são uma das muitas propriedades filtáveis em Exibições de Campanha no Microsoft Defender para Office 365 Plano 2. Para obter mais informações, consulte [Exibições de Campanha.](campaigns.md)|
 |Relatório de status de proteção contra ameaças|Em praticamente todas as exibições e tabelas de detalhes no relatório de **status** de proteção contra ameaças, você pode filtrar os resultados por **contas de prioridade.** Para obter mais informações, consulte [Relatório de status de proteção contra ameaças.](view-email-security-reports.md#threat-protection-status-report)|
 |Relatório de problemas de email para contas prioritárias|O **relatório de** problemas de email para contas de prioridade no centro de administração Exchange (EAC) contém informações sobre mensagens não entregues e atrasadas para contas de **prioridade.** Para obter mais informações, consulte [Email issues for priority accounts report](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report).|
@@ -119,7 +121,7 @@ Microsoft 365 fornece os seguintes recursos para ajudar a informar os usuários 
 |Conceito|Recursos|Descrição|
 |---|---|---|
 |Microsoft 365|[Caminhos de aprendizado personalizáveis](/office365/customlearning/)|Esses recursos podem ajudá-lo a montar um treinamento para usuários em sua organização.|
-|Segurança do Microsoft 365|[Módulo de aprendizagem: proteja sua organização com segurança interna e inteligente de Microsoft 365](/learn/modules/security-with-microsoft-365)|Esse módulo permite descrever como os recursos de segurança Microsoft 365 funcionam em conjunto e articular os benefícios desses recursos de segurança.|
+|Segurança do Microsoft 365|[Learning módulo: proteja sua organização com segurança interna e inteligente de Microsoft 365](/learn/modules/security-with-microsoft-365)|Esse módulo permite descrever como os recursos de segurança Microsoft 365 funcionam em conjunto e articular os benefícios desses recursos de segurança.|
 |Autenticação multifator|[Verificação em duas etapas: Qual é a página de verificação adicional?](/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time)|Este artigo ajuda os usuários finais a entender o que é a autenticação multifatar e por que ela está sendo usada em sua organização.|
 |Treinamento de simulação de ataque|[Começar a usar o Treinamento de simulação de ataque](attack-simulation-training-get-started.md)|O treinamento de simulação de ataque no Microsoft Defender para Office 365 Plano 2 permite ao administrador configurar, iniciar e acompanhar ataques de phishing simulados contra grupos específicos de usuários.|
 

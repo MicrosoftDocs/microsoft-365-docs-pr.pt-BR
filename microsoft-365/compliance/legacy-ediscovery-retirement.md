@@ -13,23 +13,23 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: In-Place eDiscovery e In-Place Hold (e os cmdlets correspondentes do PowerShell) no Exchange Online serão retirados no primeiro semestre de 2020. O Search-Mailbox cmdlet e Advanced eDiscovery v1.0 também estão sendo retirados no mesmo período.
-ms.openlocfilehash: c5f1ddb4c817ebc316c2e2efdba9a4bc605eb5a2
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 97be285ae348b018866e3f91f92be523b03e6616
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842657"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055068"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Baixa das ferramentas de Descoberta Eletrônica herdadas
 
 > [!IMPORTANT]
-> A Microsoft está avaliando a situação de saúde pública e entendemos o impacto que isso está tendo em nossos clientes. Queremos ser parceiros fortes e cidadãos globais responsáveis. Para aliviar uma das muitas cargas que você está enfrentando, vamos atrasar a reforma agendada para as ferramentas de Descoberta eDiscovery herdadas descritas neste artigo por três meses. **As datas de aposentadoria atualizadas são refletidas abaixo.**
+> A funcionalidade das ferramentas de Descoberta Online herdadas descritas neste artigo foi removida do serviço Microsoft 365 ou ainda está disponível, mas não tem mais suporte. Qualquer funcionalidade que ainda esteja disponível pode ser removida sem aviso prévio. Se você ainda estiver usando qualquer uma dessas ferramentas herdado, considere migrar para as ferramentas de Descoberta e no Centro de conformidade do Microsoft 365 ou uma das alternativas descritas neste artigo.
 
-Ao longo dos anos, a Microsoft forneceu ferramentas de Descoberta Eletrônico que permitem que você pesquise, visualize e exporte conteúdo de email de Exchange Online. No entanto, essas ferramentas não oferecem mais uma maneira eficaz de pesquisar conteúdo não Exchange em outros serviços Microsoft 365, como o SharePoint Online e Microsoft 365 Groups. Para resolver isso, a Microsoft oferece outras ferramentas de Descoberta Eletrônico que ajudam você a pesquisar uma ampla variedade de Microsoft 365 conteúdo. E estamos trabalhando duro para incorporar a funcionalidade de Descoberta eDiscovery mais atual e poderosa no centro de conformidade [Microsoft 365 de conformidade.](https://compliance.microsoft.com) Isso permite que as organizações respondam a solicitações legais, internas e de outros documentos para conteúdo em vários serviços Microsoft 365, incluindo Exchange Online.
+Ao longo dos anos, a Microsoft forneceu ferramentas de Descoberta Eletrônico que permitem que você pesquise, visualize e exporte conteúdo de email de Exchange Online. No entanto, essas ferramentas não oferecem mais uma maneira eficaz de pesquisar conteúdo não Exchange em outros serviços Microsoft 365, como o SharePoint Online e Microsoft 365 Groups. Para resolver isso, a Microsoft oferece outras ferramentas de Descoberta Eletrônico que ajudam você a pesquisar uma ampla variedade de Microsoft 365 conteúdo. E estamos trabalhando duro para incorporar a funcionalidade de Descoberta eDiscovery mais atual e poderosa no [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com). Isso permite que as organizações respondam a solicitações legais, internas e de outros documentos para conteúdo em vários serviços Microsoft 365, incluindo Exchange Online.
 
-Como resultado dessa nova e aprimorada funcionalidade de Descoberta Eletrônico no centro de conformidade do Microsoft 365, estamos retirando os seguintes recursos e funcionalidades relacionados à Descoberta Eletrônico relacionados à pesquisa de conteúdo de email no Exchange Online e Microsoft 365:
+Como resultado dessa nova e aprimorada funcionalidade de Descoberta Eletrônico no Centro de conformidade do Microsoft 365, estamos retirando os seguintes recursos e funcionalidades relacionados à Descoberta Eletrônico relacionados à pesquisa de conteúdo de email no Exchange Online e Microsoft 365:
 
-- [Descoberta Eletrônica In-loco](/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) [e Retém in-locar](/exchange/security-and-compliance/create-or-remove-in-place-holds) no Exchange de administração.
+- [Descoberta In-loco e](/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) retém [in-loco](/exchange/security-and-compliance/create-or-remove-in-place-holds) no Exchange de administração.
 
 - Os cmdlets do Exchange Online PowerShell que suportam In-Place Descoberta Eletrônica e In-Place Retém (esses cmdlets são identificados coletivamente como **-MailboxSearch* cmdlets). Isso inclui os seguintes cmdlets:
 
@@ -67,7 +67,7 @@ As seções a seguir neste artigo fornecem orientações sobre cada recurso que 
 
 De acordo com o comunicado original de 1º de julho de 2017, In-Place funcionalidade & de Descoberta & no centro de administração do Exchange (EAC) está sendo retirada. A In-Place página & de Descoberta & no EAC permitiu que você pesquisa, mantenha e exporte conteúdo de Exchange Online. In-Place eDiscovery também permite copiar resultados de pesquisa para uma caixa de correio de descoberta para que você ou outros gerentes de Descoberta Eletrônico pudessem revisar o conteúdo e torná-lo disponível para solicitações legais, regulatórias e públicas.
 
-Como todos esses recursos (exceto a cópia de resultados de pesquisa para uma caixa de correio de descoberta) agora estão disponíveis na pesquisa de conteúdo, nas ferramentas de Descoberta e Descoberta Advanced eDiscovery no centro de conformidade do Microsoft 365 (com funcionalidade aprimorada, confiabilidade e suporte para uma ampla variedade de serviços Microsoft 365), recomendamos que você comece [a](./microsoft-365-compliance-center.md) usar essas ferramentas assim que possível. Para ajudá-lo na transição para essas outras ferramentas de Descoberta In-Place, a tabela a seguir lista as ferramentas que você pode usar em vez de In-Place Descoberta In-Place.
+Como todos esses recursos (exceto a cópia dos resultados da pesquisa para uma caixa de correio de descoberta) agora estão disponíveis na pesquisa de conteúdo, nas ferramentas de Descoberta De Advanced eDiscovery no Centro de conformidade do Microsoft 365 (com funcionalidade aprimorada, confiabilidade e suporte para uma ampla variedade de serviços Microsoft 365), recomendamos que você comece [a](./microsoft-365-compliance-center.md) usar essas ferramentas assim que possível. Para ajudá-lo na transição para essas outras ferramentas de Descoberta In-Place, a tabela a seguir lista as ferramentas que você pode usar em vez de In-Place Descoberta In-Place.
 
 ### <a name="scope-of-affected-organizations"></a>Escopo das organizações afetadas
 
@@ -100,7 +100,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <tbody>
 <tr class="odd">
 <td>Pesquisar, exportar e manter em espera para fins legais</td>
-<td>Principais casos de Descoberta eDiscovery no Microsoft 365 de conformidade </td>
+<td>Principais casos de Descoberta Centro de conformidade do Microsoft 365 </td>
 <td><p>Usar os recursos dos principais casos de Descoberta eDiscovery fornece a paridade funcional para In-Place Descoberta In-Place e In-Place Holds. Isso inclui:</p>
 <ul>
 <li>
@@ -115,7 +115,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 </tr>
 <tr class="even">
 <td>Retenção para fins de retenção</td>
-<td>Políticas de retenção no Microsoft 365 de conformidade</td>
+<td>Políticas de retenção no Centro de conformidade do Microsoft 365</td>
 <td><p>Você pode usar políticas de retenção para reter conteúdo e, se desejado, excluí-lo após o período de retenção expirar. Outros recursos incluem:</p>
 <ul>
 <li>
@@ -141,7 +141,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <tr class=even>
   <td>Copiar mensagens de uma caixa de correio para uma caixa de correio diferente</td>
   <td><a href="/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Atribuir permissões a uma caixa de correio</a></td>
-  <td>Para dar a uma pessoa acesso ao email de outro usuário (como quando um funcionário sai da sua organização e você precisa dar a outra pessoa acesso ao email do ex-funcionário), recomendamos que você atribua permissões a essa pessoa para acessar a caixa de correio do ex-funcionário. Portanto, em vez de copiar itens de caixa de correio para outra caixa de correio de usuário ou uma caixa de correio compartilhada, basta atribuir permissões de usuário para acessar a caixa de correio de origem.</td>
+  <td>Para dar a uma pessoa acesso ao email de outro usuário (como quando um funcionário sai da sua organização e você precisa dar a outra pessoa acesso ao email do ex-funcionário), recomendamos que você atribua permissões a essa pessoa para acessar a caixa de correio do ex-funcionário. Portanto, em vez de copiar itens de caixa de correio para outra caixa de correio de usuário ou uma caixa de correio compartilhada, basta atribuir a um usuário as permissões necessárias para acessar a caixa de correio de origem.</td>
   
   </tr>
 <tr class="odd">
@@ -160,17 +160,17 @@ Há duas maneiras de replicar essa funcionalidade hoje. O primeiro é usar conju
 
 **Como posso controlar quais locais de conteúdo (como caixas de correio ou sites) que podem ser pesquisados por um gerente de Descoberta Eletrônico usando as novas ferramentas?**
 
-O Microsoft 365 de conformidade também [usa](set-up-compliance-boundaries.md) limites de conformidade para controlar quais locais de conteúdo um Gerenciador de Descobertas E pode pesquisar. Os limites de conformidade são úteis em entidades governamentais que precisam permanecer dentro dos limites da agência ou de corporações multi-nacionais necessárias para respeitar os tabuleiros geográficos.
+O Centro de conformidade do Microsoft 365 também usa limites [de conformidade](set-up-compliance-boundaries.md) para controlar quais locais de conteúdo um Gerenciador de Descobertas E pode pesquisar. Os limites de conformidade são úteis em entidades governamentais que precisam permanecer dentro dos limites da agência ou de corporações multi-nacionais necessárias para respeitar os tabuleiros geográficos.
 
-**Como posso mover minhas pesquisas atuais e retém para o centro Microsoft 365 conformidade?**
+**Como posso mover minhas pesquisas atuais e retém para o Centro de conformidade do Microsoft 365?**
 
-É possível migrar pesquisas In-Place descoberta e retês do EAC usando o PowerShell. Para obter instruções, [consulte Migrate searches and holds from the EAC to the Microsoft 365 compliance center](./migrate-legacy-ediscovery-searches-and-holds.md).
+É possível migrar pesquisas In-Place descoberta e retês do EAC usando o PowerShell. Para obter instruções, [consulte Migrar pesquisas e retês do EAC para o Centro de conformidade do Microsoft 365](./migrate-legacy-ediscovery-searches-and-holds.md).
 
 ## <a name="-mailboxsearch-cmdlets"></a>\*-MailboxSearch cmdlets
 
 De acordo com o aviso original anunciado em 1º de julho de 2017 no centro de administração do In-Place Exchange, a funcionalidade & De Descoberta Eletrônica & e os cmdlets **\* -MailboxSearch** correspondentes estão sendo retirados. Esses cmdlets fornecem aos usuários a capacidade de pesquisar, segurar e exportar conteúdo de caixa de correio para solicitações legais, regulamentadas e públicas.
 
-Como esses recursos agora estão disponíveis no centro de conformidade do [<span class="underline">Microsoft 365</span>](./microsoft-365-compliance-center.md) e no centro de conformidade do Office 365 de segurança & do PowerShell com melhor desempenho e escalabilidade, você deve usar esses cmdlets aprimorados. Esses cmdlets incluem [<span class="underline"> \* -ComplianceCase</span>](/powershell/module/exchange/get-compliancecase), [<span class="underline"> \* -ComplianceSearch,</span>](/powershell/module/exchange/get-compliancesearch) [<span class="underline"> \* -CaseHoldPolicy,</span>](/powershell/module/exchange/get-caseholdpolicy) [<span class="underline"> \* -CaseHoldRule</span>](/powershell/module/exchange/get-caseholdrule)e [<span class="underline"> \* -ComplianceSearchAction</span>](/powershell/module/exchange/get-compliancesearchaction).
+Como esses recursos agora estão [<span class="underline"></span>](./microsoft-365-compliance-center.md) disponíveis no Centro de Conformidade Centro de conformidade do Microsoft 365 e Office 365 Office 365 Security & Com melhor desempenho e escalabilidade, você deve usar esses cmdlets aprimorados. Esses cmdlets incluem [<span class="underline"> \* -ComplianceCase</span>](/powershell/module/exchange/get-compliancecase), [<span class="underline"> \* -ComplianceSearch,</span>](/powershell/module/exchange/get-compliancesearch) [<span class="underline"> \* -CaseHoldPolicy,</span>](/powershell/module/exchange/get-caseholdpolicy) [<span class="underline"> \* -CaseHoldRule</span>](/powershell/module/exchange/get-caseholdrule)e [<span class="underline"> \* -ComplianceSearchAction</span>](/powershell/module/exchange/get-compliancesearchaction).
 
 ### <a name="scope-of-affected-organizations"></a>Escopo das organizações afetadas
 
@@ -207,9 +207,9 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <p><a href="/powershell/module/exchange/get-compliancesearchaction"><span class="underline">*-ComplianceSearchAction</span></a></p>
 <p><a href="/powershell/module/exchange/get-compliancecase"><span class="underline">*-ComplianceCase</span></a></p>
 <p> </p></td>
-<td><p>Os cmdlets ComplianceSearch e ComplianceSearchAction trabalham juntos para ajudá-lo a pesquisar e exportar conteúdo. Você pode criar uma nova pesquisa e exibir a estimativa de pesquisa usando os cmdlets <strong>New-</strong>, <strong>Get-</strong>e <strong>Start-ComplianceSearch.</strong> Em seguida, você pode usar o cmdlet <strong>New-ComplianceSearchAction</strong> para exportar os resultados da pesquisa. Você ainda terá que usar a ferramenta principal de Descoberta Digital no centro de conformidade Microsoft 365 para baixar esses resultados de pesquisa para o computador local.</p>
+<td><p>Os cmdlets ComplianceSearch e ComplianceSearchAction trabalham juntos para ajudá-lo a pesquisar e exportar conteúdo. Você pode criar uma nova pesquisa e exibir a estimativa de pesquisa usando os cmdlets <strong>New-</strong>, <strong>Get-</strong>e <strong>Start-ComplianceSearch.</strong> Em seguida, você pode usar o cmdlet <strong>New-ComplianceSearchAction</strong> para exportar os resultados da pesquisa. Você ainda terá que usar a ferramenta principal de Descoberta Online no Centro de conformidade do Microsoft 365 baixar esses resultados de pesquisa para o computador local.</p>
 <p>
-<p><strong>Observação:</strong> Se você usar esses cmdlets para criar pesquisas que não estão associadas a um caso de <strong></strong> Descoberta Eletrônica principal, essas pesquisas estarão localizadas na página de pesquisa de conteúdo no centro de conformidade do Microsoft 365.</p></td>
+<p><strong>Observação:</strong> Se você usar esses cmdlets para criar pesquisas que não estão associadas a um caso principal <strong></strong> de Descoberta Eletrônica, essas pesquisas estarão localizadas na página de pesquisa de conteúdo no Centro de conformidade do Microsoft 365.</p></td>
 </tr>
 <tr class="even">
 <td>Manter conteúdo em uma caixa de correio</td>
@@ -217,7 +217,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <p><a href="/powershell/module/exchange/get-caseholdrule"><span class="underline">*-CaseHoldRule</span></a></p>
 <p><a href="/powershell/module/exchange/get-compliancecase"><span class="underline">*-ComplianceCase</span></a></p>
 <p> </p></td>
-<td><p>Os reteres no Microsoft 365 de conformidade devem estar associados a um ComplianceCase. Primeiro, crie o caso de conformidade e crie um CaseHoldPolicy e um CaseHoldRule.</p>
+<td><p>Retém no Centro de conformidade do Microsoft 365 deve ser associado a um ComplianceCase. Primeiro, crie o caso de conformidade e crie um CaseHoldPolicy e um CaseHoldRule.</p>
 <p><strong>Observação:</strong> Criar um CaseHoldPolicy sem criar CaseHoldRule renderizará a cisão inoperável até que CaseHoldRule seja criado e associado ao CaseHoldPolicy. Consulte a documentação do cmdlet para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
@@ -241,9 +241,9 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 
 As [<span class="underline">APIs</span>](https://developer.microsoft.com/en-us/graph) do Microsoft Graph fornecem vários métodos para extrair dados para análise e outras finalidades muito mais resilientes e escalonáveis do que o uso dos cmdlets **\* -MailboxSearch.**
 
-**Como posso migrar minhas pesquisas e retê-Microsoft 365 de conformidade?**
+**Como posso migrar minhas pesquisas e retê-Centro de conformidade do Microsoft 365?**
 
-É possível migrar pesquisas In-Place descoberta e retês do centro de administração do Exchange usando um script do PowerShell. Para obter mais informações, [consulte Migrate legacy eDiscovery searches and holds to the Microsoft 365 compliance center](migrate-legacy-eDiscovery-searches-and-holds.md).
+É possível migrar pesquisas In-Place descoberta e retês do centro de administração do Exchange usando um script do PowerShell. Para obter mais informações, [consulte Migrate legacy eDiscovery searches and holds to the Centro de conformidade do Microsoft 365](migrate-legacy-eDiscovery-searches-and-holds.md).
 
 **Depois que os cmdlets são removidos, ainda posso remover ou recuperar pesquisas?**
 
@@ -285,12 +285,12 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <td><p><a href="/powershell/module/exchange/get-compliancesearch"><span class="underline">*-ComplianceSearch</span></a></p>
 <p><a href="/powershell/module/exchange/get-compliancesearchaction"><span class="underline">*-ComplianceSearchAction</span></a></p>
 <p></a></p></td>
-<td><p>Os cmdlets ComplianceSearch e ComplianceSearchAction trabalham juntos para ajudá-lo a pesquisar e exportar conteúdo. Você pode criar uma nova pesquisa e exibir a estimativa de pesquisa usando os cmdlets <strong>New-</strong>, <strong>Get-</strong>e <strong>Start-ComplianceSearch.</strong> Em seguida, você pode usar <strong>o comando New-ComplianceSearchAction -Export</strong> para exportar os resultados da pesquisa. Você ainda terá que usar a ferramenta principal de Descoberta Digital no centro de conformidade Microsoft 365 para baixar esses resultados de pesquisa para o computador local.</p></p>
+<td><p>Os cmdlets ComplianceSearch e ComplianceSearchAction trabalham juntos para ajudá-lo a pesquisar e exportar conteúdo. Você pode criar uma nova pesquisa e exibir a estimativa de pesquisa usando os cmdlets <strong>New-</strong>, <strong>Get-</strong>e <strong>Start-ComplianceSearch.</strong> Em seguida, você pode usar <strong>o comando New-ComplianceSearchAction -Export</strong> para exportar os resultados da pesquisa. Você ainda terá que usar a ferramenta principal de Descoberta Online no Centro de conformidade do Microsoft 365 baixar esses resultados de pesquisa para o computador local.</p></p>
 </td>
 </tr>
 <tr class="even">
 <td>Excluir emails em massa de uma caixa de correio</td>
-<td><p><a href="/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes?view=o365-worldwide"><span class="underline">Configurar uma política de arquivamento e exclusão para caixas de correio</span></a></p>
+<td><p><a href="/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes"><span class="underline">Configurar uma política de arquivamento e exclusão para caixas de correio</span></a></p>
 <p></p></td>
 <td><p>Os administradores podem criar uma política de arquivamento e exclusão que move automaticamente itens para a caixa de correio de arquivo morto de um usuário e exclui automaticamente itens da caixa de correio.</p>
 </td>
@@ -303,7 +303,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <tr class=odd>
   <td>Copiar mensagens de uma caixa de correio para uma caixa de correio diferente</td>
   <td><a href="/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Atribuir permissões a uma caixa de correio</a></td>
-  <td>Para dar a uma pessoa acesso ao email de outro usuário (como quando um funcionário sai da sua organização e você precisa dar a outra pessoa acesso ao email do ex-funcionário), recomendamos que você atribua permissões a essa pessoa para acessar a caixa de correio do ex-funcionário. Portanto, em vez de copiar itens de caixa de correio para outra caixa de correio de usuário ou uma caixa de correio compartilhada, basta atribuir permissões de usuário para acessar a caixa de correio de origem.</td>
+  <td>Para dar a uma pessoa acesso ao email de outro usuário (como quando um funcionário sai da sua organização e você precisa dar a outra pessoa acesso ao email do ex-funcionário), recomendamos que você atribua permissões a essa pessoa para acessar a caixa de correio do ex-funcionário. Portanto, em vez de copiar itens de caixa de correio para outra caixa de correio de usuário ou uma caixa de correio compartilhada, basta atribuir uma permissão de usuário para acessar a caixa de correio de origem.</td>
 </tr>
 <tr class=even>
   <td>Limpar mensagens de uma caixa de correio</td>
@@ -341,7 +341,7 @@ Essas operações na API Exchange Web Services são usadas pelo recurso & & Desc
 
 ## <a name="advanced-ediscovery-v10"></a>Advanced eDiscovery v1.0
 
-Advanced eDiscovery v1.0, que é a versão do Advanced eDiscovery disponível em um caso de Descoberta eDiscovery principal clicando em **Alternar** para Advanced eDiscovery , está sendo retirado. Sua funcionalidade foi substituída pela nova solução Advanced eDiscovery [no](./ediscovery.md) Microsoft 365 de conformidade.
+Advanced eDiscovery v1.0, que é a versão do Advanced eDiscovery disponível em um caso de Descoberta eDiscovery principal clicando em **Alternar** para Advanced eDiscovery , está sendo retirado. Sua funcionalidade foi substituída pela nova solução Advanced eDiscovery [no](./ediscovery.md) Centro de conformidade do Microsoft 365.
 
 Para determinar se sua organização está usando Advanced eDiscovery v1.0:
 
@@ -381,4 +381,4 @@ Neste momento, recomendamos que você comece a fazer a transição do fluxo de t
 
 ### <a name="alternative-tools"></a>Ferramentas alternativas
 
-A [Advanced eDiscovery no](./overview-ediscovery-20.md) centro Microsoft 365 conformidade.
+A [Advanced eDiscovery solução no](./overview-ediscovery-20.md) Centro de conformidade do Microsoft 365.

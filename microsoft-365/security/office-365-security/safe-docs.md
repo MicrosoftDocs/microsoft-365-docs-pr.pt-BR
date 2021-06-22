@@ -16,12 +16,12 @@ ms.collection:
 description: Saiba mais Cofre documentos em Microsoft 365 E5 ou Microsoft 365 E5 Security.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1186c7856d0b979c483cf6dd1c0a010ab582e2ce
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: 1049543b11ad14eeeed596367228f025cc8edd65
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644747"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054431"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Documentos Seguros no Microsoft 365 E5
 
@@ -32,17 +32,17 @@ ms.locfileid: "51644747"
 
 Cofre Documentos é um recurso no Microsoft 365 E5 ou Microsoft 365 E5 Security que usa o [Microsoft Defender para](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) Ponto de Extremidade para examinar documentos e arquivos abertos no [Protected View](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653) ou no Application [Guard](https://support.microsoft.com/topic/9e0fb9c2-ffad-43bf-8ba3-78f785fdba46)para Office .
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Cofre Os documentos estão disponíveis apenas para usuários com *Microsoft 365 E5* ou *Microsoft 365 E5 Security* licenças. Essas licenças não estão incluídas no Microsoft Defender para Office 365 planos.
 
 - Cofre Os documentos são suportados no Microsoft 365 Apps para Grandes Empresas (anteriormente conhecido como Office 365 ProPlus) versão 2004 ou posterior.
 
-- Abra o Centro de Conformidade e Segurança em <https://protection.office.com>. Para ir diretamente para a **página anexos Cofre ATP,** abra <https://protection.office.com/safeattachmentv2> .
+- Abra o portal do Microsoft 365 Defender em <https://security.microsoft.com>. Para ir diretamente para a página **Cofre Anexos,** use <https://security.microsoft.com/safeattachmentv2> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
 
-- Você precisa ter permissões em **Exchange Online** antes de fazer os procedimentos deste artigo:
+- Você precisa de permissões **Exchange Online** antes de poder fazer os procedimentos neste artigo:
   - Para configurar Cofre documentos, você precisa ser membro dos grupos de função Gerenciamento da Organização **ou** Administrador **de** Segurança.
   - Para acessar somente leitura Cofre configurações de Documentos, você precisa ser membro dos grupos de função Leitor **Global** ou **Leitor de** Segurança.
 
@@ -60,19 +60,19 @@ Para mantê-lo protegido, Cofre Documentos envia arquivos para a nuvem [do Micro
 
 Os arquivos enviados por Cofre Documentos não são mantidos no Defender além do tempo necessário para análise (normalmente, menos de 24 horas).
 
-## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Use o Centro de Conformidade & segurança para configurar Cofre Documentos
+## <a name="use-the-microsoft-365-defender-to-configure-safe-documents"></a>Usar o Microsoft 365 Defender para configurar Cofre Documentos
 
-1. No Centro de Conformidade & segurança, vá para **Política** de Gerenciamento de Ameaças ATP Cofre Anexos e clique em \>  \>  **Configurações Globais**.
+1. Abra o portal Microsoft 365 Defender e vá para **Email & políticas** de colaboração & regras Políticas de ameaças seção Cofre \>  \>  \>  \> **Anexos**.
 
-2. Nas **configurações globais** que aparecem, configure as seguintes configurações:
+2. Na página **Cofre Anexos,** clique em **Configurações globais**.
 
+3. Nas **configurações globais** que aparecem, configure as seguintes configurações:
    - **Ativar Cofre Documentos para** clientes Office : Mova a alternância para a direita para ativar o recurso: ![ Ativar a alternância ](../../media/scc-toggle-on.png) .
-
-   - Permitir que as pessoas cliquem em **Exibição** Protegida, mesmo que Cofre Documentos identifiquem o arquivo como mal-intencionado : recomendamos que você deixe essa opção desligada (deixe a alternância para a esquerda: Alternar para fora ![ ](../../media/scc-toggle-off.png) ).
+   - **Permitir que** as pessoas cliquem em Exibição Protegida, mesmo que Cofre Documentos identificaram o arquivo como mal-intencionado : recomendamos que você deixe essa opção desligada (deixe a alternância para a esquerda: Alternar para fora ![ ](../../media/scc-toggle-off.png) ).
 
    Quando concluir, clique em **Salvar**.
 
-   ![Cofre Configurações de documentos após selecionar configurações globais na página Cofre Anexos.](../../media/safe-docs.png)
+   ![Cofre Configurações de documentos após selecionar configurações globais na página Cofre Anexos.](../../media/safe-docs-global-settings.png)
 
 ### <a name="use-exchange-online-powershell-to-configure-safe-documents"></a>Usar Exchange Online PowerShell para configurar Cofre Documentos
 
@@ -95,7 +95,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-
 
 ### <a name="onboard-to-the-microsoft-defender-for-endpoint-service-to-enable-auditing-capabilities"></a>Integração ao Microsoft Defender for Endpoint Service para habilitar recursos de auditoria
 
-Para implantar o Microsoft Defender para Ponto de Extremidade, você precisa passar pelas várias fases de implantação. Após a integração, você pode configurar recursos de auditoria no Centro de Conformidade & Segurança.
+Para implantar o Microsoft Defender para Ponto de Extremidade, você precisa passar pelas várias fases de implantação. Após a integração, você pode configurar recursos de auditoria no Microsoft 365 Defender portal.
 
 Para saber mais, confira [Onboard to the Microsoft Defender for Endpoint service](/microsoft-365/security/defender-endpoint/onboarding). Se precisar de ajuda adicional, consulte Solução de problemas de integração do [Microsoft Defender para Ponto de Extremidade.](/microsoft-365/security/defender-endpoint/troubleshoot-onboarding)
 
@@ -103,7 +103,7 @@ Para saber mais, confira [Onboard to the Microsoft Defender for Endpoint service
 
 Para verificar se você habilitar e configurar Cofre Documentos, faça qualquer uma das seguintes etapas:
 
-- No Centro de Conformidade & Segurança,  vá para Política de Gerenciamento de Ameaças \>  \> **AtP Cofre Anexos,**   clique em Configurações Globais e verifique a opção Ativar documentos Cofre para clientes Office e Permitir que as pessoas cliquem em **Exibir** Protegido, mesmo que documentos Cofre identifiquem o arquivo como configurações mal-intencionadas.
+- No portal Microsoft 365 Defender, acesse Email **& collaboration** Policies & rules Políticas de ameaças Políticas de políticas de ameaças seção Cofre Configurações globais de \>  \>  \>  \> **anexos** e \>    verifique a opção Ativar documentos do Cofre para clientes Office e Permitir que as pessoas cliquem em Exibir Protegido mesmo que documentos Cofre identifiquem o arquivo como configurações mal-intencionadas.
 
 - Execute o seguinte comando no Exchange Online PowerShell e verifique os valores da propriedade:
 

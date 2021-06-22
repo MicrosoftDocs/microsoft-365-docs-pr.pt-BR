@@ -20,12 +20,12 @@ ms.collection:
 description: Os administradores podem aprender sobre o recurso Cofre anexos no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cc5fabf7b0bb4a649aeb7c4e09155037fc09e9f9
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 127d862d235abc4cd81f62679b97077c7a80bd70
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625000"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054386"
 ---
 # <a name="safe-attachments-in-microsoft-defender-for-office-365"></a>Cofre Anexos no Microsoft Defender para Office 365
 
@@ -56,7 +56,7 @@ A tabela a seguir descreve cenários para Cofre Anexos no Microsoft 365 e Office
 Cofre A verificação de anexos ocorre na mesma região onde seus Microsoft 365 de dados residem. Para obter mais informações sobre a geografia do datacenter, consulte [Where is your data located?](https://products.office.com/where-is-your-data-located?geo=All)
 
 > [!NOTE]
-> Os recursos a seguir estão localizados nas configurações globais das políticas Cofre Anexos no Centro de Conformidade & Segurança. No entanto, essas configurações estão habilitadas ou desabilitadas globalmente e não exigem políticas Cofre Anexos:
+> Os recursos a seguir estão localizados nas configurações globais das políticas Cofre Anexos no portal Microsoft 365 Defender. No entanto, essas configurações estão habilitadas ou desabilitadas globalmente e não exigem políticas Cofre Anexos:
 >
 > - [Cofre anexos para SharePoint, OneDrive e Microsoft Teams](mdo-for-spo-odb-and-teams.md).
 > - [Documentos Seguros no Microsoft 365 E5](safe-docs.md)
@@ -75,8 +75,8 @@ Esta seção descreve as configurações nas políticas Cofre Anexos:
   |---|---|---|
   |**Desabilitado**|Os anexos não são verificados por malware por Cofre Anexos. As mensagens ainda são verificados por malware pela [proteção anti-malware no EOP](anti-malware-protection.md).|Desativar a verificação para destinatários selecionados. <p> Impedir atrasos desnecessários no roteamento de emails internos. <p> **Essa opção não é recomendada para a maioria dos usuários. Você só deve usar essa opção para desativar Cofre verificação de anexos para destinatários que recebem apenas mensagens de destinatários confiáveis.**|
   |**Monitorar**|Entrega mensagens com anexos e rastreia o que acontece com malware detectado. <p> A entrega de mensagens seguras pode ser adiada devido Cofre verificação de Anexos.|Veja onde o malware detectado vai para sua organização.|
-  |**Bloquear**|Impede que mensagens com anexos de malware detectados seja entregue. <p> As mensagens são [colocadas em quarentena,](manage-quarantined-messages-and-files.md) onde apenas os administradores (não usuários finais) podem revisar, liberar ou excluir as mensagens. <p> Bloqueia automaticamente instâncias futuras das mensagens e anexos. <p> A entrega de mensagens seguras pode ser adiada devido Cofre verificação de Anexos.|Protege sua organização contra ataques repetidos usando os mesmos anexos de malware. <p> Esse é o valor padrão e o valor recomendado em Políticas de segurança predefinidas padrão [e estritas.](preset-security-policies.md)|
-  |**Replace**|Remove anexos de malware detectados. <p> Notifica os destinatários de que os anexos foram removidos. <p>  As mensagens são [colocadas em quarentena,](manage-quarantined-messages-and-files.md) onde apenas os administradores (não usuários finais) podem revisar, liberar ou excluir as mensagens. <p> A entrega de mensagens seguras pode ser adiada devido Cofre verificação de Anexos.|Aumente a visibilidade aos destinatários de que os anexos foram removidos devido a malware detectado.|
+  |**Bloquear**|Impede que mensagens com anexos de malware detectados seja entregue. <p> As mensagens são [colocadas em quarentena,](manage-quarantined-messages-and-files.md) onde apenas os administradores (não usuários) podem revisar, liberar ou excluir as mensagens. <p> Bloqueia automaticamente instâncias futuras das mensagens e anexos. <p> A entrega de mensagens seguras pode ser adiada devido Cofre verificação de Anexos.|Protege sua organização contra ataques repetidos usando os mesmos anexos de malware. <p> Esse é o valor padrão e o valor recomendado em Políticas de segurança predefinidas padrão [e estritas.](preset-security-policies.md)|
+  |**Replace**|Remove anexos de malware detectados. <p> Notifica os destinatários de que os anexos foram removidos. <p>  As mensagens são [colocadas em quarentena,](manage-quarantined-messages-and-files.md) onde apenas os administradores (não usuários) podem revisar, liberar ou excluir as mensagens. <p> A entrega de mensagens seguras pode ser adiada devido Cofre verificação de Anexos.|Aumente a visibilidade aos destinatários de que os anexos foram removidos devido a malware detectado.|
   |**Entrega Dinâmica**|Entrega mensagens imediatamente, mas substitui anexos por espaço reservados até que Cofre verificação de anexos seja concluída. <p> Para obter detalhes, consulte a [seção Entrega Dinâmica Cofre Políticas de Anexos](#dynamic-delivery-in-safe-attachments-policies) posteriormente neste artigo.|Evite atrasos de mensagens ao proteger destinatários de arquivos mal-intencionados. <p> Permitir que os destinatários visualizem anexos no modo seguro enquanto a verificação está ocorrendo.|
   |
 
@@ -104,7 +104,7 @@ Esta seção descreve as configurações nas políticas Cofre Anexos:
 
 A ação entrega dinâmica em Cofre de anexos procura eliminar quaisquer atrasos de entrega de email que possam ser causados pela verificação Cofre Anexos. O corpo da mensagem de email é entregue ao destinatário com um espaço reservado para cada anexo. O espaço reservado permanece até que o anexo seja considerado seguro e, em seguida, o anexo fica disponível para abrir ou baixar.
 
-Se um anexo for considerado mal-intencionado, a mensagem será colocada em quarentena. Somente os administradores (não usuários finais) podem revisar, liberar ou excluir mensagens que foram colocadas em quarentena Cofre verificação de anexos. Para obter mais informações, consulte [Manage quarantined messages and files as an admin](manage-quarantined-messages-and-files.md).
+Se um anexo for considerado mal-intencionado, a mensagem será colocada em quarentena. Somente os administradores (não usuários) podem revisar, liberar ou excluir mensagens que foram colocadas em quarentena Cofre verificação de anexos. Para obter mais informações, consulte [Manage quarantined messages and files as an admin](manage-quarantined-messages-and-files.md).
 
 A maioria dos PDFs e Office documentos podem ser visualizados no modo seguro enquanto Cofre verificação de anexos está em andamento. Se um anexo não for compatível com o visualizador de Entrega Dinâmica, os destinatários verão um espaço reservado para o anexo até que Cofre verificação de anexos seja concluída.
 

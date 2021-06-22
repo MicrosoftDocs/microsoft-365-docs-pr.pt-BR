@@ -12,12 +12,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Saiba como usar o Microsoft Teams para criar seu canal de gerenciamento de contratos usando uma solução Microsoft 365 contrato.
-ms.openlocfilehash: 073ef1651ea5470594bfce0ffce65e849f9e063a
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 099487279482385760e05d9b166ae80c665d931e
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841169"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054747"
 ---
 # <a name="step-2-use-microsoft-teams-to-create-your-contract-management-channel"></a>Etapa 2. Use Microsoft Teams para criar seu canal de gerenciamento de contratos
 
@@ -31,15 +31,16 @@ Quando sua organização configura uma solução de gerenciamento de contratos, 
 
      ![Guia Postagens.](../media/content-understanding/posts.png)
 
-- **Tenha um local para os membros ver contratos aprovados para saber quando eles podem ser enviados para pagamento.** Em Teams, você pode criar um canal **para** pagamento que lista todos os contratos que precisarão ser enviados ao pagamento. Você pode estender facilmente essa solução para gravar essas informações diretamente em um aplicativo financeiro de terceiros (por exemplo, Dynamics CRM).
+- **Tenha um local para os membros ver contratos aprovados para saber quando eles podem ser enviados para pagamento.** No SharePoint, você precisará criar uma  lista Para Pagamento e incluir colunas para **Client,**  **Contractor** e **Fee amount,** selecionando Uma única linha de texto como o tipo de coluna. Você precisará adicionar a lista **Para Pagamento** como uma guia Teams no canal Gerenciamento de Contratos, semelhante ao que você fará para a guia [ **Contratos.**](solution-manage-contracts-step2.md#attach-your-sharepoint-document-library-to-the-contracts-tab) A **guia Para Pagamento lista** todos os contratos que precisarão ser enviados para pagamento. Você pode estender facilmente essa solução para gravar essas informações diretamente em um aplicativo financeiro de terceiros (por exemplo, Dynamics CRM). 
+
 
 ## <a name="attach-your-sharepoint-document-library-to-the-contracts-tab"></a>Anexar sua SharePoint de documentos à guia Contratos
 
-Depois de criar uma guia **Contratos** em seu canal de Gerenciamento de Contratos, você precisará anexar sua SharePoint [de documentos a ela.](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b) A SharePoint de documentos que você deseja anexar é a que você aplicou seu modelo de entendimento de documento SharePoint Syntex na seção anterior.
+Depois de criar uma guia **Contratos** em seu canal de Gerenciamento de Contratos, você precisará anexar sua SharePoint [de documentos a ela.](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b) A SharePoint de documentos que você deseja anexar é a que você aplicou seu SharePoint Syntex de conhecimento de documentos na seção anterior.
 
 Depois de anexar a SharePoint de documentos, você poderá exibir quaisquer contratos confidenciais por meio de um modo de exibição de lista padrão.
 
-   ![Exibição de lista.](../media/content-understanding/list-view.png)
+   ![List view of SharePoint library.](../media/content-understanding/list-view.png)
 
 ## <a name="customize-your-contracts-tab-tile-view"></a>Personalizar o seu exibição de tile de tabulação Contratos
 
@@ -48,13 +49,13 @@ Depois de anexar a SharePoint de documentos, você poderá exibir quaisquer cont
 
 Enquanto Teams permite que você veja seus contratos em uma exibição de azulejo, talvez você queira personalizá-los para exibir os dados de contrato que você deseja tornar visíveis no cartão de contrato. Por exemplo, para a guia **Contratos,** é importante que os membros vejam o cliente, o contratado e o valor da taxa no cartão de contrato. Todos esses campos foram extraídos de cada contrato por meio do seu modelo SharePoint Syntex que foi aplicado à biblioteca de documentos. Você também deseja poder alterar a barra de header de azulejo para cores diferentes para cada status para que os membros possam ver facilmente onde o contrato está no processo de aprovação. Por exemplo, todos os contratos aprovados terão uma barra de header azul.
 
-   ![Exibição de lista.](../media/content-understanding/tile.png)
+   ![Exibição de SharePoint de azulejos.](../media/content-understanding/tile.png)
 
 A exibição de azulejo personalizada que você usa exige que você faça alterações no arquivo JSON usado para formatar o exibição de azulejo atual. Você pode fazer referência ao arquivo JSON usado para criar o exibição de cartão olhando para o arquivo [ContractTileFormatting.json.](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) Nas seções a seguir, você verá seções específicas do código para recursos que estão nos cartões de contrato.
 
 Se você quiser ver ou fazer alterações no código JSON para seu exibição no canal Teams, no canal Teams, selecione o menu suspenso exibir e selecione **Formatar** o exibição atual .
 
-   ![formato json.](../media/content-understanding/jason-format.png)
+   ![Captura de tela do formato json no Teams canal.](../media/content-understanding/jason-format.png)
 
 ## <a name="card-size-and-shape"></a>Tamanho e forma do cartão
 

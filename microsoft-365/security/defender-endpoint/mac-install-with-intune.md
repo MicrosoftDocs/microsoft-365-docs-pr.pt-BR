@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5aeffdaff39c2f10dfa5164764bff38e99c00010
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 077411e5af5825efcf81d19ce8cb72ef850ae17b
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684214"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054322"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>Implantação baseada no Intune para o Microsoft Defender para Ponto de Extremidade no macOS
 
@@ -101,12 +101,12 @@ Este perfil contém informações de licença para o Microsoft Defender para Pon
     > [!div class="mx-imgBorder"]
     > ![Criação do Perfil de Configuração Personalizada](images/mdatp-6-systemconfigurationprofiles-1.png)
 
-1. Escolha um nome para o perfil, por exemplo, "MDATP integração para macOS". Clique em **Avançar**.
+1. Escolha um nome para o perfil, por exemplo, "Integração do MDE para macOS". Clique em **Avançar**.
 
     > [!div class="mx-imgBorder"]
     > ![Perfil de Configuração Personalizado - nome](images/mdatp-6-systemconfigurationprofiles-2.png)
 
-1. Escolha um nome para o nome do perfil de configuração, por exemplo, "MDATP integração para macOS".
+1. Escolha um nome para o nome do perfil de configuração, por exemplo, "Integração do MDE para macOS".
 1. Selecione o intune/WindowsDefenderATPOnboarding.xml que você extraiu do pacote de integração acima como arquivo de perfil de configuração.
 
     > [!div class="mx-imgBorder"]
@@ -172,7 +172,7 @@ Esse perfil é necessário para macOS 10.15 (Catalina) ou mais antigo. Ele será
 
 Baixe [**fulldisk.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) em [nosso repositório GitHub .](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
 
-Siga as instruções para [o blob onboarding](#onboarding-blob) acima, usando "MDATP Acesso total ao disco" como nome de perfil e baixado **fulldisk.mobileconfig** como nome de perfil de configuração.
+Siga as instruções para [o blob onboarding](#onboarding-blob) acima, usando "MDE Full Disk Access" como nome de perfil e baixado **fulldisk.mobileconfig** como nome de perfil de configuração.
 
 ### <a name="network-filter"></a>Filtro de Rede
 
@@ -180,7 +180,7 @@ Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Micr
 
 Baixe [**netfilter.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig) em [nosso repositório GitHub.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
 
-Siga as instruções para [o blob onboarding](#onboarding-blob) acima, usando "MDATP De rede" como nome de perfil e baixado **netfilter.mobileconfig** como nome de perfil de configuração.
+Siga as instruções para [o blob onboarding](#onboarding-blob) acima, usando "Filtro de Rede MDE" como nome de perfil e baixado **netfilter.mobileconfig** como nome de perfil de configuração.
 
 ### <a name="notifications"></a>Notificações
 
@@ -188,7 +188,7 @@ Esse perfil é usado para permitir que o Microsoft Defender para o Ponto de Extr
 
 Baixe [**notif.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/notif.mobileconfig) em [nosso repositório GitHub.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
 
-Siga as instruções para [o blob onboarding](#onboarding-blob) acima, usando "filtro de rede MDATP" como nome de perfil e baixado **notif.mobileconfig** como nome de perfil de configuração.
+Siga as instruções para [o blob onboarding](#onboarding-blob) acima, usando "Notificações MDE" como nome de perfil e baixado **notif.mobileconfig** como nome de perfil de configuração.
 
 ### <a name="view-status"></a>Exibir Status
 

@@ -1,5 +1,5 @@
 ---
-title: Política de envios de usuários
+title: Configurações de mensagem relatadas pelo usuário
 f1.keywords:
 - NOCSH
 ms.author: siosulli
@@ -17,14 +17,14 @@ ms.collection:
 description: Os administradores podem aprender a configurar uma caixa de correio para coletar emails de spam e phishing relatados pelos usuários.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f565a71b44d27076ea6ff0b25be5d5b3932913c9
-ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
+ms.openlocfilehash: e990721dacaa373b6782ee916f051e4753f3edfd
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/22/2021
-ms.locfileid: "53052982"
+ms.locfileid: "53055123"
 ---
-# <a name="user-submissions-policy"></a>Política de envios de usuários
+# <a name="user-reported-message-settings"></a>Configurações de mensagem relatadas pelo usuário
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -33,16 +33,16 @@ ms.locfileid: "53052982"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Em Microsoft 365 com caixas de correio Exchange Online, você pode especificar uma caixa de correio para receber mensagens que os usuários relatam como mal-intencionadas ou não mal-intencionadas. Quando os usuários enviam mensagens usando as várias opções de relatório, você pode usar essa caixa de correio para interceptar mensagens (enviar somente para a caixa de correio personalizada) ou receber cópias de mensagens (enviar para a caixa de correio personalizada e a Microsoft). Esse recurso funciona com as seguintes opções de relatório de mensagens:
+Em Microsoft 365 com caixas de correio Exchange Online, você pode especificar uma caixa de correio para receber mensagens que os usuários relatam como mal-intencionadas ou não mal-intencionadas. Quando os usuários relatam mensagens usando as várias opções de relatório, você pode usar essa caixa de correio para interceptar mensagens (enviar somente para a caixa de correio personalizada) ou receber cópias de mensagens (enviar para a caixa de correio personalizada e a Microsoft). Esse recurso funciona com as seguintes opções de relatório de mensagens:
 
 - [O complemento Mensagem de Relatório](enable-the-report-message-add-in.md)
 - [O add-in De relatório phishing](enable-the-report-phish-add-in.md)
 - [Ferramentas de relatórios de terceiros](#third-party-reporting-tools)
 
-A entrega de mensagens relatadas pelo usuário a uma caixa de correio personalizada, em vez de diretamente à Microsoft, permite que os administradores reportem mensagens de forma seletiva e manual à Microsoft usando [o envio de Administrador.](admin-submission.md)
+A entrega de mensagens relatadas pelo usuário a uma caixa de correio personalizada, em vez de diretamente à Microsoft, permite que os administradores reportem mensagens de forma seletiva e manual à Microsoft usando [o envio de Administrador.](admin-submission.md) Essas configurações eram anteriormente conhecidas como a política de envios do usuário.
 
   > [!NOTE]
-  > Se o relatório tiver sido [desabilitado Outlook na Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web), habilitar envios de usuários aqui substituirá essa configuração e permitirá que os usuários reportem mensagens Outlook na Web novamente.
+  > Se o relatório tiver sido desabilitado [Outlook na Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web), habilitar mensagens relatadas pelo usuário aqui substituirá essa configuração e permitirá que os usuários reportem mensagens Outlook na Web novamente.
 
 ## <a name="custom-mailbox-prerequisites"></a>Pré-requisitos de caixa de correio personalizados
 

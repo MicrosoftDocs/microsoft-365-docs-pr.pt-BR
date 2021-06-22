@@ -1,12 +1,12 @@
 ---
-title: Políticas de alerta nos centros de segurança e conformidade
+title: Microsoft 365 de alerta
 f1.keywords:
 - NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: reference
+ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -15,22 +15,21 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 ms.custom:
 - seo-marvel-apr2020
-description: Crie políticas de alerta no centro de conformidade e segurança no Office 365 e Microsoft 365 para monitorar possíveis ameaças, perda de dados e problemas de permissões.
-ms.openlocfilehash: 4bca7bb15900dbdd7caadb74ce7938b9483be03e
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+description: Crie políticas de alerta no Centro de conformidade do Microsoft 365 para monitorar possíveis ameaças, perda de dados e problemas de permissões.
+ms.openlocfilehash: a6f9b7dec1a147b9cd9b00b5516c77aea79437e9
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964723"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054691"
 ---
-# <a name="alert-policies-in-the-security-and-compliance-center"></a>Políticas de alerta no centro de conformidade e segurança
+# <a name="alert-policies-in-the-microsoft-365-compliance-center"></a>Políticas de alerta no Centro de conformidade do Microsoft 365
 
-Você pode usar as ferramentas de política de alerta e painel de alerta nos centros de segurança e conformidade do Microsoft 365 para criar políticas de alerta e, em seguida, exibir os alertas gerados quando os usuários executam atividades que corresponderem às condições de uma política de alerta. Há várias políticas de alerta padrão que ajudam você a monitorar atividades como a atribuição de privilégios de administrador no Exchange Online, ataques de malware, campanhas de phishing e níveis incomuns de exclusões de arquivo e compartilhamento externo.
+Você pode usar as ferramentas de política de alerta e painel de alerta no Centro de conformidade do Microsoft 365 para criar políticas de alerta e exibir os alertas gerados quando os usuários executam atividades que corresponderem às condições de uma política de alerta. Há várias políticas de alerta padrão que ajudam você a monitorar atividades como a atribuição de privilégios de administrador no Exchange Online, ataques de malware, campanhas de phishing e níveis incomuns de exclusões de arquivo e compartilhamento externo.
 
-As políticas de alerta permitem categorizar os alertas disparados por uma política, aplicar a política a todos os usuários em sua organização, definir um nível limite para quando um alerta for disparado e decidir se receberão notificações por email quando os alertas são disparados. Há também uma página Exibir **alertas** no centro de segurança e conformidade onde você pode exibir e filtrar alertas, definir um status de alerta para ajudá-lo a gerenciar alertas e, em seguida, descartar alertas depois de resolver ou resolver o incidente subjacente.
+As políticas de alerta permitem categorizar os alertas disparados por uma política, aplicar a política a todos os usuários em sua organização, definir um nível limite para quando um alerta for disparado e decidir se receberão notificações por email quando os alertas são disparados. Há também uma página **Alertas** no centro de conformidade onde você pode exibir e filtrar alertas, definir um status de alerta para ajudá-lo a gerenciar alertas e, em seguida, descartar alertas depois de resolver ou resolver o incidente subjacente.
 
 > [!NOTE]
 > As políticas de alerta estão disponíveis para organizações com uma assinatura Microsoft 365 Enterprise, Office 365 Enterprise ou Office 365 US Government E1/F1/G1, E3/F3/G3 ou E5/G5. A funcionalidade avançada só está disponível para organizações com uma assinatura E5/G5 ou para organizações que têm uma assinatura E1/F1/G1 ou E3/F3/G3 e um Microsoft Defender para Office 365 P2 ou um Microsoft 365 E5 Compliance ou uma assinatura de complemento de Descoberta e Auditoria e Descoberta E5. A funcionalidade que requer uma assinatura E5/G5 ou complemento é realçada neste tópico. Observe também que as políticas de alerta estão disponíveis nos ambientes Office 365 GCC, GCC Alta e DoD us.
@@ -39,48 +38,50 @@ As políticas de alerta permitem categorizar os alertas disparados por uma polí
 
 Aqui está uma visão geral rápida de como as políticas de alerta funcionam e os alertas que são disparados quando a atividade do usuário ou do administrador corresponde às condições de uma política de alerta.
 
-![Visão geral de como as políticas de alerta funcionam](../media/e02a622d-b429-448b-8107-dd1a4770b4e0.png)
+![Visão geral de como as políticas de alerta funcionam](../media/M365-AlertPolicies-Overview.png)
 
-1. Um administrador em sua organização cria, configura e ativas  uma política de alerta usando a página Políticas de alerta no centro de segurança e conformidade. Você também pode criar políticas de alerta usando o cmdlet [New-ProtectionAlert](/powershell/module/exchange/new-protectionalert) no Centro de Conformidade & Segurança do PowerShell.
+1. Um administrador em sua organização cria, configura e ativas uma política de alerta usando a página Políticas **de** alerta no centro de conformidade. Você também pode criar políticas de alerta usando o cmdlet [New-ProtectionAlert](/powershell/module/exchange/new-protectionalert) no Centro de Conformidade & Segurança do PowerShell.
 
-   Para criar políticas de alerta, você precisa receber a função Gerenciar Alertas ou a função Configuração da Organização no centro de segurança e conformidade.
+   Para criar políticas de alerta, você precisa receber a função Gerenciar Alertas ou a função Configuração da Organização no centro de conformidade.
 
    > [!NOTE]
    > Leva até 24 horas após a criação ou atualização de uma política de alerta antes que os alertas possam ser disparados pela política. Isso porque a política precisa ser sincronizada com o mecanismo de detecção de alerta.
 
 2. Um usuário executa uma atividade que corresponde às condições de uma política de alerta. No caso de ataques de malware, as mensagens de email infectados enviadas aos usuários em sua organização disparam um alerta.
 
-3. Microsoft 365 gera um alerta exibido na página Exibir **alertas** no Centro de Conformidade & Segurança. Além disso, se as notificações por email estão habilitadas para a política de alerta, a Microsoft envia uma notificação para uma lista de destinatários. Os alertas que um administrador ou outros usuários podem ver que na página Exibir alertas é determinado pelas funções atribuídas ao usuário. Para obter mais informações, consulte [RBAC permissions required to view alerts](#rbac-permissions-required-to-view-alerts).
+3. Microsoft 365 gera um alerta exibido na página **Alertas** no Centro de conformidade do Microsoft 365. Além disso, se as notificações por email estão habilitadas para a política de alerta, a Microsoft envia uma notificação para uma lista de destinatários. Os alertas que um administrador ou outros usuários podem ver que na página Alertas é determinado pelas funções atribuídas ao usuário. Para obter mais informações, consulte [RBAC permissions required to view alerts](#rbac-permissions-required-to-view-alerts).
 
-4. Um administrador gerencia alertas no centro de segurança e conformidade. Gerenciar alertas consiste em atribuir um status de alerta para ajudar a controlar e gerenciar qualquer investigação.
+4. Um administrador gerencia alertas no centro de conformidade. Gerenciar alertas consiste em atribuir um status de alerta para ajudar a controlar e gerenciar qualquer investigação.
 
 ## <a name="alert-policy-settings"></a>Configurações de política de alerta
 
-Uma política de alerta consiste em um conjunto de regras e condições que definem a atividade do usuário ou administrador que gera um alerta, uma lista de usuários que disparam o alerta se executarem a atividade e um limite que define quantas vezes a atividade precisa ocorrer antes que um alerta seja disparado. Você também categoriza a política e atribui a ela um nível de severidade. Essas duas configurações ajudam você a gerenciar políticas de alerta (e os alertas disparados quando as condições de política são acionadas) porque você pode filtrar essas configurações ao gerenciar políticas e exibir alertas no centro de segurança e conformidade. Por exemplo, você pode exibir alertas que corresponderem às condições da mesma categoria ou exibir alertas com o mesmo nível de gravidade.
+Uma política de alerta consiste em um conjunto de regras e condições que definem a atividade do usuário ou administrador que gera um alerta, uma lista de usuários que disparam o alerta se executarem a atividade e um limite que define quantas vezes a atividade precisa ocorrer antes que um alerta seja disparado. Você também categoriza a política e atribui a ela um nível de severidade. Essas duas configurações ajudam você a gerenciar políticas de alerta (e os alertas disparados quando as condições de política são corresponderem) porque você pode filtrar essas configurações ao gerenciar políticas e exibir alertas no centro de conformidade. Por exemplo, você pode exibir alertas que corresponderem às condições da mesma categoria ou exibir alertas com o mesmo nível de gravidade.
 
-Para exibir e criar políticas de alerta, vá para [https://protection.office.com](https://protection.office.com) e selecione Políticas de alerta **de** \> **alerta.**
+**Para exibir e criar políticas de alerta:**
 
-![No centro de segurança e conformidade, selecione Alertas e, em seguida, selecione Políticas de alerta para exibir e criar políticas de alerta](../media/09ebd451-8e84-44e1-aefc-63e70bba4d97.png)
+Vá para <https://compliance.microsoft.com> e selecione Políticas Políticas   >  **alerta** políticas  >  **de alerta.** Como alternativa, você pode ir diretamente para <https://compliance.microsoft.com/alertpolicies> .
+
+![No centro de conformidade, selecione Políticas e, em Alerta, selecione Políticas de alerta para exibir e criar políticas de alerta](../media/LaunchAlertPoliciesMCC.png)
 
 Uma política de alerta consiste nas seguintes configurações e condições.
 
-- Atividade que o alerta está acompanhando **-** Você cria uma política para rastrear uma atividade ou, em alguns casos, algumas atividades relacionadas, como compartilhar um arquivo com um usuário externo compartilhando-o, atribuindo permissões de acesso ou criando um link anônimo. Quando um usuário executa a atividade definida pela política, um alerta é disparado com base nas configurações de limite de alerta.
+- **Atividade que o alerta está rastreando**. Você cria uma política para rastrear uma atividade ou, em alguns casos, algumas atividades relacionadas, como compartilhar um arquivo com um usuário externo compartilhando-o, atribuindo permissões de acesso ou criando um link anônimo. Quando um usuário executa a atividade definida pela política, um alerta é disparado com base nas configurações de limite de alerta.
 
     > [!NOTE]
     > As atividades que você pode acompanhar dependem do plano de governo Office 365 Enterprise ou Office 365 da sua organização. Em geral, as atividades relacionadas a campanhas de malware e ataques de phishing exigem uma assinatura E5/G5 ou uma assinatura de complemento E1/F1/G1 ou E3/F3/G3 com uma assinatura de complemento do Plano 2 do [Defender](../security/office-365-security/defender-for-office-365.md) para Office 365.
 
-- **Condições de atividade** - Para a maioria das atividades, você pode definir condições adicionais que devem ser atendidas para disparar um alerta. As condições comuns incluem endereços IP (para que um alerta seja disparado quando o usuário executa a atividade em um computador com um endereço IP específico ou dentro de um intervalo de endereços IP), se um alerta é disparado se um usuário ou usuário específico executa essa atividade e se a atividade é executada em um nome de arquivo ou URL específico. Você também pode configurar uma condição que dispara um alerta quando a atividade é executada por qualquer usuário em sua organização. As condições disponíveis dependem da atividade selecionada.
+- **Condições de atividade**. Para a maioria das atividades, você pode definir condições adicionais que devem ser atendidas para disparar um alerta. As condições comuns incluem endereços IP (para que um alerta seja disparado quando o usuário executa a atividade em um computador com um endereço IP específico ou dentro de um intervalo de endereços IP), se um alerta é disparado se um usuário ou usuário específico executa essa atividade e se a atividade é executada em um nome de arquivo ou URL específico. Você também pode configurar uma condição que dispara um alerta quando a atividade é executada por qualquer usuário em sua organização. As condições disponíveis dependem da atividade selecionada.
 
-- **Quando o alerta é disparado** - Você pode configurar uma configuração que define com que frequência uma atividade pode ocorrer antes que um alerta seja disparado. Isso permite configurar uma política para gerar um alerta sempre que uma atividade corresponde às condições da política, quando um determinado limite é excedido ou quando a ocorrência da atividade que o alerta está rastreando se torna incomum para sua organização.
+- **Quando o alerta é disparado**. Você pode configurar uma configuração que define com que frequência uma atividade pode ocorrer antes que um alerta seja disparado. Isso permite configurar uma política para gerar um alerta sempre que uma atividade corresponde às condições da política, quando um determinado limite é excedido ou quando a ocorrência da atividade que o alerta está rastreando se torna incomum para sua organização.
 
-    ![Configurar como os alertas são disparados, com base em quando a atividade ocorre, um limite ou atividade incomum para sua organização](../media/97ee1ed2-e7a9-47a2-a980-5f9f63872c65.png)
+    ![Configurar como os alertas são disparados, com base em quando a atividade ocorre, um limite ou atividade incomum para sua organização](../media/howalertsaretriggered.png)
 
     Se você selecionar a configuração com base em atividades incomuns, a Microsoft estabelecerá um valor de linha de base que define a frequência normal da atividade selecionada. Leva até sete dias para estabelecer essa linha de base, durante o qual os alertas não serão gerados. Depois que a linha de base é estabelecida, um alerta é disparado quando a frequência da atividade controlada pela política de alerta excede muito o valor da linha de base. Para atividades relacionadas à auditoria (como atividades de arquivo e pasta), você pode estabelecer uma linha de base com base em um único usuário ou com base em todos os usuários em sua organização; para atividades relacionadas a malware, você pode estabelecer uma linha de base com base em uma única família de malware, um único destinatário ou todas as mensagens em sua organização.
 
     > [!NOTE]
     > A capacidade de configurar políticas de alerta com base em um limite ou com base em atividades incomuns requer uma assinatura E5/G5 ou uma assinatura E1/F1/G1 ou E3/F3/G3 com um Microsoft Defender para Office 365 P2, Microsoft 365 E5 Compliance ou Microsoft 365 assinatura de complemento descoberta e auditoria. As organizações com uma assinatura E1/F1/G1 e E3/F3/G3 só podem criar políticas de alerta em que um alerta é disparado sempre que uma atividade ocorre.
 
-- **Categoria de alerta** - Para ajudar a controlar e gerenciar os alertas gerados por uma política, você pode atribuir uma das seguintes categorias a uma política.
+- **Categoria de alerta**. Para ajudar a controlar e gerenciar os alertas gerados por uma política, você pode atribuir uma das seguintes categorias a uma política.
 
   - Prevenção contra perda de dados
 
@@ -94,20 +95,20 @@ Uma política de alerta consiste nas seguintes configurações e condições.
 
   - Outros
 
-  Quando ocorre uma atividade que corresponde às condições da política de alerta, o alerta gerado é marcado com a categoria definida nesta configuração. Isso permite rastrear e gerenciar alertas com a mesma configuração de categoria na página Exibir **alertas** no centro de segurança e conformidade porque você pode classificar e filtrar alertas com base na categoria.
+  Quando ocorre uma atividade que corresponde às condições da política de alerta, o alerta gerado é marcado com a categoria definida nesta configuração. Isso permite rastrear e gerenciar alertas com a mesma configuração de categoria na página **Alertas** no centro de conformidade porque você pode classificar e filtrar alertas com base na categoria.
 
-- **Gravidade do alerta** - Semelhante à categoria de alerta, você atribui um atributo de severidade (**Baixo,** **Médio,** **Alto** ou **Informacional**) às políticas de alerta. Assim como a categoria de alerta, quando ocorre uma atividade que corresponde às condições da política de alerta, o alerta gerado é marcado com o mesmo nível de gravidade definido para a política de alerta. Novamente, isso permite rastrear e gerenciar alertas com a mesma configuração de gravidade na página **Exibir alertas.** Por exemplo, você pode filtrar **a** lista de alertas para que apenas alertas com alta gravidade sejam exibidos.
+- **Gravidade do alerta**. Semelhante à categoria de alerta, você atribui um atributo de severidade (**Baixo,** **Médio,** **Alto** ou **Informacional**) às políticas de alerta. Assim como a categoria de alerta, quando ocorre uma atividade que corresponde às condições da política de alerta, o alerta gerado é marcado com o mesmo nível de gravidade definido para a política de alerta. Novamente, isso permite rastrear e gerenciar alertas com a mesma configuração de gravidade na página **Alertas.** Por exemplo, você pode filtrar **a** lista de alertas para que apenas alertas com alta gravidade sejam exibidos.
 
     > [!TIP]
     > Ao configurar uma política de alerta, considere atribuir uma severidade maior a atividades que podem resultar em consequências gravemente negativas, como a detecção de malware após a entrega aos usuários, a visualização de dados confidenciais ou confidenciais, o compartilhamento de dados com usuários externos ou outras atividades que podem resultar em perda de dados ou ameaças à segurança. Isso pode ajudá-lo a priorizar alertas e as ações que você toma para investigar e resolver as causas subjacentes.
 
-- **Notificações por** email - Você pode configurar a política para que as notificações de email sejam enviadas (ou não enviadas) para uma lista de usuários quando um alerta é disparado. Você também pode definir um limite de notificação diário para que, uma vez atingido o número máximo de notificações, não sejam enviadas mais notificações para o alerta durante esse dia. Além das notificações por email, você ou outros administradores podem exibir os alertas disparados por uma política na página **Exibir alertas.** Considere a habilitação de notificações por email para políticas de alerta de uma categoria específica ou que tenham uma configuração de gravidade mais alta.
+- **Notificações por email**. Você pode configurar a política para que as notificações de email sejam enviadas (ou não enviadas) para uma lista de usuários quando um alerta é disparado. Você também pode definir um limite de notificação diário para que, uma vez atingido o número máximo de notificações, não sejam enviadas mais notificações para o alerta durante esse dia. Além das notificações por email, você ou outros administradores podem exibir os alertas disparados por uma política na página **Alertas.** Considere a habilitação de notificações por email para políticas de alerta de uma categoria específica ou que tenham uma configuração de gravidade mais alta.
 
 ## <a name="default-alert-policies"></a>Políticas de alerta padrão
 
 A Microsoft fornece políticas de alerta internas que ajudam a identificar Exchange abuso de permissões de administrador, atividade de malware, possíveis ameaças externas e internas e riscos de governança de informações. Na página **Políticas de alerta,** os nomes dessas políticas internas estão em negrito e o tipo de política é definido como **System**. Essas políticas são ativas por padrão. Você pode desativar essas políticas (ou voltar a ativar), configurar uma lista de destinatários para o que enviar notificações por email e definir um limite de notificação diário. As outras configurações dessas políticas não podem ser editadas.
 
-A tabela a seguir lista e descreve as políticas de alerta padrão disponíveis e a categoria à que cada política é atribuída. A categoria é usada para determinar quais alertas um usuário pode exibir na página Exibir alertas. Para obter mais informações, consulte [RBAC permissions required to view alerts](#rbac-permissions-required-to-view-alerts).
+A tabela a seguir lista e descreve as políticas de alerta padrão disponíveis e a categoria à que cada política é atribuída. A categoria é usada para determinar quais alertas um usuário pode exibir na página Alertas. Para obter mais informações, consulte [RBAC permissions required to view alerts](#rbac-permissions-required-to-view-alerts).
 
 A tabela também indica o plano Office 365 Enterprise e Office 365 us government necessário para cada um deles. Algumas políticas de alerta padrão estarão disponíveis se sua organização tiver a assinatura de complemento apropriada, além de uma assinatura E1/F1/G1 ou E3/F3/G3.
 
@@ -143,7 +144,7 @@ A tabela também indica o plano Office 365 Enterprise e Office 365 us government
 |**Volume incomum de exclusão de arquivo**|Gera um alerta quando um número excepcionalmente grande de arquivos é excluído no SharePoint ou OneDrive em um curto período de tempo. Esta política tem uma **configuração de** gravidade média.|Governança de informações|E5/G5, Defender para Office 365 P2 ou Microsoft 365 E5 de complemento|
 |**Aumento incomum de emails relatados como pishing** |Gera um alerta quando há um aumento significativo no número de pessoas em sua organização usando o complemento Mensagem de Relatório no Outlook para relatar mensagens como emails de phishing. Esta política tem uma **configuração de** gravidade média. Para obter mais informações sobre esse add-in, consulte [Use the Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).|Gerenciamento de ameaças|E5/G5 ou Defender para Office 365 assinatura de complemento P2|
 |**Phishing de representação de usuário entregue na caixa de entrada/pasta**<sup>1,</sup><sup>2</sup>|Gera um alerta quando a Microsoft detecta que uma substituição de administrador ou usuário permitiu a entrega de uma mensagem de phishing de representação de usuário na caixa de entrada (ou outra pasta acessível pelo usuário) de uma caixa de correio. Exemplos de substituições incluem uma regra de caixa de entrada ou fluxo de emails que permite mensagens de um remetente ou domínio específico ou uma política anti-spam que permite mensagens de remetentes ou domínios específicos. Esta política tem uma **configuração de** gravidade média.|Gerenciamento de ameaças|E5/G5 ou Defender para Office 365 assinatura de complemento P2|
-|**Usuário impedido de enviar emails**|Gera um alerta quando alguém em sua organização é impedido de enviar emails de saída. Isso normalmente resulta quando uma conta é comprometida e  o usuário é listado na página Usuários Restritos no Centro de Conformidade & Segurança. (Para acessar esta página, acesse Gerenciamento de **ameaças > Revisão > Usuários Restritos**). Esta política tem uma **configuração de** alta gravidade. Para obter mais informações sobre usuários restritos, consulte Removendo um usuário, domínio ou endereço IP de uma lista de bloqueios após o envio [de emails de spam.](/office365/securitycompliance/removing-user-from-restricted-users-portal-after-spam)|Gerenciamento de ameaças|E1/F1/G1, E3/F3/G3 ou E5/G5|
+|**Usuário impedido de enviar emails**|Gera um alerta quando alguém em sua organização é impedido de enviar emails de saída. Isso normalmente resulta quando uma conta é comprometida e  o usuário é listado na página Usuários Restritos no Centro de conformidade do Microsoft 365. (Para acessar esta página, acesse Gerenciamento de **ameaças > Revisão > Usuários Restritos**). Esta política tem uma **configuração de** alta gravidade. Para obter mais informações sobre usuários restritos, consulte Removendo um usuário, domínio ou endereço IP de uma lista de bloqueios após o envio [de emails de spam.](/office365/securitycompliance/removing-user-from-restricted-users-portal-after-spam)|Gerenciamento de ameaças|E1/F1/G1, E3/F3/G3 ou E5/G5|
 |**Usuário impedido de compartilhar formulários e coletar respostas**|Gera um alerta quando alguém em sua organização foi impedido de compartilhar formulários e coletar respostas usando o Microsoft Forms devido ao comportamento de tentativa de phishing repetida detectada. Esta política tem uma **configuração de** alta gravidade.|Gerenciamento de ameaças|E1, E3/F3 ou E5|
 |||||
 
@@ -154,13 +155,13 @@ A atividade incomum monitorada por algumas das políticas internas baseia-se no 
 
 ## <a name="viewing-alerts"></a>Exibindo alertas
 
-Quando uma atividade executada pelos usuários em sua organização corresponde às configurações de uma política de alerta, um alerta é gerado e exibido na página Exibir **alertas** no centro de segurança e conformidade. Dependendo das configurações de uma política de alerta, uma notificação de email também é enviada para uma lista de usuários especificados quando um alerta é disparado. Para cada alerta, o painel na página Exibir **alertas** exibe o nome da política de alerta correspondente, a gravidade e a categoria do alerta (definido na política de alerta) e o número de vezes que ocorreu uma atividade que resultou no alerta sendo gerado. Esse valor se baseia na configuração de limite da política de alerta. O painel também mostra o status de cada alerta. Para obter mais informações sobre como usar a propriedade status para gerenciar alertas, consulte [Managing alerts](#managing-alerts).
+Quando uma atividade executada pelos usuários em sua organização corresponde às configurações de uma política de alerta, um alerta é gerado e exibido na página **Alertas** no centro de conformidade. Dependendo das configurações de uma política de alerta, uma notificação de email também é enviada para uma lista de usuários especificados quando um alerta é disparado. Para cada alerta, o painel na página **Alertas** exibe o nome da política de alerta correspondente, a gravidade e a categoria do alerta (definido na política de alerta) e o número de vezes que ocorreu uma atividade que resultou no alerta sendo gerado. Esse valor se baseia na configuração de limite da política de alerta. O painel também mostra o status de cada alerta. Para obter mais informações sobre como usar a propriedade status para gerenciar alertas, consulte [Managing alerts](#managing-alerts).
 
-Para exibir alertas, vá para [https://protection.office.com](https://protection.office.com) e selecione **Alertas** \> **Exibir alertas**.
+Para exibir alertas, vá para <https://compliance.microsoft.com> e selecione **Alertas**. Como alternativa, você pode ir diretamente para <https://compliance.microsoft.com/compliancealerts> .
 
-![Na segurança e conformidade, selecione Alertas e selecione Exibir alertas para exibir alertas](../media/ec5ea59b-bf61-459f-8b65-970ab4bb8bcc.png)
+![Na Centro de conformidade do Microsoft 365, selecione Alertas](../media/ViewAlertsMCC.png)
 
-Você pode usar os filtros a seguir para exibir um subconjunto de todos os alertas na página **Exibir alertas.**
+Você pode usar os filtros a seguir para exibir um subconjunto de todos os alertas na página **Alertas.**
 
 - **Status.** Use esse filtro para mostrar alertas atribuídos a um status específico. O status padrão é **Active**. Você ou outros administradores podem alterar o valor de status.
 
@@ -174,7 +175,7 @@ Você pode usar os filtros a seguir para exibir um subconjunto de todos os alert
 
 - **Marcas.** Use esse filtro para mostrar alertas de uma ou mais marcas de usuário. As marcas são refletidas com base em caixas de correio marcadas ou usuários que aparecem nos alertas. Consulte [Marcas de usuário Office 356 ATP](../security/office-365-security/user-tags.md) para saber mais.
 
-- **Source.** Use esse filtro para mostrar alertas disparados por políticas de alerta no centro de segurança e conformidade ou alertas disparados por políticas Office 365 Cloud App Security, ou ambos. Para obter mais informações sobre Office 365 Cloud App Security alertas, consulte [Exibindo Cloud App Security alertas](#viewing-cloud-app-security-alerts).
+- **Source.** Use esse filtro para mostrar alertas disparados por políticas de alerta no centro de conformidade ou alertas disparados por políticas Office 365 Cloud App Security, ou ambos. Para obter mais informações sobre Office 365 Cloud App Security alertas, consulte [Exibindo Cloud App Security alertas](#viewing-cloud-app-security-alerts).
 
 > [!IMPORTANT]
 > A filtragem e a classificação por marcas de usuário estão atualmente em visualização pública.
@@ -182,7 +183,7 @@ Você pode usar os filtros a seguir para exibir um subconjunto de todos os alert
 
 ## <a name="alert-aggregation"></a>Agregação de alerta
 
-Quando vários eventos que corresponderem às condições de uma política de alerta ocorrem com um curto período de tempo, eles são adicionados a um alerta existente por um processo chamado *agregação de alerta.* Quando um evento dispara um alerta, o alerta é gerado e exibido na página Exibir **alertas** e uma notificação é enviada. Se o mesmo evento ocorrer dentro do intervalo de agregação, Microsoft 365 adiciona detalhes sobre o novo evento ao alerta existente em vez de disparar um novo alerta. O objetivo da agregação de alertas é ajudar a reduzir a "fatiga" do alerta e permitir que você se concentre e tome medidas em menos alertas para o mesmo evento.
+Quando vários eventos que corresponderem às condições de uma política de alerta ocorrem com um curto período de tempo, eles são adicionados a um alerta existente por um processo chamado *agregação de alerta.* Quando um evento dispara um alerta, o alerta é gerado e exibido na página **Alertas** e uma notificação é enviada. Se o mesmo evento ocorrer dentro do intervalo de agregação, Microsoft 365 adiciona detalhes sobre o novo evento ao alerta existente em vez de disparar um novo alerta. O objetivo da agregação de alertas é ajudar a reduzir a "fatiga" do alerta e permitir que você se concentre e tome medidas em menos alertas para o mesmo evento.
 
 O comprimento do intervalo de agregação depende de sua assinatura Office 365 ou Microsoft 365.
 
@@ -209,7 +210,7 @@ Lembre-se das seguintes coisas sobre a agregação de alerta:
 
 ## <a name="rbac-permissions-required-to-view-alerts"></a>Permissões do RBAC necessárias para exibir alertas
 
-As permissões RBAC (Controle de Acesso Baseado em Função) atribuídas aos usuários em sua organização determinam quais alertas um usuário pode ver na página **Exibir alertas.** Como isso é feito? As funções de gerenciamento atribuídas aos usuários & (com base em sua associação em grupos de funções no Centro de Conformidade e Segurança) determinam quais categorias de alerta um usuário pode ver na página Exibir **alertas.** Aqui estão alguns exemplos:
+As permissões RBAC (Controle de Acesso Baseado em Função) atribuídas aos usuários em sua organização determinam quais alertas um usuário pode ver na página **Alertas.** Como isso é feito? As funções de gerenciamento atribuídas aos usuários (com base em sua associação em grupos de funções no Centro de conformidade do Microsoft 365) determinam quais categorias de alerta um usuário pode ver na página **Alertas.** Aqui estão alguns exemplos:
 
 - Os membros do grupo de função Gerenciamento de Registros podem exibir apenas os alertas gerados pelas políticas de alerta atribuídas à categoria **Governança de** informações.
 
@@ -219,7 +220,7 @@ As permissões RBAC (Controle de Acesso Baseado em Função) atribuídas aos usu
 
 Esse design (com base em permissões RBAC) permite determinar quais alertas podem ser exibidos (e gerenciados) pelos usuários em funções de trabalho específicas em sua organização.
 
-A tabela a seguir lista as funções necessárias para exibir alertas das seis categorias de alerta diferentes. A primeira coluna nas tabelas lista todas as funções no Centro de Conformidade & Segurança.  Uma marca de seleção indica que um usuário atribuído a essa função pode exibir alertas da categoria de alerta correspondente listada na linha superior.
+A tabela a seguir lista as funções necessárias para exibir alertas das seis categorias de alerta diferentes. A primeira coluna nas tabelas lista todas as funções no Centro de conformidade do Microsoft 365.  Uma marca de seleção indica que um usuário atribuído a essa função pode exibir alertas da categoria de alerta correspondente listada na linha superior.
 
 Para ver a qual categoria uma política de alerta padrão é atribuída, consulte a tabela em [Políticas de alerta padrão](#default-alert-policies).
 
@@ -266,12 +267,12 @@ Para ver a qual categoria uma política de alerta padrão é atribuída, consult
 > ```powershell
 > $RoleGroups | foreach {Write-Output -InputObject `r`n,$_.Name,"-----------------------"; Get-RoleGroup $_.Identity | Select-Object -ExpandProperty Roles}
 > ```
-> 
-> Você também pode exibir as funções atribuídas a um grupo de funções no Centro de Conformidade & Segurança. Vá até a **página Permissões** e selecione um grupo de funções. As funções atribuídas são listadas na página de sobrevoo.
+>
+> Você também pode exibir as funções atribuídas a um grupo de funções no Centro de conformidade do Microsoft 365. Vá até a **página Permissões** e selecione um grupo de funções. As funções atribuídas são listadas na página de sobrevoo.
 
 ## <a name="managing-alerts"></a>Gerenciando alertas
 
-Depois que os alertas foram **gerados** e exibidos na página Exibir alertas no centro de segurança e conformidade, você pode triagem, investigar e resolvê-los. Aqui estão algumas tarefas que você pode executar para gerenciar alertas.
+Depois que os alertas foram **gerados** e exibidos na página Alertas no centro de conformidade, você pode triagem, investigar e resolvê-los. Aqui estão algumas tarefas que você pode executar para gerenciar alertas.
 
 - **Atribua um status aos alertas.** Você pode atribuir um dos seguintes status a alertas: **Ativo** (o valor padrão), **Investigando,** **Resolvido** ou **Ignorado.** Em seguida, você pode filtrar essa configuração para exibir alertas com a mesma configuração de status. Essa configuração de status pode ajudar a acompanhar o processo de gerenciamento de alertas.
 
@@ -283,7 +284,7 @@ Depois que os alertas foram **gerados** e exibidos na página Exibir alertas no 
 
   - O usuário (ou lista de usuários) que disparou o alerta. Isso é incluído apenas para políticas de alerta configuradas para rastrear um único usuário ou uma única atividade.
 
-  - O número de vezes que a atividade controlada pelo alerta foi executada. Esse número pode não corresponder ao número real de alertas relacionados listados na página Exibir alertas porque mais alertas podem ter sido disparados.
+  - O número de vezes que a atividade controlada pelo alerta foi executada. Esse número pode não corresponder ao número real de alertas relacionados listados na página Alertas porque mais alertas podem ter sido disparados.
 
   - Um link para uma lista de atividades que inclui um item para cada atividade executada que disparou o alerta. Cada entrada nesta lista identifica quando a atividade ocorreu, o nome da operação real (como "FileDeleted"), o usuário que realizou a atividade, o objeto (como um arquivo, um caso de Descoberta Eletrônica ou uma caixa de correio) em que a atividade foi executada e o endereço IP do computador do usuário. Para alertas relacionados a malware, isso é links para uma lista de mensagens.
 
@@ -291,21 +292,21 @@ Depois que os alertas foram **gerados** e exibidos na página Exibir alertas no 
 
 - **Suprimir notificações por email.** Você pode desativar (ou suprimir) notificações de email da página de sobrevoo para um alerta. Quando você suprimir notificações por email, a Microsoft não enviará notificações quando atividades ou eventos que corresponderem às condições da política de alerta ocorrerem. Mas os alertas serão disparados quando as atividades executadas pelos usuários corresponderem às condições da política de alerta. Você também pode desativar notificações por email editando a política de alerta.
 
-- **Resolver alertas.** Você pode marcar um alerta conforme resolvido na página de sobrevoo para um alerta (que define o status do alerta como **Resolvido).** A menos que você altere o filtro, os alertas resolvidos não serão exibidos na página **Exibir alertas.**
+- **Resolver alertas.** Você pode marcar um alerta conforme resolvido na página de sobrevoo para um alerta (que define o status do alerta como **Resolvido).** A menos que você altere o filtro, os alertas resolvidos não serão exibidos na página **Alertas.**
 
-## <a name="viewing-cloud-app-security-alerts"></a>Exibindo alertas de Segurança do Aplicativo na Nuvem
+## <a name="viewing-cloud-app-security-alerts"></a>Exibindo Cloud App Security alertas
 
-Os alertas disparados pelas políticas de Segurança de Aplicativos na Nuvem do Office 365 agora são exibidos na página Exibir **alertas** no centro de segurança e conformidade. Isso inclui alertas disparados por políticas de atividade e alertas disparados por políticas de detecção de anomalias no Office 365 Cloud App Security. Isso significa que você pode exibir todos os alertas no centro de segurança e conformidade. O Office 365 Cloud App Security só está disponível para organizações com uma assinatura do Office 365 Enterprise E5 ou do Office 365 US Government G5. Para obter mais informações, consulte [Overview of Cloud App Security](/cloud-app-security/what-is-cloud-app-security).
+Os alertas disparados por Office 365 Cloud App Security políticas agora são **exibidos** na página Alertas no centro de conformidade. Isso inclui alertas disparados por políticas de atividade e alertas disparados por políticas de detecção de anomalias no Office 365 Cloud App Security. Isso significa que você pode exibir todos os alertas no centro de conformidade. Office 365 Cloud App Security está disponível apenas para organizações com uma assinatura Office 365 Enterprise E5 ou Office 365 US Government G5. Para obter mais informações, consulte [Overview of Cloud App Security](/cloud-app-security/what-is-cloud-app-security).
 
-As organizações que têm o Microsoft Cloud App Security como parte de uma assinatura do Enterprise Mobility + Security E5 ou como um serviço autônomo também podem exibir alertas de Segurança de Aplicativos na Nuvem relacionados aos aplicativos e serviços do Office 365 no Centro de Conformidade & Segurança.
+As organizações que Microsoft Cloud App Security como parte de uma assinatura do Enterprise Mobility + Security E5 ou como um serviço autônomo também podem exibir alertas Cloud App Security relacionados a aplicativos e serviços Microsoft 365 no Centro de conformidade do Microsoft 365.
 
-Para exibir apenas alertas de Segurança do Aplicativo na Nuvem no centro de segurança e conformidade, use o filtro **Source** e selecione **Segurança do Aplicativo na Nuvem.**
+Para exibir apenas Cloud App Security alertas no centro de conformidade, use o filtro **Source** e selecione **Cloud App Security**.
 
-![Use o filtro Source para exibir apenas alertas de Segurança do Aplicativo na Nuvem](../media/FilterCASAlerts.png)
+![Use o filtro Source para exibir somente Cloud App Security alertas](../media/FilterCASAlerts.png)
 
-Semelhante a um alerta disparado por uma política de alerta no centro de segurança e conformidade, você pode selecionar um alerta de Segurança de Aplicativo na Nuvem para exibir uma página de sobremenuso com detalhes sobre o alerta. O alerta inclui um link para exibir os detalhes e gerenciar o alerta no portal de Segurança do Aplicativo na Nuvem e um link para a política de Segurança do Aplicativo na Nuvem correspondente que disparou o alerta. Consulte [Monitor alerts in Cloud App Security](/cloud-app-security/monitor-alerts).
+Semelhante a um alerta disparado por uma política de alerta no centro de conformidade, você pode selecionar um alerta Cloud App Security para exibir uma página de sobremenu com detalhes sobre o alerta. O alerta inclui um link para exibir os detalhes e gerenciar o alerta no portal Cloud App Security e um link para a política de Cloud App Security correspondente que disparou o alerta. Consulte [Monitor alerts in Cloud App Security](/cloud-app-security/monitor-alerts).
 
-![Os detalhes do alerta contêm links para o portal de Segurança do Aplicativo na Nuvem](../media/CASAlertDetail.png)
+![Os detalhes do alerta contêm links para o Cloud App Security portal](../media/CASAlertDetail.png)
 
 > [!IMPORTANT]
-> Alterar o status de um alerta de Segurança de Aplicativo na Nuvem no centro de conformidade e segurança não atualizará o status da resolução para o mesmo alerta no portal de Segurança do Aplicativo na Nuvem. Por exemplo, se você marcar o status do alerta como **Resolvido** no centro de segurança e conformidade, o status do alerta no portal de Segurança do Aplicativo na Nuvem não será alterado. Para resolver ou descartar um alerta de Segurança do Aplicativo na Nuvem, gerencie o alerta no portal de Segurança do Aplicativo na Nuvem.
+> Alterar o status de um Cloud App Security no centro de conformidade não atualizará o status da resolução para o mesmo alerta no portal Cloud App Security. Por exemplo, se você marcar o status do alerta como **Resolvido** no centro de conformidade, o status do alerta no portal Cloud App Security não será alterado. Para resolver ou descartar um alerta Cloud App Security, gerencie o alerta no portal Cloud App Security.
