@@ -15,12 +15,12 @@ ms.collection:
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing disponíveis em organizações Proteção do Exchange Online (EOP) com ou sem Exchange Online caixas de correio.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8633644ab0380cf2adcf30c006a7d6d141a6040a
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 1dcfba32a5c76915c8c905d55b69712162efac48
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054569"
+ms.locfileid: "53062222"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Configurar políticas anti-phishing em EOP
 
@@ -126,11 +126,14 @@ Criar uma política anti-phishing personalizada no portal Microsoft 365 Defender
      - **Mover mensagem para as pastas lixo eletrônico dos destinatários**
      - **Colocar em quarentena a mensagem**
 
-   - **Dicas de segurança &** indicadores : Essa configuração só estará disponível se você selecionou Habilitar a inteligência de **spoof** na página anterior:
-     - **Mostrar (?)** para remetentes não autenticados para spoof : adiciona um ponto de interrogação à foto do remetente na caixa De em  Outlook se a mensagem não passar verificações SPF ou DKIM e a mensagem não passar DMARC [ou](email-validation-and-authentication.md#composite-authentication)autenticação composta .
-     - Mostrar a marca **"via":** adiciona uma marca via (chris@contoso.com via fabrikam.com) ao endereço From se for diferente do domínio na assinatura DKIM ou no endereço **MAIL FROM.**
+   - **Dicas de segurança & indicadores**:
+     - **Mostrar o primeiro contato dica de segurança**: Para obter mais informações, consulte First contact [dica de segurança](set-up-anti-phishing-policies.md#first-contact-safety-tip).
+     - **Mostrar (?)** para remetentes não autenticados para spoof : adiciona um ponto de interrogação à foto do remetente na caixa De em Outlook se a mensagem não passar em verificações SPF ou DKIM e a mensagem não passar DMARC ou autenticação composta <sup>\*</sup> .  [](email-validation-and-authentication.md#composite-authentication)
+     - Mostrar a marca **"via":** adiciona uma marca via (chris@contoso.com via fabrikam.com) ao endereço From se for diferente do domínio na assinatura DKIM ou no <sup>\*</sup> endereço MAIL **FROM.**
 
      Para ativar uma configuração, marque a caixa de seleção. Para desativar, desempure a caixa de seleção.
+
+     <sup>\*</sup> Essa configuração estará disponível somente se você tiver selecionado Habilitar a inteligência **de spoof** na página anterior. Para obter mais informações, consulte Remetente não [autenticado](set-up-anti-phishing-policies.md#unauthenticated-sender).
 
    Ao terminar, clique em **Avançar**.
 

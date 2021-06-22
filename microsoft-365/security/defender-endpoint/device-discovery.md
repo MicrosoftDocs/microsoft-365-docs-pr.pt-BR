@@ -1,6 +1,6 @@
 ---
 title: Visão geral sobre descoberta de dispositivo
-description: Saiba como aproveitar a descoberta de ponto de extremidade no Microsoft 365 Defender para encontrar dispositivos nãomanageados em sua rede
+description: Saiba como aproveitar a descoberta de ponto de extremidade em Microsoft 365 Defender para encontrar dispositivos nãomanageados em sua rede
 keywords: descoberta de dispositivo, descoberta, passiva, proativa, rede, visibilidade, servidor, estação de trabalho, a integração, dispositivos não gerenciamento
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: ed4e0c477bd2a8840e920b337f05c8730965bcff
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 16baaa6fd9865140d42c0ca3a566427f761a28c2
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636237"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062215"
 ---
 # <a name="device-discovery-overview"></a>Visão geral sobre descoberta de dispositivo
 
@@ -35,7 +35,6 @@ ms.locfileid: "52636237"
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2146631)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-[!include[Prerelease information](../../includes/prerelease.md)]
 
 Proteger seu ambiente requer o inventário dos dispositivos que estão em sua rede. No entanto, o mapeamento de dispositivos em uma rede geralmente pode ser caro, desafiador e demorado. 
 

@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 hideEdit: true
 ms.technology: mde
-ms.openlocfilehash: d73ddb3a8defb7697a995c2593d6a240a59c9cfe
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 7a5aa5e049159761c46e2103f7b1ecdd1499f3cd
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934616"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53061643"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android-application-license-terms"></a>Microsoft Defender para Ponto de Extremidade em termos de licença de aplicativo Android
 
@@ -56,7 +56,7 @@ para este aplicativo, a menos que outros termos acompanhem esses itens. Em caso 
 
 1.  **INSTALLATION AND USE RIGHTS.**
 
-    1.  **Instalação e uso.** Você pode instalar e usar qualquer número de cópias deste aplicativo em dispositivos ou dispositivos habilitados para Android que você possui ou controla. Você pode usar esse aplicativo com a assinatura válida do Microsoft Defender para Ponto de Extremidade da sua empresa ou um serviço online que inclua o Microsoft Defender para funcionalidades do Ponto de Extremidade.
+    1.  **Instalação e uso.** Você pode instalar e usar qualquer número de cópias deste aplicativo em dispositivos ou dispositivos habilitados para Android que você possui ou controla. 
 
     2.  **Atualizações.** Atualizações ou atualizações para o Microsoft Defender para Endpoint podem ser necessárias para funcionalidade completa. Algumas funcionalidades podem não estar disponíveis em todos os países.
 

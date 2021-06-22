@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como importar dados de terceiros de plataformas de mídia social, plataformas de mensagens instantâneas e plataformas de colaboração de documentos para Microsoft 365 caixas de correio.
-ms.openlocfilehash: a0c4505d3fbd593f5703f4abfb5cba1870c037c5
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 5e1eab67019184e337b7e5404bf96bdf26d0446d
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054776"
+ms.locfileid: "53061726"
 ---
 # <a name="archive-third-party-data"></a>Arquivar dados de terceiros
 
@@ -143,7 +143,6 @@ Como mencionado anteriormente, os conectores de dados fornecidos pelo TeleMessag
 |O2 SMS e o Arquivo Mortor de Rede de Voz | Sim         | Não | Não |
 |Arquivo mortor de rede SMS TELUS | Sim | Não | Não |
 |Verizon SMS/MMS Network Archiver | Sim | Não | Não |
-|Arquivador do WeChat | Sim | Não | Não |
 |WhatsApp Archiver | Sim | Não | Não |
 |||||
 

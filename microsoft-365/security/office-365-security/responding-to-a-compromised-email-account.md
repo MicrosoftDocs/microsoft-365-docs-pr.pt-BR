@@ -20,12 +20,12 @@ search.appverid:
 description: Aprenda como reconhecer e responder a uma conta de e-mail comprometida no Microsoft 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a1bf2a5dbc7e1fdd447baf76fd051abff88b4b30
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 090253806295d0a5db67afbe769c9c0ca8be4b39
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203053"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054343"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>Responder a uma conta de email comprometida
 
@@ -40,41 +40,32 @@ ms.locfileid: "51203053"
 
 ## <a name="what-is-a-compromised-email-account-in-microsoft-365"></a>O que é uma conta de email comprometida no Microsoft 365?
 
-O acesso a caixas de correio, dados e outros serviços do Microsoft 365 é controlado pelo uso de credenciais, por exemplo, um nome de usuários e senha ou PIN. Quando alguém que não seja o usuário pretendido rouba essas credenciais, as credenciais roubadas são consideradas comprometidas. Com elas, o invasor pode entrar como o usuário original e executar ações ilícitas.
+O acesso às caixas de correio, dados e outros serviços do Microsoft 365 é controlado por meio de credenciais, por exemplo, um nome de usuário e senha ou PIN. Quando alguém que não seja o usuário pretendido rouba essas credenciais, as credenciais roubadas são consideradas comprometidas. Com elas, o invasor pode entrar como o usuário original e executar ações ilícitas.
+
 Usando as credenciais roubadas, o invasor pode acessar a caixa de correio do Microsoft 365, as pastas do SharePoint ou os arquivos no OneDrive do usuário. Uma ação comumente vista é o invasor enviar emails como o usuário original para os destinatários dentro e fora da organização. Quando o invasor envia dados por email para destinatários externos, isso é chamado de exfiltração de dados.
 
 ## <a name="symptoms-of-a-compromised-microsoft-email-account"></a>Sintomas de uma conta de email da Microsoft comprometida
 
-Os usuários pode notar e relatar atividades incomuns em suas caixas de correio do Microsoft 365. Veja alguns sintomas comuns:
+Os usuários podem notar e relatar atividades incomuns em suas caixas de correio do Microsoft 365. Aqui estão alguns sintomas comuns:
 
 - Atividade suspeita, como emails ausentes ou excluídos.
-
 - Outros usuários podem receber emails da conta comprometida sem o email correspondente estar na pasta **Itens Enviados** do remetente.
-
 - A presença de regras de caixa de entrada que não foram criadas pelo usuário pretendido ou pelo administrador. Essas regras podem encaminhar emails automaticamente para endereços desconhecidos ou movê-los para as pastas **Anotações**, **Lixo Eletrônico** ou **Assinaturas RSS**.
-
 - O nome de exibição do usuário pode ser alterado na Lista Global de Endereços.
-
 - A caixa de correio se encontra impedida de enviar emails.
-
 - As pastas Itens Enviados ou Excluídos no Microsoft Outlook ou Outlook na Web (anteriormente conhecido como Outlook Web App) contêm mensagens comuns de contas invadidas, como "Estou preso em Londres, envie dinheiro".
-
 - Mudanças incomuns no perfil, como o nome, o número de telefone ou o CEP atualizados.
-
 - Mudanças de credenciais incomuns, como várias alterações de senha necessárias.
-
 - Encaminhamento de email adicionado recentemente.
-
 - Uma assinatura incomum adicionada recentemente, como uma assinatura bancária falsa ou uma assinatura de medicamento de receita obrigatória.
 
-Se um usuário relatar algum dos sintomas acima, você deverá realizar uma investigação adicional. O Centro de Conformidade e Segurança do Microsoft 365 e o Portal do Azure oferecem ferramentas para ajudá-lo a investigar a atividade de uma conta de usuário que você suspeita estar comprometida.
+Se um usuário relatar algum dos sintomas acima, você deverá realizar uma investigação adicional. O [Microsoft 365 Defender](https://security.microsoft.com) e o portal do Azure oferecem ferramentas para ajudá-lo a investigar a atividade de uma conta de usuário que você suspeita estar comprometida.
 
-- **Logs de auditoria unificada no Centro de Conformidade e Segurança**: analise todas as atividades na conta suspeita, filtrando os resultados para o intervalo de datas desde imediatamente antes da atividade suspeita ocorrer até a data atual. Não filtre as atividades durante a pesquisa.
+- **Logs de auditoria unificados no portal do Microsoft 365 Defender**: analise todas as atividades da conta suspeita, filtrando os resultados para o intervalo de datas imediatamente anterior à ocorrência da atividade suspeita até a data atual. Não filtre as atividades durante a pesquisa.
 
-- **Logs de auditoria do administrador no EAC**: no Exchange Online, você pode usar o EAC (Centro de administração do Exchange) para procurar e exibir entradas no log de auditoria do administrador. O log de auditoria do administrador registra ações específicas, com base no cmdlet do PowerShell do Exchange Online, executadas por administradores e usuários que receberam privilégios administrativos. As entradas do log de auditoria do administrador fornecem informações sobre qual cmdlet foi executado, quais parâmetros foram usados, quem executou o cmdlet e quais objetos foram afetados.
+- **Logs de auditoria do administrador no EAC**: no Exchange Online, você pode usar o EAC (Centro de administração do Exchange) para procurar e exibir entradas no log de auditoria do administrador. O log de auditoria do administrador registra ações específicas, com base nos cmdlets do Exchange Online PowerShell, realizadas por administradores e usuários que receberam privilégios administrativos. As entradas do log de auditoria do administrador fornecem informações sobre qual cmdlet foi executado, quais parâmetros foram usados, quem executou o cmdlet e quais objetos foram afetados.
 
 - **Registros de entrada do Azure AD e outros relatórios de risco no portal do Azure AD**: examine os valores destas colunas:
-
   - Revise o endereço IP
   - locais de entrada
   - horários de entrada
@@ -98,7 +89,7 @@ Siga os procedimentos em [ Redefinir uma senha comercial para alguém ](../../ad
 >
 > - Certifique-se de que a senha seja forte e que contenha letras maiúsculas e minúsculas, pelo menos um número e pelo menos um caractere especial.
 >
-> - Não reutilize nenhuma das suas últimas cinco senhas. Mesmo que o requisito do histórico de senhas permita a reutilização de uma senha mais recente, você deve selecionar algo que o invasor não consiga adivinhar.
+> - Não reutilize nenhuma de suas últimas cinco senhas. Mesmo que o requisito de histórico de senha permita reutilizar uma senha mais recente, você deve selecionar algo que o invasor não consiga adivinhar.
 >
 > - Se a sua identidade local for federada com o Microsoft 365, será necessário alterar sua senha no local e, em seguida, notificar o administrador sobre o comprometimento.
 >
@@ -108,7 +99,7 @@ Siga os procedimentos em [ Redefinir uma senha comercial para alguém ](../../ad
 
 ### <a name="step-2-remove-suspicious-email-forwarding-addresses"></a>Etapa 2 Remover endereços de encaminhamento de email suspeitos
 
-1. Abra o Centro de administração do Microsoft 365 em <https://admin.microsoft.com>
+1. Abra o Centro de administração do Microsoft 365 em <https://admin.microsoft.com>.
 
 2. Vá até **Usuários** \> **Usuários ativos**. Encontre a conta do usuário em questão e o selecione (linha) sem marcar a caixa de seleção.
 
@@ -137,50 +128,52 @@ Para desbloquear uma caixa de correio impedida de enviar emails, siga os procedi
 > [!IMPORTANT]
 > Você pode impedir que a conta suspeita de estar comprometida inicie sessão, até considerar que é seguro reativar o acesso.
 
-1. Abra o Centro de administração do Microsoft 365 e vá até **Usuários** \> **Usuários ativos**.
+1. Abra o Centro de administração do Microsoft 365 em <https://admin.microsoft.com> e acesse **Usuários** \> **Usuários ativos**.
 
 2. Encontre e selecione a conta do usuário, clique no ![ícone Mais ](../../media/ITPro-EAC-MoreOptionsIcon.png) e selecione **Editar status de login**.
 
 3. No painel **Bloquear login** que aparece, selecione **Bloquear a assinatura deste usuário** e clique em **Salvar alterações**.
 
-4. Abra o Centro de administração do Exchange (EAC) em <admin.protection.outlook.com/ecp/> e vá para **Destinatários > Caixas de correio**.
+4. Abra o Centro de administração do Exchange (EAC) em <https://admin.exchange.microsoft.com> e acesse **Caixas de correio**\> de **Destinatários**.
 
-5. Encontre e selecione o usuário. No painel de detalhes, execute as seguintes etapas:
+5. Localize e selecione o usuário. No menu desdobrável de detalhes da caixa de correio que é aberto, execute as seguintes etapas:
+   - Na seção **Aplicativos de email**, bloqueie todas as configurações disponíveis movendo o botão para a direita ![Desabilitar](../../media/scc-toggle-on.png):
+     - **Outlook na Web**
+     - **Área de trabalho do Outlook (MAPI)**
+     - **Serviços Web do Exchange**
+     - **Móvel (Exchange ActiveSync)**
+     - **IMAP**
+     - **POP3**
 
-   - Na seção **Recursos de telefone e voz**, execute as seguintes etapas:
-
-     - Selecione **Desativar Exchange ActiveSync** e clique em **Sim** no aviso que aparece.
-     - Selecione **Desabilitar OWA para Dispositivos** e clique em **Sim** no aviso que aparece.
-
-   - Na seção **Conectividade de e-mail** para Outlook na Web, clique em **Desativar** e clique em **Sim** no aviso que aparece.
+   Quando terminar, clique em **Salvar** e em **Fechar**.
 
 ### <a name="step-6-optional-remove-the-suspected-compromised-account-from-all-administrative-role-groups"></a>Etapa 6 Opcional: Remova a conta suspeita de estar comprometida de todos os grupos de funções administrativas
 
 > [!NOTE]
 > A associação ao grupo de funções administrativas pode ser restaurada após a conta ter sido protegida.
 
-1. Faça o login com uma conta de administrador global:
-
-2. No Centro de administração do Microsoft 365, execute as seguintes etapas:
-
+1. Abra o Centro de administração do Microsoft 365 em <https://admin.microsoft.com> com uma conta de administrador global e execute as seguintes etapas:
    1. Vá até **Usuários** \> **Usuários ativos**.
    2. Encontre e selecione a conta do usuário, clique no ![ícone Mais](../../media/ITPro-EAC-MoreOptionsIcon.png) e selecione **Gerenciar funções**.
    3. Remova todas as funções administrativas atribuídas à conta. Quando terminar, clique em **Salvar alterações**.
 
-3. No Centro de Segurança e Conformidade em <https://protection.office.com>, execute os seguintes passos:
+2. Abra o portal do Microsoft 365 Defender em <https://security.microsoft.com> e execute as seguintes etapas:
+   1. Acesse **Permissões e funções** \> **Email e funções de colaboração** \> **Funções**.
+   2. Na página **Permissões**, selecione cada grupo de função na lista e procure a conta do usuário na seção **Membros** do menu desdobrável de detalhes que aparece. Se o grupo de funções contiver a conta do usuário, execute as seguintes etapas:
+      1. Na seção **Membros**, clique em **Editar**.
+      2. No menu desdobrável **Editando Escolher membros** que aparece, clique em **Editar**.
+      3. No menu desdobrável **Escolher membros** que aparece, clique em **Remover**.
+      4. No menu desdobrável que aparece, selecione a conta do usuário e clique em **Remover**.
 
-   Selecione **Permissões**, selecione cada grupo de função na lista e procure a conta do usuário na seção **Membros** do menu desdobrável de detalhes que aparece. Se o grupo de funções contiver a conta do usuário, execute as seguintes etapas:
+         Quando terminar, clique em **Concluído**, **Salvar** e depois em **Fechar**.
 
-   a. Clique em **Editar** próximo a **Membros**.
-   b. No menu desdobrável **Editando Escolher membros** que aparece, clique em **Editar**.
-   c. No menu desdobrável **Escolher membros** que aparece, selecione a conta do usuário e clique em **Remover**. Quando terminar, clique em **Concluído**, **Salvar** e depois em **Fechar**.
+3. Abra o EAC em <https://admin.exchange.microsoft.com> e execute as seguintes etapas:
+   1. Selecione **Funções** \> **Funções de administrador**.
+   2. Na página **Funções de administrador**, selecione manualmente cada grupo de função e, no painel de detalhes, selecione a guia **Atribuído** para verificar as contas de usuário. Se o grupo de funções contiver a conta do usuário, execute as seguintes etapas:
+      1. Selecione a conta do usuário.
+      2. Clique no botão ![Ícone Excluir](../../media/m365-cc-sc-delete-icon.png).
 
-4. Na EAC em <admin.protection.outlook.com/ecp/>, execute os seguintes passos:
-
-   Selecione **Permissões**, selecione manualmente cada grupo de função e, no painel de detalhes, verifique as contas de usuário na seção **Membros**.  Se o grupo de funções contiver a conta do usuário, execute as seguintes etapas:
-
-   a. Selecione o grupo de funções, clique em **Editar** ![ícone Editar](../../media/ITPro-EAC-EditIcon.png).
-   b. Na seção **Membro**, selecione a conta do usuário e clique em **Remover** ![ícone Remover](../../media/ITPro-EAC-RemoveIcon.gif). Quando concluir, clique em **Salvar**.
+         Quando concluir, clique em **Salvar**.
 
 ### <a name="step-7-optional-additional-precautionary-steps"></a>Etapa 7 Opcional: etapas adicionais de precaução
 
@@ -194,18 +187,13 @@ Para desbloquear uma caixa de correio impedida de enviar emails, siga os procedi
 
 Sua assinatura do Microsoft 365 vem com um poderoso conjunto de recursos de segurança que você pode usar para proteger seus dados e seus usuários.  Use o [roteiro de segurança do Microsoft 365: principais prioridades para os primeiros 30 dias, 90 dias e depois](security-roadmap.md) para implementar práticas recomendadas para proteger o seu locatário do Microsoft 365.
 
-- Tarefas a realizar nos primeiros 30 dias.  Estas têm efeito imediato e baixo impacto para seus usuários.
-
-- Tarefas para realizar em 90 dias. Estas levam um pouco mais de tempo para planejar e implementar, mas melhoram muito sua postura de segurança.
-
-- Além de 90 dias. Estes aprimoramentos são desenvolvidos nos seus primeiros 90 dias de trabalho.
+- Tarefas a realizar nos primeiros 30 dias. Estas têm efeito imediato e baixo impacto para seus usuários.
+- Tarefas a serem cumpridas em 90 dias. Isso leva um pouco mais de tempo para planejar e implementar, mas melhora muito sua postura de segurança.
+- Mais de 90 dias. Essas melhorias são incluídas em seus primeiros 90 dias de trabalho.
 
 ## <a name="see-also"></a>Confira também
 
 - [Detectar e corrigir ataques de injeção a regras e formulários personalizados do Outlook no Microsoft 365](detect-and-remediate-outlook-rules-forms-attack.md)
-
 - [Centro de Reclamações contra Crimes pela Internet](https://www.ic3.gov/Home/Ransomware)
-
 - [Comissão de Valores Mobiliários - Fraude de "Phishing"](https://www.sec.gov/investor/pubs/phishing.htm)
-
 - Para denunciar emails de spam diretamente ao seu administrador e à Microsoft [Use o suplemento Reportar mensagem](https://support.microsoft.com/office/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)

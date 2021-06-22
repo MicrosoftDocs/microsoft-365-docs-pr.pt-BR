@@ -15,12 +15,12 @@ ms.collection:
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing avançadas disponíveis em organizações com o Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bbf90f52127e96e08f1c176a23d5f5ab1d6d86c4
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: dd69e00b0e8929752341bf3d2b0abde88921066b
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054547"
+ms.locfileid: "53061880"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas anti-phishing no Microsoft Defender para Office 365
 
@@ -230,7 +230,7 @@ Criar uma política anti-phishing personalizada no portal Microsoft 365 Defender
        - **Colocar em quarentena a mensagem**
 
    - **Dicas de segurança & indicadores**: Configure as seguintes configurações:
-     - **Show first contact dica de segurança**: This dica de segurança replaces the need to create mail flow rules (also known as transport rules) that add the header named **X-MS-Exchange-EnableFirstContactSafetyTip** with the value **Enable** to messages.
+     - **Mostrar o primeiro contato dica de segurança**: Para obter mais informações, consulte First contact [dica de segurança](set-up-anti-phishing-policies.md#first-contact-safety-tip).
      - **Mostrar a identidade do usuário dica de segurança**: Essa configuração só estará disponível se você selecionou **Habilitar** os usuários para proteger na página anterior.
      - **Mostrar a representação de domínio dica de segurança**: Essa configuração estará disponível somente se você selecionou Habilitar **domínios** para proteger na página anterior.
      - **Mostrar caracteres incomuns de representação do usuário dica de segurança** Essa configuração só estará disponível se você tiver selecionado **Habilitar** os usuários para proteger ou Habilitar **domínios para proteger** na página anterior.

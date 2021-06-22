@@ -22,12 +22,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: material de referência de prevenção contra perda de dados
-ms.openlocfilehash: a6dc0b2702899e05f78c54331fb33b87495672d8
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 5c01b6419a9af100cfaedccbd5a9c4923ca3e42f
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572556"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53061785"
 ---
 # <a name="data-loss-prevention-reference"></a>Referência de prevenção contra perda de dados
  
@@ -110,9 +110,6 @@ Se você optar por incluir grupos de distribuição específicos no Exchange, a 
 Se optar por incluir ou excluir sites específicos do SharePoint, uma política de DLP poderá conter até 100 inclusões e exclusões. Embora esses limites existam, você pode excede-los ao ignorar uma política no âmbito da organização ou uma política que se aplica a locais inteiros.
 
 Se optar por incluir ou excluir contas ou grupos específicos do OneDrive, uma política DLP não poderá conter mais de 100 contas de usuários ou 50 grupos como inclusão ou exclusão.
-
-> [!NOTE]
-> O escopo de política do OneDrive for Business está usando as contas ou grupos em visualização pública. Durante essa fase, é possível incluir ou excluir contas de usuários e grupos como parte de uma política DLP. Não há suporte para inclusão e exclusão como parte da mesma política.
   
 ### <a name="rules"></a>Regras
 
@@ -542,7 +539,7 @@ Ao criar uma política DLP que inclui o Microsoft Teams como um local, a políti
  
 ## <a name="permissions"></a>Permissões
 
-Os membros da sua equipe de conformidade que irão criar políticas DLP precisam de permissões ao Centro de Conformidade &amp; Segurança. Por padrão, o administrador de locatário terá acesso a esse local e pode conceder aos responsáveis pela conformidade e outras pessoas acesso ao Centro de Conformidade &amp; Segurança, sem conceder todas as permissões de um administrador de locatário. Para fazer isso, recomendamos:
+Por padrão, administradores globais, administradores de segurança e administradores de Conformidade terão acesso para criar e aplicar uma política DLP. Outros membros da sua equipe de conformidade que criarão políticas de DLP precisam de permissões para o Centro &amp; de Conformidade de Segurança. Por padrão, o administrador do Locatário terá acesso a esse local e poderá dar aos responsáveis pela conformidade e outras pessoas acesso ao Centro de Conformidade de Segurança, sem dar a eles todas as permissões de um administrador &amp; de locatários. Para fazer isso, recomendamos que você:
   
 1. Crie um grupo no Microsoft 365 e adicione os responsáveis pela conformidade.
     

@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Impedir que um ex-funcionário entre e bloqueie o acesso aos Microsoft 365 serviços.
-ms.openlocfilehash: cdba6dcaf239e94cf33f3bf88e7f217b4793bfd6
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: f2258b165c3d61f809288003f4a536ffe160ea59
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52840845"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53061829"
 ---
 # <a name="step-1---prevent-a-former-employee-from-logging-in-and-block-access-to-microsoft-365-services"></a>Etapa 1 - Impedir que um ex-funcionário entre e bloqueie o acesso aos serviços Microsoft 365 serviços
 
@@ -41,12 +41,12 @@ Se você precisar impedir imediatamente o acesso de entrada de um usuário, voc�
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 2. Selecione a caixa ao lado do nome do usuário e selecione **Redefinir senha**.
 3. Insira uma nova senha e selecione **Redefinir**. (Não envie para eles.)
-4. Selecione o nome do usuário para ir para o  painel de propriedades e, na guia Conta, selecione **Iniciar saída**.
+4. Selecione o nome do usuário para ir para o  painel de propriedades e, na guia Conta, selecione **Sair de todas as sessões**.
 
 Dentro de uma hora - ou depois de sair da página Microsoft 365 atual em que estão - eles são solicitados a entrar novamente. Um token de acesso é bom para uma hora, portanto, a linha do tempo depende de quanto tempo resta nesse token e se eles navegam para fora de sua página da Web atual.
   
 > [!IMPORTANT]
-> Se o usuário estiver Outlook na Web, basta clicar em sua caixa de correio, ele pode não ser colocado para fora imediatamente. Assim que eles selecionam um OneDrive, ou atualizem o navegador, a saída é iniciada.
+> Se o usuário estiver em Outlook na Web, basta clicar em sua caixa de correio, ele pode não ser colocado para fora imediatamente. Assim que eles selecionam um OneDrive, ou atualizem o navegador, a saída é iniciada.
   
 Para usar o PowerShell para sair imediatamente de um usuário, consulte o cmdlet [Revoke-AzureADUserAllRefreshToken.](/powershell/module/azuread/revoke-azureaduserallrefreshtoken)
   

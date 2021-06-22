@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6c77762de4dbd70922eb5623f801837bf6454ec7
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 65edf54ea0bf5cb0a0210dd306db07c756149f65
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842357"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062126"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>Recursos de visualização do Microsoft Defender para Ponto de Extremidade
 
@@ -61,12 +61,6 @@ Ative a configuração de experiência de visualização para ser uma das primei
 ## <a name="preview-features"></a>Visualização prévia de recursos
 
 Os seguintes novos recursos estão incluídos na visualização prévia:
-
-- [Descoberta de dispositivo](device-discovery.md) <br> Ajuda você a encontrar dispositivos não administrativos conectados à sua rede corporativa sem a necessidade de dispositivos extras ou alterações de processo complicadas. Usando dispositivos conectados, você pode encontrar dispositivos nãomanageados em sua rede e avaliar vulnerabilidades e riscos. Em seguida, você pode integrar dispositivos descobertos para reduzir os riscos associados a ter pontos de extremidade nãomanageados em sua rede.
-
-   > [!IMPORTANT]
-   > A descoberta padrão será o modo padrão para todos os clientes a partir de 19 de julho de 2021. Você pode optar por manter o modo básico por meio da página de configurações. 
-
 
 - [Filtragem de Conteúdo da Web](web-content-filtering.md) <br> A filtragem de conteúdo da Web faz parte dos recursos de proteção da Web no Microsoft Defender para Ponto de Extremidade. Ele permite que sua organização acompanhe e regular o acesso a sites com base em suas categorias de conteúdo. Muitos desses sites, embora não sejam mal-intencionados, podem ser problemáticos devido a regulamentos de conformidade, uso de largura de banda ou outras preocupações.
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use uma política de retenção para manter o controle eficiente do conteúdo que os usuários geram com email, documentos e conversas. Mantenha o que você deseja e descarte o que não.
-ms.openlocfilehash: 9f550aa2e0a79170c4651f29c23a8ed0c8c9b3a4
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 2ddc95b5e614fb321ccc5472bc6031f570218528
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769409"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053066"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -116,7 +116,7 @@ Se você tiver um site da equipe que não está conectado a um grupo do Microsof
 ### <a name="retention-policy-for-yammer-locations"></a>Política de retenção para locais do Yammer
 
 > [!NOTE]
-> As políticas de retenção para o Yammer estão sendo distribuídas na visualização. Caso ainda não veja os novos locais do Yammer, tente novamente em algumas semanas.
+> As políticas de retenção para o Yammer estão em versão prévia.
 >
 > Para usar esse recurso, sua rede do Yammer deve ser [Modo Nativo](/yammer/configure-your-yammer-network/overview-native-mode), não no modo híbrido.
 
@@ -127,8 +127,6 @@ Se você tiver um site da equipe que não está conectado a um grupo do Microsof
 3. Para **decidir se deseja reter o conteúdo, excluí-lo, ou ambos** página do assistente, especifique as opções de configuração para manter e excluir o conteúdo. 
     
     Você pode criar uma política de retenção que apenas retenha o conteúdo sem excluir, retenha e exclua após um período especificado ou apenas exclua o conteúdo após um período especificado. Para saber mais, confira [Configurações de retenção e exclusão de conteúdo](#settings-for-retaining-and-deleting-content) nesta página.
-    
-    Não selecione **Usar as configurações avançadas de retenção** porque essa opção não tem suporte para os locais do Yammer. 
 
 4. Na página **Escolher locais**, selecione **Deixe-me escolher locais específicos**. Em seguida, alterne em um ou em ambos os locais do Yammer: **Mensagens da comunidade do Yammer** e **mensagens de usuário do Yammer**.
     

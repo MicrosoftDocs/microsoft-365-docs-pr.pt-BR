@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e87a7423d6d69968bdf4224938e10799dcb89d1b
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: ceca8ac76f63ef7da34f4222312e9e03a3b0e23a
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844185"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062253"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>Novidades no Microsoft Defender para Ponto de Extremidade
 
@@ -45,6 +45,16 @@ Para obter mais informações sobre recursos de visualização, consulte [Recurs
 > ```https
 > /api/search/rss?search=%22features+are+generally+available+%28GA%29+in+the+latest+release+of+Microsoft+Defender+for+Endpoint%22&locale=en-us&facet=
 > ```
+
+## <a name="june-2021"></a>Junho de 2021
+
+- [Descoberta de dispositivo](device-discovery.md) <br> Ajuda você a encontrar dispositivos não administrativos conectados à sua rede corporativa sem a necessidade de dispositivos extras ou alterações de processo complicadas. Usando dispositivos conectados, você pode encontrar dispositivos nãomanageados em sua rede e avaliar vulnerabilidades e riscos. Em seguida, você pode integrar dispositivos descobertos para reduzir os riscos associados a ter pontos de extremidade nãomanageados em sua rede.
+
+   > [!IMPORTANT]
+   > A descoberta padrão será o modo padrão para todos os clientes a partir de 19 de julho de 2021. Você pode optar por manter o modo básico por meio da página de configurações. 
+
+
+- [As definições do grupo de dispositivos](/microsoft-365/security/defender-endpoint/machine-groups) agora podem incluir vários valores para cada condição. Você pode definir várias marcas, nomes de dispositivo e domínios para a definição de um único grupo de dispositivos.
 
 ## <a name="march-2021"></a>Março de 2021
 - [Gerenciar a proteção contra violações usando a Central de Segurança do Microsoft Defender](prevent-changes-to-security-settings-with-tamper-protection.md#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) <br> Você pode gerenciar configurações de proteção contra Windows 10, Windows Server 2016 e Windows Server 2019 usando um método chamado *anexação de locatário.* 

@@ -19,12 +19,12 @@ ms.custom:
 description: Os administradores podem aprender a usar o portal Envios no portal Microsoft 365 Defender para enviar emails suspeitos, emails suspeitos de phishing, spam e outras mensagens potencialmente prejudiciais, URLs e anexos de email para a Microsoft para análise de novo.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b671ce5a44c7be61331a121b49e96658cf14bab1
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: ab25757c79b7978400e98fa36d48163e1681e7c1
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964796"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53061984"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft
 
@@ -91,7 +91,8 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
 
 5. Quando terminar, clique no **botão Enviar.**
 
-   ![Novo exemplo de envio de URL](../../media/submission-flyout-email.PNG)
+> [!div class="mx-imgBorder"]
+> ![Novo exemplo de envio de URL](../../media/submission-flyout-email.png)
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>Enviar uma URL suspeita para a Microsoft
 
@@ -105,7 +106,8 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
 
 4. Quando terminar, clique no **botão Enviar.**
 
-   ![Novo exemplo de envio de email](../../media/submission-url-flyout.png)
+> [!div class="mx-imgBorder"]
+> ![Novo exemplo de envio de email](../../media/submission-url-flyout.png)
 
 ### <a name="submit-a-suspected-email-attachment-to-microsoft"></a>Enviar um anexo de email suspeito à Microsoft
 
@@ -119,7 +121,8 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
 
 4. Quando terminar, clique no **botão Enviar.**
 
-   ![Novo exemplo de envio de anexo](../../media/submission-file-flyout.PNG)
+> [!div class="mx-imgBorder"]
+> ![Novo exemplo de envio de anexo](../../media/submission-file-flyout.png)
 
 ## <a name="view-admin-submissions-to-microsoft"></a>Exibir envios de administrador para a Microsoft
 
@@ -157,7 +160,8 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
 
      Quando terminar, clique em **Aplicar**.
 
-     ![Novas opções de Filtro para envios de administrador](../../media/admin-submission-email-filter-options.png)
+     > [!div class="mx-imgBorder"]
+     > ![Novas opções de Filtro para envios de administrador](../../media/admin-submission-filters.png)
 
    - Para agrupar as entradas, clique em **Grupo** e selecione um dos seguintes valores na listada:
      - **Nenhum**
@@ -170,7 +174,7 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
 
 ### <a name="admin-submission-rescan-details"></a>Detalhes da verificação de envio de administrador
 
-As mensagens enviadas em envios de administrador são exibidas novamente e os resultados mostrados no submenu de detalhes de envios:
+As mensagens enviadas em envios de administrador são revisadas e os resultados mostrados no submenu de detalhes de envios:
 
 - Se houve falha na autenticação do email do remetente no momento da entrega.
 - Informações sobre quaisquer acessos à política que possam ter afetado ou substituído o veredicto de uma mensagem.
@@ -214,7 +218,8 @@ Se você tiver implantado o complemento Mensagem de [Relatório,](enable-the-rep
 
      Quando terminar, clique em **Aplicar**.
 
-    ![Novas opções de Filtro para envios de usuários](../../media/user-submissions-filter-options.png)
+     > [!div class="mx-imgBorder"]
+     > ![Novas opções de Filtro para envios de usuários](../../media/admin-submission-reported-messages.png)
 
    - Para agrupar as entradas, clique em **Grupo** e selecione um dos seguintes valores na listada:
      - **Nenhum**
@@ -245,4 +250,5 @@ Na guia **Mensagens relatadas pelo** usuário, selecione uma mensagem na lista, 
 - **Relatar spam**
 - **Investigação de gatilho**
 
-![Novas opções no botão Ação](../../media/user-submission-custom-mailbox-action-button.png)
+> [!div class="mx-imgBorder"]
+> ![Novas opções no botão Ação](../../media/admin-submission-main-action-button.png)

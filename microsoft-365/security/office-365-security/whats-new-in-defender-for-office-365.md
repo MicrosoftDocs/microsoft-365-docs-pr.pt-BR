@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 53e60578f575e94dfb51c1c5f44a3d7ffb91110b
-ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
+ms.openlocfilehash: 0eaf34e6950e265514b14ff1fd0aa1c7bb9ab6b1
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52932813"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062201"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Novidades do Microsoft Defender para Office 365
 
@@ -42,6 +42,14 @@ Saiba mais assistindo a [este vídeo](https://www.youtube.com/watch?v=Tdz6KfruDG
 > [!TIP]
 > O Microsoft Defender ainda não Office 365? [Entre em contato com vendas para iniciar uma avaliação.](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
 
+## <a name="june-2021"></a>Junho de 2021
+
+- Novo primeiro contato dica de segurança configuração em políticas anti-phishing. Esse dica de segurança é mostrado quando os destinatários recebem primeiro um email de um remetente ou não recebem emails de um remetente. Para obter mais informações sobre essa configuração e como configurá-la, consulte os seguintes artigos:
+
+- [Primeiro contato dica de segurança](set-up-anti-phishing-policies.md#first-contact-safety-tip)
+- [Configurar políticas anti-phishing em EOP](configure-anti-phishing-policies-eop.md)
+- [Configurar políticas anti-phishing no Microsoft Defender para Office 365](configure-mdo-anti-phishing-policies.md)
+
 ## <a name="aprilmay-2021"></a>Abril/maio de 2021
 
 - [Página de](mdo-email-entity-page.md)entidade de email : uma exibição unificada de 360 graus de um email com informações enriquecidas sobre ameaças, autenticação e detecções, detalhes de detonação e uma nova experiência de visualização de email.
@@ -54,6 +62,7 @@ Saiba mais assistindo a [este vídeo](https://www.youtube.com/watch?v=Tdz6KfruDG
 - Aumentando os limites de Exportação de registros de 9990 para 200.000 em experiências [de busca](threat-explorer.md)
 - Estendendo a retenção de dados do Explorer (e detecções em tempo real) e o limite de pesquisa para locatários de 7 (limite anterior) para 30 dias em experiências [de busca](threat-explorer.md)
 - Novos pivôs de busca  chamados **domínio** personificado e usuário personificado dentro do Explorer (e detecções em tempo real) para pesquisar ataques de representação contra usuários ou domínios protegidos. Para obter mais informações, consulte [detalhes](threat-explorer.md#view-phishing-emails-sent-to-impersonated-users-and-domains). (Microsoft Defender para Office 365 Plano 1 ou Plano 2)
+- Novo primeiro contato dica de segurança para quando os destinatários recebem primeiro um email de um remetente ou geralmente não recebem emails de um remetente. Para obter mais informações sobre essa configuração e como configurá-la usando Exchange de fluxo de emails (também conhecidas como regras de [transporte),](set-up-anti-phishing-policies.md#first-contact-safety-tip)consulte First contact dica de segurança .
 
 ## <a name="december-2020"></a>Dezembro de 2020
 

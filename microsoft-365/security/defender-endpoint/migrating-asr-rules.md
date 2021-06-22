@@ -15,12 +15,12 @@ ms.author: v-lsaldanha
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: de65c134560ecca219de9174ff222d31dd578d31
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: fd7c6a217c1bc1ce3b278afb911988b94a6951e0
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933776"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062152"
 ---
 # <a name="migrating-from-a-third-party-hips-to-asr-rules"></a>Migrando de um HIPS de terceiros para regras ASR
 
@@ -148,6 +148,6 @@ Este artigo ajuda você a mapear regras comuns para o Microsoft Defender para Po
 
 Confira também
 
-- [Perguntas frequentes sobre a redução da superfície de ataque](attack-surface-reduction-faq.md)
+- [Perguntas frequentes sobre a redução da superfície de ataque](attack-surface-reduction-faq.yml)
 - [Habilitar regras da redução da superfície de ataque](enable-attack-surface-reduction.md)
 - [Avaliar as regras da redução da superfície de ataque](evaluate-attack-surface-reduction.md)
