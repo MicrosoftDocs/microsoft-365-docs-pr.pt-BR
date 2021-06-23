@@ -20,12 +20,12 @@ description: Saiba como usar recursos de investigação e resposta contra ameaç
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e99cda906e97db72a440c3daf509a767181e5342
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: e49963d1ffaeb7bce20f21f82f37fd3675b9cdd3
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029784"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083351"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-microsoft-365"></a>Investigar emails mal-intencionados que foram entregues Microsoft 365
 
@@ -51,7 +51,7 @@ Verifique se os seguintes requisitos são atendidos:
 
 - Sua organização tem políticas definidas para anti-spam, anti-malware, anti-phishing e assim por diante. Consulte [Proteger contra ameaças em Office 365](protect-against-threats.md).
 
-- Você é um administrador global ou tem o Administrador de Segurança ou a função de Pesquisa e Limpeza atribuída no portal Microsoft 365 Defender. Para obter mais informações, consulte [Permissões no portal Microsoft 365 Defender .](permissions-microsoft-365-security-center.md) Para algumas ações, você também deve ter a função Visualização atribuída.
+- Você é um administrador global ou tem o Administrador de Segurança ou a função de Pesquisa e Limpeza atribuída no portal Microsoft 365 Defender. Para obter mais informações, veja [Permissões no portal do Microsoft 365 Defender](permissions-microsoft-365-security-center.md). Para algumas ações, você também deve ter a função Visualização atribuída.
 
 ### <a name="preview-role-permissions"></a>Permissões de função de visualização
 
@@ -73,7 +73,7 @@ Para executar determinadas ações, como exibir os headers de mensagens ou baixa
 >
 > A função Administrador Global recebe a Centro de administração do Microsoft 365 ( ), e as funções administrador de segurança e leitor de segurança são <https://admin.microsoft.com> atribuídas Microsoft 365 Defender ( <https://security.microsoft.com> ). Para saber mais sobre funções e permissões, consulte [Permissões no Microsoft 365 Defender portal](permissions-microsoft-365-security-center.md).
 
-Entendemos que visualizar e baixar emails são atividades confidenciais e, portanto, a auditoria está habilitada para isso. Depois que um administrador executa essas atividades em emails, os logs de auditoria são gerados para o mesmo e podem ser vistos no Centro de Conformidade Office 365 Segurança & ( <https://protection.office.com> ). Vá para **Pesquisar**  >  **pesquisa de log de auditoria** e filtre o nome do administrador na seção Pesquisa. Os resultados filtrados mostrarão a **atividade AdminMailAccess**. Selecione uma linha para exibir detalhes na seção **Mais informações** sobre emails visualizados ou baixados.
+Entendemos que visualizar e baixar emails são atividades confidenciais e, portanto, a auditoria está habilitada para isso. Depois que um administrador executa essas atividades em emails, os logs de auditoria são gerados para o mesmo e podem ser vistos no portal Microsoft 365 Defender ( <https://security.microsoft.com> ). Vá até **a guia Pesquisa** \> **de** Auditoria e filtre o nome do administrador na **caixa Usuários.** Os resultados filtrados mostrarão a **atividade AdminMailAccess**. Selecione uma linha para exibir detalhes na seção **Mais informações** sobre emails visualizados ou baixados.
 
 ## <a name="find-suspicious-email-that-was-delivered"></a>Encontrar emails suspeitos que foram entregues
 

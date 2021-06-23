@@ -1,5 +1,5 @@
 ---
-title: Simulador de Ataque no Microsoft Defender para Office 365
+title: Simulador de Ataque no Centro de Conformidade & Segurança
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,17 +17,17 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem aprender a usar o Simulador de Ataques para executar ataques simulados de phishing e senha em suas Microsoft 365 E5 ou no Microsoft Defender para organizações do Office 365 Plan 2.
+description: Os administradores podem aprender a usar o Simulador de Ataques no Centro de Conformidade de Segurança & para executar ataques simulados de phishing e senha em suas organizações do Microsoft 365 E5 ou do Microsoft Defender para Office 365 Plano 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 03e6c0077f13c85bfd20ac0583b64ce29e2535a1
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: aa10c30644562a156964ebaa1d63145047ca9264
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878671"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53082859"
 ---
-# <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Simulador de Ataque no Microsoft Defender para Office 365
+# <a name="attack-simulator-in-the-security--compliance-center"></a>Simulador de Ataque no Centro de Conformidade & Segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -37,7 +37,7 @@ Se sua organização tiver o Microsoft Defender para Office 365 Plano 2, que inc
 
 > [!NOTE]
 >
-> Simulador de Ataque conforme descrito neste artigo agora é  somente leitura e foi substituído pelo treinamento de simulação de ataque no nó de colaboração **email &** no portal do Microsoft 365 Defender em <https://security.microsoft.com> . Para obter mais informações, consulte [Começar a usar o treinamento de simulação de ataque](attack-simulation-training-get-started.md).
+> Simulador de Ataque conforme descrito neste artigo agora é  somente leitura e foi substituído pelo treinamento de simulação de ataque no nó de colaboração **email &** no portal Microsoft 365 Defender em <https://security.microsoft.com> . Para obter mais informações, consulte [Começar a usar o treinamento de simulação de ataque](attack-simulation-training-get-started.md).
 >
 > A capacidade de iniciar novas simulações dessa versão do Simulador de Ataque foi desabilitada. No entanto, você ainda pode acessar relatórios até 24 de abril de 2021.
 

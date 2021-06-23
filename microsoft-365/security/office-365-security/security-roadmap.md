@@ -19,12 +19,12 @@ ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: Principais recomendações da equipe de segurança cibernética da Microsoft para implementar recursos de segurança para proteger seu Microsoft 365 ambiente.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 67febc328706121360b2b34e054ae8e208355b89
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 05ea4103abecb10d4eedddf8d5043e339b58804c
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879249"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083147"
 ---
 # <a name="security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>Roteiro de segurança - Principais prioridades para os primeiros 30 dias, 90 dias e além
 
@@ -78,7 +78,7 @@ Essas tarefas demoram um pouco mais para planejar e implementar, mas aumentam si
 
 |Área|Tarefa|
 |---|---|
-|Gerenciamento de segurança|<ul><li>Verifique a Pontuação Segura de ações recomendadas para seu ambiente ( <https://securescore.office.com> ).</li><li>Continue a revisar regularmente painéis e relatórios no portal Microsoft 365 defender, Cloud App Security e ferramentas SIEM.</li><li>Procure e implemente atualizações de software.</li><li>Conduzir simulações de ataque para phishing de lança, pulverização de senha e ataques de senha de força bruta usando o [Simulador](attack-simulator.md) de Ataques (incluído no [Office 365 Threat Intelligence](office-365-ti.md)).</li><li>Procure o risco de compartilhamento revisando os relatórios integrados no Cloud App Security (na guia Investigar).</li><li>Verifique [o Gerenciador de](../../compliance/compliance-manager.md) Conformidade para revisar o status dos regulamentos que se aplicam à sua organização (como o RGPD, NIST 800-171).</li></ul>|
+|Gerenciamento de segurança|<ul><li>Verifique a Pontuação Segura de ações recomendadas para seu ambiente ( <https://securescore.office.com> ).</li><li>Continue a revisar regularmente painéis e relatórios no portal Microsoft 365 Defender, Cloud App Security e ferramentas SIEM.</li><li>Procure e implemente atualizações de software.</li><li>Conduzir simulações de ataque para ataques de phishing de lança, pulverização de senha e ataques de senha de força bruta usando treinamento de simulação de ataque [(incluído](attack-simulation-training.md) no [Office 365 Threat Intelligence](office-365-ti.md)).</li><li>Procure o risco de compartilhamento revisando os relatórios integrados no Cloud App Security (na guia Investigar).</li><li>Verifique [o Gerenciador de](../../compliance/compliance-manager.md) Conformidade para revisar o status dos regulamentos que se aplicam à sua organização (como o RGPD, NIST 800-171).</li></ul>|
 |Proteção contra ameaças|Implementar proteções aprimoradas para contas de administrador: <ul><li>Configure [As Estações de Trabalho de](/security/compass/privileged-access-devices) Acesso Privilegiado (PAWs) para atividade de administrador.</li><li>Configure [o Azure AD Privileged Identity Management](/azure/active-directory/active-directory-privileged-identity-management-configure).</li><li>Configure uma ferramenta de gerenciamento de eventos e informações de segurança (SIEM) para coletar dados de registro em log de Office 365, Cloud App Security e outros serviços, incluindo o AD FS. O log de auditoria armazena dados por apenas 90 dias. Capturar esses dados na ferramenta SIEM permite armazenar dados por um período mais longo.</li></ul>|
 |Gerenciamento de identidades e acesso|<ul><li>Habilitar e impor o MFA para todos os usuários.</li><li>Implemente um conjunto [de acesso condicional e políticas relacionadas.](microsoft-365-policies-configurations.md)</li></ul>|
 |Proteção de informações| Adapte e implemente políticas de proteção de informações. Esses recursos incluem exemplos: <ul><li>[Proteção de Informações do Office 365 para o RGPD](/compliance/regulatory/gdpr)</li><li>[Configure o Teams com três camadas de proteção](../../solutions/configure-teams-three-tiers-protection.md)</li></ul> <p> Use políticas de prevenção contra perda de dados e ferramentas de monitoramento Microsoft 365 dados armazenados em Microsoft 365 (em vez de Cloud App Security). <p> Use Cloud App Security com Microsoft 365 para recursos avançados de alerta (além da prevenção contra perda de dados).|
@@ -93,7 +93,7 @@ Estas são medidas de segurança importantes que se baseam no trabalho anterior.
 
 |Área|Tarefa|
 |---|---|
-|Gerenciamento de segurança|<ul><li>Continue planejando as próximas ações usando a Pontuação Segura ( <https://securescore.office.com> ).</li><li>Continue a revisar regularmente painéis e relatórios no portal Microsoft 365 defender, Cloud App Security e ferramentas SIEM.</li><li>Continue procurando e implementando atualizações de software.</li><li>Integre a Descoberta E Aos seus processos legais e de resposta a ameaças.</li></ul>|
+|Gerenciamento de segurança|<ul><li>Continue planejando as próximas ações usando a Pontuação Segura ( <https://securescore.office.com> ).</li><li>Continue a revisar regularmente painéis e relatórios no portal Microsoft 365 Defender, Cloud App Security e ferramentas SIEM.</li><li>Continue procurando e implementando atualizações de software.</li><li>Integre a Descoberta E Aos seus processos legais e de resposta a ameaças.</li></ul>|
 |Proteção contra ameaças|<ul><li>Implemente [o Acesso Privilegiado Seguro](/windows-server/identity/securing-privileged-access/securing-privileged-access) (SPA) para componentes de identidade no local (AD, AD FS).</li><li>Use Cloud App Security para monitorar ameaças internas.</li><li>Descubra o uso do SaaS de IT de sombra usando Cloud App Security.</li></ul>|
 |Gerenciamento de identidades e acesso|<ul><li>Refine políticas e processos operacionais.</li><li>Use a Proteção de Identidade do Azure AD para identificar ameaças internas.</li></ul>|
 |Proteção de informações|Refine as políticas de proteção de informações: <ul><li>Microsoft 365 e Office 365 de sensibilidade e prevenção contra perda de dados (DLP) ou Proteção de Informações do Azure.</li><li>Cloud App Security políticas e alertas.</li></ul>|

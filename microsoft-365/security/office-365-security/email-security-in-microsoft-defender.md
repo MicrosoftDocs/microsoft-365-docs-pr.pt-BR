@@ -16,12 +16,12 @@ description: Exibir e investigar tentativas de phishing de malware.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: eb62961bb26b079c508cbd5bc559a95d172cff86
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: cebe76536c5ed309ca16777e85c5cdf919d0fb5c
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029880"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53082991"
 ---
 # <a name="email-security-with-threat-explorer-in-microsoft-defender-for-office-365"></a>Segurança de email com o Explorador de Ameaças no Microsoft Defender para Office 365
 
@@ -43,7 +43,7 @@ Este artigo explica como exibir e investigar tentativas de malware e phishing de
 
 ## <a name="view-malware-detected-in-email"></a>Exibir malware detectado no email
 
-Para ver malware detectado em emails organizados pela tecnologia Microsoft 365, use o > [Detecções](threat-explorer-views.md#email--malware) de Malware de Email do Explorer (ou detecções em tempo real). Malware é o modo de exibição padrão, portanto, ele pode ser selecionado assim que você abrir o Explorer.
+Para ver malware detectado em emails organizados pela tecnologia Microsoft 365, use a exibição [**\> Malware**](threat-explorer-views.md#email--malware) de Email do Explorer (ou detecções em tempo real). Malware é o modo de exibição padrão, portanto, ele pode ser selecionado assim que você abrir o Explorer.
 
 1. No portal Microsoft 365 Defender ( <https://security.microsoft.com> ), escolha **Email & colaboração** \> **Explorer** (ou **detecções** em tempo real; Este exemplo usa o Explorer).
 

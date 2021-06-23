@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender a configurar uma caixa de correio para coletar emails de spam e phishing relatados pelos usuários.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e990721dacaa373b6782ee916f051e4753f3edfd
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: f59548a1f36e067d8b649f7fe22149362d6fe9c6
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055123"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083531"
 ---
 # <a name="user-reported-message-settings"></a>Configurações de mensagem relatadas pelo usuário
 
@@ -68,7 +68,7 @@ Depois de verificar se sua caixa de correio atende a todos os pré-requisitos ap
 
 - Para modificar a configuração para envios do usuário, você precisa ser membro de um dos seguintes grupos de função:
 
-  - **Gerenciamento da** organização **ou Administrador de** Segurança no portal Microsoft 365 Defender [.](permissions-in-the-security-and-compliance-center.md)
+  - **Gerenciamento da** organização **ou Administrador de** Segurança nas Permissões no portal Microsoft 365 Defender [.](permissions-microsoft-365-security-center.md)
   - **Gerenciamento de organização** em [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).
 
 - Você precisa acessar o Exchange Online PowerShell. Se a conta que você está tentando usar não tiver acesso ao Exchange Online PowerShell, você receberá um erro com esta aparência ao especificar a caixa de correio de envios:

@@ -20,12 +20,12 @@ description: Os administradores podem aprender a ativar Cofre anexos para ShareP
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a654db40e5dec8d23d07ec7455216fe4e0a8c0e7
-ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
+ms.openlocfilehash: b64b3cfb29b3be999c9e26804e35dc4d02e48fbb
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52933006"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083087"
 ---
 # <a name="turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Ative os anexos seguros para SharePoint, OneDrive e Microsoft Teams
 
@@ -43,7 +43,7 @@ Este artigo contém as etapas para habilenciar e configurar Cofre anexos para Sh
 
 - Abra o portal do Microsoft 365 Defender em <https://security.microsoft.com>. Para ir diretamente para a página **Cofre Anexos,** abra <https://security.microsoft.com/safeattachmentv2> .
 
-- Para ativar Cofre anexos para SharePoint, OneDrive e Microsoft Teams, você precisa ser membro dos grupos  de função  Gerenciamento da Organização ou Administrador de Segurança no portal do Microsoft 365 Defender. Para obter mais informações, consulte [Permissões no portal Microsoft 365 Defender](permissions-in-the-security-and-compliance-center.md).
+- Para ativar Cofre anexos para SharePoint, OneDrive e Microsoft Teams, você precisa ser membro dos  grupos  de função Gerenciamento da Organização ou Administrador de Segurança no portal Microsoft 365 Defender. Para obter mais informações, veja [Permissões no portal do Microsoft 365 Defender](permissions-microsoft-365-security-center.md).
 
 - Para usar SharePoint PowerShell Online para impedir que as pessoas baixem arquivos mal-intencionados, você precisa ser membro das funções Administrador [Global](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator) ou SharePoint [Administrador](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#sharepoint-administrator) no Azure AD.
 
@@ -53,7 +53,7 @@ Este artigo contém as etapas para habilenciar e configurar Cofre anexos para Sh
 
 ## <a name="step-1-use-the-microsoft-365-defender-portal-to-turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Etapa 1: use o portal Microsoft 365 Defender para ativar Cofre anexos para SharePoint, OneDrive e Microsoft Teams
 
-1. No portal Microsoft 365 Defender, vá para **Políticas** & políticas políticas de ameaça \>  \>  seção \> **Cofre Anexos**.
+1. No portal Microsoft 365 Defender, vá para Políticas & **políticas** políticas de ameaça \>  \>  seção \> **Cofre Anexos**.
 
 2. Na página **Cofre Anexos,** clique em **Configurações globais**.
 
@@ -96,7 +96,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-
 
 Você pode criar uma política de alerta que notifica você e outros administradores quando Cofre anexos para SharePoint, OneDrive e Microsoft Teams detecta um arquivo mal-intencionado. Para saber mais sobre alertas, consulte [Create activity alerts in the Microsoft 365 Defender portal](../../compliance/create-activity-alerts.md).
 
-1. No portal Microsoft 365 Defender, acesse **Políticas** & \> **política de alerta** ou abra <https://security.microsoft.com/alertpolicies> .
+1. No portal Microsoft 365 Defender, acesse Políticas & **política** \> **de alerta ou** abra <https://security.microsoft.com/alertpolicies> .
 
 2. Na página **Política de alerta,** clique em **Nova política de alerta.**
 
@@ -142,7 +142,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [New-
 
 - Para verificar se você a Cofre anexos para SharePoint, OneDrive e Microsoft Teams, use uma das seguintes etapas:
 
-  - No portal do Microsoft 365 Defender,  vá até Políticas & políticas políticas de ameaças seção Cofre Anexos , selecione Configurações globais e verifique o valor da configuração Ativar o Defender para Office 365 para \>  \>  \>  **SharePoint, OneDrive e Microsoft Teams.** 
+  - No portal Microsoft 365 Defender, vá até  Políticas & regras Políticas de Políticas de Ameaças seção \>  \>  \> **Cofre Anexos,** selecione **Configurações** Globais e verifique o valor da configuração Ativar o Defender para Office 365 para **SharePoint, OneDrive** e Microsoft Teams.
 
   - No Exchange Online PowerShell, execute o seguinte comando para verificar a configuração da propriedade:
 
@@ -161,8 +161,8 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [New-
   Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Get-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant).
 
 - Para verificar se você configurou com êxito uma política de alerta para arquivos detectados, use qualquer uma das seguintes etapas:
-  - No portal Microsoft 365 Defender, acesse **Políticas** & Política de alerta selecione a política de alerta e \>  \> verifique as configurações.
-  - No Microsoft 365 portal do Defender PowerShell, substitua pelo nome da política de alerta, execute o seguinte comando e \<AlertPolicyName\> verifique os valores da propriedade:
+  - No portal Microsoft 365 Defender, vá para Políticas & Política de alerta selecione **a** política de alerta e verifique \>  \> as configurações.
+  - No Microsoft 365 Defender portal PowerShell, substitua pelo nome da política de alerta, execute o seguinte comando e \<AlertPolicyName\> verifique os valores da propriedade:
 
     ```powershell
     Get-ActivityAlert -Identity "<AlertPolicyName>"

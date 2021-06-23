@@ -14,13 +14,13 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Os clientes do Microsoft Defender Office 365 E5 e P1 e P2 agora podem obter uma exibição de 360 graus de cada página de email com entidade de email.
-ms.openlocfilehash: c45b45101c27e92dd0fa8776ca5d8ee9eb3af5b7
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+description: Os clientes do Microsoft Defender para Office 365 E5 e P1 e P2 agora podem obter uma exibição de 360 graus de cada email com a página de entidade de email.
+ms.openlocfilehash: d2f5a5b20034ef22b8e3894885079609a9ad5874
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878455"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083255"
 ---
 # <a name="the-email-entity-page"></a>A página de entidade de email
 
@@ -34,26 +34,16 @@ Os administradores do Microsoft Defender para Office 365 (ou MDO) E5 e MDO P1 e 
 
 ## <a name="reach-the-email-entity-page"></a>Alcançar a página da entidade de email
 
-O centro de conformidade & segurança existente ou o novo portal Microsoft 365 Defender permitirão que você veja e use a página da entidade de email.
+A página da entidade de email está disponível no portal Microsoft 365 defender ( <https://security.microsoft.com> ) em Email & **collaboration** \> **Explorer**. Ou, para ir diretamente para a página **Explorer,** use <https://security.microsoft.com/threatexplorer> .
 
-<br>
+No **Explorer,** selecione o assunto de um email que você está investigando. Uma barra de ouro será exibida na parte superior do sub-envio de email para esse email. Este convite para a nova página, lê 'Experimente nossa nova página de entidade de email com dados enriquecidos...'. Selecione para exibir a nova página.
 
-****
-
-|Centro|URL|Navegação|
-|---|---|---|
-|Centro de Conformidade e Segurança|<https://protection.office.com>|Explorador de Gerenciamento de \> Ameaças|
-|Microsoft 365 Portal do Defender|<https://security.microsoft.com>|Explorador de colaboração & \> email|
-|
-
-No Explorador de Ameaças, selecione o assunto de um email que você está investigando. Uma barra de ouro será exibida na parte superior do sub-envio de email para esse email. Este convite para a nova página, lê 'Experimente nossa nova página de entidade de email com dados enriquecidos...'. Selecione para exibir a nova página.
-
-:::image type="content" source="../../media/email-entities-1-navigation-to-ee.png" alt-text="Você verá uma faixa dourada com as palavras *Experimente nossa nova página de entidade de email com dados enriquecidos* para navegar até a nova experiência.":::
+:::image type="content" source="../../media/email-entities-1-navigation-to-ee.png" alt-text="Você verá uma faixa de ouro com as palavras *Experimente nossa nova página de entidade de email com dados enriquecidos* para navegar até a nova experiência.":::
 
 :::image type="content" source="../../media/email-entities-2-eep.png" alt-text="Este gráfico da página da entidade de email se concentra nos títulos que você verá. Observe que o header de email é exibido aqui.":::
 
 > [!NOTE]
-> As permissões necessárias para exibir e usar essa página são as mesmas que exibir o Explorador de Ameaças. O administrador deve ser membro do administrador global ou leitor global, ou administrador de segurança ou leitor de segurança.
+> As permissões necessárias para exibir e usar esta página são as mesmas que exibir o **Explorer**. O administrador deve ser membro do administrador global ou leitor global, ou administrador de segurança ou leitor de segurança. Para obter mais informações, veja [Permissões no portal do Microsoft 365 Defender](permissions-microsoft-365-security-center.md).
 
 ## <a name="read-the-email-entity-page"></a>Ler a página da entidade de email
 
@@ -63,7 +53,7 @@ A estrutura foi projetada para ser fácil de ler e navegar rapidamente. Várias 
 
     :::image type="content" source="../../media/email-entities-3-left-panel.png" alt-text="Gráfico da página da entidade de email com o lado esquerdo realçado. O título e os fatos sobre a entrega de email estão aqui.":::
 
-2. No canto superior direito estão as ações que podem ser tomadas em um email. Todas as ações que podem ser realizadas por meio do Explorer também estarão disponíveis por meio da página entidade de email.
+2. No canto superior direito estão as ações que podem ser tomadas em um email. Todas as ações que podem ser realizadas por meio do **Explorer** também estarão disponíveis por meio da página entidade de email.
 
     :::image type="content" source="../../media/email-entities-5-preview.png" alt-text="Gráfico da página da entidade de email com o lado *right* realçado, desta vez. Ações como 'Visualização de email' e 'Ir para quarentena' estão aqui.":::
 
@@ -75,7 +65,7 @@ A estrutura foi projetada para ser fácil de ler e navegar rapidamente. Várias 
 
 As guias ao longo da parte superior da página de entidade permitirão que você investigue emails com eficiência.
 
-1. **Linha** do tempo : a exibição da linha do tempo de um email (de acordo com a linha do tempo do Explorador de Ameaças) mostra a entrega original para eventos pós-entrega que ocorrem em um email. Para emails que não têm ações pós-entrega, a exibição mostra a linha de entrega original no tempo de exibição. Eventos como: limpeza automática de hora zero (ZAP), correção, cliques de URL, et cetera, de fontes como: sistema, administrador e usuário, aparecem aqui, na ordem em que ocorreram.
+1. **Linha** do tempo : a exibição da linha do tempo de um email (por linha do tempo do **Explorer)** mostra a entrega original para eventos pós-entrega que ocorrem em um email. Para emails que não têm ações pós-entrega, a exibição mostra a linha de entrega original no tempo de exibição. Eventos como: limpeza automática de hora zero (ZAP), correção, cliques de URL, et cetera, de fontes como: sistema, administrador e usuário, aparecem aqui, na ordem em que ocorreram.
 2. **Análise**: A análise mostra campos que ajudam os administradores a analisar um email detalhadamente. Para os casos em que os administradores precisam entender mais sobre os detalhes de detecção, remetente/destinatário e autenticação de email, eles devem usar a guia Análise. Links para Anexos e URLs também são encontrados nesta página, em "Entidades Relacionadas". Os anexos e as ameaças identificadas são numerados aqui e clicar levará você diretamente para as páginas Anexos e URL. Essa guia também tem uma opção De exibição de header para *mostrar o header de email*. Os administradores podem comparar qualquer detalhe dos headers de email, lado a lado com informações no painel principal, para obter mais clareza.
 3. **Anexos**: isso examina anexos encontrados no email com outros detalhes encontrados em anexos. O número de anexos mostrados atualmente está limitado a 10. Observe que detalhes de detonação para anexos considerados mal-intencionados também são mostrados aqui.
 4. **URLs**: Esta guia lista URLs encontradas no email com outros detalhes sobre as URLs. O número de URLs está limitado a 10 no momento, mas essas 10 são priorizadas para mostrar *URLs mal-intencionadas primeiro.* A priorização economiza tempo e trabalho de suposição. As URLs que foram encontradas como mal-intencionadas e detonadas também serão mostradas aqui.
@@ -87,10 +77,10 @@ Há novos recursos que vêm com essa página de entidade de email. Aqui está a 
 
 ### <a name="email-preview-for-cloud-mailboxes"></a>Visualização de email para caixas de correio de nuvem
 
-Os administradores podem visualizar emails em caixas de correio de nuvem, ***se*** os emails ainda estão presentes na Nuvem. No caso de uma exclusão suave (por um administrador ou usuário) ou ZAP (para quarentena), os emails não estão mais presentes no local da nuvem. Nesse caso, os administradores não poderão visualizar esses emails específicos. Emails que foram descartados ou onde a entrega falhou, nunca chegou realmente à caixa de correio. Como resultado, os administradores também não poderão visualizar esses emails.
+Os administradores podem visualizar emails em caixas de correio de nuvem, ***se*** os emails ainda estão presentes na Nuvem. No caso de uma exclusão suave (por um administrador ou usuário) ou ZAP (para quarentena), os emails não estão mais presentes no local da nuvem. Nesse caso, os administradores não poderão visualizar esses emails específicos. Emails que foram descartados, ou onde a entrega falhou, nunca entraram na caixa de correio. Como resultado, os administradores também não poderão visualizar esses emails.
 
 > [!WARNING]
-> A visualização de emails requer uma função especial chamada ***Preview** _ a ser atribuída aos administradores. Você pode adicionar essa função indo para _ *Permissões*& funções * > **Funções** de colaboração email & em *security.microsoft.com* ou **Permissões** em *protection.office.com*. Adicione a ***função Visualização*** a qualquer um dos grupos de função ou uma cópia de um grupo de funções que permite que os administradores em sua organização trabalhem no Explorador de Ameaças.
+> A visualização de emails requer uma função especial chamada **Visualização**. Você pode adicionar essa função no portal Microsoft 365 Defender conforme descrito em Email & funções de colaboração no [portal Microsoft 365 Defender .](permissions-microsoft-365-security-center.md#email--collaboration-roles-in-the-microsoft-365-defender-portal) Talvez seja necessário criar um novo grupo de função de colaboração email **&** e adicionar a função **De** visualização a esse novo grupo de funções ou adicionar a função **Visualização** a um grupo de funções que permite que os administradores em sua organização trabalhem no **Explorer**.
 
 ### <a name="detonation-details"></a>Detalhes da detonação
 
@@ -99,6 +89,7 @@ Esses detalhes são específicos para anexos de email e URLs. Os usuários podem
 Os usuários verão detalhes de detonação enriquecidos para anexos mal-intencionados conhecidos ou URLs encontrados em seus emails, que foram detonados para seu locatário específico. Ele será composto pelos detalhes de comportamento de Detonação, Detonação, Captura de Tela e Comportamento Observado para ajudar os clientes a entender por que o anexo ou a URL foi considerado mal-intencionado e detonado.
 
 1. *Cadeia de detonação*. Uma única detonação de arquivo ou URL pode disparar várias detonações. A cadeia de detonação rastreia o caminho das detonações, incluindo o arquivo mal-intencionado original ou a URL que causou o veredito, e todos os outros arquivos ou URLs efetivados pela detonação. Essas URLs ou arquivos anexados podem não estar diretamente presentes no email, mas incluir essa análise é importante para determinar por que o arquivo ou URL foi considerado mal-intencionado.  
+
     > [!NOTE]
     > Isso pode mostrar apenas o item de nível superior se nenhuma das entidades vinculadas a ele foi encontrada problemática ou foi detonada.
 
@@ -119,7 +110,7 @@ Os usuários verão detalhes de detonação enriquecidos para anexos mal-intenci
 
 *Detalhes de* email : Detalhes necessários para uma compreensão mais profunda do email disponível *na* guia Análise.
 
-- Exchange regras de transporte *(ETRs* ou regras de fluxo de emails) : Essas regras são aplicadas a uma mensagem na camada de transporte e têm precedência sobre vereditos de phishing e spam. Elas só podem ser criadas e modificadas no centro de administração Exchange, mas se qualquer ETR se aplicar a uma mensagem, o nome ETR e GUID serão mostrados aqui. Informações valiosas para fins de controle.
+- Exchange de transporte (também conhecidas como regras de fluxo de emails ou *ETRs)*: Essas regras são aplicadas a uma mensagem na camada de transporte e têm precedência sobre vereditos de phishing e spam. Elas só podem ser criadas e modificadas no centro de administração Exchange, mas se qualquer ETR se aplicar a uma mensagem, o nome ETR e GUID serão mostrados aqui. Informações valiosas para fins de controle.
 
 - *Substituições do* sistema : isso é um meio de fazer exceções ao local de entrega destinado a uma mensagem substituindo o local de entrega dado pelo sistema (de acordo com a tecnologia de detecção e ameaça).
 
@@ -155,7 +146,7 @@ Os usuários verão detalhes de detonação enriquecidos para anexos mal-intenci
   - Falha (motivo): indica que a verificação DKIM da mensagem falhou e por quê. Por exemplo, se a mensagem não foi assinada ou se a assinatura não foi verificada.
   - Nenhum: Indica que a mensagem não foi assinada. Isso pode ou não indicar que o domínio tem um registro DKIM ou o registro DKIM não foi avaliado como um resultado, apenas que essa mensagem não foi assinada.
 
-- Autenticação, relatórios e conformidade de mensagens baseadas em domínio (**DMARC**):
+- Autenticação, relatório e conformidade de mensagens baseadas em domínio (**DMARC**):
   - Passagem: indica a verificação DMARC da mensagem passada.
   - Falha: indica que a verificação DMARC da mensagem falhou.
   - Bestguesspass: Indica que não existe nenhum registro TXT DMARC para o domínio, mas se um tivesse existido, a verificação DMARC da mensagem teria passado.

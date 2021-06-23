@@ -13,12 +13,12 @@ ms.collection:
 description: Saiba como relatar falsos positivos e falsos negativos no Outlook usando o recurso Mensagem de Relatório.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 84a5b697f8a4b46cf79c542485bfafb396328f5c
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 458e7d16e2614e7bac3a0aac5a4310e6353ab569
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789238"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53082919"
 ---
 # <a name="report-false-positives-and-false-negatives-in-outlook"></a>Relatar falsos positivos e falsos negativos no Outlook
 
@@ -30,20 +30,20 @@ ms.locfileid: "52789238"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 > [!NOTE]
-> Se você for um administrador em uma organização Microsoft 365 com caixas de correio Exchange Online, recomendamos que você use o portal Envios no Centro de Conformidade & Segurança. Para obter mais informações, [consulte Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](admin-submission.md).
+> Se você for um administrador em uma organização Microsoft 365 com caixas de correio Exchange Online, recomendamos que você use a página **Envios** no portal Microsoft 365 Defender. Para obter mais informações, [consulte Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](admin-submission.md).
 
 Em organizações com caixas de correio em Exchange Online ou caixas de correio locais usando autenticação moderna híbrida, você pode enviar falsos positivos (bons emails bloqueados ou enviados para a pasta de lixo eletrônico) e falsos negativos (email indesejado ou phishing que foi entregue à caixa de entrada) para Proteção do Exchange Online (EOP). Microsoft 365
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Para a melhor experiência de envio do usuário, use o complemento Mensagem de Relatório ou o complemento Relatar Phishing.
 
   > [!IMPORTANT]
   > A experiência interna para relatar lixo eletrônico ou phishing Outlook não pode usar a [política de envio do usuário.](./user-submission.md) Em vez disso, recomendamos o uso do add-in Mensagem de Relatório ou do add-in Relatar Phishing.
 
-- O complemento Mensagem de Relatório e o add-in De Relatório phishing funcionam para Outlook em todas as plataformas (Outlook na Web, iOS, Android e Área de Trabalho).
+- O add-in de Mensagem de Relatório e o complemento Phishing de Relatório funcionam para Outlook em todas as plataformas (Outlook na Web, iOS, Android e Área de Trabalho).
 
-- Se você for um administrador em uma organização com Exchange Online caixas de correio, use o portal Envios no Centro de Conformidade & Segurança. Para obter mais informações, [consulte Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](admin-submission.md).
+- Se você for um administrador em uma organização com Exchange Online caixas de correio, use o portal Envios no portal Microsoft 365 Defender portal. Para obter mais informações, [consulte Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](admin-submission.md).
 
 - Você pode configurar para enviar mensagens diretamente para a Microsoft, uma caixa de correio especificada ou ambas. Para obter mais informações, consulte [Políticas de envios de usuário](user-submission.md).
 
@@ -60,7 +60,7 @@ Para mensagens na Caixa de Entrada ou em qualquer outra pasta de email, exceto L
 1. Selecione as **releições** Mais ações no canto superior direito da mensagem selecionada, selecione **Relatar** mensagem no menu suspenso e selecione **Lixo** Eletrônico ou **Phishing**.
 
    ![Mensagem de Relatório - Mais ações](../../media/report-message-more-actions.png)
-   
+
    ![Mensagem de Relatório - Lixo Eletrônico e Phishing](../../media/report-message-junk-phishing.png)
 
 2. As mensagens selecionadas serão enviadas à Microsoft para análise e:
@@ -72,7 +72,7 @@ Para mensagens na Caixa de Entrada ou em qualquer outra pasta de email, exceto L
 1. Selecione as releições Mais ações no canto superior direito da mensagem selecionada, selecione **Relatar** mensagem no menu suspenso e selecione **Não Lixo Eletrônico**. 
 
    ![Mensagem de Relatório - Mais ações](../../media/report-message-more-actions.png)
-   
+
    ![Mensagem de relatório - Não lixo eletrônico](../../media/report-message-not-junk.png)
 
 2. A mensagem selecionada será enviada à Microsoft para análise e movida para a Caixa de Entrada ou qualquer outra pasta especificada.
@@ -81,5 +81,5 @@ Para mensagens na Caixa de Entrada ou em qualquer outra pasta de email, exceto L
 
 Para revisar as mensagens relatadas pelos usuários à Microsoft, você tem estas opções:
 
-- Use o portal Envios de Administrador. Para obter mais informações, consulte [Exibir envios de usuários para a Microsoft](admin-submission.md#view-user-submissions-to-microsoft).
+- Use a **página Envios** no portal Microsoft 365 Defender. Para obter mais informações, consulte [Exibir envios de usuários para a Microsoft](admin-submission.md#view-user-submissions-to-microsoft).
 - Crie uma regra de fluxo de emails (também conhecida como regra de transporte) para enviar cópias de mensagens relatadas. Para obter instruções, [consulte Use mail flow rules to see what users are reporting to Microsoft](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-see-what-users-are-reporting-to-microsoft).

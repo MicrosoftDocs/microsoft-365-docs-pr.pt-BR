@@ -20,12 +20,12 @@ ms.custom:
 description: Os administradores podem aprender a usar o treinamento de simulação de ataque para executar ataques simulados de phishing e senha em suas Microsoft 365 E5 ou no Microsoft Defender para organizações Office 365 Plano 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 182d3d3c1d3b7c0c43caa8a809e993933707af00
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: ad86f77399cfa2a3a780d3fed7e483e3c11bc08d
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878779"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53082895"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>Começar a usar o Treinamento de simulação de ataque
 
@@ -33,28 +33,28 @@ ms.locfileid: "52878779"
 
 **Aplica-se ao** [Microsoft Defender para Office 365 plano 2](defender-for-office-365.md)
 
-Se sua organização tiver um Microsoft 365 E5 ou o Microsoft Defender para o plano 2 do Office 365, que inclui recursos de Investigação e Resposta contra [Ameaças,](office-365-ti.md)você pode usar o treinamento de simulação de ataque no portal do Microsoft 365 Defender para executar cenários de ataque realistas em sua organização. Esses ataques simulados podem ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real impacte sua linha inferior. Leia este artigo para saber mais.
+Se sua organização tiver um Microsoft 365 E5 ou o Microsoft Defender para Office 365 Plano 2, que inclui recursos de Investigação e Resposta contra [Ameaças,](office-365-ti.md)você poderá usar o treinamento de simulação de ataque no portal Microsoft 365 Defender para executar cenários de ataque realistas em sua organização. Esses ataques simulados podem ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real impacte sua linha inferior. Leia este artigo para saber mais.
 
 > [!NOTE]
 > O treinamento de simulação de ataque substitui a experiência antiga do Simulador de Ataque v1 descrita no [Simulador](attack-simulator.md)de Ataques no Microsoft Defender para Office 365 .
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Para abrir o portal Microsoft 365 Defender, vá para <https://security.microsoft.com> . Treinamento de simulação de ataque está disponível em Treinamento de **simulação** de ataque e email \> **e colaboração.** Para ir diretamente ao treinamento de simulação de ataque, abra <https://security.microsoft.com/attacksimulator> .
+- Para abrir o portal do Microsoft 365 Defender, vá para <https://security.microsoft.com>. Treinamento de simulação de ataque está disponível em Treinamento de **simulação** de ataque e email \> **e colaboração.** Para ir diretamente ao treinamento de simulação de ataque, abra <https://security.microsoft.com/attacksimulator> .
 
 - Para obter mais informações sobre a disponibilidade do treinamento de simulação de ataque em assinaturas Microsoft 365 diferentes, consulte [Microsoft Defender for Office 365 service description](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
 
-- Você precisa ter permissões atribuídas no Centro de Conformidade & Segurança ou Azure Active Directory antes de poder fazer os procedimentos neste artigo. Especificamente, você precisa ser membro do **Gerenciamento** da **Organização,** Administrador de Segurança ou uma das seguintes funções:
+- Você precisa ter permissões atribuídas no portal Microsoft 365 Defender ou no Azure Active Directory antes de poder fazer os procedimentos neste artigo. Especificamente, você precisa ser membro do **Gerenciamento** da **Organização,** Administrador de Segurança ou uma das seguintes funções:
   - **Administradores do Simulador de Ataques**: Crie e gere todos os aspectos de campanhas de simulação de ataque.
   - **Autores de Carga do Simulador de Ataque**: Crie cargas de ataque que um administrador pode iniciar posteriormente.
 
-  Para obter mais informações, consulte [Permissões no Centro](permissions-in-the-security-and-compliance-center.md) de Conformidade & Segurança ou Sobre funções de [administrador.](../../admin/add-users/about-admin-roles.md)
+  Para obter mais informações, consulte [Permissões no portal Microsoft 365 Defender ou](permissions-microsoft-365-security-center.md) Sobre funções de [administrador](../../admin/add-users/about-admin-roles.md).
 
 - Não há cmdlets correspondentes do PowerShell para treinamento de simulação de ataque.
 
 - Os dados relacionados à simulação de ataque e treinamento são armazenados com outros dados do cliente para Microsoft 365 serviços. Para obter mais informações, [consulte Microsoft 365 data locations](../../enterprise/o365-data-locations.md). A simulação de ataque está disponível nas seguintes regiões: NAM, APC, EUR, IND, CAN, AUS, FRA, GBR, JPN e KOR.
 
-- A partir de 15 de junho de 2021, o treinamento de simulação de ataque está disponível GCC. Se sua organização tiver Office 365 G5 GCC ou Microsoft Defender para Office 365 (Plano 2) para Governo, você poderá usar o treinamento de simulação de ataque no portal do Microsoft 365 Defender para executar cenários de ataque realistas em sua organização, conforme descrito neste artigo. O treinamento de simulação de ataque ainda não está disponível GCC ambientes High ou DoD.
+- A partir de 15 de junho de 2021, o treinamento de simulação de ataque está disponível GCC. Se sua organização tiver Office 365 G5 GCC ou Microsoft Defender para Office 365 (Plano 2) para Governo, você poderá usar o treinamento de simulação de ataque no portal Microsoft 365 Defender para executar cenários de ataque realistas em sua organização, conforme descrito neste artigo. O treinamento de simulação de ataque ainda não está disponível GCC ambientes High ou DoD.
 
 > [!NOTE]
 > O treinamento de simulação de ataque oferece um subconjunto de recursos para clientes do E3 como uma avaliação. A oferta de avaliação contém a capacidade de usar uma carga de Coleta de Credenciais e a capacidade de selecionar experiências de treinamento 'ISA Phishing' ou 'Mass Market Phishing'. Nenhum outro recursos faz parte da oferta de avaliação do E3.

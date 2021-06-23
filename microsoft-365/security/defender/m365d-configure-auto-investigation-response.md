@@ -16,12 +16,12 @@ ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
 ms.technology: m365d
-ms.openlocfilehash: d3acf24d12b72a92af4246afdf11f67e01c45b2c
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: 4275339e048a4197590c91c5904733ce99b22f9f
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022493"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083435"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-365-defender"></a>Configurar recursos automatizados de investigação e resposta Microsoft 365 Defender
 
@@ -50,7 +50,7 @@ Em seguida, após a configuração, você pode exibir e gerenciar ações de [co
 |Requisitos de rede|<ul><li>[Microsoft Defender for Identity](/azure-advanced-threat-protection/what-is-atp) habilitado</li><li>[Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) configurado</li><li>[Integração do Microsoft Defender para Identidade](/cloud-app-security/mdi-integration)</li></ul>|
 |Requisitos de máquina do Windows|<ul><li>Windows 10, versão 1709 ou posterior instalada (Consulte [Windows 10 informações de versão](/windows/release-information/))</li><li>Os seguintes serviços de proteção contra ameaças configurados:<ul><li>[Microsoft Defender para Ponto de Extremidade](../defender-endpoint/configure-endpoints.md)</li><li>[Microsoft Defender Antivírus](/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features)</li></ul></li></ul>|
 |Proteção para conteúdo de email e Office arquivos|[Microsoft Defender para Office 365](/microsoft-365/security/office-365-security/defender-for-office-365#configure-atp-policies) configurado|
-|Permissões|Para configurar recursos automatizados de investigação e resposta, você deve ter a função administrador global ou administrador de segurança atribuída em Active Directory do Azure ( ) ou no Centro de administração do Microsoft 365 <https://portal.azure.com> ( <https://admin.microsoft.com> ). <p> Para obter as permissões necessárias para trabalhar com recursos automatizados de investigação e resposta, como revisão, aprovação ou rejeição de ações [pendentes,](m365d-action-center.md#required-permissions-for-action-center-tasks)consulte Permissões necessárias para tarefas do Centro de Ações.|
+|Permissões|Para configurar recursos automatizados de investigação e resposta, você deve ter a função Administrador Global ou Administrador de Segurança atribuída em Azure Active Directory ( ) ou no Centro de administração do Microsoft 365 <https://portal.azure.com> ( <https://admin.microsoft.com> ). <p> Para obter as permissões necessárias para trabalhar com recursos automatizados de investigação e resposta, como revisão, aprovação ou rejeição de ações [pendentes,](m365d-action-center.md#required-permissions-for-action-center-tasks)consulte Permissões necessárias para tarefas do Centro de Ações.|
 |
 
 ## <a name="review-or-change-the-automation-level-for-device-groups"></a>Revisar ou alterar o nível de automação para grupos de dispositivos
@@ -73,7 +73,7 @@ Embora determinados alertas e políticas de segurança possam disparar investiga
 
 As configurações de segurança no Office 365 ajudam a proteger o email e o conteúdo. Para exibir ou alterar essas configurações, siga as diretrizes em [Proteger contra ameaças](../office-365-security/protect-against-threats.md).
 
-1. No portal Microsoft 365 Defender ( [https://security.microsoft.com](https://security.microsoft.com) ), vá para **Políticas & Políticas de** Ameaças de \> **Regras.**
+1. No portal Microsoft 365 Defender ( <https://security.microsoft.com> ), vá para **Políticas & Políticas de** Ameaças de \> **Regras.**
 
 2. Certifique-se de que todas as políticas a seguir estão configuradas. Para obter ajuda e recomendações, consulte [Protect against threats](/microsoft-365/security/office-365-security/protect-against-threats).
    - [Anti-malware](../office-365-security/protect-against-threats.md#part-1---anti-malware-protection-in-eop)
@@ -82,9 +82,9 @@ As configurações de segurança no Office 365 ajudam a proteger o email e o con
    - [Links Seguros](../office-365-security/protect-against-threats.md#safe-links-policies-in-microsoft-defender-for-office-365)
    - [Anti-spam](../office-365-security/protect-against-threats.md#part-3---anti-spam-protection-in-eop)
 
-3. [Certifique-se de que o Microsoft Defender Office 365 para SharePoint, OneDrive e Microsoft Teams](../office-365-security/protect-against-threats.md#part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on) está ligado.
+3. [Certifique-se Cofre anexos](../office-365-security/mdo-for-spo-odb-and-teams.md) para SharePoint, OneDrive e Microsoft Teams está ligado.
 
-4. Certifique-se [de que a limpeza automática](../office-365-security/protect-against-threats.md#zero-hour-auto-purge-for-email-in-eop) zero hora para proteção de email está em vigor.
+4. Certifique-se de que a limpeza automática zero hora [(ZAP) no](../office-365-security/zero-hour-auto-purge.md) Exchange Online está em vigor.
 
 5. (Esta etapa é opcional.) Revise suas [Office 365 de alerta](../../compliance/alert-policies.md) no Centro de conformidade do Microsoft 365 ( [https://compliance.microsoft.com/compliancepolicies](https://compliance.microsoft.com/compliancepolicies) ). Várias políticas de alerta padrão estão na categoria Gerenciamento de ameaças. Alguns desses alertas podem disparar investigação e resposta automatizadas. Para saber mais, confira [Políticas de alerta padrão](../../compliance/alert-policies.md#default-alert-policies).
 

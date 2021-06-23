@@ -15,12 +15,12 @@ ms.collection:
 description: Os administradores podem aprender a aplicar configurações de política padrão e estrita nos recursos de proteção do Proteção do Exchange Online (EOP) e do Microsoft Defender para Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 24fe67a7465ec71451b649dbc5963c28e0dc7cf3
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: eb5fb2e882348e2cd0480abf5ad7217095b2522d
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879007"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083483"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Políticas de segurança predefinidas no EOP e no Microsoft Defender para Office 365
 
@@ -105,7 +105,7 @@ Em outras palavras, as  configurações da política de  proteção estrita subs
 
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Você abre o portal Microsoft 365 Defender em <https://security.microsoft.com> . Para ir diretamente para a página **Políticas de segurança** predefinidas, use <https://security.microsoft.com/presetSecurityPolicies> .
+- Abra o portal do Microsoft 365 Defender em <https://security.microsoft.com>. Para ir diretamente para a página **Políticas de segurança** predefinidas, use <https://security.microsoft.com/presetSecurityPolicies> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -115,16 +115,16 @@ Em outras palavras, as  configurações da política de  proteção estrita subs
 
   Para obter mais informações, confira [Permissões no Exchange Online](/exchange/permissions-exo/permissions-exo).
 
-  **Observação**: a adição de usuários à função Azure Active Directory correspondente no centro de  administração Microsoft 365 oferece aos usuários as permissões e permissões necessárias para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+  **Observação**: Adicionar usuários à função Azure Active Directory correspondente no Centro de administração do Microsoft 365 fornece aos usuários  as permissões e permissões necessárias para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 
 ### <a name="use-the-microsoft-365-defender-portal-to-assign-preset-security-policies-to-users"></a>Use o portal Microsoft 365 Defender para atribuir políticas de segurança predefinidas aos usuários
 
-1. No portal Microsoft 365 Defender, acesse **Email & de** colaboração & Políticas de Ameaças de Regras Seção Políticas de \>  \>  \>  \> **segurança predefinidas**.
+1. No portal Microsoft 365 Defender, acesse **Email & de** colaboração políticas de & regras políticas modelo de políticas de segurança \>  \>  \>  \> **predefinidas**.
 
 2. Em **Proteção padrão ou** proteção **estrita,** clique em **Editar**.
 
 3. O **assistente Aplicar Proteção Padrão** ou Aplicar Proteção **Estrita** é iniciado. Nas **proteções do EOP aplicadas à** página, identifique os destinatários internos aos quais as proteções [do EOP](#policies-in-preset-security-policies) se aplicam (condições de destinatário):
-   - **Usuários**
+   - **Usuários** 
    - **Grupos**
    - **Domínios**
 
@@ -132,7 +132,7 @@ Em outras palavras, as  configurações da política de  proteção estrita subs
 
    Para usuários ou grupos, você pode usar a maioria dos identificadores (nome, nome de exibição, alias, endereço de email, nome da conta etc.), mas o nome de exibição correspondente será mostrado nos resultados. Para os usuários, insira um asterisco (\*) por si só para ver todos os valores disponíveis.
 
-   - **Excluir estes usuários, grupos e domínios**: para adicionar exceções para os destinatários internos aos quais a política se aplica (exceções de destinatários), selecione essa opção e configure as exceções. As configurações e o comportamento são exatamente como as condições.
+   - **Excluir esses usuários, grupos** e domínios : Para adicionar exceções para os destinatários internos aos quais a política se aplica (exceções de destinatário), selecione essa opção e configure as exceções. As configurações e o comportamento são exatamente como as condições.
 
    Ao terminar, clique em **Avançar**.
 
@@ -144,7 +144,7 @@ Em outras palavras, as  configurações da política de  proteção estrita subs
 
 5. Na página **Revisar e confirmar suas alterações,** verifique suas seleções e clique em **Confirmar**.
 
-### <a name="use-the-microsoft-365-defender-portal-to-modify-the-assignments-of-preset-security-policies"></a>Use o portal Microsoft 365 Defender para modificar as atribuições de políticas de segurança predefinidas
+### <a name="use-the-microsoft-365-defender-portal-to-modify-the-assignments-of-preset-security-policies"></a>Usar o portal Microsoft 365 Defender para modificar as atribuições de políticas de segurança predefinidas
 
 As etapas para modificar  a atribuição da política de segurança proteção padrão ou proteção estrita são as mesmas de quando você atribuiu inicialmente as políticas de segurança predefinidas [aos usuários](#use-the-microsoft-365-defender-portal-to-assign-preset-security-policies-to-users). 
 

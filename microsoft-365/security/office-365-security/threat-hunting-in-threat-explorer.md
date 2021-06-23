@@ -16,12 +16,12 @@ description: Use o Explorador de Ameaças ou detecções em tempo real no portal
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 71052cc5a3874da250772bfa628417824ba51c63
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 2b0c0c36cb481aac64b55467da4aaf9e3cf7a493
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930076"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083555"
 ---
 # <a name="threat-hunting-in-threat-explorer-for-microsoft-defender-for-office-365"></a>Busca de ameaças no Explorador de Ameaças para o Microsoft Defender para Office 365
 
@@ -68,7 +68,7 @@ No Microsoft Defender para Office 365, há dois planos de assinatura: Plano 1 e 
 
 O Defender para Office 365 Plano 1 usa detecções em tempo *real*, que é um subconjunto da ferramenta de busca *do Explorador* de Ameaças (também chamada de *Explorer)* no Plano 2. Nesta série de artigos, a maioria dos exemplos foi criada usando o Explorador de Ameaças completo. Os administradores devem testar todas as etapas em detecções em tempo real para ver onde se aplicam.
 
-Para abrir a ferramenta Explorer, vá para Microsoft 365 **Portal do Defender** Email & Colaboração  >    >  **Explorer**. Por padrão, você chegará na página **Malware,** mas use a lista de opções Exibir para se familiarizar com suas opções.  Se você estiver procurando Phish, ou pesquisando uma campanha de ameaça, escolha esses pontos de exibição.
+Para abrir a ferramenta Explorer, acesse Microsoft 365 Defender **portal Email**&  >  **colaboração**  >  **Explorer**. Por padrão, você chegará na página **Malware,** mas use a lista de opções Exibir para se familiarizar com suas opções.  Se você estiver procurando Phish, ou pesquisando uma campanha de ameaça, escolha esses pontos de exibição.
 
 > [!div class="mx-imgBorder"]
 > ![Exibir o drop-down no Explorador de Ameaças](../../media/view-drop-down.png)
@@ -252,7 +252,7 @@ Você deve ter [o Microsoft Defender para Office 365](defender-for-office-365.md
 
 Para exibir e usar detecções do Explorer ou em tempo real, você deve ter o seguinte:
 
-- Para o portal Microsoft 365 Defender:
+- Para o Microsoft 365 Defender portal:
 
   - Gerenciamento de Organização
   - Administrador de Segurança (isso pode ser atribuído no Azure Active Directory de administração ( <https://aad.portal.azure.com> )
@@ -267,11 +267,11 @@ Para exibir e usar detecções do Explorer ou em tempo real, você deve ter o se
 
 Para saber mais sobre funções e permissões, consulte os seguintes recursos:
 
-- [Permissões no portal do Microsoft 365 Defender](permissions-in-the-security-and-compliance-center.md)
+- [Permissões no portal do Microsoft 365 Defender](permissions-microsoft-365-security-center.md)
 - [Permissões de recursos no Exchange Online](/exchange/permissions-exo/feature-permissions)
 - [PowerShell do Exchange Online](/powershell/exchange/exchange-online-powershell)
 
-## <a name="more-information"></a>Mais Informações
+## <a name="more-information"></a>Mais informações
 
 - [Localizar e investigar emails mal-intencionados entregues](investigate-malicious-email-that-was-delivered.md) 
 - [Exibir arquivos mal-intencionados detectados no SharePoint Online, OneDrive e Microsoft Teams](mdo-for-spo-odb-and-teams.md) 

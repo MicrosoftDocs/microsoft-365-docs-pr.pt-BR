@@ -19,12 +19,12 @@ description: Use as detecções do Explorer e em tempo real no centro de seguran
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a7e3620859dfbc5f3d55501a880cef233e0a0be3
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 4a9a364f82b7f7836c2f0177dfbde80171b9c36f
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029580"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083219"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Explorador de Ameaças e Detecções em tempo real
 
@@ -293,7 +293,7 @@ Você poderá ver o GUID e o nome das regras de transporte que foram aplicadas �
 >
 > - Somente EXO - Prevenção contra Perda de Dados: Todos
 > - Somente EXO - O365SupportViewConfig: Todos
-> - Active Directory do Microsoft Azure ou EXO - Administrador de Segurança: Todos
+> - Microsoft Azure Active Directory ou EXO - Administrador de Segurança: Todos
 > - AAD ou EXO - Leitor de Segurança: Tudo
 > - Somente EXO - Regras de Transporte: Todos
 > - Somente EXO - View-Only configuração: todos
@@ -534,10 +534,10 @@ Além dos cenários descritos neste artigo, você tem muito mais opções de rel
 
 ## <a name="required-licenses-and-permissions"></a>Licenças e permissões necessárias
 
-Você deve ter [o Microsoft Defender para Office 365](defender-for-office-365.md) para usar detecções do Explorer ou em tempo real.
+Você deve ter [o Microsoft Defender para Office 365](defender-for-office-365.md) usar detecções do Explorer ou em tempo real.
 
 - O Explorer está incluído no Defender para Office 365 Plano 2.
-- O relatório de detecções em tempo real está incluído no Defender for Office 365 Plano 1.
+- O relatório de detecções em tempo real está incluído no Defender para Office 365 Plano 1.
 - Planeje atribuir licenças para todos os usuários que devem ser protegidos pelo Defender para Office 365. As detecções do Explorer e em tempo real mostram dados de detecção para usuários licenciados.
 
 Para exibir e usar detecções do Explorer ou em tempo real, você deve ter permissões apropriadas, como as concedidas a um administrador de segurança ou leitor de segurança.
@@ -545,10 +545,10 @@ Para exibir e usar detecções do Explorer ou em tempo real, você deve ter perm
 - Para o Centro de Conformidade & segurança, você deve ter uma das seguintes funções atribuídas:
 
   - Gerenciamento de Organização
-  - Administrador de Segurança (isso pode ser atribuído no centro de administração do Azure Active Directory ( <https://aad.portal.azure.com> )
+  - Administrador de Segurança (isso pode ser atribuído no Azure Active Directory de administração ( <https://aad.portal.azure.com> )
   - Leitor de segurança
 
-- Para o Exchange Online, você deve ter uma das seguintes funções atribuídas no Centro de administração do Exchange ( <https://admin.protection.outlook.com/ecp/> ) ou [no PowerShell do Exchange Online](/powershell/exchange/exchange-online-powershell):
+- Para Exchange Online, você deve ter uma das seguintes funções atribuídas no centro de administração do Exchange ( ) ou <https://admin.protection.outlook.com/ecp/> [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell):
 
   - Gerenciamento de Organização
   - Gerenciamento de Organização Somente Exibição
@@ -557,12 +557,12 @@ Para exibir e usar detecções do Explorer ou em tempo real, você deve ter perm
 
 Para saber mais sobre funções e permissões, consulte os seguintes recursos:
 
-- [Permissões no Centro de Segurança e Conformidade](permissions-in-the-security-and-compliance-center.md)
+- [Permissões no portal do Microsoft 365 Defender](permissions-microsoft-365-security-center.md)
 - [Permissões de recursos no Exchange Online](/exchange/permissions-exo/feature-permissions)
 
 ## <a name="differences-between-threat-explorer-and-real-time-detections"></a>Diferenças entre o Explorador de Ameaças e detecções em tempo real
 
-- O *relatório de detecções* em tempo real está disponível no Defender for Office 365 Plano 1. *O Explorador* de Ameaças está disponível no Defender para Office 365 Plano 2.
+- O *relatório de detecções* em tempo real está disponível no Defender para Office 365 Plano 1. *O Explorador* de Ameaças está disponível no Defender para Office 365 Plano 2.
 - O relatório de detecções em tempo real permite que você veja detecções em tempo real. O Explorador de Ameaças também faz isso, mas também fornece detalhes adicionais para um determinado ataque.
 - Uma *exibição todos os* emails está disponível no Explorador de Ameaças, mas não no relatório de detecções em tempo real.
 - Mais recursos de filtragem e ações disponíveis estão incluídos no Explorador de Ameaças. Para obter mais informações, consulte [Microsoft Defender for Office 365 Service Description: Feature availability across Defender for Office 365 plans](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).

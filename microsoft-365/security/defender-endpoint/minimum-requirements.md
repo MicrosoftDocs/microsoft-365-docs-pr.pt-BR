@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ccff6abcfcd1a2da32a8e1614a2de45afed69aef
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 52fa73774933ba90e8ca92dd1b337f983f5446c5
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842993"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53082907"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>Requisitos mínimos para o Microsoft Defender para Ponto de Extremidade
 
@@ -39,7 +39,7 @@ Há alguns requisitos mínimos para a integração de dispositivos ao serviço. 
 
 > [!TIP]
 > - Saiba mais sobre os aprimoramentos mais recentes no Defender for Endpoint: [Defender for Endpoint Tech Community](https://techcommunity.microsoft.com/t5/Windows-Defender-Advanced-Threat/ct-p/WindowsDefenderAdvanced).
-> - O Defender for Endpoint demonstrou recursos de detecção e ótica líderes do setor na avaliação recente do MITRE. Leitura: [Insights do MITRE ATT&avaliação baseada em CK.](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/)
+> - O Defender for Endpoint demonstrou recursos de detecção e ótica líderes do setor na avaliação recente do MITRE. Leitura: [Insights do MITRE ATT&avaliação baseada em CK](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/).
 
 ## <a name="licensing-requirements"></a>Requisitos de licenciamento
 
@@ -214,7 +214,7 @@ Quando Microsoft Defender Antivírus não é o antimalware ativo em sua organiza
 
 Se a sua organização tiver desligado Microsoft Defender Antivírus por meio de política de grupo ou outros métodos, os dispositivos que estão integrados devem ser excluídos dessa política de grupo.
 
-Se você estiver integrando servidores e Microsoft Defender Antivírus não for o antimalware ativo em seus servidores, o Microsoft Defender Antivírus precisará ser configurado para entrar no modo passivo ou desinstalado. A configuração depende da versão do servidor. Para obter mais informações, [consulte Microsoft Defender Antivírus compatibilidade](/security/defender-endpoint/microsoft-defender-antivirus-compatibility).
+Se você estiver integrando servidores e Microsoft Defender Antivírus não for o antimalware ativo em seus servidores, o Microsoft Defender Antivírus precisará ser configurado para entrar no modo passivo ou desinstalado. A configuração depende da versão do servidor. Para obter mais informações, [consulte Microsoft Defender Antivírus compatibilidade](microsoft-defender-antivirus-compatibility.md).
 
 > [!NOTE]
 > Sua política de grupo regular não se aplica à Proteção contra Adulteração, e as alterações nas configurações Microsoft Defender Antivírus serão ignoradas quando a Proteção contra Adulteração estiver em uso.

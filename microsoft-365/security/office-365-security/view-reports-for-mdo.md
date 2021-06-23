@@ -20,12 +20,12 @@ description: Os administradores podem aprender a encontrar e usar o Defender par
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5b9279614571c123ad92f1684f86175b410c6c5c
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: f7eab856f22ac1c2282e83897db6e3f93d4d97e6
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022802"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083507"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-microsoft-365-defender-portal"></a>Exibir o Defender Office 365 relatórios no portal Microsoft 365 Defender
 
@@ -207,9 +207,9 @@ Para exibir e usar os relatórios descritos neste artigo, você precisa ser memb
 - **Leitor de Segurança**
 - **Leitor Global**
 
-Para obter mais informações, consulte [Permissões no portal Microsoft 365 Defender .](permissions-in-the-security-and-compliance-center.md)
+Para obter mais informações, veja [Permissões no portal do Microsoft 365 Defender](permissions-microsoft-365-security-center.md).
 
-**Observação**: adicionar usuários à função Active Directory do Azure correspondente no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no _portal_ do Microsoft 365 Defender e permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+**Observação**: adicionar usuários à função Azure Active Directory correspondente no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no _portal_ Microsoft 365 Defender e permissões para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>E se os relatórios não mostrarem dados?
 
@@ -219,4 +219,4 @@ Se você não estiver vendo dados em seus relatórios do Defender Office 365, ve
 
 [Relatórios inteligentes e percepções no portal Microsoft 365 Defender portal](reports-and-insights-in-security-and-compliance.md)
 
-[Permissões de função (Active Directory do Azure](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#role-permissions)
+[Permissões de função (Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#role-permissions)

@@ -18,12 +18,12 @@ ms.collection:
 description: Os administradores podem aprender a exibir, criar, modificar e excluir Cofre políticas de links e configurações globais Cofre Links no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fb157792f0f9e80e4a974b59aebaa2e1991c5d0b
-ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
+ms.openlocfilehash: b4254d62cfa5844756392c00686e7b93c466d160
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52933114"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53082751"
 ---
 # <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas Cofre links no Microsoft Defender para Office 365
 
@@ -46,14 +46,14 @@ Não há política de links interna ou padrão Cofre Links. Para obter Cofre ver
 >
 > Os administradores devem considerar as diferentes configurações para Cofre Links. Uma das opções disponíveis é incluir informações de identificação do usuário em Cofre Links. Esse recurso permite que as *equipes de Operações* de Segurança investiguem possíveis comprometimentos do usuário, tome medidas corretivas e limitem violações custosas.
 
-Você pode configurar políticas de Links do Cofre no portal do Microsoft 365 Defender ou no PowerShell (Exchange Online PowerShell para organizações de Microsoft 365 qualificadas com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem caixas de correio Exchange Online, mas com o Microsoft Defender para assinaturas de complemento do Office 365).
+Você pode configurar políticas de Links do Cofre no portal do Microsoft 365 Defender ou no PowerShell (Exchange Online PowerShell para organizações de Microsoft 365 qualificadas com caixas de correio no Exchange Online; PowerShell autônomo do EOP para organizações sem caixas de correio Exchange Online, mas com o Microsoft Defender para assinaturas de complementos do Office 365).
 
 Os elementos básicos de uma política Cofre Links são:
 
 - A política de **links** seguros : ativar a proteção de links do Cofre, ativar a verificação de URL em tempo real, especificar se a verificação em tempo real deve ser concluída antes de entregar a mensagem, ativar a verificação de mensagens internas, especificar se deve rastrear os cliques do usuário em URLs e especificar se os usuários devem clicar na URL original.
 - **A regra de links seguros**: especifica a prioridade e os filtros de destinatário (a quem a política se aplica).
 
-A diferença entre esses dois elementos não é óbvia quando você gerencia as Cofre links no portal Microsoft 365 Defender:
+A diferença entre esses dois elementos não é óbvia quando você gerencia as Cofre links no portal Microsoft 365 Defender portal:
 
 - Ao criar uma política Cofre Links, você está realmente criando uma regra de links seguros e a política de links seguros associados ao mesmo tempo usando o mesmo nome para ambos.
 - Quando você modifica uma política Cofre Links, as configurações relacionadas ao nome, prioridade, habilitado ou desabilitado e filtros de destinatário modificam a regra de links seguros. Todas as outras configurações modificam a política de links seguros associados.
@@ -68,14 +68,14 @@ No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - Você precisa ter permissões atribuídas antes de poder fazer os procedimentos neste artigo:
-  - Para criar, modificar e excluir políticas Cofre Links, você precisa  ser membro  dos grupos de função Gerenciamento da Organização ou  Administrador de Segurança no **portal** do Microsoft 365 Defender e membro do grupo de função Gerenciamento da Organização no Exchange Online.
+  - Para criar, modificar e excluir Cofre políticas de Links, você  precisa ser  membro dos grupos de função Gerenciamento da Organização  ou Administrador de Segurança no **portal** Microsoft 365 Defender e membro do grupo de função Gerenciamento da Organização no Exchange Online.
   - Para acesso somente leitura às políticas Cofre Links, você precisa ser membro dos grupos de função Leitor **Global** ou **Leitor de** Segurança.
 
-  Para obter mais informações, consulte [Permissões no portal Microsoft 365 Defender](permissions-in-the-security-and-compliance-center.md) e Permissões em [Exchange Online](/exchange/permissions-exo/permissions-exo).
+  Para obter mais informações, consulte [Permissões no portal Microsoft 365 Defender e](permissions-microsoft-365-security-center.md) Permissões no [Exchange Online](/exchange/permissions-exo/permissions-exo).
 
   > [!NOTE]
   >
-  > - Adicionar usuários à função de Azure Active Directory correspondente no centro de administração Microsoft 365 fornece aos usuários as permissões necessárias no _portal_ do Microsoft 365 Defender e permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+  > - Adicionar usuários à função Azure Active Directory correspondente no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no _portal_ Microsoft 365 Defender e permissões para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
   . - O **grupo de função gerenciamento** de organização somente exibição no [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
 - Para nossas configurações recomendadas para políticas Cofre Links, [consulte Cofre configurações da](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)política links.
@@ -86,9 +86,9 @@ No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política 
 
 ## <a name="use-the-microsoft-365-defender-portal-to-create-safe-links-policies"></a>Usar o portal Microsoft 365 Defender para criar políticas Cofre Links
 
-Criar uma política Cofre links personalizados no portal do Microsoft 365 Defender cria a regra de links seguros e a política de links seguros associados ao mesmo tempo usando o mesmo nome para ambos.
+A criação de uma política Cofre links personalizada no portal Microsoft 365 Defender cria a regra de links seguros e a política de links seguros associados ao mesmo tempo usando o mesmo nome para ambos.
 
-1. No portal Microsoft 365 Defender, vá até Políticas & **políticas políticas** de ameaças seção \>  \>  \> **Cofre Links**.
+1. No portal Microsoft 365 Defender, vá até Políticas & **políticas políticas** de ameaças seção Cofre \>  \>  \> **Links**.
 
 2. Na página **Cofre Links,** clique em ![ Criar ícone ](../../media/m365-cc-sc-create-icon.png) **Criar**.
 
@@ -139,7 +139,7 @@ Criar uma política Cofre links personalizados no portal do Microsoft 365 Defend
 6. Na página **Notificação** exibida, selecione um dos seguintes valores para **Como você gostaria de notificar seus usuários?**:
    - **Usar o texto de notificação padrão**
    - **Use texto de notificação personalizado**: Se você selecionar esse valor, as seguintes configurações aparecerão:
-     - **Usar o Microsoft Tradutor para localização automática**
+     - **Usar Microsoft Translator para localização automática**
      - **Texto de notificação personalizado**: Insira o texto de notificação personalizado nesta caixa.
 
    Ao terminar, clique em **Avançar**.
@@ -150,9 +150,9 @@ Criar uma política Cofre links personalizados no portal do Microsoft 365 Defend
 
 8. Na mensagem de confirmação exibida, clique em **Concluído**.
 
-## <a name="use-the-microsoft-365-defender-portal-to-view-safe-links-policies"></a>Use o portal Microsoft 365 Defender para exibir Cofre links
+## <a name="use-the-microsoft-365-defender-portal-to-view-safe-links-policies"></a>Use o portal Microsoft 365 Defender para exibir Cofre Links
 
-1. No portal Microsoft 365 Defender, vá até Políticas & **políticas políticas** de ameaças seção \>  \>  \> **Cofre Links**.
+1. No portal Microsoft 365 Defender, vá até Políticas & **políticas políticas** de ameaças seção Cofre \>  \>  \> **Links**.
 
 2. Na página **Cofre Links,** as seguintes propriedades são exibidas na lista de políticas Cofre Links:
    - **Nome**
@@ -163,17 +163,17 @@ Criar uma política Cofre links personalizados no portal do Microsoft 365 Defend
 
 ## <a name="use-the-microsoft-365-defender-portal-to-modify-safe-links-policies"></a>Usar o portal Microsoft 365 Defender para modificar as políticas Cofre Links
 
-1. No portal Microsoft 365 Defender, vá até Políticas & **políticas políticas** de ameaças seção \>  \>  \> **Cofre Links**.
+1. No portal Microsoft 365 Defender, vá até Políticas & **políticas políticas** de ameaças seção Cofre \>  \>  \> **Links**.
 
 2. Na página **Cofre Links,** selecione uma política na lista clicando no nome.
 
-3. No submenu de detalhes da política exibido, selecione **Editar** em cada seção para modificar as configurações da seção. Para obter mais informações sobre as configurações, consulte a seção anterior Usar o portal Microsoft 365 Defender para criar Cofre [políticas de links](#use-the-microsoft-365-defender-portal-to-create-safe-links-policies) neste artigo.  
+3. No submenu de detalhes da política exibido, selecione **Editar** em cada seção para modificar as configurações da seção. Para obter mais informações sobre as configurações, consulte a seção [anterior Usar](#use-the-microsoft-365-defender-portal-to-create-safe-links-policies) o portal Microsoft 365 Defender para criar políticas Cofre Links neste artigo.  
 
 Para habilitar ou desabilitar uma política ou definir a ordem de prioridade da política, consulte as seções a seguir.
 
 ### <a name="enable-or-disable-safe-links-policies"></a>Habilitar ou desabilitar Cofre de links
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras \>  \>  \>  \> **Cofre Links**.
+1. No portal Microsoft 365 Defender, vá para **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras \>  \>  \>  \> **Cofre Links**.
 
 2. Na página **Cofre Links,** selecione uma política na lista clicando no nome.
 
@@ -198,7 +198,7 @@ Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou
 - No portal Microsoft 365 Defender, você só pode alterar a prioridade da política Cofre Links após a criação. No PowerShell, você pode substituir a prioridade padrão ao criar a regra de links seguros (que pode afetar a prioridade das regras existentes).
 - Cofre As políticas de links são processadas na ordem em que são exibidas (a primeira política tem **o valor Priority** 0). Para obter mais informações sobre a ordem de precedência e como várias políticas são avaliadas e aplicadas, confira [Ordem e precedência da proteção de email](how-policies-and-protections-are-combined.md).
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras \>  \>  \>  \> **Cofre Links**.
+1. No portal Microsoft 365 Defender, vá para **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras \>  \>  \>  \> **Cofre Links**.
 
 2. Na página **Cofre Links,** selecione uma política na lista clicando no nome.
 
@@ -211,9 +211,9 @@ Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou
 
 4. Quando terminar, clique em **Fechar** no submenu de detalhes da política.
 
-## <a name="use-the-microsoft-365-defender-portal-to-remove-safe-links-policies"></a>Use o portal Microsoft 365 Defender para remover Cofre links
+## <a name="use-the-microsoft-365-defender-portal-to-remove-safe-links-policies"></a>Usar o portal Microsoft 365 Defender para remover as políticas Cofre Links
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras \>  \>  \>  \> **Cofre Links**.
+1. No portal Microsoft 365 Defender, vá para **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras \>  \>  \>  \> **Cofre Links**.
 
 2. Na página **Cofre Links,** selecione uma política na lista clicando no nome. Na parte superior do submenu de detalhes da política exibido, clique no ![ícone Mais ações](../../media/m365-cc-sc-more-actions-icon.png) **Mais ações** \> ![ícone Excluir política](../../media/m365-cc-sc-delete-icon.png) **Excluir política**.
 
@@ -240,7 +240,7 @@ Criar uma Cofre de links no PowerShell é um processo de duas etapas:
 >
 > - Você pode criar uma nova regra de links seguros e atribuir uma política de links seguros existente e nãossociada a ela. Uma regra de links seguros não pode ser associada a mais de uma política de links seguros.
 >
-> - Você pode configurar as seguintes configurações em novas políticas de links seguros no PowerShell que não estão disponíveis no portal do Microsoft 365 Defender até depois de criar a política:
+> - Você pode configurar as seguintes configurações em novas políticas de links seguros no PowerShell que não estão disponíveis no portal Microsoft 365 Defender até depois de criar a política:
 >   - Crie a nova política como desabilitada (_Habilitado_ `$false` no cmdlet **New-SafeLinksRule).**
 >   - Definir a prioridade da política durante a criação (_Prioridade_ _\<Number\>_ ) no cmdlet **New-SafeLinksRule).**
 >
@@ -353,7 +353,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Get-
 
 ### <a name="use-powershell-to-modify-safe-links-policies"></a>Usar o PowerShell para modificar políticas de links seguros
 
-Não é possível renomear uma política de links seguros no PowerShell (o cmdlet **Set-SafeLinksPolicy** não tem _parâmetro Name)._ Ao renomear uma política Cofre Links no portal do Microsoft 365 Defender, você só renomeia a regra de links _seguros._
+Não é possível renomear uma política de links seguros no PowerShell (o cmdlet **Set-SafeLinksPolicy** não tem _parâmetro Name)._ Quando você renomea uma política Cofre Links no portal Microsoft 365 Defender, você está renomeando apenas a regra de links _seguros._
 
 A única consideração adicional para modificar políticas de links seguros no PowerShell é a sintaxe disponível para o parâmetro _DoNotRewriteUrls_ (a lista "Não reescrever as [URLs a seguir"](safe-links.md#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)):
 
@@ -471,7 +471,7 @@ Para verificar se Cofre links está verificando mensagens, verifique os relatór
 
 Para verificar se você criou, modificou ou removeu com êxito Cofre políticas de Links, faça qualquer uma das seguintes etapas:
 
-- No portal Microsoft 365 Defender, acesse **Políticas** & \> **regras Políticas de** ameaça Cofre \> **Links**. Verifique a lista de políticas, seus **valores de Status** e seus valores **priority.** Para exibir mais detalhes, selecione a política na lista e veja os detalhes no fly-out.
+- No portal Microsoft 365 Defender, acesse Políticas & **regras** \> **Políticas de** ameaça Cofre \> **Links**. Verifique a lista de políticas, seus **valores de Status** e seus valores **priority.** Para exibir mais detalhes, selecione a política na lista e veja os detalhes no fly-out.
 
 - Em Exchange Online PowerShell ou Proteção do Exchange Online PowerShell, substitua pelo nome da política ou regra, execute o seguinte comando e verifique \<Name\> as configurações:
 
