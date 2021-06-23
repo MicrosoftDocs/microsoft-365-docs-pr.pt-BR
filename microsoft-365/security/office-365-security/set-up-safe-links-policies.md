@@ -18,12 +18,12 @@ ms.collection:
 description: Os administradores podem aprender a exibir, criar, modificar e excluir Cofre políticas de links e configurações globais Cofre Links no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b4254d62cfa5844756392c00686e7b93c466d160
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: d1e0257fd124a53b2191ad8025ce42dc13a2e23e
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/23/2021
-ms.locfileid: "53082751"
+ms.locfileid: "53096763"
 ---
 # <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas Cofre links no Microsoft Defender para Office 365
 
@@ -53,7 +53,7 @@ Os elementos básicos de uma política Cofre Links são:
 - A política de **links** seguros : ativar a proteção de links do Cofre, ativar a verificação de URL em tempo real, especificar se a verificação em tempo real deve ser concluída antes de entregar a mensagem, ativar a verificação de mensagens internas, especificar se deve rastrear os cliques do usuário em URLs e especificar se os usuários devem clicar na URL original.
 - **A regra de links seguros**: especifica a prioridade e os filtros de destinatário (a quem a política se aplica).
 
-A diferença entre esses dois elementos não é óbvia quando você gerencia as Cofre links no portal Microsoft 365 Defender portal:
+A diferença entre esses dois elementos não é óbvia quando você gerencia Cofre políticas de Links no portal Microsoft 365 Defender portal:
 
 - Ao criar uma política Cofre Links, você está realmente criando uma regra de links seguros e a política de links seguros associados ao mesmo tempo usando o mesmo nome para ambos.
 - Quando você modifica uma política Cofre Links, as configurações relacionadas ao nome, prioridade, habilitado ou desabilitado e filtros de destinatário modificam a regra de links seguros. Todas as outras configurações modificam a política de links seguros associados.
@@ -110,7 +110,7 @@ A criação de uma política Cofre links personalizada no portal Microsoft 365 D
 
    Vários valores na mesma condição ou exceção usam a lógica OR (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_). Diferentes condições usam a lógica AND (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_).
 
-   - **Excluir estes usuários, grupos e domínios**: para adicionar exceções para os destinatários internos aos quais a política se aplica (exceções de destinatários), selecione essa opção e configure as exceções. As configurações e o comportamento são exatamente como as condições.
+   - **Excluir esses usuários, grupos** e domínios : Para adicionar exceções para os destinatários internos aos quais a política se aplica (exceções de destinatário), selecione essa opção e configure as exceções. As configurações e o comportamento são exatamente como as condições.
 
    Ao terminar, clique em **Avançar**.
 
@@ -138,7 +138,7 @@ A criação de uma política Cofre links personalizada no portal Microsoft 365 D
 
 6. Na página **Notificação** exibida, selecione um dos seguintes valores para **Como você gostaria de notificar seus usuários?**:
    - **Usar o texto de notificação padrão**
-   - **Use texto de notificação personalizado**: Se você selecionar esse valor, as seguintes configurações aparecerão:
+   - **Use texto de notificação personalizado**: Se você selecionar esse valor (o comprimento não pode exceder 200 caracteres), as seguintes configurações aparecerão:
      - **Usar Microsoft Translator para localização automática**
      - **Texto de notificação personalizado**: Insira o texto de notificação personalizado nesta caixa.
 

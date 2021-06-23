@@ -17,12 +17,12 @@ ms.custom:
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Proteção do Exchange Online (EOP) e no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9e5cd60915699cd2adb42e575c25912f5f164a5b
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 850756acacc757526352b9249c0e9efbe82fac8d
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055132"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096776"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
@@ -141,9 +141,11 @@ Para obter mais informações, consulte [Identificar mensagens suspeitas em Outl
 As configurações Mostrar primeiro contato **dica de segurança** estão disponíveis no EOP e no Defender para organizações Office 365, e não tem dependência de configurações de inteligência falsa ou proteção contra representação. A dica de segurança é mostrada aos destinatários nos seguintes cenários:
 
 - A primeira vez que eles receberem uma mensagem de um remetente
-- Se eles não receberem mensagens do remetente com frequência.
+- Eles não costumam receber mensagens do remetente.
 
-![O texto do dica de segurança para proteção de representação com vários destinatários.](../../media/safety-tip-first-contact-multiple-recipients.png)
+![Primeiro contato dica de segurança mensagens com um destinatário.](../../media/safety-tip-first-contact-one-recipient.png)
+
+![Primeiro contato dica de segurança mensagens com vários destinatários.](../../media/safety-tip-first-contact-multiple-recipients.png)
 
 Esse recurso adiciona uma camada extra de proteção de segurança contra possíveis ataques de representação, portanto, recomendamos que você a a ligue.
 

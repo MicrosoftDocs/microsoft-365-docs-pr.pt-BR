@@ -46,7 +46,7 @@ Usando as credenciais roubadas, o invasor pode acessar a caixa de correio do Mic
 
 ## <a name="symptoms-of-a-compromised-microsoft-email-account"></a>Sintomas de uma conta de email da Microsoft comprometida
 
-Os usuários podem notar e relatar atividades incomuns em suas caixas de correio do Microsoft 365. Aqui estão alguns sintomas comuns:
+Os usuários podem notar e relatar atividades incomuns nas suas caixas de correio do Microsoft 365. Aqui estão alguns sintomas comuns:
 
 - Atividade suspeita, como emails ausentes ou excluídos.
 - Outros usuários podem receber emails da conta comprometida sem o email correspondente estar na pasta **Itens Enviados** do remetente.
@@ -136,7 +136,7 @@ Para desbloquear uma caixa de correio impedida de enviar emails, siga os procedi
 
 4. Abra o Centro de administração do Exchange (EAC) em <https://admin.exchange.microsoft.com> e acesse **Caixas de correio**\> de **Destinatários**.
 
-5. Localize e selecione o usuário. No menu desdobrável de detalhes da caixa de correio que é aberto, execute as seguintes etapas:
+5. Localize e selecione o usuário. No submenu da caixa de correio que é aberto, execute as seguintes etapas:
    - Na seção **Aplicativos de email**, bloqueie todas as configurações disponíveis movendo o botão para a direita ![Desabilitar](../../media/scc-toggle-on.png):
      - **Outlook na Web**
      - **Área de trabalho do Outlook (MAPI)**
@@ -159,7 +159,7 @@ Para desbloquear uma caixa de correio impedida de enviar emails, siga os procedi
 
 2. Abra o portal do Microsoft 365 Defender em <https://security.microsoft.com> e execute as seguintes etapas:
    1. Acesse **Permissões e funções** \> **Email e funções de colaboração** \> **Funções**.
-   2. Na página **Permissões**, selecione cada grupo de função na lista e procure a conta do usuário na seção **Membros** do menu desdobrável de detalhes que aparece. Se o grupo de funções contiver a conta do usuário, execute as seguintes etapas:
+   2. Na página **Permissões**, selecione cada grupo de funções na lista e procure a conta do usuário na seção **Membros** do submenu de detalhes que aparece. Se o grupo de funções contiver a conta do usuário, execute as seguintes etapas:
       1. Na seção **Membros**, clique em **Editar**.
       2. No menu desdobrável **Editando Escolher membros** que aparece, clique em **Editar**.
       3. No menu desdobrável **Escolher membros** que aparece, clique em **Remover**.
@@ -171,7 +171,7 @@ Para desbloquear uma caixa de correio impedida de enviar emails, siga os procedi
    1. Selecione **Funções** \> **Funções de administrador**.
    2. Na página **Funções de administrador**, selecione manualmente cada grupo de função e, no painel de detalhes, selecione a guia **Atribuído** para verificar as contas de usuário. Se o grupo de funções contiver a conta do usuário, execute as seguintes etapas:
       1. Selecione a conta do usuário.
-      2. Clique no botão ![Ícone Excluir](../../media/m365-cc-sc-delete-icon.png).
+      2. Clique no ![Ícone Excluir](../../media/m365-cc-sc-delete-icon.png).
 
          Quando concluir, clique em **Salvar**.
 

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 65c9216e30c2db04b1981a17d73b3a9f0b5f1594
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: e39f4e65d5c4bdf4235e7ae2d8aa207c986c76c8
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007496"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055054"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -224,17 +224,12 @@ Quando os rótulos de retenção marcam os itens como um registro ou um registro
 
 #### <a name="monitoring-retention-labels"></a>Monitorar rótulos de retenção
 
-No Centro de conformidade do Microsoft 365, use **Classificação de dados** > **Visão geral** para monitorar como seus rótulos de retenção estão sendo usados em seu locatário e identifique onde estão os itens rotulados. Para saber mais, incluindo pré-requisitos importantes, confira [Aprenda sobre seus dados - visão geral de classificação de dados](data-classification-overview.md).
+No Centro de conformidade do Microsoft 365, selecione **Classificação de dados** e a página **Visão geral** para monitorar como seus rótulos de retenção estão sendo usados em seu locatário e identificar onde seus itens rotulados estão localizados. Para obter mais informações, incluindo pré-requisitos importantes, confira [Saiba mais sobre classificação de dados](data-classification-overview.md).
 
 Voce pode fazer uma busca detalhada usando o [explorador de conteúdo](data-classification-content-explorer.md) e [explorador de atividade](data-classification-activity-explorer.md).
 
 > [!TIP]
 >Considere o uso de algumas das outras ideias de classificação de dados, como classificadores treináveis e tipos de informações confidenciais, para ajudar você a identificar o conteúdo que pode ser necessário reter, excluir, ou gerenciar como registros.
-
-O Centro de Segurança e Conformidade do Office 365 possui as informações equivalentes de visão geral para rótulos de retenção em **Governança de informações** > **Painel**, e informações detalhadas em **Governança de informações** > **Explorador das atividades de rótulo**. Para saber mais sobre como monitorar os rótulos de retenção deste centro de administração antigo, confira a documentação a seguir:
-- [Exibir os relatórios de governança de dados](view-the-data-governance-reports.md)
-- [Introdução à classificação de dados](data-classification-overview.md).
-- [Exibir a atividade de rótulos de documentos](view-label-activity-for-documents.md)
 
 #### <a name="using-content-search-to-find-all-content-with-a-specific-retention-label"></a>Usar a Pesquisa de Conteúdo para localizar todo o conteúdo com um rótulo de retenção específico
 

@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 7360087e1863e81e4dc9e8acc2817e1320d6f4d8
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 461911a1e14241112f4ff0e8efb0135b4e1a5a25
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028782"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096727"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Usar regras de redução de superfície de ataque para evitar infecção por malware
 
@@ -165,22 +165,22 @@ Se você estiver configurando regras de redução de superfície de ataque usand
 
 |Nome da regra|GUID|Exclusões & de pastas de arquivo|Sistema operacional mínimo suportado|
 |---|:---:|---|---|
-|[Bloquear o abuso de drivers assinados vulneráveis explorados](#block-abuse-of-exploited-vulnerable-signed-drivers)|`56a863a9-875e-4185-98a7-b882c64b5ce5`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior) |
-|[Impedir o Adobe Reader de criar processos filho](#block-adobe-reader-from-creating-child-processes)|`7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
-|[Bloquear todos os Office aplicativos da criação de processos filho](#block-all-office-applications-from-creating-child-processes)|`D4F940AB-401B-4EFC-AADC-AD5F3C50688A`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
-|[Bloquear o roubo de credenciais do subsistema Windows autoridade de segurança local (lsass.exe)](#block-credential-stealing-from-the-windows-local-security-authority-subsystem)|`9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
-|[Bloquear conteúdo executável do cliente de email e do webmail](#block-executable-content-from-email-client-and-webmail)|`BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
-|[Impedir a execução de arquivos executáveis, a menos que eles atendem a uma prevalência, idade ou critério de lista confiável](#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion)|`01443614-cd74-433a-b99e-2ecdc07bfc25`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
-|[Bloquear a execução de scripts potencialmente ofuscados](#block-execution-of-potentially-obfuscated-scripts)|`5BEB7EFE-FD9A-4556-801D-275E5FFC04CC`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
-|[Bloquear JavaScript ou VBScript de iniciar conteúdo executável baixado](#block-javascript-or-vbscript-from-launching-downloaded-executable-content)|`D3E037E1-3EB8-44C8-A917-57927947596D`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
-|[Impedir Office aplicativos de criação de conteúdo executável](#block-office-applications-from-creating-executable-content)|`3B576869-A4EC-4529-8536-B80A7769E899`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
-|[Impedir Office aplicativos de injetar código em outros processos](#block-office-applications-from-injecting-code-into-other-processes)|`75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
-|[Impedir Office aplicativo de comunicação da criação de processos filho](#block-office-communication-application-from-creating-child-processes)|`26190899-1602-49e8-8b27-eb1d0a1ce869`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
+|[Bloquear o abuso de drivers assinados vulneráveis explorados](#block-abuse-of-exploited-vulnerable-signed-drivers)|`56a863a9-875e-4185-98a7-b882c64b5ce5`|Com suporte|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior) |
+|[Impedir o Adobe Reader de criar processos filho](#block-adobe-reader-from-creating-child-processes)|`7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`|Com suporte|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
+|[Bloquear todos os Office aplicativos da criação de processos filho](#block-all-office-applications-from-creating-child-processes)|`D4F940AB-401B-4EFC-AADC-AD5F3C50688A`|Com suporte|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
+|[Bloquear o roubo de credenciais do subsistema Windows autoridade de segurança local (lsass.exe)](#block-credential-stealing-from-the-windows-local-security-authority-subsystem)|`9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`|Com suporte|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
+|[Bloquear conteúdo executável do cliente de email e do webmail](#block-executable-content-from-email-client-and-webmail)|`BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`|Com suporte|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
+|[Impedir a execução de arquivos executáveis, a menos que eles atendem a uma prevalência, idade ou critério de lista confiável](#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion)|`01443614-cd74-433a-b99e-2ecdc07bfc25`|Com suporte|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
+|[Bloquear a execução de scripts potencialmente ofuscados](#block-execution-of-potentially-obfuscated-scripts)|`5BEB7EFE-FD9A-4556-801D-275E5FFC04CC`|Com suporte|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
+|[Bloquear JavaScript ou VBScript de iniciar conteúdo executável baixado](#block-javascript-or-vbscript-from-launching-downloaded-executable-content)|`D3E037E1-3EB8-44C8-A917-57927947596D`|Com suporte|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
+|[Impedir Office aplicativos de criação de conteúdo executável](#block-office-applications-from-creating-executable-content)|`3B576869-A4EC-4529-8536-B80A7769E899`|Com suporte|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
+|[Impedir Office aplicativos de injetar código em outros processos](#block-office-applications-from-injecting-code-into-other-processes)|`75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`|Com suporte|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
+|[Impedir Office aplicativo de comunicação da criação de processos filho](#block-office-communication-application-from-creating-child-processes)|`26190899-1602-49e8-8b27-eb1d0a1ce869`|Com suporte|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
 |[Bloquear a persistência por meio da assinatura de evento WMI](#block-persistence-through-wmi-event-subscription)|`e6db77e5-3df2-4cf1-b95a-636979351e5b`|Sem suporte|[Windows 10, versão 1903](/windows/whats-new/whats-new-windows-10-version-1903) (build 18362) ou superior|
-|[Bloquear criações de processo provenientes de comandos PSExec e WMI](#block-process-creations-originating-from-psexec-and-wmi-commands)|`d1e49aac-8f56-4280-b9ba-993a6d77406c`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
-|[Bloquear processos não assinados e não assinados que são executados a partir do USB](#block-untrusted-and-unsigned-processes-that-run-from-usb)|`b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
-|[Bloquear chamadas de API Win32 de Office macros](#block-win32-api-calls-from-office-macros)|`92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
-|[Usar proteção avançada contra ransomware](#use-advanced-protection-against-ransomware)|`c1db55ab-c21a-4637-bb3f-a12568109d35`|Compatível|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
+|[Bloquear criações de processo provenientes de comandos PSExec e WMI](#block-process-creations-originating-from-psexec-and-wmi-commands)|`d1e49aac-8f56-4280-b9ba-993a6d77406c`|Com suporte|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
+|[Bloquear processos não assinados e não assinados que são executados a partir do USB](#block-untrusted-and-unsigned-processes-that-run-from-usb)|`b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`|Com suporte|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
+|[Bloquear chamadas de API Win32 de Office macros](#block-win32-api-calls-from-office-macros)|`92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`|Com suporte|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
+|[Usar proteção avançada contra ransomware](#use-advanced-protection-against-ransomware)|`c1db55ab-c21a-4637-bb3f-a12568109d35`|Com suporte|[Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) ou superior|
 |
 
 ### <a name="block-abuse-of-exploited-vulnerable-signed-drivers"></a>Bloquear o abuso de drivers assinados vulneráveis explorados
@@ -296,9 +296,11 @@ GUID: `BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`
 
 ### <a name="block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion"></a>Impedir a execução de arquivos executáveis, a menos que eles atendem a uma prevalência, idade ou critério de lista confiável
 
-Esta regra impede que os seguintes tipos de arquivo seja lançado, a menos que eles atendem aos critérios de prevalência ou idade, ou que estão em uma lista confiável ou em uma lista de exclusão:
+Essa regra impede que arquivos executáveis, como .exe, .dll ou .scr, sejam lançados, a menos que qualquer uma das seguintes condições seja atendida:
 
-- Arquivos executáveis (como .exe, .dll ou .scr)
+- Prevalência: os arquivos executáveis são encontrados em mais de 1.000 pontos de extremidade
+- Idade: os arquivos executáveis foram lançados há mais de 24 horas
+- Local: os arquivos executáveis estão incluídos em uma lista confiável ou em uma lista de exclusão
 
 A inicialização de arquivos executáveis não confirmados ou desconhecidos pode ser arriscada, pois pode não ser inicialmente claro se os arquivos são mal-intencionados.
 
@@ -404,17 +406,17 @@ GUID: `75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`
 
 ### <a name="block-office-communication-application-from-creating-child-processes"></a>Impedir Office aplicativo de comunicação da criação de processos filho
 
-Essa regra impede o Outlook de criar processos filho, enquanto ainda permite funções legítimas do Outlook.
+Essa regra impede Outlook criar processos filho, enquanto ainda permite funções Outlook legítimas.
 
-Essa regra protege contra ataques de engenharia social e impede a exploração de código contra vulnerabilidades no Outlook. Ele também protege contra as explorações de formulários e regras do [Outlook](https://blogs.technet.microsoft.com/office365security/defending-against-rules-and-forms-injection/) que os invasores podem usar quando as credenciais de um usuário são comprometidas.
+Essa regra protege contra ataques de engenharia social e impede a exploração de código contra vulnerabilidades em Outlook. Ele também protege contra as Outlook [e](https://blogs.technet.microsoft.com/office365security/defending-against-rules-and-forms-injection/) as explorações de formulários que os invasores podem usar quando as credenciais de um usuário são comprometidas.
 
 > [!NOTE]
-> Essa regra bloqueia dicas de política de DLP e Dicas de Ferramentas no Outlook. Essa regra se aplica somente ao Outlook Outlook.com.
+> Esta regra bloqueia dicas de política de DLP e Dicas de Ferramentas Outlook. Esta regra se aplica somente Outlook e Outlook.com.
 
 Esta regra foi introduzida em:
 
 - [Windows 10, versão 1809](/windows/whats-new/whats-new-windows-10-version-1809)
-- [Windows Server, versão 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Servidor, versão 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
 Nome do Intune: `Process creation from Office communication products (beta)`
@@ -434,7 +436,7 @@ As ameaças sem arquivo empregam várias táticas para permanecer ocultas, para 
 
 Esta regra foi introduzida em:
 
-- [Windows 10, versão 1903](/windows/whats-new/whats-new-windows-10-version-1903)
+- [Windows 10 versão 1903](/windows/whats-new/whats-new-windows-10-version-1903)
 - [Windows Server 1903](/windows-server/get-started-19/whats-new-in-windows-server-1903-1909)
 
 Nome do Intune: Não disponível
@@ -448,12 +450,12 @@ GUID: `e6db77e5-3df2-4cf1-b95a-636979351e5b`
 Essa regra bloqueia a execução de processos criados [por meio do PsExec](/sysinternals/downloads/psexec) e [do WMI.](/windows/win32/wmisdk/about-wmi) Tanto o PsExec quanto o WMI podem executar o código remotamente, portanto, há um risco de malware abusando dessa funcionalidade para fins de comando e controle ou para propagar uma infecção em toda a rede de uma organização.
 
 > [!WARNING]
-> Use essa regra somente se você estiver gerenciando seus dispositivos com [o Intune](/intune) ou outra solução MDM. Essa regra é incompatível com o gerenciamento por meio do [Microsoft Endpoint Configuration Manager](/configmgr) porque essa regra bloqueia comandos WMI que o cliente configuration Manager usa para funcionar corretamente.
+> Use essa regra somente se você estiver gerenciando seus dispositivos com [o Intune](/intune) ou outra solução MDM. Essa regra é incompatível com o gerenciamento por [Microsoft Endpoint Configuration Manager](/configmgr) porque essa regra bloqueia comandos WMI que o cliente configuration Manager usa para funcionar corretamente.
 
 Esta regra foi introduzida em:
 
 - [Windows 10, versão 1803](/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows Server, versão 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Servidor, versão 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
 Nome do Intune: `Process creation from PSExec and WMI commands`
@@ -469,7 +471,7 @@ Com essa regra, os administradores podem impedir a execução de arquivos execut
 Esta regra foi introduzida em:
 
 - [Windows 10, versão 1803](/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows Server, versão 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Servidor, versão 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1802](/configmgr/core/servers/manage/updates)
 
@@ -479,16 +481,16 @@ Nome do Gerenciador de Configurações: `Block untrusted and unsigned processes 
 
 GUID: `b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`
 
-### <a name="block-win32-api-calls-from-office-macros"></a>Bloquear chamadas de API Win32 de macros do Office
+### <a name="block-win32-api-calls-from-office-macros"></a>Bloquear chamadas de API Win32 de Office macros
 
 Essa regra impede que as macros do VBA chamando APIs win32.
 
-O Office VBA habilita chamadas de API Win32. O malware pode usar esse recurso, como chamar [APIs do Win32](https://www.microsoft.com/security/blog/2018/09/12/office-vba-amsi-parting-the-veil-on-malicious-macros/) para iniciar o shellcode mal-intencionado sem escrever nada diretamente no disco. A maioria das organizações não depende da capacidade de chamar APIs win32 em seu funcionamento do dia a dia, mesmo que elas usem macros de outras maneiras.
+Office O VBA habilita chamadas da API Win32. O malware pode usar esse recurso, como chamar [APIs do Win32](https://www.microsoft.com/security/blog/2018/09/12/office-vba-amsi-parting-the-veil-on-malicious-macros/) para iniciar o shellcode mal-intencionado sem escrever nada diretamente no disco. A maioria das organizações não depende da capacidade de chamar APIs win32 em seu funcionamento do dia a dia, mesmo que elas usem macros de outras maneiras.
 
 Esta regra foi introduzida em:
 
 - [Windows 10, versão 1709](/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows Server, versão 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Servidor, versão 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1710](/configmgr/core/servers/manage/updates)
 
@@ -514,7 +516,7 @@ A regra tende a esmá-lo por precaução para evitar ransomware.
 Esta regra foi introduzida em:
 
 - [Windows 10, versão 1803](/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows Server, versão 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Servidor, versão 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1802](/configmgr/core/servers/manage/updates)
 

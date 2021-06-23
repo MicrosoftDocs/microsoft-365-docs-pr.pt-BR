@@ -13,23 +13,19 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: Ative uma configuração que permite a coautoria e o Salvamento Automático em aplicativos da área de trabalho para documentos rotulados e criptografados no SharePoint e no OneDrive.
-ms.openlocfilehash: 926f8aa188aeb1dbc7bb7b042d0a402acc49f7a3
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: bd197a55e5a119263bd9c67716c38010a86e5263
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796049"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062190"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>Ativar a coautoria para arquivos criptografados com rótulos de confidencialidade
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
-> Este recurso está em versão prévia e sujeito a alterações. 
->
-> Habilite este recurso em um locatário de teste em vez de um locatário de produção porque:
-> - Este recurso faz alterações na rotulagem de metadados e nem todos os aplicativos em todas as plataformas suportam essa alteração
-> - Você não pode desabilitar esse recurso depois de ativá-lo
+> Este recurso está em versão prévia e sujeito a alterações.
 
 Habilite a configuração para suportar a [coautoria](https://support.office.com/article/ee1509b4-1f6e-401e-b04a-782d26f564a4) de aplicativos da área de trabalho do Office para que, quando os documentos forem rotulados e criptografados por [rótulos de confidencialidade](sensitivity-labels.md), vários usuários possam editar esses documentos ao mesmo tempo.
 
@@ -37,7 +33,7 @@ Sem essa configuração habilitada no seu locatário, os usuários deverão faze
 
 Além disso, a habilitação desse recurso resulta no suporte da funcionalidade [Salvamento Automático](https://support.office.com/article/what-is-autosave-6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) para estes arquivos rotulados e criptografados.
 
-Para ler o comunicado de lançamento, veja a postagem no blog [Anunciando a coautoria nas atualizações de rótulos e em documentos criptografados da Proteção de Informações da Microsoft.](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-co-authoring-on-microsoft-information-protection/ba-p/2164162)
+Para ler o anúncio da versão inicial, veja a postagem do blog [Anunciando a coautoria em documentos criptografados da Proteção de Informações da Microsoft e atualizações de rotulagem](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-co-authoring-on-microsoft-information-protection/ba-p/2164162).
 
 ## <a name="metadata-changes-for-sensitivity-labels"></a>Alterações de metadados para rótulos de confidencialidade
 
@@ -76,15 +72,13 @@ Verifique na seção seguinte uma lista de aplicativos e serviços que suportam 
 
 Tenha certeza de que entende os seguintes pré-requisitos antes de ativar esse recurso.
 
-- Você deve usar um locatário de teste para essa versão prévia.
-
 - Você deve ser administrador global para ativar este recurso.
 
 - Os rótulos de confidencialidade devem ser [habilitados para arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md) para o locatário. Se esse recurso ainda não estiver habilitado, ele será automaticamente habilitado quando você selecionar a configuração para ativar a coautoria de arquivos com rótulos de confidencialidade.
 
 - Microsoft 365 Apps para Grandes Empresas:
-    - **Windows**: Visualização: [Canal Atual (Visualização)](https://office.com/insider)
-    - **macOS**: Visualização: [Canal Atual (Visualização)](https://office.com/insider)
+    - **Windows**: Versão mínima 2105: 18 de junho
+    - **macOS**: Versão mínima 16.50
     - **iOS**: ainda sem suporte
     - **Android**: ainda sem suporte
 
@@ -144,32 +138,24 @@ Esta versão prévia da coautoria para arquivos criptografados com rótulos de c
 > [!CAUTION]
 > Ativar essa configuração é uma ação unidirecional. Enquanto o recurso estiver em versão preliminar, teste-o apenas em um ambiente de não produção e somente depois de ler e compreender as alterações de metadados, pré-requisitos, limitações e quaisquer problemas conhecidos documentados nesta página.
 
-Durante a versão preliminar, você deve usar uma URL específica para acessar essa configuração no Centro de conformidade do Microsoft 365.
+1. Entre no [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com) como administrador global para seu locatário.
 
-1. Entre no Centro de conformidade do Microsoft 365 como um administrador global para seu locatário de teste, usando link a seguir:
-    
-    ```http
-    https://compliance.microsoft.com/co-authoring_for_files_with_sensitivity_labels
-    ```
-    Esse link leva você diretamente para a configuração do locatário, **Coautoria para arquivos com rótulos de confidencialidade**.
+2. No painel de navegação, selecione **Configurações** > **Coautoria para arquivos com arquivos de confidencialidade**.
 
-    > [!IMPORTANT]
-    > Antes de continuar, verifique se você está conectado em um locatário de teste que não afetará seus usuários: 
-    >
-    > Selecione o círculo com as iniciais da sua conta no canto superior direito do centro de conformidade e confirme se o nome do locatário exibe o locatário de teste desejado.
+2. Na página **Coautoria de arquivos com rótulos de confidencialidade (visualização)**, leia a descrição resumida, os pré-requisitos, o que esperar e o aviso de que você não poderá desativar essa configuração depois de ativá-la.
     
-2. Leia a descrição resumida, os pré-requisitos, o que esperar e o aviso de que você não poderá desativar essa configuração depois de ativá-la. Em seguida, selecione **Ativar coautoria para arquivos com rótulos de confidencialidade** e **Aplicar**:
+    Em seguida, selecione **Ativar coautoria para arquivos com rótulos de confidencialidade** e **Aplicar**:
     
     ![Opção para ativar a coautoria para arquivos com rótulos de confidencialidade](../media/co-authoring-tenant-option-for-sensitivity-labels.png)
 
-3. Espere 24 horas para que essa configuração seja replicada no seu ambiente antes de testar esse novo recurso para coautoria.
+3. Espere 24 horas para que esta configuração seja replicada no seu ambiente antes de testar esse novo recurso para coautoria.
 
 ## <a name="contact-support-if-you-need-to-disable-this-feature"></a>Entre em contato com o suporte se precisar desabilitar este recurso
 
 > [!IMPORTANT]
 > Se você precisar desabilitar esse recurso, saiba que as informações de rotulagem podem ser perdidas.
 
-Depois de habilitar a coautoria para arquivos com rótulos de confidencialidade para seu locatário, você não poderá desabilitar essa configuração por conta própria. É por isso que é tão importante que você verifique e entenda os pré-requisitos, as consequências e as limitações antes de habilitar essa configuração. É também por isso que recomendamos que você teste esse recurso com um locatário de teste em vez de um locatário de produção.
+Depois de habilitar a coautoria para arquivos com rótulos de confidencialidade para seu locatário, você não poderá desabilitar essa configuração por conta própria. É por isso que é tão importante que você verifique e entenda os pré-requisitos, as consequências e as limitações antes de habilitar essa configuração.
 
 ![Opção que mostra a coautoria ativada para rótulos de confidencialidade](../media/co-authoring-tenant-option-set-for-sensitivity-labels.png)
 

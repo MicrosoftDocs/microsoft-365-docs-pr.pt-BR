@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender a configurar uma caixa de correio para coletar emails de spam e phishing relatados pelos usuários.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f59548a1f36e067d8b649f7fe22149362d6fe9c6
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 2dded27d87ee5db0d1e71b643fe8244408ef1a24
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083531"
+ms.locfileid: "53096151"
 ---
 # <a name="user-reported-message-settings"></a>Configurações de mensagem relatadas pelo usuário
 
@@ -134,24 +134,19 @@ Os requisitos de formatação de mensagens são descritos na próxima seção. A
 
 Para identificar corretamente as mensagens anexadas originais, as mensagens enviadas para a caixa de correio personalizada exigem formatação específica. Se as mensagens não usarem esse formato, as mensagens anexadas originais sempre serão identificadas como envios de phishing.
 
-Para a identificação correta das mensagens anexadas originais, as mensagens enviadas para a caixa de correio personalizada precisam usar a sintaxe a seguir para o Assunto (Título do Envelope):
+Se você quiser especificar o motivo relatado para as mensagens anexadas originais, as mensagens enviadas para a caixa de correio personalizada (não modificar o anexo) precisam começar com um dos seguintes prefixos no Assunto (Título do Envelope):
 
-`SafetyAPIAction|NetworkMessageId|SenderIp|FromAddress|(Message Subject)`
+- 1| ou Junk:
+- 2| ou Não lixo eletrônico
+- 3| ou Phishing
 
-em que SafetyAPIAction é um dos seguintes valores inteiros:
+Por exemplo:
 
-- 1: Lixo eletrônico
-- 2: Não lixo eletrônico
-- 3: Phishing
+`3|This part is ignored by the system` <br>
+`Not Junk:This part of the subject is ignored as well`
 
-Este exemplo usa os seguintes valores:
+- Ambas as mensagens estão sendo relatadas como Não Lixo Eletrônico com base em Assunto.
+- O restante é ignorado.
 
-- A mensagem está sendo relatada como phishing.
-- A ID da Mensagem de Rede é 49871234-6dc6-43e8-abcd-08d797f20abe.
-- O IP do Remetente é 167.220.232.101.
-- O endereço From é test@contoso.com.
-- A linha de assunto da mensagem é "testar o envio de phishing"
-
-`3|49871234-6dc6-43e8-abcd-08d797f20abe|167.220.232.101|test@contoso.com|(test phishing submission)`
 
 As mensagens que não seguem esse formato não serão exibidas corretamente no portal Envios.

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 582116047900fc5f28d5580398cf5c065e6a3e23
-ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
+ms.openlocfilehash: 21f6947074f6a14e6ed1af3968ee94e403f0d0cd
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053018"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096811"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Novidades no Microsoft 365 Defender
 
@@ -38,6 +38,8 @@ RSS feed: seja notificado quando esta página for atualizada copiando e colar a 
 ```http
 /api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+365+defender%22&locale=en-us
 ```
+## <a name="june-2021"></a>Junho de 2021
+- Marcas de ameaça [Microsoft 365 Defender relatório de análise de ameaças](threat-analytics.md) <br> As marcas de ameaça ajudam você a se concentrar em categorias de ameaça específicas e revisar os relatórios mais relevantes. 
 
 ## <a name="april-2021"></a>Abril de 2021
 - Microsoft 365 Defender<br> O portal [Microsoft 365 Defender](https://security.microsoft.com) aprimorado agora está disponível. Essa nova experiência reúne o Defender para Ponto de Extremidade, o Defender para Office 365, o Defender para Identidade e muito mais em um único portal. Esta é a nova casa para gerenciar seus controles de segurança. [Conheça as novidades](./overview-security-center.md).

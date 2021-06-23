@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Deixe a sua organização mais segura contra ataques de senha, vete senhas comuns e habilite a autenticação multifator baseada em risco.
-ms.openlocfilehash: f580ed957b8231bc68c5f21ea9af990808478382
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: 6f79116b1188eaab1b843b2e3fa612c4ed01c488
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53006920"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096619"
 ---
 # <a name="password-policy-recommendations"></a>Recomendações de política de senha
 
@@ -58,7 +58,7 @@ As boas práticas de senha se enquadram em algumas categorias amplas:
 
 O principal objetivo de um sistema de senhas mais seguro é a diversidade de senhas. Você quer que sua política de senha contenha várias senhas diferentes e difíceis de adivinhar. Aqui estão algumas recomendações para manter sua organização o mais segura possível.
   
-- Manter um requisito de comprimento mínimo de 8 caracteres (maior não é necessariamente melhor)
+- Manter um requisito de comprimento mínimo de 8 caracteres
 
 - Não exigir requisitos de composição de caracteres. Por exemplo, \*&amp;(^%$
 
@@ -131,6 +131,8 @@ A autenticação multifatorial baseada em risco garante que, quando o sistema de
 ## <a name="next-steps"></a>Próximas etapas
 
 Quer saber mais sobre o gerenciamento de senhas? Veja algumas leituras recomendadas:
+
+- [Esquecer senhas, ficar sem senha](https://www.microsoft.com/security/business/identity-access-management/passwordless-authentication)
 
 - [Diretrizes de senha da Microsoft](https://www.microsoft.com/research/wp-content/uploads/2016/06/Microsoft_Password_Guidance-1.pdf)
 

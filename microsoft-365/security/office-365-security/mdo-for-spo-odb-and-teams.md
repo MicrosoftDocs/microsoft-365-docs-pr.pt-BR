@@ -23,12 +23,12 @@ ms.custom:
 description: Saiba mais sobre o Microsoft Defender para Office 365 arquivos no SharePoint Online, OneDrive for Business e Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 67bd2a0952ac630888b07eaf05d365736a0472ea
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 5a0c9721c4d8fc2087e0dbbce19305060344430c
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028830"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096739"
 ---
 # <a name="safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Anexos seguros para SharePoint, OneDrive e Microsoft Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "53028830"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Cofre Os anexos para SharePoint, OneDrive e Microsoft Teams no [Microsoft Defender](whats-new-in-defender-for-office-365.md) para Office 365 fornece uma camada adicional de proteção para arquivos que já foram verificados no momento do carregamento pelo mecanismo de detecção de vírus comum no [Microsoft 365](virus-detection-in-spo.md). Cofre Os anexos para SharePoint, OneDrive e Microsoft Teams ajudam a detectar e bloquear arquivos existentes identificados como mal-intencionados em sites de equipe e bibliotecas de documentos.
+Cofre Os anexos para SharePoint, OneDrive e Microsoft Teams no [Microsoft Defender](whats-new-in-defender-for-office-365.md) para Office 365 fornece uma camada adicional de proteção para arquivos que já foram verificados de forma assíncrona pelo mecanismo de detecção de vírus comum no [Microsoft 365](virus-detection-in-spo.md). Cofre Os anexos para SharePoint, OneDrive e Microsoft Teams ajudam a detectar e bloquear arquivos existentes identificados como mal-intencionados em sites de equipe e bibliotecas de documentos.
 
 Cofre Os anexos para SharePoint, OneDrive e Microsoft Teams não estão habilitados por padrão. Para a ativar, consulte Ativar Cofre anexos para [SharePoint, OneDrive e Microsoft Teams](turn-on-mdo-for-spo-odb-and-teams.md).
 
@@ -67,7 +67,6 @@ Para saber mais sobre a experiência do usuário quando um arquivo foi detectado
 Os arquivos identificados como mal-intencionados por Cofre Anexos para SharePoint, OneDrive e Microsoft Teams serão aparecer em relatórios para o [Microsoft Defender](view-reports-for-mdo.md) para Office 365 e no Explorer (e detecções em tempo [real)](threat-explorer.md).
 
 A partir de maio de 2018, quando um arquivo é identificado como mal-intencionado por Cofre Anexos para SharePoint, OneDrive e Microsoft Teams, o arquivo também está disponível em quarentena. Para obter mais informações, consulte [Gerenciar arquivos em quarentena no Defender para](manage-quarantined-messages-and-files.md#use-the-microsoft-365-defender-portal-to-manage-quarantined-files-in-defender-for-office-365)Office 365 .
-
 
 ## <a name="keep-these-points-in-mind"></a>Lembre-se desses pontos
 
