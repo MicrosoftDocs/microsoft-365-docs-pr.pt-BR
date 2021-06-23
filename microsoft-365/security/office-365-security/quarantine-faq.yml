@@ -20,12 +20,12 @@ metadata:
   ms.custom: seo-marvel-apr2020
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: 42e848309589fa8786346b5921d1cade0ed074b9
-  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+  ms.openlocfilehash: c8f821381d8e51b843f3a213d8daec5ef6ffaf5f
+  ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/24/2021
-  ms.locfileid: "52625408"
+  ms.lasthandoff: 06/23/2021
+  ms.locfileid: "53083639"
 title: Perguntas frequentes sobre mensagens em quarentena
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -82,14 +82,14 @@ sections:
   - question: >
       Posso liberar ou relatar mais de uma mensagem em quarentena por vez?
     answer: >
-      No Centro de Conformidade & segurança, você pode selecionar e liberar até 100 mensagens por vez.
+      No portal Microsoft 365 Defender, você pode selecionar e liberar até 100 mensagens por vez.
 
 
       Os administradores podem usar os cmdlets [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) e [Release-QuarantineMessage](/powershell/module/exchange/release-quarantinemessage) no Exchange Online PowerShell ou no EOP PowerShell autônomo para encontrar e liberar mensagens em quarentena em massa e para relatar falsos positivos em massa.
   - question: >
       Há suporte para caracteres curinga ao pesquisar mensagens em quarentena? Posso procurar mensagens em quarentena para um domínio específico?
     answer: >-
-      Não há suporte para caracteres curinga no Centro de Conformidade & Segurança. Por exemplo, ao pesquisar um remetente, você precisa especificar o endereço de email completo. Porém, você pode usar caracteres curinga Exchange Online PowerShell ou EOP PowerShell autônomo.
+      Não há suporte para caracteres curinga no portal Microsoft 365 Defender. Por exemplo, ao pesquisar um remetente, você precisa especificar o endereço de email completo. Porém, você pode usar caracteres curinga Exchange Online PowerShell ou EOP PowerShell autônomo.
 
 
       Por exemplo, copie o código do PowerShell a seguir para o Bloco de Notas e salve o arquivo como .ps1 em um local fácil de encontrar (por exemplo, C:\Data\QuarantineRelease.ps1).
