@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6dca58070d21271ffc832bcd628679303736f99e
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 5a8e1cbda5f4361532c7fac0892be7ffe72f64ca
+ms.sourcegitcommit: 8b79d276f71f22bcaeb150e78e35101cb1ae0375
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108134"
+ms.locfileid: "53114723"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-linux-for-static-proxy-discovery"></a>Configurar o Microsoft Defender para Ponto de Extremidade no Linux para descoberta de proxy estático
 
@@ -36,35 +36,35 @@ ms.locfileid: "53108134"
 
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-O Microsoft Defender para Ponto de Extremidade pode descobrir um servidor proxy usando a ```HTTPS_PROXY``` variável de ambiente. Essa configuração deve ser **configurada** no momento da instalação e após a instalação do produto.
+O Microsoft Defender para Ponto de Extremidade pode descobrir um servidor proxy usando a `HTTPS_PROXY` variável de ambiente. Essa configuração deve ser **configurada** no momento da instalação e após a instalação do produto.
 
 ## <a name="installation-time-configuration"></a>Configuração do tempo de instalação
 
-Durante a instalação, ```HTTPS_PROXY``` a variável de ambiente deve ser passada para o gerenciador de pacotes. O gerenciador de pacotes pode ler essa variável de qualquer uma das seguintes maneiras:
+Durante a instalação, `HTTPS_PROXY` a variável de ambiente deve ser passada para o gerenciador de pacotes. O gerenciador de pacotes pode ler essa variável de qualquer uma das seguintes maneiras:
 
-- A ```HTTPS_PROXY``` variável é definida ```/etc/environment``` com a seguinte linha:
+- A `HTTPS_PROXY` variável é definida `/etc/environment` com a seguinte linha:
 
-    ```bash
-    HTTPS_PROXY="http://proxy.server:port/"
-    ```
+  ```bash
+  HTTPS_PROXY="http://proxy.server:port/"
+  ```
 
 - A `HTTPS_PROXY` variável é definida na configuração global do gerenciador de pacotes. Por exemplo, no Ubuntu 18.04, você pode adicionar a seguinte linha a `/etc/apt/apt.conf.d/proxy.conf` :
   
-    ```bash
-    Acquire::https::Proxy "http://proxy.server:port/";
-    ```
+  ```bash
+  Acquire::https::Proxy "http://proxy.server:port/";
+  ```
 
-    > [!CAUTION]
-    > Observe que acima de dois métodos podem definir o proxy a ser usado para outros aplicativos em seu sistema. Use este método com cautela ou somente se isso for para ser uma configuração global geral.
+  > [!CAUTION]
+  > Observe que acima de dois métodos podem definir o proxy a ser usado para outros aplicativos em seu sistema. Use este método com cautela ou somente se isso for para ser uma configuração global geral.
   
 - A `HTTPS_PROXY` variável é pré-anexada aos comandos de instalação ou desinstalação. Por exemplo, com o gerenciador de pacotes APT, prepare a variável da seguinte forma ao instalar o Microsoft Defender para o Ponto de Extremidade: 
 
-    ```bash  
-    HTTPS_PROXY="http://proxy.server:port/" apt install mdatp
-    ```
+  ```bash  
+  HTTPS_PROXY="http://proxy.server:port/" apt install mdatp
+  ```
 
-    > [!NOTE]
-    > Não adicione sudo entre a definição de variável de ambiente e apt, caso contrário, a variável não será propagada.
+  > [!NOTE]
+  > Não adicione sudo entre a definição de variável de ambiente e apt, caso contrário, a variável não será propagada.
 
 A `HTTPS_PROXY` variável de ambiente pode ser definida de forma semelhante durante a desinstalação.
 
@@ -74,16 +74,16 @@ Observe que a instalação e a desinstalação não falharão necessariamente se
   
 Após a instalação, `HTTPS_PROXY` a variável de ambiente deve ser definida no arquivo de serviço Defender for Endpoint. Para fazer isso, abra `/lib/systemd/system/mdatp.service` em um editor de texto durante a execução como o usuário raiz. Em seguida, você pode propagar a variável para o serviço de duas maneiras:
 
-    > [!NOTE]
-    > On CentOS or RedHat Linux distributions the location of the Endpoint service file is `/usr/lib/systemd/system/mdatp.service`.
+> [!NOTE]
+> Em distribuições Do CentOS ou RedHat Linux, o local do arquivo de serviço do Ponto de Extremidade é `/usr/lib/systemd/system/mdatp.service` .
 
 - Descompacte a linha `#Environment="HTTPS_PROXY=http://address:port"` e especifique seu endereço de proxy estático.
 
 - Adicione uma linha `EnvironmentFile=/path/to/env/file` . Esse caminho pode apontar para ou um arquivo personalizado, um `/etc/environment` dos quais precisa adicionar a seguinte linha:
   
-    ```bash
-    HTTPS_PROXY="http://proxy.server:port/"
-    ```
+  ```bash
+  HTTPS_PROXY="http://proxy.server:port/"
+  ```
 
 Depois de modificar o `mdatp.service` arquivo, salve e feche-o. Reinicie o serviço para que as alterações possam ser aplicadas. No Ubuntu, isso envolve dois comandos:  
 

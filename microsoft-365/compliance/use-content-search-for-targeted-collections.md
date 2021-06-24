@@ -18,17 +18,17 @@ search.appverid:
 - MET150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 ms.custom: seo-marvel-apr2020
-description: Use a pesquisa de conteúdo no Microsoft 365 de conformidade para executar um conjunto direcionado, que pesquisa itens em uma caixa de correio ou pasta de site específica.
-ms.openlocfilehash: cf0364d39a78e1bbbc062d85ce750d190fbbda5a
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+description: Use a pesquisa de conteúdo no Centro de conformidade do Microsoft 365 para executar um conjunto direcionado, que pesquisa itens em uma caixa de correio ou pasta de site específica.
+ms.openlocfilehash: 925a6e5e0e56c63cde8bfa1b39cca6e64abcd016
+ms.sourcegitcommit: 8b79d276f71f22bcaeb150e78e35101cb1ae0375
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311888"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114747"
 ---
 # <a name="use-content-search-for-targeted-collections"></a>Usar a pesquisa de conteúdo para coleções direcionadas
 
-A ferramenta de pesquisa de conteúdo no centro de conformidade do Microsoft 365 não fornece uma maneira direta na interface do usuário de pesquisar pastas específicas em Exchange caixas de correio ou SharePoint e sites OneDrive for Business. No entanto, é possível pesquisar pastas específicas (chamadas de uma coleção direcionada *)* especificando a propriedade ID da pasta para a propriedade email ou caminho (DocumentLink) para sites na sintaxe de consulta de pesquisa real. Usar a Pesquisa de Conteúdo para executar uma coleção direcionada é útil quando você tem certeza de que os itens que respondem a uma ocorrência ou itens privilegiados estão localizados em uma caixa de correio ou pasta de site específica. Você pode usar o script neste artigo para obter a ID da pasta para pastas de caixa de correio ou o caminho (DocumentLink) para pastas em um SharePoint e OneDrive for Business site. Em seguida, você pode usar a ID da pasta ou o caminho em uma consulta de pesquisa para retornar itens localizados na pasta.
+A ferramenta de pesquisa de conteúdo no Centro de conformidade do Microsoft 365 não fornece uma maneira direta na interface do usuário de pesquisar pastas específica Exchange s em caixas de correio ou SharePoint e OneDrive for Business sites. No entanto, é possível pesquisar pastas específicas (chamadas de uma coleção direcionada *)* especificando a propriedade ID da pasta para a propriedade email ou caminho (DocumentLink) para sites na sintaxe de consulta de pesquisa real. Usar a Pesquisa de Conteúdo para executar uma coleção direcionada é útil quando você tem certeza de que os itens que respondem a uma ocorrência ou itens privilegiados estão localizados em uma caixa de correio ou pasta de site específica. Você pode usar o script neste artigo para obter a ID da pasta para pastas de caixa de correio ou o caminho (DocumentLink) para pastas em um SharePoint e OneDrive for Business site. Em seguida, você pode usar a ID da pasta ou o caminho em uma consulta de pesquisa para retornar itens localizados na pasta.
 
 > [!NOTE]
 > Para retornar o conteúdo localizado em uma pasta em um SharePoint ou OneDrive for Business site, o script neste tópico usa a propriedade gerenciada DocumentLink em vez da propriedade Path. A propriedade DocumentLink é mais robusta do que a propriedade Path porque retornará todo o conteúdo em uma pasta, enquanto a propriedade Path não retornará alguns arquivos de mídia.
@@ -216,17 +216,19 @@ Aqui está um exemplo da saída retornada pelo script para pastas de site.
 
 ## <a name="step-2-use-a-folder-id-or-documentlink-to-perform-a-targeted-collection"></a>Etapa 2: Usar uma ID de pasta ou um link de documento para executar uma coleção direcionada
 
-Depois de executar o script para coletar uma lista de IDs de pasta ou links de documento para um usuário específico, a próxima etapa é ir para o centro de conformidade Microsoft 365 e criar uma nova Pesquisa de Conteúdo para pesquisar uma pasta específica. Você usará o par ou property:value na consulta de pesquisa que você configurar na caixa de palavra-chave Pesquisa de Conteúdo (ou como o valor do parâmetro ContentMatchQuery se você usar o `folderid:<folderid>` `documentlink:<path>` cmdlet **New-ComplianceSearch).**  Você pode combinar a  `folderid` propriedade ou com outros  `documentlink` parâmetros de pesquisa ou condições de pesquisa. Se você incluir apenas a propriedade ou na consulta, a pesquisa retornará todos os  `folderid`  `documentlink` itens localizados na pasta especificada.
+Depois de executar o script para coletar uma lista de IDs de pasta ou links de documento para um usuário específico, a próxima etapa é ir para o Centro de conformidade do Microsoft 365 e criar uma nova Pesquisa de Conteúdo para pesquisar uma pasta específica. Você usará o par ou property:value na consulta de pesquisa que você configurar na caixa de palavra-chave Pesquisa de Conteúdo (ou como o valor do parâmetro ContentMatchQuery se você usar o `folderid:<folderid>` `documentlink:<path>` cmdlet **New-ComplianceSearch).**  Você pode combinar a  `folderid` propriedade ou com outros  `documentlink` parâmetros de pesquisa ou condições de pesquisa. Se você incluir apenas a propriedade ou na consulta, a pesquisa retornará todos os  `folderid`  `documentlink` itens localizados na pasta especificada.
 
 1. Acesse e entre usando a conta e as credenciais que você usou para executar <https://compliance.microsoft.com> o script na Etapa 1.
 
 2. No painel esquerdo do centro de conformidade, clique em **Mostrar toda** a pesquisa de conteúdo e clique em  >  Nova **pesquisa**.
 
-3. Na caixa **Palavras-chave,** colar o valor ou que foi retornado pelo `folderid:<folderid>` script na Etapa  `documentlink:<path>` 1.
+3. Na caixa **Palavras-chave,** colar o valor ou que foi retornado pelo `folderid:<folderid>` script na Etapa  `documentlink:<path>/*` 1.
 
     Por exemplo, a consulta na captura de tela a seguir procurará qualquer item na subpasta Limpezas na pasta Itens Recuperáveis do usuário (o valor da propriedade da subpasta Purges é mostrado na captura de tela na Etapa `folderid` 1):
 
     ![Colar o folderid ou documentlink na caixa de palavras-chave da consulta de pesquisa](../media/FolderIDSearchQuery.png)
+    > [!IMPORTANT]
+    > As pesquisas de documentlink exigem o uso de um  `asterisk '/*'` .  
 
 4. Em **Locais,** selecione **Locais específicos** e clique em **Modificar**.
 
@@ -259,13 +261,13 @@ Aqui estão alguns exemplos de uso das propriedades e em uma consulta de pesquis
 - Este exemplo pesquisa uma pasta de site (e quaisquer subpastas) para documentos que contenham as letras "NDA" no título.
 
   ```powershell
-  documentlink:<path> AND filename:nda
+  documentlink:"<path>/*" AND filename:nda
   ```
 
 - Este exemplo pesquisa uma pasta de site (e qualquer subpasta) em busca de documentos que foram alterados dentro de um intervalo de datas.
 
   ```powershell
-  documentlink:<path> AND (lastmodifiedtime>=01/01/2017 AND lastmodifiedtime<=01/21/2017)
+  documentlink:"<path>/*" AND (lastmodifiedtime>=01/01/2017 AND lastmodifiedtime<=01/21/2017)
   ```
 
 ## <a name="more-information"></a>Mais informações

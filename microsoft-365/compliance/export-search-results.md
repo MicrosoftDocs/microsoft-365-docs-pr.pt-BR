@@ -20,14 +20,14 @@ search.appverid:
 - MED150
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
-description: Exporte os resultados da pesquisa de uma pesquisa de conteúdo no Microsoft 365 de conformidade para um computador local. Os resultados do email são exportados como arquivos PST. O conteúdo SharePoint e OneDrive for Business sites são exportados como documentos Office nativos.
+description: Exporte os resultados da pesquisa de uma pesquisa de conteúdo no Centro de conformidade do Microsoft 365 para um computador local. Os resultados do email são exportados como arquivos PST. O conteúdo SharePoint e OneDrive for Business sites são exportados como documentos Office nativos.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b39bb52457599090f2898da222c71a3a56889290
-ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
+ms.openlocfilehash: d3ae14fc0ac31e50d579668c7fafba5390c5b8fc
+ms.sourcegitcommit: 8b79d276f71f22bcaeb150e78e35101cb1ae0375
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52653530"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114759"
 ---
 # <a name="export-content-search-results"></a>Exportar resultados de Pesquisa de conteúdo
 
@@ -90,7 +90,7 @@ Exportar os resultados de uma pesquisa de conteúdo envolve a preparação dos r
 
 A primeira etapa é preparar os resultados da pesquisa para a exportação. Quando você prepara os resultados, eles são carregados em um local de Armazenamento do Azure fornecido pela Microsoft na nuvem da Microsoft. O conteúdo de caixas de correio e sites é carregado com uma taxa máxima de 2 GB por hora.
   
-1. No centro Microsoft 365 de conformidade, selecione a pesquisa de conteúdo da onde você deseja exportar resultados.
+1. Na Centro de conformidade do Microsoft 365, selecione a pesquisa de conteúdo da onde você deseja exportar resultados.
   
 2. No menu **Ações** na parte inferior da página de sobrevoo, clique em **Exportar resultados**.
 
@@ -133,6 +133,8 @@ A primeira etapa é preparar os resultados da pesquisa para a exportação. Quan
    2. Marque a **caixa de seleção Incluir versões SharePoint arquivos** para exportar todas as versões de SharePoint documentos. Essa opção será exibida somente se as fontes de conteúdo da pesquisa incluirem SharePoint ou OneDrive for Business sites.
   
    3. Selecione a **pasta Exportar arquivos em uma pasta compactada (compactada). Inclui apenas mensagens individuais e SharePoint caixa** de seleção de documentos para exportar resultados de pesquisa para pastas compactadas. Essa opção aparece somente quando você escolhe exportar Exchange itens como mensagens individuais e quando os resultados da pesquisa incluem SharePoint ou OneDrive documentos. Essa opção é usada principalmente para trabalhar em torno do limite de 260 caracteres Windows nomes de caminho de arquivo quando os itens são exportados. Consulte a seção "Nomes de arquivo de itens exportados" na [seção Mais](#more-information) informações.
+   > [!IMPORTANT]
+   > Exportar arquivos em uma pasta compactada (compactada) aumentará o tempo de exportação.
   
 6. Clique **em Exportar** para iniciar o processo de exportação. Os resultados da pesquisa estão preparados para download, o que significa que eles são coletados dos locais de conteúdo original e, em seguida, carregados para um local de Armazenamento do Azure na nuvem da Microsoft. Isso pode levar alguns minutos.
 
@@ -142,7 +144,7 @@ Consulte a próxima seção para obter instruções para baixar os resultados de
 
 A próxima etapa é baixar os resultados da pesquisa do local de Armazenamento do Azure para o computador local.
   
-1. Na página **Pesquisa de** conteúdo no centro de conformidade Microsoft 365, selecione a **guia Exportações**
+1. Na página **Pesquisa de** conteúdo no Centro de conformidade do Microsoft 365, selecione a **guia Exportações**
   
    Talvez seja preciso clicar em **Atualizar para** atualizar a lista de trabalhos de exportação para que ela mostre o trabalho de exportação criado. Os trabalhos de exportação têm o mesmo nome da pesquisa correspondente **_Export** anexado ao nome da pesquisa.
   
