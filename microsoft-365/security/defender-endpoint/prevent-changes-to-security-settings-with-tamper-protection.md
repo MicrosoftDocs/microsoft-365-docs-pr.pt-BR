@@ -16,13 +16,13 @@ author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
-ms.date: 06/17/2021
-ms.openlocfilehash: 7050a1588b71ac106d5364f29c76d379072e9511
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.date: 06/23/2021
+ms.openlocfilehash: 2e0724900de30629292cdcdc055d3ad3a1867b20
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007412"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105411"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>Proteger as configurações de segurança com proteção contra adulteração
 
@@ -52,11 +52,11 @@ Com a proteção contra violações, os aplicativos mal-intencionados são imped
 
 ### <a name="how-it-works"></a>Como funciona
 
-A proteção contra adulteração essencialmente bloqueia Microsoft Defender Antivírus e impede que suas configurações de segurança são alteradas por meio de aplicativos e métodos como:
+A proteção contra adulteração essencialmente bloqueia Microsoft Defender Antivírus seus valores padrão e seguros e impede que suas configurações de segurança seja alterada por meio de aplicativos e métodos como:
 
 - Configurando configurações no Editor de Registro em seu Windows dispositivo
 - Alterar configurações por meio de cmdlets do PowerShell
-- Editar ou remover configurações de segurança por meio de políticas de grupo
+- Editar ou remover configurações de segurança por meio da Política de Grupo
 
 A proteção contra violações não impede que você veja suas configurações de segurança. E a proteção contra adulteração não afeta como aplicativos antivírus de terceiros se registram com o Segurança do Windows aplicativo. Se sua organização estiver usando Windows 10 Enterprise E5, usuários individuais não poderão alterar a configuração de proteção contra violações; nesses casos, a proteção contra violações é gerenciada pela sua equipe de segurança.
 
@@ -72,11 +72,11 @@ A proteção contra violações não impede que você veja suas configurações 
 | Revise suas recomendações de segurança | [Revisar recomendações de segurança](#review-your-security-recommendations) |
 | Revise a lista de perguntas frequentes (perguntas frequentes) | [Procurar perguntas frequentes](#view-information-about-tampering-attempts) |
 
-Dependendo do método ou ferramenta de gerenciamento que você usa para habilitar a proteção contra adulteração, pode haver uma dependência no MAPS (proteção entregue na nuvem). 
+Dependendo do método ou ferramenta de gerenciamento que você usa para habilitar a proteção contra violações, pode haver uma dependência da proteção entregue na nuvem. 
 
 A tabela a seguir fornece detalhes sobre os métodos, ferramentas e dependências.
 
-| Como a proteção contra adulteração está habilitada  | Dependência do MAPS (proteção entregue na nuvem)    |
+| Como a proteção contra adulteração está habilitada  | Dependência da proteção entregue na nuvem (MAPS)    |
 |:----|:----|
 | Microsoft Intune  | Não |
 | Microsoft Endpoint Configuration Manager + Anexação de Locatário  |     Não  |
@@ -168,7 +168,7 @@ No Windows Server 2016, o Configurações aplicativo não refletirá com precis�
 
 2. Use o cmdlet [Get-MpComputerStatus](/powershell/module/defender/get-mpcomputerstatus?preserve-view=true&view=win10-ps) PowerShell.
 
-3. Na lista de resultados, procure `IsTamperProtected` . (Um valor verdadeiro *significa que a* proteção contra adulteração está habilitada.) Na lista de resultados, procure `RealTimeProtectionEnabled` . (Um valor verdadeiro significa que a proteção contra adulteração está habilitada.)
+3. Na lista de resultados, procure `IsTamperProtected` ou `RealTimeProtectionEnabled` . (Um valor verdadeiro *significa que a* proteção contra adulteração está habilitada.)
 
 ## <a name="manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006"></a>Gerenciar a proteção contra violações para sua organização com o Configuration Manager, versão 2006
 
@@ -181,7 +181,8 @@ Se você estiver usando a versão [2006](/mem/configmgr/core/plan-design/changes
 
 1. Configurar anexação de locatário. Para saber mais, consulte [Microsoft Endpoint Manager locatário: Sincronização de dispositivo e ações de dispositivo.](/mem/configmgr/tenant-attach/device-sync-actions)
 
-2. No centro [Microsoft Endpoint Manager de administração,](https://go.microsoft.com/fwlink/?linkid=2109431)vá para **Endpoint security**  >  **Antivírus** e escolha + Criar **Política**.<br/> 
+2. No centro [Microsoft Endpoint Manager de administração,](https://go.microsoft.com/fwlink/?linkid=2109431)vá para **Endpoint security**  >  **Antivírus** e escolha + Criar **Política**. 
+
    - Na lista **Plataforma,** selecione **Windows 10 e Windows Server (ConfigMgr)**.  
    - Na lista **Perfil,** selecione **Segurança do Windows experiência (visualização)**. <br/>
 

@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: f607e36cef85f30fa1d6e073da871ac1c140684c
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 80794a9d5e4da0d2da74fc714ffd1e0ceab34c8f
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841829"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105681"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>Integração Windows 10 usando a Política de Grupo 
 
@@ -119,9 +119,9 @@ Depois de configurar o script de integração, continue editando a mesma políti
 
 Todas as políticas estão localizadas em `Computer Configuration\Policies\Administrative Templates` .
 
-**Local da política:** \Windows Components\Windows Defender SmartScreen*
+**Local da política:** \Windows Components\Windows Defender ATP
 
-Política | Configuração 
+Política | Setting 
 :---|:---
 Enable\Disable Sample collection|   Habilitado - verificado "Habilitar coleta de exemplo em máquinas"
 
@@ -129,7 +129,7 @@ Enable\Disable Sample collection|   Habilitado - verificado "Habilitar coleta de
 
 **Local da política:** \Windows Components\Microsoft Defender Antivírus
 
-Política | Configuração 
+Política | Setting 
 :---|:---
 Configurar a detecção para aplicativos potencialmente indesejados | Habilitado, Bloqueado
 
@@ -137,7 +137,7 @@ Configurar a detecção para aplicativos potencialmente indesejados | Habilitado
 
 **Local da política:** \Windows Components\Microsoft Defender Antivírus\MAPS
 
-Política | Configuração 
+Política | Setting 
 :---|:---
 Ingressar no Microsoft MAPS | MAPAs avançados e habilitados
 Enviar amostras de arquivo quando uma análise posterior for necessária | Habilitado, Enviar amostras seguras
@@ -146,7 +146,7 @@ Enviar amostras de arquivo quando uma análise posterior for necessária | Habil
 
 **Local da política:** \Windows Components\Microsoft Defender Antivírus\Proteção em tempo real
 
-Política | Configuração 
+Política | Setting 
 :---|:---
 Desativar a proteção em tempo real|Desabilitado
 Ativar o monitoramento de comportamento|Habilitado
@@ -155,11 +155,11 @@ Monitorar atividades de arquivo e programa em seu computador|Habilitado
 
 <br/>
 
-**Local da política:** \Windows Components\Microsoft Defender AntivírusScan
+**Local da política:** \Windows Components\Microsoft Defender Antivírus\Scan
 
 Essas configurações configuram verificações periódicas do ponto de extremidade. Recomendamos a realização de uma verificação rápida semanal, permitindo desempenho.
 
-Política | Configuração 
+Política | Setting 
 :---|:---
 Verifique a inteligência de segurança de vírus e spyware mais recente antes de executar uma verificação agendada |Habilitado
 
@@ -184,7 +184,7 @@ Obter a lista atual de GUIDs de redução de superfície de ataque de Personaliz
 
 
 
-Política | Configuração 
+Política | Setting 
 :---|:---
 Configurar acesso controlado a pastas| Habilitado, Modo de Auditoria
 

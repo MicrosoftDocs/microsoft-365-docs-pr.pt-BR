@@ -1,5 +1,5 @@
 ---
-title: Investigar incidentes no Microsoft 365 Defender
+title: Investigar incidentes em Microsoft 365 Defender
 description: Investigue incidentes relacionados a dispositivos, usuários e caixas de correio.
 keywords: incidentes, incidentes, análise, resposta, máquinas, dispositivos, usuários, identidades, email, email, caixa de correio, investigação, gráfico, evidência
 search.product: eADQiWindows 10XVcnh
@@ -25,14 +25,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: dcfc3bd0e06e0bdca6c834e947d7d136af47fde3
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: fdfc065aea3549e99de72c968c0fa19412f9e246
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782820"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105351"
 ---
-# <a name="investigate-incidents-in-microsoft-365-defender"></a>Investigar incidentes no Microsoft 365 Defender
+# <a name="investigate-incidents-in-microsoft-365-defender"></a>Investigar incidentes em Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -40,7 +40,7 @@ ms.locfileid: "52782820"
 
 - Microsoft 365 Defender
 
-Microsoft 365 O Defender agrega todos os alertas, ativos, investigações e evidências relacionados entre seus dispositivos, usuários e caixas de correio em um incidente para dar uma olhada abrangente em toda a amplitude de um ataque.
+Microsoft 365 Defender agrega todos os alertas, ativos, investigações e evidências relacionados de todos os dispositivos, usuários e caixas de correio em um incidente para dar uma olhada abrangente na amplitude de um ataque.
 
 Em um incidente, você analisa os alertas que afetam sua rede, entende o que significam e cola as evidências para que você possa planejar um plano de correção eficaz.
 
@@ -66,7 +66,7 @@ A **página** Resumo fornece um resumo das principais coisas a observar sobre o 
 
 :::image type="content" source="../../media/incidents-overview/incidents-ss-incident-summary.png" alt-text="Exemplo da página Resumo de um incidente no centro Microsoft 365 segurança":::
 
-As categorias de ataque dão a você uma visão visual e numérica de como o ataque avançou contra a cadeia de kill. Assim como com outros produtos de segurança da Microsoft, Microsoft 365 Defender é alinhado à estrutura de CK do [MITRE ATT&&trade; CK.](https://attack.mitre.org/)
+As categorias de ataque dão a você uma visão visual e numérica de como o ataque avançou contra a cadeia de kill. Assim como com outros produtos de segurança da Microsoft, Microsoft 365 Defender está alinhado à estrutura de CK do [MITRE ATT&&trade; CK.](https://attack.mitre.org/)
 
 A seção escopo fornece uma lista dos principais ativos afetados que fazem parte desse incidente. Se houver informações específicas sobre esse ativo, como nível de risco, prioridade de investigação, além de qualquer marcação nos ativos, também virão à tona nesta seção.
 
@@ -145,7 +145,15 @@ A **guia Investigações** lista todas [as investigações automatizadas](m365d-
 
 :::image type="content" source="../../media/investigate-incidents/incident-investigations.png" alt-text="Exemplo de uma página Investigações para um incidente":::
 
-Clique em uma investigação para navegar até a página Detalhes da investigação e obter informações completas sobre o status da investigação e da correção. Se houver ações pendentes para aprovação como parte da investigação, elas aparecerão na guia Ações pendentes. Tome medidas como parte da correção de incidentes.
+Selecione uma investigação para navegar até sua página de detalhes para obter informações completas sobre o status da investigação e correção. Se houver ações pendentes para aprovação como parte da investigação, elas aparecerão na guia Histórico de ações **pendentes.** Tome medidas como parte da correção de incidentes.
+
+Há também uma guia **Gráfico de Investigação** que mostra:
+
+- A conexão de alertas com os ativos afetados em sua organização.
+- Quais entidades estão relacionadas a quais alertas e como eles fazem parte da história do ataque.
+- Os alertas do incidente.
+
+O gráfico de investigação ajuda você a entender rapidamente o escopo completo do ataque conectando as diferentes entidades suspeitas que fazem parte do ataque com seus ativos relacionados, como usuários, dispositivos e caixas de correio. 
 
 Para obter mais informações, consulte [Automated investigation and response in Microsoft 365 Defender](m365d-autoir.md).
 
@@ -155,25 +163,9 @@ A **guia Evidências e Resposta** mostra todos os eventos com suporte e entidade
 
 :::image type="content" source="../../media/investigate-incidents/incident-evidence.png" alt-text="Exemplo de uma página evidências e resposta para um incidente":::
 
-Microsoft 365 O Defender investiga automaticamente todos os eventos com suporte dos incidentes e entidades suspeitas nos alertas, fornecendo informações sobre os emails importantes, arquivos, processos, serviços, endereços IP e muito mais. Isso ajuda você a detectar e bloquear rapidamente possíveis ameaças no incidente.
+Microsoft 365 Defender investiga automaticamente todos os eventos com suporte dos incidentes e entidades suspeitas nos alertas, fornecendo informações sobre os emails importantes, arquivos, processos, serviços, endereços IP e muito mais. Isso ajuda você a detectar e bloquear rapidamente possíveis ameaças no incidente.
 
 Cada uma das entidades analisadas é marcada com um veredito (Mal-intencionado, suspeito, limpo) e um status de correção. Isso ajuda você a entender o status de correção de todo o incidente e quais próximas etapas podem ser tomadas.
-
-## <a name="graph-in-preview"></a>Graph (em visualização)
-
-Com a nova **guia Graph** (na visualização), você pode ver:
-
-- A conexão de alertas com os ativos afetados em sua organização.
-- Quais entidades estão relacionadas a quais alertas e como eles fazem parte da história do ataque.
-- Os alertas do incidente.
-
-Veja um exemplo.
-
-:::image type="content" source="../../media/investigate-incidents/incident-graph.png" alt-text="Exemplo de uma página Graph para um incidente":::
-
-O gráfico de incidentes ajuda você a entender rapidamente o escopo completo do ataque conectando as diferentes entidades suspeitas que fazem parte do ataque com seus ativos relacionados, como usuários, dispositivos e caixas de correio. 
-
-Agora você pode entender como o ataque se propaga pela rede ao longo do tempo, onde ele começou e até onde o ataque foi.
 
 ## <a name="next-steps"></a>Próximas etapas
 

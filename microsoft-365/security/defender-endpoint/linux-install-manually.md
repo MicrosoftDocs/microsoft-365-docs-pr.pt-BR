@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3ed033f137d3329dc208183fe8fad1f300ffd4c9
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 8d7ac39baabca1496a5d2c22521874cfd60c6208
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841781"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105567"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Implantar o Microsoft Defender para Ponto de Extremidade no Linux manualmente
 
@@ -349,6 +349,21 @@ Baixe o pacote de integração Central de Segurança do Microsoft Defender:
         ```bash
         mdatp threat list
         ```
+
+## <a name="experience-linux-endpoint-detection-and-response-edr-capabilities-with-simulated-attacks"></a>Experimente recursos detecção e resposta de ponto de extremidade linux (EDR) com ataques simulados
+
+Para testar as funcionalidades do EDR para Linux, siga as etapas a seguir para simular uma detecção em seu servidor Linux e investigar o caso. 
+
+1.  Verifique se o servidor Linux integrado aparece Central de Segurança do Microsoft Defender. Se essa for a primeira integração do computador, pode levar até 20 minutos até que ela apareça. 
+
+2.  Baixe e extraia [o arquivo de script](https://aka.ms/LinuxDIY) para um servidor Linux integrado e execute o seguinte comando: `./mde_linux_edr_diy.sh`
+
+3.  Após alguns minutos, uma detecção deve ser a Central de Segurança do Microsoft Defender.
+
+4.  Veja os detalhes do alerta, a linha do tempo do computador e execute as etapas de investigação típicas.
+
+
+
 
 ## <a name="installer-script"></a>Script do instalador
 

@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Gerencie comentários que os usuários podem enviar para a Microsoft sobre produtos da Microsoft.
-ms.openlocfilehash: 70ea1d5c176dd603f6a5addb09356909f13f9ace
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 990ae811145d9586307cd3181724866198063a1b
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52840665"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105291"
 ---
 # <a name="manage-microsoft-feedback-for-your-organization"></a>Gerenciar comentários da Microsoft para sua organização
 
-Como administrador de uma organização Microsoft 365, agora há várias políticas para ajudá-lo a gerenciar a coleção de comentários e a experiência de envolvimento do cliente de seus usuários ao usar Microsoft 365 aplicativos. Você pode criar e usar grupos de diretórios existentes do Azure Active em sua organização para cada uma dessas políticas. Com essas polícias, você pode controlar como diferentes departamentos em sua organização podem enviar comentários para a Microsoft. A Microsoft revisa todos os comentários enviados pelos clientes e usa esses comentários para melhorar o produto. Manter as experiências de comentários **ativas** permite que você veja o que seus usuários estão dizendo sobre os produtos da Microsoft que estão usando. Os comentários que coletamos de seus usuários estarão disponíveis em breve no Microsoft 365 de administração.
+Como administrador de uma organização Microsoft 365, agora há várias políticas para ajudá-lo a gerenciar a coleção de comentários e a experiência de envolvimento do cliente de seus usuários ao usar Microsoft 365 aplicativos. Você pode criar e usar grupos de diretórios existentes do Azure Active em sua organização para cada uma dessas políticas. Com essas polícias, você pode controlar como diferentes departamentos em sua organização podem enviar comentários para a Microsoft. A Microsoft revisa todos os comentários enviados pelos clientes e usa esses comentários para melhorar o produto. Manter as experiências de comentários **ativas** permite que você veja o que seus usuários estão dizendo sobre os produtos da Microsoft que estão usando. Os comentários que coletamos de seus usuários estarão disponíveis em breve no Centro de administração do Microsoft 365.
 
 Para saber mais sobre os tipos de comentários e como a Microsoft usa comentários do usuário, consulte Saiba mais sobre os [comentários da Microsoft para sua organização.](../misc/feedback-user-control.md)
 
@@ -43,7 +43,7 @@ A tabela a seguir representa quais aplicativos e serviços estão conectados atu
 |**OneDrive**|[Algumas configurações atualmente gerenciadas por outros controles.](/onedrive/disable-contact-support-send-feedback)||||
 |**Outlook**|Em breve|Em breve|Em breve|Em breve|
 |**PowerPoint**|Sim|Sim|Sim|Sim|
-|**Project**|Em breve|Em breve|Em breve|Em breve|
+|**Projeto**|Em breve|Em breve|Em breve|Em breve|
 |**Publicador**|Sim|Sim|Sim|Sim|
 |**SharePoint**|[Algumas configurações atualmente gerenciadas por outros controles.](/powershell/module/sharepoint-online/set-spotenant)||||
 |**Teams**|[Algumas configurações atualmente gerenciadas por outros controles.](/microsoftteams/manage-feedback-policies-in-teams)||||
@@ -86,7 +86,7 @@ Seus dispositivos devem estar em um número mínimo de com build para usar essas
 
 ## <a name="configure-policies"></a>Configurar políticas
 
-1. Acesse e [https://config.office.com](https://config.office.com) faça logon como usuário com permissões globais de administrador.
+1. Vá para [https://config.office.com](https://config.office.com) e faça logon.
 1. Selecione **Personalização e** Gerenciamento **de Política.**
 1. Selecione **Criar**.
 1. Insira **o nome e** a **descrição**.

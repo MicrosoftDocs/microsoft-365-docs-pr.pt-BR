@@ -19,12 +19,12 @@ description: Integre o servidor SIEM da sua organização ao Microsoft Defender 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f3d6bbacb4a64060ecd03cbb28eee3256f41827e
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: e11d1e64b7c8c3b9d5b93516fe05aed3d5937290
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929774"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105627"
 ---
 # <a name="siem-integration-with-microsoft-defender-for-office-365"></a>Integração siem com o Microsoft Defender para Office 365
 
@@ -41,7 +41,6 @@ Se sua organização estiver usando um servidor SIEM (gerenciamento de informaç
 A integração com SIEM permite exibir informações, como malware ou phishing detectados pelo Microsoft Defender para Office 365, nos relatórios do servidor SIEM.
 
 - Para ver um exemplo de integração do SIEM com o Microsoft Defender para Office 365, consulte o blog do Tech Community: Melhorar a eficácia do soc com o Defender para Office 365 e a API de Gerenciamento [do O365.](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185)
-
 - Para saber mais sobre as APIs Office 365 Gerenciamento, consulte Office 365 Visão geral das [APIs de Gerenciamento.](/office/office-365-management-api/office-365-management-apis-overview)
 
 ## <a name="how-siem-integration-works"></a>Como funciona a integração do SIEM
@@ -58,6 +57,10 @@ O servidor SIEM ou outro sistema semelhante sonda a carga de trabalho **audit.ge
 
 A tabela a seguir resume os valores **de AuditLogRecordType** que são relevantes para o Microsoft Defender para Office 365 eventos:
 
+<br>
+
+****
+
 |Valor|Nome do membro|Descrição|
 |---|---|---|
 |28|ThreatIntelligence|Eventos de phishing e malware da Proteção do Exchange Online e do Microsoft Defender para Office 365.|
@@ -67,7 +70,7 @@ A tabela a seguir resume os valores **de AuditLogRecordType** que são relevante
 |
 
 > [!IMPORTANT]
-> Você deve ser um administrador global ou ter a função de administrador de segurança atribuída ao portal do Microsoft 365 Defender para configurar a integração siem com o Microsoft Defender para Office 365.
+> Você deve ser um administrador global ou ter a função de Administrador de Segurança atribuída no portal Microsoft 365 Defender para configurar a integração siem com o Microsoft Defender para Office 365. Para obter mais informações, veja [Permissões no portal do Microsoft 365 Defender](permissions-microsoft-365-security-center.md).
 >
 > O log de auditoria deve estar ligado para seu Microsoft 365 ambiente. Para obter ajuda com isso, consulte Ativar ou desativar a pesquisa [de log de auditoria.](../../compliance/turn-audit-log-search-on-or-off.md)
 

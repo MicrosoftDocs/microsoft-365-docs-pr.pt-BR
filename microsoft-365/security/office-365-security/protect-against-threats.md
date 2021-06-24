@@ -20,12 +20,12 @@ description: Os administradores podem aprender sobre a proteção contra ameaça
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 31ca7c27e3be20e20c16004490bd2ecd5ca4ae05
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 7e37b67dbed75e3283070ba94321fcb03979a5a6
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083675"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105387"
 ---
 # <a name="protect-against-threats"></a>Proteção contra ameaças
 
@@ -43,7 +43,7 @@ Aqui está um guia de início rápido que quebra a configuração do Defender pa
 >
 > Para ignorar a configuração manual da maioria das políticas no Defender para Office 365, você pode usar políticas de segurança predefinidas no nível Padrão ou Estrito. Para obter mais informações, consulte [Preset security policies in EOP and Microsoft Defender for Office 365](preset-security-policies.md).
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 ### <a name="subscriptions"></a>Assinaturas
 
@@ -95,7 +95,7 @@ Para obter mais informações sobre as configurações recomendadas para anti-ma
 
 3. No sobremenu de detalhes da política que é aberto, clique em Editar configurações **de proteção** e, em seguida, configure as seguintes configurações:
    - **Seção Configurações de** proteção:
-     - Selecione **Habilitar o filtro de anexos comuns** para ativar o filtro de anexos comuns. Clique **em Personalizar tipos de** arquivo para adicionar mais tipos de arquivo.
+     - **Habilita o filtro de anexos comuns:** Selecione (ative). Clique **em Personalizar tipos de** arquivo para adicionar mais tipos de arquivo.
      - **Habilitar a limpeza automática de** hora zero para malware : Verifique se essa configuração está selecionada. Para obter mais informações sobre o ZAP para malware, consulte [Zero-hour auto purge (ZAP) for malware](zero-hour-auto-purge.md#zero-hour-auto-purge-zap-for-malware).
    - **Seção** Notificação: Verifique se nenhuma das configurações de notificação está selecionada.
 
@@ -251,7 +251,7 @@ Para obter mais informações sobre as configurações recomendadas para links C
 2. Na página **Cofre Links,** clique em **Configurações globais** e, em seguida, configure as seguintes configurações no sobrevoo que aparece:
    - **Configurações que se aplicam ao conteúdo na seção Office 365 aplicativos com** suporte:
      - **Use Cofre Links em Office 365 aplicativos**: Verifique se essa configuração está conexões ( ![ Para ](../../media/scc-toggle-on.png) alternar).
-     - **Não rastreia quando os usuários clicam em links protegidos Office 365 aplicativos**: Desativar essa configuração ( ![ Desativar ](../../media/scc-toggle-off.png) )
+     - **Não rastreia quando os usuários clicam em links protegidos Office 365 aplicativos**: Desativar essa configuração ( ![ Desativar ](../../media/scc-toggle-off.png) ).
      - **Não permitir que os usuários cliquem na URL original** em aplicativos Office 365 : Verifique se essa configuração está 100% 100 % 2000 . ![ ](../../media/scc-toggle-on.png)
 
    Quando terminar, clique em **Salvar**

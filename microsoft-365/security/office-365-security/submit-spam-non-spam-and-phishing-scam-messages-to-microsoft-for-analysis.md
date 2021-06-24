@@ -18,12 +18,12 @@ description: Os administradores e usuários finais podem aprender como enviar me
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4d277df764ce2fb135f11c6320bc990e4d4142d6
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: d0d48c3c6f6d082085390d6e246a088b6d3f6bf0
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929762"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105543"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Enviar mensagens manualmente à Microsoft para análise
 
@@ -35,7 +35,7 @@ ms.locfileid: "52929762"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 > [!NOTE]
-> Se você for um administrador em uma organização com Exchange Online caixas de correio, recomendamos que você use o portal Envios no portal Microsoft 365 Defender. Para obter mais informações, [consulte Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](admin-submission.md).
+> Se você for um administrador em uma organização com Exchange Online caixas de correio, recomendamos que você use a página **Envios** no portal Microsoft 365 Defender. Para obter mais informações, [consulte Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](admin-submission.md).
 
 Pode ser frustrante quando os usuários em sua organização recebem mensagens de lixo eletrônico (spam) ou mensagens de phishing em sua Caixa de Entrada ou se eles não recebem uma mensagem de email legítima porque ela é marcada como lixo eletrônico. Estamos constantemente ajustando nossos filtros de spam para ser mais preciso.
 
@@ -72,7 +72,7 @@ Se você receber uma mensagem que passou pela filtragem de spam que deveria ter 
 ## <a name="submit-false-positives-to-microsoft"></a>Enviar falsos positivos à Microsoft
 
 > [!TIP]
-> Em vez de usar os procedimentos a seguir para relatar falsos positivos, os usuários do Outlook e do Outlook na Web (anteriormente conhecidos como Outlook Web App) podem usar o complemento Mensagem de Relatório ou o complemento Relatar Phishing. Para obter informações sobre como instalar e usar essas ferramentas, consulte [Enable the Report Message add-in](enable-the-report-message-add-in.md) and Enable the Report [Phishing add-in](enable-the-report-phish-add-in.md).
+> Em vez de usar os procedimentos a seguir para relatar falsos positivos, os usuários no Outlook e no Outlook na Web podem usar o complemento Mensagem de Relatório ou o complemento Relatar Phishing. Para obter informações sobre como instalar e usar essas ferramentas, consulte [Enable the Report Message add-in](enable-the-report-message-add-in.md) and Enable the Report [Phishing add-in](enable-the-report-phish-add-in.md).
 
 Se uma mensagem foi identificada incorretamente como spam, você pode enviar a mensagem para a Equipe de Análise de Spam da Microsoft. Os analistas avaliarão a mensagem e (dependendo dos resultados da análise) os filtros de todo o serviço podem ser ajustados para permitir a passagem da mensagem.
 
