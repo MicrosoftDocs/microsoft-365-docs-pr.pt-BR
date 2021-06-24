@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint, Microsoft Teams e grupos do Microsoft 365.
-ms.openlocfilehash: 8c19853730376e36ffe7ac136e7fc6036b8b5f12
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 2ffc0350dd61a0064ce2e9891b18a6769a437d2e
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028974"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096751"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint
 
@@ -421,9 +421,7 @@ Não seria um problema de segurança se o documento tivesse um rótulo de confid
 
 Para pesquisar o log de auditoria para esse evento, procure por **Incompatibilidade de confidencialidade em documento detectada** na categoria **Atividades de arquivo e página**.
 
-O email gerado automaticamente tem o assunto **Rótulo de confidencialidade incompatível detectado** e a mensagem do email explica a incompatibilidade de rótulo com um link para o documento e o site carregados. Ele também contém um link de documentação que explica como os usuários podem alterar o rótulo de confidencialidade. Atualmente, não é possível desabilitar ou personalizar esses emails.
-
-Para evitar esse email gerado automaticamente, use o seguinte comando do PowerShell [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite):
+O email gerado automaticamente tem o assunto **Rótulo de confidencialidade incompatível detectado** e a mensagem do email explica a incompatibilidade de rótulo com um link para o documento e o site carregados. Ele também contém um link de documentação que explica como os usuários podem alterar o rótulo de confidencialidade. Esses emails automatizados não podem ser personalizados, mas você pode evitar que sejam enviados ao usar o seguinte comando do PowerShell do [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant):
 
 ```PowerShell
 Set-SPOTenant -BlockSendLabelMismatchEmail $True

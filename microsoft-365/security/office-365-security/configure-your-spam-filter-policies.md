@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bb3e378c13507e354cdd1d739214c1c2d9d6aa98
-ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
+ms.openlocfilehash: afcb82789168999f5f061ca0f86ad3c07b54846d
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52950090"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108230"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Configurar políticas antispam no EOP
 
@@ -83,7 +83,7 @@ Para aumentar a eficácia da filtragem de spam, crie políticas antispam persona
 
 Ao criar uma política antispam personalizada no Microsoft 365 Defender é gerado, ao mesmo tempo, uma regra de filtro de spam e a política de filtro de spam associada com o mesmo nome para ambas.
 
-1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
+1. No portal do Microsoft 365 Defender, vá para **Email e Colaboração** \> **Políticas e Regras** \> página **Políticas de ameaças** \> seção **Políticas** \> **Antispam**.
 
 2. Na página **Políticas anti-spam**, clique em ![Criar ícone](../../media/m365-cc-sc-create-icon.png) **Criar política** e selecione **Entrada** na lista suspensa.
 
@@ -242,7 +242,7 @@ Ao criar uma política antispam personalizada no Microsoft 365 Defender é gerad
 
 ## <a name="use-the-microsoft-365-defender-portal-to-view-anti-spam-policies"></a>Usar o portal do Microsoft 365 Defender para visualizar políticas anti-spam
 
-1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
+1. No portal do Microsoft 365 Defender, vá para **Email e Colaboração** \> **Políticas e Regras** \> página **Políticas de ameaças** \> seção **Políticas** \> **Antispam**.
 
 2. Na página **Políticas anti-spam**, procure um dos seguintes valores:
    - O valor **Tipo** é a **Política antispam personalizada** 
@@ -259,7 +259,7 @@ Ao criar uma política antispam personalizada no Microsoft 365 Defender é gerad
 
 ## <a name="use-the-microsoft-365-defender-portal-to-modify-anti-spam-policies"></a>Usar o portal do Microsoft 365 Defender para modificar políticas anti-spam
 
-1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
+1. No portal do Microsoft 365 Defender, vá para **Email e Colaboração** \> **Políticas e Regras** \> página **Políticas de ameaças** \> seção **Políticas** \> **Antispam**.
 
 2. Na página **Políticas antispam**, selecione uma política antispam da lista clicando no nome:
    - Uma política personalizada que você criou em que o valor da coluna **Tipo** é **Política antispam personalizada**.
@@ -275,7 +275,7 @@ Para habilitar ou desabilitar uma política, definir a ordem de prioridade da po
 
 Não é possível desabilitar a política antispam padrão.
 
-1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
+1. No portal do Microsoft 365 Defender, vá para **Email e Colaboração** \> **Políticas e Regras** \> página **Políticas de ameaças** \> seção **Políticas** \> **Antispam**.
 
 2. Na página **Políticas antispam**, selecione uma política com o **Valor de tipo** da **Política antispam personalizada** na lista clicando no nome.
 
@@ -300,7 +300,7 @@ Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou
 - No portal Microsoft 365 Defender, só é possível alterar a prioridade da política antispam depois de criá-la. No PowerShell, é possível substituir a prioridade padrão ao criar a regra de filtro de spam (o que pode afetar a prioridade das regras existentes).
 - As políticas antispam são processadas na ordem em que são exibidas (a primeira política tem o valor de **Prioridade** 0). A política antispam padrão tem o valor de prioridade **Mais baixo**, e isso não pode ser alterado.
 
-1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
+1. No portal do Microsoft 365 Defender, vá para **Email e Colaboração** \> **Políticas e Regras** \> página **Políticas de ameaças** \> seção **Políticas** \> **Antispam**.
 
 2. Na página **Políticas antispam**, selecione uma política com o **Valor de tipo** da **Política antispam personalizada** na lista clicando no nome.
 
@@ -317,7 +317,7 @@ Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou
 
 Quando um veredito de filtragem de spam coloca uma mensagem em quarentena, é possível configurar as notificações de spam para usuário final de modo que os destinatários saibam o que houve com as mensagens que foram enviadas para eles. Para obter mais informações sobre essas notificações, confira [Notificações de spam para usuário final no EOP](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
-1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
+1. No portal do Microsoft 365 Defender, vá para **Email e Colaboração** \> **Políticas e Regras** \> página **Políticas de ameaças** \> seção **Políticas** \> **Antispam**.
 
 2. Na página **Políticas antispam**, selecione uma política antispam da lista clicando no nome:
    - Uma política personalizada que você criou em que o valor da coluna **Tipo** é **Política antispam personalizada**.
@@ -344,7 +344,7 @@ Quando um veredito de filtragem de spam coloca uma mensagem em quarentena, é po
 
 Quando você usa o portal do Microsoft 365 Defender para remover uma política anti-spam, a regra de filtro de spam e a política de filtro de spam correspondente são excluídas. Você não pode remover a política antispam padrão.
 
-1. No Microsoft 365 Defender, acesse **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças** \> **Políticas** seção \> **Anti-spam**.
+1. No portal do Microsoft 365 Defender, vá para **Email e Colaboração** \> **Políticas e Regras** \> página **Políticas de ameaças** \> seção **Políticas** \> **Antispam**.
 
 2. Na página **Políticas antispam**, selecione uma política com o **Valor de tipo** da **Política antispam personalizada** na lista clicando no nome. Na parte superior do submenu de detalhes da política exibido, clique no ![ícone Mais ações](../../media/m365-cc-sc-more-actions-icon.png) **Mais ações** \> ![ícone Excluir política](../../media/m365-cc-sc-delete-icon.png) **Excluir política**.
 
