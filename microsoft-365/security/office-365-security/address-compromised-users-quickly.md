@@ -15,12 +15,12 @@ ms.date: 06/10/2021
 description: Saiba como acelerar o processo de detecção e endereçamento de contas de usuário comprometidas com recursos automatizados de investigação e resposta no Microsoft Defender para Office 365 Plano 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cd84617230e774b92902ef3d11a365c1965ac814
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: fd1ad6f52114340153f3958441bfb9500db67215
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904135"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108566"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>Resolver contas de usuário comprometidas com investigação e resposta automatizadas
 
@@ -37,9 +37,7 @@ ms.locfileid: "52904135"
 O playbook de segurança do usuário comprometido permite que a equipe de segurança da sua organização:
 
 - Acelerar a detecção de contas de usuário comprometidas;
-
 - Limitar o escopo de uma violação quando uma conta for comprometida; e
-
 - Responder aos usuários comprometidos de forma mais eficaz e eficiente.
 
 ## <a name="compromised-user-alerts"></a>Alertas de usuário comprometidos
@@ -67,21 +65,17 @@ Quando uma conta de usuário é comprometida, os alertas são disparados. E, em 
 
 ### <a name="view-and-investigate-restricted-users"></a>Exibir e investigar usuários restritos
 
-Você tem algumas opções para navegar até uma lista de usuários restritos. Por exemplo, no Centro de Conformidade & segurança, você pode ir **para** a Análise de Gerenciamento de Ameaças \>  \> **Usuários Restritos**. O procedimento a seguir descreve a navegação usando o painel **Alertas,** que é uma boa maneira de ver vários tipos de alertas que podem ter sido disparados.
+Você tem algumas opções para navegar até uma lista de usuários restritos. Por exemplo, no portal Microsoft 365 Defender, você pode ir para **Email & colaboração** \> **Revisar** \> **Usuários Restritos.** O procedimento a seguir descreve a navegação usando o painel **Alertas,** que é uma boa maneira de ver vários tipos de alertas que podem ter sido disparados.
 
-1. Vá para [https://protection.office.com](https://protection.office.com) e entre.
+1. Abra o Microsoft 365 Defender portal ( ) e vá para <https://security.microsoft.com> **Incidentes &** \> **alertas**. Ou, para ir diretamente para a página **Alertas,** use <https://security.microsoft.com/alerts> .
 
-2. No painel de navegação, escolha **Painel de** \> **Alertas**.
+2. Na página **Alertas,** filtre os resultados por período de tempo e a política chamada **Usuário restringida de enviar emails**.
 
-3. No widget **Outros alertas,** escolha **Usuários Restritos**.
+   ![A página Alertas no portal Microsoft 365 Defender filtrada para usuários restritos](../../media/m365-sc-alerts-page-with-restricted-user.png)
 
-   ![Outro widget de alertas](/microsoft-365/media/office365atp-otheralertswidget.jpg)
+3. Se você selecionar a entrada clicando no nome, um Usuário restrito de enviar página de **email** será aberto com detalhes adicionais para revisar. Ao lado do **botão Gerenciar** alerta, você pode clicar em Mais opções ícone Mais opções e, em seguida, selecione Exibir detalhes de usuário restritos para ir para a página Usuários restritos, onde você pode liberar o usuário ![ ](../../media/m365-cc-sc-more-actions-icon.png)  [restrito](removing-user-from-restricted-users-portal-after-spam.md).  
 
-   Isso abre a lista de usuários restritos.
-
-   ![Usuários restritos no Office 365](/microsoft-365/media/office365atp-restrictedusers.jpg)
-
-4. Selecione uma conta de usuário na lista para exibir detalhes e tomar medidas, como [liberar o usuário restrito](removing-user-from-restricted-users-portal-after-spam.md).
+   ![O usuário impedido de enviar página de email do Centro de Alertas](../../media/m365-sc-alerts-user-restricted-from-sending-email-page.png)
 
 ### <a name="view-details-about-automated-investigations"></a>Exibir detalhes sobre investigações automatizadas
 

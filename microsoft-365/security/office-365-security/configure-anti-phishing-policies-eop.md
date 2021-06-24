@@ -15,12 +15,12 @@ ms.collection:
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing disponíveis em organizações Proteção do Exchange Online (EOP) com ou sem Exchange Online caixas de correio.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1dcfba32a5c76915c8c905d55b69712162efac48
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: e56e1b5d91b74d2ffcf9cccc897962b915c6e83c
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53062222"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108062"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Configurar políticas anti-phishing em EOP
 
@@ -87,7 +87,7 @@ Para aumentar a eficácia da proteção anti-phishing, você pode criar polític
 
 Criar uma política anti-phishing personalizada no portal Microsoft 365 Defender cria a regra anti-phishing e a política anti-phishing associada ao mesmo tempo usando o mesmo nome para ambos.
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção Políticas \>  \>  \>  \> **anti-phishing**.
 
 2. Na página **Anti-phishing,** clique em ![ Criar ícone ](../../media/m365-cc-sc-create-icon.png) **Criar**.
 
@@ -145,7 +145,7 @@ Criar uma política anti-phishing personalizada no portal Microsoft 365 Defender
 
 ## <a name="use-the-microsoft-365-defender-portal-to-view-anti-phishing-policies"></a>Usar o portal Microsoft 365 Defender para exibir políticas anti-phishing
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção Políticas \>  \>  \>  \> **anti-phishing**.
 
 2. Na página **Anti-phishing,** as seguintes propriedades são exibidas na lista de políticas:
 
@@ -158,7 +158,7 @@ Criar uma política anti-phishing personalizada no portal Microsoft 365 Defender
 
 ## <a name="use-the-microsoft-365-defender-portal-to-modify-anti-phishing-policies"></a>Usar o portal Microsoft 365 Defender para modificar políticas anti-phishing
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção Políticas \>  \>  \>  \> **anti-phishing**.
 
 2. Na página **Anti-phishing,** selecione uma política na lista clicando no nome.
 
@@ -172,7 +172,7 @@ Para habilitar ou desabilitar uma política ou definir a ordem de prioridade da 
 
 Não é possível desabilitar a política anti-phishing padrão.
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção Políticas \>  \>  \>  \> **anti-phishing**.
 
 2. Na página **Anti-phishing,** selecione uma política personalizada na lista clicando no nome.
 
@@ -197,7 +197,7 @@ Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou
 - No portal Microsoft 365 Defender, você só pode alterar a prioridade da política anti-phishing após a criação. No PowerShell, você pode substituir a prioridade padrão ao criar a regra anti-phish (que pode afetar a prioridade das regras existentes).
 - As políticas anti-phishing são processadas na ordem em que são exibidas (a primeira política tem o **valor priority** 0). A política anti-phishing padrão tem o valor de prioridade **Mais** Baixo e você não pode alterá-la.
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção Políticas \>  \>  \>  \> **anti-phishing**.
 
 2. Na página **Anti-phishing,** selecione uma política personalizada na lista clicando no nome.
 
@@ -214,7 +214,7 @@ Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou
 
 Quando você usa o portal Microsoft 365 Defender para remover uma política anti-phishing personalizada, a regra anti-phishing e a política anti-phishing correspondente são excluídas. Não é possível remover a política anti-phishing padrão.
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção Políticas \>  \>  \>  \> **anti-phishing**.
 
 2. Na página **Anti-phishing,** selecione uma política personalizada na lista clicando no nome.
 
@@ -460,7 +460,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, [consulte Remo
 
 Para verificar se você configurou com êxito políticas anti-phishing no EOP, faça uma das seguintes etapas:
 
-- No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**. Verifique a lista de políticas, seus **valores de Status** e seus valores **priority.** Para exibir mais detalhes, selecione a política na lista clicando no nome e exibindo os detalhes no sobremenu que aparece.
+- No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção Políticas \>  \>  \>  \> **anti-phishing**. Verifique a lista de políticas, seus **valores de Status** e seus valores **priority.** Para exibir mais detalhes, selecione a política na lista clicando no nome e exibindo os detalhes no sobremenu que aparece.
 
 - No Exchange Online PowerShell, substitua pelo nome da política ou regra, execute o seguinte comando e \<Name\> verifique as configurações:
 

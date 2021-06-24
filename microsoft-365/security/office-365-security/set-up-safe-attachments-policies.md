@@ -18,12 +18,12 @@ description: Saiba como definir as Cofre de anexos para proteger sua organizaç�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e7220140c25ecf457b42514356e41aabdf5481bb
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: e516a16ff28c762e154fd908312df65ea48699bc
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054327"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108218"
 ---
 # <a name="set-up-safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas Cofre anexos no Microsoft Defender para Office 365
 
@@ -83,7 +83,7 @@ No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política 
 
 A criação de uma política Cofre anexos personalizados no portal Microsoft 365 Defender cria a regra de anexo seguro e a política de anexo seguro associada ao mesmo tempo usando o mesmo nome para ambos.
 
-1. No portal Microsoft 365 Defender, vá para **Email & políticas** de colaboração & políticas de ameaça seção Políticas de ameaças \>  \>  \>  \> **Cofre Anexos**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \> **Políticas** \> **Cofre Anexos**.
 
 2. Na página **Cofre Anexos,** clique em ![ Criar ícone ](../../media/m365-cc-sc-create-icon.png) **Criar**.
 
@@ -135,7 +135,7 @@ A criação de uma política Cofre anexos personalizados no portal Microsoft 365
 
 ## <a name="use-the-microsoft-365-defender-portal-to-view-safe-attachments-policies"></a>Use o portal Microsoft 365 Defender para exibir Cofre de anexos
 
-1. No portal Microsoft 365 Defender, vá para **Email & políticas** de colaboração & políticas de ameaça seção Políticas de ameaças \>  \>  \>  \> **Cofre Anexos**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \> **Políticas** \> **Cofre Anexos**.
 
 2. Na página **Cofre Anexos,** as seguintes propriedades são exibidas na lista de políticas:
    - **Nome**
@@ -146,7 +146,7 @@ A criação de uma política Cofre anexos personalizados no portal Microsoft 365
 
 ## <a name="use-the-microsoft-365-defender-portal-to-modify-safe-attachments-policies"></a>Usar o portal Microsoft 365 Defender para modificar Cofre de anexos
 
-1. No portal Microsoft 365 Defender, vá para **Email & políticas** de colaboração & políticas de ameaça seção Políticas de ameaças \>  \>  \>  \> **Cofre Anexos**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \> **Políticas** \> **Cofre Anexos**.
 
 2. Na página **Cofre Anexos,** selecione uma política na lista clicando no nome.
 
@@ -156,7 +156,7 @@ Para habilitar ou desabilitar uma política ou definir a ordem de prioridade da 
 
 ### <a name="enable-or-disable-safe-attachments-policies"></a>Habilitar ou desabilitar Cofre de anexos
 
-1. No portal Microsoft 365 Defender, vá para **Email & políticas** de colaboração & políticas de ameaça seção Políticas de ameaças \>  \>  \>  \> **Cofre Anexos**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \> **Políticas** \> **Cofre Anexos**.
 
 2. Na página **Cofre Anexos,** selecione uma política na lista clicando no nome.
 
@@ -182,7 +182,7 @@ Cofre As políticas de anexos são exibidas na ordem em que são processadas (a 
 
 Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou **Diminuir prioridade** nas propriedades da política (não é possível modificar diretamente o número da **Prioridade** no portal Microsoft 365 Defender). Alterar a prioridade de uma política só faz sentido se você tiver várias políticas.
 
-1. No portal Microsoft 365 Defender, vá para **Email & políticas** de colaboração & políticas de ameaça seção Políticas de ameaças \>  \>  \>  \> **Cofre Anexos**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \> **Políticas** \> **Cofre Anexos**.
 
 2. Na página **Cofre Anexos,** selecione uma política na lista clicando no nome.
 
@@ -197,7 +197,7 @@ Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou
 
 ## <a name="use-the-microsoft-365-defender-portal-to-remove-safe-attachments-policies"></a>Use o portal Microsoft 365 Defender para remover Cofre de anexos
 
-1. No portal Microsoft 365 Defender, vá para **Email & políticas** de colaboração & políticas de ameaça seção Políticas de ameaças \>  \>  \>  \> **Cofre Anexos**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \> **Políticas** \> **Cofre Anexos**.
 
 2. Na página **Cofre Anexos,** selecione uma política personalizada na lista clicando no nome da política.
 
@@ -439,7 +439,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, [consulte Remo
 
 Para verificar se você criou, modificou ou removeu com êxito Cofre políticas de Anexos, faça qualquer uma das seguintes etapas:
 
-- No portal Microsoft 365 Defender, vá para **Email & políticas** de colaboração & políticas de ameaça seção Políticas de ameaças \>  \>  \>  \> **Cofre Anexos**. Verifique a lista de políticas, seus **valores de Status** e seus valores **priority.** Para exibir mais detalhes, selecione a política na lista clicando no nome e exibindo os detalhes no fly-out.
+- No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \> **Políticas** \> **Cofre Anexos**. Verifique a lista de políticas, seus **valores de Status** e seus valores **priority.** Para exibir mais detalhes, selecione a política na lista clicando no nome e exibindo os detalhes no fly-out.
 
 - Em Exchange Online PowerShell ou Proteção do Exchange Online PowerShell, substitua pelo nome da política ou regra, execute o seguinte comando e verifique \<Name\> as configurações:
 

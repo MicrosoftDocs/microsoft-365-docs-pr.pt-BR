@@ -19,12 +19,12 @@ description: Saiba mais sobre os relatórios inteligentes e & informações disp
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4af84c058eb3d9d7112f6102d39b209c34148d0e
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 9408f99b72821e6510927755a9fe6f3aa525a5e0
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054504"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108614"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>Relatórios inteligentes e insights no Centro de Conformidade e Segurança
 
@@ -55,7 +55,7 @@ Uma ampla variedade de relatórios estão disponíveis no Centro de Conformidade
 
 |Tipo de informação|Como chegar lá|Onde ir para saber mais|
 |---|---|---|
-|**Microsoft 365 Defender relatórios** (todos para cima) <p> Principais percepções e recomendações e links para relatórios de Microsoft 365 Defender, incluindo relatórios de prevenção contra perda de dados, rótulos, relatórios de segurança de email, Defender para Office 365 relatórios e muito mais|No Centro de Conformidade & segurança, acesse **Relatórios**  >  **Email & colaboração** Email &  >  **[colaboração](https://security.microsoft.com/emailandcollabreport)**|[Monitorar e exibir relatórios no centro Microsoft 365 segurança](../defender/overview-security-center.md)|
+|**Relatórios & Centro de Conformidade** (todos para cima) <p> Principais percepções e recomendações e links para relatórios de Conformidade & segurança, incluindo relatórios de prevenção contra perda de dados, rótulos, relatórios de segurança de email, relatórios do Defender para Office 365 e muito mais|No Centro de Conformidade & segurança, vá para Painel **de** \> **Relatórios**|[Relatórios no Centro de Conformidade e Segurança](../../compliance/reports-in-security-and-compliance.md)|
 |**Prevenção contra perda de dados** <p> Correspondência de políticas de prevenção contra perda de dados, falsos positivos e substituições e links para criar ou editar políticas|No Centro de Conformidade & segurança, vá para **Política de prevenção contra perda de** \> **dados**|[Exibir os relatórios de prevenção contra perda de dados](../../compliance/view-the-dlp-reports.md)|
 |**Governança de dados** <p> Informações sobre como os rótulos são aplicados, rótulos classificados como registros, tendências de rótulo e muito mais|No Centro de Conformidade & Segurança, acesse **Painel de Governança de** \> **Informações**|[Exibir os relatórios de governança de dados](../../compliance/view-the-data-governance-reports.md)|
 |**Painel de gerenciamento de ameaças** (também chamado de painel de segurança) <p> Detecções de ameaças, tendências de malware, usuários principais direcionados, detalhes sobre mensagens de email enviadas e recebidas e muito mais|No Centro de Conformidade & segurança, vá para **Painel de Gerenciamento de** \> **Vulnerabilidades**|[Exibir relatórios do Defender para Office 365](view-reports-for-mdo.md)|

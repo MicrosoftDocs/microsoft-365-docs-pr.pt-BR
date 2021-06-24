@@ -19,12 +19,12 @@ description: Os administradores podem aprender como o insight de representação
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cebccf09c30264d1b7c94185eb4ad28a1b1cf75e
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: b7254dce40f72ecc01dc532f1b6c51f252a2b3ac
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083399"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108626"
 ---
 # <a name="impersonation-insight-in-defender-for-office-365"></a>Visão de representação no Defender para Office 365
 
@@ -66,7 +66,7 @@ Você pode usar o insight de representação no portal Microsoft 365 Defender pa
 
 ## <a name="open-the-impersonation-insight-in-the-microsoft-365-defender-portal"></a>Abra o insight de representação no Microsoft 365 Defender portal
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-phishing**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção Políticas \>  \>  \>  \> **anti-phishing**.
 
 2. Na página **Anti-phishing,** o insight de representação tem a seguinte aparência:
 

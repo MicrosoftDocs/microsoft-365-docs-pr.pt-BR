@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba como proteger suas informações confidenciais usando Microsoft 365 e ferramentas de prevenção contra perda de dados e fazer um tour pelo ciclo de vida da DLP.
-ms.openlocfilehash: 88cf913f62d28c89bce7054473eb577217de9489
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 9b449886e0856f7407fcd49b83192dd0c01474bd
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244607"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108254"
 ---
 # <a name="learn-about-data-loss-prevention"></a>Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade
 
@@ -87,9 +87,9 @@ Você pode aplicar políticas de DLP a dados em repouso, dados em uso e dados em
 
 - Exchange Online email
 - Sites do SharePoint Online
-- Contas OneDrive
+- Contas do OneDrive
 - Bater papo e canal de mensagens do Teams
-- Microsoft Cloud App Security
+- Segurança no aplicativo na nuvem da Microsoft
 - Dispositivos Windows 10
 - Repositórios locais
 
@@ -121,7 +121,9 @@ Enquanto estiver no modo de teste, monitore os resultados da política e ajuste-
 
 #### <a name="enable-the-control-and-tune-your-policies"></a>Habilitar o controle e ajustar suas políticas
 
-Depois que a política atender a todos os seus objetivos, a a ligue. Continue a monitorar os resultados do aplicativo de política e ajuste conforme necessário. Em geral, as políticas entrarão em vigor cerca de uma hora depois de serem ativas. <!--See, tópico LINK TO para SLAs para detalhes específicos do local, >
+Depois que a política atender a todos os seus objetivos, a a ligue. Continue a monitorar os resultados do aplicativo de política e ajuste conforme necessário. Em geral, as políticas entrarão em vigor cerca de uma hora depois de serem ativas. 
+
+<!--See, LINK TO topic for SLAs for location specific  details-->
 
 ## <a name="dlp-policy-configuration-overview"></a>Visão geral da configuração da política de DLP
 

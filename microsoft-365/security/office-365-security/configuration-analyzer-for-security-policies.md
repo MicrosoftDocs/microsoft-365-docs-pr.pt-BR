@@ -18,12 +18,12 @@ ms.collection:
 description: Os administradores podem aprender a usar o analisador de configuração para encontrar e corrigir políticas de segurança que estão abaixo das políticas de segurança predefinidas de proteção padrão e de proteção estrita.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f98ab9b251894a5821d308d95fd786b496e396e4
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 01a9b3a2b01a3cfc95a3911f75907cbe0ef9d58f
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878659"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108422"
 ---
 # <a name="configuration-analyzer-for-protection-policies-in-eop-and-microsoft-defender-for-office-365"></a>Analisador de configuração para políticas de proteção no EOP e no Microsoft Defender para Office 365
 
@@ -34,7 +34,7 @@ ms.locfileid: "52878659"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-O analisador de configuração no portal do defender Microsoft 365 fornece um local central para localizar e corrigir políticas de segurança em que as configurações estão abaixo das configurações de perfil de proteção padrão e estrita em políticas de segurança [predefinidas.](preset-security-policies.md)
+O analisador de configuração no portal Microsoft 365 Defender fornece um local central para localizar e corrigir políticas de segurança em que as configurações estão abaixo das configurações de perfil de proteção padrão e estrita em políticas de segurança [predefinidas.](preset-security-policies.md)
 
 Os seguintes tipos de políticas são analisados pelo analisador de configuração:
 
@@ -57,7 +57,7 @@ Os valores  **de configuração** de política Padrão e Estrita usados como lin
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Você abre o portal Microsoft 365 Defender em <https://security.microsoft.com> . Para ir diretamente para a página **analisador de** configuração, use <https://security.microsoft.com/configurationAnalyzer> .
+- Abra o portal do Microsoft 365 Defender em <https://security.microsoft.com>. Para ir diretamente para a página **analisador de** configuração, use <https://security.microsoft.com/configurationAnalyzer> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -65,7 +65,7 @@ Os valores  **de configuração** de política Padrão e Estrita usados como lin
   - Para usar o **analisador** de configuração e fazer atualizações para  políticas de segurança, você precisa ser membro dos grupos de função Gerenciamento da Organização ou Administrador **de** Segurança.
   - Para acesso somente leitura ao analisador de configuração, você precisa ser membro dos grupos de função Leitor **Global** ou **Leitor de** Segurança.
 
-  Para obter mais informações, consulte [Permissões no portal Microsoft 365 Defender](permissions-microsoft-365-security-center.md).
+  Para obter mais informações, veja [Permissões no portal do Microsoft 365 Defender](permissions-microsoft-365-security-center.md).
 
   > [!NOTE]
   >  
@@ -73,9 +73,9 @@ Os valores  **de configuração** de política Padrão e Estrita usados como lin
   >
   > - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
-## <a name="use-the-configuration-analyzer-in-the-microsoft-365-defender-portal"></a>Use o analisador de configuração no portal Microsoft 365 Defender
+## <a name="use-the-configuration-analyzer-in-the-microsoft-365-defender-portal"></a>Use o analisador de configuração no Microsoft 365 Defender portal
 
-No portal Microsoft 365 Defender, vá para **Email** & políticas de colaboração & políticas de ameaça Seção Políticas \>  \>  \>  \> **modelo. Analisador de configuração.**
+No portal Microsoft 365 Defender, vá para **Email & Políticas** de Colaboração & Regras Página Políticas predefinidas seção \>  \>  \>  \> **Analisador de configuração**.
 
 A **página analisador de** configuração tem duas guias principais:
 

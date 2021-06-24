@@ -19,12 +19,12 @@ ms.custom:
 description: Os administradores podem aprender a configurar a filtragem de conexão no Proteção do Exchange Online (EOP) para permitir ou bloquear emails de servidores de email.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 416fbd73d8412cf8697577df19f2fd2893b4ce96
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: ce1eddbf1ac788ad57ffc57da2156aae1ae69f6a
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878815"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108386"
 ---
 # <a name="configure-connection-filtering"></a>Configurar a filtragem de conexão
 
@@ -51,7 +51,7 @@ Este artigo descreve como configurar a política de filtro de conexão padrão n
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Você abre o portal Microsoft 365 Defender em <https://security.microsoft.com> . Para ir diretamente à página de **Políticas antispam**, use <https://security.microsoft.com/antispam>.
+- Abra o portal do Microsoft 365 Defender em <https://security.microsoft.com>. Para ir diretamente à página de **Políticas antispam**, use <https://security.microsoft.com/antispam>.
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -72,9 +72,9 @@ Este artigo descreve como configurar a política de filtro de conexão padrão n
 
 - A Lista de ICs Permitidas e a Lista de Bloqueios de IP suportam no máximo 1273 entradas, onde uma entrada é um único endereço IP, um intervalo de endereços IP ou um IP CIDR (Roteamento Entre Domínios Sem Classes).
 
-## <a name="use-the-microsoft-365-defender-portal-to-modify-the-default-connection-filter-policy"></a>Use o portal Microsoft 365 Defender para modificar a política de filtro de conexão padrão
+## <a name="use-the-microsoft-365-defender-portal-to-modify-the-default-connection-filter-policy"></a>Usar o portal Microsoft 365 Defender para modificar a política de filtro de conexão padrão
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-spam**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção Políticas \>  \>  \>  \> **anti-spam**.
 
 2. Na página **Políticas anti-spam,** selecione Política de filtro de conexão **(Padrão)** na lista clicando no nome da política.
 
@@ -105,7 +105,7 @@ Este artigo descreve como configurar a política de filtro de conexão padrão n
 
 ## <a name="use-the-microsoft-365-defender-portal-to-view-the-default-connection-filter-policy"></a>Use o portal Microsoft 365 Defender para exibir a política de filtro de conexão padrão
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \>  \> **Anti-spam**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção Políticas \>  \>  \>  \> **anti-spam**.
 
 2. Na página **Políticas anti-spam,** as seguintes propriedades são exibidas na lista de políticas:
 
@@ -152,7 +152,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-
 
 Para verificar se você modificou com êxito a política de filtro de conexão padrão, faça qualquer uma das seguintes etapas:
 
-- No portal do Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção Políticas \>  \>  \>  \> **anti-spam** selecione Política de filtro de conexão \> **(Padrão)** na lista clicando no nome da política e verifique as configurações.
+- No portal Microsoft 365 Defender, acesse Email **& Políticas** de Colaboração & Políticas de Ameaças de Regras seção Políticas \>  \>  \>  \> **anti-spam** selecione Política de filtro de conexão \> **(Padrão)** na lista clicando no nome da política e verifique as configurações.
 
 - No Exchange Online PowerShell ou no EOP PowerShell autônomo, execute o seguinte comando e verifique as configurações:
 
@@ -207,4 +207,4 @@ Se você encontrar qualquer um desses cenários, poderá criar uma regra de flux
 
 ****
 
-![O ícone curto do LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **New para Microsoft 365?** Descubra cursos de vídeo **gratuitos Microsoft 365 administradores** e profissionais de TI , trazidos para você pelo LinkedIn Learning.
+![O ícone curto do LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Novo para Microsoft 365?** Descubra cursos de vídeo **gratuitos para Microsoft 365 administradores** e profissionais de TI , trazidos para você pelo LinkedIn Learning.

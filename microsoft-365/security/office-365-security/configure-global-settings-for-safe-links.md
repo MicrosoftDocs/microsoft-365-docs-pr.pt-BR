@@ -18,12 +18,12 @@ ms.collection:
 description: Os administradores podem aprender a exibir e configurar configurações globais (a lista "Bloquear as URLs a seguir" e a proteção para aplicativos Office 365) para links do Cofre no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5b1bcdaf92412b17b231e3f4849bae8aab72f292
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 46bafd89400dfa551641c055f6f0e208c0ecd49f
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878527"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108038"
 ---
 # <a name="configure-global-settings-for-safe-links-in-microsoft-defender-for-office-365"></a>Configurar configurações globais para Cofre links no Microsoft Defender para Office 365
 
@@ -47,11 +47,11 @@ No entanto, Cofre Links também usa as seguintes configurações globais que voc
 
 Você pode configurar as configurações globais de Links do Cofre no portal do Microsoft 365 Defender ou no PowerShell (Exchange Online PowerShell para organizações de Microsoft 365 qualificadas com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem caixas de correio Exchange Online, mas com o Microsoft Defender para assinaturas de complemento do Office 365).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Não há política de links interna ou padrão Cofre, portanto, você precisa criar pelo menos uma política Cofre Links para que a lista bloquear as **URLs a** seguir seja ativa. Para obter instruções, [consulte Set up Cofre Links policies in Microsoft Defender for Office 365](set-up-safe-links-policies.md).
 
-- Você abre o portal Microsoft 365 Defender em <https://security.microsoft.com> . Para ir diretamente para a página **Cofre Links,** use <https://security.microsoft.com/safelinksv2> .
+- Abra o portal do Microsoft 365 Defender em <https://security.microsoft.com>. Para ir diretamente para a página **Cofre Links,** use <https://security.microsoft.com/safelinksv2> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -72,11 +72,11 @@ Você pode configurar as configurações globais de Links do Cofre no portal do 
 
 - [Novos recursos estão sendo adicionados continuamente ao Microsoft Defender para](defender-for-office-365.md#new-features-in-microsoft-defender-for-office-365)Office 365 . À medida que novos recursos são adicionados, talvez seja necessário fazer ajustes nas políticas de links Cofre existentes.
 
-## <a name="configure-the-block-the-following-urls-list-in-the-microsoft-365-defender-portal"></a>Configurar a lista "Bloquear as URLs a seguir" no portal Microsoft 365 Defender
+## <a name="configure-the-block-the-following-urls-list-in-the-microsoft-365-defender-portal"></a>Configurar a lista "Bloquear as URLs a seguir" no portal de Microsoft 365 Defender
 
 A **lista Bloquear as URLs** a seguir identifica os links que sempre devem ser bloqueados Cofre verificação de links em aplicativos com suporte. Para obter mais informações, consulte ["Bloquear a lista de URLs a seguir" para Cofre Links](safe-links.md#block-the-following-urls-list-for-safe-links).
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras \>  \>  \>  \> **Cofre Links**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \> **Políticas** \> **Cofre Links**.
 
 2. Na página **Cofre Links,** clique em **Configurações globais**. Na política **Cofre Links para** sua organização que aparece, vá para a caixa Bloquear as **URLs a** seguir.
 
@@ -117,11 +117,11 @@ Você pode usar o cmdlet **Get-AtpPolicyForO365** para exibir entradas existente
   Set-AtpPolicyForO365 -BlockUrls @{Add="adatum.com"; Remove="fabrikam"}
   ```
 
-## <a name="configure-safe-links-protection-for-office-365-apps-in-the-microsoft-365-defender-portal"></a>Configurar Cofre de links para Office 365 aplicativos no portal Microsoft 365 Defender
+## <a name="configure-safe-links-protection-for-office-365-apps-in-the-microsoft-365-defender-portal"></a>Configurar Cofre de links para Office 365 aplicativos no portal Microsoft 365 Defender site
 
 Cofre A proteção de links Office 365 aplicativos se aplica a documentos em aplicativos Office desktop, mobile e Web suportados. Para obter mais informações, [consulte Cofre Configurações de Links para Office 365 aplicativos](safe-links.md#safe-links-settings-for-office-365-apps).
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras \>  \>  \>  \> **Cofre Links**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \> **Políticas** \> **Cofre Links**.
 
 2. Na página **Cofre Links,** clique em **Configurações globais**. Na política **Cofre Links** para sua organização que aparece, configure as seguintes configurações no Configurações que se aplicam **ao** conteúdo na seção aplicativos Office 365 com suporte:
 
@@ -157,7 +157,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-
 
 Para verificar se você configurou com êxito as configurações globais para links Cofre (a lista Bloquear as **SEGUINTES URLs** e as configurações de proteção de aplicativos Office 365), faça qualquer uma das seguintes etapas:
 
-- No portal do Microsoft 365 Defender, vá para **Email &** Políticas de Colaboração & Políticas de Ameaças de Regras Cofre Links clique em Configurações globais e verifique as configurações no sobrevoo que \>  \>  \>  \>  \> aparece. 
+- No portal Microsoft 365 Defender, vá até **Email &** Políticas de Colaboração & Políticas de Ameaças de Regras seção Políticas Cofre Links clique em \>  \>  \>  \>  \> **Configurações** globais e verifique as configurações no sobrevoo que aparece.
 
 - No Exchange Online PowerShell ou Proteção do Exchange Online PowerShell, execute o seguinte comando e verifique as configurações:
 

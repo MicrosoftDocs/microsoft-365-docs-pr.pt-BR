@@ -15,12 +15,12 @@ ms.collection:
 description: Os administradores podem aprender a aplicar configurações de política padrão e estrita nos recursos de proteção do Proteção do Exchange Online (EOP) e do Microsoft Defender para Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: eb5fb2e882348e2cd0480abf5ad7217095b2522d
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: e41edb6c2d77a69ee3d4fa28ff86e0e77410caa5
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083483"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108290"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Políticas de segurança predefinidas no EOP e no Microsoft Defender para Office 365
 
@@ -119,7 +119,7 @@ Em outras palavras, as  configurações da política de  proteção estrita subs
 
 ### <a name="use-the-microsoft-365-defender-portal-to-assign-preset-security-policies-to-users"></a>Use o portal Microsoft 365 Defender para atribuir políticas de segurança predefinidas aos usuários
 
-1. No portal Microsoft 365 Defender, acesse **Email & de** colaboração políticas de & regras políticas modelo de políticas de segurança \>  \>  \>  \> **predefinidas**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras Seção Políticas de segurança predefinidas \>  \>  \>  \> .
 
 2. Em **Proteção padrão ou** proteção **estrita,** clique em **Editar**.
 

@@ -18,12 +18,12 @@ ms.collection:
 description: Os administradores podem aprender a exibir, criar, modificar e excluir Cofre políticas de links e configurações globais Cofre Links no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d1e0257fd124a53b2191ad8025ce42dc13a2e23e
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 8d42051d2ca4f26758cbe7334d427f3f93178f97
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096763"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108206"
 ---
 # <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas Cofre links no Microsoft Defender para Office 365
 
@@ -173,7 +173,7 @@ Para habilitar ou desabilitar uma política ou definir a ordem de prioridade da 
 
 ### <a name="enable-or-disable-safe-links-policies"></a>Habilitar ou desabilitar Cofre de links
 
-1. No portal Microsoft 365 Defender, vá para **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras \>  \>  \>  \> **Cofre Links**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \> **Políticas** \> **Cofre Links**.
 
 2. Na página **Cofre Links,** selecione uma política na lista clicando no nome.
 
@@ -198,7 +198,7 @@ Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou
 - No portal Microsoft 365 Defender, você só pode alterar a prioridade da política Cofre Links após a criação. No PowerShell, você pode substituir a prioridade padrão ao criar a regra de links seguros (que pode afetar a prioridade das regras existentes).
 - Cofre As políticas de links são processadas na ordem em que são exibidas (a primeira política tem **o valor Priority** 0). Para obter mais informações sobre a ordem de precedência e como várias políticas são avaliadas e aplicadas, confira [Ordem e precedência da proteção de email](how-policies-and-protections-are-combined.md).
 
-1. No portal Microsoft 365 Defender, vá para **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras \>  \>  \>  \> **Cofre Links**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \> **Políticas** \> **Cofre Links**.
 
 2. Na página **Cofre Links,** selecione uma política na lista clicando no nome.
 
@@ -213,7 +213,7 @@ Para alterar a prioridade de uma política, clique em **Aumentar prioridade** ou
 
 ## <a name="use-the-microsoft-365-defender-portal-to-remove-safe-links-policies"></a>Usar o portal Microsoft 365 Defender para remover as políticas Cofre Links
 
-1. No portal Microsoft 365 Defender, vá para **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras \>  \>  \>  \> **Cofre Links**.
+1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \> **Políticas** \> **Cofre Links**.
 
 2. Na página **Cofre Links,** selecione uma política na lista clicando no nome. Na parte superior do submenu de detalhes da política exibido, clique no ![ícone Mais ações](../../media/m365-cc-sc-more-actions-icon.png) **Mais ações** \> ![ícone Excluir política](../../media/m365-cc-sc-delete-icon.png) **Excluir política**.
 

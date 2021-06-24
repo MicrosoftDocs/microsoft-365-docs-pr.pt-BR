@@ -16,12 +16,12 @@ ms.collection:
 description: Saiba mais Cofre documentos em Microsoft 365 E5 ou Microsoft 365 E5 Security.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1049543b11ad14eeeed596367228f025cc8edd65
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 0e1bd2150a04e51e0d06c6cd1c17a71a032df1a5
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054431"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108602"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Documentos Seguros no Microsoft 365 E5
 
@@ -62,7 +62,7 @@ Os arquivos enviados por Cofre Documentos não são mantidos no Defender além d
 
 ## <a name="use-the-microsoft-365-defender-to-configure-safe-documents"></a>Usar o Microsoft 365 Defender para configurar Cofre Documentos
 
-1. Abra o portal Microsoft 365 Defender e vá para **Email & políticas** de colaboração & regras Políticas de ameaças seção Cofre \>  \>  \>  \> **Anexos**.
+1. Abra o portal Microsoft 365 Defender e acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção \>  \>  \> **Políticas** \> **Cofre Anexos**.
 
 2. Na página **Cofre Anexos,** clique em **Configurações globais**.
 
@@ -103,7 +103,7 @@ Para saber mais, confira [Onboard to the Microsoft Defender for Endpoint service
 
 Para verificar se você habilitar e configurar Cofre Documentos, faça qualquer uma das seguintes etapas:
 
-- No portal Microsoft 365 Defender, acesse Email **& collaboration** Policies & rules Políticas de ameaças Políticas de políticas de ameaças seção Cofre Configurações globais de \>  \>  \>  \> **anexos** e \>    verifique a opção Ativar documentos do Cofre para clientes Office e Permitir que as pessoas cliquem em Exibir Protegido mesmo que documentos Cofre identifiquem o arquivo como configurações mal-intencionadas.
+- No portal do Microsoft 365 Defender, acesse Email **& Políticas** de Colaboração & Página Políticas de Ameaças de Regras Políticas Cofre Configurações globais de \>  \>  \>  \> **anexos** e \>    verifique a página Ativar documentos do Cofre para clientes do Office e Permitir que as pessoas cliquem em Exibir Protegido mesmo que documentos Cofre identifiquem o arquivo como configurações mal-intencionadas.
 
 - Execute o seguinte comando no Exchange Online PowerShell e verifique os valores da propriedade:
 
