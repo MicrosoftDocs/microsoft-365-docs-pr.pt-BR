@@ -17,12 +17,12 @@ ms.collection:
 description: Saiba como os pools de entrega são usados para proteger a reputação dos servidores de email nos Microsoft 365 datacenters.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ac3469150ef5cf5c1040fcddf7f0bc95e7a18805
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 85f200cf226a050762db4ea37255f71241d1f98c
+ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599906"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53137710"
 ---
 # <a name="outbound-delivery-pools"></a>Pools de entrega de saída
 
@@ -61,3 +61,24 @@ As possíveis causas para uma sobrecarga em NDRs incluem:
 - Um servidor de email desonesto.
 
 Todos esses problemas podem resultar em um aumento repentino no número de NDRs sendo processados pelo serviço. Muitas vezes, essas NDRs parecem ser spam para outros servidores de email e serviços (também conhecidos como _[backscatter](backscatter-messages-and-eop.md)_).
+
+
+### <a name="relay-pool"></a>Pool de retransmissão
+
+As mensagens encaminhadas ou retransmitida por Microsoft 365 em determinados cenários serão enviadas usando um pool de retransmissão especial, pois o destino não deve considerar Microsoft 365 como o remetente real. É importante isolar esse tráfego de email, pois existem cenários legítimos e inválidos para encaminhamento automático ou retransmissão de emails fora de Microsoft 365. Semelhante ao pool de entrega de alto risco, um pool de endereços IP separado é usado para emails reenvados. Esse pool de endereços não é publicado porque pode mudar com frequência e não faz parte do registro SPF publicado para Microsoft 365.
+
+Microsoft 365 precisa verificar se o remetente original é legítimo para que possamos entregar com confiança a mensagem encaminhada.
+
+A mensagem encaminhada/retransmitida deve atender a um dos seguintes critérios para evitar o uso do pool de retransmissão:
+
+- O remetente de saída está em [um domínio aceito.](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)
+- SPF passa quando a mensagem é Microsoft 365.
+- O DKIM no domínio do remetente passa quando a mensagem é Microsoft 365.
+ 
+Você pode dizer que uma mensagem foi enviada por meio do pool de retransmissão olhando para o IP do servidor de saída (o pool de retransmissão estará no intervalo 40.95.0.0/16) ou olhando para o nome do servidor de saída (terá "rly" no nome).
+
+Nos casos em que podemos autenticar o remetente, usamos o Esquema de Reescrita de Remetente (SRS) para ajudar o sistema de email do destinatário a saber que a mensagem encaminhada é de uma fonte confiável. Você pode ler mais sobre como isso funciona e o que pode fazer para ajudar a garantir que o domínio de envio passe autenticação no [SrS (Esquema](/office365/troubleshoot/antispam/sender-rewriting-scheme)de Reescrita do Remetente) em Office 365 .
+
+Para que o DKIM funcione, certifique-se de habilitar o DKIM para envio de domínio. Por exemplo, fabrikam.com faz parte do contoso.com e é definido nos domínios aceitos da organização. Se o remetente da mensagem sender@fabrikam.com, o DKIM precisará ser habilitado para fabrikam.com. você pode ler sobre como habilitar em [Usar DKIM para validar emails](use-dkim-to-validate-outbound-email.md)de saída enviados do seu domínio personalizado.
+
+Para adicionar domínios personalizados, siga as etapas em [Adicionar um domínio a Microsoft 365](../../admin/setup/add-domain.md).

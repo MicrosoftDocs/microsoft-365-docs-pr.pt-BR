@@ -10,20 +10,20 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Saiba como administrar a visibilidade de tópicos nos Tópicos do Microsoft Viva.
-ms.openlocfilehash: cd6a712687a63c3d131ee678c6c408f516c7b529
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: 07679b2de668ba5e0c9fdf206310233ce7af84a4
+ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107656"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53137746"
 ---
 # <a name="manage-topic-visibility-in-microsoft-viva-topics"></a>Gerenciar visibilidade de tópicos em Tópicos do Microsoft Viva
 
-Você pode gerenciar o conjunto de usuários que podem ver destaques de tópicos, cartões de tópico e o centro de tópicos no centro de Microsoft 365 [de administração.](https://admin.microsoft.com) Você deve ser um administrador global ou um SharePoint para executar essas tarefas.
+Você pode gerenciar quem pode ver destaques de tópicos, cartões de tópico e o centro de tópicos [no Centro de administração do Microsoft 365](https://admin.microsoft.com). Você deve ser um administrador global ou SharePoint administrador e administrador de Grupos para realizar essas tarefas.
 
 ## <a name="to-access-topics-management-settings"></a>Para acessar as configurações de gerenciamento de tópicos:
 
-1. No centro Microsoft 365 de administração, clique **em Configurações**, em seguida, **Configurações de organização**.
+1. No Centro de administração do Microsoft 365, clique **em Configurações**, em seguida, **Configurações de organização.**
 2. Na guia **Serviços,** clique em **Experiências de tópico.**
 
     ![Conexão pessoas para conhecimento](../media/admin-org-knowledge-options-completed.png) 
@@ -49,7 +49,7 @@ Você pode alterar os usuários que podem ver tópicos em sua organização.
 > [!Note] 
 > Embora essa configuração permita que você selecione qualquer usuário em sua organização, somente os usuários que têm licenças de Experiências de Tópico atribuídas a eles poderão exibir tópicos.
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 [Gerenciar a descoberta de tópicos em Tópicos do Microsoft Viva](topic-experiences-discovery.md)
 

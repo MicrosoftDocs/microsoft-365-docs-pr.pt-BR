@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como importar dados de terceiros de plataformas de mídia social, plataformas de mensagens instantâneas e plataformas de colaboração de documentos para Microsoft 365 caixas de correio.
-ms.openlocfilehash: de4c3c6454809cc1b7f78c0e5790fcbe8b3887c0
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: c30be0888a2c92a23c4e5f323235eba671c5ab1d
+ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096163"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53137713"
 ---
 # <a name="archive-third-party-data-in-microsoft-365"></a>Arquivar dados de terceiros em Microsoft 365
 
@@ -121,7 +121,7 @@ Os conectores de dados teleMessage também estão disponíveis GCC ambientes na 
 |[WhatsApp ](archive-whatsapp-data.md)     |![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 ||||||||
 
-### <a name="17a-4-data-connectors"></a>Conectores de dados 17a-4
+### <a name="17a-4-data-connectors"></a>conectores de dados 17a-4
 
 A tabela nesta seção lista os conectores de dados de terceiros disponíveis em parceria com o 17a-4 LLC. A tabela também resume as soluções de conformidade que você pode aplicar a dados de terceiros depois de importar e arquivar em Microsoft 365. Consulte a [seção Visão geral](#overview-of-compliance-solutions-that-support-third-party-data) das soluções de conformidade que suportam dados de terceiros para obter uma descrição mais detalhada de cada solução de conformidade e como ela oferece suporte a dados de terceiros.
 
@@ -143,6 +143,7 @@ Antes de arquivar dados de terceiros no Microsoft 365, você precisa trabalhar c
 |[Refinitiv Eikon Messenger](archive-17a-4-refinitiv-messenger-data.md)    |![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 |[ServiceNow ](archive-17a-4-servicenow-data.md)    |![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 |[Slack ](archive-17a-4-slack-data.md)    |![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
+|[SQL](archive-17a-4-sql-database-data.md)    |![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 |[Orquestra orquestrada ](archive-17a-4-symphony-data.md)    |![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 |[Zoom ](archive-17a-4-zoom-data.md)    |![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 ||||||||
@@ -200,10 +201,10 @@ Como mencionado anteriormente, os conectores de dados fornecidos pelo TeleMessag
 
 |Conector de dados teleMessage  |CCG  |CCG Alto  |DoD  |
 |:---------|:---------|:---------|:---------|
-|Android Archiver | Sim | Não | Não |
-|AT&T SMS/MMS Network Archiver | Sim | Não | Não |
-|Carregador de rede SMS/MMS | Sim | Não | Não |
-|Enterprise Arquivo mortor de números | Sim | Não | Não |
+|Arquivador Android | Sim | Não | Não |
+|Arquivador de Rede AT&T SMS/MMS | Sim | Não | Não |
+|Arquivador de Rede Bell SMS/MMS | Sim | Não | Não |
+|Número da Empresa Arquivador | Sim | Não | Não |
 |O2 SMS e o Arquivo Mortor de Rede de Voz | Sim         | Não | Não |
 |Arquivo mortor de rede SMS TELUS | Sim | Não | Não |
 |Verizon SMS/MMS Network Archiver | Sim | Não | Não |

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente um rótulo a arquivos e emails, ou você pode solicitar aos usuários que selecionem o rótulo que você recomenda.
-ms.openlocfilehash: 77834c71c7df9f5a460533f1a06878e0e3e38145
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: dbfe9e1eaeff7968328eefd24caeec35e2d72558
+ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53061895"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53137770"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -140,6 +140,9 @@ Você pode aprender mais sobre essas opções de configuração na documentaçã
 
 Também de forma semelhante à configuração da política DLP, você pode escolher se uma condição deve detectar todos os tipos de informações confidenciais ou apenas um deles. E para tornar suas condições mais flexíveis ou complexas, você pode adicionar [grupos e usar operadores lógicos entre os grupos](data-loss-prevention-policies.md#grouping-and-logical-operators).
 
+> [!NOTE]
+> As políticas de rotulamento automático com base em tipos de informações confidenciais personalizados se aplicam apenas ao conteúdo recém-criado ou modificado no OneDrive e no Microsoft Office SharePoint Online. 
+
 ### <a name="configuring-trainable-classifiers-for-a-label"></a>Configurar classificadores treináveis para um rótulo
 
 Esta opção está atualmente no modo de visualização. Se você usar esta opção, certifique-se de que publicou no seu locatário pelo menos um outro rótulo de confidencialidade configurado para auto-rotulagem e a [opção de tipos de informações confidenciais](#configuring-sensitive-info-types-for-a-label).
@@ -190,7 +193,7 @@ Específico para rotulagem interna:
 
 - Para obter os rótulos recomendados nas versões de área de trabalho do Word, o conteúdo confidencial que disparou a recomendação é sinalizado para que os usuários podem analisar e remover o conteúdo confidencial, em vez de aplicar o rótulo de confidencialidade recomendado.
 
-- Para saber mais sobre como esses rótulos são aplicados aos aplicativos do Office, capturas de tela de exemplo e como as informações confidenciais são detectadas, confira [Aplicar ou recomendar rótulos de confidencialidade automaticamente aos seus arquivos e emails no Office](https://support.office.com/en-us/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1).
+- Para saber mais sobre como esses rótulos são aplicados aos aplicativos do Office, capturas de tela de exemplo e como as informações confidenciais são detectadas, confira [Aplicar ou recomendar rótulos de confidencialidade automaticamente aos seus arquivos e emails no Office](https://support.office.com/pt-BR/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1).
 
 Específico para o cliente de rotulagem unificada da Proteção de Informações do Azure:
 
@@ -215,7 +218,7 @@ Certifique-se de que você está ciente dos pré-requisitos antes de configurar 
     - No momento em que a política de rotulagem automática é executada, o arquivo não deve estar aberto por outro processo ou usuário. Um arquivo que foi retirado para edição se enquadra nessa categoria.
 
 - Se você planeja usar [tipos de informações confidenciais personalizadas](sensitive-information-type-learn-about.md), em vez de tipos de confidencialidade interna: 
-    - Os tipos de informações de confidencialidade personalizados são avaliados para conteúdo adicionado ao Microsoft Office SharePoint Online ou OneDrive depois que os tipos de informações de confidencialidade personalizados são salvos. 
+    - Os tipos de informações de confidencialidade personalizados aplicam-se apenas ao conteúdo adicionado ou modificado no Microsoft Office SharePoint Online ou OneDrive depois que os tipos de informações de confidencialidade personalizados são impostos. 
     - Para testar novos tipos de informações confidenciais personalizadas, crie-os antes de criar a política de rotulagem automática e crie novos documentos com dados de exemplo para teste.
 
 - Um ou mais rótulos de confidencialidade [criados e publicados](create-sensitivity-labels.md) (para pelo menos um usuário) que você pode selecionar para suas políticas de rotulagem automática. Para esses rótulos:

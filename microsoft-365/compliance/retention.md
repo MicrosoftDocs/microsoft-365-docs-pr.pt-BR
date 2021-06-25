@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: e39f4e65d5c4bdf4235e7ae2d8aa207c986c76c8
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: f882a9a215f331930de7473d6bf057a3d45bc50e
+ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055054"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53137686"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -283,11 +283,11 @@ Nesse cenário, quando os itens podem estar sujeitos a várias configurações d
 
 O resultado não é qual política de retenção única ou rótulo de retenção único prevalece, mas por quanto tempo um item é mantido (se aplicável) e quando um item é excluído (se aplicável). Essas duas ações são calculadas independentemente uma da outra, a partir de todas as configurações de retenção aplicadas a um item.
 
-Por exemplo, um item pode estar sujeito a uma política de retenção configurada para apenas uma ação de exclusão e outra política de retenção configurada para manter e excluir. Consequentemente, este item tem apenas uma ação reter, mas duas ações de exclusão. As ações de retenção e exclusão podem estar em conflito uma com a outra e as duas ações de exclusão podem ter uma data conflitante. Para calcular o resultado, você deve aplicar os princípios de retenção.
+Por exemplo, um item pode estar sujeito a uma política de retenção configurada para apenas uma ação de exclusão e outra política de retenção configurada para manter e excluir. Consequentemente, este item tem apenas uma ação reter, mas duas ações de exclusão. As ações de retenção e exclusão podem estar em conflito uma com a outra e as duas ações de exclusão podem ter uma data conflitante. Os princípios de retenção explicam o resultado.
 
-Em um alto nível, você pode ter certeza de que a retenção sempre tem precedência sobre a exclusão, e o período de retenção mais longo prevalece. Essas duas regras simples sempre decidem por quanto tempo um item será mantido.
+Em um alto nível, você pode ter certeza de que a retenção sempre tem precedência sobre a exclusão permanente, e o período de retenção mais longo prevalece. Essas duas regras simples sempre decidem por quanto tempo um item será mantido.
 
-Existem mais alguns fatores que determinam quando um item será excluído, que incluem a ação de exclusão a partir de um rótulo de retenção que sempre tem precedência sobre a ação de exclusão a partir de uma política de retenção.
+Existem mais alguns fatores que determinam quando um item será excluído permanentemente, que incluem a ação de exclusão a partir de um rótulo de retenção que sempre tem precedência sobre a ação de exclusão a partir de uma política de retenção.
 
 Use o seguinte fluxo para entender os resultados de retenção e exclusão de um único item, onde cada nível atua no desempate de conflitos, de cima para baixo. Se o resultado for determinado pelo primeiro nível porque não há mais conflitos, não há necessidade de avançar para o nível seguinte e assim por diante.
 
@@ -296,13 +296,18 @@ Use o seguinte fluxo para entender os resultados de retenção e exclusão de um
 
 ![Diagrama dos princípios de retenção](../media/principles-of-retention.png)
   
-Explicação para os quatro níveis diferentes:
+Explicação para os quatro princípios diferentes:
   
-1. **A retenção prevalece sobre a exclusão.** O conteúdo não será permanentemente excluído nos casos em que também tenha configurações de retenção para mantê-lo.  
+1. **A retenção prevalece sobre a exclusão.** O conteúdo não será permanentemente excluído nos casos em que também tenha configurações de retenção para mantê-lo. Embora esse princípio garanta que o conteúdo seja preservado por razões de conformidade, o processo de exclusão ainda é iniciado e pode remover o conteúdo da exibição do usuário. Por exemplo, um documento no SharePoint é movido da pasta original para a pasta Retenções para Preservação. No entanto, a exclusão permanente é suspensa. Para obter mais informações sobre como e onde o conteúdo é preservado, use os links a seguir para cada carga de trabalho:
+    
+    - [Como funciona a retenção para o SharePoint e o OneDrive](retention-policies-sharepoint.md#how-retention-works-for-sharepoint-and-onedrive)
+    - [Como a retenção funciona com o Microsoft Teams](retention-policies-teams.md#how-retention-works-with-microsoft-teams)
+    - [Como a retenção funciona com o Yammer](retention-policies-yammer.md#how-retention-works-with-yammer)
+    - [Saiba como a retenção funciona para o Exchange.](retention-policies-exchange.md#how-retention-works-for-exchange)
     
     Exemplo: Uma mensagem de email está sujeita a uma política de retenção do Exchange configurada para excluir itens após três anos e também tem um rótulo de retenção aplicado que está configurado para reter itens por cinco anos.
     
-    A mensagem de email é retida por cinco anos porque esta ação de retenção tem precedência sobre a exclusão. A mensagem de email é excluída no final dos cinco anos devido à ação de exclusão adiada.
+    A mensagem de email é retida por cinco anos porque esta ação de retenção tem precedência sobre a exclusão. Em seguida, a mensagem de email é excluída permanentemente no final dos cinco anos por causa da ação de exclusão.
 
 2. **O período de retenção mais longo prevalece.** Se o conteúdo estiver sujeito a várias configurações de retenção que retêm o conteúdo para diferentes períodos de tempo, o conteúdo será retido até o fim do período de retenção mais longo.
     
@@ -316,7 +321,7 @@ Explicação para os quatro níveis diferentes:
         
         Exemplo: Um documento está sujeito a duas políticas de retenção que têm uma ação de exclusão de cinco anos e dez anos, respectivamente, e também um rótulo de retenção que tem uma ação de exclusão de sete anos.
         
-        O documento é excluído após sete anos porque a ação de exclusão do rótulo de retenção tem precedência.
+        O documento é excluído permanentemente após sete anos, pois a ação de exclusão do rótulo de retenção tem precedência.
     
     2. Quando você tem apenas políticas de retenção: Se uma política de retenção para um local tiver o escopo definido para usar uma configuração de inclusão (como usuários específicos de email do Exchange), essa política de retenção terá precedência sobre as políticas de retenção sem escopo para o mesmo local.
         
@@ -324,19 +329,19 @@ Explicação para os quatro níveis diferentes:
         
         Exemplo 1: uma mensagem de email está sujeita a duas políticas de retenção. A primeira política de retenção não tem escopo e exclui itens após dez anos. A segunda política de retenção tem como escopo caixas de correio específicas e exclui itens após cinco anos.
         
-        A mensagem de email é excluída após cinco anos porque a ação de exclusão da política de retenção com escopo tem precedência sobre a política de retenção sem escopo.
+        A mensagem de email é excluída permanentemente após cinco anos, pois a ação de exclusão da política de retenção com escopo tem precedência sobre a política de retenção sem escopo.
         
         Exemplo 2: Um documento na conta do OneDrive de um usuário está sujeito a duas políticas de retenção. A primeira política de retenção tem como escopo incluir a conta do OneDrive deste usuário e tem uma ação de exclusão após 10 anos. A segunda política de retenção tem como escopo incluir a conta do OneDrive desse usuário e tem uma ação de exclusão após sete anos.
         
-        Não é possível determinar quando este documento será excluído neste nível porque ambas as políticas de retenção têm escopo.
+        Não é possível determinar quando este documento será excluído permanentemente neste nível, pois ambas as políticas de retenção têm escopo.
 
-4. **O período de exclusão mais curto prevalece.** Aplicável para determinar quando os itens serão excluídos das políticas de retenção e o resultado não pôde ser resolvido a partir do nível anterior: O conteúdo é excluído no final do período de retenção mais curto.
+4. **O período de exclusão mais curto prevalece.** Aplicável para determinar quando os itens serão excluídos das políticas de retenção e o resultado não pôde ser resolvido a partir do nível anterior: O conteúdo é excluído permanentemente no final do período de retenção mais curto.
     
     Exemplo: Um documento na conta do OneDrive de um usuário está sujeito a duas políticas de retenção. A primeira política de retenção tem como escopo incluir a conta do OneDrive deste usuário e tem uma ação de exclusão após 10 anos. A segunda política de retenção tem como escopo incluir a conta do OneDrive desse usuário e tem uma ação de exclusão após sete anos.
     
-    Este documento será excluído após sete anos porque esse é o período de retenção mais curto para essas duas políticas de retenção com escopo definido.
+    Este documento será excluído permanentemente após sete anos, pois esse é o período de retenção mais curto para essas duas políticas de retenção com escopo definido.
 
-Observe que os itens sujeitos à retenção da Descoberta Eletrônica também se enquadram no primeiro princípio de retenção; eles não podem ser excluídos por nenhuma política de retenção ou rótulo de retenção. Quando essa retenção é liberada, os princípios de retenção continuam a se aplicar a eles. Por exemplo, eles podem então estar sujeitos a um período de retenção vigente ou a uma ação de exclusão adiada.
+Observe que os itens sujeitos à retenção da Descoberta Eletrônica também se enquadram no primeiro princípio de retenção; eles não podem ser excluídos permanentemente por nenhuma política de retenção ou rótulo de retenção. Quando essa retenção é liberada, os princípios de retenção continuam a se aplicar a eles. Por exemplo, eles podem então estar sujeitos a um período de retenção vigente ou a uma ação de exclusão.
 
 Exemplos mais complexos que combinam ações de retenção e exclusão:
 
@@ -346,9 +351,9 @@ Exemplos mais complexos que combinam ações de retenção e exclusão:
     - Uma política de retenção que mantém por três anos e depois exclui
     - Um rótulo de retenção que mantém apenas por sete anos
     
-    **Resultado**: O item é retido por sete anos porque a retenção tem precedência sobre a exclusão e sete anos é o período de retenção mais longo. No final deste período de retenção, o item é excluído devido à ação de exclusão das políticas de retenção que foi adiada enquanto o item estava retido.
+    **Resultado**: O item é retido por sete anos porque a retenção tem precedência sobre a exclusão e sete anos é o período de retenção mais longo. Ao final desse período de retenção, o item é excluído permanentemente por causa da ação de exclusão das políticas de retenção.
     
-    Embora as duas políticas de retenção tenham datas diferentes para as ações de exclusão, o mais cedo que o item pode ser excluído é ao final do período de retenção mais longo, que é mais longo do que ambas as datas de exclusão. Neste exemplo, não há conflito a ser resolvido para as datas de exclusão, portanto, todos os conflitos são resolvidos no segundo nível.
+    Embora as duas políticas de retenção tenham datas diferentes para as ações de exclusão, o mais cedo que o item pode ser excluído permanentemente é ao final do período de retenção mais longo, que é mais longo do que ambas as datas de exclusão. 
 
 2.  Um item tem as seguintes configurações de retenção aplicadas a ele:
     
@@ -356,7 +361,7 @@ Exemplos mais complexos que combinam ações de retenção e exclusão:
     - Uma política de retenção de escopo que mantém por cinco anos e depois exclui
     - Um rótulo de retenção que mantém por três anos e depois exclui
     
-    **Resultado**: O item será mantido por cinco anos porque esse é o período de retenção mais longo. No final desse período de retenção, o item é excluído devido à ação de exclusão de três anos do rótulo de retenção que foi adiado enquanto o item era retido. A exclusão dos rótulos de retenção tem precedência sobre a exclusão de todas as políticas de retenção. Neste exemplo, todos os conflitos são resolvidos no terceiro nível.
+    **Resultado**: O item será mantido por cinco anos porque esse é o período de retenção mais longo. No final desse período de retenção, o item é excluído permanentemente devido à ação de exclusão de três anos do rótulo de retenção. A exclusão dos rótulos de retenção tem precedência sobre a exclusão de todas as políticas de retenção. Neste exemplo, todos os conflitos são resolvidos no terceiro nível.
 
 ## <a name="use-preservation-lock-to-restrict-changes-to-policies"></a>Use o Bloqueio de Preservação para restringir mudanças nas políticas
 

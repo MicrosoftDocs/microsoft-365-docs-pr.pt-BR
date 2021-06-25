@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: afcb82789168999f5f061ca0f86ad3c07b54846d
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 81fcfde3442abcb63e04d67df5e6c66a56e3e498
+ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108230"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53137758"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Configurar políticas antispam no EOP
 
@@ -104,7 +104,7 @@ Ao criar uma política antispam personalizada no Microsoft 365 Defender é gerad
 
    Vários valores na mesma condição ou exceção usam a lógica OR (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_). Diferentes condições usam a lógica AND (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_).
 
-   - **Excluir estes usuários, grupos e domínios**: para adicionar exceções para os destinatários internos aos quais a política se aplica (exceções de destinatários), selecione essa opção e configure as exceções. As configurações e o comportamento são exatamente como as condições.
+   - **Exclua esses usuários, grupos e domínios**: Para adicionar exceções para os destinatários internos aos quais a política se aplica (exceções de destinatário), selecione esta opção e configure as exceções. As configurações e o comportamento são exatamente como as condições.
 
    Ao terminar, clique em **Avançar**.
 
@@ -203,7 +203,7 @@ Ao criar uma política antispam personalizada no Microsoft 365 Defender é gerad
    >
    > Pense bem antes de adicionar domínios à lista de domínios permitidos. Para mais informações, confira [Criar listas de remetentes seguros no EOP](create-safe-sender-lists-in-office-365.md).
    >
-   > Nunca adicione seus próprios [domínios aceitos](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) ou domínios comuns (por exemplo, microsoft.com ou office.com) à lista de domínios permitidos. Se esses domínios puderem ignorar a filtragem de spam, isso permitirá que invasores enviem facilmente emails para sua organização.
+   > Nunca adicione seus próprios [domínios aceitos](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) ou domínios comuns (por exemplo, microsoft.com ou office.com) à lista de domínios permitidos. Se esses domínios tiverem permissão para contornar a filtragem de lixo eletrônico, os invasores poderão enviar facilmente mensagens que falsificam esses domínios confiáveis para a sua organização.
    >
    > Bloquear manualmente os domínios ao adicioná-los à lista de domínios bloqueados não é algo perigoso, mas pode aumentar sua carga de trabalho administrativa. Para obter mais informações, confira [Criar listas de bloqueios de remetentes no EOP](create-block-sender-lists-in-office-365.md).
    >
