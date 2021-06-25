@@ -20,12 +20,12 @@ ms.custom:
 description: Aprenda a usar o e-mail Identificado DomainKeys (DKIM) com o Microsoft 365 para garantir que as mensagens enviadas de seu domínio personalizado sejam confiadas pelos sistemas de e-mail de destino.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e9aa3a72a36a146d121c9302a4b6cb126e765671
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 9aa67d7875bb7f81c6569b56704d221b57378962
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53082775"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108494"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>Usar o DKIM para validar emails enviados de seu domínio personalizado
 
@@ -198,7 +198,7 @@ Depois de publicar os registros CNAME no DNS, você estará pronto para habilita
 
 1. Abra o portal do Microsoft 365 Defender [utilizando sua conta corporativa ou de estudante](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
 
-2. Vá para **Email e colaboração** \> **Políticas e regras** \> **Políticas de ameaças** \> seção **Regras** \> **DKIM**. Ou, para ir diretamente para a página DKIM, use <https://security.microsoft.com/dkimv2>.
+2. Vá para **Email e Colaboração** \> **Políticas e Regras** \> página **Políticas de ameaça** \> seção **Regras** \> **DKIM**. Ou, para ir diretamente para a página do DKIM, use <https://security.microsoft.com/dkimv2>.
 
 3. Na página **DKIM**, selecione o domínio clicando no nome.
 
