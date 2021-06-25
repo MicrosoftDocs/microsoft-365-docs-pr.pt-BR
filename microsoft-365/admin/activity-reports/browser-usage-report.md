@@ -17,17 +17,17 @@ search.appverid:
 - MET150
 - MOE150
 - GEA150
-description: Saiba como obter um relatório de uso do navegador da Microsoft usando o painel Microsoft 365 Relatórios no centro de administração Microsoft 365 do microsoft.
-ms.openlocfilehash: f655a3951dc58ddd5089c8034db64af3840ebf7d
-ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
+description: Saiba como obter um relatório de uso do navegador da Microsoft usando o painel Microsoft 365 Relatórios no Centro de administração do Microsoft 365.
+ms.openlocfilehash: f2d8d8347e7b71375958c56f6649fbb911155d46
+ms.sourcegitcommit: b42dd3e706ebf9638cd893b35f75eaa56dd8fd7e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50606209"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53125405"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-browser-usage"></a>Microsoft 365 Relatórios no centro de administração - uso do navegador da Microsoft
 
-O painel Microsoft 365 **relatórios** mostra uma visão geral de atividades em todos os produtos em sua organização. Ele permite que você faça uma pesquisa em relatórios de nível de produto individuais para dar uma visão mais granular sobre as atividades em cada produto. Confira o tópico [Visão geral de relatórios](activity-reports.md). No relatório de uso do navegador da Microsoft, você pode obter informações sobre o Internet Explorer, Versão Prévia do Microsoft Edge e novos Microsoft Edge uso. O relatório de uso baseia-se Microsoft 365 serviços online acessados por meio de um navegador da Microsoft.
+O painel Microsoft 365 **relatórios** mostra uma visão geral de atividades em todos os produtos em sua organização. Ele permite que você faça uma pesquisa em relatórios de nível de produto individuais para dar uma visão mais granular sobre as atividades em cada produto. Confira o tópico [Visão geral de relatórios](activity-reports.md). No relatório de uso do navegador da Microsoft, você pode obter informações sobre o Internet Explorer, Versão Prévia do Microsoft Edge e novos Microsoft Edge uso. O relatório de uso baseia-se Microsoft 365 serviços online acessados usando um navegador da Microsoft.
 
  > [!NOTE]
  > Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou um Exchange, SharePoint ou Skype for Business para ver relatórios.
@@ -36,6 +36,16 @@ O painel Microsoft 365 **relatórios** mostra uma visão geral de atividades em 
 
 1. No centro de administração do, vá para a página **Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>. 
 2. Na página inicial do painel, clique no botão **Exibir mais** no cartão de uso do navegador da Microsoft.
+
+## <a name="how-to-notify-users-to-upgrade-their-browser"></a>Como notificar os usuários para atualizar seu navegador
+
+![Fluxo de ações do relatório de uso do navegador microsoft](../../media/1ef4eb08-18b8-4dda-aa15-1aad013ecd70.png)
+
+Os administradores globais podem optar por enviar mensagens aos usuários usando Microsoft 365 serviços no Edge Legacy (sem suporte) e no Internet Explorer (em breve sem suporte). Essa mensagem direcionada notifica os usuários que o suporte a esses navegadores terminará em breve e se vincula a um artigo de suporte com informações sobre Microsoft Edge e etapas simples a serem seguidas para alternar navegadores. 
+
+Você pode encontrar esse recurso na página de relatório. Depois que a mensagem é criada, os usuários são notificados na frequência especificada até 17 de agosto de 2021. Você pode desativar esse recurso a qualquer momento para parar de enviar notificações aos usuários. Para começar a enviar notificações novamente, ative o recurso novamente.
+
+Para obter mais informações, [consulte Microsoft Edge ajuda & aprendizagem](https://support.microsoft.com/microsoft-edge).
 
 ## <a name="interpret-the-microsoft-browser-usage-report"></a>Interpretar o relatório de uso do navegador da Microsoft
 

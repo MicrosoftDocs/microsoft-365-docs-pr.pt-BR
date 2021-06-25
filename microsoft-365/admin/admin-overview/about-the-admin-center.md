@@ -24,18 +24,18 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: Entre com as permissões de administrador no Centro de administração do Microsoft 365 para configurar sua organização na nuvem e gerenciar usuários e assinaturas.
-ms.openlocfilehash: eff0ab72ef3e4634e7a83d1af825bc42d11686af
-ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
+ms.openlocfilehash: 7817861e79b86a6c43ea26fdb03b037b40a3f564
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52949982"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083048"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Sobre o Centro de administração do Microsoft 365
 
-**Se comprou um plano empresarial do Microsoft 365 e tem permissões de administrador, você tem acesso ao centro de administração**. Este artigo é para você!
+**Se comprou um plano empresarial do Microsoft 365 e tem permissões de administrador, você tem acesso ao centro de administração**. Esse artigo é para você!
 
-**Se é um usuário ou tem um plano Microsoft 365 Family, você não tem um centro de administração** Para configurar o Microsoft 365, vá para [Baixar e instalar ou reinstalar o Microsoft 365 ou o Office 2019 em PC ou Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658).
+**Se você é um usuário ou tem um plano de uso doméstico do Microsoft 365 Family, você não tem um centro de administração.** Para configurar o Microsoft 365, vá para [Baixar e instalar ou reinstalar o Microsoft 365 ou o Office 2019 em seu PC ou Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658).
 
 Use o centro de administração para configurar sua organização na nuvem, gerenciar usuários, gerenciar assinaturas e muito mais. Neste artigo, aprenda como acessar o centro de administração e veja informações sobre os recursos e configurações disponíveis.
 
@@ -55,15 +55,15 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
 
 ## <a name="admin-center-features-and-settings"></a>Configurações e recursos do centro de administração.
 
-Aqui estão os recursos e configurações que você encontrará na navegação esquerda do centro de administração. Saiba mais sobre tarefas administrativas em [ajuda para administradores](../../business-video/admin-center-overview.md).
+Apresentamos aqui os recursos e as configurações encontradas na navegação esquerda do Centro de administração. Saiba mais sobre tarefas administrativas em [Ajuda para administradores](../../business-video/admin-center-overview.md).
   
-|**Menu**|**Para que serve**|
+| Menu | Para que serve |
 |-----|-----|
 |**Página Inicial** <br/> |Essa é a página de chegada do centro de administração. Você verá onde gerenciar usuários, cobrança, integridade do serviço e relatórios.  <br/> |
 |**Usuários**  <br/> |Crie e gerencie usuários em sua organização, como funcionários ou alunos. Você também pode definir seu nível de permissão ou redefinir suas senhas.  <br/> |
-|**Grupos** <br/> |Crie e gerencie grupos em sua organização, como um grupo, grupo de distribuição, grupo de segurança ou caixa de correio compartilhada do Microsoft 365. Saiba como [criar](../create-groups/create-groups.md) e [gerenciar](../create-groups/manage-groups.md) grupos.  <br/> |
-|**Resources** <br/> |Crie e gerencie recursos, como um conjunto de sites do SharePoint. Saiba como [criar conjuntos de sites](/sharepoint/create-site-collection).  <br/> |
-|**Cobrança** <br/> |Exiba, compre ou cancele assinaturas da sua organização. Exiba demonstrativos de cobrança anteriores ou exiba o número de licenças atribuídas aos usuários individuais. Saiba como [gerenciar cobranças](../../commerce/index.yml).  <br/> |
+|**Grupos** <br/> |Crie e gerencie grupos em sua organização, como um grupo de Microsoft 365, grupo de distribuição, grupo de segurança ou caixa de correio compartilhada. Saiba como [criar](../create-groups/create-groups.md) e [gerenciar](../create-groups/manage-groups.md) grupos.  <br/> |
+|**Recursos** <br/> |Crie e gerencie recursos, como um conjunto de sites do SharePoint. Saiba como [criar conjuntos de sites](/sharepoint/create-site-collection).  <br/> |
+|**Cobrança** <br/> |Exiba, compre ou cancele assinaturas para sua organização. Exiba demonstrativos de cobrança anteriores ou exiba o número de licenças atribuídas aos usuários individuais. Saiba como [gerenciar cobranças](../../commerce/index.yml).  <br/> |
 |**Suporte** <br/> | Exiba solicitações de serviço existentes ou crie novos. Saiba mais em [Contatar suporte para produtos comerciais – Ajuda para Administradores](../../business-video/get-help-support.md). |
 |**Settings** <br/> |Gerencie as configurações globais para aplicativos como email, sites e o pacote do Office. Altere a política de senha e a data de expiração. Adicione e atualize os nomes de domínio como contoso.com. Altere o perfil da organização e as preferências de lançamento. E escolha se os parceiros podem acessar o centro de administração.  <br/> |
 |**Configurar** <br/> |Gerenciar domínios existentes, ative e gerencie autenticação multifator, gerencie o acesso de administrador, migre caixas de correio de usuários para o Office 365, gerencie atualizações de recursos e ajude os usuários a instalar seus aplicativos do Office. |

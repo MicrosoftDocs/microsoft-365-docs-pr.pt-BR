@@ -21,12 +21,12 @@ ms.custom:
 description: O Microsoft Defender para Office 365 inclui Anexos Seguros, Links Seguros, ferramentas avançadas de anti-phishing, ferramentas de relatórios e recursos de inteligência contra ameaças.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 81a45f6839538118c5413c1f5fc09e0cd19903a0
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 66afaa56efa93faef3fcc6ff8346df24681a0a50
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029868"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083015"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Obter o Microsoft Defender para Office 365
 
@@ -81,7 +81,7 @@ A tabela a seguir resume o que está incluído em cada plano.
 
 |Plano 1 do Microsoft Defender para Office 365|Plano 2 do Microsoft Defender para Office 365|
 |---|---|
-|Capacidade de configuração, proteção e detecção: <ul><li>[Anexos Seguros](safe-attachments.md)</li><li>[Links Seguros](safe-links.md)</li><li>[Anexos seguros para SharePoint, OneDrive e Microsoft Teams](mdo-for-spo-odb-and-teams.md)</li><li>[Anti-phishing no Defender para proteção do Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Detecções em tempo real](threat-explorer.md)</li></ul>|Recursos do Microsoft Defender para Office 365 Plano 1 <br>---mais---<br> Recursos de automação, investigação, correção e formação educacional:<ul><li>[Controladores de Ameaças](threat-trackers.md)</li><li>[Explorador de Ameaças](threat-explorer.md)</li><li>[Resposta e investigação automatizadas](office-365-air.md)</li><li>[Simulador de Ataque](attack-simulator.md)</li><li>[Modos de Exibição de Campanha](campaigns.md)</li></ul>|
+|Capacidade de configuração, proteção e detecção: <ul><li>[Anexos Seguros](safe-attachments.md)</li><li>[Links Seguros](safe-links.md)</li><li>[Anexos seguros para SharePoint, OneDrive e Microsoft Teams](mdo-for-spo-odb-and-teams.md)</li><li>[Anti-phishing no Defender para proteção do Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Detecções em tempo real](threat-explorer.md)</li></ul>|Recursos do Microsoft Defender para Office 365 Plano 1 <br>---mais---<br> Recursos de automação, investigação, correção e formação educacional:<ul><li>[Controladores de Ameaças](threat-trackers.md)</li><li>[Explorador de Ameaças](threat-explorer.md)</li><li>[Resposta e investigação automatizadas](office-365-air.md)</li><li>[Treinamento de simulação de ataque](attack-simulation-training.md)</li><li>[Modos de Exibição de Campanha](campaigns.md)</li></ul>|
 |
 
 - O Microsoft Defender para Office 365 Plano 2 está incluído no Office 365 E5, Office 365 A5, Microsoft 365 E5 Security e Microsoft 365 E5.
@@ -96,7 +96,7 @@ A tabela a seguir resume o que está incluído em cada plano.
 
 ## <a name="configure-microsoft-defender-for-office-365-policies"></a>Configurar politicas do Microsoft Defender para Office 365
 
-Com o Microsoft Defender para Office 365, a equipe de segurança da sua organização pode configurar a proteção definindo políticas no portal do Microsoft 365 Defender (vá para <https://security.microsoft.com> \> **Email e Colaboração** \> **Políticas e Regras**).
+Com o Microsoft Defender para Office 365, a equipe de segurança da sua organização pode configurar a proteção definindo políticas no portal do Microsoft 365 Defender (vá para <https://security.microsoft.com> \> **Email e Colaboração** \> **Políticas e Regras** \> **Políticas de ameaças**).
 
 Saiba mais assistindo a [este vídeo](https://www.youtube.com/watch?v=vivvTmWJ_3c).
 
@@ -133,7 +133,7 @@ O Microsoft Defender para Office 365 Plano 2 inclui as melhores [ferramentas de 
 
 - O **[Explorador de Ameaças (ou detecções em tempo real)](threat-explorer.md)** (também chamado de Explorador) é um relatório em tempo real que permite identificar e analisar ameaças recentes. Você pode configurar o Explorador para mostrar dados de períodos personalizados.
 
-- O **[Simulador de Ataques](attack-simulator.md)** permite que você execute cenários de ataque realistas em sua organização para identificar vulnerabilidades. As simulações de tipos de ataque atuais estão disponíveis, incluindo ataques de coleta para spear phishing e de anexos, ataques de pulverização de senha e de senha de força bruta.
+- O **[Treinamento de simulação de ataque](attack-simulation-training.md)** permite que você execute cenários de ataque realistas em sua organização para identificar vulnerabilidades. As simulações de tipos de ataque atuais estão disponíveis, incluindo ataques de coleta para spear phishing e de anexos, ataques de pulverização de senha e de senha de força bruta.
 
 ## <a name="save-time-with-automated-investigation-and-response"></a>Poupe tempo com investigação e resposta automatizadas
 
@@ -178,5 +178,4 @@ Novos recursos são adicionados ao Microsoft Defender para Office 365 continuame
 ## <a name="see-also"></a>Confira também
 
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
-
 - [Investigação e resposta automatizadas (AIR) no Microsoft 365 Defender](../defender/m365d-autoir.md)
