@@ -22,12 +22,12 @@ description: Use rótulos de confidencialidade da MIP (Proteção de Informaçõ
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 5c54b9c9b9046a1c410418a9ae5a922bdad9c442
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 972282713e21c0e1f99a66e696de32531e68d4a7
+ms.sourcegitcommit: 8b79d276f71f22bcaeb150e78e35101cb1ae0375
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878071"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114771"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -186,7 +186,7 @@ Ao configurar uma política de rótulo, você pode:
     
     Considere usar um rótulo padrão para definir um nível de base de configurações de proteção que você deseja aplicar a todo o seu conteúdo. No entanto, sem o treinamento do usuário e outros controles, essa configuração também pode resultar em rotulagem inexata. Geralmente, não é uma boa ideia selecionar um rótulo que aplica a criptografia como um rótulo padrão para documentos. Por exemplo, muitas organizações precisam enviar e compartilhar emails com usuários externos que podem não ter aplicativos compatíveis com a criptografia ou talvez não usem uma conta que possa ser autorizada. Para obter mais informações sobre esse cenário, consulte [Compartilhar documentos criptografados com usuários externos](sensitivity-labels-office-apps.md#sharing-encrypted-documents-with-external-users).
 
-- **Exigir uma justificativa para alterar um rótulo.** Se um usuário tentar remover um rótulo ou substituí-lo por um rótulo com um número de pedido menor, você poderá pedir que o usuário forneça uma justificativa para executar essa ação. Por exemplo, um usuário abre um documento rotulado como confidencial (número de pedido 3) e substitui esse rótulo por um denominado público (número 1). Os administradores podem ler o motivo da justificativa junto com a mudança de rótulo em [explorador de atividades](data-classification-activity-explorer.md).
+- **Exigir uma justificativa para alterar um rótulo.** Se um usuário tentar remover um rótulo ou substituí-lo por um rótulo com um número de pedido menor, você poderá pedir que o usuário forneça uma justificativa para executar essa ação. Por exemplo, um usuário abre um documento rotulado como confidencial (número de pedido 3) e substitui esse rótulo por um denominado público (número 1). Para aplicativos do Office, esse prompt de justificativa é disparado uma vez por sessão de aplicativo quando você usa a rotulagem interna e por arquivo quando você usa o cliente de rotulagem unificada do Proteção de Informações do Azure. Os administradores podem ler o motivo da justificativa junto com a mudança de rótulo em [explorador de atividades](data-classification-activity-explorer.md).
 
     ![Prompt onde os usuários inserem uma justificativa](../media/Sensitivity-label-justification-required.png)
 
