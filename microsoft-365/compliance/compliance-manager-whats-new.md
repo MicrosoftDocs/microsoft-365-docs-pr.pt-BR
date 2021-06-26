@@ -2,8 +2,8 @@
 title: Novidades no Microsoft Compliance Manager
 f1.keywords:
 - NOCSH
-ms.author: chvukosw
-author: chvukosw
+ms.author: v-jgriffee
+author: jmgriffee
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Descubra o que há de novo no Compliance Manger e o que está por vir. Leia sobre avaliações atualizadas, novos modelos de avaliação, novas ações e muito mais.
-ms.openlocfilehash: fe5e8056bd771082436c3cd941cd6f4e602c11a9
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 72390f167e0f573223210a02a4b08e1b0efdf3dd
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52465454"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149017"
 ---
 # <a name="whats-new-in-microsoft-compliance-manager"></a>Novidades no Microsoft Compliance Manager
 
@@ -48,4 +48,4 @@ O Gerenciador de Conformidade agora está disponível para clientes do DoD do Go
 
 ### <a name="active-and-inactive-templates"></a>Modelos ativos e inativos
 
-Cada página de avaliação e página de modelo de avaliação tem um contador de modelos ativados. Este contador mostra quantos modelos qualificados você está usando de acordo com seu contrato de licenciamento. Tipos [de modelo de exibição: incluídos e premium, ativos e inativos](compliance-manager-templates.md#template-types-included-and-premium-active-and-inactive) para saber mais.
+Cada página de avaliação e página de modelo de avaliação tem um contador de modelos ativados. Este contador mostra quantos modelos qualificados você está usando de acordo com seu contrato de licenciamento. Exibir [a disponibilidade e o licenciamento do modelo](compliance-manager-templates.md#template-availability-and-licensing) para saber mais.

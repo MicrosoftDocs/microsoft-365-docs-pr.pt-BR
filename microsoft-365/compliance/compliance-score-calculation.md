@@ -2,8 +2,8 @@
 title: Cálculo da pontuação de conformidade
 f1.keywords:
 - NOCSH
-ms.author: chvukosw
-author: chvukosw
+ms.author: v-jgriffee
+author: jmgriffee
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 description: Entenda como o Microsoft Compliance Manager calcula uma pontuação personalizada com base em ações tomadas para resolver riscos e melhorar sua postura de conformidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 756ce207b1e9583bf63f19351e85955950487404
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 4e1e3f4b90b0a5e83a1e068cd30f76b3a8c7bb22
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052109"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149161"
 ---
 # <a name="compliance-score-calculation"></a>Cálculo da pontuação de conformidade
 
@@ -114,9 +114,9 @@ Cada ação tem um valor atribuído no Gerenciador de Conformidade com base no r
 |:-----|:-----|
 | Preventivo obrigatório | 27 |
 | Discricionárias preventivas | 9  |
-| Detetive obrigatório | 3 |
-| Detetive discricionário | 1 |
-| Obrigatória corretiva | 3 |
-| Discricionário corretivo | 1 |
+| Detetive obrigatório | 3  |
+| Detetive discricionário | 1  |
+| Obrigatória corretiva | 3  |
+| Discricionário corretivo | 1  |
   
 ![Valores de ponto de ação do Gerenciador de Conformidade](../media/compliance-score-action-scoring.png "Valores de ponto de ação do Gerenciador de Conformidade")

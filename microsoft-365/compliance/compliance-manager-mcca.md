@@ -2,8 +2,8 @@
 title: Analisador de Configuração de Conformidade da Microsoft para Gerenciador de Conformidade
 f1.keywords:
 - NOCSH
-ms.author: chvukosw
-author: chvukosw
+ms.author: v-jgriffee
+author: jmgriffee
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Entenda como usar o Analisador de Configuração de Conformidade da Microsoft para começar a funcionar rapidamente com o Microsoft Compliance Manager.
-ms.openlocfilehash: 5d74d9980daf7f6ff7f013578cb11be83d18948e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 36f11597eac1837e3e18885f3c0a5d8dbc89a774
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244631"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53148957"
 ---
 # <a name="microsoft-compliance-configuration-analyzer-for-compliance-manager-preview"></a>Analisador de Configuração de Conformidade da Microsoft para Gerenciador de Conformidade (visualização)
 
@@ -101,9 +101,9 @@ Siga estas instruções para executar um relatório com base em um local especí
     ```
   | Input |  País ou Região | 
   | :------------- | :------------: |
-  | 1 | Ásia – Pacífico |
-  | 2 | Austrália |
-  | 3 | Canadá |
+  | 1  | Ásia – Pacífico |
+  | 2  | Austrália |
+  | 3  | Canadá |
   | 4  | Europa (excluindo a França) / Oriente Médio / África |
   | 5  | França |
   | 6  | Índia |
@@ -113,7 +113,7 @@ Siga estas instruções para executar um relatório com base em um local especí
   | 10  | América do Sul |
   | 11 | África do Sul |
   | 12  | Suíça |
-  | 13 | Emirados Árabes Unidos |
+  | 13  | Emirados Árabes Unidos |
   | 14  | Reino Unido |
 
 
@@ -153,7 +153,7 @@ Selecione uma caixa para exibir melhorias e recomendações.
 
 **Itens com o status De aperfeiçoamento**
 
-Selecione o menu suspenso ao lado do **rótulo De aperfeiçoamento** à direita da ação de melhoria. Você verá um resumo rápido e detalhes sobre suas configurações atuais e as ações de melhoria recomendadas. O resumo inclui links diretos para o Gerenciador de Conformidade, a solução aplicável no Microsoft 365 de conformidade e documentação relevante.
+Selecione o menu suspenso ao lado do **rótulo De aperfeiçoamento** à direita da ação de melhoria. Você verá um resumo rápido e detalhes sobre suas configurações atuais e as ações de melhoria recomendadas. O resumo inclui links diretos para o Gerenciador de Conformidade, a solução aplicável no Centro de conformidade do Microsoft 365 e documentação relevante.
 
 Clicar no link Gerenciador de Conformidade o leva a uma exibição filtrada de todas as ações de melhoria dentro dessa solução que você ainda não implementou. A partir daí, você pode ver o número de pontos que você pode alcançar para aumentar sua pontuação de conformidade [e](compliance-score-calculation.md)as avaliações às que se aplicam e os regulamentos e certificações aplicáveis.
 

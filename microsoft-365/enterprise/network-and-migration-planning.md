@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132
 description: Este artigo contém links para informações sobre planejamento, teste e migração de rede para Office 365.
-ms.openlocfilehash: 99bcc1bd0447b192860fc0bcc67fc18d87c2d5fc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: aed8bacd4dc08aa6d77ad0c530e721ac9d383bf5
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923583"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149101"
 ---
 # <a name="network-and-migration-planning-for-office-365"></a>Planejamento de migração e rede para o Office 365
 
@@ -104,12 +104,10 @@ Esses tópicos contêm informações detalhadas Office 365 de referência de red
     
 - [Princípios de conectividade de rede do Office 365](./microsoft-365-network-connectivity-principles.md)
     
-- [Office 365 de vídeo perguntas frequentes (perguntas frequentes)](office-365-video-networking-faq.md)
-    
 - [Planejar dispositivos de rede que se conectam aos serviços do Office 365](plan-for-network-devices.md)
     
 - [Guias de instalação para Office 365 serviços](setup-guides-for-microsoft-365.md)
  
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 [Visão geral do Microsoft 365 Enterprise](microsoft-365-overview.md)

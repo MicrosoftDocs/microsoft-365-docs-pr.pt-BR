@@ -2,8 +2,8 @@
 title: Criar e gerenciar avaliações no Microsoft Compliance Manager
 f1.keywords:
 - NOCSH
-ms.author: chvukosw
-author: chvukosw
+ms.author: v-jgriffee
+author: jmgriffee
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,27 +14,25 @@ search.appverid:
 - MOE150
 - MET150
 description: Crie avaliações no Microsoft Compliance Manager para ajudá-lo a atender aos requisitos de regulamentos e certificações importantes para sua organização.
-ms.openlocfilehash: b8051a036f2ffda2f3a2840880318466a2ec71af
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 4530f8544834c672b3ae1ebb70625ffe8f2ae4ae
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500640"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53148933"
 ---
 # <a name="build-and-manage-assessments-in-compliance-manager"></a>Criar e gerenciar avaliações no Gerenciador de Conformidade
 
 **Neste artigo:** Saiba como personalizar o Gerenciador de Conformidade para sua organização criando e gerenciando **avaliações.** Este artigo orienta você sobre como criar avaliações, como organizá-las em **grupos,** trabalhar com **controles,** aceitar atualizações e exportar relatórios de **avaliação.**
 
-> [!IMPORTANT]
-> As avaliações disponíveis para sua organização dependem do contrato de licenciamento. [Revise os detalhes](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
-
 ## <a name="introduction-to-assessments"></a>Introdução às avaliações
 
-O Gerenciador de Conformidade ajuda você a gerenciar a conformidade com avaliações para os regulamentos e certificações que se aplicam à sua organização. Avaliações são agrupações de controles de uma regulamentação, padrão ou política específica. O Gerenciador de Conformidade facilita o acompanhamento da conformidade fornecendo avaliações pré-criadas que abrangem uma variedade de regulamentações e certificações regionais e do setor.
+O Gerenciador de Conformidade ajuda você a criar avaliações que avaliem sua conformidade com os regulamentos regionais e do setor que se aplicam à sua organização. As avaliações são criadas com base na estrutura de modelos de avaliação, que contêm os controles necessários, as ações de melhoria e as ações da Microsoft para concluir a avaliação. Configurar as avaliações mais relevantes para sua organização pode ajudá-lo a implementar políticas e procedimentos operacionais para limitar o risco de conformidade.
 
-Cada avaliação é criada a partir de um [modelo de avaliação.](compliance-manager-templates.md) Os modelos servem como uma estrutura que contém os controles necessários, as ações de melhoria e as ações da Microsoft para concluir a avaliação. Configurar as avaliações mais relevantes para sua organização pode ajudá-lo a implementar políticas e procedimentos operacionais para limitar o risco de conformidade.
+Todas as avaliações estão listadas na guia avaliações do Gerenciador de Conformidade. Saiba mais sobre [como filtrar sua exibição de avaliações e interpretar estados de status.](compliance-manager-setup.md#assessments-page)
 
-Todas as avaliações estão listadas na página avaliações. Saiba mais sobre [como filtrar sua exibição de avaliações e interpretar estados de status.](compliance-manager-setup.md#assessments-page)
+> [!IMPORTANT]
+> Os modelos disponíveis para sua organização para a criação de avaliações dependem do contrato de licenciamento. [Revise detalhes de licenciamento](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## <a name="data-protection-baseline-default-assessment"></a>Avaliação padrão da Linha de Base de Proteção de Dados
 
@@ -44,36 +42,11 @@ Essa avaliação é usada para calcular sua pontuação inicial de conformidade 
 
 O Gerenciador de Conformidade se torna mais útil à medida que você cria e gerencia suas próprias avaliações para atender às necessidades específicas da sua organização.
 
-## <a name="assessment-creation-overview"></a>Visão geral da criação de avaliação
-
-Há três maneiras de configurar avaliações:
-
-1. [Use uma avaliação pré-criada](#use-a-pre-built-assessment).
-2. [Estenda uma avaliação pré-criada para atender às suas próprias necessidades.](#extend-a-pre-built-assessment)
-3. [Crie sua própria avaliação personalizada.](#create-your-own-custom-assessment)
-
-> [!NOTE]
-> Somente os usuários que têm uma função de Administrador Global, Administração do Gerenciador de Conformidade ou Assessor do Gerenciador de Conformidade podem criar e modificar avaliações. Saiba mais sobre [funções e permissões.](compliance-manager-setup.md#set-user-permissions-and-assign-roles)
-
-**Usar uma avaliação pré-criada**
-
-Iniciar sua jornada de conformidade escolhendo uma avaliação já configurada pelo Gerenciador de Conformidade. Fornecemos uma ampla [](compliance-manager-templates.md) seleção de modelos para regulamentações e certificações que se alinham a setores, regiões e padrões comuns de proteção de dados, como rgpd e ISO 27001. Os modelos contêm os controles e ações de aperfeiçoamento para ajudá-lo a atender aos requisitos de uma certificação específica. Você será solicitado a escolher um modelo ao começar a [criar uma avaliação.](#use-a-pre-built-assessment)
-
-**Estender uma avaliação pré-criada para atender às suas necessidades**
-
-Você pode modificar uma avaliação do Gerenciador de Conformidade, um processo a que nos referimos como "estender", adicionando seus próprios controles e ações para atender melhor às necessidades da sua organização. Por exemplo, se você geralmente precisar estar em conformidade com a HIPAA, mas exigir controles de segurança ou proteção de dados adicionais, poderá estender nosso modelo HIPAA adicionando seus próprios controles a ele. Consulte as instruções para [estender uma avaliação pré-criada](#extend-a-pre-built-assessment).
-
-**Criar sua própria avaliação personalizada**
-
-Você pode criar sua própria avaliação inteiramente do zero para acompanhar precisamente o que sua organização precisa. Criar sua própria avaliação exige que você crie primeiro seu próprio modelo para a avaliação no Gerenciador de Conformidade. Consulte as instruções para [criar sua própria avaliação personalizada.](#create-your-own-custom-assessment)
-
 ## <a name="understand-groups-before-creating-assessments"></a>Compreender grupos antes de criar avaliações
 
-Antes de criar ou modificar avaliações, é importante entender como os grupos funcionam. Ao criar uma avaliação, você precisará atribuí-la a um grupo durante o processo. É por isso que recomendamos o planejamento de uma estratégia de grupo para suas avaliações antes de criar avaliações.
+Ao criar uma avaliação, você precisará atribuí-la a um grupo. Os grupos são contêineres que permitem que você organize avaliações de uma maneira lógica para você, como por ano ou regulamentação, ou com base nas divisões ou geografias da sua organização. É por isso que recomendamos planejar uma estratégia de grupo antes de criar avaliações.
 
-### <a name="what-are-groups"></a>O que são grupos
-
-Os grupos são contêineres que permitem organizar avaliações. Você pode agrupar avaliações de uma maneira lógica para você, como por ano ou regulamentação, ou com base nas divisões ou geografias da sua organização. A seguir estão exemplos de dois grupos e suas avaliações subjacentes:
+A seguir estão exemplos de dois grupos e suas avaliações subjacentes:
 
 - **AVALIAÇÃO FFIEC IS 2020**
   - FFIEC IS
@@ -81,136 +54,57 @@ Os grupos são contêineres que permitem organizar avaliações. Você pode agru
   - ISO 27001:2013
   - ISO 27018:2014
 
-Quando duas avaliações diferentes nas mesmas ações de melhoria de compartilhamento de grupo gerenciadas por você, todas as atualizações feitas para os detalhes ou status de implementação de uma ação serão sincronizadas automaticamente com a mesma ação em qualquer outra avaliação no grupo. Essa sincronização permite implementar uma ação de melhoria e atender a vários requisitos em vários regulamentos.
+Quando duas avaliações diferentes nas mesmas ações de melhoria de compartilhamento de grupo gerenciadas, todas as atualizações que você fizer para os detalhes ou status de implementação de uma ação serão sincronizadas automaticamente em todo o grupo. Essa sincronização permite implementar uma ação de melhoria e atender a vários requisitos simultaneamente.
 
-### <a name="how-to-create-a-group"></a>Como criar um grupo
+### <a name="create-a-group"></a>Criar um grupo
 
-Você cria um grupo durante o processo de [criação de uma nova avaliação.](#to-create-an-assessment)
-
-Os grupos não podem ser criados como entidades autônomas. Um grupo deve conter pelo menos uma avaliação. Para criar um grupo, você precisa primeiro criar uma avaliação para colocar no grupo.
+Você pode criar um grupo ao criar uma nova avaliação. Os grupos não podem ser criados como entidades autônomas.
 
 ### <a name="what-to-know-when-working-with-groups"></a>O que saber ao trabalhar com grupos
 
+- Um grupo deve conter pelo menos uma avaliação.
 - Os nomes de grupo devem ser exclusivos em sua organização.
 - Os grupos não têm propriedades de segurança. Todas as permissões estão associadas a avaliações.
 - Depois de adicionar uma avaliação a um grupo, o grupo não pode ser alterado.
-- Controles de avaliação relacionados em avaliações diferentes dentro do mesmo grupo são atualizados automaticamente quando concluídos.
 - Se você adicionar uma nova avaliação a um grupo existente, as informações comuns de avaliações nesse grupo serão copiadas para a nova avaliação.
+- Controles de avaliação relacionados em avaliações diferentes dentro do mesmo grupo são atualizados automaticamente quando concluídos.
+- Quando uma alteração é feita para uma melhoria que aparece em vários grupos, essa alteração é refletida em todas as instâncias dessa ação de melhoria.
 - Os grupos podem conter avaliações para a mesma certificação ou regulamentação, mas cada grupo só pode conter uma avaliação para um par específico de certificação de produto. Por exemplo, um grupo não pode conter duas avaliações para Office 365 E NIST CSF. Um grupo pode conter várias avaliações para o mesmo produto somente se a certificação ou a regulamentação correspondente para cada uma delas for diferente.
 - Excluir uma avaliação quebra a relação entre essa avaliação e o grupo.
-- Os grupos não podem ser excluídos.
-- Quando uma alteração é feita para uma melhoria que aparece em vários grupos, essa alteração é refletida em todas as instâncias dessa ação de melhoria.
+- Os grupos não podem ser excluídos manualmente.
 
-## <a name="use-a-pre-built-assessment"></a>Usar uma avaliação pré-criada
+## <a name="create-assessments"></a>Criar avaliações
 
-Há dois pontos de partida para criar uma avaliação a partir de um modelo do Gerenciador de Conformidade.
+> [!NOTE]
+> Somente os usuários que têm uma função de Administrador Global, Administração do Gerenciador de Conformidade ou Assessor do Gerenciador de Conformidade podem criar e modificar avaliações. Saiba mais sobre [funções e permissões.](compliance-manager-setup.md#set-user-permissions-and-assign-roles)
 
-Você pode começar o processo na página avaliações selecionando o botão **Adicionar** avaliação e, em seguida, trabalhando por meio do assistente de criação de avaliação. As etapas para esse processo estão abaixo.
+Para começar a criar avaliações, siga estas etapas.
 
-Você também pode começar da página modelos de avaliação encontrando o modelo que deseja e selecionando-o na lista para chegar à sua página de detalhes. Na página detalhes do modelo, selecione **Criar avaliação**. Em seguida, você inserirá o assistente com seu modelo já selecionado.
+1. Saiba para qual grupo você atribuirá sua avaliação ou esteja preparado para criar um novo para essa avaliação.
 
-### <a name="to-create-an-assessment"></a>Para criar uma avaliação
+2. Abra o assistente de avaliação. Você pode acessar esse painel de sobrevoos de um dos dois locais:
+    - Vá para a página **avaliações** no Gerenciador de Conformidade e selecione **Adicionar avaliação;** ou
+    - Encontre o modelo que você deseja usar na guia modelos **de** avaliação, veja seus detalhes e selecione **Criar avaliação**. Isso preencherá o campo de seleção de modelo do assistente para você.
 
-1. Saiba para qual grupo você atribuirá sua avaliação ou esteja preparado para criar um novo para essa avaliação. [Saiba mais sobre grupos](#understand-groups-before-creating-assessments).  
+3. **Selecione um modelo**: Se você ainda não escolheu um modelo na etapa 2, escolha um modelo para servir como base para sua avaliação. Você verá a lista de modelos divididos em categorias incluídas e premium (consulte [Tipos de](compliance-manager-templates.md#template-availability-and-licensing) modelo para obter mais informações). Selecione o botão de opção ao lado do modelo escolhido e selecione **Próximo**.
 
-2. Vá para a página **avaliações** no Gerenciador de Conformidade e selecione **Adicionar avaliação**. Um assistente de avaliação aparecerá em um painel de sobrevoo grande.
-
-3. **Selecione um modelo**: escolha um modelo para servir como base para sua avaliação. Você verá a lista de modelos divididos em categorias incluídas e premium (consulte [Tipos de](compliance-manager-templates.md#template-types-included-and-premium-active-and-inactive) modelo para obter mais informações). Selecione o botão de opção ao lado do modelo escolhido e selecione **Próximo**.
-
-4. **Nome e grupo:** Insira um nome para sua avaliação no campo **Nome da** Avaliação. Os nomes de avaliação devem ser exclusivos em grupos. Se o nome da sua avaliação corresponde ao nome de outra avaliação em qualquer grupo, você receberá um erro solicitando que você crie um nome diferente.
-
-5. Atribua sua avaliação a um grupo. Você pode:
-    - Selecione **Usar grupo existente para** atribuí-lo a um grupo que você já criou; ou
-    - Selecione **Criar novo grupo** para criar um novo grupo e atribua essa avaliação a ele:
-        - Determine um nome para seu grupo e insira-o no campo abaixo do botão de rádio.
-        - Você pode **copiar dados de um grupo** existente , como detalhes e documentos de implementação e teste, selecionando as caixas apropriadas.
+4. **Nome e grupo:** De definir essas propriedades para identificar sua avaliação e atribuí-la a um grupo.
+    - **Nome**: Insira um nome para sua avaliação no campo **Nome da** Avaliação. Os nomes de avaliação devem ser exclusivos em grupos. Se o nome da sua avaliação corresponde ao nome de outra avaliação em qualquer grupo, você receberá um erro solicitando que você crie um nome diferente.
+    - **Grupo**: Atribua sua avaliação a um grupo. Você pode:
+        - Selecione **Usar grupo existente para** atribuí-lo a um grupo que você já criou; ou
+        - Selecione **Criar novo grupo** para criar um novo grupo e atribua essa avaliação a ele:
+            - Determine um nome para seu grupo e insira-o no campo abaixo do botão de rádio.
+            - Você pode **copiar dados de um grupo** existente , como detalhes e documentos de implementação e teste, selecionando as caixas apropriadas.
 
     Quando terminar, selecione **Next**.
 
-6. **Revisar e concluir:** A última tela do assistente mostra o modelo, o nome e o grupo escolhidos para a avaliação. Você pode editar qualquer uma dessas configurações a partir dos links na tela, que o levam de volta às etapas relevantes no assistente. Quando estiver pronto, selecione **Criar avaliação**.
+5. **Revisar e concluir:** A última tela do assistente mostra o modelo, o nome e o grupo escolhidos para a avaliação. Você pode editar qualquer uma dessas configurações a partir dos links na tela, que o levam de volta às etapas relevantes no assistente. Quando estiver pronto, selecione **Criar avaliação**.
 
-7. A próxima tela confirma que você criou com êxito sua nova avaliação. Selecione **Feito** para fechar o assistente e a página de detalhes da nova avaliação aparecerá na tela.
+6. A próxima tela confirma que você criou com êxito sua nova avaliação. Selecione **Feito** para fechar o assistente e a página de detalhes da nova avaliação aparecerá na tela.
 
 Se você vir uma tela **de Avaliação com** falha após selecionar **Criar avaliação,** selecione **Tentar** novamente para re-criar sua avaliação.
 
 Você pode alterar o nome da sua avaliação depois de cria-la selecionando o botão **Editar** nome no canto superior direito da página de [detalhes da avaliação.](#monitor-assessment-progress-and-controls)
-
-## <a name="extend-a-pre-built-assessment"></a>Estender uma avaliação pré-criada
-
-Você pode modificar uma avaliação pré-criada adicionando seus próprios controles e ações de melhoria ao modelo da avaliação. Esse processo é chamado de "estender um modelo da Microsoft" no Gerenciador de Conformidade. Quando você estender o modelo de uma avaliação, ele receberá todas as atualizações lançadas pela Microsoft, o que pode acontecer quando houver alterações na regulamentação ou no produto relacionado (consulte Aceitando atualizações para [avaliações](#accepting-updates-to-assessments)).
-
-Você concluirá esse processo iniciando na página modelos de **avaliação** em vez da **página de avaliações.**
-
-**Antes de começar**
-
-Para se preparar para esse processo, primeiro você precisará montar uma planilha de Excel formatada especialmente para importar os dados de modelo necessários. Há requisitos especiais para os arquivos [Excel formatados](compliance-manager-templates.md#formatting-your-template-data-with-excel) usados no processo de extensão. Confira estes pontos adicionais para ajudar a evitar erros no processo de importação:
-
-- Sua planilha deve conter apenas as ações e controles que você deseja adicionar à avaliação. 
-- A planilha não pode conter nenhum dos controles ou ações que já existem na avaliação que você deseja modificar.
-- Considere incluir "extensão" no título do modelo, por exemplo, "RGPD – extensão [nome da empresa]". Isso facilita a identificação na lista na página modelos de avaliação como **distintas** do modelo padrão fornecido pela Microsoft ou de um modelo personalizado com um nome semelhante.
-
-Depois de formatar sua planilha, siga as etapas abaixo.
-
-**Etapas para estender um modelo do Gerenciador de Conformidade**
-
-1. Vá para a **página Modelos de Avaliação** e selecione **Criar novo modelo**. Um assistente de criação de modelo será aberto.
-
-2. Escolha o tipo de modelo que você deseja criar. Nesse caso, selecione **Estender um modelo da Microsoft** e selecione Modelo da **Microsoft.**
-
-3. Um painel de destaque de seleção de modelo aparece no lado direito da tela, mostrando uma lista de todos os modelos e seu status de ativo ou inativo. O **contador de modelos ativados** mostra quantos modelos estão em uso no momento do número total disponível para uso. Se você estiver acima do limite, uma barra de mensagens fornecerá aviso. Consulte [Tipos de modelo](compliance-manager-templates.md#template-types-included-and-premium-active-and-inactive) para obter mais informações.
-
-4. Um painel de sobrevoo de seleção de modelo aparece no lado direito da tela. Use **a Pesquisa** para aplicar filtros para localizar o modelo que você deseja
-
-5. Depois de localizar seu modelo, selecione o botão de opção à esquerda do nome e selecione **Salvar**.
-
-6. A próxima tela mostra o modelo selecionado. Se estiver correto, selecione **Next**. (Se estiver incorreto, escolha **Selecionar um modelo diferente** para escolher novamente.)
-
-7. Na tela **Upload arquivo,** selecione **Procurar** para encontrar e carregar seu arquivo Excel formatado contendo todos os dados de modelo necessários.
-
-8. Se não houver problemas com seu arquivo, a próxima tela mostrará o nome do arquivo carregado. Selecione **Próximo** para continuar (se você precisar alterar o arquivo, selecione **Upload um arquivo diferente**).
-
-    - Se houver um problema com seu arquivo, uma mensagem de erro na parte superior explica o que há de errado. Você precisará corrigir e carregar seu arquivo. Os erros resultarão se sua planilha for formatada incorretamente ou se houver informações inválidas em determinados campos.
- 
-9. A **tela Revisar e concluir** mostra o número de ações de melhoria e controles e a pontuação máxima do modelo. Quando estiver pronto para aprovar, selecione **Próximo**. (Se você precisar fazer alterações, selecione **Upload um arquivo diferente**.)
-
-10. A última tela confirma que um novo modelo foi criado. Selecione **Feito** para sair do assistente.
-
-11. Você chegará à página de detalhes do novo modelo. A partir daqui, você pode criar sua avaliação selecionando **Criar avaliação**. Para obter orientações, comece na etapa #4 nas instruções de criação [de avaliação acima](#to-create-an-assessment).
-
-## <a name="create-your-own-custom-assessment"></a>Criar sua própria avaliação personalizada
-
-Criar uma avaliação personalizada no Gerenciador de Conformidade exige que você crie seu próprio modelo. Para criar seu próprio modelo, você primeiro montará uma planilha Excel formatada para importar os dados de modelo necessários. Ele também ajuda a decidir com antecedência qual grupo você atribuirá sua avaliação ao criar (saiba mais [sobre](#what-are-groups)grupos).
-
-**Siga as etapas abaixo para criar sua avaliação personalizada:**
-
-1. **Formatar seu Excel arquivo.** Comece formatando os dados do modelo em uma planilha Excel usando [estas instruções](compliance-manager-templates.md#formatting-your-template-data-with-excel).
-
-2. **Crie seu modelo** seguindo [estas instruções](compliance-manager-templates.md#create-a-new-template).
-
-3. **Crie sua avaliação** a partir do modelo. Você pode começar abrindo a página de detalhes do modelo  e selecionando **Criar** avaliação , ou vá para sua página de avaliações e selecione **Criar avaliação**.
-
-4. Um assistente de criação de avaliação aparecerá em um painel de sobrevoo grande. A partir daqui, você pode seguir as diretrizes [](#to-create-an-assessment)que começam na etapa #3 das instruções de criação de avaliação, usando seu novo modelo personalizado para sua avaliação.
-
-## <a name="delete-an-assessment"></a>Excluir uma avaliação
-
-A exclusão de uma avaliação remove-a da lista na página de avaliações. Observe estes pontos importantes sobre a exclusão de avaliações:
-
-- **Excluir uma avaliação é permanente; você não pode obter de volta.** Se você quiser usar a mesma avaliação novamente, precisará re-crie-la.
-- Se as ações de melhoria na avaliação não aparecerem em nenhuma outra avaliação, elas serão excluídas quando a avaliação for excluída.
-- Recomendamos [exportar um relatório da](#export-an-assessment-report) avaliação antes de excluí-lo permanentemente.
-
-Para excluir uma avaliação, siga as etapas abaixo:
-
-1. Na página **avaliações,** selecione a avaliação que deseja excluir para abrir a página de detalhes dessa avaliação.
-
-2. Selecione **Excluir avaliação** no canto superior direito da tela.
-
-3. Uma janela aparecerá solicitando que você confirme se deseja excluir permanentemente a avaliação. Selecione **Excluir avaliação** para fechar a janela. Você obterá uma janela de confirmação de que sua avaliação foi excluída do Gerenciador de Conformidade.
-
-Se você excluir a única avaliação em um grupo, esse grupo também será excluído do Gerenciador de Conformidade.
-
-> [!NOTE]
-> Não é possível excluir todas as avaliações. As organizações precisam de pelo menos uma avaliação para que o Gerenciador de Conformidade funcione corretamente. Se a avaliação que você deseja excluir for a única, adicione outra avaliação antes de excluir a outra avaliação.
 
 ## <a name="monitor-assessment-progress-and-controls"></a>Monitorar o progresso da avaliação e os controles
 
@@ -258,7 +152,7 @@ A guia Ações da Microsoft lista todas as ações na avaliação gerenciadas pe
 
 Saiba mais sobre [como controles e ações de melhoria são controladas e pontuadas.](compliance-score-calculation.md)
 
-## <a name="accepting-updates-to-assessments"></a>Aceitar atualizações para avaliações
+## <a name="accept-updates-to-assessments"></a>Aceitar atualizações para avaliações
 
 Quando uma atualização estiver disponível para uma avaliação, você verá uma notificação e terá a opção de aceitar a atualização ou adiá-la posteriormente.
 
@@ -310,3 +204,24 @@ Se você estiver no meio da conclusão de uma avaliação, talvez queira garanti
 Você pode exportar uma avaliação para um arquivo Excel para participantes de conformidade em sua organização ou para auditores externos e reguladores. Na página detalhes da avaliação, selecione o botão **Gerar relatório** próximo à parte superior da página, que cria um arquivo Excel que você pode salvar e compartilhar.
 
 O relatório é um instantâneo da avaliação a partir da data e hora da exportação. Ele contém os detalhes dos controles gerenciados por você e pela Microsoft, incluindo o status da implementação, a data do teste e os resultados do teste.
+
+## <a name="delete-an-assessment"></a>Excluir uma avaliação
+
+A exclusão de uma avaliação remove-a da lista na página de avaliações. Observe estes pontos importantes sobre a exclusão de avaliações:
+
+- **Excluir uma avaliação é permanente; você não pode obter de volta.** Se você quiser usar a mesma avaliação novamente, precisará re-crie-la.
+- Se as ações de melhoria na avaliação não aparecerem em nenhuma outra avaliação, elas serão excluídas quando a avaliação for excluída.
+- Recomendamos [exportar um relatório da](#export-an-assessment-report) avaliação antes de excluí-lo permanentemente.
+
+Para excluir uma avaliação, siga as etapas abaixo:
+
+1. Na página **avaliações,** selecione a avaliação que deseja excluir para abrir a página de detalhes dessa avaliação.
+
+2. Selecione **Excluir avaliação** no canto superior direito da tela.
+
+3. Uma janela aparecerá solicitando que você confirme se deseja excluir permanentemente a avaliação. Selecione **Excluir avaliação** para fechar a janela. Você obterá uma janela de confirmação de que sua avaliação foi excluída do Gerenciador de Conformidade.
+
+Se você excluir a única avaliação em um grupo, esse grupo também será excluído do Gerenciador de Conformidade.
+
+> [!NOTE]
+> Não é possível excluir todas as avaliações. As organizações precisam de pelo menos uma avaliação para que o Gerenciador de Conformidade funcione corretamente. Se a avaliação que você deseja excluir for a única, adicione outra avaliação antes de excluir a outra avaliação.

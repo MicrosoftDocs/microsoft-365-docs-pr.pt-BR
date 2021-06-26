@@ -15,16 +15,16 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba mais sobre a política de prevenção de perda de dados padrão Microsoft Teams
-ms.openlocfilehash: 0663c370373708009346d4f858729e17436f0f62
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: c6b7413fdd4017fe1211e804c00a2e9c0684468d
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114139"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149113"
 ---
 # <a name="learn-about-the-default-data-loss-prevention-policy-in-microsoft-teams-preview"></a>Saiba mais sobre a política padrão de prevenção contra perda de dados no Microsoft Teams (visualização)
 
-[Os recursos de prevenção](dlp-learn-about-dlp.md) contra perda de dados foram estendidos para incluir Microsoft Teams de chat e de canal, incluindo mensagens de canal privado. Como parte dessa versão, criamos uma política DLP padrão para clientes de primeira para o Centro de Conformidade.
+[Os recursos de prevenção](dlp-learn-about-dlp.md) contra perda de dados foram estendidos para incluir Microsoft Teams de chat e de canal, incluindo mensagens de canal privado. Como parte dessa versão, criamos uma política de DLP padrão para Microsoft Teams clientes de primeira vez para o Centro de Conformidade.
 
 ## <a name="applies-to"></a>Aplicável a
 
@@ -41,7 +41,7 @@ Qualquer locatário licenciado com uma ou mais das licenças abaixo e que tenha 
 
 ## <a name="what-does-the-default-policy-do"></a>O que a política padrão faz?
 
-A política DLP padrão rastreia todos os números de cartão de crédito compartilhados interna e externamente para a organização. Essa política está em uso por padrão para todos os usuários do locatário. Ele não gera dicas de política para usuários finais, mas gera um evento Alert e também dispara um email de baixa gravidade para o administrador (adicionado na política). O administrador pode exibir as atividades e editar os detalhes das políticas fazendo logo em log no Centro de Conformidade.
+A política de DLP padrão para Teams rastreia todos os números de cartão de crédito compartilhados interna e externamente para a organização. Essa política está em uso por padrão para todos os usuários do locatário. Ele não gera dicas de política para usuários finais, mas gera um evento Alert e também dispara um email de baixa gravidade para o administrador (adicionado na política). O administrador pode exibir as atividades e editar os detalhes das políticas fazendo logo em log no Centro de Conformidade.
 
 Os administradores podem exibir essa política na página Centro de [Conformidade >](https://compliance.microsoft.com/compliancesettings) políticas de prevenção contra perda de dados.
 

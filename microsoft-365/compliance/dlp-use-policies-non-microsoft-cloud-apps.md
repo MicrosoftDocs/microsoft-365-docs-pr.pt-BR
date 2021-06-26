@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como usar políticas dlp para aplicativos de nuvem que não são da Microsoft.
-ms.openlocfilehash: d4c5170cab01b1ca22701b13c7afbf4f2e0ba7da
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: ca522b5accbd2c08e80b0ce63871179ff64bbcc8
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114129"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149149"
 ---
 # <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps-preview"></a>Usar políticas de prevenção contra perda de dados para aplicativos de nuvem que não são da Microsoft (visualização)
 
@@ -81,9 +81,11 @@ Ao criar uma regra na política DLP, você pode selecionar uma ação para aplic
 
 ![Restringir aplicativos de terceiros](../media/4-dlp-non-microsoft-cloud-app-restrict-third-party-apps.png)
 
+>[OBSERVAÇÃO] As políticas de DLP aplicadas a aplicativos que não são da Microsoft usam Microsoft Cloud App Security. Quando a política de DLP para um aplicativo não Microsoft é criada, a mesma política será criada automaticamente no Microsoft Cloud App Security.
+
 Para obter informações sobre como criar e configurar políticas DLP, consulte [Create test and tune a DLP policy](./create-test-tune-dlp-policy.md?view=o365-worldwide).
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 - [Criar teste e ajustar uma política de DLP](./create-test-tune-dlp-policy.md?view=o365-worldwide)
 - [Introdução à política DLP padrão](./get-started-with-the-default-dlp-policy.md?view=o365-worldwide)

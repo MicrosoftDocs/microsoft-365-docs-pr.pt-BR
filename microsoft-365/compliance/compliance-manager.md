@@ -2,8 +2,8 @@
 title: Gerenciador de Conformidade da Microsoft
 f1.keywords:
 - NOCSH
-ms.author: chvukosw
-author: chvukosw
+ms.author: v-jgriffee
+author: jmgriffee
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Microsoft Compliance Manager ajuda as organizações a simplificar e automatizar avaliações de risco e sugere ações recomendadas para ajudar a resolver riscos.
-ms.openlocfilehash: 7eb8e0fdea26ca24453ca7071ab1282c686d5848
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: cc1919f63716dfa79274a5cf7016ef07f2f36f92
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244390"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53148945"
 ---
 # <a name="microsoft-compliance-manager"></a>Gerenciador de Conformidade da Microsoft
 
@@ -30,7 +30,7 @@ ms.locfileid: "52244390"
 
 ## <a name="whats-new-the-ga-release-of-compliance-manager"></a>Novidades: a versão ga do Gerenciador de Conformidade
 
-O Gerenciador de Conformidade agora está geralmente disponível (GA) como uma solução de gerenciamento de conformidade de ponta a ponta [dentro do Microsoft 365 de conformidade.](microsoft-365-compliance-center.md) Com essa versão, o Gerenciador de Conformidade conclui a transição de seu local anterior no Portal de Confiança do Serviço Microsoft. O Gerenciador de Conformidade também está disponível para clientes do Community (GCC) moderados, GCC Alta e Departamento de Defesa (DoD).
+O Gerenciador de Conformidade agora está geralmente disponível (GA) como uma solução de gerenciamento de conformidade de ponta a ponta dentro do [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md). Com essa versão, o Gerenciador de Conformidade conclui a transição de seu local anterior no Portal de Confiança do Serviço Microsoft. O Gerenciador de Conformidade também está disponível para clientes do Community (GCC) moderados, GCC Alta e Departamento de Defesa (DoD).
 
 O que começou como a visualização pública da Pontuação de Conformidade evoluiu para uma ferramenta centralizada com recursos avançados de gerenciamento de conformidade e maior facilidade de uso.  A versão ga traz uma coleção maior de avaliações pré-criadas para ajudá-lo a dimensionar suas atividades de conformidade.
 
@@ -45,7 +45,7 @@ Assista ao vídeo abaixo para saber como o Gerenciador de Conformidade pode ajud
 
 ## <a name="what-is-compliance-manager"></a>O que é o Gerenciador de Conformidade
 
-[O Microsoft Compliance Manager](https://compliance.microsoft.com/compliancemanager) é um recurso no Microsoft 365 [de conformidade](microsoft-365-compliance-center.md) que ajuda você a gerenciar os requisitos de conformidade da sua organização com maior facilidade e conveniência. O Gerenciador de Conformidade pode ajudá-lo durante toda a jornada de conformidade, desde o inventário dos riscos de proteção de dados até o gerenciamento das complexidades da implementação de controles, a manter-se atualizado com regulamentações e certificações e a relatar aos auditores.
+[O Microsoft Compliance Manager](https://compliance.microsoft.com/compliancemanager) é um recurso no Centro de conformidade do Microsoft 365 [que](microsoft-365-compliance-center.md) ajuda você a gerenciar os requisitos de conformidade da sua organização com maior facilidade e conveniência. O Gerenciador de Conformidade pode ajudá-lo durante toda a jornada de conformidade, desde o inventário dos riscos de proteção de dados até o gerenciamento das complexidades da implementação de controles, a manter-se atualizado com regulamentações e certificações e a relatar aos auditores.
 
 O Gerenciador de Conformidade ajuda a simplificar a conformidade e reduzir o risco fornecendo:
 

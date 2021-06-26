@@ -2,8 +2,8 @@
 title: Começar com o Microsoft Compliance Manager
 f1.keywords:
 - NOCSH
-ms.author: chvukosw
-author: chvukosw
+ms.author: v-jgriffee
+author: jmgriffee
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: De definir permissões e funções de usuário do Microsoft Compliance Manager e configurar testes automatizados de ações. Gerencie o histórico do usuário e filtre o seu painel de exibição.
-ms.openlocfilehash: 8877a9a1e65a624708646c17a2517647c8a72f6a
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 7e29dd0eff7b05cb55a1fb0e071632353dadbdf8
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570553"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53148897"
 ---
 # <a name="get-started-with-compliance-manager"></a>Introdução ao Gerenciador de Conformidade
 
@@ -32,13 +32,13 @@ ms.locfileid: "51570553"
 
 O Gerenciador de Conformidade está disponível para organizações com licenças Office 365 e Microsoft 365 e para clientes do Departamento de Defesa (DoD) dos EUA Nuvem da Comunidade Governamental (GCC) moderados, GCC Alta e Departamento de Defesa (DoD). Os recursos de disponibilidade e gerenciamento de avaliação dependem do contrato de licenciamento.  [Exibir detalhes de descrição do serviço](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="before-you-begin"></a>Antes de você começar
 
 O Microsoft 365 administrador global da sua organização provavelmente será o primeiro usuário a acessar o Gerenciador de Conformidade. Recomendamos a entrada do administrador global e definir permissões de usuário conforme descrito abaixo ao visitar o Gerenciador de Conformidade pela primeira vez.
 
 ## <a name="sign-in"></a>Entrar
 
-1. Vá para o Microsoft 365 [de conformidade](https://compliance.microsoft.com/) **e** entre com sua conta Microsoft 365 administrador global.
+1. Vá para o [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com/) **e entre com** sua conta Microsoft 365 administrador global.
 2. Selecione **Gerenciador de Conformidade** no painel de navegação esquerdo. Você chegará ao painel do [Gerenciador de Conformidade.](#understand-the-compliance-manager-dashboard)
 
 O link direto para acessar o Gerenciador de Conformidade é [https://compliance.microsoft.com/compliancemanager](https://compliance.microsoft.com/compliancemanager) .
@@ -80,7 +80,7 @@ Se você não tiver acesso ao Centro de Conformidade e Segurança do Office 365 
 
 Para atribuir funções e definir permissões no Azure AD, consulte [Assign administrator and non-administrator roles to users with Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
 
-Os usuários com identidades do Azure AD que não têm assinaturas Office 365 ou Microsoft 365 não poderão acessar o Gerenciador de Conformidade no centro de conformidade Microsoft 365. Para buscar ajuda para acessar o Gerenciador de Conformidade, entre [em contato cmresearch@microsoft.com](mailto:cmresearch@microsoft.com).
+Os usuários com identidades do Azure AD que não têm assinaturas Office 365 ou Microsoft 365 não poderão acessar o Gerenciador de Conformidade no Centro de conformidade do Microsoft 365. Para buscar ajuda para acessar o Gerenciador de Conformidade, entre [em contato cmresearch@microsoft.com](mailto:cmresearch@microsoft.com).
 
 ### <a name="role-types"></a>Tipos de função
 
@@ -97,7 +97,7 @@ A tabela a seguir mostra as funções permitidas por cada função no Gerenciado
 
 ## <a name="settings-for-automated-testing-and-user-history"></a>Configurações para testes automatizados e histórico de usuários
 
-As configurações do Gerenciador de Conformidade no Microsoft 365 de conformidade permitem habilitar e desabilitar o teste automático de ações de melhoria. As configurações também permitem que você gerencie os dados de usuários associados a ações de melhoria, incluindo a capacidade de reatribuir ações de melhoria para um usuário diferente.  Somente pessoas com uma função de administrador global ou Administrador do Gerenciador de Conformidade podem acessar as configurações do Gerenciador de Conformidade.
+As configurações do Gerenciador de Conformidade no Centro de conformidade do Microsoft 365 permitem habilitar e desabilitar o teste automático de ações de melhoria. As configurações também permitem que você gerencie os dados de usuários associados a ações de melhoria, incluindo a capacidade de reatribuir ações de melhoria para um usuário diferente.  Somente pessoas com uma função de administrador global ou Administrador do Gerenciador de Conformidade podem acessar as configurações do Gerenciador de Conformidade.
 
 > [!NOTE]
 > O recurso de teste automatizado não está disponível para os clientes nos ambientes GCC High e DoD, pois a Pontuação Segura não está disponível nesses ambientes. GCC Os clientes high e DoD precisarão implementar e testar manualmente suas ações de melhoria.
@@ -112,7 +112,7 @@ O administrador global da sua organização pode alterar as configurações para
 
 #### <a name="to-manage-your-automated-testing-settings"></a>Para gerenciar suas configurações de teste automatizadas:
 
-1. Selecione **Configurações** navegação à esquerda de qualquer lugar no centro [Microsoft 365 conformidade.](https://compliance.microsoft.com/)
+1. Selecione **Configurações** navegação à esquerda de qualquer lugar no [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com/).
 
 2. Na página configurações, selecione **Gerenciador de Conformidade**.
 
@@ -134,7 +134,7 @@ As configurações de histórico do usuário também permitem que você reatribu
 
 **Para encontrar as configurações de histórico do usuário:**
 
-1. Selecione Configurações navegação à esquerda de qualquer lugar no Microsoft 365 [de conformidade.](https://compliance.microsoft.com/)
+1. Selecione Configurações navegação à esquerda de qualquer lugar no [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com/).
 
 2. Na página configurações, selecione **Gerenciador de Conformidade**.
 
@@ -152,7 +152,7 @@ O relatório reflete o status da ação de melhoria a partir de sua data de cria
 
 **Siga as etapas abaixo para exportar um relatório por usuário:**
 
-1. Selecione **Configurações** navegação à esquerda de qualquer lugar no centro [Microsoft 365 conformidade.](https://compliance.microsoft.com/)
+1. Selecione **Configurações** navegação à esquerda de qualquer lugar no [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com/).
 
 2. Na página configurações, selecione **Gerenciador de Conformidade**.
 
@@ -170,7 +170,7 @@ Você pode reatribuir ações de melhoria de um usuário para outro. Ao reatribu
 
 **Siga as etapas a seguir para reatribuir ações de melhoria a outro usuário:**
 
-1. Selecione **Configurações** navegação à esquerda de qualquer lugar no centro [Microsoft 365 conformidade.](https://compliance.microsoft.com/)
+1. Selecione **Configurações** navegação à esquerda de qualquer lugar no [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com/).
 
 2. Na página configurações, selecione **Gerenciador de Conformidade**.
 
@@ -197,7 +197,7 @@ Excluir o histórico de um usuário o removerá como proprietário de ações de
 
 Para excluir o histórico de um usuário, siga as etapas abaixo:
 
-1. Selecione **Configurações** navegação à esquerda de qualquer lugar no centro [Microsoft 365 conformidade.](https://compliance.microsoft.com/)
+1. Selecione **Configurações** navegação à esquerda de qualquer lugar no [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com/).
 
 2. Na página configurações, selecione **Gerenciador de Conformidade**.
 
@@ -322,7 +322,7 @@ Há duas maneiras de tomar medidas nesta tela:
 
 A página avaliações lista todas as [avaliações](compliance-manager-assessments.md) configuradas para sua organização. Seu denominador de pontuação de conformidade é determinado por todas as avaliações controladas. À medida que você adiciona mais avaliações, você verá mais ações de melhoria listadas na página ações de melhoria e seu denominador de pontuação de conformidade aumenta.
 
-O **contador de modelos ativados** próximo à parte superior da página mostra o número de modelos de avaliação ativos em uso no momento, fora do número total de modelos disponíveis para sua organização usar. Consulte [Tipo de modelo](compliance-manager-templates.md#template-types-included-and-premium-active-and-inactive) para obter mais informações.
+O **contador de modelos ativados** próximo à parte superior da página mostra o número de modelos de avaliação ativos em uso no momento, fora do número total de modelos disponíveis para sua organização usar. Consulte [Disponibilidade e licenciamento do modelo](compliance-manager-templates.md#template-availability-and-licensing) para obter mais informações.
 
 A página avaliações resume as principais informações sobre cada avaliação:
 
@@ -357,7 +357,7 @@ Por padrão, você verá a avaliação da Linha de Base de [Proteção](complian
 
 Um modelo é uma estrutura para criar uma avaliação no Gerenciador de Conformidade. A página de modelos de avaliação exibe uma lista de modelos e detalhes importantes. A lista inclui modelos fornecidos pelo Gerenciador de Conformidade, bem como todos os modelos que sua organização modificou ou criou. Você pode aplicar filtros para encontrar um modelo com base na certificação, escopo do produto, país, setor e quem o criou.
 
-O **contador de modelos ativados** próximo à parte superior da página mostra o número de modelos de avaliação ativos em uso no momento, fora do número total de modelos disponíveis para sua organização usar. Consulte [Tipo de modelo](compliance-manager-templates.md#template-types-included-and-premium-active-and-inactive) para obter mais informações.
+O **contador de modelos ativados** próximo à parte superior da página mostra o número de modelos de avaliação ativos em uso no momento, fora do número total de modelos disponíveis para sua organização usar. Consulte [Disponibilidade e licenciamento do modelo](compliance-manager-templates.md#template-availability-and-licensing) para obter mais informações.
 
 Selecione um modelo em sua linha para trazer sua página de detalhes, que contém uma descrição do modelo e mais informações sobre os detalhes de certificação, escopo e controles. Nesta página, você pode selecionar os botões apropriados para criar uma avaliação, exportar os dados do modelo para Excel ou modificar o modelo.
 
