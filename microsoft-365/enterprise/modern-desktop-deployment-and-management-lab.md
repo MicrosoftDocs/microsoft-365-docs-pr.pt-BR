@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: bb73c303e1266a7d19b3578fb01b849b5e96990f
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 3f9899726838caca678542e17206dae038c39a3d
+ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770668"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "53169563"
 ---
 # <a name="windows-10-and-office-365-deployment-lab-kit"></a>Kit de laboratório de implantação do Windows 10 e Office 365
 
@@ -47,7 +47,7 @@ O kit fornece um ambiente de laboratório virtual provisionado automaticamente, 
 O laboratório resultante foi projetado para ser conectado a avaliação para: 
 
   - Microsoft 365 E5
-  - Microsoft 365 Apps para empresas
+  - Microsoft 365 Apps para Grandes Empresas
   - Office 365 E5 com Enterprise Mobility + Security (EMS)
 
 ## <a name="step-by-step-labs"></a>Laboratórios passo a passo
@@ -55,9 +55,11 @@ O laboratório resultante foi projetado para ser conectado a avaliação para:
 Detalhados guias de laboratório o conduzem por vários cenários de implantação e gerenciamento. Os laboratórios foram atualizados para as versões mais recentes do Intune e do Configuration Manager. 
 
 ### <a name="plan-and-prepare-infrastructure"></a>Planejar e preparar infraestrutura 
+
 - Análise de Área de Trabalho 
 - Gateway de Gerenciamento de Nuvem & Ponto de Distribuição de Nuvem 
-- Cargas de trabalho de anexação, co-gerenciamento e alternamento de locatários 
+- NOVO! Anexação de locatário e co-gerenciamento
+- NOVO! Análise de ponto de extremidade 
 - Acesso remoto (VPN) 
 
 ### <a name="prepare-configuration"></a>Preparar configuração   
@@ -91,6 +93,7 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 - Enterprise implantação gerenciada usando Microsoft Intune  
 - Implantação e gerenciamento lob com Microsoft Intune
 - Implantar Microsoft Teams
+- NOVO! Filtros de atribuição  
 
 ### <a name="deploy-windows-virtual-desktop"></a>Implantar Windows área de trabalho virtual  
 

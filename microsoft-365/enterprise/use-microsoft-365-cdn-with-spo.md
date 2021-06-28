@@ -21,12 +21,12 @@ search.appverid:
 - SPO160
 ms.assetid: bebb285f-1d54-4f79-90a5-94985afc6af8
 description: Saiba como usar o Office 365 Rede de Distribuição de Conteúdo (CDN) para acelerar a entrega dos ativos SharePoint Online.
-ms.openlocfilehash: 6819f627d3590cd2739b36cb1bc303f197d6aaa5
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: e6cce93be0e8d893d68ae8bcdb15fde325a2cb59
+ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570400"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "53169551"
 ---
 # <a name="use-the-office-365-content-delivery-network-cdn-with-sharepoint-online"></a>Usar a Rede de Distribuição de Conteúdo (CDN) do Office 365 com o SharePoint Online
 
@@ -898,7 +898,7 @@ Se você quiser usar a URL completa para o ativo em vez de um caminho relativo, 
 `https://<TenantHostName>.sharepoint.com/sites/site/CDN_origins/public/image.png`
 
 > [!NOTE]
-> Em geral, você não deve codificar URLs diretamente para ativos no CDN. No entanto, você pode construir manualmente URLs para ativos em origens públicas, se necessário. Para obter mais informações, consulte [Hardcoding CDN URLs para ativos públicos](use-microsoft-365-cdn-with-spo.md).
+> Em geral, você não deve codificar URLs diretamente para ativos no CDN. No entanto, você pode construir manualmente URLs para ativos em origens públicas, se necessário. Para obter mais informações, consulte [Hardcoding CDN URLs para ativos públicos](use-microsoft-365-cdn-with-spo.md#constructing-cdn-urls-for-public-assets).
 
 Para saber mais sobre como verificar se os ativos estão sendo atendidos no CDN, consulte Como confirmar se os ativos estão sendo atendidos pelo [CDN?](use-microsoft-365-cdn-with-spo.md#CDNConfirm) em Solução de problemas do [Office 365 CDN](use-microsoft-365-cdn-with-spo.md#CDNTroubleshooting).
 
