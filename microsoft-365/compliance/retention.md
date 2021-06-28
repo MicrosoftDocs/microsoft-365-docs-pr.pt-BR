@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: f882a9a215f331930de7473d6bf057a3d45bc50e
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: 9337bddd87dd24d42b4d06fe77225901701cbdee
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137686"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149173"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -307,7 +307,7 @@ Explicação para os quatro princípios diferentes:
     
     Exemplo: Uma mensagem de email está sujeita a uma política de retenção do Exchange configurada para excluir itens após três anos e também tem um rótulo de retenção aplicado que está configurado para reter itens por cinco anos.
     
-    A mensagem de email é retida por cinco anos porque esta ação de retenção tem precedência sobre a exclusão. Em seguida, a mensagem de email é excluída permanentemente no final dos cinco anos por causa da ação de exclusão.
+    A mensagem de email é retida por cinco anos porque esta ação de retenção tem precedência sobre a exclusão. A mensagem de e-mail é excluída permanentemente no final dos cinco anos devido à ação de exclusão que foi suspensa enquanto a ação de retenção estava em vigor.
 
 2. **O período de retenção mais longo prevalece.** Se o conteúdo estiver sujeito a várias configurações de retenção que retêm o conteúdo para diferentes períodos de tempo, o conteúdo será retido até o fim do período de retenção mais longo.
     
