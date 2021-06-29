@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente um rótulo a arquivos e emails, ou você pode solicitar aos usuários que selecionem o rótulo que você recomenda.
-ms.openlocfilehash: dbfe9e1eaeff7968328eefd24caeec35e2d72558
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: 5fdb3bd963468fb7fdb4de307df8ccda0c69bbb4
+ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137770"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "53169611"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -89,6 +89,7 @@ Use a tabela a seguir para ajudá-lo a identificar as diferenças no comportamen
 |Restringir por local|Não |Sim |
 |Condições: Classificadores de treinamento|Sim |Não |
 |Condições: Opções de compartilhamento e opções adicionais para email|Não |Sim |
+|Condições: exceções|Não |Sim (só email) |
 |Recomendações, dica de ferramenta da política e substituições de usuário|Sim |Não |
 |Modo de simulação|Não |Sim |
 |Anexos do Exchange verificados quanto a condições|Não | Sim|
@@ -297,7 +298,17 @@ Por fim, você pode usar o modo de simulação para fornecer uma aproximação d
     - O anexo é protegido por senha
     - Nenhum conteúdo do anexo de email pôde ser verificado
     - Nenhum conteúdo do anexo de email concluiu a verificação
-
+    - O cabeçalho corresponde aos padrões
+    - O assunto corresponde aos padrões
+    - O endereço do destinatário contém palavras
+    - O endereço do destinatário corresponde aos padrões
+    - O endereço do remetente corresponde aos padrões
+    - O domínio do remetente é
+    - O destinatário é um membro do
+    - O remetente é
+    
+    Para cada uma dessas condições, você pode especificar exceções.
+    
 8. Dependendo das opções anteriores, você terá a oportunidade de criar novas regras usando condições e exceções.
     
     As opções de configuração para tipos de informações confidenciais são as mesmas que você seleciona para rotular automaticamente os aplicativos do Office. Se você precisar de mais informações, confira [Configurar tipos de informações confidenciais para um rótulo](#configuring-sensitive-info-types-for-a-label).

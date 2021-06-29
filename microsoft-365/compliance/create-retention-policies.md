@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use uma política de retenção para manter o controle eficiente do conteúdo que os usuários geram com email, documentos e conversas. Mantenha o que você deseja e descarte o que não.
-ms.openlocfilehash: 2ddc95b5e614fb321ccc5472bc6031f570218528
-ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
+ms.openlocfilehash: 3e5fec9117a0ce63b80b700c8771cf092b44a69e
+ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053066"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "53169587"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -116,7 +116,7 @@ Se você tiver um site da equipe que não está conectado a um grupo do Microsof
 ### <a name="retention-policy-for-yammer-locations"></a>Política de retenção para locais do Yammer
 
 > [!NOTE]
-> As políticas de retenção para o Yammer estão em versão prévia.
+> As políticas de retenção do Yammer estão em visualização e atualmente não informam os usuários quando as mensagens são excluídas como resultado de uma política de retenção.
 >
 > Para usar esse recurso, sua rede do Yammer deve ser [Modo Nativo](/yammer/configure-your-yammer-network/overview-native-mode), não no modo híbrido.
 
