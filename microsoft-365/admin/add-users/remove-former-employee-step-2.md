@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como salvar o conteúdo da caixa de correio de um ex-funcionário.
-ms.openlocfilehash: d73d7005d2ccea429f66c5b2564220424665439f
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: bd24145b6b5162a03dee0338cc0820e5af271ddd
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244151"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177484"
 ---
 # <a name="step-2---save-the-contents-of-a-former-employees-mailbox"></a>Etapa 2 : Salvar o conteúdo da caixa de correio de um ex-funcionário
 
@@ -45,4 +45,4 @@ Depois de bloquear o acesso de um usuário à sua organização, você poderá s
 
     **OU**
 
-2. Adicione o endereço de email do ex-funcionário à sua versão do Outlook Web e exporte os dados para um arquivo .pst. É possível importar os dados para outra conta de email conforme necessário. Confira a [Etapa 6 - Dê a outro](remove-former-employee-step-6.md)funcionário acesso OneDrive e Outlook dados .
+2. Adicione o endereço de email do ex-funcionário à sua versão do Outlook na Área de Trabalho e exporte os dados para um arquivo .pst. É possível importar os dados para outra conta de email conforme necessário. Confira a [Etapa 6 - Dê a outro](remove-former-employee-step-6.md)funcionário acesso OneDrive e Outlook dados .

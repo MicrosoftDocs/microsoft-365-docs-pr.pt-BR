@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: eadca063d50bf1f969f1bb247b6e56d8ec46a6e0
-ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
+ms.openlocfilehash: 59f116e3fe2b617803efd9625f399235b79a1142
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "53169575"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177628"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Usar regras de redução de superfície de ataque para evitar infecção por malware
 
@@ -52,7 +52,7 @@ Você pode avaliar como uma regra de redução de superfície de ataque pode afe
 
 No painel de detalhes de recomendação, verifique se há impacto do usuário para determinar qual porcentagem de seus dispositivos pode aceitar uma nova política habilitando a regra no modo de bloqueio sem afetar adversamente a produtividade.
 
-Consulte [Requisitos](enable-attack-surface-reduction.md#requirements) no artigo "Habilitar regras de redução de superfície de ataque" para obter informações sobre sistemas operacionais com suporte.
+Consulte [Requisitos](enable-attack-surface-reduction.md#requirements) no artigo "Habilitar regras de redução de superfície de ataque" para obter informações sobre sistemas operacionais com suporte e informações adicionais sobre requisitos.
 
 ## <a name="audit-mode-for-evaluation"></a>Modo de auditoria para avaliação
 

@@ -14,12 +14,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 0705ba096c2aefc6bd089bd5fba80b055fd881dc
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 6d2770dec270e2d1c1b9750387a0f07f82b357f9
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055236"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177088"
 ---
 # <a name="customize-attack-surface-reduction-rules"></a>Personalizar regras da redução da superfície de ataque
 
@@ -42,7 +42,11 @@ Você pode definir regras de redução de superfície de ataque para dispositivo
 - Windows 10 Pro, versão [1709](/windows/whats-new/whats-new-windows-10-version-1709) ou posterior
 - Windows 10 Enterprise, versão [1709](/windows/whats-new/whats-new-windows-10-version-1709) ou posterior
 - Windows Servidor, [versão 1803 (Canal Semesanuais)](/windows-server/get-started/whats-new-in-windows-server-1803) ou posterior
-- [Windows Server 2019](/windows-server/get-started-19/whats-new-19) Você pode usar provedores de serviço de configuração de Política de Grupo, PowerShell e Gerenciamento de Dispositivo Móvel (CSP) para configurar essas configurações.
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+
+Você pode usar provedores de serviço de configuração de Política de Grupo, PowerShell e Gerenciamento de Dispositivo Móvel (CSP) para configurar essas configurações.
+
+Consulte [Requisitos](enable-attack-surface-reduction.md#requirements) no artigo "Habilitar regras de redução de superfície de ataque" para obter informações sobre sistemas operacionais com suporte e informações adicionais sobre requisitos.
 
 ## <a name="exclude-files-and-folders"></a>Excluir arquivos e pastas
 
@@ -66,21 +70,22 @@ Se você estiver encontrando problemas com regras que detectam arquivos que voc�
 
 | Descrição da regra | GUID |
 |:----|:----|
+| Bloquear o abuso de drivers assinados vulneráveis explorados | `56a863a9-875e-4185-98a7-b882c64b5ce5` |
+| Impedir o Adobe Reader de criar processos filho | `7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c` |
 | Bloquear todos os Office aplicativos da criação de processos filho | `D4F940AB-401B-4EFC-AADC-AD5F3C50688A` |
-| Bloquear a execução de scripts potencialmente ofuscados | `5BEB7EFE-FD9A-4556-801D-275E5FFC04CC` |
-| Bloquear chamadas de API Win32 de Office macro | `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B` |
-| Impedir Office aplicativos de criação de conteúdo executável | `3B576869-A4EC-4529-8536-B80A7769E899` |
-| Impedir Office aplicativos de injetar código em outros processos | `75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84` |
-| Bloquear JavaScript ou VBScript de iniciar conteúdo executável baixado | `D3E037E1-3EB8-44C8-A917-57927947596D` |
+| Bloquear o roubo de credenciais do subsistema Windows autoridade de segurança local (lsass.exe) | `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2` |
 | Bloquear conteúdo executável do cliente de email e do webmail | `BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550` |
 | Impedir a execução de arquivos executáveis, a menos que eles atendem a uma prevalência, idade ou critérios de lista confiáveis | `01443614-cd74-433a-b99e-2ecdc07bfc25` |
-| Usar proteção avançada contra ransomware | `c1db55ab-c21a-4637-bb3f-a12568109d35` |
-| Bloquear o roubo de credenciais do subsistema Windows autoridade de segurança local (lsass.exe) | `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2` |
+| Bloquear a execução de scripts potencialmente ofuscados | `5BEB7EFE-FD9A-4556-801D-275E5FFC04CC` |
+| Bloquear JavaScript ou VBScript de iniciar conteúdo executável baixado | `D3E037E1-3EB8-44C8-A917-57927947596D` |
+| Impedir Office aplicativos de criação de conteúdo executável | `3B576869-A4EC-4529-8536-B80A7769E899` |
+| Impedir Office aplicativos de injetar código em outros processos | `75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84` |
+| Bloquear Office de comunicação da criação de processos filho | `26190899-1602-49e8-8b27-eb1d0a1ce869` |
+| Bloquear a persistência por meio da assinatura de evento WMI | `e6db77e5-3df2-4cf1-b95a-636979351e5b` |
 | Bloquear criações de processo provenientes de comandos PSExec e WMI | `d1e49aac-8f56-4280-b9ba-993a6d77406c` |
 | Bloquear processos não assinados e não assinados que são executados a partir do USB | `b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4` |
-| Bloquear Office de comunicação da criação de processos filho | `26190899-1602-49e8-8b27-eb1d0a1ce869` |
-| Impedir o Adobe Reader de criar processos filho | `7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c` |
-| Bloquear a persistência por meio da assinatura de evento WMI | `e6db77e5-3df2-4cf1-b95a-636979351e5b` |
+| Bloquear chamadas de API Win32 de Office macro | `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B` |
+| Usar proteção avançada contra ransomware | `c1db55ab-c21a-4637-bb3f-a12568109d35` |
 
 Consulte o [tópico de redução de](attack-surface-reduction.md) superfície de ataque para obter detalhes sobre cada regra.
 

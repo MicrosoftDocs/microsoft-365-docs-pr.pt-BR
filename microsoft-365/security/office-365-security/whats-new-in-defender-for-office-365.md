@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0eaf34e6950e265514b14ff1fd0aa1c7bb9ab6b1
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 0a9eb63ed4508ff875324cf6fb0b4a8ad59cb29f
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53062201"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177523"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Novidades do Microsoft Defender para Office 365
 
@@ -62,7 +62,6 @@ Saiba mais assistindo a [este vídeo](https://www.youtube.com/watch?v=Tdz6KfruDG
 - Aumentando os limites de Exportação de registros de 9990 para 200.000 em experiências [de busca](threat-explorer.md)
 - Estendendo a retenção de dados do Explorer (e detecções em tempo real) e o limite de pesquisa para locatários de 7 (limite anterior) para 30 dias em experiências [de busca](threat-explorer.md)
 - Novos pivôs de busca  chamados **domínio** personificado e usuário personificado dentro do Explorer (e detecções em tempo real) para pesquisar ataques de representação contra usuários ou domínios protegidos. Para obter mais informações, consulte [detalhes](threat-explorer.md#view-phishing-emails-sent-to-impersonated-users-and-domains). (Microsoft Defender para Office 365 Plano 1 ou Plano 2)
-- Novo primeiro contato dica de segurança para quando os destinatários recebem primeiro um email de um remetente ou geralmente não recebem emails de um remetente. Para obter mais informações sobre essa configuração e como configurá-la usando Exchange de fluxo de emails (também conhecidas como regras de [transporte),](set-up-anti-phishing-policies.md#first-contact-safety-tip)consulte First contact dica de segurança .
 
 ## <a name="december-2020"></a>Dezembro de 2020
 
@@ -75,6 +74,7 @@ Saiba mais assistindo a [este vídeo](https://www.youtube.com/watch?v=Tdz6KfruDG
 
 ## <a name="septemberoctober-2020"></a>Setembro/outubro de 2020
 
+- Novo primeiro contato dica de segurança para quando os destinatários recebem primeiro um email de um remetente ou geralmente não recebem emails de um remetente. Para obter mais informações sobre essa configuração e como configurá-la usando Exchange de fluxo de emails (também conhecidas como regras de [transporte),](set-up-anti-phishing-policies.md#first-contact-safety-tip)consulte First contact dica de segurança .
 - [Verifique suas políticas usando o Analisador de Configuração](configuration-analyzer-for-security-policies.md)
 - Recursos estendidos no Explorador de Ameaças, incluindo usuários principais [direcionados,](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) regras de transporte e conectores (Defender para obter informações Office 365 no [Explorador](threat-explorer.md) de Ameaças (email foi permitido/bloqueado pela política de locatário/usuário) (Defender para Office 365 Plano 2)
 - Ameaças de URL crescentes no [Explorador de](threat-explorer.md#threats-in-urls) Ameaças (malware, phishing, spam ou nenhuma) (Defender para Office 365 Plano 2)

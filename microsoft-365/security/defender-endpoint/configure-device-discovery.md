@@ -1,6 +1,6 @@
 ---
 title: Configurar a descoberta de dispositivo
-description: Saiba como configurar a descoberta de dispositivos no Microsoft 365 Defender usando a descoberta básica ou padrão
+description: Saiba como configurar a descoberta de dispositivos em Microsoft 365 Defender usando a descoberta básica ou padrão
 keywords: básico, padrão, configurar descoberta de ponto de extremidade, descoberta de dispositivo
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 0d722b4f4bef5b4d178edc5f2142c887690d4c63
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: e1efeff77657e04223b21d639a0a09287f3707cc
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765246"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177580"
 ---
 # <a name="configure-device-discovery"></a>Configurar a descoberta de dispositivo
 
@@ -101,7 +101,24 @@ Escolher a classificação de descoberta inicial significa aplicar o estado padr
 6. Confirme se você deseja fazer a alteração. 
 
 
+## <a name="explore-devices-in-the-network"></a>Explorar dispositivos na rede
 
+Você pode usar a seguinte consulta de busca avançada para obter mais contexto sobre cada nome de rede descrito na lista de redes. A consulta lista todos os dispositivos conectados a uma determinada rede nos últimos 7 dias.
+
+
+
+```kusto
+DeviceNetworkInfo
+| where Timestamp > ago(7d)
+| summarize arg_max(Timestamp, *) by DeviceId
+| where ConnectedNetworks  != ""
+| extend ConnectedNetworksExp = parse_json(ConnectedNetworks)
+| mv-expand bagexpansion = array ConnectedNetworks=ConnectedNetworksExp
+| extend NetworkName = tostring(ConnectedNetworks ["Name"]), Description = tostring(ConnectedNetworks ["Description"]), NetworkCategory = tostring(ConnectedNetworks ["Category"])
+| where NetworkName == "<your network name here>"
+
+
+```
 
 ## <a name="see-also"></a>Confira também
 - [Visão geral sobre descoberta de dispositivo](device-discovery.md)

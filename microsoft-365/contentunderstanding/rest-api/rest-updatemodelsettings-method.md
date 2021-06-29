@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Use a API REST para atualizar as configurações de modelos disponíveis para um modelo de compreensão de documentos.
-ms.openlocfilehash: f24fc8428adbf22ded2ca6d7a49cabc84b385770
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: cd288812044f3b02839c3c11c321947bd02cccaa
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904153"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177160"
 ---
 # <a name="updatemodelsettings"></a>UpdateModelSettings
 
@@ -25,12 +25,14 @@ Atualiza as configurações de modelos disponíveis (descrição de modelo e ró
 ## <a name="http-request"></a>Solicitação HTTP
 
 ```HTTP
-POST /_api/machinelearning/models/updatemodelsettings HTTP/1.1
+POST /_api/machinelearning/models/getbytitle('{modelFileName}')/updatemodelsettings HTTP/1.1
 ```
 
 ## <a name="uri-parameters"></a>Parâmetros de URI
 
-Nenhum
+|Nome |Em |Obrigatório|Tipo|Descrição|
+|-----|---|--------|----|-----------|
+|modelFileName|consulta|True|string|Nome do arquivo do modelo Syntex.|
 
 ## <a name="request-headers"></a>Cabeçalhos de solicitação
 

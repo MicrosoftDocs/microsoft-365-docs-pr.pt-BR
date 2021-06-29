@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Use a API REST para obter ou atualizar informações sobre um modelo de compreensão de documento do Microsoft Office SharePoint Online Syntex usando o título do modelo.
-ms.openlocfilehash: a6fbe9ba9d3f5240c7b775613f97b83bfa2caa50
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: b50849d0dc1c9deefa55a5c92303d18f251e2f8b
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904158"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177124"
 ---
 # <a name="getbytitle"></a>GetByTitle
 
@@ -25,13 +25,13 @@ Obtém ou atualiza informações sobre um modelo de compreensão de documento Mi
 ## <a name="http-request"></a>Solicitação HTTP
 
 ```HTTP
-GET /_api/machinelearning/models/getbytitle('{modelFileName') HTTP/1.1
+GET /_api/machinelearning/models/getbytitle('{modelFileName}') HTTP/1.1
 ```
 
 Esse mesmo método também pode ser usado para excluir um modelo.
 
 ```HTTP
-DELETE /_api/machinelearning/models/getbytitle('{modelFileName') HTTP/1.1
+DELETE /_api/machinelearning/models/getbytitle('{modelFileName}') HTTP/1.1
 ```
 
 ## <a name="uri-parameters"></a>Parâmetros de URI
@@ -65,12 +65,12 @@ Neste exemplo, o nome do modelo de compreensão de documento Syntex é `Contoso 
 #### <a name="sample-request"></a>Solicitação de amostra
 
 ```HTTP
-GET /_api/machinelearning/models/getbytitle('{Contoso Contract') HTTP/1.1
+GET /_api/machinelearning/models/getbytitle('Contoso Contract') HTTP/1.1
 ```
 
 #### <a name="sample-response"></a>Resposta de amostra
 
-**Código de status:** 204
+**Código de status:** 200
 
 ```HTTP
 {
@@ -109,9 +109,9 @@ Neste exemplo, o nome do modelo de compreensão de documento do Contrato da Cont
 ##### <a name="sample-request"></a>Solicitação de amostra
 
 ```HTTP
-DELETE /_api/machinelearning/models/getbytitle('{Contoso Contract') HTTP/1.1
+DELETE /_api/machinelearning/models/getbytitle('Contoso Contract') HTTP/1.1
 ```
 
 ## <a name="see-also"></a>Confira também
 
-[API REST do modelo de compreensão de documento Syntex](syntex-model-rest-api.md)
+[API REST do modelo de compreensão de documentos do Syntex](syntex-model-rest-api.md)

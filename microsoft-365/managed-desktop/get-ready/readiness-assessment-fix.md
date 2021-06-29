@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 5a22996ce9e39dc16191ddddc6aa9393de557bbc
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 0296e8151162ad4f2855fdd29ff2fc0ed4b4d6b2
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579405"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177568"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Corrigir problemas encontrados pela ferramenta de avaliação de prontidão
 
@@ -27,7 +27,7 @@ Para cada verificação, a ferramenta relatará um dos quatro resultados possív
 |Pronto     | Nenhuma ação é necessária antes de concluir o registro.        |
 |Aviso    | Siga as etapas na ferramenta ou neste artigo para ter a melhor experiência com registro e usuários. Você *pode* concluir o registro, mas deve corrigir esses problemas antes de implantar seu primeiro dispositivo.        |
 |Não está pronto | *O registro falhará se você não corrigir esses problemas.* Siga as etapas na ferramenta ou neste artigo para resolvê-las.        |
-|Error | A Azure Active Directory (AD) que você está usando não tem permissão suficiente para executar essa verificação. |
+|Erro | A Azure Active Directory (AD) que você está usando não tem permissão suficiente para executar essa verificação. |
 
 > [!NOTE]
 > Os resultados relatados por essa ferramenta refletem o status de suas configurações apenas no ponto específico no tempo em que você a publicou. Se você mais tarde fizer alterações nas políticas em Microsoft Intune, Azure Active Directory ou Microsoft 365, os itens que estavam "Prontos" podem se tornar "Não prontos". Para evitar problemas com Área de Trabalho Gerenciada da Microsoft, verifique as configurações específicas descritas neste artigo antes de alterar quaisquer políticas.
@@ -66,6 +66,14 @@ Pelo menos um conector de certificado tem um erro. Se você precisar desse conec
 
 Você tem pelo menos um conector de certificado e nenhum erro é relatado. No entanto, em preparação para a implantação, talvez seja necessário criar um perfil para reutilizar o conector para Área de Trabalho Gerenciada da Microsoft dispositivos. Para obter mais informações, [consulte Prepare certificates and network profiles for Área de Trabalho Gerenciada da Microsoft](certs-wifi-lan.md).
 
+### <a name="company-portal"></a>Portal da Empresa
+
+Área de Trabalho Gerenciada da Microsoft requer que os administradores dem Portal da Empresa do Intune para seus usuários com Área de Trabalho Gerenciada da Microsoft dispositivos. 
+
+**Não está pronto**
+
+Você não tem um Portal da Empresa instalado para seus usuários. Compre Portal da Empresa e force uma sincronização entre o Intune e Microsoft Store para Empresas. Para obter mais informações, [consulte Install Portal da Empresa do Intune on devices](../get-started/company-portal.md).
+
 
 ### <a name="conditional-access-policies"></a>Políticas de acesso condicional
 
@@ -79,7 +87,7 @@ Você tem pelo menos uma política de acesso condicional voltada para todos os u
 
 Você tem políticas de acesso condicional que podem impedir Área de Trabalho Gerenciada da Microsoft gerenciar o serviço de Área de Trabalho Gerenciada da Microsoft. Durante o registro, excluiremos Área de Trabalho Gerenciada da Microsoft contas de serviço de políticas de acesso condicional relevantes e aplicaremos novas políticas de acesso condicional para restringir o acesso a essas contas. Para saber mais sobre essas contas de serviço, consulte [Procedimentos operacionais padrão](../service-description/operations-and-monitoring.md#standard-operating-procedures).
 
-**Erro**
+**Error**
 
 A função Administrador do Intune não tem permissões suficientes para essa verificação. Você também precisará de qualquer uma dessas funções do Azure AD atribuídas para executar esta verificação:
 
@@ -160,7 +168,7 @@ Você tem algumas políticas de autenticação multifator **definidas** como nec
 
 Você tem a autenticação multifator necessária em políticas de acesso condicional que podem impedir Área de Trabalho Gerenciada da Microsoft gerenciar o serviço de Área de Trabalho Gerenciada da Microsoft. Durante o registro, excluiremos Área de Trabalho Gerenciada da Microsoft contas de serviço de políticas de acesso condicional relevantes e aplicaremos novas políticas de acesso condicional para restringir o acesso a essas contas. Para saber mais sobre essas contas de serviço, consulte [Procedimentos operacionais padrão](../service-description/operations-and-monitoring.md#standard-operating-procedures).
 
-**Erro**
+**Error**
 
 A função Administrador do Intune não tem permissões suficientes para essa verificação. Você também precisará de qualquer uma dessas funções do Azure AD atribuídas para executar esta verificação:
 
@@ -218,11 +226,11 @@ Você pode solicitar ao representante de conta da Microsoft uma consulta Microso
 
 ### <a name="windows-hello-for-business"></a>Windows Hello para Empresas
 
-Área de Trabalho Gerenciada da Microsoft requer Windows Hello for Business para ser habilitado.
+Área de Trabalho Gerenciada da Microsoft requer Windows Hello para Empresas a serem habilitadas.
 
 **Não está pronto**
 
-Windows Hello para Empresas está desabilitado. Habilita-o seguindo as etapas em [Create a Windows Hello for Business](/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy)
+Windows Hello para Empresas está desabilitado. Habilita-o seguindo as etapas em [Create a Windows Hello for Business policy](/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy)
 
 **Aviso**
 
@@ -329,7 +337,7 @@ Além dos usuários que têm funções atribuídas ao Azure AD de administrador 
 
 Área de Trabalho Gerenciada da Microsoft usuários não terão privilégios de administrador local em seus Área de Trabalho Gerenciada da Microsoft após o registro.
 
-## <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365 Apps para empresas
+## <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365 Apps para Grandes Empresas
 
 ### <a name="onedrive"></a>OneDrive
 

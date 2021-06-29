@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Impedir que um ex-funcionário entre e bloqueie o acesso aos Microsoft 365 serviços.
-ms.openlocfilehash: f2258b165c3d61f809288003f4a536ffe160ea59
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 58b65a0a886460e8be01635c857433773cfc9059
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53061829"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177112"
 ---
 # <a name="step-1---prevent-a-former-employee-from-logging-in-and-block-access-to-microsoft-365-services"></a>Etapa 1 - Impedir que um ex-funcionário entre e bloqueie o acesso aos serviços Microsoft 365 serviços
 
@@ -65,7 +65,7 @@ Para saber mais sobre quanto tempo é preciso para excluir alguém do email, con
 
 Se você tiver emails como parte da sua assinatura Microsoft 365, entre no centro de administração Exchange e siga estas etapas para impedir que seu ex-funcionário acesse seus emails.
   
-1. Vá até o <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Centro de administração do Exchange</a>.
+1. Vá até o <a href="https://admin.exchange.microsoft.com/" target="_blank">Centro de administração do Exchange</a>.
 2. No Centro de administração do Exchange, navegue até **Destinatários** \> **Caixas de Correio**.
-3. Clique duas vezes no usuário e vá para a página **Recursos de Caixa de** Correio. Em **Dispositivos Móveis,** selecione **Desabilitar Exchange ActiveSync** e **Desabilitar o OWA para** Dispositivos e responda **Sim** a ambos quando solicitado.
-4. Em **Conectividade de Email,** selecione **Desabilitar** e responder **Sim** quando solicitado.
+3. Clique duas vezes no usuário e vá para **Gerenciar configurações de aplicativos de email** em **Aplicativos de email.** Desativar **o** controle deslizante para todas as opções; **Mobile (Exchange ActiveSync)**, **Outlook na Web**, Outlook **desktop (MAPI)**, **Exchange web services,** **POP3** e **IMAP**.
+4. Selecione **Salvar**.

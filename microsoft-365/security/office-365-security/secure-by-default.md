@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: ''
+ms.date: 06/28/2021
 audience: ITPro
 ms.topic: conceptual
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.collection:
 description: Saiba mais sobre a configuração segura por padrão no Proteção do Exchange Online (EOP)
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f197556426171b867b49781b38ea5f5116f80aa2
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: c737647202e82af0fc217c0eadb3e2573d13a9b1
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861522"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177640"
 ---
 # <a name="secure-by-default-in-office-365"></a>Proteger por padrão em Office 365
 
@@ -75,7 +75,7 @@ Para colocá-lo de outra maneira: como um serviço de segurança, estamos agindo
 ## <a name="exceptions"></a>Exceções
 
 > [!NOTE]
-> Em julho de 2021, a segurança por padrão será estendida Exchange regras de fluxo de emails (também conhecidas como regras de transporte). Se você usar regras de fluxo de emails para permitir simulações de phishing de terceiros ou entrega não [](configure-advanced-delivery.md) filtrada para caixas de correio de operação de segurança, eventualmente precisará eliminar essas regras e alternar para usar a política de entrega avançada quando o recurso estiver disponível para você _._
+> Em agosto de 2021, a segurança por padrão será estendida Exchange regras de fluxo de emails (também conhecidas como regras de transporte). Se você usar regras de fluxo de emails para permitir simulações de phishing de terceiros ou entrega não [](configure-advanced-delivery.md) filtrada para caixas de correio de operação de segurança, eventualmente precisará eliminar essas regras e alternar para usar a política de entrega avançada quando o recurso estiver disponível para você _._
 
 A única substituição que permite que a mensagem de phishing de alta confiança ignore a filtragem são as regras de fluxo de emails. Para usar regras de fluxo de emails para ignorar a filtragem, consulte [Use mail flow rules to set the SCL in messages](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl).
 

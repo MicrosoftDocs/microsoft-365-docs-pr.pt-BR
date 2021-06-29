@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Use a API REST para obter informações sobre um modelo e a biblioteca onde ele foi aplicado.
-ms.openlocfilehash: 6cd61364ed3b360ef235aaba21a2735002fe481e
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 2449084653c6d9af8d774edc306c485e7a466bf6
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904152"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177064"
 ---
 # <a name="get-model-and-library-information"></a>Obter informações sobre modelo e biblioteca
 
@@ -25,13 +25,13 @@ Obtém informações sobre um modelo e a biblioteca onde ele foi aplicado (veja 
 ## <a name="http-request"></a>Solicitação HTTP
 
 ```HTTP
-GET /_api/machinelearning/publications/getbyuniqueid(‘{modelUniqueId}’) HTTP/1.1
+GET /_api/machinelearning/publications/getbymodeluniqueid('{modelUniqueId}') HTTP/1.1
 ```
 
 ## <a name="uri-parameters"></a>Parâmetros de URI
 
 | Nome | Em | Obrigatório | Tipo | Descrição |
-|--------|-------|--------|------------|
+|--------|-------|--------|------------|-----------|
 |ModelUniqueId|consulta|True|GUID|A ID exclusiva do arquivo de modelo.|
 
 ## <a name="request-headers"></a>Cabeçalhos de solicitação
@@ -41,22 +41,11 @@ GET /_api/machinelearning/publications/getbyuniqueid(‘{modelUniqueId}’) HTTP
 |Aceitar|application/json;odata=verbose|
 
 
-## <a name="request-body"></a>Corpo da solicitação
-
-| Nome | Obrigatório | Tipo | Descrição |
-|--------|-------|--------|------------|
-|ModelUniqueId|sim|cadeia de caracteres|A ID exclusiva do arquivo de modelo.|
-|TargetSiteUrl|sim|cadeia de caracteres|A URL completa do site da biblioteca de destino.|
-|TargetWebServerRelativeUrl|sim|cadeia de caracteres|A URL relativa do servidor da Web para a biblioteca de destino.|
-|TargetLibraryServerRelativeUrl|sim|cadeia de caracteres|A URL relativa do servidor da biblioteca de destino.|
-|TargetLibraryRemoved|sim|int|O sinalizador que indica se a biblioteca de destino foi removida ou não.|
-
 ## <a name="response"></a>Resposta
 
 | Nome   | Tipo  | Descrição|
 |--------|-------|------------|
-|200 OK| |Sucesso|
-|201 criado| |Observe que, como esta API oferece suporte à aplicação do modelo a várias bibliotecas, um 201 pode ser retornado mesmo se houver uma falha ao aplicar o modelo a uma das bibliotecas. <br>Verifique o corpo da resposta para saber se o modelo foi aplicado com sucesso a todas as bibliotecas especificadas. Confira o [Corpo da solicitação](rest-getmodelandlibraryinfo.md#request-body) para obter detalhes.|
+|200 OK| |Êxito|
 
 ## <a name="examples"></a>Exemplos
 
@@ -67,7 +56,7 @@ Neste exemplo, a ID do modelo de compreensão de documentos do Contrato da Conto
 #### <a name="sample-request"></a>Solicitação de amostra
 
 ```HTTP
-GET /sites/TestCC/_api/machinelearning/publications/getbymodeluniqueid(‘{7645e69d-21fb-4a24-a17a-9bdfa7cb63dc}’) HTTP/1.1
+GET /sites/TestCC/_api/machinelearning/publications/getbymodeluniqueid('7645e69d-21fb-4a24-a17a-9bdfa7cb63dc') HTTP/1.1
 ```
 #### <a name="sample-response"></a>Resposta de amostra
 
@@ -130,7 +119,7 @@ GET /sites/TestCC/_api/machinelearning/publications/getbymodeluniqueid(‘{7645e
             "ViewOption": "NewViewAsDefault"
         }
     ]
-}```
+}
 ```
 
 ## <a name="see-also"></a>Confira também

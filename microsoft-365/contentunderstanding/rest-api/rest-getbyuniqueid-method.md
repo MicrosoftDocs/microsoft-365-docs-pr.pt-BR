@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Use a API REST para obter ou atualizar informações sobre um modelo de compreensão de documento do Microsoft Office SharePoint Online Syntex.
-ms.openlocfilehash: aa97e0fde57c6d5200b437a8f9c7187c0980cc5b
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 306bcd894b6339575f8c91ac3c4fb89f2033f3bc
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904154"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177100"
 ---
 # <a name="getbyuniqueid"></a>GetByUniqueId
 
@@ -25,13 +25,13 @@ Obtém ou atualiza informações sobre um modelo de compreensão de documento do
 ## <a name="http-request"></a>Solicitação HTTP
 
 ```HTTP
-GET /_api/machinelearning/models/getbyuniqueid(‘{modelUniqueId}') HTTP/1.1
+GET /_api/machinelearning/models/getbyuniqueid('{modelUniqueId}') HTTP/1.1
 ```
 
 Esse mesmo método também pode ser usado para excluir um modelo. 
 
 ```HTTP
-DELETE /_api/machinelearning/models/getbyuniqueid(‘{modelUniqueId}') HTTP/1.1
+DELETE /_api/machinelearning/models/getbyuniqueid('{modelUniqueId}') HTTP/1.1
 ```
 ## <a name="uri-parameters"></a>Parâmetros de URI
 
@@ -64,12 +64,12 @@ Neste exemplo, a ID do modelo de compreensão de documento do Contrato da Contos
 #### <a name="sample-request"></a>Solicitação de amostra
 
 ```HTTP
-GET /_api/machinelearning/models/getbyuniqueid(‘{7645e69d-21fb-4a24-a17a-9bdfa7cb63dc}') HTTP/1.1
+GET /_api/machinelearning/models/getbyuniqueid('7645e69d-21fb-4a24-a17a-9bdfa7cb63dc') HTTP/1.1
 ```
 
 #### <a name="sample-response"></a>Resposta de amostra
 
-**Código de status:** 204
+**Código de status:** 200
 
 ```HTTP
 {
@@ -107,9 +107,9 @@ Neste exemplo, a ID do modelo de compreensão de documento do Contrato da Contos
 #### <a name="sample-request"></a>Solicitação de amostra
 
 ```HTTP
-DELETE /_api/machinelearning/models/getbyuniqueid(‘{7645e69d-21fb-4a24-a17a-9bdfa7cb63dc}') HTTP/1.1
+DELETE /_api/machinelearning/models/getbyuniqueid('7645e69d-21fb-4a24-a17a-9bdfa7cb63dc') HTTP/1.1
 ```
 
 ## <a name="see-also"></a>Confira também
 
-[API REST do modelo de compreensão de documento Syntex](syntex-model-rest-api.md)
+[API REST do modelo de compreensão de documentos do Syntex](syntex-model-rest-api.md)
