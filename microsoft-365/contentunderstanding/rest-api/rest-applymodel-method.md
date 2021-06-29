@@ -1,5 +1,5 @@
 ---
-title: Aplicar modelo
+title: Modelo de aplicação em lote
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -11,14 +11,14 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Use a API REST para aplicar um modelo de compreensão de documento a uma ou mais bibliotecas.
-ms.openlocfilehash: d4cadad3c45dd7af0cdaeb4e1b367426289db870
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 24ea9a480bc3ce5a7745857de17a6fab6ed97685
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904175"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177256"
 ---
-# <a name="apply-model"></a>Aplicar modelo
+# <a name="batch-apply-model"></a>Modelo de Aplicação em lote
 
 Aplica (ou sincroniza) um modelo treinado de compreensão de documento a uma ou mais bibliotecas (consulte o [exemplo](rest-applymodel-method.md#examples)).
 
@@ -44,18 +44,45 @@ Nenhum
 
 | Nome | Obrigatório | Tipo | Descrição |
 |--------|-------|--------|------------|
-|ModelUniqueId|sim|string|A ID exclusiva do arquivo de modelo.|
-TargetSiteUrl|sim|string|A URL completa do site da biblioteca de destino.|
-TargetWebServerRelativeUrl|sim|string|A URL relativa do servidor da Web para a biblioteca de destino.|
-TargetLibraryServerRelativeUrl|sim|string|A URL relativa do servidor da biblioteca de destino.|
-Viewoption|não|string|Especifica se o novo modo de exibição de modelo deve ser definido como o padrão da biblioteca.|
+|__metadata|sim|string|Definir o metadado do objeto no SPO. Sempre use o valor: {"type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningPublicationsEntityData"}.|
+|Publicações|sim|MachineLearningPublicationEntityData[]|A coleção do MachineLearningPublicationEntityData de cada um deles especifica o modelo e a biblioteca de documentos de destino.|
+
+### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+| Nome | Obrigatório | Tipo | Descrição |
+|--------|-------|--------|------------|
+|ModelUniqueId|sim|cadeia de caracteres|A ID exclusiva do arquivo de modelo.|
+|TargetSiteUrl|sim|cadeia de caracteres|A URL completa do site da biblioteca de destino.|
+|TargetWebServerRelativeUrl|sim|cadeia de caracteres|A URL relativa do servidor da web para a biblioteca de destino.|
+|TargetLibraryServerRelativeUrl|sim|cadeia de caracteres|A URL relativa do servidor da biblioteca de destino.|
+|ViewOption|não|string|Especifica se o novo modo de exibição de modelo deve ser definido como o padrão da biblioteca.|
 
 ## <a name="response"></a>Resposta
 
 | Nome   | Tipo  | Descrição|
 |--------|-------|------------|
-|200 OK| |Êxito|
-|201 Criado| |Observe que como essa API dá suporte à aplicação de modelo a várias bibliotecas, um 201 pode ser retornado mesmo se houver uma falha aplicando o modelo a uma das bibliotecas. <br>Verifique o corpo da resposta para compreender se o modelo foi aplicado com êxito a todas as bibliotecas especificadas. Consulte [Solicitar corpo](rest-applymodel-method.md#request-body) para obter detalhes.|
+|201 Criado||Esta é uma API personalizada para dar suporte à aplicação de um modelo a bibliotecas de documentos múltiplos. No caso de êxito parcial, ainda é possível retornar 201 criado e o chamador precisa inspecionar o corpo da resposta para entender se o modelo foi aplicado com êxito de uma biblioteca de documentos.|
+
+## <a name="response-body"></a>Corpo da resposta
+| Nome   | Tipo  | Descrição|
+|--------|-------|------------|
+|TotalSuccesses|int|O número total de um modelo que está sendo aplicado com êxito de uma biblioteca de documentos.|
+|TotalFailures|int|O número total de um modelo que não foi aplicado a uma biblioteca de documentos.|
+|Detalhes|MachineLearningPublicationResult[]|A coleção do MachineLearningPublicationResult de cada um deles especifica o resultado detalhado da aplicação do modelo à uma biblioteca de documentos.|
+
+### <a name="machinelearningpublicationresult"></a>MachineLearningPublicationResult
+| Nome   | Tipo  | Descrição|
+|--------|-------|------------|
+|StatusCode|int|O código de status HTTP.|
+|ErrorMessage|string|A mensagem de erro que informa o que há de errado ao aplicar o modelo à biblioteca de documentos.|
+|Publicação|MachineLearningPublicationEntityData|Especifica as informações do modelo e a biblioteca de documentos de destino.| 
+
+### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+| Nome | Tipo | Descrição |
+|--------|--------|------------|
+|ModelUniqueId|cadeia de caracteres|A ID exclusiva do arquivo de modelo.|
+|TargetSiteUrl|cadeia de caracteres|A URL completa do site da biblioteca de destino.|
+|TargetWebServerRelativeUrl|cadeia de caracteres|A URL relativa do servidor da web para a biblioteca de destino.|
+|TargetLibraryServerRelativeUrl|cadeia de caracteres|A URL relativa do servidor da biblioteca de destino.|
 
 ## <a name="examples"></a>Exemplos
 
@@ -89,7 +116,7 @@ Neste exemplo, a ID do modelo de compreensão de documento do Contrato da Contos
 
 Na resposta, TotalFailures e TotalSuccesses se referem ao número de falhas e sucessos do modelo que está sendo aplicado às bibliotecas especificadas.
 
-**Código de status:** 200
+**Código de status:** 201
 
 ```JSON
 {
@@ -103,7 +130,7 @@ Na resposta, TotalFailures e TotalSuccesses se referem ao número de falhas e su
                 "TargetLibraryServerRelativeUrl": "/sites/repository/contracts",
                 "ViewOption": "NewViewAsDefault"
             },
-            "StatusCode": 200
+            "StatusCode": 201
         }
     ],
     "TotalFailures": 0,
@@ -113,4 +140,4 @@ Na resposta, TotalFailures e TotalSuccesses se referem ao número de falhas e su
 
 ## <a name="see-also"></a>Confira também
 
-[API REST do modelo de compreensão de documento Syntex](syntex-model-rest-api.md)
+[API REST do modelo de compreensão de documentos do Syntex](syntex-model-rest-api.md)

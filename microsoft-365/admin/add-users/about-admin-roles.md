@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: As funções de administrador como a Administração de serviços fazem mapeamento para as funções de negócios e dão permissões para realizar tarefas específicas no centro de administração.
-ms.openlocfilehash: 801a5a85479e431b46883c69e75b1ea909892ca1
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: 073e82971906ea817da9971ba737874711dc43d3
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964567"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177448"
 ---
 # <a name="about-admin-roles"></a>Sobre funções de administrador
 
@@ -76,8 +76,8 @@ Provavelmente, você só precisará atribuir as funções a seguir em sua organi
 |Administrador de licença    |   Atribua a função Administrador de licença a usuários que precisam atribuir e remover licenças de usuários, e edite o local de uso. <br/><br/> Os administradores de licenças também podem: <br> - Reprocessar as atribuições de licença para licenciamento baseado em grupo <br> - Atribuir licenças de produto a grupos para licenciamento baseado em grupo  |
 |Administrador de aplicativos do Office    |   Atribua a função de administrador de aplicativos do Office aos usuários que precisam fazer o seguinte: <br> - Use o serviço de política de nuvem do Office para criar e gerenciar políticas baseadas em nuvem para o Office <br> - Criar e gerenciar solicitações de serviço <br> – Gerenciar o conteúdo Novidades que os usuários veem em seus aplicativos do Office   <br> - Monitorar a integridade do serviço  |
 |Administrador de senha  |   Atribua a função de administrador de senha a um usuário que precisa redefinir senhas para não-administradores e administradores de senhas.   |
-|Leitor do centro de mensagens |   Atribua a função de Leitor de relatórios aos usuários que precisam fazer o seguinte: <br> - Monitorar as notificações do centro de mensagens <br> - Obter os resumos semanais por email das postagens e atualizações do centro de mensagens <br> - Compartilhar as postagens do centro de mensagens <br> - Ter acesso somente leitura aos serviços do Azure Active Directory, como usuários e grupos|
-|Administrador do Power Platform |   Atribua a função de Leitor de relatórios aos usuários que precisam fazer o seguinte: <br> – Gerenciar todos os recursos de administração para Power Apps, Power Automate e prevenção contra perda de dados <br> - Criar e gerenciar as solicitações do serviço <br> - Monitorar a integridade do serviço  |
+|Leitor do centro de mensagens |   Atribua a função de Centro de mensagens aos usuários que precisam fazer o seguinte: <br> - Monitorar as notificações do centro de mensagens <br> - Obter os resumos semanais por email das postagens e atualizações do centro de mensagens <br> - Compartilhar as postagens do centro de mensagens <br> - Ter acesso somente leitura aos serviços do Azure Active Directory, como usuários e grupos|
+|Administrador do Power Platform |   Atribua a função de administrador de Power Platform aos usuários que precisam fazer o seguinte: <br> – Gerenciar todos os recursos de administração para Power Apps, Power Automate e prevenção contra perda de dados <br> - Criar e gerenciar as solicitações do serviço <br> - Monitorar a integridade do serviço  |
 |Leitor de relatórios |   Atribua a função de Leitor de relatórios aos usuários que precisam fazer o seguinte: <br> - Exibir os dados do uso e os relatórios de atividades no Centro de administração do Microsoft 365 <br> - Obter acesso ao pacote de conteúdo de adoção do Power BI <br> - Obter acesso a relatórios de entrada e atividades no Azure Active Directory <br> - Exibir os dados retornados pela API dos relatórios do Microsoft Graph|
 |Administrador do Suporte do Serviço   |   Atribua a função do administrador do Suporte do Serviço como uma função adicional para administradores ou usuários que precisam fazer o seguinte, além de sua função de administrador normal: <br> - Abrir e gerenciar solicitações de serviço <br> - Exibir e compartilhar postagens do centro de mensagens <br> - Monitorar a integridade do serviço   |
 |Administrador do SharePoint    |   Atribua a função de administrador do SharePoint aos usuários que precisam acessar e gerenciar o centro de administração do SharePoint Online. <br><br>Os administradores do SharePoint também podem: <br> - Criar e excluir sites <br> - Gerenciar conjuntos de sites e configurações globais do SharePoint   |

@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Use a API REST para remover um modelo de compreensão de documentos aplicado de uma ou mais bibliotecas.
-ms.openlocfilehash: 8c7aeb449da161fe49050631643c63c93268a13f
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: e95c0583b1b0e2f5de08228afbf161c339544047
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904147"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177232"
 ---
 # <a name="batchdelete"></a>BatchDelete
 
@@ -44,18 +44,43 @@ Nenhum
 
 | Nome | Obrigatório | Tipo | Descrição |
 |--------|-------|--------|------------|
-|ModelUniqueId|sim|string|A ID exclusiva do arquivo de modelo.|
-TargetSiteUrl|sim|string|A URL completa do site da biblioteca de destino.|
-TargetWebServerRelativeUrl|sim|string|A URL relativa do servidor da web para a biblioteca de destino.|
-TargetLibraryServerRelativeUrl|sim|string|A URL relativa do servidor da biblioteca de destino.|
-ViewOption|não|string|Especifica se o novo modo de exibição de modelo deve ser definido como o padrão da biblioteca.|
+|Publicações|sim|MachineLearningPublicationEntityData[]|A coleção do MachineLearningPublicationEntityData de cada um deles especifica o modelo e a biblioteca de documentos de destino.|
+
+### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+| Nome | Obrigatório | Tipo | Descrição |
+|--------|-------|--------|------------|
+|ModelUniqueId|sim|cadeia de caracteres|A ID exclusiva do arquivo de modelo.|
+|TargetSiteUrl|sim|cadeia de caracteres|A URL completa do site da biblioteca de destino.|
+|TargetWebServerRelativeUrl|sim|cadeia de caracteres|A URL relativa do servidor da web para a biblioteca de destino.|
+|TargetLibraryServerRelativeUrl|sim|cadeia de caracteres|A URL relativa do servidor da biblioteca de destino.|
 
 ## <a name="response"></a>Resposta
 
 | Nome   | Tipo  | Descrição|
 |--------|-------|------------|
-|200 OK| |Êxito|
+|200 OK||Esta é uma API personalizada para dar suporte à remoção de um modelo de bibliotecas de documentos múltiplos. No caso de êxito parcial, ainda é possível retornar 200 OK e o chamador precisa inspecionar o corpo da resposta para entender se o modelo foi removido com êxito de uma biblioteca de documentos.|
 
+## <a name="response-body"></a>Corpo da resposta
+| Nome   | Tipo  | Descrição|
+|--------|-------|------------|
+|TotalSuccesses|int|O número total de um modelo que está sendo removido com êxito de uma biblioteca de documentos.|
+|TotalFailures|int|O número total de um modelo que não foi removido de uma biblioteca de documentos.|
+|Detalhes|MachineLearningPublicationResult[]|A coleção do MachineLearningPublicationResult de cada um deles especifica o resultado detalhado da remoção do modelo de uma biblioteca de documentos.|
+
+### <a name="machinelearningpublicationresult"></a>MachineLearningPublicationResult
+| Nome   | Tipo  | Descrição|
+|--------|-------|------------|
+|StatusCode|int|O código de status HTTP.|
+|ErrorMessage|string|A mensagem de erro que informa o que há de errado ao aplicar o modelo à biblioteca de documentos.|
+|Publicação|MachineLearningPublicationEntityData|Especifica as informações do modelo e a biblioteca de documentos de destino.| 
+
+### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+| Nome | Tipo | Descrição |
+|--------|--------|------------|
+|ModelUniqueId|cadeia de caracteres|A ID exclusiva do arquivo de modelo.|
+|TargetSiteUrl|cadeia de caracteres|A URL completa do site da biblioteca de destino.|
+|TargetWebServerRelativeUrl|cadeia de caracteres|A URL relativa do servidor da web para a biblioteca de destino.|
+|TargetLibraryServerRelativeUrl|cadeia de caracteres|A URL relativa do servidor da biblioteca de destino.|
 
 ## <a name="examples"></a>Exemplos
 
@@ -66,28 +91,22 @@ Nesse exemplo, a ID do modelo de compreensão de documentos do Contrato da Conto
 #### <a name="sample-request"></a>Solicitação de amostra
 
 ```HTTP
-{
-    "__metadata": {
-        "type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningPublicationsEntityData"
-    },
-    "Publications": {
-        "results": [
-            {
-                "ModelUniqueId": "7645e69d-21fb-4a24-a17a-9bdfa7cb63dc",
-                "TargetSiteUrl": "https://contoso.sharepoint.com/sites/repository/",
-                "TargetWebServerRelativeUrl": "/sites/repository",
-                "TargetLibraryServerRelativeUrl": "/sites/repository/contracts",
-                "ViewOption": "NewViewAsDefault"
-            }
-        ]
-    }
-}
+{ 
+    "publications": [ 
+        { 
+            "ModelUniqueId": "7645e69d-21fb-4a24-a17a-9bdfa7cb63dc", 
+            "TargetSiteUrl": "https://constco.sharepoint-df.com/sites/docsite", 
+            "TargetWebServerRelativeUrl": "/sites/docsite ", 
+            "TargetLibraryServerRelativeUrl": "/sites/dcocsite/joedcos" 
+        } 
+    ] 
+} 
 ```
 
 
 #### <a name="sample-response"></a>Resposta de amostra
 
-Na resposta, TotalFailures e TotalSuccesses se referem ao número de falhas e sucessos do modelo que está sendo aplicado às bibliotecas especificadas.
+Na resposta, TotalFailures e TotalSuccesses se referem ao número de falhas e sucessos do modelo que está sendo removido das bibliotecas especificadas.
 
 **Código de status:** 200
 
