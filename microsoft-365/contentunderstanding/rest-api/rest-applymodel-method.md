@@ -1,5 +1,5 @@
 ---
-title: Aplicar modelo
+title: Modelo de aplicação em lote
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -11,59 +11,86 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Use a API REST para aplicar um modelo de compreensão de documento a uma ou mais bibliotecas.
-ms.openlocfilehash: d4cadad3c45dd7af0cdaeb4e1b367426289db870
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 24ea9a480bc3ce5a7745857de17a6fab6ed97685
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904175"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177256"
 ---
-# <a name="apply-model"></a><span data-ttu-id="8e9aa-103">Aplicar modelo</span><span class="sxs-lookup"><span data-stu-id="8e9aa-103">Apply model</span></span>
+# <a name="batch-apply-model"></a><span data-ttu-id="3b96c-103">Modelo de Aplicação em lote</span><span class="sxs-lookup"><span data-stu-id="3b96c-103">Batch Apply model</span></span>
 
-<span data-ttu-id="8e9aa-104">Aplica (ou sincroniza) um modelo treinado de compreensão de documento a uma ou mais bibliotecas (consulte o [exemplo](rest-applymodel-method.md#examples)).</span><span class="sxs-lookup"><span data-stu-id="8e9aa-104">Applies (or syncs) a trained document understanding model to one or more libraries (see [example](rest-applymodel-method.md#examples)).</span></span>
+<span data-ttu-id="3b96c-104">Aplica (ou sincroniza) um modelo treinado de compreensão de documento a uma ou mais bibliotecas (consulte o [exemplo](rest-applymodel-method.md#examples)).</span><span class="sxs-lookup"><span data-stu-id="3b96c-104">Applies (or syncs) a trained document understanding model to one or more libraries (see [example](rest-applymodel-method.md#examples)).</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="8e9aa-105">Solicitação HTTP</span><span class="sxs-lookup"><span data-stu-id="8e9aa-105">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="3b96c-105">Solicitação HTTP</span><span class="sxs-lookup"><span data-stu-id="3b96c-105">HTTP request</span></span>
 
 ```HTTP
 POST /_api/machinelearning/publications HTTP/1.1
 ```
 
-## <a name="uri-parameters"></a><span data-ttu-id="8e9aa-106">Parâmetros de URI</span><span class="sxs-lookup"><span data-stu-id="8e9aa-106">URI parameters</span></span>
+## <a name="uri-parameters"></a><span data-ttu-id="3b96c-106">Parâmetros de URI</span><span class="sxs-lookup"><span data-stu-id="3b96c-106">URI parameters</span></span>
 
-<span data-ttu-id="8e9aa-107">Nenhum</span><span class="sxs-lookup"><span data-stu-id="8e9aa-107">None</span></span>
+<span data-ttu-id="3b96c-107">Nenhum</span><span class="sxs-lookup"><span data-stu-id="3b96c-107">None</span></span>
 
-## <a name="request-headers"></a><span data-ttu-id="8e9aa-108">Cabeçalhos de solicitação</span><span class="sxs-lookup"><span data-stu-id="8e9aa-108">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="3b96c-108">Cabeçalhos de solicitação</span><span class="sxs-lookup"><span data-stu-id="3b96c-108">Request headers</span></span>
 
-| <span data-ttu-id="8e9aa-109">Cabeçalho</span><span class="sxs-lookup"><span data-stu-id="8e9aa-109">Header</span></span> | <span data-ttu-id="8e9aa-110">Valor</span><span class="sxs-lookup"><span data-stu-id="8e9aa-110">Value</span></span> |
+| <span data-ttu-id="3b96c-109">Cabeçalho</span><span class="sxs-lookup"><span data-stu-id="3b96c-109">Header</span></span> | <span data-ttu-id="3b96c-110">Valor</span><span class="sxs-lookup"><span data-stu-id="3b96c-110">Value</span></span> |
 |--------|-------|
-|<span data-ttu-id="8e9aa-111">Aceitar</span><span class="sxs-lookup"><span data-stu-id="8e9aa-111">Accept</span></span>|<span data-ttu-id="8e9aa-112">application/json;odata=verbose</span><span class="sxs-lookup"><span data-stu-id="8e9aa-112">application/json;odata=verbose</span></span>|
-|<span data-ttu-id="8e9aa-113">Content-Type</span><span class="sxs-lookup"><span data-stu-id="8e9aa-113">Content-Type</span></span>|<span data-ttu-id="8e9aa-114">application/json;odata=verbose;charset=utf-8</span><span class="sxs-lookup"><span data-stu-id="8e9aa-114">application/json;odata=verbose;charset=utf-8</span></span>|
-|<span data-ttu-id="8e9aa-115">x-requestdigest</span><span class="sxs-lookup"><span data-stu-id="8e9aa-115">x-requestdigest</span></span>|<span data-ttu-id="8e9aa-116">O resumo apropriado para o site atual.</span><span class="sxs-lookup"><span data-stu-id="8e9aa-116">The appropriate digest for current site.</span></span>|
+|<span data-ttu-id="3b96c-111">Aceitar</span><span class="sxs-lookup"><span data-stu-id="3b96c-111">Accept</span></span>|<span data-ttu-id="3b96c-112">application/json;odata=verbose</span><span class="sxs-lookup"><span data-stu-id="3b96c-112">application/json;odata=verbose</span></span>|
+|<span data-ttu-id="3b96c-113">Content-Type</span><span class="sxs-lookup"><span data-stu-id="3b96c-113">Content-Type</span></span>|<span data-ttu-id="3b96c-114">application/json;odata=verbose;charset=utf-8</span><span class="sxs-lookup"><span data-stu-id="3b96c-114">application/json;odata=verbose;charset=utf-8</span></span>|
+|<span data-ttu-id="3b96c-115">x-requestdigest</span><span class="sxs-lookup"><span data-stu-id="3b96c-115">x-requestdigest</span></span>|<span data-ttu-id="3b96c-116">O resumo apropriado para o site atual.</span><span class="sxs-lookup"><span data-stu-id="3b96c-116">The appropriate digest for current site.</span></span>|
 
-## <a name="request-body"></a><span data-ttu-id="8e9aa-117">Corpo da solicitação</span><span class="sxs-lookup"><span data-stu-id="8e9aa-117">Request body</span></span>
+## <a name="request-body"></a><span data-ttu-id="3b96c-117">Corpo da solicitação</span><span class="sxs-lookup"><span data-stu-id="3b96c-117">Request body</span></span>
 
-| <span data-ttu-id="8e9aa-118">Nome</span><span class="sxs-lookup"><span data-stu-id="8e9aa-118">Name</span></span> | <span data-ttu-id="8e9aa-119">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="8e9aa-119">Required</span></span> | <span data-ttu-id="8e9aa-120">Tipo</span><span class="sxs-lookup"><span data-stu-id="8e9aa-120">Type</span></span> | <span data-ttu-id="8e9aa-121">Descrição</span><span class="sxs-lookup"><span data-stu-id="8e9aa-121">Description</span></span> |
+| <span data-ttu-id="3b96c-118">Nome</span><span class="sxs-lookup"><span data-stu-id="3b96c-118">Name</span></span> | <span data-ttu-id="3b96c-119">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="3b96c-119">Required</span></span> | <span data-ttu-id="3b96c-120">Tipo</span><span class="sxs-lookup"><span data-stu-id="3b96c-120">Type</span></span> | <span data-ttu-id="3b96c-121">Descrição</span><span class="sxs-lookup"><span data-stu-id="3b96c-121">Description</span></span> |
 |--------|-------|--------|------------|
-|<span data-ttu-id="8e9aa-122">ModelUniqueId</span><span class="sxs-lookup"><span data-stu-id="8e9aa-122">ModelUniqueId</span></span>|<span data-ttu-id="8e9aa-123">sim</span><span class="sxs-lookup"><span data-stu-id="8e9aa-123">yes</span></span>|<span data-ttu-id="8e9aa-124">string</span><span class="sxs-lookup"><span data-stu-id="8e9aa-124">string</span></span>|<span data-ttu-id="8e9aa-125">A ID exclusiva do arquivo de modelo.</span><span class="sxs-lookup"><span data-stu-id="8e9aa-125">The unique ID of the model file.</span></span>|
-<span data-ttu-id="8e9aa-126">TargetSiteUrl</span><span class="sxs-lookup"><span data-stu-id="8e9aa-126">TargetSiteUrl</span></span>|<span data-ttu-id="8e9aa-127">sim</span><span class="sxs-lookup"><span data-stu-id="8e9aa-127">yes</span></span>|<span data-ttu-id="8e9aa-128">string</span><span class="sxs-lookup"><span data-stu-id="8e9aa-128">string</span></span>|<span data-ttu-id="8e9aa-129">A URL completa do site da biblioteca de destino.</span><span class="sxs-lookup"><span data-stu-id="8e9aa-129">The full URL of the target library site.</span></span>|
-<span data-ttu-id="8e9aa-130">TargetWebServerRelativeUrl</span><span class="sxs-lookup"><span data-stu-id="8e9aa-130">TargetWebServerRelativeUrl</span></span>|<span data-ttu-id="8e9aa-131">sim</span><span class="sxs-lookup"><span data-stu-id="8e9aa-131">yes</span></span>|<span data-ttu-id="8e9aa-132">string</span><span class="sxs-lookup"><span data-stu-id="8e9aa-132">string</span></span>|<span data-ttu-id="8e9aa-133">A URL relativa do servidor da Web para a biblioteca de destino.</span><span class="sxs-lookup"><span data-stu-id="8e9aa-133">The server relative URL of the web for the target library.</span></span>|
-<span data-ttu-id="8e9aa-134">TargetLibraryServerRelativeUrl</span><span class="sxs-lookup"><span data-stu-id="8e9aa-134">TargetLibraryServerRelativeUrl</span></span>|<span data-ttu-id="8e9aa-135">sim</span><span class="sxs-lookup"><span data-stu-id="8e9aa-135">yes</span></span>|<span data-ttu-id="8e9aa-136">string</span><span class="sxs-lookup"><span data-stu-id="8e9aa-136">string</span></span>|<span data-ttu-id="8e9aa-137">A URL relativa do servidor da biblioteca de destino.</span><span class="sxs-lookup"><span data-stu-id="8e9aa-137">The server relative URL of the target library.</span></span>|
-<span data-ttu-id="8e9aa-138">Viewoption</span><span class="sxs-lookup"><span data-stu-id="8e9aa-138">ViewOption</span></span>|<span data-ttu-id="8e9aa-139">não</span><span class="sxs-lookup"><span data-stu-id="8e9aa-139">no</span></span>|<span data-ttu-id="8e9aa-140">string</span><span class="sxs-lookup"><span data-stu-id="8e9aa-140">string</span></span>|<span data-ttu-id="8e9aa-141">Especifica se o novo modo de exibição de modelo deve ser definido como o padrão da biblioteca.</span><span class="sxs-lookup"><span data-stu-id="8e9aa-141">Specifies whether to set new model view as the library default.</span></span>|
+|<span data-ttu-id="3b96c-122">__metadata</span><span class="sxs-lookup"><span data-stu-id="3b96c-122">__metadata</span></span>|<span data-ttu-id="3b96c-123">sim</span><span class="sxs-lookup"><span data-stu-id="3b96c-123">yes</span></span>|<span data-ttu-id="3b96c-124">string</span><span class="sxs-lookup"><span data-stu-id="3b96c-124">string</span></span>|<span data-ttu-id="3b96c-125">Definir o metadado do objeto no SPO.</span><span class="sxs-lookup"><span data-stu-id="3b96c-125">Set the object meta on the SPO.</span></span> <span data-ttu-id="3b96c-126">Sempre use o valor: {"type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningPublicationsEntityData"}.</span><span class="sxs-lookup"><span data-stu-id="3b96c-126">Always use the value: {"type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningPublicationsEntityData"}.</span></span>|
+|<span data-ttu-id="3b96c-127">Publicações</span><span class="sxs-lookup"><span data-stu-id="3b96c-127">Publications</span></span>|<span data-ttu-id="3b96c-128">sim</span><span class="sxs-lookup"><span data-stu-id="3b96c-128">yes</span></span>|<span data-ttu-id="3b96c-129">MachineLearningPublicationEntityData[]</span><span class="sxs-lookup"><span data-stu-id="3b96c-129">MachineLearningPublicationEntityData[]</span></span>|<span data-ttu-id="3b96c-130">A coleção do MachineLearningPublicationEntityData de cada um deles especifica o modelo e a biblioteca de documentos de destino.</span><span class="sxs-lookup"><span data-stu-id="3b96c-130">The collection of MachineLearningPublicationEntityData each of which specifies the model and target document library.</span></span>|
 
-## <a name="response"></a><span data-ttu-id="8e9aa-142">Resposta</span><span class="sxs-lookup"><span data-stu-id="8e9aa-142">Response</span></span>
+### <a name="machinelearningpublicationentitydata"></a><span data-ttu-id="3b96c-131">MachineLearningPublicationEntityData</span><span class="sxs-lookup"><span data-stu-id="3b96c-131">MachineLearningPublicationEntityData</span></span>
+| <span data-ttu-id="3b96c-132">Nome</span><span class="sxs-lookup"><span data-stu-id="3b96c-132">Name</span></span> | <span data-ttu-id="3b96c-133">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="3b96c-133">Required</span></span> | <span data-ttu-id="3b96c-134">Tipo</span><span class="sxs-lookup"><span data-stu-id="3b96c-134">Type</span></span> | <span data-ttu-id="3b96c-135">Descrição</span><span class="sxs-lookup"><span data-stu-id="3b96c-135">Description</span></span> |
+|--------|-------|--------|------------|
+|<span data-ttu-id="3b96c-136">ModelUniqueId</span><span class="sxs-lookup"><span data-stu-id="3b96c-136">ModelUniqueId</span></span>|<span data-ttu-id="3b96c-137">sim</span><span class="sxs-lookup"><span data-stu-id="3b96c-137">yes</span></span>|<span data-ttu-id="3b96c-138">cadeia de caracteres</span><span class="sxs-lookup"><span data-stu-id="3b96c-138">string</span></span>|<span data-ttu-id="3b96c-139">A ID exclusiva do arquivo de modelo.</span><span class="sxs-lookup"><span data-stu-id="3b96c-139">The unique ID of the model file.</span></span>|
+|<span data-ttu-id="3b96c-140">TargetSiteUrl</span><span class="sxs-lookup"><span data-stu-id="3b96c-140">TargetSiteUrl</span></span>|<span data-ttu-id="3b96c-141">sim</span><span class="sxs-lookup"><span data-stu-id="3b96c-141">yes</span></span>|<span data-ttu-id="3b96c-142">cadeia de caracteres</span><span class="sxs-lookup"><span data-stu-id="3b96c-142">string</span></span>|<span data-ttu-id="3b96c-143">A URL completa do site da biblioteca de destino.</span><span class="sxs-lookup"><span data-stu-id="3b96c-143">The full URL of the target library site.</span></span>|
+|<span data-ttu-id="3b96c-144">TargetWebServerRelativeUrl</span><span class="sxs-lookup"><span data-stu-id="3b96c-144">TargetWebServerRelativeUrl</span></span>|<span data-ttu-id="3b96c-145">sim</span><span class="sxs-lookup"><span data-stu-id="3b96c-145">yes</span></span>|<span data-ttu-id="3b96c-146">cadeia de caracteres</span><span class="sxs-lookup"><span data-stu-id="3b96c-146">string</span></span>|<span data-ttu-id="3b96c-147">A URL relativa do servidor da web para a biblioteca de destino.</span><span class="sxs-lookup"><span data-stu-id="3b96c-147">The server relative URL of the web for the target library.</span></span>|
+|<span data-ttu-id="3b96c-148">TargetLibraryServerRelativeUrl</span><span class="sxs-lookup"><span data-stu-id="3b96c-148">TargetLibraryServerRelativeUrl</span></span>|<span data-ttu-id="3b96c-149">sim</span><span class="sxs-lookup"><span data-stu-id="3b96c-149">yes</span></span>|<span data-ttu-id="3b96c-150">cadeia de caracteres</span><span class="sxs-lookup"><span data-stu-id="3b96c-150">string</span></span>|<span data-ttu-id="3b96c-151">A URL relativa do servidor da biblioteca de destino.</span><span class="sxs-lookup"><span data-stu-id="3b96c-151">The server relative URL of the target library.</span></span>|
+|<span data-ttu-id="3b96c-152">ViewOption</span><span class="sxs-lookup"><span data-stu-id="3b96c-152">ViewOption</span></span>|<span data-ttu-id="3b96c-153">não</span><span class="sxs-lookup"><span data-stu-id="3b96c-153">no</span></span>|<span data-ttu-id="3b96c-154">string</span><span class="sxs-lookup"><span data-stu-id="3b96c-154">string</span></span>|<span data-ttu-id="3b96c-155">Especifica se o novo modo de exibição de modelo deve ser definido como o padrão da biblioteca.</span><span class="sxs-lookup"><span data-stu-id="3b96c-155">Specifies whether to set new model view as the library default.</span></span>|
 
-| <span data-ttu-id="8e9aa-143">Nome</span><span class="sxs-lookup"><span data-stu-id="8e9aa-143">Name</span></span>   | <span data-ttu-id="8e9aa-144">Tipo</span><span class="sxs-lookup"><span data-stu-id="8e9aa-144">Type</span></span>  | <span data-ttu-id="8e9aa-145">Descrição</span><span class="sxs-lookup"><span data-stu-id="8e9aa-145">Description</span></span>|
+## <a name="response"></a><span data-ttu-id="3b96c-156">Resposta</span><span class="sxs-lookup"><span data-stu-id="3b96c-156">Response</span></span>
+
+| <span data-ttu-id="3b96c-157">Nome</span><span class="sxs-lookup"><span data-stu-id="3b96c-157">Name</span></span>   | <span data-ttu-id="3b96c-158">Tipo</span><span class="sxs-lookup"><span data-stu-id="3b96c-158">Type</span></span>  | <span data-ttu-id="3b96c-159">Descrição</span><span class="sxs-lookup"><span data-stu-id="3b96c-159">Description</span></span>|
 |--------|-------|------------|
-|<span data-ttu-id="8e9aa-146">200 OK</span><span class="sxs-lookup"><span data-stu-id="8e9aa-146">200 OK</span></span>| |<span data-ttu-id="8e9aa-147">Êxito</span><span class="sxs-lookup"><span data-stu-id="8e9aa-147">Success</span></span>|
-|<span data-ttu-id="8e9aa-148">201 Criado</span><span class="sxs-lookup"><span data-stu-id="8e9aa-148">201 Created</span></span>| |<span data-ttu-id="8e9aa-149">Observe que como essa API dá suporte à aplicação de modelo a várias bibliotecas, um 201 pode ser retornado mesmo se houver uma falha aplicando o modelo a uma das bibliotecas.</span><span class="sxs-lookup"><span data-stu-id="8e9aa-149">Note that because this API supports applying model to multiple libraries, a 201 could be returned even if there's a failure applying the model to one of the libraries.</span></span> <br><span data-ttu-id="8e9aa-150">Verifique o corpo da resposta para compreender se o modelo foi aplicado com êxito a todas as bibliotecas especificadas.</span><span class="sxs-lookup"><span data-stu-id="8e9aa-150">Check the response body to understand if the model has been successfully applied to all the specified libraries.</span></span> <span data-ttu-id="8e9aa-151">Consulte [Solicitar corpo](rest-applymodel-method.md#request-body) para obter detalhes.</span><span class="sxs-lookup"><span data-stu-id="8e9aa-151">See [Request body](rest-applymodel-method.md#request-body) for details.</span></span>|
+|<span data-ttu-id="3b96c-160">201 Criado</span><span class="sxs-lookup"><span data-stu-id="3b96c-160">201 Created</span></span>||<span data-ttu-id="3b96c-161">Esta é uma API personalizada para dar suporte à aplicação de um modelo a bibliotecas de documentos múltiplos.</span><span class="sxs-lookup"><span data-stu-id="3b96c-161">This is a customized API to support applying a model to multi document libraries.</span></span> <span data-ttu-id="3b96c-162">No caso de êxito parcial, ainda é possível retornar 201 criado e o chamador precisa inspecionar o corpo da resposta para entender se o modelo foi aplicado com êxito de uma biblioteca de documentos.</span><span class="sxs-lookup"><span data-stu-id="3b96c-162">In the case of partial success, 201 created could still be returned and the caller needs to inspect the response body to understand if the model has been successfully applied to a document library.</span></span>|
 
-## <a name="examples"></a><span data-ttu-id="8e9aa-152">Exemplos</span><span class="sxs-lookup"><span data-stu-id="8e9aa-152">Examples</span></span>
+## <a name="response-body"></a><span data-ttu-id="3b96c-163">Corpo da resposta</span><span class="sxs-lookup"><span data-stu-id="3b96c-163">Response Body</span></span>
+| <span data-ttu-id="3b96c-164">Nome</span><span class="sxs-lookup"><span data-stu-id="3b96c-164">Name</span></span>   | <span data-ttu-id="3b96c-165">Tipo</span><span class="sxs-lookup"><span data-stu-id="3b96c-165">Type</span></span>  | <span data-ttu-id="3b96c-166">Descrição</span><span class="sxs-lookup"><span data-stu-id="3b96c-166">Description</span></span>|
+|--------|-------|------------|
+|<span data-ttu-id="3b96c-167">TotalSuccesses</span><span class="sxs-lookup"><span data-stu-id="3b96c-167">TotalSuccesses</span></span>|<span data-ttu-id="3b96c-168">int</span><span class="sxs-lookup"><span data-stu-id="3b96c-168">int</span></span>|<span data-ttu-id="3b96c-169">O número total de um modelo que está sendo aplicado com êxito de uma biblioteca de documentos.</span><span class="sxs-lookup"><span data-stu-id="3b96c-169">The total number of a model being successfully applied to a document library.</span></span>|
+|<span data-ttu-id="3b96c-170">TotalFailures</span><span class="sxs-lookup"><span data-stu-id="3b96c-170">TotalFailures</span></span>|<span data-ttu-id="3b96c-171">int</span><span class="sxs-lookup"><span data-stu-id="3b96c-171">int</span></span>|<span data-ttu-id="3b96c-172">O número total de um modelo que não foi aplicado a uma biblioteca de documentos.</span><span class="sxs-lookup"><span data-stu-id="3b96c-172">The total number of a model failing to be applied to a document library.</span></span>|
+|<span data-ttu-id="3b96c-173">Detalhes</span><span class="sxs-lookup"><span data-stu-id="3b96c-173">Details</span></span>|<span data-ttu-id="3b96c-174">MachineLearningPublicationResult[]</span><span class="sxs-lookup"><span data-stu-id="3b96c-174">MachineLearningPublicationResult[]</span></span>|<span data-ttu-id="3b96c-175">A coleção do MachineLearningPublicationResult de cada um deles especifica o resultado detalhado da aplicação do modelo à uma biblioteca de documentos.</span><span class="sxs-lookup"><span data-stu-id="3b96c-175">The collection of MachineLearningPublicationResult each of which specifies the detailed result of applying the model to the document library.</span></span>|
 
-### <a name="apply-a-model-to-the-contracts-document-library-in-the-repository-site"></a><span data-ttu-id="8e9aa-153">Aplicar um modelo à biblioteca de documentos de contratos no site de repositório</span><span class="sxs-lookup"><span data-stu-id="8e9aa-153">Apply a model to the contracts document library in the repository site</span></span>
+### <a name="machinelearningpublicationresult"></a><span data-ttu-id="3b96c-176">MachineLearningPublicationResult</span><span class="sxs-lookup"><span data-stu-id="3b96c-176">MachineLearningPublicationResult</span></span>
+| <span data-ttu-id="3b96c-177">Nome</span><span class="sxs-lookup"><span data-stu-id="3b96c-177">Name</span></span>   | <span data-ttu-id="3b96c-178">Tipo</span><span class="sxs-lookup"><span data-stu-id="3b96c-178">Type</span></span>  | <span data-ttu-id="3b96c-179">Descrição</span><span class="sxs-lookup"><span data-stu-id="3b96c-179">Description</span></span>|
+|--------|-------|------------|
+|<span data-ttu-id="3b96c-180">StatusCode</span><span class="sxs-lookup"><span data-stu-id="3b96c-180">StatusCode</span></span>|<span data-ttu-id="3b96c-181">int</span><span class="sxs-lookup"><span data-stu-id="3b96c-181">int</span></span>|<span data-ttu-id="3b96c-182">O código de status HTTP.</span><span class="sxs-lookup"><span data-stu-id="3b96c-182">The HTTP status code.</span></span>|
+|<span data-ttu-id="3b96c-183">ErrorMessage</span><span class="sxs-lookup"><span data-stu-id="3b96c-183">ErrorMessage</span></span>|<span data-ttu-id="3b96c-184">string</span><span class="sxs-lookup"><span data-stu-id="3b96c-184">string</span></span>|<span data-ttu-id="3b96c-185">A mensagem de erro que informa o que há de errado ao aplicar o modelo à biblioteca de documentos.</span><span class="sxs-lookup"><span data-stu-id="3b96c-185">The error message which tells what's wrong when apply the model to the document library.</span></span>|
+|<span data-ttu-id="3b96c-186">Publicação</span><span class="sxs-lookup"><span data-stu-id="3b96c-186">Publication</span></span>|<span data-ttu-id="3b96c-187">MachineLearningPublicationEntityData</span><span class="sxs-lookup"><span data-stu-id="3b96c-187">MachineLearningPublicationEntityData</span></span>|<span data-ttu-id="3b96c-188">Especifica as informações do modelo e a biblioteca de documentos de destino.</span><span class="sxs-lookup"><span data-stu-id="3b96c-188">It specifies the model info and the target document library.</span></span>| 
 
-<span data-ttu-id="8e9aa-154">Neste exemplo, a ID do modelo de compreensão de documento do Contrato da Contoso é `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span><span class="sxs-lookup"><span data-stu-id="8e9aa-154">In this sample, the ID of the Contoso Contract document understanding model is `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span></span>
+### <a name="machinelearningpublicationentitydata"></a><span data-ttu-id="3b96c-189">MachineLearningPublicationEntityData</span><span class="sxs-lookup"><span data-stu-id="3b96c-189">MachineLearningPublicationEntityData</span></span>
+| <span data-ttu-id="3b96c-190">Nome</span><span class="sxs-lookup"><span data-stu-id="3b96c-190">Name</span></span> | <span data-ttu-id="3b96c-191">Tipo</span><span class="sxs-lookup"><span data-stu-id="3b96c-191">Type</span></span> | <span data-ttu-id="3b96c-192">Descrição</span><span class="sxs-lookup"><span data-stu-id="3b96c-192">Description</span></span> |
+|--------|--------|------------|
+|<span data-ttu-id="3b96c-193">ModelUniqueId</span><span class="sxs-lookup"><span data-stu-id="3b96c-193">ModelUniqueId</span></span>|<span data-ttu-id="3b96c-194">cadeia de caracteres</span><span class="sxs-lookup"><span data-stu-id="3b96c-194">string</span></span>|<span data-ttu-id="3b96c-195">A ID exclusiva do arquivo de modelo.</span><span class="sxs-lookup"><span data-stu-id="3b96c-195">The unique ID of the model file.</span></span>|
+|<span data-ttu-id="3b96c-196">TargetSiteUrl</span><span class="sxs-lookup"><span data-stu-id="3b96c-196">TargetSiteUrl</span></span>|<span data-ttu-id="3b96c-197">cadeia de caracteres</span><span class="sxs-lookup"><span data-stu-id="3b96c-197">string</span></span>|<span data-ttu-id="3b96c-198">A URL completa do site da biblioteca de destino.</span><span class="sxs-lookup"><span data-stu-id="3b96c-198">The full URL of the target library site.</span></span>|
+|<span data-ttu-id="3b96c-199">TargetWebServerRelativeUrl</span><span class="sxs-lookup"><span data-stu-id="3b96c-199">TargetWebServerRelativeUrl</span></span>|<span data-ttu-id="3b96c-200">cadeia de caracteres</span><span class="sxs-lookup"><span data-stu-id="3b96c-200">string</span></span>|<span data-ttu-id="3b96c-201">A URL relativa do servidor da web para a biblioteca de destino.</span><span class="sxs-lookup"><span data-stu-id="3b96c-201">The server relative URL of the web for the target library.</span></span>|
+|<span data-ttu-id="3b96c-202">TargetLibraryServerRelativeUrl</span><span class="sxs-lookup"><span data-stu-id="3b96c-202">TargetLibraryServerRelativeUrl</span></span>|<span data-ttu-id="3b96c-203">cadeia de caracteres</span><span class="sxs-lookup"><span data-stu-id="3b96c-203">string</span></span>|<span data-ttu-id="3b96c-204">A URL relativa do servidor da biblioteca de destino.</span><span class="sxs-lookup"><span data-stu-id="3b96c-204">The server relative URL of the target library.</span></span>|
 
-#### <a name="sample-request"></a><span data-ttu-id="8e9aa-155">Solicitação de amostra</span><span class="sxs-lookup"><span data-stu-id="8e9aa-155">Sample request</span></span>
+## <a name="examples"></a><span data-ttu-id="3b96c-205">Exemplos</span><span class="sxs-lookup"><span data-stu-id="3b96c-205">Examples</span></span>
+
+### <a name="apply-a-model-to-the-contracts-document-library-in-the-repository-site"></a><span data-ttu-id="3b96c-206">Aplicar um modelo à biblioteca de documentos de contratos no site de repositório</span><span class="sxs-lookup"><span data-stu-id="3b96c-206">Apply a model to the contracts document library in the repository site</span></span>
+
+<span data-ttu-id="3b96c-207">Neste exemplo, a ID do modelo de compreensão de documento do Contrato da Contoso é `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span><span class="sxs-lookup"><span data-stu-id="3b96c-207">In this sample, the ID of the Contoso Contract document understanding model is `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span></span>
+
+#### <a name="sample-request"></a><span data-ttu-id="3b96c-208">Solicitação de amostra</span><span class="sxs-lookup"><span data-stu-id="3b96c-208">Sample request</span></span>
 
 ```HTTP
 {
@@ -85,11 +112,11 @@ POST /_api/machinelearning/publications HTTP/1.1
 ```
 
 
-#### <a name="sample-response"></a><span data-ttu-id="8e9aa-156">Resposta de amostra</span><span class="sxs-lookup"><span data-stu-id="8e9aa-156">Sample response</span></span>
+#### <a name="sample-response"></a><span data-ttu-id="3b96c-209">Resposta de amostra</span><span class="sxs-lookup"><span data-stu-id="3b96c-209">Sample response</span></span>
 
-<span data-ttu-id="8e9aa-157">Na resposta, TotalFailures e TotalSuccesses se referem ao número de falhas e sucessos do modelo que está sendo aplicado às bibliotecas especificadas.</span><span class="sxs-lookup"><span data-stu-id="8e9aa-157">In the response, TotalFailures and TotalSuccesses refers to the number of failures and successes of the model being applies to the specified libraries.</span></span>
+<span data-ttu-id="3b96c-210">Na resposta, TotalFailures e TotalSuccesses se referem ao número de falhas e sucessos do modelo que está sendo aplicado às bibliotecas especificadas.</span><span class="sxs-lookup"><span data-stu-id="3b96c-210">In the response, TotalFailures and TotalSuccesses refers to the number of failures and successes of the model being applies to the specified libraries.</span></span>
 
-<span data-ttu-id="8e9aa-158">**Código de status:** 200</span><span class="sxs-lookup"><span data-stu-id="8e9aa-158">**Status code:** 200</span></span>
+<span data-ttu-id="3b96c-211">**Código de status:** 201</span><span class="sxs-lookup"><span data-stu-id="3b96c-211">**Status code:** 201</span></span>
 
 ```JSON
 {
@@ -103,7 +130,7 @@ POST /_api/machinelearning/publications HTTP/1.1
                 "TargetLibraryServerRelativeUrl": "/sites/repository/contracts",
                 "ViewOption": "NewViewAsDefault"
             },
-            "StatusCode": 200
+            "StatusCode": 201
         }
     ],
     "TotalFailures": 0,
@@ -111,6 +138,6 @@ POST /_api/machinelearning/publications HTTP/1.1
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="8e9aa-159">Confira também</span><span class="sxs-lookup"><span data-stu-id="8e9aa-159">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3b96c-212">Confira também</span><span class="sxs-lookup"><span data-stu-id="3b96c-212">See also</span></span>
 
-[<span data-ttu-id="8e9aa-160">API REST do modelo de compreensão de documento Syntex</span><span class="sxs-lookup"><span data-stu-id="8e9aa-160">Syntex document understanding model REST API</span></span>](syntex-model-rest-api.md)
+[<span data-ttu-id="3b96c-213">API REST do modelo de compreensão de documentos do Syntex</span><span class="sxs-lookup"><span data-stu-id="3b96c-213">Syntex document understanding model REST API</span></span>](syntex-model-rest-api.md)
