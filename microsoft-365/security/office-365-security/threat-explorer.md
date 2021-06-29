@@ -19,12 +19,12 @@ description: Use as detecções do Explorer e em tempo real no portal Microsoft 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d3dc8c205d5edfe455884d64030c7a6070762adb
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: bb72c99ae0b80c4091e79801c5515190811324a7
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108542"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53195028"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Explorador de Ameaças e Detecções em tempo real
 
@@ -56,7 +56,7 @@ Com este relatório, você pode:
 
 ## <a name="improvements-to-threat-hunting-experience"></a>Melhorias na Experiência de Busca de Ameaças
 
-### <a name="introduction-of-alert-id-for-mdo-alerts-within-explorerreal-time-detections-preview"></a>Introdução da ID de alerta para alertas MDO em detecções do Explorer/Em Tempo Real (Visualização)
+### <a name="introduction-of-alert-id-for-defender-for-office-365-alerts-within-explorerreal-time-detections-preview"></a>Introdução à ID de alerta para o Defender para Office 365 em detecções do Explorer/Em Tempo Real (Visualização)
 
 Hoje, se você navegar de um alerta para o Explorador de Ameaças, ele abrirá uma exibição filtrada dentro do Explorer, com o exibição filtrado pela ID da política de alerta (a ID da política é um identificador exclusivo para uma política de alerta).
 Estamos tornando essa integração mais relevante introduzindo a ID de alerta (consulte um exemplo de ID de alerta abaixo) no Explorador de Ameaças e detecções em tempo real para que você veja mensagens relevantes para o alerta específico, bem como uma contagem de emails. Você também poderá ver se uma mensagem fazia parte de um alerta, bem como navegar dessa mensagem para o alerta específico.
@@ -544,7 +544,7 @@ Para exibir e usar detecções do Explorer ou em tempo real, você deve ter perm
 
 - Para o Centro de Conformidade & segurança, você deve ter uma das seguintes funções atribuídas:
 
-  - Gerenciamento de Organização
+  - Gerenciamento da Organização
   - Administrador de Segurança (isso pode ser atribuído no Azure Active Directory de administração ( <https://aad.portal.azure.com> )
   - Leitor de segurança
 

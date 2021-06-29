@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Saiba como usar limites de conformidade para criar limites lógicos que controlam os locais de conteúdo do usuário que um gerente de Descoberta Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 23ff50b9cd0ab0178962f7be9f1cedfbd6a7a1f7
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: be857277d36d95ac1cd974ccb0c87f2048798450
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022337"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194704"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Configurar limites de conformidade para investigações de Descobertas EDiscovery
 
@@ -159,16 +159,16 @@ Para criar uma ocorrência e atribuir membros:
 
    - [Adicionar membros a um caso de Descoberta Principal](get-started-core-ediscovery.md#step-4-optional-add-members-to-a-core-ediscovery-case)
 
-   - [Adicionar membros a um caso de Descoberta Avançada](add-or-remove-members-from-a-case-in-advanced-ediscovery.md)
+   - [Adicionar membros a um Advanced eDiscovery caso](add-or-remove-members-from-a-case-in-advanced-ediscovery.md)
 
 > [!NOTE]
 > Ao adicionar um grupo de função a um caso, você só pode adicionar os grupos de função dos que você é membro.
 
 ## <a name="searching-and-exporting-content-in-multi-geo-environments"></a>Pesquisar e exportar conteúdo em ambientes multi-geo
 
-Os filtros de permissões de pesquisa também permitem controlar onde o conteúdo é roteado para exportação e qual datacenter pode ser pesquisado ao pesquisar locais de conteúdo em um ambiente [Multi-Geo do SharePoint.](../enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md)
+Os filtros de permissões de pesquisa também permitem controlar onde o conteúdo é roteado para exportação e qual datacenter pode ser pesquisado ao pesquisar locais de conteúdo em um SharePoint Multi-Geo [ambiente](../enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md).
   
-- **Exportar resultados da pesquisa:** Você pode exportar os resultados da pesquisa de caixas de correio do Exchange, sites do SharePoint e contas do OneDrive de um datacenter específico. Isso significa que você pode especificar o local do datacenter do qual os resultados da pesquisa serão exportados.
+- **Exportar resultados da pesquisa:** Você pode exportar os resultados da pesquisa Exchange caixas de correio, SharePoint sites e OneDrive contas de um datacenter específico. Isso significa que você pode especificar o local do datacenter do qual os resultados da pesquisa serão exportados.
 
     Use o parâmetro **Region** para cmdlets **New-ComplianceSecurityFilter** ou **Set-ComplianceSecurityFilter** para criar ou alterar o datacenter pelo qual a exportação será roteada.
   
@@ -180,9 +180,9 @@ Os filtros de permissões de pesquisa também permitem controlar onde o conteúd
     |CAN <br/> |Canadá|
     |||
 
-- **Roteia pesquisas de conteúdo:** Você pode rotear as pesquisas de conteúdo de sites do SharePoint e contas do OneDrive para um datacenter via satélite. Isso significa que você pode especificar o local do datacenter onde as pesquisas serão executados.
+- **Roteia pesquisas de conteúdo:** Você pode rotear as pesquisas de conteúdo de SharePoint sites e OneDrive contas para um datacenter via satélite. Isso significa que você pode especificar o local do datacenter onde as pesquisas serão executados.
 
-    Use um dos seguintes valores para o parâmetro **Region** para controlar o local do datacenter em que as pesquisas serão executados ao pesquisar sites do SharePoint e contas do OneDrive. 
+    Use um dos seguintes valores para o parâmetro **Region** para controlar o local do datacenter em que as pesquisas serão executados ao pesquisar SharePoint sites e OneDrive contas. 
   
     |**Valor do parâmetro**|**Locais de roteamento de datacenter para SharePoint**|
     |:-----|:-----|
@@ -200,12 +200,12 @@ Os filtros de permissões de pesquisa também permitem controlar onde o conteúd
     |BRA  <br/> |Datacenters norte-americanos |
     |||
 
-   Se você não especificar o parâmetro **Region** para um filtro de permissões de pesquisa, a região principal do SharePoint da organização será pesquisada. Os resultados da pesquisa são exportados para o datacenter mais próximo.
+   Se você não especificar o parâmetro **Region** para um filtro de permissões de pesquisa, a região de SharePoint principal da organização será pesquisada. Os resultados da pesquisa são exportados para o datacenter mais próximo.
 
-   Para simplificar o conceito, o parâmetro **Region** controla o datacenter usado para pesquisar conteúdo no SharePoint e no OneDrive. Isso não se aplica à pesquisa de conteúdo no Exchange porque as pesquisas de conteúdo do Exchange não estão vinculadas à localização geográfica dos datacenters. Além disso, o mesmo **valor do** parâmetro Region também pode ditar o datacenter pelo o que as exportações são roteados. Isso geralmente é necessário para controlar a movimentação de dados entre os boarders geográficos.
+   Para simplificar o conceito, o parâmetro **Region** controla o datacenter usado para pesquisar conteúdo em SharePoint e OneDrive. Isso não se aplica à pesquisa de conteúdo no Exchange porque Exchange pesquisas de conteúdo não estão vinculadas à localização geográfica dos datacenters. Além disso, o mesmo **valor do** parâmetro Region também pode ditar o datacenter pelo o que as exportações são roteados. Isso geralmente é necessário para controlar a movimentação de dados entre os boarders geográficos.
 
 > [!NOTE]
-> Se você estiver usando a Descoberta Técnica Avançada, o parâmetro **Region** não controlará a região de onde os dados são exportados. Os dados são exportados do datacenter principal da organização. Além disso, a pesquisa de conteúdo no SharePoint e no OneDrive não está vinculada à localização geográfica dos datacenters. Todos os datacenters são pesquisados. Para obter mais informações sobre a Descoberta Avançada, consulte [Overview of the Advanced eDiscovery solution in Microsoft 365](overview-ediscovery-20.md).
+> Se você estiver usando Advanced eDiscovery, o parâmetro **Region** não controlará a região de onde os dados são exportados. Os dados são exportados do local central da organização. Além disso, procurar conteúdo em SharePoint e OneDrive não está vinculado à localização geográfica dos datacenters. Todos os datacenters são pesquisados. Para obter mais informações sobre Advanced eDiscovery, consulte [Overview of the Advanced eDiscovery solution in Microsoft 365](overview-ediscovery-20.md).
 
 Aqui estão exemplos de uso do parâmetro **Region** ao criar filtros de permissão de pesquisa para limites de conformidade. Isso pressupo que a subsidiária quarto café está localizada na América do Norte e que Coho Winery está na Europa. 
   
@@ -219,13 +219,15 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 Lembre-se das seguintes coisas ao pesquisar e exportar conteúdo em ambientes multi-geo.
   
-- O parâmetro **Região** não controla as pesquisas de caixas de correio do Exchange. Todos os datacenters serão pesquisados quando você pesquisar caixas de correio. Para limitar o escopo do qual as caixas de correio do Exchange são pesquisadas, use o parâmetro **Filters** ao criar ou alterar um filtro de permissões de pesquisa.
+- O parâmetro **Região** não controla as pesquisas de caixas de correio do Exchange. Todos os datacenters serão pesquisados quando você pesquisar caixas de correio. Para limitar o escopo do qual Exchange caixas de correio são pesquisadas, use o parâmetro **Filters** ao criar ou alterar um filtro de permissões de pesquisa.
 
-- Se for necessário que um Gerenciador de Descobertas Digitais pesquise em várias regiões do SharePoint, você precisará criar uma conta de usuário diferente para que o gerente de Descoberta Digital use no filtro de permissões de pesquisa para especificar a região onde os sites do SharePoint ou contas do OneDrive estão localizados. Para obter mais informações sobre como configurar isso, consulte a seção "Pesquisar conteúdo em um ambiente Multi-Geo do SharePoint" em [Pesquisa de Conteúdo](content-search-reference.md#searching-for-content-in-a-sharepoint-multi-geo-environment).
+- Se for necessário que um Gerenciador de Descobertas Digitais pesquise em várias regiões SharePoint, você precisará criar uma conta de usuário diferente para que o gerente de Descoberta Digital use no filtro de permissões de pesquisa para especificar a região onde os sites SharePoint ou contas OneDrive estão localizadas. Para obter mais informações sobre como configurar isso, consulte a seção "Pesquisar conteúdo em um SharePoint Multi-Geo ambiente" em [Pesquisa de Conteúdo](content-search-reference.md#searching-for-content-in-a-sharepoint-multi-geo-environment).
 
-- Ao pesquisar conteúdo no SharePoint e no OneDrive, o parâmetro **Region** direciona as pesquisas para a localização principal ou por satélite onde o gerente de Descoberta eDiscovery conduzirá investigações de Descoberta e. Se um gerente de Descoberta Externa pesquisar sites do SharePoint e do OneDrive fora da região especificada no filtro de permissões de pesquisa, nenhum resultado de pesquisa será retornado.
+- Ao pesquisar conteúdo em SharePoint e OneDrive, o parâmetro **Region** direciona as pesquisas para o local principal ou por satélite onde o gerente de Descoberta eDiscovery conduzirá investigações de Descoberta e. Se um gerente de Descoberta SharePoint pesquisar OneDrive sites fora da região especificada no filtro de permissões de pesquisa, nenhum resultado de pesquisa será retornado.
 
-- Ao exportar resultados da pesquisa, o conteúdo de todos os locais de conteúdo (incluindo Exchange, Skype for Business, SharePoint, OneDrive e outros serviços que você pode pesquisar usando a ferramenta pesquisa de conteúdo) é carregado para o local de Armazenamento do Azure no datacenter especificado pelo parâmetro **Region.** Isso ajuda as organizações a permanecer em conformidade, não permitindo que o conteúdo seja exportado entre bordas controladas. Se nenhuma região for especificada no filtro de permissões de pesquisa, o conteúdo será carregado no datacenter principal da organização.
+- Ao exportar resultados de pesquisa da Descoberta Básica, o conteúdo de todos os locais de conteúdo (incluindo Exchange, Skype for Business, SharePoint, OneDrive e outros serviços que você pode pesquisar usando a ferramenta Pesquisa de Conteúdo) é carregado no local do Armazenamento do Azure no datacenter especificado pelo parâmetro **Region.** Isso ajuda as organizações a permanecer em conformidade, não permitindo que o conteúdo seja exportado entre bordas controladas. Se nenhuma região for especificada no filtro de permissões de pesquisa, o conteúdo será carregado no datacenter principal da organização.
+
+  Ao exportar conteúdo de Advanced eDiscovery, você não pode controlar onde o conteúdo é carregado usando o parâmetro **Region.** O conteúdo é carregado em um local Armazenamento do Azure em um datacenter no local central da sua organização. Para ver uma lista de localizações geográficas com base em sua localização central, [consulte Microsoft 365 configuração de Descoberta](../enterprise/multi-geo-ediscovery-configuration.md)Eletrônica Multi-Geográfica.
 
 - Você pode editar um filtro de permissões de pesquisa existente para adicionar ou alterar a região executando o seguinte comando:
 
@@ -233,11 +235,11 @@ Lembre-se das seguintes coisas ao pesquisar e exportar conteúdo em ambientes mu
     Set-ComplianceSecurityFilter -FilterName <Filter name>  -Region <Region>
     ```
 
-## <a name="using-compliance-boundaries-for-sharepoint-hub-sites"></a>Usando limites de conformidade para sites de hub do SharePoint
+## <a name="using-compliance-boundaries-for-sharepoint-hub-sites"></a>Usando limites de conformidade para SharePoint de hub
 
-[Os sites de hub](/sharepoint/dev/features/hub-site/hub-site-overview) do SharePoint geralmente se alinham com os mesmos limites geográficos ou de agência que os limites de conformidade da Descoberta Online seguem. Isso significa que você pode usar a propriedade ID do site do hub para criar um limite de conformidade. Para fazer isso, use o cmdlet [Get-SPOHubSite](/powershell/module/sharepoint-online/get-spohubsite#examples) no PowerShell do SharePoint Online para obter o SiteId para o site do hub e, em seguida, use esse valor para a propriedade ID do departamento para criar um filtro de permissões de pesquisa.
+[SharePoint sites de hub](/sharepoint/dev/features/hub-site/hub-site-overview) geralmente se alinham com os mesmos limites geográficos ou de agência que os limites de conformidade da Descoberta Online seguem. Isso significa que você pode usar a propriedade ID do site do hub para criar um limite de conformidade. Para fazer isso, use o cmdlet [Get-SPOHubSite](/powershell/module/sharepoint-online/get-spohubsite#examples) no powershell do SharePoint Online para obter o SiteId para o site do hub e, em seguida, use esse valor para a propriedade ID do departamento para criar um filtro de permissões de pesquisa.
 
-Use a sintaxe a seguir para criar um filtro de permissões de pesquisa para um site de hub do SharePoint:
+Use a sintaxe a seguir para criar um filtro de permissões de pesquisa para um SharePoint de hub:
 
 ```powershell
 New-ComplianceSecurityFilter -FilterName <Filter Name> -Users <User or Group> -Filters "Site_Departmentid -eq '{SiteId of hub site}'" -Action ALL
@@ -259,7 +261,7 @@ Tenha em mente as seguintes limitações ao gerenciar casos e investigações de
 
     Além disso, estatísticas de retenção se aplicam somente aos locais de conteúdo na agência.
 
-- Se você tiver atribuído um filtro de permissões de pesquisa (uma caixa de correio ou um filtro de site) e tentar exportar itens não índicedos para uma pesquisa que inclua todos os sites do SharePoint em sua organização, você receberá a seguinte mensagem de erro: `Unable to execute the task. Reason: The scope options UnindexedItemsOnly or BothIndexedandUnindexedItems are not allowed when the executing user has a compliance security filter applied` . Se você tiver atribuído um filtro de permissões de pesquisa e quiser exportar itens nãoindexados do SharePoint, você terá que reprisar a pesquisa e incluir sites específicos do SharePoint para pesquisa. Caso contrário, você só poderá exportar itens indexados de uma pesquisa que inclui todos os sites do SharePoint. Para obter mais informações sobre as opções ao exportar resultados da pesquisa, consulte [Exportar resultados da pesquisa de conteúdo.](export-search-results.md#step-1-prepare-search-results-for-export)
+- Se você tiver atribuído um filtro de permissões de pesquisa (uma caixa de correio ou um filtro de site) e tentar exportar itens não índicedos para uma pesquisa que inclua todos os sites SharePoint em sua organização, receberá a seguinte mensagem de erro: `Unable to execute the task. Reason: The scope options UnindexedItemsOnly or BothIndexedandUnindexedItems are not allowed when the executing user has a compliance security filter applied` . Se você tiver atribuído um filtro de permissões de pesquisa e quiser exportar itens não SharePoint, você terá que reprisar a pesquisa e incluir sites SharePoint específicos para pesquisar. Caso contrário, você só poderá exportar itens indexados de uma pesquisa que inclui todos os SharePoint sites. Para obter mais informações sobre as opções ao exportar resultados da pesquisa, consulte [Exportar resultados da pesquisa de conteúdo.](export-search-results.md#step-1-prepare-search-results-for-export)
 
 - Filtros de permissões de pesquisa não são aplicados a pastas públicas do Exchange.
 
@@ -267,21 +269,21 @@ Tenha em mente as seguintes limitações ao gerenciar casos e investigações de
 
 - Se uma caixa de correio for des licenciada ou excluída de forma suave, o usuário não será mais considerado dentro do limite de conformidade. Se uma reter foi colocada na caixa de correio quando foi excluída, o conteúdo preservado na caixa de correio ainda está sujeito a um limite de conformidade ou filtro de permissões de pesquisa.
 
-- Se os limites de conformidade e os filtros de permissões de pesquisa são implementados para um usuário, recomendamos que você não exclua a caixa de correio de um usuário e não a conta do OneDrive. Em outras palavras, se você excluir a caixa de correio de um usuário, também deverá remover a conta do OneDrive do usuário, já que o mailbox_RecipientFilter é usado para impor o filtro de permissão de pesquisa para o OneDrive.
+- Se os limites de conformidade e os filtros de permissões de pesquisa são implementados para um usuário, recomendamos que você não exclua a caixa de correio de um usuário e não a conta OneDrive usuário. Em outras palavras, se você excluir a caixa de correio de um usuário, também deverá remover a conta de OneDrive do usuário, já que o mailbox_RecipientFilter é usado para impor o filtro de permissão de pesquisa para OneDrive.
 
-- Os limites de conformidade e os filtros de permissões de pesquisa dependem dos atributos que estão sendo carimbados no conteúdo no Exchange, no OneDrive e no SharePoint e na indexação subsequente desse conteúdo carimbado.
+- Os limites de conformidade e os filtros de permissões de pesquisa dependem dos atributos que estão sendo carimbados no conteúdo em Exchange, OneDrive e SharePoint e na indexação subsequente desse conteúdo carimbado.
 
 - Não recomendamos o uso de filtros de exclusão (como o uso em um filtro de permissões de pesquisa) para um limite `-not()` de conformidade baseado em conteúdo. O uso de um filtro de exclusão pode ter resultados inesperados se o conteúdo com atributos atualizados recentemente não tiver sido indexado.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
-**Quem pode criar e gerenciar filtros de permissões de pesquisa (usando New-ComplianceSecurityFilter e Set-ComplianceSecurityFilter cmdlets)?**
+**Who pode criar e gerenciar filtros de permissões de pesquisa (usando New-ComplianceSecurityFilter e Set-ComplianceSecurityFilter cmdlets)?**
   
-Para criar, exibir e modificar filtros de permissões de pesquisa, você precisa ser membro do grupo de funções Gerenciamento da Organização no centro de conformidade do Microsoft 365.
+Para criar, exibir e modificar filtros de permissões de pesquisa, você precisa ser membro do grupo de funções Gerenciamento da Organização no Centro de conformidade do Microsoft 365.
   
 **Se um gerente de Descoberta De eDiscovery for atribuído a mais de um grupo de funções que abrange várias agências, como eles pesquisam conteúdo em uma agência ou em outra?**
   
-O gerente de Descoberta Desdiscovery pode adicionar parâmetros à consulta de pesquisa que restringem a pesquisa a uma agência específica. Por exemplo, se uma organização especificou a propriedade **CustomAttribute10** para diferenciar agências, elas poderão anexar o seguinte à consulta de pesquisa para caixas de correio de pesquisa e contas do OneDrive em uma agência específica:  `CustomAttribute10:<value>` .
+O gerente de Descoberta Desdiscovery pode adicionar parâmetros à consulta de pesquisa que restringem a pesquisa a uma agência específica. Por exemplo, se uma organização especificou a propriedade **CustomAttribute10** para diferenciar agências, elas poderão anexar o seguinte à consulta de pesquisa para pesquisar caixas de correio e OneDrive contas em uma agência específica: `CustomAttribute10:<value>` .
   
 **O que acontece se o valor do atributo usado como atributo de conformidade em um filtro de permissões de pesquisa for alterado?**
   
@@ -289,13 +291,13 @@ Leva até três dias para um filtro de permissões de pesquisa impor o limite de
   
 **Um gerente de Descoberta E pode ver o conteúdo de dois limites de conformidade separados?**
   
-Sim, isso pode ser feito ao pesquisar caixas de correio do Exchange adicionando o gerente de Descoberta Eletrônico a grupos de funções que têm visibilidade para ambas as agências. No entanto, ao pesquisar sites do SharePoint e contas do OneDrive, um gerente de Descoberta Geográfica pode pesquisar conteúdo em diferentes limites de conformidade somente se as agências estão na mesma região ou localização geográfica. **Observação:** Essa limitação para sites não se aplica à Descoberta Avançada de EDiscovery porque a pesquisa de conteúdo no SharePoint e no OneDrive não está vinculada à localização geográfica.
+Sim, isso pode ser feito ao pesquisar Exchange caixas de correio adicionando o gerente de Descoberta Eletrônico a grupos de funções que têm visibilidade para ambas as agências. No entanto, ao pesquisar SharePoint sites e contas OneDrive, um gerente de Descoberta Desdiscovery pode pesquisar conteúdo em diferentes limites de conformidade somente se as agências estão na mesma região ou localização geográfica. **Observação:** Essa limitação para sites não se aplica Advanced eDiscovery porque pesquisar conteúdo em SharePoint e OneDrive não está vinculada à localização geográfica.
   
-**Os filtros de permissões de pesquisa funcionam para retenções de caso de Descoberta eDiscovery, políticas de retenção do Microsoft 365 ou DLP?**
+**Os filtros de permissões de pesquisa funcionam para retenções de caso de Descoberta Microsoft 365, políticas de retenção ou DLP?**
   
 Não, não neste momento.
   
-**Se eu especificar uma região para controlar onde o conteúdo é exportado, mas não tenho uma organização do SharePoint nessa região, ainda posso pesquisar no SharePoint?**
+**Se eu especificar uma região para controlar onde o conteúdo é exportado, mas não tenho uma organização SharePoint nessa região, ainda posso pesquisar SharePoint?**
   
 Se a região especificada no filtro de permissões de pesquisa não existir em sua organização, a região padrão será pesquisada.
   

@@ -1,5 +1,5 @@
 ---
-title: Fechar ou excluir uma ocorrência
+title: Fechar ou excluir um caso
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba o que acontece quando uma investigação ou um caso legal suportado por Advanced eDiscovery caso é fechado ou excluído.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7b11faa2ccdb44fca916b2f602d5120adadf1739
-ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
+ms.openlocfilehash: efbcbe34e6d7d8b564bcfa0cf9bbd8a1fbb59709
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52657628"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194620"
 ---
 # <a name="close-or-delete-an-advanced-ediscovery-case"></a>Fechar ou excluir uma Advanced eDiscovery caso
 
@@ -36,7 +36,7 @@ Veja o que acontece quando você fecha um Advanced eDiscovery caso:
 
 - Fechar um caso apenas fecha as retenções que estão associadas a esse caso. Se outras retenções ocorrerem em um local de conteúdo (como uma responsabilidade por litígio, uma retenção de Descoberta Principal ou uma retenção de um caso Advanced eDiscovery caso diferente), essas retenções ainda serão mantidas.
 
-- O caso ainda está listado na página Descoberta e-descoberta no centro Microsoft 365 conformidade. Os detalhes, retenções, pesquisas e membros de um caso fechado são retidos.
+- O caso ainda está listado na página Descobertas e Centro de conformidade do Microsoft 365. Os detalhes, retenções, pesquisas e membros de um caso fechado são retidos.
 
 - Você pode editar uma ocorrência depois que ela for fechada. Por exemplo, você pode adicionar ou remover membros, criar pesquisas, exportar resultados de pesquisa e preparar resultados de pesquisa para análise em Advanced eDiscovery. A principal diferença entre caso ativo ou fechado é que as retenções são desativadas quando um caso é fechado.
 
@@ -46,9 +46,9 @@ Para fechar um caso:
 
 2. Na guia **Configurações**, em **Informações de caso**, clique em **Selecionar**.
 
-3. Na parte inferior da página informações **de** caso, clique em (**...**) **Mais opções** e clique em **Fechar caso**.
+   ![Acessar a página do sobrevoo de informações de caso em Advanced eDiscovery caso](..\media\AeDSelectCaseInformation.png) 
 
-   ![Opção no menu Mais opções para fechar um Advanced eDiscovery caso](..\Media\CloseAdvancedeDiscoveryCase.png)
+3. Na parte inferior da página sobre informações **de** caso, clique em **Ações** e clique em **Fechar caso**.
 
    Pode levar até 60 minutos para o processo de fechamento concluir.
 
@@ -62,15 +62,13 @@ Para reabrir um caso fechado:
 
 2. Na guia **Configurações**, em **Informações de caso**, clique em **Selecionar**.
 
-3. Na parte inferior da página informações **de** caso, clique em (**...**) **Mais opções** e clique em **Reabrir caso**.
-
-   ![Opção no menu Mais opções para reabrir uma Advanced eDiscovery caso](..\Media\ReopenAdvancedeDiscoveryCase.png)
+3. Na parte inferior da página sobre informações **de** caso, clique em **Ações** e clique em **Reabrir caso**.
 
    Pode levar até 60 minutos para que o processo de reabertura seja concluído.
 
 ## <a name="delete-a-case"></a>Excluir uma ocorrência
 
-Você pode excluir os casos ativos e Advanced eDiscovery fechados. Quando você exclui um caso, todos os componentes associados a ele, como lista de custodiantes, comunicações, pesquisas, conjuntos de revisão e trabalho de exportação são excluídos. O caso é removido da lista de casos na **página** Advanced eDiscovery no centro Microsoft 365 conformidade. Não é possível recuperar ou reabrir um caso excluído.
+Você pode excluir os casos ativos e Advanced eDiscovery fechados. Quando você exclui um caso, todos os componentes associados a ele, como lista de custodiantes, comunicações, pesquisas, conjuntos de revisão e trabalho de exportação são excluídos. O caso é removido da lista de casos na página **Advanced eDiscovery** no Centro de conformidade do Microsoft 365. Não é possível recuperar ou reabrir um caso excluído.
 
 > [!NOTE]
 > Em cenários de vazamento de dados, a única maneira de remover itens em um conjunto de revisão é excluir o Advanced eDiscovery caso. Outros métodos de "pesquisa e limpeza" não removem itens de um conjunto de revisão.
@@ -91,6 +89,5 @@ Para excluir um caso:
 
 2. Na guia **Configurações**, em **Informações de caso**, clique em **Selecionar**.
 
-3. Na parte inferior da página informações **de** caso, clique em (**...**) **Mais opções** e clique em **Excluir caso**.
+3. Na parte inferior da página sobre informações **de** caso, clique em **Ações** e clique em **Excluir caso**.
 
-   ![Opção no menu Mais opções para excluir um Advanced eDiscovery caso](..\Media\DeleteAdvancedeDiscoveryCase.png)

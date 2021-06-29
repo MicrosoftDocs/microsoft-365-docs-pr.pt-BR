@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d32d40ac8ce086caedd53e0a69aac2a3025dc702
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 07905cc3f1b3bd4445199d7bddcdf3b45500bd5f
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842249"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194944"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>Configurar o Microsoft Defender para Ponto de Extremidade em recursos do iOS
 
@@ -65,6 +65,26 @@ Embora habilitada por padrão, pode haver alguns casos que exigem que você desa
 
 O iOS da Apple não dá suporte a várias VPNs em todo o dispositivo para serem ativas simultaneamente. Embora vários perfis VPN possam existir no dispositivo, apenas uma VPN pode estar ativa por vez.
 
+## <a name="configure-microsoft-defender-for-endpoint-risk-signal-in-app-protection-policy-mam"></a>Configurar o sinal de risco do Microsoft Defender para Ponto de Extremidade na política de proteção de aplicativos (MAM)
+
+O Microsoft Defender for Endpoint pode ser configurado para enviar sinais de ameaça a serem usados em Políticas de Proteção de Aplicativos (APP, também conhecido como MAM) no iOS/iPadOS. Com esse recurso, você também pode usar o Microsoft Defender para o Ponto de Extremidade para proteger o acesso aos dados corporativos de dispositivos não reemrollados.
+
+As etapas para configurar políticas de proteção de aplicativos com o Microsoft Defender para Ponto de Extremidade estão abaixo:
+
+1. Configurar a conexão do seu locatário Microsoft Endpoint Manager o Microsoft Defender para Ponto de Extremidade. No Centro de administração do Gerenciador de Ponto de Extremidade da [Microsoft](https://go.microsoft.com/fwlink/?linkid=2109431), vá para Conectores de Administração de Locatários e tokens do Microsoft Defender para Ponto de Extremidade (em Plataforma Cruzada) ou Segurança de Ponto de Extremidade do Microsoft Defender para Ponto de Extremidade (em Instalação) e a ata as alternâncias em Política de Proteção de  >    >   Aplicativo Configurações   >   **para iOS**.
+1. Selecione Salvar. Você deve ver **que o status da conexão** agora está definido como **Habilitado**.
+1. Criar política de proteção de aplicativo: depois que a configuração do conector do Microsoft Defender for Endpoint for concluída, navegue até **Políticas** de proteção de aplicativos (em Política) para criar uma nova política ou atualizar  >   uma existente.
+1. Selecione a plataforma, **aplicativos, proteção de dados, configurações** de requisitos do Access que sua organização exige para sua política.
+1. Em **Condições de lançamento condicional** Do dispositivo, você encontrará a configuração Nível máximo de ameaça de dispositivo  >   **permitido.** Isso precisará ser configurado para Baixo, Médio, Alto ou Protegido. As ações disponíveis para você serão Bloquear o **acesso ou** **apagar dados**. Você pode ver uma caixa de diálogo informacional para garantir que seu conector seja definido antes que essa configuração entre em vigor. Se o conector já estiver definido, você poderá ignorar essa caixa de diálogo.
+1. Termine com atribuições e salve sua política.
+
+Para obter mais detalhes sobre a política de proteção de aplicativos ou MAM, consulte configurações da política de proteção de [aplicativos do iOS.](https://docs.microsoft.com/mem/intune/apps/app-protection-policy-settings-ios)
+
+### <a name="deploying-microsoft-defender-for-endpoint-for-mam-or-on-unenrolled-devices"></a>Implantando o Microsoft Defender para Ponto de Extremidade para MAM ou em dispositivos não reemrollados
+
+O Microsoft Defender para Ponto de Extremidade no iOS habilita o cenário de Política de Proteção de Aplicativos e está disponível na Loja de Aplicativos da Apple.
+
+Os usuários finais devem instalar a versão mais recente do aplicativo diretamente na Loja de Aplicativos da Apple.
 
 ## <a name="configure-compliance-policy-against-jailbroken-devices"></a>Configurar a política de conformidade em dispositivos com cadeia de segurança
 
@@ -86,12 +106,12 @@ Siga as etapas a seguir para criar uma política de conformidade contra disposit
     > [!div class="mx-imgBorder"]
     > ![Política Configurações](images/ios-jb-settings.png)
 
-4. Na seção *Ação para não conformidade,* selecione as ações de acordo com seus requisitos e selecione **Próximo**.
+4. Na seção **Ação para não conformidade,** selecione as ações de acordo com seus requisitos e selecione **Próximo**.
 
     > [!div class="mx-imgBorder"]
     > ![Ações de política](images/ios-jb-actions.png)
 
-5. Na seção *Atribuições,* selecione os grupos de usuários que você deseja incluir para esta política e selecione **Próximo**.
+5. Na seção **Atribuições,** selecione os grupos de usuários que você deseja incluir para esta política e selecione **Próximo**.
 6. Na seção **Review+Create,** verifique se todas as informações inseridas estão corretas e selecione **Criar**.
 
 ## <a name="configure-custom-indicators"></a>Configurar indicadores personalizados

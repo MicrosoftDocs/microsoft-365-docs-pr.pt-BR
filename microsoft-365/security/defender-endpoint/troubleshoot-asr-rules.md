@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c043e97d6c02e4f41d000e9ce8cfea4a0950252a
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 65e3e8d1baef7ca4440824c9a262f0b5f696b657
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245979"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194740"
 ---
 # <a name="report-and-troubleshoot-microsoft-defender-for-atp-asr-rules"></a>Relatar e solucionar problemas do Microsoft Defender para regras ASR atp
 
@@ -42,7 +42,7 @@ Aqui está uma captura de tela do centro de segurança Microsoft 365 (em **Repor
 
 Um dos recursos mais avançados do Microsoft Defender para Ponto de Extremidade é a busca avançada. Se você não estiver familiarizado com a busca avançada, consulte [proativamente a busca de](advanced-hunting-overview.md)ameaças com a busca avançada.
 
-A busca avançada é uma ferramenta de busca de ameaças baseada em consulta (Kusto Query Language) que permite explorar até 30 dias dos dados capturados (brutos), que a Detecção e Resposta do Ponto de Extremidade do MDE (EDR) coleta de todos os seus máquinas. Por meio da busca avançada, você pode inspecionar proativamente eventos para localizar indicadores e entidades interessantes. O acesso flexível aos dados ajuda a busca não restrita por ameaças conhecidas e potenciais.
+A busca avançada é uma ferramenta de busca de ameaças baseada em consulta (Kusto Query Language) que permite explorar até 30 dias dos dados capturados (brutos), que o Defender for Endpoint coleta de seus dispositivos. Por meio da busca avançada, você pode inspecionar proativamente eventos para localizar indicadores e entidades interessantes. O acesso flexível aos dados ajuda a busca não restrita por ameaças conhecidas e potenciais.
 
 Por meio da busca avançada, é possível extrair informações de regras ASR, criar relatórios e obter informações detalhadas sobre o contexto de uma determinada auditoria de regra ASR ou um evento de bloqueio.
 

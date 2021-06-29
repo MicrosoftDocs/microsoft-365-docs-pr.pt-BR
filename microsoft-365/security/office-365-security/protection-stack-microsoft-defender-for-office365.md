@@ -13,12 +13,12 @@ localization_priority: Normal
 description: Siga o caminho de uma mensagem de entrada através da pilha de filtragem de ameaças no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e892ebe04887527cf57e4ea44f67c4aaa775b228
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 1113d04cabdabe2925242cb18dde78daf9ef6e2c
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683290"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194800"
 ---
 # <a name="step-by-step-threat-protection-in-microsoft-defender-for-office-365"></a>Proteção passo a passo contra ameaças no Microsoft Defender para Office 365
 
@@ -51,7 +51,7 @@ Os blocos de borda são projetados para serem automáticos. No caso de falso pos
 
 Os recursos na inteligência de remetente são essenciais para capturar spam, massa, representação e mensagens falsas não autorizadas e também fator para a detecção de phishing. A maioria desses recursos é configurável individualmente.
 
-:::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase2.png" alt-text="A fase 2 da filtragem no MDO é Inteligência de Remetente.":::
+:::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase2.png" alt-text="A fase 2 da filtragem no Defender para Office 365 é Inteligência do Remetente.":::
 
 1. **Os gatilhos e** alertas de detecção de comprometimento de conta são acionados quando uma conta tem comportamento anômalo, consistente com comprometimento. Em alguns casos, a conta de usuário é bloqueada e impedida de enviar outras mensagens de email até que o problema seja resolvido pela equipe de operações de segurança de uma organização.
 
@@ -133,7 +133,7 @@ O último estágio ocorre após a entrega de emails ou arquivos, atuando em emai
 
 O diagrama final (como com todas as partes do diagrama que o compõe) está sujeito a alterações à medida que o produto cresce *e desenvolve*. Reserve esta página e use a opção **comentários** que você encontrará na parte inferior se precisar perguntar após as atualizações. Para seus registros, essa é a pilha com todas as fases em ordem:
 
-:::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase5.png" alt-text="Todas as fases de filtragem no MDO em ordem, 1 a 4.":::
+:::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase5.png" alt-text="Todas as fases de filtragem no Defender para Office 365 em ordem, 1 a 4.":::
 
 ## <a name="more-information"></a>Mais informações
 

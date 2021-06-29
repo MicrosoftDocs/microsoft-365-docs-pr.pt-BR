@@ -1,5 +1,5 @@
 ---
-title: Atribuir permissões de Descoberta eDiscovery no Microsoft 365 de conformidade
+title: Atribuir permissões de Descoberta E no Centro de conformidade do Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,39 +16,39 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
-description: Atribua as permissões necessárias para executar tarefas relacionadas à Descoberta e usando o Microsoft 365 de conformidade.
+description: Atribua as permissões necessárias para executar tarefas relacionadas à Descoberta Centro de conformidade do Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 63afafbb8254169e266e5a3305df64aa9d271f79
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 06e75a18c338d2634ae3be93514ee518d9e91860
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782448"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194668"
 ---
-# <a name="assign-ediscovery-permissions-in-the-microsoft-365-compliance-center"></a>Atribuir permissões de Descoberta eDiscovery no Microsoft 365 de conformidade
+# <a name="assign-ediscovery-permissions-in-the-microsoft-365-compliance-center"></a>Atribuir permissões de Descoberta E no Centro de conformidade do Microsoft 365
 
-Se você quiser que as pessoas usem qualquer uma das ferramentas relacionadas à [Descoberta](ediscovery.md) Microsoft 365 no centro de conformidade do Microsoft 365, você deve atribuir a elas as permissões apropriadas. A maneira mais fácil de fazer isso é adicionar à pessoa o grupo de funções apropriado na página **Permissões** no centro de conformidade. Este tópico descreve as permissões necessárias para executar tarefas de Descoberta e.
+Se você quiser que as [](ediscovery.md) pessoas usem qualquer uma das ferramentas relacionadas à Descoberta Centro de conformidade do Microsoft 365, você deve atribuir a elas as permissões apropriadas. A maneira mais fácil de fazer isso é adicionar à pessoa o grupo de funções apropriado na página **Permissões** no centro de conformidade. Este tópico descreve as permissões necessárias para executar tarefas de Descoberta e.
   
-O grupo de função principal relacionado à Descoberta Microsoft 365 de conformidade é chamado **de Gerenciador de Descobertas E.** Há dois subgrupos dentro desse grupo de função.
+O grupo de função principal relacionado à Descoberta Centro de conformidade do Microsoft 365 é chamado **de Gerenciador de Descobertas E.** Há dois subgrupos dentro desse grupo de função.
   
 - **Gerentes de** Descoberta e - Um Gerente de Descoberta Online pode usar ferramentas de pesquisa de Descoberta eDiscovery para pesquisar locais de conteúdo na organização e executar várias ações relacionadas à pesquisa, como visualização e exportação de resultados de pesquisa. Os membros também podem criar e gerenciar casos no Core eDiscovery e Advanced eDiscovery, adicionar e remover membros a uma ocorrência, criar restituições de caso, executar pesquisas associadas a uma ocorrência e acessar dados de caso. Gerentes de Descoberta Eletrônica só podem acessar e gerenciar os casos que eles criam. Eles não podem acessar ou gerenciar casos criados por outros Gerentes de Descoberta Eletrônica.
   
 - **Administradores de Descoberta Eletrônica** - Um Administrador de Descoberta Eletrônica é membro do grupo de função Gerente de Descoberta Eletrônica e pode executar as mesmas tarefas relacionadas ao gerenciamento de casos e pesquisa de conteúdo que um Gerente de Descoberta Eletrônica pode executar. Além disso, um Administrador de Descoberta Eletrônica pode:
   
-  - Acesse todos os casos listados nas páginas Descoberta Básica **e** **Advanced eDiscovery** no centro de conformidade Microsoft 365.
+  - Acesse todos os casos listados nas páginas Descoberta Básica **e** **Advanced eDiscovery** no Centro de conformidade do Microsoft 365.
 
-  - Acessar dados de casos na Descoberta Eletrônica Avançada para qualquer caso na organização.
+  - Acessar os dados do processo na Descoberta Eletrônica Avançada de qualquer processo da organização.
   
-  - Gerenciar qualquer caso de Descoberta Eletrônica depois que se adicionar como membro do caso.
+  - Gerenciar qualquer processo de Descoberta Eletrônica após adicionarem a si mesmos como membro do processo.
   
   Por motivos pelos quais você pode querer Administradores de Descobertas De eDiscovery em sua organização, consulte [Mais informações](#more-information).
 
 > [!NOTE]
-> Para analisar os dados de um usuário usando Advanced eDiscovery, o usuário (o custodiante dos dados) deve ter uma licença Office 365 E5 ou Microsoft 365 E5. Como alternativa, os usuários com uma licença de Office 365 E1 ou Office 365 ou Microsoft 365 E3 podem ser atribuídos a uma licença de complemento Microsoft 365 E5 Compliance ou Microsoft 365 eDiscovery and Audit. Administradores, responsáveis pela conformidade ou equipe jurídica que são atribuídos a casos como membros e usam o Advanced eDiscovery para coletar, exibir e analisar dados não precisam de uma licença E5. Para obter mais informações sobre Advanced eDiscovery licenciamento, consulte [Assinaturas e licenciamento em Advanced eDiscovery](overview-ediscovery-20.md#subscriptions-and-licensing).
+> Para analisar os dados de um usuário usando Advanced eDiscovery, o usuário (o custodiante dos dados) deve ter uma licença Office 365 E5 ou Microsoft 365 E5. Como alternativa, os usuários com uma Office 365 E1 ou uma licença de Office 365 ou Microsoft 365 E3 podem ser atribuídos a uma licença de complemento Microsoft 365 E5 Compliance ou Microsoft 365 eDiscovery and Audit. Administradores, responsáveis pela conformidade ou equipe jurídica que são atribuídos a casos como membros e usam o Advanced eDiscovery para coletar, exibir e analisar dados não precisam de uma licença E5. Para obter mais informações sobre Advanced eDiscovery licenciamento, consulte [Assinaturas e licenciamento em Advanced eDiscovery](overview-ediscovery-20.md#subscriptions-and-licensing).
   
 ## <a name="before-you-assign-permissions"></a>Antes de atribuir permissões
 
-- Você precisa ser membro do grupo de função Gerenciamento da Organização ou ter a função gerenciamento de função para atribuir permissões de Descoberta eDiscovery no centro de conformidade Microsoft 365 organização.
+- Você precisa ser membro do grupo de função Gerenciamento da Organização ou ter a função Gerenciamento de Função para atribuir permissões de Descoberta Centro de conformidade do Microsoft 365.
 
 - Você pode usar o cmd & let [Add-RoleGroupMember](/powershell/module/exchange/Add-RoleGroupMember) no Centro de Conformidade e Segurança do PowerShell para adicionar um grupo de segurança habilitado para email como membro do subgrupo Gerentes de Descoberta Eletrônica no grupo de funções do Gerenciador de Descoberta Eletrônica. No entanto, não é possível adicionar um grupo de segurança habilitado para email ao subgrupo Administradores de Descoberta Eletrônico. Para obter detalhes, consulte [Mais informações](#more-information). 
   
@@ -56,7 +56,7 @@ O grupo de função principal relacionado à Descoberta Microsoft 365 de conform
 
 1. Vá para <https://compliance.microsoft.com> e entre usando uma conta que pode atribuir permissões.
   
-2. No painel esquerdo do centro de conformidade Microsoft 365, selecione **Permissões**.
+2. No painel esquerdo do Centro de conformidade do Microsoft 365, selecione **Permissões**.
 
 3. Na página **Permissões & Funções,** em Centro **de Conformidade,** clique em **Funções**.
 
@@ -71,13 +71,13 @@ O grupo de função principal relacionado à Descoberta Microsoft 365 de conform
 > [!NOTE]
 > Você também pode usar o cmdlet **Add-eDiscoveryCaseAdmin** para tornar um usuário um Administrador de Descoberta Eletrônica. No entanto, o usuário deve ter a função de Gerenciamento de Caso para que você possa usar esse cmdlet para torná-lo um Administrador de Descoberta Eletrônica. Para obter mais informações, [consulte Add-eDiscoveryCaseAdmin](/powershell/module/exchange/add-ediscoverycaseadmin). 
   
-Na página **Permissões** no centro de conformidade do Microsoft 365, você também pode atribuir permissões relacionadas à Descoberta eDiscovery dos usuários adicionando-as aos grupos de função Administrador de Conformidade, Gerenciamento da Organização e Revistor. Para uma descrição das funções RBAC relacionadas à Descoberta e atribuídas a cada um desses grupos de função, consulte [RBAC roles related to eDiscovery](#rbac-roles-related-to-ediscovery).
+Na página **Permissões** no Centro de conformidade do Microsoft 365, você também pode atribuir permissões relacionadas à Descoberta eDiscovery dos usuários adicionando-as aos grupos de função Administrador de Conformidade, Gerenciamento da Organização e Revistor. Para uma descrição das funções RBAC relacionadas à Descoberta e atribuídas a cada um desses grupos de função, consulte [RBAC roles related to eDiscovery](#rbac-roles-related-to-ediscovery).
 
 ## <a name="rbac-roles-related-to-ediscovery"></a>Funções do RBAC relacionadas à Descoberta EDiscovery
 
-A tabela a seguir lista as funções RBAC relacionadas à Descoberta e no centro de conformidade Microsoft 365 e indica os grupos de função integrados aos quais cada função é atribuída por padrão.
+A tabela a seguir lista as funções do RBAC relacionadas à Descoberta Centro de conformidade do Microsoft 365 no Centro de conformidade do Microsoft 365 e indica os grupos de função integrados aos quais cada função é atribuída por padrão.
   
-| Função | Administrador de Conformidade | Gerente de Descoberta & Administrador | Gerenciamento de Organização | Revisor |
+| Função | Administrador de Conformidade | Gerente de Descoberta & Administrador | Gerenciamento da Organização | Revisor |
 |:-----|:-----:|:-----:|:-----:|:-----:|
 |Gerenciamento de Casos <br/> |![Marca de seleção](../media/checkmark.png) <br/> |![Marca de seleção](../media/checkmark.png) <br/> |![Marca de seleção](../media/checkmark.png) <br/> | <br/> |
 |Comunicação <br/> | <br/> |![Marca de seleção](../media/checkmark.png) <br/> | <br/> | <br/> |
@@ -95,7 +95,7 @@ As seções a seguir descrevem cada uma das funções RBAC relacionadas à Desco
 
 ### <a name="case-management"></a>Gerenciamento de Casos
 
-Essa função permite que os usuários criem, editem, excluam e controlem o acesso Advanced eDiscovery principais casos de Descoberta Advanced eDiscovery no centro de conformidade do Microsoft 365. Conforme explicado anteriormente, um usuário deve ter a função de Gerenciamento de Caso para que você possa usar o cmdlet **Add-eDiscoveryCaseAdmin para torná-lo** um Administrador de Descoberta Eletrônica.
+Essa função permite que os usuários criem, editem, excluam e controlem o acesso à Descoberta Advanced eDiscovery Principais no Centro de conformidade do Microsoft 365. Conforme explicado anteriormente, um usuário deve ter a função de Gerenciamento de Caso para que você possa usar o cmdlet **Add-eDiscoveryCaseAdmin para torná-lo** um Administrador de Descoberta Eletrônica.
 
 Para saber mais, confira:
 
@@ -111,13 +111,13 @@ Para obter mais informações, [consulte Trabalhar com comunicações em Advance
 
 ### <a name="compliance-search"></a>Pesquisa de Conformidade
 
-Essa função permite que os usuários executem a ferramenta pesquisa de conteúdo no centro de conformidade do Microsoft 365 para pesquisar caixas de correio e pastas públicas, sites do SharePoint Online, sites OneDrive for Business, conversas Skype for Business, grupos Microsoft 365 e grupos Microsoft Teams e Yammer. Essa função permite que um usuário receba uma estimativa dos resultados da pesquisa e crie relatórios de exportação, mas outras funções são necessárias para iniciar ações de pesquisa de conteúdo, como visualização, exportação ou exclusão de resultados de pesquisa.
+Essa função permite que os usuários executem Centro de conformidade do Microsoft 365 ferramenta de Pesquisa de Conteúdo no Centro de conformidade do Microsoft 365 para pesquisar caixas de correio e pastas públicas, sites do SharePoint Online, sites OneDrive for Business, conversas Skype for Business, grupos Microsoft 365 e grupos Microsoft Teams e Yammer. Essa função permite que um usuário receba uma estimativa dos resultados da pesquisa e crie relatórios de exportação, mas outras funções são necessárias para iniciar ações de pesquisa de conteúdo, como visualização, exportação ou exclusão de resultados de pesquisa.
 
-Os usuários que são atribuídos à função Pesquisa de Conformidade, mas não têm a função Visualização, podem visualizar os resultados de uma pesquisa na qual a ação de visualização foi iniciada por um usuário que recebe a função Visualização. O usuário sem a função Preview pode visualizar os resultados por até duas semanas após a criação da ação de visualização inicial.
+Na Pesquisa de Conteúdo e Na Descoberta Principal, os usuários que são atribuídos à função Pesquisa de Conformidade, mas não têm a função Visualização, podem visualizar os resultados de uma pesquisa na qual a ação de visualização foi iniciada por um usuário que recebe a função Visualização. O usuário sem a função Preview pode visualizar os resultados por até duas semanas após a criação da ação de visualização inicial.
 
-Da mesma forma, os usuários que são atribuídos à função Pesquisa de Conformidade, mas não têm a função Exportar, podem baixar os resultados de uma pesquisa na qual a ação de exportação foi iniciada por um usuário que recebe a função Exportar. O usuário sem a função Exportar pode baixar os resultados de uma pesquisa de até duas semanas após a criação da ação de exportação inicial. Depois disso, eles não podem baixar os resultados, a menos que alguém com a função Exportar reinicie a exportação.
+Da mesma forma, os usuários da Pesquisa de Conteúdo e da Descoberta Principal que são atribuídos à função Pesquisa de Conformidade, mas não têm a função Exportar, podem baixar os resultados de uma pesquisa na qual a ação de exportação foi iniciada por um usuário que recebe a função Exportar. O usuário sem a função Exportar pode baixar os resultados de uma pesquisa de até duas semanas após a criação da ação de exportação inicial. Depois disso, eles não podem baixar os resultados, a menos que alguém com a função Exportar reinicie a exportação.
 
-Para obter mais informações, consulte [Pesquisa de conteúdo em Office 365](content-search.md).
+O período de carência de duas semanas para visualização e exportação de resultados de pesquisa (sem as funções de pesquisa e exportação correspondentes) não se aplica Advanced eDiscovery. Os usuários devem ter as funções Visualizar e Exportar para visualizar e exportar conteúdo em Advanced eDiscovery.
 
 ### <a name="custodian"></a>Custodian
 
@@ -129,7 +129,7 @@ Para obter mais informações, [consulte Work with custodians in Advanced eDisco
 
 A função permite que os usuários exportem os resultados de uma Pesquisa de Conteúdo para um computador local. Ele também permite preparar resultados de pesquisa para análise em Advanced eDiscovery.
 
-Para obter mais informações sobre como exportar resultados de pesquisa, consulte Exportar resultados de pesquisa [Microsoft 365 centro de conformidade](export-search-results.md).
+Para obter mais informações sobre como exportar resultados de pesquisa, consulte Exportar resultados de [pesquisa de Centro de conformidade do Microsoft 365](export-search-results.md).
 
 ### <a name="hold"></a>Retenção
 
@@ -147,7 +147,7 @@ Essa função permite que os usuários exibirem uma lista de itens retornados de
 
 ### <a name="review"></a>Revisão
 
-Essa função permite que os usuários acessem conjuntos de revisão [em Advanced eDiscovery](overview-ediscovery-20.md). Os usuários que são atribuídos a essa função podem ver e abrir a lista de casos na página > Descoberta > **Avançado** no centro de conformidade do Microsoft 365 dos quais são membros. Depois que o usuário acessar um Advanced eDiscovery, ele poderá selecionar **Revisar conjuntos** para acessar dados de caso. Essa função não permite que o usuário visualize os resultados de uma pesquisa de coleção associada ao caso ou faça outras tarefas de pesquisa ou gerenciamento de caso. Os usuários com essa função só podem acessar os dados em um conjunto de revisão.
+Essa função permite que os usuários acessem conjuntos de revisão [em Advanced eDiscovery](overview-ediscovery-20.md). Os usuários que são atribuídos a essa função podem ver e abrir a lista de casos na página > **Descoberta > Avançado** no Centro de conformidade do Microsoft 365 dos quais são membros. Depois que o usuário acessar um Advanced eDiscovery, ele poderá selecionar **Revisar conjuntos** para acessar dados de caso. Essa função não permite que o usuário visualize os resultados de uma pesquisa de coleção associada ao caso ou faça outras tarefas de pesquisa ou gerenciamento de caso. Os usuários com essa função só podem acessar os dados em um conjunto de revisão.
 
 ### <a name="rms-decrypt"></a>RMS Decrypt
 
@@ -171,7 +171,7 @@ Essa função permite que os usuários executem a remoção em massa de dados qu
   Add-RoleGroupMember "eDiscovery Manager" -Member <name of security group>
   ```
 
-    Exchange grupos de distribuição e Microsoft 365 grupos não são suportados. Você deve usar um grupo de segurança habilitado para email, que pode ser criado Exchange Online PowerShell executando `New-DistributionGroup -Type Security` . Você também pode criar um grupo de segurança habilitado para email (e adicionar membros) no centro de administração Exchange ou no Microsoft 365 de administração. Pode levar até 60 minutos depois de você criar para que uma nova segurança habilitada para email seja disponibilizada para adicionar ao grupo de função Gerentes de Descoberta Eletrônico. 
+    Exchange grupos de distribuição e Microsoft 365 grupos não são suportados. Você deve usar um grupo de segurança habilitado para email, que pode ser criado Exchange Online PowerShell executando `New-DistributionGroup -Type Security` . Você também pode criar um grupo de segurança habilitado para email (e adicionar membros) no centro de administração Exchange ou no Centro de administração do Microsoft 365. Pode levar até 60 minutos depois de você criar para que uma nova segurança habilitada para email seja disponibilizada para adicionar ao grupo de função Gerentes de Descoberta Eletrônico. 
 
     Além disso, como mencionado anteriormente, não é possível tornar um grupo de segurança habilitado para email um Administrador de Descoberta Eletrônica usando o cmdlet **Add-eDiscoveryCaseAdmin** no Centro de Conformidade e Segurança & do PowerShell. Você só pode adicionar usuários individuais como Administradores de Descoberta e.
 

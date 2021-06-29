@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 077411e5af5825efcf81d19ce8cb72ef850ae17b
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 7243e8f6fad225e6c4570184736e8d6588466d0a
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054322"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194956"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>Implantação baseada no Intune para o Microsoft Defender para Ponto de Extremidade no macOS
 
@@ -52,10 +52,10 @@ A tabela a seguir resume as etapas necessárias para implantar e gerenciar o Mic
 | Etapa | Exemplo de nomes de arquivo | BundleIdentifier |
 |-|-|-|
 | [Baixar o pacote de integração](#download-the-onboarding-package) | WindowsDefenderATPOnboarding__MDATP_wdav.atp.xml | com.microsoft.wdav.atp |
-| [Aprovar Extensão do Sistema para o Microsoft Defender para Ponto de Extremidade](#approve-system-extensions) | MDATP_SysExt.xml | N/A |
-| [Aprovar Extensão de Kernel para o Microsoft Defender para Ponto de Extremidade](#download-the-onboarding-package) | MDATP_KExt.xml | N/A |
+| [Aprovar Extensão do Sistema para o Microsoft Defender para Ponto de Extremidade](#approve-system-extensions) | MDATP_SysExt.xml | N/D |
+| [Aprovar Extensão de Kernel para o Microsoft Defender para Ponto de Extremidade](#download-the-onboarding-package) | MDATP_KExt.xml | N/D |
 | [Conceder acesso em disco completo ao Microsoft Defender para Ponto de Extremidade](#full-disk-access) | MDATP_tcc_Catalina_or_newer.xml | com.microsoft.wdav.tcc |
-| [Política de Extensão de Rede](#network-filter) | MDATP_NetExt.xml | N/A |
+| [Política de Extensão de Rede](#network-filter) | MDATP_NetExt.xml | N/D |
 | [Configurar o Microsoft AutoUpdate (MAU)](mac-updates.md#intune) | MDATP_Microsoft_AutoUpdate.xml | com.microsoft.autoupdate2 |
 | [Configurações do Microsoft Defender para Ponto de Extremidade](mac-preferences.md#intune-profile-1)<br/><br/> **Observação:** Se você estiver planejando executar um AV de terceiros para macOS, de acordo `passiveMode` com `true` . | MDATP_WDAV_and_exclusion_settings_Preferences.xml | com.microsoft.wdav |
 | [Configurar notificações do Microsoft Defender para Endpoint e MS AutoUpdate (MAU)](mac-updates.md) | MDATP_MDAV_Tray_and_AutoUpdate2.mobileconfig | com.microsoft.autoupdate2 ou com.microsoft.wdav.tray |
@@ -101,18 +101,18 @@ Este perfil contém informações de licença para o Microsoft Defender para Pon
     > [!div class="mx-imgBorder"]
     > ![Criação do Perfil de Configuração Personalizada](images/mdatp-6-systemconfigurationprofiles-1.png)
 
-1. Escolha um nome para o perfil, por exemplo, "Integração do MDE para macOS". Clique em **Avançar**.
+1. Escolha um nome para o perfil, por exemplo, "Defender ou Endpoint onboarding for macOS". Clique em **Próximo**.
 
     > [!div class="mx-imgBorder"]
     > ![Perfil de Configuração Personalizado - nome](images/mdatp-6-systemconfigurationprofiles-2.png)
 
-1. Escolha um nome para o nome do perfil de configuração, por exemplo, "Integração do MDE para macOS".
+1. Escolha um nome para o nome do perfil de configuração, por exemplo, "Defender para integração do ponto de extremidade para macOS".
 1. Selecione o intune/WindowsDefenderATPOnboarding.xml que você extraiu do pacote de integração acima como arquivo de perfil de configuração.
 
     > [!div class="mx-imgBorder"]
     > ![Importar uma configuração de um arquivo para o Perfil de Configuração Personalizado](images/mdatp-6-systemconfigurationprofiles.png)
 
-1. Clique em **Avançar**.
+1. Clique em **Próximo**.
 1. Atribuir dispositivos na guia **Atribuição.** Clique **em Próximo**.
 
     > [!div class="mx-imgBorder"]
@@ -172,7 +172,7 @@ Esse perfil é necessário para macOS 10.15 (Catalina) ou mais antigo. Ele será
 
 Baixe [**fulldisk.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) em [nosso repositório GitHub .](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
 
-Siga as instruções para [o blob onboarding](#onboarding-blob) acima, usando "MDE Full Disk Access" como nome de perfil e baixado **fulldisk.mobileconfig** como nome de perfil de configuração.
+Siga as instruções para [o blob onboarding](#onboarding-blob) acima, usando "Defender for Endpoint Full Disk Access" como nome de perfil e baixado **fulldisk.mobileconfig** como nome de perfil de configuração.
 
 ### <a name="network-filter"></a>Filtro de Rede
 
@@ -180,7 +180,7 @@ Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Micr
 
 Baixe [**netfilter.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig) em [nosso repositório GitHub.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
 
-Siga as instruções para [o blob onboarding](#onboarding-blob) acima, usando "Filtro de Rede MDE" como nome de perfil e baixado **netfilter.mobileconfig** como nome de perfil de configuração.
+Siga as instruções para [o blob onboarding](#onboarding-blob) acima, usando "Defender for Endpoint Network Filter" como nome de perfil e baixado **netfilter.mobileconfig** como nome de perfil de configuração.
 
 ### <a name="notifications"></a>Notificações
 
@@ -188,7 +188,7 @@ Esse perfil é usado para permitir que o Microsoft Defender para o Ponto de Extr
 
 Baixe [**notif.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/notif.mobileconfig) em [nosso repositório GitHub.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
 
-Siga as instruções para [o blob onboarding](#onboarding-blob) acima, usando "Notificações MDE" como nome de perfil e baixado **notif.mobileconfig** como nome de perfil de configuração.
+Siga as instruções para [o blob onboarding](#onboarding-blob) acima, usando "Defender for Endpoint Notifications" como nome de perfil e baixado **notif.mobileconfig** como nome de perfil de configuração.
 
 ### <a name="view-status"></a>Exibir Status
 

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b4c2d586cd23a346db1bcebf891689ff648b639b
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: cbe2fb39221bd9907a3d690503a392edb019d61b
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844701"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194848"
 ---
 # <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender para Ponto de Extremidade para iOS
 
@@ -36,7 +36,7 @@ ms.locfileid: "52844701"
 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-**O Microsoft Defender para Ponto de Extremidade** no iOS oferecerá proteção contra phishing e conexões de rede não seguras de sites, emails e aplicativos. Todos os alertas estarão disponíveis por meio de um único painel de vidro no Central de Segurança do Microsoft Defender. O portal fornece às equipes de segurança uma exibição centralizada de ameaças em dispositivos iOS juntamente com outras plataformas.
+**O Microsoft Defender para Ponto de Extremidade** no iOS oferece proteção contra phishing e conexões de rede não seguras de sites, emails e aplicativos. Todos os alertas estarão disponíveis por meio de um único painel de vidro no Central de Segurança do Microsoft Defender. O portal fornece às equipes de segurança uma exibição centralizada de ameaças em dispositivos iOS juntamente com outras plataformas.
 
 > [!CAUTION]
 > A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Defender for Endpoint no iOS provavelmente causará problemas de desempenho e erros imprevisíveis do sistema.
@@ -47,9 +47,11 @@ ms.locfileid: "52844701"
 
 - Licença do Microsoft Defender para Ponto de Extremidade atribuída ao(s) usuário(s) final do aplicativo. Consulte [Requisitos de licenciamento do Microsoft Defender para Ponto de Extremidade.](/microsoft-365/security/defender-endpoint/minimum-requirements#licensing-requirements)
 
-- Os dispositivos são [inscritos por](/mem/intune/user-help/enroll-your-device-in-intune-ios) meio do aplicativo Portal da Empresa do Intune para impor políticas de conformidade de dispositivos do Intune. Isso exige que o usuário final seja atribuído a uma Microsoft Intune de usuário.
+- **Para dispositivos inscritos:** Os [](/mem/intune/user-help/enroll-your-device-in-intune-ios) dispositivos são inscritos por meio do aplicativo Portal da Empresa do Intune para impor políticas de conformidade de dispositivos do Intune. Isso exige que o usuário final seja atribuído a uma Microsoft Intune de usuário.
     - Portal da Empresa do Intune aplicativo pode ser baixado na [Apple App Store](https://apps.apple.com/us/app/intune-company-portal/id719171358).
     - Observe que a Apple não permite que os usuários de redirecionamento baixem outros aplicativos da loja de aplicativos e, portanto, essa etapa precisa ser feita pelo usuário antes de entrar no aplicativo Microsoft Defender para Ponto de Extremidade.
+
+- **Para dispositivos não registrados:** Os dispositivos são registrados com Azure Active Directory. Isso exige que o usuário final seja assinado por meio [Microsoft Authenticator app](https://apps.apple.com/app/microsoft-authenticator/id983156458).
 
 - Para obter mais informações sobre como atribuir licenças, consulte [Atribuir licenças aos usuários](/azure/active-directory/users-groups-roles/licensing-groups-assign).
 
@@ -57,20 +59,20 @@ ms.locfileid: "52844701"
 
 - Acesso ao portal Central de Segurança do Microsoft Defender.
 
+- Acesso ao [Microsoft Endpoint Manager de](https://go.microsoft.com/fwlink/?linkid=2109431)administração , para implantar o aplicativo em grupos de usuários inscritos em sua organização.
+
     > [!NOTE]
     > Microsoft Intune é a única solução UEM (Gerenciamento Unificado de Pontos de Extremidade) com suporte para implantar o Microsoft Defender para Ponto de Extremidade e aplicar políticas de conformidade de dispositivo relacionadas ao Defender para Ponto de Extremidade no Intune.
 
-- Acesso ao [Microsoft Endpoint Manager de](https://go.microsoft.com/fwlink/?linkid=2109431)administração , para implantar o aplicativo em grupos de usuários inscritos em sua organização.
-
 **Requisitos do sistema**
 
-- Dispositivos iOS que executam o iOS 11.0 ou superior. iPad dispositivos são oficialmente compatíveis com a versão 1.1.15010101 em diante.
+- Dispositivo iOS executando o iOS 11.0 ou superior. iPad dispositivos são oficialmente compatíveis com a versão 1.1.15010101 em diante.
 
-- O dispositivo está inscrito no aplicativo [Portal da Empresa do Intune .](https://apps.apple.com/us/app/intune-company-portal/id719171358)
+- O dispositivo está registrado com o aplicativo [Portal da Empresa do Intune ou](https://apps.apple.com/us/app/intune-company-portal/id719171358) registrado com Azure Active Directory por [meio Microsoft Authenticator](https://apps.apple.com/app/microsoft-authenticator/id983156458).
 
 ## <a name="installation-instructions"></a>Instruções de instalação
 
-A implantação do Microsoft Defender para Ponto de Extremidade no iOS é via Microsoft Intune (MDM) e há suporte para dispositivos supervisionados e não supervisionados. Os usuários finais também podem instalar diretamente o aplicativo na [Loja de Aplicativos da Apple.](https://aka.ms/mdatpiosappstore)
+A implantação do Microsoft Defender para Ponto de Extremidade no iOS pode ser feita por meio Microsoft Endpoint Manager (MEM) e há suporte para dispositivos supervisionados e não supervisionados. Os usuários finais também podem instalar diretamente o aplicativo na [Loja de Aplicativos da Apple.](https://aka.ms/mdatpiosappstore)
 Para obter mais informações, [consulte Deploy Microsoft Defender for Endpoint on iOS](ios-install.md).
 
 ## <a name="resources"></a>Recursos

@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: Os administradores podem aprender sobre o modo de avaliação do Microsoft Defender para Office 365
-ms.openlocfilehash: ba01fa45ca9a4e2e5b3597378bf7ddafc8be3f56
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 50060e36a0dd6d82ccbdf6d2bb8a00b2bf5e9d6d
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768741"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53195004"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>Sobre a avaliação do Microsoft Defender Office 365
 
@@ -49,7 +49,7 @@ Uma avaliação permite que as organizações configurem e configurem facilmente
 
 Por padrão, essas políticas têm escopo para todos os usuários da organização, mas os administradores podem personalizar as políticas durante ou após a instalação, para que se apliquem somente a usuários específicos.
 
-Durante a instalação, a funcionalidade de resposta do MDO (encontrada no MDO P2 ou equivalente) também é configurada para toda a organização. Não é necessário fazer o scoping de política.
+Durante a instalação, o Defender para Office 365 de resposta (encontrado no Defender para Office 365 P2 ou equivalente) também é configurado para toda a organização. Não é necessário fazer o scoping de política.
 
 ## <a name="licensing"></a>Licenciamento
 
@@ -98,7 +98,7 @@ Experiências avançadas ajudam a identificar, priorizar e investigar ameaças, 
 - [Explorador de Ameaças e Detecções em tempo real](threat-explorer.md)
 - [Relatórios em tempo real no Defender para Office 365](view-reports-for-mdo.md)
 - [Rastreadores de Ameaças - Novo e Notável](threat-trackers.md)
-- Integração [com Microsoft 365 Defender](../defender/microsoft-365-defender.md)
+- Integração com [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 ### <a name="response-and-remediation"></a>Resposta e correção
 

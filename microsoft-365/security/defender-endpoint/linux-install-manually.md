@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8d7ac39baabca1496a5d2c22521874cfd60c6208
-ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
+ms.openlocfilehash: 2b75a9f4446c875e73245aa7d51e8fcc15e8d23c
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105567"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53195016"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Implantar o Microsoft Defender para Ponto de Extremidade no Linux manualmente
 
@@ -92,7 +92,7 @@ Para visualizar novos recursos e fornecer comentários antecipados, é recomend�
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/centos/7/prod.repo
     ```
 
-    Ou se você quiser explorar novos recursos em dispositivos selecionados, talvez queira implantar o MDE para Linux para *canal interno rápido:*
+    Ou se você quiser explorar novos recursos em dispositivos selecionados, talvez queira implantar o Microsoft Defender para Ponto de Extremidade no Linux para canal *insiders-fast:*
 
     ```bash
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/centos/7/insiders-fast.repo
@@ -120,7 +120,7 @@ Para visualizar novos recursos e fornecer comentários antecipados, é recomend�
     sudo zypper addrepo -c -f -n microsoft-[channel] https://packages.microsoft.com/config/[distro]/[version]/[channel].repo
     ```
 
-    Por exemplo, se você estiver executando o SLES 12 e quiser implantar o MDE para Linux a partir *do canal prod:*
+    Por exemplo, se você estiver executando o SLES 12 e quiser implantar o Microsoft Defender para Ponto de Extremidade no Linux a partir *do canal prod:*
 
     ```bash
     sudo zypper addrepo -c -f -n microsoft-prod https://packages.microsoft.com/config/sles/12/prod.repo
@@ -400,13 +400,13 @@ Ao atualizar o sistema operacional para uma nova versão principal, primeiro voc
 
 ## <a name="how-to-migrate-from-insiders-fast-to-production-channel"></a>Como migrar do Insiders-Fast para o canal de produção
 
-1. Desinstale a versão "Insiders-Fast channel" do MDE para Linux.
+1. Desinstale a versão "Insiders-Fast channel" do Defender para Ponto de Extremidade no Linux.
 
     ``
     sudo yum remove mdatp
     ``
 
-1. Desabilitar o MDE para linux Insiders-Fast repo  ``
+1. Desabilitar o Defender para Ponto de Extremidade no Linux Insiders-Fast repo  ``
     sudo yum repolist
     ``
 

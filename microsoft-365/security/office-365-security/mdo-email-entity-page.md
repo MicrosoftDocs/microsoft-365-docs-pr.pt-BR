@@ -1,5 +1,5 @@
 ---
-title: A página da entidade de email do Microsoft Defender Office 365 (MDO)
+title: A página da entidade Office 365 email do Microsoft Defender for Office 365
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Os clientes do Microsoft Defender para Office 365 E5 e P1 e P2 agora podem obter uma exibição de 360 graus de cada email com a página de entidade de email.
-ms.openlocfilehash: d2f5a5b20034ef22b8e3894885079609a9ad5874
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 5621476f8f8f7270d241d642354ab174a25b8b37
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083255"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194982"
 ---
 # <a name="the-email-entity-page"></a>A página de entidade de email
 
@@ -30,11 +30,11 @@ ms.locfileid: "53083255"
 - [Usar guias de página de entidade de email](#use-email-entity-page-tabs)
 - [Novo na página entidade de email](#new-to-the-email-entity-page)
 
-Os administradores do Microsoft Defender para Office 365 (ou MDO) E5 e MDO P1 e P2 têm uma exibição de 360 graus de email usando a página entidade **Email**. Essa página de email de ida e volta foi criada para aprimorar as informações entregues no [submenu "detalhes de email" do Explorador](threat-explorer-views.md)de Ameaças.
+Os administradores do Microsoft Defender para Office 365 E5, e o Defender para Office P1 e P2 têm uma exibição de email de 360 graus usando a página entidade **Email.** Essa página de email de ida e volta foi criada para aprimorar as informações entregues no [submenu "detalhes de email" do Explorador](threat-explorer-views.md)de Ameaças.
 
 ## <a name="reach-the-email-entity-page"></a>Alcançar a página da entidade de email
 
-A página da entidade de email está disponível no portal Microsoft 365 defender ( <https://security.microsoft.com> ) em Email & **collaboration** \> **Explorer**. Ou, para ir diretamente para a página **Explorer,** use <https://security.microsoft.com/threatexplorer> .
+A página da entidade de email está disponível no portal de Microsoft 365 Defender ( <https://security.microsoft.com> ) em Email & **collaboration** \> **Explorer**. Ou, para ir diretamente para a página **Explorer,** use <https://security.microsoft.com/threatexplorer> .
 
 No **Explorer,** selecione o assunto de um email que você está investigando. Uma barra de ouro será exibida na parte superior do sub-envio de email para esse email. Este convite para a nova página, lê 'Experimente nossa nova página de entidade de email com dados enriquecidos...'. Selecione para exibir a nova página.
 
@@ -43,7 +43,7 @@ No **Explorer,** selecione o assunto de um email que você está investigando. U
 :::image type="content" source="../../media/email-entities-2-eep.png" alt-text="Este gráfico da página da entidade de email se concentra nos títulos que você verá. Observe que o header de email é exibido aqui.":::
 
 > [!NOTE]
-> As permissões necessárias para exibir e usar esta página são as mesmas que exibir o **Explorer**. O administrador deve ser membro do administrador global ou leitor global, ou administrador de segurança ou leitor de segurança. Para obter mais informações, veja [Permissões no portal do Microsoft 365 Defender](permissions-microsoft-365-security-center.md).
+> As permissões necessárias para exibir e usar esta página são as mesmas que exibir o **Explorer**. O administrador deve ser membro do administrador global ou leitor global, ou administrador de segurança ou leitor de segurança. Para obter mais informações, confira [Permissões no portal do Microsoft 365 Defender](permissions-microsoft-365-security-center.md).
 
 ## <a name="read-the-email-entity-page"></a>Ler a página da entidade de email
 

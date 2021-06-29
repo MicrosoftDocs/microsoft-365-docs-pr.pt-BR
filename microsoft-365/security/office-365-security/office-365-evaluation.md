@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0cf2d19b06dc1cce154785d8c42742fdc12d3259
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 79d736330a40d33f5334196d165e72f487b6d959
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108326"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194776"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Avaliar o Microsoft Defender para Office 365
 
@@ -50,7 +50,7 @@ Com o modo de [avaliação, Cofre anexos,](safe-attachments.md) [](set-up-an
 
 Como parte da instalação, o modo de avaliação também configura [a Filtragem Aprimorada para Conectores.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) Ele melhora a precisão de filtragem preservando o endereço IP e as informações do remetente, que são perdidas quando o email passa por um gateway de segurança de email (ESG) na frente do Defender para Office 365. A filtragem aprimorada para conectores também melhora a precisão de filtragem para suas políticas anti-spam e anti-phishing (EOP) existentes Proteção do Exchange Online (EOP).
 
-A filtragem aprimorada para conectores melhora a precisão de filtragem, mas pode alterar a entrega de determinadas mensagens se você tiver um ESG na frente do Defender para Office 365 e atualmente não ignorar a filtragem do EOP. O impacto é limitado às políticas do EOP; As políticas do MDO configuradas como parte da avaliação são criadas no modo não impositivo. Para minimizar o impacto potencial da produção, você pode ignorar toda a filtragem do EOP criando uma regra de fluxo de emails (também conhecida como regra de transporte) para definir o nível de confiança de spam (SCL) das mensagens como -1. Consulte [Use mail flow rules to set the spam confidence level (SCL) in messages in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl)for   details.
+A filtragem aprimorada para conectores melhora a precisão de filtragem, mas pode alterar a entrega de determinadas mensagens se você tiver um ESG na frente do Defender para Office 365 e atualmente não ignorar a filtragem do EOP. O impacto é limitado às políticas do EOP; As políticas do Defender Office 365 configuradas como parte da avaliação são criadas no modo não impositivo. Para minimizar o impacto potencial da produção, você pode ignorar toda a filtragem do EOP criando uma regra de fluxo de emails (também conhecida como regra de transporte) para definir o nível de confiança de spam (SCL) das mensagens como -1. Consulte [Use mail flow rules to set the spam confidence level (SCL) in messages in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl)for   details.
 
 Quando o modo de avaliação estiver definido, você terá um relatório atualizado diariamente com até 90 dias de dados quantificando as mensagens que seriam bloqueadas se as políticas fossem implementadas (por exemplo, excluir, enviar para lixo eletrônico, quarentena). Os relatórios são gerados para todas as detecções Office 365 e EOP do Defender. Eles são agregados por tecnologia de detecção (por exemplo, representação) e podem ser filtrados por intervalo de tempo. Além disso, os relatórios de mensagens podem ser criados sob demanda para criar pivôs personalizados ou para enviar mensagens de profundidade usando o Explorer.
 

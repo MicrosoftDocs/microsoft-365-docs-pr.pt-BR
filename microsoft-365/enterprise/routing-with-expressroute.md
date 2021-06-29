@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: e1da26c6-2d39-4379-af6f-4da213218408
 description: Neste artigo, saiba mais sobre os requisitos de roteamento do Azure ExpressRoute, circuitos e domínios de roteamento para uso com Office 365.
-ms.openlocfilehash: b455ed7e53b3018babb1abd58919a077fb9d0685
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b27e3cfe41af8cf5e444f1221f1cee2e3bbf5826
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687164"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194788"
 ---
 # <a name="routing-with-expressroute-for-office-365"></a>Como rotear com o ExpressRoute para Office 365
 
@@ -85,14 +85,6 @@ Para que a Microsoft volte para sua rede para esses fluxos de tráfego bi-direci
 
 Ao configurar uma relação de paridade usando o domínio de roteamento de peering da Microsoft e for aprovado para o acesso apropriado, você poderá ver todos os serviços PaaS e SaaS disponíveis no ExpressRoute. Os Office 365 criados para ExpressRoute podem ser gerenciados com comunidades [BGP](./bgp-communities-in-expressroute.md) ou [filtros de rota.](/azure/expressroute/how-to-routefilter-portal)
   
-Outros aplicativos, como Office 365 Vídeo, são um Office 365 aplicativo; no entanto, Office 365 Video é composto por três componentes diferentes, o portal, o serviço de streaming e a rede de entrega de conteúdo. O portal vive no SharePoint Online, o serviço de streaming vive dentro Serviços de Mídia do Azure e a rede de entrega de conteúdo vive dentro do CDN do Azure. A tabela a seguir descreve esses componentes.
-
-|**Componente**|**Aplicativo subjacente**|**Incluído no SharePoint BGP Online Community?**|**Usar**|
-|:-----|:-----|:-----|:-----|
-|Office 365 Portal de vídeo  <br/> |SharePoint Online  <br/> |Sim  <br/> |Configuração, upload  <br/> |
-|Office 365 Serviço de streaming de vídeo  <br/> |Serviços de Mídia do Azure  <br/> |Não  <br/> |Serviço de streaming, usado no caso de o vídeo não estar disponível no CDN  <br/> |
-|Office 365 Rede de entrega de conteúdo de vídeo  <br/> |CDN do Azure  <br/> |Não  <br/> |Principal fonte de download/streaming de vídeo. [Saiba mais sobre Office 365 rede de vídeo.](https://support.office.com/article/Office-365-Video-networking-Frequently-Asked-Questions-FAQ-2bed67a1-4052-49ff-a4ce-b7e6530eb98e)  <br/> |
-
 Cada um dos Office 365 que estão disponíveis usando o peering da Microsoft estão [listados](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) no artigo Office 365 pontos de extremidade por tipo de aplicativo e FQDN. O motivo para usar o FQDN nas [tabelas](./managing-office-365-endpoints.md) é permitir que os clientes gerenciem o tráfego usando arquivos PAC ou outras configurações de proxy, consulte nosso guia para gerenciar pontos de extremidade Office 365 por exemplo, arquivos PAC.
   
 Em algumas situações, utilizamos um domínio curinga em que um ou mais sub-FQDNs são anunciados de forma diferente do domínio curinga de nível superior. Isso geralmente acontece quando o curinga representa uma longa lista de servidores que são todos anunciados para o ExpressRoute e a Internet, enquanto um pequeno subconjunto de destinos é anunciado apenas para a Internet ou o inverso. Consulte as tabelas abaixo para entender onde estão as diferenças.
@@ -259,6 +251,6 @@ Aqui está um link curto que você pode usar para voltar: [https://aka.ms/erorou
   
 [Plano de solução de problemas de desempenho do Office 365](performance-troubleshooting-plan.md)
   
-[Intervalos de URLs e de endereços IP do Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
+[URLs e intervalos de endereços IP do Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
   
 [Rede do Office 365 e ajuste de desempenho](network-planning-and-performance.md)

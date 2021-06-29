@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2f9d56b7e72befb8acddf6d9f810a7ba5cec1083
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: b82b6993ce9ed5a3f0f3e6e13e8a260a185c9730
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694360"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194968"
 ---
 # <a name="troubleshoot-issues-and-find-answers-to-faqs-on-microsoft-defender-for-endpoint-on-ios"></a>Solucionar problemas e encontrar respostas para perguntas frequentes no Microsoft Defender para Endpoint no iOS
 
@@ -58,7 +58,7 @@ Embora habilitada por padrão, pode haver alguns casos que exigem que você desa
 > [!NOTE]
 > A Proteção da Web não estará disponível quando a VPN estiver desabilitada. Para habilitar a Proteção Web de novo, abra o aplicativo Microsoft Defender para Ponto de Extremidade no dispositivo e clique ou toque em **Iniciar VPN**.
 
-## <a name="issues-with-multiple-vpn-profiles"></a>Problemas com vários perfis VPN
+## <a name="co-existence-with-multiple-vpn-profiles"></a>Co-existência com vários perfis VPN
 
 O iOS da Apple não dá suporte a várias VPNs em **todo** o dispositivo para serem ativas simultaneamente. Embora vários perfis VPN possam existir no dispositivo, apenas uma VPN pode estar ativa por vez.
 
@@ -74,7 +74,11 @@ Além disso, a VPN usada é uma VPN local e, ao contrário de uma VPN tradiciona
 
 ## <a name="data-usage"></a>Uso de dados
 
-O Microsoft Defender para Ponto de Extremidade usa uma VPN local/loopback para verificar o tráfego da Web em busca de sites ou conexões mal-intencionadas. Devido a esse motivo, o uso de dados do Microsoft Defender para Ponto de Extremidade pode ser contabilmente impreciso. O uso real de dados pelo Microsoft Defender para Ponto de Extremidade não é significativo e menor do que o mostrado no data usage Configurações no dispositivo.
+O Microsoft Defender para Ponto de Extremidade usa uma VPN local/loopback para verificar o tráfego da Web em busca de sites ou conexões mal-intencionadas. Devido a esse motivo, o uso de dados do Microsoft Defender para Ponto de Extremidade pode ser contabilmente impreciso. Também observamos que, se o dispositivo estiver apenas na rede celular, o uso de dados relatados pelo provedor de serviços está muito próximo do consumo real, enquanto no aplicativo Configurações, a Apple mostra cerca de 1,5 x a 2x de dados reais consumidos.
+
+Também temos observações semelhantes com outros serviços VPN e relatamos isso à Apple.
+
+Além disso, é fundamental que o Microsoft Defender para o Ponto de Extremidade seja atualizado com nossos serviços de back-end para oferecer melhor proteção. No entanto, estamos trabalhando na otimização do uso de dados pelo Microsoft Defender para Ponto de Extremidade.
 
 ## <a name="report-unsafe-site"></a>Relatar site não seguro
 
