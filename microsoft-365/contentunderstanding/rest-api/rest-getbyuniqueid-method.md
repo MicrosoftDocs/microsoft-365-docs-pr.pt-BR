@@ -11,65 +11,65 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Use a API REST para obter ou atualizar informações sobre um modelo de compreensão de documento do Microsoft Office SharePoint Online Syntex.
-ms.openlocfilehash: aa97e0fde57c6d5200b437a8f9c7187c0980cc5b
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 306bcd894b6339575f8c91ac3c4fb89f2033f3bc
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904154"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177100"
 ---
-# <a name="getbyuniqueid"></a><span data-ttu-id="e80d3-103">GetByUniqueId</span><span class="sxs-lookup"><span data-stu-id="e80d3-103">GetByUniqueId</span></span>
+# <a name="getbyuniqueid"></a><span data-ttu-id="b24f1-103">GetByUniqueId</span><span class="sxs-lookup"><span data-stu-id="b24f1-103">GetByUniqueId</span></span>
 
-<span data-ttu-id="e80d3-104">Obtém ou atualiza informações sobre um modelo de compreensão de documento do Microsoft Office SharePoint Online Syntex (consulte o [exemplo](rest-getbyuniqueid-method.md#examples)).</span><span class="sxs-lookup"><span data-stu-id="e80d3-104">Gets or updates information about a SharePoint Syntex document understanding model (see [example](rest-getbyuniqueid-method.md#examples)).</span></span>
+<span data-ttu-id="b24f1-104">Obtém ou atualiza informações sobre um modelo de compreensão de documento do Microsoft Office SharePoint Online Syntex (consulte o [exemplo](rest-getbyuniqueid-method.md#examples)).</span><span class="sxs-lookup"><span data-stu-id="b24f1-104">Gets or updates information about a SharePoint Syntex document understanding model (see [example](rest-getbyuniqueid-method.md#examples)).</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="e80d3-105">Solicitação HTTP</span><span class="sxs-lookup"><span data-stu-id="e80d3-105">HTTP request</span></span>
-
-```HTTP
-GET /_api/machinelearning/models/getbyuniqueid(‘{modelUniqueId}') HTTP/1.1
-```
-
-<span data-ttu-id="e80d3-106">Esse mesmo método também pode ser usado para excluir um modelo.</span><span class="sxs-lookup"><span data-stu-id="e80d3-106">This same method can be used for deleting a model, too.</span></span> 
+## <a name="http-request"></a><span data-ttu-id="b24f1-105">Solicitação HTTP</span><span class="sxs-lookup"><span data-stu-id="b24f1-105">HTTP request</span></span>
 
 ```HTTP
-DELETE /_api/machinelearning/models/getbyuniqueid(‘{modelUniqueId}') HTTP/1.1
+GET /_api/machinelearning/models/getbyuniqueid('{modelUniqueId}') HTTP/1.1
 ```
-## <a name="uri-parameters"></a><span data-ttu-id="e80d3-107">Parâmetros de URI</span><span class="sxs-lookup"><span data-stu-id="e80d3-107">URI parameters</span></span>
 
-|<span data-ttu-id="e80d3-108">Nome</span><span class="sxs-lookup"><span data-stu-id="e80d3-108">Name</span></span> |<span data-ttu-id="e80d3-109">Em</span><span class="sxs-lookup"><span data-stu-id="e80d3-109">In</span></span> |<span data-ttu-id="e80d3-110">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="e80d3-110">Required</span></span>|<span data-ttu-id="e80d3-111">Tipo</span><span class="sxs-lookup"><span data-stu-id="e80d3-111">Type</span></span>|<span data-ttu-id="e80d3-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="e80d3-112">Description</span></span>|
+<span data-ttu-id="b24f1-106">Esse mesmo método também pode ser usado para excluir um modelo.</span><span class="sxs-lookup"><span data-stu-id="b24f1-106">This same method can be used for deleting a model, too.</span></span> 
+
+```HTTP
+DELETE /_api/machinelearning/models/getbyuniqueid('{modelUniqueId}') HTTP/1.1
+```
+## <a name="uri-parameters"></a><span data-ttu-id="b24f1-107">Parâmetros de URI</span><span class="sxs-lookup"><span data-stu-id="b24f1-107">URI parameters</span></span>
+
+|<span data-ttu-id="b24f1-108">Nome</span><span class="sxs-lookup"><span data-stu-id="b24f1-108">Name</span></span> |<span data-ttu-id="b24f1-109">Em</span><span class="sxs-lookup"><span data-stu-id="b24f1-109">In</span></span> |<span data-ttu-id="b24f1-110">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="b24f1-110">Required</span></span>|<span data-ttu-id="b24f1-111">Tipo</span><span class="sxs-lookup"><span data-stu-id="b24f1-111">Type</span></span>|<span data-ttu-id="b24f1-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="b24f1-112">Description</span></span>|
 |-----|---|--------|----|-----------|
-|<span data-ttu-id="e80d3-113">modelUniqueId</span><span class="sxs-lookup"><span data-stu-id="e80d3-113">modelUniqueId</span></span>|<span data-ttu-id="e80d3-114">consulta</span><span class="sxs-lookup"><span data-stu-id="e80d3-114">query</span></span>|<span data-ttu-id="e80d3-115">True</span><span class="sxs-lookup"><span data-stu-id="e80d3-115">True</span></span>|<span data-ttu-id="e80d3-116">string</span><span class="sxs-lookup"><span data-stu-id="e80d3-116">string</span></span>|<span data-ttu-id="e80d3-117">ID do arquivo do modelo Syntex.</span><span class="sxs-lookup"><span data-stu-id="e80d3-117">ID of the Syntex model file.</span></span>|
+|<span data-ttu-id="b24f1-113">modelUniqueId</span><span class="sxs-lookup"><span data-stu-id="b24f1-113">modelUniqueId</span></span>|<span data-ttu-id="b24f1-114">consulta</span><span class="sxs-lookup"><span data-stu-id="b24f1-114">query</span></span>|<span data-ttu-id="b24f1-115">True</span><span class="sxs-lookup"><span data-stu-id="b24f1-115">True</span></span>|<span data-ttu-id="b24f1-116">string</span><span class="sxs-lookup"><span data-stu-id="b24f1-116">string</span></span>|<span data-ttu-id="b24f1-117">ID do arquivo do modelo Syntex.</span><span class="sxs-lookup"><span data-stu-id="b24f1-117">ID of the Syntex model file.</span></span>|
 
-## <a name="request-headers"></a><span data-ttu-id="e80d3-118">Cabeçalhos de solicitação</span><span class="sxs-lookup"><span data-stu-id="e80d3-118">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="b24f1-118">Cabeçalhos de solicitação</span><span class="sxs-lookup"><span data-stu-id="b24f1-118">Request headers</span></span>
 
-| <span data-ttu-id="e80d3-119">Cabeçalho</span><span class="sxs-lookup"><span data-stu-id="e80d3-119">Header</span></span> | <span data-ttu-id="e80d3-120">Valor</span><span class="sxs-lookup"><span data-stu-id="e80d3-120">Value</span></span> |
+| <span data-ttu-id="b24f1-119">Cabeçalho</span><span class="sxs-lookup"><span data-stu-id="b24f1-119">Header</span></span> | <span data-ttu-id="b24f1-120">Valor</span><span class="sxs-lookup"><span data-stu-id="b24f1-120">Value</span></span> |
 |--------|-------|
-|<span data-ttu-id="e80d3-121">Aceitar</span><span class="sxs-lookup"><span data-stu-id="e80d3-121">Accept</span></span>|<span data-ttu-id="e80d3-122">application/json;odata=verbose</span><span class="sxs-lookup"><span data-stu-id="e80d3-122">application/json;odata=verbose</span></span>|
+|<span data-ttu-id="b24f1-121">Aceitar</span><span class="sxs-lookup"><span data-stu-id="b24f1-121">Accept</span></span>|<span data-ttu-id="b24f1-122">application/json;odata=verbose</span><span class="sxs-lookup"><span data-stu-id="b24f1-122">application/json;odata=verbose</span></span>|
 
-## <a name="request-body"></a><span data-ttu-id="e80d3-123">Corpo da solicitação</span><span class="sxs-lookup"><span data-stu-id="e80d3-123">Request body</span></span>
+## <a name="request-body"></a><span data-ttu-id="b24f1-123">Corpo da solicitação</span><span class="sxs-lookup"><span data-stu-id="b24f1-123">Request body</span></span>
 
-<span data-ttu-id="e80d3-124">Para GET, não é necessário nenhum corpo da solicitação.</span><span class="sxs-lookup"><span data-stu-id="e80d3-124">For GET, no request body is needed.</span></span>
+<span data-ttu-id="b24f1-124">Para GET, não é necessário nenhum corpo da solicitação.</span><span class="sxs-lookup"><span data-stu-id="b24f1-124">For GET, no request body is needed.</span></span>
 
-## <a name="responses"></a><span data-ttu-id="e80d3-125">Respostas</span><span class="sxs-lookup"><span data-stu-id="e80d3-125">Responses</span></span>
+## <a name="responses"></a><span data-ttu-id="b24f1-125">Respostas</span><span class="sxs-lookup"><span data-stu-id="b24f1-125">Responses</span></span>
 
-| <span data-ttu-id="e80d3-126">Nome</span><span class="sxs-lookup"><span data-stu-id="e80d3-126">Name</span></span>   | <span data-ttu-id="e80d3-127">Tipo</span><span class="sxs-lookup"><span data-stu-id="e80d3-127">Type</span></span>  | <span data-ttu-id="e80d3-128">Descrição</span><span class="sxs-lookup"><span data-stu-id="e80d3-128">Description</span></span>|
+| <span data-ttu-id="b24f1-126">Nome</span><span class="sxs-lookup"><span data-stu-id="b24f1-126">Name</span></span>   | <span data-ttu-id="b24f1-127">Tipo</span><span class="sxs-lookup"><span data-stu-id="b24f1-127">Type</span></span>  | <span data-ttu-id="b24f1-128">Descrição</span><span class="sxs-lookup"><span data-stu-id="b24f1-128">Description</span></span>|
 |--------|-------|------------|
-|<span data-ttu-id="e80d3-129">200 OK</span><span class="sxs-lookup"><span data-stu-id="e80d3-129">200 OK</span></span>| |<span data-ttu-id="e80d3-130">Êxito</span><span class="sxs-lookup"><span data-stu-id="e80d3-130">Success</span></span>|
+|<span data-ttu-id="b24f1-129">200 OK</span><span class="sxs-lookup"><span data-stu-id="b24f1-129">200 OK</span></span>| |<span data-ttu-id="b24f1-130">Êxito</span><span class="sxs-lookup"><span data-stu-id="b24f1-130">Success</span></span>|
 
-## <a name="examples"></a><span data-ttu-id="e80d3-131">Exemplos</span><span class="sxs-lookup"><span data-stu-id="e80d3-131">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="b24f1-131">Exemplos</span><span class="sxs-lookup"><span data-stu-id="b24f1-131">Examples</span></span>
 
-### <a name="get-the-contoso-contract-model-by-id"></a><span data-ttu-id="e80d3-132">Obter o modelo de Contrato da Contoso por ID</span><span class="sxs-lookup"><span data-stu-id="e80d3-132">Get the Contoso Contract model by ID</span></span>
+### <a name="get-the-contoso-contract-model-by-id"></a><span data-ttu-id="b24f1-132">Obter o modelo de Contrato da Contoso por ID</span><span class="sxs-lookup"><span data-stu-id="b24f1-132">Get the Contoso Contract model by ID</span></span>
 
-<span data-ttu-id="e80d3-133">Neste exemplo, a ID do modelo de compreensão de documento do Contrato da Contoso é `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span><span class="sxs-lookup"><span data-stu-id="e80d3-133">In this sample, the ID of the Contoso Contract document understanding model is `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span></span>
+<span data-ttu-id="b24f1-133">Neste exemplo, a ID do modelo de compreensão de documento do Contrato da Contoso é `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span><span class="sxs-lookup"><span data-stu-id="b24f1-133">In this sample, the ID of the Contoso Contract document understanding model is `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span></span>
 
-#### <a name="sample-request"></a><span data-ttu-id="e80d3-134">Solicitação de amostra</span><span class="sxs-lookup"><span data-stu-id="e80d3-134">Sample request</span></span>
+#### <a name="sample-request"></a><span data-ttu-id="b24f1-134">Solicitação de amostra</span><span class="sxs-lookup"><span data-stu-id="b24f1-134">Sample request</span></span>
 
 ```HTTP
-GET /_api/machinelearning/models/getbyuniqueid(‘{7645e69d-21fb-4a24-a17a-9bdfa7cb63dc}') HTTP/1.1
+GET /_api/machinelearning/models/getbyuniqueid('7645e69d-21fb-4a24-a17a-9bdfa7cb63dc') HTTP/1.1
 ```
 
-#### <a name="sample-response"></a><span data-ttu-id="e80d3-135">Resposta de amostra</span><span class="sxs-lookup"><span data-stu-id="e80d3-135">Sample response</span></span>
+#### <a name="sample-response"></a><span data-ttu-id="b24f1-135">Resposta de amostra</span><span class="sxs-lookup"><span data-stu-id="b24f1-135">Sample response</span></span>
 
-<span data-ttu-id="e80d3-136">**Código de status:** 204</span><span class="sxs-lookup"><span data-stu-id="e80d3-136">**Status code:** 204</span></span>
+<span data-ttu-id="b24f1-136">**Código de status:** 200</span><span class="sxs-lookup"><span data-stu-id="b24f1-136">**Status code:** 200</span></span>
 
 ```HTTP
 {
@@ -100,16 +100,16 @@ GET /_api/machinelearning/models/getbyuniqueid(‘{7645e69d-21fb-4a24-a17a-9bdfa
     "UniqueId": "7645e69d-21fb-4a24-a17a-9bdfa7cb63dc"
 }
 ```
-### <a name="get-and-delete-the-contoso-contract-model-by-id"></a><span data-ttu-id="e80d3-137">Obter e excluir o modelo de Contrato da Contoso por ID</span><span class="sxs-lookup"><span data-stu-id="e80d3-137">Get and delete the Contoso Contract model by ID</span></span>
+### <a name="get-and-delete-the-contoso-contract-model-by-id"></a><span data-ttu-id="b24f1-137">Obter e excluir o modelo de Contrato da Contoso por ID</span><span class="sxs-lookup"><span data-stu-id="b24f1-137">Get and delete the Contoso Contract model by ID</span></span>
 
-<span data-ttu-id="e80d3-138">Neste exemplo, a ID do modelo de compreensão de documento do Contrato da Contoso é `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span><span class="sxs-lookup"><span data-stu-id="e80d3-138">In this sample, the ID of the Contoso Contract document understanding model is `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span></span>
+<span data-ttu-id="b24f1-138">Neste exemplo, a ID do modelo de compreensão de documento do Contrato da Contoso é `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span><span class="sxs-lookup"><span data-stu-id="b24f1-138">In this sample, the ID of the Contoso Contract document understanding model is `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span></span>
 
-#### <a name="sample-request"></a><span data-ttu-id="e80d3-139">Solicitação de amostra</span><span class="sxs-lookup"><span data-stu-id="e80d3-139">Sample request</span></span>
+#### <a name="sample-request"></a><span data-ttu-id="b24f1-139">Solicitação de amostra</span><span class="sxs-lookup"><span data-stu-id="b24f1-139">Sample request</span></span>
 
 ```HTTP
-DELETE /_api/machinelearning/models/getbyuniqueid(‘{7645e69d-21fb-4a24-a17a-9bdfa7cb63dc}') HTTP/1.1
+DELETE /_api/machinelearning/models/getbyuniqueid('7645e69d-21fb-4a24-a17a-9bdfa7cb63dc') HTTP/1.1
 ```
 
-## <a name="see-also"></a><span data-ttu-id="e80d3-140">Confira também</span><span class="sxs-lookup"><span data-stu-id="e80d3-140">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b24f1-140">Confira também</span><span class="sxs-lookup"><span data-stu-id="b24f1-140">See also</span></span>
 
-[<span data-ttu-id="e80d3-141">API REST do modelo de compreensão de documento Syntex</span><span class="sxs-lookup"><span data-stu-id="e80d3-141">Syntex document understanding model REST API</span></span>](syntex-model-rest-api.md)
+[<span data-ttu-id="b24f1-141">API REST do modelo de compreensão de documentos do Syntex</span><span class="sxs-lookup"><span data-stu-id="b24f1-141">Syntex document understanding model REST API</span></span>](syntex-model-rest-api.md)
