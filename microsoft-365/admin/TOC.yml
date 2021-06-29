@@ -393,7 +393,7 @@
             - name: Privacidade e segurança
               href: basic-mobility-security/privacy-and-security.md
             - name: Perguntas frequentes
-              href: basic-mobility-security/frequently-asked-questions.md
+              href: basic-mobility-security/frequently-asked-questions.yml
             - name: Apagar dispositivos móveis
               href: basic-mobility-security/wipe-mobile-device.md
             - name: Desativar a Mobilidade e Segurança Básica
