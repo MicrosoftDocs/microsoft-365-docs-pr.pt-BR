@@ -25,20 +25,19 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Recomendações de segurança e de colaboração do Microsoft 365 Business Premium para pequenas empresas, incluindo pequenas firmas, práticas e campanhas políticas.
-ms.openlocfilehash: 6c836f5abb118bb3902ecdfaa37acd759faca1fe
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 34f36a86167ebba2ad80cc0046184b3c1997f845
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245023"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177460"
 ---
-<a name="microsoft-365-for-smaller-businesses-and-campaigns"></a>Microsoft 365 para pequenas empresas e campanhas
-===========================
+# <a name="microsoft-365-for-smaller-businesses-and-campaigns"></a>Microsoft 365 para pequenas empresas e campanhas
 
 Se você tem o Microsoft 365 Business Premium, a orientação nesta biblioteca é a maneira mais rápida de configurar a segurança e começar a colaborar com proteção. Em nosso mundo atual, manter dados e comunicações seguras é uma prioridade, especialmente para práticas médicas e jurídicas, campanhas políticas e muitas outras empresas menores. Esta solução fornece um conjunto de recomendações projetadas para ajudar a proteger você e seus dados. Esta biblioteca inclui ajuda para configurar e usar este ambiente recomendado, independentemente do seu tipo de negócio.
 
 
-![O Microsoft 365 Business Premium protege suas ferramentas de produtividade, ferramentas de colaboração, armazenamento de arquivos, e-mail, dispositivos e identidade](../media/M365-WhatIsIt-SecurityFocus.png)
+![O Microsoft 365 Business Premium protege suas ferramentas de produtividade, ferramentas de colaboração, armazenamento de arquivos, e-mail, dispositivos e identidade](../media/M365-WhatIsIt-SecurityFocus.png#lightbox)
 
 Essa configuração inclui as seguintes orientações para produtividade, colaboração, armazenamento de arquivos, email, dispositivos e identidade para proteger sua empresa:
 
@@ -50,8 +49,7 @@ Essa configuração inclui as seguintes orientações para produtividade, colabo
 |Armazenamento e compartilhamento de arquivos com segurança | Compartilhe arquivos e vídeos do Microsoft Teams, OneDrive, SharePoint e Microsoft Stream e proteja dados confidenciais.| [Compartilhe arquivos e vídeos](share-files-and-videos.md) |
 |Dispositivos gerenciados do Windows 10 |Use dispositivos gerenciados para funcionários-chave e proteja esses dispositivos. | [Configure dispositivos gerenciados](../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json) |
 
-<a name="a-recommended-security-configuration-for-microsoft-365-business-premium"></a>Uma configuração de segurança recomendada para Microsoft 365 Business Premium
-------------------------------------
+## <a name="a-recommended-security-configuration-for-microsoft-365-business-premium"></a>Uma configuração de segurança recomendada para Microsoft 365 Business Premium
 
 Esta configuração segura recomendada para o Microsoft 365 Business Premium permite que você:
 
@@ -71,8 +69,7 @@ Esta lista inclui o seguinte:
 
 Para saber mais sobre o que está incluído, confira [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business).
 
-<a name="get-started"></a>Introdução
---------------------------
+## <a name="get-started"></a>Introdução
 
 Siga estas etapas para começar:
 
@@ -80,8 +77,7 @@ Siga estas etapas para começar:
 - Para qualquer empresa: [Saiba como seus usuários trabalharão com o Microsoft 365](m365-campaigns-users.md)
 - Para qualquer empresa: [Configure o Microsoft 365](microsoft-365-campaigns-setup-overview.md)
 
-<a name="solutions-for-your-business"></a>Soluções para sua empresa
---------------------------
+## <a name="solutions-for-your-business"></a>Soluções para sua empresa
 
 Depois de configurar o ambiente seguro da Microsoft 365, você pode usar as seguintes soluções para trabalhar:
 
