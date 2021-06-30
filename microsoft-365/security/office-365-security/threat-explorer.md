@@ -19,12 +19,12 @@ description: Use as detecções do Explorer e em tempo real no portal Microsoft 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bb72c99ae0b80c4091e79801c5515190811324a7
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.openlocfilehash: ee9c4c63817d9c6860942eb8001b02a0535333b1
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/29/2021
-ms.locfileid: "53195028"
+ms.locfileid: "53203251"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Explorador de Ameaças e Detecções em tempo real
 
@@ -56,7 +56,8 @@ Com este relatório, você pode:
 
 ## <a name="improvements-to-threat-hunting-experience"></a>Melhorias na Experiência de Busca de Ameaças
 
-### <a name="introduction-of-alert-id-for-defender-for-office-365-alerts-within-explorerreal-time-detections-preview"></a>Introdução à ID de alerta para o Defender para Office 365 em detecções do Explorer/Em Tempo Real (Visualização)
+
+### <a name="introduction-of-alert-id-for-defender-for-office-365-alerts-within-explorerreal-time-detections"></a>Introdução à ID de alerta do Defender para Office 365 alertas no Explorer/Detecções em tempo real
 
 Hoje, se você navegar de um alerta para o Explorador de Ameaças, ele abrirá uma exibição filtrada dentro do Explorer, com o exibição filtrado pela ID da política de alerta (a ID da política é um identificador exclusivo para uma política de alerta).
 Estamos tornando essa integração mais relevante introduzindo a ID de alerta (consulte um exemplo de ID de alerta abaixo) no Explorador de Ameaças e detecções em tempo real para que você veja mensagens relevantes para o alerta específico, bem como uma contagem de emails. Você também poderá ver se uma mensagem fazia parte de um alerta, bem como navegar dessa mensagem para o alerta específico.
@@ -69,12 +70,12 @@ A ID do alerta está disponível na URL quando você está exibindo um alerta in
 > [!div class="mx-imgBorder"]
 > ![ID do alerta no sobremenu de detalhes](../../media/AlertID-DetailsFlyout.png)
 
-### <a name="extending-the-explorer-and-real-time-detections-data-retention-and-search-limit-for-trial-tenants-from-7-to-30-days-preview"></a>Estendendo a retenção de dados do Explorer (e detecções em tempo real) e o limite de pesquisa para locatários de avaliação de 7 a 30 dias (Visualização)
+### <a name="extending-the-explorer-and-real-time-detections-data-retention-and-search-limit-for-trial-tenants-from-7-to-30-days"></a>Estendendo a retenção de dados do Explorer (e detecções em tempo real) e o limite de pesquisa para locatários de avaliação de 7 a 30 dias
 
 Como parte dessa alteração, você poderá pesquisar e filtrar dados de email por 30 dias (um aumento dos últimos 7 dias) no Explorador de Ameaças/Detecções em tempo real para os locatários de avaliação do Defender para Office P1 e P2.
 Isso não afeta locatários de produção para clientes P1 e P2/E5, que já têm os recursos de pesquisa e retenção de dados de 30 dias.
 
-### <a name="updated-limits-for-export-of-records-for-threat-explorer-preview"></a>Limites atualizados para Exportação de registros para o Explorador de Ameaças (Visualização)
+### <a name="updated-limits-for-export-of-records-for-threat-explorer"></a>Limites atualizados para Exportação de registros para o Explorador de Ameaças
 
 Como parte dessa atualização, o número de linhas para registros de email que podem ser exportados do Explorador de Ameaças é aumentado de 9990 para 200.000 registros. O conjunto de colunas que podem ser exportadas no momento permanecerá o mesmo, mas o número de linhas aumentará do limite atual.
 

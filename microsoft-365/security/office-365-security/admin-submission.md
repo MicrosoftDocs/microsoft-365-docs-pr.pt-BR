@@ -19,12 +19,12 @@ ms.custom:
 description: Os administradores podem aprender a usar o portal Envios no portal Microsoft 365 Defender para enviar emails suspeitos, emails suspeitos de phishing, spam e outras mensagens potencialmente prejudiciais, URLs e anexos de email para a Microsoft para análise de novo.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ab25757c79b7978400e98fa36d48163e1681e7c1
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: eecb635972be85e1a1a4f95c2786f209ee249745
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53061984"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53203275"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft
 
@@ -55,8 +55,7 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
 
 - Para enviar mensagens e arquivos para a Microsoft, você precisa ser membro de um dos seguintes grupos de função:
   - **Gerenciamento da** organização **ou leitor de** segurança no portal Microsoft 365 Defender [.](permissions-microsoft-365-security-center.md)
-  - **Gerenciamento de organização** em [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).
-
+  
     Observe que a associação neste grupo de funções é necessária para Exibir [envios](#view-user-submissions-to-microsoft) de usuário para a caixa de correio personalizada conforme descrito posteriormente neste artigo.
 
 - Para obter mais informações sobre como os usuários podem enviar mensagens e arquivos para a Microsoft, consulte [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).
@@ -142,7 +141,7 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
      - **Motivo de entrega/bloqueio**
      - **ID do envio**
      - **ID de mensagem de rede/ID do objeto**
-     - **Direção**
+     - **Direction**
      - **IP do remetente**
      - **Nível compatível com massa (BCL)**
      - **Destino**

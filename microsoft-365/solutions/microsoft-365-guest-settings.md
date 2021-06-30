@@ -18,12 +18,12 @@ ms.custom:
 localization_priority: Priority
 recommendations: false
 description: Saiba mais sobre as configurações de compartilhamento de convidados disponíveis no Microsoft 365 que podem afetar o compartilhamento com pessoas de fora da sua organização.
-ms.openlocfilehash: b209477e2fa205ebb6b298b7fa9f37c21e2b3d7e
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 622e3ac0c44ec763cffff51773edbe6c64515a11
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625421"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177425"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Referência de configurações de compartilhamento de convidados do Microsoft 365
 
@@ -165,8 +165,10 @@ Como o OneDrive é uma hierarquia de sites no SharePoint, as configurações de 
 | Setting | Padrão | Descrição |
 |:-----|:-----|:-----|
 |Limitar o compartilhamento externo por domínio|Desabilitado|Essa configuração permite especificar uma lista de domínios permitidos ou bloqueados para compartilhamento. Quando domínios permitidos são especificados, convites de compartilhamento só poderão ser enviados para esses domínios. Quando domínios negados são especificados, convites de compartilhamento não poderão ser enviados para esses domínios.<br><br> Essa configuração afeta todos os sites do SharePoint e do OneDrive na organização.|
+|Permita que somente os usuários de grupos específicos de segurança compartilhem externamente|Desligado|Se quer limitar quem pode compartilhar com os convidados no SharePoint e no OneDrive, é possível fazer isso limitando o compartilhamento a pessoas em grupos de segurança especificados. Essas configurações não afetam o compartilhamento por meio dos Grupos do Microsoft 365 ou do Teams. Os convidados que foram convidados por meio de um grupo ou equipe também têm acesso ao site associado, embora o compartilhamento de documentos e pastas só pode ser feito por pessoas nos grupos de segurança especificados.<br><br>Para cada grupo especificado, você pode escolher os usuários que podem compartilhar com links com Qualquer Pessoa.|
 |Convidados devem entrar com a mesma conta que receberam os convites de compartilhamento.|Desabilitado|Impede que os convidados resgatem os convites de compartilhamento de sites usando um endereço de email diferente do envio do convite.<br><br>[A integração do SharePoint e do OneDrive com o Azure AD B2B (versão prévia)](/sharepoint/sharepoint-azureb2b-integration-preview) não usa essa configuração porque todos os convidados são adicionados ao diretório com base no endereço de email do envio do convite. Endereços de email alternativos não podem ser usados para acessar o site.|
 |Permitir que convidados compartilhem itens que não pertencem a eles|Habilitado|Quando está **Habilitado**, os convidados podem compartilhar itens que eles não possuem com outros usuários ou convidados. Quando está **Desabilitado**, não podem. Os convidados sempre poderão compartilhar itens que têm controle completo.|
+|As pessoas que usam um código de verificação devem reautenticar após esses muitos dias|Desligado|Essa configuração permite que você exija que os usuários autenticados com uma senha de uso único precisem se autenticar novamente após um determinado número de dias.|
 
 ### <a name="sharepoint-and-onedrive-file-and-folder-link-settings"></a>Configurações de link para o arquivo e pasta do SharePoint e do OneDrive
 
@@ -182,21 +184,6 @@ Quando arquivos e pastas são compartilhados no SharePoint e no OneDrive, os des
 |Esses links devem expirar dentro desta quantidade de dias|Desabilitado (sem prazo de expiração).|Especifica o número de dias em que um link para *Qualquer pessoa* criado deve expirar. Os links expirados não podem ser renovados. Crie um novo link se precisar continuar compartilhar além do prazo de expiração.|
 |Permissões de arquivo|Exibir e editar|Especifica os níveis de permissão de arquivo disponíveis para os usuários na criação de um link para *Qualquer pessoa*. Se **Visualização** estiver selecionada, os usuários só poderão criar links de arquivo para *Qualquer pessoa* com permissões de visualização. Se **Exibir e editar** estiver selecionado, os usuários poderão escolher entre as permissões de visualização e de visualização e edição quando criarem o link.|
 |Permissões de pastas|Exibir, editar e carregar|Especifica os níveis de permissão de pastas disponíveis para os usuários na criação de um link para *Qualquer pessoa*. Se **Visualização** estiver selecionada, os usuários só poderão criar links de pasta para *Qualquer pessoa* com permissões de visualização. Se **Exibir, editar e carregar** estiver selecionado, os usuários poderão escolher entre as permissões de visualização e de visualização, edição e carregamento quando criarem o link.|
-
-### <a name="sharepoint-and-onedrive-security-group-settings"></a>Configurações de grupo de segurança no SharePoint e no OneDrive
-
-Se quer limitar quem pode compartilhar com os convidados no SharePoint e no OneDrive, é possível fazer isso limitando o compartilhamento a pessoas em grupos de segurança especificados. Essas configurações não afetam o compartilhamento por meio dos Grupos do Microsoft 365 ou do Teams. Os convidados que foram convidados por meio de um grupo ou equipe também têm acesso ao site associado, embora o compartilhamento de documentos e pastas só pode ser feito por pessoas nos grupos de segurança especificados.
-
-**Navegação:** Centro de administração do SharePoint > Compartilhamento > Limitar o compartilhamento externo a grupos de segurança específicos
-
-![Captura de tela das configurações de grupos de segurança de compartilhamento no nível da organização do SharePoint](../media/sharepoint-organization-external-sharing-security-groups.png)
-
-| Setting | Padrão | Descrição |
-|:-----|:-----|:-----|
-|Permitir que somente os usuários em grupos de segurança selecionados compartilhem com usuários externos autenticados|Desabilitado|Quando **Habilitado**, somente as pessoas dos grupos de segurança especificados podem compartilhar com pessoas de fora da organização. Somente links de *Pessoas específicas* estão disponíveis. *Qualquer pessoa* compartilhando está efetivamente desabilito a não ser que **Permitir que apenas usuários dos grupos de segurança selecionados compartilhem com usuários externos autenticados e usem links anônimos** também esteja **Habilitado**.|
-|Permitir que apenas os usuários dos grupos de segurança selecionados compartilhem com usuários externos autenticados e usem links anônimos.|Desabilitado|Quando está **Habilitado**, somente as pessoas dos grupos de segurança especificados podem compartilhar com convidados. Os links *Qualquer pessoa* e *Pessoas específicas* estão disponíveis.|
-
-Essas duas configurações podem ser usadas ao mesmo tempo. Se um usuário tiver um grupo de segurança especificado para as duas configurações, o nível de permissão maior prevalecerá (*Qualquer pessoa* mais *Usuário específico*). Os grupos de segurança aninhados têm suporte.
 
 ## <a name="sharepoint-site-level"></a>SharePoint (nível do site)
 

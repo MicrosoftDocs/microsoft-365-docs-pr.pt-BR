@@ -9,20 +9,18 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 61b84b3c7b6550a8ce426a3e41630a0d3e269c41
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f9d478412d2a1aac6f3e701aca59fcf74ceacce6
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921949"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53203203"
 ---
 # <a name="enable-enterprise-state-roaming"></a>Habilite o roaming do estado da empresa
 
-Para obter a melhor experiência com Área de Trabalho Gerenciada da Microsoft, habilita Enterprise [Roaming](/azure/active-directory/devices/enterprise-state-roaming-overview)de Estado, que permite aos usuários sincronizar com segurança os dados de configurações de usuários e aplicativos na nuvem. Isso significa que eles terão a mesma experiência, independentemente de qual dispositivo Windows entrar. Por exemplo, se você substituir um dos dispositivos Área de Trabalho Gerenciada da Microsoft por um novo, ele terá a aparência e o comportamento exatamente igual ao último.
+[Enterprise Roaming de](/azure/active-directory/devices/enterprise-state-roaming-overview) Estado permite que os usuários sincroniem com segurança os dados de configurações do usuário e do aplicativo para a nuvem. Isso significa que eles terão a mesma experiência, independentemente de qual dispositivo Windows entrar. Por exemplo, se você substituir um dos dispositivos Área de Trabalho Gerenciada da Microsoft por um novo, ele terá a aparência e o comportamento exatamente igual ao último. Enterprise O Roaming de Estado é um recurso opcional para o serviço Área de Trabalho Gerenciada da Microsoft que você pode configurar para seus usuários e não está incluído ou gerenciado como parte do Área de Trabalho Gerenciada da Microsoft.
 
-Para habilitar Enterprise Roaming de Estado, siga as etapas em [Enable Enterprise State Roaming in Azure Active Directory](/azure/active-directory/devices/enterprise-state-roaming-enable)e, em seguida, retorne a essa documentação.
-
-Se você tiver alguma dificuldade com o Enterprise roaming de estado, contate o suporte do [Administrador.](../working-with-managed-desktop/admin-support.md)
+Para habilitar Enterprise Roaming de Estado, siga as etapas em [Enable Enterprise State Roaming in Azure Active Directory](/azure/active-directory/devices/enterprise-state-roaming-enable).
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Etapas para começar a Área de Trabalho Gerenciada da Microsoft
 

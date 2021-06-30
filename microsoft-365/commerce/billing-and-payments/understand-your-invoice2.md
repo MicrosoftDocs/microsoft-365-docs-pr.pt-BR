@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Interprete encargos, cobrança e informações de pagamento em seu Microsoft 365 para fatura ou fatura comercial e como alterar um número de pedido de compra.
 ms.date: 05/04/2021
-ms.openlocfilehash: ba20e390e279d45d56671d49e32250d2db04c220
-ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
+ms.openlocfilehash: 07d8b9fe88849b693388adf4d98813073764676d
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52888368"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53203143"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Compreenda sua conta ou fatura para o Microsoft 365 para Empresas
 
@@ -129,7 +129,7 @@ Se paga por fatura, você pode adicionar ou alterar o número da OC (ordem de co
 ## <a name="related-content"></a>Conteúdo relacionado
 
 [Saiba como encontrar e exibir sua fatura](view-your-bill-or-invoice.md) ou fatura (artigo)\
-[Informações de cobrança para Microsoft 365 para empresas no México](/microsoft-365/commerce/billing-and-payments/mexico-billing-info) (artigo) \
+[Informações de faturamento do Microsoft 365 para empresas no México](mexico-billing-info.md) (artigo) \
 [Alterar seus endereços de cobrança](change-your-billing-addresses.md) (artigo)\
 [Alterar o endereço da sua organização, o email de contato técnico e outras informações](../../admin/manage/change-address-contact-and-more.md) (artigo)\
 [Pagar por sua assinatura Microsoft 365 para empresas](pay-for-your-subscription.md) (artigo)\

@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 81fcfde3442abcb63e04d67df5e6c66a56e3e498
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: 1aa37beef940803a3dd399cec4ff23133a10c5ad
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137758"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53203287"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Configurar políticas antispam no EOP
 
@@ -149,7 +149,7 @@ Ao criar uma política antispam personalizada no Microsoft 365 Defender é gerad
 
      |Ação|Spam|Alto<br>confiança<br>spam|Phishing|Alto<br>confiança<br>phishing|Em massa|
      |---|:---:|:---:|:---:|:---:|:---:|
-     |**Mover mensagem para a pasta Lixo Eletrônico**: a mensagem é enviada para a caixa de correio e movida para a pasta Lixo Eletrônico.<sup>1</sup>|![Marca de seleção](../../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)<sup>\*</sup>|
+     |**Mover mensagem para a pasta Lixo Eletrônico**: a mensagem é enviada para a caixa de correio e movida para a pasta Lixo Eletrônico.<sup>1</sup>|![Marca de seleção](../../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../../media/checkmark.png)||![Marca de seleção](../../media/checkmark.png)<sup>\*</sup>|
      |**Adicionar cabeçalho X**: adiciona um cabeçalho X ao cabeçalho da mensagem e entrega a mensagem à caixa de correio. <p> Digite o nome do campo do cabeçalho X (não o valor) posteriormente na caixa **Adicionar o texto do cabeçalho X**. <p> Para vereditos de **Spam** e de **Spam de alta confiança**, a mensagem é movida para a pasta Lixo eletrônico.<sup>1,2</sup>|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)||![Marca de seleção](../../media/checkmark.png)<sup>\*</sup>|
      |**Preceder a linha de assunto com texto**: adiciona o texto ao início da linha de assunto da mensagem. A mensagem é enviada para a caixa de correio e movida para a pasta Lixo Eletrônico.<sup>1,2</sup> <p> Em seguida, insira o texto na caixa **Prefixar a linha de assunto com este texto**.|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)||![Marca de seleção](../../media/checkmark.png)|
      |**Redirecionar mensagem para endereço de email**: envia a mensagem para outros destinatários em vez de enviá-la aos destinatários pretendidos. <p> Especifique os destinatários posteriormente na caixa **Redirecionar para este endereço de email**.|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|
@@ -182,7 +182,7 @@ Ao criar uma política antispam personalizada no Microsoft 365 Defender é gerad
 
    - **Redirecionar para este endereço de email**: esta caixa é obrigatória e só estará disponível se você selecionar **Redirecionar mensagem para o endereço de email** como a ação para um veredito de filtragem de spam. Digite o endereço de email para o qual você deseja enviar a mensagem. É possível inserir diversos valores separados por ponto e vírgula (;).
 
-   - **Habilitar Dicas de Segurança**: por padrão, as Dicas de Segurança estão habilitadas, mas é possível desabilitá-las desmarcando a caixa de seleção. Para obter mais informações sobre as Dicas de Segurança, confira [Dicas de segurança em mensagens de e-mail](safety-tips-in-office-365.md).
+   - **Habilitar Dicas de Segurança**: por padrão, as Dicas de Segurança estão habilitadas, mas é possível desabilitá-las desmarcando a caixa de seleção.
 
    - **Habilitar ZAP (limpeza automática zero hora)**: a ZAP detecta e realiza ações em mensagens já enviadas a caixas de correio do Exchange Online. Para obter mais informações, confira [Limpeza Automática zero hora: proteção contra spam e malware](zero-hour-auto-purge.md).
 
