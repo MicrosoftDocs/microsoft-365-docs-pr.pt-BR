@@ -20,12 +20,12 @@ ms.custom:
 description: Os administradores podem aprender a usar o treinamento de simulação de ataque para executar ataques simulados de phishing e senha em suas Microsoft 365 E5 ou no Microsoft Defender para organizações Office 365 Plano 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ad86f77399cfa2a3a780d3fed7e483e3c11bc08d
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 1fa10d0d29b76d1631dd349d255b6c386557b5b8
+ms.sourcegitcommit: 2266c2da090bc9a6dc1e01dea07f26901d20d57b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53082895"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53222665"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>Começar a usar o Treinamento de simulação de ataque
 
@@ -52,7 +52,7 @@ Se sua organização tiver um Microsoft 365 E5 ou o Microsoft Defender para Offi
 
 - Não há cmdlets correspondentes do PowerShell para treinamento de simulação de ataque.
 
-- Os dados relacionados à simulação de ataque e treinamento são armazenados com outros dados do cliente para Microsoft 365 serviços. Para obter mais informações, [consulte Microsoft 365 data locations](../../enterprise/o365-data-locations.md). A simulação de ataque está disponível nas seguintes regiões: NAM, APC, EUR, IND, CAN, AUS, FRA, GBR, JPN e KOR.
+- Os dados relacionados à simulação de ataque e treinamento são armazenados com outros dados do cliente para Microsoft 365 serviços. Para obter mais informações, [consulte Microsoft 365 data locations](../../enterprise/o365-data-locations.md). A simulação de ataque está disponível nas seguintes regiões: NAM, APC, EUR, IND, CAN, AUS, FRA, GBR, JPN, KOR, BRA, LAM e CHE.
 
 - A partir de 15 de junho de 2021, o treinamento de simulação de ataque está disponível GCC. Se sua organização tiver Office 365 G5 GCC ou Microsoft Defender para Office 365 (Plano 2) para Governo, você poderá usar o treinamento de simulação de ataque no portal Microsoft 365 Defender para executar cenários de ataque realistas em sua organização, conforme descrito neste artigo. O treinamento de simulação de ataque ainda não está disponível GCC ambientes High ou DoD.
 
