@@ -114,7 +114,7 @@
           href: sit-modify-edm-schema-configurable-match.md
         - name: Crie notificações para atividades de correspondência de dados exata (pré-visualização)
           href: sit-edm-notifications-activities.md
-        - name: Criar um tipo de informação confidencial personalizada - Centro de Conformidade
+        - name: Introdução aos tipos de informações confidenciais personalizados – Centro de Conformidade
           href: create-a-custom-sensitive-information-type.md
         - name: Criar um tipo de informação confidencial personalizada - PowerShell
           href: create-a-custom-sensitive-information-type-in-scc-powershell.md
