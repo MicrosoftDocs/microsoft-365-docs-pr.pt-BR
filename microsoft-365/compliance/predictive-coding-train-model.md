@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: ''
-ms.openlocfilehash: ef6d1cf23d6cca58f4226696bc63c1dea5816cc1
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 84bb34f8ec1b935dc30072e16f57b5f5665c3546
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822468"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226210"
 ---
 # <a name="train-a-predictive-coding-model-preview"></a>Treinar um modelo de codificação preditiva (visualização)
 
@@ -29,11 +29,11 @@ Para revisar o fluxo de trabalho de codificação preditivo, [consulte Learn abo
 
 ## <a name="before-you-train-a-model"></a>Antes de treinar um modelo
 
-- Durante uma rodada de treinamento, rotule itens como **Relevantes** ou **Não relevantes** com base na relevância do conteúdo no documento. Não basee sua decisão nos valores nos campos de metadados. Por exemplo, para mensagens de email ou Teams conversas, não basee sua decisão de rotulagem nos participantes da mensagem. 
+- Durante uma rodada de treinamento, rotule itens como **Relevantes** ou **Não relevantes** com base na relevância do conteúdo no documento. Não basee sua decisão nos valores nos campos de metadados. Por exemplo, para mensagens de email ou Teams conversas, não basee sua decisão de rotulagem nos participantes da mensagem.
 
 ## <a name="train-a-model-for-the-first-time"></a>Treinar um modelo pela primeira vez
 
-1. No centro Microsoft 365 de conformidade, abra uma caixa Advanced eDiscovery e selecione a guia **Revisar conjuntos.**
+1. Na Centro de conformidade do Microsoft 365, abra uma caixa Advanced eDiscovery e selecione a guia **Revisar conjuntos.**
 
 2. Abra um conjunto de revisão e clique em **Análise**  >  **Gerenciar codificação preditiva (visualização)**.
 
@@ -63,10 +63,10 @@ Depois de executar a primeira rodada de treinamento, é iniciado um trabalho que
 
 - Com base na forma como você rotulou os 40 itens no conjunto de treinamento, o modelo aprende com sua rotulagem e se atualiza para se tornar mais preciso.
 
-- Em seguida, o modelo processa cada item em todo o conjunto de revisão e atribui uma pontuação de previsão entre **0** (não relevante) e **1** (relevante).  
+- Em seguida, o modelo processa cada item em todo o conjunto de revisão e atribui uma pontuação de previsão entre **0** (não relevante) e **1** (relevante).
 
 - O modelo atribui uma pontuação de previsão aos 10 itens no conjunto de controle que você rotulou durante a rodada de treinamento. O modelo compara a pontuação de previsão desses 10 itens com o rótulo real atribuído ao item durante a rodada de treinamento. Com base nessa comparação, o modelo identifica a seguinte classificação (chamada de matriz de confusão do conjunto de controle *)* para avaliar o desempenho de previsão do modelo:
-  
+
   |          |Modelo prevê que item é relevante |Modelo prevê item não é relevante |
   |:---------|:---------|:---------|
   |**Item de rótulos do revistor como relevante**| Verdadeiro positivo| Falso positivo |

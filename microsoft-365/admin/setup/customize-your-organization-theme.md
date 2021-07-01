@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: Aprenda a alterar o tema padrão para a parte superior da barra de navegação Microsoft 365 personalizá-lo para corresponder ao logotipo ou cor da sua empresa.
-ms.openlocfilehash: b042090cf2cac9ac3bed705637bd03d721f76ad5
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: 03d62af47e750f9ca8eacc4391d134c48216e691
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53006908"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227770"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Personalizar o Microsoft 365 da sua organização
 
@@ -41,12 +41,12 @@ Você pode adicionar ou atualizar um tema padrão que se aplica a todos em sua o
 
 2. Na guia **Perfil da** Organização, selecione **Temas personalizados**.
 
-Todos os temas podem ser personalizados usando as guias a seguir.
+Todos os temas da organização podem ser personalizados usando as guias a seguir.
 
 |**Tab**|**O que você pode fazer?**|
 |:-----|:-----|
 |[Geral](#general-modify-a-theme) <br/> |Modifique um nome de tema e atribua a até cinco grupos (se aplicável).  <br/> |
-|[Logos](#logos-specify-your-theme-logos) <br/> |Adicione seu logotipo de tema, incluindo o Office de tema escuro e opções móveis.  <br/> |
+|[Logos](#logos-specify-your-theme-logos) <br/> |Adicione o logotipo da sua organização, incluindo logotipo alternativo para tema escuro.  <br/> |
 |[Colors](#colors-choose-theme-colors) <br/> |Personalize um esquema de cores especificando as cores da barra de navegação, ênfase, texto e ícone. <br/> |
 
 ## <a name="general-modify-a-theme"></a>Geral: Modificar um tema
@@ -64,7 +64,7 @@ O tema padrão é o primeiro tema exibido.
 > [!IMPORTANT]
 > O tema padrão é exclusivo, não pode ser renomeado e se aplica a todos na sua organização. Para excluir o tema padrão, você precisa excluir todos os outros temas primeiro.
 
-:::image type="content" source="../../media/default-theme-general.png" alt-text="Captura de tela: Guia geral mostrando o tema padrão para sua organização":::
+:::image type="content" source="../../media/Default_Theme_Panel1.png" alt-text="Captura de tela: Guia geral mostrando o tema padrão para sua organização":::
 
 ### <a name="create-a-group-theme"></a>Criar um tema de grupo
 
@@ -76,7 +76,7 @@ Você pode criar até quatro temas de grupo adicionais.
 
 3. Selecione **Salvar**.
 
-:::image type="content" source="../../media/default-theme-general-users.png" alt-text="Captura de tela: Guia geral mostrando o tema padrão para um grupo de usuários em sua organização":::
+:::image type="content" source="../../media/default-theme-general-users1.png" alt-text="Captura de tela: Guia geral mostrando o tema padrão para um grupo de usuários em sua organização":::
 
 ## <a name="logos-specify-your-theme-logos"></a>Logotipos: especifique seus logotipos de tema
 
@@ -84,9 +84,11 @@ Na página **Logos,** você pode adicionar seus logotipos e especificar a URL pa
 
 - **Logotipo padrão**: Adicione um local de URL que aponta para seu logotipo. Certifique-se de que a URL use HTTPS. Adicione uma URL de imagem HTTPS que permite acesso anônimo e não exige autenticação. Para o tema padrão, você também tem uma opção para carregar uma imagem de logotipo com menos de 10kb. Seu logotipo padrão pode estar no formato JPG, PNG, GIF ou SVG. Para imagens SVG, elas serão resized para caber 24 pixels verticalmente. As imagens JPG, PNG, GIF serão dimensionados para caber 200 x 48 pixels. A proporção de logotipo sempre será preservada.
 - **Logotipo alternativo**: Adicione um local de URL que aponta para seu logotipo. Seu logotipo alternativo deve ser otimizado para uso em Office temas escuros. Os mesmos requisitos do logotipo padrão.
-- **Link ao clicar**: Adicione um local de URL que aponta para seu logotipo. Você pode usar seu logotipo como um link para qualquer recurso da empresa, por exemplo, o site da sua empresa.
+- **Link ao clicar**: Adicione um local de URL que aponta para seu logotipo. Você pode usar seu logotipo como um link para qualquer recurso da empresa, por exemplo, o site da sua empresa. Se você não selecionar um local de URL para seu logotipo, ele será padrão para a página inicial Office página inicial.
 
 Selecione **Salvar** para salvar suas alterações.
+
+:::image type="content" source="../../media/Logos_Tab.png" alt-text="Captura de tela: guia Logotipos mostrando as opções de logotipo":::
 
 Você pode remover seus logotipos a qualquer momento. Basta retornar à página **Logos** e selecione **Remover**.
   
@@ -98,9 +100,8 @@ Na página **Cores,** você pode definir as cores padrão e escolher qual logoti
 - **Cor de texto e ícone:** selecione uma cor a ser usada para o texto e os ícones na barra de navegação superior.
 - **Cor do** destaque : escolha uma que aparece bem em um plano de fundo branco ou claro. A cor do destaque é usada para colorir alguns links e botões que aparecem em um plano de fundo branco ou claro. Por exemplo, a cor do destaque é usada para colorir elementos na caixa de entrada de um usuário e na página de portal Office.com.
 - **Cor de** redefinição: selecione este link para redefinir as cores para as cores padrão.
-- **Qual logotipo deve ser usado?**: Selecione logotipos padrão ou quaisquer outros logotipos que você mesmo criou.
 
-:::image type="content" source="../../media/default-theme-colors.png" alt-text="Captura de tela: guia Cores mostrando cores de tema padrão para sua organização":::
+:::image type="content" source="../../media/default-theme-colors1.png" alt-text="Captura de tela: guia Cores mostrando cores de tema padrão para sua organização":::
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
@@ -137,7 +138,7 @@ O tema padrão só pode ser excluído depois que todos os temas do grupo são ex
 
 ### <a name="why-am-i-receiving-an-error-message-every-time-i-uploadalogo-url"></a>Por que estou recebendo uma mensagem de erro sempre que carrego uma URL de logotipo.  
 
-Certifique-se de que o logotipo que você está usando seja especificado como uma URL publicamente acessível. Siga estas etapas para carregar logotipos no [Azure Blob](/azure/storage/blobs/storage-upload-process-images?tabs=dotnet) Armazenamento ou no Office 365 Rede de Fornecimento de Conteúdo [com SharePoint Online.](../../enterprise/use-microsoft-365-cdn-with-spo.md)
+Certifique-se de que o logotipo que você está usando seja especificado como uma URL publicamente acessível. Siga estas etapas para [carregar logotipos no Azure Blob](/azure/storage/blobs/storage-upload-process-images?tabs=dotnet) Armazenamento ou no Office 365 Rede de Distribuição de Conteúdo [com SharePoint Online.](../../enterprise/use-microsoft-365-cdn-with-spo.md)
 
 ### <a name="why-am-i-receiving-themessagedoesnt-meet-minimum-color-contrast-ratio-of-451"></a>Por que estou recebendo a mensagem "Não encontra taxa mínima de contraste de cor de 4,5:1"?
 

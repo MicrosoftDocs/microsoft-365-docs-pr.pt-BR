@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 30363b544d9016b10dd9aad463d33c40065da0f3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1864c34f1e7bb17decfaeb2057dfff463a33b37c
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919807"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226342"
 ---
 # <a name="learn-about-insider-risk-management-in-microsoft-365"></a>Saiba mais sobre o gerenciamento de risco interno no Microsoft 365
 
@@ -89,7 +89,7 @@ Você pode selecionar entre os seguintes modelos de política para começar rapi
 Os alertas são gerados automaticamente por indicadores de risco que corresponderem às condições da política e são exibidos no [painel Alertas.](insider-risk-management-alerts.md) Esse painel permite uma exibição rápida de todos os alertas que precisam de revisão, alertas abertos ao longo do tempo e estatísticas de alerta para a sua organização. Todos os alertas de política são exibidos com as seguintes informações para ajudá-lo a identificar rapidamente o status de alertas existentes e novos alertas que precisam de ação:
 
 - Status
-- Severity
+- Gravidade
 - Tempo detectado
 - Caso
 - Status da ocorrência
@@ -118,7 +118,7 @@ A seleção de um caso no painel de controle do caso abre o caso para investiga�
 
 Além disso, o novo log de [auditoria (visualização)](insider-risk-management-audit-log.md) permite que você fique informado das ações que foram tomadas em recursos de gerenciamento de riscos insider. Esse recurso permite uma revisão independente das ações tomadas pelos usuários atribuídos a um ou mais grupos de função de gerenciamento de riscos insider.
 
-### <a name="action"></a>Action
+### <a name="action"></a>Ação
 
 Depois que os casos são investigados, os revisadores podem agir rapidamente para resolver o caso ou colaborar com outros participantes de risco em sua organização. Se os usuários violarem acidentalmente ou inadvertidamente as condições da política, um aviso de lembrete simples poderá ser enviado para o usuário a partir de modelos de aviso que você pode personalizar para sua organização. Esses avisos podem servir como lembretes simples ou pode direcionar o usuário para o treinamento ou orientação de atualização para ajudar a evitar comportamentos futuros de risco. Para obter mais informações, consulte [Modelos de notificações do gerenciamento de risco interno](insider-risk-management-notices.md).
 
@@ -127,8 +127,8 @@ Nas situações mais sérias, talvez seja necessário compartilhar as informaç�
 - **Advanced eDiscovery:** a escalada de um caso de investigação permite transferir dados e gerenciamento do caso para Advanced eDiscovery no Microsoft 365. A Descoberta Eletrônica Avançada fornece um fluxo de trabalho completo para preservar, coletar, revisar, analisar e exportar conteúdos adequados às investigações internas e externas da sua organização. Ela também permite que sua equipe jurídica gerencie todo o fluxo de trabalho de notificação de retenção legal. Para saber mais sobre os casos de Descoberta Eletrônica Avançada, consulte [Visão Geral da Descoberta Eletrônica Avançada do Microsoft 365](overview-ediscovery-20.md).
 - Office 365 integração de APIs de gerenciamento **(visualização)**: o gerenciamento de riscos do Insider dá suporte à exportação de informações de alerta para serviços de gerenciamento de informações de segurança e de eventos (SIEM) por meio das APIs de gerenciamento Office 365. Ter acesso às informações de alerta na plataforma é o melhor para os processos de risco da sua organização, dando mais flexibilidade em como agir em atividades de risco. Para saber mais sobre como exportar informações de alerta com Office 365 DE Gerenciamento, consulte [Exportar alertas](insider-risk-management-settings.md#export-alerts-preview).
 
->[!NOTE]
->Obrigado por seus comentários e suporte durante a visualização do conector ServiceNow. Decidimos encerrar a visualização do conector ServiceNow e interromper o suporte no gerenciamento de riscos insider em 30 de novembro de 2020. Estamos avaliando ativamente métodos alternativos para fornecer aos clientes a integração do ServiceNow no gerenciamento de riscos insider.
+> [!NOTE]
+> Obrigado por seus comentários e suporte durante a visualização do conector ServiceNow. Decidimos encerrar a visualização do conector ServiceNow e interromper o suporte no gerenciamento de riscos insider em 30 de novembro de 2020. Estamos avaliando ativamente métodos alternativos para fornecer aos clientes a integração do ServiceNow no gerenciamento de riscos insider.
 
 ## <a name="scenarios"></a>Cenários
 

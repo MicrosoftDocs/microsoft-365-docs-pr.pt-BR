@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 23c2ed180606e61820c6e736e472aef0ae4933a5
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
-ms.translationtype: HT
+ms.openlocfilehash: f64fcf4908f119e261b07bbc4feaed2151e30187
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445681"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226426"
 ---
 # <a name="insider-risk-management-policies"></a>Políticas de gerenciamento de risco interno
 
@@ -52,8 +52,8 @@ Modelos de gerenciamento de risco interno são condições de política pré-def
 
 Quando os usuários deixam sua organização, há indicadores de risco específicos normalmente associados ao furto de dados por estes usuários em processo de desligamento. Este modelo de política usa indicadores de exfiltração para pontuação de risco e se concentra na detecção e nos alertas nesta área de risco. O furto de dados por usuários em processo de desligamento pode incluir o download de arquivos do SharePoint Online, impressão de arquivos e cópia de dados para serviços de armazenamento e mensagens pessoais na nuvem próximos à data de demissão e/ou término do emprego. Usando o conector de RH do Microsoft 365 ou a opção de monitorar automaticamente a exclusão da conta do usuário no Azure Active Directory para sua organização, este modelo começa a pontuar os indicadores de risco relacionados a essas atividades e como eles se correlacionam com o status de emprego do usuário.
 
->[!IMPORTANT]
->Ao usar este modelo, você pode configurar um conector de RH do Microsoft 365 para importar periodicamente informações de demissão e data de rescisão para os usuários na sua organização. Consulte o artigo [Importar dados com o conector de RH ](import-hr-data.md) para obter orientações passo a passo para configurar o conector de RH do Microsoft 365 para sua organização. Se você optar por não usar o conector de RH, deverá selecionar a opção Conta de usuário excluída do Azure AD ao configurar eventos de gatilho no assistente de política.
+> [!IMPORTANT]
+> Ao usar este modelo, você pode configurar um conector de RH do Microsoft 365 para importar periodicamente informações de demissão e data de rescisão para os usuários na sua organização. Consulte o artigo [Importar dados com o conector de RH ](import-hr-data.md) para obter orientações passo a passo para configurar o conector de RH do Microsoft 365 para sua organização. Se você optar por não usar o conector de RH, deverá selecionar a opção Conta de usuário excluída do Azure AD ao configurar eventos de gatilho no assistente de política.
 
 ### <a name="general-data-leaks"></a>Vazamento de dados gerais
 
@@ -74,8 +74,8 @@ Ao criar ou modificar políticas DLP para uso com políticas de gerenciamento de
 
     ![Configuração de alerta de política DLP](../media/insider-risk-DLP-policy-high-severity.png)
 
-     >[!NOTE]
-     >Ao criar uma nova política DLP usando os modelos internos, você precisará selecionar a opção **Criar ou personalizar regras DLP avançadas** para definir a configuração de **Relatórios de incidentes** para o nível de *Alta* severidade.
+     > [!NOTE]
+     > Ao criar uma nova política DLP usando os modelos internos, você precisará selecionar a opção **Criar ou personalizar regras DLP avançadas** para definir a configuração de **Relatórios de incidentes** para o nível de *Alta* severidade.
 
 Cada política de gerenciamento de risco interno criada a partir do modelo de **Vazamento de dados** pode ter apenas uma política DLP atribuída. Considere a criação de uma política DLP dedicada que combina as diferentes atividades que você deseja detectar e atuar como eventos de disparo para políticas de risco interno que usam o modelo de **Vazamento de dados**.
 
@@ -164,8 +164,8 @@ Essas políticas de gerenciamento de risco interno podem usar indicadores espec�
 - **Ofuscação**: Esses sinais de categoria se concentram no mascaramento de atividades de risco por usuários de políticas de escopo. Um exemplo de atividade nesta categoria seria renomear arquivos em um dispositivo.
 - **Limpeza**: Estes sinais de categoria se concentram nas atividades de eliminação pelos usuários da política de escopo. Um exemplo de atividade nesta categoria seria excluir os arquivos de um dispositivo.
 
->[!NOTE]
->A detecção de sequência usa indicadores habilitados nas configurações globais para gerenciamento de risco interno e indicadores selecionados em uma política. Se os indicadores apropriados não forem selecionados, a detecção de sequência não funcionará.
+> [!NOTE]
+> A detecção de sequência usa indicadores habilitados nas configurações globais para gerenciamento de risco interno e indicadores selecionados em uma política. Se os indicadores apropriados não forem selecionados, a detecção de sequência não funcionará.
 
 Você pode personalizar as configurações de limites individuais para cada tipo de detecção de sequência quando configurado na política. Estas configurações de limite ajustam os alertas com base no volume de arquivos associados à seqüência.
 
@@ -182,8 +182,8 @@ A detecção de exfiltração cumulativa é habilitada por padrão ao usar os se
 - - Vazamento de dados por usuários prioritários
 - - Vazamento de dados por usuários insatisfeitos
 
->[!NOTE]
->A detecção de exfiltração cumulativa usa indicadores de exfiltração habilitados nas configurações globais para gerenciamento de risco interno e indicadores de exfiltração selecionados em uma política. Como tal, a detecção de exfiltração cumulativa é avaliada apenas para os indicadores de exfiltração necessários selecionados.
+> [!NOTE]
+> A detecção de exfiltração cumulativa usa indicadores de exfiltração habilitados nas configurações globais para gerenciamento de risco interno e indicadores de exfiltração selecionados em uma política. Como tal, a detecção de exfiltração cumulativa é avaliada apenas para os indicadores de exfiltração necessários selecionados.
 
 Quando a detecção de exfiltração cumulativa está habilitada para políticas de furto ou vazamento de dados, os insights das atividades de exfiltração cumulativa são exibidos na guia **Atividade do usuário** em um caso de gerenciamento de risco interno.
 
@@ -260,8 +260,8 @@ Conclua as seguintes etapas para criar uma nova política:
 2. Selecione **Criar política** para abrir o assistente de política.
 3. Na página **Modelo de política**, escolha uma categoria de política e depois selecione o modelo para a nova política. Esses modelos são compostos por condições e indicadores que definem as atividades de risco que você deseja detectar e investigar. Revise os pré-requisitos do modelo, eventos de disparo e atividades detectadas para confirmar se este modelo de política atende às suas necessidades.
 
-    >[!IMPORTANT]
-    >Alguns modelos de políticas têm pré-requisitos que devem ser configurados para que a política gere alertas relevantes. Se você não configurou os pré-requisitos da política aplicável, consulte a **Etapa 4** acima.
+    > [!IMPORTANT]
+    > Alguns modelos de políticas têm pré-requisitos que devem ser configurados para que a política gere alertas relevantes. Se você não configurou os pré-requisitos da política aplicável, consulte a **Etapa 4** acima.
 
 4. Selecione **Avançar** para continuar.
 5. Na página **Nom e descrição**, complete os seguintes campos:
@@ -287,8 +287,8 @@ Conclua as seguintes etapas para criar uma nova política:
 12. Selecione **Avançar** para continuar.
 13. Na página **Indicadores e eventos de disparo**, você verá os [indicadores](insider-risk-management-settings.md#indicators) que definiu como disponíveis na página **Configurações de risco interno** > **Indicadores**. Se você selecionou um modelo de *Vazamento de dados* no início do assistente, deve selecionar uma política DLP na lista suspensa de **Política DLP** para ativar os indicadores de disparo para a política ou selecionar o evento de disparo interno.
 
-    >[!IMPORTANT]
-    >Se os indicadores nesta página não puderem ser selecionados, você precisará selecionar os indicadores que deseja habilitar para todas as políticas. Você pode usar o botão **Ativar indicadores** no assistente ou selecionar indicadores na página **Gerenciamento de risco interno** > **Configurações** > **Indicadores de política**.
+    > [!IMPORTANT]
+    > Se os indicadores nesta página não puderem ser selecionados, você precisará selecionar os indicadores que deseja habilitar para todas as políticas. Você pode usar o botão **Ativar indicadores** no assistente ou selecionar indicadores na página **Gerenciamento de risco interno** > **Configurações** > **Indicadores de política**.
 
     Selecione os indicadores que deseja aplicar à política. Se você preferir não usar as configurações padrão de limite de política para esses indicadores, desabilite o **Uso de limites de indicador recomendados pela Microsoft** e digite os valores de limite para cada indicador selecionado.
 
@@ -332,8 +332,8 @@ Conclua as seguintes etapas para gerenciar uma política existente:
 12. Selecione **Avançar** para continuar.
 13. Na página **Indicadores e eventos de disparo**, você verá os [indicadores](insider-risk-management-settings.md#indicators) que definiu como disponíveis na página **Configurações de risco interno** > **Indicadores**. Se você selecionou um modelo de *Vazamento de dados* no início do assistente, deve selecionar uma política DLP na lista suspensa de **Política DLP** para ativar os indicadores de disparo para a política ou selecionar o evento de disparo interno.
 
-    >[!IMPORTANT]
-    >Se os indicadores nesta página não puderem ser selecionados, você precisará selecionar os indicadores que deseja habilitar para todas as políticas. Você pode usar o botão **Ativar indicadores** no assistente ou selecionar indicadores na página **Gerenciamento de risco interno** > **Configurações** > **Indicadores de política**.
+    > [!IMPORTANT]
+    > Se os indicadores nesta página não puderem ser selecionados, você precisará selecionar os indicadores que deseja habilitar para todas as políticas. Você pode usar o botão **Ativar indicadores** no assistente ou selecionar indicadores na página **Gerenciamento de risco interno** > **Configurações** > **Indicadores de política**.
 
     Selecione os indicadores que deseja aplicar à política. Se você preferir não usar as configurações padrão de limite de política para esses indicadores, desabilite o **Uso de limites de indicador recomendados pela Microsoft** e digite os valores de limite para cada indicador selecionado.
 
@@ -366,8 +366,8 @@ Alguns cenários em que você pode querer começar imediatamente a pontuar as at
 - Quando há um incidente que pode exigir que você comece imediatamente a atribuir pontuações de risco à atividade dos usuários envolvidos para uma ou mais das suas políticas
 - Quando você ainda não configurou seu conector de RH, mas deseja começar a atribuir pontuações de risco às atividades do usuário para eventos de RH, carregando um arquivo .csv para os usuários
 
->[!NOTE]
->Pode levar várias horas para que novos usuários acrescentados manualmente apareçam no painel **Usuários**. As atividades dos últimos 90 dias para esses usuários podem levar até 24 horas para serem exibidas. Para visualizar atividades para usuários adicionados manualmente, navegue até a guia **Usuários** e selecione o usuário no painel **Usuários** e abra a guia **Atividade do usuário** no painel de detalhes.
+> [!NOTE]
+> Pode levar várias horas para que novos usuários acrescentados manualmente apareçam no painel **Usuários**. As atividades dos últimos 90 dias para esses usuários podem levar até 24 horas para serem exibidas. Para visualizar atividades para usuários adicionados manualmente, navegue até a guia **Usuários** e selecione o usuário no painel **Usuários** e abra a guia **Atividade do usuário** no painel de detalhes.
 
 Para começar manualmente a pontuar as atividades do usuários em uma ou mais políticas de gerenciamento de risco interno, complete as seguintes etapas:
 
@@ -393,8 +393,8 @@ Para parar de pontuar os usuários em uma política, consulte o artigo [Usuário
 
 ## <a name="delete-a-policy"></a>Excluir uma política
 
->[!NOTE]
->A exclusão de uma política não exclui os alertas ativos ou arquivados gerados a partir da política.
+> [!NOTE]
+> A exclusão de uma política não exclui os alertas ativos ou arquivados gerados a partir da política.
 
 Para excluir uma política de gerenciamento de risco interno existente, complete as seguintes etapas:
 

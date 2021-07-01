@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Com o gerenciamento de registros no Microsoft 365, você pode aplicar seus agendamentos de retenção em um plano de arquivo que gerencia a retenção, a declaração e a disposição dos registros.
-ms.openlocfilehash: 853303dcaffcbacfcf805b8617b836254cf31ad8
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 1af3ff5fac9a95afb15f680f8f46e8d0de0b4567
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245427"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226042"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Saiba mais sobre gerenciamento de registros no Microsoft 365
 
@@ -70,11 +70,11 @@ Usando rótulos de retenção para declarar registros, você pode implementar um
 
 ### <a name="compare-restrictions-for-what-actions-are-allowed-or-blocked"></a>Comparar restrições para quais ações são permitidas ou bloqueadas
 
-Use a tabela a seguir para identificar quais restrições são colocadas no conteúdo como resultado da aplicação de um rótulo de retenção padrão e de rótulos de retenção que marcam o conteúdo como registro regulatório ou registro. 
+Use a tabela a seguir para identificar quais restrições são colocadas no conteúdo como resultado da aplicação de um rótulo de retenção padrão e de rótulos de retenção que marcam o conteúdo como registro regulatório ou registro.
 
 Um rótulo de retenção padrão tem configurações de retenção e ações, mas não marca o conteúdo como um registro ou um registro regulatório.
 
->[!NOTE] 
+> [!NOTE]
 > Para garantir a integridade, a tabela inclui colunas para um registro bloqueado e desbloqueado, aplicável ao SharePoint e OneDrive, mas não ao Exchange. A capacidade de bloquear e desbloquear um registro usa o [controle de versão do registro](record-versioning.md) que não tem suporte para itens do Exchange. Portanto, para todos os itens do Exchange marcados como registro, o comportamento é mapeado para a coluna **Registro - bloqueado** e a coluna **Registro - desbloqueado** não é relevante.
 
 
@@ -94,19 +94,20 @@ Notas de rodapé:
 
 <sup>1</sup> Com suporte do OneDrive e Exchange, mantendo uma cópia em um local seguro, mas bloqueado pelo SharePoint.
 
-Quando você aplica um rótulo de retenção a um item de lista que tem um anexo de documento, esse documento não herda as configurações de retenção e pode ser excluído do item da lista. Em comparação, se esse item da lista fosse declarado um registro com um rótulo de retenção, o anexo do documento herdaria as configurações de retenção e não poderia ser excluído. 
+Quando você aplica um rótulo de retenção a um item de lista que tem um anexo de documento, esse documento não herda as configurações de retenção e pode ser excluído do item da lista. Em comparação, se esse item da lista fosse declarado um registro com um rótulo de retenção, o anexo do documento herdaria as configurações de retenção e não poderia ser excluído.
 
 <sup>2</sup> Os contêineres incluem bibliotecas de documentos do SharePoint, contas do OneDrive e caixas de correio do Exchange.
 
->[!IMPORTANT] 
-> A diferença mais importante para um registro regulatório é que depois que ele é aplicado ao conteúdo, ninguém, nem mesmo um administrador global, pode remover o rótulo. 
+> [!IMPORTANT]
+> A diferença mais importante para um registro regulatório é que depois que ele é aplicado ao conteúdo, ninguém, nem mesmo um administrador global, pode remover o rótulo.
 >
 > Rótulos de retenção configurados para registros regulatórios também têm as seguintes restrições de administrador:
+>
 > - Não é possível tornar o período de retenção mais curto depois que o rótulo é salvo, somente estendido.
-> - Esses rótulos não têm suporte por políticas de rotulamento automático e devem ser aplicados usando [políticas de rótulo de retenção](create-apply-retention-labels.md). 
+> - Esses rótulos não têm suporte por políticas de rotulamento automático e devem ser aplicados usando [políticas de rótulo de retenção](create-apply-retention-labels.md).
 >
 > Além disso, uma etiqueta regulamentar não pode ser aplicada a um documento que foi retirado no Microsoft Office SharePoint Online.
-> 
+>
 > Por causa das restrições e ações irreversíveis, certifique-se de que realmente precisa usar registros regulatórios antes de selecionar esta opção para seus rótulos de retenção. Para ajudar a evitar a configuração acidental, essa opção não está disponível por padrão, mas deve ser habilitada primeiro usando o Windows PowerShell. As instruções estão incluídas no [Declarar registros usando os rótulos de retenção](declare-records.md).
 
 ## <a name="configuration-guidance"></a>Instruções de configuração

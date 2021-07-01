@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-compliance
 localization_priority: Normal
 description: Saiba mais sobre tarefas que ajudarão você a começar rapidamente com a conformidade Microsoft 365.
-ms.openlocfilehash: 3f93eb31800d158a33b1f3c0acdd48d650b2153e
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 61a057c3666faae51a012dd9db2d4c63ded0f77a
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52113387"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227254"
 ---
 # <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Tarefas rápidas de introdução ao Centro de conformidade do Microsoft 365.
 
@@ -30,7 +30,7 @@ Depois de concluir essas tarefas básicas de conformidade, considere expandir a 
 
 ## <a name="task-1-configure-compliance-permissions"></a>Tarefa 1: Configurar permissões de conformidade
 
-É importante gerenciar quem na sua organização tem acesso ao centro de conformidade Microsoft 365 para exibir conteúdo e executar tarefas de gerenciamento. Microsoft 365 fornece funções administrativas específicas para conformidade e para o uso das ferramentas incluídas no Microsoft 365 de conformidade.
+É importante gerenciar quem na sua organização tem acesso ao Centro de conformidade do Microsoft 365 exibir conteúdo e executar tarefas de gerenciamento. Microsoft 365 fornece funções administrativas específicas para conformidade e para o uso das ferramentas incluídas no Centro de conformidade do Microsoft 365.
 
 Comece atribuindo permissões de conformidade às pessoas em sua organização para que possam executar essas tarefas e impedir que pessoas não autorizadas tenham acesso a áreas fora de suas responsabilidades. Você vai querer garantir que as pessoas adequadas foram  atribuídas ao  administrador de dados de Conformidade e às funções de administrador de Conformidade antes de começar a configurar e implementar soluções de conformidade incluídas no Microsoft 365. Você também precisará atribuir usuários à função de leitor Azure Active Directory global para exibir dados no Gerenciador de Conformidade.
 
@@ -44,10 +44,10 @@ Para obter orientações passo a passo para configurar permissões e atribuir pe
 
 Para obter orientações passo a passo para começar a trabalhar com o Gerenciador de Conformidade, consulte [Get started with Compliance Manager](compliance-manager-setup.md).
 
->[!IMPORTANT]
->A segurança e a conformidade são fortemente integradas para a maioria das organizações. É importante que sua organização aborda as áreas básicas de segurança, proteção contra ameaças e gerenciamento de identidade e acesso para ajudar a fornecer uma abordagem aprofundada de defesa à segurança e à conformidade.
+> [!IMPORTANT]
+> A segurança e a conformidade são fortemente integradas para a maioria das organizações. É importante que sua organização aborda as áreas básicas de segurança, proteção contra ameaças e gerenciamento de identidade e acesso para ajudar a fornecer uma abordagem aprofundada de defesa à segurança e à conformidade.
 >
->Verifique sua [Microsoft 365 Pontuação](../security/defender/microsoft-secure-score.md) Segura no centro de segurança Microsoft 365 e concluindo as tarefas descritas nos seguintes artigos:
+> Verifique sua [Microsoft 365 Pontuação](../security/defender/microsoft-secure-score.md) Segura no centro de segurança Microsoft 365 e concluindo as tarefas descritas nos seguintes artigos:
 >
 > - [Roteiro de segurança - Principais prioridades para os primeiros 30 dias, 90 dias e além](../security/office-365-security/security-roadmap.md)
 > - [Principais 12 tarefas para equipes de segurança para dar suporte ao trabalho em casa](../security/top-security-tasks-for-remote-work.md)
@@ -56,7 +56,7 @@ Para obter orientações passo a passo para começar a trabalhar com o Gerenciad
 
 Agora que você determinou o estado atual da sua organização e quem pode gerenciar funções de conformidade, a próxima etapa é garantir que você tenha os dados para conduzir investigações de conformidade e gerar relatórios para atividades de rede e usuários em sua organização. Habilite a auditoria também é um pré-requisito importante para soluções de conformidade abordadas posteriormente neste artigo.
 
-Os insights fornecidos pelo log de auditoria são uma ferramenta valiosa para ajudar a corresponder seus requisitos de conformidade a soluções que podem ajudá-lo a gerenciar e monitorar áreas de conformidade que precisam de aperfeiçoamento. O log de auditoria deve ser habilitado antes que as atividades sejam gravadas e antes que você possa pesquisar o log de auditoria. Quando habilitada, a atividade do usuário e do administrador da sua organização é registrada no log de auditoria e mantida por 90 dias e até um ano, dependendo da licença atribuída aos usuários.
+Insights fornecidos pelo log de auditoria são uma ferramenta valiosa para ajudar a corresponder seus requisitos de conformidade a soluções que podem ajudá-lo a gerenciar e monitorar áreas de conformidade que precisam ser melhoradas. O log de auditoria deve ser habilitado antes que as atividades sejam gravadas e antes que você possa pesquisar o log de auditoria. Quando habilitada, a atividade do usuário e do administrador da sua organização é registrada no log de auditoria e mantida por 90 dias e até um ano, dependendo da licença atribuída aos usuários.
 
 Para obter instruções passo a passo para ativar a auditoria, consulte Ativar ou desativar a pesquisa de [log de auditoria.](turn-audit-log-search-on-or-off.md)
 
@@ -84,7 +84,7 @@ Quando o conteúdo está sujeito a uma política de retenção, as pessoas podem
 
 Você pode colocar rapidamente uma política de retenção para vários locais em seu ambiente de Microsoft 365 Exchange, como emails, sites SharePoint SharePoint, contas OneDrive e grupos Microsoft 365. Não há limites para o número de caixas de correio ou sites que essa política pode incluir automaticamente. Mas, se precisar ser mais seletivo, você pode fazer isso configurando uma política de retenção para locais específicos e incluir ou excluir sites ou usuários.
 
-Para obter orientações passo a passo para configurar uma política de retenção, consulte [Create and configure retention policies](create-retention-policies.md). Se você é novo na configuração de retenção no Microsoft 365, consulte [Iniciar com políticas de retenção e rótulos de retenção](get-started-with-retention.md).
+Para obter orientações passo a passo para configurar uma política de retenção, consulte [Create and configure retention policies](create-retention-policies.md). Se você é novo na configuração de retenção no Microsoft 365, consulte [Começar com políticas e rótulos de retenção](get-started-with-retention.md).
 
 ## <a name="task-7-configure-sensitive-information-and-offensive-language-policies"></a>Tarefa 7: Configurar informações confidenciais e políticas de idioma ofensivo
 
@@ -146,7 +146,7 @@ Defina tipos de informações confidenciais com base no padrão contido nas info
 
 Para obter orientações passo a passo para definir tipos de informações confidenciais personalizados, consulte Create a custom sensitive information [type in the Security & Compliance Center](./create-a-custom-sensitive-information-type.md).
 
-### <a name="prevent-data-loss"></a>Evitar a perda de dados
+### <a name="prevent-data-loss"></a>Evita a perda de dados
 
 As políticas de prevenção contra perda de dados [(DLP)](dlp-learn-about-dlp.md) permitem que você identifique, monitore e proteja automaticamente informações confidenciais em sua Microsoft 365 organização. Use políticas de DLP para identificar itens confidenciais em serviços Microsoft, impedir o compartilhamento acidental de itens confidenciais e ajudar os usuários a aprender a manter a conformidade sem interromper o fluxo de trabalho.
 

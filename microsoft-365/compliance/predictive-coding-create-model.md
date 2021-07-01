@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Saiba como criar um modelo de codificação preditiva em Advanced eDiscovery. Esta é a primeira etapa para usar os recursos de aprendizado de máquina no Advanced eDiscovery para ajudá-lo a identificar conteúdo relevante e não relevante em um conjunto de revisão.
-ms.openlocfilehash: 7724062848d8d757fbfd3a7870853d6f2c409d84
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: ab84f529169c780e58888cc2726fbabfef33219e
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822473"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226222"
 ---
 # <a name="create-a-predictive-coding-model-preview"></a>Criar um modelo de codificação preditiva (visualização)
 
@@ -37,7 +37,7 @@ Para revisar o fluxo de trabalho de codificação preditivo, [consulte Learn abo
 
 ## <a name="create-a-model"></a>Criar um modelo
 
-1. No centro Microsoft 365 de conformidade, abra uma caixa Advanced eDiscovery e selecione a guia **Revisar conjuntos.**
+1. Na Centro de conformidade do Microsoft 365, abra uma caixa Advanced eDiscovery e selecione a guia **Revisar conjuntos.**
 
 2. Abra um conjunto de revisão e clique em **Análise**  >  **Gerenciar codificação preditiva (visualização)**.
 

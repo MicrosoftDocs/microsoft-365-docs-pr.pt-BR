@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como usar a correção de erros para corrigir problemas de dados em Advanced eDiscovery que podem impedir o processamento adequado do conteúdo.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2067831a85e3b3a506917fac5b93acfa0b174db
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 891e8292fca629669a48684e95f522c08838d3aa
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906979"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226654"
 ---
 # <a name="error-remediation-when-processing-data"></a>Correção de erros durante o processamento de dados
 
@@ -32,8 +32,8 @@ Use o fluxo de trabalho a seguir para corrigir arquivos com erros em Advanced eD
 
 ## <a name="create-an-error-remediation-session-to-remediate-files-with-processing-errors"></a>Criar uma sessão de correção de erros para corrigir arquivos com erros de processamento
 
->[!NOTE]
->Se o assistente de correção de erro estiver fechado a qualquer momento durante o procedimento  a seguir, você poderá  retornar à sessão de correção de erros na guia Processamento selecionando **Correções** no menu suspenso Exibir.
+> [!NOTE]
+> Se o assistente de correção de erro estiver fechado a qualquer momento durante o procedimento  a seguir, você poderá  retornar à sessão de correção de erros na guia Processamento selecionando **Correções** no menu suspenso Exibir.
 
 1. Na guia **Processamento no** caso Advanced eDiscovery, selecione  Erros no menu suspenso Exibir e selecione um conjunto de  revisão ou todo o caso no menu suspenso Escopo.  Esta seção exibe todos os erros do caso ou erro de um conjunto de revisão específico.
 
@@ -51,13 +51,13 @@ Use o fluxo de trabalho a seguir para corrigir arquivos com erros em Advanced eD
 
     ![Baixar arquivos](../media/6ac04b09-8e13-414a-9e24-7c75ba586363.png)
 
-5. Para baixar arquivos, especifique o **caminho de destino para o download**. Esse é um caminho para a pasta pai no seu computador local no qual o arquivo será baixado.  O caminho padrão, %USERPROFILE%\Downloads\errors, aponta para a pasta de downloads do usuário conectado. Você pode alterar esse caminho, se desejado. Se você alterá-lo, recomendamos que você use um caminho de arquivo local para o melhor desempenho. Não use um caminho de rede remoto. Por exemplo, você pode usar o caminho **C:\Remediation**. 
+5. Para baixar arquivos, especifique o **caminho de destino para o download**. Esse é um caminho para a pasta pai no seu computador local no qual o arquivo será baixado.  O caminho padrão, %USERPROFILE%\Downloads\errors, aponta para a pasta de downloads do usuário conectado. Você pode alterar esse caminho, se desejado. Se você alterá-lo, recomendamos que você use um caminho de arquivo local para o melhor desempenho. Não use um caminho de rede remoto. Por exemplo, você pode usar o caminho **C:\Remediation**.
 
    O caminho para a pasta pai é adicionado automaticamente ao comando AzCopy (como o valor do **parâmetro /Dest).**
 
-6. Copiar o comando pré-definido clicando em **Copiar para a área de transferência**. Abra um Windows de comando, cole o comando do AzCopy e pressione **Enter**.  
+6. Copiar o comando pré-definido clicando em **Copiar para a área de transferência**. Abra um Windows de comando, cole o comando do AzCopy e pressione **Enter**.
 
-    ![Preparar para correção de erros](../media/f364ab4d-31c5-4375-b69f-650f694a2f69.png)    
+    ![Preparar para correção de erros](../media/f364ab4d-31c5-4375-b69f-650f694a2f69.png)
 
     > [!NOTE]
     > Você deve usar o AzCopy v8.1 para usar com êxito o comando fornecido na página **Baixar arquivos.** Você também deve usar o AzCopy v8.1 para carregar os arquivos na etapa 10. Para instalar essa versão do AzCopy, consulte [Transfer data with the AzCopy v8.1 on Windows](/previous-versions/azure/storage/storage-use-azcopy). Se o comando AzCopy fornecido falhar, consulte [Troubleshoot AzCopy in Advanced eDiscovery](troubleshooting-azcopy.md).
@@ -97,7 +97,7 @@ Use o fluxo de trabalho a seguir para corrigir arquivos com erros em Advanced eD
 
 11. Depois de executar o comando do AzCopy, clique em **Next: Process files**.
 
-    Quando o processamento for concluído, você poderá ir para revisar o conjunto e exibir os arquivos remediados. 
+    Quando o processamento for concluído, você poderá ir para revisar o conjunto e exibir os arquivos remediados.
 
 ## <a name="remediating-errors-in-container-files"></a>Corrigir erros em arquivos de contêiner
 
@@ -109,7 +109,7 @@ Em situações em que o conteúdo de um arquivo de contêiner (como um arquivo .
 
 ## <a name="what-happens-when-files-are-remediated"></a>O que acontece quando os arquivos são remediados
 
-Quando os arquivos remediados são carregados, os metadados originais são preservados, exceto para os seguintes campos: 
+Quando os arquivos remediados são carregados, os metadados originais são preservados, exceto para os seguintes campos:
 
 - ExtractedTextSize
 - HasText

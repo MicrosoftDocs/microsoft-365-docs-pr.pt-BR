@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 44a17471f1e2ba92d0099f62b95dec8d0e56a224
-ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
+ms.openlocfilehash: 3ff3c652d5446167ac3c2bf78a2405c21929ea11
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51957488"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226462"
 ---
 # <a name="insider-risk-management-content-explorer"></a>Insider risk management Explorador de conteúdo
 
@@ -29,8 +29,8 @@ Em alguns casos, os dados associados a um caso podem não estar disponíveis com
 
 Se o conteúdo incluir permissões de Gerenciamento de Direitos de Informação, essas permissões serão mantidas para o conteúdo copiado e os usuários atribuídos à função *Insider Risk Management Investigators* precisarão dessas permissões e direitos se precisarem abrir e exibir os arquivos. Cada arquivo e mensagem são atribuídos automaticamente a uma ID de arquivo exclusiva no caso de gerenciamento de risco interno para fins de gerenciamento. Os documentos associados às atividades de indicador de dispositivo não são incluídos no Explorador de conteúdo.
 
->[!Note]
->O explorador de conteúdo inclui atividades relacionadas Microsoft Office arquivos. Atividades no nível do site, como quando um site SharePoint é excluído ou se as permissões de site são alteradas, não são incluídas no Explorador de conteúdo.
+> [!NOTE]
+> O explorador de conteúdo inclui atividades relacionadas Microsoft Office arquivos. Atividades no nível do site, como quando um site SharePoint é excluído ou se as permissões de site são alteradas, não são incluídas no Explorador de conteúdo.
 
 ## <a name="column-options"></a>Opções de coluna
 
@@ -71,7 +71,7 @@ Para adicionar ou remover títulos de coluna para a fila de conteúdo, use o **c
 | **Rótulos de confidencialidade** | Os rótulos de sensibilidade aplicados ao conteúdo. |
 | **Sent** | A data em que uma mensagem de email foi enviada pelo remetente. Esse campo é a mesma propriedade que a propriedade Email Enviado. |
 | **Tamanho** | Para emails e documentos, o tamanho do item (em bytes). |
-| **Assunto** | O texto na linha de assunto de uma mensagem de email. |
+| **Subject** | O texto na linha de assunto de uma mensagem de email. |
 | **Assunto/Título** | Para email, o texto na linha de assunto de uma mensagem. Para documentos, o título do documento. Conforme explicado anteriormente, a propriedade Title é metadados especificados Microsoft Office documentos. Você pode digitar o nome de mais de um assunto/título, separado por vírgulas. Dois ou mais valores são logicamente conectadas pelo operador OR. |
 | **Lista de temas** | Lista de temas conforme calculado para análise. |
 | **Title** | O título do documento. A propriedade Title consiste em metadados que são especificados em documentos do Office. É diferente do nome do arquivo do documento. |

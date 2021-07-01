@@ -12,12 +12,12 @@ ms.reviewer: esaggese
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 746f1345b47694f4a4122edc5d89cc924441ea81
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: b9696f26dd8f68ba291eab50e11a4cb6dd55ab7a
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408172"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226906"
 ---
 # <a name="double-key-encryption-for-microsoft-365"></a>Criptografia de Chave Dupla para Microsoft 365
 
@@ -35,7 +35,7 @@ Para obter mais informações sobre as chaves raiz de locatário baseadas em nuv
 
 ## <a name="when-your-organization-should-adopt-dke"></a>Quando sua organização deve adotar o DKE
 
-A Criptografia de Chave Dupla destina-se aos seus dados mais confidenciais que estão sujeitos aos requisitos de proteção mais estritos. O DKE não se destina a todos os dados. Em geral, você estará usando a Criptografia de Chave Dupla para proteger apenas uma pequena parte dos dados gerais. Você deve fazer a devida diligência na identificação dos dados corretos para cobrir com essa solução antes de implantar. Em alguns casos, talvez seja necessário restringir seu escopo e usar outras soluções para a maioria dos seus dados, como a Proteção de Informações da Microsoft com chaves gerenciadas pela Microsoft ou BYOK. Essas soluções são suficientes para documentos que não estão sujeitos a proteções e requisitos regulatórios aprimorados. Além disso, essas soluções permitem que você use os serviços de Office 365 mais poderosos; serviços que você não pode usar com conteúdo criptografado DKE. Por exemplo:
+A Criptografia de Chave Dupla destina-se aos seus dados mais confidenciais que estão sujeitos aos requisitos de proteção mais estritos. O DKE não se destina a todos os dados. Em geral, você estará usando a Criptografia de Chave Dupla para proteger apenas uma pequena parte dos dados gerais. Você deve fazer a devida diligência na identificação dos dados corretos para cobrir com essa solução antes de implantar. Em alguns casos, talvez seja necessário restringir seu escopo e usar outras soluções para a maioria dos seus dados, como Proteção de Informações da Microsoft com chaves gerenciadas pela Microsoft ou BYOK. Essas soluções são suficientes para documentos que não estão sujeitos a proteções e requisitos regulatórios aprimorados. Além disso, essas soluções permitem que você use os serviços de Office 365 mais poderosos; serviços que você não pode usar com conteúdo criptografado DKE. Por exemplo:
 
 - Regras de transporte, incluindo anti-malware e spam que exigem visibilidade no anexo
 - Microsoft Delve
@@ -45,7 +45,7 @@ A Criptografia de Chave Dupla destina-se aos seus dados mais confidenciais que e
 
 Quaisquer aplicativos ou serviços externos que não sejam integrados ao DKE por meio do SDK MIP não poderão executar ações nos dados criptografados.
 
-O SDK de Proteção de Informações da Microsoft 1.7+ oferece suporte à Criptografia de Chave Dupla; os aplicativos que se integram ao nosso SDK poderão fazer o raciocínio sobre esses dados com permissões e integrações suficientes.
+O Proteção de Informações da Microsoft SDK 1.7+ oferece suporte à Criptografia de Chave Dupla; os aplicativos que se integram ao nosso SDK poderão fazer o raciocínio sobre esses dados com permissões e integrações suficientes.
 
 Recomendamos que as organizações usem recursos de proteção de informações da Microsoft (classificação e rotulagem) para proteger a maioria de seus dados confidenciais e usar apenas o DKE para seus dados críticos de missão. A Criptografia de Chave Dupla é relevante para dados confidenciais em setores altamente regulamentados, como serviços financeiros e assistência médica.
 
@@ -79,7 +79,7 @@ Você seguirá estas etapas gerais para configurar o DKE. Depois de concluir ess
 
 1. Implante o serviço DKE conforme descrito neste artigo.
 
-2. Crie um rótulo com Criptografia de Chave Dupla. Navegue até Proteção de informações Microsoft 365 centro de [conformidade](https://compliance.microsoft.com) e crie um novo rótulo com Criptografia de Chave Dupla. Consulte [Restringir o acesso ao conteúdo usando rótulos de sensibilidade para aplicar criptografia](./encryption-sensitivity-labels.md).
+2. Crie um rótulo com Criptografia de Chave Dupla. Navegue até Proteção de informações sob [o Centro de conformidade do Microsoft 365](https://compliance.microsoft.com) e crie um novo rótulo com Criptografia de Chave Dupla. Consulte [Restringir o acesso ao conteúdo usando rótulos de sensibilidade para aplicar criptografia](./encryption-sensitivity-labels.md).
 
 3. Use rótulos de Criptografia de Chave Dupla. Proteja os dados selecionando o rótulo de Chave Dupla Criptografada na faixa de opções de sensibilidade Microsoft Office.
 
@@ -183,7 +183,7 @@ Escolha se deve usar autorização de email ou função. O DKE dá suporte a ape
 
 - **Autorização de função**. Permite que sua organização autorize o acesso a chaves com base em grupos do Active Directory e exige que o serviço Web possa consultar o LDAP.
 
-**Para definir as configurações de acesso de chave para DKE usando autorização de email**
+##### <a name="to-set-key-access-settings-for-dke-using-email-authorization"></a>Para definir as configurações de acesso de chave para DKE usando autorização de email
 
 1. Abra o **appsettings.jsno arquivo** e localize a `AuthorizedEmailAddress` configuração.
 
@@ -205,7 +205,7 @@ Esta imagem mostra o **arquivoappsettings.json** formatado corretamente para aut
 
    ![O appsettings.jsno arquivo que mostra o método de autorização de email](../media/dke-email-accesssetting.png)
 
-**Para definir as configurações de acesso de chave para DKE usando a autorização de função**
+##### <a name="to-set-key-access-settings-for-dke-using-role-authorization"></a>Para definir as configurações de acesso de chave para DKE usando a autorização de função
 
 1. Abra o **appsettings.jsno arquivo** e localize a `AuthorizedRoles` configuração.
 
@@ -231,7 +231,7 @@ Esta imagem mostra o **appsettings.jsno** arquivo formatado corretamente para au
 
 As configurações de locatário e chave do DKE estão localizadas no arquivo **appsettings.json.**
 
-**Para configurar configurações de locatário e chave para DKE**
+##### <a name="to-configure-tenant-and-key-settings-for-dke"></a>Para configurar configurações de locatário e chave para DKE
 
 1. Abra o **appsettings.jsno** arquivo.
 
@@ -242,6 +242,7 @@ As configurações de locatário e chave do DKE estão localizadas no arquivo **
      "https://sts.windows.net/9c99431e-b513-44be-a7d9-e7b500002d4b/"
    ]
    ```
+
 > [!NOTE]
 > Se você quiser habilitar o acesso B2B externo ao seu armazenamento de chaves, também precisará incluir esses locatários externos como parte da lista de emissores válidos.
 
@@ -263,7 +264,7 @@ Depois de definir as configurações do aplicativo, você estará pronto para ge
 
 Para gerar chaves:
 
-1. No menu Windows Iniciar, execute o Prompt de Comando OpenSSL.
+1. Na Windows menu Iniciar, execute o Prompt de Comando OpenSSL.
 
 2. Altere para a pasta onde você deseja salvar as chaves de teste. Os arquivos que você cria concluindo as etapas desta tarefa são armazenados na mesma pasta.
 
@@ -370,7 +371,7 @@ Você pode preferir outros métodos para implantar suas chaves. Selecione o mét
 
 Para implantações piloto, você pode implantar no Azure e começar imediatamente.
 
-**Para criar uma instância do Azure Web App para hospedar sua implantação DKE**
+#### <a name="to-create-an-azure-web-app-instance-to-host-your-dke-deployment"></a>Para criar uma instância do Azure Web App para hospedar sua implantação DKE
 
 Para publicar o armazenamento de chaves, você criará uma instância do Serviço de Aplicativo do Azure para hospedar sua implantação DKE. Em seguida, você publicará suas chaves geradas no Azure.
 
@@ -530,18 +531,18 @@ Para registrar o serviço DKE:
 
     4. Selecione **Salvar** na parte superior para salvar suas alterações.
 
-    5. Repita estas etapas, mas, desta vez, defina a ID do cliente como `c00e9d32-3c8d-4a7d-832b-029040e7db99` . Esse valor é a ID do cliente de rotulagem unificada da Proteção de Informações do Azure. 
+    5. Repita estas etapas, mas, desta vez, defina a ID do cliente como `c00e9d32-3c8d-4a7d-832b-029040e7db99` . Esse valor é a ID do cliente de rotulagem unificada da Proteção de Informações do Azure.
 
 Seu serviço DKE agora está registrado. Continue criando [rótulos usando DKE](#create-sensitivity-labels-using-dke).
 
 ## <a name="create-sensitivity-labels-using-dke"></a>Criar rótulos de sensibilidade usando DKE
 
-No centro Microsoft 365 de conformidade, crie um novo rótulo de sensibilidade e aplique a criptografia como faria de outra forma. Selecione **Usar Criptografia de Chave** Dupla e insira a URL do ponto de extremidade para sua chave.
+Na Centro de conformidade do Microsoft 365, crie um novo rótulo de sensibilidade e aplique a criptografia como faria de outra forma. Selecione **Usar Criptografia de Chave** Dupla e insira a URL do ponto de extremidade para sua chave.
 
 Por exemplo:
 
 > [!div class="mx-imgBorder"]
-> ![Selecione Usar Criptografia de Chave Dupla no Microsoft 365 de conformidade](../media/dke-use-dke.png)
+> ![Selecione Usar Criptografia de Chave Dupla no Centro de conformidade do Microsoft 365](../media/dke-use-dke.png)
 
 Quaisquer rótulos DKE que você adicionar começarão a aparecer para os usuários nas versões mais recentes do Microsoft 365 Apps para Grandes Empresas.
 

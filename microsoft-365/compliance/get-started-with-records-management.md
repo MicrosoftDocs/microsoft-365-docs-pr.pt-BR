@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Precisa de uma solução de gerenciamento de registros para o Microsoft 365 que gerencie o conteúdo de alto valor para obrigações legais, comerciais ou normativas, mas não sabe onde começar? Leia algumas orientações práticas para iniciar.
-ms.openlocfilehash: 0382c1419654e4c1d2c809b3a9c32252fd50f554
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 173086799e4ae7cec3192f95248f0a7f26a10552
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244339"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226570"
 ---
 # <a name="get-started-with-records-management"></a>Começar a usar o gerenciamento de registros
 
@@ -30,14 +30,14 @@ ms.locfileid: "52244339"
 
 Pronto para começar a gerenciar o conteúdo de alto valor da sua organização para obrigações legais, comerciais ou normativas usando uma solução de gerenciamento de registros no Microsoft 365? Use as seguintes orientações para iniciar:
 
-1. **Compreenda a solução de gerenciamento de registros** e quais ações são permitidas ou bloqueadas quando os documentos e emails são registros declarados: [Saber mais sobre o gerenciamento de registros](records-management.md). 
+1. **Compreenda a solução de gerenciamento de registros** e quais ações são permitidas ou bloqueadas quando os documentos e emails são registros declarados: [Saber mais sobre o gerenciamento de registros](records-management.md).
 
 2. **Compreenda os rótulos de retenção e a forma como a retenção funciona** para o SharePoint e o Exchange, pois os rótulos de retenção são usados para declarar registros: [Saiba mais sobre as políticas de retenção e os rótulos de retenção](retention.md)
 
-3. **Crie o seu plano de arquivo para as configurações de retenção e ações** ao [importar um plano existente](file-plan-manager.md#import-retention-labels-into-your-file-plan ) se você tiver um ou criar [novos rótulos de retenção que declarem registros](declare-records.md).
+3. **Crie o seu plano de arquivo para as configurações de retenção e ações** ao [importar um plano existente](file-plan-manager.md#import-retention-labels-into-your-file-plan) se você tiver um ou criar [novos rótulos de retenção que declarem registros](declare-records.md).
 
-4. **Publique e aplique seus rótulos de retenção**. Os rótulos de retenção são blocos de construção reutilizáveis que podem ser usados em várias políticas e podem ser inseridos em fluxos de trabalho do usuário: 
-    
+4. **Publique e aplique seus rótulos de retenção**. Os rótulos de retenção são blocos de construção reutilizáveis que podem ser usados em várias políticas e podem ser inseridos em fluxos de trabalho do usuário:
+
     - [Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)
     - [Aplicar um rótulo de retenção automaticamente ao conteúdo](apply-retention-labels-automatically.md)
 
@@ -49,9 +49,9 @@ Para visualizar as opções de licenciamento dos seus usuários para se benefici
 
 ## <a name="permissions-required-for-records-management"></a>Permissões necessárias para o gerenciamento de registros
 
-Os membros da sua equipe de conformidade que são responsáveis pelo gerenciamento de registros precisam de permissões para o [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com/). Por padrão, o administrador de locatários (administrador global) tem acesso a esse local e pode conceder acesso aos gerentes de conformidade e a outras pessoas sem conceder a eles todas as permissões de um administrador de locatários. Para conceder permissões para essa administração limitada, recomendamos que você adicione usuários ao grupo de função de administrador **Gerenciamento de Registros**, que concede permissões para todos os recursos relacionados ao gerenciamento de registros, incluindo [verificação e revisão de disposição](disposition.md). 
+Os membros da sua equipe de conformidade que são responsáveis pelo gerenciamento de registros precisam de permissões para o [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com/). Por padrão, o administrador de locatários (administrador global) tem acesso a esse local e pode conceder acesso aos gerentes de conformidade e a outras pessoas sem conceder a eles todas as permissões de um administrador de locatários. Para conceder permissões para essa administração limitada, recomendamos que você adicione usuários ao grupo de função de administrador **Gerenciamento de Registros**, que concede permissões para todos os recursos relacionados ao gerenciamento de registros, incluindo [verificação e revisão de disposição](disposition.md).
 
-Como alternativa para usar essa função padrão, você pode criar um novo grupo de função e adicionar a função **Gerenciamento de Registro Somente Exibição** a esse grupo. 
+Como alternativa para usar essa função padrão, você pode criar um novo grupo de função e adicionar a função **Gerenciamento de Registro Somente Exibição** a esse grupo.
 
 Para obter mais informações sobre esses grupos e funções, confira [Permissões no Centro de Conformidade e Segurança](../security/office-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center).
 

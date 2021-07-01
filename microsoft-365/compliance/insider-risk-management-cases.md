@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 5b59fb57ebd17050624ce36805558dcd1eef0503
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 7712ce1ee4c28352861df17c0637a94d99fa2c8a
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939249"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226522"
 ---
 # <a name="insider-risk-management-cases"></a>Casos de gerenciamento de riscos insider
 
@@ -98,7 +98,7 @@ A **guia Visão geral** de caso também inclui uma seção **Alertas** que inclu
 A **guia Alertas** resume os alertas atuais incluídos no caso. Novos alertas podem ser adicionados a um caso existente e eles serão adicionados à fila **de** alerta à medida que eles são atribuídos. Os seguintes atributos de alerta estão listados na fila:
 
 - Status
-- Severity
+- Gravidade
 - Tempo detectado
 
 Selecione um alerta na fila para exibir a **página de detalhes alerta.**
@@ -106,7 +106,7 @@ Selecione um alerta na fila para exibir a **página de detalhes alerta.**
 Use o controle de pesquisa para pesquisar nomes de alerta para texto específico e use o filtro de alerta para classificar casos pelos seguintes atributos:
 
 - Status
-- Severity
+- Gravidade
 - Tempo detectado, data de início e data de término
 
 Use o controle de filtro para filtrar alertas por vários atributos, incluindo:
@@ -142,8 +142,8 @@ A **de atividade do usuário** guia é uma das ferramentas mais poderosas para a
 
 ### <a name="activity-explorer-preview"></a>Explorador de atividades (visualização)
 
->[!IMPORTANT]
->A guia Explorador de atividades está disponível na área de gerenciamento de ocorrências para usuários com eventos disparados depois que esse recurso está disponível em sua organização.
+> [!IMPORTANT]
+> A guia Explorador de atividades está disponível na área de gerenciamento de ocorrências para usuários com eventos disparados depois que esse recurso está disponível em sua organização.
 
 A **guia Explorador de** Atividades permite que analistas de risco e investigadores revisem os detalhes de atividade associados a alertas de risco. Por exemplo, como parte das ações de gerenciamento de casos, os investigadores e analistas podem precisar revisar todas as atividades de risco associadas ao caso para obter mais detalhes. Com o **Explorador de** Atividades, os revisadores podem revisar rapidamente uma linha do tempo de atividade arriscada detectada e identificar e filtrar todas as atividades de risco associadas a alertas.
 
@@ -165,7 +165,7 @@ O painel de anotações de caso exibe anotações do usuário que criou a nota e
 
 Para adicionar uma nota a um caso:
 
-1. No centro [Microsoft 365 de conformidade,](https://compliance.microsoft.com)vá para Gerenciamento de riscos **do Insider** e selecione a **guia** Casos.
+1. Na [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com), vá para Gerenciamento de riscos **do Insider** e selecione a **guia** Casos.
 2. Selecione um caso e selecione a guia **Anotações de** caso.
 3. Selecione **Adicionar nota de caso**.
 4. Na caixa **de diálogo Adicionar nota de caso,** digite sua nota para o caso. Selecione **Salvar** para adicionar a nota à ocorrência ou selecione **Cancelar** fechar sem salvar a nota no caso.
@@ -182,7 +182,7 @@ O acesso temporário a um caso pode ser concedido adicionando um usuário como c
 
 Para adicionar um colaborador a um caso:
 
-1. No centro [Microsoft 365 de conformidade,](https://compliance.microsoft.com)vá para Gerenciamento de riscos **do Insider** e selecione a **guia** Casos.
+1. Na [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com), vá para Gerenciamento de riscos **do Insider** e selecione a **guia** Casos.
 2. Selecione um caso e selecione a guia **Colaboradores.**
 3. Selecione **Adicionar colaborador**.
 4. Na caixa **de diálogo** Adicionar colaborador, comece a digitar o nome do usuário que você deseja adicionar e selecione o usuário na lista de usuários sugerida. Essa lista é gerada a partir da Azure Active Directory de sua assinatura de locatário.
@@ -200,25 +200,25 @@ Na maioria dos casos, as ações do usuário que criam alertas de risco interno 
 
 Para enviar um aviso ao usuário atribuído a uma ocorrência:
 
-1. No centro [Microsoft 365 de conformidade,](https://compliance.microsoft.com)vá para Gerenciamento de riscos **do Insider** e selecione a **guia** Casos.
+1. Na [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com), vá para Gerenciamento de riscos **do Insider** e selecione a **guia** Casos.
 2. Selecione uma ocorrência e selecione o botão **Enviar aviso de email** na barra de ferramentas de ação de caso.
 3. Na caixa de diálogo Enviar aviso **de email,** selecione o controle suspenso **Escolher um** modelo de aviso para selecionar o modelo de aviso para o aviso. Essa seleção pré-preenche os outros campos no aviso.
 4. Revise os campos de aviso e atualize conforme apropriado. Os valores inseridos aqui substituirão os valores no modelo.
 5. Selecione **Enviar** para enviar o aviso ao usuário ou selecione **Cancelar** fechar a caixa de diálogo sem enviar o aviso ao usuário. Todos os avisos enviados são adicionados à fila de anotações de caso no painel **Anotações de** Caso.
 
-### <a name="escalate-for-investigation"></a>Escalonar para investigação
+### <a name="escalate-for-investigation"></a>Escalar para investigação
 
-Agilizar o caso da investigação do usuário em situações em que a revisão jurídica adicional é necessária para a atividade de risco do usuário. Essa escalonamento abre um novo caso de Descoberta Avançada na sua organização do Microsoft 365. A Descoberta Eletrônico Avançada fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, revisar, analisar e exportar conteúdo responsivo às investigações jurídicas internas e externas da sua organização. Ele também permite que sua equipe jurídica gerencie todo o fluxo de trabalho de notificação de responsabilidade para se comunicar com pessoas envolvidas no caso. Atribuir um revistor como um suário em um caso de Descoberta Pública Avançada criado a partir de um caso de gerenciamento de riscos do insider ajuda sua equipe jurídica a tomar as medidas apropriadas e gerenciar a preservação do conteúdo. Para saber mais sobre os casos de Descoberta Eletrônica Avançada, consulte [Visão Geral da Descoberta Eletrônica Avançada do Microsoft 365](overview-ediscovery-20.md).
+Agilizar o caso da investigação do usuário em situações em que a revisão jurídica adicional é necessária para a atividade de risco do usuário. Esse escalonamento abre um novo caso de descoberta eletrônica avançada em sua organização Microsoft 365. A Descoberta Eletrônico Avançada fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, revisar, analisar e exportar conteúdo responsivo às investigações jurídicas internas e externas da sua organização. Ele também permite que sua equipe jurídica gerencie todo o fluxo de trabalho de notificação de responsabilidade para se comunicar com pessoas envolvidas no caso. Atribuir um revistor como um suário em um caso de Descoberta Pública Avançada criado a partir de um caso de gerenciamento de riscos do insider ajuda sua equipe jurídica a tomar as medidas apropriadas e gerenciar a preservação do conteúdo. Para saber mais sobre os casos de Descoberta Eletrônica Avançada, consulte [Visão Geral da Descoberta Eletrônica Avançada do Microsoft 365](overview-ediscovery-20.md).
 
 Para escalonar um caso para uma investigação de usuário:
 
-1. No centro [Microsoft 365 de conformidade,](https://compliance.microsoft.com)vá para Gerenciamento de riscos **do Insider** e selecione a **guia** Casos.
+1. Na [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com), vá para Gerenciamento de riscos **do Insider** e selecione a **guia** Casos.
 2. Selecione um caso e selecione o **botão Escalar para investigação** na barra de ferramentas de ação de caso.
 3. Na caixa **de diálogo Escalonar para investigação,** insira um nome para a nova investigação de usuário. Se necessário, insira anotações sobre a ocorrência e selecione **Escalate**.
 4. Revise os campos de aviso e atualize conforme apropriado. Os valores inseridos aqui substituirão os valores no modelo.
 5. Selecione **Confirmar** para criar o caso de investigação do usuário ou selecione **Cancelar** para fechar a caixa de diálogo sem criar um novo caso de investigação de usuário.
 
-Depois que o caso de gerenciamento de risco interno tiver sido escalonado para um novo caso de investigação de usuário, você poderá revisar o novo caso na área **De** Descoberta Digital Avançada no centro de conformidade  >   do Microsoft 365.
+Depois que o caso de gerenciamento de risco interno for escalonado para um novo caso de investigação de usuário, você poderá revisar o novo caso na área **De** Descoberta Digital Avançada no  >   Centro de conformidade do Microsoft 365.
 
 ### <a name="run-automated-tasks-with-power-automate-flows-for-the-case"></a>Executar tarefas automatizadas com Power Automate fluxos para o caso
 
@@ -247,7 +247,7 @@ Quando um caso é resolvido, a Equipe da Microsoft associada será arquivada aut
 
 Para saber mais sobre Microsoft Teams gerenciamento de riscos insider, consulte [Getting started with insider risk management settings](insider-risk-management-settings.md#microsoft-teams-preview).
 
-### <a name="resolve-the-case"></a>Resolver o caso
+### <a name="resolve-the-case"></a>Resolva o caso
 
 Depois que os analistas de risco e os investigadores concluíram sua revisão e investigação, um caso pode ser resolvido para agir em todos os alertas atualmente incluídos no caso. A resolução de um caso adiciona uma classificação de resolução, altera o status do caso para *Closed* e os motivos da ação de resolução são adicionados automaticamente à fila de anotações de caso no painel **Anotações de** caso. Os casos são resolvidos como:
 
@@ -256,7 +256,7 @@ Depois que os analistas de risco e os investigadores concluíram sua revisão e 
 
 Para resolver um caso:
 
-1. No centro [Microsoft 365 de conformidade,](https://compliance.microsoft.com)vá para Gerenciamento de riscos **do Insider** e selecione a **guia** Casos.
+1. Na [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com), vá para Gerenciamento de riscos **do Insider** e selecione a **guia** Casos.
 2. Selecione um caso e selecione o botão **Resolver caso** na barra de ferramentas de ação de caso.
 3. Na caixa **de diálogo Resolver caso,** selecione **o controle Resolver como** menu suspenso para selecionar a classificação de resolução do caso. As opções são **Violação de política benigna** **ou confirmada.**
 4. Na caixa **de diálogo Resolver** caso, insira os motivos da classificação de resolução no campo Texto Ação **realizada.**

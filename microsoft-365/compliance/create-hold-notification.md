@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Use a ferramenta Comunicações em um caso Advanced eDiscovery para enviar, coletar e rastrear notificações de espera legal.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: df1b2d962e83110c62ccac871f669bbc0d3bfe02
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 026670b9ed45f366ff3d711d8f2b2d0274be5a19
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49840556"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227098"
 ---
 # <a name="create-a-legal-hold-notice"></a>Criar um aviso de espera legal
 
@@ -52,34 +52,34 @@ A primeira etapa é especificar os detalhes apropriados para avisos de responsab
 > O responsável pela emissão deve ter uma **caixa** de correio ativa para aparecer no menu suspenso Diretor de emissão
 
 
-4. Clique em **Avançar**.
+4. Clique em **Próximo**.
 
 ## <a name="step-2-define-the-portal-content"></a>Etapa 2: Definir o conteúdo do portal
 
-Em seguida, você pode criar e adicionar o conteúdo do aviso de espera. Na página **Definir conteúdo do portal** no assistente Criar **comunicação,** especifique o conteúdo do aviso de espera. Esse conteúdo será automaticamente anexado aos avisos de Emissão, Remissão, Lembrete e Escalonamento. Além disso, esse conteúdo aparecerá no Portal de Conformidade do custodiante. 
+Em seguida, você pode criar e adicionar o conteúdo do aviso de espera. Na página **Definir conteúdo do portal** no assistente Criar **comunicação,** especifique o conteúdo do aviso de espera. Esse conteúdo será automaticamente anexado aos avisos de Emissão, Remissão, Lembrete e Escalonamento. Além disso, esse conteúdo aparecerá no Portal de Conformidade do custodiante.
 
 ![Página de Conteúdo do Portal](../media/PortalContent.PNG)
 
 Para criar o conteúdo do portal:
 
-1. Digite (ou recorte e colar de outro documento) seu aviso de espera na caixa de texto para o conteúdo do portal. 
+1. Digite (ou recorte e colar de outro documento) seu aviso de espera na caixa de texto para o conteúdo do portal.
 
 2. Insira variáveis de mesclagem em seu aviso para personalizar o aviso e compartilhar o Portal de Conformidade custodiada.
 
-3. Clique em **Avançar**.
+3. Clique em **Próximo**.
 
-  >[!Tip]
-  >Para saber mais sobre como personalizar o conteúdo e o formato do conteúdo do portal, consulte [Use the Communications Editor](using-communications-editor.md).
+  > [!TIP]
+  > Para saber mais sobre como personalizar o conteúdo e o formato do conteúdo do portal, consulte [Use the Communications Editor](using-communications-editor.md).
 
 ## <a name="step-3-set-the-required-notifications"></a>Etapa 3: Definir as notificações necessárias
 
-Depois de definir o conteúdo do aviso de espera, você pode configurar os fluxos de trabalho ao enviar e gerenciar o processo de notificação. As notificações são mensagens de email enviadas para notificar e acompanhar os custodiantes. Todos os custodiados adicionados à comunicação receberão a mesma notificação. 
+Depois de definir o conteúdo do aviso de espera, você pode configurar os fluxos de trabalho ao enviar e gerenciar o processo de notificação. As notificações são mensagens de email enviadas para notificar e acompanhar os custodiantes. Todos os custodiados adicionados à comunicação receberão a mesma notificação.
 
 Para configurar e enviar um aviso de espera, você deve incluir notificações de Emissão, Re-Emissão e Lançamento.
 
-### <a name="issuance-notification"></a>Notificação de emissão 
+### <a name="issuance-notification"></a>Notificação de emissão
 
-Depois que a comunicação é criada, a **Notificação** de Emissão é iniciada pelo Diretor de Emissão especificado. A notificação de emissão é a primeira comunicação enviada ao custodiado para informá-los sobre suas obrigações de preservação. 
+Depois que a comunicação é criada, a **Notificação** de Emissão é iniciada pelo Diretor de Emissão especificado. A notificação de emissão é a primeira comunicação enviada ao custodiado para informá-los sobre suas obrigações de preservação.
 
 Para criar uma notificação de emissão:
 
@@ -89,7 +89,7 @@ Para criar uma notificação de emissão:
 
 3. **Especifique o Assunto** para o aviso (obrigatório).
 
-4. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer ao custodiado (necessário). O conteúdo do portal definido na Etapa 2 é adicionado ao final do aviso de emissão. 
+4. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer ao custodiado (necessário). O conteúdo do portal definido na Etapa 2 é adicionado ao final do aviso de emissão.
 
 5. Clique em **Salvar**.
 
@@ -116,7 +116,7 @@ Para criar uma notificação de nova emissão:
 
 Depois que um assunto for resolvido ou se um custodiante não estiver mais sujeito a preservar o conteúdo, você poderá liberar o custodiante de uma ocorrência. Se o custodiante tiver sido previamente emitido um aviso de responsabilidade, a notificação de versão poderá ser usada para alertar os custodiantes de que eles foram liberados de suas obrigações.
 
-Para criar uma notificação de versão: 
+Para criar uma notificação de versão:
 
 1. No **azulejo Liberar,** clique em **Editar**.
 
@@ -148,7 +148,7 @@ Para agendar lembretes:
 
 4. **Especifique o Número de lembretes** (obrigatório). Este campo especifica quantos lembretes enviar para custodiantes não responsivos. Por exemplo, se você definir o número de lembretes como 3, um custodiante receberá no máximo três lembretes. Depois que um custodiante confirmar a notificação de espera, os lembretes não serão mais enviados para esse usuário.
 
-5. **Especifique o Assunto** para o aviso (obrigatório). 
+5. **Especifique o Assunto** para o aviso (obrigatório).
 
 6. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer ao custodiado (necessário). O conteúdo do portal definido na Etapa 2 é adicionado ao final do aviso de lembrete.
 
@@ -168,7 +168,7 @@ Para agendar escalonamentos:
 
 4. **Especifique o Número de escalonamentos** (necessário). Este campo especifica quantas escalações enviar para custodiantes não responsivos. Por exemplo, se você definir o número de escalonamentos como 3, um aviso de escalonamento será enviado ao custodiante e ao gerente no máximo três vezes. Depois que um custodiante confirmar a notificação de espera, as escalações não serão mais enviadas.
 
-5. **Especifique o Assunto** para o aviso (obrigatório). 
+5. **Especifique o Assunto** para o aviso (obrigatório).
 
 6. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer ao custodiado (necessário). O conteúdo do portal definido na Etapa 2 é adicionado ao final do aviso de escalonamento.
 
@@ -176,7 +176,7 @@ Para agendar escalonamentos:
 
 ## <a name="step-5-assign-custodians-to-receive-notifications"></a>Etapa 5: Atribuir custodiantes para receber notificações
 
-Depois de finalizar o conteúdo para notificações, selecione os custodiantes para os que você gostaria de enviar notificações. 
+Depois de finalizar o conteúdo para notificações, selecione os custodiantes para os que você gostaria de enviar notificações.
 
 ![Selecionar Página Custodiantes](../media/SelectCustodians.PNG)
 
@@ -188,8 +188,8 @@ Para adicionar custodiantes:
 
 2. Clique **em Próximo** para revisar as configurações de comunicação e os detalhes.
 
->[!NOTE]
->Você só pode adicionar os custodiantes que foram adicionados ao caso e não foram enviados outra notificação dentro do caso.
+> [!NOTE]
+> Você só pode adicionar os custodiantes que foram adicionados ao caso e não foram enviados outra notificação dentro do caso.
 
 ## <a name="step-6-review-settings"></a>Etapa 6: Revisar configurações
 

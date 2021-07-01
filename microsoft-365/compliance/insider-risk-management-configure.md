@@ -15,19 +15,19 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: ab9f52e2e8376f20bb56aa4389bdaa417826eca1
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: 50273fabc85ecedc92b9c3ec379d3b82a63dd6e1
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007352"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226438"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Introdução ao gerenciamento de riscos internos
 
 Use políticas de gerenciamento de riscos internas para identificar atividades arriscadas e ferramentas de gerenciamento para agir em alertas de risco em sua organização. Conclua as etapas a seguir para configurar os pré-requisitos e configurar uma política de gerenciamento de riscos internas.
 
->[!IMPORTANT]
->A Microsoft 365 de gerenciamento de riscos internos fornece uma opção de nível de locatário para ajudar os clientes a facilitar a governança interna no nível do usuário. Os administradores de nível de locatário podem configurar permissões para fornecer acesso a essa solução para membros da sua organização e configurar conectores de dados no Centro de conformidade do Microsoft 365 para importar dados relevantes para dar suporte à identificação no nível do usuário de atividades potencialmente arriscadas. Os clientes reconhecem que as percepções relacionadas ao comportamento, ao caractere ou ao desempenho do usuário individual relacionadas ao emprego podem ser calculadas pelo administrador e disponibilizadas para outras pessoas na organização. Além disso, os clientes reconhecem que devem conduzir suas próprias investigações completas relacionadas ao comportamento, ao caractere ou ao desempenho do usuário individual relacionada materialmente ao trabalho e não apenas depender de informações do serviço de gerenciamento de riscos do usuário interno. Os clientes são os únicos responsáveis por usar o serviço de gerenciamento de riscos do Microsoft 365 insider e qualquer recurso ou serviço associado em conformidade com todas as leis aplicáveis, incluindo leis relacionadas à identificação individual do usuário e a qualquer ação de correção.
+> [!IMPORTANT]
+> A Microsoft 365 de gerenciamento de riscos internos fornece uma opção de nível de locatário para ajudar os clientes a facilitar a governança interna no nível do usuário. Os administradores de nível de locatário podem configurar permissões para fornecer acesso a essa solução para membros da sua organização e configurar conectores de dados no Centro de conformidade do Microsoft 365 para importar dados relevantes para dar suporte à identificação no nível do usuário de atividades potencialmente arriscadas. Os clientes reconhecem que as percepções relacionadas ao comportamento, ao caractere ou ao desempenho do usuário individual relacionadas ao emprego podem ser calculadas pelo administrador e disponibilizadas para outras pessoas na organização. Além disso, os clientes reconhecem que devem conduzir suas próprias investigações completas relacionadas ao comportamento, ao caractere ou ao desempenho do usuário individual relacionada materialmente ao trabalho e não apenas depender de informações do serviço de gerenciamento de riscos do usuário interno. Os clientes são os únicos responsáveis por usar o serviço de gerenciamento de riscos do Microsoft 365 insider e qualquer recurso ou serviço associado em conformidade com todas as leis aplicáveis, incluindo leis relacionadas à identificação individual do usuário e a qualquer ação de correção.
 
 Para obter mais informações sobre como as políticas de risco internas podem ajudá-lo a gerenciar riscos em sua organização, consulte [Insider risk management in Microsoft 365](insider-risk-management.md).
 
@@ -52,8 +52,8 @@ Se você não tiver um plano de Microsoft 365 Enterprise E5 existente e quiser t
 
 ## <a name="step-1-enable-permissions-for-insider-risk-management"></a>Etapa 1: Habilitar permissões para gerenciamento de risco interno
 
->[!Important]
->Depois de configurar seus grupos de função, pode levar até 30 minutos para que as permissões do grupo de funções se apliquem aos usuários atribuídos em toda a sua organização.
+> [!IMPORTANT]
+> Depois de configurar seus grupos de função, pode levar até 30 minutos para que as permissões do grupo de funções se apliquem aos usuários atribuídos em toda a sua organização.
 
 Há quatro grupos de funções usados para configurar permissões para gerenciar recursos de gerenciamento de riscos insider. Para continuar com essas etapas de configuração, os administradores de locatários devem primeiro atribuir você ao grupo de função Gerenciamento de Riscos do **Insider** ou Administrador de Gerenciamento de Riscos do **Insider.** Para acessar e gerenciar recursos de gerenciamento de riscos insider após a configuração inicial, os usuários devem ser membros de pelo menos um grupo de função de gerenciamento de risco interno.
 
@@ -123,7 +123,7 @@ O Microsoft 365 de RH é necessário ao usar os seguintes modelos de política:
 - Violações da política de segurança por usuários insatisfeitos
 - - Vazamento de dados por usuários insatisfeitos
 
-Consulte o [artigo Configurar](import-hr-data.md) um conector para importar dados de RH para obter orientações passo a passo para configurar o conector de RH do Microsoft 365 para sua organização. Depois de configurar o conector de RH, retorne a essas etapas de configuração.
+Consulte o [artigo Configurar](import-hr-data.md) um conector para importar dados de RH para obter orientações passo a passo para configurar o conector Microsoft 365 RH da sua organização. Depois de configurar o conector de RH, retorne a essas etapas de configuração.
 
 ### <a name="configure-data-loss-prevention-dlp-policies"></a>Configurar políticas de Prevenção contra Perda de Dados (DLP)
 
@@ -131,7 +131,7 @@ O gerenciamento de riscos insider dá suporte ao uso de políticas DLP para ajud
 
 As políticas de DLP ajudam a identificar os usuários para ativar a pontuação de risco no gerenciamento de risco interno para alertas de DLP de alta gravidade para informações confidenciais e são uma parte importante da configuração da cobertura de gerenciamento de riscos completos em sua organização. Para obter mais informações sobre o gerenciamento de riscos insider e considerações de integração e planejamento de políticas de DLP, consulte Políticas de gerenciamento de riscos [do Insider.](insider-risk-management-policies.md#general-data-leaks)
 
->[!IMPORTANT]
+> [!IMPORTANT]
 >Certifique-se de ter concluído o seguinte:
 >
 >- Você compreende e configura corretamente os usuários no escopo nas políticas de gerenciamento de riscos de DLP e insider para produzir a cobertura de política esperada.
@@ -159,8 +159,8 @@ Consulte o [artigo Sobre como começar com as configurações](insider-risk-mana
 
 O gerenciamento de riscos insider dá suporte à importação de dados de usuário e log de plataformas de controle físico e de acesso. O conector de badging físico permite que você acesse dados de arquivos JSON, incluindo IDs de usuário, IDs de ponto de acesso, hora de acesso e datas e status de acesso. Esses dados ajudam a impulsionar indicadores de alerta nas políticas de gerenciamento de riscos internas e são uma parte importante da configuração da cobertura completa de gerenciamento de riscos em sua organização. Se você configurar mais de um conector de badging físico para sua organização, o gerenciamento de risco interno puxará automaticamente indicadores de todos os conectores de badging físico. As informações do conector de danos físicos complementam outros sinais de risco insider ao usar todos os modelos de política de risco insider.
 
->[!IMPORTANT]
->Para que as políticas de gerenciamento de riscos internas usem e correlacionam dados de sinal relacionados à partida e ao fim de usuários com dados de eventos de suas plataformas de controle físico e de acesso, você também deve configurar o conector de RH do Microsoft 365. Se você habilitar o conector de badging físico sem habilitar o conector de RH do Microsoft 365, as políticas de gerenciamento de riscos internas só processarão eventos para acesso físico não autorizado para usuários em sua organização.
+> [!IMPORTANT]
+> Para que as políticas de gerenciamento de riscos internas usem e correlacionam dados de sinal relacionados a usuários de saída e encerrados com dados de eventos de suas plataformas de controle físico e de acesso, você também deve configurar o conector de RH Microsoft 365. Se você habilitar o conector de badging físico sem habilitar o conector de RH Microsoft 365, as políticas de gerenciamento de riscos insider processarão apenas eventos para acesso físico não autorizado para usuários em sua organização.
 
 Consulte o [artigo Configurar](import-physical-badging-data.md) um conector para importar dados de danos físicos para obter orientações passo a passo para configurar o conector de badging físico para sua organização. Depois de configurar o conector, retorne a essas etapas de configuração.
 
@@ -178,12 +178,12 @@ Consulte o [artigo Configurar recursos avançados](/windows/security/threat-prot
 
 Antes de configurar uma política, defina as seguintes configurações de risco interno:
 
-1. No Centro de conformidade do [Microsoft 365,](https://compliance.microsoft.com)acesse Gerenciamento de riscos do Insider e selecione **Configurações** de risco do **Insider** no canto superior direito de qualquer página.
+1. No [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com), vá para Gerenciamento de riscos **do Insider** e selecione Configurações de risco **insider** no canto superior direito de qualquer página.
 2. Na página **Privacidade,** selecione uma configuração de privacidade para exibir nomes de usuário para alertas de política.
 3. Na página **Indicadores,** selecione os indicadores de alerta que você deseja aplicar a todas as políticas de risco internas.
 
-    >[!IMPORTANT]
-    >Para receber alertas para atividades arriscadas definidas em suas políticas, selecione um ou mais indicadores. Se os indicadores não estão configurados em Configurações, os indicadores não serão selecionáveis em políticas de risco internas.
+    > [!IMPORTANT]
+    > Para receber alertas para atividades arriscadas definidas em suas políticas, selecione um ou mais indicadores. Se os indicadores não são configurados Configurações, os indicadores não serão selecionáveis em políticas de risco internas.
 
 4. Na página **Períodos de tempo da** Política, selecione os [prazos](insider-risk-management-settings.md#policy-timeframes) de política para entrar em vigor para um usuário quando eles dispararem uma combinação para uma política de risco interna.
 5. Na página **Detecções Inteligentes,** configure as seguintes configurações para políticas de risco internas:
@@ -192,11 +192,11 @@ Antes de configurar uma política, defina as seguintes configurações de risco 
     - [Nível de volume de alerta](insider-risk-management-settings.md#alert-volume)
     - [Status de alerta do Microsoft Defender para Ponto de Extremidade](insider-risk-management-settings.md#microsoft-defender-for-endpoint-preview)
     - [Configurações de domínio](insider-risk-management-settings.md#domains-preview)
-6. Na página **Exportar alertas,** habilita a exportação de informações de alerta de risco interno usando as APIs de Gerenciamento do Office 365, se necessário.
+6. Na página **Exportar alertas,** habilita a exportação de informações de alerta de risco interno usando as APIs Office 365 Gerenciamento, se necessário.
 7. Na página **Grupos de usuários prioritários,** crie um grupo de usuários de prioridade e adicione usuários se não for criado na **Etapa 3**.
-8. Na página **Fluxos do Power Automate,** configure um fluxo de modelos de fluxo de risco interno ou crie um novo fluxo. Consulte o [artigo Sobre como começar com as configurações](insider-risk-management-settings.md#power-automate-flows-preview) de gerenciamento de riscos insider para obter orientações passo a passo.
+8. Na página **Power Automate fluxos,** configure um fluxo de modelos de fluxo de risco interno ou crie um novo fluxo. Consulte o [artigo Sobre como começar com as configurações](insider-risk-management-settings.md#power-automate-flows-preview) de gerenciamento de riscos insider para obter orientações passo a passo.
 9. Na página **Ativos de** prioridade, configure ativos prioritários para usar dados de sua plataforma de controle físico e acesso importados pelo conector de danos físicos. Consulte o [artigo Sobre como começar com as configurações](insider-risk-management-settings.md#priority-physical-assets-preview) de gerenciamento de riscos insider para obter orientações passo a passo.
-10. Na página **do Microsoft Teams,** habilita a integração do Microsoft Teams com o gerenciamento de riscos insider para criar automaticamente uma equipe para colaboração de caso ou usuário. Consulte o [artigo Sobre como começar com as configurações](insider-risk-management-settings.md#microsoft-teams-preview) de gerenciamento de riscos insider para obter orientações passo a passo.
+10. Na página **Microsoft Teams,** habilita Microsoft Teams integração com o gerenciamento de riscos insider para criar automaticamente uma equipe para colaboração de caso ou usuário. Consulte o [artigo Sobre como começar com as configurações](insider-risk-management-settings.md#microsoft-teams-preview) de gerenciamento de riscos insider para obter orientações passo a passo.
 11. Selecione **Salvar** para habilitar essas configurações para suas políticas de risco insider.
 
 ## <a name="step-6-create-an-insider-risk-management-policy"></a>Etapa 6: criar uma política de gerenciamento de riscos internas
@@ -207,8 +207,8 @@ As políticas de gerenciamento de riscos internas incluem usuários atribuídos 
 2. Selecione **Criar política** para abrir o assistente de política.
 3. Na página **Modelo de política**, escolha uma categoria de política e depois selecione o modelo para a nova política. Esses modelos são compostos por condições e indicadores que definem as atividades de risco que você deseja detectar e investigar. Revise os pré-requisitos do modelo, eventos de disparo e atividades detectadas para confirmar se este modelo de política atende às suas necessidades.
 
-    >[!IMPORTANT]
-    >Alguns modelos de políticas têm pré-requisitos que devem ser configurados para que a política gere alertas relevantes. Se você não configurou os pré-requisitos da política aplicável, consulte a **Etapa 4** acima.
+    > [!IMPORTANT]
+    > Alguns modelos de políticas têm pré-requisitos que devem ser configurados para que a política gere alertas relevantes. Se você não configurou os pré-requisitos da política aplicável, consulte a **Etapa 4** acima.
 
 4. Selecione **Avançar** para continuar.
 5. Na página **Nom e descrição**, complete os seguintes campos:
@@ -234,8 +234,8 @@ As políticas de gerenciamento de riscos internas incluem usuários atribuídos 
 12. Selecione **Avançar** para continuar.
 13. Na página **Indicadores e eventos de disparo**, você verá os [indicadores](insider-risk-management-settings.md#indicators) que definiu como disponíveis na página **Configurações de risco interno** > **Indicadores**. Se você selecionou um modelo de *Vazamento de dados* no início do assistente, deve selecionar uma política DLP na lista suspensa de **Política DLP** para ativar os indicadores de disparo para a política ou selecionar o evento de disparo interno.
 
-    >[!IMPORTANT]
-    >Se os indicadores nesta página não puderem ser selecionados, você precisará selecionar os indicadores que deseja habilitar para todas as políticas. Você pode usar o botão **Ativar indicadores** no assistente ou selecionar indicadores na página **Gerenciamento de risco interno** > **Configurações** > **Indicadores de política**.
+    > [!IMPORTANT]
+    > Se os indicadores nesta página não puderem ser selecionados, você precisará selecionar os indicadores que deseja habilitar para todas as políticas. Você pode usar o botão **Ativar indicadores** no assistente ou selecionar indicadores na página **Gerenciamento de risco interno** > **Configurações** > **Indicadores de política**.
 
     Selecione os indicadores que deseja aplicar à política. Se você preferir não usar as configurações padrão de limite de política para esses indicadores, desabilite o **Uso de limites de indicador recomendados pela Microsoft** e digite os valores de limite para cada indicador selecionado.
 

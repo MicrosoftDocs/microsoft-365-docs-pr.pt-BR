@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: bda9633ab37fd21fd66b3a8a53d4dd522e48ced1
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: b7eb225f04f531c3b6de71bf72df0f8062a8c93d
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50820265"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226498"
 ---
 # <a name="insider-risk-management-audit-log"></a>Log de auditoria de gerenciamento de riscos do Insider
 
@@ -38,8 +38,8 @@ As áreas incluídas no monitoramento de atividades incluem:
 
 Para exibir e exportar dados do log de auditoria, os usuários devem ser atribuídos aos grupos de função *Insider Risk Management* ou *Insider Risk Management Auditors.* Para saber mais sobre grupos de função de gerenciamento de riscos insider, consulte Iniciando o gerenciamento de riscos [insider Etapa 1: Habilenciar permissões](insider-risk-management-configure.md#step-1-enable-permissions-for-insider-risk-management).
 
->[!NOTE]
->O log de auditoria de gerenciamento de riscos internos não está associado ao log de auditoria Microsoft 365, eles são sistemas de auditoria independentes e capturam informações sobre atividades separadas. Desabilitar Microsoft 365 auditoria não afeta a auditoria de atividades dentro do gerenciamento de risco interno.
+> [!NOTE]
+> O log de auditoria de gerenciamento de riscos internos não está associado ao log de auditoria Microsoft 365, eles são sistemas de auditoria independentes e capturam informações sobre atividades separadas. Desabilitar Microsoft 365 auditoria não afeta a auditoria de atividades dentro do gerenciamento de risco interno.
 
 ## <a name="view-activity-in-the-insider-risk-audit-log"></a>Exibir atividade no log de auditoria de risco interno
 

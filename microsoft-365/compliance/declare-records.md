@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Declarar registros usando rótulos de retenção. '
-ms.openlocfilehash: b5114253c99533e890d66248529b4713700b9016
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: ba0587619609adba2d7746a45a3b24008a4a00be
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52903895"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226990"
 ---
 # <a name="declare-records-by-using-retention-labels"></a>Declarar registros usando rótulos de retenção
 
@@ -36,7 +36,7 @@ Em seguida, você pode publicar esses rótulos em uma política de rótulo de re
 
 ## <a name="how-to-display-the-option-to-mark-content-as-a-regulatory-record"></a>Como exibir a opção para marcar o conteúdo como um registro regulatório
 
->[!NOTE] 
+> [!NOTE]
 > O procedimento a seguir é uma ação auditável, registrar em log **Opção de registro regulatório habilitado para rótulos de retenção** na seção [Política de retenção e atividades de rótulo de retenção](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities) do log de auditoria.
 
 Por padrão, a opção de rótulo de retenção para marcar o conteúdo como um registro regulatório não é exibida no assistente de etiqueta de retenção. Para exibir essa opção, você deve primeiro executar um comando do Windows PowerShell:
@@ -44,13 +44,14 @@ Por padrão, a opção de rótulo de retenção para marcar o conteúdo como um 
 1. [Conecte-se ao Centro de Segurança e Conformidade do Office 365 PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
 2. Execute o seguinte cmdlet:
-    
+
     ```powershell
     Set-RegulatoryComplianceUI -Enabled $true
     ````
+
     Não há uma solicitação para confirmar e a configuração tem efeito imediatamente.
 
-Se você mudar de ideia sobre como ver essa opção no assistente de etiqueta de retenção, é possível ocultá-la novamente executando o mesmo cmdlet com o **falso** valor: `Set-RegulatoryComplianceUI -Enabled $false` 
+Se você mudar de ideia sobre como ver essa opção no assistente de etiqueta de retenção, é possível ocultá-la novamente executando o mesmo cmdlet com o **falso** valor: `Set-RegulatoryComplianceUI -Enabled $false`
 
 ## <a name="configuring-retention-labels-to-declare-records"></a>Configurar rótulos de retenção para declarar registros
 
@@ -60,7 +61,7 @@ Por exemplo:
 
 ![Configurar um rótulo de retenção para marcar o conteúdo como um registro ou uma regulamentação](../media/recordversioning6.png)
 
-Usando esse rótulo de retenção, você pode aplicá-lo a documentos do Microsoft Office SharePoint Online ou do Microsoft OneDrive e a emails do Exchange, conforme necessário. 
+Usando esse rótulo de retenção, você pode aplicá-lo a documentos do Microsoft Office SharePoint Online ou do Microsoft OneDrive e a emails do Exchange, conforme necessário.
 
 Para obter instruções completas:
 
@@ -73,7 +74,7 @@ Para obter instruções completas:
 
 Quando os rótulos de retenção que marcam itens como registro ou registro regulatório estão disponíveis para os usuários aplicá-los em aplicativos:
 
-- Para o Exchange, qualquer usuário com acesso de gravação à caixa de correio pode aplicar esses rótulos. 
+- Para o Exchange, qualquer usuário com acesso de gravação à caixa de correio pode aplicar esses rótulos.
 - Para o SharePoint e OneDrive, qualquer usuário no grupo Membros padrão (o nível de permissão de Contribuição) pode aplicar esses rótulos.
 
 Exemplo de um documento marcado como registro usando um rótulo de retenção:
@@ -84,7 +85,7 @@ Exemplo de um documento marcado como registro usando um rótulo de retenção:
 
 As ações de rotulação para declarar itens como registros são registradas no log de auditoria.
 
-Para itens do SharePoint: 
+Para itens do SharePoint:
 - Nas **Atividades de arquivo e páginas**, selecione **Rótulo de retenção alterado para um arquivo**. Esse evento de auditoria é para rótulos de retenção que marcam itens como registros, registros regulamentais ou que são rótulos de retenção padrão.
 
 Para itens do Exchange:

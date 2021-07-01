@@ -21,34 +21,34 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ''
 description: Use este artigo para saber mais sobre a habilitação e configuração do gerenciamento de acesso privilegiado Office 365.
-ms.openlocfilehash: 0b8d79c3012ecd321d7b00c1566aa557077d55f1
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: 13b600c60e1b9c88285ee58efcf80a7ff5ea17fe
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126528"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226114"
 ---
 # <a name="get-started-with-privileged-access-management"></a>Introdução ao gerenciamento de acesso privilegiado
 
-Este tópico orienta você por meio da habilitação e configuração do gerenciamento de acesso privilegiado em sua organização. Você pode usar o centro de administração Microsoft 365 ou o PowerShell de Gerenciamento Exchange gerenciamento para gerenciar e usar o acesso privilegiado.
+Este tópico orienta você por meio da habilitação e configuração do gerenciamento de acesso privilegiado em sua organização. Você pode usar o PowerShell de gerenciamento Centro de administração do Microsoft 365 ou Exchange gerenciamento para gerenciar e usar o acesso privilegiado.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
 Antes de começar com o gerenciamento de acesso privilegiado, você deve confirmar sua assinatura [Microsoft 365 e](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) quaisquer complementos. Para acessar e usar o gerenciamento de acesso privilegiado, sua organização deve ter uma das seguintes assinaturas ou complementos:
 
 - Microsoft 365 E5 assinatura (versão paga ou de avaliação)
-- Microsoft 365 E3 assinatura (ou assinatura Office 365 E3 + assinatura Enterprise Mobility and Security E3) + o complemento Microsoft 365 E5 Compliance Microsoft 365 E5 Compliance
-- Qualquer Microsoft 365, Office 365, Exchange, SharePoint assinatura ou OneDrive for Business assinatura + o complemento Microsoft 365 E5 Gerenciamento de Riscos do Insider  
-- Microsoft 365 Assinatura A5 (versão paga ou avaliação)
-- Microsoft 365 Assinatura A3 (ou assinatura Office 365 A3 + assinatura Enterprise Mobility and Security A3) + o complemento conformidade do Microsoft A5
-- Qualquer Microsoft 365, Office 365, Exchange, SharePoint ou OneDrive assinatura para Educação + o complemento gerenciamento de riscos do Microsoft 365 A5 Insider
+- Microsoft 365 E3 assinatura (ou assinatura Office 365 E3 + assinatura Enterprise Mobility e Security E3) + o Microsoft 365 E5 Compliance complemento do Microsoft 365 E5 Compliance
+- Qualquer Microsoft 365, Office 365, Exchange, SharePoint assinatura ou OneDrive for Business assinatura + o complemento Microsoft 365 E5 Gerenciamento de Riscos do Insider
+- Microsoft 365 A5 assinatura (versão paga ou de avaliação)
+- Microsoft 365 A3 assinatura (ou assinatura Office 365 A3 + assinatura Enterprise Mobility and Security A3) + o complemento conformidade do Microsoft A5
+- Qualquer Microsoft 365, Office 365, Exchange, SharePoint ou OneDrive assinatura para Educação + o complemento Microsoft 365 A5 Gerenciamento de Riscos do Microsoft 365 A5 Insider
 - Office 365 Enterprise Assinatura E5 (versão paga ou avaliação)
 - Office 365 Enterprise Assinatura E3 + o Conformidade Avançada do Office 365 complemento (não está mais disponível para novas assinaturas, consulte observação)
 
 Os usuários que estão enviando e respondendo a solicitações de gerenciamento de acesso privilegiado devem receber uma das licenças acima.
 
->[!IMPORTANT]
->Conformidade Avançada do Office 365 não é mais vendida como uma assinatura autônoma. Quando as assinaturas atuais expirarem, os clientes devem fazer a transição para uma das assinaturas acima, que contêm os mesmos recursos de conformidade ou adicionais.
+> [!IMPORTANT]
+> Conformidade Avançada do Office 365 não é mais vendida como uma assinatura autônoma. Quando as assinaturas atuais expirarem, os clientes devem fazer a transição para uma das assinaturas acima, que contêm os mesmos recursos de conformidade ou adicionais.
 
 Se você não tiver um plano Office 365 Enterprise E5 existente e quiser tentar o gerenciamento de acesso privilegiado, adicione o [Microsoft 365](/office365/admin/try-or-buy-microsoft-365) à sua assinatura do Office 365 existente ou inscreva-se para uma avaliação do Microsoft 365 Enterprise E5. [](https://www.microsoft.com/microsoft-365/enterprise)
 
@@ -72,16 +72,16 @@ Siga estas etapas para configurar e usar o acesso privilegiado em sua organizaç
 
     Uma vez habilitado, o acesso privilegiado requer aprovações para qualquer tarefa que tenha uma política de aprovação associada definida. Para tarefas incluídas em uma política de aprovação, os usuários devem solicitar e ter a aprovação de acesso concedida para que tenham as permissões necessárias para executar a tarefa.
 
-Depois que a aprovação for concedida, o usuário solicitante poderá executar a tarefa pretendida e o acesso privilegiado autorizará e executará a tarefa em nome do usuário. A aprovação permanece válida pelo tempo solicitado (a duração padrão é de quatro horas), durante o qual o solicitante pode executar a tarefa pretendida várias vezes. Todas essas execuções são registradas e disponibilizadas para auditoria de segurança e conformidade. 
+Depois que a aprovação for concedida, o usuário solicitante poderá executar a tarefa pretendida e o acesso privilegiado autorizará e executará a tarefa em nome do usuário. A aprovação permanece válida pelo tempo solicitado (a duração padrão é de quatro horas), durante o qual o solicitante pode executar a tarefa pretendida várias vezes. Todas essas execuções são registradas e disponibilizadas para auditoria de segurança e conformidade.
 
->[!NOTE]
->Se você quiser usar o powershell de gerenciamento do Exchange para habilitar e configurar o acesso privilegiado, siga as etapas do Conexão para Exchange Online PowerShell usando a autenticação [multifação](/powershell/exchange/connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-using-mfa) para se conectar ao Exchange Online PowerShell com suas credenciais de Office 365. Você não precisa habilitar a autenticação multifabilitar para sua organização usar as etapas para habilitar o acesso privilegiado ao se conectar ao Exchange Online PowerShell. A conexão com a autenticação multifatório cria um token OAuth usado pelo acesso privilegiado para assinar suas solicitações.
+> [!NOTE]
+> Se você quiser usar o powershell de gerenciamento do Exchange para habilitar e configurar o acesso privilegiado, siga as etapas do Conexão para Exchange Online PowerShell usando a autenticação [multifação](/powershell/exchange/connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-using-mfa) para se conectar ao Exchange Online PowerShell com suas credenciais de Office 365. Você não precisa habilitar a autenticação multifabilitar para sua organização usar as etapas para habilitar o acesso privilegiado ao se conectar ao Exchange Online PowerShell. A conexão com a autenticação multifatório cria um token OAuth usado pelo acesso privilegiado para assinar suas solicitações.
 
 <a name="step1"> </a>
 
 ## <a name="step-1-create-an-approvers-group"></a>Etapa 1: Criar um grupo de aprovação
 
-1. Entre no centro [de administração Microsoft 365 usando](https://admin.microsoft.com) credenciais para uma conta de administrador em sua organização.
+1. Entre no [Centro de administração do Microsoft 365](https://admin.microsoft.com) usando credenciais para uma conta de administrador em sua organização.
 
 2. No Centro de Administração, vá para **Grupos**  >  **Adicionar um grupo**.
 
@@ -97,9 +97,9 @@ Depois que a aprovação for concedida, o usuário solicitante poderá executar 
 
 ## <a name="step-2-enable-privileged-access"></a>Etapa 2: Habilitar o acesso privilegiado
 
-### <a name="in-the-microsoft-365-admin-center"></a>No Centro Microsoft 365 Admin
+### <a name="in-the-microsoft-365-admin-center"></a>No Centro de Administração Microsoft 365
 
-1. Entre no Centro [de administração Microsoft 365 usando](https://admin.microsoft.com) credenciais para uma conta de administrador em sua organização.
+1. Entre na central [Administração Microsoft 365 usando](https://admin.microsoft.com) credenciais para uma conta de administrador em sua organização.
 
 2. No Centro de Administração, vá para **Configurações** Org Configurações Segurança & Acesso Privilegiado de  >    >    >  **Privacidade.**
 
@@ -123,8 +123,8 @@ Exemplo:
 Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com' -SystemAccounts @('sys1@fabrikamorg.onmicrosoft.com', 'sys2@fabrikamorg.onmicrosoft.com')
 ```
 
->[!NOTE]
->O recurso contas do sistema é disponibilizado para garantir que determinadas automações em suas organizações possam funcionar sem dependência de acesso privilegiado, no entanto, é recomendável que essas exclusões sejam excepcionais e as permitidas sejam aprovadas e auditadas regularmente.
+> [!NOTE]
+> O recurso contas do sistema é disponibilizado para garantir que determinadas automações em suas organizações possam funcionar sem dependência de acesso privilegiado, no entanto, é recomendável que essas exclusões sejam excepcionais e as permitidas sejam aprovadas e auditadas regularmente.
 
 <a name="step3"> </a>
 
@@ -132,9 +132,9 @@ Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com'
 
 Você pode criar e configurar até 30 políticas de acesso privilegiado para sua organização.
 
-### <a name="in-the-microsoft-365-admin-center"></a>No Centro Microsoft 365 Admin
+### <a name="in-the-microsoft-365-admin-center"></a>No Centro de Administração Microsoft 365
 
-1. Entre no Centro [de administração Microsoft 365 usando](https://admin.microsoft.com) credenciais para uma conta de administrador em sua organização.
+1. Entre na central [Administração Microsoft 365 usando](https://admin.microsoft.com) credenciais para uma conta de administrador em sua organização.
 
 2. No Centro de Administração, vá para **Configurações** Org Configurações Segurança & Acesso Privilegiado de  >    >    >  **Privacidade.**
 
@@ -143,7 +143,7 @@ Você pode criar e configurar até 30 políticas de acesso privilegiado para sua
 4. Selecione **Configurar políticas e** selecione Adicionar uma **política**.
 
 5. Nos campos drop-down, selecione os valores apropriados para sua organização:
-    
+
     **Tipo de política**: tarefa, função ou grupo de funções
 
     **Escopo da política**: Exchange
@@ -178,9 +178,9 @@ New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType 
 
 As solicitações de acesso privilegiado são válidas por até 24 horas após o envio da solicitação. Se não forem aprovadas ou negadas, as solicitações expiram e o acesso não é aprovado.
 
-#### <a name="in-the-microsoft-365-admin-center"></a>No Centro Microsoft 365 Admin
+#### <a name="in-the-microsoft-365-admin-center"></a>No Centro de Administração Microsoft 365
 
-1. Entre no Centro [de administração Microsoft 365 usando](https://admin.microsoft.com) suas credenciais.
+1. Entre na central [Administração Microsoft 365 usando](https://admin.microsoft.com) suas credenciais.
 
 2. No Centro de Administração, vá para **Configurações** Org Configurações Segurança & Acesso Privilegiado de  >    >    >  **Privacidade.**
 
@@ -220,7 +220,7 @@ Após a criação de uma solicitação de aprovação, o status da solicitação
 
 #### <a name="in-the-microsoft-365-admin-center"></a>No Centro de administração do Microsoft 365
 
-1. Entre no centro [de administração Microsoft 365 com](https://admin.microsoft.com) suas credenciais.
+1. Entre [na](https://admin.microsoft.com) Centro de administração do Microsoft 365 com suas credenciais.
 
 2. No centro de administração, vá para **Configurações** Org Configurações Segurança & Acesso Privilegiado de  >    >    >  **Privacidade.**
 
@@ -248,7 +248,7 @@ Quando uma solicitação de aprovação é criada, membros do grupo aprovador re
 
 #### <a name="in-the-microsoft-365-admin-center"></a>No Centro de administração do Microsoft 365
 
-1. Entre no centro [de administração Microsoft 365 com](https://admin.microsoft.com) suas credenciais.
+1. Entre [na](https://admin.microsoft.com) Centro de administração do Microsoft 365 com suas credenciais.
 
 2. No centro de administração, vá para **Configurações** Org Configurações Segurança & Acesso Privilegiado de  >    >    >  **Privacidade.**
 
@@ -290,7 +290,7 @@ Se ela não for mais necessária em sua organização, você poderá excluir uma
 
 ### <a name="in-the-microsoft-365-admin-center"></a>No Centro de administração do Microsoft 365
 
-1. Entre no centro [de administração Microsoft 365 usando](https://admin.microsoft.com) credenciais para uma conta de administrador em sua organização.
+1. Entre no [Centro de administração do Microsoft 365](https://admin.microsoft.com) usando credenciais para uma conta de administrador em sua organização.
 
 2. No centro de administração, vá para **Configurações** Org Configurações Segurança & Acesso Privilegiado de  >    >    >  **Privacidade.**
 
@@ -316,7 +316,7 @@ Se necessário, você pode desabilitar o gerenciamento de acesso privilegiado pa
 
 ### <a name="in-the-microsoft-365-admin-center"></a>No Centro de administração do Microsoft 365
 
-1. Entre no centro [de administração Microsoft 365 com](https://admin.microsoft.com) credenciais para uma conta de administrador em sua organização.
+1. Entre no [Centro de administração do Microsoft 365](https://admin.microsoft.com) com credenciais para uma conta de administrador em sua organização.
 
 2. No Centro de Administração, vá para **Configurações** Org Configurações Segurança & Acesso Privilegiado de  >    >    >  **Privacidade.**
 

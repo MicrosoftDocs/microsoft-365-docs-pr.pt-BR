@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 9fe1665eda882793a62315299a3cbf6667ec7988
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 0ee3fdf19552ee80737f6758e655d297228c469e
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445649"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226546"
 ---
 # <a name="insider-risk-management-alerts"></a>Alertas de gerenciamento de riscos insider
 
@@ -32,14 +32,14 @@ O painel alerta de risco **interno** permite que você veja e aja em alertas ger
 - **Total de alertas que precisam** ser revisados : O número total de alertas que precisam de revisão e triagem são listados, incluindo uma divisão por gravidade de alerta.
 - **Alertas abertos nos últimos 30** dias : O número total de alertas criados pela política corresponde aos últimos 30 dias, organizados por níveis altos, médios e de gravidade de alerta baixo.
 - **Tempo médio para resolver alertas**: um resumo das estatísticas de alerta úteis:
-    - Tempo médio para resolver alertas de alta gravidade, listados em horas, dias ou meses.
-    - Tempo médio para resolver alertas de média gravidade, listados em horas, dias ou meses.
-    - Tempo médio para resolver alertas de baixa gravidade, listados em horas, dias ou meses.
+  - Tempo médio para resolver alertas de alta gravidade, listados em horas, dias ou meses.
+  - Tempo médio para resolver alertas de média gravidade, listados em horas, dias ou meses.
+  - Tempo médio para resolver alertas de baixa gravidade, listados em horas, dias ou meses.
 
 ![Painel de alertas de gerenciamento de riscos insider](../media/insider-risk-alerts-dashboard.png)
 
->[!NOTE]
->O gerenciamento de risco interno usa a limitação de alerta incorporada para ajudar a proteger e otimizar sua experiência de investigação de risco e revisão. Essa limitação protege contra problemas que podem resultar em uma sobrecarga de alertas de política, como conectores de dados mal-configurados ou políticas DLP. Como resultado, pode haver um atraso na exibição de novos alertas para um usuário.
+> [!NOTE]
+> O gerenciamento de risco interno usa a limitação de alerta incorporada para ajudar a proteger e otimizar sua experiência de investigação de risco e revisão. Essa limitação protege contra problemas que podem resultar em uma sobrecarga de alertas de política, como conectores de dados mal-configurados ou políticas DLP. Como resultado, pode haver um atraso na exibição de novos alertas para um usuário.
 
 ## <a name="alert-status-and-severity"></a>Status de alerta e gravidade
 
@@ -75,7 +75,7 @@ Para pesquisar o nome do alerta em uma palavra específica, selecione o controle
 
 Para triagem de um alerta de risco interno, conclua as seguintes etapas:
 
-1. No centro [Microsoft 365 de conformidade,](https://compliance.microsoft.com)vá para Gerenciamento de riscos **do Insider** e selecione a **guia Alertas.**
+1. Na [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com), vá para Gerenciamento de riscos **do Insider** e selecione a **guia Alertas.**
 2. No painel **Alertas,** selecione o alerta que você deseja triagem.
 3. No painel **de detalhes Alertas,** você pode revisar as seguintes guias e triagem do alerta:
     - **Resumo**: esta guia contém informações gerais sobre o alerta e permite que você confirme o alerta e crie um novo caso ou permita que você descarte o alerta. Ele inclui o status atual do alerta e o nível de gravidade do risco de alerta, listado como *Alto,* *Médio* ou *Baixo.* O nível de gravidade pode aumentar ou diminuir ao longo do tempo se o alerta não for triaged.
@@ -91,8 +91,8 @@ Para triagem de um alerta de risco interno, conclua as seguintes etapas:
 
 ## <a name="activity-explorer-preview"></a>Explorador de atividades (visualização)
 
->[!NOTE]
->O explorador de atividades está disponível na área de gerenciamento de alertas para usuários com eventos disparados depois que esse recurso está disponível em sua organização.
+> [!NOTE]
+> O explorador de atividades está disponível na área de gerenciamento de alertas para usuários com eventos disparados depois que esse recurso está disponível em sua organização.
 
 O Explorador de Atividades fornece aos investigadores e analistas de risco uma ferramenta analítica abrangente que fornece informações detalhadas sobre alertas. Com o Explorador de Atividades, os revisadores podem revisar rapidamente uma linha do tempo de atividade arriscada detectada e identificar e filtrar todas as atividades de risco associadas a alertas. Para filtrar alertas no explorador de atividades, selecione o controle Filter. Você pode filtrar alertas por um ou mais atributos listados no painel de detalhes do alerta. O explorador de atividades também dá suporte a colunas personalizáveis para ajudar os investigadores e analistas a concentrar o painel nas informações mais importantes para eles.
 
@@ -100,7 +100,7 @@ O Explorador de Atividades fornece aos investigadores e analistas de risco uma f
 
 Para usar o **explorador de atividades,** conclua as seguintes etapas:
 
-1. No centro Microsoft 365 de conformidade, vá para Gerenciamento de riscos **do Insider** e selecione a **guia Alertas.**
+1. Na Centro de conformidade do Microsoft 365, vá para Gerenciamento de riscos **do Insider** e selecione a **guia Alertas.**
 2. No painel **Alertas,** selecione o alerta que você deseja triagem.
 3. No painel **de detalhes Alertas,** selecione **Abrir exibição expandida**.
 4. Na página do alerta selecionado, selecione a guia **Explorador de** atividades.
@@ -113,7 +113,7 @@ Ao revisar atividades no explorador de atividades, os investigadores e analistas
 
 À medida que o alerta é revisado e triaged, você pode criar um novo caso para investigar ainda mais a atividade de risco. Para criar um caso para um alerta, siga estas etapas:
 
-1. No centro [Microsoft 365 de conformidade,](https://compliance.microsoft.com)vá para Gerenciamento de riscos **do Insider** e selecione a **guia Alertas.**
+1. Na [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com), vá para Gerenciamento de riscos **do Insider** e selecione a **guia Alertas.**
 2. No painel **Alertas,** selecione o alerta para o que você deseja confirmar e crie um novo caso.
 3. No painel **de detalhes alertas,** selecione **Ações**  >  **Confirmar alertas & criar caso**.
 4. Na caixa **de diálogo** Confirmar alerta e criar caso de risco interno, insira um nome para o caso, selecione usuários para adicionar como colaboradores e adicione comentários conforme aplicável. Os comentários são adicionados automaticamente ao caso como uma observação de caso.

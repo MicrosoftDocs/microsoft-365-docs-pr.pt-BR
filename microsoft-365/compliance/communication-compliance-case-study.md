@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 1b9bef180fed9c3afa3b3d8d2319a1fa0260ed14
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: bd3904b480f757c1cf684e15afaae9c19559e1ea
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126590"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227394"
 ---
 # <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-exchange-and-yammer-communications"></a>Estudo de caso - a Contoso configura rapidamente uma política de linguagem ofensiva para comunicações Microsoft Teams, Exchange e Yammer comunicações
 
@@ -48,16 +48,16 @@ Os administradores de TI e especialistas em conformidade da Contoso participaram
 - Os especialistas em conformidade e outros colegas em outros departamentos (Recursos Humanos, Jurídicos etc.) que precisam investigar e correção de alertas de conformidade de comunicação.
 - Os usuários que estarão no escopo da política de linguagem ofensiva de conformidade de comunicação.
 
-### <a name="licensing"></a>Licenciamento
+### <a name="licensing"></a>Licenças
 
 A primeira etapa é confirmar se o licenciamento Microsoft 365 da Contoso inclui suporte para a solução de conformidade de comunicação. Para acessar e usar a conformidade de comunicação, os administradores de IT da Contoso precisam verificar se a Contoso tem um dos seguintes:
 
 - Microsoft 365 E5 assinatura (versão paga ou de avaliação)
 - Microsoft 365 E3 assinatura + o Microsoft 365 E5 Compliance complemento
 - Microsoft 365 E3 assinatura + o complemento Microsoft 365 E5 Gerenciamento de Riscos do Insider
-- Microsoft 365 Assinatura A5 (versão paga ou avaliação)
-- Microsoft 365 Assinatura A3 + o complemento Microsoft 365 conformidade do A5
-- Microsoft 365 Assinatura A3 + o complemento Microsoft 365 A5 Insider Risk Management
+- Microsoft 365 A5 assinatura (versão paga ou de avaliação)
+- Microsoft 365 A3 assinatura + o complemento Microsoft 365 A5 Conformidade
+- Microsoft 365 A3 assinatura + o complemento Microsoft 365 A5 Gerenciamento de Riscos do Insider
 - Microsoft 365 Assinatura G5 (versão paga ou de avaliação)
 - Microsoft 365 Assinatura do G5 + o complemento Microsoft 365 conformidade do G5
 - Microsoft 365 Assinatura do G5 + o complemento Microsoft 365 G5 Insider Risk Management
@@ -66,12 +66,12 @@ A primeira etapa é confirmar se o licenciamento Microsoft 365 da Contoso inclui
 
 Eles também devem confirmar que os usuários incluídos nas políticas de conformidade de comunicação devem ser atribuídos a uma das licenças acima.
 
->[!IMPORTANT]
->Conformidade Avançada do Office 365 não é mais vendida como uma assinatura autônoma. Quando as assinaturas atuais expirarem, os clientes devem fazer a transição para uma das assinaturas acima, que contêm os mesmos recursos de conformidade ou adicionais.
+> [!IMPORTANT]
+> Conformidade Avançada do Office 365 não é mais vendida como uma assinatura autônoma. Quando as assinaturas atuais expirarem, os clientes devem fazer a transição para uma das assinaturas acima, que contêm os mesmos recursos de conformidade ou adicionais.
 
 Os administradores de IT da Contoso seguem as seguintes etapas para verificar o suporte ao licenciamento da Contoso:
 
-1. Os administradores de IT entrar no **centro** de administração do Microsoft 365 [ https://admin.microsoft.com) (](https://admin.microsoft.com) e navegar **até** o centro de administração Microsoft 365  >  **Cobrança de**  >  **Licenças**.
+1. Os administradores de IT entrar no **Centro de administração do Microsoft 365** <https://admin.microsoft.com> e navegar até **Centro de administração do Microsoft 365**  >    >  **Licenças de Cobrança.**
 
 2. Aqui, eles confirmam que têm uma das opções [de licença](communication-compliance-configure.md#subscriptions-and-licensing) que inclui suporte para conformidade de comunicação.
 
@@ -79,7 +79,7 @@ Os administradores de IT da Contoso seguem as seguintes etapas para verificar o 
 
 ### <a name="permissions-for-communication-compliance"></a>Permissões para conformidade de comunicação
 
-Há cinco grupos de função usados para configurar permissões para gerenciar recursos de conformidade de comunicação. Para **disponibilizar** a conformidade de comunicação como uma opção de menu no centro de conformidade Microsoft 365 e continuar com essas etapas de configuração, os administradores da Contoso são atribuídos à função Administrador de *Conformidade de* Comunicação.
+Há cinco grupos de função usados para configurar permissões para gerenciar recursos de conformidade de comunicação. Para **disponibilizar** a conformidade de comunicação como uma opção de menu no Centro de conformidade do Microsoft 365 e continuar com essas etapas de configuração, os administradores da Contoso são atribuídos à função Administrador de *Conformidade de* Comunicação.
 
 A Contoso decide usar o grupo de *função Conformidade* de Comunicação atribui todos os administradores de conformidade de comunicação, analistas, investigadores e visualizadores ao grupo. Isso torna mais fácil para a Contoso começar rapidamente e se adequar melhor aos requisitos de gerenciamento de conformidade.
 
@@ -104,9 +104,9 @@ A Contoso decide usar o grupo de *função Conformidade* de Comunicação atribu
 Depois de configurar as permissões de conformidade de comunicação, os administradores de TI e especialistas em conformidade da Contoso atribuídos ao grupo de função conformidade de comunicação podem acessar a solução de conformidade de comunicação no Microsoft 365. Os administradores de TI e especialistas em conformidade da Contoso têm várias maneiras de acessar a conformidade de comunicação e começar a criar uma nova política:
 
 - Começando diretamente da solução de conformidade de comunicação
-- A partir do Microsoft 365 de conformidade
+- A partir do Centro de conformidade do Microsoft 365
 - A partir do catálogo de Microsoft 365 de soluções
-- A partir do Microsoft 365 de administração
+- A partir do Centro de administração do Microsoft 365
 
 ### <a name="starting-directly-from-the-communication-compliance-solution"></a>Começando diretamente da solução de conformidade de comunicação
 
@@ -114,29 +114,29 @@ A maneira mais rápida de acessar a solução é entrar diretamente na solução
 
 ![Visão geral da conformidade de comunicações](../media/communication-compliance-case-overview.png)
 
-### <a name="starting-from-the-microsoft-365-compliance-center"></a>A partir do Microsoft 365 de conformidade
+### <a name="starting-from-the-microsoft-365-compliance-center"></a>A partir do Centro de conformidade do Microsoft 365
 
-Outra maneira fácil para os administradores de TI e especialistas em conformidade da Contoso acessarem a solução de conformidade de comunicação é entrar diretamente no Microsoft 365 **de conformidade** [( https://compliance.microsoft.com)](https://compliance.microsoft.com). Depois de entrar, os usuários precisam simplesmente selecionar o controle **Mostrar todos** para exibir todas as soluções de conformidade e, em seguida, selecionar a solução de **Conformidade de comunicações** para começar.
+Outra maneira fácil para os administradores de TI e especialistas em conformidade  da Contoso acessarem a solução de conformidade de comunicação é entrar diretamente no Centro de conformidade do Microsoft 365 [( https://compliance.microsoft.com) ](https://compliance.microsoft.com). Depois de entrar, os usuários precisam simplesmente selecionar o controle **Mostrar todos** para exibir todas as soluções de conformidade e, em seguida, selecionar a solução de **Conformidade de comunicações** para começar.
 
 ![Centro de conformidade](../media/communication-compliance-case-center.png)
 
 ### <a name="starting-from-the-microsoft-365-solution-catalog"></a>A partir do catálogo de Microsoft 365 de soluções
 
-Os administradores de TI e especialistas em conformidade da Contoso também podem optar por acessar a solução de conformidade de comunicação selecionando o catálogo Microsoft 365 solução. Selecionando a seção **Catálogo** em **Soluções** da navegação à esquerda enquanto estiver no centro de conformidade do Microsoft 365 **,** eles podem abrir o catálogo de soluções listando todas as Microsoft 365 de conformidade. Rolar para baixo até a seção Gerenciamento de riscos **do Insider,** os administradores de IT da Contoso podem selecionar Conformidade de comunicação para começar. Os administradores de IT da Contoso também decidem usar o controle de navegação Mostrar na navegação para fixar a solução de conformidade de comunicação ao painel de navegação à esquerda para acesso mais rápido quando eles entrarem em avançar.
+Os administradores de TI e especialistas em conformidade da Contoso também podem optar por acessar a solução de conformidade de comunicação selecionando o catálogo Microsoft 365 solução. Selecionando **a seção Catálogo** em **Soluções** da navegação à esquerda enquanto estiver no Centro de conformidade do Microsoft 365 **,** eles podem abrir o catálogo de soluções listando todas as Microsoft 365 de conformidade. Rolar para baixo até a seção Gerenciamento de riscos **do Insider,** os administradores de IT da Contoso podem selecionar Conformidade de comunicação para começar. Os administradores de IT da Contoso também decidem usar o controle de navegação Mostrar na navegação para fixar a solução de conformidade de comunicação ao painel de navegação à esquerda para acesso mais rápido quando eles entrarem em avançar.
 
 ![Catálogo de soluções](../media/communication-compliance-case-solution.png)
 
-### <a name="starting-from-the-microsoft-365-admin-center"></a>A partir do Microsoft 365 de administração
+### <a name="starting-from-the-microsoft-365-admin-center"></a>A partir do Centro de administração do Microsoft 365
 
-Para acessar a conformidade de comunicação ao iniciar a partir do centro de administração do Microsoft 365, os administradores de TI e especialistas em conformidade da Contoso entrarão no centro de administração do Microsoft 365 [( https://admin.microsoft.com)](https://admin.microsoft.com) e navegue até o centro de administração Microsoft 365   >  **Conformidade**.
+Para acessar a conformidade de comunicação ao partir do Centro de administração do Microsoft 365, os administradores de TI e especialistas em conformidade da Contoso entrarão no Centro de administração do Microsoft 365 [( https://admin.microsoft.com)](https://admin.microsoft.com) e navegue até Centro de administração do Microsoft 365  >  **Conformidade**.
 
 ![Link de conformidade de comunicação](../media/communication-compliance-case-compliance-link.png)
 
-Essa ação abre **Office 365** Central de Conformidade e Segurança e deve  selecionar o link para o centro de conformidade Microsoft 365 fornecido na faixa na parte superior da página.
+Essa ação abre **Office 365** Centro de Conformidade e Segurança e deve  selecionar o link para o Centro de conformidade do Microsoft 365 fornecido na faixa na parte superior da página.
 
 ![Office 365 de conformidade e segurança](../media/communication-compliance-case-scc.png)
 
-Uma vez no **Microsoft 365 de conformidade,** os administradores de TI da Contoso **selecionam Mostrar** tudo para exibir a lista completa de soluções de conformidade.
+Uma vez **na** Centro de conformidade do Microsoft 365, os administradores de TI da Contoso **selecionam Mostrar tudo** para exibir a lista completa de soluções de conformidade.
 
 ![Menu de conformidade de comunicação](../media/communication-compliance-case-show-all.png)
 
@@ -166,7 +166,7 @@ Os especialistas em conformidade da Contoso querem adicionar todos os usuários 
 
 Eles precisam criar um novo grupo para incluir todos os usuários da Contoso, para que eles deem as seguintes etapas:
 
-1. Os administradores de IT da Contoso entrar no centro **de** administração Microsoft 365 [( https://admin.microsoft.com)](https://admin.microsoft.com) e navegar até Microsoft 365 grupos do centro de **administração**  >    >  .
+1. Os administradores de IT da Contoso entrarão **no** Centro de administração do Microsoft 365 [ https://admin.microsoft.com) (](https://admin.microsoft.com) e navegue até **Centro de administração do Microsoft 365**  >  **Grupos.**  >  
 2. Eles **selecionam Adicionar um grupo** e concluem o assistente para criar um novo *grupo Microsoft 365 ou* grupo *de Distribuição.*
 
     ![Grupos](../media/communication-compliance-case-all-employees.png)

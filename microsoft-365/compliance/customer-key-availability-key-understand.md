@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Saiba mais sobre a chave de disponibilidade usada para recuperar chaves de cliente perdidas.
-ms.openlocfilehash: 4f4dfdff0aa1c7ebe6dd1266c82c6fd290913a3e
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: a4db6eab78feebd171dbfd5c8b45252837f229d0
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345089"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227074"
 ---
 # <a name="learn-about-the-availability-key-for-customer-key"></a>Saiba mais sobre a chave disponibilidade da Chave de Cliente
 
@@ -155,8 +155,8 @@ Microsoft 365 aciona a chave de disponibilidade somente em circunstâncias espec
 
        - Nesse caso, a chave de disponibilidade será usada apenas para ações do sistema e não para ações do usuário, a solicitação do usuário falha e o usuário recebe uma mensagem de erro.
 
->[!IMPORTANT]
->Microsoft 365 código de serviço sempre tem um token de logon válido para raciocínio sobre dados do cliente para fornecer serviços de nuvem de adição de valor. Portanto, até que a chave de disponibilidade seja excluída, ela pode ser usada como um fallback para ações iniciadas por, ou internas, Exchange Online e Skype for Business, como criação de índice de pesquisa ou movimentação de caixas de correio. Isso se aplica a solicitações DE ERROS transitórios e ACESSO NEGADO ao Azure Key Vault.
+> [!IMPORTANT]
+> Microsoft 365 código de serviço sempre tem um token de logon válido para raciocínio sobre dados do cliente para fornecer serviços de nuvem de adição de valor. Portanto, até que a chave de disponibilidade seja excluída, ela pode ser usada como um fallback para ações iniciadas por, ou internas, Exchange Online e Skype for Business, como criação de índice de pesquisa ou movimentação de caixas de correio. Isso se aplica a solicitações DE ERROS transitórios e ACESSO NEGADO ao Azure Key Vault.
 
 ### <a name="triggers-for-sharepoint-online-onedrive-for-business-and-teams-files"></a>Gatilhos para SharePoint online, OneDrive for Business e Teams arquivos
 

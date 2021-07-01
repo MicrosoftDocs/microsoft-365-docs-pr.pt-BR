@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Use o Basic Mobility and Security integrado para remover informações de dispositivos inscritos.
-ms.openlocfilehash: 8c873923505fe527f5a44df0e8b15d290e92023b
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: c3cc547ce5e135ccdabf9a09b0d572f1b2530f47
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706137"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228142"
 ---
 # <a name="wipe-a-mobile-device-in-basic-mobility-and-security"></a>Apagar um dispositivo móvel em Mobilidade Básica e Segurança
 
@@ -45,7 +45,7 @@ Os dispositivos móveis podem armazenar informações organizacionais confidenci
 
 ## <a name="wipe-a-mobile-device"></a>Apagar um dispositivo móvel
 
-1. Vá para o centro [de administração Microsoft 365.](../../admin/admin-overview/about-the-admin-center.md)
+1. Vá para o [Centro de administração do Microsoft 365](../../admin/admin-overview/about-the-admin-center.md).
 
 2. Digite Gerenciamento de Dispositivo Móvel no campo de pesquisa e selecione Gerenciamento de Dispositivo **Móvel** na lista de resultados.
 
@@ -86,5 +86,6 @@ O apagamento é enviado imediatamente para o dispositivo móvel e o dispositivo 
 |Microsoft 365 dados do aplicativo serão apagados se o dispositivo estiver protegido pelas políticas de Proteção de Aplicativos do Intune. Os aplicativos não são removidos. Para dispositivos não protegidos por políticas de Gerenciamento de Aplicativo Móvel (MAM), Outlook e OneDrive não removerão dados armazenados em cache.<br/>**Observação** Para aplicar políticas de proteção do Aplicativo do Intune, você deve ter uma licença do Intune.|Sim|Sim|
 |As configurações de política aplicadas pela Mobilidade Básica e Segurança a dispositivos não são mais impostas; os usuários podem alterar as configurações.|Sim|Sim|
 |Os perfis de email criados pela Basic Mobility and Security são removidos e os emails armazenados em cache no dispositivo são excluídos.|Sim|N/D|
->[!NOTE]
->Portal da Empresa app está disponível na App Store para iOS e na Play Store para dispositivos Android.
+
+> [!NOTE]
+> Portal da Empresa app está disponível na App Store para iOS e na Play Store para dispositivos Android.

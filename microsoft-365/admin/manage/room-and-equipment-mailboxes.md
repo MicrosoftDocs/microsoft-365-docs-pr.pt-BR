@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9f518a6d-1e2c-4d44-93f3-e19013a1552b
 description: 'Criar uma caixa de correio de sala ou equipamento para que todos na sua organização possam reservá-la para reuniões ou eventos usando o Outlook. '
-ms.openlocfilehash: 6960f93e8c1978f94776f067dcd0f502f0665718
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0d999cb04161b1284025aa1b587fe7368c25eb4f
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915165"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227926"
 ---
 # <a name="room-and-equipment-mailboxes"></a>Caixas de correio de salas e equipamentos
 
@@ -88,7 +88,7 @@ Para configurar uma caixa de correio de sala ou equipamento, acesse o centro de 
 6. Se você fez alterações, selecione **Salvar** e em seguida **Fechar**.
 
 > [!Note]
-> Para manter as suas caixas de correio de salas e equipamentos seguras, bloqueie as suas caixas de correio. Para saber mais, confira [bloquear entrada para a conta de caixa de correio compartilhada](/office365/admin/email/create-a-shared-mailbox?view=o365-worldwide#block-sign-in-for-the-shared-mailbox-account).
+> Para manter as suas caixas de correio de salas e equipamentos seguras, bloqueie as suas caixas de correio. Para saber mais, confira [bloquear entrada para a conta de caixa de correio compartilhada](/office365/admin/email/create-a-shared-mailbox#block-sign-in-for-the-shared-mailbox-account).
 
 ## <a name="common-questions-about-room-and-equipment-mailboxes"></a>Aqui estão algumas perguntas comuns sobre caixas de correio de salas e equipamento.
 

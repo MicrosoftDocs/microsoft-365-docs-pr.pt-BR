@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente um rótulo a arquivos e emails, ou você pode solicitar aos usuários que selecionem o rótulo que você recomenda.
-ms.openlocfilehash: 6b74c36707b9fe1fdbe00eb7058554b54ec95755
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.openlocfilehash: 2f873482dc351050a87993420e718f6de87ac218
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53194764"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227526"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -44,20 +44,20 @@ Quando o conteúdo é rotulado manualmente, esse rótulo nunca será substituíd
 
 Há dois métodos diferentes para aplicar automaticamente um rótulo de confidencialidade ao conteúdo no Microsoft 365::
 
-- **Rotulagem do lado do cliente quando os usuários editam documentos ou compõem (além de responder ou encaminhar) emails**: Use um rótulo configurado para rotular automaticamente os aplicativos do Office (Word, Excel, PowerPoint e Outlook). 
-    
-    Este método suporta a recomendação de um rótulo para os usuários, bem como a aplicação automática de um rótulo. Mas em ambos os casos, o usuário decide se aceita ou rejeita o rótulo, para ajudar a garantir a rotulagem correta do conteúdo. Essa rotulagem do lado do cliente possui um atraso mínimo para os documentos, pois o rótulo pode ser aplicado mesmo antes de o documento ser salvo. No entanto, nem todos os aplicativos cliente oferecem suporte à rotulagem automática. Esse recurso é suportado pelo cliente de rotulagem unificada da Proteção de Informações do Azure e por [algumas versões do Office](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps). 
-    
+- **Rotulagem do lado do cliente quando os usuários editam documentos ou compõem (além de responder ou encaminhar) emails**: Use um rótulo configurado para rotular automaticamente os aplicativos do Office (Word, Excel, PowerPoint e Outlook).
+
+    Este método suporta a recomendação de um rótulo para os usuários, bem como a aplicação automática de um rótulo. Mas em ambos os casos, o usuário decide se aceita ou rejeita o rótulo, para ajudar a garantir a rotulagem correta do conteúdo. Essa rotulagem do lado do cliente possui um atraso mínimo para os documentos, pois o rótulo pode ser aplicado mesmo antes de o documento ser salvo. No entanto, nem todos os aplicativos cliente oferecem suporte à rotulagem automática. Esse recurso é suportado pelo cliente de rotulagem unificada da Proteção de Informações do Azure e por [algumas versões do Office](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps).
+
     Para obter instruções de configuração, confira [Como configurar a rotulamento automática para aplicativos do Office](#how-to-configure-auto-labeling-for-office-apps) nesta página.
 
-- **Rotulagem do lado do serviço quando o conteúdo já foi salvo (no SharePoint ou no OneDrive) ou enviado por email (processado pelo Exchange Online)**: Use uma política de rotulação automática. 
-    
+- **Rotulagem do lado do serviço quando o conteúdo já foi salvo (no SharePoint ou no OneDrive) ou enviado por email (processado pelo Exchange Online)**: Use uma política de rotulação automática.
+
     Esse método pode ser chamado de rotulagem automática de dados inativos (em documentos no SharePoint e OneDrive) e dados em trânsito (em email enviado ou recebido pelo Exchange). Para o Exchange, ele não inclui emails inativos (caixas de correio).
-    
+
     Como essa rotulagem é aplicada por serviços e não por aplicativos, você não precisa se preocupar com os aplicativos que os usuários têm e qual versão. Como resultado, esse recurso está imediatamente disponível em toda a organização e apropriado para rotular em escala. As políticas de rotulagem automática não oferecem suporte à rotulagem recomendada porque o usuário não interage com o processo de rotulagem. Em vez disso, o administrador executa as políticas no modo de simulação para ajudar a garantir a rotulagem correta do conteúdo antes de aplicar o rótulo.
-    
+
     Para obter instruções de configuração, confira [Como configurar as políticas de rotulagem automática para o SharePoint, OneDrive e Exchange](#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) nesta página.
-    
+
     Específico para rotulagem automática para o SharePoint e OneDrive:
     - Há suporte para arquivos do Office para Word, PowerPoint e Excel. Há suporte para o formato Open XML (como .docx e .xlsx), mas não para o formato Microsoft Office 97-2003 (como .doc e .xls).
         - Esses arquivos podem ser rotulados automaticamente em repouso, antes ou depois da criação das políticas de rotulagem automática. Os arquivos não podem ser rotulados automaticamente se fizerem parte de uma sessão aberta (o arquivo está aberto).
@@ -77,7 +77,7 @@ Há dois métodos diferentes para aplicar automaticamente um rótulo de confiden
         - Se o rótulo estiver configurado para [criptografia](encryption-sensitivity-labels.md), essa criptografia não será aplicada.
         - Se o rótulo estiver configurado para aplicar [marcações dinâmicas](sensitivity-labels-office-apps.md#dynamic-markings-with-variables), saiba que isso pode resultar no nome de pessoas fora da sua organização.
     - Quando o rótulo aplica criptografia, o [emissor do Gerenciamento de direitos e proprietário do Gerenciamento de direitos](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) é a pessoa que envia o e-mail. Atualmente, não há uma maneira de definir um proprietário do Rights Manager para todas as mensagens de email recebidas que sejam criptografadas automaticamente.
-    
+
 
 ## <a name="compare-auto-labeling-for-office-apps-with-auto-labeling-policies"></a>Comparar rotulagem automática para aplicativos do Office com políticas de rotulagem automática
 
@@ -115,7 +115,7 @@ Confira mais informações em rótulos de pai e sub-rótulos[Sub-rótulos (agrup
 
 A rotulagem automática nos aplicativos Office para Windows têm suporte no cliente de rotulagem unificada da Proteção de Informações do Azure.  Para a rotulagem interna nos aplicativos do Office, esse recurso está em [diferentes estágios de disponibilidade de aplicativos diferentes](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps).
 
-As configurações de rotulagem automática para aplicativos do Office estão disponíveis quando você [cria ou edita um rótulo de confidencialidade](create-sensitivity-labels.md). Certifique-se de que **Arquivos e emails** estejam selecionados para o escopo do marcador: 
+As configurações de rotulagem automática para aplicativos do Office estão disponíveis quando você [cria ou edita um rótulo de confidencialidade](create-sensitivity-labels.md). Certifique-se de que **Arquivos e emails** estejam selecionados para o escopo do marcador:
 
 ![Opções de escopo do rótulo de confidencialidade para arquivos e emails](../media/filesandemails-scope-options-sensitivity-label.png)
 
@@ -142,7 +142,7 @@ Você pode aprender mais sobre essas opções de configuração na documentaçã
 Também de forma semelhante à configuração da política DLP, você pode escolher se uma condição deve detectar todos os tipos de informações confidenciais ou apenas um deles. E para tornar suas condições mais flexíveis ou complexas, você pode adicionar [grupos e usar operadores lógicos entre os grupos](data-loss-prevention-policies.md#grouping-and-logical-operators).
 
 > [!NOTE]
-> As políticas de rotulamento automático com base em tipos de informações confidenciais personalizadas se aplicam apenas ao conteúdo recém-criado ou modificado no OneDrive e no SharePoint, não para o conteúdo existente. 
+> As políticas de rotulamento automático com base em tipos de informações confidenciais personalizadas se aplicam apenas ao conteúdo recém-criado ou modificado no OneDrive e no SharePoint, não para o conteúdo existente.
 
 ### <a name="configuring-trainable-classifiers-for-a-label"></a>Configurar classificadores treináveis para um rótulo
 
@@ -194,7 +194,7 @@ Específico para rotulagem interna:
 
 - Para obter os rótulos recomendados nas versões de área de trabalho do Word, o conteúdo confidencial que disparou a recomendação é sinalizado para que os usuários podem analisar e remover o conteúdo confidencial, em vez de aplicar o rótulo de confidencialidade recomendado.
 
-- Para saber mais sobre como esses rótulos são aplicados aos aplicativos do Office, capturas de tela de exemplo e como as informações confidenciais são detectadas, confira [Aplicar ou recomendar rótulos de confidencialidade automaticamente aos seus arquivos e emails no Office](https://support.office.com/pt-BR/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1).
+- Para saber mais sobre como esses rótulos são aplicados aos aplicativos do Office, capturas de tela de exemplo e como as informações confidenciais são detectadas, confira [Aplicar ou recomendar rótulos de confidencialidade automaticamente aos seus arquivos e emails no Office](https://support.office.com/en-us/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1).
 
 Específico para o cliente de rotulagem unificada da Proteção de Informações do Azure:
 
@@ -206,7 +206,7 @@ Específico para o cliente de rotulagem unificada da Proteção de Informações
 
 ## <a name="how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange"></a>Como configurar as políticas de rotulagem automática para o SharePoint, OneDrive e Exchange
 
-Certifique-se de que você está ciente dos pré-requisitos antes de configurar as políticas de rotulação automática. 
+Certifique-se de que você está ciente dos pré-requisitos antes de configurar as políticas de rotulação automática.
 
 ### <a name="prerequisites-for-auto-labeling-policies"></a>Pré-requisitos para políticas de rotulagem automática
 
@@ -218,7 +218,7 @@ Certifique-se de que você está ciente dos pré-requisitos antes de configurar 
     - Você deve [habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive ](sensitivity-labels-sharepoint-onedrive-files.md).
     - No momento em que a política de rotulagem automática é executada, o arquivo não deve estar aberto por outro processo ou usuário. Um arquivo que foi retirado para edição se enquadra nessa categoria.
 
-- Se você planeja usar [tipos de informações confidenciais personalizadas](sensitive-information-type-learn-about.md), em vez de tipos de confidencialidade interna: 
+- Se você planeja usar [tipos de informações confidenciais personalizadas](sensitive-information-type-learn-about.md), em vez de tipos de confidencialidade interna:
     - Os tipos de informações de confidencialidade personalizados aplicam-se apenas ao conteúdo adicionado ou modificado no Microsoft Office SharePoint Online ou OneDrive depois que os tipos de informações de confidencialidade personalizados são impostos.
     - Para testar novos tipos de informações confidenciais personalizadas, crie-os antes de criar a política de rotulagem automática e crie novos documentos com dados de exemplo para teste.
 
@@ -254,42 +254,42 @@ Por fim, você pode usar o modo de simulação para fornecer uma aproximação d
 ### <a name="creating-an-auto-labeling-policy"></a>Criar uma política de rotulagem automática
 
 1. No [centro de conformidade do Microsoft 365](https://compliance.microsoft.com/), navegue até rótulos de confidencialidade:
-    
+
     - **Proteção de Informações** > **de soluções**
-    
+
     Se você não vir essa opção imediatamente, selecione primeiro **Mostrar tudo**.
 
 2. Selecione a guia **Rotulamento automático**:
-    
+
     ![Guia Rotulamento automático](../media/auto-labeling-tab.png)
-    
+
     > [!NOTE]
     > Se você não vir a guia **Rotulamento automático**, esta funcionalidade não está disponível atualmente na sua região.
 
 3. Selecione **+ Criar uma política de rotulamento automático**. Isso iniciará o Assistente de nova política:
-    
-    ![Assistente de nova política para rotulamento automático ](../media/auto-labeling-wizard.png)
+
+    ![Assistente de nova política para rotulamento automático](../media/auto-labeling-wizard.png)
 
 4. Para a página **Escolher as informações às quais você deseja aplicar esse rótulo**: Selecione um dos modelos, como **Financeiro** ou **Privacidade**. Você pode refinar sua pesquisa usando o menu suspenso **Mostrar opções para**. Ou selecionar **Política personalizada** se os modelos não atenderem aos seus requisitos. Selecione **Avançar**.
 
 5. Para a página **Nomear política de rotulagem automática**: Forneça um nome exclusivo e, opcionalmente, uma descrição para ajudar a identificar o rótulo, os locais e as condições automaticamente aplicados que identificam o conteúdo a ser rotulado.
 
 6. Para a página **Escolher os locais onde você deseja aplicar o rótulo**: Selecione e especifique os locais para Exchange, sites do SharePoint e OneDrive. Em seguida, selecione **Avançar**.
-    
-    ![Escolher a página de locais do assistente de rotulamento automático ](../media/locations-auto-labeling-wizard.png)
-    
+
+    ![Escolher a página de locais do assistente de rotulamento automático](../media/locations-auto-labeling-wizard.png)
+
     Você deve especificar sites individuais do SharePoint e contas do OneDrive. Para o OneDrive, a URL da conta do OneDrive de um usuário está no seguinte formato: `https://<tenant name>-my.sharepoint.com/personal/<user_name>_<tenant name>_com`
-    
+
     Por exemplo, para um usuário no locatário contoso que tenha um nome de usuário "rsimone": `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`
-    
+
     Para verificar a sintaxe do seu locatário e identificar URLs dos usuários, confira [Obter uma lista de todas as URLs de usuário do OneDrive em sua organização](/onedrive/list-onedrive-urls).
 
 7. Para a página **Configurar regras comuns ou avançadas**: Mantenha o padrão das **Regras comuns** para definir regras que identificam o conteúdo a ser rotulado em todos os locais selecionados. Se você precisar de regras diferentes por local, selecione **Configurações avançadas**. Em seguida, selecione **Avançar**.
-    
+
     As regras usam condições que contêm tipos de informações confidenciais e opções de compartilhamento:
     - Para tipos de informações confidenciais, você pode selecionar os tipos de informações confidenciais internos e personalizados.
     - Para as opções compartilhadas, você pode escolher **apenas com pessoas dentro da minha organização** ou **com pessoas fora da minha organização**.
-    
+
     Se o seu único local for **Exchange** ou se você selecionar **Regras avançadas**, há condições adicionais que você poderá selecionar:
     - O endereço IP do remetente é
     - O domínio do destinatário é
@@ -306,19 +306,19 @@ Por fim, você pode usar o modo de simulação para fornecer uma aproximação d
     - O domínio do remetente é
     - O destinatário é um membro do
     - O remetente é
-    
+
     Para cada uma dessas condições, você pode especificar exceções.
-    
+
 8. Dependendo das opções anteriores, você terá a oportunidade de criar novas regras usando condições e exceções.
-    
+
     As opções de configuração para tipos de informações confidenciais são as mesmas que você seleciona para rotular automaticamente os aplicativos do Office. Se você precisar de mais informações, confira [Configurar tipos de informações confidenciais para um rótulo](#configuring-sensitive-info-types-for-a-label).
-    
+
     Quando você definir todas as regras necessárias e confirmar o status delas, selecione **Avançar**. para passar para a escolha de um rótulo a ser aplicado automaticamente.
 
 11. Para a página **Escolher um rótulo de aplicação automática**: Selecione **+ Escolher um rótulo**, selecione um rótulo no painel **Escolher um rótulo de confidencialidade** e selecione **Avançar**.
 
-12. Para a página **Decida se deseja testar a política agora ou mais tarde**: selecione **Executar política no modo de simulação** se você estiver pronto para executar a política de rotulagem automática agora, no modo de simulação. Caso contrário, selecione **Deixar a política desativada**. Selecione **Avançar**: 
-    
+12. Para a página **Decida se deseja testar a política agora ou mais tarde**: selecione **Executar política no modo de simulação** se você estiver pronto para executar a política de rotulagem automática agora, no modo de simulação. Caso contrário, selecione **Deixar a política desativada**. Selecione **Avançar**:
+
     ![Testar o assistente de rotulação automática de política](../media/simulation-mode-auto-labeling-wizard.png)
 
 13. Para a página **Resumo**: Revise a configuração da política de rotulagem automática, faça as alterações necessárias e conclua o assistente.
@@ -330,9 +330,9 @@ Você pode modificar sua política diretamente nesta interface:
 - Para uma política na seção **Desativar**, selecione o botão **Editar política**.
 
 - Para uma política na seção **Simulação**, selecione a opção **Editar política** na parte superior da página, em qualquer uma das guias:
-    
+
     ![Editar uma opção de política de rotulagem automática](../media/auto-labeling-edit.png)
-    
+
     Quando estiver pronto para executar a política sem simulação, selecione a opção **Ativar política**.
 
 Suas políticas automáticas são executadas continuamente até serem excluídas. Por exemplo, documentos novos e modificados serão incluídos nas configurações de política atuais.
@@ -350,12 +350,12 @@ Agora você pode usar o [Centro de Conformidade e Segurança do PowerShell](/pow
 
 Antes de executar os comandos no PowerShell, você deve primeiro [conectar-se com o Centro de Segurança e Conformidade do PowerShell](/powershell/exchange/connect-to-scc-powershell).
 
-Para criar uma nova política de rotulamento automático: 
+Para criar uma nova política de rotulamento automático:
 
 ```powershell
 New-AutoSensitivityLabelPolicy -Name <AutoLabelingPolicyName> -SharePointLocation "<SharePointSiteLocation>" -ApplySensitivityLabel <Label> -Mode TestWithoutNotifications
 ```
-Esse comando cria uma política de rotulamento automático para um site do SharePoint especificado por você. Para um local do OneDrive, em vez disso, use o parâmetro *OneDriveLocation*. 
+Esse comando cria uma política de rotulamento automático para um site do SharePoint especificado por você. Para um local do OneDrive, em vez disso, use o parâmetro *OneDriveLocation*.
 
 Para adicionar mais sites a uma política de rotulamento automático existente:
 
@@ -389,11 +389,11 @@ Para mais informações sobre os cmdlets do PowerShell que oferecem suporte a po
 Embora a rotulagem automática seja uma das maneiras mais eficientes de classificar, rotular e proteger arquivos do Office que sua organização possui, verifique se você pode complementá-los com qualquer um dos métodos adicionais para aumentar o alcance da rotulagem:
 
 - Quando você usa o [cliente de rotulagem unificada da Proteção de Informações do Azure](/azure/information-protection/rms-client/aip-clientv2):
-    
+
     - Para arquivos em armazenamentos de dados locais, como compartilhamentos de rede e bibliotecas do SharePoint Server: use o [verificador](/azure/information-protection/deploy-aip-scanner) para descobrir informações confidenciais nesses arquivos e rotulá-las adequadamente. Se você estiver planejando migrar ou carregar esses arquivos para o SharePoint no Microsoft 365, use o scanner para rotular os arquivos antes de movê-los para a nuvem.
-    
+
     - Se você tiver usado outra solução de rotulagem antes de usar rótulos de confidencialidade: use o PowerShell e [uma configuração avançada para reutilizar rótulos](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#migrate-labels-from-secure-islands-and-other-labeling-solutions) dessas soluções.
 
-- Incentive a [rotulagem manual](https://support.microsoft.com/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9) depois de fornecer aos usuários treinamento sobre quais rótulos de confidencialidade aplicar. Quando você tiver certeza de que os usuários entendem qual rótulo aplicar, considere configurar um rótulo padrão e a rotulagem obrigatória como [configurações de política](sensitivity-labels.md#what-label-policies-can-do). 
+- Incentive a [rotulagem manual](https://support.microsoft.com/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9) depois de fornecer aos usuários treinamento sobre quais rótulos de confidencialidade aplicar. Quando você tiver certeza de que os usuários entendem qual rótulo aplicar, considere configurar um rótulo padrão e a rotulagem obrigatória como [configurações de política](sensitivity-labels.md#what-label-policies-can-do).
 
 Além disso, considere [marcar novos arquivos como confidenciais por padrão](/sharepoint/sensitive-by-default) no SharePoint para impedir que os convidados acessem arquivos recém-adicionados até que pelo menos uma política DLP examine o conteúdo do arquivo.

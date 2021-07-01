@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'A prevenção contra perda de dados do Microsoft 365 Endpoint estende o monitoramento de atividades de arquivo e ações de proteção desses arquivos para os pontos de extremidade. Os arquivos do são visíveis nas soluções do Centro de conformidade do Microsoft 365 '
-ms.openlocfilehash: b5aa6c737bc54129ce49378a7dcaf81e9d5c612f
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 39474f54440ba33c8d7140981c1495a5c46bf0fc
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114099"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226678"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade do Microsoft 365
 
@@ -34,7 +34,7 @@ Você pode usar a prevenção contra perda de dados (DLP) da Microsoft 365 para 
 
 ## <a name="endpoint-activities-you-can-monitor-and-take-action-on"></a>Atividades do ponto de extremidade que você pode monitorar e executar
 
-O Microsoft Endpoint DLP permite a auditoria e o gerenciamento dos seguintes tipos de atividades que os usuários têm em itens confidenciais em dispositivos com Windows 10. 
+O Microsoft Endpoint DLP permite a auditoria e o gerenciamento dos seguintes tipos de atividades que os usuários têm em itens confidenciais em dispositivos com Windows 10.
 
 |Atividade |Descrição  | Auditável/restringivel|
 |---------|---------|---------|
@@ -48,7 +48,7 @@ O Microsoft Endpoint DLP permite a auditoria e o gerenciamento dos seguintes tip
 |criar um Item|Detecta quando um usuário cria um item| auditável|
 |renomear um item|Detecta quando um usuário renomeia um item| auditável|
 
- ## <a name="monitored-files"></a>Arquivos monitorados
+## <a name="monitored-files"></a>Arquivos monitorados
 
 Endpoint DLP oferece suporte ao monitoramento destes tipos de arquivo:
 
@@ -66,10 +66,10 @@ Endpoint DLP oferece suporte ao monitoramento destes tipos de arquivo:
 - Arquivos .cs
 - Arquivos .h
 - Arquivos .java
- 
+
 Por padrão, o DLP do endpoint audita as atividades para esses tipos de arquivo, mesmo se não houver uma correspondência de política. Se quiser apenas monitorar dados de correspondências de política, você pode desligar **Sempre auditar atividade de arquivo para dispositivos** nas configurações globais de DLP do endpoint. Se esta configuração estiver ativada, as atividades em qualquer arquivo do Word, PowerPoint, Excel, PDF e .CSV serão sempre auditadas, mesmo que o dispositivo não seja direcionado por nenhuma política.
 
-O DLP do ponto de extremidade monitora a atividade com base no tipo MIME, portanto, as atividades serão capturadas mesmo se a extensão do arquivo for alterada. 
+O DLP do ponto de extremidade monitora a atividade com base no tipo MIME, portanto, as atividades serão capturadas mesmo se a extensão do arquivo for alterada.
 
 ## <a name="whats-different-in-endpoint-dlp"></a>O que é diferente no Endpoint DLP
 
@@ -153,8 +153,8 @@ Por exemplo, se um arquivo for copiado para uma mídia USB removível, você ver
 
 Agora que você aprendeu sobre o Endpoint DLP, as próximas etapas são:
 
-1) [Introdução à prevenção contra perda de dados do ponto de extremidade da Microsoft](endpoint-dlp-getting-started.md)
-2) [Usar a prevenção contra perda de dados do Ponto de extremidade da Microsoft](endpoint-dlp-using.md)
+1. [Introdução à prevenção contra perda de dados do Ponto de extremidade da Microsoft](endpoint-dlp-getting-started.md)
+2. [Usar a prevenção contra perda de dados do Ponto de extremidade da Microsoft](endpoint-dlp-using.md)
 
 ## <a name="see-also"></a>Confira também
 

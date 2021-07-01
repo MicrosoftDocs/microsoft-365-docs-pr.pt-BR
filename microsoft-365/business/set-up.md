@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Descubra as etapas de instalação para Microsoft 365 Business Premium, incluindo adicionar um domínio e usuários, configurar políticas de segurança e muito mais.
-ms.openlocfilehash: 3e15f16db2a233d2e11d444600398102b075932d
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 74a98e915577cf86ec32a706bd3b8f558f49db95
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624380"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227630"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Configurar Microsoft 365 Business Premium no assistente de configuração
 
@@ -69,7 +69,7 @@ Ao comprar Microsoft 365 Business Premium, você tem a opção de usar um domín
     ![Captura de tela da página Personalizar sua assinatura.](../media/adddomain.png)
 
     
-4. Siga as etapas no assistente para Criar [registros DNS](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) em qualquer provedor de hospedagem DNS para Microsoft 365 que verifica se você é o próprio domínio. Se você conhece o host do seu domínio, também consulte as [instruções específicas do organizador](/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
+4. Siga as etapas no assistente para Criar [registros DNS](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) em qualquer provedor de hospedagem DNS para Microsoft 365 que verifica se você é o próprio domínio. Se você conhece seu host de domínio, consulte [Também Adicionar um domínio a Microsoft 365](/microsoft-365/admin/setup/add-domain).
 
     Se o seu provedor de hospedagem for GoDaddy ou outro host habilitado com [conexão ao domínio](/office365/admin/get-help-with-domains/domain-connect), o processo será fácil e será pedido que você entre automaticamente e deixe a Microsoft autenticar em seu nome.
 
@@ -135,4 +135,4 @@ Você também pode instalar Office individualmente. Consulte [install Office on 
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Microsoft 365 para vídeos de treinamento empresarial](../business-video/index.yml) (página de link)
+[Vídeos de treinamento do Microsoft 365 Business ](../business-video/index.yml) (link da página)

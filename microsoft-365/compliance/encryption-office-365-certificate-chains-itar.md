@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Exibir uma lista completa do DOD e GCC certificados e autoridades de certificados (CAs) de alta raiz no Microsoft 365.
-ms.openlocfilehash: 016c7d6b4c5557b7930763c2628525cc3c2c409f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ae8954ecb80cdcef0a62cbf4f928f7ffe6b8c4d7
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927801"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226762"
 ---
 # <a name="microsoft-365-encryption-chains---dod-and-gcc-high"></a>Microsoft 365 de criptografia - DOD e GCC Alta
 
@@ -32,8 +32,8 @@ As informações de certificado a seguir se aplica a **todos os clientes do DOD 
 
 Última atualização: **16/10/2020**
 
->[!NOTE]
->Para obter informações de certificado que se apliquem a clientes em todo o **mundo,** [consulte Microsoft 365 cadeias de criptografia](encryption-office-365-certificate-chains.md).
+> [!NOTE]
+> Para obter informações de certificado que se apliquem a clientes em todo o **mundo,** [consulte Microsoft 365 cadeias de criptografia](encryption-office-365-certificate-chains.md).
 
 | **Tipo de certificado** | **Download P7b** | **Pontos de extremidade CRL** | **Pontos de extremidade OCSP** |
 | --- | --- | --- | --- | --- |
@@ -45,7 +45,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="baltimore-cybertrust-root"></a>**Baltimore CyberTrust Root**
 
-| **Assunto** | CN=Baltimore CyberTrust Root<br>OU=CyberTrust<br>O=Baltimore<br>C=IE |
+| **Subject** | CN=Baltimore CyberTrust Root<br>OU=CyberTrust<br>O=Baltimore<br>C=IE |
 | --- | --- |
 | **Número de série** | 02:00:00:B9 |
 | **Comprimento da chave pública** | Bits RSA 2048 (e 65537) |
@@ -59,7 +59,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="digicert-cloud-services-ca-1"></a>**DigiCert Cloud Services CA-1**
 
-| **Assunto** | CN=DigiCert Cloud Services CA-1<br>O=DigiCert Inc<br>C=US |
+| **Subject** | CN=DigiCert Cloud Services CA-1<br>O=DigiCert Inc<br>C=US |
 | --- | --- |
 | **Emissor** | CN=DigiCert Global Root CA<br>OU=www.digicert.com<br>O=DigiCert Inc<br>C=US |
 | **Número de série** | 01:9E:C1:C6:BD:3F:59:7B:B2:0C:33:38:E5:51:D8:77 |
@@ -77,7 +77,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="digicert-cloud-services-ca-1"></a>**DigiCert Cloud Services CA-1**
 
-| **Assunto** | CN=DigiCert Cloud Services CA-1<br>O=DigiCert Inc<br>C=US |
+| **Subject** | CN=DigiCert Cloud Services CA-1<br>O=DigiCert Inc<br>C=US |
 | --- | --- |
 | **Emissor** | CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **Número de série** | 0F:17:1A:48:C6:F2:23:80:92:18:CD:2E:D6:DD:C0:E8 |
@@ -94,7 +94,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="digicert-global-root-ca"></a>**AC Raiz Global digiCert**
 
-| **Assunto** | CN=DigiCert Global Root CA<br>OU=www.digicert.com<br>O=DigiCert Inc<br>C=US |
+| **Subject** | CN=DigiCert Global Root CA<br>OU=www.digicert.com<br>O=DigiCert Inc<br>C=US |
 | --- | --- |
 | **Número de série** | 08:3B:E0:56:90:42:46:B1:A1:75:6A:C9:59:91:C7:4A |
 | **Comprimento da chave pública** | Bits RSA 2048 (e 65537) |
@@ -109,7 +109,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="digicert-global-root-g2"></a>**DigiCert Global Root G2**
 
-| **Assunto** | CN=DigiCert Global Root G2<br>OU=www.digicert.com<br>O=DigiCert Inc<br>C=US |
+| **Subject** | CN=DigiCert Global Root G2<br>OU=www.digicert.com<br>O=DigiCert Inc<br>C=US |
 | --- | --- |
 | **Emissor** | CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **Número de série** | 03:3A:F1:E6:A7:11:A9:A0:BB:28:64:B1:1D:09:FA:E5 |
@@ -124,7 +124,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="digicert-high-assurance-ev-root-ca"></a>**AC raiz do EV de Alta Garantia digiCert**
 
-| **Assunto** | CN=DigiCert High Assurance EV Root CA<br>OU=www.digicert.com<br>O=DigiCert Inc<br>C=US |
+| **Subject** | CN=DigiCert High Assurance EV Root CA<br>OU=www.digicert.com<br>O=DigiCert Inc<br>C=US |
 | --- | --- |
 | **Número de série** | 02:AC:5C:26:6A:0B:40:9B:8F:0B:79:F2:AE:46:25:77 |
 | **Comprimento da chave pública** | Bits RSA 2048 (e 65537) |
@@ -139,7 +139,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="digicert-sha2-extended-validation-server-ca"></a>**CA do Servidor de Validação Estendida SHA2 digiCert**
 
-| **Assunto** | CN=DigiCert SHA2 Extended Validation Server CA<br>OU=www.digicert.com<br>O=DigiCert Inc<br>C=US |
+| **Subject** | CN=DigiCert SHA2 Extended Validation Server CA<br>OU=www.digicert.com<br>O=DigiCert Inc<br>C=US |
 | --- | --- |
 | **Número de série** | 0C:79:A9:44:B0:8C:11:95:20:92:61:5F:E2:6B:1D:83 |
 | **Comprimento da chave pública** | Bits RSA 2048 (e 65537) |
@@ -153,7 +153,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="digicert-sha2-secure-server-ca"></a>**CA do Servidor Seguro SHA2 digiCert**
 
-| **Assunto** | CN=DigiCert SHA2 Secure Server CA<br>O=DigiCert Inc<br>C=US |
+| **Subject** | CN=DigiCert SHA2 Secure Server CA<br>O=DigiCert Inc<br>C=US |
 | --- | --- |
 | **Emissor** | CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **Número de série** | 01:FD:A3:EB:6E:CA:75:C8:88:43:8B:72:4B:CF:BC:91 |
@@ -170,7 +170,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="digicert-sha2-secure-server-ca"></a>**CA do Servidor Seguro SHA2 digiCert**
 
-| **Assunto** | CN=DigiCert SHA2 Secure Server CA<br>O=DigiCert Inc<br>C=US |
+| **Subject** | CN=DigiCert SHA2 Secure Server CA<br>O=DigiCert Inc<br>C=US |
 | --- | --- |
 | **Emissor** | CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **Número de série** | 02:74:2E:AA:17:CA:8E:21:C7:17:BB:1F:FC:FD:0C:A0 |
@@ -187,7 +187,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="digicert-tls-rsa-sha256-2020-ca1"></a>**DigiCert TLS RSA SHA256 2020 CA1**
 
-| **Assunto** | CN=DigiCert TLS RSA SHA256 2020 CA1<br>O=DigiCert Inc<br>C=US |
+| **Subject** | CN=DigiCert TLS RSA SHA256 2020 CA1<br>O=DigiCert Inc<br>C=US |
 | --- | --- |
 | **Emissor** | CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **Número de série** | 0A:35:08:D5:5C:29:2B:01:7D:F8:AD:65:C0:0F:F7:E4 |
@@ -204,7 +204,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="entrust-root-certification-authority"></a>**Autoridade de Certificação Raiz Confiada**
 
-| **Assunto** | CN=Confiando Autoridade de Certificação Raiz<br>OU="(c) 2006 Entrust, Inc."<br>OU=www.entrust.net/CPS é incorporado por referência<br>OU=Consulte www.entrust.net/legal-terms<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
+| **Subject** | CN=Confiando Autoridade de Certificação Raiz<br>OU="(c) 2006 Entrust, Inc."<br>OU=www.entrust.net/CPS é incorporado por referência<br>OU=Consulte www.entrust.net/legal-terms<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
 | --- | --- |
 | **Número de série** | 45:6B:50:54 |
 | **Comprimento da chave pública** | Bits RSA 2048 (e 65537) |
@@ -218,7 +218,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="entrust-root-certification-authority---g2"></a>**Autoridade de Certificação Raiz Confiada - G2**
 
-| **Assunto** | CN=Confiando Autoridade de Certificação Raiz - G2<br>OU= &quot; (c) 2009 Entrust, Inc. - somente para uso autorizado&quot;<br>OU=Consulte www.entrust.net/legal-terms<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
+| **Subject** | CN=Confiando Autoridade de Certificação Raiz - G2<br>OU= &quot; (c) 2009 Entrust, Inc. - somente para uso autorizado&quot;<br>OU=Consulte www.entrust.net/legal-terms<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
 | --- | --- |
 | **Número de série** | 4A:53:8C:28 |
 | **Comprimento da chave pública** | Bits RSA 2048 (e 65537) |
@@ -232,7 +232,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="entrustnet-certification-authority-2048"></a>**Entrust.net Certification Authority (2048)**
 
-| **Assunto** | Autoridade de Certificação CN=Entrust.net (2048)<br>OU=(c) 1999 Entrust.net Limited<br>OU=www.entrust.net/CPS \_ 2048 incorp. por ref. (limite s liab.)<br>O=Entrust.net |
+| **Subject** | Autoridade de Certificação CN=Entrust.net (2048)<br>OU=(c) 1999 Entrust.net Limited<br>OU=www.entrust.net/CPS \_ 2048 incorp. por ref. (limite s liab.)<br>O=Entrust.net |
 | --- | --- |
 | **Número de série** | 38:63:DE:F8 |
 | **Comprimento da chave pública** | Bits RSA 2048 (e 65537) |
@@ -246,7 +246,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="entrust-certification-authority---l1c"></a>**Autoridade de Certificação de Confiação - L1C**
 
-| **Assunto** | CN=Autoridade de Certificação de Confiação - L1C<br>OU= &quot; (c) 2009 Entrust, Inc.&quot;<br>OU=www.entrust.net/rpa é incorporada por referência<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
+| **Subject** | CN=Autoridade de Certificação de Confiação - L1C<br>OU= &quot; (c) 2009 Entrust, Inc.&quot;<br>OU=www.entrust.net/rpa é incorporada por referência<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
 | --- | --- |
 | **Emissor** | Autoridade de Certificação CN=Entrust.net (2048)<br>OU=(c) 1999 Entrust.net Limited<br>OU=www.entrust.net/CPS \_ 2048 incorp. por ref. (limites liab.)<br>O=Entrust.net |
 | **Número de série** | 4C:0E:8C:39 |
@@ -264,7 +264,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="entrust-certification-authority---l1e"></a>**Autoridade de Certificação de Confiação - L1E**
 
-| **Assunto** | CN=Autoridade de Certificação de Confiação - L1E<br>OU= &quot; (c) 2009 Entrust, Inc.&quot;<br>OU=www.entrust.net/rpa é incorporada por referência<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
+| **Subject** | CN=Autoridade de Certificação de Confiação - L1E<br>OU= &quot; (c) 2009 Entrust, Inc.&quot;<br>OU=www.entrust.net/rpa é incorporada por referência<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
 | --- | --- |
 | **Emissor** | Autoridade de Certificação CN=Entrust.net (2048)<br>OU=(c) 1999 Entrust.net Limited<br>OU=www.entrust.net/CPS \_ 2048 incorp. por ref. (limites liab.)<br>O=Entrust.net |
 | **Número de série** | 4C:0E:C9:18 |
@@ -281,7 +281,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="entrust-certification-authority---l1k"></a>**Autoridade de Certificação de Confiação - L1K**
 
-| **Assunto** | CN=Autoridade de Certificação de Confiação - L1K<br>OU= &quot; (c) 2012 Entrust, Inc. - somente para uso autorizado&quot;<br>OU=Consulte www.entrust.net/legal-terms<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
+| **Subject** | CN=Autoridade de Certificação de Confiação - L1K<br>OU= &quot; (c) 2012 Entrust, Inc. - somente para uso autorizado&quot;<br>OU=Consulte www.entrust.net/legal-terms<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
 | --- | --- |
 | **Emissor** | CN=Confiando Autoridade de Certificação Raiz - G2<br>OU= &quot; (c) 2009 Entrust, Inc. - somente para uso autorizado&quot;<br>OU=Consulte www.entrust.net/legal-terms<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
 | **Número de série** | 0E:E9:4C:C3:00:00:00:00:51:D3:77:85 |
@@ -299,7 +299,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="entrust-certification-authority---l1m"></a>**Autoridade de Certificação de Confiação - L1M**
 
-| **Assunto** | CN=Autoridade de Certificação de Confiação - L1M, OU= &quot; (c) 2014 Entrust, Inc. - somente para uso autorizado&quot;<br>OU=Consulte www.entrust.net/legal-terms<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
+| **Subject** | CN=Autoridade de Certificação de Confiação - L1M, OU= &quot; (c) 2014 Entrust, Inc. - somente para uso autorizado&quot;<br>OU=Consulte www.entrust.net/legal-terms<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
 | --- | --- |
 | **Emissor** | CN=Confiando Autoridade de Certificação Raiz - G2<br>OU= &quot; (c) 2009 Entrust, Inc. - somente para uso autorizado&quot;<br>OU=Consulte www.entrust.net/legal-terms<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
 | **Número de série** | 61:A1:E7:D2:00:00:00:00:51:D3:66:A6 |
@@ -316,7 +316,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="microsoft-azure-tls-issuing-ca-01"></a>**Microsoft Azure TLS Emissão de CA 01**
 
-| **Assunto** | CN=Microsoft Azure TLS Emissão de CA 01<br>O=Microsoft Corporation<br>C=US |
+| **Subject** | CN=Microsoft Azure TLS Emissão de CA 01<br>O=Microsoft Corporation<br>C=US |
 | --- | --- |
 | **Emissor** | CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **Número de série** | 0A:AF:A6:C5:CA:63:C4:51:41:EA:3B:E1:F7:C7:53:17 |
@@ -333,7 +333,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="microsoft-azure-tls-issuing-ca-02"></a>**Microsoft Azure TLS Emissão de CA 02**
 
-| **Assunto** | CN=Microsoft Azure TLS Emissão de CA 02<br>O=Microsoft Corporation<br>C=US |
+| **Subject** | CN=Microsoft Azure TLS Emissão de CA 02<br>O=Microsoft Corporation<br>C=US |
 | --- | --- |
 | **Emissor** | CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **Número de série** | 0C:6A:E9:7C:CE:D5:99:83:86:90:A0:0A:9E:A5:32:14 |
@@ -350,7 +350,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="microsoft-azure-tls-issuing-ca-05"></a>**Microsoft Azure TLS Emissão de CA 05**
 
-| **Assunto** | CN=Microsoft Azure TLS Emissão de CA 05<br>O=Microsoft Corporation<br>C=US |
+| **Subject** | CN=Microsoft Azure TLS Emissão de CA 05<br>O=Microsoft Corporation<br>C=US |
 | --- | --- |
 | **Emissor** | CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **Número de série** | 0D:7B:ED:E9:7D:82:09:96:7A:52:63:1B:8B:DD:18:BD |
@@ -367,7 +367,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="microsoft-azure-tls-issuing-ca-06"></a>**Microsoft Azure TLS Emissão de CA 06**
 
-| **Assunto** | CN=Microsoft Azure TLS Emissão de CA 06<br>O=Microsoft Corporation<br>C=US |
+| **Subject** | CN=Microsoft Azure TLS Emissão de CA 06<br>O=Microsoft Corporation<br>C=US |
 | --- | --- |
 | **Emissor** | CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **Número de série** | 02:E7:91:71:FB:80:21:E9:3F:E2:D9:83:83:4C:50:C0 |
@@ -384,7 +384,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="microsoft-it-tls-ca-1"></a>**Microsoft IT TLS CA 1**
 
-| **Assunto** | CN=Microsoft IT TLS CA 1<br>OU=Microsoft IT<br>O=Microsoft Corporation<br>L=Redmond<br>S=Washington<br>C=US |
+| **Subject** | CN=Microsoft IT TLS CA 1<br>OU=Microsoft IT<br>O=Microsoft Corporation<br>L=Redmond<br>S=Washington<br>C=US |
 | --- | --- |
 | **Emissor** | CN=Baltimore CyberTrust Root<br>OU=CyberTrust<br>O=Baltimore<br>C=IE |
 | **Número de série** | 08:B8:7A:50:1B:BE:9C:DA:2D:16:4D:3E:39:51:BF:55 |
@@ -402,7 +402,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="microsoft-it-tls-ca-2"></a>**Microsoft IT TLS CA 2**
 
-| **Assunto** | CN=Microsoft IT TLS CA 2<br>OU=Microsoft IT<br>O=Microsoft Corporation<br>L=Redmond<br>S=Washington<br>C=US |
+| **Subject** | CN=Microsoft IT TLS CA 2<br>OU=Microsoft IT<br>O=Microsoft Corporation<br>L=Redmond<br>S=Washington<br>C=US |
 | --- | --- |
 | **Emissor** | CN=Baltimore CyberTrust Root<br>OU=CyberTrust<br>O=Baltimore<br>C=IE |
 | **Número de série** | 0F:2C:10:C9:5B:06:C0:93:7F:B8:D4:49:F8:3E:85:69 |
@@ -420,7 +420,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="microsoft-it-tls-ca-4"></a>**Microsoft IT TLS CA 4**
 
-| **Assunto** | CN=Microsoft IT TLS CA 4<br>OU=Microsoft IT<br>O=Microsoft Corporation<br>L=Redmond<br>S=Washington<br>C=US |
+| **Subject** | CN=Microsoft IT TLS CA 4<br>OU=Microsoft IT<br>O=Microsoft Corporation<br>L=Redmond<br>S=Washington<br>C=US |
 | --- | --- |
 | **Emissor** | CN=Baltimore CyberTrust Root<br>OU=CyberTrust<br>O=Baltimore<br>C=IE |
 | **Número de série** | 0B:6A:B3:B0:3E:B1:A9:F6:C4:60:92:6A:A8:CD:FE:B3 |
@@ -438,7 +438,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="microsoft-it-tls-ca-5"></a>**Microsoft IT TLS CA 5**
 
-| **Assunto** | CN=Microsoft IT TLS CA 5<br>OU=Microsoft IT<br>O=Microsoft Corporation<br>L=Redmond<br>S=Washington<br>C=US |
+| **Subject** | CN=Microsoft IT TLS CA 5<br>OU=Microsoft IT<br>O=Microsoft Corporation<br>L=Redmond<br>S=Washington<br>C=US |
 | --- | --- |
 | **Emissor** | CN=Baltimore CyberTrust Root<br>OU=CyberTrust<br>O=Baltimore<br>C=IE |
 | **Número de série** | 08:88:CD:52:5F:19:24:44:4D:14:A5:82:91:DE:B9:52 |
@@ -456,7 +456,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="microsoft-rsa-tls-ca-01"></a>**Microsoft RSA TLS CA 01**
 
-| **Assunto** | CN=Microsoft RSA TLS CA 01<br>O=Microsoft Corporation<br>C=US |
+| **Subject** | CN=Microsoft RSA TLS CA 01<br>O=Microsoft Corporation<br>C=US |
 | --- | --- |
 | **Emissor** | CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE |
 | **Número de série** | 0F:14:96:5F:20:20:69:99:4F:D5:C7:AC:78:89:41:E2 |
@@ -473,7 +473,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="microsoft-rsa-tls-ca-02"></a>**Microsoft RSA TLS CA 02**
 
-| **Assunto** | CN=Microsoft RSA TLS CA 02<br>O=Microsoft Corporation<br>C=US |
+| **Subject** | CN=Microsoft RSA TLS CA 02<br>O=Microsoft Corporation<br>C=US |
 | --- | --- |
 | **Emissor** | CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE |
 | **Número de série** | 0F:A7:47:22:C5:3D:88:C8:0F:58:9E:FB:1F:9D:4A:3A |

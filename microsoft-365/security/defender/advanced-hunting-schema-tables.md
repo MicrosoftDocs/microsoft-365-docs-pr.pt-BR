@@ -1,5 +1,5 @@
 ---
-title: Tabelas de dados no esquema de Microsoft 365 de busca avançada do Defender
+title: Tabelas de dados no esquema de Microsoft 365 Defender de busca avançada
 description: Aprenda sobre as tabelas no esquema de busca avançado para entender os dados nos quais você pode executar consultas de busca de ameaças.
 keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, dados
 search.product: eADQiWindows 10XVcnh
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 3c8c65d012467317bf8335f47c3f686a5d7255d1
-ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
+ms.openlocfilehash: 50a221a65c8264d816de958ec74fa99e9e6db762
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52470575"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53225982"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Compreender o esquema de busca avançada
 
@@ -48,9 +48,9 @@ Durante a construção de consultas, use a referência de esquema integrado para
 - **Consulta de exemplo**— consultas de exemplo que apresentam como a tabela pode ser usada.
 
 ### <a name="access-the-schema-reference"></a>Acessar a referência de esquema
-Para acessar rapidamente a referência de esquema, selecione a ação **Exibir referência** ao lado do nome da tabela na representação do esquema. Você também pode selecionar **Referência de esquema** para pesquisar uma tabela.   
+Para acessar rapidamente a referência de esquema, selecione a ação **Exibir referência** ao lado do nome da tabela na representação do esquema. Você também pode selecionar **Referência de esquema** para pesquisar uma tabela.
 
-![Imagem mostrando como acessar a referência de esquema no portal ](../../media/mtp-ah/ah-reference.png) 
+![Imagem mostrando como acessar a referência de esquema no portal](../../media/mtp-ah/ah-reference.png)
 
 ## <a name="learn-the-schema-tables"></a>Saiba as tabelas de esquema
 A referência a seguir lista todas as tabelas no esquema. Cada nome de tabela se vincula a uma página que descreve os nomes das colunas da tabela. Os nomes de tabela e coluna também são listados no centro de segurança como parte da representação de esquema na tela de busca avançada.

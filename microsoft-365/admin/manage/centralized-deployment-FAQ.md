@@ -18,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Revise as respostas para perguntas frequentes sobre Implantação Centralizada no centro de administração Microsoft 365 local.
-ms.openlocfilehash: 60d7a91da738803976b6823009450124d7b57814
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Revise as respostas para perguntas frequentes sobre Implantação Centralizada do Centro de administração do Microsoft 365.
+ms.openlocfilehash: 0da9ec9595fd433abe1e2e2ae3f2e3a0c6b3b9b5
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579297"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227998"
 ---
 # <a name="centralized-deployment-faq"></a>Perguntas frequentes sobre a Implantação centralizada
 
@@ -44,7 +44,7 @@ A Implantação Centralizada dá suporte a atribuições para usuários individu
 
 É melhor usar atribuições de grupos em vez de atribuição de usuário individual para facilitar o gerenciamento.
  
-Para obter mais detalhes, consulte [User and Group assignments](./centralized-deployment-of-add-ins.md?view=o365-worldwide#user-and-group-assignments).  
+Para obter mais detalhes, consulte [User and Group assignments](./centralized-deployment-of-add-ins.md#user-and-group-assignments).  
    
 ## <a name="how-long-does-it-take-for-add-ins-to-show-up-for-all-users"></a>Quanto tempo leva para os complementos aparecerem para todos os usuários?  
 
@@ -94,8 +94,8 @@ Sugerimos entrar em ação com o Desenvolvedor ISV para que o complemento pago s
     
 ## <a name="which-admin-role-do-i-need-to-manage-add-ins-for-my-organization"></a>Qual função de administrador preciso gerenciar os complementos para minha organização?  
 
-Administrador Global é a função recomendada com acesso completo ao ciclo de vida de gerenciamento de complementos. Outras funções de administrador têm acesso limitado ao ciclo de vida de implantação do complemento. Se você for a pessoa que comprou sua assinatura Microsoft 365 para empresas, você será o administrador global. 
+Administrador Global é a função recomendada com acesso completo ao ciclo de vida de gerenciamento de complementos. Se você for a pessoa que comprou sua assinatura Microsoft 365 Business, você será o administrador global. 
  
-Sua assinatura vem com um conjunto de funções de administrador que você pode atribuir a outros usuários em sua organização. Cada função de administrador mapeia para funções comerciais comuns e dá às pessoas em sua organização permissões para executar tarefas específicas no Microsoft 365 de administração.  
+Sua assinatura vem com um conjunto de funções de administrador que você pode atribuir a outros usuários em sua organização. Cada função de administrador mapeia para funções comerciais comuns e dá às pessoas em sua organização permissões para executar tarefas específicas no Centro de administração do Microsoft 365.  
  
-Para obter mais informações, consulte [Atribuir funções de administrador](../add-users/assign-admin-roles.md?view=o365-worldwide). 
+Para obter mais informações, consulte [Atribuir funções de administrador](../add-users/assign-admin-roles.md). 

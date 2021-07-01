@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba como proteger suas informações confidenciais usando Microsoft 365 e ferramentas de prevenção contra perda de dados e fazer um tour pelo ciclo de vida da DLP.
-ms.openlocfilehash: 9b449886e0856f7407fcd49b83192dd0c01474bd
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 291a9ab09d14e24d58604644d77381d7f41214d6
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108254"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226846"
 ---
 # <a name="learn-about-data-loss-prevention"></a>Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade
 
@@ -35,7 +35,7 @@ Em Microsoft 365, você implementa a prevenção contra perda de dados definindo
 - Compartilhamentos de arquivos locais e SharePoint.
 
 Microsoft 365 detecta itens confidenciais usando análise de conteúdo profundo, não apenas por uma verificação de texto simples. O conteúdo é analisado para dados primários corresponde a palavras-chave, pela avaliação de expressões regulares, pela validação de função interna e por matchs de dados secundários que estão próximos da combinação de dados primários. Além disso, a DLP também usa algoritmos de aprendizado de máquina e outros métodos para detectar conteúdo que corresponde às suas políticas de DLP.
-  
+
 ## <a name="dlp-is-part-of-the-larger-microsoft-365-compliance-offering"></a>A DLP faz parte da oferta de conformidade Microsoft 365 maior
 
 Microsoft 365 A DLP é apenas uma das Microsoft 365 de Conformidade que você usará para ajudar a proteger seus itens confidenciais onde quer que eles vivam ou viajem. Você deve entender as outras ferramentas no Microsoft 365 de Conformidade definidas, como elas se relacionam e funcionam melhor juntas.  Consulte, [Microsoft 365 ferramentas de conformidade](protect-information.md) para saber mais sobre o processo de proteção de informações.
@@ -69,7 +69,7 @@ Microsoft 365 O monitoramento e a proteção DLP são nativos dos aplicativos qu
 
 **Planejamento de tecnologia para DLP**
 
-Lembre-se de que a DLP como tecnologia pode monitorar e proteger seus dados em repouso, dados em uso e dados em movimento nos serviços Microsoft 365, dispositivos Windows 10, compartilhamentos de arquivos locais e SharePoint. Há implicações de planejamento para os diferentes locais, o tipo de dados que você deseja monitorar e proteger e as ações a serem tomadas quando ocorrer uma combinação de política.  
+Lembre-se de que a DLP como tecnologia pode monitorar e proteger seus dados em repouso, dados em uso e dados em movimento nos serviços Microsoft 365, dispositivos Windows 10, compartilhamentos de arquivos locais e SharePoint. Há implicações de planejamento para os diferentes locais, o tipo de dados que você deseja monitorar e proteger e as ações a serem tomadas quando ocorrer uma combinação de política.
 
 **Planejamento de processos de negócios para DLP**
 
@@ -89,7 +89,7 @@ Você pode aplicar políticas de DLP a dados em repouso, dados em uso e dados em
 - Sites do SharePoint Online
 - Contas do OneDrive
 - Bater papo e canal de mensagens do Teams
-- Segurança no aplicativo na nuvem da Microsoft
+- Microsoft Cloud App Security
 - Dispositivos Windows 10
 - Repositórios locais
 
@@ -121,7 +121,7 @@ Enquanto estiver no modo de teste, monitore os resultados da política e ajuste-
 
 #### <a name="enable-the-control-and-tune-your-policies"></a>Habilitar o controle e ajustar suas políticas
 
-Depois que a política atender a todos os seus objetivos, a a ligue. Continue a monitorar os resultados do aplicativo de política e ajuste conforme necessário. Em geral, as políticas entrarão em vigor cerca de uma hora depois de serem ativas. 
+Depois que a política atender a todos os seus objetivos, a a ligue. Continue a monitorar os resultados do aplicativo de política e ajuste conforme necessário. Em geral, as políticas entrarão em vigor cerca de uma hora depois de serem ativas.
 
 <!--See, LINK TO topic for SLAs for location specific  details-->
 
@@ -133,7 +133,7 @@ Você tem flexibilidade na forma como cria e configura suas políticas de DLP. V
     - Um modelo de política predefinido: dados financeiros, dados médicos e de saúde, dados de privacidade para vários países e regiões.
     - Uma política personalizada que usa os tipos de informações confidenciais disponíveis, rótulos de retenção e rótulos de sensibilidade.
 2. **Escolha onde você deseja monitorar** - Escolha um ou mais locais que deseja que a DLP monitore para obter informações confidenciais. Você pode monitorar:
-    
+
 localização | incluir/excluir por|
 |---------|---------|
 |Email do Exchange| grupos de distribuição|
@@ -154,7 +154,7 @@ localização | incluir/excluir por|
 
 - SharePoint/Exchange/OneDrive: Bloquear pessoas que estão fora do formulário da organização acessando o conteúdo. Mostre uma dica ao usuário e envie uma notificação por email de que ele está tomando uma ação que é proibida pela política DLP.
 - Teams Chat e Canal: Impedir que informações confidenciais são compartilhadas no chat ou no canal
-- Windows 10 Dispositivos: auditar ou restringir a cópia de um item sensível a um dispositivo USB removêvel 
+- Windows 10 Dispositivos: auditar ou restringir a cópia de um item sensível a um dispositivo USB removêvel
 - Office Aplicativos: mostrar um pop-up notificando o usuário de que ele está envolvido em um comportamento arriscado e bloquear ou bloquear, mas permitir substituição.
 - Compartilhamentos de arquivos locais: mova o arquivo de onde ele está armazenado para uma pasta de quarentena
 
@@ -166,18 +166,18 @@ localização | incluir/excluir por|
 All DLP policies are created and maintained in the Microsoft 365 Compliance center. See, INSERT LINK TO ARTICLE THAT WILL START WALKING THEM THROUGH THE POLICY CREATION PROCEDURES for more information.-->
 
 Depois de criar uma política de DLP no Centro de Conformidade, ela será armazenada em um armazenamento de política central e sincronizada com as várias fontes de conteúdo, incluindo:
-  
+
 - Exchange Online, e de lá para o Outlook na Web e o Outlook.
 - Sites do OneDrive for Business.
 - Sites do SharePoint Online.
 - Programas da área de trabalho do Office (Excel, PowerPoint e Word)
 - Mensagens de canais e de chats do Microsoft Teams.
-    
+
 Após a sincronização da política com os locais corretos, ela começa avaliar o conteúdo e aplicar as ações.
 
 ## <a name="viewing-policy-application-results"></a>Exibindo os resultados do aplicativo de política
 
-A DLP relata uma grande quantidade de informações em Microsoft 365 de monitoramento, de diretivas e ações e atividades do usuário. Você precisará consumir e agir sobre essas informações para ajustar suas políticas e ações de triagem realizadas em itens confidenciais. A telemetria entra primeiro [nos](search-the-audit-log-in-security-and-compliance.md#search-the-audit-log-in-the-compliance-center) Logs de Auditoria Microsoft 365 Centro de Conformidade, é processada e segue para diferentes ferramentas de relatório. Cada ferramenta de relatório tem uma finalidade diferente.  
+A DLP relata uma grande quantidade de informações em Microsoft 365 de monitoramento, de diretivas e ações e atividades do usuário. Você precisará consumir e agir sobre essas informações para ajustar suas políticas e ações de triagem realizadas em itens confidenciais. A telemetria entra primeiro [nos](search-the-audit-log-in-security-and-compliance.md#search-the-audit-log-in-the-compliance-center) Logs de Auditoria Microsoft 365 Centro de Conformidade, é processada e segue para diferentes ferramentas de relatório. Cada ferramenta de relatório tem uma finalidade diferente.
 
 ### <a name="dlp-alerts-dashboard"></a>Painel de Alertas DLP
 
@@ -203,7 +203,7 @@ Os [relatórios de DLP](view-the-dlp-reports.md#view-the-reports-for-data-loss-p
 
 A guia Explorador de atividades na página DLP tem o filtro *Atividade* predefinido como *DLPRuleMatch*. Use esta ferramenta para revisar as atividades relacionadas ao conteúdo que contém informações confidenciais ou que tenha rótulos aplicados, como quais rótulos foram alterados, arquivos foram modificados e corresponderam a uma regra.
 
-![captura de tela do explorador de atividades com escopo DLPRuleMatch ](../media/dlp-activity-explorer.png)
+![captura de tela do explorador de atividades com escopo DLPRuleMatch](../media/dlp-activity-explorer.png)
 
 Para obter mais informações, consulte [Get started with activity explorer](data-classification-activity-explorer.md)
 

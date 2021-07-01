@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba mais sobre o recurso de reconstrução de conversa Advanced eDiscovery (chamado threading de conversa) para reconstruir, revisar e exportar conversas de chat em grupos Microsoft Teams e Yammer de conversa.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 12887ba8dd74c3dab445dcc76e155e274a371539
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 9848280a7d6dbcbd6128fff06f150c8458f09701
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838300"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227182"
 ---
 # <a name="conversation-threading-in-advanced-ediscovery"></a>Threading de conversa em Advanced eDiscovery
 
@@ -44,7 +44,7 @@ Com a Reconstrução de Conversa, você pode usar recursos integrados para recon
 
 Aqui estão algumas definições para ajudá-lo a começar a usar a Reconstrução de Conversa.
 
-- **Mensagens:** Representa a menor unidade de uma conversa. As mensagens podem variar em tamanho, estrutura e metadados. 
+- **Mensagens:** Representa a menor unidade de uma conversa. As mensagens podem variar em tamanho, estrutura e metadados.
 
 - **Conversa:** Representa um grupo de uma ou mais mensagens. Em diferentes aplicativos, as conversas podem ser representadas de maneiras diferentes. Em alguns aplicativos, há uma ação explícita que resulta da resposta a uma mensagem existente. As conversas são formadas explicitamente como resultado dessa ação do usuário. Por exemplo, aqui está uma captura de tela de uma conversa de canal em Microsoft Teams.
 
@@ -63,15 +63,15 @@ Depois de revisar e finalizar a consulta de pesquisa em uma coleção, você pod
 Ao adicionar itens de conversas a um conjunto de revisão, você pode usar a opção de conversas encadeadas para coletar mensagens contextuais de conversas que contenham itens que corresponderem aos critérios de pesquisa da coleção. Depois de selecionar a opção de conversas de thread, as seguintes coisas podem acontecer:
 
   ![Recuperação de Conversa](../media/messagesandconversations.png)
-  
+
 1. Usando uma palavra-chave e uma consulta de intervalo de datas, a pesquisa retornou um acerto *na Mensagem 3*. Esta mensagem fazia parte de uma conversa maior, ilustrada por *CRC1*.
-  
+
 2. Quando você adiciona os dados a um conjunto de revisão e habilita as opções de recuperação de conversa, Advanced eDiscovery retornará e coletará outros itens no *CRC1*.
-  
+
 3. Depois que os itens foram adicionados ao conjunto de revisão, você pode revisar todas as mensagens individuais de *CRC1*.
 
 Para habilitar a opção conversas encadeadas, consulte [Commit a draft collection to a review set](commit-draft-collection.md#commit-a-draft-collection-to-a-review-set).
-  
+
 ## <a name="step-3-review-and-export-threaded-conversations"></a>Etapa 3: Revisar e exportar conversas encadeadas
 
 Depois que o conteúdo tiver sido processado e adicionado ao conjunto de revisão, você poderá começar a revisar os dados no conjunto de revisão. Os recursos de revisão são diferentes, dependendo se o conteúdo foi adicionado a um conjunto de revisão padrão ou a um conjunto de revisão de conversa.
@@ -84,7 +84,7 @@ Em um conjunto de revisão padrão, as mensagens são processadas e exibidas com
 
 ### <a name="reviewing-conversations-in-a-conversation-review-set"></a>Revisão de conversas em um conjunto de revisão de conversa
 
-Em um conjunto de revisão de conversa, as mensagens individuais são encadeadas e apresentadas como conversas. Isso permite que você revise e exporte conversas contextuais. 
+Em um conjunto de revisão de conversa, as mensagens individuais são encadeadas e apresentadas como conversas. Isso permite que você revise e exporte conversas contextuais.
 
   ![Conjunto de revisão de conversa](../media/ConversationRSOptions.PNG)
 
@@ -96,10 +96,10 @@ Em um conjunto de revisão de conversa, você pode usar as seguintes opções pa
 
 - **Grupo por conversa:** Reúne mensagens na mesma conversa para ajudar os usuários a simplificar e acelerar o processo de revisão.
 
-- **Exibição de resumo:** Exibe a conversa encadeada. Nesta exibição, você pode ver a conversa inteira e também acessar os metadados de cada mensagem individual.  
-  
+- **Exibição de resumo:** Exibe a conversa encadeada. Nesta exibição, você pode ver a conversa inteira e também acessar os metadados de cada mensagem individual.
+
    - Exibir metadados para mensagens individuais
-   
+
    - Baixar mensagens individuais
 
 - **Exibição de texto:** Fornece o texto extraído para toda a conversa.
@@ -116,25 +116,19 @@ Em um conjunto de revisão de conversa, você pode definir as seguintes opções
 
 ![Opções de exportação para conversas](../media/export.png)
 
-a. Opções de metadados
+1. Opções de metadados:
+   - **Arquivo de carga:** Os metadados são incluídos para cada mensagem, email e documento individuais. Há uma linha para cada mensagem em uma conversa.
+   - **Tags:** As marcas do processo de revisão são incluídas no arquivo de metadados. As mensagens em uma conversa compartilham as mesmas marcas.
 
-   - **Arquivo de carga:** Os metadados são incluídos para cada mensagem, email e documento individuais. Há uma linha para cada mensagem em uma conversa. 
-
-   - **Tags:** As marcas do processo de revisão são incluídas no arquivo de metadados. As mensagens em uma conversa compartilham as mesmas marcas. 
-
-b. Opções de conversa
-  
-   - **Arquivos de conversa:** Quando você exporta arquivos de conversa, o exibição anotado é convertido em um arquivo PDF e baixado para a pasta de exportação. As mensagens em um arquivo de conversa apontam para a versão PDF do mesmo arquivo de conversa.  
-  
+2. Opções de conversa:
+   - **Arquivos de conversa:** Quando você exporta arquivos de conversa, o exibição anotado é convertido em um arquivo PDF e baixado para a pasta de exportação. As mensagens em um arquivo de conversa apontam para a versão PDF do mesmo arquivo de conversa.
    - **Mensagens de chat individuais:** Quando você exporta mensagens individuais, cada mensagem exclusiva na conversa é exportada como um item autônomo. O arquivo é exportado no mesmo formato que foi salvo na caixa de correio. Para uma conversa específica, você recebe vários arquivos .msg.
 
-     >[!NOTE]
+     > [!NOTE]
      > Se você aplicou anotações ao arquivo de conversa, essas anotações não serão transferidas para as mensagens individuais.
 
-c. Outras opções
-
+3. Outras opções:
    - **Gerar arquivos de texto para todo o conteúdo exportado:** Gera um arquivo de texto para cada conversa exportada do conjunto de revisão.
-
    - **Substitua o conteúdo exportado por PDFs redacionados:** Se os arquivos de conversa redacted são gerados durante o processo de revisão, esses arquivos estarão disponíveis durante a exportação. Você pode decidir se deve exportar somente os arquivos nativos (não selecionando essa opção) ou substituir os arquivos nativos pelas versões redacted dos arquivos nativos (selecionando essa opção), que são exportados como arquivos PDF.
 
 ## <a name="more-information"></a>Mais informações
@@ -142,7 +136,5 @@ c. Outras opções
 Para saber mais sobre como revisar dados de caso Advanced eDiscovery, consulte os seguintes artigos:
 
 - [Exibir dados de caso](view-documents-in-review-set.md)
-
 - [Analisar dados de ocorrência](analyzing-data-in-review-set.md)
-
 - [Exportar dados de ocorrência](exporting-data-ediscover20.md)

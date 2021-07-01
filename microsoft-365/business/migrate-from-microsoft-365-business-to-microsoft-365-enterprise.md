@@ -22,16 +22,16 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Saiba como mover sua empresa de Microsoft 365 Business Premium para Microsoft 365 E3.
-ms.openlocfilehash: 10630671f3deb7eff0ad0f601d301b90743ee35f
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 6502d79dbb283db37b00e4fccf89b15ab4291ce5
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164504"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227610"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Migrar do Microsoft 365 Business Premium para o Microsoft 365 E3
 
-Microsoft 365 Business Premium tem tudo o que você precisa para sua pequena empresa, combinando os melhores aplicativos de produtividade baseados em nuvem com gerenciamento de dispositivos simples e segurança que permitem que seus funcionários trabalhem melhor. Em alguns casos, no entanto, talvez seja necessário migrar sua assinatura Microsoft 365 Business Premium para Microsoft 365 E3. 
+Microsoft 365 Business Premium tem tudo o que você precisa para sua pequena empresa, combinando os melhores aplicativos de produtividade baseados em nuvem com gerenciamento de dispositivos simples e segurança que permitem que seus funcionários trabalhem melhor. Em alguns casos, no entanto, talvez seja necessário migrar sua assinatura Microsoft 365 Business Premium para Microsoft 365 E3.
 
 Por exemplo, sua empresa cresceu e precisa de mais de 300 licenças (parabéns, por sinal).
 
@@ -39,49 +39,48 @@ Ou, sua empresa precisa de recursos corporativos, como Microsoft 365 Apps para G
 
 A atualização é fácil: você pode iniciar a atualização [no Centro de administração](../commerce/subscriptions/upgrade-to-different-plan.md). Todos os seus dados e configuração em sua assinatura atual são mantidos. Não há nada para você fazer para se preparar para a migração e nada para fazer depois, exceto tirar proveito dos novos recursos.
 
->[!Note]
->Você também pode usar uma assinatura Microsoft 365 Business Premium para até 300 assentos e obter uma assinatura Microsoft 365 E3 para mais de 300 assentos. No entanto, o Microsoft Defender para Office 365 não está incluído no Microsoft 365 E3. Para proteção contra ameaças contínuas, você deve adicionar licenças adicionais do Defender para Office 365 para que todos os usuários no escopo do seu Defender para Office 365 polícias sejam licenciados.
->
+> [!NOTE]
+> Você também pode usar uma assinatura Microsoft 365 Business Premium para até 300 assentos e obter uma assinatura Microsoft 365 E3 para mais de 300 assentos. No entanto, o Microsoft Defender para Office 365 não está incluído no Microsoft 365 E3. Para proteção contra ameaças contínuas, você deve adicionar licenças adicionais do Defender para Office 365 para que todos os usuários no escopo do seu Defender para Office 365 polícias sejam licenciados.
 
 ## <a name="differences-between-microsoft-365-business-premium-and-microsoft-365-enterprise"></a>Diferenças entre Microsoft 365 Business Premium e Microsoft 365 Enterprise
 
 Esta tabela mostra as diferenças entre Microsoft 365 Business Premium e Microsoft 365 E3.
 
-| Recurso    | Suporte em Microsoft 365 Business Premium    | Suporte no Microsoft 365 E3 | 
+| Recurso    | Suporte em Microsoft 365 Business Premium    | Suporte no Microsoft 365 E3 |
 |:-------|:-----|:-----|
-| **No local**        | | | 
-| Windows 10    | Windows 10 Business  |     Windows 10 Enterprise E3| 
-| Office aplicativos*    | [Microsoft 365 Apps para Pequenos e Médios Negócios](#office-365-business)    | Microsoft 365 Apps para empresas | 
-| **Aplicativos de produtividade na nuvem**        | | | 
-| Exchange Online e Outlook    | Limite de armazenamento de 50 GB por caixa de correio e Exchange Online arquivamento ilimitado    | Limite de armazenamento de 100 GB por caixa de correio e arquivamento Exchange Online ilimitado | 
-| Teams    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-| OneDrive for Business    | Limite de armazenamento de 1 TB por usuário    | Ilimitado | 
-| Yammer, SharePoint Online, Planner, Stream    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-| **Proteção contra Ameaças**        | | | 
-| Recursos de redução de superfície de ataque    | [Veja esta lista](#threat-protection) | Enterprise gerenciamento de isolamento baseado em hardware para Microsoft Edge | 
-| Microsoft Defender para Office 365 Plano 1 | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | Não incluído, mas pode ser adicionado em | 
-| **O gerenciamento de identidades**        | | | 
-| Redefinição de senha de autoatenduro para contas Azure Active Directory (Azure AD), autenticação multifacional do Azure AD (MFA), Acesso Condicional, write-back de senha para identidades locais|     ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-| Descoberta de aplicativos na nuvem, Azure AD Conexão saúde    |     | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-| Azure AD Office 365 aplicativo Sign-On s SSO (SSO): 10 aplicativos por usuário (aplicativos SaaS da Galeria, como Salesforce)* | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-| Azure AD Premium 1 SSO: sem limite (aplicativos locais por meio do Proxy de Aplicativo do Azure AD e aplicativos que não são de galeria usando Self-Service de Integração de Aplicativos)    |     | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-| **Gerenciamento de aplicativo e dispositivo**        | | | 
-| Microsoft Intune, Windows Piloto Automático|     ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-|VDA (Virtual Desktop Access)    |  |     ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-|Windows Área de trabalho virtual (WVD)    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png) |     ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-|Ativação de computador compartilhado (SCA)    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png) |     ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-| Pacote de Otimização da Área de Trabalho da Microsoft    | |     ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-| **Proteção de informações**        | | | 
-| Office 365 Prevenção contra perda de dados, Plano 1 de Proteção de Informações do Azure    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-| Proteção de Informações da Janela para DLP do ponto de extremidade    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-| **Licença de Acesso para Cliente (direitos CAL)**    | | |     
-| Enterprise Pacote CAL (Exchange, SharePoint, Skype, Windows, Microsoft Endpoint Configuration Manager, Windows Gerenciamento de Direitos)| |         ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-| **Conformidade**        | | | 
-| Arquivamento ilimitado de email    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-| Gerente de Conformidade    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-| Descoberta eletrônica    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-| Espera in-locar e manter litígio    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-| Marcas de retenção e políticas de retenção mrm (gerenciamento de registros de mensagens)    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
+| **No local**        | | |
+| Windows 10    | Windows 10 Business  |     Windows 10 Enterprise E3|
+| Office aplicativos*    | [Microsoft 365 Apps para Pequenos e Médios Negócios](#office-365-business)    | Microsoft 365 Apps para Grandes Empresas |
+| **Aplicativos de produtividade na nuvem**        | | |
+| Exchange Online e Outlook    | Limite de armazenamento de 50 GB por caixa de correio e Exchange Online arquivamento ilimitado    | Limite de armazenamento de 100 GB por caixa de correio e arquivamento Exchange Online ilimitado |
+| Teams    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) |
+| OneDrive for Business    | Limite de armazenamento de 1 TB por usuário    | Ilimitado |
+| Yammer, SharePoint Online, Planner, Stream    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) |
+| **Proteção contra Ameaças**        | | |
+| Recursos de redução de superfície de ataque    | [Veja esta lista](#threat-protection) | Enterprise gerenciamento de isolamento baseado em hardware para Microsoft Edge |
+| Microsoft Defender para Office 365 Plano 1 | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | Não incluído, mas pode ser adicionado em |
+| **O gerenciamento de identidades**        | | |
+| Redefinição de senha de autoatenduro para contas Azure Active Directory (Azure AD), autenticação multifacional do Azure AD (MFA), Acesso Condicional, write-back de senha para identidades locais|     ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) |
+| Descoberta de aplicativos na nuvem, Azure AD Conexão saúde    |     | ![Incluído no Microsoft 365 E3](../media/check-mark.png) |
+| Azure AD Office 365 aplicativo Sign-On s SSO (SSO): 10 aplicativos por usuário (aplicativos SaaS da Galeria, como Salesforce)* | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) |
+| Azure AD Premium 1 SSO: sem limite (aplicativos locais por meio do Proxy de Aplicativos do Azure AD e aplicativos que não são de galeria usando Self-Service de Integração de Aplicativos)    |     | ![Incluído no Microsoft 365 E3](../media/check-mark.png) |
+| **Gerenciamento de aplicativo e dispositivo**        | | |
+| Microsoft Intune, Windows Piloto Automático|     ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) |
+|VDA (Virtual Desktop Access)    |  |     ![Incluído no Microsoft 365 E3](../media/check-mark.png) |
+|Windows Área de trabalho virtual (WVD)    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png) |     ![Incluído no Microsoft 365 E3](../media/check-mark.png) |
+|Ativação de computador compartilhado (SCA)    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png) |     ![Incluído no Microsoft 365 E3](../media/check-mark.png) |
+| Pacote de Otimização da Área de Trabalho da Microsoft    | |     ![Incluído no Microsoft 365 E3](../media/check-mark.png) |
+| **Proteção de informações**        | | |
+| Office 365 Prevenção contra perda de dados, Plano 1 de Proteção de Informações do Azure    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) |
+| Proteção de Informações da Janela para DLP do ponto de extremidade    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) |
+| **Licença de Acesso para Cliente (direitos CAL)**    | | |
+| Enterprise Pacote CAL (Exchange, SharePoint, Skype, Windows, Microsoft Endpoint Configuration Manager, Windows Gerenciamento de Direitos)| |         ![Incluído no Microsoft 365 E3](../media/check-mark.png) |
+| **Conformidade**        | | |
+| Arquivamento ilimitado de email    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) |
+| Gerenciador de Conformidade    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) |
+| Descoberta eletrônica    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) |
+| Espera in-locar e manter litígio    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) |
+| Marcas de retenção e políticas de retenção mrm (gerenciamento de registros de mensagens)    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) |
 ||||
 
 \* Os usuários que tiveram acesso aos aplicativos SaaS podem obter acesso ao SSO para até 10 aplicativos. Os administradores podem configurar o SSO e alterar o acesso do usuário a diferentes aplicativos SaaS, mas o acesso ao SSO só é permitido para 10 aplicativos por usuário por vez. Todos Office 365 aplicativos são contados como um único aplicativo.
@@ -123,9 +122,8 @@ Windows 10 Business inclui essas proteções:
 
 Windows 10 Enterprise O E3 também inclui o gerenciamento empresarial do isolamento baseado em hardware para Microsoft Edge.
 
->[!Note]
->Os usuários migrados para Microsoft 365 E3 exigirão uma licença do Microsoft Defender para Office 365 proteção contra ameaças contínuas. Certifique-se de comprar licenças adicionais do Defender Office 365 para que todos os usuários no escopo do defender para Office 365 polícias sejam licenciados. 
->
+> [!NOTE]
+> Os usuários migrados para Microsoft 365 E3 exigirão uma licença do Microsoft Defender para Office 365 proteção contra ameaças contínuas. Certifique-se de comprar licenças adicionais do Defender Office 365 para que todos os usuários no escopo do defender para Office 365 polícias sejam licenciados.
 
 ### <a name="device-management-with-intune"></a>Gerenciamento de dispositivos com o Intune
 
@@ -140,7 +138,6 @@ Microsoft 365 Business Premium inclui Windows 10 Business, que você pode instal
 
 Seu Microsoft 365 Apps para Pequenos e Médios negócios cliente instalado em seus dispositivos começará automaticamente a usar os recursos de Microsoft 365 Apps para Grandes Empresas. Após a migração, agora você pode usar:
 
- - Suporte à Política de Grupo
- - Comparação e consulta de planilha
- - Business intelligence
-
+- Suporte à Política de Grupo
+- Comparação e consulta de planilha
+- Business intelligence

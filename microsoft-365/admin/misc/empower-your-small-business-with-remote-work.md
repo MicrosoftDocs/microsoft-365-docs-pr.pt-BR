@@ -15,19 +15,19 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 description: Encontre as informações, dicas, recursos e orientações mais recentes sobre o trabalho remoto para empresas que usam Microsoft 365.
-ms.openlocfilehash: 5bdff59f3d07c59951c6da87d7b28432fb7c5878
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: fb261fbb5b52e81861fde16f6effc12b0a232e80
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023732"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227914"
 ---
 # <a name="empower-your-small-business-with-remote-work"></a>Capacite sua pequena empresa com trabalho remoto
 
 À medida que as empresas se adaptam à necessidade crescente de fazer com que as pessoas trabalhem remotamente e se conectem virtualmente com seus clientes, esse site é atualizado com as informações, dicas, recursos e orientações mais recentes sobre o trabalho remoto para empresas usando o Microsoft 365.
 
->[!TIP]
->Não tem Microsoft_Teams? Obter 6 meses de Microsoft Teams em Office gratuitamente (quando você se inscrever por 1 ano). Obter as tecnologias descritas neste artigo como parte da oferta. Para obter detalhes, consulte [Try 1 month free](https://aka.ms/SMBTeamsOffer).
+> [!TIP]
+> Não tem Microsoft_Teams? Obter 6 meses de Microsoft Teams em Office gratuitamente (quando você se inscrever por 1 ano). Obter as tecnologias descritas neste artigo como parte da oferta. Para obter detalhes, consulte [Try 1 month free](https://aka.ms/SMBTeamsOffer).
 
 ## <a name="remote-work-for-your-small-business-video"></a>Trabalho remoto para sua pequena empresa (vídeo)
 
@@ -43,7 +43,7 @@ Já tem uma assinatura, mas precisa ser configurada? Consulte [Microsoft 365 tre
 
 ## <a name="connect-with-employees-and-customers"></a>Conexão com funcionários e clientes
 
-Você ainda pode se conectar com funcionários, clientes, clientes e parceiros, mesmo que não possa se encontrar cara a cara. Use Microsoft Teams para continuar fazendo negócios e se conectando com seus clientes. 
+Você ainda pode se conectar com funcionários, clientes, clientes e parceiros, mesmo que não possa se encontrar cara a cara. Use Microsoft Teams para continuar fazendo negócios e se conectando com seus clientes.
 
 ### <a name="meet-up-in-teams"></a>Reunir-se no Teams
 
@@ -81,13 +81,13 @@ Para obter mais informações, consulte [Gerenciar dispositivos](../../business-
 
 ### <a name="more-for-admins-and-partners"></a>Mais para administradores e parceiros
 
-O hub de documentação técnica Microsoft 365 Business atualizado com novas diretrizes de trabalho remoto seguro.
+O hub de documentação técnica Microsoft 365 Business é atualizado com novas diretrizes de trabalho remoto seguro.
 
-Para obter detalhes, [consulte Microsoft 365 Business recursos](https://docs.microsoft.com/microsoft-365/business).
+Para obter detalhes, consulte [Microsoft 365 Business resources](/microsoft-365/business).
 
-## <a name="need-to-ask-a-question"></a>Precisa fazer uma pergunta? 
+## <a name="need-to-ask-a-question"></a>Precisa fazer uma pergunta?
 
 Pergunte no fórum [Teams ou](https://answers.microsoft.com/msteams/forum) no fórum [Office Administradores.](https://answers.microsoft.com)
 
 > [!NOTE]
-> A maioria das tarefas neste artigo e vídeo pode ser realizada com uma assinatura para Microsoft 365 Business Basic (anteriormente Office 365 Business Essentials), mas algumas exigem uma assinatura premium. 
+> A maioria das tarefas neste artigo e vídeo pode ser realizada com uma assinatura para Microsoft 365 Business Basic (anteriormente Office 365 Business Essentials), mas algumas exigem uma assinatura premium.

@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Antes de poder usar Microsoft 365 com seu dispositivo, talvez seja necessário inscredá-lo primeiro no Basic Mobility and Security para Microsoft 365.
-ms.openlocfilehash: 2ad0aac331969696bbf53d0b06c18ee5c0ee90f6
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 9da3424409a950670e3be45354a5c399fec52372
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706161"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228178"
 ---
 # <a name="enroll-your-mobile-device-using-basic-mobility-and-security"></a>Registrar seu dispositivo móvel usando o Basic Mobility and Security
 
@@ -31,8 +31,8 @@ Usar seu telefone, tablet e outros dispositivos móveis para trabalhar é uma ó
 
 As organizações escolhem Mobilidade Básica e Segurança para que os funcionários possam usar seus dispositivos móveis para acessar com segurança emails, calendários e documentos de trabalho, enquanto a empresa garante dados importantes e atende aos requisitos de conformidade.Para saber mais, consulte [Overview of Basic Mobility and Security for Microsoft 365](overview.md). Para obter mais informações, consulte Quais informações minha organização pode [ver ao registrar meu dispositivo?](/intune-user-help/what-info-can-your-company-see-when-you-enroll-your-device-in-intune).
 
->[!IMPORTANT] 
->Ao registrar seu dispositivo no Basic Mobility and Security para Microsoft 365, talvez seja necessário configurar uma senha, juntamente com a opção de sua organização de trabalho apagar o dispositivo. Uma limpeza de dispositivo pode ser executada do centro de administração do Microsoft 365, por exemplo, para remover todos os dados do dispositivo se a senha for inserida incorretamente muitas vezes ou se os termos de uso são quebrados.
+> [!IMPORTANT]
+> Ao registrar seu dispositivo no Basic Mobility and Security para Microsoft 365, talvez seja necessário configurar uma senha, juntamente com a opção de sua organização de trabalho apagar o dispositivo. Uma limpeza de dispositivo pode ser executada do Centro de administração do Microsoft 365, por exemplo, para remover todos os dados do dispositivo se a senha for inserida incorretamente muitas vezes ou se os termos de uso estão quebrados.
 
 ## <a name="supported-devices"></a>Dispositivos suportados
 
@@ -46,8 +46,8 @@ Basic Mobility and Security for Microsoft 365 hosted by the Intune service works
 
 Se o dispositivo não estiver listado acima e você precisar usá-lo com Mobilidade Básica e Segurança, entre em contato com seu administrador do trabalho ou da escola.
 
->[!TIP]
->Se você estiver com problemas para registrar seu dispositivo, consulte [Troubleshoot Basic Mobility and Security](troubleshoot.md).
+> [!TIP]
+> Se você estiver com problemas para registrar seu dispositivo, consulte [Troubleshoot Basic Mobility and Security](troubleshoot.md).
 
 ## <a name="set-up-your-mobile-device-with-intune-and-basic-mobility-and-security"></a>Configurar seu dispositivo móvel com o Intune e o Basic Mobility and Security
 
@@ -55,8 +55,8 @@ O Portal da Empresa do Intune permite que um dispositivo seja gerenciado pela Mi
 
 ### <a name="iphone-or-ipad"></a>iPhone ou iPad
 
->[!TIP]
->Você não poderá enviar e receber emails até concluir esta etapa.
+> [!TIP]
+> Você não poderá enviar e receber emails até concluir esta etapa.
 
 Vá para a Apple App Store e baixe e instale Portal da Empresa do Intune.
 
@@ -64,8 +64,8 @@ Para conectar e configurar seu telefone ou tablet iOS com o portal da empresa pa
 
 ### <a name="android-phone-or-tablet"></a>Telefone ou tablet Android
 
->[!TIP]
->Você não poderá enviar e receber emails até concluir esta etapa.
+> [!TIP]
+> Você não poderá enviar e receber emails até concluir esta etapa.
 
 Vá para a Google Play Store e baixe e instale Portal da Empresa do Intune.
 

@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Use o Configuration Manager para implantar o pacote de configuração em dispositivos para que eles sejam integrados ao serviço.
-ms.openlocfilehash: ac05581ce33e94859dbd67848197878595d5ed0f
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: d2db35e50d31a0a19076965da6dcecf9cfeef826
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893292"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226892"
 ---
 # <a name="onboard-windows-10-devices-using-configuration-manager"></a>Integrar dispositivo Windows 10 usando o Configuration Manager
 
@@ -35,7 +35,7 @@ ms.locfileid: "51893292"
 2. No painel de navegação, **selecione** Configurações  >  **integração de**  >  **dispositivos**.
 
 3. No campo **método Deployment,** selecione **Microsoft Endpoint Configuration Manager 2012/2012 R2/1511/1602**.
- 
+
 4. Selecione **Baixar pacote** e salve o arquivo .zip.
 
 5. Extraia o conteúdo do arquivo .zip para um local compartilhado somente leitura que pode ser acessado pelos administradores de rede que implantarão o pacote. Você deve ter um arquivo chamado *DeviceComplianceOnboardingScript.cmd*.
@@ -47,12 +47,12 @@ ms.locfileid: "51893292"
 > [!NOTE]
 > Microsoft 365 A prevenção contra perda de dados do ponto de extremidade não dá suporte à integração durante a fase [OOBE (Experiência](https://answers.microsoft.com/en-us/windows/wiki/windows_10/how-to-complete-the-windows-10-out-of-box/47e3f943-f000-45e3-8c5c-9d85a1a0cf87) Inicial). Certifique-se de que os usuários concluam o OOBE após Windows instalação ou atualização.
 
->[!TIP]
+> [!TIP]
 > Após a integração do dispositivo, você pode optar por executar um teste de detecção para verificar se um dispositivo está corretamente conectado ao serviço. Para obter mais informações, [consulte Execute a detection test on a newly onboarded Microsoft Defender for Endpoint device](/windows/security/threat-protection/microsoft-defender-atp/run-detection-test).
 >
 > Observe que é possível criar uma regra de detecção em um aplicativo do Configuration Manager para verificar continuamente se um dispositivo foi internado. Um aplicativo é um tipo diferente de objeto do que um pacote e um programa.
 > Se um dispositivo ainda não estiver conectado (devido à conclusão pendente do OOBE ou qualquer outro motivo), o Configuration Manager repetirá a integração do dispositivo até que a regra detecte a alteração de status.
-> 
+>
 > Esse comportamento pode ser realizado criando uma verificação de regra de detecção se o valor do Registro "OnboardingState" (do tipo REG_DWORD) = 1.
 > Esse valor do Registro está localizado em "HKLM\SOFTWARE\Microsoft\Windows Proteção Avançada contra Ameaças\Status".
 Para obter mais informações, [consulte Configure Detection Methods in System Center 2012 R2 Configuration Manager](/previous-versions/system-center/system-center-2012-R2/gg682159(v=technet.10)#step-4-configure-detection-methods-to-indicate-the-presence-of-the-deployment-type).
@@ -61,8 +61,8 @@ Para obter mais informações, [consulte Configure Detection Methods in System C
 
 Para cada dispositivo, você pode definir um valor de configuração para determinar se amostras podem ser coletadas do dispositivo quando uma solicitação é feita por meio do Central de Segurança do Microsoft Defender enviar um arquivo para análise profunda.
 
->[!NOTE]
->Essas configurações geralmente são feitas por meio do Configuration Manager. 
+> [!NOTE]
+> Essas configurações geralmente são feitas por meio do Configuration Manager.
 
 Você pode definir uma regra de conformidade para o item de configuração no Configuration Manager para alterar a configuração de compartilhamento de exemplo em um dispositivo.
 
@@ -112,7 +112,7 @@ As seguintes configurações são recomendadas:
 
 **Redução de superfície de ataque** Configure todas as regras disponíveis para Auditoria.
 
->[!NOTE]
+> [!NOTE]
 > O bloqueio dessas atividades pode interromper processos comerciais legítimos. A melhor abordagem é definir tudo para auditoria, identificar quais são seguros para ativar e, em seguida, ativar essas configurações em pontos de extremidade que não têm detecções de falsos positivos.
 
 **Proteção de rede**
@@ -147,7 +147,7 @@ Se você usar Microsoft Endpoint Configuration Manager branch atual, consulte [C
 3. Selecione Windows 10 como o sistema operacional.
 
 4. No campo **método Deployment,** selecione **Microsoft Endpoint Configuration Manager 2012/2012 R2/1511/1602**.
-    
+
 5. Selecione **Baixar pacote** e salve o arquivo .zip.
 
 6. Extraia o conteúdo do arquivo .zip para um local compartilhado somente leitura que pode ser acessado pelos administradores de rede que implantarão o pacote. Você deve ter um arquivo chamado *DeviceComplianceOffboardingScript_valid_until_YYYY-MM-DD.cmd*.
@@ -162,7 +162,7 @@ Se você usar Microsoft Endpoint Configuration Manager branch atual, consulte [C
 
 ## <a name="monitor-device-configuration"></a>Monitorar a configuração do dispositivo
 
-Se você estiver usando Microsoft Endpoint Configuration Manager branch atual, use o painel integrado do Microsoft Defender para Ponto de Extremidade no console do Configuration Manager. Para obter mais informações, [consulte Proteção Avançada contra Ameaças do Microsoft Defender - Monitor](/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#monitor).
+Se você estiver usando Microsoft Endpoint Configuration Manager branch atual, use o painel integrado do Microsoft Defender para Ponto de Extremidade no console do Configuration Manager. Para obter mais informações, consulte [Proteção Avançada contra Ameaças do Microsoft Defender - Monitor](/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#monitor).
 
 Se você estiver usando o System Center 2012 R2 Configuration Manager, o monitoramento consiste em duas partes:
 
@@ -180,7 +180,7 @@ Se você estiver usando o System Center 2012 R2 Configuration Manager, o monitor
 
 4. Revise os indicadores de status **em Estatísticas de Conclusão** e Status de **Conteúdo.**
 
-    Se houver implantações com falha (dispositivos com **status Error**, **Requirements Not Met**, ou **Failed**), talvez seja necessário solucionar problemas dos dispositivos. Para obter mais informações, consulte, [Solucionar Proteção Avançada contra Ameaças do Microsoft Defender problemas de integração.](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
+    Se houver implantações com falha (dispositivos com **status Error**, **Requirements Not Met**, ou **Failed**), talvez seja necessário solucionar problemas dos dispositivos. Para obter mais informações, consulte Solução de problemas de integração da [Proteção Avançada contra Ameaças do Microsoft Defender.](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
 
     ![Gerenciador de Configurações mostrando implantação bem-sucedida sem erros](../media/sccm-deployment.png)
 
@@ -207,4 +207,4 @@ Para obter mais informações, consulte [Introdução às configurações de con
 - [Integrar dispositivos Windows 10 usando um script local](dlp-configure-endpoints-script.md)
 - [Dispositivos integrados de VDI (Virtual Desktop Infrastructure) não persistente](dlp-configure-endpoints-vdi.md)
 - [Executar um teste de detecção em um dispositivo recém-integrado do Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)
-- [Solucionar Proteção Avançada contra Ameaças do Microsoft Defender problemas de integração](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
+- [Solucionar problemas de integração da Proteção Avançada contra Ameaças do Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)

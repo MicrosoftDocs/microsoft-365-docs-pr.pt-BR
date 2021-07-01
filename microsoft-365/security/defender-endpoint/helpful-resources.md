@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5ecee4a71ef0b6f607a284766163a90f16bc27dc
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 5e92cd8b15a744301755dcd17633616e3061292c
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843056"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53225970"
 ---
 # <a name="helpful-microsoft-defender-for-endpoint-resources"></a>Microsoft Defender útil para recursos de ponto de extremidade
 
@@ -32,7 +32,7 @@ ms.locfileid: "52843056"
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 Acesse recursos úteis, como links para blogs e outros recursos relacionados ao Microsoft Defender para Ponto de Extremidade.
 
@@ -57,7 +57,7 @@ Acesse recursos úteis, como links para blogs e outros recursos relacionados ao 
 
 - [O remake da Hora de Ouro - Definindo métricas para operações de segurança bem-sucedidas](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/The-Golden-Hour-remake-Defining-metrics-for-a-successful/ba-p/782014)
 
-- [O laboratório de Avaliação do Defender para Ponto de Extremidade agora está disponível na visualização pública   ](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/Microsoft-Defender-ATP-Evaluation-lab-is-now-available-in-public/ba-p/770271)
+- [O laboratório de Avaliação do Defender para Ponto de Extremidade agora está disponível na visualização pública](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/Microsoft-Defender-ATP-Evaluation-lab-is-now-available-in-public/ba-p/770271)
 
 - [Como a automação traz valor para suas equipes de segurança](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/How-automation-brings-value-to-your-security-teams/ba-p/729297)
 

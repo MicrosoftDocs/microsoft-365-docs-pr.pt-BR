@@ -25,13 +25,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
-description: Use o assistente de instalação para adicionar seu domínio Microsoft 365 no centro de administração Microsoft 365 adicionando um registro DNS ao host DNS.
-ms.openlocfilehash: 152144737b0ff8cb8b0c27db2a4fc1051fb2a8a7
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+description: Use o assistente de instalação para adicionar seu domínio Microsoft 365 no Centro de administração do Microsoft 365 adicionando um registro DNS ao host DNS.
+ms.openlocfilehash: 547a3bf242130993522b00f53819908b10c9e4d1
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635673"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227830"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Adicionar um domínio ao Microsoft 365
 
@@ -80,8 +80,6 @@ Siga estas etapas para adicionar, configurar ou continuar configurando um domín
 7. Se você optar por adicionar registros *DNS*  por conta própria, selecione **Próximo** e verá uma página com todos os registros necessários para adicionar ao seu site de registradores para configurar seu domínio. 
 
     Se o portal não reconhecer seu registrador, [siga estas instruções gerais.](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)
-    
-    Confira a nossa lista de [instruções específicas de host](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) para encontrar seu host e siga as etapas para adicionar todos os registros necessários. 
     
     Se você não conhece o provedor de host DNS ou o registrador de domínios para seu domínio, confira [Localizar seu registrador de domínio ou provedor de host DNS](../get-help-with-domains/find-your-domain-registrar.md).
     
@@ -139,4 +137,3 @@ Se você tiver um site que usa com a empresa, ele continuará funcionando onde e
 [Perguntas frequentes sobre domínios](domains-faq.yml) (artigo)\
 [O que é um domínio?](../get-help-with-domains/what-is-a-domain.md) (artigo)\
 [Comprar um nome de domínio Microsoft 365](../get-help-with-domains/buy-a-domain-name.md) (artigo)\
-[Configurar seu domínio](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) (artigo)

@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 9d9c439704b6837cec086b390cde9c480d2d69ba
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 2bf40f5b1d89b7a232f86c1e186ca660db9f8bbc
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860392"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227278"
 ---
 # <a name="learn-about-communication-compliance-in-microsoft-365"></a>Saiba mais sobre a conformidade de comunicação no Microsoft 365
 
@@ -103,7 +103,7 @@ Novos painéis interativos para alertas, correspondências de políticas, açõe
 
 - **Alertas inteligentes proativos**: os alertas de correspondências de políticas que requerem atenção imediata incluem novos painéis para itens pendentes classificados por gravidade e novas notificações automáticas por email enviadas para revisores designados.
 - **Painéis interativos**: novos painéis exibem correspondências de políticas, ações pendentes e resolvidas e tendências por usuários e políticas.
-- **Suporte à auditoria**: um log completo de atividades de política e revisão é facilmente exportado do centro de conformidade Microsoft 365 para ajudar a dar suporte a solicitações de revisão de auditoria.
+- **Suporte à auditoria**: um log completo de atividades de política e revisão é facilmente exportado do Centro de conformidade do Microsoft 365 para ajudar a dar suporte a solicitações de revisão de auditoria.
 
 ## <a name="integration-with-microsoft-365-services"></a>Integração com Microsoft 365 serviços
 
@@ -129,8 +129,8 @@ Identificar e resolver problemas de conformidade com a conformidade de comunica�
 
 Nesta etapa de fluxo de trabalho, você identifica seus requisitos de conformidade e configura as políticas de conformidade de comunicação aplicáveis. Os modelos de política são uma ótima maneira de não apenas configurar rapidamente uma nova política de conformidade, mas também modificar e atualizar rapidamente as políticas à medida que seus requisitos mudam. Por exemplo, você pode querer testar rapidamente uma política contra linguagem ofensiva e antiassédio nas comunicações de um pequeno grupo de usuários antes de configurar uma política para todos os usuários da organização.
 
->[!Important]
->Por padrão, os Administradores Globais não têm acesso aos recursos de conformidade de comunicação. Para habilitar permissões para recursos de conformidade de comunicação, consulte [Make communication compliance available in your organization](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance).
+> [!IMPORTANT]
+> Por padrão, os Administradores Globais não têm acesso aos recursos de conformidade de comunicação. Para habilitar permissões para recursos de conformidade de comunicação, consulte [Make communication compliance available in your organization](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance).
 
 Você pode escolher entre os seguintes modelos de política no Centro de Conformidade do Microsoft 365:
 
@@ -142,7 +142,7 @@ Você pode escolher entre os seguintes modelos de política no Centro de Conform
 
 ### <a name="investigate"></a>Investigar
 
-Nesta etapa, você analisa mais profundamente os problemas detectados como correspondentes às suas políticas de conformidade de comunicações. Esta etapa inclui as seguintes ações disponíveis no Microsoft 365 de conformidade:
+Nesta etapa, você analisa mais profundamente os problemas detectados como correspondentes às suas políticas de conformidade de comunicações. Esta etapa inclui as seguintes ações disponíveis na Centro de conformidade do Microsoft 365:
 
 - **Alertas**: quando uma mensagem corresponde a uma condição de política, um alerta é gerado automaticamente. Para cada alerta, você pode ver o status, a gravidade, o tempo detectado e se um caso Advanced eDiscovery for atribuído e seu status. Novos alertas são exibidos na home page de conformidade de comunicação e na página Alertas e são **listados** em ordem de gravidade.
 - **Gerenciamento de problemas**: para cada alerta, você pode realizar ações investigativas para ajudar a corrigir o problema detectado na mensagem.
@@ -150,7 +150,7 @@ Nesta etapa, você analisa mais profundamente os problemas detectados como corre
 - **Revisão do histórico de** atividades do usuário : Exibir o histórico de atividades de mensagens do usuário e ações de correção, como notificações passadas e escalonamentos, para jogos de política.
 - **Filtros**: Use filtros como remetente, destinatário, data e assunto para restringir rapidamente os alertas de mensagem que você deseja revisar.
 
-### <a name="remediate"></a>Corrigir
+### <a name="remediate"></a>Correção
 
 A próxima etapa é resolver problemas de conformidade de comunicação que você investiga usando as seguintes opções:
 

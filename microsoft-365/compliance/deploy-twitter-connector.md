@@ -15,16 +15,16 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector nativo para importar e arquivar dados do Twitter para Microsoft 365. Depois que esses dados são importados para Microsoft 365, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar a governança dos dados do Twitter da sua organização.
-ms.openlocfilehash: 0dd996802964b2a2fc58d26e23af57193c89ee8c
-ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
+ms.openlocfilehash: 0a0ebb18cb39b7dd7416f2d03dcb5b4d21332c9b
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49619907"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227050"
 ---
 # <a name="deploy-a-connector-to-archive-twitter-data"></a>Implantar um conector para arquivar dados do Twitter
 
-Este artigo contém o processo passo a passo para implantar um conector que usa o serviço Office 365 Import para importar dados da conta do Twitter da sua organização para Microsoft 365. Para uma visão geral de alto nível desse processo e uma lista de pré-requisitos necessários para implantar um conector do Twitter, consulte Configurar um conector para arquivar dados [do Twitter. ](archive-twitter-data-with-sample-connector.md) 
+Este artigo contém o processo passo a passo para implantar um conector que usa o serviço Office 365 Import para importar dados da conta do Twitter da sua organização para Microsoft 365. Para uma visão geral de alto nível desse processo e uma lista de pré-requisitos necessários para implantar um conector do Twitter, consulte Configurar um conector para arquivar dados [do Twitter. ](archive-twitter-data-with-sample-connector.md)
 
 ## <a name="step-1-create-an-app-in-azure-active-directory"></a>Etapa 1: Criar um aplicativo no Azure Active Directory
 
@@ -42,7 +42,7 @@ Este artigo contém o processo passo a passo para implantar um conector que usa 
 
 4. Registre o aplicativo. Em **URI de redirecionamento (opcional),** selecione **Web** na lista suspenso tipo de aplicativo e digite a caixa `https://portal.azure.com` para o URI.
 
-   ![Digite https://portal.azure.com para o URI de redirecionamento ](../media/TCimage04.png)
+   ![Digite https://portal.azure.com para o URI de redirecionamento](../media/TCimage04.png)
 
 5. Copie a **ID do Aplicativo (cliente)** e a ID de Diretório **(locatário)** e salve-os em um arquivo de texto ou em outro local seguro. Use essas IDs em etapas posteriores.
 
@@ -52,7 +52,7 @@ Este artigo contém o processo passo a passo para implantar um conector que usa 
 
    ![Criar um novo segredo do cliente](../media/TCimage06.png)
 
-7. Crie um novo segredo. Na caixa descrição, digite o segredo e escolha um período de expiração. 
+7. Crie um novo segredo. Na caixa descrição, digite o segredo e escolha um período de expiração.
 
    ![Digite o segredo e escolha o período de expiração](../media/TCimage08.png)
 
@@ -72,15 +72,15 @@ Este artigo contém o processo passo a passo para implantar um conector que usa 
    ![Clique em Criar um recurso e digite conta de armazenamento](../media/FBCimage12.png)
 
     - **Assinatura:** Selecione sua assinatura do Azure para a que você deseja implantar o serviço Web do Conector do Twitter.
-    
+
     - **Grupo de recursos:** Escolha ou crie um novo grupo de recursos. Um grupo de recursos é um contêiner que contém recursos relacionados para uma solução do Azure.
 
     - **Local:** Escolha um local.
 
     - **Nome do aplicativo Web:** Forneça um nome exclusivo para o aplicativo Web do conector. O nome deve ter entre 3 e 18 caracteres de comprimento. Esse nome é usado para criar a URL do serviço de aplicativo do Azure; por exemplo, se você fornecer o nome do aplicativo Web do **twitterconnector,** a URL do serviço de aplicativo do Azure **será** twitterconnector.azurewebsites.net .
-    
+
     - **tenantId:** A ID de locatário da sua Microsoft 365 que você copiou após criar o aplicativo conector do Facebook no Azure Active Directory na Etapa 1.
-    
+
    - **APISecretKey:** Você pode digitar qualquer valor como o segredo. Isso é usado para acessar o aplicativo Web do conector na Etapa 5.
 
 3. Depois que a implantação for bem-sucedida, a página será semelhante à seguinte captura de tela:
@@ -93,7 +93,7 @@ Este artigo contém o processo passo a passo para implantar um conector que usa 
 
    ![Vá para https://developer.twitter.com e faça logoff](../media/TCimage25-5.png)
 2. Clique **em Criar um aplicativo**.
-   
+
    ![Vá para a página Aplicativos para criar um aplicativo](../media/TCimage26.png)
 
 3. Em **Detalhes do aplicativo,** adicione informações sobre o aplicativo.
@@ -101,18 +101,18 @@ Este artigo contém o processo passo a passo para implantar um conector que usa 
    ![Insira informações sobre o aplicativo](../media/TCimage27.png)
 
 4. No painel de desenvolvedores do Twitter, selecione o aplicativo que você acabou de criar e clique em **Detalhes.**
-   
+
    ![Copiar e salvar a ID do Aplicativo](../media/TCimage28.png)
 
 5. Na guia **Chaves e tokens,** em Chaves da API do Consumidor, copie a Chave da **API** e a chave secreta da API e salve-as em um arquivo de texto ou em outro local de armazenamento. Em **seguida, clique** em Criar para gerar um token de acesso e acessar o segredo do token e copiá-los para um arquivo de texto ou outro local de armazenamento.
-   
+
    ![Copiar e salvar na chave secreta da API](../media/TCimage29.png)
 
    Em **seguida, clique** em Criar para gerar um token de acesso e um segredo de token de acesso e copie-os para um arquivo de texto ou outro local de armazenamento.
 
 6. Clique na **guia Permissões** e configure as permissões conforme mostrado na captura de tela a seguir:
 
-   ![Configurar permissões](../media/TCimage30.png)
+   ![Configurar as permissões](../media/TCimage30.png)
 
 7. Depois de salvar as configurações de permissão, clique na guia Detalhes **do** aplicativo e clique em Editar > **Editar detalhes**.
 
@@ -121,14 +121,14 @@ Este artigo contém o processo passo a passo para implantar um conector que usa 
 8. Faça as seguintes tarefas:
 
    - Marque a caixa de seleção para permitir que o aplicativo conector entre no Twitter.
-   
+
    - Adicione o Uri de redirecionamento OAuth usando o seguinte formato: **\<connectorserviceuri> /Views/TwitterOAuth**, onde o valor *de connectorserviceuri* é a URL de serviço de aplicativo do Azure para sua organização; por exemplo, https://twitterconnector.azurewebsites.net/Views/TwitterOAuth .
 
     ![Permitir que o aplicativo conector entre no Twitter e adicione Uri de redirecionamento OAuth](../media/TCimage32.png)
 
 O aplicativo de desenvolvedor do Twitter agora está pronto para uso.
 
-## <a name="step-4-configure-the-connector-web-app"></a>Etapa 4: Configurar o aplicativo Web do conector 
+## <a name="step-4-configure-the-connector-web-app"></a>Etapa 4: Configurar o aplicativo Web do conector
 
 1. Vá para https:// \<AzureAppResourceName> .azurewebsites.net (onde **AzureAppResourceName** é o nome do seu recurso de aplicativo do Azure nomeado na Etapa 4). Por exemplo, se o nome for **twitterconnector,** vá para https://twitterconnector.azurewebsites.net . A home page do aplicativo se parece com a seguinte captura de tela:
 
@@ -142,23 +142,23 @@ O aplicativo de desenvolvedor do Twitter agora está pronto para uso.
 
    ![Entrar usando a ID do locatário e a chave secreta da API](../media/TCimage35.png)
 
-4. Insira as seguintes configurações 
+4. Insira as seguintes configurações
 
    - **Chave da Api do Twitter:** A chave da API para o aplicativo Twitter que você criou na Etapa 3.
-   
+
    - **Chave Secreta da Api do Twitter:** A chave secreta da API para o aplicativo Twitter que você criou na Etapa 3.
-   
+
    - **Token de Acesso para Twitter:** O token de acesso que você criou na Etapa 3.
-   
+
    - **Segredo do Token de Acesso ao Twitter:** O segredo do token de acesso que você criou na Etapa 3.
-   
+
    - **ID do aplicativo AAD:** A ID do aplicativo para o Azure Active Directory que você criou na Etapa 1
-   
+
    - **Segredo do aplicativo AAD:** O valor do segredo APISecretKey criado na Etapa 1.
 
 5. Clique **em Salvar** para salvar as configurações do conector.
 
-## <a name="step-5-set-up-a-twitter-connector-in-the-microsoft-365-compliance-center"></a>Etapa 5: Configurar um conector do Twitter no centro Microsoft 365 conformidade
+## <a name="step-5-set-up-a-twitter-connector-in-the-microsoft-365-compliance-center"></a>Etapa 5: Configurar um conector do Twitter no Centro de conformidade do Microsoft 365
 
 1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com) e clique em **Conectores de dados** na nav esquerda.
 
@@ -173,11 +173,11 @@ O aplicativo de desenvolvedor do Twitter agora está pronto para uso.
    ![Inserir credenciais de aplicativo de conector](../media/TCimage38.png)
 
     - Na caixa **Nome,** digite um nome para o conector, como Ajuda **do Twitter para manipular**.
-    
+
     - Na caixa **URL do Conector,** digite ou colar a URL do serviço de aplicativo do Azure; por exemplo `https://twitterconnector.azurewebsites.net` .
-    
+
     - Na caixa **Senha,** digite ou colar o valor da APISecretKey que você criou na Etapa 2.
-    
+
     - Na caixa ID do Aplicativo **do Azure,** digite ou colar o valor da ID do Aplicativo do Azure (também chamada de *ID* do cliente ) obtida na Etapa 1.
 
 6. Depois que a conexão for validada com êxito, clique em **Next**.
