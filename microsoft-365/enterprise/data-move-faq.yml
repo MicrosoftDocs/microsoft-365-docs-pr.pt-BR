@@ -15,12 +15,12 @@ metadata:
   - NOCSH
   description: Encontre respostas para perguntas frequentes (perguntas frequentes) sobre como mover os dados principais para um novo Office 365 de datacenter.
   ms.custom: seo-marvel-mar2020
-  ms.openlocfilehash: 05ffdc8ea774bab1aee3aaad79df2f2532132aa3
-  ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+  ms.openlocfilehash: 14641933176b564b8550f3a8627f4f9149f1d7ee
+  ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 06/11/2021
-  ms.locfileid: "52908394"
+  ms.lasthandoff: 06/30/2021
+  ms.locfileid: "53229990"
 title: Perguntas frequentes gerais sobre migração de dados
 summary: Aqui estão respostas para perguntas gerais sobre como mover os dados principais do cliente em repouso para um novo datacenter geo.
 sections:
@@ -28,33 +28,56 @@ sections:
   questions:
   - question: >
       Quais clientes estão qualificados para solicitar uma movimentação?
-    answer: "Os clientes Microsoft 365 comerciais que selecionaram um país qualificado para o novo datacenter geo poderão solicitar uma movimentação. O programa existe apenas para locatários com um código de país qualificado atribuído ao locatário Microsoft 365 migrar os dados principais do cliente em repouso para cargas de trabalho qualificadas para o datacenter Microsoft 365 correspondente. Consulte a página [Como solicitar a movimentação](request-your-data-move.md) de dados para confirmar a qualificação do país.   \n"
+    answer: >
+      Os clientes Microsoft 365 comerciais que selecionaram um país qualificado para o novo datacenter geo poderão solicitar uma movimentação. O programa existe apenas para locatários com um código de país qualificado atribuído ao locatário Microsoft 365 migrar os dados principais do cliente em repouso para cargas de trabalho qualificadas para o datacenter Microsoft 365 correspondente. Consulte a página [Como solicitar a movimentação](request-your-data-move.md) de dados para confirmar a qualificação do país. 
   - question: >
       Como definimos Os Dados Principais do Cliente?
-    answer: "Os dados principais do cliente são um termo que se refere a um subconjunto de dados do cliente definidos no Microsoft Online Services [Termos](https://aka.ms/ost): \n- Exchange Online de caixa de correio (corpo do email, entradas de calendário e o conteúdo de anexos de email)\n- SharePoint Conteúdo do site online e os arquivos armazenados nesse site\n- Arquivos carregados no OneDrive for Business \n"
+    answer: >
+      Os dados principais do cliente são um termo que se refere a um subconjunto de dados do cliente definidos no Microsoft Online Services [Termos](https://aka.ms/ost):
+
+      - Exchange Online de caixa de correio (corpo do email, entradas de calendário e o conteúdo de anexos de email)
+
+      - SharePoint Conteúdo do site online e os arquivos armazenados nesse site
+
+      - Arquivos carregados no OneDrive for Business
   - question: >
       O que há no escopo para Teams migração?
-    answer: "Além de Exchange Online, SharePoint Online e OneDrive for Business; A Microsoft migrará Teams dados para o datacenter local. \n- Teams mensagens de chat, incluindo mensagens privadas e mensagens de canal. \n- Teams imagens usadas em chats. \n\nTeams arquivos são armazenados no SharePoint Online e Teams de chat são armazenados em OneDrive for Business. A caixa postal, o calendário e os contatos são armazenados Exchange Online. Em muitos casos, Exchange Online, SharePoint Online e OneDrive for Business já são usados pelo cliente no datacenter local geo e também fazem parte do programa de migração Microsoft 365 para países clientes qualificados.\n"
+    answer: >
+      Além de Exchange Online, SharePoint Online e OneDrive for Business; A Microsoft migrará Teams dados para o datacenter local.
+
+      - Teams mensagens de chat, incluindo mensagens privadas e mensagens de canal.
+
+      - Teams imagens usadas em chats.
+
+
+      Teams arquivos são armazenados no SharePoint Online e Teams de chat são armazenados em OneDrive for Business. A caixa postal, o calendário e os contatos são armazenados Exchange Online. Em muitos casos, Exchange Online, SharePoint Online e OneDrive for Business já são usados pelo cliente no datacenter local geo e também fazem parte do programa de migração Microsoft 365 para países clientes qualificados.
   - question: >
       Em que ponto minha migração está concluída para que os principais dados do cliente do meu locatário estão sendo armazenados em repouso no meu novo geo?
     answer: >
       Devido às dependências compartilhadas entre Exchange Online e SharePoint Online/OneDrive for Business, qualquer migração não pode ser considerada concluída até que ambos os serviços sejam migrados. Exchange Online e SharePoint Online/OneDrive for Business geralmente migram em horários separados e independentemente um do outro. Os administradores de locatários de clientes recebem confirmação no Centro de Mensagens quando cada migração de serviço é concluída e podem exibir o cartão de localização de dados no Centro de Administração a qualquer momento para confirmar os dados principais do cliente no local de repouso para cada serviço.
   - question: >
       Como certificar-se de que meus dados do cliente estão seguros durante a movimentação e se eu não experimentarei o tempo de inatividade?
-    answer: "As movimentações de dados são uma operação de serviço de back-end com impacto mínimo para os usuários finais. Os recursos que podem ser afetados são listados em [Durante e após a movimentação de dados.](during-and-after-your-data-move.md) Aderimos Microsoft Online Services Contrato de Nível de Serviço [(SLA)](https://go.microsoft.com/fwlink/p/?LinkId=523897) para disponibilidade, portanto, não há nada que os clientes precisem preparar ou monitorar durante a movimentação. \n  \nTodos Microsoft 365 os serviços executarão as mesmas versões nos datacenters, para que você possa ter certeza de funcionalidade consistente. Seu serviço tem suporte total em todo o processo.\n  \n"
+    answer: >
+      As movimentações de dados são uma operação de serviço de back-end com impacto mínimo para os usuários finais. Os recursos que podem ser afetados são listados em [Durante e após a movimentação de dados.](during-and-after-your-data-move.md) Aderimos Microsoft Online Services Contrato de Nível de Serviço [(SLA)](https://go.microsoft.com/fwlink/p/?LinkId=523897) para disponibilidade, portanto, não há nada que os clientes precisem preparar ou monitorar durante a movimentação.
+
+
+      Todos Microsoft 365 os serviços executarão as mesmas versões nos datacenters, para que você possa ter certeza de funcionalidade consistente. Seu serviço tem suporte total em todo o processo.
   - question: >
       Qual é o impacto de ter diferentes serviços localizados em diferentes geos?
     answer: >
       Alguns dos serviços Microsoft 365 podem estar localizados em diferentes geos para alguns clientes existentes e para clientes que estão no meio do processo de movimentação. Nossos serviços são executados independentemente um do outro e não há impacto na experiência do usuário, se esse for o caso.No entanto, para fins de residência de dados, uma migração de locatário não pode ser considerada como concluída até que o Exchange Online e o SharePoint Online/OneDrive for Business sejam migrados para o mesmo datacenter geo.
   - question: >
       Onde estão localizados meus principais dados do cliente?
-    answer: "Os administradores de locatários do cliente podem exibir o cartão de localização de dados no Centro de Administração a qualquer momento para confirmar os principais dados do cliente no local de repouso para cada serviço, especificamente para seu locatário.Também publicamos a localização de geos de datacenter, datacenters e localização de dados do cliente Office 365 nos mapas de [datacenter](https://office.com/datamaps) interativos do Microsoft 365 como referência para os dados principais do cliente padrão atual em locais de repouso para novos locatários. Você pode verificar a localização dos dados do cliente em repouso por meio da seção Localização de Dados em seu Perfil da Organização no Microsoft 365 de administração.  \n \n"
+    answer: >
+      Os administradores de locatários do cliente podem exibir o cartão de localização de dados no Centro de Administração a qualquer momento para confirmar os principais dados do cliente no local de repouso para cada serviço, especificamente para seu locatário.Também publicamos a localização de geos de datacenter, datacenters e localização de dados do cliente Office 365 nos mapas de [datacenter](https://office.com/datamaps) interativos do Microsoft 365 como referência para os dados principais do cliente padrão atual em locais de repouso para novos locatários. Você pode verificar a localização dos dados do cliente em repouso por meio da seção Localização de Dados em seu Perfil da Organização no Centro de administração do Microsoft 365.  
   - question: >
       Quando posso solicitar uma movimentação?
-    answer: "Consulte a página [Como solicitar a movimentação](request-your-data-move.md) de dados para os períodos de tempo suportados para o seu datacenter geo.\n  \n"
+    answer: >
+      Consulte a página [Como solicitar a movimentação](request-your-data-move.md) de dados para os períodos de tempo suportados para o seu datacenter geo.
   - question: >
       Como posso solicitar a movimentação?
-    answer: "Os clientes qualificados verão uma página em seu [Microsoft 365 de administração.](https://admin.microsoft.com/) Confira [Como solicitar a movimentação de dados](request-your-data-move.md) para obter instruções sobre como solicitar uma movimentação. \n  \n"
+    answer: >
+      Os clientes qualificados verão uma página em seus [Centro de administração do Microsoft 365](https://admin.microsoft.com/). Confira [Como solicitar a movimentação de dados](request-your-data-move.md) para obter instruções sobre como solicitar uma movimentação.
   - question: >
       Posso alterar minha seleção depois de solicitar uma movimentação?
     answer: >
@@ -65,7 +88,8 @@ sections:
       Não é possível aceitar solicitações de migração após o período de registro aberto.
   - question: >
       E se eu quiser mover meus dados para obter um melhor desempenho de rede?
-    answer: "A proximidade física com um Microsoft 365 datacenter não é uma garantia para um melhor desempenho de rede. Há muitos fatores e componentes que afetam o desempenho da rede entre o usuário final e o Microsoft 365 serviço. Para obter mais informações sobre isso e ajuste de desempenho, consulte [Network planning and performance tuning for Microsoft 365](network-planning-and-performance.md).\n  \n"
+    answer: >
+      A proximidade física com um Microsoft 365 datacenter não é uma garantia para um melhor desempenho de rede. Há muitos fatores e componentes que afetam o desempenho da rede entre o usuário final e o Microsoft 365 serviço. Para obter mais informações sobre isso e ajuste de desempenho, consulte [Network planning and performance tuning for Microsoft 365](network-planning-and-performance.md).
   - question: >
       Todos os serviços movem seus dados no mesmo dia?
     answer: >
@@ -76,13 +100,16 @@ sections:
       Os clientes não podem selecionar uma data específica, não podem atrasar a movimentação e não podemos compartilhar uma data ou um período específico para as movimentações.
   - question: >
       Você pode compartilhar quando meus dados serão movidos?
-    answer: "As movimentações de dados são uma operação de back-end com impacto mínimo para os usuários finais. A complexidade, precisão e escala na qual precisamos executar movimentações de dados em um ambiente globalmente operado e automatizado nos proíbe de compartilhar quando uma movimentação de dados deve ser concluída para seu locatário ou qualquer outro locatário. Os clientes receberão uma confirmação no Centro de Mensagens por serviço participante quando a movimentação de dados for concluída. \n"
+    answer: >
+      As movimentações de dados são uma operação de back-end com impacto mínimo para os usuários finais. A complexidade, precisão e escala na qual precisamos executar movimentações de dados em um ambiente globalmente operado e automatizado nos proíbe de compartilhar quando uma movimentação de dados deve ser concluída para seu locatário ou qualquer outro locatário. Os clientes receberão uma confirmação no Centro de Mensagens por serviço participante quando a movimentação de dados for concluída.
   - question: >
       O que acontece se os usuários acessarem serviços enquanto os dados estão sendo movidos?
-    answer: "Consulte [Durante e após a movimentação de](during-and-after-your-data-move.md) dados para uma lista completa de recursos que podem ser limitados durante partes da movimentação de dados para cada serviço. \n  \n"
+    answer: >
+      Consulte [Durante e após a movimentação de](during-and-after-your-data-move.md) dados para uma lista completa de recursos que podem ser limitados durante partes da movimentação de dados para cada serviço.
   - question: >
       Como saber se a movimentação foi concluída?
-    answer: "Observe o Microsoft 365 De mensagens para confirmar se a movimentação dos dados de cada serviço está concluída. Quando os dados de cada serviço são movidos, publicaremos um aviso de conclusão para que você receba três avisos de conclusão: um para o Exchange Online, o SharePoint Online e o Skype for Business Online. Você também pode verificar a localização dos dados do cliente em repouso por meio da seção Localização de Dados em seu Perfil da Organização no Microsoft 365 de administração.  \n  \n"
+    answer: >
+      Observe o Microsoft 365 De mensagens para confirmar se a movimentação dos dados de cada serviço está concluída. Quando os dados de cada serviço são movidos, publicaremos um aviso de conclusão para que você receba três avisos de conclusão: um para o Exchange Online, o SharePoint Online e o Skype for Business Online. Você também pode verificar a localização dos dados do cliente em repouso por meio da seção Localização de Dados em seu Perfil da Organização no Centro de administração do Microsoft 365.  
   - question: >
       Sou um Microsoft 365 cliente em uma das novas geos do datacenter, mas quando me inscredei, selecionei um país diferente. Como posso ser movido para o novo datacenter geo?
     answer: >
@@ -97,15 +124,27 @@ sections:
       Você pode criar um locatário de avaliação separado para testar a conectividade, mas o locatário de avaliação não pode ser combinado de forma alguma com seu locatário existente.
   - question: >
       Não quero esperar que a Microsoft mova meus dados. Posso criar um novo locatário e me mover?
-    answer: "Sim, no entanto, o processo não será tão contínuo quanto se a Microsoft fosse executar a movimentação de dados.\n  \nSe você criar um novo locatário depois que o novo datacenter geo estiver disponível, o novo locatário será hospedado na nova geo. Esse novo locatário é completamente separado do seu locatário anterior e você seria responsável por mover todas as caixas de correio de usuário, conteúdo do site, nomes de domínio e quaisquer outros dados. Observe que você não pode mover o nome do locatário de um locatário para outro. Recomendamos que você aguarde o programa de movimentação fornecido pela Microsoft, pois cuidaremos de mover todas as configurações, dados e assinaturas para seus usuários.\n  \n"
+    answer: >
+      Sim, no entanto, o processo não será tão contínuo quanto se a Microsoft fosse executar a movimentação de dados.
+
+
+      Se você criar um novo locatário depois que o novo datacenter geo estiver disponível, o novo locatário será hospedado na nova geo. Esse novo locatário é completamente separado do seu locatário anterior e você seria responsável por mover todas as caixas de correio de usuário, conteúdo do site, nomes de domínio e quaisquer outros dados. Observe que você não pode mover o nome do locatário de um locatário para outro. Recomendamos que você aguarde o programa de movimentação fornecido pela Microsoft, pois cuidaremos de mover todas as configurações, dados e assinaturas para seus usuários.
   - question: >
       Meus dados do cliente já foram movidos para um novo datacenter geo. Posso voltar?
-    answer: "Não, isso não é possível. Os clientes que foram movidos para novos datacenters geo-geo não podem ser movidos de volta. Como cliente em qualquer geo, você experimentará a mesma qualidade de controles de serviço, desempenho e segurança que você tinha antes. [Microsoft 365 Multi Geo](https://aka.ms/multi-geo) está disponível para alguns clientes como complemento e permite que um único locatário crie várias geos de satélite e mova os dados do usuário para essas geos com compromissos de residência de dados.\n  \n"
+    answer: >
+      Não, isso não é possível. Os clientes que foram movidos para novos datacenters geo-geo não podem ser movidos de volta. Como cliente em qualquer geo, você experimentará a mesma qualidade de controles de serviço, desempenho e segurança que você tinha antes. [Microsoft 365 Multi Geo](https://aka.ms/multi-geo) está disponível para alguns clientes como complemento e permite que um único locatário crie várias geos de satélite e mova os dados do usuário para essas geos com compromissos de residência de dados.
   - question: >
       Os Microsoft 365 hospedados nos novos datacenters estarão disponíveis para usuários fora do país?
     answer: >
       Sim. A Microsoft mantém uma grande rede global com conexões públicas com a Internet em mais de 130 locais em 35 países ao redor do mundo com acordos de paridade com mais de 2.700 Provedores de Serviços da Internet (ISPs). Os usuários poderão acessar os datacenters de onde quer que estejam na Internet.
   - question: >
       Meu locatário configurou o complemento Multi Geo. Ainda posso me inscrever no meu locatário no programa Microsoft 365 Mover para alterar meu geo padrão e mover qualquer usuário que não esteja em uma região de satélite para o novo geo padrão?
-    answer: "Sim, seu locatário está qualificado para se inscrever, mas há considerações significativas, pois a movimentação no nível do locatário não é totalmente suportada para clientes que configuraram [o Multi-Geo](https://aka.ms/multi-geo).\n\nSharePoint Online e OneDrive for Business não podem migrar para o novo datacenter geo no nível do locatário por meio deste programa. O administrador do cliente pode configurar OneDrive for Business compartilhamentos para mover para qualquer região disponível usando Multi-Geo, mas o local padrão para o locatário não pode ser alterado depois que Multi-Geo tiver sido configurado para um locatário.\n\nPara clientes que optarem pela migração, moveremos todas as caixas de correio Exchange Online do seu geo padrão atual para o novo datacenter local geo e atualizaremos a região Exchange Online padrão. Não moveremos nenhuma caixa de correio EXO configurada em regiões de satélite Multi Geo para continuar a respeitar a residência de dados de região satélite conforme você pretendia. \n"
-additionalContent: "\n## <a name=\"related-topics\"></a>Tópicos relacionados\n  [Mover dados principais para novos Microsoft 365 de datacenter](moving-data-to-new-datacenter-geos.md)\n        \n  [Como solicitar a migração dos dados](request-your-data-move.md)\n        \n  [Microsoft 365 Multi Geo](https://aka.ms/multi-geo)\n        \n  [Microsoft 365 mapa interativo do datacenter](https://office.com/datamaps)\n        \n  [Microsoft 365 Suporte](../business-video/get-help-support.md)\n        \n  [Novos geos do datacenter para Microsoft Dynamics CRM Online](/power-platform/admin/new-datacenter-regions)\n          \n  [Serviços do Azure por região](https://azure.microsoft.com/regions/)"
+    answer: >
+      Sim, seu locatário está qualificado para se inscrever, mas há considerações significativas, pois a movimentação no nível do locatário não é totalmente suportada para clientes que configuraram [o Multi-Geo](https://aka.ms/multi-geo).
+
+
+      SharePoint Online e OneDrive for Business não podem migrar para o novo datacenter geo no nível do locatário por meio deste programa. O administrador do cliente pode configurar OneDrive for Business compartilhamentos para mover para qualquer região disponível usando Multi-Geo, mas o local padrão para o locatário não pode ser alterado depois que Multi-Geo tiver sido configurado para um locatário.
+
+
+      Para clientes que optarem pela migração, moveremos todas as caixas de correio Exchange Online do seu geo padrão atual para o novo datacenter local geo e atualizaremos a região Exchange Online padrão. Não moveremos nenhuma caixa de correio EXO configurada em regiões de satélite Multi Geo para continuar a respeitar a residência de dados de região satélite conforme você pretendia.
+additionalContent: "\n## <a name=\"related-topics\"></a>Tópicos relacionados\n  [Mover dados principais para novos Microsoft 365 de datacenter](moving-data-to-new-datacenter-geos.md)\n\n  [Como solicitar a migração dos dados](request-your-data-move.md)\n\n  [Microsoft 365 Multi Geo](https://aka.ms/multi-geo)\n\n  [Microsoft 365 mapa interativo do datacenter](https://office.com/datamaps)\n\n  [Microsoft 365 Suporte](../business-video/get-help-support.md)\n\n  [Novos geos do datacenter para Microsoft Dynamics CRM Online](/power-platform/admin/new-datacenter-regions)\n\n  [Serviços do Azure por região](https://azure.microsoft.com/regions/)"
