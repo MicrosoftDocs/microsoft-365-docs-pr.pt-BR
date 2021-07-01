@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Saiba como um administrador global do Microsoft 365 pode alterar o endereço de email e o nome de exibição de um usuário quando seu nome altera. '
-ms.openlocfilehash: 4f65bade32b2998f395c3b4eab7a1d2a2e5f3f33
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: fdba2191449bc3ea5aae5b5bde73fe5294b1f9d3
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683110"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228358"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Alterar o nome de exibição e o endereço de email de um usuário
 
@@ -36,35 +36,35 @@ Talvez seja necessário alterar o endereço de email e o nome de exibição de u
 
 ## <a name="watch-change-a-users-name-or-email-address"></a>Assista: alterar o nome ou o endereço de email de um usuário
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SJuc] 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SJuc]
 
 Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](../../business-video/index.yml).
 
-Você terá de ser um [administrador global ](about-admin-roles.md) para executar estas etapas. 
+Você terá de ser um [administrador global ](about-admin-roles.md) para executar estas etapas.
 
 ## <a name="change-a-users-email-address"></a>Alterar o endereço de email de um usuário.
 
 ::: moniker range="o365-worldwide"
- 
+
 1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.  
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>. 
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 
 ::: moniker-end
 
 1. Selecione o nome do usuário e, em seguida, na guia **Conta** selecione **Gerenciar nome de usuário**.
-    
-1. Na primeira caixa, digite a primeira parte do novo endereço de email. Se você adicionou seu próprio domínio ao Microsoft 365, escolha o domínio para o novo alias de email usando a lista suspensa. 
+
+1. Na primeira caixa, digite a primeira parte do novo endereço de email. Se você adicionou seu próprio domínio ao Microsoft 365, escolha o domínio para o novo alias de email usando a lista suspensa.
 
 1. Selecione **Salvar alterações**.
 
@@ -81,39 +81,39 @@ Você terá de ser um [administrador global ](about-admin-roles.md) para executa
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>. 
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.  
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 
 ::: moniker-end
-    
+
 2. Selecione o nome do usuário e, em seguida, na guia **Conta** selecione **Gerenciar alias de email**.
 
-3. Escolha **Definir como Principal** para o endereço de e-mail que quer configurar como o principal para aquela pessoa. 
-    
+3. Escolha **Definir como Principal** para o endereço de e-mail que quer configurar como o principal para aquela pessoa.
+
    > [!IMPORTANT]
-   > Você não verá essa opção para Definir como Principal se tiver comprado o Microsoft 365 da GoDaddy ou outro serviço de Parceiro que forneça um console de gerenciamento. Em vez disso, entre no console de gerenciamento GoDaddy / parceiro para definir o alias principal. 
-   >  
+   > Você não verá essa opção para Definir como Principal se tiver comprado o Microsoft 365 da GoDaddy ou outro serviço de Parceiro que forneça um console de gerenciamento. Em vez disso, entre no console de gerenciamento GoDaddy / parceiro para definir o alias principal.
+   >
    > Além disso, você só verá essa opção se for um administrador global. Se não vir a opção, você não possui as permissões necessárias para alterar o nome e endereço de email principal do usuário.
-  
+
 4. Você verá um grande alerta amarelo informando que está prestes a alterar as informações de acesso.  Selecione **Salvar**, **Feche**.
-    
+
 5. Forneça à pessoa a seguinte informação:
- 
+
    - Essa alteração pode demorar um pouco.
-  
+
    - O novo nome de usuário. Será necessário para entrar no Microsoft 365.
-    
+
    - Se eles estiverem usando o Skype for Business Online, será necessário reagendar todas as reuniões do Skype for Business Online que eles organizaram e pedir aos contatos externos que atualizem as informações de contato.
 
-   - Se eles estiverem usando o OneDrive, a URL deste local foi alterada. Se eles tiverem blocos de anotações do OneNote no OneDrive, talvez precisem fechá-los e reabri-los no OneNote. Se eles tiverem arquivos compartilhados do OneDrive, os links para os arquivos poderão não funcionar, e o usuário poderá compartilhá-los novamente.    
-  
+   - Se eles estiverem usando o OneDrive, a URL deste local foi alterada. Se eles tiverem blocos de anotações do OneNote no OneDrive, talvez precisem fechá-los e reabri-los no OneNote. Se eles tiverem arquivos compartilhados do OneDrive, os links para os arquivos poderão não funcionar, e o usuário poderá compartilhá-los novamente.
+
    - Se a senha também tiver sido alterada, o utilizador precisará digitar a nova senha no dispositivo móvel ou eles não sincronizarão.
-  
+
 ## <a name="change-a-users-display-name"></a>Alterar nome de exibição de um usuário
 
 ::: moniker range="o365-worldwide"
@@ -124,13 +124,13 @@ Você terá de ser um [administrador global ](about-admin-roles.md) para executa
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>. 
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>. 
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 
 ::: moniker-end
 
@@ -141,41 +141,40 @@ Você terá de ser um [administrador global ](about-admin-roles.md) para executa
    Se você receber a mensagem de erro "**Infelizmente o usuário não pôde ser editado, examine as informações do usuário e tente novamente**. Confira [Resolver mensagens de erro](#resolve-error-messages).
 
 Pode levar até 24 horas para que essa alteração entre em vigor em todos os serviços. Depois que isso acontecer, a pessoa deverá entrar no Outlook, no Skype for Business e no SharePoint com o novo nome de usuário.
- 
+
 ## <a name="resolve-error-messages"></a>Resolver mensagens de erro
 
 ### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>"Não é possível localizar um parâmetro que coincida com o nome de parâmetro 'EmailAddresses'"
 
 Se você receber a mensagem de erro " **Não foi encontrado um parâmetro que corresponda ao nome do parâmetro 'EmailAddresses**", significa que está demorando um pouco mais para concluir a configuração do seu locatário ou do seu domínio personalizado, caso você tenha adicionado um recentemente. O processo de configuração pode levar até 4 horas para ser concluído. Espere um pouco para que o processo de configuração tenha tempo de terminar e tente novamente. Se o problema persistir, ligue para o [suporte](../../business-video/get-help-support.md) e peça para fazer uma sincronização completa para você.
-  
+
 ### <a name="were-sorry-the-user-couldnt-be-edited-review-the-user-information-and-try-again"></a>"O usuário não pôde ser editado. Revise as informações do usuário e tente novamente"
 
 Se você receber a mensagem "**Não foi possível editar o usuário. Examine as informações de usuário e tente novamente**." Isso significa que você não é um administrador global e não tem as permissões necessárias para alterar o nome de usuário. Localize o administrador global em sua empresa e peça para ele fazer a alteração.
 
-
 ## <a name="what-to-do-with-old-email-addresses"></a>O que fazer com endereços de e-mail antigos
 
 O antigo endereço de email principal de uma pessoa é mantido como um endereço de email adicional. **É altamente recomendável que você não remova o endereço de email antigo.**
-  
+
 É provável que algumas pessoas continuem a enviar emails para o antigo endereço de email da pessoa, e excluí-lo pode resultar em uma notificação de falha na entrega. A Microsoft os direcionará automaticamente para o novo endereço. Além disso, não reutilize antigos endereços de email SMTP e aplique-os a novas contas. Isso também pode causar notificações de falha na entrega ou a entrega em uma caixa de correio indesejada.
-   
+
 ## <a name="what-if-the-persons-offline-address-book-wont-sync-with-the-global-address-list"></a>O que acontece se o catálogo de endereços offline de uma pessoa não estiver sincronizando com a Lista de Endereços Global?
 
 Se eles estiverem usando o Exchange Online ou se a conta estiver vinculada ao ambiente Exchange local da sua organização, você poderá ver este erro quando tentar alterar um nome de usuário e endereço de email: "Este usuário está sincronizado com o seu Active Directory local. Alguns detalhes somente podem ser editados por meio do seu Active Directory local".
-  
-Isso se deve ao MOERA (Endereço de Roteamento de Email do Microsoft Online). O MOERA é construído por meio do atributo  _userPrincipalName_ da pessoa no Active Directory e é atribuído automaticamente à conta na nuvem durante a sincronização inicial. Depois de criado, não pode ser modificado ou removido no Microsoft 365. Posteriormente, é possível alterar o nome de usuário no Active Directory, mas isso não modificará o MOERA, e você poderá encontrar problemas com a exibição do novo nome na Lista de Endereços Global. 
-  
-Para corrigir isso, faça logon no [Módulo Azure Active Directory para PowerShell]( https://go.microsoft.com/fwlink/?LinkId=823193) com suas credenciais de administrador do Microsoft 365. e use a seguinte sintaxe: 
-  
+
+Isso se deve ao MOERA (Endereço de Roteamento de Email do Microsoft Online). O MOERA é construído por meio do atributo  _userPrincipalName_ da pessoa no Active Directory e é atribuído automaticamente à conta na nuvem durante a sincronização inicial. Depois de criado, não pode ser modificado ou removido no Microsoft 365. Posteriormente, é possível alterar o nome de usuário no Active Directory, mas isso não modificará o MOERA, e você poderá encontrar problemas com a exibição do novo nome na Lista de Endereços Global.
+
+Para corrigir isso, faça logon no [Módulo Azure Active Directory para PowerShell](https://go.microsoft.com/fwlink/?LinkId=823193) com suas credenciais de administrador do Microsoft 365. e use a seguinte sintaxe:
+
 ```powershell
 Set-MsolUserPrincipalName -UserPrincipalName anne.wallace@contoso.onmicrosoft.com -NewUserPrincipalName anne.jones@contoso.com
 ```
 
 > [!TIP]
-> Isso modifica o atributo **userPrincipalName** da pessoa e não tem influência no Endereço de roteamento de e-mail online da Microsoft (MOERA) dela. Contudo, é uma boa prática que o UPN de logon corresponda ao endereço SMTP principal. 
-  
+> Isso modifica o atributo **userPrincipalName** da pessoa e não tem influência no Endereço de roteamento de e-mail online da Microsoft (MOERA) dela. Contudo, é uma boa prática que o UPN de logon corresponda ao endereço SMTP principal.
+
 Para saber como alterar um nome de usuário no Active Directory no Windows Server 2003 e em versões anteriores, confira [Alterar um nome de conta de usuário](/previous-versions/windows/it-pro/windows-server-2003/cc772952(v=ws.10))
-  
+
 ## <a name="related-content"></a>Conteúdo relacionado
 
 [Administradores: redefinir uma senha para um ou mais usuários](reset-passwords.md) (artigo)\
