@@ -66,7 +66,7 @@
 #### [Microsoft Defender para Ponto de Extremidade no macOS]()
 ##### [Visão geral do Microsoft Defender para Ponto de Extremidade para macOS](microsoft-defender-endpoint-mac.md)
 ##### [Novidades](mac-whatsnew.md)
- 
+
 ##### [Implantar]()
 ###### [Implantação baseada no Microsoft Intune](mac-install-with-intune.md)
 ###### [Implantação baseada no JAMF Pro]()
@@ -75,11 +75,11 @@
 ####### [Configurar grupos de dispositivos](mac-jamfpro-device-groups.md)
 ####### [Configurar políticas](mac-jamfpro-policies.md)
 ####### [Registrar dispositivos](mac-jamfpro-enroll-devices.md)
- 
+
 ###### [Implantação com outro sistema de MDM (Gerenciamento de Dispositivo Móvel)](mac-install-with-other-mdm.md)
 ###### [Implantação manual](mac-install-manually.md)
 ##### [Atualizar](mac-updates.md)
- 
+
 ##### [Configurar]()
 ###### [Configurar e validar exclusões](mac-exclusions.md)
 ###### [Definir preferências](mac-preferences.md)
@@ -89,14 +89,14 @@
 ####### [Exemplos de JAMF](mac-device-control-jamf.md)
 ####### [Exemplos do Intune](mac-device-control-intune.md)
 ###### [Agendar verificações](mac-schedule-scan.md)
- 
+
 ##### [Solucionar problemas]()
 ###### [Solucionar problemas de instalação](mac-support-install.md)
 ###### [Solucionar problemas de desempenho](mac-support-perf.md)
 ###### [Solucionar problemas de conectividade em nuvem](troubleshoot-cloud-connect-mdemac.md)
 ###### [Solucionar problemas de extensão de kernel](mac-support-kext.md)
 ###### [Solucionar problemas de licença](mac-support-license.md)
- 
+
 ##### [Privacidade](mac-privacy.md)
 ##### [Recursos](mac-resources.md)
 
@@ -104,10 +104,10 @@
 #### [Microsoft Defender para Ponto de Extremidade para iOS]()
 ##### [Visão geral do Microsoft Defender para Ponto de Extremidade para iOS](microsoft-defender-endpoint-ios.md)
 ##### [Novidades](ios-whatsnew.md)
- 
+
 ##### [Implantar]()
 ###### [Implantar o Microsoft Defender para Ponto de Extremidade para iOS via Intune](ios-install.md)
- 
+
 ##### [Configurar]()
 ###### [Configurar recursos do iOS](ios-configure-features.md)
 
@@ -115,8 +115,8 @@
 ###### [Perguntas frequentes e solução de problemas](ios-troubleshoot.md)
 
 ##### [Privacidade](ios-privacy.md)
- 
- 
+
+
 #### [Microsoft Defender para Ponto de Extremidade para Linux]()
 ##### [Visão geral do Microsoft Defender para Ponto de Extremidade para Linux](microsoft-defender-endpoint-linux.md)
 ##### [Novidades](linux-whatsnew.md)
@@ -127,7 +127,7 @@
 ###### [Implantar o Defender para Ponto de Extremidade no Linux com Chef](linux-deploy-defender-for-endpoint-with-chef.md)
 
 ##### [Atualizar](linux-updates.md)
- 
+
 ##### [Configurar]()
 ###### [Configurar e validar exclusões](linux-exclusions.md)
 ###### [Configuração de proxy estático](linux-static-proxy-configuration.md)
@@ -136,29 +136,29 @@
 ###### [Agendar verificações com o Microsoft Defender para Ponto de Extremidade para Linux](linux-schedule-scan-atp.md)
 ###### [Agendar uma atualização do Microsoft Defender para Ponto de Extremidade (Linux)](linux-update-MDE-Linux.md)
 
- 
+
 ##### [Solucionar problemas]()
 ###### [Solucionar problemas de instalação](linux-support-install.md)
 ###### [Investigar problemas de integridade do agente](health-status.md)
 ###### [Solucionar problemas de conectividade de nuvem](linux-support-connectivity.md)
 ###### [Solucionar problemas de desempenho](linux-support-perf.md)
 ###### [Solucionar problemas de eventos ausentes](linux-support-events.md)
- 
+
 ##### [Privacidade](linux-privacy.md)
 ##### [Recursos](linux-resources.md)
- 
+
 #### [Microsoft Defender para Ponto de Extremidade para Android]()
 ##### [Visão geral do Microsoft Defender para Ponto de Extremidade para Android](microsoft-defender-endpoint-android.md)
- 
+
 ##### [Implantar]()
 ###### [Implantar o Microsoft Defender para Ponto de Extremidade para Android com o Microsoft Intune](android-intune.md)
- 
+
 ##### [Configurar]()
 ###### [Configurar o Microsoft Defender para Ponto de Extremidade para recursos do Android](android-configure.md)
- 
+
 ##### [Privacidade]()
 ###### [Microsoft Defender para Ponto de Extremidade para Android – Informações de privacidade](android-privacy.md)
- 
+
 ##### [Solucionar problemas]()
 ###### [Solucionar problemas](android-support-signin.md)
 
@@ -321,13 +321,13 @@
 ##### [Habilitar a proteção de exploração](enable-exploit-protection.md)
 ##### [Personalizar a proteção de exploração](customize-exploit-protection.md)
 ##### [Importar, exportar e implantar configurações da proteção de exploração](import-export-exploit-protection-emet-xml.md)
-##### [Referência da proteção de exploração](exploit-protection-reference.md )
+##### [Referência da proteção de exploração](exploit-protection-reference.md)
 
 #### [Proteção de rede]()
 ##### [Proteger sua rede](network-protection.md)
 ##### [Avaliar a proteção de rede](evaluate-network-protection.md)
 ##### [Ativar a proteção de rede](enable-network-protection.md)
- 
+
 #### [Proteção da Web]()
 ##### [Visão geral da proteção da Web](web-protection-overview.md)
 ##### [Proteção contra ameaças da Web]()
@@ -335,7 +335,7 @@
 ###### [Monitorar a segurança da Web](web-protection-monitoring.md)
 ###### [Responder a ameaças da Web](web-protection-response.md)
 ##### [Filtragem de conteúdo da Web](web-content-filtering.md)
- 
+
 #### [Acesso controlado a pastas]()
 ##### [Proteger pastas](controlled-folders.md)
 ##### [Avaliar o acesso controlado a pastas](evaluate-controlled-folder-access.md)
@@ -371,7 +371,7 @@
 ##### [Exibir e organizar a Fila de incidentes](view-incidents-queue.md)
 ##### [Gerenciar incidentes](manage-incidents.md)
 ##### [Investigar incidentes](investigate-incidents.md)
- 
+
 #### [Fila de alertas]()
 ##### [Exibir e organizar a Fila de alertas](alerts-queue.md)
 ##### [Analisar alertas](review-alerts.md)
@@ -383,12 +383,12 @@
 ##### [Investigar um domínio](investigate-domain.md)
 ###### [Investigar eventos de conexão que ocorrem por meio de proxies de encaminhamento](investigate-behind-proxy.md)
 ##### [Investigar uma conta de usuário](investigate-user.md)
- 
+
 #### [Lista de dispositivos]()
 ##### [Exibir e organizar a lista de dispositivos](machines-view-overview.md)
 ##### [Sinalizadores de evento da linha do tempo do dispositivo](device-timeline-event-flag.md)
 ##### [Gerenciar grupo de dispositivos e marcas](machine-tags.md)
- 
+
 #### [Executar ações de resposta]()
 ##### [Executar ações de resposta em um dispositivo]()
 ###### [Ações de resposta em dispositivos](respond-machine-alerts.md)
@@ -547,7 +547,7 @@
 ####### [Restringir execução de aplicativo](restrict-code-execution.md)
 ####### [Remover restrição de aplicativo](unrestrict-code-execution.md)
 ####### [Executar verificação de antivírus](run-av-scan.md)
-####### [Executar uma resposta ao vivo](run-live-response.md) 
+####### [Executar uma resposta ao vivo](run-live-response.md)
 ####### [Remover computador](offboard-machine-api.md)
 ####### [Interromper e colocar o arquivo em quarentena](stop-and-quarantine-file.md)
 ####### [Cancelar a ação do computador](cancel-machine-action.md)
@@ -661,7 +661,7 @@
 ##### [Dispositivos inativos](fix-unhealthy-sensors.md#inactive-devices)
 ##### [Dispositivos mal configurados](fix-unhealthy-sensors.md#misconfigured-devices)
 ##### [Analisar eventos e erros de sensor em computadores com o Visualizador de Eventos](event-error-codes.md)
-  
+
 #### [Solucionar problemas de serviço do Microsoft Defender para Ponto de Extremidade]()
 ##### [Solucionar problemas de serviço](troubleshoot-mdatp.md)
 ##### [Verificar integridade do serviço](service-status.md)
@@ -670,7 +670,7 @@
 #### [Solucionar problemas de resposta dinâmica](troubleshoot-live-response.md)
 
 #### [Coletar registros de suporte usando LiveAnalyzer](troubleshoot-collect-support-log.md)
- 
+
 #### [Solucionar problemas de redução da superfície de ataque]()
 ##### [Proteção de rede](troubleshoot-np.md)
 ##### [Regras da redução da superfície de ataque](troubleshoot-asr.md)
@@ -678,4 +678,4 @@
 
 # [Microsoft 365 Defender](../defender/index.yml)
 # [Defender para Office 365](../office-365-security/index.yml)
-# [Microsoft Defender para Identidade](https://docs.microsoft.com/defender-for-identity/)
+# [Microsoft Defender para Identidade](/defender-for-identity/)
