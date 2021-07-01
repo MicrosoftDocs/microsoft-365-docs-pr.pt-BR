@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Prepare-se e implante a Extensão de Conformidade da Microsoft.
-ms.openlocfilehash: 5a2fa5958117d14715292245924dce2ff63b09a0
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: c20381b23a70fdf8e6571af65b74688cc57ea760
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843825"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226954"
 ---
 # <a name="get-started-with-microsoft-compliance-extension"></a>Comece a usar a Extensão de Conformidade da Microsoft
 
@@ -84,11 +84,11 @@ A implantação da Extensão de Conformidade da Microsoft é um processo de vár
 4. [Implantar usando a Política de Grupo](#deploy-using-group-policy)
 5. [Teste a Extensão](#test-the-extension)
 6. [Use o painel de gerenciamento de alertas para visualizar os alertas da DLP do Chrome](#use-the-alerts-management-dashboard-to-viewing-chrome-dlp-alerts)
-7. [Visualização de dados da DLP do Chrome](#viewing-chrome-dlp-data-in-activity-explorer) no explorador de atividades 
+7. [Visualização de dados da DLP do Chrome](#viewing-chrome-dlp-data-in-activity-explorer) no explorador de atividades
 
 ### <a name="prepare-infrastructure"></a>Preparar a infraestrutura
 
-Se você estiver implementando a extensão de conformidade da Microsoft para todos os dispositivos Windows 10 monitorados, deverá remover o Google Chrome das listas de aplicativos e navegadores não permitidos. Para obter mais informações, confira [Navegadores não permitidos](endpoint-dlp-using.md#unallowed-browsers). Se você estiver implementando apenas para alguns dispositivos, poderá deixar o Chrome no navegador não permitido ou nas listas de aplicativos não permitidos. A extensão de conformidade da Microsoft contornará as restrições de ambas as listas dos computadores onde está instalada.  
+Se você estiver implementando a extensão de conformidade da Microsoft para todos os dispositivos Windows 10 monitorados, deverá remover o Google Chrome das listas de aplicativos e navegadores não permitidos. Para obter mais informações, confira [Navegadores não permitidos](endpoint-dlp-using.md#unallowed-browsers). Se você estiver implementando apenas para alguns dispositivos, poderá deixar o Chrome no navegador não permitido ou nas listas de aplicativos não permitidos. A extensão de conformidade da Microsoft contornará as restrições de ambas as listas dos computadores onde está instalada.
 
 ### <a name="prepare-your-devices"></a>Preparar os dispositivos.
 
@@ -99,13 +99,13 @@ Se você estiver implementando a extensão de conformidade da Microsoft para tod
 
 ### <a name="basic-setup-single-machine-selfhost"></a>Configuração Básica de Selfhost de Máquina Única
 
-Este e o método recomendado. 
+Este e o método recomendado.
 
-1. Entre no computador Windows 10 no qual deseja instalar a extensão de conformidade da Microsoft e execute este script do PowerShell como administrador. 
+1. Entre no computador Windows 10 no qual deseja instalar a extensão de conformidade da Microsoft e execute este script do PowerShell como administrador.
 
    ```powershell
    Get-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
-   ``` 
+   ```
 
 2.  Navegue até a [Extensão de Conformidade da Microsoft - Chrome Web Store (google.com)](https://chrome.google.com/webstore/detail/microsoft-compliance-exte/echcggldkblhodogklpincgchnpgcdco).
 
@@ -158,7 +158,7 @@ Antes de adicionar a extensão de Conformidade da Microsoft à lista de Extensõ
 7.  Selecione **Adicionar**.
 
 8.  Insira as seguintes informações de política.
-    
+
     OMA-URI: `./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extensions/ExtensionInstallForcelist`<br/>
     Tipo de dados: `String`<br/>
     Valor: `<enabled/><data id="ExtensionInstallForcelistDesc" value="1&#xF000; echcggldkblhodogklpincgchnpgcdco;https://clients2.google.com/service/update2/crx"/>`
@@ -221,34 +221,32 @@ Se não quiser usar o Microsoft Endpoint Manager, você pode usar políticas de 
 
 ### <a name="test-the-extension"></a>Teste a Extensão
 
-#### <a name="upload-to-cloud-service-or-access-by-unallowed-browsers-cloud-egress"></a>Faça upload para o serviço de nuvem ou acesse por navegadores não permitidos Saída da Nuvem  
+#### <a name="upload-to-cloud-service-or-access-by-unallowed-browsers-cloud-egress"></a>Faça upload para o serviço de nuvem ou acesse por navegadores não permitidos Saída da Nuvem
 
 1. Crie ou obtenha um item confidencial e tente fazer upload de um arquivo para um dos domínios de serviço restritos da sua organização. Os dados confidenciais devem corresponder a um de nossos [Tipos de Informações Confidenciais](sensitive-information-type-entity-definitions.md) integrados ou a um dos tipos de informações confidenciais da sua organização. Você deve receber uma notificação do sistema DLP no dispositivo que está testando, mostrando que essa ação não é permitida quando o arquivo é aberto.
 
-#### <a name="testing-other-dlp-scenarios-in-chrome"></a>Testar outros cenários DLP no Chrome 
+#### <a name="testing-other-dlp-scenarios-in-chrome"></a>Testar outros cenários DLP no Chrome
 
 Agora que você removeu o Chrome da lista de navegadores/aplicativos não permitidos, pode testar os cenários abaixo para confirmar se o comportamento atende aos requisitos de sua organização:
 
 - Copie dados de um item confidencial para outro documento usando a Área de transferência
-    - Para testar, abra um arquivo que está protegido contra ações de copiar para a área de transferência no navegador Chrome e tente copiar os dados do arquivo.
-    - Resultado esperado: uma notificação do sistema DLP mostrando que esta ação não é permitida quando o arquivo está aberto.
+  - Para testar, abra um arquivo que está protegido contra ações de copiar para a área de transferência no navegador Chrome e tente copiar os dados do arquivo.
+  - Resultado esperado: uma notificação do sistema DLP mostrando que esta ação não é permitida quando o arquivo está aberto.
 - Imprimir documentos
-    - Para testar, abra um arquivo que esteja protegido contra ações de impressão no navegador Chrome e tente imprimir o arquivo.
-    - Resultado esperado: uma notificação do sistema DLP mostrando que esta ação não é permitida quando o arquivo está aberto.
+  - Para testar, abra um arquivo que esteja protegido contra ações de impressão no navegador Chrome e tente imprimir o arquivo.
+  - Resultado esperado: uma notificação do sistema DLP mostrando que esta ação não é permitida quando o arquivo está aberto.
 - Copiar para Mídia Removível USB
-    - Para testar, tente salvar o arquivo em um armazenamento de mídia removível.
-    - Resultado esperado: uma notificação do sistema DLP mostrando que esta ação não é permitida quando o arquivo está aberto.
+  - Para testar, tente salvar o arquivo em um armazenamento de mídia removível.
+  - Resultado esperado: uma notificação do sistema DLP mostrando que esta ação não é permitida quando o arquivo está aberto.
 - Copiar para Compartilhamento de Rede
-    - Para testar, tente salvar o arquivo em um compartilhamento de rede.
-    - Resultado esperado: uma notificação do sistema DLP mostrando que esta ação não é permitida quando o arquivo está aberto.
-
+  - Para testar, tente salvar o arquivo em um compartilhamento de rede.
+  - Resultado esperado: uma notificação do sistema DLP mostrando que esta ação não é permitida quando o arquivo está aberto.
 
 ### <a name="use-the-alerts-management-dashboard-to-viewing-chrome-dlp-alerts"></a>Usar o painel de gerenciamento de alertas para visualizar os alertas do Chrome DLP
 
 1. Abra a página **Prevenção contra perda de dados** no [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com) e selecione **Alertas**.
 
 2. Confira os procedimentos em [Como configurar e exibir alertas para suas políticas de DLP](dlp-configure-view-alerts-policies.md) para exibir alertas das políticas de DLP do Ponto de extremidade.
-
 
 ### <a name="viewing-chrome-dlp-data-in-activity-explorer"></a>Visualização de dados do Chrome DLP no explorador de atividades
 
@@ -265,6 +263,7 @@ Agora que você removeu o Chrome da lista de navegadores/aplicativos não permit
 2. O modo anônimo não é compatível e deve ser desabilitado.
 
 ## <a name="next-steps"></a>Próximas etapas
+
 Agora que você tem dispositivos integrados e pode exibir os dados de atividade no Explorador de atividades, você está pronto para prosseguir para a próxima etapa na qual você cria políticas DLP que protegem seus itens confidenciais.
 
 - [Usando a Prevenção contra perda de dados de ponto de extremidade](endpoint-dlp-using.md)
@@ -272,7 +271,7 @@ Agora que você tem dispositivos integrados e pode exibir os dados de atividade 
 ## <a name="see-also"></a>Confira também
 
 - [Saiba mais sobre a Prevenção contra perda de dados do ponto de extremidade](endpoint-dlp-learn-about.md)
-- [Usando a prevenção contra perda de dados do ponto de extremidade](endpoint-dlp-using.md)
+- [Usando a Prevenção contra perda de dados de ponto de extremidade](endpoint-dlp-using.md)
 - [Saiba mais sobre prevenção contra perda de dados](dlp-learn-about-dlp.md)
 - [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
 - [Começar a usar o Explorador de atividades](data-classification-activity-explorer.md)

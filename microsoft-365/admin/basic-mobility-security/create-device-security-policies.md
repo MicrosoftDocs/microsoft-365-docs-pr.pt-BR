@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Use o Basic Mobility and Security para criar políticas de dispositivo que protejam as informações da sua organização.
-ms.openlocfilehash: 5519351db428faa837a63eedb384b42c8d8ee07c
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 62dc2eef87d413a9cb62a01541126860620eec3f
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706317"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228250"
 ---
 # <a name="create-device-security-policies-in-basic-mobility-and-security"></a>Criar políticas de segurança de dispositivos em Mobilidade Básica e Segurança
 
@@ -39,14 +39,14 @@ Você pode usar o Basic Mobility and Security para criar políticas de dispositi
 - Para criar e implantar políticas básicas de mobilidade e segurança no Microsoft 365, você precisa ser um administrador Microsoft 365 global. Para obter mais informações, consulte Permissões no Centro de [Conformidade & Segurança.](../../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
 - Antes de implantar políticas, deixe sua organização saber os possíveis impactos de registrar um dispositivo em Mobilidade Básica e Segurança. Dependendo de como você configura as políticas, dispositivos não compatíveis podem ser impedidos de acessar Microsoft 365 e dados, incluindo aplicativos instalados, fotos e informações pessoais em um dispositivo inscrito e os dados podem ser excluídos.
 
->[!NOTE]
->Políticas e regras de acesso criadas no Basic Mobility and Security for Microsoft 365 Business Standard substituem Exchange ActiveSync de caixa de correio de dispositivo móvel e regras de acesso a dispositivos criadas no centro de administração Exchange. Depois que um dispositivo é inscrito no Basic Mobility and Security for Microsoft 365 Business Standard Exchange ActiveSync, qualquer política de caixa de correio de dispositivo móvel ou regra de acesso de dispositivo móvel aplicada ao dispositivo é ignorada. Para saber mais sobre Exchange ActiveSync, [consulte Exchange ActiveSync em Exchange Online](/exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync).
+> [!NOTE]
+> Políticas e regras de acesso criadas no Basic Mobility and Security for Microsoft 365 Business Standard substituem Exchange ActiveSync de caixa de correio de dispositivo móvel e regras de acesso a dispositivos criadas no centro de administração Exchange. Depois que um dispositivo é inscrito no Basic Mobility and Security for Microsoft 365 Business Standard Exchange ActiveSync, qualquer política de caixa de correio de dispositivo móvel ou regra de acesso de dispositivo móvel aplicada ao dispositivo é ignorada. Para saber mais sobre Exchange ActiveSync, [consulte Exchange ActiveSync em Exchange Online](/exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync).
 
 ## <a name="step-1-create-a-device-policy-and-deploy-to-a-test-group"></a>Etapa 1: criar uma política de dispositivo e implantar em um grupo de teste
 
 Antes de começar, certifique-se de ter ativado e configurar o Basic Mobility and Security. Para obter instruções, consulte [Overview of Basic Mobility and Security](overview.md).
 
-1. No navegador, digite [https://protection.office.com/devicev2](https://protection.office.com/devicev2) .
+1. No navegador, digite <https://protection.office.com/devicev2> .
 
 2. Selecione **Criar uma política**.
 

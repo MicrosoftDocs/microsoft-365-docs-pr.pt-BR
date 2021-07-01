@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Saiba como planejar os Tópicos do Microsoft Viva
-ms.openlocfilehash: de7534ce58a7888ac822826ef4ef1b4934ed8cb1
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: a407fd6e6919c3b85235e317e5ed3ff103607700
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583107"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229534"
 ---
 # <a name="plan-for-microsoft-viva-topics"></a>Planejar tópicos do Microsoft Viva
 
@@ -36,13 +36,15 @@ Para saber mais sobre a tecnologia de IA por trás dos Tópicos do Viva, leia a 
 
 ## <a name="requirements"></a>Requisitos
 
-Você deve estar inscrito em [Tópicos](https://www.microsoft.com/microsoft-viva/topics) do Viva e ser um administrador global ou SharePoint para acessar o centro de administração Microsoft 365 e configurar Tópicos.
+Você deve estar inscrito em [Tópicos do Viva](https://www.microsoft.com/microsoft-viva/topics) e ser um administrador global ou SharePoint para acessar o Centro de administração do Microsoft 365 e configurar Tópicos.
 
 Todos os usuários que vão usar Tópicos exigem uma **licença experiências de** tópico. A atribuição de licenças é abordada [em Configurar Tópicos do Microsoft Viva.](set-up-topic-experiences.md)
 
 ## <a name="topic-discovery"></a>Descoberta de tópicos
 
-As configurações de descoberta de tópicos especificam quais sites do Microsoft Office SharePoint Online são usados como fontes de tópicos. Você pode optar por incluir todos os sites do Microsoft Office SharePoint Online, uma lista específica de sites ou nenhum site. Recomendamos que você escolha todos os sites para que as experiências de tópico possam descobrir um grande número de tópicos bons para seus usuários.
+As configurações de descoberta de tópicos especificam quais sites do Microsoft Office SharePoint Online são usados como fontes de tópicos. Isso inclui sites clássicos e modernos, bem como sites associados a Microsoft Teams e Microsoft 365 Grupos. OneDrive sites não estão incluídos.
+
+Você pode optar por incluir todos os sites do Microsoft Office SharePoint Online, uma lista específica de sites ou nenhum site. Recomendamos que você escolha todos os sites para que as experiências de tópico possam descobrir um grande número de tópicos bons para seus usuários.
 
 Ao configurar tópicos, você pode escolher entre as seguintes opções:
 
@@ -128,7 +130,7 @@ Name (required),Expansion,MatchType- Exact/Partial (required)
 
 ## <a name="administration"></a>Administração
 
-Quando você configura Tópicos, como parte do processo de instalação, um centro de tópicos é criado automaticamente. Pense no nome do centro de tópicos e no que deseja que a URL seja. Você pode definir o nome e a URL como parte do processo de instalação e alterar o nome (mas não a URL) posteriormente no centro de administração Microsoft 365. Você só pode ter um centro de tópicos.
+Quando você configura Tópicos, como parte do processo de instalação, um centro de tópicos é criado automaticamente. Pense no nome do centro de tópicos e no que deseja que a URL seja. Você pode definir o nome e a URL como parte do processo de instalação e pode alterar o nome (mas não URL) posteriormente no Centro de administração do Microsoft 365. Você só pode ter um centro de tópicos.
 
 ## <a name="setup-checklist"></a>Lista de verificação de instalação
 

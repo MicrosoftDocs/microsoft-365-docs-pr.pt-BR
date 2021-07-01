@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cb23987600a5f87a99449510f7651c4fdcd45f66
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 8b32ab5162e0022d9500f7ddba2fe5bbca1017e7
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028398"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229570"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control Removível Armazenamento Access Control
 
@@ -214,7 +214,7 @@ Para ajudar a familiarizá-lo com o Microsoft Defender for Endpoint Removable Ar
 
 O recurso Controle de Acesso Armazenamento removível permite aplicar a política por meio da Política de Grupo a usuários ou dispositivos ou ambos.
 
-### <a name="licensing"></a>Licenciamento
+### <a name="licensing"></a>Licenças
 
 Antes de começar a Armazenamento Controle de Acesso [Removível,](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2)você deve confirmar sua assinatura Microsoft 365 . Para acessar e usar o Controle de Acesso Armazenamento removível, você deve ter Microsoft 365 E3 ou Microsoft 365 E5.
 
@@ -244,7 +244,7 @@ Antes de começar a Armazenamento Controle de Acesso [Removível,](https://www
 
 O recurso Controle de Acesso Armazenamento removível permite aplicar a política por meio do OMA-URI a usuários ou dispositivos ou ambos.
 
-### <a name="licensing"></a>Licenciamento
+### <a name="licensing"></a>Licenças
 
 Antes de começar a Armazenamento Controle de Acesso [Removível,](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2)você deve confirmar sua assinatura Microsoft 365 . Para acessar e usar o Controle de Acesso Armazenamento removível, você deve ter Microsoft 365 E3 ou Microsoft 365 E5.
 
@@ -328,7 +328,7 @@ Validamos um grupo USB com 100.000 mídias - até 7 MB de tamanho. A política f
 
 **Por que a política não funciona?**
 
-O motivo mais comum é que não há nenhuma versão de cliente [antimalware necessária.](/microsoft-365/security/defender-endpoint/device-control-removable-storage-access-control?view=o365-worldwide#prepare-your-endpoints)
+O motivo mais comum é que não há nenhuma versão de cliente [antimalware necessária.](/microsoft-365/security/defender-endpoint/device-control-removable-storage-access-control#prepare-your-endpoints)
 
 Outro motivo pode ser que o arquivo XML não está formatado corretamente, por exemplo, não usando a formatação de marcação correta para o caractere "&" no arquivo XML, ou o editor de texto pode adicionar uma marca de ordem de byte (BOM) 0xEF 0xBB 0xBF no início dos arquivos que faz com que a análise XML não funcione. Uma solução simples é baixar o arquivo [de exemplo](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) (selecione **Raw** e, em **seguida, Salvar como**) e atualizar.
 

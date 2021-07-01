@@ -1,18 +1,18 @@
 ---
 title: Alertas de segurança do Microsoft Defender para Identidade no Microsoft 365 Defender
-description: Saiba como gerenciar e revisar alertas de segurança emitidos pelo Microsoft Defender for Identity no Microsoft 365 Defender
+description: Saiba como gerenciar e revisar alertas de segurança emitidos pelo Microsoft Defender para Identidade Microsoft 365 Defender
 ms.date: 05/20/2021
 ms.topic: how-to
 author: dcurwin
 ms.author: dacurwin
 ms.service: microsoft-defender-for-identity
 manager: raynew
-ms.openlocfilehash: 0c48c9076d05cd352229477acc28b32185eef54f
-ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
+ms.openlocfilehash: c81f14b92b285359bda7e291bd8d3a8b636ae54d
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52657758"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228958"
 ---
 # <a name="defender-for-identity-security-alerts-in-microsoft-365-defender"></a>Alertas de segurança do Defender para Identidade no Microsoft 365 Defender
 
@@ -23,20 +23,20 @@ ms.locfileid: "52657758"
 
 Este artigo explica as noções básicas de como trabalhar com alertas de segurança do [Microsoft Defender for Identity](/defender-for-identity) no centro de segurança Microsoft 365 de [segurança.](/microsoft-365/security/defender/overview-security-center)
 
-Os alertas do Defender para Identidade são integrados na Microsoft 365 de segurança [com](https://security.microsoft.com) um formato de página de alerta de identidade dedicado. Isso marca a primeira etapa da jornada para introduzir a experiência completa do [Microsoft Defender for Identity no Microsoft 365 Defender](/defender-for-identity/defender-for-identity-in-microsoft-365-defender).
+Os alertas do Defender para Identidade são integrados na Microsoft 365 de segurança [com](https://security.microsoft.com) um formato de página de alerta de identidade dedicado. Isso marca a primeira etapa da jornada para introduzir a experiência completa do [Microsoft Defender for Identity em](/defender-for-identity/defender-for-identity-in-microsoft-365-defender)Microsoft 365 Defender .
 
 A nova página de alerta de identidade oferece aos clientes do Microsoft Defender for Identity melhor enriquecimento de sinal entre domínios e novos recursos automatizados de resposta de identidade. Ele garante que você permaneça seguro e ajude a melhorar a eficiência de suas operações de segurança.
 
-Um dos benefícios da investigação de alertas por meio do [Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-365-defender) é que os alertas do Microsoft Defender for Identity são correlacionados ainda mais com as informações obtidas de cada um dos outros produtos do pacote. Esses alertas aprimorados são consistentes com os outros formatos de alerta do Microsoft 365 Defender provenientes do [Microsoft Defender para Office 365](/microsoft-365/security/office-365-security) e do Microsoft Defender para Ponto de [Extremidade.](/microsoft-365/security/defender-endpoint) A nova página elimina efetivamente a necessidade de navegar até outro portal de produto para investigar alertas associados à identidade.
+Um dos benefícios da investigação de alertas por meio do [Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-365-defender) é que os alertas do Microsoft Defender for Identity são correlacionados com informações obtidas de cada um dos outros produtos do pacote. Esses alertas aprimorados são consistentes com os outros formatos de alerta Microsoft 365 Defender do [Microsoft Defender](/microsoft-365/security/office-365-security) para Office 365 e do Microsoft Defender para Ponto de [Extremidade.](/microsoft-365/security/defender-endpoint) A nova página elimina efetivamente a necessidade de navegar até outro portal de produto para investigar alertas associados à identidade.
 
-Os alertas provenientes do Defender para Identidade agora podem disparar os recursos de investigação e resposta [automatizadas do Microsoft 365 Defender (AIR),](/microsoft-365/security/defender/m365d-autoir) incluindo a correção automática de alertas e a mitigação de ferramentas e processos que podem contribuir para a atividade suspeita.
+Os alertas provenientes do Defender para Microsoft 365 Defender Identidade agora podem disparar os recursos de investigação e resposta [(AIR)](/microsoft-365/security/defender/m365d-autoir) automatizados, incluindo a correção automática de alertas e a mitigação de ferramentas e processos que podem contribuir para a atividade suspeita.
 
->[!IMPORTANT]
->Como parte da convergência com o Microsoft 365 Defender, algumas opções e detalhes foram alterados de sua localização no portal defender para identidade. Leia os detalhes abaixo para descobrir onde encontrar os recursos familiares e novos.
+> [!IMPORTANT]
+> Como parte da convergência com Microsoft 365 Defender, algumas opções e detalhes foram alterados de sua localização no portal Defender para Identidade. Leia os detalhes abaixo para descobrir onde encontrar os recursos familiares e novos.
 
 ## <a name="review-security-alerts"></a>Revisar alertas de segurança
 
-Os alertas podem ser acessados de vários locais, incluindo a página **Alertas,** a página Incidentes, as páginas de **Dispositivos individuais** **e** a partir da página De **busca** avançada. Neste exemplo, revisaremos a página **Alertas.**  
+Os alertas podem ser acessados de vários locais, incluindo a página **Alertas,** a página Incidentes, as páginas de **Dispositivos individuais** **e** a partir da página De **busca** avançada. Neste exemplo, revisaremos a página **Alertas.**
 
 No centro [Microsoft 365 segurança,](https://security.microsoft.com/)vá para **Incidentes & alertas** e, em seguida, **para Alertas**.
 
@@ -85,9 +85,9 @@ No painel direito, você verá os detalhes **do alerta.** Aqui você pode ver ma
 
     ![Gerenciar alerta](../../media/defender-identity/manage-alert.png)
 
-    >[!NOTE]
-    >No arquivo Excel, agora você tem dois links disponíveis: Exibir no **Microsoft Defender para** Identidade e Exibir no Microsoft 365 **Defender**. Cada link o levará ao portal relevante e fornecerá informações sobre o alerta.
+    > [!NOTE]
+    > No arquivo Excel, agora você tem dois links disponíveis: Exibir no **Microsoft Defender para** Identidade e Exibir em **Microsoft 365 Defender**. Cada link o levará ao portal relevante e fornecerá informações sobre o alerta.
 
 ## <a name="see-also"></a>Confira também
 
-- [Investigar alertas no Microsoft 365 Defender](../defender/investigate-alerts.md)
+- [Investigar alertas em Microsoft 365 Defender](../defender/investigate-alerts.md)

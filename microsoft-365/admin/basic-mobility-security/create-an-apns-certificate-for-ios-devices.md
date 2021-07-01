@@ -14,12 +14,12 @@ ms.collection:
 - Adm_TOC
 ms.custom: AdminSurgePortfolio
 description: Gerenciar dispositivos iOS em Basic Mobility and Security.
-ms.openlocfilehash: 85baef2defa79255d560f848e57120353fd4fa2e
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+ms.openlocfilehash: 84f3589593ef26325397f5b6e90d5b21662d2352
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877075"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228238"
 ---
 # <a name="create-an-apns-certificate-for-ios-devices"></a>Criar um certificado de APNs para dispositivos iOS
 
@@ -27,7 +27,7 @@ Para gerenciar dispositivos iOS, como iPads e iPhones em Basic Mobility and Secu
 
 1. Entre no Microsoft 365 com sua conta de administrador global.
 
-2. No navegador, digite  [https://protection.office.com](https://protection.office.com/) .
+2. No navegador, digite  <https://protection.office.com/> .
 
 3. Selecione  **Prevenção contra perda de** dados Gerenciamento   >  **de** dispositivos e escolha Certificado **APNs para dispositivos iOS**.
 
@@ -35,23 +35,23 @@ Para gerenciar dispositivos iOS, como iPads e iPhones em Basic Mobility and Secu
 
 5. Selecione Baixar seu arquivo CSR e salve a solicitação de assinatura de certificado em algum lugar em seu computador que você lembrará. Selecione  **Próximo**.
 
-6. Na página Criar um certificado APNs:  
+6. Na página Criar um certificado APNs:
 
     1. Selecione Apple APNS Portal para abrir o Portal de Certificados push da Apple.
 
     2. Sign in with an Apple ID.
 
-    >[!IMPORTANT]
-    >Use a company Apple ID associated with an email account that will remain with your organization even if the user who manages the account leaves. Save this ID because you'll need to use the same ID when it's time to renew the certificate.
+       > [!IMPORTANT]
+       > Use a company Apple ID associated with an email account that will remain with your organization even if the user who manages the account leaves. Save this ID because you'll need to use the same ID when it's time to renew the certificate.
 
     3. Selecione  **Criar um Certificado** e aceite os Termos de   Uso.
 
     4. Navegue até a solicitação de assinatura de certificado que você baixou para seu computador Microsoft 365 e selecione **Upload**.
 
-        Baixe o certificado APNs criado pelo Apple Push Certificate Portal para seu computador.
+       Baixe o certificado APNs criado pelo Apple Push Certificate Portal para seu computador.
 
-       >[!TIP]
-       >If you're having trouble downloading the certificate, refresh your browser.
+       > [!TIP]
+       > If you're having trouble downloading the certificate, refresh your browser.
 
 7. Volte para Microsoft 365 e selecione **Próximo** para chegar à página   Upload certificado   **APNS.**  
 

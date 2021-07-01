@@ -18,12 +18,12 @@ search.appverid:
 - PJU120
 - PJW120
 description: O suporte termina Project Server 2010 em 13 de abril de 2021. Use este artigo como um guia para atualizar para Project Online ou uma versão mais recente do Project Server local.
-ms.openlocfilehash: f57fa15da3cabc4b326a52359a29c652fcbe9e7f
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 0ca37d00ee670a8a3f7c83d75864b5af19587951
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842225"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229750"
 ---
 # <a name="project-server-2010-end-of-support-roadmap"></a>Roteiro de encerramento de suporte do Project Server 2010
 
@@ -157,11 +157,11 @@ Principais recursos:
 
 - [Novidades na atualização do Project Server 2013](/project/what-s-new-in-project-server-2013-upgrade) abordam alterações importantes para esta versão, incluindo:
 
-   - Não há atualização in-locar para o Project Server 2013. O método de anexação de banco de dados é a única maneira suportada de atualizar do Project Server 2010 para o Project Server 2013.
+  - Não há atualização in-locar para o Project Server 2013. O método de anexação de banco de dados é a única maneira suportada de atualizar do Project Server 2010 para o Project Server 2013.
 
-   - O processo de atualização não apenas converterá seus dados do Project Server 2010 no formato Project Server 2013, mas também consolidará os quatro bancos de dados do Project Server 2010 em um único banco de dados Project Web App.
+  - O processo de atualização não apenas converterá seus dados do Project Server 2010 no formato Project Server 2013, mas também consolidará os quatro bancos de dados do Project Server 2010 em um único banco de dados Project Web App.
 
-   - O SharePoint Server 2013 e o Project Server 2013 foram alterados para autenticação baseada em declarações da versão anterior. Se você estiver usando a autenticação clássica, você precisará considerar isso ao atualizar. Para saber mais, confira [Migrar da autenticação de modo clássico para a autenticação baseada em declarações SharePoint 2013]( /sharepoint/upgrade-and-update/migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013).
+  - O SharePoint Server 2013 e o Project Server 2013 foram alterados para autenticação baseada em declarações da versão anterior. Se você estiver usando a autenticação clássica, você precisará considerar isso ao atualizar. Para saber mais, confira [Migrar da autenticação de modo clássico para a autenticação baseada em declarações SharePoint 2013](/sharepoint/upgrade-and-update/migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013).
 
 Principais recursos:
 
@@ -213,9 +213,9 @@ Principais recursos:
 
 - [Coisas que você precisa saber sobre a atualização Project Server 2019](/project/plan-for-upgrade-to-project-server-2016)<br/><br/>Saiba mais sobre alterações importantes para atualizar para esta versão, que incluem:
 
-   - O processo de atualização migrará seus dados do banco de dados Project Server 2016 para o banco de dados SharePoint Server 2019 Conteúdo.  Project O Servidor 2019 não criará mais seu próprio banco de dados Project Server no farm SharePoint Server.
+  - O processo de atualização migrará seus dados do banco de dados Project Server 2016 para o banco de dados SharePoint Server 2019 Conteúdo.  Project O Servidor 2019 não criará mais seu próprio banco de dados Project Server no farm SharePoint Server.
 
-   - Após a atualização, esteja ciente de várias alterações no Project Web App.  Para obter detalhes, [consulte Novidades no Project Server 2019](/project/what-s-new-for-it-pros-in-project-server-2019#PWAChanges).
+  - Após a atualização, esteja ciente de várias alterações no Project Web App.  Para obter detalhes, [consulte Novidades no Project Server 2019](/project/what-s-new-for-it-pros-in-project-server-2019#PWAChanges).
 
 **Outros recursos**:
 

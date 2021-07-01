@@ -15,12 +15,12 @@ ms.collection:
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing avançadas disponíveis em organizações com o Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1a948604f11064f2c1fefcc441adc4a9792ac918
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 71baf947c5834e2eb4b8ef62af69da77ea5bd090
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108434"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53230038"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas anti-phishing no Microsoft Defender para Office 365
 
@@ -125,8 +125,7 @@ Criar uma política anti-phishing personalizada no portal Microsoft 365 Defender
 
      > [!NOTE]
      >
-     > - Em cada política anti-phishing, você pode especificar um máximo de 60 usuários protegidos (endereços de email do remetente). Não é possível especificar o mesmo usuário protegido em várias políticas.
-     >
+     > - Em cada política anti-phishing, você pode especificar um máximo de 350 usuários protegidos (endereços de email do remetente). Não é possível especificar o mesmo usuário protegido em várias políticas.
      > - A proteção de representação do usuário não funcionará se o remetente e o destinatário se comunicarem anteriormente por email. Se o remetente e o destinatário nunca se comunicarem por email, a mensagem será identificada como uma tentativa de representação.
 
      - **Permitir que os usuários protejam**: O valor padrão está desligado (não selecionado). Para acioná-lo, marque a caixa de seleção e clique no link **Gerenciar remetentes (nn)** exibido.
@@ -246,7 +245,7 @@ Criar uma política anti-phishing personalizada no portal Microsoft 365 Defender
 
 7. Na página **Revisão** exibida, revise suas configurações. Você pode selecionar **Editar** em cada seção para modificar as configurações da seção. Ou você pode clicar em **Voltar** ou selecionar a página específica no assistente.
 
-   Quando terminar, clique em **Enviar**.
+   Quando concluir, clique em **Enviar**.
 
 8. Na mensagem de confirmação exibida, clique em **Concluído**.
 

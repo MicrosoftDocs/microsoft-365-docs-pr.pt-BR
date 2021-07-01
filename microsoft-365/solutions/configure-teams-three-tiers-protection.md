@@ -22,12 +22,12 @@ ms.custom:
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 recommendations: false
 description: Saiba como configurar o Teams para melhorar a segurança de compartilhamento de arquivos usando três camadas de proteção, equilibrando a segurança com a facilidade de colaboração.
-ms.openlocfilehash: 34351b202575302e2929db48d7807b91e4308905
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 0c1eb9585326f2269dca02f52e9170788f659c46
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683398"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228814"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>Configurar equipes com três camadas de proteção
 
@@ -122,7 +122,7 @@ Observe que os convidados geralmente não têm dispositivos gerenciados pela sua
 
 A configuração de dispositivos não gerenciados nos rótulos de sensibilidade afeta somente o acesso do Microsoft Office SharePoint Online. Se quiser expandir o controle de dispositivos não gerenciados além do Microsoft Office SharePoint Online[, você poderá criar uma política de acesso condicional do Azure Active Directory para todos os aplicativos e serviços da sua organização](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device) em vez disso. Para configurar essa política especificamente para [serviços do Microsoft 365](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#office-365), selecione o aplicativo de nuvem do **Office 365** em **Aplicativos ou ações do**.
 
-![Captura de tela do aplicativo de nuvem do Office 365 em uma política de acesso condicional do Azure Active Directory](https://docs.microsoft.com/sharepoint/sharepointonline/media/azure-ca-office365-policy.png)
+![Captura de tela do aplicativo de nuvem do Office 365 em uma política de acesso condicional do Azure Active Directory](/sharepoint/sharepointonline/media/azure-ca-office365-policy.png)
 
 O uso de uma política que afete todos os serviços do Microsoft 365 pode levar a uma melhor segurança e uma melhor experiência para os usuários. Por exemplo, quando você bloqueia o acesso a dispositivos não gerenciados apenas no Microsoft Office SharePoint Online, os usuários podem acessar o chat em uma equipe com um dispositivo não gerenciado, mas perderão o acesso quando tentarem acessar a guia **Arquivos**. Usar o aplicativo de nuvem do Office 365 ajuda a evitar problemas com [dependências de serviço](/azure/active-directory/conditional-access/service-dependencies).
 

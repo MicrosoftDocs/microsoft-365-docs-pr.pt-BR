@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Otimize o acesso de rede aos seus Microsoft 365 locatários.
-ms.openlocfilehash: 5eac0793d2afc924a919671ffa105362ea1866d9
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: cf9591d2ec027c42f5ef9e7abac6dc9b06744a81
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407187"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229174"
 ---
 # <a name="step-2-optimal-networking-for-your-microsoft-365-for-enterprise-tenants"></a>Etapa 2. Rede ideal para sua Microsoft 365 para locatários corporativos
 
@@ -31,7 +31,7 @@ Para otimizar o acesso à rede para seu locatário, você precisa:
 
 - Otimize o caminho entre seus usuários locais e o local mais próximo da Rede Global da Microsoft.
 - Otimize o acesso à Rede Global da Microsoft para seus usuários remotos que estão usando uma solução VPN de acesso remoto.
-- Use o Network Insights para projetar o perímetro de rede para seus locais de escritório.
+- Use o network Insights para projetar o perímetro de rede para seus locais de escritório.
 - Otimize o acesso a ativos específicos hospedados SharePoint sites com o Office 365 CDN.
 - Configure dispositivos de borda de rede e proxy para ignorar o processamento para Microsoft 365 tráfego confiável com a lista de pontos de extremidade e automatizar a atualização da lista à medida que as alterações são feitas.
 
@@ -94,7 +94,7 @@ Nesta ilustração, o cliente VPN envia e recebe tráfego de serviço de nuvem M
 
 Para obter mais informações e orientações, confira [Otimizar a conectividade do Office 365 para usuários remotos usando o túnel dividido da VPN](../enterprise/microsoft-365-vpn-split-tunnel.md).
 
-## <a name="using-network-insights-preview"></a>Usando o Network Insights (visualização)
+## <a name="using-network-insights-preview"></a>Usando o Insights de rede (visualização)
 
 As percepções de rede são métricas de desempenho coletadas do seu locatário Microsoft 365 que ajudam você a projetar perímetros de rede para seus locais de escritório. Cada insight fornece detalhes ao vivo sobre as características de desempenho de um problema especificado para cada local geográfico em que os usuários locais estão acessando seu locatário.
 
@@ -112,10 +112,10 @@ Estas são as percepções de rede específicas para cada local do office:
 - [Baixa velocidade de download SharePoint porta da frente](../enterprise/office-365-network-mac-perf-insights.md#low-download-speed-from-sharepoint-front-door)
 - [Saída de rede ideal do usuário da China](../enterprise/office-365-network-mac-perf-insights.md#china-user-optimal-network-egress)
 
->[!IMPORTANT]
->Percepções de rede, recomendações de desempenho e avaliações no centro de administração Microsoft 365 no momento está em status de visualização. Ele só está disponível para Microsoft 365 locatários que foram inscritos no programa de visualização de recursos.
+> [!IMPORTANT]
+> Percepções de rede, recomendações de desempenho e avaliações no centro Administração Microsoft 365 no momento está em status de visualização. Ele só está disponível para Microsoft 365 locatários que foram inscritos no programa de visualização de recursos.
 
-Para obter mais informações, [consulte Microsoft 365 Informações de Rede.](../enterprise/office-365-network-mac-perf-insights.md)
+Para obter mais informações, [consulte Microsoft 365 Network Insights](../enterprise/office-365-network-mac-perf-insights.md).
 
 ## <a name="sharepoint-performance-with-the-office-365-cdn"></a>SharePoint desempenho com a Office 365 CDN
 
@@ -152,7 +152,7 @@ Para seu Microsoft 365 locatário com rede ideal, você determinou:
 - Como otimizar o desempenho da rede para usuários locais adicionando conexões à Internet a todas as filiais e eliminando os hairpins de rede.
 - Como implementar a listagem de ponto de extremidade confiável automatizada para seus arquivos PAC baseados em cliente e seus dispositivos e serviços de rede, incluindo atualizações contínuas (mais adequadas para redes corporativas).
 - Como dar suporte ao acesso de funcionários remotos a recursos locais.
-- Como usar o Network Insights
+- Como usar a rede Insights
 - Como implantar o Office 365 CDN.
 
 Aqui está um exemplo de uma organização corporativa e seu locatário com rede ideal.

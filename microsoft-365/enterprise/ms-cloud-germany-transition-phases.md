@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: entenda as ações de fases de migração e os impactos da migração do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para Office 365 serviços na nova região do datacenter alemão.'
-ms.openlocfilehash: c80a7cfc4f930011f65a07c4b46cdf4921766c34
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: abf58930e2f937922733fedec2f13bfc2949fcb8
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930446"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229822"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>Ações e impactos de fases de migração para a migração do Microsoft Cloud Deutschland
 
@@ -36,7 +36,7 @@ O processo de migração será concluído ao longo de muitas semanas, dependendo
 > [!NOTE]
 > A migração dos serviços do Azure não faz parte desta documentação. Para saber mais, confira [Diretrizes de migração para o Azure Germany](/azure/germany/germany-migration-main).
 
-|Etapa|Duração|Responsável|Descrição|
+|Etapa|Duration|Responsável|Descrição|
 |:--------|:--------|:--------|:--------|
 |Opt-In|Horas|Cliente|Opte pela sua organização na migração.|
 |Pré-trabalho|Days|Cliente|Conclua o trabalho necessário para preparar usuários, estações de trabalho e rede para migração.|
@@ -134,7 +134,7 @@ Considerações adicionais:
 
 - Se sua organização ainda usa SharePoint fluxos de trabalho 2010, eles não funcionarão mais após 31 de dezembro de 2021. SharePoint fluxos de trabalho 2013 permanecerão com suporte, embora desligados por padrão para novos locatários a partir de 1º de novembro de 2020. Depois que a migração para o serviço SharePoint Online for concluída, recomendamos que você mude para Power Automate ou outras soluções com suporte.
  - Os clientes do Microsoft Cloud Deutschland cuja instância do SharePoint Online ainda não foi migrada precisam permanecer no módulo do SharePoint PowerShell online/Microsoft.SharePointOnline.CSOM versão 16.0.20616.12000 ou abaixo. Caso contrário, as conexões SharePoint online por meio do PowerShell ou do modelo de objeto do lado do cliente falharão.
-- Durante essa fase, os endereços IP por trás SharePoint URLs serão mudadas. Após a transição para os serviços globais do Office 365, os endereços das URLs de locatários preservados (por exemplo, e ) serão alterados para as URLs e intervalos de endereço IP do Microsoft 365 em todo o mundo `contoso.sharepoint.de` `contoso-my.sharepoint.de` [(SharePoint Online e OneDrive for Business)](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#sharepoint-online-and-onedrive-for-business).
+- Durante essa fase, os endereços IP por trás SharePoint URLs serão mudadas. Após a transição para os serviços globais do Office 365, os endereços das URLs de locatários preservados (por exemplo, e ) serão alterados para as URLs e intervalos de endereço IP do Microsoft 365 em todo o mundo `contoso.sharepoint.de` `contoso-my.sharepoint.de` [(SharePoint Online e OneDrive for Business)](/microsoft-365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business).
 - Embora SharePoint e OneDrive serviços sejam transições, Office Online pode não funcionar conforme o esperado. 
 
 > [!NOTE]
@@ -231,7 +231,7 @@ Nesta fase, Skype for Business serão migrados para Microsoft Teams. Os clientes
 - Os usuários não poderão entrar no Skype for Business entre as transições de serviço de tempo Office 365 serviços e não até que as entradas DNS do cliente sejam concluídas.
 - Contatos e reuniões existentes continuarão a funcionar como reuniões Skype for Business reuniões.
 
-Quando um domínio de vaidade foi configurado para Skype for Business, as entradas DNS devem ser atualizadas. Consulte [Domínios no centro de](https://admin.microsoft.com/Adminportal/Home#/Domains) administração Microsoft 365 e aplique as alterações em sua configuração DNS. 
+Quando um domínio de vaidade foi configurado para Skype for Business, as entradas DNS devem ser atualizadas. Consulte [Domínios no Centro de administração do Microsoft 365](https://admin.microsoft.com/Adminportal/Home#/Domains) e aplique as alterações na configuração dns. 
 
 Se você tiver que se conectar ao Skype for Business Online com o PowerShell após a conclusão da fase de migração 9, use o seguinte código do PowerShell para se conectar:
 

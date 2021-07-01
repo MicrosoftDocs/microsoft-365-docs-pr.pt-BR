@@ -10,12 +10,12 @@ search.appverid: ''
 ms.collection: enabler-strategic
 localization_priority: Priority
 description: Formato SKOS como referência para a taxonomia do SharePoint
-ms.openlocfilehash: 6a565de9598706e998206304093ed86a1a55704d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4c08073f453ef0b6a224829b7d4cb4034b74ed14
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911169"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228730"
 ---
 # <a name="skos-format-reference-for-sharepoint-taxonomy"></a>Formato SKOS como referência para a taxonomia do SharePoint
 
@@ -49,13 +49,13 @@ A tabela a seguir mostra as entidades do vocabulário de taxonomia do SharePoint
 
 ## <a name="sharepoint-taxonomy-vocabulary"></a>Vocabulário de taxonomia do SharePoint
 
-Uma taxonomia é um sistema formal de classificação. Uma taxonomia agrupa as palavras, rótulos e termos que descrevem algo, e depois organiza os grupos em uma hierarquia.
+Uma taxonomia é um sistema de classificação formal. Ela agrupa as palavras, os rótulos e os termos que descrevem algo e depois organiza os grupos em uma hierarquia.
 
 **sharepoint-taxonomy:Term**
 
 Representa um Termo ou Palavra-chave em uma hierarquia de metadados gerenciados.
 
-Um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) é a unidade atômica de um [Repositório de Termos](/dotnet/api/microsoft.sharepoint.taxonomy.termstore) do SharePoint. Cada [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) pertence a um [Conjunto de Termos ](/dotnet/api/microsoft.sharepoint.taxonomy.termset) que pertence a um [Grupo de Termos](/dotnet/api/microsoft.sharepoint.taxonomy.group). 
+Um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) é a unidade atômica de um [Repositório de Termos](/dotnet/api/microsoft.sharepoint.taxonomy.termstore) do SharePoint. Cada [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) pertence a um [Conjunto de Termos ](/dotnet/api/microsoft.sharepoint.taxonomy.termset) que pertence a um [Grupo de Termos](/dotnet/api/microsoft.sharepoint.taxonomy.group).
 
 A sintaxe para definir um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) é a seguinte:
 
@@ -79,14 +79,14 @@ Um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) pode:
 - Ter vários [Termos](/dotnet/api/microsoft.sharepoint.taxonomy.term) filhos, mas somente um único [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) pai.
 - Não ter um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) pai definido, se o topLevelTermOf for um [Conjunto de Termos](/dotnet/api/microsoft.sharepoint.taxonomy.termset).
 - Tenha um defaultLabel, por idioma de trabalho na [Loja de Termos](/dotnet/api/microsoft.sharepoint.taxonomy.termstore).
-- Não existe se não contém um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) pai, nem se o topLevelTermOf for um [Conjunto de Termos](/dotnet/api/microsoft.sharepoint.taxonomy.termset). 
+- Não existe se não contém um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) pai, nem se o topLevelTermOf for um [Conjunto de Termos](/dotnet/api/microsoft.sharepoint.taxonomy.termset).
 - Ter apenas um rótulo padrão único no mesmo nível hierárquico.
 
 **sharepoint-taxonomy:TermSet**
 
 Representa uma hierarquia ou um conjunto horizontal de objetos de Termo conhecido como "Conjunto de Termos".
 
-Como o nome sugere, Conjunto de Termos é um conjunto de [Termos](/dotnet/api/microsoft.sharepoint.taxonomy.term). Um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) em uma [Loja de Termos](/dotnet/api/microsoft.sharepoint.taxonomy.termstore) deve pertencer a um [Conjunto de Termos](/dotnet/api/microsoft.sharepoint.taxonomy.termset). Nenhum [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) pode existir independentemente. 
+Como o nome sugere, Conjunto de Termos é um conjunto de [Termos](/dotnet/api/microsoft.sharepoint.taxonomy.term). Um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) em uma [Loja de Termos](/dotnet/api/microsoft.sharepoint.taxonomy.termstore) deve pertencer a um [Conjunto de Termos](/dotnet/api/microsoft.sharepoint.taxonomy.termset). Nenhum [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) pode existir independentemente.
 
 A sintaxe para definir um [Conjunto de Termos](/dotnet/api/microsoft.sharepoint.taxonomy.termset) é:
 
@@ -105,7 +105,7 @@ No caso do termSetName fornecido não ser exclusivo no [Grupo de Termos](/dotnet
 
 **sharepoint-taxonomy:hasTopLevelTerm**
 
-O SharePoint usa essa propriedade para mapear o primeiro [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) no [ Conjunto de Termos ](/dotnet/api/microsoft.sharepoint.taxonomy.termset), que é o ponto de entrada para a hierarquia de [Termos](/dotnet/api/microsoft.sharepoint.taxonomy.term) em um [Conjunto de Termos](/dotnet/api/microsoft.sharepoint.taxonomy.termset). Esta é uma relação inversa com a taxonomia sharepoint-taxonomy:topLevelTermOf. 
+O SharePoint usa essa propriedade para mapear o primeiro [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) no [ Conjunto de Termos ](/dotnet/api/microsoft.sharepoint.taxonomy.termset), que é o ponto de entrada para a hierarquia de [Termos](/dotnet/api/microsoft.sharepoint.taxonomy.term) em um [Conjunto de Termos](/dotnet/api/microsoft.sharepoint.taxonomy.termset). Esta é uma relação inversa com a taxonomia sharepoint-taxonomy:topLevelTermOf.
 
 A sintaxe para definir isto é:
 
@@ -113,7 +113,7 @@ A sintaxe para definir isto é:
 ex:TermSetA    sharepoint-taxonomy:hasTopLevelTerm    ex:TermA.
 ```
 
->[!NOTE]
+> [!NOTE]
 > Você não pode definir o [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) de nível superior de um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) pai.
 
 **sharepoint-taxonomy:topLevelTermOf**
@@ -180,7 +180,7 @@ Você também pode adicionar rótulos opcionais à sua taxonomia.
 
 **sharepoint-taxonomy:otherLabel**
 
-Este é o rótulo léxico alternativo para um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term). 
+Este é o rótulo léxico alternativo para um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term).
 
 A sintaxe para definir um otherLabel é:
 
@@ -190,11 +190,11 @@ ex:TermA    sharepoint-taxonomy:otherLabel    “Term A”@en-us.
 
 ## <a name="semantic-relationships"></a>Relações semânticas
 
-As taxonomias têm relacionamento associativo hierárquico e, às vezes, simples de "termo relacionado", mas algumas têm "relacionamentos semânticos" ou relacionamentos personalizados. 
+As taxonomias têm relacionamento associativo hierárquico e, às vezes, simples de "termo relacionado", mas algumas têm "relacionamentos semânticos" ou relacionamentos personalizados.
 
 **sharepoint-taxonomy:parent**
 
-Esta hierarquia relaciona um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) a outro [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term). Um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) pode ser um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) de nível superior em um [Conjunto de Termos](/dotnet/api/microsoft.sharepoint.taxonomy.termset), mas caso não seja, este deve ter um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) pai. 
+Esta hierarquia relaciona um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) a outro [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term). Um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) pode ser um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) de nível superior em um [Conjunto de Termos](/dotnet/api/microsoft.sharepoint.taxonomy.termset), mas caso não seja, este deve ter um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) pai.
 
 A sintaxe para definir um termo pai é:
 
@@ -206,7 +206,7 @@ Isso significa que o TermA é o pai e TermA é o filho.
 
 **sharepoint-taxonomy:child**
 
-O objeto contém uma ou mais instâncias de Conjunto de Termos filho, que podem ser acessadas por meio da propriedade de Conjunto de Termos. Esta classe também fornece métodos para criar novos objetos nos Conjunto de Termos filhos. Permissões para editar instâncias de Termo filho e Conjunto de Termos são especificadas no grupo. 
+O objeto contém uma ou mais instâncias de Conjunto de Termos filho, que podem ser acessadas por meio da propriedade de Conjunto de Termos. Esta classe também fornece métodos para criar novos objetos nos Conjunto de Termos filhos. Permissões para editar instâncias de Termo filho e Conjunto de Termos são especificadas no grupo.
 
 Esta hierarquia relaciona um [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term) a outro [Termo](/dotnet/api/microsoft.sharepoint.taxonomy.term).
 
@@ -224,7 +224,7 @@ Esta seção discute a taxonomia detalhada no namespace Microsoft.SharePoint.Tax
 
 **sharepoint-taxonomy:description**
 
-Esta é uma explicação detalhada de qualquer entidade de vocabulário de [ taxonomia do SharePoint ](/dotnet/api/microsoft.sharepoint.taxonomy). 
+Esta é uma explicação detalhada de qualquer entidade de vocabulário de [ taxonomia do SharePoint ](/dotnet/api/microsoft.sharepoint.taxonomy).
 
 A sintaxe para acrescentar uma descrição é:
 
@@ -280,7 +280,7 @@ Em cada nível da hierarquia, você pode configurar propriedades de dados espec�
 
 **sharepoint-taxonomy:isAvailableForTagging**
 
-Utilize para especificar se um [Termo ](/dotnet/api/microsoft.sharepoint.taxonomy.term) ou um [Conjunto de Termos](/dotnet/api/microsoft.sharepoint.taxonomy.termset) está disponível nas Listas e Bibliotecas do SharePoint.  
+Utilize para especificar se um [Termo ](/dotnet/api/microsoft.sharepoint.taxonomy.term) ou um [Conjunto de Termos](/dotnet/api/microsoft.sharepoint.taxonomy.termset) está disponível nas Listas e Bibliotecas do SharePoint.
 
 A sintaxe para isto é:
 
@@ -313,9 +313,9 @@ propertyName|Possui Rótulo de Propriedade|SharedCustomPropertyForTerm, LocalCus
 Cenários válidos de [SKOS](https://www.w3.org/TR/skos-primer/) que a [taxonomia do SharePoint](/dotnet/api/microsoft.sharepoint.taxonomy) não permite:
 
 - Redundância hierárquica - Um conceito do [SKOS](https://www.w3.org/TR/skos-primer/) pode ser anexado a vários conceitos mais amplos ao mesmo tempo, mas uma sharepoint-taxonomy:Term pode ter apenas uma sharepoint-taxonomy:parent, portanto, a dependência cíclica de termos também não é permitida.
-- Termos órfãos não são permitidos na taxonomia do SharePoint. Cada sharepoint-taxonomy:Term deve ter uma sharepoint-taxonomy:parent ou deve ser um sharepoint-taxonomy:topLevelTermOf um Conjunto de Termos.
+- Termos órfãos não são permitidos na taxonomia do Microsoft Office SharePoint Online. Cada taxonomia do Microsoft Office SharePoint Online Microsoft Office SharePoint Online: O termo deve ter uma taxonomia do Microsoft Office SharePoint Online: pai ou deve ser a taxonomia do Microsoft Office SharePoint Online:topLevelTermOf a TermSet.
 - A taxonomia do SharePoint não oferece suporte a relações associativas.
-- A taxonomia do SharePoint permite apenas 2 tipos de relações hierárquicas – sharepoint-taxonomy:parent e sharepoint-Taxonomy:child. 
+- A taxonomia do SharePoint permite apenas 2 tipos de relações hierárquicas – sharepoint-taxonomy:parent e sharepoint-Taxonomy:child.
 - Ao contrário do [SKOS](https://www.w3.org/TR/skos-primer/), a relação hierárquica no vocabulário de taxonomia do SharePoint, só pode ser estabelecida com Termos dentro do mesmo Conjunto de Termos.
 
 ## <a name="see-also"></a>Confira também

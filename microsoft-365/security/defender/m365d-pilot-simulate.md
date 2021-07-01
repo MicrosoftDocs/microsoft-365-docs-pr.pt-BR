@@ -1,7 +1,7 @@
 ---
-title: Execute suas simulações Microsoft 365 de ataque do Defender
-description: Execute simulações de ataque para seu Microsoft 365 projeto piloto do Defender para ver como ele se desenvolve e é rapidamente remediado.
-keywords: Microsoft 365 Simulação de ataque piloto do Defender, execute Microsoft 365 simulação de ataque piloto do Defender, simular ataque no defender do Microsoft 365, projeto piloto do Microsoft 365 Defender, segurança cibernética, ameaça persistente avançada, segurança corporativa, dispositivos, dispositivos, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, busca avançada
+title: Execute suas simulações de Microsoft 365 Defender de ataque
+description: Execute simulações de ataque para seu Microsoft 365 Defender piloto para ver como ele se desenvolve e é rapidamente remediado.
+keywords: Microsoft 365 Defender simulação de ataque piloto Microsoft 365 Defender, executar uma simulação de ataque piloto, simular ataques no Microsoft 365 Defender, projeto piloto do Microsoft 365 Defender, segurança cibernética, ameaça persistente avançada, segurança corporativa, dispositivos, dispositivos, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, busca avançada
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,14 +21,14 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 767a7ea4c4c7604d1d4b227f08e4ca32c62737c5
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 18dc8158ef3c806e5dac5a01778adebc6eecc1ce
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934472"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53230014"
 ---
-# <a name="run-your-microsoft-365-defender-attack-simulations"></a>Execute suas simulações Microsoft 365 de ataque do Defender
+# <a name="run-your-microsoft-365-defender-attack-simulations"></a>Execute suas simulações de Microsoft 365 Defender de ataque
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -39,7 +39,7 @@ ms.locfileid: "51934472"
 
 No momento, você está na fase de simulação de ataque.
 
-Depois de preparar seu ambiente piloto, é hora de testar o gerenciamento Microsoft 365 incidentes do Defender e os recursos automatizados de investigação e correção. Ajudaremos você a simular um ataque sofisticado que utiliza técnicas avançadas para ocultar da detecção. O ataque enumera sessões SMB (Bloqueio de Mensagens do Servidor) abertas em controladores de domínio e recupera endereços IP recentes dos dispositivos dos usuários. Essa categoria de ataques geralmente não inclui arquivos descartados no dispositivo da vítima— eles ocorrem apenas na memória. Eles "vivem da terra" usando o sistema e as ferramentas administrativas existentes e injetam seu código em processos do sistema para ocultar sua execução, Esse comportamento permite que eles evadam a detecção e persistam no dispositivo.
+Depois de preparar seu ambiente piloto, é hora de testar o gerenciamento Microsoft 365 Defender incidentes e os recursos automatizados de investigação e correção. Ajudaremos você a simular um ataque sofisticado que utiliza técnicas avançadas para ocultar da detecção. O ataque enumera sessões SMB (Bloqueio de Mensagens do Servidor) abertas em controladores de domínio e recupera endereços IP recentes dos dispositivos dos usuários. Essa categoria de ataques geralmente não inclui arquivos descartados no dispositivo da vítima— eles ocorrem apenas na memória. Eles "vivem da terra" usando o sistema e as ferramentas administrativas existentes e injetam seu código em processos do sistema para ocultar sua execução, Esse comportamento permite que eles evadam a detecção e persistam no dispositivo.
 
 Nesta simulação, nosso cenário de exemplo começa com um script do PowerShell. Um usuário pode ser enganoso para executar um script. Ou o script pode ser executado de uma conexão remota com outro computador de um dispositivo infectado anteriormente, o invasor tentando se mover lateralmente na rede. A detecção desses scripts pode ser difícil porque os administradores também costumam executar scripts remotamente para realizar várias atividades administrativas.
 
@@ -54,7 +54,7 @@ Durante a simulação, o ataque injeta o shellcode em um processo aparentemente 
 
 Como você já configurou seu ambiente piloto durante a fase de preparação, verifique se você tem dois dispositivos para esse cenário: um dispositivo de teste e um controlador de domínio.
 
-1. Verifique se o locatário [habilita Microsoft 365 Defender](m365d-enable.md#confirm-that-the-service-is-on).
+1. Verifique se o locatário [habilitar Microsoft 365 Defender](m365d-enable.md#confirm-that-the-service-is-on).
 
 2. Verifique a configuração do controlador de domínio de teste:
 
@@ -134,7 +134,7 @@ Alternando para o ponto de vista do analista SOC, agora você pode começar a in
 
 ### <a name="investigate-the-attack-as-a-single-incident"></a>Investigar o ataque como um único incidente
 
-Microsoft 365 O Defender correlaciona análises e agrega todos os alertas e investigações relacionados de diferentes produtos em uma entidade de incidente. Ao fazer isso, Microsoft 365 Defender mostra uma história de ataque mais ampla, permitindo que o analista soc compreenda e responda a ameaças complexas.
+Microsoft 365 Defender correlaciona a análise e agrega todos os alertas e investigações relacionados de diferentes produtos em uma entidade de incidente. Ao fazer isso, Microsoft 365 Defender uma história de ataque mais ampla, permitindo que o analista soc entenda e responda a ameaças complexas.
 
 Os alertas gerados durante essa simulação são associados à mesma ameaça e, como resultado, são automaticamente agregados como um único incidente.
 
@@ -148,7 +148,7 @@ Para exibir o incidente:
 
    ![Captura de tela da página de incidentes em que alertas gerados são agregados durante a simulação](../../media/mtp/fig4.png)
 
-   Os alertas que aparecem no painel podem ser filtrados com base nos recursos de serviço: Microsoft Defender para Identidade, Microsoft Cloud App Security, Microsoft Defender para Ponto de Extremidade, Microsoft 365 Defender e Microsoft Defender para Office 365.
+   Os alertas que aparecem no painel podem ser filtrados com base em recursos de serviço: Microsoft Defender para Identidade, Microsoft Cloud App Security, Microsoft Defender para Ponto de Extremidade, Microsoft 365 Defender e Microsoft Defender para Office 365.
 
 3. Selecione **Abrir página de incidentes** para obter mais informações sobre o incidente.
 
@@ -158,7 +158,7 @@ Para exibir o incidente:
 
    ![Captura de tela de onde clicar em Gerenciar incidente](../../media/mtp/fig5a.png)
 
-   ![Captura de tela dos campos no painel gerenciar incidentes onde você pode marcar o incidente, atribuí-lo a si mesmo e adicionar comentários ](../../media/mtp/fig5b.png)
+   ![Captura de tela dos campos no painel gerenciar incidentes onde você pode marcar o incidente, atribuí-lo a si mesmo e adicionar comentários](../../media/mtp/fig5b.png)
 
 ### <a name="review-generated-alerts"></a>Revisar alertas gerados
 
@@ -279,7 +279,7 @@ Isso encerra a simulação de ataque para o gerenciamento de incidentes e cenár
 
 Há uma única caixa de correio interna e um dispositivo necessários para esse cenário. Você também precisará de uma conta de email externa para enviar a mensagem de teste.
 
-1. Verifique se seu locatário [habilitar Microsoft 365 Defender](m365d-enable.md#confirm-that-the-service-is-on).
+1. Verifique se o locatário [habilitar Microsoft 365 Defender](m365d-enable.md#confirm-that-the-service-is-on).
 2. Identifique uma caixa de correio de destino a ser usada para receber emails.
     a. Essa caixa de correio deve ser monitorada pelo Microsoft Defender Office 365 b. O dispositivo do requisito 3 precisa acessar essa caixa de correio
 3. Configurar um dispositivo de teste: a. Certifique-se de que você está usando Windows 10 versão 1903 ou posterior.
@@ -432,20 +432,20 @@ As detecções personalizadas executarão a consulta de acordo com a frequência
 
 ### <a name="additional-advanced-hunting-walk-through-exercises"></a>Exercícios de passagem de busca avançada adicionais
 
-Para saber mais sobre a busca avançada, os webcasts a seguir o acompanharão pelos recursos de busca avançada no Microsoft 365 Defender para criar consultas entre pilares, pivotar para entidades e criar detecções personalizadas e ações de correção.
+Para saber mais sobre a busca avançada, os webcasts a seguir o acompanharão pelos recursos de busca avançada dentro do Microsoft 365 Defender para criar consultas entre pilares, pivotar para entidades e criar detecções personalizadas e ações de correção.
 
 > [!NOTE]
 > Prepare-se com sua própria GitHub para executar as consultas de busca em seu ambiente de laboratório de teste piloto.
 
 |Título|Descrição|Baixar MP4|Assista no YouTube|Arquivo CSL a ser usado|
 |---|---|---|---|---|
-|Episódio 1: conceitos básicos de KQL|Vamos abranger os conceitos básicos dos recursos avançados de busca no Microsoft 365 Defender. Saiba mais sobre os dados avançados de busca disponíveis e a sintaxe básica de KQL e operadores.|[MP4](https://aka.ms/MTP15JUL20_MP4)|[YouTube](https://youtu.be/0D9TkGjeJwM)|[Episódio 1: arquivo CSL no Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl)|
+|Episódio 1: conceitos básicos de KQL|Vamos abranger os conceitos básicos dos recursos avançados de busca Microsoft 365 Defender. Saiba mais sobre os dados avançados de busca disponíveis e a sintaxe básica de KQL e operadores.|[MP4](https://aka.ms/MTP15JUL20_MP4)|[YouTube](https://youtu.be/0D9TkGjeJwM)|[Episódio 1: arquivo CSL no Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl)|
 |Episódio 2: Joins|Continuaremos a aprender sobre dados em busca avançada e como unir tabelas. Saiba mais sobre junções internas, externas, exclusivas e semi e as nuances da junção interna padrão do Kusto.|[MP4](https://aka.ms/MTP22JUL20_MP4)|[YouTube](https://youtu.be/LMrO6K5TWOU)|[Episódio 2: arquivo CSL no Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.csl)|
 |Episódio 3: Resumindo, pivotando e visualizando dados|Agora que podemos filtrar, manipular e associar dados, é hora de começar a resumir, quantificar, girar e visualizar. Neste episódio, vamos abranger o operador resumir e alguns dos cálculos que você pode executar ao mergulhar em tabelas adicionais no esquema de busca avançado. Transformamos nossos conjuntos de dados em gráficos que podem ajudar a melhorar a análise.|[MP4](https://aka.ms/MTP29JUL20_MP4)|[YouTube](https://youtu.be/UKnk9U1NH6Y)|[Episódio 3: arquivo CSL no Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%203%20-%20Summarizing%2C%20Pivoting%2C%20and%20Joining.csl)|
-|Episódio 4: Vamos procurar! Aplicando KQL ao controle de incidentes|Hora de rastrear alguma atividade de invasor! Neste episódio, vamos usar nossa compreensão aprimorada do KQL e a busca avançada no Microsoft 365 Defender para rastrear um ataque. Saiba algumas das dicas e truques usados no campo para controlar a atividade do invasor, incluindo os ABCs de segurança cibernética e como aplicá-las à resposta a incidentes.|[MP4](https://aka.ms/MTP5AUG20_MP4)|[YouTube](https://youtu.be/2EUxOc_LNd8)|[Episódio 4: arquivo CSL no Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl)|
+|Episódio 4: Vamos procurar! Aplicando KQL ao controle de incidentes|Hora de rastrear alguma atividade de invasor! Neste episódio, vamos usar nossa compreensão aprimorada do KQL e da busca avançada Microsoft 365 Defender rastrear um ataque. Saiba algumas das dicas e truques usados no campo para controlar a atividade do invasor, incluindo os ABCs de segurança cibernética e como aplicá-las à resposta a incidentes.|[MP4](https://aka.ms/MTP5AUG20_MP4)|[YouTube](https://youtu.be/2EUxOc_LNd8)|[Episódio 4: arquivo CSL no Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl)|
 |
 
 ## <a name="next-step"></a>Próxima etapa
 
-|![Fase de fechamento e resumo](../../media/mtp/close.png) <br>[Fase de fechamento e resumo](m365d-pilot-close.md)|Analise seu Microsoft 365 piloto do Defender, apresente-os aos participantes e dê a próxima etapa.
+|![Fase de fechamento e resumo](../../media/mtp/close.png) <br>[Fase de fechamento e resumo](m365d-pilot-close.md)|Analise seu Microsoft 365 Defender piloto, apresente-os aos seus participantes e dê a próxima etapa.
 |:-----|:-----|

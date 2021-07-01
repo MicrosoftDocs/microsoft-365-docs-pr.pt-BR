@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 recommendations: false
 description: Aprenda a implantar equipes com um nível de linha de base de proteção.
-ms.openlocfilehash: ec8c2a1a5c4480ffd36b77fe9e9accc91214c6a3
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: bf95c26a9bf724aaddae8321022ecdfceae82d1a
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538202"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229054"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Configurar equipes com proteção de linha de base
 
@@ -38,9 +38,9 @@ Também recomendamos ativar os recursos básicos do Defender para Office 365 par
 
 |Opção|Informações|
 |:------|:-----------|
-|Anexos seguros para SPO, Microsoft OneDrive e Microsoft Teams|[Anexos Seguros](../security/office-365-security/safe-attachments.md)<br>[Defender para Office 365 - Microsoft Office SharePoint Online, Microsoft OneDrive e Microsoft Teams](../security/office-365-security/mdo-for-spo-odb-and-teams.md)|
+|Anexos seguros para SPO, Microsoft OneDrive e Microsoft Teams|[Anexos Seguros](../security/office-365-security/safe-attachments.md) <p> [Defender para Office 365 - Microsoft Office SharePoint Online, Microsoft OneDrive e Microsoft Teams](../security/office-365-security/mdo-for-spo-odb-and-teams.md)|
 |Documentos Seguros|[Documentos Seguros no Microsoft Defender para Office 365](../security/office-365-security/safe-docs.md)|
-|Links Seguros para o Microsoft Teams|[Links seguros do Office 365 no Teams](../security/office-365-security/safe-links.md)<br>[Links Seguros](../security/office-365-security/safe-links.md)|
+|Links Seguros para o Microsoft Teams|[Links seguros do Office 365 no Teams](../security/office-365-security/safe-links.md) <p> [Links Seguros](../security/office-365-security/safe-links.md)|
 
 ## <a name="teams-guest-sharing"></a>Compartilhamento de convidados no Teams
 

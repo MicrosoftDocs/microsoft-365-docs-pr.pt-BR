@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: A Mobilidade Básica e a Segurança podem ajudá-lo a proteger e gerenciar dispositivos móveis.
-ms.openlocfilehash: 41df5bfba7362d9c2b3a47deca4e4586902bbd98
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: a5f20b2999a1a54070433560904e9535a4d1524a
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706173"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228274"
 ---
 # <a name="capabilities-of-basic-mobility-and-security"></a>Capacidades de Mobilidade e Segurança Básica
 
@@ -47,12 +47,12 @@ Você pode usar o Basic Mobility and Security para proteger e gerenciar os segui
 
 <sup>1</sup> O controle de acesso Windows 8.1 dispositivos RT está limitado a Exchange ActiveSync.
 
-<sup>2</sup> O controle de acesso para Windows 10 requer uma assinatura que inclui o Azure AD Premium e o dispositivo precisa ser ingressado no Azure Active Directory.
+<sup>2</sup> O controle de acesso para Windows 10 requer uma assinatura que inclui Azure AD Premium e o dispositivo precisa ser ingressado no Azure Active Directory.
 
 <sup>3</sup> Após junho de 2020, as versões do Android posteriores a 9 não podem gerenciar configurações de senha, exceto em dispositivos Samsung Knox.
 
->[!NOTE]
->Os dispositivos já inscritos com versões anteriores do sistema operacional continuam funcionando, embora os recursos possam mudar sem aviso prévio.
+> [!NOTE]
+> Os dispositivos já inscritos com versões anteriores do sistema operacional continuam funcionando, embora os recursos possam mudar sem aviso prévio.
 
 Se as pessoas em sua organização usam dispositivos móveis que não são compatíveis com a Mobilidade Básica e Segurança, talvez você queira bloquear o acesso do aplicativo Exchange ActiveSync a emails Microsoft 365 para esses dispositivos, para ajudar a tornar os dados da sua organização mais seguros. Para etapas para bloquear Exchange ActiveSync, consulte [Manage device access settings in Basic Mobility and Security](manage-device-access-settings.md).
 
@@ -60,15 +60,16 @@ Se as pessoas em sua organização usam dispositivos móveis que não são compa
 
 Os aplicativos com suporte para os diferentes tipos de dispositivos móveis na tabela a seguir solicitam que os usuários se inscrevam no Basic Mobility and Security, onde há uma nova política de gerenciamento de dispositivo móvel que se aplica ao dispositivo de um usuário e o usuário não registrou o dispositivo anteriormente. Se o dispositivo de um usuário não estiver em conformidade com uma política, dependendo de como você configurar a política, um usuário poderá ser impedido de acessar recursos Microsoft 365 nesses aplicativos, ou ele poderá ter acesso, mas Microsoft 365 relata uma violação de política.
 
-|**Produto**|**iOS 10.0 ou posterior**|**Android 5.0 ou posterior**|
+|**Product**|**iOS 10.0 ou posterior**|**Android 5.0 ou posterior**|
 |:-----|:-----|:-----|
 |**Exchange** Exchange ActiveSync inclui aplicativos de email e de terceiros, como o TouchDown, que usam Exchange ActiveSync versão 14.1 ou posterior. |Email |Email |
 |**Office**   e  **OneDrive for Business** |Outlook </br>OneDrive </br>Word </br>Excel </br>PowerPoint|**Em telefones e tablets**:<br/>Outlook <br/> OneDrive <br/> Word <br/> Excel <br/> PowerPoint <br/> **Apenas para telefones:** <br/> Office Mobile |
 
->[!NOTE]
-- >O suporte para iOS 10.0 e versões posteriores inclui iPhone e iPad dispositivos.
-- >O gerenciamento de dispositivos BLACKBerry OS não é suportado pela Segurança Básica e Mobilidade. Use o BlackBerry Business Cloud Services (BBCS) do BlackBerry para gerenciar dispositivos blackberry do sistema operacional. Os dispositivos Blackberry que executam o sistema operacional Android têm suporte como dispositivos Android padrão
-- >Os usuários não serão solicitados a se inscrever e não serão bloqueados ou relatados por violação de política se usarem o navegador móvel para acessar sites Microsoft 365 SharePoint, documentos no Office Online ou emails no Outlook Web App.
+> [!NOTE]
+>
+> - O suporte para iOS 10.0 e versões posteriores inclui iPhone e iPad dispositivos.
+> - O gerenciamento de dispositivos BLACKBerry OS não é suportado pela Segurança Básica e Mobilidade. Use o BlackBerry Business Cloud Services (BBCS) do BlackBerry para gerenciar dispositivos blackberry do sistema operacional. Os dispositivos Blackberry que executam o sistema operacional Android têm suporte como dispositivos Android padrão
+> - Os usuários não serão solicitados a se inscrever e não serão bloqueados ou relatados por violação de política se usarem o navegador móvel para acessar sites Microsoft 365 SharePoint, documentos no Office Online ou emails no Outlook Web App.
 
 O diagrama a seguir mostra o que acontece quando um usuário com um novo dispositivo acessa um aplicativo que dá suporte ao controle de acesso com Mobilidade Básica e Segurança. O usuário é impedido de acessar Microsoft 365 recursos no aplicativo até que ele inscreva seu dispositivo.
 
@@ -79,7 +80,7 @@ O diagrama a seguir mostra o que acontece quando um usuário com um novo disposi
 
 ## <a name="policy-settings-for-mobile-devices"></a>Configurações de política para dispositivos móveis
 
-Se você criar uma política para bloquear o acesso com determinadas configurações ativas, os usuários serão impedidos de acessar Microsoft 365 recursos ao usar um aplicativo com suporte listado no controle do Access para emails e documentos do [Microsoft 365.](capabilities.md) 
+Se você criar uma política para bloquear o acesso com determinadas configurações ativas, os usuários serão impedidos de acessar Microsoft 365 recursos ao usar um aplicativo com suporte listado no controle do Access para emails e documentos do [Microsoft 365.](capabilities.md)
 
 As configurações que podem impedir que os usuários acessem Microsoft 365 recursos estão nessas seções:
 
@@ -89,7 +90,7 @@ As configurações que podem impedir que os usuários acessem Microsoft 365 recu
 
 - Desbloqueado
 
-- Perfil de email gerenciado  
+- Perfil de email gerenciado
 
 Por exemplo, o diagrama a seguir mostra o que acontece quando um usuário com um dispositivo registrado não está em conformidade com uma configuração de segurança em uma política de gestão de dispositivos móveis que se aplica ao seu dispositivo. O usuário faz o acesso a um aplicativo que oferece suporte ao controle de acesso com Mobilidade Básica e Segurança. Eles são impedidos de acessar Microsoft 365 recursos no aplicativo até que seu dispositivo seja de acordo com a configuração de segurança.
 
@@ -116,15 +117,15 @@ As seções a seguir listam as configurações de política que você pode usar 
 |:-----|:-----|:-----|:-----|
 |Exigir criptografia de dados em<sup>dispositivos 1</sup> |Não|Sim|Sim|
 
-<sup>1</sup> Com o Samsung Knox, você também pode exigir criptografia em cartões de armazenamento. 
+<sup>1</sup> Com o Samsung Knox, você também pode exigir criptografia em cartões de armazenamento.
 
-## <a name="jail-broken-setting"></a>Configuração de desbloqueio 
+## <a name="jail-broken-setting"></a>Configuração de desbloqueio
 
 |**Nome da configuração**|**iOS 7.1 e posterior**|**Android 5 e posterior**|**Samsung Knox**|
 |:-----|:-----|:-----|:-----|
 |O dispositivo não pode ser desbloqueado ou modificado |Sim|Sim|Sim|
 
-## <a name="managed-email-profile-option"></a>Opção de perfil de email gerenciado 
+## <a name="managed-email-profile-option"></a>Opção de perfil de email gerenciado
 
 A opção a seguir pode impedir que os usuários acessem seus Microsoft 365 email se eles estão usando um perfil de email criado manualmente. Usuários em dispositivos iOS devem excluir o perfil de email criado manualmente antes de poderem acessar seus emails. Depois de excluir o perfil, um novo perfil é criado automaticamente no dispositivo. Para obter instruções sobre como os usuários finais podem ser compatíveis, consulte [Uma conta de email existente foi encontrada](/intune-user-help/existing-company-email-account-found).
 
@@ -140,8 +141,8 @@ A opção a seguir pode impedir que os usuários acessem seus Microsoft 365 emai
 |Bloquear backup em nuvem |Sim|Não|Não|
 |Bloquear sincronização de documento |Sim|Não|Não|
 |Bloquear sincronização de fotos  |Sim|Não|Não|
-|Permitir backup do Google  |N/A|Não|Sim|
-|Permitir sincronização automática de conta do Google  |N/A|Não|Sim|
+|Permitir backup do Google  |N/D|Não|Sim|
+|Permitir sincronização automática de conta do Google  |N/D|Não|Sim|
 
 ## <a name="system-settings"></a>Configurações do sistema
 
@@ -205,8 +206,8 @@ As configurações a seguir são suportadas para Windows 10 dispositivos que est
 
 - Lembrar histórico de senhas e impedir reutilização
 
->[!NOTE]
->As configurações a seguir que regulamentam senhas controlam apenas contas Windows locais. Windows contas fornecidas por meio da junção de um domínio ou Azure Active Directory não são afetadas por essas configurações.
+> [!NOTE]
+> As configurações a seguir que regulamentam senhas controlam apenas contas Windows locais. Windows contas fornecidas por meio da junção de um domínio ou Azure Active Directory não são afetadas por essas configurações.
 
 ### <a name="system-settings"></a>Configurações do sistema
 

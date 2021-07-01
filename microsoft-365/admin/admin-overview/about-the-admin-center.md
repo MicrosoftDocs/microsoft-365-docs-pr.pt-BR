@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: Entre com as permissões de administrador no Centro de administração do Microsoft 365 para configurar sua organização na nuvem e gerenciar usuários e assinaturas.
-ms.openlocfilehash: 7817861e79b86a6c43ea26fdb03b037b40a3f564
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: b7ad483ccfe21ac38edc7db735bccee49b937b6b
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083048"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228346"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Sobre o Centro de administração do Microsoft 365
 
@@ -79,7 +79,7 @@ Apresentamos aqui os recursos e as configurações encontradas na navegação es
 
 - Ver relatórios de atividades: [Relatórios de Atividades](../activity-reports/activity-reports.md)
 
-- [Criar um grupo do Microsoft 365](../create-groups/create-groups.md)
+- [Criar um grupo Microsoft 365](../create-groups/create-groups.md)
 
 - [Gerenciar um grupo do Microsoft 365](../create-groups/manage-groups.md)
 

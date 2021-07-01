@@ -17,12 +17,12 @@ ms.custom:
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Proteção do Exchange Online (EOP) e no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 850756acacc757526352b9249c0e9efbe82fac8d
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 9abed7f9601872eeb14ceb294c54a1cb54f63c2f
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096776"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229102"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
@@ -85,7 +85,7 @@ As seguintes configurações de política estão disponíveis em políticas anti
   - **Domínios**: Um ou mais dos [domínios aceitos configurados](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) no Microsoft 365.
 
   - **Exclua esses usuários, grupos e domínios**: Exceções para a política. As configurações e o comportamento são exatamente como as condições:
-    - **Usuários** 
+    - **Users**
     - **Grupos**
     - **Domínios**
 
@@ -175,7 +175,7 @@ As seguintes configurações de representação só estão disponíveis em polí
 
   > [!NOTE]
   >
-  > - Em cada política anti-phishing, você pode especificar um máximo de 60 usuários protegidos (endereços de email do remetente). Não é possível especificar o mesmo usuário protegido em várias políticas. Portanto, independentemente de quantas políticas se aplicam a um destinatário, o número máximo de usuários protegidos (endereços de email de remetente) para cada destinatário individual é 60. Para obter mais informações sobre a prioridade da política e como o processamento de política é interrompido após a aplicação da primeira política, consulte [Order and precedence of email protection](how-policies-and-protections-are-combined.md).
+  > - Em cada política anti-phishing, você pode especificar um máximo de 350 usuários protegidos (endereços de email do remetente). Não é possível especificar o mesmo usuário protegido em várias políticas. Portanto, independentemente de quantas políticas se aplicam a um destinatário, o número máximo de usuários protegidos (endereços de email de remetente) para cada destinatário individual é 350. Para obter mais informações sobre a prioridade da política e como o processamento de política é interrompido após a aplicação da primeira política, consulte [Order and precedence of email protection](how-policies-and-protections-are-combined.md).
   > - A proteção de representação do usuário não funcionará se o remetente e o destinatário se comunicarem anteriormente por email. Se o remetente e o destinatário nunca se comunicarem por email, a mensagem será identificada como uma tentativa de representação.
 
   Por padrão, nenhum endereço de email de remetente é configurado para proteção de representação em **Usuários para proteger**. Portanto, por padrão, nenhum endereço de email de remetente é coberto pela proteção de representação, seja na política padrão ou em políticas personalizadas.

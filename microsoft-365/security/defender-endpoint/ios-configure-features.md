@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 07905cc3f1b3bd4445199d7bddcdf3b45500bd5f
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.openlocfilehash: 749e03cb9d14476245baea82c21d322d4d726aad
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53194944"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53230002"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>Configurar o Microsoft Defender para Ponto de Extremidade em recursos do iOS
 
@@ -78,7 +78,7 @@ As etapas para configurar políticas de proteção de aplicativos com o Microsof
 1. Em **Condições de lançamento condicional** Do dispositivo, você encontrará a configuração Nível máximo de ameaça de dispositivo  >   **permitido.** Isso precisará ser configurado para Baixo, Médio, Alto ou Protegido. As ações disponíveis para você serão Bloquear o **acesso ou** **apagar dados**. Você pode ver uma caixa de diálogo informacional para garantir que seu conector seja definido antes que essa configuração entre em vigor. Se o conector já estiver definido, você poderá ignorar essa caixa de diálogo.
 1. Termine com atribuições e salve sua política.
 
-Para obter mais detalhes sobre a política de proteção de aplicativos ou MAM, consulte configurações da política de proteção de [aplicativos do iOS.](https://docs.microsoft.com/mem/intune/apps/app-protection-policy-settings-ios)
+Para obter mais detalhes sobre a política de proteção de aplicativos ou MAM, consulte configurações da política de proteção de [aplicativos do iOS.](/mem/intune/apps/app-protection-policy-settings-ios)
 
 ### <a name="deploying-microsoft-defender-for-endpoint-for-mam-or-on-unenrolled-devices"></a>Implantando o Microsoft Defender para Ponto de Extremidade para MAM ou em dispositivos não reemrollados
 

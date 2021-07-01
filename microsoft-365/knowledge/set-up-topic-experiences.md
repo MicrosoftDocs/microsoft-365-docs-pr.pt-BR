@@ -10,20 +10,20 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Saiba como configurar tópicos do Microsoft Viva
-ms.openlocfilehash: c6997e5f5a6793468dfe3392ffc2037b319844ad
-ms.sourcegitcommit: d0c160e89e17f451199bc4a85699effd2d935213
+ms.openlocfilehash: 42f84b9b792907d7fe118e0b15c3767674ddf19b
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52893759"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229582"
 ---
 # <a name="set-up-microsoft-viva-topics"></a>Configurar tópicos do Microsoft Viva
 
-Você pode usar o Microsoft 365 de administração para configurar e configurar [Tópicos.](topic-experiences-overview.md) 
+Você pode usar o Centro de administração do Microsoft 365 para configurar e configurar [Tópicos.](topic-experiences-overview.md) 
 
 É importante planejar a melhor maneira de configurar e configurar tópicos em seu ambiente. Leia Plan [for Microsoft Viva Topics](plan-topic-experiences.md) antes de começar os procedimentos neste artigo.
 
-Você deve estar inscrito em [Tópicos](https://www.microsoft.com/microsoft-viva/topics) do Viva e ser um administrador global ou SharePoint para acessar o centro de administração Microsoft 365 e configurar Tópicos.
+Você deve estar inscrito em [Tópicos do Viva](https://www.microsoft.com/microsoft-viva/topics) e ser um administrador global ou SharePoint para acessar o Centro de administração do Microsoft 365 e configurar Tópicos.
 
 Se você configurou SharePoint [para exigir](/sharepoint/control-access-from-unmanaged-devices)dispositivos gerenciados, certifique-se de configurar Tópicos de um dispositivo gerenciado.
 
@@ -39,7 +39,7 @@ Este vídeo mostra o processo de configuração de Tópicos no Microsoft 365.
 
 ## <a name="assign-licenses"></a>Atribuir licenças
 
-Você deve atribuir licenças para os usuários que usarão Tópicos. Somente usuários com uma licença podem ver informações sobre tópicos, incluindo destaques, cartões de tópicos, páginas de tópicos e o centro de tópicos. 
+Você deve atribuir licenças para os usuários que usarão Tópicos. Somente usuários com uma licença podem ver as informações sobre tópicos; incluindo destaques, cartões de tópicos, páginas de tópicos e o centro de tópicos. 
 
 Atribuição de licenças:
 
@@ -52,7 +52,7 @@ Atribuição de licenças:
 4. Em **Aplicativos,** certifique-se Graph Pesquisa de Conectores **com Índice (Tópicos** do Viva) e Tópicos do Viva estão **selecionados.**
 
    > [!div class="mx-imgBorder"]
-   > ![Licenças do Microsoft Viva Topics no Microsoft 365 de administração](../media/topic-experiences-licenses.png)
+   > ![Licenças do Microsoft Viva Topics no Centro de administração do Microsoft 365](../media/topic-experiences-licenses.png)
 
 5. Clique em **Salvar alterações**.
 
@@ -61,10 +61,10 @@ Pode levar até uma hora para que os usuários tenham acesso a Tópicos depois q
 ## <a name="set-up-topics"></a>Configurar tópicos
 
 > [!Note]
-> A primeira descoberta de tópicos é habilitada, pode levar até duas semanas para que todos os tópicos sugeridos apareçam no modo de exibição Gerenciar Tópicos. A descoberta de tópicos continua à medida que novos conteúdos ou atualizações para o conteúdo são feitos. É normal ter flutuações no número de tópicos sugeridos em sua organização à medida que o Viva Topics avalia novas informações.
+> A primeira descoberta de tópicos é habilitada, pode levar até duas semanas para que todos os tópicos sugeridos apareçam no modo de exibição Gerenciar Tópicos. A descoberta de tópicos continua à medida que novos conteúdos ou atualizações para o conteúdo são feitos. É normal ter flutuações no número de tópicos sugeridos na organização, uma vez que os Tópicos do Viva avaliam as novas informações.
 
 Para configurar tópicos
-1. No centro [Microsoft 365 de administração,](https://admin.microsoft.com)selecione **Configurar** e, em seguida, exibir a seção **Arquivos e** conteúdo.
+1. Na seção [Centro de administração do Microsoft 365](https://admin.microsoft.com), selecione **Instalação** e, em seguida, exibir a seção **Arquivos e** conteúdo.
 2. Na seção **Arquivos e conteúdo,** clique Conexão **pessoas para saber**.
 
     ![Conexão pessoas para conhecimento](../media/admin-org-knowledge-options.png) 
@@ -132,7 +132,10 @@ Para configurar tópicos
 
     Selecione **Avançar**.
 
-9. Na página **Criar centro de** tópicos, você pode criar seu site central de tópicos no qual as páginas de tópicos podem ser exibidas e os tópicos podem ser gerenciados. Na caixa **Nome do site,** digite um nome para o centro de tópicos. Opcionalmente, você pode digitar uma breve descrição na caixa **Descrição.** 
+9. Na página **Criar centro de** tópicos, você pode criar seu site central de tópicos no qual as páginas de tópicos podem ser exibidas e os tópicos podem ser gerenciados. Na caixa **Nome do site,** digite um nome para o centro de tópicos. Você pode clicar no ícone de lápis se quiser alterar a URL. Opcionalmente, digite uma breve descrição na caixa **Descrição.** 
+
+   > [!Important]
+   > Você pode alterar o nome do site mais tarde, mas não pode alterar a URL depois de concluir o assistente.
 
    Selecione **Avançar**.
 
@@ -148,7 +151,7 @@ Para configurar tópicos
 
 ## <a name="manage-topic-experiences"></a>Gerenciar experiências de tópico
 
-Depois de configurar Tópicos, você pode alterar as configurações escolhidas durante a instalação no Microsoft 365 [de administração.](https://admin.microsoft.com/AdminPortal#/featureexplorer/csi/KnowledgeManagement) Confira as seguintes referências:
+Depois de configurar Tópicos, você pode alterar as configurações escolhidas durante a instalação no Centro de administração do Microsoft 365 [.](https://admin.microsoft.com/AdminPortal#/featureexplorer/csi/KnowledgeManagement) Confira as seguintes referências:
 
 - [Gerenciar a descoberta de tópicos em Tópicos do Microsoft Viva](topic-experiences-discovery.md)
 - [Gerenciar visibilidade de tópicos em Tópicos do Microsoft Viva](topic-experiences-knowledge-rules.md)

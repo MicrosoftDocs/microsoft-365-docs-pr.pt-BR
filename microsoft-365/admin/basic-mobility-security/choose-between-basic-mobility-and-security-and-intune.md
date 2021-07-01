@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: A Mobilidade Básica e a Segurança fazem parte dos planos Microsoft 365 básicos.
-ms.openlocfilehash: b7b1d229e87a313a9567daed87f03452b1925a65
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 869968fa46e09fbc7a983957a83a9ad308c9f40c
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904259"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228262"
 ---
 # <a name="choose-between-basic-mobility-and-security-or-intune"></a>Escolha entre Mobilidade Básica e Segurança ou Intune
 
@@ -33,9 +33,9 @@ ms.locfileid: "50904259"
 
 A Mobilidade Básica e a Segurança e o Intune estão incluídos em uma variedade de planos, descritos na tabela a seguir.
 
-| Plano | Mobilidade e Segurança Básica | Microsoft Intune |
+| Planejar | Mobilidade e Segurança Básica | Microsoft Intune |
 |:-----|:-----|:-----|
-|Microsoft 365 Apps|Sim|Não|
+|Aplicativos do Microsoft 365|Sim|Não|
 |Microsoft 365 Business Basic|Sim|Não|
 |Microsoft 365 Business Standard|Sim|Não|
 |Office 365 E1 |Sim|Não|
@@ -52,17 +52,17 @@ A Mobilidade Básica e a Segurança e o Intune estão incluídos em uma variedad
 |Enterprise Mobility & Security E3 |Não|Sim|
 |Enterprise Mobility + Security E5 |Não|Sim|
 
->[!NOTE]
->Você não pode começar a usar o Basic Mobility and Security se já estiver usando Microsoft Intune.
+> [!NOTE]
+> Você não pode começar a usar o Basic Mobility and Security se já estiver usando Microsoft Intune.
 
- Para obter detalhes, [consulte Microsoft 365 e Office 365 de serviço de plataforma.](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description) 
+ Para obter detalhes, [consulte Microsoft 365 e Office 365 de serviço de plataforma.](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description)
 
 ## <a name="differences-in-capabilities"></a>Diferenças nos recursos
 
 Microsoft Intune e a Mobilidade Básica e Segurança internas dão a você a capacidade de gerenciar dispositivos móveis em sua organização, mas há diferenças importantes na funcionalidade, descritas na tabela a seguir.
 
->[!NOTE]
->Você pode gerenciar usuários e seus dispositivos móveis usando o Intune e o Basic Mobility and Security na mesma organização Microsoft 365 Business Standard configurando o *Basic Mobility* and Security primeiro e adicionando Microsoft Intune . Isso permite que você escolha Mobilidade Básica e Segurança ou a solução do Intune mais rica em recursos. Atribua uma licença do Intune para habilitar os recursos do Intune.
+> [!NOTE]
+> Você pode gerenciar usuários e seus dispositivos móveis usando o Intune e o Basic Mobility and Security na mesma organização Microsoft 365 Business Standard configurando o *Basic Mobility* and Security primeiro e adicionando Microsoft Intune . Isso permite que você escolha Mobilidade Básica e Segurança ou a solução do Intune mais rica em recursos. Atribua uma licença do Intune para habilitar os recursos do Intune.
 
 | Área de recurso | Destaques de recursos | Mobilidade e Segurança Básica | Microsoft Intune |
 |:-----|:-----|:-----|:-----|
@@ -80,7 +80,7 @@ Microsoft Intune e a Mobilidade Básica e Segurança internas dão a você a cap
 |Programas de registro de toque zero (AutoPilot) |Registrar um grande número de dispositivos de propriedade corporativa, ao mesmo tempo que simplifica a configuração do usuário. |Não|Sim|
 |||
 
-Além dos recursos listados na tabela anterior, a Mobilidade Básica e Segurança e o Intune incluem um conjunto de ações remotas que enviam comandos para dispositivos pela Internet. Por exemplo, você pode remover Office dados do dispositivo de um funcionário enquanto deixa os dados pessoais in-locar (retirar), remover Office aplicativos do dispositivo de um funcionário (apagar) ou redefinir um dispositivo para suas configurações de fábrica (apagar completamente). 
+Além dos recursos listados na tabela anterior, a Mobilidade Básica e Segurança e o Intune incluem um conjunto de ações remotas que enviam comandos para dispositivos pela Internet. Por exemplo, você pode remover Office dados do dispositivo de um funcionário enquanto deixa os dados pessoais in-locar (retirar), remover Office aplicativos do dispositivo de um funcionário (apagar) ou redefinir um dispositivo para suas configurações de fábrica (apagar completamente).
 
 As ações remotas básicas de Mobilidade e Segurança incluem a ressarção, limpeza e limpeza total. Para obter mais informações sobre ações básicas de Mobilidade e Segurança, consulte [recursos de Mobilidade Básica e Segurança.](capabilities.md)
 

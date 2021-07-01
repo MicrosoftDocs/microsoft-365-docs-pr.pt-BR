@@ -12,14 +12,14 @@ ms.author: jaimeo
 ms.topic: article
 audience: Admin, ITPro
 ms.localizationpriority: normal
-ms.openlocfilehash: 453c26afd176a1282e466a73992ae4abe1542d68
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 0ee214cf7ff5d5998a7fa35688574a23f8b082f0
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177472"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229594"
 ---
-# <a name="overview"></a>Visão Geral
+# <a name="overview"></a>Visão geral
 
 Área de Trabalho Gerenciada da Microsoft é um serviço ITaaS (it-as-service) para clientes de nuvem empresarial projetado para manter os dispositivos de Windows dos funcionários implantados e atualizados. Ele também fornece operações e gerenciamento de serviços de IT, monitora a resposta a incidentes e segurança, além de fornecer suporte ao usuário. Esta documentação fornece detalhes adicionais sobre a plataforma de dados e a conformidade de privacidade para Área de Trabalho Gerenciada da Microsoft.
 
@@ -68,16 +68,16 @@ A identificação dos dados usados pelo Área de Trabalho Gerenciada da Microsof
 ## <a name="microsoft-intune"></a>Microsoft Intune
 Microsoft Intune coleta, processa e compartilha dados para Área de Trabalho Gerenciada da Microsoft para dar suporte a operações e serviços comerciais. Consulte [Coleta de dados no Intune](/mem/intune/protect/privacy-data-collect) para obter mais informações sobre os dados coletados no Intune. 
 
-Para obter mais informações sobre Microsoft Intune de dados, consulte [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide). O Intune respeita as seleções de local de armazenamento feitas pelo administrador para dados do cliente.
+Para obter mais informações sobre Microsoft Intune de dados, consulte [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations). O Intune respeita as seleções de local de armazenamento feitas pelo administrador para dados do cliente.
 
 ## <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender para Ponto de Extremidade
-O Microsoft Defender para Ponto de Extremidade coleta e armazena informações para dispositivos inscritos no Área de Trabalho Gerenciada da Microsoft para fins de administração, controle e relatório. As informações coletadas incluem dados de arquivo (como nomes de arquivo, tamanho e hashes), dados de processo (processos em execução, hashes), dados do Registro, dados de conexão de rede e detalhes do dispositivo (como identificadores de dispositivo, nomes de dispositivo e a versão do sistema operacional). Consulte [Microsoft Defender for Endpoint data storage and privacy](/microsoft-365/security/defender-endpoint/data-storage-privacy?view=o365-worldwide#what-data-does-microsoft-defender-atp-collect) para obter mais informações sobre o Microsoft Defender para locais de coleta e armazenamento de dados do Endpoint. 
+O Microsoft Defender para Ponto de Extremidade coleta e armazena informações para dispositivos inscritos no Área de Trabalho Gerenciada da Microsoft para fins de administração, controle e relatório. As informações coletadas incluem dados de arquivo (como nomes de arquivo, tamanho e hashes), dados de processo (processos em execução, hashes), dados do Registro, dados de conexão de rede e detalhes do dispositivo (como identificadores de dispositivo, nomes de dispositivo e a versão do sistema operacional). Consulte [Microsoft Defender for Endpoint data storage and privacy](/microsoft-365/security/defender-endpoint/data-storage-privacy#what-data-does-microsoft-defender-atp-collect) para obter mais informações sobre o Microsoft Defender para locais de coleta e armazenamento de dados do Endpoint. 
 
 ## <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365 Apps para Grandes Empresas 
-Microsoft 365 Apps para Grandes Empresas coleta e compartilha dados com Área de Trabalho Gerenciada da Microsoft para garantir que esses aplicativos estão atualizados com a versão mais recente com base em canais de atualização predefinidos gerenciados pelo Área de Trabalho Gerenciada da Microsoft. Consulte [Microsoft Defender for Endpoint data storage and privacy](/microsoft-365/security/defender-endpoint/data-storage-privacy?view=o365-worldwide#what-data-does-microsoft-defender-atp-collect) para obter mais informações sobre Microsoft 365 Apps de coleta de dados e locais de armazenamento da Microsoft 365 Apps.
+Microsoft 365 Apps para Grandes Empresas coleta e compartilha dados com Área de Trabalho Gerenciada da Microsoft para garantir que esses aplicativos estão atualizados com a versão mais recente com base em canais de atualização predefinidos gerenciados pelo Área de Trabalho Gerenciada da Microsoft. Consulte [Microsoft Defender for Endpoint data storage and privacy](/microsoft-365/security/defender-endpoint/data-storage-privacy#what-data-does-microsoft-defender-atp-collect) para obter mais informações sobre Microsoft 365 Apps de coleta de dados e locais de armazenamento da Microsoft 365 Apps.
 
 ## <a name="major-data-change-notification"></a>Notificação de alteração de dados principais
-Área de Trabalho Gerenciada da Microsoft segue um processo de controle de alteração conforme descrito em nossa estrutura de comunicação de serviço. Notificamos os clientes Microsoft 365 Central de Mensagens e Área de Trabalho Gerenciada da Microsoft Portal de Administração dos incidentes de segurança e das principais alterações no serviço. Alterações nos tipos de dados coletados e onde são armazenados são consideradas uma alteração material. Forneceremos no mínimo 30 dias de notificação avançada dessa alteração, como é prática padrão para Microsoft 365 produtos e serviços. Para obter mais informações, consulte [Alterações de serviço e comunicação](/microsoft-365/managed-desktop/service-description/servicechanges?view=o365-worldwide).
+Área de Trabalho Gerenciada da Microsoft segue um processo de controle de alteração conforme descrito em nossa estrutura de comunicação de serviço. Notificamos os clientes Microsoft 365 Central de Mensagens e Área de Trabalho Gerenciada da Microsoft Portal de Administração dos incidentes de segurança e das principais alterações no serviço. Alterações nos tipos de dados coletados e onde são armazenados são consideradas uma alteração material. Forneceremos no mínimo 30 dias de notificação avançada dessa alteração, como é prática padrão para Microsoft 365 produtos e serviços. Para obter mais informações, consulte [Alterações de serviço e comunicação](/microsoft-365/managed-desktop/service-description/servicechanges).
 
 ## <a name="compliance"></a>Conformidade
 Área de Trabalho Gerenciada da Microsoft passou por auditorias externas e obteve um conjunto abrangente de ofertas de conformidade. Você pode encontrar mais informações em Área de Trabalho Gerenciada da Microsoft [Conformidade](/microsoft-365/managed-desktop/intro/compliance). Os relatórios de auditoria estão disponíveis para download no [Microsoft Service Trust Portal](https://aka.ms/stp), que funciona como um repositório central para o Microsoft Enterprise Online Services. (Área de Trabalho Gerenciada da Microsoft está listado dentro desses documentos na categoria "Monitoramento e Gerenciamento". 

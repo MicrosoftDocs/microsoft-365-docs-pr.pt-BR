@@ -17,12 +17,12 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: c304d8badd9bde11ad0f483b482628503569dc26
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 5b723f4faef891c04dc78a18de09a469d703c492
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51931930"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228886"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Portais de segurança e centros de administração da Microsoft
 
@@ -40,9 +40,9 @@ Os operadores e administradores de segurança podem acessar os seguintes portais
 
 | Nome do portal | Descrição | Link |
 |---|---|---| 
-| Central de segurança do Microsoft 365 | Monitore e responda à atividade de ameaça e fortaleça a postura de segurança em suas identidades, emails, dados, pontos de extremidade e aplicativos [com o Microsoft 365 Defender](microsoft-365-defender.md) | [security.microsoft.com](https://security.microsoft.com/) |
+| Centro de segurança do Microsoft 365 | Monitore e responda à atividade de ameaça e fortaleça a postura de segurança em suas identidades, emails, dados, pontos de extremidade e aplicativos com [Microsoft 365 Defender](microsoft-365-defender.md) | [security.microsoft.com](https://security.microsoft.com/) |
 | Central de Segurança do Microsoft Defender | Monitorar e responder a atividades de ameaça em seus pontos de extremidade usando recursos fornecidos com [o Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) | [securitycenter.windows.com](https://securitycenter.microsoft.com/) |
-| Centro de Conformidade e Segurança | Gerenciar [Proteção do Exchange Online](../office-365-security/exchange-online-protection-overview.md?view=o365-worldwide) e [o Microsoft Defender para](/microsoft-365/security/office-365-security/defender-for-office-365?view=o365-worldwide) Office 365 proteger seus serviços de email e colaboração e garantir a conformidade com vários regulamentos de tratamento de dados | [protection.office.com](https://protection.office.com) |
+| Centro de Conformidade e Segurança | Gerenciar [Proteção do Exchange Online](../office-365-security/exchange-online-protection-overview.md) e [o Microsoft Defender para](/microsoft-365/security/office-365-security/defender-for-office-365) Office 365 proteger seus serviços de email e colaboração e garantir a conformidade com vários regulamentos de tratamento de dados | [protection.office.com](https://protection.office.com) |
 | Portal do Azure Defender | Use [o Azure Defender para](/azure/security-center/security-center-intro) fortalecer a postura de segurança de seus data centers e suas cargas de trabalho híbridas na nuvem | [portal.azure.com/#blade/Microsoft_Azure_Security](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0) |
 | Portal do Microsoft Defender para Identidade | Identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações internas mal-intencionadas usando sinais do Active Directory com [o Microsoft Defender para Identidade](/azure-advanced-threat-protection/what-is-atp) | [portal.atp.azure.com](https://portal.atp.azure.com/) |
 | Cloud App Security portal | Use [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) para obter visibilidade avançada, controle sobre a viagem de dados e análises sofisticadas para identificar e combater ameaças cibernéticas em serviços de nuvem | [portal.cloudappsecurity.com](https://portal.cloudappsecurity.com/) |
@@ -56,7 +56,7 @@ Embora esses portais não sejam especificamente para gerenciar a segurança, ele
 | Nome do portal | Descrição | Link | 
 |---|---|---| 
 | Portal do Azure | Exibir e gerenciar [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) e todos os recursos [do Azure](/azure/azure-resource-manager/management/overview)  | [portal.azure.com](https://portal.azure.com/) |
-| Centro de conformidade do Microsoft 365 | Gerenciar políticas de tratamento de dados e garantir [a conformidade com os regulamentos](/compliance/regulatory/offering-home?view=o365-worldwide) | [compliance.microsoft.com](https://compliance.microsoft.com/) |
+| Centro de conformidade do Microsoft 365 | Gerenciar políticas de tratamento de dados e garantir [a conformidade com os regulamentos](/compliance/regulatory/offering-home) | [compliance.microsoft.com](https://compliance.microsoft.com/) |
 | Centro de administração do Microsoft 365 | Configurar Microsoft 365 serviços; gerenciar funções, licenças e acompanhar atualizações para seus serviços Microsoft 365 de segurança | [admin.microsoft.com](https://admin.microsoft.com/) |
 | Centro de administração do Microsoft Endpoint Manager | Usar [Microsoft Endpoint Manager](/mem/configmgr/) para gerenciar e proteger dispositivos usando os recursos combinados do Intune e do Configuration Manager | [devicemanagement.microsoft.com](https://devicemanagement.microsoft.com/) |
 | Microsoft Intune portal | Usar [Microsoft Intune](/intune/fundamentals/what-is-intune) para implantar políticas de dispositivos e monitorar dispositivos para conformidade | [endpoint.microsoft.com](https://endpoint.microsoft.com/#blade/Microsoft_Intune_DeviceSettings/DevicesMenu/overview)

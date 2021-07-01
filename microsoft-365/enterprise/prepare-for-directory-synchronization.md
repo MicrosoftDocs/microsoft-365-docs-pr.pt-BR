@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: Descreve como se preparar para provisionar usuários para Microsoft 365 usando a sincronização de diretórios e os benefícios de longo prazo do uso desse método.
-ms.openlocfilehash: 7f701bf0a8b165323f7fd61b50b41fb5e18268a6
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: ee6cfe9adfe029e620d2465f08a3fbe1e9290503
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259554"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229762"
 ---
 # <a name="prepare-for-directory-synchronization-to-microsoft-365"></a>Preparar-se para a sincronização de diretórios com o Microsoft 365
 
@@ -100,7 +100,7 @@ Os atributos que você precisa preparar estão listados aqui:
   - Se o atributo existir no objeto user, ele será sincronizado com o Microsoft 365, mas Microsoft 365 não exigir ou usá-lo.
   - Número máximo de caracteres: 64
 
-- **email**
+- **mail**
 
   - O valor do atributo deve ser exclusivo no diretório.
 
@@ -180,7 +180,7 @@ Em Microsoft 365, o UPN é o atributo padrão usado para gerar o endereço de em
 
 Talvez seja necessário adicionar um sufixo UPN alternativo para associar as credenciais corporativas do usuário ao Microsoft 365 ambiente. Um sufixo UPN é a parte do UPN à direita do caractere @. UPNs usados para logon único podem conter letras, números, pontos, traços e sublinhados, mas nenhum outro tipo de caracteres.
 
-Para obter mais informações sobre como adicionar um sufixo UPN alternativo ao Active Directory, consulte [Prepare for directory synchronization]( https://go.microsoft.com/fwlink/p/?LinkId=525430).
+Para obter mais informações sobre como adicionar um sufixo UPN alternativo ao Active Directory, consulte [Prepare for directory synchronization](https://go.microsoft.com/fwlink/p/?LinkId=525430).
 
 ## <a name="5-match-the-ad-ds-upn-with-the-microsoft-365-upn"></a>5. Match the AD DS UPN with the Microsoft 365 UPN
 

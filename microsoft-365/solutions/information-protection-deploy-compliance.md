@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Saiba como usar o Compliance Score and Compliance Manager para melhorar seu nível de proteção para dados pessoais.
-ms.openlocfilehash: 87131ea65661e8285fd7c3b36a87c79b618348d7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 26e9f54ce77869f4f6ef07c18147483628ddc223
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918565"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229294"
 ---
 # <a name="use-compliance-manager-to-manage-improvement-actions"></a>Usar o Gerenciador de Conformidade para gerenciar ações de melhoria
 
@@ -30,19 +30,18 @@ O Microsoft Compliance Manager pode ajudá-lo a gerenciar melhorias relacionadas
 
 Este artigo fornece orientações sobre o uso dessa ferramenta para fins de privacidade de dados.
 
->[!Note]
->As recomendações do Gerenciador de Conformidade não devem ser interpretadas como uma garantia de conformidade. Você deve avaliar e validar a eficácia dos controles do cliente de acordo com seu ambiente regulatório. Esses serviços estão sujeitos aos termos e condições nos Termos [de Serviços Online.](https://go.microsoft.com/fwlink/?linkid=2108910) Consulte também [Microsoft 365 diretrizes de licenciamento para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
->
+> [!NOTE]
+> As recomendações do Gerenciador de Conformidade não devem ser interpretadas como uma garantia de conformidade. Você deve avaliar e validar a eficácia dos controles do cliente de acordo com seu ambiente regulatório. Esses serviços estão sujeitos aos termos e condições nos Termos [de Serviços Online.](https://go.microsoft.com/fwlink/?linkid=2108910) Consulte também [Microsoft 365 diretrizes de licenciamento para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
 
 ## <a name="getting-started-with-compliance-manager"></a>Iniciando com o Gerenciador de Conformidade
 
 #### <a name="what-is-compliance-manager"></a>O que é o Gerenciador de Conformidade
 
-[O Gerenciador de](../compliance/compliance-manager.md) Conformidade é uma ferramenta de avaliação de risco baseada em fluxo de trabalho no centro de conformidade Microsoft 365 gerenciamento de atividades de conformidade regulamentar relacionadas aos serviços de nuvem da Microsoft. Como parte de sua assinatura Microsoft 365 ou Azure Active Directory (Azure AD), o Gerenciador de Conformidade ajuda você a gerenciar a conformidade regulamentar no modelo de responsabilidade compartilhada para os serviços de nuvem da Microsoft.
+[O Gerenciador de](../compliance/compliance-manager.md) Conformidade é uma ferramenta de avaliação de risco baseada em fluxo de trabalho no Centro de conformidade do Microsoft 365 para gerenciar atividades de conformidade regulamentar relacionadas aos serviços de nuvem da Microsoft. Como parte de sua assinatura Microsoft 365 ou Azure Active Directory (Azure AD), o Gerenciador de Conformidade ajuda você a gerenciar a conformidade regulamentar no modelo de responsabilidade compartilhada para os serviços de nuvem da Microsoft.
 
 **Pronto para usar avaliações**
 
-O Gerenciador de Conformidade fornece modelos pré-construídos para a criação de avaliações alinhadas aos [regulamentos](../compliance/compliance-manager-assessments.md) relacionados à privacidade de dados, como rgpd e HIPAA/HITECH. Os modelos têm mapeamento de controle interno para ajudá-lo a tomar ações de melhoria para atender aos requisitos da regulamentação. Cada avaliação fornece informações sobre os controles que cada regulamentação chama para específico para o serviço de destino, dividido por controles que você gerencia e controla que a Microsoft gerencia. 
+O Gerenciador de Conformidade fornece modelos pré-construídos para a criação de avaliações alinhadas aos [regulamentos](../compliance/compliance-manager-assessments.md) relacionados à privacidade de dados, como rgpd e HIPAA/HITECH. Os modelos têm mapeamento de controle interno para ajudá-lo a tomar ações de melhoria para atender aos requisitos da regulamentação. Cada avaliação fornece informações sobre os controles que cada regulamentação chama para específico para o serviço de destino, dividido por controles que você gerencia e controla que a Microsoft gerencia.
 
 Usar um modelo pré-criado ajuda você a começar rapidamente com avaliações de risco. À medida que você se torna mais proficiente no uso do Gerenciador de Conformidade, você pode personalizar um modelo pré-criado adicionando seus próprios controles e ações de melhoria, ou pode criar suas próprias avaliações personalizadas para atender às necessidades da sua organização.
 
@@ -59,7 +58,7 @@ O [guia de início rápido do Gerenciador](../compliance/compliance-manager-quic
 - [Primeira visita: familiarizar-se com o Gerenciador de Conformidade](../compliance/compliance-manager-quickstart.md#first-visit-get-to-know-compliance-manager)
     - Trabalhando com seu painel do Gerenciador de Conformidade
     - Noções básicas sobre a pontuação de conformidade
-    - Aprender sobre ações de melhoria
+    - Learning sobre ações de melhoria
     - Noções básicas sobre avaliações e modelos
 - [Incrementando: configurar o Gerenciador de Conformidade para gerenciar suas atividades de conformidade](../compliance/compliance-manager-quickstart.md#ramping-up-configure-compliance-manager-to-manage-your-compliance-activities)
     - Criar e gerenciar sua primeira avaliação

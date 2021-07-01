@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1aa37beef940803a3dd399cec4ff23133a10c5ad
-ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
+ms.openlocfilehash: 910923e693804c96c109c52606b62d92af51abeb
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53203287"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228658"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Configurar políticas antispam no EOP
 
@@ -140,7 +140,7 @@ Ao criar uma política antispam personalizada no Microsoft 365 Defender é gerad
 
      As ações disponíveis para vereditos de filtragem de spam são descritas na tabela a seguir.
 
-     - Uma marca de seleção ( ![Marca de seleção](../../media/checkmark.png)) indica que a ação está disponível (nem todas as ações estão disponíveis para todos os vereditos).
+     - Uma marca de seleção ( ![Marca de seleção](../../media/checkmark.png) ) indica que a ação está disponível (nem todas as ações estão disponíveis para todos os vereditos).
      - Um asterisco ( <sup>\*</sup> ) após a marca de seleção indica a ação padrão para o veredito de filtragem de spam.
 
      <br>

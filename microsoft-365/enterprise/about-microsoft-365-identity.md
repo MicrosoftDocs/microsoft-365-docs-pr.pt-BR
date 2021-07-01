@@ -23,12 +23,12 @@ search.appverid:
 - BCS160
 ms.assetid: 06a189e7-5ec6-4af2-94bf-a22ea225a7a9
 description: Saiba como gerenciar o serviço de identidade do usuário do Azure AD Microsoft 365 usando modelos de identidade híbrida ou somente na nuvem.
-ms.openlocfilehash: b54ccce6ea2a468e02d9db95e7932d847df4e64b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 93a37f39a4d96d7c2e434ed6edf4df588e672a0f
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905699"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228490"
 ---
 # <a name="microsoft-365-identity-models-and-azure-active-directory"></a>Microsoft 365 e modelos de identidade Azure Active Directory
 
@@ -46,7 +46,7 @@ Sua primeira opção de planejamento é o Microsoft 365 de identidade.
 
 ## <a name="microsoft-365-identity-models"></a>Microsoft 365 de identidade
 
-Para planejar contas de usuário, primeiro você precisa entender os dois modelos de identidade no Microsoft 365. Você pode manter as identidades da sua organização somente na nuvem ou pode manter suas identidades locais dos Serviços de Domínio do Active Directory (AD DS) e usá-las para autenticação quando os usuários acessarem Microsoft 365 serviços de nuvem.  
+Para planejar contas de usuário, primeiro você precisa entender os dois modelos de identidade no Microsoft 365. Você pode manter as identidades da sua organização somente na nuvem ou pode manter suas identidades locais dos Serviços de Domínio do Active Directory (AD DS) e usá-las para autenticação quando os usuários acessarem Microsoft 365 serviços de nuvem.
 
 Aqui estão os dois tipos de identidade e seus melhores benefícios e ajuste.
 
@@ -60,16 +60,16 @@ Aqui estão os dois tipos de identidade e seus melhores benefícios e ajuste.
 
 ## <a name="cloud-only-identity"></a>Identidade somente na nuvem
 
-Uma identidade somente na nuvem usa contas de usuário que existem somente no Azure AD. A identidade somente na nuvem é geralmente usada por pequenas organizações que não têm servidores locais ou não usam o AD DS para gerenciar identidades locais. 
+Uma identidade somente na nuvem usa contas de usuário que existem somente no Azure AD. A identidade somente na nuvem é geralmente usada por pequenas organizações que não têm servidores locais ou não usam o AD DS para gerenciar identidades locais.
 
 Aqui estão os componentes básicos da identidade somente na nuvem.
- 
+
 ![Componentes básicos da identidade somente na nuvem](../media/about-microsoft-365-identity/cloud-only-identity.png)
 
 Usuários locais e remotos (online) usam suas contas de usuário e senhas do Azure AD para acessar Microsoft 365 de nuvem. O Azure AD autentica credenciais de usuário com base em suas contas de usuário e senhas armazenadas.
 
 ### <a name="administration"></a>Administração
-Como as contas de usuário são armazenadas apenas no Azure AD, você gerencia identidades de nuvem com ferramentas como o centro de administração Microsoft 365 [e](../admin/add-users/index.yml) o [Windows PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md). 
+Como as contas de usuário são armazenadas apenas no Azure AD, você gerencia identidades de nuvem com ferramentas como o Centro de administração do Microsoft 365 [e](../admin/add-users/index.yml) [Windows PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md).
 
 ## <a name="hybrid-identity"></a>Identidade híbrida
 
@@ -77,7 +77,7 @@ A identidade híbrida usa contas que se originam em um AD DS local e têm uma c�
 
 O Azure AD Conexão fornece a sincronização de conta em andamento. Ele é executado em um servidor local, verifica se há alterações no AD DS e encaminha essas alterações para o Azure AD. O Azure AD Conexão a capacidade de filtrar quais contas são sincronizadas e se sincronizar uma versão com hash de senhas de usuário, conhecida como sincronização de hash de senha (PHS).
 
-Quando você implementa a identidade híbrida, seu AD DS local é a fonte autoritativa para informações da conta. Isso significa que você executa tarefas de administração principalmente locais, que são sincronizadas com o Azure AD. 
+Quando você implementa a identidade híbrida, seu AD DS local é a fonte autoritativa para informações da conta. Isso significa que você executa tarefas de administração principalmente locais, que são sincronizadas com o Azure AD.
 
 Aqui estão os componentes da identidade híbrida.
 
@@ -85,22 +85,20 @@ Aqui estão os componentes da identidade híbrida.
 
 O locatário do Azure AD tem uma cópia das contas do AD DS. Nesta configuração, usuários locais e remotos acessando Microsoft 365 serviços de nuvem autenticados no Azure AD.
 
->[!Note]
->Você sempre precisa usar o Azure AD Conexão sincronizar contas de usuário para identidade híbrida. Você precisa das contas de usuário sincronizadas no Azure AD para executar a atribuição de licença e gerenciamento de grupo, configurar permissões e outras tarefas administrativas que envolvam contas de usuário.
->
+> [!NOTE]
+> Você sempre precisa usar o Azure AD Conexão sincronizar contas de usuário para identidade híbrida. Você precisa das contas de usuário sincronizadas no Azure AD para executar a atribuição de licença e gerenciamento de grupo, configurar permissões e outras tarefas administrativas que envolvam contas de usuário.
 
 ### <a name="administration"></a>Administração
 
-Como as contas de usuário originais e autoritativas são armazenadas no AD DS local, você gerencia suas identidades com as mesmas ferramentas que gerencia seu AD DS. 
+Como as contas de usuário originais e autoritativas são armazenadas no AD DS local, você gerencia suas identidades com as mesmas ferramentas que gerencia seu AD DS.
 
-Você não usa o centro de administração Microsoft 365 ou o PowerShell para Microsoft 365 gerenciar contas de usuário sincronizadas no Azure AD.
+Você não usa o Centro de administração do Microsoft 365 ou o PowerShell para Microsoft 365 gerenciar contas de usuário sincronizadas no Azure AD.
 
 ## <a name="next-step"></a>Próxima etapa
 
 Se você precisar do modelo de identidade somente na nuvem, consulte [Cloud-only identity](cloud-only-identities.md).
 
 Se você precisar do modelo de identidade híbrida, consulte [Identidade híbrida](plan-for-directory-synchronization.md).
-
 
 ## <a name="see-also"></a>Confira também
 

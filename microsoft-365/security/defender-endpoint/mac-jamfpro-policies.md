@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b6c2c9fe82486030814e89a0ff655d8f631064e4
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 577eea6e678b6a5d60e5bb8f2fbaaae25d239577
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53062312"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53230062"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Configurar o Microsoft Defender para Ponto de Extremidade em políticas macOS no Jamf Pro
 
@@ -63,7 +63,7 @@ Você precisará seguir as seguintes etapas:
 
 ## <a name="step-1-get-the-microsoft-defender-for-endpoint-onboarding-package"></a>Etapa 1: Obter o pacote de integração do Microsoft Defender para Ponto de Extremidade
 
-1. Em [Central de Segurança do Microsoft Defender,](https://securitycenter.microsoft.com )navegue **até Configurações > Integração**. 
+1. Em [Central de Segurança do Microsoft Defender,](https://securitycenter.microsoft.com)navegue **até Configurações > Integração**.
 
 2. Selecione macOS como o sistema operacional e Gerenciamento de Dispositivo Móvel/Microsoft Intune como o método de implantação.
 
@@ -82,7 +82,7 @@ Você precisará seguir as seguintes etapas:
 
    ![Imagem do arquivo WindowsDefenderATPOnboarding](images/plist-onboarding-file.png)
 
- 
+
 2. No painel Jamf Pro, selecione **Novo**.
 
     ![Imagem da criação de um novo painel Pro Jamf](images/jamf-pro-configure-profile.png)
@@ -100,7 +100,7 @@ Você precisará seguir as seguintes etapas:
 
     ![Imagem de configuração de aplicativo e configurações personalizadas](images/jamfpro-mac-profile.png)
 
-5. Selecione **Upload Arquivo (arquivo PLIST)** em **Domínio de Preferência** insira: `com.microsoft.wdav.atp` . 
+5. Selecione **Upload Arquivo (arquivo PLIST)** em **Domínio de Preferência** insira: `com.microsoft.wdav.atp` .
 
     ![Imagem do arquivo de carregamento de jamfpro plist](images/jamfpro-plist-upload.png)
 
@@ -110,7 +110,7 @@ Você precisará seguir as seguintes etapas:
 
     ![Imagem do arquivo de integração](images/jamfpro-plist-file-onboard.png)
 
-7. Selecione **Upload**. 
+7. Selecione **Upload**.
 
     ![Imagem do carregamento de arquivo plist](images/jamfpro-upload-plist.png)
 
@@ -122,7 +122,7 @@ Você precisará seguir as seguintes etapas:
 
     ![Imagem de computadores de destino](images/jamfpro-target-computer.png)
 
-    ![Imagem de destinos](images/jamfpro-targets.png) 
+    ![Imagem de destinos](images/jamfpro-targets.png)
 
 10. Selecione **Salvar**.
 
@@ -222,7 +222,7 @@ Tudo o que você precisa fazer para ter atualizações é baixar um  esquema atu
     - archive_bomb
     - cloudService
     - automaticSampleSubmission
-    - categorias
+    - tags
     - hideStatusMenuIcon
 
      Para obter informações, consulte [Lista de propriedades para perfil de configuração jamf](mac-preferences.md#property-list-for-jamf-configuration-profile).
@@ -337,7 +337,7 @@ Tudo o que você precisa fazer para ter atualizações é baixar um  esquema atu
 4. Insira os seguintes detalhes:
 
     **Geral**
-    
+
     - Nome: configurações MDATP MDAV
     - Descrição:\<blank\>
     - Categoria: Nenhum (padrão)
@@ -377,7 +377,7 @@ Tudo o que você precisa fazer para ter atualizações é baixar um  esquema atu
     >![Imagem das configurações de carregamento de arquivo do intune](images/8e69f867664668796a3b2904896f0436.png)
 
 
-11. Selecione **Salvar**. 
+11. Selecione **Salvar**.
 
     ![Imagem das configurações Salvar imagem](images/1b6b5a4edcb42d97f1e70a6a0fa48e3a.png)
 
@@ -391,7 +391,7 @@ Tudo o que você precisa fazer para ter atualizações é baixar um  esquema atu
 
     ![Imagem do escopo das configurações](images/9fc17529e5577eefd773c658ec576a7d.png)
 
-14. Selecione **Grupo de Máquinas da Contoso.** 
+14. Selecione **Grupo de Máquinas da Contoso.**
 
 15. Selecione **Adicionar** e, em seguida, **selecione Salvar**.
 
@@ -410,8 +410,8 @@ Essas etapas são aplicáveis ao macOS 10.15 (Catalina) ou mais novo.
 1. No painel de Pro Jamf, selecione **Computadores** e, em seguida, **Perfis de Configuração.**
 
 2. Clique **em Novo** e insira os seguintes detalhes para **Opções**:
-    
-    - Guia **Geral**: 
+
+    - Guia **Geral**:
         - **Nome**: Configurações de Notificação MDATP MDAV
         - **Descrição**: macOS 10.15 (Catalina) ou mais novo
         - **Categoria**: Nenhum *(padrão)*
@@ -443,12 +443,12 @@ Essas etapas são aplicáveis ao macOS 10.15 (Catalina) ou mais novo.
 
     ![Imagem do escopo de configurações adicionar](images/441aa2ecd36abadcdd8aed03556080b5.png)
 
-4. Selecione **Grupo de Máquinas da Contoso.** 
+4. Selecione **Grupo de Máquinas da Contoso.**
 
 5. Selecione **Adicionar** e, em seguida, **selecione Salvar**.
-    
+
     ![Imagem das configurações contoso machine grp save](images/09a275e321268e5e3ac0c0865d3e2db5.png)
-    
+
     ![Imagem de configurações configurações adicionar salvar](images/4d2d1d4ee13d3f840f425924c3df0d51.png)
 
 6. Selecione **Concluído**. Você verá o novo perfil **de configuração.**
@@ -479,14 +479,14 @@ Essas etapas são aplicáveis ao macOS 10.15 (Catalina) ou mais novo.
 
 2. Salve-o como `MDATP_MDAV_MAU_settings.plist` .
 
-3. No painel de Pro Jamf, selecione **Geral**. 
+3. No painel de Pro Jamf, selecione **Geral**.
 
     ![Imagem da configuração de configuração de imagem geral](images/eaba2a23dd34f73bf59e826217ba6f15.png)
 
 4. Insira os seguintes detalhes:
 
-    **Geral** 
-    
+    **Geral**
+
     - Nome: configurações MDATP MDAV MAU
     - Descrição: Configurações do Microsoft AutoUpdate para MDATP para macOS
     - Categoria: Nenhum (padrão)
@@ -499,7 +499,7 @@ Essas etapas são aplicáveis ao macOS 10.15 (Catalina) ou mais novo.
 
 6. Selecione **Upload Arquivo (arquivo PLIST)**.
 
-    ![Imagem da configuração plist de configuração](images/1213872db5833aa8be535da57653219f.png)  
+    ![Imagem da configuração plist de configuração](images/1213872db5833aa8be535da57653219f.png)
 
 7. In **Preference Domain** enter: , then select Upload `com.microsoft.autoupdate2` **PLIST File**.
 
@@ -523,11 +523,11 @@ Essas etapas são aplicáveis ao macOS 10.15 (Catalina) ou mais novo.
     ![Imagem da configuração saveimg](images/253274b33e74f3f5b8d475cf8692ce4e.png)
 
 12. Selecione a **guia Escopo.**
-   
+
      ![Imagem de escopo de configuração](images/10ab98358b2d602f3f67618735fa82fb.png)
 
 13. Selecione **Adicionar**.
-    
+
     ![Imagem da configuração addimg1](images/56e6f6259b9ce3c1706ed8d666ae4947.png)
 
     ![Imagem da configuração addimg2](images/38c67ee1905c4747c3b26c8eba57726b.png)
@@ -535,7 +535,7 @@ Essas etapas são aplicáveis ao macOS 10.15 (Catalina) ou mais novo.
     ![Imagem da configuração addimg3](images/321ba245f14743c1d5d51c15e99deecc.png)
 
 14. Selecione **Concluído**.
-    
+
     ![Imagem da configuração configuração doneimage](images/ba44cdb77e4781aa8b940fb83e3c21f7.png)
 
 ## <a name="step-6-grant-full-disk-access-to-microsoft-defender-for-endpoint"></a>Etapa 6: Conceder acesso em disco completo ao Microsoft Defender para Ponto de Extremidade
@@ -544,11 +544,11 @@ Essas etapas são aplicáveis ao macOS 10.15 (Catalina) ou mais novo.
 
     ![Imagem do perfil de configuração de configuração de configuração](images/264493cd01e62c7085659d6fdc26dc91.png)
 
-2. Selecione **+ Novo**. 
+2. Selecione **+ Novo**.
 
 3. Insira os seguintes detalhes:
 
-    **Geral** 
+    **Geral**
     - Nome: MDATP MDAV - conceder acesso de disco completo a EDR e AV
     - Descrição: no macOS Catalina ou mais novo, o novo Controle de Política de Preferências de Privacidade
     - Categoria: Nenhum
@@ -613,18 +613,18 @@ Essas etapas são aplicáveis ao macOS 10.15 (Catalina) ou mais novo.
 
     ![Imagem da configuração addimage de configuração](images/57cef926d1b9260fb74a5f460cee887a.png)
 
-14. Selecione **Grupos de >** em **Nome** do Grupo > selecione **MachineGroup da Contoso.** 
+14. Selecione **Grupos de >** em **Nome** do Grupo > selecione **MachineGroup da Contoso.**
 
     ![Imagem da configuração de configuração contoso machinegrp](images/368d35b3d6179af92ffdbfd93b226b69.png)
 
-15. Selecione **Adicionar**. 
+15. Selecione **Adicionar**.
 
-16. Selecione **Salvar**. 
-    
+16. Selecione **Salvar**.
+
 17. Selecione **Concluído**.
-    
+
     ![Imagem da configuração donimg](images/809cef630281b64b8f07f20913b0039b.png)
-    
+
     ![Imagem da configuração donimg2](images/6c8b406ee224335a8c65d06953dc756e.png)
 
 Como alternativa, você pode baixar [fulldisk.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) e carregar nos Perfis de Configuração do JAMF conforme descrito em [Deploying Custom Configuration Profiles using Jamf Pro| Método 2: Upload um Perfil de Configuração para Jamf Pro](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro).
@@ -640,8 +640,8 @@ Como alternativa, você pode baixar [fulldisk.mobileconfig](https://github.com/m
 
 2. Insira os seguintes detalhes:
 
-    **Geral** 
-    
+    **Geral**
+
     - Nome: Extensão de Kernel MDATP MDAV
     - Descrição: extensão de kernel MDATP (kext)
     - Categoria: Nenhum
@@ -654,7 +654,7 @@ Como alternativa, você pode baixar [fulldisk.mobileconfig](https://github.com/m
 
     ![Imagem das configurações do kernel ext aprovado](images/30be88b63abc5e8dde11b73f1b1ade6a.png)
 
-   
+
 4. Em **Extensões de Kernel Aprovadas** Insira os seguintes detalhes:
 
     - Nome para exibição: Microsoft Corp.
@@ -693,7 +693,7 @@ Como alternativa, você pode baixar [kext.mobileconfig](https://github.com/micro
 2. Insira os seguintes detalhes:
 
     **Geral**
-    
+
     - Nome: Extensões do Sistema MDATP MDAV
     - Descrição: extensões do sistema MDATP
     - Categoria: Nenhum
@@ -747,7 +747,7 @@ Essas etapas são aplicáveis ao macOS 10.15 (Catalina) ou mais novo.
 
 2. Clique **em Novo** e insira os seguintes detalhes para **Opções**:
 
-    - Guia **Geral**: 
+    - Guia **Geral**:
         - **Nome**: Extensão de Rede do Microsoft Defender ATP
         - **Descrição**: macOS 10.15 (Catalina) ou mais novo
         - **Categoria**: Nenhum *(padrão)*
@@ -812,7 +812,7 @@ Siga as instruções em [Agendar verificações com o Microsoft Defender para Po
 
     ![Imagem das configurações compmgmt](images/b6d671b2f18b89d96c1c8e2ea1991242.png)
 
-5. Em **Pacotes,** selecione **+ Novo**. 
+5. Em **Pacotes,** selecione **+ Novo**.
     ![Uma imagem que contém a descrição do pacote gerado automaticamente automaticamente](images/57aa4d21e2ccc65466bf284701d4e961.png)
 
 6. Em **Novo Pacote** Insira os seguintes detalhes:
@@ -825,25 +825,25 @@ Siga as instruções em [Agendar verificações com o Microsoft Defender para Po
     ![Imagem da guia geral configurações](images/21de3658bf58b1b767a17358a3f06341.png)
 
     Abra o arquivo e aponte para `wdav.pkg` ou `wdav_MDM_Contoso_200329.pkg` .
-    
+
     ![Uma captura de tela de uma tela do computador Descrição gerada automaticamente](images/1aa5aaa0a387f4e16ce55b66facc77d1.png)
 
 7. Selecione **Abrir**. De definir **o Nome de Exibição** como Proteção Avançada contra Ameaças do **Microsoft Defender e Microsoft Defender Antivírus**.
 
     **O Arquivo de Manifesto** não é necessário. O Microsoft Defender para Ponto de Extremidade funciona sem Arquivo de Manifesto.
-    
+
     **Guia Opções**<br> Mantenha valores padrão.
 
     **Guia Limitações**<br> Mantenha valores padrão.
-    
+
      ![Guia de limitação de configurações da imagem](images/56dac54634d13b2d3948ab50e8d3ef21.png)
-   
-8. Selecione **Salvar**. O pacote é carregado no Jamf Pro. 
+
+8. Selecione **Salvar**. O pacote é carregado no Jamf Pro.
 
    ![Imagem das configurações pacote upl jamf pro](images/33f1ecdc7d4872555418bbc3efe4b7a3.png)
 
    Pode levar alguns minutos para o pacote estar disponível para implantação.
-   
+
    ![Imagem das configurações empacotam upl](images/1626d138e6309c6e87bfaab64f5ccf7b.png)
 
 9. Navegue até **a página Políticas.**
@@ -859,17 +859,17 @@ Siga as instruções em [Agendar verificações com o Microsoft Defender para Po
 
     - Nome para exibição: MDATP Onboarding Contoso 200329 v100.86.92 ou posterior
 
-    ![Imagem das configuraçõesmdatponboard ](images/625ba6d19e8597f05e4907298a454d28.png)
+    ![Imagem das configuraçõesmdatponboard](images/625ba6d19e8597f05e4907298a454d28.png)
 
-12. Selecione **Check-in recorrente**. 
-    
+12. Selecione **Check-in recorrente**.
+
     ![Imagem de configurações configurações recorrem à verificação](images/68bdbc5754dfc80aa1a024dde0fce7b0.png)
 
-  
-13. Selecione **Salvar**. 
- 
+
+13. Selecione **Salvar**.
+
 14. Selecione **Pacotes > Configurar**.
- 
+
     ![Imagem do pacote de configurações configurações](images/8fb4cc03721e1efb4a15867d5241ebfb.png)
 
 15. Selecione o **botão Adicionar** ao lado da Proteção Avançada contra Ameaças do Microsoft Defender **e Microsoft Defender Antivírus**.
@@ -880,7 +880,7 @@ Siga as instruções em [Agendar verificações com o Microsoft Defender para Po
 
     ![Imagem das configurações de configuraçãossavimg](images/9d6e5386e652e00715ff348af72671c6.png)
 
-17. Selecione a **guia Escopo.**  
+17. Selecione a **guia Escopo.**
 
     ![Imagem das configurações scptab](images/8d80fe378a31143db9be0bacf7ddc5a3.png)
 
@@ -889,18 +889,18 @@ Siga as instruções em [Agendar verificações com o Microsoft Defender para Po
     ![Imagem das configurações tgtcomp](images/6eda18a64a660fa149575454e54e7156.png)
 
     **Scope**
-    
+
     Selecione **Adicionar**.
-    
+
     ![Imagem das configurações do ad1img](images/1c08d097829863778d562c10c5f92b67.png)
 
     ![Imagem das configurações do ad2img](images/216253cbfb6ae738b9f13496b9c799fd.png)
 
     **Autoatend**
-    
+
     ![Imagem de autoatendiço de configurações](images/c9f85bba3e96d627fe00fc5a8363b83a.png)
 
-19. Selecione **Concluído**. 
+19. Selecione **Concluído**.
 
     ![Imagem das configurações do1img](images/99679a7835b0d27d0a222bc3fdaf7f3b.png)
 

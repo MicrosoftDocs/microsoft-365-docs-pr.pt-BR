@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 description: Escolha como exibir o conteúdo em Advanced eDiscovery, como texto, anotação, conversão ou exibição nativa.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: aa8e8e9ea22469ab6d0b223c1bcc9285e2c2ef40
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 7c2adf5a1b06761832b96a06a85f72c471e5dd1c
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471064"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228514"
 ---
 # <a name="view-documents-in-a-review-set-in-advanced-ediscovery"></a>Exibir documentos em um conjunto de revisão em Advanced eDiscovery
 
@@ -49,44 +49,31 @@ O visualizador nativo exibe a exibição mais rica de um documento. Ele dá supo
 
 O visualizador de Texto fornece uma exibição do texto extraído de um arquivo. Ele ignora quaisquer imagens inseridas e formatação, mas é muito eficaz se você está tentando entender o conteúdo rapidamente. O visualização de texto também inclui estes recursos:
 
-  - O conta-linhas facilita a referência de partes específicas de um documento
+- O conta-linhas facilita a referência de partes específicas de um documento
+- Realçamento de acerto de pesquisa que realça os termos dentro do documento, bem como a barra de rolagem
+- O exibição Diff fornece uma exibição de comparação que realça as diferenças textuais ao exibir documentos Quase Duplicados
 
-  - Realçamento de acerto de pesquisa que realça os termos dentro do documento, bem como a barra de rolagem
+![Exibição de texto](../media/Reviewimage4.png)
 
-  - O exibição Diff fornece uma exibição de comparação que realça as diferenças textuais ao exibir documentos Quase Duplicados
-
-![Exibição de texto
-](../media/Reviewimage4.png)
-
-![Exibição Diff
-](../media/Reviewimage5.png)
+![Exibição Diff](../media/Reviewimage5.png)
 
 ## <a name="annotate-view"></a>Exibição de anotações
 
 O exibição Anotação fornece recursos que permitem que os usuários apliquem marcação em um documento, incluindo:
 
-  - Redação de área – os usuários podem desenhar uma caixa no documento para ocultar conteúdos confidenciais
+- Redação de área – os usuários podem desenhar uma caixa no documento para ocultar conteúdos confidenciais
+- Lápis – os usuários podem desenhar manualmente em um documento para chamar a atenção para determinadas partes de um documento
+- Selecionar anotações - os usuários podem selecionar anotações em um documento para excluir
+- Transparência de anotação de alternância – torna as anotações semi-transparentes para exibir o conteúdo por trás da anotação
+- Página anterior – navega até a página anterior
+- Próxima página – navega até a próxima página
+- Vá para a página – o usuário pode inserir um número de página específico para navegar até
+- Zoom – definir o nível de zoom para exibição de anotações
+- Girar – o usuário pode girar o documento no sentido horário
+- Pesquisa – o usuário pode pesquisar em um documento e navegar até as várias visitas dentro do documento
 
-  - Lápis – os usuários podem desenhar manualmente em um documento para chamar a atenção para determinadas partes de um documento
+  ![Exibição de anotações](../media/Reviewimage1.png)
 
-  - Selecionar anotações - os usuários podem selecionar anotações em um documento para excluir
+## <a name="dashboard-view"></a>Exibição do Painel
 
-  - Transparência de anotação de alternância – torna as anotações semi-transparentes para exibir o conteúdo por trás da anotação
-
-  - Página anterior – navega até a página anterior
-
-  - Próxima página – navega até a próxima página
-
-  - Vá para a página – o usuário pode inserir um número de página específico para navegar até
-
-  - Zoom – definir o nível de zoom para exibição de anotações
-
-  - Girar – o usuário pode girar o documento no sentido horário
-
-  - Pesquisa – o usuário pode pesquisar em um documento e navegar até as várias visitas dentro do documento
-    
-    ![Exibição de anotações
-    ](../media/Reviewimage1.png)
-
-## <a name="dashboard-view"></a>Exibição do Painel 
-A exibição do painel permite visualizar e resumir os dados na grade de resultados da pesquisa. Nesse ponto de vista, você pode criar widgets personalizados para tornar a análise e o relatório do conjunto de revisão intuitivo e fácil. Depois de criar seus widgets, você poderá interagir com eles para obter contagens de itens ou para criar uma pesquisa. 
+A exibição do painel permite visualizar e resumir os dados na grade de resultados da pesquisa. Nesse ponto de vista, você pode criar widgets personalizados para tornar a análise e o relatório do conjunto de revisão intuitivo e fácil. Depois de criar seus widgets, você poderá interagir com eles para obter contagens de itens ou para criar uma pesquisa.

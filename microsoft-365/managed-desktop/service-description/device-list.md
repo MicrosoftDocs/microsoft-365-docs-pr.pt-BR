@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 636d32f47c4fd9fdd5c0409a4ebbc2d9e79a166d
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 6e5e6b87f17fd4b13945b155bd7e521881242345
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245931"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53230050"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Área de Trabalho Gerenciada da Microsoft dispositivos
 
@@ -22,13 +22,13 @@ ms.locfileid: "52245931"
 
 Área de Trabalho Gerenciada da Microsoft avalia regularmente os dispositivos a serem incluídos no serviço. Este artigo lista os dispositivos específicos com suporte no momento. Para obter uma instrução mais geral dos requisitos de dispositivo, consulte [Requisitos de dispositivo](device-requirements.md).
 
-Para obter mais informações sobre Área de Trabalho Gerenciada da Microsoft, [consulte Área de Trabalho Gerenciada da Microsoft documentação e recursos](../index.yml). 
+Para obter mais informações sobre Área de Trabalho Gerenciada da Microsoft, [consulte Área de Trabalho Gerenciada da Microsoft documentação e recursos](../index.yml).
 
 [Selecionar e validar novos dispositivos](../get-started/validate-device.md)
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
-Para ser registrado no Área de Trabalho Gerenciada da Microsoft, um dispositivo deve ser um dos modelos a seguir e atender ou exceder as especificações listadas para RAM, família de processadores e espaço em disco. 
+Para ser registrado no Área de Trabalho Gerenciada da Microsoft, um dispositivo deve ser um dos modelos a seguir e atender ou exceder as especificações listadas para RAM, família de processadores e espaço em disco.
 
 Os links para dispositivos aqui são apenas para sua referência. Se você quiser solicitar dispositivos, trabalhe com seus contatos de canal comercial para garantir que você escolha as configurações corretas. Nesta tabela, a data *de* arquivamento é a data na qual esses modelos estarão sujeitos a uma vida de serviço Área de Trabalho Gerenciada da Microsoft menor; esses dispositivos a bordo após essa data não receberão um termo completo de três anos de suporte do Área de Trabalho Gerenciada da Microsoft. Os dispositivos arquivados também são listados [Área de Trabalho Gerenciada da Microsoft dispositivos arquivados.](archived-device-list.md) *A data de* aposentadoria é a data em que esse modelo não terá mais suporte Área de Trabalho Gerenciada da Microsoft mesmo. Nessa data, todos os dispositivos inscritos deste modelo serão removidos do Área de Trabalho Gerenciada da Microsoft, independentemente de quando foram inscritos.
 
@@ -50,9 +50,9 @@ Os links para dispositivos aqui são apenas para sua referência. Se você quise
 | **\*[Dell Latitude 7420 / 7420 2 em 1](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/new-latitude-7420-business-laptop-or-2-in-1/spd/latitude-14-7420-2-in-1-laptop)** | RAM de 256 GB / Intel i5 / 8 GB | Câmera de IR necessária | 22 de março de 2023  | 22 de março de 2026  |
 | **\*[Dell Latitude 9420 2 em 1](https://www.dell.com/en-us/work/shop/scc/sr/laptops/latitude-laptops?~ck=mn)** | RAM de 256 GB / Intel i5 / 8 GB | Câmera de IR necessária | Apr 2023  | Apr 2026  |
 | [Dell Latitude 9510](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-9510-laptop-or-2-in-1/spd/latitude-15-9510-2-in-1-laptop) | RAM de 256 GB / Intel i5 / 8 GB | Câmera de IR necessária | 5 de maio de 2022  | 5 de maio de 2025  |
-| [Dell Optiplex 3080](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-3080-tower-and-small-form-factor/spd/optiplex-3080-desktop) | RAM de 128 GB / Intel i3 / 8 GB | Nenhum | 27 de maio de 2022  | 27 de maio de 2025  |
-| [Dell Optiplex 7480](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-7480-all-in-one-desktop/spd/optiplex-7480-aio) | RAM de 128 GB / Intel i3 / 8 GB | Nenhum | 15 de maio de 2022  | 15 de maio de 2025  |
-| [Estação de trabalho do Dell 5550](https://www.dell.com/en-us/work/shop/laptops/new-15-5550-workstation/spd/precision-15-5550-laptop) | RAM de 256 GB / Intel i5 / 8 GB | Nenhum | 27 de maio de 2022  | 27 de maio de 2025  |
+| [Dell Optiplex 3080](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-3080-tower-and-small-form-factor/spd/optiplex-3080-desktop) | RAM de 128 GB / Intel i3 / 8 GB | Nenhuma | 27 de maio de 2022  | 27 de maio de 2025  |
+| [Dell Optiplex 7480](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-7480-all-in-one-desktop/spd/optiplex-7480-aio) | RAM de 128 GB / Intel i3 / 8 GB | Nenhuma | 15 de maio de 2022  | 15 de maio de 2025  |
+| [Estação de trabalho do Dell 5550](https://www.dell.com/en-us/work/shop/laptops/new-15-5550-workstation/spd/precision-15-5550-laptop) | RAM de 256 GB / Intel i5 / 8 GB | Nenhuma | 27 de maio de 2022  | 27 de maio de 2025  |
 
 ### <a name="hp"></a>HP
 
@@ -72,16 +72,16 @@ Os links para dispositivos aqui são apenas para sua referência. Se você quise
 
 | Modelo    | Especificações mínimas  | Requisitos adicionais    | Data de arquivamento   | Data de aposentadoria   |
 |----------|----------------|---------------------------|----------------|--------------------|
-| [Surface Book 3](https://www.microsoft.com/p/surface-book-3-for-business/93h0mb2gqd5b?activetab=pivot%3aoverviewtab) | RAM de 256 GB / Intel i5 / 8 GB | Nenhum | 21 de maio de 2022 | 21 de maio de 2027 |
-| [Surface Go 2](https://www.microsoft.com/p/surface-go-2-for-business/8wzd6dhzj7kv?activetab=pivot%3aoverviewtab) | RAM de 128 GB / Intel Core M3 / 8 GB | Nenhum | 21 de maio de 2022 | 21 de maio de 2027 |
-| [Surface Laptop Go](https://www.microsoft.com/surface/business/surface-laptop-go) | RAM de 128 GB / Intel i5 / 8 GB | Nenhum | 12 de outubro de 2022 | 12 de outubro de 2025 |
-| [Surface Laptop 3](https://www.microsoft.com/surface/business/surface-laptop-3) | RAM de 128 GB / Intel i5 / 8 GB | Nenhum | 22 de outubro de 2021 | 22 de outubro de 2024 |
-| [Surface Pro 7](https://www.microsoft.com/surface/business/surface-pro-7) | RAM de 128 GB / Intel i5 / 8 GB | Nenhum | 22 de outubro de 2021 | 22 de outubro de 2024 |
-| **\*[Surface Pro 7+](https://www.microsoft.com/p/surface-pro-7-for-business/8p43n3k93409?activetab=pivot%3aoverviewtab)** | RAM de 128 GB / Intel i5 / 8 GB | Nenhum | 15 de janeiro de 2022 | 15 de janeiro de 2025 |
+| [Surface Book 3](https://www.microsoft.com/p/surface-book-3-for-business/93h0mb2gqd5b?activetab=pivot%3aoverviewtab) | RAM de 256 GB / Intel i5 / 8 GB | Nenhuma | 21 de maio de 2022 | 21 de maio de 2027 |
+| [Surface Go 2](https://www.microsoft.com/p/surface-go-2-for-business/8wzd6dhzj7kv?activetab=pivot%3aoverviewtab) | RAM de 128 GB / Intel Core M3 / 8 GB | Nenhuma | 21 de maio de 2022 | 21 de maio de 2027 |
+| [Surface Laptop Go](https://www.microsoft.com/surface/business/surface-laptop-go) | RAM de 128 GB / Intel i5 / 8 GB | Nenhuma | 12 de outubro de 2022 | 12 de outubro de 2025 |
+| [Surface Laptop 3](https://www.microsoft.com/surface/business/surface-laptop-3) | RAM de 128 GB / Intel i5 / 8 GB | Nenhuma | 22 de outubro de 2021 | 22 de outubro de 2024 |
+| [Surface Pro 7](https://www.microsoft.com/surface/business/surface-pro-7) | RAM de 128 GB / Intel i5 / 8 GB | Nenhuma | 22 de outubro de 2021 | 22 de outubro de 2024 |
+| **\*[Surface Pro 7+](https://www.microsoft.com/p/surface-pro-7-for-business/8p43n3k93409?activetab=pivot%3aoverviewtab)** | RAM de 128 GB / Intel i5 / 8 GB | Nenhuma | 15 de janeiro de 2022 | 15 de janeiro de 2025 |
 
-Além disso, o dispositivo também deve atender a esses critérios:     
+Além disso, o dispositivo também deve atender a esses critérios:
 
-- Se uma SKU específica estiver listada nos requisitos do dispositivo, certifique-se de usá-la ao solicitar. Isso garante que os dispositivos cumpram os requisitos Área de Trabalho Gerenciada da Microsoft software. 
+- Se uma SKU específica estiver listada nos requisitos do dispositivo, certifique-se de usá-la ao solicitar. Isso garante que os dispositivos cumpram os requisitos Área de Trabalho Gerenciada da Microsoft software.
 - Não concluiu a experiência Windows primeira vez.
 - Ser registrado com Área de Trabalho Gerenciada da Microsoft usando o recurso [Registro de](../get-started/register-devices-self.md) Dispositivo
 

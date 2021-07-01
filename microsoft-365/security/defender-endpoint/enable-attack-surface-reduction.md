@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: how-to
 ms.date: 06/02/2021
-ms.openlocfilehash: cb56872be3cef2e094583e59a702707f79355743
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 65215d15e79ab03611bbf28c153d6882fd1c355d
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177616"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229138"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>Habilitar regras da redução da superfície de ataque
 
@@ -49,7 +49,7 @@ Você pode definir regras de redução de superfície de ataque para dispositivo
 Para usar todo o conjunto de recursos de regras de redução de superfície de ataque, você precisa:
 
 - Windows Defender Antivírus como AV principal (proteção em tempo real on)
-- [Proteção de Entrega na Nuvem](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) (algumas regras exigem isso)
+- [Proteção de Entrega na Nuvem](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) (algumas regras exigem isso)
 - Windows 10 Enterprise Licença E5 ou E3 ou Microsoft 365 Business License
 
 Embora as regras de redução de superfície de ataque não exigem uma licença do [Windows E5](/windows/deployment/deploy-enterprise-licenses), com uma licença do Windows E5, você recebe recursos avançados de gerenciamento, incluindo monitoramento, análise e fluxos de trabalho disponíveis no Defender para Ponto de Extremidade, bem como recursos de relatório e configuração no centro de segurança Microsoft 365. Esses recursos avançados não estão disponíveis com uma licença E3, mas você ainda pode usar o Visualizador de Eventos para revisar eventos de regra de redução de superfície de ataque.

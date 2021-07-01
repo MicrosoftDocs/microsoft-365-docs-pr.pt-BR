@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Aprenda sobre os novos recursos de criptografia das mensagens do Office 365 que permitem a comunicação protegida por e-mail com pessoas dentro e fora da organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cf37826c3e1e349947ab83fe211f9406a765e5ea
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: 9b738c0f93b8958e441b34b458942c2b34c16661
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876300"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228574"
 ---
 # <a name="set-up-new-message-encryption-capabilities"></a>Configurar recursos de criptografia de nova mensagem
 
@@ -39,13 +39,13 @@ O único pré-requisito para usar os novos recursos de OME que o [Azure Rights M
 
 O Azure RMS também é ativado automaticamente para a maioria dos planos qualificados, portanto, provavelmente você não precise fazer nada. Para saber mais confira [Ativar o Gerenciamento de Direitos do Azure](/azure/information-protection/activate-service).
 
->[!IMPORTANT]
->Se você usa o AD RMS (Active Directory Rights Management Services) com o Exchange Online, [é preciso migrar para a Proteção de Informações do Azure](/azure/information-protection/migrate-from-ad-rms-to-azure-rms) antes de poder usar os novos recursos do OME. OME não é compatível com AD RMS.  
+> [!IMPORTANT]
+> Se você usa o AD RMS (Active Directory Rights Management Services) com o Exchange Online, [é preciso migrar para a Proteção de Informações do Azure](/azure/information-protection/migrate-from-ad-rms-to-azure-rms) antes de poder usar os novos recursos do OME. OME não é compatível com AD RMS.
 
 Para saber mais, veja:
 
 - [Quais assinaturas eu preciso para usar os novos recursos do OME? ](ome-faq.yml#what-subscriptions-do-i-need-to-use-the-new-ome-capabilities-) para verificar se o seu plano de assinatura inclui a proteção de informações do Azure (que inclui a funcionalidade do Azure RMS).
-- [Proteção de Informações do Azure](https://azure.microsoft.com/services/information-protection/) para saber mais sobre como adquirir uma assinatura qualificada.  
+- [Proteção de Informações do Azure](https://azure.microsoft.com/services/information-protection/) para saber mais sobre como adquirir uma assinatura qualificada.
 
 ### <a name="manually-activating-azure-rights-management"></a>Ativar manualmente o Gerenciamento de Direitos do Azure
 
@@ -63,7 +63,7 @@ Há muitos motivos, por exemplo, os requisitos de conformidade, que podem exigir
 ## <a name="verify-new-ome-configuration-in-exchange-online-powershell"></a>Verificar a nova configuração do OME no PowerShell do Exchange Online
 
 Você pode verificar se o locatário do Microsoft 365 está configurado corretamente para usar os novos recursos do OME no[Exchange Online do PowerShell](/powershell/exchange/exchange-online-powershell).
-  
+
 1. [Conecte-se ao Exchange Online do PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) usando uma conta com permissões de administrador global em seu locatário do Microsoft 365.
 
 2. Execute o cmdlet Get-IRMConfiguration.
@@ -74,7 +74,7 @@ Você pode verificar se o locatário do Microsoft 365 está configurado corretam
 
      ```powershell
      Test-IRMConfiguration [-Sender <email address >]
-     ```  
+     ```
 
    **Exemplo**:
 
@@ -114,11 +114,11 @@ Você pode verificar se o locatário do Microsoft 365 está configurado corretam
 
 Se houver regras de fluxo de email configuradas anteriormente para criptografar email em sua organização, você precisará atualizar as regras existentes para usar os novos recursos OME. Para novas implantações, você precisa criar novas regras de fluxo de email.
 
->[!IMPORTANT]
->Se você não atualizar as regras de fluxo de email existentes, os usuários continuarão a receber emails criptografados que usam o formato de anexo HTML anterior, em vez da nova experiência contínua do OME.
+> [!IMPORTANT]
+> Se você não atualizar as regras de fluxo de email existentes, os usuários continuarão a receber emails criptografados que usam o formato de anexo HTML anterior, em vez da nova experiência contínua do OME.
 
 As regras de fluxo de email determinam em quais condições as mensagens de email devem ser criptografadas, bem como as condições para a remoção dessa criptografia. Quando você define uma ação para uma regra, todas as mensagens que correspondem às condições da regra são criptografadas quando são enviadas.
-  
+
 Para ver as etapas sobre como criar regras de fluxo, confira [Definir regras de fluxo de e-mail para criptografar mensagens de e-mail no Office 365](define-mail-flow-rules-to-encrypt-email.md).
 
 Para atualizar regras existentes para usar os novos recursos do OME:

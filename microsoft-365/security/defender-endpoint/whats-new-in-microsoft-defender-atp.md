@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ceca8ac76f63ef7da34f4222312e9e03a3b0e23a
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 6c200d4ac81f12e46b085261c5ece279839255f4
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53062253"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228382"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>Novidades no Microsoft Defender para Ponto de Extremidade
 
@@ -40,8 +40,8 @@ Para obter mais informações sobre recursos de visualização, consulte [Recurs
 
 
 > [!TIP]
-> RSS feed: seja notificado quando esta página for atualizada copiando e colar a SEGUINTE URL no leitor de feeds: 
-> 
+> RSS feed: seja notificado quando esta página for atualizada copiando e colar a SEGUINTE URL no leitor de feeds:
+>
 > ```https
 > /api/search/rss?search=%22features+are+generally+available+%28GA%29+in+the+latest+release+of+Microsoft+Defender+for+Endpoint%22&locale=en-us&facet=
 > ```
@@ -51,13 +51,13 @@ Para obter mais informações sobre recursos de visualização, consulte [Recurs
 - [Descoberta de dispositivo](device-discovery.md) <br> Ajuda você a encontrar dispositivos não administrativos conectados à sua rede corporativa sem a necessidade de dispositivos extras ou alterações de processo complicadas. Usando dispositivos conectados, você pode encontrar dispositivos nãomanageados em sua rede e avaliar vulnerabilidades e riscos. Em seguida, você pode integrar dispositivos descobertos para reduzir os riscos associados a ter pontos de extremidade nãomanageados em sua rede.
 
    > [!IMPORTANT]
-   > A descoberta padrão será o modo padrão para todos os clientes a partir de 19 de julho de 2021. Você pode optar por manter o modo básico por meio da página de configurações. 
+   > A descoberta padrão será o modo padrão para todos os clientes a partir de 19 de julho de 2021. Você pode optar por manter o modo básico por meio da página de configurações.
 
 
 - [As definições do grupo de dispositivos](/microsoft-365/security/defender-endpoint/machine-groups) agora podem incluir vários valores para cada condição. Você pode definir várias marcas, nomes de dispositivo e domínios para a definição de um único grupo de dispositivos.
 
 ## <a name="march-2021"></a>Março de 2021
-- [Gerenciar a proteção contra violações usando a Central de Segurança do Microsoft Defender](prevent-changes-to-security-settings-with-tamper-protection.md#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) <br> Você pode gerenciar configurações de proteção contra Windows 10, Windows Server 2016 e Windows Server 2019 usando um método chamado *anexação de locatário.* 
+- [Gerenciar a proteção contra violações usando a Central de Segurança do Microsoft Defender](prevent-changes-to-security-settings-with-tamper-protection.md#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) <br> Você pode gerenciar configurações de proteção contra Windows 10, Windows Server 2016 e Windows Server 2019 usando um método chamado *anexação de locatário.*
 
 ## <a name="january-2021"></a>Janeiro de 2021
 
@@ -76,7 +76,7 @@ Para obter mais informações sobre recursos de visualização, consulte [Recurs
 
 
 ## <a name="july-2020"></a>Julho de 2020
-- [Criar indicadores para certificados](manage-indicators.md) <br> Crie indicadores para permitir ou bloquear certificados. 
+- [Criar indicadores para certificados](manage-indicators.md) <br> Crie indicadores para permitir ou bloquear certificados.
 
 ## <a name="june-2020"></a>Junho de 2020
 - [Microsoft Defender para Ponto de Extremidade para Linux](microsoft-defender-endpoint-linux.md) <br> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para Linux. Saiba como instalar, configurar, atualizar e usar o Microsoft Defender para Ponto de Extremidade no Linux.
@@ -91,23 +91,23 @@ Para obter mais informações sobre recursos de visualização, consulte [Recurs
 ## <a name="november-december-2019"></a>November-December 2019
 
 - [Microsoft Defender para Ponto de Extremidade no macOS](microsoft-defender-endpoint-mac.md) <BR> O Microsoft Defender para Ponto de Extremidade no macOS traz a proteção de última geração para dispositivos Mac. Os principais componentes da plataforma de segurança do ponto de extremidade unificado agora estarão disponíveis para dispositivos Mac, incluindo [detecção e resposta de ponto de extremidade](microsoft-defender-endpoint-mac.md).
- 
+
 - [Informações de fim de vida de aplicativos e versão de aplicativos de gerenciamento de vulnerabilidades & ameaças](tvm-security-recommendation.md) <BR>Aplicativos e versões de aplicativos que chegaram ao fim da vida útil são marcados ou rotulados como tal, para que você saiba que eles não terão mais suporte e podem tomar medidas para desinstalar ou substituir. Fazer isso ajudará a diminuir os riscos relacionados a várias exposições de vulnerabilidade devido a aplicativos sempata.
 
-- [Esquemas de & de busca avançada de vulnerabilidades](advanced-hunting-schema-reference.md) <BR>Use as tabelas gerenciamento de vulnerabilidades & ameaças no esquema de busca avançado para consultar sobre inventário de software, base de dados de conhecimento de vulnerabilidade, avaliação de configuração de segurança e base de dados de conhecimento de configuração de segurança. 
- 
+- [Esquemas de & de busca avançada de vulnerabilidades](advanced-hunting-schema-reference.md) <BR>Use as tabelas gerenciamento de vulnerabilidades & ameaças no esquema de busca avançado para consultar sobre inventário de software, base de dados de conhecimento de vulnerabilidade, avaliação de configuração de segurança e base de dados de conhecimento de configuração de segurança.
+
  - [Controles & de acesso baseados em função de Gerenciamento de Vulnerabilidades](user-roles.md#create-roles-and-assign-the-role-to-an-azure-active-directory-group) <BR>Use as novas permissões para permitir a máxima flexibilidade para criar funções orientadas a SecOps, funções orientadas a Ameaças & Gerenciamento de Vulnerabilidades ou funções híbridas, portanto, somente usuários autorizados estão acessando dados específicos para fazer sua tarefa. Você também pode obter ainda mais granularidade especificando se uma função de Gerenciamento de Vulnerabilidades & ameaça só pode exibir dados relacionados a vulnerabilidades ou pode criar e gerenciar correções e exceções.
 
 - [Relatório de conformidade e saúde do dispositivo](machine-reports.md) <br/> O relatório de conformidade e saúde do dispositivo fornece informações de alto nível sobre os dispositivos em sua organização.
 
 ## <a name="october-2019"></a>Outubro de 2019
 
-- [Indicadores para endereços IP, URLs/Domínios](manage-indicators.md) <BR> Agora você pode permitir ou bloquear URLs/domínios usando sua própria inteligência contra ameaças. 
+- [Indicadores para endereços IP, URLs/Domínios](manage-indicators.md) <BR> Agora você pode permitir ou bloquear URLs/domínios usando sua própria inteligência contra ameaças.
 
 
-- [Especialistas em Ameaças da Microsoft - Especialistas sob Demanda](microsoft-threat-experts.md) <BR> Agora você tem a opção de consultar Especialistas em Ameaças da Microsoft de vários locais no portal para ajudá-lo no contexto de sua investigação.   
- 
-- [Aplicativos conectados do Azure AD](connected-applications.md)<br> A página Aplicativos Conectados fornece informações sobre os aplicativos do Azure AD conectados ao Microsoft Defender para Ponto de Extremidade em sua organização. 
+- [Especialistas em Ameaças da Microsoft - Especialistas sob Demanda](microsoft-threat-experts.md) <BR> Agora você tem a opção de consultar Especialistas em Ameaças da Microsoft de vários locais no portal para ajudá-lo no contexto de sua investigação.
+
+- [Aplicativos conectados do Azure AD](connected-applications.md)<br> A página Aplicativos Conectados fornece informações sobre os aplicativos do Azure AD conectados ao Microsoft Defender para Ponto de Extremidade em sua organização.
 
 - [Explorador de API](api-explorer.md)<br> O explorador de API facilita a construção e a execução de consultas de API, teste e envio de solicitações para qualquer ponto de extremidade disponível da API do Microsoft Defender para Ponto de Extremidade.
 
@@ -126,17 +126,17 @@ Para obter mais informações sobre recursos de visualização, consulte [Recurs
 ## <a name="june-2019"></a>Junho de 2019
 
 - [Gerenciamento & de vulnerabilidades](next-gen-threat-and-vuln-mgt.md) <BR> Um novo recurso integrado que usa uma abordagem baseada em risco para a descoberta, priorização e correção de vulnerabilidades de ponto de extremidade e configurações in-loco.
-  
+
 - [Relatório de conformidade e saúde do dispositivo](machine-reports.md)  O relatório de conformidade e saúde do dispositivo fornece informações de alto nível sobre os dispositivos em sua organização.
 
 ## <a name="may-2019"></a>Maio de 2019
 
-- [Relatórios de proteção contra ameaças](threat-protection-reports.md)<BR>O relatório de proteção contra ameaças fornece informações de alto nível sobre alertas gerados em sua organização. 
+- [Relatórios de proteção contra ameaças](threat-protection-reports.md)<BR>O relatório de proteção contra ameaças fornece informações de alto nível sobre alertas gerados em sua organização.
 
 
-- [Especialistas em Ameaças da Microsoft](microsoft-threat-experts.md)<BR> Especialistas em Ameaças da Microsoft é o novo serviço gerenciado de busca de ameaças no Microsoft Defender para Ponto de Extremidade que fornece busca proativa, priorização e contexto e percepções adicionais que capacitam ainda mais os centros de operações de segurança (SOCs) a identificar e responder a ameaças de forma rápida e precisa. Ele fornece camada adicional de experiência e ótica que os clientes da Microsoft podem usar para aumentar os recursos de operação de segurança como parte Microsoft 365.  
+- [Especialistas em Ameaças da Microsoft](microsoft-threat-experts.md)<BR> Especialistas em Ameaças da Microsoft é o novo serviço gerenciado de busca de ameaças no Microsoft Defender para Ponto de Extremidade que fornece busca proativa, priorização e contexto e percepções adicionais que capacitam ainda mais os centros de operações de segurança (SOCs) a identificar e responder a ameaças de forma rápida e precisa. Ele fornece camada adicional de experiência e ótica que os clientes da Microsoft podem usar para aumentar os recursos de operação de segurança como parte Microsoft 365.
 
-- [Indicadores](ti-indicator.md) <BR> As APIs para indicadores agora estão geralmente disponíveis. 
+- [Indicadores](ti-indicator.md) <BR> As APIs para indicadores agora estão geralmente disponíveis.
 
 
 - [Interoperabilidade](partner-applications.md) <BR> O Microsoft Defender for Endpoint oferece suporte a aplicativos de terceiros para ajudar a aprimorar os recursos de detecção, investigação e inteligência contra ameaças da plataforma.
@@ -145,22 +145,22 @@ Para obter mais informações sobre recursos de visualização, consulte [Recurs
 ## <a name="april-2019"></a>Abril de 2019
 - [Especialistas em Ameaças da Microsoft Recurso de Notificação de Ataque Direcionado](microsoft-threat-experts.md) <BR> Especialistas em Ameaças da Microsoft os alertas de Notificação de Ataque Direcionado são adaptados às organizações para fornecer o máximo de informações que podem ser entregues rapidamente, chamando a atenção para ameaças críticas em sua rede, incluindo a linha do tempo, o escopo da violação e os métodos de intrusão.
 
-- [API do Microsoft Defender para Ponto de Extremidade](apis-intro.md) <BR> O Microsoft Defender para Ponto de Extremidade expõe grande parte de seus dados e ações por meio de um conjunto de APIs programáticas. Essas APIs permitirão automatizar fluxos de trabalho e inovar com base nos recursos do Microsoft Defender para o Ponto de Extremidade. 
+- [API do Microsoft Defender para Ponto de Extremidade](apis-intro.md) <BR> O Microsoft Defender para Ponto de Extremidade expõe grande parte de seus dados e ações por meio de um conjunto de APIs programáticas. Essas APIs permitirão automatizar fluxos de trabalho e inovar com base nos recursos do Microsoft Defender para o Ponto de Extremidade.
 
 
 
 ## <a name="february-2019"></a>Fevereiro de 2019
-- [Incidentes](view-incidents-queue.md) <BR> Incident é uma nova entidade no Microsoft Defender para Ponto de Extremidade que reúne todos os alertas relevantes e entidades relacionadas para narrar a história de ataque mais ampla, dando aos analistas uma perspectiva melhor sobre a responsabilidade de ameaças complexas. 
+- [Incidentes](view-incidents-queue.md) <BR> Incident é uma nova entidade no Microsoft Defender para Ponto de Extremidade que reúne todos os alertas relevantes e entidades relacionadas para narrar a história de ataque mais ampla, dando aos analistas uma perspectiva melhor sobre a responsabilidade de ameaças complexas.
 
 - [Versões anteriores integradas do Windows](onboard-downlevel.md)<BR> Versões com suporte de Windows dispositivos para que possam enviar dados do sensor para o sensor do Microsoft Defender para Ponto de Extremidade.
 
 
 ## <a name="october-2018"></a>Outubro de 2018
-- [Regras da redução da superfície de ataque](attack-surface-reduction.md)<BR>Todas as regras de redução de superfície de ataque agora têm suporte no Windows Server 2019.
+- [Regras de redução de superfície de ataque](attack-surface-reduction.md)<BR>Todas as regras de redução de superfície de ataque agora têm suporte no Windows Server 2019.
 
 - [Acesso controlado a pastas](enable-controlled-folders.md)<BR> O acesso controlado a pastas agora é suportado no Windows Server 2019.
 
-- [Detecção personalizada](manage-indicators.md)<BR>Com detecções personalizadas, você pode criar consultas personalizadas para monitorar eventos de qualquer tipo de comportamento, como ameaças suspeitas ou emergentes. Isso pode ser feito aproveitando o poder da busca avançada por meio da criação de regras de detecção personalizadas. 
+- [Detecção personalizada](manage-indicators.md)<BR>Com detecções personalizadas, você pode criar consultas personalizadas para monitorar eventos de qualquer tipo de comportamento, como ameaças suspeitas ou emergentes. Isso pode ser feito aproveitando o poder da busca avançada por meio da criação de regras de detecção personalizadas.
 
 - [Integração com o Azure Defender](configure-server-endpoints.md)<BR> O Microsoft Defender for Endpoint se integra ao Azure Defender para fornecer uma solução abrangente de proteção do servidor. Com essa integração, o Azure Defender pode aproveitar o poder do Microsoft Defender para o Ponto de Extremidade para fornecer detecção aprimorada de ameaças para Windows Servidores.
 
@@ -173,23 +173,25 @@ Para obter mais informações sobre recursos de visualização, consulte [Recurs
 - [Análise de ameaças](threat-analytics.md)<BR>
 A Análise de Ameaças é um conjunto de relatórios interativos publicados pela equipe de pesquisa do Microsoft Defender for Endpoint assim que ameaças e surtos emergentes são identificados. Os relatórios ajudam as equipes de operações de segurança a avaliar o impacto em seu ambiente e fornece ações recomendadas para conter, aumentar a resiliência organizacional e evitar ameaças específicas.
 
-- Novidade na Windows 10 versão 1809, há duas novas regras de redução de superfície de ataque: 
+- Novidade na Windows 10 versão 1809, há duas novas regras de redução de superfície de ataque:
   - Impedir o Adobe Reader de criar processos filho
   - Impedir Office aplicativo de comunicação da criação de processos filho.
-  
+
 - [Microsoft Defender Antivírus](microsoft-defender-antivirus-in-windows-10.md)
-    - A AmSI (Interface de Verificação antimalware) também foi estendida para abranger Office VBA. [Office VBA + AMSI: Separar o velão em macros mal-intencionadas](https://cloudblogs.microsoft.com/microsoftsecure/2018/09/12/office-vba-amsi-parting-the-veil-on-malicious-macros/).
-    - Microsoft Defender Antivírus, novo na Windows 10 versão 1809, agora pode ser executado em uma [área de segurança](https://www.microsoft.com/security/blog/2018/10/26/windows-defender-antivirus-can-now-run-in-a-sandbox) (visualização), aumentando sua segurança.
-    - [Configure as configurações de prioridade da CPU](configure-advanced-scan-types-microsoft-defender-antivirus.md) para Microsoft Defender Antivírus verificações.
+  - A AmSI (Interface de Verificação antimalware) também foi estendida para abranger Office VBA. [Office VBA + AMSI: Separar o velão em macros mal-intencionadas](https://cloudblogs.microsoft.com/microsoftsecure/2018/09/12/office-vba-amsi-parting-the-veil-on-malicious-macros/).
+  - Microsoft Defender Antivírus, novo na Windows 10 versão 1809, agora pode ser executado em uma [área de segurança](https://www.microsoft.com/security/blog/2018/10/26/windows-defender-antivirus-can-now-run-in-a-sandbox) (visualização), aumentando sua segurança.
+  - [Configure as configurações de prioridade da CPU](configure-advanced-scan-types-microsoft-defender-antivirus.md) para Microsoft Defender Antivírus verificações.
 
-
-  
 ## <a name="march-2018"></a>Março de 2018
-- [Busca Avançada](advanced-hunting-overview.md) <BR>
-Dados de consulta usando a busca avançada no Microsoft Defender para Ponto de Extremidade.
 
-- [Regras da redução da superfície de ataque](/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)<BR>
-    Novas regras de redução de superfície de ataque: 
+- [Busca Avançada](advanced-hunting-overview.md)
+
+   Dados de consulta usando a busca avançada no Microsoft Defender para Ponto de Extremidade.
+
+- [Regras de redução de superfície de ataque](/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)
+
+  Novas regras de redução de superfície de ataque:
+
   - Usar proteção avançada contra ransomware
   - Bloquear o roubo de credenciais do subsistema Windows autoridade de segurança local (lsass.exe)
   - Bloquear criações de processo provenientes de comandos PSExec e WMI
@@ -198,13 +200,13 @@ Dados de consulta usando a busca avançada no Microsoft Defender para Ponto de E
 
 - [Investigação e correção automatizadas](automated-investigations.md)<BR> Use investigações automatizadas para investigar e remediar ameaças.
 
-    >[!NOTE]
-    >Disponível no Windows 10, versão 1803 ou posterior.
+    > [!NOTE]
+    > Disponível no Windows 10, versão 1803 ou posterior.
 
 - [Acesso condicional](conditional-access.md) <br> Habilita o acesso condicional para proteger melhor os usuários, dispositivos e dados.
 
-- [Microsoft Defender for Endpoint Community center](community.md)<BR> 
-    O Centro de Community do Microsoft Defender for Endpoint é um local onde os membros da comunidade podem aprender, colaborar e compartilhar experiências sobre o produto. 
+- [Microsoft Defender for Endpoint Community center](community.md)<BR>
+    O Centro de Community do Microsoft Defender for Endpoint é um local onde os membros da comunidade podem aprender, colaborar e compartilhar experiências sobre o produto.
 
 - [Acesso controlado a pastas](enable-controlled-folders.md)<BR>
 Agora você pode bloquear processos não confirmados da escrita em setores de disco usando o Acesso Controlado a Pastas.
