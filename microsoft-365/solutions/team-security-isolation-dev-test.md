@@ -16,12 +16,12 @@ ms.collection:
 - remotework
 ms.custom: ''
 description: Configure os recursos de segurança e a infraestrutura para permitir que seus funcionários trabalhem remotamente em praticamente qualquer lugar e a qualquer momento.
-ms.openlocfilehash: 62361126ad0b843fd909b98807eeb186f13e75bb
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: c58f0849937d7a807c9969e1651c51b3a9470ba5
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778329"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228598"
 ---
 # <a name="configure-a-team-with-security-isolation-in-a-devtest-environment"></a>Configurar uma equipe com isolamento de segurança em um ambiente de desenvolvimento/teste
 
@@ -30,57 +30,56 @@ Este artigo fornece instruções detalhadas para criar uma [equipe com isolament
 ![Configuração da equipe isolada de Estratégia da Empresa](../media/team-security-isolation-dev-test/team-security-isolation-dev-test-config.png)
 
 Use esse ambiente de desenvolvimento/teste para experimentar e ajustar as configurações de acordo com as suas necessidades específicas antes de implantar esse tipo de equipe em produção.
-  
+
 ## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: criar o ambiente de teste do Microsoft 365 Enterprise
 
 Se você quiser apenas testar equipes confidenciais e altamente confidenciais de uma maneira simples com os requisitos mínimos, siga as instruções em [Configuração de base leve](../enterprise/lightweight-base-configuration-microsoft-365-enterprise.md).
 
 Caso pretenda testar equipes confidenciais e altamente confidenciais em uma empresa simulada, siga as instruções em [Sincronização de hash de senha](../enterprise/password-hash-sync-m365-ent-test-environment.md).
 
->[!Note]
->O teste de uma equipe com isolamento de segurança não exige o ambiente de teste corporativo simulado, que inclui uma intranet simulada conectada à Internet e a sincronização de diretórios para uma floresta do AD DS (Active Directory Domain Services). Ele é fornecido aqui como uma opção, para que você possa testar uma equipe com isolamento de segurança e fazer experimentos com ela em um ambiente que representa uma organização típica.
->
-    
+> [!NOTE]
+> O teste de uma equipe com isolamento de segurança não exige o ambiente de teste corporativo simulado, que inclui uma intranet simulada conectada à Internet e a sincronização de diretórios para uma floresta do AD DS (Active Directory Domain Services). Ele é fornecido aqui como uma opção, para que você possa testar uma equipe com isolamento de segurança e fazer experimentos com ela em um ambiente que representa uma organização típica.
+
 ## <a name="phase-2-create-and-configure-your-azure-active-directory-azure-ad-group-and-users"></a>Fase 2: criar e configurar seu grupo e usuários do Azure AD (Azure Active Directory)
 
 Nesta fase, você cria e configura um grupo e usuários do Azure AD para sua organização fictícia.
-  
+
 Primeiro, crie um grupo de segurança com o portal do Azure.
-  
+
 1. Crie uma guia separada no navegador e vá para o Portal do Azure[https://portal.azure.com](https://portal.azure.com). Se necessário, entre com as credenciais da conta de administrador global da sua assinatura paga ou de avaliação do Microsoft 365 E5.
-    
+
 2. No Portal do Azure, clique em **Azure Active Directory > Grupos**.
-    
+
 3. Na folha **Grupos – Todos os grupos**, clique em **+ Novo grupo**.
-    
+
 4. Na folha **Grupo**:
-    
+
   - Selecione **Segurança** em **Tipo de grupo**.
-    
+
   - Digite **Pacote C** em **Nome**.
-    
+
   - Escolha **Atribuído** em **Tipo de Associação**.
-      
+
 5. Clique em **Criar** e, em seguida, feche a folha **Grupo**.
-    
+
 Em seguida, configure o licenciamento automático, de modo que os membros do novo grupo **C-Suite** recebam automaticamente uma licença do Microsoft 365 E5.
-  
+
 1. No Portal do Azure, clique em **Azure Active Directory > Licenças > Todos os produtos**.
-    
-2. Na lista, selecione **Microsoft 365 Enterprise E5**e, em seguida, clique em **atribuir**.
-    
+
+2. Na lista, selecione **Microsoft 365 Enterprise E5** e, em seguida, clique em **atribuir**.
+
 3. Na folha **Atribuir licença**, clique em **Usuários e grupos**.
-    
+
 4. Na lista de grupos, selecione **C-Suite**.
-    
+
 5. Clique em **Selecionar** e clique em **Atribuir**.
-    
+
 6. Feche a guia do Portal do Azure no navegador.
-    
+
 Em seguida, [conecte-se ao módulo PowerShell do Azure Active Directory para Graph](../enterprise/connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
-  
+
 Preencha o nome da organização, seu local e uma senha comum. Execute esses comandos no prompt de comando do PowerShell ou no ISE (Ambiente de Script Integrado) para criar contas de usuário e adicioná-las ao grupo C-Suite:
-  
+
 ```powershell
 $orgName="<organization name, such as contoso-test for the contoso-test.onmicrosoft.com trial subscription domain name>"
 $location="<the ISO ALPHA2 country code, such as US for the United States>"
@@ -90,27 +89,27 @@ $PasswordProfile=New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfi
 $PasswordProfile.Password=$commonPassword
 
 $groupName="C-Suite"
-$userNames=@("CEO","CFO","CIO") 
+$userNames=@("CEO","CFO","CIO")
 $groupID=(Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectID
-ForEach ($element in $userNames){ 
-New-AzureADUser -DisplayName $element -PasswordProfile $PasswordProfile -UserPrincipalName ($element + "@" + $orgName + ".onmicrosoft.com") -AccountEnabled $true -MailNickName $element -UsageLocation $location 
+ForEach ($element in $userNames){
+New-AzureADUser -DisplayName $element -PasswordProfile $PasswordProfile -UserPrincipalName ($element + "@" + $orgName + ".onmicrosoft.com") -AccountEnabled $true -MailNickName $element -UsageLocation $location
 Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -eq $element }).ObjectID -ObjectId $groupID
 }
 ```
 
 > [!NOTE]
-> O uso de uma senha comum aqui é para a automação e facilidade de configuração para um ambiente de desenvolvimento/teste. Obviamente, isso é recomendado para assinaturas de produção. 
-  
+> O uso de uma senha comum aqui é para a automação e facilidade de configuração para um ambiente de desenvolvimento/teste. Obviamente, isso é altamente desencorajado para assinaturas de produção.
+
 Use essas etapas para verificar se o licenciamento baseado em grupo está funcionando corretamente.
-  
+
 1. Entre no [Centro de administração do Microsoft 365](https://admin.microsoft.com).
-    
+
 2. Na nova guia **Centro de administração do Microsoft 365** do seu navegador, clique em **Usuários**.
-    
+
 3. Na lista de usuários, clique em **CEO**.
-    
+
 4. No painel que lista as propriedades da conta de usuário **CEO**, verifique se ela recebeu a licença do **Microsoft 365 Enterprise E5** em **Licenças de produto**.
-    
+
 ## <a name="phase-3-create-your-team"></a>Fase 3: criar sua equipe
 
 Nesta fase, você criará e configurará uma equipe com isolamento de segurança para que os membros da equipe de liderança sênior colaborem com a estratégia da empresa.
@@ -160,7 +159,7 @@ Execute estas etapas:
 14. Na página **Rotulação automática para aplicativos do Office**, clique em **Avançar**.
 15. Clique em **Enviar** e, em seguida, clique em **Concluído**.
 
-Em seguida, publique o novo rótulo usando estas etapas: 
+Em seguida, publique o novo rótulo usando estas etapas:
 
 1. No Centro de conformidade do Microsoft 365, na página **Proteção de informações**, escolha a guia **Políticas de rótulo**.
 2. Clique em **Publicar rótulos**.
@@ -177,7 +176,7 @@ Em seguida, publique o novo rótulo usando estas etapas:
 
 Talvez demore um pouco para que o rótulo **Estratégia da Empresa** fique disponível após a publicação.
 
-Em seguida, aplique seu novo rótulo à equipe **Estratégia da Empresa** e atualize o tipo de link de compartilhamento padrão para reduzir o risco de compartilhamento acidental de arquivos e pastas para um público maior do que o pretendido. 
+Em seguida, aplique seu novo rótulo à equipe **Estratégia da Empresa** e atualize o tipo de link de compartilhamento padrão para reduzir o risco de compartilhamento acidental de arquivos e pastas para um público maior do que o pretendido.
 
 1. Abra o [Centro de administração do SharePoint](https://admin.microsoft.com/sharepoint).
 2. Em **Sites**, clique em **Sites ativos**.

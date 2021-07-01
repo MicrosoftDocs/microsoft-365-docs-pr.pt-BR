@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Garanta que seus funcionários remotos possam acessar recursos locais ao otimizar o acesso aos serviços em nuvem do Microsoft 365.
-ms.openlocfilehash: 9fea86bb9c564a37a519d2c7e0ef2e2fd0a59470
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: bc446cf26ec99d3e9f81564b5474777c674603bc
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52029129"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229426"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>Etapa 2. Fornecer acesso remoto a aplicativos e serviços locais
 
@@ -51,7 +51,7 @@ Sem o túnel dividido, todo o seu tráfego de trabalho remoto é enviado pela co
 
 ![Tráfego de rede de clientes VPN sem túnel dividido](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-before-tunneling.png)
 
-O tráfego do Microsoft 365 deve seguir uma rota indireta através da sua organização, que pode ser encaminhada para um ponto de entrada da rede Microsoft longe da localização física do cliente VPN. Esse caminho indireto adiciona latência ao tráfego da rede e diminui o desempenho geral. 
+O tráfego do Microsoft 365 deve seguir uma rota indireta através da sua organização, que pode ser encaminhada para um ponto de entrada da rede Microsoft longe da localização física do cliente VPN. Esse caminho indireto adiciona latência ao tráfego da rede e diminui o desempenho geral.
 
 Com o túnel dividido, você pode configurar seu cliente VPN para impedir que tipos específicos de tráfego sejam enviados à rede da organização pela conexão VPN.
 
@@ -67,7 +67,7 @@ Para obter mais informações e orientações, confira [Otimizar a conectividade
 
 ## <a name="deploy-remote-access-when-all-your-apps-are-web-apps-and-you-have-hybrid-identity"></a>Implantar o acesso remoto quando todos os seus aplicativos são aplicativos Web e você tem identidade híbrida
 
-Se seus trabalhadores remotos não estiverem utilizando um cliente VPN tradicional e suas contas de usuário e grupos locais estiverem sincronizados com o Azure AD, você poderá utilizar o Aplicativo de Proxy do Microsoft Azure AD para fornecer acesso remoto seguro para aplicativos baseados na web hospedados em servidores locais. Os aplicativos baseados na web incluem sites do SharePoint Server, servidores Outlook Web Access ou qualquer outro aplicativo da linha de negócios baseado na web. 
+Se seus trabalhadores remotos não estiverem utilizando um cliente VPN tradicional e suas contas de usuário e grupos locais estiverem sincronizados com o Azure AD, você poderá utilizar o Aplicativo de Proxy do Microsoft Azure AD para fornecer acesso remoto seguro para aplicativos baseados na web hospedados em servidores locais. Os aplicativos baseados na web incluem sites do SharePoint Server, servidores Outlook Web Access ou qualquer outro aplicativo da linha de negócios baseado na web.
 
 Estes são os componentes do Proxy de Aplicativo do Microsoft Azure Active Directory.
 
@@ -75,35 +75,32 @@ Estes são os componentes do Proxy de Aplicativo do Microsoft Azure Active Direc
 
 Para obter mais informações, confira esta [visão geral do Proxy de Aplicativo do Microsoft Azure Active Directory](/azure/active-directory/manage-apps/application-proxy).
 
->[!Note]
->O Proxy do aplicativo Azure Active Directory não está incluído na assinatura do Microsoft 365. Você deve pagar por uso com uma assinatura separada do Azure.
->
+> [!NOTE]
+> O Proxy do aplicativo Azure Active Directory não está incluído na assinatura do Microsoft 365. Você deve pagar por uso com uma assinatura separada do Azure.
 
 ## <a name="deploy-remote-access-when-not-all-your-apps-are-web-apps"></a>Implantar o acesso remoto quando nem todos os seus aplicativos são aplicativos Web
 
 Se seus trabalhadores remotos não estiverem utilizando um cliente VPN tradicional e você tiver aplicativos que não sejam baseados na web, você pode utilizar uma VPN ponto a site (P2S) do Azure.
 
-Uma conexão VPN P2S cria uma conexão segura do dispositivo de um trabalhador remoto à rede da sua organização por meio de uma rede virtual do Azure. 
+Uma conexão VPN P2S cria uma conexão segura do dispositivo de um trabalhador remoto à rede da sua organização por meio de uma rede virtual do Azure.
 
 ![Componentes da VPN P2S do Azure](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-p2s-vpn.png)
 
 Para mais informações, confira esta [visão geral da VPN P2S](/azure/vpn-gateway/point-to-site-about).
 
->[!Note]
->O Azure P2P VPN não está incluído na assinatura do Microsoft 365. Você deve pagar por uso com uma assinatura separada do Azure.
->
+> [!NOTE]
+> O Azure P2P VPN não está incluído na assinatura do Microsoft 365. Você deve pagar por uso com uma assinatura separada do Azure.
 
-## <a name="deploy-windows-virtual-desktop-to-provide-remote-access-for-remote-workers-using-personal-devices"></a>Implantar a Área de Trabalho Virtual do Windows para fornecer acesso remoto a trabalhadores remotos usando dispositivos pessoais 
+## <a name="deploy-windows-virtual-desktop-to-provide-remote-access-for-remote-workers-using-personal-devices"></a>Implantar a Área de Trabalho Virtual do Windows para fornecer acesso remoto a trabalhadores remotos usando dispositivos pessoais
 
 Para oferecer suporte a trabalhadores remotos que podem usar somente dispositivos pessoais e não gerenciados, use a Área de Trabalho Virtual do Windows no Azure para criar e alocar áreas de trabalho virtuais para seus usuários usarem em casa. Os computadores virtualizados podem funcionar da mesma forma que os computadores conectados à sua organização.
 
 ![Componentes da Área de Trabalho Virtual do Windows do Azure](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-windows-virtual-desktop.png)
 
-Para obter mais informações, consulte esta [visão geral da Área de Trabalho Virtual do Windows](/azure/virtual-desktop/overview). 
+Para obter mais informações, consulte esta [visão geral da Área de Trabalho Virtual do Windows](/azure/virtual-desktop/overview).
 
->[!Note]
+> [!NOTE]
 >A Área de Trabalho Virtual do Windows não está incluída na assinatura do Microsoft 365. Você deve pagar por uso com uma assinatura separada do Azure.
->
 
 ## <a name="protect-your-remote-desktop-services-connections-with-the-remote-desktop-services-gateway"></a>Proteja seus serviços de Área de trabalho remota com o Gateway dos serviços de área de trabalho remota.
 

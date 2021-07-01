@@ -17,22 +17,22 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Use os serviços de segurança e conformidade do Microsoft 365 para proteger seus aplicativos, dados e dispositivos para funcionários híbridos.
-ms.openlocfilehash: fc5a83bfc6c8ec2dcb801e6063514c0a90c83de8
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 3de458f99ce1c83132d193cae523a49353b6956c
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788915"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229390"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-hybrid-workers"></a>Etapa 3: implantar segurança e conformidade para funcionários híbridos
 
-Para funcionários híbridos, alguns dos quais nunca vão ao escritório ou vão raramente, a segurança e a conformidade são uma parte importante da solução. Todas as comunicações ocorrem pela Internet, em vez de serem confinadas a uma intranet organizacional. 
+Para funcionários híbridos, alguns dos quais nunca vão ao escritório ou vão raramente, a segurança e a conformidade são uma parte importante da solução. Todas as comunicações ocorrem pela Internet, em vez de serem confinadas a uma intranet organizacional.
 
 Há algo que você e seus funcionários podem fazer para se manterem produtivos, ao mesmo tempo que reduz o risco de segurança cibernética e mantém a conformidade com suas políticas internas e normas de dados.
 
 O trabalho remoto precisa desses elementos de segurança e conformidade:
 
-- Acesso controlado aos aplicativos de produtividade que os funcionários híbridos usam, como o Microsoft Teams 
+- Acesso controlado aos aplicativos de produtividade que os funcionários híbridos usam, como o Microsoft Teams
 - Acesso controlado e proteção dos dados que os funcionários híbridos criam e usam, como conversas de chat ou arquivos compartilhados
 - Proteção de dispositivos com Windows 10 contra malware e outros tipos de ataques cibernéticos
 - Proteção de emails, arquivos e sites com rótulos consistentes para níveis de confidencialidade e proteção
@@ -49,7 +49,7 @@ Proteja seus aplicativos e dados com estes recursos de segurança do Microsoft 3
 
 | Capcidade ou recurso | Por que eu preciso disso | Licenciamento |
 |:-------|:-----|:-------|
-| Microsoft Defender para Office 365 | Proteja seus aplicativos e dados da Microsoft 365— como mensagens de email, documentos do Office e ferramentas de colaboração—de um ataque. <br><br> O Microsoft Defender para Office 365 coleta e analisa sinais dos aplicativos para detecção, investigação e correção de riscos de segurança e protege a organização contra ameaças maliciosas representadas por mensagens de email, links (URLs) e ferramentas de colaboração. Ele também fornece avaliação de configuração de locatário automatizada e ferramentas de configuração para posturas de segurança padrão e estritas. | Microsoft 365 E3 ou E5 | 
+| Microsoft Defender para Office 365 | Proteja seus aplicativos e dados da Microsoft 365— como mensagens de email, documentos do Office e ferramentas de colaboração—de um ataque. <br><br> O Microsoft Defender para Office 365 coleta e analisa sinais dos aplicativos para detecção, investigação e correção de riscos de segurança e protege a organização contra ameaças maliciosas representadas por mensagens de email, links (URLs) e ferramentas de colaboração. Ele também fornece avaliação de configuração de locatário automatizada e ferramentas de configuração para posturas de segurança padrão e estritas. | Microsoft 365 E3 ou E5 |
 | Proteção contra malware | O Windows Defender Antivirus e o Windows Device Guard fornecem proteção contra malware baseada em dispositivo. <br><br> O SharePoint online examina automaticamente os carregamentos de arquivos para malwares conhecidos.<br><br> A proteção do Exchange Online (EOP) protege as caixas de correio na nuvem. | Microsoft 365 E3 ou E5 |
 | Proteção Avançada contra Ameaças do Microsoft Defender | Proteja os dispositivos da organização contra ameaças cibernéticas e violações de dados e detecte, investigue e responda a ameaças avançadas. | Microsoft 365 E5 |
 | Microsoft Cloud App Security | Proteja seus serviços baseados em nuvem - Microsoft 365 e outros aplicativos SaaS - contra ataques. | Licença do Microsoft 365 E5 ou licença individual do Microsoft Cloud App Security |
@@ -69,7 +69,7 @@ Cumpra os requisitos normativos ou políticas internas com estes recursos de con
 | Capcidade ou recurso | Por que eu preciso disso | Licenças |
 |:-------|:-----|:-------|
 | Rótulos de confidencialidade | Classifique e proteja os dados da organização sem atrapalhar a produtividade e a capacidade de colaboração dos usuários, colocando rótulos com vários níveis de proteção em emails, arquivos ou sites. | Microsoft 365 E3 ou E5 |
-| Proteção contra Perda de Dados (DLP)  | Detectar, avisar e bloquear compartilhamento arriscado, inadvertido ou impróprio, como o compartilhamento de dados com informações pessoais, interna e externamente. | Microsoft 365 E3 ou E5 | 
+| Proteção contra Perda de Dados (DLP)  | Detectar, avisar e bloquear compartilhamento arriscado, inadvertido ou impróprio, como o compartilhamento de dados com informações pessoais, interna e externamente. | Microsoft 365 E3 ou E5 |
 | Controle de Aplicativos de Acesso Condicional | Impeça que dados confidenciais sejam baixados em dispositivos pessoais dos usuários. | Microsoft 365 E3 ou E5 |
 | Rótulos e políticas de retenção de dados | Implemente controles de governança de informações, como por quanto tempo manter os dados e os requisitos sobre o armazenamento de dados pessoais dos clientes, para estar em conformidade com as políticas da sua organização ou com as regulamentações de dados. | Microsoft 365 E3 ou E5 |
 | Criptografia de Mensagem do Office (OME) | Envie e receba mensagens de email criptografadas entre as pessoas dentro e fora da sua organização que contenham dados regulados, como dados pessoais de clientes. | Microsoft 365 E3 ou E5 |
@@ -87,7 +87,7 @@ Para seus funcionários híbridos, você implementou:
 
 - Segurança
   - Acesso controlado a aplicativos e dados que funcionários híbridos usam para se comunicar e colaborar
-  - Proteção contra malware para dados de serviço de nuvem, email e dispositivos com Windows 10 
+  - Proteção contra malware para dados de serviço de nuvem, email e dispositivos com Windows 10
 - Conformidade
   - Rotulamento consistente para níveis de confidencialidade e proteção
   - Políticas de prevenção contra o vazamento de informações
