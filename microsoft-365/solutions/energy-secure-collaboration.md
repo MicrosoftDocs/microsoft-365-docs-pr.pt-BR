@@ -13,12 +13,12 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Priority
 description: O Microsoft 365 auxilia as organizações de energia a migrarem para uma plataforma de colaboração moderna, além de manter os dados e sistemas seguros e compatíveis com os regulamentos.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 086cc176190549f2ec8e49ea992744059c5d9005
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: efc9476d2c766aab325977dfe717290ff6c8fb8d
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916113"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229318"
 ---
 # <a name="key-compliance-and-security-considerations-for-the-energy-industry"></a>Principais considerações de conformidade e segurança para o setor de energia
 ![Metáfora de ilustração de uma visão global de várias indústrias utilizando a nuvem](../media/solution-arch-center/MSC17_global_016.png)
@@ -38,7 +38,7 @@ Os padrões regulamentares recomendados a serem considerados pelas organizaçõe
 - O Azure e o Governo Azure receberam, cada um, uma autorização FedRAMP High P-ATO (Autorização Provisória de Funcionamento), que representa o mais alto nível de autorização FedRAMP. 
 
 Para obter mais informações sobre os serviços de nuvem da Microsoft e do FedRAMP, consulte os seguintes recursos:
-- [Visão geral do Microsoft FedRAMP](/compliance/regulatory/offering-FedRAMP?view=o365-worldwide)
+- [Visão geral do Microsoft FedRAMP](/compliance/regulatory/offering-FedRAMP)
 - [Relatórios do Office 365 FedRAMP](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_FedRAMP_Reports)
 
 
@@ -90,7 +90,7 @@ O Microsoft 365 fornece recursos de diretiva comuns ao Microsoft Teams através 
 - A proliferação das equipes da Microsoft que não sejam necessárias ou usadas
 - A retenção excessiva de dados que não são mais necessários para a organização
 
-Os administradores podem especificar um período de validade aos grupos do Office 365, como 90, 180 ou 365 dias. Se um serviço que tem o respaldo de um grupo do Office 365 estiver inativo no período de expiração, os proprietários do grupo serão notificados e se nenhuma ação for executada, o grupo do Office 365 e todos os serviços relacionados, incluindo o Microsoft Teams, serão excluídos. 
+Os administradores podem especificar um período de expiração em dias para Grupos do Office 365, como 90, 180 ou 365 dias. Se um serviço apoiado por um grupo do Office 365 estiver inativo durante o período de expiração, os proprietários do grupo serão notificados e, se nenhuma ação for tomada, o Grupo do Office 365 e todos os seus serviços relacionados, incluindo o Microsoft Teams, serão excluídos. 
 
 A retenção excessiva de dados em uma equipe da Microsoft pode representar riscos de litígio para organizações e o uso de políticas de expiração é um método recomendado para a proteção da organização. Combinado com rótulos e políticas de retenção incorporados, o Microsoft 365 ajuda a garantir que as organizações estejam retendo apenas os dados necessários para atender às obrigações de conformidade regulamentar.
 
@@ -161,7 +161,7 @@ A implementação de políticas MIP e DLP nas organizações exige um planejamen
 ## <a name="govern-data-by-effectively-managing-records"></a>Controle os dados gerenciando os registros de forma eficaz
 Os regulamentos exigem que muitas organizações gerenciem a retenção dos principais documentos organizacionais de acordo com um cronograma de retenção corporativa gerenciado. As organizações enfrentam riscos de conformidade regulamentar se os dados forem mantidos em baixa (excluídos muito cedo) ou riscos legais se os dados forem mantidos em excesso (mantidos por muito tempo). Estratégias eficazes de gerenciamento de registros ajudam a garantir que os documentos organizacionais sejam retidos de acordo com períodos de retenção predeterminados, projetados para minimizar os riscos para a organização. Os períodos de retenção são prescritos em um cronograma de retenção de registros organizacionais gerenciados centralmente e são baseados na natureza de cada tipo de documento, nos requisitos de conformidade regulamentar para a retenção de tipos específicos de dados e nas políticas definidas da organização. 
 
-A atribuição precisa de períodos de retenção de registros nos documentos organizacionais pode exigir um processo granular que atribui períodos de retenção exclusivamente a documentos individuais. O grande número de documentos nas organizações do setor de energia, juntamente com o fato de que, em muitos casos, os períodos de retenção podem ser acionados por eventos organizacionais (como contratos expirando ou um funcionário saindo da organização), tornam a aplicação de políticas de retenção de registros em escala desafiadora para muitas organizações.
+A atribuição de períodos de retenção de registros com precisão nos documentos organizacionais pode exigir um processo granular que atribui períodos de retenção exclusivamente a documentos individuais. O grande número de documentos dentro das organizações do setor de energia, juntamente com o fato de que, em muitos casos, os períodos de retenção podem ser acionados por eventos organizacionais (como contratos que expiram ou um funcionário deixando a organização), torna a aplicação de políticas de retenção de registros em escala um desafio para muitas organizações.
 
 O Microsoft 365 fornece recursos flexíveis para definir rótulos e políticas de retenção para implementar de forma inteligente os requisitos de gerenciamento de registros. Um gerenciador de registros define um rótulo de retenção, que representa um "tipo de registro" em uma programação de retenção tradicional. O rótulo de retenção contém configurações que definem esses detalhes:
 - Por quanto tempo um registro é mantido
@@ -192,7 +192,7 @@ As Políticas de Supervisão do Microsoft 365 permitem que as organizações mon
 ### <a name="communication-compliance"></a>Conformidade em comunicações
 Com muitos canais de comunicação disponíveis para os funcionários, as organizações exigem cada vez mais soluções eficazes para monitorar ou supervisionar as comunicações nos setores regulamentados, como mercados de comércio de energia. A solução de Conformidade de comunicação lançada recentemente, integrada ao Microsoft 365, ajuda as organizações a superarem desafios comuns, como o aumento do número de canais de comunicação e o volume de mensagens, além do risco de possíveis multas por violações de políticas.
 
-A Conformidade de comunicação pode monitorar vários canais de comunicação e usar modelos de aprendizado de máquina para identificar possíveis violações de política, incluindo e-mails do Office 365, Microsoft Teams, Skype for Business Online, Facebook, Twitter e mensagens instantâneas da Bloomberg. A Conformidade de comunicação ajuda as equipes de conformidade a analisarem de maneira eficaz e eficiente as mensagens quanto a possíveis violações de:
+A conformidade de comunicação pode monitorar vários canais de comunicação e usar modelos de aprendizado de máquina para identificar possíveis violações de política, incluindo email do Office 365, Microsoft Teams, Skype for Business Online, Facebook, Twitter e mensagens instantâneas da Bloomberg. A conformidade de comunicação ajuda as equipes de conformidade a analisar mensagens de forma eficaz e eficiente para possíveis violações de:
 - Políticas corporativas, como uso aceitável, padrões éticos e políticas específicas corporativas 
 - confidencialidade ou divulgação de negócios confidenciais, como comunicações não autorizadas de projetos confidenciais, como aquisições futuras, fusões, divulgação de ganhos, reorganizações ou alterações na equipe de liderança.
 - Requisitos de conformidade regulamentar, como comunicações dos funcionários sobre os tipos de negócios ou transações em que uma organização se compromete com os regulamentos da FERC para mercados de energia
