@@ -1,0 +1,8 @@
+- name: M365 Office LTI (Visualização)
+  href: index.md
+- name: Usar Microsoft OneDrive LTI com Canvas (Visualização)
+  href: onedrive-lti.md
+- name: Usar Microsoft Teams classes com Canvas (Visualização)
+  href: teams-classes-with-canvas.md
+- name: Usar Microsoft Teams reuniões com o Canvas (Visualização)
+  href: teams-meetings-with-canvas.md

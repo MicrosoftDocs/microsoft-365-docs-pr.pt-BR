@@ -18,12 +18,12 @@ metadata:
   ms.assetid: 2fe71b05-f5a2-4182-ade7-4dc5cabdfd51
   ms.custom: seo-marvel-apr2020
   description: Este artigo contém respostas para algumas perguntas frequentes para os administradores sobre a importação de arquivos PST para Microsoft 365 usando o serviço de importação Office 365 de importação.
-  ms.openlocfilehash: 27fa3b93b53a497fcff63524b04f427049bac412
-  ms.sourcegitcommit: ddb1bf56bcba4f03c803f79492e8cd0dc41a3d7a
+  ms.openlocfilehash: 4340285e6c7cff857e3f3de771ec6e67d4ce010c
+  ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/28/2021
-  ms.locfileid: "52090623"
+  ms.lasthandoff: 07/02/2021
+  ms.locfileid: "53276936"
 title: Perguntas Frequentes sobre a importação de arquivos PST
 summary: "**Este artigo é para administradores. Deseja importar arquivos PST para sua própria caixa de correio? Consulte [Importar email, contatos e calendário de um arquivo .pst Outlook .pst](https://go.microsoft.com/fwlink/p/?LinkID=785075)**\n\nAqui estão algumas perguntas frequentes sobre como usar o serviço de importação Office 365 para importar arquivos PST em massa para Microsoft 365 caixas de correio. Para obter mais informações sobre como importar arquivos PST, consulte [Overview of importing PST files to Office 365](./importing-pst-files-to-office-365.md).\n  \n## <a name=\"using-network-upload-to-import-pst-files\"></a>Usar o carregamento de rede para importar arquivos PST\n\nPara obter instruções passo a passo, consulte [Use network upload to import PST files to Office 365](use-network-upload-to-import-pst-files.md).\n"
 sections:
@@ -74,12 +74,9 @@ sections:
       Posso usar o carregamento de rede para importar arquivos PST para pastas públicas no Exchange Online?
     answer: >
       Não. Não é possível importar arquivos PST para pastas públicas.
-
-
-      ## <a name="using-drive-shipping-to-import-pst-files"></a>Usar a entrega de unidade para importar arquivos PST
-
-
-      Para obter instruções passo a passo, consulte [Use drive shipping to import PST files to Office 365](use-drive-shipping-to-import-pst-files-to-office-365.md).
+  - question: >
+      Há algum requisito de resolução de tela ao criar um trabalho de importação de carregamento de rede?
+    answer: "Se a resolução da tela em seu computador local estiver definida como 1366 x 768, talvez você tenha problemas ao criar um trabalho de importação. Se esse for o caso, recomendamos que você altere a resolução da tela para uma configuração diferente e crie um novo trabalho de importação. Estamos trabalhando para corrigir esse problema.     \n\n\n\n## <a name=\"using-drive-shipping-to-import-pst-files\"></a>Usar a entrega de unidade para importar arquivos PST\n\nPara obter instruções passo a passo, consulte [Use drive shipping to import PST files to Office 365](use-drive-shipping-to-import-pst-files-to-office-365.md).\n"
   - question: >
       Quais permissões são necessárias para criar trabalhos de importação no serviço de importação do Office 365?
     answer: "Você deve ter a função Importação Exportação da Caixa de Correio para importar arquivos PST para as caixas de correio do Microsoft 365. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função Importação e Exportação de Caixa de Correio no grupo de função Gerenciamento da Organização. Ou pode criar um novo grupo de funções, atribuir a função Exportação Importação da Caixa de Correio e adicionar a si mesmo ou outros usuários como membros. Para mais informações, confira as seções “Adicionar uma função a um grupo de funções” ou “Criar um grupo de funções” em [Gerenciar grupos de funções no Exchange Online](/Exchange/permissions-exo/role-groups).\n  \nAlém disso, para criar trabalhos de importação no Centro de Conformidade e Segurança, uma das alternativas a seguir deve ser verdadeira:\n  \n- Você precisa ter a função Destinatários de Email no Exchange Online. Por padrão, esta função é atribuída aos grupos de funções de Gerenciamento da Organização e Gerenciamento de Destinatários.\n    \n    Ou\n    \n- É necessário que você seja um administrador global na sua organização.\n    \n> [!TIP]\n> Considere a criação de um novo grupo de função no Exchange Online destinado especificamente a importar os arquivos PST para o Office 365. Para o nível mínimo de privilégios necessários para importar os arquivos PST, atribua as funções de Exportação Importação de Caixa de Correio e Destinatários de email ao novo grupo de função e, em seguida, adicione membros. \n  \n"
@@ -166,4 +163,8 @@ sections:
       Sim.
   - question: >
       If I have to ship my hard drive to another country, is there anything I need to do?
-    answer: The hard drive that you ship to Microsoft might have to cross international borders. Se esse for o caso, você é responsável por garantir que o disco rígido e os dados inclusos nele sejam importados e/ou exportados de acordo com as leis aplicáveis. Before shipping a hard drive, check with your advisors to verify that your drive and data can legally be shipped to the specified Microsoft data center. This will help to ensure that it reaches Microsoft in a timely manner.
+    answer: >
+      The hard drive that you ship to Microsoft might have to cross international borders. Se esse for o caso, você é responsável por garantir que o disco rígido e os dados inclusos nele sejam importados e/ou exportados de acordo com as leis aplicáveis. Before shipping a hard drive, check with your advisors to verify that your drive and data can legally be shipped to the specified Microsoft data center. This will help to ensure that it reaches Microsoft in a timely manner.
+  - question: >
+      Há algum requisito de resolução de tela quando eu criar um trabalho de importação para envio de unidade?
+    answer: Se a resolução da tela em seu computador local estiver definida como 1366 x 768, talvez você tenha problemas ao criar um trabalho de importação. Se esse for o caso, recomendamos que você altere a resolução da tela para uma configuração diferente e crie um novo trabalho de importação. Estamos trabalhando para corrigir esse problema.
