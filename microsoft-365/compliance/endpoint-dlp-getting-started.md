@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Configure a prevenção contra perda de dados de ponto de extremidade do Microsoft 365 para monitorar atividades de arquivo e implementar ações de proteção para esses arquivos para pontos de extremidade.
-ms.openlocfilehash: 134c5426e428372670a50c76301a9e9e0c10b343
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 8dc57bfe395ad76e6b8aef336aaadb2cb7e42f81
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53061668"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226666"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Introdução à Prevenção contra perda de dados do ponto de extremidade
 
@@ -44,7 +44,6 @@ Antes de começar a usar o Endpoint DLP, confirme seu [Assinatura do Microsoft 3
 - Conformidade do Microsoft 365 A5
 - Governança e Proteção de Informações do Microsoft 365 E5
 - Governança e Proteção de Informações do Microsoft 365 A5
-
 
 ### <a name="permissions"></a>Permissões
 
@@ -84,25 +83,26 @@ Certifique-se de que os dispositivos Windows 10 que você pretende implantar o E
 
 1. Deve estar executando o Windows 10 x64 build 1809 ou superior.
 
-2. A Versão do Cliente Antimalware é 4.18.2009.7 ou mais recente. Verifique sua versão atual abrindo o aplicativo Segurança do Windows, selecione o ícone Configurações e, em seguida, selecione Sobre. O número da versão está listado na Versão do Cliente Antimalware. Atualize para a Versão do Cliente Antimalware instalando o Windows Update KB4052623. 
+2. A Versão do Cliente Antimalware é 4.18.2009.7 ou mais recente. Verifique sua versão atual abrindo o aplicativo Segurança do Windows, selecione o ícone Configurações e, em seguida, selecione Sobre. O número da versão está listado na Versão do Cliente Antimalware. Atualize para a Versão do Cliente Antimalware instalando o Windows Update KB4052623.
 
    > [!NOTE]
    > Nenhum dos componentes de Segurança do Windows precisa estar ativo, você pode executar o ponto de extremidade da DLP independente do status de segurança do Windows, mas a [proteção em tempo real e o monitor de comportamento devem estar habilitados](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus).
- 
-3. As seguintes atualizações do Windows foram instaladas. 
- 
+
+3. As seguintes atualizações do Windows foram instaladas.
+
    > [!NOTE]
    > Essas atualizações não são um pré-requisito para integrar um dispositivo ao Ponto de extremidade da DLP, mas contêm correções para problemas importantes, portanto, devem ser instaladas antes de usar o produto.
 
-    - Para Windows 10 1809 - KB4559003, KB4577069, KB4580390
-    - Para Windows 10 1903 ou 1909 - KB4559004, KB4577062, KB4580386
-    - Para Windows 10 2004 - KB4568831, KB4577063
-    - Para dispositivos que executam o Office 2016 (e nenhuma outra versão do Office) - KB4577063 
+   - Para Windows 10 1809 - KB4559003, KB4577069, KB4580390
+   - Para Windows 10 1903 ou 1909 - KB4559004, KB4577062, KB4580386
+   - Para Windows 10 2004 - KB4568831, KB4577063
+   - Para dispositivos que executam o Office 2016 (e nenhuma outra versão do Office) - KB4577063
 
 4. Todos os dispositivos devem um destes:
-- [Ingressado no Active Directory do Azure (Azure AD)](/azure/active-directory/devices/concept-azure-ad-join)
-- [Ingressado no Azure AD Híbrido](/azure/active-directory/devices/concept-azure-ad-join-hybrid)
-- [Registrado no AAD](/azure/active-directory/user-help/user-help-register-device-on-network)
+
+   - [Ingressado no Active Directory do Azure (Azure AD)](/azure/active-directory/devices/concept-azure-ad-join)
+   - [Ingressado no Azure AD Híbrido](/azure/active-directory/devices/concept-azure-ad-join-hybrid)
+   - [Registrado no AAD](/azure/active-directory/user-help/user-help-register-device-on-network)
 
 5. Instalar o navegador Microsoft Chromium Edge no dispositivo do ponto de extremidade para impor ações de política para a atividade carregar na nuvem. Confira, [Baixar o novo Microsoft Edge baseado em Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
 
@@ -124,7 +124,7 @@ Neste cenário de implantação, você integrará dispositivos que ainda não fo
 
 1. Abra o [Centro de conformidade do Microsoft](https://compliance.microsoft.com).
 
-2. Abra a página de configurações do Centro de conformidade e escolha **Integrar dispositivos**. 
+2. Abra a página de configurações do Centro de conformidade e escolha **Integrar dispositivos**.
 
    > [!div class="mx-imgBorder"]
    > ![habilite o gerenciamento de dispositivos](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
@@ -140,7 +140,7 @@ Neste cenário de implantação, você integrará dispositivos que ainda não fo
 
    > [!div class="mx-imgBorder"]
    > ![método de implantação](../media/endpoint-dlp-getting-started-3-deployment-method.png)
-   
+
 6. Siga os procedimentos apropriados em [Ferramentas e métodos de integração dos computadores do Windows 10](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Este link leva você a uma página de destino onde você pode acessar os procedimentos da Proteção Avançada contra Ameaças do Microsoft Defender que correspondem ao pacote de implantação selecionado na etapa 5:
 
     - Integrar computadores com Windows 10 usando uma política de grupo
@@ -166,13 +166,12 @@ Neste cenário, o Microsoft Defender para Ponto de Extremidade já está implant
 
    > [!div class="mx-imgBorder"]
    > ![gerenciamento de dispositivos](../media/endpoint-dlp-getting-started-2-device-management.png)
-   
+
 4. Escolha **Integração**, caso precise integrar dispositivos adicionais.
 
 5. Escolha a maneira como deseja implantar para esses dispositivos adicionais a partir da lista de **Método de implantação** e **Baixe o pacote**.
 
 6. Siga os procedimentos apropriados em [Ferramentas e métodos de integração dos computadores do Windows 10](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Este link leva você a uma página de destino onde você pode acessar os procedimentos da Proteção Avançada contra Ameaças do Microsoft Defender que correspondem ao pacote de implantação selecionado na etapa 5:
-
     - Integrar computadores com Windows 10 usando uma política de grupo
     - Integrar computadores com Windows usando o Microsoft Endpoint Configuration Manager
     - Integrar computadores com Windows 10 usando ferramentas de gerenciamento de dispositivo móvel
@@ -190,7 +189,6 @@ Uma vez que o ponto de extremidade está integrado, ele deve estar visível na t
 
 2. Confira os procedimentos em [Como configurar e exibir alertas para suas políticas de DLP](dlp-configure-view-alerts-policies.md) para exibir alertas das políticas de DLP do ponto de extremidade.
 
-
 ### <a name="viewing-endpoint-dlp-data-in-activity-explorer"></a>Exibir dados de Endpoint DLP no explorador de atividades
 
 1. Abra a [Página de classificação de dados](https://compliance.microsoft.com/dataclassification?viewid=overview) do seu domínio no Centro de conformidade do Microsoft 365 e escolha o Explorador de atividades.
@@ -201,6 +199,7 @@ Uma vez que o ponto de extremidade está integrado, ele deve estar visível na t
    > ![filtro do explorador de atividades para dispositivos de ponto de extremidade](../media/endpoint-dlp-4-getting-started-activity-explorer.png)
 
 ## <a name="next-steps"></a>Próximas etapas
+
 Agora que você tem dispositivos integrados e pode exibir os dados de atividade no Explorador de atividades, você está pronto para prosseguir para a próxima etapa na qual você cria políticas DLP que protegem seus itens confidenciais.
 
 - [Usando a Prevenção contra perda de dados de ponto de extremidade](endpoint-dlp-using.md)
@@ -208,7 +207,7 @@ Agora que você tem dispositivos integrados e pode exibir os dados de atividade 
 ## <a name="see-also"></a>Confira também
 
 - [Saiba mais sobre a Prevenção contra perda de dados do ponto de extremidade](endpoint-dlp-learn-about.md)
-- [Usando a prevenção contra perda de dados do ponto de extremidade](endpoint-dlp-using.md)
+- [Usar a Prevenção contra perda de dados de ponto de extremidade](endpoint-dlp-using.md)
 - [Saiba mais sobre prevenção contra perda de dados](dlp-learn-about-dlp.md)
 - [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
 - [Começar a usar o Explorador de atividades](data-classification-activity-explorer.md)

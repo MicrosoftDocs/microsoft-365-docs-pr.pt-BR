@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: Normalmente parte de uma solução de gerenciamento de registros, em que você pode configurar um rótulo de retenção para iniciar o período de retenção com base em um evento identificado.
-ms.openlocfilehash: ee828b6852440f5be07fdf34df2fb6a11253ae1c
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: 83f1be417b706fdb66b1df71ba351ce16d5ad485
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034242"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226618"
 ---
 # <a name="start-retention-when-an-event-occurs"></a>Iniciar a retenção quando um evento ocorrer
 
@@ -60,7 +60,7 @@ Para usar a retenção controlada por eventos com êxito, é importante compreen
   
 ![Diagrama 2 de 2: Tipo de evento, rótulos, eventos e IDs de ativos](../media/ce89a91f-49aa-4b5a-933c-ac3a13dccd5d.png)
   
-1. Você cria rótulos de retenção para diferentes tipos de conteúdo e depois os associa a um tipo de evento. Por exemplo, os rótulos de retenção para diferentes tipos de arquivos e registros de produtos são associados a um tipo de evento denominado Vida útil do produto, pois esses registros devem ser retidos por 10 anos a partir do momento em que o produto atinge o final de sua vida útil.
+1. Crie rótulos de retenção para tipos diferentes de conteúdo e associe-os a um tipo de evento. Por exemplo, rótulos de retenção para tipos diferentes de arquivos e registros de produtos são associados a um tipo de evento chamado Tempo de vida do produto, pois esses registros devem ser retidos por 10 anos a partir do momento em que o produto atinge o final da vida útil.
     
 2. Os usuários (normalmente gerenciadores de registros) aplicam esses rótulos de retenção ao conteúdo e (para documentos do SharePoint e OneDrive) inserem uma ID de ativo para cada item. Nesse exemplo, a ID do ativo é um nome ou código de produto usado pela organização. Assim, os registros de cada produto recebem um rótulo de retenção e cada registro tem uma propriedade que contém uma ID de ativo. O diagrama representa **todo o conteúdo** de todos os registros de produtos em uma organização e cada item tem a ID do ativo do produto cujo registro ele pertence. 
     
@@ -72,11 +72,11 @@ Para usar a retenção controlada por eventos com êxito, é importante compreen
     
    - A data de ocorrência do evento. Essa data é utilizada como o início do período de retenção. Essa data pode ser a atual, do passado ou futura.
 
-4. Depois de criar um evento, a data dele é sincronizada com todo o conteúdo que tem um rótulo desse tipo de evento e que contém a ID ou palavra-chave especificada do ativo. Como ocorre com qualquer rótulo de retenção, essa sincronização poderá demorar até sete dias. No diagrama anterior, todos os itens marcados com um círculo vermelho têm o período de retenção desencadeado por esse evento. Em outras palavras, quando esse produto chega ao fim da vida útil, esse evento ativa o período de retenção dos registros desse produto.
+4. Após a criação de um evento, a data do evento é sincronizada com todo o conteúdo que apresenta um rótulo de retenção desse tipo de evento e que contém a ID de ativo ou uma palavra-chave especificadas. Como ocorre com qualquer rótulo de retenção, essa sincronização pode demorar até sete dias. No diagrama acima, o período de retenção de todos os itens marcados em vermelho é acionado. Ou seja, quando este produto atinge o final da vida útil, esse evento aciona o período de retenção para registros do produto.
 
 É importante entender que, se você não especificar uma ID de ativo ou palavras-chave para um evento, **todo o conteúdo** com um rótulo de retenção desse tipo de evento terá um período de retenção ativado pelo evento. Isso significa que, no diagrama anterior, todo o conteúdo começaria a ser retido. Isso pode não ser o que você pretende.
 
-Por fim, lembre-se de que cada rótulo de retenção tem suas próprias configurações de retenção. Neste exemplo, todos eles especificam dez anos, mas é possível que um evento ative rótulos de retenção onde cada rótulo tem um período de retenção diferente.
+Por fim, lembre-se de que cada rótulo de retenção tem suas próprias configurações de retenção. Neste exemplo, todos especificam 10 anos, mas é possível que um evento acione rótulos de retenção com períodos de retenção diferentes.
   
 ## <a name="how-to-set-up-event-driven-retention"></a>Como configurar a retenção controlada por eventos
 
@@ -125,7 +125,7 @@ Assim como qualquer rótulo, você precisa publicar ou aplicar automaticamente u
 
 ### <a name="step-4-enter-an-asset-id"></a>Etapa 4: Inserir uma ID de ativo
 
-Depois que um rótulo baseado em eventos é aplicado ao conteúdo, você pode inserir uma ID de ativos para cada item. Por exemplo, sua organização pode usar:
+Após a aplicação de um rótulo baseado em evento ao conteúdo, você pode inserir uma ID de ativo para cada item. Por exemplo, sua organização pode usar:
   
 - Códigos de produto que você pode usar para reter o conteúdo apenas de um produto específico.
     
@@ -153,17 +153,19 @@ Ao criar o evento, escolha o mesmo tipo de evento usado pelo rótulo de retenç�
 
 Como alternativa, se você precisar criar um evento para vários rótulos de retenção com diferentes tipos de evento, marque a opção **Escolher Rótulos Existentes**. Em seguida, selecione os rótulos que estão configurados para os tipos de eventos que você deseja associar a esse evento.
 
-### <a name="step-7-enter-keywords-or-an-asset-id"></a>Etapa 7: Inserir palavras-chave ou IDs de ativo
+### <a name="step-7-enter-keywords-or-query-for-exchange-asset-id-for-sharepoint-and-onedrive"></a>Etapa 7: insira palavras-chave ou consulta para o Exchange, ID de ativo para o SharePoint e o OneDrive
 
-Agora você restringe o escopo do conteúdo especificando IDs de ativos para o conteúdo do SharePoint e OneDrive ou palavras-chave para o conteúdo do Exchange. Para IDs de ativos, a retenção será aplicada apenas no conteúdo com o par especificado *propriedade:valor*. Se uma ID de ativos não for inserida, todo o conteúdo com rótulos desse tipo de evento obtém a mesma data de retenção aplicada a ele.
+Agora restrinja o escopo do conteúdo. Para conteúdo do Exchange, faça isso ao especificar palavras-chave ou uma consulta. Para conteúdo do SharePoint e do OneDrive, faça isso ao especificar IDs de ativos.
 
-Por exemplo: se estiver usando a propriedade ID de ativo, digite `ComplianceAssetID:<value>` na caixa para IDs de ativos mostrada abaixo.
-  
+Para itens do Exchange, use palavras-chave ou uma consulta que use KQL (Idioma de Consulta de Palavra-chave). Para obter mais informações sobre a sintaxe de consulta, confira [referência de sintaxe KQL (Idioma de Consulta de Palavra-chave)](/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference). Para obter mais informações sobre as propriedades pesquisáveis que você pode usar para o Exchange, confira [Consultas de palavra-chave e condições de pesquisa para a Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md).
+
+Para IDs de ativos, a retenção será aplicada apenas no conteúdo com o par *property:value* especificado. Por exemplo: se estiver usando a propriedade ID de ativo, insira `ComplianceAssetID:<value>` na caixa de IDs de ativos mostrada na imagem a seguir.
+
+Se uma ID de ativos não for inserida, qualquer conteúdo com rótulos desse tipo de evento obterá a mesma data de retenção aplicada a ele.
+
 Sua organização pode ter aplicado outras propriedades e IDs aos documentos relacionados a esse tipo de evento. Por exemplo, se for preciso detectar os registros de um produto específico, a ID pode ser uma combinação entre sua propriedade personalizada ProductID e o valor "XYZ". Nesse caso, você digitaria `ProductID:XYZ` na caixa para as IDs de Ativos mostradas na imagem a seguir.
-  
-Para itens do Exchange, use palavras-chave. Você pode usar a consulta usando operadores de pesquisa como E, OU e NÃO. Para saber mais, veja [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md).
-  
-Por fim, escolha a data em que o evento ocorreu; essa data é usada como o início do período de retenção. Depois de criar um evento, essa data do evento é sincronizada para todo o conteúdo com um rótulo desse tipo de evento, ID do ativo e palavras-chave. Como ocorre com qualquer rótulo de retenção, essa sincronização poderá demorar até sete dias.
+
+Por fim, escolha a data em que o evento ocorreu; esta data será usada como o início do período de retenção. Após criar um evento, a data do evento será sincronizada a qualquer conteúdo com um rótulo de retenção desse tipo de evento, ID de ativo, palavras-chave ou consultas. Como com qualquer rótulo de retenção, a sincronização pode demorar até sete dias.
   
 ![Página Configurações de Eventos](../media/40d3c9db-f624-49a5-b38a-d16bcce20231.png)
 
@@ -280,7 +282,7 @@ Exemplo de código para chamar a API REST:
 |Parâmetros|Descrição|Observações|
 |--- |--- |--- |
 |<d:Name></d:Name>|Fornece um nome exclusivo para o evento,|Não pode conter espaços à direita nem os seguintes caracteres: % * \ & < \> \| # ? , : ;|
-|<d:EventType></d:EventType>|Insere o nome do tipo de evento (ou GUID).|Exemplo: “Demissão de um funcionário”. O tipo de evento precisa estar associado a um rótulo de retenção.|
+|<d:EventType></d:EventType>|Insere o nome do tipo de evento (ou GUID).|Exemplo: "Rescisão de funcionário". O tipo de evento deve estar associado a um rótulo de retenção.|
 |<d:SharePointAssetIdQuery></d:SharePointAssetIdQuery>|Insere "ComplianceAssetId:" + a ID do funcionário|Example: "ComplianceAssetId:12345"|
 |<d:EventDateTime></d:EventDateTime>|Data e hora do evento|Formato: yyyy-MM-ddTHH:mm:ssZ. Exemplo: 2018-12-01T00:00:00Z
 |
