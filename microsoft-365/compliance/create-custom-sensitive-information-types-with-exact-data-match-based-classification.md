@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Criar tipos personalizados de informações confidenciais com classificação baseada em Correspondência Exata de Dados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e8f6c075d706da46d7163705f6aa9d0ca6cad1a2
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: dc1d3f08ab55f496ae7c6a12f35b71fa5b384688
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227122"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256694"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match
 
@@ -51,14 +51,14 @@ Mas e se você quiser um tipo de informação confidencial personalizado (SIT) q
 A classificação baseada no EDM permite criar tipos personalizados de informações confidenciais que fazem referência a valores exatos em um banco de dados de informações confidenciais. O banco de dados pode ser atualizado diariamente e pode conter até 100 milhões de linhas de dados. Assim como funcionários, pacientes ou clientes vêm e vão e os registros são alterados, os tipos personalizados de informações confidenciais permanecem atualizados e aplicáveis. Você também pode usar a classificação baseada em EDM com políticas, como [políticas de prevenção contra perda de dados](dlp-learn-about-dlp.md) ou [políticas de arquivo do Microsoft Cloud App Security](/cloud-app-security/data-protection-policies).
 
 > [!NOTE]
-> A Proteção de Informações do Microsoft 365 oferece suporte, em visualização, a idiomas de conjunto de caracteres de byte duplo para:
+> Microsoft 365 A Proteção de Informações dá suporte a idiomas de conjunto de caracteres de byte duplo para:
 > - Chinês (simplificado)
 > - Chinês (tradicional)
 > - Coreano
 > - Japonês
 > 
 > Este suporte está disponível para tipos de informações confidenciais. Para obter mais informações, confira [Suporte à proteção de informações para notas de versão de conjuntos de caracteres de byte duplo (visualização)](mip-dbcs-relnotes.md).
- 
+
 
 ## <a name="required-licenses-and-permissions"></a>Licenças e permissões necessárias
 

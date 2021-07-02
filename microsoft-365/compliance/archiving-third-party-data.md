@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como importar dados de terceiros de plataformas de mídia social, plataformas de mensagens instantâneas e plataformas de colaboração de documentos para Microsoft 365 caixas de correio.
-ms.openlocfilehash: acd7f9ee838308b277f725e5b7d80c69c6407b59
-ms.sourcegitcommit: 5d3086da935d4ddc8caf79ff19e3afda812fd061
+ms.openlocfilehash: 76df1ffa7afdeeda9a35744e9e4bfffae4576ca9
+ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53243954"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53276948"
 ---
 # <a name="archive-third-party-data-in-microsoft-365"></a>Arquivar dados de terceiros em Microsoft 365
 
@@ -107,7 +107,7 @@ A tabela nesta seção lista os conectores de dados de terceiros disponíveis em
 
 Antes de arquivar dados de terceiros no Microsoft 365, você precisa trabalhar com o TeleMessage para configurar o serviço de arquivamento para sua organização. Para obter mais informações,  clique no link na coluna Dados de terceiros para seguir as instruções passo a passo para criar um conector para esse tipo de dados.
 
-Os conectores de dados teleMessage também estão disponíveis GCC ambientes na nuvem Microsoft 365 Us Government. Para obter mais informações, consulte a seção Conectores de dados na nuvem do Governo dos EUA neste artigo.
+Os conectores de dados teleMessage também estão disponíveis GCC ambientes na nuvem Microsoft 365 Us Government. Para obter mais informações, consulte [a seção Conectores de dados na nuvem do Governo](#data-connectors-in-the-us-government-cloud) dos EUA neste artigo.
 
 |Dados de terceiros  |Hold de litígio|Descoberta eletrônica  |Configurações de retenção  |Gerenciamento de registros  |Conformidade de comunicações  |Gerenciamento de risco interno  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|

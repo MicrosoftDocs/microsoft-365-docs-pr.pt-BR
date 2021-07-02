@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4175d3bedff86dc7f8cdafc1ff2366ca1c9cffc4
-ms.sourcegitcommit: d0c160e89e17f451199bc4a85699effd2d935213
+ms.openlocfilehash: 008263bfb948d1a2c52031635d074aca323e6764
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52893735"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256886"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender para Ponto de Extremidade para Linux
 
@@ -70,7 +70,8 @@ Em geral, você precisa seguir as seguintes etapas:
   - Ferramentas de gerenciamento de terceiros:
     - [Implantar usando a ferramenta de gerenciamento de configuração do Puppet](linux-install-with-puppet.md)
     - [Implantar usando a ferramenta de gerenciamento de configuração Ansible](linux-install-with-ansible.md)
-
+    - [Implantar usando a ferramenta de gerenciamento de configuração do Chefe](linux-deploy-defender-for-endpoint-with-chef.md)
+    
 Se você tiver alguma falha de instalação, consulte [Troubleshooting installation failures in Microsoft Defender for Endpoint on Linux](linux-support-install.md).
 
 

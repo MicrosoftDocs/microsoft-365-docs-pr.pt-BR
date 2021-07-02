@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
 description: Reúna os valores/informações necessários para criar registros DNS para conectar seu domínio à Microsoft 365 assinatura.
-ms.openlocfilehash: e65d53269f5fb8625b12c4eb22f78516818045be
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: def9fbe201e158f1e071a67caeaf29ed26732f97
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635721"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256838"
 ---
 # <a name="gather-the-information-you-need-to-create-dns-records"></a>Coletar as informações necessárias para criar registros DNS
 
@@ -38,29 +38,29 @@ ms.locfileid: "52635721"
 
 ::: moniker range="o365-worldwide"
 
-1. No centro Microsoft 365 de administração,  vá para a página \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domínios de</a> Instalação.
+1. No Centro de administração do Microsoft 365, vá para **a** página Configurações \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domínios.</a>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração,  vá para a página > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domínios de</a> Instalação.
+1. No centro do administrador, acesse a página **Configurações de** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">domínios</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração,  vá para a página > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domínios de</a> Instalação.
+1. No centro do administrador, acesse a página **Configurações de** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">domínios</a>.
 
 ::: moniker-end
     
 2. Na página **Domínios,** selecione seu domínio e selecione **Iniciar configuração**. Você precisará voltar para o assistente de configuração de domínios para ver o valor específico que precisa adicionar.
     
-3. Na página **Verificar domínio,** selecione Adicionar um registro **TXT** em vez disso e selecione **Próximo**.
+3. Na página **Verificação de** Domínio, selecione Adicionar um registro **TXT** aos registros DNS do domínio e selecione **Continuar**.
     
 4. Copie o **valor TXT** mostrado. É assim: **MS=msXXXXXXXX**. 
     
-5. Vá para [Criar registros DNS em](create-dns-records-at-any-dns-hosting-provider.md)qualquer provedor de hospedagem DNS e selecione seu host DNS na lista de registradores para ver as instruções passo a passo.
+5. Vá para [Adicionar registros DNS para conectar seu domínio](create-dns-records-at-any-dns-hosting-provider.md)e siga as etapas para adicionar registros no site do host DNS.
     
 6. Siga as etapas para criar o registro TXT (ou registro MX) em seu host DNS e verifique o domínio de volta Microsoft 365.
 
@@ -70,32 +70,32 @@ ms.locfileid: "52635721"
 
 ::: moniker range="o365-worldwide"
 
-1. No centro Microsoft 365 de administração,  vá para a página \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domínios de</a> Instalação.
+1. No Centro de administração do Microsoft 365, vá para **a** página Configurações \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domínios.</a>
 
 ::: moniker-end
     
 ::: moniker range="o365-germany"
 
-1. No centro de administração,  vá para a página > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domínios de</a> Instalação.
+1. No centro do administrador, acesse a página **Configurações de** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">domínios</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração,  vá para a página > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domínios de</a> Instalação.
+1. No centro do administrador, acesse a página **Configurações de** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">domínios</a>.
 
 ::: moniker-end
     
-2. Na página **Domínios**, selecione o seu domínio. 
+2. Na página **Domínios**, selecione o seu domínio.
     
-3. Em **Configurações de DNS necessárias**, você verá os registros DNS a serem adicionados.
+3. Escolha **Gerenciar DNS,** selecione **Mais Opções** Adicionar seu próprio  >  **DNS** e selecione **Continuar** para ver os registros DNS a adicionar.
     
     Você deverá manter essas informações disponíveis enquanto faz alterações em seu host DNS; portanto, copie e cole os valores.
     
     Os grupos de registros DNS listados nessa página dependem das escolhas que você listou em **Objetivo de domínio**.
     
-4. Vá para Criar registros DNS em qualquer provedor de hospedagem [DNS](create-dns-records-at-any-dns-hosting-provider.md)e selecione seu host DNS na lista de registradores para ver instruções passo a passo para adicionar registros no site desse host DNS.
-    
+4. Vá para [Adicionar registros DNS para conectar seu domínio](create-dns-records-at-any-dns-hosting-provider.md)e siga as etapas para adicionar registros no site do host DNS.
+
 5. Siga as etapas para criar os registros em seu host DNS.
 
 ## <a name="related-content"></a>Conteúdo relacionado

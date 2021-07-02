@@ -16,16 +16,16 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-mar2020
 description: Exporte documentos em um conjunto de revisão para uma conta do Azure Armazenamento e use Gerenciador de Armazenamento do Azure para baixá-los para um computador local.
-ms.openlocfilehash: dfb3892f31e857d4744f6da337c924efaa87ab11
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: b7638e33a40a2ac46f4bb69b869e4c2cf6d48f65
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574696"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256502"
 ---
 # <a name="export-documents-in-a-review-set-to-an-azure-storage-account"></a>Exportar documentos em um conjunto de revisão para uma conta Armazenamento Azure
 
-Quando você exporta documentos de um conjunto de revisão em um caso Advanced eDiscovery, você tem a opção de exportá-los para uma conta do Azure Armazenamento gerenciada pela sua organização. Se você usou essa opção, os documentos serão carregados no local de Armazenamento do Azure. Depois que eles são exportados, você pode acessar os documentos (e baixá-los para um computador local ou outro local) usando o Gerenciador de Armazenamento do Azure. Este artigo fornece instruções sobre como exportar documentos para sua conta do Azure Armazenamento e o uso do Gerenciador de Armazenamento do Azure para se conectar a um local de Armazenamento do Azure para baixar os documentos exportados. Para obter mais informações sobre Gerenciador de Armazenamento do Azure, consulte [Use Gerenciador de Armazenamento do Azure](/azure/storage/blobs/storage-quickstart-blobs-storage-explorer).
+Quando você exporta documentos de um conjunto de revisão em um caso Advanced eDiscovery, você tem a opção de exportá-los para uma conta do Azure Armazenamento gerenciada pela sua organização. Se você usar essa opção, os documentos serão carregados no local de Armazenamento do Azure. Depois que eles são exportados, você pode acessar os documentos (e baixá-los para um computador local ou outro local) usando o Gerenciador de Armazenamento do Azure. Este artigo fornece instruções sobre como exportar documentos para sua conta do Azure Armazenamento e o uso do Gerenciador de Armazenamento do Azure para se conectar a um local de Armazenamento do Azure para baixar os documentos exportados. Para obter mais informações sobre Gerenciador de Armazenamento do Azure, consulte [Use Gerenciador de Armazenamento do Azure](/azure/storage/blobs/storage-quickstart-blobs-storage-explorer).
 
 ## <a name="before-you-export-documents-from-a-review-set"></a>Antes de exportar documentos de um conjunto de revisão
 
@@ -41,7 +41,7 @@ Quando você exporta documentos de um conjunto de revisão em um caso Advanced e
 
 A primeira etapa é criar um trabalho de exportação para exportar documentos de um conjunto de revisão. Para obter instruções mais detalhadas sobre todas as opções de exportação, consulte [Exportar documentos de um conjunto de revisão](export-documents-from-review-set.md). O procedimento a seguir destaca as configurações para exportar documentos para a conta do Azure Armazenamento sua organização.
 
-1. No centro Microsoft 365 de conformidade, abra o caso Advanced eDiscovery, selecione a guia Revisar conjuntos e selecione o conjunto de revisão que você deseja exportar. 
+1. Na Centro de conformidade do Microsoft 365, abra o caso Advanced eDiscovery, selecione  a guia Revisar conjuntos e selecione o conjunto de revisão que você deseja exportar.
 
 2. No conjunto de revisão, clique em **Ação**  >  **Exportar**.
 

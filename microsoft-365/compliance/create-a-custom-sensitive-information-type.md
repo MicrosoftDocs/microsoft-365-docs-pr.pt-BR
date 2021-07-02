@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Saiba como criar, modificar, remover e testar tipos de informações confidenciais personalizados para DLP no Centro de Conformidade & Segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 451b5b222b06ba1ec9770a5e49cc66c5c0f68719
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: e067bc502267e918bd355d9bf8a1982795255846
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227146"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256718"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>Comece com tipos de informações confidenciais personalizados
 
@@ -182,10 +182,16 @@ Veja as definições e alguns exemplos das verificações adicionais disponívei
 
 
 > [!NOTE]
-> A Proteção de Informações do Microsoft 365 oferece suporte, em visualização, a idiomas de conjunto de caracteres de byte duplo para:
+> Microsoft 365 A Proteção de Informações dá suporte a idiomas de conjunto de caracteres de byte duplo para:
 > - Chinês (simplificado)
 > - Chinês (tradicional)
 > - Coreano
 > - Japonês
 >
 >Este suporte está disponível para tipos de informações confidenciais. Para obter mais informações, confira [Suporte à proteção de informações para notas de versão de conjuntos de caracteres de byte duplo (visualização)](mip-dbcs-relnotes.md).
+
+> [!TIP]
+> Para detectar padrões que contêm caracteres chineses/japoneses e caracteres de byte único ou para detectar padrões que contenham chinês/japonês e inglês, defina duas variantes da palavra-chave ou regex. Por exemplo, para detectar uma palavra-chave como "机密的document", use duas variantes da palavra-chave; um com um espaço entre o texto japonês e inglês e outro sem um espaço entre o texto japonês e o inglês. Portanto, as palavras-chave a serem adicionadas ao SIT devem ser "机密的 documento" e "机密的document". Da mesma forma, para detectar uma frase "東京オリ ピック2020", duas variantes devem ser usadas; "東京オリ ピック 2020" e "東京オリ ピック2020".
+> Ao criar um regex usando um hífen de byte duplo ou um período de byte duplo, certifique-se de escapar de ambos os caracteres como um escaparia de um hífen ou ponto em um regex. Aqui está um exemplo de regex para referência:
+    - (?<!\d) ([4][0-9] {3} [ \- ?\-\t]*[0-9]{4}
+> Recomendamos usar uma sequência de caracteres em vez de uma combinação de palavras em uma lista de palavras-chave.

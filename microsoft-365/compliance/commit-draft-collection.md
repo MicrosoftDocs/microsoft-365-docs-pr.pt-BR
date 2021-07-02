@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Depois de criar e iterar em um conjunto de rascunhos, você pode confirma-lo em um conjunto de revisão. Quando você confirma um conjunto de rascunhos, os itens coletados são adicionados ao conjunto de revisão no caso. Depois que os itens coletados estão no conjunto de revisão, você pode analisar, revisar e exportá-los.
-ms.openlocfilehash: e28592e7aac289bfc0cc29d312963fa21d9f8fd4
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: dceb661d9586e324482dc4f56bce12fafaf9b251
+ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838825"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53276972"
 ---
 # <a name="commit-a-draft-collection-to-a-review-set-in-advanced-ediscovery"></a>Commit a draft collection to a review set in Advanced eDiscovery
 
@@ -29,7 +29,7 @@ Quando você estiver satisfeito com os itens coletados em uma coleção de rascu
 
 ## <a name="commit-a-draft-collection-to-a-review-set"></a>Enviar uma coleção de rascunho para um conjunto de revisão
 
-1. No Microsoft 365 de conformidade, abra o Advanced eDiscovery e selecione a  guia Coleções para exibir uma lista das coleções no caso.
+1. No Centro de conformidade do Microsoft 365, abra o Advanced eDiscovery e selecione a guia **Coleções** para exibir uma lista das coleções no caso.
 
    ![Lista de coleções em um caso](../media/CommitDraftCollections1.png)
 
@@ -46,7 +46,7 @@ Quando você estiver satisfeito com os itens coletados em uma coleção de rascu
 
    1. Selecione **Coletar itens e adicione ao conjunto de revisão**.
 
-   2. Decida se deve adicionar a coleção a um novo conjunto de revisão (que é criado depois de enviar a coleção) ou a um conjunto de revisão existente. Conclua esta seção com base em sua decisão.
+   2. Decida se deve adicionar a coleção a um novo conjunto de revisão (que é criado depois de enviar a coleção) ou adicioná-la a um conjunto de revisão existente. Conclua esta seção com base em sua decisão.
 
    3. Configure as configurações de coleção adicionais:
 
@@ -73,6 +73,8 @@ Quando você estiver satisfeito com os itens coletados em uma coleção de rascu
 ## <a name="what-happens-after-you-commit-a-draft-collection"></a>O que acontece depois que você confirma um conjunto de rascunhos
 
 Quando você confirma um conjunto de rascunhos em um conjunto de revisão, as seguintes coisas ocorrem:
+
+- Se você criou um novo conjunto de revisão para confirmação da coleção, o conjunto de revisão é criado e exibido na guia Conjuntos **de** revisão no caso. O status do novo conjunto de revisão é **Ready**. Esse valor de status significa que o conjunto de revisão foi criado; isso não significa que a coleção foi adicionada ao conjunto de revisão. O status da adição de itens na coleção ao conjunto de revisão é exibido na **guia Coleções.**
 
 - A consulta de pesquisa de coleção é executado novamente. Isso significa que os resultados reais da pesquisa copiados para o conjunto de revisão podem ser diferentes dos resultados estimados que foram retornados quando a pesquisa da coleção foi executado pela última vez.
 

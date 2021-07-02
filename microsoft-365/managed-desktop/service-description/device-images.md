@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: c8c83724d17acff52d588331b3b854e180d5466c
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 3d0b0f1adac589b910b5fabf2c22d08cbd65f142
+ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841277"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53276924"
 ---
 # <a name="device-images"></a>Imagens do dispositivo
 
@@ -25,7 +25,7 @@ ms.locfileid: "52841277"
 Se você solicitar [novos dispositivos](#new-devices) ou [reutilizar](#existing-devices) os existentes, você tem várias opções para garantir que a imagem no dispositivo atenda aos nossos [requisitos de dispositivo.](device-requirements.md#check-hardware-requirements)
 
 ## <a name="new-devices"></a>Novos dispositivos
-Ao solicitar um novo dispositivo de um fabricante [aprovado,](device-requirements.md#minimum-requirements)siga estas etapas para garantir que eles navegam dispositivos com a configuração correta Área de Trabalho Gerenciada da Microsoft imagem e software.
+Ao solicitar um novo dispositivo de um fabricante [aprovado,](device-requirements.md#minimum-requirements)siga estas etapas para garantir que eles navegam dispositivos com a configuração correta Área de Trabalho Gerenciada da Microsoft imagem e software. Sempre que você planeja registrar um modelo de dispositivo específico no serviço pela primeira vez, você deve testar um exemplo para garantir que ele entregará a experiência do usuário esperada. Para obter mais informações, consulte [Validate new devices](/microsoft-365/managed-desktop/get-started/validate-device).
 
 ### <a name="dell"></a>Dell
 Trabalhe diretamente com o representante de vendas da Dell, que garantirá que a imagem aprovada pelo Área de Trabalho Gerenciada da Microsoft seja aplicada a dispositivos para seu pedido. Para obter mais perguntas sobre dispositivos Dell, a imagem e o processo de ordenação, entre em contato MMD_at_dell@dell.com.

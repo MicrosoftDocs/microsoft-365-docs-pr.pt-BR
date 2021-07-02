@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Altere as assinaturas manualmente comprando uma nova assinatura e garantindo que ambas as assinaturas sejam listadas e ativas.
 ROBOTS: NOINDEX
 ms.date: 03/17/2021
-ms.openlocfilehash: f5a44b7a3c01883ed42ca4ed203b63ccf77f9b72
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 5db328cb1545279faa1332c144c7a8b60a50fa05
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536101"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256766"
 ---
 # <a name="change-plans-manually"></a>Alterar planos manualmente
 
@@ -79,6 +79,8 @@ Inclua uma licença para cada usuário que você deseja mover.
 As licenças da assinatura atual serão removidas posteriormente; você só pagará pelas novas licenças de usuário a partir daí.
 
 ## <a name="step-4-reassign-licenses"></a>Etapa 4: Reatribuir licenças
+
+Ao atualizar de um plano Office 365 para um plano Microsoft 365, você deve alterar as atribuições de licença para todos os usuários. As licenças não são atribuídas automaticamente quando você altera os planos manualmente.
 
 ### <a name="reassign-a-license-for-one-user"></a>Reatribuir uma licença para um usuário
 

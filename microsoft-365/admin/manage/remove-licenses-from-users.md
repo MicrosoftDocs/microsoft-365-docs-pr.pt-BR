@@ -20,13 +20,13 @@ ms.custom:
 - commerce_licensing
 search.appverid: MET150
 description: O método que você usa para desasignar licenças de produto depende se você desa desa desemarcar licenças de usuários específicos ou de um produto específico.
-ms.date: 07/01/2020
-ms.openlocfilehash: f79ffecc22fe4531076ccacd83c25e44b81052a6
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.date: 06/07/2021
+ms.openlocfilehash: 6220ddc15e7b3381da1d78ad3ac4f3c2204bda78
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53006968"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256826"
 ---
 # <a name="unassign-licenses-from-users"></a>Cancelar a atribuição de licenças de usuários
 
@@ -117,7 +117,7 @@ Quando você usa a **página Usuários ativos** para desaignar licenças, você 
 ::: moniker-end
 
 2. Selecione os círculos ao lado dos nomes dos usuários para os que você deseja desasinalhar licenças.
-3. Na parte superior, selecione **Gerenciar licenças de produto**.
+3. Na parte superior, selecione **Gerenciar licenças de produtos**.
 4. No painel **Gerenciar licenças de** produto, selecione **Unassign all** Save  >  **changes**.
 5. Na parte inferior do painel, selecione **Feito**.  
 

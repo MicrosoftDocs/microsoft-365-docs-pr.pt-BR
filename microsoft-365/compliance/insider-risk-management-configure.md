@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 50273fabc85ecedc92b9c3ec379d3b82a63dd6e1
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 8bcd9577308e31eb4bd48a5b1e0ad5748ef738e9
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226438"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256322"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Introdução ao gerenciamento de riscos internos
 
@@ -74,7 +74,7 @@ Dependendo da estrutura da sua equipe de gerenciamento de conformidade, você te
 
 Conclua as etapas a seguir para adicionar usuários a um grupo de função de gerenciamento de risco interno:
 
-1. Entre [https://protection.office.com/permissions](https://protection.office.com/permissions) usando credenciais para uma conta de administrador em sua Microsoft 365 organização.
+1. Entre [https://compliance.microsoft.com/permissions](https://compliance.microsoft.com/permissions) usando credenciais para uma conta de administrador em sua Microsoft 365 organização.
 
 2. No Centro &amp; de Conformidade de Segurança, acesse **Permissões**. Selecione o link para exibir e gerenciar funções em Office 365.
 

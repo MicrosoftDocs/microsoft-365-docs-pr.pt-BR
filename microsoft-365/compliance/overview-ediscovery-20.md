@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: Saiba mais sobre a Advanced eDiscovery de Microsoft 365. Este artigo fornece uma visão geral do Advanced eDiscovery em Microsoft 365, uma ferramenta para ajudá-lo a gerenciar investigações internas e externas. Ele também enquadra os motivos comerciais para usar Advanced eDiscovery gerenciar suas investigações legais.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 16f597fdbbbad89116af73fdd0a607f3f03116ad
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 4fe94aed10a7b9e981e2a9d46e992d5557e35dcb
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52840833"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256454"
 ---
 # <a name="overview-of-microsoft-365-advanced-ediscovery"></a>Visão geral do Microsoft 365 Advanced eDiscovery
 
@@ -95,7 +95,7 @@ Em um nível alto, veja como a Descoberta Eletrônico Avançada dá suporte ao f
 
 O licenciamento para Advanced eDiscovery requer a assinatura da organização apropriada e o licenciamento por usuário.
 
-- **Assinatura da organização:** Para acessar Advanced eDiscovery no centro de conformidade Microsoft 365, sua organização deve ter um dos seguintes:
+- **Assinatura da organização:** Para acessar Advanced eDiscovery no Centro de conformidade do Microsoft 365, sua organização deve ter um dos seguintes:
 
   - Assinatura do Microsoft 365 E5 ou do Office 365 E5
   
@@ -141,3 +141,7 @@ Aqui está um diagrama de arquitetura Advanced eDiscovery que mostra o fluxo de 
 [Baixar como um arquivo PDF](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf)
 
 [Baixar como um arquivo Visio arquivo](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)
+
+## <a name="training"></a>Treinamento
+
+O treinamento de administradores de IT, gerentes de Descoberta e equipes de investigação de conformidade nas noções básicas para Advanced eDiscovery pode ajudar sua organização a começar mais rapidamente usando ferramentas de Descoberta Microsoft 365 eDiscovery. Microsoft 365 fornece o recurso a seguir para ajudar esses usuários em sua organização a começar com a Descoberta eDiscovery: Descreva os recursos de descoberta e auditoria do [Microsoft 365](/learn/modules/describe-ediscovery-capabilities-of-microsoft-365).

@@ -17,12 +17,12 @@ ms.custom: ''
 description: Os administradores podem aprender a usar a política de entrega avançada no Proteção do Exchange Online (EOP) para identificar mensagens que não devem ser filtradas em cenários com suporte específico (simulações de phishing de terceiros e mensagens entregues às caixas de correio de operações de segurança (SecOps).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 01d35c1f0c7abc7b6ce34fc9c2ec4d5fd5b228ae
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: 053f88da96983b03ad03e75c11a4fa692ac6a850
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137734"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256862"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>Configurar a entrega de simulações de phishing de terceiros para usuários e mensagens não filtradas para caixas de correio SecOps
 
@@ -161,7 +161,7 @@ New-SecOpsOverridePolicy -Name SecOpsOverridePolicy -SentTo <EmailAddress1>,<Ema
 Este exemplo cria a política de caixa de correio SecOps.
 
 ```powershell
-New-SecOpsOverridePolicy -Name SecOpsOverridePolicy -SendTo secops@contoso.com
+New-SecOpsOverridePolicy -Name SecOpsOverridePolicy -SentTo secops@contoso.com
 ```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [New-SecOpsOverridePolicy](/powershell/module/exchange/new-secopsoverridepolicy).

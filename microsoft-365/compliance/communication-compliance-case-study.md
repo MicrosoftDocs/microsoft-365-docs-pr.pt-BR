@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: bd3904b480f757c1cf684e15afaae9c19559e1ea
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: b44977252b18c29a5f05a67f4ffbdb7dc85a8188
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227394"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256778"
 ---
 # <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-exchange-and-yammer-communications"></a>Estudo de caso - a Contoso configura rapidamente uma política de linguagem ofensiva para comunicações Microsoft Teams, Exchange e Yammer comunicações
 
@@ -48,7 +48,7 @@ Os administradores de TI e especialistas em conformidade da Contoso participaram
 - Os especialistas em conformidade e outros colegas em outros departamentos (Recursos Humanos, Jurídicos etc.) que precisam investigar e correção de alertas de conformidade de comunicação.
 - Os usuários que estarão no escopo da política de linguagem ofensiva de conformidade de comunicação.
 
-### <a name="licensing"></a>Licenças
+### <a name="licensing"></a>Licenciamento
 
 A primeira etapa é confirmar se o licenciamento Microsoft 365 da Contoso inclui suporte para a solução de conformidade de comunicação. Para acessar e usar a conformidade de comunicação, os administradores de IT da Contoso precisam verificar se a Contoso tem um dos seguintes:
 
@@ -91,7 +91,7 @@ A Contoso decide usar o grupo de *função Conformidade* de Comunicação atribu
 | **Pesquisador de Conformidade de Comunicação** | Use esse grupo para atribuir permissões aos usuários que atuarão como investigadores de conformidade de comunicação. Os usuários atribuídos a esse grupo de funções podem exibir metadados de mensagens e conteúdo, escalonar para revisadores adicionais, escalonar para um caso Advanced eDiscovery, enviar notificações aos usuários e resolver o alerta. |
 | **Visualizador de Conformidade de Comunicação** | Use esse grupo para atribuir permissões aos usuários que gerenciarão relatórios de comunicação. Os usuários atribuídos a esse grupo de funções podem acessar todos os widgets de relatório na home page de conformidade de comunicação e podem exibir todos os relatórios de conformidade de comunicação. |
 
-1. Os administradores de IT da Contoso entrarão na página permissões do Centro de Conformidade e Segurança Office 365 **&** [( https://protection.office.com/permissions)](https://protection.office.com/permissions) usando credenciais para uma conta de administrador global e selecione o link para exibir e gerenciar funções no Microsoft 365.
+1. Os administradores de IT da Contoso entrarão na página permissões do Centro de Conformidade e Segurança Office 365 **&** [( https://compliance.microsoft.com/permissions)](https://compliance.microsoft.com/permissions) usando credenciais para uma conta de administrador global e selecione o link para exibir e gerenciar funções no Microsoft 365.
 2. No Centro **de Conformidade &** segurança, eles vão para **Permissões** e selecionam o link para exibir e gerenciar funções em Office 365.
 3. Os administradores selecionam o grupo *de função Conformidade* de Comunicação e, em seguida, selecione Editar grupo de **função**.
 4. Os administradores **selecionam Escolher membros** no painel de navegação esquerdo e, em seguida, selecione **Editar**.

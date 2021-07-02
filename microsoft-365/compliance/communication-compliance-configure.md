@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d76bc36ca8c79d318e1b632517e2a182857627ff
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: f099d7bd180843530d23d0bbcee89dc8ae35cdbb
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227338"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256730"
 ---
 # <a name="get-started-with-communication-compliance"></a>Introdução à conformidade de comunicação
 
@@ -76,7 +76,7 @@ Escolha entre essas opções de grupo de função ao configurar a conformidade d
 
 ### <a name="option-1-assign-all-compliance-users-to-the-communication-compliance-role-group"></a>Opção 1: Atribuir todos os usuários de conformidade ao grupo de função Conformidade de Comunicação
 
-1. Entre [https://protection.office.com/permissions](https://protection.office.com/permissions) usando credenciais para uma conta de administrador em sua Microsoft 365 organização.
+1. Entre [https://compliance.microsoft.com/permissions](https://compliance.microsoft.com/permissions) usando credenciais para uma conta de administrador em sua Microsoft 365 organização.
 
 2. No Centro &amp; de Conformidade de Segurança, acesse **Permissões**. Selecione o link para exibir e gerenciar funções em Office 365.
 
@@ -94,7 +94,7 @@ Escolha entre essas opções de grupo de função ao configurar a conformidade d
 
 Use essa opção para atribuir usuários a grupos de função específicos para segmentar o acesso e as responsabilidades de conformidade de comunicação entre diferentes usuários em sua organização.
 
-1. Entre [https://protection.office.com/permissions](https://protection.office.com/permissions) usando credenciais para uma conta de administrador em sua Microsoft 365 organização.
+1. Entre [https://compliance.microsoft.com/permissions](https://compliance.microsoft.com/permissions) usando credenciais para uma conta de administrador em sua Microsoft 365 organização.
 
 2. No Centro &amp; de Conformidade de Segurança, acesse **Permissões**. Selecione o link para exibir e gerenciar funções em Office 365.
 

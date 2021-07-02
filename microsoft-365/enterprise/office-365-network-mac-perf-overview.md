@@ -1,5 +1,5 @@
 ---
-title: Conectividade de rede no Microsoft 365 Admin Center
+title: Conectividade de rede no Administração Microsoft 365 Central
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -14,22 +14,22 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
-description: Visão geral da conectividade de rede no Microsoft 365 Admin Center
-ms.openlocfilehash: 75451a73ed56dade796f6de288f7f4acfb147960
-ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
+description: Visão geral da conectividade de rede no Administração Microsoft 365 Central
+ms.openlocfilehash: 8ad589ede747975ca9dcd3c81e661a2147fc1b88
+ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52470607"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53276996"
 ---
-# <a name="network-connectivity-in-the-microsoft-365-admin-center"></a>Conectividade de rede no Microsoft 365 Admin Center
+# <a name="network-connectivity-in-the-microsoft-365-admin-center"></a>Conectividade de rede no Administração Microsoft 365 Central
 
-O Microsoft 365 Admin Center agora inclui métricas de conectividade de rede agregadas coletadas do seu locatário Microsoft 365 e disponíveis para exibição somente por usuários administrativos em seu locatário.
+O Administração Microsoft 365 Agora inclui métricas de conectividade de rede agregadas coletadas do seu locatário Microsoft 365 e disponíveis para exibição somente por usuários administrativos em seu locatário.
 
 > [!div class="mx-imgBorder"]
 > ![Ferramenta de teste de conectividade de rede](../media/m365-mac-perf/m365-mac-perf-admin-center.png)
 
-**Avaliações de rede** **e percepções de rede** são exibidas no Centro de administração Microsoft 365 em Health **| Conectividade de rede**.
+**Avaliações de rede** **e percepções de rede** são exibidas no Centro de Administração Microsoft 365 em Health **| Conectividade de rede**.
 
 > [!div class="mx-imgBorder"]
 > ![Página de desempenho da rede](../media/m365-mac-perf/m365-mac-perf-page-nav.png)
@@ -37,7 +37,7 @@ O Microsoft 365 Admin Center agora inclui métricas de conectividade de rede agr
 >[!NOTE]
 >A conectividade de rede no Centro de Administração dá suporte a locatários na WW Commercial e alemanha, mas não GCC moderado, GCC Alta, DoD ou China.
 
-Ao navegar pela primeira vez para a página de desempenho da rede, você terá que configurar seus locais para ver o mapa do desempenho global da rede, uma avaliação de rede com escopo para todo o locatário, porcentagem de seus usuários trabalhando remotamente versus local e uma lista de problemas atuais para realizar ações e/ou pesquisar mais. No painel de visão geral, você pode detalhar para exibir métricas e problemas específicos de desempenho de rede por local. Para obter mais informações, consulte [Visão geral do desempenho da rede no Microsoft 365 Admin Center](#network-connectivity-overview-in-the-microsoft-365-admin-center).
+Ao navegar pela primeira vez para a página de desempenho da rede, você terá que configurar seus locais para ver o mapa do desempenho global da rede, uma avaliação de rede com escopo para todo o locatário, porcentagem de seus usuários trabalhando remotamente versus local e uma lista de problemas atuais para realizar ações e/ou pesquisar mais. No painel de visão geral, você pode detalhar para exibir métricas e problemas específicos de desempenho de rede por local. Para obter mais informações, consulte [Visão geral do desempenho da rede no Administração Microsoft 365 Central](#network-connectivity-overview-in-the-microsoft-365-admin-center).
 
 Você pode ser solicitado a ingressar na visualização pública desse recurso em nome da sua organização. A aceitação geralmente acontece imediatamente, depois da qual você verá a página de conectividade de rede.
 
@@ -75,7 +75,10 @@ Para essa opção, você precisa identificar uma pessoa em cada local. Peça que
 
 Os relatórios de teste são vinculados a um local se foram adicionados com informações de sub-rede lan, caso contrário, eles são mostrados apenas no local da cidade.
 
-Amostras de medida e locais de escritório devem começar a aparecer 2 a 3 minutos após a conclusão de um relatório de teste. Para obter mais informações, consulte Microsoft 365 teste de conectividade [de rede (visualização)](office-365-network-mac-perf-onboarding-tool.md).
+Amostras de medida e locais de escritório devem começar a aparecer 2 a 3 minutos após a conclusão de um relatório de teste. Para obter mais informações, [consulte Microsoft 365 teste de conectividade de rede](office-365-network-mac-perf-onboarding-tool.md).
+
+> [!NOTE]
+> Ao adicionar seus locais de escritório Microsoft 365 conectividade de rede no Centro de administração do Microsoft 365, você pode fornecer endereços IPv4 ou IPv6 para suas sub-redes lan. Egress Os endereços IP devem usar IPv4.
 
 ## <a name="how-do-i-use-this-information"></a>Como uso essas informações?
 
@@ -86,7 +89,7 @@ Amostras de medida e locais de escritório devem começar a aparecer 2 a 3 minut
 As empresas complexas com vários locais de escritório e arquiteturas de perímetro de rede não triviais podem se beneficiar dessa informação durante a integração inicial para o Microsoft 365 ou para resolver problemas de desempenho de rede descobertos com o crescimento do uso. Isso geralmente não é necessário para pequenas empresas usando Microsoft 365, ou para qualquer empresa que já tenha conectividade de rede simples e direta. As empresas com mais de 500 usuários e vários locais de escritório devem se beneficiar mais.
 
 >[!IMPORTANT]
->Percepções de rede, recomendações de desempenho e avaliações no Centro de Administração do Microsoft 365 está atualmente em status de visualização e está disponível apenas para locatários de Microsoft 365 que foram inscritos no programa de visualização de recursos.
+>Insights de rede, recomendações de desempenho e avaliações no centro de Administração Microsoft 365 estão atualmente em status de visualização e só estão disponíveis para locatários de Microsoft 365 que foram inscritos no programa de visualização de recursos.
 
 ## <a name="enterprise-network-connectivity-challenges"></a>Enterprise de conectividade de rede
 
@@ -97,15 +100,15 @@ Muitas empresas têm configurações de perímetro de rede que cresceram com o t
 
 ## <a name="how-we-can-solve-these-challenges"></a>Como resolver esses desafios
 
-As empresas podem melhorar a experiência geral [](./microsoft-365-network-connectivity-principles.md) do usuário e proteger seu ambiente seguindo Office 365 de conectividade e usando o recurso Microsoft 365 conectividade de rede do Centro de Administração. Na maioria dos casos, seguir esses princípios gerais terá um impacto positivo significativo na latência do usuário final, na confiabilidade do serviço e no desempenho geral da Microsoft 365.
+As empresas podem melhorar a experiência geral [](./microsoft-365-network-connectivity-principles.md) do usuário e proteger seu ambiente seguindo Office 365 de conectividade e usando o recurso Administração Microsoft 365 conectividade de rede central. Na maioria dos casos, seguir esses princípios gerais terá um impacto positivo significativo na latência do usuário final, na confiabilidade do serviço e no desempenho geral da Microsoft 365.
 
 Às vezes, a Microsoft é solicitado a investigar problemas de desempenho de rede com Microsoft 365 para clientes de grandes empresas, e eles frequentemente têm uma causa raiz relacionada à infraestrutura de perímetro de rede do cliente. Quando uma causa raiz comum de um problema de perímetro de rede do cliente é encontrada, buscamos identificar medições de teste simples que o identificam. Um teste com um limite de medida que identifica um problema específico é valioso porque podemos testar a mesma medida em qualquer local, dizer se essa causa raiz está presente lá e compartilhá-la como um insight de rede com o administrador.
 
 Algumas percepções de rede indicarão apenas um problema que precisa de mais investigação. Uma visão de rede em que temos testes suficientes para mostrar uma ação de correção específica para corrigir a causa raiz é listada como uma **ação recomendada**. Essas recomendações, com base em métricas ao vivo que revelam valores que estão fora de um limite predeterminado, são muito mais valiosas do que os conselhos gerais de práticas recomendadas, pois são específicas para seu ambiente e mostrarão a melhoria real depois que as alterações recomendadas foram feitas.
 
-## <a name="network-connectivity-overview-in-the-microsoft-365-admin-center"></a>Visão geral da conectividade de rede no Microsoft 365 Admin Center
+## <a name="network-connectivity-overview-in-the-microsoft-365-admin-center"></a>Visão geral da conectividade de rede no Administração Microsoft 365 Center
 
-A Microsoft tem medidas de rede existentes de vários Office desktop e web que suportam a operação de Microsoft 365. Essas medidas agora estão sendo usadas para fornecer ideias de design  de arquitetura de rede e uma avaliação de rede que são mostradas na página Conectividade de rede no Centro de administração Microsoft 365 de rede.
+A Microsoft tem medidas de rede existentes de vários Office desktop e web que suportam a operação de Microsoft 365. Essas medidas agora estão sendo usadas para fornecer ideias de design  de arquitetura de rede e uma avaliação de rede que são mostradas na página Conectividade de rede no Centro de Administração Microsoft 365.
 
 Por padrão, informações de localização aproximadas associadas às medições de rede identificam a cidade onde os dispositivos cliente estão localizados. A avaliação de rede em cada local é mostrada com cor e o número relativo de usuários em cada local é representado pelo tamanho do círculo.
 
@@ -220,7 +223,7 @@ O local de saída da Internet é o local onde o tráfego de rede sai da rede cor
 
 ### <a name="what-license-is-needed-for-this-capability"></a>Qual licença é necessária para esse recurso?
 
-Você exige uma licença que fornece acesso ao Microsoft 365 de administração.
+Você exige uma licença que fornece acesso ao Centro de administração do Microsoft 365.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6d92cbacba72210c6accbbb1e5ecf25de660fc3c
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: b56a18e1b35b65629318ab29f2189ef1f73373f5
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730525"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256910"
 ---
 # <a name="create-indicators-for-files"></a>Criar indicadores para arquivos
 
@@ -80,10 +80,13 @@ Os arquivos bloqueados automaticamente por um indicador não aparecerão no Cent
 
 >[!IMPORTANT]
 >- Normalmente, os blocos de arquivos são impostos e removidos em alguns minutos, mas podem levar mais de 30 minutos.
->- Se houver políticas de indicador de arquivo conflitantes, a política de imposição da política mais segura será aplicada. Por exemplo, uma política de indicador de hash de arquivo SHA-256 tem precedência sobre uma política de indicador de hash de arquivo MD5 se ambos os tipos de hash definirem o mesmo arquivo.
->- Se a política de grupo EnableFileHashComputation estiver desabilitada, a precisão de bloqueio do IoC de arquivo será reduzida. No entanto, habilitar EnableFileHashComputation pode afetar o desempenho do dispositivo.
->    - Por exemplo, copiar arquivos grandes de um compartilhamento de rede em seu dispositivo local, especialmente em uma conexão VPN, pode ter um efeito no desempenho do dispositivo.
->    - Para obter mais informações sobre a política de grupo EnableFileHashComputation, consulte [Defender CSP](/windows/client-management/mdm/defender-csp)
+> 
+>- Se houver políticas de IoC de arquivo conflitantes com o mesmo tipo de imposição e destino, a política do hash mais seguro será aplicada. Uma política de IoC de hash de arquivo SHA-256 vencerá uma política de IoC de hash de arquivo SHA-1, que vencerá uma política de IoC de hash de arquivo MD5 se os tipos de hash definirem o mesmo arquivo. Isso sempre é verdadeiro independentemente do grupo de dispositivos. 
+>   Em todos os outros casos, se as políticas de IoC de arquivo conflitantes com o mesmo destino de imposição são aplicadas a todos os dispositivos e ao grupo do dispositivo, em seguida, para um dispositivo, a política no grupo de dispositivos vencerá. 
+>   
+>- Se a política de grupo EnableFileHashComputation estiver desabilitada, a precisão de bloqueio do IoC de arquivo será reduzida. No entanto, a habilitação `EnableFileHashComputation` pode afetar o desempenho do dispositivo. Por exemplo, copiar arquivos grandes de um compartilhamento de rede em seu dispositivo local, especialmente em uma conexão VPN, pode ter um efeito no desempenho do dispositivo.
+>
+>   Para obter mais informações sobre a política de grupo EnableFileHashComputation, consulte [Defender CSP](/windows/client-management/mdm/defender-csp)
 
 ## <a name="policy-conflict-handling"></a>Tratamento de conflitos de política  
 
@@ -103,7 +106,7 @@ O conflito de tratamento de política de Certificado e IoC de arquivo seguirá a
 
 Se houver políticas de IoC de arquivo conflitantes com o mesmo tipo de imposição e destino, a política do hash mais seguro (ou seja, mais longo) será aplicada. Por exemplo, uma política de IoC de hash de arquivo SHA-256 vencerá uma política de IoC de hash de arquivo MD5 se ambos os tipos de hash definirem o mesmo arquivo.
 
-Observe que Gerenciamento de Ameaças e Vulnerabilidades os recursos de aplicativos vulneráveis de bloqueio usam os IoCs de arquivo para imposição e seguirão a ordem de tratamento de conflitos acima.
+Os recursos Gerenciamento de Vulnerabilidades de aplicativo vulnerável usam os IoCs de arquivo para imposição e seguirão a ordem de tratamento de conflitos acima.
 
 ### <a name="examples"></a>Exemplos
 
