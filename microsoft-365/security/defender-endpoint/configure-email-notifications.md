@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c60bed1fb2cc17c9f5dfbd1289ae5f5b5e13faec
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 9a7ad1241ce73bb9b68e173faa9433c7326e14e5
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933944"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286928"
 ---
 # <a name="configure-alert-notifications-in-microsoft-defender-for-endpoint"></a>Configurar notificações de alerta no Microsoft Defender para Ponto de Extremidade
 
@@ -31,7 +31,7 @@ ms.locfileid: "51933944"
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-emailconfig-abovefoldlink)
+> Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-emailconfig-abovefoldlink)
 
 Você pode configurar o Defender para o Ponto de Extremidade para enviar notificações de email para destinatários especificados para novos alertas. Esse recurso permite identificar um grupo de indivíduos que serão imediatamente informados e poderão agir em alertas com base em sua gravidade.
 
@@ -46,7 +46,6 @@ Somente os usuários atribuídos à função de administrador global podem geren
 
 A notificação por email inclui informações básicas sobre o alerta e um link para o portal onde você pode fazer uma investigação adicional.
 
-
 ## <a name="create-rules-for-alert-notifications"></a>Criar regras para notificações de alerta
 Você pode criar regras que determinam os dispositivos e as gravidades de alerta para enviar notificações por email e para os destinatários de notificação.
 
@@ -60,15 +59,15 @@ Você pode criar regras que determinam os dispositivos e as gravidades de alerta
     - **Incluir nome da** organização - Especifique o nome do cliente que aparece na notificação de email.
     - **Incluir link de portal específico do locatário** - Adiciona um link com a ID do locatário para permitir o acesso a um locatário específico.
     - **Incluir informações do dispositivo** - Inclui o nome do dispositivo no corpo do alerta de email.
-    
-        >[!NOTE]
+
+        > [!NOTE]
         > Essas informações podem ser processadas por servidores de email de destinatário que não estão na localização geográfica selecionada para os dados do Defender para o Ponto de Extremidade.
 
     - **Dispositivos** - Escolha se deve notificar os destinatários para alertas em todos os dispositivos (função de administrador global somente) ou em grupos de dispositivos selecionados. Para obter mais informações, consulte [Create and manage device groups](machine-groups.md).
     - **Gravidade do alerta** - Escolha o nível de gravidade do alerta.
 
 4. Clique em **Avançar**.
-    
+
 5. Insira o endereço de email do destinatário e clique em **Adicionar destinatário**. Você pode adicionar vários endereços de email.
 
 6. Verifique se os destinatários de email podem receber as notificações de email selecionando **Enviar email de teste.**
@@ -76,12 +75,12 @@ Você pode criar regras que determinam os dispositivos e as gravidades de alerta
 7. Clique **em Salvar regra de notificação**.
 
 ## <a name="edit-a-notification-rule"></a>Editar uma regra de notificação
+
 1. Selecione a regra de notificação que você gostaria de editar.
 
 2. Atualize as informações da guia Geral e destinatário.
 
 3. Clique **em Salvar regra de notificação**.
-
 
 ## <a name="delete-notification-rule"></a>Excluir regra de notificação
 
@@ -89,8 +88,8 @@ Você pode criar regras que determinam os dispositivos e as gravidades de alerta
 
 2. Clique em **Excluir**.
 
-
 ## <a name="troubleshoot-email-notifications-for-alerts"></a>Solucionar problemas de notificações por email para alertas
+
 Esta seção lista vários problemas que você pode encontrar ao usar notificações de email para alertas.
 
 **Problema:** Os destinatários pretendido relatam que não estão recebendo as notificações.
@@ -102,5 +101,6 @@ Esta seção lista vários problemas que você pode encontrar ao usar notificaç
 3. Verifique as regras do aplicativo de email que podem estar capturando e movendo o Defender para notificações de email do Ponto de Extremidade.
 
 ## <a name="related-topics"></a>Tópicos relacionados
+
 - [Atualizar configurações de retenção de dados](data-retention-settings.md)
 - [Configurar recursos avançados](advanced-features.md)

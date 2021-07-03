@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Entre na sua conta de administrador Microsoft 365 para definir algumas senhas de usuário individuais para nunca expirar usando Windows PowerShell.
-ms.openlocfilehash: 12c717d8d625b0135f185b1af131db00e9762c73
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: a0b247f4b736ecccab57398e1e7131f0a06a2958
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635553"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286256"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Definir a senha de um usuário individual para nunca expirar
 
@@ -35,11 +35,11 @@ Este artigo explica como definir uma senha para que um usuário individual não 
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Este artigo é destinado às pessoas que definem a política de expiração de senhas para uma empresa, escola ou entidade sem fins lucrativos. Para concluir essas etapas, você precisa entrar com a sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](../../business-video/admin-center-overview.md). 
+Este artigo é destinado às pessoas que definem a política de expiração de senhas para uma empresa, escola ou entidade sem fins lucrativos. Para concluir essas etapas, você precisa entrar com a sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](../../business-video/admin-center-overview.md).
 
 Você deve ser um [administrador global ou administrador de senha](about-admin-roles.md) para executar essas etapas.
 
-Um administrador global de um serviço de nuvem da Microsoft pode usar o [Azure Active Directory PowerShell](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0) para Graph definir senhas para não expirar para usuários específicos. Você também pode usar cmdlets do [AzureAD](/powershell/module/Azuread) para remover a configuração nunca expira ou para ver quais senhas de usuário estão definidas para nunca expirar.
+Um administrador global de um serviço de nuvem da Microsoft pode usar o [Azure Active Directory PowerShell](/powershell/azure/active-directory/install-adv2) para Graph definir senhas para não expirar para usuários específicos. Você também pode usar cmdlets do [AzureAD](/powershell/module/Azuread) para remover a configuração nunca expira ou para ver quais senhas de usuário estão definidas para nunca expirar.
 
 Este guia se aplica a outros provedores, como o Intune e o Microsoft 365, que também dependem do Azure AD para serviços de identidade e diretório. A expiração de senha é a única parte da política que pode ser alterada.
 
@@ -48,7 +48,7 @@ Este guia se aplica a outros provedores, como o Intune e o Microsoft 365, que ta
 
 ## <a name="how-to-check-the-expiration-policy-for-a-password"></a>Como verificar a política de expiração para uma senha
 
-Para obter mais informações sobre o Get-AzureADUser no módulo do AzureAD, consulte o artigo de referência [Get-AzureADUser](/powershell/module/Azuread/Get-AzureADUser?view=azureadps-2.0).
+Para obter mais informações sobre o Get-AzureADUser no módulo do AzureAD, consulte o artigo de referência [Get-AzureADUser](/powershell/module/Azuread/Get-AzureADUser).
 
 Execute um dos seguintes comandos:
 
@@ -66,7 +66,7 @@ Execute um dos seguintes comandos:
     Get-AzureADUser -ObjectId userUPN@contoso.com | Select-Object UserprincipalName,@{
         N="PasswordNeverExpires";E={$_.PasswordPolicies -contains "DisablePasswordExpiration"}
     }
-    ```  
+    ```
 
 - Para ver a **configuração Senha nunca expira para** todos os usuários, execute o seguinte cmdlet:
 
@@ -82,7 +82,7 @@ Execute um dos seguintes comandos:
     Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
         N="PasswordNeverExpires";E={$_.PasswordPolicies -contains "DisablePasswordExpiration"}
     } | ConvertTo-Html | Out-File $env:userprofile\Desktop\ReportPasswordNeverExpires.html
-    ```  
+    ```
 
 - Para obter um relatório de todos os usuários com PasswordNeverExpires no CSV na área de trabalho do usuário atual com nome **ReportPasswordNeverExpires.csv**
 

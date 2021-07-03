@@ -17,23 +17,23 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 385227dc67039fb3666d3b9518af5be8eb01dc7a
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 843fe093a2cfb8c328c51676e55f15ae732f7869
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769756"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286016"
 ---
-# <a name="microsoft-defender-for-endpoint-api---hello-world"></a>API do Microsoft Defender para Ponto de Extremidade - Hello World 
+# <a name="microsoft-defender-for-endpoint-api---hello-world"></a>API do Microsoft Defender para Ponto de Extremidade - Hello World
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-**Aplica-se a:** 
+**Aplica-se a:**
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)
 
 
-- Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -54,7 +54,7 @@ Para o estágio de registro do aplicativo, você deve ter uma função de admini
 
 1. Faça logoff no [Azure](https://portal.azure.com) com seu **usuário de administrador** global.
 
-2. Navegue **até Azure Active Directory** registros do  >  **aplicativo** Novo  >  **registro**. 
+2. Navegue **até Azure Active Directory** registros do  >  **aplicativo** Novo  >  **registro**.
 
    ![Imagem de Microsoft Azure e navegação para registro de aplicativos](images/atp-azure-new-app2.png)
 
@@ -82,13 +82,13 @@ Para o estágio de registro do aplicativo, você deve ter uma função de admini
 
 5. Clique **em Conceder consentimento**
 
-    - **Observação**: sempre que você adicionar permissão, clique em **Conceder consentimento** para que a nova permissão entre em vigor.
+   - **Observação**: sempre que você adicionar permissão, clique em **Conceder consentimento** para que a nova permissão entre em vigor.
 
-    ![Imagem de Permissões de Concessão](images/grant-consent.png)
+   ![Imagem de Permissões de Concessão](images/grant-consent.png)
 
 6. Adicione um segredo ao aplicativo.
 
-    - Clique **em Certificados & segredos,** adicione a descrição ao segredo e clique em **Adicionar**.
+   - Clique **em Certificados & segredos,** adicione a descrição ao segredo e clique em **Adicionar**.
 
     **Importante**: depois de clicar em Adicionar, **copie o valor secreto gerado.** Você não poderá recuperar depois de sair!
 
@@ -100,96 +100,95 @@ Para o estágio de registro do aplicativo, você deve ter uma função de admini
 
    ![Imagem da ID do aplicativo criado](images/app-and-tenant-ids.png)
 
-
 Pronto! Você registrou com êxito um aplicativo!
 
 ### <a name="step-2---get-a-token-using-the-app-and-use-this-token-to-access-the-api"></a>Etapa 2 : Obter um token usando o Aplicativo e usar esse token para acessar a API.
 
--   Copie o script abaixo para o ISE do PowerShell ou para um editor de texto e salve-o como "**Get-Token.ps1**"
--   Executar esse script gerará um token e o salvará na pasta de trabalho com o nome "**Latest-token.txt**".
+- Copie o script abaixo para o ISE do PowerShell ou para um editor de texto e salve-o como "**Get-Token.ps1**"
+- Executar esse script gerará um token e o salvará na pasta de trabalho com o nome "**Latest-token.txt**".
 
-```
-# That code gets the App Context Token and save it to a file named "Latest-token.txt" under the current directory
-# Paste below your Tenant ID, App ID and App Secret (App key).
+   ```powershell
+   # That code gets the App Context Token and save it to a file named "Latest-token.txt" under the current directory
+   # Paste below your Tenant ID, App ID and App Secret (App key).
 
-$tenantId = '' ### Paste your tenant ID here
-$appId = '' ### Paste your Application ID here
-$appSecret = '' ### Paste your Application secret here
+   $tenantId = '' ### Paste your tenant ID here
+   $appId = '' ### Paste your Application ID here
+   $appSecret = '' ### Paste your Application secret here
 
-$resourceAppIdUri = 'https://api.securitycenter.microsoft.com'
-$oAuthUri = "https://login.microsoftonline.com/$TenantId/oauth2/token"
-$authBody = [Ordered] @{
-    resource = "$resourceAppIdUri"
-    client_id = "$appId"
-    client_secret = "$appSecret"
-    grant_type = 'client_credentials'
-}
-$authResponse = Invoke-RestMethod -Method Post -Uri $oAuthUri -Body $authBody -ErrorAction Stop
-$token = $authResponse.access_token
-Out-File -FilePath "./Latest-token.txt" -InputObject $token
-return $token
-```
+   $resourceAppIdUri = 'https://api.securitycenter.microsoft.com'
+   $oAuthUri = "https://login.microsoftonline.com/$TenantId/oauth2/token"
+   $authBody = [Ordered] @{
+       resource = "$resourceAppIdUri"
+       client_id = "$appId"
+       client_secret = "$appSecret"
+       grant_type = 'client_credentials'
+   }
+   $authResponse = Invoke-RestMethod -Method Post -Uri $oAuthUri -Body $authBody -ErrorAction Stop
+   $token = $authResponse.access_token
+   Out-File -FilePath "./Latest-token.txt" -InputObject $token
+   return $token
+   ```
 
--   Verificação de sanidade:<br>
-Execute o script.<br>
-No navegador, vá para: https://jwt.ms/ <br>
-Copie o token (o conteúdo do arquivo Latest-token.txt arquivo).<br>
-Colar na caixa superior.<br>
-Procure a seção "funções". Encontre a função Alert.Read.All.
+- Verificação de sanidade:
+  - Execute o script.
+  - No navegador, vá para: <https://jwt.ms/>
+  - Copie o token (o conteúdo do arquivo Latest-token.txt arquivo).
+  - Colar na caixa superior.
+  - Procure a seção "funções". Encontre a função Alert.Read.All.
 
-![Imagem jwt.ms](images/api-jwt-ms.png)
+  ![Imagem jwt.ms](images/api-jwt-ms.png)
 
 ### <a name="lets-get-the-alerts"></a>Vamos obter os Alertas!
 
--   O script a seguir usará **Get-Token.ps1** acessar a API e receberá os alertas das últimas 48 horas.
--   Salve esse script na mesma pasta que você salvou o script **anteriorGet-Token.ps1**. 
--   O script cria dois arquivos (json e csv) com os dados na mesma pasta que os scripts.
+- O script a seguir usará **Get-Token.ps1** acessar a API e receberá os alertas das últimas 48 horas.
+- Salve esse script na mesma pasta que você salvou o script **anteriorGet-Token.ps1**.
+- O script cria dois arquivos (json e csv) com os dados na mesma pasta que os scripts.
 
-```
-# Returns Alerts created in the past 48 hours.
+  ```powershell
+  # Returns Alerts created in the past 48 hours.
 
-$token = ./Get-Token.ps1       #run the script Get-Token.ps1  - make sure you are running this script from the same folder of Get-Token.ps1
+  $token = ./Get-Token.ps1       #run the script Get-Token.ps1  - make sure you are running this script from the same folder of Get-Token.ps1
 
-# Get Alert from the last 48 hours. Make sure you have alerts in that time frame.
-$dateTime = (Get-Date).ToUniversalTime().AddHours(-48).ToString("o")       
+  # Get Alert from the last 48 hours. Make sure you have alerts in that time frame.
+  $dateTime = (Get-Date).ToUniversalTime().AddHours(-48).ToString("o")
 
-# The URL contains the type of query and the time filter we create above
-# Read more about other query options and filters at   Https://TBD- add the documentation link
-$url = "https://api.securitycenter.microsoft.com/api/alerts?`$filter=alertCreationTime ge $dateTime"
+  # The URL contains the type of query and the time filter we create above
+  # Read more about other query options and filters at   Https://TBD- add the documentation link
+  $url = "https://api.securitycenter.microsoft.com/api/alerts?`$filter=alertCreationTime ge $dateTime"
 
-# Set the WebRequest headers
-$headers = @{ 
-    'Content-Type' = 'application/json'
-    Accept = 'application/json'
-    Authorization = "Bearer $token" 
-}
+  # Set the WebRequest headers
+  $headers = @{
+      'Content-Type' = 'application/json'
+      Accept = 'application/json'
+      Authorization = "Bearer $token"
+  }
 
-# Send the webrequest and get the results. 
-$response = Invoke-WebRequest -Method Get -Uri $url -Headers $headers -ErrorAction Stop
+  # Send the webrequest and get the results.
+  $response = Invoke-WebRequest -Method Get -Uri $url -Headers $headers -ErrorAction Stop
 
-# Extract the alerts from the results. 
-$alerts =  ($response | ConvertFrom-Json).value | ConvertTo-Json
+  # Extract the alerts from the results.
+  $alerts =  ($response | ConvertFrom-Json).value | ConvertTo-Json
 
-# Get string with the execution time. We concatenate that string to the output file to avoid overwrite the file
-$dateTimeForFileName = Get-Date -Format o | foreach {$_ -replace ":", "."}    
+  # Get string with the execution time. We concatenate that string to the output file to avoid overwrite the file
+  $dateTimeForFileName = Get-Date -Format o | foreach {$_ -replace ":", "."}
 
-# Save the result as json and as csv
-$outputJsonPath = "./Latest Alerts $dateTimeForFileName.json"     
-$outputCsvPath = "./Latest Alerts $dateTimeForFileName.csv"
+  # Save the result as json and as csv
+  $outputJsonPath = "./Latest Alerts $dateTimeForFileName.json"
+  $outputCsvPath = "./Latest Alerts $dateTimeForFileName.csv"
 
-Out-File -FilePath $outputJsonPath -InputObject $alerts
-($alerts | ConvertFrom-Json) | Export-CSV $outputCsvPath -NoTypeInformation 
-```
+  Out-File -FilePath $outputJsonPath -InputObject $alerts
+  ($alerts | ConvertFrom-Json) | Export-CSV $outputCsvPath -NoTypeInformation
+  ```
 
 Você terminou! Você acabou de fazer isso com êxito:
--   Criado e registrado e aplicativo
--   Permissão concedida para que o aplicativo leia alertas
--   Conectado a API
--   Usou um script do PowerShell para retornar alertas criados nas últimas 48 horas
 
-
+- Criado e registrado e aplicativo
+- Permissão concedida para que o aplicativo leia alertas
+- Conectado a API
+- Usou um script do PowerShell para retornar alertas criados nas últimas 48 horas
 
 ## <a name="related-topic"></a>Tópicos relacionados
+
 - [APIs do Microsoft Defender para Ponto de Extremidade](exposed-apis-list.md)
 - [Acessar o Microsoft Defender para Ponto de Extremidade com contexto de aplicativo](exposed-apis-create-app-webapp.md)
 - [Acessar o Microsoft Defender para Ponto de Extremidade com contexto de usuário](exposed-apis-create-app-nativeapp.md)

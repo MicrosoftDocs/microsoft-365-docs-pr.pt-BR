@@ -16,12 +16,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Use o monitoramento do Exchange Online para obter informações sobre incidentes de email ou avisos no Microsoft 365.
-ms.openlocfilehash: ee31f8e152d7c54e37b850563bea57971e07f61c
-ms.sourcegitcommit: 76c91e7b0d3172de57988eb4576d2b91c2f9ce18
+ms.openlocfilehash: 3d88378449879d451b21ba8bf2a7b5c3032a2c07
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52707291"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286436"
 ---
 # <a name="exchange-online-monitoring-for-microsoft-365"></a>Monitoramento do Exchange Online para Microsoft 365
 
@@ -133,4 +133,3 @@ Para comentários sobre incidentes ou avisos, use o link **Esta postagem é úti
 #### <a name="7-where-is-the-data-instrumented-for-the-scenarios-that-show-activity-trends"></a>7. Onde estão os dados instrumentados para os cenários que mostram tendências de atividade?
 
 Os dados são instrumentados no serviço Exchange Online. Se houver uma falha que acontece antes da solicitação chegar no Exchange Online ou se houver uma falha no Exchange Online, você verá uma queda do sinal de atividade.
-

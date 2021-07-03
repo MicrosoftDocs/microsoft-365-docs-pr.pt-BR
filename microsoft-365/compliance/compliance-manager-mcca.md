@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Entenda como usar o Analisador de Configuração de Conformidade da Microsoft para começar a funcionar rapidamente com o Microsoft Compliance Manager.
-ms.openlocfilehash: 36f11597eac1837e3e18885f3c0a5d8dbc89a774
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 7652a53e0d63e52d92e0d0506207c28f67459029
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53148957"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287048"
 ---
 # <a name="microsoft-compliance-configuration-analyzer-for-compliance-manager-preview"></a>Analisador de Configuração de Conformidade da Microsoft para Gerenciador de Conformidade (visualização)
 
@@ -101,9 +101,9 @@ Siga estas instruções para executar um relatório com base em um local especí
     ```
   | Input |  País ou Região | 
   | :------------- | :------------: |
-  | 1  | Ásia – Pacífico |
-  | 2  | Austrália |
-  | 3  | Canadá |
+  | 1 | Ásia – Pacífico |
+  | 2 | Austrália |
+  | 3 | Canadá |
   | 4  | Europa (excluindo a França) / Oriente Médio / África |
   | 5  | França |
   | 6  | Índia |
@@ -167,4 +167,4 @@ Selecione o menu suspenso ao lado do rótulo **Recomendação** à direita da a�
 
 Para obter informações mais detalhadas sobre como instalar, configurar e usar o MCCA, consulte as instruções [README](https://github.com/OfficeDev/MCCA#overview) no GitHub (nenhuma conta GitHub necessária).
 
-Para obter mais informações sobre Windows PowerShell, comece em [Como usar a documentação do PowerShell](/powershell/scripting/how-to-use-docs?view=powershell-7). Consulte também [Starting Windows PowerShell](/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7).
+Para obter mais informações sobre Windows PowerShell, comece em [Como usar a documentação do PowerShell](/powershell/scripting/how-to-use-docs). Consulte também [Starting Windows PowerShell](/powershell/scripting/windows-powershell/starting-windows-powershell).

@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: Entre com as permissões de administrador no Centro de administração do Microsoft 365 para configurar sua organização na nuvem e gerenciar usuários e assinaturas.
-ms.openlocfilehash: b7ad483ccfe21ac38edc7db735bccee49b937b6b
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 451d23afd56cb3ae7099c661f99265efe59d6f85
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228346"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286232"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Sobre o Centro de administração do Microsoft 365
 
@@ -56,21 +56,26 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
 ## <a name="admin-center-features-and-settings"></a>Configurações e recursos do centro de administração.
 
 Apresentamos aqui os recursos e as configurações encontradas na navegação esquerda do Centro de administração. Saiba mais sobre tarefas administrativas em [Ajuda para administradores](../../business-video/admin-center-overview.md).
-  
-| Menu | Para que serve |
+
+<br>
+
+****
+
+|Menu|Para que serve|
 |-----|-----|
-|**Página Inicial** <br/> |Essa é a página de chegada do centro de administração. Você verá onde gerenciar usuários, cobrança, integridade do serviço e relatórios.  <br/> |
-|**Usuários**  <br/> |Crie e gerencie usuários em sua organização, como funcionários ou alunos. Você também pode definir seu nível de permissão ou redefinir suas senhas.  <br/> |
-|**Grupos** <br/> |Crie e gerencie grupos em sua organização, como um grupo de Microsoft 365, grupo de distribuição, grupo de segurança ou caixa de correio compartilhada. Saiba como [criar](../create-groups/create-groups.md) e [gerenciar](../create-groups/manage-groups.md) grupos.  <br/> |
-|**Recursos** <br/> |Crie e gerencie recursos, como um conjunto de sites do SharePoint. Saiba como [criar conjuntos de sites](/sharepoint/create-site-collection).  <br/> |
-|**Cobrança** <br/> |Exiba, compre ou cancele assinaturas para sua organização. Exiba demonstrativos de cobrança anteriores ou exiba o número de licenças atribuídas aos usuários individuais. Saiba como [gerenciar cobranças](../../commerce/index.yml).  <br/> |
-|**Suporte** <br/> | Exiba solicitações de serviço existentes ou crie novos. Saiba mais em [Contatar suporte para produtos comerciais – Ajuda para Administradores](../../business-video/get-help-support.md). |
-|**Settings** <br/> |Gerencie as configurações globais para aplicativos como email, sites e o pacote do Office. Altere a política de senha e a data de expiração. Adicione e atualize os nomes de domínio como contoso.com. Altere o perfil da organização e as preferências de lançamento. E escolha se os parceiros podem acessar o centro de administração.  <br/> |
-|**Configurar** <br/> |Gerenciar domínios existentes, ative e gerencie autenticação multifator, gerencie o acesso de administrador, migre caixas de correio de usuários para o Office 365, gerencie atualizações de recursos e ajude os usuários a instalar seus aplicativos do Office. |
-|**Relatórios** <br/> |Veja rapidamente como a sua organização está usando o Microsoft 365 com relatórios detalhados sobre o uso de email, ativações do Office e muito mais. Saiba como usar os novos [relatórios de atividades](../activity-reports/activity-reports.md).  <br/> |
-|**Integridade** <br/> |Exibir a integridade em um relance. Você também pode conferir mais detalhes e o histórico de integridade. Confira [Como verificar a integridade do serviço](../../enterprise/view-service-health.md) e [Como verificar a integridade da versão do Windows](/windows/deployment/update/check-release-health) para obter mais informações.  <br/><br/>Use o Centro de mensagens para controlar as alterações futuras nos recursos e serviços. Nele, postamos anúncios com informações que ajudam você a se planejar para mudanças e a entender como elas podem afetar os usuários. Obtenha mais detalhes no [Centro de mensagens](../manage/message-center.md). <br/> |
-|**Centros de administração** <br/> |Abra centros de administração separados do Exchange, Skype for Business, SharePoint, Yammer e Azure AD, separadamente. Cada centro de administração inclui todas as configurações disponíveis para seu respectivo serviço.  <br/> Por exemplo, no Centro de administração do Exchange, configure e gerencie emails, calendários, grupos de distribuição e muito mais. No Centro de administração do SharePoint, crie e gerencie conjuntos de sites, configurações do site e o OneDrive for Business. No Centro de administração do Skype for Business, configure as notificações de mensagens instantâneas, conferência discada e presença online.  <br/> Saiba mais sobre o [Centro de administração do Exchange](/exchange/exchange-admin-center) e o [SharePoint Admin Center](/sharepoint/sharepoint-online).<br/> **Observação:** Os centros de administração disponíveis pra você dependem do seu plano e região.           |
-   
+|**Página Inicial**|Essa é a página de chegada do centro de administração. Você verá onde gerenciar usuários, cobrança, integridade do serviço e relatórios.|
+|**Usuários** |Crie e gerencie usuários em sua organização, como funcionários ou alunos. Você também pode definir seu nível de permissão ou redefinir suas senhas.|
+|**Grupos**|Crie e gerencie grupos em sua organização, como um grupo de Microsoft 365, grupo de distribuição, grupo de segurança ou caixa de correio compartilhada. Saiba como [criar](../create-groups/create-groups.md) e [gerenciar](../create-groups/manage-groups.md) grupos.  |
+|**Recursos**|Crie e gerencie recursos, como um conjunto de sites do SharePoint. Saiba como [criar conjuntos de sites](/sharepoint/create-site-collection).  |
+|**Cobrança**|Exiba, compre ou cancele assinaturas para sua organização. Exiba demonstrativos de cobrança anteriores ou exiba o número de licenças atribuídas aos usuários individuais. Saiba como [gerenciar cobranças](../../commerce/index.yml).  |
+|**Suporte**|Exiba solicitações de serviço existentes ou crie novos. Saiba mais em [Contatar suporte para produtos comerciais – Ajuda para Administradores](../../business-video/get-help-support.md).|
+|**Settings**|Gerencie as configurações globais para aplicativos como email, sites e o pacote do Office. Altere a política de senha e a data de expiração. Adicione e atualize os nomes de domínio como contoso.com. Altere o perfil da organização e as preferências de lançamento. E escolha se os parceiros podem acessar o centro de administração.|
+|**Configurar**|Gerenciar domínios existentes, ative e gerencie autenticação multifator, gerencie o acesso de administrador, migre caixas de correio de usuários para o Office 365, gerencie atualizações de recursos e ajude os usuários a instalar seus aplicativos do Office.|
+|**Relatórios**|Veja rapidamente como a sua organização está usando o Microsoft 365 com relatórios detalhados sobre o uso de email, ativações do Office e muito mais. Saiba como usar os novos [relatórios de atividades](../activity-reports/activity-reports.md).  |
+|**Integridade**|Exibir a integridade em um relance. Você também pode conferir mais detalhes e o histórico de integridade. Confira [Como verificar a integridade do serviço](../../enterprise/view-service-health.md) e [Como verificar a integridade da versão do Windows](/windows/deployment/update/check-release-health) para obter mais informações. <p>Use o Centro de mensagens para controlar as alterações futuras nos recursos e serviços. Nele, postamos anúncios com informações que ajudam você a se planejar para mudanças e a entender como elas podem afetar os usuários. Obtenha mais detalhes no [Centro de mensagens](../manage/message-center.md).|
+|**Centros de administração**|Abra centros de administração separados do Exchange, Skype for Business, SharePoint, Yammer e Azure AD, separadamente. Cada centro de administração inclui todas as configurações disponíveis para seu respectivo serviço.  <p> Por exemplo, no Centro de administração do Exchange, configure e gerencie emails, calendários, grupos de distribuição e muito mais. No Centro de administração do SharePoint, crie e gerencie conjuntos de sites, configurações do site e o OneDrive for Business. No Centro de administração do Skype for Business, configure as notificações de mensagens instantâneas, conferência discada e presença online.  <p> Saiba mais sobre o [Centro de administração do Exchange](/exchange/exchange-admin-center) e o [SharePoint Admin Center](/sharepoint/sharepoint-online). <p> **Observação:** Os centros de administração disponíveis pra você dependem do seu plano e região.|
+|
+
 ## <a name="common-tasks-in-the-admin-center"></a>Tarefas comuns no centro de administração
 
 - Gerenciar usuários: [Adicionar usuários e atribuir licenças ao mesmo tempo](../add-users/add-users.md), [Excluir ou restaurar usuários](../add-users/delete-a-user.md) ou [Redefinir senha de um usuário](../add-users/reset-passwords.md).

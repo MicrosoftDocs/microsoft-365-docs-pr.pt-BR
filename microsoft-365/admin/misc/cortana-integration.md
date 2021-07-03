@@ -19,19 +19,18 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: Os usuários com contas corporativas ou de estudante válidas podem obter Cortana experiências Microsoft 365 que atendem Office 365 promessas de segurança no nível da empresa.
-ms.openlocfilehash: a740c4ce2b89244cc84494349e962fb665fa2d73
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 6887032e62d397659dc73475418f52b0c1246a2f
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227890"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286688"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana no Microsoft 365
 
 Cortana, seu assistente de produtividade pessoal, oferece experiências com AI para economizar tempo e concentrar a atenção no que mais importa. Cortana Office 365 foi projetado para fornecer recursos que processam e explicam com segurança e segurança dados como emails, arquivos, chats, etc., para economizar tempo, aumentar a eficiência e aumentar a produtividade dos usuários.
 
-Quando entrar com contas corporativas ou de estudante válidas, os usuários podem obter serviços de assistência baseados em nuvem com o Cortana em experiências Microsoft 365 que atendem às promessas de privacidade, segurança e conformidade no nível empresarial do Office 365 (" Cortana **enterprise services**"). 
-
+Quando entrar com contas corporativas ou de estudante válidas, os usuários podem obter serviços de assistência baseados em nuvem com o Cortana em experiências Microsoft 365 que atendem às promessas de privacidade, segurança e conformidade no nível empresarial do Office 365 (" Cortana **enterprise services**").
 
 - **Cortana enterprise services include** Cortana in Windows 10 (versão 2004 and later), Outlook for iOS and Android, Microsoft Teams mobile apps for iOS and Android [and Microsoft Teams displays](/microsoftteams/devices/teams-displays).
 
@@ -88,19 +87,18 @@ A partir do Windows 10, versão 2004, o Cortana é um aplicativo UWP (Plataforma
 
 Cortana assistência de voz no aplicativo móvel Teams e em dispositivos de exibição Microsoft Teams permite que Microsoft 365 Enterprise usuários agilizem a comunicação, a colaboração e as tarefas relacionadas à reunião usando a linguagem natural falada. Os usuários podem falar com Cortana selecionando o botão de microfone localizado na parte superior direita do aplicativo móvel Teams ou dizendo &#8220;Cortana&#8221; na tela Microsoft Teams vídeo. Para se conectar rapidamente com suas equipes de mãos livres e enquanto estão em tempo livre, os usuários podem dizer consultas como &#8220;chamar Megan&#8221; ou &#8220;enviar uma mensagem para minha próxima reunião&#8221;. Os usuários também podem participar de reuniões dizendo &#8220;minha próxima reunião&#8221; usar assistência de voz para compartilhar arquivos, verificar seu calendário e muito mais. Essas experiências de assistência de voz são entregues usando Cortana de nível empresarial que estão em conformidade com as promessas de privacidade, segurança e conformidade do Office 365, conforme refletido nos Termos de Serviços [Online (OST)](https://www.microsoft.com/licensing/product-licensing/products).
 
-**Controle de administrador**
+#### <a name="admin-control"></a>Controle de administrador
 
 Cortana assistência de voz será habilitada por padrão para locatários. Os administradores podem controlar quem em seu locatário pode usar Cortana de voz no Teams por meio de uma política (TeamsCortanaPolicy). Essa política pode ser definida em um nível de conta de usuário ou de locatário. Os administradores também podem usar o campo CortanaVoiceInvocationMode neste controle de política para determinar se o Cortana está desabilitado, habilitado somente com invocação de botão de push ou habilitado com invocação de palavra de alerta também (aplicável a dispositivos que a suportam, como a Microsoft Teams display). 
 
-**Controle do usuário**
+#### <a name="user-control"></a>Controle do usuário
 
 Usuários individuais podem experimentar Cortana de voz no aplicativo Teams celular clicando no botão microfone. Eles podem experimentar Cortana assistência de voz em dispositivos de exibição Microsoft Teams simplesmente dizendo &#8220;Cortana.&#8221; Eles também podem controlar se Cortana responde à invocação de palavra de alerta. 
 
-1.  Abrir Teams celular
-2.  Vá para Configurações
-3.  Selecione Cortana
-4.  Alternar a alternância de ativação de voz
-
+1. Abrir Teams celular
+2. Vá para Configurações
+3. Selecione Cortana
+4. Alternar a alternância de ativação de voz
 
 [Saiba mais sobre Cortana de voz no Teams](/microsoftteams/cortana-in-teams)
 
@@ -123,7 +121,6 @@ Os usuários individuais serão solicitados a optar pela experiência de IA de c
 Reproduzir Meus Emails (como conectado ao Outlook móvel) é uma experiência de voz e sem mãos para os usuários ouvirem novas mensagens em sua Caixa de Entrada Focada e mudarem para o dia por meio dos alto-falantes em seus telefones, fones de ouvido ou dispositivo de áudio conectado. Os usuários podem Cortana ler seus emails recentes em voz alta e pedir Cortana ações como sinalizador, arquivo morto, exclusão e ignorar mensagens. Esse recurso é especialmente útil para acompanhar seu email durante o deslocamento, multitarefas ou em movimento. Quando o usuário fala com Cortana em Reproduzir Meus Emails, a solicitação de áudio de fala vai diretamente para Cortana serviços corporativos. Um texto para leitura de fala do email do usuário é processado dentro da Office 365 nuvem. Durante esse processo, nenhum Office 365 dados são processados no dispositivo móvel do usuário e nenhum dado de email é salvo. Uma transcrição de comandos falados (ou seja, "marcar como leitura", "próximo", "sinalizador", etc.) pode ser mantida de acordo com os Termos de Proteção de Dados nos Termos do Microsoft [Online Services](https://www.microsoft.com/licensing/product-licensing/products).
 
 Cortana chamará quando um email estiver protegido e pausar brevemente antes de ler a mensagem para dar aos usuários tempo suficiente para pausar a reprodução ou pular para a próxima mensagem. Semelhante a uma chamada telefônica privada, os usuários devem ter cuidado ao iniciar a reprodução em locais onde informações confidenciais podem ser ouvidas. Nessas instâncias, é recomendável que os funcionários da sua organização usem fones de ouvido em ambientes apropriados ao usar o Play My Emails Outlook mobile.
-
 
 ### <a name="how-to-opt-out-of-play-my-emails"></a>Como não reproduzir meus emails
 
@@ -183,10 +180,8 @@ Desativar Cortana acesso aos dados hospedados da Microsoft da sua organização
 
 Para serviços regidos pelo [Contrato de Serviços Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=2109174) e Pela Declaração de Privacidade da [Microsoft,](https://privacy.microsoft.com/privacystatement)a Microsoft é o controlador de dados. Como controlador de dados, a Microsoft usa dados para melhorar produtos e serviços de acordo com a [Política de Privacidade da Microsoft.](https://privacy.microsoft.com/privacystatement)
 
-
 ## <a name="related-content"></a>Conteúdo relacionado
 
 [Cortana de voz no Teams](/microsoftteams/cortana-in-teams) (artigo)\
 [Configurar Cortana no Windows 10](/windows/configuration/cortana-at-work/cortana-at-work-overview) (artigo)\
 [O que você pode fazer com o Play My Emails do Cortana?](https://support.microsoft.com/help/4558256)
-

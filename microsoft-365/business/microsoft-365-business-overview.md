@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba mais Microsoft 365 Business Premium, um serviço de assinatura que inclui Office aplicativos e proteção avançada contra ameaças cibernéticas.
-ms.openlocfilehash: e4a182c5dd5444392486dd137e70361e880534bd
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: b7b71032ffc19c582f9658b93dae7dd9f89e02eb
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52705513"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287618"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Visão geral do Microsoft 365 Business Premium
 
@@ -44,14 +44,14 @@ O Microsoft 365 Business Premium (antigo Microsoft 365 Business) é um serviço 
 
 ## <a name="watch-what-is-microsoft-365-business-premium"></a>O que é o Microsoft 365 Business Premium?
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
-  
-Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](../business-video/index.yml). 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA]
+
+Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](../business-video/index.yml).
 
 O Microsoft 365 Business Premium destina-se a até 300 licenças. Se precisar de mais licenças, confira a documentação do[Microsoft 365 Enterprise ](../enterprise/index.yml) para saber mais.
 
 Confira a [descrição do serviço do Microsoft 365 Business Premium](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) para obter a lista completa de recursos.
-  
+
 ## <a name="small-business-security-needs"></a>Necessidades de segurança do Small Business
 
 Seus dados comerciais podem ser comprometidos de várias maneiras. Você e seus usuários podem comprometer a segurança da sua organização ao entrar com credenciais comprometidas ou exibir dados da organização em diferentes dispositivos e aplicativos. Mais especificamente, a sua organização está em risco:
@@ -73,17 +73,17 @@ O Microsoft 365 Business Premium ajuda na **defesa contra ameaças** ao:
 
 - Verificação de links em emails e documentos em tempo real para bloquear sites não seguros (Cofre Links).
 
-- Executando análises avançadas de anexos de email em um ambiente de área de risco para detectar malware recém-desenvolvido (Cofre Anexos). 
+- Executando análises avançadas de anexos de email em um ambiente de área de risco para detectar malware recém-desenvolvido (Cofre Anexos).
 
-- Habilitando políticas anti-phishing que usam modelos de aprendizado de máquina e detecção de representação para fornecer proteção contra ataques avançados (anti-phishing no Defender para Office 365 inteligência). 
+- Habilitando políticas anti-phishing que usam modelos de aprendizado de máquina e detecção de representação para fornecer proteção contra ataques avançados (anti-phishing no Defender para Office 365 inteligência).
 
-- Configurar políticas avançadas que desabilitam o acesso de locais não confiáveis ou ignoram a autenticação multifatorial de locais confiáveis, como sua rede do Office (Azure MFA, incluindo IPs confiáveis e acesso condicional). 
+- Configurar políticas avançadas que desabilitam o acesso de locais não confiáveis ou ignoram a autenticação multifatorial de locais confiáveis, como sua rede do Office (Azure MFA, incluindo IPs confiáveis e acesso condicional).
 
 - Reforçar a proteção contra malware em todos os dispositivos com Windows 10 da sua organização e proteger arquivos nas principais pastas do sistema de alterações feitas por ransomware (Windows Defender)
 
 Seus **dados corporativos estão protegidos** ao:
 
-- Usar a detecção automática para ajudar a impedir que informações confidenciais, como números de seguridade social ou cartões de crédito vazarem para fora da sua empresa (prevenção contra perda de dados). 
+- Usar a detecção automática para ajudar a impedir que informações confidenciais, como números de seguridade social ou cartões de crédito vazarem para fora da sua empresa (prevenção contra perda de dados).
 
 - Criptografar emails confidenciais, para que você possa se comunicar de forma segura com clientes ou pessoas de fora da sua organização. Isso garante que somente o destinatário desejado possa ler a mensagem (criptografia de mensagem do Office 365).
 

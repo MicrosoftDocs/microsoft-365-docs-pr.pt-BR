@@ -17,16 +17,14 @@ search.appverid:
 - MET150
 description: Criar tipos personalizados de informações confidenciais com classificação baseada em Correspondência Exata de Dados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc1d3f08ab55f496ae7c6a12f35b71fa5b384688
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: 17b9d9b1f551c62e42b2f5291f4d1fba8622f1ae
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256694"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287036"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match
-
-
 
 [Tipos de informações confidenciais personalizadas](sensitive-information-type-learn-about.md) são usadas para ajudar a identificar itens confidenciais para que você possa evitar que sejam compartilhados inadvertidamente ou inadequadamente. Você define um tipo de informação confidenciais personalizado (SIT) com base em:
 
@@ -52,13 +50,13 @@ A classificação baseada no EDM permite criar tipos personalizados de informaç
 
 > [!NOTE]
 > Microsoft 365 A Proteção de Informações dá suporte a idiomas de conjunto de caracteres de byte duplo para:
+>
 > - Chinês (simplificado)
 > - Chinês (tradicional)
 > - Coreano
 > - Japonês
-> 
+>
 > Este suporte está disponível para tipos de informações confidenciais. Para obter mais informações, confira [Suporte à proteção de informações para notas de versão de conjuntos de caracteres de byte duplo (visualização)](mip-dbcs-relnotes.md).
-
 
 ## <a name="required-licenses-and-permissions"></a>Licenças e permissões necessárias
 
@@ -73,21 +71,19 @@ A classificação baseada em EDM está incluída nestas assinaturas
 
 ## <a name="portal-links-for-your-subscription"></a>Links do portal para sua assinatura
 
-
-|Portal  |World Wide/GCC  |GCC-High  |DOD  |
-|---------|---------|---------|---------|
-|Office SCC     |  protection.office.com       |scc.office365.us         |scc.protection.apps.mil |
-|Centro de Segurança do Microsoft 365     |security.microsoft.com         |security.microsoft.us         |security.apps.mil|
-|Centro de Conformidade do Microsoft 365     |compliance.microsoft.com         |compliance.microsoft.us         |compliance.apps.mil|
-
+|Portal|World Wide/GCC|GCC-High|DOD|
+|---|---|---|---|
+|Office SCC|protection.office.com|scc.office365.us|scc.protection.apps.mil|
+|Centro de Segurança do Microsoft 365|security.microsoft.com|security.microsoft.us|security.apps.mil|
+|Centro de Conformidade do Microsoft 365|compliance.microsoft.com|compliance.microsoft.us|compliance.apps.mil|
 
 ## <a name="the-work-flow-at-a-glance"></a>Visão geral do fluxo de trabalho 
 
-|Fase  |Requisitos  |
-|---------|---------|
-|[Parte 1: Configuração da classificação baseada em EDM](#part-1-set-up-edm-based-classification)<br/><br/>(conforme o necessário)<br/>- [Edite o Esquema de Banco de Dados](#editing-the-schema-for-edm-based-classification) <br/>- [Remova o esquema](#removing-the-schema-for-edm-based-classification) |– Acesso de leitura aos dados confidenciais<br/>– Esquema de banco de dados no formato XML (exemplo fornecido)<br/>– Pacote de regras no formato XML (exemplo fornecido)<br/>– Permissões de administrador ao Centro de Conformidade e Segurança (usando o PowerShell) |
-|[Parte 2: hash e carregamento de dados confidenciais](#part-2-hash-and-upload-the-sensitive-data)<br/><br/>(conforme o necessário)<br/>[Atualize os dados](#refreshing-your-sensitive-information-database) |– Grupo de segurança personalizado e conta de usuário<br/>– Acesso de administrador local à máquina com o agente de carregamento do EDM<br/>– Acesso de leitura aos dados confidenciais<br/>– Processar e agendar a atualização de dados|
-|[Parte 3: uso da classificação baseada em EDM com os serviços de nuvem da Microsoft](#part-3-use-edm-based-classification-with-your-microsoft-cloud-services) |– Assinatura do Microsoft 365 com DLP<br/>– Recurso de classificação baseada em EDM habilitado |
+|Fase|Requisitos|
+|---|---|
+|[Parte 1: Configuração da classificação baseada em EDM](#part-1-set-up-edm-based-classification)<br/><br/>(conforme o necessário)<br/>- [Edite o Esquema de Banco de Dados](#editing-the-schema-for-edm-based-classification) <br/>- [Remova o esquema](#removing-the-schema-for-edm-based-classification)|– Acesso de leitura aos dados confidenciais<br/>– Esquema de banco de dados no formato XML (exemplo fornecido)<br/>– Pacote de regras no formato XML (exemplo fornecido)<br/>– Permissões de administrador ao Centro de Conformidade e Segurança (usando o PowerShell)|
+|[Parte 2: hash e carregamento de dados confidenciais](#part-2-hash-and-upload-the-sensitive-data)<br/><br/>(conforme o necessário)<br/>[Atualize os dados](#refreshing-your-sensitive-information-database)|– Grupo de segurança personalizado e conta de usuário<br/>– Acesso de administrador local à máquina com o agente de carregamento do EDM<br/>– Acesso de leitura aos dados confidenciais<br/>– Processar e agendar a atualização de dados|
+|[Parte 3: uso da classificação baseada em EDM com os serviços de nuvem da Microsoft](#part-3-use-edm-based-classification-with-your-microsoft-cloud-services)|– Assinatura do Microsoft 365 com DLP<br/>– Recurso de classificação baseada em EDM habilitado|
 
 ### <a name="part-1-set-up-edm-based-classification"></a>Parte 1: Configuração da classificação baseada em EDM
 
@@ -97,14 +93,13 @@ Organizar e configurar a classificação baseada em EDM envolve:
 2. [Definir o esquema do banco de dados de informações confidenciais](#define-the-schema-for-your-database-of-sensitive-information)
 3. [Configurar um pacote de regras](#set-up-a-rule-package)
 
-
 #### <a name="save-sensitive-data-in-csv-or-tsv-format"></a>Salvar dados confidenciais no formato .csv ou .tsv
 
 1. Identifique as informações confidenciais que deseja usar. Exporte os dados para um aplicativo, como Microsoft Excel, e salve o arquivo em um arquivo de texto. O arquivo pode ser salvo em .csv (valores separados por vírgula), .tsv (valores separados por tabulação) ou no formato separado por pipe (|). O formato .tsv é recomendado nos casos em que os valores de dados podem incluir vírgulas, como endereços de rua.
 O arquivo de dados pode incluir um máximo de:
-      - Até 100 milhões de linhas de dados confidenciais
-      - Até 32 colunas (campos) por fonte de dados
-      - Até 5 colunas (campos) marcadas como pesquisáveis
+   - Até 100 milhões de linhas de dados confidenciais
+   - Até 32 colunas (campos) por fonte de dados
+   - Até 5 colunas (campos) marcadas como pesquisáveis
 
 2. Estrutura os dados confidenciais no arquivo .csv ou .tsv de forma que a primeira linha inclua os nomes dos campos usados para classificação baseada em EDM. Em seu arquivo, você pode ter nomes de campo como "ssn", "birthdate", "firstname", "lastname". Os nomes de cabeçalhos de coluna não podem conter espaços ou sublinhados. Por exemplo, o arquivo .csv de amostra que usamos neste artigo é denominado *PatientRecords.csv* e suas colunas incluem *PatientID*, *MRN*, *LastName*, *FirstName*, *SSN* e mais.
 
@@ -117,7 +112,7 @@ Se, por motivos técnico ou de negócios, você preferir não usar o Windows Pow
 > [!NOTE]
 > O Assistente de Correspondência Exata de Dados e Tipo de Informações Confidenciais está disponível apenas para as nuvens World Wide e GCC.
 
-1. Defina o esquema para o banco de dados de informações confidenciais no formato XML (semelhante ao nosso exemplo a seguir). Nomeie esse arquivo de esquema como **edm.xml** e configure-o de forma que, para cada coluna no banco de dados, haja uma linha que use a sintaxe: 
+1. Defina o esquema para o banco de dados de informações confidenciais no formato XML (semelhante ao nosso exemplo a seguir). Nomeie esse arquivo de esquema como **edm.xml** e configure-o de forma que, para cada coluna no banco de dados, haja uma linha que use a sintaxe:
 
       `\<Field name="" searchable=""/\>`.
 
@@ -146,11 +141,12 @@ Se, por motivos técnico ou de negócios, você preferir não usar o Windows Pow
 
 ##### <a name="configurable-match-using-the-caseinsensitive-and-ignoreddelimiters-fields"></a>Correspondência configurável usando os campos caseInsensitive e ignoredDelimiters
 
-As amostras XML acima usam os campos `caseInsensitive` e `ignoredDelimiters`. 
+As amostras XML acima usam os campos `caseInsensitive` e `ignoredDelimiters`.
 
 Quando você incluir o campo ***caseInsensitive** _ definido para o valor de `true` em sua definição de esquema o EDM não excluirá um item baseado em diferenças de maiúsculas para o campo `PatientID`. Dessa forma, o EDM verá `PatientID` _ *FOO-1234** e **fOo-1234** como idênticos.
 
 Quando você inclui o campo * **ignoreDelimiters** _ com caracteres suportados, o EDM irá ignorar esses caracteres no `PatientID`. Dessa forma, o EDM verá `PatientID` _ *FOO-1234** e `PatientID` **fOo-1234** como idênticos. O sinalizador `ignoredDelimiters` dá suporte a qualquer caractere não alfanumérico, aqui estão alguns exemplos:
+
 - \.
 - \-
 - \/
@@ -166,20 +162,21 @@ Quando você inclui o campo * **ignoreDelimiters** _ com caracteres suportados, 
 - \}
 - \\
 - \~
-- \; 
+- \;
 
 O sinalizador `ignoredDelimiters` não tem suporte para:
+
 - caracteres de 0 a 9
 - A-Z
 - a-z
 - \"
 - \,
 
-Nesse exemplo, onde `caseInsensitive` e `ignoredDelimiters` são usados, o EDM veria **FOO-1234** e **fOo#1234** como idênticos e classificaria o item como tipo de informação confidencial do registro do paciente. 
+Nesse exemplo, onde `caseInsensitive` e `ignoredDelimiters` são usados, o EDM veria **FOO-1234** e **fOo#1234** como idênticos e classificaria o item como tipo de informação confidencial do registro do paciente.
 
-4. Conectar ao centro de Conformidade e Segurança usando os procedimentos em [Conectar ao Centro de Conformidade e Segurança do PowerShell](/powershell/exchange/connect-to-scc-powershell).
+1. Conexão para o Centro de Conformidade & Segurança do PowerShell usando os procedimentos em Conexão para o Centro de Conformidade [& Segurança do PowerShell](/powershell/exchange/connect-to-scc-powershell).
 
-5. Para carregar o esquema do banco de dados, execute os seguintes cmdlets, um de cada vez:
+2. Para carregar o esquema do banco de dados, execute os seguintes cmdlets, um de cada vez:
 
       ```powershell
       $edmSchemaXml=Get-Content .\\edm.xml -Encoding Byte -ReadCount 0
@@ -208,13 +205,13 @@ Nesse exemplo, onde `caseInsensitive` e `ignoredDelimiters` são usados, o EDM v
 
       Ao configurar o pacote de regras, faça referência correta ao arquivo .csv ou .tsv **eedm.xml** arquivo. Você pode copiar, modificar e usar nosso exemplo. Neste exemplo de xml, os seguintes campos precisam ser personalizados para criar seu tipo confidencial do EDM:
 
-      - **Id do RulePack e id ExactMatch**: Use [New-GUID](/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) para gerar um GUID.
+      - **Id do RulePack e id ExactMatch**: Use [New-GUID](/powershell/module/microsoft.powershell.utility/new-guid) para gerar um GUID.
 
       - **Datastore**: este campo especifica o repositório de dados de pesquisa EDM a ser usado. Forneça um nome de fonte de dados de um esquema EDM configurado.
 
       - **idMatch**: este campo aponta para o elemento principal do EDM.
         - Correspondências: especifica o campo a ser usado na pesquisa exata. Forneça um nome de campo pesquisável no esquema EDM para o DataStore.
-        - Classificação: este campo especifica a correspondência de tipo confidencial que dispara a pesquisa EDM. Você pode fornecer o nome ou o GUID de um tipo de informação confidencial interno ou personalizado existente. Esteja ciente de que qualquer cadeia de caracteres que corresponda ao tipo de informação confidencial fornecido terá um hash e será comparado a cada entrada na tabela de informações sensíveis. Para evitar causar problemas de desempenho, se você usar um tipo de informação confidencial personalizado como o elemento de Classificação em EDM, evite usar um que corresponda a uma grande porcentagem do conteúdo (como "qualquer número" ou "qualquer palavra de cinco letras") adicionando palavras-chave de suporte ou incluindo formatação na definição do tipo de informação confidencial de classificação personalizada. 
+        - Classificação: este campo especifica a correspondência de tipo confidencial que dispara a pesquisa EDM. Você pode fornecer o nome ou o GUID de um tipo de informação confidencial interno ou personalizado existente. Esteja ciente de que qualquer cadeia de caracteres que corresponda ao tipo de informação confidencial fornecido terá um hash e será comparado a cada entrada na tabela de informações sensíveis. Para evitar causar problemas de desempenho, se você usar um tipo de informação confidencial personalizado como o elemento de Classificação em EDM, evite usar um que corresponda a uma grande porcentagem do conteúdo (como "qualquer número" ou "qualquer palavra de cinco letras") adicionando palavras-chave de suporte ou incluindo formatação na definição do tipo de informação confidencial de classificação personalizada.
 
       - **Corresponder:** este campo aponta para evidências adicionais encontradas em proximidade do idMatch.
         - Correspondências: forneça o nome do campo no esquema EMD para DataStore.
@@ -302,7 +299,7 @@ Nesse exemplo, observe que:
 
 > [!NOTE]
 > Pode levar de 10 a 60 minutos para atualizar o EDMSchema com as adições. A atualização deve ser concluída antes que você execute as etapas que usam as adições.
- 
+
 Após ter importado seu pacote de regras com seu tipo de informação sensível EDM e ter importado sua tabela de dados sensíveis, você pode testar seu tipo recém-criado usando a função **Teste** no assistente de EDM no centro de conformidade. Veja [Use o Esquema Exato de Combinação de Dados e o Assistente de Tipo de Informação Sensível](sit-edm-wizard.md) para instruções sobre o uso desta funcionalidade.
 
 #### <a name="editing-the-schema-for-edm-based-classification"></a>Editando o esquema para classificação baseada em EDM
@@ -431,28 +428,34 @@ Esse computador deve ter acesso direto ao seu locatário do Microsoft 365.
    > [!TIP]
    > Para obter uma lista com os parâmetros de comando com suporte, execute o agente sem argumentos. Por exemplo 'EdmUploadAgent.exe'.
 
-2. Para autorizar o Agente de Carregamento EDM, abra o prompt de comando (como um administrador), mude para o diretório **C:\EDM\Data** e execute o seguinte comando:
+3. Para autorizar o Agente de Carregamento EDM, abra o prompt de comando (como um administrador), mude para o diretório **C:\EDM\Data** e execute o seguinte comando:
 
    `EdmUploadAgent.exe /Authorize`
 
-3. Entre com sua conta empresarial ou de estudante do Microsoft 365 que foi adicionada ao grupo de segurança EDM_DataUploaders. As informações do locatário são extraídas da conta do usuário para fazer a conexão.
+4. Entre com sua conta empresarial ou de estudante do Microsoft 365 que foi adicionada ao grupo de segurança EDM_DataUploaders. As informações do locatário são extraídas da conta do usuário para fazer a conexão.
 
    OPCIONAL: Caso tenha usado o Assistente de Correspondência Exata de Dados e Tipo de Informações Confidenciais para criar o seu esquema e arquivos padrão, execute o comando a seguir na janela do Prompt de Comando:
 
-   `EdmUploadAgent.exe /SaveSchema /DataStoreName <schema name> /OutputDir <path to output folder>`
+   ```dos
+   EdmUploadAgent.exe /SaveSchema /DataStoreName <schema name> /OutputDir <path to output folder>
+   ```
 
-4. Para criar o hash e carregar os dados confidenciais, execute o seguinte comando no prompt de comando:
+5. Para criar o hash e carregar os dados confidenciais, execute o seguinte comando no prompt de comando:
 
-   `EdmUploadAgent.exe /UploadData /DataStoreName [DS Name] /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file] /ColumnSeparator ["{Tab}"|"|"]`
+   ```dos
+   EdmUploadAgent.exe /UploadData /DataStoreName [DS Name] /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file] /ColumnSeparator ["{Tab}"|"|"]
+   ```
 
    Exemplo: **EdmUploadAgent.exe /UploadData /DataStoreName PatientRecords /DataFile C:\Edm\Hash\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml**
 
-   O formato padrão para o arquivo de dados confidenciais é valores separados por vírgulas. Você pode especificar um arquivo separado por tabulação indicando a opção "{Tab}" com o parâmetro /ColumnSeparator ou pode especificar um arquivo separado por pipe indicando a opção "|".  
+   O formato padrão para o arquivo de dados confidenciais é valores separados por vírgulas. Você pode especificar um arquivo separado por tabulação indicando a opção "{Tab}" com o parâmetro /ColumnSeparator ou pode especificar um arquivo separado por pipe indicando a opção "|".
    Esse comando adicionará automaticamente um valor de sal gerado aleatoriamente ao hash para maior segurança. Opcionalmente, se você quiser usar seu próprio valor salt, adicione o **/Salt <saltvalue>** ao comando. Esse valor deve ter 64 caracteres de comprimento e só pode conter os caracteres de a-z e de 0-9.
 
-5. Verifique o status de carregamento executando este comando:
+6. Verifique o status de carregamento executando este comando:
 
-   `EdmUploadAgent.exe /GetSession /DataStoreName \<DataStoreName\>`
+   ```dos
+   EdmUploadAgent.exe /GetSession /DataStoreName \<DataStoreName\>
+   ```
 
    Exemplo: **EdmUploadAgent.exe/GetSession/DataStoreName PatientRecords**
 
@@ -464,17 +467,24 @@ Execute o hash em um computador em um ambiente seguro.
 
 OPCIONAL: Caso tenha usado o Assistente de Correspondência Exata de Dados e Tipo de Informações Confidenciais para criar o seu esquema e arquivos padrão, execute o comando a seguir na janela do Prompt de Comando:
 
-`EdmUploadAgent.exe /SaveSchema /DataStoreName <schema name> /OutputDir <path to output folder>`
+```dos
+EdmUploadAgent.exe /SaveSchema /DataStoreName <schema name> /OutputDir <path to output folder>
+````
 
 1. Execute os seguinte comando na janela prompt de comando:
 
-   `EdmUploadAgent.exe /CreateHash /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file] >`
+   ```dos
+   EdmUploadAgent.exe /CreateHash /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file]
+   ```
 
    Por exemplo:
 
-   > **EdmUploadAgent.exe /CreateHash /DataFile C:\Edm\Data\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml**
+   ```dos
+   EdmUploadAgent.exe /CreateHash /DataFile C:\Edm\Data\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml
+   ```
 
    Isso gerará um arquivo de hash e um arquivo salt com essas extensões, caso você não tenha especificado a opção **/Salt <saltvalue>**:
+
    - .EdmHash
    - .EdmSalt
 
@@ -482,22 +492,29 @@ OPCIONAL: Caso tenha usado o Assistente de Correspondência Exata de Dados e Tip
 
    Para carregar os dados com hash, execute o seguinte comando no prompt de comando do Windows:
 
-   `EdmUploadAgent.exe /UploadHash /DataStoreName \<DataStoreName\> /HashFile \<HashedSourceFilePath\>`
+   ```dos
+   EdmUploadAgent.exe /UploadHash /DataStoreName \<DataStoreName\> /HashFile \<HashedSourceFilePath\>
+   ```
 
    Por exemplo:
 
-   > **EdmUploadAgent.exe /UploadHash /DataStoreName PatientRecords /HashFile C:\\Edm\\Hash\\PatientRecords.EdmHash**
-
+   ```dos
+   EdmUploadAgent.exe /UploadHash /DataStoreName PatientRecords /HashFile C:\\Edm\\Hash\\PatientRecords.EdmHash**
+   ```
 
    Para verificar se os dados confidenciais foram carregados, execute o seguinte comando na janela do prompt de comando:
 
-   `EdmUploadAgent.exe /GetDataStore`
+   ```dos
+   EdmUploadAgent.exe /GetDataStore
+   ```
 
    Você verá uma lista de armazenamento de dados e a data da última atualização.
 
    Se você quiser ver todos os carregamentos de dados em um determinado armazenamento, execute o seguinte comando em um prompt de comando do Windows:
 
-   `EdmUploadAgent.exe /GetSession /DataStoreName <DataStoreName>`
+   ```dos
+   EdmUploadAgent.exe /GetSession /DataStoreName <DataStoreName>
+   ```
 
    Prossiga para configurar seu processo e agenda da [Atualização de banco de dados de informação confidencial](#refreshing-your-sensitive-information-database).
 
@@ -516,11 +533,11 @@ Você pode atualizar seu banco de dados confidenciais diariamente, e a ferrament
 
 3. Use o [Agendador de tarefas](/windows/desktop/TaskSchd/task-scheduler-start-page) para automatizar as etapas 2 e 3 no procedimento [Hash e fazer upload dos dados confidenciais](#part-2-hash-and-upload-the-sensitive-data). Você pode agendar tarefas usando vários métodos:
 
-      | Método             | O que fazer |
-      | ---------------------- | ---------------- |
-      | Windows PowerShell     | Confira a documentação do [ScheduledTasks](/powershell/module/scheduledtasks/?view=win10-ps) e o [exemplo do script do PowerShell](#example-powershell-script-for-task-scheduler) neste artigo |
-      | API do Agendador de Tarefas     | Confira a documentação do [Agendador de tarefas](/windows/desktop/TaskSchd/using-the-task-scheduler)                                                                                                                                                                                                                                                                                |
-      | Interface do usuário do Windows | No Windows, clique em **Iniciar** e digite Agendador de tarefas. Em seguida, na lista de resultados, clique com o botão direito do mouse no **Agendador de Tarefas**, e escolha **executar como administrador**.                                                                                                                                                                                                                                                                           |
+   |Método|O que fazer|
+   |---|---|
+   |Windows PowerShell|Confira a documentação do [ScheduledTasks](/powershell/module/scheduledtasks/) e o [exemplo do script do PowerShell](#example-powershell-script-for-task-scheduler) neste artigo|
+   |API do Agendador de Tarefas|Confira a documentação do [Agendador de tarefas](/windows/desktop/TaskSchd/using-the-task-scheduler)|
+   |Interface do usuário do Windows|No Windows, clique em **Iniciar** e digite Agendador de tarefas. Em seguida, na lista de resultados, clique com o botão direito do mouse no **Agendador de Tarefas**, e escolha **executar como administrador**.|
 
 #### <a name="example-powershell-script-for-task-scheduler"></a>Exemplo de script do PowerShell para o Agendador de Tarefas
 
@@ -599,7 +616,6 @@ $password=\[Runtime.InteropServices.Marshal\]::PtrToStringAuto(\[Runtime.Interop
 \# Register the scheduled task
 $taskName = 'EDMUpload\_' + $dataStoreName
 Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $user -Password $password
-
 ```
 
 ### <a name="part-3-use-edm-based-classification-with-your-microsoft-cloud-services"></a>Parte 3: uso da classificação baseada em EDM com os serviços de nuvem da Microsoft
@@ -637,7 +653,7 @@ Estes locais são compatíveis com os tipos de informações confidenciais do ED
 
       ![O conteúdo contém tipos de informações confidenciais](../media/edm-dlp-newrule-conditions.png)
 
-11. Pesquise pelo tipo de informação confidencial que você criou ao configurar o pacote de regras e, em seguida, escolha **+ Adicionar**.  
+11. Pesquise pelo tipo de informação confidencial que você criou ao configurar o pacote de regras e, em seguida, escolha **+ Adicionar**.
     Então escolha **Concluído**.
 
 12. Termine de selecionar as opções para a regra, como **Notificações de usuário**, **Substituições do usuário**, **Relatórios de incidente**, e assim por diante, e depois clique em **Salvar**.

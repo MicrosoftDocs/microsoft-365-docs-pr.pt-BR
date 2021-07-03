@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como definir requisitos de senha fortes para seus usuários usando Windows PowerShell.
-ms.openlocfilehash: 898eaf30d813e883e88c3ccc8ff500d72ae72854
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 87ba9e0323c379d8c2589dbb82c38c531dd9d047
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52840653"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286258"
 ---
 # <a name="turn-off-strong-password-requirements-for-users"></a>Desativar requisitos fortes de senha para usuários
 
@@ -60,6 +60,6 @@ Você também deve se conectar ao Microsoft 365 com o PowerShell.
 
 [Como se conectar ao Microsoft 365 com o PowerShell](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
-[Mais informações sobre comandos do PowerShell MsolUser](/powershell/module/msonline/set-msoluser?view=azureadps-1.0)
+[Mais informações sobre comandos do PowerShell MsolUser](/powershell/azure/active-directory/install-adv2)
 
 [Mais informações sobre a política de senha](/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts)

@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Um Microsoft 365 classificador é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo, dando a ele exemplos para ver. Este artigo mostra como criar e treinar um classificador personalizado e como retreiná-los para aumentar a precisão.
-ms.openlocfilehash: 90e47ec94528bbadeb98dc9eb590929e25ae6ff1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3053e5154fb4e1ff39ce7db366ce4679bbb8911d
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918175"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286628"
 ---
 # <a name="get-started-with-trainable-classifiers"></a>Comece com classificadores treináveis
 
@@ -108,7 +108,7 @@ Depois que o classificador treinável tiver processado amostras positivas sufici
    > [!TIP]
    > Se você criar um novo site e pasta para seus dados de semente, permita pelo menos uma hora para que esse local seja indexado antes de criar o classificador treinável que usará esses dados de semente.
 
-3. Entre no Microsoft 365 de conformidade com o administrador de conformidade ou acesso **à** função de administrador de segurança e abra Microsoft 365 centro de conformidade ou Microsoft 365 **classificação** de dados do centro de  >  **segurança.**
+3. Entre em contato com Centro de conformidade do Microsoft 365 administrador de conformidade ou acesso à função de administrador de segurança e **abra** Centro de conformidade do Microsoft 365 ou Microsoft 365 classificação de dados do centro de **segurança.**  >  
 
 4. Escolha a **guia Classificadores treináveis.**
 

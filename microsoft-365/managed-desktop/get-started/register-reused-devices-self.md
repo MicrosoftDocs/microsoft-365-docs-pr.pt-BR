@@ -11,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 21b0062a337dbeb3c7dec8b715971dbbc4917db1
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: ed254234109bc5ff9865ff49ed3fa0fff8770ab0
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893270"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286904"
 ---
 # <a name="register-existing-devices-yourself"></a>Registre dispositivos existentes por conta própria
 
@@ -47,7 +47,7 @@ Para registrar dispositivos existentes, siga estas etapas:
 - Execute um Windows PowerShell de Windows PowerShell usando o [Active Directory](#active-directory-powershell-script-method) ou [manualmente](#manual-powershell-script-method) em cada dispositivo e colete os resultados em um arquivo.
 - Inicie cada dispositivo, mas não conclua a experiência de instalação Windows e colete os hashes em uma [unidade flash removível.](#flash-drive-method)
 
-#### <a name="microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager
+#### <a name="microsoft-endpoint-configuration-manager"></a>Gerenciador de Configuração do Microsoft Endpoint
 
 Você pode usar Microsoft Endpoint Configuration Manager para coletar os hashes de hardware de dispositivos existentes que você deseja registrar com Área de Trabalho Gerenciada da Microsoft.
 
@@ -75,13 +75,13 @@ Em um ambiente do Active Directory, você pode usar o cmdlet do PowerShell para 
 - Certifique-se de que você tenha um parâmetro de credencial de domínio que tenha permissão para ser executado remotamente nos dispositivos.
 - Certifique-se de Windows Firewall permita acesso ao WMI. Para fazer isso, siga estas etapas:
 
-    1. Abra o **Windows Defender Firewall** de controle e selecione **Permitir um aplicativo ou recurso por meio Windows Defender Firewall**.
-    
+    1. Abra o **painel Windows Defender de controle firewall** e selecione Permitir um aplicativo ou recurso por meio Windows Defender **Firewall**.
+
     2. Encontre Windows Instrumentação de Gerenciamento **(WMI)** na lista, habilita para particular e público **e** selecione **OK**.
 
-1.  Abra um prompt do PowerShell com direitos administrativos.
+1. Abra um prompt do PowerShell com direitos administrativos.
 
-2.  Execute *um desses* scripts:
+2. Execute *um desses* scripts:
 
     ```powershell
     Install-script -name Get-WindowsAutoPilotInfo 
@@ -94,7 +94,7 @@ Em um ambiente do Active Directory, você pode usar o cmdlet do PowerShell para 
     Set-ExecutionPolicy powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo.ps1 -credential Domainname\<accountname> -Name Machine1,Machine2,Machine3
     ```
 
-3. Acesse quaisquer diretórios onde possam haver entradas para os dispositivos. Remova as entradas de cada dispositivo de todos *os* diretórios, incluindo Windows Serviços de Domínio active Directory e Azure Active Directory. Esteja ciente de que a remoção pode levar algumas horas para ser processda completamente.
+3. Acesse quaisquer diretórios onde possam haver entradas para os dispositivos. Remova entradas para cada  dispositivo de todos os diretórios, incluindo Windows Server Active Directory Serviços de Domínio e Azure Active Directory. Esteja ciente de que a remoção pode levar algumas horas para ser processda completamente.
 
 4. Acessar serviços de gerenciamento onde pode haver entradas para os dispositivos. Remova entradas para cada  dispositivo de todos os serviços de gerenciamento, incluindo Microsoft Endpoint Configuration Manager, Microsoft Intune e Windows Autopilot. Esteja ciente de que a remoção pode levar algumas horas para ser processda completamente.
 
@@ -102,9 +102,9 @@ Agora você pode continuar a registrar [dispositivos](#register-devices-by-using
 
 #### <a name="manual-powershell-script-method"></a>Método de script manual do PowerShell
 
-1.  Abra um prompt do PowerShell com direitos administrativos.
-2.  Executar `Install-Script -Name Get-WindowsAutoPilotInfo`
-3.  Executar `powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
+1. Abra um prompt do PowerShell com direitos administrativos.
+2. Executar `Install-Script -Name Get-WindowsAutoPilotInfo`
+3. Executar `powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
 4. [Mesclar os dados de hash.](#merge-hash-data)
 
 #### <a name="flash-drive-method"></a>Método de unidade flash
@@ -120,10 +120,8 @@ Agora você pode continuar a registrar [dispositivos](#register-devices-by-using
 9. Remova a unidade USB e desligue o dispositivo executando `shutdown -s -t 0`
 10. [Mesclar os dados de hash.](#merge-hash-data)
 
->[!IMPORTANT]
->Não a energia no dispositivo que você está registrando novamente até concluir o registro para ele. 
-
-
+> [!IMPORTANT]
+> Não a energia no dispositivo que você está registrando novamente até concluir o registro para ele. 
 
 ### <a name="merge-hash-data"></a>Mesclar dados de hash
 
@@ -135,18 +133,15 @@ Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformatio
 
 Com os dados de hash mesclados em um arquivo CSV, agora você pode continuar a [registrar os dispositivos](#register-devices-by-using-the-admin-portal).
 
-
 ## <a name="register-devices-by-using-the-admin-portal"></a>Registrar dispositivos usando o Portal de Administração
 
 Em [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), selecione **Dispositivos** no painel de navegação esquerdo. Procure a seção Área de Trabalho Gerenciada da Microsoft do menu e selecione **Dispositivos**. No espaço de trabalho Área de Trabalho Gerenciada da Microsoft Dispositivos, Selecione **+ Registrar dispositivos**, que abre um fly-in para registrar novos dispositivos.
 
 <!-- Update with new picture [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
 
-
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
-
-Siga estas etapas:
+Execute estas etapas:
 
 1. Em **Carregamento de arquivo,** forneça um caminho para o arquivo CSV que você criou anteriormente.
 2. Selecione um [perfil de](../service-description/profiles.md) dispositivo no menu suspenso.
@@ -187,12 +182,3 @@ Você também pode aplicar a imagem por conta própria, se preferir. Para começ
 > Antes de entregar o dispositivo ao usuário, certifique-se de ter obtido e aplicado as [licenças apropriadas](../get-ready/prerequisites.md) para esse usuário.
 
 Se todas as licenças são aplicadas, você pode preparar seus usuários para usar dispositivos [e,](get-started-devices.md)em seguida, o usuário pode iniciar o dispositivo e prosseguir com a experiência de instalação Windows configuração.
-
-
-
-
-
-
-
-
-

@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 ms.custom: seo-marvel-apr2020
 description: O log de auditoria de caixa de correio está ligado por padrão Microsoft 365 (também chamado de auditoria de caixa de correio padrão ou auditoria de caixa de correio por padrão). Isso significa que determinadas ações executadas por proprietários, representantes e administradores de caixa de correio são registradas automaticamente em um log de auditoria de caixa de correio, onde você pode pesquisar atividades realizadas na caixa de correio.
-ms.openlocfilehash: 56207a21d9a13edb04a07234764257d3c27f2d0f
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: f74cb23a029d4710a19aeb18999169f6adc636a4
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226774"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287024"
 ---
 # <a name="manage-mailbox-auditing"></a>Gerenciar a auditoria de caixa de correio
 
@@ -111,7 +111,7 @@ A tabela a seguir descreve as ações de caixa de correio que estão disponívei
 |**MailboxLogin**|O usuário entrou em sua caixa de correio.|||![Marca de seleção](../media/checkmark.png)|
 |**MailItemsAccessed**|**Observação**: esse valor está disponível somente para usuários de assinatura de complemento de Conformidade E5 ou E5. Para obter mais informações, [consulte Set up Advanced Audit in Microsoft 365](set-up-advanced-audit.md). <p> Os dados de email são acessados por protocolos de email e clientes.|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|
 |**MessageBind**|**Observação:** esse valor está disponível somente para usuários do E3 (usuários sem assinaturas de complemento de Conformidade E5 ou E5). <p> Uma mensagem foi exibida no painel de visualização ou aberta por um administrador.|![Marca de seleção](../media/checkmark.png)|||
-|**ModifyFolderPermissions**|Embora esse valor seja aceito como uma ação de caixa de correio, ele já está incluído na ação **UpdateFolderPermissions** e não é auditado separadamente. Em outras palavras, não use esse valor.|||||
+|**ModifyFolderPermissions**|Embora esse valor seja aceito como uma ação de caixa de correio, ele já está incluído na ação **UpdateFolderPermissions** e não é auditado separadamente. Em outras palavras, não use esse valor.||||
 |**Move**|Uma mensagem foi movida para outra pasta.|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|
 |**MoveToDeletedItems**|Uma mensagem foi excluída e movida para a pasta Itens Excluídos.|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|
 |**RecordDelete**|Um item rotulado como registro foi excluído de forma suave (movido para a pasta Itens Recuperáveis). Os itens rotulados como registros não podem ser excluídos permanentemente (excluídos da pasta Itens Recuperáveis).|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|
@@ -121,7 +121,7 @@ A tabela a seguir descreve as ações de caixa de correio que estão disponívei
 |**SendAs**|Uma mensagem foi enviada usando a permissão SendAs. Isto significa que outro usuário enviou a mensagem apesar de ter vindo do proprietário da caixa de correio.|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>||
 |**SendOnBehalf**|Uma mensagem foi enviada usando a permissão SendOnBehalf. Isto significa que outro usuário enviou a mensagem em nome do proprietário da caixa de correio. A mensagem indica ao destinatário em nome de quem a mensagem foi enviada e quem na verdade enviou a mensagem.|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>||
 |**SoftDelete**|Uma mensagem foi excluída permanentemente da pasta Itens Excluídos. Os itens excluídos temporariamente são movidos para a pasta Itens Recuperáveis.|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|
-|**Update**|Uma mensagem ou qualquer uma de suas propriedades foi alterada.|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|
+|**Atualizar**|Uma mensagem ou qualquer uma de suas propriedades foi alterada.|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|
 |**UpdateCalendarDelegation**|Uma delegação de calendário foi atribuída a uma caixa de correio. A delegação de calendário concede a outra pessoa na mesma organização permissões para gerenciar o calendário do proprietário da caixa de correio.|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>||![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|
 |**UpdateComplianceTag**|Um rótulo de retenção diferente é aplicado a um item de email (um item só pode ter um rótulo de retenção atribuído a ele).|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|
 |**UpdateFolderPermissions**|Uma permissão da pasta foi alterada. As permissões de pasta controlam quais usuários da sua organização podem acessar as pastas em uma caixa de correio e as mensagens localizadas nessas pastas.|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|
@@ -151,7 +151,7 @@ Lembre-se de que um administrador com permissão de Acesso Total para uma Micros
 |**SendAs**|Uma mensagem foi enviada usando a permissão SendAs.|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>||
 |**SendOnBehalf**|Uma mensagem foi enviada usando a permissão SendOnBehalf.|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>||
 |**SoftDelete**|Uma mensagem foi excluída permanentemente da pasta Itens Excluídos. Os itens excluídos temporariamente são movidos para a pasta Itens Recuperáveis.|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|
-|**Update**|Uma mensagem ou qualquer de sua propriedade foi alterada.|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|
+|**Atualizar**|Uma mensagem ou qualquer de sua propriedade foi alterada.|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|![Marca de seleção](../media/checkmark.png)<sup>\*</sup>|
 |
 
 ### <a name="verify-that-default-mailbox-actions-are-being-logged-for-each-logon-type"></a>Verifique se as ações de caixa de correio padrão estão sendo registradas para cada tipo de logon
@@ -338,10 +338,10 @@ O valor **True** indica que o log de auditoria de caixa de correio é ignorado p
   Para recuperar entradas de log de auditoria de caixa de correio para usuários sem licenças E5, você pode:
 
   - Habilitar manualmente a auditoria de caixa de correio em caixas de correio individuais (execute o comando, `Set-Mailbox -Identity <MailboxIdentity> -AuditEnabled $true` ). Depois de fazer isso, você pode usar pesquisas de log de auditoria no Centro de Conformidade & Segurança ou por meio da API de Atividade de Gerenciamento Office 365 Gerenciamento.
-  
+
     > [!NOTE]
     > Se a auditoria de caixa de correio já estiver habilitada na caixa de correio, mas suas pesquisas não retornarem resultados, altere o valor do parâmetro _AuditEnabled_ para e volte `$false` para `$true` .
-  
+
   - Use os seguintes cmdlets no Exchange Online PowerShell:
     - [Search-MailboxAuditLog](/powershell/module/exchange/search-mailboxauditlog) para pesquisar o log de auditoria de caixa de correio para usuários específicos.
     - [New-MailboxAuditLogSearch](/powershell/module/exchange/new-mailboxauditlogsearch) para pesquisar o log de auditoria de caixa de correio para usuários específicos e para ter os resultados enviados por email para destinatários especificados.

@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Use a API REST para criar um modelo e seu tipo de conteúdo associado.
-ms.openlocfilehash: 0a1b6ef9b7e38f2c4f52082103530da432e3e855
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 1c5bd84c777774edc1aa0c2419181f7b84aa4707
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177148"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287240"
 ---
 # <a name="create-model"></a>Criar um modelo
 
@@ -24,7 +24,7 @@ Cria um modelo e seu tipo de conteúdo associado. Observe que isso apenas cria o
 
 ## <a name="http-request"></a>Solicitação HTTP
 
-```
+```http
 POST /_api/machinelearning/models HTTP/1.1
 ```
 ## <a name="uri-parameters"></a>Parâmetros de URI
@@ -59,7 +59,7 @@ Nenhum
 
 #### <a name="sample-request"></a>Solicitação de amostra
 
-```
+```json
 {
     "__metadata": {
         "type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningModelEntityData"

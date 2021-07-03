@@ -13,12 +13,12 @@ ms.collection:
 - Adm_O365
 ms.custom: AdminSurgePortfolio
 description: Monitorar mensagens enviadas por email com falha e atraso enviadas para ou de contas com alto impacto comercial.
-ms.openlocfilehash: 2a58f4090244fc6d68be69cf6b3c8ab6e00874fa
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 86e01e591823c94d8279f975ed7de24cc65776dc
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535801"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286136"
 ---
 # <a name="manage-and-monitor-priority-accounts"></a>Gerenciar e monitorar contas prioritárias
 
@@ -45,7 +45,7 @@ O **recurso de proteção** de conta de prioridade descrito neste tópico está 
 
 O **Premium de Flow** de email descrito neste tópico está disponível apenas para organizações que atendem aos seguintes requisitos:
 
-- Sua organização precisa ter uma contagem de licenças de pelo menos 10.000, de um ou uma combinação dos seguintes produtos: Office 365 E3, Microsoft 365 E3, Office 365 E5, Microsoft 365 E5. Por exemplo, sua organização pode ter 3.000 licenças Office 365 E3 e 8.500 Microsoft 365 E5, para um total de 11.500 licenças dos produtos qualificados.
+- Sua organização precisa ter uma contagem de licenças de pelo menos 5.000, de um ou uma combinação dos seguintes produtos: Office 365 E3, Microsoft 365 E3, Office 365 E5, Microsoft 365 E5. Por exemplo, a organização pode ter 3.000 licenças do Office 365 E3 e 2.500 do Microsoft 365 E5, para um total de 5.500 licenças dos produtos qualificados.
 - A organização precisa ter pelo menos 50 usuários ativos mensais do Exchange Online.
 
 > [!NOTE]
@@ -57,7 +57,7 @@ Ao aplicar a proteção de conta de prioridade a uma caixa de correio, você tam
 
 Adicione contas de prioridade da página **De instalação**.
 
-1. Vá para o Microsoft 365 de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+1. Vá para o Centro de administração do Microsoft 365 em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
 2. Vá para **Configurar**  >  **Conhecimento organizacional** e escolha **Exibir** em Monitorar suas contas **mais importantes.**
 
@@ -83,7 +83,7 @@ Adicione contas de prioridade da página Usuários ativos.
 
 ## <a name="remove-a-user-from-the-priority-accounts-list"></a>Remover um usuário da lista de contas de prioridade
 
-1. Vá para o Microsoft 365 de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+1. Vá para o Centro de administração do Microsoft 365 em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
 2. Vá para **Configurar**  >  **Conhecimento organizacional** e escolha **Exibir** em Monitorar suas contas **mais importantes.**
 

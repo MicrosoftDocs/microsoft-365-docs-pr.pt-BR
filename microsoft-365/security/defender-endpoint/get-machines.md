@@ -12,15 +12,16 @@ author: mjcaparas
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
+ms.topic: article
 ms.collection: M365-security-compliance
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: f06973bc45ecac05c15d48afe5f0e2e9e7788f78
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: d52e1b69311c26144684b90545e17934d1223332
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770740"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287850"
 ---
 # <a name="list-machines-api"></a>API de máquinas de lista
 
@@ -71,7 +72,7 @@ GET https://api.securitycenter.microsoft.com/api/machines
 
 Nome | Tipo | Descrição
 :---|:---|:---
-Autorização | Cadeia de caracteres | Portador {token}. **Obrigatório**.
+Autorização | String | Portador {token}. **Obrigatório**.
 
 
 ## <a name="request-body"></a>Corpo da solicitação

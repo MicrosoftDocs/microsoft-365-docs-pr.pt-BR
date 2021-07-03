@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Neste artigo, encontre detalhes sobre o Microsoft 365 de aplicativo cliente para autenticação baseada em certificado.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d5ebef7c10aa61ba28c8fb841468be244f6e8542
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: bef1a684ba1ebe2eaba90677cd726cc190e342db
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904980"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286568"
 ---
 # <a name="microsoft-365-client-app-support-certificate-based-authentication"></a>Microsoft 365 Suporte ao aplicativo cliente: Autenticação baseada em certificado
 
@@ -46,12 +46,11 @@ As versões mais recentes dos seguintes clientes e plataformas suportam autentic
 
 [!INCLUDE [Certificate-based authentication services support table](../includes/microsoft-365-client-support-certificate-based-authentication-include.md)]
 
->[!NOTE]
->A borda para iOS e Android oferece suporte à autenticação baseada em certificado durante fluxos de adoção de conta. A borda para iOS e Android não dá suporte à autenticação baseada em certificado ao executar a autenticação em sites, que normalmente são sites de intranet. <br><br>  Nesse cenário, um usuário navega até um site (geralmente na intranet) onde o site exige que o usuário se autenture por meio de um certificado. Isso não envolve autenticação moderna e não aproveita uma biblioteca de autenticação da Microsoft. Isso ocorre devido a uma limitação com o iOS: o iOS impede que aplicativos de terceiros acessem o chaveiro do sistema onde os certificados estão armazenados (somente aplicativos da Apple e o controlador [webview safari](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller) podem acessar o chaveiro do sistema). <br><br> Como o Edge depende da estrutura [webKit](https://developer.apple.com/documentation/webkit) para renderizar sites, o Edge não consegue acessar o chaveiro do sistema e apresentar ao usuário uma opção de certificado. Isso, infelizmente, é devido ao design devido à arquitetura da Apple.
+> [!NOTE]
+> A borda para iOS e Android oferece suporte à autenticação baseada em certificado durante fluxos de adoção de conta. A borda para iOS e Android não dá suporte à autenticação baseada em certificado ao executar a autenticação em sites, que normalmente são sites de intranet. <br><br>  Nesse cenário, um usuário navega até um site (geralmente na intranet) onde o site exige que o usuário se autenture por meio de um certificado. Isso não envolve autenticação moderna e não aproveita uma biblioteca de autenticação da Microsoft. Isso ocorre devido a uma limitação com o iOS: o iOS impede que aplicativos de terceiros acessem o chaveiro do sistema onde os certificados estão armazenados (somente aplicativos da Apple e o controlador [webview safari](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller) podem acessar o chaveiro do sistema). <br><br> Como o Edge depende da estrutura [webKit](https://developer.apple.com/documentation/webkit) para renderizar sites, o Edge não consegue acessar o chaveiro do sistema e apresentar ao usuário uma opção de certificado. Isso, infelizmente, é devido ao design devido à arquitetura da Apple.
 
 ## <a name="supported-powershell-modules"></a>Módulos do PowerShell com suporte
 
-- [Azure Active Directory PowerShell](/powershell/azure/active-directory/overview?view=azureadps-2.0)
+- [Azure Active Directory PowerShell](/powershell/azure/active-directory/overview)
 - [PowerShell do Exchange Online](/powershell/exchange/exchange-online-powershell)
 - [PowerShell do SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
-

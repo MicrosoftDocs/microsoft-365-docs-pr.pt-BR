@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 65d7647e9000152d2eeb8d6bf36e8d45a0d4fa90
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: ba4f1b0e4b2e00334dbffb4bf0aa9edb1b8c5622
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984695"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286916"
 ---
 # <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>Adicione e verifique contatos do administrador no portal do Administrador
 
@@ -23,15 +23,16 @@ Há várias maneiras de o Área de Trabalho Gerenciada da Microsoft se comunicar
 > [!IMPORTANT]
 > Você pode já ter adicionado esses contatos no portal de administração. Em caso afirmado, verifique se a lista de contatos está precisa, pois Área de Trabalho Gerenciada da Microsoft deve ser capaz de alcançá-los se ocorrer um incidente grave. 
 
-## <a name="azure-active-directory-access-for-microsoft-managed-desktop-admin-portal"></a>Active Directory do Azure acesso para o Área de Trabalho Gerenciada da Microsoft admin
+## <a name="azure-active-directory-access-for-microsoft-managed-desktop-admin-portal"></a>Azure Active Directory acesso para o Área de Trabalho Gerenciada da Microsoft Admin
 
-Área de Trabalho Gerenciada da Microsoft O portal de administração exige que as pessoas que acessam o portal tenham uma dessas funções Active Directory do Azure (AD) :
+Área de Trabalho Gerenciada da Microsoft O portal de administração exige que as pessoas que acessam o portal tenham uma dessas funções Azure Active Directory (AD) :
+
 - Administrador global
 - Administrador de Serviço do Intune
 - Leitor global
 - Administrador de Suporte ao Serviço
 
-O Administrador Global deve ser o único a registrar sua organização no Área de Trabalho Gerenciada da Microsoft. Todas as cinco funções têm o mesmo acesso no portal administrador para iniciar e exibir tarefas. Para obter mais informações sobre como atribuir essas funções no Azure AD, consulte Permissões de função [de administrador em Active Directory do Azure](/azure/active-directory/users-groups-roles/directory-assign-admin-roles). 
+O Administrador Global deve ser o único a registrar sua organização no Área de Trabalho Gerenciada da Microsoft. Todas as cinco funções têm o mesmo acesso no portal administrador para iniciar e exibir tarefas. Para obter mais informações sobre como atribuir essas funções no Azure AD, consulte Permissões de função [de administrador em Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles).
 
 ## <a name="admin-contact-areas-of-focus"></a>Áreas de foco de contato do administrador
 
@@ -47,21 +48,21 @@ Outros | Para problemas não abordados por outras áreas
 
 **Quem você escolher para esses contatos precisa ter o conhecimento e a autoridade para tomar decisões para seu Área de Trabalho Gerenciada da Microsoft ambiente.** Quando você integra seu Área de Trabalho Gerenciada da Microsoft ambiente de Área de Trabalho Gerenciada da Microsoft, é solicitado a adicionar contatos para seu Helpdesk e Security local. 
 
-Os contatos do administrador são necessários ao [enviar uma solicitação de Suporte.](../service-description/support.md) Você precisará ter um contato de administrador para a área de foco da solicitação de Suporte. 
+Os contatos do administrador são necessários ao [enviar uma solicitação de Suporte.](../service-description/support.md) Você precisará ter um contato de administrador para a área de foco da solicitação de Suporte.
 
 **Para adicionar contatos de administrador**
 
-1.  Entre [no](https://endpoint.microsoft.com)Microsoft Endpoint Manager . 
+1. Entre [no](https://endpoint.microsoft.com)Microsoft Endpoint Manager .
 
-2.  Em **Administração de locatários,** procure a seção **Área de Trabalho Gerenciada da Microsoft** em seguida, selecione Contatos **de administrador**. 
+2. Em **Administração de locatários,** procure a seção **Área de Trabalho Gerenciada da Microsoft** em seguida, selecione Contatos **de administrador**.
 
 3. Selecione **Adicionar**.
 
-4.  Selecione uma **Área de foco** e insira as informações do contato. 
+4. Selecione uma **Área de foco** e insira as informações do contato. 
 
     ![a lista de áreas de foco, como Outros, Aplicativos e Segurança](../../media/areaoffocus.png)
 
-5. Repita para cada área de foco. 
+5. Repita para cada área de foco.
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Etapas para começar a Área de Trabalho Gerenciada da Microsoft
 

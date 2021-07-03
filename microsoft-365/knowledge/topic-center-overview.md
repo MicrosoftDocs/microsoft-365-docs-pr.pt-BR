@@ -1,5 +1,5 @@
 ---
-title: Visão geral do centro de tópicos Tópicos do Microsoft Viva
+title: Visão geral do centro de tópicos em Tópicos do Microsoft Viva
 author: chuckedmonson
 ms.author: chucked
 manager: pamgreen
@@ -13,21 +13,21 @@ ms.collection:
 - m365initiative-viva-topics
 ROBOTS: ''
 localization_priority: None
-description: Saiba mais sobre o centro de tópicos Tópicos do Microsoft Viva.
-ms.openlocfilehash: f782be90e6cd6fa12e57df87ebb1057e58bdca19
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+description: Saiba mais sobre o centro de tópicos em Tópicos do Microsoft Viva.
+ms.openlocfilehash: bd3bdbc368ca95b1c795043c5c083aaebfcf5742
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984923"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287276"
 ---
-# <a name="topic-center-overview-in-microsoft-viva-topics"></a>Visão geral do centro de tópicos Tópicos do Microsoft Viva
+# <a name="topic-center-overview-in-microsoft-viva-topics"></a>Visão geral do centro de tópicos em Tópicos do Microsoft Viva
 
 Em Tópicos do Microsoft Viva, o centro de tópicos é um site SharePoint moderno que serve como um centro de conhecimento para sua organização. Ele é criado durante a instalação [de Tópicos](set-up-topic-experiences.md) do Viva no Centro de administração do Microsoft 365.
 
-O centro de tópicos tem uma home page padrão com a Web Part **Tópicos** onde todos os usuários licenciados podem ver os tópicos aos quais eles têm uma conexão. 
+O centro de tópicos tem uma home page padrão com a Web Part **Tópicos** onde todos os usuários licenciados podem ver os tópicos aos quais eles têm uma conexão.
 
-Embora todos os usuários licenciados que possam exibir tópicos tenham acesso à central de tópicos, os gerentes de conhecimento também podem gerenciar tópicos por meio da página **Gerenciar tópicos.** A **guia Gerenciar tópicos** só será exibida para usuários que tenham as permissões Gerenciar tópicos. 
+Embora todos os usuários licenciados que possam exibir tópicos tenham acesso à central de tópicos, os gerentes de conhecimento também podem gerenciar tópicos por meio da página **Gerenciar tópicos.** A **guia Gerenciar tópicos** só será exibida para usuários que tenham as permissões Gerenciar tópicos.
 
 ## <a name="where-is-my-topic-center"></a>Onde está meu centro de tópicos
 
@@ -37,35 +37,31 @@ O centro de tópicos é criado durante a instalação de Tópicos do Viva. Após
 1. No Centro de administração do Microsoft 365, selecione **Configurações** e, em seguida, selecione **Configurações de organização**.
 2. Na guia **Serviços,** selecione **Experiências de Tópico**.
 
-    ![Conexão pessoas para conhecimento](../media/admin-org-knowledge-options-completed.png) 
+    ![Conexão pessoas para conhecimento](../media/admin-org-knowledge-options-completed.png)
 
 3. Selecione a **guia Central de** tópicos. Em **Endereço do site** é um link para o centro de tópicos.
 
-    ![knowledge-network-settings](../media/knowledge-network-settings-topic-center.png) 
-
-
+    ![knowledge-network-settings](../media/knowledge-network-settings-topic-center.png)
 
 ## <a name="home-page"></a>Página inicial
 
 </br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LAhZ]  
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LAhZ]
 
 </br>
-
 
 Na home page da central de tópicos, você pode ver os tópicos em sua organização aos quais você tem uma conexão.
 
 - Conexões sugeridas - Você verá tópicos listados em **Listamos você nesses tópicos. Fizemos certo?** Estes são tópicos nos quais sua conexão com o tópico foi sugerida por meio da AI. Por exemplo, você pode ser um autor de um arquivo ou site relacionado. Você deve confirmar que deve permanecer listado como uma pessoa relacionada para o tópico.
 
-   ![Conexões sugeridas](../media/knowledge-management/my-topics.png) 
- 
+   ![Conexões sugeridas](../media/knowledge-management/my-topics.png)
+
 - Conexões confirmadas - Estes são tópicos nos quais você está fixado na página de tópicos ou você confirmou uma conexão sugerida com o tópico. Os tópicos mudarão da seção sugerida para confirmada quando você confirmar uma conexão sugerida.
- 
-   ![Tópicos confirmados](../media/knowledge-management/my-topics-confirmed.png) 
+
+   ![Tópicos confirmados](../media/knowledge-management/my-topics-confirmed.png)
 
 Depois que um usuário confirmar sua conexão com um tópico, o usuário poderá fazer edições para a página de tópicos para fazer a cura de sua conexão. Por exemplo, eles podem fornecer mais informações sobre sua conexão com o tópico.
-
 
 ## <a name="manage-topics-page"></a>Gerenciar página de tópicos
 
@@ -76,8 +72,8 @@ Na página **Gerenciar tópicos,** o painel de tópicos mostra todos os tópicos
 - Confirme o tópico: Indica aos usuários que um tópico sugerido por AI foi validado por um curador humano.
 
 - Publique o tópico: Edite as informações do tópico para melhorar a qualidade do tópico identificado inicialmente e realça o tópico para todos os usuários que têm acesso a tópicos.
- 
-- Remova o tópico: torna o tópico indiscoverable para os usuários finais. O tópico é movido para a guia **Removido** e pode ser confirmado posteriormente, se necessário. 
+
+- Remova o tópico: torna o tópico indiscoverable para os usuários finais. O tópico é movido para a guia **Removido** e pode ser confirmado posteriormente, se necessário.
 
 Para obter mais informações sobre como gerenciar tópicos na página **Gerenciar tópicos,** consulte [Gerenciar tópicos](manage-topics.md).
 
@@ -89,8 +85,6 @@ Se você tiver permissões Criar e editar tópicos, poderá:
 
 - [Criar novos tópicos](create-a-topic.md): Você pode criar novos tópicos para aqueles que não foram encontrados por meio da descoberta ou se as ferramentas de AI não encontraram evidências suficientes para criar um tópico.
 
-
 ## <a name="see-also"></a>Confira também
 
 [Gerenciar tópicos no centro de tópicos](manage-topics.md)
-

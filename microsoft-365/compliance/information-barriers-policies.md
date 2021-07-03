@@ -15,12 +15,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ce387799a2f9e6d6cdffe063d3adf7310d7e7757
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: eec4869c5ff0b4caeedc52891a56d604c4b54348
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842717"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286028"
 ---
 # <a name="define-information-barrier-policies"></a>Definir políticas de barreira de informações
 
@@ -38,8 +38,8 @@ Ao definir políticas para barreiras de informações, você trabalhará com atr
 - Os atributos de conta de usuário são definidos no Azure Active Directory (ou no Exchange Online). Esses atributos podem incluir departamento, cargo, local, nome da equipe e outros dados do perfil da função. 
 - Segmentos são conjuntos de usuários definidos no Centro de Conformidade e Segurança & usando um atributo de conta **de usuário selecionado.** (confira a [lista de atributos com suporte](information-barriers-attributes.md)).
 - As políticas de barreiras à informação determinam os limites e restrições de comunicação. Ao definir as políticas de barreiras à informação, você opta entre dois tipos de políticas:
-    - As políticas "Bloquear" impedem que um segmento se comunique com outro segmento.
-    - As políticas "Permitir" permitem que um segmento se comunique apenas com determinados outros segmentos.
+  - As políticas "Bloquear" impedem que um segmento se comunique com outro segmento.
+  - As políticas "Permitir" permitem que um segmento se comunique apenas com determinados outros segmentos.
 - A aplicação da política é feita após todas as políticas de barreiras à informação terem sido definidas e quando você estiver pronto para aplicá-las na sua organização.
 
 ## <a name="the-work-flow-at-a-glance"></a>Visão geral do fluxo de trabalho 
@@ -71,8 +71,8 @@ Além das [licenças e](information-barriers.md#required-licenses-and-permission
 - Sem políticas de livro de endereços - Antes de definir e aplicar políticas de barreira de informações, certifique-se de Exchange políticas de agendamento de endereços estão em uso. As barreiras de informações são baseadas em políticas de catálogo de endereços, mas os dois tipos de política não são compatíveis. Se você tiver essas políticas, certifique-se de remover as políticas do seu livro [de endereços](/exchange/address-books/address-book-policies/remove-an-address-book-policy) primeiro. Depois que as políticas de barreira de informações são  habilitadas e você tem o [](/exchange/address-books/hierarchical-address-books/hierarchical-address-books) livro de endereços hierárquico habilitado, todos os usuários que não estão incluídos em um segmento de barreira de informações verão o livro de endereços hierárquico no Exchange online.
 
 - PowerShell - Atualmente, as políticas de barreira de informações são definidas e gerenciadas no Centro de Conformidade Office 365 Segurança & usando cmdlets do PowerShell. Embora vários exemplos sejam fornecidos neste artigo, você precisará estar familiarizado com cmdlets e parâmetros do PowerShell. Você também precisará do módulo Azure PowerShell.
-    - [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](/powershell/exchange/connect-to-scc-powershell)
-    - [Instalar o Azure PowerShell módulo](/powershell/azure/install-az-ps?view=azps-2.3.2)
+  - [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](/powershell/exchange/connect-to-scc-powershell)
+  - [Instalar o Azure PowerShell módulo](/powershell/azure/install-az-ps)
 
 - Consentimento do administrador para barreiras de informações no Microsoft Teams - Quando suas políticas de IB estão em uso, eles podem remover usuários de conformidade não IB de Grupos (ou seja, canais Teams, que são baseados em grupos). Essa configuração ajuda a garantir que sua organização permaneça em conformidade com políticas e regulamentos. Use o procedimento a seguir para permitir que as políticas de barreira de informações funcionem conforme o esperado Microsoft Teams.
 
@@ -91,10 +91,9 @@ Além das [licenças e](information-barriers.md#required-licenses-and-permission
    1. Quando solicitado, entre usando sua conta de trabalho ou de estudante para Office 365.
 
    1. Na caixa de diálogo Permissões **solicitadas,** revise as informações e escolha **Aceitar**. As permissões solicitadas pelo Aplicativo são fornecidas abaixo.
-      
+
       > [!div class="mx-imgBorder"]
       > ![imagem](https://user-images.githubusercontent.com/8932063/107690955-b1772300-6c5f-11eb-9527-4235de860b27.png)
-
 
 Quando todos os pré-requisitos são atendidos, prossiga para a próxima seção.
 
@@ -302,7 +301,7 @@ Para esse cenário, não é necessário definir políticas para RH ou Marketing.
 
 A Contoso usará o atributo Department no Azure Active Directory para definir segmentos, da seguinte forma:
 
-| Department | Definição de Segmento |
+| Departamento | Definição de Segmento |
 |:-------------|:---------------------|
 | RH | `New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"` |
 | Vendas | `New-OrganizationSegment -Name "Sales" -UserGroupFilter "Department -eq 'Sales'"` |

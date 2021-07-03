@@ -1,6 +1,6 @@
 ---
 title: Atualizar API de incidentes
-description: Saiba como atualizar incidentes usando Microsoft 365 API do Defender
+description: Saiba como atualizar incidentes usando Microsoft 365 Defender API
 keywords: update, api, incident
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: b50fe4672dd4cd721464c7414297efcc4a4921b7
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: 60f1209331862eb21d3b1949265f0873dcf2e5a7
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861498"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287814"
 ---
 # <a name="update-incidents-api"></a>Atualizar a API de incidentes
 
@@ -56,7 +56,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão | Permissão | Nome de exibição de permissão
 -|-|-
 Aplicativo | Incident.ReadWrite.All | Ler e gravar todos os incidentes
-Delegada (conta corporativa ou de estudante) | Incident.ReadWrite | Incidentes de leitura e gravação
+Delegado (conta corporativa ou de estudante) | Incident.ReadWrite | Incidentes de leitura e gravação
 
 > [!NOTE]
 > Ao obter um token usando credenciais de usuário, o usuário precisa ter permissão para atualizar o incidente no portal.
@@ -71,7 +71,7 @@ PATCH /api/incidents/{id}
 
 Nome | Tipo | Descrição
 -|-|-
-Autorização | Cadeia de caracteres | Portador {token}. **Obrigatório**.
+Autorização | String | Portador {token}. **Obrigatório**.
 Content-Type | Cadeia de Caracteres | application/json. **Obrigatório**.
 
 ## <a name="request-body"></a>Corpo da solicitação
@@ -81,10 +81,10 @@ No corpo da solicitação, fornece os valores para os campos que devem ser atual
 Propriedade | Tipo | Descrição
 -|-|-
 status | Enum | Especifica o status atual do incidente. Os valores possíveis são: ```Active``` ```Resolved``` , e ```Redirected``` .
-assignedTo | cadeia de caracteres | Proprietário do incidente.
+assignedTo | string | Proprietário do incidente.
 classificação | Enum | Especificação do incidente. Os valores possíveis são: ```Unknown```, ```FalsePositive```, ```TruePositive```.
 determinação | Enum | Especifica a determinação do incidente. Os valores possíveis são: ```NotAvailable```, ```Apt```, ```Malware```, ```SecurityPersonnel```, ```SecurityTesting```, ```UnwantedSoftware```, ```Other```.
-categorias | string List | Lista de marcas de incidente.
+tags | string List | Lista de marcas de incidente.
 comment | string | Comentário a ser adicionado ao incidente.
 
 ## <a name="response"></a>Resposta

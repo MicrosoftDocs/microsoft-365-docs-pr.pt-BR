@@ -8,12 +8,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: b1111f0867ff9a49ba670cdd8b48d10d158fd3ed
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 07d4632c6ce775d98d9606f9edc4566aa48d9d8e
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917765"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287796"
 ---
 # <a name="security-technologies-in-microsoft-managed-desktop"></a>Tecnologias de segurança no Área de Trabalho Gerenciada da Microsoft
 
@@ -21,12 +21,12 @@ ms.locfileid: "50917765"
 
 Área de Trabalho Gerenciada da Microsoft usa várias tecnologias da Microsoft para ajudar a proteger dispositivos e dados gerenciados. Além disso, o Área de Trabalho Gerenciada da Microsoft de Operações de Segurança usa vários [processos](security-operations.md) em conjunto com essas tecnologias.
 
-Especificamente: 
+Especificamente:
 
 - [Segurança do](#device-security) dispositivo – segurança e proteção em Área de Trabalho Gerenciada da Microsoft dispositivos
 - [Gerenciamento de identidade e acesso](#identity-and-access-management) – gerenciando o uso seguro de dispositivos por meio Azure Active Directory de identidade
 - [Segurança de rede](#network-security) – informações de VPN e Área de Trabalho Gerenciada da Microsoft soluções e configurações recomendadas
-- [Segurança de informações](#information-security) – serviços opcionais disponíveis para proteger ainda mais informações confidenciais 
+- [Segurança de informações](#information-security) – serviços opcionais disponíveis para proteger ainda mais informações confidenciais
 
 Para obter informações sobre as práticas de armazenamento, uso e segurança de dados usadas pelo Área de Trabalho Gerenciada da Microsoft, consulte nosso whitepaper em [https://aka.ms/mmd-data](https://aka.ms/mmd-data) .
 
@@ -38,21 +38,21 @@ Para obter informações sobre as práticas de armazenamento, uso e segurança d
 Serviço | Descrição
 --- | ---
 Antivírus | O Microsoft Defender AV está instalado e configurado<br>As definições do Microsoft Defender AV estão atualizadas
-Criptografia de Volume Total |    Windows BitLocker é a solução de criptografia de volume para Área de Trabalho Gerenciada da Microsoft dispositivos.<br><br>Depois que uma organização estiver integrado ao serviço, os dispositivos serão criptografados usando o Windows BitLocker com TPM (Módulo de Plataforma de Confiança) interno para impedir o acesso não autorizado a dados locais quando o dispositivo estiver no modo de sono ou desligado. 
-Monitoramento |    O Microsoft Defender para Ponto de Extremidade é usado para monitoramento de ameaças de segurança em todos os Área de Trabalho Gerenciada da Microsoft dispositivos. O Defender for Endpoint permite que os clientes corporativos detectem, investiguem e respondam a ameaças avançadas em sua rede corporativa. Para obter mais informações, consulte [Microsoft Defender for Endpoint.](/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) 
-Atualizações do sistema operacional |  Área de Trabalho Gerenciada da Microsoft dispositivos estão sempre protegidos com as atualizações de segurança mais recentes.
-Configuração segura do dispositivo |   Área de Trabalho Gerenciada da Microsoft implementa a Linha de Base de Segurança da Microsoft. Para obter mais informações, [consulte Windows de segurança.](/windows/security/threat-protection/windows-security-baselines)
+Criptografia de Volume Total | Windows O BitLocker é a solução de criptografia de volume para Área de Trabalho Gerenciada da Microsoft dispositivos.<br><br>Depois que uma organização estiver integrado ao serviço, os dispositivos serão criptografados usando o bitLocker Windows com TPM (Módulo de Plataforma de Confiança) interno para impedir o acesso não autorizado a dados locais quando o dispositivo estiver no modo de sono ou desligado.
+Monitoramento | O Microsoft Defender para Ponto de Extremidade é usado para monitoramento de ameaças de segurança em todos os Área de Trabalho Gerenciada da Microsoft dispositivos. O Defender for Endpoint permite que os clientes corporativos detectem, investiguem e respondam a ameaças avançadas em sua rede corporativa. Para obter mais informações, consulte [Microsoft Defender for Endpoint.](/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)
+Atualizações do sistema operacional | Área de Trabalho Gerenciada da Microsoft dispositivos estão sempre protegidos com as atualizações de segurança mais recentes.
+Configuração segura do dispositivo | Área de Trabalho Gerenciada da Microsoft implementa a Linha de Base de Segurança da Microsoft. Para obter mais informações, [consulte Windows de segurança.](/windows/security/threat-protection/windows-security-baselines)
 
 
 
 ## <a name="identity-and-access-management"></a>Gerenciamento de identidades e acesso
 
-O gerenciamento de identidade e acesso protege ativos corporativos e dados críticos para os negócios. Área de Trabalho Gerenciada da Microsoft configura dispositivos para garantir o uso seguro com Azure Active Directory identidades gerenciadas (Azure AD). É responsabilidade do cliente manter informações precisas em seu locatário do Azure AD. 
+O gerenciamento de identidade e acesso protege ativos corporativos e dados críticos para os negócios. Área de Trabalho Gerenciada da Microsoft configura dispositivos para garantir o uso seguro com Azure Active Directory identidades gerenciadas (Azure AD). É responsabilidade do cliente manter informações precisas em seu locatário do Azure AD.
 
 Serviço | Descrição
 --- | ---
-Autenticação Biométrica |  Windows O Hello permite que os usuários se inscrevam usando o rosto ou um PIN, tornando as senhas mais difíceis de esquecer ou roubar. Os clientes são responsáveis por implementar os pré-requisitos necessários para seu Active Directory local para uso desse serviço em uma configuração híbrida. Para obter mais informações, consulte [Windows Hello.](/windows-hardware/design/device-experiences/windows-hello) 
-Permissão de usuário padrão |  Para proteger o sistema e torná-lo mais seguro, o usuário receberá Permissões padrão de usuário. Essa permissão é atribuída como parte do Windows autopiloto fora do box.
+Autenticação Biométrica | Windows Hello permite que os usuários entre usando seu rosto ou um PIN, tornando as senhas mais difíceis de esquecer ou roubar. Os clientes são responsáveis por implementar os pré-requisitos necessários para seu Active Directory local para uso desse serviço em uma configuração híbrida. Para obter mais informações, [consulte Windows Hello.](/windows-hardware/design/device-experiences/windows-hello) 
+Permissão de usuário padrão | Para proteger o sistema e torná-lo mais seguro, o usuário receberá Permissões padrão de usuário. Essa permissão é atribuída como parte do Windows autopiloto fora do box.
 
 
 
@@ -71,5 +71,5 @@ Você pode configurar esses serviços opcionais para ajudar a proteger ativos co
 
 Serviço | Descrição
 --- | ---
-Recuperação de dados  | As informações armazenadas em pastas de chave no dispositivo são armazenadas em OneDrive for Business. Área de Trabalho Gerenciada da Microsoft não é responsável por dados que não são sincronizados com OneDrive for Business. 
-Proteção de Informações do Windows |    Para empresas que exigem altos níveis de segurança de informações, recomendamos Windows [Proteção](/windows/threat-protection/windows-information-protection/protect-enterprise-data-using-wip) de Informações e Proteção de Informações [do Azure.](https://www.microsoft.com/cloud-platform/azure-information-protection).
+Recuperação de dados  | As informações armazenadas em pastas de chave no dispositivo são armazenadas em OneDrive for Business. Área de Trabalho Gerenciada da Microsoft não é responsável por dados que não são sincronizados com OneDrive for Business.
+Proteção de Informações do Windows | Para empresas que exigem altos níveis de segurança de informações, recomendamos Windows [Proteção](/windows/threat-protection/windows-information-protection/protect-enterprise-data-using-wip) de Informações e Proteção de Informações [do Azure.](https://www.microsoft.com/cloud-platform/azure-information-protection)

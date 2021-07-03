@@ -20,24 +20,29 @@ search.appverid: MET150
 ms.assetid: cbd2369c-fd96-464c-bf48-c99826b459ee
 description: Neste artigo, você encontrará pontos de extremidade acessíveis para clientes que usam Office 365 de GCC do Governo dos EUA.
 hideEdit: true
-ms.openlocfilehash: da721d7d0a8965c4dea9bc812df755f19e69ea55
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 2febfec744dfb527dd99b205f3b2b78f5b9af4e7
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730157"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286352"
 ---
 # <a name="office-365-us-government-gcc-high-endpoints"></a>Pontos de extremidade elevados do GCC do Office 365 do Governo dos EUA
 
- *Aplica-se a: Office 365 Admin*
+*Aplica-se a: Office 365 Admin*
 
-Office 365 requer conectividade com a Internet. Os pontos de extremidade abaixo devem ser acessíveis para clientes que usam Office 365 governo dos EUA GCC apenas planos altos.
+O Office 365 requer conectividade com a Internet. Os pontos de extremidade abaixo devem ser acessíveis para clientes que usam Office 365 governo dos EUA GCC apenas planos altos.
   
- **Pontos de extremidade do Office 365:** [global (incluindo GCC)](urls-and-ip-address-ranges.md) | [Office 365 operado pela 21 Vianet](urls-and-ip-address-ranges-21vianet.md)  | [Office 365 Alemanha](microsoft-365-germany-endpoints.md)   |  [Office 365 Governo dos E.U.A. Departamento de Defesa](microsoft-365-u-s-government-dod-endpoints.md) | *GCC High do Office 365 Governo dos E.U.A.* |
-  
-|||
-|:-----|:-----|
-|**Última atualização:** 28/05/2021 - ![RSS](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Alterar assinatura do Log](https://endpoints.office.com/version/USGOVGCCHigh?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |**Baixar:** a lista completa no [formato JSON](https://endpoints.office.com/endpoints/USGOVGCCHigh?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |
+ Office 365 pontos de **extremidade:** em todo o mundo [(incluindo GCC)](urls-and-ip-address-ranges.md) Office 365 operado pela \| [21 Vianet](urls-and-ip-address-ranges-21vianet.md) \| [Office 365 Alemanha](microsoft-365-germany-endpoints.md) Office 365 \| [DoD](microsoft-365-u-s-government-dod-endpoints.md) \|  do Governo dos EUA Office 365 GCC Alta
+
+<br>
+
+****
+
+|Observações|Baixar|
+|---|---|
+|**Última atualização:** 28/05/2021 - ![RSS](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Alterar assinatura do Log](https://endpoints.office.com/version/USGOVGCCHigh?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**Baixar:** a lista completa no [formato JSON](https://endpoints.office.com/endpoints/USGOVGCCHigh?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|
+|
 
  Comece com [Gerenciando pontos de extremidade do Office 365 ](managing-office-365-endpoints.md) para entender nossas recomendações para gerenciar a conectividade de rede usando esses dados. Os dados dos terminais são atualizados conforme necessário no início de cada mês com novos endereços IP e URLs publicados 30 dias antes de serem ativados. Isso permite que os clientes que ainda não tenham atualizações automatizadas concluam seus processos antes que a nova conectividade seja necessária. Os endpoints também podem ser atualizados durante o mês, se necessário, para lidar com escalações de suporte, incidentes de segurança ou outros requisitos operacionais imediatos. Os dados mostrados nesta página a seguir são todos gerados a partir dos serviços da web baseados em REST. Se estiver usando um script ou um dispositivo de rede para acessar esses dados, você deve ir para o [serviço da Web ](microsoft-365-ip-web-service.md) diretamente.
 
@@ -54,9 +59,9 @@ As colunas de dados exibidas são:
 - **ER**: Isso é **Sim se** o conjunto de pontos de extremidade for suportado no Azure ExpressRoute com prefixos Office 365 de rota. A comunidade BGP que inclui os prefixos de rota mostrados se alinha à área de serviço listada. Quando ER é **Não**, isso significa que o ExpressRoute não tem suporte para esse conjunto de pontos de extremidade. No entanto, não deve ser presumido que nenhuma rota seja anunciada para um conjunto de pontos de extremidade onde ER é **Não**. Se você planeja usar o Azure AD [](/azure/active-directory/hybrid/reference-connect-instances#microsoft-azure-government) Conexão, leia a seção considerações especiais para garantir que você tenha a configuração apropriada do Azure AD Conexão configuração.
 
 - **Endereços**: lista os FQDNs ou nomes de domínio curinga e intervalos de endereços IP para o conjunto de pontos de extremidade. Observe que o intervalo de endereços IP está no formato CIDR e pode incluir vários endereços IP individuais na rede especificada.
- 
+
 - **Portas**: lista as portas TCP ou UDP que são combinadas com os endereços para formar o ponto de extremidade de rede. Você poderá notar algumas duplicações nos intervalos de endereços IP em que há diferentes portas listadas.
- 
+
 [!INCLUDE [Office 365 U.S. Government GCC High endpoints](../includes/office-365-u.s.-government-gcc-high-endpoints.md)]
 
 Observações da tabela:

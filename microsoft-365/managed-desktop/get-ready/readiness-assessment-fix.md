@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 0296e8151162ad4f2855fdd29ff2fc0ed4b4d6b2
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 9d2f9a95b3d5d90b79122d55477284083ea8332e
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177568"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286880"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Corrigir problemas encontrados pela ferramenta de avaliação de prontidão
 
@@ -27,7 +27,7 @@ Para cada verificação, a ferramenta relatará um dos quatro resultados possív
 |Pronto     | Nenhuma ação é necessária antes de concluir o registro.        |
 |Aviso    | Siga as etapas na ferramenta ou neste artigo para ter a melhor experiência com registro e usuários. Você *pode* concluir o registro, mas deve corrigir esses problemas antes de implantar seu primeiro dispositivo.        |
 |Não está pronto | *O registro falhará se você não corrigir esses problemas.* Siga as etapas na ferramenta ou neste artigo para resolvê-las.        |
-|Erro | A Azure Active Directory (AD) que você está usando não tem permissão suficiente para executar essa verificação. |
+|Error | A Azure Active Directory (AD) que você está usando não tem permissão suficiente para executar essa verificação. |
 
 > [!NOTE]
 > Os resultados relatados por essa ferramenta refletem o status de suas configurações apenas no ponto específico no tempo em que você a publicou. Se você mais tarde fizer alterações nas políticas em Microsoft Intune, Azure Active Directory ou Microsoft 365, os itens que estavam "Prontos" podem se tornar "Não prontos". Para evitar problemas com Área de Trabalho Gerenciada da Microsoft, verifique as configurações específicas descritas neste artigo antes de alterar quaisquer políticas.
@@ -262,14 +262,13 @@ Windows 10 dispositivos em sua organização do Azure AD devem ser capazes de se
 
 Certifique-se de que o escopo de usuário do **MDM** está definido **como Alguns** ou **Todos**, não **Nenhum**. Se você escolher **Alguns**, volte após o registro e selecione o  grupo Local de Trabalho Moderno **-All** Azure AD para Grupos ou um grupo equivalente destinado a todos os seus usuários Área de Trabalho Gerenciada da Microsoft.  Consulte [Configurar o registro para dispositivos Windows usando Microsoft Intune](/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment).
 
-
 ### <a name="ad-hoc-subscriptions"></a>Assinaturas ad hoc
 
 Aconselha como verificar uma configuração que (se definida como "false") pode impedir Enterprise Roaming de Estado funcionar corretamente.
 
 **Aviso**
 
-Verifique se **AllowAdHocSubscriptions** está definido como **True**. Caso contrário, Enterprise roaming de estado pode não funcionar. Para obter mais informações, [consulte Set-MsolCompanySettings](/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0).
+Verifique se **AllowAdHocSubscriptions** está definido como **True**. Caso contrário, Enterprise roaming de estado pode não funcionar. Para obter mais informações, [consulte Set-MsolCompanySettings](/powershell/module/msonline/set-msolcompanysettings).
 
 
 ### <a name="enterprise-state-roaming"></a>Roaming de Estado da Empresa
@@ -337,7 +336,7 @@ Além dos usuários que têm funções atribuídas ao Azure AD de administrador 
 
 Área de Trabalho Gerenciada da Microsoft usuários não terão privilégios de administrador local em seus Área de Trabalho Gerenciada da Microsoft após o registro.
 
-## <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365 Apps para Grandes Empresas
+## <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365 Apps para empresas
 
 ### <a name="onedrive"></a>OneDrive
 

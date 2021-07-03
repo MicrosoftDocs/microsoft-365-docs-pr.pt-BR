@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-overview
 ms.custom: ''
 description: Configure a proteção de informações no Microsoft 365 para regulamentos de privacidade de dados, como o RGPD e a Lei de Privacidade do Consumidor da Califórnia (CCPA), incluindo Microsoft Teams, SharePoint e email.
-ms.openlocfilehash: 76bac526dbf648b402c14b3304e32a308219bf02
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: c0ffe7cf850ec6e7ae8c974f983ce43668bf6f30
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229198"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287706"
 ---
 # <a name="deploy-information-protection-for-data-privacy-regulations-with-microsoft-365"></a>Implantar a proteção de informações para regulamentos de privacidade de dados com Microsoft 365
 
@@ -33,6 +33,11 @@ Exemplos dos tipos de dados no Microsoft 365 incluem sessões de chat em Microso
 ![O que é a proteção de informações para regulamentos de privacidade de dados](../media/information-protection-deploy/information-protection-data-privacy-regulations-overview.png#lightbox)
 
 Informações adicionais também são fornecidas sobre o uso de Microsoft 365 de identidade, dispositivo e proteção contra ameaças para suas necessidades de privacidade de dados.
+
+Assista a esse vídeo para obter uma visão geral do processo de implementação.
+<br>
+<br>
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4NHCQ]
 
 Esses Microsoft 365 recursos ajudam você a atender aos critérios de proteção de informações.
 
@@ -105,3 +110,26 @@ Há Microsoft 365 recursos disponíveis para ajudá-lo a monitorar, investigar e
 Ter processos, procedimentos e outras documentações para usar esses recursos pode ser importante para demonstrar a conformidade com os órgãos regulatórios.
 
 Para obter mais informações, [consulte Monitor and respond to data privacy incidents in your organization](information-protection-deploy-monitor-respond.md).
+
+## <a name="training-for-administrators"></a>Treinamento para administradores
+
+Esses módulos de treinamento do Microsoft Learn podem ajudá-lo a aprender sobre como os recursos importantes para a proteção de informações.
+
+
+#### <a name="information-protection"></a>Proteção de informações
+
+|Treinamento:|Proteja as informações da empresa com o Microsoft 365|
+|:---|:---|
+|![Teams de treinamento de proteção de informações](../media/protect-enterprise-information-microsoft-365.svg)|Garantir a proteção e a segurança das informações da sua organização está mais difícil que nunca. O caminho de aprendizagem Proteger informações corporativas com o Microsoft 365 descreve como proteger as informações confidenciais contra compartilhamento excessivo acidental ou uso impróprio, como descobrir e classificar dados, como protegê-los com rótulos de confidencialidade e como monitorar e analisar suas informações confidenciais para proteger contra a perda. Esse caminho de aprendizado pode ajudá-lo a se preparar para o Microsoft 365 Certificado: Associado do Administrador de Segurança e certificado Microsoft 365 Certificado: Enterprise Certificações de Especialista em Administração..<br><br>1 hr - Learning Caminho - 5 Módulos|
+
+> [!div class="nextstepaction"]
+> [Iniciar >](/learn/modules/m365-security-info-overview/introduction/)
+
+#### <a name="identity-and-access"></a>Identidade e acesso
+
+|Treinamento:|Proteger a identidade e o acesso com o Azure Active Directory|
+|:---|:---|
+|![Ícone de treinamento de identidade e acesso](../media/protect-identity-and-access-with-microsoft-365.svg)|O caminho de aprendizagem de Identidade e Acesso abrange as últimas tecnologias de identidade e acesso, ferramentas para reforçar a autenticação e diretrizes de proteção de identidade dentro da sua organização. As tecnologias de identidade e acesso da Microsoft permitem proteger a identidade da sua organização, seja no local ou na nuvem, e capacita os usuários a trabalhar com segurança em qualquer local. Este caminho de aprendizagem pode ajudar você a se preparar para a certificação Microsoft 365 Certified: Administrador de Segurança Associado e Microsoft 365 Certified: Especialista em Administração Corporativa.<br><br>2 hr 52 min - Learning Path - 6 Módulos|
+
+> [!div class="nextstepaction"]
+> [Iniciar >](/learn/modules/m365-identity-overview/introduction/)

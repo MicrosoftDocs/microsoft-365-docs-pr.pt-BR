@@ -13,16 +13,16 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Saiba como gerenciar contratos usando uma solução Microsoft 365 de SharePoint Syntex, SharePoint Listas, Microsoft Teams e Power Automate.
-ms.openlocfilehash: d3be12dbddabbcddc41f7c9d882db5473350266e
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: bc2570b08add2fa93637b9f64931c5903795a079
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054762"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287312"
 ---
 # <a name="manage-contracts-using-a-microsoft-365-solution"></a>Gerenciar contratos usando uma solução do Microsoft 365
 
-Este artigo descreve como criar uma solução de gerenciamento de contratos para sua organização usando SharePoint Syntex e componentes de Microsoft 365. Ele fornece uma estrutura para ajudá-lo a planejar e criar uma solução que se ajuste às suas necessidades de negócios exclusivas. Mesmo se essa solução não atender às suas necessidades de negócios como um todo, partes dela podem ser adotadas em seu planejamento para criar uma solução de gerenciamento de contratos personalizada.
+Este artigo descreve como criar uma solução de gerenciamento de contratos para sua organização usando SharePoint Syntex e componentes de Microsoft 365. Ele fornece uma estrutura para ajudá-lo a planejar e criar uma solução que se ajuste às suas necessidades de negócios exclusivas. Mesmo que essa solução fale sobre gerenciamento de contratos, você pode adaptá-la para criar outras soluções de gerenciamento de documentos, como instruções de trabalho ou faturas.
 
 *Esse conjunto de conteúdo documenta uma Microsoft 365 desenvolvida por Thomas Molbach com a Equipe de Estratégia de Solução de Trabalho Moderna da Microsoft.*
 
@@ -65,10 +65,10 @@ Esta orientação de solução de gerenciamento de contratos inclui quatro compo
       ![Exemplo de um contrato.](../media/content-understanding/contract.png)
 
 3. No Microsoft Teams, todos os participantes são membros de um canal seguro Teams no qual todos os contratos na biblioteca de documentos ficam visíveis para aprovação ou rejeição. Usando Teams funcionalidade, todas as partes interessadas são notificadas quando novos contratos precisam ser revistos.
- 
-4. Usando o Power Automate, os contratos são movidos pelo processo de aprovação no Teams canal. Quando um membro aprova um contrato, o status do contrato é alterado para aprovar, todos os membros são notificados por meio de uma postagem de Teams e um item de linha é criado para mostrar que o contrato está pronto para pagamento. Esse processo pode ser estendido para gravar diretamente em um aplicativo financeiro de terceiros para pagamento.
 
-5.  Quando um membro rejeita um contrato, o status é alterado para rejeitado e todos os membros são notificados por meio de Teams postagem.
+4. Usando o Power Automate, os contratos são movidos pelo processo de aprovação no Teams canal. Quando um membro aprova um contrato, o status do contrato é alterado para aprovado, todos os membros são notificados por meio de uma postagem Teams e um item de linha é criado para mostrar que o contrato está pronto para pagamento. Esse processo pode ser estendido para gravar diretamente em um aplicativo financeiro de terceiros para pagamento.
+
+5. Quando um membro rejeita um contrato, o status é alterado para rejeitado e todos os membros são notificados por meio de Teams postagem.
 
 6. O resultado final dessa solução é um processo de negócios automatizado para sua organização. Os funcionários podem usar facilmente a exibição de Teams para iniciar e monitorar o fluxo de trabalho de aprovação de seus documentos. 
 
@@ -78,9 +78,9 @@ Esta orientação de solução de gerenciamento de contratos inclui quatro compo
 
 Essa solução se baseia na seguinte funcionalidade, tudo disponível como parte de uma licença de Microsoft 365 Enterprise (E1, E3, E5, F3) ou Business (Basic, Standard ou Premium).
 
--   Microsoft SharePoint Syntex
--   Microsoft Teams
--   Power Automate
+- Microsoft SharePoint Syntex
+- Microsoft Teams
+- Power Automate
 
 ## <a name="create-the-solution"></a>Criar a solução
 

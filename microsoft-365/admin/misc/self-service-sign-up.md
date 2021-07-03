@@ -20,30 +20,30 @@ ms.custom:
 search.appverid: MET150
 description: Saiba mais sobre Microsoft 365 de autoatendados e programas de autoatendados disponíveis, como o Microsoft Power Apps, Microsoft Flow e o Dynamics 365 para Finanças.
 ms.date: 03/17/2021
-ms.openlocfilehash: f3427294a94875e21a5e6b99a09056617a7dea99
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 7aec03abce468342cfeb23da490b1f950ecd7050
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332373"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286580"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>Usando a assinatura de autoatendindo em sua organização
 
 A insinuidade de autoatendindo facilita a assinatura dos usuários em sua organização para serviços online da Microsoft. Chamamos esse processo de inscrição de "inscrição autoatendida" porque seus usuários podem se inscrever para usar os serviços pagos por sua assinatura ou usar serviços gratuitos, sem pedir que você tome medidas em nome deles.
-  
+
 ## <a name="how-self-service-sign-up-works"></a>Como funciona a assinatura de autoatend
 
 O exemplo a seguir descreve como a auto-assinatura funciona para uma escola. O mesmo processo funciona para qualquer organização que tenha programas de autoatendados habilitados em seu locatário.
-  
+
 1. Alunos e membros do corpo docente têm endereços de email escolares que indicam que estão associados à sua instituição. Por exemplo, o endereço de email jakob@uw.edu pode indicar um aluno na Universidade de Washington.
 2. Os alunos e professores vão para nosso [site](https://go.microsoft.com/fwlink/p/?LinkId=536628)e usam o endereço de email para se inscrever nos serviços que sua organização oferece, como Microsoft 365 Apps para Grandes Empresas. Eles também podem se inscrever em outros serviços gratuitos que oferecemos.
 3. Validamos seu endereço de email e, em seguida, eles podem começar a usar Microsoft 365, Power BI ou outros serviços imediatamente.
-4. Como administrador de negócios, você pode ver quem se inscreveu  para uma assinatura selecionando a assinatura na página Licenciamento no Microsoft 365 de administração. Dessa forma, você pode ver quando há licenças novas ou não reconhecedas para serviços em seu locatário. Para controlar se os usuários podem se inscrever para assinaturas de autoatendiço, use o cmdlet [Set-MsolCompanySettings](/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0&preserve-view=true) PowerShell com o parâmetro **AllowAdHocSubscriptions.** Para obter mais informações, consulte [How do I control self-service settings?](/azure/active-directory/users-groups-roles/directory-self-service-signup#how-do-i-control-self-service-settings)
+4. Como administrador de negócios, você pode ver quem se inscreveu  para uma assinatura selecionando a assinatura na página Licenciamento na Centro de administração do Microsoft 365. Dessa forma, você pode ver quando há licenças novas ou não reconhecedas para serviços em seu locatário. Para controlar se os usuários podem se inscrever para assinaturas de autoatendiço, use o cmdlet [Set-MsolCompanySettings](/powershell/module/msonline/set-msolcompanysettings) PowerShell com o parâmetro **AllowAdHocSubscriptions.** Para obter mais informações, consulte [How do I control self-service settings?](/azure/active-directory/users-groups-roles/directory-self-service-signup#how-do-i-control-self-service-settings)
 
 ## <a name="available-self-service-programs"></a>Programas de autoatendados disponíveis
 
 A seguir estão os programas de autoatendados disponíveis no momento. Essa lista será atualizada à medida que novos programas são adicionados.
-  
+
 | Programa <br/> | Descrição <br/> | Informações adicionais <br/> | Site para inscrever-se em autoatend <br/> |
 |:-----|:-----|:-----|:-----|
 |Office 365 A1**** <br/> |Qualquer aluno ou professor pode usar um endereço de email da escola para se inscrever gratuitamente Office 365 e obter aplicativos Office para a Web, 1 TB de armazenamento em nuvem OneDrive e SharePoint Online para sites de classe, equipe e projeto.  <br/> |[Office 365 Education Perguntas frequentes técnicas](/microsoft-365/education/deploy/office-365-education-self-sign-up) <br/> |[Office 365 Education](https://go.microsoft.com/fwlink/p/?linkid=140841) <br/> |

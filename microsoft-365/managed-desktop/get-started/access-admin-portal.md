@@ -10,12 +10,12 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: 2facd506497cbdab42f2d8b051fbd50f82432927
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 345ae56a1c328dad7b777468dd03bcab40f9b4e1
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770596"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286868"
 ---
 # <a name="access-the-admin-portal"></a>Acessar o portal de administração
 
@@ -61,12 +61,12 @@ Se você precisar de ajuda para atribuir Azure Active Directory funções, consu
 ### <a name="assigning-built-in-roles-to-user"></a>Atribuir funções internas ao usuário
 
 Para um gerenciamento fácil de funções internas, há um grupo de segurança para cada função personalizada com o nome "Funções de Trabalho Modernas - _Nome_ da Função "(por exemplo, "Funções de Trabalho Modernas – Gerente de Segurança"). Para atribuir usuários a um desses grupos de segurança, siga estas etapas:
-1.  Acesse o Microsoft Endpoint Manager portal.
-2.  Selecione **Grupos** no lado esquerdo.
-3.  Pesquise **funções** de local de trabalho modernas e selecione o grupo associado à função que você deseja atribuir. 
-4.  Selecione **Membros** no lado esquerdo e selecione **+ Adicionar membros** na barra de comandos.
-5.  Insira o email da pessoa que está sendo adicionada. Se eles são convidados, você deve convidá-los antes de poder atribuir o grupo.
-6.  Selecione **Selecionar** na parte inferior.
+1. Acesse o Microsoft Endpoint Manager portal.
+2. Selecione **Grupos** no lado esquerdo.
+3. Pesquise **funções** de local de trabalho modernas e selecione o grupo associado à função que você deseja atribuir. 
+4. Selecione **Membros** no lado esquerdo e selecione **+ Adicionar membros** na barra de comandos.
+5. Insira o email da pessoa que está sendo adicionada. Se eles são convidados, você deve convidá-los antes de poder atribuir o grupo.
+6. Selecione **Selecionar** na parte inferior.
 
 > [!NOTE]
 > Não há suporte para aninhar grupos de segurança para atribuição de função. 
@@ -74,6 +74,7 @@ Para um gerenciamento fácil de funções internas, há um grupo de segurança p
 ### <a name="assigning-built-in-roles-to-groups"></a>Atribuindo funções in-locar a grupos
 
 Se você precisar atribuir uma ou mais funções embutida a um grupo existente, siga estas etapas:
+
 1. Vá para [portal.azure.com](https://portal.azure.com/).
 2. Pesquise e **abra Enterprise aplicativos**.
 3. Altere **o filtro de tipo de** aplicativo para Microsoft _Applications_ e, em seguida, selecione **Aplicar**.

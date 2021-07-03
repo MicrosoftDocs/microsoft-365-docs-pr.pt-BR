@@ -24,16 +24,16 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba como habilitar Microsoft 365 proteger os dispositivos locais ingressados no Active-Directory Windows 10 em apenas algumas etapas.
-ms.openlocfilehash: ec80159bdceffd8a13d09a297a2acc1b78c9b1b3
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: eb95c437030ae13a44f5e8043b3544d5846001c2
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636077"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287686"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Habilitar dispositivos Windows 10 de domínio a serem gerenciados por Microsoft 365 Business Premium
 
-Se a sua organização usa o Windows Active Directory no local, você pode configurar um Microsoft 365 Business Premium para proteger seus dispositivos Windows 10, enquanto ainda mantém o acesso a recursos locais que exigem autenticação local.
+Se sua organização usa Windows Server Active Directory local, você pode configurar um Microsoft 365 Business Premium para proteger seus dispositivos Windows 10, enquanto ainda mantém o acesso a recursos locais que exigem autenticação local.
 Para configurar essa proteção, você pode implementar **dispositivos ingressados no Azure AD híbridos.** Esses dispositivos são ingressados no Active Directory local e no Azure Active Directory.
 
 ## <a name="watch-configure-hybrid-azure-active-directory-join"></a>Watch: Configure Hybrid Azure Active Directory join
@@ -109,13 +109,13 @@ O primeiro comando estabelecerá uma conexão com a nuvem da Microsoft e, quando
 
 Se você não vir a política Habilitar o registro automático do MDM usando credenciais padrão do **Azure AD**, pode ser porque você não tem o ADMX instalado para Windows 10, versão 1803 ou posterior. Para corrigir o problema, siga estas etapas (Observação: o MDM.admx mais recente é compatível com versões anteriores):
 
-1.  Download: Modelos Administrativos (.admx) para Windows 10 atualização de outubro de [2020 (20H2)](https://www.microsoft.com/download/102157).
-2.  Instale o pacote em um Controlador de Domínio.
-3.  Navegue, dependendo da versão Modelos Administrativos para a pasta: C:\Arquivos de Programas (x86)\Política de Grupo da Microsoft\Windows 10 atualização de outubro de **2020 (20H2)**.
-4.  Renomeie a **pasta Definições de** Política no caminho acima para **PolicyDefinitions**.
-5.  Copie a **pasta PolicyDefinitions** para seu compartilhamento SYSVOL, por padrão localizado em **C:\Windows\SYSVOL\domain\Policies**. 
-    -   Se você planeja usar um armazenamento de política central para todo o seu domínio, adicione o conteúdo de PolicyDefinitions lá.
-6.  Caso você tenha vários Controladores de Domínio, aguarde que o SYSVOL replique para que as políticas sejam disponibilizadas. Este procedimento funcionará para qualquer versão futura dos Modelos Administrativos também.
+1. Download: Modelos Administrativos (.admx) para Windows 10 atualização de outubro de [2020 (20H2)](https://www.microsoft.com/download/102157).
+2. Instale o pacote em um Controlador de Domínio.
+3. Navegue, dependendo da versão Modelos Administrativos para a pasta: C:\Arquivos de Programas (x86)\Política de Grupo da Microsoft\Windows 10 atualização de outubro de **2020 (20H2)**.
+4. Renomeie a **pasta Definições de** Política no caminho acima para **PolicyDefinitions**.
+5. Copie a **pasta PolicyDefinitions** para seu compartilhamento SYSVOL, por padrão localizado em **C:\Windows\SYSVOL\domain\Policies**.
+   - Se você planeja usar um armazenamento de política central para todo o seu domínio, adicione o conteúdo de PolicyDefinitions lá.
+6. Caso você tenha vários Controladores de Domínio, aguarde que o SYSVOL replique para que as políticas sejam disponibilizadas. Este procedimento funcionará para qualquer versão futura dos Modelos Administrativos também.
 
 Neste ponto, você deve ser capaz de ver a política Habilitar o registro automático do MDM usando credenciais padrão do **Azure AD** disponíveis.
 

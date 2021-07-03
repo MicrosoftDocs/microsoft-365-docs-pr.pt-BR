@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Saiba como criar, modificar, remover e testar tipos de informações confidenciais personalizados para DLP no Centro de Conformidade & Segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e067bc502267e918bd355d9bf8a1982795255846
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: f346a32da6f47cadc0ded6d7d045a833bb3b60b0
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256718"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287534"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>Comece com tipos de informações confidenciais personalizados
 
@@ -128,12 +128,14 @@ Também é possível criar tipos personalizados de informações confidenciais u
 ### <a name="checksum-validator"></a>Validador checksum
 
 Se você precisar executar um checksum em um dígito em uma expressão regular, poderá usar o *validador checksum*. Por exemplo, digamos que você precise criar um SIT para um número de licença de oito dígitos onde o último dígito é um dígito de verificação que é validado usando um cálculo mod 9. Você definiu o algoritmo checksum assim:
- 
+
 Soma = dígito 1 * Peso 1 + dígito 2 * peso 2 + dígito 3 * peso 3 + dígito 4 * peso 4 + dígito 5 * peso 5 + dígito 6 * peso 6 * peso 6 + dígito 7 * peso 7 + dígito 8 * peso 8 Valor mod = soma % 9 Se o valor mod == dígito 8 Número de conta for válido Se o valor mod != dígito 8 Número da conta for inválido
 
 1. Defina o elemento principal com essa expressão regular:
 
-`\d{8}`
+   ```console
+   \d{8}
+   ```
 
 2. Em seguida, adicione o validador checksum.
 3. Adicione os valores de peso separados por vírgulas, a posição do dígito de verificação e o valor Mod. Para obter mais informações sobre a operação Modulo, consulte [Operação Modulo](https://en.wikipedia.org/wiki/Modulo_operation).
@@ -145,11 +147,13 @@ Soma = dígito 1 * Peso 1 + dígito 2 * peso 2 + dígito 3 * peso 3 + dígito 4 
 
 ### <a name="date-validator"></a>Validador de data
 
-Se um valor de data inserido na expressão regular faz parte de um novo padrão que você está criando, você pode usar o *validador* de data para testar se ele atende aos seus critérios. Por exemplo, digamos que você queira criar um SIT para um número de identificação de funcionários de nove dígitos. Os seis primeiros dígitos são a data de contratação no formato DDMMYYY e os três últimos são números gerados aleatoriamente. Para validar se os seis primeiros dígitos estão no formato correto. 
+Se um valor de data inserido na expressão regular faz parte de um novo padrão que você está criando, você pode usar o *validador* de data para testar se ele atende aos seus critérios. Por exemplo, digamos que você queira criar um SIT para um número de identificação de funcionários de nove dígitos. Os seis primeiros dígitos são a data de contratação no formato DDMMYYY e os três últimos são números gerados aleatoriamente. Para validar se os seis primeiros dígitos estão no formato correto.
 
 1. Defina o elemento principal com essa expressão regular:
 
-`\d{9}`
+   ```console
+   \d{9}
+   ```
 
 2. Em seguida, adicione o validador de data.
 3. Selecione o formato de data e o deslocamento inicial. Como a cadeia de caracteres de data é os primeiros seis dígitos, o deslocamento é `0` .

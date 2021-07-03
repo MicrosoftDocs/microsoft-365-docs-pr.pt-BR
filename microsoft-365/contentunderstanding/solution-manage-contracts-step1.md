@@ -12,12 +12,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Saiba como usar o SharePoint Syntex para identificar arquivos de contrato e extrair dados usando uma solução Microsoft 365.
-ms.openlocfilehash: c66e46aaaacd5000f1e0d18aa07df527ca8ab7dd
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: b73f7b96a1f1a9159770fb1bfb20bf2718f08c07
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054499"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287348"
 ---
 # <a name="step-1-use-sharepoint-syntex-to-identify-contract-files-and-extract-data"></a>Etapa 1. Use SharePoint Syntex para identificar arquivos de contrato e extrair dados
 
@@ -25,7 +25,9 @@ Sua organização precisa de uma maneira de identificar e classificar todos os d
 
 ## <a name="overview-of-the-process"></a>Visão geral do processo
 
-[A compreensão do](document-understanding-overview.md) documento usa modelos de inteligência artificial (AI) para automatizar a classificação de arquivos e a extração de informações. Os modelos de compreensão de documentos também são ideais para extrair informações de documentos não estruturados e semiestruturados, onde as informações de que você precisa não estão contidas em tabelas ou formulários, como contratos.
+[A compreensão do](document-understanding-overview.md) documento usa modelos de inteligência artificial (AI) para automatizar a classificação de arquivos e a extração de informações. Os modelos de compreensão de documentos também são ideais para extrair informações de documentos não estruturados e semiestruturados, onde as informações de que você precisa não estão contidas em tabelas ou formulários, como contratos. 
+
+Os modelos de compreensão de documentos usam a tecnologia reconhecimento óptico de caracteres (OCR) para digitalizar PDFs, imagens e arquivos TIFF, tanto quando você treina um modelo com arquivos de exemplo como quando executa o modelo em arquivos em uma biblioteca de documentos.
 
 1. Primeiro, você precisa encontrar pelo menos cinco arquivos de exemplo que você pode usar para "treinar" o modelo para pesquisar características específicas do tipo de conteúdo que você está tentando identificar (um contrato). 
 
