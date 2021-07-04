@@ -20,18 +20,18 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: bb12f49d-a85d-4f3b-ada2-5c4e33977b10
 description: Saiba como exibir, listar ou exibir suas Microsoft 365 de usuário de maneiras diferentes com o PowerShell.
-ms.openlocfilehash: de91195afeb8480bf231d9536e4b3a94502a6da1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 77219fb89430ed257ef2a68a7b24bf9ebac715b2
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924643"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290166"
 ---
 # <a name="view-microsoft-365-user-accounts-with-powershell"></a>Exibir Microsoft 365 contas de usuário com o PowerShell
 
 *Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-Você pode usar o centro de administração Microsoft 365 para exibir as contas do seu Microsoft 365 locatário. O PowerShell para Microsoft 365 permite isso, mas também fornece funcionalidade adicional.
+Você pode usar o Centro de administração do Microsoft 365 para exibir as contas do seu Microsoft 365 locatário. O PowerShell para Microsoft 365 permite isso, mas também fornece funcionalidade adicional.
   
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Use o PowerShell do Azure Active Directory para o módulo do gráfico
 
@@ -104,7 +104,7 @@ Get-AzureADUser -ObjectID <sign-in name of the user account> | Select DisplayNam
 
 As contas de usuário têm duas fontes: 
 
-- Windows Servidor Active Directory (AD), que são contas que sincronizam do AD local para a nuvem.
+- Windows Server Active Directory (AD), que são contas que sincronizam do AD local para a nuvem.
 
 - Azure Active Directory contas do AD (Azure AD), que são criadas diretamente na nuvem.
 
@@ -148,8 +148,7 @@ Get-AzureADUser | Where {$_.City -eq "London"}
 ```
 
 > [!TIP]
->  A sintaxe do cmdlet **Where** nestes exemplos é **Where {$ \_ .** [nome da propriedade de conta de usuário] [operador de comparação] [value] **}**.> [operador de comparação] é **-eq** para igual, **-ne** para não igual, **-lt** para menos que, **-gt** para maior que e outros.  [value] é normalmente uma cadeia de caracteres (uma sequência de letras,  números e outros caracteres), um valor numérico ou $Null para não especificado. Para obter mais informações, consulte [Where](/powershell/module/microsoft.powershell.core/where-object?view=powershell-7).
-  
+> A sintaxe do cmdlet **Where** nestes exemplos é **Where {$ \_ .** [nome da propriedade de conta de usuário] [operador de comparação] [value] **}**.> [operador de comparação] é **-eq** para igual, **-ne** para não igual, **-lt** para menos que, **-gt** para maior que e outros.  [value] é normalmente uma cadeia de caracteres (uma sequência de letras,  números e outros caracteres), um valor numérico ou $Null para não especificado. Para obter mais informações, consulte [Where](/powershell/module/microsoft.powershell.core/where-object).
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Use o Módulo Microsoft Azure Active Directory para Windows PowerShell.
 
@@ -241,7 +240,7 @@ Get-MsolUser | Where {$_.City -eq "London"}
 ```
 
 > [!TIP]
->  A sintaxe do cmdlet **Where** nestes exemplos é **Where {$ \_ .** [nome da propriedade de conta de usuário] [operador de comparação] [value] **}**.  [operador de comparação] é **-eq** para igual, **-ne** para não igual, **-lt** para menos que, **-gt** para maior do que e outros.  [value] é normalmente uma cadeia de caracteres (uma sequência de letras,  números e outros caracteres), um valor numérico ou $Null para não especificado. Para obter mais informações, consulte [Where](/powershell/module/microsoft.powershell.core/where-object?view=powershell-7).
+> A sintaxe do cmdlet **Where** nestes exemplos é **Where {$ \_ .** [nome da propriedade de conta de usuário] [operador de comparação] [value] **}**.  [operador de comparação] é **-eq** para igual, **-ne** para não igual, **-lt** para menos que, **-gt** para maior do que e outros.  [value] é normalmente uma cadeia de caracteres (uma sequência de letras,  números e outros caracteres), um valor numérico ou $Null para não especificado. Para obter mais informações, consulte [Where](/powershell/module/microsoft.powershell.core/where-object).
   
 Para verificar o status bloqueado de uma conta de usuário, use o seguinte comando:
   
@@ -254,11 +253,11 @@ Get-MsolUser -UserPrincipalName <UPN of user account> | Select DisplayName,Block
 Por padrão, o cmdlet **Get-MsolUser** exibe essas três propriedades de contas de usuário:
   
 - UserPrincipalName
-    
+
 - DisplayName
-    
+
 - isLicensed
-    
+
 Se você precisar de propriedades adicionais, como o departamento onde o usuário trabalha e o país/região onde ele usa serviços Microsoft 365, você pode executar **Get-MsolUser** em combinação com o cmdlet **Select** para especificar a lista de propriedades da conta de usuário. Veja um exemplo:
   
 ```powershell

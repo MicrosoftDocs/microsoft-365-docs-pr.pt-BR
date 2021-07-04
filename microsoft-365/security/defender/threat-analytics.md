@@ -1,5 +1,5 @@
 ---
-title: Rastrear e responder a ameaças emergentes com análise de ameaças
+title: Acompanhar e responder a ameaças emergentes com a análise de ameaças
 ms.reviewer: ''
 description: Saiba mais sobre ameaças e técnicas de ataque emergentes e como impedi-las. Avalie o impacto deles em sua organização e avalie sua resiliência organizacional.
 keywords: análise de ameaças, avaliação de risco, Microsoft 365 Defender, M365D, status de mitigação, configuração segura, Microsoft Defender para Office 365, Microsoft Defender para análise de ameaças do Office 365, análise de ameaças MDO, dados integrados de análise de ameaças MDE e MDO, integração de dados de análise de ameaças, análise Microsoft 365 Defender análise integrada de ameaças
@@ -21,14 +21,14 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6de0cb646eb8c12e4863facdb42c1f9494120f9
-ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
+ms.openlocfilehash: c03dfef28744e2ee565c25d921902b8d11ecb7a3
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105651"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290238"
 ---
-# <a name="track-and-respond-to-emerging-threats-with-threat-analytics"></a>Rastrear e responder a ameaças emergentes com análise de ameaças 
+# <a name="track-and-respond-to-emerging-threats-with-threat-analytics"></a>Acompanhar e responder a ameaças emergentes com a análise de ameaças 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -39,7 +39,6 @@ ms.locfileid: "53105651"
 >
 
 [!INCLUDE [Prerelease](../includes/prerelease.md)]
-
 
 A análise de ameaças é a nossa solução de inteligência contra ameaças no produto de pesquisadores de segurança especialistas da Microsoft, projetado para ajudar as equipes de segurança a serem o mais eficientes possíveis, enfrentando ameaças emergentes, incluindo:
 
@@ -61,7 +60,7 @@ _Onde acessar a análise de ameaças_
 
 Com adversários mais sofisticados e novas ameaças surgindo com frequência e predominantemente, é fundamental poder fazer isso rapidamente:
 
-- Identificar e reagir a ameaças emergentes 
+- Identificar e reagir a ameaças emergentes
 - Saiba se você está sob ataque no momento
 - Avaliar o impacto da ameaça para seus ativos
 - Revise sua resiliência contra ou exposição às ameaças
@@ -85,14 +84,14 @@ _Painel de análise de ameaças. Você também pode clicar no ícone Pesquisar p
 
 ## <a name="view-a-threat-analytics-report"></a>Exibir um relatório de análise de ameaças
 
-Cada relatório de análise de ameaças fornece informações em várias seções: 
+Cada relatório de análise de ameaças fornece informações em várias seções:
 
-- [**Visão Geral**](#overview-quickly-understand-the-threat-assess-its-impact-and-review-defenses) 
+- [**Visão Geral**](#overview-quickly-understand-the-threat-assess-its-impact-and-review-defenses)
 - [**Relatório de analistas**](#analyst-report-get-expert-insight-from-microsoft-security-researchers)
 - [**Incidentes relacionados**](#related-incidents-view-and-manage-related-incidents)
 - [**Ativos afetados**](#impacted-assets-get-list-of-impacted-devices-and-mailboxes)
 - [**Tentativas de email evitadas**](#prevented-email-attempts-view-blocked-or-junked-threat-emails)
-- [**Mitigações**](#mitigations-review-list-of-mitigations-and-the-status-of-your-devices)
+- [**Atenuações**](#mitigations-review-list-of-mitigations-and-the-status-of-your-devices)
 
 ### <a name="overview-quickly-understand-the-threat-assess-its-impact-and-review-defenses"></a>Visão geral: entenda rapidamente a ameaça, avalie seu impacto e revise as defesas
 
@@ -103,7 +102,9 @@ A **seção Visão** Geral fornece uma visualização do relatório detalhado do
 _Seção Visão geral de um relatório de análise de ameaças_
 
 #### <a name="assess-impact-on-your-organization"></a>Avaliar o impacto em sua organização
+
 Cada relatório inclui gráficos projetados para fornecer informações sobre o impacto organizacional de uma ameaça:
+
 - **Incidentes relacionados**— fornece uma visão geral do impacto da ameaça controlada à sua organização com os seguintes dados:
   - Número de alertas ativos e o número de incidentes ativos aos que estão associados
   - Gravidade de incidentes ativos
@@ -112,24 +113,60 @@ Cada relatório inclui gráficos projetados para fornecer informações sobre o 
 - **Tentativas de email evitadas**— mostra o número de emails dos últimos sete dias que foram bloqueados antes da entrega ou entregues à pasta lixo eletrônico.
 
 #### <a name="review-security-resilience-and-posture"></a>Revisar a resiliência e a postura de segurança
+
 Cada relatório inclui gráficos que fornecem uma visão geral de como sua organização é resiliente contra uma determinada ameaça:
+
 - **Status de configuração** seguro mostra o número de dispositivos com configurações de segurança mal configuradas. Aplique as configurações de segurança recomendadas para ajudar a reduzir a ameaça. Os dispositivos são **considerados Seguros** se eles aplicaram _todas as_ configurações controladas.
 - **Status de patch de vulnerabilidade** mostra o número de dispositivos vulneráveis. Aplique atualizações de segurança ou patches para resolver vulnerabilidades exploradas pela ameaça.
 
+#### <a name="view-reports-per-threat-tags"></a>Exibir relatórios por marcas de ameaça
+
+Você pode filtrar a lista de relatórios de ameaças e exibir os relatórios mais relevantes de acordo com uma marca de ameaça específica (categoria) ou um tipo de relatório.
+
+- **Marcas de** ameaça — ajudam você a exibir os relatórios mais relevantes de acordo com uma categoria de ameaça específica. Por exemplo, todos os relatórios relacionados ao ransomware.
+- **Tipos de** relatório — ajudam você a exibir os relatórios mais relevantes de acordo com um tipo de relatório específico. Por exemplo, todos os relatórios que abrangem ferramentas e técnicas. 
+- **Filtros**— ajudam você a revisar com eficiência a lista de relatório de ameaças e a filtrar o modo de exibição com base em uma marca de ameaça específica ou tipo de relatório. Por exemplo, revise todos os relatórios de ameaças relacionados à categoria ransomware ou relatórios de ameaças que abrangem vulnerabilidades.
+
+##### <a name="how-does-it-work"></a>Como funciona?
+
+A equipe do Microsoft Threat Intelligence adicionou marcas de ameaça a cada relatório de ameaças:
+
+- Quatro marcas de ameaça agora estão disponíveis:
+  - Ransomware
+  - Phishing
+  - Vulnerabilidade
+  - Grupo de atividades
+- As marcas de ameaça são apresentadas na parte superior da página análise de ameaças, com contadores para o número de relatórios disponíveis em cada marca.
+
+  ![marcas de ameaça](../../media/threat-analytics/ta-threattags-mtp.png)
+
+- A lista também pode ser classificação por marcas de ameaça:
+
+  ![listas](../../media/threat-analytics//ta-taglist-mtp.png)
+
+- Os filtros estão disponíveis por marca de ameaça e tipo de relatório:
+
+  ![filters](../../media/threat-analytics/ta-threattag-filters-mtp.png)
+
 ### <a name="analyst-report-get-expert-insight-from-microsoft-security-researchers"></a>Relatório de analistas: obter informações de especialistas de pesquisadores de segurança da Microsoft
+
 Na seção **Relatório de** Analistas, leia o relatório detalhado do especialista. A maioria dos relatórios fornece descrições detalhadas de cadeias de ataque, incluindo táticas e técnicas mapeadas para [](advanced-hunting-overview.md) a estrutura de CK do MITRE ATT&, listas exaustivas de recomendações e orientações avançadas sobre a busca de ameaças.
 
 [Saiba mais sobre o relatório do analista](threat-analytics-analyst-reports.md)
 
 ### <a name="related-incidents-view-and-manage-related-incidents"></a>Incidentes relacionados: exibir e gerenciar incidentes relacionados
+
 A **guia Incidentes Relacionados** fornece a lista de todos os incidentes relacionados à ameaça controlada. Você pode atribuir incidentes ou gerenciar alertas vinculados a cada incidente. 
+
 
 ![Imagem da seção incidentes relacionados de um relatório de análise de ameaças](../../media/threat-analytics/ta_related_incidents_mtp.png)
 
 _Seção Incidentes relacionados de um relatório de análise de ameaças_
 
 ### <a name="impacted-assets-get-list-of-impacted-devices-and-mailboxes"></a>Ativos afetados: Obter lista de dispositivos e caixas de correio afetados
+
 Um ativo será considerado afetado se for afetado por um alerta ativo não resolvido. A **guia Ativos afetados** lista os seguintes tipos de ativos afetados:
+
 - **Dispositivos afetados**— pontos de extremidade que não resolveram os alertas do Microsoft Defender para o Ponto de Extremidade. Esses alertas normalmente disparam em avistamentos de indicadores e atividades de ameaças conhecidos.
 - **Caixas de correio impactadas**— caixas de correio que receberam mensagens de email que dispararam o Microsoft Defender para Office 365 alertas. Embora a maioria das mensagens que disparam alertas geralmente sejam bloqueadas, as políticas no nível do usuário ou da organização podem substituir filtros.
 
@@ -138,6 +175,7 @@ Um ativo será considerado afetado se for afetado por um alerta ativo não resol
 _Seção ativos afetados de um relatório de análise de ameaças_
 
 ### <a name="prevented-email-attempts-view-blocked-or-junked-threat-emails"></a>Tentativas de email evitadas: Exibir emails de ameaça bloqueados ou lixo eletrônico
+
 O Microsoft Defender para Office 365 normalmente bloqueia emails com indicadores de ameaça conhecidos, incluindo links mal-intencionados ou anexos. Em alguns casos, mecanismos de filtragem proativos que verificam se há conteúdo suspeito enviarão emails de ameaça para a pasta lixo eletrônico. Em ambos os casos, as chances de a ameaça iniciar código de malware no dispositivo é reduzida.
 
 A **guia Tentativas de Email Impedido** lista todos os emails que foram bloqueados antes da entrega ou enviados para a pasta lixo eletrônico pelo Microsoft Defender para Office 365. 
@@ -147,6 +185,7 @@ A **guia Tentativas de Email Impedido** lista todos os emails que foram bloquead
 _Seção Tentativas de email impedidas de um relatório de análise de ameaças_
 
 ### <a name="mitigations-review-list-of-mitigations-and-the-status-of-your-devices"></a>Mitigações: revise a lista de mitigações e o status de seus dispositivos
+
 Na seção **Mitigações,** revise a lista de recomendações ativas específicas que podem ajudá-lo a aumentar sua resiliência organizacional em relação à ameaça. A lista de mitigações controladas inclui:
 
 - **Atualizações de segurança**— implantação de atualizações de segurança de software com suporte para vulnerabilidades encontradas em dispositivos conectados
@@ -154,31 +193,37 @@ Na seção **Mitigações,** revise a lista de recomendações ativas específic
   - Proteção fornecida na nuvem  
   - Proteção de aplicativo potencialmente indesejado (PUA)
   - Proteção em tempo real
- 
+
 As informações de mitigação nesta seção incorporam dados [do Gerenciamento de Ameaças e Vulnerabilidades](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt), que também fornece informações detalhadas de detalhamento de vários links no relatório.
 
-![Imagem da seção mitigações de um relatório de análise de ameaças mostrando detalhes de configuração segura Imagem da seção mitigações de um relatório de análise de ameaças mostrando ](../../media/threat-analytics/ta_mitigations_mtp.png)
- ![ detalhes de vulnerabilidade](../../media/threat-analytics/ta_mitigations_mtp2.png)
+![Imagem da seção mitigações de um relatório de análise de ameaças mostrando detalhes de configuração segura](../../media/threat-analytics/ta_mitigations_mtp.png)
+
+![Imagem da seção mitigações de um relatório de análise de ameaças mostrando detalhes de vulnerabilidade](../../media/threat-analytics/ta_mitigations_mtp2.png)
 
 _Seção Mitigações de um relatório de análise de ameaças_
 
 ## <a name="additional-report-details-and-limitations"></a>Detalhes e limitações adicionais do relatório
->[!NOTE]
->Como parte da experiência de segurança unificada, a análise de ameaças agora está disponível não apenas para o Microsoft Defender para Ponto de Extremidade, mas também para o Microsoft Defender para proprietários de licença Office E5.
->Se você não estiver usando o portal de segurança do Microsoft 365 (Microsoft 365 Defender), também poderá ver os detalhes do relatório (sem o Microsoft Defender para dados Office) no portal do Central de Segurança do Microsoft Defender (Microsoft Defender para Ponto de Extremidade). 
+
+> [!NOTE]
+> Como parte da experiência de segurança unificada, a análise de ameaças agora está disponível não apenas para o Microsoft Defender para Ponto de Extremidade, mas também para o Microsoft Defender para proprietários de licença Office E5.
+>
+> Se você não estiver usando o portal de segurança do Microsoft 365 (Microsoft 365 Defender), também poderá ver os detalhes do relatório (sem o Microsoft Defender para dados Office) no portal do Central de Segurança do Microsoft Defender (Microsoft Defender para Ponto de Extremidade).
 
 Para acessar o relatório de análise de ameaças, você precisa de determinadas funções e permissões. Consulte [Funções personalizadas no controle de acesso](custom-roles.md) baseado em função para obter Microsoft 365 Defender para obter detalhes.
-  - Para exibir alertas, incidentes ou dados de ativos afetados, você precisa ter permissões para o Microsoft Defender para Office ou o Microsoft Defender para dados de alertas de ponto de extremidade ou ambos.
-  - Para exibir tentativas de email impedidas, você precisa ter permissões para o Microsoft Defender para Office dados de busca. 
-  - Para exibir mitigações, você precisa ter permissões para Gerenciamento de Ameaças e Vulnerabilidades dados no Microsoft Defender para Ponto de Extremidade.
+
+- Para exibir alertas, incidentes ou dados de ativos afetados, você precisa ter permissões para o Microsoft Defender para Office ou o Microsoft Defender para dados de alertas de ponto de extremidade ou ambos.
+- Para exibir tentativas de email impedidas, você precisa ter permissões para o Microsoft Defender para Office dados de busca. 
+- Para exibir mitigações, você precisa ter permissões para Gerenciamento de Ameaças e Vulnerabilidades dados no Microsoft Defender para Ponto de Extremidade.
 
 Ao ver os dados de análise de ameaças, lembre-se dos seguintes fatores:
+
 - Os gráficos refletem apenas mitigações controladas. Verifique a visão geral do relatório para obter mitigações adicionais que não são mostradas nos gráficos.
 - Mitigações não garantem resiliência completa. As mitigações fornecidas refletem as melhores ações possíveis necessárias para melhorar a resiliência.
 - Os dispositivos serão contados como "indisponíveis" se não transmitirem dados para o serviço.
 - Estatísticas relacionadas a antivírus são baseadas em Microsoft Defender Antivírus configurações. Dispositivos com soluções antivírus de terceiros podem aparecer como "expostos".
 
 ## <a name="related-topics"></a>Tópicos relacionados
+
 - [Encontrar proativamente ameaças com busca avançada](advanced-hunting-overview.md) 
 - [Compreender a seção relatório de analistas](threat-analytics-analyst-reports.md)
 - [Avaliar e resolver deficiências e exposições de segurança](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)

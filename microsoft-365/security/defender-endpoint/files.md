@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: c4d392c9c7777a5ab5435d70e36822e11aa39dae
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 83a011e649a7289f62acd6a8d985f020b27b1e10
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771184"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290010"
 ---
 # <a name="file-resource-type"></a>Tipo de recurso File
 
@@ -36,10 +36,10 @@ ms.locfileid: "52771184"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-
 Represente uma entidade de arquivo no Defender para Ponto de Extremidade.
 
 ## <a name="methods"></a>Métodos
+
 Método|Tipo de retorno |Descrição
 :---|:---|:---
 [Obter arquivo](get-file-information.md) | [file](files.md) | Obter um único arquivo 
@@ -49,25 +49,25 @@ Método|Tipo de retorno |Descrição
 
 
 ## <a name="properties"></a>Propriedades
-|Propriedade | Tipo    |   Descrição |
+
+|Propriedade | Tipo | Descrição |
 |:---|:---|:---|
-|sha1 | Cadeia de caracteres | Hash sha1 do conteúdo do arquivo |
-|sha256 | Cadeia de caracteres | Hash sha256 do conteúdo do arquivo |
+|sha1 | String | Hash sha1 do conteúdo do arquivo |
+|sha256 | String | Hash sha256 do conteúdo do arquivo |
 |globalPrevalence | Long anulado | Prevalência de arquivo em toda a organização |
 |globalFirstObserved | DateTimeOffset | Primeira vez que o arquivo foi observado |
 |globalLastObserved | DateTimeOffset | Última vez que o arquivo foi observado |
 |size | Long anulado | Tamanho do arquivo |
-|fileType | Cadeia de caracteres | Tipo do arquivo |
-|isPeFile | Boolean | true se o arquivo for executável portátil (por exemplo, "DLL", "EXE", etc.) |
-|filePublisher | Cadeia de caracteres | Editor de arquivos |
-|fileProductName | Cadeia de caracteres | Nome do produto |
-|signer | Cadeia de caracteres | Signante de arquivo |
-|emissor | Cadeia de caracteres | Emissor de arquivo |
-|signerHash | Cadeia de caracteres | Hash do certificado de assinatura |
-|isValidCertificate | Boolean | Foi verificado com êxito o certificado de assinatura pelo Microsoft Defender para agente do Ponto de Extremidade |
-|determinationType | Cadeia de caracteres | O tipo de determinação do arquivo |
-|determinationValue | Cadeia de caracteres | Valor de determinação |
-
+|fileType | String | Tipo do arquivo |
+|isPeFile | Booliano | true se o arquivo for executável portátil (por exemplo, "DLL", "EXE", etc.) |
+|filePublisher | String | Editor de arquivos |
+|fileProductName | String | Nome do produto |
+|signer | String | Signante de arquivo |
+|emissor | String | Emissor de arquivo |
+|signerHash | String | Hash do certificado de assinatura |
+|isValidCertificate | Booliano | Foi verificado com êxito o certificado de assinatura pelo Microsoft Defender para agente do Ponto de Extremidade |
+|determinationType | String | O tipo de determinação do arquivo |
+|determinationValue | String | Valor de determinação |
 
 ## <a name="json-representation"></a>Representação Json
 

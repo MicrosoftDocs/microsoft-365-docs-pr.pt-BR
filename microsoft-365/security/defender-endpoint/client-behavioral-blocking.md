@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: b85c0c63cc7c72ad555d80bd8ce6c07c95b4b97b
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: 83f269a13a54ee38b7e7a464d794d87ddbd7b520
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908072"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289926"
 ---
 # <a name="client-behavioral-blocking"></a>Bloqueio comportamental do cliente
 
@@ -46,7 +46,7 @@ A proteção antivírus funciona melhor quando emparelhada com a proteção de n
 
 [Microsoft Defender Antivírus](microsoft-defender-antivirus-in-windows-10.md) pode detectar comportamento suspeito, código mal-intencionado, ataques sem arquivo e na memória e muito mais em um dispositivo. Quando comportamentos suspeitos são detectados, Microsoft Defender Antivírus monitora e envia esses comportamentos suspeitos e suas árvores de processo para o serviço de proteção na nuvem. O aprendizado de máquina diferencia entre aplicativos mal-intencionados e bons comportamentos em milissegundos e classifica cada artefato. Em tempo quase real, assim que um artefato é considerado mal-intencionado, ele é bloqueado no dispositivo. 
 
-Sempre que um comportamento suspeito [](alerts-queue.md) é detectado, um alerta é gerado e fica visível no portal Microsoft 365 [Defender](microsoft-defender-security-center.md) (anteriormente o Central de Segurança do Microsoft Defender).
+Sempre que um comportamento suspeito [](alerts-queue.md) é detectado, um alerta é gerado e fica visível no [portal](microsoft-defender-security-center.md) de Microsoft 365 Defender (anteriormente o Central de Segurança do Microsoft Defender).
 
 O bloqueio comportamental do cliente é eficaz porque não só ajuda a impedir que um ataque seja iniciado, como também pode ajudar a parar um ataque que começou a ser executado. E, com [o bloqueio de loop](feedback-loop-blocking.md) de feedback (outra funcionalidade de bloqueio comportamental e contenção), os ataques são impedidos em outros dispositivos em sua organização.
 
@@ -54,26 +54,24 @@ O bloqueio comportamental do cliente é eficaz porque não só ajuda a impedir q
 
 As detecções baseadas em comportamento são nomeadas de acordo com o [MITRE ATT&CK Matrix para Enterprise](https://attack.mitre.org/matrices/enterprise). A convenção de nomeniste ajuda a identificar o estágio de ataque em que o comportamento mal-intencionado foi observado:
 
-
-|Tática |   Nome da ameaça de detecção |
+|Tática | Nome da ameaça de detecção |
 |----|----|
 |Acesso Inicial | `Behavior:Win32/InitialAccess.*!ml` |
-|Execução  | `Behavior:Win32/Execution.*!ml` |
-|Persistência    | `Behavior:Win32/Persistence.*!ml` |
-|Escalonamento de privilégios   | `Behavior:Win32/PrivilegeEscalation.*!ml` |
-|Evasão de Defesa    | `Behavior:Win32/DefenseEvasion.*!ml` |
-|Acesso de Credenciais  | `Behavior:Win32/CredentialAccess.*!ml` |
-|Descoberta  | `Behavior:Win32/Discovery.*!ml` |
+|Execução | `Behavior:Win32/Execution.*!ml` |
+|Persistência | `Behavior:Win32/Persistence.*!ml` |
+|Escalonamento de privilégios | `Behavior:Win32/PrivilegeEscalation.*!ml` |
+|Evasão de Defesa | `Behavior:Win32/DefenseEvasion.*!ml` |
+|Acesso de Credenciais | `Behavior:Win32/CredentialAccess.*!ml` |
+|Descoberta | `Behavior:Win32/Discovery.*!ml` |
 |Movimento Lateral | `Behavior:Win32/LateralMovement.*!ml` |
-|Coleção |   `Behavior:Win32/Collection.*!ml` |
+|Coleção | `Behavior:Win32/Collection.*!ml` |
 |Comando e Controle | `Behavior:Win32/CommandAndControl.*!ml` |
-|Exfiltração   | `Behavior:Win32/Exfiltration.*!ml` |
+|Exfiltração | `Behavior:Win32/Exfiltration.*!ml` |
 |Impacto | `Behavior:Win32/Impact.*!ml` |
-|Não categorizado  | `Behavior:Win32/Generic.*!ml` |
+|Não categorizado | `Behavior:Win32/Generic.*!ml` |
 
 > [!TIP]
 > Para saber mais sobre ameaças específicas, consulte **[atividade de ameaça global recente.](https://www.microsoft.com/wdsi/threats)**
-
 
 ## <a name="configuring-client-behavioral-blocking"></a>Configurando o bloqueio comportamental do cliente
 
@@ -88,4 +86,3 @@ Se sua organização estiver usando o Defender para Ponto de Extremidade, o bloq
 - [Redução de superfície de ataque](attack-surface-reduction.md)
 
 - [Proteção de última geração](configure-microsoft-defender-antivirus-features.md) (antivírus, antimalware e outros recursos de proteção contra ameaças)
-

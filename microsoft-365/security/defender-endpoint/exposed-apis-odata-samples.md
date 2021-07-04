@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: a2570aba26d65a573c19777bc70db77f4118e336
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: ff13a382f7c59083c217f937b996e63abc2ff52a
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771040"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289998"
 ---
 # <a name="odata-queries-with-microsoft-defender-for-endpoint"></a>Consultas OData com o Microsoft Defender para Ponto de Extremidade
 
@@ -41,13 +41,13 @@ Se você não estiver familiarizado com consultas OData, consulte: consultas [OD
 
 Nem todas as propriedades são filtáveis.
 
-## <a name="properties-that-support-filter"></a>Propriedades que suportam $filter:
-```
-- [Alert](alerts.md): ```alertCreationTime```, ```lastUpdateTime```, ```incidentId```,```InvestigationId```, ```status```, ```severity``` and ```category```.
-- [Machine](machine.md): ```ComputerDnsName```, ```LastSeen```, ```HealthStatus```, ```OsPlatform```, ```RiskScore``` and ```RbacGroupId```.
-- [MachineAction](machineaction.md): ```Status```, ```MachineId```, ```Type```, ```Requestor``` and ```CreationDateTimeUtc```.
-- [Indicator](ti-indicator.md): ```indicatorValue```, ```indicatorType```, ```creationTimeDateTimeUtc```, ```createdBy```, ```severity ``` and ```action ```.
-```
+## <a name="properties-that-support-filter"></a>Propriedades que suportam $filter
+
+- [Alerta](alerts.md): `alertCreationTime` , , , , e `lastUpdateTime` `incidentId` `InvestigationId` `status` `severity` `category` .
+- [Máquina](machine.md): `ComputerDnsName` , , , e `LastSeen` `HealthStatus` `OsPlatform` `RiskScore` `RbacGroupId` .
+- [MachineAction](machineaction.md): `Status` , , e `MachineId` `Type` `Requestor` `CreationDateTimeUtc` .
+- [Indicador](ti-indicator.md): `indicatorValue` , , , e `indicatorType` `creationTimeDateTimeUtc` `createdBy` `severity` `action` .
+
 ### <a name="example-1"></a>Exemplo 1
 
 Obter 10 alertas mais recentes com evidências relacionadas:
@@ -56,7 +56,7 @@ Obter 10 alertas mais recentes com evidências relacionadas:
 HTTP GET  https://api.securitycenter.microsoft.com/api/alerts?$top=10&$expand=evidence
 ```
 
-**Resposta:**
+#### <a name="response"></a>Resposta
 
 ```json
 {
@@ -201,7 +201,7 @@ Receba todos os alertas atualizados pela última vez após 2019-11-22 00:00:00:
 HTTP GET  https://api.securitycenter.microsoft.com/api/alerts?$filter=lastUpdateTime+ge+2019-11-22T00:00:00Z
 ```
 
-**Resposta:**
+#### <a name="response"></a>Resposta
 
 ```json
 {
@@ -263,7 +263,7 @@ Obter todos os dispositivos com 'High' 'RiskScore':
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=riskScore+eq+'High'
 ```
 
-**Resposta:**
+#### <a name="response"></a>Resposta
 
 ```json
 {
@@ -316,7 +316,7 @@ Obter os 100 principais dispositivos com 'HealthStatus' não é igual a 'Active'
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=healthStatus+ne+'Active'&$top=100 
 ```
 
-**Resposta:**
+#### <a name="response"></a>Resposta
 
 ```json
 {
@@ -369,7 +369,7 @@ Obter todos os dispositivos que foram vistos pela última vez após 2018-10-20:
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=lastSeen gt 2018-08-01Z
 ```
 
-**Resposta:**
+#### <a name="response"></a>Resposta
 
 ```json
 {
@@ -422,7 +422,7 @@ Obter todas as verificações anti-vírus que o usuário Analyst@examples.onmicr
 HTTP GET  https://api.securitycenter.microsoft.com/api/machineactions?$filter=requestor eq 'Analyst@contoso.com' and type eq 'RunAntiVirusScan'
 ```
 
-**Resposta:**
+#### <a name="response"></a>Resposta
 
 ```json
 json{
@@ -454,7 +454,7 @@ Obter a contagem de alertas abertos para um dispositivo específico:
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines/123321d0c675eaa415b8e5f383c6388bff446c62/alerts/$count?$filter=status ne 'Resolved'
 ```
 
-**Resposta:**
+#### <a name="response"></a>Resposta
 
 ```json
 4
@@ -468,7 +468,7 @@ Obter todos os dispositivos com 'computerDnsName' começando com 'mymachine':
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=startswith(computerDnsName,'mymachine')
 ```
 
-**Resposta:**
+#### <a name="response"></a>Resposta
 
 ```json
 json{
@@ -514,4 +514,5 @@ json{
 ```
 
 ## <a name="see-also"></a>Confira também
-- [APIs do Microsoft Defender para Ponto de Extremidade](apis-intro.md)
+
+[APIs do Microsoft Defender para Ponto de Extremidade](apis-intro.md)

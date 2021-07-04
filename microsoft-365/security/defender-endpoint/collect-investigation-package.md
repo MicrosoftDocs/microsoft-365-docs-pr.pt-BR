@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 0083d806f3e52307e6dce30f74e255073a09c16a
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 4cf60ea73ea907be9c10b2dd9562a0ea60127f2d
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770488"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289890"
 ---
 # <a name="collect-investigation-package-api"></a>Coletar API do pacote de investigação
 
@@ -40,28 +40,31 @@ ms.locfileid: "52770488"
 
 
 ## <a name="api-description"></a>Descrição da API
+
 Coletar o pacote de investigação de um dispositivo.
 
-
 ## <a name="limitations"></a>Limitações
+
 1. Limitações de taxa para essa API são 100 chamadas por minuto e 1500 chamadas por hora.
 
-
 ## <a name="permissions"></a>Permissões
+
 Uma das seguintes permissões é necessária para chamar essa API. Para saber mais, incluindo como escolher permissões, consulte [Use Defender for Endpoint APIs](apis-intro.md)
 
-Tipo de permissão |   Permissão  |   Nome de exibição de permissão
+Tipo de permissão | Permissão | Nome de exibição de permissão
 :---|:---|:---
-Aplicativo |   Machine.CollectForensics |  'Coletar evidências forenses'
-Delegado (conta corporativa ou de estudante) |    Machine.CollectForensics |  'Coletar evidências forenses'
+Aplicativo | Machine.CollectForensics | 'Coletar evidências forenses'
+Delegado (conta corporativa ou de estudante) | Machine.CollectForensics | 'Coletar evidências forenses'
 
->[!Note]
+> [!NOTE]
 > Ao obter um token usando credenciais de usuário:
->- O usuário precisa ter pelo menos a seguinte permissão de função: 'Investigação de alertas' (Consulte Criar e [gerenciar funções](user-roles.md) para obter mais informações)
->- O usuário precisa ter acesso ao dispositivo, com base nas configurações do grupo de dispositivos (Consulte Criar e gerenciar grupos [de dispositivos](machine-groups.md) para obter mais informações)
+>
+> - O usuário precisa ter pelo menos a seguinte permissão de função: 'Investigação de alertas' (Consulte Criar e [gerenciar funções](user-roles.md) para obter mais informações)
+> - O usuário precisa ter acesso ao dispositivo, com base nas configurações do grupo de dispositivos (Consulte Criar e gerenciar grupos [de dispositivos](machine-groups.md) para obter mais informações)
 
 ## <a name="http-request"></a>Solicitação HTTP
-```
+
+```http
 POST https://api.securitycenter.microsoft.com/api/machines/{id}/collectInvestigationPackage
 ```
 
@@ -69,23 +72,24 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/collectInvestiga
 
 Nome | Tipo | Descrição
 :---|:---|:---
-Autorização | Cadeia de caracteres | Portador {token}. **Obrigatório**.
+Autorização | String | Portador {token}. **Obrigatório**.
 Content-Type | string | application/json. **Obrigatório**.
 
 ## <a name="request-body"></a>Corpo da solicitação
+
 No corpo da solicitação, fornece um objeto JSON com os seguintes parâmetros:
 
-Parâmetro | Tipo    | Descrição
+Parâmetro | Tipo | Descrição
 :---|:---|:---
-Comentário |   String |    Comentário para associar à ação. **Obrigatório**.
+Comentário | String | Comentário para associar à ação. **Obrigatório**.
 
 ## <a name="response"></a>Resposta
-Se tiver êxito, este método retornará 201 - Código de resposta criado e [Ação do Computador](machineaction.md) no corpo da resposta.
 
+Se tiver êxito, este método retornará 201 - Código de resposta criado e [Ação do Computador](machineaction.md) no corpo da resposta.
 
 ## <a name="example"></a>Exemplo
 
-**Solicitação**
+### <a name="request"></a>Solicitação
 
 Este é um exemplo da solicitação.
 

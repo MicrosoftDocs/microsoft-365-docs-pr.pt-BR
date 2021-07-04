@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 0ddb38e713f08c101639976b9f2c8c1ee32e63a3
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 23d9d61644b4c9adad69a5e467e49ca2b1d92413
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843777"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290226"
 ---
 # <a name="create-custom-reports-using-power-bi"></a>Criar relatórios personalizados usando Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "52843777"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-- Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -49,16 +49,16 @@ O primeiro exemplo demonstra como conectar o Power BI à API de Busca Avançada 
 
 - Clique **em Obter consulta em** branco de  >  **dados**
 
-    ![Imagem de criar consulta em branco](images/power-bi-create-blank-query.png)
+  ![Imagem de criar consulta em branco](images/power-bi-create-blank-query.png)
 
 - Clique **em Editor Avançado**
 
-    ![Imagem do editor avançado aberto](images/power-bi-open-advanced-editor.png)
+  ![Imagem do editor avançado aberto](images/power-bi-open-advanced-editor.png)
 
 - Copie o abaixo e a colar no editor:
 
 ```
-    let 
+    let
         AdvancedHuntingQuery = "DeviceEvents | where ActionType contains 'Anti' | limit 20",
 
         HuntingUrl = "https://api.securitycenter.microsoft.com/api/advancedqueries",
@@ -93,7 +93,6 @@ O primeiro exemplo demonstra como conectar o Power BI à API de Busca Avançada 
         Table = Table.TransformColumnTypes(Rows, Table.ToList(TypedSchema, (c) => {c{0}, c{2}}))
 
     in Table
-
 ```
 
 - Clique **em Feito**
@@ -118,7 +117,7 @@ O primeiro exemplo demonstra como conectar o Power BI à API de Busca Avançada 
 
 ## <a name="connect-power-bi-to-odata-apis"></a>Conexão Power BI APIs OData
 
-- A única diferença do exemplo acima é a consulta dentro do editor. 
+- A única diferença do exemplo acima é a consulta dentro do editor.
 
 - Copie o abaixo e a colar no editor para puxar todas as **Ações do Computador** de sua organização:
 
@@ -130,22 +129,21 @@ O primeiro exemplo demonstra como conectar o Power BI à API de Busca Avançada 
         Source = OData.Feed("https://api.securitycenter.microsoft.com/api/" & Query, null, [Implementation="2.0", MoreColumns=true])
     in
         Source
-
 ```
 
 - Você pode fazer o mesmo para **Alertas** e **Máquinas.**
-
 - Você também pode usar consultas OData para filtros de consultas, consulte [Using OData Queries](exposed-apis-odata-samples.md)
 
-
 ## <a name="power-bi-dashboard-samples-in-github"></a>Power BI de painel no GitHub
+
 Para obter mais informações, consulte [os Power BI de relatório](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI).
 
 ## <a name="sample-reports"></a>Relatórios de exemplo
+
 Exibir os exemplos de relatório do Microsoft Defender for Endpoint Power BI endpoint. Para obter mais informações, consulte [Procurar exemplos de código](/samples/browse/?products=mdatp).
 
+## <a name="related-topics"></a>Tópicos relacionados
 
-## <a name="related-topic"></a>Tópicos relacionados
 - [Defender para APIs de Ponto de Extremidade](apis-intro.md)
 - [API de Busca Avançada](run-advanced-query-api.md)
 - [Usar consultas de OData](exposed-apis-odata-samples.md)

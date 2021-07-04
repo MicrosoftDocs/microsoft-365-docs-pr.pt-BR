@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 9ee2f0402e8cfd184e59dce5a382f835b706d6aa
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: 2cc83e24d4dd81c9d2e972fa274b48fc3946532a
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022542"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289722"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Detalhes e resultados de uma investigação automatizada
 
@@ -104,14 +104,14 @@ Na exibição de detalhes da investigação, você pode ver as informações nas
 
 | Guia | Descrição |
 |:--------|:--------|
-| **Gráficos de investigação**   | Oferece uma representação visual da investigação. Descreve entidades e lista as ameaças encontradas, juntamente com os alertas, e se as ações estão aguardando aprovação.<br/>Você pode selecionar um item no gráfico para exibir mais detalhes. Por exemplo, selecionar **o ícone**  Evidência o leva à guia Evidências, onde você pode ver entidades detectadas e seus vereditos. |
-| **Alertas**    | Lista os alertas associados à investigação. Os alertas podem vir de recursos de proteção contra ameaças no dispositivo de um usuário, em Office aplicativos, Microsoft Cloud App Security e outros recursos Microsoft 365 Defender segurança.|
+| **Gráficos de investigação** | Oferece uma representação visual da investigação. Descreve entidades e lista as ameaças encontradas, juntamente com os alertas, e se as ações estão aguardando aprovação.<br/>Você pode selecionar um item no gráfico para exibir mais detalhes. Por exemplo, selecionar **o ícone**  Evidência o leva à guia Evidências, onde você pode ver entidades detectadas e seus vereditos. |
+| **Alertas** | Lista os alertas associados à investigação. Os alertas podem vir de recursos de proteção contra ameaças no dispositivo de um usuário, em Office aplicativos, Microsoft Cloud App Security e outros recursos Microsoft 365 Defender segurança.|
 | **Dispositivos** | Lista os dispositivos incluídos na investigação juntamente com seu nível de correção. (Os níveis de correção correspondem [ao nível de automação para grupos de dispositivos](m365d-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups).) |
 | **Caixas de correio** |Lista caixas de correio que são impactadas por ameaças detectadas.  |
 | **Usuários**   | Lista contas de usuário que são impactadas por ameaças detectadas. |
 | **Evidências** | Lista partes de evidências levantadas por alertas ou investigações. Inclui vereditos (*Mal-intencionados,*  *suspeitos,* desconhecidos ou *nenhuma* ameaça encontrada ) e status de correção. |
-| **Entities**  | Fornece detalhes sobre cada entidade analisada, incluindo um veredito para cada tipo de entidade (*Mal-intencionado,* *suspeito* ou *nenhuma ameaça encontrada*).|
-|**Log**    | Fornece uma exibição cronológica e detalhada de todas as ações de investigação realizadas após a acionamento de um alerta.|
+| **Entities** | Fornece detalhes sobre cada entidade analisada, incluindo um veredito para cada tipo de entidade (*Mal-intencionado,* *suspeito* ou *nenhuma ameaça encontrada*).|
+|**Log** | Fornece uma exibição cronológica e detalhada de todas as ações de investigação realizadas após a acionamento de um alerta.|
 | **Histórico de ações pendentes** | Lista os itens que exigem aprovação para prosseguir. Vá para a Central de Ações ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) para aprovar ações pendentes. |
 
 ## <a name="next-steps"></a>Próximas etapas

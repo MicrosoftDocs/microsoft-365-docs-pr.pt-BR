@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: eaef6b25e2db72149a1a1128899d8a79a38a4c60
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 1541e1d6e177416d77d768cef04d2524e6907ab5
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771016"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289914"
 ---
 # <a name="delete-indicator-api"></a>Excluir API de Indicador
 
@@ -39,24 +39,25 @@ ms.locfileid: "52771016"
 
 
 ## <a name="api-description"></a>Descrição da API
+
 Exclui uma [entidade Indicator](ti-indicator.md) por ID.
 
-
 ## <a name="limitations"></a>Limitações
-1. Limitações de taxa para essa API são 100 chamadas por minuto e 1500 chamadas por hora.
 
+Limitações de taxa para essa API são 100 chamadas por minuto e 1500 chamadas por hora.
 
 ## <a name="permissions"></a>Permissões
+
 Uma das seguintes permissões é necessária para chamar essa API. Para saber mais, incluindo como escolher permissões, consulte [Get started](apis-intro.md)
 
-Tipo de permissão |   Permissão  |   Nome de exibição de permissão
+Tipo de permissão | Permissão | Nome de exibição de permissão
 :---|:---|:---
-Aplicativo |   Ti.ReadWrite |  'Indicadores de TI de leitura e gravação'
-Aplicativo |   Ti.ReadWrite.All |  'Indicadores de leitura e gravação'
-
+Aplicativo | Ti.ReadWrite | 'Indicadores de TI de leitura e gravação'
+Aplicativo | Ti.ReadWrite.All | 'Indicadores de leitura e gravação'
 
 ## <a name="http-request"></a>Solicitação HTTP
-```
+
+```http
 Delete https://api.securitycenter.microsoft.com/api/indicators/{id}
 ```
 
@@ -66,19 +67,21 @@ Delete https://api.securitycenter.microsoft.com/api/indicators/{id}
 
 Nome | Tipo | Descrição
 :---|:---|:---
-Autorização | Cadeia de caracteres | Portador {token}. **Obrigatório**.
-
+Autorização | String | Portador {token}. **Obrigatório**.
 
 ## <a name="request-body"></a>Corpo da solicitação
+
 Vazio
 
 ## <a name="response"></a>Resposta
+
 Se Indicator existir e excluído com êxito - 204 OK sem conteúdo.
+
 Se Indicator com a id especificada não for encontrado - 404 Não Encontrado.
 
 ## <a name="example"></a>Exemplo
 
-**Solicitação**
+### <a name="request"></a>Solicitação
 
 Este é um exemplo da solicitação.
 

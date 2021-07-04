@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: a506f4913369e53fd2ed4943bb2557935f1d62e5
-ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
+ms.openlocfilehash: a7a560cb33190105f8df5922e04aeada4d75f398
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105555"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290034"
 ---
 # <a name="create-a-custom-gradual-rollout-process-for-microsoft-defender-updates"></a>Criar um processo de lançamento gradual personalizado para atualizações do Microsoft Defender
 
@@ -43,7 +43,7 @@ Para criar seu próprio processo de lançamento gradual personalizado para atual
 A tabela a seguir lista as configurações de política de grupo disponíveis para configurar canais de atualização:
 
 | Definindo título  | Descrição  | Local  |
-|-|-|-|
+|:---|:---|:---|
 | Selecionar canal de distribuição de atualização mensal da plataforma do Microsoft Defender gradual  | Habilita essa política para especificar quando os dispositivos recebem atualizações da plataforma do Microsoft Defender durante a lançamento gradual mensal. Canal Beta: os dispositivos definidos para esse canal serão os primeiros a receber novas atualizações. Selecione Canal Beta para participar da identificação e relatórios de problemas para a Microsoft. Dispositivos no programa Windows Insider são inscritos neste canal por padrão. Para uso somente em ambientes de teste (manuais) e um número limitado de dispositivos.  <br><br>  Canal Atual (Visualização): os dispositivos definidos para esse canal receberão atualizações mais cedo durante o ciclo de lançamento gradual mensal. Sugerido para ambientes de pré-produção/validação.  <br><br>  Canal Atual (Em estágios): os dispositivos serão oferecidos atualizações após o ciclo de lançamento gradual mensal. Sugerida a aplicação a uma pequena parte representativa da sua população de produção (~10%).  <br><br>  Canal Atual (Amplo): os dispositivos serão oferecidos atualizações somente após a conclusão do ciclo gradual de lançamento. Sugerida a aplicação a um amplo conjunto de dispositivos em sua população de produção (~10-100%).  <br><br>   Se você desabilitar ou não configurar essa política, o dispositivo ficará atualizado automaticamente durante o ciclo gradual de lançamento. Adequado para a maioria dos dispositivos.  | Windows Components\Microsoft Defender Antivírus  |
 | Selecionar canal de distribuição de atualização mensal do mecanismo do Microsoft Defender gradual  | Habilita essa política a especificar quando os dispositivos recebem atualizações do mecanismo do Microsoft Defender durante a lançamento gradual mensal.  <br><br>  Canal Beta: os dispositivos definidos para esse canal serão os primeiros a receber novas atualizações. Selecione Canal Beta para participar da identificação e relatórios de problemas para a Microsoft. Dispositivos no programa Windows Insider são inscritos neste canal por padrão. Para uso somente em ambientes de teste (manuais) e um número limitado de dispositivos.  <br><br>  Canal Atual (Visualização): os dispositivos definidos para esse canal receberão atualizações mais cedo durante o ciclo de lançamento gradual mensal. Sugerido para ambientes de pré-produção/validação.  <br><br>  Canal Atual (Em estágios): os dispositivos serão oferecidos atualizações após o ciclo de lançamento gradual mensal. Sugerida a aplicação a uma pequena parte representativa da sua população de produção (~10%).  <br><br>  Canal Atual (Amplo): os dispositivos serão oferecidos atualizações somente após a conclusão do ciclo gradual de lançamento. Sugerida a aplicação a um amplo conjunto de dispositivos em sua população de produção (~10-100%).  <br><br>  Se você desabilitar ou não configurar essa política, o dispositivo ficará atualizado automaticamente durante o ciclo gradual de lançamento. Adequado para a maioria dos dispositivos.  | Windows Components\Microsoft Defender Antivírus  |
 | Selecionar canal de distribuição de atualizações diárias de definição gradual do Microsoft Defender  | Habilita essa política a especificar quando os dispositivos recebem atualizações de definição do Microsoft Defender durante a lançamento gradual diário. <br><br> Canal Atual (Em estágios): os dispositivos serão oferecidos atualizações após o ciclo de lançamento. Sugerida a aplicação a uma pequena parte representativa da população de produção (~10%). <br><br>   Canal Atual (Amplo): os dispositivos serão oferecidos atualizações somente após a conclusão do ciclo gradual de lançamento. Sugerida a aplicação a um amplo conjunto de dispositivos em sua população de produção (~10-100%). <br><br>   Se você desabilitar ou não configurar essa política, o dispositivo ficará atualizado automaticamente durante o ciclo de lançamento diário. Adequado para a maioria dos dispositivos.  | Windows Components\Microsoft Defender Antivírus  |
@@ -76,7 +76,9 @@ Siga as instruções no link abaixo para criar uma política personalizada no In
 
 [Adicionar configurações personalizadas para Windows 10 dispositivos Microsoft Intune - Microsoft Docs do Azure \|](/mem/intune/configuration/custom-settings-windows-10)
 
-## <a name="powershell"></a>PowerShell
+Para obter mais informações sobre os CSPs do Defender usados para o processo de lançamento gradual, consulte [Defender CSP](/windows/client-management/mdm/defender-csp).
+
+## <a name="powershell"></a>Windows PowerShell
 
 Use o `Set-MpPreference` cmdlet para configurar o lançamento das atualizações graduais.
 
@@ -94,4 +96,4 @@ Exemplo:
 
 Use `Set-MpPreference -PlatformUpdatesChannel Beta` para configurar as atualizações da plataforma para chegar do Canal Beta.
 
-Para obter mais informações sobre os parâmetros e como configurá-los, consulte [Set-MpPreference (Defender) | Microsoft Docs](/powershell/module/defender/set-mppreference?view=windowsserver2019-ps&preserve-view=true).
+Para obter mais informações sobre os parâmetros e como configurá-los, consulte [Set-MpPreference (Defender) | Microsoft Docs](/powershell/module/defender/set-mppreference).

@@ -18,12 +18,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: 4b34d3ea20716fb2424d9317b8a51c088a5714a6
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: ddc28149ca2ab43b7c14d3bdbaeeecdad1b18387
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935348"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289758"
 ---
 # <a name="provide-managed-security-service-provider-mssp-access"></a>Fornecer acesso ao MSSP (provedor de serviços de segurança gerenciado) 
 
@@ -50,10 +50,9 @@ Para implementar uma solução de acesso delegado de vários locatários, tome a
 
     Esses grupos serão vinculados às Funções que você criar no Defender para Ponto de Extremidade no Microsoft 365 de segurança. Para fazer isso, no locatário do AD do cliente, crie três grupos. Em nossa abordagem de exemplo, criamos os seguintes grupos:
 
-    - Analista de Camada 1 
-    - Analista de Camada 2 
+    - Analista de Camada 1
+    - Analista de Camada 2
     - Aprovadores do analista MSSP  
-
 
 2. Crie funções do Defender para Ponto de Extremidade para níveis de acesso apropriados no Customer Defender for Endpoint em Microsoft 365 de centro de segurança e grupos.
 
@@ -73,12 +72,10 @@ Para implementar uma solução de acesso delegado de vários locatários, tome a
 
     Para obter mais informações, [consulte Use role-based access control](/windows/security/threat-protection/microsoft-defender-atp/rbac).
 
-
-
 ## <a name="configure-governance-access-packages"></a>Configurar pacotes de Acesso à Governança
 
-1.  **Adicionar MSSP como Organização Conectada no AAD do Cliente: Governança de Identidade**
-    
+1. **Adicionar MSSP como Organização Conectada no AAD do Cliente: Governança de Identidade**
+
     Adicionar o MSSP como uma organização conectada permitirá que o MSSP solicite e tenha acessos provisionados. 
 
     Para fazer isso, no locatário do AD do cliente, acesse Governança de Identidade: Organização conectada. Adicione uma nova organização e pesquise seu locatário do Analista MSSP por meio da ID do Locatário ou domínio. Sugerimos a criação de um locatário AD separado para seus Analistas MSSP.
@@ -87,12 +84,11 @@ Para implementar uma solução de acesso delegado de vários locatários, tome a
 
     Catálogos de recursos são uma coleção lógica de pacotes de acesso, criada no locatário do AD do cliente.
 
-    Para fazer isso, no locatário do AD do cliente, acesse a Governança de Identidade: Catálogos e adicione **Novo Catálogo.** No nosso exemplo, vamos chamá-lo **de Acessos MSSP.** 
+    Para fazer isso, no locatário do AD do cliente, acesse a Governança de Identidade: Catálogos e adicione **Novo Catálogo.** No nosso exemplo, vamos chamá-lo **de Acessos MSSP.**
 
     ![Imagem do novo catálogo](../../media/goverance-catalog.png)
 
     Mais informações em [Criar um catálogo de recursos.](/azure/active-directory/governance/entitlement-management-catalog-create)
-
 
 3. **Criar pacotes de acesso para recursos MSSP Customer AAD: Identity Governance**
 
@@ -109,28 +105,27 @@ Para implementar uma solução de acesso delegado de vários locatários, tome a
 
     Para obter mais informações, [consulte Create a new access package](/azure/active-directory/governance/entitlement-management-access-package-create).
 
-
 4. **Fornecer link de solicitação de acesso aos recursos do MSSP do AAD do Cliente: Governança de Identidade**
 
     O link do portal Meu Acesso é usado pelos analistas soc do MSSP para solicitar acesso por meio dos pacotes de acesso criados. O link é durável, ou seja, o mesmo link pode ser usado ao longo do tempo para novos analistas. A solicitação de analista entra em fila para aprovação pelos Aprovadores do **Analista MSSP.**
-
 
     ![Imagem das propriedades de acesso](../../media/access-properties.png)
 
     O link está localizado na página de visão geral de cada pacote de acesso.
 
-## <a name="manage-access"></a>Gerenciar Acesso 
+## <a name="manage-access"></a>Gerenciar Acesso
 
 1. Revisar e autorizar solicitações de acesso no myaccess cliente e/ou MSSP.
 
     As solicitações de acesso são gerenciadas no cliente Meu Acesso, por membros do grupo aprovadores de analistas do MSSP.
 
-    Para fazer isso, acesse o myaccess do cliente usando:  `https://myaccess.microsoft.com/@<Customer Domain >` . 
+    Para fazer isso, acesse o myaccess do cliente usando: `https://myaccess.microsoft.com/@<Customer Domain>` .
 
-    Exemplo:  `https://myaccess.microsoft.com/@M365x440XXX.onmicrosoft.com#/`   
+    Exemplo: `https://myaccess.microsoft.com/@M365x440XXX.onmicrosoft.com#/`
+
 2. Aprovar ou negar solicitações na seção **Aprovações** da interface do usuário.
 
-     Neste ponto, o acesso de analistas foi provisionado e cada analista deve ser capaz de acessar o Centro de Segurança Microsoft 365 cliente: 
+     Neste ponto, o acesso de analistas foi provisionado e cada analista deve ser capaz de acessar o Centro de Segurança Microsoft 365 cliente:
 
     `https://security.microsoft.com/?tid=<CustomerTenantId>` com as permissões e funções que foram atribuídas.
 

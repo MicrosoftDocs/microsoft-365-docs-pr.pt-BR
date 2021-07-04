@@ -21,17 +21,17 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: c593dfe384649b1599d5c0bab8fa6a8204d105dc
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: a10442bc9d92bb6004149180da30b86b646dd5de
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274827"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290154"
 ---
 # <a name="view-the-details-and-results-of-an-automated-investigation"></a>Exibir os detalhes e resultados de uma investigação automatizada
 
 **Aplica-se a:**
-- Microsoft Defender para Ponto de Extremidade
+- Proteção Avançada contra Ameaças do Microsoft Defender
 
 Com o Microsoft Defender para [](automated-investigations.md) Ponto de Extremidade, quando uma investigação automatizada é executado, os detalhes sobre essa investigação ficam disponíveis durante e após o processo de investigação automatizado. Se você tiver as permissões necessárias, poderá exibir esses detalhes na exibição de detalhes da investigação. A exibição de detalhes da investigação fornece o status atualizado e a capacidade de aprovar as ações pendentes. 
 
@@ -45,6 +45,7 @@ A página de investigação foi atualizada recentemente para incluir informaçõ
 ## <a name="open-the-investigation-details-view"></a>Abrir a exibição de detalhes da investigação
 
 Você pode abrir a exibição de detalhes da investigação usando um destes métodos:
+
 - [Selecionar um item na central de Ações](#select-an-item-in-the-action-center)
 - [Selecionar uma investigação em uma página de detalhes do incidente](#open-an-investigation-from-an-incident-details-page)
 
@@ -82,17 +83,17 @@ Na exibição de detalhes da investigação, você pode ver as informações nas
 
 | Guia | Descrição |
 |:--------|:--------|
-| **Gráficos de investigação**   | Oferece uma representação visual da investigação. Descreve entidades e lista as ameaças encontradas, juntamente com os alertas, e se as ações estão aguardando aprovação.<br/>Você pode selecionar um item no gráfico para exibir mais detalhes. Por exemplo, selecionar **o ícone**  Evidência o leva à guia Evidências, onde você pode ver entidades detectadas e seus vereditos. |
-| **Alertas**    | Lista os alertas associados à investigação. Os alertas podem vir de recursos de proteção contra ameaças no dispositivo de um usuário, em Office aplicativos, Cloud App Security e outros recursos Microsoft 365 Defender.|
+| **Gráficos de investigação** | Oferece uma representação visual da investigação. Descreve entidades e lista as ameaças encontradas, juntamente com os alertas, e se as ações estão aguardando aprovação.<br/>Você pode selecionar um item no gráfico para exibir mais detalhes. Por exemplo, selecionar **o ícone**  Evidência o leva à guia Evidências, onde você pode ver entidades detectadas e seus vereditos. |
+| **Alertas** | Lista os alertas associados à investigação. Os alertas podem vir de recursos de proteção contra ameaças no dispositivo de um usuário, em Office aplicativos, Cloud App Security e outros recursos Microsoft 365 Defender de segurança.|
 | **Dispositivos** | Lista os dispositivos incluídos na investigação juntamente com seu nível de correção. (Os níveis de correção correspondem ao nível [de automação para grupos de dispositivos](automation-levels.md).) |
 | **Caixas de correio** |Lista caixas de correio que são impactadas por ameaças detectadas.  |
-| **Usuários**  | Lista contas de usuário que são impactadas por ameaças detectadas. |
+| **Usuários**   | Lista contas de usuário que são impactadas por ameaças detectadas. |
 | **Evidências** | Lista partes de evidências levantadas por alertas/investigações. Inclui vereditos (*Mal-intencionados,* *suspeitos* ou *nenhuma ameaça encontrada*) e status de correção. |
-| **Entities**  | Fornece detalhes sobre cada entidade analisada, incluindo um veredito para cada tipo de entidade (*Mal-intencionado,* *suspeito* ou *nenhuma ameaça encontrada*).|
-|**Log**    | Fornece uma exibição cronológica e detalhada de todas as ações de investigação realizadas após a acionamento de um alerta.|
+| **Entities** | Fornece detalhes sobre cada entidade analisada, incluindo um veredito para cada tipo de entidade (*Mal-intencionado,* *suspeito* ou *nenhuma ameaça encontrada*).|
+|**Log** | Fornece uma exibição cronológica e detalhada de todas as ações de investigação realizadas após a acionamento de um alerta.|
 | **Ações pendentes** | Lista os itens que exigem aprovação para prosseguir. Vá para a Central de Ações ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) para aprovar ações pendentes. |
 
 ## <a name="see-also"></a>Confira também
 
 - [Revisar ações de correção após uma investigação automatizada](manage-auto-investigation.md)
-- [Exibir e organizar a fila do Microsoft Defender para Incidentes de Ponto de Extremidade](view-incidents-queue.md)
+- [Exibir e organizar a fila de incidentes do Microsoft Defender para Ponto de Extremidade](view-incidents-queue.md)

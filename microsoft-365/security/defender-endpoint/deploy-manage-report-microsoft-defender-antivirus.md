@@ -16,12 +16,12 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 4be9116b83c2ee4eec410f3d8d68c289f3c8b9a5
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 15fd70a2a60da7b0541446a98f0094c73c831d51
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925822"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289818"
 ---
 # <a name="deploy-manage-and-report-on-microsoft-defender-antivirus"></a>Implantar, gerenciar e relatar Microsoft Defender Antivírus
 
@@ -51,13 +51,13 @@ Ferramenta|Opções de implantação (<a href="#fn2" id="ref2">2</a>)|Opções d
 Microsoft Intune|[Adicionar configurações de proteção de ponto de extremidade no Intune](/intune/endpoint-protection-configure)|[Configurar configurações de restrição de dispositivo no Intune](/intune/device-restrictions-configure)| [Usar o console do Intune para gerenciar dispositivos](/intune/device-management)  
 Microsoft Endpoint Manager ([1](#fn1))|Use a [função Endpoint Protection do sistema de site de][] ponto e [habilita Endpoint Protection com configurações personalizadas do cliente][]|Com [políticas antimalware padrão e personalizadas][] e gerenciamento [de cliente][]|Com o espaço [de trabalho e alertas][] de [email][] padrão do Configuration Manager Monitoring  
 Política de Grupo e Active Directory (ingressou no domínio)|Use um Objeto de Política de Grupo para implantar alterações de configuração e garantir Microsoft Defender Antivírus está habilitado.|Use GPOs (Objetos de Política de Grupo) para [Configurar opções][] de atualização para Microsoft Defender Antivírus e Configurar [Windows Defender recursos][]|O relatório do ponto de extremidade não está disponível com a Política de Grupo. Você pode gerar uma lista de Políticas [de Grupo para determinar se as configurações ou políticas não são aplicadas][]
-PowerShell|Implantar com a Política de Grupo, Microsoft Endpoint Configuration Manager ou manualmente em pontos de extremidade individuais.|Use os cmdlets [Set-MpPreference] [e Update-MpSignature] disponíveis no módulo Defender.|Use os [cmdlets Get apropriados disponíveis no módulo Defender][]
+Windows PowerShell|Implantar com a Política de Grupo, Microsoft Endpoint Configuration Manager ou manualmente em pontos de extremidade individuais.|Use os cmdlets [Set-MpPreference] [e Update-MpSignature] disponíveis no módulo Defender.|Use os [cmdlets Get apropriados disponíveis no módulo Defender][]
 Windows Instrumentação de Gerenciamento|Implantar com a Política de Grupo, Microsoft Endpoint Configuration Manager ou manualmente em pontos de extremidade individuais.|Use o [método Set da classe MSFT_MpPreference e][] o método Update da classe [MSFT_MpSignature.][]|Use a [classe MSFT_MpComputerStatus][] e o método get de classes associadas no [Windows Defender WMIv2 Provider][]
 Microsoft Azure|Implante Microsoft Antimalware para o Azure no portal do Azure, usando Visual Studio configuração de máquina virtual ou usando [cmdlets Azure PowerShell .](/azure/security/azure-security-antimalware#antimalware-deployment-scenarios) Você também pode [instalar a proteção de ponto de extremidade no Azure Defender*](/azure/security-center/security-center-install-endpoint-protection)|Configurar [Microsoft Antimalware para Máquinas Virtuais e Serviços de Nuvem com Azure PowerShell cmdlets](/azure/security/azure-security-antimalware#enable-and-configure-antimalware-using-powershell-cmdlets) ou usar [exemplos de código](https://gallery.technet.microsoft.com/Antimalware-For-Azure-5ce70efe)|Use [Microsoft Antimalware para Máquinas Virtuais e Serviços de Nuvem com Azure PowerShell cmdlets](/azure/security/azure-security-antimalware#enable-and-configure-antimalware-using-powershell-cmdlets) para habilitar o monitoramento. Você também pode revisar relatórios de uso no Azure Active Directory [][] para determinar atividades suspeitas, incluindo o [][] relatório dispositivos possivelmente infectados e configurar uma ferramenta SIEM para relatar eventos Microsoft Defender Antivírus e adicionar essa ferramenta como um aplicativo no AAD.
 
 1. <span id="fn1" />A disponibilidade de algumas funções e recursos, especialmente relacionadas à proteção entregue na nuvem, difere entre Microsoft Endpoint Manager (Branch Atual) e System Center 2012 Configuration Manager. Nesta biblioteca, nos concentramos em Windows 10, Windows Server 2016 e Microsoft Endpoint Manager (Branch Atual). Consulte [Usar a proteção fornecida na](cloud-protection-microsoft-defender-antivirus.md) nuvem da Microsoft Microsoft Defender Antivírus para uma tabela que descreve as principais diferenças. [(Retornar à tabela)](#ref2)
   
-2.  <span id="fn2" />Em Windows 10, Microsoft Defender Antivírus é um componente disponível sem instalação ou implantação de um cliente ou serviço adicional. Ele será habilitado automaticamente quando produtos antivírus de[terceiros](microsoft-defender-antivirus-on-windows-server.md)são desinstalados ou desinstalados ( exceto em Windows Server 2016 ). Portanto, a implantação tradicional não é necessária. A implantação aqui se refere a garantir que o componente Microsoft Defender Antivírus está disponível e habilitado em pontos de extremidade ou servidores. [(Retornar à tabela)](#ref2)
+2. <span id="fn2" />Em Windows 10, Microsoft Defender Antivírus é um componente disponível sem instalação ou implantação de um cliente ou serviço adicional. Ele será habilitado automaticamente quando produtos antivírus de[terceiros](microsoft-defender-antivirus-on-windows-server.md)são desinstalados ou desinstalados ( exceto em Windows Server 2016 ). Portanto, a implantação tradicional não é necessária. A implantação aqui se refere a garantir que o componente Microsoft Defender Antivírus está disponível e habilitado em pontos de extremidade ou servidores. [(Retornar à tabela)](#ref2)
 
 3. <span id="fn3" />A configuração de recursos e proteção, incluindo a configuração de atualizações de produto e proteção, são descritas na seção Configurar Microsoft Defender Antivírus [recursos](configure-notifications-microsoft-defender-antivirus.md) nesta biblioteca. [(Retornar à tabela)](#ref2)
 
