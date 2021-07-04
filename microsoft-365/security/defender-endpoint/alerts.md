@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: c935df1abddc3d0ebee74e09280d6e3ec961ca97
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: df1a032ffab0490c41edc7d282f0f2cc60608870
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769804"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289674"
 ---
 # <a name="alert-resource-type"></a>Tipo de recurso de alerta
 
@@ -52,14 +52,13 @@ Método |Tipo de retorno |Descrição
 [Obter máquinas relacionadas](get-alert-related-machine-info.md) | [Computador](machine.md) | O [computador](machine.md) associado ao [alerta](alerts.md).
 [Obter usuários relacionados](get-alert-related-user-info.md) | [Usuário](user.md) | O [usuário](user.md) associado ao [alerta](alerts.md).
 
-
 ## <a name="properties"></a>Propriedades
 
 Propriedade |    Tipo    |    Descrição
 :---|:---|:---
-id | Cadeia de caracteres | ID do alerta.
+id | String | ID do alerta.
 title | String | Título do alerta.
-descrição | String | Descrição de alerta.
+description | String | Descrição de alerta.
 alertCreationTime | Nullable DateTimeOffset | A data e a hora (em UTC) em que o alerta foi criado.
 lastEventTime | Nullable DateTimeOffset | A última ocorrência do evento que disparou o alerta no mesmo dispositivo.
 firstEventTime | Nullable DateTimeOffset | A primeira ocorrência do evento que disparou o alerta nesse dispositivo.
@@ -68,19 +67,19 @@ resolvedTime | Nullable DateTimeOffset | A data e a hora em que o status do aler
 incidentId | Long anulado | A [](view-incidents-queue.md) ID do Incidente do Alerta.
 investigationId | Long anulado | A [](automated-investigations.md) ID da Investigação relacionada ao Alerta.
 investigationState | Núm anulado | O estado atual da [Investigação](automated-investigations.md). Os valores possíveis são: 'Unknown', 'Terminado', 'SuccessfullyRemediated', 'Benign', 'Failed', 'PartiallyRemediated', 'Running', 'PendingApproval', 'PendingResource', 'PartiallyInvestigated', 'TerminatedByUser', 'TerminatedBySystem', 'Queued', 'InnerFailure', 'PreexistingAlert', 'UnsupportedOs', 'UnsupportedAlertType', 'SuppressedAlert'.
-assignedTo | Cadeia de caracteres | Proprietário do alerta.
+assignedTo | String | Proprietário do alerta.
 severity | Enum | Gravidade do alerta. Os valores possíveis são: 'UnSpecified', 'Informational', 'Low', 'Medium' e 'High'.
 status | Enum | Especifica o status atual do alerta. Os valores possíveis são: 'Unknown', 'New', 'InProgress' e 'Resolved'.
 classificação | Núm anulado | Especificação do alerta. Os valores possíveis são: 'Unknown', 'FalsePositive', 'TruePositive'.
 determinação | Núm anulado | Especifica a determinação do alerta. Os valores possíveis são: 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'.
-category| Cadeia de caracteres | Categoria do alerta.
-detectionSource | Cadeia de caracteres | Fonte de detecção.
-threatFamilyName | Cadeia de caracteres | Família de ameaças.
-threatName | Cadeia de caracteres | Nome da ameaça.
-machineId | Cadeia de caracteres | ID de uma [entidade](machine.md) de máquina associada ao alerta.
-computerDnsName | Cadeia de caracteres | [nome](machine.md) totalmente qualificado da máquina.
-aadTenantId | Cadeia de caracteres | A Azure Active Directory ID.
-detectorId | Cadeia de caracteres | A ID do detector que disparou o alerta.
+category| String | Categoria do alerta.
+detectionSource | String | Fonte de detecção.
+threatFamilyName | String | Família de ameaças.
+threatName | String | Nome da ameaça.
+machineId | String | ID de uma [entidade](machine.md) de máquina associada ao alerta.
+computerDnsName | String | [nome](machine.md) totalmente qualificado da máquina.
+aadTenantId | String | A Azure Active Directory ID.
+detectorId | String | A ID do detector que disparou o alerta.
 comentários | Lista de comentários de alerta | O objeto Comentário de Alerta contém: cadeia de caracteres de comentários, createdBy string e createTime date time.
 Evidências | Lista de evidências de alerta | Evidências relacionadas ao alerta. Veja o exemplo a seguir.
 

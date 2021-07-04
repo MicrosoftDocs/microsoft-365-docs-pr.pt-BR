@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: ''
-ms.openlocfilehash: 84bb34f8ec1b935dc30072e16f57b5f5665c3546
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 84ec1ad42f2cec2487debe7160a3f24e09bdd830
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226210"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288186"
 ---
 # <a name="train-a-predictive-coding-model-preview"></a>Treinar um modelo de codificação preditiva (visualização)
 
@@ -67,11 +67,15 @@ Depois de executar a primeira rodada de treinamento, é iniciado um trabalho que
 
 - O modelo atribui uma pontuação de previsão aos 10 itens no conjunto de controle que você rotulou durante a rodada de treinamento. O modelo compara a pontuação de previsão desses 10 itens com o rótulo real atribuído ao item durante a rodada de treinamento. Com base nessa comparação, o modelo identifica a seguinte classificação (chamada de matriz de confusão do conjunto de controle *)* para avaliar o desempenho de previsão do modelo:
 
-  |          |Modelo prevê que item é relevante |Modelo prevê item não é relevante |
-  |:---------|:---------|:---------|
-  |**Item de rótulos do revistor como relevante**| Verdadeiro positivo| Falso positivo |
-  |**Item rótulos do revistor como não relevante**| Falso negativo |Verdadeiro negativo |
-  ||||
+  <br>
+
+  ****
+
+  |Rótulo|Modelo prevê que item é relevante|Modelo prevê item não é relevante|
+  |---|---|---|
+  |**Item de rótulos do revistor como relevante**|Verdadeiro positivo|Falso positivo|
+  |**Item rótulos do revistor como não relevante**|Falso negativo|Verdadeiro negativo|
+  |
 
   Com base nessas comparações, o modelo deriva valores para as métricas de pontuação F, precisão e recall e a margem de erro para cada uma delas. As pontuações dessas métricas de desempenho do modelo são exibidas em uma página de sobrevoo para a rodada de treinamento. Para uma descrição dessas métricas, consulte [Referência de codificação preditiva](predictive-coding-reference.md).
 

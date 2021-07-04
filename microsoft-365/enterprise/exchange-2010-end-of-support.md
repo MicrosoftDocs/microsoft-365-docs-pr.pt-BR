@@ -12,12 +12,12 @@ ms.assetid: e150e7b9-c432-4c8d-a0ae-c11847129a7d
 f1.keywords:
 - NOCSH
 description: Exchange 2010 chegou ao fim do suporte. Use este roteiro de planejamento para se preparar para atualizar para Exchange Online ou uma versão mais recente do Exchange Server local.
-ms.openlocfilehash: f3531802283368e533ba6646415d4acc019687bd
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: bbc7fb83537621a47a866bf0ca129a38e21f055e
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926989"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289122"
 ---
 # <a name="exchange-2010-end-of-support-roadmap"></a>Roteiro do encerramento de suporte do Exchange 2010
 
@@ -81,17 +81,23 @@ Microsoft 365 também obtém novos recursos e experiências primeiro, para que s
 ### <a name="how-should-i-migrate-to-microsoft-365"></a>Como migrar para Microsoft 365?
 
 Dependendo da sua organização, você tem algumas opções para Microsoft 365. Primeiro, você precisa considerar algumas coisas, como:
+
 - O número de bancos ou caixas de correio que você precisa mover.
 - Quanto tempo você deseja que a migração durar.
 - Se você precisa de uma integração perfeita entre sua instalação local e Microsoft 365 durante a migração.
- 
+
 Esta tabela mostra suas opções de migração e os fatores mais importantes que determinam qual método usar.
+
+<br>
+
+****
 
 |Opção de migração|Tamanho da organização|Duration|
 |---|---|---|
 |Migração de substituição|Menos de 150 lugares|Uma semana ou menos|
 |Migração híbrida mínima|Menos de 150 lugares|Algumas semanas ou menos|
 |Migração híbrida completa|Mais de 150 lugares|Algumas semanas ou mais|
+|
 
 As seções a seguir dão uma visão geral desses métodos. Para obter mais informações, [consulte Decidir sobre um caminho de migração](https://support.office.com/article/Decide-on-a-migration-path-0d4f2396-9cef-43b8-9bd6-306d01df1e27).
 
@@ -173,6 +179,10 @@ Para a melhor experiência, recomendamos que você atualize seu ambiente local r
 
 Exchange 2016 inclui todos os recursos de versões anteriores do Exchange. Ele corresponde mais de perto à experiência disponível com Microsoft 365, embora alguns recursos estão disponíveis apenas em Microsoft 365. Confira apenas algumas das coisas que você está perdendo:
 
+<br>
+
+****
+
 |Exchange versão|Recursos|
 |---|---|
 |**Exchange 2013**|A arquitetura simplificada reduz o número de funções de servidor para três (Caixa de Correio, Acesso para Cliente, Transporte de Borda)|
@@ -183,24 +193,29 @@ Exchange 2016 inclui todos os recursos de versões anteriores do Exchange. Ele c
 ||DLP aprimorada juntamente com a integração com SharePoint|
 ||Resiliência de banco de dados aprimorada|
 ||Colaboração de documentos online|
+|
+
+<br>
+
+****
 
 |Considerações|Mais informações|
 |---|---|
-|Datas de término do suporte|Como Exchange 2010, cada versão do Exchange tem sua própria data de fim de suporte:<br/><br/>Exchange 2013 - abril de 2023<br/>Exchange 2016 - outubro de 2025<br/><br/>Quanto antes a data de término do suporte, mais cedo você precisará executar outra migração. Abril de 2023 é muito mais próximo do que você pensa!|
-|Caminho de migração para Exchange 2013 ou 2016|O caminho de migração Exchange 2010 para uma versão mais recente é o mesmo se você escolher Exchange 2013 ou Exchange 2016:<br/><br/>Instale Exchange 2013 ou 2016 em sua organização Exchange 2010 existente.<br/>Mova serviços e outra infraestrutura para Exchange 2013 ou 2016.<br/>Mova caixas de correio e pastas públicas para Exchange 2013 ou 2016 Desativação restante Exchange servidores 2010.|
+|Datas de término do suporte|Como Exchange 2010, cada versão do Exchange tem sua própria data de fim de suporte: <p> Exchange 2013 - abril de 2023 <p> Exchange 2016 - outubro de 2025 <p> Quanto antes a data de término do suporte, mais cedo você precisará executar outra migração. Abril de 2023 é muito mais próximo do que você pensa!|
+|Caminho de migração para Exchange 2013 ou 2016|O caminho de migração Exchange 2010 para uma versão mais recente é o mesmo se você escolher Exchange 2013 ou Exchange 2016: <p> Instale Exchange 2013 ou 2016 em sua organização Exchange 2010 existente. <p> Mova serviços e outra infraestrutura para Exchange 2013 ou 2016. <p> Mova caixas de correio e pastas públicas para Exchange 2013 ou 2016 Desativação restante Exchange servidores 2010.|
 |Coexistência de versão|Ao migrar para Exchange 2013 ou Exchange 2016, você pode instalar qualquer versão em uma organização Exchange 2010 existente. Isso permite que você instale um ou mais servidores Exchange 2013 ou Exchange 2016 e faça sua migração.|
-|Hardware de servidor|Os requisitos de hardware do servidor foram alterados Exchange 2010. Certifique-se de que o hardware seja compatível. Saiba mais sobre os requisitos de hardware para cada versão aqui:<br/><br/>[Requisitos de sistema do Exchange 2016](/Exchange/plan-and-deploy/system-requirements?view=exchserver-2016)<br/>[Requisitos de sistema do Exchange 2013](/Exchange/exchange-2013-system-requirements-exchange-2013-help)<br/><br/>Com as melhorias significativas no Exchange e a maior capacidade de computação e armazenamento em servidores mais novos, você provavelmente precisará de menos servidores para dar suporte ao mesmo número de caixas de correio.|
-|Versão do sistema operacional|As versões mínimas do sistema operacional com suporte para cada versão são:<br/><br/>Exchange 2016 - Windows Server 2012<br/>Exchange 2013 - Windows Server 2008 R2 SP1<br/><br/>Você pode encontrar mais informações sobre o suporte ao sistema operacional [em Exchange Supportability Matrix](/exchange/plan-and-deploy/supportability-matrix).|
-|Nível funcional da floresta do Active Directory|Os níveis funcionais mínimos de floresta do Active Directory com suporte para cada versão são:<br/><br/>Exchange 2016 - Windows Server 2008 R2 SP1<br/>Exchange 2013 - Windows Server 2003<br/><br/>Você pode encontrar mais informações sobre o suporte ao nível funcional da floresta [Exchange Supportability Matrix](/exchange/plan-and-deploy/supportability-matrix).|
-|Office cliente|As versões Office cliente mínimas com suporte para cada versão são:<br/><br/>Exchange 2016 - Office 2010 (com as atualizações mais recentes)<br/>Exchange 2013 - Office 2007 SP3<br/><br/>Encontre mais informações sobre o Office cliente em [Exchange Supportability Matrix.](/exchange/plan-and-deploy/supportability-matrix)||| 
-
+|Hardware de servidor|Os requisitos de hardware do servidor foram alterados Exchange 2010. Certifique-se de que o hardware seja compatível. Saiba mais sobre os requisitos de hardware para cada versão aqui: <p> [Requisitos de sistema do Exchange 2016](/Exchange/plan-and-deploy/system-requirements?view=exchserver-2016&preserve-view=true) <p> [Requisitos de sistema do Exchange 2013](/Exchange/exchange-2013-system-requirements-exchange-2013-help) <p> Com as melhorias significativas no Exchange e a maior capacidade de computação e armazenamento em servidores mais novos, você provavelmente precisará de menos servidores para dar suporte ao mesmo número de caixas de correio.|
+|Versão do sistema operacional|As versões mínimas do sistema operacional com suporte para cada versão são: <p> Exchange 2016 - Windows Server 2012 <p> Exchange 2013 - Windows Server 2008 R2 SP1 <p> Você pode encontrar mais informações sobre o suporte ao sistema operacional [em Exchange Supportability Matrix](/exchange/plan-and-deploy/supportability-matrix).|
+|Nível funcional da floresta do Active Directory|Os níveis funcionais mínimos de floresta do Active Directory com suporte para cada versão são: <p> Exchange 2016 - Windows Server 2008 R2 SP1 <p> Exchange 2013 - Windows Server 2003 <p> Você pode encontrar mais informações sobre o suporte ao nível funcional da floresta [Exchange Supportability Matrix](/exchange/plan-and-deploy/supportability-matrix).|
+|Office cliente|As versões Office cliente mínimas com suporte para cada versão são: <p> Exchange 2016 - Office 2010 (com as atualizações mais recentes) <p> Exchange 2013 - Office 2007 SP3 <p> Encontre mais informações sobre o Office cliente em [Exchange Supportability Matrix.](/exchange/plan-and-deploy/supportability-matrix)|
+|
 
 Use os seguintes recursos para ajudar na migração:
 
 - [Exchange Assistente de Implantação](/exchange/exchange-deployment-assistant)
-- Alterações de esquema do Active Directory Exchange [2016](/exchange/plan-and-deploy/active-directory/ad-schema-changes?view=exchserver-2016), [2013](/Exchange/exchange-2013-active-directory-schema-changes-exchange-2013-help)
-- Requisitos do sistema Exchange [2016](/exchange/plan-and-deploy/system-requirements?view=exchserver-2016), [2013](/Exchange/exchange-2013-system-requirements-exchange-2013-help)
-- Pré-requisitos para Exchange [2016](/exchange/plan-and-deploy/prerequisites?view=exchserver-2016), [2013](/Exchange/exchange-2013-prerequisites-exchange-2013-help)
+- Alterações de esquema do Active Directory Exchange [2016](/exchange/plan-and-deploy/active-directory/ad-schema-changes?view=exchserver-2016&preserve-view=true), [2013](/Exchange/exchange-2013-active-directory-schema-changes-exchange-2013-help)
+- Requisitos do sistema Exchange [2016](/exchange/plan-and-deploy/system-requirements?view=exchserver-2016&preserve-view=true), [2013](/Exchange/exchange-2013-system-requirements-exchange-2013-help)
+- Pré-requisitos para Exchange [2016](/exchange/plan-and-deploy/prerequisites?view=exchserver-2016&preserve-view=true), [2013](/Exchange/exchange-2013-prerequisites-exchange-2013-help)
 
 ## <a name="summary-of-options-for-office-2010-client-and-servers-and-windows-7"></a>Resumo das opções para Office 2010 clientes e servidores e Windows 7
 

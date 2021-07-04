@@ -11,12 +11,12 @@ ms.service: ''
 ms.collection: enabler-strategic
 search.appverid: ''
 localization_priority: Priority
-ms.openlocfilehash: 734edbb462193291b6bd2fb4a8e6afc3a0b709cb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 8a1b61088d0a1594bf1a71542158ade389cce2ab
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928243"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288510"
 ---
 # <a name="import-a-term-set-using-a-skos-based-format"></a>Importar um conjunto de termos usando um formato baseado em SKOS
 
@@ -29,16 +29,16 @@ Você pode importar um conjunto de termos usando um formato baseado em SKOS. Par
 2. Selecione o grupo de termos do qual você deseja importar o conjunto de termos.
 
 3. Na barra de comandos, clique em **Importar conjunto de termos**.
- 
-4.  Se você quiser baixar um arquivo de exemplo para usar como modelo, clique em **sample-metadata.ttl** para obter um arquivo de exemplo que usa o formato baseado em SKOS.
- 
-5.  Crie o arquivo de importação que contém os conjuntos de termos e termos que você deseja importar.
 
-6.  Em **Formato de arquivo**, selecione **SKOS (*.ttl)**.
+4. Se você quiser baixar um arquivo de exemplo para usar como modelo, clique em **sample-metadata.ttl** para obter um arquivo de exemplo que usa o formato baseado em SKOS.
 
-7.  Clique em **Procurar**, navegue até o arquivo de importação e o adicione.
+5. Crie o arquivo de importação que contém os conjuntos de termos e termos que você deseja importar.
 
-8.  Clique em **Importar**. Não feche o painel até que a importação seja concluída.
+6. Em **Formato de arquivo**, selecione **SKOS (*.ttl)**.
+
+7. Clique em **Procurar**, navegue até o arquivo de importação e o adicione.
+
+8. Clique em **Importar**. Não feche o painel até que a importação seja concluída.
 
 Na importação bem-sucedida do arquivo, uma mensagem de êxito será exibida, e o repositório de termos será atualizado, e você poderá navegar até os conjuntos de termos criados recentemente.
 

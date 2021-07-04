@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: Normalmente parte de uma solução de gerenciamento de registros, em que você pode configurar um rótulo de retenção para iniciar o período de retenção com base em um evento identificado.
-ms.openlocfilehash: 83f1be417b706fdb66b1df71ba351ce16d5ad485
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: e5b3b1f5d3af8185c424abede2f31675ab854f4a
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226618"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287522"
 ---
 # <a name="start-retention-when-an-event-occurs"></a>Iniciar a retenção quando um evento ocorrer
 
@@ -238,7 +238,7 @@ Exemplo de código para chamar a API REST:
 - **URL**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent`
 - **Cabeçalhos**: Chave = content-type, valor = application/atom+xml
 - **Corpo**:
-    
+
     ```xml
     <?xml version='1.0' encoding='utf-8' standalone='yes'?>
     
@@ -270,7 +270,7 @@ Exemplo de código para chamar a API REST:
     
     </entry>
     ```
-    
+
 - **Autenticação**: Básica
 - **Nome de usuário**: "Complianceuser"
 - **Senha**: "Senhadeconformidade"
@@ -309,7 +309,6 @@ Exemplo de código para chamar a API REST:
 - **Nome de usuário**: "Complianceuser"
 
 - **Senha**: "Senhadeconformidade"
-
 
 ###### <a name="response-codes"></a>Códigos de resposta
 
@@ -358,7 +357,6 @@ Exemplo de código para chamar a API REST:
 - **Nome de usuário**: "Complianceuser"
 
 - **Senha**: "Senhadeconformidade"
-
 
 ###### <a name="response-codes"></a>Códigos de resposta
 
@@ -450,5 +448,4 @@ $event = Invoke-RestMethod -Body $body -Method 'POST' -Uri $url -ContentType "ap
 }
 
 $event | fl *
-
 ```

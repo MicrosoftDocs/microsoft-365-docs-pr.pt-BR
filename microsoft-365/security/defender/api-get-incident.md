@@ -1,6 +1,6 @@
 ---
 title: Obter API de incidente
-description: Saiba como usar a API Obter incidentes para obter um único incidente no Microsoft 365 Defender.
+description: Saiba como usar a API Obter incidentes para obter um único incidente Microsoft 365 Defender.
 keywords: apis, api gráfica, apis com suporte, obter, arquivo, hash
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: c578a353501ac7b38ac541b0200ffaad1d6743e1
-ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
+ms.openlocfilehash: 2e051803a4cd228e3b455ec08b30e5c2197ca9a3
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52888440"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289602"
 ---
 # <a name="get-incident-information-api"></a>Obter API de informações de incidentes
 
@@ -38,27 +38,31 @@ ms.locfileid: "52888440"
 
 
 ## <a name="api-description"></a>Descrição da API
+
 Recupera um incidente específico por sua ID
 
-
 ## <a name="limitations"></a>Limitações
+
 1. Limitações de taxa para essa API são 100 chamadas por minuto e 1500 chamadas por hora.
 
 
 ## <a name="permissions"></a>Permissões
+
 Uma das seguintes permissões é necessária para chamar essa API. 
 
-Tipo de permissão |   Permissão  |   Nome de exibição de permissão
+Tipo de permissão | Permissão | Nome de exibição de permissão
 :---|:---|:---
-Aplicativo |   Incident.Read.All | 'Ler todos os incidentes'
-Aplicativo |   Incident.ReadWrite.All |    'Ler e gravar todos os incidentes'
+Aplicativo | Incident.Read.All | 'Ler todos os incidentes'
+Aplicativo | Incident.ReadWrite.All | 'Ler e gravar todos os incidentes'
 Delegado (conta corporativa ou de estudante) | Incident.Read | 'Incidentes de leitura'
 Delegado (conta corporativa ou de estudante) | Incident.ReadWrite | 'Incidentes de leitura e gravação'
 
->[!Note]
+> [!NOTE]
+>
 > Ao obter um token usando credenciais de usuário:
->- O usuário precisa ter pelo menos a seguinte permissão de função: 'Exibir Dados'
->- A resposta incluirá apenas incidentes aos que o usuário está exposto
+>
+> - O usuário precisa ter pelo menos a seguinte permissão de função: 'Exibir Dados'
+> - A resposta incluirá apenas incidentes aos que o usuário está exposto
 
 ## <a name="http-request"></a>Solicitação HTTP
 
@@ -70,10 +74,10 @@ GET .../api/incidents/{id}
 
 Nome | Tipo | Descrição
 :---|:---|:---
-Autorização | Cadeia de caracteres | Portador {token}. **Obrigatório**.
-
+Autorização | String | Portador {token}. **Obrigatório**.
 
 ## <a name="request-body"></a>Corpo da solicitação
+
 Vazio
 
 ## <a name="response"></a>Resposta

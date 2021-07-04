@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 5546b69fa924025491e1762d199678fa549a9c7c
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 695dfbec007b259b7daec2346201737d57c4ad30
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842141"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289770"
 ---
 # <a name="partner-access-through-microsoft-defender-for-endpoint-apis"></a>Acesso de parceiros por meio do Microsoft Defender para APIs de ponto de extremidade
 
@@ -60,13 +60,13 @@ As etapas a seguir orientarão você a criar um aplicativo do Azure AD, obter um
 
 3. No formulário de registro:
 
-    - Escolha um nome para seu aplicativo.
+   - Escolha um nome para seu aplicativo.
 
-    - Tipos de conta com suporte - contas em qualquer diretório organizacional.
+   - Tipos de conta com suporte - contas em qualquer diretório organizacional.
 
-    - URI de redirecionamento - tipo: Web, URI: https://portal.azure.com
+   - URI de redirecionamento - tipo: Web, URI: https://portal.azure.com
 
-    ![Imagem do Microsoft Azure de aplicativo parceiro](images/atp-api-new-app-partner.png)
+   ![Imagem do Microsoft Azure de aplicativo parceiro](images/atp-api-new-app-partner.png)
 
 
 4. Permita que seu aplicativo acesse o Microsoft Defender para Ponto de Extremidade e atribua-o com o conjunto mínimo de permissões necessário para concluir a integração.
@@ -94,13 +94,13 @@ As etapas a seguir orientarão você a criar um aplicativo do Azure AD, obter um
 
 5. Selecionar **Conceder consentimento**
 
-    - **Observação**: sempre que você adicionar permissão, você deve selecionar em **Conceder consentimento** para que a nova permissão entre em vigor.
+   - **Observação**: sempre que você adicionar permissão, você deve selecionar em **Conceder consentimento** para que a nova permissão entre em vigor.
 
-    ![Imagem de Permissões de Concessão](images/grant-consent.png)
+   ![Imagem de Permissões de Concessão](images/grant-consent.png)
 
 6. Adicione um segredo ao aplicativo.
 
-    - Selecione **Certificados & segredos,** adicione a descrição ao segredo e selecione **Adicionar**.
+   - Selecione **Certificados & segredos,** adicione a descrição ao segredo e selecione **Adicionar**.
 
     **Importante**: depois de clicar em Adicionar, **copie o valor secreto gerado.** Você não poderá recuperar depois de sair!
 
@@ -114,36 +114,36 @@ As etapas a seguir orientarão você a criar um aplicativo do Azure AD, obter um
 
 8. Adicione o aplicativo ao locatário do cliente.
 
-    Você precisa que seu aplicativo seja aprovado em cada locatário do cliente onde você pretende usá-lo. Isso porque seu aplicativo interage com o aplicativo Microsoft Defender para Ponto de Extremidade em nome do seu cliente.
+   Você precisa que seu aplicativo seja aprovado em cada locatário do cliente onde você pretende usá-lo. Isso porque seu aplicativo interage com o aplicativo Microsoft Defender para Ponto de Extremidade em nome do seu cliente.
 
-    Um usuário com **o Administrador Global** do locatário do cliente precisa selecionar o link de consentimento e aprovar seu aplicativo.
+   Um usuário com **o Administrador Global** do locatário do cliente precisa selecionar o link de consentimento e aprovar seu aplicativo.
 
-    O link de consentimento é do formulário:
+   O link de consentimento é do formulário:
 
-    ```
-    https://login.microsoftonline.com/common/oauth2/authorize?prompt=consent&client_id=00000000-0000-0000-0000-000000000000&response_type=code&sso_reload=true
-    ```
+   ```http
+   https://login.microsoftonline.com/common/oauth2/authorize?prompt=consent&client_id=00000000-0000-0000-0000-000000000000&response_type=code&sso_reload=true
+   ```
 
-    Onde 000000000-0000-0000-0000-000000000000000 devem ser substituídos pela ID do aplicativo
+   Onde 000000000-0000-0000-0000-000000000000000 devem ser substituídos pela ID do aplicativo
 
-    Depois de clicar no link de consentimento, entre com o Administrador Global do locatário do cliente e consenta no aplicativo.
+   Depois de clicar no link de consentimento, entre com o Administrador Global do locatário do cliente e consenta no aplicativo.
 
-    ![Imagem de consentimento](images/app-consent-partner.png)
+   ![Imagem de consentimento](images/app-consent-partner.png)
 
-    Além disso, você precisará solicitar a ID do locatário ao cliente e salvá-lo para uso futuro ao adquirir o token.
+   Além disso, você precisará solicitar a ID do locatário ao cliente e salvá-lo para uso futuro ao adquirir o token.
 
-- **Pronto!** Você registrou com êxito um aplicativo! 
+- **Pronto!** Você registrou com êxito um aplicativo!
 - Consulte exemplos abaixo para aquisição e validação de token.
 
-## <a name="get-an-access-token-example"></a>Obter um exemplo de token de acesso:
+## <a name="get-an-access-token-example"></a>Obter um exemplo de token de acesso
 
 **Observação:** Para obter um token de acesso em nome do cliente, use a ID de locatário do cliente nas seguintes aquisições de token.
 
-<br>Para obter mais informações sobre o token AAD, consulte [tutorial do AAD](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
+Para obter mais informações sobre o token AAD, consulte [tutorial do AAD](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
-### <a name="using-powershell"></a>Usando o Windows PowerShell
+### <a name="using-powershell"></a>Usando o PowerShell
 
-```
+```powershell
 # That code gets the App Context Token and save it to a file named "Latest-token.txt" under the current directory
 # Paste below your Tenant ID, App ID and App Secret (App key).
 
@@ -165,21 +165,21 @@ Out-File -FilePath "./Latest-token.txt" -InputObject $token
 return $token
 ```
 
-### <a name="using-c"></a>Usando C#:
+### <a name="using-c"></a>Usando C #
 
->O código a seguir foi testado com Nuget Microsoft.IdentityModel.Clients.ActiveDirectory
+> O código a seguir foi testado com Nuget Microsoft.IdentityModel.Clients.ActiveDirectory
 
 - Criar um novo Aplicativo de Console
 - Instalar NuGet [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)
 - Adicionar o abaixo usando
 
-    ```
+    ```console
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     ```
 
-- Copie/colar o código abaixo em seu aplicativo (não se esqueça de atualizar as três variáveis: ```tenantId, appId, appSecret``` )
+- Copie/colar o código abaixo em seu aplicativo (não se esqueça de atualizar as três variáveis: `tenantId` , `appId` e `appSecret` )
 
-    ```
+    ```console
     string tenantId = "00000000-0000-0000-0000-000000000000"; // Paste your own tenant ID here
     string appId = "11111111-1111-1111-1111-111111111111"; // Paste your own app ID here
     string appSecret = "22222222-2222-2222-2222-222222222222"; // Paste your own app secret here for a test, and then store it in a safe place! 
@@ -192,7 +192,6 @@ return $token
     AuthenticationResult authenticationResult = auth.AcquireTokenAsync(wdatpResourceId, clientCredential).GetAwaiter().GetResult();
     string token = authenticationResult.AccessToken;
     ```
-
 
 ### <a name="using-python"></a>Usando Python
 
@@ -209,19 +208,20 @@ Consulte [Obter token usando Python](run-advanced-query-sample-python.md#get-tok
 - De TENANT_ID para a ID de locatário do Azure do cliente que deseja usar seu aplicativo para acessar o aplicativo Microsoft Defender para Ponto de Extremidade
 - Execute o comando abaixo:
 
-```
+```curl
 curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_type=client_credentials" -d "client_id=%CLIENT_ID%" -d "scope=https://securitycenter.onmicrosoft.com/windowsatpservice/.default" -d "client_secret=%CLIENT_SECRET%" "https://login.microsoftonline.com/%TENANT_ID%/oauth2/v2.0/token" -k
 ```
 
 Você receberá uma resposta do formulário:
 
-```
+```console
 {"token_type":"Bearer","expires_in":3599,"ext_expires_in":0,"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIn <truncated> aWReH7P0s0tjTBX8wGWqJUdDA"}
 ```
 
 ## <a name="validate-the-token"></a>Validar o token
 
 Verificação de sanidade para garantir que você tenha um token correto:
+
 - Copiar/colar em [JWT](https://jwt.ms) o token que você obter na etapa anterior para decodificá-lo
 - Validar você recebe uma declaração de "funções" com as permissões desejadas
 - Na captura de tela abaixo, você pode ver um token decodificado adquirido de um Aplicativo com várias permissões para o Microsoft Defender para Ponto de Extremidade:
@@ -235,8 +235,9 @@ Verificação de sanidade para garantir que você tenha um token correto:
 - Definir o cabeçalho Autorização na solicitação Http que você envia para "Portador {token}" (Portador é o esquema de Autorização)
 - O tempo de expiração do token é de 1 hora (você pode enviar mais de uma solicitação com o mesmo token)
 
-- Exemplo de envio de uma solicitação para obter uma lista de alertas **usando C#** 
-    ```
+- Exemplo de envio de uma solicitação para obter uma lista de alertas **usando C#**
+
+    ```csharp
     var httpClient = new HttpClient();
 
     var request = new HttpRequestMessage(HttpMethod.Get, "https://api.securitycenter.microsoft.com/api/alerts");
@@ -249,5 +250,6 @@ Verificação de sanidade para garantir que você tenha um token correto:
     ```
 
 ## <a name="see-also"></a>Confira também
+
 - [Suporte de APIs do Microsoft Defender para Ponto de Extremidade](exposed-apis-list.md)
 - [Acessar o Microsoft Defender para Ponto de Extremidade em nome de um usuário](exposed-apis-create-app-nativeapp.md)

@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 description: Se você tiver menos de 25 licenças de usuário, poderá cancelar sua avaliação do Microsoft 365 Business ou uma assinatura paga online no Centro de Administração.
 ms.date: 04/08/2021
-ms.openlocfilehash: 18e7ca5cec91e1614808f2087ce0394f33a45c7a
-ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
+ms.openlocfilehash: d327a09eba06e9a2bbc92959b6048649b41b72fe
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52950078"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256790"
 ---
 # <a name="cancel-your-subscription"></a>Cancelar sua assinatura
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 00f6bdac66ae286bf55a875599f7097b14b06cb3
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: 7998e878ad03fdfb64c314dc8b7234ece46164ce
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861546"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289482"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-linux"></a>Definir preferências para o Microsoft Defender para Ponto de Extremidade no Linux
 
@@ -36,8 +36,8 @@ ms.locfileid: "52861546"
 
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
->[!IMPORTANT]
->Este tópico contém instruções sobre como definir preferências para o Defender para o Ponto de Extremidade no Linux em ambientes corporativos. Se você estiver interessado em configurar o produto em um dispositivo da linha de comando, consulte [Resources](linux-resources.md#configure-from-the-command-line).
+> [!IMPORTANT]
+> Este tópico contém instruções sobre como definir preferências para o Defender para o Ponto de Extremidade no Linux em ambientes corporativos. Se você estiver interessado em configurar o produto em um dispositivo da linha de comando, consulte [Resources](linux-resources.md#configure-from-the-command-line).
 
 Em ambientes corporativos, o Defender for Endpoint no Linux pode ser gerenciado por meio de um perfil de configuração. Esse perfil é implantado a partir da ferramenta de gerenciamento de sua escolha. As preferências gerenciadas pela empresa têm precedência sobre as definidas localmente no dispositivo. Em outras palavras, os usuários em sua empresa não são capazes de alterar as preferências definidas por meio desse perfil de configuração.
 
@@ -55,169 +55,226 @@ O nível superior do perfil de configuração inclui preferências e entradas pa
 
 A *seção antivírusEngine* do perfil de configuração é usada para gerenciar as preferências do componente antivírus do produto.
 
-|||
-|:---|:---|
-| **Chave** | antivirusEngine |
-| **Tipo de dados** | Dicionário (preferência aninhada) |
-| **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
-|||
+<br>
+
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|antivirusEngine|
+|**Tipo de dados**|Dicionário (preferência aninhada)|
+|**Comments**|Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário.|
+|
 
 #### <a name="enable--disable-real-time-protection"></a>Habilitar/desabilitar a proteção em tempo real
 
 Determina se a proteção em tempo real (arquivos de verificação conforme eles são acessados) está habilitada ou não.
 
-|||
-|:---|:---|
-| **Chave** | enableRealTimeProtection |
-| **Tipo de dados** | Booliano |
-| **Valores possíveis** | true (padrão) <br/> falso |
-|||
+<br>
+
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|enableRealTimeProtection|
+|**Tipo de dados**|Booliano|
+|**Valores possíveis**|true (padrão) <p> falso|
+|
 
 #### <a name="enable--disable-passive-mode"></a>Habilitar/desabilitar o modo passivo
 
 Determina se o mecanismo antivírus é executado no modo passivo ou não. No modo passivo:
+
 - A proteção em tempo real está desligada.
 - A verificação sob demanda está 100% 100%.
 - A correção automática de ameaças está desligada.
 - As atualizações de inteligência de segurança estão ativas.
 - O ícone do menu Status está oculto.
 
-|||
-|:---|:---|
-| **Chave** | passiveMode |
-| **Tipo de dados** | Booliano |
-| **Valores possíveis** | falso (padrão) <br/> verdadeiro |
-| **Comments** | Disponível no Defender para Ponto de Extremidade versão 100.67.60 ou superior. |
-|||
+<br>
+
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|passiveMode|
+|**Tipo de dados**|Booliano|
+|**Valores possíveis**|falso (padrão) <p> verdadeiro|
+|**Comments**|Disponível no Defender para Ponto de Extremidade versão 100.67.60 ou superior.|
+|
 
 #### <a name="exclusion-merge-policy"></a>Política de mesclagem de exclusão
 
 Especifica a política de mesclagem para exclusões. Pode ser uma combinação de exclusões definidas pelo administrador e definidas pelo usuário ( ) ou apenas exclusões definidas pelo administrador `merge` ( `admin_only` ). Essa configuração pode ser usada para restringir os usuários locais de definir suas próprias exclusões.
 
-|||
-|:---|:---|
-| **Chave** | exclusionsMergePolicy |
-| **Tipo de dados** | Cadeia de caracteres |
-| **Valores possíveis** | merge (padrão) <br/> admin_only |
-| **Comments** | Disponível no Defender para Ponto de Extremidade versão 100.83.73 ou superior. |
-|||
+<br>
+
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|exclusionsMergePolicy|
+|**Tipo de dados**|Cadeia de caracteres|
+|**Valores possíveis**|merge (padrão) <p> admin_only|
+|**Comments**|Disponível no Defender para Ponto de Extremidade versão 100.83.73 ou superior.|
+|
 
 #### <a name="scan-exclusions"></a>Exclusões de verificação
 
 Entidades que foram excluídas da verificação. As exclusões podem ser especificadas por caminhos completos, extensões ou nomes de arquivo.
 (As exclusões são especificadas como uma matriz de itens, o administrador pode especificar quantos elementos for necessário, em qualquer ordem.)
 
-|||
-|:---|:---|
-| **Chave** | exclusões |
-| **Tipo de dados** | Dicionário (preferência aninhada) |
-| **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
-|||
+<br>
 
-**Tipo de exclusão**
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|exclusões|
+|**Tipo de dados**|Dicionário (preferência aninhada)|
+|**Comments**|Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário.|
+|
+
+##### <a name="type-of-exclusion"></a>Tipo de exclusão
 
 Especifica o tipo de conteúdo excluído da verificação.
 
-|||
-|:---|:---|
-| **Chave** | $type |
-| **Tipo de dados** | Cadeia de caracteres |
-| **Valores possíveis** | excludedPath <br/> excludedFileExtension <br/> excludedFileName |
-|||
+<br>
 
-**Caminho para conteúdo excluído**
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|$type|
+|**Tipo de dados**|Cadeia de caracteres|
+|**Valores possíveis**|excludedPath <p> excludedFileExtension <p> excludedFileName|
+|
+
+##### <a name="path-to-excluded-content"></a>Caminho para conteúdo excluído
 
 Usado para excluir conteúdo da verificação por caminho de arquivo completo.
 
-|||
-|:---|:---|
-| **Chave** | caminho |
-| **Tipo de dados** | Cadeia de caracteres |
-| **Valores possíveis** | caminhos válidos |
-| **Comments** | Aplicável somente se *$type* *for excludedPath* |
-|||
+<br>
 
-**Tipo de caminho (arquivo/diretório)**
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|caminho|
+|**Tipo de dados**|Cadeia de caracteres|
+|**Valores possíveis**|caminhos válidos|
+|**Comments**|Aplicável somente se *$type* *for excludedPath*|
+|
+
+##### <a name="path-type-file--directory"></a>Tipo de caminho (arquivo/diretório)
 
 Indica se a *propriedade path* se refere a um arquivo ou diretório.
 
-|||
-|:---|:---|
-| **Chave** | isDirectory |
-| **Tipo de dados** | Booliano |
-| **Valores possíveis** | falso (padrão) <br/> verdadeiro |
-| **Comments** | Aplicável somente se *$type* *for excludedPath* |
-|||
+<br>
 
-**Extensão de arquivo excluída da verificação**
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|isDirectory|
+|**Tipo de dados**|Booliano|
+|**Valores possíveis**|falso (padrão) <p> verdadeiro|
+|**Comments**|Aplicável somente se *$type* *for excludedPath*|
+|
+
+##### <a name="file-extension-excluded-from-the-scan"></a>Extensão de arquivo excluída da verificação
 
 Usado para excluir conteúdo da verificação por extensão de arquivo.
 
-|||
-|:---|:---|
-| **Chave** | extension |
-| **Tipo de dados** | Cadeia de caracteres |
-| **Valores possíveis** | extensões de arquivo válidas |
-| **Comments** | Aplicável somente se *$type* *for excludedFileExtension* |
-|||
+<br>
 
-**Processo excluído da verificação**
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|extension|
+|**Tipo de dados**|Cadeia de caracteres|
+|**Valores possíveis**|extensões de arquivo válidas|
+|**Comments**|Aplicável somente se *$type* *for excludedFileExtension*|
+|
+
+##### <a name="process-excluded-from-the-scan"></a>Processo excluído da verificação*
 
 Especifica um processo para o qual todas as atividades de arquivo são excluídas da verificação. O processo pode ser especificado pelo nome (por exemplo) `cat` ou caminho completo (por exemplo, `/bin/cat` ).
 
-|||
-|:---|:---|
-| **Chave** | nome |
-| **Tipo de dados** | Cadeia de caracteres |
-| **Valores possíveis** | qualquer cadeia de caracteres |
-| **Comments** | Aplicável somente *se* $type *for excludedFileName* |
-|||
+<br>
+
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|nome|
+|**Tipo de dados**|Cadeia de caracteres|
+|**Valores possíveis**|qualquer cadeia de caracteres|
+|**Comments**|Aplicável somente *se* $type *for excludedFileName*|
+|
 
 #### <a name="allowed-threats"></a>Ameaças permitidas
 
 Lista de ameaças (identificadas pelo nome) que não são bloqueadas pelo produto e têm permissão para executar.
 
-|||
-|:---|:---|
-| **Chave** | allowedThreats |
-| **Tipo de dados** | Matriz de cadeias de caracteres |
-|||
+<br>
+
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|allowedThreats|
+|**Tipo de dados**|Matriz de cadeias de caracteres|
+|
 
 #### <a name="disallowed-threat-actions"></a>Ações de ameaça não permitidos
 
 Restringe as ações que o usuário local de um dispositivo pode tomar quando as ameaças são detectadas. As ações incluídas nesta lista não são exibidas na interface do usuário.
 
-|||
-|:---|:---|
-| **Chave** | disallowedThreatActions |
-| **Tipo de dados** | Matriz de cadeias de caracteres |
-| **Valores possíveis** | allow (restringe os usuários a permitir ameaças) <br/> restore (restringe os usuários de restaurar ameaças da quarentena) |
-| **Comments** | Disponível no Defender para Ponto de Extremidade versão 100.83.73 ou superior. |
-|||
+<br>
+
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|disallowedThreatActions|
+|**Tipo de dados**|Matriz de cadeias de caracteres|
+|**Valores possíveis**|allow (restringe os usuários a permitir ameaças) <p> restore (restringe os usuários de restaurar ameaças da quarentena)|
+|**Comments**|Disponível no Defender para Ponto de Extremidade versão 100.83.73 ou superior.|
+|
 
 #### <a name="threat-type-settings"></a>Configurações de tipo de ameaça
 
 A *preferência threatTypeSettings* no mecanismo antivírus é usada para controlar como determinados tipos de ameaça são manipulados pelo produto.
 
-|||
-|:---|:---|
-| **Chave** | threatTypeSettings |
-| **Tipo de dados** | Dicionário (preferência aninhada) |
-| **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
-|||
+<br>
 
-**Tipo de ameaça**
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|threatTypeSettings|
+|**Tipo de dados**|Dicionário (preferência aninhada)|
+|**Comments**|Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário.|
+|
+
+##### <a name="threat-type"></a>Tipo de ameaça
 
 Tipo de ameaça para a qual o comportamento está configurado.
 
-|||
-|:---|:---|
-| **Chave** | chave |
-| **Tipo de dados** | Cadeia de caracteres |
-| **Valores possíveis** | potentially_unwanted_application <br/> archive_bomb |
-|||
+<br>
 
-**O que fazer**
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|chave|
+|**Tipo de dados**|Cadeia de caracteres|
+|**Valores possíveis**|potentially_unwanted_application <p> archive_bomb|
+|
+
+##### <a name="action-to-take"></a>O que fazer
 
 Ação a ser tomada ao se deparar com uma ameaça do tipo especificado na seção anterior. Pode ser:
 
@@ -225,81 +282,109 @@ Ação a ser tomada ao se deparar com uma ameaça do tipo especificado na seçã
 - **Bloquear**: o dispositivo é protegido contra esse tipo de ameaça e você é notificado no console de segurança.
 - **Off**: O dispositivo não está protegido contra esse tipo de ameaça e nada é registrado.
 
-|||
-|:---|:---|
-| **Chave** | valor |
-| **Tipo de dados** | Cadeia de caracteres |
-| **Valores possíveis** | audit (padrão) <br/> block <br/> off |
-|||
+<br>
+
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|valor|
+|**Tipo de dados**|Cadeia de caracteres|
+|**Valores possíveis**|audit (padrão) <p> block <p> off|
+|
 
 #### <a name="threat-type-settings-merge-policy"></a>Política de mesclagem de configurações de tipo de ameaça
 
 Especifica a política de mesclagem para configurações de tipo de ameaça. Isso pode ser uma combinação de configurações definidas pelo administrador e definidas pelo usuário ( ) ou apenas `merge` configurações definidas pelo administrador ( `admin_only` ). Essa configuração pode ser usada para restringir os usuários locais de definir suas próprias configurações para tipos de ameaça diferentes.
 
-|||
-|:---|:---|
-| **Chave** | threatTypeSettingsMergePolicy |
-| **Tipo de dados** | Cadeia de caracteres |
-| **Valores possíveis** | merge (padrão) <br/> admin_only |
-| **Comments** | Disponível no Defender para Ponto de Extremidade versão 100.83.73 ou superior. |
-|||
+<br>
+
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|threatTypeSettingsMergePolicy|
+|**Tipo de dados**|Cadeia de caracteres|
+|**Valores possíveis**|merge (padrão) <p> admin_only|
+|**Comments**|Disponível no Defender para Ponto de Extremidade versão 100.83.73 ou superior.|
+|
 
 #### <a name="antivirus-scan-history-retention-in-days"></a>Retenção de histórico de verificação de antivírus (em dias)
 
 Especifique o número de dias que os resultados são mantidos no histórico de verificação no dispositivo. Os resultados antigos da verificação são removidos do histórico. Arquivos em quarentena antigos que também são removidos do disco.
 
-|||
-|:---|:---|
-| **Chave** | scanResultsRetentionDays |
-| **Tipo de dados** | Cadeia de caracteres |
-| **Valores possíveis** | 90 (padrão). Os valores permitidos são de 1 dia a 180 dias. |
-| **Comments** | Disponível no Defender para Ponto de Extremidade versão 101.04.76 ou superior. |
-|||
+<br>
+
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|scanResultsRetentionDays|
+|**Tipo de dados**|Cadeia de caracteres|
+|**Valores possíveis**|90 (padrão). Os valores permitidos são de 1 dia a 180 dias.|
+|**Comments**|Disponível no Defender para Ponto de Extremidade versão 101.04.76 ou superior.|
+|
 
 #### <a name="maximum-number-of-items-in-the-antivirus-scan-history"></a>Número máximo de itens no histórico de verificação de antivírus
 
 Especifique o número máximo de entradas a manter no histórico de verificação. As entradas incluem todas as verificações sob demanda realizadas no passado e todas as detecções de antivírus.
 
-|||
-|:---|:---|
-| **Chave** | scanHistoryMaximumItems |
-| **Tipo de dados** | Cadeia de caracteres |
-| **Valores possíveis** | 10000 (padrão). Os valores permitidos são de 5.000 itens a 15.000 itens. |
-| **Comments** | Disponível no Defender para Ponto de Extremidade versão 101.04.76 ou superior. |
-|||
+<br>
+
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|scanHistoryMaximumItems|
+|**Tipo de dados**|Cadeia de caracteres|
+|**Valores possíveis**|10000 (padrão). Os valores permitidos são de 5.000 itens a 15.000 itens.|
+|**Comments**|Disponível no Defender para Ponto de Extremidade versão 101.04.76 ou superior.|
+|
 
 ### <a name="cloud-delivered-protection-preferences"></a>Preferências de proteção entregues na nuvem
 
 A *entrada do cloudService* no perfil de configuração é usada para configurar o recurso de proteção orientada por nuvem do produto.
 
-|||
-|:---|:---|
-| **Chave** | cloudService |
-| **Tipo de dados** | Dicionário (preferência aninhada) |
-| **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
-|||
+<br>
+
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|cloudService|
+|**Tipo de dados**|Dicionário (preferência aninhada)|
+|**Comments**|Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário.|
+|
 
 #### <a name="enable--disable-cloud-delivered-protection"></a>Habilitar/desabilitar a proteção entregue na nuvem
 
 Determina se a proteção entregue na nuvem está habilitada no dispositivo ou não. Para melhorar a segurança dos seus serviços, recomendamos manter esse recurso ligado.
 
-|||
-|:---|:---|
-| **Chave** | habilitadas |
-| **Tipo de dados** | Booliano |
-| **Valores possíveis** | true (padrão) <br/> falso |
-|||
+<br>
+
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|habilitadas|
+|**Tipo de dados**|Booliano|
+|**Valores possíveis**|true (padrão) <p> falso|
+|
 
 #### <a name="diagnostic-collection-level"></a>Nível de coleta de diagnóstico
 
 Os dados de diagnóstico são usados para manter o Defender para o Ponto de Extremidade seguro e atualizado, detectar, diagnosticar e corrigir problemas e também fazer melhorias no produto. Essa configuração determina o nível de diagnóstico enviado pelo produto para a Microsoft.
 
-|||
-|:---|:---|
-| **Chave** | diagnosticLevel |
-| **Tipo de dados** | Cadeia de caracteres |
-| **Valores possíveis** | opcional (padrão) <br/> obrigatório |
-|||
+<br>
+
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|diagnosticLevel|
+|**Tipo de dados**|Cadeia de caracteres|
+|**Valores possíveis**|opcional (padrão) <p> obrigatório|
+|
 
 #### <a name="enable--disable-automatic-sample-submissions"></a>Habilitar/desabilitar envios automáticos de exemplo
 
@@ -309,23 +394,31 @@ Determina se amostras suspeitas (que provavelmente contêm ameaças) são enviad
 - **Cofre**: somente amostras suspeitas que não contenham informações de identificação pessoal (PII) são enviadas automaticamente. Esse é o valor padrão para essa configuração.
 - **All**: todos os exemplos suspeitos são enviados à Microsoft.
 
-|||
-|:---|:---|
-| **Chave** | automaticSampleSubmissionConsent |
-| **Tipo de dados** | Cadeia de caracteres |
-| **Valores possíveis** | nenhuma <br/> safe (padrão) <br/> all |
-|||
+<br>
+
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|automaticSampleSubmissionConsent|
+|**Tipo de dados**|Cadeia de caracteres|
+|**Valores possíveis**|nenhuma <p> safe (padrão) <p> all|
+|
 
 #### <a name="enable--disable-automatic-security-intelligence-updates"></a>Habilitar/desabilitar atualizações automáticas de inteligência de segurança
 
 Determina se as atualizações de inteligência de segurança são instaladas automaticamente:
 
-|||
-|:---|:---|
-| **Chave** | automaticDefinitionUpdateEnabled |
-| **Tipo de dados** | Booliano |
-| **Valores possíveis** | true (padrão) <br/> falso |
-|||
+<br>
+
+****
+
+|Descrição|Valor|
+|---|---|
+|**Tecla**|automaticDefinitionUpdateEnabled|
+|**Tipo de dados**|Booliano|
+|**Valores possíveis**|true (padrão) <p> falso|
+|
 
 ## <a name="recommended-configuration-profile"></a>Perfil de configuração recomendado
 
@@ -444,10 +537,12 @@ python -m json.tool mdatp_managed.json
 Se o JSON for bem formado, o comando acima o retornará ao Terminal e retornará um código de saída de `0` . Caso contrário, um erro que descreve o problema é exibido e o comando retorna um código de saída de `1` .
 
 ## <a name="verifying-that-the-mdatp_managedjson-file-is-working-as-expected"></a>Verificar se o arquivo mdatp_managed.json está funcionando conforme o esperado
+
 Para verificar se o /etc/opt/microsoft/mdatp/managed/mdatp_managed.json está funcionando corretamente, você deve ver "[gerenciado]" ao lado dessas configurações:
+
 - cloud_enabled
 - cloud_automatic_sample_submission_consent
-- passice_mode_enabled
+- passive_mode_enabled
 - real_time_protection_enabled
 - automatic_definition_update_enabled
 

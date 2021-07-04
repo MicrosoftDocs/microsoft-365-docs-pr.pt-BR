@@ -17,14 +17,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1935533ad924b7589bdfee6f3119fb667fb60b73
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: c44993337a6b14dc2fa131de906c5fc6bde28fac
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841505"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289038"
 ---
-# <a name="deploy-microsoft-defender-for-endpoint-on-android-with-microsoft-intune"></a>Implantar o Microsoft Defender para Ponto de Extremidade para Android com o Microsoft Intune 
+# <a name="deploy-microsoft-defender-for-endpoint-on-android-with-microsoft-intune"></a>Implantar o Microsoft Defender para Ponto de Extremidade para Android com o Microsoft Intune
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -32,20 +32,22 @@ ms.locfileid: "52841505"
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 Saiba como implantar o Defender para Ponto de Extremidade no Android Portal da Empresa do Intune dispositivos inscritos. Para obter mais informações sobre o registro do dispositivo Intune, consulte  [Registrar seu dispositivo](/mem/intune/user-help/enroll-device-android-company-portal).
 
 > [!NOTE]
-> **O Defender para Ponto de Extremidade no Android agora está disponível no [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.scmx)** <br>
-> Você pode se conectar ao Google Play do Intune para implantar o aplicativo Defender para Ponto de Extremidade no Administrador de Dispositivos e Enterprise de entrolamento.
-As atualizações para o aplicativo são automáticas por meio do Google Play.
+> **O Defender para Ponto de Extremidade no Android agora está disponível no [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.scmx)**
+>
+> Você pode se conectar ao Google Play do Intune para implantar o aplicativo Defender para Ponto de Extremidade no Administrador de Dispositivos e Enterprise de registro.
+>
+> As atualizações para o aplicativo são automáticas por meio do Google Play.
 
 ## <a name="deploy-on-device-administrator-enrolled-devices"></a>Implantar em dispositivos inscritos pelo Administrador de Dispositivos
 
 **Implantar o Defender para Ponto de Extremidade no Android Portal da Empresa do Intune - Dispositivos inscritos pelo Administrador de Dispositivos**
 
-Saiba como implantar o Defender para Ponto de Extremidade no Android Portal da Empresa do Intune - Dispositivos inscritos pelo Administrador de Dispositivos. 
+Saiba como implantar o Defender para Ponto de Extremidade no Android Portal da Empresa do Intune - Dispositivos inscritos pelo Administrador de Dispositivos.
 
 ### <a name="add-as-android-store-app"></a>Adicionar como aplicativo da Loja do Android
 
@@ -53,12 +55,12 @@ Saiba como implantar o Defender para Ponto de Extremidade no Android Portal da E
 
    ![Imagem do Microsoft Endpoint Manager Admin Center adicionar aplicativo da Loja do Android](images/mda-addandroidstoreapp.png)
 
-2. Na página **Adicionar aplicativo** e na seção Informações *do* Aplicativo, insira: 
+2. Na página **Adicionar aplicativo** e na seção Informações *do* Aplicativo, insira:
 
-   - **Nome** 
+   - **Nome**
    - **Descrição**
    - **Publisher** como Microsoft.
-   - **URL da Loja de Aplicativos** https://play.google.com/store/apps/details?id=com.microsoft.scmx como (URL do Defender for Endpoint App Google Play Store) 
+   - **URL da Loja de Aplicativos** https://play.google.com/store/apps/details?id=com.microsoft.scmx como (URL do Defender for Endpoint App Google Play Store)
 
    Outros campos são opcionais. Selecione **Avançar**.
 
@@ -66,8 +68,8 @@ Saiba como implantar o Defender para Ponto de Extremidade no Android Portal da E
 
 3. Na seção *Atribuições,* vá para a seção **Obrigatório** e selecione **Adicionar grupo.** Em seguida, você pode escolher os grupos de usuários que você gostaria de direcionar o Defender para Ponto de Extremidade no aplicativo Android. Escolha **Selecionar** e, em **seguida, Próximo**.
 
-    >[!NOTE]
-    >O grupo de usuários selecionado deve consistir em usuários inscritos do Intune.
+    > [!NOTE]
+    > O grupo de usuários selecionado deve consistir em usuários inscritos do Intune.
 
     > [!div class="mx-imgBorder"]
 
@@ -154,12 +156,12 @@ Siga as etapas a seguir para adicionar o aplicativo Microsoft Defender para Pont
        ![Imagem do centro de administração Microsoft Endpoint Manager android dispositivos gerenciados](images/android-mem.png)
 
     1. Na página **Criar política de configuração do** aplicativo, insira os seguintes detalhes:
-    
+
         - Nome: Microsoft Defender para Ponto de Extremidade.
         - Escolha **Android Enterprise** como plataforma.
         - Escolha **Perfil de Trabalho apenas** como Tipo de Perfil.
         - Clique **em Selecionar Aplicativo,** escolha **Microsoft Defender ATP,** selecione **OK** e, em **seguida, Próximo**.
-    
+
         > [!div class="mx-imgBorder"]
         > ![Imagem da página criar política de configuração de aplicativo](images/android-create-app.png)
 
@@ -178,63 +180,72 @@ Siga as etapas a seguir para adicionar o aplicativo Microsoft Defender para Pont
        > [!div class="mx-imgBorder"]
        > ![Imagem da concessão automática do android criar política de configuração de aplicativo](images/android-auto-grant.png)
 
-    1. Na página **Atribuições,** selecione o grupo de usuários ao qual essa política de configuração de aplicativo seria atribuída. Clique **em Selecionar grupos para incluir** e selecionar o grupo aplicável e, em seguida, selecione **Next**.  O grupo selecionado aqui geralmente é o mesmo grupo ao qual você atribuiria o Microsoft Defender para o aplicativo Do ponto de extremidade android. 
+    1. Na página **Atribuições,** selecione o grupo de usuários ao qual essa política de configuração de aplicativo seria atribuída. Clique **em Selecionar grupos para incluir** e selecionar o grupo aplicável e, em seguida, selecione **Next**.  O grupo selecionado aqui geralmente é o mesmo grupo ao qual você atribuiria o Microsoft Defender para o aplicativo Do ponto de extremidade android.
 
        > [!div class="mx-imgBorder"]
        > ![Imagem da política de configuração do aplicativo criar](images/android-select-group.png)
-    
 
-     1. Na página **Revisar + Criar** que aparece em seguida, revise todas as informações e selecione **Criar**. <br>
-    
+    1. Na página **Revisar + Criar** que aparece em seguida, revise todas as informações e selecione **Criar**. <br>
+
         A política de configuração do aplicativo para o Defender for Endpoint autogranting the storage permission is now assigned to the selected user group.
 
         > [!div class="mx-imgBorder"]
         > ![Imagem da revisão do android criar política de configuração de aplicativo](images/android-review-create.png)
 
-
-10. Selecione **Microsoft Defender ATP** aplicativo na lista Propriedades \>  \> **Atribuições** \> **Editar**.
+10. Selecione **o aplicativo Microsoft Defender ATP** na lista \> **Propriedades** \> **Atribuições** \> **Editar**.
 
     ![Imagem da lista de aplicativos](images/mda-properties.png)
-
 
 11. Atribua o aplicativo como *um aplicativo obrigatório* a um grupo de usuários. Ele é instalado automaticamente no perfil *de* trabalho durante a próxima sincronização do dispositivo por meio Portal da Empresa app. Essa atribuição pode ser feita navegando até a seção Obrigatório Adicionar  \> **grupo,** selecionando o grupo de usuários e clique em **Selecionar**.
 
     > [!div class="mx-imgBorder"]
     > ![Imagem da página editar aplicativo](images/ea06643280075f16265a596fb9a96042.png)
 
-
 12. Na página **Editar Aplicativo,** revise todas as informações inseridas acima. Em seguida, **selecione Revisar + Salvar** e **salvar** novamente para iniciar a atribuição.
 
-### <a name="auto-setup-of-always-on-vpn"></a>Configuração automática da VPN always-on 
-O Defender for Endpoint oferece suporte a políticas de configuração de dispositivo para dispositivos gerenciados por meio do Intune. Esse recurso pode ser aproveitado para a configuração automática da **VPN Always-on** em dispositivos Enterprise Android, para que o usuário final não precise configurar o serviço VPN durante a integração.
-1.  Em **Dispositivos**, selecione **Perfis** de Configuração Criar Plataforma de Perfil Android Enterprise selecionar restrições de dispositivo em uma das seguintes  >    >    >   opções, com  base no tipo de registro do dispositivo 
-- **Perfil de trabalho totalmente gerenciado, dedicado e Corporate-Owned trabalho**
-- **Perfil de Trabalho de propriedade pessoal**
+### <a name="auto-setup-of-always-on-vpn"></a>Configuração automática da VPN always-on
 
-Selecione **Criar**.
- 
+O Defender for Endpoint oferece suporte a políticas de configuração de dispositivo para dispositivos gerenciados por meio do Intune. Esse recurso pode ser aproveitado para a configuração automática da **VPN Always-on** em dispositivos Enterprise Android, para que o usuário final não precise configurar o serviço VPN durante a integração.
+
+1. Em **Dispositivos**, selecione **Perfis de**  >  **Configuração Criar Plataforma**  >  **de** Perfil Android  >  **Enterprise**
+
+   Selecione **Restrições de dispositivo** em uma das seguintes, com base no tipo de registro do dispositivo:
+   - **Perfil de trabalho totalmente gerenciado, dedicado e Corporate-Owned trabalho**
+   - **Perfil de Trabalho de propriedade pessoal**
+
+   Selecione **Criar**.
+
    > ![Imagem do perfil de configuração de dispositivos Criar](images/1autosetupofvpn.png)
-    
-2. **Configuração Configurações** Forneça um **Nome e** uma **Descrição** para identificar exclusivamente o perfil de configuração. 
+
+2. **Configuração Configurações** Forneça um **Nome e** uma **Descrição** para identificar exclusivamente o perfil de configuração.
 
    > ![Imagem do perfil de configuração de dispositivos Nome e Descrição](images/2autosetupofvpn.png)
-   
- 3. Selecione **Conectividade e** configure VPN:
-- **Habilita a Instalação de VPN always-on** de um cliente VPN no perfil de trabalho para se conectar e reconectar automaticamente à VPN sempre que possível. Somente um cliente VPN pode ser configurado para VPN sempre on em um determinado dispositivo, portanto, certifique-se de não ter mais de uma política VPN sempre on implantada em um único dispositivo. 
-- Selecione **Personalizado na** lista suspenso do cliente VPN A VPN personalizada nesse caso é o Defender for Endpoint VPN, que é usado para fornecer o recurso de Proteção da Web. 
-    > [!NOTE]
-    > O aplicativo do Microsoft Defender para Ponto de Extremidade deve ser instalado no dispositivo do usuário, para funcionar da configuração automática dessa VPN.
 
-- Insira **a ID do** pacote do aplicativo Microsoft Defender para Ponto de Extremidade na Google Play Store. Para a URL do aplicativo https://play.google.com/store/apps/details?id=com.microsoft.scmx Defender, a ID do pacote **é com.microsoft.scmx**  
-- **Modo de bloqueio** Não configurado (Padrão) 
+3. Selecione **Conectividade e** configure VPN:
+   - **Habilitar VPN always-on**
+
+   Configure um cliente VPN no perfil de trabalho para se conectar e reconectar automaticamente à VPN sempre que possível. Somente um cliente VPN pode ser configurado para VPN sempre on em um determinado dispositivo, portanto, certifique-se de não ter mais de uma política VPN sempre on implantada em um único dispositivo.
+
+   - Selecionar **Personalizado na** lista de lista suspenso do cliente VPN
+
+   A VPN personalizada nesse caso é o Defender for Endpoint VPN, que é usado para fornecer o recurso de Proteção da Web.
+
+   > [!NOTE]
+   > O aplicativo do Microsoft Defender para Ponto de Extremidade deve ser instalado no dispositivo do usuário, para funcionar da configuração automática dessa VPN.
+
+   - Insira **a ID do** pacote do aplicativo Microsoft Defender para Ponto de Extremidade na Google Play Store. Para a URL do aplicativo <https://play.google.com/store/apps/details?id=com.microsoft.scmx> Defender, a ID do pacote **é com.microsoft.scmx**
+   - **Modo de bloqueio** Não configurado (Padrão)
 
      ![Imagem do perfil de configuração de dispositivos habilita a VPN always-on](images/3autosetupofvpn.png)
-   
-4. **Atribuição** Na página  **Atribuições,** selecione o grupo de usuários ao qual essa política de configuração de aplicativo   seria atribuída. Clique **em Selecionar grupos** para incluir e selecionar o grupo aplicável e clique em **Próximo**. O grupo selecionado aqui geralmente é o mesmo grupo ao qual você atribuiria o Microsoft Defender para o aplicativo Do ponto de extremidade android. 
+
+4. **Assignment**
+
+   Na página **Atribuições,** selecione o grupo de usuários ao qual essa política de configuração de aplicativo   seria atribuída. Clique **em Selecionar grupos** para incluir e selecionar o grupo aplicável e clique em **Próximo**. O grupo selecionado aqui geralmente é o mesmo grupo ao qual você atribuiria o Microsoft Defender para o aplicativo Do ponto de extremidade android.
 
      ![Imagem do perfil de configuração de dispositivos Atribuição](images/4autosetupofvpn.png)
 
-5. Na página **Revisar + Criar** que aparece em seguida, revise todas as informações e selecione **Criar**. O perfil de configuração do dispositivo agora é atribuído ao grupo de usuários selecionado.    
+5. Na página **Revisar + Criar** que aparece em seguida, revise todas as informações e selecione **Criar**.
+O perfil de configuração do dispositivo agora é atribuído ao grupo de usuários selecionado.
 
     ![Imagem do perfil de configuração de dispositivos Revisão e Criação](images/5autosetupofvpn.png)
 
@@ -244,7 +255,6 @@ Selecione **Criar**.
 
     > [!div class="mx-imgBorder"]
     > ![Imagem do status de instalação do dispositivo](images/900c0197aa59f9b7abd762ab2b32e80c.png)
-
 
 2. No dispositivo, você pode validar o status de integração indo para o perfil **de trabalho**. Confirme se o Defender para Ponto de Extremidade está disponível e se você está inscrito nos dispositivos de **propriedade pessoal com o perfil de trabalho**.  Se você estiver inscrito em um dispositivo de usuário totalmente gerenciado de propriedade **corporativa,** você terá um único perfil no dispositivo onde poderá confirmar se o Defender para Ponto de Extremidade está disponível.
 
@@ -258,7 +268,7 @@ Selecione **Criar**.
 
     ![Imagem do portal do Microsoft Defender para Ponto de Extremidade](images/9fe378a1dce0f143005c3aa53d8c4f51.png)
 
-
 ## <a name="related-topics"></a>Tópicos relacionados
+
 - [Visão geral do Microsoft Defender para Ponto de Extremidade para Android](microsoft-defender-endpoint-android.md)
 - [Configurar o Microsoft Defender para Ponto de Extremidade para recursos do Android](android-configure.md)

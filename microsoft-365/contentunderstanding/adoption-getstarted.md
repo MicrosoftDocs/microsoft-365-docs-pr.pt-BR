@@ -1,5 +1,5 @@
 ---
-title: 'Adoção SharePoint Syntex da Microsoft: Começar'
+title: 'Adoção SharePoint Syntex Microsoft: Começar'
 description: Saiba como usar e implementar SharePoint Syntex em sua organização para ajudá-lo a resolver seus problemas de negócios.
 ms.author: samanro
 author: samanro
@@ -14,24 +14,24 @@ ms.collection:
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 62e65f9be25e2c482cca78577048d504ee93097a
-ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
+ms.openlocfilehash: 8a5442fcf8dd50cdee6be97ba7c9bbf5e21408a3
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52698971"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288150"
 ---
-# <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Adoção SharePoint Syntex da Microsoft: Começar
+# <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Adoção SharePoint Syntex Microsoft: Começar
 
 Pense nos serviços de conteúdo inteligentes disponíveis no SharePoint Syntex como tendo três partes:
 
 - **Noções básicas sobre o conteúdo:** Crie modelos de IA sem código para classificar e extrair informações do conteúdo para aplicar metadados automaticamente para descoberta e reutilização de conhecimento. Saiba mais sobre a [compreensão de conteúdo.](document-understanding-overview.md)
 - **Processamento de conteúdo:** Automatize a captura, a ingestão e a categorização de conteúdo e simplifique os processos centrados em conteúdo usando Power Automate. Saiba mais sobre [o processamento de conteúdo.](form-processing-overview.md)
-- **Conformidade de conteúdo:** Controle e gerencie o conteúdo para melhorar a segurança e a governança com a integração com a Proteção de Informações da Microsoft.
+- **Conformidade de conteúdo:** Controle e gerencie o conteúdo para melhorar a segurança e a governança com a integração com Proteção de Informações da Microsoft.
 
 Com novos serviços e recursos de IA, você pode criar aplicativos de compreensão e classificação de conteúdo diretamente no fluxo de gerenciamento de conteúdo usando SharePoint Syntex. Há duas maneiras diferentes de entender seu conteúdo. O tipo de modelo que você usa baseia-se no formato de arquivo e no caso de uso:
 
-| Processamento de formulário | Compreensão de documentos |
+| Processamento de formulários | Compreensão de documentos |
 |:-------|:-------|
 | Criado a partir da biblioteca de documentos. | Criado no centro de conteúdo, parte SharePoint Syntex. |
 | Modelo criado no construtor de IA. | Modelo criado na interface nativa. |
@@ -44,16 +44,16 @@ Para obter uma comparação mais completa dos recursos, consulte [Difference bet
 
 ## <a name="identify-pilot-business-scenarios-to-optimize"></a>Identificar cenários de negócios piloto para otimizar
 
-Para se preparar para usar SharePoint Syntex em sua organização, primeiro você precisa entender os cenários em que ele será útil. O "por que" ajuda a determinar qual modelo será necessário e como estruturar sua organização com base em onde o modelo será aplicado. Aqui estão alguns cenários em que a compreensão de documentos pode ajudar sua organização:
+Para se preparar para usar SharePoint Syntex em sua organização, primeiro você precisa entender os cenários nos quais ele será útil. O "por que" ajuda a determinar qual modelo será necessário e como estruturar sua organização com base em onde o modelo será aplicado. Aqui estão alguns cenários em que a compreensão de documentos pode ajudar sua organização:
 
 - **Processamento de conteúdo:** Processe contratos, instruções de trabalho e outros documentos parecidos com formulário. A ingestão dos formulários, treine o modelo para entender e mapear os campos e, em seguida, execute seus formulários para coletar automaticamente os dados. Para obter mais informações, consulte [Visão geral do processamento de formulário.](form-processing-overview.md)
 - **Análise de fatura:** Retire os detalhes relevantes de suas faturas e certifique-se de que elas estão em conformidade com a política ou que estão sendo processadas adequadamente.
 
-Pense em maneiras que SharePoint Syntex podem ajudar sua organização:
+Pense em maneiras SharePoint Syntex ajudar sua organização:
 
-- Automatizar processos de negócios
+- Automatizar os processos de negócios
 - Melhorar a precisão da pesquisa
-- Gerenciar riscos de conformidade
+- Gerenciar o risco de conformidade
 
 Ao pensar em quais cenários de negócios considerar, faça a si mesmo as seguintes perguntas:
 
@@ -64,7 +64,7 @@ Ao pensar em quais cenários de negócios considerar, faça a si mesmo as seguin
 
 Priorizar cenários com base no impacto e na facilidade de implementação. Tornar sua área de foco inicial cenários de maior impacto que também podem ser facilmente implementados. Des priorize cenários de menor impacto difíceis de implementar.
 
-Use os [cenários de exemplo e use casos](adoption-scenarios.md) para solicitar ideias sobre como você pode usar SharePoint Syntex em sua organização.
+Use os [cenários de exemplo e use casos para](adoption-scenarios.md) solicitar ideias sobre como você pode usar SharePoint Syntex em sua organização.
 
 ## <a name="identify-roles--responsibilities"></a>Identificar funções & responsabilidades
 
@@ -132,7 +132,7 @@ Para se preparar para implementar SharePoint Syntex, você precisa:
     - Os tipos de conteúdo existentes são bons candidatos para modelos?
     - Quais processos existentes seriam aprimorados por metadados?
 3. Design
-    - Projetar sua abordagem para arquitetura de informações, metadados gerenciados e tipos de conteúdo
+    - Projete sua abordagem para arquitetura de informações, metadados gerenciados e tipos de conteúdo.
     - Projete o processo para definição, criação, gerenciamento.
 
 ## <a name="engage-your-organization"></a>Envolver sua organização

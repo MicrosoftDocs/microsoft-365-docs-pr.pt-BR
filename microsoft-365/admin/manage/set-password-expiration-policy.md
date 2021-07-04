@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: Saiba como um administrador pode definir uma política de expiração de senha para seu negócio, escola, ou sem fins lucrativos no Centro de administração do Microsoft 365.
-ms.openlocfilehash: 7f12918211718b91313c0c89b11eaeb0a8cc3181
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: fdd219e4fc99e2388acb5b19eacb2fc470041f79
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635817"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286724"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Definir a política de expiração de senha para sua organização
 
@@ -36,7 +36,7 @@ ms.locfileid: "52635817"
 
 Este artigo é destinado às pessoas que definem a política de expiração de senhas para uma empresa, escola ou entidade sem fins lucrativos. Para concluir essas etapas, você precisa entrar com a sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](../../business-video/admin-center-overview.md).
 
-Como administrador, você pode fazer as senhas de usuário expirarem após um determinado número de dias ou definir as senhas para nunca expirarem. Por padrão, as senhas da sua organização estão definidas para nunca expirar.
+Como administrador, você pode fazer as senhas dos usuários expirarem após um certo número de dias ou definir as senhas para nunca expirarem. Por padrão, as senhas são definidas para nunca expirar em sua organização.
 
 A pesquisa atual indica que as alterações de senha obrigatórias são mais prejudicadas do que o recomendado. Eles direcionam os usuários a escolher senhas mais fracas, reutilizar senhas ou atualizar senhas antigas de maneiras que são facilmente adivinhadas pelos hackers. Recomendamos habilitar a [autenticação multifator](../security-and-compliance/set-up-multi-factor-authentication.md). Para saber mais sobre a política de senha, confira [recomendações de políticas de senha](../misc/password-policy-recommendations.md).
 
@@ -57,7 +57,7 @@ Siga as etapas abaixo se desejar definir as senhas dos usuários para expirarem 
   
 4. Se você não deseja que os usuários alterem as senhas, desmarque a caixa ao lado de **Definir as senhas dos usuários para expirar após alguns dias**.
   
-5. Digite a frequência com que as senhas devem expirar. Escolha um número de dias entre 14 e 730.
+5. Digite com que frequência as senhas devem expirar. Escolha um número de dias de 14 a 730.
   
 6. Na segunda caixa, insira quando os usuários são notificados de que a senha expirará e, em seguida, selecione **Salvar**. Escolha um número de dias de 1 a 30.
   
@@ -85,9 +85,10 @@ Você pode definir mais restrições e políticas de senha no Azure Active Direc
 
 O cmdlet Set-MsolPasswordPolicy atualiza a política de senhas de um determinado domínio ou locatário. Duas configurações são necessárias; a primeira é indicar o período de tempo que uma senha permanece válida antes de ser alterada e a segunda é indicar o número de dias antes da data de vencimento da senha que será acionada quando os usuários receberem sua primeira notificação de que a senha irá expirar em breve.
 
-Para saber como atualizar a política de senha de um específico domínio ou locatário, confira [Set-MsolPasswordPolicy](/powershell/module/msonline/set-msolpasswordpolicy?view=azureadps-1.0).
+Para saber como atualizar a política de senha de um específico domínio ou locatário, confira [Set-MsolPasswordPolicy](/powershell/module/msonline/set-msolpasswordpolicy).
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
 [Permitir que os usuários redefinim suas próprias senhas](../add-users/let-users-reset-passwords.md) (artigo)\
+
 [Redefinir senhas](../add-users/reset-passwords.md) (artigo)

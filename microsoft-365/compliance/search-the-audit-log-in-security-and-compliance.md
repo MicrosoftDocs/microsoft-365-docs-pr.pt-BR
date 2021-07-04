@@ -19,49 +19,33 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de conformidade do Microsoft 365 para pesquisar o log de auditoria unificado para visualizar a atividade do usuário e administrador em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8817ed09673ec23d0a41d680942276bcb1fe297d
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: a6989d8f57123a35e64b89cfe9148cae33c5758e
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809138"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287498"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Pesquisar o log de auditoria no centro de conformidade
 
 Precisa descobrir se um usuário visualizou um documento específico ou apagou um item de sua caixa de correio? Nesse caso, você pode usar o Centro de conformidade do Microsoft 365 para pesquisar o log de auditoria unificado para visualizar a atividade do usuário e administrador em sua organização. Por que usar um log de auditoria unificada? Como você pode procurar os seguintes tipos de [Atividade de usuários e administradores](#audited-activities) no Microsoft 365:
 
 - Atividade do usuário do SharePoint Online e do OneDrive for Business
-
 - Atividade do usuário do Exchange Online (log de auditoria da caixa de correio do Exchange)
-
 - Atividade de administração do SharePoint Online
-
 - Atividade de administração do Azure Active Directory (o serviço de diretório para o Microsoft 365)
-
 - Atividade de administradores do Exchange Online (log de auditoria de administradores do Exchange)
-
 - atividades de descoberta eletrônica no centro de conformidade e segurança
-
 - Atividade de usuários e administradores do Power BI
-
 - Atividade de usuários e administradores do Microsoft Teams
-
 - Atividade de usuários e administradores do Dynamics 365
-
 - Atividade de usuários e administradores do Yammer
-
 - Atividade de usuários e administradores do Microsoft Power Automate
-
 - Atividade de usuários e administradores do Microsoft Stream
-
 - Atividade de administradores e analistas do Microsoft Workplace Analytics
-
 - Atividade de usuários e administradores do Microsoft Power Apps
-
 - Atividade de usuários e administradores do Microsoft Forms
-
 - Atividade de usuários e administradores dos rótulos de sensibilidade de sites que usam o SharePoint Online ou o Microsoft Teams
-
 - Atividade administrativa em email de Resumo e MyAnalytics
 
 ## <a name="requirements-to-search-the-audit-log"></a>Requisitos para pesquisar o log de auditoria
@@ -73,6 +57,7 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
   ```powershell
   Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
   ```
+
   O valor de `True` para a propriedade *UnifiedAuditLogIngestionEnabled* indica que a pesquisa de log de auditoria está ativada. Para saber mais, confira [Ativar ou desativar a pesquisa de log de auditoria](turn-audit-log-search-on-or-off.md).
 
 - É preciso atribuir a função Logs de Auditoria Somente para Exibição ou Logs de Auditoria do Exchange Online para pesquisar o log de auditoria. Por padrão, essas funções são atribuídas aos grupos de funções Gerenciamento de Conformidade e Gerenciamento de Organização na página **Permissões** do centro de administração do Exchange. Note que os administradores globais do Office 365 e do Microsoft 365 são automaticamente adicionados como membros do grupo de função Gerenciamento da Organização no Exchange Online. Para que um usuário tenha a capacidade de pesquisar o log de auditoria com o nível mínimo de privilégios, você pode criar um grupo de funções personalizado no Exchange Online, adicionar a função Logs de Auditoria Somente para Exibição ou Logs de Auditoria e, em seguida, adicionar o usuário como um membro do novo grupo de funções. Para saber mais, confira [Gerenciar Grupos de Funções do Exchange Online](/Exchange/permissions-exo/role-groups).
@@ -114,8 +99,12 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
 
 - Pode levar de 30 minutos a 24 horas após a ocorrência de um evento para que o registro do log de auditoria seja retornado nos resultados de uma pesquisa de log de auditoria. A tabela a seguir mostra o tempo necessário para os vários serviços do Office 365.
 
+  <br>
+
+  ****
+
   |Serviço ou recurso do Microsoft 365|30 minutos|24 horas|
-  |:-----|:-----:|:-----:|
+  |---|:---:|:---:|
   |Defender para Office 365 e Inteligência Contra Ameaças|![Marca de seleção](../media/checkmark.png)||
   |Azure Active Directory (eventos de logon do usuário)||![Marca de seleção](../media/checkmark.png)|
   |Azure Active Directory (eventos de administração)||![Marca de seleção](../media/checkmark.png)|
@@ -133,9 +122,9 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
   |Rótulos de confidencialidade||![Marca de seleção](../media/checkmark.png)|
   |SharePoint Online e OneDrive for Business|![Marca de seleção](../media/checkmark.png)||
   |Workplace Analytics|![Marca de seleção](../media/checkmark.png)||
-  |Yammer||![Marca de seleção](../media/checkmark.png)||
-  |Microsoft Forms|![Marca de seleção](../media/checkmark.png)|
-  ||||
+  |Yammer||![Marca de seleção](../media/checkmark.png)|
+  |Microsoft Forms|![Marca de seleção](../media/checkmark.png)||
+  |
 
 - O Azure Active Directory (Azure AD) é o serviço de diretório do Office 365. O log de auditoria unificado contém atividades de usuários, grupos, aplicativos, domínios e atividades de diretórios realizadas no Microsoft 365 ou no portal de gerenciamento do Azure. Para obter uma lista completa de eventos do Azure AD, confira [Eventos de Relatório de Auditoria do Azure Active Directory](/azure/active-directory/reports-monitoring/concept-audit-logs).
 
@@ -612,18 +601,18 @@ A tabela a seguir lista os eventos relacionados para atribuir permissões no Sha
 |Usuário ou grupo adicionado ao grupo do SharePoint|AddedToGroup|O usuário adicionou um membro ou convidado a um grupo do SharePoint. Esta pode ter sido uma ação intencional ou o resultado de outra atividade, como um evento de compartilhamento.|
 |Herança de nível de permissão interrompida|PermissionLevelsInheritanceBroken|Um item foi alterado para que ele não mais herde os níveis de permissão de seu pai.|
 |Compartilhamento de herança interrompido|SharingInheritanceBroken|Um item foi alterado para que não herde mais as permissões de compartilhamento de seu pai.|
-|Grupo criado|GroupAdded|O proprietário ou administrador do site cria um grupo para um site ou realiza uma tarefa que resulta na criação de um grupo. Por exemplo, na primeira vez que um usuário cria um link para compartilhar um arquivo, um grupo de sistemas é adicionado ao site do OneDrive for Business do usuário. Esse evento também pode ser o resultado de um usuário ter criado um link com permissões de edição para um arquivo compartilhado.|
+|Grupo criado|GroupAdded|O proprietário ou administrador do site cria um grupo para um site ou realiza uma tarefa que resulta na criação de um grupo. Por exemplo, quando um usuário cria um link para compartilhar um arquivo pela primeira vez, um grupo do sistema é adicionado ao site do OneDrive for Business do usuário. Esse evento também pode ser um resultado de um usuário que está criando um link com permissões de edição em um arquivo compartilhado.|
 |Grupo excluído|GroupRemoved|O usuário exclui um grupo de um site.|
 |Configuração da solicitação de acesso modificada|WebRequestAccessModified|As configurações de solicitação de acesso foram modificadas em um site.|
 |Configuração “Membros Podem Compartilhar" modificado|WebMembersCanShareModified|A configuração **Membros Podem Compartilhar** foi modificada em um site.|
 |Nível de permissão modificado em um conjunto de sites|PermissionLevelModified|Um nível de permissão foi alterado em um conjunto de sites.|
-|Permissões de site modificadas|SitePermissionsModified|O proprietário ou administrador do site (ou a conta do sistema) altera o nível de permissão que é atribuído a um grupo em um site. Essa atividade também será registrada se todas as permissões forem removidas de um grupo. <br/><br/> **OBSERVAÇÃO**: Esta operação foi preterida no SharePoint Online. Para localizar os eventos relacionados, você pode procurar outras atividades relacionadas à permissão, como **Administrador do conjunto de sites adicionado**, **Usuário ou grupo adicionado ao grupo do SharePoint**, **Usuário permitido para criar grupo**, **Grupo criado**, e **Grupo excluído.**|
+|Permissões de site modificadas|SitePermissionsModified|O administrador ou proprietário do site (ou conta do sistema) altera o nível de permissão atribuído a um grupo em um site. Esta atividade também é registrada se todas as permissões forem removidas de um grupo.<br/><br/> **OBSERVAÇÃO**: Esta operação foi preterida no SharePoint Online. Para localizar os eventos relacionados, você pode procurar outras atividades relacionadas à permissão, como **Administrador do conjunto de sites adicionado**, **Usuário ou grupo adicionado ao grupo do SharePoint**, **Usuário permitido para criar grupo**, **Grupo criado**, e **Grupo excluído.**|
 |Nível de permissão removido do conjunto de sites|PermissionLevelRemoved|Um nível de permissão foi removido de um conjunto de sites.|
 |Administrador de conjunto de sites removido|SiteCollectionAdminRemoved|O proprietário ou administrador do conjunto de sites remove uma pessoa como administrador de conjunto de sites para um site. Essa atividade também será registrada quando um administrador remover a si mesmo da lista de administradores de conjunto de sites para a conta do usuário do OneDrive (editando o perfil de usuário no centro de administração do SharePoint).  Para retornar essa atividade nos resultados de pesquisa do log de auditoria, é preciso procurar todas as atividades.|
 |Usuário ou grupo removido do grupo do SharePoint|RemovedFromGroup|O usuário removeu um membro ou convidado de um grupo do SharePoint. Essa pode ter sido uma ação intencional ou o resultado de outra atividade, como um evento de cancelamento de compartilhamento.|
-|Permissões de administrador de site solicitadas|SiteAdminChangeRequest|O usuário solicita ser adicionado como administrador do conjunto de sites para um conjunto de sites. Os administradores do conjunto de sites têm permissões de controle total para o conjunto de sites e todos os subsites.|
+|Permissões de administrador de site solicitadas|SiteAdminChangeRequest|O usuário solicita ser adicionado como administrador de conjunto de sites para um conjunto de sites. Administradores de conjunto de sites têm permissões de controle total para o conjunto de sites e todos os subsites.|
 |Herança de compartilhamento restaurada|SharingInheritanceReset|Uma alteração foi feita para que um item herde permissões de compartilhamento de seu pai.|
-|Grupo atualizado|GroupUpdated|O proprietário ou administrador do site altera as configurações de um grupo para um site. Isso pode incluir a alteração do nome do grupo, quem pode visualizar ou editar os membros do grupo e como as solicitações de associação são tratadas.|
+|Grupo atualizado|GroupUpdated|O proprietário ou administrador do site altera as configurações de um grupo para um site. Isso pode incluir alterar o nome do grupo, quem pode visualizar ou editar a participação no grupo e como as solicitações de associação são manipuladas.|
 ||||
 
 ### <a name="site-administration-activities"></a>Atividades de administração do site
@@ -642,16 +631,16 @@ A tabela a seguir lista os eventos decorrentes de tarefas de administração de 
 |Agentes de usuário isentos alterados|CustomizeExemptUsers|Um administrador global ou do Microsoft Office SharePoint Online personalizou a lista de agentes de usuário isentos no Centro de administração do SharePoint. Você pode especificar quais agentes de usuário deseja se isenta do recebimento de uma página da Web inteira para o índice. Isso significa que, quando um agente de usuário especificado como isento encontra um formulário do InfoPath, o formulário retorna como um arquivo XML, em vez de uma página da Web inteira. Isso torna a indexação de formulários do InfoPath mais rápida.|
 |Política de acesso à rede alterada|NetworkAccessPolicyChanged|Um administrador global do ou do SharePoint alterou a política de acesso baseado no local (também chamada de limite de rede confiável) no centro de administração do SharePoint ou usando o PowerShell do SharePoint Online. Esse tipo de política controla quem pode acessar os recursos do SharePoint e do OneDrive em sua organização com base em intervalos de endereços IP autorizados, especificados por você. Para saber mais, confira [Controlar o acesso aos dados do SharePoint Online e do Onedrive com base no local de rede](/sharepoint/control-access-based-on-network-location).|
 |Movimentação geográfica do site concluída|SiteGeoMoveCompleted|Uma movimentação geográfica do site que foi agendada por um administrador global em sua organização foi concluído com sucesso.  O recurso do Modelo Multigeográfico permite que uma organização abranja várias áreas geográficas do datacenter da Microsoft, chamadas geos. Para obter mais informações, confira [Funcionalidades multigeográficas do Onedrive e do SharePoint Online no Office 365](../enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md).|
-|Conexão Enviar Para criada|SendToConnectionAdded|Um administrador global ou do SharePoint cria uma nova conexão Enviar Para na página de gerenciamento de Registros no centro de administração do SharePoint. Uma conexão Enviar para especifica configurações para um repositório de documentos ou um centro de registros. Quando você cria uma conexão Enviar para, um Organizador de Conteúdo pode enviar documentos à localização especificada.|
+|Conexão Enviar Para criada|SendToConnectionAdded|Um administrador global ou do Microsoft Office SharePoint Online cria uma nova conexão enviar para na página de gerenciamento de registros no Centro de administração do SharePoint. Uma conexão enviar para Especifica configurações para um repositório de documentos ou um centro de registros. Quando você cria uma conexão enviar para, um organizador de conteúdo pode enviar documentos para o local especificado.|
 |Conjunto de sites criado|SiteCollectionCreated|Um administrador global ou do SharePoint cria um conjunto de sites na sua organização do SharePoint Online ou um usuário provisiona seu site do OneDrive for Business.|
 |Site do hub órfão excluído|HubSiteOrphanHubDeleted|Um administrador global ou do SharePoint excluiu um site do hub órfão, que é um site do hub que não tem sites associados a ele. Um hub órfão provavelmente é causado pela exclusão do site do hub original.|
 |Conexão Enviar Para excluída|SendToConnectionRemoved|Um administrador global ou do SharePoint exclui uma conexão Enviar Para na página de gerenciamento de Registros no centro de administração do SharePoint.|
 |Site excluído|SiteDeleted|O administrador do site exclui um arquivo.|
 |Visualização de documentos habilitada|PreviewModeEnabledSet|O administrador do site habilita a visualização de documentos para um site.|
 |Fluxo de trabalho legado habilitado|LegacyWorkflowEnabledSet|O administrador ou proprietário do site adiciona o tipo de conteúdo Tarefa de fluxo de trabalho do SharePoint 2013 ao site. Os administradores globais também podem ativar fluxos de trabalho para toda a organização no Centro de Administração do SharePoint.|
-|Office on Demand habilitado|OfficeOnDemandSet|O administrador do site habilita o Office on Demand, que permite aos usuários acessar a versão mais recente dos aplicativos da área de trabalho do Office. O Office on Demand está habilitado no Centro de administração do SharePoint e exige uma assinatura do Microsoft 365 que inclua aplicativos completos do Office instalados.|
+|Office on Demand habilitado|OfficeOnDemandSet|O administrador do site habilita o Office on Demand, que permite aos usuários acessar a versão mais recente dos aplicativos da área de trabalho do Office. O Office on Demand está habilitado no Centro de administração do SharePoint e requer uma assinatura do Microsoft 365, que inclui os aplicativos completos do Office instalados.|
 |Fonte de resultados habilitada para Pesquisas de Pessoas|PeopleResultsScopeSet|O administrador do site cria a fonte de resultado para Pesquisas de Pessoas em um site.|
-|RSS feeds habilitados|NewsFeedEnabledSet|O proprietário ou administrador do site habilita RSS feeds para um site. Os administradores globais podem ativar RSS feeds para toda a organização no centro de administração do SharePoint.|
+|RSS feeds habilitados|NewsFeedEnabledSet|O proprietário ou administrador do site habilita RSS feeds para um site. Os administradores globais podem habilitar RSS feeds para toda a organização no Centro de administração do SharePoint.|
 |Site associado ao site do hub|HubSiteJoined|Um proprietário de site associa seus sites a um site do hub.|
 |Site do hub registrado|HubSiteRegistered|Um administrador global ou do SharePoint cria um site do hub. Os resultados são que o site é registrado para ser um site do hub.|
 |Local de dados permitido removido|AllowedDataLocationDeleted|Um administrador global ou do SharePoint removeu um local de dados permitido em um ambiente multigeográfico.|
@@ -689,8 +678,8 @@ A tabela a seguir lista as atividades que podem ser registradas pelo log de audi
 |Permissões de caixa de correio do representante removidas|Remove-MailboxPermission|Um administrador removeu a permissão FullAccess (que foi atribuída a um representante) da caixa de correio de uma pessoa. Depois que a permissão FullAccess for removida, o representante não pode abrir a caixa de correio de outra pessoa ou acessar nenhum conteúdo dela.|
 |Permissões removidas da pasta|RemoveFolderPermissions|Uma permissão da pasta foi removida. As permissões de pasta controlam quais usuários da sua organização podem acessar as pastas em uma caixa de correio e as mensagens localizadas nessas pastas.|
 |Mensagem enviada|Enviar|Uma mensagem foi enviada, respondida ou encaminhada. Essa atividade é registrada apenas aos usuários com uma licença do Office 365 ou do Microsoft 365 E5. Para obter mais informações, consulte a seção "Acesso aos eventos cruciais de investigações" em [Auditoria Avançada](advanced-audit.md#access-to-crucial-events-for-investigations).|
-|Mensagem enviada com permissões Enviar Como|SendAs|Uma mensagem foi enviada usando a permissão SendAs. Isto significa que outro usuário enviou a mensagem como se ela tivesse vindo do proprietário da caixa de correio.|
-|Mensagem enviada com permissões Enviar em Nome de|SendOnBehalf|Uma mensagem foi enviada usando a permissão SendOnBehalf. Isto significa que outro usuário enviou a mensagem em nome do proprietário da caixa de correio. A mensagem indica ao destinatário em nome de quem a mensagem foi enviada e quem realmente enviou a mensagem.|
+|Mensagem enviada com permissões Enviar Como|SendAs|Uma mensagem foi enviada usando a permissão SendAs. Isso significa que outro usuário enviou a mensagem como se fosse proveniente do proprietário da caixa de correio.|
+|Mensagem enviada com permissões Enviar em Nome de|SendOnBehalf|Uma mensagem foi enviada usando a permissão SendOnBehalf. Isso significa que outro usuário enviou a mensagem em nome do proprietário da caixa de correio. A mensagem indica ao destinatário para quem a mensagem foi enviada e quem realmente a enviou.|
 |Regras atualizadas da caixa de entrada do cliente do Outlook|UpdateInboxRules|Um proprietário da caixa de correio ou outro usuário com acesso à caixa de correio modificou uma regra da caixa de entrada no cliente do Outlook.|
 |Mensagem atualizada|Atualizar|Uma mensagem ou suas propriedades foram alteradas.|
 |Usuário entrou na caixa de correio|MailboxLogin|O usuário entrou em sua caixa de correio.|

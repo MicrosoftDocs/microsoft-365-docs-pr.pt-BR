@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Microsoft Teams.
-ms.openlocfilehash: 908c6a1482761815995330b71f0d2d2f96677b64
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: b459665d9b92705bd575a7a79a4d4d6adc2a3f68
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908264"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256310"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Saiba mais sobre retenção para o Microsoft Teams
 
@@ -44,8 +44,10 @@ Para outras cargas de trabalho, confira:
 ## <a name="whats-included-for-retention-and-deletion"></a>O que está incluído para retenção e exclusão
 
 As mensagens de chat e as mensagens de canal do Teams podem ser excluídas usando políticas de retenção para o Teams e, além do texto nas mensagens, os seguintes itens podem ser mantidos por razões de conformidade: imagens incorporadas, tabelas, links de hipertexto, links para outras mensagens e arquivos do Teams e [conteúdo do cartão](/microsoftteams/platform/task-modules-and-cards/what-are-cards). As mensagens do chat incluem todos os nomes das pessoas no chat e as mensagens do canal incluem o nome da equipe e o título da mensagem (se fornecido). 
+> [!NOTE]
+> No momento, o suporte para mensagens em canais privados está sendo implantado na versão prévia.
 
-Atualmente, as mensagens do Teams em canais privados não possuem suporte para políticas de retenção. Trechos de código, memorandos de voz gravados a partir do cliente móvel do Teams, miniaturas, imagens de anúncios e reações de outras pessoas na forma de emoticons não são mantidos quando você usa políticas de retenção para o Teams.
+Trechos de código, memorandos de voz gravados a partir do cliente móvel do Teams, miniaturas, imagens de anúncios e reações de outras pessoas na forma de emoticons não são retidos quando você usa políticas de retenção para o Teams.
 
 Emails e arquivos que você usa com o Teams não são incluídos nas políticas de retenção para Teams. Esses itens possuem suas próprias políticas de retenção.
 
@@ -59,7 +61,7 @@ Estas caixas de correio são listadas pelo atributo RecipientTypeDetails:
 
 - **UserMailbox**: estas caixas de correio armazenam dados de mensagens para usuários do Teams baseados em nuvem.
 - **MailUser**: essas caixas de correio armazenam dados para [usuários do Teams no local](search-cloud-based-mailboxes-for-on-premises-users.md).
-- **GroupMailbox**: Estas caixas de correio armazenam dados de mensagens para os canais do Teams.
+- **GroupMailbox**: Estas caixas de correio armazenam dados de mensagens para os canais padrões do Teams.
 
 Outros tipos de caixa de correio, como RoomMailbox que é usado em salas de conferência do Teams, não têm suporte das políticas de retenção do Teams.
 

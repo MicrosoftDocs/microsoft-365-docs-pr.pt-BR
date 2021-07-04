@@ -11,12 +11,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: c3928b5814332f2585adc613e1e84cbe5cc883a0
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 7b1178312178865face58748a37228f60643d5fc
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925606"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287970"
 ---
 # <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365 Apps para empresas
 
@@ -29,7 +29,7 @@ ms.locfileid: "52925606"
 - PowerPoint
 - Outlook
 - Publisher
-- Acesso
+- Access
 - Skype for Business
 - OneNote
 
@@ -153,15 +153,15 @@ Algumas organizações estão preocupados com os usuários que têm acesso a arq
 
 Há muitas outras políticas que Área de Trabalho Gerenciada da Microsoft ainda não são definidas como parte do nosso serviço. Você pode configurar essas políticas usando o Microsoft Intune, que usa o serviço Office [Política de](/DeployOffice/overview-office-cloud-policy-service#how-the-policy-configuration-is-applied) Nuvem. Para definir essas políticas, siga estas etapas:
 
-1.  Entre no centro de Microsoft Endpoint Manager de administração.
-2.  Selecione **Aplicativos > Políticas para Office aplicativos > Criar**
-3.  Na página **Criar configuração** de política, faça o seguinte:
+1. Entre no centro de Microsoft Endpoint Manager de administração.
+2. Selecione **Aplicativos > Políticas para Office aplicativos > Criar**
+3. Na página **Criar configuração** de política, faça o seguinte:
     - Insira um nome.
     - Forneça uma descrição (opcional).
     - Em **atribuições,** escolha se essa política se aplica a todos os usuários do Microsoft 365 Apps para Grandes Empresas ou apenas aos usuários que acessam documentos anonimamente usando Office para a Web.
     - Selecione o grupo de segurança baseado em AAD atribuído à configuração da política. Cada configuração de política só pode ser atribuída a um grupo, e cada grupo só pode ser atribuído a uma configuração de política.
-    - Configure as configurações de política a serem incluídas na configuração da política. Você pode pesquisar o nome da configuração de política para encontrar a configuração de política que deseja configurar. Você também pode filtrar no aplicativo se a política é uma linha de base de segurança recomendada e se a política foi configurada. A coluna da plataforma indica se a política é aplicada Microsoft 365 Apps para Grandes Empresas dispositivos Windows, Office para a Web ou tudo.
-4.  Depois de fazer suas seleções, escolha **Criar**.
+    - Configure as configurações de política a serem incluídas na configuração da política. Você pode pesquisar o nome da configuração de política para encontrar a configuração de política que deseja configurar. Você também pode filtrar no aplicativo se a política é uma linha de base de segurança recomendada e se a política foi configurada. A coluna da plataforma indica se a política é aplicada a Microsoft 365 Apps para Grandes Empresas para dispositivos Windows, Office para a Web ou todos.
+4. Depois de fazer suas seleções, escolha **Criar**.
 
 > [!NOTE]
 > Office As Políticas de Configuração só suportam a implantação baseada no usuário

@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 36743c86-46c2-46be-b9ed-ad9d4e85d186
 description: 'Resumo: use o PowerShell para Microsoft 365 para atribuir configurações de comunicação por usuário com Skype for Business online.'
-ms.openlocfilehash: 2d3d953fe0beb74cc63f914137942f068ce90be7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d7f369e96f3db95c741e6d4f2178eaf9032ab0bb
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905399"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288078"
 ---
 # <a name="assign-per-user-skype-for-business-online-policies-with-powershell-for-microsoft-365"></a>Atribuir políticas online Skype for Business por usuário com o PowerShell para Microsoft 365
 
@@ -102,11 +102,10 @@ Grant-CsExternalAccessPolicy -Identity "Alex Darrow" -PolicyName $Null
 ```
 
 Este comando define o nome da política de acesso externo atribuída a Alex como um valor nulo ($Null). Null significa "nothing". Em outras palavras, nenhuma política de acesso externo é atribuída a Alex. Quando nenhuma política de acesso externo é atribuída a um usuário, esse usuário é gerenciado pela política global.
-  
 
 ## <a name="managing-large-numbers-of-users"></a>Gerenciando um grande número de usuários
 
-Para gerenciar um grande número de usuários (1.000 ou mais), você precisa lotar os comandos por meio de um bloco de script usando o cmdlet [Invoke-Command.](/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7)  Em exemplos anteriores, sempre que um cmdlet é executado, ele deve configurar a chamada e aguardar o resultado antes de enviá-la de volta.  Ao usar um bloco de scripts, isso permite que os cmdlets sejam executados remotamente e, depois de concluídos, enviem os dados de volta. 
+Para gerenciar um grande número de usuários (1.000 ou mais), você precisa lotar os comandos por meio de um bloco de script usando o cmdlet [Invoke-Command.](/powershell/module/microsoft.powershell.core/invoke-command)  Em exemplos anteriores, sempre que um cmdlet é executado, ele deve configurar a chamada e aguardar o resultado antes de enviá-la de volta.  Ao usar um bloco de scripts, isso permite que os cmdlets sejam executados remotamente e, depois de concluídos, enviem os dados de volta.
 
 ```powershell
 $users = Get-CsOnlineUser -Filter { ClientPolicy -eq $null } -ResultSize 500

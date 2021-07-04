@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: f0eb20d59f1708bc1e3bd56e56ada40cd7058dca
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 6a4321f48ba5b8e012d1a3a4fd67dd4f05566048
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924842"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287898"
 ---
 # <a name="microsoft-managed-desktop-device-services"></a>Área de Trabalho Gerenciada da Microsoft de dispositivo
 
@@ -28,11 +28,12 @@ A Microsoft fornecerá esses serviços para Área de Trabalho Gerenciada da Micr
 Suporte | Os agentes de suporte responderão a perguntas diretamente relacionadas à funcionalidade do dispositivo e diagnosticarão problemas de dispositivo.
 Inventário | Todos os dispositivos são rastreados no portal de administração Área de Trabalho Gerenciada da Microsoft para inventário e controle de status.
 Atualizações de firmware/driver | Por padrão, Área de Trabalho Gerenciada da Microsoft dispositivos recebem atualizações de firmware e driver do Windows Update. Nem todos os parceiros de hardware implantam suas atualizações por meio Windows Update. As atualizações não publicadas como Automáticas exigem uma exceção e devem ser implantadas pelo cliente.
-Acessórios | Os acessórios que vêm com seu dispositivo são cobertos pelos mesmos serviços que o próprio dispositivo, mas os termos de garantia podem ser diferentes. Consulte os termos de garantia escolhidos ao selecionar seus dispositivos. Configuração de dispositivo | Os dispositivos serão pré-configurados com a versão atual do Windows e receberão seus aplicativos e configurações por meio da nuvem. 
+Acessórios | Os acessórios que vêm com seu dispositivo são cobertos pelos mesmos serviços que o próprio dispositivo, mas os termos de garantia podem ser diferentes. Consulte os termos de garantia escolhidos ao selecionar seus dispositivos. Configuração de dispositivo | Os dispositivos serão pré-configurados com a versão atual do Windows e receberão seus aplicativos e configurações por meio da nuvem.
 
 Para obter informações sobre a substituição de dispositivos, atualizações e termos de suporte, consulte seu contrato com seu provedor de dispositivos e seus termos de garantia.
 
 Para obter informações sobre garantias e reparos do Surface:
+
 - [Central de Ajuda do Surface for Business](https://support.microsoft.com/hub/4339296/surface-for-business-help)
 - [Garantias, planos de serviço estendidos e termos e condições para seu dispositivo](https://support.microsoft.com/help/4040687/info-about-warranties-extended-service-plans-and-terms-conditions)
 

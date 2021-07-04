@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8a2a3f83995bf4248b2cb72a848a1def83ae9c50
-ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
+ms.openlocfilehash: d70bb133904a7bcc9c30721d3f723b0fd8b88512
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53203263"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287958"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Tecnologias de Área de Trabalho Gerenciada da Microsoft
 
@@ -28,17 +28,17 @@ Microsoft 365 Enterprise licenciamento é necessário para todos os Área de Tra
 Este artigo resume os componentes incluídos nas licenças de Enterprise necessárias, com uma descrição de como o serviço usa cada componente com Área de Trabalho Gerenciada da Microsoft dispositivos. Funções e responsabilidades específicas para cada área são detalhadas em toda Área de Trabalho Gerenciada da Microsoft documentação. 
 
 ## <a name="office-365-e3-or-e5"></a>Office 365 E3 ou E5
+
 | Produto |Informações |
 --- |--- 
 Microsoft 365 Apps para Grandes Empresas (64 bits) | Esses Office aplicativos serão fornecidos com o dispositivo: Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype for Business, OneNote.<br><br>As versões completas de 64 bits do Microsoft Project e do Microsoft Visio não estão incluídas. No entanto, como a instalação desses aplicativos depende da instalação do Microsoft 365 Apps para Grandes Empresas, o Área de Trabalho Gerenciada da Microsoft criou implantações padrão Microsoft Intune grupos de segurança que você pode usar para implantar esses aplicativos para usuários licenciados. Para obter mais informações, consulte [Install Microsoft Project or Microsoft Visio on Área de Trabalho Gerenciada da Microsoft devices](../get-started/project-visio.md).
 OneDrive |Azure Active Directory O Logom Único está habilitado para os usuários quando eles entrarem pela primeira vez OneDrive.<br><br>O Redirecionamento de Pasta Conhecido para pastas "Desktop", "Document" e "Pictures" está incluído; habilitado e configurado por Área de Trabalho Gerenciada da Microsoft.
-Aplicativos da Loja |    O Microsoft Sway e Power BI não são fornecidos com o dispositivo. Esses aplicativos estão disponíveis para download Microsoft Store.
-Aplicativos Win32 |    Teams não é fornecido com o dispositivo, mas é empacotado e fornecido pela Microsoft para Área de Trabalho Gerenciada da Microsoft dispositivos. O Cliente de Proteção de Informações do Azure não é fornecido com o dispositivo, mas você pode empacotá-lo para implantação.
-Aplicativos Web |  Yammer, Office navegador, Delve, Flow, StaffHub, PowerApps e Planner não são fornecidos com o dispositivo. Os usuários podem acessar a versão da Web desses aplicativos com um navegador.
-
-
+Aplicativos da Loja | O Microsoft Sway e Power BI não são fornecidos com o dispositivo. Esses aplicativos estão disponíveis para download Microsoft Store.
+Aplicativos Win32 | Teams não é fornecido com o dispositivo, mas é empacotado e fornecido pela Microsoft para Área de Trabalho Gerenciada da Microsoft dispositivos. O Cliente de Proteção de Informações do Azure não é fornecido com o dispositivo, mas você pode empacotá-lo para implantação.
+Aplicativos Web | Yammer, Office navegador, Delve, Flow, StaffHub, PowerApps e Planner não são fornecidos com o dispositivo. Os usuários podem acessar a versão da Web desses aplicativos com um navegador.
 
 ## <a name="windows-10-enterprise-e5-or-e3-with-microsoft-defender-for-endpoint"></a>Windows 10 Enterprise E5 ou E3 com o Microsoft Defender para Ponto de Extremidade
+
 Recomendamos que os administradores de IT configurem as configurações a seguir. Essas configurações não são incluídas ou gerenciadas como parte Área de Trabalho Gerenciada da Microsoft.
 
 Produto  |Informações
@@ -47,11 +47,10 @@ Windows Hello para Empresas | Você deve implementar o Windows Hello para Empres
 Virtualização de aplicativo | Você pode implantar pacotes de Virtualização de Aplicativo (App-V) usando o cliente de gerenciamento de aplicativos do Intune Win32. Para obter mais informações, consulte [Application Virtualization](/windows/application-management/app-v/appv-technical-reference).
 Microsoft 365 prevenção contra perda de dados | Você deve implementar Microsoft 365 prevenção contra perda de dados para monitorar as ações que estão sendo tomadas em itens que você determinou serem confidenciais e para ajudar a evitar o compartilhamento não intencional desses itens. Para obter mais informações, [consulte Microsoft 365 prevenção contra perda de dados](../../compliance/endpoint-dlp-learn-about.md).
 
-
 Recursos incluídos e gerenciados como parte Área de Trabalho Gerenciada da Microsoft:
 
 Produto |Informações
---- |--- 
+--- |---
 Criptografia de unidade do BitLocker | A Criptografia de Unidade do BitLocker é usada para criptografar todas as unidades do sistema. Para obter mais informações, consulte [BitLocker Drive Encryption](/windows/security/information-protection/bitlocker/bitlocker-overview).
 Windows Defender System Guard | Protege a integridade do sistema na inicialização e valida que a integridade do sistema foi realmente mantida. Para obter mais informações, [consulte Windows Defender System Guard](/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows).
 Windows Defender Credential Guard | Windows Defender O Credential Guard usa a segurança baseada em virtualização para isolar segredos para que somente o software do sistema privilegiado possa acessá-los. Para obter mais informações, [consulte Windows Defender System Guard](/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows).
@@ -72,8 +71,8 @@ Controle de Conta de Usuário | O Controle de Conta de Usuário alterna para a �
 
 ## <a name="enterprise-mobility--security-e5"></a>Enterprise Mobility + Security E5
 
-Produto |Informações 
+Produto |Informações
  --- | ---
-Enterprise Mobility + Security E3<br>Azure Active Directory Premium P2 |    Você pode usar todos os recursos de Enterprise Mobility + Security E3 para gerenciar dispositivos MDM. Você pode usar Azure Active Directory Premium P2 como um recurso opcional com Área de Trabalho Gerenciada da Microsoft.
-Microsoft Cloud App Security |  Você pode usar esse recurso opcional com Área de Trabalho Gerenciada da Microsoft.
+Enterprise Mobility + Security E3<br>Azure Active Directory Premium P2 | Você pode usar todos os recursos de Enterprise Mobility + Security E3 para gerenciar dispositivos MDM. Você pode usar Azure Active Directory Premium P2 como um recurso opcional com Área de Trabalho Gerenciada da Microsoft.
+Microsoft Cloud App Security | Você pode usar esse recurso opcional com Área de Trabalho Gerenciada da Microsoft.
 Proteção de Informações do Azure P2  | Você pode usar esse recurso opcional com Área de Trabalho Gerenciada da Microsoft.

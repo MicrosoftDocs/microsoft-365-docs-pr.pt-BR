@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Use o Editor de Comunicações para alterar o texto e mesclar variáveis de campo ao formatar seu conteúdo.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6dcfb58dff3a3acf99340895872bb2da9795d9c8
-ms.sourcegitcommit: 5ba0015c1554048f817fdfdc85359eee1368da64
+ms.openlocfilehash: 26076ff82ba226c2993c7c40e36bca2e08cbf683
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49769156"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288114"
 ---
 # <a name="use-the-communications-editor"></a>Usar o editor de comunicações
 
@@ -40,11 +40,15 @@ Você pode usar campos de mala direta selecionando os ícones do campo **Mesclar
 
 ### <a name="list-of-merge-field-variables"></a>Lista de variáveis de campo de mesclagem
 
-| Nome do campo                  | Detalhes de campo |
-| :------------------- | :------------------- |
-| Nome de exibição  | O nome e o sobrenome do custodiado. | 
-| Link de Confirmação | Um link personalizado para registrar o reconhecimento de cada custodiado.|                 |
-| Portal Link     | Um link personalizado para o Portal de Conformidade do custodiado.|                |
-| Diretor de emissão                   | O endereço de email do oficial de emissão especificado.|                   |
-| Data de emissão                   | A data em que o aviso foi emitido (UTC).              |
-|||
+<br>
+
+****
+
+|Nome do campo|Detalhes de campo|
+|---|---|
+|Nome de exibição|O nome e o sobrenome do custodiado.|
+|Link de Confirmação|Um link personalizado para registrar o reconhecimento de cada custodiado.|
+|Portal Link|Um link personalizado para o Portal de Conformidade do custodiado.|
+|Diretor de emissão|O endereço de email do oficial de emissão especificado.|
+|Data de emissão|A data em que o aviso foi emitido (UTC).|
+|

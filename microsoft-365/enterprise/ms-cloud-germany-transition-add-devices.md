@@ -18,107 +18,117 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: Informações adicionais sobre os serviços do dispositivo ao mudar do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para Office 365 serviços na nova região do datacenter alemão.'
-ms.openlocfilehash: cdb3278e1d96b2ebdced122ab53db716c3195d8c
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 684af01b2d90f44b2cda1cf050d1e4db70f92915
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52903860"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289434"
 ---
 # <a name="additional-device-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Informações adicionais do dispositivo para a migração do Microsoft Cloud Deutschland
 
-Os dispositivos ingressados e registrados no Azure AD conectados ao Microsoft Cloud Deutschland devem ser migrados após a fase 9 e antes da fase 10. A migração de um dispositivo depende do tipo de dispositivo, do sistema operacional e da relação do Azure AD. 
+Os dispositivos ingressados e registrados no Azure AD conectados ao Microsoft Cloud Deutschland devem ser migrados após a fase 9 e antes da fase 10. A migração de um dispositivo depende do tipo de dispositivo, do sistema operacional e da relação do Azure AD.
 
 ## <a name="azure-ad-joined-windows-10-devices"></a>Dispositivos Windows 10 Azure AD
-Se um Windows 10 for ingressado no Azure AD, ele deverá ser desconectado do Azure AD e deverá ser conectado novamente. 
+Se um Windows 10 for ingressado no Azure AD, ele deverá ser desconectado do Azure AD e deverá ser conectado novamente.
 
 [![Dispositivo do Azure AD Re-Join Flow ](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png)](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png#lightbox)
 
 
-Se o usuário for um administrador no dispositivo Windows 10, o usuário poderá desemitir o dispositivo do Azure AD e jun-lo novamente em três etapas. 
+Se o usuário for um administrador no dispositivo Windows 10, o usuário poderá desemitir o dispositivo do Azure AD e jun-lo novamente em três etapas.
 
 ### <a name="step-1-determine-if-the-device-is-azure-id-joined"></a>Etapa 1: Determinar se o dispositivo está ingressado no Azure ID
-1.  Entre com sua conta corporativa.
-2.  Vá para o **Configurações**  >  **contas acessar** o trabalho ou a  >  **escola.** 
-3.  Procure uma conta na lista com **[...]' s Azure AD**. 
-4.  Se houver uma conta conectada, prossiga com a Etapa 2. 
+
+1. Entre com sua conta corporativa.
+2. Vá para o **Configurações**  >  **contas acessar** o trabalho ou a  >  **escola.**
+3. Procure uma conta na lista com **[...]' s Azure AD**.
+4. Se houver uma conta conectada, prossiga com a Etapa 2.
+
 ### <a name="step-2-disconnect-the-device-from-azure-ad"></a>Etapa 2: desconectar o dispositivo do Azure AD
-1.  Clique **em Desconectar** no trabalho conectado ou conta escolar. 
-2.  Confirme a desconexão duas vezes. 
-3.  Insira um nome de usuário e senha de administrador local. O dispositivo está desconectado.
-4.  Reinicie o dispositivo.
+
+1. Clique **em Desconectar** no trabalho conectado ou conta escolar.
+2. Confirme a desconexão duas vezes.
+3. Insira um nome de usuário e senha de administrador local. O dispositivo está desconectado.
+4. Reinicie o dispositivo.
+
 ### <a name="step-3-join-the-device-to-azure-ad"></a>Etapa 3: Associar o dispositivo ao Azure AD
-1.  Entre com as credenciais do administrador local.
-2.  Vá para o **Configurações**  >  **contas acessar** o trabalho ou a  >  **escola.**
-3.  Clique em **Conectar**.
-4.  **IMPORTANTE**: Clique **em Ingressar no Azure AD**.
-5.  Insira o endereço de email e a senha da sua conta de trabalho. O dispositivo está conectado.
-6.  Reinicie o dispositivo.
-7.  Entre com o endereço de email e a senha da sua conta de trabalho.
+
+1. Entre com as credenciais do administrador local.
+2. Vá para o **Configurações**  >  **contas acessar** o trabalho ou a  >  **escola.**
+3. Clique em **Conectar**.
+4. **IMPORTANTE**: Clique **em Ingressar no Azure AD**.
+5. Insira o endereço de email e a senha da sua conta de trabalho. O dispositivo está conectado.
+6. Reinicie o dispositivo.
+7. Entre com o endereço de email e a senha da sua conta de trabalho.
 
 Se o usuário não for um administrador do dispositivo, um administrador global do Azure AD poderá criar a conta de administrador local no dispositivo seguindo esse caminho de configuração e desatar o dispositivo:
 
 *Configurações > Contas > Outras Contas > Credenciais desconhecidas > Adicionar usuário sem Microsoft-Account*
 
-Para ingressar outra vez, as credenciais de qualquer conta de trabalho de sua organização podem ser usadas nesta etapa. 
+Para ingressar outra vez, as credenciais de qualquer conta de trabalho de sua organização podem ser usadas nesta etapa.
 
 Considere que a conta de trabalho usada para ingressar no dispositivo será automaticamente promovida como administrador do dispositivo.
 Qualquer outra conta de trabalho da organização pode entrar no dispositivo, mas não tem privilégios de administrador.
 
 ## <a name="azure-ad-registered-workplace-joined-windows-10-devices"></a>Azure AD registrado (ingressado no local de trabalho) Windows 10 dispositivos
+
 Se um Windows 10 for registrado no Azure AD, ele precisará ser desconectado do Azure AD e conectado novamente.
 
 [![Dispositivo do Azure AD Re-Registration Flow ](../media/ms-cloud-germany-migration-opt-in/AAD-ReRegistration-flow.png)](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png#lightbox)
 
 ### <a name="step-1-determine-if-the-device-is-azure-id-registered"></a>Etapa 1: Determinar se o dispositivo é Azure ID registrado
-1.  Entre com seu usuário.
-2.  Vá para o **Configurações**  >  **contas acessar** o trabalho ou a  >  **escola.** 
-3.  Descubra sua conta de trabalho na lista e verifique se ela está **conectada a [...]' s Azure AD**.
+
+1. Entre com seu usuário.
+2. Vá para o **Configurações**  >  **contas acessar** o trabalho ou a  >  **escola.**
+3. Descubra sua conta de trabalho na lista e verifique se ela está **conectada a [...]' s Azure AD**.
 
     Se sua conta de trabalho estiver na lista, mas NÃO conectada a um Azure AD, prossiga com a etapa 2.
 
     Caso contrário, seu dispositivo é um dispositivo ingressado no Azure AD e você precisa se referir a dispositivos Windows 10 [Azure AD .](#azure-ad-joined-windows-10-devices)
 
 ### <a name="step-2-disconnect-the-device-from-azure-ad"></a>Etapa 2: desconectar o dispositivo do Azure AD
-1.  Clique em sua conta de trabalho. Os botões *Informações* e *Desconectar* aparecem.
-2.  Clique **em Desconectar**. 
-3.  Confirme a remoção da conta do dispositivo clicando em **Sim**.
+
+1. Clique em sua conta de trabalho. Os botões *Informações* e *Desconectar* aparecem.
+2. Clique **em Desconectar**.
+3. Confirme a remoção da conta do dispositivo clicando em **Sim**.
+
 ### <a name="step-3-connect-the-device-to-azure-ad"></a>Etapa 3: Conexão o dispositivo para o Azure AD
-1.  Clique em **Conectar**.
-2.  Insira o endereço de email da sua conta de trabalho e clique em **Next**.
-3.  Insira a senha da sua conta de trabalho e clique **em Entrar**.
-4.  Confirme clicando em **Done**. Sua conta de trabalho está listada novamente.
+
+1. Clique em **Conectar**.
+2. Insira o endereço de email da sua conta de trabalho e clique em **Next**.
+3. Insira a senha da sua conta de trabalho e clique **em Entrar**.
+4. Confirme clicando em **Done**. Sua conta de trabalho está listada novamente.
 
 ## <a name="android"></a>Android
 
-Para Android, os usuários precisarão registrar e registrar seus dispositivos de novo. Isso pode ser feito por meio do aplicativo Microsoft Authenticator ou do Portal da Empresa aplicativo. 
+Para Android, os usuários precisarão registrar e registrar seus dispositivos de novo. Isso pode ser feito por meio do aplicativo Microsoft Authenticator ou do Portal da Empresa aplicativo.
 
 - No aplicativo Microsoft Authenticator, os usuários podem ir **Configurações > Registro de Dispositivos**. A partir daí, os usuários podem se registrar e registrar seus dispositivos de novo.
- 
+
 - Na Portal da Empresa, os usuários podem ir até a guia **Dispositivos** e remover o dispositivo. Depois disso, re-inscreva o dispositivo usando Portal da Empresa.
- 
+
 - Os usuários também podem registrar-se e re-registrar removendo a conta da página de configurações da conta e, em seguida, adicionando a conta de trabalho.
 
 Para não registrar e registrar o dispositivo no Android usando o Microsoft Authenticator app:
 
-1.  Abra o Microsoft Authenticator aplicativo e vá para **Configurações**.
-2.  Selecione **Registro de dispositivo**.
-3.  Desaconselhe o dispositivo **selecionando Unregister**.
-4.  Para **registro de dispositivo,** registre o dispositivo digitando seu endereço de email e selecione **Registrar**.
+1. Abra o Microsoft Authenticator aplicativo e vá para **Configurações**.
+2. Selecione **Registro de dispositivo**.
+3. Desaconselhe o dispositivo **selecionando Unregister**.
+4. Para **registro de dispositivo,** registre o dispositivo digitando seu endereço de email e selecione **Registrar**.
 
 Para não registrar e registrar um dispositivo Android com a página Configurações Android:
 
-1.  Abra **o dispositivo Configurações** e vá para **Contas**.
-2.  Selecione a conta de trabalho que você deseja registrar e selecione **Remover conta**.
-3.  Depois que a conta for removida, na página **Contas,** selecione **Adicionar Conta > Conta de Trabalho**.
-4.  Para **Ingressar no Local de Trabalho,** digite seu endereço de email e selecione **Ingressar** para concluir o registro do dispositivo.
+1. Abra **o dispositivo Configurações** e vá para **Contas**.
+2. Selecione a conta de trabalho que você deseja registrar e selecione **Remover conta**.
+3. Depois que a conta for removida, na página **Contas,** selecione **Adicionar Conta > Conta de Trabalho**.
+4. Para **Ingressar no Local de Trabalho,** digite seu endereço de email e selecione **Ingressar** para concluir o registro do dispositivo.
 
 Para não registrar e registrar o dispositivo no Android de Portal da Empresa:
 
-1.  Iniciar Portal da Empresa e vá para **a guia Dispositivos.**
-2.  Selecione o dispositivo para ver os detalhes do dispositivo.
-3.  No menu releitos (três pontos), selecione **Remover** Dispositivo e conclua a remoção confirmando na caixa de diálogo.
-4.  Agora você deve estar conectado ao aplicativo Portal da Empresa. Selecione **Entrar para** registrar o dispositivo de novo.
+1. Iniciar Portal da Empresa e vá para **a guia Dispositivos.**
+2. Selecione o dispositivo para ver os detalhes do dispositivo.
+3. No menu releitos (três pontos), selecione **Remover** Dispositivo e conclua a remoção confirmando na caixa de diálogo.
+4. Agora você deve estar conectado ao aplicativo Portal da Empresa. Selecione **Entrar para** registrar o dispositivo de novo.
 
 Para obter mais informações sobre as ações necessárias durante a fase de migração dessa carga de trabalho ou impacto na administração ou no uso, revise as informações sobre o Azure Active Directory [(Azure AD)](ms-cloud-germany-transition-azure-ad.md)em Informações adicionais do Azure AD para a migração do Microsoft Cloud Deutschland .
 
@@ -132,13 +142,13 @@ Em dispositivos iOS, um usuário precisará remover manualmente todas as contas 
 2. Toque no **Configurações** no canto superior direito. Se você não vir o **ícone** Configurações, talvez não use a versão mais recente do Microsoft Authenticator.
 3. Toque no **botão Remover conta.**
 4. Toque **em Todos os aplicativos neste dispositivo**.
- 
+
 ### <a name="step-2-unregister-the-device-from-the-microsoft-authenticator-app"></a>Etapa 2: Desaconselhe o dispositivo do Microsoft Authenticator app
 
 1. Toque no ícone de menu no canto superior direito.
 2. Toque **Configurações** e, em seguida, **Registro de Dispositivo.**
-4. Se sua conta for mostrada, toque em Dispositivo de Registro **Não-Registro** e **Continue** na caixa de diálogo. Você não deve ver nenhuma conta depois disso.
- 
+3. Se sua conta for mostrada, toque em Dispositivo de Registro **Não-Registro** e **Continue** na caixa de diálogo. Você não deve ver nenhuma conta depois disso.
+
 ### <a name="step-3-sign-out-from-individual-apps-if-necessary"></a>Etapa 3: Sair de aplicativos individuais, se necessário
 
 Os usuários podem ir para aplicativos individuais como Outlook, Teams e OneDrive e remover contas desses aplicativos.
@@ -166,7 +176,7 @@ Para verificar se seus dispositivos estão registrados na nuvem pública, você 
 Get-AzureADServicePrincipal -All:$true |Where-object -Property AppId -eq "0000000a-0000-0000-c000-000000000000" | Set-AzureADServicePrincipal -AccountEnabled:$false
 ```
 
-## <a name="more-information"></a>Mais Informações
+## <a name="more-information"></a>Mais informações
 
 Como começar:
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Exibir uma lista completa de certificados raiz e autoridades de certificados (CAs) em Microsoft 365.
-ms.openlocfilehash: 3bb48bf82f3f00223d3a913280e34fe4f0686426
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: ab4ca6f92407659b96e177161e0fd0c2847a890c
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226750"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288798"
 ---
 # <a name="microsoft-365-encryption-chains"></a>Microsoft 365 de criptografia
 
@@ -321,7 +321,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 | **URLs CRLs** | http://crl.digicert.cn/DigiCertGlobalRootCA.crl |
 | **OCSP URLs** | http://ocsp.digicert.cn |
 
-### <a name="digicert-cloud-services-ca-1"></a>**DigiCert Cloud Services CA-1**
+### <a name="digicert-cloud-services-ca-1-older"></a>**DigiCert Cloud Services CA-1** (mais antigo)
 
 | **Subject** | CN=DigiCert Cloud Services CA-1<br>O=DigiCert Inc<br>C=US |
 | --- | --- |
@@ -352,7 +352,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 | **Identificador de Chave de Assunto** | dd:51:d0:a2:31:73:a9:73:ae:8f:b4:01:7e:5d:8c:57:cb:9f:f0:f7 |
 | **Identificador de Chave de Autoridade** | 03:de:50:35:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
 | **Impressão digital (SHA-1)** | B3F6B64A07BB9611F47174407841F564FB991F29 |
-| **Impressão digital (SHA-256)** | 5F88694615E4C61686E106B84C3338C6720C535F60D36F61282ED15E1977DDD44 | -
+| **Impressão digital (SHA-256)** | 5F88694615E4C61686E106B84C3338C6720C535F60D36F61282ED15E1977DDD44 |
 | **Pin (SHA-256)** | UgpUVparimk8QCjtWQaUQ7EGrtrykc/L8N66EhFY3VE= |
 | **URLs CRLs** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl<br>http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
 | **OCSP URLs** | http://ocsp.digicert.com
@@ -516,7 +516,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 | **URLs CRLs** | http://crl.globalsign.com/root-r3.crl |
 | **OCSP URLs** | http://ocsp2.globalsign.com/rootr3 |
 
-### <a name="globalsign-organization-validation-ca---sha256---g2"></a>**CA de Validação da Organização GlobalSign - SHA256 - G2**
+### <a name="globalsign-organization-validation-ca---sha256---g2-older"></a>**CA de Validação da Organização GlobalSign - SHA256 - G2** (mais antigo)
 
 | **Subject** | CN=GlobalSign Organization Validation CA - SHA256 - G2<br>O=GlobalSign nv-sa<br>C=BE |
 | --- | --- |

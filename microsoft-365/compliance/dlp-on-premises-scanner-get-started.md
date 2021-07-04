@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Configurar o scanner local de prevenção contra perda de dados do Microsoft 365
-ms.openlocfilehash: b21474f3a9e045bf353d62ef6c7c8d4174801a1b
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 0390ac48b351b30b75109a3e3a5d18c80847c9d2
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623828"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289194"
 ---
 # <a name="get-started-with-the-data-loss-prevention-on-premises-scanner-preview"></a>Obter o scanner local de prevenção contra perda de dados (visualização)
 
@@ -115,7 +115,7 @@ Os dados do scanner DLP local podem ser visualizados no [Explorador de atividade
 
 2. Consulte os procedimentos em [Introdução ao explorador de Atividades](data-classification-activity-explorer.md) para acessar e filtrar todos os dados para os locais do scanner local.
 
-3. Abra o [Registro de Auditoria no centro de Conformidade](https://security.microsoft.com/auditlogsearch). Durante a visualização pública, as correspondências de regras de DLP estão disponíveis na IU do log de Auditoria ou acessíveis por [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog?view=exchange-ps) Windows PowerShell 
+3. Abra o [Registro de Auditoria no centro de Conformidade](https://security.microsoft.com/auditlogsearch). Durante a visualização pública, as correspondências de regras de DLP estão disponíveis na IU do log de Auditoria ou acessíveis por [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) Windows PowerShell 
 
 
 ## <a name="next-steps"></a>Próximas etapas

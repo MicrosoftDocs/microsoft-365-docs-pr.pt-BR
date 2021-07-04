@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: ''
-ms.openlocfilehash: 90c76fade54c109fc02e145a49bbe93d11ad8b79
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: ad9bf2ba40ede2d76246c56bf94b90e0e96aeeff
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822461"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288270"
 ---
 # <a name="predictive-coding-reference-preview"></a>Referência de codificação preditiva (visualização)
 
@@ -36,14 +36,18 @@ Um conjunto de controles é usado durante o processo de treinamento de um modelo
 ## <a name="control-set-confusion-matrix"></a>Matriz de confusão do conjunto de controle
 
 Depois de concluir uma rodada de treinamento, o modelo atribui uma pontuação de previsão aos 10 itens no conjunto de controle que você rotulou durante a rodada de treinamento. O modelo compara a pontuação de previsão desses 10 itens com o rótulo real atribuído ao item durante a rodada de treinamento. Com base nessa comparação, o modelo identifica as seguintes classificações para avaliar o desempenho de previsão do modelo:
-  
-  |          |Modelo prevê que item é relevante |Modelo prevê item não é relevante |
-  |:---------|:---------|:---------|
-  |**Item de rótulos do revistor como relevante**| Verdadeiro positivo| Falso positivo |
-  |**Item rótulos do revistor como não relevante**| Falso negativo |Verdadeiro negativo |
-  ||||
 
-  Com base nessas comparações, o modelo deriva valores para as métricas de pontuação F, precisão e recall e a margem de erro para cada uma delas. O número de cada um dos tipos de confusão da matriz é exibido na página de sobrevoo para uma rodada de treinamento.
+<br>
+
+****
+
+|Rótulo|Modelo prevê que item é relevante|Modelo prevê item não é relevante|
+|---|---|---|
+|**Item de rótulos do revistor como relevante**|Verdadeiro positivo|Falso positivo|
+|**Item rótulos do revistor como não relevante**|Falso negativo|Verdadeiro negativo|
+|
+
+Com base nessas comparações, o modelo deriva valores para as métricas de pontuação F, precisão e recall e a margem de erro para cada uma delas. O número de cada um dos tipos de confusão da matriz é exibido na página de sobrevoo para uma rodada de treinamento.
 
 ## <a name="f-score"></a>Pontuação F
 

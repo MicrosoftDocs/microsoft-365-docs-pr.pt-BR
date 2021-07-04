@@ -19,12 +19,12 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: Aprenda como otimizar o desempenho de extensões personalizadas nas páginas do site modernas do SharePoint Online.
-ms.openlocfilehash: 05d9b9cd9ad70630169595dc42080c718b39dbc8
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: af3645274b800a4eb8090957fc62397465022343
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923048"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288942"
 ---
 # <a name="optimize-custom-extension-performance-in-sharepoint-online-modern-site-pages"></a>Otimizar o desempenho da extensão personalizada nas páginas do site modernas do SharePoint Online
 
@@ -55,7 +55,8 @@ As informações disponíveis nos resultados incluem:
 - **O total** mostra o tempo total da extensão para a carga e inicialização do módulo. É o tempo relativo total levado pela extensão a ser executada na página, do início ao fim.
 - **A carga do** módulo mostra o tempo de download, avaliação e carregamento das extensões arquivos JavaScript e CSS. Em seguida, ele iniciará o processo Deit.
 - **Init** mostra o tempo que a extensão levou para inicializar os dados.
-    É uma chamada assíncrona e o tempo de emissão é o cálculo de tempo para a função onInit quando a promessa retornada é resolvida.
+
+  É uma chamada assíncrona e o tempo de emissão é o cálculo de tempo para a função onInit quando a promessa retornada é resolvida.
 
 Essas informações são fornecidas para ajudar designers e desenvolvedores a solucionar problemas. Elas devem ser encaminhadas à equipe de design e desenvolvimento.
 

@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Use a API REST para obter informações sobre um modelo e a biblioteca onde ele foi aplicado.
-ms.openlocfilehash: 2449084653c6d9af8d774edc306c485e7a466bf6
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 29240a6210e2079a082be6c3a07aae890d932719
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177064"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288750"
 ---
 # <a name="get-model-and-library-information"></a>Obter informações sobre modelo e biblioteca
 
@@ -58,6 +58,7 @@ Neste exemplo, a ID do modelo de compreensão de documentos do Contrato da Conto
 ```HTTP
 GET /sites/TestCC/_api/machinelearning/publications/getbymodeluniqueid('7645e69d-21fb-4a24-a17a-9bdfa7cb63dc') HTTP/1.1
 ```
+
 #### <a name="sample-response"></a>Resposta de amostra
 
 **Código de status:** 200

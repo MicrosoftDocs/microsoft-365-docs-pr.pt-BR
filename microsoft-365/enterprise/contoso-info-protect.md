@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a Contoso usa os recursos de proteção de informações no Microsoft 365 para empresas para proteger seus ativos digitais na nuvem.
-ms.openlocfilehash: 3bd778708e30253e53cc465e89f7b783141771de
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: bb797fa4f71b699069f8542b8bc7a353a9ee1698
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051491"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288666"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Proteção de Informações da Contoso Corporation
 
@@ -34,7 +34,7 @@ A Contoso realizou uma análise de seus dados e determinou os seguintes níveis 
 
 | Nível 1: linha de base | Nível 2: Confidencial | Nível 3: altamente controlado |
 |:-------|:-----|:-----|
-| Os dados são criptografados e estão disponíveis somente para usuários autenticados.<BR> <BR> Fornecido para todos os dados armazenados no local e em cargas de trabalho e armazenamento baseados em nuvem. Os dados são criptografados enquanto residem no serviço e em trânsito entre o serviço e os dispositivos cliente. <BR><BR>Exemplos de dados de Nível 1 são comunicações de negócios normais (email) e arquivos para trabalhadores administrativos, de vendas e de suporte. | Nível 1 mais autenticação forte e proteção contra perda de dados.<BR> <BR> A autenticação forte inclui Azure AD Multi-Factor Authentication (MFA) com SMS validação. A prevenção contra perda de dados garante que informações confidenciais ou críticas não estejam fora da nuvem da Microsoft.<BR><BR>Exemplos de dados de Nível 2 são informações financeiras e legais e dados de pesquisa e desenvolvimento para novos produtos. | Nível 2 mais os níveis mais altos de criptografia, autenticação e auditoria.<BR><BR>Os níveis mais altos de criptografia de dados em repouso e na nuvem, em conformidade com os regulamentos regionais, combinados a MFA com cartões inteligentes, auditoria e alerta granulares.<BR> <BR>Exemplos de dados de Nível 3 são informações pessoais do cliente e do parceiro, especificações de engenharia de produto e técnicas de manufatura proprietárias.  |
+| Os dados são criptografados e estão disponíveis somente para usuários autenticados.<BR> <BR> Fornecido para todos os dados armazenados no local e em cargas de trabalho e armazenamento baseados em nuvem. Os dados são criptografados enquanto residem no serviço e em trânsito entre o serviço e os dispositivos cliente. <BR><BR>Exemplos de dados de Nível 1 são comunicações de negócios normais (email) e arquivos para trabalhadores administrativos, de vendas e de suporte. | Nível 1 mais autenticação forte e proteção contra perda de dados.<BR> <BR> A autenticação forte inclui Azure AD Multi-Factor Authentication (MFA) com validação SMS. A prevenção contra perda de dados garante que informações confidenciais ou críticas não estejam fora da nuvem da Microsoft.<BR><BR>Exemplos de dados de Nível 2 são informações financeiras e legais e dados de pesquisa e desenvolvimento para novos produtos. | Nível 2 mais os níveis mais altos de criptografia, autenticação e auditoria.<BR><BR>Os níveis mais altos de criptografia de dados em repouso e na nuvem, em conformidade com os regulamentos regionais, combinados a MFA com cartões inteligentes, auditoria e alerta granulares.<BR> <BR>Exemplos de dados de Nível 3 são informações pessoais do cliente e do parceiro, especificações de engenharia de produto e técnicas de manufatura proprietárias.  |
 ||||
 
 ## <a name="contoso-information-policies"></a>Políticas de informações da Contoso
@@ -64,11 +64,11 @@ A Contoso seguiu estas etapas para preparar Microsoft 365 para a empresa para se
 
    A Contoso criou rótulos de confidencialidade para seus níveis de dados, com rótulos altamente regulamentados incluindo criptografia, permissões e marcas d'água.
 
-4.  Mover dados de sites SharePoint locais e compartilhamentos de arquivos para seus novos SharePoint sites
+4. Mover dados de sites SharePoint locais e compartilhamentos de arquivos para seus novos SharePoint sites
 
     Os arquivos migrados para os novos sites do SharePoint herdaram os rótulos de retenção padrão atribuídos ao site.
 
-5.  Treinar os funcionários como usar rótulos de sensibilidade para novos documentos, como interagir com a IT da Contoso ao criar novos sites SharePoint e sempre armazenar ativos digitais em sites SharePoint sites
+5. Treinar os funcionários como usar rótulos de sensibilidade para novos documentos, como interagir com a IT da Contoso ao criar novos sites SharePoint e sempre armazenar ativos digitais em sites SharePoint sites
 
     A alteração de hábitos de armazenamento de informações de funcionários ruins geralmente é considerada a parte mais difícil da transição de proteção de informações para a nuvem. A CONTOSO IT e o gerenciamento necessários para fazer com que os funcionários rotulem e armazenem sempre seus ativos digitais na nuvem, evitem usar compartilhamentos de arquivos locais e não usem serviços de armazenamento em nuvem de terceiros ou unidades USB.
 
@@ -76,9 +76,9 @@ A Contoso seguiu estas etapas para preparar Microsoft 365 para a empresa para se
 
 Como parte de sua Exchange Online e SharePoint, a Contoso configurou o seguinte conjunto de políticas de Acesso Condicional e as aplicou aos grupos apropriados:
 
-- [Acesso de aplicativo gerenciados e não gerenciado e políticas de dispositivos](../security/defender-365-security/identity-access-policies.md)
-- [Políticas de acesso do Exchange Online](../security/defender-365-security/secure-email-recommended-policies.md)
-- [Políticas de acesso do SharePoint](../security/defender-365-security/sharepoint-file-access-policies.md)
+- [Acesso de aplicativo gerenciados e não gerenciado e políticas de dispositivos](../security/office-365-security/identity-access-policies.md)
+- [Políticas de acesso do Exchange Online](../security/office-365-security/secure-email-recommended-policies.md)
+- [Políticas de acesso do SharePoint](../security/office-365-security/sharepoint-file-access-policies.md)
 
 Aqui está o conjunto resultante de políticas da Contoso para proteção de informações.
 
@@ -117,7 +117,7 @@ Saiba como a [](contoso-security-summary.md) Contoso usa os recursos de seguran�
 
 ## <a name="see-also"></a>Confira também
 
-[Roteiro de segurança](../security/defender-365-security/security-roadmap.md)
+[Roteiro de segurança](../security/office-365-security/security-roadmap.md)
 
 [Visão geral do Microsoft 365 para empresas](microsoft-365-overview.md)
 

@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 17ad28121935adfc958629f7999311c11a8d784e
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 7ee431c88430916fcba60266a3a3a5180d830c0d
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771432"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289254"
 ---
 # <a name="advanced-hunting-using-python"></a>Busca avançada usando Python
 
@@ -30,7 +30,7 @@ ms.locfileid: "52771432"
 
 **Aplica-se a:** [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -40,14 +40,13 @@ Execute consultas avançadas usando Python, consulte [Api de Busca Avançada](ru
 
 Nesta seção, compartilharemos exemplos python para recuperar um token e usá-lo para executar uma consulta.
 
->**Pré-requisito:** primeiro você precisa [criar um aplicativo](apis-intro.md).
+> **Pré-requisito:** primeiro você precisa [criar um aplicativo](apis-intro.md).
 
 ## <a name="get-token"></a>Obter token
 
 - Execute os seguintes comandos:
 
-```
-
+```python
 import json
 import urllib.request
 import urllib.parse
@@ -73,10 +72,10 @@ req = urllib.request.Request(url, data)
 response = urllib.request.urlopen(req)
 jsonResponse = json.loads(response.read())
 aadToken = jsonResponse["access_token"]
-
 ```
 
 where
+
 - tenantId: ID do locatário em nome do qual você deseja executar a consulta (ou seja, a consulta será executado nos dados desse locatário)
 - appId: ID do seu aplicativo do Azure AD (o aplicativo deve ter permissão 'Executar consultas avançadas' para o Microsoft Defender para o Ponto de Extremidade)
 - appSecret: Segredo do seu aplicativo do Azure AD
@@ -85,7 +84,7 @@ where
 
  Execute a seguinte consulta:
 
-```
+```python
 query = 'RegistryEvents | limit 10' # Paste your own query here
 
 url = "https://api.securitycenter.microsoft.com/api/advancedqueries/run"
@@ -102,7 +101,6 @@ response = urllib.request.urlopen(req)
 jsonResponse = json.loads(response.read())
 schema = jsonResponse["Schema"]
 results = jsonResponse["Results"]
-
 ```
 
 - esquema contém o esquema dos resultados de sua consulta
@@ -110,9 +108,9 @@ results = jsonResponse["Results"]
 
 ### <a name="complex-queries"></a>Consultas complexas
 
-Se você quiser executar consultas complexas (ou consultas de várias linhas), salve sua consulta em um arquivo e, em vez da primeira linha no exemplo acima, execute o comando abaixo:
+Se você quiser executar consultas complexas (ou consultas multiline), salve sua consulta em um arquivo e, em vez da primeira linha no exemplo acima, execute o comando abaixo:
 
-```
+```python
 queryFile = open("D:\\Temp\\myQuery.txt", 'r') # Replace with the path to your file
 query = queryFile.read()
 queryFile.close()
@@ -124,18 +122,15 @@ Agora você pode usar os resultados da consulta.
 
 Para iterar sobre os resultados, faça o abaixo:
 
-```
+```python
 for result in results:
     print(result) # Prints the whole result
     print(result["EventTime"]) # Prints only the property 'EventTime' from the result
-
-
 ```
-
 
 Para saída dos resultados da consulta no formato CSV no file1.csv faça o abaixo:
 
-```
+```python
 import csv
 
 outputFile = open("D:\\Temp\\file1.csv", 'w')
@@ -149,14 +144,14 @@ outputFile.close()
 
 Para saída dos resultados da consulta no formato JSON no arquivo file1.jsfazer o abaixo:
 
-```
+```python
 outputFile = open("D:\\Temp\\file1.json", 'w')
 json.dump(results, outputFile)
 outputFile.close()
 ```
 
-
 ## <a name="related-topic"></a>Tópicos relacionados
+
 - [APIs do Microsoft Defender para Ponto de Extremidade](apis-intro.md)
 - [API de Busca Avançada](run-advanced-query-api.md)
 - [Busca avançada usando o PowerShell](run-advanced-query-sample-powershell.md)

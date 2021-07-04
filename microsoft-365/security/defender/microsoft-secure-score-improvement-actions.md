@@ -11,8 +11,7 @@ ms.author: dansimp
 author: dansimp
 manager: dansimp
 audience: ITPro
-ms.collection:
-- M365-security-compliance
+ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid:
 - MOE150
@@ -21,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 8b321fc8883cf490cb5b2814d5c2b617a52dbb29
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: c4d4958c03bee7301465c16fef2cd4ff8adb1722
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246387"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288450"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Avaliar sua postura de segurança com a Pontuação Segura da Microsoft
 
@@ -36,9 +35,9 @@ O Microsoft Secure Score é uma medição da postura de segurança de uma organi
 
 Para ajudá-lo a encontrar as informações necessárias mais rapidamente, as ações de melhoria da Microsoft são organizadas em grupos:
 
-* Identidade (Azure Active Directory contas & funções)
-* Dispositivo (Microsoft Defender para Ponto de Extremidade, conhecido como [Pontuação Segura da Microsoft para Dispositivos](/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices))
-* Aplicativos (aplicativos de email e nuvem, incluindo Office 365 e Microsoft Cloud App Security)
+- Identidade (Azure Active Directory contas & funções)
+- Dispositivo (Microsoft Defender para Ponto de Extremidade, conhecido como [Pontuação Segura da Microsoft para Dispositivos](/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices))
+- Aplicativos (aplicativos de email e nuvem, incluindo Office 365 e Microsoft Cloud App Security)
 
 >[!NOTE]
 >Na versão recente do Microsoft Secure Score, um modelo de pontuação aprimorado foi lançado, o que tornou a Pontuação Segura da Microsoft temporariamente incompatível com a Pontuação Segura de Identidade e a API Graph. [Exibir detalhes](microsoft-secure-score-whats-new.md)
@@ -106,7 +105,7 @@ As ações de melhoria têm um status "concluído" depois que todos os pontos po
 
 A seção chamada **At a glance** dirá a categoria, os ataques que ela pode proteger e o produto.
 
-**O impacto do** usuário é o que os usuários  experimentarão se a ação de melhoria for aprovada, e os usuários afetados serão as pessoas que serão afetadas.
+**O impacto do** usuário é o que os usuários  experimentarão se a ação de melhoria for aprovada, e os Usuários afetados serão as pessoas que serão afetadas.
 
 ### <a name="implement-the-improvement-action"></a>Implementar a ação de melhoria
 

@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 6e5e6b87f17fd4b13945b155bd7e521881242345
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: fd378e6aba9ac9bf10dcd9633da503406ab7410a
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53230050"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287886"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Área de Trabalho Gerenciada da Microsoft dispositivos
 
@@ -32,9 +32,8 @@ Para ser registrado no Área de Trabalho Gerenciada da Microsoft, um dispositivo
 
 Os links para dispositivos aqui são apenas para sua referência. Se você quiser solicitar dispositivos, trabalhe com seus contatos de canal comercial para garantir que você escolha as configurações corretas. Nesta tabela, a data *de* arquivamento é a data na qual esses modelos estarão sujeitos a uma vida de serviço Área de Trabalho Gerenciada da Microsoft menor; esses dispositivos a bordo após essa data não receberão um termo completo de três anos de suporte do Área de Trabalho Gerenciada da Microsoft. Os dispositivos arquivados também são listados [Área de Trabalho Gerenciada da Microsoft dispositivos arquivados.](archived-device-list.md) *A data de* aposentadoria é a data em que esse modelo não terá mais suporte Área de Trabalho Gerenciada da Microsoft mesmo. Nessa data, todos os dispositivos inscritos deste modelo serão removidos do Área de Trabalho Gerenciada da Microsoft, independentemente de quando foram inscritos.
 
->[!NOTE]
->Os dispositivos podem ser adicionados a essa tabela a qualquer momento, mas forneceremos 90 dias de aviso para quaisquer alterações que afetem a data de arquivamento ou de aposentadoria. Os dispositivos adicionados mais recentemente são marcados com **\*** .
-
+> [!NOTE]
+> Os dispositivos podem ser adicionados a essa tabela a qualquer momento, mas forneceremos 90 dias de aviso para quaisquer alterações que afetem a data de arquivamento ou de aposentadoria. Os dispositivos adicionados mais recentemente são marcados com **\*** .
 
 ## <a name="microsoft-managed-desktop-devices"></a>Área de Trabalho Gerenciada da Microsoft Dispositivos
 
@@ -85,13 +84,14 @@ Além disso, o dispositivo também deve atender a esses critérios:
 - Não concluiu a experiência Windows primeira vez.
 - Ser registrado com Área de Trabalho Gerenciada da Microsoft usando o recurso [Registro de](../get-started/register-devices-self.md) Dispositivo
 
->[!NOTE]
->Dispositivos com um processador de 2,0 GHz ou mais rápido fornecerão uma experiência muito melhor para os usuários envolvidos nessas atividades:
->- Usando videoconferência com Teams. Consulte [Requisitos de hardware para Microsoft Teams](/microsoftteams/hardware-requirements-for-the-teams-app) para obter detalhes.
->-  Usando um dispositivo para várias cargas de trabalho diferentes.
->- Usando vários monitores.
+> [!NOTE]
+> Dispositivos com um processador de 2,0 GHz ou mais rápido fornecerão uma experiência muito melhor para os usuários envolvidos nessas atividades:
+>
+> - Usando videoconferência com Teams. Consulte [Requisitos de hardware para Microsoft Teams](/microsoftteams/hardware-requirements-for-the-teams-app) para obter detalhes.
+> - Usando um dispositivo para várias cargas de trabalho diferentes.
+> - Usando vários monitores.
 
-**Mais ajuda**
+## <a name="more-help"></a>Mais ajuda
 
 Esses recursos podem ajudar a responder a perguntas que você pode ter sobre dispositivos específicos:
 

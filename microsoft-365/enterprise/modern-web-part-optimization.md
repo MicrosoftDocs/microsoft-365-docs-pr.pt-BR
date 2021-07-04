@@ -21,26 +21,26 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: Saiba como usar o Diagnóstico de Página para otimizar o desempenho das Web Parts SharePoint páginas de site modernas online.
-ms.openlocfilehash: 2a72ecd8bc1f6dee4166809f72ce5f9bce422dc9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: fab5b0bc9d0b04ede0815856af7366e277dbf909
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929055"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288894"
 ---
 # <a name="optimize-web-part-performance-in-sharepoint-online-modern-site-pages"></a>Otimizar o desempenho de Web Parts em páginas de site moderno do SharePoint Online
 
 As páginas de site moderno do SharePoint Online contêm Web Parts que podem contribuir para os tempos totais de carregamento de página. Este artigo ajudará você a entender como determinar de que modo as Web Parts em suas páginas afetam a latência percebida pelo usuário e como corrigir problemas comuns.
 
->[!NOTE]
->Para obter mais informações sobre o desempenho dos portais modernos do SharePoint Online, confira [Desempenho na experiência moderna do SharePoint](/sharepoint/modern-experience-performance).
+> [!NOTE]
+> Para obter mais informações sobre o desempenho dos portais modernos do SharePoint Online, confira [Desempenho na experiência moderna do SharePoint](/sharepoint/modern-experience-performance).
 
 ## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-web-parts"></a>Usar a ferramenta Diagnóstico de Página para SharePoint para analisar Web Parts
 
 A ferramenta Diagnóstico de Página para SharePoint é uma extensão do navegador para os novos navegadores Microsoft Edge (https://www.microsoft.com/edge) e Chrome que analisam o portal moderno do SharePoint Online e as páginas clássicas do site de publicação. A ferramenta fornece um relatório para cada página analisada que mostra o desempenho da página em relação a um conjunto definido de critérios de desempenho. Para instalar e saber mais sobre a ferramenta Diagnóstico de Página para SharePoint, acesse [Usar a ferramenta Diagnóstico de Página para SharePoint Online](page-diagnostics-for-spo.md).
 
->[!NOTE]
->A ferramenta de Diagnóstico de Página só funciona com o SharePoint Online e não pode ser usada em uma página do sistema do SharePoint.
+> [!NOTE]
+> A ferramenta de Diagnóstico de Página só funciona com o SharePoint Online e não pode ser usada em uma página do sistema do SharePoint.
 
 Ao analisar uma página de site do SharePoint com a ferramenta Diagnóstico de Página para SharePoint, você pode ver informações sobre Web Parts que excedem a métrica de linha de base no resultado de **As Web Parts estão afetando o tempo de carregamento da página**, no painel _Testes de diagnóstico_.
 
@@ -62,10 +62,13 @@ As informações disponíveis nos resultados incluem:
 - **A carga do** módulo mostra o tempo de download, avaliação e carregamento das extensões arquivos JavaScript e CSS. Em seguida, ele iniciará o processo Deit.
 - **Lazy Load** mostra o tempo de carregamento adiado de web parts não vistas na seção principal da página. Há certas condições em que há web parts demais para renderizar e elas são en filas para renderizar para minimizar o tempo de carregamento da página.
 - **Init** mostra o tempo que a Web Part levou para inicializar os dados.
-    É uma chamada assíncrona e o tempo de emissão é o cálculo de tempo para a função onInit quando a promessa retornada é resolvida.
+
+  É uma chamada assíncrona e o tempo de emissão é o cálculo de tempo para a função onInit quando a promessa retornada é resolvida.
+
 - **A** renderização mostra o tempo de renderização da interface do usuário (interface do usuário) depois que a carga do módulo e a init são concluídas.
-    É a hora de execução do JavaScript para montar o DOM no documento (página).
-    A renderização de recursos assíncronos, por exemplo, imagens, pode levar mais tempo para ser concluída.
+
+  É a hora de execução do JavaScript para montar o DOM no documento (página).
+  A renderização de recursos assíncronos, por exemplo, imagens, pode levar mais tempo para ser concluída.
 
 Essas informações são fornecidas para ajudar designers e desenvolvedores a solucionar problemas. Elas devem ser encaminhadas à equipe de design e desenvolvimento.
 

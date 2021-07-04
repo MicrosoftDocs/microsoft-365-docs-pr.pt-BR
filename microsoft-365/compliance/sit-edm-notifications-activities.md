@@ -17,16 +17,16 @@ search.appverid:
 - MET150
 description: Aprenda como criar notificações para atividades de correspondência exata de dados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15aa8f2bda76d56d3e35af8e884193193bb78d40
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: da00c43ae9ba5b129129027df16f49ef80b8757d
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007556"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288162"
 ---
 # <a name="create-notifications-for-exact-data-match-activities"></a>Criar notificações para atividades de correspondência exata de dados
 
-Ao [criar tipos de informações confidenciais personalizadas com correspondência exata de dados (EDM)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md), uma série de atividades são criadas no [log de auditoria](search-the-audit-log-in-security-and-compliance.md#requirements-to-search-the-audit-log). Você pode usar o cmdlet do PowerShell [New-ProtectionAlert](/powershell/module/exchange/new-protectionalert?view=exchange-ps) para criar notificações que o informam quando estas atividades ocorrem:
+Ao [criar tipos de informações confidenciais personalizadas com correspondência exata de dados (EDM)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md), uma série de atividades são criadas no [log de auditoria](search-the-audit-log-in-security-and-compliance.md#requirements-to-search-the-audit-log). Você pode usar o cmdlet do PowerShell [New-ProtectionAlert](/powershell/module/exchange/new-protectionalert) para criar notificações que o informam quando estas atividades ocorrem:
 
 - CreateSchema
 - EditSchema
@@ -55,7 +55,7 @@ Para saber mais sobre o licenciamento DLP, confira [Diretrizes de licenciamento 
 
 ## <a name="configure-notifications-for-edm-activities"></a>Configurar notificações para atividades de EDM
 
-1. Conectar-se ao PowerShell do [Centro de Conformidade e Segurança](/powershell/exchange/connect-to-scc-powershell?view=exchange-ps) 
+1. Conectar-se ao PowerShell do [Centro de Conformidade e Segurança](/powershell/exchange/connect-to-scc-powershell) 
 
 2. Execute o cmdlet `New-ProtectionAlert` usando a atividade para a qual você deseja criar a notificação.  Por exemplo, execute se você quiser ser notificado quando a ação **UploadDataCompleted** ocorrer,
 
@@ -72,4 +72,4 @@ New-ProtectionAlert -Name "EdmUploadFailAlertPolicy" -Category Others -NotifyUse
 ## <a name="related-articles"></a>Artigos relacionados
 
 - [Criar tipos de informações confidenciais personalizadas com combinação exata de dados (EDM)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
-- [New-ProtectionAlert](/powershell/module/exchange/new-protectionalert?view=exchange-ps)
+- [New-ProtectionAlert](/powershell/module/exchange/new-protectionalert)

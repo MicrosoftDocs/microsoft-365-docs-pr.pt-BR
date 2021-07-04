@@ -23,12 +23,12 @@ ms.custom: migrationguides
 ms.topic: article
 ms.date: 06/14/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 832414e9b2a88114cafafbba78e22ea656cc7949
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 8fcf0491629a068f1ebc97e226a2c9b05e306cbf
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930458"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289506"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-3-onboard"></a>Alternar para o Microsoft Defender para o Ponto de Extremidade - Fase 3: Onboard
 
@@ -91,7 +91,7 @@ Agora que seus pontos de extremidade foram integrados ao Defender para Ponto de 
 | Método  | O que fazer  |
 |:-------|:-------|
 |Prompt de comando     | 1. Em um Windows, abra o Prompt de Comando como administrador.<p>2. Digite `sc query windefend` e pressione Enter.<p>3. Revise os resultados para confirmar se o Microsoft Defender Antivírus está sendo executado no modo passivo.         |
-| PowerShell     | 1. Em um Windows, abra Windows PowerShell como administrador.<p>2. Execute o cmdlet [Get-MpComputerStatus.](/powershell/module/defender/Get-MpComputerStatus) <p>3. Na lista de resultados, procure **AMRunningMode: Modo** Passivo ou **AMRunningMode: Modo Passivo SxS**.    |
+| Windows PowerShell     | 1. Em um Windows, abra Windows PowerShell como administrador.<p>2. Execute o cmdlet [Get-MpComputerStatus.](/powershell/module/defender/Get-MpComputerStatus) <p>3. Na lista de resultados, procure **AMRunningMode: Modo** Passivo ou **AMRunningMode: Modo Passivo SxS**.    |
 
 > [!NOTE]
 > Você pode ver *Windows Defender Antivírus* em vez *de Microsoft Defender Antivírus* em algumas versões do Windows.
@@ -103,7 +103,7 @@ Para definir Microsoft Defender Antivírus modo passivo no Windows Server, vers�
 1. Abra o Editor do Registro e navegue até <br/>
    `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`.
 
-2. Edite (ou crie) uma entrada DWORD chamada **ForcePassiveMode** e especifique as seguintes configurações:
+2. Edite (ou crie) uma entrada DWORD chamada **ForceDefenderPassiveMode** e especifique as seguintes configurações:
    - De definir o valor do DWORD como **1**.
    - Em **Base,** selecione **Hexadecimal**.
 

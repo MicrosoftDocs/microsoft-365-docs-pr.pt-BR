@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Se ele está adicionando novas soluções ao centro de conformidade, atualizando recursos existentes com base em seus comentários ou implantando documentação atualizada e atualizada, Microsoft 365 ajuda você a se manter no topo do cenário de conformidade em constante mudança. Descubra o que estamos fazendo este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6cd82e66a0b01f4cd329d846cf43581759dec0b6
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: aec9135a00b53f504d19a80e428d52f21b92cf9c
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228454"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288126"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Novidades na Conformidade do Microsoft 365
 
@@ -201,7 +201,7 @@ O conteúdo foi adicionado ou atualizado nos seguintes tópicos:
 - [Saiba mais sobre o Microsoft 365 de prevenção de perda de dados local](/microsoft-365/compliance/dlp-on-premises-scanner-learn)
 - [Começar com o scanner local de prevenção contra perda de dados](/microsoft-365/compliance/dlp-on-premises-scanner-get-started)
 - [Criar uma política DLP para proteger documentos com FCI ou outras propriedades](/microsoft-365/compliance/protect-documents-that-have-fci-or-other-properties)
-- [Usando a Prevenção contra perda de dados de ponto de extremidade](/microsoft-365/compliance/endpoint-dlp-using)
+- [Usar a Prevenção contra perda de dados de ponto de extremidade](/microsoft-365/compliance/endpoint-dlp-using)
 - [Introdução à Prevenção contra perda de dados do ponto de extremidade](/microsoft-365/compliance/endpoint-dlp-getting-started)
 
 ### <a name="ediscovery"></a>Descoberta eletrônica

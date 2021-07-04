@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Use a ação de auditoria da caixa de correio MailItemsAccessed para executar investigações de perícia das contas de usuários comprometidas.
-ms.openlocfilehash: e9dda101b330f6632e66c226156df3497ac38453
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 64f3e5f3423f5182277fe7640199a39dc11068f2
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50903477"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288774"
 ---
 # <a name="use-advanced-audit-to-investigate-compromised-accounts"></a>Usar a Auditoria Avançada para investigar contas comprometidas
 
@@ -37,7 +37,7 @@ A ação de auditoria da caixa de correio MailItemsAccessed abrange todos os pro
 
 ### <a name="auditing-sync-access"></a>Auditoria do acesso de sincronização
 
-As operações de sincronização só são registradas quando uma caixa de correio é acessada por uma versão de área de trabalho do cliente do Outlook para Windows ou Mac. Durante a operação de sincronização, esses clientes geralmente baixam um grande conjunto de itens de email da nuvem para um computador local. O volume de auditoria para operações de sincronização é enorme. Então, em vez de gerar um registro de auditoria para item de email que é sincronizado, basta gerar um evento de auditoria para a pasta de email com os itens que foram sincronizados. Isso supõe que *todos* os itens de email na pasta sincronizada foram comprometidos. O tipo de acesso é registrado no campo OperationProperties do registro de auditoria. 
+As operações de sincronização só são registradas quando uma caixa de correio é acessada por uma versão de área de trabalho do cliente do Outlook para Windows ou Mac. Durante a operação de sincronização, esses clientes geralmente baixam um grande conjunto de itens de email da nuvem para um computador local. O volume de auditoria para operações de sincronização é enorme. Então, em vez de gerar um registro de auditoria para item de email que é sincronizado, basta gerar um evento de auditoria para a pasta de email com os itens que foram sincronizados. Isso supõe que *todos* os itens de email na pasta sincronizada foram comprometidos. O tipo de acesso é registrado no campo OperationProperties do registro de auditoria.
 
 Confira a etapa 2 na seção [Usar os registros de auditoria MailItemsAccessed para investigações de perícia](#use-mailitemsaccessed-audit-records-for-forensic-investigations) para obter um exemplo de como exibir o tipo de acesso de sincronização em um registro de auditoria.
 
@@ -49,16 +49,13 @@ Confira a etapa 4 na seção [Usar os registros de auditoria MailItemsAccessed p
 
 ### <a name="throttling-of-mailitemsaccessed-audit-records"></a>Limitação de registros de auditoria MailItemsAccessed
 
-Se mais de 1.000 registros de auditoria MailItemsAccessed forem gerados em menos de 24 horas, o Exchange Online deixará de gerar registros de auditoria para a atividade MailItemsAccessed. Quando uma caixa de correio é limitada, a atividade MailItemsAccessed não será registrada por 24 horas após a limitação da caixa de correio. Se isso ocorrer, há uma possibilidade de que a caixa de correio tenha sido comprometida durante esse período. A gravação da atividade MailItemsAccessed será retomada após um período de 24 horas.  
+Se mais de 1.000 registros de auditoria MailItemsAccessed forem gerados em menos de 24 horas, o Exchange Online deixará de gerar registros de auditoria para a atividade MailItemsAccessed. Quando uma caixa de correio é limitada, a atividade MailItemsAccessed não será registrada por 24 horas após a limitação da caixa de correio. Se isso ocorrer, há uma possibilidade de que a caixa de correio tenha sido comprometida durante esse período. A gravação da atividade MailItemsAccessed será retomada após um período de 24 horas.
 
 Aqui estão alguns pontos para lembrar sobre a limitação:
 
 - Menos de 1% de todas as caixas de correio no Exchange Online são limitadas.
-
-- Quando uma caixa de correio é limitada, apenas os registros de auditoria para a atividade MailItemsAccessed não são auditados. Outras ações de auditoria da caixa de correio não são afetadas.
-
+- Quando uma caixa de correio está diminuindo, apenas os registros de auditoria da atividade MailItemsAccessed não são auditados. Outras ações de auditoria de caixa de correio não são afetadas.
 - As caixas de correio são limitadas apenas para operações de vinculação. Os registros de auditoria para operações de sincronização não são limitados.
-
 - Se uma caixa de correio for limitada, você poderá supor que havia uma atividade MailItemsAccessed que não foi gravada no logs de auditoria.
 
 Confira a etapa 1 na seção [Usar registros de auditoria MailItemsAccessed para investigações de perícia](#use-mailitemsaccessed-audit-records-for-forensic-investigations) para obter um exemplo de como exibir a propriedade IsThrottled em um registro de auditoria.
@@ -67,17 +64,17 @@ Confira a etapa 1 na seção [Usar registros de auditoria MailItemsAccessed para
 
 A auditoria de caixa de correio gera registros de auditoria para acesso a mensagens de email para que você tenha certeza de que as mensagens de email não foram comprometidas. Por esse motivo, em situações em que não sabemos que alguns dados foram acessados, supomos que foram acessados gravando todas as atividades de acesso ao email.
 
-Geralmente usa-se os registros de auditoria MailItemsAccessed para fins de perícia após uma violação de dados ser resolvida e o invasor ser removido. Para iniciar a investigação, identifique o conjunto de caixas de correio que foram comprometidas e determine o período de tempo em que o invasor teve acesso às caixas de correio em sua organização. Em seguida, você pode usar os cmdlets **Search-UnifiedAuditLog** ou **Search-MailboxAuditLog** no [PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell) para pesquisar registros de auditoria que correspondem à violação de dados. 
+Geralmente usa-se os registros de auditoria MailItemsAccessed para fins de perícia após uma violação de dados ser resolvida e o invasor ser removido. Para iniciar a investigação, identifique o conjunto de caixas de correio que foram comprometidas e determine o período de tempo em que o invasor teve acesso às caixas de correio em sua organização. Em seguida, você pode usar os cmdlets **Search-UnifiedAuditLog** ou **Search-MailboxAuditLog** no [PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell) para pesquisar registros de auditoria que correspondem à violação de dados.
 
 Você pode executar um dos seguintes comandos para pesquisar registros de auditoria MailItemsAccessed:
 
-**Log de auditoria unificada**
+**Log de auditoria unificado**:
 
 ```powershell
 Search-UnifiedAuditLog -StartDate 01/06/2020 -EndDate 01/20/2020 -UserIds <user1,user2> -Operations MailItemsAccessed -ResultSize 1000
 ```
 
-**Log de auditoria de caixa de correio**
+**Log de auditória de caixa de correio**:
 
 ```powershell
 Search-MailboxAuditLog -Identity <user> -StartDate 01/06/2020 -EndDate 01/20/2020 -Operations MailItemsAccessed -ResultSize 1000 -ShowDetails
@@ -92,13 +89,13 @@ Estas são as etapas para usar os registros de auditoria MailItemsAccessed para 
 
    Para procurar registros MailItemsAccessed em que a caixa de correio foi limitada, execute o seguinte comando:
 
-   **Log de auditoria unificada**
- 
+   **Log de auditoria unificado**:
+
    ```powershell
    Search-UnifiedAuditLog -StartDate 01/06/2020 -EndDate 01/20/2020 -UserIds <user1,user2> -Operations MailItemsAccessed -ResultSize 1000 | Where {$_.AuditData -like '*"IsThrottled","Value":"True"*'} | FL
    ```
 
-   **Log de auditoria de caixa de correio**
+   **Log de auditória de caixa de correio**:
 
    ```powershell
    Search-MailboxAuditLog -StartDate 01/06/2020 -EndDate 01/20/2020 -Identity <user> -Operations MailItemsAccessed -ResultSize 10000 -ShowDetails | Where {$_.OperationProperties -like "*IsThrottled:True*"} | FL
@@ -108,13 +105,13 @@ Estas são as etapas para usar os registros de auditoria MailItemsAccessed para 
 
    Para procurar registros MailItemsAccessed em que os itens de email foram acessados por uma operação de sincronização, execute o seguinte comando:
 
-   **Log de auditoria unificada**
+   **Log de auditoria unificado**:
 
    ```powershell
    Search-UnifiedAuditLog -StartDate 01/06/2020 -EndDate 02/20/2020 -UserIds <user1,user2> -Operations MailItemsAccessed -ResultSize 1000 | Where {$_.AuditData -like '*"MailAccessType","Value":"Sync"*'} | FL
    ```
 
-   **Log de auditoria de caixa de correio**
+   **Log de auditória de caixa de correio**:
 
    ```powershell
    Search-MailboxAuditLog -StartDate 01/06/2020 -EndDate 01/20/2020 -Identity <user> -Operations MailItemsAccessed -ResultSize 10000 -ShowDetails | Where {$_.OperationProperties -like "*MailAccessType:Sync*"} | FL
@@ -124,67 +121,78 @@ Estas são as etapas para usar os registros de auditoria MailItemsAccessed para 
 
    Use as propriedades listadas abaixo para investigar. Essas propriedades estão localizadas na propriedade AuditData ou OperationProperties. Se qualquer uma das sincronizações ocorrer no mesmo contexto da atividade do invasor, suponha que o invasor sincronizou todos os itens de email com seu cliente, o que significa que a caixa de correio inteira provavelmente foi comprometida.
 
-   |Propriedade         | Descrição |
-   |:---------------- | :----------|
-   |ClientInfoString | Descreve protocolo, cliente (inclui versão)|
-   |ClientIPAddress  | Endereço IP do computador cliente.|
-   |SessionId        | O Session ID ajuda a diferenciar as ações do invasor versus as atividades diárias do usuário na mesma conta (no caso de uma conta comprometida)|
-   |UserId           | UPN do usuário que está lendo a mensagem.|
-   |||
+   <br>
 
-4. Verifique as atividades de vinculação. Depois de realizar as etapas 2 e 3, você pode ter certeza de que todo o acesso a mensagens de email por meio do invasor será capturado nos registros de auditoria MailItemsAccessed que têm uma propriedade MailAccessType com um valor de “Vinculação”.
+   ****
+
+   |Propriedade|Descrição|
+   |---|---|
+   |ClientInfoString|Descreve protocolo, cliente (inclui versão)|
+   |ClientIPAddress|Endereço IP do computador cliente.|
+   |SessionId|O Session ID ajuda a diferenciar as ações do invasor versus as atividades diárias do usuário na mesma conta (no caso de uma conta comprometida)|
+   |UserId|UPN do usuário que está lendo a mensagem.|
+   |
+
+4. Verifique as atividades de associação. Depois de realizar as etapas 2 e 3, você pode ter certeza de que todos os outros acessos às mensagens de e-mail pelo invasor serão capturados nos registros de auditoria MailItemsAccessed que possuem uma propriedade MailAccessType com um valor "Bind".
 
    Para procurar registros MailItemsAccessed em que os itens de email foram acessados por uma operação de vinculação, execute o seguinte comando.
 
-   **Log de auditoria unificada**
+   **Log de auditoria unificado**:
 
    ```powershell
    Search-UnifiedAuditLog -StartDate 01/06/2020 -EndDate 01/20/2020 -UserIds <user1,user2> -Operations MailItemsAccessed -ResultSize 1000 | Where {$_.AuditData -like '*"MailAccessType","Value":"Bind"*'} | FL
    ```
- 
-   **Log de auditoria de caixa de correio**
-   
+
+   **Log de auditória de caixa de correio**:
+
    ```powershell
    Search-MailboxAuditLog -StartDate 01/06/2020 -EndDate 01/20/2020 -Identity <user> -Operations MailItemsAccessed -ResultSize 10000 -ShowDetails | Where {$_.OperationProperties -like "*MailAccessType:Bind*"} | FL
    ```
 
    As mensagens de email que foram acessadas são identificadas pelo internet message Id. Você também pode verificar se algum registro de auditoria tem o mesmo contexto que o de outras atividades de invasor. Para obter mais informações, confira a seção [Identificar os contextos de acesso de diferentes registros de auditoria](#identifying-the-access-contexts-of-different-audit-records).
- 
+
    Você pode usar os dados de auditoria para operações de vinculação de duas maneiras diferentes:
 
-     - Acesse ou colete todas as mensagens de e-mail acessadas pelo invasor usando o InternetMessageId para localizá-las e verifique se alguma dessas mensagens contém informações confidenciais.
-
-     - Use o InternetMessageId para pesquisar registros de auditoria relacionados a um conjunto de mensagens de e-mail potencialmente sensíveis. Isso será útil se você estiver preocupado somente com uma pequena quantidade de mensagens.
+   - Acesse ou colete todas as mensagens de e-mail acessadas pelo invasor usando o InternetMessageId para localizá-las e verifique se alguma dessas mensagens contém informações confidenciais.
+   - Use o InternetMessageId para pesquisar registros de auditoria relacionados a um conjunto de mensagens de e-mail potencialmente sensíveis. Isso será útil se você estiver preocupado somente com uma pequena quantidade de mensagens.
 
 ## <a name="filtering-of-duplicate-audit-records"></a>Filtragem de registros de auditoria duplicados
 
 Os registros de auditoria duplicados para as mesma operações de vinculação que ocorrem dentro de uma hora entre si são filtrados para remover o ruído de auditoria. As operações de sincronização também são filtradas em intervalos de uma hora. A exceção para esse processo de deduplicação ocorre se, para o mesmo InternetMessageId, uma das propriedades descritas na tabela a seguir for diferente. Se uma dessas propriedades for diferente em uma operação duplicada, um novo registro de auditoria será gerado. Esse processo é descrito em mais detalhes na próxima seção.
 
-| Propriedade| Descrição|
-|:--------|:---------|
-|ClientIPAddress | O endereço IP do computador cliente.|
-|ClientInfoString| O protocolo cliente, o cliente usado para acessar a caixa de correio.| 
-|ParentFolder    | O caminho completo da pasta do item de email que foi acessado. |
-|Logon_type      | O tipo de logon do usuário que realizou a ação. Os tipos de logon (e seu valor de enumeração correspondente) são Proprietário (0), Administrador (1), ou Delegado (2).|
-|MailAccessType  | Se o acesso é uma operação de vinculação ou de sincronização.|
-|MailboxUPN      | O UPN da caixa de correio na qual a mensagem que está sendo lida está localizada.|
-|Usuário            | O UPN do usuário lendo a mensagem.|
-|SessionId       | O Session Id ajuda a diferenciar as ações do invasor e as atividades diárias do usuário na mesma caixa de correio (no caso de uma conta comprometida). Para saber mais sobre sessões, confira [Contextualizar a atividade do invasor dentro de sessões do Exchange Online](https://techcommunity.microsoft.com/t5/exchange-team-blog/contextualizing-attacker-activity-within-sessions-in-exchange/ba-p/608801).|
-||||
+<br>
+
+****
+
+|Propriedade|Descrição|
+|---|---|
+|ClientIPAddress|O endereço IP do computador cliente.|
+|ClientInfoString|O protocolo cliente, o cliente usado para acessar a caixa de correio.|
+|ParentFolder|O caminho completo da pasta do item de email que foi acessado.|
+|Logon_type|O tipo de logon do usuário que realizou a ação. Os tipos de logon (e seu valor de enumeração correspondente) são Proprietário (0), Administrador (1), ou Delegado (2).|
+|MailAccessType|Se o acesso é uma operação de vinculação ou de sincronização.|
+|MailboxUPN|O UPN da caixa de correio na qual a mensagem que está sendo lida está localizada.|
+|Usuário|O UPN do usuário lendo a mensagem.|
+|SessionId|O Session Id ajuda a diferenciar as ações do invasor e as atividades diárias do usuário na mesma caixa de correio (no caso de uma conta comprometida). Para saber mais sobre sessões, confira [Contextualizar a atividade do invasor dentro de sessões do Exchange Online](https://techcommunity.microsoft.com/t5/exchange-team-blog/contextualizing-attacker-activity-within-sessions-in-exchange/ba-p/608801).|
+|
 
 ## <a name="identifying-the-access-contexts-of-different-audit-records"></a>Identificar os contextos de acesso de registros de auditoria diferentes
 
 É comum que um invasor possa acessar uma caixa de correio ao mesmo tempo que o proprietário da caixa de correio está acessando. Para diferenciar o acesso do invasor do acesso do proprietário da caixa de correio, há propriedades de registro de auditoria que definem o contexto do acesso. Como explicado anteriormente, quando os valores dessas propriedades forem diferentes, mesmo quando a atividade ocorrer dentro do intervalo de agregação, os registros de auditoria separados serão gerados. No exemplo a seguir, há três registros de auditoria diferentes. Cada um é diferenciado pelas propriedades Session Id e ClientIPAddress. As mensagens que foram acessadas também são identificadas.
 
-|Registro de auditoria 1  |Registro de auditoria 2  |Registro de auditoria 3|
-|---------|---------|---------|
+<br>
+
+****
+
+|Registro de auditoria 1|Registro de auditoria 2|Registro de auditoria 3|
+|---|---|---|
 |ClientIPAddress **1**<br/>SessionId **2**|ClientIPAddress **2**<br/>SessionId **2**|ClientIPAddress **1**<br/>SessionId **3**|
-|InternetMessageId **A**<br/>InternetMessageId **D**<br/>InternetMessageId **E**<br/>InternetMessageId **F**<br/>|InternetMessageId **A**<br/>InternetMessageId **C**|InternetMessageId **B** |
-||||
+|InternetMessageId **A**<br/>InternetMessageId **D**<br/>InternetMessageId **E**<br/>InternetMessageId **F**<br/>|InternetMessageId **A**<br/>InternetMessageId **C**|InternetMessageId **B**|
+|
 
 Se alguma das propriedades listadas na tabela na [seção anterior](#filtering-of-duplicate-audit-records) forem diferentes, um registro de auditoria separado será gerado para controlar o novo contexto. Os acessos serão classificados nos registros de auditoria separados, dependendo do contexto em que a atividade ocorreu.
 
-Por exemplo, em registros de auditoria mostrados na captura de tela a seguir, embora estejamos acessando o email do EWSEditor e OWA simultaneamente, a atividade de acesso é agrupada em registros de auditoria diferentes, dependendo do contexto no qual o acesso ocorreu. Neste caso, o contexto é definido pelo valores diferentes para a propriedade ClientInfoString.
+Por exemplo, nos registros de auditoria mostrados na captura de tela a seguir, embora estejamos acessando correio do EWSEditor e do OWA simultaneamente, a atividade de acesso é agrupada em diferentes registros de auditoria, dependendo do contexto em que o acesso ocorreu. Nesse caso, o contexto é definido por diferentes valores para a propriedade ClientInfoString.
 
 ![Registros de auditoria diferentes com base em contexto](../media/MailItemsAccessed4.png)
 

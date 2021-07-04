@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use uma política de retenção para manter o controle eficiente do conteúdo que os usuários geram com email, documentos e conversas. Mantenha o que você deseja e descarte o que não.
-ms.openlocfilehash: 3e5fec9117a0ce63b80b700c8771cf092b44a69e
-ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
+ms.openlocfilehash: a9b348d51f147d5f228e6dbb643b7bedd2eb8c8e
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "53169587"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256526"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -70,13 +70,14 @@ Quando você tem mais de uma política de retenção, e quando você também usa
 
 2. Selecione **Nova política de retenção** para iniciar o assistente Criar política de retenção, e a nomeie.
 
-3. Para a página **Escolher locais para aplicar a política**, selecione um ou ambos os locais para o Teams: **Mensagem de canal do Teams** e **chats do Teams**.
-
-   Para as **Mensagens de canal do Teams**, estão incluídas mensagens de canais padrão, mas não de [canais privados](/microsoftteams/private-channels). No momento, canais privados não são suportados pelas políticas de retenção.
-
+3. Para a página **Escolher locais para aplicar a política**, selecione um ou todos os locais do Teams:
+    - **Mensagem de canal do Teams**: mensagens de chats de canal padrão e reuniões de canal padrão, mas não de [canais privados](/microsoftteams/private-channels) que têm sua própria localização de política.
+    - **Chats do Teams**: mensagens de chats individuais privados, chats em grupo e chats de reunião.
+    - **Mensagens de canal privado do Teams**: mensagens de chats de canal privado e reuniões de canal privado. No momento, essa opção está sendo distribuída em versão prévia e, se você não a vir, tente novamente em alguns dias.
+    
    Por padrão, [todas as equipes e usuários são selecionados](#a-policy-that-applies-to-entire-locations), mas você pode filtrar isso selecionando as opções de [**Escolha** e **Exclusão**](#a-policy-with-specific-inclusions-or-exclusions). No entanto, antes de alterar o padrão, esteja ciente das seguintes consequências para uma política de retenção que exclui mensagens quando é configurada para inclusões ou exclusões:
     
-    - Para chats de grupo, como uma cópia das mensagens é salva na caixa de correio de cada usuário incluída no chat, as cópias das mensagens continuarão a ser retornadas nos resultados da Descoberta eletrônica Online de usuários que não foram atribuídos à política.
+    - Para chats de grupo e mensagens de canal privado, como uma cópia das mensagens é salva na caixa de correio de cada usuário incluída no chat, as cópias das mensagens continuarão a ser retornadas nos resultados da eescoberta eletrônica de usuários que não foram atribuídos à política.
     - Para usuários que não foram atribuídos à política, as mensagens excluídas serão retornadas em seus resultados de pesquisa de equipes, mas não exibirão o conteúdo da mensagem como resultado da exclusão permanente da política atribuída aos usuários.
 
 4. Para **decidir se deseja reter o conteúdo, excluí-lo, ou ambos** página do assistente, especifique as opções de configuração para manter e excluir o conteúdo.
@@ -182,11 +183,15 @@ Use as instruções a seguir para políticas de retenção que se aplicam a qual
 
 #### <a name="configuration-information-for-exchange-email-and-exchange-public-folders"></a>Informações de configuração para o email do Exchange e para as pastas públicas do Exchange
 
-O local **email do Exchange** oferece suporte à retenção de emails, calendários e outros itens de caixa de correio dos usuários, aplicando as configurações de retenção no nível de uma caixa de correio.
+O local **email do Exchange** oferece suporte à retenção de emails, calendários e outros itens de caixa de correio dos usuários, aplicando as configurações de retenção no nível de uma caixa de correio. Também há suporte para caixas de correio compartilhadas.
 
-Para obter informações detalhadas sobre quais itens são incluídos e excluídos quando você define as configurações de retenção do Exchange, confira [O que está incluído para retenção e exclusão](retention-policies-exchange.md#whats-included-for-retention-and-deletion)
+Quando você aplica as configurações de retenção **Todos os destinatários**, quaisquer [caixas de correio inativas](create-and-manage-inactive-mailboxes.md) são incluídas. No entanto, se você alterar esse padrão e configurar [inclusões ou exclusões específicas](#a-policy-with-specific-inclusions-or-exclusions), não haverá suporte para caixas de correio inativas e as configurações de retenção não serão aplicadas ou excluídas dessas caixas de correio.
 
-Observe que, embora um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclui todo o local do **Email do Exchange** não inclui conteúdo nas caixas de correio do grupo Microsoft 365. Para reter o conteúdo nessas caixas de correio, selecione o local **Grupos do Microsoft 365**.
+Além disso, não há suporte para caixas de correio de grupo do Microsoft 365 e para as caixas de correio de recursos para o padrão **Todos os destinatários** ou para inclusões ou exclusões específicas. Para as caixas de correio de grupo do Office 365, selecione o local **Grupos do Microsoft 365**.
+
+Se você escolher destinatários para incluir ou excluir, poderá selecionar grupos de distribuição e grupos de segurança habilitados para email. Nos bastidores, esses grupos são expandidos automaticamente no momento da configuração para selecionar as caixas de correio dos usuários no grupo. Se a associação desses grupos mudar posteriormente, uma política de retenção existente não será atualizada automaticamente.
+
+Para obter informações detalhadas sobre quais itens são incluídos e excluídos quando você define as configurações de retenção do Exchange, consulte [O que está incluído para retenção e exclusão](retention-policies-exchange.md#whats-included-for-retention-and-deletion)
 
 O local **Pastas públicas do Exchange** aplica as configurações de retenção a todas as pastas públicas e não pode ser aplicado no nível de pasta ou caixa de correio.
 
