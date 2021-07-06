@@ -1,5 +1,5 @@
 ---
-title: Usar políticas de prevenção contra perda de dados para aplicativos de nuvem que não são da Microsoft (visualização)
+title: Usar políticas de prevenção contra perda de dados para aplicativos de nuvem que não são da Microsoft
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como usar políticas dlp para aplicativos de nuvem que não são da Microsoft.
-ms.openlocfilehash: 3c3c687bd1362182d35891ed1ebbfae12416d5d4
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: fbba87fc5bb3bbca7e67ba374e202098a22f4a5c
+ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226834"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53300119"
 ---
 # <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps-preview"></a>Usar políticas de prevenção contra perda de dados para aplicativos de nuvem que não são da Microsoft (visualização)
 
@@ -42,6 +42,12 @@ Antes de começar a usar políticas DLP para aplicativos de nuvem que não são 
 - Microsoft 365 E5
 - Conformidade do Microsoft 365 E5
 - Microsoft 365 E5 Security
+
+### <a name="permissions"></a>Permissões
+O usuário que cria a política DLP deve ser:
+- Administrador global
+- Administrador de conformidade
+- Administrador de dados de conformidade
 
 ### <a name="prepare-your-cloud-app-security-environment"></a>Preparar seu ambiente Cloud App Security ambiente
 
@@ -81,7 +87,8 @@ Ao criar uma regra na política DLP, você pode selecionar uma ação para aplic
 
 ![Restringir aplicativos de terceiros](../media/4-dlp-non-microsoft-cloud-app-restrict-third-party-apps.png)
 
-> [OBSERVAÇÃO] As políticas de DLP aplicadas a aplicativos que não são da Microsoft usam Microsoft Cloud App Security. Quando a política de DLP para um aplicativo não Microsoft é criada, a mesma política será criada automaticamente no Microsoft Cloud App Security.
+> [!NOTE]
+> As políticas de DLP aplicadas a aplicativos que não são da Microsoft usam Microsoft Cloud App Security. Quando a política de DLP para um aplicativo não Microsoft é criada, a mesma política será criada automaticamente no Microsoft Cloud App Security.
 
 Para obter informações sobre como criar e configurar políticas DLP, consulte [Create test and tune a DLP policy](./create-test-tune-dlp-policy.md).
 

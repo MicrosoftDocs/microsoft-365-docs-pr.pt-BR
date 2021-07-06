@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Saiba como criar, modificar, remover e testar tipos de informações confidenciais personalizados para DLP no Centro de Conformidade & Segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f346a32da6f47cadc0ded6d7d045a833bb3b60b0
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 0f65ba38c75cc1d9886cb4c3013d7f707912f72a
+ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287534"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53300388"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>Comece com tipos de informações confidenciais personalizados
 
@@ -186,7 +186,7 @@ Veja as definições e alguns exemplos das verificações adicionais disponívei
 
 
 > [!NOTE]
-> Microsoft 365 A Proteção de Informações dá suporte a idiomas de conjunto de caracteres de byte duplo para:
+> A Proteção de Informações do Microsoft 365 oferece suporte aos idiomas de conjunto de caracteres de byte duplo para:
 > - Chinês (simplificado)
 > - Chinês (tradicional)
 > - Coreano
@@ -195,7 +195,12 @@ Veja as definições e alguns exemplos das verificações adicionais disponívei
 >Este suporte está disponível para tipos de informações confidenciais. Para obter mais informações, confira [Suporte à proteção de informações para notas de versão de conjuntos de caracteres de byte duplo (visualização)](mip-dbcs-relnotes.md).
 
 > [!TIP]
-> Para detectar padrões que contêm caracteres chineses/japoneses e caracteres de byte único ou para detectar padrões que contenham chinês/japonês e inglês, defina duas variantes da palavra-chave ou regex. Por exemplo, para detectar uma palavra-chave como "机密的document", use duas variantes da palavra-chave; um com um espaço entre o texto japonês e inglês e outro sem um espaço entre o texto japonês e o inglês. Portanto, as palavras-chave a serem adicionadas ao SIT devem ser "机密的 documento" e "机密的document". Da mesma forma, para detectar uma frase "東京オリ ピック2020", duas variantes devem ser usadas; "東京オリ ピック 2020" e "東京オリ ピック2020".
-> Ao criar um regex usando um hífen de byte duplo ou um período de byte duplo, certifique-se de escapar de ambos os caracteres como um escaparia de um hífen ou ponto em um regex. Aqui está um exemplo de regex para referência:
-    - (?<!\d) ([4][0-9] {3} [ \- ?\-\t]*[0-9]{4}
-> Recomendamos usar uma sequência de caracteres em vez de uma combinação de palavras em uma lista de palavras-chave.
+> Para detectar padrões que contêm caracteres chineses/japoneses e caracteres de byte único ou para detectar padrões que contenham chinês/japonês e inglês, defina duas variantes da palavra-chave ou regex. 
+>
+> Por exemplo, para detectar uma palavra-chave como "机的document", use duas variantes da palavra-chave; um com um espaço entre o texto japonês e o inglês e outro sem um espaço entre o texto japonês e o inglês. Portanto, as palavras-chave a serem adicionadas no SIT devem ser "机密的 document" e "机密的document". Da mesma forma, para detectar uma frase "東京オリンピック2020", duas variantes devem ser usadas; "東京オリンピック 2020" e "東京オリンピック2020".
+>
+> Ao criar um regex usando um hífen de byte duplo ou um ponto de byte duplo, certifique-se de escapar ambos os caracteres, como um escape de um hífen ou ponto em um regex. Aqui está um exemplo de regex para referência:
+>
+>    - (?<!\d)([４][０-９]{3}[\-?\－\t]*[０-９]{4}
+>
+> É recomendável usar uma correspondência de cadeia de caracteres em vez de uma correspondência de palavras-chave em uma lista de palavras-chave.

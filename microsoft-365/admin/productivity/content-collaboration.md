@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Detalhes da colaboração de conteúdo - as pessoas experimentam a Pontuação de Produtividade.
-ms.openlocfilehash: cca218d15af98925bf61bbb314cfd4d35aa0711a
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: 2921cc738d1325416a0a5a8ab4a8eea9456b3269
+ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779729"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53300072"
 ---
 # <a name="content-collaboration--people-experiences"></a>Colaboração de conteúdo – Experiências de pessoas
 
@@ -112,7 +112,7 @@ Também fornecemos informações que ajudam você a obter visibilidade sobre com
 
 :::image type="content" source="../../media/sharepointonedrivefiles.jpg" alt-text="Gráfico que mostra o número de pessoas que criam arquivos em OneDrive ou SharePoint":::
 
-1. **Header: Destaques** a porcentagem de pessoas ativas em aplicativos Microsoft 365 Office que criam arquivos OneDrive ou SharePoint.
+1. **Header:** Realça a porcentagem de pessoas ativas Microsoft 365 Office aplicativos que criam arquivos OneDrive ou SharePoint.
 2. **Corpo:** Fornece informações sobre o valor da criação de conteúdo em OneDrive e SharePoint.
 3. **Visualização:** A divisão na visualização representa até que ponto as pessoas que estão usando Microsoft Office aplicativos para criar arquivos em OneDrive e SharePoint, da seguinte maneira:
       - **OneDrive:** A parte azul (colorida) da barra e a fração na barra representam a porcentagem de pessoas ativas em aplicativos Office criando conteúdo no OneDrive da seguinte forma:
@@ -126,9 +126,11 @@ Também fornecemos informações que ajudam você a obter visibilidade sobre com
 
 ### <a name="use-of-attachments-in-email"></a>Uso de anexos no email
 
+**Uso de anexos no email** Entenda quantos usuários estão anexando arquivos físicos no email em vez de links para conteúdo na nuvem e monitore a redução desse número ao longo do tempo.
+
 :::image type="content" source="../../media/emailattachments.png" alt-text="Uso de anexos de email.":::
 
-1. **Header: Destaques** a porcentagem de pessoas que usam anexos em emails que não foram salvos para OneDrive ou SharePoint.
+1. **Header:** Realça a porcentagem de pessoas que usam anexos em emails que não foram salvos para OneDrive ou SharePoint.
 2. **Corpo:** Fornece informações sobre o valor de compartilhamento de links para arquivos online de uma perspectiva de colaboração e segurança.
 3. **Visualização:** A divisão na visualização deve representar a extensão em que as pessoas que estão anexando conteúdo nos emails estão usando modos diferentes (arquivos que não estão no OneDrive ou no SharePoint; links para arquivos online e links incorporados no email):
       - **Anexar arquivos:** A parte azul (colorida) da barra e a fração (numerador/denominador) na barra representa a porcentagem de pessoas que usam anexos em emails.
@@ -137,16 +139,13 @@ Também fornecemos informações que ajudam você a obter visibilidade sobre com
       - **Links para arquivos online:** A parte azul (colorida) da barra e a fração (numerador/denominador) na barra representam a porcentagem de pessoas usando anexos e anexando links a arquivos em emails.
         - Numerador: o número de pessoas anexando links a arquivos online (salvos OneDrive ou SharePoint) aos emails nos últimos 28 dias.
         - Denominador: o número de pessoas que têm acesso a Exchange e OneDrive, SharePoint, ou ambos nos últimos 28 dias.
-      - **Inserir links no email:** A parte azul (colorida) da barra e a fração na barra representam a porcentagem de pessoas que incorporam links no corpo dos emails.
-        - Numerador: o número de pessoas que incorporam links no corpo de emails para arquivos online (salvos no OneDrive ou SharePoint) nos últimos 28 dias.
-        - Denominador: o número de pessoas que têm acesso a Exchange e OneDrive, SharePoint, ou ambos nos últimos 28 dias.
 4. **Link para recursos:** Selecione este link para exibir o conteúdo da ajuda.
 
 ### <a name="sharing-of-online-files"></a>Compartilhamento de arquivos online
 
 :::image type="content" source="../../media/sharingonlinefiles.png" alt-text="Gráfico que mostra o número de pessoas compartilhando arquivos online.":::
 
-1. **Header: Destaques** a porcentagem de pessoas que têm acesso OneDrive ou SharePoint que estão compartilhando arquivos externamente.
+1. **Header:** Realça a porcentagem de pessoas que têm acesso a OneDrive ou SharePoint que estão compartilhando arquivos externamente.
 2. **Corpo:** Fornece informações sobre os administradores&#39; capacidade de alterar as configurações de compartilhamento de arquivos na organização para habilitar o nível de colaboração mais adequado à sua organização.
 3. **Visualização:** Representa até que ponto as pessoas que têm acesso a OneDrive ou SharePoint estão compartilhando arquivos interna ou externamente:
       - **Externamente:** A parte azul (colorida) da barra e a fração (numerador/denominador) na barra representam a porcentagem de pessoas que têm acesso a OneDrive ou SharePoint e estão compartilhando arquivos externamente.
@@ -161,7 +160,7 @@ Também fornecemos informações que ajudam você a obter visibilidade sobre com
 
 :::image type="content" source="../../media/intensityofcollab.png" alt-text="Gráfico mostrando quantos arquivos foram mais colaborados.":::
 
-1. **Header: Destaques** a porcentagem de pessoas que têm acesso a OneDrive ou SharePoint que estão colaborando em 4 ou mais arquivos.
+1. **Header:** Realça a porcentagem de pessoas que têm acesso a OneDrive ou SharePoint que estão colaborando em 4 ou mais arquivos.
 2. **Corpo:** Fornece informações sobre como as pessoas podem aproveitar arquivos online para melhor colaboração.
 3. **Visualização:** Mostra uma distribuição das pessoas que têm acesso a OneDrive ou SharePoint, com base no número de arquivos em que colaboram. Isso é mostrado pelas 4 categorias a seguir (para cada uma, a parte azul da barra e a fração representam a porcentagem de pessoas que têm acesso a OneDrive ou SharePoint que se enquadram nessa categoria):
       - **Nenhuma colaboração:**
@@ -183,7 +182,7 @@ Também fornecemos informações que ajudam você a obter visibilidade sobre com
 
 :::image type="content" source="../../media/networkperfstrength.png" alt-text="Gráfico mostrando o desempenho da rede para OneDrive e SharePoint.":::
 
-1. **Header: Destaques** a porcentagem de dispositivos de todos os dispositivos testados que têm conexão de rede ruim com OneDrive e SharePoint. 
+1. **Header:** Realça a porcentagem de dispositivos fora de todos os testados que têm conexão de rede ruim para OneDrive e SharePoint. 
 2. **Corpo:** Fornece informações sobre por que o desempenho da conexão de rede é importante para a colaboração. 
 3. **Visualização:** Mostra uma porcentagem de dispositivos com níveis diferentes de desempenho de conectividade de rede relacionados OneDrive e SharePoint:
       - **81-100 (melhor)**: a parte verde escuro (colorida) da barra representa a porcentagem de dispositivos com o melhor desempenho.
