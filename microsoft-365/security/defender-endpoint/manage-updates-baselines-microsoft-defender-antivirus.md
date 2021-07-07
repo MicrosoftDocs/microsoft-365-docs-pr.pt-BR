@@ -13,16 +13,16 @@ ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.reviewer: pahuijbr
+ms.reviewer: pahuijbr, mkaminska
 manager: dansimp
 ms.technology: mde
-ms.date: 06/23/2021
-ms.openlocfilehash: 88be32a2c1e9204629682ec678f80ab6daf701f4
-ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
+ms.date: 07/06/2021
+ms.openlocfilehash: f64c71501a550aabdf16b9de2d7a5db93e48caef
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105327"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314459"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Gerenciar Microsoft Defender Antivírus e aplicar linhas de base
 
@@ -56,7 +56,7 @@ As atualizações do mecanismo são incluídas com atualizações de inteligênc
 
 ## <a name="product-updates"></a>Atualizações de produtos
 
-Microsoft Defender Antivírus exige atualizações mensais [(KB4052623)](https://support.microsoft.com/help/4052623/update-for-windows-defender-antimalware-platform) *(conhecidas* como atualizações de plataforma) e receberá atualizações de recursos principais juntamente com Windows 10 versões.
+Microsoft Defender Antivírus exige [atualizações mensais (KB4052623)](https://support.microsoft.com/help/4052623/update-for-windows-defender-antimalware-platform) *conhecidas como atualizações de plataforma.*
 
 Você pode gerenciar a distribuição de atualizações por meio de um dos seguintes métodos: 
 
@@ -67,7 +67,10 @@ Você pode gerenciar a distribuição de atualizações por meio de um dos segui
 Para obter mais informações, consulte [Manage the sources for Microsoft Defender Antivírus protection updates](/mem/configmgr/protect/deploy-use/endpoint-definitions-wsus#to-synchronize-endpoint-protection-definition-updates-in-standalone-wsus).
 
 > [!NOTE]
-> As atualizações mensais são lançadas em fases, resultando em vários pacotes visíveis em seus [Serviços de Atualização do Servidor de Janelas.](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
+> - As atualizações mensais são lançadas em fases, resultando em vários pacotes visíveis em seus [Serviços de Atualização do Servidor de Janelas.](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
+> - Este artigo lista as alterações incluídas no canal de lançamento amplo. [Consulte a versão mais recente do canal amplo aqui](https://www.microsoft.com/security/encyclopedia/adlpackages.aspx?action=info). 
+> - Para saber mais sobre o processo de lançamento gradual e para ver mais informações sobre a próxima versão, consulte [Manage the gradual rollout process for Microsoft Defender updates](manage-gradual-rollout.md).
+> - Para saber mais sobre atualizações de inteligência de segurança, consulte Atualizações de inteligência de segurança para Microsoft Defender Antivírus [e outros antimalware da Microsoft.](https://www.microsoft.com/wdsi/defenderupdates) 
 
 ## <a name="monthly-platform-and-engine-versions"></a>Versões mensais de plataforma e mecanismo
 
@@ -77,8 +80,26 @@ Todas as nossas atualizações contêm
 - melhorias de desempenho;
 - melhorias de capacidade de serviço; e 
 - melhorias de integração (Nuvem, [Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-365-defender)).
-<br/><br/>
+<br/>
 <details>
+<summary> Junho-2021 (plataforma: 4.18.2106.5 | Mecanismo: 1.1.18300.4)</summary>
+
+&ensp;Versão de atualização de inteligência de segurança: **1.343.17.0**  
+&ensp;Lançado: **28 de junho de 2021**  
+&ensp;Plataforma: **4.18.2106.5**  
+&ensp;Mecanismo: **1.1.18300.4**  
+&ensp;Fase de suporte: **Segurança e Atualizações Críticas**
+    
+### <a name="whats-new"></a>Novidades
+- Novos controles para gerenciar o processo de lançamento gradual das atualizações do Microsoft Defender. Consulte [Gerenciar o processo de lançamento gradual para atualizações do Microsoft Defender.](manage-gradual-rollout.md)
+- Melhoria no mecanismo de monitoramento de comportamento
+- Melhorias na adoção de definições de antimalware
+- Inspeções de eventos de rede de Borda Estendida
+
+### <a name="known-issues"></a>Problemas Conhecidos
+Nenhum problema conhecido  
+<br/>
+</details><details>
 <summary> Maio-2021 (plataforma: 4.18.2105.4 | Mecanismo: 1.1.18200.4)</summary>
 
 &ensp;Versão de atualização de inteligência de segurança: **1.341.8.0**  
@@ -104,21 +125,26 @@ Nenhum problema conhecido
     
 ### <a name="whats-new"></a>Novidades
 - Lógica adicional de monitoramento de comportamento
-- Detecção aprimorada do keylogger do modo kernel
+- Detecção aprimorada do fator de chave do modo kernel
 - Adicionados novos controles para gerenciar o processo de lançamento gradual para [atualizações do Microsoft Defender](manage-gradual-rollout.md)
 
 
 ### <a name="known-issues"></a>Problemas Conhecidos
 Nenhum problema conhecido  
 <br/>
-</details><details>
+</details>
+
+### <a name="previous-version-updates-technical-upgrade-support-only"></a>Atualizações de versão anterior: Suporte técnico somente a atualização
+
+Depois que uma nova versão de pacote é lançada, o suporte para as duas versões anteriores é reduzido apenas ao suporte técnico. Versões anteriores às listadas nesta seção são fornecidas apenas para suporte técnico de atualização. 
+<details>
 <summary> Março-2021 (Plataforma: 4.18.2103.7 | Mecanismo: 1.1.18000.5)</summary>
 
 &ensp;Versão de atualização de inteligência de segurança: **1.335.36.0**  
 &ensp;Lançado: **2 de abril de 2021**  
 &ensp;Plataforma: **4.18.2103.7**  
 &ensp;Mecanismo: **1.1.18000.5**  
-&ensp;Fase de suporte: **Segurança e Atualizações Críticas**
+&ensp;Fase de suporte: **Suporte técnico de atualização (somente)**
     
 ### <a name="whats-new"></a>Novidades
 
@@ -129,13 +155,7 @@ Nenhum problema conhecido
 ### <a name="known-issues"></a>Problemas Conhecidos
 Nenhum problema conhecido  
 <br/>
-</details>
-
-### <a name="previous-version-updates-technical-upgrade-support-only"></a>Atualizações de versão anterior: Suporte técnico somente a atualização
-
-Depois que uma nova versão de pacote é lançada, o suporte para as duas versões anteriores é reduzido apenas ao suporte técnico. Versões anteriores às listadas nesta seção são fornecidas apenas para suporte técnico de atualização. 
-<br/><br/>
-<details>
+</details><details>
 <summary> Fevereiro-2021 (plataforma: 4.18.2102.3 | Mecanismo: 1.1.17900.7)</summary>
 
 &ensp;Versão de atualização de inteligência de segurança: **1.333.7.0**  

@@ -20,12 +20,12 @@ ms.custom:
 description: Os administradores podem aprender sobre o insight de inteligência de Proteção do Exchange Online (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a0131266d5830988ed23fc11e01323025aa6d50a
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 0f2e1b59b1140b4ee5b187329dac51557ef4df87
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108518"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314375"
 ---
 # <a name="spoof-intelligence-insight-in-eop"></a>Spoof intelligence insight in EOP
 
@@ -81,10 +81,9 @@ O restante deste artigo explica como usar o insight de inteligência de spoof no
 
   Para obter mais informações, confira [Permissões no Exchange Online](/exchange/permissions-exo/permissions-exo).
 
-  **Observações**:
-
-  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias _e_ para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
-  - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
+  > [!NOTE]
+  > - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+  > - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
 - Você habilita e desabilita a inteligência de spoof em políticas anti-phishing no EOP e no Microsoft Defender para Office 365. A inteligência de spoof está habilitada por padrão. Para obter mais informações, consulte [Configure anti-phishing policies in EOP](configure-anti-phishing-policies-eop.md) or [Configure anti-phishing policies in Microsoft Defender for Office 365](configure-mdo-anti-phishing-policies.md).
 
@@ -92,9 +91,9 @@ O restante deste artigo explica como usar o insight de inteligência de spoof no
 
 ## <a name="open-the-spoof-intelligence-insight-in-the-microsoft-365-defender-portal"></a>Abra o insight de inteligência de spoof no portal de Microsoft 365 Defender
 
-1. No portal Microsoft 365 Defender, acesse **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras seção Políticas \>  \>  \>  \> **anti-phishing**.
+1. No portal Microsoft 365 Defender, vá para **Email & Políticas** de Colaboração & Políticas de Ameaças de Regras página \>  \>  \> **Locatário Permitir/Bloquear Listas**.
 
-2. Na página **Anti-phishing,** a visão de inteligência de spoof tem a seguinte aparência:
+2. Na página **Listas de Locatários de Permitir/Bloquear,** a visão de inteligência de spoof tem a seguinte aparência:
 
    ![Spoof intelligence insight on the Anti-phishing policy page](../../media/m365-sc-spoof-intelligence-insight.png)
 

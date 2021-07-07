@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 24b24c634eac7ee125810d96587c9c1e209b6491
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: b4418cca035710c6b938dad31a2b55423d2ab458
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286952"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314399"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>Integração Windows 10 usando a Política de Grupo 
 
@@ -211,7 +211,7 @@ Por motivos de segurança, o pacote usado para dispositivos offboard expirará 3
 
 7. Selecione **Executar se o usuário está conectado ou não** e marque a caixa de seleção Executar com privilégios **mais** altos.
 
-8. Vá até a guia **Ações** e clique em **Novo...**. Verifique se **Iniciar um programa** está selecionado no **campo** Ação. Insira o nome do arquivo e o local do arquivo  *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd* compartilhado.
+8. Vá até a guia **Ações** e clique em **Novo...**. Verifique se **Iniciar um programa** está selecionado no **campo** Ação. Insira o caminho NetBIOS do arquivo *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd* compartilhado.
 
 9. Clique **em OK** e feche as janelas do GPMC abertas.
 

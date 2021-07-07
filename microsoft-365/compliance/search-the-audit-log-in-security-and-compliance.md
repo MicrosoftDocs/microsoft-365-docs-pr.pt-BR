@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de conformidade do Microsoft 365 para pesquisar o log de auditoria unificado para visualizar a atividade do usuário e administrador em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6989d8f57123a35e64b89cfe9148cae33c5758e
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 007881220c3bdf862e75464521733e64f0d6c5c0
+ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287498"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53300131"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Pesquisar o log de auditoria no centro de conformidade
 
@@ -912,11 +912,11 @@ Onde indicado abaixo nas descrições, algumas operações contêm parâmetros a
 |Nome amigável|Operação|Descrição|
 |:-----|:-----|:-----|
 |Comentário criado|CreateComment|O proprietário do formulário adiciona um comentário ou pontuação a um teste.|
-|Formulário criado|CreateForm|O proprietário do formulário cria um novo formulário.|
-|Formulário editado|EditForm|O proprietário do formulário edita um formulário criando, removendo ou editando uma pergunta. A propriedade *EditOperation: cadeia de caracteres* indica o nome da operação de edição. As operações possíveis são:<br/>- CreateQuestion<br/>- CreateQuestionChoice <br/>- DeleteQuestion <br/>- DeleteQuestionChoice <br/>- DeleteFormImage <br/>- DeleteQuestionImage <br/>- UpdateQuestion <br/>- UpdateQuestionChoice <br/>- UploadFormImage/Bing/Onedrive <br/>- UploadQuestionImage <br/>- ChangeTheme <br><br>FormImage inclui qualquer lugar dentro do Forms que o usuário pode carregar uma imagem, como em uma consulta ou como um tema de plano de fundo.|
-|Formulário movido|MoveForm|O proprietário do formulário move um formulário. <br><br>A propriedade DestinationUserId:string indica a ID de usuário da pessoa que moveu o formulário. A propriedade NewFormId:string é a nova ID do formulário copiado recentemente.|
+|Formulário criado|CreateForm|O proprietário do formulário cria um novo formulário. <br><br>A propriedade DataMode: a cadeia de caracteres indica que o formulário atual está definido para sincronizar com uma pasta de trabalho do Excel nova ou existente se o valor da propriedade for igual a DataSync. A propriedade ExcelWorkbookLink: a cadeia de caracteres indica a ID da pasta de trabalho do Excel associada ao formulário atual.|
+|Formulário editado|EditForm|O proprietário do formulário edita um formulário, criando, removendo ou editando uma pergunta. A propriedade *EditOperation: cadeia de caracteres* indica o nome da operação de edição. As operações possíveis são:<br/>- CreateQuestion<br/>- CreateQuestionChoice <br/>- DeleteQuestion <br/>- DeleteQuestionChoice <br/>- DeleteFormImage <br/>- DeleteQuestionImage <br/>- UpdateQuestion <br/>- UpdateQuestionChoice <br/>- UploadFormImage/Bing/Onedrive <br/>- UploadQuestionImage <br/>- ChangeTheme <br><br>FormImage inclui qualquer lugar dentro do Forms que o usuário pode carregar uma imagem, como em uma consulta ou como um tema de plano de fundo.|
+|Formulário movido|MoveForm|O proprietário do formulário move um formulário. <br><br>A propriedade DestinationUserId:string indica a ID de usuário da pessoa que moveu o formulário. A propriedade NewFormId:string é a nova ID do formulário copiado recentemente. A propriedade IsDelegateAccess: booliano indica que a ação de movimentação do formulário atual é realizada por meio da página de delegado do administrador.|
 |Formulário excluído |DeleteForm|O proprietário do formulário exclui um formulário. Isso inclui SoftDelete (opção de exclusão usada e formulário movido para a lixeira) e HardDelete (lixeira esvaziada).|
-|Formulário exibido (tempo de design)|ViewForm|O proprietário do formulário abre um formulário existente para edição.|
+|Formulário exibido (tempo de design)|ViewForm|O proprietário do formulário abre um formulário existente para edição. <br><br>A propriedade AccessDenied: booliano indica que o acesso do formulário atual foi negado devido à verificação de permissão. A propriedade FromSummaryLink: booliano indica que a solicitação atual vem da página do link de resumo.|
 |Formulário visualizado|PreviewForm|O proprietário do formulário visualiza um formulário usando a função Visualização.|
 |Formulário exportado|ExportForm|O proprietário do formulário exporta os resultados para o Excel. <br><br>A propriedade ExportFormat:string indica se o arquivo do Excel foi baixado ou está online.|
 |Formulário de compartilhamento permitido para cópia|AllowShareFormForCopy|O proprietário do formulário cria um link de modelo para compartilhar o formulário com outros usuários. Esse evento é registrado quando o proprietário do formulário clica para gerar uma URL de modelo.|
@@ -935,10 +935,21 @@ Onde indicado abaixo nas descrições, algumas operações contêm parâmetros a
 |Formulário de status de phishing atualizado|UpdatePhishingStatus|Este evento é registrado sempre que o valor detalhado para o status de segurança interna for alterado, independentemente de isso ter alterado o estado de segurança final (por exemplo, o formulário agora está Fechado ou Aberto). Isso significa que você pode ver eventos duplicados sem uma alteração final do estado de segurança. Os valores de status possíveis para este evento são:<br/>- Derrubar <br/>- Retirado por Administrador <br/>- Administrador Desbloqueado <br/>- Auto Bloqueado <br/>- Auto Desbloqueado <br/>- Relatado pelo Cliente <br/>-Redefinir Cliente Relatado|
 |Status de phishing do usuário atualizado|UpdateUserPhishingStatus|Este evento é registrado sempre que o valor do status de segurança do usuário é alterado. O valor do status do usuário no registro de auditoria é **Confirmado como Phisher** quando o usuário criou um formulário de phishing que foi removido pela equipe de segurança do Microsoft Online. Se um administrador desbloquear o usuário, o valor do status do usuário é definido como **Redefinir como Usuário Normal**.|
 |Convite do Forms Pro enviado|ProInvitation|O usuário clica para ativar uma avaliação do Pro.|
-|Configuração do formulário atualizado|UpdateFormSetting|O proprietário do formulário atualiza a configuração de um formulário. <br><br>A propriedade FormSettingName:string indica o nome e o novo valor da configuração.|
+|Configuração do formulário atualizado|UpdateFormSetting|O proprietário do formulário atualiza uma ou várias configurações de formulário. <br><br>A propriedade FormSettingName: cadeia de caracteres indica o nome das configurações confidenciais atualizadas. A propriedade NewFormSettings: cadeia de caracteres indica o nome das configurações atualizadas e o novo valor. A propriedade thankYouMessageContainsLink: booliano indica que a mensagem de agradecimento atualizada contém um link de URL.|
 |Configuração de usuário atualizada|UpdateUserSetting|O proprietário do formulário atualiza a configuração de um usuário. <br><br>A propriedade UserSettingName:string indica o nome e o novo valor da configuração|
 |Formulários listados|ListForms|O proprietário do formulário está exibindo uma lista de formulários. <br><br>A propriedade ViewType:string indica qual exibição o proprietário do formulário está olhando: Todos os Formulários, Compartilhado Comigo ou Formulários de Grupo|
 |Resposta enviada |SubmitResponse|Um usuário envia uma resposta a um formulário. <br><br>A propriedade IsInternalForm:boolean indica se o respondente é da mesma organização que o proprietário do formulário.|
+|Habilitado, qualquer pessoa pode responder a configuração|AllowAnonymousResponse|O proprietário do formulário ativa a configuração que permite que qualquer pessoa responda ao formulário.|
+|Qualquer pessoa desabilitada pode responder configuração|DisallowAnonymousResponse|O proprietário do formulário desativa a configuração, permitindo que qualquer pessoa responda ao formulário.|
+|Pessoas específicas habilitadas podem responder configuração|EnableSpecificResponse|O proprietário do formulário ativa a configuração, permitindo que apenas pessoas ou grupos específicos na organização atual respondam ao formulário.|
+|Pessoas específicas com deficiência podem responder a configuração|DisableSpecificResponse|O proprietário do formulário desativa a configuração, permitindo que apenas pessoas ou grupos específicos na organização atual respondam ao formulário.|
+|Respondente específico adicionado|AddSpecificResponder|O proprietário do formulário adiciona um novo usuário ou grupo à lista de respondentes específica.|
+|Respondente específico removido|RemoveSpecificResponder|O proprietário do formulário remove um usuário ou grupo da lista de respondentes específica.|
+|Colaboração com deficiência|DisableCollaboration|O proprietário do formulário desativa a configuração de colaboração no formulário.|
+|Habilitou a colaboração de conta corporativa ou de estudante do Office 365|EnableWorkOrSchoolCollaboration|O proprietário do formulário ativa a configuração, permitindo que os usuários com uma conta corporativa ou de estudante do Office 365 exibam e editem o formulário.|
+|Pessoas habilitadas na colaboração da minha organização|EnableSameOrgCollaboration|O proprietário do formulário ativa a configuração que permite aos usuários na organização atual exibir e editar o formulário.|
+|Habilitou a colaboração de pessoas específicas|EnableSpecificCollaboaration|O proprietário do formulário ativa a configuração, permitindo que apenas pessoas ou grupos específicos na organização atual vejam e editem o formulário.|
+|Conectado à pasta de trabalho do Excel|ConnectToExcelWorkbook|Conectou o formulário a uma pasta de trabalho do Excel. <br><br>A propriedade ExcelWorkbookLink: a cadeia de caracteres indica a ID da pasta de trabalho do Excel associada ao formulário atual.|
 ||||
 
 #### <a name="forms-activities-performed-by-coauthors-and-anonymous-responders"></a>Atividades do Forms realizadas por coautores e respondentes anônimos

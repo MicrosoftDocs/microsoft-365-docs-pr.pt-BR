@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: b3f86dfbc1ae89eff61c680737061b01998a527b
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 2f02de4b738d9d61ef9f98cd03d15bd91709339e
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933860"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314423"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Novidades na Pontuação Segura da Microsoft
 
@@ -35,7 +35,13 @@ ms.locfileid: "51933860"
 Para tornar a Pontuação Segura da Microsoft um representante melhor da sua postura de segurança, fizemos algumas alterações. Para saber mais sobre as alterações planejadas, consulte [O que está por vir na Pontuação Segura da Microsoft?](microsoft-secure-score-whats-coming.md)
 
 A Pontuação Segura da Microsoft pode ser https://security.microsoft.com/securescore encontrada no centro de Microsoft 365 [segurança.](overview-security-center.md)
-    
+
+## <a name="june-2021"></a>Junho de 2021
+
+### <a name="remove-improvement-action-related-to-microsoft-cloud-app-security"></a>Remover a ação de melhoria relacionada ao Microsoft Cloud App Security
+
+- Use Cloud App Security para detectar comportamentos anômalos.
+
 ## <a name="february-2021"></a>Fevereiro de 2021
 
 ### <a name="compatibility-with-graph-api"></a>Compatibilidade com Graph API

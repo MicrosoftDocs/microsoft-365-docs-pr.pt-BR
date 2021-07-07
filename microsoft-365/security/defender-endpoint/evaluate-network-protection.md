@@ -14,12 +14,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 03d05966401c8f3a8bdcec413e85c9a6d2a3ec5c
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 98e4c80c2e0262712885f1e7a2da82886b2ebe80
+ms.sourcegitcommit: b6e63febe24ef1f1793dfb3ecc5ed41a4e730578
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926566"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53309354"
 ---
 # <a name="evaluate-network-protection"></a>Avaliar a proteção de rede
 
@@ -55,13 +55,13 @@ Habilita a proteção de rede no modo de auditoria para ver quais endereços IP 
 
 A conexão de rede será permitida e uma mensagem de teste será exibida.
 
-![Notificação de exemplo que diz Conexão bloqueada: seu administrador de Segurança do Windows <2> <8> bloquear essa conexão de rede. Entre em contato com seu help desk de IT.](/microsoft-365/security/defender-endpoint/images/np-notif)
+![Notificação de exemplo que diz Conexão bloqueada: seu administrador de Segurança do Windows <2> <8> bloquear essa conexão de rede. Entre em contato com seu help desk de IT.](images/np-notif.png)
 
 ## <a name="review-network-protection-events-in-windows-event-viewer"></a>Revisar eventos de proteção de rede Windows Visualizador de Eventos
 
 Para revisar aplicativos que teriam sido bloqueados, abra o Visualizador de Eventos e filtre a ID do Evento 1125 no log Microsoft-Windows-Windows-Defender/Operational. A tabela a seguir lista todos os eventos de proteção de rede.
 
-| ID de evento | Fornecer/Fonte | Descrição |
+| ID do Evento | Fornecer/Fonte | Descrição |
 |-|-|-|
 |5007 | Windows Defender (Operacional) | Evento quando as configurações são alteradas |
 |1125 | Windows Defender (Operacional) | Evento quando uma conexão de rede é auditada |

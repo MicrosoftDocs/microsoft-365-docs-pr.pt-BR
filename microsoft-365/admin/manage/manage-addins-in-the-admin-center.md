@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba mais sobre como usar os complementos centralizados para implantar os complementos para usuários e grupos em sua organização.
-ms.openlocfilehash: d678755b28daea1578ce2a5d2e387492cf32d368
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: ed9086c77cdf10435bae09f76493af6058d2d758
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636053"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314382"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>Gerenciar suplementos no centro de administração
 
@@ -121,6 +121,9 @@ O suporte para desligar o Office Store está disponível nas seguintes versões:
 - A Web - Disponível no momento.
     
 Isso não impede que um administrador use a Implantação Centralizada para atribuir um Office Store.
+
+> [!NOTE] 
+> Os Visio, Bing Mapas e Pessoas Graph ainda aparecerão na faixa de opções, mesmo que um administrador tenha desabilitado a Loja. Para remover esses links, os administradores devem desabilitar a Loja por meio do Objeto de Política de Grupo (GPO).
   
 Para impedir que um usuário entre com uma conta da Microsoft, você pode restringir o logon para usar apenas a conta organizacional. Para obter mais informações, [consulte Identity, authentication, and authorization in Office 2016](/DeployOffice/security/identity-authentication-and-authorization-in-office).  
 

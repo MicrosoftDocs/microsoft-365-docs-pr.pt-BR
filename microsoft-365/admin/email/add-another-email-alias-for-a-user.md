@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Saiba como você pode ter mais de um endereço de email, chamado de alias de email, associado ao seu Microsoft 365 para empresas. '
-ms.openlocfilehash: ec5bc69a42c5183413f11649b7d7ec6baaf40b01
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: e6eac45c3ade3fd737f93c88c29b56ccd497212e
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572100"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314351"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Adicionar outro alias de email para um usuário
   
@@ -83,7 +83,7 @@ Se você comprou a assinatura da GoDaddy ou de outro parceiro, vá até o respec
 
 ## <a name="sending-email-from-the-proxy-address-easily"></a>Enviando emails do endereço proxy facilmente
 
-Um novo recurso está sendo implantada em abril de 2021 que permite que os usuários enviem de seus aliases facilmente ao usar Outlook na Web. Quando o recurso é rolado para um locatário onde o administrador do locatário usa o cmdlet, os usuários dentro da locação terão acesso a uma lista de caixas de seleção onde cada entrada corresponde a um alias em suas configurações de `Set-OrganizationConfig -SendFromAliasEnabled $true` Outlook. Selecionar um alias fará com que ele apareça no menu suspenso De no formulário Redação.
+Um novo recurso está sendo lançado em julho de 2021 que permite que os usuários enviem de seus aliases facilmente ao usar Outlook na Web. Quando o recurso é rolado para um locatário onde o administrador do locatário usa o cmdlet, os usuários dentro da locação terão acesso a uma lista de caixas de seleção onde cada entrada corresponde a um alias em suas configurações de `Set-OrganizationConfig -SendFromAliasEnabled $true` Outlook. Selecionar um alias fará com que ele apareça no menu suspenso De no formulário Redação.
   
 ## <a name="related-content"></a>Conteúdo relacionado
 

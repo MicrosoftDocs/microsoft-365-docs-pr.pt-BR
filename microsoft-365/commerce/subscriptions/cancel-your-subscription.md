@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 description: Se você tiver menos de 25 licenças de usuário, poderá cancelar sua avaliação do Microsoft 365 Business ou uma assinatura paga online no Centro de Administração.
 ms.date: 04/08/2021
-ms.openlocfilehash: d327a09eba06e9a2bbc92959b6048649b41b72fe
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: e0b23d785a86102891f24cb16419794773d64356
+ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256790"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53300035"
 ---
 # <a name="cancel-your-subscription"></a>Cancelar sua assinatura
 
@@ -82,7 +82,7 @@ Sua assinatura aparecerá com um estado **Desabilitado** e terá funcionalidade 
 
 Se você cancelar uma assinatura antes de sua expiração, a assinatura entrará diretamente no estado desabilitado. Para a maioria das assinaturas, na maioria dos países e das regiões, o estado desabilitado dura 90 dias. Os administradores ainda poderão acessar e fazer o backup de dados da organização enquanto a assinatura estiver no estado desabilitado, mas recomendamos que eles [façam o backup de seus dados](back-up-data-before-switching-plans.md) antes de cancelarem a assinatura, principalmente se essa for a única assinatura deles. Os administradores também podem reativar a assinatura enquanto ela estiver no estado desabilitado.
 
-Após 90 dias, a assinatura passa para o estado excluído. Todos os dados deixados para trás poderão ser excluídos após 90 dias, e serão excluídos no prazo máximo de 180 dias após o cancelamento. Você não pode remover uma forma de pagamento de uma assinatura cancelada até atingir o estado excluído.
+Após 90 dias, a assinatura passa para o estado excluído. Quaisquer dados que você deixar para trás podem ser excluídos após esses 90 dias, mas são excluídos no máximo 180 dias após o cancelamento. Você não pode remover uma forma de pagamento de uma assinatura cancelada até atingir o estado excluído.
 
 ### <a name="what-to-expect-for-you-and-your-users-if-you-cancel-a-subscription"></a>O que você e seus usuários devem esperar caso cancelem uma assinatura
   

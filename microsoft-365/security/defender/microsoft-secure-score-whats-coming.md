@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 8880f045202fd1c4374e9cec3076144f81eb68d2
-ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
+ms.openlocfilehash: 8babc8c5e7464637e29ddacef50c92f252033d26
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52657712"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314363"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>O que está chegando à Pontuação Segura da Microsoft
 
@@ -35,11 +35,16 @@ A Pontuação Segura da Microsoft pode ser https://security.microsoft.com/secure
 
 Estamos fazendo algumas alterações em um futuro próximo para tornar o [Microsoft Secure Score](microsoft-secure-score.md) um melhor representante de sua postura de segurança e melhorar a usabilidade. Sua pontuação e a pontuação máxima possível podem mudar.
 
-### <a name="june-2021"></a>Junho de 2021
+### <a name="july-2021"></a>Julho de 2021
 
-#### <a name="remove-improvement-action-related-to-microsoft-cloud-app-security"></a>Remover a ação de melhoria relacionada ao Microsoft Cloud App Security
+#### <a name="add-improvement-action-related-to-microsoft-teams"></a>Adicionar ação de melhoria relacionada ao Microsoft Teams
 
-- Use Cloud App Security para detectar comportamentos anômalos
+- Restringir usuários de discagem de ignorar um lobby de reunião.
+- Limitar participantes externos de ter controle em uma Teams reunião.
+- Restringir usuários anônimos de iniciar Teams reuniões.
+- Exigir que os lobbies sejam definidos para reuniões Teams reuniões.
+- Configure quais usuários têm permissão para estar presentes Teams reuniões.
+
 
 ## <a name="related-resources"></a>Recursos relacionados
 
