@@ -1,0 +1,62 @@
+### YamlMime:Landing
+title: Base de Teste para Microsoft 365 documentação
+summary: Base de teste para Microsoft 365 é um serviço do Azure que facilita o teste de aplicativos orientados por dados. Com o suporte do poder dos dados e da nuvem, ele permite que os profissionais de TI aproveitem os testes inteligentes de qualquer lugar do mundo. Ele ajudará você a testar seus aplicativos sem aborrecimento, compromisso de tempo e despesas de configuração e manutenção de ambientes de teste complexos. O mais importante é que ele lhe dará acesso a atualizações de pré-lançamento Windows em máquinas virtuais seguras (VMs) e inteligência de classe mundial para seus aplicativos.
+metadata:
+  title: Base de Teste para documentação do M365
+  description: Base de teste para Microsoft 365 é um serviço do Azure que facilita o teste de aplicativos orientados por dados. Com o suporte do poder dos dados e da nuvem, ele permite que os profissionais de TI aproveitem os testes inteligentes de qualquer lugar do mundo.
+  ms.service: service
+  ms.subservice: subservice
+  ms.topic: landing-page
+  ms.collection: collection
+  author: v-zhifufeng
+  ms.author: v-zhifufeng
+  ms.date: 03/29/2021
+  ms.openlocfilehash: 3833e05eea8f8598d228e261734fedb1b0cf2647
+  ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
+  ms.translationtype: MT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 07/07/2021
+  ms.locfileid: "53322451"
+landingContent:
+- title: Sobre a Base de Teste
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: O que é Base de Teste?
+      url: overview.md
+  - linkListType: get-started
+    links:
+    - text: Criar conta base de teste
+      url: createAccount.md
+  - linkListType: tutorial
+    links:
+    - text: recursos adicionais
+      url: faq.md
+- title: Introdução
+  linkLists:
+  - linkListType: quickstart
+    links:
+    - text: Criar conta base de teste
+      url: createAccount.md
+    - text: Upload seu aplicativo
+      url: uploadApplication.md
+    - text: Upload binários
+      url: binaries.md
+    - text: Definir suas tarefas de teste
+      url: testtask.md
+    - text: Escolha suas opções de teste
+      url: testoptions.md
+    - text: Revisar suas seleções
+      url: review.md
+    - text: Diretrizes de pacote de teste
+      url: contentguideline.md
+    - text: Análise de Regressão de Memória
+      url: memory.md
+    - text: Análise de Regressão de CPU
+      url: cpu.md
+- title: Obter referências
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Perguntas Frequentes
+      url: faq.md
