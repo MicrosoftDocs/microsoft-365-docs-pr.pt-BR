@@ -18,20 +18,20 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 170955ebba633c1749423e11bb34f7bfbdba1f07
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: e24b59958e5ef933b42294636ce6a1cc11528bb8
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684106"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322240"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts"></a>Investigar e corrigir alertas de conformidade em comunicações
 
-Depois de configurar suas políticas de conformidade de comunicação, você começará a receber alertas no centro de conformidade Microsoft 365 de mensagens que corresponderem às suas condições de política. Siga as instruções de fluxo de trabalho aqui para investigar e resolver problemas de alerta.
+Depois de configurar suas políticas de conformidade de comunicação, você começará a receber alertas no Centro de conformidade do Microsoft 365 para problemas de mensagem que corresponderem às suas condições de política. Siga as instruções de fluxo de trabalho aqui para investigar e resolver problemas de alerta.
 
 ## <a name="investigate-alerts"></a>Investigar alertas
 
-A primeira etapa para investigar problemas detectados por suas políticas é analisar os alertas de conformidade de comunicação no centro de conformidade Microsoft 365 de comunicação. Há várias áreas na área de solução de conformidade de comunicação para ajudá-lo a investigar rapidamente os alertas, dependendo de como você prefere exibir o agrupamento de alertas:
+A primeira etapa para investigar problemas detectados por suas políticas é analisar os alertas de conformidade de comunicação no Centro de conformidade do Microsoft 365. Há várias áreas na área de solução de conformidade de comunicação para ajudá-lo a investigar rapidamente os alertas, dependendo de como você prefere exibir o agrupamento de alertas:
 
 - **Página de política** de conformidade de comunicação : quando você entrar usando credenciais para uma conta de administrador em sua Microsoft 365, selecione Conformidade de comunicação para exibir a página Política de conformidade [https://compliance.microsoft.com](https://compliance.microsoft.com) **de** comunicação.  Esta página exibe políticas de conformidade de comunicação configuradas para sua organização Microsoft 365 e links para modelos de política recomendados. Cada política listada inclui a contagem de alertas que precisam de revisão, o número de itens escalonados e resolvidos, o status da política e a data e a hora da última verificação de política. Selecionar uma política exibe todos os alertas pendentes para as combinações com a política, selecione um alerta específico para iniciar a página de detalhes da política e para iniciar ações de correção.
 - **Alertas**: Navegue até **Alertas** de conformidade de comunicação para exibir os últimos 30 dias de  >   alertas agrupados por diretivas. Esse exibição permite ver rapidamente quais políticas de conformidade de comunicação estão gerando a maioria dos alertas por gravidade. Para iniciar ações de correção, selecione a política associada ao alerta para iniciar a **página Detalhes da** Política. Na  página Detalhes da Política, você pode revisar um resumo das atividades na  página Visão Geral, revisar e agir em  mensagens de alerta na página Pendente ou revisar o histórico de alertas fechados na página Resolvido. 
@@ -47,7 +47,7 @@ Para obter uma lista completa de filtros e detalhes de campo, consulte [Filters]
 
 1. Entre [https://compliance.microsoft.com](https://compliance.microsoft.com) usando credenciais para uma conta de administrador em sua Microsoft 365 organização.
 
-2. No centro Microsoft 365 de conformidade, vá para **Conformidade de comunicação.**
+2. No Centro de conformidade do Microsoft 365, vá para **Conformidade de comunicação**.
 
 3. Selecione a **guia Políticas** e selecione uma política para investigação, clique duas vezes para abrir a **página Política.**
 
@@ -71,7 +71,7 @@ As políticas de Conformidade de comunicações digitalizarão e agrupam automat
 
 1. Entre [https://compliance.microsoft.com](https://compliance.microsoft.com) usando credenciais para uma conta de administrador em sua Microsoft 365 organização.
 
-2. No centro Microsoft 365 de conformidade, vá para **Conformidade de comunicação.**
+2. No Centro de conformidade do Microsoft 365, vá para **Conformidade de comunicação**.
 
 3. Selecione a **guia Políticas** e selecione uma política para investigação, clique duas vezes para abrir a **página Política.**
 
@@ -93,7 +93,7 @@ Não importa onde você começa a analisar alertas ou a filtragem configurada, a
 
 ### <a name="step-1-examine-the-message-basics"></a>Etapa 1: Examinar as noções básicas da mensagem
 
- Às vezes, é óbvio da origem ou assunto que uma mensagem pode ser imediatamente remediada. Pode ser que a mensagem seja espulosa ou incorretamente corresponder a uma política e ela deve ser resolvida como um falso positivo. Selecione a **de alerta** falso positivo para resolver imediatamente o alerta e remover a fila pendente do alerta. Nas informações de origem ou remetente, talvez você já saiba como a mensagem deve ser roteada ou tratada nestas circunstâncias. Considere usar a marca **como controles** ou **Escalonar** para atribuir uma marca às mensagens aplicáveis ou enviar mensagens a um revistor designado.
+ Às vezes, é óbvio da origem ou assunto que uma mensagem pode ser imediatamente remediada. Pode ser que a mensagem seja espulosa ou incorretamente corresponder a uma política e ela deve ser resolvida como classificada incorretamente. Selecione o **Relatório como controle** mal classificado para compartilhar conteúdo mal classificado com a Microsoft, resolver imediatamente o alerta e remover da fila de alertas pendente. Nas informações de origem ou remetente, talvez você já saiba como a mensagem deve ser roteada ou tratada nestas circunstâncias. Considere usar a marca **como controles** ou **Escalonar** para atribuir uma marca às mensagens aplicáveis ou enviar mensagens a um revistor designado.
 
 ![Controles de correção de conformidade de comunicação](../media/communication-compliance-remediation-controls.png)
 
@@ -107,7 +107,7 @@ Depois de revisar as noções básicas da mensagem, é hora de abrir uma mensage
 - **Exibição de conversa (visualização)**: disponível para mensagens de Microsoft Teams de chat, esse visor exibe até cinco mensagens antes e depois de uma mensagem de alerta para ajudar os revisadores a exibir a atividade no contexto de conversa. Esse contexto ajuda os revisadores a avaliar rapidamente mensagens e tomar decisões de resolução de mensagens mais informadas. As adições de mensagens em tempo real a conversas são exibidas, incluindo todas as imagens em linha, emojis e adesivos disponíveis no Teams. Anexos de arquivo de imagem ou texto a mensagens não são exibidos. As notificações são exibidas automaticamente para mensagens editadas ou para mensagens que foram excluídas da janela de conversa. Quando uma mensagem é resolvida, as mensagens de conversação associadas não são mantidas com a mensagem resolvida. As mensagens de conversa ficam disponíveis por até 60 dias após a identificação da mensagem de alerta.
 - **Histórico de**: o exibição do histórico do usuário exibe todos os outros alertas gerados por qualquer política de conformidade de comunicação para o usuário que envia a mensagem.
 - **Notificação detectada por** padrão : muitas ações de assedio e intimidação ao longo do tempo e envolvem instâncias recorrentes do mesmo comportamento por um usuário. A *notificação de* Padrão detectada é exibida nos detalhes do alerta e chama a atenção para o alerta. A detecção de padrões é por política e avalia o comportamento nos últimos 30 dias quando pelo menos duas mensagens são enviadas para o mesmo destinatário por um remetente. Os investigadores e revisadores podem usar essa notificação para identificar o comportamento repetido para avaliar o alerta conforme apropriado.
-- **Show Translate view**: This view automatically converts alert message text to the language configured in the *Displayed* language setting in the Microsoft 365 subscription for each reviewer. O modo de exibição Traduzir ajuda a ampliar o suporte investigativo para organizações com usuários multilíngues e elimina a necessidade de serviços de tradução adicionais fora do processo de revisão de conformidade de comunicação. Usando os serviços do Microsoft Translate, o visualização Traduzir pode ser ligado e desligado conforme necessário e oferece suporte a uma ampla variedade de idiomas. Para ver uma lista completa de idiomas com suporte, consulte [Microsoft Tradutor Languages](https://www.microsoft.com/translator/business/languages/). Os idiomas listados na *lista Tradutor idioma* são suportados no visualização Traduzir.
+- **Show Translate view**: This view automatically converts alert message text to the language configured in the *Displayed* language setting in the Microsoft 365 subscription for each reviewer. O modo de exibição Traduzir ajuda a ampliar o suporte investigativo para organizações com usuários multilíngues e elimina a necessidade de serviços de tradução adicionais fora do processo de revisão de conformidade de comunicação. Usando os serviços do Microsoft Translate, o visualização Traduzir pode ser ligado e desligado conforme necessário e oferece suporte a uma ampla variedade de idiomas. Para uma lista completa de idiomas com suporte, [consulte Microsoft Translator Idiomas](https://www.microsoft.com/translator/business/languages/). Os idiomas listados na *lista Tradutor idioma* são suportados no visualização Traduzir.
 
     ![Controles de exibição de mensagem de conformidade de comunicação](../media/communication-compliance-message-views.png)
 
@@ -116,7 +116,7 @@ Depois de revisar as noções básicas da mensagem, é hora de abrir uma mensage
 Agora que você reviu os detalhes da mensagem para o alerta, pode escolher várias ações de correção:
 
 - **Resolve**: Selecionar o **controle Resolver** remove imediatamente a mensagem da fila de **alertas pendentes** e nenhuma ação mais pode ser tomada na mensagem. Ao selecionar **Resolver**, você essencialmente fechou o alerta sem classificação posterior e ele não pode ser reaberto para outras ações. Todas as mensagens resolvidas são exibidas na **guia Resolvido.**
-- **Falso Positivo**: você sempre pode resolver uma mensagem como um falso positivo em qualquer ponto durante o fluxo de trabalho de revisão de mensagens. Falso positivo significa que o alerta não foi a ação ou que o alerta foi gerado incorretamente pelo processo de alerta. A mensagem não pode ser reaberta e todas as mensagens falsos positivos são exibidas na guia **Resolvido.**
+- **Relatório como mal classificado (visualização)**: Você sempre pode resolver uma mensagem como mal classificada em qualquer ponto durante o fluxo de trabalho de revisão de mensagem. A classificação incorreta significa que o alerta não foi a ação ou que o alerta foi gerado incorretamente pelo processo de alerta e por qualquer classificador treinável. A resolução do item como classificado de forma errada envia conteúdo de mensagem, anexos e o assunto da mensagem (incluindo metadados) para a Microsoft para ajudar a melhorar classificadores treináveis. Os dados enviados à Microsoft não contêm informações que podem identificar ou ser usados para identificar qualquer usuário em sua organização. Outras ações não podem ser tomadas na mensagem e todas as mensagens classificadas de forma errada são exibidas na guia **Resolvido.**
 - **Power Automate (visualização)**: use um fluxo Power Automate para automatizar tarefas de processo para uma mensagem de alerta. Por padrão, *a* conformidade de comunicação inclui o Gerenciador de Notificação quando um usuário tem um modelo de fluxo de alerta de conformidade de comunicação que os revisadores podem usar para automatizar o processo de notificação para usuários com alertas de mensagem. Para obter mais informações sobre como criar e gerenciar Power Automate fluxos em conformidade com a comunicação, consulte o artigo de referência do recurso [de conformidade de](communication-compliance-feature-reference.md#power-automate-flows) comunicação.
 - **Marca como**: marque a mensagem como compatível, não compatível *ou* *questionável* quanto se relaciona às políticas e padrões da sua organização. Adicionar marcas e comentários de marcação ajuda você a filtrar alertas de política de micro-filtro para escalonamentos ou como parte de outros processos de revisão interna. Depois que a marcação for concluída, você também pode optar por resolver a mensagem para movê-la da fila de revisão pendente.
 - **Notificar**: você pode usar o controle **Notificar** para atribuir um modelo de aviso personalizado ao alerta e enviar um aviso de aviso ao usuário. Escolha o modelo de aviso  apropriado configurado na área Configurações de conformidade de comunicação e selecione **Enviar** para enviar um lembrete por email para o usuário que enviou a mensagem e resolver o problema.

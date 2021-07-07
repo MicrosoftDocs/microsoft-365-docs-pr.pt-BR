@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: dc5710a73685c67eff17c0f281bd14e48707e60f
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: 4793f3c84ddda0db7f4d67ac96cb31a6e2108c57
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964783"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326994"
 ---
 # <a name="microsoft-defender-for-endpoint-for-non-windows-platforms"></a>Microsoft Defender para Ponto de Extremidade para plataformas que não são Windows
 
@@ -35,7 +35,7 @@ ms.locfileid: "52964783"
 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-A Microsoft está em uma jornada para estender seus principais recursos de segurança do ponto de extremidade do setor além Windows e Windows Server para macOS, Linux, Android e em breve iOS.
+A Microsoft está em uma jornada para estender seus principais recursos de segurança do ponto de extremidade do setor além Windows e Windows Server para macOS, Linux, Android e iOS.
 
 As organizações enfrentam ameaças em várias plataformas e dispositivos. Nossas equipes se comprometeram a criar soluções de segurança não apenas para a *Microsoft,* mas também para permitir que nossos clientes protejam e protejam seus ambientes heterogêneos.  Estamos escutando os comentários dos clientes e fazendo parcerias com nossos clientes para criar soluções que atendem às suas necessidades.
 
@@ -43,26 +43,26 @@ Com o Microsoft Defender para Ponto de Extremidade, os clientes se beneficiam de
 
 ## <a name="microsoft-defender-for-endpoint-on-macos"></a>Microsoft Defender para Ponto de Extremidade no macOS 
 
-O Microsoft Defender para Ponto de Extremidade no macOS oferece recursos antivírus e detecção e resposta de ponto de extremidade (EDR) para as três versões mais recentes lançadas do macOS. Os clientes podem implantar e gerenciar a solução por meio Microsoft Endpoint Manager e Jamf. Assim como com Microsoft Office aplicativos no macOS, o Microsoft Auto Update é usado para gerenciar o Microsoft Defender para Endpoint em atualizações do Mac. Para obter informações sobre os principais recursos e benefícios, leia nossos [comunicados](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/macOS).
+O Microsoft Defender para Ponto de Extremidade no macOS oferece recursos antivírus, detecção e resposta de ponto de extremidade (EDR) e Gerenciamento de Vulnerabilidades para as três versões mais recentes lançadas do macOS. Os clientes podem implantar e gerenciar a solução por meio Microsoft Endpoint Manager e Jamf. Assim como com Microsoft Office aplicativos no macOS, o Microsoft Auto Update é usado para gerenciar o Microsoft Defender para Endpoint em atualizações do Mac. Para obter informações sobre os principais recursos e benefícios, leia nossos [comunicados](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/macOS).
 
 Para obter mais detalhes sobre como começar, visite o Defender for Endpoint na documentação do [macOS](microsoft-defender-endpoint-mac.md).
 
 >[!NOTE]
 >No momento, os seguintes recursos não são suportados nos pontos de extremidade do macOS:
->- Prevenção contra perda de dados
+>- Prevenção contra a perda de dados
 >- Resposta ao vivo
 >- SIEM
 
 
 ## <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender para Ponto de Extremidade para Linux
 
-O Microsoft Defender para Ponto de Extremidade no Linux oferece recursos preventivos (AV) para servidores Linux. Isso inclui uma experiência de linha de comando completa para configurar e gerenciar o agente, iniciar verificações e gerenciar ameaças. Suportamos versões recentes das seis distribuições mais comuns do Linux Server: RHEL 7.2+, CentOS Linux 7.2+, Ubuntu 16 LTS ou LTS superior, SLES 12+, Debian 9+, e Oracle Linux 7.2. O Microsoft Defender para Ponto de Extremidade no Linux pode ser implantado e configurado usando o Puppet, Ansible ou usando a ferramenta de gerenciamento de configuração do Linux existente. Para obter informações sobre os principais recursos e benefícios, leia nossos [comunicados](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/Linux).
+O Microsoft Defender para Ponto de Extremidade no Linux oferece recursos preventivos (AV), detecção e resposta de ponto de extremidade (EDR) e Gerenciamento de Vulnerabilidades para servidores Linux. Isso inclui uma experiência de linha de comando completa para configurar e gerenciar o agente, iniciar verificações e gerenciar ameaças. Suportamos versões recentes das seis distribuições mais comuns do Linux Server: RHEL 7.2+, CentOS Linux 7.2+, Ubuntu 16 LTS ou LTS superior, SLES 12+, Debian 9+, e Oracle Linux 7.2. O Microsoft Defender para Ponto de Extremidade no Linux pode ser implantado e configurado usando o Puppet, Ansible ou usando a ferramenta de gerenciamento de configuração do Linux existente. Para obter informações sobre os principais recursos e benefícios, leia nossos [comunicados](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/Linux).
 
 Para obter mais detalhes sobre como começar, visite o Microsoft Defender for Endpoint na [documentação](microsoft-defender-endpoint-linux.md)do Linux.
 
 >[!NOTE]
 >No momento, os seguintes recursos não são suportados em pontos de extremidade do Linux:
->- Prevenção contra perda de dados
+>- Prevenção contra a perda de dados
 >- Resposta ao vivo
 >- SIEM
 

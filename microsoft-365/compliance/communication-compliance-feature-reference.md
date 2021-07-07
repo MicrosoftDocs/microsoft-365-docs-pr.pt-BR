@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: f94d2bbb8a65a4004ee05b9d740f94ae841f9a4e
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 8a81c65d65704262230e6eb6245d882b63a18bab
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227370"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322288"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -52,7 +52,7 @@ As comunicações são examinadas a cada 24 horas a partir do momento em que as 
 
 ## <a name="pausing-a-policy-preview"></a>Pausar uma política (visualização)
 
-Depois de criar uma política de conformidade de comunicação, a política poderá ser pausada temporariamente, se necessário. A pausa de uma política pode ser usada para testar ou solucionar problemas de diretivas ou para otimizar as condições da política. Em vez de excluir uma política nessas circunstâncias, pausar uma política também preserva alertas de política e mensagens existentes para investigações e análises em andamento. A pausa de uma política impede a geração de inspeção e alerta para todas as condições de mensagem do usuário definidas na política para o momento em que a política é pausada. Para pausar ou reiniciar uma política, os usuários devem ser membros do grupo de função Administrador de *Conformidade* de Comunicação.
+Depois de criar uma política de conformidade de comunicação, a política poderá ser pausada temporariamente, se necessário. A pausa de uma política pode ser usada para testar ou solucionar problemas de diretivas ou para otimizar as condições da política. Em vez de excluir uma política nessas circunstâncias, pausar uma política também preserva alertas de política e mensagens existentes para investigações e análises em andamento. A pausa de uma política impede a inspeção e a geração de alertas para todas as condições de mensagem do usuário definidas na política para o momento em que a política é pausada. Para pausar ou reiniciar uma política, os usuários devem ser membros do grupo de função Administrador de *Conformidade* de Comunicação.
 
 Para pausar uma política, navegue até a página **Política,** selecione uma política e selecione **Pausar política** na barra de ferramentas ações. No painel **Pausar** política, confirme se você gostaria de pausar a política selecionando **Pausar**. Em alguns casos, pode levar até 24 horas para uma política ser pausada. Depois que a política é pausada, os alertas para mensagens correspondentes à política não são criados. No entanto, as mensagens associadas aos alertas criados antes da pausa da política permanecem disponíveis para investigação, revisão e correção.
 
@@ -95,7 +95,7 @@ Para ajudar no planejamento de migração, considere o exemplo a seguir. Atualme
 - Administrador de Revisão de Supervisão
 - Gerenciamento de Casos
 - Administrador de Conformidade
-- Revisão
+- Analisar
 
 Para atualizar as funções desses usuários para a nova estrutura de grupo de funções e separar as permissões de acesso e gerenciamento para os usuários, você pode considerar três novos grupos e as novas atribuições de grupo de função associadas:
 
@@ -188,12 +188,13 @@ Classificadores integrados e globais verificam mensagens enviadas ou recebidas e
 
 Os classificadores globais e de conformidade de comunicação interna verificam as comunicações para termos, imagens e sentimentos para os seguintes tipos de idioma e conteúdo:
 
-- **Ameaça**: verifica se há ameaças para cometer violência ou danos físicos a uma pessoa ou propriedade.
-- **Assédio direcionado**: verifica se há conduta ofensiva direcionada a pessoas em relação a raça, cor, religião, origem nacional.
-- **Profanidade**: verifica expressões profanas que a maior parte das pessoas se envergonhe.
 - **Imagens de adulto**: verifica imagens que são sexualmente explícitas na natureza.
-- **Imagens cícilas**: verifica imagens que são sugestivas sexualmente na natureza, mas contêm conteúdo menos explícito do que imagens consideradas Como Adulto.
+- **Discriminação (visualização)**: verifica a linguagem discriminatória explícita e é particularmente sensível à linguagem discriminatória em relação às comunidades americanas/negras da África quando comparadas a outras comunidades.
 - **Imagens gory**: verifica imagens que representam a violência e a gore.
+- **Profanidade**: verifica expressões profanas que a maior parte das pessoas se envergonhe.
+- **Imagens cícilas**: verifica imagens que são sugestivas sexualmente na natureza, mas contêm conteúdo menos explícito do que imagens consideradas Como Adulto.
+- **Assédio direcionado**: verifica se há conduta ofensiva direcionada a pessoas em relação a raça, cor, religião, origem nacional.
+- **Ameaça**: verifica se há ameaças para cometer violência ou danos físicos a uma pessoa ou propriedade.
 
 Os *classificadores de* imagens Adult , *Racy* e *Gory* verificam arquivos nos formatos .jpeg, .png, .gif e .bmp. O tamanho dos arquivos de imagem deve ter menos de 4 megabytes (MB) e as dimensões das imagens devem ser maiores que 50 x 50 pixels e mais de 50 quilobytes (KB) para que a imagem se qualibiliza para avaliação. A identificação de imagem é suportada Exchange Online mensagens de email e Microsoft Teams canais e chats.
 
@@ -553,7 +554,7 @@ Este exemplo retorna atividades que corresponderem às políticas atuais de conf
 Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations SupervisionRuleMatch
 ```
 
-As correspondências da política de conformidade de comunicação são armazenadas em uma caixa de correio de supervisão para cada política. Em alguns casos, talvez seja necessário verificar o tamanho da sua caixa de correio de supervisão para uma política para garantir que você não está se aproximando do limite atual de 50 GB. Se o limite de caixa de correio for atingido, as correspondências de política não serão capturadas e você precisará criar uma nova política (com as mesmas configurações) para continuar a capturar correspondências para as mesmas atividades.
+As correspondências da política de conformidade de comunicação são armazenadas em uma caixa de correio de supervisão para cada política. Em alguns casos, talvez seja necessário verificar o tamanho da sua caixa de correio de supervisão para ter certeza de que não está se aproximando do limite atual de 50 GB. Se o limite de caixa de correio for atingido, as correspondências de política não serão capturadas e você precisará criar uma nova política (com as mesmas configurações) para continuar a capturar correspondências para as mesmas atividades.
 
 Para verificar o tamanho de uma caixa de correio de supervisão para uma política, conclua as seguintes etapas:
 

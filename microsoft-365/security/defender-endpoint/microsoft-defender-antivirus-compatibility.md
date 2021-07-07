@@ -15,13 +15,13 @@ ms.custom: nextgen
 ms.reviewer: tewchen, pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 05/08/2021
-ms.openlocfilehash: f03fab3f296f98b448693c6a5d0886f409201703
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.date: 07/06/2021
+ms.openlocfilehash: aac84d2e957809d1c9579f25c01006798af2c0a9
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288474"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322408"
 ---
 # <a name="microsoft-defender-antivirus-compatibility"></a>Microsoft Defender Antivírus compatibilidade
 
@@ -33,27 +33,27 @@ ms.locfileid: "53288474"
 
 ## <a name="summary"></a>Resumo
 
-Microsoft Defender Antivírus é automaticamente habilitado e instalado em pontos de extremidade e dispositivos que estão executando Windows 10. Mas o que acontece quando outra solução antivírus/antimalware (não Microsoft) é usada? Depende se você está usando o Microsoft Defender para Ponto de Extremidade [juntamente](microsoft-defender-endpoint.md) com sua proteção antivírus. Este artigo descreve o que acontece com soluções antivírus/antimalware quando os pontos de extremidade são integrados ao Microsoft Defender para Ponto de Extremidade.
+Microsoft Defender Antivírus é automaticamente habilitado e instalado em pontos de extremidade e dispositivos que estão executando Windows 10. Mas o que acontece quando outra solução antivírus/antimalware (não Microsoft) é usada? Você pode executar Microsoft Defender Antivírus com outro produto antivírus? As respostas dependem de vários fatores, como o sistema operacional e se você está usando o [Microsoft Defender para Ponto](microsoft-defender-endpoint.md) de Extremidade juntamente com sua proteção antivírus. 
 
-## <a name="keep-the-following-points-in-mind"></a>Lembre-se dos seguintes pontos
+## <a name="important-points-to-keep-in-mind"></a>Pontos importantes para ter em mente
 
-- No modo ativo, Microsoft Defender Antivírus é usado como o aplicativo antivírus no computador. Todas as configurações feitas com o Configuration Manager, a Política de Grupo, o Intune ou outros produtos de gerenciamento serão aplicadas. Os arquivos são verificados e as ameaças são remediadas e as informações de detecção são relatadas na ferramenta de configuração (como o Configuration Manager ou o Microsoft Defender Antivírus aplicativo no próprio computador).
+- No modo ativo, Microsoft Defender Antivírus é usado como o aplicativo antivírus no computador. Configurações configurado usando o Configuration Manager, a Política de Grupo, Microsoft Intune ou outros produtos de gerenciamento serão aplicados. Os arquivos são verificados, as ameaças são remediadas e as informações de detecção são relatadas em sua ferramenta de configuração (como o Configuration Manager ou o Microsoft Defender Antivírus aplicativo no próprio ponto de extremidade).
 
-- No modo passivo, Microsoft Defender Antivírus não é usado como o aplicativo antivírus e as ameaças não são remediadas por Microsoft Defender Antivírus. Os arquivos são verificados e os relatórios são fornecidos para detecções de ameaças que são compartilhadas com o serviço Microsoft Defender para Ponto de Extremidade. Você pode ver alertas no [centro](microsoft-defender-security-center.md) de segurança mostrando Microsoft Defender Antivírus como uma fonte, mesmo quando Microsoft Defender Antivírus está no modo passivo.
+- No modo passivo, Microsoft Defender Antivírus não é usado como o  aplicativo antivírus e as ameaças não são remediadas por Microsoft Defender Antivírus. Os arquivos são verificados e os relatórios são fornecidos para detecções de ameaças que são compartilhadas com o serviço Microsoft Defender para Ponto de Extremidade. Você pode ver alertas no [centro](microsoft-defender-security-center.md) de segurança mostrando Microsoft Defender Antivírus como uma fonte, mesmo quando Microsoft Defender Antivírus está no modo passivo.
 
-- Quando [EDR no](edr-in-block-mode.md) modo de bloqueio estiver ligado e Microsoft Defender Antivírus não for a solução antivírus principal, ele detectará e remediará itens mal-intencionados. EDR no modo de bloqueio requer Microsoft Defender Antivírus ser habilitado no modo ativo ou no modo passivo.
+- Quando [EDR](edr-in-block-mode.md) no modo de bloqueio é ligado e o Microsoft Defender Antivírus não é a solução antivírus principal, EDR no modo de bloqueio detecta e correção de itens mal-intencionados encontrados no dispositivo (após a violação). EDR no modo de bloqueio requer Microsoft Defender Antivírus ser habilitado no modo ativo ou no modo passivo.
 
-- Quando desabilitado, Microsoft Defender Antivírus não é usado como o aplicativo antivírus. Os arquivos não são verificados e as ameaças não são remediadas. Desabilitar/desinstalar Microsoft Defender Antivírus não é recomendado em geral; se possível, mantenha Microsoft Defender Antivírus no modo passivo se você estiver usando uma solução antimalware/antivírus que não seja da Microsoft.
+- Quando desabilitado, Microsoft Defender Antivírus não é usado como o aplicativo antivírus. Os arquivos não são verificados e as ameaças não são remediadas. Desabilitar ou desinstalar Microsoft Defender Antivírus não é recomendado em geral; se possível, mantenha Microsoft Defender Antivírus no modo passivo se você estiver usando uma solução antimalware/antivírus que não seja da Microsoft.
 
-- Se você estiver inscrito no Microsoft Defender para Ponto de Extremidade e estiver usando um produto antimalware de terceiros, o modo passivo será habilitado. O serviço exige o compartilhamento de informações comuns Microsoft Defender Antivírus serviço para monitorar corretamente seus dispositivos e rede para tentativas e ataques de intrusão. Para saber mais, confira [Microsoft Defender Antivírus compatibilidade com o Microsoft Defender para Ponto de Extremidade](defender-compatibility.md). 
+- Se você estiver inscrito no Microsoft Defender para Ponto de Extremidade e estiver usando um produto antivírus/antimalware que não seja da Microsoft, Microsoft Defender Antivírus está habilitado no modo passivo. O Defender para Ponto de Extremidade requer o compartilhamento de informações comuns Microsoft Defender Antivírus para monitorar corretamente seus dispositivos e rede para tentativas e ataques de intrusão. Para saber mais, confira [Microsoft Defender Antivírus compatibilidade com o Microsoft Defender para Ponto de Extremidade](defender-compatibility.md). 
 
-- Quando Microsoft Defender Antivírus está no modo passivo, você ainda pode [gerenciar atualizações para](manage-updates-baselines-microsoft-defender-antivirus.md)Microsoft Defender Antivírus; no entanto, você não pode mover o Microsoft Defender Antivírus para o modo ativo se seus dispositivos têm um produto antivírus atualizado que não seja da Microsoft que está fornecendo proteção em tempo real contra malware. Para obter uma eficácia ideal de defesa e detecção em camadas de segurança, atualize a proteção de Microsoft Defender Antivírus [(atualização de](manage-updates-baselines-microsoft-defender-antivirus.md) inteligência de segurança, Mecanismo e Plataforma) mesmo que o Microsoft Defender Antivírus seja executado no modo passivo.
+- Quando Microsoft Defender Antivírus está no modo passivo, você ainda pode [gerenciar atualizações para](manage-updates-baselines-microsoft-defender-antivirus.md)Microsoft Defender Antivírus; no entanto, você não pode mover o Microsoft Defender Antivírus para o modo ativo se seus dispositivos têm um produto antivírus que não seja da Microsoft que está fornecendo proteção em tempo real contra malware. Para obter a melhor eficácia de defesa e detecção em camadas de segurança, certifique-se de obter as atualizações de antivírus e antimwalware, mesmo que o Microsoft Defender Antivírus seja executado no modo passivo. Consulte [Gerenciar Microsoft Defender Antivírus atualizações e aplicar linhas de base](manage-updates-baselines-microsoft-defender-antivirus.md).
 
-- Quando o Microsoft Defender Antivírus é desabilitado automaticamente, ele pode ser reabilitar automaticamente se a proteção oferecida por um produto antivírus que não seja da Microsoft expirar ou se deixar de fornecer proteção em tempo real contra vírus, malware ou outras ameaças. A rehabilitação automática ajuda a garantir que a proteção antivírus seja mantida em seus dispositivos. Ele também permite que você habilita a verificação periódica limitada [,](limited-periodic-scanning-microsoft-defender-antivirus.md)que usa o mecanismo Microsoft Defender Antivírus para verificar periodicamente se há ameaças além do seu aplicativo antivírus principal.
+- Quando o Microsoft Defender Antivírus é desabilitado automaticamente, ele pode ser reabilitar automaticamente se o produto antivírus/antimalware não Microsoft expirar ou, de outra forma, parar de fornecer proteção em tempo real contra vírus, malware ou outras ameaças. A rehabilitação automática de Microsoft Defender Antivírus ajuda a garantir que a proteção antivírus seja mantida em seus pontos de extremidade. Você também [](limited-periodic-scanning-microsoft-defender-antivirus.md)pode habilitar a verificação periódica limitada , que usa o mecanismo Microsoft Defender Antivírus para verificar periodicamente se você está usando um aplicativo antivírus que não seja da Microsoft.
 
 ## <a name="microsoft-defender-antivirus-and-non-microsoft-antivirusantimalware-solutions"></a>Microsoft Defender Antivírus e soluções antimalware que não são da Microsoft
 
-A tabela a seguir resume o que acontece com o Microsoft Defender Antivírus quando soluções antimalware/antivírus não-Microsoft são usadas juntas ou sem o Microsoft Defender para Ponto de Extremidade. 
+O sistema operacional, o produto antivírus e o Defender para Ponto de Extremidade afetam se o Microsoft Defender Antivírus está no modo ativo, no modo passivo ou desabilitado. A tabela a seguir resume o que acontece com o Microsoft Defender Antivírus quando soluções antimalware/antivírus não-Microsoft são usadas juntas ou sem o Microsoft Defender para Ponto de Extremidade. 
 
 | Versão do Windows   | Solução antivírus/antimalware  | Onboarded to <br/> Defender para Ponto de Extremidade? | Microsoft Defender Antivírus estado     |
 |------|------|-------|-------|
@@ -120,16 +120,25 @@ Considere a integração de seus pontos de extremidade com o Defender para Ponto
 
 Veja como funciona:
 
-- Se os dispositivos cliente da sua organização estão protegidos por uma solução antivírus/antimwalware que não seja da Microsoft, quando esses dispositivos estão a bordo do Defender para Ponto de Extremidade, o Microsoft Defender Antivírus entra no modo passivo automaticamente. Nesse caso, ocorrem detecções de ameaças, mas a proteção e as ameaças em tempo real não são remediadas por Microsoft Defender Antivírus. **OBSERVAÇÃO**: Este cenário específico não se aplica aos pontos de extremidade que executam Windows Server.
+- Se os dispositivos cliente da sua organização estão protegidos por uma solução antivírus/antimwalware que não seja da Microsoft, quando esses dispositivos estão a bordo do Defender para Ponto de Extremidade, o Microsoft Defender Antivírus entra no modo passivo automaticamente. Nesse caso, ocorrem detecções de ameaças, mas a proteção e as ameaças em tempo real não são remediadas por Microsoft Defender Antivírus.
+   
+   > [!NOTE]
+   > Esse cenário específico não se aplica aos pontos de extremidade que executam Windows Server.
 
-- Se os dispositivos cliente da sua organização estão protegidos por uma solução antivírus/antimalware que não seja da Microsoft e esses dispositivos não estão integradas ao Microsoft Defender para Ponto de Extremidade, Microsoft Defender Antivírus entra no modo desabilitado automaticamente. Nesse caso, as ameaças não são detectadas ou remediadas por Microsoft Defender Antivírus. **OBSERVAÇÃO**: Este cenário específico não se aplica aos pontos de extremidade que executam Windows Server.
+- Se os dispositivos cliente da sua organização estão protegidos por uma solução antivírus/antimalware que não seja da Microsoft e esses dispositivos não estão integradas ao Microsoft Defender para Ponto de Extremidade, Microsoft Defender Antivírus entra no modo desabilitado automaticamente. Nesse caso, as ameaças não são detectadas ou remediadas por Microsoft Defender Antivírus.
+   
+   > [!NOTE]
+   > Esse cenário específico não se aplica aos pontos de extremidade que executam Windows Server.
 
 - Se os pontos de extremidade da sua organização estão executando o Windows Server e esses pontos de extremidade são protegidos por uma solução antivírus/antimalware que não seja da Microsoft, quando esses pontos de extremidade são aderido ao Defender para Ponto de Extremidade, o Microsoft Defender Antivírus não entra no modo passivo ou desabilitado automaticamente. Nesse cenário específico, você deve configurar seus pontos de extremidade Windows Server adequadamente. 
 
    - No Windows Server, versão 1803 ou mais recente e Windows Server 2019, você pode definir Microsoft Defender Antivírus para ser executado no modo passivo. 
    - No Windows Server 2016, Microsoft Defender Antivírus deve ser desabilitado (o modo passivo não é suportado no Windows Server 2016).
 
-- Se os pontos de extremidade da sua organização estão protegidos por uma solução antivírus/antimalware que não seja da Microsoft, quando esses dispositivos são integradas ao Defender para Ponto de Extremidade [com EDR](/microsoft-365/security/defender-endpoint/edr-in-block-mode) no modo de bloqueio habilitado, o Defender for Endpoint bloqueia e correção de artefatos mal-intencionados. **OBSERVAÇÃO**: Este cenário específico não se aplica a Windows Server 2016. EDR no modo de bloqueio requer Microsoft Defender Antivírus ser habilitado no modo ativo ou no modo passivo.
+- Se os pontos de extremidade da sua organização estão protegidos por uma solução antivírus/antimalware que não seja da Microsoft, quando esses dispositivos são integradas ao Defender para Ponto de Extremidade [com EDR](/microsoft-365/security/defender-endpoint/edr-in-block-mode) no modo de bloqueio habilitado, o Defender for Endpoint bloqueia e correção de artefatos mal-intencionados.
+   
+   > [!NOTE]
+   > Esse cenário específico não se aplica a Windows Server 2016. EDR no modo de bloqueio requer Microsoft Defender Antivírus ser habilitado no modo ativo ou no modo passivo.
 
 
 > [!WARNING]

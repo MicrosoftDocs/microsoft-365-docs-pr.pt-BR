@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: b4418cca035710c6b938dad31a2b55423d2ab458
-ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
+ms.openlocfilehash: 454e60b26f84aca26a0f8f317105ec5457b55ca2
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/07/2021
-ms.locfileid: "53314399"
+ms.locfileid: "53326958"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>Integração Windows 10 usando a Política de Grupo 
 
@@ -101,7 +101,7 @@ Você pode usar a Política de Grupo (GP) para definir configurações, como con
 
 4. Clique **em Políticas** e, em **seguida, modelos administrativos.**
 
-5. Clique **Windows componentes e,** **em seguida, Windows Defender SmartScreen**.
+5. Clique **Windows componentes e,** **em seguida, Windows Defender ATP**.
 
 6. Escolha habilitar ou desabilitar o compartilhamento de exemplo de seus dispositivos.
 

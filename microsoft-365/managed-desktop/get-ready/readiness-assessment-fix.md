@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 9d2f9a95b3d5d90b79122d55477284083ea8332e
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 866d1a2de820fca4c66537583dc5f55098149931
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286880"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53327006"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Corrigir problemas encontrados pela ferramenta de avaliação de prontidão
 
@@ -212,6 +212,13 @@ Você tem um perfil de linha de base de segurança destinado a todos os usuário
 
 Certifique-se de que quaisquer políticas de linha de base de segurança que você tenha excluído Área de Trabalho Gerenciada da Microsoft dispositivos. Para ver as etapas, consulte Usar linhas de base de [segurança para configurar Windows 10 dispositivos no Intune](/mem/intune/protect/security-baselines). Durante o registro, aplicamos uma nova linha de base de segurança a todos os Área de Trabalho Gerenciada da Microsoft dispositivos. O **grupo Dispositivos** Modernos do Local de Trabalho - Todos os Azure AD é um grupo dinâmico que criamos quando você se inscreva no Área de Trabalho Gerenciada da Microsoft, portanto, você terá que voltar para excluir esse grupo após o registro. 
 
+### <a name="unlicensed-admins"></a>Administradores sem licença
+
+Essa configuração deve ser habilitada para evitar um erro de "falta de permissões" quando interagirmos com sua organização do Azure AD. 
+
+**Não está pronto**
+
+**Permitir o acesso a administradores** não autorizados deve ser habilitado. Para ver etapas, consulte [Prerequisites for guest accounts](/microsoft-365/managed-desktop/get-ready/guest-accounts).
 
 ### <a name="windows-apps"></a>Windows aplicativos
 

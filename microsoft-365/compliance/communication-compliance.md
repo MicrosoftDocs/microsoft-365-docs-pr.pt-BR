@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 2bf40f5b1d89b7a232f86c1e186ca660db9f8bbc
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 470b33ca3201151fb164640eeb93c50daf7bb458
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227278"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322360"
 ---
 # <a name="learn-about-communication-compliance-in-microsoft-365"></a>Saiba mais sobre a conformidade de comunicação no Microsoft 365
 
@@ -79,7 +79,7 @@ A conformidade de comunicação Microsoft 365 oferece vários recursos important
 Modelos personalizáveis inteligentes em conformidade com a comunicação permitem que você aplique aprendizado de máquina para detectar de forma inteligente violações de comunicação em sua organização.
 
 - **Modelos pré-configurados** personalizáveis: Os novos modelos de política ajudam a resolver os riscos de comunicação mais comuns. A criação inicial de política e a atualização de acompanhamento agora são mais rápidas com linguagem anti-assédio e ofensiva pré-definida, informações confidenciais, conflito de interesses e modelos de conformidade regulamentar.
-- Novo **suporte** ao aprendizado de máquina : Classificadores de ameaças, assédio, profanação e imagem interna ajudam a reduzir falsos positivos em mensagens digitalizados, economizando tempo dos [revisadores](classifier-get-started-with.md) durante o processo de investigação e correção.
+- Novo **suporte** ao aprendizado de máquina: a discriminação interna, a ameaça, o assédio, a profanação e os classificadores de imagem ajudam a reduzir o conteúdo mal classificado em mensagens verificadas, economizando tempo dos [revisadores](classifier-get-started-with.md) durante o processo de investigação e correção.
 - **Construtor de condições** aprimorado : a configuração das condições de política agora é simplificada em uma única experiência integrada no assistente de política, reduzindo a confusão em como as condições são aplicadas às políticas.
 
 ### <a name="flexible-remediation-workflows"></a>Fluxos de trabalho de correção flexíveis
@@ -154,11 +154,11 @@ Nesta etapa, você analisa mais profundamente os problemas detectados como corre
 
 A próxima etapa é resolver problemas de conformidade de comunicação que você investiga usando as seguintes opções:
 
-- **Resolver**: após analisar um problema, você pode corrigi-lo resolvendo o alerta. Resolver um alerta o remove da lista de alertas pendentes e a ação é preservada como uma entrada na lista Resolvido na política correspondente. Os alertas são resolvidos automaticamente depois de marcar o alerta como falso positivo, enviar um aviso a um usuário sobre o alerta ou abrir um novo caso para o alerta.
+- **Resolver**: após analisar um problema, você pode corrigi-lo resolvendo o alerta. A resolução de um alerta remove-o da fila de alertas pendente e a ação é preservada como uma entrada na fila *Resolvido* para a política correspondente. Os alertas são resolvidos automaticamente depois de marcar o alerta como mal classificado, enviar um aviso a um usuário sobre o alerta ou abrir um novo caso para o alerta.
 - **Marcar uma mensagem**: como parte da solução de um problema, você pode marcar a mensagem detectada como está em conformidade, não está em conformidade ou questionável, relacionada com as políticas e os padrões da sua organização. A marcação pode ajudar a filtrar alertas de política para escalonamento ou como parte outros processos de análise internos.
 - **Notificar o usuário**: Frequentemente, os usuários violam acidentalmente ou inadvertidamente uma política de conformidade de comunicação. Você pode usar o recurso de notificação para enviar um alerta ao usuário e para corrigir o problema. 
 - **Escalonar para outro revisor**: às vezes, o revisor inicial de um problema precisa da contribuição de outros revisores para ajudar a resolver o incidente. Você pode escalonar problemas de mensagem facilmente a revisores em outras áreas da sua organização como parte do processo de correção.
-- **Marcar como falso positivo**: mensagens detectadas incorretamente como correspondentes às políticas de conformidade passarão despercebidos no processo de análise. Você pode marcar esses tipos de alertas como falsos positivos e resolver automaticamente o problema.
+- **Relatório como classificado incorretamente:** As mensagens detectadas incorretamente como combinações de políticas de conformidade ocasionalmente passarão para o processo de revisão. Você pode marcar esses tipos de alertas como classificados de forma não classificada, enviar comentários à Microsoft sobre a classificação in-loco para ajudar a melhorar os classificadores globais e resolver automaticamente o problema.
 - **Remover mensagem em Teams (visualização)**: mensagens inadequadas podem ser removidas da exibição em canais Microsoft Teams ou mensagens de chat pessoal e de grupo. As mensagens inadequadas removidas são substituídas por uma notificação de que a mensagem foi removida por uma violação de política.
 - **Escalonamento para investigação**: Nas situações mais sérias, talvez seja necessário compartilhar informações de conformidade de comunicação com outros revisadores em sua organização. Conformidade de comunicações está altamente integrada com outros recursos de conformidade do Microsoft 365 para ajudar na resolução completa do risco. O escalonamento de um caso para investigação permite que você transfira os dados e o gerenciamento do caso para a Descoberta Eletrônica Avançada no Microsoft 365. A Descoberta Eletrônica Avançada fornece um fluxo de trabalho completo para preservar, coletar, revisar, analisar e exportar conteúdos adequados às investigações internas e externas da sua organização. Ela também permite que sua equipe jurídica gerencie todo o fluxo de trabalho de notificação de retenção legal. Para saber mais sobre os casos de Descoberta Eletrônica Avançada, consulte [Visão Geral da Descoberta Eletrônica Avançada do Microsoft 365](overview-ediscovery-20.md).
 

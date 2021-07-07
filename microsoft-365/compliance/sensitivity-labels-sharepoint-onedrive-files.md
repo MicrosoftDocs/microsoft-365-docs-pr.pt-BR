@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de sensibilidade para arquivos word, Excel e PowerPoint no SharePoint e OneDrive.
-ms.openlocfilehash: 08ea7c88fffebd4466d81ca18f273281ff74c06a
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 67aa69ef8505290b6fde47c4e523a09870312b97
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286544"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322228"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
 
@@ -65,7 +65,7 @@ Você sempre tem a opção de desabilitar rótulos de sensibilidade para Office 
 
 Se você estiver protegendo documentos no SharePoint usando o IRM (Gerenciamento de Direitos de Informação) do SharePoint, verifique SharePoint seção gerenciamento de direitos de informação [(IRM)](#sharepoint-information-rights-management-irm-and-sensitivity-labels) e rótulos de sensibilidade nesta página.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Esses novos recursos funcionam apenas [com rótulos de sensibilidade.](sensitivity-labels.md) Se você atualmente tiver rótulos da Proteção de Informações do Azure, primeiro migre-os para rótulos de sensibilidade para que você possa habilitar esses recursos para novos arquivos carregados. Para obter instruções, consulte[Como migrar os rótulos de Proteção de Informações do Azure para rótulos de confidencialidade unificada](/azure/information-protection/configure-policy-migrate-labels).
 
@@ -241,7 +241,7 @@ Para obter mais informações sobre como usar propriedades gerenciadas, consulte
 
 ## <a name="remove-encryption-for-a-labeled-document"></a>Remover criptografia para um documento rotulado
 
-Pode haver raras ocasiões em que um administrador SharePoint precisa remover a criptografia de um documento armazenado em SharePoint. Qualquer usuário que [](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) tenha o direito de uso gerenciamento de direitos de Exportação ou Controle Total atribuído a eles para esse documento pode remover a criptografia que foi aplicada pelo serviço de Gerenciamento de Direitos do Azure da Proteção de Informações do Azure. Por exemplo, os usuários com qualquer um desses direitos de uso podem substituir um rótulo que aplica criptografia por um rótulo sem criptografia. Como alternativa, um [super usuário poderia](/azure/information-protection/configure-super-users) baixar o arquivo e salvar uma cópia local sem a criptografia.
+Pode haver raras ocasiões em que um administrador SharePoint precisa remover a criptografia de um documento armazenado em SharePoint. Qualquer usuário que [](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) tenha o direito de uso gerenciamento de direitos de Exportação ou Controle Total atribuído a eles para esse documento pode remover a criptografia que foi aplicada pelo serviço de Gerenciamento de Direitos do Azure da Proteção de Informações do Azure. Por exemplo, os usuários com qualquer um desses direitos de uso podem substituir um rótulo que aplica criptografia por um rótulo sem criptografia. Um [super usuário também](/azure/information-protection/configure-super-users) pode baixar o arquivo e salvar uma cópia local sem a criptografia.
 
 Como alternativa, um administrador global ou SharePoint pode executar o cmdlet [Unlock-SPOSensitivityLabelEncryptedFile,](/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) que remove o rótulo de sensibilidade e [a](/sharepoint/sharepoint-admin-role) criptografia. Esse cmdlet é executado mesmo se o administrador não tiver permissões de acesso ao site ou arquivo ou se o serviço de Gerenciamento de Direitos do Azure estiver indisponível.
 

@@ -16,18 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8b32ab5162e0022d9500f7ddba2fe5bbca1017e7
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 0b0f7c5a4a75fdc80509dbc02a43d28f7c93fd7c
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229570"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53327042"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control Removível Armazenamento Access Control
 
 [!INCLUDE [Prerelease](../includes/prerelease.md)]
 
 O Microsoft Defender for Endpoint Device Control Removível Armazenamento Controle de Acesso permite que você faça a seguinte tarefa:
+
 - auditoria, permitindo ou impedindo o acesso de leitura, gravação ou execução ao armazenamento removível com ou sem exclusão
 
 |Privilégio |Permissão  |
@@ -47,6 +48,8 @@ Implantar controle de acesso Armazenamento removível em dispositivos Windows 10
 
 - **4.18.2105** ou posterior : Adicione suporte a curinga para HardwareId/DeviceId/InstancePathId/FriendlyNameId/SerialNumberId, a combinação de usuário específico em máquina específica, SSD removêvel (um SSD do SanDisk Extreme)/suporte A USB Attached SCSI (UAS)
 
+- **4.18.2107** ou posterior : Adicionar suporte Windows wpd (dispositivo portátil) (para dispositivos móveis, como tablets)
+
 :::image type="content" source="images/powershell.png" alt-text="A interface do PowerShell":::
 
 > [!NOTE]
@@ -62,15 +65,14 @@ Você pode usar as seguintes propriedades para criar um grupo de armazenamento r
 
 **Nome da propriedade: DescriptorIdList**
 
-1. Descrição: listar as propriedades do dispositivo que você deseja usar para cobrir no grupo.
-Listar as propriedades do dispositivo que você deseja usar para cobrir no grupo.
+2. Descrição: listar as propriedades do dispositivo que você deseja usar para cobrir no grupo.
 Para cada propriedade de dispositivo, consulte **a seção Propriedades do Dispositivo** acima para obter mais detalhes.
 
-1. Opções:
-
-    - ID principal
+3. Opções:
+    - PrimaryId
         - RemovableMediaDevices
         - CdRomDevices
+        - WpdDevices
     - DeviceId
     - HardwareId
     - InstancePathId: InstancePathId é uma cadeia de caracteres que identifica exclusivamente o dispositivo no sistema, por exemplo, USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0. O número no final (por exemplo, **&0**) representa o slot disponível e pode mudar de dispositivo para dispositivo. Para melhores resultados, use um curinga no final. Por exemplo, USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*
@@ -87,7 +89,7 @@ Para cada propriedade de dispositivo, consulte **a seção Propriedades do Dispo
 
 1. Descrição: quando há várias propriedades de dispositivo sendo usadas no DescriptorIDList, MatchType define a relação.
 
-1. Opções:
+2. Opções:
 
     - MatchAll: Quaisquer atributos sob o DescritorIdList serão **e** relação; por exemplo, se o administrador colocar DeviceID e InstancePathID, para cada USB conectado, o sistema verificará se a USB atende aos dois valores.
     - MatchAny: Os atributos no DescriptorIdList serão **Ou** relação; por exemplo, se o administrador colocar DeviceID e InstancePathID, para cada USB conectado, o sistema fará a imposição desde que a USB tenha um valor **DeviceID** idêntico ou **InstanceID.**
@@ -100,9 +102,9 @@ A seguir estão as propriedades da política de controle de acesso:
 
 **Nome da propriedade: IncludedIdList**
 
-2. Descrição: os grupos ao que a política será aplicada. Se vários grupos são adicionados, a política será aplicada a qualquer mídia em todos esses grupos.
+1. Descrição: os grupos ao que a política será aplicada. Se vários grupos são adicionados, a política será aplicada a qualquer mídia em todos esses grupos.
 
-3. Opções: a ID/GUID do grupo deve ser usada nesta instância.
+2. Opções: a ID/GUID do grupo deve ser usada nesta instância.
 
 O exemplo a seguir mostra o uso de GroupID:
 
@@ -135,11 +137,11 @@ Quando houver tipos de conflito para a mesma mídia, o sistema aplicará o prime
 
 **Nome da propriedade: Sid**
 
-Descrição: define se essa política se aplica a um usuário ou grupo de usuários específico; uma entrada pode ter no máximo um Sid e uma entrada sem qualquer Sid significa aplicar a política no computador.
+Descrição: Sid do computador local ou o Sid do objeto AD define se essa política deve ser aplicada a um usuário ou grupo de usuários específico; uma entrada pode ter no máximo um Sid e uma entrada sem qualquer Sid significa aplicar a política no computador.
 
 **Nome da propriedade: ComputerSid**
 
-Descrição: define se essa política será aplicada a um grupo específico de máquina ou máquina; uma entrada pode ter no máximo um ComputerSid e uma entrada sem qualquer ComputerSid significa aplicar a política no computador. Se você quiser aplicar uma Entrada a um usuário específico e a um computador específico, adicione Sid e ComputerSid à mesma Entrada.
+Descrição: Sid do computador local ou o Sid do objeto AD define se essa política deve ser aplicada a um grupo específico de máquina ou máquina; uma entrada pode ter no máximo um ComputerSid e uma entrada sem qualquer ComputerSid significa aplicar a política no computador. Se você quiser aplicar uma Entrada a um usuário específico e a um computador específico, adicione Sid e ComputerSid à mesma Entrada.
 
 **Nome da propriedade: Opções**
 
@@ -214,7 +216,7 @@ Para ajudar a familiarizá-lo com o Microsoft Defender for Endpoint Removable Ar
 
 O recurso Controle de Acesso Armazenamento removível permite aplicar a política por meio da Política de Grupo a usuários ou dispositivos ou ambos.
 
-### <a name="licensing"></a>Licenças
+### <a name="licensing"></a>Licenciamento
 
 Antes de começar a Armazenamento Controle de Acesso [Removível,](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2)você deve confirmar sua assinatura Microsoft 365 . Para acessar e usar o Controle de Acesso Armazenamento removível, você deve ter Microsoft 365 E3 ou Microsoft 365 E5.
 
@@ -244,7 +246,7 @@ Antes de começar a Armazenamento Controle de Acesso [Removível,](https://www
 
 O recurso Controle de Acesso Armazenamento removível permite aplicar a política por meio do OMA-URI a usuários ou dispositivos ou ambos.
 
-### <a name="licensing"></a>Licenças
+### <a name="licensing"></a>Licenciamento
 
 Antes de começar a Armazenamento Controle de Acesso [Removível,](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2)você deve confirmar sua assinatura Microsoft 365 . Para acessar e usar o Controle de Acesso Armazenamento removível, você deve ter Microsoft 365 E3 ou Microsoft 365 E5.
 
@@ -322,6 +324,7 @@ DeviceEvents
 :::image type="content" source="images/block-removable-storage.png" alt-text="A tela que representa o bloqueio do armazenamento removível":::
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
+
 **Qual é a limitação de mídia de armazenamento removível para o número máximo de USBs?**
 
 Validamos um grupo USB com 100.000 mídias - até 7 MB de tamanho. A política funciona no Intune e no GPO sem problemas de desempenho.
@@ -347,4 +350,3 @@ DeviceFileEvents
 | summarize dcount(DeviceName) by PlatformVersion // check how many machines are using which platformVersion
 | order by PlatformVersion desc
 ```
-
