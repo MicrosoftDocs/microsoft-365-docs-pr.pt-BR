@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: cb4bebe3f6998b81a00d7fd15bc919f70381a933
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: b3ee2f2dcf13402e506b299935459e435fd2f89a
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929690"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326898"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>Solucionar problemas de integração do Microsoft Defender para pontos de extremidade
 
@@ -56,7 +56,7 @@ Se o script for concluído com êxito, consulte [Solucionar](#troubleshoot-onboa
 
 Ao integrar dispositivos usando as seguintes versões do Configuration Manager:
 
-- Microsoft Endpoint Configuration Manager
+- Gerenciador de Configuração do Microsoft Endpoint
 - System Center Configuration Manager 2012
 - Gerenciador de Configurações do System Center 2012 R2
 
@@ -81,7 +81,7 @@ Se o script falhar e o evento for um erro, você poderá verificar a ID do event
 > [!NOTE]
 > As IDs de evento a seguir são específicas apenas para o script de integração.
 
-ID de evento | Tipo de erro | Etapas de resolução
+ID do Evento | Tipo de erro | Etapas de resolução
 :---:|:---|:---
  `5` | Os dados de offboard foram encontrados, mas não puderam ser excluídos | Verifique as permissões no Registro, especificamente<br> `HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`.
 `10` | Os dados de integração não puderam ser gravados no Registro |  Verifique as permissões no Registro, especificamente<br> `HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`.<br>Verifique se o script foi executado como administrador.
@@ -113,8 +113,8 @@ Hex de código de erro | Dec de código de erro | Descrição do erro | OMA-URI 
 0x87D1FDE8 | -2016281112 | Falha na correção | Integração <br> Offboarding | **Causa possível:** A integração ou o offboarding falharam em um blob errado: assinatura errada ou campos PreviousOrgIds ausentes. <br><br> **Etapas de solução de problemas:** <br> Verifique as IDs de evento na seção Exibir erros de integração do agente [no log de eventos do](#view-agent-onboarding-errors-in-the-device-event-log) dispositivo. <br><br> Verifique os logs de eventos MDM na tabela a seguir ou siga as instruções em [Diagnostic MDM failures in Windows 10](/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10).
  | | | | Integração <br> Offboarding <br> SampleSharing | **Causa possível:** A chave do Registro da Política de Ponto de Extremidade do Microsoft Defender não existe ou o cliente do OMA DM não tem permissões para gravar nele. <br><br> **Etapas de solução de problemas:** Verifique se a seguinte chave do Registro existe: `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection` <br> <br> Se ele não existir, abra um comando elevado e adicione a chave.
  | | | | SenseIsRunning <br> OnboardingState <br> OrgId |  **Causa possível:** Uma tentativa de correção por propriedade somente leitura. A integração falhou. <br><br> **Etapas de solução de problemas:** Verifique as etapas de solução de problemas em [Solucionar problemas de integração no dispositivo](#troubleshoot-onboarding-issues-on-the-device). <br><br> Verifique os logs de eventos MDM na tabela a seguir ou siga as instruções em [Diagnostic MDM failures in Windows 10](/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10).
- | | | | Todos | **Causa possível:** Tente implantar o Microsoft Defender para Ponto de Extremidade em SKU/Platform sem suporte, especialmente SKU holográfico. <br><br> Plataformas com suporte no momento:<br> Enterprise, Educação e Professional.<br> O servidor não tem suporte.
- 0x87D101A9 | -2016345687 |SyncML(425): O comando solicitado falhou porque o remetente não tem permissões adequadas de controle de acesso (ACL) no destinatário. | Todos |  **Causa possível:** Tente implantar o Microsoft Defender para Ponto de Extremidade em SKU/Platform sem suporte, especialmente SKU holográfico.<br><br> Plataformas com suporte no momento:<br>  Enterprise, Educação e Professional.
+ | | | | Tudo | **Causa possível:** Tente implantar o Microsoft Defender para Ponto de Extremidade em SKU/Platform sem suporte, especialmente SKU holográfico. <br><br> Plataformas com suporte no momento:<br> Enterprise, Educação e Professional.<br> O servidor não tem suporte.
+ 0x87D101A9 | -2016345687 |SyncML(425): O comando solicitado falhou porque o remetente não tem permissões adequadas de controle de acesso (ACL) no destinatário. | Tudo |  **Causa possível:** Tente implantar o Microsoft Defender para Ponto de Extremidade em SKU/Platform sem suporte, especialmente SKU holográfico.<br><br> Plataformas com suporte no momento:<br>  Enterprise, Educação e Professional.
 
 #### <a name="known-issues-with-non-compliance"></a>Problemas conhecidos com falta de conformidade
 
@@ -136,7 +136,7 @@ Nome do canal: Admin
 
 ID | Severity | Descrição do Evento | Etapas para a solução de problemas
 :---|:---|:---|:---
-1819 | Erro | CSP do Microsoft Defender para Ponto de Extremidade: Falha ao definir o valor do nó. NodeId: (%1), TokenName: (%2), Resultado: (%3). | Baixe a [Atualização Cumulativa para Windows 10, 1607](https://go.microsoft.com/fwlink/?linkid=829760).
+1819 | Error | CSP do Microsoft Defender para Ponto de Extremidade: Falha ao definir o valor do nó. NodeId: (%1), TokenName: (%2), Resultado: (%3). | Baixe a [Atualização Cumulativa para Windows 10, 1607](https://go.microsoft.com/fwlink/?linkid=829760).
 
 ## <a name="troubleshoot-onboarding-issues-on-the-device"></a>Solucionar problemas de integração no dispositivo
 
@@ -300,6 +300,9 @@ Se a verificação falhar e seu ambiente estiver usando um proxy para se conecta
 
 ## <a name="troubleshoot-onboarding-issues-on-a-server"></a>Solucionar problemas de integração em um servidor
 
+>[!NOTE]
+>As diretrizes de solução de problemas a seguir só são aplicáveis para Windows Server 2016 e inferiores.
+
 Se você encontrar problemas durante a integração de um servidor, vá pelas etapas de verificação a seguir para resolver possíveis problemas.
 
 - [Verifique se Microsoft Monitoring Agent (MMA) está instalado e configurado para relatar dados do sensor ao serviço](configure-server-endpoints.md)
@@ -334,7 +337,7 @@ As etapas a seguir fornecem orientações para o seguinte cenário:
 - O dispositivo é desligado ou reiniciado antes que o usuário final execute um primeiro logon
 - Nesse cenário, o serviço SENSE não iniciará automaticamente, mesmo que o pacote de integração tenha sido implantado
 
-<div class="alert"><b>OBSERVAÇÃO:</b> Logon do usuário após o OOBE não é mais necessário para que o serviço SENSE inicie as seguintes ou mais recentes versões do Windows: Windows 10, versão 1809 ou Windows Server 2019 com 22 de abril de [2021.](https://support.microsoft.com/kb/5001384) </br> Windows 10 versão 1909 com [a atualização de abril de 2021](https://support.microsoft.com/kb/5001396) </br> Windows 10, versão 2004/20H2 com acúmulo de atualizações de 28 de abril de [2021](https://support.microsoft.com/kb/5001391) </div> 
+<div class="alert"><b>OBSERVAÇÃO:</b> Logon do usuário após o OOBE não é mais necessário para que o serviço SENSE inicie as seguintes ou mais recentes versões do Windows: Windows 10, versão 1809 ou Windows Server 2019 com o acúmulo de atualizações de 22 de abril de [2021](https://support.microsoft.com/kb/5001384) </br> Windows 10 versão 1909 com [a atualização de abril de 2021](https://support.microsoft.com/kb/5001396) </br> Windows 10, versão 2004/20H2 com acúmulo de atualizações de 28 de abril de [2021](https://support.microsoft.com/kb/5001391) </div> 
 <br></br>
 > [!NOTE]
 > As etapas a seguir só são relevantes ao usar Microsoft Endpoint Configuration Manager. Para obter mais detalhes sobre a integração usando Microsoft Endpoint Configuration Manager, consulte [Microsoft Defender for Endpoint](/mem/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection).

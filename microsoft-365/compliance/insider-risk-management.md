@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 1864c34f1e7bb17decfaeb2057dfff463a33b37c
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 0dae2d65e88c8a5ad4bc6c39e8ea540f55d0f822
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226342"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326742"
 ---
 # <a name="learn-about-insider-risk-management-in-microsoft-365"></a>Saiba mais sobre o gerenciamento de risco interno no Microsoft 365
 
@@ -86,10 +86,10 @@ Você pode selecionar entre os seguintes modelos de política para começar rapi
 
 ### <a name="alerts"></a>Alertas
 
-Os alertas são gerados automaticamente por indicadores de risco que corresponderem às condições da política e são exibidos no [painel Alertas.](insider-risk-management-alerts.md) Esse painel permite uma exibição rápida de todos os alertas que precisam de revisão, alertas abertos ao longo do tempo e estatísticas de alerta para a sua organização. Todos os alertas de política são exibidos com as seguintes informações para ajudá-lo a identificar rapidamente o status de alertas existentes e novos alertas que precisam de ação:
+Os alertas são gerados automaticamente por indicadores de risco que corresponderem às condições da política e são exibidos no [painel Alertas.](insider-risk-management-activities.md#alert-dashboard) Esse painel permite uma exibição rápida de todos os alertas que precisam de revisão, alertas abertos ao longo do tempo e estatísticas de alerta para a sua organização. Todos os alertas de política são exibidos com as seguintes informações para ajudá-lo a identificar rapidamente o status de alertas existentes e novos alertas que precisam de ação:
 
 - Status
-- Gravidade
+- Severity
 - Tempo detectado
 - Caso
 - Status da ocorrência
@@ -105,6 +105,8 @@ Os alertas são resolvidos abrindo um novo caso, atribuindo o alerta a um caso e
 ![Triagem de gerenciamento de riscos insider](../media/insider-risk-triage.png)
 
 ### <a name="investigate"></a>Investigar
+
+Investigue rapidamente todas as atividades de um usuário selecionado com relatórios de atividades [do usuário (visualização)](insider-risk-management-activities.md#user-activity-reports-preview). Esses relatórios permitem que os investigadores em sua organização examinem atividades para usuários específicos por um período de tempo definido sem precisar atribuí-los temporariamente ou explicitamente a uma política de gerenciamento de riscos internas. Depois de examinar as atividades de um usuário, os investigadores podem descartar atividades individuais como benignas, compartilhar ou enviar um link para o relatório com outros investigadores ou optar por atribuir o usuário temporariamente ou explicitamente a uma política de gerenciamento de riscos internas.
 
 [Os](insider-risk-management-cases.md) casos são criados para alertas que exigem uma análise e investigação mais profundas dos detalhes da atividade e das circunstâncias em torno da combinação de política. O **Painel de casos** fornece uma exibição completa de todos os casos ativos, casos abertos ao longo do tempo e estatísticas de casos para a sua organização. Os revisadores podem filtrar rapidamente casos por status, a data em que o caso foi aberto e a data em que o caso foi atualizado pela última vez.
 

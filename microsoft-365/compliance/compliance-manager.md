@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Microsoft Compliance Manager ajuda as organizações a simplificar e automatizar avaliações de risco e sugere ações recomendadas para ajudar a resolver riscos.
-ms.openlocfilehash: cc1919f63716dfa79274a5cf7016ef07f2f36f92
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 536a1c02a820b0ea36fc4fe39ca1d0d31f7bc994
+ms.sourcegitcommit: 48e50a5445c63d397197af2bb7549cbec0bce790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53148945"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53330936"
 ---
 # <a name="microsoft-compliance-manager"></a>Gerenciador de Conformidade da Microsoft
 
@@ -35,7 +35,7 @@ O Gerenciador de Conformidade agora está geralmente disponível (GA) como uma s
 O que começou como a visualização pública da Pontuação de Conformidade evoluiu para uma ferramenta centralizada com recursos avançados de gerenciamento de conformidade e maior facilidade de uso.  A versão ga traz uma coleção maior de avaliações pré-criadas para ajudá-lo a dimensionar suas atividades de conformidade.
 
 **Saiba mais sobre a versão ga:**
-- Nossas [perguntas frequentes o](compliance-manager-faq.md) explicam com mais detalhes sobre a evolução.
+- Nossas [perguntas frequentes o](compliance-manager-faq.yml) explicam com mais detalhes sobre a evolução.
 - Leia sobre aprimoramentos de recursos ga [nesta postagem de blog.](https://aka.ms/compliancemanager/GAblog)
 
 Assista ao vídeo abaixo para saber como o Gerenciador de Conformidade pode ajudar a simplificar como sua organização gerencia a conformidade:

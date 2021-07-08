@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 7712ce1ee4c28352861df17c0637a94d99fa2c8a
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 19fd44633f03a7797484ecaa6a15159e24da7fbf
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226522"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326814"
 ---
 # <a name="insider-risk-management-cases"></a>Casos de gerenciamento de riscos insider
 
@@ -98,7 +98,7 @@ A **guia Visão geral** de caso também inclui uma seção **Alertas** que inclu
 A **guia Alertas** resume os alertas atuais incluídos no caso. Novos alertas podem ser adicionados a um caso existente e eles serão adicionados à fila **de** alerta à medida que eles são atribuídos. Os seguintes atributos de alerta estão listados na fila:
 
 - Status
-- Gravidade
+- Severity
 - Tempo detectado
 
 Selecione um alerta na fila para exibir a **página de detalhes alerta.**
@@ -106,7 +106,7 @@ Selecione um alerta na fila para exibir a **página de detalhes alerta.**
 Use o controle de pesquisa para pesquisar nomes de alerta para texto específico e use o filtro de alerta para classificar casos pelos seguintes atributos:
 
 - Status
-- Gravidade
+- Severity
 - Tempo detectado, data de início e data de término
 
 Use o controle de filtro para filtrar alertas por vários atributos, incluindo:
@@ -147,7 +147,7 @@ A **de atividade do usuário** guia é uma das ferramentas mais poderosas para a
 
 A **guia Explorador de** Atividades permite que analistas de risco e investigadores revisem os detalhes de atividade associados a alertas de risco. Por exemplo, como parte das ações de gerenciamento de casos, os investigadores e analistas podem precisar revisar todas as atividades de risco associadas ao caso para obter mais detalhes. Com o **Explorador de** Atividades, os revisadores podem revisar rapidamente uma linha do tempo de atividade arriscada detectada e identificar e filtrar todas as atividades de risco associadas a alertas.
 
-Para obter mais informações sobre o explorador de atividades, consulte o artigo Alertas de gerenciamento de riscos [do Insider.](insider-risk-management-alerts.md#activity-explorer-preview)
+Para obter mais informações sobre o explorador de atividades, consulte o artigo Alertas de gerenciamento de riscos [do Insider.](insider-risk-management-activities.md#activity-explorer-preview)
 
 ### <a name="content-explorer"></a>Explorador de conteúdo
 

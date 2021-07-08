@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 6884ec3b2bc7c24e4f7f6e62d9b24add3aeee2c0
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: a6a0ebb6ef15a6d4746d72a73feb16e53f89354e
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007340"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326778"
 ---
 # <a name="plan-for-insider-risk-management"></a>Planejar o gerenciamento de riscos internos
 
@@ -42,9 +42,9 @@ Se você tiver requisitos para que as partes interessadas específicas sejam env
 
 ## <a name="plan-for-the-review-and-investigation-workflow"></a>Planejar o fluxo de trabalho de revisão e investigação
 
-Selecione participantes dedicados para monitorar e revisar os alertas e casos em uma cadência regular no Centro de conformidade [do Microsoft 365.](https://compliance.microsoft.com/) Certifique-se de entender como você atribuirá diferentes participantes aos diferentes grupos de função disponíveis no gerenciamento de riscos insider.
+Selecione participantes dedicados para monitorar e revisar os alertas e casos em uma cadência regular no [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com/). Certifique-se de entender como você atribuirá diferentes participantes aos diferentes grupos de função disponíveis no gerenciamento de riscos insider.
 
-Dependendo da estrutura da sua equipe de gerenciamento de conformidade, você tem opções para atribuir usuários a grupos de funções específicos para gerenciar diferentes conjuntos de recursos de gerenciamento de risco interno. Para exibir  a guia Permissões no Centro de Conformidade e Conformidade do Office 365 Security  & e gerenciar grupos de funções, você precisa ser atribuído ao grupo de função Gerenciamento da Organização ou precisa ter a função gerenciamento de *função.* Escolha entre essas opções de grupo de função ao configurar o gerenciamento de riscos insider:
+Dependendo da estrutura da sua equipe de gerenciamento de conformidade, você tem opções para atribuir usuários a grupos de funções específicos para gerenciar diferentes conjuntos de recursos de gerenciamento de risco interno. Para exibir  Office 365 guia Permissões no Centro de Conformidade & Segurança e gerenciar grupos de funções,  você precisa ser atribuído ao grupo de função Gerenciamento da Organização ou precisa ser atribuído à função Gerenciamento de *Função.* Escolha entre essas opções de grupo de função ao configurar o gerenciamento de riscos insider:
 
 | **Default management role assignments for this role** | **Permissões de função** |
 | :------------- | :------------------- |
@@ -56,18 +56,18 @@ Dependendo da estrutura da sua equipe de gerenciamento de conformidade, você te
 
 ## <a name="understand-requirements-and-dependencies"></a>Compreender requisitos e dependências
 
-Dependendo de como você planeja implementar políticas de gerenciamento de riscos insider, você precisa ter as assinaturas de licenciamento adequadas do Microsoft 365 e entender e planejar alguns pré-requisitos de solução.
+Dependendo de como você planeja implementar políticas de gerenciamento de riscos insider, você precisa ter as assinaturas de licenciamento adequadas Microsoft 365 entender e planejar alguns pré-requisitos de solução.
 
-**Licenciamento:** O gerenciamento de riscos insider está disponível como parte de uma ampla seleção de assinaturas de licenciamento do Microsoft 365. Para obter detalhes, consulte o artigo Sobre como começar com o gerenciamento de riscos [insider.](insider-risk-management-configure.md#subscriptions-and-licensing)
+**Licenciamento:** O gerenciamento de riscos insider está disponível como parte de uma ampla seleção de assinaturas Microsoft 365 licenciamento. Para obter detalhes, consulte o artigo Sobre como começar com o gerenciamento de riscos [insider.](insider-risk-management-configure.md#subscriptions-and-licensing)
 
-Se você não tiver um plano existente do Microsoft 365 Enterprise E5 e quiser tentar o gerenciamento de riscos [](https://www.microsoft.com/microsoft-365/enterprise) insider, adicione o [Microsoft 365](/office365/admin/try-or-buy-microsoft-365) à sua assinatura existente ou inscreva-se para uma avaliação do Microsoft 365 Enterprise E5.
+Se você não tiver um plano de Microsoft 365 Enterprise E5 existente e quiser tentar [](/office365/admin/try-or-buy-microsoft-365) o gerenciamento de riscos insider, [](https://www.microsoft.com/microsoft-365/enterprise) você poderá adicionar Microsoft 365 à sua assinatura existente ou inscrever-se para uma avaliação do Microsoft 365 Enterprise E5.
 
 **Requisitos de modelo de política:** Dependendo do modelo de política escolhido, há requisitos que você precisa entender e planejar antes de configurar o gerenciamento de riscos insider em sua organização:
 
-- Ao usar o **modelo de** roubo de dados ao separar usuários, você deve configurar um conector de RH do Microsoft 365 para importar periodicamente informações de data de demissão e término para usuários em sua organização. Consulte o artigo [Importar dados com o conector de RH ](import-hr-data.md) para obter orientações passo a passo para configurar o conector de RH do Microsoft 365 para sua organização.
+- Ao usar o **modelo de** roubo de dados ao separar usuários, você deve configurar um conector de RH Microsoft 365 para importar periodicamente informações de data de demissão e término para usuários em sua organização. Consulte o artigo [Importar dados com o conector de RH ](import-hr-data.md) para obter orientações passo a passo para configurar o conector de RH do Microsoft 365 para sua organização.
 - Ao usar modelos de **vazamentos** de dados, você deve configurar pelo menos uma política de Prevenção contra Perda de Dados (DLP) para definir informações confidenciais em sua organização e receber alertas de risco interno para alertas de política DLP de alta gravidade. Consulte o artigo [Criar, testar e afinar uma política DLP](create-test-tune-dlp-policy.md) para orientação passo a passo para configurar políticas DLP para sua organização.
 - Ao usar **modelos de** violação de política de segurança, você deve habilitar o Microsoft Defender for Endpoint para integração de gerenciamento de riscos insider no Defender Security Center para importar alertas de violação de segurança. Consulte o [artigo Configurar recursos avançados](/windows/security/threat-protection/microsoft-defender-atp/advanced-features) no Microsoft Defender para obter orientações passo a passo para habilitar a integração do Defender para Ponto de Extremidade com o gerenciamento de riscos insider.
-- Ao usar **modelos de** usuário insatisfeitos, você deve configurar um conector de RH do Microsoft 365 para importar periodicamente informações de status de desempenho ou rebaixamento para usuários em sua organização. Consulte o artigo [Importar dados com o conector de RH ](import-hr-data.md) para obter orientações passo a passo para configurar o conector de RH do Microsoft 365 para sua organização.
+- Ao usar **modelos de** usuário insatisfeitos, você deve configurar um conector de RH Microsoft 365 para importar periodicamente informações de status de desempenho ou rebaixamento para usuários em sua organização. Consulte o artigo [Importar dados com o conector de RH ](import-hr-data.md) para obter orientações passo a passo para configurar o conector de RH do Microsoft 365 para sua organização.
 
 ## <a name="test-with-a-small-group-of-users-in-a-production-environment"></a>Testar com um pequeno grupo de usuários em um ambiente de produção
 
@@ -82,7 +82,7 @@ Se você não vir nenhum alerta imediatamente após a configuração de uma pol�
 Compartilhe a documentação de gerenciamento de riscos insider com as partes interessadas em sua organização incluídas no fluxo de trabalho de gerenciamento e correção:
 
 - [Criar e gerenciar políticas de riscos internos](insider-risk-management-policies.md)
-- [Investigar alertas de riscos internos](insider-risk-management-alerts.md)
+- [Investigar atividades de risco insider](insider-risk-management-activities.md)
 - [Tomar medidas em casos de riscos internos](insider-risk-management-cases.md)
 - [Analisar dados de caso com o explorador de conteúdo de risco interno](insider-risk-management-content-explorer.md)
 - [Criar modelos de aviso de riscos internos](insider-risk-management-notices.md)

@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-insiderrisk
 - m365initiative-compliance
 - m365solution-scenario
-ms.openlocfilehash: 0cca5c517bf72601b469411bf83bedbbd8e50cdc
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: 3e057677b7d8ef4e74abe705bc3b23e8ea539853
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819743"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326754"
 ---
 # <a name="insider-risk-management-in-microsoft-365"></a>Gerenciamento de riscos insider em Microsoft 365
 
@@ -44,5 +44,5 @@ Use as etapas a seguir para configurar o gerenciamento de riscos insider para su
 ## <a name="more-information-about-insider-risk-management"></a>Mais informações sobre o gerenciamento de riscos insider
 
 - [Gerenciar políticas de risco internas](insider-risk-management-policies.md)
-- [Investigar alertas de riscos internos](insider-risk-management-alerts.md)
+- [Investigar atividades de risco insider](insider-risk-management-activities.md)
 - [Agir em casos de risco interno](insider-risk-management-cases.md)
