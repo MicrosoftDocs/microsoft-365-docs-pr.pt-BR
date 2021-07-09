@@ -3,7 +3,7 @@ title: Ajuste de desempenho do Office 365 usando linhas de base e histórico de 
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
-ms.date: 8/31/2017
+ms.date: 07/08/2021
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -23,30 +23,32 @@ ms.collection:
 - Ent_O365
 - SPO_Content
 description: Saiba como verificar o histórico das conexões do computador cliente para ajudá-lo a detectar problemas emergentes mais cedo.
-ms.openlocfilehash: 314b1acea5935bfd6d93d1da3789657e21cd2d57
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: 460bde30a0b292569b045c339066df2860c50989
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339365"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341575"
 ---
 # <a name="office-365-performance-tuning-using-baselines-and-performance-history"></a>Ajuste de desempenho do Office 365 usando linhas de base e histórico de desempenho
 
 Existem algumas maneiras simples de verificar o desempenho da conexão entre Office 365 e sua empresa que permitirão que você estabeleça uma linha de base aproximada de sua conectividade. Conhecer o histórico de desempenho de suas conexões de computador cliente pode ajudá-lo a detectar problemas emergentes no início, identificar e prever problemas.
   
-Se você não estiver acostumado a trabalhar em problemas de desempenho, este artigo foi projetado para ajudá-lo a considerar algumas perguntas comuns, como Como você sabe que o problema que você está vendo é um problema de desempenho e não um incidente de serviço Office 365? Como planejar um bom desempenho, a longo prazo? Como você pode manter um olho no desempenho? Se sua equipe ou clientes estão vendo um desempenho lento durante o uso Office 365 e você se pergunta sobre qualquer uma dessas perguntas, continue a leitura.
+Se você não estiver acostumado a trabalhar em problemas de desempenho, este artigo foi projetado para ajudá-lo a considerar algumas perguntas comuns. Como você sabe que o problema que você está vendo é um problema de desempenho e não um Office 365 de serviço? Como planejar um bom desempenho, a longo prazo? Como você pode manter um olho no desempenho? Se sua equipe ou clientes estão vendo um desempenho lento durante o uso Office 365 e você se pergunta sobre qualquer uma dessas perguntas, continue a leitura.
   
 > [!IMPORTANT]
 > **Tem um problema de desempenho entre seu cliente e Office 365 agora?** Siga as etapas descritas no [plano de solução](performance-troubleshooting-plan.md)de problemas de desempenho para Office 365 . 
     
 ## <a name="something-you-should-know-about-office-365-performance"></a>Algo que você deve saber sobre Office 365 desempenho
 
-Office 365 vive dentro de uma rede da Microsoft dedicada de alta capacidade que é monitorada de forma constante não apenas pela automação, mas por pessoas reais. Parte da função de manter a nuvem Office 365 é criar ajuste de desempenho e alinhamento de onde é possível. Como os clientes da nuvem Office 365 têm que se conectar pela Internet, há um esforço contínuo para ajustar o desempenho em todos os serviços Office 365 também. As melhorias de desempenho nunca param na nuvem, e há muita experiência acumulada com a manutenção da nuvem saudável e rápida. Caso você tenha um problema de desempenho ao se conectar do seu local ao Office 365, é melhor não começar com e aguardar um caso de Suporte. Em vez disso, você deve começar a investigar o problema de "de dentro para fora". Ou seja, comece dentro de sua rede e trabalhe até Office 365. Antes de abrir um caso com Office 365 Suporte, você pode coletar dados e tomar ações que explorarão e poderão resolver seu problema.
+Office 365 vive dentro de uma rede da Microsoft dedicada de alta capacidade que é monitorada pela automação e por pessoas reais. Parte da manutenção da nuvem Office 365 de desempenho é ajustar e ajustar o desempenho sempre que possível. Como os clientes da Office 365 de nuvem têm que se conectar pela Internet, há um esforço contínuo para ajustar o desempenho em todos os serviços Office 365 também.
+
+As melhorias de desempenho nunca param na nuvem, portanto, nem a experiência em manter a nuvem saudável e rápida. Se você tiver um problema de desempenho ao se conectar do seu local ao Office 365, é melhor não começar ou aguardar um caso de Suporte. Em vez disso, você deve começar a investigar o problema de "de dentro para fora". Ou seja, comece dentro de sua rede e trabalhe até Office 365. Antes de abrir um caso com o Suporte, você pode coletar dados e tomar ações que explorarão e poderão resolver o problema.
   
 > [!IMPORTANT]
-> Esteja ciente do planejamento de capacidade e dos limites Office 365. Essas informações o colocarão à frente da curva ao tentar resolver um problema de desempenho. Aqui está um link para as descrições Microsoft 365 [e Office 365 serviço.](/office365/servicedescriptions/office-365-service-descriptions-technet-library) Este é um hub central e todos os serviços oferecidos pela Office 365 têm um link que vai para suas próprias Descrições de Serviço a partir daqui. Isso significa que, se você precisar ver os limites padrão para o SharePoint Online, por exemplo, você clicaria em [SharePoint Descrição](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description) do Serviço Online e [localizaria sua seção](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)Limites do SharePoint Online. 
+> Esteja ciente do planejamento de capacidade e dos limites Office 365. Essas informações o colocarão à frente da curva ao tentar resolver um problema de desempenho. Aqui está um link para as descrições Microsoft 365 [e Office 365 serviço.](/office365/servicedescriptions/office-365-service-descriptions-technet-library) Este é um hub central e todos os serviços oferecidos pela Office 365 têm um link que vai para suas próprias Descrições de Serviço a partir daqui. Isso significa que, se você precisar ver os limites padrão para o SharePoint Online, por exemplo, você clicaria em [SharePoint Descrição](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description) do Serviço Online e [localizaria sua seção](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)Limites do SharePoint Online.
   
-Certifique-se de entrar em sua solução de problemas com a compreensão de que o desempenho é uma escala de deslizamento, não se trata de alcançar um valor idealizado e mantê-lo permanentemente (se você acredita que isso seja isso, então tarefas ocasionais de alta largura de banda, como ao abordar um grande número de usuários ou fazer grandes migrações de dados, será muito estressante. Portanto, planeje os impactos no desempenho em seguida). Você pode e deve ter uma ideia aproximada de suas metas de desempenho, mas muitas variáveis têm desempenho, portanto, o desempenho varia. Essa é a natureza do desempenho. 
+Certifique-se de entrar em sua solução de problemas com a compreensão de que o desempenho é uma escala de deslizamento. Não se trata de alcançar um valor idealizado e mantê-lo permanentemente. Tarefas ocasionais de alta largura de banda, como o internamento de um grande número de usuários, ou a realização de grandes migrações de dados serão estressantes, portanto, *planeje* os impactos no desempenho. Você deve ter uma ideia aproximada de suas metas de desempenho, mas muitas variáveis têm desempenho, portanto, o desempenho varia.
   
 A solução de problemas de desempenho não se trata de cumprir metas específicas e manter esses números indefinidamente, trata-se de melhorar as atividades existentes, considerando todas as variáveis. 
   
@@ -54,29 +56,29 @@ A solução de problemas de desempenho não se trata de cumprir metas específic
 
 Primeiro, você precisa certificar-se de que o que você está enfrentando é realmente um problema de desempenho e não um incidente de serviço. Um problema de desempenho é diferente de um incidente de serviço Office 365. Veja como diferencia-los.
   
-Se o Office 365 serviço estiver com problemas, será um incidente de serviço. Você verá ícones vermelhos  ou amarelos em Saúde atual no Centro de administração do Microsoft 365, você também pode notar um desempenho lento em computadores cliente que se conectam a Office 365. Por exemplo, se a saúde atual  relata um ícone vermelho e você vê Investigando ao lado do Exchange, você também pode receber um monte de chamadas de pessoas em sua organização que reclamam que as caixas de correio do cliente que usam Exchange Online estão com um desempenho ruim. Nesse caso, é razoável supor que seu desempenho Exchange Online acabou de se tornar uma vítima de problemas dentro do Serviço. 
+Incidentes de serviço ocorrem quando o Office 365 em si está com problemas. Você pode ver ícones vermelhos ou amarelos em **Saúde** atual no Centro de administração do Microsoft 365. Você pode observar que o desempenho em computadores cliente que se conectam Office 365 é lento. Por exemplo, se a saúde atual  relata um ícone vermelho e você vê Investigando ao lado Exchange, você também pode receber chamadas de pessoas em sua organização que reclamam que as caixas de correio do cliente usando Exchange Online são lentas. Nesse caso, é razoável supor que seu desempenho Exchange Online foi uma vítima de problemas de Serviço.
   
 ![O Office 365 health com todas as cargas de trabalho mostrando verde, exceto Exchange, que mostra Service Restored.](../media/ec7f0325-9e61-4e1a-bec0-64b87f4469be.PNG)
   
-Neste ponto, você, o administrador Office 365,  deve verificar a saúde atual e, em seguida, Exibir detalhes e histórico **,** com frequência, para manter atualizado sobre a manutenção que realizamos no sistema. O **painel de saúde** atual foi feito para atualizá-lo sobre alterações e problemas no serviço. As anotações e explicações escritas no histórico de saúde, administrador para administrador, estão lá para ajudá-lo a medir seu impacto e para mantê-lo postado sobre o trabalho contínuo. 
+Neste ponto, você, o administrador Office 365,  deve verificar a saúde atual e, em seguida, Exibir detalhes e histórico **,** com frequência, para manter-se atualizado sobre a manutenção no sistema. O **painel de saúde** atual foi feito para atualizá-lo sobre alterações e problemas no serviço. As anotações e explicações escritas no histórico de saúde, administrador para administrador, estão lá para ajudá-lo a avaliar e para mantê-lo postado sobre o trabalho contínuo.
   
 ![Uma imagem do painel de Office 365 de saúde explicando que o serviço Exchange Online foi restaurado e por quê.](../media/66609554-426a-4448-8be6-ea09817f41ba.PNG)
   
 Um problema de desempenho não é um incidente de serviço, mesmo que os incidentes possam causar um desempenho lento. Um problema de desempenho tem esta aparência:
   
-- Ocorre um problema de desempenho, independentemente do que o centro de administração **Atual está** relatando para o serviço. 
+- Ocorre um problema de desempenho, independentemente do que o centro de administração **Atual está** relatando para o serviço.
     
--  Um comportamento que costumava ser relativamente contínuo leva muito tempo para ser concluído ou nunca concluído. 
+-  Um comportamento usado para fluir leva muito tempo para ser concluído ou nunca concluído.
     
-- Você também pode replicar o problema ou, pelo menos, você sabe que isso acontecerá se você fizer a série correta de etapas.
+- Você também pode replicar o problema ou saber se isso acontecerá se você fizer a série correta de etapas.
     
--  Se o problema for intermitente, ainda haverá um padrão, por exemplo, você sabe que, às 10:00, você terá chamadas de usuários que não podem acessar o Office 365 e que as chamadas serão baixadas por volta do meio-dia. 
+-  Se o problema for intermitente, ainda pode haver um padrão. Por exemplo, você sabe que às 10:00 você terá chamadas de usuários que nem sempre podem acessar Office 365. As chamadas terminarão por volta do meio-dia.
     
-Isso provavelmente parece familiar; talvez muito familiar. Depois que você sabe que é um problema de desempenho, a pergunta se torna: "O que você fará em seguida?" O restante deste artigo ajuda você a determinar exatamente isso.
+Essa lista provavelmente parece familiar; talvez muito familiar. Quando você está ciente de que é um problema de desempenho, a pergunta se torna: "O que você fará em seguida?" O restante deste artigo ajuda você a determinar exatamente isso.
   
 ## <a name="how-to-define-and-test-the-performance-problem"></a>Como definir e testar o problema de desempenho
 
-Problemas de desempenho geralmente surgem ao longo do tempo, portanto, pode ser um desafio definir o problema real. Você precisa criar uma boa instrução de problemas e uma boa ideia de contexto de problemas e, em seguida, você precisa repetir as etapas de teste para ganhar o dia. Caso contrário, por nenhuma falha sua, você pode ser perdido. Por quê? Bem, aqui estão alguns exemplos de declarações de problemas que não fornecem informações suficientes:
+Problemas de desempenho geralmente surgem ao longo do tempo, portanto, pode ser um desafio definir o problema real. Crie uma boa instrução problem com uma boa ideia de contexto de problema e, em seguida, você precisa repetir as etapas de teste. Aqui estão alguns exemplos de instruções de problemas que não fornecem informações suficientes:
   
 - Mudar da minha Caixa de Entrada para o meu Calendário era algo que eu não tinha notado e agora é uma pausa para café. Você pode fazer com que ele aja como antes?
     
@@ -88,11 +90,11 @@ Há vários grandes desafios colocados pelas instruções de problema acima. Esp
     
 - Quando o usuário diz, "Não pode ser rápido", o que é "rápido"?
     
-- Quanto tempo é "para sempre"? São vários segundos ou minutos ou o usuário poderia ir para o almoço e terminaria dez minutos depois que o usuário voltasse?
+- Quanto tempo é "para sempre"? São vários segundos? Ou muitos minutos? Ou o usuário poderia fazer o almoço e a ação terminaria 10 minutos depois de voltar?
     
-Tudo isso sem considerar que o administrador e o solucionador de problemas não podem estar cientes de muitos detalhes de instruções de problemas como estas. Por exemplo, quando o problema começou a acontecer; Que o usuário trabalha em casa e só vê a alternação lenta enquanto estiver em uma rede interna; Que o usuário deve executar vários outros aplicativos intensivos de RAM no cliente local ou que o usuário está executando um sistema operacional mais antigo ou que não tenha executado atualizações recentes.
+O administrador e o solucionador de  problemas não podem estar cientes dos detalhes do problema de instruções gerais como estas. Por exemplo, eles não sabem quando o problema começou a acontecer. O solucionador de problemas pode não saber que o usuário trabalha em casa e só vê a alternação lenta enquanto estiver em sua rede local. Ou que o usuário executa outros aplicativos intensivos de RAM no cliente local. Os administradores podem não saber que o usuário está executando um sistema operacional mais antigo ou que não executaram atualizações recentes.
   
-Quando os usuários relatam um problema de desempenho, há muitas informações a coletar. Coletar essas informações faz parte de um processo chamado de apuração do problema ou investigação. Veja a seguir uma lista básica de scoping que você pode usar para coletar informações sobre seu problema de desempenho. Esta lista não é exaustiva, mas é um local para iniciar um dos seus próprios: 
+Quando os usuários relatam um problema de desempenho, há muitas informações a coletar. Obter e gravar informações é chamado de escolhamento do problema. Aqui está uma lista básica de scoping que você pode usar para coletar informações sobre problemas de desempenho. Esta lista não é exaustiva, mas é um local para começar:
   
 - Em que data o problema aconteceu e em que hora do dia ou da noite?
     
