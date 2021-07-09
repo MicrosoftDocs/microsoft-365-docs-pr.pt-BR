@@ -4,7 +4,7 @@ summary: Saiba como configurar e gerenciar o Microsoft 365 para sua empresa.
 brand: m365
 metadata:
   title: Treinamento do Microsoft 365 para pequenas e médias empresas
-  description: Configurar e gerenciar Microsoft 365 no centro de Microsoft 365 de administração.
+  description: Configurar e gerenciar Microsoft 365 no Centro de administração do Microsoft 365.
   ms.service: O365-administration
   ms.prod: microsoft-365-business
   ms.topic: hub-page
@@ -12,7 +12,7 @@ metadata:
   ms.author: twernermsft
   ms.date: 12/16/2020
   localization_priority: Priority
-  ms.custom: AdminSurgePortfolio
+  ms.custom: null
 productDirectory:
   items:
     - title: Introdução
@@ -74,5 +74,5 @@ additionalContent:
           summary: Conclua caminhos de aprendizado para empresas de médio porte e empresas.
           url: 'https://docs.microsoft.com/learn/m365/'
         - title: Encontre mais recursos de administrador
-          summary: Vá para o site de ajuda Microsoft 365 centro de administração.
+          summary: Vá para o site Centro de administração do Microsoft 365 ajuda.
           url: ../admin/index.yml
