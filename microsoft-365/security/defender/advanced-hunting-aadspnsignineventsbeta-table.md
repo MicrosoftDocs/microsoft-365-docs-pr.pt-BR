@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: f74972bcd5d0ddaab58d82b72a55991fda44e3b1
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 6aa709fe4534bf049c6f8c097bc4bd85a9d6793b
+ms.sourcegitcommit: 93eeaefc0d509c75e4c2210029155298ecca7583
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583539"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53347902"
 ---
 # <a name="aadspnsignineventsbeta"></a>AADSpnSignInEventsBeta
 
@@ -48,27 +48,27 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, con
 
 
 
-| Nome da coluna     | Tipo de dados | Descrição   |
-| ----- | ----- | ---- |
-| `Timestamp` | datetime      | Data e hora em que o registro foi gerado                                                                                                     |
-| `Application`          | string        | Aplicativo que realizou a ação gravada                                                                                                   |
-| `ApplicationId`        | cadeia de caracteres        | Identificador exclusivo do aplicativo                                                                                                           |
-| `IsManagedIdentity`    | booliano       | Indica se a assinatura foi iniciada por uma identidade gerenciada                                                                               |
-| `ErrorCode`            | int        | Contém o código de erro se ocorrer um erro de login. Para encontrar uma descrição de um código de erro específico, visite <https://aka.ms/AADsigninsErrorCodes> . |
-| `CorrelationId`        | cadeia de caracteres        | Identificador exclusivo do evento de login                                                                                                          |
-| `ServicePrincipalName` | cadeia de caracteres        | Nome da entidade de serviço que iniciou a login                                                                                        |
-| `ServicePrincipalId`   | cadeia de caracteres        | Identificador exclusivo da entidade de serviço que iniciou a login                                                                           |
-| `ResourceDisplayName`  | cadeia de caracteres        | Nome de exibição do recurso acessado                                                                                                           |
-| `ResourceId`           | cadeia de caracteres        | Identificador exclusivo do recurso acessado                                                                                                      |
-| `ResourceTenantId`     | cadeia de caracteres        | Identificador exclusivo do locatário do recurso acessado                                                                                        |
-| `IPAddress`            | cadeia de caracteres        | Endereço IP atribuído ao ponto de extremidade e usado durante comunicações de rede relacionadas                                                              |
-| `Country`          | cadeia de caracteres        | Código de duas letras indicando o país onde o endereço IP do cliente está geolocado                                                                |
-| `State`                | cadeia de caracteres        | Estado em que a login ocorreu, se disponível                                                                                                  |
-| `City`                 | cadeia de caracteres        | Cidade onde o usuário da conta está localizado                                                                                                          |
-| `Latitude`             | cadeia de caracteres        | As coordenadas norte a sul do local de login                                                                                          |
-| `Longitude`            | cadeia de caracteres        | As coordenadas de leste a oeste do local de login                                                                                            |
-| `RequestId`            | cadeia de caracteres        | Identificador exclusivo da solicitação                                                                                                                |
-|`ReportId` | cadeia de caracteres | Identificador exclusivo do evento | 
+| Nome da coluna | Tipo de dados | Descrição |
+|-----|-----|-----|
+| `Timestamp` | datetime | Data e hora em que o registro foi gerado |
+| `Application` | string | Aplicativo que realizou a ação gravada |
+| `ApplicationId` | cadeia de caracteres | Identificador exclusivo do aplicativo |
+| `IsManagedIdentity`    | booliano       | Indica se a assinatura foi iniciada por uma identidade gerenciada |
+| `ErrorCode`    | int | Contém o código de erro se ocorrer um erro de login. Para encontrar uma descrição de um código de erro específico, visite <https://aka.ms/AADsigninsErrorCodes> . |
+| `CorrelationId`        | cadeia de caracteres        | Identificador exclusivo do evento de login |
+| `ServicePrincipalName` | cadeia de caracteres        | Nome da entidade de serviço que iniciou a login  |
+| `ServicePrincipalId`   | cadeia de caracteres        | Identificador exclusivo da entidade de serviço que iniciou a login  |
+| `ResourceDisplayName`  | cadeia de caracteres        | Nome de exibição do recurso acessado  |
+| `ResourceId`           | cadeia de caracteres        | Identificador exclusivo do recurso acessado  |
+| `ResourceTenantId`     | cadeia de caracteres        | Identificador exclusivo do locatário do recurso acessado |
+| `IPAddress`            | cadeia de caracteres        | Endereço IP atribuído ao ponto de extremidade e usado durante comunicações de rede relacionadas  |
+| `Country`          | cadeia de caracteres        | Código de duas letras indicando o país onde o endereço IP do cliente está geolocado |
+| `State`                | cadeia de caracteres        | Estado em que a login ocorreu, se disponível |
+| `City`                 | cadeia de caracteres        | Cidade onde o usuário da conta está localizado  |
+| `Latitude`             | cadeia de caracteres        | As coordenadas norte a sul do local de login |
+| `Longitude`            | cadeia de caracteres        | As coordenadas de leste a oeste do local de login |
+| `RequestId`            | cadeia de caracteres        | Identificador exclusivo da solicitação |
+|`ReportId` | cadeia de caracteres | Identificador exclusivo do evento |
 
  
 

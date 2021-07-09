@@ -18,12 +18,12 @@ localization_priority: Priority
 f1.keywords: NOCSH
 recommendations: false
 description: Neste artigo, você aprenderá sobre as práticas recomendadas para compartilhar arquivos e pastas com usuários não autenticados.
-ms.openlocfilehash: 7198e2d343f73299bb62ea73863cecd359d90ba2
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 2c89ca319ba79d6f0463cc6d244c8d91928d6e42
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538226"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53327018"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>Práticas recomendadas para compartilhar arquivos e pastas com usuários não autenticados
 
@@ -43,7 +43,7 @@ Quando o link de *Qualquer pessoa* expira, não pode mais ser usado para acessar
 Para definir uma data de validade para links de Qualquer Pessoa em toda a organização
 
 1. Abra o [Centro de administração do SharePoint](https://admin.microsoft.com/sharepoint).
-2. Na barra de navegação esquerda, clique em **Compartilhamento**.
+2. Na navegação à esquerda, expanda **Políticas** e clique em **Compartilhamento**.
 3. Em **Escolha as opções de expiração e permissões para todos os links**, marque a caixa de seleção **Estes links devem expirar dentro de vários dias**.</br>
    ![Captura de tela das configurações de término do link de Qualquer pessoa no nível da organização do SharePoint](../media/sharepoint-organization-anyone-link-expiration.png)
 4. Digite o número de dias na caixa e clique em **Salvar**.

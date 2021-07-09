@@ -17,16 +17,16 @@ localization_priority: Priority
 f1.keywords: NOCSH
 recommendations: false
 description: Saiba como limitar a exposição acidental de informações ao compartilhar arquivos com pessoas de fora da sua organização.
-ms.openlocfilehash: aed567e503fb2c615b183c6769c69248c149742a
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 1dffa40a0c21f5f611492d5a098a98f8aaa726a5
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539042"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326982"
 ---
 # <a name="limit-accidental-exposure-to-files-when-sharing-with-people-outside-your-organization"></a>Limitar a exposição acidental de arquivos ao compartilhar com pessoas de fora da sua organização
 
-Ao compartilhar arquivos e pastas com pessoas de fora da sua organização, há uma variedade de opções para reduzir as chances de compartilhar acidentalmente informações confidenciais. Você pode escolher a opção apresentada neste artigo que atenda melhor às necessidades da sua organização.
+Ao compartilhar arquivos e pastas com pessoas fora de sua organização, existem várias opções para reduzir as chances de compartilhamento acidental de informações confidenciais. Você pode escolher a opção apresentada neste artigo que atenda melhor às necessidades da sua organização.
 
 ## <a name="use-best-practices-for-anyone-links"></a>Usar as práticas recomendadas para links para Qualquer pessoa
 
