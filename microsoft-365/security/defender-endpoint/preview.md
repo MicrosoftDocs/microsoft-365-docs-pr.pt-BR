@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0ed494cc29eb990430be590e62db5f0365ace494
-ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
+ms.openlocfilehash: 0b6edbdcda61eaf402275ae0b6dc9a38c5fe19f7
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53322420"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339485"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>Recursos de visualização do Microsoft Defender para Ponto de Extremidade
 
@@ -54,7 +54,7 @@ Ao trabalhar com recursos na visualização pública, esses recursos:
 - São totalmente suportados pela Microsoft.
 - Só pode estar disponível em regiões geográficas ou ambientes de nuvem selecionados. Por exemplo, o recurso pode não existir na nuvem governamental.
 - Recursos individuais na visualização podem ter mais restrições de uso e suporte. Nesse caso, essas informações geralmente são notadas na documentação do recurso.
-- As versões de visualização são fornecidas com um nível de suporte padrão e são recomendadas para cargas de trabalho de produção. 
+- As versões de visualização são fornecidas com um nível de suporte padrão e podem ser usadas para ambientes de produção. 
 
 
 

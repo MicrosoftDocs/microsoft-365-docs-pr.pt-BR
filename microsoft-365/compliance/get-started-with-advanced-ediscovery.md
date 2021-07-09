@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Este artigo descreve como configurar o Advanced eDiscovery para que você possa começar a criar e gerenciar casos. Ele também descreve as assinaturas e licenciamento necessários da Microsoft. Depois de concluir algumas etapas rápidas, a Advanced eDiscovery ferramenta estará pronta para uso.
-ms.openlocfilehash: 6c6aed482da8f203154d94313ec04519d6a330ea
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: be5e5aea03950d28889590004bd796455a71c5be
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919737"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341443"
 ---
 # <a name="set-up-microsoft-365-advanced-ediscovery"></a>Configurar Microsoft 365 Advanced eDiscovery
 
@@ -46,7 +46,7 @@ Para acessar Advanced eDiscovery ou adicionado como membro de um caso Advanced e
 
 Conclua as etapas a seguir para adicionar usuários ao grupo de funções do Gerenciador de Descobertas E:
 
-1. Acesse e entre usando as credenciais de uma conta <https://protection.office.com/permissions> de administrador em sua Microsoft 365 organização.
+1. Acesse e entre usando as credenciais de uma conta <https://compliance.microsoft.com/permissions> de administrador em sua Microsoft 365 organização.
 
 2. Na página **Permissões,** selecione o grupo de função **Gerenciador de** Descobertas.
 

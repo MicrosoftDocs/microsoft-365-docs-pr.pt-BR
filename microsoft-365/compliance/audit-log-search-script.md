@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-apr2020
 description: Use um script Windows PowerShell que execute o cmdlet Search-UnifiedAuditLog no Exchange Online para pesquisar o log de auditoria. Este script é otimizado para retornar um grande conjunto (até 50.000) de registros de auditoria. O script exporta esses registros para um arquivo CSV que você pode exibir ou transformar usando o Power Query no Excel.
-ms.openlocfilehash: df5e675e5e36603a73078bd5ecf5e64bc7a76f95
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 8abea51bb1e7e1fa7bd513bea78708b06da62def
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939561"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341003"
 ---
 # <a name="use-a-powershell-script-to-search-the-audit-log"></a>Usar um script Windows PowerShell para pesquisar o log de auditoria
 
@@ -48,7 +48,7 @@ Quando há situações em que você precisa recuperar manualmente os dados de au
 
   O valor de `True` para a propriedade **UnifiedAuditLogIngestionEnabled** indica que a pesquisa de registro de auditoria está ativada.
 
-- Você deve ser atribuído à função Logs de Auditoria somente para exibição ou Logs de auditoria no Exchange Online para executar o script com êxito. Por padrão, essas funções são atribuídas aos grupos de funções Gerenciamento de Conformidade e Gerenciamento de Organização na página Permissões do centro de administração do Exchange. Para obter mais informações, confira a seção "Requisitos para pesquisar o registro de auditoria" em [Pesquisar o registro de auditoria no centro de conformidade](search-the-audit-log-in-security-and-compliance.md#requirements-to-search-the-audit-log).
+- Você deve ser atribuído à função Logs de Auditoria somente para exibição ou Logs de auditoria no Exchange Online para executar o script com êxito. Por padrão, essas funções são atribuídas aos grupos de funções Gerenciamento de Conformidade e Gerenciamento de Organização na página Permissões do centro de administração do Exchange. Para obter mais informações, confira a seção "Requisitos para pesquisar o registro de auditoria" em [Pesquisar o registro de auditoria no centro de conformidade](search-the-audit-log-in-security-and-compliance.md#before-you-search-the-audit-log).
 
 - O script pode demorar muito para ser concluído. Quanto tempo leva para ser executado depende do intervalo de datas e do tamanho do intervalo para o qual você configura o script para recuperar os registros de auditoria. Intervalos de datas maiores e intervalos menores resultarão em um longo tempo de execução. Confira a tabela na Etapa 2 para obter mais informações sobre o intervalo de datas e intervalos.
 

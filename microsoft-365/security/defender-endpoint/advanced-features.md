@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7fd9ec25c21b2d70238bd5b0d6b58b60731088ea
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 2448b95e5c5c5da25a916b659f6b49d04ba8f0c1
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845469"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339569"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Configurar recursos avançados no Defender para Ponto de Extremidade
 
@@ -81,7 +81,7 @@ A detecção e a resposta do ponto de extremidade (EDR) no modo de bloqueio forn
 
 ## <a name="autoresolve-remediated-alerts"></a>Autoresolve correção de alertas
 
-Para locatários criados em ou após Windows 10, versão 1809, o recurso de investigação e correção automatizado é configurado por padrão para resolver alertas em que o status do resultado da análise automatizada é "Nenhuma ameaça encontrada" ou "Correção".  Se você não quiser ter alertas resolvidos automaticamente, será necessário desativar manualmente o recurso.
+Para locatários criados em ou após Windows 10, versão 1809, o recurso de investigação e correção automatizado é configurado por padrão para resolver alertas em que o status de resultado de análise automatizada é "Nenhuma ameaça encontrada" ou "Correção".  Se você não quiser ter alertas resolvidos automaticamente, será necessário desativar manualmente o recurso.
 
 > [!TIP]
 > Para locatários criados antes dessa versão, você precisará ativar manualmente esse recurso na página [Recursos Avançados.](https://securitycenter.windows.com/preferences2/integration)
@@ -102,7 +102,7 @@ Esse recurso permite bloquear arquivos potencialmente mal-intencionados em sua r
 
 Para ativar **Permitir ou bloquear** arquivos:
 
-1. No painel de navegação, **selecione** Configurações  >  **recursos avançados**  >  **Permitir ou bloquear arquivo**.
+1. No painel de navegação, selecione Configurações Pontos **de** Extremidade Gerais Recursos Avançados  >    >    >    >  **Gerais Permitir ou bloquear arquivo**.
 
 1. Alterne a configuração **entre On** e **Off**.
 
@@ -160,9 +160,9 @@ A integração com o Microsoft Defender para Identidade permite que você pivote
 
 ## <a name="office-365-threat-intelligence-connection"></a>Office 365 Conexão de Inteligência contra Ameaças
 
-Esse recurso só estará disponível se você tiver um Office 365 E5 ou o complemento threat Intelligence. Para obter mais informações, consulte a página Office 365 Enterprise produto E5.
+Esse recurso só estará disponível se você tiver um Office 365 E5 ou o complemento Threat Intelligence. Para obter mais informações, consulte a página Office 365 Enterprise produto E5.
 
-Ao ativar esse recurso, você poderá incorporar dados do Microsoft Defender para Office 365 ao Central de Segurança do Microsoft Defender para conduzir uma investigação abrangente de segurança em caixas de correio Office 365 e dispositivos Windows.
+Ao ativar esse recurso, você poderá incorporar dados do Microsoft Defender para Office 365 no Microsoft 365 Defender para conduzir uma investigação abrangente de segurança em caixas de correio Office 365 e dispositivos Windows.
 
 > [!NOTE]
 > Você precisará ter a licença apropriada para habilitar esse recurso.
@@ -180,7 +180,7 @@ Dos dois componentes do Microsoft Threat Expert, a notificação de ataque direc
 A habilitação dessa configuração encaminha os sinais do Defender para o Ponto de Extremidade para Microsoft Cloud App Security fornecer uma visibilidade mais profunda sobre o uso do aplicativo na nuvem. Os dados encaminhados são armazenados e processados no mesmo local que seus Cloud App Security dados.
 
 > [!NOTE]
-> Esse recurso estará disponível com uma [](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) licença E5 para Enterprise Mobility + Security em dispositivos que executam o Windows 10, versão 1709 (build do sistema operacional 16299.1085 com [KB4493441](https://support.microsoft.com/help/4493441)), Windows 10, versão 1803 (Build 17134.704 com [KB4493464](https://support.microsoft.com/help/4493464)), Windows 10, versão 1809 (build 17763.379 do sistema operacional com [KB4489899](https://support.microsoft.com/help/4489899)), ou posterior Windows 10 versões.
+> Esse recurso estará disponível com uma licença E5 para Enterprise Mobility + Security [em](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) dispositivos que executam Windows 10, versão 1709 (build 16299.1085 com [KB4493441](https://support.microsoft.com/help/4493441)), Windows 10, versão 1803 (com build 17134.704 do sistema operacional com [KB4493464](https://support.microsoft.com/help/4493464)), Windows 10, versão 1809 (build do sistema operacional 17763.379 com [KB4489899 )](https://support.microsoft.com/help/4489899)ou versões posteriores Windows 10.
 
 ## <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -237,7 +237,7 @@ Ajuda você a encontrar dispositivos não administrativos conectados à sua rede
 > [!NOTE]
 > Você sempre pode aplicar filtros para excluir dispositivos não gerenciamento da lista de inventário de dispositivos. Você também pode usar a coluna de status de integração em consultas de API para filtrar dispositivos não-gerenciamento. 
 
-## <a name="preview-features"></a>Recursos de pré-visualização
+## <a name="preview-features"></a>Recursos de visualização
 
 Saiba mais sobre os novos recursos na versão de visualização do Defender for Endpoint. Experimente os recursos futuros ao ligar a experiência de visualização.
 

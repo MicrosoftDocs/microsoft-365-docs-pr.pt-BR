@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como usar a ferramenta de pesquisa Microsoft 365 log de auditoria para ajudar a solucionar problemas comuns de suporte para contas de email.
-ms.openlocfilehash: 5f753163b5d4d6c04c121a7ce3fae970690a57b0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 22d511fa2ad538c4ec9729fb051caefad6c3e974
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906089"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341040"
 ---
 # <a name="search-the-audit-log-to-investigate-common-support-issues"></a>Pesquise o log de auditoria para investigar problemas comuns de suporte
 
@@ -49,18 +49,18 @@ Você deve ter a função View-Only Logs de Auditoria ou Logs de Auditoria Excha
 
 Esta seção descreve as noções básicas para criar e executar pesquisas de log de auditoria. Use essas instruções como ponto de partida para cada cenário de solução de problemas neste artigo. Para obter instruções passo a passo mais detalhadas, consulte [Pesquisar o log de auditoria](search-the-audit-log-in-security-and-compliance.md#step-1-run-an-audit-log-search).
 
-1. Vá até [https://protection.office.com/unifiedauditlog](https://protection.office.com/unifiedauditlog) e entre usando uma conta corporativa ou de estudante.
+1. Vá até <https://compliance.microsoft.com/auditlogsearch> e entre usando uma conta corporativa ou de estudante.
     
-    É exibida a página **Pesquisa de log de auditoria**. 
+    A página **Auditoria** é exibida. 
     
-    ![Configure criteria e selecione Pesquisar para executar a pesquisa](../media/8639d09c-2843-44e4-8b4b-9f45974ff7f1.png)
+    ![Configure criteria e selecione Pesquisar para executar a pesquisa](../media/AuditLogSearchPage1.png)
   
 4. Você pode configurar os critérios de pesquisa a seguir. Cada cenário de solução de problemas neste artigo recomenda orientações específicas para configurar esses campos.
     
-    a. **Atividades:** Selecione a lista lista listada para exibir as atividades que você pode pesquisar. Depois de executar a pesquisa, somente os registros de Auditoria das atividades selecionadas serão exibidos. Selecionar **Mostrar resultados para todas as atividades** exibe resultados para todas as atividades que atendem aos outros critérios de pesquisa. Você também terá que deixar esse campo em branco em alguns dos cenários de solução de problemas.
-    
-    b. **Data de** início **e data de término:** selecione uma data e um intervalo de tempo para exibir os eventos que ocorreram nesse período. Os últimos sete dias são selecionados por padrão. A data e a hora são apresentadas no formato UTC (Tempo Universal Coordenado). O intervalo de datas máximo que você pode especificar é de 90 dias.
+   a. **Data de** início **e data de término:** selecione uma data e um intervalo de tempo para exibir os eventos que ocorreram nesse período. Os últimos sete dias são selecionados por padrão. A data e a hora são apresentadas no formato UTC (Tempo Universal Coordenado). O intervalo de datas máximo que você pode especificar é de 90 dias.    
 
+   b. **Atividades:** Selecione a lista lista listada para exibir as atividades que você pode pesquisar. Depois de executar a pesquisa, somente os registros de Auditoria das atividades selecionadas serão exibidos. Selecionar **Mostrar resultados para todas as atividades** exibe resultados para todas as atividades que atendem aos outros critérios de pesquisa. Você também terá que deixar esse campo em branco em alguns dos cenários de solução de problemas.
+    
     c. **Usuários:** Clique nesta caixa e selecione um ou mais usuários para exibir os resultados da pesquisa. Os registros de auditoria para a atividade selecionada realizada pelos usuários selecionados nesta caixa são exibidos na lista de resultados. Deixe essa caixa em branco para retornar entradas para todos os usuários (e contas de serviço) na sua organização.
     
     d. **Arquivo, pasta ou site:** Digite alguns ou todos os nomes de arquivo ou pasta para pesquisar atividades relacionadas ao arquivo de pasta que contém a palavra-chave especificada. Você também pode especificar uma URL de um arquivo ou pasta. Se você usar uma URL, certifique-se de digitar o caminho de URL completo ou se você digitar apenas uma parte da URL, não inclua caracteres ou espaços especiais. Deixe essa caixa em branco para retornar entradas para todos os arquivos e pastas em sua organização. Este campo é deixado em branco em todos os cenários de solução de problemas neste artigo.
@@ -164,7 +164,7 @@ Depois de executar a pesquisa, você pode filtrar os resultados da pesquisa para
 
 ### <a name="recover-deleted-email-items"></a>Recuperar itens de email excluídos
 
-Os usuários podem recuperar itens excluídos de forma suave se o período de retenção de itens excluídos não tiver expirado. No Exchange Online, o período de retenção de itens excluídos padrão é de 14 dias, mas os administradores podem aumentar essa configuração para um máximo de 30 dias. Aponte os usuários para [o artigo Recuperar itens](https://support.office.com/article/Recover-deleted-items-or-email-in-Outlook-Web-App-C3D8FC15-EEEF-4F1C-81DF-E27964B7EDD4) excluídos ou emails Outlook no artigo da Web para obter instruções sobre como recuperar itens excluídos.
+Os usuários podem recuperar itens excluídos de forma suave se o período de retenção de itens excluídos não tiver expirado. No Exchange Online, o período de retenção de itens excluídos padrão é de 14 dias, mas os administradores podem aumentar essa configuração para um máximo de 30 dias. Aponte os usuários para [o artigo Recuperar itens excluídos](https://support.office.com/article/Recover-deleted-items-or-email-in-Outlook-Web-App-C3D8FC15-EEEF-4F1C-81DF-E27964B7EDD4) ou emails Outlook na Web instruções sobre como recuperar itens excluídos.
 
 Conforme explicado anteriormente, os administradores poderão recuperar itens excluídos com dificuldade se o período de retenção do item excluído não tiver expirado ou se a caixa de correio estiver em espera, nesse caso, os itens serão mantidos até que a duração da retenção expire. Quando você executar uma pesquisa de conteúdo, os itens excluídos e excluídos de forma fácil na pasta Itens Recuperáveis são retornados nos resultados da pesquisa se eles corresponderem à consulta de pesquisa. Para obter mais informações sobre como executar pesquisas de conteúdo, consulte [Pesquisa de conteúdo em Office 365](content-search.md).
 

@@ -18,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configurar e testar a redefinição de senha do ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: efcaaf9ed1873c0908bb0e64644b8e10de280a01
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 13169824866e91c1a09d412a875d2f4ce4391fa8
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921487"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339377"
 ---
 # <a name="password-reset-for-your-microsoft-365-test-environment"></a>Redefinição de senha do ambiente de teste do Microsoft 365
 
@@ -90,7 +90,7 @@ Em seguida, teste a redefinição de senha para a conta usuário 3.
 1. Insira o nome da conta Usuário 3, insira os caracteres do CAPTCHA e selecione **Next**.
 1. Para **a etapa de verificação 1,** selecione Email meu email **alternativo** e selecione **Email**. Quando você receber o email, insira o código de verificação e selecione **Next**.
 1. Em **Voltar para sua conta,** insira uma nova senha para a conta usuário 3 e selecione **Concluir**. Anote a senha alterada da conta do Usuário 3 e armazene-a em um local seguro.
-1. Em uma guia separada do mesmo navegador, vá para [https://portal.office.com](https://portal.office.com) e entre com o nome da conta do Usuário 3 e sua nova senha. Você verá a **home page do Microsoft Office**.
+1. Em uma guia separada do mesmo navegador, vá para [https://admin.microsoft.com](https://admin.microsoft.com) e entre com o nome da conta do Usuário 3 e sua nova senha. Você verá a **home page do Microsoft Office**.
 
 ## <a name="next-step"></a>Próxima etapa
 

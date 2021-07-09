@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 265a7e9093638caa2111c7d1d82e51c8c2437d12
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 777f5f63c4739f277ec24f826bc8a61a226fb65f
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845451"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339665"
 ---
 # <a name="onboard-non-windows-devices"></a>Dispositivos Windows não integrados
 
@@ -38,7 +38,7 @@ ms.locfileid: "52845451"
 
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-nonwindows-abovefoldlink) 
 
-O Defender for Endpoint fornece uma experiência centralizada de operações de segurança para Windows, bem como plataformas que não Windows. Você poderá ver alertas de vários sistemas operacionais com suporte (SO) no Central de Segurança do Microsoft Defender e proteger melhor a rede da sua organização. 
+O Defender for Endpoint fornece uma experiência centralizada de operações de segurança para Windows, bem como plataformas que não Windows. Você poderá ver alertas de vários sistemas operacionais com suporte (SO) no Microsoft 365 Defender e proteger melhor a rede da sua organização. 
 
 Você precisará saber as versões exatas do Linux e macOS compatíveis com o Defender para o Ponto de Extremidade para que a integração funcione. Para saber mais, confira:
 - [Microsoft Defender para Ponto de Extremidade em requisitos do sistema Linux](microsoft-defender-endpoint-linux.md#system-requirements)  

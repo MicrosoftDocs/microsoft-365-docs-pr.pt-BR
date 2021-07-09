@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Este artigo descreve como configurar a Auditoria Avançada para que você possa realizar investigações forenses quando contas de usuário são comprometidas ou para investigar outros incidentes relacionados à segurança.
-ms.openlocfilehash: d1752ee7714056254a6c0e5c009aa9aa79ddff3b
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 825dadee5260a263d005eb3a37f280381f9425a2
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52314256"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339221"
 ---
 # <a name="set-up-advanced-audit-in-microsoft-365"></a>Configurar Auditoria Avançada no Microsoft 365
 
@@ -32,7 +32,7 @@ Se sua organização tiver uma assinatura e um licenciamento de usuário final c
 
 ![Fluxo de trabalho para configurar a Auditoria Avançada](../media/AdvancedAuditWorkflow.png)
 
-## <a name="step1-set-up-advanced-audit-for-users"></a>Etapa1: Configurar a Auditoria Avançada para usuários
+## <a name="step-1-set-up-advanced-audit-for-users"></a>Etapa 1: Configurar a Auditoria Avançada para usuários
 
 Recursos de Auditoria Avançada, como a capacidade de registrar eventos cruciais, como MailItemsAccessed e Send, exigem uma licença E5 apropriada atribuída aos usuários. Além disso, o aplicativo/plano de serviço de Auditoria Avançada deve ser habilitado para esses usuários. Para verificar se o aplicativo Auditoria Avançada está atribuído aos usuários, execute as seguintes etapas para cada usuário:
 

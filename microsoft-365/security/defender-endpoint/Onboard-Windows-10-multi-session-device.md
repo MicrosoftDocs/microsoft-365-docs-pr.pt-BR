@@ -15,12 +15,12 @@ ms.author: dansimp
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 5bf9f856e93ae1424373a917490a264c04e07feb
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: 9114a825ad011f0b2a17cea4929ab2a09bfa2172
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861174"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339473"
 ---
 # <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Dispositivos integrados com várias sessões do Windows 10 na Área de Trabalho Virtual do Windows 
 6 minutos para leitura 
@@ -54,7 +54,7 @@ Há várias maneiras de fazer a integração de um computador host WVD:
 #### <a name="scenario-1-using-local-group-policy"></a>*Cenário 1: usando a política de grupo local*
 Esse cenário exige colocar o script em uma imagem dourada e usa a política de grupo local para ser executado no início do processo de inicialização.
 
-Use as instruções em [Onboard non-persistent virtual desktop infrastructure VDI devices](configure-endpoints-vdi.md#onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices-1).
+Use as instruções em [Onboard the non-persistent virtual desktop infrastructure (VDI) devices](configure-endpoints-vdi.md#onboard-the-non-persistent-virtual-desktop-infrastructure-vdi-devices).
 
 Siga as instruções para uma única entrada para cada dispositivo.
 

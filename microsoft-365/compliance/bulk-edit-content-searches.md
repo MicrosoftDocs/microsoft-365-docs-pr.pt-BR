@@ -17,12 +17,12 @@ ms.assetid: 39e4654a-9588-41f6-892b-c33ab57bfbe2
 ms.custom:
 - seo-marvel-apr2020
 description: Use o Editor de Pesquisa em Massa no centro de segurança e conformidade para alterar rapidamente os locais de consulta e conteúdo para uma ou mais Pesquisas de Conteúdo.
-ms.openlocfilehash: f6331bad19e95fd1d7039d5da72349906d3614b8
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: be7e37ec22966e16dfa3c6d1f37a34e6441e632a
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227382"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341027"
 ---
 # <a name="bulk-edit-content-searches"></a>Pesquisas de conteúdo de edição em massa
 
@@ -32,7 +32,7 @@ Para obter mais informações sobre como usar a ferramenta Estatísticas de Pesq
 
 ## <a name="use-the-bulk-search-editor-to-change-queries"></a>Usar o Editor de Pesquisa em Massa para alterar consultas
 
-1. Vá para <https://protection.office.com> e, em seguida, selecione **Pesquisar** \> **Conteúdo de pesquisa**.
+1. Vá para <https://compliance.microsoft.com> e selecione Pesquisa de **conteúdo.**
 
 2. Na lista de pesquisas, selecione uma ou mais pesquisas e selecione Editor de Pesquisa em Massa **Editor** de Pesquisa em ![ ](../media/1ddb3d18-2f00-4a7b-98a6-817ca5ec7014.png) Massa.
 

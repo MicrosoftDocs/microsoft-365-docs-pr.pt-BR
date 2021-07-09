@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 8babc8c5e7464637e29ddacef50c92f252033d26
-ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
+ms.openlocfilehash: 910eb16ad33555ca61875a346b50cea7e63b2220
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53314363"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53338548"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>O que está chegando à Pontuação Segura da Microsoft
 
@@ -44,6 +44,33 @@ Estamos fazendo algumas alterações em um futuro próximo para tornar o [Micros
 - Restringir usuários anônimos de iniciar Teams reuniões.
 - Exigir que os lobbies sejam definidos para reuniões Teams reuniões.
 - Configure quais usuários têm permissão para estar presentes Teams reuniões.
+
+#### <a name="add-improvement-action-related-to-microsoft-defender-for-endpoint"></a>Adicionar ação de aperfeiçoamento relacionada ao Microsoft Defender para Ponto de Extremidade
+- Corrigir a coleção de dados do sensor do Microsoft Defender for Endpoint para macOS
+- Corrigir o Microsoft Defender para comunicações com deficiência de ponto de extremidade para macOS
+- Definir o comprimento mínimo da senha para 15 ou mais caracteres no macOS
+- Definir 'Impor histórico de senha' como '24 ou mais senhas', no macOS
+- Definir 'Idade máxima da senha' como '90 ou menos dias, mas não 0' no macOS
+- Definir limite de bloqueio de conta como 5 ou inferior no macOS
+- Ativar o Firewall no macOS
+- Habilitar o Gatekeeper
+- Habilitar a Proteção de Integridade do Sistema (SIP)
+- Habilitar a criptografia de disco FileVault
+- Definir tela para bloquear quando o screensaver for iniciado no macOS
+- Verifique se o screensaver está definido para iniciar em 20 minutos ou menos no macOS
+- Pastas Home Seguras
+- Ativar Microsoft Defender Antivírus proteção em tempo real para macOS
+- Ativar Microsoft Defender Antivírus pua no modo de bloqueio para macOS
+- Habilitar Microsoft Defender Antivírus proteção entregue na nuvem para macOS
+- Atualizar Microsoft Defender Antivírus definições para macOS
+- Corrigir a coleção de dados do sensor de ponto de extremidade do Microsoft Defender para Linux
+- Corrigir o Microsoft Defender para comunicações com deficiência de ponto de extremidade para Linux
+- Contas de Acesso Irrestrito
+- Ativar Microsoft Defender Antivírus proteção em tempo real para Linux
+- Ativar a Microsoft Defender Antivírus PUA no modo de bloqueio para Linux
+- Habilitar Microsoft Defender Antivírus proteção entregue na nuvem para Linux
+- Atualizar Microsoft Defender Antivírus definições para Linux
+
 
 
 ## <a name="related-resources"></a>Recursos relacionados

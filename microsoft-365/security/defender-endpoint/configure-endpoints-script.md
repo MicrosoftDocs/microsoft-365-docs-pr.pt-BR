@@ -1,6 +1,6 @@
 ---
 title: Integrar dispositivos Windows 10 usando um script local
-description: Use um script local para implantar o pacote de configuração em dispositivos para que eles sejam integrados ao serviço.
+description: Use um script local para implantar o pacote de configuração em dispositivos para habilitar a integração dos dispositivos ao serviço.
 keywords: configurar dispositivos usando um script local, gerenciamento de dispositivos, configurar o Microsoft Defender para dispositivos de ponto de extremidade
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2510fb1a187bbe136669e11bc73103438b51d811
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: e15a02753c7a1b346021a4351af24b8fd28315da
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842165"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339641"
 ---
-# <a name="onboard-windows-10-devices-using-a-local-script"></a>Integrar dispositivos Windows 10 usando um script local
+# <a name="onboard-the-windows-10-devices-using-a-local-script"></a>Integrando os Windows 10 usando um script local
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -47,9 +47,9 @@ Você também pode fazer a integração manual de dispositivos individuais no De
 Confira o [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) ou [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) para ver os vários caminhos na implantação do Defender para o Ponto de Extremidade. 
 
 
-1.  Abra o arquivo de pacote de configuração da GP .zip (*WindowsDefenderATPOnboardingPackage.zip*) que você baixou do assistente de integração do serviço. Você também pode obter o pacote de [Central de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
+1.  Abra o arquivo de pacote de configuração da GP .zip (*WindowsDefenderATPOnboardingPackage.zip*) que você baixou do assistente de integração do serviço. Você também pode obter o pacote do [Microsoft 365 Portal do Defender](https://security.microsoft.com/):
 
-    1. No painel de navegação, selecione **Configurações**  >  **Integração**.
+    1. No painel de navegação, **selecione** Configurações  >  **Endpoints Gerenciamento** de  >    >  **dispositivos Integrando**.
 
     1. Selecione Windows 10 como o sistema operacional.
 
@@ -66,7 +66,7 @@ Confira o [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/m
 
     1.  Clique com o botão direito do mouse em **Prompt de Comando** e selecione **Executar como administrador**.
 
-        ![Menu Iniciar janela apontando para Executar como administrador](images/run-as-admin.png)
+        ![Janela menu Iniciar apontando para Executar como administrador](images/run-as-admin.png)
 
 4.  Digite o local do arquivo de script. Se você copiou o arquivo para a área de trabalho, digite: *%userprofile%\Desktop\WindowsDefenderATPLocalOnboardingScript.cmd*
 
@@ -79,7 +79,7 @@ Para obter informações sobre como você pode validar manualmente se o disposit
 > Após a integração do dispositivo, você pode optar por executar um teste de detecção para verificar se um dispositivo está corretamente conectado ao serviço. Para obter mais informações, [consulte Run a detection test on a newly onboarded Microsoft Defender for Endpoint endpoint endpoint endpoint](run-detection-test.md).
 
 ## <a name="configure-sample-collection-settings"></a>Configurar configurações de coleção de exemplos
-Para cada dispositivo, você pode definir um valor de configuração para determinar se amostras podem ser coletadas do dispositivo quando uma solicitação é feita por meio do Central de Segurança do Microsoft Defender enviar um arquivo para análise profunda.
+Para cada dispositivo, você pode definir um valor de configuração para determinar se amostras podem ser coletadas do dispositivo quando uma solicitação é feita por meio Microsoft 365 Defender enviar um arquivo para análise profunda.
 
 Você pode configurar manualmente a configuração de compartilhamento de exemplo no dispositivo usando *regedit* ou criando e executando um *arquivo .reg.*  
 
@@ -105,9 +105,9 @@ Por motivos de segurança, o pacote usado para dispositivos offboard expirará 3
 > [!NOTE]
 > As políticas de integração e de offboard não devem ser implantadas no mesmo dispositivo ao mesmo tempo, caso contrário, isso causará colisões imprevisíveis.
 
-1. Obter o pacote de offboard de [Central de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
+1. Obter o pacote de offboard do [Microsoft 365 Defender portal](https://security.microsoft.com/):
 
-    1. No painel de navegação, selecione **Configurações**  >  **Offboarding**.
+    1. No painel de navegação, selecione **Configurações**  >  **Endpoints**  >  **Gerenciamento de**  > **dispositivos Offboarding**.
 
     1. Selecione Windows 10 como o sistema operacional.
 
@@ -123,7 +123,7 @@ Por motivos de segurança, o pacote usado para dispositivos offboard expirará 3
 
     1.  Clique com o botão direito do mouse em **Prompt de Comando** e selecione **Executar como administrador**.
 
-        ![Menu Iniciar janela apontando para Executar como administrador](images/run-as-admin.png)
+        ![Janela menu Iniciar apontando para Executar como administrador](images/run-as-admin.png)
 
 4.  Digite o local do arquivo de script. Se você copiou o arquivo para a área de trabalho, *digite: %userprofile%\Desktop\WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd*
 
@@ -139,9 +139,9 @@ Você pode seguir as diferentes etapas de verificação na solução [de](troubl
 O monitoramento também pode ser feito diretamente no portal ou usando as diferentes ferramentas de implantação.
 
 ### <a name="monitor-devices-using-the-portal"></a>Monitorar dispositivos usando o portal
-1. Vá para Central de Segurança do Microsoft Defender.
+1. Vá para Microsoft 365 Defender portal.
 
-2. Clique **em Lista de dispositivos**.
+2. Clique **em Inventário de dispositivos**.
 
 3. Verifique se os dispositivos estão aparecendo.
 

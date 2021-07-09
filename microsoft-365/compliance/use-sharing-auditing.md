@@ -21,12 +21,12 @@ ms.collection:
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
 description: O administrador pode aprender a usar a auditoria de compartilhamento no log de auditoria Microsoft 365 para identificar recursos compartilhados com usuários fora de sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d26a8022f8d59aeb56a03c50ae546777c882ef7a
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 302ad7665c83ee9061b2e1965ef03ec25d0aab58
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819291"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341503"
 ---
 # <a name="use-sharing-auditing-in-the-audit-log"></a>Usar a auditoria de compartilhamento no log de auditoria
 
@@ -96,26 +96,26 @@ Um requisito comum para administradores é criar uma lista de todos os recursos 
 
 A primeira etapa é pesquisar o log de auditoria para eventos de compartilhamento. Para obter mais informações (incluindo as permissões necessárias) sobre como pesquisar o log de auditoria, consulte Pesquisar o log de auditoria no Centro de Conformidade & [Segurança.](search-the-audit-log-in-security-and-compliance.md)
   
-1. Acesse [https://protection.office.com](https://protection.office.com).
-    
+1. Vá para <https://compliance.microsoft.com>.
+
 2. Entre usando sua conta de trabalho ou da escola.
-    
-3. No painel esquerdo do Centro de Conformidade e Segurança, clique em **Pesquisar**  > **Pesquisa de log de auditoria**.
-    
-    É exibida a página **Pesquisa de log de auditoria**. 
-    
+
+3. No painel esquerdo do Centro de conformidade do Microsoft 365, clique em **Auditoria**.
+
+    A página **Auditoria** é exibida.
+
 4. Em **Atividades**, clique **em Atividades de compartilhamento e de** solicitação de acesso para pesquisar eventos relacionados ao compartilhamento. 
-    
+
     ![Em Atividades, selecione Atividades de compartilhamento e solicitação de acesso](../media/46bb25b7-1eb2-4adf-903a-cc9ab58639f9.png)
   
-5.  Selecione um intervalo de data e hora para encontrar os eventos de compartilhamento que ocorreram nesse período. 
-    
+5. Selecione um intervalo de data e hora para encontrar os eventos de compartilhamento que ocorreram nesse período. 
+
 6. Clique **em Pesquisar** para executar a pesquisa. 
-    
+
 7. Quando a pesquisa terminar de executar e os resultados são exibidos, clique em **Exportar resultados** Baixar todos \> **os resultados**.
-    
+
     Depois de selecionar a opção de exportação, uma mensagem na parte inferior da janela solicita que você abra ou salve o arquivo CSV.
-    
+
 8. Clique **em Salvar** Salvar \> **como** e salve o arquivo CSV em uma pasta em seu computador local. 
 
 ### <a name="step-2-use-the-powerquery-editor-to-format-the-exported-audit-log"></a>Etapa 2: Usar o Editor do PowerQuery para formatar o log de auditoria exportado

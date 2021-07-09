@@ -19,12 +19,12 @@ ms.assetid: ''
 description: Saiba mais sobre as etapas básicas de solução de problemas que você pode tomar para resolver problemas comuns Office 365 Descoberta eDiscovery.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28c092cefbdd8add46d3f36aa118e230d16a918a
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 0b118a97df765321704a995905de797e06a60108
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822233"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339413"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Investigar, solucionar problemas e resolver problemas comuns de Descoberta e Descoberta
 
@@ -52,7 +52,7 @@ Verifique se há usuários duplicados ou lista de distribuição com a mesma ID 
    > |Nome|RecipientType|
    > |---|---|
    > |Alias, User|MailUser|
-   > |Alias, User|Usuário|
+   > |Alias, User|User|
 
 3. Se vários usuários são retornados, localize e corrige o objeto conflitante.
 
@@ -99,7 +99,7 @@ Abra o local do SPO e verifique se esse arquivo realmente não está lá.
 A solução sugerida é reindexar manualmente o site ou aguardar até que o site seja reindexado pelo processo de plano de fundo automático.
 
 
-## <a name="errorissue-this-search-result-was-not-downloaded-as-it-is-a-folder-or-other-artefact-that-cant-be-downloaded-by-itself-any-items-inside-the-folder-or-library-will-be-downloaded"></a>Erro/problema: esse resultado de pesquisa não foi baixado, pois é uma pasta ou outro artefato que não pode ser baixado por si só, qualquer item dentro da pasta ou biblioteca será baixado.
+## <a name="errorissue-this-search-result-was-not-downloaded-as-it-is-a-folder-or-other-artifact-that-cant-be-downloaded-by-itself-any-items-inside-the-folder-or-library-will-be-downloaded"></a>Erro/problema: esse resultado de pesquisa não foi baixado, pois é uma pasta ou outro artefato que não pode ser baixado por si só, qualquer item dentro da pasta ou biblioteca será baixado.
 
 Você pode ver esse erro ao executar uma pesquisa de Descoberta Virtual que inclui locais SharePoint Online e One Drive For Business. Isso significa que vamos tentar exportar o item relatado no índice, mas ele acabou sendo uma pasta para que não o exportá-lo. Como mencionado no erro, não exportamos itens de pasta, mas exportamos seu conteúdo.
 
@@ -122,7 +122,7 @@ Uma pesquisa de Descoberta E falha com o erro `recipient not found` de . Esse er
 
 ## <a name="errorissue-exporting-search-results-is-slow"></a>Erro/problema: a exportação de resultados da pesquisa é lenta
 
-Ao exportar resultados da pesquisa da Descoberta Digital ou da Pesquisa de Conteúdo no Centro de Segurança e Conformidade, o download leva mais tempo do que o esperado.  Você pode verificar a quantidade de dados a serem baixados e possivelmente aumentar a velocidade de exportação.
+Ao exportar resultados da pesquisa de Descoberta Básica ou pesquisa de conteúdo no Centro de conformidade do Microsoft 365, o download leva mais tempo do que o esperado.  Você pode verificar a quantidade de dados a serem baixados e possivelmente aumentar a velocidade de exportação.
 
 ### <a name="resolution"></a>Resolução
 
@@ -145,6 +145,16 @@ Ao exportar resultados da pesquisa da Descoberta Digital ou da Pesquisa de Conte
 5. Verifique o arquivo trace.log localizado no diretório para o qual você exportou o conteúdo para quaisquer erros.
 
 6. Se você ainda tiver problemas, considere dividir pesquisas que retornam um grande conjunto de resultados em pesquisas menores. Por exemplo, você pode usar intervalos de datas em consultas de pesquisa para retornar um conjunto menor de resultados que podem ser baixados mais rapidamente.
+
+## <a name="errorissue-export-process-not-progressing-or-is-stuck"></a>Erro/problema: o processo de exportação não está progredindo ou está travado
+
+Ao exportar resultados da pesquisa da Descoberta Básica ou da pesquisa de conteúdo no Centro de conformidade do Microsoft 365, o processo de exportação não está progredindo ou parece estar travado.
+
+### <a name="resolution"></a>Resolução
+
+1. Se necessário, reprise a pesquisa. Se a pesquisa foi pela última vez, há mais de 7 dias, você terá que reprisar a pesquisa.
+
+2. Reinicie a exportação.
 
 ## <a name="errorissue-internal-server-error-500-occurred"></a>Erro/problema: "Erro interno do servidor (500) ocorrido"
 
@@ -222,7 +232,7 @@ Após uma exportação bem-sucedida, o download concluído por meio da ferrament
 
 ### <a name="resolution"></a>Resolução
 
-Este é um problema do lado do cliente e, para remediar, tente as seguintes etapas:
+Esse é um problema do lado do cliente. Para remediar isso, siga estas etapas:
 
 1. Tente usar outro cliente/máquina para baixar.
 

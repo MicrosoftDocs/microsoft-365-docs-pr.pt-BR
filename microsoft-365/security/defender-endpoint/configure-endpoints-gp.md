@@ -1,6 +1,6 @@
 ---
 title: Integração Windows 10 dispositivos para o Microsoft Defender para Ponto de Extremidade por meio da Política de Grupo
-description: Use a Política de Grupo para implantar o pacote de configuração em Windows 10 dispositivos para que eles sejam integrados ao serviço.
+description: Use a Política de Grupo para implantar o pacote de configuração nos dispositivos Windows 10 para que eles sejam integrados ao serviço.
 keywords: configurar dispositivos usando a política de grupo, o gerenciamento de dispositivos, configurar o Microsoft Defender para dispositivos de ponto de extremidade, a integração do Microsoft Defender para dispositivos de ponto de extremidade, a política de grupo
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,14 +17,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 454e60b26f84aca26a0f8f317105ec5457b55ca2
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+ms.openlocfilehash: 26bdb0fbdb417d9e7fb01e4c3a863c44e57b7fb7
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53326958"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339617"
 ---
-# <a name="onboard-windows-10-devices-using-group-policy"></a>Integração Windows 10 usando a Política de Grupo 
+# <a name="onboard-the-windows-10-devices-using-group-policy"></a>Integrando os Windows 10 usando a Política de Grupo 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -47,9 +47,9 @@ ms.locfileid: "53326958"
 
 Confira o [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) ou [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) para ver os vários caminhos na implantação do Defender para o Ponto de Extremidade.
 
-1. Abra o arquivo de pacote de configuração da GP .zip (*WindowsDefenderATPOnboardingPackage.zip*) que você baixou do assistente de integração do serviço. Você também pode obter o pacote de [Central de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
+1. Abra o arquivo de pacote de configuração da GP .zip (*WindowsDefenderATPOnboardingPackage.zip*) que você baixou do assistente de integração do serviço. Você também pode obter o pacote do [Microsoft 365 Defender portal](https://security.microsoft.com/):
 
-    1. No painel de navegação, selecione **Configurações**  >  **Integração**.
+    1. No painel de navegação, **selecione** Configurações  >  **Endpoints Gerenciamento** de  >     >  **dispositivos Integrando**.
 
     1. Selecione Windows 10 como o sistema operacional.
 
@@ -69,7 +69,7 @@ Confira o [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/m
 
 7. Selecione **Executar se o usuário está conectado ou não** e marque a caixa de seleção Executar com privilégios **mais** altos.
 
-8. Vá até a guia **Ações** e clique em **Novo...** Verifique se **Iniciar um programa** está selecionado no **campo** Ação. Insira o nome do arquivo e o local do *arquivo WindowsDefenderATPOnboardingScript.cmd* compartilhado.
+8. Vá até a guia **Ações** e clique em **Novo...** Verifique se **Iniciar um programa** está selecionado no **campo** Ação. Insira o caminho NetBIOS do arquivo  *WindowsDefenderATPOnboardingScript.cmd* compartilhado.
 
 9. Clique **em OK** e feche as janelas do GPMC abertas.
 
@@ -77,7 +77,7 @@ Confira o [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/m
 > Após a integração do dispositivo, você pode optar por executar um teste de detecção para verificar se o dispositivo está corretamente conectado ao serviço. Para obter mais informações, [consulte Execute a detection test on a newly onboarded Defender for Endpoint device](run-detection-test.md).
 
 ## <a name="additional-defender-for-endpoint-configuration-settings"></a>Configurações adicionais do Defender para Ponto de Extremidade
-Para cada dispositivo, você pode determinar se amostras podem ser coletadas do dispositivo quando uma solicitação é feita por meio Central de Segurança do Microsoft Defender enviar um arquivo para análise profunda.
+Para cada dispositivo, você pode dizer se amostras podem ser coletadas do dispositivo quando uma solicitação é feita por meio de Microsoft 365 Defender enviar um arquivo para análise profunda.
 
 Você pode usar a Política de Grupo (GP) para definir configurações, como configurações para o compartilhamento de exemplo usado no recurso de análise profunda.
 
@@ -189,9 +189,9 @@ Por motivos de segurança, o pacote usado para dispositivos offboard expirará 3
 > [!NOTE]
 > As políticas de integração e de offboard não devem ser implantadas no mesmo dispositivo ao mesmo tempo, caso contrário, isso causará colisões imprevisíveis.
 
-1. Obter o pacote de offboard de [Central de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
+1. Obter o pacote de offboard do [Microsoft 365 Defender portal](https://security.microsoft.com/):
 
-    1. No painel de navegação, selecione **Configurações**  >  **Offboarding**.
+    1. No painel de navegação, selecione **Configurações**  >  **Endpoints**  >  **Gerenciamento de**  >  **dispositivos Offboarding**.
 
     1. Selecione Windows 10 como o sistema operacional.
 
@@ -224,8 +224,8 @@ Com a Política de Grupo, não há uma opção para monitorar a implantação de
 
 ## <a name="monitor-devices-using-the-portal"></a>Monitorar dispositivos usando o portal
 
-1. Vá para [Central de Segurança do Microsoft Defender](https://securitycenter.windows.com/).
-2. Clique **em Lista de dispositivos**.
+1. Vá para [Microsoft 365 Defender portal](https://security.microsoft.com/).
+2. Clique **em Inventário de dispositivos**.
 3. Verifique se os dispositivos estão aparecendo.
 
 > [!NOTE]

@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: d3821f4f1f581da5353ee33bd406af8558c0e903
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 7da28ea308994663549c2c490f53a3e0e75a0857
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029952"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339257"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>Endereços falsos positivos/negativos no Microsoft Defender para Ponto de Extremidade
 
@@ -141,7 +141,7 @@ Quando terminar de revisar e desfazer as ações que foram tomadas como resultad
 
 ### <a name="review-completed-actions"></a>Revisar ações concluídas
 
-1. Vá para a Central de Ações ( <https://security.microsoft.com/action-center> ) e entre.
+1. No painel de navegação esquerdo do portal Microsoft 365 Defender, clique em **Centro de ações**.
 
 2. Selecione a **guia Histórico** para exibir uma lista de ações que foram realizadas.
 
@@ -149,7 +149,7 @@ Quando terminar de revisar e desfazer as ações que foram tomadas como resultad
 
 ### <a name="restore-a-quarantined-file-from-the-action-center"></a>Restaurar um arquivo em quarentena do Centro de Ações
 
-1. Vá para a Central de Ações ( <https://security.microsoft.com/action-center> ) e entre.
+1. No painel de navegação esquerdo do portal Microsoft 365 Defender, clique em **Centro de ações**.
 
 2. Na guia **Histórico,** selecione uma ação que você deseja desfazer.
 
@@ -157,7 +157,7 @@ Quando terminar de revisar e desfazer as ações que foram tomadas como resultad
 
 ### <a name="undo-multiple-actions-at-one-time"></a>Desfazer várias ações ao mesmo tempo
 
-1. Vá para a Central de Ações ( <https://security.microsoft.com/action-center> ) e entre.
+1. No painel de navegação esquerdo do portal Microsoft 365 Defender, clique em **Centro de ações**.
 
 2. Na guia **Histórico,** selecione as ações que você deseja desfazer.
 
@@ -168,7 +168,7 @@ Quando terminar de revisar e desfazer as ações que foram tomadas como resultad
 > [!div class="mx-imgBorder"]
 > ![Arquivo de quarentena](images/autoir-quarantine-file-1.png)
 
-1. Vá para a Central de Ações ( <https://security.microsoft.com/action-center> ) e entre.
+1. No painel de navegação esquerdo do portal Microsoft 365 Defender, clique em **Centro de ações**.
 
 2. Na guia **Histórico,** selecione um arquivo que tenha o arquivo De quarentena tipo **ação.**
 
@@ -344,7 +344,7 @@ Para verificar se há atualizações relacionadas ao envio, entre no site Inteli
 
 O Microsoft Defender para Ponto de Extremidade oferece uma ampla variedade de opções, incluindo a capacidade de ajustar as configurações para vários recursos e recursos. Se você estiver recebendo vários falsos positivos, revise as configurações de proteção contra ameaças da sua organização. Talvez seja necessário fazer alguns ajustes para:
 
-- [Proteção entregue na nuvem](#cloud-delivered-protection)
+- [Proteção fornecida na nuvem](#cloud-delivered-protection)
 - [Correção de aplicativos potencialmente indesejados](#remediation-for-potentially-unwanted-applications)
 - [Investigação e correção automatizadas](#automated-investigation-and-remediation)
 

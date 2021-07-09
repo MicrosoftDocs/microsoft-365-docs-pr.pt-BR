@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender a configurar uma caixa de correio para coletar emails de spam e phishing relatados pelos usuários.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2dded27d87ee5db0d1e71b643fe8244408ef1a24
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 4f14f87355181e9b7f6c0b52aa6b122b560c5f23
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096151"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53338680"
 ---
 # <a name="user-reported-message-settings"></a>Configurações de mensagem relatadas pelo usuário
 
@@ -69,15 +69,14 @@ Depois de verificar se sua caixa de correio atende a todos os pré-requisitos ap
 - Para modificar a configuração para envios do usuário, você precisa ser membro de um dos seguintes grupos de função:
 
   - **Gerenciamento da** organização **ou Administrador de** Segurança nas Permissões no portal Microsoft 365 Defender [.](permissions-microsoft-365-security-center.md)
-  - **Gerenciamento de organização** em [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).
-
+  
 - Você precisa acessar o Exchange Online PowerShell. Se a conta que você está tentando usar não tiver acesso ao Exchange Online PowerShell, você receberá um erro com esta aparência ao especificar a caixa de correio de envios:
 
   > Especificar um endereço de email em seu domínio
 
   Para obter mais informações sobre a habilitação ou desabilitação do acesso ao Exchange Online PowerShell, consulte os seguintes tópicos:
 
-  - [Habilitar ou desabilitar o acesso Exchange Online PowerShell](/powershell/exchange/disable-access-to-exchange-online-powershell) 
+  - [Habilitar ou desabilitar o acesso ao Exchange Online PowerShell](/powershell/exchange/disable-access-to-exchange-online-powershell) 
   - [Regras de Acesso para Cliente no Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
 
 ## <a name="use-the-microsoft-365-defender-portal-to-configure-the-user-submissions-mailbox"></a>Usar o portal Microsoft 365 Defender para configurar a caixa de correio de envios do usuário

@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: In-Place eDiscovery e In-Place Hold (e os cmdlets correspondentes do PowerShell) no Exchange Online serão retirados no primeiro semestre de 2020. O Search-Mailbox cmdlet e Advanced eDiscovery v1.0 também estão sendo retirados no mesmo período.
-ms.openlocfilehash: 97be285ae348b018866e3f91f92be523b03e6616
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 77a7daf36c86cd302f774e5a4b934148d3dfd5a7
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055068"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53340991"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Baixa das ferramentas de Descoberta Eletrônica herdadas
 
@@ -94,7 +94,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <tr class="header">
 <th>Funcionalidade</th>
 <th>Ferramenta alternativa</th>
-<th>Comentários</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -197,7 +197,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <tr class="header">
 <th>Funcionalidade</th>
 <th>Ferramentas alternativas</th>
-<th>Comentários</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -222,7 +222,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 </tr>
 <tr class="odd">
 <td>Copiar resultados da pesquisa para uma caixa de correio de descoberta</td>
-<td>Nenhum</td>
+<td>Nenhuma</td>
 <td>Não há substituição direta para essa funcionalidade porque ela não fornece acesso a todos os Microsoft 365 serviços. Consulte as perguntas frequentes a seguir para encontrar soluções alternativas.</td>
 </tr>
   <tr class=even>
@@ -276,7 +276,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <tr class="header">
 <th>Funcionalidade</th>
 <th>Ferramentas alternativas</th>
-<th>Comentários</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -345,9 +345,9 @@ Advanced eDiscovery v1.0, que é a versão do Advanced eDiscovery disponível em
 
 Para determinar se sua organização está usando Advanced eDiscovery v1.0:
 
-1. Vá para o centro de conformidade [Office 365 segurança & segurança.](https://protection.office.com)
+1. Vá para o [Site de Conformidade do Microsoft 365](https://compliance.microsoft.com).
 
-2. No painel de navegação esquerdo do Centro de Conformidade & Segurança, clique em Descoberta > Descoberta > **eDiscovery** e abra um caso de Descoberta Principal de Descoberta Digital.
+2. No painel de navegação esquerdo do centro de conformidade, clique em **Descoberta > Core** e abra um caso core de Descoberta eDiscovery.
 
 3. Se você vir o botão **Alternar** para Advanced eDiscovery, clicar nele levará você para a versão 1.0 do Advanced eDiscovery, que está sendo retirada. A capacidade de criar e gerenciar casos na Descoberta Principal não será afetada. Somente a capacidade de adicionar e analisar dados de caso Advanced eDiscovery v1.0 (clicando em **Alternar** para Advanced eDiscovery ) está sendo retirada.
 

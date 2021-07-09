@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
 description: Uma **Caixa de correio não foi encontrada** devido ao erro significa que a conta que você usou para se conectar ao Outlook na Web não tem uma licença do Exchange Online.
-ms.openlocfilehash: cb82f917adca8f1fc183fd9516321a524c63eb69
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 54aa196b0b324054d6220d4437a672a3db2a45ec
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635781"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53338560"
 ---
 # <a name="getting-a-mailbox-not-found-error-in-outlook-on-the-web"></a>Obtendo um erro de caixa de correio não encontrada no Outlook na Web?
 
@@ -31,7 +31,7 @@ Se você estiver usando o Outlook na Web e obtiver uma  **Caixa de correio não 
 
 O administrador pode atribuir uma licença à sua conta seguindo estas etapas:
 
-1. Abra o  [Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home#/homepage)  e vá  para **Usuários ativos**  na  seção **Usuários** e selecione o usuário que está vendo o erro.
+1. Abra o  [Centro de administração do Microsoft 365](https://admin.microsoft.com/adminportal/home#/homepage)  e vá  para **Usuários ativos**  na  seção **Usuários** e selecione o usuário que está vendo o erro.
 1. Na página do usuário que é aberta, vá para a seção  **Licenças e Aplicativos**  , selecione o valor de  **Local**  apropriado e atribua uma licença que contenha o Exchange Online (expanda a licença para ver seus detalhes). 
 1. Quando terminar, clique em  **Salvar alterações**.
 

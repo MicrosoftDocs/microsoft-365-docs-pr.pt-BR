@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como configurar um novo endereço de email comercial.
-ms.openlocfilehash: df984cbee8bdd1bdd40ca8d9b87c71222db0f69d
-ms.sourcegitcommit: ddb1bf56bcba4f03c803f79492e8cd0dc41a3d7a
+ms.openlocfilehash: 004cdd3abf9b8f8dec34dbfe9739102af081c769
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52065124"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341539"
 ---
 # <a name="set-up-a-new-business-email-address"></a>Configurar um novo endereço de email comercial
 
@@ -55,7 +55,7 @@ Compre um novo nome de domínio para seu endereço de email e configurar os ende
 
 Use um nome de domínio que você já possui se o está usando para um endereço de site ou um endereço de email em outro provedor. 
 
-## <a name="try-it"></a>Experimente!
+## <a name="give-it-a-try"></a>Experimente!
  
 1. Entre no site que hospeda seu domínio. Clique em um botão para verificar automaticamente ou atualizar o domínio manualmente. 
 1. Personalize o endereço de email ou deixe-o como está. 

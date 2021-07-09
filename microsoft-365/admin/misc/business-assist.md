@@ -16,18 +16,22 @@ ms.custom:
 search.appverid:
 - MET150
 description: Saiba mais sobre o programa assistência comercial e como ele pode ajudar sua organização com ajuda e uso aprimorados para Microsoft 365 para empresas.
-ms.openlocfilehash: 1df0be7d53f01b83e76dd70741d043f0a6a1e0e4
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 3715fcfcc24c647266bab36a764b3c8711e08bdd
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924582"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53338596"
 ---
 # <a name="business-assist-for-microsoft-365"></a>Business Assist para Microsoft 365
 
 Obter o máximo de sua assinatura com consultoria especializada de especialistas em pequenas empresas.
 
 **O Business Assist for Microsoft 365** foi projetado para empresas com menos de 5 usuários para dar a você e seus funcionários acesso 24 horas por dia a especialistas em pequenas empresas à medida que você cresce sua empresa, da integração ao uso diário.
+
+### <a name="watch-business-assist-for-microsoft-365"></a>Watch: Business Assist for Microsoft 365
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWFTQl]
 
 ## <a name="business-assist-services"></a>Serviços de Assistência Comercial
 
@@ -51,7 +55,7 @@ Os clientes com um plano de assinatura Microsoft 365 para empresas podem usar se
 
 Somente as organizações qualificadas verão a opção de comprar o Business Assist. O Business Assist custa US$ 5 por usuário por mês. Veja como você pode comprar o Business Assist.
 
-1. Na exibição simplificada do centro de administração Microsoft 365, vá para a guia **Assinaturas** e selecione **Adicionar produtos**.
+1. Na exibição simplificada do Centro de administração do Microsoft 365, vá para a guia **Assinaturas** e selecione **Adicionar produtos**.
 
 2. Na página Serviços de Compra, Selecione **Detalhes** sobre Assistência Comercial **para** Microsoft 365 e conclua sua compra.
 

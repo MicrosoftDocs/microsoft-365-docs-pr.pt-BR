@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Saiba como configurar e usar um conector no Centro de conformidade do Microsoft 365 para importar e arquivar dados de Skype for Business para Microsoft 365.
-ms.openlocfilehash: 93128af0c7f305cb2bef55efd5520de77555a222
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 4a66ee19530860bd482168297a8c935153442fee
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054804"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339449"
 ---
-# <a name="set-up-a-connector-to-archive-skype-for-business-data-preview"></a>Configurar um conector para arquivar Skype for Business dados (visualização)
+# <a name="set-up-a-connector-to-archive-skype-for-business-data"></a>Configurar um conector para arquivar Skype for Business dados
 
 Use um conector Veritas no Centro de conformidade do Microsoft 365 para importar e arquivar dados da plataforma Skype for Business para caixas de correio de usuário em sua Microsoft 365 organização. A Veritas fornece um [conector Skype for Business](https://www.veritas.com/en/au/insights/merge1/skype-for-business) que é configurado para capturar itens da fonte de dados de terceiros (regularmente) e importar esses itens para Microsoft 365. O conector converte o conteúdo, como mensagens entre usuários, chats persistentes e mensagens de conferência do Skype for Business para um formato de mensagem de email e importa esses itens para a caixa de correio do usuário no Microsoft 365.
 

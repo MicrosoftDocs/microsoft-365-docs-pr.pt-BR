@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: f3433b6b-02f7-447f-9d62-306bf03638b0
 description: Saiba como validar as configurações Microsoft 365 Business Premium proteção do aplicativo em seus dispositivos Android ou iOS.
-ms.openlocfilehash: a0a4a6e6cff59f66a506929e97c99d361472a68b
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 43e74b548711550090021c39096b1647cee9e039
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578058"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339321"
 ---
 # <a name="validate-app-protection-settings-on-android-or-ios-devices"></a>Validar configurações de proteção de aplicativos em dispositivos Android ou iOS
 
@@ -42,7 +42,7 @@ Depois de [definir configurações de aplicativo para dispositivos Android](app-
   
 Primeiro, certifique-se de que a política se aplique ao aplicativo no qual você irá validá-la.
   
-1. No centro de Microsoft 365 Business Premium [de administração,](https://portal.office.com)vá para **Política Editar** \> **política**.
+1. No centro de Microsoft 365 Business Premium [de administração,](https://admin.microsoft.com)vá para **Política Editar** \> **política**.
     
 2. Escolha **Política de aplicativo** para Android para as configurações criadas na instalação ou outra política que você criou e verifique se ela é imposta para Outlook, por exemplo. 
     
@@ -131,7 +131,7 @@ Depois de [definir configurações de aplicativo para dispositivos iOS](app-prot
   
 Primeiro, certifique-se de que a política se aplique ao aplicativo no qual você irá validá-la.
   
-1. No centro de Microsoft 365 Business Premium [de administração,](https://portal.office.com)vá para **Política Editar** \> **política**.
+1. No centro de Microsoft 365 Business Premium [de administração,](https://admin.microsoft.com)vá para **Política Editar** \> **política**.
     
 2. Escolha **Política de aplicativo para iOS** para as configurações criadas na instalação ou outra política que você criou e verifique se ela é imposta para Outlook por exemplo. 
     

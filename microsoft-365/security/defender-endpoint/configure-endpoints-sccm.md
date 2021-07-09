@@ -1,6 +1,6 @@
 ---
 title: Integrar dispositivo Windows 10 usando o Configuration Manager
-description: Use o Configuration Manager para implantar o pacote de configuração em dispositivos para que eles sejam integrados ao serviço.
+description: Use o Gerenciador de Configurações para implantar o pacote de configuração em dispositivos para que os dispositivos sejam integrados ao serviço.
 keywords: onboard devices using sccm, device management, configure Microsoft Defender for Endpoint devices
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,14 +17,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 02/07/2020
 ms.technology: mde
-ms.openlocfilehash: d827fb89a082286b1b7b77ea0a14e588ce171161
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: d7c319e37fb804ee4dac3b6bff402942bbc2fa79
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842189"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339653"
 ---
-# <a name="onboard-windows-10-devices-using-configuration-manager"></a>Integrar dispositivo Windows 10 usando o Configuration Manager
+# <a name="onboard-the-windows-10-devices-using-configuration-manager"></a>Integrando os Windows 10 usando o Configuration Manager
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -71,9 +71,9 @@ Confira o [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/m
 
 
 
-1. Abra o arquivo de pacote de configuração do Configuration Manager .zip (*WindowsDefenderATPOnboardingPackage.zip*) que você baixou do assistente de integração do serviço. Você também pode obter o pacote de [Central de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
+1. Abra o arquivo de pacote de configuração do Configuration Manager .zip (*WindowsDefenderATPOnboardingPackage.zip*) que você baixou do assistente de integração do serviço. Você também pode obter o pacote do [Microsoft 365 Defender portal](https://security.microsoft.com/):
 
-    1. No painel de navegação, selecione **Configurações**  >  **Integração**.
+    1. No painel de navegação, **selecione** Configurações  >  **Endpoints Gerenciamento** de  >    >  **dispositivos Integrando**.
     
     1. Selecione Windows 10 como o sistema operacional.
 
@@ -102,10 +102,10 @@ Para obter mais informações, [consulte Configure Detection Methods in System C
 
 ### <a name="configure-sample-collection-settings"></a>Configurar configurações de coleção de exemplos
 
-Para cada dispositivo, você pode definir um valor de configuração para determinar se amostras podem ser coletadas do dispositivo quando uma solicitação é feita por meio do Central de Segurança do Microsoft Defender enviar um arquivo para análise profunda.
+Para cada dispositivo, você pode definir um valor de configuração para determinar se amostras podem ser coletadas do dispositivo quando uma solicitação é feita por meio Microsoft 365 Defender enviar um arquivo para análise profunda.
 
 >[!NOTE]
->Essas configurações geralmente são feitas por meio do Configuration Manager. 
+>Essas configurações geralmente são feitas por meio do Configuration Manager.
 
 Você pode definir uma regra de conformidade para o item de configuração no Configuration Manager para alterar a configuração de compartilhamento de exemplo em um dispositivo.
 
@@ -179,9 +179,9 @@ Se você usar Microsoft Endpoint Manager ramificação atual, consulte [Create a
 
 ### <a name="offboard-devices-using-system-center-2012-r2-configuration-manager"></a>Dispositivos de offboard usando System Center 2012 R2 Configuration Manager
 
-1. Obter o pacote de offboard de [Central de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
+1. Obter o pacote de offboard do [Microsoft 365 Defender portal](https://security.microsoft.com/):
 
-    1. No painel de navegação, selecione **Configurações**  >   **Offboarding**.
+    1. No painel de navegação, selecione **Configurações**  >  **Endpoints**  >  **Gerenciamento de**  >   **dispositivos Offboarding**.
 
     1. Selecione Windows 10 como o sistema operacional.
 

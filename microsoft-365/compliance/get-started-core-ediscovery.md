@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Descreve como começar a usar o Core eDiscovery no Microsoft 365. Depois de atribuir permissões de Descoberta E e criar um caso, você pode adicionar membros, criar regiões de Descoberta e, em seguida, pesquisar e exportar conteúdo relevante para sua investigação.
-ms.openlocfilehash: 00506c2f072fff6aa30c7d96bffdc18eb5eda20b
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 9466b2e3268a447a4008363e88290d4d02558c76
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311011"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341467"
 ---
 # <a name="get-started-with-core-ediscovery-in-microsoft-365"></a>Começar a trabalhar com a Descoberta eDiscoveria Básica no Microsoft 365
 
@@ -34,7 +34,7 @@ Este artigo discute as etapas necessárias para configurar a Descoberta Principa
 
 O licenciamento para a Descoberta Interna requer a assinatura da organização apropriada e o licenciamento por usuário.
 
-- **Assinatura da organização:** Para acessar o Core eDiscovery no centro de conformidade do Microsoft 365 ou no Centro de Conformidade do Office 365 Security & e usar os recursos de espera e exportação, sua organização deve ter uma assinatura Microsoft 365 E3 ou Office 365 E3 ou superior.
+- **Assinatura da organização:** Para acessar o Core eDiscovery no Centro de conformidade do Microsoft 365 ou no Centro de Conformidade & Segurança Office 365 e usar os recursos de espera e exportação, sua organização deve ter uma assinatura Microsoft 365 E3 ou Office 365 E3 ou superior.
 
 - **Licenciamento por usuário:** Para colocar uma responsabilidade de Descoberta Eletrônico em caixas de correio e sites, um usuário deve receber uma das seguintes licenças, dependendo da assinatura da sua organização:
 
@@ -42,11 +42,11 @@ O licenciamento para a Descoberta Interna requer a assinatura da organização a
 
    OU
 
-  - Office 365 Licença E1 com uma Exchange Online plano 2 ou Arquivamento do Exchange Online de complemento
+  - Office 365 E1 com uma licença de Exchange Online Plano 2 ou Arquivamento do Exchange Online de complemento
 
   E
 
-  - Office 365 Licença E1 com uma licença SharePoint Plano 2 ou OneDrive for Business plano 2 do Plano 2
+  - Office 365 E1 com uma licença de complemento SharePoint Plano 2 ou OneDrive for Business Plano 2
   
   Para obter informações sobre como atribuir licenças, consulte [Assign licenses to users](../admin/manage/assign-licenses-to-users.md).
 
@@ -62,7 +62,7 @@ Para acessar a Descoberta Interna ou ser adicionado como membro de um caso core 
 
 Conclua as etapas a seguir para adicionar usuários ao grupo de funções do Gerenciador de Descobertas E:
 
-1. Acesse e entre usando as credenciais de uma conta de administrador em sua Microsoft 365 [https://protection.office.com/permissions](https://protection.office.com/permissions) ou Office 365 organização.
+1. Acesse e entre usando as credenciais de uma conta de administrador em sua Microsoft 365 <https://compliance.microsoft.com/permissions> ou Office 365 organização.
 
 2. Na página **Permissões,** selecione o grupo de função **Gerenciador de** Descobertas.
 
@@ -100,7 +100,7 @@ A próxima etapa é criar uma ocorrência e começar a usar a Descoberta Princip
 
 1. Acesse e entre usando as credenciais de uma conta de usuário que recebeu as permissões de [https://compliance.microsoft.com](https://compliance.microsoft.com) Descoberta eDiscovery apropriadas. Os membros do grupo de função Gerenciamento da Organização também podem criar principais casos de Descoberta eDiscovery.
 
-2. No painel de navegação esquerdo do centro de conformidade Microsoft 365, clique em **Mostrar** tudo e clique em **Descoberta > Core**.
+2. No painel de navegação esquerdo do Centro de conformidade do Microsoft 365, clique em **Mostrar** tudo e clique em **Descoberta > Core**.
 
 3. Na página **Descoberta Principal da Descoberta e,** clique em Criar um **caso**.
 
@@ -114,7 +114,7 @@ A próxima etapa é criar uma ocorrência e começar a usar a Descoberta Princip
 
 Se você criar um caso na Etapa 3 e for a única pessoa que usará o caso, não será preciso executar esta etapa. Você pode começar a usar o caso para criar regiões de Descoberta e Descoberta, pesquisar conteúdo e exportar resultados de pesquisa. Execute esta etapa se você quiser dar a outros usuários (ou grupos de funções) acesso ao caso.
 
-1. Na página **Descoberta Principal da** Descoberta Microsoft 365 de conformidade, clique no nome do caso ao que você deseja adicionar membros.
+1. Na página **Descoberta Principal da** Descoberta Centro de conformidade do Microsoft 365, clique no nome do caso ao que deseja adicionar membros.
 
 2. Na home page do caso, selecione a guia **Configurações** e selecione **Acessar & permissões**.
 

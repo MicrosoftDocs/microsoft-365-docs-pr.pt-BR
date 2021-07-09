@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 ms.custom: seo-marvel-apr2020
 description: Saiba como criar uma política de arquivamento e exclusão no Microsoft 365 que move automaticamente itens para a caixa de correio de arquivo morto de um usuário.
-ms.openlocfilehash: 16a9191268cb83b5377e8f55d3d4d20522c223cb
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 45d6428f5b0a856538d500b1d1f0447447b9dfe9
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53062170"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341635"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>Configurar uma política de arquivamento e exclusão para caixas de correio em sua organização
 
@@ -63,11 +63,11 @@ A primeira etapa é habilitar a caixa de correio de arquivo morto para cada usu�
 > [!NOTE]
 > Você pode habilitar caixas de correio de arquivo morto a qualquer momento durante esse processo, contanto que elas estão habilitadas em algum momento antes de concluir o processo. Se uma caixa de correio de arquivo morto não estiver habilitada, nenhuma ação será tomada em todos os itens que tenham uma política de arquivamento ou exclusão atribuída a ela.
   
-1. Acesse [https://protection.office.com](https://protection.office.com).
+1. Vá para <https://compliance.microsoft.com>.
 
 2. Entre usando sua conta de administrador global.
     
-3. No Centro de Conformidade & segurança, vá para **Arquivo de governança de** \> **informações.**
+3. Na Centro de conformidade do Microsoft 365, clique em **Governança de** informações e clique na **guia** Arquivo morto.
 
     Uma lista das caixas de correio em sua organização é exibida e se a caixa de correio de arquivo morto correspondente está habilitada ou desabilitada.
 

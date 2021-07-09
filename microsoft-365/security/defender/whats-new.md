@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 78783ab98c50252115c28008680197256bfd7aa5
-ms.sourcegitcommit: 8b79d276f71f22bcaeb150e78e35101cb1ae0375
+ms.openlocfilehash: af5efb669b1f73b4008ac2c3fae251a4d08511dd
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53114726"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53340979"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Novidades no Microsoft 365 Defender
 
@@ -38,8 +38,10 @@ RSS feed: seja notificado quando esta página for atualizada copiando e colar a 
 ```http
 /api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+365+defender%22&locale=en-us
 ```
-## <a name="june-2021"></a>Junho de 2021
-- Marcas de ameaça [Microsoft 365 Defender relatório de análise de ameaças](threat-analytics.md) <br> As marcas de ameaça ajudam você a se concentrar em categorias de ameaça específicas e revisar os relatórios mais relevantes. 
+
+## <a name="july-2021"></a>Julho de 2021
+- [Professional de serviços](https://sip.security.microsoft.com/interoperability/professional_services)<br>Aprimora os recursos de detecção, investigação e inteligência contra ameaças da plataforma com conexões de parceiros com suporte.
+    
 
 ## <a name="may-2021"></a>Maio de 2021
 

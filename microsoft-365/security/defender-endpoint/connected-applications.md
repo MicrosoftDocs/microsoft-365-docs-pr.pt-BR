@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 06ef716e9deee7b20e8615bd22c93130ee18b77f
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 4b212acdf4bdf8fa53ef00763463190e204fc1ed
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845577"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339161"
 ---
 # <a name="connected-applications-in-microsoft-defender-for-endpoint"></a>Aplicativos conectados no Microsoft Defender para Ponto de Extremidade
 
@@ -42,7 +42,7 @@ Os aplicativos usam o protocolo OAuth 2.0 padrão para autenticar e fornecer tok
 Você precisará seguir estas etapas [para](/microsoft-365/security/defender-endpoint/apis-intro) usar as APIs com o aplicativo conectado.
  
 ## <a name="access-the-connected-application-page"></a>Acessar a página de aplicativo conectado
-No menu de navegação esquerdo, selecione **Parceiros & APIs**  >  **aplicativos AAD conectados.**
+No menu de navegação à esquerda, selecione **Parceiros de Pontos de Extremidade** e  >  **APIs**  >  **Aplicativos Conectados.**
 
  
 ## <a name="view-connected-application-details"></a>Exibir detalhes do aplicativo conectado

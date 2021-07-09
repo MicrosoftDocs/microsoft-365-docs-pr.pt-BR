@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Crie políticas de alerta no Centro de conformidade do Microsoft 365 para monitorar possíveis ameaças, perda de dados e problemas de permissões.
-ms.openlocfilehash: a6f9b7dec1a147b9cd9b00b5516c77aea79437e9
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 4ae85f69eea5221945c531b2b63000be7eb43fb7
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054691"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341063"
 ---
 # <a name="alert-policies-in-the-microsoft-365-compliance-center"></a>Políticas de alerta no Centro de conformidade do Microsoft 365
 
@@ -83,7 +83,7 @@ Uma política de alerta consiste nas seguintes configurações e condições.
 
 - **Categoria de alerta**. Para ajudar a controlar e gerenciar os alertas gerados por uma política, você pode atribuir uma das seguintes categorias a uma política.
 
-  - Prevenção contra perda de dados
+  - Prevenção contra a perda de dados
 
   - Governança de informações
 
@@ -115,10 +115,10 @@ A tabela também indica o plano Office 365 Enterprise e Office 365 us government
 | Política de alerta padrão | Descrição | Categoria | Enterprise assinatura |
 |:-----|:-----|:-----|:-----|
 |**Um clique de URL potencialmente mal-intencionado foi detectado**|Gera um alerta quando um [](../security/office-365-security/safe-links.md) usuário protegido por links Cofre em sua organização clica em um link mal-intencionado. Esse evento é acionado quando as alterações de veredito de URL são identificadas pelo Microsoft Defender para Office 365 ou quando os usuários substituem as páginas de Links do Cofre (com base na política de links de Microsoft 365 Cofre para empresas). Esta política de alerta tem uma **configuração de** alta gravidade. Para clientes do Defender Office 365 P2, E5, G5, esse alerta dispara automaticamente a investigação e a resposta automatizadas [no Office 365](../security/office-365-security/office-365-air.md). Para obter mais informações sobre eventos que disparam esse alerta, consulte [Set up Cofre Links policies](../security/office-365-security/set-up-safe-links-policies.md).|Gerenciamento de ameaças|E5/G5 ou Defender para Office 365 assinatura de complemento P2|
-|**Resultado do Envio de Administrador concluído**|Gera um alerta quando um [Envio de Administrador](../security/office-365-security/admin-submission.md) conclui a varredura da entidade enviada. Um alerta será disparado sempre que um resultado de nova varredura for renderizado de um Envio de Administrador. Esses alertas devem lembrá-lo de revisar os resultados de [envios](https://protection.office.com/reportsubmission)anteriores, enviar mensagens relatadas pelo usuário para obter a verificação de política mais recente e analisar novamente os vereditos e ajudá-lo a determinar se as políticas de filtragem em sua organização estão tendo o impacto pretendido. Esta política tem uma **configuração de** severidade informacional.|Gerenciamento de ameaças|E1/F1, E3/F3 ou E5|
+|**Resultado do Envio de Administrador concluído**|Gera um alerta quando um [Envio de Administrador](../security/office-365-security/admin-submission.md) conclui a varredura da entidade enviada. Um alerta será disparado sempre que um resultado de nova varredura for renderizado de um Envio de Administrador. Esses alertas devem lembrá-lo de revisar os resultados de [envios](https://compliance.microsoft.com/reportsubmission)anteriores, enviar mensagens relatadas pelo usuário para obter a verificação de política mais recente e analisar novamente os vereditos e ajudá-lo a determinar se as políticas de filtragem em sua organização estão tendo o impacto pretendido. Esta política tem uma **configuração de** severidade informacional.|Gerenciamento de ameaças|E1/F1, E3/F3 ou E5|
 |**O administrador acionou a investigação manual de email**|Gera um alerta quando um administrador dispara a investigação manual de um email do Explorador de Ameaças. Para obter mais informações, consulte [Example: A security administrator triggers an investigation from Threat Explorer](../security/office-365-security/automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer). Esse alerta notifica sua organização de que a investigação foi iniciada. O alerta fornece informações sobre quem disparou e inclui um link para a investigação. Esta política tem uma **configuração de** severidade informacional.|Gerenciamento de ameaças| E5/G5 ou Microsoft Defender para Office 365 assinatura de complemento P2| 
 |**Criação de regra de encaminhamento/redirecionamento**|Gera um alerta quando alguém em sua organização cria uma regra de caixa de entrada para sua caixa de correio que encaminha ou redireciona mensagens para outra conta de email. Essa política só rastreia regras de caixa de entrada criadas usando Outlook na Web (anteriormente conhecido como Outlook Web App) ou Exchange Online PowerShell. Esta política tem uma **configuração de** severidade informacional. Para obter mais informações sobre como usar regras de caixa de entrada para encaminhar e redirecionar emails no Outlook na Web, consulte [Use rules in Outlook na Web to automatically](https://support.office.com/article/1433e3a0-7fb0-4999-b536-50e05cb67fed)forward messages to another account .|Gerenciamento de ameaças|E1/F1/G1, E3/F3/G3 ou E5/G5|
-|**Pesquisa de Descoberta Desdiscovery iniciada ou exportada**|Gera um alerta quando alguém usa a ferramenta de pesquisa de conteúdo no centro de segurança e conformidade. Um alerta é acionado quando as seguintes atividades de pesquisa de conteúdo são executadas: <br/><br/>* Uma pesquisa de conteúdo é iniciada<br/>* Os resultados de uma pesquisa de conteúdo são exportados<br/>* Um relatório de pesquisa de conteúdo é exportado<br/><br/>Os alertas também são acionados quando as atividades de pesquisa de conteúdo anteriores são executadas em associação com um caso de Descoberta E. Esta política tem uma **configuração de** severidade informacional. Para obter mais informações sobre atividades de pesquisa de conteúdo, consulte [Search for eDiscovery activities in the audit log](search-for-ediscovery-activities-in-the-audit-log.md#ediscovery-activities).|Gerenciamento de ameaças|E1/F1/G1, E3/F3/G3 ou E5/G5|
+|**Pesquisa de Descoberta eletrônica iniciada ou exportada**|Gera um alerta quando alguém usa a ferramenta de pesquisa de conteúdo no centro de segurança e conformidade. Um alerta é acionado quando as seguintes atividades de pesquisa de conteúdo são executadas: <br/><br/>* Uma pesquisa de conteúdo é iniciada<br/>* Os resultados de uma pesquisa de conteúdo são exportados<br/>* Um relatório de pesquisa de conteúdo é exportado<br/><br/>Os alertas também são acionados quando as atividades de pesquisa de conteúdo anteriores são executadas em associação com um caso de Descoberta E. Esta política tem uma **configuração de** severidade informacional. Para obter mais informações sobre atividades de pesquisa de conteúdo, consulte [Search for eDiscovery activities in the audit log](search-for-ediscovery-activities-in-the-audit-log.md#ediscovery-activities).|Gerenciamento de ameaças|E1/F1/G1, E3/F3/G3 ou E5/G5|
 |**Elevação do Exchange de administrador**|Gera um alerta quando alguém recebe permissões administrativas em sua Exchange Online organização. Por exemplo, quando um usuário é adicionado ao grupo de função Gerenciamento da Organização no Exchange Online. Esta política tem uma **configuração De** baixa gravidade.|Permissões|E1/F1/G1, E3/F3/G3 ou E5/G5|
 |**Mensagens de email contendo malware removido após a entrega**|Gera um alerta quando todas as mensagens que contêm malware são entregues às caixas de correio em sua organização. Se esse evento ocorrer, a Microsoft removerá as mensagens infectados de Exchange Online caixas de correio usando limpeza automática [zero hora](../security/office-365-security/zero-hour-auto-purge.md). Esta política tem uma **configuração de severidade** informacional e dispara [automaticamente investigação e](../security/office-365-security/office-365-air.md)resposta automatizadas em Office 365 .|Gerenciamento de ameaças|E5/G5 ou Microsoft Defender para Office 365 assinatura de complemento P2|
 |**Mensagens de email contendo URLs de phishing removidas após a entrega**|Gera um alerta quando todas as mensagens que contêm phishing são entregues às caixas de correio em sua organização. Se esse evento ocorrer, a Microsoft removerá as mensagens infectados de Exchange Online caixas de correio usando limpeza automática [zero hora](../security/office-365-security/zero-hour-auto-purge.md). Esta política tem uma **configuração de severidade** informacional e dispara [automaticamente investigação e](../security/office-365-security/office-365-air.md)resposta automatizadas em Office 365 .|Gerenciamento de ameaças|E5/G5 ou Defender para Office 365 assinatura de complemento P2|
@@ -224,7 +224,7 @@ A tabela a seguir lista as funções necessárias para exibir alertas das seis c
 
 Para ver a qual categoria uma política de alerta padrão é atribuída, consulte a tabela em [Políticas de alerta padrão](#default-alert-policies).
 
-|Função|Governança de informações|Prevenção contra perda de dados|Fluxo de mensagens|Permissões|Gerenciamento de ameaças|Outros|
+|Role|Governança de informações|Prevenção contra a perda de dados|Fluxo de mensagens|Permissões|Gerenciamento de ameaças|Outros|
 |:---------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 |Logs de auditoria|||||||
 |Gerenciamento de Casos|||||||
@@ -240,7 +240,7 @@ Para ver a qual categoria uma política de alerta padrão é atribuída, consult
 |Visualização|||||||
 |Gerenciamento de Registros|![Marca de seleção](../media/checkmark.png)||||||
 |Gerenciamento de retenção|![Marca de seleção](../media/checkmark.png)||||||
-|Revisão|||||||
+|Analisar|||||||
 |RMS Decrypt|||||||
 |Gerenciamento de Função||||![Marca de seleção](../media/checkmark.png)|||
 |Pesquisar e limpar|||||||

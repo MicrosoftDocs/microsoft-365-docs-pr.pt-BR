@@ -17,14 +17,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/16/2020
 ms.technology: mde
-ms.openlocfilehash: d09967a18848365702f52f65a7f0624d2b2ae3d6
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 555f96dc1f45fb6a406b5993d0b8e4a3745c283b
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843205"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339629"
 ---
-# <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>Integrar dispositivos não persistentes de VDI (virtual desktop infrastructure)
+# <a name="onboard-the-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>Integrando os dispositivos VDI (infraestrutura de área de trabalho virtual não persistente)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -63,9 +63,9 @@ As etapas a seguir orientarão você através da integração de dispositivos VD
 
 ### <a name="for-windows-10-or-windows-server-2019"></a>Para Windows 10 ou Windows Server 2019
 
-1.  Abra o arquivo de pacote de configuração .zip *VDI*(WindowsDefenderATPOnboardingPackage.zip) que você baixou do assistente de integração do serviço. Você também pode obter o pacote de [Central de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
+1.  Abra o arquivo de pacote de configuração .zip *VDI*(WindowsDefenderATPOnboardingPackage.zip) que você baixou do assistente de integração do serviço. Você também pode obter o pacote do [Microsoft 365 Defender portal](https://security.microsoft.com/):
 
-    1.  No painel de navegação, selecione **Configurações**  >  **Integração**.
+    1. No painel de navegação, **selecione** Configurações  >  **Endpoints Gerenciamento** de  >    >  **dispositivos Integrando**.
 
     1. Selecione Windows 10 como o sistema operacional.
 
@@ -111,11 +111,11 @@ As etapas a seguir orientarão você através da integração de dispositivos VD
    
       - Para entrada única para cada dispositivo: 
     
-        Verifique apenas uma entrada no Central de Segurança do Microsoft Defender.
+        Verifique apenas uma entrada no Microsoft 365 Defender portal.
 
       - Para várias entradas para cada dispositivo: 
        
-        Verifique várias entradas no Central de Segurança do Microsoft Defender.
+        Verifique várias entradas no Microsoft 365 Defender portal.
 
 6. Clique **na lista Dispositivos** no painel De navegação.
 

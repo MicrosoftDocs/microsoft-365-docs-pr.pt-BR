@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3272ef182c4b08142490e8a1ac21c208023c50f5
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 6d4845163996dcc00ccfcc6c87eb27aff87268fc
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228718"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339173"
 ---
 # <a name="contact-microsoft-defender-for-endpoint-support"></a>Entre em contato com suporte do Microsoft Defender para Ponto de Extremidade
 
@@ -58,9 +58,9 @@ Acessar o novo widget de suporte pode ser feito de duas maneiras:
 
     ![Imagem do widget quando o ponto de interrogação está selecionado](images/support-widget.png)
 
-2. Clicando na necessidade **de ajuda?**  botão na parte inferior direita do Central de Segurança do Microsoft Defender:
+2. Clicando na necessidade **de ajuda?**  botão na parte inferior direita do portal Microsoft 365 Defender portal:
 
-    ![Imagem do botão de ajuda de necessidade](images/need-help.png)
+    ![Imagem do botão de ajuda de necessidade](images/need-help-option.png)
 
 No widget, você receberá duas opções:
 
@@ -70,7 +70,7 @@ No widget, você receberá duas opções:
 ## <a name="find-solutions-to-common-problems"></a>Encontrar soluções para problemas comuns
 Essa opção inclui artigos que podem estar relacionados à pergunta que você pode fazer. Basta começar a digitar a pergunta na caixa de pesquisa e os artigos relacionados à sua pesquisa serão publicados.
 
-![Imagem do widget de ajuda de necessidade](images/Support3.png)
+![Imagem do widget de ajuda de necessidade](images/information-on-help-screen.png)
 
 Caso os artigos sugeridos não sejam suficientes, você pode abrir uma solicitação de serviço.
 
@@ -85,7 +85,7 @@ Saiba como abrir tíquetes de suporte contatando o suporte do Defender para Pont
 
 Essa opção está disponível clicando no ícone que se parece com um fone de ouvido. Em seguida, você receberá a seguinte página para enviar seu caso de suporte:
 
-![Imagem do widget abrir uma solicitação de serviço](images/Support4.png)
+![Imagem do widget abrir uma solicitação de serviço](images/contact-support-screen.png)
 
 1. Preencha um título e uma descrição para o problema que você está enfrentando, bem como um número de telefone e um endereço de email onde podemos entrar em contato com você.
 

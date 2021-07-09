@@ -1,7 +1,7 @@
 ---
-title: Fila de alertas em Central de Segurança do Microsoft Defender
+title: Fila de alertas em Microsoft 365 Defender
 ms.reviewer: ''
-description: Exibir e gerenciar os alertas que surgiram em Central de Segurança do Microsoft Defender
+description: Exibir e gerenciar os alertas que surgiram Microsoft 365 Defender
 keywords: ''
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 09/03/2018
 ms.technology: mde
-ms.openlocfilehash: d40fc887f26dfe62e05f7ee6ac7bbbb8ac45a402
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ed65c836e74d5394d3b291ca3ebb5e781e37afa8
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054195"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339557"
 ---
-# <a name="alerts-queue-in-microsoft-defender-security-center"></a>Fila de alertas em Central de Segurança do Microsoft Defender
+# <a name="alerts-queue-in-microsoft-365-defender"></a>Fila de alertas em Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

@@ -23,12 +23,12 @@ ms.collection:
 - Ent_O365
 - SPO_Content
 description: Saiba como verificar o histórico das conexões do computador cliente para ajudá-lo a detectar problemas emergentes mais cedo.
-ms.openlocfilehash: 87b1d43df560fc7fea5aadfbf1c422eb22883067
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 314b1acea5935bfd6d93d1da3789657e21cd2d57
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928139"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339365"
 ---
 # <a name="office-365-performance-tuning-using-baselines-and-performance-history"></a>Ajuste de desempenho do Office 365 usando linhas de base e histórico de desempenho
 
@@ -54,7 +54,7 @@ A solução de problemas de desempenho não se trata de cumprir metas específic
 
 Primeiro, você precisa certificar-se de que o que você está enfrentando é realmente um problema de desempenho e não um incidente de serviço. Um problema de desempenho é diferente de um incidente de serviço Office 365. Veja como diferencia-los.
   
-Se o Office 365 serviço estiver com problemas, será um incidente de serviço. Você verá ícones vermelhos  ou amarelos em Saúde atual no centro de administração Microsoft 365, você também pode notar um desempenho lento em computadores cliente que se conectam a Office 365. Por exemplo, se a saúde atual  relata um ícone vermelho e você vê Investigando ao lado do Exchange, você também pode receber um monte de chamadas de pessoas em sua organização que reclamam que as caixas de correio do cliente que usam Exchange Online estão com um desempenho ruim. Nesse caso, é razoável supor que seu desempenho Exchange Online acabou de se tornar uma vítima de problemas dentro do Serviço. 
+Se o Office 365 serviço estiver com problemas, será um incidente de serviço. Você verá ícones vermelhos  ou amarelos em Saúde atual no Centro de administração do Microsoft 365, você também pode notar um desempenho lento em computadores cliente que se conectam a Office 365. Por exemplo, se a saúde atual  relata um ícone vermelho e você vê Investigando ao lado do Exchange, você também pode receber um monte de chamadas de pessoas em sua organização que reclamam que as caixas de correio do cliente que usam Exchange Online estão com um desempenho ruim. Nesse caso, é razoável supor que seu desempenho Exchange Online acabou de se tornar uma vítima de problemas dentro do Serviço. 
   
 ![O Office 365 health com todas as cargas de trabalho mostrando verde, exceto Exchange, que mostra Service Restored.](../media/ec7f0325-9e61-4e1a-bec0-64b87f4469be.PNG)
   
@@ -251,7 +251,7 @@ Você precisa usar [PSPing](/sysinternals/downloads/psping) ou outra ferramenta 
     
 2. Navegue até a pasta onde a ferramenta (neste caso, PsPing) está instalada e teste essas URLs Office 365:
     
-  - psping portal.office.com:443
+  - psping admin.microsoft.com:443
     
   - psping microsoft-my.sharepoint.com:443
     

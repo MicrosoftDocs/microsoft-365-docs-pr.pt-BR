@@ -1,6 +1,6 @@
 ---
 title: Integrar dispositivo Windows 10 usando as ferramentas de Gerenciamento de Dispositivo Móvel
-description: Use ferramentas de Gerenciamento de Dispositivo Móvel para implantar o pacote de configuração em dispositivos para que eles sejam integrados ao serviço.
+description: Use as ferramentas de Gerenciamento de Dispositivo Móvel para implantar o pacote de configuração em dispositivos para que os dispositivos sejam integrados ao serviço.
 keywords: onboard devices using mdm, device management, onboard Microsoft Defender for Endpoint devices, mdm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 45aa406212fe39f088f58bf311b1aed3fed16498
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: f0a0a35d41d56abfcc7975c9e79ff7d537b72f40
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843429"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53338572"
 ---
-# <a name="onboard-windows-10-devices-using-mobile-device-management-tools"></a>Integrar dispositivo Windows 10 usando as ferramentas de Gerenciamento de Dispositivo Móvel
+# <a name="onboard-the-windows-10-devices-using-mobile-device-management-tools"></a>Integrando os Windows 10 usando ferramentas de Gerenciamento de Dispositivo Móvel
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -70,9 +70,9 @@ Por motivos de segurança, o pacote usado para dispositivos offboard expirará 3
 > [!NOTE]
 > As políticas de integração e de offboard não devem ser implantadas no mesmo dispositivo ao mesmo tempo, caso contrário, isso causará colisões imprevisíveis.
 
-1. Obter o pacote de offboard de [Central de Segurança do Microsoft Defender](https://securitycenter.windows.com/):
+1. Obter o pacote de offboard do [Microsoft 365 Defender portal](https://security.microsoft.com/):
 
-   1. No painel de navegação, selecione **Configurações**  >  **Offboarding**.
+   1. No painel de navegação, selecione **Configurações**  >  **Endpoints**  >  **Gerenciamento de**  >  **dispositivos Offboarding**.
 
    1. Selecione Windows 10 como o sistema operacional.
 

@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
 description: Altere seu endereço de email para um endereço de email amigável como tom@fourthcoffee.com comprando um nome de domínio e adicionando-o a Microsoft 365.
-ms.openlocfilehash: 1a248cb67bab5d0467cad35dc5be8023b8013a12
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 7fb113c0efd6462c4c703956a20c390f2d555d5f
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635517"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341455"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>Mudar seu endereço de email para usar seu domínio personalizado
 
@@ -56,35 +56,37 @@ Seu endereço de email inicial no Office 365 operado pela 21Vianet inclui partne
 
 Quando você alterar o email do seu domínio para chegar ao Microsoft 365, atualizando o registro MX do seu domínio durante a instalação, TODOS os emails enviados para esse domínio começarão a Microsoft 365. Certifique-se de ter adicionado usuários e criado caixas de correio no Microsoft 365 para todos que têm email em seu domínio ANTES de alterar o registro MX. Não deseja mover emails para todos em seu domínio para Microsoft 365? Você pode tomar medidas para [Microsoft 365 com apenas alguns endereços de email.](../misc/pilot-microsoft-365-from-my-custom-domain.md)
   
-## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a>Altere seu endereço de email para usar seu domínio personalizado usando o Microsoft 365 de administração
+## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a>Altere seu endereço de email para usar seu domínio personalizado usando o Centro de administração do Microsoft 365
 
-Você deve ter uma conta de administrador global para executar essas etapas. 
+Você deve ser um administrador global para executar essas etapas.
 
 ::: moniker range="o365-worldwide"
 
-1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. 
+1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
 
 ::: moniker-end
-   
+
 ::: moniker range="o365-germany"
-    
-1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>. 
-    
+
+1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Vá para o <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank"> https://portal.partner.microsoftonline.cn </a>centro de administração em . 
+1. Vá para o <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank"> https://portal.partner.microsoftonline.cn </a>centro de administração em .
 
-::: moniker-end 
+::: moniker-end
 
-2. Vá para a **página**  >  **Domínios de** Instalação. 
+2. Vá para a **página**  >  **Domínios de** Instalação.
 
 3. Na página **Domínios**, selecione **Adicionar domínio**.
-    
-4. Siga as etapas para confirmar que você é proprietário do domínio e alterar seu endereço de email.
-    
-Você será orientado a configurar tudo corretamente com seu domínio Microsoft 365.
+
+4. Siga as etapas para confirmar se você é o seu domínio. Você será orientado a configurar tudo corretamente com seu domínio Microsoft 365.
+
+5. Vá para **Usuários**  >  **Usuários ativos**.
+
+6. Selecione um usuário para editar seu nome de usuário e alterá-lo para o domínio que você acabou de adicionar.
 
 > [!NOTE]
 > Se você não estiver usando uma licença Exchange, não poderá usar o domínio para enviar ou receber emails do Microsoft 365 locatário.

@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 72bbad69-035b-4d33-b8f4-549a2743e97d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Adicionar e gerenciar alertas de atividade no Centro de Conformidade & segurança para que o Microsoft 365 envie notificações por email quando os usuários executarem atividades específicas
-ms.openlocfilehash: d0daa9249a8ea69c376ef7bbc8b7a90253e411db
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: b48093de66fdefa9a298b6cdc0f0324ee720fbbf
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227158"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341599"
 ---
 # <a name="create-activity-alerts"></a>Criar alertas de atividade
 
@@ -46,7 +46,7 @@ Você pode criar um alerta de atividade que enviará uma notificação de email 
 
 ## <a name="create-an-activity-alert"></a>Criar um alerta de atividade
 
-1. Acesse [https://protection.office.com/managealerts](https://protection.office.com/managealerts).
+1. Vá para <https://compliance.microsoft.com/managealerts>.
 
 2. Entre usando sua conta de trabalho ou da escola.
 
@@ -85,7 +85,7 @@ Você pode criar um alerta de atividade que enviará uma notificação de email 
 
 Você pode desativar um alerta de atividade para que uma notificação de email não seja enviada. Depois de desativar o alerta de atividade, ele ainda será exibido na lista de alertas de atividade para sua organização e você ainda poderá exibir suas propriedades.
 
-1. Vá para Ir para [https://protection.office.com/managealerts](https://protection.office.com/managealerts) .
+1. Vá para <https://compliance.microsoft.com/managealerts>.
 
 2. Entre usando sua conta de trabalho ou da escola.
 

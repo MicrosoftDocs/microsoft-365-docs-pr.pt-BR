@@ -20,46 +20,50 @@ search.appverid:
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 ms.custom: seo-marvel-apr2020
 description: Como ativar ou desativar o recurso de pesquisa de log de auditoria no Centro de conformidade do Microsoft 365 para habilitar ou desabilitar a capacidade dos administradores de pesquisar o log de auditoria.
-ms.openlocfilehash: 7c55443eda9a99ff4ef153d8564fd9ac43fcc549
-ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
+ms.openlocfilehash: dd39b883036ce6060aef71c6a927c03f391d827f
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105303"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341491"
 ---
 # <a name="turn-auditing-on-or-off"></a>Ativar ou desativar a auditoria
 
-O log de Auditoria é ativado por padrão para organizações empresariais Microsoft 365 e Office 365. Isto inclui organizações com assinaturas E3/G3 ou E5/G5. Quando a auditoria no centro de conformidade é ativeda, a atividade do usuário e do administrador da sua organização é registrada no log de auditoria e mantida por 90 dias e até um ano, dependendo da licença atribuída aos usuários. No entanto, sua organização pode ter motivos para não querer registrar e reter dados de log de auditoria. Nesses casos, um administrador global pode decidir desativar a auditoria no Microsoft 365.
+O log de Auditoria é ativado por padrão para organizações empresariais Microsoft 365 e Office 365. Quando a auditoria no Centro de conformidade do Microsoft 365 é ativeda, a atividade de usuário e administrador da sua organização é registrada no log de auditoria e mantida por 90 dias e até um ano, dependendo da licença atribuída aos usuários. No entanto, sua organização pode ter motivos para não querer registrar e reter dados de log de auditoria. Nesses casos, um administrador global pode decidir desativar a auditoria no Microsoft 365.
+
+Ao configurar uma nova Microsoft 365 ou Office 365, você pode verificar o status de auditoria para sua organização. Para obter instruções, consulte [a seção Verificar o status de auditoria para sua](#verify-the-auditing-status-for-your-organization) organização neste artigo.
 
 > [!IMPORTANT]
-> Se você desativar a auditoria no Microsoft 365, não poderá usar a API de Atividade de Gerenciamento Office 365 ou o Azure Sentinel para acessar dados de auditoria para sua organização. Desligar a auditoria seguindo as etapas deste artigo significa que nenhum resultado será retornado quando você pesquisar o log de auditoria usando o Centro de Conformidade do & de Segurança ou quando você executar o cmdlet **Search-UnifiedAuditLog** no Exchange Online PowerShell. Isso também significa que os logs de auditoria não estarão disponíveis por meio da API de Atividade de Gerenciamento Office 365 ou do Azure Sentinel.
+> Se você desativar a auditoria no Microsoft 365, não poderá usar a API de Atividade de Gerenciamento Office 365 ou o Azure Sentinel para acessar dados de auditoria para sua organização. Desligar a auditoria seguindo as etapas deste artigo significa que nenhum resultado será retornado quando você pesquisar o log de auditoria usando o Centro de conformidade do Microsoft 365 ou quando você executar o cmdlet **Search-UnifiedAuditLog** no Exchange Online PowerShell. Isso também significa que os logs de auditoria não estarão disponíveis por meio da API de Atividade de Gerenciamento Office 365 ou do Azure Sentinel.
   
 ## <a name="before-you-turn-auditing-on-or-off"></a>Antes de ativar ou desativar a auditoria
 
-- Você precisa ter a função Logs de Auditoria Exchange Online ativar ou desativar a auditoria em sua Microsoft 365. Por padrão, essa função é atribuída aos grupos de  função Gerenciamento de Conformidade e Gerenciamento de Organização na página Permissões no Exchange de administração. Os administradores globais no Microsoft 365 são membros do grupo de função Gerenciamento da Organização no Exchange Online. 
+- Você precisa ter a função Logs de Auditoria Exchange Online ativar ou desativar a auditoria em sua Microsoft 365. Por padrão, essa função é atribuída aos grupos de  função Gerenciamento de Conformidade e Gerenciamento de Organização na página Permissões no Exchange de administração. Os administradores globais no Microsoft 365 são membros do grupo de função Gerenciamento da Organização no Exchange Online.
 
     > [!NOTE]
-    > Os usuários devem ter permissões atribuídas Exchange Online ativar ou desativar a auditoria. Se você atribuir aos usuários  a função Logs de Auditoria na página Permissões no Centro de Conformidade & Segurança, eles não poderão ativar ou desativar a auditoria. Isso porque o cmdlet subjacente é um cmdlet Exchange Online PowerShell.
+    > Os usuários devem ter permissões atribuídas Exchange Online ativar ou desativar a auditoria. Se você atribuir aos usuários  a função Logs de Auditoria na página Permissões no Centro de conformidade do Microsoft 365, eles não poderão ativar ou desativar a auditoria. Isso porque o cmdlet subjacente é um cmdlet Exchange Online PowerShell.
 
-- Para obter instruções passo a passo sobre como pesquisar o log de auditoria, consulte Pesquisar o log de auditoria no Centro de Conformidade & [Segurança.](search-the-audit-log-in-security-and-compliance.md) Para obter mais informações sobre a API Microsoft 365 Atividade de Gerenciamento, consulte [Get started with Microsoft 365 Management APIs](/office/office-365-management-api/get-started-with-office-365-management-apis).
+- Para obter instruções passo a passo sobre como pesquisar o log de auditoria, consulte [Pesquisar o log de auditoria](search-the-audit-log-in-security-and-compliance.md). Para obter mais informações sobre a API Microsoft 365 Atividade de Gerenciamento, consulte [Get started with Microsoft 365 Management APIs](/office/office-365-management-api/get-started-with-office-365-management-apis).
 
-- Para verificar se a auditoria está 100%, você pode executar o seguinte comando Exchange Online PowerShell:
+## <a name="verify-the-auditing-status-for-your-organization"></a>Verificar o status de auditoria para sua organização
 
-    ```powershell
-    Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
-    ```
+Para verificar se a auditoria está 100%, você pode executar o seguinte comando no [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell):
 
-    O valor da  `True` propriedade  _UnifiedAuditLogIngestionEnabled_ indica que a auditoria está ativa. 
+```powershell
+Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
+```
+
+Um valor de `True` para a  _propriedade UnifiedAuditLogIngestionEnabled_ indica que a auditoria está ativa. Um valor de `False` indica que a auditoria não está ativas.
 
 ## <a name="turn-on-auditing"></a>Ativar a auditoria
 
-Se a auditoria não estiver Exchange Online PowerShell. Pode levar várias horas após ativar a auditoria antes de poder retornar resultados ao pesquisar o log de auditoria.
+Se a auditoria não estiver Centro de conformidade do Microsoft 365 sua organização, você poderá a Exchange Online. Pode levar várias horas após ativar a auditoria antes de poder retornar resultados ao pesquisar o log de auditoria.
   
 ### <a name="use-the-compliance-center-to-turn-on-auditing"></a>Usar o centro de conformidade para ativar a auditoria
 
 1. Acesse <https://compliance.microsoft.com> e entre.
 
-2. No painel de navegação esquerdo do Centro de conformidade do Microsoft 365, clique em **Mostrar tudo** e clique em **Auditoria**.
+2. No painel de navegação esquerdo do Centro de conformidade do Microsoft 365, clique em **Auditoria**.
 
    Se a auditoria não estiver 100% 100%, um banner será exibido solicitando que você inicie a gravação da atividade de usuário e administrador.
 
@@ -71,9 +75,9 @@ Se a auditoria não estiver Exchange Online PowerShell. Pode levar várias horas
 
 ### <a name="use-powershell-to-turn-on-auditing"></a>Usar o PowerShell para ativar a auditoria
 
-1. [Conectar-se ao PowerShell do Exchange Online ](/powershell/exchange/connect-to-exchange-online-powershell)
+1. [Conectar-se ao Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
-2. Execute o seguinte comando do PowerShell para ativar a auditoria no Office 365.
+2. Execute o seguinte comando do PowerShell para ativar a auditoria.
 
     ```powershell
     Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true
@@ -85,7 +89,7 @@ Se a auditoria não estiver Exchange Online PowerShell. Pode levar várias horas
 
 Você precisa usar o Exchange Online PowerShell para desativar a auditoria.
   
-1. [Conectar-se ao PowerShell do Exchange Online ](/powershell/exchange/connect-to-exchange-online-powershell)
+1. [Conectar-se ao Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Execute o seguinte comando do PowerShell para desativar a auditoria.
 

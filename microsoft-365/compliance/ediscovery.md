@@ -11,7 +11,7 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.collection:
 - m365-security-compliance
-- m365solution-aed
+- m365solution-ediscovery
 - m365initiative-compliance
 - m365solution-overview
 localization_priority: Normal
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 oferece três ferramentas de Descoberta Eletrônico que você pode usar para pesquisar e exportar conteúdo encontrado em locais diferentes, como caixas de correio do Exchange, sites SharePoint e OneDrive for Business, grupos Microsoft 365, Microsoft Teams e conversas Skype for Business. A Descoberta Básica e Advanced eDiscovery fornecem muitos recursos adicionais para ajudá-lo a gerenciar suas investigações.
-ms.openlocfilehash: dc332e1a399588e4a1e969af45da6cff92008461
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: a62c8a53081a79e4afd98c82bfaca486a6155a6b
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256335"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341707"
 ---
 # <a name="ediscovery-solutions-in-microsoft-365"></a>Soluções de Descoberta Microsoft 365
 
@@ -47,7 +47,7 @@ Microsoft 365 fornece três soluções de Descoberta Advanced eDiscovery: Pesqui
 
 A tabela a seguir compara os principais recursos disponíveis na pesquisa de conteúdo, descoberta principal e Advanced eDiscovery.
 
-|Recursos|Pesquisa de conteúdo|Descoberta Eletrônica Central|Descoberta Eletrônica Avançada|
+|Funcionalidade|Pesquisa de conteúdo|Descoberta Eletrônica Central|Descoberta Eletrônica Avançada|
 |:------|:-------------|:-------------|:-------------|
 |Pesquisar conteúdo|![Com suporte](../media/check-mark.png)|![Com suporte](../media/check-mark.png)|![Com suporte](../media/check-mark.png)|
 |Consultas de palavra-chave e condições da pesquisa|![Com suporte](../media/check-mark.png)|![Com suporte](../media/check-mark.png)|![Com suporte](../media/check-mark.png)|
@@ -56,22 +56,22 @@ A tabela a seguir compara os principais recursos disponíveis na pesquisa de con
 |Permissões baseadas em função|![Com suporte](../media/check-mark.png)|![Com suporte](../media/check-mark.png)|![Com suporte](../media/check-mark.png)|
 |Gerenciamento de casos||![Com suporte](../media/check-mark.png)|![Com suporte](../media/check-mark.png)|
 |Colocar locais de conteúdo em espera legal||![Com suporte](../media/check-mark.png)|![Com suporte](../media/check-mark.png)|
-|Gerenciamento de custodia|||![Com suporte](../media/check-mark.png)|
-|Notificações de espera legal|||![Com suporte](../media/check-mark.png)|
-|Indexação avançada|||![Com suporte](../media/check-mark.png)|
-|Correção de erro|||![Com suporte](../media/check-mark.png)|
-|Conjuntos de revisão|||![Com suporte](../media/check-mark.png)|
-|Suporte para anexos de nuvem e SharePoint versões|||![Com suporte](../media/check-mark.png)|
-|Reconhecimento óptico de caracteres|||![Com suporte](../media/check-mark.png)|
-|Threads de conversa|||![Com suporte](../media/check-mark.png)|
-|Estatísticas e relatórios de coleta|||![Com suporte](../media/check-mark.png)|
-|Revisar filtragem de conjunto|||![Com suporte](../media/check-mark.png)|
-|Marcação|||![Com suporte](../media/check-mark.png)|
-|Análise|||![Com suporte](../media/check-mark.png)|
-|Modelos de codificação preditiva|||![Com suporte](../media/check-mark.png)|
-|Metadados de documentos calculados|||![Com suporte](../media/check-mark.png)|
-|Transparência de trabalhos de longa duração|||![Com suporte](../media/check-mark.png)|
-|Exportar para o local de Armazenamento do Azure de propriedade do cliente|||![Com suporte](../media/check-mark.png)|
+|Gerenciamento de custodia|||![Compatível](../media/check-mark.png)|
+|Notificações de espera legal|||![Compatível](../media/check-mark.png)|
+|Indexação avançada|||![Compatível](../media/check-mark.png)|
+|Correção de erro|||![Compatível](../media/check-mark.png)|
+|Conjuntos de revisão|||![Compatível](../media/check-mark.png)|
+|Suporte para anexos de nuvem e SharePoint versões|||![Compatível](../media/check-mark.png)|
+|Reconhecimento óptico de caracteres|||![Compatível](../media/check-mark.png)|
+|Threads de conversa|||![Compatível](../media/check-mark.png)|
+|Estatísticas e relatórios de coleta|||![Compatível](../media/check-mark.png)|
+|Revisar filtragem de conjunto|||![Compatível](../media/check-mark.png)|
+|Marcação|||![Compatível](../media/check-mark.png)|
+|Análise|||![Compatível](../media/check-mark.png)|
+|Modelos de codificação preditiva|||![Compatível](../media/check-mark.png)|
+|Metadados de documentos calculados|||![Compatível](../media/check-mark.png)|
+|Transparência de trabalhos de longa duração|||![Compatível](../media/check-mark.png)|
+|Exportar para o local de Armazenamento do Azure de propriedade do cliente|||![Compatível](../media/check-mark.png)|
 |||||
 
 Aqui está a descrição de cada recurso de Descoberta e.

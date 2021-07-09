@@ -1,6 +1,6 @@
 ---
 title: Campos da API do Microsoft Defender para Detecções de Ponto de Extremidade
-description: Entenda como os campos da API de Detecções são mapeados para os valores em Central de Segurança do Microsoft Defender
+description: Entenda como os campos da API de Detecções são mapeados para os valores em Microsoft 365 Defender
 keywords: detecções, campos de detecções, campos, api, campos, pull Detections, api de repouso, solicitação, resposta
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d6d2ad9abe88d0099b58dd2df486120082bb22c1
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f9a0d4ddeee5c1dc49c53e324854cabccc5f79e5
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933632"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339545"
 ---
 # <a name="microsoft-defender-for-endpoint-detections-api-fields"></a>Campos da API do Microsoft Defender para Detecções de Ponto de Extremidade
 
@@ -33,11 +33,11 @@ ms.locfileid: "51933632"
 
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-apiportalmapping-abovefoldlink)
 
-Entenda quais campos de dados são expostos como parte da API de detecções e como eles mapeiam para Central de Segurança do Microsoft Defender.
+Entenda quais campos de dados são expostos como parte da API de detecções e como eles mapeiam para Microsoft 365 Defender.
 
 >[!Note]
 >- [O Alerta do Defender para Ponto](alerts.md) de Extremidade é composto por uma ou mais detecções.
->- **Microsoft Defender ATP Detecção** é composta do evento suspeito ocorrido no Device e seus detalhes **de Alerta** relacionados.
+>- **A Detecção do Microsoft Defender ATP** é composta do evento suspeito ocorrido no Dispositivo e seus detalhes **de Alerta relacionados.**
 >- A API de Alerta do Microsoft Defender para Ponto de Extremidade é a API mais recente para consumo de alerta e contém uma lista detalhada de evidências relacionadas para cada alerta. Para obter mais informações, consulte [Métodos de alerta e propriedades](alerts.md) e [Alertas de lista.](get-alerts.md)
 
 ## <a name="detections-api-fields-and-portal-mapping"></a>Campos de API de detecções e mapeamento de portal

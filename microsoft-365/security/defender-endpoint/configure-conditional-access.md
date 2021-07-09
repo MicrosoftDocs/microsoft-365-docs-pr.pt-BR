@@ -1,6 +1,6 @@
 ---
 title: Configurar o Acesso Condicional no Microsoft Defender para Ponto de Extremidade
-description: Saiba mais sobre as etapas que você precisa fazer no Intune, Central de Segurança do Microsoft Defender e no Azure para implementar o acesso condicional
+description: Saiba mais sobre as etapas que você precisa fazer no Intune, Microsoft 365 Defender e no Azure para implementar o acesso condicional
 keywords: acesso condicional, condicional, acesso, risco de dispositivo, nível de risco, integração, integração do intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ceb69d59dc5208c0908e33d0880d9352562ec140
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 2c9462fa0d4be4d6ff78ba3e5db2cd4fa71fef0b
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843969"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339509"
 ---
 # <a name="configure-conditional-access-in-microsoft-defender-for-endpoint"></a>Configurar o Acesso Condicional no Microsoft Defender para Ponto de Extremidade
 
@@ -50,10 +50,10 @@ Você precisa se certificar de que todos os seus dispositivos estão inscritos n
 
 
 
-Há etapas que você precisará seguir no Central de Segurança do Microsoft Defender, no portal do Intune e no portal do Azure AD.
+Há etapas que você precisará seguir no Microsoft 365 Defender, no portal do Intune e no portal do Azure AD.
 
 É importante observar as funções necessárias para acessar esses portais e implementar o acesso condicional:
-- **Central de Segurança do Microsoft Defender** - Você precisará entrar no portal com uma função de administrador global para ativar a integração.
+- **Microsoft 365 Defender** - Você precisará entrar no portal com uma função de administrador global para ativar a integração.
 - **Intune** - Você precisará entrar no portal com direitos de administrador de segurança com permissões de gerenciamento. 
 - **Portal do Azure AD** - Você precisará entrar como administrador global, administrador de segurança ou administrador de Acesso Condicional.
 
@@ -62,7 +62,7 @@ Há etapas que você precisará seguir no Central de Segurança do Microsoft Def
 > Você precisará de um ambiente Microsoft Intune, com o Intune gerenciado e o Azure AD ingressado Windows 10 dispositivos.
 
 Tome as seguintes etapas para habilitar o Acesso Condicional:
-- Etapa 1: Ativar a conexão Microsoft Intune de Central de Segurança do Microsoft Defender
+- Etapa 1: Ativar a conexão Microsoft Intune de Microsoft 365 Defender
 - Etapa 2: Ativar a integração do Defender para Ponto de Extremidade no Intune
 - Etapa 3: Criar a política de conformidade no Intune
 - Etapa 4: Atribuir a política 
@@ -70,15 +70,15 @@ Tome as seguintes etapas para habilitar o Acesso Condicional:
 
 
 ### <a name="step-1-turn-on-the-microsoft-intune-connection"></a>Etapa 1: ativar a Microsoft Intune conexão
-1. No painel de navegação, **selecione** Configurações  >  **recursos avançados Microsoft Intune**  >  **conexão**.
+1. No painel de navegação, **selecione** Configurações Recursos Avançados Gerais dos Pontos de Extremidade  >    >    >  **Microsoft Intune**  >  **conexão**.
 2. Alterne a configuração Microsoft Intune para **On**.
 3. Clique **em Salvar preferências**.
 
 
 ### <a name="step-2-turn-on-the-defender-for-endpoint-integration-in-intune"></a>Etapa 2: Ativar a integração do Defender para Ponto de Extremidade no Intune
 1. Entre no [portal do Azure](https://portal.azure.com).
-2. Selecione **Conformidade do** dispositivo  >  **Microsoft Defender ATP**.
-3. De **Conexão Windows 10.0.15063+ dispositivos para Proteção Avançada contra Ameaças do Microsoft Defender** como **On**.
+2. Selecione **Conformidade de dispositivo** Microsoft Defender  >  **ATP**.
+3. De **Conexão Windows 10.0.15063+ dispositivos** para Proteção Avançada contra Ameaças do Microsoft Defender como **On**.
 4. Clique em **Salvar**.
 
 

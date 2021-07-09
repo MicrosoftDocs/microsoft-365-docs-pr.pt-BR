@@ -20,12 +20,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 402797b22e94129abbeb17f1a3454f95d5eae8fc
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: ae170ecf0fc0f354c9975300e5f2f7cd014b0c47
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908336"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339678"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>Detecção e resposta do ponto de extremidade (EDR) no modo de bloqueio
 
@@ -43,7 +43,7 @@ ms.locfileid: "52908336"
 
 EDR no modo de bloqueio também é integrado com [ameaças & Gerenciamento de Vulnerabilidades](next-gen-threat-and-vuln-mgt.md). A equipe de segurança da [](tvm-security-recommendation.md) sua organização receberá uma recomendação de segurança para EDR ativar o modo de bloqueio se ainda não estiver habilitado. 
 
-:::image type="content" source="images/edrblockmode-TVMrecommendation.png" alt-text="recomendação para ativar o EDR no modo de bloqueio":::
+:::image type="content" source="images/enable-edr-in-block-mode.png" alt-text="recomendação para ativar o EDR no modo de bloqueio":::
 
 > [!NOTE]
 > Para obter a melhor proteção, certifique-se de **[implantar o Microsoft Defender para linhas de base do Ponto de Extremidade.](configure-machines-security-baseline.md)**
@@ -62,14 +62,14 @@ A imagem a seguir mostra uma instância de software indesejado que foi detectado
 > [!IMPORTANT]
 > Certifique-se [de que os](#requirements-for-edr-in-block-mode) requisitos sejam atendidos antes de EDR no modo de bloqueio.
 
-1. Vá para o [portal Microsoft 365 Defender](microsoft-defender-security-center.md) e entre. 
+1. Vá para o [portal Microsoft 365 Defender e](microsoft-defender-security-center.md) entre. 
 
 2. Escolha **Configurações**  >  **recursos avançados**.
 
 3. A EDR **no modo de bloqueio**.
 
 > [!NOTE]
-> EDR no modo de bloqueio só pode ser ligado no Central de Segurança do Microsoft Defender. Não é possível usar as chaves do Registro, o Intune ou as políticas de grupo para habilitar ou desabilitar EDR no modo de bloqueio.
+> EDR no modo de bloqueio só pode ser ligado no portal Microsoft 365 Defender. Não é possível usar as chaves do Registro, o Intune ou as políticas de grupo para habilitar ou desabilitar EDR no modo de bloqueio.
 
 ## <a name="requirements-for-edr-in-block-mode"></a>Requisitos para EDR no modo de bloqueio
 
@@ -115,7 +115,7 @@ Para confirmar se o Microsoft Defender Antivírus está sendo executado no modo 
 
 |Método  |Procedimento  |
 |---------|---------|
-| PowerShell     | 1. Selecione o menu Iniciar, comece a digitar e abra Windows PowerShell `PowerShell` nos resultados. <p>2. Digite `Get-MpComputerStatus` . <p>3. Na lista de resultados, na linha **AMRunningMode,** procure um dos seguintes valores: <br/>- `Normal` <br/>- `Passive Mode` <br/>- `SxS Passive Mode` <p>Para saber mais, confira [Get-MpComputerStatus](/powershell/module/defender/get-mpcomputerstatus).        |
+| Windows PowerShell     | 1. Selecione o menu Iniciar, comece a digitar e abra Windows PowerShell `PowerShell` nos resultados. <p>2. Digite `Get-MpComputerStatus` . <p>3. Na lista de resultados, na linha **AMRunningMode,** procure um dos seguintes valores: <br/>- `Normal` <br/>- `Passive Mode` <br/>- `SxS Passive Mode` <p>Para saber mais, confira [Get-MpComputerStatus](/powershell/module/defender/get-mpcomputerstatus).        |
 |Prompt de comando     | 1. Selecione o menu Iniciar, comece a digitar e abra Windows Prompt de `Command Prompt` Comando nos resultados. <p>2. Digite `sc query windefend` . <p>3. Na lista de resultados, na linha **STATE,** confirme se o serviço está em execução.         |
 
 ### <a name="how-much-time-does-it-take-for-edr-in-block-mode-to-be-disabled"></a>Quanto tempo leva para que EDR no modo de bloqueio seja desabilitado?

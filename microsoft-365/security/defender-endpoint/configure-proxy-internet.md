@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: af50e3c2a6db1a09d546bfa06b26c80dcf4481e5
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 6a3bbc46bb5859743d5170451b0d1c68793f93bf
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53290082"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53338704"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>Definir as configurações de proxy de dispositivo e conectividade com a Internet
 
@@ -170,7 +170,7 @@ Consulte as seguintes diretrizes para eliminar o requisito curinga (*) para seu 
 
 1. Integração de um sistema operacional anterior com o Microsoft Monitoring Agent (MMA) no Defender for Endpoint (para obter mais informações, consulte Onboard previous [versions of Windows on Defender for Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2010326) and Onboard Windows [servers](configure-server-endpoints.md#windows-server-2008-r2-sp1-windows-server-2012-r2-and-windows-server-2016).
 
-2. Verifique se o computador está relatando com êxito no portal Central de Segurança do Microsoft Defender.
+2. Verifique se o computador está relatando com êxito no portal Microsoft 365 Defender.
 
 3. Execute a TestCloudConnection.exe de "C:\Program Files\Microsoft Monitoring Agent\Agent" para validar a conectividade e ver as URLs necessárias para seu espaço de trabalho específico.
 
@@ -178,7 +178,7 @@ Consulte as seguintes diretrizes para eliminar o requisito curinga (*) para seu 
 
     ![Imagem do administrador no Windows PowerShell](images/admin-powershell.png)
 
-Os curingas ( ) usados em pontos de extremidade \* .ods.opinsights.azure.com, .oms.opinsights.azure.com e .agentsvc.azure-automation.net URL podem ser substituídos por sua ID de Espaço de \* \* Trabalho \* específica. A ID do Espaço de Trabalho é específica para seu ambiente e espaço de trabalho e pode ser encontrada na seção Integração do seu locatário no portal Central de Segurança do Microsoft Defender.
+Os curingas ( ) usados em pontos de extremidade \* .ods.opinsights.azure.com, .oms.opinsights.azure.com e .agentsvc.azure-automation.net URL podem ser substituídos por sua ID de Espaço de \* \* Trabalho \* específica. A ID do Espaço de Trabalho é específica para seu ambiente e espaço de trabalho e pode ser encontrada na seção Integração do seu locatário no portal Microsoft 365 Defender.
 
 O ponto de extremidade .blob.core.windows.net URL pode ser substituído com as URLs mostradas na seção "Regra de \* Firewall: .blob.core.windows.net" dos resultados \* do teste.
 
