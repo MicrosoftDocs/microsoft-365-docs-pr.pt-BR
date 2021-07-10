@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 ms.custom: seo-marvel-apr2020
 description: Aprenda a usar o centro de conformidade para habilitar o arquivamento de caixas de correio para dar suporte aos requisitos de retenção de mensagens, descoberta eletrônica e retenção de sua organização.
-ms.openlocfilehash: 2bc80d347d1324a317cc2cc2712d475781adc492
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 72aa3f194197140cd86463598a17ab07fbbd647a
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926511"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341683"
 ---
 # <a name="enable-archive-mailboxes-in-the-compliance-center"></a>Habilitar o arquivamento de caixas de correio no centro de conformidade
 
@@ -40,11 +40,9 @@ Você precisa ter atribuída a função de Destinatários de Email no Exchange O
 
 ## <a name="enable-an-archive-mailbox"></a>Habilitar uma caixa de correio de arquivo morto
 
-1. Vá para <https://protection.office.com>.
+1. Vá para <https://compliance.microsoft.com> e entre.
 
-2. Entre usando sua conta de trabalho ou da escola.
-
-3. No painel esquerdo do Centro de Conformidade e Segurança, clique em **Governança de informações** \> **Arquivo**.
+2. No painel esquerdo do Centro de conformidade do Microsoft 365, clique em **Governança da informação**, e depois clique na guia **Arquivo**.
 
    A página **Arquivo** é exibida. A coluna **Caixa de correio de arquivo morto** indica se uma caixa de correio de arquivo morto está habilitada ou desabilitada para cada usuário.
 
@@ -74,24 +72,22 @@ A política de arquivamento padrão atribuída às caixas de correio dos usuári
 
 Para desabilitar uma caixa de correio de arquivo morto:
 
-1. Vá para <https://protection.office.com>.
+1. Vá para <https://compliance.microsoft.com> e entre.
 
-2. Entre usando sua conta de trabalho ou da escola.
-
-3. No painel esquerdo do Centro de Conformidade e Segurança, clique em **Governança de informações** \> **Arquivo**.
+2. No painel esquerdo do Centro de conformidade do Microsoft 365, clique em **Governança da informação**, e depois clique na guia **Arquivo**.
 
    A página **Arquivo** é exibida. A coluna **Caixa de correio de arquivo morto** indica se uma caixa de correio de arquivo morto está habilitada ou desabilitada para cada usuário.
 
    > [!NOTE]
    > A página **Arquivo** mostra um máximo de 500 usuários.
 
-4. Na lista de caixas de correio, selecione o usuário para o qual você deseja habilitar a caixa de correio arquivo morto.
+3. Na lista de caixas de correio, selecione o usuário para o qual você deseja habilitar a caixa de correio arquivo morto.
 
-5. No painel de detalhes, clique em **Desabilitar**.
+4. No painel de detalhes, clique em **Desabilitar**.
 
    Uma mensagem de aviso é exibida dizendo que você terá 30 dias para reabilitar a caixa de correio de arquivo morto e que, após 30 dias, todas as informações do arquivo serão excluídas permanentemente.
 
-6. Clique em **Sim** para desabilitar a caixa de correio de arquivo morto.
+5. Clique em **Sim** para desabilitar a caixa de correio de arquivo morto.
 
    Pode levar alguns instantes para desabilitar a caixa de correio de arquivo morto. Quando desabilitada, é exibido **Caixa de correio de arquivo morto: desabilitada** no painel de detalhes do usuário selecionado. Talvez seja necessário clicar em **Atualizar** ![Ícone Atualizar](../media/O365-MDM-Policy-RefreshIcon.gif) para atualizar as informações no painel de detalhes.
 
@@ -100,7 +96,7 @@ Para desabilitar uma caixa de correio de arquivo morto:
 
 ## <a name="use-exchange-online-powershell-to-enable-or-disable-archive-mailboxes"></a>Use o PowerShell do Exchange Online para habilitar ou desabilitar caixas de correio de arquivo morto
 
-Você também pode usar o PowerShell do Exchange Online para habilitar caixas de correio de arquivo morto. O principal motivo para usar o PowerShell é que você pode habilitar rapidamente a caixa de correio de arquivo morto para todos os usuários da sua organização.
+Você também pode usar o Exchange Online PowerShell para habilitar as caixas de correio de arquivo. A principal razão para usar o PowerShell é que você pode habilitar rapidamente a caixa de correio de arquivo para todos os usuários de sua organização.
 
 A primeira etapa é se conectar ao PowerShell do Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -136,7 +132,7 @@ Get-Mailbox -Filter {ArchiveGuid -Ne "00000000-0000-0000-0000-000000000000" -AND
 
 ## <a name="more-information"></a>Mais informações
 
-- Quando uma caixa de correio de arquivo morto está habilitada, os usuários podem armazenar mensagens em sua caixa de correio de arquivo morto. Os usuários podem acessar suas caixas de correio de arquivo morto usando o Microsoft Outlook e o Outlook na Web. Usando qualquer um desses aplicativos de cliente, os usuários podem exibir mensagens em sua caixa de correio de arquivo morto e mover ou copiar mensagens entre a caixa de correio principal e a caixa de correio de arquivo morto. Os usuários também podem recuperar itens excluídos da pasta Itens Recuperáveis em suas caixas de correio de arquivo morto usando a ferramenta Recuperar Itens Excluídos.
+- Quando uma caixa de correio de arquivo é ativada, os usuários podem armazenar mensagens em sua caixa de correio de arquivo. Os usuários podem acessar suas caixas de correio de arquivo usando o Microsoft Outlook e o Outlook na web. Usando qualquer um destes aplicativos clientes, os usuários podem visualizar mensagens em sua caixa de correio de arquivo e mover ou copiar mensagens entre sua caixa de correio principal e sua caixa de correio de arquivo. Os usuários também podem recuperar itens excluídos da pasta Itens Recuperáveis em sua caixa de correio de arquivo, usando a ferramenta Recuperar Itens Excluídos.
 
   Para obter uma lista de licenças do Outlook que tenham suporte ao arquivamento in-loco, consulte [Requisitos de licença do Outlook para recursos do Exchange](https://support.microsoft.com/office/46b6b7c5-c3ca-43e5-8424-1e2807917c99).
 

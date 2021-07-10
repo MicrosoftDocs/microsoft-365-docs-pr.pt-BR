@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba mais sobre como coletar informações de diagnóstico de Descoberta e Para um caso de Suporte da Microsoft.
-ms.openlocfilehash: 842f8baf770f178df3298bbfa911de26ce946ed0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b2441e0b7af8a82e24a8acca9e000e954e1c8964
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926551"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362589"
 ---
 # <a name="collect-ediscovery-diagnostic-information"></a>Coletar informações de diagnóstico de descoberta eletrônica
 
@@ -39,7 +39,7 @@ Para executar os cmdlets a seguir, conecte-se ao Centro de [Conformidade e Segur
 Depois de revisar o arquivo de texto gerado e redactar informações confidenciais, envie-o para o engenheiro de Suporte da Microsoft que está trabalhando em seu caso.
 
 > [!NOTE]
-> Você também pode executar os comandos nesta seção para coletar informações de  diagnóstico para as pesquisas e exportações listadas na página de pesquisa de conteúdo no centro de conformidade Microsoft 365 de conteúdo.
+> Você também pode executar os comandos nesta seção para coletar informações de  diagnóstico para as pesquisas e exportações listadas na página de pesquisa de conteúdo no Centro de conformidade do Microsoft 365.
 
 ### <a name="collect-information-about-searches"></a>Coletar informações sobre pesquisas
 
@@ -67,10 +67,10 @@ Get-CaseHoldPolicy "<Case hold policy name>" | %{"--CaseHoldPolicy--";$_|FL;"--C
 
 ### <a name="collect-all-case-information"></a>Coletar todas as informações de caso
 
-Às vezes, não é evidente quais informações são necessárias para o Suporte da Microsoft investigar seu problema. Nessa situação, você pode coletar todas as informações de diagnóstico para um caso core de Descoberta eDiscovery. O nome da ocorrência de Descoberta *eDiscovery* Principal no comando a seguir é o mesmo que o nome de uma ocorrência exibida na página Descoberta Principal da **Descoberta** e No centro de conformidade Microsoft 365.
+Às vezes, não é evidente quais informações são necessárias para o Suporte da Microsoft investigar seu problema. Nessa situação, você pode coletar todas as informações de diagnóstico para um caso core de Descoberta eDiscovery. O nome da ocorrência de Descoberta *eDiscovery* Principal no comando a seguir é o mesmo que o nome de uma ocorrência exibida na página **Descoberta** Principal da Descoberta Centro de conformidade do Microsoft 365.
 
 ```powershell
-Get-ComplianceCase "<Core eDiscovery case name>"| %{"$($_.Name)";"`t==Searches==";Get-ComplianceSearch -Case $_.Name | FL;"`t==Search Actions==";Get-ComplianceSearchAction -Case $_.Name |FL;"`t==Holds==";Get-CaseHoldPolicy -Case $_.Name | %{$_|FL;"`t`t ==$($_.Name) Rules==";Get-CaseHoldRule -Policy $_.Name | FL}} > "eDiscoveryCase.txt"
+Get-ComplianceCase "<Core eDiscovery case name>"| %{$_|fl;"`t==Searches==";Get-ComplianceSearch -Case $_.Name | FL;"`t==Search Actions==";Get-ComplianceSearchAction -Case $_.Name |FL;"`t==Holds==";Get-CaseHoldPolicy -Case $_.Name | %{$_|FL;"`t`t ==$($_.Name) Rules==";Get-CaseHoldRule -Policy $_.Name | FL}} > "eDiscoveryCase.txt"
 ```
 
 ## <a name="collect-diagnostic-information-for-advanced-ediscovery"></a>Coletar informações de diagnóstico para Advanced eDiscovery

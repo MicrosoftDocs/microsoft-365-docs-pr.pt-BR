@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use uma política de retenção para manter o controle eficiente do conteúdo que os usuários geram com email, documentos e conversas. Mantenha o que você deseja e descarte o que não.
-ms.openlocfilehash: a9b348d51f147d5f228e6dbb643b7bedd2eb8c8e
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: 97b90cc84e2b14e5c63779ea8b941a5ffe64bcd7
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256526"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362325"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -75,7 +75,7 @@ Quando você tem mais de uma política de retenção, e quando você também usa
     - **Chats do Teams**: mensagens de chats individuais privados, chats em grupo e chats de reunião.
     - **Mensagens de canal privado do Teams**: mensagens de chats de canal privado e reuniões de canal privado. No momento, essa opção está sendo distribuída em versão prévia e, se você não a vir, tente novamente em alguns dias.
     
-   Por padrão, [todas as equipes e usuários são selecionados](#a-policy-that-applies-to-entire-locations), mas você pode filtrar isso selecionando as opções de [**Escolha** e **Exclusão**](#a-policy-with-specific-inclusions-or-exclusions). No entanto, antes de alterar o padrão, esteja ciente das seguintes consequências para uma política de retenção que exclui mensagens quando é configurada para inclusões ou exclusões:
+   Por padrão, [todas as equipes e todos os usuários são selecionados](#a-policy-that-applies-to-entire-locations), mas você pode refinar isto selecionando as opções **Editar** para configurar uma política de retenção para [inclusões ou exclusões específicas](#a-policy-with-specific-inclusions-or-exclusions). No entanto, antes de alterar o padrão, esteja ciente das seguintes consequências para uma política de retenção que exclui mensagens quando é configurada para inclusões ou exclusões:
     
     - Para chats de grupo e mensagens de canal privado, como uma cópia das mensagens é salva na caixa de correio de cada usuário incluída no chat, as cópias das mensagens continuarão a ser retornadas nos resultados da eescoberta eletrônica de usuários que não foram atribuídos à política.
     - Para usuários que não foram atribuídos à política, as mensagens excluídas serão retornadas em seus resultados de pesquisa de equipes, mas não exibirão o conteúdo da mensagem como resultado da exclusão permanente da política atribuída aos usuários.
@@ -94,9 +94,9 @@ Para obter detalhes técnicos sobre como a retenção funciona para Teams, inclu
 
 - Embora você possa selecionar a opção para iniciar o período de retenção quando os itens foram modificados pela última vez, o valor de **Quando os itens foram criados** é sempre usado. Para mensagens que são editadas, uma cópia da mensagem original é salva com seu carimbo de tempo original para identificar quando esta mensagem pré-editada foi criada, e a mensagem pós-editada tem um carimbo de tempo mais recente.
 
-- Ao selecionar **Escolher equipes** para a linha de localização **mensagens de canal do Teams**, você pode ver outros grupos do Microsoft 365 que não são equipes. Não selecione esses grupos.
+- Quando você seleciona **Editar** para a localização **Mensagens de canal do Teams** você pode ver grupos Microsoft 365 que não são também equipes. Não selecione esses grupos.
 
-- Ao **Escolher usuários para o local Chats do Teams**, você poderá ver convidados e usuários sem caixa de correio. As políticas de retenção não são projetadas para esses usuários, portanto, não os selecione.
+- Quando você selecionar **Editar** para o local das conversas do Teams, você poderá ver convidados e usuários que não sejam da caixa postal. As políticas de retenção não são projetadas para esses usuários, portanto, não os selecione.
 
 
 #### <a name="additional-retention-policy-needed-to-support-teams"></a>Adicionais políticas de retenção necessárias para oferecer suporte ao Teams
@@ -125,17 +125,22 @@ Se você tiver um site da equipe que não está conectado a um grupo do Microsof
 
 2. Selecione **Nova política de retenção** para criar uma nova política de retenção.
 
-3. Para **decidir se deseja reter o conteúdo, excluí-lo, ou ambos** página do assistente, especifique as opções de configuração para manter e excluir o conteúdo. 
+3. Para **Escolher locais para aplicar a política** página, alternar em um ou ambos os locais para Yammer: **mensagem da comunidade Yammer** e **mensagens de usuário Yammer**.
     
-    Você pode criar uma política de retenção que apenas retenha o conteúdo sem excluir, retenha e exclua após um período especificado ou apenas exclua o conteúdo após um período especificado. Para saber mais, confira [Configurações de retenção e exclusão de conteúdo](#settings-for-retaining-and-deleting-content) nesta página.
-
-4. Na página **Escolher locais**, selecione **Deixe-me escolher locais específicos**. Em seguida, alterne em um ou em ambos os locais do Yammer: **Mensagens da comunidade do Yammer** e **mensagens de usuário do Yammer**.
+    > [!IMPORTANT]
+    > Embora você possa criar uma política de retenção apenas para mensagens de usuários Yammer, uma política de retenção para este local pode excluir mensagens da comunidade do aplicativo Yammer para todos os membros da comunidade.
+    > 
+    > Se você escolher esta opção e a política de retenção for configurada para excluir mensagens do usuário, certifique-se de compreender esta implicação. Para mais informações, veja [Como funciona a retenção com a Yammer](retention-policies-yammer.md#how-retention-works-with-yammer).
     
     Por padrão, todas as comunidades e todos os usuários são selecionados, mas você pode refinar isso especificando as comunidades e os usuários a serem incluídos ou excluídos.
     
     Para as mensagens de usuário do Yammer: 
     - Se você deixar o padrão em **Todos**, os usuários convidados do Azure B2B não serão incluídos. 
-    - Se você selecionar **Escolher usuário**, você poderá aplicar uma política de retenção a usuários externos se souber a conta deles.
+    - Se você selecionar **Editar** para a coluna **Incluído**, você pode aplicar uma política de retenção a usuários externos se você conhecer sua conta.
+
+4. Para **decidir se deseja reter o conteúdo, excluí-lo, ou ambos** página do assistente, especifique as opções de configuração para manter e excluir o conteúdo. 
+    
+    Você pode criar uma política de retenção que apenas retenha o conteúdo sem excluir, retenha e exclua após um período especificado ou apenas exclua o conteúdo após um período especificado. Para saber mais, confira [Configurações de retenção e exclusão de conteúdo](#settings-for-retaining-and-deleting-content) nesta página.
 
 5. Conclua o assistente para salvar suas configurações.
 
@@ -167,7 +172,7 @@ Use as instruções a seguir para políticas de retenção que se aplicam a qual
 
 2. Selecione **Nova política de retenção** para iniciar o assistente Criar política de retenção, e a nomeie.
 
-3. Para a página **Escolha locais**, ative ou desative qualquer uma das localizações, exceto os locais para o Teams. Para cada local, você pode deixá-lo no padrão para [Aplicar a política em todo local](#a-policy-that-applies-to-entire-locations) ou [Especificar inclusões e exclusões](#a-policy-with-specific-inclusions-or-exclusions).
+3. Para a página **Escolher locais para aplicar a política** ligue ou desligue qualquer um dos locais, exceto os locais para as Teams. Para cada local, você pode deixá-lo no padrão para [Aplicar a política em todo local](#a-policy-that-applies-to-entire-locations) ou [Especificar inclusões e exclusões](#a-policy-with-specific-inclusions-or-exclusions).
 
     Informações específicas para locais:
     - [Email do Exchange e pastas públicas do Exchange](#configuration-information-for-exchange-email-and-exchange-public-folders)

@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: O encaminhamento de email permite encaminhar mensagens de email enviadas para uma caixa de correio de usuário Microsoft 365 para outra caixa de correio dentro ou fora da sua organização.
-ms.openlocfilehash: e0043fe75eefe224c63fd23f352d4bd3ddf2c326
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 9d645c2b36bdac2ab53dcb8af4ff6ebdbd0ee601
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228046"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363786"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>Configurar o encaminhamento de email em Microsoft 365
 
@@ -49,18 +49,20 @@ Antes de configurar o encaminhamento de email, observe o seguinte:
 
 Você deve ser um administrador Exchange ou administrador global no Microsoft 365 para fazer essas etapas. Para obter mais informações, consulte o tópico [Sobre funções de administrador](../add-users/about-admin-roles.md).
 
+::: moniker range="o365-worldwide"
+
 1. No centro de administração, vá para a página **Usuários** \> **[Usuários ativos.](https://go.microsoft.com/fwlink/p/?linkid=834822)**
 
 2. Selecione o nome do usuário cujo email você deseja encaminhar e abra a página de propriedades.
 
 3. Na guia **Email,** selecione **Gerenciar encaminhamento de email**.
 
-4. Na página de encaminhamento de email, selecione Encaminhar todos os **emails** enviados para essa caixa de correio, insira o endereço de encaminhamento e escolha se deseja manter uma cópia dos emails encaminhados. Se você não vir essa opção, certifique-se de que uma licença seja atribuída à conta de usuário. Selecione **Salvar alterações**.
+4. Na página de encaminhamento de email, selecione Encaminhar todos os **emails** enviados para essa caixa de correio, insira o endereço de encaminhamento e escolha se deseja manter uma cópia dos emails encaminhados. Se você não vir essa opção, certifique-se de que uma licença seja atribuída à conta de usuário. Selecionar **Salvar alterações**.
 
     **Para encaminhar para vários endereços de email,** você pode pedir ao usuário para configurar uma regra Outlook encaminhar para os endereços. 
     
-    1.  Abrir **o Outlook**  >  **Home** Rules  >   **>** Selecionar Gerenciar Regras & **Alertas**
-    1. Selecione **Nova Regra Selecione** Aplicar regra na mensagem que  >  **recebo** localizada na parte inferior da lista e clique em **Próximo**.
+    1.  Abrir **o Outlook** > **Home** Rules > **>** Selecionar Gerenciar Regras & **Alertas**  
+    1. Selecione **Nova Regra Selecione** Aplicar regra na mensagem que > **recebo** localizada na parte inferior da lista e clique em **Próximo**.
     1. Clique **em Sim** quando solicitado Esta regra será aplicada a cada mensagem que você receber. 
     1. Na próxima lista, selecione as ações **redirecione-a para pessoas ou** grupos públicos e **pare de processar mais regras**
     1. Clique na frase sublinhada **pessoas ou grupo público** na parte inferior da janela.

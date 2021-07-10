@@ -1,5 +1,5 @@
 ---
-title: Pesquisar o log de auditoria no Centro de Conformidade e Segurança
+title: Pesquisar o log de auditoria no Centro de conformidade do Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de conformidade do Microsoft 365 para pesquisar o log de auditoria unificado para visualizar a atividade do usuário e administrador em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 007881220c3bdf862e75464521733e64f0d6c5c0
-ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
+ms.openlocfilehash: 46f223953df65b75c0ecfe0d2c9fe92514b797ff
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "53300131"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341647"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Pesquisar o log de auditoria no centro de conformidade
 
@@ -48,11 +48,11 @@ Precisa descobrir se um usuário visualizou um documento específico ou apagou u
 - Atividade de usuários e administradores dos rótulos de sensibilidade de sites que usam o SharePoint Online ou o Microsoft Teams
 - Atividade administrativa em email de Resumo e MyAnalytics
 
-## <a name="requirements-to-search-the-audit-log"></a>Requisitos para pesquisar o log de auditoria
+## <a name="before-you-search-the-audit-log"></a>Antes de pesquisar o registro de auditoria
 
 Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
 
-- A pesquisa de log de auditoria é ativada por padrão para organizações usando o Microsoft 365 e o Microsoft Office 365 corporativo. Isto inclui organizações com assinaturas E3/G3 ou E5/G5. Para verificar se a pesquisa de log de auditoria está ativada, você pode executar o seguinte comando em Exchange Online PowerShell:
+- A pesquisa de log de auditoria é ativada por padrão para organizações usando o Microsoft 365 e o Microsoft Office 365 corporativo. Para verificar se a pesquisa de log de auditoria está ativada, você pode executar o seguinte comando em Exchange Online PowerShell:
 
   ```powershell
   Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
@@ -60,10 +60,10 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
 
   O valor de `True` para a propriedade *UnifiedAuditLogIngestionEnabled* indica que a pesquisa de log de auditoria está ativada. Para saber mais, confira [Ativar ou desativar a pesquisa de log de auditoria](turn-audit-log-search-on-or-off.md).
 
-- É preciso atribuir a função Logs de Auditoria Somente para Exibição ou Logs de Auditoria do Exchange Online para pesquisar o log de auditoria. Por padrão, essas funções são atribuídas aos grupos de funções Gerenciamento de Conformidade e Gerenciamento de Organização na página **Permissões** do centro de administração do Exchange. Note que os administradores globais do Office 365 e do Microsoft 365 são automaticamente adicionados como membros do grupo de função Gerenciamento da Organização no Exchange Online. Para que um usuário tenha a capacidade de pesquisar o log de auditoria com o nível mínimo de privilégios, você pode criar um grupo de funções personalizado no Exchange Online, adicionar a função Logs de Auditoria Somente para Exibição ou Logs de Auditoria e, em seguida, adicionar o usuário como um membro do novo grupo de funções. Para saber mais, confira [Gerenciar Grupos de Funções do Exchange Online](/Exchange/permissions-exo/role-groups).
+- É preciso atribuir a função Logs de Auditoria Somente para Exibição ou Logs de Auditoria do Exchange Online para pesquisar o log de auditoria. Por padrão, essas funções são atribuídas aos grupos de funções Gerenciamento de Conformidade e Gerenciamento de Organização na página **Permissões** do centro de administração do Exchange. Os administradores globais no Office 365 e Microsoft 365 são automaticamente adicionados como membros do grupo de funções de Gerenciamento da Organização no Exchange Online. Para que um usuário tenha a capacidade de pesquisar o log de auditoria com o nível mínimo de privilégios, você pode criar um grupo de funções personalizado no Exchange Online, adicionar a função Logs de Auditoria Somente para Exibição ou Logs de Auditoria e, em seguida, adicionar o usuário como um membro do novo grupo de funções. Para saber mais, confira [Gerenciar Grupos de Funções do Exchange Online](/Exchange/permissions-exo/role-groups).
 
   > [!IMPORTANT]
-  > Se você atribuir a um usuário a função Logs de Auditoria Somente para Exibição ou Logs de Auditoria na página **Permissões** do Centro de Conformidade e Segurança, eles não poderão pesquisar o log de auditoria. Você deve atribuir as permissões no Exchange Online. Isso ocorre porque o cmdlet subjacente usado para pesquisar o log de auditoria é um cmdlet Exchange Online.
+  > Se você atribuir a um usuário a função View-Only Audit Logs ou Logs de Auditoria na página **Permissões** no Centro de conformidade do Microsoft 365, ele não poderá pesquisar o log de auditoria. Você deve atribuir as permissões no Exchange Online. Isso ocorre porque o cmdlet subjacente usado para pesquisar o log de auditoria é um cmdlet Exchange Online.
 
 - Quando uma atividade auditada é realizada por um usuário ou administrador, um registro de auditoria é gerado e armazenado no log de auditoria para a sua organização. O período de tempo em que um registro de auditoria é mantido (e pesquisável no log de auditoria) depende da sua assinatura do Office 365 ou do Microsoft 365 Enterprise e, especificamente, o tipo de licença atribuída a usuários específicos.
 
@@ -75,7 +75,7 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
   - Para os usuários que receberam qualquer outra licença (não E5) do Office 365 ou do Microsoft 365, os registros de auditoria serão mantidos por 90 dias. Para obter uma lista de assinaturas do Office 365 e do Microsoft 365 que oferecem suporte ao log de auditoria unificado, confira [descrição do serviço do centro de conformidade e segurança](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center).
 
     > [!NOTE]
-    > Mesmo quando a auditoria da caixa de correio está ativada por padrão, pode-se notar que os eventos de auditoria de caixa de correio de alguns usuários não são encontrados nas pesquisas de log de auditoria no Centro de Conformidade & Segurança ou por meio da API de Atividade de Gerenciamento do Office 365. Para saber mais, confira [Mais informações sobre o log de auditoria de caixa de correio](enable-mailbox-auditing.md#more-information).
+    > Mesmo quando a auditoria da caixa de correio é ativada por padrão, você pode notar que os eventos de auditoria da caixa de correio para alguns usuários não são encontrados nas buscas de registros de auditoria no Centro de conformidade do Microsoft 365 ou através da API da Atividade de Gestão do Office 365. Para saber mais, confira [Mais informações sobre o log de auditoria de caixa de correio](enable-mailbox-auditing.md#more-information).
 
 - Caso pretenda desativar a pesquisa de log de auditoria da sua organização, execute o comando a seguir no PowerShell remoto conectado à sua organização do Exchange Online:
 
@@ -91,7 +91,7 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
 
   Para saber mais, confira [Desativar a pesquisa de log de auditoria](turn-audit-log-search-on-or-off.md).
 
-- Como mencionado anteriormente, o cmdlet subjacente usado para pesquisar o log de auditoria é um cmdlet Exchange Online, que é **Search-UnifiedAuditLog**. Isso significa que você pode usar esse cmdlet para pesquisar o log de auditoria, em vez de usar a página **pesquisa de log de Auditoria** no Centro de Conformidade e Segurança. Você precisa executar esse cmdlet no PowerShell remoto conectado à sua organização do Exchange Online. Para saber mais, confira [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog).
+- Como mencionado anteriormente, o cmdlet subjacente usado para pesquisar o log de auditoria é um cmdlet Exchange Online, que é **Search-UnifiedAuditLog**. Isso significa que você pode usar esta cmdlet para pesquisar o log de Auditoria em vez de usar a página **Pesquisar o log de auditoria** no Centro de conformidade do Microsoft 365. Você precisa executar esse cmdlet no PowerShell remoto conectado à sua organização do Exchange Online. Para saber mais, confira [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog).
 
   Para obter informações sobre como exportar os resultados da pesquisa retornados pelo cmdlet **Search-UnifiedAuditLog** para um arquivo CSV, confira a seção "Dicas para exportar e exibir o log de auditoria" em [Exportar, configurar e exibir registros de log de auditoria](export-view-audit-log-records.md#tips-for-exporting-and-viewing-the-audit-log).
 
@@ -118,7 +118,7 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
   |Microsoft Teams|![Marca de seleção](../media/checkmark.png)||
   |Aplicativos de energia||![Marca de seleção](../media/checkmark.png)|
   |Power BI|![Marca de seleção](../media/checkmark.png)||
-  |Centro de Conformidade e Segurança|![Marca de seleção](../media/checkmark.png)||
+  |Centro de conformidade do Microsoft 365|![Marca de seleção](../media/checkmark.png)||
   |Rótulos de confidencialidade||![Marca de seleção](../media/checkmark.png)|
   |SharePoint Online e OneDrive for Business|![Marca de seleção](../media/checkmark.png)||
   |Workplace Analytics|![Marca de seleção](../media/checkmark.png)||
@@ -132,7 +132,7 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
 
 ## <a name="search-the-audit-log"></a>Pesquisar o log de auditoria
 
-A seguir, veja o processo para pesquisar o log de auditoria do Office 365. 
+Aqui está o processo de busca do log de auditoria Microsoft 365.
 
 [Etapa 1: Executar uma pesquisa de log de auditoria](#step-1-run-an-audit-log-search)
 
@@ -144,48 +144,42 @@ A seguir, veja o processo para pesquisar o log de auditoria do Office 365.
 
 ### <a name="step-1-run-an-audit-log-search"></a>Etapa 1: Executar uma pesquisa de log de auditoria
 
-1. Acesse [https://protection.office.com](https://protection.office.com).
+1. Vá para <https://compliance.microsoft.com> e entre.
 
     > [!TIP]
-    > Use uma sessão de navegação particular (não uma sessão regular) para acessar o centro de conformidade & de segurança, pois isso impedirá que a credencial com a qual você está conectado no momento seja usada. Para abrir uma sessão de Navegação InPrivate no Internet Explorer ou no Microsoft Edge, basta pressionar CTRL+SHIFT+P. Para abrir uma sessão de navegação privada no Google Chrome (chamado de janela incógnita), pressione CTRL+SHIFT+N.
+    > Usar uma sessão de navegação privada (não uma sessão regular) para acessar o Centro de conformidade do Microsoft 365, pois isso impedirá que a credencial com a qual você está atualmente logado seja usada. Para abrir uma sessão de Navegação InPrivate no Internet Explorer ou no Microsoft Edge, basta pressionar CTRL+SHIFT+P. Para abrir uma sessão de navegação privada no Google Chrome (chamada de janela incógnita), pressionar CTRL+SHIFT+N.
 
-2. Entre usando sua conta de trabalho ou da escola.
+2. No painel esquerdo do Centro de conformidade do Microsoft 365, clique em **Auditoria**.
 
-3. No painel esquerdo do Centro de Conformidade e Segurança, clique em **Pesquisar** e, em seguida, clique em **Pesquisa de Log de Auditoria**.
+    A página **Auditoria** é exibida.
 
-    É exibida a página **Pesquisa de log de auditoria**.
-
-    ![Configure os critérios e clique em Pesquisar para executar o relatório](../media/8639d09c-2843-44e4-8b4b-9f45974ff7f1.png)
+    ![Configurar critérios e clique em Pesquisar para executar o relatório](../media/AuditLogSearchPage1.png)
 
     > [!NOTE]
-    > Você primeiro precisa ativar o log de auditoria para poder executar uma pesquisa de log de auditoria. Se o link **Iniciar gravação de atividade de usuários e administradores** for exibido, clique nele para ativar a auditoria. Se você não vir esse link, significa que a auditoria já está ativada na sua organização.
+    > Se o link **Iniciar atividade de registro de usuário e administração** for exibido, clique nele para ativar a auditoria. Se você não vê este link, a auditoria é ativada para sua organização.
 
-4. Configure os seguintes critérios de pesquisa: 
-
-   1. **Atividades**: Clique na lista suspensa para exibir as atividades que você pode procurar. As atividades de usuário e administrador são organizadas em grupos de atividades relacionadas. Você pode selecionar atividades específicas ou pode clicar no nome do grupo de atividades para selecionar todas as atividades que ele contém. Você também pode clicar em uma atividade selecionada para limpar a seleção. Após a execução da pesquisa, apenas as entradas do log de auditoria das atividades selecionadas serão exibidas. Ao selecionar **Mostrar resultados para todas as atividades** os resultados para todas as atividades executadas pelo usuário ou grupo de usuários selecionado será exibido.
-
-      Mais de 100 atividades de usuários e administradores são registradas no log de auditoria. Clique na guia **Atividades auditadas**, no tópico deste artigo, para ver as descrições de cada atividade em cada um dos diferentes serviços.
+3. Na guia **Pesquisar** configure os seguintes critérios de busca:
 
    1. **Data de início** e **Data de término**: Os últimos sete dias são selecionados por padrão. Selecione um intervalo de datas e horas para exibir os eventos ocorridos durante esse período. A data e hora são apresentadas na horário local. O intervalo de datas máximo que você pode especificar é de 90 dias. Um erro será exibido se o período selecionado for superior a 90 dias.
 
-      > [!TIP]
-      > Se você estiver usando o intervalo máximo de datas de 90 dias, selecione a hora atual para a **Data de início**. Caso contrário, você receberá um erro afirmando que a data de início é anterior à data de término. Se você tiver ativado a auditoria nos últimos 90 dias, o intervalo máximo de datas não poderá começar antes da data em que a auditoria foi ativada.
+    > [!TIP]
+    > Se você estiver usando o intervalo máximo de datas de 90 dias, selecione a hora atual para a **Data de início**. Caso contrário, você receberá um erro afirmando que a data de início é anterior à data de término. Se você tiver ativado a auditoria nos últimos 90 dias, o intervalo máximo de datas não poderá começar antes da data em que a auditoria foi ativada.
 
-   1. **Usuários**: Clique nessa caixa e selecione um ou mais usuários para os quais deseja exibir resultados. As entradas do log de auditoria para a atividade selecionada realizada pelos usuários que você seleciona nessa caixa são exibidas na lista de resultados. Deixe essa caixa em branco para retornar entradas para todos os usuários (e contas de serviço) na sua organização.
+   2. **Atividades**: Clique na lista suspensa para exibir as atividades que você pode procurar. As atividades de usuário e administrador são organizadas em grupos de atividades relacionadas. Você pode selecionar atividades específicas ou pode clicar no nome do grupo de atividades para selecionar todas as atividades que ele contém. Você também pode clicar em uma atividade selecionada para limpar a seleção. Após a execução da pesquisa, apenas as entradas do log de auditoria das atividades selecionadas serão exibidas. Ao selecionar **Mostrar resultados para todas as atividades** os resultados para todas as atividades executadas pelo usuário ou grupo de usuários selecionado será exibido.<br/><br/>Mais de 100 atividades de usuários e administradores são registradas no log de auditoria. Clique na guia **Atividades auditadas**, no tópico deste artigo, para ver as descrições de cada atividade em cada um dos diferentes serviços.
 
-   1. **Arquivo, pasta ou site**: Digite alguns ou todos os nome de arquivo ou pasta para pesquisar atividades relacionadas ao arquivo de pasta que contenha a palavra-chave especificada. Você também pode especificar uma URL de um arquivo ou pasta. Se você usar uma URL, certifique-se, ao digitar o caminho completo ou apenas uma parte da URL, não incluir espaços ou caracteres especiais.
+   3. **Usuários**: Clique nessa caixa e selecione um ou mais usuários para os quais deseja exibir resultados. As entradas do log de auditoria para a atividade selecionada realizada pelos usuários que você seleciona nessa caixa são exibidas na lista de resultados. Deixe essa caixa em branco para retornar entradas para todos os usuários (e contas de serviço) na sua organização.
 
-      Deixe essa caixa em branco para retornar entradas para todos os arquivos e pastas em sua organização.
+   4. **Arquivo, pasta ou site**: Digite alguns ou todos os nome de arquivo ou pasta para pesquisar atividades relacionadas ao arquivo de pasta que contenha a palavra-chave especificada. Você também pode especificar uma URL de um arquivo ou pasta. Se você usar uma URL, certifique-se, ao digitar o caminho completo ou apenas uma parte da URL, não incluir espaços ou caracteres especiais.<br/><br/>Deixe essa caixa em branco para retornar entradas para todos os arquivos e pastas em sua organização.
 
-      > [!TIP]
-      >
-      > - Se você estiver procurando por todas as atividades relacionadas a um **site**, adicione o símbolo curinga (\*) após a URL para retornar todas as entradas para esse site. Por exemplo, `"https://contoso-my.sharepoint.com/personal*"`.
-      >
-      > - Se você estiver procurando por todas as atividades relacionadas a um **arquivo**, adicione o símbolo curinga (\*) antes do nome do arquivo para retornar todas as entradas desse arquivo, por exemplo, `"*Customer_Profitability_Sample.csv"`.
+    > [!TIP]
+    >
+    > - Se você estiver procurando por todas as atividades relacionadas a um **site**, adicione o símbolo curinga (\*) após a URL para retornar todas as entradas para esse site. Por exemplo, `"https://contoso-my.sharepoint.com/personal*"`.
+    >
+    > - Se você estiver procurando por todas as atividades relacionadas a um **arquivo**, adicione o símbolo curinga (\*) antes do nome do arquivo para retornar todas as entradas desse arquivo, por exemplo, `"*Customer_Profitability_Sample.csv"`.
 
-5. Clique em **Pesquisar** para executar a pesquisa usando seus critérios de pesquisa. 
+4. Clique em **Pesquisar** para executar a pesquisa usando seus critérios de pesquisa. 
 
-   Os resultados da pesquisa são carregados e, depois de alguns momentos, são exibidos em **Resultados**. Quando a pesquisa estiver concluída, o número de resultados encontrados será exibido. Um máximo de 5.000 eventos serão exibidos no painel **Resultados** em incrementos de 150 eventos. Se mais de 5.000 eventos atenderem aos critérios de pesquisa, os 5.000 mais recentes serão exibidos.
+   Os resultados da pesquisa são carregados e, após alguns instantes, eles são exibidos em uma nova página. Quando a pesquisa estiver concluída, o número de resultados encontrados será exibido. Um máximo de 5.000 eventos será exibido em incrementos de 150 eventos. Se mais de 5.000 eventos atenderem aos critérios de pesquisa, os 5.000 mais recentes serão exibidos.
 
    ![O número de resultados é exibido após a conclusão da pesquisa](../media/986216f1-ca2f-4747-9480-e232b5bf094c.png)
 
@@ -868,7 +862,7 @@ A tabela a seguir lista as atividades de usuários e de administradores no Yamme
 
 ### <a name="microsoft-power-automate-activities"></a>Atividades do Microsoft Power Automate
 
-Você pode pesquisar o log de auditoria para atividades no Power Automate (anteriormente chamado Microsoft Flow). Essas atividades incluem criar, editar e excluir fluxos, e alterar as permissões de fluxo. Para obter informações sobre auditoria de atividades do Power Automate, confira o blog [eventos de auditoria do Microsoft Flow já estão disponíveis no Centro de Conformidade e Segurança](https://flow.microsoft.com/blog/security-and-compliance-center).
+Você pode pesquisar o log de auditoria para atividades no Power Automate (anteriormente chamado Microsoft Flow). Essas atividades incluem criar, editar e excluir fluxos, e alterar as permissões de fluxo. Para informações sobre auditoria para atividades do Power Automate, veja o blog  [Eventos de auditoria do Microsoft Flow agora disponíveis no Centro de conformidade do Microsoft 365](https://flow.microsoft.com/blog/security-and-compliance-center).
 
 ### <a name="microsoft-power-apps-activities"></a>Atividades do Microsoft Power Apps
 
@@ -1071,7 +1065,7 @@ Consulte a seção [Atividades auditadas](#audited-activities) neste artigo para
 
 **Quanto tempo leva para um registro de auditoria estar disponível após um evento ter ocorrido?**
 
-A maioria dos dados de auditoria está disponível em 30 minutos, mas pode levar até 24 horas após a ocorrência de um evento para que a entrada do log de auditoria correspondente seja exibida nos resultados da pesquisa. Consulte a tabela na seção [Requisitos para pesquisar o log de auditoria](#requirements-to-search-the-audit-log) deste artigo que exibe o tempo necessário dos eventos em diferentes serviços disponíveis.
+A maioria dos dados de auditoria está disponível em 30 minutos, mas pode levar até 24 horas após a ocorrência de um evento para que a entrada do log de auditoria correspondente seja exibida nos resultados da pesquisa. Veja a tabela na seção [Antes de procurar o log de auditoria](#before-you-search-the-audit-log) deste artigo que mostra o tempo que leva para que os eventos nos diferentes serviços estejam disponíveis.
 
 **Por quanto tempo os registros de auditoria são mantidos?**
 
@@ -1087,7 +1081,7 @@ Não. Estas são as duas únicas maneiras de obter dados do serviço de auditori
 
 **Preciso habilitar individualmente a auditoria em cada serviço para o qual quero capturar os logs de auditoria?**
 
-Na maioria dos serviços, a auditoria é habilitada por padrão depois que você ativa a auditoria pela sua organização, (conforme descrito na seção [Requisitos para pesquisar o log de auditoria](#requirements-to-search-the-audit-log) neste artigo).
+Na maioria dos serviços, a auditoria é ativada por padrão depois que você inicialmente ativa a auditoria para sua organização (como descrito na seção [Antes de você procurar o log de auditoria](#before-you-search-the-audit-log) neste artigo).
 
 **O serviço de auditoria oferece suporte para a duplicação de registros?**
 

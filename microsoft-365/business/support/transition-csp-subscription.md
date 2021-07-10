@@ -1,6 +1,6 @@
 ---
 title: Fazer a transição de uma assinatura de CSP do Microsoft 365 Business
-description: Descubra como fazer a transição de uma assinatura Microsoft 365 Business CSP da visualização para a disponibilidade geral (GA).
+description: Descubra como fazer a transição de uma assinatura CSP Microsoft 365 Business da visualização para a disponibilidade geral (GA).
 author: jasongroce
 f1.keywords:
 - NOCSH
@@ -15,12 +15,12 @@ localization_priority: Normal
 audience: microsoft-business
 keywords: Microsoft 365 Business, Microsoft 365, SMB, transição de assinatura de CSP
 ms.date: 11/01/2017
-ms.openlocfilehash: 3f6c71edb50cc3c5509e61a83efb64185c10648d
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 47b65b2de9db0fd27e29272937bab2041eb67300
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924994"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363810"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Fazer a transição de uma assinatura de CSP do Microsoft 365 Business
 
@@ -44,20 +44,20 @@ Se você tiver uma assinatura CSP do Microsoft 365 Business Preview, siga este g
     As **Assinaturas baseadas em licença** mostrarão **Microsoft 365 Business Preview** e **Microsoft 365 Business**. Você suspenderá a assinatura De visualização em seguida.
 
 6. Selecione **Microsoft 365 Business Preview**.
-7. Na página **Microsoft 365 Business Visualização,** selecione **Suspenso** para suspender a assinatura de visualização.
+7. Na página **Microsoft 365 Business Preview,** selecione **Suspenso** para suspender a assinatura de Visualização.
 
     ![Suspender a assinatura do Microsoft 365 Business Preview](../../media/pc_customer_m365bpreview_suspend.png)
 
 8. Selecione **Enviar** para confirmar.
 
-    Na página **Assinaturas,** confirme se o status **Microsoft 365 Business Visualização** mostra **Suspended**.
+    Na página **Assinaturas,** confirme se o status Microsoft 365 **Business Preview** mostra **Suspended**.
 
     ![Confirmar se o status da assinatura de versão prévia é suspensa](../../media/pc_customer_m365bpreview_suspend_confirm.png)
 
 9. Opcionalmente, você também pode validar o contrato de licença. Para fazer isso, execute estas etapas:
     1. Selecione **Usuários e licenças** da página **Assinaturas** da empresa.
     2. Na página **Usuários e licenças,** selecione um usuário.
-    3. Na página do usuário, verifique a seção **Atribuir licenças** e confirme se ela **mostra** Microsoft 365 Business .
+    3. Na página do usuário, verifique a seção **Atribuir licenças** e confirme se ela mostra Microsoft 365 **Business**.
 
         ![Confirmar se a licença do Microsoft 365 Business foi atribuída ao usuário](../../media/pc_customer_userslicenses_m365b_validate.png)
 
@@ -73,7 +73,7 @@ A tabela a seguir resume o impacto nos clientes que não fizerem a transição d
 |-------|-----------------|--------------|---------------|---------------|
 | **Estado** | No período de carência | Expirada      | Desabilitada      | Desprovisionada |
 | **Impactos no serviço**                                                        |
-| **Portal de administração do Microsoft 365 Business** | Não há impacto na funcionalidade | Não há impacto na funcionalidade | Pode adicionar/excluir usuários, comprar assinaturas.</br> Não é possível atribuir/revogar licenças. | A assinatura do cliente e todos os dados são excluídos. O administrador pode gerenciar outras assinaturas pagas. |
+| **Centro de administração do Microsoft 365** | Não há impacto na funcionalidade | Não há impacto na funcionalidade | Pode adicionar/excluir usuários, comprar assinaturas.</br> Não é possível atribuir/revogar licenças. | A assinatura do cliente e todos os dados são excluídos. O administrador pode gerenciar outras assinaturas pagas. |
 | **Aplicativos do Office**                         | Nenhum impacto no usuário final | Nenhum impacto no usuário final | O Office entra no modo de funcionalidade reduzida.</br> Os usuários podem exibir apenas os arquivos. | O Office entra no modo de funcionalidade reduzida.</br> Os usuários podem exibir apenas os arquivos. |
 | **Serviços de nuvem (SharePoint Online, Exchange Online, Skype, Teams e muito mais)** | Nenhum impacto no usuário final | Nenhum impacto no usuário final | Os usuários finais e os administradores não têm acesso aos dados na nuvem. | A assinatura do cliente e todos os dados são excluídos. |
 | **Componentes do EM+S** | Não há impacto no administrador</br> Nenhum impacto no usuário final | Não há impacto no administrador</br> Nenhum impacto no usuário final | A funcionalidade não é mais imposta.</br> Consulte [Impactos no dispositivo móvel após a expiração da assinatura](#mobile-device-impacts-upon-subscription-expiration) e [Impactos no computador com Windows 10 após a expiração da assinatura](#windows-10-pc-impacts-upon-subscription-expiration) para obter mais informações. | A funcionalidade não é mais imposta.</br> Consulte [Impactos no dispositivo móvel após a expiração da assinatura](#mobile-device-impacts-upon-subscription-expiration) e [Impactos no computador com Windows 10 após a expiração da assinatura](#windows-10-pc-impacts-upon-subscription-expiration) para obter mais informações. |

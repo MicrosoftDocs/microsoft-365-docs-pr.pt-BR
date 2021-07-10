@@ -12,16 +12,16 @@ localization_priority: Normal
 ms.custom: AdminSurgePortfolio
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como fazer a transição do Microsoft Cloud Germany Exchange Online para o serviço de Exchange Online global
-ms.openlocfilehash: 8de64e30205b07a0c20a8ae4f7cdedbf6cc6824f
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 93eab2c4e0ab2f841359061ebdca69967d8d7d33
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644850"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363866"
 ---
 # <a name="update-your-mx-records-to-transition-to-the-global-exchange-online-service"></a>Atualizar seus registros MX para fazer a transição para o serviço de Exchange Online global
 
-1. Entre no [Microsoft 365 de administração](https://admin.microsoft.com)e acesse **Configurações**  >  **Domínios**
+1. Entre [no](https://admin.microsoft.com)Centro de administração do Microsoft 365 e vá para **Configurações**  >  **Domínios**
 
 2. O status será mostrado no lado direito para cada domínio. Se os domínios da sua organização apontarem para o Microsoft Cloud Germany Exchange Online, você precisará atualizar seu registro MX.
 

@@ -15,16 +15,20 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: Os administradores podem aprender sobre como administrar serviços SharePoint e OneDrive em um ambiente multi-geo.
-ms.openlocfilehash: 213070f2f7a04e15a1e2ac3cd9a3ae697b66a718
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4c5215b855b8ca1840035b39fcfbddde419c13d8
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905591"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362313"
 ---
 # <a name="administering-a-multi-geo-environment"></a>Administrar um ambiente multigeográfico
 
 A seguir, veja como os serviços do Microsoft 365 funcionam em um ambiente com várias regiões geográficas.
+
+## <a name="administrator-experience"></a>Experiência do administrador
+
+O [SharePoint de](https://admin.microsoft.com/sharepoint) administração tem uma guia **Localizações** geográficas na navegação à esquerda, que apresenta um mapa de localizações geográficas onde você pode exibir e gerenciar suas localizações geográficas. Use esta página para adicionar ou excluir localizações geográficas para seu locatário.
 
 ## <a name="audit-log-search"></a>Pesquisa de log de auditoria
 
@@ -34,7 +38,11 @@ Um [Log de auditoria](https://support.office.com/article/0d4d0f35-390b-4518-800e
 
 A BCS, o Repositório Seguro e os Aplicativos têm instâncias geográficas em cada localização satélite e portanto, o administrador do SharePoint Online deve gerenciar e configurar esses serviços separadamente para cada localização satélite.
 
-## <a name="ediscovery"></a>Descoberta eletrônica 
+## <a name="compliance-admin-center"></a>Centro de administração de conformidade
+
+Há um centro de conformidade central para um locatário multi-geo: Microsoft 365 [Centro de administração de Conformidade.](https://compliance.microsoft.com/)
+
+## <a name="ediscovery"></a>Descoberta eletrônica
 
 Por padrão, um Administrador ou Gerente de Descoberta Eletrônica de um locatário multigeográfico só poderá realizar a descoberta eletrônica na localização central desse locatário. O administrador global do Office 365 deve atribuir permissões de gerente de Descoberta Eletrônica para permitir que outras pessoas possam realizá-la e atribuir o parâmetro "Região" no Filtro de Segurança e Conformidade deles, para especificar a região como uma localização no satélite para a realização da Descoberta. Caso contrário, a Descoberta Eletrônica não será realizada para nenhuma localização no satélite. Para configurar o Filtro de Segurança de Conformidade para uma Região, consulte [Configurar a Descoberta Eletrônica Multigeográfica do Office 365](multi-geo-ediscovery-configuration.md).
 
@@ -42,7 +50,7 @@ Por padrão, um Administrador ou Gerente de Descoberta Eletrônica de um locatá
 
 As caixas de correio dos usuários do Exchange são movidas automaticamente se sua PDL for alterado. Quando uma nova caixa de correio é criada, ela está provisionada ao PDL do usuário ou à localização central se nenhum valor foi definido para o PDL do usuário.
 
-## <a name="information-protection-ip-data-loss-prevention-dlp-policy"></a>Política de Prevenção contra Perda de Dados (DLP) e Proteção da Informação (IP). 
+## <a name="information-protection-ip-data-loss-prevention-dlp-policy"></a>Política de Prevenção contra Perda de Dados (DLP) de Proteção de Informações (IP)
 
 Você pode definir sua política DLP IP para o OneDrive for Business, SharePoint e Exchange no centro de Segurança e Conformidade políticas de definição de escopo, conforme necessário, para todo locatário ou para os usuários aplicáveis. Por exemplo: se você quiser selecionar uma política para um usuário em uma localização via satélite, selecione para aplicar a política para o OneDrive específico e insira a url do OneDrive do usuário. Confira [Visão geral das políticas de prevenção contra perda de dados](https://support.office.com/article/1966b2a7-d1e2-4d92-ab61-42efbb137f5e) para instruções gerais ao criar políticas DLP.
 
@@ -50,21 +58,13 @@ As políticas de DLP são sincronizadas automaticamente de acordo com a aplicabi
 
 A implementação de políticas de Prevenção contra Perda de Dados e Proteção da Informação para todos os usuários em uma localização geográfica não é uma opção disponível na IU. Em vez disso, é preciso selecionar as contas em que se deseja aplicar a política ou aplicá-la de modo global a todas as contas.
 
-## <a name="microsoft-flow"></a>Microsoft Flow
-
-Fluxos criados para localização via satélite usarão o ponto de extremidade localizado na localização geográfica padrão do locatário.  Microsoft Flow não é um serviço Multigeográfico. 
-
 ## <a name="microsoft-powerapps"></a>Microsoft PowerApps
 
 PowerApps criados para localização via satélite usarão o ponto de extremidade localizado na localização central do locatário. Microsoft PowerApps não é um serviço Multigeográfico. 
 
-## <a name="onedrive-administrator-experience"></a>Experiência de Administrador do OneDrive
+## <a name="power-automate"></a>Power Automate
 
-O [Centro de Administração do OneDrive](https://admin.onedrive.com) tem uma guia de **localizações geográficas** na navegação à esquerda, que apresenta um mapa com os locais onde é possível exibir e gerenciar suas localizações geográficas. Use essa página para adicionar ou excluir as localizações geográficas de seu locatário.
-
-## <a name="security-and-compliance-admin-center"></a>Centro de Administração de Conformidade e Segurança
-
-Há um centro de conformidade central para um locatário multigeográfico: [Centro de conformidade e segurança do Microsoft 365](https://protection.office.com/?rfr=AdminCenter\#/homepage).
+Fluxos criados para localização via satélite usarão o ponto de extremidade localizado na localização geográfica padrão do locatário.  Power Automate não é um serviço Multi-Geo. 
 
 ## <a name="sharepoint-storage-quota"></a>Cota de armazenamento do SharePoint
 
@@ -73,6 +73,10 @@ Por padrão, todas as localizações geográficas de um ambiente multigeográfic
 ## <a name="sharing"></a>Compartilhamento
 
 Os administradores podem configurar e gerenciar políticas de compartilhamento para cada localização. Os sites do OneDrive e do SharePoint em cada localização geográfica aceita apenas as configurações de compartilhamen específica da área geográfica correspondente. (Por exemplo, você pode permitir o [compartilhamento externo](https://support.office.com/article/C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85) para a localização central, mas não a localização via satélite ou vice-versa.) Observe que as configurações de compartilhamento não permitem configurar limitações de compartilhamento entre localizações geográficas.
+
+## <a name="stream"></a>Stream
+
+Os vídeos carregados no Stream são armazenados no OneDrive da pessoa carregando. As gravações de reunião são armazenadas no OneDrive de cada participante que registra a reunião.
 
 ## <a name="taxonomy"></a>Taxonomia
 
@@ -87,23 +91,6 @@ Há um [aplicativo de perfil de usuário](/sharepoint/manage-user-profiles) em c
 Se houver propriedades de perfil personalizadas, recomendamos que você use o mesmo esquema de perfil nas localizações e popule as propriedades personalizadas em cada uma delas ou nas que forem necessárias.  Para obter instruções sobre como preencher dados de perfil de usuário de forma programática, confira a [API de Atualização de Perfil de Usuário em Massa](/sharepoint/dev/solution-guidance/bulk-user-profile-update-api-for-sharepoint-online).
 
 Confira [Trabalhar com perfis de usuários em um locatário multigeográfico](/sharepoint/dev/solution-guidance/multigeo-userprofileexperience) para saber mais e para obter instruções do desenvolvedor.
-
-## <a name="video-portal"></a>Portal de Vídeo
-
-Em um locatário multigeográfico, o Portal de Vídeo do O365 só é disponibilizado para a localização geográfica padrão e todos os usuários serão redirecionados para essa url portal central. Dessa forma, os Serviços de Mídia Remoto (RMS) para essa região serão usados, da seguinte forma, com base em uma localização central.
-
-Atualmente, este aplicativo está disponível nas seguintes regiões:
-
-- América do Norte, hospedada nos Estados Unidos 
-- Europa
-- Pacífico Asiático
-
-Porém, atualmente, o Stream ainda não está disponível nas seguintes regiões com suporte para o Microsoft 365 Video, portanto, para essas instâncias locais, usaremos o RMS que está na região suportada mais próxima.
-
-- Austrália
-- Canadá
-- Índia
-- Reino Unido
 
 ## <a name="yammer"></a>Yammer
 

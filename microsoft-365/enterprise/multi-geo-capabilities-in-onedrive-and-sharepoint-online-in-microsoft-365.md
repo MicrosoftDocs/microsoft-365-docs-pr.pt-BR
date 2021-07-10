@@ -18,16 +18,16 @@ ms.collection:
 localization_priority: Normal
 ms.assetid: 094e86f2-9ff0-40ac-af31-28fcaba00c1d
 description: Expanda sua presença no Microsoft 365 para várias regiões geográficas com recursos multigeográficos no OneDrive Online.
-ms.openlocfilehash: 8f42b071abef0602304f1a468190c33700fe3e82
-ms.sourcegitcommit: 321610fd312e5c54ae8a757a71ab0c9fd2f1ac03
+ms.openlocfilehash: 405f876317a6cec6defdf3f1a49b0dc32ac0add2
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48995904"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362277"
 ---
 # <a name="multi-geo-capabilities-in-onedrive-and-sharepoint-online"></a>Funcionalidades multigeográficas no OneDrive e no SharePoint Online
 
-Recursos multi-geo no OneDrive e no SharePoint Online permitem o controle de recursos compartilhados, como sites de equipe SharePoint e caixas de correio do Microsoft 365 Group armazenadas em repouso em um país ou região.
+Recursos multi-geo no OneDrive e no SharePoint Online permitem o controle de recursos compartilhados, como sites de equipe SharePoint e caixas de correio Microsoft 365 Group armazenadas em repouso em uma localização geográfica especificada.
 
 Cada usuário, caixa de correio do Grupo e site do SharePoint possui uma Localização Preferencial do Dados (PDL) que indica a localização geográfica onde os dados relacionados devem ser armazenados. Os dados pessoais do usuário (caixa de correio do Exchange e do OneDrive), juntamente com os grupos do Microsoft 365 ou sites do SharePoint criados por eles, podem ser armazenados em uma localização geográfica especificada para atender aos requisitos de residência dos dados. Você pode [especificar administradores diferentes para cada localização geográfica](add-a-sharepoint-geo-admin.md).
 
@@ -43,7 +43,7 @@ O gerenciamento de recursos multigeográficos está disponível por meio do Cent
 
 Quando um usuário cria um site conectado a um grupo do SharePoint no ambiente multigeográfico, o PDL é usado para determinar a localização geográfica onde o site e sua caixa de correio de Grupo associada foram criados. (Se o valor PDL do usuário ainda não foi definida ou foi definida em uma localização geográfica que ainda não foi configurada como uma localização por satélite, os sites e as caixas de correio são criados em uma localização central.)
 
-Os serviços do Microsoft 365, diferentes do Exchange, OneDrive, e SharePoint, não são multigeográficos. No entanto, os grupos do Microsoft 365 que são criados por esses serviços, serão marcados com a PDL do criador e sua caixa de correio do grupo do Exchange e do site do grupo do SharePoint O365 provisionados na localização geográfica correspondente. 
+Microsoft 365 que não sejam Exchange, OneDrive, SharePoint e Teams não são Multi-Geo. No entanto, Microsoft 365 grupos criados por esses serviços serão configurados com o PDL do criador e sua caixa de correio Exchange Group, SharePoint site é provisionado no geo correspondente. 
 
 ## <a name="managing-the-multi-geo-environment"></a>Gerenciar o ambiente multigeográfico
 

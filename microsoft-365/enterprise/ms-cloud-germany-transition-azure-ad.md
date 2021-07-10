@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: informações Azure Active Directory adicionais ao mudar do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para Office 365 serviços na nova região do datacenter alemão.'
-ms.openlocfilehash: 1e3871dc5a8a8a9ecbef29df21431aa3707871d0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0e7abd68945a9b685a33c120ff1e92fda62b2c56
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923845"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362721"
 ---
 # <a name="additional-azure-active-directory-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Informações Azure Active Directory informações adicionais para a migração do Microsoft Cloud Deutschland
 
@@ -80,6 +80,10 @@ Um aplicativo pode ser qualquer um dos seguintes:
 **E os aplicativos que publico?**
 
 Se você publicar um aplicativo que esteja disponível para usuários que estão fora do seu locatário, talvez seja necessário alterar o registro do aplicativo para garantir a continuidade. Outros locatários que usam seu aplicativo podem ser movidos em um momento diferente do seu locatário. Para garantir que eles nunca percam o acesso ao seu aplicativo, você precisará consentir que seu aplicativo seja sincronizado do Azure Germany para o público do Azure.
+
+**E a adição de novos aplicativos multi locatários durante a migração?**
+
+Se você quiser consumir um novo aplicativo publicado por outra organização (aplicativo de vários locatários), será impedido de adicionar esse aplicativo durante o processo de migração (fases 2 a fase 9).  Você pode executar essa tarefa quando sua organização concluir a fase 9 e estiver totalmente em transição para a instância pública do Azure.
 
 ## <a name="additional-considerations"></a>Considerações adicionais
 

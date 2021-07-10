@@ -9,69 +9,67 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: abd1b681f3d5900f846fde7922f2f4a2ca5821ef
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 2eea02b0a891f65ccd7e4e993ca719b0f3aa1b8b
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49841358"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362601"
 ---
 # <a name="getting-help-for-users"></a>Obter ajuda para usuários
 
-Há duas maneiras de os usuários em sua organização obterem ajuda com seus **Área de Trabalho Gerenciada da Microsoft:** Obter Ajuda aplicativo ou suporte por telefone. Ambas as opções de suporte estão disponíveis para usuários 24 horas por dia, 7 dias por semana.
+Se você atingiu o ponto [](../service-description/user-support.md) no fluxo de trabalho em que precisa solicitar acesso ou escalonamento de dispositivos elevados para a Microsoft, siga estas etapas:
  
 >[!NOTE]
 >Essas opções de suporte não estão disponíveis para dispositivos no grupo Teste.
 
-## <a name="get-help-app"></a>Obter Ajuda app
+## <a name="elevation-requests"></a>Solicitações de elevação
 
-O método preferencial para fornecer suporte aos usuários **é Obter Ajuda**, uma interface fácil de usar interna no dispositivo do usuário.  
+Antes de solicitar acesso elevado a um dispositivo, é melhor revisar quais ações são mais adequadas.
 
-![Obter Ajuda ícone do aplicativo](../../media/get-help.png)
+- **As ações típicas** são para as quais esse processo se destina e seria executado rotineiramente durante a solução de problemas com Área de Trabalho Gerenciada da Microsoft dispositivos. Os exemplos incluem:
+    - Elevar os solução de problemas do sistema integrado, o prompt de comando ou Windows PowerShell
+    - Solução de problemas de aplicativos de linha de negócios
+    - Usar uma solução alternativa para corrigir algo que deve funcionar pelo design (como a ativação do BitLocker ou o tempo do sistema não atualizando)
+    - Elevar o Gerenciador de Dispositivos para fazer coisas como atualizar drivers, desinstalar um dispositivo ou verificar novas alterações
 
-Obter Ajuda é um aplicativo instalado em todos os dispositivos Área de Trabalho Gerenciada da Microsoft e fixado à barra de tarefas. 
+- **As ações que não são recomendadas** incluem o seguinte:
+    - Instalar softwares ou navegadores
+    - Instalar drivers fora das configurações Windows, incluindo os para periféricos
+    - Instalando .msi ou .exe arquivos
+    - Instalando Windows recursos
 
-- Os usuários podem solicitar um retorno de chamada para um número de telefone fornecido ou conversar online com um representante de serviço.
-- As solicitações que estão fora do escopo Área de Trabalho Gerenciada da Microsoft suporte são redirecionadas para o helpdesk de IT local por meio de chamada telefônica.
+- **As ações que não são suportadas** incluem o seguinte:
+    - Instalar softwares ou recursos que conflitam com Área de Trabalho Gerenciada da Microsoft ou operações de gerenciamento ou segurança
+    - Desabilitar um recurso Windows que é necessário para Área de Trabalho Gerenciada da Microsoft, como o BitLocker
+    - Modificando configurações gerenciadas por sua organização
+
+### <a name="to-request-elevation"></a>Para solicitar elevação
+
+1. Vá para o portal em [https://aka.ms/mmdelevationrequest](https://aka.ms/mmdelevationrequest) e entre com suas credenciais Azure Active Directory de usuário.
+2. Selecione **Nova solicitação de elevação**.
+3. Forneça estes detalhes:
+    - **ID do tíquete de** suporte do seu próprio sistema de tíquetes de suporte.
+    - **Nome do** dispositivo : insira o número de série do dispositivo e selecione o dispositivo no menu.
+    - **Categoria**: selecione a categoria que melhor se ajusta ao seu problema. Se nenhuma opção parecer próxima, selecione **Outro** e forneça mais informações nos campos **Título** e **Plano de ação.** É melhor selecionar uma categoria, se possível.
+    - **Subcategoria**: selecione o que melhor se encaixa no problema. Se nenhuma opção parecer próxima, selecione **Outro** e forneça uma breve descrição em **Title**. Em **Plano de ação,** forneça as etapas de solução de problemas que você planeja tomar depois que a elevação for concedida.
+4. Selecione **Enviar**.
+
+
+## <a name="escalation-requests"></a>Solicitações de escalonamento
+
+
+Se você precisar [escalar um](../service-description/user-support.md#escalation-portal) problema para a Microsoft, siga estas etapas:
+
+1. Vá para o portal em [https://aka.ms/mmdelevationrequest](https://aka.ms/mmdelevationrequest) e entre com suas credenciais Azure Active Directory de usuário.
+2. Selecione **Solicitações de Escalonamento** e selecione **Nova solicitação de escalonamento.**
+3. Forneça estes detalhes:
+    - **Categoria**: selecione a categoria que melhor se ajusta ao seu problema.
+    - **Título:** forneça uma descrição muito breve.
+    - **Descrição**: adicione quaisquer detalhes adicionais que podem ajudar nossa equipe a entender o problema. Se precisar anexar arquivos, você pode fazer isso voltando à solicitação depois de enviar.
+    - **Principais informações de contato**: Forneça informações sobre como entrar em contato com a principal pessoa responsável por trabalhar com nossa equipe.
+4. Selecione **Enviar**.
+5. Revisite o tíquete no mesmo portal para interagir com nossa equipe.
 
 > [!NOTE]
-> O idioma de exibição do aplicativo Obter Ajuda é somente inglês, mesmo que um usuário tenha selecionado um idioma diferente ao configurar seu dispositivo ou em configurações de dispositivo. 
-
-### <a name="prerequisites"></a>Pré-requisitos
-Para que os usuários sejam capazes de obter ajuda por meio do aplicativo, certifique-se de que esses pré-requisitos sejam atendidos:
-
-- O dispositivo deve ser registrado com Área de Trabalho Gerenciada da Microsoft usando um dos métodos em Configurar Área de Trabalho Gerenciada da Microsoft [dispositivos](../get-started/set-up-devices.md), como Registrar [novos dispositivos por conta própria.](../get-started/register-devices-self.md)
-- O idioma de exibição do dispositivo deve ser definido para qualquer uma dessas localidades em inglês: en-us, en-gb, en-au, en-nz ou en-ca.
-- O Obter Ajuda aplicativo deve estar atualizado. Para confirmar seu status, verifique se há atualizações de aplicativos no Microsoft Store.
-- Determinados [pontos de extremidade](../get-ready/network.md#endpoints-allowed-that-are-necessary-for-microsoft-managed-desktop) devem estar acessíveis a partir do dispositivo.
-
-> [!NOTE]
-> O Obter Ajuda aplicativo pode levar até uma hora depois que um dispositivo é implantado para funcionar totalmente.
-
-Se você tiver verificado esses pré-requisitos e o aplicativo Obter Ajuda ainda não estiver funcionando, você, como administrador de TI, deverá registrar uma solicitação [de suporte.](admin-support.md)
-
-## <a name="phone-support"></a>Suporte telefônico
-
-Os usuários com Área de Trabalho Gerenciada da Microsoft dispositivos também têm acesso a números de telefone gratuitos que podem chamar. Os números devem ser usados quando Obter Ajuda não estiver disponível. Por exemplo, se eles não puderem entrar no dispositivo ou o dispositivo estiver quebrado. Aqui estão os números de telefone para suporte telefônico:
-
-- Estados Unidos: +1 855 425 0216
-- Canadá (excluindo Quebec): +1 855 425 0216
-- Reino Unido: +44 800 026 0698
-- Bélgica: +32 800 58533
-- Luxemburgo: +352 800 40119
-- Austrália: +61 180 037 0619
-- Nova Zelândia: +64 988 44380
-- Suécia: +46 20 120 3554
-- Noruega: +47 800 62584
-- Islândia: +354 800 9006
-- Irlanda: +353 1 800 832272
-- Dinamarca: +45 80 40 04 01
-- Finlândia: +358 800 525088
-
->[!NOTE]
->Você precisará ter seu endereço de email organizacional pronto quando ligar para verificar sua identidade. 
-
-## <a name="more-resources"></a>Mais recursos
-- [Suporte de administrador para Área de Trabalho Gerenciada da Microsoft](admin-support.md). 
-- [Suporte para Área de Trabalho Gerenciada da Microsoft](../service-description/support.md).
-- Se você já se inscrever no Área de Trabalho Gerenciada da Microsoft, poderá encontrar procedimentos detalhados, fluxos de processo, instruções de trabalho e perguntas frequentes no Guia de Administração do Área de Trabalho Gerenciada da Microsoft nos recursos **Online** na seção Área de Trabalho Gerenciada da Microsoft do **menu** administração de locatários em [Microsoft Endpoint Manager](https://endpoint.microsoft.com/).
+> Somente problemas de Severidade C podem ser escalonados por esse caminho. Para outros problemas, contate o administrador de IT para arquivar a solicitação por meio do portal de administração.

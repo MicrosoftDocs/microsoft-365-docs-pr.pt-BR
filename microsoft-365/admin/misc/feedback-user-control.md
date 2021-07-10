@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre comentários que seus usuários podem enviar para a Microsoft sobre produtos microsoft.
-ms.openlocfilehash: 29fe6b7f43b3c888c3848daeb6ab4c2152a9c44c
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: 7b8798847559e84a6ea10079aab010a08d8eaa42
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650048"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363926"
 ---
 # <a name="learn-about-microsoft-feedback-for-your-organization"></a>Saiba mais sobre os comentários da Microsoft para sua organização
 
@@ -84,13 +84,12 @@ Quando um usuário envia comentários, as informações do aplicativo geralmente
 - **Anexos**   Foram quaisquer anexos (ou seja, capturas de tela, arquivos) coletados como parte dos comentários? (Sim/Não).
 - **TenantId**   Se os comentários são enviados de uma conta Azure Active Directory, que TenantId foi associado.
 
-## <a name="data-handling-and-privacy"></a>Tratamento de dados e privacidade
-
-Trabalhamos para ganhar confiança, garantindo que nos concentremos no tratamento de dados básicos e nos princípios de privacidade de dados.
-Asseguramos que os comentários recebidos sejam armazenados e manipulados em regras de governança da Microsoft e que ele só possa ser acessado para usos aprovados.
-
-Colocamos você no controle de sua privacidade com ferramentas fáceis de usar e opções claras. Somos transparentes sobre como coletamos e usamos dados, para que você possa tomar decisões informadas sobre o que deseja compartilhar. Protegemos os dados que você confia a nós com segurança e criptografia fortes. Respeitamos as leis de privacidade local e lutamos pela proteção legal de sua privacidade como um direito humano. Não usamos seu email, chat, arquivos ou outro conteúdo pessoal para direcionar anúncios para você. Quando coletamos dados, os usamos para melhorar suas experiências. Saiba mais sobre a abordagem da Microsoft para privacidade [aqui](https://privacy.microsoft.com/). Saiba mais sobre nossa visão geral [de privacidade.](/compliance/assurance/assurance-privacy)
-
 ## <a name="how-can-i-see-my-users-feedback"></a>Como posso ver os comentários do meu usuário?
 
-Em breve, compartilharemos os dados de comentários que coletamos para os produtos microsoft de volta para você. Estamos trabalhando em uma nova experiência no centro de administração Microsoft 365 que permite que você exclua, exclua e exporte os dados de comentários para sua organização. Isso fornece transparência direta e informações úteis sobre as experiências dos usuários com Microsoft 365 produtos.
+Para atender às obrigações legais da Microsoft para os clientes, estamos trabalhando em uma nova experiência no Centro de administração do Microsoft 365 que permite que os administradores excluam, excluam e exportem os dados de feedback para suas organizações. Como parte da responsabilidade do controlador de dados, os clientes são donos de todos os dados de comentários do usuário e essa funcionalidade ajudará os administradores a fornecer transparência direta nas experiências dos usuários com produtos Microsoft 365 e permitir que os dados de comentários do usuário sejam fornecidos como parte de qualquer Solicitação de Titulares de Dados. Os administradores globais e os administradores de dados de conformidade terão a capacidade de exibir, exportar e excluir comentários do usuário. Todos os outros administradores, bem como leitores, poderão exibir e exportar dados de comentários, mas não poderão executar tarefas relacionadas à conformidade ou ver informações sobre quem postou os comentários (como nome de usuário, email ou nome do dispositivo). Para acessar os dados de comentários da sua organização, entre no Centro de administração do Microsoft 365 e personalize a navegação para mostrar o nó de saúde. Acesse essa experiência selecionando **Comentários do Produto** no nó Saúde.
+
+## <a name="data-handling-and-privacy"></a>Tratamento de dados e privacidade
+
+Entendemos que, ao usar nossos serviços de nuvem, você está nos confiando um dos seus ativos mais valiosos: seus dados. Asseguramos que os comentários recebidos sejam armazenados e manipulados em regras de governança da Microsoft e que ele só possa ser acessado para usos aprovados. Não usamos seu email, chat, arquivos ou outro conteúdo pessoal para direcionar anúncios para você. Quando coletamos dados, os usamos para melhorar suas experiências.
+
+Para saber mais sobre como protegemos a privacidade e a confidencialidade de seus dados e como garantimos que eles serão usados apenas de forma consistente com suas expectativas, revise nossos princípios de privacidade na Central de Confiabilidade da [Microsoft.](https://www.microsoft.com/trust-center/privacy)

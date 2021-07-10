@@ -1,5 +1,5 @@
 ---
-title: Suporte para Área de Trabalho Gerenciada da Microsoft
+title: Suporte do administrador
 description: Descreve o gerenciamento proativo e reativo de incidentes Área de Trabalho Gerenciada da Microsoft.
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
@@ -9,14 +9,14 @@ manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 90787ec28aa2c421df50757fc29bf20b2b5d55f7
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 1c4d94fb89aef76617ebd0995a6849de428afea4
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925498"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362469"
 ---
-# <a name="support-for-microsoft-managed-desktop"></a>Suporte para Área de Trabalho Gerenciada da Microsoft
+# <a name="admin-support"></a>Suporte do administrador
 
 A Microsoft fornecerá gerenciamento proativo e reativo de incidentes. A Microsoft rastreia incidentes no portal Área de Trabalho Gerenciada da Microsoft administrador. Eles são classificados de acordo com [as definições de gravidade.](../working-with-managed-desktop/admin-support.md#sev)
 
@@ -38,7 +38,7 @@ Produtos com suporte:
 - Windows 10 com o Microsoft Defender para Ponto de Extremidade
 - Esses Microsoft 365 Apps para Grandes Empresas aplicativos: Outlook, Word, PowerPoint, Excel, Skype for Business cliente, Microsoft Teams 
 - Microsoft Store para empresas 
-- OneDrive for Business cliente 
+- OneDrive cliente 
 
 Detalhes do suporte:
 

@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como mover um site SharePoint para uma localização geográfica diferente em seu ambiente multi-geo e comunicar as expectativas das alterações aos seus usuários.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eed323b2e2b8f68a4a603052657e17495bb17690
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5a49098045dbce94ef1c474497b8da1b397ac0b0
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50910925"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362349"
 ---
 # <a name="move-a-sharepoint-site-to-a-different-geo-location"></a>Mover um site do SharePoint para uma localização geográfica diferente
 
@@ -28,7 +28,7 @@ Com a mudança geográfica do site do SharePoint, é possível migrar os sites d
 
 Os seguintes tipos de sites podem ser movidos entre a localizações geográficas:
 
-- Sites conectados ao grupo do Microsoft 365
+- Microsoft 365 Sites conectados a grupos, incluindo os associados a Microsoft Teams
 - Sites modernos sem uma associação com um Grupo do Microsoft 365
 - Site Clássico do SharePoint
 - Sites de comunicação
@@ -177,11 +177,11 @@ Enquanto a movimentação estiver em andamento o site é definido como somente l
 
 Os usuários com permissões para o site continuarão a ter acesso ao site durante a movimentação e após sua conclusão.
 
-### <a name="sync-client"></a>Cliente Sync
+### <a name="sync-app"></a>Aplicativo de sincronização
 
-O cliente de sincronização detectará automaticamente e transferirá a sincronização para a nova localização do site assim que a movimentação do site for concluída. O usuário não precisa entrar novamente ou realizar outras ações. (Uma Versão 17.3.6943.0625 ou posterior do cliente de sincronização é necessária.)
+O aplicativo de sincronização detectará automaticamente e transferirá perfeitamente a sincronização para o novo local do site depois que a movimentação do site for concluída. O usuário não precisa entrar novamente ou realizar outras ações. (Versão 17.3.6943.0625 ou posterior do aplicativo de sincronização necessário.)
 
-Se um usuário atualizar um arquivo enquanto a movimentação geográfica estiver em andamento, o cliente de sincronização o notificará de que uploads de arquivo estão pendentes enquanto a movimentação estiver em andamento.
+Se um usuário atualizar um arquivo enquanto a movimentação estiver em andamento, o aplicativo de sincronização notificará que os carregamentos de arquivos estão pendentes enquanto a movimentação está em andamento.
 
 ### <a name="sharing-links"></a>Links de compartilhamento
 

@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Crie políticas de alerta no Centro de conformidade do Microsoft 365 para monitorar possíveis ameaças, perda de dados e problemas de permissões.
-ms.openlocfilehash: 4ae85f69eea5221945c531b2b63000be7eb43fb7
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: 02b5727f0c844fa6b825b4c0c032ea6c2633d6df
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341063"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363986"
 ---
 # <a name="alert-policies-in-the-microsoft-365-compliance-center"></a>Políticas de alerta no Centro de conformidade do Microsoft 365
 
@@ -62,6 +62,9 @@ Uma política de alerta consiste em um conjunto de regras e condições que defi
 Vá para <https://compliance.microsoft.com> e selecione Políticas Políticas   >  **alerta** políticas  >  **de alerta.** Como alternativa, você pode ir diretamente para <https://compliance.microsoft.com/alertpolicies> .
 
 ![No centro de conformidade, selecione Políticas e, em Alerta, selecione Políticas de alerta para exibir e criar políticas de alerta](../media/LaunchAlertPoliciesMCC.png)
+
+> [!NOTE]
+> Você precisa receber a função gerenciar alertas View-Only para exibir políticas de alerta no Centro de conformidade do Microsoft 365. Você precisa receber a função Gerenciar Alertas para criar e editar políticas de alerta. Para obter mais informações, consulte [Permissões no centro de segurança e conformidade.](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
 
 Uma política de alerta consiste nas seguintes configurações e condições.
 

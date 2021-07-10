@@ -429,7 +429,7 @@
               href: archive-salesforcechatter-data.md
             - name: ServiceNow
               href: archive-servicenow-data.md
-            - name: Skype for Business (visualização)
+            - name: Skype for Business
               href: archive-skypeforbusiness-data.md
             - name: Descoberta eletrônica da Slack
               href: archive-slack-data.md
@@ -463,9 +463,9 @@
               href: archive-enterprise-number-data.md
             - name: O2 Telefonica SMS e Voice Network Archiver
               href: archive-o2-network-data.md
-            - name: Signal (visualização)
+            - name: Arquivar Sinal
               href: archive-signal-archiver-data.md
-            - name: Telegram (visualização)
+            - name: Arquivador do Telegram
               href: archive-telegram-archiver-data.md
             - name: TELUS Network
               href: archive-telus-network-data.md

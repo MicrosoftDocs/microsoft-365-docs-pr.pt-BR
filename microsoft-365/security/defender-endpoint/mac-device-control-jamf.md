@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b9ce161a472366d11b267824c9bd08ceccf285aa
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 21e44090cf21ac8bba29885a2f97242faf3e2164
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933452"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363962"
 ---
 # <a name="examples-of-device-control-policies-for-jamf"></a>Exemplos de políticas de controle de dispositivo para JAMF
 
@@ -34,8 +34,6 @@ ms.locfileid: "51933452"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
-
-[!include[Prerelease information](../../includes/prerelease.md)]
 
 Este documento contém exemplos de políticas de controle de dispositivo que você pode personalizar para sua própria organização. Esses exemplos serão aplicáveis se você estiver usando o JAMF para gerenciar dispositivos em sua empresa.
 

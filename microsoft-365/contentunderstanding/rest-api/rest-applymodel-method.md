@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Use a API REST para aplicar um modelo de compreensão de documento a uma ou mais bibliotecas.
-ms.openlocfilehash: 24ea9a480bc3ce5a7745857de17a6fab6ed97685
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 04f1dfdb0c16110c9ba7de12f5f0735d498d50cf
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177256"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286532"
 ---
 # <a name="batch-apply-model"></a>Modelo de Aplicação em lote
 
@@ -48,21 +48,23 @@ Nenhum
 |Publicações|sim|MachineLearningPublicationEntityData[]|A coleção do MachineLearningPublicationEntityData de cada um deles especifica o modelo e a biblioteca de documentos de destino.|
 
 ### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+
 | Nome | Obrigatório | Tipo | Descrição |
 |--------|-------|--------|------------|
-|ModelUniqueId|sim|cadeia de caracteres|A ID exclusiva do arquivo de modelo.|
-|TargetSiteUrl|sim|cadeia de caracteres|A URL completa do site da biblioteca de destino.|
-|TargetWebServerRelativeUrl|sim|cadeia de caracteres|A URL relativa do servidor da web para a biblioteca de destino.|
-|TargetLibraryServerRelativeUrl|sim|cadeia de caracteres|A URL relativa do servidor da biblioteca de destino.|
+|ModelUniqueId|sim|string|A ID exclusiva do arquivo de modelo.|
+|TargetSiteUrl|sim|string|A URL completa do site da biblioteca de destino.|
+|TargetWebServerRelativeUrl|sim|string|A URL relativa do servidor da web para a biblioteca de destino.|
+|TargetLibraryServerRelativeUrl|sim|string|A URL relativa do servidor da biblioteca de destino.|
 |ViewOption|não|string|Especifica se o novo modo de exibição de modelo deve ser definido como o padrão da biblioteca.|
 
 ## <a name="response"></a>Resposta
 
 | Nome   | Tipo  | Descrição|
 |--------|-------|------------|
-|201 Criado||Esta é uma API personalizada para dar suporte à aplicação de um modelo a bibliotecas de documentos múltiplos. No caso de êxito parcial, ainda é possível retornar 201 criado e o chamador precisa inspecionar o corpo da resposta para entender se o modelo foi aplicado com êxito de uma biblioteca de documentos.|
+|201 Criado||Essa é uma API personalizada para dar suporte à aplicação de um modelo a várias bibliotecas de documentos. No caso de êxito parcial, o 201 criado ainda pode ser retornado e o chamador precisa inspecionar o corpo da resposta para entender se o modelo foi aplicado com êxito a uma biblioteca de documentos.|
 
 ## <a name="response-body"></a>Corpo da resposta
+
 | Nome   | Tipo  | Descrição|
 |--------|-------|------------|
 |TotalSuccesses|int|O número total de um modelo que está sendo aplicado com êxito de uma biblioteca de documentos.|
@@ -70,6 +72,7 @@ Nenhum
 |Detalhes|MachineLearningPublicationResult[]|A coleção do MachineLearningPublicationResult de cada um deles especifica o resultado detalhado da aplicação do modelo à uma biblioteca de documentos.|
 
 ### <a name="machinelearningpublicationresult"></a>MachineLearningPublicationResult
+
 | Nome   | Tipo  | Descrição|
 |--------|-------|------------|
 |StatusCode|int|O código de status HTTP.|
@@ -77,6 +80,7 @@ Nenhum
 |Publicação|MachineLearningPublicationEntityData|Especifica as informações do modelo e a biblioteca de documentos de destino.| 
 
 ### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+
 | Nome | Tipo | Descrição |
 |--------|--------|------------|
 |ModelUniqueId|cadeia de caracteres|A ID exclusiva do arquivo de modelo.|
