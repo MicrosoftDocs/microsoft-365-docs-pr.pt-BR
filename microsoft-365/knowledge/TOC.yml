@@ -48,3 +48,5 @@
   items:
     - name: Começar a impulsionar a adoção
       href: topics-adoption-getstarted.md
+    - name: Executar uma avaliação
+      href: trial-topics.md
