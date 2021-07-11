@@ -121,7 +121,7 @@
               href: microsoft-365-client-support-certificate-based-authentication.md
             - name: Acesso Condicional
               href: microsoft-365-client-support-conditional-access.md
-            - name: Autenticação multifator
+            - name: Autenticação de vários fatores
               href: microsoft-365-client-support-multi-factor-authentication.md
             - name: Logon único
               href: microsoft-365-client-support-single-sign-on.md
@@ -211,6 +211,8 @@
       items:
         - name: Microsoft 365 Multi-Geo
           href: microsoft-365-multi-geo.md
+        - name: Teams multigeográfico
+          href: multi-geo-capabilities-in-teams-in-microsoft-365.md
         - name: OneDrive e SharePoint Online com multigeográfico
           href: multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md
         - name: Exchange Multigeográfico
@@ -627,7 +629,7 @@
           href: federated-identity-for-your-microsoft-365-dev-test-environment.md
         - name: Logon único contínuo do Azure AD
           href: single-sign-on-m365-ent-test-environment.md
-        - name: Autenticação multifator
+        - name: Autenticação de vários fatores
           href: multi-factor-authentication-microsoft-365-test-environment.md
         - name: Proteger contas de administrador global
           href: protect-global-administrator-accounts-microsoft-365-test-environment.md

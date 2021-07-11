@@ -41,8 +41,10 @@
           href: service-description/privacy-personal-data.md
         - name: Atualizações
           href: service-description/updates.md
-        - name: Suporte
+        - name: Suporte do administrador
           href: service-description/support.md
+        - name: Suporte ao usuário
+          href: service-description/user-support.md
         - name: Operações e monitoramento
           href: service-description/operations-and-monitoring.md
         - name: Logs de diagnóstico
@@ -115,6 +117,8 @@
                   href: get-started/register-devices-partner.md
             - name: Registre dispositivos existentes por conta própria
               href: get-started/register-reused-devices-self.md
+        - name: Habilitar recursos de suporte do usuário
+          href: get-started/enable-support.md
         - name: Prepare usuários para usarem os dispositivos
           href: get-started/get-started-devices.md
         - name: Experiência da primeira execução com o piloto automático e a página de status do registro
