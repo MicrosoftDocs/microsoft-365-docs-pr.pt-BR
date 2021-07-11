@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O painel de classificação de dados permite visualizar a quantidade de dados confidenciais encontrados e classificados em sua organização.
-ms.openlocfilehash: d9c53d1f4679fbea9f5a7cded7f4bb6b6eb15b98
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: c0343117251d169d0284c2fdb3fc3b8bca5ff0df
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244378"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362553"
 ---
 # <a name="learn-about-data-classification"></a>Saiba mais sobre a classificação de dados
 
@@ -65,6 +65,9 @@ Várias assinaturas diferentes oferecem suporte ao Ponto de extremidade da DLP. 
 - Administrador de conformidade
 - Administrador de segurança
 - Administrador de dados de conformidade
+
+> [!NOTE]
+> Como prática recomendada, sempre use a função com menos privilégios para conceder acesso à Classificação de Dados do Microsoft 365.
 
 ## <a name="sensitive-information-types-used-most-in-your-content"></a>Tipos de informações confidenciais mais usados no seu conteúdo
 

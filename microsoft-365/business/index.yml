@@ -27,10 +27,10 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
       summary: O gerenciamento de antivírus e a impressão universal agora estão disponíveis no Microsoft 365 Business Premium.
       url: 'https://aka.ms/M365BPQ1Update'
-    - title: Junte-se à série de webinários de parceiros
+    - title: Participe do webinar parceiro do Microsoft 365 Lighthouse em 28 de julho
       imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg'
-      summary: Acelere o crescimento dos negócios por meio de serviços gerenciados com o Microsoft 365 Business Premium.
-      url: 'https://aka.ms/acceleratewithm365bp'
+      summary: Usar o Microsoft 365 Lighthouse para proteger e padronizar os clientes Microsoft 365 Business Premium.
+      url: 'https://aka.ms/m365lighthousewebinar'
 conceptualContent:
   items:
     - title: O que é o Microsoft 365 Business Premium?

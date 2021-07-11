@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de conformidade do Microsoft 365 para pesquisar o log de auditoria unificado para visualizar a atividade do usuário e administrador em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 46f223953df65b75c0ecfe0d2c9fe92514b797ff
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: a3c7f88441b05d6c64470f6632b9c63ac67b295c
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341647"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363950"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Pesquisar o log de auditoria no centro de conformidade
 
@@ -620,7 +620,7 @@ A tabela a seguir lista os eventos decorrentes de tarefas de administração de 
 |Administrador de localização geográfica adicionado|GeoAdminAdded|Um administrador global ou do SharePoint adicionou um usuário como um administrador geográfico de um local.|
 |Usuário com permissão para criar grupos|AllowGroupCreationSet|O proprietário ou administrador do site adiciona um nível de permissão a um site, que permite que um usuário com essa permissão crie um grupo para esse site.|
 |Movimentação geográfica do site cancelada|SiteGeoMoveCancelled|Um administrador global ou do SharePoint cancela com êxito uma movimentação geográfica do site do SharePoint ou do OneDrive. O recurso do Modelo Multigeográfico permite que uma organização abranja várias áreas geográficas do datacenter da Microsoft, chamadas geos. Para obter mais informações, confira [Funcionalidades multigeográficas do Onedrive e do SharePoint Online](../enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md).|
-|Política de compartilhamento alterada|SharingPolicyChanged|Um administrador global ou do SharePoint alterou uma política de compartilhamento do SharePoint usando o portal de administração do Microsoft 365, o portal de administração do SharePoint ou o Shell de Gerenciamento do SharePoint Online. Qualquer alteração nas configurações da política de compartilhamento na sua organização será registrada. A política que foi alterada é identificada no campo **ModifiedProperties** nas propriedades detalhadas do registro de evento.|
+|Política de compartilhamento alterada|SharingPolicyChanged|Um administrador global ou do Microsoft Office SharePoint Online alterou uma política de compartilhamento do SharePoint usando o Centro de administração do Microsoft 365, o Centro de administração do SharePoint ou o Shell de Gerenciamento do Microsoft Office SharePoint Online. Qualquer alteração nas configurações da política de compartilhamento na sua organização será registrada. A política que foi alterada é identificada no campo **ModifiedProperties** nas propriedades detalhadas do registro de evento.|
 |Política de acesso a dispositivo alterada|DeviceAccessPolicyChanged|Um administrador global ou do SharePoint alterou a política de dispositivos não gerenciados para sua organização. Esta política controla o acesso ao SharePoint, OneDrive e ao Microsoft 365 de dispositivos que não estão associados à sua organização. Configurar esta política requer uma assinatura do Enterprise Mobility + Security. Para obter informações, consulte [Controlar o acesso de dispositivos gerenciados](/sharepoint/control-access-from-unmanaged-devices).|
 |Agentes de usuário isentos alterados|CustomizeExemptUsers|Um administrador global ou do Microsoft Office SharePoint Online personalizou a lista de agentes de usuário isentos no Centro de administração do SharePoint. Você pode especificar quais agentes de usuário deseja se isenta do recebimento de uma página da Web inteira para o índice. Isso significa que, quando um agente de usuário especificado como isento encontra um formulário do InfoPath, o formulário retorna como um arquivo XML, em vez de uma página da Web inteira. Isso torna a indexação de formulários do InfoPath mais rápida.|
 |Política de acesso à rede alterada|NetworkAccessPolicyChanged|Um administrador global do ou do SharePoint alterou a política de acesso baseado no local (também chamada de limite de rede confiável) no centro de administração do SharePoint ou usando o PowerShell do SharePoint Online. Esse tipo de política controla quem pode acessar os recursos do SharePoint e do OneDrive em sua organização com base em intervalos de endereços IP autorizados, especificados por você. Para saber mais, confira [Controlar o acesso aos dados do SharePoint Online e do Onedrive com base no local de rede](/sharepoint/control-access-based-on-network-location).|

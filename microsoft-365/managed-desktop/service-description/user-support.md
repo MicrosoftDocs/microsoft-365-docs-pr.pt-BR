@@ -9,12 +9,12 @@ manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 8cb1b30da84ece597235d8eef674a12208ab6456
-ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
+ms.openlocfilehash: 8063e1b0e76241df946a29ef2c5115bc0dc39aad
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53362640"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363762"
 ---
 # <a name="user-support"></a>Suporte ao usuário
 
@@ -83,7 +83,7 @@ Se um problema do usuário precisar ser escalonado para Área de Trabalho Gerenc
 
 ### <a name="elevation-portal"></a>Portal de elevação 
 
-Como Área de Trabalho Gerenciada da Microsoft dispositivos são executados no usuário padrão por padrão, algumas tarefas exigem elevação de privilégios. (Para obter mais informações sobre o controle de conta de usuário, consulte [Controle de conta de usuário](/windows/security/identity-protection/user-account-control/user-account-control-overview)) Para que a equipe de [](../working-with-managed-desktop/end-user-support.md#elevation-requests) suporte possa executar tarefas durante a solução de problemas para os usuários, fornecemos acesso "just-in-time" a uma conta de administrador. Essa senha acessada com segurança apenas por aqueles que você designa e gira a cada duas horas.  
+Como Área de Trabalho Gerenciada da Microsoft dispositivos são executados no usuário padrão por padrão, algumas tarefas exigem elevação de privilégios. Para obter mais informações sobre o controle de conta de usuário, consulte [Controle de conta de usuário](/windows/security/identity-protection/user-account-control/user-account-control-overview). Para que a equipe de [](../working-with-managed-desktop/end-user-support.md#elevation-requests) suporte possa executar tarefas durante a solução de problemas para os usuários, fornecemos acesso "just-in-time" a uma conta de administrador. Essa senha acessada com segurança apenas por aqueles que você designa e gira a cada duas horas.  
 
 Para ver as etapas sobre como configurar usuários para acesso a esse portal, consulte [Habilitar recursos de suporte ao usuário](../get-started/enable-support.md).
 

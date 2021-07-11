@@ -10,12 +10,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 0c08f5d05c42ed8d1e84632377be28e542771c2a
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: e70a67f9472dff155b8554d5d6ae26c79d49a67a
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841361"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362612"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de trabalho gerenciada da Microsoft?
 
@@ -25,7 +25,6 @@ A Área de Trabalho Gerenciada da Microsoft é um serviço baseado em nuvem que 
 - Implantação de dispositivos do usuário
 - Gerenciamento e operações de serviços de TI
 - Monitoramento e resposta de segurança
-- Suporte ao usuário
 
 A Área de Trabalho Gerenciada da Microsoft oferece uma solução para vários dos desafios das empresas e seus funcionários:
 - A transição para o mundo ágil do software como um serviço é assustador.
@@ -33,7 +32,7 @@ A Área de Trabalho Gerenciada da Microsoft oferece uma solução para vários d
 - Muitos processos atuais de segurança e gerenciamento de TI estão desatualizados, exigem muito tempo e são caros.
 - As empresas querem se concentrar no que as torna bem-sucedidas, em vez de manter a infraestrutura digital.
 
-Os usuários apreciarão as versões mais recentes dos aplicativos do Windows 10 e do aplicativos do Microsoft 365 Apps para Grandes Empresas (e muito mais) usando dispositivos e software que são organizados e rigorosamente testados para melhorar o desempenho e a confiabilidade. Além disso, você nunca precisará se preocupar em manter algum software atualizado porque isso acontece automaticamente, seguindo uma sequência de distribuição cuidadosa que é monitorada todas as etapas do processo. Os dispositivos registrados são monitorados 24 horas por dia, 7 dias por semana, para resolver problemas técnicos e de segurança.
+Os usuários apreciarão as versões mais recentes dos aplicativos do Windows 10 e do aplicativos do Microsoft 365 Apps para Grandes Empresas (e muito mais) usando dispositivos e software que são organizados e rigorosamente testados para melhorar o desempenho e a confiabilidade. Além disso, você nunca precisará se preocupar em manter algum software atualizado porque isso acontece automaticamente, seguindo uma sequência de distribuição cuidadosa que é monitorada todas as etapas do processo. E os dispositivos registrados são monitorados 24 horas por dia, sete dias por semana para problemas técnicos e de segurança, portanto, se algo der errado, a ajuda estará a caminho.
 
 
 ## <a name="unique-to-microsoft-managed-desktop"></a>Exclusivo para a Área de Trabalho Gerenciada da Microsoft
